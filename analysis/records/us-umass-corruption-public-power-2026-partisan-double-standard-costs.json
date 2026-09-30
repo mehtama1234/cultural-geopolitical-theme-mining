@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-umass-corruption-public-power-2026-partisan-double-standard-costs",
+  "title": "Americans broadly agree corruption exists and recognize public-power abuses, while partisan identity redirects blame and judgment",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "University of Massachusetts Amherst Poll, September 2026 national public-opinion poll on federal corruption, presidential conduct, national direction, and economic perceptions",
+  "geography": "United States; adults nationally with party, ideology, demographic, and economic comparisons",
+  "observations": [
+    {
+      "period": "August 21-26, 2026; perceived federal corruption",
+      "denominator": {"value": 1000, "unit": "U.S. adults surveyed; margin of error plus or minus 3.5 percentage points", "value_type": "survey_sample"},
+      "measures": {
+        "at_least_some_corruption": {"value": 97, "unit": "percent saying at least some corruption exists in the federal government", "value_type": "reported_share"},
+        "great_deal_corruption": {"value": 75, "unit": "percent saying a great deal of corruption exists", "value_type": "reported_share"},
+        "presidency_most_corrupt": {"value": 53, "unit": "percent ranking the presidency as the most corrupt of four federal institutions", "value_type": "reported_share"},
+        "wrong_track": {"value": 69, "unit": "percent saying the country is on the wrong track; 20% say right direction", "value_type": "reported_share"}
+      },
+      "method": "UMass Amherst national poll fielded August 21-26, 2026; respondents were matched to an ACS-based sampling frame, propensity-weighted, and raked on presidential vote choice and demographic variables.",
+      "uncertainty": "These are perceptions, not verified corruption incidents, legal findings, or institutional-performance measures; the poll is cross-sectional and the wrong-track question does not identify causes.",
+      "subgroup": "U.S. adults nationally, with party, ideology, age, race, education, income, and vote-choice comparisons.",
+      "counterinterpretation": "Near-universal belief that some corruption exists may express generalized distrust or a broad definition of corruption rather than agreement about specific misconduct; wrong-track judgments can reflect prices, policy, identity, or partisan evaluation.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll",
+      "retrieval_hash": "sha256:ac0db0898149bc38e12965712c0f940a2f95d8c7395a4cab86c77a9e422f3e6c",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; partisan location of blame",
+      "denominator": {"value": 1000, "unit": "U.S. adults surveyed; institution-ranking question asks respondents to rank four federal institutions", "value_type": "survey_sample"},
+      "measures": {
+        "democrats_presidency_most_corrupt": {"value": 87, "unit": "percent of Democrats ranking the presidency most corrupt", "value_type": "reported_share"},
+        "republicans_presidency_most_corrupt": {"value": 18, "unit": "percent of Republicans ranking the presidency most corrupt", "value_type": "reported_share"},
+        "republicans_bureaucracy_most_corrupt": {"value": 44, "unit": "percent of Republicans ranking the federal bureaucracy most corrupt", "value_type": "reported_share"},
+        "republicans_congress_most_corrupt": {"value": 30, "unit": "percent of Republicans ranking Congress most corrupt", "value_type": "reported_share"}
+      },
+      "method": "UMass poll subgroup comparison using party identification; respondents ranked the president, Congress, Supreme Court, and federal bureaucracy from most to least corrupt.",
+      "uncertainty": "The partisan differences are associations, not evidence that party identity causes corruption judgments; ranking forces relative choices among institutions and may be sensitive to current officeholders and news context.",
+      "subgroup": "Democratic and Republican respondents in the August 2026 national poll.",
+      "counterinterpretation": "Partisan disagreement over institutional location can coexist with cross-party agreement that specific conduct is corrupt; disagreement over the villain is not the same as disagreement over every norm.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll",
+      "retrieval_hash": "sha256:ac0db0898149bc38e12965712c0f940a2f95d8c7395a4cab86c77a9e422f3e6c",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; shared standards for public-power abuse",
+      "denominator": {"value": 1000, "unit": "U.S. adults surveyed", "value_type": "survey_sample"},
+      "measures": {
+        "investigation_for_trading_votes": {"value": 87, "unit": "percent of both Democrats and Republicans wanting an investigation when officials trade votes for campaign contributions", "value_type": "reported_share"},
+        "president_should_not_profit": {"value": 77, "unit": "percent saying a sitting president should not profit from business ventures potentially affected by administration policy", "value_type": "reported_share"},
+        "do_not_trust_avoid_family_business_benefit": {"value": 66, "unit": "percent lacking trust that President Trump will avoid using office to benefit his family's business interests", "value_type": "reported_share"},
+        "lack_confidence_public_interest": {"value": 61, "unit": "percent lacking confidence in the president's ability to make decisions serving the public interest", "value_type": "reported_share"}
+      },
+      "method": "UMass poll questions about corruption standards and presidential conduct; response options distinguish perceived corruption, investigation preferences, and trust in presidential conduct.",
+      "uncertainty": "The poll measures stated judgments and trust, not observed enforcement, ethics investigations, legal liability, or subsequent behavior; question wording and current political events may shape responses.",
+      "subgroup": "U.S. adults nationally, with partisan comparisons reported for selected items.",
+      "counterinterpretation": "Shared standards about self-dealing or vote trading can coexist with partisan double standards about identical actions by presidents of different parties; support for investigation does not guarantee institutional follow-through.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll",
+      "retrieval_hash": "sha256:ac0db0898149bc38e12965712c0f940a2f95d8c7395a4cab86c77a9e422f3e6c",
+      "status": "reported"
+    },
+    {
+      "period": "October 2024-August 2026; household price perception and political attribution",
+      "denominator": {"value": 915, "unit": "poll respondents reporting that at least one listed good or service increased in price, for responsibility question; broader economic ratings use N=1,000", "value_type": "conditional_survey_sample"},
+      "measures": {
+        "national_economy_fair_or_poor": {"value": 80, "unit": "percent rating the national economy fair or poor in August 2026", "value_type": "reported_share"},
+        "own_economy_fair_or_poor": {"value": 64, "unit": "percent rating their own economic situation fair or poor in August 2026", "value_type": "reported_share"},
+        "grocery_prices_increased": {"value": 82, "unit": "percent saying grocery prices increased in recent months", "value_type": "reported_share"},
+        "utilities_increased": {"value": 77, "unit": "percent saying utility prices increased in recent months", "value_type": "reported_share"},
+        "blame_president_for_price_rise": {"value": 53, "unit": "percent of conditional respondents assigning most responsibility to President Trump", "value_type": "reported_share"}
+      },
+      "method": "UMass repeated national poll measures from October 2024 through August 2026, using separate national and own-economic ratings, perceived price-change questions, and a conditional responsibility question.",
+      "uncertainty": "Perceived price changes and attribution are not price-index or causal-incidence estimates; the responsibility denominator excludes respondents who did not report an increase and the poll does not measure actual household spending or hardship.",
+      "subgroup": "U.S. adults nationally; conditional price-responsibility universe where specified.",
+      "counterinterpretation": "Households can perceive price pressure while having different actual inflation exposure, income buffers, or coping routes; attributing prices to a president is a political judgment, not a causal estimate.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll",
+      "retrieval_hash": "sha256:ac0db0898149bc38e12965712c0f940a2f95d8c7395a4cab86c77a9e422f3e6c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a public-power and attribution layer: Americans broadly perceive federal corruption and price pressure, share some standards for public abuse, but divide sharply over which institution is responsible and how identical conduct should be judged. It does not establish actual corruption, legal violations, causal responsibility for prices, enforcement, institutional remedy, or later political behavior."
+}

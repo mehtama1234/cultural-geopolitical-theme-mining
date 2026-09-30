@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usda-food-security-assistance-spending-2024-2025-2026",
+  "title": "Food access remains materially constrained while inflation-adjusted nutrition-assistance spending recedes",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action", "time_hidden_price"],
+  "source_unit": "USDA Economic Research Service national food-security prevalence and federal food-and-nutrition-assistance spending summaries",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Calendar year 2024; annual household food-security survey",
+      "denominator": {"value": 100, "unit": "percent of U.S. households represented by the national prevalence base", "value_type": "reported_percentage_base"},
+      "measures": {
+        "food_insecure_households": {"value": 13.7, "unit": "percent of households; approximately 18.3 million households", "value_type": "reported_prevalence"},
+        "very_low_food_security": {"value": 5.4, "unit": "percent of households; approximately 7.2 million households", "value_type": "reported_prevalence"},
+        "food_insecure_households_with_children": {"value": 18.4, "unit": "percent of households with children", "value_type": "reported_prevalence"},
+        "food_insecure_below_federal_poverty_line": {"value": 39.4, "unit": "percent of households below the Federal poverty line", "value_type": "reported_prevalence"},
+        "change_from_2023": {"value": "not statistically significantly different from 13.5% food insecurity and 5.1% very low food security in 2023", "unit": "official comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Transcribed USDA ERS national prevalence statements from the Food Security and Nutrition Assistance Charting the Essentials page. The food-security categories describe resource-constrained access to adequate food and are not treated as direct measures of current-month consumption or nutrition quality.",
+      "uncertainty": "Annual prevalence identifies whether households experienced food-access difficulty at some time during the year; it does not establish duration, episode timing, coping sequence, food prices paid, benefit receipt, diet quality, or later recovery. Differences from 2023 are explicitly treated as not statistically significant.",
+      "subgroup": "U.S. households, households with children, and households below the Federal poverty line; subgroup estimates are not pooled into a causal model.",
+      "counterinterpretation": "Stable prevalence can coexist with severe hardship for particular households, changing coping strategies, informal support, food-price substitution, or regional differences. The absence of a statistically significant national change is not evidence that household experience was unchanged.",
+      "source_url": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance",
+      "retrieval_hash": "sha256:b8ac105b0658f91236b7b741099c548e047f01120d29648d2032f52ebf6508e1",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2025; federal USDA food-and-nutrition-assistance spending",
+      "denominator": {"value": 1, "unit": "national USDA food-and-nutrition-assistance spending aggregate", "value_type": "reported_aggregate_base"},
+      "measures": {
+        "inflation_adjusted_total_spending": {"value": 147.9, "unit": "billion dollars, inflation-adjusted FY2025 total", "value_type": "reported_aggregate"},
+        "real_change_from_fy2024": {"value": -1.0, "unit": "percent change from FY2024, adjusted for inflation", "value_type": "reported_change"},
+        "snap_share": {"value": 69, "unit": "percent of USDA food-and-nutrition-assistance spending", "value_type": "reported_share"},
+        "wic_share": {"value": 5, "unit": "percent of USDA food-and-nutrition-assistance spending", "value_type": "reported_share"},
+        "school_childcare_summer_programs_share": {"value": 22, "unit": "percent collectively for NSLP, SBP, related commodity/admin costs, CACFP, SFSP, and Summer EBT", "value_type": "reported_share"},
+        "snap_monthly_participants_fy2024": {"value": 39, "unit": "percent of SNAP participants who were children, approximately; FY2024 context", "value_type": "reported_share"}
+      },
+      "method": "Transcribed USDA ERS FY2025 spending composition and FY2024 SNAP age-composition statements. Spending is kept separate from food-security prevalence because the fiscal and survey periods, universes, and causal pathways differ.",
+      "uncertainty": "The aggregate does not show benefit adequacy, household receipt, administrative access, food prices, local availability, or program substitution. The 1% change is inflation-adjusted at the program-aggregate level and is not a household-level real-resource estimate.",
+      "subgroup": "USDA food-and-nutrition-assistance programs nationally; SNAP, WIC, school, child-care, and summer-program shares are program-composition indicators.",
+      "counterinterpretation": "Lower real spending can reflect lower enrollment, lower prices, program timing, administrative changes, or fiscal composition rather than reduced protection. Higher spending would not automatically establish better food security.",
+      "source_url": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance",
+      "retrieval_hash": "sha256:b8ac105b0658f91236b7b741099c548e047f01120d29648d2032f52ebf6508e1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/media-resources", "claim": "USDA ERS media page provides the 2024 household food-security prevalence, interpretation, and related downloadable products.", "status": "official-companion"},
+    {"source_url": "https://www.ers.usda.gov/data-products/food-security-in-the-united-states", "claim": "USDA ERS describes the annual CPS Food Security Supplement and the data-product boundary.", "status": "official-method-context"},
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research", "claim": "USDA ERS SNAP key-statistics context supports the separate FY2025 state participation record.", "status": "official-related-context"}
+  ],
+  "boundary": "This record links two adjacent but non-identical institutional layers: household-reported food-access difficulty and federal assistance spending. It does not estimate causal program effects, household benefit receipt, food affordability, nutrition, food retail demand, cultural food practice, or political attribution. The record should be read with the state SNAP-participation and QSS customer-class records, not as a joined household panel."
+}

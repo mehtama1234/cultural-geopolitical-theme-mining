@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-new-zealand-cultural-participation-2025-access-creation-ai-volunteering",
+  "title": "New Zealand cultural participation rises while active creation falls and digital tools reshape production",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "time_hidden_price",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Manatū Taonga Ministry for Culture and Heritage, New Zealanders’ Cultural Participation in 2025, Verian survey research",
+  "geography": "New Zealand; adults aged 18 years and over, with selected age, ethnicity, creator, and volunteer comparisons",
+  "observations": [
+    {
+      "period": "2022, 2023, and 2025; arts, culture, and heritage participation and active creation",
+      "denominator": {"value": 2000, "unit": "New Zealand adults aged 18 years and over surveyed online by Verian in September–October 2025; weighted population estimates and prior-wave comparisons", "value_type": "published_survey_sample"},
+      "measures": {
+        "attendance_2025": {"value": 88, "unit": "percent visiting or attending at least one arts, culture, or heritage activity in the previous 12 months", "value_type": "reported_survey_share"},
+        "attendance_2023": {"value": 87, "unit": "percent visiting or attending at least one activity in the previous 12 months", "value_type": "reported_survey_share"},
+        "attendance_2022": {"value": 81, "unit": "percent visiting or attending at least one activity in the previous 12 months", "value_type": "reported_survey_share"},
+        "creation_2025": {"value": 40, "unit": "percent actively creating, performing, or producing cultural or creative work in the previous 12 months", "value_type": "reported_survey_share"},
+        "creation_2023": {"value": 44, "unit": "percent actively creating, performing, or producing cultural or creative work in the previous 12 months", "value_type": "reported_survey_share"},
+        "access_convenience_enabler": {"value": 72, "unit": "percent identifying accessibility or convenience—including price, location, transport, parking, or timing—as a factor that would encourage more engagement", "value_type": "reported_survey_share"},
+        "attendance_creation_tension": {"value": "attendance rose from 81% in 2022 to 88% in 2025 while active creation fell from 44% in 2023 to 40% in 2025", "unit": "reported cross-wave pattern", "value_type": "reported_cross_wave_pattern"},
+        "mechanism": {"value": "Cultural life has separate audience and creator conversion stages: broad attendance recovery can coexist with less active production and persistent access friction", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Manatū Taonga’s 2025 cultural-participation research summary, with comparisons to the 2022 and 2023 waves. The 2025 research used a weighted online Verian panel of 2,000 adults.",
+      "uncertainty": "This is commissioned online-panel survey research, not administrative attendance or creator records. Cross-wave comparisons may reflect survey mode, sample, wording, weighting, recall, and activity-definition changes; the survey does not establish causal effects of cost, access, transport, time, or technology.",
+      "subgroup": "New Zealand adults aged 18 years and over, with selected activity, creator, and access measures.",
+      "counterinterpretation": "Higher reported attendance may reflect post-pandemic normalization, while lower active creation may reflect definition or sample changes; an access/convenience response is a stated enabler, not observed price sensitivity or participation conversion.",
+      "source_url": "https://www.mch.govt.nz/publications/new-zealanders-cultural-participation-2025",
+      "retrieval_hash": "sha256:9b27e4d8a903948edfebe807041201e4df09dc49a0f62f17b662c5bb93e611bf",
+      "status": "reported"
+    },
+    {
+      "period": "2025; digital creation, generative AI, and cultural volunteering",
+      "denominator": {"value": 2000, "unit": "New Zealand adults aged 18 years and over surveyed online by Verian; creator and volunteer subgroups are nested within the published survey frame", "value_type": "published_survey_sample"},
+      "measures": {
+        "digital_tool_creators": {"value": 28, "unit": "percent of New Zealand adults represented by creators who use digital tools; equivalent to 69% of creators", "value_type": "reported_survey_share"},
+        "generative_ai_creator_users": {"value": 65, "unit": "percent of creators who use digital tools and specifically used generative AI in their creative process", "value_type": "reported_subgroup_share"},
+        "genai_idea_use": {"value": 49, "unit": "percent of creator digital-tool users using generative AI to explore or improve ideas", "value_type": "reported_subgroup_share"},
+        "genai_generate_work": {"value": 34, "unit": "percent of creator digital-tool users using generative AI to generate or produce work", "value_type": "reported_subgroup_share"},
+        "nonuser_skill_barrier": {"value": 36, "unit": "percent of creators who do not use digital tools identifying lack of technological skills or knowledge as a barrier", "value_type": "reported_subgroup_share"},
+        "cultural_volunteering": {"value": 24, "unit": "percent of New Zealand adults volunteering to support arts, culture, or heritage activities", "value_type": "reported_survey_share"},
+        "volunteer_age_ethnicity_gradient": {"value": "35% among ages 18-29 versus 21% among people over 30; 31% among Māori versus 23% among non-Māori", "unit": "reported subgroup shares", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Cultural production is being reorganized through selective digital and generative-AI use while volunteer labor remains a social-infrastructure input; skill gaps may shape who can convert tools into cultural output", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the 2025 survey’s new digital-technology and volunteering modules; subgroup percentages are reported by the Ministry and refer to creators or volunteers where specified.",
+      "uncertainty": "The survey measures self-reported use and volunteering, not verified outputs, quality, income, copyright, labor substitution, or organizational dependence. Because the sample is an online panel, people with lower digital capability may be underrepresented; subgroup differences are descriptive and noncausal.",
+      "subgroup": "New Zealand creators, digital-tool users, nonusers, volunteers, age groups, and Māori/non-Māori respondents within the adult survey frame.",
+      "counterinterpretation": "Generative-AI use can mean experimentation rather than replacement or productivity; volunteering rates do not establish hours, retention, organizational value, or unequal burden.",
+      "source_url": "https://www.mch.govt.nz/publications/new-zealanders-cultural-participation-2025",
+      "retrieval_hash": "sha256:2160fb031cd573800781eeb72a6e1a4fa8bcc770b172d37ccf58ffc03fc94f66",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mch.govt.nz/sites/default/files/2026-03/cultural-participation-report-2025.pdf", "claim": "Full Manatū Taonga/Verian New Zealanders’ Cultural Participation in 2025 report."},
+    {"source_url": "https://www.mch.govt.nz/our-work/data-research-and-insights/cultural-system-data", "claim": "Manatū Taonga cultural-system data portal with participation, creator, volunteer, identity, and cultural-economy context."},
+    {"source_url": "https://www.whaikaha.govt.nz/resources/disability-data-and-insights/disability-data-updates-listing-page/arts-culture-and-heritage-participation-for-disabled-people", "claim": "Official disability-focused summary of participation patterns and online-panel limitations from the 2025 research."}
+  ],
+  "boundary": "This record adds a New Zealand cultural audience/creator/digital/volunteer layer. It does not establish causal access effects, creator earnings, AI productivity, copyright outcomes, cultural quality, wellbeing impact, or representative subgroup trajectories beyond the survey’s weighted online-panel frame.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Manatū Taonga HTML summary and linked 2025 report route reviewed; 2022/2023/2025 participation comparisons, access/convenience, digital creator/GenAI measures, volunteering, age/ethnicity differences, and online-panel limitations checked. Provider blocks automated PDF retrieval, so the report URL digest is retained as a retrieval locator rather than represented as a verified binary-content hash.",
+    "html_locator_sha256": "sha256:9b27e4d8a903948edfebe807041201e4df09dc49a0f62f17b662c5bb93e611bf",
+    "report_url_locator_sha256": "sha256:2160fb031cd573800781eeb72a6e1a4fa8bcc770b172d37ccf58ffc03fc94f66",
+    "checked": "2026-09-30"
+  }
+}

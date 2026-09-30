@@ -1,0 +1,111 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-brightspeed-redress-distribution-2026",
+  "title": "A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Consumer Financial Protection Bureau BrightSpeed case page and payments-by-case index",
+  "geography": "United States; consumers who purchased technical-support services from BrightSpeed fraudster clients through RCCs",
+  "observations": [
+    {
+      "period": "Case page retrieved September 29, 2026; compensation population and harm amount",
+      "denominator": {"value": 1, "unit": "CFPB BrightSpeed compensation case", "value_type": "administrative_case"},
+      "measures": {
+        "eligible_consumers": {"value": 122507, "unit": "consumers", "value_type": "reported_eligible_population"},
+        "compensable_harm": {"value": 53885244, "unit": "US dollars", "value_type": "reported_compensable_harm"},
+        "payment_administrator": {"value": "Epiq Systems", "unit": "named administrator", "value_type": "reported_administrator"}
+      },
+      "method": "CFPB case page statement describing the defendants' payment processing for technical-support fraudsters, eligible victims, compensable harm, and contracted payment administrator.",
+      "uncertainty": "The public page does not publish payment issuance, successful delivery, returned or unclaimed payments, per-consumer amount, residual loss, or later behavior.",
+      "subgroup": "Consumers identified by the CFPB as having purchased technical-support services from BrightSpeed fraudster clients through RCCs.",
+      "counterinterpretation": "An eligible class and aggregate compensable-harm amount establish a formal remedy route, not equal injury, equal payment, or full recovery for every consumer.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/brightspeed/",
+      "retrieval_hash": "sha256:8aeec23ee811a273232c072f8886e97f59335026db4a860399a4f2773dd5cf39",
+      "status": "reported"
+    },
+    {
+      "period": "July 23, 2024 through September 29, 2026; current case-page distribution status",
+      "denominator": {"value": 1, "unit": "CFPB BrightSpeed compensation case", "value_type": "administrative_case"},
+      "measures": {
+        "distribution_status": {"value": "Ongoing: Distribution", "unit": "CFPB case-page status", "value_type": "reported_status"},
+        "distribution_start": {"value": "2024-07-23", "unit": "date", "value_type": "reported_date"},
+        "case_page_last_modified": {"value": "2024-07-23T10:00:08-0400", "unit": "timestamp", "value_type": "reported_metadata"}
+      },
+      "method": "Current CFPB case-page retrieval; no administrator file or respondent-level payment data downloaded.",
+      "uncertainty": "The unchanged case-page status does not establish distribution pace, payment completion, successful receipt, amount delivered, or whether the status is updated when individual payments are returned or reissued.",
+      "subgroup": "The BrightSpeed case's eligible consumer class and its contracted payment-administration route.",
+      "counterinterpretation": "A distribution marked ongoing may reflect a legitimate long-tail payment process, administrative lag, unresolved claims, returned payments, or incomplete public reporting; the status alone cannot distinguish them.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/brightspeed/",
+      "retrieval_hash": "sha256:8aeec23ee811a273232c072f8886e97f59335026db4a860399a4f2773dd5cf39",
+      "status": "reported"
+    },
+    {
+      "period": "September 28-29, 2026; payments-by-case index freshness and listing",
+      "denominator": {"value": 1, "unit": "CFPB ongoing-case payments index", "value_type": "administrative_index"},
+      "measures": {
+        "brightspeed_index_listing": {"value": "BrightSpeed — Civil Penalty Fund", "unit": "ongoing-case index entry", "value_type": "reported_index_entry"},
+        "index_last_modified": {"value": "2026-09-28T11:33:26-0400", "unit": "timestamp", "value_type": "reported_metadata"},
+        "compensation_route": {"value": "Civil Penalty Fund", "unit": "CFPB compensation type", "value_type": "reported_compensation_type"}
+      },
+      "method": "Current CFPB payments-by-case index retrieval and page metadata check; BrightSpeed remains in the ongoing-cases table.",
+      "uncertainty": "Index inclusion and freshness confirm public administrative classification, not recipient reach, payment adequacy, or case completion.",
+      "subgroup": "CFPB ongoing Civil Penalty Fund cases, with BrightSpeed as the named entry.",
+      "counterinterpretation": "A current index entry can coexist with substantial completed payments or unresolved delivery problems; it is a routing and status surface, not a payment ledger.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/",
+      "retrieval_hash": "sha256:010801c3a9e6a020af2c67aadcca383a9816a88e433a5722d7e96b9d9ee22dbe",
+      "status": "reported"
+    },
+    {
+      "period": "CFPB Financial Report FY2024; BrightSpeed initial distribution reported in FY2024 Q4",
+      "denominator": {"value": 1, "unit": "BrightSpeed Civil Penalty Fund distribution reported in CFPB FY2024 financial report", "value_type": "administrative_distribution"},
+      "measures": {
+        "amount_allocated": {"value": 54000000, "unit": "US dollars", "value_type": "reported_amount"},
+        "amount_distributed": {"value": 53885244, "unit": "US dollars", "value_type": "reported_amount"},
+        "initial_checks_mailed": {"value": 122507, "unit": "checks", "value_type": "reported_count"},
+        "initial_distribution_period": {"value": "FY2024 Q4", "unit": "fiscal-quarter label", "value_type": "reported_period"}
+      },
+      "method": "CFPB Financial Report for Fiscal Year 2024 table of Civil Penalty Fund distributions initiated in FY2024; the table reports allocated amount, amount distributed, number of checks mailed, and initial distribution period.",
+      "uncertainty": "Checks mailed are not equivalent to checks cashed or funds successfully received. The table describes the initial distribution and does not by itself report returned checks, reissues, final claims, individual amounts, or residual loss.",
+      "subgroup": "BrightSpeed consumers included in the initial Civil Penalty Fund distribution.",
+      "counterinterpretation": "The report materially strengthens observability of administrative reach, but a mailed-check count can overstate realized recovery if delivery fails, checks expire, or consumers cannot cash them.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_financial-report-fy-2024.pdf",
+      "retrieval_hash": "sha256:26e6cd8e574479cb1bdffe65a63a0c8650c6ece2ff7c9b1e2ee4cd8eb3379fdc",
+      "status": "reported"
+    },
+    {
+      "period": "July 23, 2024; CFPB distribution announcement and state map",
+      "denominator": {"value": 122507, "unit": "consumers shown in the CFPB distribution map", "value_type": "reported_distribution_population"},
+      "measures": {
+        "total_distribution_map": {"value": 53335244.07, "unit": "US dollars labeled as total distribution to consumers in the state map", "value_type": "reported_amount"},
+        "states_or_locations_listed": {"value": "State and special-location amounts listed in the CFPB map", "unit": "geographic distribution surface", "value_type": "reported_geographic_breakdown"},
+        "reported_difference_from_financial_report": {"value": 549999.93, "unit": "US dollars; arithmetic difference between $53,885,244 and $53,335,244.07", "value_type": "reconciliation_gap"}
+      },
+      "method": "CFPB public distribution announcement and its embedded state-by-state map; the map's accessible image description reports the total and geographic amounts.",
+      "uncertainty": "The map and FY2024 financial-report table use different amount labels and may reflect different distribution stages or accounting conventions. This record does not assign a cause to the $549,999.93 difference without a CFPB reconciliation note.",
+      "subgroup": "Consumers receiving or represented in the CFPB's geographic distribution map, including listed states and special military locations.",
+      "counterinterpretation": "The geographic map can show distribution reach and concentration while still omitting whether checks were cashed, whether all consumers retained funds, and how returned or reissued payments were handled.",
+      "source_url": "https://www.consumerfinance.gov/archive/blog/cfpb-to-distribute-more-than-53-million-to-consumers-harmed-by-brightspeed-solutions/",
+      "retrieval_hash": "sha256:acc9acfe52dbfd67a0ad4e858292d6b8fa450e6756ec2dabacdb84fe6de02a46",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/enforcement/actions/brightspeed-solutions-inc-and-kevin-howard/", "claim": "CFPB enforcement materials provide the legal and factual case background.", "status": "related-source"},
+    {"source_url": "https://www.consumerfinance.gov/archive/blog/cfpb-to-distribute-more-than-53-million-to-consumers-harmed-by-brightspeed-solutions/", "claim": "CFPB announcement provides the distribution date, administrator, and state-level distribution map.", "status": "related-source"},
+    {"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_financial-report-fy-2024.pdf", "claim": "CFPB FY2024 financial report provides allocated amount, distributed amount, checks mailed, and initial distribution quarter.", "status": "related-source"}
+  ],
+  "boundary": "This record establishes a named aggregate compensation route, current public status, initial checks mailed, geographic distribution surface, and a still-unreconciled difference between CFPB amount labels. It does not establish check cashing, final delivery, amount retained, residual loss, recovery rate, trust repair, switching, continued service use, or practical exit for any consumer.",
+  "reproduction_audit": {
+    "checked": "2026-09-29",
+    "case_page_hash_scope": "Current BrightSpeed case page HTML",
+    "index_hash_scope": "Current CFPB payments-by-case index HTML",
+    "distribution_sources": "CFPB FY2024 financial report PDF and July 2024 distribution announcement HTML",
+    "extraction_scope": "Published aggregate, geographic, and administrative metadata only; no respondent-level data",
+    "status": "reproduced from official CFPB pages"
+  }
+}

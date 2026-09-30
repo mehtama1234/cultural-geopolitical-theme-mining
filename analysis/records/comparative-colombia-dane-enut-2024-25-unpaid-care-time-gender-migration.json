@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration",
+  "title": "Colombia’s unpaid-care time remains a large gendered constraint on household and cultural room",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "DANE Colombia, National Time Use Survey (ENUT), preliminary results for October 2024–March 2025",
+  "geography": "Colombia; civilian non-institutional population aged 10 years and older, with national, urban-headquarters, rural-dispersed, regional, sex, and place-of-birth dimensions",
+  "observations": [
+    {
+      "period": "October 2024–March 2025; daily participation in remunerated work and related activities",
+      "denominator": {
+        "value": 33500,
+        "unit": "approximately 33,500 households in the first six complete months of the ENUT 2024–2025 collection; published results are projected population estimates for people aged 10 years and older",
+        "value_type": "reported_household_sample_approximation"
+      },
+      "measures": {
+        "men_paid_work_participation": {"value": 55.6, "unit": "percent of men aged 10+ participating on the reference day in remunerated work and related activities", "value_type": "official_daily_participation_share"},
+        "women_paid_work_participation": {"value": 34.4, "unit": "percent of women aged 10+ participating on the reference day in remunerated work and related activities", "value_type": "official_daily_participation_share"},
+        "gender_paid_work_gap": {"value": 21.2, "unit": "percentage-point difference between men and women, calculated from published shares", "value_type": "derived_subgroup_gap"},
+        "rural_men_paid_work": {"value": 65.2, "unit": "percent of rural-dispersed men participating in remunerated work and related activities", "value_type": "official_subgroup_share"},
+        "rural_women_paid_work": {"value": 35.3, "unit": "percent of rural-dispersed women participating in remunerated work and related activities", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Time available for consumption, culture, social connection, and civic participation is jointly shaped by entry into paid work and the unpaid-work obligations that accompany household life", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DANE ENUT preliminary daily-participation estimates for October 2024–March 2025, expanded using population projections based on the 2018 Census; the gender gap is calculated from published shares.",
+      "uncertainty": "These are daily participation measures, not employment rates or annual labor-force participation; the bulletin is preliminary and the first six complete months of a 52-week collection period.",
+      "subgroup": "Colombian residents aged 10 years and older, by sex and urban/rural domain.",
+      "counterinterpretation": "Lower daily paid-work participation may reflect different work schedules, unpaid production, schooling, illness, or reference-day timing rather than low economic contribution.",
+      "source_url": "https://www.dane.gov.co/files/operaciones/ENUT/bol-ENUT-2024-2025.pdf",
+      "retrieval_hash": "sha256:7b077e182efebf7e1925c8c9954e1f30cd867b11829ddfbe50d833762677f262",
+      "status": "reported"
+    },
+    {
+      "period": "October 2024–March 2025; daily participation and participant time in unpaid work and related activities",
+      "denominator": {
+        "value": 33500,
+        "unit": "approximately 33,500 households in the first six complete months of the ENUT 2024–2025 collection; published results are projected population estimates for people aged 10 years and older",
+        "value_type": "reported_household_sample_approximation"
+      },
+      "measures": {
+        "men_unpaid_work_participation": {"value": 65.5, "unit": "percent of men aged 10+ participating on the reference day in unpaid work and related activities", "value_type": "official_daily_participation_share"},
+        "women_unpaid_work_participation": {"value": 90.0, "unit": "percent of women aged 10+ participating on the reference day in unpaid work and related activities", "value_type": "official_daily_participation_share"},
+        "gender_unpaid_work_participation_gap": {"value": 24.5, "unit": "percentage-point difference between women and men, calculated from published shares", "value_type": "derived_subgroup_gap"},
+        "men_unpaid_time": {"value": 3.2, "unit": "hours per participant per day among men; published as 3 hours 12 minutes", "value_type": "official_participant_average"},
+        "women_unpaid_time": {"value": 7.5833, "unit": "hours per participant per day among women; published as 7 hours 35 minutes", "value_type": "official_participant_average"},
+        "gender_unpaid_time_gap": {"value": 4.3833, "unit": "hours per participant per day difference, approximately 4 hours 23 minutes, calculated from published times", "value_type": "derived_participant_average_gap"},
+        "rural_women_unpaid_time": {"value": 8.8833, "unit": "hours per participant per day among women in centers poblados and rural dispersed areas; published as 8 hours 53 minutes", "value_type": "official_subgroup_average"},
+        "mechanism": {"value": "Unpaid work operates as a hidden time price: women are both more likely to perform it and spend more hours when they do, reducing the discretionary room available for paid work, cultural participation, consumer choice, and civic voice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DANE ENUT preliminary daily participation and average-time estimates for unpaid work and related activities; averages are conditional on participation and converted from the bulletin’s hours-and-minutes presentation for machine-readable comparison.",
+      "uncertainty": "The category includes unpaid work and related travel/connections as defined by ENUT; participant averages are not population averages, and the preliminary six-month release does not establish annual totals or causal effects.",
+      "subgroup": "Colombian residents aged 10 years and older, by sex and urban/rural domain.",
+      "counterinterpretation": "Unpaid work can include meaningful care, mutual aid, and household production; the time gap does not by itself establish unequal wellbeing, preference, or bargaining power.",
+      "source_url": "https://www.dane.gov.co/files/operaciones/ENUT/bol-ENUT-2024-2025.pdf",
+      "retrieval_hash": "sha256:7b077e182efebf7e1925c8c9954e1f30cd867b11829ddfbe50d833762677f262",
+      "status": "reported"
+    },
+    {
+      "period": "October 2024–March 2025; unpaid work by place of birth",
+      "denominator": {
+        "value": 33500,
+        "unit": "approximately 33,500 households in the first six complete months of the ENUT 2024–2025 collection; published results are projected population estimates for people aged 10 years and older",
+        "value_type": "reported_household_sample_approximation"
+      },
+      "measures": {
+        "colombia_born_men_participation": {"value": 65.3, "unit": "percent of Colombia-born men aged 10+ participating daily in unpaid work and related activities", "value_type": "official_subgroup_share"},
+        "foreign_born_men_participation": {"value": 68.5, "unit": "percent of foreign-born men aged 10+ participating daily in unpaid work and related activities", "value_type": "official_subgroup_share"},
+        "colombia_born_women_participation": {"value": 89.9, "unit": "percent of Colombia-born women aged 10+ participating daily in unpaid work and related activities", "value_type": "official_subgroup_share"},
+        "foreign_born_women_participation": {"value": 92.8, "unit": "percent of foreign-born women aged 10+ participating daily in unpaid work and related activities", "value_type": "official_subgroup_share"},
+        "foreign_born_women_time": {"value": 9.5167, "unit": "hours per participating day among foreign-born women; published as 9 hours 31 minutes", "value_type": "official_subgroup_average"},
+        "colombia_born_women_time": {"value": 7.5, "unit": "hours per participating day among Colombia-born women; published as 7 hours 30 minutes", "value_type": "official_subgroup_average"},
+        "foreign_born_women_time_gap": {"value": 2.0167, "unit": "hours per participant per day difference, approximately 2 hours 1 minute, calculated from published times", "value_type": "derived_subgroup_average_gap"},
+        "mechanism": {"value": "Migration status can intersect with gendered unpaid-work exposure, making household time and integration capacity heterogeneous even within the same national labor and care system", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DANE ENUT preliminary place-of-birth cross-tabulations for unpaid work and related activities; time averages are conditional on participation and converted from hours and minutes in the bulletin.",
+      "uncertainty": "The bulletin does not identify migration duration, legal status, household composition, income, occupation, or reason for the place-of-birth differences; subgroup estimates may have different precision and are descriptive.",
+      "subgroup": "Colombian residents aged 10 years and older, separated into Colombia-born and foreign-born groups and by sex.",
+      "counterinterpretation": "Differences may reflect age, household composition, selection into migration, employment, or care needs rather than migration status itself.",
+      "source_url": "https://www.dane.gov.co/files/operaciones/ENUT/bol-ENUT-2024-2025.pdf",
+      "retrieval_hash": "sha256:7b077e182efebf7e1925c8c9954e1f30cd867b11829ddfbe50d833762677f262",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.dane.gov.co/index.php/estadisticas-por-tema-2/tiempo-y-trabajo-no-remunerado/encuesta-nacional-de-uso-del-tiempo-enut",
+      "claim": "DANE ENUT program page describing the national time-use operation and its scope.",
+      "status": "official-program-page"
+    }
+  ],
+  "boundary": "This record adds a Colombian time-and-care layer to the cultural, social, and consumer atlas. It does not measure cultural attendance directly, establish causal gender or migration effects, value unpaid work monetarily, or identify household bargaining, wellbeing, or consumer outcomes.",
+  "retrieval_hash": "sha256:7b077e182efebf7e1925c8c9954e1f30cd867b11829ddfbe50d833762677f262",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "DANE’s 39-page preliminary ENUT bulletin reviewed; collection period, approximate household coverage, population projection note, paid-work participation, unpaid-work participation, participant-time averages, rural comparison, place-of-birth comparison, preliminary status, and activity definitions checked.",
+    "bulletin_pdf_sha256": "sha256:602cded53c238794193f906df132c67379e1b36c349033510400b7aee6686c47",
+    "checked": "2026-09-30"
+  }
+}

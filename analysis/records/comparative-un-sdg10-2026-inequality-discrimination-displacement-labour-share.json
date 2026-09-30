@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg10-2026-inequality-discrimination-displacement-labour-share",
+  "title": "Global inequality progress is uneven, while falling labour share, discrimination, and displacement expose gaps beneath headline growth",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "care_health_reproduction"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 10: Reduced inequalities",
+  "geography": "Global SDG monitoring across countries and regions, with comparisons by income, disability, gender, education, migration, and displacement status",
+  "observations": [
+    {
+      "period": "2026; inclusive growth and relative poverty since 2015",
+      "denominator": {"value": 112, "unit": "countries with at least two comparable income or consumption surveys since 2015", "value_type": "published_sdg_indicator_coverage"},
+      "measures": {
+        "poorest_growth": {"value": "nearly 60% of countries recorded income or consumption growth for the poorest 40% that outpaced the national average", "unit": "countries with pro-poor growth pattern", "value_type": "reported_sdg_finding"},
+        "regional_gap": {"value": "73% of countries in East and South-East Asia achieved inclusive growth versus 38% in Central and South Asia; low-income countries were less likely to show progress", "unit": "countries by region with inclusive growth", "value_type": "reported_sdg_finding"},
+        "relative_poverty": {"value": "six in ten countries reduced the share living below half the median income, but progress varied sharply by region and Central and South Asia moved in the opposite direction after the pandemic", "unit": "countries with reduced relative poverty", "value_type": "reported_sdg_finding"},
+        "boundary": {"value": "country-level income or consumption distributions do not show individual mobility, causal policy effects, or whether gains are durable for every subgroup", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "UNSD SDG indicator monitoring using comparable country income and consumption surveys and regional aggregation.",
+      "uncertainty": "Survey availability, comparability, pandemic timing, and country coverage limit interpretation of regional changes.",
+      "subgroup": "Poorest 40%, people below half median income, low-income countries, and populations in regions with persistent poverty or conflict.",
+      "counterinterpretation": "Faster growth for the poorest 40% can coexist with high absolute inequality, weak services, or worsening outcomes for other vulnerable groups.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-10/",
+      "retrieval_hash": "sha256:b53d7a40dbaccee63a3409a1da3e4092c391a4fb852b6751e63b9cee72e1b669",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labour share and distribution of economic output",
+      "denominator": {"value": 1, "unit": "global SDG labour-income-share indicator", "value_type": "published_sdg_indicator"},
+      "measures": {
+        "employment": {"value": "57.9% of the world's working-age population was employed in 2025, representing labour income directly supporting about 3.6 billion workers and their families", "unit": "global employment and worker-family context", "value_type": "reported_sdg_finding"},
+        "labour_share": {"value": "labour's share of GDP declined from 53.0% in 2015 to 52.6% in 2025", "unit": "global labour share of GDP", "value_type": "reported_sdg_indicator"},
+        "distribution": {"value": "the report warns that when labour share falls, productivity gains tend to accrue disproportionately to capital and widen inequality", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"},
+        "analytic_signal": {"value": "headline employment can remain substantial while the distribution of economic gains shifts away from labour and household earning power", "unit": "analytic work-to-household mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNSD SDG monitoring of employment and labour-income-share indicators with regional comparisons.",
+      "uncertainty": "The report describes a global distributional pattern; it does not estimate firm-level bargaining, sector-specific causes, or household welfare effects.",
+      "subgroup": "Workers, families dependent on labour income, capital owners, regions with declining labour share, and workers in different employment forms.",
+      "counterinterpretation": "A small aggregate labour-share change can conceal country and sector differences, and rising real wages in some regions may coexist with a lower global share.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-10/",
+      "retrieval_hash": "sha256:b53d7a40dbaccee63a3409a1da3e4092c391a4fb852b6751e63b9cee72e1b669",
+      "status": "reported"
+    },
+    {
+      "period": "2026; discrimination visibility and measurement gaps",
+      "denominator": {"value": 1, "unit": "global SDG discrimination indicator and reporting system", "value_type": "published_sdg_indicator"},
+      "measures": {
+        "prevalence": {"value": "nearly one in five people report experiencing discrimination in the previous 12 months", "unit": "people reporting recent discrimination", "value_type": "reported_sdg_finding"},
+        "grounds": {"value": "race, colour, ethnicity, and socioeconomic status are among the most common reported grounds; people with disabilities report rates up to two or three times the population average", "unit": "reported subgroup pattern", "value_type": "reported_sdg_finding"},
+        "data_gap": {"value": "fewer than half of countries provide data disaggregated by income, education, or migration status, and few conduct repeated surveys", "unit": "countries with disaggregated or repeated discrimination data", "value_type": "reported_measurement_gap"},
+        "analytic_signal": {"value": "inequality policy is constrained by a visibility problem: groups most exposed to exclusion can be least consistently measured over time", "unit": "analytic measurement-to-policy mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNSD SDG indicator synthesis of national discrimination reporting and subgroup-disaggregated data availability.",
+      "uncertainty": "Self-reported discrimination is sensitive to wording, context, willingness to report, and coverage; missing disaggregation likely understates or obscures some groups.",
+      "subgroup": "People with disabilities, women, poorer and less educated populations, migrants, racialized or ethnic groups, and residents of least-developed countries.",
+      "counterinterpretation": "Higher reporting can reflect greater recognition, safety, or willingness to disclose rather than more discrimination, while low reporting can reflect normalization or lack of survey access.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-10/",
+      "retrieval_hash": "sha256:b53d7a40dbaccee63a3409a1da3e4092c391a4fb852b6751e63b9cee72e1b669",
+      "status": "reported"
+    },
+    {
+      "period": "2026; displacement, migration risk, and development finance",
+      "denominator": {"value": 1, "unit": "global SDG displacement and development-finance monitoring frame", "value_type": "published_sdg_indicator"},
+      "measures": {
+        "refugees": {"value": "the refugee share of the world's population reached 444 per 100,000 by mid-2025, more than double the 214 per 100,000 recorded in 2015; 36.6 million people were refugees under UNHCR's mandate at end-June 2025", "unit": "global refugee population and rate", "value_type": "reported_sdg_finding"},
+        "migration_fatalities": {"value": "at least 7,900 people died or disappeared while migrating in 2025, with the report warning that restricted access and reduced humanitarian funding likely leave deaths uncounted", "unit": "recorded migrant deaths or disappearances", "value_type": "reported_sdg_finding"},
+        "finance": {"value": "development resource flows reached $508 billion in 2024, while ODA's share fell from 54% in 2015 to 50% in 2024 as more volatile private flows grew", "unit": "constant-price development resource flows", "value_type": "reported_sdg_finding"},
+        "open_test": {"value": "join labour share, discrimination visibility, conflict and climate exposure, mobility or immobility, host-system capacity, social protection, development finance, household room, and political response without equating aggregate displacement with individual trajectories", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UNSD SDG monitoring using UNHCR, IOM, development-finance, and related international statistical sources.",
+      "uncertainty": "Recorded displacement and migration deaths are incomplete; returns may be unsafe or unsustainable, and financial-flow totals do not establish equitable allocation or outcomes.",
+      "subgroup": "Refugees, internally displaced and migrant people, host communities, least-developed countries, conflict-affected populations, and countries dependent on external finance.",
+      "counterinterpretation": "A decline in recorded deaths or a rise in development flows can coexist with reduced measurement, unsafe returns, uneven allocation, or worsening protection for specific groups.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-10/",
+      "retrieval_hash": "sha256:b53d7a40dbaccee63a3409a1da3e4092c391a4fb852b6751e63b9cee72e1b669",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-01/", "claim": "The SDG 1 report supplies complementary global poverty, social-protection, aid, and cost-pressure context."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-08/", "claim": "The SDG 8 report supplies complementary decent-work, employment, productivity, and labour-market context."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/", "claim": "The SDG 11 report supplies complementary urban, housing, public-space, transport, and displacement context."}
+  ],
+  "boundary": "This record adds a global inequality route from income distribution, labour share, discrimination visibility, displacement, migration risk, and development finance through household room, work power, institutional measurement, and geopolitical vulnerability. It uses SDG aggregate indicators and international reporting, not respondent-level records, individual mobility histories, causal policy estimates, or proof that progress in one indicator improves all groups equally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNSD SDG Goal 10 2026 page was reviewed for inclusive-growth coverage, relative poverty, labour share, discrimination, data gaps, migrant fatalities, refugee displacement, and development-finance flows.",
+    "source_url_sha256": "sha256:b53d7a40dbaccee63a3409a1da3e4092c391a4fb852b6751e63b9cee72e1b669",
+    "checked": "2026-09-26"
+  }
+}

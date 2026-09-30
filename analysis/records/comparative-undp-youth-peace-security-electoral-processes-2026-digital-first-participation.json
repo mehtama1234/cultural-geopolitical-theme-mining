@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-youth-peace-security-electoral-processes-2026-digital-first-participation",
+  "title": "Youth political participation is moving beyond the ballot as digital, issue-driven, and community action tests institutional responsiveness",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "United Nations Development Programme, Youth, Peace and Security and Electoral Processes in times of Youth-led Protests around the world",
+  "geography": "Global thematic analysis drawing on evidence, field experience, consultations, and examples across regions",
+  "observations": [
+    {
+      "period": "2026; youth political engagement and electoral participation",
+      "denominator": {"value": 1, "unit": "global youth, peace, security, and electoral-process thematic framework", "value_type": "global_thematic_frame"},
+      "measures": {
+        "participation_shift": {"value": "youth engagement is increasingly issue-driven, digital-first, community-based, and organized outside traditional party and electoral channels", "unit": "reported structural pattern", "value_type": "reported_trend"},
+        "institutional_responsiveness": {"value": "the paper links lower formal participation to perceived limited institutional responsiveness rather than treating youth disengagement as simple apathy", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"},
+        "alternative_agency": {"value": "protests, civic technology, mutual aid, volunteering, petitions, boycotts, and social movements are treated as forms of political agency", "unit": "reported participation set", "value_type": "reported_participation_set"},
+        "electoral_cycle": {"value": "meaningful participation is framed as spanning agenda-setting, elections, observation, civic education, and post-election accountability", "unit": "reported participation framework", "value_type": "reported_framework"}
+      },
+      "method": "UNDP thematic synthesis of cross-regional evidence, field experience, consultations with the Global Coalition on Youth, Peace and Security, and electoral-assistance practitioners, plus illustrative cases.",
+      "uncertainty": "The paper is a programmatic thematic synthesis rather than a representative global survey or causal evaluation; examples demonstrate possible pathways and do not establish that all young people participate in the same way.",
+      "subgroup": "Young people, youth-led movements, electoral authorities, political parties, civil-society organizations, peacebuilders, civic-technology groups, and communities affected by conflict or political exclusion.",
+      "counterinterpretation": "Traditional voting and party participation remain meaningful for many young people; digital and protest participation can complement formal politics, fragment action, or fail to produce durable institutional change.",
+      "source_url": "https://www.undp.org/publications/youth-peace-and-security-and-electoral-processes-times-youth-led-protests-around-world",
+      "retrieval_hash": "sha256:a82ad20743edcd1e6700b24fab7b8d131ff4bed69c467c06a88a68c0a38c8d34",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; youth representation in formal political institutions",
+      "denominator": {"value": 1, "unit": "global parliamentary representation comparison cited by UNDP", "value_type": "global_representation_frame"},
+      "measures": {
+        "population_weight": {"value": "people under 30 comprise about half of the world's population", "unit": "reported demographic share", "value_type": "reported_population_share"},
+        "parliamentary_representation": {"value": "people under 30 make up less than 3 percent of the world's parliamentarians", "unit": "reported parliamentary share", "value_type": "reported_representation_share"},
+        "formal_barriers": {"value": "age requirements, eligibility rules, party norms, weak youth-candidate mechanisms, and limited internal consultation constrain access to decision-making", "unit": "reported barrier set", "value_type": "reported_barrier_set"},
+        "intersectional_exposure": {"value": "gender, identity, geography, socioeconomic status, disability, migration, and minority status can compound exclusion and political risk", "unit": "reported intersectional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNDP synthesis of global representation context and program evidence on electoral institutions, party processes, eligibility rules, and youth inclusion.",
+      "uncertainty": "The population and representation figures are global contextual comparisons with their own definitions and reference dates; they do not identify why every country has a representation gap or predict electoral outcomes.",
+      "subgroup": "Young people under 30, youth candidates, young women, LGBTQI+ youth, minority and rural youth, youth with disabilities, displaced or migrant youth, parties, and electoral institutions.",
+      "counterinterpretation": "Age is not the only route to representation, and older representatives may advance youth priorities; formal representation can also be symbolic unless institutions provide real influence and accountability.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/undp-youth-peace-and-security-and-electoral-processes.pdf",
+      "retrieval_hash": "sha256:a82ad20743edcd1e6700b24fab7b8d131ff4bed69c467c06a88a68c0a38c8d34",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; trust, civic space, and digital political risk",
+      "denominator": {"value": 1, "unit": "global youth civic-space and digital-participation synthesis", "value_type": "global_civic_space_frame"},
+      "measures": {
+        "digital_centrality": {"value": "digital spaces shape youth identity, discourse, activism, information access, and mobilization", "unit": "reported social mechanism", "value_type": "reported_mechanism"},
+        "digital_risks": {"value": "disinformation, hate speech, harassment, surveillance, censorship, and internet shutdowns can limit safe and meaningful participation", "unit": "reported risk set", "value_type": "reported_risk_set"},
+        "representation_signal": {"value": 14, "unit": "percent of young people who felt represented in politics in the 26-country Be Seen Be Heard Youth report cited by UNDP", "value_type": "cited_survey_share"},
+        "non_electoral_action": {"value": "more than 50 percent participated in non-electoral civic actions such as petitions, boycotts, or protests in that cited 26-country report", "unit": "cited survey share", "value_type": "cited_survey_share"}
+      },
+      "method": "UNDP synthesis of cited multi-country survey evidence, research, field examples, and analysis of civic and digital-space constraints.",
+      "uncertainty": "The cited survey measures are not produced by the UNDP paper and may not be representative of all young people or comparable across countries; association between representation, trust, and action is not a causal estimate.",
+      "subgroup": "Young people using digital platforms, youth activists, marginalized youth, election observers, journalists, civic educators, and institutions responsible for information integrity and protection.",
+      "counterinterpretation": "Digital participation can widen access and enable accountability, while low reported representation can coexist with strong local trust or issue-specific influence not captured by national political measures.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/undp-youth-peace-and-security-and-electoral-processes.pdf",
+      "retrieval_hash": "sha256:a82ad20743edcd1e6700b24fab7b8d131ff4bed69c467c06a88a68c0a38c8d34",
+      "status": "reported"
+    },
+    {
+      "period": "2026; civic technology and conversion from informal action to institutional influence",
+      "denominator": {"value": 1, "unit": "UNDP illustrative civic-technology and youth-participation case set", "value_type": "illustrative_case_frame"},
+      "measures": {
+        "civic_technology_route": {"value": "civic-technology platforms can let young people set agendas, submit initiatives, monitor government, counter disinformation, and participate in policy discussion", "unit": "reported program mechanism", "value_type": "reported_mechanism"},
+        "structured_participation": {"value": "youth councils, youth parliaments, observation, dialogue, and YPS coalitions create recurring bridges between community action and formal institutions", "unit": "reported institutional route", "value_type": "reported_route"},
+        "capability_building": {"value": "media literacy, civic education, creative arts, sports, and game-based approaches are presented as ways to build participation capability and reach", "unit": "reported program set", "value_type": "reported_program_set"},
+        "conversion_condition": {"value": "participation becomes meaningful when institutions are open to influence, provide protection, and connect engagement to tangible impact over time", "unit": "reported implementation condition", "value_type": "reported_condition"}
+      },
+      "method": "UNDP review of illustrative initiatives in multiple countries and programmatic lessons for electoral assistance, peacebuilding, digital resilience, and youth inclusion.",
+      "uncertainty": "Illustrative initiatives are not randomized evaluations; the paper does not establish comparable effect sizes, durability, or generalizability across political systems.",
+      "subgroup": "Youth participants, civic-technology users, community organizers, electoral-management bodies, civil-society organizations, local governments, educators, and peacebuilding partners.",
+      "counterinterpretation": "Advisory councils and digital platforms can become symbolic, under-resourced, surveilled, or disconnected from decisions; formal access does not itself prove influence, safety, or institutional trust.",
+      "source_url": "https://www.undp.org/publications/youth-peace-and-security-and-electoral-processes-times-youth-led-protests-around-world",
+      "retrieval_hash": "sha256:a82ad20743edcd1e6700b24fab7b8d131ff4bed69c467c06a88a68c0a38c8d34",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/future-development/publications/landscape-development-undp-trends-update-2026", "claim": "UNDP's 2026 development-trends update provides complementary context on changing development and governance conditions."},
+    {"source_url": "https://www.un.org/peacebuilding/content/youth-peace-and-security", "claim": "The UN Youth, Peace and Security framework provides institutional context for the paper's participation and peacebuilding route."}
+  ],
+  "boundary": "This record adds a cultural-political route from youth identity, issue-driven and digital participation, civic space, representation, protest, civic technology, elections, and institutional legitimacy. It uses UNDP thematic synthesis, cited evidence, and illustrative program cases, not respondent-level political histories, individual social-media traces, causal protest effects, election forecasts, or proof that all youth or all digital participation follows one pattern.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP publication page and linked 12-page PDF reviewed for the youth participation shift, under-30 representation context, civic-space and digital risks, cited 26-country representation/action figures, and civic-technology conversion routes.",
+    "source_url_sha256": "sha256:a82ad20743edcd1e6700b24fab7b8d131ff4bed69c467c06a88a68c0a38c8d34",
+    "checked": "2026-09-26"
+  }
+}

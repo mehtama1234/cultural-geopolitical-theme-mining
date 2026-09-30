@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills",
+  "title": "Creative-industry AI adoption is being negotiated as an augmentation, trust and entry-route problem rather than simple automation",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Government, AI Adoption Plan: Creative Industries, report by the AI Champion for the Creative Industries",
+  "geography": "United Kingdom creative industries, including businesses, freelancers, institutions and regional creative clusters",
+  "observations": [
+    {
+      "period": "2024-2026; UK creative-industry scale and AI adoption",
+      "denominator": {"value": 1, "unit": "UK creative-industries sector", "value_type": "published_sector_frame"},
+      "measures": {
+        "gva": {"value": "creative industries contributed nearly £146 billion in GVA in 2024, almost 6% of UK total", "unit": "reported sector contribution", "value_type": "reported_estimate"},
+        "exports": {"value": "creative industries accounted for nearly 13% of UK services exports in 2023", "unit": "reported export share", "value_type": "reported_share"},
+        "ai_use": {"value": "51% of creative businesses report using AI compared with 33% of all businesses", "unit": "reported business adoption share", "value_type": "reported_share"}
+      },
+      "method": "UK government sector adoption plan synthesizing official business statistics, sector evidence, case studies and policy recommendations.",
+      "uncertainty": "The plan reports sector and business adoption measures but does not establish that AI caused GVA growth, export performance, productivity or job creation.",
+      "subgroup": "Creative businesses, freelancers, cultural institutions, creators, rightsholders, employees, clients, audiences and regional creative clusters.",
+      "counterinterpretation": "Higher reported adoption can reflect sector composition, experimentation or operational use rather than deeper creative-work integration or realized worker benefit.",
+      "source_url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans/ai-adoption-plan-creative-industries",
+      "retrieval_hash": "sha256:1449903383083d36e4a74e5485d6b6cd1097c50a84c374949f2c1f2274f4e9dd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; adoption differences by subsector and business size",
+      "denominator": {"value": 4, "unit": "creative subsectors compared in the plan", "value_type": "published_subsector_frame"},
+      "measures": {
+        "subsector_rates": {"value": "reported AI use is 60% in IT/software/computer services, 53% in design and designer fashion, 44% in film/TV/video/photography, and 22% in music, performing and visual arts", "unit": "reported business adoption shares", "value_type": "reported_comparison"},
+        "size_gap": {"value": "enterprises with 250 or more employees have 44% adoption compared with about 24% among microbusinesses", "unit": "reported business-size adoption comparison", "value_type": "reported_comparison"},
+        "lag": {"value": "microbusinesses are described as approximately 18 months behind large firms in AI adoption", "unit": "reported adoption-lag estimate", "value_type": "reported_estimate"}
+      },
+      "method": "Descriptive comparison of creative subsectors and firm sizes using official business survey measures cited in the adoption plan.",
+      "uncertainty": "The comparisons may reflect sector mix, resources, workflow suitability, reporting and timing; they do not identify a single cause of the size or subsector gap.",
+      "subgroup": "Large enterprises, SMEs, microbusinesses, freelancers, software and design firms, screen industries, music, performing and visual arts.",
+      "counterinterpretation": "Smaller firms may adopt later but can leapfrog through shared tools, regional support or lower legacy-system constraints; adoption rate alone does not measure competitiveness or job quality.",
+      "source_url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans/ai-adoption-plan-creative-industries",
+      "retrieval_hash": "sha256:1449903383083d36e4a74e5485d6b6cd1097c50a84c374949f2c1f2274f4e9dd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; operational-first adoption, trust and creative-labour exposure",
+      "denominator": {"value": 1, "unit": "UK creative-industry adoption pathway", "value_type": "published_framework"},
+      "measures": {
+        "operational_first": {"value": "most organizations are described as using AI first for operational tasks before applying it to creative workflows", "unit": "reported adoption sequence", "value_type": "reported_assessment"},
+        "trust_barrier": {"value": "10.1% of creative businesses cite lack of trust in AI product safety or transparency as a factor delaying adoption, compared with 5.7% of all businesses", "unit": "reported business barrier share", "value_type": "reported_share"},
+        "entry_routes": {"value": "the plan warns that automating tasks traditionally assigned to junior or entry-level workers could weaken creative career pathways without training and progression", "unit": "reported labour-market risk", "value_type": "reported_assessment"}
+      },
+      "method": "Policy synthesis combining business survey evidence, sector case studies and analysis of creative workflow, rights, trust and workforce implications.",
+      "uncertainty": "The plan identifies risks and pathways but does not measure how many entry-level tasks have been displaced or whether operational use leads to creative-work adoption.",
+      "subgroup": "Creative workers, junior entrants, freelancers, studios, clients, audiences, rightsholders, trade unions and guilds.",
+      "counterinterpretation": "Automation of repetitive tasks can free time for creative judgment and improve job quality, but benefits depend on who captures the time, savings and bargaining power.",
+      "source_url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans/ai-adoption-plan-creative-industries",
+      "retrieval_hash": "sha256:1449903383083d36e4a74e5485d6b6cd1097c50a84c374949f2c1f2274f4e9dd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; augmentation-first policy response",
+      "denominator": {"value": 8, "unit": "practical steps proposed in the UK plan", "value_type": "reported_recommendation_denominator"},
+      "measures": {
+        "steps": {"value": "the plan proposes augmentation-first adoption, responsible AI governance, practical knowledge, trusted guidance, skills and workforce transition, lower cost barriers, nationwide infrastructure and regular evaluation", "unit": "reported policy-step set", "value_type": "reported_recommendation"},
+        "human_control": {"value": "AI is framed as supporting human creativity rather than displacing creative judgment, craft and labor", "unit": "reported policy principle", "value_type": "reported_principle"},
+        "access": {"value": "testbeds, anchor institutions, regional support, funding and toolkits are proposed to prevent adoption concentrating among large firms or a few locations", "unit": "reported inclusion pathway", "value_type": "reported_recommendation"}
+      },
+      "method": "Government sector plan based on policy analysis, sector engagement, case studies and recommendations to government and industry.",
+      "uncertainty": "These are proposed actions, not implemented policies or measured effects; the plan does not establish that augmentation-first governance will produce equitable adoption or job quality.",
+      "subgroup": "Creative firms, freelancers, microbusinesses, workers, unions, rightsholders, clients, audiences, regional institutions and AI vendors.",
+      "counterinterpretation": "Responsible adoption frameworks can build trust, but they can also increase compliance costs, slow experimentation or leave unresolved copyright, consent, disclosure and compensation conflicts.",
+      "source_url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans/ai-adoption-plan-creative-industries",
+      "retrieval_hash": "sha256:1449903383083d36e4a74e5485d6b6cd1097c50a84c374949f2c1f2274f4e9dd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/ai-champions-ai-adoption-plans", "claim": "UK government collection page for AI Champion adoption plans."},
+    {"source_url": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry/articles/businessinsightsandconditionssurvey/2026", "claim": "Official ONS business survey source cited for creative-industry AI adoption and trust barriers."}
+  ],
+  "boundary": "This record adds a creative-work and cultural-economy route linking AI adoption to firm size, subsector, operational workflow, trust, rights, cost, skills, entry-level career paths, regional infrastructure and human creative control. It is a UK government policy plan using cited business evidence and case studies, not a causal evaluation, complete creative-industry census, worker panel, consumer survey or proof that augmentation-first adoption produces equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK plan was reviewed for sector scale, business and subsector adoption rates, size differences, trust barriers, operational-first use, workforce risks and eight proposed policy steps.",
+    "source_url_sha256": "sha256:1449903383083d36e4a74e5485d6b6cd1097c50a84c374949f2c1f2274f4e9dd",
+    "checked": "2026-09-27"
+  }
+}

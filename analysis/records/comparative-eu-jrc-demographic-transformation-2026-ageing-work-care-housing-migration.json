@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration",
+  "title": "Demographic change is reorganizing labor, care, housing, migration, regional cohesion, and public finance at the same time",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "European Commission Joint Research Centre, Demographic transformation in the EU: challenges and opportunities, July 14, 2026",
+  "geography": "European Union; population, labor-market, care, housing, migration, and regional-policy synthesis",
+  "observations": [
+    {
+      "period": "2024–2100 EU population and longevity projections",
+      "denominator": {"value": 450.6, "unit": "million EU residents at the current population peak cited by the report", "value_type": "reported_population_estimate"},
+      "measures": {
+        "population_2050": {"value": 445, "unit": "million projected EU residents in 2050", "value_type": "reported_projection"},
+        "population_2100": {"value": 398.8, "unit": "million projected EU residents in 2100", "value_type": "reported_projection"},
+        "population_change": {"value": -11.7, "unit": "percent projected decline from the current population peak to 2100", "value_type": "reported_projection"},
+        "life_expectancy_2024": {"value": 81.5, "unit": "years life expectancy at birth in 2024", "value_type": "reported_average"},
+        "mechanism": {"value": "Population decline and longer lives create simultaneous pressure on labor supply, care demand, public finance, housing, and regional continuity rather than a single aging effect", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "European Commission Joint Research Centre demographic projections and synthesis of population, health, labor, and policy evidence.",
+      "uncertainty": "Population projections are scenario-dependent and do not forecast policy response, migration changes, fertility shifts, productivity, or regional divergence with certainty.",
+      "subgroup": "EU population overall, age groups, regions, labor-force participants, and older residents.",
+      "counterinterpretation": "Longer lives can expand participation, innovation, and longevity markets; demographic change is not only fiscal burden or labor scarcity.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/demographic-transformation-eu-challenges-and-opportunities-2026-07-14_en",
+      "retrieval_hash": "sha256:805d7a806e4ceac45751e80130d150067f5cdaf7d3cb0c5425a85b2eaf9ff129",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2050 EU age structure and healthy longevity",
+      "denominator": {"value": 1, "unit": "EU population projection frame; age shares and life-course indicators", "value_type": "reported_population_frame"},
+      "measures": {
+        "age_65_2050": {"value": "nearly one in three EU residents projected to be age 65 or older by 2050, compared with about one in five today", "unit": "reported age-share comparison", "value_type": "reported_projection"},
+        "healthy_life_years": {"value": 75.3, "unit": "years without major illness expected for a child born in the EU in 2023", "value_type": "reported_average"},
+        "care_need_2070": {"value": "people needing support projected to rise from 36 million to 48 million by 2070", "unit": "reported population projection", "value_type": "reported_projection"},
+        "mechanism": {"value": "The care economy becomes a central labor, time, health, and public-finance system as longevity increases and the population needing support expands", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JRC demographic and healthy-longevity projections summarized in the European Commission report.",
+      "uncertainty": "Care-need projections depend on health trajectories, disability, family structure, formal-service availability, and definitions of support; they do not measure unpaid caregiver time or service adequacy directly.",
+      "subgroup": "Older residents, people needing support, families, formal care systems, and care workers.",
+      "counterinterpretation": "Healthy longevity and improved prevention can delay or reduce intensive support needs, while technology and community care may change the composition of demand.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/demographic-transformation-eu-challenges-and-opportunities-2026-07-14_en",
+      "retrieval_hash": "sha256:805d7a806e4ceac45751e80130d150067f5cdaf7d3cb0c5425a85b2eaf9ff129",
+      "status": "reported"
+    },
+    {
+      "period": "Current EU labor-market and population-pressure indicators",
+      "denominator": {"value": 1, "unit": "EU working-age and youth population frame", "value_type": "reported_population_frame"},
+      "measures": {
+        "outside_labor_market": {"value": 20, "unit": "percent of working-age people outside the labor market", "value_type": "reported_share"},
+        "gender_employment_gap": {"value": 10, "unit": "percentage-point gender employment gap cited by the report", "value_type": "reported_gap"},
+        "youth_neet": {"value": 8, "unit": "million young people not in education, employment, or training", "value_type": "reported_population_count"},
+        "skilled_migration": {"value": "skilled migration is already helping address labor shortages while the report also prioritizes upskilling and reskilling people already in the EU", "unit": "reported policy pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Demographic pressure is distributed through participation gaps, gendered work, youth transitions, skills, and migration policy rather than solved by one fertility or retirement intervention", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JRC synthesis of EU labor-market, skills, participation, and migration indicators.",
+      "uncertainty": "Aggregate EU indicators conceal substantial country and regional variation; the report does not establish that any one policy caused the participation or employment gaps.",
+      "subgroup": "Women, young people, older workers, migrants, working-age people outside the labor market, and regions facing workforce decline.",
+      "counterinterpretation": "Higher employment participation can improve capacity but may also increase care pressure if jobs, working time, housing, and care services are not redesigned together.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/demographic-transformation-eu-challenges-and-opportunities-2026-07-14_en",
+      "retrieval_hash": "sha256:805d7a806e4ceac45751e80130d150067f5cdaf7d3cb0c5425a85b2eaf9ff129",
+      "status": "reported"
+    },
+    {
+      "period": "EU demographic policy response; 2023–2034 policy architecture",
+      "denominator": {"value": 27, "unit": "EU Member States receiving coordinated demographic-policy tools", "value_type": "reported_policy_frame"},
+      "measures": {
+        "demography_toolbox": {"value": "EU Demography Toolbox adopted in October 2023 and welcomed by all Member States", "unit": "reported policy milestone", "value_type": "reported_policy_status"},
+        "policy_routes": {"value": "policy responses cover affordable housing, intergenerational fairness, anti-poverty, lifelong skills, care, rural areas, and regions losing working-age population", "unit": "reported policy portfolio", "value_type": "reported_policy_pattern"},
+        "future_budget": {"value": "the proposed 2028–2034 EU multiannual financial framework includes demographic change as an objective of national and regional partnership plans", "unit": "reported policy proposal", "value_type": "reported_policy_status"},
+        "mechanism": {"value": "Demography becomes a coordination problem linking housing, care, work, skills, migration, rural development, and intergenerational fairness across policy levels", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "European Commission policy inventory and JRC report summary; policy announcements are separated from observed implementation outcomes.",
+      "uncertainty": "The existence of a toolbox, strategy, or budget objective does not establish funding, delivery, uptake, regional reach, or durable demographic outcomes.",
+      "subgroup": "EU institutions, Member States, regions, rural areas, young people, older residents, migrants, and households needing care or housing.",
+      "counterinterpretation": "Coordinated policy can remain fragmented if local administrative capacity, political priorities, labor-market conditions, or financing differ across Member States.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/demographic-transformation-eu-challenges-and-opportunities-2026-07-14_en",
+      "retrieval_hash": "sha256:805d7a806e4ceac45751e80130d150067f5cdaf7d3cb0c5425a85b2eaf9ff129",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://population.un.org/wpp/", "claim": "UN population projections and demographic comparison context."},
+    {"source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_3568", "claim": "European Commission Demography Toolbox policy context."}
+  ],
+  "boundary": "This record adds a comparative EU route from population decline, aging, and longevity through labor participation, care demand, housing, skills, migration, regional cohesion, and multilevel policy response. It uses official projections and policy synthesis, not a causal evaluation of the Demography Toolbox, a household panel, or evidence that announced measures have produced durable care, work, housing, or demographic outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission Joint Research Centre page reviewed for population projections, longevity, age structure, care demand, labor-market participation, gender and youth indicators, skilled migration, policy tools, housing, care, rural, skills, and budget-response claims.",
+    "source_url_sha256": "sha256:805d7a806e4ceac45751e80130d150067f5cdaf7d3cb0c5425a85b2eaf9ff129",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment",
+  "title": "AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos, Global Attitudes on AI 2026 / fifth annual AI Monitor",
+  "geography": "32 countries; global, regional, income and generational comparisons",
+  "observations": [
+    {
+      "period": "2026; 32-country Ipsos AI Monitor",
+      "denominator": {"value": 32, "unit": "countries in the Ipsos AI Monitor comparison", "value_type": "reported_population"},
+      "measures": {
+        "ai_changed_life": {"value": 54, "unit": "percent saying products and services using AI have already changed their lives in the past three to five years", "value_type": "reported_share"},
+        "ai_future_impact": {"value": 66, "unit": "percent expecting AI to have a greater impact on their daily lives in the next three to five years", "value_type": "reported_share"},
+        "regional_attitude_pattern": {"value": "Asia and Latin America are more likely to see AI as having more benefits than drawbacks and to feel excited; Europe and North America are more likely to feel nervous", "unit": "reported regional pattern", "value_type": "reported_distribution"}
+      },
+      "method": "Fifth annual Ipsos AI Monitor comparing public attitudes toward current and future AI effects across 32 countries.",
+      "uncertainty": "Perceived impact is not equivalent to measured use, productivity or welfare; country averages and regional groupings conceal occupation, education, income and policy differences.",
+      "subgroup": "Adults across 32 countries, with regional comparisons between Asia, Latin America, Europe and North America.",
+      "counterinterpretation": "Expectations of future impact may reflect media salience and generalized technological anticipation rather than direct experience with AI systems.",
+      "source_url": "https://www.ipsos.com/en-ca/global-attitudes-ai-2026-wonder-vs-worry-divide-deepens",
+      "retrieval_hash": "sha256:3397b81eb0e5cdd8aaf9efb1836b368630d1166305be9d08cf0c07d6296f84cf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI and work across 32 countries",
+      "denominator": {"value": 32, "unit": "countries in the Ipsos AI Monitor comparison; worker subgroup denominator not separately headlined on the public page", "value_type": "reported_population"},
+      "measures": {
+        "workers_time_saved": {"value": 62, "unit": "percent of workers saying AI saved them time at work in the previous 12 months", "value_type": "reported_share"},
+        "high_income_time_saved": {"value": 70, "unit": "percent among higher-income respondents", "value_type": "reported_share"},
+        "middle_income_time_saved": {"value": 60, "unit": "percent among middle-income respondents", "value_type": "reported_share"},
+        "low_income_time_saved": {"value": 54, "unit": "percent among lower-income respondents", "value_type": "reported_share"},
+        "generational_time_saved": {"value": "Gen Z 68%, Millennials 65%, Gen X 57%, Baby Boomers 46%", "unit": "reported generational comparison", "value_type": "reported_distribution"}
+      },
+      "method": "Ipsos self-reported comparison of workplace time savings by income and generation.",
+      "uncertainty": "Reported time savings do not establish net productivity, job quality, workload reduction or whether saved time is returned to workers; income and generation are correlated with occupation and access.",
+      "subgroup": "Workers across 32 countries, compared by household income and generation.",
+      "counterinterpretation": "Higher reported savings may reflect greater opportunity to use AI, more discretionary work and better tools rather than unequal technological benefit alone.",
+      "source_url": "https://www.ipsos.com/en-ca/global-attitudes-ai-2026-wonder-vs-worry-divide-deepens",
+      "retrieval_hash": "sha256:3397b81eb0e5cdd8aaf9efb1836b368630d1166305be9d08cf0c07d6296f84cf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI benefits and environmental costs",
+      "denominator": {"value": 32, "unit": "countries in the Ipsos AI Monitor comparison", "value_type": "reported_population"},
+      "measures": {
+        "benefits_outweigh_environmental_costs": {"value": 49, "unit": "percent saying potential AI benefits outweigh environmental costs", "value_type": "reported_share"},
+        "environmental_cost_disagreement": {"value": 39, "unit": "percent disagreeing that AI benefits outweigh environmental costs", "value_type": "reported_share"},
+        "regional_environmental_skepticism": {"value": "English-speaking countries and Western Europe are more likely to disagree that AI benefits outweigh environmental costs", "unit": "reported regional pattern", "value_type": "reported_distribution"}
+      },
+      "method": "Cross-national public-opinion measure of perceived AI benefits relative to environmental costs.",
+      "uncertainty": "The question measures normative judgment, not lifecycle emissions, water use, energy demand or actual environmental impact; respondents may have limited information about AI infrastructure.",
+      "subgroup": "Adults across 32 countries, with regional comparison.",
+      "counterinterpretation": "Environmental concern may coexist with continued AI use because individuals separate personal utility from system-level infrastructure costs.",
+      "source_url": "https://www.ipsos.com/en-ca/global-attitudes-ai-2026-wonder-vs-worry-divide-deepens",
+      "retrieval_hash": "sha256:3397b81eb0e5cdd8aaf9efb1836b368630d1166305be9d08cf0c07d6296f84cf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust in generative-AI answers influenced by advertisers",
+      "denominator": {"value": 32, "unit": "countries in the Ipsos AI Monitor comparison", "value_type": "reported_population"},
+      "measures": {
+        "advertiser_influence_trust_penalty": {"value": 46, "unit": "percent saying they would trust a generative-AI tool less if advertisers influenced its answers", "value_type": "reported_share"},
+        "markets_majority_less_trust": {"value": 15, "unit": "markets where a majority would trust the tool less under advertiser influence", "value_type": "reported_count"},
+        "commercial_trust_boundary": {"value": "Commercial influence is treated as a distinct threat to answer credibility, even amid broad interest in AI utility", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-national survey experiment-style question about trust in generative-AI answers under advertiser influence.",
+      "uncertainty": "Hypothetical trust responses may not predict actual tool switching or behavior; the question does not identify which disclosures, rankings or commercial arrangements users would accept.",
+      "subgroup": "Adults across 32 countries and markets.",
+      "counterinterpretation": "Some users may tolerate or prefer sponsored AI answers if disclosure, relevance and price benefits are clear, so lower stated trust need not imply rejection of commercial AI.",
+      "source_url": "https://www.ipsos.com/en-ca/global-attitudes-ai-2026-wonder-vs-worry-divide-deepens",
+      "retrieval_hash": "sha256:3397b81eb0e5cdd8aaf9efb1836b368630d1166305be9d08cf0c07d6296f84cf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-nz/global-attitudes-ai-2026-wonder-vs-worry-divide-deepens", "claim": "Ipsos regional page with the 2026 AI Monitor headline findings and additional New Zealand detail."},
+    {"source_url": "https://resources.ipsos.com/Download-2026-AIMonitor.html", "claim": "Official Ipsos report-access page for the 2026 AI Monitor."}
+  ],
+  "boundary": "This record adds a negotiated-adoption mechanism: people see AI as increasingly consequential and often time-saving, while income gaps, environmental trade-offs, regional affect and advertiser influence shape whether that usefulness is trusted and legitimate. It is a cross-national attitude study, not a causal productivity evaluation, AI-use trace, labor-market forecast, environmental lifecycle assessment or proof of actual consumer switching.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos 2026 AI Monitor page and report-access page were retrieved and reviewed for 32-country scope, current/future impact, workplace time savings, income and generational differences, environmental trade-offs and advertiser-influenced trust; the canonical public article page was hashed because the report download is gated behind the official access form.",
+    "source_url_sha256": "sha256:3397b81eb0e5cdd8aaf9efb1836b368630d1166305be9d08cf0c07d6296f84cf",
+    "checked": "2026-09-27"
+  }
+}

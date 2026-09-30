@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nces-condition-education-2025-enrollment-learning-pathways",
+  "title": "American education is being reshaped by enrollment contraction, more at-home instruction, learning loss, and a widening postsecondary value pathway",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "National Center for Education Statistics, Report on the Condition of Education 2025, with highlights published by the Institute of Education Sciences",
+  "geography": "United States; elementary and secondary education, postsecondary education, and young-adult economic outcomes",
+  "observations": [
+    {
+      "period": "2013-2023; public elementary and secondary enrollment",
+      "denominator": {"value": 1, "unit": "public prekindergarten through grade 12 enrollment in the United States", "value_type": "administrative_population_frame"},
+      "measures": {
+        "public_enrollment_2023": {"value": 49500000, "unit": "students enrolled in public preK through grade 12 in fall 2023", "value_type": "reported_count"},
+        "change_from_2019": {"value": "fall 2023 enrollment was below 50.8 million in fall 2019", "unit": "reported enrollment comparison", "value_type": "reported_comparison"},
+        "change_from_2013": {"value": "fall 2023 enrollment was below 50.0 million in fall 2013", "unit": "reported enrollment comparison", "value_type": "reported_comparison"},
+        "state_distribution": {"value": "enrollment in fall 2023 exceeded fall 2019 levels in 9 states and the District of Columbia but remained lower in the other 41 states; 10 states were down at least 5%", "unit": "reported state pattern", "value_type": "reported_distribution"}
+      },
+      "method": "NCES synthesis of administrative and survey indicators in the Condition of Education; enrollment is reported for selected years and states.",
+      "uncertainty": "The aggregate and state comparisons do not identify the contributions of birth rates, migration, school choice, homeschooling, virtual instruction, pandemic disruption, or local policy; enrollment is not a direct measure of educational quality.",
+      "subgroup": "Public school students in preK through grade 12 and state education systems.",
+      "counterinterpretation": "Lower public enrollment can coexist with stable or growing total educational participation if private, charter, homeschool, or virtual routes expand; it can also reflect demographic change rather than institutional failure.",
+      "source_url": "https://nces.ed.gov/use-work/resource-library/report/compendium/learn-about-new-condition-education-2025-part-i",
+      "retrieval_hash": "sha256:6d4ed6ba397f6f7db18a73b1d74250d17612b1c46275ba51e7f6cfa35f94484b",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2023; at-home instruction among children ages 5 to 17",
+      "denominator": {"value": 1, "unit": "U.S. children ages 5 to 17 with a grade equivalent of kindergarten through grade 12", "value_type": "population_frame"},
+      "measures": {
+        "at_home_instruction_2023": {"value": 5.2, "unit": "percent receiving instruction at home in 2023", "value_type": "reported_share"},
+        "at_home_instruction_2019": {"value": 3.7, "unit": "percent receiving instruction at home in 2019", "value_type": "reported_share"},
+        "homeschool_2023": {"value": 3.4, "unit": "percent homeschooled in 2023", "value_type": "reported_share"},
+        "full_time_virtual_2023": {"value": 1.8, "unit": "percent enrolled in public or private schools but receiving full-time virtual instruction in 2023", "value_type": "reported_share"},
+        "delivery_shift": {"value": "at-home instruction remained more prevalent in 2023 than before the pandemic", "unit": "reported education-delivery comparison", "value_type": "reported_assessment"}
+      },
+      "method": "NCES indicator combining homeschooling and full-time virtual instruction measures for children ages 5 to 17.",
+      "uncertainty": "The measure combines distinct instructional arrangements and does not show duration, learning quality, family burden, social experience, or whether the arrangement is chosen or constrained.",
+      "subgroup": "Children ages 5 to 17 and their households.",
+      "counterinterpretation": "At-home and virtual instruction may improve flexibility or fit for some families while creating time, technology, social, or support burdens for others; aggregate growth does not determine welfare.",
+      "source_url": "https://nces.ed.gov/use-work/resource-library/report/compendium/learn-about-new-condition-education-2025-part-i",
+      "retrieval_hash": "sha256:6d4ed6ba397f6f7db18a73b1d74250d17612b1c46275ba51e7f6cfa35f94484b",
+      "status": "reported"
+    },
+    {
+      "period": "2013-2023; postsecondary enrollment and degree pathways",
+      "denominator": {"value": 1, "unit": "U.S. degree-granting postsecondary institutions", "value_type": "institutional_population_frame"},
+      "measures": {
+        "undergraduate_enrollment": {"value": "total undergraduate enrollment decreased 9%, from 17.5 million in fall 2013 to 15.8 million in fall 2023", "unit": "reported enrollment comparison", "value_type": "reported_change"},
+        "two_year_driver": {"value": "the undergraduate decline was driven by a decrease at two-year institutions", "unit": "reported institutional-sector pattern", "value_type": "reported_assessment"},
+        "postbaccalaureate_enrollment": {"value": "postbaccalaureate enrollment increased from 2.9 million in fall 2013 to 3.2 million in fall 2023", "unit": "reported enrollment comparison", "value_type": "reported_change"},
+        "awards_2022_23": {"value": 5100000, "unit": "postsecondary awards conferred in academic year 2022-23, from certificates through doctorates", "value_type": "reported_count"},
+        "pathway_recomposition": {"value": "the postsecondary system is not simply shrinking; undergraduate and postbaccalaureate routes are moving in different directions", "unit": "analytic institutional implication", "value_type": "analytic_implication"}
+      },
+      "method": "NCES synthesis of postsecondary enrollment and completion indicators across degree-granting institutions.",
+      "uncertainty": "Enrollment counts do not establish student demand, institutional financial health, completion quality, labor-market value, or the reasons for two-year versus postbaccalaureate change.",
+      "subgroup": "Undergraduate and postbaccalaureate students, degree-granting institutions, and households making education decisions.",
+      "counterinterpretation": "Some decline in undergraduate enrollment may reflect demographic cohorts, delayed enrollment, alternative credentials, labor-market conditions, or changing institutional mix rather than a uniform collapse in educational demand.",
+      "source_url": "https://nces.ed.gov/use-work/resource-library/report/compendium/learn-about-new-condition-education-2025-part-i",
+      "retrieval_hash": "sha256:6d4ed6ba397f6f7db18a73b1d74250d17612b1c46275ba51e7f6cfa35f94484b",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024; school achievement and young-adult economic outcomes",
+      "denominator": {"value": 1, "unit": "NCES achievement and economic-outcome indicator series", "value_type": "publication_frame"},
+      "measures": {
+        "naep_2024": {"value": "for both grade 4 and grade 8, higher percentages performed below NAEP Basic and lower percentages performed at or above NAEP Proficient in 2024 than in 2019", "unit": "reported assessment comparison", "value_type": "reported_comparison"},
+        "young_adult_employment": {"value": "employment among 25- to 34-year-olds increased from 75% in 2014 to 80% in 2024", "unit": "percent employed", "value_type": "reported_change"},
+        "earnings_master_vs_bachelor": {"value": "$80,200 median earnings for full-time, year-round 25- to 34-year-old workers with a master's or higher degree versus $66,600 for bachelor's degree completers in 2022", "unit": "unadjusted median annual earnings", "value_type": "reported_comparison"},
+        "earnings_bachelor_vs_associate": {"value": "median earnings for bachelor's degree completers were 35% higher than for associate's degree completers in 2022", "unit": "reported earnings comparison", "value_type": "reported_comparison"},
+        "education_translation": {"value": "education systems are simultaneously carrying learning-recovery concerns and maintaining a strong association between attainment and labor-market returns", "unit": "analytic cross-domain implication", "value_type": "analytic_implication"}
+      },
+      "method": "NCES synthesis of NAEP assessment trends, Current Population Survey employment outcomes, and median earnings by educational attainment.",
+      "uncertainty": "These are separate indicator families with different populations, years, and measures; earnings associations are not causal returns to a specific credential and do not account here for debt, field, occupation, selection, or family resources.",
+      "subgroup": "K-12 students, young adults ages 25 to 34, and full-time year-round workers by educational attainment.",
+      "counterinterpretation": "Achievement changes may reflect pandemic disruption, testing conditions, cohort composition, or other factors; higher earnings may reflect selection, experience, field, occupation, and family background as well as education.",
+      "source_url": "https://nces.ed.gov/use-work/resource-library/report/compendium/learn-about-new-condition-education-2025-part-i",
+      "retrieval_hash": "sha256:6d4ed6ba397f6f7db18a73b1d74250d17612b1c46275ba51e7f6cfa35f94484b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nces.ed.gov/surveys/AnnualReports/condition.asp", "claim": "NCES Condition of Education provides the current indicator system, reference tables, and topic coverage for the annual report.", "status": "official-report-hub"},
+    {"source_url": "https://ies.ed.gov/sites/default/files/nces/document/2026/05/2026019.pdf", "claim": "The complete Report on the Condition of Education 2025 is the underlying PDF edition identified as NCES 2026-019.", "status": "official-report"}
+  ],
+  "boundary": "This record adds an education-capacity and opportunity layer: U.S. public enrollment is contracting in many states, at-home instruction remains above its pre-pandemic level, undergraduate and postbaccalaureate pathways are diverging, achievement indicators remain weaker than in 2019, and attainment continues to correlate with employment and earnings. It does not establish causes, institutional quality, family welfare, causal education returns, or a single national education trajectory.",
+  "retrieval_hash": "sha256:6d4ed6ba397f6f7db18a73b1d74250d17612b1c46275ba51e7f6cfa35f94484b"
+}

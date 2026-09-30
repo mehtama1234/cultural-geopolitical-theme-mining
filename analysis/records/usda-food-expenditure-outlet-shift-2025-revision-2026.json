@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usda-food-expenditure-outlet-shift-2025-revision-2026",
+  "title": "Real food sales grew modestly in 2025 while outlet patterns diverged between full-service and limited-service eating",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "firm_sector_market_power", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "USDA Economic Research Service Food Expenditure Series monthly outlet sales and annual food-expenditure tables, constant 2025 dollars",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Calendar year 2025 compared with 2024; annual food sales across all purchasers",
+      "denominator": {"value": 12, "unit": "monthly observations summed for each calendar year", "value_type": "time_series_aggregation"},
+      "measures": {
+        "real_total_food_sales_2025": {"value": 2353845.36, "unit": "million constant 2025 dollars", "value_type": "reported_series_aggregate"},
+        "real_total_food_sales_change": {"value": 0.886, "unit": "percent change from 2024, constant 2025 dollars", "value_type": "derived_change"},
+        "real_food_at_home_change": {"value": 0.667, "unit": "percent change from 2024, constant 2025 dollars", "value_type": "derived_change"},
+        "real_food_away_from_home_change": {"value": 1.076, "unit": "percent change from 2024, constant 2025 dollars", "value_type": "derived_change"},
+        "food_away_from_home_share": {"value": 50.268, "unit": "percent of 2025 real food sales, calculated from annualized monthly series", "value_type": "derived_share"}
+      },
+      "method": "Summed the 12 monthly constant-dollar total, food-at-home, and food-away-from-home sales columns for 2025 and 2024 from the USDA ERS outlet CSV. The series is in constant 2025 dollars and covers sales across all purchasers; the monthly series excludes donated, home-produced, furnished, and educational-institution food noted in the product documentation.",
+      "uncertainty": "This is a sales series, not a household panel or quantity/quality measure. It does not identify unique purchasers, food insecurity, prices paid by subgroup, meals, nutrition, restaurant visits, time burden, or cultural meaning. The annual aggregation inherits source revisions and classification choices.",
+      "subgroup": "All-purchaser U.S. food sales, separated into food at home and food away from home.",
+      "counterinterpretation": "The slightly faster real growth in food away from home may reflect prices, composition, institutional or business purchasers, or recovery from prior periods rather than broad household discretionary capacity. A near-50/50 split is not a household budget share.",
+      "source_url": "https://ers.usda.gov/media/5200/monthly-sales-of-food-with-taxes-and-tips-for-all-purchasers-by-outlet-type.csv?v=87705",
+      "retrieval_hash": "sha256:78a5a7eb88a2b0f0522f9b27cd1344923e714c62eae815bd98af92eae0bd6168",
+      "status": "estimated"
+    },
+    {
+      "period": "December 2025 compared with December 2024; selected food outlets",
+      "denominator": {"value": 5, "unit": "selected outlet and aggregate comparisons", "value_type": "reported_comparison_scope"},
+      "measures": {
+        "grocery_store_real_change": {"value": 0.01, "unit": "percent change in constant-dollar sales", "value_type": "derived_change"},
+        "warehouse_club_supercenter_real_change": {"value": -1.01, "unit": "percent change in constant-dollar sales", "value_type": "derived_change"},
+        "full_service_restaurant_real_change": {"value": 1.81, "unit": "percent change in constant-dollar sales", "value_type": "derived_change"},
+        "limited_service_restaurant_real_change": {"value": -0.80, "unit": "percent change in constant-dollar sales", "value_type": "derived_change"},
+        "total_food_away_from_home_real_change": {"value": 0.27, "unit": "percent change in constant-dollar sales", "value_type": "derived_change"}
+      },
+      "method": "Calculated December-over-December changes from the constant-dollar outlet columns in the same USDA ERS monthly CSV. The comparison is descriptive and does not adjust for weather, holidays, outlet closures, substitution, purchaser mix, or within-month frequency.",
+      "uncertainty": "Outlet sales do not show whether people bought more units, paid different prices, changed quality, substituted outlets, or shifted meals between home and away from home. December is seasonal and should not be generalized as a full-year consumer pattern.",
+      "subgroup": "Selected food-at-home and food-away-from-home outlet categories; December only.",
+      "counterinterpretation": "The contrast between full-service growth and limited-service decline could reflect income segmentation, promotions, price positioning, outlet mix, or business/institutional demand rather than a simple cultural return to sit-down dining.",
+      "source_url": "https://ers.usda.gov/media/5200/monthly-sales-of-food-with-taxes-and-tips-for-all-purchasers-by-outlet-type.csv?v=87705",
+      "retrieval_hash": "sha256:78a5a7eb88a2b0f0522f9b27cd1344923e714c62eae815bd98af92eae0bd6168",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ers.usda.gov/data-products/food-expenditure-series", "claim": "USDA ERS defines FES as a long-term measure of food acquired by product, outlet, and purchaser, with national, monthly, and state estimates and current revision notes.", "status": "official-method-context", "retrieval_hash": "sha256:6c10532f669ef4ce873e10ca4b2e420c688bd69ae7cca394b5d6e957504d68e1"},
+    {"source_url": "https://ers.usda.gov/media/5202/monthly-sales-of-food-with-taxes-and-tips-for-all-purchasers.csv?v=37564", "claim": "USDA ERS monthly all-purchaser food-sales series without outlet split provides a direct aggregate comparison file.", "status": "official-related-data"},
+    {"source_url": "https://ers.usda.gov/data-products/food-expenditure-series/update-and-revision-history", "claim": "USDA ERS revision-history page documents source revisions and the 2026 series changes affecting comparability.", "status": "official-revision-context"}
+  ],
+  "boundary": "This record measures real sales across all purchasers and selected outlets, not household consumption or welfare. It should be triangulated with USDA food-security prevalence, assistance spending, Census QSS customer classes, and household-level food acquisition data before interpreting a cultural or consumer trend."
+}

@@ -1,9 +1,1914 @@
 # US cross-source trend synthesis v1
 
-**Checked:** 2026-09-25
-**Status:** living cross-source synthesis; no single causal chain claimed  
+The [South Africa Census Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds a population-structure layer beneath social-participation measures. Multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% to 9.4% between 1996 and 2022, while legal marriage fell from 35.6% to 23.8%. The same census analysis reports 84.5% Christian affiliation and 9.5% traditional African religious affiliation in 2022. The pattern is cultural and household reorganization, not proof of increasing trust or cohesion; the next test is language access, housing and migration pathways, service usability, and lived intergroup contact.
+
+The [Singapore SG Culture Pass record](records/comparative-singapore-mccy-sg-culture-pass-2026-audience-reach-multicultural-access.json) adds a policy-designed audience-conversion route. More than 1.2 million citizens registered, and seven in ten had not attended a local arts or culture programme in the previous five years; among users, nine in ten expressed interest in another programme. The NAC survey shows why this is a meaningful but incomplete signal: physical attendance was 59%, digital arts consumption 66%, and active participation 28%, while childhood exposure was associated with substantially higher later engagement. The sharper test is redemption and repeat attendance by income, neighborhood, age, disability, and cultural background; registration and stated interest do not establish durable access or causal program effect.
+
+The [Open Banking Limited 2026 activity and fraud record](records/comparative-uk-open-banking-limited-2026-api-payments-users-fraud.json) shows digital financial infrastructure becoming routine while risk remains uneven. Payments rose 45% year over year and cumulative payments passed 1 billion, but more than two-thirds of reported fraud cases were authorised push-payment fraud. The signal is a conversion problem: infrastructure scale can increase convenience and access while shifting protection and loss-recoupment questions into the consumer layer. OBL’s aggregate and provider-covered measures do not identify unique users, switching, reimbursement, or causal safety.
+
+The [Australian ACCC Consumer Data Right data-quality record](records/comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability.json) adds a concrete data-portability-to-choice test. The CDR had more than 1.3 million users by July 2026, but the ACCC’s 16 stakeholder respondents still described stale or misclassified product fields, inconsistent loan-to-value presentation, missing transaction identifiers, uneven update timing, bespoke workarounds, and issue tickets that could remain open for more than six months. The synthesis implication is that interoperability is not the endpoint: usable consumer power requires semantic consistency, current data, visible escalation, and timely correction. This is a small stakeholder survey and regulatory observation, not a representative consumer or causal adoption study; the next test is whether repeated data-quality and resolution measures predict actual switching, savings, fraud exposure, and distributional access.
+
+The [Fundação Itaú/Datafolha cultural-habits record](records/comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap.json) adds a demand-side hybrid-access test to the Brazilian cultural-economy evidence. In 2025, 90% reported virtual cultural activity and 84% in-person activity, but in-person access was 70% among respondents with elementary education versus 96% among those with higher education, and 71% among D/E classes versus 93% among A/B. The cross-source implication is that digital reach can coexist with persistent physical cultural inequality; cultural conversion still depends on education, income, mobility, place, and venue access.
+
+The [Brazil IBGE SIIC 2013-2024 record](records/comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade.json) adds the cultural-production side of the audience story. Brazil counted about 5.9 million cultural-sector workers in 2024, with 44.6% in informal occupations versus 40.6% across all sectors; among people with culture-related degrees, 74.6% worked outside the cultural sector. The cross-source implication is that cultural agency and cultural access depend on a labor and supply system whose workers may have weaker formal protection and whose educational capacity does not reliably convert into cultural employment.
+
+The [World Bank Digital Progress and Trends 2025 record](records/comparative-world-bank-digital-progress-trends-2025-infrastructure-speed-data-skills.json) adds the infrastructure-capacity layer beneath digital access. In 2024, internet use reached 54% in LMICs and 27% in LICs, 5G coverage reached 35% and 4%, and data traffic per capita was approximately 100 GB in LMICs versus 5 GB in LICs. The cross-source implication is that connectivity can spread while bandwidth, speed, affordability, skills, and compute remain stratified; “online” is not a common consumer or cultural experience.
+
+The [GSMA Mobile Gender Gap 2026 record](records/comparative-gsma-mobile-gender-gap-2026-access-affordability-safety.json) adds a non-Western digital-participation counterweight to platform adoption stories. Women in LMICs were 12% less likely than men to use mobile internet in 2025, with about 200 million fewer women users; female use ranged from 35% in Sub-Saharan Africa to 77% in Latin America and the Caribbean. The cross-source implication is that network coverage and aggregate adoption can coexist with gendered participation, affordability, skills, awareness, and safety constraints. Mobile access is an opportunity condition, not proof of equal agency, cultural reach, or consumer benefit.
+
+The [England SACE 2025-26 record](records/comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity.json) adds an official care-to-capacity bridge. Among carers known to local authorities, 16.8% could spend time on things they valued, 19.5% were out of paid employment because of caring, 34.7% provided at least 100 hours of care per week, and only 26.2% always felt involved or consulted about support services. The cross-source implication is that household cultural and consumer optionality is partly produced by unpaid care infrastructure: time, work, social contact, health, financial pressure, and service voice are linked stages, not one “carer wellbeing” endpoint.
+
+The [UK CMA Annual Report 2025-26 record](records/comparative-uk-cma-annual-report-2025-2026-consumer-redress-digital-markets.json) adds a regulator-side remedy stage to the consumer-power pattern. The CMA reports a three-year average of £3.3bn in direct consumer benefits, 14 new-regime investigations, more than 80,000 learner-driver refunds averaging about £9, and a 33% year-over-year increase in public correspondence. The cross-source implication is that consumer voice can reach enforcement and direct-redress machinery, but institutional output, estimated avoided harm, refund receipt, and durable household recovery remain different endpoints.
+
+The [Creative Australia National Arts Participation Survey 2025 record](records/comparative-creative-australia-national-arts-participation-2025-cultural-background-cost.json) supplies the current cultural-connection layer beneath the historical migrant baseline. Engagement through arts with one's own cultural background, language group, or community rose from 32% in 2022 to 40% in 2025; live arts attendance reached 74%, but 60% named cost as the biggest barrier and 55% missed a wanted event because of cost. The cross-source implication is culturally connective participation under constrained conversion: identity and community meaning can strengthen while price still blocks realization. The public summary does not identify migrant or country-of-birth subgroups, so it cannot close the current migrant cross-tab gap.
+
+The same [Creative Australia 2025 record](records/comparative-creative-australia-national-arts-participation-2025-cultural-background-cost.json) adds a creative-AI legitimacy split: 40% report using AI tools to create art or generate ideas, while 82% want AI use disclosed and 93% report at least one concern about AI and creativity. The cross-source implication is selective delegation with provenance demand, not automatic substitution of human cultural production.
+
+The full [Creative Australia 2025 report](records/comparative-creative-australia-national-arts-participation-2025-cultural-background-cost.json) adds a current CALD creative-agency layer: general-sample CALD respondents reported creative participation at 51% versus 39% overall, with higher participation in music, dance, theatre, and creative writing; a separate translated CALD sample reported still higher rates but was explicitly non-representative. The cross-source implication is that cultural inclusion cannot be inferred from attendance alone: a group can show strong creative production while household room, housing, language access, and public recognition remain uneven.
+
+The report also adds direct audience conversion: 49% of CALD respondents attended arts events to engage with their own cultural background, language group, or community, compared with 32% of non-CALD respondents; music and festivals were prominent channels. The cross-source implication is culturally specific demand and participation, not a generic assimilation measure, and it still does not identify visa stream, country of birth, affordability, or repeat attendance.
+
+The [ABS historical migrant cultural-attendance baseline](records/comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline.json) supplies a direct culture-by-migrant comparison that current settlement releases lack. In 2005–06, at least one cultural venue/event was reported by 90% of migrants born in main English-speaking countries, 76% of migrants born in non-main-English-speaking countries, and 86% of people born in Australia; cinema and library attendance also differed by migrant grouping. The finding is useful as a historical measurement anchor, not as evidence of present-day participation or a continuous trend. It makes the missing current cross-tab itself visible.
+
+The existing [ABS General Social Survey 2025 record](records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json) now adds a migrant social-connection and discrimination comparison: weekly outside-household face-to-face contact was 46% among migrants versus about 53% for adults overall, while reported discrimination was 20% among migrants versus 17% among people born in Australia. This extends the new migrant-settlement route from economic and housing room into social friction and connection. It remains a broad cross-sectional self-report comparison, not a measure of cultural attendance by migrant status, isolation, or causal integration.
+
+The [ABS Migrant Settlement Outcomes 2026 record](records/comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language.json) adds a migration-linked household-room and institutional-contact layer. Skilled-stream permanent migrants had 82% employment and A$83,466 median income in 2023–24, compared with 46% employment and A$43,910 median income among humanitarian-stream migrants; rent burden above 30% of household income was also higher among recent humanitarian arrivals. English proficiency varies by stream and arrival cohort while GP contact is relatively high, so service contact cannot be treated as equivalent to communicative or cultural participation capacity. The cross-source implication is that migration is not one consumer or cultural segment: visa stream, arrival cohort, housing pressure, language, and service access can create different conversion paths. This linked-data release is observational and does not directly measure cultural participation, discretionary spending, causality, or equal service quality.
+
+The [Spain INE Household Budget Survey 2025 record](records/comparative-spain-ine-household-budget-2025-recreation-culture-quintile-room.json) adds a direct budget-room layer beneath cultural attendance and transaction data. Average household spending on recreation, sport, and culture reached €1,772, up 4.7% in current prices, but the lowest-spending quintile devoted 61.5% of its budget to housing/energy plus food while the highest quintile devoted 33.6% to transport, restaurants/accommodation, and recreation/culture combined. The cross-source implication is that aggregate cultural-spending growth can coexist with sharply unequal conversion capacity; the survey does not establish real volume, attendance, or causal affordability.
+
+The [ABS Monthly Household Spending Indicator August 2026 record](records/comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport.json) provides the next observed-consumption checkpoint. Total Australian household spending was flat month over month but 6.8% higher year over year; recreation and culture fell 1.4% after July's increase, while transport rose 2.3%. The cross-source implication is selective rotation rather than uniform consumer recovery: annual nominal resilience can coexist with immediate leisure contraction and mobility-cost exposure.
+
+The [ABS Monthly Household Spending Indicator July 2026 record](records/comparative-abs-monthly-household-spending-july-2026-card-culture-volume.json) adds observed transaction behavior beneath cultural-attendance and financial-stress surveys. Australian household spending rose 1.1% month over month and 7.0% year over year in current prices; recreation and culture rose 1.5% month over month and 7.8% year over year, with cinema, major sporting events, and gambling contributing. In real chain-volume terms, recreation and culture rose 1.7% in the June quarter versus 0.7% for total spending. The cross-source implication is observed leisure resilience with unresolved distribution and price boundaries: transaction growth is not equal household welfare, unique-user access, or cultural participation.
+
+The [Statistics Norway immigrant-background cultural-use record](records/comparative-norway-ssb-immigrant-cultural-use-2025-library-museum-concert-gap.json) adds a subgroup conversion test beneath the national Norwegian barometer. Among 1,331 completed interviews, 60% visited a public library, 53% a museum, and 58% a cinema; the report says immigrant-background participation was higher in libraries and museums but lower in theatre and concerts than the total population. Sixty-two percent wanted to attend cinema more often and 61% concerts more often, with time, money, and selection recurring as barriers. The cross-source implication is venue-specific inclusion and unmet demand, not a single assimilation or exclusion score; the survey does not identify causal language, income, supply, or discrimination mechanisms.
+
+The [VisitBritain Domestic Sentiment Tracker September 2026 record](records/comparative-visitbritain-domestic-sentiment-september-2026-travel-intentions-cost-barriers.json) adds a mobility-and-discretionary-consumption test. UK overnight-trip intention recovered to 78%, but 53.8% identified costs and finances as a barrier, 28.5% rising cost of living, and 27.2% rising holiday/leisure costs; among intended domestic trips, 62.1% were short breaks of one to three nights versus 34.3% holidays of four or more nights. The cross-source implication is demand recovery with constrained conversion and possible trip compression. The tracker measures stated intention, not completed travel, spending, cultural participation, or household welfare.
+
+The [England Community and Engagement Survey Quarter 2 record](records/comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift.json) adds a current culture-and-community conversion test. From January–March 2025 to January–March 2026, in-person arts engagement fell from 90% to 83% while digital arts engagement moved from 34% to 36%; library use rose from 27% to 31% physically and 16% to 18% digitally, while monthly formal volunteering rose from 16% to 18% and local-official contact from 13% to 15%. The cross-source implication is selective hybridization and civic activation rather than one overall engagement trend. The release is a redesigned repeated cross-section and does not establish substitution, causality, institutional response, or durable cohesion.
+
+The [European Commission Consumer Conditions Scoreboard record](records/comparative-eu-consumer-conditions-scoreboard-2025-online-problems-scams-trust-sustainability.json) adds a 29-country consumer-protection baseline beneath the platform cases. Online buying reached 76% in 2024, but 26% of online buyers reported a legitimate complaint problem versus 16% of offline buyers; 45% encountered online scams, 66% fake reviews, and 61% misleading discounts. Meanwhile, only 61% trusted public organisations to protect consumer rights, and environmental purchasing fell 13 percentage points since 2022 to 43%. The cross-source implication is an adoption-with-protection-gap pattern: reach and choice expand faster than trustworthy execution, remedy confidence, and sustainable conversion. The survey does not establish causal fraud loss, platform attribution, or household welfare.
+
+The [Australian ACCC Dendy Cinema record](records/comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency.json) extends the late-fee pattern from platforms and live-event ticketing into a physical cinema venue. Dendy paid an A$19,800 infringement-notice penalty after an unavoidable per-ticket booking fee was excluded from the prominently displayed online price until late in checkout; the ACCC also said it was examining cinema pricing more broadly. The cross-source implication is that cultural access can be distorted by price-interface timing even when the cultural service is physical and local, because consumers spend time selecting a film and session before seeing the minimum payable amount. The ACCC notes that the notice is based on alleged conduct and is not an admission; the case does not quantify attendance loss or consumer harm.
+
+The [European Commission/CPC Vinted record](records/comparative-eu-cpc-vinted-secondhand-marketplace-buyer-fee-refund-controls.json) supplies an implementation case alongside the commitment-only Viagogo evidence. Following complaints, Vinted modified its EU/EEA website and app to disclose total price including the automatically added buyer-protection fee, clarify refunds for nondelivery and counterfeits, improve seller identity and review information, and remove misleading free-purchase impressions; however, the Commission still identifies an unresolved request about early delivery-fee disclosure. The cross-source implication is that platform governance can produce real interface and remedy changes while leaving a late-stage price gap intact. The source does not quantify harm, refund completion, affordability, or consumer behavior.
+
+The [European Commission/CPC Viagogo record](records/comparative-eu-cpc-viagogo-2024-ticket-resale-transparency-pressure-remedy.json) broadens the UK ticketing cases into an EU/EEA platform-governance layer. Viagogo committed to disclose seller identity and marketplace role, clarify total-price and delivery-fee conditions, explain search ranking, display seat information, reduce countdown pressure, improve fraud/cancellation handling, extend refund windows, and preserve local legal routes. The cross-source implication is that cultural access is governed by a stack of platform surfaces—identity, price, ranking, pressure, contract, and remedy—not only by ticket supply or headline affordability. The Commission says implementation would be actively monitored, but also records unresolved asks around upfront delivery-fee amounts and consumers' additional rights against sellers or organizers; the commitments therefore do not yet verify implementation, compliance, consumer outcomes, or participation effects.
+
+The [UK CMA Ticketmaster/Oasis record](records/comparative-uk-cma-ticketmaster-oasis-2024-2025-dynamic-pricing-undertakings.json) adds a second linked live-event pricing episode and distinguishes remedy types. After investigating dynamic-pricing, labeling, queue-pressure, and price-information concerns, the CMA accepted undertakings requiring 24-hour advance notice of tiered pricing, better price information during online queues, no misleading labels, and two years of reporting; unlike the StubHub case, the case page states no direct refund total. The cross-source implication is that consumer protection can convert harm into either retrospective monetary redress or prospective information and monitoring controls, depending on whether individual loss is measurable and recoverable. The case does not establish future compliance, restored affordability, or attendance effects.
+
+The [UK CMA StubHub hidden-fees record](records/comparative-uk-cma-stubhub-live-event-hidden-fees-2026-automatic-refund-remedy.json) adds a linked consumer-culture episode beneath the participation surveys. Mandatory ticket fees were added at the final checkout stage during 6 April-7 December 2025; the CMA ordered automatic refunds to 51,350 customers totaling more than £590,000, fined StubHub UK £889,200, and recorded that the conduct ended. The cross-source implication is that cultural access is partly a price-interface and recourse problem: a nominally available event can become less comparable and less affordable at the point of purchase, while remedy design determines whether consumers must spend additional time and effort to recover. The case does not establish attendance exclusion, complete refund receipt, deterrence, or equal access.
+
+The [France Ministry of Culture/CREDOC cultural-outings record](records/comparative-france-ministry-culture-credoc-2024-cultural-recovery-stratification.json) adds a recovery-with-stratification test. In 2024, cinema reached 60%, live performance 49%, monuments 64%, and libraries 37%, broadly returning to pre-pandemic levels; however, museum attendance was 25% among people below the baccalaureate versus 62% among those with bac+3 or more, and 30% among low-income people versus 54% among high-income people. The cross-source implication is that aggregate cultural recovery can coexist with durable inequality in conversion capacity: restored supply and headline participation do not equal equal access. The survey does not identify causal price, time, transport, or educational mechanisms.
+
+The [England DCMS Participation Survey 2024/25 record](records/comparative-uk-dcms-participation-survey-2024-2025-arts-libraries-digital-layering.json) adds a physical-digital conversion test to the Spain findings. Ninety-one percent of adults engaged with the arts, but only 1% did so exclusively digitally; 34% engaged both physically and digitally, while libraries reached 31% overall with 26% physical and 16% digital engagement. The cross-source implication is that digital cultural access usually layers onto institutions and embodied participation rather than replacing them, and that digitization changes the task mix by sector. The survey does not identify causal affordability, time, or platform-substitution mechanisms.
+
+The [Spain Ministry of Culture cultural-habits record](records/comparative-spain-ministry-culture-cultural-habits-2024-2025-reading-attendance-digital-participation.json) adds a mature direct-participation and platform layer. Among people aged 15 and above, 64.9% read a book in the previous year, 47.6% visited a museum, exhibition, or gallery, 47.1% attended a live cultural performance, and 48.5% went to the cinema; 74.1% had a household subscription to at least one digital platform, while paper reading, digital/audiobook reading, physical library visits, and online library access overlapped. The cross-source implication is that cultural recovery is not simply physical or digital: participation is broad, but the access system is hybrid and platform-mediated, with content-type and sex differences in practice. The survey does not identify causal affordability, subscription burden, frequency intensity, or substitution.
+
+The [Stats SA South Africa Volunteer Activities Survey 2024 record](records/comparative-south-africa-statssa-volunteer-activities-2024-social-capacity-direct-organizational.json) adds an unpaid social-capacity layer. South Africa counted 3.1 million volunteers and a 6.9% volunteer rate; direct volunteering exceeded organizational volunteering, 91.3% cited a cause they believed in, and rates varied by sex, population group, labor-market status, and province. The cross-source implication is that cultural/social agency can be widespread while formal organizational infrastructure remains thinner; food reciprocity and labor-market position also complicate a simple altruism story. The release does not establish causal cohesion, institutional durability, or welfare.
+
+The [DANE Colombia CSECC 2025 preliminary record](records/comparative-colombia-dane-cultural-creative-economy-2025-value-added-employment-divergence.json) adds a supply-and-labor layer beneath direct cultural participation. Real cultural/creative value added grew 2.6% in 2025, with arts and heritage up 4.3% and functional creations up 2.9%, but cultural industries fell 1.1%; total employment rose 1.7% while cultural-industry employment fell 2.3%. The cross-source implication is that cultural abundance and sectoral labor security can diverge: functional and heritage growth does not guarantee expansion across audiovisual/editorial industries or stable work. The satellite account does not measure household attendance, earnings distribution, or consumer welfare.
+
+The [INEGI Mexico MODECULT 2025 record](records/comparative-mexico-inegi-modecult-2025-cultural-participation-digital-barriers.json) adds direct cultural-participation evidence. Comparable adult attendance reached 61.2% in 2025, up from 52.5% in 2024 but still 2.8 percentage points below 2016; the redesigned 12+ data show strong age, education, Indigenous-language, disability, time, cost, online-consumption, artistic-activity, and organizing gradients. The cross-source implication is that cultural recovery is a conversion problem: attendance, household room, digital access, artistic agency, and institutional organizing are separate stages. The survey does not establish causal barriers or cultural welfare.
+
+The [INEGI Mexico ENIGH 2024 record](records/comparative-mexico-inegi-enigh-2024-household-room-cultural-spending-inequality.json) adds a direct household-budget and cultural-conversion layer. Average monthly monetary household expenditure was 15,891 pesos, up 7.9% from 2022 in 2024 pesos; education and recreation represented 9.6% of spending, but education remained 21.0% below 2016, while the first-to-tenth income decile gap, gender gap, Indigenous-language gap, and state differences remained substantial. The cross-source implication is that aggregate retail or expenditure recovery can coexist with constrained cultural room and unequal conversion capacity. ENIGH is a household survey, not a real-time 2026 panel or causal cultural-participation study.
+
+The [IBGE Brazil July 2026 retail record](records/comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence.json) adds a Latin American category-and-region layer. Retail volume fell 0.8% month over month but rose 1.2% year over year; food retail rose 2.9% year over year and pharmaceuticals/cosmetics 4.7%, while clothing fell 4.7% year over year and books/stationery fell 4.2% month over month. The cross-source implication is selective consumer adaptation: essential and health-related categories can expand while apparel, household durables, and cultural-goods retail weaken. The enterprise series does not measure households, cultural attendance, online commerce, or causal substitution.
+
+The [Statistics Canada July 2026 retail record](records/comparative-statcan-retail-trade-july-2026-ecommerce-regional-pullback.json) adds a Canada channel-and-region divergence layer. Retail sales were C$73.7 billion, down 0.7% month over month but up 5.1% year over year, while volume fell 1.1%; e-commerce fell 3.5% to C$5.5 billion and 7.5% of retail trade, Ontario fell 2.0%, and Alberta rose 1.4%. The cross-source implication is that nominal annual resilience can coexist with immediate volume, online-channel, and regional pullback. The release does not identify household welfare, unique consumers, causal substitution, or durable retrenchment.
+
+The [India UPI infrastructure record](records/comparative-india-pib-upi-fy2025-26-payment-throughput-digital-consumer-infrastructure.json) adds a payment-rail layer beneath online commerce. In FY2025–26, UPI processed 24,161.69 crore transactions worth ₹314 lakh crore, with volume up 30.0%, value up 20.59%, 85% of India’s digital payments, and 703 live banks. The cross-source implication is that digital payment infrastructure can become dominant while the consumer-level questions remain open: unique-user access, repeated low-value use, fraud, fees, device capability, and remedy are not contained in throughput. The primary monthly NPCI page was access-limited in this pass, so the record uses the accessible PIB retrospective for the cited annual figures.
+
+The [South Korea July 2026 online-shopping record](records/comparative-south-korea-mods-online-shopping-july-2026-mobile-services-category.json) adds a mobile-commerce and convenience-service layer. Online-shopping transaction value rose 7.3% year over year and mobile value 6.4%, but mobile’s share slipped to 78.0%; food services, groceries, auto goods, and travel/transport grew while clothing declined. The cross-source implication is that digital commerce can expand through essential, delivered, or mobility-linked services without representing uniform discretionary or cultural expansion. The release does not identify households, unique users, or causal platform substitution.
+
+The [Hong Kong July 2026 retail record](records/comparative-hong-kong-csd-retail-july-2026-online-luxury-culture-divergence.json) adds an Asian category-polarization layer. Nominal retail sales rose 4.5% and real volume 2.3%, while online sales rose 9.5%; jewellery, watches, and valuable gifts rose 19.7%, but books/newspapers/stationery/gifts fell 2.8%, apparel 1.8%, vehicles 18.2%, and fuel 18.0%. The cross-source implication is that headline retail growth can coexist with sharply different cultural, mobility, and status-consumption paths. The data do not identify households, visitors, or causal polarization.
+
+The [Statistics South Africa July 2026 retail record](records/comparative-south-africa-statssa-retail-trade-july-2026-real-category-demand.json) adds an African real-retail counterpoint. Real retail sales rose 3.4% year over year and 2.5% month over month, led by general dealers, other retailers, clothing/footwear/leather, and specialized food/beverage/tobacco. The cross-source implication is that retail growth can coexist with very different household and cultural conditions: category growth may be essential, general-dealer, or place-specific rather than broad discretionary expansion. The series does not identify household trajectories or equal access.
+
+The [Japan Statistics Bureau Household Economy record](records/comparative-japan-statistics-household-economy-july-2026-online-shopping-tickets.json) adds a channel-conversion layer to the household contraction finding. In July 2026, online-shopping expenditure fell 0.7% nominally year over year, the household use rate fell 2.4 points to 55.6%, and tickets contributed −0.53 percentage points to the spending change. The cross-source implication is that “consumer decline” can occur at multiple gates—household room, channel reach, and cultural-ticket conversion—and each needs separate evidence. The release does not measure attendance, individual trajectories, or causal substitution.
+
+The [Japan Statistics Bureau household-account record](records/comparative-japan-statistics-family-income-expenditure-july-2026-real-household-room.json) adds the household-level counterpoint to aggregate and establishment data. In July 2026, average two-or-more-person household consumption fell 3.6% in real terms year over year and workers’ household income fell 3.8% in real terms. The cross-source implication is that observed retail or national-account growth in one market cannot be generalized into global consumer recovery; household composition, prices, income, and measurement unit change the conclusion. The survey does not isolate cultural spending or establish causal mechanisms.
+
+The [ONS Great Britain retail-sales record](records/comparative-ons-retail-sales-august-2026-online-channel-fuel-culture.json) adds an establishment-based channel and mobility-cost layer. Retail volume rose 0.5% month over month and 2.4% year over year in August, while online sales value rose 8.9% year over year to 28.8% of retail sales; fuel volumes fell as retailers reported some motorists partially filling tanks under price pressure. The cross-source implication is selective consumer adaptation: online convenience, cultural/sport categories, and mobility can move in different directions, so a single “consumer recovery” headline is too coarse. ONS retail data do not identify household trajectories or causal behavior.
+
+The [BEA August 2026 Personal Income and Outlays record](records/us-bea-personal-income-outlays-2026-august.json) adds an aggregate consumption-flow layer beneath household surveys and card/footfall indicators. Current-dollar PCE rose 0.9% month over month and real PCE 0.6%, while real disposable personal income was flat and the saving rate rose to 4.1%; goods supplied 59.8% of the monthly current-dollar increase. The cross-source implication is that consumer expansion can coexist with flat real income and selective household protection, so aggregate growth must be joined to distribution, debt, price, and cultural-participation evidence. These national accounts do not identify household trajectories or causal substitution.
+
+The [GSMA ASEAN Consumer Scam record](records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json) adds a digital-consumer recourse test across Indonesia, Malaysia, the Philippines, Singapore, Thailand, and Vietnam. The report says 8% experienced a scam in the prior year, 68% of victims lost money, 82% of money-losing victims recovered none, and 45% of reported cases remained unresolved; victims were more than twice as likely to switch accounts or providers. The cross-source implication is that digital trust depends on visible resolution, recovery, and coordinated institutional response—not only awareness or protective behavior. The source is industry-commissioned and not administrative prevalence data.
+
+The [EU Special Eurobarometer sport record](records/comparative-eu-eurobarometer-sport-physical-activity-2026-commuting-community-gaps.json) adds a routine-and-social-infrastructure layer to cultural and consumer participation. In 2026, 39% reported never exercising, while active commuting reached 37% and fitness-centre attendance 39%; 93% believed activity improves mental health and 86% believed it helps community building, with inactivity reaching 68% in Portugal. The cross-source implication is that social meaning and stated benefit do not automatically convert into accessible routine behavior; transport, time, price, place, and country context remain open mechanisms.
+
+The [MBIE New Zealand Domestic Visitor Survey record](records/comparative-new-zealand-mbie-dvs-october-2025-domestic-travel-culture-cost-barriers.json) adds the resident-side conversion test. In the October 2025 wave, 61% took an overnight trip and 47% a qualifying day trip; 36% of overnight trips included a museum/gallery visit and 13% a Māori cultural site, while 32% of planned overnight travellers cited cost as a barrier. The cross-source implication is that international tourism recovery cannot stand in for domestic cultural access: realized travel, future intention, cost, social motivation, and cultural activity are separate stages.
+
+The [MBIE New Zealand IVS record](records/comparative-new-zealand-mbie-ivs-june-2026-tourism-recovery-purpose-cultural-access.json) adds an observed international-mobility and cultural-experience layer. For the year ending June 2026, visitor volume reached 94% of 2019 and inflation-adjusted spend 98%; holiday travel was 53% versus 51% in 2019, while Australia and USA volumes reached 105% of 2019. The cross-source implication is that recovery is composition-sensitive: arrivals, real spend, purpose, market, cultural experience, and regional benefit are distinct stages.
+
+The [MHRC Poll 29 record](records/comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit.json) adds a Canadian bridge from material pressure through social connection to institutional continuity. In the July-August 2026 weighted online survey, 46% said cost of living negatively affected mental health, 37% had difficulty fully paying household bills, and 35% had difficulty affording or maintaining stable housing; among those accessing support in the past five years, 52% ended care earlier than planned or needed, while only 29% of recent support users said needs were fully met. The cross-source implication is that access, adequacy, and continuity are distinct stages, with social connection and time scarcity surrounding them; all relationships remain associative and survey-based.
+
+The [England CES loneliness record](records/comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap.json) adds the social-consequence test beneath household room and cultural participation. The national often/always-lonely rate held at 7%, but it was 14% for disabled people versus 3% for non-disabled people, 11% in the most deprived areas versus 4% in the least deprived, and ranged from 13% to 2% across local authorities. The cross-source implication is that national stability can coexist with sharply unequal exposure and place capacity; the survey does not establish causal pathways or intervention effects.
+
+The [ONS real-time consumer record](records/comparative-ons-realtime-consumer-pressure-august-2026-footfall-spending-failures.json) adds a UK administrative/card-payment contrast to annual surveys and payment diaries. In August 2026, retail footfall fell 2% month-on-month, total Revolut debit spending fell 1%, entertainment spending rose 14% year-on-year, and sampled Direct Debit failures rose from 2.3% to 2.4%; fuel quantity demanded per transaction also weakened as fuel-price growth accelerated. The cross-source implication is that “consumer weakness” is not one scalar: physical presence, category spending, recurring-payment reliability, and mobility-cost exposure can move differently. These are experimental aggregated indicators, not household trajectories.
+
+The [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) adds a high-frequency non-Western consumer-composition layer. Total retail sales rose only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% and residence prices fell 0.3%. The cross-source implication is that aggregate consumer growth and lived consumer room require category, channel, and price decomposition. These are national aggregates, not household trajectories.
+
+**Checked:** 2026-09-30
+**Status:** living cross-source synthesis; no single causal chain claimed
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
+
+The current registry contains 1978 machine-readable records, 5941 observations,
+
+The [Brazil BCB Pix-conversion record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) adds a Latin American diary-and-preference test to the South African payment findings. Cash fell from 76.6% of recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%; however, 17.3% had not used Pix in the prior year and 37.3% of nonusers cited lack of knowledge, while 24.2% sometimes chose another method because of internet-access difficulty. The cross-source implication is that infrastructure growth, stated preference, observed transactions, and executable capability must be separated.
+
+The [South Africa SARB Payments Study record](records/comparative-south-africa-sarb-payments-study-2023-cash-digital-income-choice.json) adds a payment-diary test to the Kenya digital-finance and ICT layers. In 2023, cash represented 56% of estimated payment volume but 21% of value, while debit cards represented 34% of volume and 55% of value; low-income consumers were 36% of the diary population but 16% of payment value, while high-income consumers were 14% of the population but 28% of value. The cross-source implication is that payment adoption, transaction value, and realized frequency are different consumer stages, and recall surveys can overstate short-window observed use.
+
+The [Kenya FinAccess record](records/comparative-kenya-finaccess-2024-digital-finance-usage-debt-distress.json) adds the downstream financial-consumer stage to the prior connectivity finding. In 2024, mobile-money usage reached 82.3% and daily use 52.6%, while credit use reached 64.0% and savings use fell to 68.1%; 16.6% of borrowers completely defaulted and 9.8% of mobile-money users reported losses. The cross-source implication is that digital reach converts into high-frequency financial behavior, but access does not guarantee suitability, resilience, or remedy. The survey is descriptive and uses different conditional denominators for users, borrowers, and the adult population.
+
+The [Kenya KNBS ICT record](records/comparative-kenya-knbs-ict-2023-24-mobile-internet-household-gap.json) adds a digital-funnel distinction beneath cultural and consumer access. In 2024, 64.9% of individuals used a mobile phone but only 35.0% used the internet; household internet connection was 54.1% urban versus 25.1% rural, and county internet use ranged from 64.7% in Nairobi City to 9.1% in West Pokot. The cross-source implication is that mobile reach should not be treated as equivalent to household digital optionality: device ownership, shared use, fixed access, geography, and privacy can determine whether online cultural or consumer behavior is executable.
+
+The [India MoSPI HCES record](records/comparative-india-mospi-hces-2023-24-consumption-room-inequality.json) adds an observed consumer-budget layer beneath cultural supply and time constraints. In 2023–24, average monthly per-capita consumption was ₹4,122 rural versus ₹6,996 urban; non-food items represented 53% versus 60% of MPCE; and the top-to-bottom-5% average MPCE ratio was about 6.0× rural and 8.6× urban. The cross-source implication is that cultural and discretionary “choice” should be read through household resource distributions, not only supply, access, or stated interest. The survey does not isolate entertainment spending or cultural attendance.
+
+The [Colombia DANE ENUT record](records/comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration.json) adds a direct time-budget test beneath cultural and consumer choice. In the preliminary October 2024–March 2025 results, 90.0% of women aged 10+ participated in unpaid work on the reference day versus 65.5% of men; among participants, women averaged 7h35m versus 3h12m for men. Foreign-born women averaged 9h31m versus 7h30m for Colombia-born women. The cross-source implication is that “participation” needs a time-conversion layer: cultural supply or digital access cannot be interpreted as equal optionality when unpaid work consumes different amounts of household time. The release is preliminary and its averages are conditional on participation.
+
+The [Indonesia BPS socio-cultural record](records/comparative-indonesia-bps-socio-culture-2025-informal-formal-participation.json) adds a nationwide non-European participation test. In 2025, 88.87% of residents aged 10+ participated in neighborhood social-community activity, but only 11.06% were registered in an organization outside work or school; meeting participation was 43.22% for men versus 24.81% for women, and 41.13% of meeting participants gave a suggestion or opinion. The cross-source implication is that social cohesion cannot be inferred from one participation rate: recurring community activity, formal affiliation, access to a meeting, and voice within it are separate conversion stages. The survey is descriptive and self-reported, and high activity participation may include periodic religious or life-event obligations.
+
+The [Eurostat leisure-affordability record](records/comparative-eurostat-leisure-affordability-2025-holiday-participation-inequality.json) adds the household-room boundary beneath cultural and digital supply. In 2025, 27.5% of EU residents could not afford a week away from home and 12.1% could not afford regular leisure participation; holiday exclusion ranged from 61.4% in Romania to 10.6% in Luxembourg. The cross-source implication is that more cultural supply and online access do not automatically yield more participation when households cannot finance mobility or recurring leisure.
+
+The [Eurostat cultural-employment record](records/comparative-eurostat-cultural-employment-2025-workforce-education-country-gap.json) supplies the production-side counterpart to online ticketing and streaming. Europe’s cultural sector employed 8.9 million people, or 4.3% of employment, in 2025; 61.9% had tertiary education, and cultural employment ranged from 5.7% of total employment in the Netherlands to 1.8% in Romania. The cross-source implication is that cultural consumption depends on a large but credential-intensive and place-stratified labor system; employment does not by itself establish output, access, or cultural welfare.
+
+The [Eurostat online event-ticket record](records/comparative-eurostat-online-event-ticketing-2025-cultural-access-country-gap.json) adds a transaction-stage bridge between digital access and cultural attendance. In 2025, 26.8% of EU individuals bought event tickets online in the prior three months, up 3.8 points from 2024, but country rates ranged from 51.5% in Ireland to 11.4% in Bulgaria. The cross-source implication is that digital cultural consumption is not simply “online versus offline”: payment, platform, place, and event supply determine whether interest converts into an acquired ticket and then into attendance.
+
+The [Eurostat social-network record](records/comparative-eurostat-social-network-use-youth-2025-age-country-gap.json) adds a population-use layer across Europe. In 2025, 89.3% of 16–29-year-olds used social networks versus 67.3% of the general 16–74 population; youth use ranged from 80.3% to 98.3%, and age gaps varied from 7.2 to 29.2 percentage points across selected countries. The cross-source implication is that platform sociality is near-default for youth but remains nationally and generationally differentiated; usage alone does not establish connection quality or benefit.
+
+The [Ofcom telecom switching and remedy record](records/comparative-ofcom-telecom-switching-retention-harm-remedy-2026.json) connects household cost pressure to actual exit and firm response. More than 3.43 million people started the One Touch Switch process, but Ofcom also found millions of likely mishandled Virgin Media cancellation calls, over one million callers forced to repeat requests, and a £28 million fine. The cross-source implication is that competition is a lived process: consumer power requires a usable exit route, not just nominal alternatives or advertised savings.
+
+The [UK Financial Ombudsman record](records/comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse.json) adds a recourse-stage test to the consumer-harm chain. New complaints fell from 305,700 to 214,600 in 2025/26, but professional-representative cases fell from 50% to 18% after charges were introduced, while withdrawal/abandonment fell from 35% to 18%; only 30% of resolved complaints were upheld overall. The cross-source implication is that complaint counts are jointly produced by harm, awareness, representation, fees, preparation, and institutional routing—not a clean measure of consumer harm alone.
+
+The [Ofcom protective-defaults record](records/comparative-ofcom-protective-defaults-social-platforms-2026-choice-architecture-rct.json) adds an experimental platform-governance layer. In mock-platform trials, safer defaults were retained at high rates across age groups; prior experiments found reduced-sensitive-content selection at 15% under a permissive default versus 42% under a protective default, and children retained a no-harmful-recommendations setting at roughly 70% with a default versus 50% without one. The cross-source implication is that user safety is partly a starting-state problem, not only a matter of individual literacy or vigilance. The experiment does not establish live-service harm reduction or long-run behavior.
+
+The [Statistics Canada time-use record](records/comparative-statcan-time-use-2022-time-pressure-friendship-social-connection.json) adds a long-run behavioral layer to the program's time-and-social-capacity chain. High time pressure rose from 15.0% in 1992 to 24.2% in 2022; the share seeing friends on an average day fell from 47.9% in 1986 to 19.3% in 2022; and among those who did see friends, average contact fell from 5.0 to 3.8 hours. The cross-source implication is that cultural and social participation face a hidden time price, while the series cannot identify causal displacement, digital substitution, or loneliness.
+
+The [Philippines PSA NICTHS cybersecurity record](records/comparative-philippines-psa-nicths-2024-cybersecurity-awareness-incidents-reporting.json) adds the protection layer beneath the social-commerce finding. Among ICT-device users, 62.5% experienced at least one cybersecurity incident in 2024, but only 33.4% of people aged 10+ were aware of cybersecurity/data privacy and just 1.9% of victims reported incidents to authorities; SMS fraud affected 57.1% of victims. The cross-source implication is that mobile-first commerce is also a trust, fraud, and recourse system, with awareness stratified by education and place. This is not forensic incident evidence or a causal platform-liability finding.
+
+The [Philippines PSA NICTHS e-commerce record](records/comparative-philippines-psa-nicths-2024-ecommerce-cod-social-selling-trust.json) converts the access-and-intensity pattern into observable consumer behavior. In 2024, 36.7% of internet users purchased online, 15.4% sold goods or services for income, and 94.4% of online goods sellers used social media; however, 97.6% of buyers preferred cash on delivery, 42.9% cited security concerns around electronic payment, and 71.7% of non-buyers preferred in-person shopping. The cross-source implication is that digital consumer adoption is not a single funnel: connectivity, attention, commerce, seller livelihood, delivery, payment trust, and offline habit are separate stages.
+
+The [Indonesia BPS telecommunications record](records/comparative-indonesia-bps-telecommunication-2024-mobile-computer-fixedline-ecology.json) broadens the mobile-first pattern beyond Ghana, South Africa, and the Philippines. Internet use reached 72.78% of the population, 99.08% of internet users used mobile cellular devices, computer ownership was 18.52% of households, and fixed-line telephony only 0.99%; public-place and in-vehicle access were also material. The cross-source implication is that digital cultural and consumer life is increasingly organized around handsets and movement, with “home internet” often meaning mobile use at home rather than stable fixed broadband.
+
+The [Ghana NCA Q2 2026 telecom record](records/comparative-ghana-nca-q2-2026-mobile-data-voice-substitution.json) adds an administrative market check to the Philippines and South Africa household access layers. Ghana's mobile internet subscriptions rose from 23.2 million to 30.5 million and penetration from 71.6% to 89.5% since Q4 2023, while mobile voice minutes per subscription fell 11.7%; fibre broadband reached only 294,626 subscriptions. The emerging cross-source pattern is mobile-first digital reach with a possible shift from voice to data-mediated connection, but subscription counts cannot establish unique-person use, cultural behavior, or welfare.
+
+The [Philippines PSA NICTHS 2024 record](records/comparative-philippines-psa-nicths-2024-mobile-digital-intensity-cost.json) adds a use-intensity layer to South Africa's mobile-first access finding. Home access rose to 48.8%, 67.3% of people aged 10+ used the internet, 98.8% of users used a cellphone, 76.9% used it daily, and average use was 4.6 hours per day. But home access ranged from 68.7% in NCR to 27.7% in BARMM. The cross-source implication is that mobile connectivity can produce high attention intensity without equal household reach, stable quality, or equal cultural and consumer optionality.
+
+The [South Africa GHS 2025 record](records/comparative-south-africa-statssa-ghs-2025-mobile-first-digital-access-household-room.json) adds the infrastructure layer beneath Brazil's mobile-first cultural use and the wider digital/home shift. Internet access reached 85.6% of households somewhere, but fixed-home access was only 20.6%; provincial any-access ranged from 93.8% to 74.5%, and fixed-home access from 49.7% to 5.9%. The cross-source implication is that “online access” is not one consumer condition: mobile affordability, fixed reliability, public access, privacy, food security, and household structure can produce very different cultural and social experiences behind the same headline connectivity rate.
+
+The [France INSEE cultural-leisure spending record](records/comparative-france-insee-cultural-leisure-spending-2000-2025-service-shift.json) supplies an observed-spending counterpart to the French attendance barometer. Within the cultural, sports, and leisure basket, cultural services rose from 8.6% of spending in 2021 to 12.4% in 2025, while books/press/stationery fell from 13.6% to 9.9% and durable cultural/recreational goods from 11.3% to 9.0%. Combined with South Korea's attendance-to-active-participation divergence and China's cultural-enterprise channel shift, the emerging hypothesis is a broader move from ownership and one-off attendance toward services, subscriptions, active participation, and platform-mediated access. The data do not prove that mechanism.
+
+The [China NBS cultural-enterprise H1 2026 record](records/comparative-china-nbs-cultural-enterprises-h1-2026-channel-creative-divergence.json) adds the missing production-side counterpart to household and attendance data. Cultural enterprises above designated size grew 4.6% overall, but information and creative-design services grew 9.2%, cultural communication channels contracted 3.2%, and consumer-terminal production was nearly flat. The cross-source implication is that a cultural economy can expand while distribution and value capture move between production, design, information, channels, and platforms; revenue growth alone cannot stand in for audience reach or cultural welfare.
+
+The [South Korea MCST 2025 culture and leisure record](records/comparative-south-korea-mcst-2025-cultural-leisure-active-participation.json) complicates a simple participation-decline story. Direct cultural attendance fell to 60.2%, with film attendance down 6.4 points, but active cultural/arts participation rose to 5.8%, cultural-arts education to 8.6%, and broader leisure continuity rose to 43.2% while satisfaction reached 64.0%. Alongside France's place and income gradients and Brazil's home-first consumption, this suggests that cultural change is occurring across modes—commercial attendance, active making, education, routine leisure, and digital/home use—rather than on one attendance axis.
+
+The [French Ministry of Culture 2025 outings barometer](records/comparative-france-ministry-culture-cultural-outings-2025-mobility-stratification.json) sharpens the physical-access side of the digital-to-place question. Cinema, monuments, and live shows remained broadly near pre-pandemic attendance levels, but cinema ranged from 76% among 15–24-year-olds to 45% among people aged 70+, from 71% among high-income groups to 46% among low-income groups, and from 64% in large urban centres to 48% in dispersed rural areas. Museum and festival attendance also frequently involved overnight travel. Across France, Spain, Norway, Mexico, Brazil, and England, the emerging pattern is not simply digital versus physical: cultural optionality is sorted by age, education, income, place, time, and mobility.
+
+The [Brazil Ministry of Culture habits and policy record](records/comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025.json) adds a digital-domestic cultural-consumption and symbolic-legitimacy layer. In the last 30 days, music, films, and series reached 53%, 52%, and 40%, while lack of time (33%) exceeded lack of money (24%) as a reported barrier; intended return to cinema (33%) and music shows/festivals (27%) shows that home-first access does not eliminate demand for shared venues. Approval of CEUs da Cultura (81%) and Paulo Gustavo/Aldir Blanc (73%) coexisted with 74% reporting no awareness of the named laws, suggesting that cultural policy can be socially valuable as a symbolic state-capacity signal even when its detailed mechanisms are poorly understood. This is not a causal legitimacy estimate.
+
+The [Chile ENPCCL 2024 cultural-participation record](records/comparative-chile-enpccl-2024-cultural-participation-time-ses-disability.json) adds a useful hidden-price finding: cultural access can fail through time scarcity and fatigue before it fails through money. Overall participation was 75.4%, but 28.7% reported unmet cultural demand; among that group, lack of time/fatigue (30.9%) exceeded economic reasons (20.1%), alongside large SES and disability gradients. This supports a bounded bridge from time, care, work, and accessibility to participation—not a causal claim.
+
+The [Statistics Canada accessibility-and-travel record](records/comparative-statcan-accessibility-travel-barriers-2025-disability-trip-prevention.json) extends that bridge from desire and time into mobility realization. Among people with disabilities or long-term conditions who considered an out-of-town trip, 29% reported possible accessibility barriers discouraging or preventing it; the share was 46% with greater daily-activity difficulty versus 19% with less. The source supports a transport/interface bottleneck hypothesis, not a cultural-trip or provider-fault conclusion.
+
+The [England DCMS Participation Survey 2024/25 record](records/comparative-england-dcms-participation-survey-2024-25-arts-physical-digital-deprivation.json) adds the realized mode split: 90% engaged physically with the arts and 35% digitally, with 56% physical-only. Deprivation gradients appeared in both modes—81% versus 95% physical and 31% versus 39% digital from most to least deprived—so digital culture is not yet a general replacement for place-based access. This is cross-sectional participation evidence, not a causal account of transport, price, or preference.
+
+The [ONS August 2026 social-trends record](records/comparative-ons-public-opinions-social-trends-august-2026-cost-water-consumer-adaptation.json) adds a current adaptation layer: reported cost pressure translated into non-essential cutbacks, shopping-around, and some reductions in food or essentials, while drought and restrictions produced widespread water-saving routines. The useful bridge is pressure -> household action -> time, quantity, quality, and welfare, with the survey unable to observe the final outcomes.
+
+The [ONS Family Spending FYE 2025 record](records/comparative-ons-family-spending-fye2025-recreation-culture-income-gap.json) supplies the observed-spending counterpart: real average household expenditure increased 5% and recreation/culture rose £6.70 per week, yet the richest fifth spent 2.7 times the poorest and increased weekly spending by £98.10 versus £18.10. The cross-source implication is selective recovery, not uniform consumer relief; prices, quantities, household composition, debt, and actual use remain open links.
+
+The [CFPB Bilt transition record](records/us-cfpb-bilt-transition-redress-2026.json) adds an observed remedy stage to the voice-and-trust chain. A named bank-partner transition generated fee-related consumer harm; the CFPB reports proactive outreach, more than $264,000 in reimbursement to over 2,000 eligible consumers, technical remediation, monitoring, and closure. This is stronger than a stated intention to remedy, but it remains an agency-reported single episode: individual receipt, residual burden, retention, satisfaction, and durable trust change are still unobserved.
+
+The [Credit Acceptance Corporation settlement record](records/us-multistate-cac-subprime-auto-loan-settlement-2026.json) adds a mobility-specific consumer-remedy layer. The New York Attorney General reports more than $630 million in debt relief for more than 55,000 consumers, $60 million in restitution, and distinct treatment for borrowers whose vehicles were repossessed versus retained; future qualifying loans receive risk disclosures and a possible 95%-debt-waiver off-ramp. The cross-source implication is that financial harm becomes cultural and social through transportation access and household room, while payment receipt, credit repair, mobility continuity, and compliance remain open.
+
+The [China NBS 2025 household-consumption record](records/comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural.json) widens the cultural-consumer comparison beyond the recent U.S./European expenditure layers. Education, culture, and recreation spending rose 9.4% to 3,489 yuan per person, but urban spending was 4,298 yuan versus 2,322 yuan rural. The signal is rising cultural-consumption room with persistent place stratification; it does not identify actual participation, price-adjusted quantities within the category, or cultural meaning.
+
+The [Saudi GASTAT household culture and entertainment record](records/comparative-saudi-gastat-household-culture-entertainment-2024-participation.json) supplies the missing participation denominator conceptually: 81.6% visited a cultural event or activity and 85.3% visited entertainment, but only 39.0% practiced a cultural activity. The venue mix—parks and gardens 65.8%, cinemas 24.9%, museums 13.4%, literary or poetry events 2.5%—suggests broad everyday participation alongside a steep formal-venue gradient. The source cannot identify whether cost, supply, transport, preference, or social meaning creates that gradient.
+
+The [Norwegian Cultural Barometer 2025 record](records/comparative-norway-ssb-cultural-barometer-2025-postpandemic-stabilization.json) adds persistence and unmet-demand evidence. Cinema attendance was 62% in 2025 versus 72% in 2016, theatre 37% versus 50%, while library participation stabilized near pre-pandemic levels and roughly eight in ten 9–15-year-olds visited a library. The cross-source pattern is not “culture recovered” or “culture collapsed,” but venue-specific recovery shaped by age, time, money, and competing attention.
+
+The [Spain Ministry of Culture habits record](records/comparative-spain-ministry-culture-cultural-habits-2024-2025-digital-active-gender.json) adds a digital-to-place bridge: monthly audiovisual and music use were 80.4% and 77.3%, while annual monument, museum/exhibition/gallery, live-event, and cinema participation ranged from 48.3% to 54.3%; photography, painting, and video creation were also common active practices. This suggests digital reach and physical participation can coexist, while the provisional sample and cross-sectional design do not identify substitution or causal recovery.
+
+The [Mexico INEGI MODECULT 2025 record](records/comparative-mexico-inegi-modecult-2025-cultural-access-disability-education-digital-creation.json) sharpens the inequality layer: 64.7% of people aged 12+ attended a cultural event, but the rate was 80.9% among 12–24-year-olds, 82.8% among people with higher education, and 48.3% among people with disabilities. Fairs and cinema were major gateways, while audiovisual creation accounted for 61.0% among people reporting artistic activities, not all residents. The source makes the access gradient measurable without claiming that education, age, disability, or language status alone causes it.
+
+The [India Time Use Survey 2024 record](records/comparative-india-mospi-time-use-2024-culture-leisure-care-gender.json) makes the hidden time price observable: 93.0% participated in the broad culture/leisure/media/sports category during the reference day, but women carried much more unpaid domestic and care time, while culture/leisure/media time per person was 148 minutes for women versus 169 for men. This does not prove that unpaid work caused the gap, but it shows why participation rates alone cannot establish equal cultural optionality.
+
+The [ECB Consumer Expectations Survey August 2026 record](records/comparative-ecb-consumer-expectations-august-2026-income-inflation-spending.json) adds the forward-looking layer: euro-area consumers expected nominal spending to grow 3.6% against nominal income growth of 1.0%, while lower-income households expected materially worse unemployment and mortgage-rate conditions. The combined ONS/ECB signal is a widening gap between aggregate spending recovery, perceived future room, and distributional capacity—not a single confidence trend.
+
+The [European Commission September 2026 consumer-survey record](records/comparative-european-commission-consumer-confidence-september-2026-sentiment-uncertainty.json) adds a broader EU timing signal: consumer confidence reversed after four months of recovery, while inflation expectations, uncertainty, and major-purchase components deteriorated. Across the ONS, ECB, and Commission layers, the open question is whether reported adaptation and sentiment become delayed purchases, substitution, or continued selective spending.
+
+The [Eurostat July 2026 retail-trade record](records/comparative-eurostat-retail-trade-july-2026-food-nonfood-consumer-demand.json) provides an observed category check: food retail volume rose while non-food and fuel fell month-over-month, and annual growth was stronger for food than non-food. This is consistent with selective demand protection, but prices, household distribution, and cultural-category behavior remain unobserved in the aggregate index.
+
+The [IMF Japan 2026 household-consumption record](records/comparative-imf-japan-2026-household-debt-consumption-fiscal-shock.json) adds the balance-sheet channel: high debt and high loan-to-value exposure amplify consumption responses to fiscal tightening, and deleveraging can itself suppress current consumption. This makes “weak demand” compatible with active financial repair, not only low confidence or low cultural interest.
+
+The [Eurostat online-event-ticketing record](records/comparative-eurostat-online-event-ticketing-2025-cultural-consumer-gateway.json) adds a transaction-stage cultural signal to the atlas. In 2025, 26.8% of EU individuals aged 16–74 bought event tickets online in the previous three months, up 3.8 percentage points from 2024; the reported country range ran from 51.5% in Ireland to 11.4% in Bulgaria. The cross-source implication is that digital cultural access should be tracked as a gateway with its own price, fee, accessibility, discovery, resale, and intermediary-power conditions. The purchase measure does not establish attendance, affordability, repeat participation, or cultural belonging. The next bridge is ticket transaction -> event use -> repeat participation -> provider and audience value.
+
+The [Eurostat paid-streaming subscription record](records/comparative-eurostat-paid-streaming-subscriptions-2025-cultural-consumer-access.json) adds the recurring-payment side of that gateway. In 2025, paid film, series, or sports streaming reached 32.7% of EU internet users, ahead of music streaming at 23.0%, online news at 7.2%, and gaming streaming at 6.1%; city access was 35.6% versus 29.0% in rural areas. The cross-source implication is that digital culture is organized through different payment models and unequal place-based access, not one generic “online participation” trend. Subscription presence does not establish actual use, affordability, cancellation power, content quality, or creator income; the next bridge is recurring payment -> use and exit -> discovery and provider value capture.
+
+The [ONS creative-industries jobs record](records/comparative-ons-creative-industries-jobs-london-regional-demographics-2025.json) adds the production side of the cultural-consumer system. Creative work is estimated to be 13.7% of London jobs versus 5.9% elsewhere, with strong credential and self-employment patterns. This suggests that cultural consumption and cultural production may be organized by the same place, housing, skills, and labor-power constraints—but the APS extract does not measure earnings, job quality, consumption, or causality. The next bridge is creative work -> household room and cultural supply -> local participation and value capture.
+
+The [Census HTOPS arts-production and local-opportunity record](records/us-census-htops-arts-production-local-opportunity-2026.json) adds the missing practice and perceived-supply stages. Personal art creation, practice, or performance is higher among younger adults in the four-week window, while perceived local opportunity is much lower in the lowest household-income group. The cross-source implication is that cultural access is organized by both the ability to make culture and the ability to recognize or reach local supply; the release does not establish professional production, venue counts, affordability, or causality. The next bridge is practice -> local supply -> attendance -> repeat participation.
+
+The [ONS real-time arts-payment-flow record](records/comparative-ons-realtime-arts-payment-flows-edinburgh-festival-2026.json) adds a near-real-time production-network signal. Scottish arts organisations’ payments to other UK arts organisations rose 73% in August versus July while equivalent rest-of-UK payments fell 40%, with recurring August peaks associated with festival activity. This is administrative payment activity, not ticket sales, attendance, jobs, or artist income; the useful bridge is production network -> festival place -> footfall and audience use -> value distribution.
+
+The [Eurostat generative-AI use record](records/comparative-eurostat-generative-ai-use-age-purpose-2025.json) adds an official population baseline beneath the more speculative AI and consumer records. EU use is sharply age-stratified, and private, professional, and formal-education purposes form different adoption routes. The cross-source implication is that AI’s cultural and consumer effects will depend on who can convert access into reliable tasks, learning, work leverage, or discovery—not on aggregate adoption alone.
+
+The [Eurostat enterprise social-media record](records/comparative-eurostat-enterprise-social-media-size-country-2025.json) adds the firm-side counterpart to individual digital adoption. Large enterprises are 28.5 percentage points more likely than small enterprises to use social media, and the country range is 46.7 points. The cross-source implication is that consumer discovery is shaped not only by who uses platforms, but by which firms have the resources to enter, maintain, and benefit from those platforms.
+
+The [Eurostat hostile-online-content record](records/comparative-eurostat-hostile-online-content-age-gender-2025.json) adds the user-experience counterpart: exposure to hostile or degrading content declines from roughly 54% among younger adult internet users to 28.1% among ages 65–74, and young women report higher exposure than young men across several identity targets. The cross-source implication is that platform access, enterprise presence, and platform safety form one social infrastructure—but exposure is not yet evidence of harm, moderation failure, or exit.
+
+The [Eurostat youth-overcrowding record](records/comparative-eurostat-youth-overcrowding-age-country-2025.json) adds a material-capacity counterpart to the digital-experience lane. Young people are more likely than the total population to live in overcrowded households, with extreme country variation. The cross-source implication is that cultural and consumer autonomy may depend on room, privacy, rest, study, care, and digital capacity before platform choice or cultural preference is observed; the housing indicator does not prove those downstream effects.
+
+The [Eurostat parental-home exit record](records/comparative-eurostat-youth-parental-home-exit-employment-2025.json) adds a transition-stage measure beneath overcrowding. The age of household exit varies by more than ten years across the EU and broadly tracks youth employment, creating a route from work and housing conditions to privacy, spending control, care exchange, and cultural participation. The release reports an association, not an individual-level causal pathway.
+
+The [Census Monthly State Retail Sales record](records/us-census-monthly-state-retail-sales-experimental-2026.json) adds a place-by-category consumption layer: June 2026 modeled total retail growth ranged from -7.6% in Alaska to +11.3% in Louisiana, while sporting-goods/books/music retail ranged from -9.6% in D.C. to +24.8% in Alaska. This widens the consumer trend lens beyond national averages, but the product is experimental, nominal, modeled, and subject to revision; it does not identify welfare, preference, or individual behavior.
+
+The [ABS General Social Survey 2025 record](records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json) adds a cultural-social-material tension: cultural attendance and participation were 79% and 48%, and weekly outside-household contact recovered from 41.3% in 2020 to 52.2% in 2025, while cash-flow problems and dissaving rose to 25.3% and 25.7%. The result argues against using social or cultural participation as a proxy for household security; the repeated cross-sections do not establish individual change or causality.
+
+The [Statistics Canada National Culture Indicators record](records/comparative-statcan-national-culture-indicators-q1-2026-production-jobs.json) adds a production-side tension: real culture GDP rose 0.6% in Q1 2026 while culture jobs fell 0.3%; broadcasting GDP rose 1.6% while broadcasting jobs fell 1.8%, and film/video jobs fell 2.3%. This separates cultural-sector output from worker outcomes and audience experience; the national accounts do not identify the causal mechanism.
+
+The [Japan Statistics Bureau CTI record](records/comparative-japan-statistics-consumption-trend-index-july-2026-real-category-household.json) adds a real-consumption composition layer: July 2026 nominal household consumption was nearly flat at -0.1% year-over-year while the real index fell 2.4%, with especially sharp real declines in education (-11.8%) and utilities (-8.7%). This is a modeled aggregate index, not a household-level welfare estimate, but it makes category-specific purchasing-power pressure visible.
+
+The [Statistics Canada disability-accessibility record](records/comparative-statcan-disability-accessibility-digital-consumer-barriers-2022-2024.json) adds a usable-access layer beneath nominal digital availability: 13% of Canadians with disabilities reported barriers to government information/services online, 11% to booking online, and 9% to banking/shopping online, with a severity gradient from 28% to 9% for Internet-use barriers. It does not establish completed transactions, consumer loss, or institutional remedy.
+
+The [New Zealand cultural-participation record](records/comparative-new-zealand-cultural-participation-2025-access-creation-ai-volunteering.json) adds an audience-to-production tension: attendance rose to 88% in 2025 while active creation fell to 40%, and 72% named accessibility or convenience as an enabler. Digital tools and generative AI are already inside creator practice, but skills remain a barrier for nonusers; the online panel does not establish causal conversion or creator outcomes.
+
+The [Statistics Denmark Cultural Habits record](records/comparative-statistics-denmark-cultural-habits-q2-2026-age-urban-games-museums.json) adds a current age/place behavior layer: digital-game participation ranges from 93% among ages 16–24 to 38% among ages 75+, while museum participation ranges from 68% to 56%; cinema has a 12-point dense-to-thin area gap, but Danish heritage-site participation differs by only 3 points. The result suggests cultural access is activity-specific rather than one universal urban or age divide.
+
+The [Malaysia DOSM ICT-access record](records/comparative-malaysia-dosm-ict-access-2025-urban-rural-device-gap.json) adds a complementary infrastructure layer: Internet access is near-universal nationally, but the urban-rural household gap remains 8.3 points, and mobile use exceeds computer use by 18.1 points. Together with the Denmark activity splits, this suggests that “digital access” needs to be decomposed into place, device, task, and cultural activity rather than treated as one consumer trend.
+
+The [China NBS H1 2026 consumption record](records/comparative-china-nbs-household-consumption-education-culture-recreation-h1-2026.json) adds a budget-level counterpart: rural consumption growth is faster than urban growth, including in education/culture/recreation, but the rural level remains lower. Across Malaysia, Denmark, and China, the useful synthesis is that access, activity, and spending move on different gradients; none should stand in for the others.
+
+The [Statistics Korea 2025 Social Survey record](records/comparative-kostat-south-korea-social-survey-2025-leisure-trust-participation.json) adds a social-meaning layer: cultural attendance and organized participation rose, but generalized trust fell. The cross-source implication is that visible participation cannot be used as a proxy for social cohesion; the next bridge must distinguish group membership, reciprocity, loneliness, and institutional trust.
+
+The [England DCMS museums-and-galleries record](records/comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap.json) adds geographic resolution: physical and digital museum engagement both vary sharply by local authority, with mostly physical-only engagement nationally. The combined lesson is that cultural access has at least four separable dimensions—place, modality, activity, and social meaning.
+
+The [Statistics Poland culture-participation record](records/comparative-poland-statistics-culture-participation-2024-spending-streaming-access.json) adds the affordability/channel layer: spending rose, but cinema was still abandoned for financial reasons and paid streaming remained sharply stratified. Across Poland and England, digital availability does not erase the price, place, age, or education gradients shaping cultural participation.
+
+The [Mexico INEGI ENDUTIH record](records/comparative-mexico-inegi-endutih-2025-internet-age-rural-indigenous-device-gap.json) adds a Latin American digital-inclusion trajectory: rural Internet access is catching up, but mobile-first access, older-age exclusion, state variation, and computer scarcity remain. Across Malaysia, Poland, and Mexico, national connectivity rates conceal the device and capability layers that determine what consumers can actually do.
+
+The [Statistics Canada social-connections record](records/comparative-statcan-social-connections-2025-virtual-inperson-friendship-satisfaction.json) adds the outcome test: digital communication is usually hybrid, but virtual-only contact is associated with lower satisfaction, support, and higher loneliness. This prevents the atlas from treating access or usage as an automatic proxy for social benefit.
+
+The RELATE 2026 youth study adds a useful cultural paradox to the AI-and-social
+connection lane: AI companionship is becoming an accessible, patient,
+confidential interaction layer, but the same young people still report a strong
+preference for face-to-face connection and trusted human advice. The public
+materials report 35% with an AI companion, 64% preferring in-person connection,
+and 70% preferring a trusted person over AI or search for difficult advice.
+Because the study is publisher-reported by a faith-based nonprofit and the
+public summary does not expose full weighting or response details, it is a
+bounded mechanism signal—not proof that AI replaces human relationships or
+causes loneliness.
+
+The Ofcom News Consumption Survey adds a distribution-layer explanation for
+why digital discovery does not automatically produce digital legitimacy. In
+the 2025-2026 UK fieldwork, 73% of adults accessed news through online
+intermediaries and 21% used an AI tool for news, but 56% were less trusting of
+an AI-written story than a human-written one. During the May 2026 election
+period, television reached 62% of people aware of the elections and 64%
+preferred longer-form coverage; 71% also rated local news among the most
+important forms of news. The finding is not that broadcast media has defeated
+platforms: intermediaries often distribute established broadcasters, and only
+5% used intermediaries exclusively. The sharper pattern is a split between
+where information is encountered and where it becomes credible, locally useful,
+or consequential. Ofcom changed the survey definition of news and moved to
+continuous mixed-mode fieldwork, so direct trend comparisons are limited; the
+next bridge requires an identifiable encounter joined to verification,
+correction, civic or consumer action, and later trust or exit.
+
+The Northern Ireland household water-use survey adds a more material consumer
+layer beneath climate and infrastructure attitudes. It reports routines and
+equipment rather than broad concern: 48% of respondents shower seven times a
+week, 85% of households use a washing machine more than once weekly, 43% do
+not own a dishwasher, and 72% have a dual-flush toilet. The distribution is
+uneven: outside-use equipment is reported by 68% of households in the most
+deprived areas versus 91% in the least deprived, while dual-flush ownership is
+68% versus 81% and dishwasher non-ownership is 62% versus 27%. This is not
+evidence that deprivation causes a specific water routine, nor is it metered
+consumption; household equipment can reduce time burden while also shaping
+water demand. The useful bridge is from material infrastructure and domestic
+routine to actual use, drought or price exposure, time, and public response.
+
+The DfT domestic transport series supplies an observed mobility counterweight to
+travel-attitude and transport-policy records. In the latest September 2026
+publishing period, motor traffic reached 105% of its pre-COVID comparison,
+while National Rail was at 94%, buses outside London at 83%, and London bus
+and Tube use at 79%. This is not evidence that people have lost mobility or
+that remote work caused a permanent mode shift: the baselines, windows, and
+measurement systems differ, and the series does not identify travelers, trip
+purpose, fare burden, disability, or substitution. The sharper signal is an
+operational divergence between private-road activity and public-transport
+recovery. It opens the next chain from observed movement to household cost,
+service availability, care, work, accessibility, and local participation.
+
+The [Statistics Canada household-spending record](records/comparative-statcan-household-spending-2023-income-tenure-culture-refresh-2026.json) adds the missing budget-composition layer to the observed-consumption rotation. Average 2023 household goods-and-services spending was $76,750, with shelter, transportation, and food taking 32.1%, 15.8%, and 15.7%; recreation spending was 23.9% higher than in 2021. The distributional contrast is sharper than the average: the top income quintile averaged $123,447 versus $40,080 for the bottom, and the bottom quintile devoted larger shares to shelter and food. This is current-dollar cross-sectional expenditure evidence using refreshed Census-calibrated weights, not a real-quantity, panel, or welfare estimate. The useful bridge is whether households preserve cultural and social consumption, substitute toward lower-cost forms, or sacrifice participation as prices, debt, and housing costs change.
+
+The [Eurostat cultural-participation record](records/comparative-eurostat-cultural-participation-disability-age-2022-refresh-2026.json) turns cultural access into a measurable inequality surface. In Sweden, 66.8% of people reporting no activity limitation participated at least once in cinema, live performances, or cultural sites in 2022, compared with 52.8% reporting some limitation and 34.8% reporting severe limitation; the same measure ranged from 79.9% among ages 16–24 to 47.2% among ages 65+. The finding does not identify a causal disability or age effect: health, transport, cost, venue accessibility, household support, supply, and cohort may be jointly responsible. The sharper cross-source question is whether cultural participation is being preserved as social infrastructure only for people who can convert time, mobility, money, and accessibility into attendance.
+
+The [Census HTOPS arts/loneliness/income record](records/us-census-htops-arts-loneliness-income-2026.json) supplies a same-instrument bridge between consumer room, cultural participation, and social connection. In July 2026 weighted tables, live performance attendance was 10.6% among adults in households below $35,000 and 37.6% at $150,000 or more; always/usually loneliness was 18.2% and 1.9%. The contrast is analytically useful but not a causal chain: the survey is experimental and cross-sectional, income is household-level, and arts and loneliness are separate aggregate cells rather than linked people. The next evidence target is a person- or household-level design that can distinguish price, time, transport, accessibility, health, work, housing, and social-infrastructure mechanisms.
+
+The [ABS Australia time-use record](records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json) makes time itself an observed consumer and cultural constraint. In the 2024 diary tables, carers who participated in caring/support averaged 2h45 per day versus 1h46 for non-carers; their participant-level free-time average was 5h25 versus 5h36. This does not prove that care caused a specific reduction in cultural participation, and the survey cautions against treating two diary days as carer prevalence. It does show why stated access and attendance need a time-allocation layer: the same household may retain nominal free-time participation while carrying a different unpaid-work schedule and less flexible room.
+
+The [England Community and Engagement civic-action record](records/comparative-govuk-community-engagement-civic-action-place-2025-26.json) adds the next arrow from social and material context into voice. In 2025/26, 46% of people aged 16+ engaged at least once in civic participation, consultation, or activism, but the estimate was 55% for higher managerial/professional occupations and 39% for routine/manual or never-worked/long-term-unemployed groups; local-authority estimates ranged from 61% in Camden to 17% in the City of London. This is not proof that occupation or deprivation causes civic silence, nor that participation changed a decision. It shows that national civic recovery can coexist with unequal conversion of experience into a public act, and that the missing middle is official response and durable influence.
+
+The [England local-influence record](records/comparative-govuk-community-engagement-local-influence-efficacy-2025-26.json) identifies the next legitimacy tension: 59% said it was important to influence local decisions, but only 26% felt they could personally do so, and 29% wanted more involvement. The survey also names concrete access conditions—knowing which issues are under consideration and being able to respond online or by email. This does not prove that councils fail to respond, but it turns abstract trust into a testable interface hypothesis: discoverability, contribution, acknowledgement, decision trace, and repeat efficacy.
+
+The [Stockton-on-Tees Yarm public-engagement decision record](records/uk-stockton-yarm-public-engagement-decision-scrutiny-2026.json) supplies a bounded observed response to that efficacy problem. A specific public-realm scheme was not taken forward after resident engagement, remaining funding was reallocated, and a scrutiny call-in forced reconsideration of how the engagement evidence and decision rationale were presented. The Cabinet confirmed the decision, so this is evidence of procedural accountability and explanation—not proof that residents controlled the outcome, that retained funds produced benefit, or that trust recovered. The next bridge is implementation: renewed local engagement, funded project, resident experience, and later efficacy.
+
+The Northern Ireland Young Life and Times survey provides a different public
+measurement layer: 71% of 16-year-olds expect a sense of belonging to Northern
+Ireland, but only 22% agree that people respect each other and 59% frequently
+see or hear racist comments or jokes. Alongside 45% reporting 3–5 daily hours
+on social media and 40% supporting a voting age of 16, the pattern suggests
+that place attachment, social exposure, and civic agency are not one construct.
+The survey is a split, self-reported youth instrument; it does not establish
+causal cohesion, platform harm, or future political participation.
+
+The CNBC/NRF Retail Monitor supplies the needed behavioral counterweight to
+survey-based value and confidence signals: anonymized permissioned card data
+showed August total retail sales excluding autos and gas up 0.22% month over
+month and 3.87% year over year, with core sales up 0.17% and 3.47%. That does
+not mean households were broadly secure. The release cannot separate price from
+quantity, promotion from need, credit from income, or affluent concentration
+from mass behavior—and its new methodology breaks direct comparison with July.
+The useful inference is narrower: observed spending remained positive while the
+distribution and lived constraint remain open.
+
+Japan's August 2026 Cabinet Office Consumer Confidence Survey adds a useful
+official household-perception counterpoint to the observed transaction layer:
+the confidence index rose 0.6 points to 35.5 and the durable-goods purchase
+timing index rose 1.9 points to 27.5, while income-growth and employment
+perceptions softened. At the same time, 89% of respondents expected prices to
+rise over the following year. The 6,674-valid-response survey uses a
+15-month rotating household design and includes one-person households in the
+sample frame, but its headline component indexes are for two-or-more-person
+households. It measures expectations and purchase timing, not realized
+spending, income, or welfare; the valuable cross-source question is whether
+purchase timing improves before actual household room does.
+
+The Census Bureau's Q2 2026 Quarterly Retail E-Commerce release adds a more
+observable channel-shift layer: seasonally adjusted online retail sales rose
+12.2% year over year versus 6.7% for total retail, and e-commerce represented
+17.1% of total retail sales. This is a useful behavioral complement to the
+Japan purchase-timing survey and the NRF permissioned-card monitor, but it is
+nominal establishment-level data. It cannot tell us whether online growth is
+substitution or added demand, who benefited, whether quantities rose, or how
+delivery, convenience, access, and platform dependence were distributed.
+
+The UK DSIT informal-support study adds a social-infrastructure mechanism that
+neither retail sales nor digital-use rates capture. Around 35% of UK adults
+reported providing informal digital help in the previous year; among supporters,
+65% helped with at least one financial transaction, 44% with administrative or
+public-service tasks, and 57% repeatedly performed the same task after showing
+someone how to do it. Proxy help can produce immediate access while weakening
+longer-term independence, and 31% reported using another person's login details
+for online banking or financial accounts. This is mixed-method commissioned
+research, not a causal service audit or population prevalence estimate, but it
+turns “digital participation” into a relational question: who carries the task,
+the time, the risk, and the accountability?
+
+Sweden's 2026 Internet Foundation study adds a cultural-rebalancing signal to
+that access mechanism. AI services reached 62% of respondents and either AI
+services or Google AI overviews reached 81%, yet 80% also reported getting stuck
+in passive scrolling for too long, 30% had completed a digital detox, and about
+half were interested in taking a digital pause. Digital public-service adoption
+was similarly double-edged: 77% used a digital mailbox, but one quarter of users
+aged 76 or older said it made things harder. The survey is weighted self-report
+evidence from January 2026, not passive logs or verified service outcomes. The
+interesting cross-source pattern is not “people want less technology”; it is
+selective demand for technology that saves effort, preserves control, and does
+not consume attention or make accountability harder.
+
+The Japan loneliness-and-isolation case adds a useful policy-to-life conversion
+test: the revised national plan reports 174 local partnership platforms but only
+72 local councils as of March 31, 2026, while setting a direction toward full
+prefectural coverage and deeper municipal accompaniment. It also names May
+awareness activity, connection-supporter training, youth prevention,
+social-prescribing-style touchpoints, and evidence-based evaluation. These are
+policy mechanisms and implementation infrastructure, not proof of reach or
+improved lived connection; the next observation should follow one municipality
+through staffing, referral, repeat use, inclusion, and participant outcome.
+
+The wildfire-insurance route now has a complementary lived-experience layer:
+the California Fire Insurance Project reports that roughly two-thirds of its
+self-selected survey respondents mention FAIR Plan placement, with individual
+self-reported premium examples rising 363–367%, while mitigation work did not
+guarantee stable coverage. Because the public page does not disclose a sample
+size or sampling frame and does not verify policies, this is not statewide
+prevalence. Its value is different: it exposes the consumer conversion chain
+that administrative counts miss—non-renewal or carrier exit, search and
+documentation, FAIR Plan or wrap placement, premium and coverage tradeoffs,
+and potential mortgage or property-plan consequences.
+
+## Latest cross-source pattern: operational visibility is outrunning lived conversion
+
+Three recent routes point to the same emerging cultural-social-consumer
+condition: institutions can now expose large volumes of activity while the
+conversion into usable security, room, or trust remains much less visible. In
+the Los Angeles wildfire recovery, the County reports rebuild permits for 26.7%
+of destroyed structures but completed reconstruction with occupancy approval for
+only 0.47%, while 38% of survivors had exhausted or were nearing exhaustion of
+displacement assistance. In platform governance, Snapchat reports millions of
+reports and enforcement actions, but the public episode still cannot establish
+whether illicit sellers became undiscoverable or whether affected users
+received meaningful remedy. In consumer sentiment, September confidence fell to
+81.9 while present conditions and expectations moved on different clocks; the
+index shows pressure and judgment, not which households actually cut, delayed,
+borrowed, or substituted.
+
+The cross-source implication is not that operational metrics are useless. They
+are the newly observable middle: they show where systems act, queue, classify,
+permit, enforce, or distribute. But they should be read against a second
+question—did the activity reach the material unit of life? The next decisive
+tests therefore follow a named property or household, platform case or remedy,
+or consumer panel from action through usable outcome, trust, and later choice.
+The sources remain non-combinable at the respondent level; this is a bounded
+mechanism synthesis, not a pooled estimate.
+
+The Commission's Article 21 aggregates add a correction-system layer: certified
+out-of-court bodies reviewed more than 1,800 disputes in the first half of 2025
+and reversed platform decisions in 52% of closed cases across Facebook,
+Instagram, and TikTok. This shows public remedy can reverse platform actions at
+scale, while the missing stages are case-level access, compliance after
+reversal, time and cost, and whether correction changes future exposure or
+trust. The Commission summary supplies no full denominator, case-level dataset,
+or durable-outcome measure, so 52% is not a platform error rate or a durable
+remedy estimate.
+
+The wildfire after-action route adds a further stage to this pattern: diagnosis
+can become governance infrastructure. Los Angeles County's review assigns
+lead agencies and horizons to recommendations, and the Board then requires
+implementation reporting plus third-party tracking. That is stronger than a
+policy aspiration, but still one stage short of delivery. The durable question
+for the atlas is whether accountability systems change the waiting, access,
+reoccupation, safety, and trust experienced by the people named in the review.
+
+The wildfire-insurance route now adds a market-reentry stage. California reports
+that State Farm and Allstate have filed to begin writing new residential
+policies, but both filings remain under review and State Farm's proposal ties
+eligibility to wildfire-hardening standards and severity zones. This is a
+conditional-choice mechanism: market supply, household mitigation, regulatory
+approval, premium, and actual policy issuance remain separate stages. The
+Department's reported complaint recovery also shows institutional correction,
+but neither filing nor recovered money establishes affordable, adequate,
+durable coverage for a particular survivor.
+
+The Census Bureau's new Nonemployer Statistics add a different kind of labor
+and consumer signal: the gig economy is not only an app-mediated workforce but
+also a broad local infrastructure of mobility, delivery, care, repair,
+hospitality, and cultural production. In 11 selected industries, the Census
+visualization shows roughly 7.3 million individual proprietorships and $169.3
+billion in receipts, including 1.07 million independent artists and 533,000
+child-care proprietorships. The selected industries are only a bounded proxy—the
+share of receipts attributable to gig work is unknown, and receipts are not
+worker income, consumer welfare, or durable business survival. The signal is
+that cultural and household services may be organized through a dispersed
+operator layer whose risks and bargaining conditions remain largely invisible.
+The new state file adds concentration: California, Florida, Texas, and New York
+contain about 40.1% of the selected-industry proprietorships and 43.6% of
+receipts. This is business concentration, not worker or consumer concentration,
+but it makes the next question geographic: which local ecosystems turn solo
+operators into usable services, and which leave them carrying volatility alone?
+The within-state profiles are different: New York's selected-industry receipts
+are dominated by taxi/limousine services, California carries a larger arts and
+childcare establishment layer, Florida has a large janitorial layer, and Texas
+combines courier, janitorial, landscaping, and food activity. These are not
+causal cultural typologies, but they are useful hypotheses for place-specific
+consumer and worker research.
+
+The August JOLTS release supplies the complementary payroll clock: 7.1 million
+openings, 5.2 million hires, 5.1 million total separations, 3.1 million quits,
+and 1.6 million layoffs or discharges, with the national measures little changed.
+Health and social assistance and leisure/hospitality still show high opening rates,
+while government is slower-moving. JOLTS excludes proprietors, partners, and unpaid
+family workers, so these measures cannot be pooled with the Census nonemployer
+operator counts. The useful signal is a two-system labor market: payroll employers
+show relatively stable churn and persistent service-sector demand while a separate
+solo-operator layer supplies mobility, care, delivery, repair, hospitality, and
+cultural work. The next test follows a named local service through operator entry,
+hours, fees, expenses, repeat demand, payroll or subcontracting, and actual household
+room; neither source alone establishes worker welfare or consumer value.
+
+The Census Quarterly Services Survey adds the missing customer-class split. In
+the second quarter of 2026, information-sector employer revenue was $701.6
+billion and up 10.0% year over year, but household consumers and individual
+users accounted for only 29.4% and grew 4.8%, while business revenue grew 11.3%.
+Telecommunications was more directly household-facing: households represented
+64.4% of its $162.2 billion revenue, yet the aggregate was down 1.8% year over
+year. This is a useful consumer-demand correction to headline service growth:
+the service economy can expand through business intermediaries without proving
+more household room, cultural participation, or usable access. The customer
+classes are firm-reported nominal revenue, not unique consumers or welfare, and
+the employer frame remains separate from the nonemployer operator layer.
+
+The USDA food-security layer shows the household consequence that service and
+assistance aggregates can hide. In 2024, 13.7% of households—about 18.3 million—
+were food insecure, including 5.4% with very low food security; the rate was not
+statistically different from 2023. At the same time, inflation-adjusted USDA
+food-and-nutrition-assistance spending was $147.9 billion in FY2025, 1% below
+FY2024, with SNAP representing 69% of the total. This is not a causal cut in
+protection: spending, participation, eligibility, benefit adequacy, food prices,
+and household receipt are different stages. But it sharpens the atlas's central
+conversion question: nominal service growth and institutional spending can coexist
+with a large population still reporting constrained access to an ordinary necessity.
+
+The OECD's current energy-shock report adds a striking cross-clock consumer
+signal: confidence improved since May in advanced economies even as available
+credit-card data for the United States, Germany, and United Kingdom showed a
+higher share of spending directed to fuel, while savings buffers and purchasing
+power were expected to strain over time. This is not a contradiction once
+confidence, budget composition, and realized room are treated as separate
+layers. Fuel can absorb a larger share because of price, commuting, travel, or
+substitution, while confidence reflects expectations or aggregate sentiment.
+The useful atlas hypothesis is therefore not simply “consumers feel better”
+or “consumers are cutting back,” but that geopolitical energy pressure is being
+managed through selective reallocation before it becomes visible as generalized
+withdrawal. The report does not provide card sample sizes, household subgroups,
+or causal effect sizes, so this remains a mechanism signal to test against
+outlet, food, transport, and household-panel data.
+
+The IKEA Life at Home 2026 study supplies a consumer-meaning layer beneath
+those material signals. Security, comfort, and control are widely described as
+important at home (82%, 86%, and 74%), but are experienced regularly by only
+68%, 66%, and 59% respectively. The home is therefore functioning as a
+resilience buffer whose psychological promise exceeds its reliable delivery.
+The same survey links climate action to practical household motives: 54% say
+saving money would motivate more action and 41% cite health benefits. This
+suggests that sustainability can become ordinary consumer practice when it
+reduces cost or protects health, rather than only when it is framed as moral
+commitment. Because IKEA commissioned the online research and reports
+associations rather than verified behavior, this is a meaning-and-motivation
+signal to test against housing conditions, energy use, purchases, routines,
+and life-stage outcomes.
+
+The USDA Food Expenditure Series adds behavior without pretending to observe
+households directly. In constant 2025 dollars, total U.S. food sales rose only
+0.9% in 2025; food away from home grew 1.1% versus 0.7% for food at home, with
+away-from-home sales just over half of the all-purchaser total. The December
+outlet split is more revealing than the aggregate: full-service restaurant sales
+were up 1.8% year over year while limited-service sales fell 0.8%, warehouse
+club/supercenter food sales fell 1.0%, and grocery sales were essentially flat.
+This is a hypothesis about price, outlet, convenience, and social-consumption
+reallocation—not proof of household discretionary recovery, because the series
+includes all purchasers and does not identify quantities, meals, or households.
+
+## Latest tariff-and-consumer rotation: trade policy becomes legible through receipts
+
+The [Ipsos Consumer Tracker record](records/comparative-ipsos-consumer-tracker-september-2026-tariffs-price-politics-trust.json) reports that 81% of Americans surveyed expected tariffs to raise prices on goods they buy and 71% said they had already seen tariff-linked price increases. The cross-source implication is a tariff-to-consumer-politics route: trade policy becomes meaningful through price visibility, value judgments, substitution, safety trust, household room, and attribution. The source is perception evidence, not product-level incidence, observed purchase change, or political causality; the next test follows a named product or household panel through prices, substitution, complaint, and judgment.
+
+## Latest geopolitical-household rotation: war becomes household room
+
+The [World Bank Ukraine living-conditions record](records/comparative-world-bank-ukraine-living-conditions-spring-2026-poverty-resilience.json) shows how geopolitical shock travels through prices, food variety, care, labor-market segmentation, informality, disability, displacement, and social-assistance adequacy. The cross-source implication is that war is experienced through ordinary household decisions and unequal recovery pathways. The update combines modeled estimates and repeated phone surveys, not a causal counterfactual; the next test follows a named household or subgroup from exposure through benefit receipt, care, housing, work, recovery, and attribution.
+
+The new Afrobarometer social-cohesion layer adds a useful cultural-geopolitical
+boundary condition. Across 38 African countries, respondents were much more
+likely to accept a neighbour of a different ethnicity (87%), religion (84%),
+political party (81%), or nationality (77%) than to say they trust people of a
+different ethnicity (49%) or religion (48%). Immigration then tests the limit
+of that tolerance: 64% preferred admitting fewer or no foreign job seekers and
+70% preferred fewer or no refugees, while views of immigrants' economic
+contribution were almost evenly split (45% positive, 44% negative). The
+interesting mechanism is not simple openness or xenophobia: coexistence norms,
+interpersonal trust, labor-market protection, and refugee policy can diverge.
+This is survey evidence of attitudes, not observed contact, migration, labor
+competition, or institutional fairness, so the next test follows a named
+migration or service episode through work access, local interaction, political
+voice, and durable social trust.
+
+## Latest platform-work and financial-health rotation: transformation is judged through usable security
+
+The [ILO UNGA81 record](records/comparative-ilo-unga81-platform-work-financial-health-2026.json) connects the new platform-economy labour standard, workplace financial-health agenda, social protection, fair transitions, and worker voice. The cross-source implication is that platform and economic transformation are increasingly judged by whether workers gain usable security—income stability, control, protection, responsible finance, and remedy—rather than by innovation or growth alone. The source is agenda-setting, not implementation evidence; the next test follows a named worker cohort through work allocation, pay, fees, financial health, protection, complaint, bargaining, and remedy.
+
+## Latest ASEAN trade-and-work rotation: labour rights become market-entry infrastructure
+
+The [ILO ASEAN labour-rights record](records/comparative-ilo-asean-trade-labour-rights-supply-chain-competitiveness-2026.json) documents a regional move to connect FTA labour provisions, responsible business conduct, due diligence, ESG requirements, and worker voice to sustainable competitiveness. The cross-source implication is that labour rights are becoming part of geopolitical and firm strategy, but clauses and audits become protection only when they reach awareness, inspection, safe complaint, correction, remedy, continued listing, and improved work. The next test follows a named supply chain rather than treating a seminar or study map as implementation evidence.
+
+## Latest consumer-sentiment rotation: expectations are not household room
+
+The [European Commission consumer-confidence record](records/comparative-european-commission-consumer-confidence-september-2026-economic-sentiment-recovery-reversal.json) reports that September 2026 EU and euro-area economic sentiment, employment expectations, and flash consumer confidence weakened after a recent recovery. The cross-source implication is a perception-to-room conversion gap: households may respond through timing, substitution, saving, borrowing, reduced quality, or reduced social and cultural participation, none of which is established by the aggregate indicators alone. The next test follows a named country or panel from confidence through prices, income, employment, spending, debt, housing, participation, and political attribution.
+
+## Latest government-AI rotation: public value requires institutional proof
+
+The [World Bank government-AI record](records/comparative-world-bank-government-ai-public-service-scale-evaluation-2026.json) shows that the emerging issue is not simply whether governments adopt AI. Across 60 economies, adoption is described as broad but shallow and uneven, while evaluation capacity, data readiness, local adaptation, procurement, staff capability, auditability, and correction determine whether a pilot can become a durable public service. The World Bank’s accompanying evidence bottleneck—57 of nearly 10,000 health-AI studies tested with real patients and providers in low-resource settings, and only 17 measuring causal effects—makes the open middle visible.
+
+The cross-source implication is that AI is becoming administrative infrastructure and a political bargain. It may reduce waiting or extend scarce expertise, but it can also reproduce missing records, embed model-context failures, deepen vendor dependence, and make errors harder to contest. The next test follows a named service user from need through AI-assisted contact, decision, explanation, appeal, correction, and repeat access; adoption, a pilot, or a procurement framework is not itself evidence of public value or legitimacy.
+
+## Latest social-protection-coverage rotation: rights become security through administrative conversion
+
+The [ILO social-protection floors record](records/comparative-ilo-social-protection-floors-informal-workers-systems-2026.json) reports more than 9 million people with improved access to measures developed through a five-year project across six countries. Country examples include policy and informal-worker roadmaps, maternity and newborn care, health insurance, union and employer engagement, automatic enrolment, seamless contribution payments, data, coordination, and social-security inspection.
+
+The cross-source implication is that social protection is infrastructure, not only a transfer or legal promise. Informal workers need systems that convert entitlement into enrolment, contribution, claim, payment, adequacy, continuity, trust, and remedy. The source is programme reporting with selected country examples, not a common-denominator causal evaluation or independent verification of post-project outcomes; the next test follows a named worker group through the full claim and survival pathway.
+
+## Latest gender-pay-gap rotation: equal pay is a care, valuation, and bargaining system
+
+The [ILO gender-pay-gap record](records/comparative-ilo-gender-pay-gap-2026-care-segregation-bargaining.json) reports that women earn around 18% less than men globally and that the gap narrowed only two percentage points since the prior estimates in 2018. The ILO connects the gap to employment access, occupational segregation, career progression, unequal paid and unpaid care, discrimination, and the undervaluation of women’s work; proposed routes include pay transparency, gender-neutral job evaluation, wage policy, collective bargaining, equality enforcement, care systems, and social protection.
+
+The cross-source implication is that equal-pay commitment has a conversion gap. Transparency can reveal inequality, but bargaining, enforcement, care time, progression, and the valuation of work determine whether it becomes household security and economic voice. The source is a global estimate summary and policy statement, not a country-level causal decomposition or worker panel; the next test follows a named occupation, employer, or sector through pay-setting, care, hours, progression, bargaining, remedy, and household outcomes.
+
+## Latest fisheries-labour-governance rotation: responsible fisheries includes worker dignity
+
+The [ILO/RPOA-IUU fisheries record](records/comparative-ilo-rpoa-iuu-fisheries-labour-exploitation-responsible-supply-chain-2026.json) documents a regional workshop connecting illegal, unreported, and unregulated fishing to labour exploitation and crew welfare. The proposed response integrates ILO Convention No. 188, regional crew-welfare standards, inter-agency coordination, safe migration, and decent work into responsible fisheries and seafood-supply-chain governance.
+
+The cross-source implication is that sustainability claims are expanding from fish stocks and vessel legality to the conditions under which fish are caught. Labour standards may become an enforcement and early-warning pathway, but the workshop is not evidence that better work conditions prevent IUU fishing. The next test follows a named vessel, port, fleet, or seafood chain through recruitment, onboard work, inspection, legality, buyer due diligence, traceability, complaint, remedy, and community effects.
+
+## Latest forced-labour-trade-remedy rotation: supply-chain legitimacy depends on remedy
+
+The [ILO–Canada PRIME PH record](records/comparative-ilo-philippines-forced-labour-trade-remedy-responsible-business-2026.json) documents a four-year project intended to address forced labour in Philippine agriculture, manufacturing, and mining. It links hidden exploitation risk and informality to responsive institutions, worker protection, access to justice, international labour standards, responsible business conduct, and Canada’s import-market restrictions.
+
+The cross-source implication is that forced-labour prevention is becoming a cross-border legitimacy chain rather than a labour-inspection issue alone. Firms and importers may face stronger market incentives, but the decisive test remains whether workers can report safely, cases can be detected, victims can receive remedy, and supply-chain rules change workplace power without pushing production into less visible channels. The launch is institutional architecture, not outcome evidence; the next test follows a named Philippine export chain from recruitment through conditions, complaint, remedy, buyer diligence, import decisions, and community effects.
+
+## Latest Pacific-labour-governance rotation: mobility becomes regional public infrastructure
+
+The [ILO Pacific labour-governance record](records/comparative-ilo-pacific-regional-labour-governance-mobility-skills-2026.json) documents Pacific leaders’ endorsement of a regional Labour Ministers Meeting within the Pacific Islands Forum architecture. The proposed mechanism would connect labour mobility, skills, employment, social protection, workforce sustainability, and inclusive growth to the Blue Pacific 2050 Strategy, complementing economic and trade ministerial mechanisms while maintaining engagement with employers and workers.
+
+The cross-source implication is that labour mobility is becoming a regional geopolitical and institutional problem rather than a collection of national employment policies. A labour forum can make worker protection and skills visible in economic strategy, but it can also subordinate labour rights to competitiveness or labour supply if tripartite voice lacks power. The announcement is an institutional arrow, not outcome evidence; the next test follows a named Pacific corridor from recruitment and movement through skills recognition, work conditions, protection, family impacts, regional decisions, and remedy.
+
+## Latest creator-legitimacy rotation: influence outruns support in the digital information ecosystem
+
+The [UNESCO South Africa digital-creators record](records/comparative-unesco-south-africa-digital-creators-information-legitimacy-online-harm-2026.json) reports a nationwide survey of 48 creators and interviews with 11. Creators increasingly research, interpret, and share information with audiences, but 36% did not systematically verify information before sharing, 34% used likes and views as a key credibility signal, only 10.4% had received Media and Information Literacy training, and 33% consistently disclosed generative-AI use. The study also reports substantial exposure to technology-facilitated gender-based violence, xenophobia, and identity-based hate or harassment.
+
+The cross-source implication is that creator legitimacy is not only an individual competence problem. Platform algorithms, monetisation, commercial partnerships, moderation, audience metrics, AI tools, and online harms shape what is produced, amplified, and trusted. Support therefore has to include creator-focused literacy, peer networks, safety and wellbeing mechanisms, legal and ethical guidance, and meaningful participation in platform governance. The source is small-sample, self-reported research and programme context, not representative audience evidence or causal proof; the next test follows a creator cohort from production through distribution, disclosure, harm, income, remedy, and actual public influence.
+
+## Latest ageing-migrant-life-course rotation: portability becomes later-life infrastructure
+
+The [ILO STREAM ageing migrant record](records/comparative-ilo-ageing-migrant-workers-gulf-social-protection-portability-2026.json) examines long-term Indian migrant families in the UAE whose lives no longer fit a simple temporary-work-and-return model. The paper connects retirement income based on end-of-service benefits, savings, and family support to the loss of employer-linked healthcare, housing and care costs, conditional residency, and the difficulty of carrying protection across origin and destination systems.
+
+The cross-source implication is that migration policy has a delayed life-course afterlife. A worker may be mobile and productive while employed yet become insecure when employment ends if contributions, health coverage, housing, legal residence, and family care do not move together. This adds a migration-to-care and portability subtheme to the atlas. The paper is a focused qualitative and policy synthesis, not representative Gulf-wide prevalence or causal evidence; the next test follows a named corridor from recruitment and payroll through retirement, residence, care, return or settlement, and actual benefit portability.
+
+## Latest child-safety-online rotation: digital childhood becomes shared social infrastructure
+
+The [European Commission Special Panel record](records/comparative-eu-child-safety-online-developmental-social-contract-2026.json) describes online childhood through an age-differentiated model: supervised and age-appropriate use for younger children, evolving autonomy for adolescents, and adult responsibility for safe-by-design services. Its recommendations combine a harmonised EU-wide restriction below age 13, privacy-preserving age assurance, limits on addictive or harmful design features, provider proof of safety, child participation, complaint routes, digital literacy, longitudinal research, and affordable offline spaces such as libraries, youth clubs, arts, and sport.
+
+The cross-source implication is that child safety is becoming a developmental social contract rather than a family-only management problem. Platform design, consumer privacy, household time, education, public enforcement, youth voice, remedy, and community infrastructure now sit in the same chain. The report is an independent co-chair policy synthesis and explicitly not the European Commission’s official position; it does not establish whether age restrictions, age assurance, design rules, or offline alternatives improve outcomes. The next test follows a named platform or jurisdiction from adoption through implementation, user experience, complaint and remedy, youth participation, offline substitution, and measured developmental or social change.
+
+The Snapchat episode now has a concrete policy transition point: the European
+Commission's proposed KIDS Act would prohibit platform access for children under
+13, set 15 as the EU-wide minimum age for opening an account independently,
+and require providers to demonstrate that services are age-appropriate and safe
+by design. This shifts the burden of proof from families navigating platform
+risks toward providers and regulators, but it does not yet establish adopted
+law, implementation, privacy effects, age-assurance accuracy, or improved
+child outcomes. The end-to-end test is now unusually clear: investigation and
+complaint -> rule adoption -> age-assurance experience -> design change ->
+reporting/remedy -> participation or substitution -> developmental and social
+outcomes.
+
+## Latest disability-inclusive-employment rotation: inclusion continues after placement
+
+The [ILO disability employment services record](records/comparative-ilo-disability-employment-services-digital-inclusion-2026.json) frames employment as a pathway through preparation, matching, reasonable accommodation, skills development, retention, and progression. It reports that digital tools are currently more developed for access, job search, skills, and matching than for workplace inclusion, accommodation, retention, and career progression; it also flags accessibility risks and examples of assistive technology, captioning, flexible hours, and accessible onboarding.
+
+The cross-source implication is that disability inclusion is an institutional and infrastructural continuity problem: placement is only an early checkpoint, while dignity and agency depend on whether public employment services and employers sustain accommodation, learning, retention, progression, and remedy. The source is an ILO practice-exchange and implementation synthesis, not causal evidence of employment gains; the next test follows a named person or employer from intake through workplace experience, retention, progression, and remedy.
+
+## Latest productive-resilience rotation: social protection becomes ecological and digital infrastructure
+
+The [World Bank Mozambique PASP record](records/comparative-world-bank-mozambique-pasp-social-protection-climate-autonomy-2026.json) reports more than 300,000 participants across Mozambique, 65% women beneficiaries, and more than 200,000 electronic-money accounts opened through the programme. PASP combines income support, skills, productive grants, community work, mobile payments, and climate-resilience activities such as coastal and riverbank restoration.
+
+The cross-source implication is that household security is increasingly a conversion problem: transfers can become food, housing, productive assets, lower payment-travel costs, and protection against future climate loss when institutions connect them. This also shifts the political meaning of welfare from passive relief toward visible capacity and local agency. The feature story uses programme statistics and selected beneficiary accounts; it does not establish representative treatment effects, active account use, ecological impact, or durable autonomy at population scale. The next test follows a province-level episode through benefit adequacy, work conditions, care time, payment use, assets, climate loss, and post-exit outcomes.
+
+## Latest living-wage-governance rotation: household costs enter supply-chain bargaining
+
+The [ILO living-wage partnership record](records/comparative-ilo-living-wage-public-private-partnerships-2026.json) documents the first three public-private agreements under the ILO Living Wage Programme, with the Responsible Business Alliance, Unilever, and amfori. The agreements aim to align corporate living-wage initiatives with ILO principles, national data, tripartite wage institutions, collective-bargaining autonomy, and company or sector roadmaps. Amfori's reported network covers 2,400 member companies in more than 50 countries.
+
+The cross-source implication is that wage legitimacy is moving from a corporate claim toward a shared data-and-bargaining infrastructure. Living wage is framed around workers' families and the cost of a decent life, but the architecture still leaves distributional questions open: who absorbs higher labour costs, whether purchasing practices change, whether suppliers pass pressure downward, and whether subcontracted and informal workers are covered. The announcement is not wage-outcome evidence; the next test follows a sourcing-country episode from estimate through negotiation, payroll, household room, and remedy.
+
+## Latest whole-system-education rotation: learning legitimacy depends on conversion, not attendance
+
+The [UNICEF Education Strategy record](records/comparative-unicef-education-strategy-2026-learning-system-failures-ai-teachers.json) frames education through learning denied, learning delayed, and learning disrupted. UNICEF targets 350 million children and young people learning and acquiring skills by 2030, while identifying teacher conditions, poverty, gender, disability, migration, climate, conflict, connectivity, electricity, and AI/EdTech design as interlocking system conditions.
+
+The cross-source implication is that education legitimacy is a conversion problem: time in school must become learning, protection, belonging, usable skills, and future agency. Enrollment, technology adoption, and teacher accountability are insufficient when teacher support, household security, crisis continuity, and infrastructure fail. The strategy is a global institutional roadmap, not achieved-outcome evidence; the next test follows a country or crisis episode from financing and teacher conditions through learning, technology use, protection, household burden, and future transition.
+
+## Latest climate-to-work-conversion rotation: resilience investment can create jobs without protecting the same workers
+
+The [World Bank Jobs in a Changing Climate record](records/comparative-world-bank-jobs-changing-climate-93-economies-2026.json) synthesizes 93 Country Climate and Development Reports. It estimates 43 million equivalent job losses by 2050 across 49 analyzed countries, while adaptation investment could generate 25 million equivalent more and better-paid jobs in that set; both figures are accompanied by larger global extrapolations.
+
+The cross-source implication is that climate resilience is a conversion problem rather than a simple jobs multiplier. Aggregate employment can remain stable while sectors, regions, wages, skills, and household costs shift sharply. The transition becomes socially legitimate only when human capital, worker reallocation, firm adaptation, regional services, and protection connect those losing work to the opportunities created by investment. The figures are modelled and extrapolated, not realized worker outcomes; the next test follows a named country or sector from financing through transition, household income, and political response.
+
+## Latest employment-centred-trade rotation: growth becomes accountable through sector choice and worker voice
+
+The [ILO Lebanon METI record](records/comparative-ilo-lebanon-meti-trade-investment-employment-policy-2026.json) documents a project that places employment at the centre of trade and investment policy. A Policy Working Group brings together ministries, employers, workers, and researchers; the project will select an export-oriented sector or value chain, assess its employment potential, and build a sectoral action plan connecting trade, investment, skills, gender, formalization, and job quality.
+
+The cross-source implication is that trade and investment gain legitimacy only when their employment effects are measured and negotiated rather than assumed. Sector selection determines which firms, regions, workers, skills, and forms of labour become visible to policy. The project is a planned mechanism, not outcome evidence; the next test follows the selected value chain from analysis and finance through firm behaviour, worker conditions, household security, and regional political response.
+
+## Latest refugee-livelihood-conversion rotation: self-reliance depends on the infrastructure around the input
+
+The [UNHCR Uganda Q2 livelihoods dashboard record](records/comparative-unhcr-uganda-refugee-livelihoods-resilience-q2-2026.json) reports a pathway from land and productive assets through agricultural training, producer organizations, markets, employer links, business formalization, financial literacy, and documentation. Funding received was $27.8 million against a $153 million requirement; average land access was 0.6 acres per supported household against a stated 1.2-acre self-reliance threshold, with sharp variation across refugee groups.
+
+The cross-source implication is that self-reliance is a conversion gap. Training and inputs do not become autonomy without land, buyers, storage, finance, documentation, legal work access, and household room. The dashboard is operational partner reporting, not causal or representative household evidence; the next test follows a settlement or livelihood group through production, sale, finance, employment retention, consumption, and social relations.
+
+**Latest cultural-politics rotation — 2026-09-29:** the [Pew Muslim-American belonging record](records/us-pew-muslim-americans-discrimination-support-representation-2026.json) shows that interpersonal support can coexist with perceived group-level discrimination and unfair TV/movie portrayal. The cross-source implication is that belonging should be read through everyday recognition, media representation, institutional treatment and accessible voice together; this is survey evidence about reported perceptions and experiences, not verified incident or causal media evidence.
+
+**Latest civic-legitimacy rotation — 2026-09-29:** the [CIRCLE young-independents record](records/us-circle-young-independents-financial-strain-political-efficacy-2026.json) shows that political nonalignment can be a resource and efficacy gap rather than simply an ideological center: financial struggle, low vote efficacy and weak translation from issue concern into participation cluster in the subgroup. The cross-source implication is that democratic engagement depends on material room, visible institutional response and trusted relational information, not persuasion alone; this is cross-sectional survey analysis, not causal turnout evidence.
+
+**Latest consumer-choice rotation — 2026-09-29:** the [Coresight scale-versus-value record](records/comparative-coresight-us-consumer-scale-value-retailer-choice-2026.json) publicly frames income-divergent sentiment and weekly retailer/category shopping as a route through which inflation and geopolitical pressure may become scale, value and convenience tradeoffs. The cross-source implication is that consumer mood should be connected to retailer substitution, basket composition, time, delivery and firm concentration; this is a public preview of a proprietary report, not a full survey extraction.
+
+**Latest travel-culture rotation — 2026-09-29:** the [Hilton 2027 travel-trends record](records/comparative-hilton-travel-trends-2027-flexibility-trust-wellness-microtravel.json) shows a commissioned survey framing travel around “good-ish” flexibility, human trust, wellbeing, personal growth and shorter trips. The cross-source implication is that leisure consumption is also a time-and-meaning institution, with algorithmic planning, status, nature and local cultural connection shaping what travelers seek; this is company-commissioned survey evidence, not independent causal or booking evidence.
+
+**Latest youth-culture rotation — 2026-09-29:** the [Vogue Business youth-luxury record](records/comparative-vogue-youth-luxury-cultural-capital-vintage-anti-algorithm-2026.json) describes cultural capital moving from polished luxury ownership toward vintage, imperfect, ironic and subcultural distinction. The cross-source implication is that status markets increasingly compete for cultural authority before purchase conversion; this is industry journalism and cited forecast synthesis, not representative youth or realized-spending evidence.
+
+**Latest social-institution rotation — 2026-09-29:** the [IFS churchgoing-marriage record](records/comparative-ifs-churchgoing-marriage-shared-values-2026.json) reports higher marital-happiness shares among churchgoing married adults and identifies spouses' agreement on core marriage and faith values as a strong predictor. The cross-source implication is that recurring communal practice can be read as relationship infrastructure through shared time, meaning and social reinforcement; this is an associational public insight with limited methodological detail, not causal attendance evidence.
+
+**Latest consumer-expectations rotation — 2026-09-29:** the [Conference Board September consumer-confidence record](records/us-conference-board-consumer-confidence-september-2026-current-expectations-spending.json) separates present conditions, six-month expectations, inflation/rate expectations and intended purchases. The cross-source implication is that household room is judged across multiple clocks: pessimism can coexist with protected necessities, domestic travel or recurring services while durable and internationally exposed purchases are delayed; this is an online survey of perceptions and intentions, not realized spending or causal geopolitical evidence.
+
+**Latest nonprofit-infrastructure rotation — 2026-09-29:** the [IU Lilly Family School of Philanthropy nonprofit-recognition record](records/us-iu-lilly-nonprofits-philanthropy-recognition-confidence-2026.json) reports that 71.9% of respondents engaged in at least one activity typically provided by nonprofits while only 7.4% identified recent charitable-service use. The cross-source implication is that social infrastructure can be widely consumed as ordinary community life while remaining institutionally invisible, weakening the link between use, funding, accountability and public legitimacy; this is a public-release summary with limited methodological detail, not causal service or trust evidence.
+
+**Latest youth-culture rotation — 2026-09-29:** the [Up and Up Gen Z control/community record](records/comparative-upandup-genz-control-community-anti-algorithm-2026.json) describes young people gravitating toward local, participatory and offline settings where they can shape choices and see consequences, alongside distrust of decisions made by algorithms, firms and distant institutions. The cross-source implication is that “anti-algorithm” culture is better understood as a demand for visible agency and repeat community than as simple platform rejection; this is a small qualitative trend report, not representative prevalence or behavioral evidence.
+
+**Latest place-and-work rotation — 2026-09-29:** the [Pew Philadelphia Gen Z place-retention record](records/us-pew-charitable-philadelphia-genz-place-retention-work-quality-2026.json) describes retention as a compound bargain among job quality, pay, work-life boundaries, benefits, career networks, transit, safety, affordability and place attachment. The cross-source implication is that mobility is also a cultural and infrastructure judgment about whether a city can support a meaningful life; this is a local focus-group report with descriptive Census context, not representative or causal migration evidence.
+
+**Latest meaning-of-work rotation — 2026-09-29:** the [Harvard Making Caring Common Gen Z work-purpose record](records/us-harvard-mcc-genz-meaningful-work-purpose-financial-security-2026.json) reports that helping-oriented work is a strong aspiration but is constrained by pay, financial security and emotional burden. The cross-source implication is that purpose is a labor-market and household-room bargain: care work can be socially valued while economically underprovided; this is self-reported survey evidence with associational and hypothetical measures, not causal wellbeing or job-transition evidence.
+
+**Latest music-culture rotation — 2026-09-29:** the [YouGov music consumption and discovery record](records/us-yougov-music-consumption-discovery-genz-streaming-2026.json) reports that 21% of U.S. adults listen to more music than a year earlier and that Gen Z makes up 45% of increased listeners, while streaming recommendations, social ties, radio/blogs and live performance all remain discovery routes. The cross-source implication is that cultural discovery is a hybrid infrastructure in which algorithmic access coexists with social and live authority; this is rolling survey evidence, not verified streams, spending or artist-income evidence.
+
+**Latest financial-guidance rotation — 2026-09-29:** the [Gallup financial-guidance record](records/us-gallup-financial-guidance-ai-trust-affordability-2026.json) reports that internet research and AI are widely used entry points while professional advisers and human networks retain greater confidence, especially for consequential decisions. The cross-source implication is that AI may expand access to financial explanation without resolving the accountability gap: low-friction guidance, trusted validation, fiduciary responsibility and realized household security remain separate stages; this is descriptive survey evidence, not advice-quality, causal-substitution or financial-outcome evidence.
+
+**Latest rural-political-legitimacy rotation — 2026-09-29:** the [AP–KFF rural-voter record](records/us-ap-kff-rural-voters-cost-healthcare-political-legitimacy-2026.json) reports a gap between durable partisan alignment and weak perceptions of economic delivery, healthcare benefit, policy visibility and respect. The cross-source implication is that material strain becomes political legitimacy only through visible, usable and attributable local provision; this is cross-sectional poll evidence, not causal policy, healthcare-outcome or turnout evidence.
+
+**Latest information-legitimacy rotation — 2026-09-29:** the [Gallup media-trust record](records/us-gallup-media-trust-partisan-rebound-2026.json) reports a five-point rebound in confidence from a record low while two-thirds still express limited or no confidence and party gaps remain wide. The cross-source implication is that information legitimacy is a long-run, identity-filtered infrastructure problem: episodic movement does not equal shared-fact recovery; this is descriptive polling and historical trend evidence, not a content audit, causal source-choice or civic-action estimate.
+
+**Latest household-resilience rotation — 2026-09-29:** the [NerdWallet financial-resilience record](records/us-nerdwallet-financial-resilience-control-buffer-credit-2026.json) separates reported day-to-day control and bill confidence from $1,000 shock capacity, expected credit use and life-stage differences. The cross-source implication is that household room has multiple clocks: successful continuity today can coexist with thin buffers and future compression; this is a self-reported composite survey, not observed borrowing, repayment or welfare evidence.
+
+**Latest public-capacity rotation — 2026-09-29:** the [Partnership for Public Service public-trust record](records/us-pps-public-trust-government-civil-servants-capacity-2026.json) distinguishes distrust of the federal government as an abstraction from more favorable views of civil servants and specific service activities. The cross-source implication is that public legitimacy depends on differentiated encounters, usable capacity and accountability, while partisan attribution can override or reshape those judgments; this is nationally representative perception evidence, not administrative performance or causal service-to-trust evidence.
+
+**Latest health-insurance mobility rotation — 2026-09-29:** the [Gallup job-lock record](records/us-gallup-job-lock-health-insurance-mobility-2026.json) links employer coverage dependence to staying in unwanted jobs, with stronger reported job lock among workers with medical debt, chronic conditions and women. The cross-source implication is that healthcare affordability is also labor-market power and life-course optionality: household security can be preserved through employment while mobility and bargaining room narrow; this is descriptive self-report evidence, not observed transitions or causal coverage effects.
+
+**Latest life-stage care-information rotation — 2026-09-29:** the [Gallup-Pivotal menopause record](records/us-gallup-pivotal-menopause-information-care-work-2026.json) links incomplete treatment knowledge and network-mediated information to provider recognition, care continuity, work effort, promotion, self-care and community participation. The cross-source implication is that health systems shape cultural and economic participation through recognition and navigation, not only through whether a service technically exists; this is retrospective survey evidence, not objective knowledge, clinical outcome or causal career evidence.
+
+**Latest education-legitimacy rotation — 2026-09-29:** the [MCAAD–Gallup American Dream and schools record](records/us-gallup-mcaad-american-dream-schools-opportunity-2026.json) links the high cultural value of quality education to large perceived gaps in K-12 performance and to differences in American-Dream optimism. The cross-source implication is that education operates as both a service and a social-contract signal: perceived institutional capability shapes whether future opportunity feels credible; this is observational public-opinion evidence, not a causal school or mobility estimate.
+
+**Latest regional-interoperability rotation — 2026-09-29:** the [World Bank Africa integration record](records/comparative-world-bank-africa-integration-interoperability-regional-public-goods-2026.json) shows that formal regional agreements become usable commerce only when behind-the-border systems interoperate across customs, standards, transport, payments, energy, finance, data and dispute settlement. The cross-source implication is that regional belonging is experienced through shared interfaces and remedy, not declarations alone; this is analytical and prescriptive evidence, not causal proof.
+
+**Latest preparedness-finance rotation — 2026-09-29:** the [OECD global-health PPR record](records/comparative-oecd-global-health-ppr-financing-aid-dependence-resilience-2026.json) shows that prevention and preparedness are globally shared protections competing for nationally visible budget credit. The cross-source implication is that resilience accounting, domestic ownership and cross-border financing are part of the cultural-political legitimacy of protection; this is a policy and measurement synthesis, not causal proof.
+
+**Latest fiscal-capacity rotation — 2026-09-29:** the [World Bank Philippines Public Finance Review record](records/comparative-world-bank-philippines-public-finance-review-fiscal-capacity-targeting-2026.json) shows that fiscal room is being built through procurement, tax administration, targeting and registry infrastructure as much as through higher spending. The cross-source implication is that efficiency becomes legitimate only when extraction, allocation, access, correction and burden-sharing are visible together; this is a diagnostic and reform-scenario source, not causal proof.
+
+**Latest corridor-resilience rotation — 2026-09-29:** the [World Bank Trans-Caspian Transport Corridor record](records/comparative-world-bank-trans-caspian-corridor-logistics-economic-corridor-2026.json) shows that geopolitical routing choice becomes socially useful only when infrastructure is joined to digital documents, coordinated operators, local economic links and reliable service. The cross-source implication is that strategic resilience is an operational and distributional bargain, not merely an alternative map; this is modelled scenario and diagnostic evidence, not causal proof.
+
+**Latest consumer-confidence rotation — 2026-09-29:** the [ANZ–Roy Morgan Australian consumer-confidence record](records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json) shows that financial pessimism, inflation expectations and purchase timing can move differently. The cross-source implication is that consumer sentiment should be decomposed into present room, future expectations, regional exposure and actual choice rather than treated as a single demand or welfare measure; this is short-period survey evidence, not causal proof.
+
+**Latest macro-household recovery rotation — 2026-09-29:** the [New Zealand Treasury Pre-election Fiscal Update record](records/comparative-new-zealand-treasury-pre-election-fiscal-update-2026-nominal-recovery-household-pressure.json) shows that energy and geopolitical shocks can delay household recovery while inflation-related nominal revenue and fiscal forecasts improve. The cross-source implication is that recovery must be tracked across household room, public-service capacity, real wages, energy costs and fiscal attribution rather than headline balances alone; this is official forecast evidence, not causal proof.
+
+**Latest U.S. distributional rotation — 2026-09-29:** the [CBO household-income distribution record](records/us-cbo-household-income-distribution-2023-transfers-taxes-inequality.json) shows that market income, transfers and taxes generate different household-security and inequality stories. The cross-source implication is that growth and redistribution should be read through actual room, access, adequacy, relative distance and political legitimacy rather than a single income or poverty headline; this is descriptive distributional evidence, not causal proof.
+
+**Latest water-governance rotation — 2026-09-29:** the [OECD/AWC Philippines water-regulation record](records/comparative-oecd-philippines-water-sanitation-regulation-fragmentation-data-2026.json) shows that universal access depends on the service-governance chain linking tariffs, provider accountability, aggregation, data interoperability, climate resilience and household correction. The cross-source implication is that water information is public accountability infrastructure, not merely a technical database; this is policy-assessment evidence, not causal proof.
+
+**Latest social-economy rotation — 2026-09-29:** the [OECD ASEAN inclusive-business record](records/comparative-oecd-asean-inclusive-business-social-enterprise-market-participation-2026.json) shows that social enterprises and inclusive businesses are being built as market institutions for informal workers and underserved customers. The cross-source implication is that “inclusive” must be tested through affordability, worker conditions, supplier bargaining power, governance, finance, impact data and mission continuity after scale; the paper is a regional policy and case synthesis, not causal evidence.
+
+**Latest gendered-market-access rotation — 2026-09-29:** the [World Bank India trade-facilitation record](records/comparative-world-bank-india-women-trade-facilitation-gendered-infrastructure-2026.json) shows that formal digitization and non-discriminatory border rules do not produce equal market access when safety, care time, local-language information, small-firm consultation, finance and trusted remedy remain uneven. The cross-source implication is that infrastructure is also a social and time-use institution; this is descriptive assessment evidence, not causal proof.
+
+**Latest rural-value-chain rotation — 2026-09-29:** the [ILO Timor-Leste vanilla record](records/comparative-ilo-timor-leste-vanilla-value-chain-skills-decent-work-2026.json) shows that a heritage/agroforestry crop becomes a durable livelihood and consumer-facing origin proposition only through a linked chain of skills, infrastructure, cooperative bargaining, certification and finance, domestic processing, quality standards and decent-work safeguards. The cross-source implication is that sustainability meaning can be captured downstream unless producer voice and value addition are built into the market architecture; this roadmap is diagnostic and prescriptive, not causal evidence.
+
+**Latest project-afterlife rotation — 2026-09-29:** the [ILO EIIP formalization record](records/comparative-ilo-eiip-formalization-project-afterlife-public-investment-2026.json) shows that employment-intensive public investment can create a formalization gateway without guaranteeing durable formal work. The brief reports that workers and economic units often remain informal or revert after projects conclude; stronger routes combine worker registration, social protection, skills, cooperative organization, procurement access and monitoring. In an illustrative Philippines programme, more than 1,800 workers and nearly 12,000 households benefited from 15-day employment linked to social-security, health, accident and liability insurance. The cross-source implication is that infrastructure has a labor-market afterlife: the meaningful test is what happens after the project, not only whether jobs and assets were created during it. This is practice guidance and case synthesis, not causal impact evidence.
+
+**Latest self-employed-protection rotation — 2026-09-29:** the [ILO comparative social-insurance record](records/comparative-ilo-self-employed-social-insurance-design-portability-2026.json) shows that reaching self-employed workers requires more than adding them to a legal category. Across selected cases, schemes combine general or special structures, unified tax-and-contribution payments, subsidies, flexible schedules, one-stop shops, and mandatory or voluntary participation. The paper reports that voluntary participation in the cited Mongolia and Thailand cases generally underperformed expectations, while thin benefits can weaken the value of low contributions. The cross-source implication is that social protection is a usability and portability bargain for workers with irregular earnings, changing status, weak representation and no employer cost-sharing. This is selected-case comparative evidence with sparse beneficiary and long-run outcome data, not causal proof.
+
+**Latest climate-work rotation — 2026-09-29:** the [ILO Colombia heat-stress record](records/comparative-ilo-colombia-heat-stress-occupational-mortality-climate-risk-2026.json) adds occupational mortality evidence to the climate and labor route. In 297 municipalities covering 59% of the 2018 population, maximum monthly temperatures between 26°C and 32°C were associated with 0.04 additional deaths per 1,000 workers and temperatures above 32°C with 0.09, relative to below 26°C; agricultural workers, assemblers, health associate professionals and teachers appear especially exposed. General health insurance covered 99% of the population in 2024, but occupational-risk coverage reached 53% of workers. The cross-source implication is that climate adaptation is a workplace and protection bargain involving rest, water, schedules, equipment, risk assessment, worker voice and formal recognition—not only a temperature or healthcare problem. The study is observational, uses dry-air temperature and has geographic and occupational-data limits.
+
+**Latest AI-work-organization rotation — 2026-09-29:** the [ILO Chinese enterprise AI-adoption record](records/comparative-ilo-chinese-enterprise-ai-adoption-hybrid-work-measurement-2026.json) adds evidence that AI adoption is an organizational bargain rather than an automation switch. Across 21 purposively selected enterprises, firms used centralized specialist teams, business-embedded integration, or bottom-up diffusion; reported gains included higher customer-query throughput and shorter recruitment cycles, while most firms lacked systematic measures of job quality, task composition and working conditions. In a survey of 1,591 professionals, 56% saw adoption as inevitable, 47% thought AI creates more jobs than it displaces, and 39% anticipated income declines. The cross-source implication is that transition legitimacy depends on who controls workflow redesign and whether productivity measurement follows time, staffing, income, capability, human oversight and worker voice—not output alone. The brief is descriptive and non-causal, with self-reported firm metrics and purposive sampling.
+
+**Latest construction-formalization rotation — 2026-09-29:** the [ILO Nepal construction informality record](records/comparative-ilo-nepal-construction-informality-formalization-social-protection-2026.json) shows why enterprise registration is not worker formalization. Construction contributes more than 6% of GDP and roughly 14% of employment, yet 98.2% of construction employment was informal in 2023; 78% of workers in formally registered construction enterprises were still informal in 2018. Temporary, daily-paid and subcontracted work makes employer responsibility, contributions, injury protection and benefit continuity hard to carry across sites. The cross-source implication is a new portability subtheme: social protection must follow the worker through changing employers and payment channels, while procurement, skills, gender equity and inspection determine whether sector growth becomes decent work. This is a diagnostic policy brief, not causal evidence that any recommendation works.
+
+**Latest early-childhood-care rotation — 2026-09-29:** the [World Bank Ukraine ECPE record](records/comparative-world-bank-ukraine-early-childhood-preschool-expenditure-institutional-2026.json) adds a route from wartime disruption, demographic decline, and locally uneven fiscal capacity through preschool access, women’s labor-force room, staffing distribution, and recovery capacity. Enrollment fell 31.1% between 2021 and 2024; hromadas with the highest enrollment serve nearly three times as many children as those with the lowest enrollment; per-child spending varies nearly 50-fold; and 64% of hromadas contain both an understaffed and an overstaffed preschool. The next test is whether the 2024 Preschool Law’s flexibility becomes safer and more equitable access through local implementation, adaptive staffing, pooled services, and demand-linked finance; the PEIR does not establish causal effects of the law or wartime disruption.
+
+**Latest digital-consumer-credit rotation — 2026-09-29:** the [World Bank financial-consumer over-indebtedness record](records/comparative-world-bank-financial-consumer-overindebtedness-digital-credit-2026.json) adds a route from income and price pressure through targeted digital credit, interface and product design, repayment stress, collection, informal substitution, and insolvency. The note’s cited Tanzania example reports a nearly 40% default rate for first-time digital microcredit loans, while its broader contribution is the lifecycle response: prevention, distress mitigation, lawful exit, data, supervision, and dispute resolution. The next test is whether country reforms reduce realized borrowing harm and preserve beneficial access; the note is a global policy synthesis, not a harmonized prevalence study or causal evaluation.
+
+**Latest digital-finance-competition rotation — 2026-09-29:** the [World Bank digital-financial-services competition record](records/comparative-world-bank-digital-financial-services-competition-interoperability-2026.json) adds a route from formal account access through interoperability, market contestability, switching, fees, fraud, trust, and active digital use. Across the six case studies, 2024 digital-payment usage among account holders ranged from 80% in Ghana and 77% in Brazil to 48% in India, 54% in Nigeria, and 40% in the Philippines. The next test is whether open rails, data mobility, coordinated competition and consumer supervision change realized usage and consumer power without creating new concentration or single-point-of-failure risks; the paper is a comparative case-study synthesis, not a causal evaluation.
+
+**Latest justice-capacity rotation — 2026-09-29:** the [World Bank Ethiopia JUPITER record](records/comparative-world-bank-ethiopia-justice-delivery-customary-digital-capacity-2026.json) adds a route from institutional throughput through user-facing friction, customary substitution or nonuse, and justice legitimacy. Federal courts cleared more than 95% of cases, yet 67% of surveyed court users identified lengthy processes as discouraging; Oromia customary courts received more than 374,000 cases in 2023/2024, showing that culturally proximate pathways are substantial access infrastructure. The next test is whether digitalization, legal aid, statutory-customary linkages, and capacity reform improve fair resolution and trust rather than internal throughput alone; the assessment is not causal.
+
+**Latest skills-governance rotation — 2026-09-29:** the [ILO next-generation Sector Skills Bodies record](records/comparative-ilo-next-generation-sector-skills-bodies-2026.json) adds a route from AI, climate, demographic, and business-model change through institutionalized worker/employer voice, labor-market intelligence, training and enterprise adaptation, and transition security. The guide’s six shifts move SSBs from narrow advisory bodies toward agile, integrated, hybrid-funded, data-driven sector institutions; the next test is whether they improve job quality, mobility, skills use, and Just Transition outcomes without employer capture. The guide is comparative practical guidance, not causal evidence.
+
+**Latest social-protection-composition rotation — 2026-09-29:** the [ILO Ethiopia social-protection coverage record](records/comparative-ilo-ethiopia-social-protection-coverage-cash-kind-health-gender-2026.json) adds a route from programme expansion through benefit composition, household room, life-course and gender gaps, local delivery, and data governance. CBHI reaches about 40.7% of the population and school feeding 7.6 million children, while only 5.8% receive cash social protection; older-women pension coverage is 1.8% and severe-disability benefit coverage 0.3%. The next test is whether cash protection and integrated registries improve realized resilience without displacing useful in-kind services; this is a fact-finding baseline, not a causal evaluation.
+
+**Latest migrant-rights-lifecycle rotation — 2026-09-29:** the [ILO migrant-workers-rights record](records/comparative-ilo-migrant-workers-rights-lifecycle-recruitment-social-protection-2026.json) adds a route from recruitment and migration status through workplace and residence conditions, social-protection portability, family room, enforcement, return, and reintegration. The guide’s contribution is continuity across stages—information and fees before departure, equality and safety at work, benefits and housing during residence, and cross-border remedy after harm—rather than a new prevalence estimate. The next test is whether rights pathways reduce recruitment debt, improve safety and portability, and create effective worker voice without status-based exclusion; the guide is normative, not causal.
+
+**Latest social-protection implementation rotation — 2026-09-29:** the [ILO Global Flagship Programme record](records/comparative-ilo-social-protection-floors-institutional-change-effective-access-2026.json) adds a route from policy commitment through legal entitlement, registration and administration, benefit delivery, and realized household protection. The programme reports 84.19 million people affected, including 31.51 million gaining legal coverage and 23.81 million gaining effective coverage; institutional results reached 180 against an ambition of 80. The next test is whether country reforms sustain domestic financing, delivery, adequacy, inclusion, and crisis responsiveness after external support changes; this is a programme retrospective, not a causal evaluation.
+
+## Latest policy-to-price rotation: tax relief can fail to become household relief
+
+The [World Bank Papua New Guinea food-tax record](records/comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026.json) adds quasi-experimental evidence that food-tax relief passed through in formal urban supermarkets but not informal or rural stores where poorer households mainly shop. Only 16% of foregone revenue accrued to the poorest two quintiles, while the richest two quintiles and stores or wholesalers each captured almost 40%; a 237-expert prediction survey did not anticipate the regressivity. The cross-source implication is that cost-of-living policy must be traced from tax code to retailer price to household channel: visible relief can be fiscally expensive yet socially weak when informality and market segmentation interrupt pass-through. The PNG study and static cash-transfer comparison do not establish a universal policy ranking.
+
+## Latest justice-capacity rotation: matching scarce public capacity is an access-and-legitimacy decision
+
+The [World Bank Kenya SMaRT mediator-assignment record](records/comparative-world-bank-kenya-smart-mediator-assignment-justice-capacity-2026.json) adds a computational and retrospective route from incoming mediation cases through eligibility, mediator capacity and estimated quality, case resolution, delay, workload, and institutional contestability. The cross-source implication is that public-sector automation increasingly concerns allocation, not only prediction or paperwork: the rule that assigns scarce time and attention can redistribute access to justice. The paper reports that SMaRT outperforms baselines in stylized and Kenyan-data applications and plans an RCT, but it does not yet establish causal live-court outcomes, equal justice, satisfaction, or legitimacy.
+
+## Latest crisis-protection rotation: safety nets need credible scale-up and scale-down capacity
+
+The [World Bank energy-crisis social-protection record](records/comparative-world-bank-energy-crisis-social-protection-scalability-2026.json) adds a global policy-tracking route from energy shocks through uncertainty, instrument choice, delivery readiness, household room, political attribution, and exit. The paper records 256 planned or implemented responses across 104 countries, with subsidies nearly half of current responses and more than three times the share of cash transfers from 2022–2026. The cross-source implication is that crisis protection is a capability problem: governments need delivery infrastructure, financing, triggers, communication, and a credible withdrawal path. The review is descriptive and does not establish household receipt, welfare, or causal legitimacy effects.
+
+## Latest geopolitical-investment rotation: global shocks scar the investment pipeline unevenly
+
+The [World Bank global-growth-shocks FDI-scarring record](records/comparative-world-bank-global-growth-shocks-fdi-scarring-geopolitical-positioning-2026.json) adds a route from adverse global growth shocks through investor uncertainty, project announcements, country safety, strategic sectors, geopolitical positioning, and future local opportunity. The paper estimates scarring in FDI announcements for about three years, with more subdued effects in safer countries and buffered fluctuations in strategic sectors. The cross-source implication is that geopolitical fragmentation can be experienced as a quieter future of fewer expected projects and narrower bargaining options before realized jobs or capital visibly fall; announcements remain an early-warning measure, not realized welfare.
+
+## Latest housing-resilience rotation: climate adaptation becomes a household and fiscal-capacity problem
+
+The [World Bank housing-hazard-resilience record](records/comparative-world-bank-housing-hazard-resilience-costs-2100-2026.json) adds a long-horizon route from demographic and household change through housing demand, construction standards, hazard exposure, resilient-cost tradeoffs, household wealth, displacement, and public fiscal obligations. The study projects 4.1–4.5 billion housing units globally by 2100 and identifies 46 countries facing a triple burden of high demand, severe hazard exposure, and limited fiscal capacity. These are scenario projections, not realized affordability or adaptation outcomes.
+
+## Latest education-gender rotation: schooling parity does not guarantee equal capability
+
+The [World Bank Sub-Saharan Africa education-convergence record](records/comparative-world-bank-ssa-gender-education-convergence-learning-rural-inequality-2026.json) adds cross-cohort evidence from roughly 736,000 people across 35 countries: female attainment gaps narrowed sharply, and females exceed males in secondary attendance and years of education in a majority of countries among cohorts born after 1999. Yet learning gaps move inconsistently, some convergence reflects boys' stagnation, and wider attainment gaps persist among rural, poorer, and Muslim populations. The cross-source implication is that attendance parity is an incomplete capability signal; the next conversion stages are learning, work, earnings, health, household bargaining, and voice.
+
+## Latest regional-integration rotation: formal openness becomes usable through enforceability and mobility
+
+The [World Bank AfCFTA deep-integration record](records/comparative-world-bank-afcfta-deep-integration-legal-enforceability-mobility-2026.json) adds a route from agreement depth through legal enforceability, trade-defense discipline, visa mobility, firm entry, worker movement, services, and consumer choice. AfCFTA is classified as medium in the baseline; a deep-integration counterfactual produces an estimated average GDP gain of about 0.7% for the African economies in the sample. The cross-source implication is that regional integration is experienced through rules, movement, and remedy rather than tariff language alone; the estimate remains model-based and does not establish realized jobs, wages, prices, or equal welfare.
+
+## Latest public-sector reform rotation: reform models diffuse faster than institutional capacity can sustain them
+
+The [World Bank Africa public-sector reform record](records/comparative-world-bank-africa-public-sector-reform-implementation-npm-capacity-2026.json) adds project-review and case-study evidence that more than one-third of reviewed World Bank-financed public-sector reform projects included New Public Management interventions, but only 40% of interventions were fully implemented. Performance-based public financial management performed comparatively better than agencification and performance-based pay. The cross-source implication is that reform adoption is not state capacity: implementation resources, authority, coalitions, institutional fit, and durability determine whether citizens experience better service, feedback, correction, and trust.
+
+## Latest growth-and-jobs rotation: economic growth is becoming a weaker promise of work
+
+The [World Bank Bangladesh employment-elasticity record](records/comparative-world-bank-bangladesh-growth-employment-elasticity-sector-shift-2026.json) adds macro-labor evidence that Bangladesh has weaker support for a conventional growth–employment relationship than six Asian comparison countries. Agriculture’s employment elasticity rises from 0.29 to 0.98 across the compared periods, while industry falls from 0.84 to -0.04; accommodation/food and transportation/storage show the strongest subsector responses, while manufacturing turns negative. The cross-source implication is that growth must be traced through sector, job quality, wages, hours, formality, migration, and household room rather than treated as employment or welfare.
+
+## Latest household-nutrition rotation: salience can change feeding habits, but cannot manufacture food access
+
+The [World Bank Bihar food-accounting record](records/comparative-world-bank-bihar-food-accounting-salience-dietary-diversity-2026.json) adds randomized evidence that a wall-mounted food journal increased caregiver attention, habit formation, and the likelihood of minimum dietary diversity among children, while not changing food quantity or mid-upper arm circumference. The cross-source implication is a salience-within-constraint mechanism: behavior tools can complement frontline care and nutrition programs, but food availability, household income, implementation relationships, and time limit what attention can convert into health. The study is a Bihar cluster RCT with short follow-up and does not establish long-run nutrition or food-security effects.
+
+## Latest AI-institutionalization rotation: government use is broad, but organizational scaffolding is shallow
+
+The [World Bank 60-economy government-AI record](records/comparative-world-bank-government-ai-adoption-institutional-readiness-60-economies-2026.json) adds survey evidence that government AI use is broad but shallow and uneven: 44% of internal use is reported as individual public servants using AI for ad hoc tasks, while many governments provide generative-AI access before formal guidelines. The cross-source implication is that AI adoption can become a shadow workflow before it becomes accountable public infrastructure; data, skills, budgets, organizational capacity, privacy, ethics, and remedy need to be treated as complementary conditions. The survey does not audit systems or establish citizen outcomes.
+
+## Latest agency-measurement rotation: voice is culturally situated and cannot be safely inferred from one universal scale
+
+The [World Bank Tunisia women's-agency record](records/comparative-world-bank-tunisia-womens-agency-context-specific-ai-measurement-2026.json) adds mixed-methods evidence that questions performing well in India and Tunisia overlap minimally, and that rural and urban Tunisian contexts can require different agency measures. Machine learning performed well against a qualitative benchmark, while current generative-AI approaches did not and did not reduce the work of validation. The cross-source implication is that measurement is part of institutional voice: a context-blind score can make populations look comparable while erasing how goals, constraints, and action are locally expressed. The study concerns instrument performance, not population agency prevalence or causal empowerment.
+
+## Latest labor-market participation rotation: application inactivity can be an initiation-cost problem
+
+The [World Bank Pakistan job-search record](records/comparative-world-bank-pakistan-job-search-initiation-friction-2026.json) adds randomized evidence that changing the default process for initiating applications increased applications by 600%, with a pattern consistent with psychological costs of starting the search. The cross-source implication is that observed inactivity can reflect system friction rather than low motivation: defaults determine whose latent interest becomes visible. Applications are not employment, however; the paper does not establish effects on interviews, offers, wages, job quality, retention, or employer welfare.
+
+## Latest small-firm market-access rotation: the first buyer can matter more than another training module
+
+The [World Bank Georgia digital-market record](records/comparative-world-bank-georgia-digital-market-access-demand-incentive-2026.json) adds randomized evidence that supply-side training did not increase digital participation, while a conditional purchase order increased market access by 26 percentage points; a payment six times larger produced only a modest additional increase. The cross-source implication is that digital inclusion is partly a demand and coordination problem: a credible buyer, first transaction, and organizational routine can make a platform usable, but the effect largely dissipated as control firms caught up and persisted more among firms already ready for e-commerce. The study is specific to the Georgian experiments and does not establish durable profits, employment, productivity, firm survival, or consumer welfare.
+
+## Latest digital-fiscal rotation: digital reach becomes a condition of fiscal capacity and social protection
+
+The [IMF Middle East and Central Asia digitalization record](records/comparative-imf-me-central-asia-digitalization-revenue-social-assistance-2026.json) adds a route from digital identity, connectivity, financial inclusion, interoperable social registries, tax e-services, and digital payments through revenue capacity, targeting, poverty and inequality reduction, household access, privacy, and trust. The cross-source implication is that digital readiness is becoming a distributional institution: a system can improve fiscal reach and reduce leakage while excluding people without accounts, connectivity, usable documentation, or correction and appeal routes. The IMF note combines comparative indicators, cases, and associations; it does not establish a uniform causal welfare effect or show who is actually reached in each country.
+
+## Latest geopolitical-cultural rotation: election salience fuses security, identity and social repair
+
+The [JPPI September 2026 Israeli Society Index record](records/comparative-jppi-israel-society-index-september-2026-election-security-social-cohesion.json) adds a geopolitical-cultural legitimacy layer. Eight in ten respondents describe the coming election as the most important or especially important; security leads decisive issues at 31%, followed by government–judiciary relations and unity. Yet 52% describe the past year as poor socially, while 30% do so economically and 37% in security. Security and territorial preferences, antisemitism attribution and education judgments divide sharply by Jewish/Arab identity, ideology and religiosity. The cross-source implication is that geopolitical legitimacy is a bundle of security, authority, unity, identity, social repair and education—not one national mood. The mixed survey frames and public summary do not establish objective conditions, turnout, policy delivery, conflict outcomes or causal polarization.
+
+## Latest household-shortage rotation: availability becomes a search and spending tax
+
+The [ONS Great Britain shortages record](records/comparative-ons-great-britain-shortages-august-2026-substitution-availability.json) adds a concrete household-material layer. In the 5–30 August 2026 window, 45% of responding adults said they had to spend more than usual to obtain usual purchases, 23% saw less variety, 18% visited more shops and 5% shopped online. Thirty-seven percent said they were buying less. Eleven percent reported essential food items unavailable or inaccessible, 17% reported this for other food, 4% for medicine and 3% for fuel. The cross-source implication is that continued shopping can conceal different household costs: money, search time, substitution, reduced quantity and unmet availability. ONS notes a May 2026 wording change for the availability item, so historical comparisons require caution.
+
+## Latest supply-chain power rotation: formal compliance can coexist with thin supplier room
+
+The [UK Groceries Code Adjudicator supplier-survey record](records/comparative-uk-gca-supplier-retailer-code-2026-power-payment-forecasting.json) adds a firm-sector contestability layer. Average perceived compliance across the 14 designated retailers remained 92%, and more than half of suppliers reported no issue, but the share reporting a Code issue rose from 30% to 32%. Invoice-discrepancy resolution, inaccurate forecasting, de-listing without reasonable notice and payment delays were each reported as supplier problems. The cross-source implication is that supply-chain power is experienced through timing, information and practical exit, not only through formal code compliance. The release does not establish monetary loss, remedy, consumer-price effects or causal retailer power.
+
+## Latest care-and-labour rotation: care converts infrastructure into unequal time
+
+The [Statistics South Africa Gender Series XIII record](records/comparative-stats-sa-gender-care-work-2026-time-infrastructure-labor.json) adds a gendered care-conversion layer. The official summary reports a rise in the 65+ population share from 5.9% in 2015 to 7.3% in 2026, female-headed households rising from 41.3% to 42.6% between 2015 and 2025, and 8.4% of girls aged 7–18 who were not attending an educational institution citing family commitments, compared with 0% of boys in the reported comparison. Women dominated several paid-care occupations, while female-headed households were less likely to spend under 30 minutes fetching water. The cross-source implication is that care infrastructure changes the time and labour-market option set, but formal access does not settle who supplies remaining care or who absorbs its educational and employment cost. The report uses proxy indicators because recent time-use data are unavailable; it does not estimate unpaid-care hours or causal effects.
+
+## Latest public-safety rotation: security is partly privately supplied
+
+The [Statistics South Africa GPSJS 2025/26 record](records/comparative-stats-sa-gpsjs-2025-26-crime-reporting-safety-self-protection.json) adds a public-safety conversion layer. Housebreaking affected 5.3% of households and home robbery 0.9%, but only 48.2% and 51.6% of affected households respectively reported some or all incidents to police. Personal-property theft affected 2.6% of people aged 16 and older, with 37.3% reporting; only 37.9% felt safe walking alone after dark, and 46.6% reported taking some protective action, up from 43.3% in 2024/25. The cross-source implication is that exposure, reporting, perceived safety and self-protection are different stages: households may privately absorb the time, movement, spending and avoidance costs of security while formal remedy remains partial. The one-page release does not establish reporting causes, police effectiveness, protective costs or causal safety change.
+
+## Latest comparative consumer-legitimacy rotation: routine spending persists while political-economic confidence fractures
+
+The [Ipsos Thailand September 2026 record](records/comparative-ipsos-thailand-consumer-sentiment-september-2026-corruption-safety-spending.json) adds a non-Western consumer-legitimacy layer. Corruption is the leading concern at 52%, crime and violence rises to 34%, unemployment reaches 30%, 52% say the country is heading in the wrong direction, and 61% describe the economy as bad. Yet 64% feel more comfortable making everyday purchases than six months earlier, versus 50% for major purchases. The cross-source implication is that routine consumption can persist through necessity, substitution or short-horizon adaptation while public legitimacy deteriorates. The public country analysis does not establish objective conditions, realized purchases, subsidy incidence, or causal trust effects.
+
+## Latest care-and-energy rotation: targeted warmth joins material relief, information reach and social recognition
+
+The [Small Acts of Kindness/Ipsos older-people record](records/comparative-ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026.json) adds a support-encounter layer. Among 618 nominated gift-bag recipients, four in five reported negative cost-of-living and energy-cost effects; 74% said heating was affected, 68% food purchases were affected, and 64% reported some isolation. The printed information pack was useful to 88%, while 95% said printed organizational information was important and open-ended responses often described being cheered or cared for. The cross-source implication is that small targeted interventions operate across warmth, information and recognition, but recipient gratitude and usefulness do not prove reduced bills, improved food security, better health, or durable loneliness reduction. The opt-in recipient feedback is not population prevalence or causal evaluation.
+
+## Latest cultural-institution rotation: club heritage turns place-based attachment into fan voice
+
+The [Ipsos–Independent Football Regulator club-heritage record](records/comparative-ipsos-independent-football-regulator-club-heritage-fan-voice-2026.json) adds a cultural-institution layer. Among 1,904 supporters of men's clubs in England and Wales's top five divisions, 32% would feel high distress if their club were dissolved, 56% would consider at least one response, and club history, stadium location, matchday traditions, community presence, fan engagement and team name rank as personally important. The cross-source implication is that a club can function as local identity and social infrastructure, with institutional threat converting symbolic attachment into prospective organized voice. The hypothetical survey does not establish actual mobilization, club survival, regulator effectiveness, or policy influence.
+
+## Latest household-expectations rotation: aggregate stability conceals an income-positioned credit map
+
+The [ECB Consumer Expectations Survey August 2026 record](records/comparative-ecb-consumer-expectations-august-2026-income-credit-asymmetry.json) adds a distributional expectations layer. Across the approximately 19,000-adult, 11-country monthly survey, expected nominal income growth was 1.0% and expected spending growth 3.6%, while lower-income respondents reported higher inflation and unemployment expectations and expected mortgage rates of 5.7% versus 4.4% among the top income quintile. The cross-source implication is that aggregate consumer stability can coexist with sharply unequal anticipation of prices, job risk, housing cost, and credit access. These are expectations and perceived conditions, not realized spending, borrowing, employment, or causal household outcomes.
+
+## Latest cultural-AI rotation: adoption is broad, but authority remains relational and domain-specific
+
+The [NPR/Ipsos Religion and AI record](records/us-npr-ipsos-ai-spiritual-guidance-relational-authority-2026.json) adds a cultural-meaning layer. Sixty-one percent of U.S. adults report using AI, but among AI users only 11% have used it for spiritual or religious guidance, while 69% say they would never seek such guidance from AI. For difficult personal topics, family and friends remain more trusted than AI, even though AI's availability, information access, and low fear of judgment create a practical opening. The cross-source implication is selective delegation: AI can absorb instrumental tasks without acquiring authority over conscience, identity, or emotionally consequential judgment. The source is a probability-sample attitude survey, not observed substitution or wellbeing evidence.
+
+## Latest financial-capacity rotation: measured security can improve while felt insecurity worsens
+
+The [Equifax Q2 2026 Market Pulse record](records/us-equifax-market-pulse-q2-2026-sentiment-assets-k-shaped-financial-capacity.json) adds a balance-sheet layer. The index rose from 60.9 to 61.3 while University of Michigan sentiment fell to 49.5 and late payments improved; assets, rather than income or credit score alone, were described as the clearest dividing line between Thrivers, the Middle, and Strivers. The cross-source implication is that consumer insecurity cannot be inferred from sentiment or credit behavior alone: asset buffers create different option sets, and aggregate stabilization can conceal unequal exposure. The release is proprietary aggregate analysis, not causal household evidence.
+
+## Latest cultural-belonging rotation: cultural visibility does not guarantee recognition or safety
+
+The [STAATUS Index 2026 record](records/us-taaf-staatus-aapi-belonging-recognition-safety-2026.json) adds an AAPI cultural-politics layer. Cultural influence is visible in food, digital culture, entertainment, and fashion, yet only 7% of U.S. adults say AAPI communities have a great deal of influence overall and 49% say they have little or none. That recognition gap coexists with contested definitions of Americanness, geopolitical threat framing, race-based harassment, and reported unsafety on public transit and online. The cross-source implication is that consumption and visibility can coexist with weak collective credit and unequal protection; education, media, local business, and cultural programming remain proposed bridges rather than demonstrated remedies.
+
+## Latest care-and-career-pipeline rotation: near-parity at entry can become senior attrition
+
+The [UK Women in Research Charter record](records/uk-women-in-research-charter-career-pipeline-2026.json) adds an institutional-career layer. Women are near parity in STEM entry, science-related undergraduate study, and junior/mid-level research but fall to 31% of professors; the charter links the narrowing to caring responsibilities, short contracts, long-hours and mobility norms, biased productivity measures, and an enactment gap between formal flexibility and usable flexibility. The cross-source implication is that care is not only a household or welfare variable: institutions convert time, leave, and dependency support into promotion and status outcomes. The charter's voluntary commitments create a measurement route, not evidence of implementation or causal effect.
+
+## Latest reproductive-politics rotation: public autonomy is broader than unconditional access
+
+The [Afrobarometer East Africa reproductive-autonomy record](records/comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026.json) adds a cultural-legitimacy layer. Across seven countries, support for women’s marriage and childbearing autonomy and sexuality education is broad, while support narrows for age-neutral contraception and abortion outside specified circumstances. The cross-source implication is that formal principle, public legitimacy, institutional delivery, and usable reproductive agency are separate stages; high support for autonomy does not prove safe, affordable, confidential access.
+
+## Latest care-legitimacy rotation: support for public responsibility coexists with weak system knowledge
+
+The [Health Foundation social-care and NHS record](records/comparative-health-foundation-social-care-nhs-attitudes-2026-legitimacy-funding.json) adds a care-system legitimacy layer. Public pessimism about social-care standards, preference for state or non-profit provision, misconceptions about funding, weak financial preparation, and unresolved tax/provider trade-offs coexist with durable support for universal NHS principles. The cross-source implication is that public consent depends on both service performance and a usable map of who pays, who provides, and what households can expect; perceptions are not equivalent to care quality or reform feasibility.
+
+## Latest geopolitical-cultural rotation: African publics seek integration without surrendering agency
+
+The [Afrobarometer African Insights 2026 record](records/comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate.json) adds a 38-country public-agency layer. Support for trade, free movement, multi-partner relations, greater African voice, and climate action coexists with weak awareness of continental institutions, difficult border crossing, labor-competition concerns, neutrality preferences, and household-cost limits. The cross-source implication is that openness is conditional on visible benefit, fair exposure, and decision-making power; stated attitudes are not realized integration or geopolitical leverage.
+
+## Latest justice-capacity rotation: formal rights depend on resource geography and adjacent services
+
+The [IFS Resources and the justice system record](records/comparative-ifs-resources-justice-system-2026-capacity-access-legitimacy.json) adds a public-capacity layer. Tribunal delays, civil legal-aid contraction, court and police infrastructure, management, provider viability, and prevention services shape whether a formal right becomes reachable remedy. The cross-source implication is that justice performance cannot be read from headline spending or completed cases alone: lower observed use may reflect lower access, and pressure can be exported across welfare, housing, youth, early-years, police, courts, and prisons. The report synthesizes multiple studies and preserves their different causal boundaries.
+
+## Latest digital-life rotation: screen time becomes a negotiated household and platform-governance problem
+
+The [EU Flash Eurobarometer 579 record](records/comparative-eu-flash-eurobarometer-579-screen-time-youth-mental-health-2026.json) adds a paired adolescent/parent layer. Across all 27 Member States, adolescents reported more screen time than parents estimated, earlier social-media entry was associated with higher weekend use, and distress, harmful-content exposure, support demand, and restriction preferences coexisted. The cross-source implication is that digital time is not only an individual quantity: it is shaped by platform design, household visibility, offline opportunity, content exposure, and access to support. The survey is descriptive and cross-sectional, not a clinical or causal evaluation.
+
+## Latest institutional-transition rotation: pathway parity can fail at the household budget
+
+The [SSAC post-16 benefit cliff-edge record](records/uk-ssac-post16-benefit-cliff-edge-2026.json) adds an institutional-incentive layer. The report shows how benefit rules, information gaps, transition delays, and weak tracking can make officially equal academic, technical, and apprenticeship routes financially unequal. The cross-source implication is that “choice” is mediated by household room and administrative visibility: a pathway can be formally available yet practically unaffordable, especially for disabled young people, carers, care leavers, and estranged young people. The report uses worked scenarios and mixed-methods evidence; it does not estimate prevalence or prove a population-level causal effect.
+
+## Latest youth-service rotation: trusted access requires partnership and measurement infrastructure
+
+The [Young Futures Hubs interim evaluation record](records/comparative-uk-young-futures-hubs-interim-evaluation-2026-implementation-data.json) adds an implementation-capacity layer. Eight early-adopter hubs were beginning to connect open-access youth work, targeted and specialist support through trusted spaces and warm handovers, but partnership time, co-design authority, referral pathways, sustainable funding, consent, identifiers, and common measures constrained what could be learned. The cross-source implication is that reach and attendance are not durable outcome; service connection and evaluation infrastructure are part of the intervention. This is an interim process and feasibility evaluation, not a causal impact study.
+
+## Latest food-information rotation: consumer confidence can rise while source credibility remains fragile
+
+The [EIT Food Trust Report 2026 record](records/comparative-eit-food-trust-report-2026-consumer-information-confidence.json) adds a European food-information layer. Across 18 countries, confidence in making good food choices rose from 60% in 2024 to 66% in 2025, yet fewer than half considered food information reliable and 53% said they knew where to find trusted sources. The cross-source implication is that food literacy requires source navigation, transparency, validation, and usable information—not simply more claims. The report is self-reported consumer-observatory evidence, not an objective accuracy test or causal intervention evaluation.
+
+## Latest health-information rotation: practical judgment is an unequal care-capacity resource
+
+The [LSHTM health-misinformation record](records/comparative-lshtm-health-misinformation-uk-2026-practical-judgment-trust.json) adds a health-specific information-to-capacity route. Confidence in judging health claims varies sharply by income and education; social media is the dominant reported exposure route; young adults report more regretted decisions and known harms; and the public prioritizes education, penalties for profiteering, and platform warning labels. The cross-source implication is that trustworthy information must be reachable before harm and connected to clinicians, public services, and correction routes. This is an online-panel survey with self-reported exposure and harm, not verified clinical or causal evidence.
+
+## Latest consumer-recourse rotation: affordability can expand exposure while remedy remains conditional
+
+The [UK IPO Counterfeit Goods Wave 5 record](records/comparative-uk-ipo-counterfeit-goods-wave5-2026.json) adds a consumer-authenticity layer. Price and perceived comparable quality sustain counterfeit purchasing, marketplace and social-media routes increase exposure, younger adults report more unintentional purchases, and negative consequences are common among affected purchasers while reporting remains low and often depends on the possibility of financial recovery. The cross-source implication is that consumer agency requires verification, payment protection, reporting, refund, and safety routes—not only disclosure or enforcement messaging. The source is self-reported mixed-method evidence, not a market-size or causal estimate.
+
+## Latest youth-civic rotation: formal voice requires information and readiness infrastructure
+
+The [UK Votes at 16 research record](records/comparative-uk-votes-at-16-youth-political-socialization-2026.json) adds a youth political-socialization layer. Young people distinguish relatively robust trust in elections from low trust in politicians, encounter politics through family, television, and algorithmic feeds, want more school preparation, and see earlier voting as a possible route to being heard while remaining uncertain about readiness and external influence. The cross-source implication is that formal voice is usable only when registration, civic knowledge, media judgment, identity access, and representative responsiveness travel with it. This is a mixed-method baseline, not a turnout or causal evaluation.
+
+## Latest beyond-GDP rotation: headline progress does not guarantee lived capacity
+
+The [ONS September 2026 national well-being record](records/comparative-ons-beyond-gdp-national-wellbeing-september-2026-lived-capacity.json) adds an official beyond-GDP measurement layer. GDP per head and low-carbon energy improved, while mean life satisfaction remained below its pre-pandemic level, good health remained weaker than five years earlier, youth NEET remained elevated, and government trust stayed low. The cross-source implication is that progress must be tested through usable health, opportunity, local belonging, and institutional voice rather than aggregate output alone. The bulletin combines different samples, periods, geographies, and measures; it is not causal evidence.
+
+## Latest consumer-room rotation: precautionary saving does not equal comfortable consumption room
+
+The [INSEE France September consumer-confidence record](records/comparative-insee-france-consumer-confidence-savings-climate-september-2026.json) adds a monthly consumer-expectations layer. Confidence remains below its long-term average, major-purchase intentions remain weak, and saving intentions remain elevated while perceived price increases accelerate. The cross-source implication is that saving sentiment can represent caution, unmet security demand or unequal balance-sheet protection rather than broad household abundance. This is a repeated cross-sectional opinion survey with synthetic indexes, not realized spending or saving.
+
+## Latest mobility-capacity rotation: labor mobility is neither frictionless nor directly observed between censuses
+
+The [Statistics Canada interprovincial labour-mobility record](records/comparative-statcan-interprovincial-labour-mobility-estimates-2026.json) adds an institutional and measurement layer to regional inequality. Only about 1%–2% of working-age people move between provinces annually; licensing and recognition barriers remain, while experimental occupation-level predictions can diverge substantially from observed rates. The cross-source implication is that mobility policy must connect legal recognition, housing, care, worker voice and reliable measurement to realized movement rather than treating predicted mobility as outcome evidence.
+
+## Latest cultural-consumer rotation: physical arts participation falls without digital replacement
+
+The [England Community and Engagement Survey arts record](records/comparative-uk-community-engagement-arts-2025-26-physical-digital-deprivation.json) adds official cultural-participation evidence: overall arts engagement fell to 84%, physical engagement to 83%, digital engagement remained near 36%, and deprivation and local-authority gaps were large. The cross-source implication is that cultural access is a household-room and place system, not only a preference system. The report explicitly warns that the decline may partly reflect survey-method changes, so the apparent withdrawal remains an open measurement question.
+
+## Latest migration-and-work rotation: certification does not complete labor-market integration
+
+The [Statistics Canada childhood-immigrant journeyperson record](records/comparative-statcan-childhood-immigrant-journeyperson-earnings-2026.json) adds a longitudinal administrative-data layer. Childhood immigrants remained below Canadian-born journeypersons in earnings before, at and after certification, while trade composition, union and pension coverage, regional mobility, sex and post-certification progression altered the pattern. The cross-source implication is that integration must be followed through occupational sorting, bargaining institutions, household room and mobility—not inferred from schooling, certification or employment alone. This is observational linked administrative data, not a causal policy estimate or complete measure of belonging.
+
+## Latest care-infrastructure rotation: nominal affordability does not guarantee usable child care
+
+The [Statistics Canada home-based child-care record](records/comparative-statcan-home-child-care-capacity-flexibility-2026.json) adds a provider-side care-capacity layer. Nearly four in five home-based services were at maximum capacity in April 2024, waitlists were common, nonstandard hours were rare, and disability accommodations differed sharply by licensing status. The cross-source implication is that fee policy must be joined to capacity, schedule, accessibility, provider capability, and institutional monitoring before it can become released household time or employment continuity. This is a nationally representative provider survey and descriptive snapshot, not a parent-level unmet-demand or causal reform estimate.
+
+## Latest comparative consumer rotation: confidence rebounds before present household room does
+
+The [Bank of Korea September consumer-survey record](records/comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations.json) adds a recurring non-U.S. consumer-expectations layer. The composite sentiment index rose 2.1 points to 106.6, but current living-standards assessment was unchanged while prospective household income rose two points and prospective spending one point. Past-year inflation perception was 3.0%; one-, three-, and five-year expected inflation were 2.7%, 2.6%, and 2.6%, while housing-price outlook remained high and the interest-rate outlook strengthened. The cross-source implication is that confidence about direction can coexist with flat present room and persistent housing/financial-cost exposure. This is a monthly repeated cross-section and expectation index, not realized spending, affordability, debt stress, housing mobility, or causal policy evidence.
+
+## Latest comparative consumer-infrastructure rotation: payment choice becomes a liquidity and trust system
+
+The [Stitch South Africa consumer-payments record](records/comparative-stitch-south-africa-consumer-payments-2026-digital-wallets-bnpl-agentic-commerce.json) adds a non-U.S. commerce-interface layer. In the publisher's digitally active sample, 93.3% tried a new payment method, while wallet speed, BNPL, payday timing, international low-cost platforms, and checkout failure made payment architecture part of household room and consumer optionality. The report also places AI product research ahead of an unresolved agentic-commerce middle: discovery can move into AI interfaces before authentication, fraud controls, APIs, returns, and liability are interoperable. This is sponsor-produced commercial intelligence with mixed survey and platform denominators, not national prevalence, repayment, market-share, or causal welfare evidence.
+
+## Latest comparative political-ecology rotation: nature attachment is broader than climate-policy identity
+
+The [More in Common Strong Roots record](records/comparative-more-in-common-strong-roots-2026-nature-cross-party-coalitions.json) adds a cross-party place-and-stewardship layer. Its survey and swing-voter focus groups describe nature and wildlife as a shared source of pride, reject an abstract nature-versus-development binary, and report that known politician positions on nature protection shape voter perceptions. The cross-source implication is that environmental legitimacy may travel through local identity, stewardship, recreation, health, and future security even when voters disagree about net-zero politics. The study does not establish willingness to pay, local project acceptance, vote change, or conservation delivery.
+
+## Latest global information-environment rotation: intermediary convenience can outrun trusted source access
+
+The [IPIE 2026 expert-survey record](records/comparative-ipie-information-environment-2026-platform-accountability-ai-search-research-pressure.json) adds a global information-governance layer. Among 470 experts covering 71 countries, 76% expected deterioration in the next year; 78% rated lack of platform accountability a big or extreme threat; and the report separates viewpoint findability from trusted accuracy. AI summaries are expected to speed answer-finding while reducing news-site visits and narrowing viewpoint diversity. The cross-source implication is that information quality is a conversion chain involving intermediary design, source visibility, public trust, civic understanding, and the capacity of researchers and institutions to contest errors. This is expert assessment, not observed public behavior or platform-causal evidence.
+
+## Latest U.S. place-and-participation rotation: geography changes civic route more than civic level
+
+The [Pew urban/suburban/rural public-life record](records/us-pew-urban-suburban-rural-public-life-engagement-2026-place-specific-routes.json) extends the existing engagement typology into place. Urban, suburban, and rural adults have broadly similar distributions across engagement groups, but differ in group membership, religious attendance, in-person versus online interaction, protest, signage, and other political expression. The cross-source implication is that place is a route variable: local institutions, transport, digital access, and social visibility may shape how engagement becomes participation without making urban, suburban, or rural residence a civic identity. This is cross-sectional survey association, not a causal place effect or measure of political efficacy.
+
+## Latest comparative citizen-futures rotation: resilience is imagined as capacity to act across linked crises
+
+The [JRC Our Futures citizen-resilience record](records/comparative-jrc-our-futures-europe-citizen-resilience-narratives-2026.json) adds narrative evidence from more than 4,000 citizen-authored future stories. In the 340-story EU-focused subset, democracy/governance appears in 41% and nature/climate in 29%; the stories connect those themes to migration, affordability, technology, work, human connection, and geopolitical risk. The cross-source implication is that public meaning is formed before policy preferences are separated into departments: the same anxiety can produce hope or collapse depending on perceived institutional capacity and personal agency. This is self-selected narrative evidence, not representative prevalence, forecast, or causal policy evidence.
+
+## Latest social-pressure rotation: mental-health concern is filtered through material exposure and permission to seek help
+
+The [St Patrick's Irish mental-health and stigma record](records/comparative-stpatricks-ireland-mental-health-stigma-cost-loneliness-2026.json) adds a social-pressure layer to the mental-health route. The survey links wellbeing concerns to loneliness, housing, climate change, and wider economic uncertainty; it also shows that public concern and perceived stigma progress can coexist with private silence around suicidal thoughts and self-help-seeking. The cross-source implication is that mental-health legitimacy has at least three gates: pressure, permission to disclose, and reachable care. This is descriptive public-attitudes evidence, not clinical prevalence, causal evidence, or a service-capacity audit.
+
+## Latest consumer-media rotation: professional audience models can drift away from public attention
+
+The [thinkTV/Ipsos Ad Nation 2026 record](records/comparative-thinktv-ipsos-ad-nation-2026-canada-media-gap-trust.json) adds a consumer-media translation layer. Canadian media professionals estimated public TikTok use at 89%, versus 30% reported by Canadian adults in the public sample; the release also finds persistent advertising distrust, concern about data and AI-generated fake content, and continued value placed on live television as a shared experience. The cross-source implication is that cultural and consumer systems can misread the public when professional exposure becomes the implicit audience model. This is a two-sample descriptive comparison, not a causal campaign-performance or platform-adoption estimate.
+
+## Latest youth-cultural rotation: high AI adoption can coexist with low delegated trust and delayed independence
+
+The [Pacsun/GlobalData Drawbridge Generation record](records/us-pacsun-globaldata-youth-report-2026-drawbridge-trust-financial-independence.json) adds a youth selective-delegation layer. In the publisher's 6,126-person U.S. sample, family and friends dominate trust, 85% used AI in the past year, but only 2% trusted it for fashion advice and 5% for financial advice. The same release reports a decline in self-described financial independence from 41.3% to 34.9% and a rise in full parental reliance from 23.8% to 29.1%. The cross-source implication is that youth are not simply pro- or anti-technology: they allocate authority by domain while material dependence reshapes adulthood, aspiration, and the meaning of a successful future. This is sponsor-reported repeated-survey evidence, not causal evidence of economic dependence or AI quality.
+
+## Latest AI-trust rotation: content abundance is weakening authenticity signals
+
+The [Gartner consumer-authenticity record](records/us-gartner-consumer-trust-ai-slop-influencers-2026.json) adds a broader consumer trust layer. In a 1,006-person U.S. survey, 35% said they rely less on influencers because of AI-generated content, 43% said they rely more on real people, 65% said brands produce too much AI marketing content, and 57% said it makes them less trusting of brand messaging. The cross-source implication is that AI changes not only content production but the social heuristics through which people decide who deserves attention and authority. This is publisher-reported descriptive survey evidence, not a content audit, causal trust estimate, or sales outcome.
+
+## Latest multilateral-legitimacy rotation: a necessary institution faces a visibility and delivery test
+
+The [UN Foundation/GeoPoll Secretary-General mandate record](records/comparative-un-foundation-geopoll-un-secretary-general-mandate-2026.json) adds a leadership-transition layer. Across the 5,000-person, 20-country poll, 84% say the UN remains necessary, but 52% say it is struggling to deliver; 58% trust the UN and other international institutions to make progress, with a Global South/Global North difference of 65% versus 44%. Conflict prevention is the leading priority, while the public wants an outward-facing diplomat, crisis manager, or moral voice and 85% have heard little about the selection race. The cross-source implication is that institutional legitimacy depends on the combination of necessity, delivery, public visibility, and representation—not institutional survival alone. This is commissioned public-opinion evidence, not a performance evaluation or causal leadership study.
+
+## Latest local-consent rotation: national AI ambition meets concentrated community costs
+
+The [UMass AI data-center poll record](records/us-umass-poll-ai-data-center-local-consent-crosspartisan-2026.json) adds a siting-legitimacy layer. In a 1,000-person U.S. poll, 65% oppose an AI data center in their local community and 11% support one; opposition remains majoritarian among Democrats and Republicans. Open-ended responses center on environmental resources, utility bills, land use, noise, and community fit, while supporters invoke jobs, economic development, and competition with China. The cross-source implication is that technological legitimacy has a local-cost conversion problem: national enthusiasm or strategic necessity does not settle who bears the physical and household price of infrastructure. This is cross-sectional opinion and publisher-reported coding, not realized impact or permitting behavior.
+
+## Latest diaspora-cultural rotation: heritage identity travels through media and contact, not one universal language pathway
+
+The [Frontiers ethnic-Chinese cultural-identity record](records/comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026.json) adds a diaspora-identity mechanism across Singapore, Malaysia, and Thailand. In an online panel of 1,298 second-generation-and-beyond ethnic Chinese respondents, Chinese-content exposure and visits to China were positively associated with cultural identity across all three countries, while language proficiency mattered significantly only in Malaysia and media exposure mediated several relationships. The cross-source implication is that cultural identity is reproduced through a distributed system of content, contact, language, and national context rather than through heritage or screen format alone. This is comparative panel association evidence, not causal proof, a representative estimate of all ethnic Chinese, or evidence of political allegiance to the PRC.
+
+## Latest consumer-governance rotation: financial-services AI needs visible human fallback
+
+The [YouGov financial-services AI record](records/comparative-yougov-consumer-duty-ai-financial-services-2026-human-fallback-trust.json) adds a consumer-protection mechanism to the AI-trust route. In a weighted Great Britain survey of 8,220 adults, 53% said greater AI use would make financial-services firms less likely to act in customers' best interests, versus 11% who said more likely; 68% attributed adoption to cost reduction and 60% to profit, compared with 10% to better customer outcomes. Confidence is conditional rather than absent: 51% said access to a human when needed would increase confidence, alongside company accountability and personal-information protection. The cross-source implication is that automation becomes legitimate when customers can see reversibility, responsibility, and benefit—not merely speed or firm efficiency. This is stated public perception, not observed deployment, harm, compliance, or causal trust evidence.
+
+## Latest work-and-family meaning rotation: the good life is socially reproduced through children and work
+
+The [YouGov values-of-children-and-work record](records/comparative-yougov-values-children-work-2026-success-time-meaning.json) adds a social-reproduction mechanism. Across two September Economist/YouGov poll waves, childrearing ideals split between self-reliance and obedience, consideration and good behavior, independence and elder respect; work ideals split between shorter hours and standard schedules, remote-work rights and employer discretion, and passion versus pay. These preferences vary by age, ideology, education, gender, parenthood, and labor-force position. The cross-source implication is that political and consumer conflict often concerns the life model that institutions should make possible—security, autonomy, respect, time, care, and purpose—not only the policy instrument. This is weighted stated-preference evidence from opt-in panels and forced-choice items, not observed parenting, work behavior, or causal value change.
+
+## Latest family-time conversion rotation: desired care becomes an unequal option set
+
+The [New America National Parent Survey record](records/us-new-america-national-parent-survey-2026-time-care-money-sandwich.json) adds lived-constraint evidence to the work-and-family meaning route. In a nationally weighted survey of 5,472 parents and primary caregivers of children ages 0–5, 72% wanted more quality time with their children, 55% said post-birth time was less than wanted, and 75% said their current work arrangement did not fully match their ideal. Money is the conversion bottleneck: 52% cited a financial barrier to using time as desired, 54% of parents with a child-care mismatch cited cost, and 28% also regularly cared for an older adult. The cross-source implication is that family policy is not choosing between one universal work/care model; it is expanding or narrowing a plural, unequal option set. This is weighted mixed-panel self-report evidence, not causal policy or independently verified hardship evidence.
+
+The [Carers UK work and unpaid-care record](records/comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point.json) adds a harder employment-continuity measure to that family-time route. In a weighted 4,000-adult UK survey, 20% of workers were combining paid work and unpaid care, while reported consequences ranged from reduced hours and stress to leaving employment; the report estimates about 1.1 million people left work to care in the prior two years. The cross-source implication is that care infrastructure is also a labour-market retention system: the relevant outcome is not only care hours, but whether people can remain employed without converting care into income loss or hidden exhaustion. This remains repeated cross-sectional, self-reported advocacy evidence, not causal proof of a paid-leave effect.
+
+The [Catawba College–YouGov Ballots & Bots record](records/comparative-catawba-yougov-election-ai-authenticity-trust-2026.json) adds an election-specific version of the information-authority problem. The survey finds broad commitment to secure, fair elections and stated acceptance of unfavorable results alongside weaker confidence in the overall system, high concern that AI will make political content harder to authenticate or correct, and stronger trust in friends, state election websites, and local officials than in social media or AI assistants. The cross-source implication is that synthetic-media risk is also a verification-and-legitimacy problem: disclosure, rapid correction, and locally credible explanation may matter as much as content removal. This is cross-sectional, self-reported survey evidence, not verified exposure or causal policy evidence.
+
+The [SOCi Local Discovery Index record](records/comparative-soci-local-discovery-ai-verification-loop-2026.json) adds a consumer-scale version of the same verification shift. SOCi reports that 52% of surveyed U.S. consumers used AI to find a local business in the previous 30 days, but 81% still took a verification step before contacting the business; reviews and responsive business replies become a conversion and remedy layer. The cross-source implication is that AI-mediated discovery does not eliminate intermediaries—it redistributes them across search, social, maps, reviews, and direct information, with different routes by income, generation, and category. This is vendor-sponsored, self-reported directional evidence, not observed clickstream or causal sales evidence.
+
+The [Public First cross-party education record](records/comparative-public-first-education-cross-party-technical-pathways-delivery-2026.json) adds a pathway-legitimacy route to the work-and-meaning evidence. UK voters across parties express demand for technical education, apprenticeships, life skills, and adult readiness, while only 47% are confident the tested policies can be delivered and 42% are not. The cross-source implication is that a shared social ideal can become a delivery test: political legitimacy depends on whether education reform produces visible work pathways, local capability, and transparent explanations when promises change. This is commissioned mixed-method political research, not a causal education or employment evaluation.
+
+The [WorldSkills UK/Public First Ready to Work record](records/comparative-worldskillsuk-public-first-ready-to-work-employer-skills-2026.json) adds the employer-side test to that education pathway. Employers report that youth entry is harder, while 95% say the right mindset matters in hiring and 70% believe young people with the right employability skills could increase revenue. The cross-source implication is that pathway legitimacy requires a translation layer between public demand for technical routes and firm-level hiring: skills demonstrations, work experience, and competitions must become observable access mechanisms rather than symbolic credentials. This is commissioned, self-reported employer evidence, not observed hiring or productivity data.
+
+The [IKEA Life at Home 2026 record](records/comparative-ikea-life-at-home-2026-home-resilience-control-sustainability.json) adds a household-cultural counterpart to the material-room evidence. Across the report’s global sample, security, comfort, and control are more important than people regularly experience, while home satisfaction is associated with greater future optimism; saving money and health benefits are stronger climate-action motivators than abstract obligation alone. The cross-source implication is that the household is not only a site where external shocks land—it is an agency infrastructure where people attempt to regain control through routines, repair, reuse, and sustainable consumption. This is retailer-commissioned, self-reported, mostly-2025-fieldwork evidence, not causal housing or climate evaluation.
+
+The [IKEA Store & Organise 2026 record](records/comparative-ikea-store-organise-household-mess-domestic-labor-2026.json) adds a distinct household-coordination route. The source frames mess as a possible indirect negotiation over who notices and performs domestic work, while clutter also creates conflict, preserves memory, and consumes search time. The cross-source implication is that household room is simultaneously material infrastructure, identity infrastructure, and a bargaining surface: the same object can be a sentimental anchor, a storage burden, and a signal about unpriced labor. This is retailer-commissioned, cross-sectional online self-report evidence; it does not establish gendered labor allocation, intentional protest, or causal conflict effects.
+
+The [Nextdoor/Harris Poll neighborhood-trust record](records/us-nextdoor-harris-neighborhood-trust-mutual-aid-2026.json) adds a local social-infrastructure counterpoint to the broader trust-decline narrative. Practical neighbor reliance and recommendation trust remain visible, but younger adults report a sharper gap between desired interaction, loneliness, and feeling welcomed. The cross-source implication is that social cohesion may depend less on generalized attitude than on repeated, low-stakes contact routes that convert proximity into help, information, and belonging. This is platform-commissioned, cross-sectional online-panel evidence; it does not establish actual aid, recommendation accuracy, or app-driven trust.
+
+The [England Community and Engagement Survey 2025/26 record](records/comparative-govuk-community-engagement-neighborhood-cohesion-2025-26.json) adds an official place-based comparator. In England, monthly neighbor contact and willingness to pull together are broader than reported neighborhood trust; intergroup coexistence can coexist with a judgment that the local area is getting worse; and belonging varies by age, disability, deprivation, and local authority. The cross-source implication is that cohesion is a conversion chain whose weakest link may be local conditions and access—not simply an absence of social goodwill. This is official self-report evidence, descriptive at subgroup and local levels, and not a causal evaluation of community policy.
+
+The [DWP education-professionals record](records/comparative-dwp-education-professionals-young-work-readiness-2026.json) adds an education-to-work route that complements the employer-side readiness evidence. Educators describe opportunity as a readiness ecology: work-readiness, confidence, local jobs, transport, health, SEND support, family context, networks, and work experience determine whether academic preparation can become a usable transition. The cross-source implication is that “skills” are not only an individual asset; they are a conversion problem involving institutions, place, and support. This is professional-perception evidence from a commissioned online panel, not observed youth transition or employer outcome data.
+
+The [DfE Parent, Pupil and Learner Voice record](records/comparative-dfe-parent-pupil-learner-voice-may-2026-pathway-usability.json) adds the learner-side route. Young people report high confidence in named plans, but alternative pathways can remain invisible or reputationally weak, while student-finance anxiety and the gap between mental-health-support awareness and use constrain the usable option set. The cross-source implication is that education-to-work opportunity requires both system readiness and learner-facing legibility: a plan is not yet a reachable route. This is official, self-reported panel evidence, not confirmed enrollment, completion, or outcome data.
+
+The [KFF/AP Rural Voters record](records/us-kff-ap-rural-voters-cost-healthcare-attribution-2026.json) adds a rural political-economy route. Cost of living and health-care exposure organize the issue agenda, local provider shortages make care capacity politically legible, and partisan loyalty can persist even as performance dissatisfaction lowers turnout certainty among some rural Republicans. The cross-source implication is that political alignment, delivery judgment, attribution, and participation must be modeled as separate conversions rather than one partisan preference. This is cross-sectional registered-voter evidence, not observed vote choice or causal policy evaluation.
+
+The [IFS Devout Difference record](records/comparative-ifs-devout-difference-religion-marital-social-infrastructure-2026.json) adds a relational-social-infrastructure route. Among the groups studied, regular religious practice and shared marital norms are associated with stronger reported marital quality and sexual satisfaction even as religious participation declines. The cross-source implication is that social institutions can shrink at the population level while retaining concentrated relational capacity among those who remain engaged. The source is institutionally sponsored observational research with incomplete public methodology; it does not establish causal faith effects or universal religious advantage.
+
+## Latest U.S. religious-social infrastructure rotation: communal trust persists through internal change
+
+The [Pew Latter-day Saints community/trust/diversity record](records/us-pew-latter-day-saints-tradition-change-2026-community-trust-diversity.json) adds a religion-as-social-infrastructure route. Current Latter-day Saints remain highly religious, with 72% saying religion is very important, while 72% report recent volunteering and 48% say most people can be trusted, compared with 41% and 34% among all U.S. adults. Yet retention among people raised Latter-day Saint fell from 70% in 2007 to 54% in 2023-24, and 28% are now religiously unaffiliated. The community is more racially diverse, and its Republican members are more supportive of racial and religious diversity than Republicans nationally. The cross-source implication is that institutional continuity is not static inheritance: dense routines can preserve trust and family cohesion while membership boundaries, demographic composition, and political meaning change. This is survey association and historical comparison, not a causal estimate of religious membership, family wellbeing, volunteering, or political action.
+
+## Latest comparative wellbeing rotation: broad wellbeing coexists with loneliness, anxiety, and material issue salience
+
+The [ONS Great Britain wellbeing and loneliness record](records/comparative-ons-opn-personal-wellbeing-loneliness-august-2026.json) adds a repeated official-survey layer that keeps wellbeing measures distinct. In August 2026, average life satisfaction was 6.9, worthwhile 7.2, happiness 7.2, hope 6.4, and anxiety 3.9; among 16-to-29s, anxiety was 4.1 and 32% reported loneliness often, always, or some of the time versus 25% overall. Young adults also had high hope (69%), so aspiration and distress coexist rather than forming one generational mood. Cost of living was named by 89% overall and 90% of 16-to-29s; housing by 64% of young adults versus 53% overall; immigration and international conflict were much more salient among older adults. The cross-source implication is that subjective wellbeing, material exposure, issue salience, and cultural-political meaning are linked but non-equivalent surfaces. This is repeated cross-sectional self-report evidence, not a clinical, causal, behavioral, or policy-effect estimate.
+
+## Latest comparative cohesion rotation: belonging is materially and locally uneven
+
+The [Helen Clark Foundation New Zealand cohesion record](records/comparative-helen-clark-nz-social-cohesion-2026-belonging-financial-stress.json) adds a material-belonging route. In its 2025 survey, 84% felt they belonged to New Zealand, but only about half felt a strong local community; two in five trusted the government, and nearly two-thirds of under-30s felt isolated at least sometimes. Financial stress predicted low belonging, low trust, high isolation, and more negative immigration attitudes, while homeowners reported higher neighbourhood belonging and civic participation than renters. The cross-source implication is that national identity and social cohesion are not one variable: housing, food security, friendship, safety, age, media, and household room mediate whether belonging becomes participation. This is weighted cross-sectional survey association evidence, not a causal account of loneliness, civic behavior, or policy effects.
+
+## Latest comparative nation–state cohesion rotation: national pride can survive institutional weakening
+
+The [AthenaLab Chile identity-and-cohesion record](records/comparative-athenalab-chile-national-identity-cohesion-2026.json) adds a nation–state gap. In an August 2025 survey, 68% reported the highest pride in being Chilean, while 87% said one must be very careful dealing with other people and 89% said society was more divided than ten years earlier. Trust was much higher in police and armed forces than in Congress and political parties, and 58% described attitudes toward foreigners as divided between inclusion and rejection. The cross-source implication is that symbolic belonging, interpersonal trust, institutional legitimacy, and everyday cooperation are distinct currencies: crisis solidarity can activate cohesion without institutionalizing it. This is a Chilean survey plus qualitative study, not a causal account of migration, violence, or democratic decline.
+
+## Latest comparative care-legitimacy rotation: the public trusts care quality more than the route to reach it
+
+The [BSA 43 NHS waiting record](records/bsa43-nhs-waiting-legitimacy-2026.json) adds an access-time mechanism beneath health-system legitimacy. In the latest survey, 50% were satisfied with NHS care quality, but only 16% with the time before a hospital appointment, 14% with A&E waiting, and 27% with GP appointment waiting. Overall NHS satisfaction was 26% in 2025 after 21% in 2024, while the chapter’s historical comparison shows a much stronger recovery when earlier governments made improvements visible through shorter waits and service performance. The cross-source implication is that funding, staffing, targets, and technology become legitimacy only when converted into reachable appointments, continuity, and lower household waiting costs. This is longitudinal survey and comparative service-indicator evidence, not a patient-level causal evaluation; definitions and geographies vary.
+
+## Latest comparative consumer-culture rotation: confidence rebounds while meaningful occasions remain fragile
+
+The [PwC UK consumer-sentiment record](records/comparative-pwc-uk-consumer-sentiment-festive-spending-2026.json) adds a household-meaning layer beneath sentiment. The index rose from -13 in April to +1 in August 2026 and 39% said their finances were healthy, yet 68% still planned some cutback and cost of living and the UK economy remained top concerns for 85% and 86%. Christmas spending was partly protected: 25% expected to spend more and 21% less, with “keep Christmas special” the leading reason among those spending more. The cross-source implication is that household confidence is not a single spending throttle; people rank cultural occasions and may protect them until rent, food, energy, or job pressure overwhelms the ritual. This is a nationally representative cross-sectional survey of intentions, not receipts, debt, social connection, or causal household welfare evidence.
+
+## Latest comparative welfare-culture rotation: deservingness sorts public care inside an anti-welfare climate
+
+The [BSA 43 welfare record](records/bsa43-welfare-deservingness-polarization-2026.json) adds a cultural-political boundary beneath welfare spending. In 2025, 49% supported more spending on benefits for disabled people who cannot work and only 7% supported less; 63% named disability benefits among their top two priorities for extra spending, above retirement pensions at 53%. Even among respondents opposing more welfare spending overall, only 11% favored less spending on disabled people, versus 67% favoring less spending on unemployed people. The cross-source implication is that “welfare opinion” is not one bloc: claimant prototypes, perceived deservingness, fiscal context, political identity, media framing, and reform salience sort which recipients remain legitimate. This is four-decade survey evidence, not a causal account of media effects, policy outcomes, benefit adequacy, or durable attitude change; the report also flags a 2024 wording discontinuity.
+
+## Latest U.S. energy-infrastructure rotation: household affordability is increasingly coupled to data-center demand, grid investment, and geopolitics
+
+The [EIA Short-Term Energy Outlook record](records/us-eia-steo-september-2026-electricity-demand-data-centers-household-prices.json) adds a macro-to-household transmission route. EIA forecasts U.S. electricity sales of 4,135 billion kilowatthours in 2026 and 4,211 billion in 2027, with data centers and manufacturing activity driving much of the growth and the West South Central region carrying the largest share of forecast growth. The same outlook embeds geopolitical exposure: global oil prices averaged $91 per barrel in August, inventories were estimated to have fallen by 400 million barrels year to date, and the model assumes Middle Eastern production remains below pre-conflict averages until the second quarter of 2027. The generation transition is uneven: energy-related CO2 emissions are forecast to fall 1.7% in 2026, while natural-gas generation rises 2% and coal generation falls 8%. The cross-source implication is that the energy transition is no longer separable into “household cost” versus “technology investment”: data-center and manufacturing demand, grid reinforcement, global fuel flows, local rate design, and emissions are coupled. The open arrow runs through who pays for capacity, who receives jobs and tax revenue, which communities bear environmental exposure, and whether climate or affordability claims translate into visible public legitimacy. This is an EIA model forecast and scenario analysis, not realized household bills, local reliability, or causal welfare evidence.
+
+## Latest U.S. institutional-legitimacy rotation: trust is fragmented by alignment and place, not simply absent
+
+The [Weidenbaum Center institutional-trust record](records/us-washu-weidenbaum-institutional-trust-party-place-pocketbooks-2026.json) sharpens the U.S. political layer. Across Waves 6-8, the report finds relatively low but stable federal-government trust, while trust in specific institutions is sorted by partisanship, geography, and personal economic security. In Wave 8, 75% of Republicans versus 9% of Democrats reported high trust in the presidency; the pattern reversed for news media, at 55% versus 23%, while military trust was 87% versus 54%. Place matters selectively: rural residents reported more trust than urban residents in the military (73% versus 64%) and presidency (42% versus 37%), while urban residents reported more trust in news media (42% versus 34%); the report found no comparable urban-rural gap for Congress and local government. The cross-source implication is that “trust decline” is too coarse: legitimacy is institution-specific and filtered through identity, geography, and perceived economic position. The open arrow is from differentiated trust through attribution, information choice, compliance, participation, and institutional response. This is repeated-survey association evidence, not a causal account of democratic stability or political behavior.
+
+## Latest U.S. consumer-infrastructure rotation: payment digitization changes the interface, not the need for redundancy
+
+The [Federal Reserve Diary of Consumer Payment Choice record](records/us-federal-reserve-diary-consumer-payment-choice-2026-cash-digital-rural-income.json) adds a consumer and infrastructure layer to the U.S. spine. In the 2025 diary wave, consumers made about 47 payments per month, including six with cash, and four out of five used cash at least once in the prior 30 days. Cash is not merely a preferred legacy instrument: about 70% of in-person cash payments came from people whose stated preference was another method, indicating a fallback role when cards or digital channels are unavailable or impractical. Cash also functions as stored liquidity: 76% carried cash and 45% stored it elsewhere, with average stored holdings of $364. The transition is uneven: adults 55 and older averaged 10 cash payments per month versus two among those under 25; rural residents averaged nine versus six in urban and suburban areas; and households under $100,000 averaged seven versus five among higher-income households. The cross-source implication is that payment modernization is not a clean replacement story. Consumer technology can expand options while cash remains a resilience, privacy, acceptance, and access layer whose importance varies by place, age, and household resources. This is weighted diary and repeated-cross-sectional evidence, not a causal estimate of financial inclusion, exclusion, or welfare.
+
+## Latest U.S. working-family rotation: paid-work expansion does not remove care scarcity; it relocates the bargaining problem
+
+The [Pew working parents record](records/us-pew-working-parents-2026-work-family-childcare-flexibility.json) gives the U.S. spine a strong current household-to-work mechanism. In 2025, 52% of different-sex couples with children under 18 had two full-time working parents, up from 31% in 1975, while the full-time-dad/not-employed-mom arrangement fell from 42% to 23%. The institutional gap is visible in the 2026 survey: more than eight in ten non-self-employed working parents say paid leave would be highly helpful, but only about half report access; 71% say work-from-home or control over when required hours are worked would be highly helpful, while only 23% report substantial work-from-home flexibility. Childcare is similarly a coordination problem: 48% of parents with a child age five or younger say cost makes suitable care difficult, 39% use multiple arrangements for the same child, and 59% say onsite childcare would be highly helpful while only 7% say it is available. In dual-full-time different-sex couples, 52% say the mother does more day-to-day parenting, 43% say she does more household chores, and 70% say the more flexible worker is a major factor in deciding who takes unexpected time off. The cross-source implication is that the U.S. working-family trend is not simply “more women working” or “remote work solves care”: paid-work expansion increases the importance of employer flexibility, childcare infrastructure, and household bargaining over time. This is a descriptive survey and CPS synthesis, not a causal estimate or a same-family time diary.
+
+## Latest comparative migration-governance rotation: control signalling can substitute for capacity building
+
+The [MPI Europe control-signalling record](records/comparative-mpi-europe-migration-control-signalling-integration-trust-2026.json) adds a political mechanism beneath migration headlines. The report argues that visible toughness can respond to public anxiety without improving migration or integration outcomes, while cutting language training and housing support can delay employment and prolong welfare dependence. It also emphasizes that many publics prefer a combination of control and compassion, and that trust is more likely to improve when migration levels, housing, education, health, employment, rights, obligations, and community resource allocation are made explicit and contestable. The cross-source implication is that migration governance is a capacity-allocation problem as much as a border-control problem: symbolic control may gain visibility while shifting costs into households, local services, family separation, and longer-run integration. This is a heterogeneous policy synthesis, not a pooled causal estimate or implementation evaluation.
+
+## Latest comparative household-consumption rotation: essential pressure and cultural spending do not move as one block
+
+The [Eurostat household expenditure record](records/comparative-eurostat-household-consumption-2026-essential-culture-transport.json) adds a comparative consumer-budget layer beneath inflation narratives. In January 2026, food, housing/water/energy, and transport accounted for 46% of EU household consumption expenditure. Yet between January 2025 and January 2026, the shares devoted to recreation/sport/culture, restaurants/accommodation, and education rose, while transport and information/communication shares fell. The cross-source implication is not that households were uniformly better off or more culturally active: share changes can reflect relative prices, seasonality, substitution, or composition. The useful question is which households preserve social and cultural occasions, which cut mobility or information access, and whether rising shares reflect more participation or simply higher prices. This is EU aggregate expenditure evidence, not household-level welfare or behavioral causality.
+
+## Latest comparative demographic rotation: population change is a household, labor, and territorial systems problem
+
+The [European Commission JRC Demographic Transformation 2026 record](records/comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration.json) shows the demographic transition as a connected systems problem. The EU population is projected to decline from a current peak of 450.6 million to 398.8 million by 2100, while nearly one in three residents may be 65 or older by 2050 and the population needing support may rise from 36 million to 48 million by 2070. The response therefore runs through care, housing, skills, women’s and older-worker participation, youth transitions, skilled migration, rural and regional policy, and public finance. The cross-source implication is that demographic “decline” does not have one remedy: increasing labor participation without care and housing capacity can transfer pressure into households, while migration without regional and social infrastructure can redistribute rather than resolve the constraint. This is official projection and policy-synthesis evidence, not an evaluation of EU implementation or a forecast of any single country.
+
+## Latest comparative identity-infrastructure rotation: adoption can rise faster than legitimacy
+
+The [UK Digital Identity Sectoral Analysis 2026 record](records/comparative-uk-digital-identity-sector-2026-trust-access-market.json) shows digital identity becoming an infrastructure layer across finance, employment, healthcare, public services, and age assurance. Reported use and understanding are high, but income-linked gaps remain: 65% of respondents in households under £19,999 reported use versus 87% among households earning £40,000 or more. Preferences are also context-specific: digital identity is more acceptable for online purchases and public services, while physical proof remains preferred in many in-person and healthcare settings. Most strikingly, 71% expect digital identity to be important within five years, while only 43% view its current direction positively. The cross-source implication is that infrastructure can become practically inevitable before it becomes normatively legitimate; access, non-digital alternatives, data control, and visible remedy will determine whether convenience becomes capability or dependency. This is a UK market assessment and weighted consumer survey, not evidence of improved service outcomes or causal trust change.
+
+## Latest comparative political-voice rotation: voting is not enough when citizens cannot see the feedback loop
+
+The [canonical OECD Trust Survey political-voice record](records/comparative-oecd-trust-2026-political-voice-responsiveness-barriers.json) extends the U.S. Pew finding beyond one national civic culture. Across participating OECD and accession-candidate countries, 68% say voting influences government decisions, but only 31% are confident that the political system allows people like them to have a say. Public consultations and townhalls are seen as influential by only 39% and 35%, respectively. The dominant reported barrier is not simply lack of time or resources: 40% say elected officials do not care about people like them. The cross-source implication is that trust depends on a visible conversion of participation into institutional response. Information and low-cost expression can widen the voice funnel, but without feedback, remedy, and evidence of responsiveness they may coexist with low legitimacy. This is comparative perception and participation evidence, not observed policy impact or a causal trust estimate.
+
+## Latest U.S. civic-culture rotation: public participation is a portfolio, not a single scale
+
+The [Pew-Knight public-life engagement record](records/us-pew-civic-engagement-public-life-2026.json) shows why “engaged” versus “disengaged” is too blunt for the atlas. The report identifies Mobilizers (9%), Connectors (28%), Spectators (31%), and Outsiders (31%) by combining news attention, voting, volunteering, religious participation, donations, and direct political action. News attention is relatively broad, but direct institutional contact and repeated collective action are concentrated: 65% of Mobilizers contacted an elected official in the prior year versus 13% of Connectors, 7% of Spectators, and 3% of Outsiders. The socioeconomic pattern matters too: Outsiders are more likely to have lower education and income, while remaining politically mixed rather than simply partisan or apathetic. The cross-source implication is that public voice depends on the conversion of attention into organization, time, resources, and reachable institutions; electoral participation alone is not a sufficient measure of civic capacity. This is a descriptive, period-specific aggregate survey classification, not a longitudinal causal account of participation.
+
+## Latest U.S. housing-structure rotation: supply, mobility, migration, and affordability are one system
+
+The [Harvard JCHS State of the Nation’s Housing 2026 record](records/us-harvard-jchs-housing-supply-mobility-immigration-2026.json) shows why new construction does not automatically become accessible housing: only 23% of listings in March 2026 were affordable to households earning $75,000 or less, down from 49% in 2019. Residential mobility fell to 11.2% in 2024, the lowest point in the ACS’s 20-year history, while first-time buyers fell to 21% of buyers and reached a median age of 40. The report also links declining immigration to slower household formation and regional population growth. The cross-source implication is that housing is a gatekeeper for labor mobility, family formation, demographic renewal, and access to opportunity—not merely a monthly expense. This is a secondary public-data synthesis, not a causal land-use evaluation or household panel.
+
+## Latest comparative urban-cohesion rotation: migration becomes a projection surface for unresolved insecurity and state-capacity failure
+
+The [KAS South Africa migration, rule-of-law, and social-cohesion record](records/comparative-kas-south-africa-migration-rule-law-social-cohesion-2026.json) shows how unemployment, inequality, housing pressure, service deficits, spatial segregation, and weak institutional trust can be translated into anti-migrant attribution. Migrants become a projection surface for conflicts whose deeper causes are domestic economic and state-capacity failures. Gauteng and Cape Town also show that the same belonging conflict takes different forms depending on labor markets, housing, visibility, organization, and institutional reach. This is a qualitative urban case with cited statistics and event series, not representative public opinion or a causal estimate of migration effects.
+
+## Latest U.S. administrative-trust rotation: formal access can remain available while perceived enforcement risk makes public systems practically unusable
+
+The [Urban Institute immigrant-families record](records/us-urban-immigrant-families-enforcement-chilling-effect-2025.json) adds a U.S. survey route from immigration concern through non-use of work, health care, schools, police, community events, and safety-net programs. The route is household-wide: mixed-status families reported much higher worry about ordinary public contact than immigrant families made up entirely of U.S. citizens, including worry about work, care, and police contact. The cross-source implication is that administrative capacity depends on perceived safety and data trust as well as formal eligibility; a program can exist on paper while becoming unreachable in practice. This is 2025 repeated-cross-sectional survey evidence, not a causal estimate of enforcement effects or proof of durable withdrawal.
+
+## Latest U.S. AI-work rotation: adoption is broad, but time benefit is not automatically worker-controlled time
+
+The [Census HTOPS AI task/time record](records/us-census-htops-ai-work-task-time-savings-2026.json) adds task-level evidence beneath the existing AI-exposure and AI-attitudes layers. Fifty-six percent of workers reported using AI for at least one job task; among recent users, 31% reported saving one to two hours, while 10% reported no time saved and 4% reported additional time. Access and frequency vary by education, sex, and age. The cross-source implication is that the next question is not whether AI is spreading, but whether saved time becomes lower workload, higher output, learning, bargaining power, or employer capture. This is weighted cross-sectional self-report, not verified productivity or realized worker gain.
+
+## Latest comparative cultural-infrastructure rotation: culture is social infrastructure, but cost and welcome determine who can convert participation into belonging
+
+The [Canada Arts and Heritage Access survey record](records/comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost.json) shows that culture is valued as a source of enjoyment, socializing, local identity, cross-cultural connection, and economic vitality. Yet cost is the leading participation barrier, only 56% report feeling welcome in cultural facilities, and fewer than half say arts and culture help them feel part of their local community or Canada. The cross-source implication is that cultural abundance and cultural belonging are different outcomes: participation becomes social infrastructure only when people can afford entry, feel welcome, and have routes to contribute. This is a national survey summary, not causal evidence that culture produces cohesion.
+
+## Latest comparative political-voice rotation: participation is not the same as influence, and influence is not the same as responsiveness
+
+The [OECD political voice and trust record](records/comparative-oecd-trust-2026-political-voice-responsiveness-barriers.json) shows a persistent legitimacy gap: 68% view voting as influential, but only 31% feel people like them have a say in government. Public consultations and town halls are viewed as less influential, while 40% say elected officials do not care about people like them. The cross-source implication is that voice is an institutional chain: access to participation must be followed by visible responsiveness, adoption or explanation, and feedback. Material constraints also matter—low-income people report more time barriers and more perceived official indifference. This is a cross-national survey synthesis, not evidence that participation caused trust or that consultation outcomes were actually changed.
+
+## Latest comparative household-exposure rotation: geopolitical risk enters daily life through prices, availability, mobility, and financial room
+
+The [ONS Great Britain cost-of-living and shortages record](records/comparative-ons-great-britain-cost-living-conflict-shortages-may-2026.json) shows how macroeconomic and geopolitical pressure becomes ordinary household adaptation. Food, fuel, and energy prices were the leading reasons people reported higher living costs; households responded by cutting non-essentials, reducing food spending, using less energy, shopping around, and reducing non-essential journeys. Conflict worry was also attached to fuel, energy, travel, and the safety of affected people. The cross-source implication is that exposure is not only a price index: it is lost mobility, substitution, time, emergency liquidity, and the protection or abandonment of cultural and social participation. This is a short-period Great Britain survey, not a causal conflict or deprivation estimate.
+
+## Latest global consumer-protection rotation: financial access is not the same as financial safety or remedy
+
+The [OECD Consumer Finance Risk Monitor record](records/comparative-oecd-consumer-finance-risk-monitor-2026-scams-digital-exclusion-remedy.json) shows that financial consumer risk is being reorganized by digitalisation, scams, inflation, debt, weak capability, product conduct, and fragmented complaint routes. Authorities in 60 jurisdictions identify scams as the leading operating-environment risk, while online-channel expansion and branch closures can turn convenience into exclusion. The cross-source implication is that consumer power requires more than choice or disclosure: consumers need detection, authentication, contestability, coordinated supervision, and actual correction when harm occurs. This is an authority-assessment synthesis, not population prevalence or proof that regulatory responses restored losses.
+
+## Latest global social-connection policy rotation: recognition is spreading faster than evaluated delivery
+
+The [194-state loneliness-policy scoping review](records/comparative-global-loneliness-policy-scoping-review-194-states-2026.json) finds that only eight WHO Member States had dedicated national policies addressing loneliness, social isolation, or social connection, despite a global search of all 194 states. Common policy language emphasizes awareness, community approaches, cross-sector collaboration, and support for organizations as well as individuals, but the review identified no rigorous effectiveness evaluation among the included policies. WHO's June 2026 Commission update independently describes the same eight-member-state policy count and says the review will support country-to-country learning. The cross-source implication is that social connection is becoming a public-policy category, yet the hard work remains local: funding, delivery capacity, repeat participation, inclusion, and evidence of durable health or belonging outcomes.
+
+Japan provides a named policy-conversion case. Its loneliness-and-isolation law
+was enacted in 2023, a national priority plan was decided in 2024, and the
+Cabinet Office reports a partial plan revision on July 10, 2026. This makes the
+country a useful bridge between WHO's global policy count and lived social
+outcomes: the next evidence is not another prevalence estimate but a municipal
+or programme episode showing budget, referral, access, repeated participation,
+inclusion, practical support, and later connection, health, work, or civic
+effects. The legal and planning milestones establish institutional intent, not
+service reach or effectiveness.
+
+## Latest U.S. local-capacity rotation: public infrastructure need is filtered through fiscal and administrative capacity
+
+The [NLC Municipal Infrastructure Conditions record](records/us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding.json) shows that municipal leaders remain focused on streets, water, sewer, stormwater, and treatment systems while balancing aging assets, rising construction costs, workforce constraints, and competing daily services. Funding availability is the dominant capital-decision factor, and federal grants matter—yet local staff capacity and grant-management capability determine whether funding becomes functioning infrastructure. The cross-source implication is that “investment” is an intermediate state: public-system reliability depends on finance, workforce, planning, procurement, maintenance, and local political prioritization. This is a municipal survey and NLC synthesis, not a national engineering inventory or project-outcome evaluation.
+
+## Latest U.S. disaster-resilience rotation: resilience funding is an administrative conversion chain, not a completed outcome
+
+The [GAO BRIC resilience-grant record](records/us-gao-bric-resilience-grant-delay-communication-outcomes-2026.json) shows that FEMA awarded 1,245 subgrants and allocated about $2.5 billion across four cycles, yet only $62 million had been reimbursed and 37 subgrants had completed work and initiated closeout as of March 2025. Another 700 subapplications associated with about $2.2 billion remained pending, with median review taking 7–9 months. The program’s termination announcement, year-long communication gap, and restart also led some subrecipients to stop work, while performance goals did not consistently measure results or inform the termination decision. The cross-source implication is that public resilience depends on administrative time, policy continuity, communication, planning support, and measurement—not just appropriated money or awarded projects. This is a GAO administrative audit with selected interviews, not a national estimate of avoided disaster losses or household outcomes.
+
+## Latest comparative labor-market rotation: stable employment headlines conceal a deficit of usable work
+
+The [ILO Employment and Social Trends 2026 record](records/comparative-ilo-employment-social-trends-2026-job-quality-inequality.json) shows that projected global unemployment of 4.9% coexists with a 408-million-person jobs gap, nearly 300 million workers in extreme working poverty, and 2.1 billion workers in informal employment. The report links weak productivity and stalled structural transformation to divergent outcomes across income groups, while women, youth, trade-exposed workers, and workers facing AI-related change carry distinct risks. The cross-source implication is that “employment” is too thin an endpoint: household room and social stability depend on income adequacy, rights, protection, bargaining, productive transformation, and domestic institutions that convert global exposure into decent work. This is an ILO global synthesis with projections and modeled indicators, not a U.S.-specific causal estimate or respondent-level panel.
+
+## Latest comparative care-infrastructure rotation: care is the hidden platform underneath participation, work, and dignity
+
+The [UN resilient care and support systems record](records/comparative-un-care-support-systems-2026-poverty-dignity-work-family.json) treats care as a full social system—services, financing, workforce, infrastructure, governance, data, and norms—not merely a private family obligation. The UN note links accessible care to education, employment, social protection, poverty reduction, and social inclusion, while showing that weak systems push unpaid responsibility disproportionately onto women and girls. The cross-source implication is that care is a hidden allocation system: it determines who has usable time, whether households can absorb shocks, and whether formal rights convert into participation. This is a global policy synthesis, not a harmonized outcome dataset or causal program evaluation.
+
+## Latest comparative cultural-adaptation rotation: practical restraint and identity are being negotiated through digital life
+
+The [Korea Social and Cultural Trends 2026 record](records/comparative-korea-social-cultural-trends-2026-adaptation-consumption-ai-kculture.json) uses 538 million online data items and 74,760 extracted keywords to frame a shift from post-crisis recovery toward adaptation. AI mentions rose 44% year on year, while policy, security, and regulation terms rose even faster; consumption discourse emphasized value for money and practical restraint; and K-culture mentions rose 31%, linking fandom and cultural pride to emotional and economic value. The cross-source implication is that adaptation is not only an economic response: it is a cultural negotiation over what technology should do, what consumption means, how identity is expressed, and whether emotional affiliation can support coexistence. This is a Korean government forecast from online discourse, not a representative behavior survey or proof of population-wide change.
+
+## Latest comparative household-security rotation: poverty reduction is stalling where public buffers fail to reach the exposed
+
+The [UN SDG Goal 1 2026 record](records/comparative-un-sdg1-2026-poverty-protection-spending-aid.json) reports that roughly 826 million people—10% of the global population—remain in extreme poverty in 2026, with about 9% projected to remain poor in 2030. Social-protection coverage has passed half the global population, but 3.8 billion people remain unprotected and unemployment coverage is only 16.7%, compared with 79.6% for old-age pensions. Public spending also has uneven reach: only 18% of health spending reaches the poorest quintile on average, while poverty-reduction aid fell 8.7% between 2023 and 2024. The cross-source implication is that household security depends not only on whether a state spends, but on whether the relevant buffer is reachable for the person facing the shock. This is an aggregate SDG indicator synthesis, not a household panel or causal evaluation.
+
+## Latest U.S. housing-security rotation: housing is simultaneously a place, payment, credit, insurance, and climate-risk system
+
+The [Federal Reserve housing record](records/us-federal-reserve-household-housing-affordability-insurance-2025.json) shows a sharp income gradient in tenure: 33% of adults with family income below $50,000 owned their home, compared with 86% of those earning $100,000 or more. Twenty-three percent of renters were behind on rent during the prior year, rising to 33% among renters below $25,000 income. Among homeowners, 6% lacked insurance; lower-income and low- or moderate-income-neighborhood homeowners were more exposed, and 20% of insured owners wanted more coverage but could not afford it. The cross-source implication is that housing insecurity is not only a price problem: it links mobility, credit, place attachment, disaster recovery, and the ability to hold an asset as a buffer. This is a Federal Reserve cross-sectional survey, not an administrative eviction or claims dataset.
+
+## Latest Asia-Pacific deprivation-measurement rotation: household averages can hide who actually has capability and voice
+
+The [ADB Key Indicators 2026 record](records/comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation.json) adds an intra-household mechanism across 23 developing economies. ADB combines household and individual deprivation measures because people in the same household may not share opportunities, resources, or decision power; women, rural residents, and people ages 25–39 are consistently identified as more deprived. Health insurance, internet access, and property ownership emerge as capability conditions beyond household poverty status. The cross-source implication is that a household can appear non-poor while some members remain excluded from health protection, connectivity, ownership, or agency. This is a comparative indicator and measurement framework, not a causal evaluation or proof that targeting automatically produces empowerment.
+
+## Latest comparative household-security rotation: resilience is real, but it is not the same thing as security
+
+The [PPRC Bangladesh State of the Real Economy record](records/comparative-pprc-bangladesh-real-economy-2026-household-fragility-resilience.json) adds a household-centered development mechanism. In a nationally representative 2025 survey of 8,067 households, 27.9% were below the report’s upper poverty line and 18.0% were classified as vulnerable non-poor. The report shows how informal work, debt, food insecurity, chronic illness, limited savings, weak protection, and governance friction accumulate, while households cope through work, migration, networks, and asset use. The cross-source implication is that “resilience” can be an active but costly survival practice: the key question is whether institutions convert coping into security, capability, dignity, and voice. This is a Bangladesh household survey and policy synthesis, not a causal evaluation or direct cross-country estimate.
+
+## Latest global consumer-culture rotation: polarization is a household decision mode, not simply a class identity
+
+The [NIQ and World Data Lab Two Consumers record](records/comparative-niq-world-data-lab-2026-two-consumers-premium-value-mindsets.json) adds a global consumption mechanism. After global FMCG prices rose 26% from 2021 to 2025, NIQ reports that consumers across income groups and generations switch between upgrading when trust, utility, health, identity, or convenience justifies a premium and trading down when value is unclear. Affluent consumers are projected to account for slightly more 2026 spending than the much larger core-consumer group, while the U.S. market shows pressure at both premium and value ends. The cross-source implication is that households are not moving neatly from “middle” to “poor” or “premium”: they are rationing meaning and money across categories and occasions, protecting purchases that feel worth it and compressing those that do not. This is a commercial synthesis combining surveys, shopper data, and projections, not household-welfare or causal evidence.
+
+The latest NIQ update adds a discovery-to-purchase layer to that value split:
+nearly three-quarters of shoppers are reported to use AI during product
+discovery, nearly one-third of Western consumers have bought something first
+found on a social platform, and nearly 60% of APAC consumers shop through
+social and quick-commerce channels. The interesting shift is not simply “more
+online shopping”; influence is moving earlier in the journey, before a brand
+or category has entered the shopper's considered set. That can widen discovery
+and cultural circulation while also increasing dependence on recommendation,
+retail-media, creator, and platform ranking systems. NIQ does not disclose the
+underlying sample or transaction linkage here, so reported discovery and
+purchase remain distinct from conversion, quality, savings, or consumer power.
+
+## Latest global democracy-and-conflict rotation: stagnation is an institutional and security problem, not only a regime label
+
+The [International IDEA Global State of Democracy record](records/comparative-international-idea-gsod-2026-democracy-conflict-rule-of-law.json) adds a political-institutional mechanism. International IDEA reports that 81% of country-level factor cases showed no change, while in 2025 more countries declined than advanced; Freedom of Expression declined in 42 countries, Rule of Law was low-performing in 71, and Participation declines outnumbered advances. The report connects weakening expression, justice, participation, and state capacity to a fragile “in-between” political condition associated with higher conflict risk. The cross-source implication is that democratic decline is experienced through the practical channels that let people speak, organize, obtain remedy, and influence decisions—not only through election outcomes. This is an index and comparative conflict synthesis, not respondent-level opinion or a causal forecast for any individual country.
+
+## Latest global youth-futures rotation: economic insecurity is becoming a demand for purpose, proximity, and co-authorship
+
+The [World Economic Forum Youth Pulse record](records/comparative-wef-youth-pulse-2026-cost-ai-community-trust-purpose.json) adds a youth-to-future mechanism. Across nearly 4,600 young people ages 18–30, inequality and financial strain sit alongside a search for purposeful, flexible work; AI adoption is running ahead of formal training while many fear fewer entry-level roles; and trust is stronger in proximate community leaders than national figures. Climate is framed as a condition of prosperity, not simply a cost, while more than one in three report being likely to run for political office. The cross-source implication is that young people are not merely an anxious audience: they are converting pressure into demands for useful education, meaningful work, accountable local leadership, climate action, and a role as co-authors of systems that affect them. This is a World Economic Forum publisher survey and selected-case synthesis, not a probability sample of all youth, a behavior trace, or evidence of realized reform.
+
+## Latest global cultural-economy rotation: access is expanding faster than cultural power is being distributed
+
+The [UNESCO Re|Shaping Policies for Creativity record](records/comparative-unesco-reshaping-policies-creativity-2026-cultural-work-platforms-freedom.json) adds a culture-to-platform-to-work mechanism. UNESCO reports that 85% of surveyed countries include cultural and creative industries in national development plans, but only 56% set specific cultural goals; cultural-goods trade reached $254 billion in 2023, while developing countries held a much smaller share of cultural-services trade. Digital revenues rose to 35% of creators’ income, yet digital skills, creator security, local visibility, gender inclusion, public funding, and artistic freedom remain uneven. The cross-source implication is that cultural globalization is not merely an access story: the key question is who can create safely, get discovered, retain income, and shape the rules of circulation. This is a UNESCO policy and sector-data synthesis, not a creator panel, causal evaluation, or audience-welfare estimate.
+
+## Latest U.S. food-trust rotation: “healthy,” “safe,” and “regulated” are becoming overlapping cultural judgments
+
+The [IFIC Food & Health Survey record](records/us-ific-food-health-survey-2026-food-safety-health-beliefs-labels.json) adds a food-culture and public-trust mechanism. In its 2026 U.S. survey, confidence in the food supply rebounded from 55% to 62%, but remained below the 2022 and 2012 levels; concerns center on pesticides, carcinogens, and foodborne illness. Americans increasingly use ingredient simplicity, freshness, and degree of processing—not only nutrient content—to judge healthfulness, while 69% had heard little or nothing about state food-labeling activity and 77% favored some federal role in ingredient regulation. The cross-source implication is that food trust operates through everyday heuristics, labels, perceived control, and regulatory visibility, not only through official safety performance. This is a weighted online-panel survey, not evidence of actual contamination, diet quality, or causal institutional trust.
+
+## Latest geoeconomic-development rotation: strategic location is not the same as locally captured opportunity
+
+The [World Bank Djibouti private-investment record](records/comparative-worldbank-djibouti-private-investment-energy-digital-tourism-2026.json) adds a geoeconomic route from maritime and digital connectivity through energy prices, off-grid solar, data centers, tourism, skills, competition, regulation, cultural assets, and potential jobs. Djibouti’s strategic position and 5.3% average GDP growth from 2016–2024 coexist with high electricity tariffs, finance and skills gaps, and high unemployment. The cross-source implication is that ports, cables, and location create options but not automatic local prosperity: value capture depends on affordable energy, human capital, competitive rules, local job quality, and community control over cultural and environmental assets. This is a Country Private Sector Diagnostic summary with potential investment and job figures, not realized capital or broad-based welfare evidence.
+
+## Latest U.S. consumer-culture rotation: households preserve meaningful occasions while trading down around them
+
+The [National Restaurant Association Consumer Insights record](records/us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending.json) adds a consumer-culture mechanism to the affordability map. In the association’s third-quarter tracking, 65% rated financial well-being positively, but 39% said finances had worsened, half found household expenses harder to cover, and 34% said they regularly spent more than they earned. Restaurants remained a protected discretionary priority, yet 39% reduced restaurant spending, 43% found dining difficult, and consumers shifted toward promotions, cheaper venues, fewer add-ons, and groceries. The cross-source implication is that cultural participation does not simply disappear under pressure: households preserve selected rituals while compressing quality, frequency, and price around them, producing a K-shaped market and potentially shifting pressure onto operators and workers. This is industry-sponsored tracking with incomplete public methodology, not a representative panel or causal measure of social connection.
+
+## Latest small-island growth rotation: productivity must pass through skills, digital access, and intergenerational mobility
+
+The [World Bank Seychelles Growth and Jobs record](records/comparative-worldbank-seychelles-growth-jobs-digital-skills-2026.json) provides a useful contrast to Zimbabwe. Seychelles has a strong aggregate development record, but aging, skills shortages, geographic isolation, high costs, youth vulnerability, and uneven digital adoption threaten the next transition. The proposed “Modernize, Utilize, Digitalize” route links labor-market and business reform, school-to-work pathways, digital affordability, public-service access, projected jobs, wages, and household purchasing power. The cross-source implication is that even high-income growth stories remain contingent on the conversion layer between national productivity and lived mobility. This is a country-report summary with modeled scenarios, not observed outcomes; the open U.S. comparison is a named skills, digital-government, or labor-market episode followed into access, job quality, wages, affordability, and intergenerational opportunity.
+
+## Latest stability-to-work rotation: macroeconomic improvement does not automatically become household security
+
+The [World Bank Zimbabwe Growth and Jobs record](records/comparative-worldbank-zimbabwe-growth-jobs-informality-infrastructure-2026.json) adds a sharp macro-to-household distinction. Zimbabwe is reported to have returned to single-digit local-currency inflation in early 2026 and averaged nearly 6% real GDP growth from 2021–2025, yet 80% of workers remain informal, median informal earnings are reported at $130 per month, and nearly half the population remains below the international poverty line. The report connects the missing translation to low-productivity structural change, electricity shortages, transport and irrigation bottlenecks, regulatory friction, and weak formal investment. The cross-source implication is that “stability” is an intermediate condition: the relevant question is whether it changes the quality, reliability, bargaining power, and earnings of work. This is a country-report summary with modeled reform scenarios, not observed causal change; the open U.S. comparison is a named stabilization or infrastructure episode followed into formalization, worker earnings, job quality, and household room.
+
+## Latest water-infrastructure rotation: unreliable water converts climate exposure into time, cost, and legitimacy problems
+
+The [World Bank Brazil Paraíba water-security record](records/comparative-worldbank-brazil-paraiba-water-security-sanitation-jobs-2026.json) adds a named place-based route from drought frequency and poverty through water losses, sewage coverage, rural potable-water gaps, state planning capacity, monitoring, early warning, PPP governance, and estimated employment. The cross-source implication is that infrastructure is a social and cultural system: service reliability determines what households spend, how much time they absorb, which work and health risks they carry, and whether public or private providers appear accountable. This is a project announcement with modeled or announced estimates, not evidence of completed construction, affordability, job quality, or welfare effects; the open U.S. comparison is a named water or sanitation episode followed into operating service, household time and cost, exposure, and contestability.
+
+## Latest adaptive-resilience rotation: climate protection is being designed as a household-to-work system
+
+The [World Bank Malawi INSPIRE-O record](records/comparative-worldbank-malawi-inspire-o-adaptive-social-protection-climate-jobs-2026.json) adds a named intervention route from poverty and repeated drought or flood exposure through adaptive cash transfers, climate-smart public works, women’s and youth employment, drought-responsive finance, social registries, digital payments, targeting, and transparency. The cross-source implication is that resilience is not only a transfer or an infrastructure asset: it depends on whether a household can receive timely protection, preserve consumption, access decent work, and correct or contest an administrative decision. This is an approved-project design, not evidence of delivery, wage quality, payment reliability, or realized resilience; the open U.S. comparison is a named climate or safety-net episode followed into payment timing, work quality, administrative reach, and household recovery.
+
+## Latest geopolitical-institutional rotation: transactional relations make retained public capacity strategic
+
+The [Salzburg Global public-institutions record](records/comparative-salzburg-global-public-institutions-2026-transactional-order-state-capacity.json) adds an institutional and geopolitical layer: its September 2026 strategy synthesis describes a shift toward more transactional state relationships, developing-country diversification away from Western-centric frameworks, and thinner in-house expertise in Western governments. Its seven insights connect that diagnosis to substantive AI literacy, distributed foresight, long-term commitments, human-flourishing education, actionable inclusion, evidence, and restored public trust. The cross-source implication is that geopolitical resilience is partly a domestic capability question: governments need enough retained expertise to set goals, evaluate private partners, learn from implementation, and remain accountable. This is a curated expert synthesis, not a measure of geopolitical prevalence or a causal evaluation of state capacity; the open U.S. comparison is a named outsourcing, AI, or strategic-planning episode followed into retained expertise, vendor accountability, implementation quality, and legitimacy.
+
+## Latest legitimacy-and-attribution rotation: good service can coexist with distrust of government’s intentions
+
+The [Institute for Government public-understanding record](records/comparative-uk-institute-government-perception-gap-experience-trust-2026.json) adds a sharp political-cultural layer to the program’s public-service, fiscal-legitimacy, place, media, and trust findings. In an August 2026 survey of 5,002 adults in England, 64% of recent service users said services were delivered to a good standard, yet only 28% trusted the UK government to act in the interests of people like them; 67% reported little or no such trust. The report calls this a perception gap: delivery matters, but people also judge promises, integrity, representation, fairness, and whether government appears to prioritize people like them.
+
+The attribution mechanism is equally important. When local conditions were viewed negatively, respondents assigned more blame to national government; when conditions were viewed positively, local councils and regional mayors received more credit. Regional mayors were trusted more than national government in mayoral areas, but having a mayor did not itself improve overall perceptions of government. The cross-source implication is that legitimacy is not simply a service-quality score: it is a cultural interpretation of who is responsible, who is listening, who represents the place, and whether a promise is credible. The open U.S. comparison is a named local or state intervention followed through service delivery, responsibility clarity, information exposure, credit/blame, voice, and durable trust—not another satisfaction measure.
+
+This is a UK survey plus focus-group and mayoral-interview synthesis, not a causal devolution evaluation or a U.S. population estimate.
+
+## Latest cooperative-inclusion rotation: shared ownership can buffer displacement, but not erase structural precarity
+
+The [ILO PROSPECTS Jordan cooperative record](records/comparative-ilo-jordan-prospects-cooperatives-refugee-inclusion-2026.json) adds a named intervention beneath the program’s displacement, labor, gender, food, water, and social-cohesion findings. In Jordan, a multi-level programme combined cooperative-law and strategy reform, institutional strengthening, training on decent work and occupational safety, and direct support to cooperatives serving refugees and vulnerable host communities. The report describes joint Jordanian-refugee economic activity, women’s leadership, youth entry points, rights and social-protection awareness, and examples where agricultural value addition, rainwater harvesting, seedlings, and local grants expanded local capability.
+
+The deeper finding is about conversion, not the virtue of cooperatives in the abstract. Shared ownership can turn a livelihood intervention into a place-based social and civic institution: people pool resources, negotiate market access, gain work knowledge, and meet across displacement lines. But the same report records the hard constraints that remain outside the cooperative: work-permit fees and short employment periods, childcare and transport, limited finance, donor dependence, unequal training reach, child-labor risk, and fragile monitoring. The cross-source implication is that social cohesion and economic inclusion are strongest when legal status, institutional capacity, household care, market access, and member voice move together. This is a programme lessons-learned case, not a counterfactual evaluation or proof of durable post-programme security.
+
+The open arrow for the U.S. comparison is not “start cooperatives” generically. It is to follow a named worker-owned, community-owned, or mutual-aid intervention through membership, financing, governance, income, care/time, public-service access, and persistence—especially for people facing migration, racial, gender, or place-based exclusion.
+
+## Latest GenAI-work rotation: task-level gains are not yet the same as worker or household gains
+
+The [ILO GenAI jobs and work-organization record](records/comparative-ilo-genai-jobs-productivity-work-organization-2026-aggregation-paradox.json) adds a comparative empirical layer beneath the program's existing AI, platform, and workplace-governance findings. Drawing on experiments, firm evidence, platform studies, administrative records, and worker surveys across Australia, Denmark, Germany, Korea, Kuwait, the United Kingdom, and the United States, the review finds that GenAI can save time and raise productivity on bounded tasks, but those gains remain uneven and have not yet broadly appeared as higher measured output, earnings, or employment.
+
+The deeper pattern is an aggregation and control problem. Workers may absorb saved time through on-the-job leisure or task reallocation rather than higher pay or lower pressure; complex work still depends on the ability to verify unreliable outputs; and AI can narrow performance gaps on simple tasks while widening them where judgment, context, and expertise matter. At the organizational level, AI changes coordination, standardization, team composition, and the boundary between implementation and verification. The cross-source implication is that “AI productivity” is not a single consumer or labor-market trend: the decisive questions are who captures time, who bears verification and coordination costs, whether entry-level pathways shrink, and whether workers retain voice over redesign. This is an early comparative evidence synthesis, not proof of mass displacement or realized household benefit.
+
+The open arrow for the U.S. comparison is now sharper: follow a named workplace or occupation from adoption to task change, saved time, workload, pay, hiring, training, worker voice, and persistence. Adoption or self-reported time savings alone cannot establish improved job quality or shared prosperity.
+
+## Latest urban-capacity rotation: economic concentration does not equal inclusive urbanization
+
+The [World Bank Madagascar Urbanization Review record](records/comparative-worldbank-madagascar-urbanization-growth-poverty-infrastructure-2026.json) supplies a named-country realization layer beneath the atlas's broader housing, infrastructure, climate, and public-capacity findings. Cities produce roughly three-quarters of Madagascar's GDP and Antananarivo alone accounts for 44%, yet poverty in secondary cities rose from 46% to 61% over the past decade. More than 60% of urban residents are reported to live in informal or unplanned settlements, direct drinking-water access is below 20% in medium and small cities, and more than half of city waste is reported dumped in drainage canals. The pattern is not “urbanization failed”; it is that economic concentration can advance while the physical and institutional systems that convert concentration into shared security lag behind.
+
+The review also links climate exposure to delivery capacity: floods, cyclones, sea-level rise, and coastal erosion can reverse development gains, while disaster-related events affecting Madagascar have tripled over the last 20 years. Municipal transfers are less than one-tenth of city revenues and capital investment is less than one-tenth of city budgets in the summary. The cross-source implication is that place-based prosperity depends on a conversion chain—land and housing, water and waste, fiscal authority, resilient infrastructure, reliable data, and accountable local institutions—not on city GDP or urban population growth alone. This is a country review and public summary, not a causal evaluation of a completed reform, a household panel, or a universal model of urbanization.
+
+The open arrow for the U.S. comparison is now more concrete: identify a named city or infrastructure episode and follow investment or policy authority into operating service, household time and cost, hazard exposure, mobility, and durable local legitimacy. The missing evidence is not another aggregate urbanization forecast; it is whether the built system actually changes what residents can reach, afford, avoid, and contest.
+
+## Latest within-city inclusion rotation: growth must be translated into opportunity at neighbourhood scale
+
+The [OECD Inclusive Growth in Cities record](records/comparative-oecd-inclusive-growth-cities-2026-within-city-opportunity-gaps.json) tests the Madagascar route across more than 600 EU cities. The OECD finds that higher productivity and GDP growth do not automatically accompany lower poverty, lower inequality, or better access to opportunity; 37 million urban residents are at risk of poverty or social exclusion, and in many cities poverty reduction has stalled or reversed even where productivity exceeds national averages. Nearly one in three residents in large and mid-sized cities cannot reach public transport within a ten-minute walk, and around one in four lack access to green space. The mechanism is cumulative and spatial: education, work, housing, health, mobility, and services can reinforce one another inside the same neighbourhood.
+
+The report also supplies a useful implementation contrast. Selected examples—Tromsø language introduction, Lisbon Housing First, Madrid youth transport, and Barcelona school desegregation—show that targeted programs can change employment, housing stability, mobility, or achievement when they join people-based support to place-based investment. But approximately 60% of surveyed cities still implement inclusive growth through departmental silos, while financing, granular data, technical capacity, and stakeholder alignment remain constraints. The cross-source implication is that urban inclusion is a delivery architecture, not a single program: growth, housing, transport, public services, climate action, participation, data, and political communication must be coordinated over time. This record combines comparative associations, city surveys, and selected intervention evidence; it is not a universal causal effect or a respondent-level longitudinal study.
+
+The open U.S. arrow is now sharper: select a named city intervention and measure neighbourhood exposure, usable service, household time and cost, employment or housing transition, and resident influence together. Citywide GDP or program enrollment is insufficient evidence that opportunity has actually widened.
+
+## Latest supply-chain resilience rotation: strategic dependence becomes household exposure through hidden network structure
+
+The [UK Government Office for Science global supply chains record](records/comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience.json) adds a network-level layer to the IMF trade and World Bank shock findings. The report argues that supply chains are not linear bilateral chains: risk concentrates in multi-tier firms, processing stages, transport routes, and shared chokepoints, often several steps upstream from the final importer. The UK’s 2024 goods-and-services trade flows were about 63% of GDP, compared with 25% for the United States, and roughly half of UK production depends on intermediate inputs produced abroad. The comparison is not a simple ranking; it shows why exposure must be read through network position, substitutability, inventories, and domestic capacity rather than trade volume alone.
+
+The report’s four 2040 scenarios vary geopolitical cooperation versus fragmentation and proactive versus lagging climate adaptation. Their value is not prediction but stress-testing: similar hazards can generate different shortages, costs, and recovery paths depending on cooperation, governance, resilience investment, and the ability to coordinate beyond individual firms. Recent examples—Suez, Panama Canal drought, energy disruption, and maritime chokepoints—show the route from infrastructure or geopolitical shock to shipping, energy, consumer-goods, and affordability pressure, while leaving household incidence and recovery open. The cross-source implication is that “resilience” is a contested allocation choice: redundancy, strategic reserves, friend-shoring, adaptation, and security spending may reduce systemic risk while increasing prices or shifting costs across consumers, firms, workers, and allied partners.
+
+The next U.S.-facing test is a named commodity, infrastructure, or essential-service episode that follows a network shock into realized availability, price, substitution, public response, and unequal incidence. Scenarios and aggregate trade statistics identify vulnerability; they do not show who actually pays or who gains protection.
+
+## Latest platform-governance rotation: algorithmic control is becoming a formal labor-rights and remedy question
+
+The [ILO Platform Economy Convention No. 193 record](records/comparative-ilo-platform-economy-convention-2026-algorithmic-management-rights-remedy.json) adds a normative layer to the platform-work findings. Adopted on 12 June 2026, the Convention applies in principle to all digital labor platforms and platform workers, including formal and informal work, and defines platform work around automated decision-making regardless of whether the work occurs online or in a specific location. It makes classification, timely pay, expenses, social security, collective bargaining, safety, and formalization explicit governance questions rather than leaving them to platform design alone.
+
+Its most important bridge is from algorithmic control to contestability. Members are expected to require information about automated monitoring and decisions, written explanations for significant adverse decisions, human involvement in review, access to data correction and erasure, protection against unlawful deactivation, and safe and effective dispute resolution and remedies. The standard also recognizes the cross-border problem: platform, client, intermediary, and worker can sit in different jurisdictions, so territorial implementation and enforcement become part of the worker-control chain. This is an adopted international standard, not evidence that countries have ratified it, platforms comply, workers know their rights, or a deactivated worker actually recovers pay or access.
+
+The open U.S. arrow is unusually concrete: follow a named platform case through domestic classification, algorithmic explanation, human review, deactivation, remedy, earnings recovery, and bargaining power. The Convention gives the world a formal vocabulary for those stages; it does not close the practical gap between a right on paper and a usable route under time and income pressure.
+
+## Macro conditions become social trends through trade, prices, fiscal space, and regional divergence
+
+The [UN DESA WESP 2026 record](records/comparative-un-desa-wesp-2026-growth-trade-inflation-fiscal-space.json)
+adds the macroeconomic layer behind household, consumer, work, and geopolitical
+signals. UN DESA projects global growth of 2.7% in 2026, below the 3.2%
+pre-pandemic average; trade growth is projected to slow from 3.8% in 2025 to
+2.2% in 2026. Investment remains subdued in most regions, while high debt and
+borrowing costs constrain policy space, particularly in many developing
+economies.
+
+The mechanism is macro-shock-to-room conversion. Tariffs, trade rerouting,
+geopolitical uncertainty, inflation, debt, and fiscal constraints alter firm
+investment, employment, prices, public spending, and household purchasing power.
+UN DESA projects 2026 growth at 2.0% in the United States, 1.3% in the EU, 4.4%
+in East Asia, 5.6% in South Asia, 4.0% in Africa, and 2.3% in Latin America and
+the Caribbean. Headline inflation is easing, but elevated prices continue to
+weigh on real incomes. This record uses aggregate forecasts, not household
+microdata, individual price exposure, firm-level causal outcomes, wage histories,
+poverty transitions, or proof that macro changes affect every group alike.
+
+**Rotation finding:** follow a macro signal from trade, conflict, debt, and
+monetary policy through investment, prices, wages, jobs, public capacity,
+household room, consumption, and political legitimacy. The open arrow is whether
+domestic policy, social protection, supply-chain resilience, and multilateral
+coordination convert slower growth into shared adaptation or deepen unequal
+exposure.
+
+## Household structure is social infrastructure: demographic change is redistributed through co-residence, generations, and care capacity
+
+The [UN DESA household and living-arrangements record](records/comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity.json)
+adds a household-structure route across household size, age composition,
+multigenerational and skipped-generation living, older-person arrangements,
+housing, migration, care, and public services. The 2026 database covers 200
+countries and areas, uses 1,129 unique sources, and represents approximately 98%
+of the world population. Its indicators include household size, households with
+members under 20 or 65 and over, multigenerational households, three-generation
+households, and skipped-generation households.
+
+The mechanism is demographic-change-to-care-organization conversion. Age
+structure and migration become lived conditions through who co-resides, pools
+resources, supervises children, supports older adults, absorbs care time, or
+relies on public services. Household composition is an important baseline, but it
+does not tell us whether care is available, safe, equitable, or wanted. This
+record uses UN DESA aggregate estimates standardized across many sources, not
+raw respondent-level data, individual household histories, care-time diaries,
+household budgets, causal welfare estimates, or proof that household form
+determines support or well-being.
+
+**Rotation finding:** follow a household signal from fertility, aging, and
+migration through co-residence, housing, care time, work, health, income,
+isolation, and social protection. The open arrow is whether multigenerational and
+public arrangements provide real capacity or merely hide unequal unpaid care and
+housing burdens inside households.
+
+## Unpaid care is a time-and-work infrastructure, not a private residual
+
+The [EIGE CARE Survey second-wave record](records/comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools.json)
+adds a 27-country European route linking informal long-term care, childcare,
+housework, leisure, volunteering, formal-care access, employment, work–life
+balance, transport, digital tools, migration, and gender roles. Its technical
+report documents 65,202 respondents aged 16–74, fielded across all EU Member
+States, with quotas and post-fieldwork weights. The source is valuable because it
+puts care beside the systems that make care possible or costly: services,
+mobility, digital coordination, workplace control, and time for social life.
+
+The mechanism is care-responsibility-to-optionality conversion. Unpaid care can
+become reduced employment flexibility, lost leisure, constrained mobility,
+household strain, or unequal voice, while formal services and workplace control
+can preserve room to act. The survey supports a comparative measurement route,
+not a causal estimate of lost income or a claim that all care is a burden; its
+online-panel design, weighting, self-report, and non-longitudinal structure
+remain important boundaries.
+
+**Rotation finding:** follow a care signal from household composition and gender
+norms through time allocation, formal-service access, transport, digital tools,
+employment, health, social connection, and political recognition. The open arrow
+is whether care policy changes the distribution of time and control or merely
+records unequal private adaptation.
+
+## Digital trust is an access-and-recourse problem, not only an attitude
+
+The [Thales Digital Trust Index 2026 record](records/comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy.json)
+adds a concrete identity-system route. Across 13 countries, the source reports
+that 57% of consumers encountered a website-access problem in the prior year and
+68% abandoned or switched because of slow performance or complicated sign-up;
+45% preferred stronger security checks even if access took longer, while only
+16% clearly understood how companies used their data. The signal is not simply
+“people distrust technology”: the design of access, explanation, authentication,
+and recovery changes time, channel choice, and practical participation.
+
+The same source places organizational AI adoption beside consumer hesitation:
+93% of surveyed IT leaders reported using, deploying, or planning generative-AI
+initiatives, while only 23% of consumers trusted companies to use AI responsibly
+with their data and 77% were concerned about AI agents acting on their behalf.
+The mechanism is adoption-to-control conversion. AI and digital services can
+reduce effort, but without visible permissions, understandable data practices,
+human support, and reversibility, the burden shifts to users through delay,
+switching, credential sharing, or exit.
+
+**Rotation finding:** follow a digital signal from identity and access through
+authentication, data comprehension, AI delegation, essential-service reliance,
+fraud exposure, provider accountability, appeal, and durable inclusion. The open
+arrow is whether systems convert security into user control or merely impose
+friction and ask users to absorb the resulting risk.
+
+## Public-sector AI legitimacy depends on usable oversight
+
+The [BCG Digital Government Citizen Survey record](records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json)
+adds a 44-country public-service route to the technology layer. BCG reports
+48,500 respondents, 64% weekly AI use, rising comfort with agentic systems among
+more proficient users, and a continuing demand for human oversight. It also
+reports regional variation: Europe sits below the global average in AI comfort,
+while the Americas show a five-point increase in people saying AI benefits
+outweigh risks.
+
+The mechanism is service-speed-to-legitimacy conversion. Citizens may want
+governments to use AI to improve slow or unsatisfying digital services, but
+acceptance depends on whether people can understand, contest, and escalate a
+decision. Appeals and public reporting are therefore not decorative safeguards;
+they are the proposed bridge from automated capacity to accountable authority.
+The source is a sponsor-produced public survey summary, not evidence that an
+appeal actually corrected a case or that AI improved equity, accuracy, or trust.
+
+**Rotation finding:** follow a public-AI signal from adoption and proficiency
+through service quality, human review, explanation, appeal, reporting, remedy,
+regional difference, and durable legitimacy. The open arrow is whether oversight
+is operationally usable or merely present in policy language.
+
+## Government AI is becoming an operating-capacity problem, not only a software-adoption problem
+
+The [Gartner government technology trends record](records/comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce.json)
+adds the institution-side complement to BCG’s citizen-side evidence. Gartner’s
+September 2026 outlook links agentic AI to operating-model redesign, digital
+identity, outcome metrics, and governance; it links AI-era cyber risk to
+continuous resilience, supply-chain visibility, crypto agility, and data
+sovereignty; and it reports that 78% of 1,219 surveyed government CIOs and IT
+leaders expected to invest in people for technology initiatives.
+
+The mechanism is capability-to-legitimacy conversion. A government cannot make
+AI-enabled services legitimate through interface speed alone: it needs workers
+who can operate and contest the systems, security practices that preserve
+continuity and sovereignty, and service models that retain accountability while
+adapting. This is an analyst forecast and summarized CIO survey, not evidence
+that the recommended investments have delivered equitable or trusted services.
+The open arrow is whether organizational capacity becomes usable explanation,
+appeal, privacy, and remedy for residents—or primarily accelerates automation
+and vendor dependence.
+
+**Rotation finding:** follow the institutional signal from agentic adoption
+through workforce capability, cyber resilience, identity, operating-model
+change, accountability, resident contestability, and durable public value.
+
+## Prosperity is being redefined as shared planning capacity, not individual income alone
+
+The [Prosper Global Voices of Prosperity record](records/comparative-prosper-global-voices-of-prosperity-2026-shared-planning-community.json)
+adds a qualitatively different global source: 396 individual and group
+conversations with 1,102 people across Colombia, the Democratic Republic of
+Congo, Indonesia, Kenya, Syria, and Ukraine, conducted by local teams in 15
+languages. Across communities facing conflict, climate change, displacement,
+and economic hardship, participants described prosperity as shared wellbeing,
+safety, viable livelihoods, local knowledge, mutual support, and the ability to
+plan beyond immediate survival.
+
+The mechanism is survival-to-planning conversion. Relief can protect people in
+an acute crisis, but durable prosperity requires enough security, resources, and
+local agency to make decisions about education, work, family, and the future.
+This complements the atlas’s household-room, care, climate, migration, and
+geopolitical records while adding a critical boundary: “community resilience”
+must not become a way to shift responsibility onto communities without public
+protection or structural investment. The source is purposive qualitative
+research, not prevalence or causal evidence. The open arrow is whether
+community-defined priorities become durable security, services, livelihoods,
+and political voice.
+
+**Rotation finding:** follow prosperity from shared meaning through safety,
+planning room, local capability, livelihood opportunity, public support, and
+durable collective agency.
+
+## Volunteerism is becoming visible social infrastructure—but visibility can redistribute responsibility
+
+The [UNV State of the World’s Volunteerism record](records/comparative-unv-state-world-volunteerism-2026-give-social-infrastructure.json)
+adds a global measurement and collective-action layer. The report estimates
+that 34.5% of working-age people—about 2.1 billion people—engage in volunteer
+work each month, while noting that fewer than one-third of UN Member States
+have measured volunteer work through national statistics since 2008. It
+introduces the Global Index of Volunteer Engagement (GIVE), organized around
+value to individuals, communities, and the economy, plus the enabling
+environment that sustains volunteering.
+
+The mechanism is solidarity-to-institutional-capacity conversion. Volunteer
+action can build trust, social cohesion, crisis response, skills, and collective
+problem-solving, but those contributions are not automatically fair, durable,
+or additive to public provision. Measurement can make mutual aid visible and
+fundable; it can also narrow culturally specific forms of care, normalize unpaid
+substitution for services, or shift crisis burdens onto already exposed groups.
+UNV’s report is a measurement framework and evidence synthesis, not a causal
+estimate that volunteering produces development or trust. The open arrow is
+whether recognition leads to fair support, public investment, inclusion, and
+usable civic power.
+
+**Rotation finding:** follow social capacity from volunteer action through
+visibility, recognition, support, institutional partnership, unequal burden,
+and durable collective agency.
+
+## Belonging is a participation-infrastructure problem, not simply a social-attitude problem
+
+The [YMCA Canada Connections Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third-places-belonging.json)
+adds a concrete place-and-access layer to the social-connection evidence. In a
+representative online sample of 1,503 Canadians, only 36% felt connected to
+their community all or most of the time. Yet 77% said spaces beyond home and
+work are important for connection, while only 33% regularly used them and 64%
+wished more were available locally. Face-to-face experiences ranked above
+online connection, but affordability and welcome shaped whether people could
+actually participate.
+
+The mechanism is desire-to-participation conversion. Belonging requires more
+than wanting connection: people need time, a credible entry point, social
+safety, affordability, and a place that signals they are welcome. The survey
+reported social discomfort, lack of time, and not knowing where to start as the
+leading barriers. This is sponsor-released cross-sectional evidence, not a
+causal evaluation of third places or proof that more venues automatically
+produce belonging. The open arrow is whether investment in accessible,
+welcoming, time-compatible spaces produces durable relationships, civic voice,
+and health capacity—or remains a stated preference disconnected from use.
+
+**Rotation finding:** follow connection from perceived importance through place
+availability, affordability, welcome, time, entry-point clarity, actual use,
+relationship formation, and durable belonging.
+
+## Civic association is a political bridge—but only diverse, repeated contact may widen it
+
+The [USC Schaeffer Index record](records/comparative-usc-schaeffer-index-2026-civic-association-populism-20-countries.json)
+adds an initial 20-country political-culture route based on approximately
+32,000 adults. Across the countries surveyed, 45% reported no participation in
+any civic association, group, or club, and only 40% participated with meaningful
+frequency. Yet group participants reported more contact across lines of race,
+class, religion, and politics, and higher community belonging. The political
+composition of groups mattered: the public summary reports lower
+populist-nationalist support among participants in politically diverse religious
+organizations than among participants in highly homogeneous ones.
+
+The mechanism is association-to-bridging conversion. Membership alone is not
+the key unit; repeated contact across difference, political diversity, and the
+quality of group relationships may determine whether civic life broadens
+belonging or reinforces insulated identity. The findings are cross-sectional
+associations from an initial survey round, not evidence that civic groups cause
+lower populist support. The open arrow is whether investment in accessible,
+cross-cutting civic institutions changes institutional trust and political
+behavior, or mainly attracts people already predisposed toward pluralism.
+
+**Rotation finding:** follow political mood from decline perception through
+social time, group access, friendship, bridging contact, political diversity,
+belonging, institutional trust, and durable political action.
+
+## Global-health capacity is an architecture problem: voice, overlap, timing, and transition shape delivery
+
+The [KFF global-health architecture record](records/comparative-kff-global-health-architecture-2026-institutions-financing-civil-society.json)
+maps 14 international organizations across governance, mission, health focus,
+functional modality, funding, eligibility, and country financing. The report
+shows that institutional voice is uneven: multi-stakeholder partnerships more
+often include civil society in formal governance, while member-state entities
+may engage non-state actors without giving them decision-making power. Ten of
+the 14 organizations focus on health-systems strengthening, with substantial
+overlap in technical assistance, while fundraising and country-financing cycles
+are generally misaligned.
+
+The mechanism is architecture-to-delivery conversion. Money and expertise do
+not become durable service capacity automatically: countries must navigate
+multiple grant calendars, reporting systems, eligibility rules, graduation
+policies, and co-financing requirements. Rising national income is not the same
+as fiscal, institutional, or service-delivery readiness to replace external
+support. The KFF report is a descriptive mapping, not a performance or causal
+evaluation. The open arrow is whether global-health reform produces aligned,
+accountable, country-owned capacity—or simply redistributes institutional
+authority while leaving administrative burden and transition risk with health
+ministries and communities.
+
+**Rotation finding:** follow global health from governance voice through mandate
+overlap, financing timing, technical assistance, eligibility, transition,
+country capacity, service continuity, and durable health equity.
+
+## Resigned resilience turns economic fatigue into cultural anchoring and selective meaning
+
+The [Ipsos B&A Sign of the Times 2026 record](records/comparative-ipsos-ba-sign-of-times-2026-irish-consumer-resigned-resilience-identity-ai-housing.json)
+adds a deep Ireland-specific cultural-consumer route. Its mixed-method research
+describes 74% expecting the global economy to worsen, one in five struggling to
+get by, 31% unable to afford an unexpected necessary €1,000 expense, and a shift
+from cautious optimism toward “resigned resilience.” The important analytical
+point is that financial strain does not erase culture: people create “bubbles of
+normalcy,” protect joy, and use local language, sport, music, and stories as
+anchors under prolonged uncertainty.
+
+The source also links geopolitical meaning to consumer identity: 76% prioritize
+the EU for future alliances versus 35% the United States, while economic ties to
+U.S. multinationals remain important. Alongside that, AI is becoming an
+alternative search and learning interface, yet respondents still assign greater
+meaning to human creation and express anxiety about mastery, trust, and
+performance. Housing pressure further scrambles life-stage expectations by
+extending parental support and delaying independence. This is a cultural
+interpretation and mixed-method survey route, not a causal Irish household panel
+or a universal model of national identity.
+
+**Rotation finding:** follow an economic signal from prices, liquidity, and
+geopolitical uncertainty through coping rituals, cultural identity, alliance
+meaning, AI-mediated discovery, human authenticity, housing, intergenerational
+support, and life-stage agency. The open arrow is whether cultural anchoring
+creates durable collective capacity or merely makes prolonged insecurity livable.
+
+## Mental load is an invisible care infrastructure with an intention-to-action gap
+
+The [YouGov Nordic mental-load record](records/comparative-yougov-nordic-mental-load-2026-gender-wellbeing-help-seeking.json)
+adds a four-country route across Finland, Sweden, Norway, and Denmark. Awareness
+of the term itself varies sharply—from 68% in Finland to 20% in Sweden—while
+women, young mothers, and people under tighter financial pressure report more
+pronounced wellbeing strain. The cross-source implication is that the work of
+planning, anticipating, coordinating, and maintaining household life can remain
+socially invisible even when it is shaping sleep, fatigue, leisure, and paid-work
+capacity.
+
+The report also identifies a support-conversion gap: in Sweden, 40% say they
+would likely seek professional support while 33% report having already done so;
+in Finland, nearly half express willingness while less than a third report
+having acted. This makes mental load an institutional route, not just a personal
+wellness topic. Awareness, willingness, access, confidence, service quality,
+workplace boundaries, and durable improvement are separate stages. The source is
+an online-panel survey summary, not clinical data, time-use diaries, or causal
+evidence that any intervention changes wellbeing.
+
+**Rotation finding:** follow a care-and-work signal from invisible coordination
+through gendered wellbeing, financial pressure, rest, workplace control,
+help-seeking, service access, and recovery. The open arrow is whether employers
+and public systems reduce the underlying load or merely teach individuals to
+cope with it.
+
+## Place changes the meaning of demographic and economic transition
+
+The [Nordregio State of the Nordic Region 2026 record](records/comparative-nordregio-state-nordic-region-2026-demography-labour-place-capacity.json)
+adds a territorial-capacity layer across eight Nordic countries and territories,
+with evidence organized from Nordic and national averages down to regions and
+municipalities. The report projects the Nordic population to grow from roughly
+28 million to 30 million by 2045, driven by net migration while natural change
+turns negative; growth concentrates in urban and peri-urban places while many
+rural and sparsely populated areas age or decline.
+
+The mechanism is place-to-optionality conversion. The same demographic, labour,
+green-transition, or geopolitical shock can mean labour demand and innovation
+opportunity in one region, but service contraction, infrastructure strain, or
+housing pressure in another. Nordregio’s inclusion of labour vulnerability,
+critical infrastructure, regional economic resilience, and green innovation
+prevents “Nordic performance” from being treated as one national condition.
+The report is a descriptive and projection-based regional synthesis, not a
+causal place index or proof that capacity is evenly distributed.
+
+**Rotation finding:** follow a regional signal from population and migration
+through labour supply, housing, infrastructure, innovation, services, identity,
+and territorial governance. The open arrow is whether intergovernmental and
+local capacity converts national prosperity into lived regional inclusion.
+
+## Regional well-being is becoming an explanatory infrastructure for trust and policy targeting
+
+The [OECD Regional Well-Being record](records/comparative-oecd-regional-wellbeing-2026-eleven-dimensions-place-trust-policy-targeting.json) adds a measurement-infrastructure layer rather than another single-country survey. The OECD tool compares regions across eleven dimensions—income, jobs, housing, health, access to services, environment, education, safety, civic engagement and governance, community, and life satisfaction. This matters because a national trend can improve while the local combination of housing, services, work, safety, and belonging deteriorates in particular places.
+
+The mechanism is place-to-legitimacy conversion. Regional disparity becomes politically meaningful when residents experience it as unreliable services, weak connectivity, fewer jobs, unaffordable housing, or limited voice. The framework supports comparison and policy targeting, but does not prove that a regional score causes distrust, migration, voting, or growth; scores are descriptive, the tool changes over time, and the region-count display differs across OECD pages. The open arrow is whether measurement leads to durable local capacity and resident influence rather than ranking alone.
+
+## Information authority is fragmenting by generation, topic, and source function
+
+The [AP-NORC/API Media Insight record](records/us-ap-norc-media-insight-2026-influencers-news-trust-generational-authority.json) adds a U.S. information and culture route based on nationally representative teen and adult samples. Fifty-seven percent report getting news or information from influencers or independent creators at least sometimes, rising to 81% of teenagers. Creator use spans national issues, culture and entertainment, health and wellness, and local information, but perceived authority remains task-specific: local news ranks above national news, creators, and AI chatbots in general confidence, while creators are still widely used for discovery and interpretation.
+
+The mechanism is attention-to-authority conversion. People are not simply choosing “traditional” or “alternative” media; they are assigning different jobs to different sources, while blaming politicians and social platforms for misinformation and often managing exposure through news avoidance. The source does not establish accuracy, persuasion, replacement of journalism, or civic disengagement. The open arrow is whether distributed discovery produces better understanding and local connection—or a more personalized but less accountable information environment.
+
+## Streaming is becoming cultural discovery infrastructure, not only a delivery channel
+
+The [DIMA 2026 music-streaming record](records/comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai.json) adds a platform-to-culture route across the United States, Canada, Brazil, Chile, and Mexico. In the U.S. study, half of respondents stream daily, 69% name streaming as a main source of new-music discovery, and 88% use it to discover older songs. The result is a dual cultural system: recommendation infrastructure expands novelty while also making back-catalogue memory searchable, replayable, and commercially active.
+
+The mechanism is platform-access-to-cultural-meaning conversion. Streaming can deepen artist connection, widen genre and cross-border discovery, and support local culture, but it also concentrates discovery, data, revenue, and regulatory leverage in a small number of services. DIMA is an industry association and the report is sponsor-produced; the findings do not establish artist-level distribution, broad consumer surplus, or that platform reach automatically strengthens local cultural ecosystems. The open arrow is whether convenience and discovery become durable cultural participation or deeper dependence on platform ranking and terms.
+
+## Youth culture is shifting from audience consumption toward co-creation and micro-community agency
+
+The [Mastercard Next Growth Generation record](records/comparative-mastercard-youth-culture-2026-genalpha-agency-creators-fandom-ai.json) adds a cross-market youth-culture layer across 18 markets. Its central signal is not simply that younger people use more technology: Gen Z and Gen Alpha are described as moving from consuming media toward co-creating social videos, games, tools, and brand culture. Fandoms, creators, and micro-communities become identity and belonging infrastructure, while Gen Alpha’s influence enters markets through household negotiation before full independent purchasing power.
+
+The mechanism is youth-agency-to-market-meaning conversion. AI co-pilots, creator economies, and blended digital/physical realities can give young people more ways to shape culture, but they can also shift agency into commercial platforms that monetize participation, data, attention, and identity. The report is sponsor-produced strategic research with limited public methodological detail and projections that should not be treated as universal youth behavior. The open arrow is whether co-creation produces durable voice and opportunity—or simply a more participatory form of commercial influence.
+
+## Wellbeing is becoming a consumer-led negotiation over affordability, trust, time, and control
+
+The [Kantar Pursuit of Wellbeing record](records/comparative-kantar-pursuit-wellbeing-2026-affordability-agency-care-ai.json) adds a wellbeing route that connects financial pressure to health choices, care navigation, personalization, and AI guidance. Its central signal is not simply growing interest in wellness: people are increasingly asked to assemble wellbeing from fragmented services, products, information sources, and routines while the conditions that shape health—money, time, trust, and institutional reliability—remain uneven.
+
+The mechanism is pressure-to-self-management conversion. Affordability makes wellbeing choices selective; fragmented systems increase navigation work; and AI can widen access to guidance while moving judgment and accountability into opaque commercial tools. Kantar’s article is a commercial foresight synthesis, not a population-health estimate or clinical study. The open arrow is whether consumer agency supplements institutional capacity or becomes a way of privatizing the burden of staying well.
+
+## Mental scarcity is turning time, control, and trusted guidance into consumer value
+
+The [WPP Media 2026 consumer-trends record](records/comparative-wpp-media-nordic-consumer-trends-2026-mental-scarcity-status-control.json) adds a Nordic commercial-foresight layer. Its “Age of Mental Scarcity” frame links information overload, polarization, unpredictability, and repeated choice-making to four named trends: Zillennial Squeeze, Lead Me-Lifestyle, and Status Redefined alongside the umbrella scarcity condition. The source describes younger adults as recalibrating success toward attainable goals, balance, and mental well-being; overwhelmed consumers as turning to trusted curators, experts, influencers, or algorithms; and status as increasingly expressed through freedom, time, control, and inner peace rather than only visible luxury.
+
+The mechanism is complexity-to-outsourcing conversion. When attention and decision capacity feel scarce, people may buy or delegate simplicity, but the same move can deepen platform dependence and obscure incentives. Time sovereignty becomes a status signal only where people can afford services, flexibility, or environments that create it, so the cultural language should not be mistaken for equal lived agency. WPP’s public overview is commercial foresight, not a representative Nordic survey or causal account. The open arrow is whether trusted guidance restores mental room or transfers judgment to opaque intermediaries.
+
+## Generative AI is becoming a cultural-representation and legitimacy problem
+
+The [Google Research cultural GenAI record](records/comparative-google-research-cultural-genai-2026-identity-redlines.json) adds a 13-country cultural-governance layer to the AI route. The preprint finds that people describe culture through overlapping dimensions—religion and tradition, nationality, ethnicity or tribe, language, heritage, artifacts, history, and social practice—rather than through geography alone. It reports substantial familiarity with generative AI but also a recurring boundary: more than 20% of respondents in every surveyed country, often more than 30%, said some aspects of their culture should never be represented by generative AI. Inaccurate information was the leading perceived threat.
+
+The mechanism is representation-to-legitimacy conversion. A model can be technically available while culturally unacceptable if it flattens sacred meaning, commercializes or distorts local practice, mishandles historical trauma, or removes community control over who represents what. The paper is a cross-sectional preprint survey with uneven country samples, not an output audit or causal evaluation. The open arrow is whether participatory design, cultural red-line controls, attribution, and recourse become operational safeguards—or remain principles outside the model-development and platform decisions that matter.
+
+## Workplace culture is an operating system of decision rights, not a national stereotype
+
+The [SHRM Global Workplace Culture record](records/comparative-shrm-global-workplace-culture-2026-organizational-types-decision-making.json) adds a 25-country, six-continent work-institution layer. SHRM’s Workplace Culture Navigator organizes organizational culture around strategic orientation, work processes and systems, and interactions and relationships, then identifies eight types. The public release reports Growth Collaborator as the most common type at 37.2% of organizations, followed by Strategic Architect at 16.8%, while all eight types appear across regions, industries, and organization sizes.
+
+The mechanism is culture-to-control conversion. What workers experience as “culture” is partly the distribution of decision rights, time horizons, openness, coordination, adaptability, and relationship norms. This reframes workplace culture as an operating system that can shape voice, belonging, retention, and the ability to absorb technological or market change. SHRM’s public materials do not establish causality, and culture labels can individualize problems actually produced by pay, workload, labor law, or bargaining power. The open arrow is whether measured culture differences predict durable worker control after those material conditions are accounted for.
+
+## Public pessimism is converting institutional distrust into demand for disruption and visible results
+
+The [FGS Global Radar 2026 record](records/comparative-fgs-global-radar-2026-pessimism-disruption-affordability.json) adds a cross-national political-legitimacy layer based on polling of 20,000 people in 27 countries and 175 leader interviews. The public findings describe pessimism as dominant across every country polled: 68% say their political system is failing people and needs fundamental reform, 74% say it serves rich and powerful elites, and 40% support strong leaders willing to break rules to get things done. The report also places affordability and fairness at the center of political, regulatory, and consumer judgment.
+
+The mechanism is distrust-to-disruption conversion. When people see institutions as unable or unwilling to deliver, impatience can make disruptors attractive and make technical complexity sound like evasion. The same pattern creates a demand for near-term visible results that can conflict with slow, costly, long-horizon reforms. FGS is a publisher-produced polling and leadership synthesis with limited public methodology, not a causal model of populism or proof of institutional failure. The open arrow is whether pessimism becomes durable political realignment, stronger accountability, or merely a recurring rhetorical demand for speed.
+
+## Consumer trust depends on institutional protection, but protection does not reach everyone equally
+
+The [European consumer-policy and trust record](records/comparative-europe-consumer-policy-trust-vulnerability-2026.json) adds an open-access comparative sociology layer built from 73,120 consumers across 30 European countries and pooled 2016–2020 survey waves. Its central finding is that consumer trust is positively and robustly associated with the strength, effectiveness, and trustworthiness of consumer policy; a one-standard-deviation increase in the policy index is associated with roughly 3.7 points higher trust on the study’s 0–100 scale after economic controls. By contrast, pro-market norms lose their association with trust once economic development is controlled.
+
+The mechanism is institution-to-recourse conversion. Consumer protection can reduce information asymmetry and expected seller opportunism, but the association is strongest among people who do not feel economically vulnerable and can be nullified among more vulnerable consumers. That creates a crucial distinction between formal protection and usable protection: average trust can rise while the people most exposed to poor-quality products, fraud, or weak bargaining power receive less confidence or recovery. The paper is observational and cannot identify the exact dispute, enforcement, or compensation pathway. The open arrow is whether policy institutions produce material recourse for exposed consumers rather than only legitimacy for the average consumer.
+
+## National identity is being operationalized as cultural-state infrastructure
+
+The [WGS/Strategy& national identity record](records/comparative-wgs-strategyand-national-identity-2026-belonging-trust-resilience.json) adds a Gulf-centered strategic-policy lens. The framework breaks identity into demographic markers, cultural markers, economic markers, and civic markers, then distinguishes foundational anchors from how identity is expressed through everyday behavior, participation, trust, and engagement. It treats education, culture, media, tourism, economic development, and civic rituals as places where belonging can be deliberately sustained or adapted.
+
+The mechanism is identity-to-state-capacity conversion. An inclusive identity can create shared purpose and a collective stake in institutional stability, but the same machinery can police belonging, privilege official narratives, or make minority and migrant membership conditional. The public announcement is a strategic framework with selected UAE and Saudi examples, not evidence that these policies produced trust or competitiveness. The open arrow is whether identity policy creates broad-based material confidence and participation—or substitutes symbolic cohesion for equal rights, voice, and effective public delivery.
+
+## Social cohesion can be tolerant without being trusting, inclusive, or politically actionable
+
+The [Afrobarometer Social Cohesion in Africa record](records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json) adds a grounded pan-African public-opinion layer from 50,961 interviews in 38 countries. The pattern is internally tensioned: 87% would accept a neighbour of a different ethnicity and 84% one of a different religion, yet trust falls from 81% for relatives to 58% for neighbours and roughly half for people of another ethnicity or religion. Immigration marks a sharper boundary, with 64% preferring fewer or no foreign job seekers and 70% fewer or no refugees.
+
+The mechanism is tolerance-to-institutional-cooperation conversion. Social acceptance creates potential common ground, but perceived unequal treatment, powerful interests influencing judges, and unequal application of law can prevent tolerance from becoming trust or civic action. Informal solidarity is strong—47% sought help from relatives and 33% from friends or neighbours—yet only 15% joined others to raise an issue with government. Afrobarometer’s cross-sectional profile does not establish causality or uniform continental conditions. The open arrow is whether fair institutions and usable civic channels convert close-group support and everyday tolerance into broader collective capacity.
+
+## Aging and fertility: longer lives and smaller younger cohorts are reorganizing care, work, households, and public capacity
+
+The [U.S. Census aging-world record](records/comparative-us-census-aging-world-2025-fertility-trap-age-friendly-capacity.json)
+adds a demographic-structure route across longevity, falling fertility,
+population shrinkage, households, care, work, age-friendly communities, AI,
+health systems, and humanitarian disasters. The Census Bureau reports that the
+global population is aging faster than expected a decade ago; 77 countries
+already have at least 14% of their population at older ages. It describes a
+fertility trap in which sustained below-replacement fertility eventually reduces
+the number of potential parents and accelerates population aging and shrinkage.
+
+The mechanism is age-structure-to-capacity conversion. The demographic shift
+becomes social through the number and health of working-age adults, household
+care networks, public transfers, housing, health systems, employment, technology,
+and disaster response. This is not simply a dependency-ratio story: longer life
+and better health can create knowledge, civic, and economic capacity, while weak
+institutions can make the same age structure feel like a care or fiscal crisis.
+The record uses aggregate demographic estimates, projections, and literature
+synthesis, not respondent-level data, individual life histories, household care
+records, causal political or welfare estimates, or proof of one universal aging
+outcome.
+
+**Rotation finding:** follow an age signal from fertility and mortality through
+households, care time, work, migration, housing, health, AI, disaster exposure,
+public transfers, and intergenerational legitimacy. The open arrow is whether
+age-friendly institutions convert longer lives into social capacity or whether
+care and labor gaps turn demographic change into unequal exposure and political
+conflict.
+
+## Gender equality is an institutional-power problem: formal architecture can persist while authority, funding, and implementation weaken
+
+The [UN Women/UN DESA Gender Snapshot record](records/comparative-un-women-desa-gender-snapshot-2026-institutional-power-leadership.json)
+adds a cross-SDG route across leadership, courts, parliaments, gender-equality
+mechanisms, civic space, funding, social norms, and accountability. The report
+projects another 63 years to parity in national parliaments at the current pace;
+among 175 chief justices it counts 144 men and 31 women. In a 2026 survey, 32%
+of national gender-equality mechanisms reported that their institutional power
+had eroded over the previous two years.
+
+The mechanism is formal-rights-to-implementation conversion. Laws and agencies
+can exist while losing authority, resources, civic-space protection, or practical
+enforcement, weakening the route from gender commitments to work, care, safety,
+peace, climate, and public-service outcomes. The report argues that where women
+hold real power, gender-responsive policy and institutional accountability are
+more likely, but this record uses aggregate indicators and institutional
+synthesis, not respondent-level data, individual leadership histories, household
+time-use or income records, causal estimates of women leaders, or proof that
+representation alone produces equal outcomes.
+
+**Rotation finding:** follow a gender signal from representation and formal rights
+through institutional authority, funding, civic space, norms, legal enforcement,
+care, work, safety, climate, peace, and public legitimacy. The open arrow is
+whether restoring institutional power converts equality commitments into durable
+implementation or leaves an architecture that is visible but hollow.
+
+## Tourism is recovering into a cultural and digital growth phase, but access, labor, crowding, and benefit distribution remain contested
+
+The [WEF Travel & Tourism Development Index record](records/comparative-wef-travel-tourism-development-index-2026-cultural-openness-affordability.json)
+adds a mobility-and-place route across cultural resources, openness, digital
+readiness, affordability, infrastructure, workforce, tourism jobs, crowding, and
+local benefit distribution. Between 2024 and 2026, 14 of 17 TTDI pillars
+improved, average scores rose about 2%, and 92% of ranked economies improved.
+Cultural Resources was the most improved pillar, rising 9.6%, while online
+demand for cultural and entertainment attractions rose about 15%.
+
+The mechanism is mobility-to-place conversion. Easier access, stronger cultural
+assets, and digital discovery can turn heritage, food, festivals, and local
+traditions into visitor demand and jobs. But the same growth phase can raise
+prices, expose workforce and skills gaps, intensify crowding, and distribute
+benefits unevenly. The WEF estimates 1.5 billion international arrivals, USD
+11.6 trillion in total tourism contribution, and 366 million supported jobs in
+2025, but its index measures enabling conditions rather than resident welfare or
+inclusive outcomes.
+
+**Rotation finding:** follow a mobility signal from borders and affordability
+through digital discovery, cultural demand, transport, hospitality work, local
+income, crowding, environmental pressure, and political legitimacy. The open
+arrow is whether managed growth converts cultural and natural assets into broad
+local capability or concentrates value while residents absorb the costs.
+
+## Consumer polarisation: inflation can hollow out the mainstream while households switch between premium and value modes
+
+The [NIQ/World Data Lab consumer-polarisation record](records/comparative-niq-world-data-lab-two-consumers-2026-premium-value-polarization.json)
+adds a global consumption route across FMCG prices, basket trade-offs,
+premiumisation, value choices, private label, cultural relevance, and regional
+income mobility. The report says global FMCG prices rose 26% from 2021 to 2025;
+it projects affluent consumers to account for USD 35.9 trillion of 2026 spending
+versus USD 31.6 trillion for the much larger core-consumer group. It also
+projects North America and Europe's share of the global core-consumer population
+to fall from 41% to 13% by 2036, as volume growth shifts toward emerging markets.
+
+The mechanism is price-pressure-to-selective-basket conversion. Households do
+not simply become “premium” or “value” consumers: they trade up when trust,
+function, convenience, identity, or cultural relevance earns the premium, and
+trade down where it does not. That can hollow out mainstream products while
+making private label, precise claims, local distribution, and category-specific
+value more important. This record uses commercial market analysis and
+projections, not individual household budgets, respondent purchase histories,
+causal welfare estimates, nutrition outcomes, or proof that commercial classes
+map cleanly onto social classes.
+
+**Rotation finding:** follow a consumption signal from inflation and wages through
+price tiers, trust, cultural fit, private label, social commerce, regional income
+mobility, household trade-offs, and firm market power. The open arrow is whether
+selective upgrading preserves meaningful choice or whether polarization leaves
+households and products stranded between unaffordable premium and eroded value.
+
+## AI-mediated participation: scaling voice can broaden access while shifting representation into systems that need oversight
+
+The [OECD AI citizen-participation record](records/comparative-oecd-ai-citizen-participation-2026-democratic-innovation.json)
+adds a technology-to-democracy route based on 50 use cases across 22 countries.
+The report identifies nine application types, with sense-making, virtual
+assistance, and translation among the most widespread; deliberative processes
+are a prominent site of experimentation. These tools can improve design,
+accessibility, interpretation at scale, communication, and process cost, but
+the reviewed government use remains mostly ad hoc or pilot-based, with local
+governments driving much of the emerging practice.
+
+The mechanism is mediated-voice conversion. AI can help more people enter,
+translate, summarize, or navigate a participatory process, while also deciding
+which inputs are legible, grouped, prioritized, or omitted. The OECD flags
+ethical, operational, exclusion, public-resistance, skills, scaling, and vendor
+lock-in risks. This record uses public use-case analysis, not respondent-level
+records, representative participation rates, individual political histories,
+causal effects on turnout or trust, proof of policy influence, or evidence that
+every deployment has the same effect.
+
+**Rotation finding:** follow a voice signal from access and language through AI
+mediation, deliberation, data governance, human oversight, civic space, policy
+uptake, trust, and institutional legitimacy. The open arrow is whether
+low-tech alternatives, transparent guardrails, citizen co-governance, skills,
+and procurement controls make AI a participation amplifier or a new gatekeeper.
+
+## Private finance: public risk-sharing can expand capital while concentrating development finance away from the most fragile and social sectors
+
+The [OECD private-finance mobilisation record](records/comparative-oecd-private-finance-mobilisation-2026-risk-sector-climate-development.json)
+adds a development-finance route across guarantees, direct investment,
+syndicated loans, recipient-country risk, sector allocation, climate finance,
+multilateral development banks, and data/coordination capacity. OECD reports more
+than USD 600 billion in private resources mobilised by official development
+finance from 2012 to 2024, with a 2024 peak of USD 77 billion. About 70% of
+mobilised finance reached middle-income countries that were not least-developed
+countries, while only 8% reached low-income countries; 70% went to economic
+infrastructure and business activities versus 6% to social sectors.
+
+The mechanism is public-risk-sharing-to-investment conversion. Guarantees,
+development-bank intermediation, and blended instruments can make projects look
+more investable to private capital, but the resulting portfolio can still favor
+larger markets, infrastructure, and mitigation over fragile settings, social
+provision, and adaptation. This record uses OECD aggregate DAC statistics and
+report synthesis, not individual investments, firm-level causal outcomes,
+household welfare, jobs or skills effects, technology transfer, project
+additionality, or proof that mobilisation is inclusive.
+
+**Rotation finding:** follow a capital signal from public guarantees and country
+risk through private investment, infrastructure, climate mitigation/adaptation,
+social sectors, jobs, services, and political legitimacy. The open arrow is
+whether better data, standardised instruments, country platforms, and
+multi-stakeholder coordination broaden finance toward low-income, fragile,
+social, and adaptation needs or reinforce investability bias.
 
 ## Latest workplace meaning rotation: purpose can improve firm performance while shifting who stays
 
@@ -1905,6 +3810,60 @@ The supported subtheme is **anticipated work is socially and institutionally
 mediated before it becomes a realized career outcome**. The studies do not
 share a sample or a causal chain. See the [career-information/advice record](records/us-nber-gender-gaps-career-information-advice-2026.json), [SHED employment/AI-control record](records/us-federal-reserve-employment-ai-control-2025.json), and [AI exposure/adaptive-capacity record](records/us-nber-ai-exposure-adaptive-capacity-2026.json).
 
+The [ILO/ETF Changing Landscape of Skills in the Age of AI record](records/comparative-ilo-eta-ai-skills-literacy-agency-2026.json)
+extends this route from exposure to capability. The report argues that AI is
+raising the value of contextual judgment, oversight, hybrid expertise and
+socio-emotional skill; it also frames AI literacy—technical, analytical and
+ethical—as a foundational capability for agency in AI-mediated work and public
+life. The open test is whether education, workplace training and institutional
+guardrails convert that capability frame into usable control, inclusion and
+better job quality rather than individualized adjustment pressure.
+
+The [ILO AI systems @ work record](records/comparative-ilo-ai-systems-work-psychosocial-autonomy-2026.json)
+adds the downstream psychosocial-work endpoint. It connects AI-enabled
+surveillance, work intensification, reduced autonomy, dignity, data collection
+and transparency to mental and social working conditions, then argues that
+labour law, equality, occupational safety and health, and privacy governance
+must be coordinated. The open test is whether workers can actually see,
+contest and remedy AI-mediated decisions and workload pressure.
+
+The [World Bank livable and resilient cities record](records/comparative-world-bank-livable-resilient-cities-risk-informed-planning-2026.json)
+adds the place-and-infrastructure endpoint. It reframes resilience as a
+planning problem: hazard and climate information should shape where housing,
+services, transport, infrastructure and economic growth occur, using a
+Restrict–Condition–Promote framework and multi-level governance. The open test
+is whether risk analytics become enforceable, equitable and participatory land-
+use decisions rather than technical maps that leave displacement and access
+trade-offs unresolved.
+
+The [World Bank What a Waste 3.0 record](records/comparative-world-bank-what-a-waste-3-0-circularity-2026.json)
+adds the consumption-to-infrastructure endpoint. It shows municipal waste as a
+joint signal of rising consumption, uneven collection, public-health exposure,
+flooding and climate costs, municipal finance, employment and circular-economy
+capacity. The open test is whether waste prevention and service investment
+improve household and worker conditions without exporting pollution, unsafe work
+or fiscal burdens to weaker communities.
+
+The [ITU/Global E-waste Monitor record](records/comparative-itu-global-e-waste-monitor-2024-digital-circularity-material-recovery.json)
+extends the waste route into digital infrastructure. In 2022, 62 billion
+kilograms of e-waste were generated, but only 22.3% was properly collected and
+recycled; the stream contained an estimated $91 billion in valuable metals and
+formal recovery avoided substantial primary-ore extraction and emissions. The
+policy contrast is sharp: countries with e-waste legislation reported about 25%
+collection/recycling versus rates close to zero where no legal instrument
+existed. The open test is whether digital circularity includes repair, safe
+work, producer responsibility and accessible recovery—not only device growth.
+
+The [IEA Key Questions on Energy and AI record](records/comparative-iea-key-questions-energy-ai-2026-data-centres-affordability-grid.json)
+adds an AI-to-energy-system endpoint. Global data-centre electricity demand grew
+17% in 2025 and AI-focused data-centre consumption 50%, while announced 2026
+capital expenditure by leading hyperscalers and neo-clouds reached $715 billion.
+The IEA also shows why efficiency alone is insufficient: simple AI tasks are
+getting cheaper in energy terms, but video, reasoning and agentic tasks can use
+hundreds or thousands of times more energy per query. The open test is whether
+grid connections, prices, emissions, siting and cost allocation are governed so
+AI infrastructure creates shared energy benefits rather than concentrated risk.
+
 AP-NORC's State of the Facts comparison adds an information-legitimacy layer.
 Reported trust in federal-government information fell between its 2024 and 2026
 issue-specific estimates for inflation/cost of living, health care, and
@@ -3136,7 +5095,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 1013 machine-readable records, 2357 observations,
+The current registry contains 1539 machine-readable records, 4445 observations,
 and 164 source packets across 14 program themes. It does not claim that the
 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -3418,7 +5377,7 @@ missing middle of retailer implementation, cross-border shopping, cultural fit,
 and exposure. It is not a universal test of fiscal nutrition policy or a
 measure of store pass-through, purchases, household budgets, or trust.
 
-The 988 rotation adds a crisis-care version: implementation improved the
+The 989 rotation adds a crisis-care version: implementation improved the
 front-door operation, but population mortality and broader mental-health
 outcomes did not move detectably in the short run. The missing middle is the
 care, housing, safety, and social-support system after the call.
@@ -8730,7 +10689,7 @@ in the 2040s and then decline.
 The policy mechanism is distributed urban capacity. The number of megacities
 rose from 8 in 1975 to 33 in 2025 and is projected to reach 37 by 2050, but 96%
 of the roughly 12,000 cities have fewer than one million residents and 81% have
-fewer than 250,000. More than half of the projected 986 million increase in
+fewer than 250,000. More than half of the projected 989 million increase in
 city residents is concentrated in seven countries. This points to planning,
 land, housing, transport, digital access, care, energy, water, and local-state
 capacity in smaller and rapidly growing places—not just global-city power.
@@ -10105,3 +12064,4193 @@ individual livelihood histories or local causal ecological analysis.
 key sites through food, water, work, tourism, culture, coastal safety, and
 conservation governance. The open arrow is whether expanding formal protection
 becomes effective, locally legitimate ecosystem security.
+
+## Tourism and cultural mobility: recovery is broad, but access and value remain uneven
+
+The [UN Tourism International Tourism Highlights record](records/comparative-un-tourism-international-highlights-2025-global-demand-mobility-culture.json)
+adds a global demand-and-cultural-mobility route alongside the OECD tourism
+resilience record. International travel recovered to roughly 1.4 billion
+arrivals in 2024, with visitor spending also recovering strongly, and early
+2025-2026 monitoring shows continued demand. Tourism therefore connects
+consumer spending, transport, services exports, cultural exchange, work,
+destination infrastructure, and place-based development.
+
+The important qualification is unevenness. Aggregate recovery can hide price
+barriers, visa and connectivity differences, conflict-affected destinations,
+resident pressure, external ownership, and weak local value retention. Tourism
+can support cultural economies and mutual understanding while also producing
+overcrowding, commodification, housing pressure, and dependency. These are
+sector-level publication signals, not individual travel motives or resident
+sentiment data.
+
+**Rotation finding:** follow travel demand from mobility, prices, and air
+connectivity through cultural participation, service work, destination income,
+resident pressure, geopolitical shocks, and local agency. The open arrow is
+whether tourism recovery broadens shared cultural and economic benefits or
+concentrates them in firms, places, and travelers with the most access.
+
+## Oceans and coastal livelihoods: governance milestones meet physical stress
+
+The [UN SDG 14 2026 record](records/comparative-un-sdg14-2026-ocean-governance-fisheries-coastal-livelihoods.json)
+adds a marine route distinct from the terrestrial biodiversity and GEO-7
+records. Ocean governance is advancing through the BBNJ Agreement, fisheries
+subsidy rules, and expanded protected coverage, while ocean heat, acidification,
+overfishing, and uneven monitoring continue to pressure marine ecosystems.
+
+The social and consumer link runs through food, coastal work, tourism, cultural
+value, climate buffering, and the fiscal and political position of small-island
+and coastal economies. Formal protection or treaty membership is not the same
+as effective stewardship: implementation, research capacity, benefit sharing,
+local participation, and enforcement determine whether ocean governance reaches
+dependent communities.
+
+**Rotation finding:** follow ocean change from treaties, protection, and
+monitoring through fisheries, food security, coastal work, tourism, culture,
+and community resilience. The open arrow is whether new marine rules convert
+global legal milestones into durable, locally shared ocean security.
+
+## Consumption systems: throughput and waste outrun governance
+
+The [UN SDG 12 2026 record](records/comparative-un-sdg12-2026-materials-waste-subsidies-consumption.json)
+adds a consumer-to-infrastructure route. Global domestic material consumption
+rose substantially between 2015 and 2022, while higher-income populations
+accounted for most global material use. At the same time, food waste, electronic
+waste, and fossil-fuel subsidies continue to expand or remain structurally
+large despite growing circular-economy, sustainable-consumption, and procurement
+frameworks.
+
+The mechanism is institutional as much as behavioral. Product design, prices,
+subsidies, procurement, storage, repair, recycling, infrastructure, and
+corporate accountability determine what consumers can realistically do. The
+large gap between monitoring sustainable contracts and monitoring actual
+outcomes shows why policy adoption is not the same as transformed production or
+consumption. These are aggregate SDG indicators, not household purchase or
+waste microdata.
+
+**Rotation finding:** follow material demand from extraction and energy pricing
+through products, food, e-waste, public procurement, household costs, labor,
+and environmental justice. The open arrow is whether governance changes the
+material system or merely asks consumers to compensate for upstream incentives.
+
+## Water services: access gains meet local capacity and financing gaps
+
+The [UN SDG 6 2026 record](records/comparative-un-sdg6-2026-water-sanitation-hygiene-finance-governance.json)
+adds a public-service route across drinking water, sanitation, hygiene, rural
+and conflict inequality, water stress, quality monitoring, basin cooperation,
+community participation, and local finance. Global coverage has improved, but
+least developed and conflict-affected countries remain far behind, while water
+stress and service reliability remain uneven.
+
+The mechanism is institutional reach. A national plan or improved monitoring
+does not automatically produce safe, affordable, continuous service when local
+and basin authorities lack revenue, data, maintenance capacity, or community
+voice. Water also links time, health, care, food, energy, migration, conflict
+resilience, and household room. These are aggregate service and governance
+indicators, not individual health outcomes or household service histories.
+
+**Rotation finding:** follow water insecurity from coverage and infrastructure
+through time, care, health, food, work, stress, public finance, and local
+participation. The open arrow is whether global access commitments become
+reliable, locally governed service systems under climate and conflict pressure.
+
+## Energy access: the transition is also a household and regional-security problem
+
+The [UN SDG 7 2026 record](records/comparative-un-sdg7-2026-electricity-clean-cooking-renewables-energy-security.json)
+adds a household-energy route alongside the IEA policy and energy-system
+records. Global electricity and clean-cooking access are expanding, but the
+remaining exclusion is concentrated in sub-Saharan Africa, remote rural areas,
+low-income settings, and fragile or conflict-affected places. Renewable
+capacity is growing, yet energy efficiency and reliable service remain uneven.
+
+Energy is a time, care, health, work, cost, and political-capacity issue. A
+connection or installed renewable asset is not the same as affordable,
+continuous, safe, locally maintainable service. Clean cooking can change
+household labor and exposure, while energy costs and transition investment shape
+consumer room and public legitimacy. These are aggregate SDG indicators and
+projections, not household energy diaries or causal policy effects.
+
+**Rotation finding:** follow energy exclusion from electricity and cooking access
+through health, care, time, work, prices, distributed infrastructure, finance,
+and conflict resilience. The open arrow is whether the clean-energy transition
+reaches households as reliable agency and security rather than capacity without
+service.
+
+## Decent work and youth transition: low unemployment does not equal secure work
+
+The [UN SDG 8 2026 record](records/comparative-un-sdg8-2026-decent-work-youth-informality-rights.json)
+adds a global labor route alongside the ILO records. The report shows how
+historically low unemployment can coexist with widespread informality, youth
+disconnection from employment and education, weak productivity, child labour,
+and deteriorating freedom of association and collective bargaining.
+
+The mechanism is job quality and institutional voice. Macro resilience does not
+automatically translate into real wages, secure work, bargaining power, or
+household room. Young people and informal workers experience transitions
+through skills, care, digital and green work, energy costs, migration, and
+social protection. The record uses aggregate SDG indicators and report
+synthesis, not individual employment histories or respondent-level analysis.
+
+**Rotation finding:** follow labor-market resilience from unemployment through
+informality, youth pathways, productivity, wages, child labour, bargaining,
+social protection, and transition capacity. The open arrow is whether growth
+and new sectors create secure agency or reproduce exclusion behind a healthy
+headline employment rate.
+
+## Migration and mobility: development assets operate under disruption
+
+The [IOM World Migration Report 2026 record](records/comparative-iom-world-migration-report-2026-mobility-displacement-development.json)
+adds a mobility route across migrant stocks, work, displacement, remittances,
+skills, climate mobility, regular pathways, disability, and community action.
+The report places migration inside a period of geopolitical, environmental,
+technological, and demographic disruption: international migration remains a
+minority experience, while internal movement and displacement are much broader
+parts of the mobility system.
+
+The mechanism is institutional access under unequal exposure. Migration can
+support development through work, remittances, investment, knowledge, skills,
+and civic engagement, but those channels depend on safe pathways, rights,
+financial systems, local capacity, and durable responses to displacement.
+Climate stress does not mechanically cause migration; adaptation, livelihoods,
+infrastructure, networks, and public choices shape whether people move, stay,
+or return. This record uses aggregate stocks and thematic report analysis, not
+individual migration histories or respondent-level attitudes.
+
+**Rotation finding:** follow mobility from work and remittances through
+displacement, climate exposure, regular pathways, disability inclusion, local
+response, and origin/destination power. The open arrow is whether migration
+systems convert movement into agency and shared development or reproduce
+insecurity through blocked access and unequal protection.
+
+## Trade, energy, and industrial capacity: geopolitical shocks become household and development constraints
+
+The [UNCTAD Trade and Development Foresights 2026 record](records/comparative-unctad-trade-development-foresights-2026-geopolitical-trade-energy-investment.json)
+adds a macro-to-lived-conditions route across trade, shipping, energy, finance,
+clean investment, AI-linked industrial production, and development capacity.
+The report projects a sharp slowdown in world merchandise trade growth after
+2025 and describes how geopolitical conflict can transmit through energy
+markets, financial conditions, and critical maritime routes.
+
+The mechanism is unequal exposure plus infrastructure dependence. Renewable
+generation can be cost-competitive while investment remains concentrated away
+from places with strong resource potential. AI and critical-component
+investment can support industrial resilience, but it can also deepen supply,
+finance, and technology dependence when productive capacity and bargaining
+power are uneven. This record uses aggregate macro indicators and report
+analysis, not household price panels, firm histories, or causal AI employment
+estimates.
+
+**Rotation finding:** follow geopolitical shocks from trade and shipping through
+energy prices, finance, industrial investment, work, and household room. The
+open arrow is whether clean and digital transition investment broadens
+productive agency or reproduces concentration behind a resilient headline.
+
+## Youth voice and education governance: formal consultation is not influence
+
+The [UNESCO 2026 Youth Report record](records/comparative-unesco-2026-youth-report-education-decision-making-voice.json)
+adds a youth-participation route across education governance, institutional
+feedback, representation, legitimacy, skills, and intergenerational change.
+Its central signal is a gap between formal consultation mechanisms and genuine
+influence over education policy. That gap matters because education systems
+shape work transitions, identity, opportunity, and trust in public institutions.
+
+The mechanism is voice-to-implementation. Mapping youth and student
+organizations makes participation infrastructure visible, but organization
+counts do not establish membership, representativeness, policy access, or
+outcomes for marginalized young people. This record uses government and
+organization-level survey analysis and institutional mapping, not raw
+respondent-level attitudes or individual student histories.
+
+**Rotation finding:** follow youth voice from formal consultation through agenda
+setting, implementation, monitoring, education-to-work transitions, and public
+legitimacy. The open arrow is whether institutions convert being heard into
+shared decision power or preserve participation as symbolic access.
+
+## Meaningful connectivity: access is progressing, but digital agency remains uneven
+
+The [ITU ICT Development Index 2026 record](records/comparative-itu-ict-development-index-2026-meaningful-connectivity-affordability.json)
+adds a digital-infrastructure route across affordability, Internet use, network
+quality, platform dependence, public services, work, and cultural participation.
+The index reports continued global progress toward universal and meaningful
+connectivity across 159 economies, while persistent disparities remain in
+affordability, use, and quality.
+
+The mechanism is access-to-agency conversion. A connection is not the same as
+affordable, reliable, safe, high-quality participation; digital development
+depends on devices, electricity, skills, institutional design, and user control.
+Expanded connectivity can widen work, learning, culture, and public-service
+access while also increasing platform, data, attention, and misinformation
+dependencies. This record uses an economy-level index, not respondent-level
+Internet diaries or individual transaction data.
+
+**Rotation finding:** follow digital development from coverage through price,
+quality, devices, skills, platform power, public services, work, and cultural
+life. The open arrow is whether connectivity creates durable agency and public
+capacity or access without meaningful control.
+
+## Generative culture and consumer meaning: acceleration creates a counter-demand for grounding
+
+The [Dentsu Creative Generative Realities 2026 record](records/comparative-dentsu-creative-2026-generative-realities-culture-consumer-technology.json)
+adds a commercial-cultural route across generative technology, cultural
+production, craft, fandom, connectivity ambivalence, and the search for escape,
+grounding, and reconnection. Its signal is not simply that consumers adopt new
+technology: rapid synthetic production may increase the value of visible human
+effort, difference, embodied experience, and meaningful participation.
+
+The mechanism is attention and identity under saturation. Constant connectivity
+can expand discovery, belonging, and creative opportunity while also producing
+exhaustion, sameness, privacy concerns, and difficulty distinguishing authentic
+from synthetic work. The report uses published cross-market consumer research
+and strategist synthesis, not raw respondent-level data, clinical measures, or
+causal forecasts of behavior.
+
+**Rotation finding:** follow generative technology from production speed through
+attention, authenticity, fandom, craft, offline experience, consumer value, and
+cultural participation. The open arrow is whether AI-mediated abundance creates
+more agency and meaning or drives a premium market for human texture and escape.
+
+## Urban housing and public space: city growth does not equal shared urban access
+
+The [UN SDG 11 2026 record](records/comparative-un-sdg11-2026-urban-housing-slums-public-space-transport.json)
+adds a comparable urban-indicator route across informal settlements, housing,
+public space, transport, services, disaster resilience, and local data. It
+complements the narrative World Cities Report by showing how housing and urban
+form condition access to work, health, education, mobility, safety, and social
+life.
+
+The mechanism is spatial exposure and local delivery. A city can grow while
+secure housing, public space, transport, and basic services remain uneven;
+aggregate land or coverage measures do not establish safety, accessibility,
+tenure, or resident agency. This record uses SDG indicators and city
+comparisons, not individual housing histories, resident sentiment, or causal
+commute and health estimates.
+
+**Rotation finding:** follow urban inequality from housing and informal
+settlements through transport, public space, services, climate exposure, local
+finance, data, and participation. The open arrow is whether urban growth
+converts density into shared opportunity or reproduces exclusion by place.
+
+## Financial stability and trust in money: AI-led resilience carries public and household risks
+
+The [BIS Annual Economic Report 2026 record](records/comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability.json)
+adds a central-bank route across AI investment, inflation, public debt, non-bank
+finance, supply shocks, digital money, and monetary trust. It helps connect the
+macro headline of resilience to the institutional mechanisms that determine
+whether shocks become higher prices, tighter credit, weaker public capacity, or
+new forms of financial access.
+
+The mechanism is fiscal-financial and technological transmission. AI investment
+can support growth while raising questions about valuation and sustainability;
+high public debt and non-bank participation can amplify stress; digital money
+can expand convenience while testing trust, privacy, oversight, and the boundary
+between public and private payment systems. This record uses system-level policy
+analysis, not household financial diaries, individual portfolios, or causal AI
+employment estimates.
+
+**Rotation finding:** follow financial resilience from AI investment and public
+debt through inflation, energy and supply shocks, non-bank markets, household
+room, payment systems, and trust. The open arrow is whether innovation expands
+productive capacity and public legitimacy or shifts risk into less visible
+financial and consumer channels.
+
+## Digital infrastructure and climate accountability: AI growth creates a measurable environmental load
+
+The [ITU/WBA Greening Digital Companies 2026 record](records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json)
+adds a company-to-system route across digital infrastructure, electricity,
+Scope 1–3 emissions, AI, climate commitments, transition plans, and public
+accountability. It makes the environmental cost of digital expansion visible
+alongside the benefits of connectivity, optimization, and climate applications.
+
+The mechanism is infrastructure dependence and distributed exposure. Digital
+firms can procure clean energy and improve efficiency while increasing demand
+for electricity, hardware, water, land, and network capacity. Disclosure and
+transition plans matter because communities, utilities, workers, users, and
+public institutions may bear costs not visible in a company's operational
+footprint. This record uses company-level comparisons and disclosed aggregates,
+not user behavior or causal AI climate estimates.
+
+**Rotation finding:** follow digital growth from connectivity and AI demand
+through electricity, emissions, supply chains, local infrastructure, climate
+claims, procurement, regulation, and community burden. The open arrow is
+whether digital expansion aligns private innovation with public decarbonization
+and resilience or shifts environmental costs downstream.
+
+## Technology diffusion: frontier invention is not the same as broad adoption
+
+The [WIPO World Intellectual Property Report 2026 record](records/comparative-wipo-world-intellectual-property-report-2026-technology-diffusion-ecosystems.json)
+adds a diffusion route across invention, adoption, innovation ecosystems,
+skills, finance, infrastructure, work, consumers, and governance. Its central
+distinction is that new technology raises productivity only when it is widely
+adopted and used—not simply because it exists at the frontier.
+
+The mechanism is ecosystem capacity and control. Firms, universities, finance,
+skills, intellectual-property systems, infrastructure, and public policy shape
+who can adopt, adapt, and benefit. Late adoption can mean exclusion, but it can
+also support leapfrogging or locally appropriate design. This record uses
+comparative report analysis, not respondent-level technology diaries, individual
+employment histories, or causal productivity estimates.
+
+**Rotation finding:** follow technology from invention through diffusion,
+adoption, skills, work, consumer use, cultural participation, competition, and
+public governance. The open arrow is whether innovation ecosystems broaden
+agency or concentrate frontier gains among firms and places already closest to
+the frontier.
+
+## Trust and insularity: economic anxiety turns difference into a social boundary
+
+The [Edelman Trust Barometer 2026 record](records/comparative-edelman-trust-barometer-2026-insularity-income-optimism-difference.json)
+adds a cross-cultural trust route across intergroup difference, economic anxiety,
+optimism, income-based trust gaps, social-media intermediaries, and institutional
+collaboration. Its headline signal is not simply low trust: trust is retreating
+toward familiar circles, making shared facts, cross-group cooperation, and
+collective problem-solving harder.
+
+The mechanism is material insecurity plus identity and information sorting. The
+published survey reports aggregate patterns in 28 countries, but it does not
+explain which experiences cause distrust or prove that influencer trust changes
+behavior. This record uses published aggregate survey results, not raw
+respondent-level records or reweighted microdata.
+
+**Rotation finding:** follow trust from income and future expectations through
+difference, social media, employers, institutions, public facts, and collective
+action. The open arrow is whether institutions can broker credible contact
+across social boundaries or whether economic and technological pressure hardens
+insularity into durable political and cultural fragmentation.
+
+## Cyber resilience under geopolitical fragmentation: digital dependence makes skills and readiness public issues
+
+The [PwC Global Digital Trust Insights 2026 record](records/comparative-pwc-global-digital-trust-insights-2026-geopolitical-cyber-ai-quantum-skills.json)
+adds an organizational-readiness route across geopolitical risk, critical
+infrastructure, supply chains, AI defense, quantum readiness, data governance,
+and cyber skills. It shows how geopolitical fragmentation is being translated
+into changes in infrastructure location, operating policy, cyber investment, and
+vendor relationships.
+
+The mechanism is infrastructure dependency plus capability gaps. Organizations
+can increase cyber budgets while remaining exposed through legacy systems,
+supply chains, weak data controls, skills shortages, and uneven post-quantum
+preparation. These weaknesses can spill into public services, work, consumer
+trust, and everyday access. The record uses published executive-survey
+aggregates, not respondent-level records, technical audits, or incident
+microdata.
+
+**Rotation finding:** follow geopolitical tension from cyber investment through
+critical infrastructure, vendors, AI defense, data governance, quantum readiness,
+skills, public services, and user trust. The open arrow is whether security
+spending builds shared resilience or merely relocates risk across opaque supply
+chains and less-capable institutions.
+
+## Family formation and care: demographic change reflects room to realize choices
+
+The [UNFPA Demographic Futures Survey record](records/comparative-unfpa-demographic-futures-survey-2026-partnership-parenthood-housing-security.json)
+adds a family-formation route across partnership, parenthood, housing,
+financial security, stable employment, emotional readiness, reproductive agency,
+and future expectations. It shifts demographic interpretation away from
+population targets and toward the social conditions under which young adults can
+realize the lives and families they want.
+
+The mechanism is household room plus institutional support. Partnership and
+parenthood aspirations coexist with housing and economic constraints; work,
+care, health services, and social protection shape whether preferences become
+feasible choices. The report's data are comparative findings from Internet-
+connected young adults and are not nationally representative. This record uses
+published aggregates, not raw respondent-level data or individual fertility
+histories.
+
+**Rotation finding:** follow demographic change from aspirations through housing,
+work, care, reproductive services, social protection, conflict, inequality, and
+future trust. The open arrow is whether institutions expand reproductive agency
+and family choice or leave demographic outcomes to material constraint.
+
+## Cultural unease and consumer meaning: technology, fracture, nostalgia, and uncertainty reshape demand
+
+The [Ipsos Global Trends 2026 record](records/comparative-ipsos-global-trends-2026-technowonder-splintered-societies-consumer-meaning.json)
+adds a commercial-cultural route across technology sentiment, social fracture,
+nostalgia, individualism, uncertainty, identity, and consumer meaning. It
+complements the Dentsu record by broadening the signal beyond generative culture:
+people may simultaneously want technological progress, fear who controls it,
+retreat toward familiar values, and use consumption to recover personal agency.
+
+The mechanism is meaning under instability. Geopolitical, financial, and
+technological uncertainty can change what people seek from products, brands,
+communities, and institutions—immediacy, control, belonging, difference, or
+escape. The report uses published 38-market aggregate survey and macro-force
+synthesis, not respondent-level records, individual purchase histories, causal
+attitude models, or clinical outcomes.
+
+**Rotation finding:** follow cultural change from technology sentiment through
+fragmentation, immigration and inequality, nostalgia, identity, consumption,
+trust, and collective life. The open arrow is whether markets and institutions
+convert anxiety into shared meaning and connection or monetize retreat into
+insular, individual solutions.
+
+## Industrial futures: green and digital upgrading must become broad productive capacity
+
+The [UNIDO Industrial Development Report 2026 record](records/comparative-unido-industrial-development-report-2026-future-ready-industries-green-ai-value-chains.json)
+adds a production-side route across manufacturing, green transition, AI,
+reconfigured value chains, demographics, food systems, jobs, poverty, and social
+inclusion. It connects the macro question of industrial divides to the consumer,
+work, energy, and geopolitical systems already in the atlas.
+
+The mechanism is capability conversion. Green technology, digitalization, and
+new value chains create opportunity only when countries and firms have skills,
+finance, infrastructure, institutions, and bargaining capacity to adopt and
+retain value. Industrial growth can reduce poverty and strengthen food security,
+but can also shift pollution, insecurity, and transition costs onto workers and
+communities. This record uses report-level analysis, not firm microdata,
+individual employment histories, or household food diaries.
+
+**Rotation finding:** follow industrial change from technology and energy through
+value chains, jobs, food systems, demographics, local value retention, worker
+voice, and environmental burden. The open arrow is whether future-ready industry
+creates shared productive agency or reproduces industrial divides behind green
+and digital investment headlines.
+
+## Food systems and household room: productivity gains remain exposed to shocks and unequal capacity
+
+The [OECD–FAO Agricultural Outlook 2026–2035 record](records/comparative-oecd-fao-agricultural-outlook-2026-2035-production-income-diets-emissions.json)
+adds a food-system route across agricultural production, farm income, fertilizer
+and energy shocks, emissions, dietary change, trade, rural work, and household
+food security. The outlook shows how productivity can expand supply and income
+while geopolitical disruption and unequal infrastructure still translate into
+different food and consumption choices across households and countries.
+
+The mechanism is production-to-consumption transmission. Fertilizer, energy,
+trade, storage, transport, and income conditions shape whether projected gains
+become affordable nutritious food or higher exposure to price and availability
+shocks. Diet diversification also changes environmental and labor pressures.
+This record uses OECD–FAO model projections and market analysis, not household
+food diaries, individual farm histories, or causal price estimates.
+
+**Rotation finding:** follow food resilience from productivity and inputs through
+trade, rural income, diet change, emissions, infrastructure, household room, and
+geopolitical shocks. The open arrow is whether agricultural growth broadens
+affordable healthy choice or leaves lower-income households carrying volatility.
+
+## Food security and nutrition: modest global improvement can coexist with high healthy-diet costs
+
+The [SOFI 2026 record](records/comparative-fao-sofi-2026-hunger-nutrition-regional-disparities.json)
+adds a food-security route across hunger, moderate or severe food insecurity,
+healthy-diet affordability, regional divergence, gender and age disparities,
+rural exposure, and multisector public response. It links aggregate nutrition
+outcomes to household purchasing room without treating a global estimate as an
+individual diet history.
+
+The mechanism is affordability and unequal exposure. Food prices, incomes,
+markets, logistics, health, social protection, and local food systems shape
+whether modest aggregate progress becomes a healthy diet for particular groups.
+This record uses UN estimates and report synthesis, not respondent-level data,
+household food diaries, individual medical histories, or causal food-price
+estimates.
+
+**Rotation finding:** keep the food route open from global hunger trends through
+healthy-diet cost, regional divergence, women and children, rural communities,
+food-system structure, and public intervention. The open arrow is whether
+aggregate improvement converts into equitable healthy choice under unequal
+income and infrastructure conditions.
+
+## Development progress: place, work, infrastructure, and digital access move unevenly
+
+The [World Bank Atlas of Global Development 2026 record](records/comparative-world-bank-atlas-global-development-2026-progress-infrastructure-digital.json)
+adds a cross-domain route across development speed, gender and work, poverty
+geography, water quality, electricity, Internet use, and digital capability.
+It keeps the analysis broad: the same country-level development gap can surface
+as constrained household room, weaker work options, thinner infrastructure, and
+less access to digital opportunity.
+
+The mechanism is place-mediated capability. Starting points, public investment,
+care burdens, skills, service reliability, and affordability shape whether
+headline progress becomes usable capacity. This record uses World Bank indicator
+comparisons and synthesis, not respondent-level records, individual income
+histories, household time diaries, or causal infrastructure estimates.
+
+**Rotation finding:** follow development from aggregate progress through place,
+poverty, gendered work, infrastructure, digital access, and institutional
+delivery. The open arrow is whether faster national progress becomes practical
+capability for groups starting further behind.
+
+## Human capital: homes, neighborhoods, and workplaces shape who can convert effort into capability
+
+The [World Bank Human Capital Report 2026 record](records/comparative-world-bank-human-capital-report-2026-homes-neighborhoods-workplaces.json)
+adds a settings-based route across stalled learning, family resources and care,
+neighborhood opportunity, workplace learning, informal work, and gendered labor
+participation. It connects cultural and social reproduction to material room,
+service quality, place, and later work without treating any one setting as the
+whole explanation.
+
+The mechanism is capability formation across settings. Home care, neighborhood
+schools and safety, workplace learning, childcare, and job quality determine
+whether education and effort become durable skills and earnings. This record
+uses World Bank cross-country evidence and synthesis, not respondent-level data,
+individual child histories, household time diaries, or individual employment
+panels.
+
+**Rotation finding:** follow human capital from home and care through place,
+school and clinic quality, workplace learning, gendered participation, and later
+economic opportunity. The open arrow is whether policy connects these settings
+or leaves people carrying the cost of fragmented systems.
+
+## War and technology: headline growth can mask divergent exposure to prices, work, and public capacity
+
+The [IMF July 2026 WEO update record](records/comparative-imf-weo-update-july-2026-war-technology-growth-inflation.json)
+adds a macro route across global growth, war, energy importers, technology value
+chains, AI demand, stalled disinflation, fiscal space, and household purchasing
+room. It complements the source map by connecting geopolitical shocks to the
+different buffers and opportunities available across economies and groups.
+
+The mechanism is uneven transmission. Energy dependence, technology integration,
+skills, market access, fiscal space, and policy credibility determine whether the
+same global shock becomes higher prices, weaker work options, or a technology
+tailwind. This record uses IMF forecasts and macro synthesis, not respondent-level
+data, household price diaries, firm microdata, or causal AI productivity estimates.
+
+**Rotation finding:** follow the war-and-technology cross-current from global
+forecasts through energy, inflation, value chains, work, fiscal buffers, and
+public response. The open arrow is whether policy can convert technology momentum
+into broad capability while containing unequal shock exposure.
+
+## External imbalances: trade and financial adjustment become household and political exposure
+
+The [IMF External Sector Report 2026 record](records/comparative-imf-external-sector-report-2026-global-imbalances-rebalancing.json)
+adds a geoeconomic route across current-account divergence, China and US drivers,
+external positions, trade barriers, exchange rates, capital flows, and coordinated
+rebalancing. It connects international macro structure to domestic purchasing
+room and policy capacity without reducing a surplus or deficit to a moral story.
+
+The mechanism is external-to-domestic transmission. Adjustment can reach import
+prices, export demand, investment, employment, exchange rates, financial markets,
+and public policy room, but the burden depends on institutions, buffers, sector,
+and place. This record uses IMF external-balance assessments and macro synthesis,
+not respondent-level data, household expenditure diaries, firm microdata, or
+causal political-behavior estimates.
+
+**Rotation finding:** follow global imbalance from current accounts through trade,
+capital, prices, work, financial risk, domestic policy, and public legitimacy.
+The open arrow is whether rebalancing is coordinated enough to avoid shifting
+macro adjustment costs onto already exposed households and regions.
+
+## Financial stability: geopolitical shocks can become household exposure through markets, leverage, and liquidity
+
+The [IMF April 2026 GFSR record](records/comparative-imf-gfsr-april-2026-war-amplification-financial-stability.json)
+adds a systemic-finance route across war, energy prices, inflation expectations,
+market repricing, sovereign rollover, nonbank leverage, emerging-market capital
+flows, private credit, AI concentration, and supervisory capacity.
+
+The mechanism is amplification. A geopolitical or energy shock can move through
+rates, bonds, currencies, credit, funds, asset values, and public borrowing costs
+before reaching household purchasing room or work conditions. This record uses
+IMF financial surveillance and risk synthesis, not respondent-level data,
+household financial diaries, individual portfolio histories, or causal market
+predictions.
+
+**Rotation finding:** follow financial stress from conflict and energy through
+inflation, leverage, liquidity, capital flows, household credit, and public
+oversight. The open arrow is whether buffers and supervision interrupt the chain
+before market volatility becomes durable social and political damage.
+
+## Aquatic food systems: production and trade gains can coexist with ecological and livelihood inequality
+
+The [FAO SOFIA 2026 record](records/comparative-fao-sofia-2026-aquatic-foods-livelihoods-trade-blue-transformation.json)
+adds an aquatic-food route across fisheries, aquaculture, nutrition, trade,
+livelihoods, value-chain resilience, resource health, and community participation.
+It broadens the food system beyond terrestrial production and keeps the link open
+between global output, local affordability, ecological limits, and control over
+coastal and inland resources.
+
+The mechanism is production-to-consumption and governance transmission. Processing,
+storage, transport, trade rules, prices, resource management, labor conditions,
+and community voice determine whether higher aquatic production becomes nutritious
+local access or concentrated export value. This record uses FAO aggregate sector
+statistics and synthesis, not respondent-level data, individual fisher histories,
+household seafood diaries, or causal price estimates.
+
+**Rotation finding:** follow aquatic food from production and stocks through
+nutrition, trade, cold chains, livelihoods, ecological sustainability, and local
+control. The open arrow is whether Blue Transformation produces resilient and
+inclusive food systems or shifts ecological and social costs onto exposed places.
+
+## Research and innovation careers: technology capacity depends on the people and working conditions behind it
+
+The [OECD Research and Innovation Careers Observatory 2026 record](records/comparative-oecd-research-innovation-careers-observatory-2026-talent-mobility-working-conditions.json)
+adds a labor-and-technology route across R&D workforce growth, doctoral and STEM
+composition, doctorate earnings, fixed-term work, international mobility, and
+career evidence gaps. It treats innovation as a social labor system rather than
+only a firm, patent, or infrastructure output.
+
+The mechanism is talent formation and retention. Education, sector pathways,
+working conditions, contracts, mobility, care, and institutional funding shape
+who can enter and remain in research and innovation careers—and therefore who
+controls future technical capacity. This record uses OECD comparative indicators
+and synthesis, not respondent-level career histories, individual earnings panels,
+or causal education-return estimates.
+
+**Rotation finding:** follow innovation from degrees and skills through contracts,
+mobility, sector transitions, gender and care constraints, research institutions,
+and downstream firm or public capacity. The open arrow is whether expanding
+technical talent also expands durable and broadly accessible agency.
+
+## Digital education: generative AI can raise visible performance while weakening learning if cognitive work is outsourced
+
+The [OECD Digital Education Outlook 2026 record](records/comparative-oecd-digital-education-outlook-2026-generative-ai-learning-teacher-agency.json)
+adds an education-and-technology route across teacher use, task performance,
+durable learning, academic integrity, teacher agency, infrastructure, privacy,
+safety, and equity. It gives the corpus a sharper cultural signal about what
+counts as learning, authorship, effort, and legitimate assistance.
+
+The mechanism is cognition-and-governance transmission. A tool can improve a
+student's output without building transferable knowledge; pedagogy, teacher
+control, assessment, access, and platform design determine whether convenience
+becomes learning or displacement of cognitive work. This record uses OECD
+indicators and research synthesis, not respondent-level student histories,
+individual learning trajectories, or causal AI effects.
+
+**Rotation finding:** follow GenAI from teacher practice through student effort,
+academic integrity, learning outcomes, devices, connectivity, privacy, and school
+governance. The open arrow is whether educational AI expands human capability or
+turns visible performance into a substitute for durable skill.
+
+## Health progress: aggregate gains can coexist with crisis scars and a visibility gap
+
+The [WHO World health statistics 2026 record](records/comparative-who-world-health-statistics-2026-sdgs-mortality-crvs.json)
+adds a health-system route across progress toward health-related SDGs, pandemic
+excess mortality, life-expectancy and healthy-life-expectancy recovery, and civil
+registration and cause-of-death capacity. It connects public health outcomes to
+the ability of institutions to see, classify, and respond to harm.
+
+The mechanism is measurement-and-capacity transmission. Health indicators can
+move in the right direction while the pace remains insufficient for 2030 goals;
+pandemic disruption can leave recovery uneven; and weak mortality registration
+can hide who is dying and why. This record uses WHO indicators and modelled
+estimates, not respondent-level medical histories, patient records, or individual
+treatment effects.
+
+**Rotation finding:** follow health shocks from mortality and care disruption
+through recovery, inequality, registration, public planning, and resource
+allocation. The open arrow is whether better visibility and system capacity
+convert aggregate health progress into durable, equitable protection.
+
+## Employment geography: strong headline labour markets can conceal place-based loss of income and mobility
+
+The [OECD Employment Outlook 2026 record](records/comparative-oecd-employment-outlook-2026-geographic-disparities-jobs-incomes.json)
+adds a place-based labour route across employment resilience, real wages, young
+entrants, regional structural change, skills, non-compete constraints, and
+employment protection. It keeps jobs connected to place, firms, infrastructure,
+technology, and household purchasing room rather than treating unemployment as
+the whole labour-market story.
+
+The mechanism is shock-to-place transmission. Trade, AI, digitalisation, energy
+transition, and local institutions reshape which regions attract jobs, which
+workers can move or retrain, and which households retain income and bargaining
+room. This record uses OECD indicators and comparative regional synthesis, not
+respondent-level employment histories, individual wage panels, or causal AI
+displacement estimates.
+
+**Rotation finding:** follow structural shocks from firms and regions through
+wages, skills, mobility, employment protection, household room, and local
+institutional response. The open arrow is whether place-based policy converts
+labour-market resilience into broadly shared security rather than concentrated
+regional advantage.
+
+## Education and justice: rights literacy is a capability only when institutions can receive and remedy claims
+
+The [UNESCO/Namati Education and justice record](records/comparative-unesco-namati-education-justice-2026-legal-capability-trust.json)
+adds an institutional route across everyday legal needs, access to justice,
+rights literacy, legal empowerment, justice-system professional capacity, trust,
+democracy, peace, crime reduction, and social cohesion. It gives education a
+political meaning beyond enrollment or labor-market skill: the ability to
+understand rights and navigate institutions.
+
+The mechanism is capability-to-remedy transmission. Education and community
+support can make rights legible and claims actionable, but fair outcomes still
+depend on accessible, trusted, funded, and accountable institutions. This record
+uses UNESCO/Namati synthesis, not respondent-level legal histories, case files,
+court outcomes, or causal education estimates.
+
+**Rotation finding:** follow people from rights awareness through navigation,
+representation, institutional response, remedy, trust, and collective voice. The
+open arrow is whether education expands practical civic power or merely teaches
+rights that inaccessible systems cannot honor.
+
+## Public employment services: labor-market resilience depends on the delivery systems between policy and people
+
+The [IDB/OECD/WAPES World of Public Employment Services 2026 record](records/comparative-oecd-idb-wapes-public-employment-services-2026-digital-shock-transition.json)
+adds a delivery route across public-employment-service organization, digital
+maturity, shock response, migrant transitions, social-economy partnerships, and
+support for people facing the greatest difficulty finding work. It makes the
+intermediary institution visible between labor-market policy and household
+employment outcomes.
+
+The mechanism is policy-to-service transmission. Matching, training,
+information, digital tools, human support, partnerships, and local context shape
+whether a public promise becomes an accessible transition path. This record uses
+comparative survey and policy information, not respondent-level job-search
+histories, placement case files, or causal service evaluations.
+
+**Rotation finding:** follow a worker from shock or job search through service
+contact, matching, training, mobility, employer response, and durable work. The
+open arrow is whether public employment services reduce unequal transition costs
+or digitize an already uneven access structure.
+
+## Social protection: coverage expansion does not guarantee adequate or shock-responsive security
+
+The [World Bank State of Social Protection Report 2025 record](records/comparative-world-bank-state-social-protection-2025-coverage-adequacy-shock-response.json)
+adds a route across social-protection coverage, benefit adequacy, crisis response,
+delivery infrastructure, gender disparity, labor programs, and household
+resilience. It connects public systems to the practical room households have to
+absorb shocks, preserve health and education spending, and navigate work or care
+transitions.
+
+The mechanism is protection-to-room transmission. Databases, digital payments,
+case management, financing, benefit design, and labor programs determine whether
+formal coverage becomes timely, sufficient, and usable support. This record uses
+aggregate World Bank indicators and synthesis, not respondent-level benefit
+histories, individual case files, consumption panels, or causal transfer effects.
+
+**Rotation finding:** follow a shock from exposure through registration, payment,
+benefit adequacy, work or care adjustment, and recovery. The open arrow is
+whether expanded social protection creates durable household room or merely
+counts nominal access while people remain unable to absorb the next crisis.
+
+## Gendered ageing: longer lives can expand contribution while reproducing health, care, and income inequality
+
+The [UN DESA Gender matters in an ageing world record](records/comparative-un-desa-gender-ageing-world-2026-older-women-health-economic-security.json)
+adds a demographic route across the growth of older women’s populations,
+longevity, later-life health, interrupted careers, pensions, unpaid care, and
+participation. It makes ageing a distributional and cultural question rather
+than only a dependency-ratio or fiscal question.
+
+The mechanism is life-course-to-late-life transmission. Earlier inequality in
+work, earnings, health, care, and legal or financial access accumulates into
+older women’s security and autonomy, while longer survival increases the value
+of care and civic contribution. This record uses UN DESA estimates and policy
+synthesis, not respondent-level ageing histories, health records, or care diaries.
+
+**Rotation finding:** follow women across work, care, health, income, pensions,
+living arrangements, and voice over the life course. The open arrow is whether
+gender-responsive institutions turn demographic longevity into autonomy and
+contribution or merely extend unequal care and financial burdens.
+
+## Peace and fragmentation: conflict is spreading through a more plural power system while local peace capacity remains decisive
+
+The [IEP Global Peace Index 2026 record](records/comparative-iep-global-peace-index-2026-conflict-fragmentation-militarisation.json)
+adds a geopolitical route across global peacefulness, state-based conflict,
+external involvement, conflict deaths, militarisation, middle powers, economic
+costs, and Positive Peace. It connects international order to household and
+community exposure without treating a country ranking as a complete account of
+lived safety.
+
+The mechanism is geopolitical-fragmentation transmission. Conflict, arms,
+finance, ideology, displacement, and power redistribution can move across
+borders, while institutions, social trust, and local resilience mediate whether
+external pressure becomes durable violence. This record uses an IEP composite
+index and synthesis, not respondent-level safety histories, event-level conflict
+microdata, or causal geopolitical forecasts.
+
+**Rotation finding:** follow a conflict signal from power competition through
+militarisation, civilian exposure, displacement, economic strain, institutional
+response, and local peacebuilding. The open arrow is whether Positive Peace and
+public capacity interrupt fragmentation before it becomes normalized insecurity.
+
+## Terrorism and borderlands: aggregate declines can hide concentrated, networked, and youth-linked risk
+
+The [IEP Global Terrorism Index 2026 record](records/comparative-iep-global-terrorism-index-2026-youth-borderlands-conflict.json)
+adds a terrorism route across global incident and death trends, regional
+concentration, conflict linkage, borderlands, youth radicalisation, online
+pathways, governance gaps, and employment conditions. It sharpens the distinction
+between a global count and the places and social systems where risk is actually
+concentrated.
+
+The mechanism is conflict-to-recruitment transmission. Border authority gaps,
+state abuse, unemployment, social isolation, algorithmic pathways, and conflict
+can combine into different recruitment routes across regions. This record uses
+IEP index measures and report synthesis, not respondent-level radicalisation
+histories, individual victim files, or causal platform effects.
+
+**Rotation finding:** follow a terrorism signal from conflict and border control
+through youth exposure, online contact, recruitment, civilian harm, displacement,
+and prevention. The open arrow is whether trusted institutions, opportunity, and
+community support interrupt recruitment before security responses deepen the same
+grievances that sustain it.
+
+## Fragility and state capacity: repeated shocks become durable poverty when institutions cannot absorb or sequence recovery
+
+The [World Bank Fragile and Conflict-Affected Situations record](records/comparative-world-bank-fcv-intertwined-crises-vulnerabilities-2026-state-capacity-poverty.json)
+adds a route across persistent fragility, overlapping shocks, conflict scarring,
+poverty, food insecurity, health, education, infrastructure, debt, and state
+capacity. It makes institutional weakness a transmission mechanism rather than a
+label attached after conflict has already occurred.
+
+The mechanism is shock-to-capacity transmission. Conflict, disasters, commodity
+swings, debt, and global downturns interact with fiscal room and service capacity;
+the resulting losses in health, education, food, and work can then reduce the
+ability to recover from the next shock. This record uses aggregate World Bank
+analysis, not household respondent histories, individual service records, or
+causal conflict forecasts.
+
+**Rotation finding:** follow a shock from fiscal and institutional exposure
+through services, poverty, food, human capital, debt, and recovery. The open
+arrow is whether state capacity and external support break the reinforcing cycle
+or whether each crisis narrows the options available for the next one.
+
+## Built environment: the climate transition is also a housing, labor, materials, and affordability transition
+
+The [UNEP/GlobalABC Buildings and Construction 2025-2026 record](records/comparative-unep-globalabc-buildings-construction-2025-2026-emissions-affordability-investment.json)
+adds a route across the sector's economic footprint, future building stock,
+energy performance, green certification, affordable living, resilience, and
+investment. It makes buildings a transmission system between climate policy,
+household costs, work, materials, and urban quality of life.
+
+The mechanism is built-stock lock-in. Construction, renovation, codes, finance,
+materials, and building operations determine whether future growth reduces or
+reinforces emissions, energy costs, and exposure to climate risk. This record
+uses aggregate UNEP and GlobalABC sector analysis, not respondent-level housing
+histories, individual utility bills, property records, or causal forecasts.
+
+**Rotation finding:** follow a building signal from construction and materials
+through energy performance, jobs, household affordability, resilience, finance,
+and local implementation. The open arrow is whether standards and investment
+make efficient, resilient buildings broadly affordable or leave transition
+benefits concentrated in premium stock.
+
+## Renewable deployment: rapid capacity growth can coexist with concentrated technology, geography, and energy-security gains
+
+The [IRENA Renewable Capacity Statistics 2026 record](records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json)
+adds a route across renewable capacity expansion, solar and wind concentration,
+regional distribution, off-grid systems, and energy security. It separates the
+visible buildout from the harder question of who receives reliable, affordable,
+and resilient energy.
+
+The mechanism is deployment-to-security conversion. Capacity growth changes the
+physical energy system, but the gains depend on grids, storage, finance, supply
+chains, ownership, prices, and local implementation. This record uses aggregate
+IRENA capacity statistics, not respondent-level energy histories, individual
+utility bills, plant-level operating records, or causal forecasts.
+
+**Rotation finding:** follow an energy signal from deployment through technology
+and regional concentration, grids, supply chains, finance, jobs, household
+costs, and local legitimacy. The open arrow is whether rapid buildout diffuses
+energy security or reproduces a new geography of dependence and exclusion.
+
+## Hydrological overshoot: water crises become durable governance problems when natural capital cannot return to baseline
+
+The [UNU-INWEH Global Water Bankruptcy record](records/comparative-unu-global-water-bankruptcy-2026-hydrological-overshoot-natural-capital-governance.json)
+adds a route across chronic water-system decline, aquifer and basin depletion,
+natural capital, pollution, climate, food, health, livelihoods, equity, and
+cooperation. It distinguishes repeated emergency response from the harder
+problem of managing systems whose historical baseline may no longer be
+attainable.
+
+The mechanism is overdraft-to-governance transmission. Renewable flows and
+long-term storage can be overused while land, soil, ecosystems, and pollution
+pressures compound one another; the resulting losses then reach food, health,
+livelihoods, trust, and cross-border cooperation. This record uses aggregate
+UNU-INWEH analysis, not respondent-level water histories, individual consumption
+records, or basin-level causal forecasts.
+
+**Rotation finding:** follow a water signal from flow and storage overdraft
+through ecosystems, food, health, livelihoods, allocation, equity, finance, and
+institutional cooperation. The open arrow is whether transparent accounting,
+enforceable limits, and equity-oriented investment prevent temporary stress from
+hardening into irreversible system loss.
+
+## Innovation capabilities: technological power comes from connected ecosystems, not isolated breakthroughs
+
+The [WIPO Innovation Capabilities Outlook 2026 record](records/comparative-wipo-innovation-capabilities-outlook-2026-ecosystem-complexity-diffusion.json)
+adds a route across science, technology, entrepreneurship, production,
+capability complexity, diversification, regional development, and untapped
+potential. It makes innovation capacity a structural source of economic and
+geopolitical differentiation rather than a simple count of inventions.
+
+The mechanism is capability-network conversion. Research, technology,
+entrepreneurship, and production reinforce one another when they are connected;
+when they are fragmented, economies may possess inputs without translating them
+into complex technologies, firms, or broad-based gains. This record uses
+aggregate WIPO and Harvard Growth Lab analysis, not respondent-level worker
+histories, firm case files, or causal technology forecasts.
+
+**Rotation finding:** follow an innovation signal from capability and knowledge
+through finance, entrepreneurship, production, skills, jobs, supply chains,
+public value, and legitimacy. The open arrow is whether strategic diversification
+diffuses innovation power or whether complex capabilities remain concentrated in
+a small set of ecosystems.
+
+## Food and connection: everyday consumption can become social infrastructure when communities have places, support, and time to participate
+
+The [OECD Promoting Social Connectedness Through Food record](records/comparative-oecd-social-connectedness-food-2026-community-infrastructure-implementation.json)
+adds a route across food culture, social connection, loneliness, belonging,
+community spaces, food access, volunteering, public support, and evaluation. It
+connects a familiar consumption practice to the social systems that determine
+whether people can participate and whether benefits endure.
+
+The mechanism is food-to-infrastructure conversion. Growing, accessing,
+preparing, sharing, and redistributing food can create recurring social contact,
+intercultural exchange, local service bridges, and place renewal, but the route
+depends on affordability, access, staffing, space, governance, and time. This
+record uses OECD synthesis and selected public case studies, not respondent-level
+loneliness histories, individual dietary records, or causal program evaluations.
+
+**Rotation finding:** follow a food signal from everyday consumption through
+access, cultural meaning, gathering spaces, volunteer labor, public support,
+health, care, and belonging. The open arrow is whether food-centred initiatives
+become durable shared infrastructure or remain fragile projects dependent on
+unpaid labor and short-term funding.
+
+## Masculinity and gender norms: provider identity can become a political economy of authority, care, work, and violence
+
+The [OECD Masculinity and Gender Equality record](records/comparative-oecd-masculinity-gender-equality-2026-provider-authority-violence.json)
+adds a cultural-norms route across provider identity, household decision power,
+unpaid care, women’s economic agency, generational change, perceived social
+expectations, violence risk, accountability, and positive masculinities. It
+makes social norms a transmission mechanism connecting everyday identity to
+material and institutional outcomes.
+
+The mechanism is provider-to-authority conversion. Expectations that men provide,
+decide, control, and avoid care can constrain women’s work and assets while
+placing men under economic and status pressure; where restrictive norms and weak
+accountability combine, tolerance of violence can persist. This record uses
+published OECD comparative findings and qualitative synthesis, not respondent-
+level survey extraction, individual violence histories, or causal forecasts.
+
+**Rotation finding:** follow a norm from identity and perceived expectations
+through household authority, unpaid care, paid work, assets, safety, reporting,
+and institutional trust. The open arrow is whether visible support for caring,
+equitable masculinities breaks conformity and expands agency, or whether material
+pressure and social silence reproduce restrictive roles.
+
+## Place and service access: proximity is not access when transport, capacity, and demand pull in different directions
+
+The [OECD service accessibility record](records/comparative-oecd-service-accessibility-estonia-netherlands-2026-place-transport-capacity.json)
+adds a place-based route across urban-rural gradients, transport, proximity,
+service capacity, childcare, schooling, employment services, labor participation,
+and social inclusion. It sharpens the distinction between a service existing
+nearby and a person having a usable, timely, and competitive path into it.
+
+The mechanism is place-to-capacity transmission. Urban areas may offer shorter
+travel times while high demand constrains actual access; rural residents may face
+longer travel and transport dependence; children and jobseekers can therefore
+experience simultaneous time and capacity barriers. This record uses aggregate
+municipal and spatial analysis in Estonia and the Netherlands, not respondent-
+level travel histories, individual enrollment files, or causal employment
+forecasts.
+
+**Rotation finding:** follow an access signal from place and transport through
+travel time, service capacity, demand pressure, childcare, schooling, job search,
+care work, and institutional trust. The open arrow is whether integrated service
+and transport planning converts nominal availability into usable opportunity or
+leaves geography as a hidden price on participation.
+
+## Internal displacement: conflict and disasters are accumulating into a structural mobility crisis
+
+The [IDMC 2026 Global Report on Internal Displacement record](records/comparative-idmc-grid-2026-internal-displacement-conflict-disaster-data-systems.json)
+adds a global geopolitical route across conflict, disasters, repeated movement,
+housing and service disruption, livelihoods, host communities, durable solutions,
+and displacement-data systems. IDMC estimates 82.2 million people were living in
+internal displacement at the end of 2025 across 104 countries and territories,
+more than double the 2016 stock. Conflict-related displacements rose 60% from
+2024, while regional event flows and accumulated stocks diverged sharply.
+
+The mechanism is shock-to-stock transmission. A conflict or disaster creates a
+movement event; repeated movement, interrupted work and services, and weak local
+capacity can then turn a temporary escape into a persistent stock of displacement.
+This record uses IDMC aggregate estimates and report synthesis, not individual
+displacement histories, household location files, causal conflict forecasts, or
+proof that all displaced populations share one trajectory.
+
+**Rotation finding:** follow a displacement signal from conflict or hazard through
+movement, repeated exposure, housing, services, work, host-community pressure,
+return or integration, and public accountability. The open arrow is whether
+resilient data systems and local capacity convert visibility into durable
+solutions, or merely improve counting while unresolved displacement accumulates.
+
+## Youth political participation: issue-driven and digital action is testing whether institutions can convert voice into influence
+
+The [UNDP youth peace, security, and electoral-processes record](records/comparative-undp-youth-peace-security-electoral-processes-2026-digital-first-participation.json)
+adds a cultural-political route across youth identity, issue-driven action,
+digital participation, protest, civic space, representation, civic technology,
+elections, peacebuilding, and institutional legitimacy. The paper treats lower
+formal participation as potentially connected to perceived weak responsiveness,
+while documenting alternative forms of agency such as protests, mutual aid,
+volunteering, petitions, boycotts, and networked civic action.
+
+The mechanism is voice-to-institution conversion. Young people can organize and
+build political capability outside parties and ballots, but that activity becomes
+durable influence only when civic space is safe, digital risks are managed, and
+electoral or public institutions are open to being changed. This record uses UNDP
+thematic synthesis, cited evidence, and illustrative cases, not respondent-level
+political histories, individual platform traces, causal protest effects, or proof
+that all youth participate in one way.
+
+**Rotation finding:** follow a youth signal from identity and grievance through
+digital or community action, representation, safety, election participation,
+policy response, peacebuilding, and trust. The open arrow is whether institutions
+convert alternative participation into meaningful influence or merely absorb its
+language while preserving exclusion.
+
+## Consumer choice: value, household form, trust, and AI are changing the route from need to purchase
+
+The [BCG consumer shifts record](records/comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai.json)
+adds a consumer-behavior route across perceived value, price, convenience, solo
+living, longevity, information overload, trust, and AI-guided product discovery.
+Its 2026 study surveyed more than 13,000 consumers in 12 markets, interviewed
+more than 100 consumers, and analyzed more than 1,000 brands. It reports that
+67% would reject an affordable product without strong perceived value, while
+31% already use AI at least occasionally in purchase journeys.
+
+The mechanism is need-to-interface conversion. A household or individual does
+not move directly from budget to purchase: quality, time, convenience, trust,
+household form, health ambitions, and algorithmic recommendation shape the
+consideration set. The record uses BCG aggregate survey, interview, and brand
+analysis, not individual purchase histories, household budgets, causal AI
+effects, welfare estimates, or proof that every consumer follows one pathway.
+
+**Rotation finding:** follow a consumer signal from income and household form
+through perceived value, time and friction, trusted information, AI discovery,
+purchase, satisfaction, repeat use, and market power. The open arrow is whether
+AI and trust concentration expand useful choice or shift control over the
+consideration set toward opaque intermediaries.
+
+## Food markets: aggregate supply can look robust while geopolitical and input shocks raise the cost of access
+
+The [FAO Food Outlook 2026 record](records/comparative-fao-food-outlook-2026-geopolitical-weather-fertilizer-import-costs.json)
+adds a food-system and geopolitical-price route across cereal production, stocks,
+fertilizer, maritime logistics, energy, weather, trade, food import bills, and
+consumer access. FAO forecasts global cereal output at about 2,989 million tonnes
+in 2026, down 2% from the previous year but still historically elevated; it also
+reports a 2025 global food import bill of $2.22 trillion, up 7.9%.
+
+The mechanism is supply-to-access transmission. Production can remain strong in
+aggregate while fertilizer trade, shipping fuel, conflict, insurance, weather,
+and route disruption change the cost and reliability of moving food through the
+system. This record uses FAO market assessments and forecasts, not household food
+diaries, farm-level causal estimates, retailer pass-through estimates, or proof
+that aggregate supply becomes equal affordability or diet quality.
+
+**Rotation finding:** follow a food signal from weather, energy, fertilizer, or
+conflict through production, shipping, import bills, prices, household room,
+nutrition, and public response. The open arrow is whether stocks, diversified
+sourcing, and open trade absorb shocks or whether logistics and input dependence
+turn apparently adequate supply into unequal access.
+
+## Governance durability: national institutional quality and intermediary capacity jointly shape reform, investment, and decent work
+
+The [ILO governance-climate record](records/comparative-ilo-governance-climate-ebmo-capacity-2026-institutional-durability.json)
+adds an institutional route across governance quality, political and economic
+stability, investment, employer organizations, social dialogue, enterprise
+conditions, and reform durability. Across 208 economies, the ILO finds global
+average governance largely stagnant since the mid-1990s; 53% of countries were
+in unsatisfactory or unsound categories in 2024, while only 7.2% were consistently
+sound. Its organizational layer shows that formal autonomy can coexist with low
+capacity among employer and business membership organizations.
+
+The mechanism is institution-to-intermediary conversion. National governance
+sets the environment for rules, contracts, investment, and dialogue; intermediary
+organizations determine whether reform can be represented, defended, and carried
+across political cycles. This record uses ILO aggregate indices, country
+trajectories, regression evidence, and organizational analysis, not individual
+worker experiences, firm-level causal investment histories, or proof that capacity
+produces inclusive outcomes everywhere.
+
+**Rotation finding:** follow a governance signal from rules and institutional
+quality through intermediary autonomy and capacity, social dialogue, investment,
+enterprise behavior, worker voice, reform durability, and public legitimacy. The
+open arrow is whether organizational capacity stabilizes broad reform or merely
+strengthens already-powerful interests.
+
+## Inequality is a cross-system structure: wealth, climate, care, finance, and political coalitions reinforce one another
+
+The [World Inequality Report 2026 record](records/comparative-wir-2026-wealth-climate-gender-finance-political-cleavages.json)
+adds a distributional route across income, wealth, capital-linked emissions,
+unpaid care, human-capital access, global finance, taxation, territorial divides,
+and democratic coalitions. The report estimates that the global top 10% own 75%
+of wealth while the bottom half owns 2%; it also finds that capital ownership
+concentrates climate responsibility and that unpaid care changes the measured
+gender distribution of work and income.
+
+The mechanism is distribution-to-coalition transmission. Unequal assets shape
+emissions, adaptation, fiscal space, education, care, and political voice; those
+conditions then influence whether redistributive coalitions can form and sustain
+policy. This record uses World Inequality Lab aggregate estimates and synthesis,
+not respondent-level income or political histories, household budgets, individual
+emissions footprints, or causal proof that a single policy equalizes outcomes.
+
+**Rotation finding:** follow an inequality signal from wealth and ownership through
+climate exposure, care time, human capital, finance, taxation, territorial access,
+political representation, and public legitimacy. The open arrow is whether
+redistribution and social investment rebuild broad coalitions or whether
+concentrated resources keep fragmenting the path to reform.
+
+## Urban divides: growth can expand opportunity while housing, work, service, and environmental risk remain spatially concentrated
+
+The [Asia-Pacific urban-divides record](records/comparative-undp-escap-adb-urban-divides-asia-pacific-2026-services-work-environment.json)
+adds a regional place-based route across urbanization, slums, housing, basic
+services, informal work, digital access, transport, pollution, clean cooking,
+climate risk, and city governance. The report covers a region with more than
+2.2 billion urban residents and estimates 697 million people in Asia-Pacific
+slums or informal settlements in 2022, about 62% of the global total.
+
+The mechanism is place-to-life-chances transmission. Housing and service gaps
+intersect with informal work and environmental exposure, so the same city-growth
+process can create jobs and infrastructure while leaving marginalized residents
+with higher health, mobility, and income risk. This record uses regional SDG and
+household-survey analysis, not respondent-level histories, individual exposure or
+health records, causal platform-work estimates, or proof that all cities share one
+urban pathway.
+
+**Rotation finding:** follow an urban signal from population movement through
+housing, tenure, water and energy, transport, digital access, work security,
+pollution, health, and local governance. The open arrow is whether coordinated,
+people-centred investment converts urban growth into inclusion or reproduces
+spatially concentrated exclusion.
+
+## Cross-border payments: access becomes usable only when cost, time, status, and terms are visible
+
+The [OECD cross-border payments record](records/comparative-oecd-cross-border-payments-remittances-2026-transparency-consumer-route.json)
+adds a financial-consumer infrastructure route across remittances, fees, currency
+conversion, delivery time, access, status tracking, terms, interoperability, and
+regulatory accountability. The OECD identifies high cost, low speed, limited
+access, and insufficient transparency as four persistent challenges, and recommends
+minimum disclosure of total cost, expected delivery time, payment status, and terms
+of service.
+
+The mechanism is nominal-route-to-usable-route conversion. A transfer channel can
+exist while the payer or recipient cannot compare its true cost, predict arrival,
+track failure, or obtain a meaningful remedy. This record uses OECD policy analysis
+and guidance, not individual transfer histories, household budgets, provider-level
+causal estimates, corridor-specific harm estimates, or proof that disclosure alone
+produces comprehension or successful delivery.
+
+**Rotation finding:** follow a payment signal from work or migration through fees,
+currency conversion, timing, access, tracking, receipt, household room, and
+consumer protection. The open arrow is whether transparency and interoperability
+turn payment infrastructure into controllable economic support or leave users
+dependent on opaque providers and fragile corridors.
+
+## Energy capital, grid capacity, and uneven transition absorption
+
+The [IEA World Energy Investment 2026 record](records/comparative-iea-world-energy-investment-2026-capital-grids-affordability.json)
+adds a broad investment-to-infrastructure route. The IEA estimates roughly USD
+1.5 trillion in 2025 electricity-sector investment, while grid spending remains
+around USD 400 billion against roughly USD 1 trillion for generation assets. The
+gap matters because demand is rising from industry, cooling, electric mobility,
+data centres, and AI while permitting, transformer and cable supply, and utility
+finance constrain connection and reliability.
+
+The same publication maps an industrial-geopolitical rotation: China accounts for
+about one-third of global clean-energy investment, the Middle East is approaching
+one-fifth of upstream oil and gas investment, and Chinese EV and battery firms
+have announced about USD 80 billion in overseas facilities over five years. The
+development-side counterpoint is sharper: Africa receives about 2% of global
+clean-energy investment despite about one-fifth of the world population, while
+debt servicing exceeds 85% of total African energy investment and international
+public finance supplies only about 7% of clean-energy investment in emerging and
+developing economies excluding China.
+
+This is publication-level aggregate evidence, not respondent-level data or proof
+of completed projects. The open arrow is whether capital becomes usable and
+affordable energy through grid connection, utility solvency, local jobs, public
+finance, and household access—or remains a concentrated investment and
+industrial-capacity signal.
+
+## Formal inclusion, civic capacity, and implementation feedback
+
+The [OECD-UNDP development-cooperation record](records/comparative-oecd-undp-development-cooperation-2026-civic-inclusion-implementation.json)
+adds a public-institution route that cuts across political voice, civic space,
+data visibility, and delivery. The monitoring report finds that partner-country
+governments engage broad stakeholder groups in about 90% of national-plan
+preparations, but only about 46% use participatory processes rather than
+consultation alone. Follow-up is also thinner: participation during planning is
+not consistently carried into later priority and results dialogues.
+
+The implementation gap is visible from civil-society assessments. In roughly
+three-quarters of partner countries, CSOs describe development-partner
+consultations as absent, occasional, or selective; more than 70% report the same
+problem for government consultations. Only 12% of partner countries report high
+or very high data availability for identifying and tracking vulnerable groups,
+while older people, internally displaced people, and LGBTIQ+ people are more
+often overlooked than routinely prioritised groups.
+
+This is publication-level monitoring and stakeholder assessment, not a claim
+about individual respondents or a causal estimate of political participation.
+The open arrow is whether formal inclusion becomes usable civic power through
+consultation quality, predictable funding, disaggregated data, representation,
+and visible policy feedback—or remains procedural participation without durable
+influence.
+
+## Trade fragmentation, services, and the cost of compliance
+
+The [UNCTAD Global Trade Update 2026 record](records/comparative-unctad-global-trade-update-2026-fragmentation-services-regulation.json)
+adds a trade-system route that ties several existing lanes together. UNCTAD
+projects global growth at about 2.6% in 2026 and developing-economy growth
+excluding China at about 4.2%, while geopolitical fragmentation, industrial
+policy, digital and green transitions, and tighter regulation reshape value
+chains. Nearly two-thirds of global trade occurs within value chains undergoing
+that reconfiguration.
+
+The opportunity side is services and South–South trade: services are about 27%
+of global trade and grew roughly 9% in 2025; developing-country exports to other
+developing markets are 57% of their exports, and South–South merchandise trade
+rose from about $0.5 trillion in 1995 to $6.8 trillion in 2025. The burden side
+is uneven: about 18,000 discriminatory trade measures have been introduced since
+2020, technical regulations affect roughly two-thirds of global trade, and food
+products comprise about 87% of commodity exports while fertilizer and climate
+shocks threaten import-dependent food systems.
+
+This is an aggregate trade outlook, not firm-level causal evidence, respondent
+data, or a household-price estimate. The open arrow is whether services growth,
+regional trade, and sustainability rules create new capability—or whether
+compliance costs, infrastructure gaps, and food dependence concentrate the gains
+among larger firms and better-connected economies.
+
+## Sustainable finance expansion, disclosure, and uneven implementation capacity
+
+The [UNCTAD Sustainable Finance Policy Monitor 2026 record](records/comparative-unctad-sustainable-finance-policy-monitor-2026-disclosure-carbon-capacity.json)
+adds a finance-to-firm-to-state-capacity route. Across 35 economies representing
+about 93% of global GDP, UNCTAD tracks 143 new sustainable-finance policies in
+2025, up from 99 in 2024, bringing the database total to 804. Disclosure remains
+the dominant instrument: 63 new measures, or about 44% of the 2025 additions,
+while the policy agenda shifts from creating rules toward implementation and
+enforcement.
+
+The distributional and geopolitical signal is divergence. Europe introduced 52
+new measures, Asia-Pacific 40, and the four African economies tracked 20, often
+building disclosure frameworks, taxonomies, and carbon markets at the same time.
+UNCTAD identifies high compliance costs, data gaps, limited sustainable-finance
+access, regulatory fragmentation, and limited implementation capacity as major
+developing-economy constraints. Carbon pricing is also moving into operational
+systems: 18 new policies were adopted in 2025, and China’s expanded emissions
+trading system added roughly 1,500 entities and 3 billion tonnes of covered
+emissions.
+
+This is policy-monitoring evidence, not firm-level causal analysis, respondent
+data, realized emissions reduction, or household incidence. The open arrow is
+whether disclosure and carbon rules become usable finance and productive
+transition—or become a compliance and market-access burden concentrated on
+smaller firms and lower-capacity economies.
+
+## Sovereign debt, fiscal space, and uneven development capacity
+
+The [UNCTAD external-debt record](records/comparative-unctad-external-debt-2026-fiscal-space-development-finance.json)
+adds a macro-financial route from borrowing conditions to public capacity. The
+UN Secretary-General's 2026 report puts developing-country external debt at
+about $12.3 trillion in 2025, with total debt service at $1.6 trillion. The
+headline decline in total service is not a broad relief signal: interest costs
+on long-term external debt rose almost 14% in 2025, while debt service grew 81%
+between 2015 and 2025 against a 65% rise in debt stocks.
+
+The burden is sharply uneven. Least developed countries spent 18.2% of export
+earnings and 17.6% of government revenue on external debt service in 2025. At the
+same time, non-resident inflows funded 11% of gross capital formation in 2024,
+down from 20% in 2014; domestic debt made up 81% of general-government debt, but
+domestic borrowing cost an average 2.8 percentage points more than external
+borrowing. This creates a state-capacity tradeoff: domestic finance can increase
+policy autonomy while raising costs and potentially crowding out private credit.
+
+This is aggregate sovereign-finance evidence, not a country-specific budget
+causal estimate, respondent data, or proof of particular service cuts. The open
+arrow is whether debt management, concessional finance, and restructuring turn
+borrowing into durable development capacity—or whether debt service narrows
+public choice, investment, household protections, and geopolitical autonomy.
+
+## Productive capacity as an interacting system, and the visibility gap
+
+The [UNCTAD Productive Capacities Index 2026 record](records/comparative-unctad-productive-capacities-index-2026-human-energy-transport-institutions.json)
+adds a system-capability layer beneath trade, finance, energy, and labor signals.
+The third-generation PCI covers 195 economies from 2000 to 2024 using 43
+indicators across human capital, natural capital, energy, transport, ICT,
+institutions, private-sector development, and structural change. That design
+keeps productive opportunity from being reduced to GDP, trade volume, or one
+infrastructure asset.
+
+The measurement problem is itself uneven. About 22.9% of PCI input observations
+are missing overall, with missingness in least developed countries reaching
+61.4% for transport, 55.7% for private-sector indicators, and 37.5% for energy.
+UNCTAD reports that a one-point increase in the World Bank Statistical
+Performance Indicators score is associated with a 0.46 percentage-point lower
+missing rate, while repeated calculations and a new maritime indicator improve
+robustness and coverage. The revised index remains highly comparable with the
+previous edition, with a 0.9892 rank correlation and 0.9911 score correlation.
+
+This is a composite-index publication, not respondent data, firm-level causal
+evidence, or direct household opportunity. The open arrow is whether measured
+capacity becomes lived access through jobs, reliable energy, transport,
+connectivity, institutional accountability, and diversified production—or
+whether data gaps and aggregate rankings obscure unequal capability.
+
+## Biodiversity-linked trade, rural livelihoods, and the social measurement gap
+
+The [UNCTAD trade-and-biodiversity record](records/comparative-unctad-trade-biodiversity-statistics-2026-value-chain-social-gap.json)
+adds an environmental-consumer-production route beneath the trade and food
+signals. UNCTAD's TraBio scope covers 193 economies and 1,814 biodiversity-based
+product subheadings. The framework emphasizes that trade flows identify products
+but do not show whether they were sustainably produced, what ecosystems supplied
+them, or how benefits and burdens are distributed across rural communities and
+workers.
+
+The proposed measurement chain follows ecosystems through collection, cultivation,
+production, processing, trade, and sometimes consumption. The gap is especially
+social: among 49 priority indicators, 19 are environmental, 17 economic, 12
+policy-related, and only one directly addresses social sustainability. UNCTAD
+identifies decent work and wages, gender equality, land use and rights, food
+equity, and Indigenous peoples as future data needs. More than half of the global
+population is described as depending on biodiversity for livelihoods, including
+about 70% of the world's poor and vulnerable people living in rural areas.
+
+This is a statistical-framework publication, not ecological monitoring, consumer
+survey data, verified supply-chain sustainability, or proof of equitable
+benefit-sharing. The open arrow is whether better traceability turns biodiversity
+trade into resilient livelihoods and conservation incentives—or simply makes
+resource-linked commerce more legible without changing power or distribution.
+
+## Gender accountability, formal rights, and usable agency
+
+The [UN SDG Goal 5 2026 record](records/comparative-un-sdg5-2026-gender-agency-leadership-budgets-land-rights.json)
+adds an accountability layer to the existing gender, care, work, and political
+voice records. Women held 27.4% of national parliamentary seats as of January
+2026, 35.6% of local-government positions in 2025, and 30.5% of managerial
+positions. The parliamentary share is up 5.1 percentage points since 2015 but
+only 0.2 points since 2025, showing incremental representation without parity or
+proof of agenda-setting power.
+
+Institutional capacity is also uneven. The number of countries reporting systems
+to track and allocate gender-equality resources rose from 69 in 2018 to 123 in
+2025, but only about one in four countries has a comprehensive public-allocation
+tracking system. Since 2019, 99 legal reforms have advanced women's rights, yet
+land security and digital access remain incomplete: women represent 63% of people
+without mobile phones, and fewer than half of women in agricultural households
+report owning or holding secure agricultural-land rights in 68 countries with
+data. Among 78 countries with reproductive-agency data, reported autonomy is
+88.5% for contraceptive decisions, 75% for reproductive healthcare, and 75.4%
+for refusing sex—measures that are not interchangeable with safety or service
+access.
+
+This is aggregate SDG monitoring, not respondent-level causal evidence or proof
+of institutional power. The open arrow is whether formal representation, law,
+budgets, devices, land, and reported agency become enforceable, safe, and usable
+power in work, households, public life, and reproductive decisions.
+
+## Social protection as climate and transition infrastructure
+
+The [UNICEF Global Annual Results Report 2025: Goal Area 5 record](records/comparative-unicef-global-annual-results-2025-goal-area-5-child-poverty-social-protection.json)
+adds a child-poverty and delivery-system route: in 2025, UNICEF-supported cash
+transfers reached 137 million children in 70 million households across 87
+reporting countries, while 93 countries strengthened social-sector budgets and
+89 expanded care and family-friendly policies. The cross-source implication is
+that protection is increasingly being built as integrated infrastructure—cash,
+registries, payment systems, case management, care, disability inclusion and
+crisis response—rather than as a single benefit. The open test is whether these
+systems are adequate, interoperable and usable by excluded households.
+
+The [ILO World Social Protection Report 2024-26 record](records/comparative-ilo-world-social-protection-2024-26-climate-just-transition.json)
+adds a public-system and climate-vulnerability route. Effective coverage rose
+from 42.8% of the world population in 2015 to 52.4% in 2023, but 3.8 billion
+people remained entirely unprotected. The exposure gradient is stark: 91.3% of
+people in the 20 countries most vulnerable to climate change lacked coverage,
+while 75% lacked coverage across the 50 most vulnerable countries.
+
+The report also connects social protection to life-course and transition
+capacity: 76.1% of children lacked effective coverage, women’s coverage was
+50.1% versus 54.6% for men, and average 2023 spending was 12.9% of GDP on
+social protection excluding healthcare plus 6.5% on healthcare. This supports a
+cross-domain hypothesis about welfare systems as climate-adaptation, household-
+stability, labour-transition, and political-legitimacy infrastructure. It is
+aggregate publication evidence, not respondent-level histories or proof that
+spending produces a particular climate or employment outcome. The open arrow is
+whether coverage becomes adequate, portable, shock-responsive, and trusted by
+the groups facing the largest transition costs.
+
+## Demographic divergence, care capacity, and cross-border adjustment
+
+The [World Bank demographic-growth record](records/comparative-world-bank-demographic-growth-2026-aging-youth-migration.json)
+adds a structural population route to the map. Global population growth has
+slowed, the working-age share peaked in 2012 and is declining, while poverty
+centres face rising working-age populations that could create a demographic
+dividend only if jobs, human capital, security, and institutions keep pace.
+
+The opposite pressure is visible in aging and contracting economies, where
+productivity, labor-force participation, pensions, health systems, and unpaid
+care become linked policy problems. The report also treats labor, trade, capital,
+and migration flows as possible ways to smooth demographic imbalances. This is
+aggregate demographic evidence, not individual fertility, care, or migration
+histories. The open arrow is whether demographic change becomes shared capacity
+through jobs, care, housing, mobility, and rights—or sharper intergenerational,
+regional, and cross-border inequality.
+
+## Urban climate plans and delivery capacity
+
+The [UN-Habitat urban NDC 3.0 record](records/comparative-un-habitat-urban-ndc30-climate-delivery-2026.json)
+adds a plan-to-implementation bridge. Across 142 third-generation national
+climate plans, 80% contained well-developed urban content, up from 49% in the
+previous cycle. Housing and informal settlements appeared as a cross-cutting
+priority in almost half of plans, while nearly three-quarters included concrete
+urban delivery mechanisms.
+
+The signal is institutional as much as environmental: housing, transport,
+energy, infrastructure, waste, and local capacity are increasingly positioned as
+the places where national climate commitments become resident-facing policy. But
+plan language is not delivery, affordability, security, or emissions impact.
+The open arrow is whether multilevel governance gives cities resources and
+accountability—or merely moves responsibility downward without the capacity to
+change housing, mobility, energy, and service conditions.
+
+## Fiscal pressure, public priorities, and political feasibility
+
+The [IMF Fiscal Monitor 2026 record](records/comparative-imf-fiscal-monitor-2026-debt-risks-political-feasibility.json)
+adds a public-budget route connecting debt to lived and political trade-offs.
+Global public debt is projected to reach 100% of world GDP by 2029, while
+governments face simultaneous claims from defense, aging, climate transition,
+investment, social inclusion, and development.
+
+The low-income-country route is especially important: aid and fiscal adjustment
+can pressure health, education, and social protection, while the report cites a
+possible 0.5% cumulative output reduction after two years from a 1%-of-GDP
+consolidation in sub-Saharan Africa. The report also treats scalable safety nets,
+targeting, digital delivery, and trust as part of fiscal feasibility. These are
+aggregate fiscal findings, not household tax or benefit histories. The open arrow
+is who receives protection, absorbs cuts, or gains from revenue reform when
+public budgets become the arena where geopolitical, demographic, and climate
+pressures are allocated.
+
+## Low-income-country resilience under external pressure
+
+The [IMF low-income-country outlook record](records/comparative-imf-low-income-countries-2026-aid-debt-remittances-governance.json)
+adds a differentiated macro route beneath the global fiscal picture. Growth is
+projected to rise from 4.8% in 2025 to 5.3% in 2026, but many low-income
+countries still face weak per-capita income growth, high debt service, thin
+reserve buffers, and tighter financing conditions.
+
+The report links external shocks to household and state capacity through aid,
+remittances, food and energy prices, exchange rates, and migration policy. It
+also treats governance, public financial management, capacity development, and
+private-sector job creation as resilience infrastructure. This is comparative
+aggregate evidence, not household remittance or income histories. The open arrow
+is whether macro stabilization becomes durable household security—or whether
+external dependence and adjustment continue to transmit global shocks into
+local prices, services, jobs, and political trust.
+
+## Child poverty as household and public-system stress
+
+The [UNICEF State of the World’s Children 2025 record](records/comparative-unicef-state-world-children-2025-child-poverty-crises.json)
+adds an intergenerational consumption and capability route. UNICEF reports 412
+million children living in extreme monetary poverty, while more than one in five
+children in low- and middle-income countries are severely deprived in at least
+two vital areas. The sanitation gradient alone ranges from 65% of children in
+low-income countries lacking a toilet to 11% in upper-middle-income countries.
+
+The report links household security to institutions: 1.6 billion children lack
+social protection, informal work and caregiver insecurity constrain family
+options, and climate, conflict, and debt pressures threaten health and education
+budgets. This is aggregate child-poverty evidence, not child-level or household
+panel data. The open arrow is whether child-sensitive budgets, services, care,
+and social protection convert public commitment into durable capability—or whether
+compound crises reproduce poverty across generations.
+## Youth employment programmes and institutional transition capacity
+
+The [ILO–World Bank youth ALMP record](records/comparative-ilo-world-bank-youth-almp-2026-skills-earnings-inclusion.json)
+adds an intervention-evidence layer to the youth labor-market trend. The review
+draws on 228 impact evaluations across 62 countries and more than 5,000 treatment
+effect estimates. It finds positive average employment and earnings effects,
+with stronger results in low- and middle-income settings and for young women,
+disadvantaged youth, and participants under 25.
+
+The design signal matters: skills training, entrepreneurship support,
+certification, combined interventions, and public/non-public partnerships can
+matter more than a generic programme label, while local delivery may improve fit
+without guaranteeing equal access or accountability. This is a systematic review
+of evaluated programmes, not respondent-level evidence about all young people.
+The open arrow is whether programme gains become durable, decent work and
+greater bargaining power—or remain temporary transitions dependent on local
+implementation and labor demand.
+## Youth labor-market conditions under stalled transitions
+
+The [ILO Global Employment Trends for Youth 2026 record](records/comparative-ilo-global-employment-trends-youth-2026-neet-informal-ai.json)
+adds current outcome conditions to the youth-programme evidence. Youth
+unemployment reached 12.4% in 2025, or 67 million people, while 20% of youth
+were not in employment, education, or training. The 2026 youth informal-
+employment rate is reported at 57.9%, showing why employment counts alone do
+not establish a decent-work transition.
+
+The report connects these conditions to gender, care, regional divergence,
+skills, AI, employment services, and social protection. Young women are about
+twice as likely as young men to be NEET, while technology and geopolitical
+pressures can widen opportunity gaps. This is aggregate labor-market evidence,
+not individual transition histories. The open arrow is whether skills,
+employment services, rights, and social protection make youth mobility durable,
+or whether young people remain cycling between inactivity and insecure work.
+
+## Adolescent well-being, identity, and digital socialization
+
+The [OECD adolescent well-being record](records/comparative-oecd-adolescent-wellbeing-2026-gender-norms-digital-environments.json)
+adds a cultural and relational route. In the OECD comparison, 44% of girls aged
+11–15 reported poor mental well-being versus 23.5% of boys; girls aged 11, 13,
+and 15 were 1.65 to 2.5 times more likely to report low life satisfaction.
+Girls’ risks more often appeared as internalising distress and body-image or
+online harms, while boys showed more externalising and risk-taking patterns.
+
+The report treats family communication, schools, community spaces, social norms,
+and digital environments as linked support or pressure systems. It is cross-
+national self-report and policy evidence, not clinical or respondent-level causal
+data. The open arrow is whether families, schools, communities, and platforms
+build safer identity and belonging—or whether gendered norms and digital
+attention systems deepen isolation, disengagement, and unequal well-being.
+
+## Inequality among children in wealthy countries
+
+The [UNICEF Innocenti Report Card 20 record](records/comparative-unicef-innocenti-report-card20-2026-child-inequality-wellbeing.json)
+adds a within-country inequality route that complements the global child-poverty
+record. Across 44 high-income and/or OECD countries, the report finds that
+wealth does not guarantee equal childhoods: in the most equal countries the top
+income fifth has about 3.5 times the income of the bottom fifth, while in the
+most unequal it has more than seven times as much. Child poverty remains at
+least 10% in every country studied, ranging to roughly 37% in Colombia and Costa
+Rica.
+
+The report connects distribution to health, life satisfaction, skills, and
+perceived opportunity, while treating children’s participation as part of the
+policy response. This is comparative aggregate evidence, not household panel or
+child-level causal data. The open arrow is whether redistribution, services,
+and child voice turn national prosperity into shared capability—or whether
+wealthy societies continue to reproduce status and well-being gaps in childhood.
+
+## Child survival as health, economic, and security infrastructure
+
+The [UNICEF Child Survival Dividend record](records/comparative-unicef-child-survival-dividend-2026-health-investment-security.json)
+adds a public-health investment route. UNICEF reports that annual under-five
+deaths fell from 10.1 million to 4.9 million over the comparison period, with
+immunization, nutrition, health systems, and WASH identified as major drivers.
+The brief treats these systems as infrastructure whose returns compound through
+learning, productivity, economic resilience, outbreak control, and security.
+
+The counter-pressure is fiscal and geopolitical: aid cuts, rising debt burdens,
+inadequate domestic budgets, and political headwinds can dismantle the systems
+that produced the gains. This is aggregate public-health evidence, not medical
+records or household histories. The open arrow is whether child-survival
+investment remains a durable shared public good—or whether financial and
+political shocks turn preventable health gaps into wider economic and security
+inequalities.
+
+## Environmental exposures, nutrition, and hidden public-health infrastructure
+
+The [UNICEF environmental-nutrition record](records/comparative-unicef-environmental-undernutrition-2026-wash-pollution-exposure.json)
+adds a cross-domain route from the first 1,000 days to public-service and
+environmental conditions. UNICEF frames nutrition from conception through age
+two as a determinant of survival, growth, development, future health, learning,
+and earning; its summary attributes 10% of undernutrition cases to WASH
+conditions.
+
+The brief widens the food question beyond affordability: heat, climate and
+weather, pollution and toxicants, bacteria, viruses, parasites, and vectors can
+interact with nutrition and infection pathways. It calls for coordination across
+nutrition, WASH, environmental health, primary care, food systems, and
+surveillance, with unequal household and public-service buffers shaping who can
+avoid or recover from exposure. This is a technical publication-level synthesis,
+not child-level exposure histories or a causal estimate for any single hazard.
+The open arrow is whether integrated environmental-health infrastructure becomes
+visible in nutrition and capability outcomes—or whether fragmented services
+leave environmental risk as an unpriced household and intergenerational burden.
+
+## Youth demography turns jobs into a systems challenge
+
+The [World Bank Global Jobs Challenge record](records/comparative-world-bank-global-jobs-challenge-2026-youth-infrastructure-sectors.json)
+adds a demographic-to-infrastructure and social-stability route. The World Bank
+estimates that around 1.2 billion young people in emerging market and developing
+economies will reach working age between 2025 and 2035. It frames the opportunity
+around foundational physical, human, and digital capital, a business-friendly
+environment, and private-capital mobilization, while noting that many affected
+economies face low incomes, high debt, slower growth, and limited policy room.
+
+The sector signal is deliberately broad: infrastructure and energy, agribusiness
+and farming, health, tourism, and value-added manufacturing are identified as
+potential sources of resilient, large-scale work. AI and the energy transition
+add both productivity opportunities and adjustment risks. This is a global
+publication-level framework, not individual employment histories or a country
+job forecast. The open arrow is whether investment converts a youth-heavy
+demographic wave into decent work and shared prosperity—or whether weak capital,
+skills, services, and representation turn labor-market pressure into deeper
+household insecurity and political instability.
+
+## Africa’s access gains meet an implementation gap
+
+The [2026 Africa Sustainable Development Report record](records/comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery.json)
+adds a regional delivery route across water, energy, infrastructure, cities, and
+partnerships. The joint AU, AfDB, UNDP, and ECA assessment reports that basic
+drinking-water access reached 81% in 2023, but safely managed drinking water only
+36%; about 650 million people remained without basic sanitation. Electricity
+access reached roughly 53%, while mobile networks covered about 93% and roughly
+970 million people still cooked with polluting fuels.
+
+The central signal is not simply “more access”: quality, reliability, affordability,
+urban-rural inequality, financing, institutional capacity, climate shocks, and
+implementation determine whether coverage becomes lived capability. Progress is
+recorded in 12 of 17 SDGs, yet the report says current trajectories remain too
+slow for 2030. This is an aggregate regional assessment, not household service
+histories or respondent-level data. The open arrow is whether regional integration,
+coordinated finance, and stronger delivery systems turn infrastructure gains into
+health, time, mobility, productivity, and political legitimacy—or whether
+headline access continues to mask unequal everyday conditions.
+
+## Digital life is becoming a measurement, trust, and distribution system
+
+The [OECD Going Digital Measurement Roadmap record](records/comparative-oecd-going-digital-measurement-roadmap-2026-trust-wellbeing-data.json)
+adds a technology-and-society route. The OECD proposes ten coordinated measurement
+actions spanning economic statistics, data valuation, digital trade, AI, ICT
+impacts, well-being, skills, trust, timely data collection, and data infrastructure,
+because digital activity now cuts across rather than sits beside the economy and
+social life.
+
+The consumer and cultural signal is equally important: free online services can
+generate value through implicit data exchange; platform work and cross-border
+data flows remain hard to see; and digital technologies create both opportunity
+and risk for children, young people, women, people with disabilities, workers,
+and consumers. Security, privacy, consumer protection, information integrity,
+and trust become infrastructure conditions for participation. This is a policy
+measurement roadmap, not respondent-level digital behavior or a causal platform
+study. The open arrow is whether better measurement enables accountable digital
+markets and safer participation—or whether invisible data value, unequal access,
+and weak trust deepen social and economic stratification.
+
+## Trade integration needs a labor and voice architecture
+
+The [ILO trade-and-decent-work-in-Africa record](records/comparative-ilo-trade-investment-decent-work-africa-2026-social-dialogue.json)
+adds a governance layer to the trade and jobs signal. In the ILO research across
+Ghana, Kenya, Mozambique, South Africa, and Uganda, employment policies were
+identified as among the most effective tools for inclusive trade benefits by 95%
+of government respondents, 93% of workers’ organizations, and 91% of employers’
+associations. The report also notes that informal employment accounts for more
+than 85% of employment on average in the referenced African labor markets.
+
+The institutional signal is that trade agreements are not self-executing labor
+markets: of 50 agreements involving African countries reported to the WTO, 15
+included labor-provision references, while more than 80% of surveyed stakeholders
+identified stronger labor standards and social dialogue among their main benefits.
+This is aggregate stakeholder and policy evidence, not worker-level histories or
+a causal estimate of AfCFTA effects. The open arrow is whether employment policy,
+skills, social protection, labor standards, and structured worker/employer voice
+turn regional integration into better work—or whether trade growth continues to
+coexist with informality, low productivity, weak bargaining power, and unequal
+capture of value.
+
+## Gender data is becoming policy infrastructure
+
+The [UN Women Women Count record](records/comparative-un-women-women-count-2026-gender-data-policy-care-environment.json)
+adds a measurement-to-policy route across care, safety, climate, governance, and
+economic agency. Its Phase II report says none of the SDG 5 indicators had been
+fully met, gender-data financing represented only 13% of total statistics funding
+in 2023, and four SDG 5 indicators still lacked sufficient data for reliable
+monitoring. At the same time, Women Count supported gender-data systems in 91
+countries, 64 coordination mechanisms, and training for more than 18,734 data
+producers and users.
+
+The substantive signal is what becomes visible when measurement expands: 20
+time-use surveys made unpaid care more legible, 17 violence-against-women surveys
+supported safety and legal responses, and eight gender-environment surveys linked
+climate and disaster exposure to policy. The programme reports gender data
+informing policies or laws in 23 countries and national plans or strategies in 40.
+This is programme-level and aggregate policy evidence, not respondent-level
+gender histories or proof of causal impact. The open arrow is whether better
+gender data changes budgets, services, protection, and political voice—or whether
+visibility increases while financing, implementation, and power remain unequal.
+
+## Maternal and newborn health is a care-system and accountability signal
+
+The [UNFPA Maternal and Newborn Health Fund record](records/comparative-unfpa-maternal-newborn-health-fund-2025-care-systems-midwives.json)
+adds a reproductive-health implementation route across 44 partner countries. In
+2025, the Fund contributed to safer delivery care for an estimated 4.7 million
+women; across supported countries, maternal deaths declined 37% between 2010 and
+2023. Since 2008, the programme reports support for 864,030 midwives and 153,000
+fistula surgeries.
+
+The broader signal is institutional rather than clinical: 38 countries had
+universal-health-coverage policies or plans including maternal and emergency
+newborn care, 71 emergency facilities remained operational in humanitarian
+settings, 80% of countries integrated maternal and newborn care into community-
+health policies, and 82% implemented or scaled mortality-surveillance systems.
+This is an aggregate programme impact report, not patient histories or a causal
+evaluation of every intervention. The open arrow is whether midwives, commodities,
+community care, emergency continuity, survivor reintegration, and data feedback
+become durable public infrastructure—or whether external support produces islands
+of care while financing, workforce conditions, and equitable access remain fragile.
+
+## Reproductive choice is also a supply-chain and financing signal
+
+The [UNFPA Supplies Partnership record](records/comparative-unfpa-supplies-partnership-2025-contraceptive-access-financing.json)
+adds a consumer-access and state-capacity layer to the reproductive-health route.
+In 2025, the partnership reported reaching 23.3 million women and girls across
+54 partner countries, with quality-assured contraceptives estimated to prevent
+10 million unintended pregnancies and avert 3 million unsafe abortions. Forty-
+nine countries procured new or lesser-used products, and all 54 conducted
+last-mile assurance activities intended to reach remote, rural, and humanitarian
+settings.
+
+The financing signal is equally important: domestic financing for sexual and
+reproductive-health commodities increased more than sixfold since 2020, 41
+eligible countries signed a financing-and-accountability Compact, and the Match
+Fund awarded $63.3 million against government resources. The report models $5
+billion in economic benefits by 2050, but those are assumptions-based returns,
+not observed household gains. The open arrow is whether reliable supplies,
+method choice, domestic financing, and last-mile logistics convert formal
+reproductive rights into practical agency—or whether volatility, stock-outs,
+affordability, and uneven service quality keep choice rationed by geography and
+household means.
+
+## Values remain relational while capacity to live them is under pressure
+
+The [Values Institute Global Values Report 2026 record](records/comparative-values-institute-global-values-2026-values-living-gap.json)
+adds a cultural-meaning route that connects values, wellbeing, gender, age, and
+capacity to act. In its self-selected assessment sample across 114 countries,
+Family, Respect, Kindness, Empathy, and Honesty were the most frequently selected
+values, while fewer than 5.4% selected Wealth or Status among their top five.
+Family appeared in the top five for 43% of Gen Z participants, while the report
+also found substantial country variation in the values following Family.
+
+The important mechanism is not that values automatically produce behavior. Among
+the report's wellbeing participants, 40.6% of people who selected Family were
+classified as exhausted and 25.8% as both exhausted and disconnected from the
+present. Purpose clarity was associated with lower stress and higher fulfillment,
+while women—especially ages 35-44—showed higher stress and compound-anxiety proxy
+rates. These are self-selected, aggregate associations rather than population
+prevalence, clinical diagnoses, or causal estimates. The open arrow is whether
+rest, income, care infrastructure, social connection, and institutional design
+give people the practical capacity to enact the relational values they report—or
+whether cultural meaning remains aspirational under material and time pressure.
+
+## Cost pressure and AI concern are now part of the same public-attention field
+
+The [ONS June 2026 public-opinions record](records/comparative-ons-public-opinions-social-trends-great-britain-june-2026-cost-ai-trust.json)
+adds an official social-trends bridge between household pressure, public-service
+legitimacy, AI expectations, and information trust. In Great Britain, cost of
+living was reported as an important issue by 88% of adults, followed by the NHS
+at 78% and the economy at 70%; employment, housing, immigration, crime, and
+climate also remained visible in the issue field.
+
+The AI signal is not simple enthusiasm or rejection. Thirty-six percent agreed
+that AI would benefit them, 37% were neutral, and 27% disagreed. The most common
+possible benefits were access to learning, easier work, and easier household
+tasks, while 41% saw no positive impact. At the same time, 38% said AI brings
+more risks than benefits, and large majorities worried about fake information,
+personal-data use without consent, and cybercrime. These are public perceptions,
+not verified incidents or causal adoption effects. The open arrow is whether
+AI earns legitimacy by reducing time and cost pressures while protecting
+information authenticity and control—or whether convenience arrives alongside
+new distrust, surveillance, and household exposure.
+
+## Youth outlook combines insecurity with agency, local trust, and civic ambition
+
+The [WEF Youth Pulse 2026 record](records/comparative-wef-youth-pulse-2026-purpose-trust-ai-climate-participation.json)
+adds a cross-domain youth signal spanning economic pressure, work meaning,
+political legitimacy, technology, climate, and consumption. Nearly half of the
+report's young participants identified rising inequality as a defining economic
+trend, 46.3% selected cost of living and housing, and 57.2% named financial
+concerns as a major source of stress. Yet entrepreneurship and youth-led action
+also appear as routes to agency under constraint.
+
+The work signal is values-laden: purpose or meaning and flexibility/work-life
+balance ranked ahead of conventional benefits in reported career priorities,
+while 57% named youth employment and meaningful opportunity as a top policy
+priority. Politically, 59.4% selected rising geopolitical tension as a major
+five-year trend, but 60% rated community leaders effective and 36% said they
+were likely to run for office. Technologically, roughly 60% reported regular AI
+use while about two-thirds expected AI to reduce entry-level opportunities; the
+report also places ethical and environmental considerations among top purchasing
+factors after quality and affordability. This is a WEF youth-perspectives sample,
+not a probability estimate of all young people or proof of future behavior. The
+open arrow is whether local trust, meaningful work, skills, affordable housing,
+and youth voice convert adaptive energy into durable institutional power—or
+whether individual resilience absorbs pressures that public systems do not fix.
+
+## Digital readiness becomes a participation question at the regional border
+
+The [WEF ASEAN Digital Economy Outlook 2026 record](records/comparative-wef-asean-digital-economy-outlook-2026-cross-border-trust-msme.json)
+adds a regional infrastructure-and-market route. ASEAN's digital foundations
+are improving: the ADII 2.0 scores for digital payments and identities and for
+data protection and cybersecurity both reached 70, while digital trade and
+logistics reached 61.8. But the capability layer remains thinner, with digital
+skills at 50, and regional scores remain below the selected digitally advanced
+comparator economies.
+
+The conversion gap is more revealing than readiness alone. Among more than
+4,500 surveyed firms, 91.9% reported using digital payments, but only 53%
+reported cross-border digital trade and 26% were aware of the ASEAN DEFA.
+MSMEs lagged large firms by 31.6 percentage points in cross-border payment use
+and 23.5 points in cross-border digital trade. The report's signal is that
+payments, identity, e-signatures, cybersecurity, and data governance are not
+merely technical layers: they determine who can participate in regional markets
+with confidence. These are aggregate benchmarks and self-reported firm
+measures, not transaction logs, consumer welfare, or causal DEFA effects. The
+open arrow is whether interoperable trusted systems lower real participation
+barriers for smaller firms and consumers—or whether digital integration mainly
+deepens the advantage of firms already able to absorb compliance, security, and
+cross-border coordination costs.
+
+## Stabilization is not the same as restored household or political room
+
+The [WEF Chief Economists' Outlook September 2026 record](records/comparative-wef-chief-economists-outlook-september-2026-geopolitics-ai-costs-resilience.json)
+adds a macro frame to the household, technology, and geopolitical routes. Expert
+expectations improved sharply from May: 45% still expected global conditions to
+weaken over the next year, down from 89%, and 50% expected inflation to rise,
+down from 94%. But 97% still identified geopolitical conflict as a major source
+of uncertainty, only 25% expected resilience to improve, and fiscal support's
+role was expected to shrink as public finances tighten.
+
+AI is the leading source of optimism and a new site of local contention. Ninety-
+seven percent expected AI adoption to increase and 69% expected meaningful
+productivity gains, while 78% expected data-centre investment to contribute to
+growth. Yet 61% did not expect comparable job creation and 79% expected
+significant local-community pushback. The household route is similarly mixed:
+88% expected food costs, 83% electricity costs, and 77% transport costs to rise,
+with broad visible interventions such as essential-goods tax cuts, subsidies,
+and price caps seen as likely responses. These are expert expectations, not
+household price observations, realized investment, or causal forecasts. The open
+arrow is whether adaptation, AI productivity, energy diversification, and trade
+reconfiguration create enough room to offset higher costs and weaker fiscal
+capacity—or whether macro stabilization remains distant from lived affordability,
+job quality, and local consent.
+
+## Sustainability is advancing through green divergence rather than one shared pathway
+
+The [WEF Chief Sustainability Officers' Outlook 2026 record](records/comparative-wef-chief-sustainability-officers-outlook-2026-green-divergence-ai-adaptation.json)
+adds a corporate climate-and-resilience route. Among 103 sustainability leaders,
+63% expected global sustainability progress to hold steady or accelerate over
+the next year, and roughly three-quarters expected company transition investment
+to do the same. Yet 78% expected geopolitical and macroeconomic conditions to
+drag on progress, while policy reversals, short-term performance pressure, and
+international tensions were the leading medium-term constraints.
+
+The business case is becoming more central: 64% identified a stronger business
+case and 56% cheaper, more available technologies as leading accelerators. AI
+illustrates the trade-off—73% expected it to support sustainability progress,
+but 77% identified AI infrastructure's energy and resource intensity as its most
+significant negative impact. Adaptation is also moving toward the center: 85%
+expected it to become a greater global focus, while 62% cited uncertain
+cost-benefit assessments as a key investment constraint. This is targeted
+executive evidence, not verified emissions, adaptation, or community outcomes.
+The open arrow is whether commercial momentum and private capital create broad
+resilience—or whether green divergence leaves lower-capacity markets, workers,
+households, and exposed communities with the costs while value accrues to firms
+and regions already able to finance the transition.
+
+## Circularity is becoming a resource-security and service-market strategy
+
+The [WEF Circularity Playbook 2026 record](records/comparative-wef-circularity-playbook-2026-resource-security-repair-revenue.json)
+adds an industrial-market route linking critical materials, supply-chain
+volatility, repair, refurbishment, recurring revenue, and resilience. Among 94
+Industrial Solutions and Manufacturing executives, 80% said circularity was
+important or very important today and 94% expected it to be important within
+three years. At full potential, 70% expected circular activities to contribute
+at least 20% of revenue, 65% expected operating-cost reductions, and 77% saw
+substantial resource-security potential.
+
+The shift is driven by more than environmental preference. The report frames
+repair, modernization, remanufacturing, leasing, rental, and end-of-life
+recovery as ways to extend the installed base, defer customer capital spending,
+recover materials, and create recurring service relationships. Yet only 26% of
+companies had a clear picture of exposure to critical raw materials and
+rare-earth elements, and the playbook identifies cost, operational complexity,
+limited visibility, immature secondary markets, and fragmented ecosystems as
+barriers. These are executive expectations and strategy evidence, not verified
+circular flows, consumer savings, worker outcomes, or proof of lower extraction.
+The open arrow is whether circular service models broaden affordable access and
+resource resilience—or whether they strengthen manufacturer control, require
+upfront capital and specialized skills, and concentrate the benefits among firms
+already able to manage data, repair networks, and secondary-material markets.
+
+## Emerging technology is moving value toward the point of use—but trust and access decide who benefits
+
+The [WEF Top 10 Emerging Technologies of 2026 record](records/comparative-wef-top-10-emerging-technologies-2026-distributed-personal-access.json)
+adds a broad frontier-technology route across infrastructure, food, health,
+materials, computing, and household participation. The report's ten-technology
+cohort is organized around a cross-cutting shift toward the personal,
+distributed, and materially efficient: buildings and vehicles can become grid
+nodes, fermentation can relocate some food production, and direct lithium
+extraction can open new supply geographies.
+
+The same source shifts value closer to the point of use. Personalized mRNA
+cancer vaccines make a patient's tumour profile the starting specification for
+treatment, while exosome delivery targets biological barriers that earlier
+medicine could not reliably cross. But the report treats trust and access as
+conditions of adoption, not after-the-fact ethics: households may share data and
+control to participate in flexible energy systems; engineered food requires
+confidence in an unseen process; and personalized therapies risk concentrating
+in well-resourced health systems. This is expert foresight, not an adoption
+forecast, public-opinion measure, clinical evaluation, or proof of distributional
+outcomes. The open arrow is whether standards, public investment, procurement,
+and inclusive design turn technical decentralization into broader capability—or
+whether control migrates to the owners of software, capital, data, and scarce
+infrastructure.
+
+## Snacking is becoming food, social ritual, and emotional infrastructure at once
+
+The [Mondelēz State of Snacking 2026 record](records/comparative-mondelez-state-of-snacking-2026-social-meal-health-nostalgia.json)
+adds a food-culture and consumer route. In selected markets, nearly six in ten
+consumers snack at least daily, more than two-thirds say snacks are necessary
+when socializing with friends or family, and about half occasionally replace a
+meal with snacks. The report therefore reads snacking as a response to time,
+social, and household pressures—not merely as between-meal consumption.
+
+The category is carrying several tensions simultaneously: health and indulgence,
+nostalgia and novelty, and solo convenience and social connection. Around four
+in ten snack consumers look for healthier options at least some of the time,
+while sensory experience, comfort, reward, and familiar flavors remain important.
+Meal substitution is explicitly linked to reduced cooking stress and perceived
+value, which makes this relevant to household time and affordability as well as
+food culture. This is commercial trend research using market-specific Mintel
+surveys and Black Swan social listening, not dietary surveillance or causal
+health evidence. The open arrow is whether flexible food formats expand agency
+and connection—or normalize time scarcity, packaged-food dependence, and the
+
+## Culture is becoming an ecosystem to measure, not just an industry to count
+
+The [UNESCO UIS Cultural and Creative Ecosystem Indicators Framework record](records/comparative-unesco-uis-cultural-creative-ecosystem-indicators-2026-measurement-governance.json)
+adds an institutional and cultural-governance route. UNESCO's September 2026
+draft framework proposes measuring the cultural and creative ecosystem across
+formal and informal work, market and non-market activity, professional and
+community practice, and physical and digital creation, circulation,
+participation, preservation, and transmission.
+
+Its six co-equal dimensions—creative production, cultural engagement, economic
+value, capabilities/equity/social value, environment/territories/infrastructure,
+and governance/policy—are deliberately not collapsed into one score. The
+framework treats cultural value as relational and distributional: employment or
+gross value added cannot stand in for participation, equity, cultural rights,
+environmental conditions, or institutional capacity. It also makes platform
+concentration, AI-generated content, creative-worker exposure to AI, and AI
+governance explicit measurement needs.
+
+This is a draft framework under consultation, not a completed cross-country
+dataset or proof of cultural outcomes. The open arrow is whether this wider
+measurement architecture makes informal creators, communities, audiences, and
+unequal cultural infrastructure visible—or whether implementation capacity,
+classification disputes, and data burden reproduce the same inequalities the
+framework is designed to expose.
+
+## Home is becoming a small-scale resilience infrastructure under pressure
+
+The [IKEA Life at Home Report 2026 record](records/comparative-ikea-life-at-home-report-2026-home-resilience-needs-climate-action.json)
+adds a consumer and household route that translates macro uncertainty into
+everyday needs. In a 31-country YouGov survey of 31,689 adults, household
+finances and disposable income and physical health were each the leading concern
+at 37%, followed by the state of the economy at 31%. Climate concern is also
+personal: 64% worried about climate change and 45% felt personally affected.
+
+The report's strongest signal is a gap between what home is expected to provide
+and what people regularly experience. Security was important to 82% but felt
+regularly by 68%; comfort was 86% versus 66%; and control was 74% versus 59%.
+Younger and older adults differ in emphasis—mental health and screen time are
+more salient for Gen Z, while physical health, the economy, and societal
+division are more salient for Baby Boomers—but the shared pressure is that home
+is being asked to absorb financial, health, climate, and technology shocks.
+
+This is commissioned survey evidence and interpretive consumer research, not
+objective housing measurement, observed behavior, or causal wellbeing evidence.
+Its open arrow is whether affordable design, services, infrastructure, and
+public policy close the gap between desired security and lived capacity—or
+whether “resilient home” becomes a private consumer solution to pressures that
+remain structurally public.
+
+## Convenience is producing a new consumer workload of verification, attention, and connection
+
+The [Kearney Future Consumer 2026 record](records/comparative-kearney-future-consumer-2026-trust-time-synthetic-connection.json)
+adds a forward-looking consumer and platform route. Based on 21,500 consumers
+across 20 countries, the study argues that more choice, convenience,
+personalization, inputs, tasks, and interactions can compound into additional
+verification and coordination work for consumers. Its trust signal is a shift
+from source-based trust in institutions, experts, media, and brands toward
+outcome- and performance-based trust; 86% said they care more whether something
+works than about the brand.
+
+The report also treats time as something that can be freed and immediately
+reabsorbed. It projects 80 minutes of additional “free” time from AI and
+automation by 2036, while warning that more monitoring, comparison, multitasking,
+and interaction may consume that space. Social connection is similarly split:
+80% believe only people, not technology, can provide genuine empathy and
+belonging, even as AI becomes a possible channel for emotionally charged
+questions. This is a younger-skewed commercial survey and scenario exercise,
+not a time-use study or forecast. The open arrow is whether AI and better
+interfaces return real capacity to consumers—or simply move the hidden labor of
+trust, attention, and relationship management onto them.
+
+## AI-generated marketing is weakening default trust in influencers and brands
+
+The [Gartner consumer AI-content trust record](records/comparative-gartner-consumer-ai-content-trust-influencers-2026.json)
+adds a sharper platform-and-marketing signal. In a Gartner survey of 1,006 U.S.
+consumers conducted in May–June 2026, 35% said they rely less on influencers
+for shopping information because of AI-generated content, while 43% said they
+rely more on real people. The distrust is not limited to creators: 65% believed
+brands produce too much AI-generated marketing content and 57% said such content
+has made them less trusting of brand messaging overall.
+
+The implication is not simple rejection of AI. Consumers appear to be
+re-ranking sources around provenance, demonstrated expertise, transparency,
+usefulness, and human credibility. But “human” is not automatically authentic:
+people can also be sponsored, staged, or wrong. This is U.S. survey evidence
+and analyst interpretation, not platform telemetry, a global estimate, or a
+causal test. The open arrow is whether AI saturation produces better disclosure
+and source evaluation—or shifts the information burden toward people with less
+time, money, and media-literacy capacity to verify what they see.
+## Public optimism can move ahead of the conditions people still worry about
+
+The [Ipsos What Worries the World September 2026 record](records/comparative-ipsos-what-worries-world-september-2026-public-concerns-direction.json)
+adds a recurring public-attention and political-expectations route. The monthly
+30-country survey covers around 20,000 adults and places current concerns in a
+more than ten-year trend frame. In the September highlights, 28% of Americans
+were worried about healthcare, up four points from August, while 61% in
+Argentina were worried about unemployment, up six points.
+
+Colombia shows the more interesting expectation gap: 52% said the country was
+heading in the right direction, up 16 points from a year earlier and above the
+38% global comparison, yet nearly two-thirds still described the economy as bad.
+Concern remained distributed across unemployment, crime, inequality, corruption,
+and healthcare rather than disappearing. This is selected monthly opinion
+evidence, not administrative conditions or causal political analysis. The open
+arrow is whether renewed direction-of-travel optimism converts into visible
+improvements—or whether higher expectations make the gap between political
+confidence and lived security more consequential.
+
+## Trust is concentrated in competence-bearing roles while intermediaries and AI remain suspect
+
+The [Ipsos Global Trustworthiness Index 2026 record](records/comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens.json)
+adds a profession-and-social-trust route. Across 31 countries and 23,537 online
+adults, doctors were trusted by 58%, scientists by 57%, and teachers by 53%;
+these three professions were the top three in all but four countries. At the
+bottom were politicians at 13%, social-media influencers at 14%, and advertising
+executives at 15%.
+
+The AI result is especially useful alongside the Gartner and Kearney records:
+only 23% found AI chatbots trustworthy, while 40% found them untrustworthy.
+Yet ordinary-person trust was less pessimistic—34% said the average person in
+their country was trustworthy versus 18% who said untrustworthy. The distinction
+matters: people may distrust institutions, political intermediaries, and
+platform actors without generalizing that distrust to neighbors or citizens.
+This is perception data, not verified competence or institutional performance.
+The open arrow is whether expert credibility and interpersonal trust can be
+connected into accountable institutions—or whether distrust of intermediaries
+pushes people toward fragmented, personalized, and harder-to-audit sources.
+
+## Consumer confidence is stable without fully restoring economic room
+
+The [Ipsos Global Consumer Confidence September 2026 record](records/comparative-ipsos-global-consumer-confidence-september-2026-stability-war-recovery.json)
+adds a household-economic route to the public-attention signals. Across more
+than 21,000 adults in 30 countries, the global confidence index held at 48.4,
+stable for the first time since February, but remained more than one point below
+the pre-conflict reading and below the pre-war level in 13 countries.
+
+The internal gap matters: the Current sub-index was 39.0, while Expectations
+were 56.6; Investment stood at 41.7 and Jobs at 57.7. Consumers therefore look
+more capable of imagining improvement than of reporting strong present
+economic room. Country divergence remains substantial—India scored 66.9 while
+Türkiye scored 35.3—and nine countries were materially lower than a year ago
+while eight were higher. This is perception data, not realized income,
+employment, or consumption. The open arrow is whether future-oriented
+confidence becomes recovery in household purchasing power and job security—or
+whether expectations absorb repeated shocks without restoring lived capacity.
+
+## Healthcare AI adoption is outpacing shared trust, especially in high-friction clinical tasks
+
+The [Ipsos AI Trust Deficit in Healthcare record](records/comparative-ipsos-ai-trust-deficit-healthcare-diagnostics-2026.json)
+adds a health-and-technology route. In the public summary, 41% of surveyed
+healthcare professionals said they already use AI diagnostic tools weekly, while
+85% of patients had at least some awareness of AI in diagnostics. Trust was
+higher for lower-friction uses such as cancer screening and blood-test analysis,
+and lower for mental-health assessment and surgical guidance.
+
+This is a bounded public-summary signal: the full report is gated, so the record
+does not claim a fully exposed sample design, clinical accuracy estimate, or
+patient-outcome effect. The useful cross-source implication is that adoption is
+moving faster than shared confidence, with trust varying by task stakes and
+perceived human accountability. The open arrow is whether task-specific
+evidence, oversight, and consent turn adoption into trusted care—or shift risk
+and responsibility onto clinicians and patients.
+
+## National pride is partly a public-service and governance feedback signal
+
+The [Pew national-pride and public-service legitimacy record](records/comparative-pew-national-pride-public-service-legitimacy-2026.json)
+adds a cultural-meaning route. Pew’s Spring 2025 Global Attitudes Survey asked
+33,486 adults in 25 countries, in an open-ended format, what made them proud of
+their country. Freedom was the most commonly mentioned U.S. source of pride at
+22%, while 20% said they were not proud; in Sweden, 53% mentioned how the
+country is governed. In Spain, government was named as a source of pride by 24%
+of people satisfied with how democracy was working, versus 5% among those
+dissatisfied.
+
+The signal is not that pride is a clean measure of service quality or national
+identity. It is that institutions, freedoms, infrastructure, and public services
+can become part of cultural legitimacy and national meaning. These are coded
+open-ended survey patterns, not causal evidence or a pooled global score. The
+open arrow is whether visible service access and accountable governance can
+renew shared meaning—or whether symbolic pride persists while material and
+political dissatisfaction widens.
+
+## Services trade is growing faster than inclusive digital participation
+
+The [UNCTAD September 2026 services-trade record](records/comparative-unctad-global-trade-update-september-2026-digital-services-lcd-capacity.json)
+adds a global production and development-capacity route. Services accounted for
+71% of global intermediate inputs in 2022 and 27% of global exports in 2025;
+digitally deliverable services grew 7.1% annually over the past decade and now
+make up 56% of global services exports. Yet least developed countries held only
+0.6% of global services exports in 2025, and digitally deliverable services were
+just 16% of their own services exports.
+
+The gap is not only about internet access. UNCTAD identifies connectivity,
+international payment costs, skills, computing, data, finance, AI readiness, and
+participation in rule-making as linked constraints. Digital trade provisions are
+spreading through agreements, but participation does not prove implementation,
+local value capture, or worker benefit. The open arrow is whether services
+growth builds broad productive capability—or deepens dependence on concentrated
+platforms, infrastructure, finance, and rules made elsewhere.
+
+## Geopolitical energy shocks are narrowing growth and public-response room
+
+The [UN DESA September 2026 WESP record](records/comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock.json)
+adds a current macro-to-lived-capacity route. UN DESA projects global growth of
+2.6% in 2026 and 2.9% in 2027, below the pre-pandemic 3.2% pace, while warning
+that the Middle East conflict, trade tensions, and shrinking fiscal space are
+compounding earlier shocks. Brent crude was reported about 40% higher than in
+February, near $100 per barrel, with diesel, jet fuel, and heating oil rising
+even more sharply and renewing inflation pressure.
+
+This is not a country forecast or household-incidence estimate. Its value for
+the atlas is the linked but non-identical route from conflict to energy prices,
+inflation, transport and heating costs, public budgets, and household room. The
+open arrow is whether governments and households can absorb the shock through
+targeted support, substitution, and investment—or whether repeated energy and
+fiscal pressure converts a global slowdown into unequal lived contraction.
+
+## Education is becoming a contested public space for AI agency, meaning, and common worlds
+
+The [UNESCO Algorithm in the Room record](records/comparative-unesco-algorithm-room-education-ai-agency-2026.json)
+adds a cultural-institutional route. UNESCO’s September collection of 26 think
+pieces frames algorithmic systems, content, and infrastructure as already
+affecting education globally, then asks who will hold agency, autonomy, and
+oversight; how young people will develop relationally, emotionally, and
+cognitively; what remains meaningful for pedagogy and assessment; and how
+education can remain a public common good accountable to the public.
+
+The useful trend is not a claim that AI improves or damages learning. It is that
+schools and universities are becoming sites where societies negotiate authority,
+expression, identity, inclusion, and shared futures amid geopolitical distrust.
+The open arrow is whether AI creates more time and access for human learning and
+dialogue—or moves judgment and institutional power toward opaque systems while
+leaving learners and teachers with less ability to contest the terms.
+
+## Soil degradation is worsening while proven agrifood solutions remain under-implemented
+
+The [FAO Status of the World’s Soil Resources 2026 record](records/comparative-fao-status-world-soil-resources-2026-degradation-adoption-resilience.json)
+adds a land-and-ecology route. FAO’s assessment draws on 293 experts from 76
+countries and literature from 2015–2025. More than half of the regional and
+subregional assessments reviewed indicate low or very low adoption of sustainable
+soil management; 58% report deterioration since 2015, while only about 10%
+report improvement. Soil erosion remains the most severe threat identified.
+
+The cross-source implication is an implementation gap: soil health links food
+production, water regulation, biodiversity, carbon storage, rural livelihoods,
+and climate resilience, but knowledge of practices does not ensure adoption.
+This is not a farm-level yield or food-price estimate. The open arrow is whether
+integrated land planning, secure local capacity, finance, extension, and farmer
+voice can scale restoration—or whether transition costs and weak institutions
+leave ecological degradation ahead of agrifood adaptation.
+
+## Universal health coverage is becoming a climate-and-data resilience problem
+
+The [WHO South-East Asia UHC and climate-health record](records/comparative-who-southeast-asia-uhc-climate-health-monitoring-2026.json)
+adds a regional public-systems route. WHO’s 2026 report tracks UHC and
+health-related SDG progress across all 10 South-East Asia Member States while
+adding climate-health indicators, country profiles, and a revised monitoring
+framework. Its focus is not only whether services exist, but whether surveillance,
+preparedness, adaptation, mitigation, data, and accountability can support
+equitable coverage under climate pressure.
+
+This is a monitoring and governance signal, not patient-level evidence or proof
+that climate-smart systems improve outcomes. The open arrow is whether better
+climate-health data changes budgets, facility preparation, intervention reach,
+and service continuity—or becomes another dashboard whose visibility outruns
+institutional capacity and community power to act.
+
+## Cities are becoming governing sites for food access, health, livelihoods, and ecological transition
+
+The [FAO urban agrifood systems framework record](records/comparative-fao-urban-agrifood-systems-framework-2026-city-food-governance.json)
+adds a city-scale food-governance route. FAO treats urban and rural food systems
+as connected through production, processing, logistics, markets, purchasing,
+preparation, disposal, livelihoods, and public policy. Its framework promotes
+three shared goals and links technical expertise, governance, partnerships,
+investment, and implementation across local, national, and global scales.
+
+The implication is that food access is not only a household-price or commodity
+question. It is also about proximity, transport, time, healthy options, local
+jobs, land, waste, environmental pressure, and who has voice in city planning.
+This is a policy framework, not evidence that a city intervention worked. The
+open arrow is whether integrated urban action changes usable food access and
+resilience—or produces coordination plans without shifting costs, power, or
+healthy choices for lower-resource households.
+
+## Displacement monitoring is becoming a continuity problem between surveys
+
+The [UNHCR From Space to Settlement record](records/comparative-unhcr-space-settlement-sociosat-displacement-monitoring-2026.json)
+adds a humanitarian data-and-place route. UNHCR’s SocioSat approach combines
+Forced Displacement Survey and Results Monitoring Survey evidence with repeated
+satellite imagery so socioeconomic conditions can be monitored between survey
+rounds. In South Sudan, a 2023 survey baseline is extended with imagery from
+2024 and 2025 across covered displacement-affected areas, including formal
+camps, out-of-camp refugees, and host communities.
+
+The useful distinction is between a spatial signal and an actionable finding.
+Imagery can flag where conditions may be shifting and help focus field
+verification, but it does not replace community feedback, protection monitoring,
+or direct evidence about safety, priorities, and lived conditions. The open arrow
+is whether faster data continuity improves response timing and accountability—or
+creates false precision and leaves less visible populations outside the frame.
+
+## Central Sahel displacement is compounding insecurity, climate pressure, and host-capacity strain
+
+The [UNHCR Central Sahel displacement record](records/comparative-unhcr-central-sahel-displacement-host-capacity-2026.json)
+adds a current geopolitical-social route. UNHCR reports nearly 3.8 million
+people forcibly displaced across Burkina Faso, Mali, and Niger by 31 July 2026,
+nearly double the 2020 total, with insecurity identified as the primary driver.
+The briefing also links insecurity and climate pressure to continued strain on
+host-community services, infrastructure, and resources.
+
+The count is not the outcome. It does not establish safety, service adequacy,
+integration, voluntary return, or durable solutions. The open arrow is whether
+protection investment, local capacity, livelihoods, and safe pathways can absorb
+displacement—or whether repeated shocks turn host solidarity into service
+depletion and further movement.
+
+## Urban concentration can be productive before it becomes a bottleneck
+
+The [World Bank Thailand Cities of the Future record](records/comparative-world-bank-thailand-cities-future-urban-concentration-investment-2026.json)
+adds a country-specific urban-development route. The World Bank reports that
+urban districts generated about 89% of Thailand’s GDP growth from 2010 to 2020,
+while real GDP per capita grew 2.2% annually in 2021–2024 versus roughly 5.4%
+needed over the coming decade for the 2037 high-income target. Bangkok generates
+close to half of national output, but congestion is estimated at 7–10% of its
+gross regional product and secondary cities retain unrealized potential.
+
+The model’s key insight is conditional: below a modeled investment threshold,
+concentrating on Bangkok performs better; above it, a multi-nodal strategy is
+more advantageous. This is not proof that decentralization improves welfare. The
+open arrow is whether connectivity, specialization, resilient infrastructure,
+and local institutions turn secondary-city investment into broader opportunity—or
+simply redistribute bottlenecks without reducing inequality or household costs.
+
+## Climate resilience is expanding from physical infrastructure to cultural continuity
+
+The [UNESCO Culture x El Niño record](records/comparative-unesco-culture-el-nino-heritage-climate-resilience-2026.json)
+adds a culture-and-climate route. UNESCO’s campaign for the expected and
+emerging 2026–2027 El Niño impacts treats heritage, museums, cultural
+institutions, practitioners, local and Indigenous communities, schools, and
+youth as part of preparedness. It combines Heritage Emergency Fund support,
+technical assistance, scientific information, exhibitions, education, and
+outreach.
+
+The broader signal is that resilience includes continuity of meaning, memory,
+practice, and community institutions—not only roads, buildings, and utilities.
+This is a bounded campaign description, not a quantified loss estimate or proof
+of effectiveness. The open arrow is whether cultural institutions receive the
+resources and local authority to strengthen adaptation—or are asked to absorb
+climate risk without durable funding, technical capacity, or community control.
+
+## Youth peace-building is also a test of multilateral legitimacy and voice
+
+The [UNESCO Young Leaders Call record](records/comparative-unesco-youth-leaders-culture-peace-2026-voice.json)
+adds a youth-led civic and cultural route. UNESCO reports a summer 2026 process
+involving 145 young leaders from 135 countries, producing a Call by Young People
+and a Reflection Document on the future of UNESCO’s mandate. Eleven young leaders
+then presented ideas in direct dialogue with UNESCO and French officials in Paris.
+
+This is not representative youth opinion or evidence of peace outcomes. Its value
+is the institutional question it opens: does youth participation move from
+symbolic recognition to agenda-setting, resources, representation, feedback, and
+accountability? The open arrow is whether culture-of-peace work creates durable
+civic capacity and shared futures—or remains a high-visibility consultation
+whose authority ends at the event.
+
+## Territorial poverty and mobility gaps determine who can convert cities into opportunity
+
+The [World Bank Colombia territorial-prosperity record](records/comparative-world-bank-colombia-territorial-prosperity-poverty-mobility-2026.json)
+adds a place-based inequality route. The report identifies more than 16 million
+people living in poverty, especially severe conditions in places such as La
+Guajira and Chocó, and estimates that at least 30% of labor-income inequality is
+determined by circumstances at birth. It also links poorer territories to weak
+formal employment, connectivity, education, health, and local fiscal capacity.
+
+The important distinction is between city opportunity and usable mobility. Cities
+may offer jobs and services, but people from poorer territories cannot always
+leverage those opportunities when origin conditions, transport, housing, health,
+education, and administrative capacity are weak. The open arrow is whether
+territorial investment and coordinated public capacity widen real mobility—or
+whether migration simply relocates inequality into more expensive destinations.
+
+## Trade-rule reform is becoming a geopolitical and distributional choice
+
+The [WTO World Trade Report record](records/comparative-wto-world-trade-report-2026-multilateral-reform-fragmentation.json)
+adds a trade-governance route from multilateral rules through geopolitical
+fragmentation, digital and services trade, development distribution, and public
+bargaining space. The WTO models a strengthened multilateral framework as
+raising global GDP by 2.9% and exports by 17.9% by 2050 relative to baseline,
+while geopolitical-bloc and fragmented-FTA scenarios reduce global GDP and
+exports by materially larger amounts.
+
+These are scenarios, not forecasts or household outcomes. The broader signal is
+that trade rules are becoming part of the social and political infrastructure of
+prices, jobs, services, investment, and state autonomy. The open arrow is
+whether reform preserves openness and predictability while distributing gains,
+or whether security competition and fragmented rule-making shift costs onto
+smaller economies, firms, workers, and consumers.
+
+## Consumer sentiment can improve without a purchase recovery
+
+The [NIM/GfK Germany Consumer Climate record](records/comparative-nim-gfk-consumer-climate-germany-august-2026-sentiment-savings.json)
+adds a European comparison to the consumer lane. German sentiment improved to
+-26.6, economic expectations rose for a fourth consecutive month, and income
+expectations reached their highest level in six months. Yet willingness to buy
+remained around -9.8, while willingness to save stayed high at 15.5.
+
+The useful distinction is between improving expectations and actual consumption
+readiness. Households may feel less pessimistic without feeling sufficiently
+secure to make major purchases. This is an aggregate sentiment indicator, not
+transaction or budget data. The open arrow is whether confidence eventually
+translates into purchases, services, household formation, and cultural spending,
+or remains precautionary sentiment without a broad consumption recovery.
+
+## Climate pressure becomes a household routine when it enters water and cost
+
+The [ONS Great Britain social-trends record](records/comparative-ons-public-opinions-social-trends-great-britain-august-2026-water-cost-climate.json)
+adds an official public-opinion route linking problem priorities, climate salience,
+drought adaptation, water use, and household costs. Cost of living, the NHS, and
+the economy remained the top reported issues; climate and environment concern
+rose to 62%, while 88% reported at least one action to reduce water use during
+August drought and restriction conditions. At the same time, 55% reported a
+monthly cost-of-living increase, with food, fuel, and energy bills the leading
+reasons.
+
+The cross-source signal is that climate concern becomes socially consequential
+when it is translated into everyday routines and competing household tradeoffs.
+This is official aggregate survey evidence, not water-volume measurement or
+individual causal histories. The open arrow is whether temporary conservation
+becomes durable infrastructure, pricing, communication, and public-system
+adaptation—or whether climate action remains an unequal burden layered onto
+existing cost pressure.
+
+## Consumer resilience is increasingly selective rather than broad-based
+
+The [ICSC Consumer Economy record](records/comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security.json)
+adds a U.S. household route from job security and financial margin through value
+seeking, brand switching, discretionary spending, and selective resilience. The
+report describes continued spending and financial optimism alongside rising job
+insecurity, weaker automatic brand loyalty, more trading down, and limited room
+for additional essential-cost shocks.
+
+The cross-source signal is a household that is still participating in consumer
+culture but is doing so through sharper internal tradeoffs: protecting some
+small rewards while cutting, substituting, or delaying elsewhere. This is a
+commercial survey, not an observed-budget or causal welfare study. The open
+arrow is whether selective consumption reflects adaptive agency and durable
+confidence—or a fragile equilibrium that breaks when work, housing, care, debt,
+or essential costs worsen.
+
+## Civil-society resistance is a cross-domain signal of pressure and agency
+
+The [CIVICUS State of Civil Society record](records/comparative-civicus-state-civil-society-2026-civic-space-resistance.json)
+adds a civic-space route spanning democracy, technology, global governance,
+conflict, climate, migration, gender rights, and youth protest. Its 2026 report
+draws on more than 250 interviews and 100 articles covering around 100 countries
+and territories, and argues that weakened rules, conflict impunity, technology
+power, disinformation, surveillance, and the withdrawal of multilateral funding
+are interacting rather than appearing as isolated problems.
+
+The important signal is not simply that civic space is under pressure. It is
+that advocacy, evidence collection, litigation, and youth mobilization are being
+used as response infrastructures. This is curated civil-society analysis, not
+representative public opinion or proof of durable policy change. The open arrow
+is whether collective action converts visibility and resistance into protection,
+budget decisions, enforcement, institutional feedback, and durable civic power.
+
+## Democratic quality is becoming part of conflict-prevention infrastructure
+
+The [International IDEA Global State of Democracy record](records/comparative-international-idea-global-state-democracy-2026-democracy-conflict.json)
+adds a political-institutional route from election credibility, legislative
+effectiveness, expression and press freedom, justice access, and enforceable
+rights through legitimacy and conflict risk. The report emphasizes that formal
+democratic procedures can coexist with weak competition and rights enforcement,
+and that democratic decline is associated with more violent conflict in its
+comparative analysis.
+
+The broader signal is that democracy is not only a values or governance topic;
+it is also part of the security and social-stability infrastructure. This is
+comparative index and report evidence, not individual political histories or
+causal conflict attribution. The open arrow is whether institutional reform
+becomes usable protection, civic participation, and peaceful contestation—or
+whether formal procedures continue to mask declining rights and rising risk.
+
+## AI is entering public expectations as a distributional and work-risk problem
+
+The [Pew global AI-attitudes record](records/comparative-pew-global-ai-job-loss-inequality-2026-attitudes.json)
+adds a public-perception route from AI awareness through job expectations,
+inequality, age, gender, education, income, and political ideology. Across the
+survey’s 37-country comparison, people more often expect AI to reduce jobs than
+create them; concern is especially common in higher-income countries, where
+people also more often expect AI to widen the gap between rich and poor.
+
+The important signal is not that the public has reached one view of AI. It is
+that expectations are stratified by development position, awareness, age,
+gender, and ideology, while many people remain both concerned and excited. This
+is attitude evidence, not realized displacement or productivity data. The open
+arrow is whether institutions convert uncertainty into training, bargaining
+power, transparency, social protection, and credible distribution—or allow
+expectation gaps to become another source of status conflict and distrust.
+
+## Cultural institutions are being treated as civic infrastructure, not amenities
+
+The [Salzburg Global cultural-infrastructure record](records/comparative-salzburg-global-cultural-infrastructure-investment-2026.json)
+adds a culture-specific route from institutions and funding through civic life,
+sovereignty, representation, trust, and labor conditions. A 2026 international
+session argues that culture should be planned alongside transport, education,
+health, climate, trade, and public infrastructure rather than defended as a
+discretionary sector. It also links external funding to cultural direction,
+governance to visible power and missing voices, and institutional resilience to
+recognizing the invisible labor that sustains cultural ecosystems.
+
+The broader signal is that cultural capacity is being reframed as a public
+system with budgets, measurement, governance, and worker-protection questions.
+This is a curated convening and prototype publication, not a representative
+sector survey or causal evaluation. The open arrow is whether this reframing
+produces durable resources, local control, fair cultural work, and meaningful
+community participation—or simply adds cultural language to existing funding
+and power arrangements.
+
+## Community identity can remain strong while its social base changes
+
+The [Pew Latter-day Saints record](records/comparative-pew-latter-day-saints-religious-demographic-change-2026.json)
+adds a religious-community route from demographic change and retention through
+belief, family structure, partisan identity, social attitudes, communal trust,
+and belonging. The report finds a community that remains highly religious,
+Republican-leaning, and socially cohesive while also becoming more diverse,
+older, less likely to be raising children at home, less retentive than in 2007,
+and more accepting of some social changes.
+
+The broader cultural signal is that institutional identity is not static just
+because its headline affiliation remains stable. Cohesion, demographic change,
+generational replacement, conversion, exit, family formation, and issue
+liberalization can move together. This is a U.S. religious-community study, not
+a universal model of religion or culture. The open arrow is whether strong
+communal trust adapts inclusively to changing members—or protects continuity by
+reproducing boundaries and unequal belonging.
+
+## Peace legitimacy is constrained by everyday security, control, and trust
+
+The [Pew Israel–Palestine coexistence record](records/comparative-pew-israel-palestine-coexistence-legitimacy-2026.json)
+adds a conflict-specific public-legitimacy route. In Pew’s spring 2026 surveys,
+only 17% of Israelis and 21% of Palestinians in the West Bank and East
+Jerusalem said peaceful coexistence was possible, while 56% and 68%
+respectively said it was not. Open-ended explanations connect the political
+question to land, violence, fear, distrust, Israeli control and occupation,
+security, leadership, work, checkpoints, and economic interdependence.
+
+The broader signal is that peace cannot be treated as an elite institutional
+design problem alone: public legitimacy is shaped by lived exposure, mobility,
+work, dignity, and reciprocal threat narratives. This is conflict-period public
+opinion, not a negotiation forecast or permanent attitude measure. The open
+arrow is whether changing security and everyday conditions can reopen political
+imagination—or whether accumulated violence and distrust continue to make
+coexistence socially unavailable even when policy options remain on paper.
+
+## Conflict is spreading across economic, cultural, technological, and material systems
+
+The [ACLED Raleigh Report record](records/comparative-acled-raleigh-report-september-2026-conflict-systems-disorder.json)
+adds a conflict-systems route beyond battlefield totals. ACLED’s September
+analysis links rising conflict intensity and remote violence to economic
+pressure, hybrid attacks, bots and scams, cultural disruption, middle-power
+alignment, local roadblocks, and military production and material bottlenecks.
+
+The broader signal is that geopolitical risk is experienced through systems that
+connect war, trade, infrastructure, information, supply chains, and everyday
+coordination. This is an interpretive monthly analysis, not a complete event
+dataset or forecast. The open arrow is whether institutions can isolate and
+govern these spillovers—or whether economic coercion, cultural disorder, and
+material dependence widen conflict beyond the original battlefield.
+
+## Press freedom is widely valued while its boundaries become partisan and institutional
+
+The [Pew-Knight press-freedom record](records/comparative-pew-press-freedom-limits-censorship-legitimacy-2026.json)
+adds a public-information legitimacy route from the value of free reporting
+through accuracy concerns, censorship boundaries, partisan threat perception,
+and trust in government, newsrooms, platforms, and journalists. Pew reports that
+73% of Americans consider press freedom highly important, yet 53% prioritize
+preventing inaccurate reporting even if that limits press freedom. Only 28% say
+the U.S. news media are completely free, while views of restrictions and of
+government sanctions differ sharply by party.
+
+The broader signal is not simply declining media trust. It is a struggle over
+who gets to define error, harm, and legitimate information control. This is
+aggregate public-opinion and illustrative focus-group evidence, not respondent-
+level data, a legal finding, or proof of coordinated suppression. The open arrow
+is whether transparent correction and accountable newsroom practice rebuild
+legitimacy—or whether demands to police false information become a partisan
+route to coercive control over public reality.
+
+## Institutional skepticism is redirecting trust toward proximity and values
+
+The [Ipsos Power of Trust record](records/comparative-ipsos-power-of-trust-2026-local-values-consumer-legitimacy.json)
+adds a distinct consumer-and-civic trust route. Across Ipsos's 38-market
+framework, 69% say their government does not prioritize their concerns and 73%
+believe the economy is rigged in favor of the rich and powerful. Ipsos argues
+that trust is not simply disappearing: it is becoming more personal, local, and
+values-driven, with implications for news, products, services, brands, and
+AI-mediated choices.
+
+The broader signal is that institutional legitimacy may be redistributed toward
+familiar relationships, local organizations, and recognizable value alignment
+when national systems feel distant or unfair. This is aggregate comparative
+trend evidence, not respondent-level data or causal proof that local trust
+improves accuracy, welfare, or social cohesion. The open arrow is whether
+proximity becomes a bridge back to accountable institutions—or a fragmented
+market of insulated publics, personalized information, and unequal access to
+credible intermediaries.
+
+## Affordability pressure is becoming a direct test of political legitimacy
+
+The [PPIC California government survey record](records/us-ppic-california-government-september-2026-affordability-trust.json)
+adds a state-level bridge from household cost pressure to electoral judgment and
+public-system legitimacy. In the September 2026 survey, 65% of likely voters
+say candidates' affordability positions are very important to their vote. At
+the same time, 58% report household hardship from recent price increases, 44%
+report at least some housing-cost strain, 71% expect bad financial times for
+California, and 59% say state government can be trusted to do what is right
+only some of the time.
+
+The broader signal is that affordability is not merely a consumer sentiment or
+economic indicator; it is a political accountability channel. The survey also
+shows how shared dissatisfaction can split over who owes the remedy, especially
+for health-care access. This is aggregate California public opinion, not
+respondent-level data, a causal policy evaluation, or a national forecast. The
+open arrow is whether visible cost relief and service delivery restore trust—or
+whether persistent price and housing exposure harden into durable regional,
+class, and partisan legitimacy gaps.
+
+## Climate governance is recruiting culture as public-engagement and implementation infrastructure
+
+The [UNFCCC Entertainment and Culture for Climate Action record](records/comparative-unfccc-entertainment-culture-climate-action-2026.json)
+adds a culture-specific climate-governance route. The September 2026 ECCA
+strategy links entertainment and cultural sectors to the Paris Agreement's
+public-engagement mandate, with functions spanning community formation,
+connection to the Paris process, and support for storytelling and
+decarbonization. Initial workstreams cover film and television, music, and
+visual arts, while Liverpool's Accelerator City pilot used nine projects across
+live music and screen production.
+
+The broader signal is that climate action is being framed through memory,
+identity, places, work, and cultural participation—not only targets, finance,
+technology, and treaties. This is an institutional strategy announcement, not
+evidence of emissions reduction or behavior change. The open arrow is whether
+cultural participation receives the resources, worker protections, and
+accountability needed to produce material climate action—or remains a narrative
+layer attached to existing governance without changing implementation.
+
+## Energy transition is shifting from deployment to integration under geopolitical and digital load
+
+The [World Energy Council Trilemma record](records/comparative-world-energy-council-trilemma-2026-rebalancing-integration.json)
+adds a global energy-systems route from AI, data-center and industrial demand,
+geopolitical disruption, and persistent access gaps through grids, storage,
+markets, institutions, affordability, and social legitimacy. The report draws
+on dialogue with more than 275 senior energy leaders from 65 countries and
+identifies grids, storage, and system integration as common constraints. It
+also shows why regional conditions diverge: Africa still has roughly 600 million
+people without electricity, China is scaling ultra-high-voltage transmission,
+and Brazil is facing curtailment despite a highly renewable system.
+
+The broader signal is that energy security, decarbonization, industrial
+competitiveness, affordability, and access are now coupled through system
+integration rather than separable deployment targets. This is a leadership-
+informed report, not a probability-sample survey, demand forecast, or emissions
+inventory. The open arrow is whether coordination across grids, storage,
+markets, and cross-border pathways can convert investment into reliable,
+affordable, socially legitimate energy—or whether digital demand and
+geopolitical disruption sharpen the trade-offs.
+
+## AI is becoming a consumer-service intermediary, but access to human accountability remains part of the product
+
+The [Ofcom AI-and-telecoms record](records/comparative-ofcom-ai-telecom-consumer-agency-human-support-2026.json)
+adds a concrete consumer-technology route. Ofcom reports that 53% of adult UK
+internet users interacted with a GenAI tool or AI customer-service chatbot in
+the prior year, while 8% used AI in relation to telecoms services: 6% to resolve
+an issue, 3% to compare price or service, and 2% to make a complaint. The
+publication also finds mixed views about human support, with human contact
+remaining especially important for complex or sensitive issues.
+
+The broader signal is that AI is beginning to mediate access to essential
+communications markets, not only entertainment or productivity. Personal agents
+could save time and improve bargaining, but privacy, authorization,
+transparency, escalation, and anti-gatekeeping rules determine whether that
+becomes agency or a new barrier. This is Ofcom tracker and qualitative evidence,
+not proof of better deals or service outcomes. The open arrow is whether
+automation expands consumer power while preserving human remedy—or quietly
+turns customer service into an opaque access layer.
+
+## Space infrastructure is becoming a public-service dependency with concentrated and contested failure points
+
+The [OECD Space Economy at a Glance record](records/comparative-oecd-space-economy-2026-dependencies-sustainability-security.json)
+adds a geopolitical-infrastructure route from space-system dependence through
+orbital sustainability, launch concentration, critical materials, supply-chain
+resilience, signal security, and public-service continuity. The OECD identifies
+space systems as supports for communications, navigation, weather, disaster
+response, transport, agriculture, finance, and defence. It reports that the
+four largest launch providers accounted for about 82% of 2025 launches, while
+critical-material production is highly concentrated and orbital debris risks
+are becoming self-reinforcing in some regions.
+
+The broader signal is that space is no longer a remote sectoral capability; it
+is a dependency layer underneath everyday systems and geopolitical power. This
+is a systems and policy analysis, not an incident forecast or household-impact
+estimate. The open arrow is whether interoperability, diversified supply,
+responsible orbital behavior, and signal resilience can keep commercial growth
+from creating strategic dependencies and shared environmental liabilities.
+
+## AI is becoming a peace-and-security capability faster than multilateral governance is adapting
+
+The [Security Council Report AI-geopolitics record](records/comparative-security-council-report-ai-geopolitics-peace-security-2026.json)
+adds a state-security route that complements the consumer and infrastructure
+AI records. The report describes AI as both a tool for conflict prevention,
+mediation, peace operations, and sanctions monitoring and a force that lowers
+barriers to cyber operations and scalable disinformation. It also connects AI
+competition to semiconductors, computing infrastructure, energy, data, and
+critical minerals, while warning that autonomous systems can compress
+decision-making and weaken visible human control.
+
+The broader signal is that AI governance is not only a technology or market
+question; it is becoming a question of war, peace, accountability, and
+multilateral institutional capacity. This is a policy analysis, not a conflict
+forecast, capability test, incident attribution, or legal ruling. The open
+arrow is whether the Security Council and related institutions can build
+anticipatory expertise, horizon-scanning, and human-accountability mechanisms
+before AI-driven strategic competition outpaces their ability to respond.
+
+## Development resilience is being tested by compounding shocks rather than isolated crises
+
+The [UN development-resilience record](records/comparative-unsdg-compounding-shocks-development-resilience-2026.json)
+adds a cross-sector development route from the COVID period, energy-food-
+fertiliser price shocks, and Middle East conflict spillovers through El Niño,
+food insecurity, conflict, displacement, fiscal space, and response capacity.
+The UN brief emphasizes that many developing countries face weak public
+finances, limited external support, and an intensifying debt-development
+trade-off while trying to protect development gains.
+
+The broader signal is that geopolitical shocks travel through prices, food
+systems, livelihoods, public budgets, services, and mobility; resilience is
+therefore a systems property, not simply a country’s ability to respond to one
+event. This is an aggregate UN policy synthesis, not a causal cross-country
+estimate or proof of durable recovery. The open arrow is whether coordinated
+finance, social protection, local adaptation, and service continuity can break
+the compounding chain—or whether each new shock permanently narrows the next
+response.
+
+## Language-inclusive AI depends on a locally governed data-to-impact chain
+
+The [UNDP Data-to-AI Value Chain record](records/comparative-undp-data-to-ai-value-chain-language-culture-inclusive-ai-2026.json)
+adds a cultural and institutional route through AI diffusion. The framework
+tracks five interdependent stages—data collection, curation, model training,
+deployment, and impact/reuse—and treats governance and coordination as the
+layer that makes the chain equitable. UNDP’s implementation synthesis reports
+breakpoints around consent, provenance, community visibility, exclusion of
+women, older, rural, and dialect-speaking communities, local compute, public-
+service deployment, and value return.
+
+The broader signal is that language and cultural representation are upstream
+power and infrastructure questions, not merely translation quality. This is a
+UNDP framework and implementation synthesis, not a model benchmark, causal
+impact evaluation, or proof of equitable AI outcomes. The open arrow is whether
+community consent, local capacity, public-service integration, benefit sharing,
+and feedback loops can turn AI diffusion into durable public value rather than
+another extractive data and capability chain.
+
+## Climate resilience increasingly depends on information integrity across the full disaster cycle
+
+The [UNDP climate-information-integrity record](records/comparative-undp-climate-information-integrity-interventions-2026.json)
+adds an information-and-climate route from misinformation, disinformation, and
+other information pollution through climate action and disaster response. The
+landscape maps several hundred information-integrity interventions, including
+almost fifty focused on climate change and climate-related disasters. It finds
+that work is concentrated on detection and response, while prevention,
+recovery, community-based approaches, platform participation, regional
+coordination, and sustainable funding remain less developed.
+
+The broader signal is that climate resilience is not only a physical or
+financial capacity; it also depends on whether people can interpret risk,
+warnings, response options, and recovery claims through a trustworthy
+information environment. This is a mapped intervention landscape, not an
+effectiveness evaluation or behavioral study. The open arrow is whether
+information-integrity work can move upstream and become community-rooted
+preparedness and recovery infrastructure rather than remain a reactive layer
+after information pollution has already shaped public action.
+
+## Youth clean-energy interest is outrunning the pathways from learning to work
+
+The [UNDP/Goodwall energy-talent record](records/comparative-undp-goodwall-energy-talent-youth-pathways-2026.json)
+adds a youth-and-work route to the energy transition. The initiative reached
+more than 58,000 young people across more than 100 countries, with 55,314
+reported completions. Among reported post-program participants, 93% expressed
+interest in a clean-energy career and 92% selected at least one concrete next
+step, while the quiz findings show weaker knowledge of the breadth of
+non-engineering roles and projected job creation.
+
+The broader signal is that the green-transition bottleneck is partly a
+pathway problem: young people need occupational information, practical
+experience, mentors, credentials, employers, finance, and a route into energy
+decisions—not only awareness or technical courses. This is aggregate program
+and published survey/quiz reporting, not representative youth evidence or an
+employment evaluation. The open arrow is whether the proposed links between
+learning, work-based experience, youth enterprise, and national energy
+dialogues produce durable jobs, earnings, retention, or meaningful influence.
+
+## Cultural consumers are seeking human anchors, active memory, and self-defined rituals
+
+The [Penguin Random House Moments Fall 2026 record](records/comparative-penguin-random-house-moments-fall-2026-reality-ritual-consumer.json)
+adds a consumer-and-culture route that is distinct from general institutional
+trust polling. Its trend synthesis describes AI, rage bait, shifting norms, and
+post-truth politics as making reality harder to parse, with consumers seeking
+real voices, visible imperfection, trusted experts, firsthand experience, and
+clear human provenance as anchors.
+
+It also identifies active preservation of digital memories, smaller personal
+“minorstone” rituals as traditional milestones become more delayed or
+nonlinear, and longer, more comparative, deal-oriented shopping journeys with
+AI entering product comparison and gift discovery. The broader signal is that
+cultural consumption is becoming a way to manage uncertainty, memory, identity,
+and control—not simply a response to price or content supply. This is a
+publisher's qualitative consumer-insights synthesis with cited secondary
+figures, not representative public opinion or causal evidence. The open arrow
+is whether human provenance, preservation practices, personal rituals, and
+slower comparison endure across income, age, culture, and platform conditions.
+
+## AI optimism is global before AI use is global, while trust grows along the adoption ladder
+
+The [Gallup/Microsoft global AI adoption record](records/comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026.json)
+adds a cross-country diffusion gradient. In the first 37-country fieldwork
+wave, median awareness was 81%, median ever-use 43%, and median non-use 57%.
+Positive feelings outweighed negative ones in 34 countries, yet median trust
+in AI accuracy was only 36%. In 35 of 37 countries, more people expected AI to
+help their country than trusted it to provide accurate information.
+
+The pattern is not simply enthusiasm versus rejection. Singapore and Malawi
+illustrate a wide access/use range; frequent users generally reported more
+trust, while wealthy Western countries combined relatively high use with high
+worry. The broader signal is that AI diffusion can be optimistic, emotionally
+ambivalent, and infrastructurally unequal at the same time. This is a
+cross-country survey summary, not a causal panel, usage telemetry, or accuracy
+audit. The open arrow is whether access, task success, digital capability,
+institutional safeguards, and repeated experience convert optimism into safe,
+trusted, consequential use—or deepen a new confidence divide.
+
+## Beverage-alcohol consumption is fragmenting across occasions, formats, and moderation choices
+
+The [Southern Glazer's Raise the Bar record](records/comparative-southern-glazers-beverage-alcohol-occasions-moderation-2026.json)
+adds a concrete lifestyle-consumption route. Its commercial-intelligence
+release describes consumers continuing to engage with beverage alcohol while
+moving across ready-to-drink cocktails, wine cocktails, non-alcoholic and
+functional beverages, tequila, smaller formats, premium offerings, and new
+social or cultural occasions. It reports spirits RTDs as 94% of spirits volume
+growth and cocktails as 92% of wine growth, while noting that these are shares
+of category growth rather than total consumption.
+
+The broader signal is not simple decline or expansion. It is a more segmented
+market in which convenience, affordability, lower-risk trial, premiumization,
+venue discovery, and moderation can coexist. This is a distributor's
+commercial-intelligence synthesis, not a population health estimate or proof
+that no/low products reduce alcohol exposure. The open arrow is whether format
+and venue shifts change total intake, social participation, health outcomes,
+repeat purchase, and access differently across income, age, and place.
+
+## Culture and heritage are being modeled as social infrastructure, but their cohesion value remains hard to isolate
+
+The [UK DCMS culture-and-heritage social-cohesion record](records/comparative-uk-dcms-culture-heritage-social-cohesion-2026.json)
+adds an institutional bridge between cultural assets and civic capacity. The
+scoping study's 35-paper review converges on four mechanisms: shared identity
+and belonging, social-network formation, shared norms and values, and spaces for
+socialisation and mixing. It maps outcomes across micro, meso, and macro levels:
+personal ties and belonging, community participation and trust, and institutional
+legitimacy or political participation.
+
+The broader signal is that culture and heritage are being treated as public
+infrastructure with services and externalities, not only as entertainment or
+market output. But the study also finds mixed, mostly correlational evidence,
+few attempts to monetize cohesion in isolation, and real risks of overlap or
+double counting. This is a UK scoping and valuation agenda, not proof that
+cultural investment causes cohesion. The open arrow is whether asset funding,
+access, participation, repeated interaction, distribution, and downstream
+trust or civic action can be observed as one defensible chain.
+
+## Neighbourhood belonging remains meaningful but local trust, place confidence, and cohesion are uneven
+
+The [England Community and Engagement Survey record](records/comparative-uk-community-engagement-survey-2025-26-belonging-trust-cohesion.json)
+adds an official aggregate outcome surface to the DCMS culture-and-cohesion
+framework. In 2025/26, 61% reported strong immediate-neighbourhood belonging,
+69% chatted with neighbours monthly, and 61% said people pull together to
+improve the neighbourhood. But only 38% said many neighbours could be trusted,
+while 79% said people from different backgrounds get along locally.
+
+The broader signal is that belonging, interaction, collective capacity, local
+trust, and intergroup coexistence are related but non-interchangeable. The
+survey also shows wide place and deprivation gradients: strong belonging ranged
+from 74% to 47% across local authorities, and from 69% in the least deprived
+areas to 54% in the most deprived. This is representative England survey
+reporting, not respondent linkage or causal community evaluation. The open
+arrow is whether local investment, service quality, housing stability, safety,
+and cultural infrastructure can move these distinct outcomes together.
+
+## Social cohesion is being reframed as a national-resilience capability, not only a community outcome
+
+The [UK Protecting What Matters record](records/comparative-uk-protecting-what-matters-social-cohesion-resilience-2026.json)
+adds the political-institutional layer to the recent cohesion sources. The UK
+government links economic insecurity, weakened public and communal spaces,
+technological change, demographic pressure, extremism, online echo chambers,
+malign foreign influence, and declining institutional trust in one diagnosis of
+cohesion risk. It organizes its response around confident, cohesive, and
+resilient communities: place investment and belonging; integration and
+anti-hate work; and online, institutional, and extremism safeguards.
+
+The broader signal is that social cohesion is becoming part of national
+security and geopolitical resilience—while still depending on local services,
+housing, public space, cultural life, migration management, and visible state
+delivery. This is a government policy diagnosis and action plan, not an
+independent causal evaluation or neutral public-opinion measure. The open
+arrow is whether the proposed social-contract, Pride in Place, platform,
+integration, and taskforce routes produce measurable changes in belonging,
+trust, participation, safety, and resistance to hostile influence.
+
+## AI governance is expanding faster than public accountability and rights protection
+
+The [Global Index on Responsible AI 2026 record](records/comparative-global-index-responsible-ai-2026-governance-implementation-redress.json)
+adds a comparative institutional layer to the AI sources. Across 135 countries
+and jurisdictions, it reports rapid AI diffusion alongside low average scores,
+implementation evidence in only 55% of active-framework cases (45% in the
+Global South), and especially weak public-sector accountability: only 18% of
+countries require disclosure of government algorithmic systems and 26% have
+fair, accountable AI-procurement frameworks.
+
+The broader signal is an asymmetric transition: states are building skills,
+strategies, and market-facing rules faster than they are building disclosure,
+worker protection, cultural and linguistic inclusion, environmental accounting,
+civil-society participation, and redress for AI used in public power. This is a
+comparative public-evidence index, not a measure of lived harm or proof that a
+framework works. The open arrow is whether deployment, procurement, energy and
+language exposure, labor bargaining power, complaint routes, enforcement, and
+public-service outcomes move together.
+
+## Climate-linked mobility is making health-system continuity a cross-border public infrastructure problem
+
+The [WHO health, migration, displacement, and climate research-priorities record](records/comparative-who-health-migration-displacement-climate-research-priorities-2026.json)
+adds a health-and-mobility layer to the climate, displacement, and public
+systems map. The WHO treats climate change as both a driver of migration and
+displacement and a determinant of health, then organizes its research agenda
+around social determinants, universal health coverage, emergencies, data and
+policy, and health outcomes across the full migration journey.
+
+The broader signal is that mobility status alone cannot explain health risk:
+legal status, housing, work, gender, age, disability, poverty, place, service
+access, emergency inclusion, and continuity interact. This is a participatory
+research-prioritization agenda, not a prevalence estimate or causal evaluation.
+The open arrow is whether climate exposure, movement or immobility, health
+coverage, portable records and protections, continuity of care, and later
+institutional response can be linked without converting aggregate priorities
+into individual histories.
+
+## A new nicotine category is being normalized through culture and platforms faster than regulation
+
+The [WHO nicotine-pouch marketing record](records/comparative-who-nicotine-pouches-marketing-youth-regulatory-gaps-2026.json)
+adds a consumer-health route linking product design, flavors, packaging,
+influencers, social media, sponsorship, events, and regulatory gaps. WHO reports
+retail sales above 23 billion units in 2024, a market near US$7 billion in 2025,
+and around 160 countries without specific regulation. Its analysis shows how
+nicotine pouches are associated with lifestyle, pleasure, romance, music,
+sports, discretion, and social belonging—especially in youth-facing channels.
+
+The broader signal is not simply “new product demand.” It is a market-making
+system in which firms use culture and platform visibility to normalize an
+addictive category while national rules lag across flavors, age, labeling,
+taxation, advertising, retail, and enforcement. This is a WHO marketing and
+policy report, not respondent-level use data or a causal estimate of advertising
+effects. The open arrow is whether availability, price, exposure, initiation or
+substitution, dependence, cessation, health outcomes, complaints, and
+regulatory action move together.
+
+## Public attention converges on economic security but shifts toward work, government, or safety by context
+
+The [Gallup World's Most Important Problem 2026 record](records/comparative-gallup-worlds-most-important-problem-2026-economic-trust-security.json)
+adds an aggregate public-attention layer across 107 countries and territories.
+The economy is the top concern at a median 23%, followed by work and
+employment at 10%, politics and government at 8%, and safety and security at
+7%. Economic concern rises where household room is thinner; political concern
+is more prominent in affluent democracies and is associated with low
+institutional confidence; conflict can make security overwhelm every other
+issue.
+
+The broader signal is that people judge national progress through lived
+economic security, job quality, visible local services, institutional fairness,
+and physical safety—not through one macro indicator. This is country-level
+survey aggregation, not respondent-level analysis or causal proof. The open
+arrow is whether household costs, work quality, service performance, trust,
+conflict exposure, media attention, and later political response move together.
+
+## Headline inequality progress coexists with weaker labour share, discrimination blind spots, and displacement
+
+The [UN SDG Goal 10 2026 record](records/comparative-un-sdg10-2026-inequality-discrimination-displacement-labour-share.json)
+adds a global distributional and measurement layer. Nearly 60% of countries
+with comparable data saw the poorest 40% grow faster than the national average,
+but regional and income-group progress remains uneven. At the same time,
+labour's share of GDP fell from 53.0% in 2015 to 52.6% in 2025; nearly one in
+five people report recent discrimination; and the refugee share of the global
+population more than doubled since 2015.
+
+The broader signal is that inclusive growth cannot be read from one favorable
+distributional indicator. Labour bargaining, discrimination visibility,
+displacement, migration risk, host capacity, social protection, and development
+finance determine who can convert growth into durable room and security. This
+is aggregate SDG monitoring, not individual mobility data or causal policy
+evidence. The open arrow is whether income gains, labour share, measurement,
+protection, movement, service access, and political response move together.
+
+## Democratic erosion is broad, but civic resistance and institutional openings remain active
+
+The [BTI 2026 record](records/comparative-bti-2026-democratic-regression-resistance-governance.json)
+adds a comparative political-institutional layer across 137 countries. BTI
+finds that 56% are now ruled autocratically, 54% of assessed countries do not
+meet minimum standards for free and fair elections, and the share denying
+fundamental participation rights has risen to around 40%. It also links
+political concentration to weaker rule of law, patronage, fair competition,
+governance capacity, and social equality.
+
+The broader signal is not a one-way collapse narrative. Protests, civil society,
+institutional checks, election-integrity efforts, and peaceful transfers still
+create reform openings, even when repression and manipulation increase. This is
+an expert-coded comparative index, not respondent-level data or a causal model
+of regime change. The open arrow is whether participation, information control,
+local services, economic inequality, civic organization, repression, election
+quality, and later reform or exit move together.
+
+## Economic progress is being measured through work engagement, real-job access, and life trajectory alongside GDP
+
+The [Gallup Economics 2026 record](records/comparative-gallup-economics-2026-ambition-payroll-thriving.json)
+adds a measurement layer connecting macro growth to lived progress. Gallup
+proposes three companion indicators: Gross Domestic Ambition, Gross Domestic
+Payroll to Population, and Gross Domestic Thriving. Its headline global values
+are 20% of workers engaged and highly committed, 27% of adults in a full-time
+employer-based job of at least 30 hours, and 35% of adults classified as
+thriving on present and future life evaluations.
+
+The broader signal is that GDP and headline employment do not establish
+workplace agency, access to stable employer-based work, or hope about the life
+trajectory. This is Gallup's proprietary measurement framework, not an
+objective replacement for national accounts or a causal welfare model. The open
+arrow is whether prices, job access, engagement, schedule and care time,
+housing, services, trust, life evaluation, and later mobility move together.
+
+## Family policy is becoming cross-megatrend infrastructure for care, work, services, and resilience
+
+The [UN family-policy and megatrends record](records/comparative-un-family-policymaking-megatrends-care-work-digital-climate-2026.json)
+adds a household and care-policy bridge across technological change, demographic
+change, urbanization, migration, and climate change. The UN report connects
+family well-being to supportive services, inclusive planning, participatory
+governance, early childhood development, parenting support, work-family balance,
+and a fair distribution of household responsibilities.
+
+The broader signal is that family resilience is not only a private household
+attribute. Digital tools can improve access to health, education, telehealth,
+work, and benefits while increasing privacy, screen-time, cyberbullying, and
+work-boundary risks; demographic, urban, migration, and climate pressures then
+redistribute care, housing, service, and intergenerational burdens. This is a
+policy synthesis of reported good practices, not a causal evaluation. The open
+arrow is whether household structure, care and work time, income and housing,
+digital access, services, childcare or leave, child development, health, and
+later political trust move together.
+
+## Tourism is moving from rebound to managed growth as risk, infrastructure, and community value converge
+
+The [OECD Tourism Trends and Policies 2026 record](records/comparative-oecd-tourism-trends-policies-2026-managed-growth-community-resilience.json)
+adds an official 53-country tourism-policy and sector-performance layer. OECD
+reports 819.5 million international arrivals to OECD countries in 2024, an 8.1%
+increase, followed by estimated 3.4% growth in 2025; tourism directly contributed
+4.0% of GDP and 19.3% of services exports in the OECD frame.
+
+The broader signal is that tourism has become a coupled cultural, consumer,
+infrastructure, climate, digital, and geopolitical system. The policy problem
+is shifting from restoring demand to managing concentrated visitor flows,
+community benefits, affordability, safety, extreme weather, resilient
+infrastructure, and local authority. Digitalisation and AI are framed as tools
+for destination management and personalised experiences, but also make data
+quality, vendor dependence, access, and governance part of the trend. This is
+aggregate OECD statistics and policy synthesis, not respondent-level travel
+data or proof that recommendations were implemented. The open arrow is whether
+visitor demand, prices, local value capture, housing and infrastructure,
+workforce capacity, weather risk, digital control, and resident legitimacy move
+together.
+
+## Global risk perception is shifting toward war and concentrated AI power while climate inaction and cooperation remain central
+
+The [UN Global Risk Report 2026 record](records/comparative-un-global-risk-report-2026-war-ai-climate-cooperation.json)
+adds a global geopolitical-risk layer based on stakeholder assessments across
+155 countries and 28 risks. Thirty-six percent of surveyed stakeholders expect
+large-scale war within one year; concern about AI and frontier technologies,
+including concentration of power, has risen sharply; climate-change inaction
+remains the highest-ranked risk; and joint government action is viewed as the
+most effective response.
+
+The broader signal is a tension between fragmentation and interdependence.
+Security, AI capability, climate, infrastructure, and institutional legitimacy
+are being perceived as one connected risk environment, even as political
+conflict makes cooperation harder. This is a stakeholder risk-perception
+publication, not a representative public-opinion survey, event forecast, or
+realized-harm dataset. The open arrow is whether perceived war risk, AI control,
+climate inaction, public trust, infrastructure dependence, preparedness, and
+actual cross-border cooperation move together.
+## Beyond-GDP measures show divergence between aggregate stability, household room, cultural participation, and institutional trust
+
+The [ONS Beyond GDP June 2026 record](records/comparative-ons-beyond-gdp-national-wellbeing-june-2026-finance-trust-culture.json)
+adds an official national well-being layer. ONS reports that 24.6% of UK adults
+find it fairly or very difficult to get by financially while income and wealth
+are broadly stable in the short term; only 29.2% tend to trust the UK government;
+and cultural engagement fell to 82.9% from 90.0% the previous year. At the same
+time, social-relationship satisfaction remains high at 85.8%, and 86.0% report
+some lifestyle change to address environmental issues.
+
+The broader signal is divergence rather than one national mood: aggregate
+economic stability can coexist with financial strain, weak consumer confidence,
+low institutional trust, mixed health, strong personal relationships, and
+selective environmental action. This is an official multi-measure synthesis
+with mixed underlying sources, not one respondent-level dataset or causal model.
+The open arrow is whether household room, time and care burdens, health,
+cultural access, local belonging, trust, consumer sentiment, and political or
+environmental action move together.
+## High average quality of life can coexist with stacked inequality, participation pressure, and fragile trust
+
+The [SCP Social and Cultural Developments 2026 record](records/comparative-scp-social-cultural-developments-2026-quality-life-participation-trust.json)
+adds a national social-conditions layer from the Netherlands. SCP reports high
+average quality of life, a 7.7 average life rating, widespread paid work and
+volunteering, and strong interpersonal trust. It also finds that averages hide
+stacked disadvantages across income, networks, health, education, labor-market
+position, and participation; mental-health pressure and burnout have increased;
+and vulnerable groups have lower trust and weaker representation.
+
+The broader signal is that participation is both social capacity and a possible
+hidden price. Work, volunteering, care, and civic contribution can create
+belonging and resilience, but high expectations across several domains can
+overextend people who lack room or support. This is SCP comparative and
+survey-based evidence, not a causal or respondent-level universal model. The
+open arrow is whether material room, social networks, participation demands,
+mental health, discrimination, representation, and political trust move
+together.
+## Demographic policy is becoming inseparable from data systems, AI, mobility, privacy, and digital inequality
+
+The [UN Commission on Population and Development 2026 record](records/comparative-un-population-development-technology-research-2026-digital-demographic-divides.json)
+adds a population-and-technology governance layer. The UN frames population
+growth, ageing, mobility, urbanization, mobile communication, large-scale data,
+biotechnology, health science, renewable energy, and generative AI as connected
+changes to the policy environment. It also stresses disaggregated population
+data while warning that unequal access, privacy and security failures,
+technology-facilitated violence, cyberbullying, and misinformation can deepen
+inequality.
+
+The broader signal is that demographic change is not only a headcount or care
+story. Data infrastructure and digital governance increasingly determine who is
+visible to public systems, who receives services, who is exposed to surveillance
+or harm, and who can participate in future work and civic life. This is a UN
+policy synthesis, not individual demographic data or a causal technology-impact
+study. The open arrow is whether demographic change, data visibility, digital
+access, privacy, AI control, service reach, mobility, and rights protection move
+together.
+## Food-market resilience depends on trade connectivity, policy choices, and the ability to absorb price shocks
+
+The [FAO State of Agricultural Commodity Markets 2026 record](records/comparative-fao-soco-2026-trade-resilience-food-shocks.json)
+adds a food-trade and shock-transmission layer. FAO reports that food and
+agricultural trade increased fivefold between 2000 and 2024 to about USD 2
+trillion, with low- and middle-income countries more integrated into global
+markets. That connectivity can buffer shocks, but conflict, extreme weather,
+energy prices, financial stress, pandemics, and export restrictions can transmit
+instability into food prices and security.
+
+The broader signal is that food resilience is not just production capacity.
+Trade-network diversification, export policy, emergency stocks, social
+protection, logistics, and international cooperation determine whether a shock
+becomes a short adjustment or a durable household cost. This is aggregate FAO
+market and policy evidence, not household food diaries or causal welfare data.
+The open arrow is whether trade connectivity, market power, restrictions, food
+prices, social protection, nutrition, and household purchasing room move
+together.
+## Labour-market resilience is masking regional opportunity gaps, incomplete wage recovery, and limits on job mobility
+
+The [OECD Employment Outlook 2026 record](records/comparative-oecd-employment-outlook-2026-regional-wages-mobility.json)
+adds a broad work-and-place layer. OECD reports employment at 72.1% and labour
+force participation at 76.7% in Q1 2026, with unemployment at 4.9% in May,
+but also rising signs of weakening. Real-wage growth averaged 2.2% in Q1 2026
+versus 2.7% a year earlier, and real wages remained below Q1 2021 levels in 13
+of 37 countries. Regional employment rates differ by 20 percentage points or
+more in over half of OECD countries, while few people move from low- to
+high-employment regions.
+
+The broader signal is that headline labour resilience does not equal shared
+mobility or bargaining power. Place, housing, skills, wage recovery, youth entry,
+and employment controls determine who can convert a strong aggregate market
+into household room. The Outlook also identifies non-compete clauses as a
+potential limit on job mobility and wage bargaining. This is aggregate OECD
+labour-market evidence, not individual job histories or a universal causal wage
+model. The open arrow is whether regional opportunity, housing, mobility,
+skills, wages, job controls, household purchasing room, and political response
+move together.
+## African development is moving from crisis response toward coordinated infrastructure, city, energy, and finance delivery
+
+The [2026 Africa Sustainable Development Report record](records/comparative-africa-sustainable-development-report-2026-water-energy-cities-finance.json)
+adds a regional implementation layer jointly produced by the African Union
+Commission, UNECA, AfDB, and UNDP. It finds measurable progress on 12 of the
+17 SDGs but an overall pace insufficient for 2030. Around 600 million people
+still lack electricity, and the annual SDG financing gap is estimated at
+USD 670–848 billion. Water, energy, infrastructure, cities, youth, climate,
+debt, and partnerships are treated as linked delivery conditions.
+
+The broader signal is that development capacity is increasingly an
+infrastructure-and-coordination question, not only a poverty or growth
+question. Youth opportunity, urban inclusion, energy access, digital systems,
+climate resilience, and financing reinforce one another; failure in one can
+constrain the rest. This is aggregate regional monitoring, not project-level
+causal evidence or household service data. The open arrow is whether finance,
+energy, water, housing, urban capacity, youth work, digital access, and local
+institutional delivery move together.
+## Poverty reduction does not equal middle-class security when households remain exposed to shocks and weak protection
+
+The [World Bank Philippines middle-class assessment record](records/comparative-world-bank-philippines-middle-class-resilience-2026-poverty-jobs-shocks.json)
+adds a country-level household-resilience layer. The Philippines' poverty rate
+fell from 23.5% in 2015 to 15.5% in 2023, and inequality reached its lowest
+level in four decades. Yet 28% of Filipinos remain vulnerable or at risk of
+falling back into poverty, the secure middle class is only about a quarter of
+the population, and 61% face high climate-disaster risk.
+
+The broader signal is that middle-class security is a system property, not only
+an income threshold. Job quality and formal protection, childcare, insurance,
+social transfers, agricultural resilience, local public capacity, and disaster
+exposure determine whether gains survive a hospital bill, lost job, or typhoon.
+This is aggregate poverty evidence plus conditional scenario modeling, not
+individual household trajectories or causal evaluation of each reform. The open
+arrow is whether income, prices, formal work, care, insurance, climate exposure,
+local services, and political legitimacy move together.
+## Infrastructure is a social, economic, and cultural access system—not only a capital-spending category
+
+## Informal volunteering is an undercounted layer of civic and social infrastructure
+
+The [ILO-UNV informal-volunteering record](records/comparative-ilo-unv-informal-volunteering-2026-community-social-infrastructure.json) adds a civic-capacity and unpaid-support route that is distinct from formal organizations, social-connection measures, and public service delivery. The report describes informal volunteering—unpaid person-to-person help outside formal organizational structures—as nearly 70% of all volunteering, while noting that many participants do not identify their activity as volunteering. Participation varies by age, gender, education, income, disability, urban/rural location, and country; intersections matter more than a single gender average, and unpaid care strongly constrains women’s participation.
+
+The cross-source implication is that community resilience and social trust are partly produced through activity that is easy for institutions and statistics to miss. Recognition and better measurement may improve inclusion, social-protection design, and community-based development, but formalization can also impose bureaucracy or treat unpaid effort as a substitute for decent work and public provision. This is comparative published evidence, not respondent-level volunteering histories or proof that recognition causes better wellbeing. The open arrow is from unpaid care and available time through informal support, civic participation, institutional recognition, and durable public capacity.
+
+The [World Bank Infrastructure Foundations 2026 record](records/comparative-world-bank-infrastructure-foundations-2026-energy-transport-digital-returns.json)
+adds a global asset-and-investment layer covering energy, transport, and digital
+networks across more than 150 countries. It finds persistent gaps, stark
+subnational disparities, and potential social returns that vary by sector and
+context. Coordinated investment across energy, transport, and digital systems
+often outperforms isolated projects, while weak procurement, high construction
+costs, and market concentration reduce impact.
+
+The broader signal is that infrastructure mediates access to jobs, markets,
+health, education, water, time, and civic participation. A national average can
+improve while a region remains disconnected; spending can rise while service
+quality or affordability stays weak. This is aggregate asset evidence and
+modeled return analysis, not household service records or project-level causal
+proof. The open arrow is whether infrastructure location, reliability, cost,
+maintenance, digital access, local power, household time, and opportunity move
+together.
+## Cancer control is a population-capacity and household-security signal
+
+The [WHO Global Cancer Status 2026 record](records/comparative-who-global-cancer-status-2026-health-system-equity-value.json) adds a health-system route that moves beyond disease incidence alone. WHO frames cancer through burden, prevention, early detection, diagnosis, treatment, palliative care, survivorship, health-system performance, and human, social, and economic consequences. Scientific progress coexists with persistent disparities between and within countries, leaving a gap between policy ambition and usable implementation.
+
+The cross-source implication is that cancer becomes a test of public capability, financial protection, monitoring, and institutional legitimacy: better capabilities, better protections, and better value require universal coverage, people-centred delivery, robust data, and meaningful engagement of affected communities. This is a global system-level assessment, not patient records, household medical-spending data, or proof that the proposed shifts have been implemented. The open arrow is from risk and exposure through prevention and care continuity, household and work consequences, community voice, and durable health-system response.
+## Environmental inequality becomes actionable only when measurement reaches place and policy
+
+The [UNEP disaggregated-SDG record](records/comparative-unep-disaggregated-sdg-environment-2026-data-to-impact.json) adds a measurement-to-action layer across 92 environment-related SDG indicators. UNEP argues that scientific disaggregation can support national and subnational evidence-based interventions, making environmental conditions more visible where social and economic exposure differ and national averages conceal local burdens.
+
+This matters for the broader trend map because environmental data are not outcomes by themselves: they become socially consequential through location, infrastructure, health, household room, work, and institutional response. Disaggregation can improve targeting and accountability, but it can also create false precision, stigmatize places, or expose inequity without resources or remedy. The open arrow is from environmental condition and exposure through localized measurement, public prioritization, implementation capacity, community contestation, and durable protection.
+## Nature finance reveals a capital-allocation conflict inside the climate and development transition
+
+The [UNEP State of Finance for Nature 2026 record](records/comparative-unep-state-finance-nature-2026-harmful-flows-transition.json) adds a finance-to-ecology route. UNEP reports that in 2023 roughly $7.3 trillion flowed into nature-negative activities while $220 billion supported Nature-based Solutions—about a 30-to-1 imbalance—and estimates that annual Nature-based Solutions investment must rise to $571 billion by 2030, 2.5 times current levels.
+
+The broader signal is not simply “more green investment.” It is a political-economy conflict over subsidies, strategic sectors, prices, jobs, public budgets, and who absorbs transition costs. UNEP’s Nature Transition X-Curve frames subsidy reform and capital redirection as levers, but high-integrity implementation still requires safeguards, local participation, monitoring, and protection for affected households and workers. These are global finance-flow estimates, not project outcomes or proof of equitable ecological gains. The open arrow is from harmful capital allocation through exposure, reform, transition costs, public legitimacy, and durable nature-positive protection.
+## Plastic consumption needs life-cycle visibility before circularity can become accountable
+
+The [UNEP-UNITAR plastic-flow guideline record](records/comparative-unep-unitar-plastic-flow-statistics-2026-circular-economy.json) adds a material-consumption and evidence-infrastructure layer. The 2026 guideline responds to the lack of a globally agreed methodology by defining plastic life-cycle boundaries and accounting elements for production, trade, consumption, and waste, with the aim of comparable national, regional, and global statistics.
+
+This links consumer behavior to producer responsibility, trade, waste infrastructure, public procurement, worker conditions, and pollution without treating point-of-sale demand as the whole system. Standardized measurement can improve accountability and policy targeting, but it can also create reporting burdens, exclude informal recovery work, or produce visibility without enforcement. The open arrow is from material production and consumption through life-cycle accounting, market and public decisions, waste handling, exposure, and realized circularity.
+## Children’s agency is a present institutional condition, not only a future capability
+
+The [UNICEF Innocenti *Growing with Rights* record](records/comparative-unicef-growing-with-rights-child-capacities-2026.json) adds a child-rights and cultural-agency route. The report frames children’s evolving capacities across developmental, protective, and emancipatory dimensions, while recognizing that childhood is being reshaped by fragile contexts, climate change, and digital transformation.
+
+The broader implication is that participation, safety, learning, family support, digital design, and public services must be read together. Agency without protection can expose children to harm; protection without participation can silence them. This is a conceptual global synthesis, not child-level histories or proof of institutional adoption. The open arrow is from changing childhood conditions through care, protection, learning, expression, participation, institutional feedback, and rights-respecting action.
+## Children’s futures are an early-warning system for interacting system pressures
+
+The [UNICEF Prospects for Children 2026 record](records/comparative-unicef-prospects-children-volatile-world-2026-systems.json) adds a foresight layer connecting geopolitics, public funding, AI, work, climate, NGOs, social protection, data infrastructure, and child rights. The outlook treats volatility as an interacting system condition: defense and conflict can disrupt services, fiscal fragmentation can weaken continuity, AI can alter household income and learning, and climate stress can compound food, health, displacement, and education risks.
+
+The broader implication is that child policy is also a test of institutional resilience and legitimacy. Shock-responsive protection, resilient schools and health systems, ethical digital infrastructure, green skills, and child participation are proposed as linked capacities—not isolated programs. This is a global foresight synthesis, not a forecast or causal estimate. The open arrow is from geopolitical, fiscal, technological, and climate pressure through household room, services, child voice, institutional trust, and durable inclusive systems.
+## Extreme heat turns climate exposure into a test of public-system readiness
+
+The [WHO heat-health action-plan record](records/comparative-who-europe-heat-health-action-plans-2026-urban-ageing-resilience.json) adds an operational climate-health route. WHO frames extreme heat as a growing public-health threat intensified by climate change, urbanization, and population ageing, with consequences for morbidity, mortality, health systems, and social care. Its eight-element framework links governance, warnings, at-risk populations, communication, resilience, exposure reduction, surveillance, and learning.
+
+The broader signal is that climate risk becomes socially meaningful through housing, energy, work, care, mobility, communication, and local institutional capacity. A message or plan cannot substitute for affordable cooling, safe work, accessible care, or resilient infrastructure. This is implementation guidance, not proof of plan adoption or reduced harm. The open arrow is from heat hazard through unequal exposure, public warning, household and workplace capacity, care response, local trust, and realized protection.
+## Cities turn housing, mobility, care, and infrastructure into labor-market access
+
+The [World Bank MENA cities record](records/comparative-world-bank-mena-cities-jobs-housing-mobility-2026.json) adds a regional urban-economy route. Its analysis of 615 MENA cities argues that the region's employment challenge will be mediated through cities: more than 60% of the population is urban, nearly 300 million young people are expected to seek work by 2050, and the median MENA city performs 17.6% below the productivity level of the best-performing comparable cities.
+
+The broader signal is that urban policy is not only a buildings-and-roads issue. Housing constraints affect labor mobility; transport, childcare, and safety affect women's access to work; utilities and market connectivity affect firms; and city scale changes which strategies are plausible. This is a publication-level comparative synthesis, not individual employment histories, a rent series, or causal proof that any recommended reform creates inclusive jobs. The open arrow is from youth demography through housing, time, care, safety, infrastructure, firm conditions, city governance, and realized opportunity.
+## Social media is now a youth environment where attention, identity, learning, and regulation meet
+
+The [OECD social-media-age record](records/comparative-oecd-social-media-age-youth-attention-wellbeing-2026.json) adds a youth digital-life route. OECD reports that 15-year-olds average roughly 35 hours per week on social media, with about 95% browsing daily and 88% communicating or sharing content daily. Girls report more time than boys, and students in lower socio-economic groups report more weekly use than their higher-status peers. The report also finds non-linear associations: moderate browsing aligns with stronger academic and creative-thinking outcomes, while excessive or particular forms of use align with poorer outcomes.
+
+The broader signal is that youth culture and digital infrastructure cannot be separated from school time, social connection, body image, class, gender, family support, platform design, and public rules. The policy question is therefore not simply whether young people are “online,” but which activities, at what intensity, under what protections, and with what voice. This is comparative survey-linked and literature evidence, not platform telemetry, clinical diagnosis, respondent histories, or causal proof that restrictions improve well-being. The open arrow is from digital affordances through attention, identity, peer connection, learning, inequality, institutional support, platform accountability, and realized well-being.
+## Digital transformation is becoming a capability, sovereignty, and resilience contest
+
+The [DCO Digital Economy Trends 2026 record](records/comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness.json) adds a cross-cutting technology foresight layer. Its 18 forces run from vertical AI, robots, ambient intelligence, agentic systems, immersive experiences, and hyper-personalization to digital trade, competing technology blocs, sovereignty strategies, cybersecurity, energy demand, workforce transformation, and digital well-being. The report's central shift is from expanding access toward strengthening capacity, agency, and resilience.
+
+The broader signal is that digital change is simultaneously a consumer, labor, infrastructure, geopolitical, and institutional story. DCO experts expect digital goods and services to become more accessible while warning that AI gains may concentrate among large firms; they rate private-sector preparedness much higher than public-sector or societal preparedness. This is expert-informed foresight and perception-based survey evidence, not a technology forecast, firm census, individual employment panel, or proof of equitable outcomes. The open arrow is from digital affordances through energy, data, standards, sovereignty, cyber risk, work, trust, public capacity, and realized agency.
+## Democratic security is being rebuilt through social rights, civic space, and institutional trust
+
+The [Council of Europe democratic-pact record](records/comparative-council-europe-democratic-pact-2026-trust-social-rights-civic-space.json) adds a European political-institutional layer. Its 2026 report treats democratic resilience as a whole-society security problem: war and foreign information manipulation interact with social vulnerability, shrinking civic space, technology that outruns safeguards, and declining trust. The report organizes its response around learning and practising democracy, protecting democratic systems, and innovating for resilience, with five Reykjavik-Parameter pillars covering 16 areas of democratic life.
+
+The broader signal is that democracy is not only an election event or an opinion measure. It is also social rights, education, media and judicial independence, local participation, civil-society space, digital citizenship, minority inclusion, and the capacity to resist manipulation without abandoning rights. This is strategic and consultation evidence, not a representative public-opinion survey, democracy score, causal security model, or proof of implementation. The open arrow is from geopolitical rupture through material vulnerability, information conditions, civic participation, institutional trust, rights protection, and durable democratic security.
+## AI in education is a governance and human-capability transition
+
+The [UNESCO IITE Smart Education record](records/comparative-unesco-iite-smart-education-2026-ai-teachers-governance-regions.json) adds an education-system route across seven regional perspectives. UNESCO defines Smart Education as the integration of pedagogy, governance, and technology—not simply the deployment of AI tools. The examples range from national platforms serving millions of learners to maintaining learning in fragile environments and supporting teachers with new tools.
+
+The broader signal is that AI in education will be experienced through teacher capacity, curriculum, infrastructure, language, privacy, procurement, accessibility, family trust, and the purpose of learning. There is no single pathway, but the common institutional question is how to expand opportunity while preserving human values and agency. This is a cross-regional policy synthesis, not student-level learning data, a technology-adoption census, a causal effect estimate, or proof of improved outcomes. The open arrow is from AI capability through pedagogy, teacher work, data governance, unequal access, institutional trust, learner voice, and realized educational opportunity.
+## Poverty reduction is stalling while protection expands unevenly across groups
+
+The [UN SDG Goal 1 record](records/comparative-un-sdg1-2026-poverty-social-protection-working-poverty-aid.json) adds a current global monitoring layer. The UN estimates that 10% of the world's population—about 826 million people—remain in extreme poverty in 2026, with roughly 9% still projected to do so in 2030 at the current trajectory. More than half the global population was covered by at least one social-protection benefit in 2023, but 3.8 billion people remained unprotected and coverage was much lower for children and unemployed people than for older persons.
+
+The broader signal is that poverty is not only an income threshold: working poverty, benefit design, public-spending incidence, aid, conflict, climate shocks, and living costs determine whether people can absorb disruption. The same global average can show progress while young workers, fragile regions, and people outside formal systems remain exposed. This is aggregate SDG indicator evidence, not household panel data, respondent-level benefit histories, causal program evaluation, or proof that coverage is adequate. The open arrow is from poverty and work through protection, public services, shocks, administrative reach, dignity, and realized security.
+## Youth mental health is an ecosystem condition, not only an individual treatment problem
+
+The [UNU–UN Youth Office youth mental-health record](records/comparative-unu-youth-mental-health-ecosystem-2026-uncertain-world.json) adds a cross-sector well-being route. The flagship report frames more than 2.6 billion people aged 15–35 as coming of age amid intersecting economic, climate, conflict, inequality, and digital pressures, and proposes an ecosystem model spanning governance, education, decent work, secure housing, peace, intergenerational relationships, digital spaces, climate, community, sports, arts, culture, and spirituality.
+
+The broader signal is that youth well-being is mediated by the environments in which people grow, learn, work, connect, and exercise agency. Mental-health services remain necessary, but prevention and durable well-being also depend on housing, meaningful work, belonging, safety, cultural life, digital conditions, and institutions that listen to young people. This is a global framework plus cited aggregate health evidence, not clinical histories, representative participation rates, causal effects, or proof of implementation. The open arrow is from structural uncertainty through daily environments, care and connection, youth voice, institutional coordination, and realized well-being.
+## Digital propaganda is becoming an operational layer of political violence and contested authority
+
+The [UN CTED propaganda-infrastructure record](records/comparative-un-cted-propaganda-operational-infrastructure-2026-digital-extremism.json) adds a digital-security route. CTED argues that terrorist propaganda is increasingly integrated with recruitment, radicalization, fundraising, operational planning, and governance rather than functioning only as post-hoc messaging. The assessment highlights decentralized platform ecosystems, AI-enabled multilingual targeting, gaming-adjacent recruitment, youth targeting, violent and nihilistic subcultures, and an acceleration gap between actor adaptation and institutional response.
+
+The broader signal is that information environments are also organizational infrastructure: they can allocate attention, build identity, mobilize resources, and compete over legitimacy. Effective response therefore has to combine platform and state capacity with human-rights safeguards, because overbroad moderation or surveillance can damage civic space and trust. This is an expert policy assessment, not a content census, individual radicalization history, causal effect estimate, or proof that any countermeasure works. The open arrow is from digital affordances through identity and grievance, recruitment and finance, claims to authority, public response, rights protection, and realized security.
+## Food-price resilience depends on logistics, climate, trade, and household room—not supply alone
+
+The [FAO FPMA September 2026 record](records/comparative-fao-fpma-september-2026-food-price-shocks-household-resilience.json) adds a current food-cost and early-warning route. FAO reports that its Food Price Index averaged 133.3 points in August, up 1.9% month-on-month and 2.5% year-on-year; wheat was 15% above its year-earlier level. At the same time, 2026 cereal production is forecast at 2.98 billion tonnes—down from 2025 but still the second-largest harvest on record—with a projected stocks-to-use ratio of 31.6%.
+
+The broader signal is that food affordability can deteriorate without a simple global scarcity story. Weather, El Niño, conflict, Black Sea and Strait of Hormuz logistics, import demand, input flows, risk premiums, market concentration, exchange rates, and local pass-through jointly shape household room. This is aggregate market monitoring and forecasting, not household purchase histories, diet records, local retail pass-through, causal welfare estimates, or proof of food-security change for every group. The open arrow is from hazard and geopolitical disruption through logistics, prices, income and safety nets, substitution, diet, and realized food security.
+## Food-price shocks become household risk through income-group and regional asymmetry
+
+The [World Bank June 2026 food-security update record](records/comparative-world-bank-food-security-update-june-2026-inflation-fertilizer-el-nino.json) adds a distributional layer to the food-market route. The Bank reports fertilizer prices 35% above the first five months of 2025, a 61–87% probability of El Niño emerging by mid-2026 and persisting into 2027, and a conditional 20–50% rice-output decline in affected regions. Between April and May, the share of low-income countries with food inflation above 5% rose from 40% to 45%, while the share of high-income countries fell from 6.8% to 5.1%.
+
+The broader signal is that “global food supply adequate” and “households under pressure” can both be true. Fertilizer costs, delayed harvest effects, climate scenarios, real food inflation, fiscal space, and household food-budget shares distribute risk unevenly; country averages still do not show who changes diet or loses security. This is country-level aggregate and conditional scenario evidence, not household purchase histories, diet records, causal welfare estimates, or proof of individual food-security transitions. The open arrow is from input and climate shock through production, domestic prices, income-group exposure, public protection, household adaptation, and realized nutrition security.
+## In the Central Sahel, food insecurity is a delivery and access problem as much as a food-supply problem
+
+The [WFP Central Sahel record](records/comparative-wfp-central-sahel-2026-food-insecurity-access-resilience.json) adds an operational regional layer across Burkina Faso, Mali, and Niger. WFP projects 5.6 million people facing crisis levels of food insecurity during the June–August 2026 lean season, reports nearly 1.5 million people reached with emergency assistance through August, and identifies a US$151 million requirement for September 2026–February 2027 operations. In Mali, insecurity, displacement, market pressure, and reduced humanitarian access drove an estimated 1.5 million people into acute food insecurity; Niger has an estimated 2.4 million acutely food insecure people.
+
+The broader signal is that food security is produced through timing, mobility, prices, corridors, aid access, social protection, local institutions, and productive assets—not only aggregate crop supply. WFP’s integrated model joins emergency food and cash assistance with school feeding, resilience, early warning, digitalized processes, and national capacity, but operational reach is not the same as durable coverage or outcome. This is a public operational synthesis, not household consumption data, a causal evaluation, a complete needs census, or proof of funding receipt. The open arrow is from conflict and climate stress through displacement, lean-season stocks, market access, humanitarian delivery, social protection, and realized food security.
+## Climate policy is entering an overshoot era where mitigation and adaptation must move together
+
+The [UNEP Limiting Overshoot record](records/comparative-unep-limiting-overshoot-2026-climate-risk-adaptation-return.json) adds a current climate-pathway and governance layer. UNEP says near-term exceedance of 1.5°C is now widely assessed as unavoidable under current policies and trajectories, but frames the remaining choice as an “overshoot, peak, and decline” pathway: minimize peak warming and duration above 1.5°C, return below it as soon as possible, and reduce vulnerability during the exceedance period.
+
+The broader signal is that climate action is no longer only a target-versus-failure story. Peak temperature and duration shape risks, irreversible-threshold exposure, adaptation limits, household costs, infrastructure, health, and development choices. Mitigation and adaptation therefore have to advance together, with local vulnerability and institutional capacity determining who can absorb the interim period. This is a global pathway framework, not a local forecast, damage curve, household exposure history, causal adaptation evaluation, or implementation audit. The open arrow is from global pathway choices through hazard, infrastructure, health, finance, household room, local capacity, and durable protection.
+## Water is becoming a cross-border infrastructure, food, health, and data-capacity risk
+
+The [WMO State of Global Water Resources 2025 record](records/comparative-wmo-global-water-resources-2025-hydrological-variability-storage-glaciers.json) adds a physical-systems layer. WMO reports that 2025 was one of the driest years for global river discharge in 35 years, with below-normal flow across 36% of global basin area; terrestrial water storage has declined since the mid-2010s; every major glaciated region lost ice for a fourth consecutive year; and nearly two-thirds of monitored wells were outside historical norms in 2025.
+
+The broader signal is that water risk is not only drought or flood. It is a coupled problem of slow reserves, seasonal flows, glaciers, food and energy systems, health, cities, transboundary governance, early warning, and uneven measurement. Asia and Africa carried more than 80% of reported water-related disaster deaths over the past five years, while remaining among the least represented in hydrological observations. This is global modelled, satellite, and reported evidence, not local water-access histories, household bills, causal basin impacts, or proof that better data produced protection. The open arrow is from hydrological change through storage, infrastructure, allocation, exposure, public capacity, cross-border cooperation, and realized water security.
+## Air-quality risk is increasingly coupled to climate, wildfire, heat, and monitoring capacity
+
+The [WMO Air Quality and Climate Bulletin record](records/comparative-wmo-air-quality-climate-bulletin-2026-wildfire-ozone-aerosol-health.json) adds a pollution–health layer. WMO reports that wildfire smoke, heatwaves, ground-level ozone, aerosols, black carbon, and microplastics connect air quality to climate and health. A cited study estimates extreme fire-smoke events have tripled since the 1990s and contributed to nearly 100,000 additional deaths per year during 2010–2018; another cited study suggests conventional PM2.5 models may underestimate wildfire-attributable mortality by up to 93%.
+
+The broader signal is that exposure is dynamic and cross-scale: emissions controls can improve industrial pollution while climate-amplified fires and heat-driven ozone increase other risks. The public-health question therefore joins atmospheric chemistry, wildfire, heat, housing and indoor air, work, warnings, health systems, agriculture, and monitoring. This is global and regional scientific synthesis, not personal exposure histories, clinical records, local sensor coverage, causal mortality estimates for every population, or proof of policy effect. The open arrow is from climate and emission sources through pollution, unequal exposure, information, protection, health burden, and coordinated public response.
+## Small states expose the practical governance test for trusted public-sector AI
+
+The [UNDP Small States, Big Signals record](records/comparative-undp-small-states-ai-governance-trust-procurement-2026.json) adds an implementation and sovereignty layer to the AI route. Drawing on 11 countries and territories, the report uses Trinidad and Tobago to show how resource-constrained governments can use procurement, vendor contracts, practical guidance for public servants, digital public infrastructure, capacity building, and institutional coordination to govern AI before comprehensive regulation is in place.
+
+The broader signal is that responsible AI is a public-capacity problem, not only a model-performance problem. Small-state constraints surface coordination, data, vendor, trust, and correction issues early; once automated systems are embedded in government decisions, accountability is harder to retrofit. This is a learning-case synthesis, not a global adoption census, representative citizen survey, causal evaluation, or proof that the workstreams are fully operational. The open arrow is from AI ambition through procurement and infrastructure, institutional readiness, data quality, public voice, correction rights, trust, and realized public value.
+## Information integrity is becoming a Mediterranean resilience and social-cohesion infrastructure issue
+
+The [UNESCO–EU Mediterranean information-integrity record](records/comparative-unesco-eu-mediterranean-information-integrity-2026-trust-media-literacy.json) adds a regional information-politics layer. UNESCO and the EU describe a Mediterranean space where cultural and linguistic diversity, media exchange, and digital connectivity coexist with conflict, geopolitical tension, population movement, fragile political transitions, fragmented media, disinformation, hate speech, and unequal access to verified information.
+
+The broader signal is that information integrity is not only a content-moderation issue. Independent journalism, freedom of expression, media and information literacy, fact-checking, platform governance, regional cooperation, and local civic capacity jointly shape trust and resilience. This is a policy and cooperation assessment, not a representative information-use survey, content census, causal disinformation estimate, implementation audit, or proof of improved trust. The open arrow is from geopolitical and social pressure through media conditions, platform affordances, literacy, public judgment, civic space, regional cooperation, and realized social cohesion.
+
+## Emergency public-health measures are becoming a context-specific trust, equity, and implementation problem
+
+The [WHO public-health and social-measures consultation record](records/comparative-who-public-health-social-measures-emergencies-2026-acceptance-equity.json) adds a health-emergency governance route. WHO reports a 2026 consultation involving 133 experts from 31 Member States and multiple sectors, focused on selecting and adapting measures according to effectiveness, feasibility, public acceptance, and adverse health and socioeconomic impacts. The work also connects community-centered approaches, protocols for evaluating effectiveness, monitoring unintended consequences, and decision-support infrastructure.
+
+The broader signal is that emergency response is not only a biomedical or compliance problem. It is a public-legitimacy and distribution problem: whether measures fit local conditions, who can absorb their costs, whose knowledge enters the decision, how harms are monitored, and whether evidence can be translated into trusted action. This is a global expert consultation and framework, not a public-opinion survey, respondent-level behavior dataset, causal intervention evaluation, implementation inventory, or proof that measures produced equitable outcomes. The open arrow is from hazard and uncertainty through evidence, feasibility, public acceptance, unequal cost, community voice, digital decision support, and realized health protection.
+
+## Children on the move are becoming a long-term inclusion and social-infrastructure route
+
+The [UNICEF Global Programme Framework for Children on the Move record](records/comparative-unicef-global-programme-framework-children-on-move-2026-protection-integration.json) adds a child-mobility governance layer. UNICEF organizes the issue around root causes, a continuum of protection and care, learning and basic services, discrimination and social cohesion, and integration and long-term solutions.
+
+The broader signal is that migration and displacement are not only border or emergency events. They are also questions of portable protection, school and service continuity, host-community capacity, belonging, child agency, and durable legal and social pathways. This is a global rights-based programme framework, not child-level migration histories, a complete service-coverage census, representative host-community attitudes, causal programme evaluation, or proof of successful integration. The open arrow is from displacement and mobility pressure through legal status, protection, education, services, discrimination, host capacity, child voice, and realized belonging.
+
+## Displacement response is shifting toward work, social protection, and national-system inclusion
+
+The [ILO PROSPECTS results record](records/comparative-ilo-prospects-2026-displacement-work-inclusion-systems.json) adds an implementation and labour-market route. The September 2026 brief describes a multi-agency partnership moving from short-term humanitarian assistance toward longer-term development-centred solutions, using skills, employment, decent work, enterprise opportunities, social protection, local economic development, and stronger national systems for displaced people and host communities.
+
+The broader signal is that mobility becomes a durable social and economic condition when people need legal access to work, income protection, skills, enterprise routes, and institutions that serve both newcomers and hosts. This is a public programme results brief, not respondent-level employment histories, a complete beneficiary census, job-quality or earnings estimates, causal programme evaluation, representative host-community attitudes, or proof of durable inclusion. The open arrow is from displacement pressure through legal and labour-market access, skills, social protection, local enterprise, host capacity, institutional coordination, and realized economic belonging.
+
+## Living heritage is becoming a locally grounded education and participation resource
+
+The [UNESCO living-heritage education record](records/comparative-unesco-living-heritage-education-latin-america-2026-community-participation.json) adds a cultural-continuity route. UNESCO's regional study systematizes 200 educational practices from 15 Latin American and Caribbean countries, spanning oral traditions, nature knowledge, crafts, rituals, festivities, performing arts, and community knowledge. It reports that 65.5% of the documented practices have a primarily local focus.
+
+The broader signal is that culture is not only a content sector or identity marker; it can be an educational and civic infrastructure connecting territory, intergenerational knowledge, creativity, inclusion, and participation. This is a documented practice synthesis, not a representative school or cultural-practice census, respondent-level learning data, causal impact evaluation, universal transferability claim, or proof of durable heritage transmission. The open arrow is from local knowledge through curriculum, cultural relevance, community voice, participation, institutional support, and realized belonging and capability.
+
+## Food-system risk is broadening from supply and price into power, agency, technology, and health governance
+
+The [FAO/HLPE-FSN food-systems issues record](records/comparative-fao-hlpe-food-systems-issues-2026-agency-governance.json) adds a governance and foresight layer. The note maps ten connected issues, including the high cost of healthy diets, climate and geopolitical uncertainty, trade, corporate concentration, digital innovation and AI, One Health, and agency. It argues that food-system performance should be judged by whether people can access healthy diets, not only by calorie supply.
+
+The broader signal is that food systems are contested institutions as well as production networks. Prices, power, technology, trade, environmental and health risks, cultural choice, and people’s ability to influence decisions shape realized nutrition and resilience. This is a global issue map, not household purchase histories, dietary intake records, market-concentration estimates for every commodity, causal nutrition effects, representative agency measures, or proof of policy implementation. The open arrow is from food-system structure through prices, power, technology, health, cultural practice, public voice, and realized diet and resilience.
+
+## Science and technology are being treated as structural drivers of global power and preparedness
+
+The [UN Horizon Scanning 2026 record](records/comparative-un-horizon-scanning-2026-science-technology-anticipatory-governance.json) adds a cross-sector foresight layer. The UN Scientific Advisory Board draws on 192 scientists and technologists across 11 networks to examine how AI, data systems, biotechnology, energy, and environmental science intersect with peace and security, sustainable development, and human rights over near-term and five-year horizons.
+
+The broader signal is that emerging technology is no longer a contained innovation topic. It is becoming an institutional preparedness and power-distribution question: who anticipates change, who sets rules, whose rights are protected, and whether public capacity keeps pace with embedded systems. This is an expert horizon-scanning assessment, not a technology-adoption census, public-opinion survey, causal impact estimate, probability forecast, implementation audit, or proof of equitable governance. The open arrow is from scientific and technological change through infrastructure, institutional capacity, accountability, power, public voice, and realized social consequences.
+
+## Adolescent health is becoming an equity, resilience, participation, and multisector systems challenge
+
+The [WHO adolescent-health and well-being record](records/comparative-who-adolescent-health-wellbeing-2026-equity-resilience-systems.json) adds a youth-health systems layer. WHO's third-edition report emphasizes equity, resilience, multisector collaboration, stronger data and measurement, meaningful adolescent engagement, adolescent-responsive services, and access in fragile and emergency settings while identifying climate change, digital transformation, and widening inequities as emerging challenges.
+
+The broader signal is that adolescent well-being is not only a clinical-service question. It depends on whether schools, health systems, communities, digital environments, data practices, and public institutions give young people access, voice, safety, and room to develop. This is a global organizational report and framework, not respondent-level health histories, clinical diagnoses, representative adolescent attitudes, a complete service-coverage census, causal intervention evaluation, or proof of improved well-being. The open arrow is from social and environmental pressure through service access, digital conditions, adolescent voice, institutional coordination, and realized health and agency.
+
+## Digital exclusion is shifting from coverage toward affordability, skills, safety, relevance, and gendered use
+
+The [World Bank digital-exclusion record](records/comparative-world-bank-digital-exclusion-lmics-2026-gender-affordability-use.json) adds a participation and access layer. The Bank reports that 96% of the world's population is within reach of mobile broadband while nearly 3 billion people remain offline; in 81 of 123 LMICs, approximately 1.4 billion adults do not use the Internet, including about 800 million women.
+
+The broader signal is that network availability is not the same as digital participation. Affordability, skills, relevant content, privacy, safety, social norms, and device and data access determine whether people can actually use digital systems for work, finance, services, information, and civic life. This is aggregate cross-country data and hypothetical scenario analysis, not respondent-level digital histories, platform-use logs, causal intervention effects, a complete accessibility census, or proof that connection produces equal benefits. The open arrow is from network coverage through affordability, skills, gender norms, safety, meaningful use, economic opportunity, and realized digital agency.
+
+## Youth participation is moving from consultation toward institutional influence, but implementation still lags the commitment
+
+The [UN Youth2030 institutional-participation record](records/comparative-un-youth2030-2026-institutional-participation-accountability.json) adds a public-systems accountability layer. The 2026 Youth2030 progress reporting describes a Phase 2 shift from establishing foundations toward measurable implementation: the share of UN entities reported as having strengthened institutional policies and processes for meaningful youth participation rose from 14% in 2021 to 42% in 2025, while meaningful-participation processes in UN Country Teams improved by 20 percentage points.
+
+The broader signal is that youth voice is becoming an organizational design and power question, not only a representation question. The test is whether participation changes priorities, decisions, resources, services, and accountability—and whether marginalized young people can enter and shape those mechanisms. This is UN-system implementation and monitoring evidence, not respondent-level youth attitudes, representative public opinion, individual civic histories, causal effects on policy, or proof that consultation becomes co-ownership. The open arrow is from demographic and social pressure through institutional design, access, voice, resource allocation, feedback, and realized influence.
+
+## Cultural-heritage protection is becoming more measurable, but public investment remains sharply uneven across places
+
+The [UNESCO UIS Culture 2026 data-release record](records/comparative-unesco-uis-culture-2026-heritage-spending-data-capacity.json) adds a cultural-public-finance layer. UNESCO reports that the number of countries responding to its heritage-expenditure survey grew from 30 in the initial 2020 cycle to 92 in the latest cycle. Among countries with data, public expenditure ranged from under 1 to over 500 PPP dollars per person; Europe and Northern America had a median of 93 PPP dollars but also ranged from 3 to over 500, and 57% of countries reported increased investment in 2024 relative to 2021.
+
+The broader signal is that culture is also a budget, infrastructure, and measurement-capacity question. More comparable data can make uneven stewardship visible, but spending does not by itself show heritage condition, access, cultural meaning, community control, or whose priorities prevail. This is SDG indicator and country-aggregate expenditure evidence, not a complete global spending census, respondent-level cultural behavior, causal preservation evaluation, or proof of equitable cultural access. The open arrow is from public-resource allocation through heritage condition, place and identity, cultural participation, local voice, institutional accountability, and realized continuity.
+
+## In limited-statehood settings, service delivery and legitimacy are produced through hybrid governance networks rather than the state alone
+
+The [UNDP–UNU hybrid-governance record](records/comparative-undp-unu-hybrid-governance-service-delivery-2026-state-legitimacy.json) adds a geopolitical service-delivery layer. The framework describes settings where central institutions may lack territorial control, perceived legitimacy, or capacity to deliver basic services, while armed groups, civil society, traditional leaders, religious organizations, private actors, and other non-state actors compete, collaborate, or coexist with the state in providing protection and services.
+
+The broader signal is that governance is experienced through networks of provision, authority, and accountability—not only through formal institutions. Development engagement therefore has to ask who actually delivers, who is trusted, who can be held accountable, and whether partnership reinforces or undermines rights and public legitimacy. This is a global policy framework and case-study synthesis, not a prevalence estimate, complete actor census, respondent-level service histories, causal evaluation, or claim that non-state governance is inherently better or more legitimate. The open arrow is from state capacity and conflict through service networks, protection, local voice, legitimacy, accountability, and realized social order.
+
+## Innovation power is concentrating in cross-border urban clusters where patents, science, venture capital, and industrial capability reinforce one another
+
+The [WIPO GII 2026 innovation-clusters record](records/comparative-wipo-gii-2026-innovation-clusters-patents-science-venture-capital.json) adds a place-based technology and geoeconomics layer. WIPO's ranking identifies the world's top 100 clusters through inventor locations, scientific publications, and venture-capital activity. San Jose–San Francisco and Cambridge lead the 2026 innovation-intensity ranking, followed by Ningde, Boston–Cambridge, and Oxford; the top ten also show visible concentration in the United States, United Kingdom, China, Finland, the Netherlands, and the Republic of Korea.
+
+The broader signal is that innovation is not only a national capability or a technology trend; it is a spatial system in which universities, firms, capital, workers, infrastructure, and public institutions reinforce one another across city and sometimes national boundaries. Concentration can accelerate breakthrough activity while redistributing housing, labor, fiscal, and geopolitical leverage unevenly. This is an index and geospatial methodology, not a complete innovation census, causal regional-growth estimate, firm-level ownership history, respondent-level experience, or proof that cluster activity produces broad-based welfare. The open arrow is from knowledge and capital concentration through place, infrastructure, labor, industrial power, public policy, and realized technological advantage.
+
+## Global cooperation is reconfiguring from broad multilateralism toward smaller coalitions, with technology and climate cooperation stronger than peace and security cooperation
+
+The [WEF Global Cooperation Barometer 2026 record](records/comparative-wef-global-cooperation-barometer-2026-minilateralism-pillar-divergence.json) adds a cross-domain geopolitical-institutional layer. The barometer tracks 41 indicators across trade and capital, innovation and technology, climate and natural capital, health and wellness, and peace and security. It finds overall cooperation holding steady while broad multilateral cooperation declines and smaller, more adaptive coalitions persist.
+
+The broader signal is not that cooperation has simply ended; it is that cooperation is becoming more selective, interest-aligned, and uneven by domain. Innovation and climate cooperation show positive momentum, trade and health flatten, and peace and security deteriorate most sharply; by the end of 2024, peacekeeping, multilateral resolutions, and health aid were each more than 20% below 2019 levels. This is a composite index and expert/executive survey-informed synthesis, not a causal measure of cooperation, a complete coalition inventory, respondent-level public opinion, or proof that smaller coalitions produce equitable outcomes. The open arrow is from shared risk and national interest through institutions, coalition design, material exchange, legitimacy, security, and realized global order.
+
+## Digital safety is shifting from internal product review toward ecosystem-level foresight, early warning, and shared accountability
+
+The [WEF digital-safety foresight record](records/comparative-wef-digital-safety-foresight-2026-ecosystem-harms-governance.json) adds a digital-governance layer. The framework argues that internal safety-by-design review is necessary but insufficient because digital safety is also shaped by advances in AI and other technologies, user behaviour, adversarial tactics, regulatory expectations, and wider ecosystem dependencies. It organizes action around six pillars—framing and governing, sensing, modelling, readiness assessment, early warning, and synthesis—and four response pathways.
+
+The broader signal is that digital risk is becoming an anticipatory and institutional-coordination problem, not only a product-security problem. The open question is whether foresight changes incentives, resource allocation, user protection, correction, and accountability across the ecosystem. This is a practice framework, not a cyber-incident census, respondent-level harm data, causal evaluation, implementation audit, or proof that shared responsibility produces remedy or equitable safety. The open arrow is from technological and social change through risk sensing, institutional readiness, platform and public governance, user voice, accountability, and realized digital safety.
+
+## Local social cohesion can remain resilient while system-level pessimism and institutional distrust intensify political vulnerability
+
+The [UNDP Bosnia and Herzegovina SCORE record](records/comparative-undp-score-bosnia-2025-social-cohesion-local-resilience-system-pessimism.json) adds a regional social-cohesion layer. The 2025 SCORE assessment, covering all 16 regional-territorial units with an approximately 3,800-person survey frame, finds moderate cohesion, above-average intergroup harmony, strong local community cooperation, and an inclusive civic identity that remains usable as a platform for cooperation.
+
+At the same time, the report identifies widespread pessimism about the country's direction, shaped by political instability, economic uncertainty, and regional dynamics. The important cross-level pattern is a gap between relatively positive everyday local experience and negative system-level perceptions—a gap that can affect civic engagement and exposure to divisive narratives. This is an aggregate interpretation of a weighted national survey, not individual respondent histories, a causal political-behavior evaluation, a complete account of local power, or evidence that resilience will persist under future shocks. The open arrow is from lived local relations through identity, institutional expectations, system-level uncertainty, civic action, narratives, and realized social cohesion.
+
+## Crisis response is being reframed as development from day one, linking services, livelihoods, institutions, peacebuilding, and climate resilience
+
+The [UNDP Moving Beyond Crisis record](records/comparative-undp-action-agenda-2026-development-day-one-crisis-systems.json) adds an integrated crisis-development layer. Its Action Agenda frames conflict, displacement, climate shocks, institutional fragility, debt, and shrinking aid as interacting pressures and proposes three overlapping fronts—prepare and prevent, respond and recover, and transition and transform. Its five building blocks are analytics; services, infrastructure and institutions; livelihoods, jobs and economies; peacebuilding and social cohesion; and climate and nature.
+
+The broader signal is that crisis management is moving away from a strict emergency-then-recovery sequence toward continuity of systems, livelihoods, agency, and public legitimacy from the outset. The open question is whether earlier development action can reduce dependency and relapse while remaining locally led and responsive to immediate humanitarian need. This is a UNDP action framework with aggregate contextual indicators, not a complete crisis census, respondent-level recovery histories, causal evaluation, funding audit, or proof that development-from-day-one programming works uniformly. The open arrow is from compounding crisis through services, work, institutions, local voice, social cohesion, finance, and realized recovery and resilience.
+
+## Intergenerational opportunity remains patterned by family background, but the transmission channels are policy-sensitive and place-specific
+
+The [OECD intergenerational-mobility record](records/comparative-oecd-intergenerational-social-mobility-2026-parental-background-earnings-opportunity.json) adds a long-run opportunity layer. Using the 2023 OECD Survey of Adult Skills across 29 mainly advanced economies, the paper finds that adults with highly educated parents earn almost 30% more on average than those with low-educated parents, while adults with middle-educated parents earn about 13% more than those with low-educated parents. It also finds persistent differences in bottom-tail earnings risk, women’s participation by maternal education, and tertiary attainment, with substantial variation across countries.
+
+The broader signal is that inequality is reproduced through a chain spanning family resources, education and skills, care, labor markets, firm dynamism, housing, transport, and local public services. Education is a major transmission channel but not a complete equalizer: in some countries parental background still matters among adults with similar education. This is a comparative OECD working paper using published survey-based estimates, not raw respondent-level ingestion, individual life histories, a causal evaluation of a single reform, or proof that any policy package works uniformly. The open arrow is from inherited opportunity and place through education, care, skills, work, mobility, institutional design, and realized intergenerational room.
+
+## High average well-being can coexist with unequal social participation and a reliability crisis in government
+
+The [SCP Social and Cultural Developments 2026 record](records/comparative-scp-netherlands-social-cultural-developments-2026-wellbeing-trust-inequality.json) adds a national public-systems and lived-condition layer. The Netherlands Institute for Social Research assesses society through three connected dimensions—quality of life, social cohesion, and the relationship between citizens and government. It reports high average life satisfaction and participation, but large income- and education-linked gaps in trust and life satisfaction, mental-health pressure among younger adults, and persistently low political trust and confidence in government problem-solving.
+
+The broader signal is that a favorable national average is not the same as broadly shared social capacity. Material resources, education, health, care, participation, neighborhood connection, mental well-being, perceived fairness, responsiveness, and problem-solving credibility reinforce or weaken one another. This is a national monitoring report using aggregate and subgroup survey results plus European comparisons, not raw respondent-level ingestion, clinical diagnosis, causal policy evaluation, or a general claim about every country. The open arrow is from unequal resources and social experience through well-being, cohesion, institutional reliability, public voice, and realized legitimacy.
+
+## Citizen engagement is becoming an institutional capability test: participation matters when outputs enter decisions and institutions explain what happened
+
+The [European Commission JRC citizen-engagement record](records/comparative-european-commission-citizen-engagement-impact-2026-participation-legitimacy-capacity.json) adds an implementation layer to the voice and legitimacy theme. Its mixed-method study finds that public administrations that have conducted citizen engagement generally want to do it again, while nearly half report insufficient skills and competencies. It maps effects beyond the immediate policy question: administrative culture, new networks, public communication, legitimacy, trust, and future participation capacity.
+
+The broader signal is that participation is not a single event or consultation metric. It is a chain from institutional commitment and process design through capacity, inclusion, communication, recommendation uptake, explanation, and durable trust. The failure mode is also clear: if citizens cannot see tangible outcomes or receive a timely explanation, participation can become window dressing and deepen distrust. This is an EU public-administration survey, qualitative interview, and report synthesis, not a causal evaluation of each process, representative public opinion, raw participant-level data, or proof that deliberation is equitable or effective when outputs are ignored. The open arrow is from public demand through civic process, institutional capacity, policy uptake, explanation, accountability, and realized legitimacy.
+
+## Digital public infrastructure is becoming a gendered access system whose value depends on safeguards and meaningful use
+
+The [UN Women gender-inclusive DPI record](records/comparative-un-women-gender-inclusive-digital-public-infrastructure-2026.json) adds a gendered infrastructure and public-service layer. Its exemplar stories frame digital identity, payments, and data exchange as systems that can support financial inclusion and essential services, but argue that gender equality remains an early-stage design and implementation concern. The publication applies a life-course lens from birth registration through older age and calls for investment, co-design with women and girls, and gender-disaggregated evidence on awareness, access, use, and impact.
+
+The broader signal is that digital infrastructure is not neutral plumbing. It redistributes access, time, documentation, resources, safety, visibility, and dependence across life stages. The key question is not whether a system exists, but whether people can use it safely, meaningfully, and with recourse—and whether women’s experiences shape the system before deployment rather than being measured afterward. This is a global exemplar-story and policy framework, not an adoption census, raw user-level dataset, causal evaluation, or proof that scaling produces equitable outcomes without offline routes and remedy. The open arrow is from digital-system design through identity, payments, services, gendered exposure, agency, safeguards, accountability, and realized capability.
+
+## Technology-facilitated violence is becoming a civic-space and public-participation constraint for women
+
+The [UN Women public-sphere violence record](records/comparative-un-women-online-violence-women-public-sphere-ai-2025.json) adds a gendered civic-space layer. The publication’s global survey and synthesis across 119 countries treats online abuse, threats, intimidation, misinformation, and AI-enabled content as connected to women’s safety, well-being, and ability to speak, report, organize, and defend rights in public.
+
+The broader signal is that digital harm is not only a content-moderation or personal-safety problem. It can redistribute who bears the cost of visibility, who can participate in public debate, and which voices remain present in civic and political life. AI changes the scale and controllability of abusive content, while the response must span platforms, law, support, civil society, and public institutions. This is a global survey and policy synthesis, not a country-by-country prevalence census, raw platform incident log, respondent-level harm history, causal participation estimate, or proof that every moderation or legal response is effective and proportionate. The open arrow is from platform and AI change through gendered exposure, safety, public voice, civic space, accountability, and realized participation.
+
+## Assistive technology is being reframed as participation infrastructure, but access remains gendered and structurally unequal
+
+The [UN Women–ATscale assistive-technology record](records/comparative-un-women-atscale-assistive-technology-gender-2026.json) adds a disability, care, and access layer. The policy brief treats assistive technology as a prerequisite for women’s meaningful participation in education, employment, family life, leadership, public life, and digital spaces. Its evidence base includes more than 240 responses from individuals and organizations across nearly 50 countries, country consultations, literature, and expert input, organized through a five-part People, Products, Provision, Personnel, and Policy framework.
+
+The broader signal is that access is not a final consumer purchase; it is a system of autonomy, time, care, work, safety, and civic agency. Products matter, but so do affordability, service continuity, trained personnel, procurement, design, privacy, and policy. This is a global policy brief and mixed evidence synthesis, not a product-coverage census, raw user-level disability dataset, representative prevalence estimate, causal impact evaluation, or proof that mainstreaming works without disability-specific provision and user-led accountability. The open arrow is from disability and gendered need through products, services, care, work, institutional design, public voice, and realized participation.
+
+## Foreign-aid contraction is becoming a direct stress test of women-led civic infrastructure and gender-responsive crisis services
+
+The [UN Women Ukraine aid-cuts record](records/comparative-un-women-ukraine-aid-cuts-women-led-organizations-2026.json) adds a conflict-finance and local-capacity layer. A January 2026 assessment of 108 women-led and women’s-rights organizations compares the cumulative effects of foreign-assistance cuts with an earlier 2025 assessment, finding impacts on lifesaving and gender-responsive service continuity, longer-term sustainability, planning, staff retention, operations, and ability to respond to changing needs.
+
+The broader signal is that aid contraction is not only a macro-finance or donor-flow story. It can weaken the local organizations that translate funding into trust, protection, gender-responsive services, advocacy, and crisis adaptation. This is a comparative organizational assessment, not a complete civil-society census, audited funding database, individual service-user histories, causal aid-effectiveness estimate, or proof that every organization or region experienced the same effect. The open arrow is from geopolitical and fiscal pressure through funding, staffing, local civic capacity, service continuity, gendered access, accountability, and realized crisis resilience.
+
+## AI is shifting the future-of-work debate toward job redesign, rapid relearning, trust, and a weaker traditional employment bargain
+
+The [ManpowerGroup Human Edge record](records/comparative-manpower-human-edge-2026-ai-workforce-trust-skills.json) adds a commercial workforce-forecast layer. Drawing on surveys of more than 12,000 workers and 40,000 employers across 41 countries, it frames the future around hybrid human-machine-freelance teams, AI-augmented role redesign, fast-changing skills, unequal access to training, burnout, declining trust, contingent work, workforce aging, degree doubts, and weak mentorship and succession infrastructure.
+
+The broader signal is that AI’s social effect is being negotiated through the employment bargain: who gets redesigned work, who receives relearning time and support, who bears monitoring and performance pressure, who retains benefits and voice, and how tacit expertise moves across generations. The report is commercially produced and mixes survey evidence, external sources, and vendor interpretation; it is not raw respondent-level ingestion, a complete labor-market census, a causal AI displacement estimate, an independent audit of employer claims, or proof that its workforce strategies improve worker welfare. The open arrow is from AI and demographic change through job design, skills, trust, time, bargaining, income security, organizational power, and realized work agency.
+
+## Global social progress may be reaching a turning point as rights decline and gains in health, housing, information, and environmental quality stall
+
+The [2026 Global Social Progress Index record](records/comparative-social-progress-index-2026-rights-health-housing-gdp.json) adds a non-economic global outcome layer. The index measures 57 social and environmental indicators across 171 countries and reports nearly a six-point decline in global rights since 2011, a further 1.9-point decline from 2021 to 2025, recent deterioration in health, safety, and environmental quality, and slowing progress in water, sanitation, housing, and access to information. It reports 50 countries declining, 85 flat, and 36 improving.
+
+The broader signal is that economic growth and social progress are not interchangeable, and that rights and institutional conditions may be leading indicators of wider quality-of-life deterioration. The index also shows large differences among countries with similar GDP per capita, making conversion of resources into rights, services, safety, education, housing, and opportunity a central political and institutional question. This is a composite index and publisher interpretation, not a causal political-economy model, respondent-level lived-experience data, a complete within-country distributional account, or proof that rights decline causes every other component to worsen. The open arrow is from political and economic conditions through rights, institutions, services, health, housing, information, environment, and realized social progress.
+
+## Peace, justice, and inclusion are becoming a practical institutional-capacity test
+
+The [SDG 16 Global Progress Report 2026 record](records/comparative-sdg16-global-progress-report-2026-peace-justice-inclusion-institutions.json) adds a public-institutions layer linking conflict, detention, violence, legal identity, discrimination, representation, official statistics, and reform capacity. Produced by OHCHR, UNDP, UNICEF, and UNODC, the report frames insecurity, polarization, declining trust, conflict, economic uncertainty, and geopolitical fragmentation as pressures that make development gains fragile. Its headline indicators include one in three prisoners held without sentence, 150 million children without legal identity, one in five people reporting discrimination, and representation gaps for women in public service and the judiciary.
+
+The broader signal is two-sided: institutional failure is producing large, unequal exposure, but measurement and institutional partnership can also create a route to action. The report’s Panama, Ghana, and Benin examples show victimization data informing security policy, illicit-financial-flow measurement entering enforcement, and representation data supporting legal reform. This is a UN-produced publication synthesis and selected country case studies, not respondent-level ingestion, a causal institutional-performance model, a complete country panel, or proof that highlighted reforms generalize everywhere. The open arrow is from conflict and exclusion through data, institutions, representation, justice, public trust, and realized social order.
+
+## Circular commerce is becoming a practical bridge between cost pressure, values, and sustainable consumption
+
+The [Mastercard conscious-consumption record](records/comparative-mastercard-conscious-consumption-2026-circular-commerce-value-values.json) adds a consumer-culture and market-infrastructure layer. The report combines Mastercard Economics Institute spending analysis, Mastercard's 2026 Global Financial Sentiment Study, and GlobeScan sustainability research. It reports cost, longevity, and brand trust as leading purchase considerations; 54% saying they choose values-aligned products even when they cost more; secondhand clothing growth outpacing clothing-store growth in the top 20 circular-shopping economies; and rising rental and repair interest, including 17.6% year-over-year US clothing-rental spending growth in 2025.
+
+The broader signal is that sustainability is being normalized through practicality rather than aspiration alone: affordability, product life, trust, access, resale, rental, repair, reuse, and digital/payment infrastructure are converging into a new definition of value. The open question is whether circular access becomes genuinely affordable and broadly distributed or remains a premium, platform-mediated choice. This is a commercial report combining aggregated and anonymized spending analysis with partner survey research, not respondent-level ingestion, a representative global consumer panel, a causal sustainability estimate, a complete lifecycle analysis, or proof that circular adoption improves welfare or environmental outcomes uniformly. The open arrow is from cost and values through product design, market infrastructure, consumer action, firm power, and realized environmental and household outcomes.
+
+## Domestic revenue mobilization is becoming a test of fiscal fairness, administrative capability, and public trust
+
+The [World Bank Raising Revenue Right record](records/comparative-world-bank-raising-revenue-right-2026-fiscal-frontier-trust-technology.json) adds a public-finance and state-capacity layer. The 2026 report argues that many emerging markets and developing economies face rising debt and interest burdens, uncertain external assistance, and tax systems that are inefficient, narrow, or inequitable. Its fiscal-frontier framework asks how countries can improve efficiency and fairness together, while its technology-transparency-trust route connects digital administration, information, international cooperation, and voluntary compliance.
+
+The broader signal is that revenue is not just a fiscal input: it is a relationship among households, firms, public institutions, services, and political legitimacy. The report’s four reform pathways—build foundations, expand coverage, simplify and build trust, and deepen transparency and coordination—make institutional sequencing part of the trend. This is a World Bank policy-research framework and comparative evidence synthesis, not respondent-level ingestion, a complete tax-incidence database, a causal reform estimate, a country implementation evaluation, or proof that more revenue becomes better services or legitimacy. The open arrow is from debt and aid pressure through tax design, administration, trust, public services, household room, and realized state capacity.
+
+## AI capability and adoption are accelerating faster than transparency, safety measurement, labor adjustment, and public confidence
+
+The [Stanford AI Index 2026 record](records/comparative-stanford-ai-index-2026-adoption-capability-trust-transparency.json) adds a broad technology-capability and social-consequence layer. The Index reports rapid organizational and generative-AI adoption, rising consumer value estimates, uneven labor exposure, documented incidents increasing from 233 in 2024 to 362 in 2025, and the average Foundation Model Transparency Index score falling from 58 to 40. It also records mixed public sentiment—benefit beliefs rising alongside nervousness—and large language and dialect performance gaps.
+
+The broader signal is a widening conversion gap: capability and use are scaling, while transparency, safety evaluation, labor adjustment, linguistic inclusion, and institutional confidence remain less mature. The open question is whether AI becomes a broadly distributed capability or a concentrated infrastructure and market-power layer whose benefits depend on opaque providers and uneven complements. This is a Stanford research synthesis of aggregate surveys, benchmarks, incident records, and published studies, not respondent-level ingestion, a causal estimate of aggregate employment effects, a complete incident census, a universal model-quality measure, or proof that capability gains translate into equitable welfare or trusted institutions. The open arrow is from AI investment and adoption through infrastructure, work, language, safety, public governance, trust, and realized social consequence.
+
+## AI safety is becoming a societal risk-management problem as capability, misuse, dependence, and governance move on different clocks
+
+The [International AI Safety Report 2026 record](records/comparative-international-ai-safety-report-2026-capability-risk-resilience.json) adds a scientific risk-and-resilience layer distinct from adoption and investment measures. Written with guidance from more than 100 independent experts from more than 30 countries and organisations, it groups general-purpose AI risks into malicious use, malfunctions, and systemic risks. It reports growing evidence around scams, manipulation, cyberattacks, biological and chemical assistance, unreliable autonomous workflows, labor and autonomy effects, AI companions, and cross-sector dependence on a small number of models.
+
+The broader signal is that the central problem is not one isolated hazard but a conversion problem between capability and social control. The report says technical safeguards are improving but insufficient, risk-management initiatives remain largely voluntary, and resilience must include critical infrastructure, detection, incident response, and institutional capacity. This is an international scientific review, not respondent-level ingestion, a probability forecast of catastrophic outcomes, a complete misuse census, a causal evaluation of safeguards, or proof that one governance regime is sufficient. The open arrow is from capability and infrastructure through misuse, malfunction, labor, autonomy, institutions, resilience, accountability, and realized social consequence.
+
+## Nutrition is becoming a converging climate, health, and financing problem
+
+The [2026 Global Nutrition Report record](records/comparative-global-nutrition-report-2026-climate-health-financing-healthy-diet.json) adds a food-health-climate and fiscal-capacity layer. It reports that 2.6 billion people cannot afford a healthy diet, progress toward global nutrition targets and SDGs 2 and 3 remains off track, and undernutrition persists while overweight, obesity, and diet-related non-communicable diseases rise. It also links climate shifts and extreme weather to agricultural productivity, staple-crop nutritional value, food prices, health and sanitation infrastructure, disease burdens, food value chains, and health-service continuity.
+
+The broader signal is that nutrition is not a stand-alone food or clinical issue. The report’s framework joins food systems, health systems, social protection, climate policy, governance, financing, operational capacity, and data—and its commitment analysis finds that few commitments include secured financing while only 8% use indicators aligned with specific food-systems frameworks. This is a global report synthesis, not respondent-level ingestion, a causal estimate of climate effects, household microdata, or proof that integrated policy will work uniformly. The open arrow is from climate and fiscal pressure through food access, health delivery, gendered exposure, system coordination, public accountability, and realized nutrition.
+
+## Connected technology is becoming essential infrastructure, but value is shifting toward reliability, support, and total ownership cost
+
+The [Assurant Connected Consumer Trends 2026 record](records/comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership.json) adds a consumer-technology and ownership layer. Its global Technology Sentiment Index is 66 out of 100: consumers are broadly positive about technology while expressing concerns about cost, complexity, trust, performance, and support. The report’s six shifts frame local relevance, total cost of ownership, service, protection, and AI complexity as part of the product rather than after-sales extras; its US snapshot reports a 64 index score, 75% finding AI somewhat trustworthy, 56% saying connected technology improved their lives, and 42% more likely to consider protection for AI-enabled smartphones.
+
+The broader signal is that adoption is becoming a weaker measure of consumer value. The relevant chain now includes whether a device works reliably, fits household budgets, can be repaired or supported, preserves control, and remains worth keeping over time. This is a company-sponsored online consumer survey and commercial report, not respondent-level ingestion, observed claims or transactions, a causal estimate of protection or support effects, an independent AI-trust audit, or proof of equal benefit across markets. The open arrow is from connected-device dependence through cost, complexity, support, repair, brand power, trust, household room, and realized consumer agency.
+
+## Higher education is expanding faster than completion, equitable mobility, leadership access, and institutional AI readiness
+
+The [UNESCO Higher Education Global Trends 2026 record](records/comparative-unesco-higher-education-global-trends-2026-mobility-ai-equity.json) adds an education, mobility, and institutional-capacity layer. UNESCO maps higher-education trends across 146 countries: 269 million students were enrolled in 2024, but the global graduation ratio was 27%; 7.3 million students were internationally mobile in 2023 while benefiting fewer than 3% of students; refugee enrollment reached only 9% in 2025; and women remain underrepresented at doctoral level, in STEM, and in senior academic leadership. The report also finds that only about one in five institutions had an AI strategy or formal policy in the relevant frame.
+
+The broader signal is that mass expansion is not the same as completed capability. Access, completion, mobility, credential recognition, financing, gendered authority, institutional AI readiness, and labor-market conversion form separate stages. This is a UNESCO comparative report using aggregate public indicators and literature, not respondent-level ingestion, student transcripts, causal estimates of higher-education returns, an institutional ranking, or proof that enrollment expansion translates into equal quality or opportunity. The open arrow is from demographic and technological change through access, cost, completion, mobility, credentials, institutional power, work, and realized social opportunity.
+
+## Education systems are being asked to deliver learning, equity, and future skills while institutions built for an earlier era face accelerating change
+
+The [UNICEF Education Strategy 2026 record](records/comparative-unicef-education-strategy-2026-learning-equity-skills-systems.json) adds a child-centred systems and future-readiness layer. UNICEF frames the global learning crisis as urgent with fewer than five years remaining for SDG 4, and argues that education systems must deliver meaningful learning, equity, and skills while responding to technological, social, and environmental change. Its strategy links country transformation to an operating model, partnerships, and UNICEF’s 2026–2029 strategic plan.
+
+The broader signal is that education is being treated as social infrastructure for navigating volatility, not merely as a service measured by enrollment. The unresolved conversion is from strategy to funded, locally adapted, sustained learning: new formats can expand opportunity, but can also shift cost, care, surveillance, and delivery responsibility onto families and teachers. This is a UNICEF public strategy, not respondent-level ingestion, student-level learning data, an implementation audit, a causal reform estimate, or proof of equal outcomes across countries. The open arrow is from technological, social, and environmental change through education design, institutional capacity, family and teacher burden, skills, equity, and realized child opportunity.
+
+## Citizen participation is becoming a governance-capacity test: influence requires timing, institutional skill, feedback, and a place in the policy cycle
+
+The [OECD Cohesion Policy participation record](records/comparative-oecd-citizen-participation-cohesion-policy-2026-pilots-trust-capacity.json) adds a local-democracy and cultural-participation layer. Its review of 11 pilots across seven EU countries covers deliberative processes, multistakeholder forums, a student assembly, ideathons, budget consultations, civic monitoring, and capacity-building. The pilots show that participation can surface everyday bottlenecks, improve policy relevance, and strengthen trust and legitimacy—but existing policy timelines sometimes left contributions too late to influence key choices.
+
+The broader signal is that participation is not a single consultation event. It is an institutional chain from legal permission and recruitment through time, facilitation, administrative capacity, policy timing, feedback, uptake, and durable legitimacy. This is an OECD pilot synthesis, not respondent-level ingestion, a representative population survey, a randomized causal estimate, proof of equal inclusion, or proof that recommendations produced durable outcomes. The open arrow is from lived experience through civic process, local knowledge, institutional capacity, policy choice, explanation, trust, and realized public value.
+
+## Consumer culture is translating ambient pressure, nostalgia, self-optimization, and spirituality into searchable and social product demand
+
+The [Spate Global Culture Shifts 2026 record](records/comparative-spate-global-culture-shifts-2026-search-social-wellness.json) adds a commercial cultural-signal layer. Its report identifies six movements—Nervous System Maxxing, Optimization Mindset, Topical & Wearable Wellness, Nostalgia Mania, Analog Obsession, and Mystic Momentum—and reads them across Google Search, TikTok, and Instagram as signals shaping beauty, wellness, and pop-culture demand. It frames TikTok as discovery and spread, Google Search as intent, and Instagram as aesthetic identity.
+
+The broader signal is a conversion from ambient social pressure into products, content, identity, and purchase pathways. The useful analytical caution is equally important: this is trend forecasting, not population prevalence. Platform visibility may amplify, commercialize, or suppress cultural practices, and a visible signal does not establish durable adoption, clinical benefit, or broad social meaning. The open arrow is from stress, nostalgia, optimization, and meaning-making through platform attention, brand interpretation, consumer identity, product demand, and realized cultural change.
+
+## Cultural participation is measurable as a social-distribution problem, but the evidence is periodic and bounded by what official surveys can ask
+
+The [Eurostat culture-statistics guide 2026 record](records/comparative-eurostat-culture-statistics-2026-participation-barriers-measurement.json) adds a measurement and access layer. It documents EU-SILC cultural-participation modules covering cinema, live performances, cultural sites, artistic practice, reading, and non-participation reasons, with disaggregation by income, education, disability, poverty risk, urbanization, household type, age, and sex. It also connects cultural participation to digital activity, household expenditure, and public cultural spending.
+
+The broader signal is that cultural participation is not just a taste or attendance variable. It is constrained by money, time, proximity, disability, household structure, digital access, and local supply—and the guide warns that periodic modules and single-response barrier questions cannot capture the full overlap. This is an official methodological guide, not respondent-level ingestion, a current participation estimate, a causal cultural-participation effect, or a complete cultural-ecosystem census. The open arrow is from household and place conditions through access barriers, cultural practice, identity, social connection, public provision, and realized participation.
+
+## Agrifood climate finance is becoming a quality, access, and local-governance problem rather than a volume problem alone
+
+The [FAO-CIRAD climate-finance quality record](records/comparative-fao-cirad-climate-finance-quality-agrifood-2026-equity-governance-local-ownership.json) adds a climate, food, finance, and governance layer. FAO frames agrifood systems as both a major emissions source and a highly climate-exposed part of the economy, while reporting insufficient and poorly aligned finance. Its quality framework turns attention to the source and cost of capital, who bears risk, who qualifies, how allocation is governed, and whose knowledge counts; the related FAST update reports a 10% decline in agrifood climate-finance flows in 2024 and a 5% share for food-producing sectors in total international public finance.
+
+The broader signal is that climate adaptation is also a distributional and institutional-design problem. Donor-driven, short-term, project-based finance can fail through weak local ownership, poor coordination, inappropriate instruments, and limited access even when headline commitments rise. This is official systems-level finance evidence and a policy framework, not respondent-level ingestion, a causal project evaluation, or proof that quality-lab and locally led reforms will be implemented. The open arrow is from climate exposure through capital cost, fiscal space, finance access, local agency, community rights, resilience investment, and realized food-system outcomes.
+
+## Protracted displacement is becoming a long-term public-systems and economic-inclusion problem while humanitarian funding remains inadequate
+
+The [UNHCR Global Appeal 2026 record](records/comparative-unhcr-global-appeal-2026-displacement-funding-inclusion-host-systems.json) adds a displacement, protection, host-capacity, and development-finance layer. UNHCR projects 136 million forcibly displaced or stateless people in 2026, plans action across 128 countries and territories, and identifies $8.505 billion in needs. The appeal explicitly moves beyond emergency assistance toward legal and policy environments, equitable services, employment, entrepreneurship, agribusiness, financial services, development partnerships, and locally sustained solutions.
+
+The broader signal is that displacement is not a single humanitarian event but a multi-stage route through status, safety, shelter, health, education, water, livelihoods, community capacity, return, resettlement, and local solutions. The appeal is a planning and funding request, not a realized displacement count, funding-outcome evaluation, respondent-level dataset, or proof that economic inclusion produces durable protection. The open arrow is from conflict, persecution, climate and economic shocks through displacement, legal recognition, host-system capacity, service access, work, agency, return or integration, and realized security.
+
+## Development cooperation is being redefined as a partnership-quality problem: ownership, results, inclusion, transparency, and accountability
+
+The [OECD-UNDP development-cooperation effectiveness record](records/comparative-undp-oecd-development-cooperation-effectiveness-2026-country-ownership-results-accountability.json) adds an institutional-finance and implementation layer. The 2023–2026 Global Partnership monitoring round draws on reporting from 44 partner-country governments and 93 development partners, alongside civil society, trade unions, and private-sector representatives. Its central frame is that effective cooperation requires country ownership, focus on results, inclusive partnerships, transparency, and mutual accountability.
+
+The broader signal is a shift from asking how much development finance moves to asking who defines the problem, who controls implementation, whose results count, and whether responsibility is visible across partners. This is a progress-monitoring and policy report, not a respondent-level dataset, causal impact evaluation, complete aid inventory, or proof that shared action improves realized outcomes. The open arrow is from external finance through ownership, institutional capacity, partnership power, transparency, accountability, local implementation, and realized public value.
+
+## Museum AI adoption is outpacing governance, professional capacity, and cultural-data safeguards
+
+The [UNESCO-ICOM museum AI record](records/comparative-unesco-icom-museum-ai-adoption-governance-capacity-2026.json) adds a cultural-institutional technology layer. A global survey of more than 400 museums across 90 countries reports that 57% of responding museums already use AI, while 55% have no internal AI policy, strategy, or guidelines. Adoption remains mainly exploratory or staff-led; accuracy, copyright, data protection, training, and ethical guidance are leading concerns, with unequal infrastructure, funding, and technical capacity shaping who can participate.
+
+The broader signal is that cultural institutions are becoming AI users before they have settled governance over interpretation, provenance, rights, community consent, or professional responsibility. This is a public summary of a global survey, not respondent-level ingestion, a representative estimate of all museums, a causal evaluation, or proof that AI improves cultural access. The open arrow is from cultural production and institutional adoption through data and copyright governance, staff capacity, trust, visitor experience, community voice, and realized cultural value.
+
+## Slower potential growth is becoming a shared constraint on household opportunity, public capacity, climate action, and global convergence
+
+The [World Bank long-term growth prospects record](records/comparative-world-bank-long-term-growth-prospects-2026-productivity-investment-demography-trade.json) adds a macro-conditions layer. The World Bank expects global potential growth—the economy’s longer-run “speed limit” without igniting inflation—to fall to a three-decade low over the remainder of the 2020s at current trends. It identifies weakening investment and total-factor productivity, slower and older labor-force growth, and weaker international trade as major structural forces.
+
+The broader signal is that slower growth is not only a GDP story: it can reduce fiscal room for services, poverty reduction, climate action, infrastructure, and inclusive household opportunity, especially in emerging and developing economies. The World Bank describes a possible reversal through investment, productivity, labor, trade, national policy, cross-border cooperation, and global financing, but this is a conditional structural outlook—not realized welfare, respondent-level evidence, or a country-by-country causal forecast. The open arrow is from macro potential through investment, jobs, prices, public capacity, household room, inequality, climate adaptation, and political legitimacy.
+
+## Climate action is moving from institutional pledge to operational infrastructure, with emissions, savings, resilience, safety, and service continuity linked together
+
+The [UNDP Greening Moonshot record](records/comparative-undp-greening-moonshot-2026-operations-emissions-energy-resilience.json) adds an implementation layer. UNDP reports a 25% reduction in operational emissions from its 2018 baseline by 2025, a 50% reduction target by 2030, more than 200 greening projects reducing over 4,000 tonnes of CO2e annually, roughly $8.50 in energy savings per dollar invested in green-energy solutions, and nearly $2 million in annual savings. The report links green energy, efficiency, electric mobility, building upgrades, travel, daily habits, workplace safety, and continuity where grids or fuel supply chains fail.
+
+The broader signal is that climate adaptation and decarbonization are becoming operating-model questions: procurement, buildings, mobility, budgets, staff behavior, maintenance, and service reliability all matter. This is a self-reported UNDP organizational mid-term report, not a global emissions estimate, independently verified causal evaluation, respondent-level dataset, or proof that savings generalize across institutions. The open arrow is from climate risk through institutional operations, energy cost, infrastructure resilience, work conditions, service continuity, credibility, and realized public value.
+
+## AI is being discussed as a transformation of trust, culture, knowledge, labor, and human responsibility—not only as a capability race
+
+The [UN Office for Partnerships AI and Human Development dispatches](records/comparative-unop-ai-human-development-dispatches-2026-trust-culture-labor-knowledge.json) adds a qualitative cultural-social layer from four cross-disciplinary convenings in Cairo, Mexico City, Xi'an, and Rome. The accounts ask what it means to remain human in an AI-shaped society and surface recurring tensions around machine trust versus human responsibility, language that can hide accountability, extraction and ownership of cultural knowledge, embodied AI entering household life, and automation feedback loops that may weaken the journalism and human knowledge AI depends on.
+
+The broader signal is that the social consequences of AI are partly about meaning, agency, and institutional responsibility. The dispatches are selective and unattributed by design, not a representative survey, respondent-level dataset, consensus statement, technical forecast, or causal estimate. The open arrow is from technical capability through language, trust, cultural identity, knowledge ownership, labor, household relationships, public accountability, and realized human development.
+
+## Citizens’ assemblies are becoming democratic infrastructure for time, information, deliberation, and agency beyond elections
+
+The [citizens’ assemblies handbook record](records/comparative-newdemocracy-undef-undp-citizens-assemblies-2026-deliberation-agency-trust.json) adds a participatory-democracy implementation layer. The second edition, produced by newDemocracy with UNDP and UN Democracy Fund support, presents civic lottery, protected time, balanced information, structured deliberation, and institutional follow-through as conditions for more informed, substantive, representative, and trusted decisions. It points to applications including climate change and constitutional reform.
+
+The broader signal is that participation is being designed as an institutional process rather than a one-off consultation: selection, learning, deliberation, recommendation, public explanation, and policy uptake are separate stages. This is a practice handbook and case synthesis, not a representative public-opinion dataset, respondent-level ingestion, causal evaluation, or proof that assemblies produce equitable outcomes. The open arrow is from distrust and contested policy through civic selection, time, information, deliberation, agency, institutional response, trust, and realized democratic legitimacy.
+
+## Digital infrastructure is being governed as a cascade-risk system rather than a collection of isolated cyber incidents
+
+The [ITU-UNDRR digital-systems-failure record](records/comparative-itu-undrr-digital-systems-fail-2026-cascades-resilience.json) adds a public-infrastructure and geopolitical-resilience layer. The 2026 ITU, UNDRR, and Sciences Po report frames failures across space, terrestrial, and undersea systems as capable of cascading through electricity, finance, transport, healthcare, communications, emergency response, and government. It highlights secondary spillovers, weakened analogue fallback, unequal redundancy, and six preparedness priorities centered on dependency mapping, standards, early warning, trust, and global coordination.
+
+The broader signal is that digital dependence is becoming a resilience and public-capacity question: the issue is not only whether a network is attacked, but whether societies can continue essential functions when tightly coupled systems fail. This is an expert report with illustrative scenarios and cited estimates, not a forecast, incident census, household impact estimate, respondent-level dataset, or causal evaluation. The open arrow is from infrastructure interdependence through cascade exposure, unequal fallback, service continuity, public trust, coordination, and realized recovery.
+
+## Everyday coffee consumption remains routine while specialty, convenience, and out-of-home formats diversify the occasion
+
+The [NCA coffee data-trends record](records/comparative-nca-coffee-data-trends-2026-specialty-out-of-home-routines.json) adds a concrete consumer-culture layer. The National Coffee Association’s June 2026 release reports coffee in the past day for 66% of American adults, home use among 83% of past-day coffee drinkers, out-of-home use at 38%, specialty coffee at 48%, and espresso-based drinks at 47% of adults in the past week. It also reports drive-through and app ordering as prominent out-of-home routes.
+
+The broader signal is not simply “more coffee”: a durable household ritual is being recombined with specialty differentiation, convenience infrastructure, mobile ordering, and partial return to shared or commercial spaces. This is a trade-association summary of a commissioned cross-sectional survey, not transaction data, respondent-level ingestion, a causal model, or proof of durable cultural change. The open arrow is from routine and spending conditions through format choice, channel, convenience, social occasion, identity, and realized household or commercial behavior.
+
+## Global health-financing pressure is moving from organizational budgets into program contraction and unequal care exposure
+
+The [PMNCH global health-financing record](records/comparative-pmnch-global-health-financing-crisis-2026-program-cuts-rights.json) adds a care-capacity and institutional-finance layer. A PMNCH survey of partner organizations based in at least 67 countries reports that nearly 80% face reduced or uncertain funding, 77% report meaningful disruption to work on women’s, children’s, and adolescents’ health and rights, and 69% have downsized, suspended, or closed programs. The release identifies sexual and reproductive health, adolescent programming, maternal and newborn health, and nutrition among affected areas, while reporting coalition-building, funding diversification, reprioritization, localization, and demand for flexible core funding as adaptation routes.
+
+The broader signal is that financing conditions become social and cultural conditions when they determine which services, communities, and forms of care remain reachable. This is a partner-network survey summary and advocacy publication, not a representative organizational census, beneficiary-level dataset, service-utilization series, mortality estimate, or causal evaluation. The open arrow is from external financing and fiscal space through organizational capacity, program continuity, local voice, service access, household burden, and realized health and rights outcomes.
+
+## Extreme poverty is declining only marginally while regional divergence and measurement revision remain central to the story
+
+The [World Bank global poverty update](records/comparative-world-bank-global-poverty-update-2026-extreme-poverty-uneven-progress.json) adds a material-pressure and measurement layer. The September 2026 Poverty and Inequality Platform update estimates more than 824 million people—10.1% of the world’s population—were living below $3 per person per day in 2024, with a 9.8% global rate nowcast for 2026. It reports particularly high or rising pressure in Sub-Saharan Africa and the Middle East, North Africa, Afghanistan and Pakistan, while revising the global estimate downward from the March vintage because of new surveys and updated auxiliary data.
+
+The broader signal is that poverty is both a lived material condition and a moving measurement system: a global decline can coexist with regional worsening, and a statistical revision is not itself a welfare improvement. This is modeled survey-and-nowcast evidence, not respondent-level ingestion, a multidimensional deprivation measure, a current household panel, or a causal evaluation. The open arrow is from income poverty and measurement through prices, work, services, conflict exposure, household room, agency, and realized security.
+
+## Commodity-price pressure is moving unevenly across energy, food, fertilizer, and metals rather than as one generalized inflation signal
+
+The [World Bank Pink Sheet September 2026 record](records/comparative-world-bank-pink-sheet-september-2026-energy-food-fertilizer-metals.json) adds a price-transmission layer. The August update reports monthly increases in the energy, food, and metals indexes, alongside a decrease in fertilizer prices; the underlying benchmarks show distinct movements for oil, European and U.S. gas, coffee, wheat, DAP fertilizer, and copper. This keeps geopolitical and climate-linked commodity exposure connected to firms, farmers, importing states, and households without collapsing benchmark prices into retail outcomes.
+
+The broader signal is that material pressure is composite and uneven: energy shocks, farm inputs, food commodities, and industrial metals can move in different directions, and transmission depends on contracts, inventories, currency, infrastructure, subsidies, and market power. This is benchmark price and index evidence, not retail inflation, household expenditure, firm profit, trade-flow, causal-policy, or welfare data. The open arrow is from global commodity conditions through state exposure, input costs, margins, prices, household room, political response, and realized welfare.
+
+## Conflict is producing a compound health-systems crisis rather than a single casualty or displacement event
+
+The [WHO Middle East situation report](records/comparative-who-middle-east-conflict-health-systems-2026-displacement-continuity.json) adds a realized operational layer. With data as of 14 September 2026, the report records country-specific casualties and displacement, WHO-verified attacks on health care, closed and damaged facilities in Lebanon, damaged power and water systems in Iran, medicine shortages and price increases, urgent reproductive-health needs in Yemen, disrupted referrals, and a WHO appeal only 50% funded at the reporting date.
+
+The broader signal is that conflict exposure becomes a systems problem through infrastructure, access, supply chains, workforce, prices, displacement, and funding—not only through direct violence. This is a dated WHO situation report with country-reported estimates, not a harmonized conflict census, causal attribution, complete service map, beneficiary panel, or outcome evaluation. The open arrow is from conflict and infrastructure damage through displacement, health-system capacity, care access, household burden, institutional adaptation, and realized health and rights outcomes.
+
+## Public-health governance is becoming a signal-filtering and data-quality system, not only a count of confirmed events
+
+The [WHO Weekly Epidemiological Record 101(38) record](records/comparative-who-weekly-epidemiological-record-101-38-2026-surveillance-signals.json) adds a surveillance-infrastructure layer. During 14–20 September 2026, WHO’s public-health intelligence workflow screened 582,592 raw signals, categorized 37, reduced them to 35 unique signals, escalated 23, and published one rapid risk assessment. The same issue shows how respiratory-virus positivity varies by region and how apparent meningitis improvement is constrained by non-reporting and changing laboratory participation.
+
+The broader signal is that public risk is partly produced by what institutions can detect, compare, verify, and escalate: low public reporting is not the same as low underlying activity. This is a WHO surveillance publication, not a complete event census, population infection-prevalence estimate, causal vaccine evaluation, respondent-level dataset, or proof that triage is equally sensitive across communities. The open arrow is from signal generation through detection, verification, escalation, public communication, prevention, trust, and realized health protection.
+
+## AI in education is being reframed as a common-good and agency problem requiring deliberative governance
+
+The [UNESCO common-good consultation record](records/comparative-unesco-ai-education-common-good-deliberative-governance-2026.json) adds an education and public-purpose technology layer. UNESCO’s discussion paper and consultation ask how education systems can exercise agency as AI diffuses, and organize the governance problem around sovereignty, age appropriateness, learner safety, procurement, total cost of ownership, and the right to an explanation. The consultation also foregrounds human agency, equity, inclusion, safety, ethics, evidence, and implementation.
+
+The broader signal is that education institutions are being asked to govern the purposes and conditions of AI—not simply purchase or adopt tools. This is a normative discussion-paper and consultation record, not a learner-level dataset, adoption survey, learning-outcome evaluation, representative opinion measure, or proof of equitable implementation. The open arrow is from AI diffusion through institutional agency, procurement, cost, safety, explanation, teacher and learner voice, public trust, and realized educational value.
+
+## Education is being imagined as everyday infrastructure for multilateral habits and cooperation across difference
+
+The [UNESCO multilateralism think-piece record](records/comparative-unesco-education-multilateralism-classroom-cooperation-2026.json) adds a qualitative cultural-institutional layer. The essay frames classrooms as multilateral forums where students and teachers negotiate different histories, values, languages, knowledge traditions, and imagined futures; it connects curriculum, local communities, international cooperation, non-WEIRD research, intellectual humility, and civic capability.
+
+The broader signal is that education is being asked to build a common world without requiring consensus: identities and knowledge are treated as relational, and local questions are meant to travel into global conversations and back into local life. This is an IdeasLAB think piece whose authors’ views are not necessarily UNESCO’s official position, not a classroom observation, learning-outcome study, survey, or causal evaluation. The open arrow is from educational encounter through difference, knowledge authority, trust, identity, cooperation, civic agency, and realized democratic or social cohesion outcomes.
+
+## Climate action is being linked to social-protection design, insurance coverage, livelihood security, and the conditions of a just transition
+
+The [ILO-AFD social-insurance record](records/comparative-ilo-social-protection-climate-insurance-2026-just-transition.json) adds a climate-labor-household layer. The report treats social protection as a way to address climate impacts and the social consequences of climate policy, emphasizes that more than half the world’s population still lacks basic coverage, and gives particular attention to contributory social insurance as an underexamined route for protecting livelihoods and managing transitions.
+
+The [ILO Cambodia digital-platform-workers record](records/comparative-ilo-cambodia-digital-platform-workers-2026-algorithmic-work-security.json) adds a platform-labor layer: digital work creates access to income while algorithmic ratings and penalties, unpaid waiting, operating costs, injury exposure, contractor classification, and weak worker voice distribute insecurity across workers and public systems. The source is a Phnom Penh diagnostic and is not nationally representative.
+
+The [WHO AI-health-research ethics record](records/comparative-who-ai-health-research-ethics-2026-oversight-equity.json) adds an AI-health governance layer: the key trend is movement from one-time project approval toward lifecycle oversight involving ethics committees, funders, publishers, regulators, data power, public trust, local participation and benefit sharing. It explicitly frames data colonialism and ethics dumping as risks in low- and middle-income settings; it is a governance framework, not an implementation or outcome study.
+
+The [OECD homelessness and housing-exclusion record](records/comparative-oecd-homelessness-housing-exclusion-2026-pathways-hidden.json) adds a household-security layer: housing loss is treated as a pathway assembled from poverty, housing costs, eviction, institutional exits, relationships, health, employment and social support, while temporary stays with family or friends reveal a large hidden layer beyond visible street counts. The source is a review and cross-national survey synthesis, not a harmonized current prevalence estimate.
+
+The [OECD climate-sentiment and just-transition record](records/comparative-oecd-climate-sentiment-2026-just-transition-public-support.json) adds a climate-legitimacy layer: concern about climate change is widespread, but action support depends on perceived effectiveness, household and sectoral economic exposure, fair distribution of adjustment costs, transparent compensation, and credible public communication. The source is descriptive public-attitudes evidence, not a causal forecast of policy support.
+
+The [W3C Identity & the Web record](records/comparative-w3c-identity-web-2026-privacy-governance-trust.json) adds a digital-identity layer: credentials are not merely authentication tools but infrastructure shaping recognition, access, privacy, trust, cultural meaning, human rights, surveillance, interoperability and vendor dependence. The source is an exploratory W3C Team document, not a standard, membership consensus or deployment study.
+
+The [Government of Canada AI and Culture Summit record](records/comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust.json) adds a cultural-production layer: AI adoption is being negotiated through copyright and creator livelihoods, trust, co-design, Indigenous and linguistic sovereignty, domestic compute and data infrastructure, literacy and institutional readiness. The source is an organizer synthesis of a 314-person summit, not representative opinion or formal consensus.
+
+The [Circle 2026 Community Trends record](records/comparative-circle-community-trends-2026-human-connection-belonging.json) adds a community-culture layer: amid AI-generated content and algorithmic noise, connection and belonging are being positioned as higher-value than attention alone, while creators and brands treat community as business infrastructure. The source is a commercial public summary with disclosed limitations, not representative population evidence or a causal evaluation.
+
+The [OECD critical-risk governance record](records/comparative-oecd-critical-risk-governance-2026-polycrisis-preparedness.json) adds a state-capacity and geopolitical-risk layer: governments are broadening risk governance toward compound threats, anticipation, whole-of-society coordination and critical dependencies, but preparedness investment, accountability, systematic learning and international cooperation remain uneven. The source is a comparative governance review, not a causal resilience evaluation, incident census or proof of realized public safety.
+
+The [WEF TradeTech Paradox record](records/comparative-wef-tradetech-paradox-2026-connectivity-fragmentation.json) adds a trade-infrastructure layer: geopolitical fragmentation is pulling parts of the trade system apart while digital tools connect institutions, regulators, logistics, finance and enterprises across borders. The report’s central implication is that technology can improve visibility, liquidity, compliance and coordination, but only when paired with collaborative governance, cross-layer partnerships, human capacity, ethics and interoperable data infrastructure. This is a strategic insight report with case studies, not a causal technology evaluation, firm census or proof of inclusive resilience.
+
+The [SVR Germany housing and participation record](records/comparative-svr-germany-housing-migration-2026-participation-neighborhoods.json) adds a place-and-status layer: housing is not only shelter but an access condition for education, work, local services, social interaction and participation in an immigration society. The report separates ethnic concentration from rising income segregation, identifies arrival neighbourhoods as potential resources rather than automatic barriers, and shows how affordability, discrimination and legal accommodation rules shape different routes through housing and belonging. This is Germany-specific annual-report evidence, not a U.S. estimate, respondent-level panel or causal neighbourhood evaluation.
+
+The [UNESCO–IEP intercultural-dialogue record](records/comparative-unesco-iep-intercultural-dialogue-2022-released-2026-peace-inclusion.json) adds a cultural and civic-capacity layer: dialogue is framed as measurable infrastructure connecting structures, processes and values to inclusion, human rights, conflict prevention, resilience and peace. The public UNESCO release draws on more than 160 countries, comparative data, regional trends and case studies, but the underlying report is from 2022; this is not new 2026 outcome data or proof that dialogue alone causes peace.
+
+The [World Bank social-cohesion record](records/comparative-world-bank-social-cohesion-development-outcomes-2023-bonding-bridging-linking.json) adds a measurement-to-intervention layer: social cohesion is separated into bonding within communities, bridging across groups and linking between people and institutions with power. That distinction matters because a program can improve internal solidarity without improving intergroup trust or citizen-state accountability. The 2023 working paper emphasizes that effects are conditional on diagnosis and implementation; it is not a current global prevalence estimate or causal program result.
+
+The [World Bank process-legitimacy record](records/comparative-world-bank-process-legitimacy-2025-development-contestation.json) adds the institutional mechanism upstream of that cohesion route: development change is more durable when affected groups, especially those who lose, perceive the process as fair, represented and contestable. The paper identifies legitimacy contests between societal groups, elite factions, local and national authorities, and national and global actors, then points to negotiation and shared understanding as possible responses. This is a 2025 analytical framework, not a legitimacy survey or causal project result.
+
+The [World Bank generative-AI use record](records/comparative-world-bank-generative-ai-use-2025-income-digital-divide.json) adds a technology-capability layer: GenAI web use is growing rapidly, but the observed capability frontier is highly unequal across country income groups, platforms and local ecosystems. The study reports roughly 25% ChatGPT penetration among internet users in high-income countries versus 0.3% in low-income countries, while noting that traffic is only a proxy and that some underlying data are proprietary. The open arrow is from connectivity and affordability through platform access, skills, language, work use, bargaining power and realized economic participation.
+
+The [UK Creative Industries AI Adoption Plan record](records/comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills.json) adds a sectoral cultural-labour layer: creative industries report higher AI use than the wider economy, but adoption varies sharply by subsector and firm size and remains concentrated in operational work before public-facing creative workflows. The plan frames the unresolved route as AI adoption through trust, rights, skills, worker voice, entry-level pathways, cost, regional infrastructure and human creative control. This is UK policy and cited business evidence, not a causal workforce study or U.S. estimate.
+
+The [ITU Protection through Online Participation record](records/comparative-itu-pop-child-online-protection-2026-reporting-support-pathways.json) adds a child-agency and protection layer: digital environments are being designed as both spaces where risks arise and entry points where children can report harm, seek help and reach protection services. The signal shifts child online safety upstream from content removal alone toward accessible reporting, trusted response, referral, platform accountability and public or community capacity. This is global guidance with child consultations and multi-stakeholder input, not an implementation audit or child-outcome evaluation.
+
+The [ITU AI and ageing record](records/comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation.json) adds a life-course digital-inclusion layer: AI is being evaluated through health, economic security, participation and connectivity, while age, gender, geography, affordability, skills and trust shape who can benefit. The open arrow is from demographic ageing and digital systems through service access, care capacity, household security, agency, privacy and realized later-life wellbeing. This is global policy and practice synthesis, not a representative older-person survey or outcome evaluation.
+
+The [World Bank international risk-sharing record](records/comparative-world-bank-international-risk-sharing-government-private-saving-2026-shock-smoothing.json) adds a macro-household buffer layer: international shocks are absorbed through different mixes of government saving, private saving, remittances, transfers and investment income, with fiscal space and capital-account openness shaping which channel is available. The open arrow is from global volatility through public capacity and household self-insurance to consumption room, political protection and unequal exposure. This is aggregate accounting evidence, not respondent-level data or a household welfare evaluation.
+
+The [World Bank housing robustness record](records/comparative-world-bank-housing-robustness-2026-poverty-disaster-learning.json) adds a built-environment resilience layer: poverty constrains the first step of removing fragile housing, while governance and hazard-specific institutional learning shape later improvement. The open arrow is from household material room and housing systems through repeated disaster feedback to infrastructure safety, unequal exposure and realized resilience. This is cross-country aggregate evidence, not an event-damage audit or household causal evaluation.
+
+The [World Bank disaster-poverty record](records/comparative-world-bank-adaptive-social-protection-2026-disaster-poverty-coverage-intensity.json) adds an adaptive-protection layer: disaster-related poverty and well-being losses create a policy choice between reaching more people and supporting each beneficiary more intensely, with lower-income countries benefiting more from early coverage expansion. The open arrow is from hazard exposure through poverty, targeting, delivery capacity and benefit intensity to household recovery, legitimacy and unequal resilience. This is modeled scenario evidence, not a disaster-loss census or implementation audit.
+
+The [OECD AI and skills record](records/comparative-oecd-ai-skills-2026-adoption-training-human-work.json) adds a work-transition layer: skills shortages constrain AI adoption, while adoption raises demand for high-level, digital, data, managerial and human capabilities. Training is associated with better reported outcomes, but algorithmic-management signals also raise questions about empathy, social interaction and job quality. This is OECD survey synthesis with underlying data no newer than late 2024, not a causal training evaluation or forecast.
+
+The [PwC Voice of the Consumer record](records/comparative-pwc-voice-consumer-2026-everyday-health-data-trust.json) adds an everyday-health consumer layer: health is being organized through recurring occasions—sleep, food, stress, weight, fitness, longevity and appearance—and connected to apps, wearables, diagnostics, coaching, pharmacies and AI. The open arrow is from household routines and resources through data, trust, commercial platforms and human guidance to health choices and unequal participation. This is commercial survey and market-insight evidence, not clinical or causal evidence.
+
+The [UN Women Generation Equality record](records/comparative-un-women-generation-equality-2026-institutionalized-feminist-systems-change.json) adds an institutionalization layer: gender-equality ambition becomes durable when financing is integrated into public systems, accountability supports learning and decision-making, and feminist, youth and local actors exercise shared leadership. The open arrow is from commitments through power, resources, convening, data and civic space to policy implementation and durable social change. This is program learning synthesis with selected cases, not a causal evaluation or beneficiary census.
+
+The [UN Women Pacific Gender Data Outlook Index record](records/comparative-un-women-pacific-gender-data-outlook-index-2026-data-capacity-accessibility.json) adds a data-infrastructure layer: gender data are not merely descriptive inputs but part of the institutional chain from visibility to priorities, resource allocation and accountability. The open arrow is from enabling laws and financing through production and accessibility to data use, policy judgment and unequal recognition. The Index covers 11 of 22 Pacific jurisdictions, omits comparable data-use indicators from the final score and is diagnostic rather than causal or outcome evidence.
+
+The [Belonging Forum UK Belonging Barometer record](records/comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose.json) adds a social-infrastructure layer: belonging is shaped by the practical conditions of People, Place, Power and Purpose—relationships, shared spaces, economic and housing security, services, voice and meaningful contribution. The open arrow is from cost, time, health, place and institutional responsiveness through participation and recognition to trust, wellbeing and social cohesion. This is a nationally weighted cross-sectional survey and descriptive trend comparison, not causal evidence.
+
+The [DataReportal Digital 2026 Mid-Year record](records/comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity.json) adds a global digital-systems layer: internet access, mobile ownership, social platforms and AI are becoming a combined everyday infrastructure for information, advice, learning, entertainment and connection. The open arrow is from connectivity and platform design through attention, data, skills, affordability and geopolitical infrastructure dependence to household agency, work and social participation. The source combines partner estimates and surveys, so aggregate users are not unique people and causal welfare effects remain open.
+
+The [Public First AI Global 2026 record](records/comparative-public-first-ai-global-2026-backlash-sovereignty-sophistication.json) adds a legitimacy-and-power layer: AI adoption is broadening, but sentiment, sophistication, data trust, model origin, sovereignty and infrastructure politics remain uneven. The open arrow is from technical capability through workflow design, income, education, organizational support, privacy, national control and cultural meaning to who benefits, who resists and who can govern the transition. This combines public-attitudes polling with economic modeling, not causal outcome evidence.
+
+The [NIQ Consumer Outlook 2026 record](records/comparative-niq-consumer-outlook-2026-financial-caution-trust-commerce.json) adds a household-consumption layer: economic recovery is cautious, with consumers protecting essentials, seeking additional income, adjusting category and channel choices, and valuing quality, responsiveness, local cultural fluency and autonomy. The open arrow is from prices, jobs, geopolitical concern and household room through trust, spending, private label, social commerce and physical retail to firm strategy and lived consumption. This combines survey and market-measurement evidence, not causal household welfare evidence.
+
+The [Capgemini consumer 2026 record](records/comparative-capgemini-consumer-2026-value-ai-human-touch-fairness.json) adds a hybrid-value layer: consumers are not choosing between cheapness and technology in the abstract; they are testing whether price, quality, transparency, AI convenience, control and human support fit the moment. The open arrow is from inflation fatigue and household constraint through switching, indulgence, automation permissions, data trust, human assistance and social commerce to loyalty and perceived value. This is a 12-country survey with executive interviews, not transaction or causal evidence.
+
+The [Culturati Cultural Mosaic 5.0 record](records/comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai.json) adds a cultural-decision layer: the public overview treats identity, lifestyle, shopping, media, creators, trusted voices and AI discovery as connected parts of the polycultural mainstream. The open arrow is from cultural meaning and group recognition through trusted intermediaries, platform attention and recommendation authority to product discovery, evaluation and choice. Because only the public overview is available, this is a scope and measurement signal, not evidence of subgroup effects or causal behavior change.
+
+The [CIVICUS 2026 State of Civil Society record](records/comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics.json) adds a civic-geopolitical layer: democratic retreat, impunity, technology power, civic-space contraction and funding pressure are treated as mutually reinforcing conditions that produce distributed resistance across protest, mutual aid, documentation, litigation, education and migrant defense. The open arrow is from geopolitical and institutional power through civic space, technology, organizational autonomy and collective action to defensive wins and democratic legitimacy. This is an advocacy and analytical synthesis using selected cases, not a representative movement census or causal estimate.
+
+The [ILO Employment and Social Trends 2026 record](records/comparative-ilo-employment-social-trends-2026-fragile-stability-job-quality.json) adds a work-security layer: stable unemployment is separated from access to work, job quality, informality, working poverty, real-income recovery and productive convergence. The open arrow is from demographic, technological, trade and macroeconomic pressures through labour demand, productivity, wages, social protection and institutional capacity to household security and political legitimacy. These are ILO estimates and projections, not respondent-level or causal evidence.
+
+The [Circana Eating Patterns in America 2026 record](records/comparative-circana-eating-patterns-america-2026-food-occasions-channels.json) adds an everyday consumption layer: the public overview treats food behavior as a system of occasions, in-home and away-from-home contexts, channels, preparation infrastructure and commercial decision points. The open arrow is from household money and time through food routines, discovery, channel choice, service and retail infrastructure to repeat consumption and firm strategy. Because only the commercial overview is public, this is a scope and measurement signal, not evidence of household inequality, food security or causal behavior change.
+
+The [Gallup Global Confidence in Institutions 20-Year Review record](records/comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust.json) adds a legitimacy countertrend: confidence is not universally collapsing; it differs by institution, regime type, country and political position, with military and financial institutions often trusted more than governments, elections or courts. The open arrow is from institutional performance, political voice, regime context and information constraints through confidence, polarization and democratic legitimacy. This is a World Poll trend analysis using country medians and associations, not a causal trust or legitimacy estimate.
+
+The [World Bank Fragility at the Core of Global Poverty record](records/comparative-world-bank-poverty-fragility-2026-feedback-data-conflict.json) adds a development-security layer: extreme poverty is increasingly concentrated in fragile and conflict-affected settings, and the source treats poverty and fragility as mutually reinforcing rather than independent outcomes. The open arrow is from conflict, displacement, institutional capacity and fiscal or service constraints through household assets, income, resilience and recovery to durable poverty reduction and political stability. The public source is a reproducibility catalog with some restricted inputs, not a complete causal intervention evaluation.
+
+The [JRC Climate Security, Migration and Fragility record](records/comparative-jrc-climate-security-migration-fragility-2026-risk-multiplier-resilience.json) adds a climate-mobility layer: climate stress is treated as a risk multiplier whose effects travel through existing political, economic and social vulnerabilities, while mobility, remittances, shock-responsive protection, safe pathways and inclusive urbanization can weaken negative dynamics. The open arrow is from climate exposure through conflict, mobility, settlement, services and institutional capacity to displacement risk or resilience. This is a policy brief, not a global causal event study.
+
+The [OCHA Global Humanitarian Overview 2026 record](records/comparative-ocha-global-humanitarian-overview-2026-needs-funding-service-collapse.json) adds a humanitarian-capacity layer: conflict and climate shocks create needs, but funding and delivery capacity determine whether health, food, protection, cash, water and shelter lifelines continue. The open arrow is from geopolitical and climate shocks through humanitarian finance, coordination, service continuity and infrastructure to household survival, agency and recovery. These are planning estimates and system descriptions, not individual receipt, adequacy or durable recovery evidence.
+
+The [Deloitte Global Human Capital Trends 2026 record](records/comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust.json) adds an organizational-AI layer: the public report frames AI adoption as a work-design and trust problem, not merely a technology purchase, emphasizing human–machine synergy, judgment, adaptability, cultural debt and role-specific perception gaps. The open arrow is from AI and market pressure through work redesign, leadership, worker voice, data trust and organizational culture to realized productivity, autonomy and job quality. This is executive and leader survey evidence, not causal worker-outcome evidence.
+
+The [ACCA Global Talent Trends 2026 record](records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json) adds a professional adoption-and-legitimacy layer: AI use and confidence in learning are advancing, but hiring confidence, human review, agent deployment, hybrid time, promotion visibility, social impact and organizational support shape whether adoption feels legitimate. The open arrow is from AI-enabled recruitment and work redesign through skill access, decision authority, schedule control, career visibility, wellbeing and retention. This is aggregate accountancy and finance professional survey/report evidence, not a general workforce panel or causal outcome study.
+
+The [ITDF Human Purpose in Peril record](records/comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds.json) adds a public meaning-and-agency layer: people are using LLMs as practical infrastructure for learning, shopping, health, work, finance, housing and social rehearsal while fearing weakened human connection, purpose and critical thought. The open arrow is from everyday AI availability through delegation, convenience, dependence, verification, social meaning and institutional guidance to autonomy, trust and human agency. This is a U.S. public-opinion survey with an LLM-user oversample, not a longitudinal behavioral or causal outcome study.
+
+The [More in Common/UCL Disagreeing Well record](records/comparative-more-in-common-disagreeing-well-2026-silence-civic-spaces.json) adds a civic-conversation layer: people can value open debate and understanding while withholding views, fearing labels, avoiding formal forums and observing political institutions model hostility. The open arrow is from identity conflict and reputational risk through silence, listening, venue choice, social contact and institutional example to participation, belonging and democratic legitimacy. This is a Britain-focused polling and focus-group synthesis, not a behavioral trace or causal polarization study.
+
+The [Rockefeller Foundation/Focaldata global cooperation record](records/comparative-rockefeller-focaldata-global-cooperation-2026-security-leadership-aid.json) adds a geopolitical-legitimacy layer: worsening world perceptions coexist with demand for cooperation, especially when it delivers security, aid, national benefit and visible results. The open arrow is from conflict, economic pessimism and geopolitical leadership gaps through security priorities, aid framing, institutional trust and coalition design to cooperation, legitimacy and public consent. This is a 34-country survey with country medians and an information treatment, not observed foreign-policy behavior or causal geopolitical change.
+
+The [Potential Energy Fixing Climate Communications record](records/comparative-potential-energy-climate-communications-2026-cost-health-energy-independence.json) adds a climate-consent layer: climate support is widened when communication connects pollution and climate impacts to health, household cost, fairness, protection and energy independence, while abstract net-zero and restriction language can narrow support. The open arrow is from climate exposure and household pressure through narrative framing, perceived solvability, ideological identity and policy consent to implementation legitimacy and durable action. This combines surveys, focus groups and randomized message tests, not durable behavior or climate-policy outcomes.
+
+The [Meta-Gallup Global State of Social Connections record](records/comparative-meta-gallup-global-social-connections-2023-142-countries-loneliness.json) adds a social-connection layer: most people feel connected, but loneliness is substantial, country variation is wide, young adults report more loneliness than older adults, and connection does not guarantee relief from loneliness. The open arrow is from household, community and social-contact conditions through emotional connection, loneliness, health, social capital and public-system support to resilience and belonging. This is representative 2022-2023 survey evidence published in 2023, not current monitoring or causal health evidence.
+
+The [4Culture King County Culture and Communities record](records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json) adds a cultural-infrastructure layer: participation is treated as everyday social infrastructure for connection, identity, learning, wellbeing and community quality of life, but cost, time, caregiving and accessibility constrain who participates deeply. The open arrow is from household room and leisure time through cultural access, welcome, representation and participation to belonging, health, civic connection and public investment. This is a regional program-baseline survey with self-reported outcomes, not a national census or causal impact study.
+
+The broader signal is that climate policy is becoming a social-contract question: decarbonization and adaptation require protection against income, health, work, and lifecycle risks, while coverage gaps can make both climate shocks and policy transitions unequal. The source is an ILO-AFD literature review whose underlying analysis was conducted in 2022 and not updated, not a current coverage census, household panel, causal evaluation, or proof that contributory insurance reaches excluded workers. The open arrow is from climate exposure and policy through social protection, work transitions, household room, inequality, legitimacy, and realized resilience.
+
+The [OECD Slovak Republic well-being record](records/comparative-oecd-slovak-wellbeing-2026-policy-coherence-dashboard.json) adds a measurement-to-governance layer: governments are treating well-being dashboards as a way to connect material conditions, quality of life, relationships, sustainability, inequality and future resources to policy appraisal, strategy and budgeting. Slovakia’s mixed profile—improved selected material and life-satisfaction indicators alongside education, housing, poverty, debt and trust concerns—shows why aggregate progress cannot stand in for distribution or institutional legitimacy. The open arrow is from measurement choice and data visibility through cross-sector trade-offs, budget authority and accountability to realized well-being; the report does not establish that dashboard adoption causes policy change.
+
+The [OECD Slovak trust record](records/comparative-oecd-slovak-trust-2026-public-services-voice-ai.json) adds the legitimacy check to the measurement story: national-government trust fell to 23% in 2025, political voice to 17%, perceived evidence use to 28%, intergenerational balancing to 24%, and data-use legitimacy to 38%. Confidence in government AI safeguards is also low. The open arrow is from service experience and decision visibility through fairness, voice, evidence, privacy and human oversight to trust and policy acceptance. This is representative survey and cross-country association evidence, not causal political behavior or an administrative service audit.
+
+The [UNESCO Voices of Courage record](records/comparative-unesco-voices-courage-2026-women-culture-emergencies-resilience.json) adds a gendered cultural-emergency layer: 69% report economic instability or livelihood loss, 59% trauma or burnout, 35% emergency displacement, and only 37% continued cultural work fully or significantly; yet women-led cultural work sustains heritage, solidarity and recovery. The open arrow is from conflict, disaster or health emergency through safety, care, funding, mobility and decision power to cultural continuity, community resilience and recovery legitimacy. This is a global survey with testimonies and case studies, not a complete crisis census or causal resilience study.
+
+The [WHO Economics of Health for All record](records/comparative-who-economics-health-for-all-2026-cross-sector-policy-finance.json) adds a health-as-economic-system layer: health is linked to tax, trade, industry, labor, unpaid care, commercial practices, social protection, finance, climate and public participation. The open arrow is from economic rules and investment through household costs, worker conditions, service access, data and voice to health equity and prosperity. This is a draft global strategy and policy framework, not an implementation evaluation or causal health estimate.
+
+The [Pew American Dream record](records/comparative-pew-latinos-american-dream-2026-mobility-identity-household-security.json) adds a cultural-economic mobility layer: 57% of Latino adults say their living standard is better than their parents’, 53% expect their children to be better off, yet 18% say the dream is out of reach and 27% say it does not exist. The open arrow is from household security, work, homeownership, family identity and opportunity through perceived fairness and structural constraint to intergenerational hope, consumer aspiration and political legitimacy. This is representative survey and open-ended coding evidence, not realized mobility or wealth data.
+
+The [Pew Latino identity record](records/comparative-pew-latino-identity-2026-belonging-discrimination-generation-politics.json) adds a belonging-and-opportunity layer: 61% say Hispanic identity is extremely or very important to how they see themselves, while 33% say it hurts their ability to get ahead and 34% report recent identity-related discrimination. Identity centrality, self-labels and linked fate shift across immigrant generations, but shared exposure does not automatically become collective responsibility or action. The open arrow is from language, identity and institutional treatment through belonging, perceived opportunity, safety and linked fate to participation and legitimacy. This is representative survey evidence, not an administrative discrimination census or causal political-behavior study.
+
+The [Pew Muslim Americans record](records/comparative-pew-muslim-americans-2026-25-years-911-identity-discrimination-political-visibility.json) adds a religion-and-civic-visibility layer: population, mosque infrastructure and political representation have expanded since 9/11, yet 59% of Muslim Americans report a lot of discrimination and 59% say news coverage is often unfair, while public views of Muslims and Islam remain sharply polarized. The open arrow is from demographic visibility and post-9/11 memory through media framing, discrimination, institutional representation and political sorting to belonging, civic voice and legitimacy. This is a mixed survey, administrative-count and secondary-estimate essay, not a complete discrimination census or causal time series.
+
+The [Swedish SOU 2026:53 record](records/comparative-sweden-sou-2026-53-parallel-social-structures-integration-exclusion-trust.json) adds a social-exclusion systems layer: the inquiry links segregation, discrimination, institutional distrust, informal routes for housing, dispute resolution, information or finance, and rights constraints, while insisting that cultural diversity and community organisation are not themselves the problem. The open arrow is from socioeconomic and spatial exclusion through trust, institutional reach, informal systems, gendered power and rights access to integration, participation and social resilience. This is a government inquiry and policy framework, not a national prevalence census or causal evaluation.
+
+The [TASC Ireland AI and Inequality record](records/comparative-tasc-ireland-ai-inequality-2026-work-distribution-voice.json) adds a distributional-AI layer: 63% of Irish jobs are estimated to be exposed to AI, while risk and benefit are distributed through occupational complementarity, gender, skills, algorithmic management, governance, ownership and global supply chains. The open arrow is from AI adoption and infrastructure through task change, bargaining power, digital access, discrimination, worker voice and environmental externalisation to wages, time, inclusion and democratic legitimacy. This is an independent think-tank synthesis using secondary evidence, not a worker panel or causal forecast.
+
+The [TASC State We Are In 2026 record](records/comparative-tasc-ireland-inequality-2026-household-living-standards-housing.json) adds a material-baseline layer: Ireland’s tax-and-transfer system compresses market-income inequality, but real median household disposable income barely rose from 2022 to 2025, renters and no-work households face concentrated risk, and emergency accommodation has expanded sharply. The open arrow is from wages, ownership, housing, work, transfers and essential services through household purchasing power, deprivation, time and security to political legitimacy and room for future transitions. This is an independent think-tank synthesis of official and secondary evidence, not a new panel or causal evaluation.
+
+The [CDC Youth Health in Focus 2025 record](records/us-cdc-youth-health-in-focus-2025.json) adds a US youth-health layer: mental-health and dietary indicators improved from 2023 to 2025, but only 24% of students got at least eight hours of sleep, activity and daily physical education did not improve, and risky digital behavior remains common. The open arrow is from school, family, food, activity, sleep and digital environments through health, attention, safety and social connection to longer-term wellbeing and institutional response. This is national YRBS evidence summarized by CDC, not a causal intervention evaluation.
+
+The [TruStage What Matters Now 2026 record](records/us-trustage-what-matters-now-2026-financial-reality-consumer-inclusion.json) adds a US consumer-reality layer: 46% say salary is not enough and a hustle is needed, while financial worry is uneven by race, generation and neurodivergence. Family and friends, mobile/social discovery, app experience and community relevance shape how financial institutions are encountered and judged. The open arrow is from income pressure and identity through household security, digital access, cultural relevance and institutional choice to consumer behavior and legitimacy. This is commissioned Ipsos/TruStage research, not objective financial data or a causal evaluation.
+
+The [Social Connection in America 2026 record](records/us-rand-connection-institute-social-connection-america-2026-weak-ties-time-community.json) adds a US social-infrastructure layer: about four in ten adults report moderate or severe loneliness, nearly 70% see loved ones no more than once or twice a month, and time is the leading reported barrier. Weak club, volunteering, religious and cross-background participation coexists with skepticism that virtual contact is an in-person substitute. The open arrow is from time, distance, institutions and digital mediation through social connection, belonging, health and civic capacity to community resilience. This is a public summary of a new RAND–Connection Institute tracking initiative, not a causal evaluation.
+
+The [Equimundo State of American Men 2026 record](records/us-equimundo-state-american-men-2026-economic-insecurity-ai-manhood-democracy.json) adds a US young-men culture layer: 74% say financial security is harder for their generation than their fathers’ generation, while 78% use AI, 35% have used prediction markets, restrictive “Man Box” attitudes have risen, and democratic commitment coexists with deep institutional distrust. The open arrow is from economic mobility, digital influence and community space through masculinity, purpose, social connection and institutional fairness to political receptivity and legitimacy. This is a mixed-method YouGov/Equimundo/YMRP study, not a causal or population-wide account of young men.
+
+The [Annenberg Civics Knowledge 2026 record](records/us-annenberg-civics-knowledge-2026-constitutional-literacy-rights.json) adds a civic-literacy layer: 65% can name all three branches, 9% can name all five First Amendment protections, and knowledge is stronger for some constitutional procedures than for the full rights system. The open arrow is from education, communication and political salience through constitutional literacy, rights recognition, institutional judgment and democratic capacity. This is a nationally representative knowledge survey, not a measure of legal competence, political behavior, or democratic performance.
+
+The [Annenberg Data Centers 2026 record](records/us-annenberg-data-centers-2026-local-opposition-ai-regulation-community-legitimacy.json) adds an AI-infrastructure legitimacy layer: local data-center opposition rose to 61% from 49% in spring, crossing party lines and peaking among adults under 30, even as broad AI expectations and regulatory demand stayed stable. The open arrow is from AI adoption and infrastructure through privacy, jobs, energy, land use and neighborhood exposure to local legitimacy and public regulation. This is public-opinion evidence, not an assessment of realized data-center effects or causal opposition.
+
+The [Annenberg Heat and Health 2026 record](records/us-annenberg-heat-health-2026-climate-cost-routines-cooling-access.json) adds a climate-as-household-life layer: 76% report extreme heat affecting daily activities, 82% report heat affecting electricity bills, 56% report impacts on sleep and exercise, and 65% do not know where to find a cooling center. The open arrow is from climate exposure through energy costs, routines, health knowledge, unequal adaptation and public cooling capacity to household room and wellbeing. This is nationally representative public-health survey evidence, not clinical outcome or adaptation-effectiveness data.
+
+The [TFAH Underfunded and Under Strain 2026 record](records/us-tfah-public-health-system-2026-underfunding-workforce-capacity.json) adds a public-health-capacity layer: governmental public health received about 3% of national health expenditures in 2024, CDC staffing fell roughly 28% from FY2024 to May 2026, and workforce, grant administration, technical assistance and data systems determine whether appropriations become protection. The open arrow is from fiscal design and institutional continuity through public-health capacity, prevention, emergency response and community security to household health and economic resilience. This is nonprofit policy analysis, not a causal national health evaluation.
+
+The [PH WINS Pulse Check 2026 record](records/us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics.json) adds a worker-experience layer to that system story: 35% report worsening burnout, 47% say outside politics negatively affect their work unit, 41% say their budget is worse than in 2024, and 31% of workers age 35 and younger plan to leave within a year. The open arrow is from funding uncertainty and political conditions through worker well-being, advancement, retention and institutional continuity to public-health delivery. This is a follow-up workforce pulse, not a census, causal retention evaluation, or community health outcome measure.
+
+The [Nature Human Behaviour political-health polarization record](records/us-nature-political-health-polarization-2026-ideology-trust-care-mortality.json) adds a deeper public-judgment mechanism: political identity may be becoming a social determinant of health through trust in medical professionals and willingness to seek or follow care. Add Health shows no significant liberal–conservative biomarker or mortality gap before the 2010s but worse health and higher mortality among conservatives during the 2010s and by the 2020s; the authors treat contemporary medical-engagement differences as evidence consistent with, not proof of, the mechanism.
+
+The [JCHS State of the Nation’s Housing 2026 record](records/us-jchs-state-nations-housing-2026-affordability-household-formation-mobility.json) adds a material-life-course mechanism: high prices, payments, insurance, and rent burdens are suppressing household formation and mobility while narrowing entry into homeownership and shrinking the low-cost rental stock. The open arrow runs from housing-market structure through household timing, place attachment, intergenerational support, and public-capacity pressure; the report does not provide a same-household causal panel.
+
+The [Commonwealth Fund coverage-denials record](records/us-commonwealth-coverage-denials-2026-care-delay-debt-trust.json) adds a healthcare-institution mechanism: a coverage denial can turn a recommended service into a household choice among delay, out-of-pocket payment, debt, appeal labor, or non-use. Among privately insured working-age adults who experienced denials, the report documents reported effects on care timing, health worsening, household costs, debt, anxiety, remedy delays, and trust. These are conditional survey and focus-group findings, not adjudicated causal outcomes.
+
+The [Belonging Barometer 2026 record](records/us-american-immigration-council-belonging-barometer-2026-local-agency-safety.json) adds a civic-life distinction that matters for the wider trend map: people can feel psychologically safe, socially connected, and locally rooted while still feeling unable to influence local decisions. Stronger belonging is associated with age, income, and local-news use, but the study does not establish that those factors cause belonging or translate into institutional power.
+
+The [Federal Reserve Worker Perspectives 2026 record](records/us-fed-worker-perspectives-2026-survival-mode-job-quality-ai-screening.json) adds the lived mechanism behind labor-market headline resilience: cost pressure can turn employment from a route to mobility into a survival anchor. Participants describe staying in imperfect jobs, using side work to bridge costs, treating flexibility and advancement as aspirational, and encountering AI-mediated screening as a new gate. The evidence is qualitative and bounded to LMI focus groups, but it explains how household room, time, confidence, and job choice interact.
+
+The [Berkeley Labor Center security guard record](records/us-berkeley-security-guard-workforce-2026-job-quality-public-safety.json) adds a public-safety infrastructure mechanism: a workforce of roughly 1.3 million guards is asked to de-escalate conflict, manage emergencies, and respond to mental-health crises, yet median pay is $18.70 per hour, annual turnover reached 89%, and training standards are uneven. The report’s central connection is that job quality is also service capacity—churn and weak preparation can reduce the reliability of the safety layer the public experiences.
+
+The [RAND State of the American Teacher 2026 record](records/us-rand-state-american-teacher-2026-wellbeing-retention-side-work.json) adds an education-capacity mechanism: nationally representative teacher data show well-being pressure relative to similar workers, 18% intending to leave, and 30% holding outside jobs averaging 13 hours a week. The open arrow runs from working conditions and financial/time pressure through retention and staffing continuity to school learning and student-support capacity; the source does not estimate those downstream outcomes causally.
+
+The [Luminate 2026 Midyear record](records/us-luminate-midyear-2026-music-tv-film-consumption-diversity-ai.json) adds a commercial-cultural mechanism: entertainment consumption is not converging on one digital model. U.S. streaming expands alongside Spanish-language discovery, genre diversification, physical CDs, nostalgia, library viewing, younger theater use, fandom, and creator-side AI experimentation. The signal is that culture is becoming more hybrid and cross-border in consumption while platform economics remain concentrated.
+
+The [ReFED American Households 2026 record](records/us-refed-households-2026-grocery-price-behavior-food-waste.json) adds a food-as-household-routine mechanism: price pressure becomes deal seeking, brand switching, smaller or bulk purchases, meal planning, freezing, and leftover management. Lower-income households face the same nominal grocery increase with far less room to absorb it, and fewer reported behavior changes despite greater potential benefit. The source does not equate lower waste with food security or improved health.
+
+The [Purdue mobile-dependent households record](records/us-purdue-mobile-dependent-households-2026-digital-participation.json) adds a digital-infrastructure mechanism: the United States can reduce outright non-use while increasing a narrower form of participation through cellular data and smartphones alone. The open arrow runs from affordability, fixed-network quality, device constraints, disability, housing, and place through the practical ability to use work, education, health, commerce, and civic systems. The study is tract-level and cross-sectional, so it does not estimate individual service failure or causality.
+
+The [Financial Health Pulse 2026 record](records/us-finhealth-pulse-2026-financial-vulnerability-insurance-confidence.json) adds a household-protection mechanism: financial vulnerability is reversing while insurance confidence, bill payment, debt manageability, planning, and essential-cost confidence weaken together. The open arrow runs from prices, debt, income, insurance design, and public-policy conditions through household room, risk absorption, and trust in protection. The report is a recurring survey-based trend measure, not a causal panel, claims audit, or default series.
+
+The [Climate Central heat-illness record](records/us-climate-central-heat-illness-er-visits-2026-climate-health-burden.json) adds a climate-to-care mechanism: warming is no longer only an exposure or perception signal but a modeled contributor to emergency-care demand. Climate change accounted for 27% of the US warm-season heat-related emergency-department visit rate in 2018–2025, with southern/western concentration and extreme-event spikes. The open arrow runs through heat exposure, illness, hospital capacity, household cost, insurance, and public-health response; the attribution is modeled and not an individual causal series.
+
+The [America’s Health Rankings 2026 Senior Report record](records/us-ahr-senior-report-2026-aging-care-workforce-food-behavioral-health.json) adds an aging-capacity mechanism: demographic growth is being met by some care-workforce expansion, but capacity is geographically uneven while food insecurity and several behavioral-health risks worsen among older adults. The open arrow runs from population age structure through family and paid care, food support, clinical access, household room, and public-service demand. The report combines indicators with different denominators and does not establish causality or care adequacy.
+
+The [Freedom House United States 2026 record](records/us-freedom-house-2026-institutional-functioning-rights-oversight.json) adds an institutional-legitimacy mechanism: formal democratic protections and electoral competition coexist with assessed declines in legislative functioning, executive-legislative balance, anticorruption safeguards, and political-expression protections. The open arrow runs from institutional conflict and oversight capacity through public trust, civic voice, media space, policy continuity, and state legitimacy. The source is an expert-coded assessment with cited events, not a causal political-behavior series.
+
+The [CBO Budget and Economic Outlook 2026–2036 record](records/us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth.json) adds a macro-geopolitical mechanism: domestic policy is transmitted through tariffs, supply chains, immigration, aging, AI capital formation, labor supply, deficits, inflation, and the dollar. The open arrow runs from policy choice and external exposure through firm adjustment, prices, employment, household room, and political legitimacy. The source is a baseline forecast, so realized incidence and causal effects remain open.
+
+The [GAO public-library facilities record](records/us-gao-public-library-facilities-2026-deferred-maintenance-civic-infrastructure.json) adds a material civic-infrastructure mechanism: libraries are simultaneously cultural spaces, technology access points, community-program venues, voting sites, and emergency centers, yet their physical systems and accessibility are often undermaintained. The open arrow runs from capital funding and building condition through usable public space, service continuity, inclusion, civic connection, and trust. The report does not estimate user-level or civic-behavior effects.
+
+The [NLC Municipal Infrastructure Conditions 2026 record](records/us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility.json) adds a local-state-capacity mechanism: municipal leaders are directing scarce capital toward water, sewer, stormwater, roads, and treatment while funding availability, staff capacity, local cash, and federal grant access determine what can move. The open arrow runs from fiscal and administrative capacity through infrastructure reliability, household safety, economic opportunity, and local legitimacy. The source is a small self-reported municipal survey, not a national condition audit.
+
+The [Duke Cost of Keeping Cool record](records/us-duke-energy-affordability-extreme-heat-2026-cooling-access.json) adds an energy-to-safety mechanism: electricity supports food, medical-device charging, heating, and cooling; rising temperatures and electricity costs compound existing energy insecurity; and support programs may under-recognize cooling access. The open arrow runs from county-level modeled energy burden and heat exposure through household tradeoffs, health protection, and public-system targeting. The source is a report synthesis, not a household-level or causal outcome study.
+
+The [EIA 2024 RECS housing-characteristics record](records/us-eia-recs-2024-home-energy-devices-routines-2026.json) adds a home-as-interface mechanism: streaming devices and smart speakers are expanding while legacy media peripherals decline; lighting is shifting toward LEDs; and housing form, appliances, cooking, and conditioned space remain regionally differentiated. The open arrow runs from housing and device infrastructure through energy demand, media attention, domestic routines, and household room. The release does not establish bills, time use, attention, privacy, or causal savings.
+
+The [Civic Life in America 2036 record](records/us-civic-futures-civic-life-2036-ai-trust-connection.json) adds a civic-imagination mechanism: participation-trust gaps, AI-mediated information and relationships, weak social connection, economic precarity, and polarization are translated into four possible futures—convenience without belonging, institutional hollowing, guarded rule-bound protection, and AI-mediated representation. The open arrow runs from present conditions through civic imagination, institutional design, unequal agency, and public participation. The source is a scenario synthesis, not evidence that any future is probable.
+
+The [Gallup influencer-audiences record](records/us-gallup-influencer-audiences-democratic-norms-2026.json) adds a media-to-political-judgment mechanism: audiences of political podcasters and influencers diverge from party peers on protest rights, voting efficacy, and leader accountability. The open arrow runs from creator-mediated attention through norm interpretation, institutional skepticism, and possible political action. The source does not establish whether creators cause these differences or whether judgments become behavior.
+
+The [Gallup election-concerns record](records/us-gallup-election-concerns-democratic-legitimacy-2026.json) adds an election-legitimacy mechanism: concerns about political pressure, ballot security, intimidation, political finance, gerrymandering, and illegal executive action extend beyond election administration into the perceived fairness and accountability of democratic institutions. The open arrow runs from information and threat interpretation through confidence, vigilance, participation, and acceptance of outcomes. The source measures perceptions, not verified risk or realized behavior.
+
+The [MPI migration-diplomacy record](records/us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage.json) adds a migration-as-statecraft mechanism: conflict, displacement, smuggling, aid cuts, visas, sanctions, tariffs, labor pathways, and bilateral bargaining are reshaping how states manage mobility and security. The open arrow runs from geopolitical disruption through migration governance, partner leverage, labor demand, humanitarian capacity, and domestic legitimacy. The source is a comparative policy synthesis, not proof of a particular U.S. causal effect.
+
+The [Business Economics immigration-policy record](records/us-business-economics-immigration-policy-labor-supply-2026.json) adds a policy-to-labor mechanism: reduced net migration can narrow the employment growth compatible with stable unemployment while immigrant-intensive industries, education composition, and fiscal incidence vary across sectors and government levels. The open arrow runs from immigration policy through labor supply, firm capacity, public finance, wages/prices, and household room. The source's public abstract does not establish effect sizes or causal outcomes.
+
+The [SAMHSA 2025 NSDUH record](records/us-samhsa-nsduh-2025-behavioral-health-youth-adult-treatment-2026.json) adds a behavioral-health transition mechanism: selected adolescent and young-adult indicators improve or hold steady while adult mental-health prevalence remains large, treatment receipt is lower among young adults with serious mental illness, and substance use has broad population reach. The open arrow runs from changing youth behavior and adult burden through care access, household time and cost, work capacity, and public-system demand. The survey does not establish the causes of the improvement, individual treatment need, or treatment quality.
+
+The [UF-UCL arts-engagement record](records/us-ufl-ucl-arts-engagement-time-use-2003-2023-2026.json) adds a cultural-health transition mechanism: arts participation remains low but stable while creative activity shifts toward home and solitary settings, with only partial rebound in public/social contexts after the pandemic. The open arrow runs from cultural access and time allocation through shared space, social connection, identity, and possible health support. The study does not establish annual participation, unequal access mechanisms, or causal health effects.
+
+The [Pew teen summer-employment record](records/us-pew-teen-summer-employment-1948-2026-work-socialization.json) adds a youth-work transition mechanism: summer employment has partly recovered but remains below historical norms, with age and race/ethnicity gaps and concentration in hospitality, retail, and logistics. The open arrow runs from access to first jobs through work socialization, household contribution, time allocation, sector exposure, and later opportunity. The BLS-based comparison does not establish causes, job quality, school tradeoffs, or long-run developmental effects.
+
+The [NCES Condition of Education 2025 record](records/us-nces-condition-education-2025-enrollment-learning-pathways.json) adds an education-capacity transition mechanism: public K-12 enrollment is lower across many states, at-home instruction remains elevated, undergraduate and postbaccalaureate enrollment diverge, achievement indicators are weaker than in 2019, and attainment remains associated with employment and earnings. The open arrow runs from demographic and delivery change through household time/cost, institutional capacity, learning, credentials, work access, and intergenerational opportunity. The indicator synthesis does not establish causes or causal returns to education.
+
+The [FHWA Our Nation's Highways 2026 record](records/us-fhwa-our-nations-highways-2026-mobility-dependency.json) adds a mobility-infrastructure transition mechanism: motor vehicles dominate trips, roads organize commuting, family/personal, and social/recreational activity, arterials carry disproportionate VMT, local roads carry disproportionate access, and trucks move most domestic freight by weight. The open arrow runs from built mobility dependence through household time/cost, work access, social participation, energy exposure, and supply-chain capacity. The infrastructure description does not establish household burdens, safety, emissions, or unequal access effects.
+
+The [DOE National Transmission Needs Study record](records/us-doe-national-transmission-needs-2026-ai-manufacturing-electrification.json) adds a grid-capacity transition mechanism: AI data centers, manufacturing, electrification, storms, congestion, and interregional reliability are converting transmission into a national growth and affordability planning problem. The open arrow runs from technology and industrial demand through interconnection, congestion, public investment, rate allocation, land/use governance, and household service. The draft does not establish a project, household rate effect, reliability gain, or realized consumer benefit.
+
+The [National Academies drought-assessment record](records/us-national-academies-drought-assessment-nonstationarity-2026.json) adds a climate-governance transition mechanism: more frequent and longer-lasting drought, aridification, groundwater decline, wildfire, and flash drought are making historical baselines less reliable. The open arrow runs from changing hazard conditions through indicators, impact data, early warning, water management, infrastructure, public authority, and long-term adaptation. The consensus report does not establish a regional loss estimate or prove that its framework produces effective or equitable outcomes.
+
+The [Knight-NORC public-library record](records/us-knight-norc-public-library-value-services-2026.json) adds a shared-institution transition mechanism: libraries retain broad perceived legitimacy because they combine information, internet and technology access, classes, job and public-service navigation, and space outside home or work. The open arrow runs from common institutional provision through access, social infrastructure, local legitimacy, and perceived community loss under budget cuts. The survey does not establish usage, service quality, fiscal return, or causal trust.
+
+The [AARP/National Alliance for Caregiving sandwich-generation record](records/us-aarp-sandwich-generation-caregiving-2026-work-family-compression.json) adds a life-course care transition mechanism: nearly 17 million caregivers are raising children while caring for an adult, and similar weekly hours can conceal greater medical-task and daily-care intensity. The open arrow runs from overlapping family obligations through compressed time, work disruption, physical strain, financial pressure, clinical recognition, and demand for formal support. The survey does not establish causality, adequacy of care, or durable household trajectories.
+
+The [Pew 250th-anniversary national-mood record](records/us-pew-national-mood-250th-2026-future-expectations-polarization.json) adds a legitimacy-and-future-imagination transition mechanism: Americans report a sour present and concern about political division, yet selected expectations for 2050 have improved since 2023, with party control and age organizing the interpretation. The open arrow runs from material and institutional experience through national mood, identity, future narratives, political judgment, and possible legitimacy or mobilization. The survey does not establish causes, behavior, institutional performance, or future outcomes.
+
+The [AAM Museums & Public Opinion 2026 record](records/us-aam-museums-public-opinion-2026-cultural-civic-economic-legitimacy.json) adds a cultural-institution transition mechanism: museums retain broad perceived value as educational, economic, informational, and civic assets, with support for public funding and limited support for censorship. The open arrow runs from cultural provision through information trust, identity, community legitimacy, elected-official incentives, public funding, and participation. The public summary does not establish access, usage, learning, local economic effects, or causal trust.
+
+The [UMass corruption and economic-attribution record](records/us-umass-corruption-public-power-2026-partisan-double-standard-costs.json) adds a public-power transition mechanism: people broadly agree that corruption exists and that certain abuses are corrupt, but partisan identity redirects blame across the presidency, bureaucracy, Congress, and other institutions while household price perceptions feed national-direction judgments. The open arrow runs from public-power conduct and material pressure through attribution, trust, partisan identity, accountability demand, and possible institutional remedy. The poll does not establish actual corruption, causal price responsibility, enforcement, or political behavior.
+
+The [Pew U.S. role in the world record](records/us-pew-role-world-2026-partisan-global-legitimacy-intervention.json) adds a domestic-opinion-to-geopolitics transition mechanism: partisan publics disagree over whether U.S. power is respected, peaceful, attentive to other countries, or strengthening, while 83% say the U.S. interferes in other countries' affairs. The open arrow runs from domestic identity and administration context through perceived global legitimacy, intervention judgment, superpower narratives, and potential support for external action. The survey does not establish foreign-policy conduct, partner response, or geopolitical outcome.
+
+The [Pew Hispanic identity and counting record](records/us-pew-hispanic-identity-counting-2026-population-race-ancestry.json) adds a cultural-demographic transition mechanism: population growth is filtered through Census categories, racial self-identification, ancestry, generation, Afro-Latino identity, intermarriage, and institutional coding. The open arrow runs from demographic change through classification, identity, family formation, cultural continuity, consumer and electoral interpretation, and public-system recognition. The synthesis does not establish a unified population experience, market, electorate, or assimilation path.
+
+The [Pew data-center public-opinion record](records/us-pew-data-centers-2026-local-legitimacy-energy-costs-community-consent.json) adds an AI-infrastructure transition mechanism: growing awareness is accompanied by more negative perceptions of environmental, home-energy, nearby quality-of-life, jobs, and tax effects, with broad discomfort toward local siting. The open arrow runs from AI and electricity demand through infrastructure buildout, rate and land-use exposure, local information, community consent, political oversight, and public legitimacy. The survey does not establish realized impacts, causal opinion change, or durable consent.
+
+The [Pew supplements record](records/us-pew-supplements-2026-wellness-consumer-health-belief-market.json) adds a consumer-health transition mechanism: supplement use is widespread, but product mix and perceived importance vary by age, income, gender, race/ethnicity, education, and wellness culture. The open arrow runs from health concern and information through product choice, household spending, self-management, identity, commercial influence, and clinical or public-health systems. The survey does not establish efficacy, safety, medical need, spending burden, or care substitution.
+
+The [Pew 9/11 memory and generational-transmission record](records/us-pew-911-memory-generational-transmission-2026-national-trauma-education.json) adds a cultural-memory transition mechanism: vivid direct recollection persists while younger adults increasingly receive national trauma through school, family, friends, media, and inherited narratives. The open arrow runs from historical shock through memory, education, identity, security meaning, intergenerational transmission, and possible political interpretation. The survey does not establish memory accuracy, trauma, shared meaning, or causal political effects.
+
+The [Pew working-class identity record](records/us-pew-working-class-identity-2026-politics-income-occupation.json) adds a class-language transition mechanism: working-class identity reaches beyond low income or blue-collar work, including many financially comfortable and non-blue-collar adults, while party differences remain visible inside the same economic categories. The open arrow runs from work and material position through status language, group belonging, political representation, attribution, and possible collective action. The source does not define class, establish hardship, or show that identity produces policy preference or behavior.
+
+The [Gallup employee data-use record](records/us-gallup-employee-data-trust-2026-workplace-monitoring-voice.json) adds a workplace-control transition mechanism: employees distinguish between data used to support development or team effectiveness and data that may shape evaluation, staffing, or scheduling, while communication about monitoring is associated with both more trust and more concern. The open arrow runs from digital measurement through transparency, managerial mediation, worker voice, perceived fairness, engagement, and bargaining power. The publication does not establish actual surveillance, causal effects, or durable worker action.
+
+The [Gallup-Pivotal women's health record](records/us-gallup-pivotal-womens-health-2026-care-work-civic-participation.json) adds a care-to-capacity transition mechanism: dismissal, misdiagnosis, diagnostic delay, and treatment barriers are linked in reported experience with constrained work, family care, relationships, and civic participation, while menopause concentrates the pattern at a life stage. The open arrow runs from health-system encounter through recognition, diagnostic time, usable care, role capacity, and public participation. The survey does not establish clinical causality, provider intent, employer accommodation, or durable economic and civic outcomes.
+
+The [KFF women's health affordability record](records/us-kff-womens-health-affordability-2026-cost-care-tradeoffs.json) adds a care-cost transition mechanism: even insured women report delaying needed care, skipping recommended services, altering prescription use, and reducing spending on food, clothing, or electricity to cover healthcare. The open arrow runs from coverage and price exposure through treatment choice, medication adherence, household room, and unequal health capacity. The survey does not establish clinical harm, causal insurance effects, or total household budgets.
+
+The [Pew woman-president skepticism record](records/us-pew-woman-president-skepticism-2026-gender-representation-legitimacy.json) adds a gender-representation transition mechanism: perceived likelihood of a woman president has weakened while most people frame presidential gender as irrelevant, creating a gap between symbolic importance, institutional expectation, and partisan meaning. The open arrow runs from representation and recent political experience through hope, skepticism, identity, legitimacy, and possible political action. The survey does not establish electoral behavior, candidate viability, or causal gender bias.
+
+The [Pew South Korea-U.S. relationship record](records/comparative-pew-south-korea-us-relationship-2026-alliance-legitimacy-dependence.json) adds an external-legitimacy transition mechanism: South Korean favorability toward the U.S., perceived reciprocity, reliability, and peace contribution have weakened even while the U.S. remains the most important ally and North Korea remains the central threat. The open arrow runs from U.S. policy and dependence through partner voice, perceived respect, trade and security judgments, alliance legitimacy, and strategic room. The source does not establish government action, military effectiveness, or causal responsibility for opinion change.
+
+The [Pew race and social-media health-information record](records/us-pew-health-information-race-social-media-2026.json) adds a mediated-care transition mechanism: racial and ethnic groups differ in how often they use social media for health information, how accurate they perceive it to be, which source qualities they value, and whether influencers help them ask questions they do not want to ask a doctor. The open arrow runs from access, cultural fit, and clinical communication through platform discovery, source authority, disclosure, and possible care decisions. The source does not establish misinformation exposure, clinical substitution, algorithmic causality, or health outcomes.
+
+The [Pew AI chatbots for health record](records/us-pew-ai-chatbots-health-2026-navigation-privacy-mental-health.json) adds an AI-mediated care transition mechanism: chatbot use combines speed, low cost, symptom interpretation, lab and diagnosis translation, sensitive questions, and care-seeking decisions, while users find it helpful but remain divided about sharing health data and the public is more skeptical of chatbots for loneliness or depression support. The open arrow runs from cost, access, and information friction through AI navigation, privacy, clinical handoff, emotional support, and care legitimacy. The source does not establish accuracy, clinical outcomes, privacy protection, or substitution for professionals.
+
+The [Pew AI concern and young-adult jobs record](records/us-pew-ai-concern-young-adults-jobs-2026.json) adds an AI-legitimacy transition mechanism: concern has become the dominant public orientation, young adults have moved sharply away from early excitement, and job-loss expectations have spread across age groups. The open arrow runs from visible technological change through work security, generational expectation, creativity and connection, public trust, and the legitimacy of adoption. The source does not establish actual employment effects, AI exposure, or why concern is rising.
+
+The [Urban families, core cities and suburbs record](records/us-urban-families-core-suburbs-2026.json) adds a family-mobility transition mechanism: fertility and child retention are related but distinct processes, and their local correlates differ between core cities and suburbs. The open arrow runs from housing, child care, schools, amenities and commute patterns through family formation, child retention, migration, labor-market access and metropolitan fiscal capacity. The analysis does not establish causal effects, individual preferences, or that one geography is universally family-friendly.
+
+The [CSSP family care arrangements record](records/us-cssp-family-care-arrangements-2026.json) adds a care-portfolio transition mechanism: families do not simply choose one child-care product but combine and sequence parental, formal and kin/community arrangements as costs, trust, culture, availability, leave and work conditions change. The open arrow runs from household resources and institutional design through care portfolios, parental time, work continuity, child development conditions and family policy legitimacy. The report does not establish national prevalence, causality, or child outcomes.
+
+The [Stanford CEO activism and consumer response record](records/us-stanford-ceo-activism-consumer-response-2026.json) adds a corporate-voice transition mechanism: public acceptance of executive speech depends on issue, generation, political identity and perceived corporate role, while reported recall and purchasing response make CEO speech part of market legitimacy. The open arrow runs from firm authority through public voice, issue alignment, consumer trust, identity, wallet response and corporate governance. The public summary does not establish transaction effects, employee behavior, or political outcomes.
+
+The [Capita-Book Harvest home literacy record](records/us-capita-book-harvest-home-literacy-2026.json) adds a household-cultural-capacity transition mechanism: parents value books, but cost, home-library supply, cultural fit, reading time and work strain shape whether children have sustained access to stories and literacy routines. The open arrow runs from household resources and time conditions through cultural exposure, identity, language, learning capacity and civic agency. The survey does not establish causal educational or democratic effects.
+
+The [UNU–UN Youth Office youth mental-health record](records/comparative-unu-un-youth-mental-health-2026-ecosystem-wellbeing.json) adds an ecosystem transition mechanism: mental health is being reframed from an individual clinical problem toward the conditions in which young people grow, learn, work, connect, and make meaning. The open arrow runs from housing, education, decent work, digital exposure, climate, peace, culture, sports, governance, and youth voice through care, connection, belonging, prevention, and possible resilience. The flagship is a global policy framework with cited evidence and reported partnership reach, not a new prevalence survey, causal model validation, or proof of equal effects across places.
+
+The [Google U.S. Future Report record](records/us-google-future-report-2026-teen-ai-learning-judgment.json) adds a digital-readiness transition mechanism: teen AI adoption is moving faster than shared school norms, while young people are developing their own practices of verification, questioning, creative use, and boundary-setting. The open arrow runs from AI access through learning support, productive friction, source judgment, trusted adults, school governance, family guidance, and youth agency. The sponsor-backed study does not establish behavioral-trace usage, causal learning gains, or that reported verification produces reliable outcomes.
+
+The [Freedom Forum First Amendment record](records/us-freedom-forum-first-amendment-2026-expression-knowledge-surveillance.json) adds a civic-expression transition mechanism: constitutional support remains high while practical knowledge, speech confidence, surveillance concerns, online verification and government-platform distrust complicate everyday participation. The open arrow runs from rights awareness and institutional conflict through perceived risk, self-censorship, media legitimacy, protest and political-group participation, and democratic capacity. The proprietary online-panel survey does not establish actual censorship, legal correctness, observed behavior or causal participation effects.
+
+The [Chamber Foundation Civic and Economic Literacy record](records/us-chamber-foundation-civic-economic-literacy-2026-teen-optimism-practice.json) adds an optimism-to-practice transition mechanism: teens and adults see political division and value listening, government understanding and local business, but civic and economic knowledge and perceived listening performance lag those ideals. The open arrow runs from concern and civic aspiration through knowledge, low-friction practice, workplace and community settings, agency, and possible participation. The Chamber Foundation/RXN publication does not establish causal effects, independent test validity, or durable civic behavior.
+
+The [Nuffield–Ada Lovelace youth digital-experience record](records/comparative-nuffield-ada-young-people-digital-lives-2026-platform-agency.json) adds a platform-agency transition mechanism: digital spaces can supply connection and support while their design, surveillance, commercial incentives and harmful content reduce control and shift safety work onto young people. The open arrow runs from digital infrastructure through access, algorithmic exposure, identity, privacy, self-safeguarding, mental-health pressure, AI/work concerns, regulation and youth voice. The peer-led qualitative research does not establish prevalence, causal harm, legal liability or intervention effects.
+The [IRENA–ILO renewable-energy jobs record](records/comparative-irena-ilo-renewable-energy-jobs-2025-inclusive-workforce-geopolitics.json) adds a transition-distribution route. Global renewable employment reached 16.6 million in 2024, but grew only 2.3% while installations hit a new peak. The conversion from capacity to work is being shaped by scale, automation, manufacturing overcapacity and grid bottlenecks—not by deployment volume alone. China’s integrated manufacturing and deployment position shows how energy transition gains can be geographically concentrated, while the report’s focus on women’s advancement, disability inclusion, training and domestic supply chains makes inclusion and local value capture part of energy policy rather than an afterthought. The source is a global employment estimate and policy synthesis, not worker-level data or a causal job-creation evaluation.
+
+The [UNDP Peoples' Climate Vote 2024 record](records/comparative-undp-peoples-climate-vote-2024-global-action-fairness-geopolitics.json) adds a public-legitimacy route to the energy and just-transition chain. Across 77 countries representing 87% of the world's population, 80% want stronger climate action, 72% want a faster move away from fossil fuels, 69% say climate change has affected major life decisions, and 86% want countries to set aside geopolitical differences and cooperate. The deeper signal is not simple consensus: support for direction coexists with unresolved questions about affordability, policy instruments, household exposure, adaptation responsibility, and delivery credibility. The source is cross-country attitude evidence, not respondent-level causal proof or a forecast of implementation.
+
+The [European Commission energy Eurobarometer record](records/comparative-european-commission-eurobarometer-energy-affordability-consumer-protection-2025.json) adds the household-control layer that the global climate-attitude evidence leaves open. In EU surveys, affordability is the dominant meaning attached to energy policy; leading preferences include helping energy-poor households, reducing consumption and self-production. Consumers also prioritize protection for vulnerable households, clearer bills, prevention of unfair practices, access to energy data and easier provider switching. The signal is that transition legitimacy is experienced through the everyday interface of bills, housing, providers and usable control—not only through climate targets. These are reported attitudes and behaviors, not meter data or causal savings estimates.
+
+The [European Commission Citizens' Energy Package record](records/comparative-european-commission-citizens-energy-package-2026-affordability-security-autonomy.json) adds the response architecture. The Commission combines household bill relief, energy-poverty protection, supplier switching and transparent contracts with EIB-backed clean-energy finance, grids, homegrown technology supply chains and strategic autonomy. The deeper pattern is that energy policy is no longer separable into climate, consumer, industrial and geopolitical lanes: the same infrastructure and financing decisions are being asked to lower costs, reduce external dependence, create skilled work and preserve political legitimacy. These are announced measures and policy rationales, not proof of delivery or savings.
+
+The [World Bank Women, Business and the Law 2026 record](records/comparative-world-bank-women-business-law-2026-law-policy-enforcement-gender-economy.json) adds a law-to-capability route that sharpens the gender and work themes. Across 190 economies, women have about two-thirds of men’s legal rights on average, while supportive policies and institutions score 47/100 and perceived enforcement 53/100; only 4% of women live in economies close to full legal equality. The important finding is the gap between formal permission and usable opportunity: safety, childcare, entrepreneurship, courts, administrative capacity, finance and enforcement determine whether rights become work, income, voice and economic agency. The report is a benchmark, not lived-experience or causal outcome data.
+
+The [World Bank W-LEX record](records/comparative-world-bank-wlex-womens-lived-experience-2026-law-practice-gender-perception.json) supplies the missing practice-level check. In a pilot of nationally representative samples in Bangladesh, Brazil and Nigeria, W-LEX combines first-person experience with perceptions of broader norms across 10 economic-opportunity topics. Brazil illustrates the gap: its formal legal-framework score is 82/100, yet only 31.8% of women versus 45.7% of men say women receive equal pay. The implication is not that perception alone proves discrimination; it is that legal benchmarks need lived-experience measures to show where rights are not being felt, understood or enforced in everyday economic life.
+
+The [World Bank gender-and-fiscal-policy record](records/comparative-world-bank-gender-fiscal-policy-2026-tax-budget-care-data.json) adds a state-finance mechanism beneath the law-to-practice gap. The pilot covers gender dimensions of tax systems in 81 economies and gender-responsive budgeting in 50. The report’s most useful move is to treat fiscal design as behavior-shaping infrastructure: joint filing, thresholds, eligibility rules, administrative burden and invisible care can alter women’s work incentives and benefit access, while sex-disaggregated data and gender-responsive budgets can make public spending more accountable. The source is a framework and pilot indicator set, not household incidence data or proof of reform effects.
+
+The [UK Social Connection Framework record](records/comparative-uk-dcms-social-connection-framework-2026-young-men-belonging-infrastructure.json) adds a youth-belonging route that links social life to institutional design. The framework treats loneliness among boys and young men as connected to stigma, school engagement, NEET status, lack of close friends, transport, clubs, trusted adults, libraries, sports, creative spaces and online harms. Its practical insight is that connection is a form of social infrastructure: people need places, time, safety and credible intermediaries to build belonging and re-enter education or work. The framework is guidance informed by mixed evidence and 58 youth responses, not a causal program evaluation.
+
+The [UK NatCen boys and young men loneliness record](records/comparative-uk-dcms-natcen-boys-young-men-loneliness-2026-risk-protective-factors.json) provides the empirical backbone. Across Understanding Society and MHCYP, chronic loneliness is a minority experience but intermittent loneliness is common: 36% reported feeling lonely some of the time in Understanding Society and 45% occasionally or some of the time in MHCYP. Among young men 16–21, chronic loneliness was 31% for those with no close friends versus roughly 9–11% for those with three or more; it was 9% among those meeting friends daily or several times a week versus 21% among those meeting less than weekly. The report explicitly warns these are associations, not causal effects, and notes that mental health, bullying and stigma may both shape reporting and underlying experience.
+
+The [UK Offload and Movember pilot evaluation record](records/comparative-uk-dcms-offload-movember-youth-connection-pilot-2026-evaluation.json) adds the intervention bridge. Across Wigan and Wakefield, two community-sport programmes engaged more than 1,400 participants: Movember Ahead of the Game targeted boys and young men aged 11–18 plus trusted adults, while Offload used a six-week model for NEET young men aged 16–24. Public summaries describe encouraging improvements in connection, wellbeing and aspirations, but do not provide enough accessible comparison, attrition or effect-size detail to claim causality. The durable theme is the delivery mechanism: sport can be an engagement hook, but scale requires trusted adults, local organizations, transport, safeguarding and pathways into education or work.
+
+The [UNDP Bosnia and Herzegovina SCORE 2025 record](records/comparative-undp-bosnia-social-cohesion-score-2025-local-resilience-system-pessimism.json) adds a comparative social-cohesion case. The assessment finds moderate cohesion, relatively functional everyday intergroup relations, strong local cooperation and a durable inclusive civic identity, yet widespread pessimism about political instability, economic uncertainty, social progress and the country’s direction. The deeper pattern is a coexistence–future-pessimism gap: local life can remain workable while system-level distrust reduces civic engagement and creates room for divisive narratives. This is a weighted national diagnostic, not a causal polarization model or proof that local resilience will persist.
+
+The [WHO social determinants of health equity record](records/comparative-who-social-determinants-health-equity-2025-life-chances-public-services.json) adds a structural-health route. WHO’s synthesis treats health inequity as an outcome of the distribution of housing, education, work, income, power, money and resources: life expectancy differs by as much as 33 years between the highest- and lowest-life-expectancy countries, while inequality, weak taxation, inadequate social protection, discrimination, climate change, conflict and displacement compound one another. The important atlas implication is that health, household room, labor conditions, public services and political capacity are one connected system. This is an evidence synthesis with heterogeneous denominators and policy recommendations, not respondent-level causal evidence.
+
+The [Deloitte Gen Z and Millennial Survey 2026 record](records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json) adds a generational work-and-life sequencing route. Across 44 countries and more than 22,500 respondents, housing affordability affects where many younger adults can work, financial pressure delays marriage, family, education or business decisions, and rapid promotion is less attractive than steady progress for many. At the same time, AI use is mainstream, purpose remains central, and digital fatigue and unsustainable workload remain real costs. The deeper pattern is not declining ambition but conditional ambition: younger adults are trying to build durable foundations before accepting roles, milestones or leadership models that feel financially or psychologically brittle. This is cross-sectional, sponsor-produced survey evidence, not a causal cohort or employer-performance study.
+
+The [Full Fact Report 2026 record](records/comparative-full-fact-uk-information-environment-2026-ai-uncertainty-democratic-trust.json) adds a democratic-information infrastructure route. The UK report argues that the central risk is no longer only false content but persistent uncertainty about what can be trusted, verified and acted upon. AI-powered search, chatbots, synthetic media, recommender systems, engagement incentives, reduced moderation and fragmented institutional responsibility weaken authoritative signals; the same dynamics affect political, health and economic information. The deeper pattern is that **shared reality is becoming an infrastructure problem**: media literacy and individual skepticism matter, but public resilience also depends on platform accountability, visible public-interest information, clear coordination and credible crisis communication. This is a policy/advocacy synthesis with cited polling and cases, not a causal election forecast or global prevalence estimate.
+
+The [Future of International Cooperation Report 2026 record](records/comparative-stimson-future-international-cooperation-2026-global-trust-multilateral-governance.json) adds the external-governance layer to the shared-reality problem. Its central claim is that trust deficits now operate across diplomacy, economics and technology, security and justice: they impede information sharing, weaken respect for international law and reduce confidence in global public goods even where interests overlap. The proposed remedies—multilateral information-integrity coordination, shared AI infrastructure for developing countries, early-warning diplomacy, deeper regional trade cooperation and enforceable security arrangements—show how geopolitical cooperation is increasingly being designed as trust infrastructure. This is a strategic and normative policy report, not a global trust survey or proof that the proposals are feasible or effective.
+
+The [Earth for All Survey 2026 record](records/comparative-earth4all-social-contract-2026-inequality-trust-democracy.json) sharpens the delivery problem inside the social contract. Across 17 countries, 69% want major economic-system change and 65% see the system as rigged for the rich and powerful, yet only 31% trust government to make decisions benefiting the majority over the next 20 or 30 years. The cross-source signal is not simply “distrust”: there is a broad mandate for transformation separated from confidence in institutional delivery. That gap helps explain why support for democracy can coexist with openness to an unconstrained strong leader and why climate-policy consent becomes conditional on fairness, status, and price distribution. This is weighted cross-national opinion evidence, not an objective inequality estimate, causal regime forecast, or proof that one reform would restore trust.
+
+The [IPIE 2026 expert-survey record](records/comparative-ipie-information-environment-2026-platform-accountability-ai-search.json) adds a sharper shared-reality mechanism. Experts report that diverse viewpoints remain findable online while trust in political reporting is low, identify platform accountability and misinformation as larger threats than generative AI itself, and expect AI search summaries to trade faster answers for lower news traffic and narrower viewpoint exposure. The cross-source implication is that the information problem is not only false content: it is the governance of attention, source sustainability, and the conditions under which plural information remains visible and credible. This is expert-survey evidence, not direct public behavior, observed traffic, or causal democratic effect.
+
+The [NPC Everyone's Environment record](records/comparative-npc-everyones-environment-community-power-2026-climate-nature.json) adds a place-based power mechanism to the participation layer. Its central distinction is between being consulted and having influence over policy, funding, governance, and delivery: limited grassroots capacity and evidence systems that privilege technical forms of knowledge can keep lived experience in a supporting role. The access-to-nature case shows the same conversion problem materially—green-space proximity is not equivalent to safety, accessibility, quality, belonging, or a say in management. This is UK deliberative and qualitative evidence, not a prevalence estimate or causal evaluation.
+
+The [KPMG Consumer Pulse Q3 2026 record](records/comparative-kpmg-uk-consumer-pulse-q3-2026-financial-security-discretionary-culture.json) adds a concrete consumer conversion route. Financial pessimism does not produce uniform withdrawal: among people seeing the economy worsening, precaution appears through lower everyday spending, more saving, deferred big-ticket purchases, and lower job mobility, while restaurant, takeaway, clothing, cinema, ticketed-event, resale, and holiday activity continues. The cross-source implication is that household pressure reorganizes the timing, channel, social meaning, and optionality of consumption rather than simply reducing “confidence.” This is descriptive sponsor-survey evidence, not transaction data or a causal household-budget estimate.
+
+The [HERA En/counter/points record](records/comparative-hera-encounter-points-belonging-public-space-culture-2026.json) adds a culture-to-place pathway. Belonging is treated as something produced through community, place, and history, not an attitude detached from institutions; the project then documents a route from comparative case research to museum belonging tools and public-space guidance. The cross-source implication is that cultural institutions and urban places can be practical participation infrastructure when communities help shape representation, exhibitions, and regeneration. This is a research-impact account with case-study evidence, not a population trend or causal evaluation of belonging outcomes.
+
+The [Product.ai Trust in AI Commerce record](records/us-product-ai-trust-commerce-2026-ai-recommendation-verification-agency.json) adds a concrete consumer-agency boundary to the AI/platform layer. Forty-three percent of surveyed U.S. online shoppers used AI for product research in the prior 90 days, but 86% of those users verified recommendations before buying; 42% would not trust an AI recommendation above $25 without another-source checking. The cross-source implication is that adoption is not cognitive surrender: AI may accelerate discovery while reviews, brands, friends, and retailers retain trust and accountability roles. This is a transparent sponsor survey of online shoppers, not observed transaction data or a causal estimate of recommendation power.
+
+The [Visa agentic-commerce record](records/comparative-visa-agentic-commerce-payment-control-reversibility-2025-2026.json) extends that boundary from product recommendation to payment and recourse. Across the U.S., Australia, and New Zealand, the report finds strong interest in agents that save time or improve prices, but also high demand for transparency, data visibility, recognizable payment providers, fraud protection, refunds, human support, and the ability to stop or reverse the process. The cross-source implication is that delegation is likely to be conditional and stage-specific: agents can enter discovery and checkout without eliminating the consumer’s demand for control, accountability, and recoverability. This is comparative survey evidence, not observed agent transactions or a causal adoption forecast.
+
+The [European cultural discoverability record](records/comparative-eu-cultural-discoverability-platform-curation-ai-2026.json) adds a culture-specific version of the platform-attention problem. The European Commission study argues that content availability is no longer enough: ranking, playlists, metadata, language, digital skills, platform concentration, and AI-generated content determine what audiences actually encounter. The cross-source implication is that cultural diversity requires visibility infrastructure and contestable curation, not simply more production or digitisation. This is a mixed-method policy and sector study with a small consumer survey, not a causal estimate of exposure or participation.
+
+The [One Further AI Overviews record](records/comparative-one-further-ai-overviews-cultural-sector-2026-search-traffic-distribution.json) supplies a concrete distribution outcome beneath the discoverability argument. In the same 100 UK cultural organizations, estimated organic search traffic fell 18% year on year and 79 organizations declined, while average presence in relevant AI Overviews rose from 5.8% to 15.6%. The cross-source implication is that being visible to an AI intermediary is not equivalent to receiving a direct audience relationship: institutions may be cited more often while losing visits, measurable conversion paths, and control over the context in which their work is encountered. This is a modelled traffic comparison, not causal proof of AI Overview effects or evidence of attendance, donations, or cultural participation.
+
+The [Culture Amp Performance Culture record](records/comparative-cultureamp-performance-culture-ai-2026-organizational-voice-resourcing.json) adds the workplace operating-system layer. Its framework treats sustained performance as a collective state linking engagement and confidence rather than individual heroics, with voice, energy, learning, leadership, and resource alignment as practical levers. The cross-source implication is that AI-mediated optimization cannot be separated from institutional conditions: measurement and automation may improve coordination, but durable performance still depends on visible action, decision rights, employee voice, and credible limits on managerial extraction. This is sponsor-produced proxy and association evidence, not causal proof of culture effects on markets or workers.
+
+The [Belgian social-connection record](records/comparative-belgium-social-connection-postpandemic-youth-living-alone-2026.json) adds an important counterexample to generalized disconnection narratives. In national repeated cross-sections, Belgium showed no broad post-pandemic decline in contact frequency, social support, or social satisfaction; the losses were concentrated in poor social support among 15-24-year-olds and lower social satisfaction among people living alone, with education and household situation shaping baseline exposure. The cross-source implication is that “social recovery” can coexist with concentrated relational fragility: the relevant unit for intervention is often a life situation, place, or institution rather than the national average. This is peer-reviewed repeated cross-sectional evidence, not longitudinal causal proof or a global estimate.
+
+The [Global Flourishing Study relationship-quality record](records/comparative-global-flourishing-social-relationship-quality-22-countries-2026.json) widens the social-connection comparison beyond one country. Across 22 countries and 202,898 adults, relationship-quality scores varied meaningfully across national contexts, while age, religious-service attendance, partnership status, and employment showed recurring but non-universal associations. The cross-source implication is that social connection is not only a matter of contact volume: it is shaped by the institutions, life-course positions, and cultural expectations through which people access meaningful relationships. This is cross-sectional subjective survey evidence, not a causal cultural typology or objective network measure.
+
+The [Global Flourishing childhood-antecedents record](records/comparative-global-flourishing-childhood-antecedents-adult-relationships-2025.json) adds the upstream life-course layer. Across the same 22-country frame, better childhood relationships with parents, stronger childhood health and financial security, and family belonging were associated with better adult relationship quality, while abuse and feeling like an outsider were associated with worse outcomes; the size and sometimes direction of pathways varied by country. The cross-source implication is that relational capacity is partly accumulated: current loneliness or belonging cannot be understood only through present-day behavior when childhood safety, material room, family voice, and institutional support shape the starting conditions. This is retrospective exploratory association evidence, not longitudinal causal proof.
+
+The [crisis interdependence record](records/comparative-crisis-interdependence-social-cohesion-2026.json) supplies a general mechanism for the atlas's crisis findings. The review argues that cohesion depends on how a crisis changes mutual dependence, asymmetry in vulnerability and power, perceived common or conflicting interests, and the legitimacy of coordination between people and government. Short, localized crises may mobilize voluntary solidarity; prolonged, uneven, or imposed responses can intensify resentment and institutional distrust. This is a theory-guided review and testable framework, not a universal crisis forecast or pooled causal estimate.
+
+The [Mastercard Dreamonomics record](records/comparative-mastercard-dreamonomics-2026-sme-controlled-growth-digital-cybersecurity.json) adds the firm-side/global infrastructure layer. Across more than 6,000 SMEs in 18 countries, stability and predictability outrank fast growth for many owners, while rising costs, uncertainty, volatility, tool fragmentation, and cybersecurity gaps make adaptability operational rather than rhetorical. The cross-source implication is that resilience increasingly depends on access to integrated, trustworthy infrastructure—not simply on a firm's desire to grow. Regional contrasts suggest different expressions of the same pressure, but the sponsor survey cannot establish causal effects or representative national patterns.
+
+The [KPMG Consumer Pulse Summer 2026 record](records/us-kpmg-consumer-pulse-summer-2026-household-room-discretionary-travel-ai.json) supplies the household-side counterpart. U.S. consumers report directing more budget toward regular living expenses and less toward discretionary categories, while still preserving travel aspirations, moving some meals home, and experimenting with AI in narrow planning stages. The cross-source implication is that resilience is being purchased through reallocation of household room: aspiration persists, but access is increasingly mediated by affordability, time, generation, and control over the channel. This is survey evidence using recalled and anticipated shares, not transaction data or causal proof.
+
+The [OECD Economic Outlook March 2026 record](records/comparative-oecd-economic-outlook-march-2026-energy-geopolitics-household-exposure.json) supplies the macro-geopolitical transmission layer. The report shows how a conflict can become a household and consumer story through energy prices, fertiliser inputs, inflation expectations, transport, supply chains, labour demand, and public-finance choices. The cross-source implication is that household “room” is not only a private budget phenomenon: it is partly produced by infrastructure dependencies and geopolitical exposure, with lower-income households and import-dependent economies carrying more of the shock. This is conditional macroeconomic scenario evidence, not causal distributional measurement.
+
+The [Trustlab institutional-trust record](records/comparative-trustlab-institutional-trust-governance-performance-six-countries-2026.json) adds a more precise legitimacy mechanism. In six OECD countries, perceived government reliability, high-level-official integrity, and satisfaction with security and education services were stronger correlates of stated trust than political affiliation alone; meanwhile explicit self-reports, implicit associations, and experimental trust diverged. The cross-source implication is that legitimacy is built through repeated institutional encounters and judgments of competence and ethics, but “trust” is not one unitary psychological object. This is historical, open-access comparative evidence, not a current global or causal intervention estimate.
+
+The [International SERF Index 2026 record](records/comparative-serf-index-2026-social-economic-rights-capacity-200-countries.json) adds the delivery-capacity layer beneath both trust and household room. Across a 1990–2023 series, it asks whether countries achieve the health, education, food, housing, and work outcomes feasible at their income level, rather than treating GDP or resources as delivery. The cross-source implication is that legitimacy depends not only on whether institutions are trusted or budgets are available, but on whether people can see rights realized in daily life. This is a benchmarked composite framework with uneven data coverage, not a causal evaluation or universal wellbeing score.
+
+The [UBS Global Wealth Report 2026 record](records/comparative-ubs-global-wealth-report-2026-wealth-pyramid-median-mobility-ownership.json) adds the ownership and relative-position layer. In 2025, estimated personal wealth grew 10.8% while median wealth declined in most markets; nearly one million new millionaires appeared, household debt normalized, and wealth remained concentrated in a few regions. The cross-source implication is that “room” and legitimacy are shaped by comparative position: people judge progress against others, while ownership determines liquidity, inheritance, cultural participation, and protection from shocks. This is modeled financial-wealth evidence, not a household panel or direct measure of lived security.
+
+The [Graduate Center Wealth Project warehouse record](records/comparative-gc-wealth-project-data-warehouse-2026-transmission-tax-measurement.json) adds the measurement infrastructure beneath the UBS headline. It links balance-sheet composition, housing, debt, wealth percentiles, inheritance and gift taxation, and source-level metadata across countries and periods. The cross-source implication is that ownership power is not only concentrated; it is also difficult to measure consistently, and policy interpretation depends on definitions of wealth, legal transmission, public pensions, debt, and access to underlying data. This is an open data descriptor and harmonized aggregate warehouse, not a causal mobility study or respondent-level file.
+
+## Latest migration-research rotation: migration is becoming shared policy infrastructure
+
+The [European Commission future-research record](records/comparative-eu-future-research-migration-integration-2026-policy-capacity.json) adds an institutional-capacity layer to the mobility findings. The Commission’s agenda treats migration research as connected to integration, labor-market sustainability, demographic resilience, legal pathways, AI, climate mobility, shared data, science-policy links, and practical delivery. The cross-source implication is that migration governance is moving from a border or labor-supply silo toward a multi-system capability problem—but the agenda itself does not prove implementation, rights protection, or better lived outcomes. It is an agenda-setting and research-infrastructure source, not an impact evaluation.
+
+## Latest labor-mobility rotation: talent shortages are a matching-and-rights problem
+
+The [WEC Social Impact Report 2026 record](records/comparative-wec-social-impact-2026-borderless-talent-mobility-safeguards.json) adds a labor-mobility-to-capability route. It connects uneven labor markets, ageing, declining participation, and sectoral shortages to international matching, qualification recognition, legal migration pathways, language and skills support, integration, and worker protection. Its Egypt, Luxembourg, and EU examples show why mobility cannot be treated as simple movement from a surplus country to a deficit country: the outcome depends on domestic retention, origin-country capacity, employer demand, public-service integration, and safeguards against opaque or exploitative recruitment. The cross-source implication is that migration becomes a social and political infrastructure question when credential systems, housing, language, care, and labor rights determine whether mobility expands capability or transfers risk. This is industry-association and case-based evidence, not a causal migration-flow or worker-outcome evaluation.
+
+## Latest climate-risk rotation: storms become disasters through social capacity
+
+The [WorldRiskReport 2026 record](records/comparative-worldriskreport-2026-storms-vulnerability-social-protection.json) adds a climate-risk-to-social-capacity route across 193 countries. Its central contribution is to keep hazard exposure separate from vulnerability: susceptibility, coping capacity, adaptive capacity, infrastructure, health access, governance, warning reach, and social protection determine how a storm becomes a disaster. The report also makes the distributional problem visible: warnings can fail people because of language, mobility, shelter, or communication barriers, while protection systems tied narrowly to poverty can miss people vulnerable to shocks. The cross-source implication is that climate adaptation is simultaneously a public-service, household-security, infrastructure, and legitimacy problem. This is a structural index and thematic report, not a short-term event forecast, household-loss estimate, or causal evaluation of a named intervention.
+
+## Latest AI-divergence rotation: AI is becoming a capability-distribution problem
+
+The [UNDP Next Great Divergence record](records/comparative-undp-next-great-divergence-2026-ai-capability-inequality.json) adds the human-development layer beneath the program’s AI, infrastructure, work, and geopolitical findings. The report argues that AI could widen divergence when gains reach high-capacity countries, urban hubs, large firms, and highly skilled workers first, while rural communities, small firms, routine workers, women in informal and care economies, and data-invisible groups face weaker access or greater risk. It connects the people, economy, and governance channels: local-language education and health tools can expand capability, but opaque systems can deny benefits, compress gig-work rates, expand surveillance, consume energy and water, and deepen dependency on imported models. The cross-source implication is that AI adoption is not a single technology trend; it is a contest over infrastructure, skills, labor bargaining, public-service reach, data visibility, cultural voice, environmental cost, and state capacity. This is a regional human-development assessment and policy roadmap, not a causal forecast of inequality or evidence that its safeguards have been implemented.
+
+## Latest youth-mental-health rotation: distress is accumulating across everyday systems
+
+The [OECD youth mental-health record](records/comparative-oecd-youth-mental-health-2026-intersecting-pressure-prevention.json) adds a lived-experience layer to the program’s youth culture, care, household-room, digital, and institutional-capacity findings. Across the OECD synthesis, worsening youth mental health is not reduced to one cause: economic insecurity, housing instability, school pressure, bullying, digital exposure, climate anxiety, conflict, and social comparison can accumulate across the environments young people inhabit. Girls, older adolescents, and young people facing weak resources show distinct exposure patterns; prevention, peer support, schools, families, safe communities, and low-threshold services are treated as upstream capacity rather than optional add-ons to specialist care. The cross-source implication is that youth distress is a systems signal: when time, safety, belonging, housing, school, digital environments, and help-seeking routes deteriorate together, a clinical-only response arrives late. This is a cross-country synthesis with uneven measurement and expert evidence, not a pooled causal estimate or proof that any single digital restriction or service model works.
+
+## Latest food-and-connection rotation: ordinary consumption can become civic and social infrastructure
+
+The [OECD food social-connectedness record](records/comparative-oecd-food-social-connectedness-2026-community-infrastructure.json) adds a practical cultural-consumer layer to the program’s belonging, household-room, food-security, and place-capacity findings. Its eight case studies show how growing, accessing, preparing, eating, and redistributing food can create a low-stigma reason to participate, activate vacant land and underused venues, carry cultural meaning across groups, generate volunteer skills, and create routes into other services. The cross-source implication is that social infrastructure is often built through ordinary routines rather than explicitly therapeutic programs—but access still depends on money, time, safety, transport, public space, and durable support. Food can widen participation and belonging, yet volunteer dependence can also shift unpaid labor and operational risk onto communities. This is a case-study and policy synthesis with limited causal and cost-effectiveness evidence, not proof that communal food programs produce durable connection.
+
+## Latest displacement-to-work rotation: integration fails when aid exits before local capacity exists
+
+The [World Bank Kenya refugee-host jobs record](records/comparative-worldbank-kenya-refugee-host-jobs-aid-shrinkage-2026.json) adds a concrete place-based transmission chain to the migration, labor, climate, and social-cohesion findings. In the Kenya panel context, aid cuts reduce refugee income and demand in camp economies, refugee employment falls sharply, work-permit and mobility barriers constrain formal entry, food prices and flooding erode coping, and refugees and host communities compete for thin labor markets and under-resourced schools, clinics, roads, and water. The cross-source implication is that “integration” is not achieved by changing settlement policy alone: it requires jobs, legal mobility, childcare, investment, food security, local public capacity, and shock-responsive protection for both newcomers and hosts. This is a longitudinal, place-based case synthesis—not a universal refugee estimate or evaluation proving that jobs alone produce self-reliance.
+
+## Latest growth-to-well-being rotation: national success can conceal life-course fragility
+
+The [OECD Korea well-being record](records/comparative-oecd-korea-wellbeing-2026-growth-life-course-social-capital.json) adds a high-growth comparative test to the program’s household-room, work, care, youth, gender, trust, and sustainability findings. Korea’s long-run gains are unmistakable—longer lives, greater safety, exceptional education, rising income and wealth, and sharply lower child poverty—but the report shows that aggregate capability does not automatically become independent, connected, or equally shared lives. Young adults face costly transitions into secure work and housing; workers put in substantially more hours; older adults and youth show weak social support or rising loneliness; trust in government is below the OECD average; gendered unpaid work and wage barriers persist; and carbon intensity remains high. The cross-source implication is that the next development problem is conversion: turning growth, skills, and infrastructure into time, autonomy, connection, gender equality, and sustainable future capacity. This is a multidimensional country assessment, not a causal evaluation of Korea’s growth model or a universal national template.
+
+## Latest anticipatory-capacity rotation: social protection is becoming a forecasting-and-trigger problem
+
+The [World Bank AI social-risk forecasting record](records/comparative-worldbank-ai-social-risk-forecasting-2026-anticipatory-capacity.json) adds an operational layer beneath the program’s broader anticipation and resilience themes. The World Bank describes models that combine climate, conflict, crime, demographic, economic, built-environment, and online-language signals to forecast changes in conflict, displacement, crime, and poverty. Its cases connect forecasts to risk finance, pastoral-economy investment, governance assessment, and pre-positioning public-service capacity before refugee arrivals. The cross-source implication is that public protection is moving from reactive measurement toward anticipatory allocation: the decisive question becomes not only whether a risk can be predicted, but who controls the trigger, whose data define the risk, whether false positives create harm, and whether early resources become usable, contestable services. This is a proof-of-concept and operational-framing source, not evidence that model accuracy transfers across settings, that prediction improves welfare, or that automated anticipation is fair.
+
+## Latest life-course well-being rotation: strong national averages can hide intergenerational divergence
+
+The [OECD Finland life-course well-being record](records/comparative-oecd-finland-life-course-wellbeing-2026-intergenerational-loneliness.json) tests whether the Korea pattern is country-specific. Finland’s strong aggregate well-being coexists with rising youth unemployment, weaker educational and mental-health outcomes, a marked decline in middle-aged men’s employment, women doing substantially more unpaid work, and loneliness or isolation worsening across age groups. Older adults—especially those aged 75 and over—and young people show different connection risks, while aging, low fertility, and higher pension, health, and long-term-care spending narrow future policy room. The cross-source implication is that national success is not a single lived experience: an advanced welfare state can require life-course targeting, prevention, labor redesign, and social infrastructure at the same time. This is a preliminary working paper and descriptive country assessment, not a causal policy evaluation or universal model.
+
+Taken together with Korea, Finland turns the finding into a comparative diagnostic rather than a country anecdote. The recurring hidden bottlenecks are not identical: Korea concentrates pressure in the transition to independent adulthood and long-work-time system; Finland makes youth deterioration, midlife employment and unpaid-care divergence, and later-life isolation more visible. Across both, aggregate capability is filtered through time, housing or income room, social connection, gendered care, and trust. The next US-facing test is therefore life-course incidence: identify which group absorbs the constraint, which institution is expected to buffer it, whether the buffer is reachable, and whether the result is durable agency rather than only a favorable national average.
+
+The U.S. records already supply the domestic comparison points for that test. The [Urban families and metropolitan geography record](records/us-urban-families-core-suburbs-2026.json) locates family formation in housing, childcare, schools, commutes, and amenities; the [CSSP family-care arrangements record](records/us-cssp-family-care-arrangements-2026.json) shows that care used is not the same as care wanted; and the [Pew AI-and-young-adult-jobs record](records/us-pew-ai-concern-young-adults-jobs-2026.json) adds entry-level work, meaning, and technological legitimacy. The combined implication is that the U.S. comparison should not ask whether the country is “doing well” in the aggregate. It should ask whether young-adult transition, midlife care/work, and later-life connection are being buffered by reachable institutions—or privatized into household time, money, and family capacity.
+
+## Latest measurement-infrastructure rotation: life-course incidence requires more than national averages
+
+The [UN DESA National Inclusion Accounts record](records/comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution.json) supplies the accounting layer beneath the Finland/Korea comparison. The manual extends National Transfer Accounts beyond age profiles to examine education, income, family type, residence, migration status, labor income, public and private transfers, assets, consumption, care, and saving. Its value for this program is not a new outcome claim; it is a way to ask who finances whom, who supplies unpaid capacity, and which public programs reach which life-stage and socioeconomic groups. The pilot framework spans eight countries and is designed to combine national accounts, population data, household surveys, and administrative records. The cross-source implication is that life-course incidence should become a measurable bridge between macro capability and lived security—but the manual itself does not prove implementation, adequacy, or better policy outcomes.
+
+## Latest public-service delivery rotation: life-event integration is the missing middle between policy and lived access
+
+The [OECD Serving Citizens 2026 record](records/comparative-oecd-serving-citizens-2026-life-events-feedback-implementation.json) adds the institutional interface beneath the life-course accounting framework. OECD countries commonly have human-centred service strategies and often collect user feedback, but only 20% of common life-event cases are supported by integrated services across agencies; only 55% report using feedback or performance data to improve services, and 45% use it to shape policy. The cross-source implication is that the missing middle is not always a new benefit or technology: it is coordination across the moments when people register, move, claim, vote, seek permits, or navigate family change. This is a government survey and implementation baseline, not proof that integration reduces burdens or improves trust.
+
+The report’s user lens adds an important inequality boundary: 68% of recent users in 34 OECD countries report satisfaction, but satisfaction is lower among people reporting discrimination, younger adults, people with lower education, people with financial concerns, and women. Because the comparison excludes roughly 45% of respondents who did not use administrative services in the prior year, even these gaps may understate exclusion if non-use reflects avoidance or inability to navigate the state. The cross-source implication is that service reach must include non-use and failed access—not only the experience of people who completed the administrative journey.
+
+## Latest fiscal-capacity rotation: public-service delivery is constrained by a distributional budget choice
+
+The [OECD Restoring Public Finances record](records/comparative-oecd-restoring-public-finances-2026-social-protection-tradeoffs.json) adds the budget layer beneath the service-delivery record. OECD countries are managing debt, slow growth, aging, defence pressure, and crisis legacies while 89% of surveyed countries report savings measures in social protection and/or healthcare and 77% report savings measures in government operations. Digitalisation, AI, restructuring, shared services, and public-employment changes may create efficiency, but they can also alter frontline capacity and administrative burden. The cross-source implication is that fiscal repair is not merely a macro variable: it determines which life-course buffers remain reachable, who absorbs time and care costs, and whether public explanations are credible enough to preserve legitimacy. This is a government survey and fiscal synthesis, not a household-incidence or causal reform evaluation.
+The [OECD Restoring Public Finances record](records/comparative-oecd-restoring-public-finances-2026-social-protection-tradeoffs.json) adds the budget layer beneath the service-delivery record. OECD countries are managing debt, slow growth, aging, defence pressure, and crisis legacies while 89% of surveyed countries report savings measures in social protection and/or healthcare and 77% report savings measures in government operations. Digitalisation, AI, restructuring, shared services, and public-employment changes may create efficiency, but they can also alter frontline capacity and administrative burden. The cross-source implication is that fiscal repair is not merely a macro variable: it determines which life-course buffers remain reachable, who absorbs time and care costs, and whether public explanations are credible enough to preserve legitimacy. This is a government survey and fiscal synthesis, not a household-incidence or causal reform evaluation.
+
+## Latest fiscal-legitimacy rotation: budget repair needs a public voice infrastructure
+
+The [OECD The People and the Budget record](records/comparative-oecd-people-budget-2026-fiscal-understanding-legitimacy.json) adds the legitimacy layer beneath fiscal repair. The report identifies four connected capacities: demystifying budgets for decision makers, communicating clearly, creating genuine citizen engagement, and making independent fiscal institutions more proactive public advocates. Its trust context is stark: 44% report low or no trust in national government, only 30% feel that people like them have a say, and the report describes a 47-point trust gap between those who do and do not feel represented. These are descriptive survey associations, not a causal estimate.
+
+The cross-source implication is that savings, service redesign, and public investment are also contests over explanation, voice, and procedural fairness. Clear language, visual communication, media distribution, participation beyond elections, and fiscal-council or audit communication may make trade-offs more legible—but they do not settle who pays, and participation can be dominated by organized or high-capacity groups. The next US-facing test is a named budget or service reform with distributional incidence, public explanation, engagement route, and evidence of whether affected groups can contest or correct the decision.
+
+## Latest comparative public-service rotation: satisfaction is not the same as influence
+
+The [Norway Citizen Survey 2026 record](records/comparative-norway-dfo-citizen-survey-2026-service-voice-ai-trust.json) supplies a concrete comparative test of the fiscal-legitimacy and service-delivery claims. Norway’s residents continue to rate municipal service quality relatively positively (68% satisfied), yet only 34% are satisfied with how local politicians listen to residents, 44% say the political system gives people like them little influence, and only 30% think complaints are likely to improve a public service. Trust in public administration also fell from 62% high trust in 2021 to 51% in 2025, while low trust rose from 19% to 30%.
+
+The AI extension makes the same distinction technological: 32% are confident public-sector AI will tailor services better to individual needs, but only 25% are confident it will treat groups fairly; 51% are unconfident about fairness. The cross-source implication is that a state can deliver usable services without producing a strong sense of voice, responsiveness, or contestability. The next U.S. test should therefore measure service quality, explanation, influence, complaint correction, and subgroup fairness together—not treat satisfaction or digital adoption as institutional legitimacy.
+
+## Latest geopolitical-trade rotation: resilience is a price-and-power bargain
+
+The [IMF Annual Report 2026 trade-resilience record](records/comparative-imf-annual-report-2026-trade-resilience-supply-chain-geopolitics.json) widens the public-legitimacy story from institutions to the global material system. The IMF describes trade reorientation after US policy shifts, an energy-route shock with spillovers into food and supply chains, and a turn toward more resilient but less efficient sourcing. Diversification may reduce dependence, but it can also raise costs, redistribute leverage, and narrow household room.
+
+The cross-source implication is that geopolitical resilience is not a single state capability. It is a negotiated bargain among redundancy, affordability, investment, fiscal room, firm continuity, and public consent. Predictable and well-communicated trade policy can anchor expectations, but it cannot settle who pays for redundancy or whether the benefits reach exposed households and regions. The next US-facing test is a named commodity, infrastructure, or household-price episode that follows the resilience cost from policy decision through supply chain, firm behavior, price exposure, and usable security.
+
+## Latest cultural-economy rotation: cultural abundance can coexist with creator insecurity
+
+The [European Audiovisual Observatory Key Trends 2026 record](records/comparative-eao-key-trends-2026-cultural-work-streaming-public-media.json) adds the production-and-distribution layer beneath the program’s culture and consumer findings. Europe’s cultural and creative sectors employ roughly 7.9 million people, but self-employment, freelance work, project contracts, fragmented protection, and mobility barriers make cultural participation also a labor-security question. Global streamers’ share of European original-content spending rose from 8% in 2020 to 24% in 2024, while 71% of the 2024 revenues of the report’s 72 largest entertainment companies came from US companies.
+
+The public-media evidence adds a counterweight: public-service broadcasters remain the leading audience group in 18 countries, but their revenues declined in real terms, and funding differs sharply across countries. The cross-source implication is that cultural access is not determined by output or platform availability alone. It depends on who can afford to create, who owns distribution, which languages and local stories are discoverable, and whether public institutions retain capacity to provide alternatives. The next US-facing test is a named cultural-production or distribution episode that tracks creator income, bargaining, audience reach, and platform or public control together.
+
+## Latest household-shock rotation: global disruption becomes unequal household room
+
+The [World Bank Trade Policy and Natural Shocks Dashboard record](records/comparative-worldbank-trade-natural-shocks-household-income-distribution-2025.json) supplies the household-distribution layer beneath the IMF trade-resilience and food-system findings. Its modeled scenarios estimate an 11.99% real-income reduction associated with climate-related yield changes and a 2.90% average real-income reduction in low- and middle-income countries from war-induced food inflation linked to restrictive grain and fertilizer export policies. The dashboard emphasizes that impacts vary enormously across the income distribution, with vulnerable households bearing the brunt.
+
+The cross-source implication is that geopolitical and climate shocks do not arrive as one macro price. They are converted through food share, income source, local production, trade dependence, transfers, substitution, and recovery capacity. This is a modeled dashboard—not respondent-level longitudinal evidence—so the open arrow is realized incidence: which households cut food, work more, draw down assets, receive support, or recover after the shock.
+
+## Latest comparative education-to-employment rotation: learning gains need a care, asset, and fiscal bridge
+
+The [World Bank Gambia Economic Update record](records/comparative-world-bank-gambia-economic-update-2026-womens-education-work-fiscal-capacity.json) adds a sharp education-to-agency counterexample. Growth rose to an estimated 5.9% in 2025 and extreme poverty declined to 20.3%, yet 81% of workers remained informal and 41.3% of 15–34-year-olds were not in employment, education, or training. Girls outperforming boys in some school stages has not translated into equal work: women's labor-force participation is 41.9% versus 54.9% for men, 78.1% of women workers are informal, and reported hourly earnings are 31.5 GMD versus 42.4 GMD for men.
+
+The report makes the missing bridge unusually visible. Care burdens, land and property rights, finance, childcare, school-to-work pathways, tourism and remittances shape whether education becomes earnings and household room. Meanwhile, tax revenue averaged only 10.3% of GDP, public debt was about 76.4% of GDP in 2025, and the proposed 3–4% of GDP revenue gain or 2.6% of GDP payroll saving would matter only if converted into infrastructure, services, jobs, and targeted protection. The cross-source implication is that education and growth are inputs, not outcomes: the conversion depends on assets, care, labor institutions, fiscal capacity, and reachable public investment. This is a national assessment and fiscal review, not an individual education-to-work panel or causal reform evaluation.
+
+## Latest comparative youth-political rotation: climate voice becomes meaningful only when it reaches institutional power
+
+The [UNDP Asia-Pacific youth climate-governance record](records/comparative-undp-asia-pacific-youth-climate-governance-2026-agency-institutional-voice.json) adds a political-agency route grounded in more than 1,000 young people across 35 countries. The report describes youth moving from peripheral roles toward negotiation, co-drafting national climate policies, and strategic political alignment. The associated YECAP practice framework sharpens the distinction between visibility and power: meaningful participation requires inclusion, preparation and protection, voice and equality, genuine influence, resources, and formalized seats or partnership.
+
+The cross-source implication is that youth climate participation is a conversion problem similar to the atlas's other voice routes. Climate concern or attendance can become agency only if young people can enter decision spaces, shape a proposal, see where resources go, monitor implementation, and use accountability or remedy when commitments fail. The gendered and classed access boundary matters: a platform of active youth leaders reveals pathways into power, not the prevalence of political voice across all youth. This is a qualitative, platform-based and policy-reporting synthesis, not proof that participation changed emissions, adaptation, public spending, or durable trust.
+
+## Latest comparative cultural-mobility rotation: education is also a housing, labor, and belonging system
+
+The [OECD International Student Mobility record](records/comparative-oecd-international-student-mobility-2026-cost-housing-work-retention.json) shows international education becoming a multi-system bargain. OECD international-student inflows fell 13% in 2024, with declines of 39% in Canada and 22% in Australia, while other destinations grew. The report attributes destination choice and retention to interacting tuition, living-cost, housing, scholarship, financial-requirement, work-right, post-study, and family policies rather than to a single visa or marketing lever. International students also account for about 19% of master's and 27% of doctoral enrolments across the OECD, making the issue central to skills, demographic, and research systems.
+
+The cultural point is that mobility is not complete at admission. Housing capacity, affordability, academic adaptation, local-community integration, family life, work during study, and post-graduation pathways determine whether an international student can actually convert access into learning, belonging, and durable opportunity. Countries are now diverging between explicit expansion targets and managed reduction in response to housing, public-service, language, and migration pressures. The cross-source implication is that “attract talent” is not a standalone policy: without reachable housing, support, fair work, family continuity, and cultural integration, recruitment can produce financial stress, institutional backlash, or temporary enrollment rather than durable mobility. This is comparative policy and administrative evidence, not a same-student trajectory or causal retention estimate.
+
+## Latest comparative shock-and-demography rotation: a remittance shock becomes a care-and-capacity test
+
+The [World Bank Cambodia Economic Update record](records/comparative-world-bank-cambodia-economic-update-2026-remittances-demography-care.json) supplies a sharper stress case for the economic-security corridor. Higher fuel prices, falling remittances after nearly one million migrant workers returned, and constrained credit are projected to slow growth to 3.9% in 2026. In the report's conditional 60% fuel-price scenario, average household consumption falls about 8%, poverty rises 6.2 percentage points, and roughly 80% of welfare losses arrive indirectly through higher prices of goods and services. The key transmission is therefore not only energy affordability: it is the conversion of external disruption into food, transport, firm, and household room.
+
+The labor response is equally important. About 620,000 returnees were reportedly placed in employment, but approximately 230,000 remained unemployed, with a mismatch between older, male, rural returnees and younger, female-intensive manufacturing demand near Phnom Penh. At the same time, Cambodia's working-age share is projected to peak around 2043, leaving a narrow window to convert youth into productivity before the worker-to-elderly support ratio falls from 10.4 to 5.7 by 2050. The report's proposed bridge—human capital, formal childcare and eldercare, structured migration, trade diversification, and labor-market institutions—shows that demographic advantage is an infrastructure problem, not a population fact. This is a macroeconomic update with simulations and projections, not a same-worker panel or causal evaluation of reintegration, care, or migration policy.
+
+## Latest comparative economic-security rotation: poverty reduction is not economic security
+
+The [World Bank Indonesia Poverty Assessment record](records/comparative-world-bank-indonesia-economic-security-2023-jobs-care-shocks.json) adds a useful middle-income transition lens. Indonesia’s extreme poverty fell to 1.5% in 2022, but about one-third of the population remained economically insecure. The report locates that insecurity in the quality and location of opportunity: agriculture and low-value services can reduce poverty without providing sufficient earnings, high-skilled jobs remain scarce, and weak urban migration limits access to agglomeration and more productive work. It also makes unpaid care and gender norms part of household economic capacity: roughly half of women were in or seeking work compared with more than 80% of men, with care responsibilities and discrimination narrowing the household’s income options.
+
+The climate and fiscal layer completes the mechanism. More than 300 natural disasters affected upwards of 11 million people in the report’s 1990–2021 context, and climate-related events accounted for about 70% of disasters. Social assistance, social insurance, financial inclusion, resilient infrastructure, higher tax capacity, and stronger subnational administration are therefore not separate poverty tools; they are the buffers that determine whether a household can convert work into durable security after a shock. The cross-source implication is that a country can achieve impressive poverty reduction while leaving a large population exposed to low-quality work, care constraints, mobility costs, and shock reversal. This is a national assessment and policy synthesis, not an individual household panel or causal evaluation of a named reform.
+## Latest consumer-attribution rotation: price shocks and institutional failures become household judgment work
+
+The [Ipsos Consumer Tracker Wave 148 record](records/us-ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026.json) adds a consumer-legitimacy layer. Tariffs are becoming attributable household costs: 81% expect higher prices on goods they buy and 71% say they have already seen tariff-linked increases, yet only 29% say the increases are worth it for national goals and 29% say cost pass-through to shoppers is fair. Food recalls show a parallel transfer of monitoring work: only 39% trust government food-safety inspections at least somewhat, 54% say recalls reduced trust, and households report washing produce, avoiding recalled foods, buying local, or buying less fresh produce. Clothing value judgments add a third route: brand prestige weakens while materials, longevity, dupes and durability become more legible grounds for paying. The cross-source implication is that consumers are not simply compressing demand; they are reallocating judgment toward attribution, verification and selective willingness to pay. The online survey measures perceptions and self-reported behavior, not verified incidence or causal outcomes.
+## Latest cultural-environmental rotation: ocean stewardship becomes public access, household tradeoff and cross-partisan agency
+
+The [Azul 2026 National Poll record](records/us-azul-latino-ocean-culture-access-climate-politics-2026.json) adds a Latino cultural-environmental politics layer. Eighty percent of Latino voters say a candidate supporting stronger coastline and ocean policies would make them more likely to vote for that candidate, including 75% of Republican Latino voters and 87% of Democratic Latino voters. The policy preference is attached to material and cultural meaning: 64% say they would still support an offshore-drilling ban if it meant paying more for gasoline and household gas, 76% say the ocean matters to family traditions and culture, and 85% say beaches and parks should remain open to everyone. Support for illegal-fishing enforcement and an international forced-labor body extends the route into transnational labor governance. The cross-source implication is that environmental politics can become durable when it joins identity, access, health, household cost and accountability; the advocacy-commissioned poll measures stated preferences, not validated votes or realized protection.
+## Latest science-legitimacy rotation: public value does not equal participatory access
+
+The [South African Public Relationship with Science (SAPRS) record](records/comparative-south-africa-saprs-science-value-access-trust-participation-2026.json) adds a science-legitimacy and access layer. South Africans score the promise of science and technology skills for young people at 78/100 and trust in scientists at 69/100, but community-based engagement and attraction-based event attendance each score only 23/100. Digital access is broad—76% report some internet access and 61% a smartphone—while only 5% actively access high amounts of science information. Television and radio are trusted more than social or chat media for science information. The cross-source implication is a high-value, low-participation relationship: public endorsement can coexist with unequal opportunity to enter, shape, and benefit from scientific institutions. The study is nationally representative survey evidence from 2022, not a 2026 causal or participation outcome measure.
+## Latest wartime-legitimacy rotation: infrastructure endurance and leader trust remain separate judgments
+
+The [KIIS Ukraine wartime resilience and legitimacy record](records/comparative-kiis-ukraine-wartime-energy-resilience-legitimacy-2026.json) adds a geopolitical-state layer. Seventy-seven percent say Ukraine should continue armed resistance even if a winter energy attack temporarily deprives some people of electricity, heating or sewage; the majority remains a majority in every reported region, but ranges from 83% in Kyiv city to 68% in the East. At the same time, presidential trust is 54% against 41% distrust, and support for resistance is 89% among presidential trusters versus 65% among distrusters. The cross-source implication is that national resilience can survive conditional leader legitimacy: households may accept collective sacrifice under an existential threat frame while still demanding anti-corruption performance and institutional accountability. The evidence is wartime CATI survey evidence from government-controlled territory; the energy scenario is hypothetical.
+## Latest lifelong-learning rotation: skills policy is becoming social infrastructure only when it survives implementation
+
+The [ILO independent skills and lifelong-learning evaluation record](records/comparative-ilo-skills-lifelong-learning-strategy-evaluation-2026.json) adds an institutionalization-gap layer to the program’s work-transition findings. The ILO strategy remains relevant, and its strongest contributions were governance, qualifications, recognition of prior learning, apprenticeships, social dialogue, and skills-needs intelligence. But implementation, routine use of intelligence, sustainable financing, institutional capacity, and scale were less consolidated; governments led while worker organizations often remained more consultative than strategic or operational. The cross-source implication is that lifelong learning is being redefined as infrastructure for recurring work transitions, but its legitimacy depends on whether people encounter funded, accessible, worker-influenced institutions throughout working life. This is an independent strategy-level evaluation, not causal evidence of employment, wage, productivity, or inclusion effects.
+
+## Latest education-infrastructure rotation: teacher shortage is also a status, place, and family-burden problem
+
+The [OECD Education at a Glance 2026 teacher-shortage record](records/comparative-oecd-education-at-a-glance-2026-teacher-shortage-status-place.json) adds an education-workforce layer to the lifelong-learning institutionalization finding. Across OECD countries, 9.1% of primary and secondary teachers were not fully qualified in 2024/25, 6.4% of fully qualified teachers left during that year, and shortages were more acute in rural, remote, disadvantaged, mathematical, and scientific settings. The report’s cultural signal is that 85% of teachers report job satisfaction while only 22% believe teaching is valued by society; the cross-source implication is that education capacity is shaped by public status, workload, autonomy, pay, demographic allocation, and the reliability of school relationships—not recruitment alone. This is comparative indicator and survey evidence, not causal proof of learning or retention effects.
+
+## Latest social-protection usability rotation: information can scale while protection remains unreachable
+
+The [ILO Jordan social-security registration record](records/comparative-ilo-jordan-social-security-registration-behavioral-outreach-2026.json) adds randomized evidence to the program’s legal-entitlement-to-effective-access chain. In-person outreach plus a temporary contribution subsidy increased worker registration by 0.31 workers per firm, or 9.2%, 1.5 years later; SMS was far cheaper but did not increase the number of workers registered into social security. The cross-source implication is that formal protection is not made usable by information alone: affordability, human navigation, institutional trust, and administrative friction have to be solved together. This is a Jordanian small-firm experiment and does not establish durable post-subsidy coverage or benefit adequacy.
+
+## Latest formalization-trust rotation: the state-facing interface can become part of the social-protection risk
+
+The [ILO Jordan firm-level RCT record](records/comparative-ilo-jordan-social-security-rct-firm-level-trust-process-friction-2026.json) adds the implementation layer beneath the earlier outreach result. Effects were strongest in some firm-size and wage-eligibility groups, while firms reported repeated work updating employees, uploading documents, managing payments, and navigating the SSC portal. Stale eligibility data, inspection-like visits, social-media loopholes and resource constraints could alter how the same programme was understood. The cross-source implication is that formalization is a trust-and-implementation bargain: people make a long-horizon contribution decision through a state interface whose data, enforcement signal, usability, and benefit credibility must align. This is preliminary evidence from firms already connected to SSC, not proof of long-run formalization or benefit adequacy.
+
+## Latest classroom-technology rotation: legitimacy depends on frontline control
+
+The [Gallup classroom-device record](records/us-gallup-teacher-screens-device-oversight-efficacy-2026.json) adds a technology-governance layer to the education and work-control themes. Learning devices are nearly universal in the surveyed public-school classrooms: 96% of teachers report student use, yet 61% want less device time and only 18% say devices do more good than harm. The sharper mechanism is operational control: 67% of teachers with a lot of oversight say digital tools help students learn effectively, compared with 49% among teachers with little or no oversight.
+
+The cross-source implication is that institutional technology becomes more legitimate when frontline workers can see, manage and adapt its use. Teachers support stronger filtering or monitoring and print or hands-on alternatives more strongly than a blanket daily cap, suggesting a preference for bounded safeguards over blunt restriction. This is a cross-sectional perception study, not evidence that oversight causes better learning or that screen time causes harm; staffing, training, grade level, policy and implementation quality may explain the association.
+
+## Latest AI-legitimacy rotation: adoption is outrunning assurance
+
+The [SCSP–Gallup AI sentiment record](records/us-scsp-gallup-ai-sentiment-trust-preparation-2026.json) adds a public preparation layer. AI use rose to 51% from 39% in the comparable 2025 measure and 68% describe themselves as knowledgeable, but only 28% trust AI to make fair and unbiased decisions. Seventy percent expect AI to destroy more jobs than it creates, while only 20% expect most or all displaced workers to retrain successfully.
+
+The cross-source implication is that the legitimacy bargain is shifting from adoption alone to assurance: people are self-teaching faster than institutions are formalizing training, testing, accountability and transition support. Support for STEM education, on-the-job training, safety-first rules and independent testing is broad across party groups. This is survey evidence about expectations and stated preferences, not proof of displacement, productivity, fairness, training completion or policy implementation.
+
+## Latest worker-transition rotation: management mediates the meaning of AI exposure
+
+The [Gallup AI workplace-manager record](records/us-gallup-ai-workplace-manager-buffer-displacement-2026.json) adds the workplace layer beneath the public AI legitimacy gap. In four workforce-panel waves, frequent AI users reported more than twice the acute displacement concern of less-frequent users. Yet the association was 6.8 percentage points smaller among workers reporting the highest respect and 11.1 points smaller among those who felt their organization cared about their wellbeing. Displacement fear also tracked lower engagement and satisfaction, higher burnout and more active job search within worker-level comparisons.
+
+The cross-source implication is that AI transition is interpreted through management, not exposure alone. Explanation of the technology’s purpose, visible worker value, fair evaluation and credible development pathways can become a form of transition infrastructure. This remains observational panel evidence: it does not prove that AI use causes anxiety, that management causes the buffer, or that fear predicts actual job loss, wages, retention or retraining.
+
+## Latest collective-voice rotation: demand for worker power exceeds confidence in institutional capacity
+
+The [Gallup union-influence record](records/us-gallup-union-influence-approval-2026-collective-voice.json) adds a public labor-legitimacy layer. Forty-seven percent of Americans want unions to have more influence, 71% approve of unions, and even nonmembers favor more influence by 44% to 24%. But only 27% expect unions to become stronger, while 39% expect them to weaken.
+
+The cross-source implication is a legitimacy-capacity split: people may want a collective counterweight to employer power without believing the institution can deliver it. This connects worker insecurity, political judgment, firm power and organizational voice, but it remains a stated-attitude signal. It does not establish membership, organizing, bargaining coverage, wages, strikes, legislative change or firm response.
+
+## Latest life-course household-security rotation: current control does not guarantee future confidence
+
+The [Edward Jones–Gallup financial-future record](records/comparative-gallup-edward-jones-financial-future-confidence-us-canada-2026.json) adds a cross-border life-course layer. U.S. confidence managing current finances rises from 25% among Gen Z to 54% among boomers, but great confidence managing future finances is only 26% among Gen Z, 25% among millennials and 26% among Gen X, versus 37% among boomers. Among Gen X, 59% report a retirement plan, yet 39% worry savings will not last and only 31% of those with a plan report a great deal of control.
+
+The cross-source implication is that financial security is a conversion problem across time: accumulated assets can create current room, while younger adults absorb future-building pressure through stress, extra work and delayed milestones. This is self-reported cross-sectional survey evidence, not proof of cohort causality, retirement adequacy, asset accumulation, household-hours effects or policy impact.
+
+## Latest place-and-firm rotation: local business retention is an ecosystem bargain
+
+The [Gallup local-business-climate record](records/us-gallup-business-owner-local-climate-retention-2026.json) adds a firm-side place mechanism. Only 48% of business owners view their local area positively as a place to run a business, while 13% are negative. Real-estate costs and taxes are the most negatively rated conditions, but customer access, business-to-business networks, nonprofit support, regulations and government-service quality are more closely associated with overall local sentiment. Relocation intention rises from 5% overall to 11% among dissatisfied owners and to 19% among growth-expecting dissatisfied owners.
+
+The cross-source implication is that local economic retention depends on usable relational and institutional infrastructure, not cost levels alone. A growing firm may tolerate expensive space when customers, networks and public systems work, but become more mobile when local friction threatens expansion. These are associations and stated intentions, not evidence of actual moves, firm survival, employment or causal local-policy effects.
+
+## Latest speculative-consumption rotation: participation can coexist with explicit risk recognition
+
+The [Gallup crypto-ownership record](records/us-gallup-crypto-ownership-risk-reversal-2026.json) adds a consumer-financial participation layer. Cryptocurrency ownership fell from 17% to 11% among U.S. investors and from 14% to 9% among adults, while 63% of investors still call it very risky. Participation remains concentrated among younger men and higher-income investors: 24% of male investors aged 18–49 own crypto, compared with 15% of upper-income, 7% of middle-income and 4% of lower-income investors.
+
+The cross-source implication is that speculative participation is not identical to safety belief. Nearly half of current owners still describe crypto as very risky, suggesting a willingness to absorb visible volatility that is unevenly distributed by age, gender and income. The survey does not establish realized returns, losses, debt, suitability, harm, regulation or durable cultural adoption.
+
+## Latest measurement-legitimacy rotation: a healthy headline economy can still feel incomplete
+
+The [Gallup unemployment-measurement record](records/us-gallup-unemployment-measurement-narrative-slack-2026.json) adds a measurement-to-legitimacy route. Gallup chairman Jim Clifton contrasts the roughly 4% headline unemployment rate with the broader U-6 measure of about 8% and argues that job fit, involuntary part-time work, discouragement and prime-age nonparticipation shape the lived meaning of “full employment.”
+
+The cross-source implication is not that the essay’s proposed 12% “real unemployment” replaces official statistics. It is that a narrow headline can diverge from household experience and political judgment. The next valid test is a reproducible layered dashboard that keeps unemployment, U-6, care, disability, job quality, fit, wages and transitions distinct and then links them to household security and institutional trust. This source is an analytical argument, not a new survey or validated prevalence estimate.
+
+## Latest sector-legitimacy rotation: household costs and technological risk become firm-level attribution
+
+The [Gallup industry-ratings record](records/us-gallup-industry-ratings-cost-trust-2026.json) adds a sector-level legitimacy layer. Positive views of the computer industry fell 11 points to 48%, utilities to 33%, farming to 54% and oil and gas to 30%; only farming and restaurants were viewed positively by a majority across the 25 sectors. The article situates the decline amid inflation, household financial pressure, AI and data-center concerns, and technology-related job anxiety.
+
+The cross-source implication is that firms and infrastructure sectors become carriers of visible household risk. People may judge an industry through price, reliability, disruption, safety and distributional consequences—not only through its output. These are broad perceptions, not causal evidence of price effects, service quality, consumer behavior, regulation, firm revenue or infrastructure performance.
+
+## Latest formalization-and-family-security rotation: worker status is a household and supply-chain institution
+
+The [ILO South Asia formalization and child-labour record](records/comparative-ilo-south-asia-formalization-child-labour-voice-2026.json) reports improved access to formal employment, social protection, voice and representation for 23,208 informal workers across India, Nepal and Pakistan, alongside 13 policy and legislative measures. Parallel child-labour work in India and Nepal combined enforcement, labour-market data, referrals, social-protection access and community action in high-risk supply chains.
+
+The cross-source implication is that formalization should be read as a protection architecture rather than a registration event. Worker voice, family income alternatives, schooling, benefits, community monitoring and firm accountability determine whether formal status changes lived security. The project closeout reports reach and mechanisms, not causal reduction, adequate benefits, durable wages, or post-project survival; those remain the next episode-level tests.
+
+## Latest labour-governance institution rotation: voice becomes infrastructure through repetition and follow-up
+
+The [ILO Kurdistan tripartite social-dialogue record](records/comparative-ilo-kurdistan-tripartite-social-dialogue-labour-governance-2026.json) records the launch of a permanent Forum with equal representation for government, workers, and employers. Its mandate spans labour legislation, implementation follow-up, social security, employment, safety, trade-union freedoms, and international labour standards.
+
+The cross-source implication is that collective voice can become a governance infrastructure rather than a one-time consultation. But equal seats are only a design condition: the Forum must retain constituent ownership, information, agenda access, and follow-through for workers and firms to experience it as power. The announcement is not evidence of effectiveness; the next test follows a concrete issue from agenda to decision, implementation, remedy, and outcome.
+
+## Latest consumer-confidence asymmetry rotation: stable averages can hide a present-tense household squeeze
+
+The [Ipsos September global consumer-confidence record](records/comparative-ipsos-global-consumer-confidence-september-2026-subindex-asymmetry.json) shows an overall index stable at 48.4 across 30 countries, while Expectations (56.6) and Jobs (57.7) remain well above Current (39.0) and Investment (41.7). Sentiment also remains below its pre-war level in 13 countries.
+
+The cross-source implication is that “resilience” has multiple clocks. People can retain future or job confidence while finding current purchasing and investment conditions constrained, producing postponement, substitution, and selective demand rather than simple collapse. The survey does not establish realized spending, welfare, employment, or causal geopolitical effects; those remain the next behavioral tests.
+
+## Latest health-capacity rotation: resilience is maintained between emergencies
+
+The [WHO essential-public-health-functions record](records/comparative-who-essential-public-health-functions-institutional-capacity-2026.json) reports that more than 120 countries identify capacity to deliver essential public-health functions as a medium-to-high priority. It describes a recurring mismatch between the need for prevention and integrated institutions and health budgets that are insufficient, curative-skewed, fragmented, or donor-driven.
+
+The cross-source implication is that public-health resilience is a maintenance system with household consequences: weak prevention can reappear as illness, care time, travel, lost work, and lower trust. External and South-South financing can expand infrastructure, but the durability test is domestic ownership, workforce, data, routine service, and maintenance—not the announcement of a financing window alone.
+
+## Latest prosperity-distribution rotation: poverty exits are not the same as secure mobility
+
+The [World Bank Uzbekistan poverty and equity record](records/comparative-world-bank-uzbekistan-poverty-middle-class-job-quality-2026.json) reports a striking national improvement: poverty fell from 17.0% to 5.8%, approximately 3.7 million people exited poverty, and the middle-class share exceeded 72%. Yet around 85% of new jobs were informal, high-skilled work was concentrated around Tashkent, women’s care responsibilities constrained labor-force participation, and cash-transfer coverage fell from 26% to 8% of households.
+
+The cross-source implication is that aggregate prosperity, job quality, household security, and social inclusion must remain separate dimensions. A household may cross a poverty threshold while relying on informal work, care trade-offs, a single regional labor market, or a thinner safety net. The assessment does not establish causal or same-household trajectories; the next test follows work, care, mobility, learning, transfers, shocks, and return-to-poverty risk together.
+
+## Latest rural-urban-transition rotation: poverty reduction can relocate vulnerability
+
+The [World Bank Laos poverty and urban-vulnerability record](records/comparative-world-bank-laos-poverty-urban-vulnerability-remittances-2026.json) reports national poverty falling from 24.6% to 15% between 2012 and 2024, while urban poverty rose from 7% to 8.9%, the urban share of poor people increased, and remittance-receiving households more than doubled to 21.6%. Most poor workers remain in agriculture, and young people are more likely to be inactive or unpaid family workers.
+
+The cross-source implication is that development transitions can move the geography and social form of vulnerability rather than eliminate it. Rural gains, urban deterioration, migration, and remittances can coexist, with access sorted by information, networks, skills, and ethnicity. The profile does not establish causal migration welfare or household trajectories; the next test follows a corridor or group through mobility, work, housing, care, and services.
+
+## Latest regional-AI-governance rotation: employment-friendly AI is a negotiated regional project
+
+The [ILO ASEAN-China AI labour-policy record](records/comparative-ilo-asean-china-ai-labour-policy-dialogue-2026.json) reports a regional policy dialogue in which governments, workers, and employers discussed AI governance, public employment services, reskilling, digital divides, human judgment, and technical-standard coordination. The dialogue cites almost 80 million potentially GenAI-exposed workers in South-East Asia.
+
+The cross-source implication is that AI transformation is also a geopolitical labour bargain. Regional cooperation can expand policy agency and align standards across connected labour markets, but it can also diffuse dominant models without worker power. The source is agenda-setting, not implementation evidence; the next test follows a concrete policy into national institutions, firms, workers, and remedy.

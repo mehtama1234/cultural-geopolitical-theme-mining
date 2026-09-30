@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-european-commission-eurobarometer-energy-affordability-consumer-protection-2025",
+  "title": "European energy-transition legitimacy is being organized around affordable bills, consumer protection and practical control over energy use—not climate ambition alone",
+  "theme_ids": ["cost", "energy", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "European Commission Directorate-General for Energy, Special Eurobarometer 555 Europeans' attitudes towards energy policy and Flash Eurobarometer 566 Consumer behaviour in the energy transition",
+  "geography": "European Union citizens and consumers across all 27 EU Member States",
+  "observations": [
+    {
+      "period": "April–May 2024; EU energy-policy meaning and affordability priorities",
+      "denominator": {"value": 26000, "unit": "citizens interviewed across all EU Member States in Special Eurobarometer 555", "value_type": "reported_sample"},
+      "measures": {
+        "affordability_meaning": {"value": 40, "unit": "percent of respondents saying European energy policy means ensuring more affordable energy prices for consumers", "value_type": "reported_share"},
+        "energy_poor_support": {"value": 53, "unit": "percent supporting help for energy-poor households as an affordability measure", "value_type": "reported_share"},
+        "efficiency_support": {"value": 50, "unit": "percent supporting reducing energy consumption as an affordability measure", "value_type": "reported_share"},
+        "self_production_support": {"value": 50, "unit": "percent supporting promoting self-production and self-consumption as an affordability measure", "value_type": "reported_share"}
+      },
+      "method": "European Commission Special Eurobarometer 555 survey of citizens in all EU Member States, fielded April–May 2024.",
+      "uncertainty": "The survey measures priorities and preferences, not actual energy poverty, bill savings, adoption of self-generation, or the causal effect of any policy.",
+      "subgroup": "EU households, energy consumers, energy-poor households, prosumers and citizens evaluating EU energy policy.",
+      "counterinterpretation": "Affordability preferences can support both demand reduction and new clean-energy investment; they do not imply that citizens agree on who should finance or own the infrastructure.",
+      "source_url": "https://europa.eu/eurobarometer/surveys/detail/3229",
+      "retrieval_hash": "sha256:fa7f66c68549a6e5e921122e2e3087b69e310306e940a638af7b12dc68606ccc",
+      "status": "reported"
+    },
+    {
+      "period": "April–May 2024; household action and transition expectations",
+      "denominator": {"value": 26000, "unit": "citizens interviewed across all EU Member States in Special Eurobarometer 555", "value_type": "reported_sample"},
+      "measures": {
+        "personal_energy_action": {"value": 77, "unit": "percent of citizens reporting personal actions to consume less energy at home", "value_type": "reported_share"},
+        "clean_energy_jobs_belief": {"value": 80, "unit": "percent agreeing climate neutrality by 2050 will bring prominent benefits through new jobs and clean-energy investment", "value_type": "reported_share"},
+        "eu_coordination": {"value": 77, "unit": "percent favouring more EU-level coordination on energy-related matters", "value_type": "reported_share"}
+      },
+      "method": "European Commission Special Eurobarometer 555 descriptive analysis of energy behaviours, expected economic benefits and institutional coordination.",
+      "uncertainty": "Reported household action may include low-cost or temporary changes and does not establish durable consumption reduction; expectations about jobs and investment are not realized outcomes.",
+      "subgroup": "EU households, workers, consumers, citizens concerned with energy costs and people assessing the EU's role in energy governance.",
+      "counterinterpretation": "Broad support for coordination and clean-energy benefits can coexist with local resistance to infrastructure, provider distrust or disagreement over distributional costs.",
+      "source_url": "https://energy.ec.europa.eu/data-and-analysis/eurobarometers-energy_en",
+      "retrieval_hash": "sha256:fa7f66c68549a6e5e921122e2e3087b69e310306e940a638af7b12dc68606ccc",
+      "status": "reported"
+    },
+    {
+      "period": "June–July 2025; consumer protection in the energy transition",
+      "denominator": {"value": 18250, "unit": "interviews in Flash Eurobarometer 566 on EU consumers' behaviour in the energy transition", "value_type": "reported_sample"},
+      "measures": {
+        "vulnerable_consumer_protection": {"value": 38, "unit": "percent naming better protection of vulnerable consumers among expected improvements", "value_type": "reported_share"},
+        "bill_clarity": {"value": 34, "unit": "percent naming greater clarity and transparency of energy bills", "value_type": "reported_share"},
+        "unfair_practice_prevention": {"value": 34, "unit": "percent naming more prevention of unfair commercial practices", "value_type": "reported_share"},
+        "energy_data_access": {"value": 28, "unit": "percent naming improved access to energy data and monitoring tools", "value_type": "reported_share"},
+        "provider_switching": {"value": 20, "unit": "percent naming easier switching between providers", "value_type": "reported_share"}
+      },
+      "method": "European Commission Flash Eurobarometer 566, fielded 30 June–15 July 2025, examining bill understanding, consumption tracking, provider choice and consumer protection.",
+      "uncertainty": "The listed percentages identify expectations or priorities rather than verified provider misconduct, bill comprehension, switching rates, or protection outcomes.",
+      "subgroup": "EU energy consumers, vulnerable consumers, households comparing providers, people monitoring use and customers exposed to commercial practices.",
+      "counterinterpretation": "Consumer information and switching tools may help, but they cannot by themselves resolve income constraints, housing inefficiency, market concentration or volatile wholesale prices.",
+      "source_url": "https://europa.eu/eurobarometer/surveys/detail/3354",
+      "retrieval_hash": "sha256:fa7f66c68549a6e5e921122e2e3087b69e310306e940a638af7b12dc68606ccc",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; energy-transition legitimacy and household control",
+      "denominator": {"value": 1, "unit": "European Commission energy Eurobarometer synthesis across policy and consumer surveys", "value_type": "published_synthesis"},
+      "measures": {
+        "legitimacy_condition": {"value": "European consumers connect the energy transition to affordability, vulnerable-household protection, bill transparency, practical control and reliable institutional coordination", "unit": "reported synthesis", "value_type": "reported_interpretation"},
+        "control_route": {"value": "energy labels, consumption monitoring, self-production, provider choice and clearer bills are mechanisms through which households can experience agency", "unit": "reported policy route", "value_type": "reported_interpretation"},
+        "governance_route": {"value": "consumer protection and EU-level coordination are part of transition legitimacy alongside renewable investment and climate neutrality", "unit": "reported governance route", "value_type": "reported_policy_route_set"}
+      },
+      "method": "Cross-survey synthesis of European Commission energy-policy and consumer-behaviour Eurobarometers.",
+      "uncertainty": "This synthesis joins related surveys with different field periods, samples and question wording; it does not estimate a single causal model of support or household behaviour.",
+      "subgroup": "EU citizens, households, consumers, energy providers, regulators and policymakers.",
+      "counterinterpretation": "Perceived agency can be symbolic if households lack capital, suitable housing, time, information or market alternatives to act on these preferences.",
+      "source_url": "https://energy.ec.europa.eu/data-and-analysis/eurobarometers-energy_en",
+      "retrieval_hash": "sha256:fa7f66c68549a6e5e921122e2e3087b69e310306e940a638af7b12dc68606ccc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://europa.eu/eurobarometer/surveys/detail/3354", "claim": "Flash Eurobarometer 566 survey record and documents."},
+    {"source_url": "https://europa.eu/eurobarometer/surveys/detail/3229", "claim": "Special Eurobarometer 555 survey record and documents."},
+    {"source_url": "https://energy.ec.europa.eu/data-and-analysis/eurobarometers-energy_en", "claim": "European Commission synthesis page for energy Eurobarometers."}
+  ],
+  "boundary": "This record adds an EU household-control and consumer-protection route to the energy-transition atlas. It is public-attitudes and reported-behaviour evidence, not household meter data, a bill audit, a causal policy evaluation, or proof that stated support produces durable consumption change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The European Commission energy Eurobarometer synthesis page and the official survey detail pages for Special Eurobarometer 555 and Flash Eurobarometer 566 were reviewed for affordability priorities, household action, clean-energy expectations, EU coordination, bill clarity, vulnerable-consumer protection, data access and switching; the retrieved survey pages were hashed.",
+    "source_url_sha256": "sha256:fa7f66c68549a6e5e921122e2e3087b69e310306e940a638af7b12dc68606ccc",
+    "checked": "2026-09-27"
+  }
+}

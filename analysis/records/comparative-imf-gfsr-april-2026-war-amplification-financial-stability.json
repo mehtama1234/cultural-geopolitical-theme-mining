@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-imf-gfsr-april-2026-war-amplification-financial-stability",
+  "title": "War, inflation, leverage, and nonbank finance create multiple channels through which market stress can become broader instability",
+  "theme_ids": ["cost", "energy", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "International Monetary Fund, Global Financial Stability Report April 2026: Global Financial Markets Confront the War in the Middle East and Amplification Risks",
+  "geography": "Global financial system, emerging markets, commodity-importing and vulnerable economies, nonbank intermediaries, and major capital markets",
+  "observations": [
+    {
+      "period": "April 2026; global financial-stability risk",
+      "denominator": {"value": 1, "unit": "global financial system and market-risk assessment frame", "value_type": "financial_stability_frame"},
+      "measures": {
+        "risk_level": {"value": "global financial stability risks are elevated", "unit": "IMF GFSR assessment", "value_type": "reported_finding"},
+        "shock_channels": {"value": "war, inflation pressures, tighter financial conditions, and market turmoil can interact through multiple amplification channels", "unit": "IMF risk synthesis", "value_type": "reported_mechanism"},
+        "market_functioning": {"value": "market functioning has remained orderly, but risks are asymmetric and could intensify if conflict persists", "unit": "IMF market assessment", "value_type": "reported_finding"}
+      },
+      "method": "IMF global financial-stability surveillance, market analysis, scenario framing, and thematic assessment of systemic amplification channels.",
+      "uncertainty": "This is a risk assessment, not a forecast that instability will occur; market responses, policy intervention, liquidity, and conflict duration remain uncertain.",
+      "subgroup": "Borrowers, savers, investors, financial institutions, emerging markets, commodity importers, vulnerable economies, and public financial authorities.",
+      "counterinterpretation": "Orderly market functioning and decisive macroprudential action can interrupt amplification before market stress becomes a generalized crisis.",
+      "source_url": "https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026",
+      "retrieval_hash": "sha256:4a4fd65dd8ca9d16652cef5b60ca1613dc4d22ca2e13543ebb24b817cf309a36",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026; energy and inflation transmission",
+      "denominator": {"value": 1, "unit": "global markets, energy prices, inflation expectations, and policy-rate frame", "value_type": "market_transmission_frame"},
+      "measures": {
+        "market_move": {"value": "equity prices fell and bond yields rose after late-February developments", "unit": "IMF market observation", "value_type": "reported_finding"},
+        "energy_channel": {"value": "higher energy prices contributed to upward revisions in inflation and policy-rate expectations", "unit": "IMF transmission analysis", "value_type": "reported_mechanism"},
+        "emerging_market_exposure": {"value": "commodity-importing and more vulnerable emerging-market economies were disproportionately affected", "unit": "IMF comparative assessment", "value_type": "reported_difference"},
+        "household_route": {"value": "energy and financial tightening can reach household purchasing room through prices, credit costs, employment, and asset values", "unit": "macro-to-household transmission", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF analysis of market prices, inflation expectations, policy-rate repricing, and country-group exposure.",
+      "uncertainty": "Aggregate market moves do not identify household-level incidence, and the direction of future prices or policy rates remains scenario-dependent.",
+      "subgroup": "Energy-importing households, borrowers, renters, workers in exposed sectors, emerging-market consumers, and governments with limited buffers.",
+      "counterinterpretation": "Energy substitution, targeted transfers, monetary credibility, fiscal buffers, and resilient credit channels can reduce pass-through and protect essential consumption.",
+      "source_url": "https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026",
+      "retrieval_hash": "sha256:4a4fd65dd8ca9d16652cef5b60ca1613dc4d22ca2e13543ebb24b817cf309a36",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026; leverage, sovereign rollover, and nonbank amplification",
+      "denominator": {"value": 1, "unit": "global sovereign, banking, nonbank, and private-credit risk frame", "value_type": "financial_amplification_frame"},
+      "measures": {
+        "sovereign_risk": {"value": "elevated public debt and greater reliance on short-term issuance heighten rollover risks and could revive the sovereign-bank nexus", "unit": "IMF risk assessment", "value_type": "reported_mechanism"},
+        "nonbank_leverage": {"value": "leverage among hedge funds and leveraged exchange-traded funds could amplify volatility through forced deleveraging and liquidity strains", "unit": "IMF risk assessment", "value_type": "reported_mechanism"},
+        "private_credit": {"value": "rising borrower stress and growing retail exposure could test semiliquid private-credit structures", "unit": "IMF risk assessment", "value_type": "reported_risk"},
+        "capital_flow_sensitivity": {"value": "risk-sensitive nonbank portfolio flows make vulnerable emerging markets more exposed to shifts in global risk sentiment", "unit": "IMF chapter 2 finding", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF financial-stability analysis of sovereign funding, nonbank intermediaries, portfolio flows, leverage, and liquidity structures.",
+      "uncertainty": "Identified channels are vulnerabilities, not realized losses; institution-specific balance sheets and regulatory responses determine actual propagation.",
+      "subgroup": "Emerging-market borrowers, sovereigns, banks, nonbank funds, retail investors, pension savers, and firms dependent on market financing.",
+      "counterinterpretation": "Liquidity facilities, stronger data, prudent leverage, diversified funding, and supervisory coordination can prevent a market shock from becoming a solvency crisis.",
+      "source_url": "https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026",
+      "retrieval_hash": "sha256:4a4fd65dd8ca9d16652cef5b60ca1613dc4d22ca2e13543ebb24b817cf309a36",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026; AI concentration and resilience policy",
+      "denominator": {"value": 1, "unit": "global equity valuation, AI concentration, oversight, and resilience frame", "value_type": "technology_finance_frame"},
+      "measures": {
+        "concentration_risk": {"value": "stretched valuations and concentration, particularly in AI-related firms, raise downside risks", "unit": "IMF GFSR assessment", "value_type": "reported_risk"},
+        "policy_priorities": {"value": "operational liquidity facilities, inflation monitoring, central-bank and supervisory governance, Basel III, nonbank oversight, and cross-jurisdiction data sharing are identified priorities", "unit": "IMF policy recommendations", "value_type": "reported_framework"},
+        "institutional_quality": {"value": "countries reliant on risk-sensitive investors should strengthen fundamentals, institutional quality, fiscal and external buffers, and proactive risk management", "unit": "IMF chapter 2 policy framing", "value_type": "reported_framework"},
+        "coordination": {"value": "international cooperation is needed to close regulatory and data gaps and limit shock propagation", "unit": "IMF policy recommendation", "value_type": "reported_framework"}
+      },
+      "method": "IMF synthesis of market concentration, systemic risk, supervisory governance, and cross-border resilience policy.",
+      "uncertainty": "Policy priorities are not proof that a particular intervention will prevent losses in a given market; effectiveness depends on implementation and institutional context.",
+      "subgroup": "AI-linked firms and investors, supervisors, central banks, emerging markets, retail investors, and users of financial services.",
+      "counterinterpretation": "Concentration can accompany productive innovation; the risk question is whether valuation, leverage, data, and funding structures can absorb a sharp repricing.",
+      "source_url": "https://www.imf.org/en/publications/gfsr/issues/2026/04/14/global-financial-stability-report-april-2026",
+      "retrieval_hash": "sha256:4a4fd65dd8ca9d16652cef5b60ca1613dc4d22ca2e13543ebb24b817cf309a36",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/en/publications/gfsr", "claim": "The IMF GFSR series provides continuing systemic-risk and emerging-market financing context."},
+    {"source_url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026", "claim": "The IMF July 2026 WEO update provides complementary macroeconomic growth, inflation, war, and technology context."}
+  ],
+  "boundary": "This record adds a financial-stability route across war, energy, inflation, market repricing, sovereign rollover, nonbank leverage, capital flows, AI concentration, and public oversight. It uses IMF market surveillance and systemic-risk synthesis, not respondent-level data, household financial diaries, individual portfolio histories, causal market predictions, or proof that a listed vulnerability becomes a crisis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IMF April 2026 GFSR page reviewed for elevated risk, war and energy-price transmission, emerging-market exposure, sovereign rollover, nonbank leverage, private-credit stress, AI concentration, and resilience policy priorities.",
+    "source_url_sha256": "sha256:4a4fd65dd8ca9d16652cef5b60ca1613dc4d22ca2e13543ebb24b817cf309a36",
+    "checked": "2026-09-26"
+  }
+}

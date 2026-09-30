@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-dentsu-iwmbuzz-stream-culture-2026-india-relevance-cultural-afterlife-languages",
+  "title": "India's next screen era is framed around relevance, cultural afterlife, and plural mainstreams across languages, places, and communities",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Dentsu IWMBuzz, Stream Culture 2026",
+  "geography": "India's screen and streaming culture, as framed by a public industry field guide",
+  "observations": [
+    {
+      "period": "2026; India screen culture and audience behavior",
+      "denominator": {"value": 12, "unit": "signals identified by Dentsu IWMBuzz as shaping how India watches, discovers, pays for, talks about, and remembers content", "value_type": "reported_editorial_frame"},
+      "measures": {
+        "behavioral_scope": {"value": "watching, discovery, payment, conversation, and memory", "unit": "reported audience-behavior dimensions", "value_type": "reported_scope"},
+        "market_frame": {"value": "India's next screen era", "unit": "reported cultural-market frame", "value_type": "reported_frame"}
+      },
+      "method": "Dentsu IWMBuzz public report-page summary describing the scope of its Stream Culture 2026 field guide; the full digital edition is linked through the official page.",
+      "uncertainty": "The public page does not expose the complete 12-signal taxonomy, sampling design, underlying data, or full report methods; this is an industry framing document rather than a representative population estimate.",
+      "subgroup": "Indian audiences, creators, platforms, content producers, advertisers, brands, and communities organized around screen culture.",
+      "counterinterpretation": "A field guide can identify commercially salient cultural questions without establishing their prevalence, direction, or causal importance across India's diverse regions and socioeconomic groups.",
+      "source_url": "https://www.dentsu.com/in/en/reports/asa_streamculture2026",
+      "retrieval_hash": "sha256:0b3fcb6aa7ef391aa0015f7d4117305985dcf872ae53ac2c4660e0841bb10652",
+      "status": "reported"
+    },
+    {
+      "period": "2026; abundance and meaning in content choice",
+      "denominator": {"value": 1, "unit": "Dentsu's public transition frame", "value_type": "reported_editorial_frame"},
+      "measures": {
+        "abundance_to_relevance": {"value": "The next screen era is described as a shift from abundance to relevance", "unit": "reported cultural transition", "value_type": "reported_transition"},
+        "content_to_meaning": {"value": "The emphasis moves from more content to more meaning", "unit": "reported cultural transition", "value_type": "reported_transition"}
+      },
+      "method": "Official Dentsu IWMBuzz report-page language summarizing the report's central thesis.",
+      "uncertainty": "This is a strategic interpretation, not a quantified measure of content supply, attention, or audience preference; the public summary does not specify which behaviors or markets support the transition claim.",
+      "subgroup": "Viewers navigating large catalogs, platforms competing for attention, creators seeking cultural relevance, and brands seeking contextual fit.",
+      "counterinterpretation": "Relevance and meaning may be platform-constructed or commercially optimized, and abundance can remain valuable even when audiences use stronger filters and social recommendations.",
+      "source_url": "https://www.dentsu.com/in/en/reports/asa_streamculture2026",
+      "retrieval_hash": "sha256:0b3fcb6aa7ef391aa0015f7d4117305985dcf872ae53ac2c4660e0841bb10652",
+      "status": "reported"
+    },
+    {
+      "period": "2026; content circulation and cultural memory",
+      "denominator": {"value": 1, "unit": "Dentsu's public cultural-afterlife frame", "value_type": "reported_editorial_frame"},
+      "measures": {
+        "launch_to_afterlife": {"value": "Content value is framed as moving from launch noise toward cultural afterlife", "unit": "reported cultural transition", "value_type": "reported_transition"},
+        "durability": {"value": "Stories that travel and content that stays are presented as increasingly important outcomes", "unit": "reported strategic principle", "value_type": "reported_principle"}
+      },
+      "method": "Official Dentsu IWMBuzz report-page summary describing how content is talked about and remembered beyond launch.",
+      "uncertainty": "The public summary does not define cultural afterlife operationally or distinguish memory, repeat viewing, conversation, fandom, search, or commercial performance.",
+      "subgroup": "Audiences, creators, publishers, platforms, advertisers, and communities that extend the life of screen stories through conversation and circulation.",
+      "counterinterpretation": "Longer cultural circulation can reflect aggressive promotion, recommendation persistence, or franchise concentration rather than broad or meaningful cultural resonance.",
+      "source_url": "https://www.dentsu.com/in/en/reports/asa_streamculture2026",
+      "retrieval_hash": "sha256:0b3fcb6aa7ef391aa0015f7d4117305985dcf872ae53ac2c4660e0841bb10652",
+      "status": "reported"
+    },
+    {
+      "period": "2026; language, place, community, and the mainstream",
+      "denominator": {"value": 1, "unit": "Dentsu's public plural-mainstream frame", "value_type": "reported_editorial_frame"},
+      "measures": {
+        "plural_mainstream": {"value": "The mainstream is described as being shaped by many languages, places, and communities rather than one common center", "unit": "reported cultural pattern", "value_type": "reported_pattern"},
+        "strategic_implications": {"value": "The report summary says the next phase rewards attention earned, stories that travel, brands that belong, and content that stays", "unit": "reported strategic principles", "value_type": "reported_principle_set"}
+      },
+      "method": "Official Dentsu IWMBuzz report-page summary linking cultural plurality to content and brand strategy.",
+      "uncertainty": "The public page does not provide regional breakdowns, language-level prevalence, audience weights, or evidence that all communities receive equal visibility or bargaining power.",
+      "subgroup": "Linguistic and regional communities in India, creators, publishers, advertisers, brands, and platforms adapting global or national content to local contexts.",
+      "counterinterpretation": "Plurality can be commercially segmented while ownership, recommendation power, and monetization remain concentrated in a small number of platforms and institutions.",
+      "source_url": "https://www.dentsu.com/in/en/reports/asa_streamculture2026",
+      "retrieval_hash": "sha256:0b3fcb6aa7ef391aa0015f7d4117305985dcf872ae53ac2c4660e0841bb10652",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://assets-au-01.kc-usercontent.com/8522778e-477a-02d8-b8f9-9802f0f7a187/4110370e-c62e-4a5e-9a5a-9563e00830f2/DigitalEditon-Dentsu-IWMBuzz-StreamCulture2026.pdf", "claim": "The official Dentsu report page links the full digital edition of Stream Culture 2026."}
+  ],
+  "boundary": "This record adds an India-focused screen-culture signal on relevance over abundance, meaning, cultural afterlife, and plural mainstreams across languages, places, and communities. It is based on the official public summary of an industry field guide, not respondent-level data, a representative national survey, a complete streaming-market census, causal evidence, or the full gated report.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Dentsu IWMBuzz Stream Culture 2026 report page reviewed for its stated 12-signal scope, abundance-to-relevance transition, cultural-afterlife framing, and plural-mainstream language.",
+    "source_url_sha256": "sha256:0b3fcb6aa7ef391aa0015f7d4117305985dcf872ae53ac2c4660e0841bb10652",
+    "checked": "2026-09-27"
+  }
+}

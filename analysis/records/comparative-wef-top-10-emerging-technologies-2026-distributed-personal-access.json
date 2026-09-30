@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-top-10-emerging-technologies-2026-distributed-personal-access",
+  "title": "Emerging technologies are shifting value toward distributed infrastructure, point-of-use production, and personalized services while making trust and access central adoption constraints",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Economic Forum, Top 10 Emerging Technologies of 2026, published with Frontiers and strategic outlook by Dubai Future Foundation",
+  "geography": "Global technology, infrastructure, health, food, materials, and computing landscape",
+  "observations": [
+    {
+      "period": "June 2026; ten technologies selected for near-term potential impact",
+      "denominator": {"value": 10, "unit": "technologies covered in the WEF report", "value_type": "published_report_cohort"},
+      "measures": {
+        "technology_set": {"value": "everything-to-grid energy; direct lithium extraction; passive radiative cooling; PFAS destruction; precision fermentation; exosome drug delivery; personalized mRNA cancer vaccines; quantum simulation for drug discovery; world models; lattice-based cryptography", "unit": "reported technology cohort", "value_type": "reported_classification"},
+        "deployment_orientation": {"value": "the report frames the cohort as advances moving from research toward real-world deployment", "unit": "reported framing", "value_type": "reported_synthesis"},
+        "cross_cutting_pattern": {"value": "personal, distributed, and materially efficient", "unit": "reported cross-technology pattern", "value_type": "reported_synthesis"}
+      },
+      "method": "WEF publication developed with Frontiers and Dubai Future Foundation, using expert selection and qualitative technology assessment rather than a representative public survey or causal impact study.",
+      "uncertainty": "The cohort signals expert judgment about novelty, development progress, and potential impact; it does not estimate adoption probabilities, market size, public acceptance, or realized social outcomes.",
+      "subgroup": "Researchers, technology firms, utilities, manufacturers, hospitals, food producers, regulators, households, workers, and communities exposed to deployment choices.",
+      "counterinterpretation": "A technology can be technically promising yet fail to scale because of cost, regulation, infrastructure, supply chains, skills, liability, or public resistance; inclusion in a foresight list is not evidence of inevitability.",
+      "source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/digest/",
+      "retrieval_hash": "sha256:9048bb9923fb66a2f14dc189eadac2f74ca22df7e34181ebf66a155da3be4c29",
+      "status": "reported"
+    },
+    {
+      "period": "2026; production and infrastructure geography",
+      "denominator": {"value": 10, "unit": "technologies in the report cohort", "value_type": "published_report_cohort"},
+      "measures": {
+        "place_capability_decoupling": {"value": "precision fermentation, direct lithium extraction, passive radiative cooling, and everything-to-grid are presented as technologies that can loosen the link between capability and traditional physical location", "unit": "reported cross-technology mechanism", "value_type": "reported_synthesis"},
+        "distributed_energy": {"value": "buildings, vehicles, and devices can become active grid nodes that store, return, and coordinate electricity", "unit": "reported infrastructure mechanism", "value_type": "reported_mechanism"},
+        "food_production_shift": {"value": "precision fermentation can produce proteins and other molecules where reliable power, feedstocks, and trained biologists are available rather than only where conventional agriculture supports them", "unit": "reported production mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative synthesis of the report's technology descriptions and emerging-landscape discussion.",
+      "uncertainty": "The geographic effects depend on energy prices, capital, skills, local regulation, resource access, infrastructure, and whether production displaces or complements existing livelihoods.",
+      "subgroup": "Renters and homeowners, agricultural workers and regions, utilities, resource-producing communities, manufacturers, and local governments.",
+      "counterinterpretation": "Distributed or location-flexible production can diversify supply while concentrating control in software, finance, intellectual property, or specialized infrastructure owners.",
+      "source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/in-full/the-emerging-landscape/",
+      "retrieval_hash": "sha256:473690da262012b584de3f6bd373fd24f1db99931ea59115d9f0a408c94516f4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; point-of-use value and personalized health",
+      "denominator": {"value": 10, "unit": "technologies in the report cohort", "value_type": "published_report_cohort"},
+      "measures": {
+        "value_location": {"value": "the report identifies a shift from standardized mass production toward value produced closer to the point of use", "unit": "reported cross-technology pattern", "value_type": "reported_synthesis"},
+        "personalized_oncology": {"value": "personalized mRNA cancer vaccines use a patient's tumour mutations as the starting specification for therapy", "unit": "reported health mechanism", "value_type": "reported_mechanism"},
+        "biological_delivery": {"value": "exosome drug delivery is presented as a route across biological barriers, including the blood-brain barrier", "unit": "reported health mechanism", "value_type": "reported_mechanism"},
+        "clinical_pipeline": {"value": 200, "unit": "exosome clinical trials launched since 2022, as reported by WEF", "value_type": "reported_count"}
+      },
+      "method": "Report synthesis of scientific and commercial development examples; the clinical-trial count is retained as published context and not independently audited here.",
+      "uncertainty": "Technical progress does not establish clinical efficacy, affordability, safety, reimbursement, manufacturing capacity, or equitable access.",
+      "subgroup": "Patients, caregivers, clinicians, health systems, biomanufacturers, insurers, and people outside well-resourced sequencing and treatment systems.",
+      "counterinterpretation": "Personalization can improve fit and effectiveness while increasing data, manufacturing, regulatory, and affordability burdens and potentially widening health-system disparities.",
+      "source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/digest/",
+      "retrieval_hash": "sha256:9048bb9923fb66a2f14dc189eadac2f74ca22df7e34181ebf66a155da3be4c29",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust, access, and governance conditions",
+      "denominator": {"value": 10, "unit": "technologies in the report cohort", "value_type": "published_report_cohort"},
+      "measures": {
+        "trust_constraint": {"value": "trust is described as a precondition for engineered food, personalized therapies, and household participation in distributed energy systems", "unit": "reported adoption condition", "value_type": "reported_synthesis"},
+        "access_constraint": {"value": "the report warns that benefits may concentrate in regions and populations already positioned to capture them", "unit": "reported distributional risk", "value_type": "reported_synthesis"},
+        "governance_need": {"value": "accountability, audit, assumption-testing, regulatory frameworks, standards, and compensation design are identified as necessary alongside technical progress", "unit": "reported governance requirement set", "value_type": "reported_mechanism_set"},
+        "control_tradeoff": {"value": "households may gain resilience or compensation from flexible energy assets while sharing data and giving up some control over charging and discharge", "unit": "reported household tradeoff", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative strategic outlook and emerging-landscape synthesis; no independent measurement of trust, access, or distributional outcomes.",
+      "uncertainty": "The report identifies plausible conditions and risks, but the direction and magnitude of public response, inequality, and institutional control remain open.",
+      "subgroup": "Households, renters, patients, agricultural communities, regulators, utilities, platform operators, and populations with limited capital or infrastructure access.",
+      "counterinterpretation": "Policy, public investment, open standards, and inclusive procurement could broaden access; unequal outcomes are risks in the report's default scenario, not fixed results.",
+      "source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/in-full/the-emerging-landscape/",
+      "retrieval_hash": "sha256:473690da262012b584de3f6bd373fd24f1db99931ea59115d9f0a408c94516f4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/", "claim": "Complementary sustainability-officer evidence on transition investment, adaptation, AI resource intensity, and resilience capital."},
+    {"source_url": "https://www.weforum.org/publications/the-resilience-to-growth-circularity-playbook-for-industrial-solutions-and-manufacturing/", "claim": "Complementary industrial evidence on circularity, resource security, repair, and recurring revenue."}
+  ],
+  "boundary": "This record adds a broad technology-and-society signal across distributed infrastructure, food production, health personalization, materials, household participation, trust, access, and governance. It is a foresight and expert-synthesis source, not a representative public-opinion measure, adoption forecast, clinical evaluation, causal impact estimate, or proof of equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Accessible official WEF digest and full-report emerging-landscape pages were reviewed for the ten-technology cohort, cross-cutting patterns, technology mechanisms, and trust/access conditions; the linked PDF endpoint timed out during retrieval.",
+    "source_url_sha256": "sha256:9048bb9923fb66a2f14dc189eadac2f74ca22df7e34181ebf66a155da3be4c29",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pwc-uk-consumer-sentiment-festive-spending-2026",
+  "title": "Consumer confidence rebounds while culturally meaningful spending remains a protected but fragile household occasion",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "consumer_power_recourse", "unequal_exposure_status", "time_hidden_price", "public_systems_feedback"],
+  "source_unit": "PwC UK, Consumer Sentiment Survey press release, 14 September 2026",
+  "geography": "United Kingdom; nationally representative survey of adults, fielded 11-13 August 2026",
+  "observations": [
+    {
+      "period": "April-August 2026; consumer sentiment and household financial room",
+      "denominator": {"value": 2070, "unit": "UK adults in nationally representative PwC Consumer Sentiment Survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "sentiment_april": {"value": -13, "unit": "PwC consumer sentiment index score", "value_type": "reported_index"},
+        "sentiment_august": {"value": 1, "unit": "PwC consumer sentiment index score", "value_type": "reported_index"},
+        "healthy_finances": {"value": 39, "unit": "percent saying they have money left at month end for luxuries or savings", "value_type": "reported_survey_share"},
+        "healthy_finances_2022": {"value": 27, "unit": "percent in September 2022", "value_type": "reported_survey_share"},
+        "cutback_intention": {"value": 68, "unit": "percent planning some spending cutback in the next three months", "value_type": "reported_survey_share"},
+        "rebound_mechanism": {"value": "Financial confidence can improve without households becoming unconstrained consumers", "unit": "reported contrast", "value_type": "analytic_mechanism"}
+      },
+      "method": "PwC nationally representative cross-sectional consumer survey; the press release reports an index and subgroup shares but not a panel design.",
+      "uncertainty": "The release does not establish whether the same households moved from strain to room, how the index is constructed, or whether intended cutbacks became realized spending changes.",
+      "subgroup": "UK adults across age, socioeconomic, and household-finance groups.",
+      "counterinterpretation": "The sentiment rebound may reflect temporary inflation expectations, seasonal optimism, or survey timing rather than durable financial security.",
+      "source_url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/consumer-sentiment-rises-to-its-highest-level-in-five-years--but.html",
+      "retrieval_hash": "sha256:2cc72991e268bd78af904d11fad75aaad8592734bb8fc1812978b33b6cb43af7",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; continuing household exposure despite improved sentiment",
+      "denominator": {"value": 2070, "unit": "UK adults in nationally representative PwC Consumer Sentiment Survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "cost_of_living_concern": {"value": 85, "unit": "percent naming cost of living as a top concern", "value_type": "reported_survey_share"},
+        "uk_economy_concern": {"value": 86, "unit": "percent naming the UK economy as a top concern", "value_type": "reported_survey_share"},
+        "environment_concern": {"value": 75, "unit": "percent naming environment/global warming as a concern", "value_type": "reported_survey_share"},
+        "young_job_security": {"value": 61, "unit": "percent of 18-24-year-olds worried about job prospects or security", "value_type": "reported_survey_share"},
+        "rent_mortgage_concern": {"value": 62, "unit": "percent of 25-34-year-olds concerned about mortgage repayments or rent increases", "value_type": "reported_survey_share"},
+        "fragile_recovery": {"value": "Improving sentiment coexists with high cost, housing, environmental, and job-security concern", "unit": "reported cross-pressure", "value_type": "analytic_mechanism"}
+      },
+      "method": "Cross-sectional survey comparisons between August and earlier 2026 waves as reported by PwC.",
+      "uncertainty": "The release reports concerns and intentions, not verified arrears, rent changes, job loss, emissions exposure, or realized household consumption.",
+      "subgroup": "Young adults, younger renters or mortgage holders, and the general UK adult population.",
+      "counterinterpretation": "Concern can remain high during an actual improvement in disposable income; stated concern is not equivalent to material deprivation.",
+      "source_url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/consumer-sentiment-rises-to-its-highest-level-in-five-years--but.html",
+      "retrieval_hash": "sha256:2cc72991e268bd78af904d11fad75aaad8592734bb8fc1812978b33b6cb43af7",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025-August 2026; Christmas spending intentions",
+      "denominator": {"value": 2070, "unit": "UK adults in nationally representative PwC Consumer Sentiment Survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "spend_more": {"value": 25, "unit": "percent expecting to spend more on Christmas shopping and celebrations", "value_type": "reported_survey_share"},
+        "spend_less": {"value": 21, "unit": "percent expecting to spend less", "value_type": "reported_survey_share"},
+        "spend_more_prior_year": {"value": 22, "unit": "percent expecting to spend more one year earlier", "value_type": "reported_survey_share"},
+        "spend_less_prior_year": {"value": 26, "unit": "percent expecting to spend less one year earlier", "value_type": "reported_survey_share"},
+        "early_shopping": {"value": 14, "unit": "percent who had already started Christmas shopping by mid-August", "value_type": "reported_survey_share"},
+        "protected_occasion": {"value": "Festive spending appears to function as a culturally meaningful occasion that some households protect even while planning broader cutbacks", "unit": "reported intention pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey question on planned Christmas shopping and celebrations, with comparison to September 2025 results.",
+      "uncertainty": "Intentions are not receipts; the release does not show category mix, debt, household composition, or who bears the spending burden.",
+      "subgroup": "UK adults planning Christmas spending, including households reporting stronger or weaker financial positions.",
+      "counterinterpretation": "Higher planned spending may reflect price inflation, timing shifts, or earlier purchasing rather than more quantity, generosity, or social participation.",
+      "source_url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/consumer-sentiment-rises-to-its-highest-level-in-five-years--but.html",
+      "retrieval_hash": "sha256:2cc72991e268bd78af904d11fad75aaad8592734bb8fc1812978b33b6cb43af7",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; reasons for protecting or reducing festive spending",
+      "denominator": {"value": 2070, "unit": "UK adults in nationally representative PwC Consumer Sentiment Survey; reason questions are routed subgroups", "value_type": "published_survey_sample"},
+      "measures": {
+        "keep_christmas_special": {"value": 33, "unit": "percent of those planning to spend more citing keeping Christmas special", "value_type": "reported_subgroup_share"},
+        "saved_up": {"value": 32, "unit": "percent of those planning to spend more citing saving throughout the year", "value_type": "reported_subgroup_share"},
+        "cost_pressure": {"value": 73, "unit": "percent of those planning to spend less citing rising cost of living", "value_type": "reported_subgroup_share"},
+        "occasion_to_budget_route": {"value": "Households translate financial pressure through a cultural priority: preserve a meaningful ritual if possible, otherwise cut it when costs overwhelm the occasion", "unit": "reported interpretive route", "value_type": "analytic_mechanism"},
+        "consumer_meaning": {"value": "Consumer spending is partly an allocation of identity, ritual, and social continuity, not only a response to prices", "unit": "analytic interpretation", "value_type": "inference"}
+      },
+      "method": "Routed survey follow-up questions among respondents planning to increase or decrease festive spending.",
+      "uncertainty": "The press release does not disclose routed subgroup bases, confidence intervals, or whether “keep Christmas special” means gifts, food, travel, or social events.",
+      "subgroup": "Respondents planning to spend more or less on Christmas shopping and celebrations.",
+      "counterinterpretation": "The language of a special occasion may rationalize ordinary seasonal spending; it does not prove a generalized cultural shift or actual social reconnection.",
+      "source_url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/consumer-sentiment-rises-to-its-highest-level-in-five-years--but.html",
+      "retrieval_hash": "sha256:2cc72991e268bd78af904d11fad75aaad8592734bb8fc1812978b33b6cb43af7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pwc.co.uk/industries/consumer-markets/consumer-insights.html", "claim": "PwC consumer-market context and survey program route.", "status": "context-page"}
+  ],
+  "boundary": "This record adds a consumer-culture mechanism linking sentiment, household room, cost pressure, housing and job concerns, and protected festive occasions. It does not establish realized spending, household welfare, debt, social connection, or causality; several reason figures use routed subgroups without disclosed bases.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "PwC UK official press release reviewed for survey date and sample, sentiment index, financial-health shares, concerns, spending intentions, festive reasons, and stated limits.",
+    "source_page_sha256": "sha256:2cc72991e268bd78af904d11fad75aaad8592734bb8fc1812978b33b6cb43af7",
+    "checked": "2026-09-28"
+  }
+}

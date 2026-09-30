@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-digital-identity-sector-2026-trust-access-market",
+  "title": "Digital identity is becoming an infrastructure layer for finance, work, public services, and age assurance, while trust and access remain use-case specific",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UK Department for Science, Innovation and Technology / Office for Digital Identities and Attributes, Digital Identity Sectoral Analysis Report 2026",
+  "geography": "United Kingdom digital-identity sector and UK residents aged 18–66 in a weighted November 2025 consumer survey",
+  "observations": [
+    {
+      "period": "2024/25 UK digital-identity sector assessment",
+      "denominator": {"value": 275, "unit": "firms identified as providing digital-identity products and services in the UK", "value_type": "reported_market_count"},
+      "measures": {
+        "sector_revenue": {"value": 2027, "unit": "million pounds estimated annual revenue", "value_type": "modeled_market_estimate"},
+        "sector_gva": {"value": 1037, "unit": "million pounds estimated gross value added", "value_type": "modeled_market_estimate"},
+        "employment": {"value": 9624, "unit": "estimated full-time-equivalent digital-identity roles", "value_type": "modeled_employment_estimate"},
+        "provider_use_cases": {"value": "75% of providers offer identity or attribute verification; healthcare and public-service customers rose from 58% to 72% of firms reporting such customers", "unit": "reported provider shares", "value_type": "reported_market_pattern"},
+        "mechanism": {"value": "Identity verification is moving from a niche compliance function toward a cross-sector infrastructure layer spanning finance, work, healthcare, public services, and age assurance", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Market taxonomy and firm-level assessment using company research, web data, audited accounts, Companies House filings, provider review, and modeled allocation across diversified firms.",
+      "uncertainty": "Revenue, GVA, and employment are estimates rather than a formal national-accounts series; the sector lacks a dedicated Standard Industrial Classification and the report does not establish policy causality.",
+      "subgroup": "UK digital-identity providers, customers, use cases, and sector segments.",
+      "counterinterpretation": "Market growth can reflect compliance demand, consolidation, or reclassification rather than broad consumer benefit or improved public-service access.",
+      "source_url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026/digital-identity-sectoral-analysis-report-2026",
+      "retrieval_hash": "sha256:33eb545153fcf672c14ab8118d7b2f8b81243b41c645140140ff1055c795d635",
+      "status": "reported"
+    },
+    {
+      "period": "November 2025 UK consumer survey; understanding and use of digital identity",
+      "denominator": {"value": 5658, "unit": "UK residents aged 18–66 surveyed by Survation; weighted by age, sex, region, income, qualifications, employment, socioeconomic group, and ethnicity", "value_type": "reported_survey_frame"},
+      "measures": {
+        "some_understanding": {"value": 81, "unit": "percent reporting at least some understanding of digital identity", "value_type": "reported_share"},
+        "used_digital_identity": {"value": 77, "unit": "percent reporting use of a digital identity service for at least one purpose", "value_type": "reported_share"},
+        "income_understanding_gap": {"value": "72% of respondents in households under £19,999 reported some understanding versus 88% among households earning £40,000 or more", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "income_use_gap": {"value": "65% of respondents in households under £19,999 reported use versus 87% among households earning £40,000 or more", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "mechanism": {"value": "Digital identity familiarity and use are spreading, but income-linked gaps in understanding and use can turn identity infrastructure into a stratified access layer", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted online consumer survey with updated use-case prompts and a larger sample than the 2025 baseline.",
+      "uncertainty": "The report warns that the revised questionnaire, expanded use cases, and changed baseline validation limit direct year-over-year comparison; self-reported use may include identity checks respondents did not recognize as such.",
+      "subgroup": "UK residents by age, household income, digital skills, digital access, and other demographic characteristics.",
+      "counterinterpretation": "Lower reported use may reflect fewer life events requiring verification rather than exclusion, and awareness can improve without producing control over data or service choice.",
+      "source_url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026/digital-identity-sectoral-analysis-report-2026",
+      "retrieval_hash": "sha256:33eb545153fcf672c14ab8118d7b2f8b81243b41c645140140ff1055c795d635",
+      "status": "reported"
+    },
+    {
+      "period": "November 2025 UK consumer survey; context-specific digital versus physical preference",
+      "denominator": {"value": 5658, "unit": "weighted UK consumer survey respondents; scenario preferences are reported among the survey sample", "value_type": "reported_survey_frame"},
+      "measures": {
+        "online_age_purchase": {"value": "39% prefer digital identity and 25% prefer physical identity for online age-restricted purchases", "unit": "reported scenario preference", "value_type": "reported_subgroup_comparison"},
+        "public_services": {"value": "36% prefer digital and 28% physical for accessing government or NHS services", "unit": "reported scenario preference", "value_type": "reported_subgroup_comparison"},
+        "healthcare": {"value": "28% prefer digital and 35% physical for healthcare appointments", "unit": "reported scenario preference", "value_type": "reported_subgroup_comparison"},
+        "in_person_age": {"value": "23% prefer digital and 41% physical for proving age in a bar, restaurant, or cinema", "unit": "reported scenario preference", "value_type": "reported_subgroup_comparison"},
+        "mechanism": {"value": "Acceptance of digital identity depends on the social and institutional context: convenience is more attractive online, while physical proof remains preferred in many embodied or sensitive encounters", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Scenario-based survey question offering digital, physical, either, would-not-do, and don't-know response options.",
+      "uncertainty": "Stated preference is not actual adoption, and scenarios differ in perceived risk, convenience, coercion, and ability to substitute one form of identity for another.",
+      "subgroup": "UK residents aged 18–66 across nine identity-verification scenarios.",
+      "counterinterpretation": "People may prefer physical identity in principle but still use digital identity when it is cheaper, faster, or required by a service; preference and practical choice can diverge.",
+      "source_url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026/digital-identity-sectoral-analysis-report-2026",
+      "retrieval_hash": "sha256:33eb545153fcf672c14ab8118d7b2f8b81243b41c645140140ff1055c795d635",
+      "status": "reported"
+    },
+    {
+      "period": "November 2025 UK consumer survey; importance, sentiment, and non-use",
+      "denominator": {"value": 5658, "unit": "weighted UK consumer survey respondents; non-use base is 1,307 respondents", "value_type": "reported_survey_frame"},
+      "measures": {
+        "future_importance": {"value": 71, "unit": "percent saying digital identity will be important over the next five years", "value_type": "reported_share"},
+        "positive_direction": {"value": 43, "unit": "percent with a very or somewhat positive view of the current direction of digital identity development", "value_type": "reported_share"},
+        "negative_direction": {"value": 24, "unit": "percent with a very or somewhat negative view", "value_type": "reported_share"},
+        "non_user_reasons": {"value": "Among non-users, 29% preferred physical ID, 29% had not needed to prove identity, 15% had no digital option, 15% were uncomfortable with the technology, and 12% cited privacy or security concerns", "unit": "reported multiple-response shares", "value_type": "reported_pattern"},
+        "mechanism": {"value": "People can expect digital identity to become important without positively endorsing its direction, creating a legitimacy problem in which inevitability is mistaken for consent", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted survey measures of future importance, direction of development, and reasons for non-use; non-use reasons allow multiple responses.",
+      "uncertainty": "The report does not measure actual consent, privacy outcomes, coercive switching, complaint remedy, or the effect of the proposed national digital-ID policy on trust.",
+      "subgroup": "UK residents overall and respondents who reported no prior digital-identity use.",
+      "counterinterpretation": "Perceived importance may reflect expectation of institutional rollout rather than support; non-use can reflect lack of exposure rather than resistance.",
+      "source_url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-report-2026/digital-identity-sectoral-analysis-report-2026",
+      "retrieval_hash": "sha256:33eb545153fcf672c14ab8118d7b2f8b81243b41c645140140ff1055c795d635",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/digital-identity-sectoral-analysis-2025/digital-identity-sectoral-analysis-2025", "claim": "UK baseline digital-identity sector assessment used for bounded comparison."},
+    {"source_url": "https://www.oecd.org/en/publications/digital-government-outlook-2026_0496b2bc-en.html", "claim": "Comparative public-sector digital-identity adoption and non-digital-channel companion source."}
+  ],
+  "boundary": "This record adds a UK route from digital-identity market expansion and service embedding through consumer understanding, income-linked use, context-specific preference, public legitimacy, and exclusion risk. It preserves modeled market estimates, weighted survey, revised-baseline, self-report, and non-causal boundaries; it does not establish that digital identity improves service access, privacy, fraud outcomes, or trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK report reviewed for sector size, market adoption, use cases, survey frame, income and access differences, scenario preferences, non-use, sentiment, future importance, methodology changes, and limitations.",
+    "source_url_sha256": "sha256:33eb545153fcf672c14ab8118d7b2f8b81243b41c645140140ff1055c795d635",
+    "checked": "2026-09-28"
+  }
+}

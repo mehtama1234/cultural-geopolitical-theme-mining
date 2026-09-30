@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iea-energy-technology-perspectives-2026-supply-chains-affordability-industrial-policy",
+  "title": "Clean-energy transition capacity is becoming a supply-chain, manufacturing, trade, affordability, and industrial-policy problem as much as a deployment problem",
+  "theme_ids": ["energy", "cost", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "International Energy Agency, Energy Technology Perspectives 2026",
+  "geography": "Global clean-energy technology deployment, manufacturing, investment, trade, supply chains, and industrial competitiveness",
+  "observations": [
+    {
+      "period": "2026; global clean-energy technology policy and market landscape",
+      "denominator": {"value": 1, "unit": "IEA Energy Technology Perspectives 2026 global analytical frame", "value_type": "reported_framework"},
+      "measures": {
+        "policy_objectives": {"value": "Governments are balancing energy security, affordability, economic competitiveness, climate goals, and environmental objectives while building clean-energy technology supply chains", "unit": "reported policy tension set", "value_type": "reported_interpretation"},
+        "technology_system_scope": {"value": "The report examines deployment, manufacturing, project pipelines, investment, trade, infrastructure, and materials", "unit": "reported analytical scope", "value_type": "reported_scope"},
+        "transition_mechanism": {"value": "Clean-energy transition outcomes depend on the interaction between demand-side deployment and supply-side capacity, trade, costs, and industrial policy", "unit": "reported system mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IEA flagship technology publication using quantitative analysis and modelling of energy-technology deployment, manufacturing, project pipelines, investments, trade, and supply-chain vulnerabilities.",
+      "uncertainty": "The public report page describes the analytical scope but not the full scenario assumptions, model outputs, country-level distribution, or realized household and worker effects; policy goals can conflict and outcomes vary by technology and region.",
+      "subgroup": "Governments, energy and manufacturing firms, workers, investors, technology suppliers, consumers exposed to energy prices, communities near projects, and countries dependent on imported materials or components.",
+      "counterinterpretation": "Supply-chain resilience and industrial competitiveness can improve deployment while increasing costs, trade conflict, extraction pressure, subsidy competition, or unequal access to affordable clean energy.",
+      "source_url": "https://www.iea.org/reports/energy-technology-perspectives-2026",
+      "retrieval_hash": "sha256:4b63b25ed984195f6252bdab7bce6272c9b1f08907c7c95826a8754baf6ff4fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; energy-technology manufacturing and trade",
+      "denominator": {"value": 6, "unit": "key clean-energy technology supply chains represented in the IEA Manufacturing and Trade Model", "value_type": "reported_model_scope"},
+      "measures": {
+        "modeled_chains": {"value": "Solar PV, wind turbines, electric cars, batteries, electrolysers, and heat pumps", "unit": "technology supply-chain set", "value_type": "reported_model_scope"},
+        "model_outputs": {"value": "The model generates sector-by-sector and region-by-region long-term scenarios for manufacturing and trade", "unit": "reported modelling capability", "value_type": "reported_method"},
+        "dependency_route": {"value": "Technology deployment is linked to manufacturing capacity, trade flows, materials, regional specialization, and policy assumptions", "unit": "reported system mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IEA description of the Manufacturing and Trade Model and its connection to the broader Global Energy and Climate Model framework.",
+      "uncertainty": "Scenario projections depend on underlying assumptions about energy-system evolution, policy, demand, costs, trade, and technology; modeled capacity is not the same as guaranteed delivery or equitable deployment.",
+      "subgroup": "Technology manufacturers, component and material suppliers, exporting and importing countries, industrial workers, project developers, utilities, and consumers of vehicles, heating, and electricity.",
+      "counterinterpretation": "Diversifying supply chains may reduce one form of geopolitical dependence while creating new bottlenecks, raising capital costs, moving environmental burdens, or locking in incumbent technologies and firms.",
+      "source_url": "https://www.iea.org/reports/energy-technology-perspectives-2026",
+      "retrieval_hash": "sha256:4b63b25ed984195f6252bdab7bce6272c9b1f08907c7c95826a8754baf6ff4fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; supply-chain vulnerability and industrial competitiveness",
+      "denominator": {"value": 1, "unit": "IEA report special-focus frame", "value_type": "reported_framework"},
+      "measures": {
+        "vulnerability_focus": {"value": "The 2026 edition puts special focus on vulnerabilities in energy-technology supply chains", "unit": "reported analytical priority", "value_type": "reported_priority"},
+        "industrial_competitiveness": {"value": "Manufacturing cost structures and industrial-policy impacts are treated as part of the transition analysis", "unit": "reported analytical priority", "value_type": "reported_scope"},
+        "policy_consequence": {"value": "Energy and climate policy is increasingly entangled with industrial strategy, trade, investment, and economic security", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IEA public report-page description of the 2026 edition's focus on supply-chain vulnerability, manufacturing costs, and industrial policy.",
+      "uncertainty": "The public page does not quantify the relative contribution of each vulnerability or identify which countries, firms, workers, or consumers bear adjustment costs; policy effectiveness remains scenario-dependent.",
+      "subgroup": "Industrial-policy makers, manufacturers, trade authorities, investors, workers in affected supply chains, and communities exposed to production or resource extraction.",
+      "counterinterpretation": "Industrial competitiveness metrics can prioritize national firm advantage over global emissions reduction, labor conditions, affordability, or community consent; resilience rhetoric can justify protectionism or subsidy races.",
+      "source_url": "https://www.iea.org/reports/energy-technology-perspectives-2026",
+      "retrieval_hash": "sha256:4b63b25ed984195f6252bdab7bce6272c9b1f08907c7c95826a8754baf6ff4fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; technology visibility and evidence infrastructure",
+      "denominator": {"value": 600, "unit": "individual technology designs and components represented in the IEA Clean Technology Guide, approximately", "value_type": "reported_database_scope"},
+      "measures": {
+        "technology_guide": {"value": 600, "unit": "clean-energy technology designs and components in the IEA interactive guide, approximately", "value_type": "reported_database_scope"},
+        "data_infrastructure": {"value": "The IEA combines an interactive technology database, deployment dashboards, modelling, policy analysis, and manufacturing/trade documentation", "unit": "reported evidence infrastructure", "value_type": "reported_institutional_response"},
+        "decision_use": {"value": "The publication is intended to inform policy decisions about technology deployment, supply chains, investment, trade, and industrial competitiveness", "unit": "reported use case", "value_type": "reported_use"}
+      },
+      "method": "IEA report page and linked data/model documentation describing the Clean Technology Guide, online contents, and Manufacturing and Trade Model.",
+      "uncertainty": "A technology inventory and model framework improve visibility but do not resolve data gaps, political trade-offs, local acceptance, project execution, affordability, or environmental and labor impacts.",
+      "subgroup": "Policy makers, analysts, investors, manufacturers, infrastructure planners, researchers, and communities seeking to evaluate clean-energy technology pathways.",
+      "counterinterpretation": "More detailed technology and trade data can support better decisions, but it can also privilege what is measurable and legible to large institutions while underrepresenting informal work, local knowledge, distributional harm, and contested projects.",
+      "source_url": "https://www.iea.org/reports/energy-technology-perspectives-2026",
+      "retrieval_hash": "sha256:4b63b25ed984195f6252bdab7bce6272c9b1f08907c7c95826a8754baf6ff4fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://iea.blob.core.windows.net/assets/8483779b-e472-435b-b173-2156f92b8a33/EnergyTechnologyPerspectives2026.pdf", "claim": "Official IEA report page links the full Energy Technology Perspectives 2026 PDF."}
+  ],
+  "boundary": "This record adds an infrastructure and geopolitical-economy signal on clean-energy technology deployment, manufacturing, trade, supply-chain vulnerability, cost, industrial competitiveness, and evidence infrastructure. It is based on the official IEA report description and model documentation, not a causal forecast, a project-level delivery audit, a household affordability study, or proof that modeled transition pathways will be equitable or realized.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IEA Energy Technology Perspectives 2026 report page reviewed for policy context, deployment and supply-side scope, special focus on supply-chain vulnerability and industrial competitiveness, six modeled technology chains, Clean Technology Guide, and Manufacturing and Trade Model.",
+    "source_url_sha256": "sha256:4b63b25ed984195f6252bdab7bce6272c9b1f08907c7c95826a8754baf6ff4fc",
+    "checked": "2026-09-27"
+  }
+}

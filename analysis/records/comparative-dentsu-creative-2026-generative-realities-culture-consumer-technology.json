@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-dentsu-creative-2026-generative-realities-culture-consumer-technology",
+  "title": "Generative technology is accelerating cultural production while consumers seek craft, friction, grounding, and reconnection",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Dentsu Creative, Generative Realities Trends Report 2026",
+  "geography": "Consumer and cultural trend synthesis informed by research across the United States, United Kingdom, India, Spain, Brazil, China, and Japan",
+  "observations": [
+    {
+      "period": "2026; generative technology and cultural production",
+      "denominator": {"value": 4500, "unit": "consumers across seven markets contributing to the published quantitative research frame", "value_type": "published_consumer_research_frame"},
+      "measures": {
+        "research_scope": {"value": 4500, "unit": "approximately consumers included in the report's quantitative research", "value_type": "reported_sample_size"},
+        "cultural_acceleration": {"value": "generative technology is changing the pace at which ideas affect culture and commercial expression", "unit": "Dentsu report synthesis", "value_type": "reported_mechanism"},
+        "production_boundary": {"value": "the report combines global strategist analysis with consumer research rather than presenting a universal population estimate", "unit": "publication method", "value_type": "reported_boundary"}
+      },
+      "method": "Dentsu Creative synthesis of global strategy analysis and quantitative consumer research across seven markets.",
+      "uncertainty": "The published research frame is not a probability sample of the world and does not establish causal effects of generative technology on culture, identity, demand, or wellbeing.",
+      "subgroup": "Consumers, creators, cultural industries, brands, platform users, technology workers, and people with different levels of access to generative tools.",
+      "counterinterpretation": "Faster cultural production can broaden participation and experimentation, while also increasing sameness, saturation, labor displacement, and difficulty distinguishing human from synthetic work.",
+      "source_url": "https://www.dentsu.com/tw/en/reports/n2026_creative_report_generative_realities",
+      "retrieval_hash": "sha256:73104114a59994a9d573842eec14c2c136666131d4751fbc73397456cd59d09d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; craft, friction, difference, and fandom",
+      "denominator": {"value": 1, "unit": "Dentsu cultural-trend and consumer-behavior synthesis", "value_type": "cultural_consumption_frame"},
+      "measures": {
+        "craft_response": {"value": "a desire for craft, friction, and difference is emerging alongside generative abundance", "unit": "Dentsu report synthesis", "value_type": "reported_pattern"},
+        "hobby_and_fandom": {"value": "unconventional hobbies and fandoms are identified as channels for participation and distinction", "unit": "Dentsu report synthesis", "value_type": "reported_mechanism"},
+        "value_shift": {"value": "consumer value can move toward visible effort, imperfection, specificity, and human authorship", "unit": "cross-source analytical mechanism", "value_type": "inferred_pattern"}
+      },
+      "method": "Dentsu cultural analysis informed by cross-market consumer research and strategist interpretation.",
+      "uncertainty": "The report's trend language identifies signals and opportunities rather than estimating prevalence, durability, or the distribution of these preferences across social groups.",
+      "subgroup": "Creators, hobbyists, fandom communities, cultural consumers, brands, independent makers, and people seeking distinction from algorithmic sameness.",
+      "counterinterpretation": "Synthetic tools may themselves become objects of craft, fandom, and identity; the human-machine boundary can be negotiated rather than simply rejected.",
+      "source_url": "https://www.dentsu.com/tw/en/reports/n2026_creative_report_generative_realities",
+      "retrieval_hash": "sha256:73104114a59994a9d573842eec14c2c136666131d4751fbc73397456cd59d09d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; constant connectivity and emotional mismatch",
+      "denominator": {"value": 1, "unit": "connected-consumer technology and cultural-attention frame", "value_type": "connectivity_attention_frame"},
+      "measures": {
+        "connectivity_ambivalence": {"value": "consumers show ambivalence toward a culture of constant connectivity", "unit": "Dentsu report synthesis", "value_type": "reported_pattern"},
+        "emotional_lag": {"value": "emotional relationships with technology are struggling to keep pace with technological change", "unit": "Dentsu report synthesis", "value_type": "reported_mechanism"},
+        "attention_question": {"value": "the value of connection is increasingly evaluated against attention cost, exhaustion, privacy, and authenticity", "unit": "program synthesis", "value_type": "open_question"}
+      },
+      "method": "Dentsu synthesis of consumer sentiment, cultural analysis, and technology-change interpretation.",
+      "uncertainty": "Ambivalence is a published thematic interpretation, not a clinical measure of stress, addiction, loneliness, or individual digital behavior.",
+      "subgroup": "Connected consumers, digitally saturated workers, young people, creators, platform users, caregivers, and people with limited ability to opt out.",
+      "counterinterpretation": "Constant connectivity can provide belonging, practical support, discovery, and creative opportunity, especially for geographically or socially isolated people.",
+      "source_url": "https://www.dentsu.com/tw/en/reports/n2026_creative_report_generative_realities",
+      "retrieval_hash": "sha256:73104114a59994a9d573842eec14c2c136666131d4751fbc73397456cd59d09d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; escape, grounding, and reconnection as consumer-cultural responses",
+      "denominator": {"value": 1, "unit": "global cultural and commercial trend framework", "value_type": "grounding_reconnection_frame"},
+      "measures": {
+        "response_to_change": {"value": "the report describes a landscape that is both exhausted and exhilarated by change", "unit": "Dentsu report synthesis", "value_type": "reported_pattern"},
+        "grounding_desire": {"value": "a rising desire for escape, grounding, and reconnection is identified beneath rapid cultural change", "unit": "Dentsu report synthesis", "value_type": "reported_pattern"},
+        "market_translation": {"value": "brands and cultural institutions are likely to compete on meaningful experience, trust, texture, and participation as well as speed and novelty", "unit": "cross-source analytical mechanism", "value_type": "inferred_mechanism"}
+      },
+      "method": "Dentsu Creative trend synthesis connecting technology change, cultural behavior, and commercial implications.",
+      "uncertainty": "The report does not establish that a shared global consumer turn toward grounding exists at a measured prevalence or that specific brand strategies cause wellbeing or loyalty.",
+      "subgroup": "Consumers, cultural institutions, brands, creators, local communities, and people seeking offline, embodied, or socially meaningful experiences.",
+      "counterinterpretation": "Escape and reconnection may be temporary aesthetic preferences, premium-market signals, or unequal luxuries rather than a universal cultural shift.",
+      "source_url": "https://www.dentsu.com/tw/en/reports/n2026_creative_report_generative_realities",
+      "retrieval_hash": "sha256:73104114a59994a9d573842eec14c2c136666131d4751fbc73397456cd59d09d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.dentsu.com/uk/en/consumer-vision-mothers-of-reinvention", "claim": "Dentsu Consumer Vision 2026 provides a complementary consumer-trend frame drawing on global consumers and expert analysis."},
+    {"source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026", "claim": "ITU ICT Development Index 2026 provides complementary infrastructure and meaningful-connectivity context for technology-mediated cultural change."}
+  ],
+  "boundary": "This record adds a commercial-cultural route across generative technology, cultural production, craft, fandom, connectivity ambivalence, grounding, and reconnection. It uses published aggregate survey and strategist synthesis, not raw respondent-level data, individual consumer histories, clinical mental-health measures, causal technology effects, or a universal forecast of consumer behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Dentsu Creative 2026 Generative Realities materials were reviewed for the seven-market consumer research frame, generative cultural acceleration, craft and fandom, connectivity ambivalence, and desire for escape, grounding, and reconnection.",
+    "source_url_sha256": "sha256:73104114a59994a9d573842eec14c2c136666131d4751fbc73397456cd59d09d",
+    "checked": "2026-09-26"
+  }
+}

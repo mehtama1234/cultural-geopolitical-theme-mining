@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-upandup-genz-control-community-anti-algorithm-2026",
+  "title": "Gen Z cultural participation is being framed as a search for control, community and visible local agency",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "The Up and Up, Don't Tell Me What To Do: Our Fall Trend Report—Gen Z is Opting In to the Things They Can Control, September 1, 2026",
+  "geography": "United States; young people ages 15–31 across 21 states and Washington, D.C.",
+  "observations": [
+    {
+      "period": "Summer 2026 qualitative fieldwork; social life, personal finance, politics and AI",
+      "denominator": {"value": 100, "unit": "approximately 100 young people ages 15–31 reached through focus groups, community surveys and qualitative reality checks; exact n is not supplied", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "control_orientation": {"value": "Participants were described as seeking more control over their lives and becoming skeptical of choices that feel decided by algorithms, technology companies, political institutions or large followings", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "community_as_culture": {"value": "Local communities, hobbies and shared experiences are described as places where young people can shape participation rather than merely consume a feed", "unit": "reported cultural mechanism", "value_type": "reported_mechanism"},
+        "mechanism": {"value": "Agency becomes culturally valuable when people can see, influence and repeat the consequences of their choices", "unit": "bounded agency mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "The Up and Up qualitative trend report based on focus groups, community surveys and reality checks with nearly 100 young people ages 15–31 from 21 states and Washington, D.C.; it is not a probability sample.",
+      "uncertainty": "The sample is small, qualitative and publisher-assembled; the report does not establish prevalence, representativeness, longitudinal change or causal effects of platform use, local participation or political context.",
+      "subgroup": "Young people ages 15–31 with potentially different experiences by age, race, gender, class, place, education, work status and political identity; the public report does not provide a full subgroup table.",
+      "counterinterpretation": "The reported attraction to local and offline activity may coexist with intensive digital participation; “control” may describe a desire or cultural vocabulary rather than realized autonomy or durable community membership.",
+      "source_url": "https://www.theupandup.us/p/gen-z-fall-trends-counterculture-human-ai-angst-2026-midterms",
+      "retrieval_hash": "sha256:b5041dad64c45c62cb3cf9d1ed8477cc9cf367db0c9c9afcd0e0923139834322",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform, offline and local cultural routes",
+      "denominator": {"value": 1, "unit": "qualitative thematic interpretation of the reported participants", "value_type": "interpretive_frame"},
+      "measures": {
+        "anti_algorithm_orientation": {"value": "The report describes an anti-algorithm orientation in which offline and in-person activities such as run clubs, cookbook groups and mahjong nights become ways to shape time, taste and identity", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "influence_shift": {"value": "Influence is framed as shifting from people with large audiences toward people with communities and repeated local relationships", "unit": "bounded cultural-economy mechanism", "value_type": "bounded_mechanism"},
+        "consumer_effect": {"value": "Cultural consumption may move toward participatory, local and repeatable occasions where people exercise selection and belonging rather than only receiving algorithmic recommendations", "unit": "bounded consumer pathway", "value_type": "bounded_mechanism"}
+      },
+      "method": "Interpretive extraction from the report's five themes and examples; the report does not measure time-use, purchases, platform logs, event attendance or creator revenue.",
+      "uncertainty": "Examples may be selected for narrative resonance and should not be read as population-level trend estimates or proof of an anti-platform consumer shift.",
+      "subgroup": "Young participants navigating online and offline cultural spaces, with unequal access to time, money, transportation, safe venues and local community infrastructure.",
+      "counterinterpretation": "Offline participation can be mediated, promoted and monetized through platforms; opting into a local activity does not necessarily mean rejecting algorithmic discovery or commercial influence.",
+      "source_url": "https://www.theupandup.us/p/gen-z-fall-trends-counterculture-human-ai-angst-2026-midterms",
+      "retrieval_hash": "sha256:b5041dad64c45c62cb3cf9d1ed8477cc9cf367db0c9c9afcd0e0923139834322",
+      "status": "reported"
+    },
+    {
+      "period": "2026; political meaning, material issues and visible local agency",
+      "denominator": {"value": 1, "unit": "qualitative thematic interpretation of the reported participants", "value_type": "interpretive_frame"},
+      "measures": {
+        "powerlessness_distrust": {"value": "The report links distrust to frustration over who makes decisions when companies, algorithms or political institutions shape everyday life without visible public consent", "unit": "reported qualitative mechanism", "value_type": "reported_mechanism"},
+        "material_issue_salience": {"value": "Inflation, war, cost of living, AI and corruption are described as breaking through more strongly than symbolic culture-war issues in the report's conversations", "unit": "reported issue pattern", "value_type": "reported_pattern"},
+        "people_driven_politics": {"value": "When national politics feels difficult to influence, young people may route civic energy toward places where consequences are visible and local impact can be observed", "unit": "bounded political pathway", "value_type": "bounded_mechanism"}
+      },
+      "method": "Qualitative synthesis of reported conversations about politics, personal finance, AI and community; no vote-intention or participation-rate estimates are supplied.",
+      "uncertainty": "The report cannot establish issue prevalence, electoral behavior, causal distrust, partisan realignment or whether local participation scales into national political power.",
+      "subgroup": "Young people with different material resources, local institutions, political identities and exposure to national versus community-level decision-making.",
+      "counterinterpretation": "Local agency can supplement rather than replace national politics; material concerns may coexist with or be expressed through symbolic identity issues, and distrust can produce withdrawal as well as participation.",
+      "source_url": "https://www.theupandup.us/p/gen-z-fall-trends-counterculture-human-ai-angst-2026-midterms",
+      "retrieval_hash": "sha256:b5041dad64c45c62cb3cf9d1ed8477cc9cf367db0c9c9afcd0e0923139834322",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.theupandup.us/p/gen-z-fall-trends-counterculture-human-ai-angst-2026-midterms", "claim": "Public Up and Up trend report with qualitative sample description and five themes: community, anti-algorithm orientation, powerlessness/distrust, material issue salience and people-driven politics."}
+  ],
+  "boundary": "This record identifies a youth-culture, agency, anti-algorithm, local-community and visible-political-impact subtheme. It does not establish population prevalence, representative generational change, actual time or spending behavior, platform exit, turnout, local institutional effects, or causal links between control, distrust and participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The public Up and Up report was reviewed for its September 1, 2026 date, qualitative sample description, three research buckets, five core themes, local/community examples, anti-algorithm framing, material issue emphasis and people-driven politics interpretation.",
+    "source_page_sha256": "sha256:b5041dad64c45c62cb3cf9d1ed8477cc9cf367db0c9c9afcd0e0923139834322",
+    "checked": "2026-09-29"
+  }
+}

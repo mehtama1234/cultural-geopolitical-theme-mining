@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unu-global-water-bankruptcy-2026-hydrological-overshoot-natural-capital-governance",
+  "title": "Chronic hydrological overshoot is turning temporary water shocks into governance problems of irreversible natural-capital loss",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "work_control_bargaining"
+  ],
+  "source_unit": "United Nations University Institute for Water, Environment and Health, Global Water Bankruptcy: Living Beyond Our Hydrological Means in the Post-Crisis Era",
+  "geography": "Global river basins, aquifers, wetlands, soils, rivers, glaciers, water users, and water-governance systems",
+  "observations": [
+    {
+      "period": "2026; transition from water crisis framing to water bankruptcy framing",
+      "denominator": {"value": 1, "unit": "global water-system condition and governance frame", "value_type": "hydrological_system_frame"},
+      "measures": {
+        "post_crisis_condition": {"value": "more and more river basins and aquifers are losing the ability to return to historical normal conditions", "unit": "UNU-INWEH report assessment", "value_type": "reported_system_assessment"},
+        "chronicity": {"value": "droughts, shortages, and pollution episodes that once appeared temporary are becoming chronic in many places", "unit": "reported global pattern", "value_type": "reported_mechanism"},
+        "conceptual_shift": {"value": "water stress and water crisis are insufficient descriptions for systems with irreversible losses of natural water capital", "unit": "report framing", "value_type": "reported_conceptual_shift"},
+        "policy_route": {"value": "shift from repeated emergency reaction toward water-bankruptcy management and science-based adaptation", "unit": "reported policy framework", "value_type": "reported_policy_route"}
+      },
+      "method": "UNU-INWEH flagship report synthesizing hydrological, ecological, governance, and policy evidence into a water-bankruptcy framework.",
+      "uncertainty": "Water bankruptcy is a report framework for diagnosing persistent system failure; thresholds and recovery prospects vary by basin, aquifer, ecosystem, and evidence quality.",
+      "subgroup": "Water-stressed communities, farmers, cities, industries, ecosystems, public agencies, Indigenous and local communities, and households dependent on shared water systems.",
+      "counterinterpretation": "Some basins and aquifers retain recovery options through demand reduction, recharge, allocation reform, pollution control, and ecosystem protection; the framework does not imply universal irreversible collapse.",
+      "source_url": "https://unu.edu/inweh/collection/global-water-bankruptcy",
+      "retrieval_hash": "sha256:bc237dd1f820001cbf21d801a694ee5d3f7186e09fc6651e3859be02e5a9e760",
+      "status": "reported"
+    },
+    {
+      "period": "2026; overdraft of renewable flows and long-term water storage",
+      "denominator": {"value": 1, "unit": "water-system accounting frame covering renewable flows and natural storage", "value_type": "water_balance_frame"},
+      "measures": {
+        "renewable_flow_overuse": {"value": "societies are using renewable water flows beyond safe limits", "unit": "reported hydrological mechanism", "value_type": "reported_mechanism"},
+        "natural_storage_depletion": {"value": "long-term natural storage in aquifers, wetlands, soils, rivers, and glaciers is being drawn down beyond safe limits", "unit": "reported natural-capital mechanism", "value_type": "reported_mechanism"},
+        "water_accounting": {"value": "transparent water accounting and enforceable limits are identified as necessary management tools", "unit": "reported policy instrument", "value_type": "reported_policy_route"},
+        "natural_capital": {"value": "water-related natural capital that produces and stores water requires protection", "unit": "reported governance frame", "value_type": "reported_policy_framework"}
+      },
+      "method": "UNU-INWEH water-bankruptcy analysis using an accounting analogy between renewable flows, natural storage, overdraft, and water-related natural capital.",
+      "uncertainty": "The accounting analogy clarifies a governance problem but does not provide one universal balance-sheet threshold for every hydrological system.",
+      "subgroup": "Groundwater users, irrigators, utilities, industries, watershed authorities, wetland and glacier-dependent communities, and downstream populations.",
+      "counterinterpretation": "Improved measurement and enforcement can change overdraft trajectories, and managed recharge or restoration may recover some functions even when historical baselines are not fully restored.",
+      "source_url": "https://unu.edu/inweh/collection/global-water-bankruptcy",
+      "retrieval_hash": "sha256:bc237dd1f820001cbf21d801a694ee5d3f7186e09fc6651e3859be02e5a9e760",
+      "status": "reported"
+    },
+    {
+      "period": "2026; interacting drivers of hydrological bankruptcy",
+      "denominator": {"value": 1, "unit": "global water-system risk synthesis", "value_type": "water_risk_frame"},
+      "measures": {
+        "groundwater_depletion": {"value": "chronic groundwater depletion contributes to persistent water-system overdraft", "unit": "reported driver", "value_type": "reported_mechanism"},
+        "overallocation": {"value": "water overallocation, land and soil degradation, deforestation, and pollution compound hydrological stress", "unit": "reported driver set", "value_type": "reported_mechanism_set"},
+        "climate_amplification": {"value": "global heating compounds the interacting pressures on river basins, aquifers, and natural storage", "unit": "reported driver", "value_type": "reported_mechanism"},
+        "cross_domain_exposure": {"value": "water-system decline transmits into food, health, biodiversity, land, livelihoods, and human security", "unit": "reported cross-domain pathway", "value_type": "reported_mechanism_set"}
+      },
+      "method": "UNU-INWEH synthesis of hydrological depletion, allocation, land degradation, pollution, climate, and cross-sector consequences.",
+      "uncertainty": "The report identifies interacting pressures rather than estimating one causal effect size for each driver or predicting the timing of collapse in every basin.",
+      "subgroup": "Farmers, food systems, water-dependent firms, public-health systems, ecosystems, climate-vulnerable populations, and communities whose livelihoods depend on local water cycles.",
+      "counterinterpretation": "Drivers and consequences are place-specific; water stress can be reduced by governance, technology, restoration, changed production, and demand management, though not all losses are reversible.",
+      "source_url": "https://unu.edu/inweh/collection/global-water-bankruptcy",
+      "retrieval_hash": "sha256:bc237dd1f820001cbf21d801a694ee5d3f7186e09fc6651e3859be02e5a9e760",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2030; governance reset, equity, and cooperation",
+      "denominator": {"value": 1, "unit": "water-governance response frame for 2026-2030 milestones", "value_type": "water_governance_frame"},
+      "measures": {
+        "equity_requirement": {"value": "water transitions should be explicitly equity-oriented and protect vulnerable communities and livelihoods", "unit": "reported policy principle", "value_type": "reported_equity_route"},
+        "cooperation_route": {"value": "water investment can support climate, biodiversity, land, food, health, peace, and cooperation within and between societies", "unit": "reported strategic opportunity", "value_type": "reported_cross_domain_route"},
+        "trust_route": {"value": "tangible water results can strengthen resilience and rebuild trust", "unit": "reported institutional pathway", "value_type": "reported_mechanism"},
+        "governance_milestones": {"value": "2026 and 2028 UN Water Conferences, the end of the Water Action Decade in 2028, and the 2030 SDG deadline are identified as agenda-reset opportunities", "unit": "reported policy milestones", "value_type": "reported_policy_window"}
+      },
+      "method": "UNU-INWEH report recommendations linking water accounting, limits, equity, investment, resilience, cooperation, and international policy milestones.",
+      "uncertainty": "The recommendations define governance options and opportunity windows, not verified implementation effects or guaranteed cooperation outcomes.",
+      "subgroup": "Water ministries, basin authorities, communities, vulnerable livelihoods, international institutions, investors, civil-society organizations, and cross-border users.",
+      "counterinterpretation": "Investment and cooperation can also reproduce unequal control if allocation rights, enforcement, participation, and affordability are not addressed explicitly.",
+      "source_url": "https://unu.edu/inweh/collection/global-water-bankruptcy",
+      "retrieval_hash": "sha256:bc237dd1f820001cbf21d801a694ee5d3f7186e09fc6651e3859be02e5a9e760",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unwater.org/news/unu-inweh-report-global-water-bankruptcy", "claim": "UN-Water summarizes the report's overdraft, post-crisis, and cross-domain governance implications."},
+    {"source_url": "https://digitallibrary.un.org/record/4101949", "claim": "UN Digital Library provides the cataloged report summary and publication metadata."}
+  ],
+  "boundary": "This record adds a hydrological-overshoot and natural-capital route across chronic water stress, aquifers, basins, ecosystems, food, health, livelihoods, governance, equity, and cooperation. It uses aggregate UNU-INWEH report analysis, not respondent-level water histories, individual consumption records, basin-level causal forecasts, household utility bills, or proof that every water system has crossed an irreversible threshold.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNU-INWEH publication page, UN-Water summary, and UN Digital Library catalog record reviewed for the water-bankruptcy framework, overdraft, natural-capital loss, interacting drivers, cross-domain effects, equity, and governance response findings.",
+    "source_url_sha256": "sha256:bc237dd1f820001cbf21d801a694ee5d3f7186e09fc6651e3859be02e5a9e760",
+    "checked": "2026-09-26"
+  }
+}

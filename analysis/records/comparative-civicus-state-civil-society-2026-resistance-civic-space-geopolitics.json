@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics",
+  "title": "Civil society is shifting toward distributed resistance as geopolitical impunity, technology power and civic-space contraction reinforce one another",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "CIVICUS, 2026 State of Civil Society Report",
+  "geography": "Global civil society, civic space, democracy, technology, geopolitics, conflict, climate, migration, gender rights and Gen Z mobilization",
+  "observations": [
+    {
+      "period": "2026 report framing; global civic and geopolitical conditions",
+      "denominator": {"value": 1, "unit": "CIVICUS global report frame", "value_type": "published_synthesis"},
+      "measures": {
+        "interlocking_crisis": {"value": "The report links weakening international accountability, militarization, technology oligarchy and weak AI oversight, democratic regression, extractive geopolitical competition, civic-space restriction and funding collapse.", "unit": "reported cross-domain interpretation", "value_type": "reported_interpretation"},
+        "unequal_exposure": {"value": "It says women, LGBTQI+ people, migrants, refugees and civil society actors face especially sharp effects as civic space and support contract.", "unit": "reported affected groups", "value_type": "reported_interpretation"},
+        "impunity": {"value": "The report characterizes impunity and weakened global rules as increasingly normalized in the current period.", "unit": "reported global condition", "value_type": "reported_interpretation"}
+      },
+      "method": "CIVICUS annual global civil-society report synthesizing documented developments, country and issue examples, and CIVICUS interpretation across multiple domains.",
+      "uncertainty": "This is an advocacy and analytical synthesis, not a neutral probability sample, standardized global panel or causal estimate; the report's cross-domain framing should not be read as a quantified prevalence measure.",
+      "subgroup": "Civil society organizations, activists, women, LGBTQI+ people, migrants, refugees, communities exposed to conflict or climate harm, technology users and people affected by state or platform power.",
+      "counterinterpretation": "The apparent convergence may partly reflect the report's mission and selection of high-salience cases; some institutions, accountability mechanisms and civic spaces may be more resilient than this global framing implies.",
+      "source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/overview-resistance-against-the-tide/",
+      "retrieval_hash": "sha256:a834f25454695ba937c91259f5ba6bfaaef5846239b10e9d3471ac4c4445d8d7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; protest, mutual aid, documentation and community defense",
+      "denominator": {"value": 1, "unit": "CIVICUS selected global case synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "distributed_resistance": {"value": "Resistance is described as distributed across Gen Z mobilizations, community-level humanitarian and mental-health support, migrant defense, underground schooling, sea rescue, climate litigation and documentation of abuses.", "unit": "reported practice pattern", "value_type": "reported_interpretation"},
+        "tactical_mix": {"value": "The source joins visible protest to quieter work such as monitoring, legal action, mutual aid, education and evidence preservation.", "unit": "reported repertoire", "value_type": "reported_interpretation"},
+        "defensive_wins": {"value": "The report identifies selected defensive gains, including protection or regularization outcomes and policy recognition in particular country cases.", "unit": "selected reported cases", "value_type": "reported_case_evidence"}
+      },
+      "method": "Illustrative cases and reported civil-society actions in the CIVICUS overview and themed report sections; not a representative census of movements or organizations.",
+      "uncertainty": "The examples establish a repertoire and direction of activity, but do not estimate how common, durable, coordinated or effective these tactics are globally.",
+      "subgroup": "Gen Z organizers, local communities, migrant-support networks, humanitarian actors, women's groups, climate litigants, educators and human-rights documenters.",
+      "counterinterpretation": "Decentralization and tactical diversity can widen participation, but may also fragment strategy, exhaust volunteers and make accountability or durable policy change harder.",
+      "source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/overview-resistance-against-the-tide/",
+      "retrieval_hash": "sha256:a834f25454695ba937c91259f5ba6bfaaef5846239b10e9d3471ac4c4445d8d7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; democratic retreat and civic-space defense",
+      "denominator": {"value": 1, "unit": "CIVICUS democracy section synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "democratic_retreat": {"value": "The report describes accelerating democratic retreat, formalized military rule, authoritarian elections without meaningful competition, right-wing populist advances and weakened democratic-defense infrastructure.", "unit": "reported global pattern", "value_type": "reported_interpretation"},
+        "civil_society_role": {"value": "Civil society is positioned as a primary line of resistance through election monitoring, abuse documentation, public mobilization and defense of civic space.", "unit": "reported institutional role", "value_type": "reported_interpretation"},
+        "guardrail_gap": {"value": "The source argues that permissive responses to coups, power grabs, fraudulent elections, civic restrictions and transnational repression leave fewer effective guardrails.", "unit": "reported governance diagnosis", "value_type": "reported_interpretation"}
+      },
+      "method": "CIVICUS democracy section and associated global report synthesis; the material is interpretive and case-based rather than a new democracy index.",
+      "uncertainty": "The report does not provide one harmonized score or causal decomposition separating domestic political drivers, international permissiveness, economic conditions and civil-society capacity.",
+      "subgroup": "Opposition groups, election monitors, journalists, human-rights defenders, protest movements, marginalized communities and people exposed to transnational repression.",
+      "counterinterpretation": "Some democratic institutions may be adapting or recovering, and civil-society resistance can coexist with polarization, elite capture or public distrust of advocacy organizations.",
+      "source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/democracy-an-enduring-aspiration/",
+      "retrieval_hash": "sha256:a834f25454695ba937c91259f5ba6bfaaef5846239b10e9d3471ac4c4445d8d7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; organizational model, technology and movement sustainability",
+      "denominator": {"value": 1, "unit": "CIVICUS strategic synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "leadership_model": {"value": "The report highlights collective leadership, decentralized decision-making and smart social-media use in newer mobilizations.", "unit": "reported organizational pattern", "value_type": "reported_interpretation"},
+        "technology_power": {"value": "Technology is treated as both a mobilizing and documenting resource and a site of oligarchic power, surveillance, disinformation and weak AI accountability.", "unit": "reported dual-use frame", "value_type": "reported_interpretation"},
+        "sustainability_constraint": {"value": "Funding collapse, restrictions and funder or state influence are presented as threats to autonomy, continuity and the ability to connect protest with long-term advocacy.", "unit": "reported organizational constraint", "value_type": "reported_interpretation"}
+      },
+      "method": "CIVICUS report recommendations and cross-domain synthesis connecting organizational practice, technology governance and civil-society financing.",
+      "uncertainty": "The report does not quantify the prevalence or comparative effectiveness of decentralized leadership, digital tactics or funding models, and the relationship between these factors remains an open hypothesis.",
+      "subgroup": "Grassroots organizations, Gen Z movements, transnational networks, funders, technology platforms, journalists, documenters and communities relying on civic support.",
+      "counterinterpretation": "Decentralization can protect movements under repression, but platform dependence, misinformation, burnout and unstable funding can undermine trust, safety and institutional memory.",
+      "source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/technology-innovation-without-accountability/",
+      "retrieval_hash": "sha256:a834f25454695ba937c91259f5ba6bfaaef5846239b10e9d3471ac4c4445d8d7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/download-report/", "claim": "Official CIVICUS report landing page and downloadable report hub."},
+    {"source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/global-governance-power-politics-tests-global-rules/", "claim": "Official section on global governance, power politics and pressure on global rules."},
+    {"source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/gen-z-protests-new-resistance-rises/", "claim": "Official section on Gen Z protests and newer resistance patterns."}
+  ],
+  "boundary": "This record adds a global civic and geopolitical layer to the atlas: the source connects democratic retreat, impunity, technology power, civic-space contraction, funding pressure and distributed resistance. It is a CIVICUS advocacy and analytical synthesis using selected cases, not a respondent survey, representative movement census, democracy index or causal evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official CIVICUS 2026 report PDF and associated official section pages were reviewed for the interlocking crisis frame, resistance repertoire, democratic retreat, technology power, organizational decentralization and funding/autonomy limits.",
+    "source_url_sha256": "sha256:a834f25454695ba937c91259f5ba6bfaaef5846239b10e9d3471ac4c4445d8d7",
+    "checked": "2026-09-27"
+  }
+}

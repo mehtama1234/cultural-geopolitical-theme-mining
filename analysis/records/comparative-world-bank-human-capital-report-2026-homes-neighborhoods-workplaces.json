@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-human-capital-report-2026-homes-neighborhoods-workplaces",
+  "title": "Human-capital formation is shaped by homes, neighborhoods, and workplaces as learning progress stalls and opportunity remains place-dependent",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank, Human Capital Report 2026: Building Human Capital Where It Matters",
+  "geography": "Global and cross-country evidence on health, learning, skills, employment, homes, neighborhoods, and workplaces",
+  "observations": [
+    {
+      "period": "2026; global human-capital progress",
+      "denominator": {"value": 1, "unit": "global human-capital development assessment", "value_type": "global_assessment_frame"},
+      "measures": {
+        "progress_direction": {"value": "progress in building human capital has slowed and in many places declined", "unit": "World Bank report assessment", "value_type": "reported_finding"},
+        "learning_trend": {"value": "student learning showed limited progress over the last 15 years in low- and lower-middle-income countries, with most doing worse than in 2010", "unit": "World Bank comparative assessment", "value_type": "reported_finding"},
+        "economic_channel": {"value": "weak learning outcomes limit productivity, lifetime earnings, and economic growth", "unit": "World Bank report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank cross-country human-capital evidence combining health, education, employment, and learning indicators.",
+      "uncertainty": "The report synthesizes country and population evidence; it is not a respondent-level longitudinal dataset and does not identify one causal explanation for every country trend.",
+      "subgroup": "Children and youth in low- and lower-middle-income countries, workers, families, schools, health systems, and policymakers.",
+      "counterinterpretation": "Stalled global progress can be reversed through targeted investment in the settings where skills and health are actually formed.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0592ccb47c7c2e39d6fa4d5035047cca832f9d07a4494348ecd80e7485350e47",
+      "status": "reported"
+    },
+    {
+      "period": "2026; homes, care, and childhood development",
+      "denominator": {"value": 1, "unit": "children and family human-capital formation frame", "value_type": "home_development_frame"},
+      "measures": {
+        "maternal_education_gradient": {"value": "children whose mothers have more education perform better on vocabulary and mathematics tests", "unit": "World Bank report finding", "value_type": "reported_association"},
+        "care_mechanism": {"value": "nurturing, reading, play, emotional support, and safety contribute to skill development beyond material resources", "unit": "World Bank report synthesis", "value_type": "reported_mechanism"},
+        "adult_earnings_channel": {"value": "the report cites evidence that supportive interventions can improve adult earnings by nearly 40 percent", "unit": "reported evidence synthesis", "value_type": "reported_estimate"},
+        "policy_route": {"value": "cash transfers, job programs, and tools for stimulating home environments can support family resources and care", "unit": "World Bank policy framing", "value_type": "reported_framework"}
+      },
+      "method": "Review and synthesis of cross-country evidence on family resources, parental education, care, learning, and later-life outcomes.",
+      "uncertainty": "The reported association and intervention evidence do not mean every household receives the same benefit; family structure, implementation, selection, and local services matter.",
+      "subgroup": "Children, adolescents, parents, mothers, low-resource families, caregivers, and households receiving income or employment support.",
+      "counterinterpretation": "Material resources and care are complements rather than substitutes; policy can expand both without treating families as interchangeable production units.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0592ccb47c7c2e39d6fa4d5035047cca832f9d07a4494348ecd80e7485350e47",
+      "status": "reported"
+    },
+    {
+      "period": "2026; neighborhood opportunity and place",
+      "denominator": {"value": 1, "unit": "neighborhood opportunity and human-capital comparison frame", "value_type": "place_opportunity_frame"},
+      "measures": {
+        "income_same_different_outcomes": {"value": "families with the same income can have very different outcomes depending on where they live", "unit": "World Bank report finding", "value_type": "reported_finding"},
+        "brazil_earnings_difference": {"value": 50, "unit": "approximate share of earnings for a low-income child in a low-income Brazilian neighborhood relative to a low-income child in a high-income neighborhood", "value_type": "reported_comparison"},
+        "neighborhood_channels": {"value": "schools, clinics, safety, pollution, streets, and job access jointly shape learning, health, and opportunity", "unit": "World Bank report synthesis", "value_type": "reported_mechanism"},
+        "coordination_need": {"value": "education, environment, health, and infrastructure policy may need to work together to realize human-capital gains", "unit": "World Bank policy framing", "value_type": "reported_framework"}
+      },
+      "method": "Place-based comparative evidence linking neighborhood conditions with human-capital and earnings outcomes.",
+      "uncertainty": "Neighborhood comparisons may reflect selection, local institutions, environmental conditions, and unmeasured family differences; the result is not a universal causal coefficient.",
+      "subgroup": "Low-income children, families in disadvantaged neighborhoods, residents exposed to violence or pollution, and communities with weak service access.",
+      "counterinterpretation": "Neighborhood disadvantage can be reduced through coordinated service quality, environmental improvement, safe mobility, and access to jobs rather than treated as a fixed social characteristic.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0592ccb47c7c2e39d6fa4d5035047cca832f9d07a4494348ecd80e7485350e47",
+      "status": "reported"
+    },
+    {
+      "period": "2026; workplaces and learning",
+      "denominator": {"value": 1, "unit": "workers and workplace learning opportunity frame in low- and middle-income countries", "value_type": "workplace_learning_frame"},
+      "measures": {
+        "informal_or_small_scale_work": {"value": 70, "unit": "approximate share of workers in low- and middle-income countries in small-scale agriculture, low-quality self-employment, or micro firms", "value_type": "reported_estimate"},
+        "experience_returns": {"value": "earnings for self-employed workers increase only about half as much with the same gain in experience as for salaried workers", "unit": "World Bank report comparison", "value_type": "reported_difference"},
+        "learning_constraint": {"value": "many workers are in jobs with limited on-the-job learning opportunities", "unit": "World Bank report finding", "value_type": "reported_finding"},
+        "policy_route": {"value": "employer training, apprenticeships, job matching, childcare, and safe commutes can make work more supportive of learning and participation", "unit": "World Bank policy framing", "value_type": "reported_framework"}
+      },
+      "method": "Cross-country labor-market and human-capital synthesis focused on workplace learning, job type, experience, and participation.",
+      "uncertainty": "Occupational categories and earnings comparisons conceal heterogeneity in firm quality, sector, hours, selection, and informal work; they are not individual employment histories.",
+      "subgroup": "Self-employed workers, micro-firm workers, agricultural workers, labor-market entrants, women, caregivers, employers, and apprentices.",
+      "counterinterpretation": "Informal and small-scale work can build skills when linked to training, networks, technology, and markets; the report identifies constraints, not inevitable low productivity.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0592ccb47c7c2e39d6fa4d5035047cca832f9d07a4494348ecd80e7485350e47",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://humancapital.worldbank.org/", "claim": "The World Bank Human Capital Data Portal provides complementary HCI+ country comparisons and methodology."},
+    {"source_url": "https://openknowledge.worldbank.org/", "claim": "The World Bank Open Knowledge Repository provides the full report and chapter materials."}
+  ],
+  "boundary": "This record adds a human-capital route across homes, care, neighborhoods, learning, workplaces, informal work, gender participation, and place-based opportunity. It uses World Bank aggregate comparisons and report synthesis, not respondent-level data, individual child development histories, household time diaries, individual employment panels, causal neighborhood estimates, or proof that a policy works identically across settings.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Human Capital Report 2026 page reviewed for the title, stalled learning progress, home and care mechanisms, neighborhood opportunity, workplace learning, 70 percent work composition estimate, and HCI+ framing.",
+    "source_url_sha256": "sha256:0592ccb47c7c2e39d6fa4d5035047cca832f9d07a4494348ecd80e7485350e47",
+    "checked": "2026-09-26"
+  }
+}

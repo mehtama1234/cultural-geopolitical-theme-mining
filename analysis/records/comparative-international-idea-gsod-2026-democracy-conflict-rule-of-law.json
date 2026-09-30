@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-international-idea-gsod-2026-democracy-conflict-rule-of-law",
+  "title": "Democratic stagnation is becoming a conflict and public-voice problem as rule of law, expression, and participation weaken",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "International IDEA, The Global State of Democracy 2026: Democracy in an Age of Conflict",
+  "geography": "Global assessment of democratic performance, covering the International IDEA Global State of Democracy Indices through 2025 and conflict analysis with country and regional comparisons",
+  "observations": [
+    {
+      "period": "2020-2025; global democratic performance and stagnation",
+      "denominator": {"value": 1, "unit": "countries and country-years assessed in International IDEA Global State of Democracy Indices version 10", "value_type": "global_index_comparison_frame"},
+      "measures": {
+        "stagnation": {"value": 81, "unit": "percent of country-level factor cases in which performance did not change", "value_type": "reported_share"},
+        "decline_vs_advance": {"value": "In 2025, 98 countries (57% of those assessed) declined in at least one factor relative to five years earlier, while 55 countries (32%) advanced in at least one factor", "unit": "reported country comparison", "value_type": "reported_comparison"},
+        "democratic_middle": {"value": "Most countries remain clustered in mid- and low-performance ranges, leaving many in politically fragile in-between conditions", "unit": "reported index pattern", "value_type": "reported_pattern"},
+        "governance_meaning": {"value": "The central problem is not sudden regime replacement everywhere but slow institutional stagnation and uneven erosion of the channels through which public priorities reach policy", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "International IDEA quantitative Global State of Democracy Indices analysis across Representation, Rights, Rule of Law, and Participation, supplemented by regional and country analysis.",
+      "uncertainty": "Index changes summarize country-level indicators and do not measure every lived experience of democracy, identify causal drivers, or establish that every decline reflects the same political mechanism.",
+      "subgroup": "Citizens, civil society, elected institutions, courts, electoral bodies, journalists, and groups differentially exposed to democratic inclusion or exclusion.",
+      "counterinterpretation": "No change can represent resilience as well as stagnation, and aggregate country indices can conceal local reforms, institutional counterweights, or improvements in dimensions not captured by the comparison.",
+      "source_url": "https://www.idea.int/publications/catalogue/html/global-state-democracy-2026-democracy-age-conflict",
+      "retrieval_hash": "sha256:22b2bac7458eb38dd3b39872e46614348e1d4c9895f18e99f0ae714e1d3c25c8",
+      "status": "reported"
+    },
+    {
+      "period": "2025; rule of law, expression, press freedom, and access to justice",
+      "denominator": {"value": 1, "unit": "countries assessed in the Global State of Democracy Indices", "value_type": "global_index_comparison_frame"},
+      "measures": {
+        "freedom_expression_decline": {"value": 42, "unit": "countries with a decline in Freedom of Expression", "value_type": "reported_count"},
+        "freedom_press_decline": {"value": 23, "unit": "percent of countries with a decline in Freedom of the Press", "value_type": "reported_share"},
+        "justice_decline": {"value": 18, "unit": "percent of countries with a decline in Access to Justice", "value_type": "reported_share"},
+        "low_rule_of_law": {"value": 71, "unit": "countries categorized as low-performing on Rule of Law", "value_type": "reported_count"},
+        "rule_of_law_declines": {"value": 29, "unit": "countries registering a Rule of Law downturn in 2025", "value_type": "reported_count"}
+      },
+      "method": "International IDEA index measurement of democratic rights, rule-of-law, judicial, anti-corruption, enforcement, expression, press, and justice factors.",
+      "uncertainty": "These indicators measure institutional performance at country level, not the probability that an individual experiences censorship, corruption, or denial of justice; counts are sensitive to index thresholds and coverage.",
+      "subgroup": "Journalists, opposition actors, civil society, minorities, defendants, whistleblowers, judges, and citizens seeking institutional remedy.",
+      "counterinterpretation": "Declines in formal indicators can coexist with resilient courts, independent media, civic resistance, or local accountability in parts of a country; low category performance is not uniform social experience.",
+      "source_url": "https://www.idea.int/publications/catalogue/html/global-state-democracy-2026-democracy-age-conflict",
+      "retrieval_hash": "sha256:22b2bac7458eb38dd3b39872e46614348e1d4c9895f18e99f0ae714e1d3c25c8",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; participation, civil society, and public accountability",
+      "denominator": {"value": 1, "unit": "countries assessed in the Participation category of the Global State of Democracy Indices", "value_type": "global_index_comparison_frame"},
+      "measures": {
+        "participation_changes": {"value": 16, "unit": "countries with notable Participation category changes between 2020 and 2025", "value_type": "reported_count"},
+        "participation_declines_advances": {"value": "Among those changes, 13 were declines and 3 were advances", "unit": "reported category comparison", "value_type": "reported_comparison"},
+        "participation_components": {"value": "Participation combines civil-society space, civic engagement in political and non-political associations and unions, and electoral participation", "unit": "reported index construction", "value_type": "reported_definition"},
+        "participation_meaning": {"value": "Public participation is treated as a daily infrastructure of democratic responsiveness and social accountability, not only as election turnout", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "International IDEA Participation category analysis using civil-society, civic-engagement, and electoral-participation indicators, with country examples of consultation and reform.",
+      "uncertainty": "The category aggregates distinct forms of participation and does not establish whether consultation changes policy, whether turnout reflects meaningful influence, or whether civic space is equally usable across groups.",
+      "subgroup": "Civil-society organizations, unions, voters, social movements, community groups, marginalized citizens, and public agencies conducting consultation.",
+      "counterinterpretation": "Participation can remain strong while rights or rule of law weaken, and formal consultation can be symbolic; higher participation is not automatically inclusive, peaceful, or effective.",
+      "source_url": "https://www.idea.int/publications/catalogue/html/global-state-democracy-2026-democracy-age-conflict",
+      "retrieval_hash": "sha256:22b2bac7458eb38dd3b39872e46614348e1d4c9895f18e99f0ae714e1d3c25c8",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; democratic decline and conflict risk",
+      "denominator": {"value": 1, "unit": "global democracy-conflict comparison using International IDEA indices and conflict datasets", "value_type": "comparative_risk_frame"},
+      "measures": {
+        "democratic_pair_decline": {"value": 8, "unit": "percentage-point decline over the past decade in country pairs where both countries are democracies", "value_type": "reported_change"},
+        "messy_middle_risk": {"value": "Countries between consolidated democracy and consolidated autocracy show higher risk of interstate and intrastate conflict", "unit": "reported comparative association", "value_type": "reported_association"},
+        "state_capacity": {"value": "The report links democratic consolidation, state capacity, and conflict prevention, especially where weak institutions cannot replace arbitrary repression with effective representation and oversight", "unit": "reported synthesis mechanism", "value_type": "bounded_mechanism"},
+        "participation_peace": {"value": "The report identifies participation as a potentially important conflict-reducing aspect of democracy and civil society as a source of social accountability", "unit": "reported research implication", "value_type": "reported_implication"}
+      },
+      "method": "International IDEA synthesis combining GSoD indices, Democracy Tracker evidence, Uppsala Conflict Data Program datasets, and comparative political-science research.",
+      "uncertainty": "The report discusses empirical associations and theoretical mechanisms rather than a single causal estimate; conflict risk is shaped by state capacity, history, external intervention, inequality, and other factors not reducible to an index score.",
+      "subgroup": "Countries in democratic transition or decline, civil society, populations exposed to political violence, state institutions, and international actors supporting democracy or security.",
+      "counterinterpretation": "Democratic participation can coexist with conflict or polarization, and autocratic stability can suppress visible conflict without resolving grievances; the report does not imply a simple linear democracy-to-peace relationship.",
+      "source_url": "https://www.idea.int/publications/catalogue/html/global-state-democracy-2026-democracy-age-conflict",
+      "retrieval_hash": "sha256:22b2bac7458eb38dd3b39872e46614348e1d4c9895f18e99f0ae714e1d3c25c8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.idea.int/democracytracker/gsod-indices", "claim": "International IDEA Global State of Democracy indices and data context."},
+    {"source_url": "https://ucdp.uu.se/", "claim": "Uppsala Conflict Data Program source used in the report's conflict analysis."},
+    {"source_url": "https://www.idea.int/publications/catalogue/html/global-state-democracy-2026-democracy-age-conflict", "claim": "Official International IDEA publication page with full report text and methodology."}
+  ],
+  "boundary": "This record adds a political-institutional route from democratic stagnation and rights erosion through participation, rule of law, state capacity, public accountability, and conflict risk. It uses an international index, event tracker, and comparative conflict synthesis; it is not respondent-level public opinion, a causal evaluation of any government, or proof that one institutional reform will produce peace.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official International IDEA Global State of Democracy 2026 publication page was reviewed for the global performance summary, country decline and advance counts, rights and rule-of-law indicators, Participation category, and democracy-conflict synthesis.",
+    "source_url_sha256": "sha256:22b2bac7458eb38dd3b39872e46614348e1d4c9895f18e99f0ae714e1d3c25c8",
+    "checked": "2026-09-28"
+  }
+}

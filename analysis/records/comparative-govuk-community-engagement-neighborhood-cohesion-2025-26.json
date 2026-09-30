@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-govuk-community-engagement-neighborhood-cohesion-2025-26",
+  "title": "Local cohesion is broad but uneven: everyday contact and willingness to pull together coexist with weak trust and place-specific decline",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport / Ministry of Housing, Communities and Local Government, Community and Engagement Survey 2025/26: Neighbourhood and Community",
+  "geography": "England; people aged 16 and over",
+  "observations": [
+    {
+      "period": "Community pathway fieldwork October 2025-March 2026, published September 16, 2026; national neighborhood indicators",
+      "denominator": {"value": 175000, "unit": "over 175,000 responses in the 2025/26 Community and Engagement Survey; people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "neighborhood_belonging": {"value": 61, "unit": "percent feeling a very or fairly strong sense of belonging to their immediate neighbourhood", "value_type": "published_survey_estimate"},
+        "monthly_neighbor_chat": {"value": 69, "unit": "percent chatting with neighbours more than just hello at least once a month", "value_type": "published_survey_estimate"},
+        "pull_together": {"value": 61, "unit": "percent agreeing that people in their neighbourhood pull together to improve it", "value_type": "published_survey_estimate"},
+        "neighborhood_trust": {"value": 38, "unit": "percent reporting that many people in their neighbourhood can be trusted", "value_type": "published_survey_estimate"},
+        "contact_trust_split": {"value": "Routine contact and perceived collective willingness are substantially broader than the share reporting that many neighbours can be trusted.", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Official Community and Engagement Survey of people aged 16 and over in England; the report presents weighted estimates and a time series, with the community pathway asked October 2025 to March 2026.",
+      "uncertainty": "The report rounds estimates and measures perceptions, not observed assistance, participation, or institutional response; the total response count is described as over 175,000 rather than a single analytic denominator for every estimate.",
+      "subgroup": "People aged 16+ in England.",
+      "counterinterpretation": "People can chat or express willingness to pull together without trusting neighbours enough to share resources, ask for help, or act collectively.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:6285e38cea3e0eedc6e3cffefeb348b14b352666d549ccac14bcfd1a8385a3e4",
+      "status": "reported"
+    },
+    {
+      "period": "Community pathway fieldwork October 2025-March 2026, published September 16, 2026; change and cohesion",
+      "denominator": {"value": 175000, "unit": "over 175,000 survey responses; people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "intergroup_cohesion": {"value": 79, "unit": "percent agreeing their local area is a place where people from different backgrounds get along well", "value_type": "published_survey_estimate"},
+        "area_better": {"value": 11, "unit": "percent saying their local area got better to live in over the previous two years", "value_type": "published_survey_estimate"},
+        "area_worse": {"value": 31, "unit": "percent saying their local area got worse to live in over the previous two years", "value_type": "published_survey_estimate"},
+        "cohesion_decline_gap": {"value": "People can report that different groups get along while judging the local trajectory negatively; social cohesion and place improvement are related but not interchangeable.", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Official cross-sectional survey with repeated annual measures and local-area comparisons.",
+      "uncertainty": "Perceived change is retrospective and does not identify which services, prices, safety conditions, demographic changes, or public decisions drive the judgment.",
+      "subgroup": "People aged 16+ in England.",
+      "counterinterpretation": "A stable sense that groups get along may coexist with worsening housing, transport, safety, or public-service experience without implying a contradiction in respondents' answers.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:6285e38cea3e0eedc6e3cffefeb348b14b352666d549ccac14bcfd1a8385a3e4",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 survey estimates, published September 16, 2026; age and disability differences in belonging",
+      "denominator": {"value": 175000, "unit": "over 175,000 survey responses; subgroup estimates for people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "young_belonging": {"value": 54, "unit": "percent of people aged 16-24 reporting strong neighborhood belonging", "value_type": "published_subgroup_estimate"},
+        "age_25_34_belonging": {"value": 50, "unit": "percent of people aged 25-34 reporting strong neighborhood belonging", "value_type": "published_subgroup_estimate"},
+        "older_belonging": {"value": 74, "unit": "percent of people aged 75+ reporting strong neighborhood belonging", "value_type": "published_subgroup_estimate"},
+        "disability_belonging": {"value": 58, "unit": "percent of disabled people reporting strong neighborhood belonging, versus 63% of non-disabled people", "value_type": "published_subgroup_estimate"},
+        "belonging_access_gap": {"value": "Local belonging is not distributed evenly by age or disability status, making access to social infrastructure an exposure and design question rather than a single national attitude.", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Official subgroup estimates from the Community and Engagement Survey; demographic questions are voluntary and self-reported.",
+      "uncertainty": "Subgroup differences are descriptive; they do not identify whether age, disability, housing, mobility, safety, discrimination, or local infrastructure causes the belonging gap.",
+      "subgroup": "People aged 16-24, 25-34, 75+, disabled and non-disabled people in England.",
+      "counterinterpretation": "Older respondents may have longer residence and more established networks, while younger respondents may be more mobile; the survey cannot separate these pathways.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:6285e38cea3e0eedc6e3cffefeb348b14b352666d549ccac14bcfd1a8385a3e4",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 survey estimates, published September 16, 2026; local-authority variation",
+      "denominator": {"value": 175000, "unit": "over 175,000 survey responses; local-authority estimates for England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "belonging_local_range": {"value": 27, "unit": "percentage-point range in strong belonging across local authorities, from 74% in Derbyshire Dales to 47% in Norwich", "value_type": "published_local_variation"},
+        "neighbor_chat_local_range": {"value": 48, "unit": "percentage-point range in monthly neighbor chat across local authorities, from 85% in Derbyshire Dales to 36% in the City of London", "value_type": "published_local_variation"},
+        "trust_local_range": {"value": 50, "unit": "percentage-point range in reported neighborhood trust, from 65% in Derbyshire Dales to 15% in the City of London", "value_type": "published_local_variation"},
+        "place_specific_route": {"value": "National averages conceal sharply different local social-infrastructure conditions, so interventions need place-specific diagnosis rather than one universal cohesion prescription.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Official local-authority comparisons from the Community and Engagement Survey; the report notes that some local-authority confidence intervals differ and estimates are rounded.",
+      "uncertainty": "Local differences may reflect population composition, sampling, urban form, turnover, deprivation, housing, mobility, or measurement conditions; they do not by themselves establish local authority performance or causality.",
+      "subgroup": "Local-authority populations in England.",
+      "counterinterpretation": "The most extreme local comparisons may be sensitive to outliers and differing confidence intervals; local estimates should not be read as rankings of moral cohesion.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:6285e38cea3e0eedc6e3cffefeb348b14b352666d549ccac14bcfd1a8385a3e4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report", "claim": "Official GOV.UK report containing national, subgroup, time-series, and local-authority neighborhood indicators for England.", "status": "official-statistics-publication"},
+    {"source_url": "https://www.gov.uk/guidance/community-and-engagement-survey-202526", "claim": "Official survey guidance describing the continuous push-to-web design, England coverage, replacement of earlier participation/community-life surveys, and release cadence.", "status": "official-survey-guidance"},
+    {"source_url": "https://blog.nextdoor.com/most-americans-still-rely-on-their-neighbors.-new-nextdoor-research-shows-the-conditions-for-stronger-communities-are-already-in-place", "claim": "The Nextdoor/Harris Poll record provides a separate U.S. platform-commissioned comparison on practical neighbor reliance and young-adult connection gaps.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record adds an official place-and-cohesion route: routine contact and willingness to pull together coexist with lower reported trust, negative local trajectory judgments, and sharp age, disability, deprivation, and local-authority variation. It does not establish which local intervention causes belonging, actual mutual aid, service quality, or durable institutional trust. The survey is representative at the England population level, but local and subgroup estimates remain descriptive and self-reported.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK report was reviewed for publication date, England coverage, fieldwork timing, sample scale, national indicators, subgroup differences, time series, local-authority ranges, and rounding/confidence-interval cautions.",
+    "source_page_sha256": "sha256:6285e38cea3e0eedc6e3cffefeb348b14b352666d549ccac14bcfd1a8385a3e4",
+    "checked": "2026-09-30"
+  }
+}

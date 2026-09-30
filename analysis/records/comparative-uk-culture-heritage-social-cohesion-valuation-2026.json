@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-culture-heritage-social-cohesion-valuation-2026",
+  "title": "Culture and heritage are being reframed as social infrastructure whose cohesion benefits must become visible in public-investment appraisal",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "public_systems_feedback", "household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "political_judgment_action", "infrastructure_technology_dependency"],
+  "source_unit": "UK Department for Digital, Culture, Media and Sport, Culture and Heritage Capital - Valuing social cohesion: a scoping study",
+  "geography": "United Kingdom culture and heritage assets and services, with implications for local and national public investment appraisal",
+  "observations": [
+    {
+      "period": "September 2026; culture and heritage as social-cohesion infrastructure",
+      "denominator": {"value": 1, "unit": "DCMS/AHRC Culture and Heritage Capital scoping framework", "value_type": "reported_program_frame"},
+      "measures": {"mechanism_set": {"value": "shared identity and belonging; social-network formation; shared norms and values; and spaces for socialisation and mixing", "unit": "four broad mechanisms identified in the evidence review", "value_type": "reported_mechanism_set"}, "social_levels": {"value": "micro, meso, and macro levels", "unit": "individual, community, and wider-society relationship levels", "value_type": "reported_theoretical_frame"}, "investment_problem": {"value": "market and non-market cultural, social, and environmental benefits can be overlooked in conventional appraisal", "unit": "reported policy problem", "value_type": "reported_institutional_finding"}},
+      "method": "DCMS-commissioned Alma Economics scoping study combining a rapid evidence assessment, theoretical framework, pilot study, and assessment of valuation methods.",
+      "uncertainty": "The evidence review was mixed and largely cross-sectional or qualitative; the study presents mechanisms and a framework rather than a causal estimate of social-cohesion production.",
+      "subgroup": "Users and non-users of libraries, museums, heritage sites, cultural events, local communities, cultural workers, public funders, and residents of places with unequal cultural provision.",
+      "counterinterpretation": "Cultural assets may create social connection, but they can also reproduce exclusion, contested histories, unequal access, or group boundaries rather than generating universal cohesion.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:25e35b91d0d38cdb1ec81588f431440741b43f1af49759c4ee1f4e14ff4c03cf",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; public valuation and the social meaning of cultural participation",
+      "denominator": {"value": 1, "unit": "pilot valuation exercise focused on local library services", "value_type": "reported_pilot_frame"},
+      "measures": {"allocation_share": {"value": 30, "unit": "approximately percent of total coin allocations on average associated with interaction between groups, belonging/shared identity, and trust/respect/social cooperation", "value_type": "reported_pilot_result"}, "valuation_methods": {"value": "contingent valuation, discrete choice experiments, and wellbeing valuation can in principle capture use and non-use dimensions", "unit": "method assessment", "value_type": "reported_method_route"}, "non_use": {"value": "people may value cultural and heritage assets even when they do not directly visit them because of social-cohesion benefits to others or future generations", "unit": "reported welfare mechanism", "value_type": "reported_mechanism"}},
+      "method": "Pilot coin-allocation exercise and methodological assessment within the scoping study; not a nationally representative willingness-to-pay estimate.",
+      "uncertainty": "The pilot does not establish how the allocation share generalises across assets, regions, demographic groups, or different descriptions of cultural benefits.",
+      "subgroup": "Library users and non-users, residents evaluating local public assets, cultural consumers, and communities benefiting indirectly from shared spaces.",
+      "counterinterpretation": "Stated allocations may reflect prompted interpretation, social desirability, or difficulty separating belonging from other library and cultural-service benefits.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:25e35b91d0d38cdb1ec81588f431440741b43f1af49759c4ee1f4e14ff4c03cf",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; valuation governance and double-counting risk",
+      "denominator": {"value": 1, "unit": "social-cost-benefit appraisal integration problem examined by the study", "value_type": "reported_methodological_frame"},
+      "measures": {"boundary_problem": {"value": "existing use and non-use valuations may already implicitly capture some social-cohesion dimensions", "unit": "reported appraisal risk", "value_type": "reported_methodological_finding"}, "three_part_task": {"value": "deconstruction, gap analysis, and integration", "unit": "three-part measurement challenge", "value_type": "reported_methodological_route"}, "measurement_limit": {"value": "belonging and trust may not be monetisable in isolation and respondents hold different definitions of cohesion", "unit": "reported measurement limitation", "value_type": "reported_uncertainty"}},
+      "method": "Conceptual and methodological review of how social cohesion could be incorporated into the Culture and Heritage Capital and social-cost-benefit-analysis frameworks.",
+      "uncertainty": "The scoping study does not select a single validated valuation method or resolve the boundary between overlapping welfare, wellbeing, social-capital, and cohesion benefits.",
+      "subgroup": "Appraisers, cultural funders, local authorities, national departments, economists, cultural organisations, and communities whose benefits are represented or omitted in appraisal.",
+      "counterinterpretation": "A careful valuation boundary may improve decision quality, but formalising culture in appraisal can still privilege what is measurable over lived or politically contested meanings.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:25e35b91d0d38cdb1ec81588f431440741b43f1af49759c4ee1f4e14ff4c03cf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study", "claim": "Official publication metadata and scoping-study context."}],
+  "boundary": "This record adds a culture-as-social-infrastructure and valuation-governance route from cultural assets and shared participation through belonging, networks, trust, civic engagement, and public-investment appraisal. It does not establish causal social-cohesion effects, a nationally generalisable willingness-to-pay estimate, or that monetisation captures the full political and lived meaning of culture.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GOV.UK HTML report reviewed for the evidence review, four mechanism categories, micro/meso/macro outcomes, pilot valuation, 30 percent allocation result, double-counting risks, theory of change, and methodological recommendations.", "source_url_sha256": "sha256:25e35b91d0d38cdb1ec81588f431440741b43f1af49759c4ee1f4e14ff4c03cf", "checked": "2026-09-29"}
+}

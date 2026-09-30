@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-homelessness-housing-exclusion-2026-pathways-hidden",
+  "title": "Housing exclusion is a layered pathway shaped by poverty, housing markets, institutional transitions, relationships, health and hidden forms of insecurity",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "time_hidden_price"
+  ],
+  "source_unit": "OECD, What is driving homelessness and housing exclusion in OECD and EU countries? A review of the literature and cross-national data",
+  "geography": "OECD and EU countries, with cross-national evidence from the 2023 EU-SILC special module and the 2022 Canadian Housing Survey",
+  "observations": [
+    {
+      "period": "2026 publication; structural and systemic pathways",
+      "denominator": {"value": 1, "unit": "OECD literature-review synthesis", "value_type": "published_review"},
+      "measures": {
+        "structural_drivers": {"value": "poverty and adverse economic conditions are consistently identified as fundamental contributors, with housing costs, shortages of affordable or social housing and eviction risks important in some contexts", "unit": "reported cross-national synthesis", "value_type": "reported_assessment"},
+        "systemic_drivers": {"value": "poorly managed transitions from care, prisons and other institutions can contribute to pathways into homelessness", "unit": "reported institutional pathway", "value_type": "reported_assessment"},
+        "relational_drivers": {"value": "family conflict, relationship breakdown and intimate-partner violence can act as pathways, while poor health often increases vulnerability rather than acting alone", "unit": "reported pathway synthesis", "value_type": "reported_assessment"}
+      },
+      "method": "Review of academic literature combined with cross-national analysis of housing-difficulty and homelessness data.",
+      "uncertainty": "The paper synthesizes heterogeneous studies and definitions; it does not provide a single causal model or comparable effect size for every pathway across countries.",
+      "subgroup": "People facing poverty, housing-cost pressure, eviction, institutional discharge, family conflict, violence, health constraints, youth transition or weak social support.",
+      "counterinterpretation": "Individual and relational factors matter, but focusing on them alone can obscure the structural and institutional conditions that make a crisis translate into loss of housing.",
+      "source_url": "https://www.oecd.org/en/publications/2026/09/what-is-driving-homelessness-and-housing-exclusion-in-oecd-and-eu-countries_7913ada9.html",
+      "retrieval_hash": "sha256:23a14cd76c10174b35baaf59ab2acd1fb4a6b7056ab7e272ed1ba342213b848a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; hidden homelessness and measurement visibility",
+      "denominator": {"value": 1, "unit": "OECD homelessness-measurement frame", "value_type": "published_framework"},
+      "measures": {
+        "hidden_forms": {"value": "temporary stays with family or friends because of lack of housing are less visible and under-researched, yet more widespread in the reviewed survey evidence than rough sleeping or shelter stays", "unit": "reported comparative finding", "value_type": "reported_assessment"},
+        "definition_problem": {"value": "there is no internationally harmonized definition of homelessness, housing exclusion or housing difficulties", "unit": "reported measurement limitation", "value_type": "reported_limitation"},
+        "ethos_scope": {"value": "the paper uses the ETHOS Light typology to distinguish rough sleeping, emergency accommodation, homeless accommodation, institutions, non-conventional dwellings and temporary stays with family or friends", "unit": "reported classification frame", "value_type": "reported_framework"}
+      },
+      "method": "Comparison of official statistics, survey measures and the ETHOS Light living-situation framework.",
+      "uncertainty": "Hidden homelessness has no single formal definition, and country statistics differ in which living situations they include; apparent cross-country differences may partly reflect measurement design.",
+      "subgroup": "People staying temporarily with family or friends, in unsuitable housing, in institutions, in non-conventional dwellings or outside visible shelter systems.",
+      "counterinterpretation": "Broadening the definition improves visibility, but it can reduce comparability if classifications are not operationalized consistently and may complicate targeting of limited prevention resources.",
+      "source_url": "https://www.oecd.org/en/publications/2026/09/what-is-driving-homelessness-and-housing-exclusion-in-oecd-and-eu-countries_7913ada9.html",
+      "retrieval_hash": "sha256:23a14cd76c10174b35baaf59ab2acd1fb4a6b7056ab7e272ed1ba342213b848a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; EU-SILC and Canadian survey evidence",
+      "denominator": {"value": 1, "unit": "cross-national survey synthesis", "value_type": "published_survey_synthesis"},
+      "measures": {
+        "lifetime_housing_difficulty": {"value": "approximately 5% of the EU population reported having experienced some form of housing difficulty over their lifetime, rising to 8–10% in several countries", "unit": "reported survey estimate", "value_type": "reported_estimate"},
+        "current_vs_lifetime": {"value": "lifetime housing-difficulty measures are much larger than national point-in-time estimates that typically place current homelessness below 1%", "unit": "reported measurement contrast", "value_type": "reported_comparison"},
+        "canada_hidden_ratio": {"value": "among Canadian respondents, temporary stays with family or friends were four times more likely than past rough sleeping or emergency/temporary shelter stays", "unit": "reported survey comparison", "value_type": "reported_ratio"}
+      },
+      "method": "Analysis of the 2023 EU-SILC special module on housing difficulties and the 2022 Canadian Housing Survey; the two sources are not directly comparable in every respect.",
+      "uncertainty": "These are survey-based lifetime or past-experience measures, not current prevalence; recall, wording, coverage and country-specific definitions affect the estimates.",
+      "subgroup": "People with past housing difficulty, people who stayed with family or friends, and people who experienced rough sleeping or shelter use.",
+      "counterinterpretation": "A lifetime measure captures cumulative exposure that point-in-time counts miss, but it should not be interpreted as the share currently needing housing or as a direct measure of policy failure.",
+      "source_url": "https://www.oecd.org/en/publications/2026/09/what-is-driving-homelessness-and-housing-exclusion-in-oecd-and-eu-countries_7913ada9.html",
+      "retrieval_hash": "sha256:23a14cd76c10174b35baaf59ab2acd1fb4a6b7056ab7e272ed1ba342213b848a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; entry and exit routes",
+      "denominator": {"value": 1, "unit": "OECD pathway synthesis", "value_type": "published_framework"},
+      "measures": {
+        "entry": {"value": "family or relationship breakdown is frequently cited alongside financial problems, housing-market pressure and other unspecified causes", "unit": "reported pathway finding", "value_type": "reported_assessment"},
+        "exit_variation": {"value": "access to housing is critical for people in severe situations, while employment plays a larger role for those staying with family or friends", "unit": "reported pathway distinction", "value_type": "reported_interpretation"},
+        "support_route": {"value": "family and friends can both be part of hidden housing insecurity and a source of support that helps people exit it", "unit": "reported social-support mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Synthesis of cross-national survey results and literature on pathways into and out of housing difficulty.",
+      "uncertainty": "The paper identifies associations and pathway differences; it does not establish that employment or housing access alone causes durable exits for all groups.",
+      "subgroup": "People in severe homelessness, people temporarily housed with family or friends, people seeking work, households experiencing relationship breakdown and people with limited support networks.",
+      "counterinterpretation": "Employment and social support can stabilize housing, but insecure work, unaffordable rents, violence, health needs or institutional barriers can prevent those routes from producing durable security.",
+      "source_url": "https://www.oecd.org/en/publications/2026/09/what-is-driving-homelessness-and-housing-exclusion-in-oecd-and-eu-countries_7913ada9.html",
+      "retrieval_hash": "sha256:23a14cd76c10174b35baaf59ab2acd1fb4a6b7056ab7e272ed1ba342213b848a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/what-is-driving-homelessness-and-housing-exclusion-in-oecd-and-eu-countries_7913ada9/773baca1-en.pdf", "claim": "Official 75-page OECD working paper PDF."},
+    {"source_url": "https://doi.org/10.1787/773baca1-en", "claim": "Official OECD DOI for Working Paper No. 336."}
+  ],
+  "boundary": "This record adds a housing and household-security signal linking homelessness and housing exclusion to poverty, housing affordability, eviction, institutional transitions, relationships, health, employment, social support and measurement visibility. It is a literature review and cross-national survey synthesis, not a harmonized current prevalence census, a single causal model, or a direct evaluation of any housing policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD publication page and downloadable working paper were reviewed for structural, systemic, individual and relational drivers; hidden homelessness; ETHOS Light classification; EU-SILC and Canadian survey contrasts; and entry/exit pathways.",
+    "source_url_sha256": "sha256:23a14cd76c10174b35baaf59ab2acd1fb4a6b7056ab7e272ed1ba342213b848a",
+    "checked": "2026-09-27"
+  }
+}

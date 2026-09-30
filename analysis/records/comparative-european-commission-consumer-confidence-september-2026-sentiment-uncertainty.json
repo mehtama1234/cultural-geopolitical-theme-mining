@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-european-commission-consumer-confidence-september-2026-sentiment-uncertainty",
+  "title": "EU consumer confidence reversed its recovery in September as uncertainty and inflation expectations rose",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "European Commission Directorate-General for Economic and Financial Affairs, Joint Harmonised EU Programme of Business and Consumer Surveys, September 2026",
+  "geography": "European Union and euro area; harmonised monthly consumer and business surveys with composite confidence, sentiment, employment, and uncertainty indicators",
+  "observations": [
+    {
+      "period": "September 2026; EU and euro-area consumer confidence and economic sentiment",
+      "denominator": {"value": null, "unit": "Harmonised monthly business and consumer survey indicators for the EU and euro area; composite balances and standardised aggregates", "value_type": "not_disclosed"},
+      "measures": {
+        "eu_consumer_confidence": {"value": -15.8, "unit": "consumer confidence indicator points", "value_type": "reported_indicator"},
+        "euro_area_consumer_confidence": {"value": -16.5, "unit": "consumer confidence indicator points", "value_type": "reported_indicator"},
+        "eu_consumer_confidence_change": {"value": -0.8, "unit": "percentage-point change from August 2026", "value_type": "reported_change"},
+        "euro_area_consumer_confidence_change": {"value": -1.0, "unit": "percentage-point change from August 2026", "value_type": "reported_change"},
+        "eu_esi": {"value": 97.9, "unit": "Economic Sentiment Indicator points", "value_type": "reported_indicator"},
+        "euro_area_esi": {"value": 97.9, "unit": "Economic Sentiment Indicator points", "value_type": "reported_indicator"},
+        "eu_esi_change": {"value": -0.4, "unit": "point change from August 2026", "value_type": "reported_change"},
+        "euro_area_esi_change": {"value": -0.5, "unit": "point change from August 2026", "value_type": "reported_change"},
+        "eu_eei": {"value": 98.3, "unit": "Employment Expectations Indicator points", "value_type": "reported_indicator"},
+        "euro_area_eei": {"value": 97.5, "unit": "Employment Expectations Indicator points", "value_type": "reported_indicator"},
+        "mechanism": {"value": "Consumer sentiment can reverse even while business confidence is mixed: September’s decline was driven by deterioration across household financial views, national economic expectations, and major-purchase intentions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the European Commission’s harmonised Business and Consumer Surveys release; confidence indicators are balances or composite standardised aggregates, not percentages of households.",
+      "uncertainty": "The release is a monthly sentiment indicator and does not observe spending, income, purchases, or welfare. Italy’s consumer survey was excluded from September EU and euro-area aggregates because of a structural break, and the series is seasonally adjusted and revisable.",
+      "subgroup": "EU and euro-area aggregate consumer, business, employment-expectations, and economic-sentiment indicators.",
+      "counterinterpretation": "A confidence decline may reflect expectations, survey timing, or information shocks without producing an immediate spending decline; composite indicators can mask country and household differences.",
+      "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en",
+      "retrieval_hash": "sha256:2638f901f15ef6c0caa236db2bea5c4b6d2c350fd0838c183489d7000f947e4e",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; inflation expectations and economic uncertainty",
+      "denominator": {"value": null, "unit": "Harmonised monthly business and consumer survey indicators for the EU; consumer expectations and uncertainty balances", "value_type": "not_disclosed"},
+      "measures": {
+        "consumer_inflation_expectations_change": {"value": 1.8, "unit": "point increase in EU consumers’ expectations for inflation over the next 12 months", "value_type": "reported_change"},
+        "consumer_past_price_assessment_change": {"value": 1.2, "unit": "point increase in EU consumers’ assessment of price developments over the previous 12 months", "value_type": "reported_change"},
+        "economic_uncertainty_indicator": {"value": 18.4, "unit": "Economic Uncertainty Indicator points", "value_type": "reported_indicator"},
+        "economic_uncertainty_change": {"value": 1.2, "unit": "point increase from August 2026", "value_type": "reported_change"},
+        "consumer_future_financial_uncertainty": {"value": "increased in September", "unit": "reported direction of change", "value_type": "reported_pattern"},
+        "consumer_major_purchase_component": {"value": "deteriorated as part of the decline in consumer confidence", "unit": "reported component direction", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Inflation expectations and uncertainty can make households delay or re-evaluate major purchases even before realized prices or income change, creating a cultural and consumer timing effect", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the September 2026 statistical release and methodology notes for the harmonised consumer and business surveys.",
+      "uncertainty": "The points are survey balances and composite indicators; they do not identify which purchases are delayed, how effects vary by income, or whether uncertainty reflects geopolitical, energy, housing, or domestic political information.",
+      "subgroup": "EU consumer expectations and uncertainty indicators, with no respondent-level subgroup estimates in the headline release.",
+      "counterinterpretation": "Higher uncertainty may coexist with precautionary purchases or substitution rather than generalized demand destruction; major-purchase intentions are not completed transactions.",
+      "source_url": "https://economy-finance.ec.europa.eu/document/download/60c46029-7f60-40f0-b8ef-a9ca8aa46aae_en?filename=bcs_2026_09_en.pdf",
+      "retrieval_hash": "sha256:a976fe3a0b76c5c7817a2eb2987bd4b3089f39625260f51012ab4c01b8f57f54",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://economy-finance.ec.europa.eu/document/download/67757055-585f-4928-a381-35f3f0dd5b97_en?filename=bcs_2026_09_statistical_annex_en.pdf", "claim": "Official statistical annex with EU and euro-area indicator and component tables."},
+    {"source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/methodology-business-and-consumer-surveys/methodological-concepts_en", "claim": "European Commission methodology and definitions for consumer confidence, ESI, EEI, and uncertainty indicators."}
+  ],
+  "boundary": "This record adds EU-wide consumer sentiment, major-purchase intention, inflation-expectation, and uncertainty evidence. It does not establish realized consumption, income, cultural behavior, household inequality, causal effects, or a country-specific demand shock.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission September 2026 release, latest-surveys page, and methodology route reviewed for consumer confidence, ESI, EEI, inflation expectations, uncertainty, component direction, seasonal adjustment, Italy exclusion, and indicator definitions.",
+    "source_page_html_sha256": "sha256:2638f901f15ef6c0caa236db2bea5c4b6d2c350fd0838c183489d7000f947e4e",
+    "results_pdf_sha256": "sha256:a976fe3a0b76c5c7817a2eb2987bd4b3089f39625260f51012ab4c01b8f57f54",
+    "checked": "2026-09-30"
+  }
+}

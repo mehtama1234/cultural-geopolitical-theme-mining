@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-stimson-future-international-cooperation-2026-global-trust-multilateral-governance",
+  "title": "Global trust deficits are becoming an operating constraint on diplomacy, technology, trade, security, and shared public goods",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "trust_identity_meaning", "political_judgment_action", "infrastructure_technology_dependency", "public_systems_feedback", "firm_sector_market_power"],
+  "source_unit": "Stimson Center, Doha Forum, and Global Institute for Strategic Research, Future of International Cooperation Report 2026: Redefining Global Trust",
+  "geography": "Global and regional governance, with perspectives spanning diplomacy, economics, technology, security, justice, and the Global South",
+  "observations": [
+    {
+      "period": "September 2026; global trust and international cooperation diagnosis",
+      "denominator": {"value": 1, "unit": "global policy and governance synthesis; no single survey denominator", "value_type": "policy_synthesis_frame"},
+      "measures": {
+        "trust_domains": {"value": "trust deficits are examined across global and regional politics, economics and technology, and security and justice", "unit": "reported analytical scope", "value_type": "reported_framework"},
+        "governance_principles": {"value": "transparency, legitimacy, effectiveness and integrity", "unit": "reported global-governance principles", "value_type": "reported_policy_framework"},
+        "regional_principles": {"value": "cooperation, collaboration, accountability and reciprocity", "unit": "reported regional-governance principles", "value_type": "reported_policy_framework"},
+        "trust_mechanism": {"value": "mistrust and distrust impede accurate information sharing, lower respect for international law, erode community and undermine belief in global public goods", "unit": "reported system pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "Co-produced policy report based on global and regional governance analysis, expert contributions, policy dialogues, institutional review, and proposals connected to the Summit of the Future, World Social Summit, financing-for-development and post-2030 agendas.",
+      "uncertainty": "This is a normative and strategic policy synthesis, not a representative trust survey, causal estimate, or independent evaluation of the proposed governance reforms.",
+      "subgroup": "States, regional organizations, civil society, business, technology actors, media, religious leaders, international organizations, and communities affected by global public-good and security decisions.",
+      "counterinterpretation": "Trust is not the only condition of cooperation: interests, material capacity, enforcement, power asymmetries and institutional design can enable or constrain cooperation even when confidence is low.",
+      "source_url": "https://www.stimson.org/2026/future-of-international-cooperation-report-2026/",
+      "retrieval_hash": "sha256:04eb0be2f023d42094887048a36eacc9cf3e94f3c50794b79da1aff6c5800414",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proposed multilateral responses to information, AI, security and economic trust gaps",
+      "denominator": {"value": 1, "unit": "FIC'26 recommendation framework", "value_type": "policy_recommendation_frame"},
+      "measures": {
+        "information_integrity_proposal": {"value": "a Multilateral Information Integrity Council to assess information-environment degradation, develop shared standards and coordinate international responses", "unit": "reported proposal", "value_type": "reported_policy_proposal"},
+        "ai_capacity_proposal": {"value": "a Global AI Hub and shared computing infrastructure to improve access to computing, data, expertise and knowledge-sharing for developing countries", "unit": "reported proposal", "value_type": "reported_policy_proposal"},
+        "preventive_diplomacy_proposal": {"value": "an inter-regional early-warning and preventive-diplomacy network to monitor political erosion and engage before conflict escalates", "unit": "reported proposal", "value_type": "reported_policy_proposal"},
+        "trade_and_security_proposals": {"value": "deeper inter-regional trade cooperation and clearer compliance, monitoring and dispute-resolution mechanisms in regional security arrangements", "unit": "reported proposal set", "value_type": "reported_policy_proposal"}
+      },
+      "method": "Report recommendations linking information integrity, AI infrastructure, preventive diplomacy, trade cooperation, security compliance, accountability and post-2030 development planning.",
+      "uncertainty": "Proposals are not funded implementation plans; their feasibility, distributional effects, geopolitical acceptance, institutional mandate and measurable outcomes remain open.",
+      "subgroup": "Developing countries facing AI-capacity gaps, regional organizations, UN bodies, technology and business actors, conflict-affected populations, and states participating in multilateral governance.",
+      "counterinterpretation": "New global councils or hubs could add institutional duplication, contestation or centralization; regional and national capacity-building may sometimes be more credible than global coordination.",
+      "source_url": "https://www.stimson.org/wp-content/uploads/2026/09/FIC2026.pdf",
+      "retrieval_hash": "sha256:04eb0be2f023d42094887048a36eacc9cf3e94f3c50794b79da1aff6c5800414",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.stimson.org/2026/future-of-international-cooperation-report-2026/", "claim": "Canonical Stimson report page with executive summary and report context."},
+    {"source_url": "https://www.stimson.org/wp-content/uploads/2026/09/FIC2026.pdf", "claim": "Official 81-page Future of International Cooperation Report 2026 PDF."}
+  ],
+  "boundary": "This record adds a global-governance trust route connecting information integrity, AI capacity, diplomacy, trade, security, justice, accountability and shared public goods. It is a normative policy synthesis, not a global trust prevalence estimate, a geopolitical forecast, a country implementation audit, or respondent-level data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Stimson landing page, executive summary and 81-page PDF were reviewed; report scope, trust diagnosis, governance principles, and information-integrity, AI, preventive-diplomacy, trade and security proposals were cross-checked.",
+    "report_pdf_sha256": "sha256:04eb0be2f023d42094887048a36eacc9cf3e94f3c50794b79da1aff6c5800414",
+    "checked": "2026-09-28"
+  }
+}

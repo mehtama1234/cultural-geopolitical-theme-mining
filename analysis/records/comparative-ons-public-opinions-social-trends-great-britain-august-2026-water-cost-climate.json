@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-public-opinions-social-trends-great-britain-august-2026-water-cost-climate",
+  "title": "In Great Britain, cost of living and public services remain dominant concerns while drought turns climate concern into everyday water conservation",
+  "theme_ids": ["cost", "energy", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Office for National Statistics, Public opinions and social trends, Great Britain: August 2026, released 18 September 2026",
+  "geography": "Adults in England, Scotland, and Wales surveyed through the ONS Opinions and Lifestyle Survey",
+  "observations": [
+    {
+      "period": "5-30 August 2026; issues facing Great Britain",
+      "denominator": {"value": 1, "unit": "ONS public-opinion issue-priority frame", "value_type": "reported_issue_frame"},
+      "measures": {
+        "cost_of_living": {"value": 89, "unit": "percent identifying cost of living as an important issue facing the UK", "value_type": "reported_survey_share"},
+        "nhs": {"value": 79, "unit": "percent identifying the NHS as an important issue", "value_type": "reported_survey_share"},
+        "economy": {"value": 70, "unit": "percent identifying the economy as an important issue", "value_type": "reported_survey_share"},
+        "public_priority_route": {"value": "cost, health-system capacity, and the economy remain the dominant public problem frame", "unit": "reported public-priority pattern", "value_type": "reported_mechanism_set"}
+      },
+      "method": "ONS statistical bulletin based on the Opinions and Lifestyle Survey for adults in Great Britain.",
+      "uncertainty": "Issue-priority responses are descriptive public opinion, not measures of policy effectiveness, objective service performance, or a causal ranking of national problems.",
+      "subgroup": "Adults across England, Scotland, and Wales, households facing cost pressures, NHS users, workers, and policymakers.",
+      "counterinterpretation": "High issue salience can reflect media attention, recent events, or broad concern and does not imply uniform personal exposure or a single policy preference.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026",
+      "retrieval_hash": "sha256:1d572ec56d83f113199528faad67d5b9a624aa96d89852a5b30f6f80a5aad0f0",
+      "status": "reported"
+    },
+    {
+      "period": "June-August 2026; climate and environment as a public issue",
+      "denominator": {"value": 1, "unit": "ONS adult public-opinion climate-importance frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "climate_environment": {"value": 62, "unit": "percent identifying climate change and the environment as an important issue in August", "value_type": "reported_survey_share"},
+        "june_comparison": {"value": 53, "unit": "percent identifying climate change and the environment as an important issue in June", "value_type": "reported_survey_share"},
+        "late_2024_comparison": {"value": "the August proportion is the highest reported since late 2024", "unit": "reported longitudinal comparison", "value_type": "reported_persistence"},
+        "climate_voice_route": {"value": "climate salience has risen within a public agenda still dominated by cost, health, and economic concerns", "unit": "analytic public-opinion route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "ONS repeated public-opinion indicators comparing August 2026 with June 2026 and earlier releases.",
+      "uncertainty": "Issue salience does not reveal preferred climate policy, willingness to bear costs, personal exposure, or whether concern persists after drought conditions change.",
+      "subgroup": "Adults in Great Britain, households exposed to drought, climate-concerned publics, and people balancing environmental and cost priorities.",
+      "counterinterpretation": "Rising climate salience may be event-driven by drought and water restrictions rather than a durable shift in values or political behavior.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026",
+      "retrieval_hash": "sha256:1d572ec56d83f113199528faad67d5b9a624aa96d89852a5b30f6f80a5aad0f0",
+      "status": "reported"
+    },
+    {
+      "period": "5-30 August 2026; drought, water restrictions, and household adaptation",
+      "denominator": {"value": 1, "unit": "ONS adult water-use behavior frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "any_water_action": {"value": 88, "unit": "percent reporting at least one action to cut back household water use in the past month", "value_type": "reported_survey_share"},
+        "tap_action": {"value": 65, "unit": "percent reporting not leaving the tap running", "value_type": "reported_survey_share"},
+        "full_load_action": {"value": 55, "unit": "percent waiting until washing machines or dishwashers were full", "value_type": "reported_survey_share"},
+        "garden_action": {"value": 48, "unit": "percent using less tap water, including hosepipes, in the garden, up from 36 percent in July", "value_type": "reported_survey_share"},
+        "adaptation_route": {"value": "drought and restrictions translated climate and infrastructure pressure into visible household routines", "unit": "reported behavior mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "ONS Opinions and Lifestyle Survey indicators on reported water-use actions during August 2026 drought and restriction conditions.",
+      "uncertainty": "Reported actions do not measure water volumes saved, persistence, costs, unequal burden, or the effectiveness of restrictions; respondents could select multiple actions.",
+      "subgroup": "Households in Great Britain, adults in areas with and without restrictions, women and men, and younger and older adults.",
+      "counterinterpretation": "Short-term conservation can be event-driven and may not persist without infrastructure, pricing, communication, or institutional support.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026",
+      "retrieval_hash": "sha256:1d572ec56d83f113199528faad67d5b9a624aa96d89852a5b30f6f80a5aad0f0",
+      "status": "reported"
+    },
+    {
+      "period": "5-30 August 2026; cost-of-living pressure and household tradeoffs",
+      "denominator": {"value": 1, "unit": "ONS adult household-cost frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "cost_increase": {"value": 55, "unit": "percent reporting their cost of living increased compared with one month earlier", "value_type": "reported_survey_share"},
+        "food_reason": {"value": 94, "unit": "percent of those reporting an increase citing food-shopping prices", "value_type": "reported_conditional_share"},
+        "fuel_reason": {"value": 72, "unit": "percent of those reporting an increase citing fuel prices", "value_type": "reported_conditional_share"},
+        "energy_reason": {"value": 64, "unit": "percent of those reporting an increase citing gas or electricity bills", "value_type": "reported_conditional_share"},
+        "tradeoff_route": {"value": "households most commonly responded by cutting non-essentials, shopping around, and reducing food shopping or essentials", "unit": "reported household adaptation set", "value_type": "reported_mechanism_set"},
+        "open_test": {"value": "connect public issue salience to actual household room, health, energy, food, and political response without treating survey shares as individual histories", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "ONS repeated cross-sectional indicators on reported cost changes, sources of increases, and household actions.",
+      "uncertainty": "The measures are self-reported and conditional; they do not estimate household budgets, price elasticities, poverty transitions, or causal effects of specific costs.",
+      "subgroup": "Households with different ages, incomes, food and energy burdens, workers, and consumers across Great Britain.",
+      "counterinterpretation": "The decline in reported monthly cost increases from April does not mean cost pressure has disappeared; households may have adapted or expectations may have changed.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026",
+      "retrieval_hash": "sha256:1d572ec56d83f113199528faad67d5b9a624aa96d89852a5b30f6f80a5aad0f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainwaterrestrictionsanduse", "claim": "ONS water-restrictions dataset provides the related August 2026 downloadable indicators and confidence intervals."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026", "claim": "ONS June 2026 release provides prior climate-salience and AI-attitudes comparison context."}
+  ],
+  "boundary": "This record adds a Great Britain public-opinion route from cost, health-system, and economic concern through climate salience, drought adaptation, water use, and household tradeoffs. It uses official aggregate survey indicators, not respondent-level records in the corpus, causal household histories, water-volume measurement, or proof that salience produces durable policy action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ONS August 2026 statistical bulletin was reviewed for issue priorities, climate salience, water-use actions, restriction awareness, cost-of-living change, cost drivers, and household responses.",
+    "source_url_sha256": "sha256:1d572ec56d83f113199528faad67d5b9a624aa96d89852a5b30f6f80a5aad0f0",
+    "checked": "2026-09-26"
+  }
+}

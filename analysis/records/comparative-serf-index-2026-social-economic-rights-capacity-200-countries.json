@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-serf-index-2026-social-economic-rights-capacity-200-countries",
+  "title": "Social and economic rights fulfillment is measured against feasible capacity, exposing delivery gaps that GDP alone hides",
+  "theme_ids": ["cost", "voice", "energy", "work"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "care_health_reproduction", "housing_place_mobility", "work_control_bargaining", "political_judgment_action"],
+  "source_unit": "University of Connecticut Social and Economic Rights Empowerment Initiative, 2026 International SERF Index update",
+  "geography": "Up to 200 countries, with separate low/middle-income and high-income assessment standards and sex-disaggregated rights indicators",
+  "observations": [
+    {
+      "period": "1990–2023; 2026 International SERF Index update",
+      "denominator": {"value": 200, "unit": "countries with at least one right or component-right series available", "value_type": "published_coverage_upper_bound"},
+      "measures": {
+        "rights_domains": {"value": "The index evaluates five rights: health, education, food, housing, and work", "unit": "rights domains", "value_type": "reported_framework"},
+        "time_span": {"value": 33, "unit": "years covered by the updated international series", "value_type": "reported_time_span"},
+        "capacity_benchmark": {"value": "Achievement Possibility Frontiers benchmark rights enjoyment against the best observed performance at comparable per-capita income levels", "unit": "rights-capacity benchmarking method", "value_type": "reported_method"},
+        "interpretation": {"value": "The frame shifts evaluation from resources alone to whether states achieve the rights outcomes feasible at their level of resources", "unit": "measurement interpretation", "value_type": "inferred"}
+      },
+      "method": "The SERF methodology combines socioeconomic outcome indicators with per-capita income and Achievement Possibility Frontiers to estimate the percentage of feasible rights fulfillment achieved by each country.",
+      "uncertainty": "A score of 100% means performance matches the historically best observed benchmark at that income level; it does not mean universal rights enjoyment. Composite scores depend on indicator availability, modelling choices, aggregation, and benchmark construction.",
+      "subgroup": "Countries, rights domains, income standards, sex-disaggregated groups, and years; comparisons must respect the appropriate assessment standard and data availability.",
+      "counterinterpretation": "A low score may reflect measurement gaps, conflict, geography, or unusual service systems as well as policy failure; a high score does not eliminate unmet needs or future obligations.",
+      "source_url": "https://serfindex.uconn.edu/overview-2026/",
+      "retrieval_hash": "sha256:78c8270acbccad8b7fb17893ae2ccfe11d45b5247c78a251a39c8c4923391f0e",
+      "status": "reported"
+    },
+    {
+      "period": "1990–2023; country and income-standard coverage",
+      "denominator": {"value": 200, "unit": "countries with at least one available right or component-right measure; exact coverage varies by year and domain", "value_type": "published_coverage_upper_bound"},
+      "measures": {
+        "low_middle_income_composite": {"value": "The composite SERF Index is available for up to 111 countries in any given year under the low- and middle-income standard", "unit": "countries with composite-index coverage", "value_type": "reported_coverage"},
+        "high_income_composite": {"value": "The composite SERF Index is available for up to 28 countries in any given year under the high-income standard", "unit": "countries with composite-index coverage", "value_type": "reported_coverage"},
+        "component_rights": {"value": "Component-right indices are available for up to 196 countries under the low/middle-income standard and up to 160 under the high-income standard, depending on right and year", "unit": "countries with component-index coverage", "value_type": "reported_coverage"},
+        "interpretation": {"value": "Global comparisons are strongest at the component level and weaker when reduced to a single composite score with uneven country coverage", "unit": "comparability interpretation", "value_type": "inferred"}
+      },
+      "method": "The update publishes composite and component indices with separate assessment standards and country-year availability determined by requisite data.",
+      "uncertainty": "Coverage is not uniform across years, rights, countries, or income standards. Missingness and data quality can affect apparent regional patterns and long-run comparisons.",
+      "subgroup": "Low- and middle-income countries, high-income countries, individual rights, country-years, and countries with modelled or look-back indicators.",
+      "counterinterpretation": "A component-right profile may be more informative than the composite and can reveal progress masked by missing data; the absence of a composite score is not evidence of poor fulfillment.",
+      "source_url": "https://serfindex.uconn.edu/2026-update-international-serf-index-data/",
+      "retrieval_hash": "sha256:78c8270acbccad8b7fb17893ae2ccfe11d45b5247c78a251a39c8c4923391f0e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 update; sex-disaggregated rights data",
+      "denominator": {"value": 200, "unit": "countries covered by at least one relevant sex-disaggregated or component-right indicator", "value_type": "published_coverage_upper_bound"},
+      "measures": {
+        "sex_disaggregated_domains": {"value": "Sex-disaggregated data are included for education, food, two components of health, and one aspect of work under the high-income standard", "unit": "rights indicators with sex disaggregation", "value_type": "reported_coverage"},
+        "rights_visibility": {"value": "The update makes gendered differences in access and outcomes visible within a rights-fulfillment framework rather than treating country averages as neutral", "unit": "measurement interpretation", "value_type": "reported_method"},
+        "work_dimension": {"value": "The high-income standard includes sex-disaggregated data for one aspect of the right to work", "unit": "work-right indicator coverage", "value_type": "reported_coverage"},
+        "interpretation": {"value": "Rights delivery can be judged both by national feasibility and by whether access is distributed across sex groups", "unit": "distributional interpretation", "value_type": "inferred"}
+      },
+      "method": "The 2026 data update incorporates sex-disaggregated indicator and component-right data where internationally comparable measures are available.",
+      "uncertainty": "Sex-disaggregated coverage is incomplete and does not capture all relevant gender identities, intersectional groups, within-country geography, or causal mechanisms behind gaps.",
+      "subgroup": "Sex groups, income standards, rights domains, country income levels, and countries with adequate data.",
+      "counterinterpretation": "Disaggregation can reveal gaps but cannot by itself distinguish discrimination, household allocation, labour-market structure, health exposure, measurement bias, or different preferences.",
+      "source_url": "https://serfindex.uconn.edu/overview-2026/",
+      "retrieval_hash": "sha256:78c8270acbccad8b7fb17893ae2ccfe11d45b5247c78a251a39c8c4923391f0e",
+      "status": "reported"
+    },
+    {
+      "period": "1990–2023; indicator availability and temporal comparability",
+      "denominator": {"value": 33, "unit": "years in the updated international series, with country-right-year coverage varying", "value_type": "published_time_span"},
+      "measures": {
+        "data_lag": {"value": "The most recent available indicator and corresponding per-capita-income data are used; many underlying surveys are not conducted annually", "unit": "temporal measurement rule", "value_type": "reported_method"},
+        "lookback": {"value": "Where modelled indicators are unavailable, the methodology can use a look-back period of up to 10 years; older data are recorded missing beyond that limit", "unit": "maximum look-back period", "value_type": "reported_method"},
+        "standard_boundary": {"value": "High-income and low/middle-income assessment standards are calculated for countries with required data but are not comparable to one another", "unit": "comparability rule", "value_type": "reported_boundary"},
+        "interpretation": {"value": "Global social-rights trend work requires explicit attention to data timing, modelled values, missingness, and benchmark choice before interpreting apparent progress or decline", "unit": "evidence interpretation", "value_type": "inferred"}
+      },
+      "method": "The project documents indicator recency, modelled inputs, look-back rules, missingness, and separate income-standard construction for the 1990–2023 series.",
+      "uncertainty": "Country-year scores may combine indicators from different years and data-generating processes. This limits precise timing claims and can make short-term changes look smoother or sharper than lived conditions.",
+      "subgroup": "Country-years, rights indicators, income standards, survey-based versus modelled measures, and regions with different statistical capacity.",
+      "counterinterpretation": "Long-run composite frameworks can still reveal persistent structural patterns that annual surveys miss, provided changes are interpreted as broad capacity/outcome signals rather than exact contemporaneous experiences.",
+      "source_url": "https://serfindex.uconn.edu/overview-2026/",
+      "retrieval_hash": "sha256:78c8270acbccad8b7fb17893ae2ccfe11d45b5247c78a251a39c8c4923391f0e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://serfindex.uconn.edu/2026/09/22/2026-update-international-serf-index-now-available/", "claim": "Official announcement of the 2026 update, 1990–2023 coverage, five rights, country coverage, and sex-disaggregated data.", "status": "official-announcement"},
+    {"source_url": "https://serfindex.uconn.edu/2026-update-international-serf-index-data/", "claim": "Official data and technical-note landing page for the 2026 International SERF Index update.", "status": "official-data-landing-page"}
+  ],
+  "boundary": "This record adds a rights-based delivery-versus-capacity measurement layer across health, education, food, housing, and work. It does not provide respondent-level data, a causal policy evaluation, a single comparable score for all countries, or proof that benchmark attainment means universal rights enjoyment.",
+  "retrieval_hash": "sha256:78c8270acbccad8b7fb17893ae2ccfe11d45b5247c78a251a39c8c4923391f0e"
+}

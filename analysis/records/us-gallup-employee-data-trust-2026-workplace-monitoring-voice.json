@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-employee-data-trust-2026-workplace-monitoring-voice",
+  "title": "Workplace monitoring becomes a trust and control boundary shaped by purpose, transparency, and employee voice",
+  "theme_ids": ["voice", "work", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup Workplace, Employee Data Use: One in Five Trust Leaders a Great Deal, September 24, 2026",
+  "geography": "United States; employees who regularly work on a computer or another device, with engagement, role, access, and communication comparisons",
+  "observations": [
+    {
+      "period": "September 2026 publication; trust in organizational data use",
+      "denominator": {"value": 1, "unit": "Gallup employee survey population; public article does not disclose the sample size in the publication summary", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "great_deal_of_trust": {"value": 20, "unit": "percent with a great deal of trust that leaders use employee data responsibly", "value_type": "reported_share"},
+        "some_trust": {"value": 43, "unit": "percent with somewhat trust", "value_type": "reported_share"},
+        "not_much_trust": {"value": 23, "unit": "percent with not too much trust", "value_type": "reported_share"},
+        "no_trust": {"value": 14, "unit": "percent with no trust at all", "value_type": "reported_share"}
+      },
+      "method": "Gallup workplace survey summary of employees who regularly work on a computer or another device; the article distinguishes activity data such as hours, badge swipes, and emails sent from content data such as emails, meeting content, and websites visited.",
+      "uncertainty": "The public article does not provide the sample size, field dates, sampling frame, weighting details, or full questionnaire; the estimates should be treated as a published workplace signal rather than a fully reproducible national prevalence estimate.",
+      "subgroup": "Employees who regularly use a computer or other device, with engagement and role comparisons.",
+      "counterinterpretation": "Low trust may reflect broader organizational disengagement rather than monitoring itself; reported perceptions may also diverge from actual data collection and governance practices.",
+      "source_url": "https://www.gallup.com/workplace/714932/employee-data-one-five-trust-leaders-great-deal.aspx",
+      "retrieval_hash": "sha256:f79952d2829af4093d9b7847a4f22e73f9cb9d52146ce207d7cb1864468852ce",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 publication; engagement and data-use trust",
+      "denominator": {"value": 1, "unit": "Gallup employee survey population; subgroup sample sizes not disclosed in the public article", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "engaged_great_deal_trust": {"value": 40, "unit": "percent of engaged employees with a great deal of trust", "value_type": "reported_share"},
+        "not_engaged_great_deal_trust": {"value": 13, "unit": "percent of employees who are not engaged", "value_type": "reported_share"},
+        "actively_disengaged_great_deal_trust": {"value": 4, "unit": "percent of actively disengaged employees", "value_type": "reported_share"},
+        "engaged_to_disengaged_gap": {"value": 36, "unit": "percentage-point gap in great-deal trust", "value_type": "reported_difference"}
+      },
+      "method": "Gallup comparison of trust in responsible data use across its employee-engagement categories.",
+      "uncertainty": "The association does not establish whether monitoring reduces engagement, whether disengagement reduces trust, or whether both reflect leadership and workplace conditions measured elsewhere.",
+      "subgroup": "Engaged, not-engaged, and actively disengaged employees.",
+      "counterinterpretation": "Employee data governance may be functioning as a visible proxy for a larger relationship with leadership, fairness, recognition, and control over work.",
+      "source_url": "https://www.gallup.com/workplace/714932/employee-data-one-five-trust-leaders-great-deal.aspx",
+      "retrieval_hash": "sha256:f79952d2829af4093d9b7847a4f22e73f9cb9d52146ce207d7cb1864468852ce",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 publication; information and concern about monitoring",
+      "denominator": {"value": 1, "unit": "Gallup employee survey population; public article does not disclose the sample size", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "activity_data_collection_perceived": {"value": 59, "unit": "percent who believe their employer probably or definitely collects activity data", "value_type": "reported_share"},
+        "content_data_collection_perceived": {"value": 46, "unit": "percent who believe their employer probably or definitely collects content data", "value_type": "reported_share"},
+        "workplace_data_conversation": {"value": 19, "unit": "percent who say someone at work has discussed the data or metrics collected about their work", "value_type": "reported_share"},
+        "some_concern": {"value": "about one-third", "unit": "employees very or somewhat concerned about organizational data collection and use", "value_type": "reported_share"}
+      },
+      "method": "Gallup employee survey summary comparing perceived collection of activity and content data with direct workplace communication about data practices.",
+      "uncertainty": "Perceived collection is not an audit of actual collection; the summary does not identify the exact wording, organizational sector mix, or whether conversations were informative, coercive, or worker-initiated.",
+      "subgroup": "Employees by perceived activity/content monitoring and whether someone at work discussed data use.",
+      "counterinterpretation": "The information gap may be a governance problem in its own right: uncertainty can increase suspicion, while disclosure can increase both trust and concern by making tradeoffs visible.",
+      "source_url": "https://www.gallup.com/workplace/714932/employee-data-one-five-trust-leaders-great-deal.aspx",
+      "retrieval_hash": "sha256:f79952d2829af4093d9b7847a4f22e73f9cb9d52146ce207d7cb1864468852ce",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 publication; purpose-specific comfort and managerial visibility",
+      "denominator": {"value": 1, "unit": "Gallup employee survey population; public article does not disclose the sample size", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "comfortable_team_effectiveness": {"value": 62, "unit": "percent comfortable with activity data used to support team effectiveness and goals", "value_type": "reported_share"},
+        "comfortable_employee_development": {"value": 61, "unit": "percent comfortable with activity data used to help employees improve performance or development", "value_type": "reported_share"},
+        "comfortable_performance_reviews": {"value": 53, "unit": "percent comfortable with activity data used in performance reviews", "value_type": "reported_share"},
+        "comfortable_staffing_scheduling": {"value": 57, "unit": "percent comfortable with activity data used for staffing or scheduling decisions", "value_type": "reported_share"},
+        "leaders_direct_access_great_deal_trust": {"value": 46, "unit": "percent of managers and leaders with direct access to employee data expressing great trust", "value_type": "reported_share"},
+        "leaders_no_access_great_deal_trust": {"value": 16, "unit": "percent of managers and leaders without access expressing great trust", "value_type": "reported_share"}
+      },
+      "method": "Gallup comparison of employee comfort by intended use of activity data and manager/leader trust by level of data access.",
+      "uncertainty": "Comfort with hypothetical uses is not consent, observed behavior, or a test of fairness; access may be confounded with seniority, information quality, organizational trust, or role power.",
+      "subgroup": "Employees by proposed purpose of monitoring; managers and leaders by direct access, request access, or no access.",
+      "counterinterpretation": "Workers may accept monitoring when its purpose is constructive and bounded, but resist when it affects evaluation, scheduling, or standing; managerial visibility may improve explanation or simply reflect organizational privilege.",
+      "source_url": "https://www.gallup.com/workplace/714932/employee-data-one-five-trust-leaders-great-deal.aspx",
+      "retrieval_hash": "sha256:f79952d2829af4093d9b7847a4f22e73f9cb9d52146ce207d7cb1864468852ce",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a workplace data-governance and control layer: employee monitoring is interpreted through purpose, transparency, engagement, role power, and perceived fairness. It does not establish actual surveillance practices, legal compliance, consent, productivity effects, turnover, causal engagement change, or worker bargaining outcomes."
+}

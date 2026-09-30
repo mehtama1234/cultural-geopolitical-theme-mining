@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-china-nbs-august-2026-retail-cpi-category-pressure",
+  "title": "China’s August 2026 consumer basket shows weak aggregate retail growth alongside online, category, and price divergence",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "National Bureau of Statistics of China August 2026 Consumer Price Index and Total Retail Sales of Consumer Goods releases",
+  "geography": "China, national urban and rural consumer-price and retail-sales indicators",
+  "observations": [
+    {
+      "period": "August 2026 compared with August 2025; total retail sales and selected categories",
+      "denominator": {"value": null, "unit": "National Bureau of Statistics retail-sales aggregates; no unique-person or household denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "total_retail_sales_yoy": {"value": 0.4, "unit": "percent year-over-year change in total retail sales of consumer goods", "value_type": "reported_change"},
+        "retail_excluding_automobiles_yoy": {"value": 2.5, "unit": "percent year-over-year change in retail sales excluding automobiles", "value_type": "reported_change"},
+        "online_goods_retail_jan_to_aug_yoy": {"value": 4.3, "unit": "percent year-over-year change in online retail sales of goods from January through August 2026", "value_type": "reported_change"},
+        "online_services_retail_jan_to_aug_yoy": {"value": 5.1, "unit": "percent year-over-year change in online retail sales of services from January through August 2026", "value_type": "reported_change"},
+        "category_distribution": {"value": "August year-over-year: telecommunication equipment +27.3%, tobacco and liquor +12.5%, cultural and office appliances +5.8%, sports and recreational articles -4.8%, household appliances and audio-video equipment +2.3%, motor vehicles -18.5%, jewelry -17.5%", "unit": "reported nominal category changes", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Aggregate retail growth can remain nearly flat while online services and selected digital categories expand and durable, mobility, sports, or status-linked categories contract; category composition is more informative than a single retail headline", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National Bureau of Statistics of China monthly retail-sales release using nominal retail-sales aggregates, urban/rural location breakdowns, consumption-pattern categories, and online retail reporting.",
+      "uncertainty": "Growth rates are nominal and not adjusted for price factors; aggregates do not identify households, quantities, repeat buyers, product quality, affordability, or the reasons behind category changes. Online retail totals cover reported online channels and are not equivalent to unique users.",
+      "subgroup": "National retail-sales aggregates, urban and rural business locations, consumption categories, and online goods/services categories.",
+      "counterinterpretation": "Category changes may reflect prices, promotions, product cycles, regulatory or seasonal timing, inventory, vehicle-market composition, or reporting coverage rather than durable consumer preference or household welfare.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html",
+      "retrieval_hash": "sha256:42720d273fd13533991a514cb7edd10dbed3e9c3723aeafe86d44e5789f71605",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 compared with August 2025; consumer prices by major category",
+      "denominator": {"value": null, "unit": "National urban and rural CPI survey covering eight major categories and 268 basic categories; respondent denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "headline_cpi_yoy": {"value": 0.8, "unit": "percent year-over-year change in national Consumer Price Index", "value_type": "reported_change"},
+        "headline_cpi_mom": {"value": 0.4, "unit": "percent month-over-month change in national Consumer Price Index", "value_type": "reported_change"},
+        "education_culture_recreation_cpi_yoy": {"value": 1.4, "unit": "percent year-over-year change in education, culture and recreation prices", "value_type": "reported_change"},
+        "transport_telecommunication_cpi_yoy": {"value": 2.5, "unit": "percent year-over-year change in transportation and telecommunication prices", "value_type": "reported_change"},
+        "residence_cpi_yoy": {"value": -0.3, "unit": "percent year-over-year change in residence prices", "value_type": "reported_change"},
+        "food_tobacco_dining_cpi_yoy": {"value": -0.7, "unit": "percent year-over-year change in food, tobacco, liquor and dining-out prices", "value_type": "reported_change"},
+        "mechanism": {"value": "Consumer room is shaped by category-specific inflation rather than headline CPI alone: transport and communication, and education/culture/recreation, rose while residence and food-related prices fell", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National Bureau of Statistics of China CPI survey using fixed-person, fixed-site, and fixed-time price collection from nearly 120,000 survey sites in about 500 cities and counties across 31 provinces, including online sources.",
+      "uncertainty": "The CPI is a price-level measure, not a household-specific cost-of-living index; weights, representative items, and surveyed sites were adjusted with a 2025 base beginning in January 2026. It does not measure quantities, income, substitution, or cultural participation.",
+      "subgroup": "Urban and rural residents represented in the national CPI basket, with eight major categories and 268 basic categories.",
+      "counterinterpretation": "Category CPI movements do not reveal which households face the price changes, how they substitute, or whether nominal spending rises enough to preserve access; a national average can conceal place and income gradients.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260910_1965275.html",
+      "retrieval_hash": "sha256:8831452b3051dfbbb99e09e3c105cfa547f7908a5bceb318631ff54d4ef1a0d1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html", "claim": "Official NBS August 2026 retail-sales release with total, urban/rural, online, catering, and category values."},
+    {"source_url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260910_1965275.html", "claim": "Official NBS August 2026 CPI release with category changes, survey coverage, collection method, and 2025-base notes."}
+  ],
+  "boundary": "This record adds a high-frequency Chinese consumer-price and retail-composition layer. It does not establish household-specific affordability, quantities, cultural participation, consumer sentiment, durable preference change, or causal welfare effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBS English retail-sales and CPI release pages reviewed for August 2026 aggregate, category, online, urban/rural, survey-method, and base-period statements.",
+    "retail_html_sha256": "sha256:42720d273fd13533991a514cb7edd10dbed3e9c3723aeafe86d44e5789f71605",
+    "cpi_html_sha256": "sha256:8831452b3051dfbbb99e09e3c105cfa547f7908a5bceb318631ff54d4ef1a0d1",
+    "checked": "2026-09-30"
+  }
+}

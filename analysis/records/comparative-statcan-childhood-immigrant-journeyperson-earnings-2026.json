@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-childhood-immigrant-journeyperson-earnings-2026",
+  "title": "Childhood immigrants reach journeyperson certification but face persistent, trade-specific earnings gaps that narrow with institutional and employment controls",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Statistics Canada, Early career economic outcomes of childhood immigrant and Canadian-born journeypersons in Canada",
+  "geography": "Canada; childhood immigrants admitted at age 17 or younger and Canadian-born journeypersons certified from 2008 to 2018",
+  "observations": [
+    {
+      "period": "2008–2018 certification cohorts; four years before certification through four years after",
+      "denominator": {"value": 263570, "unit": "journeypersons aged 18 to 54 in the linked administrative-data study", "value_type": "administrative_longitudinal_population"},
+      "measures": {
+        "pre_certification_gap": {"value": 4700, "unit": "approximate Canadian-dollar median employment-income gap four years before certification, childhood immigrants lower", "value_type": "reported_median_difference"},
+        "certification_gap": {"value": 8500, "unit": "approximate Canadian-dollar median employment-income gap in the certification year, childhood immigrants lower", "value_type": "reported_median_difference"},
+        "post_certification_gap": {"value": 7800, "unit": "approximate Canadian-dollar median employment-income gap four years after certification, childhood immigrants lower", "value_type": "reported_median_difference"},
+        "adjusted_gap": {"value": "approximately 9% lower four years before certification and 6% to 7% lower at subsequent stages after sociodemographic, program, trade and employment controls", "unit": "adjusted earnings comparison", "value_type": "reported_regression_estimate"},
+        "integration_route": {"value": "early arrival and Canadian schooling do not by themselves erase occupational earnings inequality", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Linked Longitudinal Immigration Database, Registered Apprenticeship Information System and T1 Family File; annual employment incomes measured at five points around certification, with descriptive and OLS-adjusted comparisons.",
+      "uncertainty": "The study restricts analysis to people with complete tax records across observation periods and cannot establish that immigrant status causes the earnings differences; certification cohorts and trade selection are not random.",
+      "subgroup": "Childhood immigrants admitted before age 18 versus Canadian-born journeypersons, ages 18 to 54, certified through apprenticeship completion or trade qualification.",
+      "counterinterpretation": "Observed gaps may reflect trade composition, region, unionization, pensions, employment attachment, family conditions, employer sorting or unmeasured selection rather than a single integration barrier.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00002-eng.htm",
+      "retrieval_hash": "sha256:edf9ddb6e74e6a5a0e6f5562728ae5889942fd3e16dfc94fae58c0943662ce9f",
+      "status": "reported"
+    },
+    {
+      "period": "2008–2018 certification cohorts; trade-specific earnings trajectories",
+      "denominator": {"value": 263570, "unit": "journeypersons in the linked administrative-data study; trade-level estimates reported for selected occupations", "value_type": "administrative_longitudinal_population"},
+      "measures": {
+        "higher_canadian_born_trades": {"value": "Canadian-born journeypersons had higher median incomes in several industrial and mechanical trades, including heavy-duty equipment mechanics, construction millwrights, automotive service and HVAC trades", "unit": "reported trade-level comparison", "value_type": "reported_heterogeneity"},
+        "higher_childhood_immigrant_trades": {"value": "Childhood immigrants had higher median incomes in selected construction trades, including cabinetmakers, carpenters, painters and decorators, roofers and shinglers, and some welding categories", "unit": "reported trade-level comparison", "value_type": "reported_heterogeneity"},
+        "largest_gap": {"value": "heavy-duty equipment mechanics showed Canadian-born earnings advantages of approximately $6,700 to $10,500 across time points", "unit": "approximate Canadian-dollar trade-level difference", "value_type": "reported_median_difference"},
+        "occupation_route": {"value": "aggregate integration statistics conceal occupation-specific labor-market mechanisms and bargaining conditions", "unit": "reported analytic interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Trade-disaggregated median-income comparisons across five certification-relative time points using linked administrative records.",
+      "uncertainty": "Certified trade does not necessarily equal occupation at every observed time point; selected trade categories have different demand, union, regional and employment structures.",
+      "subgroup": "Childhood immigrant and Canadian-born journeypersons by certified trade.",
+      "counterinterpretation": "Trade-level differences can reflect who enters and remains in each trade, geographic labor demand, work hours, and employer composition rather than differential treatment within the same job.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00002-eng.htm",
+      "retrieval_hash": "sha256:edf9ddb6e74e6a5a0e6f5562728ae5889942fd3e16dfc94fae58c0943662ce9f",
+      "status": "reported"
+    },
+    {
+      "period": "2008–2018 certification cohorts; employment institutions and geographic mobility",
+      "denominator": {"value": 263570, "unit": "journeypersons in the linked administrative-data study", "value_type": "administrative_longitudinal_population"},
+      "measures": {
+        "union_coverage": {"value": "33% of childhood immigrant journeypersons versus 46% of Canadian-born journeypersons were in unionized jobs", "unit": "reported employment characteristic", "value_type": "reported_group_difference"},
+        "pension_coverage": {"value": "16% of childhood immigrant journeypersons versus 30% of Canadian-born journeypersons had a workplace pension plan", "unit": "reported employment characteristic", "value_type": "reported_group_difference"},
+        "mobility_two_year": {"value": 3, "unit": "approximate percent of childhood immigrant journeypersons moving province or territory two years after certification, versus about 5% of Canadian-born journeypersons", "value_type": "reported_mobility_rate"},
+        "mobility_four_year": {"value": 4, "unit": "approximate percent of childhood immigrant journeypersons moving province or territory four years after certification, versus about 6% of Canadian-born journeypersons", "value_type": "reported_mobility_rate"},
+        "institutional_route": {"value": "employment security and geographic opportunity are partly mediated by collective bargaining, pensions and mobility capacity", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Administrative employment, tax and mobility indicators linked to certification and immigrant status.",
+      "uncertainty": "Union and pension coverage are observed correlates, not experimentally assigned protections; interprovincial movement may reflect family, housing, trade demand, discrimination or preference.",
+      "subgroup": "Childhood immigrant and Canadian-born journeypersons after certification.",
+      "counterinterpretation": "Lower observed mobility could indicate rootedness or different regional settlement patterns rather than reduced opportunity; employment institution measures do not capture informal bargaining or non-wage benefits.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00002-eng.htm",
+      "retrieval_hash": "sha256:edf9ddb6e74e6a5a0e6f5562728ae5889942fd3e16dfc94fae58c0943662ce9f",
+      "status": "reported"
+    },
+    {
+      "period": "Two and four years after certification; income progression",
+      "denominator": {"value": 263570, "unit": "journeypersons in the linked administrative-data study with certification-relative income observations", "value_type": "administrative_longitudinal_population"},
+      "measures": {
+        "two_year_growth": {"value": "median employment income growth was 17% for childhood immigrants versus 15% for Canadian-born journeypersons two years after certification", "unit": "reported growth from certification-year income", "value_type": "reported_progression"},
+        "four_year_growth": {"value": "median employment income growth was 21% for childhood immigrants versus 19% for Canadian-born journeypersons four years after certification", "unit": "reported growth from certification-year income", "value_type": "reported_progression"},
+        "adjusted_short_term": {"value": "childhood immigrants had approximately 1% lower adjusted earnings growth two years after certification", "unit": "adjusted relative growth estimate", "value_type": "reported_regression_estimate"},
+        "adjusted_longer_term": {"value": "the four-year adjusted earnings-growth difference was not statistically significant", "unit": "reported regression result", "value_type": "reported_null_comparison"},
+        "trajectory_route": {"value": "persistent level differences can coexist with broadly similar longer-run post-certification growth", "unit": "reported analytic interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Certification-relative income progression estimates using linked administrative records and adjusted regression models.",
+      "uncertainty": "Growth from a lower starting point does not imply equal economic security; the study does not measure wealth, household needs, discrimination, job quality, health, or subjective belonging.",
+      "subgroup": "Childhood immigrant and Canadian-born journeypersons two and four years after certification, with trade-level heterogeneity.",
+      "counterinterpretation": "Similar growth rates may reflect convergence within selected trades or survivor composition; they do not show that earnings gaps disappear or that career advancement is equally reachable.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00002-eng.htm",
+      "retrieval_hash": "sha256:edf9ddb6e74e6a5a0e6f5562728ae5889942fd3e16dfc94fae58c0943662ce9f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/en/catalogue/36280001202600900002", "claim": "Official Statistics Canada catalogue entry and data-source description."},
+    {"source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026005/article/00002-eng.htm", "claim": "Earlier 2026 certification-stage study provides adjacent evidence on registration-to-certification gaps; it is not used as a substitute for the present earnings trajectory."},
+    {"source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026008/article/00002-eng.htm", "claim": "August 2026 sex-disaggregated companion study provides adjacent certification and earnings context."}
+  ],
+  "boundary": "This record adds a migration-and-work-integration route from childhood arrival and apprenticeship through certification, trade sorting, collective employment institutions, mobility, earnings and longer-run progression. It uses linked Canadian administrative data and longitudinal certification-relative comparisons, not a causal treatment effect, a complete measure of immigrant belonging, a household-welfare estimate, or evidence that any single policy explains the observed gaps.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada article reviewed for release date, linked administrative datasets, sample, certification-relative earnings, trade heterogeneity, union and pension coverage, interprovincial mobility, regression results, progression and limitations.",
+    "source_url_sha256": "sha256:edf9ddb6e74e6a5a0e6f5562728ae5889942fd3e16dfc94fae58c0943662ce9f",
+    "checked": "2026-09-28"
+  }
+}

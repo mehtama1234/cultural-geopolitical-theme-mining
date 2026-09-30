@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-annenberg-heat-health-2026-climate-cost-routines-cooling-access",
+  "title": "Extreme heat is becoming a household cost and daily-routine problem while public cooling access and health knowledge lag",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Annenberg Science and Public Health Survey wave 30; SSRS nationally representative panel of 1,904 U.S. adults, August 4–17, 2026",
+  "geography": "United States; nationally representative adults ages 18 and older",
+  "observations": [
+    {
+      "period": "August 2026; climate, heat, and household exposure",
+      "denominator": {"value": 1904, "unit": "U.S. adults in the 30th wave of the Annenberg Science and Public Health Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "extreme_heat_affected_daily_activities": {"value": 76, "unit": "percent reporting at least sometimes in the past year", "value_type": "reported_share"},
+        "wildfire_smoke_air_quality_affected_daily_activities": {"value": 38, "unit": "percent reporting at least sometimes in the past year", "value_type": "reported_share"},
+        "climate_change_increases_health_risk": {"value": 65, "unit": "percent saying climate change increases heat-, respiratory-, and insect-borne illness risk", "value_type": "reported_share"},
+        "heat_waves_more_frequent_intense": {"value": 62, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Nationally representative ASAPH/SSRS web-and-telephone survey weighted to the U.S. adult population; full-sample margin of error ±3.2 percentage points.",
+      "uncertainty": "These are self-reported experiences and beliefs; they do not establish local meteorological exposure, health diagnoses, or causal effects of climate change on an individual respondent.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Reported heat and smoke impacts vary with location, recall, health, housing, work, mobility, and media awareness; broad climate-risk recognition does not imply uniform policy preferences or preparedness.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+      "retrieval_hash": "sha256:e6ceaa4ddb53ec78c39a8ab7c8a51c29d994053d9fdad6fb7ab0b67c58cf77d4",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025–August 2026; household expenses and extreme-heat routines",
+      "denominator": {"value": 1904, "unit": "U.S. adults in the 30th wave of the Annenberg Science and Public Health Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "unexpected_weather_related_utility_expenses": {"value": "46; 45 in 2025", "unit": "percent reporting unexpected utility expenses caused by storms, flooding, heat, or wildfires", "value_type": "reported_comparison"},
+        "heat_impacted_electricity_bills": {"value": 82, "unit": "percent reporting major or minor impact", "value_type": "reported_share"},
+        "heat_impacted_outdoor_activities": {"value": 75, "unit": "percent reporting major or minor impact", "value_type": "reported_share"},
+        "heat_impacted_exercise": {"value": "56; 50 in 2025", "unit": "percent reporting major or minor impact", "value_type": "reported_comparison"},
+        "heat_impacted_sleep": {"value": "56; 50 in 2025", "unit": "percent reporting major or minor impact", "value_type": "reported_comparison"}
+      },
+      "method": "ASAPH/SSRS survey estimates of self-reported household expense and lifestyle impacts, with comparison to August 2025.",
+      "uncertainty": "The survey does not isolate heat from other weather events for utility expenses, establish dollar amounts, or identify whether changes in sleep and exercise reflect heat, smoke, work schedules, health, or other conditions.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Adaptation can shift rather than eliminate costs—for example, from outdoor activity to electricity or air conditioning—and reported lifestyle impact is not equivalent to clinical harm.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+      "retrieval_hash": "sha256:e6ceaa4ddb53ec78c39a8ab7c8a51c29d994053d9fdad6fb7ab0b67c58cf77d4",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025–August 2026; air quality response and cooling access",
+      "denominator": {"value": 1904, "unit": "U.S. adults in the 30th wave of the Annenberg Science and Public Health Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "local_unhealthy_air_quality": {"value": "60; 48 in 2025", "unit": "percent saying local authorities reported unhealthy air days in the prior three months", "value_type": "reported_comparison"},
+        "stayed_indoors_after_air_warning": {"value": "82; 76 in 2025", "unit": "percent among those reporting unhealthy air who stayed indoors more than usual", "value_type": "reported_comparison"},
+        "used_air_conditioning": {"value": 48, "unit": "percent among those reporting unhealthy air", "value_type": "reported_share"},
+        "used_air_purifier": {"value": 22, "unit": "percent among those reporting unhealthy air", "value_type": "reported_share"},
+        "know_cooling_center_location": {"value": 35, "unit": "percent of U.S. adults", "value_type": "reported_share"},
+        "do_not_know_cooling_center": {"value": 65, "unit": "percent of U.S. adults", "value_type": "reported_share"}
+      },
+      "method": "ASAPH/SSRS survey estimates of local air-quality experience, reported responses, and cooling-center knowledge.",
+      "uncertainty": "Air-quality exposure is based on respondent awareness of local health-authority reports; the survey does not measure cooling-center availability, distance, accessibility, capacity, or actual use.",
+      "subgroup": "U.S. adults ages 18 and older; response measures are conditioned on those reporting unhealthy air days where specified.",
+      "counterinterpretation": "Indoor sheltering, air conditioning, purifiers, masks, and cooling centers are unequal adaptation options; low cooling-center awareness may reflect communication gaps, lack of nearby facilities, or non-applicability.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+      "retrieval_hash": "sha256:e6ceaa4ddb53ec78c39a8ab7c8a51c29d994053d9fdad6fb7ab0b67c58cf77d4",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; heat-related illness knowledge",
+      "denominator": {"value": 1904, "unit": "U.S. adults in the 30th wave of the Annenberg Science and Public Health Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "recognize_dizziness": {"value": 88, "unit": "percent identifying dizziness as a heat-illness sign", "value_type": "reported_share"},
+        "recognize_nausea": {"value": 83, "unit": "percent", "value_type": "reported_share"},
+        "recognize_hot_red_dry_or_damp_skin": {"value": 72, "unit": "percent", "value_type": "reported_share"},
+        "recognize_cold_pale_clammy_skin": {"value": 47, "unit": "percent", "value_type": "reported_share"},
+        "know_heat_pregnancy_preterm_risk": {"value": 32, "unit": "percent correctly identifying greater early-delivery risk for pregnant people exposed to extreme heat", "value_type": "reported_share"},
+        "unsure_heat_pregnancy_risk": {"value": 49, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "ASAPH/SSRS knowledge questions on heat-illness symptoms and pregnancy risk.",
+      "uncertainty": "Correct-response shares measure survey knowledge, not recognition or action during an actual heat event; medical guidance and individual risk vary by condition and context.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "People may know common symptoms while missing less intuitive signs or pregnancy-specific risks; knowledge alone does not establish access to care, cooling, or ability to change conditions.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+      "retrieval_hash": "sha256:e6ceaa4ddb53ec78c39a8ab7c8a51c29d994053d9fdad6fb7ab0b67c58cf77d4",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025–August 2026; perceived future heat risk",
+      "denominator": {"value": 1904, "unit": "U.S. adults in the 30th wave of the Annenberg Science and Public Health Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "expect_greater_heat_stroke_risk": {"value": "59; 59 in 2025; 58 in 2024", "unit": "percent expecting greater community heat-stroke risk in next 10 years", "value_type": "reported_comparison"},
+        "identify_older_adults_as_most_vulnerable": {"value": 69, "unit": "percent identifying adults 65 and older as the group with most heat-related deaths", "value_type": "reported_share"}
+      },
+      "method": "ASAPH/SSRS survey estimates of perceived future risk and knowledge of vulnerable populations.",
+      "uncertainty": "Perceived future risk is not a forecast and vulnerability knowledge does not measure whether communities have targeted protections, resources, or trusted communication.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Stable risk perception can coexist with changing lived exposure; recognizing older-adult vulnerability does not imply awareness of risks for pregnant people, outdoor workers, children, or people without cooling.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+      "retrieval_hash": "sha256:e6ceaa4ddb53ec78c39a8ab7c8a51c29d994053d9fdad6fb7ab0b67c58cf77d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ncei.noaa.gov/", "claim": "NOAA context for the record summer referenced by APPC.", "status": "official-context"}
+  ],
+  "boundary": "This record captures U.S. public experience, knowledge, and perceptions of extreme heat, wildfire smoke, climate-health risk, household costs, routines, cooling access, and vulnerability. It does not establish clinical outcomes, local exposure, adaptation effectiveness, distributional causality, or whether public awareness produces protective action.",
+  "retrieval_hash": "sha256:e6ceaa4ddb53ec78c39a8ab7c8a51c29d994053d9fdad6fb7ab0b67c58cf77d4"
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-unga81-platform-work-financial-health-2026",
+  "title": "Platform-work governance and worker financial health are converging as tests of whether economic transformation produces usable security",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "ILO account of its priorities at the 81st United Nations General Assembly, including platform-work governance and a workplace financial-health event",
+  "geography": "Global policy agenda at UNGA81, with platform workers, employers, governments, labour institutions, financial-service providers, and international partners in scope",
+  "observations": [
+    {
+      "period": "September 2026; UNGA81 work and social-justice agenda",
+      "denominator": {"value": 1, "unit": "ILO engagement agenda at the 81st UN General Assembly", "value_type": "reported_policy_frame"},
+      "measures": {
+        "agenda": {"value": "the ILO placed platform work, workers’ financial health, decent work, and social justice at the centre of discussions about technological, economic, and environmental transformation", "unit": "reported international agenda", "value_type": "reported_policy_frame"},
+        "context": {"value": "the agenda responds to geopolitical tensions, constrained development financing, technological change, and efforts to strengthen multilateral effectiveness", "unit": "reported context", "value_type": "reported_context"},
+        "conversion_problem": {"value": "economic transformation is being judged by whether it produces tangible improvements in people’s lives, not only innovation or growth", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "outcome_boundary": {"value": "the UNGA agenda and events establish priorities, not measured improvement in platform-work conditions or worker financial security", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "ILO institutional account of UNGA81 priorities and associated high-level events; it is an agenda and convening account rather than an outcome evaluation.",
+      "uncertainty": "The source does not quantify platform-worker coverage, financial stress, income volatility, debt, service use, or the effects of international commitments.",
+      "subgroup": "Platform workers, workers in insecure or informal arrangements, employers, labour ministries, unions, financial-service providers, and households exposed to variable income.",
+      "counterinterpretation": "High-level alignment around decent work can coexist with fragmented implementation, weak worker bargaining power, or financial products that shift risk onto workers.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-brings-world-work-priorities-un-general-assembly",
+      "retrieval_hash": "sha256:1a24b2f36988015304f0a00d6cb7d10892527ec43d0d10fabe18806a0788086b",
+      "status": "reported"
+    },
+    {
+      "period": "June–September 2026; platform-economy international labour standard",
+      "denominator": {"value": 1, "unit": "ILO Decent Work in the Platform Economy Convention, 2026 (No. 193)", "value_type": "reported_standard_frame"},
+      "measures": {
+        "standard": {"value": "the ILO describes Convention No. 193 as the first international labour standard dedicated to the platform economy", "unit": "reported international standard", "value_type": "reported_institutional_milestone"},
+        "governance_scope": {"value": "the convention is presented as a framework linking technological innovation and new business models to workers’ rights, fair competition, and sustainable growth", "unit": "reported policy scope", "value_type": "reported_policy_frame"},
+        "institutional_route": {"value": "international labour standards, social dialogue, and labour-market institutions are identified as mechanisms for governing platform transformation", "unit": "reported governance route", "value_type": "reported_mechanism"},
+        "implementation_gap": {"value": "adoption of an international standard does not establish domestic ratification, enforcement, classification, algorithmic transparency, or effective remedy", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "ILO public account of the convention and its UNGA introduction; no implementation audit or worker-level causal evidence is included.",
+      "uncertainty": "The source does not specify how the standard will be applied across jurisdictions, business models, worker classifications, or cross-border platforms.",
+      "subgroup": "Platform workers, app-based firms, algorithmic managers, regulators, unions, customers, and workers transitioning between platform and conventional employment.",
+      "counterinterpretation": "A global standard can create a common rights language while leaving enforcement fragmented or allowing firms to reorganize work around regulatory gaps.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-brings-world-work-priorities-un-general-assembly",
+      "retrieval_hash": "sha256:1a24b2f36988015304f0a00d6cb7d10892527ec43d0d10fabe18806a0788086b",
+      "status": "reported"
+    },
+    {
+      "period": "24 September 2026; workplace financial-health agenda",
+      "denominator": {"value": 1, "unit": "ILO, RISE, and International Organisation of Employers financial-health event", "value_type": "reported_governance_event"},
+      "measures": {
+        "event": {"value": "the partners convened a UNGA81 event on the workplace as a frontier for promoting financial health", "unit": "reported policy event", "value_type": "reported_event"},
+        "workplace_route": {"value": "the workplace is treated as a potential channel for strengthening workers’ financial resilience and inclusion", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "responsible_finance": {"value": "the agenda calls for new financial services and technologies to be designed and used responsibly", "unit": "reported policy requirement", "value_type": "reported_requirement"},
+        "household_boundary": {"value": "financial-health framing does not show whether wages, benefits, savings, credit, fees, or employer programmes actually improve household room", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Institutional event announcement and policy framing; no worker financial-health survey, product evaluation, or household panel is provided.",
+      "uncertainty": "Financial resilience can mean different things—liquidity, savings, debt capacity, protection, income adequacy, or reduced volatility—and the source does not define a common measure.",
+      "subgroup": "Workers with variable pay, platform workers, low-wage workers, migrants, households with care or debt burdens, employers, and financial-technology providers.",
+      "counterinterpretation": "Employer-linked financial products may expand access while creating privacy, coercion, fee, data-use, or dependence risks; inclusion is not automatically security.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-brings-world-work-priorities-un-general-assembly",
+      "retrieval_hash": "sha256:1a24b2f36988015304f0a00d6cb7d10892527ec43d0d10fabe18806a0788086b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 onward; transformation, fair transitions, and social protection",
+      "denominator": {"value": 1, "unit": "ILO UNGA81 transformation agenda", "value_type": "reported_policy_frame"},
+      "measures": {
+        "transition_scope": {"value": "the ILO connects job creation, fair transitions, living wages, skills, social protection, formalization, fundamental rights, and social dialogue to climate, economic, and technological transformation", "unit": "reported policy scope", "value_type": "reported_scope"},
+        "attribution": {"value": "the agenda makes decent work a route through which global transformation becomes tangible to households and communities", "unit": "bounded political mechanism", "value_type": "bounded_mechanism"},
+        "multilateral_route": {"value": "UNGA and follow-on development commitments are presented as opportunities to connect global agreements to policies that expand work and protection", "unit": "reported governance route", "value_type": "reported_route"},
+        "next_test": {"value": "the decisive test is whether a named worker or platform cohort experiences changes in income volatility, fees, control, protection, financial health, voice, and remedy", "unit": "research requirement", "value_type": "research_requirement"}
+      },
+      "method": "ILO institutional synthesis of international agenda-setting and future policy work; it does not measure implementation or political response.",
+      "uncertainty": "The source cannot establish whether multilateral commitments change domestic budgets, laws, firm practices, or worker outcomes.",
+      "subgroup": "Workers and households navigating technological, environmental, geopolitical, and labour-market transitions, alongside governments, firms, and worker organizations.",
+      "counterinterpretation": "A comprehensive agenda can connect issues analytically without producing the institutional coordination or financing needed to deliver them.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-brings-world-work-priorities-un-general-assembly",
+      "retrieval_hash": "sha256:1a24b2f36988015304f0a00d6cb7d10892527ec43d0d10fabe18806a0788086b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/news/platform-work-financial-health-ilo-brings-world-work-priorities-unga81", "claim": "Original ILO article path and UNGA81 framing."},
+    {"source_url": "https://www.ilo.org/resource/news/ilo-brings-world-work-priorities-un-general-assembly", "claim": "Redirected official ILO publication page used for the record."}
+  ],
+  "boundary": "This record adds a transformation-to-security route linking platform-work governance, international labour standards, workplace financial health, fair transitions, and household room. It is an ILO agenda and convening account, not evidence of platform-worker outcomes, financial-health improvement, domestic implementation, or causal effects of Convention No. 193.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO page reviewed for the UNGA81 agenda, Convention No. 193, platform-work governance, 24 September workplace financial-health event, responsible financial technologies, and fair-transition priorities.",
+    "source_url_sha256": "sha256:1a24b2f36988015304f0a00d6cb7d10892527ec43d0d10fabe18806a0788086b",
+    "checked": "2026-09-29"
+  }
+}

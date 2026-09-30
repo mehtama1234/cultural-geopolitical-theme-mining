@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nrf-retail-economic-perspective-2026-services-inflation-household-room",
+  "title": "Household affordability pressure is increasingly concentrated in essential services rather than ordinary retail goods",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "National Retail Federation, Retail Economic Perspective: Who’s to blame for higher prices?",
+  "geography": "United States; macroeconomic and consumer-spending framing using BLS and industry data",
+  "observations": [
+    {
+      "period": "1990s–2026; U.S. consumption and price context",
+      "denominator": {"value": 1, "unit": "comparable basket of goods indexed to one dollar in the 1990s", "value_type": "reported_index"},
+      "measures": {
+        "goods_basket": {"value": 1.28, "unit": "dollars today for a comparable goods basket costing $1 in the 1990s", "value_type": "reported_index"},
+        "durable_goods": {"value": 71, "unit": "percent of 1996 price for durable goods in NRF analysis", "value_type": "reported_index"},
+        "earnings_context": {"value": "Median usual weekly nominal earnings for wage and salary workers more than doubled over the same broad period", "unit": "reported comparison using BLS data", "value_type": "reported_comparison"}
+      },
+      "method": "NRF economic analysis comparing goods prices, durable-goods prices and BLS nominal weekly earnings over long periods.",
+      "uncertainty": "The article uses selected baskets and nominal earnings; it does not provide a full cost-of-living index, household-specific budget analysis or causal decomposition of welfare.",
+      "subgroup": "U.S. consumers and median wage-and-salary workers in aggregate.",
+      "counterinterpretation": "Goods affordability can improve in aggregate while households still experience hardship if their spending is concentrated in services, housing, healthcare, insurance or debt costs.",
+      "source_url": "https://nrf.com/blog/whos-to-blame-for-higher-prices",
+      "retrieval_hash": "sha256:cedae65cd7221b2f68fc4fb20fa0c704ba551ed1e6d410b02c1e883267bd9389",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. personal consumption expenditure composition",
+      "denominator": {"value": 100, "unit": "percent of total personal consumption expenditures, approximate composition", "value_type": "reported_share_approximate"},
+      "measures": {
+        "services_share": {"value": 67, "unit": "roughly percent of personal consumption expenditures represented by services", "value_type": "reported_share_approximate"},
+        "goods_services_shift": {"value": "Services now represent roughly two-thirds of total personal consumption expenditures, compared with goods representing the larger share in the 1960s", "unit": "reported structural shift", "value_type": "reported_interpretation"},
+        "essential_service_pressure": {"value": "Housing, healthcare, insurance and financial services are identified as essential or unavoidable budget categories whose price increases compress room elsewhere", "unit": "reported mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "NRF synthesis of national expenditure composition and category-level price trends.",
+      "uncertainty": "The article is not a new statistical release and does not present a complete reproducible decomposition of the PCE series or account for quality change and substitution.",
+      "subgroup": "U.S. households, with burden expected to differ by housing tenure, health needs, insurance exposure, income and debt.",
+      "counterinterpretation": "A higher services share also reflects households purchasing more services and lifestyle changes, not only involuntary price inflation; affordability depends on income, access and quality as well as price.",
+      "source_url": "https://nrf.com/blog/whos-to-blame-for-higher-prices",
+      "retrieval_hash": "sha256:cedae65cd7221b2f68fc4fb20fa0c704ba551ed1e6d410b02c1e883267bd9389",
+      "status": "reported"
+    },
+    {
+      "period": "Three years to September 2026; U.S. category inflation",
+      "denominator": {"value": 3, "unit": "years of cumulative inflation comparison", "value_type": "reported_period"},
+      "measures": {
+        "financial_services_insurance": {"value": 21.1, "unit": "percent inflation increase over three years", "value_type": "reported_share"},
+        "housing_utilities": {"value": 13.3, "unit": "percent inflation increase over three years", "value_type": "reported_share"},
+        "transportation_services": {"value": 12.4, "unit": "percent inflation increase over three years", "value_type": "reported_share"},
+        "services_goods_pattern": {"value": "Most services categories are described as having higher near-term inflation than goods categories", "unit": "reported category pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "NRF category comparison using inflation data and a three-year reference window; figures are presented in the article’s retail economic perspective.",
+      "uncertainty": "The article does not publish a full table of category definitions, weights or seasonally adjusted series in the text; category averages can conceal substantial household and geographic variation.",
+      "subgroup": "U.S. households exposed to essential services, with potentially higher burden among renters, borrowers, insured households and people needing care.",
+      "counterinterpretation": "Short-term category inflation does not equal total household burden; some households can substitute, renegotiate or avoid categories while others cannot.",
+      "source_url": "https://nrf.com/blog/whos-to-blame-for-higher-prices",
+      "retrieval_hash": "sha256:cedae65cd7221b2f68fc4fb20fa0c704ba551ed1e6d410b02c1e883267bd9389",
+      "status": "reported"
+    },
+    {
+      "period": "2026; sector pricing-power and household-room interpretation",
+      "denominator": {"value": 1, "unit": "industry comparison; public-company net profit margin example", "value_type": "reported_comparison"},
+      "measures": {
+        "grocery_margin": {"value": 1.3, "unit": "percent average net profit margin for publicly traded U.S. grocers cited by NRF", "value_type": "reported_share"},
+        "pharma_margin": {"value": 18.5, "unit": "percent profit margin for pharmaceuticals in cited sector comparison", "value_type": "reported_share"},
+        "software_margin": {"value": 29.9, "unit": "percent profit margin for software in cited sector comparison", "value_type": "reported_share"},
+        "pricing_power_frame": {"value": "The article argues that stronger pricing power and hotter inflation in services help explain why consumers feel pressure even when many retail goods remain competitively priced", "unit": "reported industry interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "NRF industry comparison of sector margins and category inflation used to frame the source of affordability pressure.",
+      "uncertainty": "Margin comparisons are not a causal estimate of consumer prices; sectors differ in accounting, capital intensity, market structure and product mix, and NRF has an institutional interest in defending retail pricing claims.",
+      "subgroup": "U.S. consumers and retail/service sectors.",
+      "counterinterpretation": "Low retail margins do not by themselves prove retailers cannot contribute to price increases; supply chains, market concentration, wages, rents, taxes and product mix also matter.",
+      "source_url": "https://nrf.com/blog/whos-to-blame-for-higher-prices",
+      "retrieval_hash": "sha256:cedae65cd7221b2f68fc4fb20fa0c704ba551ed1e6d410b02c1e883267bd9389",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nrf.com/research-insights/center-retail-consumer-insights", "claim": "NRF Center for Retail & Consumer Insights context for the Retail Economic Perspective series."},
+    {"source_url": "https://www.bls.gov/cpi/", "claim": "BLS consumer-price data context referenced by the NRF analysis."}
+  ],
+  "boundary": "This record adds a U.S. affordability mechanism: household pressure increasingly comes from essential services and fixed or difficult-to-substitute expenses, even when many retail goods are relatively affordable. The source is an NRF industry perspective using selected BLS and sector comparisons, not an independent causal price study, complete household expenditure decomposition, representative respondent survey or neutral adjudication of responsibility for inflation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official NRF article and Center for Retail & Consumer Insights page were retrieved and reviewed for goods-price comparisons, services share, category inflation, household-budget mechanism and sector-margin framing; the article HTML was hashed.",
+    "source_url_sha256": "sha256:cedae65cd7221b2f68fc4fb20fa0c704ba551ed1e6d410b02c1e883267bd9389",
+    "checked": "2026-09-27"
+  }
+}

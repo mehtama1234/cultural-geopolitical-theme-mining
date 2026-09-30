@@ -1,0 +1,151 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-cma-stubhub-live-event-hidden-fees-2026-automatic-refund-remedy",
+  "title": "UK live-event ticketing shows hidden price as a cultural-access barrier that can be converted into automatic consumer remedy",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Competition and Markets Authority StubHub UK hidden-fees enforcement case",
+  "geography": "United Kingdom; StubHub UK live-show and sports-event customers",
+  "observations": [
+    {
+      "period": "6 April-7 December 2025 conduct period; CMA enforcement outcome published 23 June 2026",
+      "denominator": {
+        "value": 51350,
+        "unit": "customers ordered to receive refunds in the StubHub UK case",
+        "value_type": "official_enforcement_affected_customers"
+      },
+      "measures": {
+        "mandatory_fees_added_late": {
+          "value": "delivery and service fees were added at the final checkout stage rather than included in the upfront total price",
+          "unit": "documented consumer-law finding",
+          "value_type": "official_enforcement_finding"
+        },
+        "refund_total": {
+          "value": 590000,
+          "unit": "pounds sterling or more ordered to be repaid to customers",
+          "value_type": "official_redress_amount"
+        },
+        "average_refund": {
+          "value": 10.33,
+          "unit": "pounds sterling average payout per transaction",
+          "value_type": "official_average_redress"
+        },
+        "mechanism": {
+          "value": "A low-visibility mandatory fee can alter the comparison and purchase decision for a cultural or sporting event before the consumer sees the executable price",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CMA consumer-enforcement finding based on its investigation of StubHub UK's sales process and the affected customer population identified for redress.",
+      "uncertainty": "The case establishes unlawful pricing conduct and ordered redress, but does not measure how many consumers abandoned checkout, changed event choice, incurred debt, or experienced lost cultural participation.",
+      "subgroup": "Customers who purchased affected live-show or sports-event tickets through StubHub UK during the specified conduct period.",
+      "counterinterpretation": "The average refund is small per transaction and the case does not show that hidden fees were the only reason for any purchase or attendance decision; some customers may have proceeded regardless.",
+      "source_url": "https://www.gov.uk/government/news/cma-orders-stubhub-uk-to-refund-customers-over-hidden-fees",
+      "retrieval_hash": "sha256:b38462a7b681cd101ba6d9208c67c5ab10be595ba9ec014de715973fb04ab367",
+      "status": "reported"
+    },
+    {
+      "period": "23 June 2026 enforcement outcome; remedy execution design",
+      "denominator": {
+        "value": 51350,
+        "unit": "customers covered by the automatic refund order",
+        "value_type": "official_enforcement_affected_customers"
+      },
+      "measures": {
+        "automatic_card_refund": {
+          "value": "customers did not need to take action; StubHub UK would contact them and repay automatically to the card used for purchase",
+          "unit": "documented remedy route",
+          "value_type": "official_remedy_design"
+        },
+        "firm_immediate_step": {
+          "value": "StubHub UK immediately took steps to end the conduct",
+          "unit": "documented post-investigation firm response",
+          "value_type": "official_response"
+        },
+        "fine": {
+          "value": 889200,
+          "unit": "pounds sterling financial penalty",
+          "value_type": "official_penalty_amount"
+        },
+        "settlement_penalty_reduction": {
+          "value": 40.0,
+          "unit": "percent reduction in financial penalty for early settlement",
+          "value_type": "official_penalty_rule_application"
+        },
+        "mechanism": {
+          "value": "Remedy reachability depends on automatic repayment and low consumer effort; enforcement can restore money without requiring every affected fan to discover, prove, and separately claim the harm",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CMA enforcement announcement describing the remedy channel, company response, penalty, and early-settlement terms.",
+      "uncertainty": "The announcement does not report completion rates, failed repayments, unclaimed funds, customer awareness, or long-run compliance after the immediate change.",
+      "subgroup": "Affected StubHub UK customers and the investigated firm.",
+      "counterinterpretation": "Automatic refunds may be operationally incomplete if cards are closed, payment records are unavailable, or customer-contact data fail; the announcement records the planned remedy, not independently verified receipt by every customer.",
+      "source_url": "https://www.gov.uk/government/news/cma-orders-stubhub-uk-to-refund-customers-over-hidden-fees",
+      "retrieval_hash": "sha256:b38462a7b681cd101ba6d9208c67c5ab10be595ba9ec014de715973fb04ab367",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 UK digital-pricing enforcement context",
+      "denominator": {
+        "value": null,
+        "unit": "CMA consumer-enforcement portfolio; no single consumer denominator disclosed for the portfolio total",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "new_consumer_powers_date": {
+          "value": "April 2025",
+          "unit": "date strengthened CMA consumer-enforcement powers came into force",
+          "value_type": "official_policy_date"
+        },
+        "portfolio_refunds_so_far": {
+          "value": 1950000,
+          "unit": "pounds sterling or more secured in customer refunds under new powers at the announcement date",
+          "value_type": "official_portfolio_redress_amount"
+        },
+        "portfolio_fines_so_far": {
+          "value": 5700000,
+          "unit": "pounds sterling or more in fines under new powers at the announcement date",
+          "value_type": "official_portfolio_penalty_amount"
+        },
+        "policy_mechanism": {
+          "value": "The case turns transparent cultural-event pricing from a voluntary interface norm into an enforceable consumer-protection expectation",
+          "unit": "bounded policy mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CMA announcement contextualizing the StubHub case within enforcement powers introduced in April 2025 and cumulative refunds and fines secured under those powers.",
+      "uncertainty": "Portfolio totals combine cases and do not identify the share involving cultural events, the number of unique consumers, deterrence effects, or whether aggregate enforcement changes market prices.",
+      "subgroup": "UK consumers and businesses subject to the CMA's strengthened consumer-enforcement regime.",
+      "counterinterpretation": "A visible enforcement action may improve compliance in some firms without resolving ticket scarcity, resale markups, dynamic pricing, affordability, or unequal access to live events.",
+      "source_url": "https://www.gov.uk/government/news/cma-orders-stubhub-uk-to-refund-customers-over-hidden-fees",
+      "retrieval_hash": "sha256:b38462a7b681cd101ba6d9208c67c5ab10be595ba9ec014de715973fb04ab367",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.uk/cma-cases/ticketmaster-consumer-protection-case",
+      "claim": "A separate CMA live-event ticketing case shows the regulator's adjacent use of undertakings, pricing information requirements, and ongoing reporting for Ticketmaster following the Oasis ticket sale investigation.",
+      "status": "official-comparator"
+    },
+    {
+      "source_url": "https://www.gov.uk/government/consultations/putting-fans-first-consultation-on-the-resale-of-live-events-tickets/putting-fans-first-consultation-on-the-resale-of-live-events-tickets-html",
+      "claim": "The UK government's ticket-resale consultation documents the policy context for pricing transparency and consumer protection in cultural and sporting event resale.",
+      "status": "official-policy-context"
+    }
+  ],
+  "boundary": "This record adds a named UK cultural-consumer enforcement episode that links hidden fees, ticket checkout design, affected customers, automatic redress, firm response, and regulator authority. It does not estimate total ticketing harm, attendance exclusion, deterrence, customer refund completion, or the causal effect of transparent pricing on cultural participation.",
+  "retrieval_hash": "sha256:b38462a7b681cd101ba6d9208c67c5ab10be595ba9ec014de715973fb04ab367"
+}

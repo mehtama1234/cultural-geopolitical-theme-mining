@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-samhsa-nsduh-2025-behavioral-health-youth-adult-treatment-2026",
+  "title": "Behavioral-health improvement among younger Americans coexists with a large and uneven adult burden",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Substance Abuse and Mental Health Services Administration, Key Substance Use and Mental Health Indicators in the United States: Results from the 2025 National Survey on Drug Use and Health, July 2026",
+  "geography": "United States; civilian, noninstitutionalized population aged 12 or older",
+  "observations": [
+    {
+      "period": "2021-2025; behavioral-health indicators among adolescents and young adults",
+      "denominator": {"value": 1, "unit": "2025 NSDUH national trend series", "value_type": "publication_frame"},
+      "measures": {
+        "youth_direction": {"value": "SAMHSA reports that adolescents ages 12 to 17 and young adults ages 18 to 25 continued to show downward or stable trends in most behavioral-health indicators over the five-year series", "unit": "reported five-year trend assessment", "value_type": "reported_assessment"},
+        "adolescent_illicit_drug_use": {"value": "past-year illicit-drug use among adolescents declined from 14.6% in 2021 to 11.2% in 2025", "unit": "percent of adolescents ages 12 to 17", "value_type": "reported_share"},
+        "adolescent_drug_use_disorder": {"value": "past-year drug-use disorder among adolescents declined from 7.3% in 2021 to 5.9% in 2025", "unit": "percent of adolescents ages 12 to 17", "value_type": "reported_share"},
+        "young_adult_sud": {"value": "past-year substance-use disorder among young adults declined from 26.2% in 2021 to 23.8% in 2025", "unit": "percent of young adults ages 18 to 25", "value_type": "reported_share"}
+      },
+      "method": "Annual NSDUH estimates and 2021-2025 trend comparisons for substance use, substance-use disorder, mental illness, suicidality, and treatment.",
+      "uncertainty": "The report describes population-level associations and trend differences; it does not establish which policies, social conditions, products, or behaviors caused the changes.",
+      "subgroup": "Adolescents ages 12 to 17 and young adults ages 18 to 25.",
+      "counterinterpretation": "A downward survey trend does not mean that behavioral-health risk is low or evenly distributed; definitions, reporting, access to care, and subgroup composition can affect the observed pattern.",
+      "source_url": "https://www.samhsa.gov/newsroom/press-announcements/20260727/samhsa-releases-annual-national-survey-on-drug-use-and-health",
+      "retrieval_hash": "sha256:0773a427a9fe4b34cf899194829a906bc3c6ce18d75127ac8c6e3513738fbf1e",
+      "status": "reported"
+    },
+    {
+      "period": "2025; adult mental-health burden",
+      "denominator": {"value": 1, "unit": "adults aged 18 or older in the 2025 NSDUH", "value_type": "survey_universe"},
+      "measures": {
+        "any_mental_illness": {"value": 20.6, "unit": "percent of adults with any mental illness in the past year; 54.6 million people", "value_type": "reported_share"},
+        "serious_mental_illness": {"value": 6.9, "unit": "percent of adults with serious mental illness in the past year; 18.2 million people", "value_type": "reported_share"},
+        "young_adult_combined_burden": {"value": 41.2, "unit": "percent of young adults ages 18 to 25 with any mental illness or substance-use disorder in the past year; 14.9 million people", "value_type": "reported_share"},
+        "adult_system_scale": {"value": "behavioral health remains a large population-scale care, work, household, and public-system issue even as selected youth indicators improve", "unit": "analytic implication from reported prevalence", "value_type": "analytic_implication"}
+      },
+      "method": "Nationally representative annual survey of the U.S. civilian, noninstitutionalized population aged 12 or older.",
+      "uncertainty": "The measures are survey-based and do not by themselves describe severity, duration, functional impairment, treatment quality, or outcomes for every person counted.",
+      "subgroup": "Adults overall, with an especially high combined mental-illness or substance-use-disorder share among young adults.",
+      "counterinterpretation": "Higher reported prevalence can reflect improved recognition or disclosure as well as need; prevalence is not equivalent to a clinical treatment requirement or an inevitable loss of work capacity.",
+      "source_url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt57150/2025-nsduh-annual-national.htm",
+      "retrieval_hash": "sha256:0773a427a9fe4b34cf899194829a906bc3c6ce18d75127ac8c6e3513738fbf1e",
+      "status": "reported"
+    },
+    {
+      "period": "2025; mental-health treatment among adults with serious mental illness",
+      "denominator": {"value": 18200000, "unit": "adults aged 18 or older with serious mental illness in the past year", "value_type": "reported_population"},
+      "measures": {
+        "young_adult_treatment": {"value": 63.0, "unit": "percent of adults ages 18 to 25 with serious mental illness who received mental-health treatment in the past year; 2.8 million people", "value_type": "reported_share"},
+        "midlife_treatment": {"value": 68.5, "unit": "percent of adults ages 26 to 49 with serious mental illness who received mental-health treatment in the past year; 6.9 million people", "value_type": "reported_share"},
+        "older_adult_treatment": {"value": 71.2, "unit": "percent of adults ages 50 or older with serious mental illness who received mental-health treatment in the past year; 2.6 million people", "value_type": "reported_share"},
+        "access_gradient": {"value": "treatment receipt was lower among young adults than among older adult age groups", "unit": "reported age gradient", "value_type": "reported_comparison"}
+      },
+      "method": "NSDUH self-reports of past-year serious mental illness and mental-health treatment, with age-group comparisons.",
+      "uncertainty": "Treatment receipt does not measure timeliness, affordability, continuity, adequacy, patient choice, or clinical benefit; the age comparison does not identify the mechanism of the gap.",
+      "subgroup": "Adults with past-year serious mental illness, especially young adults ages 18 to 25.",
+      "counterinterpretation": "Age differences may reflect need, insurance, eligibility, stigma, provider supply, treatment preference, family support, or measurement differences rather than a single access failure.",
+      "source_url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt57150/2025-nsduh-annual-national.htm",
+      "retrieval_hash": "sha256:0773a427a9fe4b34cf899194829a906bc3c6ce18d75127ac8c6e3513738fbf1e",
+      "status": "reported"
+    },
+    {
+      "period": "2025; everyday substance-use reach",
+      "denominator": {"value": 291000000, "unit": "people aged 12 or older in the United States", "value_type": "reported_population"},
+      "measures": {
+        "any_major_substance_past_month": {"value": 56.0, "unit": "percent who used tobacco, vaped nicotine, used alcohol, or used an illicit drug in the past month; 162.8 million people", "value_type": "reported_share"},
+        "alcohol_past_month": {"value": 44.4, "unit": "percent who drank alcohol in the past month; 129.1 million people", "value_type": "reported_share"},
+        "marijuana_past_year": {"value": 21.2, "unit": "percent who used marijuana in the past year; 61.6 million people", "value_type": "reported_share"},
+        "market_and_routine_reach": {"value": "substance use remains a mass everyday-behavior and consumer-environment issue, not only a small clinical subgroup issue", "unit": "analytic implication from reported reach", "value_type": "analytic_implication"}
+      },
+      "method": "NSDUH national estimates of past-month and past-year substance use across age groups.",
+      "uncertainty": "The measures do not distinguish moderate use, risky use, dependence, legal status, product intensity, or downstream health and spending effects for every user.",
+      "subgroup": "People ages 12 or older, with separate estimates reported for adolescents, young adults, and older adults.",
+      "counterinterpretation": "Broad reach does not imply uniform harm or a single cultural meaning; the same category includes different products, frequencies, contexts, and levels of risk.",
+      "source_url": "https://www.samhsa.gov/newsroom/press-announcements/20260727/samhsa-releases-annual-national-survey-on-drug-use-and-health",
+      "retrieval_hash": "sha256:0773a427a9fe4b34cf899194829a906bc3c6ce18d75127ac8c6e3513738fbf1e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.samhsa.gov/data/report/2025-nsduh-detailed-tables", "claim": "SAMHSA's detailed tables provide the underlying national estimates and age-specific comparisons for substance use, mental health, and treatment.", "status": "official-detail"}
+  ],
+  "boundary": "This record adds a behavioral-health transition pattern: several adolescent and young-adult indicators improved or held steady from 2021 to 2025, while adult mental-health burden remains large, treatment receipt varies by age, and substance use reaches a broad population. It does not establish causes, individual clinical need, treatment quality, or subgroup-level mechanisms beyond the published comparisons.",
+  "retrieval_hash": "sha256:0773a427a9fe4b34cf899194829a906bc3c6ce18d75127ac8c6e3513738fbf1e"
+}

@@ -1,6 +1,6 @@
 # Fair Work later-outcome search: alternative employment is not recovery
 
-**Checked:** 2026-09-19  
+**Checked:** 2026-09-29
 **Status:** official-route acquisition memo; no payment-receipt claim
 
 ## Search question
@@ -36,10 +36,12 @@ post-order outcome.
 Mudiyanselage is the closest retained case to a lived end-to-end route because
 it directly records forced exit, a constrained alternative job, partial
 payment, a formal compensation order, and worker-linked broken trust. The
-official decision and bulletin route was rechecked on 2026-09-19; no later
-public compliance, final-payment, or employment follow-up was found. This is a
-bounded non-observation, not proof that the order was unpaid or that recovery
-did not occur.
+official decision, order, 2025 case bulletin, and the Commission's current
+bulletin index were rechecked on 2026-09-29. The index lists 2026 bulletin
+volumes through June 25, 2026, but no later public compliance, final-payment,
+or employment follow-up for this case was located. This is a bounded
+non-observation, not proof that the order was unpaid or that recovery did not
+occur.
 
 ## Bounded finding
 
@@ -80,8 +82,10 @@ alternative employment as a proxy for payment, recovery, or free choice.
 - [Smith/Adcon, [2024] FWC 2775](https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc2775.pdf)
 - [Fair Work Bulletin ending 31 May 2024](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2024-05-31.htm)
 - [Fair Work Bulletin ending 31 August 2025](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-08-31.htm)
+- [Fair Work Commission bulletin index](https://www.fwc.gov.au/about-us/reporting-and-publications/fwc-bulletin)
 - [Mudiyanselage, [2025] FWC 1570](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc1570.pdf)
 - [Fair Work Bulletin ending 31 August 2025](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-08-31.htm)
 
-**Storage boundary:** official decision and bulletin pages were checked; no
+**Storage boundary:** official decision, order, bulletin, and bulletin-index
+pages were checked; no
 worker-identifying file, payroll record, or private follow-up was acquired.

@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-working-class-identity-2026-politics-income-occupation",
+  "title": "Working-class identity is broader than income or blue-collar work and increasingly carries partisan meaning",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center data essay, Who Sees Themselves as Working Class?, August 31, 2026",
+  "geography": "United States; adults nationally with income, education, race/ethnicity, occupation, financial-stress, and party comparisons",
+  "observations": [
+    {
+      "period": "January 20-26, 2026; working-class self-identification",
+      "denominator": {"value": 8512, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "working_class_total": {"value": 60, "unit": "percent saying working class describes them extremely or very well; 54% in 2024", "value_type": "reported_share"},
+        "college_graduate": {"value": 50, "unit": "percent of adults with a bachelor's degree or more", "value_type": "reported_share"},
+        "no_college_degree": {"value": 66, "unit": "percent of adults without a bachelor's degree", "value_type": "reported_share"},
+        "upper_income": {"value": 50, "unit": "percent of upper-income adults", "value_type": "reported_share"},
+        "middle_income": {"value": 67, "unit": "percent of middle-income adults", "value_type": "reported_share"},
+        "lower_income": {"value": 57, "unit": "percent of lower-income adults", "value_type": "reported_share"},
+        "party_gap": {"value": "67% Republican or Republican-leaning versus 55% Democratic or Democratic-leaning", "unit": "share identifying as working class", "value_type": "reported_comparison"}
+      },
+      "method": "Pew survey of 8,512 U.S. adults conducted January 20-26, 2026; the working-class question asks whether the term describes the respondent extremely or very well.",
+      "uncertainty": "Self-identification is not a direct measure of income, wealth, occupation, class position, or material hardship; the increase from 2024 is descriptive and does not identify a cause.",
+      "subgroup": "U.S. adults by education, adjusted family-income tier, and partisan identification.",
+      "counterinterpretation": "The term may function as a moral, cultural, or political identity as much as an economic category, so broad adoption does not mean economic conditions are converging.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:4f6b9804c938fde1300a35cc7fd202cc64c5dfbee84a393a0e8c9ac98d1ef992",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; identity versus financial security and occupation",
+      "denominator": {"value": 8512, "unit": "U.S. adults in the January 2026 Pew survey; linked subgroup measures use their relevant weighted universes", "value_type": "survey_sample"},
+      "measures": {
+        "financially_comfortable_working_class": {"value": 50, "unit": "percent of adults who consistently pay bills in full, have several months of emergency savings, and meet expenses comfortably", "value_type": "reported_share"},
+        "blue_collar_working_class": {"value": 77, "unit": "percent of blue-collar workers", "value_type": "reported_share"},
+        "other_workers_working_class": {"value": 61, "unit": "percent of workers in other occupations", "value_type": "reported_share"}
+      },
+      "method": "January 2026 identity data linked to a November 2025 financial-stress scale and October 2024 occupation data; Pew defines blue-collar workers using physical labor and specified industrial sectors.",
+      "uncertainty": "The linked surveys are not a same-day causal design, and the blue-collar definition excludes some workers who may understand themselves as working class; financial comfort is self-reported.",
+      "subgroup": "Adults by financial-stress level and workers by blue-collar versus other occupation type.",
+      "counterinterpretation": "Material security and occupational position still matter, but the overlap shows that working-class language can describe dignity, dependence on work, social origin, or political belonging beyond current hardship.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:4f6b9804c938fde1300a35cc7fd202cc64c5dfbee84a393a0e8c9ac98d1ef992",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; partisan meaning across economic categories",
+      "denominator": {"value": 8512, "unit": "U.S. adults in the Pew survey; party and subgroup estimates use weighted subgroup universes", "value_type": "survey_sample"},
+      "measures": {
+        "upper_income_party_gap": {"value": "61% Republican or Republican-leaning versus 38% Democratic or Democratic-leaning", "unit": "upper-income adults identifying as working class", "value_type": "reported_comparison"},
+        "low_financial_stress_party_gap": {"value": "60% Republican or Republican-leaning versus 39% Democratic or Democratic-leaning", "unit": "low-financial-stress adults identifying as working class", "value_type": "reported_comparison"},
+        "blue_collar_party_gap": {"value": "82% Republican or Republican-leaning versus 72% Democratic or Democratic-leaning", "unit": "blue-collar workers identifying as working class", "value_type": "reported_comparison"},
+        "other_worker_party_gap": {"value": "68% Republican or Republican-leaning versus 55% Democratic or Democratic-leaning", "unit": "workers in other occupations identifying as working class", "value_type": "reported_comparison"}
+      },
+      "method": "Pew cross-tabulation and multivariate analysis relating working-class identification to party, income, financial stress, education, race/ethnicity, age, gender, and occupation.",
+      "uncertainty": "These are associations, not evidence that party identity causes class identification; subgroup estimates can reflect different histories, narratives, or interpretations of the term.",
+      "subgroup": "U.S. adults across income, financial-stress, education, and occupational groups, split by party.",
+      "counterinterpretation": "The partisan pattern may be a contest over who gets to represent work and ordinary life, rather than a stable economic coalition; policy preferences are not measured by the identity question alone.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:4f6b9804c938fde1300a35cc7fd202cc64c5dfbee84a393a0e8c9ac98d1ef992",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; race, education, and class language",
+      "denominator": {"value": 8512, "unit": "U.S. adults in the Pew survey; race and education estimates use weighted subgroup universes", "value_type": "survey_sample"},
+      "measures": {
+        "white_total": {"value": 62, "unit": "percent of White adults identifying as working class", "value_type": "reported_share"},
+        "hispanic_total": {"value": 59, "unit": "percent of Hispanic adults", "value_type": "reported_share"},
+        "black_total": {"value": 54, "unit": "percent of Black adults", "value_type": "reported_share"},
+        "asian_total": {"value": 52, "unit": "percent of Asian adults; English-speaker estimate", "value_type": "reported_share"},
+        "white_education_gap": {"value": "71% without a college degree versus 48% with a degree", "unit": "White adults identifying as working class", "value_type": "reported_comparison"},
+        "hispanic_black_education_pattern": {"value": "61% of Hispanic and 58% of Black college graduates identify as working class", "unit": "college graduates in each group", "value_type": "reported_comparison"}
+      },
+      "method": "Pew racial and ethnic comparisons use the January 2026 survey; White, Black, and Asian adults are non-Hispanic single-race respondents and Hispanics may be of any race.",
+      "uncertainty": "Some subgroup samples are small, including Black and Asian Republicans; racial and educational differences do not reveal which meanings respondents attach to the term.",
+      "subgroup": "White, Hispanic, Black, and Asian adults by education and party.",
+      "counterinterpretation": "Different group patterns suggest that class language is culturally situated and cannot be interpreted as a single national hierarchy or universal economic self-description.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:4f6b9804c938fde1300a35cc7fd202cc64c5dfbee84a393a0e8c9ac98d1ef992",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record treats working-class identity as a cultural and political classification layer connecting work, status, financial security, race, and party. It does not define the American working class, establish economic mobility, infer policy preferences, or turn self-identification into a respondent-level causal explanation."
+}

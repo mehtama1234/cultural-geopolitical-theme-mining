@@ -1,0 +1,147 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-multistate-cac-subprime-auto-loan-settlement-2026",
+  "title": "Auto-loan remedy is shifting from individual repayment failure toward debt relief, disclosure, and early off-ramps",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "New York Attorney General account of the 2026 multistate Credit Acceptance Corporation settlement",
+  "geography": "United States consumers with qualifying Credit Acceptance Corporation auto loans; multistate settlement",
+  "observations": [
+    {
+      "period": "September 17, 2026 multistate settlement announcement",
+      "denominator": {
+        "value": 55000,
+        "unit": "more than 55,000 consumers identified by the New York Attorney General as receiving debt relief; nationwide settlement population",
+        "value_type": "agency_reported_approximate_count"
+      },
+      "measures": {
+        "debt_relief": {
+          "value": 630,
+          "unit": "million U.S. dollars in consumer auto-loan debt relief",
+          "value_type": "agency_reported_aggregate"
+        },
+        "cash_restitution": {
+          "value": 60,
+          "unit": "million U.S. dollars in restitution to consumers who lost vehicles to repossession",
+          "value_type": "agency_reported_aggregate"
+        },
+        "penalties": {
+          "value": 15,
+          "unit": "more than million U.S. dollars in penalties to participating states",
+          "value_type": "agency_reported_aggregate"
+        },
+        "mechanism": {
+          "value": "A consumer-finance remedy can restore household room through both cash transfer and liability removal, with the exposure concentrated among borrowers with low or no credit scores",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Machine-readable extraction from the New York Attorney General's official settlement announcement; settlement amounts and population are reported aggregates, not an independent calculation.",
+      "uncertainty": "The announcement does not provide the final individual allocation schedule, payment receipt, remaining balances after relief, borrower demographics beyond credit status, or post-settlement mobility and household outcomes; the settlement terms were announced as a legal resolution rather than a causal evaluation.",
+      "subgroup": "Consumers with low or no credit scores and qualifying high-risk Credit Acceptance auto loans, including consumers whose cars were repossessed and those who retained their cars.",
+      "counterinterpretation": "A legal settlement can reduce balances without proving that prior lending caused every individual loss or that relief restores credit, transportation stability, or household wealth; the company did not admit wrongdoing in the resolution.",
+      "source_url": "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-700-million-abusive-subprime-auto-lender-credit",
+      "retrieval_hash": "sha256:c710aeddec414792c1935187b8b7dab8d00b58b6283d7c5312a76aae0547cabb",
+      "status": "reported"
+    },
+    {
+      "period": "Loans made November 2015-November 2025; relief structure announced September 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "multistate settlement relief architecture for qualifying risky auto loans",
+        "value_type": "reported_episode_frame"
+      },
+      "measures": {
+        "repossessed_vehicle_debt_relief": {
+          "value": 388,
+          "unit": "million U.S. dollars in balances to be wiped for qualifying borrowers whose vehicles were repossessed",
+          "value_type": "settlement_term"
+        },
+        "retained_vehicle_debt_relief": {
+          "value": 246,
+          "unit": "million U.S. dollars in balances to be wiped for qualifying borrowers who retained their vehicles",
+          "value_type": "settlement_term"
+        },
+        "consumer_action": {
+          "value": "Eligible consumers had already been identified, would be notified, and did not need to take action to receive the described relief",
+          "unit": "reported delivery route",
+          "value_type": "reported_process_change"
+        },
+        "mechanism": {
+          "value": "Relief distinguishes mobility loss from debt persistence: a borrower may lose the car and still owe, or keep the car while remaining exposed to unaffordable liability",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official settlement announcement separating relief by repossession status and describing a no-application notification route.",
+      "uncertainty": "The release does not provide the number of borrowers in each bucket, individual account balances, timing of account correction, title or credit-report outcomes, or whether transportation access was preserved.",
+      "subgroup": "Qualifying borrowers whose cars were repossessed versus qualifying borrowers who retained their cars.",
+      "counterinterpretation": "Debt cancellation may be easier to administer than rebuilding transportation access; a no-action route can improve reach while still failing to reach people with outdated contact information.",
+      "source_url": "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-700-million-abusive-subprime-auto-lender-credit",
+      "retrieval_hash": "sha256:c710aeddec414792c1935187b8b7dab8d00b58b6283d7c5312a76aae0547cabb",
+      "status": "reported"
+    },
+    {
+      "period": "Loans originated from December 2025 onward; five-year forward protection beginning November 2, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "new-loan protection rule for qualifying high-risk Credit Acceptance loans",
+        "value_type": "reported_policy_frame"
+      },
+      "measures": {
+        "early_default_off_ramp": {
+          "value": 95,
+          "unit": "percent of remaining debt to be waived for qualifying risky loans that default within the specified early period",
+          "value_type": "settlement_term"
+        },
+        "collection_lawsuit_bar": {
+          "value": "Credit Acceptance must refrain from commencing collection lawsuits against consumers receiving the qualifying early-default off-ramp",
+          "unit": "reported consumer-protection rule",
+          "value_type": "settlement_term"
+        },
+        "disclosure_and_add_on_control": {
+          "value": "Enhanced affordability and loan-risk disclosures, dealer oversight, and protections against unwanted service-contract or GAP add-ons, including post-sale cancellation notice",
+          "unit": "reported forward-looking control package",
+          "value_type": "settlement_term"
+        },
+        "mechanism": {
+          "value": "Up-front risk disclosure and an early exit can reduce the duration of a bad-fit credit commitment, but only if borrowers understand the terms and the protections operate before repossession or litigation",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official state attorney general description of forward-looking settlement requirements.",
+      "uncertainty": "The source reports required protections, not compliance, take-up, borrower understanding, default reduction, vehicle retention, or later household outcomes; implementation begins after the announcement.",
+      "subgroup": "Consumers entering qualifying high-risk loans after the effective date, especially borrowers with limited credit options.",
+      "counterinterpretation": "Disclosure and an off-ramp may shift responsibility to consumers without changing vehicle prices, dealer incentives, or the underlying need for transportation; the policy may prevent some harm without making subprime credit affordable.",
+      "source_url": "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-700-million-abusive-subprime-auto-lender-credit",
+      "retrieval_hash": "sha256:c710aeddec414792c1935187b8b7dab8d00b58b6283d7c5312a76aae0547cabb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-joins-nationwide-bipartisan-settlement-subprime-auto",
+      "claim": "California's official account provides a state-level restitution and debt-relief split and confirms the multistate settlement structure.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www.creditacceptance.com/settlement",
+      "claim": "The lender's customer-facing settlement page describes no-action notification, the fewer-than-3-percent affected-account statement, and implementation timing; it is retained as a party account, not an independent validation.",
+      "status": "respondent-context"
+    }
+  ],
+  "boundary": "This record adds a named subprime-auto-finance remedy and prevention episode linking unequal credit exposure to repossession, debt persistence, mobility, cash restitution, debt relief, disclosures, and early off-ramps. It does not establish individual receipt, restored transportation, credit-report correction, household wealth recovery, compliance, or durable trust change.",
+  "retrieval_hash": "sha256:c710aeddec414792c1935187b8b7dab8d00b58b6283d7c5312a76aae0547cabb"
+}

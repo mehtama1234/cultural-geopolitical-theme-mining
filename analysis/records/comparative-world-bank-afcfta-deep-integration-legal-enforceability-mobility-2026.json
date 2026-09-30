@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-afcfta-deep-integration-legal-enforceability-mobility-2026",
+  "title": "Regional integration becomes usable when trade rules are enforceable, defensive instruments disciplined, and people can move",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11449, Beneath the Surface: Deep Trade Agreements and the Potential of a Deeper AfCFTA",
+  "geography": "African Continental Free Trade Area and worldwide trade-agreement comparison, with counterfactual estimates for African economies in the sample",
+  "observations": [
+    {
+      "period": "Worldwide trade agreements; shallow, medium, and deep integration classification",
+      "denominator": {"value": 1, "unit": "worldwide trade-agreement corpus classified into three integration-depth clusters", "value_type": "reported_comparative_frame"},
+      "measures": {
+        "classification": {"value": "trade agreements are classified as shallow, medium, or deep using a clustering algorithm", "unit": "reported analytical classification", "value_type": "reported_method"},
+        "trade_effects": {"value": "cluster rankings are estimated within a structural-gravity framework to compare trade effects", "unit": "reported empirical framework", "value_type": "reported_method"},
+        "depth_mechanism": {"value": "the legal and institutional content beneath tariff preferences is associated with whether an agreement produces stronger trade effects", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "formal_to_usable_gap": {"value": "regional integration on paper does not automatically create usable market access for firms, workers, or consumers", "unit": "bounded integration mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Machine-learning clustering of worldwide trade agreements combined with structural-gravity estimation and feature-attribution analysis.",
+      "uncertainty": "Agreement classifications and estimated trade effects are model-dependent; association between provisions and depth does not by itself establish that a single provision causes observed trade outcomes.",
+      "subgroup": "Countries, regional agreements, firms, sectors, workers, service providers, and consumers facing different regulatory, customs, mobility, and enforcement barriers.",
+      "counterinterpretation": "Deep provisions may be adopted by countries that already have stronger institutions, infrastructure, or trade capacity; the observed depth effect may partly reflect selection and implementation quality.",
+      "source_url": "https://documents.worldbank.org/curated/en/099901109142672312/pdf/IDU-173f1b67-9610-471f-bb6d-781e5a3d54ea.pdf",
+      "retrieval_hash": "sha256:29a4d070f0351ae99c863ab66d8becd33eb19d6c8ff12312828dd26285b33422",
+      "status": "reported"
+    },
+    {
+      "period": "AfCFTA baseline and deep-integration counterfactual",
+      "denominator": {"value": 1, "unit": "African Continental Free Trade Area policy counterfactual for African economies in the study sample", "value_type": "reported_counterfactual_frame"},
+      "measures": {
+        "baseline_depth": {"value": "AfCFTA is classified as medium in the paper's baseline", "unit": "reported agreement classification", "value_type": "reported_classification"},
+        "deep_counterfactual": {"value": "implementing AfCFTA as a deep agreement is estimated to generate substantial additional trade gains", "unit": "reported general-equilibrium counterfactual", "value_type": "reported_counterfactual"},
+        "gdp_result": {"value": "average GDP gain of approximately 0.7 percent for the African economies in the sample", "unit": "modeled percentage change relative to counterfactual baseline", "value_type": "reported_model_result"},
+        "distributional_boundary": {"value": "the modeled gain is an economy-level counterfactual, not evidence that firms, workers, regions, or households receive equal benefits", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "General-equilibrium counterfactual analysis applied to AfCFTA configurations informed by the agreement-depth classification.",
+      "uncertainty": "Results depend on model structure, trade elasticities, sectoral responses, implementation assumptions, adjustment costs, and the extent to which formal provisions are actually enforced.",
+      "subgroup": "African economies, exporting and importing firms, formal and informal businesses, workers in tradable sectors, consumers facing prices and product variety, and regions with different logistics capacity.",
+      "counterinterpretation": "Aggregate GDP gains can coexist with adjustment losses, concentrated firm power, regional divergence, job displacement, or higher compliance costs for smaller firms; the estimate is not a poverty or welfare result.",
+      "source_url": "https://documents.worldbank.org/curated/en/099901109142672312/pdf/IDU-173f1b67-9610-471f-bb6d-781e5a3d54ea.pdf",
+      "retrieval_hash": "sha256:29a4d070f0351ae99c863ab66d8becd33eb19d6c8ff12312828dd26285b33422",
+      "status": "reported"
+    },
+    {
+      "period": "Agreement provisions associated with deep integration",
+      "denominator": {"value": 1, "unit": "feature-attribution and counterfactual provision analysis", "value_type": "reported_provision_frame"},
+      "measures": {
+        "legal_enforceability": {"value": "stronger legal enforceability is among the provisions most closely associated with deep agreements", "unit": "reported feature association", "value_type": "reported_feature_result"},
+        "trade_defense": {"value": "tighter disciplines on trade-defense instruments are among the provisions most closely associated with deep agreements", "unit": "reported feature association", "value_type": "reported_feature_result"},
+        "visa_provisions": {"value": "visa-related provisions are among the provisions most closely associated with deep agreements", "unit": "reported feature association", "value_type": "reported_feature_result"},
+        "social_translation": {"value": "enforceable rules and mobility can convert regional integration from tariff access into usable opportunities for firms, workers, and service users", "unit": "bounded social-economic mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Feature-attribution methods and counterfactual policy combinations identify provision configurations associated with deep classification.",
+      "uncertainty": "Feature attribution identifies predictive or correlational contribution within the model, not a clean causal estimate of each legal or visa provision; implementation and political contestation remain open.",
+      "subgroup": "Cross-border workers, service providers, firms using regional supply chains, smaller enterprises, migrants, border communities, customs agencies, and consumers.",
+      "counterinterpretation": "Mobility and enforceability provisions can create uneven access, administrative burden, labor-market competition, or political resistance if documentation, social protection, and recognition systems do not travel with people and firms.",
+      "source_url": "https://documents.worldbank.org/curated/en/099901109142672312/pdf/IDU-173f1b67-9610-471f-bb6d-781e5a3d54ea.pdf",
+      "retrieval_hash": "sha256:29a4d070f0351ae99c863ab66d8becd33eb19d6c8ff12312828dd26285b33422",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099901109142672312", "claim": "Official World Bank record for WPS11449, authors, themes, sectors, topics, and reproducibility package."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11449.html", "claim": "Bibliographic record and abstract for agreement classification, structural gravity, AfCFTA baseline, 0.7 percent GDP counterfactual, and key provisions."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/603", "claim": "World Bank reproducibility package and study metadata."}
+  ],
+  "boundary": "This record adds regional-integration depth as a legal, mobility, firm, and geopolitical mechanism. It does not establish that AfCFTA implementation will produce the modeled GDP gain, that aggregate trade gains will be equally distributed, or that deep provisions automatically create household welfare, jobs, voice, or consumer affordability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document page, abstract record, and reproducibility metadata were reviewed for worldwide agreement clustering, structural-gravity trade effects, AfCFTA medium baseline, deep counterfactual, approximate 0.7 percent GDP estimate, legal-enforceability/trade-defense/visa feature associations, and distributional boundaries.",
+    "source_url_sha256": "sha256:29a4d070f0351ae99c863ab66d8becd33eb19d6c8ff12312828dd26285b33422",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-hostile-online-content-age-gender-2025",
+  "title": "Exposure to hostile or degrading online content is concentrated among younger EU users and differs by gender and target",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Eurostat 2025 EU survey on ICT usage by households and individuals, published 18 June 2026",
+  "geography": "European Union; internet users aged 16-74",
+  "observations": [
+    {
+      "period": "2025; exposure to hostile or degrading online content by age",
+      "denominator": {"value": 1, "unit": "EU internet users aged 16-74 who encountered online content during the reference period; comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "hostile_content_age_16_24": {"value": 53.7, "unit": "percent of internet users ages 16-24 encountering hostile or degrading content directed at groups or individuals", "value_type": "reported_share"},
+        "hostile_content_age_25_34": {"value": 54.0, "unit": "percent among internet users ages 25-34", "value_type": "reported_share"},
+        "hostile_content_age_35_44": {"value": 46.4, "unit": "percent among internet users ages 35-44", "value_type": "reported_share"},
+        "hostile_content_age_65_74": {"value": 28.1, "unit": "percent among internet users ages 65-74", "value_type": "reported_share"},
+        "age_gradient": {"value": 25.9, "unit": "percentage-point gap between ages 25-34 and 65-74", "value_type": "calculated_difference_from_published_shares"},
+        "mechanism": {"value": "The platform environment is not experienced evenly: younger users encounter more hostile or degrading content, making exposure, moderation, identity safety, and exit conditions part of digital cultural and civic infrastructure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat summary of the 2025 EU survey on ICT usage by households and individuals; hostile or degrading content includes messages, comments, photos, memes, videos, and other material directed at specific groups or individuals.",
+      "uncertainty": "Exposure can be to content directed at the respondent or at other people; the indicator does not measure frequency, severity, direct victimization, reporting, platform response, mental-health effects, political behavior, or causal harm.",
+      "subgroup": "EU internet users aged 16-74 by age group.",
+      "counterinterpretation": "Younger users may spend more time online or use different services, increasing exposure opportunity; lower exposure among older users does not imply a safer or more inclusive digital experience.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260618-1",
+      "retrieval_hash": "sha256:fc62b13feb52ababfa7c31bf509f9292df8f19f4b9f0878653f4f062d9254a5a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; hostile or degrading online content among internet users ages 16-24 by gender and content target",
+      "denominator": {"value": 1, "unit": "EU internet users ages 16-24; comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "young_women_any_hostile_content": {"value": 57.2, "unit": "percent of young female internet users reporting exposure", "value_type": "reported_share"},
+        "young_men_any_hostile_content": {"value": 50.4, "unit": "percent of young male internet users reporting exposure", "value_type": "reported_share"},
+        "young_political_social_views_women_men": {"value": "42.5% versus 39.3%", "unit": "percent of young women versus young men encountering hostile content about political or social views", "value_type": "reported_comparison"},
+        "young_racial_ethnic_origin_women_men": {"value": "38.2% versus 35.6%", "unit": "percent of young women versus young men encountering hostile content about racial or ethnic origin", "value_type": "reported_comparison"},
+        "largest_gender_gaps": {"value": "sexual orientation 37.8% versus 32.6%; sex 30.9% versus 24.9%; disability 23.0% versus 19.3%", "unit": "reported young-women versus young-men comparisons", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Young women report higher exposure overall and across several identity targets, indicating that digital participation may carry unequal recognition, safety, and moderation burdens even within the same age cohort", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat cross-tabulation of 2025 ICT-use survey responses for internet users ages 16-24, disaggregated by gender and hostile-content target.",
+      "uncertainty": "The published comparison is descriptive and does not establish differential time online, platform mix, reporting behavior, message severity, perpetrator identity, moderator action, or downstream wellbeing and participation outcomes.",
+      "subgroup": "EU internet users ages 16-24, comparing young women and young men across content targets.",
+      "counterinterpretation": "Gender differences may reflect different exposure opportunities, recognition or reporting thresholds, platform use, or social context; exposure is not equivalent to direct victimization or measured harm.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260618-1",
+      "retrieval_hash": "sha256:fc62b13feb52ababfa7c31bf509f9292df8f19f4b9f0878653f4f062d9254a5a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/web/digital-economy-and-society/database/comprehensive-database", "claim": "Eurostat digital-economy database route for source dataset isoc_ci_hm."},
+    {"source_url": "https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2026", "claim": "Eurostat Digitalisation in Europe 2026 context for online activity and digital participation."}
+  ],
+  "boundary": "This record adds an official EU digital-exposure and identity-safety layer. It does not establish direct victimization, severity, platform causality, moderation effectiveness, mental-health outcomes, political behavior, cultural belonging, or consumer welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat 18 June 2026 article retrieved; 2025 age-group exposure rates, young women/men comparison, target categories, definitions, and ICT-survey basis reviewed.",
+    "html_sha256": "sha256:fc62b13feb52ababfa7c31bf509f9292df8f19f4b9f0878653f4f062d9254a5a",
+    "checked": "2026-09-30"
+  }
+}

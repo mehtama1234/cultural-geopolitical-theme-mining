@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose",
+  "title": "Younger adults are sequencing ambition around financial security, sustainable work, purpose, and practical AI capability",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "time_hidden_price", "infrastructure_technology_dependency", "trust_identity_meaning", "care_health_reproduction"],
+  "source_unit": "Deloitte Global, 2026 Gen Z and Millennial Survey: Progress on Their Own Terms",
+  "geography": "44 countries; more than 22,500 Gen Z and millennial respondents, with qualitative business-leader interviews",
+  "observations": [
+    {
+      "period": "2026; cost of living, housing, life sequencing and career decisions",
+      "denominator": {"value": 22500, "unit": "more than 22,500 Gen Z and millennial respondents across 44 countries", "value_type": "global_survey_sample"},
+      "measures": {
+        "housing_affects_work_gen_z": {"value": 69, "unit": "percent of Gen Z respondents saying housing availability or affordability directly affects career decisions or where they can work", "value_type": "reported_share"},
+        "housing_affects_work_millennials": {"value": 64, "unit": "percent of millennial respondents saying housing availability or affordability directly affects career decisions or where they can work", "value_type": "reported_share"},
+        "delay_major_decisions_gen_z": {"value": 55, "unit": "percent of Gen Z respondents delaying major life decisions because of their financial situation", "value_type": "reported_share"},
+        "delay_major_decisions_millennials": {"value": 52, "unit": "percent of millennial respondents delaying major life decisions because of their financial situation", "value_type": "reported_share"},
+        "cannot_afford_home_gen_z": {"value": 51, "unit": "percent of Gen Z respondents saying they cannot afford to own a house", "value_type": "reported_share"},
+        "cannot_afford_home_millennials": {"value": 40, "unit": "percent of millennial respondents saying they cannot afford to own a house", "value_type": "reported_share"}
+      },
+      "method": "Deloitte global survey of Gen Z and millennials across 44 countries, supplemented by qualitative business-leader interviews; the public report compares generational responses and year-over-year measures.",
+      "uncertainty": "The survey is descriptive and sponsor-produced; reported delays, housing constraints and career choices are associations and self-reports, not causal estimates of housing or inflation effects.",
+      "subgroup": "Gen Z and millennial respondents across 44 countries, with comparisons by generation, financial condition, work experience and career priorities.",
+      "counterinterpretation": "Delaying milestones can reflect deliberate sequencing, education or caregiving choices rather than only deprivation; personal financial optimism remains stronger than macroeconomic optimism for many respondents.",
+      "source_url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html",
+      "retrieval_hash": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+      "status": "reported"
+    },
+    {
+      "period": "2026; leadership, AI adoption, mental health, digital fatigue, purpose and work design",
+      "denominator": {"value": 1, "unit": "Deloitte Gen Z and millennial survey frame", "value_type": "cross_generation_work_frame"},
+      "measures": {
+        "rapid_promotion_preference_gen_z": {"value": 25, "unit": "percent preferring rapid promotions and title changes", "value_type": "reported_share"},
+        "rapid_promotion_preference_millennials": {"value": 21, "unit": "percent preferring rapid promotions and title changes", "value_type": "reported_share"},
+        "ai_use_gen_z": {"value": 74, "unit": "percent reporting some day-to-day work use of AI", "value_type": "reported_share"},
+        "ai_use_millennials": {"value": 74, "unit": "percent reporting some day-to-day work use of AI", "value_type": "reported_share"},
+        "good_mental_health_gen_z": {"value": 63, "unit": "percent rating mental health good or extremely good, up from 52% in 2025", "value_type": "reported_share"},
+        "digital_fatigue_gen_z": {"value": 58, "unit": "percent reporting digital fatigue from alerts and multiple tools/platforms", "value_type": "reported_share"},
+        "purpose_important_gen_z": {"value": 96, "unit": "percent saying a sense of purpose at work is important to job satisfaction", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional global survey with repeated-year comparisons and qualitative leader interviews; measures cover work preferences, AI use, mental health, stress, digital fatigue and purpose.",
+      "uncertainty": "Year-over-year changes are not necessarily panel changes; mental-health and AI-use measures are self-reported, and the public summary does not establish whether organizational practices caused the reported outcomes.",
+      "subgroup": "Gen Z and millennial workers, people considering leadership, AI users, respondents reporting stress or digital fatigue, and respondents prioritizing purpose and sustainable workload.",
+      "counterinterpretation": "Lower appetite for rapid promotion does not mean lower ambition: 76% of Gen Z and 67% of millennial respondents report interest in senior or executive leadership over the course of their careers.",
+      "source_url": "https://www.deloitte.com/content/dam/assets-shared/docs/campaigns/2026/2026-genz-millennial-survey.pdf",
+      "retrieval_hash": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html", "claim": "Canonical Deloitte publication page with sample, findings, and downloadable report."},
+    {"source_url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html", "claim": "The survey is the 15th anniversary edition and includes more than 22,500 respondents across 44 countries."}
+  ],
+  "boundary": "This record adds a generational work-and-life sequencing route connecting cost of living, housing, major life decisions, sustainable workload, AI adoption, mental health, digital fatigue, purpose and leadership. It is not a causal labor-market model, a representative estimate of all young adults, an employer audit, or respondent-level raw-data ingestion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Deloitte landing page and 53-page report PDF were reviewed; sample, housing and financial-delay measures, leadership preferences, AI use, mental-health and digital-fatigue measures, and purpose findings were cross-checked.",
+    "report_pdf_sha256": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pps-public-trust-government-civil-servants-capacity-2026",
+  "title": "Public distrusts the federal government as an institution while retaining more positive views of civil servants and specific services",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Partnership for Public Service and Impact Research, The State of Public Trust in Government 2026",
+  "geography": "United States; nationally representative survey of adults, fielded March 31-April 5, 2026",
+  "observations": [
+    {
+      "period": "March 31-April 5, 2026; federal-government trust and institutional judgment",
+      "denominator": {"value": 1000, "unit": "U.S. adults surveyed by Impact Research for the Partnership for Public Service", "value_type": "reported_survey_sample"},
+      "measures": {
+        "federal_trust": {"value": 27, "unit": "percent saying they trust the federal government", "value_type": "published_survey_estimate"},
+        "government_corrupt": {"value": 72, "unit": "percent describing the federal government as corrupt", "value_type": "published_survey_estimate"},
+        "government_wasteful": {"value": 75, "unit": "percent describing the federal government as wasteful", "value_type": "published_survey_estimate"},
+        "institutional_legitimacy_gap": {"value": "Low trust, corruption and waste judgments create a legitimacy deficit that cannot be reduced to disagreement with one policy or one officeholder.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Nationally representative Partnership for Public Service/Impact Research survey of 1,000 U.S. adults conducted March 31-April 5, 2026; interviews were conducted in English and Spanish and the reported margin of error is plus or minus 3.1 percentage points.",
+      "uncertainty": "The survey is cross-sectional and perception-based; the public report does not establish which service encounters, media narratives, policy outcomes or administrative failures produce each judgment.",
+      "subgroup": "U.S. adults; the report compares party identification, demographic groups and views of government versus civil servants.",
+      "counterinterpretation": "People may use ‘government’ as a symbolic judgment about elected leadership while evaluating specific agencies, services or public employees more favorably.",
+      "source_url": "https://ourpublicservice.org/know-the-facts/resource-library/reports/state-of-trust-2026?_hsmi=439303190",
+      "retrieval_hash": "source_page:sha256:0f3a0be60d053e89e524b42c7e2800e0c0e607bee10c9d74c1112917fe3c6724",
+      "status": "reported"
+    },
+    {
+      "period": "March 31-April 5, 2026; partisan and presidential-identity filtering of government trust",
+      "denominator": {"value": 1000, "unit": "U.S. adults surveyed by Impact Research for the Partnership for Public Service; subgroup denominators not disclosed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "republican_trust": {"value": 42, "unit": "percent of Republicans saying they trust the federal government", "value_type": "published_subgroup_estimate"},
+        "democratic_trust": {"value": 17, "unit": "percent of Democrats saying they trust the federal government", "value_type": "published_subgroup_estimate"},
+        "independent_trust": {"value": 18, "unit": "percent of independents saying they trust the federal government", "value_type": "published_subgroup_estimate"},
+        "identity_filtered_legitimacy": {"value": "Trust shifts with the party controlling the presidency, making institutional evaluation partly an identity and accountability judgment rather than a stable assessment of administrative performance.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive party-subgroup estimates reported in the 2026 Partnership/Impact Research survey and compared with earlier annual waves since 2021.",
+      "uncertainty": "The party differences do not identify whether respondents are judging policy outcomes, presidential leadership, agency conduct, partisan messaging or anticipated benefits; no causal time-series model is provided.",
+      "subgroup": "Republicans, Democrats and independents in the U.S. adult sample.",
+      "counterinterpretation": "Partisan trust can reflect ordinary electoral accountability and policy agreement rather than a loss of institutional legitimacy; the same respondent may distinguish elected officials from career administration.",
+      "source_url": "https://ourpublicservice.org/know-the-facts/resource-library/reports/state-of-trust-2026?_hsmi=439303190",
+      "retrieval_hash": "source_page:sha256:0f3a0be60d053e89e524b42c7e2800e0c0e607bee10c9d74c1112917fe3c6724",
+      "status": "reported"
+    },
+    {
+      "period": "2026; government abstraction versus civil-service and service-specific judgment",
+      "denominator": {"value": 1000, "unit": "U.S. adults surveyed by Impact Research for the Partnership for Public Service", "value_type": "reported_survey_sample"},
+      "measures": {
+        "civil_servant_distinction": {"value": "The report states that Americans' perceptions of civil servants are more positive than perceptions of the government as a whole and that many personal interactions with federal government are positive.", "unit": "reported comparison", "value_type": "reported_mechanism"},
+        "specific_activity_judgment": {"value": "Majorities give specific government activities high marks even as broad institutional trust remains low.", "unit": "reported comparison", "value_type": "reported_mechanism"},
+        "capacity_legitimacy_route": {"value": "Frontline competence, service usefulness and visible accountability may be potential routes for converting abstract government distrust into differentiated institutional judgment.", "unit": "open mechanism", "value_type": "analytical_synthesis"},
+        "open_middle": {"value": "The public report leaves open whether positive service encounters can survive workforce cuts, capacity loss, delays or political attribution.", "unit": "open research question", "value_type": "reported_boundary"}
+      },
+      "method": "Synthesis of the report's government-wide, civil-servant and specific-activity findings; no respondent-level linkage between service experience and trust is publicly provided.",
+      "uncertainty": "The public summary does not provide the full activity-level tables, encounter frequency, agency coverage, administrative outcomes or longitudinal person-level evidence needed to estimate a service-to-trust effect.",
+      "subgroup": "U.S. adults with potentially different direct and indirect experiences of federal services and civil servants.",
+      "counterinterpretation": "Positive views of civil servants may coexist with low trust because people separate frontline professionalism from political leadership, while specific activity ratings may be issue-specific rather than durable capacity judgments.",
+      "source_url": "https://ourpublicservice.org/know-the-facts/resource-library/reports/state-of-trust-2026?_hsmi=439303190",
+      "retrieval_hash": "source_page:sha256:0f3a0be60d053e89e524b42c7e2800e0c0e607bee10c9d74c1112917fe3c6724",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ourpublicservice.org/know-the-facts/resource-library/reports/state-of-trust-2026?_hsmi=439303190", "claim": "Official Partnership report page provides 2026 trust, corruption, waste, party, civil-servant, service-specific, longitudinal and methodology findings."}
+  ],
+  "boundary": "This record adds a public-capacity legitimacy route separating federal-government abstraction, elected-party identity, civil-servant judgment and specific service experience. It does not establish causal effects of cuts or reforms, actual service quality, user outcomes, workforce capacity, agency-level trust, or a universal view of government.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Partnership for Public Service report page was reviewed for the 2026 sample, field dates, trust/corruption/waste estimates, party comparisons, civil-servant distinction, service-specific judgments, trend framing and methodology.",
+    "source_page_sha256": "sha256:0f3a0be60d053e89e524b42c7e2800e0c0e607bee10c9d74c1112917fe3c6724",
+    "checked": "2026-09-29"
+  }
+}

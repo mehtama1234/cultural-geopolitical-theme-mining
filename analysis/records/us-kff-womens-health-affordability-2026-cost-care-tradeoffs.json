@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-kff-womens-health-affordability-2026-cost-care-tradeoffs",
+  "title": "Health coverage does not prevent women from trading off care, medication, and basic household needs against cost",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "KFF, Women's Health Care Affordability Challenges: Findings from the 2026 KFF Women's Health Survey, September 23, 2026",
+  "geography": "United States; women and men ages 18-64 with insurance, income, race/ethnicity, and health-status comparisons",
+  "observations": [
+    {
+      "period": "March 11-April 14, 2026; cost-related delay of needed care",
+      "denominator": {"value": 5854, "unit": "U.S. adults ages 18-64 in nationally representative KFF Women's Health Survey: 4,688 women and 1,148 men", "value_type": "survey_sample"},
+      "measures": {
+        "women_delayed_needed_care": {"value": 42, "unit": "percent of women ages 18-64 delaying or postponing care they thought they needed because of cost in the past 12 months", "value_type": "reported_share"},
+        "men_delayed_needed_care": {"value": 35, "unit": "percent of men ages 18-64", "value_type": "reported_share"},
+        "uninsured_women_delayed": {"value": 68, "unit": "percent of uninsured women", "value_type": "reported_share"},
+        "employer_covered_women_delayed": {"value": 38, "unit": "percent of women with employer-sponsored coverage", "value_type": "reported_share"},
+        "medicaid_women_delayed": {"value": 34, "unit": "percent of women with Medicaid coverage", "value_type": "reported_share"},
+        "individually_purchased_delayed": {"value": 50, "unit": "percent of women with individually purchased coverage", "value_type": "reported_share"}
+      },
+      "method": "KFF survey conducted online and by telephone March 11-April 14, 2026, using nationally representative probability-based SSRS and Ipsos panels; women and men were separately weighted and combined to population proportions.",
+      "uncertainty": "Cost delay is self-reported over 12 months and does not establish medical urgency, later health outcomes, or whether coverage design, premiums, deductibles, provider supply, or household income was the proximate constraint.",
+      "subgroup": "Women and men ages 18-64 by insurance type, income, race/ethnicity, and self-reported health.",
+      "counterinterpretation": "Coverage status is not equivalent to usable access: insured women may still face deductibles, premiums, narrow networks, uncovered services, or unstable coverage periods.",
+      "source_url": "https://www.kff.org/womens-health-policy/womens-health-care-affordability-challenges/",
+      "retrieval_hash": "sha256:cc568eff2ead2cf4f2c33f612fd482bf6ba8387ea6ae38d9cc58188d8c834307",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026; recommended tests and treatments",
+      "denominator": {"value": 4688, "unit": "U.S. women ages 18-64 in the KFF survey", "value_type": "survey_sample"},
+      "measures": {
+        "women_skipped_recommended_tests_treatments": {"value": 31, "unit": "percent skipping or postponing recommended tests or treatments because of cost in the past 12 months", "value_type": "reported_share"},
+        "uninsured_skipped": {"value": 52, "unit": "percent of uninsured women", "value_type": "reported_share"},
+        "individual_plan_skipped": {"value": 41, "unit": "percent of women with individually purchased plans", "value_type": "reported_share"},
+        "employer_plan_skipped": {"value": 28, "unit": "percent of women with employer-sponsored coverage", "value_type": "reported_share"},
+        "medicaid_skipped": {"value": 22, "unit": "percent of women with Medicaid coverage", "value_type": "reported_share"},
+        "fair_poor_health_skipped": {"value": 41, "unit": "percent of women reporting fair or poor health", "value_type": "reported_share"}
+      },
+      "method": "KFF subgroup estimates among women ages 18-64, with insurance and health-status comparisons; the survey reports margins of sampling error of approximately plus or minus 2 percentage points for the national women’s sample.",
+      "uncertainty": "The measure combines skipped and postponed recommended services and does not identify the service, clinical consequence, or subsequent catch-up care.",
+      "subgroup": "Women by insurance type, self-reported health, income, and race/ethnicity.",
+      "counterinterpretation": "The pattern may reflect both financial barriers and different levels of recommended-care exposure; it should not be read as a uniform failure of every insurance type or clinical setting.",
+      "source_url": "https://www.kff.org/womens-health-policy/womens-health-care-affordability-challenges/",
+      "retrieval_hash": "sha256:cc568eff2ead2cf4f2c33f612fd482bf6ba8387ea6ae38d9cc58188d8c834307",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026; prescription affordability and adherence",
+      "denominator": {"value": 4688, "unit": "U.S. women ages 18-64 in the KFF survey; prescription-use measures condition on relevant medication users where stated", "value_type": "survey_sample"},
+      "measures": {
+        "women_did_not_fill_prescription": {"value": 27, "unit": "percent who did not fill a prescription because of cost in the past 12 months", "value_type": "reported_share"},
+        "women_cut_pills_or_skipped_doses": {"value": 17, "unit": "percent who cut pills in half or skipped medicine doses because of cost", "value_type": "reported_share"},
+        "women_regular_prescription_use": {"value": 62, "unit": "percent taking at least one prescription medication regularly", "value_type": "reported_share"},
+        "prescription_users_not_filled": {"value": 32, "unit": "percent among women currently taking prescription medication who did not fill a prescription", "value_type": "reported_share"},
+        "uninsured_not_filled": {"value": 42, "unit": "percent of uninsured women not filling a prescription", "value_type": "reported_share"}
+      },
+      "method": "KFF survey questions on prescription use and cost-related nonfill or dose reduction, with subgroup comparisons by insurance, income, and self-reported health.",
+      "uncertainty": "Self-reported nonadherence does not establish medication type, clinical risk, substitution, later adherence, or whether prices, coverage rules, pharmacy access, or other costs drove the decision.",
+      "subgroup": "Women ages 18-64, including regular prescription users and uninsured or fair/poor-health groups.",
+      "counterinterpretation": "Medication tradeoffs may be a household budgeting response to cumulative costs rather than an isolated prescription-price response; the survey does not measure total medical spending.",
+      "source_url": "https://www.kff.org/womens-health-policy/womens-health-care-affordability-challenges/",
+      "retrieval_hash": "sha256:cc568eff2ead2cf4f2c33f612fd482bf6ba8387ea6ae38d9cc58188d8c834307",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026; healthcare costs and household basic needs",
+      "denominator": {"value": 4688, "unit": "U.S. women ages 18-64 in the KFF survey", "value_type": "survey_sample"},
+      "measures": {
+        "women_cut_basic_needs": {"value": 25, "unit": "percent spending less on basics such as food, clothes, or electricity to have enough money for healthcare", "value_type": "reported_share"},
+        "uninsured_cut_basic_needs": {"value": 42, "unit": "percent of uninsured women", "value_type": "reported_share"},
+        "medicaid_cut_basic_needs": {"value": 31, "unit": "percent of women with Medicaid coverage", "value_type": "reported_share"},
+        "individual_plan_cut_basic_needs": {"value": 30, "unit": "percent of women with individually purchased plans", "value_type": "reported_share"},
+        "employer_plan_cut_basic_needs": {"value": 18, "unit": "percent of women with employer-sponsored plans", "value_type": "reported_share"},
+        "women_coverage_gap": {"value": 18, "unit": "percent currently uninsured or uninsured at some point in the past 12 months", "value_type": "reported_share"}
+      },
+      "method": "KFF survey of women ages 18-64 with household basic-needs tradeoff and coverage-gap measures; insurance and subgroup estimates are weighted to national population parameters.",
+      "uncertainty": "The survey does not measure the amount of money cut from basic needs, duration, food or energy insecurity, debt, or later health effects; the tradeoff is reported retrospectively for the prior year.",
+      "subgroup": "Women by insurance type, income, race/ethnicity, and self-reported health.",
+      "counterinterpretation": "The tradeoff may reflect broader inflation and household pressure alongside medical costs; it nevertheless shows how healthcare can compete directly with ordinary consumption and household safety.",
+      "source_url": "https://www.kff.org/womens-health-policy/womens-health-care-affordability-challenges/",
+      "retrieval_hash": "sha256:cc568eff2ead2cf4f2c33f612fd482bf6ba8387ea6ae38d9cc58188d8c834307",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a healthcare-cost-to-household-room route: coverage, premiums, deductibles, medication costs, and care prices can alter treatment use and compete with food, clothing, electricity, and other basic needs. It does not establish clinical harm, causal insurance effects, total household budgets, or a universal women’s experience beyond the surveyed population."
+}

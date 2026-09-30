@@ -1,0 +1,115 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-food-social-connectedness-2026-community-infrastructure",
+  "title": "Food is being used as low-stigma social infrastructure linking affordability, culture, public space, and belonging",
+  "theme_ids": ["cost", "voice", "time", "work", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "OECD, Promoting Social Connectedness Through Food",
+  "geography": "OECD policy context with eight in-depth community-led and government-supported case studies across the United States, United Kingdom, Netherlands, New Zealand, Colombia, Australia, Germany, and Japan, plus examples from other OECD countries",
+  "observations": [
+    {
+      "period": "2026; OECD social-connection and food-policy framework",
+      "denominator": {
+        "value": 8,
+        "unit": "in-depth food-based case studies selected for the report",
+        "value_type": "case_study_frame"
+      },
+      "measures": {
+        "policy_shift": {"value": "social connectedness and loneliness are moving onto national and sub-national public-health and social-policy agendas", "unit": "reported policy direction", "value_type": "reported_direction"},
+        "food_entry_point": {"value": "growing, accessing, preparing, eating, and redistributing food provide purposeful, socially acceptable ways to engage without explicitly framing participation as treatment for loneliness", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "target_access": {"value": "food-based activities can be adapted across age, income, culture, and ability, including for older and socioeconomically disadvantaged people", "unit": "reported inclusion pathway", "value_type": "reported_pathway"},
+        "cross_outcomes": {"value": "reported potential extends to nutrition, food security, physical activity, mental well-being, skills, employment, urban greening, biodiversity, and climate resilience", "unit": "reported outcome set", "value_type": "reported_outcome_set"}
+      },
+      "method": "OECD conceptual synthesis and eight case studies drawn from community-led and government-supported food initiatives; evidence includes interviews and qualitative or participant-reported information.",
+      "uncertainty": "The report explicitly notes that existing evidence is often qualitative or survey-based and calls for stronger evaluation of magnitude, duration, cost-effectiveness, and subgroup differences.",
+      "subgroup": "Older people, low-income and unemployed people, people living alone, men experiencing loneliness, migrants and culturally diverse communities, children, volunteers, and residents of under-served neighborhoods.",
+      "counterinterpretation": "Food can create an accessible reason to meet, but it cannot substitute for income security, safe housing, transport, healthcare, or durable public investment in social infrastructure.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:c0f4ff8d0ca4d1703dde30425f3b7892ce9952c9f9ed4466e0c43c2be5965358",
+      "status": "reported"
+    },
+    {
+      "period": "2022; OECD social-connection baseline cited in the 2026 report",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD cross-country population baseline from the 2025 Social Connections and Loneliness report",
+        "value_type": "reported_baseline"
+      },
+      "measures": {
+        "no_support": {"value": 10, "unit": "percent reporting no one to count on in times of need", "value_type": "reported_share"},
+        "no_close_friends": {"value": 8, "unit": "percent reporting no close friends", "value_type": "reported_share"},
+        "frequent_loneliness": {"value": 6, "unit": "percent feeling lonely most or all of the time over the previous four weeks", "value_type": "reported_share"},
+        "risk_gradient": {"value": "unemployment, low income, lower education, older age, and living alone are associated with poorer social-connection outcomes", "unit": "reported association", "value_type": "reported_pattern"}
+      },
+      "method": "Secondary use of OECD social-connection indicators to establish the policy problem that food-based initiatives are intended to address.",
+      "uncertainty": "These are reported association and self-report measures, not evidence that food programmes cause connection or that the same groups benefit equally from them.",
+      "subgroup": "People with low income, unemployment, lower education, older age, or solo living, as well as men and young people identified as emerging vulnerable groups.",
+      "counterinterpretation": "Social isolation is multidimensional; frequency of contact, perceived support, relationship quality, and loneliness do not measure the same experience.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:c0f4ff8d0ca4d1703dde30425f3b7892ce9952c9f9ed4466e0c43c2be5965358",
+      "status": "reported"
+    },
+    {
+      "period": "2026; food access, shared meals, and daily time patterns",
+      "denominator": {
+        "value": 8,
+        "unit": "OECD countries represented in the report's student meal-skipping comparison",
+        "value_type": "country_comparison_frame"
+      },
+      "measures": {
+        "meal_skipping": {"value": "at least 1 in 10 students report skipping a meal weekly for financial reasons in each of eight OECD countries shown", "unit": "reported student food-insecurity pattern", "value_type": "reported_pattern"},
+        "shared_family_meals": {"value": "under half of young people in 25 OECD countries have a daily shared family meal", "unit": "reported cross-country pattern", "value_type": "reported_share_boundary"},
+        "income_gradient": {"value": "food insecurity is most acute among unemployed people and those with lower income or education, while healthy food consumption rises with income", "unit": "reported socioeconomic gradient", "value_type": "reported_pattern"},
+        "solo_dining": {"value": "United States time-use evidence is presented as showing solo dining on the rise", "unit": "reported time-use direction", "value_type": "reported_direction"}
+      },
+      "method": "Synthesis of food-security, student, time-use, and shared-meal indicators used to connect material access with social connection.",
+      "uncertainty": "The indicators come from different sources, years, and countries; meal sharing is not automatically positive, and shared meals cannot be treated as a universal proxy for belonging.",
+      "subgroup": "Students and young people, low-income households, unemployed people, people with lower education, solo-living adults, and households with constrained food or time budgets.",
+      "counterinterpretation": "Shared meals may reflect prior household resources and relationships rather than create them; food affordability, schedule control, safety, and cultural fit condition who can participate.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:c0f4ff8d0ca4d1703dde30425f3b7892ce9952c9f9ed4466e0c43c2be5965358",
+      "status": "reported"
+    },
+    {
+      "period": "2026; case-study implementation and local social infrastructure",
+      "denominator": {
+        "value": 8,
+        "unit": "selected case studies spanning community and government food initiatives",
+        "value_type": "implementation_case_frame"
+      },
+      "measures": {
+        "space_reuse": {"value": "vacant urban lots, idle farmland, and under-used community venues are repurposed as gardens, cafés, dining spaces, or cooking venues", "unit": "reported implementation pattern", "value_type": "reported_pattern"},
+        "government_role": {"value": "public bodies support initiatives through funding, access to land or space, policy alignment, referral pathways, standards, and monitoring", "unit": "reported enabling mechanism", "value_type": "reported_mechanism"},
+        "volunteer_dependence": {"value": "many initiatives rely on volunteers, creating both participation and skills benefits but also turnover and burnout risks", "unit": "reported implementation tension", "value_type": "reported_tension"},
+        "service_bridge": {"value": "food activities can draw people into community settings where they later connect with social or support services", "unit": "reported pathway", "value_type": "reported_pathway"},
+        "cultural_meaning": {"value": "food can enable intercultural exchange and belonging by carrying cultural meaning into shared activities", "unit": "reported cultural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-case implementation synthesis using interviews with programme representatives and analysis of community-led and government-supported initiatives.",
+      "uncertainty": "Case selection illustrates mechanisms and design challenges but does not estimate population reach, comparative effectiveness, persistence, or cost-effectiveness.",
+      "subgroup": "Neighborhood residents, volunteers, programme beneficiaries, migrants, culturally diverse groups, children, older adults, local governments, community organizations, and service providers.",
+      "counterinterpretation": "Volunteer-led food infrastructure can build agency and connection while also shifting unpaid labor and operational risk onto communities, especially where public funding is short-term.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:c0f4ff8d0ca4d1703dde30425f3b7892ce9952c9f9ed4466e0c43c2be5965358",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/07/promoting-social-connectedness-through-food_61c20b43/1fdd5254-en.pdf", "claim": "Official 92-page OECD report PDF with conceptual framing, food-system stages, eight case studies, and implementation lessons."},
+    {"source_url": "https://doi.org/10.1787/1fdd5254-en", "claim": "Official OECD DOI and publication citation."}
+  ],
+  "boundary": "This record adds a food-access-to-social-infrastructure route. It is not a causal evaluation of shared meals, a representative consumer survey, a measure of household food consumption, or proof that food-based initiatives can replace income support, housing, healthcare, or durable public social infrastructure.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page and 92-page report PDF were reviewed for the eight case studies, OECD social-connection baseline, meal-skipping and shared-meal indicators, space-reuse, volunteer, government-support, cultural, and evidence-quality claims.",
+    "source_url_sha256": "sha256:c0f4ff8d0ca4d1703dde30425f3b7892ce9952c9f9ed4466e0c43c2be5965358",
+    "checked": "2026-09-28"
+  }
+}

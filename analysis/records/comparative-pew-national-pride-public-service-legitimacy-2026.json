@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-national-pride-public-service-legitimacy-2026",
+  "title": "National pride is organized around freedom, governance, public services, and the felt legitimacy of everyday institutions",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Pew Research Center, What Makes People Proud of Their Country?, 2026; Spring 2025 Global Attitudes Survey",
+  "geography": "25 countries across the Americas, Europe, Africa, the Middle East, and Asia",
+  "observations": [
+    {
+      "period": "Spring 2025; cross-national open-ended national-pride survey",
+      "denominator": {"value": 33486, "unit": "adults surveyed across 25 countries", "value_type": "reported_sample"},
+      "measures": {
+        "question_mode": {"value": "open-ended responses about what makes people proud of their country", "unit": "survey question design", "value_type": "reported_method"},
+        "cross_country_sources": {"value": "politics, economy, public services, culture, people, history, food, freedom, and international role recur with different country weights", "unit": "coded thematic pattern", "value_type": "reported_cross_country_pattern"},
+        "interpretive_route": {"value": "national meaning is assembled from lived institutions and cultural identity rather than one universal patriotic object", "unit": "cross-source interpretation", "value_type": "reported_synthesis"}
+      },
+      "method": "Pew asked an open-ended national-pride question and coded translated responses into 28 topics; the published analysis reports country-level shares rather than a pooled global pride score.",
+      "uncertainty": "Open-ended answers can omit topics, coding categories are not mutually exclusive, and country comparisons reflect survey timing, translation, response style, and different political contexts. Reported shares are not measures of behavior or institutional performance.",
+      "subgroup": "Adults in the 25 surveyed countries, with country-specific patterns kept separate rather than treated as one global public.",
+      "counterinterpretation": "National pride can coexist with dissatisfaction, exclusion, or criticism; identifying a public service or freedom as a source of pride does not establish equal access to it.",
+      "source_url": "https://www.pewresearch.org/global/2026/02/17/what-makes-people-proud-of-their-country/",
+      "retrieval_hash": "sha256:6cf6e3997c5ae6271b6d7d80d136b7c855b1148c05099ee85bfed74b801b04e4",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2025; United States and Sweden national-pride patterns",
+      "denominator": {"value": 33486, "unit": "25-country survey base; country-level shares have separate valid bases", "value_type": "reported_sample"},
+      "measures": {
+        "us_freedom_pride": {"value": 22, "unit": "percent of U.S. adults mentioning freedom as a source of national pride", "value_type": "reported_share"},
+        "us_not_proud": {"value": 20, "unit": "percent of U.S. adults saying they are not proud of their country", "value_type": "reported_share"},
+        "sweden_governance_pride": {"value": 53, "unit": "percent of Swedish adults mentioning how the country is governed as a source of pride", "value_type": "reported_share"},
+        "comparison": {"value": "freedom is the leading U.S. pride theme, while governance is especially salient in Sweden", "unit": "country contrast", "value_type": "reported_comparison"}
+      },
+      "method": "Pew country-level coding of open-ended responses, with topics reported as the share mentioning each theme.",
+      "uncertainty": "The U.S. and Sweden figures describe different political histories and response contexts; they do not rank national systems or explain why an individual answered as they did.",
+      "subgroup": "U.S. and Swedish adults in the Spring 2025 Global Attitudes Survey.",
+      "counterinterpretation": "Freedom and governance may be symbolic ideals, personal experiences, or inherited national narratives rather than evaluations of current government delivery.",
+      "source_url": "https://www.pewresearch.org/global/2026/02/17/where-in-the-world-are-people-proud-of-their-nations-people-and-diversity/",
+      "retrieval_hash": "sha256:6cf6e3997c5ae6271b6d7d80d136b7c855b1148c05099ee85bfed74b801b04e4",
+      "status": "compared"
+    },
+    {
+      "period": "Spring 2025; Spain government-pride and democracy-satisfaction comparison",
+      "denominator": {"value": 33486, "unit": "25-country survey base; Spain subgroup comparisons have separate valid bases", "value_type": "reported_sample"},
+      "measures": {
+        "spain_government_pride_democracy_satisfied": {"value": 24, "unit": "percent among Spaniards satisfied with how democracy is working who mention government as a source of pride", "value_type": "reported_subgroup_share"},
+        "spain_government_pride_democracy_dissatisfied": {"value": 5, "unit": "percent among Spaniards dissatisfied with how democracy is working who mention government as a source of pride", "value_type": "reported_subgroup_share"},
+        "legitimacy_route": {"value": "national pride in government is strongly differentiated by satisfaction with democracy in the Spanish comparison", "unit": "reported association", "value_type": "reported_subgroup_pattern"},
+        "boundary": {"value": "the comparison does not establish that democratic satisfaction caused pride or that government performance caused either measure", "unit": "causal limitation", "value_type": "interpretation_boundary"}
+      },
+      "method": "Pew cross-tabulation of coded national-pride topics by satisfaction with democracy in Spain.",
+      "uncertainty": "The association is descriptive; subgroup composition, political events, service experience, ideology, and other factors may jointly shape both responses.",
+      "subgroup": "Spanish adults grouped by reported satisfaction or dissatisfaction with how democracy is working.",
+      "counterinterpretation": "Democracy satisfaction may reflect a broad mood or partisan alignment rather than direct contact with public services or government institutions.",
+      "source_url": "https://www.pewresearch.org/global/2026/02/17/where-in-the-world-are-people-proud-of-their-nations-politics-and-economy-and-why/",
+      "retrieval_hash": "sha256:6cf6e3997c5ae6271b6d7d80d136b7c855b1148c05099ee85bfed74b801b04e4",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2025; public-service and political-meaning synthesis",
+      "denominator": {"value": 33486, "unit": "adults surveyed across 25 countries; country-level topic shares are not pooled", "value_type": "reported_sample"},
+      "measures": {
+        "service_meaning": {"value": "health care, education, infrastructure, welfare, and public access appear as sources of national pride in several countries", "unit": "reported thematic pattern", "value_type": "reported_cross_country_pattern"},
+        "institutional_feedback_route": {"value": "public-service experience can become part of national identity and legitimacy, not only a material benefit", "unit": "program interpretation", "value_type": "reported_mechanism"},
+        "next_test": {"value": "join pride and legitimacy with service access, prices, wages, political performance, immigration, international standing, age, ideology, and later reform behavior", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Cross-country thematic synthesis of Pew's coded open-ended responses and country comparisons.",
+      "uncertainty": "The report identifies meaning-making patterns but does not measure service quality, access inequality, policy implementation, or subsequent civic action.",
+      "subgroup": "Country publics whose national-pride narratives reference institutions, freedoms, services, culture, or political performance.",
+      "counterinterpretation": "Symbolic pride may remain stable through poor service delivery, while material improvement may not produce pride when institutions are viewed as unfair or unrepresentative.",
+      "source_url": "https://www.pewresearch.org/global/2026/02/17/what-makes-people-proud-of-their-country/",
+      "retrieval_hash": "sha256:6cf6e3997c5ae6271b6d7d80d136b7c855b1148c05099ee85bfed74b801b04e4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/global/2026/02/17/where-and-why-people-arent-proud-of-their-country/", "claim": "Complementary analysis of non-pride, dissatisfaction, and criticism of politics and governance."},
+    {"source_url": "https://www.pewresearch.org/global/2025/09/15/attitudes-toward-reforming-the-political-system/", "claim": "Complementary evidence on perceived need for political reform across the same broad country frame."}
+  ],
+  "boundary": "This record adds a national-meaning, public-service legitimacy, freedom, governance, and democracy-satisfaction route. It does not treat country pride as a respondent-level psychological construct, does not infer causal service or political effects, and does not pool distinct country histories into a single global attitude.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew national-pride pages and methodology materials were reviewed for the 25-country sample, open-ended question, coding frame, U.S. freedom and non-pride shares, Swedish governance comparison, and Spain democracy-satisfaction cross-tabulation.",
+    "source_url_sha256": "sha256:6cf6e3997c5ae6271b6d7d80d136b7c855b1148c05099ee85bfed74b801b04e4",
+    "checked": "2026-09-26"
+  }
+}

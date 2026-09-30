@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kenya-finaccess-2024-digital-finance-usage-debt-distress",
+  "title": "Kenya’s mobile-finance adoption is deepening while exclusion, debt distress, and consumer-protection risks remain",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Kenya National Bureau of Statistics, 2024 FinAccess Household Survey, with Central Bank of Kenya and Financial Sector Deepening Kenya",
+  "geography": "Kenya; adults aged 18 years and older in conventional households, nationally and across rural/urban areas and all 47 counties, with sex, age, education, wealth, disability, and provider dimensions",
+  "observations": [
+    {
+      "period": "2024; financial access and exclusion",
+      "denominator": {
+        "value": 20871,
+        "unit": "households successfully interviewed; one selected individual aged 16+ per household, with most analysis restricted to adults aged 18+ because national ID access begins at 18",
+        "value_type": "reported_interviewed_household_count"
+      },
+      "measures": {
+        "formal_financial_access": {"value": 84.8, "unit": "percent of Kenyan adults with formal financial access in 2024", "value_type": "official_adult_population_share"},
+        "formal_financial_access_2021": {"value": 83.7, "unit": "percent of Kenyan adults with formal financial access in 2021", "value_type": "official_adult_population_share"},
+        "financial_exclusion": {"value": 9.9, "unit": "percent of Kenyan adults excluded from any form of financial service or product", "value_type": "official_adult_population_share"},
+        "rural_youth_share_of_excluded": {"value": 45.5, "unit": "percent of the financially excluded population represented by rural youth, as reported by the survey", "value_type": "official_subgroup_share"},
+        "age_18_25_exclusion": {"value": 23.1, "unit": "percent of adults aged 18–25 financially excluded in 2024", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Formal access can rise while exclusion remains concentrated among young and rural adults, so aggregate inclusion does not guarantee equal ability to transact, save, borrow, or recover from shocks", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KNBS 2024 FinAccess weighted household survey estimates; the sample was designed for national, rural/urban, and county estimates, with adult analysis focused on age 18+.",
+      "uncertainty": "Access is not usage, affordability, quality, consumer protection, or financial health; the rural-youth statistic is a composition of the excluded population rather than a youth exclusion rate.",
+      "subgroup": "Kenyan adults aged 18 years and older, with age, residence, and county comparisons.",
+      "counterinterpretation": "Formal access may coexist with low use or unsuitable products, while exclusion may reflect identity-document timing, household strategies, or unmeasured informal support rather than complete absence of financial coping.",
+      "source_url": "https://www.knbs.or.ke/wp-content/uploads/2024/12/2024-FinAccess-Household-Survey-Report.pdf",
+      "retrieval_hash": "sha256:2a4ad7bdca33dec3ce9fb045a54f8c9dd8e2746ac39c4cc2eb1135c917ca1f96",
+      "status": "reported"
+    },
+    {
+      "period": "2024; digital-finance usage and credit/savings behavior",
+      "denominator": {
+        "value": 20871,
+        "unit": "households successfully interviewed; provider usage estimates refer to Kenyan adults aged 18+ and categories are not additive because consumers use multiple providers",
+        "value_type": "reported_interviewed_household_count"
+      },
+      "measures": {
+        "mobile_money_usage": {"value": 82.3, "unit": "percent of adults using mobile money", "value_type": "official_adult_population_share"},
+        "bank_usage": {"value": 52.5, "unit": "percent of adults using banks", "value_type": "official_adult_population_share"},
+        "informal_group_usage": {"value": 30.7, "unit": "percent of adults using informal financial groups", "value_type": "official_adult_population_share"},
+        "hustler_fund_usage": {"value": 28.9, "unit": "percent of adults accessing the Hustler Fund", "value_type": "official_adult_population_share"},
+        "fuliza_usage": {"value": 18.4, "unit": "percent of adults using Fuliza overdraft", "value_type": "official_adult_population_share"},
+        "credit_usage": {"value": 64.0, "unit": "percent of adults using credit or loans", "value_type": "official_adult_population_share"},
+        "savings_usage": {"value": 68.1, "unit": "percent of adults reporting savings usage, down from 74.0% in 2021", "value_type": "official_adult_population_share"},
+        "daily_mobile_money_usage": {"value": 52.6, "unit": "percent of adults using mobile money daily, up from 23.6% in 2021", "value_type": "official_frequency_share"},
+        "hire_purchase_usage": {"value": 6.2, "unit": "percent of adults using hire-purchase or Lipa mdogo mdogo, up from 2.1% in 2021", "value_type": "official_adult_population_share"},
+        "mechanism": {"value": "Mobile money is not merely an access bridge: it is a high-frequency transaction layer increasingly connected to credit, government funds, e-commerce, and short-term liquidity, while savings participation falls and product categories overlap", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KNBS 2024 FinAccess usage estimates across financial-service providers and products; provider shares are explicitly non-additive because consumers use portfolios of services.",
+      "uncertainty": "The survey measures reported use over stated reference periods, not transaction value, repayment quality, income effect, product suitability, or causal effects of regulation or digital adoption.",
+      "subgroup": "Kenyan adults aged 18 years and older, with provider, frequency, residence, gender, wealth, and age dimensions.",
+      "counterinterpretation": "Credit growth may reflect productive investment, emergency smoothing, or financial inclusion as well as distress; falling savings may reflect changed products or measurement rather than depleted household resilience alone.",
+      "source_url": "https://www.knbs.or.ke/wp-content/uploads/2024/12/2024-FinAccess-Household-Survey-Report.pdf",
+      "retrieval_hash": "sha256:2a4ad7bdca33dec3ce9fb045a54f8c9dd8e2746ac39c4cc2eb1135c917ca1f96",
+      "status": "reported"
+    },
+    {
+      "period": "2024; debt distress, loss, and financial health",
+      "denominator": {
+        "value": 20871,
+        "unit": "households successfully interviewed; outcome shares use the relevant adult borrowers, mobile-money users, or adult population denominator stated by the survey",
+        "value_type": "reported_interviewed_household_count"
+      },
+      "measures": {
+        "complete_loan_default": {"value": 16.6, "unit": "percent of borrowers who completely defaulted on loans, up from 10.7% in 2021", "value_type": "official_borrower_share"},
+        "mobile_money_loss": {"value": 9.8, "unit": "percent of mobile-money users reporting losing money", "value_type": "official_user_share"},
+        "financially_healthy": {"value": 18.3, "unit": "percent of Kenyan adults classified as financially healthy, up from 17.1% in 2021", "value_type": "official_adult_population_share"},
+        "pwd_financial_inclusion": {"value": 77.9, "unit": "percent financial inclusion among persons with disabilities, versus 84.8% national average", "value_type": "official_subgroup_share"},
+        "pwd_financial_health": {"value": 7.0, "unit": "percent of persons with disabilities classified as financially healthy", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Digital financial scale can widen transaction capability while exposing users to downtime, hidden charges, loss, default, and uneven financial health; consumer power requires remedy and product suitability, not only access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KNBS 2024 FinAccess survey summary indicators for borrower distress, mobile-money loss, financial health, and persons with disabilities; denominators vary by indicator and are preserved in the measure units.",
+      "uncertainty": "The summary does not identify causal links between digital products and default or loss; financial health is a constructed index, and the subgroup estimates may have different precision from the national estimate.",
+      "subgroup": "Kenyan adult borrowers, mobile-money users, general adult population, and persons with disabilities.",
+      "counterinterpretation": "Reported losses and defaults may reflect broader economic shocks, fraud, product use, or recall; rising financial health at national level can coexist with severe subgroup disadvantage.",
+      "source_url": "https://www.knbs.or.ke/wp-content/uploads/2024/12/2024-FinAccess-Household-Survey-Report.pdf",
+      "retrieval_hash": "sha256:2a4ad7bdca33dec3ce9fb045a54f8c9dd8e2746ac39c4cc2eb1135c917ca1f96",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.knbs.or.ke/reports/2024-finacess-household-survey-report/",
+      "claim": "KNBS official report landing page for the 2024 FinAccess Household Survey.",
+      "status": "official-report-page"
+    },
+    {
+      "source_url": "https://finaccess.knbs.or.ke/",
+      "claim": "FinAccess Kenya dissemination and dashboard source describing access, usage, quality, and impact dimensions.",
+      "status": "official-dissemination-source"
+    }
+  ],
+  "boundary": "This record adds a Kenya financial-consumer and digital-recourse layer to the cultural, social, and consumer atlas. It does not establish causal effects of mobile money, digital credit, regulation, poverty, product quality, or consumer welfare, and its outcomes use different conditional denominators.",
+  "retrieval_hash": "sha256:2a4ad7bdca33dec3ce9fb045a54f8c9dd8e2746ac39c4cc2eb1135c917ca1f96",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "KNBS 2024 FinAccess 104-page report reviewed; survey design, adult denominator, sample and response, access/exclusion, provider usage, mobile-money frequency, credit/savings, default/loss, financial health, disability, and denominator boundaries checked.",
+    "report_pdf_sha256": "sha256:f2bc6b9db5af004e893c73f203fdc0ce56097c3c4a2652a459b4d5b04f268acc",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-social-network-use-youth-2025-age-country-gap",
+  "title": "Social-network use is near-universal among young Europeans, but the age and country gaps reveal different digital social worlds",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Eurostat, EU survey on the use of ICT in households and by individuals: online social-network use in 2025",
+  "geography": "European Union; people aged 16-29 and general population aged 16-74 across EU Member States",
+  "observations": [
+    {
+      "period": "2025; EU age gradient in social-network use",
+      "denominator": {
+        "value": null,
+        "unit": "EU survey respondents aged 16-29 and general population aged 16-74; source article reports shares without pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "youth_social_network_use": {"value": 89.3, "unit": "percent of EU residents aged 16-29 using social networks", "value_type": "official_survey_share"},
+        "general_social_network_use": {"value": 67.3, "unit": "percent of EU residents aged 16-74 using social networks", "value_type": "official_survey_share"},
+        "youth_general_gap": {"value": 22.0, "unit": "percentage-point difference between 16-29 and 16-74 social-network use", "value_type": "derived_percentage_point_change"},
+        "countries_over_90_percent_youth": {"value": 19, "unit": "EU Member States where more than 90% of 16-29-year-olds used social networks", "value_type": "official_country_count"},
+        "mechanism": {"value": "Social-network participation is a near-default social infrastructure for young Europeans, while the age gap means institutions, markets, and cultural life are encountered through different digital social environments across generations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU ICT household and individual survey indicator; social-network use includes creating a profile, posting messages, or making other contributions.",
+      "uncertainty": "The measure captures participation in social networks during the reference period, not intensity, platform mix, passive viewing, content quality, social support, political influence, or consumer outcomes.",
+      "subgroup": "EU residents aged 16-29 compared with the general population aged 16-74; the age ranges are not identical populations.",
+      "counterinterpretation": "High social-network use may reflect required communication, entertainment, or platform migration rather than stronger community, wellbeing, or civic capacity.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260409-1",
+      "retrieval_hash": "sha256:bf256fb511bdad1f88ff721a924e8982496585fa5098e31b3d7ad733a9fa4d30",
+      "status": "reported"
+    },
+    {
+      "period": "2025; cross-country variation among young Europeans",
+      "denominator": {
+        "value": null,
+        "unit": "EU Member State survey estimates for people aged 16-29; source article reports percentages without pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "cyprus_youth_use": {"value": 98.3, "unit": "percent of 16-29-year-olds in Cyprus using social networks", "value_type": "official_country_share"},
+        "czechia_youth_use": {"value": 97.2, "unit": "percent of 16-29-year-olds in Czechia using social networks", "value_type": "official_country_share"},
+        "denmark_youth_use": {"value": 96.9, "unit": "percent of 16-29-year-olds in Denmark using social networks", "value_type": "official_country_share"},
+        "finland_youth_use": {"value": 96.6, "unit": "percent of 16-29-year-olds in Finland using social networks", "value_type": "official_country_share"},
+        "italy_youth_use": {"value": 80.3, "unit": "percent of 16-29-year-olds in Italy using social networks", "value_type": "official_country_share"},
+        "germany_youth_use": {"value": 84.2, "unit": "percent of 16-29-year-olds in Germany using social networks", "value_type": "official_country_share"},
+        "luxembourg_youth_use": {"value": 84.8, "unit": "percent of 16-29-year-olds in Luxembourg using social networks", "value_type": "official_country_share"},
+        "mechanism": {"value": "A common European age trend sits on top of national digital-social ecologies: infrastructure, culture, language, platform availability, and use norms can produce different youth participation levels", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat comparison of Member State estimates from the EU ICT household and individual survey.",
+      "uncertainty": "Country differences are descriptive and do not identify the contribution of broadband quality, education, income, language, platform mix, or survey response patterns; they are not causal country rankings.",
+      "subgroup": "People aged 16-29 in EU Member States, with country estimates reported by Eurostat.",
+      "counterinterpretation": "Lower reported use may indicate alternative communication practices, different definitions or survey interpretations, or lower platform participation without lower social connection.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260409-1",
+      "retrieval_hash": "sha256:bf256fb511bdad1f88ff721a924e8982496585fa5098e31b3d7ad733a9fa4d30",
+      "status": "reported"
+    },
+    {
+      "period": "2025; age-country interaction in social-network participation",
+      "denominator": {
+        "value": null,
+        "unit": "Country-level estimates for people aged 16-74 and 16-29; source article reports selected comparisons without pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "largest_age_gap_croatia": {"value": 29.2, "unit": "percentage-point gap between general population and 16-29-year-olds in Croatia", "value_type": "official_country_gap"},
+        "largest_age_gap_austria": {"value": 28.2, "unit": "percentage-point gap between general population and 16-29-year-olds in Austria", "value_type": "official_country_gap"},
+        "largest_age_gap_poland": {"value": 27.2, "unit": "percentage-point gap between general population and 16-29-year-olds in Poland", "value_type": "official_country_gap"},
+        "smallest_age_gap_denmark": {"value": 7.2, "unit": "percentage-point gap between general population and 16-29-year-olds in Denmark", "value_type": "official_country_gap"},
+        "smallest_age_gap_malta": {"value": 10.3, "unit": "percentage-point gap between general population and 16-29-year-olds in Malta", "value_type": "official_country_gap"},
+        "smallest_age_gap_cyprus": {"value": 11.8, "unit": "percentage-point gap between general population and 16-29-year-olds in Cyprus", "value_type": "official_country_gap"},
+        "mechanism": {"value": "The same headline of youth social-network adoption can imply different generational divides: in some countries youth use is an extension of broad population use, while in others it marks a sharper age-specific platform transition", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat age-gap comparison using the same 2025 social-network indicator across EU Member States.",
+      "uncertainty": "The selected country gaps do not explain why age gradients differ and cannot establish a causal relationship between national context and youth adoption.",
+      "subgroup": "Young people aged 16-29 and general population aged 16-74 in selected EU Member States.",
+      "counterinterpretation": "A small age gap can mean older adults also use social networks extensively, not that youth participation is less socially important; a large gap can reflect cohort replacement rather than exclusion.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260409-1",
+      "retrieval_hash": "sha256:bf256fb511bdad1f88ff721a924e8982496585fa5098e31b3d7ad733a9fa4d30",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_ac_i/default/table",
+      "claim": "Eurostat's source dataset provides the underlying social-network-use indicator for EU countries and age groups.",
+      "status": "official-data-archive"
+    },
+    {
+      "source_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Digital_economy_and_society_statistics_-_households_and_individuals",
+      "claim": "Eurostat's digital-economy statistics provide methodological and comparative context for ICT use by households and individuals.",
+      "status": "official-methodology-context"
+    }
+  ],
+  "boundary": "This record adds EU statistical evidence on social-network participation, age gradients, and country variation. It does not measure time spent, platform-specific exposure, content, social connection quality, mental health, political influence, consumer behavior, or causal digital inequality.",
+  "retrieval_hash": "sha256:bf256fb511bdad1f88ff721a924e8982496585fa5098e31b3d7ad733a9fa4d30"
+}

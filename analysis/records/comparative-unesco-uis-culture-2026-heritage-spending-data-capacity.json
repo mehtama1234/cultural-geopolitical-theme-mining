@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-uis-culture-2026-heritage-spending-data-capacity",
+  "title": "Cultural-heritage protection is becoming more measurable, but public investment remains sharply uneven across places",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNESCO Institute for Statistics, Culture 2026 Data Release and SDG 11.4.1 heritage-expenditure indicators",
+  "geography": "Reporting countries and SDG regions, with 2024 or latest available per-capita public expenditure on cultural and natural heritage",
+  "observations": [
+    {
+      "period": "2020-2025 survey cycles; country capacity to report SDG 11.4.1",
+      "denominator": {"value": 92, "unit": "countries in the latest UIS expenditure survey cycle", "value_type": "reported_country_denominator"},
+      "measures": {
+        "initial_cycle": {"value": 30, "unit": "countries responding in the initial 2020 survey cycle", "value_type": "reported_country_count"},
+        "latest_cycle": {"value": 92, "unit": "countries responding in the latest UIS survey cycle", "value_type": "reported_country_count"},
+        "reporting_expansion": {"value": 3.07, "unit": "times as many responding countries as in the initial cycle, approximately", "value_type": "derived_ratio"}
+      },
+      "method": "UIS compilation from the 2025 Survey of Expenditure on Cultural and Natural Heritage, tracking SDG 11.4.1 and its funding, heritage-type, and government-level disaggregations.",
+      "uncertainty": "More reporting improves visibility but does not make the 92-country frame globally complete; country definitions, reference years, price conversions, and missing data affect comparability.",
+      "subgroup": "National and local cultural authorities, heritage institutions, public and private funders, communities, and places whose preservation depends on measurable investment.",
+      "counterinterpretation": "Expanded reporting capacity can reflect statistical improvement rather than more actual investment or stronger preservation outcomes.",
+      "source_url": "https://www.uis.unesco.org/en/news/culture-2026-data-release",
+      "retrieval_hash": "sha256:21b864d6cbe10bb09f44fe4862a94f21cb61e7a4e0a03c72854d70fc6bb642f7",
+      "status": "reported"
+    },
+    {
+      "period": "2024 or latest available year; public expenditure per person on cultural and natural heritage",
+      "denominator": {"value": 1, "unit": "reporting-country public heritage-expenditure frame", "value_type": "cross_country_expenditure_frame"},
+      "measures": {
+        "regional_median": {"value": 93, "unit": "PPP dollars constant 2017 median per person in Europe and Northern America among countries with available data", "value_type": "reported_regional_median"},
+        "country_range": {"value": "under 1 to over 500", "unit": "PPP dollars constant 2017 per person across countries with available data", "value_type": "reported_cross_country_range"},
+        "within_region_range": {"value": "3 to over 500", "unit": "PPP dollars constant 2017 per person within Europe and Northern America", "value_type": "reported_regional_range"}
+      },
+      "method": "UIS comparison of public expenditure on preservation, protection, and conservation of cultural and natural heritage using SDG 11.4.1 data.",
+      "uncertainty": "The data release explicitly advises focusing on trends rather than treating the median as a complete welfare or preservation measure; spending is not equivalent to access, quality, or community control.",
+      "subgroup": "Heritage-dependent communities, cultural and natural heritage sites, public agencies, local governments, and residents facing unequal cultural-resource provision.",
+      "counterinterpretation": "Low per-capita public spending may coexist with private, community, philanthropic, or in-kind preservation efforts that are not captured by this indicator.",
+      "source_url": "https://www.uis.unesco.org/en/news/culture-2026-data-release",
+      "retrieval_hash": "sha256:21b864d6cbe10bb09f44fe4862a94f21cb61e7a4e0a03c72854d70fc6bb642f7",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2024; direction of per-capita public heritage-preservation investment",
+      "denominator": {"value": 1, "unit": "countries with comparable 2021 and 2024 or latest-available expenditure data", "value_type": "comparison_country_frame"},
+      "measures": {
+        "countries_increasing": {"value": 57, "unit": "percent of countries reporting increased investment in 2024 relative to 2021", "value_type": "reported_share"},
+        "countries_decreasing": {"value": 43, "unit": "percent of countries not in the reported increase group, including countries with decreased investment or other movement", "value_type": "residual_share_not_directionally_resolved"},
+        "post_pandemic_pattern": {"value": "contrasting increases and decreases across countries and SDG regions after the COVID-19 pandemic", "unit": "reported trend pattern", "value_type": "reported_assessment"}
+      },
+      "method": "UIS comparison of changes in per-capita public spending on cultural and natural heritage preservation between 2021 and 2024 or latest available years.",
+      "uncertainty": "The source reports the increase share and contrasting regional trends but does not provide a causal explanation for each country's change or a direct measure of preservation outcomes.",
+      "subgroup": "Cultural and natural heritage agencies, local communities, public budgets, tourism and education systems, and places recovering from pandemic-era disruption.",
+      "counterinterpretation": "Higher spending can reflect reconstruction, price changes, emergency repair, or accounting shifts rather than a durable expansion of cultural access or stewardship.",
+      "source_url": "https://www.uis.unesco.org/en/news/culture-2026-data-release",
+      "retrieval_hash": "sha256:21b864d6cbe10bb09f44fe4862a94f21cb61e7a4e0a03c72854d70fc6bb642f7",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; cultural-public-finance measurement and policy visibility",
+      "denominator": {"value": 1, "unit": "SDG 11.4.1 indicator and disaggregation framework", "value_type": "published_indicator_framework"},
+      "measures": {
+        "disaggregations": {"value": "funding source, type of heritage, and level of government", "unit": "available indicator dimensions", "value_type": "reported_measurement_framework"},
+        "policy_use": {"value": "updated national data support monitoring progress toward preserving cultural and natural heritage", "unit": "reported policy use", "value_type": "reported_framework"},
+        "visibility_signal": {"value": "culture becomes a budget and infrastructure question when expenditure is made comparable across places and government levels", "unit": "interpretive synthesis", "value_type": "bounded_inference"}
+      },
+      "method": "The UIS release combines indicator updates, funding and government-level disaggregation, and regional comparison to make cultural-heritage investment more visible in development monitoring.",
+      "uncertainty": "Comparable expenditure indicators reveal resource patterns but do not measure cultural meaning, participation, resilience, heritage condition, or whether communities control decisions.",
+      "subgroup": "Public funders, heritage custodians, cultural workers, Indigenous and local communities, residents, visitors, and future generations relying on preserved cultural and natural assets.",
+      "counterinterpretation": "Standardized indicators can improve accountability while also privileging what is countable and underrepresenting informal care, living heritage, and contested priorities.",
+      "source_url": "https://databrowser.uis.unesco.org/",
+      "retrieval_hash": "sha256:9f038d847e31fc04d5792378c556e115197fb7ee8161992cf2b8ea8226535b20",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://databrowser.uis.unesco.org/", "claim": "UIS data browser for SDG 11.4.1 and cultural statistics."},
+    {"source_url": "https://download.uis.unesco.org/", "claim": "UIS supporting documentation and background information for SDG 11.4.1 statistics."}
+  ],
+  "boundary": "This record adds a cultural-public-finance and measurement-capacity route linking heritage spending, regional inequality, post-pandemic budget direction, data visibility, and public stewardship. It is not a complete global spending census, a measure of heritage condition or cultural participation, respondent-level cultural behavior, causal preservation evaluation, or proof that spending produces equitable access or community control.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO UIS Culture 2026 Data Release and linked UIS data resources were reviewed for the 30-to-92 reporting-country expansion, expenditure range, Europe-and-Northern-America median and internal range, 57% increase share, disaggregations, and trend-versus-level caveat.",
+    "source_url_sha256": "sha256:21b864d6cbe10bb09f44fe4862a94f21cb61e7a4e0a03c72854d70fc6bb642f7",
+    "checked": "2026-09-27"
+  }
+}

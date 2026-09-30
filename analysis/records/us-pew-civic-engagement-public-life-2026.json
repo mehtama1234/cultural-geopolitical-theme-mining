@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-civic-engagement-public-life-2026",
+  "title": "U.S. public life is organized into distinct participation modes rather than a single engaged-disengaged spectrum",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center / Pew-Knight Initiative, How Americans Are Engaged With News, Politics, Religion and Civic Life, July 16, 2026",
+  "geography": "United States; nationally representative adult survey evidence with cluster-defined engagement groups",
+  "observations": [
+    {
+      "period": "July 9–December 5, 2025 survey field period; four engagement groups",
+      "denominator": {"value": 5393, "unit": "U.S. adults in the Cross-Sectional Engagement Survey; group shares exclude respondents not classified into a group", "value_type": "reported_survey_frame"},
+      "measures": {
+        "mobilizers": {"value": 9, "unit": "percent of U.S. adults classified as Mobilizers", "value_type": "reported_share"},
+        "connectors": {"value": 28, "unit": "percent classified as Connectors", "value_type": "reported_share"},
+        "spectators": {"value": 31, "unit": "percent classified as Spectators", "value_type": "reported_share"},
+        "outsiders": {"value": 31, "unit": "percent classified as Outsiders", "value_type": "reported_share"},
+        "mechanism": {"value": "Public participation is multidimensional: attention to news, community and religious involvement, voting, volunteering, donations, and direct political action form different combinations rather than one engagement ladder", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cluster analysis of 19 participation measures, including political activity, civic involvement, religious attendance, and news attention; a second nationally representative panel was assigned to the resulting groups.",
+      "uncertainty": "The groups are descriptive classifications from a one-time survey period that included the 2024 presidential election; they are not stable identities, causal types, or forecasts of future participation.",
+      "subgroup": "U.S. adults, with additional comparisons by age, education, income, party, and engagement behavior.",
+      "counterinterpretation": "A low-activity classification can miss informal care, private discussion, episodic mobilization, or forms of participation not included in the 19 measures.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:670d5069d767b3c4181f319289e6d64ee6524f71f8dae183b0dea1f226853929",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; participation behavior by engagement group",
+      "denominator": {"value": 100, "unit": "percent within each Pew engagement group; reported behavior shares", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "voting": {"value": "87% of Mobilizers and Connectors reported voting in 2024, compared with 49% of Spectators and 41% of Outsiders", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "contacting_official": {"value": "65% of Mobilizers contacted an elected official in the past year, compared with 13% of Connectors, 7% of Spectators, and 3% of Outsiders", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "volunteering": {"value": "77% of Mobilizers volunteered in the past year, compared with 42% of Connectors, 17% of Spectators, and 13% of Outsiders", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "mechanism": {"value": "Voting is much more broadly distributed than repeated collective action or direct institutional contact, so electoral participation alone is a weak proxy for voice, organization, or policy feedback", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted survey estimates of self-reported participation in the preceding year and 2024 election.",
+      "uncertainty": "Behavior is self-reported and the reference period differs across measures; the cross-sectional design cannot establish whether participation patterns persist or cause institutional responsiveness.",
+      "subgroup": "Four cluster-defined engagement groups.",
+      "counterinterpretation": "Low reported contact or volunteering may reflect barriers, distrust, time scarcity, or alternative channels rather than lack of political judgment or concern.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:670d5069d767b3c4181f319289e6d64ee6524f71f8dae183b0dea1f226853929",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; news attention and mediated participation",
+      "denominator": {"value": 100, "unit": "percent within each Pew engagement group", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "national_news": {"value": "95% of Mobilizers and 88% of Connectors follow national news at least somewhat closely, compared with 84% of Spectators and 41% of Outsiders", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "private_vs_public_news": {"value": "Spectators tend to discuss news privately or like posts rather than publicly comment or post; Outsiders show much lower online news attention", "unit": "reported behavioral pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "High information exposure does not automatically become public action: mediated attention can remain private, while public voice depends on organizational and institutional routes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey measures of news following and online news-related behavior cross-tabulated with the engagement clusters.",
+      "uncertainty": "The report does not identify platform algorithms, content quality, causal effects of news exposure, or whether private discussion later converts into action.",
+      "subgroup": "U.S. adults across the four engagement groups.",
+      "counterinterpretation": "Private discussion and low-visibility participation may still shape beliefs, relationships, and later collective action; public posting is not the only meaningful civic behavior.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:670d5069d767b3c4181f319289e6d64ee6524f71f8dae183b0dea1f226853929",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; socioeconomic composition of lower-engagement group",
+      "denominator": {"value": 100, "unit": "percent within Outsiders and all U.S. adults; demographic distribution", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "high_school_or_less": {"value": "48% of Outsiders had a high school diploma or less, compared with 35% of U.S. adults overall", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "lower_income": {"value": "31% of Outsiders were in households earning under $30,000, compared with 20% of U.S. adults overall", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "political_mix": {"value": "Outsiders were fairly evenly split by party and about half described their views as moderate", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Lower civic visibility is partly patterned by material and educational position, but cannot be reduced to partisan alienation or indifference", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted demographic comparisons across the cluster-defined engagement groups.",
+      "uncertainty": "These associations do not identify whether income, education, time, institutional experience, media access, or other factors produce lower engagement.",
+      "subgroup": "Outsiders compared with all U.S. adults; education, income, age, gender, and party measures.",
+      "counterinterpretation": "Some Outsiders voted or attended religious services, showing that a low composite score does not mean complete withdrawal from public life.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:670d5069d767b3c4181f319289e6d64ee6524f71f8dae183b0dea1f226853929",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/politics/2026/06/10/beyond-red-vs-blue-the-political-typology/", "claim": "Complementary Pew typology of underlying political values and coalition structure."},
+    {"source_url": "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-a-sour-mood/", "claim": "Complementary Pew evidence on national mood, institutional trust, and expectations."}
+  ],
+  "boundary": "This record adds a U.S. public-life route from news attention, community and religious participation, voting, volunteering, donations, and direct political action through socioeconomic position and institutional feedback. It uses aggregate survey classifications, not respondent-level files or longitudinal causal analysis; the engagement groups are descriptive and period-specific rather than fixed identities.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew report reviewed for the four engagement groups, participation comparisons, news attention, socioeconomic composition, party mix, methodology, and period limitations.",
+    "source_url_sha256": "sha256:670d5069d767b3c4181f319289e6d64ee6524f71f8dae183b0dea1f226853929",
+    "checked": "2026-09-28"
+  }
+}

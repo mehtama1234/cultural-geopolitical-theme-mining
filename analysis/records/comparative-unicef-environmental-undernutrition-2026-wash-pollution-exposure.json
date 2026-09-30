@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-environmental-undernutrition-2026-wash-pollution-exposure",
+  "title": "Child undernutrition is shaped by environmental exposures and public-service conditions across the first 1,000 days",
+  "theme_ids": ["cost", "energy", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNICEF, Environmental determinants of undernutrition and micronutrient deficiencies in children",
+  "geography": "Global child nutrition and environmental-health framework focused on physical, chemical, biological, climate, and WASH exposures",
+  "observations": [
+    {
+      "period": "First 1,000 days; conception through age two",
+      "denominator": {"value": 1000, "unit": "days from conception to a child's second birthday", "value_type": "early_life_nutrition_frame"},
+      "measures": {
+        "developmental_role": {"value": "nutrition during the first 1,000 days is a core determinant of child survival, physical growth, development, future health, well-being, learning, and earning potential", "unit": "reported life-course mechanism", "value_type": "reported_mechanism"},
+        "intergenerational_role": {"value": "nutrition effects can extend into the next generation", "unit": "reported life-course framework", "value_type": "reported_framework"},
+        "determinant_set": {"value": "children's diets and nutrition are shaped by multiple interacting factors, including environmental conditions", "unit": "reported determinant framework", "value_type": "reported_framework"}
+      },
+      "method": "UNICEF technical brief synthesis of nutrition, environmental-health, WASH, chemical, biological, climate, and early-childhood evidence.",
+      "uncertainty": "The first-1,000-days framework identifies a sensitive period but does not assign a single causal contribution to each environmental or household factor.",
+      "subgroup": "Pregnant people, infants, young children, caregivers, households with limited food or service access, and communities exposed to environmental hazards.",
+      "counterinterpretation": "Later nutrition, healthcare, education, and social supports can improve outcomes even when early exposures were adverse, although recovery may be uneven.",
+      "source_url": "https://www.unicef.org/reports/environmental-determinants-undernutrition-and-micronutrient-deficiencies-children",
+      "retrieval_hash": "sha256:453a1bb527f8f10b87ff0cfedf7dd0cf9c673cd148cbcf1786b1c1be89594ca8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; WASH and child undernutrition",
+      "denominator": {"value": 1, "unit": "global undernutrition cases discussed in the UNICEF environmental-nutrition framework", "value_type": "wash_nutrition_frame"},
+      "measures": {
+        "wash_attribution": {"value": 10, "unit": "percent of undernutrition cases linked to water, sanitation, and hygiene conditions in the cited UNICEF summary", "value_type": "reported_share"},
+        "service_pathway": {"value": "unsafe water, sanitation, and hygiene can contribute to infection and poor nutritional outcomes", "unit": "reported public-health mechanism", "value_type": "reported_mechanism"},
+        "policy_implication": {"value": "nutrition policy requires action beyond food access, including reliable WASH and health services", "unit": "reported policy framework", "value_type": "reported_framework"}
+      },
+      "method": "UNICEF synthesis of WASH and nutrition evidence within an environmental determinants framework.",
+      "uncertainty": "The 10% figure is a cited aggregate estimate and does not identify the contribution of WASH conditions for every country, household, or child; pathways can overlap.",
+      "subgroup": "Children in communities without safe water or sanitation, households facing infectious disease exposure, rural populations, informal settlements, and caregivers managing illness.",
+      "counterinterpretation": "Food quality, maternal health, infection treatment, breastfeeding support, income, and social protection also shape nutrition, so WASH improvements are necessary but not sufficient.",
+      "source_url": "https://www.unicef.org/reports/environmental-determinants-undernutrition-and-micronutrient-deficiencies-children",
+      "retrieval_hash": "sha256:453a1bb527f8f10b87ff0cfedf7dd0cf9c673cd148cbcf1786b1c1be89594ca8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; environmental hazard categories affecting nutrition",
+      "denominator": {"value": 1, "unit": "environmental exposure framework for childhood undernutrition and micronutrient deficiency", "value_type": "environmental_hazard_frame"},
+      "measures": {
+        "physical_hazards": {"value": "heat, radiation, noise, climate, and weather can affect child nutrition and health", "unit": "reported hazard category", "value_type": "reported_framework"},
+        "chemical_hazards": {"value": "pollutants and toxicants can affect nutrition and micronutrient outcomes", "unit": "reported hazard category", "value_type": "reported_mechanism"},
+        "biological_hazards": {"value": "bacteria, viruses, parasites, and vectors can affect infection and nutrition pathways", "unit": "reported hazard category", "value_type": "reported_mechanism"}
+      },
+      "method": "UNICEF technical synthesis organizing environmental determinants into physical, chemical, and biological exposure categories.",
+      "uncertainty": "Exposure, susceptibility, nutritional status, and health outcomes vary by location and timing; the framework does not provide a single global risk estimate for each hazard.",
+      "subgroup": "Young children, pregnant people, children in polluted or climate-exposed settings, communities with weak environmental monitoring, and households with limited protective resources.",
+      "counterinterpretation": "Environmental exposure does not produce the same outcome for every child; nutrition, immunity, healthcare, housing, and social protection can mediate or reduce harm.",
+      "source_url": "https://www.unicef.org/reports/environmental-determinants-undernutrition-and-micronutrient-deficiencies-children",
+      "retrieval_hash": "sha256:453a1bb527f8f10b87ff0cfedf7dd0cf9c673cd148cbcf1786b1c1be89594ca8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; integrated environmental-nutrition response",
+      "denominator": {"value": 1, "unit": "child nutrition, environmental health, and public-service policy frame", "value_type": "integrated_response_frame"},
+      "measures": {
+        "underrecognized_pathway": {"value": "chemical and biological environmental hazards beyond WASH remain under-recognized in nutrition policy", "unit": "reported policy gap", "value_type": "reported_boundary"},
+        "response_set": {"value": "effective responses require coordination across nutrition, WASH, environmental health, primary healthcare, food systems, and surveillance", "unit": "reported policy framework", "value_type": "reported_recommendation"},
+        "equity_condition": {"value": "children with fewer household and public-service buffers face greater exposure and less ability to recover", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNICEF policy synthesis connecting environmental hazards to nutrition programming, public services, surveillance, and equity.",
+      "uncertainty": "The brief sets an integrated policy direction but does not evaluate a specific intervention package, implementation cost, or country-level effect size.",
+      "subgroup": "Nutrition and health agencies, WASH providers, environmental regulators, caregivers, community health workers, and children in hazard-exposed settings.",
+      "counterinterpretation": "Integrated governance can improve prevention but may diffuse accountability; sector-specific action remains necessary where institutional capacity is limited.",
+      "source_url": "https://www.unicef.org/reports/environmental-determinants-undernutrition-and-micronutrient-deficiencies-children",
+      "retrieval_hash": "sha256:453a1bb527f8f10b87ff0cfedf7dd0cf9c673cd148cbcf1786b1c1be89594ca8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/reports/child-survival-dividend", "claim": "UNICEF Child Survival Dividend provides complementary child-survival, health-system, and WASH investment context."},
+    {"source_url": "https://www.unicef.org/reports/childrens-climate-risk-report-2026", "claim": "UNICEF Children's Climate Risk Report 2026 provides complementary climate-hazard and child-service exposure context."}
+  ],
+  "boundary": "This record adds an environmental-nutrition route linking the first 1,000 days, WASH, physical, chemical, and biological hazards, climate, public services, household buffers, and life-course capability. It uses a technical publication-level synthesis, not child-level exposure histories, clinical nutrition records, household food diaries, or causal estimates of any single hazard.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNICEF environmental-nutrition brief was reviewed for first-1,000-days importance, WASH attribution, hazard categories, underrecognized pathways, and integrated response claims.",
+    "source_url_sha256": "sha256:453a1bb527f8f10b87ff0cfedf7dd0cf9c673cd148cbcf1786b1c1be89594ca8",
+    "checked": "2026-09-26"
+  }
+}

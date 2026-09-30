@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-international-idea-global-state-democracy-2026-democracy-conflict",
+  "title": "Democratic stagnation and declining rights are being linked to conflict risk, especially where procedures exist without real competition or enforceable rights",
+  "theme_ids": ["voice", "time", "cost", "work", "energy"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "International IDEA, The Global State of Democracy 2026: Democracy in an Age of Conflict, 15 September 2026",
+  "geography": "Countries assessed through the Global State of Democracy Indices, across regions and levels of democratic performance",
+  "observations": [
+    {
+      "period": "2026; global democratic trends",
+      "denominator": {"value": 1, "unit": "International IDEA Global State of Democracy assessment frame", "value_type": "cross_country_index_frame"},
+      "measures": {
+        "stagnation": {"value": "the report documents democratic stagnation and key declines across election credibility, legislative effectiveness, freedoms of expression and the press, and access to justice", "unit": "reported cross-country pattern", "value_type": "reported_mechanism_set"},
+        "breadth": {"value": "declines affect countries across the spectrum of democratic performance", "unit": "reported geographic pattern", "value_type": "reported_synthesis"},
+        "democratic_route": {"value": "democratic quality is treated as multidimensional institutional capacity rather than the presence of elections alone", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "International IDEA assessment using the latest Global State of Democracy Indices and a dedicated analysis of democracy, conflict, and peace.",
+      "uncertainty": "Index trends summarize country-level indicators and do not establish a single causal pathway from democratic decline to every conflict, rights, or welfare outcome.",
+      "subgroup": "Citizens, voters, legislatures, courts, journalists, civil-society organizations, opposition groups, and governments across assessed countries.",
+      "counterinterpretation": "Institutional decline can be uneven, reversible, or offset by civic action, local governance, constitutional safeguards, or reforms not visible in aggregate trends.",
+      "source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict?lang=en",
+      "retrieval_hash": "sha256:e232d70e138815b9f841cc612a557304c20855a6f4a09915cfde7264c0d044c6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; democracy, rights, and political competition",
+      "denominator": {"value": 1, "unit": "International IDEA democracy-conflict assessment", "value_type": "qualitative_institutional_frame"},
+      "measures": {
+        "procedural_gap": {"value": "countries with some democratic procedures but without real political competition or enforceable rights are identified as a distinct risk context", "unit": "reported institutional pattern", "value_type": "reported_mechanism"},
+        "rights_route": {"value": "political competition, rights enforcement, expression, press freedom, legislative effectiveness, and justice access jointly shape democratic legitimacy", "unit": "reported institutional mechanism set", "value_type": "reported_mechanism_set"},
+        "legitimacy_test": {"value": "the presence of formal institutions is insufficient if citizens cannot use them to contest power or secure rights", "unit": "analytic legitimacy mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "International IDEA comparative democracy assessment and analysis of institutional dimensions associated with conflict.",
+      "uncertainty": "The report’s cross-country relationships do not predict individual political experiences or identify which reform will restore competition and enforceability in each setting.",
+      "subgroup": "Citizens with unequal access to political voice, journalists, opposition parties, courts, minorities, and communities exposed to repression or exclusion.",
+      "counterinterpretation": "Partial democratic procedures may still provide meaningful channels for reform, negotiation, and peaceful contestation even when rights enforcement is weak.",
+      "source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict?lang=en",
+      "retrieval_hash": "sha256:e232d70e138815b9f841cc612a557304c20855a6f4a09915cfde7264c0d044c6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; democratic quality and violent conflict",
+      "denominator": {"value": 1, "unit": "International IDEA democracy-conflict relationship assessment", "value_type": "qualitative_conflict_frame"},
+      "measures": {
+        "conflict_context": {"value": "the report states that violent conflict is more prevalent than at any time in the past 80 years and places the democracy-conflict relationship in renewed focus", "unit": "reported global conflict framing", "value_type": "reported_synthesis"},
+        "association": {"value": "contexts of nondemocracy and democratic decline are associated with more violent conflict in the report’s analysis", "unit": "reported comparative association", "value_type": "reported_association"},
+        "security_route": {"value": "democratic governance quality becomes part of conflict prevention and peace-building infrastructure", "unit": "analytic cross-domain route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "International IDEA comparative analysis of Global State of Democracy indicators alongside interstate and intrastate conflict patterns.",
+      "uncertainty": "Association is not proof that democratic decline causes each conflict; conflict can also erode institutions, and omitted geopolitical, economic, and historical factors matter.",
+      "subgroup": "Conflict-affected populations, political institutions, security actors, civil society, international mediators, and states undergoing democratic regression.",
+      "counterinterpretation": "Some autocratic or hybrid settings may suppress visible conflict temporarily, while democratic competition can itself be destabilizing without institutional safeguards.",
+      "source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict?lang=en",
+      "retrieval_hash": "sha256:e232d70e138815b9f841cc612a557304c20855a6f4a09915cfde7264c0d044c6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; democratic recession and institutional response",
+      "denominator": {"value": 1, "unit": "International IDEA policy and reform frame", "value_type": "qualitative_policy_frame"},
+      "measures": {
+        "recession": {"value": "the report describes a continuing democratic recession and warns that declining governance quality raises concerns about the likelihood of conflict", "unit": "reported institutional trajectory", "value_type": "reported_pattern"},
+        "reform_need": {"value": "reversing negative trends requires attention to credible elections, effective legislatures, expression and press freedoms, justice access, and enforceable rights", "unit": "reported reform set", "value_type": "reported_policy_set"},
+        "open_test": {"value": "connect democracy indicators to actual protection, public-system performance, civic participation, and peace outcomes without treating rankings as destiny", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "International IDEA report synthesis and policy recommendations based on the Global State of Democracy Indices and democracy-conflict analysis.",
+      "uncertainty": "Recommendations do not establish political feasibility, implementation sequence, or distribution of benefits across countries and groups.",
+      "subgroup": "Reformers, political parties, legislatures, courts, media, civic organizations, international organizations, and communities seeking accountable government.",
+      "counterinterpretation": "Institutional reform can be context-specific; external democracy templates may fail without local legitimacy, resources, and security.",
+      "source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict?lang=en",
+      "retrieval_hash": "sha256:e232d70e138815b9f841cc612a557304c20855a6f4a09915cfde7264c0d044c6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/", "claim": "CIVICUS civil-society reporting provides complementary evidence on civic-space pressure and collective resistance."},
+    {"source_url": "https://www.wto.org/english/news_e/news26_e/wtr_15sep26_483_e.htm", "claim": "WTO trade-governance analysis provides complementary institutional and geopolitical cooperation context."}
+  ],
+  "boundary": "This record adds a democracy-to-conflict route from institutional credibility, competition, rights, expression, and justice through legitimacy and peace. It uses comparative index and report analysis, not individual political histories, causal conflict attribution, public-opinion representativeness, or proof that any ranking determines future outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official International IDEA publication page was reviewed for democratic stagnation, indicator declines, cross-performance breadth, democracy-conflict associations, democratic recession, publication date, and reform framing.",
+    "source_url_sha256": "sha256:e232d70e138815b9f841cc612a557304c20855a6f4a09915cfde7264c0d044c6",
+    "checked": "2026-09-26"
+  }
+}

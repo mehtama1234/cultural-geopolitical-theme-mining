@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-what-worries-world-september-2026-public-concerns-direction",
+  "title": "Public concern remains materially grounded while country optimism can move ahead of lived economic satisfaction",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos What Worries the World, September 2026",
+  "geography": "30-country monthly public-opinion survey, around 20,000 adults",
+  "observations": [
+    {
+      "period": "September 2026; monthly global public-attitudes frame",
+      "denominator": {"value": 20000, "unit": "approximately adults surveyed monthly across 30 countries; exact country samples and weighting are not published on the public summary page", "value_type": "published_multi_country_opinion_survey"},
+      "measures": {
+        "survey_scope": {"value": "most important social and political issues, with more than ten years of trend context", "unit": "reported survey scope", "value_type": "reported_scope"},
+        "monthly_comparability": {"value": "September results are interpreted against prior monthly and long-term country and issue trends", "unit": "reported analytical frame", "value_type": "reported_method"},
+        "public_concern_route": {"value": "the study connects economic, health, crime, inequality, corruption, immigration, climate, and political concerns in a common public-attention field", "unit": "reported issue frame", "value_type": "reported_synthesis"}
+      },
+      "method": "Ipsos monthly What Worries the World survey conducted in 30 countries among around 20,000 adults, with more than a decade of repeated waves; the public release provides selected country highlights and says full breakdowns are available on request.",
+      "uncertainty": "The public summary does not provide full questionnaires, country-level denominators, weighting details, or all issue results; cross-country percentages should not be treated as a single globally representative population estimate.",
+      "subgroup": "Adults across 30 countries, with country-specific issue and direction-of-travel differences.",
+      "counterinterpretation": "Monthly concern shifts may reflect salience, news cycles, seasonality, or sampling variation rather than durable changes in material conditions or political behavior.",
+      "source_url": "https://www.ipsos.com/en/what-worries-world?trk=article-ssr-frontend-pulse_little-text-block",
+      "retrieval_hash": "sha256:d0cf06a62dd2b7ffbc32280c4d6b65bd60b9189548d4cef3844bdd4d479d8f8d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; United States healthcare concern",
+      "denominator": {"value": 1, "unit": "U.S. country result within Ipsos What Worries the World September 2026 wave", "value_type": "published_country_highlight"},
+      "measures": {
+        "healthcare_worry": {"value": 28, "unit": "percent of Americans worried about healthcare", "value_type": "reported_share"},
+        "monthly_change": {"value": 4, "unit": "percentage-point increase from August 2026", "value_type": "reported_change"},
+        "interpretive_route": {"value": "healthcare concern appears as a country-specific public priority within the broader cost, health, and institutional-trust field", "unit": "reported analytical implication", "value_type": "reported_synthesis"}
+      },
+      "method": "Ipsos country-level highlight from the September monthly survey; the public page does not publish the U.S. subgroup sample or question wording in full.",
+      "uncertainty": "A single monthly percentage-point movement may reflect event salience or sampling variation and does not establish changes in healthcare access, affordability, or outcomes.",
+      "subgroup": "U.S. adults in the September 2026 Ipsos wave.",
+      "counterinterpretation": "Healthcare worry can rise even when access or coverage improves if expectations, political conflict, prices, or media attention change faster than lived conditions.",
+      "source_url": "https://www.ipsos.com/en/what-worries-world?trk=article-ssr-frontend-pulse_little-text-block",
+      "retrieval_hash": "sha256:d0cf06a62dd2b7ffbc32280c4d6b65bd60b9189548d4cef3844bdd4d479d8f8d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; Argentina unemployment concern",
+      "denominator": {"value": 1, "unit": "Argentina country result within Ipsos What Worries the World September 2026 wave", "value_type": "published_country_highlight"},
+      "measures": {
+        "unemployment_worry": {"value": 61, "unit": "percent in Argentina worried about unemployment", "value_type": "reported_share"},
+        "monthly_change": {"value": 6, "unit": "percentage-point increase from August 2026", "value_type": "reported_change"},
+        "labor_security_route": {"value": "employment concern can act as a bridge between macro conditions, household room, political expectations, and social stability", "unit": "reported analytical implication", "value_type": "reported_synthesis"}
+      },
+      "method": "Ipsos country-level highlight from the September monthly survey; full country sample and trend breakdown are not shown on the public summary page.",
+      "uncertainty": "Worry is not unemployment incidence, job loss, labor-force participation, or income change; the monthly increase does not identify its cause.",
+      "subgroup": "Adults in Argentina participating in the September 2026 opinion wave.",
+      "counterinterpretation": "High unemployment concern can coexist with employment gains if job quality, wages, informality, or future expectations remain weak.",
+      "source_url": "https://www.ipsos.com/en/what-worries-world?trk=article-ssr-frontend-pulse_little-text-block",
+      "retrieval_hash": "sha256:d0cf06a62dd2b7ffbc32280c4d6b65bd60b9189548d4cef3844bdd4d479d8f8d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; Colombia direction-of-travel and lived-economy gap",
+      "denominator": {"value": 1, "unit": "Colombia country result within Ipsos What Worries the World September 2026 wave", "value_type": "published_country_highlight"},
+      "measures": {
+        "right_direction": {"value": 52, "unit": "percent in Colombia saying the country is heading in the right direction", "value_type": "reported_share"},
+        "annual_change": {"value": 16, "unit": "percentage-point increase from a year earlier; 38% global comparison in the Ipsos release", "value_type": "reported_change"},
+        "economy_bad": {"value": "nearly two-thirds", "unit": "share describing Colombia's economy as bad", "value_type": "reported_approximate_share"},
+        "distributed_concerns": {"value": "unemployment 36%; crime 33%; inequality 32%; corruption 31%; healthcare 26%", "unit": "reported country concern shares", "value_type": "reported_share_set"}
+      },
+      "method": "Ipsos country analysis combining direction-of-travel and issue-concern measures; the release interprets optimism as confidence in where the country is going rather than satisfaction with current conditions.",
+      "uncertainty": "The public release is descriptive and does not establish that political transition caused optimism or that optimism will persist; issue shares may overlap because respondents can select multiple concerns.",
+      "subgroup": "Adults in Colombia in the September 2026 Ipsos wave.",
+      "counterinterpretation": "Rising national optimism can provide political room for reform while also increasing the risk of disappointment if visible improvements do not reach employment, security, inequality, corruption, or healthcare concerns.",
+      "source_url": "https://www.ipsos.com/en/what-worries-world?trk=article-ssr-frontend-pulse_little-text-block",
+      "retrieval_hash": "sha256:d0cf06a62dd2b7ffbc32280c4d6b65bd60b9189548d4cef3844bdd4d479d8f8d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/topic/what-worries-world", "claim": "Ipsos historical What Worries the World archive provides monthly and long-term comparison context."},
+    {"source_url": "https://www.edelman.com/trust/2026/trust-barometer", "claim": "Edelman Trust Barometer provides complementary institutional and intergroup trust evidence."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en.html", "claim": "OECD trust survey provides complementary evidence on policy performance, voice, and public-institution trust."}
+  ],
+  "boundary": "This record adds a recurring public-attention route linking healthcare, unemployment, crime, inequality, corruption, economic sentiment, political direction, and the gap between optimism and lived conditions. It uses selected highlights from a monthly Ipsos opinion survey, not administrative outcomes, causal political analysis, full country microdata, or a single globally representative estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos September 2026 What Worries the World page was reviewed for survey frame, repeated-wave method, U.S. healthcare, Argentina unemployment, and Colombia direction/concern highlights and interpretation boundaries.",
+    "source_url_sha256": "sha256:d0cf06a62dd2b7ffbc32280c4d6b65bd60b9189548d4cef3844bdd4d479d8f8d",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-biodiversity-public-opinion-2026-intention-action-consumption",
+  "title": "Biodiversity awareness rises faster than everyday conservation action, creating an intention–capability gap",
+  "theme_ids": ["cost", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Japan Cabinet Office, Public Opinion Survey on Biodiversity, July 2026 survey; preliminary report published 25 September 2026",
+  "geography": "Japan; national public-opinion survey of people aged 18 and over with 3,000 sampled Japanese citizens; preliminary results",
+  "observations": [
+    {
+      "period": "July 30–September 6, 2026; recognition and willingness to act",
+      "denominator": {"value": 3000, "unit": "Japanese citizens aged 18 and over sampled for the national postal survey; preliminary collection rate reported at 50.1% as of August 28", "value_type": "published_survey_sample"},
+      "measures": {
+        "biodiversity_term_knowledge": {"value": 38.3, "unit": "percent saying they know the meaning of biodiversity", "value_type": "published_survey_estimate"},
+        "willing_not_acting": {"value": 42.7, "unit": "percent saying they want to contribute to conservation but have not translated that intention into action", "value_type": "published_survey_estimate"},
+        "not_willing": {"value": 12.0, "unit": "percent saying they do not want to undertake conservation-related actions", "value_type": "published_survey_estimate"},
+        "intention_capability_gap": {"value": "Public recognition and willingness do not automatically become repeated behavior; action may require time, cost, clarity, access, and institutional cues", "unit": "analytic behavior-change mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Japan Cabinet Office national public-opinion survey; the accessible official page identifies the July 2026 survey and preliminary report, while the reported action figures are taken from coverage of the official preliminary release.",
+      "uncertainty": "The results are preliminary, the collection rate is partial as reported, and the survey does not establish which barriers caused non-action or whether stated willingness predicts later behavior.",
+      "subgroup": "Japanese adults aged 18 and over, with detailed cross-tabs and questionnaire excerpts to be interpreted from the official report materials.",
+      "counterinterpretation": "Not acting can reflect prioritization, lack of opportunity, or a belief that individual action has low effect rather than indifference; stated willingness may also be socially desirable.",
+      "source_url": "https://survey.gov-online.go.jp/environment/202609/hutai/r08/r08-seibutsutayousei/",
+      "retrieval_hash": "sha256:6ab584c15f14383f99b7b1675c9b319e7c5fb56e36d1b77498525064c95c7c82",
+      "status": "reported"
+    },
+    {
+      "period": "July 30–September 6, 2026; conservation through consumption and learning",
+      "denominator": {"value": 3000, "unit": "Japanese citizens sampled for the public-opinion survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "low_impact_consumption": {"value": 24.0, "unit": "percent reported already taking conservation-related action through consumption choices such as buying products with lower biodiversity impact", "value_type": "published_survey_estimate"},
+        "learning_nature": {"value": 19.9, "unit": "percent reported learning about nature and biodiversity through outdoor activity or visits to zoos and botanical gardens", "value_type": "published_survey_estimate"},
+        "behavioral_channels": {"value": "The action repertoire includes purchasing, learning, and engagement rather than only volunteering or formal conservation work", "unit": "reported behavioral pattern", "value_type": "reported_mechanism_set"},
+        "consumer_translation": {"value": "Environmental concern enters consumer culture through product choice, but the survey does not show whether labels, prices, availability, or trust make those choices repeatable", "unit": "analytic consumer mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Preliminary public-opinion results as reported from the Cabinet Office survey, with multiple-response action categories.",
+      "uncertainty": "Action categories may overlap, and the accessible preliminary summary does not provide frequency, spending premium, product availability, or verification of actual purchases.",
+      "subgroup": "Japanese adults engaging through consumption, outdoor activity, cultural institutions, and nature learning.",
+      "counterinterpretation": "Reported consumer action may be occasional or symbolic; visits and learning can support durable norms or remain disconnected from habitat-impact decisions.",
+      "source_url": "https://survey.gov-online.go.jp/environment/202609/hutai/r08/r08-seibutsutayousei/",
+      "retrieval_hash": "sha256:6ab584c15f14383f99b7b1675c9b319e7c5fb56e36d1b77498525064c95c7c82",
+      "status": "reported"
+    },
+    {
+      "period": "July 30–September 6, 2026; public problem recognition and policy translation",
+      "denominator": {"value": 3000, "unit": "Japanese citizens sampled for the public-opinion survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "knowledge_growth": {"value": "The 2026 preliminary release is intended to compare public recognition and conservation attitudes with the previous 2022 survey", "unit": "reported longitudinal comparison frame", "value_type": "reported_comparison"},
+        "policy_relevance": {"value": "The Cabinet Office survey is designed to identify public awareness and behavior relevant to biodiversity policy and communication", "unit": "reported policy-use route", "value_type": "reported_policy_route"},
+        "translation_problem": {"value": "The policy challenge shifts from awareness-only communication toward making desired actions legible, affordable, available, and socially reinforced", "unit": "analytic public-systems route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Cabinet Office public-opinion survey with a preliminary report and comparison to the prior survey frame.",
+      "uncertainty": "A longitudinal comparison of awareness does not identify causal effects of campaigns, schooling, product markets, or environmental change; the preliminary report may revise estimates.",
+      "subgroup": "Government, local authorities, consumers, educators, cultural institutions, and residents affected by biodiversity policy.",
+      "counterinterpretation": "More awareness may itself be a meaningful cultural outcome even before behavior changes; policy can also support biodiversity through regulation and infrastructure rather than individual action alone.",
+      "source_url": "https://survey.gov-online.go.jp/environment/202609/hutai/r08/r08-seibutsutayousei/",
+      "retrieval_hash": "sha256:6ab584c15f14383f99b7b1675c9b319e7c5fb56e36d1b77498525064c95c7c82",
+      "status": "reported"
+    },
+    {
+      "period": "July 30–September 6, 2026; barriers to durable participation",
+      "denominator": {"value": 3000, "unit": "Japanese citizens sampled for the public-opinion survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "barrier_set": {"value": "The central open barrier set includes time, cost, knowledge of what to do, trust in claims, access to suitable products or places, and perceived efficacy", "unit": "analytic behavior barrier set", "value_type": "analytic_mechanism_set"},
+        "social_infrastructure": {"value": "Nature-learning venues and low-impact consumption can operate as cultural infrastructure for conservation, but access and repeatability remain unmeasured", "unit": "analytic social-infrastructure route", "value_type": "analytic_mechanism"},
+        "open_test": {"value": "Identify which intervention converts willingness into repeated action without shifting responsibility for structural biodiversity loss onto individual consumers alone", "unit": "research queue", "value_type": "research_queue"}
+      },
+      "method": "Analytic synthesis bounded by the preliminary Cabinet Office survey's awareness, behavior, and policy-use frame.",
+      "uncertainty": "The accessible official page does not expose the full preliminary cross-tab in English, so the barrier set is an open analytic route rather than a measured causal ranking.",
+      "subgroup": "Households, consumers, schools, local communities, nature organizations, and people with unequal time, mobility, and purchasing room.",
+      "counterinterpretation": "Individual action may be limited because institutions and markets have not provided effective options; emphasizing personal behavior can obscure producer, land-use, and regulatory responsibility.",
+      "source_url": "https://survey.gov-online.go.jp/environment/202609/hutai/r08/r08-seibutsutayousei/",
+      "retrieval_hash": "sha256:6ab584c15f14383f99b7b1675c9b319e7c5fb56e36d1b77498525064c95c7c82",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://survey.gov-online.go.jp/", "claim": "Japan Cabinet Office public-opinion survey portal and release index."},
+    {"source_url": "https://news.livedoor.com/article/detail/32409817/", "claim": "Japanese news coverage reporting the preliminary action and consumer-choice figures from the official release."}
+  ],
+  "boundary": "This record adds an environmental-culture route from biodiversity awareness and willingness through consumer choice, learning, action barriers, and public-policy translation. It does not establish realized ecological outcomes, causal campaign effects, durable behavior, or that individual consumer action is sufficient for biodiversity conservation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Cabinet Office survey page reviewed for publication date, survey identity, preliminary-report status, and source materials; action percentages are preserved as reported preliminary figures with a secondary coverage link in related_sources.",
+    "source_url_sha256": "sha256:6ab584c15f14383f99b7b1675c9b319e7c5fb56e36d1b77498525064c95c7c82",
+    "checked": "2026-09-29"
+  }
+}

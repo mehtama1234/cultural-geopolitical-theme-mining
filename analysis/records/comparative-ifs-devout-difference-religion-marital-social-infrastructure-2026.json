@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ifs-devout-difference-religion-marital-social-infrastructure-2026",
+  "title": "Religious practice functions as relational infrastructure for some married couples even as religious participation declines",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Institute for Family Studies, The Devout Difference: Religion, Marital Quality, and Sex Among Americans, September 25, 2026",
+  "geography": "United States; married adults ages 20-54, with General Social Survey trend comparisons",
+  "observations": [
+    {
+      "period": "2026 IFS Religion and Family Survey and General Social Survey comparisons, published September 25, 2026; relational outcomes",
+      "denominator": {"value": null, "unit": "married U.S. adults ages 20-54; comparison groups defined by religious affiliation and attendance; full 2026 survey denominator not stated on the public report summary", "value_type": "not_disclosed"},
+      "measures": {
+        "churchgoing_catholic_happy": {"value": 79, "unit": "percent of churchgoing Catholics reported as very or extremely happily married", "value_type": "published_survey_estimate"},
+        "churchgoing_protestant_happy": {"value": 74, "unit": "percent of churchgoing Protestants reported as very or extremely happily married", "value_type": "published_survey_estimate"},
+        "nonreligious_happy": {"value": 66, "unit": "percent of non-religious husbands and wives reported as very or extremely happily married", "value_type": "published_survey_estimate"},
+        "marital_permanence_odds": {"value": 1.85, "unit": "adjusted odds ratio for high marital satisfaction among respondents endorsing marital permanence, controlling for education, race, age, and sex", "value_type": "reported_adjusted_association"},
+        "relational_infrastructure": {"value": "Among the groups studied, religious attendance, shared norms, and repeated communal practice are associated with stronger reported marital quality.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IFS report combining the 2026 Religion and Family Survey with General Social Survey trend comparisons; the public summary reports adjusted associations but does not provide the full survey sample size on the page reviewed.",
+      "uncertainty": "The estimates are observational and may reflect selection, age, marriage entry, education, social support, family composition, shared values, or other differences between churchgoing and secular couples; they do not establish that attendance causes marital happiness.",
+      "subgroup": "Married U.S. adults ages 20-54, split by Catholic, Protestant, nonreligious, and church-attendance categories.",
+      "counterinterpretation": "People with stronger relationships, more stable family circumstances, or compatible values may be more likely to attend religious services; institutional support may be one pathway among several.",
+      "source_url": "https://ifstudies.org/report-brief/the-devout-difference-religion-marital-quality-and-sex-among-americans",
+      "retrieval_hash": "sha256:d1c16571a6e774da76a14ece3f3bfb2f9162843ea237432581f2e0cd8672059e",
+      "status": "reported"
+    },
+    {
+      "period": "General Social Survey 1972-2024 trend comparison, published September 25, 2026; religious participation and weekly sex",
+      "denominator": {"value": 22014, "unit": "General Social Survey respondents in the report’s longitudinal comparison; married respondents ages 20-54 analyzed by attendance", "value_type": "reported_trend_sample"},
+      "measures": {
+        "frequent_churchgoing_decline": {"value": "49% to 32%", "unit": "reported share attending religious services several times a month or more, 1972 to 2024", "value_type": "published_trend_estimate"},
+        "weekly_sex_churchgoing": {"value": 62, "unit": "percent of regular churchgoing married adults ages 20-54 reporting sex at least weekly in the current comparison", "value_type": "published_trend_estimate"},
+        "weekly_sex_nonreligious": {"value": 48, "unit": "percent of nonreligious married adults ages 20-54 reporting sex at least weekly in the current comparison", "value_type": "published_trend_estimate"},
+        "institutional_shrinkage_persistence": {"value": "Religious participation has declined at the population level while stronger relational outcomes remain concentrated among those who continue to participate regularly.", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Report comparison of General Social Survey historical data with the 2026 IFS Religion and Family Survey; the two sources are not treated as one repeated panel.",
+      "uncertainty": "Cross-period comparisons may reflect changes in wording, age composition, marriage selection, reporting norms, and survey design; weekly sex is self-reported and not a direct measure of relationship wellbeing.",
+      "subgroup": "Married U.S. adults ages 20-54, categorized by religious attendance or affiliation.",
+      "counterinterpretation": "The observed gap may be driven by selection into marriage, religion, or stable partnerships rather than religious practice itself.",
+      "source_url": "https://ifstudies.org/report-brief/the-devout-difference-religion-marital-quality-and-sex-among-americans",
+      "retrieval_hash": "sha256:d1c16571a6e774da76a14ece3f3bfb2f9162843ea237432581f2e0cd8672059e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 IFS Religion and Family Survey, published September 25, 2026; shared practice and sexual satisfaction",
+      "denominator": {"value": null, "unit": "married U.S. adults ages 20-54; full 2026 survey denominator not stated on the public report summary", "value_type": "not_disclosed"},
+      "measures": {
+        "churchgoing_weekly_sex": {"value": 62, "unit": "percent of regular churchgoing spouses reporting weekly sex, compared with 48% among secular spouses", "value_type": "published_survey_estimate"},
+        "churchgoing_sex_satisfaction": {"value": "45%-55% by religious group among churchgoing spouses, versus 35%-40% among comparison groups", "unit": "reported share rating sex life excellent or very good", "value_type": "published_survey_range"},
+        "prayer_satisfaction_odds": {"value": 1.29, "unit": "reported odds ratio for sexual satisfaction among daily-praying Catholic and Protestant respondents versus those not regularly praying", "value_type": "reported_adjusted_association"},
+        "shared_meaning_route": {"value": "The report interprets shared ritual, commitment, and value alignment as possible relational supports, but the design cannot distinguish ritual effects from selection and relationship quality.", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional IFS Religion and Family Survey with reported subgroup comparisons and adjusted odds ratios.",
+      "uncertainty": "The public summary does not provide all questionnaire, sample, weighting, or model details; sexual frequency and satisfaction are self-reports and associations are not causal effects.",
+      "subgroup": "Married Catholic and Protestant spouses, nonreligious comparison groups, and respondents categorized by prayer or church attendance.",
+      "counterinterpretation": "Shared values, marital commitment, age, partner selection, and social support may jointly explain the observed associations.",
+      "source_url": "https://ifstudies.org/report-brief/the-devout-difference-religion-marital-quality-and-sex-among-americans",
+      "retrieval_hash": "sha256:d1c16571a6e774da76a14ece3f3bfb2f9162843ea237432581f2e0cd8672059e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ifstudies.org/report-brief/the-devout-difference-religion-marital-quality-and-sex-among-americans", "claim": "Official IFS report page containing the 2026 Religion and Family Survey findings, GSS comparisons, subgroup results, and reported adjusted associations.", "status": "official-report-page"},
+    {"source_url": "https://www.gss.norc.org/", "claim": "The General Social Survey is the historical survey source used for selected trend comparisons; the IFS report remains the interpretive source for the presented comparison.", "status": "underlying-comparison-source"}
+  ],
+  "boundary": "This record adds a relational-social-infrastructure route: regular religious practice and shared marital norms are associated with higher reported marital quality and sexual satisfaction among the groups studied even as participation declines. It does not establish a causal faith effect, universal religious advantage, or that sexual frequency equals relationship wellbeing. Public report materials do not provide the full 2026 survey sample and model documentation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official IFS report page was reviewed for the report date, survey frame, marital-quality estimates, church-attendance comparisons, GSS trend claims, sexual-satisfaction measures, adjusted associations, and public methodological limits.",
+    "source_page_sha256": "sha256:d1c16571a6e774da76a14ece3f3bfb2f9162843ea237432581f2e0cd8672059e",
+    "checked": "2026-09-28"
+  }
+}

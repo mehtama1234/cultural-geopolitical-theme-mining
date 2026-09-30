@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-deloitte-ficci-india-consumer-trends-2026-ai-governance-commerce",
+  "title": "India's consumer economy is moving toward AI-assisted, transparent, connected commerce where governance and resilient supply chains become part of competitive advantage",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Deloitte India and FICCI, Consumer trends IGNITEing growth and governance",
+  "geography": "India FMCG, retail, and e-commerce sectors",
+  "observations": [
+    {
+      "period": "2026; 2030 projection for India's consumer economy",
+      "denominator": {"value": 1900000000000, "unit": "US dollars; projected size of India's consumer economy by 2030", "value_type": "reported_projection"},
+      "measures": {
+        "consumer_economy": {"value": 1.9, "unit": "trillion US dollars projected consumer-economy size by 2030", "value_type": "reported_projection"},
+        "growth_drivers": {"value": "AI use, resilient operations, connected commerce, differentiated experiences, regulatory predictability, and digital trust", "unit": "reported strategic driver set", "value_type": "reported_interpretation"}
+      },
+      "method": "Deloitte India-FICCI report summary and quoted outlook in the official Deloitte press release; the figure is a projection, not an observed current market size.",
+      "uncertainty": "The public release does not provide the full projection model, scenario assumptions, sector weights, or distributional effects; aggregate market growth does not establish household welfare or equal access.",
+      "subgroup": "Indian consumers, FMCG firms, retailers, e-commerce platforms, brands, regulators, and supply-chain workers.",
+      "counterinterpretation": "A larger consumer economy can coexist with affordability pressure, unequal digital access, labor displacement, concentrated platform power, and environmental costs.",
+      "source_url": "https://www.deloitte.com/in/en/about/press-room/ai-enabled-growth-and-governance-emerge-as-drivers-of-indias-us-1-9-trillion-consumer-economy-deloitte-india-ficci-report.html",
+      "retrieval_hash": "sha256:14eb3fa9a64fe4a2233222958c21024ff0dcd8dd6437a06cfb6553b71f0c6002",
+      "status": "reported"
+    },
+    {
+      "period": "2026; reported consumer decision signals",
+      "denominator": {"value": 1, "unit": "Deloitte India-FICCI consumer-trends report sample and method as described in the public release", "value_type": "not_published_in_release"},
+      "measures": {
+        "nutrition_information_review": {"value": 74, "unit": "percent of consumers reported as reviewing ingredient or nutritional information before purchase", "value_type": "reported_consumer_measure"},
+        "formulation_choice": {"value": 63, "unit": "percent of consumers reported as choosing products based on formulations and ingredients", "value_type": "reported_consumer_measure"},
+        "brand_switching": {"value": 52, "unit": "percent of consumers reported as switching brands for better health and transparency credentials", "value_type": "reported_consumer_measure"}
+      },
+      "method": "Consumer measures reproduced from the official Deloitte press-release summary of the report's six structural trends.",
+      "uncertainty": "The public release does not state sample size, field dates, weighting, question wording, market coverage, or whether responses are representative of India's population; percentages should not be generalized beyond the report's defined sample.",
+      "subgroup": "Consumers making FMCG and related purchase decisions, especially those evaluating health, ingredient, formulation, and transparency claims.",
+      "counterinterpretation": "Stated information-seeking or switching behavior may not become actual purchases when prices, availability, household budgets, habit, or trust in labels constrain choice.",
+      "source_url": "https://www.deloitte.com/in/en/about/press-room/ai-enabled-growth-and-governance-emerge-as-drivers-of-indias-us-1-9-trillion-consumer-economy-deloitte-india-ficci-report.html",
+      "retrieval_hash": "sha256:14eb3fa9a64fe4a2233222958c21024ff0dcd8dd6437a06cfb6553b71f0c6002",
+      "status": "reported"
+    },
+    {
+      "period": "2026; connected commerce and market infrastructure",
+      "denominator": {"value": 1, "unit": "Deloitte India-FICCI structural-trend frame", "value_type": "reported_editorial_frame"},
+      "measures": {
+        "ecommerce_projection": {"value": 260, "unit": "billion US dollars; projected Indian e-commerce market by 2030, approximately", "value_type": "reported_projection"},
+        "quick_commerce_projection": {"value": 50, "unit": "billion US dollars; projected Indian quick-commerce market by 2030", "value_type": "reported_projection"},
+        "commerce_shift": {"value": "Retail, e-commerce, quick commerce, omnichannel, and creator-led ecosystems are blurring channel boundaries for discovery, evaluation, purchase, and fulfilment", "unit": "reported market mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Official Deloitte press-release summary of the report's commerce and channel trends; projections are reported estimates.",
+      "uncertainty": "The release does not specify projection assumptions, definitions of e-commerce or quick commerce, geographic coverage, profitability, worker conditions, or consumer-cost effects.",
+      "subgroup": "Urban and non-urban consumers reached by digital commerce, creators, retailers, delivery workers, brands, logistics firms, and platform operators.",
+      "counterinterpretation": "Convenience and personalization can increase delivery intensity, packaging, surveillance, impulse spending, and dependence on platform-mediated access while leaving offline retail and excluded households behind.",
+      "source_url": "https://www.deloitte.com/in/en/about/press-room/ai-enabled-growth-and-governance-emerge-as-drivers-of-indias-us-1-9-trillion-consumer-economy-deloitte-india-ficci-report.html",
+      "retrieval_hash": "sha256:14eb3fa9a64fe4a2233222958c21024ff0dcd8dd6437a06cfb6553b71f0c6002",
+      "status": "reported"
+    },
+    {
+      "period": "2026; governance, sustainability, and trust in consumer markets",
+      "denominator": {"value": 1, "unit": "Deloitte India-FICCI structural-trend frame", "value_type": "reported_editorial_frame"},
+      "measures": {
+        "sustainability_consideration": {"value": 67, "unit": "percent of consumers reported as considering sustainability in purchase decisions", "value_type": "reported_consumer_measure"},
+        "governance_scope": {"value": "data privacy, AI governance, sustainability, product quality, and consumer protection are described as embedded in business strategy", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "supply_chain_shift": {"value": "Supply chains are described as moving from efficiency optimization toward resilience through intelligent planning, predictive forecasting, and diversified sourcing", "unit": "reported operational transition", "value_type": "reported_transition"}
+      },
+      "method": "Official Deloitte press-release summary of the report's governance, sustainability, and supply-chain findings.",
+      "uncertainty": "The public release does not establish whether reported sustainability consideration changes purchases or emissions, or whether governance commitments produce enforceable consumer remedies and worker protections.",
+      "subgroup": "Consumers, firms, regulators, suppliers, logistics workers, communities exposed to production and delivery systems, and users of data-driven commerce.",
+      "counterinterpretation": "Governance and sustainability can become compliance or marketing layers while costs are passed to consumers, small suppliers, workers, or communities without measurable accountability.",
+      "source_url": "https://www.deloitte.com/in/en/about/press-room/ai-enabled-growth-and-governance-emerge-as-drivers-of-indias-us-1-9-trillion-consumer-economy-deloitte-india-ficci-report.html",
+      "retrieval_hash": "sha256:14eb3fa9a64fe4a2233222958c21024ff0dcd8dd6437a06cfb6553b71f0c6002",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an India consumer-economy signal on AI-assisted discovery, transparency-led choice, connected commerce, resilient supply chains, governance, sustainability, and globalizing Indian brands. It uses the official Deloitte press-release summary of a Deloitte India-FICCI report; it is not a representative national survey, a complete market census, a causal evaluation, or proof that stated consumer preferences become realized purchasing power or improved welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Deloitte India press release reviewed for the projected consumer-economy scale, consumer decision percentages, commerce projections, sustainability measure, AI and supply-chain claims, and governance framing.",
+    "source_url_sha256": "sha256:14eb3fa9a64fe4a2233222958c21024ff0dcd8dd6437a06cfb6553b71f0c6002",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-gender-inclusive-digital-public-infrastructure-2026",
+  "title": "Digital public infrastructure is becoming a gendered access system whose value depends on inclusive design, safeguards, and measurable use",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "UN Women, Co-Develop, and Centre for Digital Public Infrastructure, Making digital public infrastructure work for women and girls: Exemplar stories",
+  "geography": "Global gender-inclusive digital-public-infrastructure examples across financial inclusion, essential services, digital identity, payments, and data exchange",
+  "observations": [
+    {
+      "period": "2026; digital public infrastructure and gender equality",
+      "denominator": {"value": 1, "unit": "UN Women global publication and exemplar-case framework", "value_type": "global_policy_frame"},
+      "measures": {
+        "dpi_infrastructure_role": {"value": "digital public infrastructure is increasingly used to enable financial inclusion and access to essential services", "unit": "UN Women publication synthesis", "value_type": "reported_mechanism"},
+        "gender_gap": {"value": "efforts to use DPI to advance gender equality remain at an early stage", "unit": "UN Women assessment", "value_type": "reported_gap"},
+        "capability_condition": {"value": "DPI can deliver society-wide capabilities only when it responds to the needs and constraints of women and girls", "unit": "UN Women policy framing", "value_type": "reported_condition"},
+        "system_components": {"value": "digital identity, payments, and data exchange are treated as core components of gender-inclusive DPI", "unit": "publication framework", "value_type": "reported_system_set"}
+      },
+      "method": "UN Women, Co-Develop, and CDPI synthesis of exemplar stories and the DPI Safeguards Framework, connecting digital systems with gender equality and service access.",
+      "uncertainty": "The publication is a case-study and policy framework, not a global adoption census, representative user survey, or causal estimate of DPI effects on women and girls.",
+      "subgroup": "Women and girls, people seeking public services, users of digital identity and payments, governments, regulators, donors, technology providers, and civil-society advocates.",
+      "counterinterpretation": "DPI can reduce access friction and expand capability, but digital channels can also create exclusion, surveillance, safety, or dependency risks when alternatives and safeguards are weak.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/making-digital-public-infrastructure-work-for-women-and-girls-exemplar-stories",
+      "retrieval_hash": "sha256:75d858344f7c134e762a4bf34ba47db4a3c896b732cbf5386663c0f315cd6ac6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; life-course access to digital public infrastructure",
+      "denominator": {"value": 1, "unit": "UN Women life-course design framework", "value_type": "life_course_policy_frame"},
+      "measures": {
+        "life_course": {"value": "gender-inclusive DPI should recognize women’s experiences across the life cycle, from birth registration through support in older years", "unit": "UN Women publication framework", "value_type": "reported_framework"},
+        "access_pathways": {"value": "identity, payments, and data exchange can connect people to finance, public services, and rights across different life stages", "unit": "publication synthesis", "value_type": "reported_mechanism"},
+        "design_requirement": {"value": "women’s needs and experiences should shape design, development, deployment, reflection, and review", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "agency_endpoint": {"value": "the intended endpoint is not connection alone but safer, more equitable access to capabilities, resources, and services", "unit": "publication framing", "value_type": "reported_endpoint"}
+      },
+      "method": "Life-course policy framing supported by exemplar stories and the DPI Safeguards Framework.",
+      "uncertainty": "Life-course coverage does not show that one digital architecture meets all needs; age, disability, income, language, geography, documentation, household power, and offline alternatives remain relevant.",
+      "subgroup": "Girls and women at different life stages, older women, people without documentation or stable connectivity, caregivers, and users of identity, payment, and service systems.",
+      "counterinterpretation": "A life-course lens can improve continuity while still requiring human assistance, non-digital routes, privacy protections, and local institutional capacity.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/making-digital-public-infrastructure-work-for-women-and-girls-exemplar-stories",
+      "retrieval_hash": "sha256:75d858344f7c134e762a4bf34ba47db4a3c896b732cbf5386663c0f315cd6ac6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; safeguards, participation, and gendered system risk",
+      "denominator": {"value": 1, "unit": "DPI safeguards and gender-inclusion framework", "value_type": "risk_governance_frame"},
+      "measures": {
+        "safeguard_route": {"value": "gender-inclusive DPI is presented as requiring safeguards that account for women’s experiences and unequal risks", "unit": "UN Women and partner framework", "value_type": "reported_condition"},
+        "co_design": {"value": "women and girls should participate in designing and building systems from the start", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "measurement": {"value": "gender-disaggregated data on awareness, access, use, and impacts are recommended", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "risk_boundary": {"value": "system availability is not equivalent to safe, meaningful, or equitable use", "unit": "publication implication", "value_type": "reported_boundary"}
+      },
+      "method": "Policy and safeguard synthesis across exemplar digital-public-infrastructure initiatives, with attention to design, implementation, use, and review.",
+      "uncertainty": "The publication identifies safeguard requirements and case examples but does not quantify prevalence of harms or establish comparative effects across systems.",
+      "subgroup": "Women and girls with different access, safety, documentation, literacy, disability, income, and connectivity conditions; system designers and public authorities.",
+      "counterinterpretation": "Disaggregated measurement can expose unequal use and improve design, but measurement alone does not create remedy, representation, or institutional accountability.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/making-digital-public-infrastructure-work-for-women-and-girls-exemplar-stories",
+      "retrieval_hash": "sha256:75d858344f7c134e762a4bf34ba47db4a3c896b732cbf5386663c0f315cd6ac6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; recommended public and private implementation routes",
+      "denominator": {"value": 1, "unit": "UN Women gender-inclusive DPI recommendation set", "value_type": "implementation_framework"},
+      "measures": {
+        "investment": {"value": "invest at scale in gender-inclusive DPI to address challenges faced by women and girls", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "co_creation": {"value": "design and build DPI with and by women and girls, including their perspectives across the full system cycle", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "data_feedback": {"value": "collect gender-disaggregated evidence on awareness, access, use, and impacts to guide review and correction", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "actor_set": {"value": "governments, regulators, donors, technology providers, and civil society all have roles in making DPI safer and more equitable", "unit": "publication framework", "value_type": "reported_governance_set"}
+      },
+      "method": "Synthesis of exemplar cases and recommendations for public, private, donor, regulatory, and civil-society actors.",
+      "uncertainty": "The recommendations are not a delivery evaluation or funding audit; implementation depends on procurement, governance, interoperability, privacy, local capacity, and political accountability.",
+      "subgroup": "Women and girls, public-service users, digital-system operators, regulators, donors, technology firms, and civil-society organizations.",
+      "counterinterpretation": "Scaling can widen reach but also scale exclusion or harm; phased deployment, meaningful co-design, safeguards, and correction routes remain necessary.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/making-digital-public-infrastructure-work-for-women-and-girls-exemplar-stories",
+      "retrieval_hash": "sha256:75d858344f7c134e762a4bf34ba47db4a3c896b732cbf5386663c0f315cd6ac6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unwomen.org/en/resources", "claim": "UN Women publication catalogue entry and related 2026 gender-technology resources."},
+    {"source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/unlocking-her-potential-gender-equality-through-equitable-access-to-assistive-technology", "claim": "Related UN Women publication on gendered access to assistive technology."}
+  ],
+  "boundary": "This record adds a gendered digital-public-infrastructure route across identity, payments, data exchange, financial inclusion, essential services, life-course access, safeguards, co-design, and accountability. It uses an exemplar-story and policy framework publication, not a global adoption census, raw user-level data, representative gender-attitudes survey, causal impact evaluation, or proof that DPI delivers equitable outcomes without offline alternatives and remedy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Women publication page reviewed for the DPI role, early-stage gender-equality gap, life-course framing, system components, safeguards, co-design, disaggregated measurement, and three recommendations.",
+    "source_url_sha256": "sha256:75d858344f7c134e762a4bf34ba47db4a3c896b732cbf5386663c0f315cd6ac6",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-community-engagement-arts-2025-26-physical-digital-deprivation",
+  "title": "Arts participation remains broad but physical engagement fell, digital substitution stalled, and deprivation and place shape access",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport, Community and Engagement Survey 2025/26: arts report",
+  "geography": "England; representative survey of people aged 16 and over, with regional, local-authority and demographic breakdowns",
+  "observations": [
+    {
+      "period": "2025/26; annual arts engagement and time series",
+      "denominator": {"value": 175000, "unit": "over 175,000 Community and Engagement Survey responses; headline estimates combine April 2025–March 2026 data from the Participation Survey and CES", "value_type": "large_representative_survey"},
+      "measures": {
+        "overall_engagement": {"value": 84, "unit": "percent of people aged 16+ engaging with the arts at least once in the prior 12 months", "value_type": "published_survey_estimate"},
+        "prior_year": {"value": 91, "unit": "percent engaging with the arts in 2024/25", "value_type": "published_survey_estimate"},
+        "long_run_peak": {"value": 91, "unit": "percent engaging with the arts in 2023/24", "value_type": "published_survey_estimate"},
+        "measurement_boundary": {"value": "the report says it is unclear whether the decline is real or partly due to methodological differences between CES and the Participation Survey", "unit": "official quality caveat", "value_type": "reported_uncertainty"}
+      },
+      "method": "Continuous push-to-web Community and Engagement Survey combined with Participation Survey data for April 2025–March 2026; representative of people aged 16+ in England, with revised commentary updated September 16, 2026.",
+      "uncertainty": "Headline estimates combine survey instruments with different collection periods and question placement; the report explicitly says the apparent decline is under investigation.",
+      "subgroup": "People aged 16 and over in England, with demographic, regional and local-authority breakdowns.",
+      "counterinterpretation": "The 84% estimate may represent measurement discontinuity, changed question context, or sampling composition rather than a comparable collapse in arts participation.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-arts/community-and-engagement-survey-202526-arts-report",
+      "retrieval_hash": "sha256:d3d763076a0c0cbcf0d8b8c83f74e08a29b24dce8697a4aff8d763f724e35c2f",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; physical and digital arts engagement",
+      "denominator": {"value": 175000, "unit": "over 175,000 CES responses; people aged 16+ in England", "value_type": "large_representative_survey"},
+      "measures": {
+        "physical_engagement": {"value": 83, "unit": "percent engaging physically with the arts at least once in the prior 12 months, down from 90% in 2024/25", "value_type": "published_survey_estimate"},
+        "digital_engagement": {"value": 36, "unit": "percent engaging digitally with the arts, broadly stable from 35% in 2024/25", "value_type": "published_survey_estimate"},
+        "both_modes": {"value": 35, "unit": "percent of arts-engaged people engaging both physically and digitally", "value_type": "published_survey_estimate"},
+        "physical_only": {"value": 49, "unit": "percent of arts-engaged people engaging exclusively physically", "value_type": "published_survey_estimate"},
+        "substitution_route": {"value": "digital engagement has not expanded enough to compensate for the apparent physical-engagement decline", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey estimates for physical and digital arts participation using the report's combined 2025/26 data frame.",
+      "uncertainty": "Digital and physical categories are broad and may include different intensities; the combined survey design and question placement limit direct year-over-year interpretation.",
+      "subgroup": "People aged 16+ engaging with arts activities or events physically, digitally, or in both modes.",
+      "counterinterpretation": "Physical and digital engagement may be complementary rather than substitutable; stable digital participation does not show whether content, spending, attention or social connection remained stable.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-arts/community-and-engagement-survey-202526-arts-report",
+      "retrieval_hash": "sha256:d3d763076a0c0cbcf0d8b8c83f74e08a29b24dce8697a4aff8d763f724e35c2f",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; affordability, local place and deprivation",
+      "denominator": {"value": 175000, "unit": "over 175,000 CES responses; subgroup estimates among non-engagers and people aged 16+", "value_type": "large_representative_survey"},
+      "measures": {
+        "physical_cost_barrier": {"value": 25, "unit": "percent of people not physically engaging who report they cannot afford it", "value_type": "published_survey_estimate"},
+        "digital_cost_barrier": {"value": 21, "unit": "percent of people not digitally engaging who report they cannot afford it", "value_type": "published_survey_estimate"},
+        "local_authority_range": {"value": "physical engagement ranged from 94% in Horsham to 69% in Barking and Dagenham", "unit": "published local-authority range", "value_type": "published_geographic_difference"},
+        "deprivation_gap": {"value": "physical engagement was 70% in the most deprived decile versus 91% in the least deprived; digital engagement was 27% versus 41%", "unit": "published area-deprivation comparison", "value_type": "published_geographic_difference"},
+        "access_route": {"value": "cultural participation is shaped by household room and place-based access, not only interest or cultural identity", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Published subgroup, Index of Multiple Deprivation and local-authority comparisons from the CES arts report.",
+      "uncertainty": "Deprivation is an area-level measure, not an individual income measure; local differences combine supply, transport, price, population composition, survey coverage and cultural preference.",
+      "subgroup": "People not engaging with arts, residents of the most and least deprived areas, and residents across English local authorities.",
+      "counterinterpretation": "A geographic participation gap does not identify whether price, venue supply, time, transport, welcome, safety, education or preference is the binding constraint.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-arts/community-and-engagement-survey-202526-arts-report",
+      "retrieval_hash": "sha256:d3d763076a0c0cbcf0d8b8c83f74e08a29b24dce8697a4aff8d763f724e35c2f",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; activity forms, age and socioeconomic sorting",
+      "denominator": {"value": 175000, "unit": "over 175,000 CES responses; people aged 16+ in England", "value_type": "large_representative_survey"},
+      "measures": {
+        "cinema": {"value": 51, "unit": "percent reporting cinema attendance as an arts event", "value_type": "published_survey_estimate"},
+        "reading": {"value": 56, "unit": "percent reporting reading books, graphic novels or magazines as a physical arts activity", "value_type": "published_survey_estimate"},
+        "older_physical_engagement": {"value": "people aged 45 to 84 were generally more likely than the England average to engage physically, while many adults aged 16 to 39 were less likely", "unit": "published age comparison", "value_type": "published_subgroup_pattern"},
+        "socioeconomic_gradient": {"value": "physical engagement ranged from 92% among higher managerial, administrative and professional occupations to 80% in routine and manual occupations and 66% among people who had never worked or were long-term unemployed", "unit": "published socioeconomic comparison", "value_type": "published_subgroup_pattern"},
+        "consumption_route": {"value": "arts participation mixes cultural consumption and creation, with life stage and socioeconomic position shaping the available repertoire", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive demographic and activity-type estimates from the 2025/26 arts report.",
+      "uncertainty": "The estimates are self-reported and do not measure spending, repeat attendance, quality, social outcomes or the meaning of different activities to participants.",
+      "subgroup": "People aged 16+ by age, sex, disability, religion, ethnicity and socioeconomic classification.",
+      "counterinterpretation": "Different engagement rates may reflect activity definitions and life-stage routines rather than a simple hierarchy of cultural access or value.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-arts/community-and-engagement-survey-202526-arts-report",
+      "retrieval_hash": "sha256:d3d763076a0c0cbcf0d8b8c83f74e08a29b24dce8697a4aff8d763f724e35c2f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-arts", "claim": "Official release page with data-table, technical and update context."},
+    {"source_url": "https://www.gov.uk/government/guidance/community-and-engagement-survey-202526", "claim": "CES programme guidance, coverage, pathways and survey design context."}
+  ],
+  "boundary": "This record adds an arts-participation route from household room, place and cultural repertoire through physical and digital engagement, local access, socioeconomic inequality and possible social connection. It is representative England survey evidence with a documented questionnaire and method discontinuity concern, not a causal explanation of participation decline, an attendance register, a spending measure, or a universal account of cultural value.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK arts report reviewed for release update, survey frame, headline and time-series estimates, physical/digital split, barriers, demographic and deprivation gradients, local-authority variation, activity definitions and quality caveats.",
+    "source_url_sha256": "sha256:d3d763076a0c0cbcf0d8b8c83f74e08a29b24dce8697a4aff8d763f724e35c2f",
+    "checked": "2026-09-28"
+  }
+}

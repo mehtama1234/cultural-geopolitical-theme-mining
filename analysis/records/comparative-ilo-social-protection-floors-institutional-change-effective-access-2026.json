@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-social-protection-floors-institutional-change-effective-access-2026",
+  "title": "Social-protection reform shows a measurable gap between legal entitlement and effective access",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "work_control_bargaining"
+  ],
+  "source_unit": "International Labour Organization, ILO Global Flagship Programme on Building Social Protection Floors for All: Report of the second phase (2021-25), 2026",
+  "geography": "50 priority countries across Africa, the Americas, Arab States, Asia and the Pacific, and Europe and Central Asia, with programme-level global results",
+  "observations": [
+    {
+      "period": "2021-2025; people-level impacts of the ILO Global Flagship Programme",
+      "denominator": {"value": 1, "unit": "people affected by programme-supported legal coverage, effective coverage, adequacy, or comprehensiveness changes", "value_type": "reported_programme_impact_frame"},
+      "measures": {
+        "total_impacted": {"value": "84,191,875 people experienced improvements in legal or effective coverage, benefit adequacy, or comprehensiveness during 2021-2025, against an ambition of 60 million", "unit": "people and target", "value_type": "reported_programme_result"},
+        "legal_coverage": {"value": "31.51 million people gained legal coverage, against an ambition of 20 million", "unit": "people", "value_type": "reported_legal_coverage_result"},
+        "effective_coverage": {"value": "23.81 million people gained effective coverage, below the 30 million ambition", "unit": "people", "value_type": "reported_effective_coverage_result"},
+        "adequacy_comprehensiveness": {"value": "28.87 million people experienced more comprehensive or adequate protection, against an ambition of 10 million", "unit": "people", "value_type": "reported_benefit_result"},
+        "mechanism": {"value": "legal entitlement can scale faster than registration, contribution collection, administration, and benefit delivery, creating a measurable de jure-to-de facto protection gap", "unit": "bounded implementation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO programme results monitoring tool and project progress reports tracking legal coverage, effective coverage, benefit adequacy, and comprehensiveness across country interventions.",
+      "uncertainty": "These are programme-attributed results rather than population-wide causal estimates; attribution, baseline comparability, benefit adequacy, duration, and independent verification vary across country projects and result types.",
+      "subgroup": "People previously excluded from social protection, workers in informal economies, migrants and refugees, persons with disabilities, unemployed people, older people, women, and people facing climate or other crises.",
+      "counterinterpretation": "Legal coverage is a necessary foundation and may have value before full implementation; effective coverage can take longer because administrative systems, registration, financing, and delivery need to be built.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-03/9789220432082_INDD_WEB_EN.pdf",
+      "retrieval_hash": "sha256:751478bed9a7e5d3756a668dcad97e2fb7f4e4df621a745e18d98fe8726a0b5b",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; institutional reform pathway across 50 priority countries",
+      "denominator": {"value": 50, "unit": "priority countries in the second phase of the ILO Global Flagship Programme", "value_type": "reported_country_programme_frame"},
+      "measures": {
+        "institutional_results": {"value": "180 institutional-change results were achieved against an ambition of 80", "unit": "institutional results and target", "value_type": "reported_programme_result"},
+        "strategy": {"value": "48 results concerned adoption or reform of national social-protection strategies, against an ambition of 10", "unit": "institutional results", "value_type": "reported_policy_result"},
+        "scheme_design": {"value": "45 results concerned social-protection scheme design or legal reform, against an ambition of 30", "unit": "institutional results", "value_type": "reported_policy_result"},
+        "operations": {"value": "87 results concerned operations, administration, and governance, more than twice the anticipated level", "unit": "institutional results", "value_type": "reported_operational_result"},
+        "mechanism": {"value": "durable coverage depends on a sequence from policy strategy to legal scheme design to operational administration, rather than on a single transfer or announcement", "unit": "bounded institutional-sequencing mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Programme monitoring of institutional results across country support organized around three steps: national strategies, scheme design and reform, and operational or administrative strengthening.",
+      "uncertainty": "Institutional-result counts measure reported change milestones, not automatically sustained funding, service quality, population take-up, or long-term welfare; countries differ in baseline institutions and verification.",
+      "subgroup": "National social-protection ministries, finance authorities, administrators, workers’ and employers’ organizations, civil society, development partners, and beneficiaries dependent on delivery systems.",
+      "counterinterpretation": "Strategy and legal reforms can create coordination and rights foundations even when short-term coverage does not rise; operational improvements may be less visible but more consequential over time.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-03/9789220432082_INDD_WEB_EN.pdf",
+      "retrieval_hash": "sha256:751478bed9a7e5d3756a668dcad97e2fb7f4e4df621a745e18d98fe8726a0b5b",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; crisis-responsive and inclusive social-protection system building",
+      "denominator": {"value": 16, "unit": "thematic areas supported by the ILO Flagship Programme", "value_type": "reported_thematic_programme_frame"},
+      "measures": {
+        "life_cycle": {"value": "the programme integrates health care, maternity, unemployment, disability, old age, and other life-cycle risks through contributory and non-contributory systems", "unit": "reported protection domains", "value_type": "reported_system_scope"},
+        "excluded_groups": {"value": "the programme explicitly targets informal-economy workers, migrants, refugees, host communities, persons with disabilities, and people facing climate-related and other crises", "unit": "reported inclusion priorities", "value_type": "reported_programme_scope"},
+        "partnerships": {"value": "the programme coordinates governments, social partners, development partners, international financial institutions, UN agencies, civil society, academia, and workers’ and employers’ organizations", "unit": "reported partnership architecture", "value_type": "reported_governance_model"},
+        "crisis_catalyst": {"value": "the report presents crisis periods as opportunities to strengthen national ownership and reform, while emphasizing that progress remains incomplete relative to global demand", "unit": "reported policy lesson", "value_type": "reported_programme_lesson"},
+        "mechanism": {"value": "social protection becomes resilient public infrastructure when financing, law, administration, social dialogue, data, and crisis adaptation are treated as one system", "unit": "bounded resilience-and-ownership mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Retrospective programme synthesis across thematic support, country engagement, strategic partnerships, resource mobilization, and results management.",
+      "uncertainty": "The report is a programme retrospective and does not isolate which thematic or partnership intervention caused each outcome; system resilience, inclusion, and crisis effects require longer-term country-level evaluation.",
+      "subgroup": "Workers in informal employment, migrants and refugees, people with disabilities, women, older people, unemployed workers, crisis-affected communities, and institutions responsible for social-protection floors.",
+      "counterinterpretation": "International technical and financial support can strengthen systems but may also create dependency, coordination burden, or reform agendas that outpace domestic political ownership and fiscal capacity.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-03/9789220432082_INDD_WEB_EN.pdf",
+      "retrieval_hash": "sha256:751478bed9a7e5d3756a668dcad97e2fb7f4e4df621a745e18d98fe8726a0b5b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/ilo-global-flagship-programme-building-social-protection-floors-all-report", "claim": "Official ILO publication page with programme scope, date, headline results, target countries, and coverage impact."},
+    {"source_url": "https://doi.org/10.54394/00033173", "claim": "Official DOI for the ILO Global Flagship Programme report."}
+  ],
+  "boundary": "This record adds a legal-entitlement-to-effective-access and institutional-sequencing mechanism to the social-protection findings. It is a programme retrospective, not a population-wide causal evaluation or independent verification of every attributed result; the next test is whether country reforms sustain domestic financing, registration, delivery, adequacy, inclusion, and crisis responsiveness after external programme support changes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO PDF and publication page, 2021-2025 people-level impacts, legal versus effective coverage, benefit adequacy, institutional results, three-step reform pathway, thematic inclusion, partnership architecture, crisis lesson, attribution limits, and programme boundary were reviewed.",
+    "source_url_sha256": "sha256:751478bed9a7e5d3756a668dcad97e2fb7f4e4df621a745e18d98fe8726a0b5b",
+    "checked": "2026-09-29"
+  }
+}

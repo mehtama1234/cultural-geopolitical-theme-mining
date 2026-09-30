@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-working-parents-2026-work-family-childcare-flexibility",
+  "title": "U.S. working families are reorganizing paid work around care, but flexibility and childcare access remain unequal",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "work_control_bargaining", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Pew Research Center survey of U.S. working parents, March 2-15, 2026, with Census Current Population Survey analysis",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025; family work arrangements among different-sex couples with children under 18",
+      "denominator": {"value": 100, "unit": "different-sex couples with children under 18; Census analysis", "value_type": "population_estimate"},
+      "measures": {
+        "two_full_time_working_parents": {"value": 52, "unit": "percent of couples in 2025; 46% in 2015 and 31% in 1975", "value_type": "share"},
+        "dad_full_time_mom_not_employed": {"value": 23, "unit": "percent of couples in 2025; 42% in 1975", "value_type": "share"},
+        "working_parents_not_partnered": {"value": 14, "unit": "percent of working parents neither married nor living with a partner in 2025", "value_type": "share"}
+      },
+      "method": "Pew analysis of U.S. Census Bureau Current Population Survey labor-force data; family arrangement categories are not a longitudinal panel of the same families.",
+      "uncertainty": "The trend describes employment arrangements, not total income, care hours, job quality, household satisfaction, or whether a change was voluntary; different-sex couples are the focus of the historical comparison.",
+      "subgroup": "Different-sex couples with children under 18 and all working parents.",
+      "counterinterpretation": "Two-earner arrangements can expand financial room and agency, while one-earner arrangements can support care, wellbeing, or preference; the employment category alone does not rank family welfare.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/06/16/how-family-work-arrangements-have-changed-over-time/",
+      "retrieval_hash": "sha256:5807a0a53659a9381a7e13e7f66ac74f8a80ce9bb3dc0ba805494de147fd3319",
+      "status": "reported"
+    },
+    {
+      "period": "March 2-15, 2026; employer benefits and flexibility among U.S. working parents",
+      "denominator": {"value": 2242, "unit": "U.S. working parents in Pew American Trends Panel survey; some benefit items condition on non-self-employed parents", "value_type": "survey_sample"},
+      "measures": {
+        "paid_leave_highly_helpful": {"value": 80, "unit": "more than 80% of non-self-employed working parents say paid parental, family, or medical leave is extremely or very helpful", "value_type": "share"},
+        "paid_leave_access": {"value": 50, "unit": "about half of non-self-employed working parents report access", "value_type": "share"},
+        "work_from_home_highly_helpful": {"value": 71, "unit": "percent saying flexibility to work from home is highly helpful", "value_type": "share"},
+        "choose_hours_highly_helpful": {"value": 71, "unit": "percent saying flexibility to choose when to work required hours is highly helpful", "value_type": "share"},
+        "work_from_home_flexibility_access": {"value": 23, "unit": "percent reporting a great deal or fair amount of flexibility to work from home", "value_type": "share"},
+        "onsite_childcare_available": {"value": 6, "unit": "percent reporting onsite childcare available at their workplace", "value_type": "share"}
+      },
+      "method": "Pew survey of 2,242 U.S. working parents; helpfulness and access are separate questions and several benefits condition on non-self-employed respondents.",
+      "uncertainty": "Reported helpfulness is not observed utilization or causal effect; access varies by income, employment status, occupation, and workplace, and the survey is cross-sectional.",
+      "subgroup": "U.S. working parents, with non-self-employed parents for selected employer-benefit items.",
+      "counterinterpretation": "Low access can coexist with informal flexibility, family support, or jobs that do not require remote work; high stated helpfulness does not imply one universal preferred arrangement.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/06/16/how-workplace-benefits-and-flexibility-shape-parents-ability-to-balance-work-and-family/",
+      "retrieval_hash": "sha256:5807a0a53659a9381a7e13e7f66ac74f8a80ce9bb3dc0ba805494de147fd3319",
+      "status": "reported"
+    },
+    {
+      "period": "March 2-15, 2026; childcare access among working parents with a child age 5 or younger",
+      "denominator": {"value": 849, "unit": "working parents with at least one child age 5 or younger asked about childcare", "value_type": "survey_sample"},
+      "measures": {
+        "difficulty_meeting_childcare_cost_expectations": {"value": 48, "unit": "percent saying it is difficult to find care meeting cost expectations", "value_type": "share"},
+        "onsite_childcare_highly_helpful": {"value": 59, "unit": "percent saying onsite workplace childcare would be extremely or very helpful; 68% among working moms", "value_type": "share"},
+        "onsite_childcare_available": {"value": 7, "unit": "percent saying onsite workplace childcare is available", "value_type": "share"},
+        "multiple_care_arrangements": {"value": 39, "unit": "percent using more than one care arrangement for the same child", "value_type": "share"},
+        "difficulty_summer_care_school_age": {"value": 47, "unit": "percent of parents needing care for a child age 6-12 who report difficulty finding summer care", "value_type": "subgroup_share"}
+      },
+      "method": "Pew survey of working parents; childcare findings use conditional age-specific populations and self-reported experiences.",
+      "uncertainty": "The source does not measure care quality, hours, prices, unpaid substitution, or whether multiple arrangements are stable, preferred, or crisis-driven; age groups and question bases differ.",
+      "subgroup": "Working parents with children age 5 or younger, plus parents needing care for children age 6-12 for the school-age measure.",
+      "counterinterpretation": "Multiple arrangements can reflect resilience, desired enrichment, or family preference as well as cost and schedule constraints; employer childcare is only one possible solution.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/06/16/what-are-parents-biggest-challenges-in-finding-childcare/",
+      "retrieval_hash": "sha256:5807a0a53659a9381a7e13e7f66ac74f8a80ce9bb3dc0ba805494de147fd3319",
+      "status": "reported"
+    },
+    {
+      "period": "March 2-15, 2026; division of care and household work in different-sex couples where both parents work full time",
+      "denominator": {"value": 100, "unit": "married or cohabiting different-sex parents with two full-time working parents; survey estimates", "value_type": "conditional_population"},
+      "measures": {
+        "mom_more_day_to_day_parenting": {"value": 52, "unit": "percent saying the mom does more day-to-day parenting; 10% say dad does more and 39% say equal", "value_type": "share"},
+        "mom_more_household_chores": {"value": 43, "unit": "percent saying the mom does more household chores; 17% say dad does more and 40% say equal", "value_type": "share"},
+        "mom_more_likely_unexpected_time_off": {"value": 48, "unit": "percent saying mom would be more likely to take unexpected time off for a sick child or childcare issue", "value_type": "share"},
+        "flexibility_major_factor_time_off": {"value": 70, "unit": "percent saying who has more flexibility at work is a major factor in deciding who takes time off", "value_type": "share"}
+      },
+      "method": "Pew survey estimates; parental perceptions can differ by gender, and the report notes that 68% of moms versus 29% of dads say the mom would be more likely to take time off.",
+      "uncertainty": "These are reported perceptions rather than time diaries or observed leave records; the survey cannot establish why tasks are divided this way or whether flexibility causes the allocation.",
+      "subgroup": "Married or cohabiting different-sex parents with two full-time working parents.",
+      "counterinterpretation": "Households may regard specialization or unequal task division as acceptable or efficient; perceived fairness, care quality, and relationship outcomes are not reducible to equal shares.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/06/16/how-working-parents-divide-family-responsibilities/",
+      "retrieval_hash": "sha256:5807a0a53659a9381a7e13e7f66ac74f8a80ce9bb3dc0ba805494de147fd3319",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-living-arrangements-care-work.htm", "claim": "Federal Reserve SHED supplies complementary U.S. population estimates on paid and unpaid childcare, multigenerational living, and caregiving/employment associations.", "status": "related", "access_boundary": "Pew working-parent survey and SHED use different samples, question frames, and reference periods."},
+    {"source_url": "https://www.bls.gov/tus/", "claim": "American Time Use Survey supplies diary-based time allocation and care-work measurement.", "status": "related", "access_boundary": "Pew perceptions and reported arrangements are not diary minutes or causal time displacement."}
+  ],
+  "boundary": "This record establishes U.S. population and survey observations about family employment arrangements, employer flexibility, childcare access, and reported division of care work. It does not establish causal effects, care quality, total household time, longitudinal family transitions, or political preferences. It is a mechanism-rich U.S. observation that should be triangulated with time-use, labor-market, childcare-cost, and household-finance sources."
+}

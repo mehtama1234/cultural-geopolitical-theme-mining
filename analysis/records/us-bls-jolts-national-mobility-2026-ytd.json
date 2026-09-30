@@ -25,6 +25,31 @@
       "source_url": "https://data.bls.gov/timeseries/JTS000000000000000JOR",
       "retrieval_hash": "sha256:6aa701c1de7884bd3c5bb4162031581a51ad5b2e949bc1a4fc43edfcfb768cc1; sha256:bcf7001c37744df3ece2b96f6056ef82067ca04424024f78f5cf39b76ecf4e40; sha256:1eb5783ba15d29272134f6ffae1529940e080af48243951d1206d9112f144769; sha256:c09bedda69e8d2d19ab7c17f5411f29df57eac921b514301251cc9d29ee3253a; sha256:288e9f8e0938c4e0a2b5bb7819f6f2eb469bc6057e6d0db80bb8764aeec4c845",
       "status": "estimated"
+    },
+    {
+      "period": "August 2026; release published September 29, 2026",
+      "denominator": {"value": null, "unit": "BLS total nonfarm payroll establishments; establishment-level denominator is embedded in published JOLTS rates", "value_type": "not_disclosed"},
+      "measures": {
+        "job_openings_level": {"value": 7079, "unit": "thousand openings, seasonally adjusted", "value_type": "reported_level"},
+        "hires_level": {"value": 5192, "unit": "thousand hires, seasonally adjusted", "value_type": "reported_level"},
+        "total_separations_level": {"value": 5070, "unit": "thousand total separations, seasonally adjusted", "value_type": "reported_level"},
+        "quits_level": {"value": 3100, "unit": "thousand quits, seasonally adjusted; release rounded", "value_type": "reported_level"},
+        "layoffs_and_discharges_level": {"value": 1600, "unit": "thousand layoffs and discharges, seasonally adjusted; release rounded", "value_type": "reported_level"},
+        "job_openings_rate": {"value": 4.3, "unit": "percent of total nonfarm payroll establishments", "value_type": "reported_rate"},
+        "hires_rate": {"value": 3.3, "unit": "percent of total nonfarm payroll establishments", "value_type": "reported_rate"},
+        "total_separations_rate": {"value": 3.2, "unit": "percent of total nonfarm payroll establishments", "value_type": "reported_rate"},
+        "quits_rate": {"value": 1.9, "unit": "percent of total nonfarm payroll establishments", "value_type": "reported_rate"},
+        "layoffs_and_discharges_rate": {"value": 1.0, "unit": "percent of total nonfarm payroll establishments", "value_type": "reported_rate"},
+        "sector_openings_rates": {"value": "health/social assistance 5.4; leisure/hospitality 4.7; accommodation/food 4.7; arts/entertainment/recreation 4.2; government 3.0", "unit": "percent seasonally adjusted establishment rates", "value_type": "reported_sector_rates"},
+        "sector_levels": {"value": "health/social assistance openings 1,359 thousand; leisure/hospitality openings 829 thousand; arts/entertainment/recreation openings 116 thousand; government openings 731 thousand", "unit": "thousand seasonally adjusted openings", "value_type": "reported_sector_levels"}
+      },
+      "method": "Transcribed the September 29, 2026 BLS JOLTS release tables and definitions. Levels are seasonally adjusted thousands; rates use BLS establishment-based denominators. The sector comparison is descriptive and is not a worker-level join to the Census nonemployer record.",
+      "uncertainty": "BLS reports establishments with payroll and excludes proprietors, partners, and unpaid family workers. The release says the August national measures were little changed; levels and rates do not identify unique workers, motivations, job quality, schedule control, pay, household welfare, or cultural meaning. Rounded release levels should not be reverse-engineered into exact counts.",
+      "subgroup": "Total nonfarm payroll establishments, with selected industry contrasts; no worker demographic or occupation subgroup.",
+      "counterinterpretation": "High openings and churn in health/social assistance and leisure/hospitality can reflect seasonal replacement, expansion, staffing difficulty, or sector composition rather than worker agency. Lower government churn does not establish better job quality or security.",
+      "source_url": "https://www.bls.gov/news.release/jolts.htm",
+      "retrieval_hash": "sha256:4a473c23ee8b27e7cb8bb18ffa7026458033d59e4017a14fbda8719330bf7d4c; sha256:a17f814aaa0bcdec8640d83dbf5ba2a6be56c06d021bd7dfa4203926b5c80797; sha256:f11993b3036bd9c8ca06d97ce926dfc482d19ee7927b5f3d03405ae1e9ee3418; sha256:ab61c066bc9597af134ba9428074a4133ee9df92a2e0ce4346133ca34e405277; sha256:89dac64a4e8ad8987c00913230e7720d75bd68237a79ebe10c34472ea507b6c8",
+      "status": "estimated"
     }
   ],
   "related_sources": [

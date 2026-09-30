@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit",
+  "title": "Canadian cost pressure, social connection, and care exit form a linked but non-causal consumer-social pressure pattern",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Mental Health Research Canada, Understanding the Mental Health of Canadians Poll 29: Economic pressures, social connections and care",
+  "geography": "Canada; national online survey of people aged 16 and older",
+  "observations": [
+    {
+      "period": "July 27-August 10, 2026; national cost and household-pressure indicators",
+      "denominator": {"value": 4005, "unit": "online survey respondents aged 16+ in Canada; national results weighted by gender, age, and region", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "cost_of_living_negative_mental_health": {"value": 46, "unit": "percent saying cost of living negatively affects their mental health", "value_type": "weighted_survey_share"},
+        "difficulty_paying_household_bills": {"value": 37, "unit": "percent reporting difficulty fully paying household bills", "value_type": "weighted_survey_share"},
+        "difficulty_affording_stable_housing": {"value": 35, "unit": "percent reporting difficulty affording or maintaining stable housing", "value_type": "weighted_survey_share"},
+        "global_political_events_pressure": {"value": 44, "unit": "percent citing global political events as affecting mental health", "value_type": "weighted_survey_share"},
+        "climate_change_pressure": {"value": 37, "unit": "percent citing climate change as affecting mental health", "value_type": "weighted_survey_share"},
+        "mechanism": {"value": "Material and geopolitical pressure is entering the consumer-social field as perceived mental-health strain, but the survey does not establish a causal route from prices or uncertainty to mental health", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Online national population poll conducted by Pollara Strategic Insights for Mental Health Research Canada; results weighted using recent census data for gender, age, and region; reported margin of error ±1.5 percentage points, 19 times out of 20.",
+      "uncertainty": "This is a sponsor-led cross-sectional online survey, not administrative hardship or clinical data. The measures are self-reported perceptions and cannot establish clinical diagnosis, actual arrears, housing loss, or causal effects.",
+      "subgroup": "People aged 16 and older in Canada, with weighted national estimates and selected higher-need subgroup analyses.",
+      "counterinterpretation": "Respondents may interpret cost, bills, housing, and mental-health impact differently; common causes such as employment, health, debt, household composition, or local prices may generate the correlations.",
+      "source_url": "https://www.mhrc.ca/reports/poll29-22092026",
+      "retrieval_hash": "sha256:bbc1b47a5c078515b388a733a2a06ef12352ae4eaf71d6eaf625e0bd3704a5c5",
+      "status": "reported"
+    },
+    {
+      "period": "July 27-August 10, 2026; social contact, coping, and connection barriers",
+      "denominator": {"value": 4005, "unit": "online survey respondents aged 16+ in Canada; national results weighted by gender, age, and region", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "weekly_family_meaningful_interaction": {"value": 68, "unit": "percent reporting meaningful interactions with family at least weekly", "value_type": "weighted_survey_share"},
+        "weekly_friend_meaningful_interaction": {"value": 57, "unit": "percent reporting meaningful interactions with friends at least weekly", "value_type": "weighted_survey_share"},
+        "weekly_neighbour_meaningful_interaction": {"value": 28, "unit": "percent reporting meaningful interactions with neighbours at least weekly", "value_type": "weighted_survey_share"},
+        "weekly_community_group_meaningful_interaction": {"value": 21, "unit": "percent reporting meaningful interactions with community or organized groups at least weekly", "value_type": "weighted_survey_share"},
+        "connection_barrier_lack_of_time": {"value": 28, "unit": "percent among people with fewer social connections identifying lack of time as a barrier", "value_type": "conditional_survey_share"},
+        "connection_barrier_mental_health": {"value": 24, "unit": "percent among people with fewer social connections identifying mental-health challenges as a barrier", "value_type": "conditional_survey_share"},
+        "self_reliance_coping": {"value": 43, "unit": "percent saying they keep busy or push through on their own when dealing with stress", "value_type": "weighted_survey_share"},
+        "distance_coping": {"value": 42, "unit": "percent saying they take time alone or distance themselves from others when dealing with stress", "value_type": "weighted_survey_share"},
+        "mechanism": {"value": "Connection is strongest in family and friend channels and thinner in neighbourhood and organized-group channels; time scarcity and self-reliance can constrain conversion from household strain into collective support", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the weighted national Poll 29 online survey; connection questions and coping questions use the survey’s reported national or conditional denominators.",
+      "uncertainty": "The survey does not observe contact duration, network quality, geographic isolation, cultural participation, or longitudinal change. Conditional percentages apply only to the relevant subgroup and cannot be compared as general-population prevalence.",
+      "subgroup": "Canadian adults and the conditional subgroup reporting fewer social connections.",
+      "counterinterpretation": "More family or friend contact may not mean more support; solitude can be chosen or protective; associations between connection and happiness or mental health may run in both directions.",
+      "source_url": "https://www.mhrc.ca/reports/poll29-22092026",
+      "retrieval_hash": "sha256:bbc1b47a5c078515b388a733a2a06ef12352ae4eaf71d6eaf625e0bd3704a5c5",
+      "status": "reported"
+    },
+    {
+      "period": "July 27-August 10, 2026; mental-health and substance-use support experience",
+      "denominator": {"value": 4005, "unit": "online survey respondents aged 16+ in Canada; care measures use conditional subgroups who accessed support", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "support_met_most_or_all_needs_past_year": {"value": 65, "unit": "percent among people who accessed mental-health support in the past year saying support met most or all needs", "value_type": "conditional_survey_share"},
+        "support_fully_met_needs_past_year": {"value": 29, "unit": "percent among people who accessed mental-health support in the past year saying needs were fully met", "value_type": "conditional_survey_share"},
+        "ended_care_early_past_five_years": {"value": 52, "unit": "percent among people who accessed mental-health or substance-use support in the past five years saying they ended care earlier than planned or needed", "value_type": "conditional_survey_share"},
+        "severe_anxiety_fully_met": {"value": 14, "unit": "percent among people with severe anxiety symptoms saying care fully met needs", "value_type": "conditional_survey_share"},
+        "severe_anxiety_early_exit": {"value": 72, "unit": "percent among people with severe anxiety symptoms reporting early care exit", "value_type": "conditional_survey_share"},
+        "depression_fully_met": {"value": 17, "unit": "percent among people with moderately severe to severe depression symptoms saying care fully met needs", "value_type": "conditional_survey_share"},
+        "depression_early_exit": {"value": 74, "unit": "percent among people with moderately severe to severe depression symptoms reporting early care exit", "value_type": "conditional_survey_share"},
+        "mechanism": {"value": "Access to care and realized continuity are separate stages: entering support does not imply full need satisfaction or continued engagement, especially among higher-need respondents", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Conditional subgroup estimates from the Poll 29 weighted online survey; the report identifies early-exit reasons including lack of real-world progress, not feeling understood or respected, and unclear goals or expectations.",
+      "uncertainty": "These are self-reported retrospective care experiences, not verified clinical records or outcomes. Conditional denominators differ across support access, symptom severity, and early-exit measures; the survey cannot establish provider causality or treatment effectiveness.",
+      "subgroup": "Canadian respondents who accessed mental-health or substance-use support, including higher-symptom subgroups.",
+      "counterinterpretation": "Ending care early may reflect improvement, cost, scheduling, preference, provider mismatch, access barriers, or survey interpretation; unmet need and service failure should not be treated as identical.",
+      "source_url": "https://www.mhrc.ca/reports/poll29-22092026",
+      "retrieval_hash": "sha256:bbc1b47a5c078515b388a733a2a06ef12352ae4eaf71d6eaf625e0bd3704a5c5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mhrc.ca/reports/poll29-22092026", "claim": "Mental Health Research Canada Poll 29 page with findings, sample, weighting, margin of error, sponsors, and limits."},
+    {"source_url": "https://www.canada.ca/", "claim": "Health Canada is identified by MHRC as a financial supporter of the research."}
+  ],
+  "boundary": "This record adds a Canadian material-pressure, social-connection, and care-continuity layer. It does not establish clinical prevalence, causal effects of cost or connection, verified household hardship, cultural participation, or treatment quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official MHRC Poll 29 page reviewed for cost, housing, bills, social contact, coping, care satisfaction, early exit, symptom-severity subgroup, sample, weighting, sponsor, and non-causal statements.",
+    "report_html_sha256": "sha256:bbc1b47a5c078515b388a733a2a06ef12352ae4eaf71d6eaf625e0bd3704a5c5",
+    "checked": "2026-09-30"
+  }
+}

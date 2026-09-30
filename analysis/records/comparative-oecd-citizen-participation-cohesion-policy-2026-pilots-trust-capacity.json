@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-citizen-participation-cohesion-policy-2026-pilots-trust-capacity",
+  "title": "Citizen participation is moving from consultation rhetoric toward a governance-capacity test: influence requires timing, institutional skill, feedback, and a place in the policy cycle",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction"
+  ],
+  "source_unit": "OECD, Citizen Participation for Better Cohesion Policy: Insights from 11 Pilot Initiatives, OECD Public Governance Reviews, 2026",
+  "geography": "Eleven local-authority and civil-society participation pilots across seven European Union countries: Belgium, France, Italy, Poland, Romania, the Slovak Republic, and Spain",
+  "observations": [
+    {
+      "period": "2025-2026; 11 pilot initiatives in EU Cohesion Policy",
+      "denominator": {"value": 11, "unit": "pilot initiatives across regions and cities", "value_type": "reported_pilot_frame"},
+      "measures": {
+        "country_coverage": {"value": 7, "unit": "EU countries represented in the pilots", "value_type": "reported_country_count"},
+        "participation_methods": {"value": "representative deliberative processes, multistakeholder forums, a student assembly, ideathons, consultations, budget processes, civic monitoring, and capacity-building", "unit": "pilot-method portfolio", "value_type": "reported_method_mix"},
+        "policy_cycle_reach": {"value": "pilots operated at different stages of the cohesion-policy cycle and across transport, culture access, territorial development, and intergenerational fairness", "unit": "reported policy coverage", "value_type": "reported_policy_scope"}
+      },
+      "method": "Comparative OECD and European Commission review of 11 participation experiments implemented with local authorities and civil-society organizations.",
+      "uncertainty": "The pilots are purposive experiments rather than a representative sample of all European participation processes; reported lessons may depend on local political, administrative, and civil-society conditions.",
+      "subgroup": "Residents, students, civil-society organizations, local authorities, managing authorities, experts, stakeholders, and groups targeted by specific participation designs.",
+      "counterinterpretation": "A broad toolbox does not mean every method is inclusive, deliberative, or influential; participation quality depends on recruitment, accessibility, facilitation, power, and decision timing.",
+      "source_url": "https://www.oecd.org/en/publications/citizen-participation-for-better-cohesion-policy_6b66cff6-en.html",
+      "retrieval_hash": "sha256:abc8d4203382e01ec18da6ed54e324e67f6d64a9114057f34dddae7ee03b9070",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; participation, policy quality, and trust",
+      "denominator": {"value": 11, "unit": "pilot initiatives reviewed by OECD", "value_type": "reported_pilot_frame"},
+      "measures": {
+        "problem_detection": {"value": "participation helped local authorities identify problems, bottlenecks, inefficiencies, and blind spots", "unit": "report synthesis", "value_type": "reported_governance_mechanism"},
+        "policy_relevance": {"value": "citizen inputs could improve the accuracy and pertinence of policies and services by surfacing everyday experience", "unit": "report synthesis", "value_type": "reported_policy_mechanism"},
+        "trust_legitimacy": {"value": "well-designed participation can strengthen trust and legitimacy when contributions connect to decisions", "unit": "report synthesis", "value_type": "reported_legitimacy_route"}
+      },
+      "method": "Cross-pilot synthesis of implementation experiences, outputs, policy links, and institutional lessons.",
+      "uncertainty": "The report describes mechanisms and observed pilot lessons rather than a randomized estimate of trust or policy-quality effects.",
+      "subgroup": "Citizens as users of infrastructure and services, public officials, local governments, community organizations, and groups whose needs are often missed by administrative systems.",
+      "counterinterpretation": "Participation can reveal problems without producing resources or action; improved process legitimacy does not guarantee policy effectiveness or equitable outcomes.",
+      "source_url": "https://www.oecd.org/en/publications/citizen-participation-for-better-cohesion-policy_6b66cff6-en.html",
+      "retrieval_hash": "sha256:abc8d4203382e01ec18da6ed54e324e67f6d64a9114057f34dddae7ee03b9070",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; timing and institutionalization of participation",
+      "denominator": {"value": 11, "unit": "pilot initiatives and their policy-cycle interfaces", "value_type": "reported_implementation_frame"},
+      "measures": {
+        "policy_timing": {"value": "existing procedures and timelines sometimes left too little space for meaningful participation, causing contributions to arrive too late to shape key choices", "unit": "report finding", "value_type": "reported_timing_failure"},
+        "institutionalization": {"value": "participation remains insufficiently integrated into the Cohesion Policy cycle", "unit": "report finding", "value_type": "reported_institutional_gap"},
+        "close_the_loop": {"value": "feedback to participants and the wider public was used as a mechanism to connect participation to policy impact", "unit": "report implementation route", "value_type": "reported_feedback_route"}
+      },
+      "method": "Pilot-level comparison of process design, participation timing, feedback mechanisms, and policy-cycle integration.",
+      "uncertainty": "The finding is about institutional process compatibility; it does not prove that earlier participation alone changes final allocations or public trust.",
+      "subgroup": "Participants whose time and effort are solicited, civil-society intermediaries, local officials managing deadlines, and residents affected by late or non-binding input.",
+      "counterinterpretation": "Late participation can still improve implementation or reveal delivery problems; formal integration can also make participation procedural if decision authority remains unchanged.",
+      "source_url": "https://www.oecd.org/en/publications/citizen-participation-for-better-cohesion-policy_6b66cff6-en.html",
+      "retrieval_hash": "sha256:abc8d4203382e01ec18da6ed54e324e67f6d64a9114057f34dddae7ee03b9070",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; institutional capacity and inclusive participation",
+      "denominator": {"value": 11, "unit": "pilot initiatives and participating local authorities", "value_type": "reported_capacity_frame"},
+      "measures": {
+        "capacity_need": {"value": "governments should strengthen legal and policy frameworks, institutional arrangements, and the capacity to design and implement participation", "unit": "report recommendation", "value_type": "reported_capacity_route"},
+        "coordination": {"value": "vertical and horizontal coordination is required to embed participation across policy levels and organizations", "unit": "report recommendation", "value_type": "reported_coordination_route"},
+        "disadvantaged_groups": {"value": "meaningful participation requires better involvement of disadvantaged groups and targeted approaches where appropriate", "unit": "report recommendation", "value_type": "reported_inclusion_route"},
+        "mainstreaming": {"value": "the report recommends moving from experimentation toward embedded capacity within managing authorities", "unit": "report recommendation", "value_type": "reported_institutionalization_route"}
+      },
+      "method": "Synthesis of implementation lessons and recommendations from OECD-European Commission participation pilots.",
+      "uncertainty": "Recommendations are not evidence that every authority has the resources, mandate, legitimacy, or staff skills to mainstream participation.",
+      "subgroup": "Managing authorities, local governments, civil-society organizations, disadvantaged groups, participants with limited time or access, and communities affected by cohesion investments.",
+      "counterinterpretation": "Mainstreaming can increase administrative burden or normalize a single participation model; local experimentation and community autonomy may remain necessary.",
+      "source_url": "https://www.oecd.org/en/publications/citizen-participation-for-better-cohesion-policy_6b66cff6-en.html",
+      "retrieval_hash": "sha256:abc8d4203382e01ec18da6ed54e324e67f6d64a9114057f34dddae7ee03b9070",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/6b66cff6-en", "claim": "OECD DOI and official publication citation."},
+    {"source_url": "https://www.oecd.org/en/about/programmes/dg-regio/with-citizen-for-effective-cohesion-policy.html", "claim": "OECD-DG REGIO project context and institutionalization route."}
+  ],
+  "boundary": "This record adds a citizen-participation, cultural-access, local-governance, institutional-capacity, trust, and policy-cycle route. It uses public pilot synthesis, not respondent-level ingestion, a representative population survey, a randomized causal estimate of participation, proof of equal inclusion, or proof that recommendations were implemented and produced durable social outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page reviewed for pilot count, country coverage, participation methods, policy-cycle reach, problem detection, trust and legitimacy mechanisms, timing failures, feedback, capacity, coordination, inclusion, and mainstreaming recommendations.",
+    "source_url_sha256": "sha256:abc8d4203382e01ec18da6ed54e324e67f6d64a9114057f34dddae7ee03b9070",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-generative-ai-use-age-purpose-2025",
+  "title": "Generative-AI use is widespread among younger EU internet users but much less common among older adults and remains purpose-specific",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Eurostat Digitalisation in Europe 2026 interactive publication, 2025 EU ICT usage by individuals",
+  "geography": "European Union; individuals aged 16-74 who used the internet in the previous three months",
+  "observations": [
+    {
+      "period": "2025; generative-AI use by age among EU internet users",
+      "denominator": {"value": 1, "unit": "EU internet users aged 16-74 who used the internet in the previous three months; Eurostat comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "genai_use_total": {"value": 35, "unit": "percent of EU internet users using generative-AI tools", "value_type": "reported_share"},
+        "genai_use_age_16_24": {"value": 65, "unit": "percent among internet users ages 16-24", "value_type": "reported_share"},
+        "genai_use_age_25_54": {"value": 40, "unit": "percent among internet users ages 25-54", "value_type": "reported_share"},
+        "genai_use_age_55_74": {"value": 14, "unit": "percent among internet users ages 55-74", "value_type": "reported_share"},
+        "age_gradient": {"value": 51, "unit": "percentage-point gap between ages 16-24 and 55-74", "value_type": "calculated_difference_from_published_shares"},
+        "mechanism": {"value": "Generative AI is entering everyday life through a steep age-differentiated access and familiarity gradient, so aggregate adoption can conceal unequal ability to use AI for information, work, learning, entertainment, or household tasks", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat synthesis of the 2025 EU survey on ICT usage in households and by individuals; percentages refer to internet users aged 16-74 using generative-AI tools for any reported purpose.",
+      "uncertainty": "The publication is a harmonized comparative statistical summary, not respondent-level longitudinal evidence. Use does not establish frequency, quality, skill, trust, work outcomes, cultural effects, or whether AI substitutes for or complements human relationships and services.",
+      "subgroup": "EU internet users aged 16-74, disaggregated by age group.",
+      "counterinterpretation": "Lower reported use among older adults may reflect task needs, access, device availability, confidence, privacy preferences, language, or survey interpretation rather than an inability or lack of interest.",
+      "source_url": "https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2026",
+      "retrieval_hash": "sha256:67f00743d50d7e429b11fd5f23b69947d96b068a6f2d4ed3557ae6a106be8be3",
+      "status": "reported"
+    },
+    {
+      "period": "2025; purpose of generative-AI use among EU internet users",
+      "denominator": {"value": 1, "unit": "EU internet users aged 16-74 who used the internet in the previous three months; Eurostat comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "genai_private_purpose": {"value": 27, "unit": "percent using generative AI for private purposes", "value_type": "reported_share"},
+        "genai_professional_purpose": {"value": 16, "unit": "percent using generative AI for professional purposes", "value_type": "reported_share"},
+        "genai_education_purpose": {"value": 10, "unit": "percent using generative AI as a formal education aid", "value_type": "reported_share"},
+        "purpose_pattern": {"value": "private use is more common than professional use, which is more common than formal education use", "unit": "reported purpose ordering", "value_type": "reported_distribution"},
+        "country_range": {"value": "overall use reached 49% in Greece, Estonia, and Denmark and was 19% in Romania, 22% in Italy, and 25% in Poland", "unit": "reported country comparison", "value_type": "reported_distribution"},
+        "mechanism": {"value": "AI adoption is not one behavior: private experimentation, work use, and formal learning have different incentives, risks, gatekeepers, and possible consequences for attention, labor, education, and consumer decision-making", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat 2025 ICT-use statistics summarized in the Digitalisation in Europe 2026 publication; purpose categories are reported as shares of EU internet users and are not mutually exclusive.",
+      "uncertainty": "Purpose shares can overlap and do not measure intensity, task completion, accuracy, cost, substitution, worker control, educational attainment, or consumer welfare. Country comparisons remain descriptive and may reflect language, infrastructure, policy, age structure, and survey response differences.",
+      "subgroup": "EU internet users aged 16-74 using generative-AI tools for private, professional, or formal educational purposes.",
+      "counterinterpretation": "Higher private use does not mean AI is primarily recreational; users may classify mixed household, work, or learning activities differently, and low formal-education use may reflect institutional rules rather than low educational relevance.",
+      "source_url": "https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2026",
+      "retrieval_hash": "sha256:67f00743d50d7e429b11fd5f23b69947d96b068a6f2d4ed3557ae6a106be8be3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/web/products-statistical-reports/w/ks-01-26-009", "claim": "Eurostat 2026 statistical report on AI use among EU enterprises and citizens and the underlying official statistical context."},
+    {"source_url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/33472.pdf", "claim": "Eurostat digital-economy statistical background, including the 2025 household and individual ICT survey and generative-AI adoption framing."}
+  ],
+  "boundary": "This record adds a harmonized EU population-level AI-adoption, age-gradient, purpose, and country-comparison layer. It does not establish trust, capability, productivity, displacement, cultural influence, educational outcomes, consumer welfare, or causal social change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat Digitalisation in Europe 2026 interactive publication retrieved; 2025 generative-AI use totals, age groups, use purposes, country comparisons, and denominator framing reviewed.",
+    "html_sha256": "sha256:67f00743d50d7e429b11fd5f23b69947d96b068a6f2d4ed3557ae6a106be8be3",
+    "checked": "2026-09-30"
+  }
+}

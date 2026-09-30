@@ -1,0 +1,291 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-norway-ssb-immigrant-cultural-use-2025-library-museum-concert-gap",
+  "title": "Norway's immigrant-background cultural participation is institutionally uneven: libraries and museums are strong while concerts and theatre lag",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Statistics Norway, Cultural use by people with an immigrant background 2025",
+  "geography": "Norway; immigrants and Norwegian-born people with two immigrant parents aged 9 and older",
+  "observations": [
+    {
+      "period": "2025 cultural participation survey; immigrant-background subgroup",
+      "denominator": {
+        "value": 1331,
+        "unit": "completed interviews among a gross sample of 2,991 people with an immigrant background aged 9 or older; response rate 44.5 percent",
+        "value_type": "official_subgroup_sample"
+      },
+      "measures": {
+        "library_visit": {
+          "value": 60,
+          "unit": "percent visiting a public library during the prior year",
+          "value_type": "official_survey_share"
+        },
+        "cinema_visit": {
+          "value": 58,
+          "unit": "percent visiting a cinema during the prior year",
+          "value_type": "official_survey_share"
+        },
+        "museum_visit": {
+          "value": 53,
+          "unit": "percent visiting a museum during the prior year, up from 48 percent in 2023",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "The same population can be highly engaged with public-access institutions while showing weaker participation in selected ticketed or event-based forms",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway's representative cultural-participation survey of people with an immigrant background, with a separate comparison to the total-population Cultural Barometer.",
+      "uncertainty": "These are cross-sectional self-reports; the report does not identify household income, ticket prices, travel time, language, venue supply, or individual transitions from one institution to another.",
+      "subgroup": "Immigrants and Norwegian-born people with two immigrant parents, aged 9 or older; the subgroup is not equivalent to all foreign-born residents or all ethnic-minority residents.",
+      "counterinterpretation": "Library and museum participation may reflect free or publicly supported access, school and family pathways, or local supply rather than a general preference for those institutions over concerts or theatre.",
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/cultural-use-by-people-with-an-immigrant-background-2025",
+      "retrieval_hash": "sha256:2a096da16d58b6ee6e8d3d094d66f8593c8f4fd7f05f8ff887630bc3aae48df2",
+      "status": "reported"
+    },
+    {
+      "period": "2025 cultural participation survey; immigrant-background versus total-population pattern",
+      "denominator": {
+        "value": 1331,
+        "unit": "completed immigrant-background interviews; published comparisons use the separate total-population Cultural Barometer as comparator",
+        "value_type": "official_subgroup_sample"
+      },
+      "measures": {
+        "similar_participation": {
+          "value": "cinema, ballet/dance, festivals, art exhibitions, and opera were attended to a similar extent by people with an immigrant background and the total population",
+          "unit": "reported comparative pattern",
+          "value_type": "official_comparison"
+        },
+        "lower_participation": {
+          "value": "the immigrant-background group had a lower share attending theatre performances and concerts than the total population",
+          "unit": "reported comparative pattern",
+          "value_type": "official_comparison"
+        },
+        "higher_participation": {
+          "value": "the immigrant-background group visited public libraries and museums more often and attended religious or life-stance meetings more often than the total population",
+          "unit": "reported comparative pattern",
+          "value_type": "official_comparison"
+        },
+        "mechanism": {
+          "value": "Cultural inclusion is venue-specific and cannot be reduced to a single assimilation or exclusion score",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway comparison of 2025 immigrant-background survey estimates with the total-population Cultural Barometer.",
+      "uncertainty": "The English release summarizes several comparisons without publishing all corresponding point estimates; no causal explanation or adjustment for age, education, income, geography, or household composition is supplied in the release.",
+      "subgroup": "Immigrants and Norwegian-born people with two immigrant parents compared with the total Norwegian survey population.",
+      "counterinterpretation": "Observed venue differences may be compositional or opportunity-driven; they do not show cultural preference, discrimination, or institutional quality by themselves.",
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/cultural-use-by-people-with-an-immigrant-background-2025",
+      "retrieval_hash": "sha256:2a096da16d58b6ee6e8d3d094d66f8593c8f4fd7f05f8ff887630bc3aae48df2",
+      "status": "reported"
+    },
+    {
+      "period": "2025 cultural participation survey; desired additional participation and barriers",
+      "denominator": {
+        "value": 1331,
+        "unit": "completed immigrant-background interviews; desire shares refer to the relevant activity questions",
+        "value_type": "official_subgroup_sample"
+      },
+      "measures": {
+        "want_more_cinema": {
+          "value": 62,
+          "unit": "percent wanting to attend cinema more frequently",
+          "value_type": "official_survey_share"
+        },
+        "want_more_concerts": {
+          "value": 61,
+          "unit": "percent wanting to attend concerts more frequently",
+          "value_type": "official_survey_share"
+        },
+        "want_more_museums_theatre": {
+          "value": "just over half",
+          "unit": "reported share wanting to visit museums and theatres more frequently",
+          "value_type": "official_survey_phrase"
+        },
+        "barriers": {
+          "value": "lack of time, financial reasons, and lack of an interesting selection were the recurring barriers; younger people more often reported time, adults more often money and selection, and older people more often health",
+          "unit": "reported barrier pattern",
+          "value_type": "official_survey_finding"
+        },
+        "mechanism": {
+          "value": "High desired participation coexists with practical constraints that vary by life stage, so observed attendance is not a clean measure of cultural interest",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway survey questions on desired additional cultural participation and reasons for not participating more frequently.",
+      "uncertainty": "The release does not provide full barrier percentages, event prices, travel time, or evidence that stated desire later converted into attendance.",
+      "subgroup": "Respondents with an immigrant background who answered the relevant participation and desire questions; estimates are not causal effects.",
+      "counterinterpretation": "Stated desire may include aspirational or socially desirable responses, and an 'interesting selection' barrier may reflect supply mismatch rather than affordability or exclusion.",
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/cultural-use-by-people-with-an-immigrant-background-2025",
+      "retrieval_hash": "sha256:2a096da16d58b6ee6e8d3d094d66f8593c8f4fd7f05f8ff887630bc3aae48df2",
+      "status": "reported"
+    },
+    {
+      "period": "2025 StatBank table 14638; age-specific barriers for cinema and concerts",
+      "denominator": {
+        "value": 1331,
+        "unit": "completed immigrant-background interviews; StatBank publishes percentages by age and activity among respondents reporting the relevant reason question",
+        "value_type": "official_subgroup_sample"
+      },
+      "measures": {
+        "cinema_financial_by_age": {
+          "value": {"9-15": 18, "16-24": 42, "25-44": 42, "45-66": 29, "67+": 10},
+          "unit": "percent reporting financial reason for not attending cinema more frequently, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "cinema_time_by_age": {
+          "value": {"9-15": 45, "16-24": 47, "25-44": 47, "45-66": 42, "67+": 12},
+          "unit": "percent reporting lack of time for not attending cinema more frequently, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "concert_financial_by_age": {
+          "value": {"9-15": 27, "16-24": 44, "25-44": 41, "45-66": 36, "67+": 14},
+          "unit": "percent reporting financial reason for not attending concerts more frequently, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "concert_time_by_age": {
+          "value": {"9-15": 27, "16-24": 28, "25-44": 47, "45-66": 48, "67+": 21},
+          "unit": "percent reporting lack of time for not attending concerts more frequently, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "mechanism": {
+          "value": "The barrier mix changes by life stage: time peaks for working-age concert audiences, while financial barriers are highest among ages 16-44; age-specific access cannot be inferred from a single national barrier average",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway StatBank table 14638, queried for both sexes, 2025, cinema and concert activities, and financial/time reasons across five age groups.",
+      "uncertainty": "These are percentages for selected reasons and activities, not mutually exclusive barriers or causal effects; the table does not show income, ticket prices, travel time, household composition, or the number of people in each age-by-activity question base.",
+      "subgroup": "People with an immigrant background aged 9-15, 16-24, 25-44, 45-66, and 67 years or older; the 9+ subgroup definition follows Statistics Norway.",
+      "counterinterpretation": "Age differences may reflect life-stage schedules, school or family mediation, health, venue supply, or question interpretation rather than a direct price or time effect.",
+      "source_url": "https://data.ssb.no/api/v0/en/table/14638",
+      "retrieval_hash": "sha256:6ca9d81e51dc972bc5a122131ae72d978367af70c199fd47a579fb7ff2a7ae57",
+      "status": "reported"
+    },
+    {
+      "period": "2025 StatBank table 14637; age-specific realized cultural use",
+      "denominator": {
+        "value": 1331,
+        "unit": "completed immigrant-background interviews; StatBank publishes annual participation shares by age and activity",
+        "value_type": "official_subgroup_sample"
+      },
+      "measures": {
+        "cinema_use_by_age": {
+          "value": {"9-15": 83, "16-24": 76, "25-44": 58, "45-66": 48, "67+": 38},
+          "unit": "percent visiting a cinema in the prior 12 months, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "library_use_by_age": {
+          "value": {"9-15": 79, "16-24": 66, "25-44": 66, "45-66": 47, "67+": 51},
+          "unit": "percent visiting a public library in the prior 12 months, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "concert_use_by_age": {
+          "value": {"9-15": 45, "16-24": 43, "25-44": 40, "45-66": 46, "67+": 45},
+          "unit": "percent attending a concert in the prior 12 months, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "theatre_use_by_age": {
+          "value": {"9-15": 64, "16-24": 30, "25-44": 22, "45-66": 23, "67+": 30},
+          "unit": "percent attending theatre, musical, or revue in the prior 12 months, by age",
+          "value_type": "official_subgroup_estimate"
+        },
+        "mechanism": {
+          "value": "Age-specific realized use does not mirror barriers one-for-one: cinema and theatre are strongly age-graded, while concert participation is comparatively flat despite age-varying financial and time constraints",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway StatBank table 14637, queried for both sexes, 2025, selected cultural activities, and six age categories.",
+      "uncertainty": "These are cross-sectional annual participation shares; they do not show visit frequency, price, venue supply, transport, household resources, or the causal pathway from a reported barrier to non-use.",
+      "subgroup": "People with an immigrant background aged 9-15, 16-24, 25-44, 45-66, and 67 years or older.",
+      "counterinterpretation": "Age gradients may reflect education, family mediation, cohort tastes, local supply, health, or survey response composition rather than life-stage affordability or time pressure alone.",
+      "source_url": "https://data.ssb.no/api/v0/en/table/14637",
+      "retrieval_hash": "sha256:700020384d9c7e59b39f914a229e352991e8410ea25db8a9934e71f1f42c44bf",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025 StatBank table 14637; immigrant-background recovery and venue divergence",
+      "denominator": {
+        "value": 1331,
+        "unit": "2025 completed immigrant-background interviews; table supplies comparable published shares for the 2021, 2023, and 2025 waves",
+        "value_type": "official_subgroup_sample"
+      },
+      "measures": {
+        "cinema_series": {
+          "value": {"2021": 39, "2023": 62, "2025": 58},
+          "unit": "percent visiting cinema in prior 12 months",
+          "value_type": "official_time_series"
+        },
+        "library_series": {
+          "value": {"2021": 47, "2023": 59, "2025": 60},
+          "unit": "percent visiting public library in prior 12 months",
+          "value_type": "official_time_series"
+        },
+        "museum_series": {
+          "value": {"2021": 27, "2023": 48, "2025": 53},
+          "unit": "percent visiting museum in prior 12 months",
+          "value_type": "official_time_series"
+        },
+        "concert_series": {
+          "value": {"2021": 15, "2023": 44, "2025": 43},
+          "unit": "percent attending concert in prior 12 months",
+          "value_type": "official_time_series"
+        },
+        "theatre_series": {
+          "value": {"2021": 11, "2023": 27, "2025": 28},
+          "unit": "percent attending theatre, musical, or revue in prior 12 months",
+          "value_type": "official_time_series"
+        },
+        "mechanism": {
+          "value": "Recovery after 2021 was broad but not identical: libraries and museums continued rising through 2025, while cinema and concerts eased after 2023 and theatre remained much lower than the other venues",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway StatBank table 14637, queried for both sexes, all ages, selected activities, and the 2021, 2023, and 2025 survey years.",
+      "uncertainty": "These are repeated cross-sectional estimates, not a panel; changes may reflect restrictions, questionnaire conditions, venue supply, cohort composition, or sampling variation, and they do not establish individual persistence or causal recovery.",
+      "subgroup": "People with an immigrant background aged 9 or older; the subgroup sample and survey context are documented by Statistics Norway.",
+      "counterinterpretation": "The post-2021 increases may largely represent reopening and normalization rather than a durable cultural transformation; the 2025 easing in cinema and concerts may be ordinary year-to-year variation.",
+      "source_url": "https://data.ssb.no/api/v0/en/table/14637",
+      "retrieval_hash": "sha256:c2f9aa636a251a9911254bd39cd807aa94e70259b7101b49c2d11d49acf074b5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ssb.no/en/statbank1/list/kulturbar/",
+      "claim": "Statistics Norway's StatBank lists tables 14636-14638 for immigrant-background cultural participation, subgroup use, and barriers from 2021 through 2025.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://data.ssb.no/api/v0/en/table/14638",
+      "claim": "StatBank table 14638 provides official 2025 age-specific percentages for financial and time barriers by cultural activity among people with an immigrant background.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://data.ssb.no/api/v0/en/table/14637",
+      "claim": "StatBank table 14637 provides official 2025 age-specific participation shares and average visits by cultural activity among people with an immigrant background.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/norwegian-cultural-barometer-2025",
+      "claim": "The companion total-population Cultural Barometer supplies the comparison population and repeated cultural-participation context.",
+      "status": "official-comparator"
+    }
+  ],
+  "boundary": "This record adds subgroup-specific cultural participation, unmet demand, and barrier evidence from Norway. It does not establish assimilation, discrimination, causal access barriers, cultural preference, household welfare, or individual-level persistence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Norway's English report page, linked 2025 immigrant-background report, and StatBank cultural-barometer table index were reviewed for the sample, subgroup definition, participation comparisons, desired-use shares, barriers, and available machine-readable tables.",
+    "checked": "2026-09-30"
+  }
+}

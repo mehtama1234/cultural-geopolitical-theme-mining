@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-trust-2026-political-voice-responsiveness-barriers",
+  "title": "People distinguish having a vote from having an effective say when governments appear unresponsive",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "platforms_data_attention"
+  ],
+  "source_unit": "OECD Survey on Drivers of Trust in Public Institutions 2026 Results, Chapter 6: Political voice, barriers to participation and implications for trust in government",
+  "geography": "33 OECD countries and 5 OECD accession candidate countries participating in the 2025 Trust Survey, with OECD and accession-country averages reported separately",
+  "observations": [
+    {
+      "period": "2025 OECD Trust Survey; perceived influence and political voice",
+      "denominator": {"value": 38, "unit": "OECD and OECD accession candidate country contexts covered by the chapter; country averages are weighted and the OECD aggregate is an unweighted average of country averages", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "voting_influence": {"value": 68, "unit": "percent average across OECD countries viewing voting in elections as moderately or significantly influential on government decisions", "value_type": "reported_average_share"},
+        "system_allows_say": {"value": 31, "unit": "percent average across OECD countries confident that the political system allows people like them to have a say", "value_type": "reported_average_share"},
+        "own_participation_confidence": {"value": 40, "unit": "approximately percent average across OECD countries confident in their own ability to participate in politics", "value_type": "reported_average_share"},
+        "mechanism": {"value": "Voting can retain procedural legitimacy while failing to create a broader sense of effective voice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD cross-national survey synthesis using weighted country estimates and unweighted averages of country averages; chapter analyzes perceived influence, participation, and trust.",
+      "uncertainty": "Country averages conceal within-country inequality and the aggregate is not a respondent-level pooled estimate; perceived influence is not observed policy responsiveness or actual political power.",
+      "subgroup": "Adults across participating OECD and OECD accession candidate countries; country and socioeconomic comparisons are reported where available.",
+      "counterinterpretation": "People may value voting as a meaningful accountability route even while demanding additional forms of voice; low perceived influence does not necessarily imply nonparticipation or democratic rejection.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/political-voice-barriers-to-participation-and-implications-for-trust-in-government_08533950.html",
+      "retrieval_hash": "sha256:8a6707600185ee3f7948c42f7a4470b36f2daea24da146fe6218ba50c7f3acad",
+      "status": "reported"
+    },
+    {
+      "period": "2025 OECD Trust Survey; forms and frequency of participation",
+      "denominator": {"value": 38, "unit": "OECD and OECD accession country comparison frame; country averages are weighted and OECD aggregate is an unweighted average of country averages", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "voted_last_national_election": {"value": 79, "unit": "percent average reporting voting in the last national election", "value_type": "reported_average_share"},
+        "voted_any_election_last_year": {"value": 44, "unit": "percent average reporting voting in any municipal, regional, or national election in the prior 12 months", "value_type": "reported_average_share"},
+        "petition": {"value": 23, "unit": "percent average reporting signing a petition in the prior year", "value_type": "reported_average_share"},
+        "political_social_post": {"value": 15, "unit": "percent average reporting posting political content on social media in the prior year", "value_type": "reported_average_share"},
+        "public_consultation": {"value": 8, "unit": "percent average reporting participation in a public consultation in the prior year", "value_type": "reported_average_share"},
+        "mechanism": {"value": "Low-barrier symbolic or expressive actions are more common than time-intensive direct engagement with officials or policymaking", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD Trust Survey self-reported participation measures summarized as cross-national averages.",
+      "uncertainty": "Voting may be overreported through recall or social desirability, and participation opportunities differ by country; frequency does not establish influence or representativeness.",
+      "subgroup": "Adults across OECD and accession-country contexts; activity rates are aggregate comparisons rather than a common individual participation sequence.",
+      "counterinterpretation": "Petitions, social posts, boycotts, and volunteering can have real political effects outside formal consultation, while low reported consultation participation may reflect limited opportunities rather than apathy.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/political-voice-barriers-to-participation-and-implications-for-trust-in-government_08533950.html",
+      "retrieval_hash": "sha256:8a6707600185ee3f7948c42f7a4470b36f2daea24da146fe6218ba50c7f3acad",
+      "status": "reported"
+    },
+    {
+      "period": "2025 OECD Trust Survey; perceived effectiveness of participation channels",
+      "denominator": {"value": 38, "unit": "OECD and OECD accession country comparison frame", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "public_consultation_influence": {"value": 39, "unit": "percent average across OECD countries viewing public consultation as moderately or significantly influential on government decisions", "value_type": "reported_average_share"},
+        "townhall_influence": {"value": 35, "unit": "percent average viewing townhall participation as moderately or significantly influential", "value_type": "reported_average_share"},
+        "government_adopt_consultation_opinions": {"value": 32, "unit": "percent average finding it likely that government would adopt opinions expressed in a public consultation", "value_type": "reported_average_share"},
+        "officials_do_not_care": {"value": 40, "unit": "percent average saying elected officials do not care about what people like them want", "value_type": "reported_average_share"},
+        "mechanism": {"value": "The perceived responsiveness of officials matters more for trust than the mere existence of engagement opportunities", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD survey analysis of perceived impact of participation channels, expected policy adoption, and barriers to having a say.",
+      "uncertainty": "The results are associational perceptions; the survey does not observe consultation quality, government decisions, or whether opinions were actually incorporated.",
+      "subgroup": "Adults across OECD and accession-country contexts, with country-level variation in perceived responsiveness and participation channels.",
+      "counterinterpretation": "A consultation can have delayed, indirect, or agenda-setting effects that respondents cannot observe; low perceived impact may reflect communication failure rather than no institutional response.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/political-voice-barriers-to-participation-and-implications-for-trust-in-government_08533950.html",
+      "retrieval_hash": "sha256:8a6707600185ee3f7948a42f7a4470b36f2daea24da146fe6218ba50c7f3acad",
+      "status": "reported"
+    },
+    {
+      "period": "2025 OECD Trust Survey; socioeconomic barriers to political voice",
+      "denominator": {"value": 38, "unit": "OECD and OECD accession country comparison frame; subgroup comparisons by financial concern, income, and sex", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "no_time_barrier": {"value": 21, "unit": "percent average identifying lack of time as a barrier to having a say", "value_type": "reported_average_share"},
+        "no_money_barrier": {"value": 19, "unit": "percent average identifying insufficient money as a barrier", "value_type": "reported_average_share"},
+        "distance_barrier": {"value": 18, "unit": "percent average identifying geographic distance from decision-making sites as a barrier", "value_type": "reported_average_share"},
+        "low_income_officials_do_not_care": {"value": 43, "unit": "percent of low-income individuals reporting that elected officials do not care about people like them", "value_type": "reported_subgroup_share"},
+        "higher_income_officials_do_not_care": {"value": 35, "unit": "percent of higher-income individuals reporting the same barrier", "value_type": "reported_subgroup_share"},
+        "women_officials_do_not_care": {"value": 44, "unit": "percent of women reporting that officials do not take their needs into account", "value_type": "reported_subgroup_share"},
+        "men_officials_do_not_care": {"value": 36, "unit": "percent of men reporting the same barrier", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Material constraints and perceived indifference combine: unequal political voice is both a resource problem and a recognition problem", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD subgroup analysis linking financial concern, income, sex, and perceived barriers to political influence.",
+      "uncertainty": "Income and sex differences are descriptive associations; the data do not establish whether money, time, geography, discrimination, information, or official behavior produces the perception gap.",
+      "subgroup": "Individuals reporting financial concerns, lower versus higher income, and women versus men across participating countries.",
+      "counterinterpretation": "People with lower resources may have different expectations or exposure to government decisions; perceived official indifference may reflect actual policy conflict as well as communication.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/political-voice-barriers-to-participation-and-implications-for-trust-in-government_08533950.html",
+      "retrieval_hash": "sha256:8a6707600185ee3f7948a42f7a4470b36f2daea24da146fe6218ba50c7f3acad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report.html", "claim": "Full OECD 2026 Trust Survey report and related chapters on institutional trust."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2024-results_9dd3cb22-en.html", "claim": "Prior OECD trust survey release for comparison with earlier waves."}
+  ],
+  "boundary": "This record adds a comparative route from participation and material barriers through perceived responsiveness, political voice, and institutional trust. It preserves country-average, survey, perception, cross-sectional, and non-causal boundaries: it does not measure actual policy influence, consultation quality, individual political trajectories, or a universal causal effect of participation on trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD chapter was reviewed for the 2025 Trust Survey country frame, participation rates, perceived influence, responsiveness barriers, socioeconomic differences, and trust implications.",
+    "source_url_sha256": "sha256:8a6707600185ee3f7948a42f7a4470b36f2daea24da146fe6218ba50c7f3acad",
+    "checked": "2026-09-28"
+  }
+}

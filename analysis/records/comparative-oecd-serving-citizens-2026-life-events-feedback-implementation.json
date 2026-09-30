@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-serving-citizens-2026-life-events-feedback-implementation",
+  "title": "Public trust is built through everyday administrative encounters, but human-centred service strategies often stop before integration and feedback-driven improvement",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "OECD, Serving Citizens 2026: Delivering Better Public Administrative Services",
+  "geography": "OECD and partner countries, with government survey data collected in late 2024 and reported for the status as of November 2024",
+  "observations": [
+    {
+      "period": "2024; public administrative-service experience and institutional interface",
+      "denominator": {"value": 1, "unit": "OECD cross-country public administrative service framework", "value_type": "institutional_service_frame"},
+      "measures": {
+        "service_role": {"value": "Administrative services include obtaining identity documents, registering births or deaths, registering to vote, requesting benefits, and applying for permits or licences", "unit": "reported service scope", "value_type": "reported_scope"},
+        "trust_route": {"value": "The quality of administrative-service encounters affects access to programmes, exercise of rights, and perceptions of public institutions", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "user_satisfaction": {"value": "About two-thirds of recent users in most OECD countries report satisfaction with their experience", "unit": "reported cross-country user share", "value_type": "reported_share"}
+      },
+      "method": "OECD review and original government survey of human-centred public administrative service management and delivery, supplemented by country practices and service-user framing.",
+      "uncertainty": "The report describes administrative systems and reported user experience; satisfaction is not a direct measure of access, equity, service quality, or causal trust formation, and the survey captures government-side implementation status rather than a common citizen panel.",
+      "subgroup": "People using benefits, identity, voting, licensing, registration, and other administrative services, including people navigating major life events.",
+      "counterinterpretation": "Moderately high satisfaction can coexist with exclusion, burdens, or low-quality outcomes for people who never reach the service or face more complex needs.",
+      "source_url": "https://www.oecd.org/en/publications/serving-citizens-2026_ecaa9c7e-en.html",
+      "retrieval_hash": "sha256:94b297f5c8aa4cbd0e693b547949f560022dae91915aa6763dd1550d109c6822",
+      "status": "reported"
+    },
+    {
+      "period": "2024; strategy and implementation capacity",
+      "denominator": {"value": 30, "unit": "OECD countries in the report's cross-country government survey frame", "value_type": "reported_country_count"},
+      "measures": {
+        "reform_strategy": {"value": 87, "unit": "percent of OECD countries with a government-wide strategy addressing public administrative-service improvement", "value_type": "reported_share"},
+        "human_centre": {"value": "Almost all strategies include objectives to make services human-centred", "unit": "reported strategy pattern", "value_type": "reported_pattern"},
+        "implementation_gap": {"value": "Many strategies lack clear implementation plans, cost estimates, capacity analysis, and robust monitoring and evaluation arrangements", "unit": "reported institutional gap", "value_type": "reported_gap"},
+        "life_events": {"value": 77, "unit": "percent of OECD countries that have begun designing or delivering services around life events", "value_type": "reported_share"}
+      },
+      "method": "Government questionnaire and comparative assessment of public administrative-service strategies, implementation arrangements, and life-event delivery practices.",
+      "uncertainty": "A strategy or life-event initiative indicates institutional intent or partial implementation, not integrated service receipt, reduced administrative burden, or better outcomes for all users.",
+      "subgroup": "Central and subnational public administrations, service designers, people navigating home moves, births, deaths, voting, benefits, permits, and other cross-agency events.",
+      "counterinterpretation": "Formal strategies can provide a necessary coordination baseline even when costed plans or shared data are still incomplete; implementation may also vary by service and government level.",
+      "source_url": "https://www.oecd.org/en/publications/serving-citizens-2026_ecaa9c7e-en.html",
+      "retrieval_hash": "sha256:94b297f5c8aa4cbd0e693b547949f560022dae91915aa6763dd1550d109c6822",
+      "status": "reported"
+    },
+    {
+      "period": "2024; integrated life-event services and data sharing",
+      "denominator": {"value": 30, "unit": "OECD countries and common life-event cases in the report's comparison", "value_type": "reported_country_case_frame"},
+      "measures": {
+        "integrated_cases": {"value": 20, "unit": "percent of common life-event cases supported by integrated services across public agencies", "value_type": "reported_share"},
+        "website_guidance": {"value": 40, "unit": "percent of life-event cases where guidance is grouped on a website but agencies do not share data", "value_type": "reported_share"},
+        "not_started": {"value": 40, "unit": "percent of life-event cases where integration has not started", "value_type": "reported_share"},
+        "coordination": {"value": "Among 22 countries implementing a life-events approach, 14 report coordination between relevant agencies to share user data", "unit": "reported country count", "value_type": "reported_count"}
+      },
+      "method": "Comparative review of nine common life events across 30 OECD countries, distinguishing integrated services, grouped information, and cases where integration has not begun.",
+      "uncertainty": "The reported cases are not a ranking of countries by service depth, and data sharing can create privacy, security, legal, and exclusion risks if governance and user control are weak.",
+      "subgroup": "People managing multi-agency life events, especially those with limited time, mobility, digital access, language access, or administrative capacity.",
+      "counterinterpretation": "Not every administrative process benefits from a life-event approach; some separation can protect privacy, accountability, or professional specialization.",
+      "source_url": "https://www.oecd.org/en/publications/serving-citizens-2026_ecaa9c7e-en/full-report/seamless-and-accessible-services_8ec5683a.html",
+      "retrieval_hash": "sha256:94b297f5c8aa4cbd0e693b547949f560022dae91915aa6763dd1550d109c6822",
+      "status": "reported"
+    },
+    {
+      "period": "2024; user feedback, performance data, and policy learning",
+      "denominator": {"value": 31, "unit": "countries in the report's public administrative-service measurement frame", "value_type": "reported_country_count"},
+      "measures": {
+        "user_surveys": {"value": 94, "unit": "percent of countries running user surveys about service experience and problems", "value_type": "reported_share"},
+        "performance_targets": {"value": 74, "unit": "percent of countries setting and tracking performance targets for service-delivering agencies", "value_type": "reported_share"},
+        "improvement_use": {"value": 55, "unit": "percent of countries using user feedback or performance data to improve services", "value_type": "reported_share"},
+        "policy_use": {"value": 45, "unit": "percent of countries using user feedback or performance data to shape policy", "value_type": "reported_share"}
+      },
+      "method": "OECD government survey of user-feedback collection, service-performance targets, data use, public communication, and policy learning.",
+      "uncertainty": "Country-reported data-use practices do not establish the quality, representativeness, timeliness, or actual influence of feedback, nor whether data use improves user outcomes.",
+      "subgroup": "Service users, frontline staff, public managers, policy designers, and groups whose experiences may be missing from surveys or administrative data.",
+      "counterinterpretation": "Collecting and publishing feedback can improve transparency even when it is not yet routinely connected to service redesign or policy decisions.",
+      "source_url": "https://www.oecd.org/en/publications/serving-citizens-2026_ecaa9c7e-en/full-report/measurement-engagement-improvement_4c2ee558.html",
+      "retrieval_hash": "sha256:94b297f5c8aa4cbd0e693b547949f560022dae91915aa6763dd1550d109c6822",
+      "status": "reported"
+    },
+    {
+      "period": "2025; subgroup satisfaction and possible non-use exclusion",
+      "denominator": {"value": 34, "unit": "OECD countries in the 2025 OECD Trust Survey public-administrative-service comparison", "value_type": "reported_country_count"},
+      "measures": {
+        "recent_user_satisfaction": {"value": 68, "unit": "percent of recent public-administrative-service users satisfied across 34 OECD countries", "value_type": "reported_share"},
+        "discrimination_gap": {"value": 9, "unit": "percentage-point satisfaction gap for recent users who report experiencing discrimination versus the OECD recent-user average", "value_type": "reported_gap"},
+        "other_gaps": {"value": "Recent users with low education, ages 18-29, financial concerns, and women report satisfaction around 2-5 percentage points below the OECD average", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "nonuse_boundary": {"value": "Restricting the comparison to recent users excludes around 45% of respondents and may systematically omit people who avoid administrative services", "unit": "reported sampling boundary", "value_type": "reported_boundary"}
+      },
+      "method": "2025 OECD Trust Survey comparison of recent public-administrative-service users, with subgroup analysis and an explicit non-user limitation.",
+      "uncertainty": "The reported subgroup gaps are descriptive and satisfaction is not service access or outcome quality; excluding non-users may understate barriers, but the report does not estimate the size or direction of that bias.",
+      "subgroup": "People reporting discrimination, younger adults, people with lower education, people with financial concerns, women, and people who did not use administrative services in the prior year.",
+      "counterinterpretation": "Recent users may be more engaged or more able to navigate services than non-users; lower satisfaction among users can indicate harder encounters, higher expectations, or more complex needs rather than a single service failure.",
+      "source_url": "https://www.oecd.org/en/publications/serving-citizens-2026_ecaa9c7e-en/full-report/public-administrative-services-in-oecd-countries-state-of-play_89b935d7.html",
+      "retrieval_hash": "sha256:94b297f5c8aa4cbd0e693b547949f560022dae91915aa6763dd1550d109c6822",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/serving-citizens-2026_82d407b0/ecaa9c7e-en.pdf", "claim": "Official 80-page OECD report PDF and government survey results."},
+    {"source_url": "https://doi.org/10.1787/ecaa9c7e-en", "claim": "Official OECD DOI and publication citation."}
+  ],
+  "boundary": "This record adds the public-administrative interface between life-course needs and institutional delivery. It is a government-survey and comparative service-management assessment, not a citizen panel, causal evaluation, administrative burden experiment, or proof that digital integration improves trust or equity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page, executive summary, full report, and PDF were reviewed for public administrative-service scope, survey timing, strategy and implementation, life-event integration, data sharing, user feedback, performance targets, and policy-use measures.",
+    "source_url_sha256": "sha256:94b297f5c8aa4cbd0e693b547949f560022dae91915aa6763dd1550d109c6822",
+    "checked": "2026-09-28"
+  }
+}

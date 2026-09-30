@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-public-first-ai-global-2026-backlash-sovereignty-sophistication",
+  "title": "AI adoption is broadening faster than trust, capability and sovereignty arrangements can stabilize",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Public First, AI Global 2026",
+  "geography": "15-country public-attitudes survey spanning advanced and emerging economies, with global AI-economy modeling and country comparisons",
+  "observations": [
+    {
+      "period": "2026; Public First AI Global survey and economic model",
+      "denominator": {"value": 18000, "unit": "more than respondents across 15 countries", "value_type": "survey_sample"},
+      "measures": {
+        "importance": {"value": "on average, 45% say AI will change the world significantly and 46% say it already has; 64% say AI is the most important current technology and their country should be a leader", "unit": "reported survey shares", "value_type": "reported_share"},
+        "opportunity_condition": {"value": "the report's model estimates that around 47% of potential economic opportunity over the next five years depends on choices about adoption, workflow integration and preparedness", "unit": "modeled opportunity share", "value_type": "modeled_estimate"},
+        "adoption_boundary": {"value": "the report estimates that only around 8% of the wider potential economic dividend has been realized so far", "unit": "modeled global opportunity share", "value_type": "modeled_estimate"}
+      },
+      "method": "Public First polling across 15 countries combined with a global economic model covering task verification, workflow integration, innovation and distributional effects.",
+      "uncertainty": "The economic percentages are model outputs dependent on assumptions about adoption, task substitution, verification and workflow redesign; they are not observed GDP, productivity or welfare effects.",
+      "subgroup": "Adults in advanced and emerging economies, workers exposed to different task structures, firms deciding how to integrate AI, and countries competing for AI capability.",
+      "counterinterpretation": "High perceived importance does not guarantee useful adoption, and modeled opportunity can overstate gains if verification, organizational change, energy, labor or governance constraints are harder than assumed.",
+      "source_url": "https://aiglobal.publicfirst.com/",
+      "retrieval_hash": "sha256:07f1d7b6136ef1444b2d1c56b60974b9b8b99c5183d20fb9a0d73f407615b09f",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; repeated Public First attitudes waves and 2026 country comparisons",
+      "denominator": {"value": 15, "unit": "countries included in the 2026 public-attitudes survey", "value_type": "published_country_frame"},
+      "measures": {
+        "western_backlash": {"value": "net positive sentiment toward AI fell sharply in the United States and United Kingdom over the repeated waves; the report describes the decline as around 75%", "unit": "reported net-valence change", "value_type": "reported_change"},
+        "geographic_divergence": {"value": "sentiment remains more positive in several Asian and emerging economies, while younger and older groups in advanced economies are less positive than middle-aged groups", "unit": "reported comparative pattern", "value_type": "reported_assessment"},
+        "shallow_diffusion": {"value": "regular use is broadening, but users report applying AI to only around a quarter of daily tasks and 56% of advanced-economy users say they began within the past year", "unit": "reported survey shares and estimate", "value_type": "reported_share_and_estimate"}
+      },
+      "method": "Repeated and cross-country survey comparisons of emotional valence, regular use, age patterns and self-reported task coverage.",
+      "uncertainty": "Net valence depends on question wording and coding of positive and negative emotions; self-reported task coverage does not measure quality, duration, productivity or whether AI is embedded invisibly in software.",
+      "subgroup": "US and UK adults, Asian and emerging-market respondents, younger users, older users, regular users and people newly adopting AI.",
+      "counterinterpretation": "Lower sentiment may reflect greater awareness and scrutiny rather than rejection, while positive sentiment in high-adoption markets may reflect optimism, necessity, social desirability or different expectations.",
+      "source_url": "https://aiglobal.publicfirst.com/",
+      "retrieval_hash": "sha256:07f1d7b6136ef1444b2d1c56b60974b9b8b99c5183d20fb9a0d73f407615b09f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; reported AI use and sophistication in advanced economies",
+      "denominator": {"value": 1, "unit": "advanced-economy AI-user comparison in the Public First survey", "value_type": "published_comparison_frame"},
+      "measures": {
+        "sophistication_gap": {"value": "higher-income users are 2.1 times more likely to be sophisticated users than users with only secondary education; university-educated users are 1.5 times more likely; users under 35 are 2.5 times more likely than users over 50", "unit": "reported relative likelihoods", "value_type": "reported_association"},
+        "firm_gap": {"value": "workers at larger enterprises are around 1.1 times more likely to be sophisticated users than workers at small and medium-sized businesses", "unit": "reported relative likelihood", "value_type": "reported_association"},
+        "agent_privacy": {"value": "only 29% say they would be comfortable giving an AI agent access to their bank account, while comfort is higher for some health-data and calendar uses", "unit": "reported survey share", "value_type": "reported_share"}
+      },
+      "method": "Survey comparison of self-described AI use sophistication, demographic and firm-size characteristics, workforce enablement and willingness to share sensitive data with agents.",
+      "uncertainty": "The associations do not establish whether income, education, age, firm size, support or prior experience causes sophisticated use; the report's categories are constructed from survey responses.",
+      "subgroup": "Higher- and lower-income users, users with different education levels and ages, SMB and large-enterprise workers, and people considering agent access to financial or health data.",
+      "counterinterpretation": "A sophistication gap may reflect access to better tools, time, training and organizational permission rather than individual capability; privacy reluctance may be a rational safeguard rather than a barrier to beneficial use.",
+      "source_url": "https://aiglobal.publicfirst.com/",
+      "retrieval_hash": "sha256:07f1d7b6136ef1444b2d1c56b60974b9b8b99c5183d20fb9a0d73f407615b09f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI sovereignty, infrastructure and relational use debates",
+      "denominator": {"value": 15, "unit": "countries included in the Public First survey", "value_type": "published_country_frame"},
+      "measures": {
+        "sovereignty": {"value": "77% say it is important to keep data within their country; 19% of non-American respondents say they do not trust an American AI model, even though many continue to use major US-origin tools", "unit": "reported survey shares", "value_type": "reported_share"},
+        "infrastructure_politics": {"value": "the United States is described as unusually divided or negative about building more data centres, with concerns including electricity bills, taxpayer costs and environmental damage", "unit": "reported country comparison", "value_type": "reported_assessment"},
+        "relational_ai": {"value": "one in five respondents say they have used AI for emotional advice and one in six say they have a relationship with an AI", "unit": "reported survey shares", "value_type": "reported_share"}
+      },
+      "method": "Cross-country survey questions on model origin, data location, data-centre expansion, emotional advice and relationships with AI.",
+      "uncertainty": "Trust, relationship and sovereignty responses are culturally and politically contingent; the report does not define relationship intensity, verify behavior or measure infrastructure impacts directly.",
+      "subgroup": "Respondents in countries with different AI ecosystems and geopolitical alignments, local communities near data-centre development, users seeking emotional support and people concerned about national data control.",
+      "counterinterpretation": "Stated support for data sovereignty can coexist with practical dependence on foreign platforms; reported AI relationships may range from casual anthropomorphism to sustained emotional reliance.",
+      "source_url": "https://aiglobal.publicfirst.com/",
+      "retrieval_hash": "sha256:07f1d7b6136ef1444b2d1c56b60974b9b8b99c5183d20fb9a0d73f407615b09f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://aiglobal.publicfirst.com/02Opportunity", "claim": "Public First AI Global opportunity chapter covering task structure, verification, workflow integration and modeled economic potential."},
+    {"source_url": "https://aiglobal.publicfirst.com/03Attitudes", "claim": "Public First AI Global attitudes chapter covering sentiment, usage depth, sophistication and agent-data comfort."},
+    {"source_url": "https://aiglobal.publicfirst.com/04Debates", "claim": "Public First AI Global debates chapter covering jobs, model sovereignty, data centres and AI relationships."}
+  ],
+  "boundary": "This record adds an AI public-attitudes, sovereignty, infrastructure and capability layer linking adoption to sentiment, task design, training and support, sensitive-data trust, model origin, data-centre politics and relational use. It combines a 15-country survey with economic modeling; it is not respondent-level ingestion, a causal evaluation, verified behavioral telemetry, a complete global public-opinion census or proof of realized economic effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Public First AI Global 2026 publication was reviewed for the 18,000-plus respondent and 15-country frame, modeled opportunity claims, sentiment change, shallow and sophisticated use, agent-data comfort, model-origin trust, data sovereignty, data-centre views and relational AI claims.",
+    "source_url_sha256": "sha256:07f1d7b6136ef1444b2d1c56b60974b9b8b99c5183d20fb9a0d73f407615b09f",
+    "checked": "2026-09-27"
+  }
+}

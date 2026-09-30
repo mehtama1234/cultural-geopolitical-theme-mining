@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-south-africa-digital-creators-information-legitimacy-online-harm-2026",
+  "title": "Digital content creators are becoming information intermediaries faster than support systems can provide verification, ethics, safety, and platform voice",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "political_judgment_action", "consumer_power_recourse", "firm_sector_market_power", "infrastructure_technology_dependency", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "UNESCO, Behind the Screens in South Africa: Challenges, Opportunities, and Needs of Digital Content Creators, summarized in a UNESCO research release published 1 September 2026",
+  "geography": "South Africa; nationwide survey of digital content creators with supporting interviews and UNESCO Social Media 4 Peace context",
+  "observations": [
+    {
+      "period": "2026; creator information practices and public-discourse role",
+      "denominator": {"value": 48, "unit": "digital content creators in a nationwide South African survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "information_sources": {"value": "43.8% of surveyed creators rely on mainstream news media as a primary information source, while creators also conduct their own research, draw on personal experience, and consult knowledgeable experts", "unit": "percent and reported practice pattern", "value_type": "reported_survey_statistic"},
+        "creator_role": {"value": "creators increasingly produce, interpret, and share information with online audiences, expanding their role in the information ecosystem", "unit": "reported ecosystem role", "value_type": "reported_interpretation"},
+        "verification_gap": {"value": "36% report that they do not systematically verify information before sharing it", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "credibility_signal": {"value": "34% rely on likes and views as a key indicator of credibility", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"}
+      },
+      "method": "UNESCO summary of a CABC nationwide survey of 48 creators and in-depth interviews with 11 creators; small creator sample, not a representative audience or population survey.",
+      "uncertainty": "The source does not establish how creator practices affect audience beliefs, elections, public-health behavior, or misinformation prevalence; percentages may be sensitive to wording, self-report, sample composition, and creator type.",
+      "subgroup": "Digital content creators, audiences, creators relying on mainstream news, creators using personal experience or experts, and creators whose visibility is shaped by platform metrics.",
+      "counterinterpretation": "Personal research and expert consultation may supplement mainstream journalism rather than weaken information quality; likes and views can be useful audience feedback even when they are not reliable truth indicators.",
+      "source_url": "https://www.unesco.org/en/articles/new-unesco-research-reveals-opportunities-and-challenges-facing-south-africas-digital-content?hub=66921",
+      "retrieval_hash": "sha256:3a71095bf84365e59fedbcec613b36955837a4bdbb3369e9137b4bfac6a8f6a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; creator training, standards, AI disclosure, and regulation awareness",
+      "denominator": {"value": 48, "unit": "digital content creators in the South African survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "media_literacy_training": {"value": "10.4% of creators had received Media and Information Literacy training", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "journalism_background": {"value": "50% reported having no journalism training or background", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "freedom_expression_awareness": {"value": "64.6% reported little or no awareness of international freedom-of-expression standards", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "regulatory_awareness": {"value": "59% were unaware of regulations specifically relevant to digital content creation", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "ai_disclosure": {"value": "33% consistently disclose their use of generative AI to audiences", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"}
+      },
+      "method": "UNESCO summary of the CABC creator survey and interviews; measures are self-reported and the source does not provide a platform-by-platform audit of disclosures or standards compliance.",
+      "uncertainty": "The source does not determine whether training causes more accurate content, whether disclosure changes audience trust, or whether regulatory awareness predicts safer or more ethical practice.",
+      "subgroup": "Creators with and without journalism or MIL training, creators using generative AI, audiences assessing authenticity, civil-society trainers, regulators, and platforms.",
+      "counterinterpretation": "Creators may use AI responsibly without consistently disclosing it, and formal journalism or regulatory knowledge is not identical to accuracy, ethics, or audience benefit.",
+      "source_url": "https://www.unesco.org/en/articles/new-unesco-research-reveals-opportunities-and-challenges-facing-south-africas-digital-content?hub=66921",
+      "retrieval_hash": "sha256:3a71095bf84365e59fedbcec613b36955837a4bdbb3369e9137b4bfac6a8f6a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; online harm and unequal exposure in the creator ecosystem",
+      "denominator": {"value": 48, "unit": "digital content creators in the South African survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "technology_gender_based_violence": {"value": "75% had experienced or witnessed technology-facilitated gender-based violence", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "xenophobia": {"value": "72% had experienced or witnessed xenophobia online", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "identity_hate": {"value": "43% reported identity-based hate speech or harassment", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "support_gap": {"value": "the source describes significant exposure to online harms alongside limited formal training and support mechanisms", "unit": "reported ecosystem diagnosis", "value_type": "reported_harm_and_support_gap"}
+      },
+      "method": "UNESCO summary of self-reported survey and interview evidence; the findings are descriptive and do not estimate incident prevalence among all South African creators or users.",
+      "uncertainty": "Experience or witnessing is not equivalent to verified incident counts, frequency, severity, or causal platform attribution; the small sample may over- or under-represent creators exposed to particular harms.",
+      "subgroup": "Women and gender-diverse creators, migrant and racialised creators, creators discussing identity or politics, creators with high visibility, and people experiencing online abuse.",
+      "counterinterpretation": "High reported exposure may reflect creators’ greater visibility and reporting awareness rather than an ecosystem-wide increase; reducing harm also requires offline legal, social, and institutional support beyond platform moderation.",
+      "source_url": "https://www.unesco.org/en/articles/new-unesco-research-reveals-opportunities-and-challenges-facing-south-africas-digital-content?hub=66921",
+      "retrieval_hash": "sha256:3a71095bf84365e59fedbcec613b36955837a4bdbb3369e9137b4bfac6a8f6a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; creator support, platform governance, and information-ecosystem resilience",
+      "denominator": {"value": 48, "unit": "digital content creators in the South African survey, with UNESCO programme support context", "value_type": "reported_survey_and_programme_frame"},
+      "measures": {
+        "ethics_interest": {"value": "87% expressed interest in training on ethics and freedom of expression, and 87.5% saw value in ethical guidelines or standards", "unit": "percent of surveyed creators", "value_type": "reported_survey_statistic"},
+        "requested_support": {"value": "creators identified practical workshops, peer learning, platform and AI literacy, and accessible legal and regulatory information as needed support", "unit": "reported support-priority set", "value_type": "reported_support_demand"},
+        "governance_route": {"value": "the recommendations include creator participation in platform-governance discussions, stronger support for online harms and wellbeing, and creator-focused MIL programmes", "unit": "reported policy route", "value_type": "reported_recommendation_set"},
+        "capacity_building": {"value": "UNESCO reports capacity-building support for 30 South African creators and MIL training for journalists, civil society, and youth organisations", "unit": "reported programme reach", "value_type": "reported_programme_activity"}
+      },
+      "method": "UNESCO research release combining survey findings, interviews, recommendations, and programme context; it reports activity and stated demand, not programme impact.",
+      "uncertainty": "The source does not establish whether training, peer networks, platform participation, or support mechanisms improve accuracy, safety, income, wellbeing, audience trust, or resilience over time.",
+      "subgroup": "Creators, platform firms, AI providers, media-literacy organisations, civil society, youth groups, journalists, regulators, and audiences.",
+      "counterinterpretation": "Creator-focused training may individualise responsibility for harms created by platform incentives, commercial partnerships, moderation systems, and unequal power; participation in governance is meaningful only if creators can influence decisions.",
+      "source_url": "https://www.unesco.org/en/articles/new-unesco-research-reveals-opportunities-and-challenges-facing-south-africas-digital-content?hub=66921",
+      "retrieval_hash": "sha256:3a71095bf84365e59fedbcec613b36955837a4bdbb3369e9137b4bfac6a8f6a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000399275", "claim": "Official UNESCO report Behind the Screens in South Africa: Challenges, Opportunities, and Needs of Digital Content Creators."},
+    {"source_url": "https://www.unesco.org/en/social-media-4-peace", "claim": "UNESCO Social Media 4 Peace context for media and information literacy, online harms, and peacebuilding."}
+  ],
+  "boundary": "This record adds a creator-legitimacy and information-infrastructure subtheme: digital creators are increasingly intermediaries between audiences and information, while verification, ethics, AI disclosure, legal literacy, safety, and platform voice lag behind their influence. The evidence is a small self-reported survey of 48 creators, 11 interviews, and programme reporting; it is not representative audience evidence, a causal misinformation study, a platform audit, a creator-income study, or proof that training changes outcomes.",
+  "retrieval_hash": "sha256:3a71095bf84365e59fedbcec613b36955837a4bdbb3369e9137b4bfac6a8f6a0"
+}

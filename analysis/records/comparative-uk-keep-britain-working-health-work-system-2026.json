@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-keep-britain-working-health-work-system-2026",
+  "title": "Health-related work loss is being reframed as a workplace-system and data-intelligence problem, not only a welfare or clinical problem",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Department for Work and Pensions, Department for Business and Trade, and Department of Health and Social Care, Keep Britain Working: a national growth opportunity, September 2026 update",
+  "geography": "United Kingdom; national policy update with regional, employer, sector, and disability-inclusion routes",
+  "observations": [
+    {
+      "period": "September 2026; scale and distribution of health-related economic inactivity",
+      "denominator": {"value": 1, "unit": "UK working-age population and national policy estimates cited in the update", "value_type": "published_national_frame"},
+      "measures": {
+        "health_inactive": {"value": 2.8, "unit": "million working-age people not working due to ill health at the latest count", "value_type": "published_national_estimate"},
+        "change_since_2019": {"value": 0.8, "unit": "million increase since 2019", "value_type": "published_national_estimate"},
+        "economic_cost": {"value": 212, "unit": "billion pounds per year estimated cost, close to 7 percent of GDP", "value_type": "published_modelled_estimate"},
+        "cost_components": {"value": "The estimate includes lost output, health-related benefits, unpaid-carer lost output, and additional NHS costs", "unit": "reported fiscal and household exposure set", "value_type": "reported_mechanism_set"},
+        "disability_gap": {"value": 29.4, "unit": "percent persistent disability employment gap cited by the update", "value_type": "published_national_estimate"}
+      },
+      "method": "UK government policy update citing national labour-market, disability, and Health Foundation modelling sources; figures are estimates and do not represent a new single survey or causal evaluation.",
+      "uncertainty": "The update does not identify a single causal source for health-related inactivity, and the economic cost estimate depends on assumptions about lost output, benefits, carers, and NHS costs.",
+      "subgroup": "Working-age people with health conditions or disabilities, unpaid carers, employers, households, and poorer or more deprived places.",
+      "counterinterpretation": "Framing ill health as a growth opportunity can motivate investment and inclusion, but can also instrumentalize disabled people or prioritize productivity over autonomy and adequate income security.",
+      "source_url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026/keep-britain-working-a-national-growth-opportunity-september-2026",
+      "retrieval_hash": "sha256:2045d7dad586340ae4a55a6121d40e3558560e40a0b40c2def643ffdd2198fc0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; timing of retention and return-to-work support",
+      "denominator": {"value": 1, "unit": "UK health-and-work pathway estimates cited in the update", "value_type": "published_pathway_frame"},
+      "measures": {
+        "annual_health_exit": {"value": 300000, "unit": "people with a health condition reported as leaving work each year", "value_type": "published_national_estimate"},
+        "short_absence_return": {"value": 96, "unit": "percent chance of returning to work after an absence of 4 to 6 weeks", "value_type": "published_pathway_estimate"},
+        "long_absence_return": {"value": "fewer than half", "unit": "reported share returning after an absence of one year", "value_type": "published_pathway_estimate"},
+        "inactive_transition": {"value": 3.8, "unit": "percent probability of moving into work within one year after becoming economically inactive for health reasons", "value_type": "published_pathway_estimate"},
+        "unemployed_comparison": {"value": 47, "unit": "percent probability of moving into work within one year for someone unemployed, as cited for comparison", "value_type": "published_pathway_estimate"},
+        "intervention_window": {"value": "The update prioritizes early retention, stay-in-work planning, and sustained return rather than waiting for long absence or measuring only first-day return", "unit": "reported policy mechanism", "value_type": "reported_policy_route"}
+      },
+      "method": "Policy update synthesis of pathway estimates and review evidence; the probabilities are cited population-level associations or estimates, not a randomized intervention effect.",
+      "uncertainty": "The source does not establish that earlier conversations or workplace-health provision caused the differences in return probabilities, nor that the proposed system will reproduce them.",
+      "subgroup": "Employees with work-limiting conditions, employees at risk of absence, employers, providers, and people already economically inactive due to health.",
+      "counterinterpretation": "Early intervention can support retention, but pressure to remain at work may be harmful where absence, treatment, or exit is necessary; employee consent and control remain material conditions.",
+      "source_url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026/keep-britain-working-a-national-growth-opportunity-september-2026",
+      "retrieval_hash": "sha256:2045d7dad586340ae4a55a6121d40e3558560e40a0b40c2def643ffdd2198fc0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; proposed Workplace Health System",
+      "denominator": {"value": 1, "unit": "UK policy model under development and testing", "value_type": "published_policy_frame"},
+      "measures": {
+        "system_components": {"value": 3, "unit": "better inclusive workplaces, better workplace-health provision, and better intelligence on workplace health and inclusion", "value_type": "published_policy_model"},
+        "shared_responsibility": {"value": "Employers, employees, providers, places, and government receive distinct responsibilities for design, early action, support, coordination, access, and incentives", "unit": "reported governance mechanism", "value_type": "reported_policy_route"},
+        "small_employer_access": {"value": "Pooled purchasing, regional convening, supply-chain access, public provision, and insurance are proposed routes to make workplace-health provision affordable for SMEs and microbusinesses", "unit": "reported access route", "value_type": "reported_policy_route"},
+        "place_route": {"value": "Regional mayors, strategic authorities, councils, and devolved governments are positioned as conveners connecting health support, employment support, and employer demand", "unit": "reported place-based mechanism", "value_type": "reported_policy_route"}
+      },
+      "method": "Government update describing a draft system model, Vanguard testing, place-based pilots, and proposed standards; it is not a completed national programme evaluation.",
+      "uncertainty": "Affordability, adoption, employer capability, worker trust, provider capacity, and the effect of pooled or public access routes remain under test.",
+      "subgroup": "Large employers, SMEs, microbusinesses, employees, self-employed people, regional authorities, providers, insurers, unions, and disabled people.",
+      "counterinterpretation": "Shared responsibility may improve coordination but can also obscure liability or shift health-management work onto employees and small employers without sufficient resources.",
+      "source_url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026/keep-britain-working-a-national-growth-opportunity-september-2026",
+      "retrieval_hash": "sha256:2045d7dad586340ae4a55a6121d40e3558560e40a0b40c2def643ffdd2198fc0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; workplace-health intelligence, privacy, and accountability",
+      "denominator": {"value": 1, "unit": "UK proposed intelligence architecture and employer data tests", "value_type": "published_policy_frame"},
+      "measures": {
+        "disability_confident_employers": {"value": 19000, "unit": "employers signed up to Disability Confident, with no reliable common peer comparison currently available according to the update", "value_type": "published_program_count"},
+        "measurement_gap": {"value": "Sickness absence is measured inconsistently; sustained return, disability participation, and intervention effectiveness are rarely tracked comparably", "unit": "reported data-infrastructure gap", "value_type": "reported_mechanism_set"},
+        "privacy_route": {"value": "The proposed employee-facing toolkit would make the individual the first beneficiary, keep responses private by default, and provide employers only protected aggregated insight above suppression thresholds", "unit": "reported data-governance route", "value_type": "reported_policy_route"},
+        "intelligence_unit": {"value": "A proposed Workplace Health Intelligence Unit would define common measures, securely collect aggregate data, benchmark performance, evaluate interventions, publish public insight, and inform outcome-based incentives", "unit": "reported institutional design", "value_type": "reported_policy_route"},
+        "social_license_test": {"value": "Citizens' panels and testing are proposed to establish whether employees trust the toolkit and whether those most likely to need help will participate", "unit": "reported legitimacy test", "value_type": "reported_policy_route"}
+      },
+      "method": "Government policy update describing proposed common measures, data safeguards, citizens' panels, employer data projects, and a future intelligence unit; none is yet a completed operational evaluation.",
+      "uncertainty": "Participation, representativeness, privacy risks, employer use of aggregated data, and whether benchmarking changes behavior remain open.",
+      "subgroup": "Employees with health conditions, disabled workers, employers of different sizes, providers, worker representatives, and people reluctant to disclose health information.",
+      "counterinterpretation": "Benchmarking can make support accountable, but datafication may intensify surveillance or deter disclosure if employees doubt that aggregation and governance are genuinely protective.",
+      "source_url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026/keep-britain-working-a-national-growth-opportunity-september-2026",
+      "retrieval_hash": "sha256:2045d7dad586340ae4a55a6121d40e3558560e40a0b40c2def643ffdd2198fc0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026", "claim": "Official publication metadata, departments, publication date, and document context."},
+    {"source_url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026/keep-britain-working-a-national-growth-opportunity-september-2026", "claim": "Official HTML report with scale estimates, pathway timing, proposed Workplace Health System, place access, data architecture, privacy, and accountability routes."}
+  ],
+  "boundary": "This record adds a health-to-work conversion route from work-limiting health exposure through early support, retention, sustained return, disability inclusion, household and public-finance effects, place-based provision, and trusted intelligence. It does not establish that the proposed Workplace Health System has been implemented, that cited pathway probabilities are causal intervention effects, or that modelled economic benefits will materialize.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK publication page and report HTML reviewed for publication context, scale and cost estimates, return-to-work timing, proposed system components, place-based access, data governance, and implementation boundaries.",
+    "source_url_sha256": "sha256:b449a68a7ec408e52843724ab3ae985cc5766fb6adad2887ed2e27efa39ef626; sha256:2045d7dad586340ae4a55a6121d40e3558560e40a0b40c2def643ffdd2198fc0",
+    "checked": "2026-09-29"
+  }
+}

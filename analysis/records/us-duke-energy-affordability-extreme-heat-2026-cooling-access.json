@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-duke-energy-affordability-extreme-heat-2026-cooling-access",
+  "title": "Extreme heat turns energy affordability into a safety, health, and policy-targeting problem",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Nicholas Institute for Energy, Environment & Sustainability report, The Cost of Keeping Cool: Energy Affordability and Extreme Heat",
+  "geography": "United States; county-level household energy-cost and energy-poverty estimates",
+  "observations": [
+    {
+      "period": "2026; household energy affordability and extreme heat",
+      "denominator": {"value": 1, "unit": "national report using county-level estimates of household energy costs and energy poverty", "value_type": "report_frame"},
+      "measures": {
+        "energy_burden_geography": {"value": "energy burden is mapped across the country and varies by region and season", "unit": "reported geographic pattern", "value_type": "reported_pattern"},
+        "cooling_cost_focus": {"value": "the report treats cooling costs during extreme heat as a distinct component of household energy affordability", "unit": "reported analytic focus", "value_type": "reported_mechanism"}
+      },
+      "method": "Report synthesis using county-level estimates of household energy costs and energy poverty, with regional and seasonal analysis.",
+      "uncertainty": "The abstract does not provide the underlying county estimates, model specification, or individual household outcomes; mapped burden is not a direct measure of any one household's bill or health outcome.",
+      "subgroup": "Households facing energy poverty, high cooling needs, rising electricity costs, and different regional or seasonal heat exposure.",
+      "counterinterpretation": "Regional variation can reflect climate, housing, prices, appliance efficiency, income, and energy assistance; a high modeled burden does not identify a single cause or prove service disconnection.",
+      "source_url": "https://scholars.duke.edu/publication/1915689",
+      "retrieval_hash": "sha256:8b455280eb35ca8fb7a89e87ea21de40995e03d6b490699d896f3193af3ef884",
+      "status": "reported"
+    },
+    {
+      "period": "2026; household safety and electricity dependence",
+      "denominator": {"value": 1, "unit": "report-level account of safe-home functions requiring consistent electricity", "value_type": "report_frame"},
+      "measures": {
+        "electricity_as_safety_input": {"value": "consistent electricity is necessary to preserve or prepare food, charge medical devices, and heat or cool living spaces", "unit": "reported household mechanism", "value_type": "reported_mechanism"},
+        "tradeoff": {"value": "unaffordable bills force choices between maintaining a safe and comfortable home and meeting other needs", "unit": "reported household tradeoff", "value_type": "reported_pattern"}
+      },
+      "method": "Report framing of energy affordability as a household safety condition rather than only a price measure.",
+      "uncertainty": "The report description does not estimate the prevalence, dollar size, or duration of these tradeoffs; it does not establish that every unaffordable bill produces the same adaptation or harm.",
+      "subgroup": "Households dependent on electricity for food, medical-device charging, heating, cooling, and other basic domestic functions.",
+      "counterinterpretation": "Households may draw on savings, community support, payment plans, efficiency improvements, or assistance; the source identifies a risk mechanism, not a universal outcome.",
+      "source_url": "https://scholars.duke.edu/publication/1915689",
+      "retrieval_hash": "sha256:8b455280eb35ca8fb7a89e87ea21de40995e03d6b490699d896f3193af3ef884",
+      "status": "reported"
+    },
+    {
+      "period": "2026; rising temperatures and electricity costs",
+      "denominator": {"value": 1, "unit": "report-level interaction between heat exposure and household energy affordability", "value_type": "report_frame"},
+      "measures": {
+        "compounding_pressure": {"value": "rising temperatures and increasing electricity costs place additional pressure on households already struggling with energy affordability", "unit": "reported interaction", "value_type": "reported_mechanism"},
+        "heat_amplification": {"value": "high temperatures intensify the consequences of energy insecurity", "unit": "reported interaction", "value_type": "reported_mechanism"}
+      },
+      "method": "Report analysis connecting energy-burden geography and seasonal variation to extreme-heat and cooling-cost exposure.",
+      "uncertainty": "The source description establishes a compounding mechanism but does not identify a causal effect size, threshold, or household-level response sequence.",
+      "subgroup": "Energy-insecure households in places and seasons with high cooling demand, especially households with health or housing constraints.",
+      "counterinterpretation": "Weatherization, efficient cooling, shade, community cooling, and lower-cost generation can reduce exposure; heat does not mechanically produce unaffordable energy for every household.",
+      "source_url": "https://scholars.duke.edu/publication/1915689",
+      "retrieval_hash": "sha256:8b455280eb35ca8fb7a89e87ea21de40995e03d6b490699d896f3193af3ef884",
+      "status": "reported"
+    },
+    {
+      "period": "2026; federal and state energy-affordability support",
+      "denominator": {"value": 1, "unit": "report assessment of federal and state energy-affordability support", "value_type": "report_frame"},
+      "measures": {
+        "cooling_access_blind_spot": {"value": "existing federal and state energy-affordability support fails to recognize the importance of cooling access", "unit": "reported policy gap", "value_type": "reported_assessment"},
+        "policy_design_implication": {"value": "reducing household energy burden requires incorporating the compounding role of extreme heat", "unit": "reported policy implication", "value_type": "reported_recommendation"}
+      },
+      "method": "Report assessment of energy-affordability support against the safety and cooling requirements created by extreme heat.",
+      "uncertainty": "This is a report conclusion, not an independent program evaluation; the abstract does not enumerate all programs, eligibility rules, take-up, or implementation outcomes.",
+      "subgroup": "Households eligible for or excluded from energy assistance, state and federal administrators, utilities, and communities exposed to extreme heat.",
+      "counterinterpretation": "Programs may address cooling indirectly through bill support, weatherization, or emergency response; the claimed gap may differ across jurisdictions and program designs.",
+      "source_url": "https://scholars.duke.edu/publication/1915689",
+      "retrieval_hash": "sha256:8b455280eb35ca8fb7a89e87ea21de40995e03d6b490699d896f3193af3ef884",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.climatecentral.org/climate-matters/heat-illness-emergency-room-visits", "claim": "Climate Central supplies a separate U.S. heat-related emergency-visit and climate-attribution route; it is retained as a distinct health-outcome source.", "status": "official_comparator"},
+    {"source_url": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/", "claim": "Annenberg supplies a separate public-experience, routine, and cooling-center-awareness route; it is retained as a distinct survey source.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a U.S. energy-affordability route linking county-level energy burden, electricity-dependent household safety, extreme-heat compounding, cooling access, and policy design. It is a report synthesis based on modeled county estimates and an abstract-level source description; it does not establish individual bills, clinical outcomes, disconnections, assistance take-up, causal effect sizes, or policy effectiveness.",
+  "retrieval_hash": "sha256:8b455280eb35ca8fb7a89e87ea21de40995e03d6b490699d896f3193af3ef884"
+}

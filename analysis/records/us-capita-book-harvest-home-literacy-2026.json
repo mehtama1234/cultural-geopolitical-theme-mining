@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-capita-book-harvest-home-literacy-2026",
+  "title": "Parents value home libraries, but cost, time, cultural fit and work strain make household literacy uneven",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Capita and Book Harvest, More Books for American Families: National Children’s Book Ownership Survey, September 22, 2026",
+  "geography": "United States; parents and guardians of children ages 0-12, with income, race, reading-routine and cultural-fit comparisons",
+  "observations": [
+    {
+      "period": "May 7-June 1, 2026; household children’s book ownership",
+      "denominator": {"value": 5000, "unit": "U.S. parents and guardians of children ages 0-12 in a national YouGov survey", "value_type": "survey_sample"},
+      "measures": {
+        "low_book_supply": {"value": 25, "unit": "percent of families with 10 or fewer children’s books at home", "value_type": "reported_share"},
+        "parent_belief": {"value": 98, "unit": "percent of parents saying books at home help children succeed in school", "value_type": "reported_share"},
+        "book_ownership_importance": {"value": 51, "unit": "percent saying it matters whether children own their own books rather than only borrow them", "value_type": "reported_share"}
+      },
+      "method": "National YouGov survey conducted for Book Harvest and Capita, balanced by age, gender, race, region, income and political affiliation; reported margin of error ±1.6 percentage points.",
+      "uncertainty": "This is a partner-sponsored survey and the public brief does not establish causal effects of book ownership on educational or civic outcomes; household book counts and beliefs are self-reported.",
+      "subgroup": "Parents and guardians of children ages 0-12 across U.S. households.",
+      "counterinterpretation": "Book counts alone do not measure reading quality, library access, digital reading, language development or the home relationships that make books useful; a small library can still be actively used.",
+      "source_url": "https://capita.org/publication/more-books-for-american-families/",
+      "retrieval_hash": "sha256:beb1ab3eac08ad14d4512cfb7dba7bc7e69b81de81ba207c7d8731ca96ece0d5",
+      "status": "reported"
+    },
+    {
+      "period": "May 7-June 1, 2026; unequal household book access by race and income",
+      "denominator": {"value": 5000, "unit": "U.S. parents and guardians of children ages 0-12; subgroup estimates use their weighted universes", "value_type": "survey_sample"},
+      "measures": {
+        "black_low_supply": {"value": 43, "unit": "percent of Black families with 10 or fewer children’s books at home", "value_type": "reported_share"},
+        "hispanic_low_supply": {"value": 39, "unit": "percent of Hispanic families with 10 or fewer children’s books at home", "value_type": "reported_share"},
+        "white_low_supply": {"value": 21, "unit": "percent of White families with 10 or fewer children’s books at home", "value_type": "reported_share"},
+        "low_income_low_supply": {"value": 46, "unit": "percent of families earning under $30,000 with 10 or fewer children’s books, versus 19% among families earning $100,000 or more", "value_type": "reported_comparison"}
+      },
+      "method": "YouGov cross-tabulation of reported home book ownership by race and household income.",
+      "uncertainty": "The public brief does not provide all subgroup sample sizes or confidence intervals; race and income are associated with book supply but do not identify the mechanisms or household preferences.",
+      "subgroup": "Black, Hispanic and White families and households below $30,000 versus at least $100,000 annual income.",
+      "counterinterpretation": "Unequal home collections may reflect price, access to culturally relevant books, housing space, gifting networks, local institutions, language, or differences in how families define children’s books—not income alone.",
+      "source_url": "https://capita.org/publication/more-books-for-american-families/",
+      "retrieval_hash": "sha256:beb1ab3eac08ad14d4512cfb7dba7bc7e69b81de81ba207c7d8731ca96ece0d5",
+      "status": "reported"
+    },
+    {
+      "period": "May 7-June 1, 2026; cultural fit and cost as barriers to home libraries",
+      "denominator": {"value": 5000, "unit": "U.S. parents and guardians of children ages 0-12; subgroup estimates use their weighted universes", "value_type": "survey_sample"},
+      "measures": {
+        "book_cost_barrier": {"value": 51, "unit": "percent of parents saying cost of books is a barrier; 65% among families under $30,000 and 41% among families at least $100,000", "value_type": "reported_share"},
+        "cultural_fit_hispanic": {"value": 34, "unit": "percent of Hispanic families reporting difficulty finding books reflecting their culture, language or identity", "value_type": "reported_share"},
+        "cultural_fit_black": {"value": 29, "unit": "percent of Black families reporting difficulty finding books reflecting their culture, language or identity", "value_type": "reported_share"},
+        "cultural_fit_white": {"value": 19, "unit": "percent of White families reporting the same difficulty", "value_type": "reported_share"}
+      },
+      "method": "YouGov survey questions on book cost and the availability of books matching children’s culture, language and identity.",
+      "uncertainty": "Barrier reports capture perceived availability and affordability, not local retail prices, library holdings, translation supply or actual search behavior.",
+      "subgroup": "Families by income and race/ethnicity, including Hispanic, Black and White families.",
+      "counterinterpretation": "Cultural fit is only one dimension of book selection; families may value plot, developmental level, author, format, language learning and child preference simultaneously.",
+      "source_url": "https://capita.org/publication/more-books-for-american-families/",
+      "retrieval_hash": "sha256:beb1ab3eac08ad14d4512cfb7dba7bc7e69b81de81ba207c7d8731ca96ece0d5",
+      "status": "reported"
+    },
+    {
+      "period": "May 7-June 1, 2026; household time and work conditions around reading",
+      "denominator": {"value": 5000, "unit": "U.S. parents and guardians of children ages 0-12; reading-routine estimates use their relevant weighted universe", "value_type": "survey_sample"},
+      "measures": {
+        "daily_reading": {"value": 27, "unit": "percent reading aloud with children every day; 17% read five to six times a week and 25% two to four times a week", "value_type": "reported_share"},
+        "rare_or_never": {"value": 12, "unit": "percent rarely or never reading aloud", "value_type": "reported_share"},
+        "work_responsibility_barrier": {"value": 39, "unit": "percent pointing to work and other responsibilities as a reason they cannot read as often as desired", "value_type": "reported_share"},
+        "fatigue_barrier": {"value": 28, "unit": "percent citing fatigue as a barrier", "value_type": "reported_share"}
+      },
+      "method": "YouGov survey of reading frequency and reasons parents report reading less often than they would like.",
+      "uncertainty": "Reading frequency and reasons are self-reported and do not establish whether work schedules, fatigue, book access, child preference or other factors cause the routine gap.",
+      "subgroup": "Parents and guardians of children ages 0-12, with comparisons by income and race reported in the brief.",
+      "counterinterpretation": "Reading aloud is one form of literacy practice; it does not capture independent reading, storytelling, school support, audio books or other family learning activities.",
+      "source_url": "https://capita.org/publication/more-books-for-american-families/",
+      "retrieval_hash": "sha256:beb1ab3eac08ad14d4512cfb7dba7bc7e69b81de81ba207c7d8731ca96ece0d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://bookharvest.org/", "claim": "Book Harvest is the partner organization conducting the annual National Children’s Book Ownership Survey with Capita."}
+  ],
+  "boundary": "This record treats home book ownership and reading routines as a household cultural-access mechanism linking cost, time, race, language, identity, work schedules and civic capacity. It does not establish that book counts cause educational or democratic outcomes, define a sufficient home library, or replace libraries, schools, digital resources and relational learning."
+}

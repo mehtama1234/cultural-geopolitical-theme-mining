@@ -1,0 +1,113 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-microsoft-global-ai-adoption-optimism-trust-2026",
+  "title": "Global AI optimism is widespread while adoption, trust, and worry remain unevenly distributed",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "Gallup, AI Optimism Globally Widespread Despite Uneven Use, reporting ongoing Gallup research with Microsoft, 22 September 2026",
+  "geography": "Adults in the first 37 countries completing 2026 fieldwork in an ongoing global study intended to cover 140 countries",
+  "observations": [
+    {
+      "period": "2026; first 37-country fieldwork wave",
+      "denominator": {"value": 37, "unit": "countries in the first completed fieldwork set", "value_type": "published_country_frame"},
+      "measures": {
+        "ai_awareness": {"value": 81, "unit": "median percent of adults aware of AI across 37 countries", "value_type": "reported_cross_country_median"},
+        "ever_use": {"value": 43, "unit": "median percent who have ever used AI for work or personal purposes", "value_type": "reported_cross_country_median"},
+        "never_use": {"value": 57, "unit": "median percent who have never used AI", "value_type": "reported_cross_country_median"},
+        "adoption_ladder": {"value": "the share of adults generally declines at each step from awareness to ever-use to frequent use", "unit": "reported adoption gradient", "value_type": "reported_mechanism"}
+      },
+      "method": "Gallup global survey research with Microsoft, summarized by country-level adoption, emotion, expected-impact, and trust measures.",
+      "uncertainty": "The article does not provide the full country-by-country questionnaire, sampling details, or a single pooled respondent denominator in the public summary; the medians are not a global population-weighted estimate.",
+      "subgroup": "Adults in the 37 countries completing the initial 2026 fieldwork wave.",
+      "counterinterpretation": "Awareness and self-reported use can reflect different definitions of AI, access conditions, recall, and social desirability across countries.",
+      "source_url": "https://news.gallup.com/poll/714593/optimism-globally-widespread-despite-uneven.aspx",
+      "retrieval_hash": "sha256:e23a4e993d4e30e14e1a17dfe771b4834d9dd4a4f18bc325292892237642a5d9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; country-level adoption contrast",
+      "denominator": {"value": 2, "unit": "illustrative country cases in the Gallup summary", "value_type": "published_country_comparison"},
+      "measures": {
+        "singapore": {"value": "96% aware, 79% ever used, and 46% daily use", "unit": "percent of adults", "value_type": "reported_country_share_set"},
+        "malawi": {"value": "12% aware, 3% ever used, and 1% daily use", "unit": "percent of adults", "value_type": "reported_country_share_set"},
+        "infrastructure_gap": {"value": "the adoption ladder is sharply shaped by country-level connectivity, capability, and access conditions", "unit": "analytic diffusion mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the two examples illustrate dispersion and are not a causal estimate of infrastructure effects", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Published descriptive comparison of country estimates from the Gallup/Microsoft study.",
+      "uncertainty": "The country comparison does not isolate income, education, language, connectivity, device access, labor-market structure, or policy as separate causes.",
+      "subgroup": "Adults in Singapore and Malawi as illustrative endpoints of the reported adoption range.",
+      "counterinterpretation": "Country differences may reflect survey timing, translation, measurement, or sample composition as well as real differences in access and use.",
+      "source_url": "https://news.gallup.com/poll/714593/optimism-globally-widespread-despite-uneven.aspx",
+      "retrieval_hash": "sha256:e23a4e993d4e30e14e1a17dfe771b4834d9dd4a4f18bc325292892237642a5d9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-aware adults' expected impact",
+      "denominator": {"value": 37, "unit": "countries in the first fieldwork wave", "value_type": "published_country_frame"},
+      "measures": {
+        "daily_life_optimism": {"value": 25, "unit": "countries where a majority of AI-aware adults expected AI to improve their daily lives", "value_type": "reported_country_count"},
+        "country_optimism": {"value": 32, "unit": "countries where optimists outnumbered pessimists about AI's effect on the country", "value_type": "reported_country_count"},
+        "country_majority": {"value": 18, "unit": "countries where an absolute majority expected AI to mostly help their country", "value_type": "reported_country_count"},
+        "optimism_use_gap": {"value": "positive expectations can be widespread even where firsthand use remains limited", "unit": "analytic expectation-use mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gallup comparison of AI-aware adults' expected personal and national impact across countries.",
+      "uncertainty": "Expected impact is an attitude measure and does not establish later use, productivity, employment, welfare, or political effects.",
+      "subgroup": "Adults aware of AI in the 37-country fieldwork set.",
+      "counterinterpretation": "Optimism may reflect general future orientation, national narratives, or limited direct experience rather than informed evaluation of AI systems.",
+      "source_url": "https://news.gallup.com/poll/714593/optimism-globally-widespread-despite-uneven.aspx",
+      "retrieval_hash": "sha256:e23a4e993d4e30e14e1a17dfe771b4834d9dd4a4f18bc325292892237642a5d9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI accuracy trust and adoption frequency",
+      "denominator": {"value": 37, "unit": "countries in the first fieldwork wave", "value_type": "published_country_frame"},
+      "measures": {
+        "accuracy_trust": {"value": 36, "unit": "median percent of AI-aware adults trusting AI completely or a lot to provide accurate information", "value_type": "reported_cross_country_median"},
+        "optimism_trust_order": {"value": "in 35 of 37 countries, more people expected AI to help their country than trusted it to provide accurate information", "unit": "reported country comparison", "value_type": "reported_country_count"},
+        "frequency_gradient": {"value": "trust in accuracy rises with frequency of use; in the United States, 45% of daily users versus 8% of never-users expressed high trust", "unit": "reported use-gradient comparison", "value_type": "reported_subgroup_comparison"},
+        "causal_boundary": {"value": "the study cannot establish whether use builds trust, trust drives use, or both are shaped by prior conditions", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Gallup cross-country descriptive analysis of AI-aware adults by self-reported use frequency and trust in accuracy.",
+      "uncertainty": "The public summary does not establish temporal order, instrument exposure, task-specific accuracy, or whether trust transfers into consequential decisions.",
+      "subgroup": "AI-aware adults, with a United States frequency-of-use illustration.",
+      "counterinterpretation": "Frequent users may be more trusting because they have greater digital literacy, occupational access, or selective exposure to useful tools rather than because use itself causes trust.",
+      "source_url": "https://news.gallup.com/poll/714593/optimism-globally-widespread-despite-uneven.aspx",
+      "retrieval_hash": "sha256:e23a4e993d4e30e14e1a17dfe771b4834d9dd4a4f18bc325292892237642a5d9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI emotion and high-income Western-country contrast",
+      "denominator": {"value": 37, "unit": "countries in the first fieldwork wave", "value_type": "published_country_frame"},
+      "measures": {
+        "positive_emotion": {"value": 34, "unit": "countries where positive emotions toward AI outweighed negative emotions", "value_type": "reported_country_count"},
+        "positive_median": {"value": 72, "unit": "median percent reporting at least one positive emotion toward AI", "value_type": "reported_cross_country_median"},
+        "negative_median": {"value": 41, "unit": "median percent reporting at least one negative emotion toward AI", "value_type": "reported_cross_country_median"},
+        "western_worry": {"value": "wealthy Western countries combine relatively high use with some of the highest worry; in the United States, 74% of AI-aware adults reported worry", "unit": "reported emotion pattern", "value_type": "reported_subgroup_comparison"}
+      },
+      "method": "Gallup comparison of self-reported AI emotions by country and use frequency.",
+      "uncertainty": "Emotions are contemporaneous self-reports and do not predict a fixed behavioral response, policy preference, or future adoption path.",
+      "subgroup": "AI-aware adults across 37 countries, with high-income Western-country comparisons.",
+      "counterinterpretation": "Worry may coexist with experimentation, work dependence, or curiosity; it should not be treated as rejection or non-use.",
+      "source_url": "https://news.gallup.com/poll/714593/optimism-globally-widespread-despite-uneven.aspx",
+      "retrieval_hash": "sha256:e23a4e993d4e30e14e1a17dfe771b4834d9dd4a4f18bc325292892237642a5d9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/global/2025/10/15/views-of-ai-in-25-countries/", "claim": "Pew provides complementary cross-country evidence on AI views and perceived effects."},
+    {"source_url": "https://www.undp.org/publications/human-development-report-2025", "claim": "UNDP's human-development and AI-choice work provides complementary agency and capability context."}
+  ],
+  "boundary": "This record adds a global AI diffusion route from awareness through use frequency, expected impact, trust in accuracy, emotions, and unequal access. It is a published cross-country survey summary, not a pooled causal panel, usage telemetry, model-accuracy audit, employment study, or proof that trust causes adoption.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup article was reviewed for its 37-country frame, adoption ladder, country contrasts, optimism and trust comparisons, emotion measures, Western-country worry pattern, and stated causal limitations.",
+    "source_url_sha256": "sha256:e23a4e993d4e30e14e1a17dfe771b4834d9dd4a4f18bc325292892237642a5d9",
+    "checked": "2026-09-26"
+  }
+}

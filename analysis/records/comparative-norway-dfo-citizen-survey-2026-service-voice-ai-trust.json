@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-norway-dfo-citizen-survey-2026-service-voice-ai-trust",
+  "title": "Norwegian citizens distinguish usable public services from weak influence, administrative trust, and confidence in automated decisions",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Norwegian Agency for Public and Financial Management (DFØ), Innbyggerundersøkelsen 2026 (Citizen Survey 2026)",
+  "geography": "Norway; national citizen survey with municipal and national public-service modules, using weighted results and repeated 2010-2025 trend tables",
+  "observations": [
+    {
+      "period": "2021-2025; trust in national government and public administration",
+      "denominator": {"value": 16036, "unit": "Norwegian Citizen Survey 2025 respondents for government trust item; administration item N=16021", "value_type": "survey_respondent_count"},
+      "measures": {
+        "government_high_trust": {"value": 57, "unit": "percent reporting high trust in government in 2025, compared with 64% in 2021", "value_type": "reported_share"},
+        "government_low_trust": {"value": 29, "unit": "percent reporting low trust in government in 2025, compared with 22% in 2021", "value_type": "reported_share"},
+        "administration_high_trust": {"value": 51, "unit": "percent reporting high trust in public administration in 2025, compared with 62% in 2021", "value_type": "reported_share"},
+        "administration_low_trust": {"value": 30, "unit": "percent reporting low trust in public administration in 2025, compared with 19% in 2021", "value_type": "reported_share"}
+      },
+      "method": "Official Norwegian Citizen Survey weighted repeated cross-section results, with comparable 2021 and 2025 trust measures.",
+      "uncertainty": "The survey documents changes in reported trust but does not identify causal drivers, establish that all respondents experienced the same institutions, or separate national political events from administrative encounters.",
+      "subgroup": "Norwegian adult respondents in the 2021 and 2025 survey waves; the published table reports aggregate results for these items.",
+      "counterinterpretation": "Trust can move with salient national events or survey context even when day-to-day public services remain stable; the decline does not by itself prove worsening service performance.",
+      "source_url": "https://www.dfo.no/undersokelser/innbyggerundersokelsen-2026",
+      "retrieval_hash": "sha256:e6ceca4230f7caba14b16cd66b3d06880fe2397c76bfc5d8947263e313929f0b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; public service quality alongside local political voice",
+      "denominator": {"value": 5748, "unit": "Norwegian Citizen Survey respondents for municipal-service quality and local-politician listening items", "value_type": "survey_respondent_count"},
+      "measures": {
+        "municipal_service_satisfaction": {"value": 68, "unit": "percent satisfied with the quality of municipal services", "value_type": "reported_share"},
+        "local_politician_listening": {"value": 34, "unit": "percent satisfied with how municipal politicians listen to residents' views", "value_type": "reported_share"},
+        "local_politician_dissatisfaction": {"value": 31, "unit": "percent dissatisfied with how municipal politicians listen to residents' views", "value_type": "reported_share"},
+        "local_influence": {"value": 33, "unit": "percent saying the Norwegian political system gives people like them much influence, versus 44% saying little influence", "value_type": "reported_share"}
+      },
+      "method": "Official Norwegian Citizen Survey weighted cross-sectional results combining municipal service assessment, local representation, and political-influence questions.",
+      "uncertainty": "These are separate descriptive questions and do not establish that service quality causes or offsets political dissatisfaction; the influence item is national while the listening item is municipal.",
+      "subgroup": "Norwegian residents assessing municipal services and local political representation.",
+      "counterinterpretation": "Citizens may judge service delivery and political responsiveness by different standards; a reasonably usable service can coexist with disagreement over representation or policy outcomes.",
+      "source_url": "https://www.dfo.no/undersokelser/innbyggerundersokelsen-2026",
+      "retrieval_hash": "sha256:e6ceca4230f7caba14b16cd66b3d06880fe2397c76bfc5d8947263e313929f0b",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; responsiveness, explanation, and resident influence",
+      "denominator": {"value": 4688, "unit": "Norwegian Citizen Survey respondents in the 2025 public-institution expectation module; item Ns approximately 4685-4690", "value_type": "survey_respondent_count"},
+      "measures": {
+        "complaint_improvement": {"value": 30, "unit": "percent saying it is likely that a public service improves when many people complain, down from 32% in 2023", "value_type": "reported_share"},
+        "reform_explanation": {"value": 37, "unit": "percent saying it is likely that authorities explain how a reform affects them, versus 41% saying unlikely", "value_type": "reported_share"},
+        "local_decision_influence": {"value": 29, "unit": "percent saying residents are likely to influence a decision affecting their local area, versus 52% saying unlikely", "value_type": "reported_share"},
+        "service_adaptation": {"value": 20, "unit": "percent saying public services are likely to adapt quickly to changed social needs, versus 59% saying unlikely", "value_type": "reported_share"}
+      },
+      "method": "Official Norwegian Citizen Survey weighted cross-sectional expectations module, with a limited 2023 comparison for complaint responsiveness.",
+      "uncertainty": "Perceived institutional responsiveness is not an observed count of reforms, complaint outcomes, or participation decisions; the questions measure expectations and the 2023-2025 comparison is not a causal panel.",
+      "subgroup": "Norwegian residents evaluating public responsiveness, reform communication, local influence, and adaptation to changing needs.",
+      "counterinterpretation": "Low expectations may reflect high standards or awareness of slow democratic processes rather than uniformly poor institutional performance; some changes may be invisible to respondents.",
+      "source_url": "https://www.dfo.no/undersokelser/innbyggerundersokelsen-2026",
+      "retrieval_hash": "sha256:e6ceca4230f7caba14b16cd66b3d06880fe2397c76bfc5d8947263e313929f0b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; confidence in artificial intelligence used by public bodies",
+      "denominator": {"value": 4672, "unit": "Norwegian Citizen Survey respondents for the public-sector AI tailored-service item; fairness item N=4664", "value_type": "survey_respondent_count"},
+      "measures": {
+        "tailored_services_confidence": {"value": 32, "unit": "percent confident public AI will deliver services better tailored to individual needs, versus 44% unconfident", "value_type": "reported_share"},
+        "fair_treatment_confidence": {"value": 25, "unit": "percent confident AI systems will treat different groups fairly, versus 51% unconfident", "value_type": "reported_share"},
+        "uncertainty": {"value": "14-16% selected neither confident nor unconfident and 7-9% did not know on these items", "unit": "reported response pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Official Norwegian Citizen Survey weighted cross-sectional questions on anticipated public-sector AI performance and fairness.",
+      "uncertainty": "These are expectations about future or unfamiliar public-sector AI use, not measured algorithmic performance, realized discrimination, or evidence that confidence changes after deployment.",
+      "subgroup": "Norwegian residents evaluating public-sector AI personalization and equal treatment.",
+      "counterinterpretation": "Skepticism may reflect prudent demand for safeguards rather than opposition to useful automation; higher knowledge or direct exposure could change views.",
+      "source_url": "https://www.dfo.no/undersokelser/innbyggerundersokelsen-2026",
+      "retrieval_hash": "sha256:e6ceca4230f7caba14b16cd66b3d06880fe2397c76bfc5d8947263e313929f0b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.dfo.no/sites/default/files/2026-04/tabellverk-17.4-innbyggerundersokelsen-2026-kom.xlsx", "claim": "Official DFØ workbook containing the 2010-2025 weighted tables and 2025 public-service, representation, and AI questions."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en.html", "claim": "OECD Trust Survey provides a cross-country comparator for the Norway citizen-survey results."}
+  ],
+  "boundary": "This record adds a Norwegian comparative public-service, political-voice, and public-sector-AI trust route. It uses official weighted survey tables and repeated cross-sectional comparisons, not respondent-level longitudinal data, observed service outcomes, causal explanations, or evidence that AI has been deployed and evaluated in these services.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official DFØ 2026 Citizen Survey page and downloadable workbook were reviewed for trust trends, municipal service quality, local listening and influence, responsiveness expectations, reform explanation, service adaptation, and public-sector AI confidence.",
+    "source_url_sha256": "sha256:e6ceca4230f7caba14b16cd66b3d06880fe2397c76bfc5d8947263e313929f0b",
+    "checked": "2026-09-28"
+  }
+}

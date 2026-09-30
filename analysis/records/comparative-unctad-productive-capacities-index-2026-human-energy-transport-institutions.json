@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-productive-capacities-index-2026-human-energy-transport-institutions",
+  "title": "Productive capacity depends on the interaction of human, physical, digital, institutional, and private-sector systems, but measurement gaps are greatest where capacity is weakest",
+  "theme_ids": ["work", "cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "United Nations Trade and Development, Productive Capacities Index, 3rd generation",
+  "geography": "195 economies, 2000-2024; developing economies, least developed countries, productive systems, infrastructure, institutions, firms, workers, and households",
+  "observations": [
+    {
+      "period": "2000-2024; multidimensional productive-capacity measurement",
+      "denominator": {"value": 195, "unit": "economies covered by the third-generation Productive Capacities Index", "value_type": "global_economy_index_frame"},
+      "measures": {
+        "indicator_count": {"value": 43, "unit": "indicators used in the third-generation Productive Capacities Index", "value_type": "reported_indicator_count"},
+        "dimension_count": {"value": 8, "unit": "dimensions: human capital, natural capital, energy, transport, ICT, institutions, private sector, and structural change", "value_type": "reported_dimension_count"},
+        "index_scope": {"value": "resources, capabilities, and connections that enable economies to produce goods and services", "unit": "reported conceptual scope", "value_type": "reported_framework"},
+        "policy_use": {"value": "country benchmarking, policy analysis, and diagnosis of development gaps", "unit": "reported use case", "value_type": "reported_policy_use"}
+      },
+      "method": "UN Trade and Development composite-index construction using 43 internationally comparable indicators across eight productive-capacity dimensions for 195 economies over 2000-2024.",
+      "uncertainty": "A composite index summarizes system conditions and does not establish causal effects, household welfare, firm productivity, worker outcomes, or a single policy ranking; component quality and missingness matter.",
+      "subgroup": "Economies at different development levels, workers, firms and farms, households, infrastructure users, governments, and international development partners.",
+      "counterinterpretation": "Multidimensional capacity can improve through different combinations of human, natural, physical, digital, institutional, and private-sector assets; a low aggregate score does not imply weakness in every dimension.",
+      "source_url": "https://unctad.org/publication/productive-capacities-index-3rd-generation",
+      "retrieval_hash": "sha256:0f1cfd0646d4bbd8cfac1924a836e1cf2c149207f895970bf6c8cb5400b5f074",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; measurement coverage and least-developed-country data gaps",
+      "denominator": {"value": 42, "unit": "indicators comparable with the previous PCI edition", "value_type": "index_comparability_frame"},
+      "measures": {
+        "indicators_with_improved_coverage": {"value": 34, "unit": "comparable indicators with improved data coverage in the third-generation update", "value_type": "reported_indicator_count"},
+        "overall_missing_rate": {"value": 22.9, "unit": "percent of observations missing in the PCI input data set", "value_type": "reported_missing_share"},
+        "ldc_transport_missing_rate": {"value": 61.4, "unit": "percent of transport observations missing for least developed countries", "value_type": "reported_missing_share"},
+        "ldc_private_sector_missing_rate": {"value": 55.7, "unit": "percent of private-sector observations missing for least developed countries", "value_type": "reported_missing_share"},
+        "ldc_energy_missing_rate": {"value": 37.5, "unit": "percent of energy observations missing for least developed countries", "value_type": "reported_missing_share"}
+      },
+      "method": "UN Trade and Development comparison of input-data completeness across indicators and country groups in the third-generation PCI.",
+      "uncertainty": "Missingness rates describe measurement availability, not actual absence of transport, private-sector, or energy capacity; imputation and coverage differences can affect cross-country comparisons.",
+      "subgroup": "Least developed countries, national statistical offices, infrastructure and energy agencies, firms, policy analysts, and populations in data-poor settings.",
+      "counterinterpretation": "Improved statistical systems can reveal capacity that was previously unmeasured, and missing-data treatment can support continuity when direct observations are unavailable if interpreted cautiously.",
+      "source_url": "https://unctad.org/publication/productive-capacities-index-3rd-generation",
+      "retrieval_hash": "sha256:0f1cfd0646d4bbd8cfac1924a836e1cf2c149207f895970bf6c8cb5400b5f074",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2024; statistical capacity and measurement quality",
+      "denominator": {"value": 1, "unit": "country-level relationship between World Bank Statistical Performance Indicators and PCI input-data missingness", "value_type": "statistical_capacity_frame"},
+      "measures": {
+        "missing_rate_association": {"value": -0.46, "unit": "percentage-point change in the missing rate associated with a one-point increase in the World Bank Statistical Performance Indicators score, on average", "value_type": "reported_association"},
+        "data_system_signal": {"value": "data availability is closely linked to statistical capacity", "unit": "reported measurement relationship", "value_type": "reported_mechanism"},
+        "recommended_response": {"value": "stronger national statistical systems, international coordination, and standardized reporting", "unit": "reported capacity-building pathway", "value_type": "reported_policy_set"},
+        "reproducibility_design": {"value": 200, "unit": "random starting points used in repeated index calculations to reduce chance influence", "value_type": "reported_method_count"}
+      },
+      "method": "UN Trade and Development analysis of missing-data patterns, statistical-performance scores, and repeated composite-index calculations with varied random starting points.",
+      "uncertainty": "The reported association is not causal and does not establish that statistical investment improves productive capacity; index reproducibility does not eliminate conceptual or source-data limitations.",
+      "subgroup": "National statistical systems, development agencies, governments allocating data resources, firms and communities whose conditions are represented or omitted by official statistics.",
+      "counterinterpretation": "Better data can improve targeting and accountability without changing underlying capacity; some data-poor countries may have informal or locally effective systems not captured by internationally comparable indicators.",
+      "source_url": "https://unctad.org/publication/productive-capacities-index-3rd-generation",
+      "retrieval_hash": "sha256:0f1cfd0646d4bbd8cfac1924a836e1cf2c149207f895970bf6c8cb5400b5f074",
+      "status": "reported"
+    },
+    {
+      "period": "Third-generation PCI release; index continuity and methodological revision",
+      "denominator": {"value": 1, "unit": "country ranking and score comparison between the second- and third-generation PCI editions", "value_type": "index_revision_frame"},
+      "measures": {
+        "spearman_rank_correlation": {"value": 0.9862, "unit": "Spearman rank correlation between overall PCI rankings in the previous and third-generation editions", "value_type": "reported_correlation"},
+        "pearson_score_correlation": {"value": 0.9911, "unit": "Pearson correlation between overall PCI scores in the previous and third-generation editions", "value_type": "reported_correlation"},
+        "new_transport_indicator": {"value": "seaborne goods discharged", "unit": "new country-level maritime-transport indicator", "value_type": "reported_indicator_addition"},
+        "methodological_tradeoff": {"value": "the pipeline improves missing-data treatment and robustness while preserving high comparability with the previous edition", "unit": "reported methodological result", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development comparison of third-generation and prior PCI scores and rankings, plus documentation of new maritime-transport coverage and data-processing changes.",
+      "uncertainty": "High correlation supports continuity but does not prove validity of every component, capture rapid local change, or establish that rankings reflect lived opportunity or institutional quality in every economy.",
+      "subgroup": "Policy makers, analysts, investors, firms, development partners, and populations whose countries may be prioritized or deprioritized by benchmark-based policy.",
+      "counterinterpretation": "Stable rankings can support long-term monitoring while methodological changes improve measurement; country-specific dimension profiles may matter more than aggregate rank.",
+      "source_url": "https://unctad.org/publication/productive-capacities-index-3rd-generation",
+      "retrieval_hash": "sha256:0f1cfd0646d4bbd8cfac1924a836e1cf2c149207f895970bf6c8cb5400b5f074",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/productive-capacities/productive-capacities-index", "claim": "UNCTAD PCI framework, eight categories, score interpretation, data sources, and limitations."},
+    {"source_url": "https://unctad.org/publication/productive-capacities-index-3rd-generation", "claim": "Official third-generation PCI publication page with coverage, methodology, data gaps, and continuity findings."}
+  ],
+  "boundary": "This record adds a productive-capacity route from human, natural, energy, transport, ICT, institutional, private-sector, and structural-change conditions through measurement quality and development opportunity. It is a composite-index publication, not firm-level causal evidence, respondent data, household welfare, direct geopolitical leverage, or proof that higher capacity scores produce inclusive outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD third-generation PCI publication page and PCI framework page were reviewed; economy coverage, indicator and dimension counts, missingness, statistical-capacity association, repeated-calculation method, maritime indicator, and revision correlations were cross-checked.",
+    "source_url_sha256": "sha256:0f1cfd0646d4bbd8cfac1924a836e1cf2c149207f895970bf6c8cb5400b5f074",
+    "checked": "2026-09-26"
+  }
+}

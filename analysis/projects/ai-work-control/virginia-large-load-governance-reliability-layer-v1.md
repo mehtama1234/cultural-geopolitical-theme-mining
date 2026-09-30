@@ -16,6 +16,8 @@ household bills or recovered all public costs.
 | 2025 filing | Dominion identified 139 initial GS-5 accounts, including 131 data-center accounts and 8 non-data-center accounts | Measures the initial scope of the proposed large-load class | Filing snapshot, not a current roster, consumption measure, or facility-level location |
 | February 2026 SCC public summary; revised March 2026 | SCC describes a 14-year service obligation, at least 85% minimum transmission/distribution charges, possible collateral up to 60% of minimum charges for qualifying new customers, and review of Dominion's interconnection process | Converts large-load growth into explicit demand, credit, and interconnection risk-allocation rules | Policy summary is not a signed contract, collateral posting, payment, energized load, enforcement, or household bill |
 | September–December 2025 Golden-Mars hearings/comments; April–June 2026 decisions | More than 600 registered speakers and hundreds of written comments raised undergrounding, property-value, landscape, appearance, and health concerns; the SCC first conditionally selected Route 4, then approved Route 3A on June 29 after the School Board did not consent to Route 4 crossing its land | Adds a public-participation, land-control constraint, and route-substitution stage to infrastructure governance | Institutional summary is not representative opinion, proof of data-center attribution, construction, resident acceptance, compensation, or a measured health/property outcome |
+| August–September 2026 | SCC directed Dominion to develop direct-assignment treatment for transmission infrastructure serving data centers and other large loads; Virginia began administrative implementation of a $0.011/kWh data-center electricity-consumption tax | Advances cost attribution from modeled allocation toward enacted collection machinery | Projected ratepayer protection and tax administration are not observed residential savings, data-center payment totals, or full cost recovery |
+| September 2026 Executive Order 22 | Virginia established an accountability framework with a local planning/community-engagement toolkit, material-impact disclosure, limits on new executive-branch nondisclosure agreements, and restrictions on specified site-readiness assistance for new projects at or above 25 MW | Converts public legitimacy and local voice from a stated concern into an executive implementation surface | Directives and deadlines do not establish toolkit use, meaningful participation, local consent, environmental protection, or changed development outcomes |
 
 The evidence supports a staged chain:
 
@@ -25,6 +27,8 @@ large-load concentration and rapid growth
   -> regulator specifies rate class, minimum obligations, collateral/term rules,
      interconnection oversight, and route conditions
   -> public input and land-control constraints can change the approved path
+  -> enacted cost attribution, tax collection, transparency, and community-voice
+     machinery create observable implementation checkpoints
 ```
 
 The rule is an institutional response to infrastructure dependence. It does
@@ -33,6 +37,8 @@ not close the next arrows:
 ```text
 tariff design -> actual utility cost allocation -> household bill outcome
 reliability event -> local facility/worker/community consequence
+enacted tax/tariff and credit proposal -> collection/posting -> household receipt and adequacy
+community-engagement framework -> local participation -> decision influence and legitimacy
 county fiscal benefit -> resident legitimacy or political action
 large-load dependence -> firm bargaining power or geopolitical leverage
 ```

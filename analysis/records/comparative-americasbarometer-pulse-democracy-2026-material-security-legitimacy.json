@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-americasbarometer-pulse-democracy-2026-material-security-legitimacy",
+  "title": "Democratic support is recovering modestly across the Americas as material security improves, but weak governance and representation keep legitimacy fragile",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "Vanderbilt Center for Global Democracy and Notre Dame Kellogg Institute, 2026 Pulse of Democracy / AmericasBarometer",
+  "geography": "Americas; 21 countries including the United States and Canada, Latin America and Cuba",
+  "observations": [
+    {
+      "period": "2026 AmericasBarometer; 21 nationally representative country surveys",
+      "denominator": {"value": 25282, "unit": "interviews across 21 countries; voting-age adults in nationally representative surveys", "value_type": "reported_sample"},
+      "measures": {
+        "regional_democratic_support": {"value": 66, "unit": "approximately two-thirds of Latin Americans expressing support for democracy", "value_type": "reported_share_approximate"},
+        "support_change": {"value": 6, "unit": "percentage-point increase in Latin American support for democracy since 2023", "value_type": "reported_difference"},
+        "broad_recovery": {"value": "Support increased in nearly every country and across age and education groups", "unit": "reported comparative pattern", "value_type": "reported_interpretation"},
+        "fragility": {"value": "The report characterizes the recovery as modest and fragile because trust, accountability and responsiveness remain weak", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "AmericasBarometer nationally representative surveys with 121 core questions asked in most countries, country-specific modules, local interviewer training and publicly released data/documentation.",
+      "uncertainty": "Cross-country estimates reflect differing field contexts, institutions, question environments and survey timing; support for democracy is an attitude measure, not democratic performance or regime durability.",
+      "subgroup": "Voting-age adults across 21 countries, with comparisons by age, education, country and security conditions.",
+      "counterinterpretation": "A regional increase can reflect temporary political or economic conditions, strategic responses to alternatives, or survey-period effects rather than a durable democratic renewal.",
+      "source_url": "https://www.vanderbilt.edu/cgd/resource/2026-americasbarometer/",
+      "retrieval_hash": "sha256:2b6d653bc6c71d49d58d74b5c9e24a5a7855d6ebbc544d4ec699b1da52cb705d",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026; economic and food-security conditions across the Americas",
+      "denominator": {"value": 21, "unit": "countries in the 2026 AmericasBarometer comparison", "value_type": "reported_population"},
+      "measures": {
+        "economic_improvement": {"value": "In most countries, fewer people report that their national economy worsened than in 2023", "unit": "reported comparative pattern", "value_type": "reported_interpretation"},
+        "food_insecurity": {"value": 25, "unit": "roughly one in four people across the region reporting food insecurity", "value_type": "reported_share_approximate"},
+        "food_insecurity_trend": {"value": "Household food insecurity has declined from its pandemic-era peak, but improvements are uneven", "unit": "reported comparative pattern", "value_type": "reported_interpretation"},
+        "security_legitimacy_link": {"value": "People experiencing greater economic security and less food insecurity express higher support for democracy", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "Repeated cross-national public-opinion measures linking perceived economic conditions, food insecurity and democratic support.",
+      "uncertainty": "The source reports associations across countries and respondents; it does not identify whether material improvement causes democratic support or whether both reflect other institutional and political factors.",
+      "subgroup": "Adults across the Americas, with uneven national and socioeconomic exposure to food insecurity.",
+      "counterinterpretation": "Improved material conditions may raise satisfaction without resolving corruption, representation or service-quality failures; democratic support can remain conditional.",
+      "source_url": "https://www.vanderbilt.edu/cgd/resource/2026-americasbarometer/",
+      "retrieval_hash": "sha256:2b6d653bc6c71d49d58d74b5c9e24a5a7855d6ebbc544d4ec699b1da52cb705d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; neighborhood safety, crime and governance",
+      "denominator": {"value": 21, "unit": "countries in the 2026 AmericasBarometer comparison", "value_type": "reported_population"},
+      "measures": {
+        "neighborhood_unsafety": {"value": "The share feeling unsafe in their neighborhoods has declined steadily for nearly a decade and fell again in 2026", "unit": "reported comparative trend", "value_type": "reported_interpretation"},
+        "crime_victimization": {"value": "Crime victimization declined only modestly and remains substantially different across countries", "unit": "reported comparative trend", "value_type": "reported_interpretation"},
+        "security_support_link": {"value": "People reporting less exposure to crime and greater physical security express higher democratic support", "unit": "reported association", "value_type": "reported_association"},
+        "corruption_persistence": {"value": "Everyday corruption changed little, limiting the legitimacy gains from improved safety and economic conditions", "unit": "reported governance finding", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated AmericasBarometer measures on perceived neighborhood safety, victimization, corruption and democratic support.",
+      "uncertainty": "Perceived safety and reported victimization are distinct measures and may respond differently to media, local institutions and survey context; the report does not estimate causal mediation.",
+      "subgroup": "Adults across countries and local security contexts in the Americas.",
+      "counterinterpretation": "A decline in fear may reflect adaptation or changing expectations rather than an equivalent decline in actual crime; corruption and service failures may dominate democratic judgments.",
+      "source_url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/157/2026/09/AAFF_LAPOP2026_2SET_HIGH.pdf",
+      "retrieval_hash": "sha256:2b6d653bc6c71d49d58d74b5c9e24a5a7855d6ebbc544d4ec699b1da52cb705d",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026; migration intention and conditions of origin",
+      "denominator": {"value": 21, "unit": "countries in the 2026 AmericasBarometer comparison", "value_type": "reported_population"},
+      "measures": {
+        "emigration_intention": {"value": 25, "unit": "percent reporting an intention to emigrate in 2026, down from 31% in 2023", "value_type": "reported_share"},
+        "prepandemic_return": {"value": "The 2026 level returns roughly to pre-pandemic levels", "unit": "reported comparative pattern", "value_type": "reported_interpretation"},
+        "migration_pressure": {"value": "Migration pressures remain substantial and vary considerably across countries despite the regional decline", "unit": "reported comparative pattern", "value_type": "reported_interpretation"},
+        "origin_conditions": {"value": "Improving conditions in countries of origin coincide with lower intentions to emigrate, alongside the influence of U.S. immigration policy", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "Repeated cross-national survey measure of emigration intention linked to country-level economic, security and policy context.",
+      "uncertainty": "Intent to emigrate is not migration behavior; the report does not isolate origin-country improvement from destination policy, family networks, legal access or changing expectations.",
+      "subgroup": "Adults across the Americas, with strong country-level variation.",
+      "counterinterpretation": "Lower emigration intention could reflect destination barriers or resignation as well as improved origin conditions; migration pressure may shift toward smaller or less visible channels.",
+      "source_url": "https://www.vanderbilt.edu/cgd/resource/2026-americasbarometer/",
+      "retrieval_hash": "sha256:2b6d653bc6c71d49d58d74b5c9e24a5a7855d6ebbc544d4ec699b1da52cb705d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.vanderbilt.edu/cgd/press/new-americasbarometer-report-finds-modest-but-widespread-recovery-in-support-for-democracy-across-the-americas/", "claim": "Official Vanderbilt announcement with sample, regional findings and governance interpretation."},
+    {"source_url": "https://www.vanderbilt.edu/cgd/resource/2026-americasbarometer/", "claim": "Official report page with key findings, survey scope, data access and technical-resource links."}
+  ],
+  "boundary": "This record adds a comparative democratic-legitimacy mechanism: improvements in economic security, food security and neighborhood safety coincide with a modest recovery in democratic support, while corruption, weak public services and doubts about government honesty and responsiveness keep that recovery fragile. It is a repeated cross-national public-opinion program, not a causal panel, administrative security dataset, direct measure of democratic durability or proof that material improvement alone restores institutional trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Vanderbilt announcement, report page and 2026 Pulse of Democracy PDF were retrieved and reviewed for sample scope, country coverage, democratic support, food insecurity, economic conditions, safety, crime, corruption and emigration-intention findings; the PDF was hashed.",
+    "source_url_sha256": "sha256:2b6d653bc6c71d49d58d74b5c9e24a5a7855d6ebbc544d4ec699b1da52cb705d",
+    "checked": "2026-09-27"
+  }
+}

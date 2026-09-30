@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-yougov-music-consumption-discovery-genz-streaming-2026",
+  "title": "Music consumption is expanding for a younger cohort while discovery remains a platform-and-relationship hybrid",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "YouGov, Music consumption trends 2026: Who's listening more—and what's driving discovery?, September 7, 2026",
+  "geography": "United States; adults age 18+ with generational comparisons",
+  "observations": [
+    {
+      "period": "September 2025–September 2026 rolling YouGov Profiles data; music importance and changing listening volume",
+      "denominator": {"value": 1, "unit": "nationally representative U.S. adults age 18+ in YouGov Profiles rolling 52-week dataset; public article does not state the effective n", "value_type": "published_rolling_survey_frame"},
+      "measures": {
+        "music_importance": {"value": 84, "unit": "percent saying music is very or fairly important to them", "value_type": "reported_share"},
+        "listening_more": {"value": 21, "unit": "percent saying they listen to more music than a year earlier", "value_type": "reported_share"},
+        "listening_less": {"value": 13, "unit": "percent saying they listen to less music than a year earlier", "value_type": "reported_share"},
+        "same_consumption": {"value": 61, "unit": "percent saying their music consumption is about the same", "value_type": "reported_share"},
+        "mechanism": {"value": "Music remains a durable everyday cultural practice while its intensity changes unevenly across cohorts and listening occasions", "unit": "bounded cultural-consumption mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "YouGov Profiles rolling survey data collected continuously between September 2025 and September 2026, weighted by age, gender, education, region and race to represent U.S. adults; public article does not state the effective sample size.",
+      "uncertainty": "The data are self-reported listening measures, not verified streams, time-use diaries, subscription revenue or causal changes in music consumption; rolling-period estimates may mask timing and cohort composition.",
+      "subgroup": "U.S. adults by generation, age, gender, education, region and race; the article focuses on generational composition of increased listeners.",
+      "counterinterpretation": "More listening may reflect background or passive consumption rather than deeper cultural engagement, and stable overall listening can coexist with major platform or genre substitution.",
+      "source_url": "https://yougov.com/en-us/articles/55506-music-consumption-trends-2026-whos-listening-more-and-whats-driving-discovery",
+      "retrieval_hash": "sha256:b1a70cff8338deaffc6a420b41fb110ea481a4d2ac8beb8185b42a38b8afaf0b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2025–September 2026; generational concentration of increased listening",
+      "denominator": {"value": 1, "unit": "Americans listening to more music than a year earlier in the YouGov Profiles dataset", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "gen_z_share_of_increased_listeners": {"value": 45, "unit": "percent of Americans listening to more music who are Gen Z, versus 20% of the overall adult population", "value_type": "reported_composition"},
+        "older_generation_underrepresentation": {"value": "Gen X represents 15% of increased listeners versus 24% of the overall population; Baby Boomers and older represent 8% versus 28%", "unit": "reported composition comparison", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Younger listeners may be using music as an expanding identity, mood, social and discovery layer, while older cohorts' lower share may reflect life-stage, platform or reporting differences", "unit": "bounded generational mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "YouGov comparison of the generational composition of respondents reporting increased listening with generational shares in the adult population.",
+      "uncertainty": "Composition is not a within-generation listening-growth rate; it does not establish that Gen Z increased listening more than every other cohort after population-size and subgroup controls.",
+      "subgroup": "Gen Z, Millennials, Gen X, Baby Boomers and older adults, with differences potentially shaped by age, life stage, platform access, family obligations and cultural taste.",
+      "counterinterpretation": "A cohort's share of increased listeners can be high because of population composition or survey response patterns, not necessarily because its members listen more frequently or spend more.",
+      "source_url": "https://yougov.com/en-us/articles/55506-music-consumption-trends-2026-whos-listening-more-and-whats-driving-discovery",
+      "retrieval_hash": "sha256:b1a70cff8338deaffc6a420b41fb110ea481a4d2ac8beb8185b42a38b8afaf0b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2025–September 2026; discovery routes among Americans listening to more music",
+      "denominator": {"value": 1, "unit": "U.S. adults listening to more music than a year earlier", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "streaming_recommendations": {"value": 59, "unit": "percent discovering new music through streaming-service recommendations", "value_type": "reported_share"},
+        "social_media_and_blogs": {"value": 52, "unit": "percent discovering new music through social media and music blogs", "value_type": "reported_share"},
+        "friends_and_family": {"value": 48, "unit": "percent discovering new music through friends and family", "value_type": "reported_share"},
+        "radio_and_music_channels": {"value": 43, "unit": "percent citing radio and music channels", "value_type": "reported_share"},
+        "concerts_and_live_performance": {"value": 25, "unit": "percent citing concerts and live performances", "value_type": "reported_share"},
+        "mechanism": {"value": "Music discovery is a hybrid infrastructure: algorithmic recommendation has the largest reported route, but social ties, editorial culture, radio and live events remain active interfaces", "unit": "bounded platform-culture mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "YouGov Profiles multi-response discovery-source question among respondents reporting increased music listening.",
+      "uncertainty": "Discovery routes are self-reported and may overlap; the data do not measure recommendation quality, artist exposure, conversion to listening, payment, ownership, genre diversity or platform concentration.",
+      "subgroup": "Music listeners with different age, genre, platform, social-network, income and live-event access profiles.",
+      "counterinterpretation": "A high share for streaming recommendations may reflect convenience rather than cultural authority; friends, blogs and concerts may matter more for identity or loyalty than their lower percentages imply.",
+      "source_url": "https://yougov.com/en-us/articles/55506-music-consumption-trends-2026-whos-listening-more-and-whats-driving-discovery",
+      "retrieval_hash": "sha256:b1a70cff8338deaffc6a420b41fb110ea481a4d2ac8beb8185b42a38b8afaf0b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://yougov.com/en-us/articles/55506-music-consumption-trends-2026-whos-listening-more-and-whats-driving-discovery", "claim": "Official YouGov article with music importance, listening change, generational composition, discovery routes and rolling Profiles methodology."}
+  ],
+  "boundary": "This record identifies a music-consumption, generational identity and hybrid-discovery subtheme. It does not establish streaming volume, subscription or concert spending, artist income, algorithmic causality, cultural influence, genre change, platform market power, or within-generation growth rates; the public article does not state the effective rolling sample size.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official YouGov article was reviewed for the September 7, 2026 date, 84% music importance, 21% increased listening, generational composition, discovery-source percentages and September 2025–September 2026 rolling weighted methodology.",
+    "source_page_sha256": "sha256:b1a70cff8338deaffc6a420b41fb110ea481a4d2ac8beb8185b42a38b8afaf0b",
+    "checked": "2026-09-29"
+  }
+}

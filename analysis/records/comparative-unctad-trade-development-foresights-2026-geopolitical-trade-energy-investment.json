@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-trade-development-foresights-2026-geopolitical-trade-energy-investment",
+  "title": "Geopolitical shocks are transmitting through trade, energy, finance, shipping, and unequal clean-investment capacity",
+  "theme_ids": ["cost", "energy", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UN Trade and Development, Trade and Development Foresights 2026: Global economy faces a geopolitical challenge",
+  "geography": "Global trade, investment, energy, shipping, industrial production, financial conditions, and developing-economy exposure",
+  "observations": [
+    {
+      "period": "2025-2026; global growth and trade outlook",
+      "denominator": {"value": 1, "unit": "world economy, merchandise trade, industrial production, and global investment frame", "value_type": "global_trade_frame"},
+      "measures": {
+        "trade_growth_2025": {"value": 4.7, "unit": "percent world merchandise trade growth in 2025", "value_type": "reported_growth_rate"},
+        "trade_growth_2026_projection": {"value": "between 1.5 and 2.5 percent", "unit": "projected world merchandise trade growth range for 2026", "value_type": "reported_projection_range"},
+        "outlook_mechanism": {"value": "geopolitical uncertainty weighs on trade, investment, supply chains, and growth after a stronger-than-expected start to 2026", "unit": "UNCTAD report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development macroeconomic, trade, investment, and supply-chain analysis using global and national economic indicators.",
+      "uncertainty": "The 2026 trade figure is a projection range sensitive to conflict, policy, prices, shipping, and financial conditions; it is not a country-level forecast or household welfare estimate.",
+      "subgroup": "Developing economies, exporters and importers, workers in traded sectors, firms in global value chains, governments, and households exposed to price or employment shocks.",
+      "counterinterpretation": "Trade can remain resilient through rerouting, inventory adjustment, services, and new partners even when aggregate merchandise growth slows; weak trade growth does not imply uniform recession.",
+      "source_url": "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge",
+      "retrieval_hash": "sha256:159deee7fc33a7a71745451707940544dea2bb98d52de899b179a2ae60bfcd8a",
+      "status": "reported"
+    },
+    {
+      "period": "early 2026; geopolitical shock transmission",
+      "denominator": {"value": 1, "unit": "energy markets, financial conditions, maritime routes, and geopolitical-shock transmission frame", "value_type": "shock_transmission_frame"},
+      "measures": {
+        "shock_channels": {"value": "conflict in the Middle East disrupted energy markets, financial conditions, and major shipping routes", "unit": "UNCTAD report synthesis", "value_type": "reported_mechanism"},
+        "strait_of_hormuz": {"value": "the Strait of Hormuz is identified as a critical route for global oil and gas trade", "unit": "UNCTAD report context", "value_type": "reported_dependency"},
+        "living_cost_channel": {"value": "slower growth and rising living costs are among the report's central concerns", "unit": "UNCTAD report framing", "value_type": "reported_pattern"}
+      },
+      "method": "UNCTAD analysis of geopolitical events, energy and shipping routes, financial conditions, and macroeconomic spillovers.",
+      "uncertainty": "The report identifies transmission channels but does not estimate the causal effect of any single conflict on a particular household, firm, route, or price.",
+      "subgroup": "Energy-importing economies, shipping and logistics firms, consumers, workers, commodity producers, vulnerable countries, and public finance systems.",
+      "counterinterpretation": "Route substitution, strategic reserves, demand adjustment, and policy intervention can moderate or redistribute the shock; disruption need not be permanent.",
+      "source_url": "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge",
+      "retrieval_hash": "sha256:159deee7fc33a7a71745451707940544dea2bb98d52de899b179a2ae60bfcd8a",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; clean-energy investment and unequal productive capacity",
+      "denominator": {"value": 1, "unit": "global solar-resource, clean-energy-investment, and energy-transition frame", "value_type": "clean_energy_investment_frame"},
+      "measures": {
+        "renewables_cost_comparison": {"value": 91, "unit": "percent of newly commissioned utility-scale electricity capacity comparisons in which renewables were cheaper than the cheapest new fossil alternative in 2024", "value_type": "reported_share"},
+        "africa_solar_resources": {"value": 60, "unit": "percent of the world's best solar resources located in Africa", "value_type": "reported_share"},
+        "africa_clean_investment": {"value": 2, "unit": "percent of global clean-energy investment received by Africa in 2024", "value_type": "reported_share"},
+        "capacity_gap": {"value": "resource endowment and investment access are sharply misaligned", "unit": "UNCTAD report synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "UNCTAD comparison of utility-scale generation costs, resource geography, and global clean-energy investment flows.",
+      "uncertainty": "Cost comparisons depend on technology, financing, location, grid integration, and time horizon; investment shares do not measure delivered capacity, reliability, or local benefit.",
+      "subgroup": "Energy-poor communities, African economies, public and private investors, utilities, industrial firms, workers, and households exposed to energy costs.",
+      "counterinterpretation": "Low generation cost can coexist with high financing, transmission, storage, or governance barriers; investment can rise without translating into affordable or reliable service.",
+      "source_url": "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge",
+      "retrieval_hash": "sha256:159deee7fc33a7a71745451707940544dea2bb98d52de899b179a2ae60bfcd8a",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; AI-linked investment and industrial transformation",
+      "denominator": {"value": 1, "unit": "global AI investment, industrial production, critical-technology, and development-capacity frame", "value_type": "technology_industry_frame"},
+      "measures": {
+        "ai_investment": {"value": "strong investment linked to artificial intelligence supported global industrial momentum entering 2026", "unit": "UNCTAD report synthesis", "value_type": "reported_pattern"},
+        "industrial_policy": {"value": "resilience requires stronger investment in clean energy and critical industrial components such as chips, batteries, and electric motors", "unit": "UNCTAD policy recommendation", "value_type": "reported_framework"},
+        "dependency_question": {"value": "technology and industrial concentration can strengthen growth while increasing exposure to supply, finance, and geopolitical dependencies", "unit": "cross-source analytical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNCTAD synthesis of industrial production, AI-related investment, critical technologies, supply chains, and development policy.",
+      "uncertainty": "Aggregate investment momentum does not identify who captures productivity, wages, or control; the report does not establish causal employment or distributional effects of AI investment.",
+      "subgroup": "Developing economies, technology firms, industrial workers, public investors, suppliers of critical components, and communities exposed to transition costs.",
+      "counterinterpretation": "Technology investment can diversify productive capacity and create new work when skills, finance, competition, and public infrastructure are broadly available.",
+      "source_url": "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge",
+      "retrieval_hash": "sha256:159deee7fc33a7a71745451707940544dea2bb98d52de899b179a2ae60bfcd8a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://investmentpolicy.unctad.org/publications/1324/world-investment-report-2026-international-investment-in-a-turbulent-era", "claim": "UNCTAD World Investment Report 2026 provides complementary evidence on concentrated investment, geopolitical uncertainty, and economic fragmentation."},
+    {"source_url": "https://unctad.org/topic/macroeconomics/trade-development-report", "claim": "UNCTAD Trade and Development Report series provides the longer-run development, trade, finance, and policy context."}
+  ],
+  "boundary": "This record adds a global trade, energy, investment, industrial-capacity, and geopolitical-shock route. It uses aggregate macro indicators, projections, investment comparisons, and report synthesis, not household price panels, firm-level supply-chain histories, causal AI employment estimates, or proof that clean-energy investment delivers local welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Trade and Development Foresights 2026 materials were reviewed for the 2026 trade outlook, geopolitical transmission through energy and shipping, clean-energy investment concentration, and AI-linked industrial investment.",
+    "source_url_sha256": "sha256:159deee7fc33a7a71745451707940544dea2bb98d52de899b179a2ae60bfcd8a",
+    "checked": "2026-09-26"
+  }
+}

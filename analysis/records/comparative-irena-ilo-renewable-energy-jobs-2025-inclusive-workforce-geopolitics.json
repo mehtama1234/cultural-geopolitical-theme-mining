@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-irena-ilo-renewable-energy-jobs-2025-inclusive-workforce-geopolitics",
+  "title": "Renewable deployment is creating a large but geographically concentrated workforce, while automation, supply-chain frictions and grid constraints weaken the simple promise that more capacity means proportionally more jobs",
+  "theme_ids": ["work", "energy", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "time_hidden_price"
+  ],
+  "source_unit": "International Renewable Energy Agency and International Labour Organization, Renewable Energy and Jobs – Annual Review 2025",
+  "geography": "Global renewable-energy employment and supply-chain analysis, with attention to geographic concentration, workforce inclusion and public policy",
+  "observations": [
+    {
+      "period": "2024; global renewable-energy employment",
+      "denominator": {"value": 1, "unit": "global renewable-energy employment system", "value_type": "global_system_frame"},
+      "measures": {
+        "renewable_jobs": {"value": 16600000, "unit": "direct and indirect renewable-energy jobs worldwide", "value_type": "reported_estimate"},
+        "annual_growth": {"value": 2.3, "unit": "percent increase in renewable-energy jobs from 2023 to 2024", "value_type": "reported_share"},
+        "deployment_context": {"value": "renewable installations reached a new peak while employment growth moderated", "unit": "reported comparison", "value_type": "reported_interpretation"}
+      },
+      "method": "IRENA employment estimates assembled from government, industry, research and other public sources, with ILO analysis of world-of-work dimensions.",
+      "uncertainty": "The estimate combines direct and indirect employment across technologies and uses modeled or compiled evidence where national statistics are incomplete; it is not a census of individual workers.",
+      "subgroup": "Renewable-energy workers, equipment manufacturers, project developers, utilities, contractors and communities seeking transition employment.",
+      "counterinterpretation": "A large and growing employment base can still produce meaningful local economic value even when job growth is slower than capacity growth, especially where deployment is labor-intensive and supply chains are locally anchored.",
+      "source_url": "https://www.ilo.org/resource/news/new-report-calls-stronger-public-role-building-domestic-supply-chains-and",
+      "retrieval_hash": "sha256:138f61569b099f3b21496676a30af81d30cddaa13adbe4bd96aafabb6f7b630d",
+      "status": "reported"
+    },
+    {
+      "period": "2024; renewable-energy deployment, manufacturing and employment conversion",
+      "denominator": {"value": 1, "unit": "renewable deployment-to-employment relationship", "value_type": "published_synthesis"},
+      "measures": {
+        "growth_decoupling": {"value": "employment growth did not keep pace with record capacity additions", "unit": "reported transition pattern", "value_type": "reported_interpretation"},
+        "moderating_factors": {"value": "economies of scale, automation and technological innovation, excess equipment-manufacturing capacity, and grid bottlenecks or curtailment", "unit": "reported factor set", "value_type": "reported_interpretation"},
+        "policy_implication": {"value": "capacity targets alone are insufficient to guarantee broad employment gains or local value creation", "unit": "reported policy implication", "value_type": "reported_policy_route"}
+      },
+      "method": "IRENA-ILO synthesis linking employment estimates to renewable deployment, equipment manufacturing, industrial dynamics and grid conditions.",
+      "uncertainty": "The report identifies plausible sector-level mechanisms rather than estimating a single causal effect for automation, scale, manufacturing capacity or grid constraints.",
+      "subgroup": "Workers in installation, manufacturing, operations and maintenance; regions competing for projects; firms exposed to automation and global equipment cycles.",
+      "counterinterpretation": "Automation and scale can lower deployment costs and expand renewable capacity, potentially creating other skilled work even as labor intensity falls in particular activities.",
+      "source_url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2026/Jan/IRENA_SOC_RE_and_jobs_2026.pdf",
+      "retrieval_hash": "sha256:138f61569b099f3b21496676a30af81d30cddaa13adbe4bd96aafabb6f7b630d",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; global renewable-energy supply chains and workforce geography",
+      "denominator": {"value": 1, "unit": "global renewable-energy supply-chain system", "value_type": "published_synthesis"},
+      "measures": {
+        "geographic_concentration": {"value": "China remains pre-eminent in renewable deployment and equipment manufacturing because of integrated, large-scale supply chains", "unit": "reported geographic pattern", "value_type": "reported_interpretation"},
+        "uneven_development": {"value": "renewable employment and industrial value remain unevenly distributed across countries", "unit": "reported distributional pattern", "value_type": "reported_interpretation"},
+        "public_response": {"value": "domestic supply-chain, industrial, trade, finance and deployment policy can shape where transition value is captured", "unit": "reported policy route set", "value_type": "reported_policy_route_set"}
+      },
+      "method": "IRENA-ILO comparison of renewable employment, technology deployment, manufacturing and national policy contexts.",
+      "uncertainty": "Supply-chain concentration is technology-specific and can change with trade policy, investment, demand, resource availability and new manufacturing capacity.",
+      "subgroup": "Countries and regions seeking domestic value capture, workers in manufacturing and construction, exporters, import-dependent markets and governments managing energy-security risks.",
+      "counterinterpretation": "Internationally integrated supply chains can accelerate affordable deployment and spread technology even when manufacturing jobs are concentrated geographically.",
+      "source_url": "https://www.ilo.org/resource/news/new-report-calls-stronger-public-role-building-domestic-supply-chains-and",
+      "retrieval_hash": "sha256:138f61569b099f3b21496676a30af81d30cddaa13adbe4bd96aafabb6f7b630d",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; inclusion in renewable-energy employment",
+      "denominator": {"value": 1, "unit": "renewable-energy workforce inclusion framework", "value_type": "published_synthesis"},
+      "measures": {
+        "gender_barriers": {"value": "women continue to face barriers to hiring and career advancement in renewable energy", "unit": "reported workforce pattern", "value_type": "reported_interpretation"},
+        "disability_inclusion": {"value": "people with disabilities are only beginning to receive more opportunities in the sector", "unit": "reported workforce pattern", "value_type": "reported_interpretation"},
+        "recommended_levers": {"value": "education and training, deployment support, finance, domestic supply-chain policy and inclusive workforce development", "unit": "reported policy route set", "value_type": "reported_policy_route_set"}
+      },
+      "method": "IRENA-ILO qualitative review of workforce inclusion and policy measures alongside global employment estimates.",
+      "uncertainty": "Comparable global subgroup data on gender, disability, job quality and career progression remain limited; qualitative findings should not be read as precise prevalence estimates.",
+      "subgroup": "Women, people with disabilities, workers needing reskilling, training institutions, employers and public agencies responsible for inclusive transition policy.",
+      "counterinterpretation": "Targeted training and accessible workplace design can expand the talent pool and improve sector capacity, so inclusion is both a distributional and operational issue.",
+      "source_url": "https://www.ilo.org/resource/news/new-report-calls-stronger-public-role-building-domestic-supply-chains-and",
+      "retrieval_hash": "sha256:138f61569b099f3b21496676a30af81d30cddaa13adbe4bd96aafabb6f7b630d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/renewable-energy-and-jobs-annual-review-2025", "claim": "ILO publication landing page for the IRENA-ILO Annual Review 2025."},
+    {"source_url": "https://www.irena.org/Publications/2026/Jan/Renewable-energy-and-Jobs-Annual-Review-2025", "claim": "IRENA publication context for the annual review."}
+  ],
+  "boundary": "This record treats renewable employment as a transition-distribution and geopolitical supply-chain signal. It is not respondent-level labor microdata, a causal evaluation of renewable policy, a complete accounting of job quality, or evidence that every new megawatt produces a fixed number of jobs.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The ILO news release and IRENA-ILO report PDF were retrieved and reviewed for global employment, growth, deployment-to-job conversion, automation, grid constraints, geographic concentration, workforce inclusion and policy recommendations; the report PDF was hashed.",
+    "source_url_sha256": "sha256:138f61569b099f3b21496676a30af81d30cddaa13adbe4bd96aafabb6f7b630d",
+    "checked": "2026-09-27"
+  }
+}

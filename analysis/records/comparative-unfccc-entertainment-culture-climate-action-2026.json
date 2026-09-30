@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unfccc-entertainment-culture-climate-action-2026",
+  "title": "Climate governance is recruiting entertainment and cultural sectors as public-engagement, storytelling, and decarbonization infrastructure",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UN Climate Change / UNFCCC, New strategy for the Entertainment and Culture for Climate Action initiative unveiled at Climate Week NYC, 24 September 2026",
+  "geography": "Global climate-governance initiative with sector workstreams and place-based implementation",
+  "observations": [
+    {
+      "period": "September 2026; culture as climate-engagement infrastructure",
+      "denominator": {"value": 1, "unit": "UNFCCC ECCA strategy and launch announcement", "value_type": "institutional_strategy"},
+      "measures": {
+        "public_engagement": {"value": "ECCA links entertainment and culture to the Paris Agreement commitment to educate, empower, and engage the public on climate action", "unit": "reported governance design", "value_type": "reported_mechanism"},
+        "storytelling_route": {"value": "the strategy treats creative and cultural sectors as ways to reach people beyond targets, treaties, technology, finance, and negotiation texts", "unit": "reported strategy framing", "value_type": "reported_mechanism"},
+        "meaning_route": {"value": "climate legitimacy is connected to food, air, work, bills, places, memory, and the next generation", "unit": "reported public-meaning frame", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNFCCC institutional strategy announcement based on a consultation process conducted since May 2026 with Wellcome Trust and ECCA members.",
+      "uncertainty": "This is an institutional strategy and governance claim, not evidence that cultural messaging changes behavior, public support, emissions, or policy implementation.",
+      "subgroup": "Entertainment and cultural organizations, artists, audiences, policymakers, climate communicators, communities, and sectors represented in the ECCA workstreams.",
+      "counterinterpretation": "Cultural storytelling can raise salience without changing material incentives, infrastructure, political authority, or emissions trajectories.",
+      "source_url": "https://unfccc.int/news/new-strategy-for-un-climate-change-s-entertainment-and-culture-for-climate-action-initiative",
+      "retrieval_hash": "sha256:b21d7719eaa321babc96886afb9c89c0fbdb64e35401a098aa2397fe1dfc155f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; ECCA operating model",
+      "denominator": {"value": 3, "unit": "ECCA strategic functions", "value_type": "published_program_design"},
+      "measures": {
+        "function_one": {"value": "convene a global community of practice", "unit": "ECCA operating function", "value_type": "reported_program_function"},
+        "function_two": {"value": "connect cultural and entertainment communities to the Paris process", "unit": "ECCA operating function", "value_type": "reported_program_function"},
+        "function_three": {"value": "champion storytelling and decarbonization work already under way", "unit": "ECCA operating function", "value_type": "reported_program_function"},
+        "governance_route": {"value": "culture is being connected to formal climate governance through a community, policy, and implementation architecture", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNFCCC description of the strategy's operational functions, workstreams, Steering Committee, and annual workplan.",
+      "uncertainty": "The announcement states that several operational details, including Steering Committee composition and selection processes, remain to be finalized.",
+      "subgroup": "Film and television, music, visual arts, cultural organizations, climate institutions, cities, and policymakers.",
+      "counterinterpretation": "A formal linkage to the Paris process may remain symbolic if resources, accountability, and decision rights do not follow the cultural framing.",
+      "source_url": "https://unfccc.int/news/new-strategy-for-un-climate-change-s-entertainment-and-culture-for-climate-action-initiative",
+      "retrieval_hash": "sha256:b21d7719eaa321babc96886afb9c89c0fbdb64e35401a098aa2397fe1dfc155f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; sector and place-based implementation",
+      "denominator": {"value": 3, "unit": "initial ECCA workstreams: film and television, music, and visual arts", "value_type": "published_program_design"},
+      "measures": {
+        "sector_workstreams": {"value": "initial workstreams begin with film and television, music, and visual arts, with more to follow", "unit": "published implementation scope", "value_type": "reported_program_scope"},
+        "accelerator_city": {"value": "Liverpool piloted nine decarbonization projects across live music and screen production as the first ECCA Accelerator City", "unit": "reported place-based example", "value_type": "reported_case"},
+        "local_route": {"value": "place-based cultural production is being used as a site for testing the link between climate action, local identity, and sector operations", "unit": "analytic place mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNFCCC strategy announcement describing initial workstreams and the Accelerator City model.",
+      "uncertainty": "The announcement does not establish the emissions reductions, financing, labor effects, audience reach, or durability of Liverpool's nine projects.",
+      "subgroup": "Cities, live-music and screen-production workers, cultural venues, artists, local government, audiences, and climate partners.",
+      "counterinterpretation": "Pilot projects can demonstrate organizational learning while remaining too small or sector-specific to shift wider cultural production systems.",
+      "source_url": "https://unfccc.int/news/new-strategy-for-un-climate-change-s-entertainment-and-culture-for-climate-action-initiative",
+      "retrieval_hash": "sha256:b21d7719eaa321babc96886afb9c89c0fbdb64e35401a098aa2397fe1dfc155f",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026-COP31; implementation and accountability test",
+      "denominator": {"value": 1, "unit": "ECCA strategy implementation horizon", "value_type": "published_program_horizon"},
+      "measures": {
+        "starting_point": {"value": "an annual workplan is intended to translate the strategy into action year by year, starting at COP31", "unit": "reported implementation plan", "value_type": "reported_program_plan"},
+        "living_document": {"value": "the strategy vision runs through 2030 while operational details remain in development", "unit": "reported governance status", "value_type": "reported_status"},
+        "open_test": {"value": "track whether cultural participation produces measurable decarbonization, climate understanding, public agency, sector resilience, and fair labor conditions", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UNFCCC announcement of the ECCA strategy, COP31 activation, and 2030 vision.",
+      "uncertainty": "Future implementation, funding, accountability, and measurable outcomes are not yet established by the announcement.",
+      "subgroup": "Cultural workers, communities, audiences, climate institutions, governments, cities, and funders.",
+      "counterinterpretation": "The initiative may prioritize narrative visibility over structural change unless reporting links cultural activity to material climate outcomes.",
+      "source_url": "https://unfccc.int/news/new-strategy-for-un-climate-change-s-entertainment-and-culture-for-climate-action-initiative",
+      "retrieval_hash": "sha256:b21d7719eaa321babc96886afb9c89c0fbdb64e35401a098aa2397fe1dfc155f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unfccc.int/news/new-strategy-for-un-climate-change-s-entertainment-and-culture-for-climate-action-initiative", "claim": "The UNFCCC announcement is the primary public source for the ECCA strategy and operating model."},
+    {"source_url": "https://www.britishcouncil.org/research-insight/culture-based-climate-action", "claim": "British Council evidence synthesis provides complementary cultural-climate action and heritage-resilience context."}
+  ],
+  "boundary": "This record adds a culture-to-climate-governance route from storytelling, sector organization, and place-based cultural work through public engagement and decarbonization implementation. It is a strategy announcement, not an impact evaluation, audience survey, emissions inventory, or proof that cultural action changes climate behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNFCCC announcement was reviewed for date, consultation origin, Article 12 framing, operating functions, workstreams, Liverpool example, COP31 timing, and unresolved implementation details.",
+    "source_url_sha256": "sha256:b21d7719eaa321babc96886afb9c89c0fbdb64e35401a098aa2397fe1dfc155f",
+    "checked": "2026-09-26"
+  }
+}

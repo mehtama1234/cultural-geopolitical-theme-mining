@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mondelez-state-of-snacking-2026-social-meal-health-nostalgia",
+  "title": "Snacking is becoming a flexible food, social, and emotional infrastructure balancing convenience, health, indulgence, and connection",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Mondelēz International, 2026 State of Snacking, developed with Mintel and Black Swan Data",
+  "geography": "Selected global markets across North America, Latin America, Europe, Asia, and Australia; market-specific survey bases vary",
+  "observations": [
+    {
+      "period": "2025; daily frequency and social occasions",
+      "denominator": {"value": 1, "unit": "selected-market consumer survey frame; market-specific internet-user and adult samples reported in the source", "value_type": "published_multi_market_consumer_survey"},
+      "measures": {
+        "daily_snacking": {"value": 6, "unit": "in 10 consumers in selected global markets snack at least once a day", "value_type": "reported_approximate_share"},
+        "social_necessity": {"value": 2, "unit": "in 3 consumers in selected markets say snacks are necessary when socializing with friends or family", "value_type": "reported_approximate_share"},
+        "social_discovery": {"value": 79, "unit": "percent of Indian adults agreeing it is fun to try new snacks with friends to see their reactions", "value_type": "reported_share"},
+        "social_media_inspiration": {"value": "around one-third", "unit": "share of consumers in selected markets citing social media as a source of snacking inspiration", "value_type": "reported_approximate_share"}
+      },
+      "method": "Mintel consumer research across market-specific samples, supplemented by Black Swan Data analysis of social and online posts; denominators and field dates vary by market.",
+      "uncertainty": "The selected-market aggregate is not a globally representative estimate; social-media conversation is not equivalent to population behavior, and the corporate sponsor frames the category through commercial trend analysis.",
+      "subgroup": "Snack consumers across selected markets, with explicit India and market-specific age comparisons.",
+      "counterinterpretation": "Snacking can support social connection and rituals while also displacing shared meals or reflecting time scarcity, household fragmentation, and marketing exposure.",
+      "source_url": "https://www.mondelezinternational.com/stateofsnacking/",
+      "retrieval_hash": "sha256:0bcfb265aa72b65dc8edb018c3577cdbb5fc92bf5ac0a34d3053712b28cff286",
+      "status": "reported"
+    },
+    {
+      "period": "2025; snacks as meal replacement and time-saving consumption",
+      "denominator": {"value": 1, "unit": "selected-market consumer samples; examples include Australia, Canada, and aggregate selected markets", "value_type": "published_multi_market_consumer_survey"},
+      "measures": {
+        "meal_replacement": {"value": 50, "unit": "approximately percent of consumers in selected markets occasionally replacing meals with snacks", "value_type": "reported_approximate_share"},
+        "australia_weekly_substitution": {"value": 44, "unit": "percent of Australian snack consumers agreeing they snack instead of a proper meal at least once a week", "value_type": "reported_share"},
+        "canada_weekly_substitution": {"value": 44, "unit": "percent of Canadian cooks swapping snacks for meals weekly", "value_type": "reported_share"},
+        "stated_benefits": {"value": "saving cooking stress, balancing healthy and unhealthy choices, and better perceived value than meals", "unit": "reported consumer rationale set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Mintel market-specific consumer surveys of snack consumers and people with cooking responsibility; examples are not pooled into one common denominator.",
+      "uncertainty": "Meal replacement may reflect convenience, affordability, work schedules, household routines, or preference; the report does not establish nutritional adequacy, food insecurity, or health effects.",
+      "subgroup": "Younger consumers, household cooks, workers, students, solo households, and people managing time or food budgets.",
+      "counterinterpretation": "Flexible eating can reduce preparation burden and support autonomy, but it may also shift food labor and health risks into households while increasing reliance on packaged products.",
+      "source_url": "https://www.mondelezinternational.com/assets/stateofsnacking/2026/2026_Mintel_x_MDLZ_State_of_Snacking_Report.pdf",
+      "retrieval_hash": "sha256:0bcfb265aa72b65dc8edb018c3577cdbb5fc92bf5ac0a34d3053712b28cff286",
+      "status": "reported"
+    },
+    {
+      "period": "2025; health, satiety, and sensory trade-offs",
+      "denominator": {"value": 1, "unit": "selected global-market consumer samples; country bases vary", "value_type": "published_multi_market_consumer_survey"},
+      "measures": {
+        "healthier_choice": {"value": 40, "unit": "approximately percent of snack consumers looking for healthier snacks at least some of the time", "value_type": "reported_approximate_share"},
+        "satiety_priority": {"value": 25, "unit": "approximately percent of snacking occasions where satiety is emerging as a priority", "value_type": "reported_approximate_share"},
+        "texture_signal": {"value": 70, "unit": "percent of Thai adults agreeing snack crunch and crackle creates an enjoyable sensory experience", "value_type": "reported_share"},
+        "savoring": {"value": 77, "unit": "percent of UK adults trying to savor the experience when eating or drinking", "value_type": "reported_share"}
+      },
+      "method": "Mintel survey data combined with qualitative and social-listening trend synthesis; market-specific questions and samples are retained as reported.",
+      "uncertainty": "Health-seeking, satiety, and sensory preferences do not measure nutritional quality, consumption volume, or long-term health outcomes; commercial definitions of better-for-you vary.",
+      "subgroup": "Snack consumers seeking different combinations of health, protein/fiber, portion control, texture, taste, and sensory novelty.",
+      "counterinterpretation": "The same occasion can combine health intentions with indulgence; consumer demand for better-for-you options may produce reformulation, portioning, or premiumization rather than lower total consumption.",
+      "source_url": "https://www.mondelezinternational.com/assets/stateofsnacking/2026/2026_Mintel_x_MDLZ_State_of_Snacking_Report.pdf",
+      "retrieval_hash": "sha256:0bcfb265aa72b65dc8edb018c3577cdbb5fc92bf5ac0a34d3053712b28cff286",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; emotional and cultural meaning of snacks",
+      "denominator": {"value": 1, "unit": "global consumer-trend synthesis across selected markets", "value_type": "published_consumer_trend_synthesis"},
+      "measures": {
+        "productive_tensions": {"value": "health and indulgence; nostalgia and novelty; solo convenience and social connection", "unit": "reported cross-market tension set", "value_type": "reported_synthesis"},
+        "comfort_and_reward": {"value": "snacks are described as sources of comfort, reward, and small moments of indulgence", "unit": "reported cultural-consumption mechanism", "value_type": "reported_mechanism"},
+        "nostalgia_route": {"value": "nostalgia can be expressed through flavors, packaging, and formats", "unit": "reported cultural-market mechanism", "value_type": "reported_mechanism"},
+        "category_expansion": {"value": "snacks are framed as daily rituals, social tools, meal substitutes, and sensory experiences rather than only between-meal bites", "unit": "reported category shift", "value_type": "reported_synthesis"}
+      },
+      "method": "Publisher synthesis of Mintel consumer research and Black Swan Data social/online-post analysis, supplemented by future-trend partner perspectives.",
+      "uncertainty": "Cultural meanings are interpreted through a branded category lens and should not be generalized to all food practices, cuisines, or communities.",
+      "subgroup": "Consumers using food for routine, reward, identity, nostalgia, social connection, convenience, and sensory exploration.",
+      "counterinterpretation": "The same trends can indicate creative adaptation and connection or the commercialization of emotional needs, time scarcity, and social fragmentation.",
+      "source_url": "https://www.mondelezinternational.com/stateofsnacking/",
+      "retrieval_hash": "sha256:0bcfb265aa72b65dc8edb018c3577cdbb5fc92bf5ac0a34d3053712b28cff286",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world/en", "claim": "FAO food-security evidence provides a complementary affordability, nutrition, and food-system lens beyond commercial snacking behavior."},
+    {"source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/", "claim": "IKEA Life at Home 2026 provides complementary household time, health, comfort, and consumer-pressure context."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_9cceeb8c-en.html", "claim": "OECD-FAO Agricultural Outlook provides complementary production, price, diet, and food-system context."}
+  ],
+  "boundary": "This record adds a food-culture and consumer route linking snacking to social connection, meal substitution, time pressure, health intentions, sensory novelty, nostalgia, and emotional reward. It uses a branded commercial trend study with market-specific surveys and social listening, not nationally pooled dietary surveillance, nutritional assessment, causal health evidence, food-insecurity measurement, or a globally representative estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Mondelēz State of Snacking 2026 page and linked Mintel/Mondelēz PDF were reviewed for executive findings, market-specific denominators, survey methodology, social-listening method, and interpretation boundaries.",
+    "source_url_sha256": "sha256:0bcfb265aa72b65dc8edb018c3577cdbb5fc92bf5ac0a34d3053712b28cff286",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-desa-wesp-september-2026-energy-geopolitical-growth-shock",
+  "title": "A geopolitical energy shock is compressing global growth, reigniting inflation, and narrowing fiscal room for social and development responses",
+  "theme_ids": ["energy", "cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "United Nations Department of Economic and Social Affairs, World Economic Situation and Prospects 2026 September Update",
+  "geography": "Global economy, energy markets, trade tensions, and national fiscal space",
+  "observations": [
+    {
+      "period": "September 2026; global growth outlook",
+      "denominator": {"value": 100, "unit": "annual global real-growth percentage reference", "value_type": "global_macro_forecast_base"},
+      "measures": {
+        "global_growth_2026": {"value": 2.6, "unit": "percent projected global growth in 2026", "value_type": "reported_forecast"},
+        "global_growth_2027": {"value": 2.9, "unit": "percent projected global growth in 2027", "value_type": "reported_forecast"},
+        "pre_pandemic_growth": {"value": 3.2, "unit": "percent pre-pandemic pace used as comparison", "value_type": "reported_comparison"},
+        "risk_frame": {"value": "a severe global downturn has so far been avoided, but growth remains subdued and risks are substantial", "unit": "reported macro assessment", "value_type": "reported_synthesis"}
+      },
+      "method": "UN DESA World Economic Situation and Prospects update synthesizing global growth projections, geopolitical developments, energy markets, inflation, trade tensions, and fiscal conditions.",
+      "uncertainty": "Forecasts are scenario-sensitive and do not predict country-specific employment, income, prices, welfare, or policy outcomes.",
+      "subgroup": "National economies, firms, workers, households, governments, and regions exposed to global demand, energy, trade, and financing conditions.",
+      "counterinterpretation": "Subdued global growth can coexist with strong sectoral or regional performance, and policy responses can change the path; a global average hides uneven exposure.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026-september-update",
+      "retrieval_hash": "sha256:038faa4cdcef7050daef9e4c189b68fc03b0f21333ed38bc6b896387190ce632",
+      "status": "reported"
+    },
+    {
+      "period": "February-September 2026; energy shock and inflation pressure",
+      "denominator": {"value": 100, "unit": "Brent crude price percentage comparison base", "value_type": "energy_price_comparison_base"},
+      "measures": {
+        "brent_change_since_february": {"value": 40, "unit": "percent increase in Brent crude since February, approximately", "value_type": "reported_price_change"},
+        "brent_level": {"value": 100, "unit": "US dollars per barrel approximate Brent level", "value_type": "reported_price_level_approximate"},
+        "fuel_spillovers": {"value": "diesel, jet fuel, and heating oil prices increased even more sharply than Brent", "unit": "reported energy-price pattern", "value_type": "reported_comparison"},
+        "inflation_route": {"value": "the energy shock has reignited inflationary pressures", "unit": "reported transmission channel", "value_type": "reported_mechanism"}
+      },
+      "method": "UN DESA update comparing energy prices since February and linking the shock to renewed inflationary pressure.",
+      "uncertainty": "The public summary does not quantify pass-through by country, sector, household income, or policy response; price movements can reverse or diverge across fuels and markets.",
+      "subgroup": "Energy-importing households, transport and industrial firms, public budgets, workers, and communities exposed to fuel, heating, food, and logistics costs.",
+      "counterinterpretation": "Higher energy prices can accelerate conservation, substitution, and investment in alternatives, although adjustment capacity and distributional burden vary sharply.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026-september-update",
+      "retrieval_hash": "sha256:038faa4cdcef7050daef9e4c189b68fc03b0f21333ed38bc6b896387190ce632",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; geopolitical and trade transmission",
+      "denominator": {"value": 1, "unit": "UN DESA global macro-risk assessment", "value_type": "global_risk_frame"},
+      "measures": {
+        "shock_origin": {"value": "the Middle East conflict is identified as another major shock on top of lingering recent crises", "unit": "reported geopolitical context", "value_type": "reported_event_frame"},
+        "trade_tensions": {"value": "heightened geopolitical and trade tensions are part of the current global risk environment", "unit": "reported structural condition", "value_type": "reported_mechanism"},
+        "fiscal_space": {"value": "shrinking fiscal space limits room for governments to absorb shocks and finance social or development responses", "unit": "reported policy constraint", "value_type": "reported_constraint"},
+        "open_route": {"value": "energy, trade, financing, inflation, employment, and public-service capacity should be tracked as linked but distinct stages", "unit": "program analytic route", "value_type": "research_queue"}
+      },
+      "method": "UN DESA macroeconomic and geopolitical risk framing in the September 2026 update.",
+      "uncertainty": "The report summary does not identify a single causal chain from conflict to every national outcome; exposure depends on energy dependence, trade structure, fiscal capacity, and policy choices.",
+      "subgroup": "Energy-importing and export-oriented economies, fiscally constrained governments, firms in exposed value chains, workers, and households facing price or service pressure.",
+      "counterinterpretation": "Fiscal constraint can coexist with targeted reprioritization, external support, or countercyclical measures; geopolitical shocks can also create regional investment and substitution opportunities.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026-september-update",
+      "retrieval_hash": "sha256:038faa4cdcef7050daef9e4c189b68fc03b0f21333ed38bc6b896387190ce632",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; household and institutional implication",
+      "denominator": {"value": 1, "unit": "publication-level cross-domain implication", "value_type": "macro_to_lived_capacity_frame"},
+      "measures": {
+        "household_room_route": {"value": "fuel, heating, transport, food, and borrowing costs can compress household room even when aggregate downturn is avoided", "unit": "analytic transmission route", "value_type": "reported_implication"},
+        "public_capacity_route": {"value": "inflation and debt-service pressure can compete with social protection, infrastructure, climate, and development spending", "unit": "analytic institutional route", "value_type": "reported_implication"},
+        "measurement_boundary": {"value": "the update is a macro outlook and does not measure realized household consumption, health, employment, or political response", "unit": "interpretation boundary", "value_type": "boundary"}
+      },
+      "method": "Cross-domain interpretation of UN DESA's growth, energy, inflation, geopolitical, trade, and fiscal-space findings.",
+      "uncertainty": "These are open mechanisms for cross-source testing, not estimates of household incidence or a causal welfare model.",
+      "subgroup": "Households, workers, firms, public agencies, and communities with different energy dependence, incomes, safety nets, and access to financing.",
+      "counterinterpretation": "Income support, energy subsidies, price adjustment, public investment, and monetary or fiscal policy can buffer some groups, while creating other tradeoffs or debt burdens.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026-september-update",
+      "retrieval_hash": "sha256:038faa4cdcef7050daef9e4c189b68fc03b0f21333ed38bc6b896387190ce632",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026", "claim": "UN DESA annual WESP provides the broader 2026 global growth, trade, development, and policy baseline."},
+    {"source_url": "https://www.iea.org/reports/world-energy-investment-2026", "claim": "IEA investment evidence provides complementary energy-capital and grid-capacity context."}
+  ],
+  "boundary": "This record adds a macro-to-lived-capacity route from geopolitical conflict and energy prices through inflation, trade, fiscal space, household room, and public-service capacity. It is not a country forecast, household incidence estimate, causal conflict model, or realized welfare measurement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN DESA September 2026 publication page and its public summary were reviewed for publication date, growth projections, pre-pandemic comparison, Middle East conflict, trade tensions, fiscal space, Brent price change, fuel spillovers, and inflation framing.",
+    "source_url_sha256": "sha256:038faa4cdcef7050daef9e4c189b68fc03b0f21333ed38bc6b896387190ce632",
+    "checked": "2026-09-26"
+  }
+}

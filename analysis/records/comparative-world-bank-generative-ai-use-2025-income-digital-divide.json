@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-generative-ai-use-2025-income-digital-divide",
+  "title": "Generative-AI use is expanding rapidly but remains sharply stratified by country income, connectivity, platform localization and digital capability",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11231, Who on Earth Is Using Generative AI? Global Trends and Shifts in 2025",
+  "geography": "Global internet users and country income groups, using traffic to 60 consumer-facing generative-AI tools through mid-2025",
+  "observations": [
+    {
+      "period": "January 2021-mid-2025; 60 consumer-facing GenAI tools",
+      "denominator": {"value": 60, "unit": "most-visited consumer-facing generative-AI tools tracked in the study", "value_type": "published_tool_frame"},
+      "measures": {
+        "data_source": {"value": "high-frequency website traffic data from Semrush is used to track visits, users and engagement through mid-2025", "unit": "reported data design", "value_type": "reported_method"},
+        "market_change": {"value": "the tool landscape is rapidly diversifying, with new entrants and multimodal, reasoning and specialized applications appearing during 2025", "unit": "reported market pattern", "value_type": "reported_assessment"},
+        "coverage_limit": {"value": "the study observes consumer-facing web traffic, not all AI use, enterprise deployment, offline use or task-level substitution", "unit": "reported measurement boundary", "value_type": "reported_boundary"}
+      },
+      "method": "World Bank working paper using proprietary Semrush traffic data and regression analysis of generative-AI adoption patterns; a verified reproducibility package documents the data and code limitations.",
+      "uncertainty": "Traffic is a proxy for use and depends on platform access, device, geography, search behavior, bots, subscriptions and unobserved offline or embedded use; some underlying data are proprietary.",
+      "subgroup": "Internet users, AI-tool users, non-users, platform providers, workers, students, firms and countries with different connectivity, language and income conditions.",
+      "counterinterpretation": "Web traffic growth can reflect curiosity or repeated visits rather than productive or consequential use; lower observed traffic may reflect local tools or access routes omitted from the 60-tool frame.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099856110152535288/pdf/IDU-42736e6b-48fb-45e6-8638-cec68a650f40.pdf",
+      "retrieval_hash": "sha256:ea9ec1d2f406bfd34bb15698c41a7b2f4410412123e2adea946f02236c40f678",
+      "status": "reported"
+    },
+    {
+      "period": "April 2025; platform concentration and growth",
+      "denominator": {"value": 60, "unit": "top consumer-facing GenAI tools in the study's tracked set", "value_type": "published_tool_frame"},
+      "measures": {
+        "chatgpt_share": {"value": "ChatGPT accounted for 77% of traffic to the top 60 tools in April 2025", "unit": "reported share of tracked tool traffic", "value_type": "reported_share"},
+        "traffic_growth": {"value": "ChatGPT traffic grew 123% year over year, driven by 42% user growth and a 50% increase in visits per user", "unit": "reported year-over-year change", "value_type": "reported_growth"},
+        "duration": {"value": "session duration for ChatGPT doubled over the comparison period", "unit": "reported engagement change", "value_type": "reported_growth"}
+      },
+      "method": "Descriptive analysis of Semrush web traffic and engagement metrics for the tracked tool set.",
+      "uncertainty": "The figures describe traffic concentration and engagement, not revenue, quality, productivity, task completion, labor displacement or user welfare.",
+      "subgroup": "Consumer-facing AI users, platform providers, advertisers, educators, workers, firms and populations dependent on a small number of dominant tools.",
+      "counterinterpretation": "High traffic concentration can coexist with intense competition, local alternatives or specialized enterprise use outside the measured consumer-web market.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099856110152535288/pdf/IDU-42736e6b-48fb-45e6-8638-cec68a650f40.pdf",
+      "retrieval_hash": "sha256:ea9ec1d2f406bfd34bb15698c41a7b2f4410412123e2adea946f02236c40f678",
+      "status": "reported"
+    },
+    {
+      "period": "2025; generative-AI adoption by country income group",
+      "denominator": {"value": 4, "unit": "World Bank country income groups compared in the study", "value_type": "published_income_group_frame"},
+      "measures": {
+        "high_income": {"value": "about 25% of internet users in high-income countries use ChatGPT", "unit": "reported internet-user penetration", "value_type": "reported_share"},
+        "upper_middle_income": {"value": "about 5.6% of internet users in upper-middle-income countries use ChatGPT", "unit": "reported internet-user penetration", "value_type": "reported_share"},
+        "lower_middle_income": {"value": "about 3.6% of internet users in lower-middle-income countries use ChatGPT", "unit": "reported internet-user penetration", "value_type": "reported_share"},
+        "low_income": {"value": "about 0.3% of internet users in low-income countries use ChatGPT", "unit": "reported internet-user penetration", "value_type": "reported_share"}
+      },
+      "method": "Cross-country comparison of estimated ChatGPT users and traffic relative to internet-user populations, with regression analysis relating adoption growth to GDP per capita.",
+      "uncertainty": "Income-group differences combine internet access, device and electricity reliability, language, education, prices, trust, local alternatives and measurement coverage; they do not establish a single causal barrier.",
+      "subgroup": "Internet users across high-, upper-middle-, lower-middle- and low-income countries, with particular implications for students, workers, firms and public institutions.",
+      "counterinterpretation": "Lower use of one global tool may not mean lower AI capability if people use local, embedded, offline, enterprise or open-source systems outside the study’s observed frame.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099856110152535288/pdf/IDU-42736e6b-48fb-45e6-8638-cec68a650f40.pdf",
+      "retrieval_hash": "sha256:ea9ec1d2f406bfd34bb15698c41a7b2f4410412123e2adea946f02236c40f678",
+      "status": "reported"
+    },
+    {
+      "period": "2025; localization, platform geography and capability inequality",
+      "denominator": {"value": 1, "unit": "global generative-AI platform ecosystem", "value_type": "published_market_frame"},
+      "measures": {
+        "income_gradient": {"value": "regression analysis reports GDP per capita as a strong predictor of adoption growth", "unit": "reported statistical relationship", "value_type": "reported_association"},
+        "localization": {"value": "non-U.S. tools can be highly concentrated in their home markets, including European concentration for Le Chat and very high domestic shares for several Chinese tools", "unit": "reported platform-geography pattern", "value_type": "reported_assessment"},
+        "capability_gap": {"value": "the observed global adoption gap implies that access to AI capability may diverge across income, infrastructure and language environments", "unit": "reported policy implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country traffic analysis, platform-market comparison and regression-based exploration of adoption growth.",
+      "uncertainty": "The study does not estimate how adoption differences translate into productivity, wages, education, political power or welfare, and the proprietary traffic data constrain independent replication of every underlying estimate.",
+      "subgroup": "Countries, language communities, local AI developers, platform firms, workers, students, SMEs and institutions competing for digital capability.",
+      "counterinterpretation": "Localization can reduce dependence on a single U.S. platform and support language fit, but it may also fragment standards, intensify geopolitical technology blocs or create new domestic concentration.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099856110152535288/pdf/IDU-42736e6b-48fb-45e6-8638-cec68a650f40.pdf",
+      "retrieval_hash": "sha256:ea9ec1d2f406bfd34bb15698c41a7b2f4410412123e2adea946f02236c40f678",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/index.php/catalog/332", "claim": "World Bank verified reproducibility package describing the Semrush data, 60-tool frame, income-group estimates and proprietary-data limitation."},
+    {"source_url": "https://www.worldbank.org/en/publication/dptr2025-ai-foundations/resources", "claim": "World Bank Digital Progress and Trends Report resource page listing the working paper."}
+  ],
+  "boundary": "This record adds a technology-diffusion and capability-inequality route linking generative-AI web use to platform concentration, country income, infrastructure, localization, language and potential economic participation. It is global traffic-proxy evidence through mid-2025, not respondent-level behavior, complete AI adoption, enterprise deployment, task exposure, causal productivity, labor-market or household-welfare evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank working-paper PDF, World Bank reproducibility package and Digital Progress and Trends resource page were reviewed for the 60-tool frame, traffic concentration, growth, income-group penetration, localization, regression relationship and proprietary-data limitations.",
+    "source_url_sha256": "sha256:ea9ec1d2f406bfd34bb15698c41a7b2f4410412123e2adea946f02236c40f678",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-eta-ai-skills-literacy-agency-2026",
+  "title": "AI is shifting the value of work toward judgment, oversight, hybrid capability and broad AI literacy rather than eliminating the need for human agency",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "European Training Foundation, Changing Landscape of Skills in the Age of AI, prepared through the Inter-Agency TVET Working Group with Cedefop, Eurofound, European Commission, ILO and UNESCO",
+  "geography": "Cross-sector and international synthesis of AI-related changes in workplace skills and skills policy",
+  "observations": [
+    {
+      "period": "2026 report; workplace task and skill re-composition",
+      "denominator": {"value": 1, "unit": "cross-occupation workplace skill synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "cognitive_demand": {"value": "AI adoption is associated with greater demand for higher-order analytical ability, critical thinking, problem solving, contextualization and judgment", "unit": "reported skill-demand direction", "value_type": "reported_interpretation"},
+        "human_ai_collaboration": {"value": "work shifts from pure creation toward framing, editorial review, appraisal and oversight of AI outputs", "unit": "reported task-recomposition mechanism", "value_type": "reported_mechanism"},
+        "hybrid_roles": {"value": "traditional occupational expertise is increasingly combined with digital, computational and data literacy", "unit": "reported occupational-development pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Inter-agency literature and analytical synthesis linking AI use to tasks, cognitive skills, socio-emotional skills and manual-skill complementarities across occupations.",
+      "uncertainty": "The report synthesizes evidence from different studies and does not estimate one universal causal effect of AI adoption on skill demand; effects vary by task, sector, technology design and worker capability.",
+      "subgroup": "Workers, managers, educators, professional users, technical specialists and people in occupations with routine or non-routine cognitive, socio-emotional and manual tasks.",
+      "counterinterpretation": "Some AI deployments may deskill work, intensify monitoring or reduce autonomy even when aggregate demand for higher-order skills rises; skill complementarity is not guaranteed for every worker.",
+      "source_url": "https://www.ilo.org/publications/changing-landscape-skills-age-ai",
+      "retrieval_hash": "sha256:1f705e2b3dcc95e524029337a52444ba6c5c7ef187c1d99e879750e5bf927dba",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; emerging AI workforce",
+      "denominator": {"value": 1, "unit": "global employment frame used in reviewed studies", "value_type": "published_synthesis"},
+      "measures": {
+        "ai_workforce_range": {"value": "0.3–5", "unit": "percent of total employment, depending on definitions and analytical method, involved in developing or professionally using AI", "value_type": "reported_range"},
+        "technical_workforce_growth": {"value": "demand for AI-related technical skills has increased rapidly over the past decade", "unit": "reported trend", "value_type": "reported_interpretation"},
+        "concentration": {"value": "AI work is concentrated in highly educated, prime-age professionals, with developers especially concentrated among white men", "unit": "reported workforce-composition pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative review of definitions, estimates and occupational profiles for the emerging AI workforce.",
+      "uncertainty": "The wide 0.3–5 percent range reflects different definitions of AI workforce, exposure and professional use; workforce composition varies by country and occupation.",
+      "subgroup": "AI developers and engineers, professional users, ICT and scientific workers, workers seeking entry into AI-enabled roles, and groups with unequal access to advanced education.",
+      "counterinterpretation": "A small direct AI workforce can still produce broad indirect effects through tools embedded in ordinary jobs; concentration today does not establish permanent exclusion from future AI-related work.",
+      "source_url": "https://www.ilo.org/publications/changing-landscape-skills-age-ai",
+      "retrieval_hash": "sha256:1f705e2b3dcc95e524029337a52444ba6c5c7ef187c1d99e879750e5bf927dba",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; AI literacy as a foundational capability",
+      "denominator": {"value": 1, "unit": "citizen and worker capability framework", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "ai_literacy": {"value": "ability to understand and use AI tools safely and ethically", "unit": "foundational capability identified by the report", "value_type": "reported_policy_interpretation"},
+        "technical_literacy": {"value": "basic understanding of how AI systems, machine learning, algorithms and data-driven technologies work", "unit": "AI-literacy domain", "value_type": "reported_framework_component"},
+        "analytical_data_literacy": {"value": "capacity to interpret and assess AI outputs in real-world situations", "unit": "AI-literacy domain", "value_type": "reported_framework_component"},
+        "ethical_societal_literacy": {"value": "awareness of privacy, bias, transparency, accountability, fairness and sustainability", "unit": "AI-literacy domain", "value_type": "reported_framework_component"}
+      },
+      "method": "Policy framework synthesis across education, training, work, government services, media, finance, healthcare and education contexts.",
+      "uncertainty": "The report identifies a capability direction and policy need; it does not establish a common validated measure of AI literacy or prove that training produces equal agency across populations.",
+      "subgroup": "Workers, students, teachers, trainers, adult learners, service users and citizens affected by AI-mediated institutions and information environments.",
+      "counterinterpretation": "Literacy alone cannot correct opaque systems, unequal compute access, coercive workplace deployment, weak privacy protections or absent redress; institutional safeguards remain necessary.",
+      "source_url": "https://www.ilo.org/publications/changing-landscape-skills-age-ai",
+      "retrieval_hash": "sha256:1f705e2b3dcc95e524029337a52444ba6c5c7ef187c1d99e879750e5bf927dba",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; education, training and labour-market policy response",
+      "denominator": {"value": 1, "unit": "skills-policy response synthesis", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "capability_shift": {"value": "skills policy should prioritize broader capabilities, agility, resilience, adaptability and human agency rather than narrow task-specific skills", "unit": "reported policy direction", "value_type": "reported_policy_interpretation"},
+        "learning_pathways": {"value": "AI learning needs to run across initial education, higher education, adult learning, workplace training and teacher or trainer development", "unit": "reported policy route", "value_type": "reported_interpretation"},
+        "assessment_need": {"value": "curriculum, certification, assessment and quality-assurance systems need reform as AI changes task boundaries", "unit": "reported institutional implication", "value_type": "reported_policy_interpretation"}
+      },
+      "method": "Inter-agency synthesis of curriculum, qualification, teacher, adult-learning, workplace-upskilling and assessment implications.",
+      "uncertainty": "The report provides policy implications rather than an implementation evaluation; country capacity, employer incentives, access, language and affordability will shape results.",
+      "subgroup": "Education and training systems, teachers, trainers, employers, workers, jobseekers, students and public agencies responsible for skills and labour-market transitions.",
+      "counterinterpretation": "Broad capability frameworks can become vague or burdensome without clear occupational pathways, recognized credentials, protected learning time and employer or public investment.",
+      "source_url": "https://www.ilo.org/publications/changing-landscape-skills-age-ai",
+      "retrieval_hash": "sha256:1f705e2b3dcc95e524029337a52444ba6c5c7ef187c1d99e879750e5bf927dba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.2816/7083675", "claim": "Official DOI for the Changing Landscape of Skills in the Age of AI report."},
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "ILO labour-market context on job quality, informality, inequality and AI risk."}
+  ],
+  "boundary": "This record adds an AI-to-capability route: workplace AI changes the value of judgment, oversight, hybrid expertise, socio-emotional skill and broad AI literacy, while technical AI work remains concentrated. It is an inter-agency synthesis and policy framework, not worker-level task data, an adoption measurement, a causal employment evaluation or a guarantee that AI produces more autonomy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page and linked 60-page PDF were retrieved and reviewed for task and skill recomposition, AI workforce range and composition, AI literacy domains, human agency and education and training implications; the PDF was hashed.",
+    "source_url_sha256": "sha256:1f705e2b3dcc95e524029337a52444ba6c5c7ef187c1d99e879750e5bf927dba",
+    "checked": "2026-09-27"
+  }
+}

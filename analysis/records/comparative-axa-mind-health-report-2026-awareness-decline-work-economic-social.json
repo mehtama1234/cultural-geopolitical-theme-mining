@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-axa-mind-health-report-2026-awareness-decline-work-economic-social",
+  "title": "Mental-health awareness is rising while lived wellbeing deteriorates, especially for young adults, amid cost, work, access and digital pressures",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "AXA and Ipsos, Mind Health Report 2026",
+  "geography": "18-country survey with longitudinal comparisons across countries surveyed in every wave",
+  "observations": [
+    {
+      "period": "2021–2026; global mind-health index trend",
+      "denominator": {"value": null, "unit": "AXA/Ipsos survey respondents across the participating countries; pooled respondent denominator not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "struggling_or_languishing_change": {"value": 6, "unit": "percentage-point increase in the share struggling or languishing since 2021", "value_type": "reported_difference"},
+        "countries_at_lowest_index": {"value": 10, "unit": "of 16 countries surveyed in every wave recording their lowest mind-health result since 2021", "value_type": "reported_count"},
+        "mind_health_direction": {"value": "Actual wellbeing is at its lowest point in over five years despite more open public conversation", "unit": "reported cross-wave interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated AXA/Ipsos cross-national survey and mind-health index comparison.",
+      "uncertainty": "The public article does not provide the full index construction, pooled sample denominator or causal decomposition; reported changes describe survey measures rather than clinical prevalence.",
+      "subgroup": "Adults in the participating countries, with longitudinal country comparisons.",
+      "counterinterpretation": "Greater awareness may improve disclosure and recognition, so part of the apparent deterioration could reflect better reporting rather than only worsening underlying conditions.",
+      "source_url": "https://www.ipsos.com/en/axa-mind-health-report-2026",
+      "retrieval_hash": "sha256:182ff86143a01310445cbcedcf40c1cad619b6ce02fcda308015fd5cc23c1b4d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; age-group comparison",
+      "denominator": {"value": null, "unit": "AXA/Ipsos respondents; age-group analytic denominator not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "young_adults_struggling_or_languishing": {"value": 59, "unit": "percent of 18–34-year-olds languishing or struggling", "value_type": "reported_share"},
+        "young_adult_gap_to_global_average": {"value": 13, "unit": "percentage-point difference above the global average", "value_type": "reported_difference"},
+        "help_seeking_openness": {"value": "Young adults are more open to discussing mind-health challenges and seeking help", "unit": "reported subgroup interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-sectional age-group comparison within the 2026 survey.",
+      "uncertainty": "The age gap may combine life-stage exposure, cohort conditions, reporting norms and differential willingness to name distress; it does not identify causes.",
+      "subgroup": "18–34-year-olds compared with the global survey average.",
+      "counterinterpretation": "Greater openness among young adults can raise measured distress while also indicating stronger norm change and demand for support.",
+      "source_url": "https://www.ipsos.com/en/axa-mind-health-report-2026",
+      "retrieval_hash": "sha256:182ff86143a01310445cbcedcf40c1cad619b6ce02fcda308015fd5cc23c1b4d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; reported barriers to better mind health",
+      "denominator": {"value": null, "unit": "AXA/Ipsos survey respondents; barrier-specific denominators and shares are not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "barrier_set": {"value": "Cost, time, stigma and access to practitioners are identified as primary obstacles", "unit": "reported cross-country and age-group barrier set", "value_type": "reported_interpretation"},
+        "barrier_variation": {"value": "The relative obstacles vary across age groups and geographies", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"},
+        "workplace_stress": {"value": "Workplace stress is part of the report's described silent-epidemic pattern", "unit": "reported social condition", "value_type": "reported_interpretation"}
+      },
+      "method": "Survey questions on obstacles to better mind health, interpreted across demographic and geographic groups.",
+      "uncertainty": "The public summary does not quantify each barrier or establish whether cost, time, stigma, access or workplace stress is the dominant constraint in a particular market.",
+      "subgroup": "Age groups and geographies in the participating countries.",
+      "counterinterpretation": "A common barrier vocabulary may conceal materially different mechanisms, such as affordability in one market and provider scarcity or workplace control in another.",
+      "source_url": "https://www.ipsos.com/en/axa-mind-health-report-2026",
+      "retrieval_hash": "sha256:182ff86143a01310445cbcedcf40c1cad619b6ce02fcda308015fd5cc23c1b4d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI and mind-health support",
+      "denominator": {"value": null, "unit": "AXA/Ipsos survey respondents; AI-use subgroup denominator not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "ai_mind_health_use": {"value": 63, "unit": "percent saying they have already used AI in relation to their mind health", "value_type": "reported_share"},
+        "ai_role": {"value": "AI advice can bring benefits and raise mental-health literacy, while some people trust AI-generated content over professional advice", "unit": "reported dual-use interpretation", "value_type": "reported_interpretation"},
+        "digital_isolation_risk": {"value": "Digital habits can contribute to feelings of loneliness and isolation", "unit": "reported social-risk interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Survey of reported AI use and attitudes in relation to mind health.",
+      "uncertainty": "The public summary does not specify tools, frequency, clinical severity, or whether AI use displaced professional care; reported use is not evidence of effectiveness or harm.",
+      "subgroup": "Adults in the participating countries, with age and geographic variation reported in the full study.",
+      "counterinterpretation": "AI may be functioning as an accessible first layer where cost, time, stigma or provider scarcity make formal care difficult to reach, rather than simply replacing trusted professionals.",
+      "source_url": "https://www.ipsos.com/en/axa-mind-health-report-2026",
+      "retrieval_hash": "sha256:182ff86143a01310445cbcedcf40c1cad619b6ce02fcda308015fd5cc23c1b4d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.axa.com/press/publications/mind-health-report-2026", "claim": "Official AXA publication page hosting the 2026 report PDF."},
+    {"source_url": "https://www-axa-com.cdn.prismic.io/www-axa-com/ah6dqAeQX7-eWiOH_axa_mind_health_report_2026_va.pdf", "claim": "Official AXA Mind Health Report 2026 PDF used for retrieval verification and hashing."}
+  ],
+  "boundary": "This record adds a health-and-social-pressure mechanism: rising mental-health awareness is not translating into improved lived wellbeing, with younger adults exposed to disproportionate distress and AI emerging as both an access layer and a trust/isolation risk. It is a cross-national public-opinion and wellbeing index source, not a clinical prevalence study, causal evaluation, provider-capacity audit or treatment recommendation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos summary, official AXA publication page and official AXA report PDF were retrieved and reviewed for longitudinal mind-health direction, age differences, barriers, work stress and AI use; the PDF was hashed.",
+    "source_url_sha256": "sha256:182ff86143a01310445cbcedcf40c1cad619b6ce02fcda308015fd5cc23c1b4d",
+    "checked": "2026-09-27"
+  }
+}

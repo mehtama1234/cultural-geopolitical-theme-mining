@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-idb-world-bank-wto-lac-digital-trade-interoperability-2026",
+  "title": "Latin America’s digital-trade growth is constrained less by online demand than by regional interoperability and capability gaps",
+  "theme_ids": ["energy", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "IDB, World Bank, and WTO, Digital Trade in Latin America and the Caribbean: Connecting Markets, Powering Growth",
+  "geography": "Latin America and the Caribbean, with regional and subregional digital-trade comparisons and country-level policy analysis",
+  "observations": [
+    {
+      "period": "2005-2024; digitally delivered services exports from Latin America and the Caribbean",
+      "denominator": {"value": 1, "unit": "Latin America and the Caribbean regional digital-trade economy", "value_type": "reported_regional_estimate"},
+      "measures": {
+        "export_growth": {"value": "digitally delivered services exports rose nearly fivefold from US$18.5 billion in 2005 to US$87.7 billion in 2024", "unit": "current US dollars", "value_type": "reported_trade_estimate"},
+        "global_share": {"value": "the region accounted for about 2% of global exports of digitally delivered services in 2024", "unit": "percent", "value_type": "reported_trade_share"},
+        "forward_potential": {"value": "under a scenario combining technological progress with improved policy environments, digitally deliverable services exports could grow by up to 7.9% annually through 2040, with digitalization contributing up to 4.5 percentage points", "unit": "annual percent growth and percentage points", "value_type": "reported_scenario"},
+        "mechanism": {"value": "rapid digital-export growth coexists with substantial unrealized capability and policy space, so access to digital markets is an infrastructure-and-governance outcome rather than an automatic consequence of connectivity", "unit": "bounded digital-trade mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Joint IDB-World Bank-WTO regional report using trade statistics, digital-trade indicators, country comparisons, policy analysis, and scenario modeling.",
+      "uncertainty": "The 2040 estimate is a scenario rather than a forecast or causal treatment effect; it depends on technology, policy, investment, and country-specific implementation assumptions.",
+      "subgroup": "Digital-service exporters, small firms, women-led firms, entrepreneurs, workers, consumers, regulators, and countries with different connectivity, skills, and policy readiness.",
+      "counterinterpretation": "Export growth can remain concentrated among larger or better-connected firms; improved aggregate exports do not establish broad consumer welfare, worker security, or equal regional participation.",
+      "source_url": "https://documents.worldbank.org/curated/en/099604209042616174/pdf/IDU-98315bb2-be67-43f1-89b0-d387a37a31db.pdf",
+      "retrieval_hash": "sha256:9bda3183973ac2d2692f8443028c913c05609a5893781fdc7b707bed91a08eaa",
+      "status": "reported"
+    },
+    {
+      "period": "2023; intraregional digitally deliverable services and regional e-commerce traffic",
+      "denominator": {"value": 1, "unit": "Latin American and Caribbean regional digital-service and e-commerce flows", "value_type": "reported_regional_flow_frame"},
+      "measures": {
+        "intraregional_services": {"value": "intraregional digitally deliverable services exports totaled US$7.8 billion and represented 8.4% of the region’s exports in this category", "unit": "US dollars and percent", "value_type": "reported_trade_estimate"},
+        "comparison": {"value": "the intraregional share is below the corresponding shares reported for Europe, Asia, and North America", "unit": "reported regional comparison", "value_type": "reported_comparison"},
+        "ecommerce_inbound": {"value": "about 60% of foreign visits to LAC e-commerce platforms originated elsewhere in the region, while only 13% of visits by LAC consumers to foreign platforms went to platforms elsewhere in LAC", "unit": "percent of web traffic", "value_type": "reported_traffic_estimate"},
+        "regional_springboard": {"value": "neighboring markets can serve as a springboard for smaller service providers and women-led firms before they expand to more distant markets", "unit": "bounded firm-growth route", "value_type": "bounded_mechanism"}
+      },
+      "method": "Analysis of digitally deliverable service trade, subregional flows, and e-commerce traffic, combined with firm and exporter evidence on regional-market entry.",
+      "uncertainty": "Trade and web-traffic shares describe flows and destination patterns; they do not by themselves establish why regional integration is low or whether a regional-market springboard produces durable firm growth.",
+      "subgroup": "Micro, small, and medium-sized firms, women-led firms, online retailers, digital-service providers, regional consumers, and platforms serving cross-border demand.",
+      "counterinterpretation": "Consumers may prefer extraregional platforms because of price, selection, trust, network effects, or logistics rather than regulatory fragmentation alone; regional traffic is not equivalent to regional value capture.",
+      "source_url": "https://documents.worldbank.org/curated/en/099604209042616174/pdf/IDU-98315bb2-be67-43f1-89b0-d387a37a31db.pdf",
+      "retrieval_hash": "sha256:9bda3183973ac2d2692f8443028c913c05609a5893781fdc7b707bed91a08eaa",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; enabling conditions for cross-border digital trade in LAC",
+      "denominator": {"value": 8, "unit": "policy areas identified by the report: infrastructure, regulation, payment interoperability, trade procedures, export promotion, digital capabilities, finance, and measurement", "value_type": "reported_policy_frame"},
+      "measures": {
+        "payment_friction": {"value": "cross-border payments remain slow and costly despite wider availability of fast domestic payment systems", "unit": "reported infrastructure constraint", "value_type": "reported_system_finding"},
+        "trust_and_safety": {"value": "data protection, privacy, cybersecurity, consumer protection, digital identity, and platform-liability rules are part of the enabling environment, with regulatory readiness uneven across countries", "unit": "reported governance constraint", "value_type": "reported_system_finding"},
+        "capability_constraints": {"value": "firm capabilities, digital skills, export information, and access to finance shape which businesses can participate", "unit": "reported participation constraints", "value_type": "reported_system_finding"},
+        "interoperability_route": {"value": "digital trade becomes inclusive only when technical infrastructure, rules, payment rails, logistics, skills, finance, and consumer safeguards work across borders", "unit": "bounded institutional-infrastructure mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative policy and regulatory assessment across digital infrastructure, market openness, data rules, cybersecurity, payments, customs, export promotion, skills, firm capability, and finance.",
+      "uncertainty": "The report identifies enabling conditions and policy priorities rather than estimating a causal contribution for each reform; regulatory presence does not prove enforcement, trust, or consumer protection in practice.",
+      "subgroup": "Consumers, small exporters, women-led businesses, platform workers and sellers, payment users, regulators, telecom firms, logistics providers, and cross-border service buyers.",
+      "counterinterpretation": "Stronger regulation can improve trust and inclusion but can also increase compliance costs or fragment markets if rules are not interoperable; openness without safeguards can expose consumers and firms to new risks.",
+      "source_url": "https://documents.worldbank.org/curated/en/099604209042616174/pdf/IDU-98315bb2-be67-43f1-89b0-d387a37a31db.pdf",
+      "retrieval_hash": "sha256:9bda3183973ac2d2692f8443028c913c05609a5893781fdc7b707bed91a08eaa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wto.org/english/res_e/publications_e/digital-trade-in-latin-america-and-the-caribbean_e.htm", "claim": "WTO publication page describing the joint report, chapters, scope, and digital-trade enabling factors."},
+    {"source_url": "https://publications.iadb.org/en/digital-trade-latin-america-and-caribbean-connecting-markets-powering-growth", "claim": "IDB bibliographic record, abstract, publication date, DOI, and headline trade figures."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099604209042616174", "claim": "World Bank document API metadata containing the official PDF URL, abstract, authors, report number, and document identifier."}
+  ],
+  "boundary": "This record adds a digital-trade-to-regional-integration mechanism linking online commerce to payment, regulation, privacy, cybersecurity, skills, finance, logistics, and consumer-protection infrastructure. It is descriptive and scenario-based evidence, not proof that any one reform causes exports, that digital growth is inclusive, or that regional platforms will capture the value of regional demand.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official joint-report PDF, World Bank API metadata, WTO and IDB publication pages, 2005-2024 digitally delivered services exports, 2023 intraregional trade and web-traffic figures, 2040 scenario, eight policy areas, payment, regulatory, skills, finance, consumer-protection, and inclusion boundaries were reviewed.",
+    "source_url_sha256": "sha256:9bda3183973ac2d2692f8443028c913c05609a5893781fdc7b707bed91a08eaa",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-nonemployer-gig-picture-2024-release-2026",
+  "title": "The gig economy is a broad local service and cultural infrastructure, not one app-based labor category",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Census Bureau 2024 Nonemployer Statistics release and The Gig Picture visualization; administrative tax-record data for nonemployer businesses, with selected industries used as a bounded gig-economy proxy",
+  "geography": "United States; national selected-industry totals with subnational data available in the Nonemployer Statistics program",
+  "observations": [
+    {
+      "period": "2024 Nonemployer Statistics released September 29, 2026; selected industries in The Gig Picture visualization",
+      "denominator": {"value": 11, "unit": "selected industries whose individual proprietorships are likely to have some portion of receipts attributed to gig activities", "value_type": "bounded_industry_selection"},
+      "measures": {
+        "selected_industry_proprietorships": {"value": 7296664, "unit": "individual proprietorships across 11 selected industries, summed from Census visualization values", "value_type": "reported_count_sum"},
+        "selected_industry_receipts": {"value": 169286301, "unit": "thousand US dollars in receipts across the 11 selected industries, summed from Census visualization values", "value_type": "reported_receipts_sum_thousands"},
+        "largest_proprietorship_categories": {"value": "couriers and messengers 1,587,042; taxi and limousine service 1,578,508; janitorial services 1,146,812; independent artists, writers, and performers 1,069,754", "unit": "individual proprietorship counts", "value_type": "reported_category_counts"},
+        "cultural_and_care_categories": {"value": "independent artists, writers, and performers 1,069,754 proprietorships and 26,826,769 thousand US dollars in receipts; child care services 533,406 proprietorships and 11,128,952 thousand US dollars in receipts", "unit": "reported category counts and receipts", "value_type": "reported_category_scale"},
+        "mobility_and_delivery_categories": {"value": "taxi and limousine service 1,578,508 proprietorships and 45,423,425 thousand US dollars in receipts; couriers and messengers 1,587,042 proprietorships and 22,620,894 thousand US dollars in receipts", "unit": "reported category counts and receipts", "value_type": "reported_category_scale"},
+        "mechanism": {"value": "Solo and nonemployer businesses connect household income, care, mobility, delivery, repair, hospitality, and cultural production; the same infrastructure can provide consumer services while shifting risk, time, equipment, demand volatility, and bargaining onto individual operators", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction and arithmetic sum from the official Census Bureau The Gig Picture PDF and release. The selected industries are retained as the agency's bounded proxy, not reclassified as a complete gig-economy universe.",
+      "uncertainty": "Census states that the selected industries are likely to have some portion of receipts attributed to gig activities, but the portion is unknown in the administrative data. Nonemployer establishments are not the same as workers, jobs, hours, earnings, platform participation, or consumer transactions; receipts are gross business receipts, not owner income, profit, or household welfare. The summed values are calculated from displayed category values and may not represent a mutually exclusive labor or business population beyond the Census industry definitions.",
+      "subgroup": "Individual proprietorships in taxi and limousine service, couriers and messengers, janitorial services, landscaping, child care, independent arts, traveler accommodation, special food services, property management, repair, and pet care; operators, employees, consumers, and households remain separate units.",
+      "counterinterpretation": "Nonemployer scale can reflect ordinary small businesses, professional practice, family enterprise, or tax classification rather than precarious gig work; high receipts in a category do not show good pay, autonomy, repeat demand, consumer affordability, service quality, or durable business survival.",
+      "source_url": "https://www.census.gov/content/dam/Census/library/visualizations/2026/econ/2024-nes-gig-picture.pdf",
+      "retrieval_hash": "sha256:a6eb2d2481c2d7c923cf014f8fd7432a9ad08623dd3ff2f20a035e371f361e00",
+      "status": "reported"
+    },
+    {
+      "period": "2024 state Nonemployer Statistics file released September 29, 2026; individual-proprietorship rows for the 11 selected industries",
+      "denominator": {"value": 7296664, "unit": "individual proprietorships across the 11 selected industries in the national visualization, used as the concentration denominator", "value_type": "reported_count_sum"},
+      "measures": {
+        "top_four_state_proprietorships": {"value": 2925351, "unit": "individual proprietorships in California, Florida, Texas, and New York across the selected industries", "value_type": "reported_state_sum"},
+        "top_four_state_proprietorship_share": {"value": 40.1, "unit": "percent of the national selected-industry proprietorship sum, calculated", "value_type": "calculated_share"},
+        "top_four_state_receipts": {"value": 73779094, "unit": "thousand US dollars in selected-industry receipts in California, Florida, Texas, and New York", "value_type": "reported_state_sum"},
+        "top_four_state_receipts_share": {"value": 43.6, "unit": "percent of the national selected-industry receipts sum, calculated", "value_type": "calculated_share"},
+        "largest_state": {"value": "California: 909,747 selected-industry individual proprietorships and 25,356,944 thousand US dollars in receipts; Florida: 751,719 and 15,540,761; Texas: 719,783 and 14,591,008; New York: 544,102 and 18,290,381", "unit": "reported state totals across selected industries", "value_type": "reported_state_concentration"},
+        "category_geographic_specialization": {"value": "California leads selected-industry establishment counts in couriers, child care, independent arts, accommodation, food, property management, and pet care; Florida leads janitorial and repair; Texas leads landscaping and special-food establishment counts; New York has the highest taxi/limousine receipts among states", "unit": "state-by-category leader pattern from the published rows", "value_type": "reported_geographic_specialization"},
+        "state_service_profiles": {"value": "New York's selected-industry receipts are 53.1% taxi/limousine; California's establishment mix is 17.1% independent arts and 10.5% child care; Florida's is 23.9% janitorial; Texas's is 21.3% courier and 19.1% janitorial", "unit": "within-state shares calculated from published state rows", "value_type": "calculated_state_profile"},
+        "mechanism": {"value": "The dispersed operator layer is geographically concentrated: state market structure, population, tourism, mobility, care demand, cultural ecosystems, and local regulation shape where household and consumer services are supplied", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Arithmetic aggregation of the Census 2024 State File for LFO S (individual proprietorships) and the 11 NAICS codes used in The Gig Picture; state totals and shares are calculated from published rows.",
+      "uncertainty": "The state file measures establishments and receipts, not operators, workers, hours, platforms, household income, consumer usage, or service quality. State concentration reflects business counts and gross receipts and may reflect population, industry mix, tax classification, geography, and disclosure rules; it does not establish that workers or consumers are concentrated in the same way.",
+      "subgroup": "Individual proprietorships in the selected industries, separately aggregated by state; state business units are not respondent-level or household-level units.",
+      "counterinterpretation": "The top-four share may reflect the size and composition of these states rather than a distinctive cultural or labor regime; receipts can be generated by different ownership, subcontracting, seasonal, or demand structures within states.",
+      "source_url": "https://www2.census.gov/programs-surveys/nonemployer-statistics/datasets/2024/historical-datasets/nonemp24st.zip",
+      "retrieval_hash": "sha256:67de9be965d4b154f92b834ca25777b1b07a0a8b5dc1f222a148b5a4890ed7e7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/newsroom/press-releases/2026/2024-nonemployer-statistics.html", "claim": "Census defines the 2024 Nonemployer Statistics population as businesses with no paid employees, subject to federal income tax, and receipts of at least $1,000, or $1 for construction; the data come from IRS tax records.", "status": "official-release"},
+    {"source_url": "https://www.census.gov/programs-surveys/nonemployer-statistics.html", "claim": "Census Nonemployer Statistics provide annual subnational data on businesses without paid employees and their receipts.", "status": "official-program-context"}
+    ,{"source_url": "https://www.census.gov/data/datasets/2024/econ/nonemployer-statistics/2024-ns.html", "claim": "Census publishes the 2024 U.S., state, CSA, MSA, and county downloadable files with record layouts and reference files.", "status": "official-dataset-page"}
+  ],
+  "boundary": "This record adds a current administrative scale signal for local services, care, mobility, delivery, repair, hospitality, and cultural production. It does not establish the size of the gig workforce, platform dependence, worker earnings or control, consumer prices or quality, household income, business survival, or bargaining power. The central next test is to join a named nonemployer category or operator to work hours, fees, expenses, repeat demand, household room, service completion, and exit without treating receipts as worker welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census Bureau 2024 Nonemployer Statistics release and The Gig Picture PDF retrieved September 29, 2026; category values, selected-industry definitions, source note, and arithmetic sums were checked.",
+    "release_hash": "sha256:26b38dc32b9c166d6d5572649b48b62a0876813c11de96a9c7a563ff9a09de62",
+    "visualization_hash": "sha256:a6eb2d2481c2d7c923cf014f8fd7432a9ad08623dd3ff2f20a035e371f361e00",
+    "state_file_hash": "sha256:67de9be965d4b154f92b834ca25777b1b07a0a8b5dc1f222a148b5a4890ed7e7",
+    "checked": "2026-09-29"
+  }
+}

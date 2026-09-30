@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-colombia-heat-stress-occupational-mortality-climate-risk-2026",
+  "title": "Climate risk becomes an occupational bargain: heat exposure is distributed by work, place and protection",
+  "theme_ids": ["work", "cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization Working Paper 178, Climate-Related Heat Stress and Occupational Mortality in Colombia, August 2026",
+  "geography": "Colombia; occupational mortality, temperature exposure and worker-protection systems across covered municipalities",
+  "observations": [
+    {
+      "period": "2017–2021; monthly temperature and mortality associations across Colombian occupations",
+      "denominator": {"value": 59539, "unit": "registered deaths in 297 municipalities with meteorological-station coverage", "value_type": "reported_study_frame"},
+      "measures": {
+        "moderate_heat": {"value": 0.04, "unit": "additional deaths per 1,000 workers associated with monthly maximum temperatures between 26°C and 32°C, relative to below 26°C", "value_type": "reported_estimate"},
+        "high_heat": {"value": 0.09, "unit": "additional deaths per 1,000 workers associated with monthly maximum temperatures above 32°C, relative to below 26°C", "value_type": "reported_estimate"},
+        "occupational_concentration": {"value": "agricultural workers, assemblers, health associate professionals and teaching professionals appear among the occupations with the highest heat-associated mortality; construction, manufacturing, mining and transport labourers also show elevated rates", "unit": "reported occupational pattern", "value_type": "reported_distributional_finding"},
+        "mechanism": {"value": "heat risk is converted through the physical intensity, setting, age, protective equipment and work-rest conditions of an occupation rather than exposure being a uniform climate effect", "unit": "bounded occupational-climate mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparison of Colombian vital-statistics microdata for 2017–2021 with local monthly temperature data from IDEAM stations, matched by municipality and occupation and estimated using temperature and mortality variation.",
+      "uncertainty": "The estimates are observational associations, not a randomized causal effect; the study uses dry-air temperature rather than WBGT, covers municipalities with station data, and estimates occupational rates using a 2022 labor-force distribution.",
+      "subgroup": "Agricultural workers, assemblers, health and teaching professionals, construction and transport labourers, and workers in physically intense or outdoor occupations.",
+      "counterinterpretation": "Temperature-associated mortality may reflect correlated pollution, disease, seasonality, access to care, occupation composition or local conditions; occupational differences do not prove that heat alone caused each death.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-08/wp178_web_en.pdf",
+      "retrieval_hash": "sha256:3ecf73993516c11164aeba91060fa417061fa99f0cc9cf2411d5061d05dd49d4",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2021 mortality estimates and 2024 protection coverage; gendered exposure and remediation",
+      "denominator": {"value": 1, "unit": "Colombian worker and occupational-protection frame", "value_type": "reported_comparative_frame"},
+      "measures": {
+        "gender_pattern": {"value": "men show greater heat-associated occupational mortality overall, while women appear particularly vulnerable in health associate professions where they are a large majority", "unit": "reported gendered occupational pattern", "value_type": "reported_distributional_finding"},
+        "health_coverage": {"value": 99, "unit": "percent of the population covered by general health insurance in 2024", "value_type": "reported_coverage_indicator"},
+        "employment_injury_coverage": {"value": 53, "unit": "percent of the working population covered by the General System of Occupational Risks in December 2024", "value_type": "reported_coverage_indicator"},
+        "coverage_gap": {"value": "near-universal general health insurance coexists with occupational-risk protection covering only about half of workers", "unit": "reported social-protection contrast", "value_type": "reported_system_gap"},
+        "mechanism": {"value": "climate adaptation is a protection-and-recognition bargain: a worker can be medically covered in general while remaining incompletely protected against harm caused by work", "unit": "bounded protection-conversion mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO occupational mortality analysis combined with reported Colombian health-insurance and employment-injury coverage statistics and gender-disaggregated occupational estimates.",
+      "uncertainty": "Coverage is not the same as timely care, adequate compensation, prevention or claim realization; gender patterns are occupation-specific and do not provide a causal decomposition of biological, social or task-related exposure.",
+      "subgroup": "Men in higher-exposure occupations, women in health associate roles, workers outside occupational-risk insurance, informal workers, and families dependent on injured or deceased workers.",
+      "counterinterpretation": "Lower observed female mortality can reflect occupational sorting, age, exposure duration or under-recording rather than lower vulnerability; broader health coverage may still provide meaningful remediation despite the occupational-risk gap.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-08/wp178_web_en.pdf",
+      "retrieval_hash": "sha256:3ecf73993516c11164aeba91060fa417061fa99f0cc9cf2411d5061d05dd49d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy interpretation; climate adaptation, informality and worker voice",
+      "denominator": {"value": 297, "unit": "Colombian municipalities included in the temperature-mortality database", "value_type": "reported_geographic_frame"},
+      "measures": {
+        "coverage": {"value": "the meteorological-station sample covers 59% of Colombia's 2018 population; 648 stations supplied temperature data", "unit": "reported data coverage", "value_type": "reported_methodological_indicator"},
+        "informality": {"value": 56, "unit": "percent estimated informal employment in Colombia in 2024", "value_type": "reported_labor_indicator"},
+        "prevention_route": {"value": "the paper recommends hydration and sanitation, rest periods or modified schedules, cool and ventilated rest areas, protective equipment, training, acclimatization, health monitoring, medical checks, comprehensive risk assessment and worker involvement", "unit": "reported policy route", "value_type": "reported_policy_recommendation"},
+        "adaptation_boundary": {"value": "individual occupational-risk data in social insurance are limited to formal workers, so complementary surveys and broader data are needed to see morbidity and informal-worker exposure", "unit": "reported evidence boundary", "value_type": "reported_data_gap"},
+        "mechanism": {"value": "climate safety becomes a political and workplace negotiation over rest, schedule, equipment, reporting and compensation, with informality determining who can make risk visible and claim remedy", "unit": "bounded adaptation-and-voice mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Policy interpretation grounded in the observational mortality study, Colombian labor-force and insurance data, ILO occupational-safety instruments, and discussion of adaptation and mitigation responsibilities.",
+      "uncertainty": "The recommended measures are not evaluated interventions; station coverage, dry-air temperature, occupation coding and the use of a 2022 labor distribution limit inference to all workers and all climate conditions.",
+      "subgroup": "Informal workers, rural and remote workers, outdoor workers, employers, labor inspectors, occupational-health institutions, social partners and households dependent on workers' earnings.",
+      "counterinterpretation": "Formal occupational-risk coverage can expand without fully preventing heat harm, while workplace measures may reduce risk but shift costs to workers or firms if not financed and enforced; worker involvement is recommended, not observed as an implemented mechanism.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-08/wp178_web_en.pdf",
+      "retrieval_hash": "sha256:3ecf73993516c11164aeba91060fa417061fa99f0cc9cf2411d5061d05dd49d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/climate-related-heat-stress-and-occupational-mortality-colombia", "claim": "Official ILO publication page with study abstract, date, authors, PDF and methodological scope."},
+    {"source_url": "https://doi.org/10.54394/00034736", "claim": "Official DOI for ILO Working Paper 178."}
+  ],
+  "boundary": "This record adds an occupational-climate route from temperature exposure through mortality, gendered and occupational vulnerability, work-rest and prevention conditions, social-protection coverage, informality and worker voice. It is observational Colombian evidence and policy analysis, not causal proof of heat mortality, future climate effects, protection effectiveness, coverage adequacy or household welfare consequences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO 44-page PDF and publication page, mortality-temperature estimates, occupation-specific patterns, gender contrasts, health and occupational-risk coverage, station and population coverage, informality, data limitations and prevention recommendations were reviewed.",
+    "source_url_sha256": "sha256:3ecf73993516c11164aeba91060fa417061fa99f0cc9cf2411d5061d05dd49d4",
+    "checked": "2026-09-29"
+  }
+}

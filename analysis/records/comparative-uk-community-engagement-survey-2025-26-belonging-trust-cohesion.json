@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-community-engagement-survey-2025-26-belonging-trust-cohesion",
+  "title": "Neighbourhood belonging and cohesion remain substantial but uneven, with local trust weaker than broad intergroup coexistence",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport / Community and Engagement Survey 2025/26, neighbourhood and community report, updated 16 September 2026",
+  "geography": "England; representative Community and Engagement Survey estimates for people aged 16 and over",
+  "observations": [
+    {
+      "period": "October 2025-March 2026; England neighbourhood and community indicators",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses, approximate; report states the survey includes over 175,000 responses", "value_type": "official_survey_response_frame"},
+      "measures": {
+        "belonging": {"value": 61, "unit": "percent of people aged 16+ reporting very or fairly strong belonging to their immediate neighbourhood", "value_type": "official_survey_share"},
+        "neighbour_chat": {"value": 69, "unit": "percent reporting chatting with neighbours, beyond hello, at least monthly", "value_type": "official_survey_share"},
+        "collective_action": {"value": 61, "unit": "percent agreeing that people in their neighbourhood pull together to improve it", "value_type": "official_survey_share"},
+        "analytic_signal": {"value": "neighbourhood connection is visible as both belonging and interaction, but those measures do not by themselves establish durable collective capacity", "unit": "analytic community mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Representative official Community and Engagement Survey of people aged 16 and over in England; community-pathway questions were asked October 2025 to March 2026.",
+      "uncertainty": "The report provides aggregate estimates and local-authority comparisons; they are not a longitudinal test of the same people or a causal evaluation of community programs.",
+      "subgroup": "People aged 16 and over in England, with local-authority and demographic breakdowns.",
+      "counterinterpretation": "Reported belonging and neighbour contact may reflect area composition, tenure, age, selection, or local conditions rather than a common underlying civic capacity.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:8abd80e574db53f48cb6d8b35e1109dcfe32a9530b8cb7d4054e04ecd365eb01",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; local trust and intergroup coexistence",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses, approximate", "value_type": "official_survey_response_frame"},
+      "measures": {
+        "neighbour_trust": {"value": 38, "unit": "percent reporting that many people in their neighbourhood could be trusted", "value_type": "official_survey_share"},
+        "intergroup_coexistence": {"value": 79, "unit": "percent agreeing that their local area is a place where people from different backgrounds get along", "value_type": "official_survey_share"},
+        "trust_change": {"value": "neighbourhood trust fell 3 percentage points from 2024/25 while intergroup coexistence fell 2 points", "unit": "year-over-year official change", "value_type": "official_survey_change"},
+        "analytic_signal": {"value": "broad coexistence can be much higher than local interpersonal trust, so social cohesion is not one interchangeable attitude", "unit": "analytic cohesion differentiation", "value_type": "analytic_mechanism"}
+      },
+      "method": "Official aggregate survey comparison between 2025/26 and 2024/25 estimates.",
+      "uncertainty": "The measures use different question concepts and do not identify whether trust, contact, area conditions, or demographic composition caused the observed difference.",
+      "subgroup": "People aged 16 and over in England.",
+      "counterinterpretation": "Respondents may interpret 'many people can be trusted' more strictly than a general question about whether backgrounds get along, making the gap partly semantic.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:8abd80e574db53f48cb6d8b35e1109dcfe32a9530b8cb7d4054e04ecd365eb01",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; spatial and status inequality",
+      "denominator": {"value": 1, "unit": "England local-authority and subgroup comparison frame", "value_type": "official_inequality_comparison"},
+      "measures": {
+        "belonging_local_range": {"value": 27, "unit": "percentage-point local-authority range in strong neighbourhood belonging, from 74% to 47%", "value_type": "official_subnational_range"},
+        "trust_local_range": {"value": 50, "unit": "percentage-point local-authority range in neighbourhood trust, from 65% to 15%", "value_type": "official_subnational_range"},
+        "deprivation_belonging": {"value": "strong belonging was 69% in the least deprived areas versus 54% in the most deprived areas", "unit": "official deprivation comparison", "value_type": "official_subgroup_comparison"},
+        "analytic_signal": {"value": "place, deprivation, disability, age, and other status conditions shape the practical distribution of belonging and trust", "unit": "analytic unequal-exposure mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Official local-authority, deprivation, and demographic breakdowns from the Community and Engagement Survey.",
+      "uncertainty": "These are descriptive differences and do not identify whether deprivation, local institutions, housing, mobility, safety, social composition, or measurement differences generate the gaps.",
+      "subgroup": "Local authorities, deprivation deciles, disabled and non-disabled people, age groups, and other demographic categories in England.",
+      "counterinterpretation": "Large local-authority ranges can reflect sample design, confidence intervals, outliers, and differences in local population composition rather than stable area-level effects.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:8abd80e574db53f48cb6d8b35e1109dcfe32a9530b8cb7d4054e04ecd365eb01",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; perceived local trajectory",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses, approximate", "value_type": "official_survey_response_frame"},
+      "measures": {
+        "area_better": {"value": 11, "unit": "percent reporting their local area had got better to live in over the previous two years", "value_type": "official_survey_share"},
+        "area_worse": {"value": 31, "unit": "percent reporting their local area had got worse to live in over the previous two years", "value_type": "official_survey_share"},
+        "year_over_year": {"value": "the better share was unchanged from 2024/25 while the worse share rose 1 percentage point", "unit": "official survey change", "value_type": "official_survey_change"},
+        "open_test": {"value": "join perceived neighbourhood trajectory to local service change, housing, safety, mobility, community participation, trust, and later exit or civic action", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Official repeated annual survey indicator with local-authority and demographic breakdowns.",
+      "uncertainty": "Perceived area change is not a direct measure of service quality, objective investment, migration, property value, or causal community decline.",
+      "subgroup": "People aged 16 and over in England and their local areas.",
+      "counterinterpretation": "A negative perception of area change can coexist with stable or improving specific services, and the two-year recall window can compress multiple events.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report",
+      "retrieval_hash": "sha256:8abd80e574db53f48cb6d8b35e1109dcfe32a9530b8cb7d4054e04ecd365eb01",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study", "claim": "The DCMS culture-and-heritage study provides a mechanism framework for interpreting belonging, trust, participation, and social infrastructure."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing", "claim": "ONS wellbeing statistics provide complementary outcome and quality-of-life context."}
+  ],
+  "boundary": "This record adds an official aggregate outcome surface for neighbourhood belonging, neighbour interaction, collective action, local trust, intergroup coexistence, place inequality, and perceived local change. It is representative England survey reporting, not respondent-level linkage, a causal community intervention evaluation, proof that belonging causes civic action, or a universal measure of social cohesion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK report was reviewed for survey representativeness, fieldwork period, response scale, headline belonging, neighbour interaction, collective action, trust, intergroup coexistence, local trajectory, subgroup, deprivation, and local-authority comparisons.",
+    "source_url_sha256": "sha256:8abd80e574db53f48cb6d8b35e1109dcfe32a9530b8cb7d4054e04ecd365eb01",
+    "checked": "2026-09-26"
+  }
+}

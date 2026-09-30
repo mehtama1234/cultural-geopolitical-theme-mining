@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-gender-pay-gap-2026-care-segregation-bargaining",
+  "title": "The global gender-pay gap is narrowing too slowly because pay is embedded in care, occupational segregation, career progression, undervaluation, and bargaining institutions",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "care_health_reproduction", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "time_hidden_price"],
+  "source_unit": "ILO new global gender-pay-gap estimates and Equal Pay International Coalition policy release, published 21 September 2026",
+  "geography": "Global, with comparisons across country income groups and labour-market contexts",
+  "observations": [
+    {
+      "period": "2018–2026; global gender-pay-gap trend",
+      "denominator": {"value": 1, "unit": "ILO global gender-pay-gap estimate series released in September 2026", "value_type": "reported_global_estimate"},
+      "measures": {
+        "remaining_gap": {"value": "women earn on average around 18% less than men globally", "unit": "average gender earnings gap", "value_type": "reported_global_estimate"},
+        "decade_change": {"value": "the gap narrowed by only two percentage points since the previous estimates released in 2018", "unit": "percentage-point change", "value_type": "reported_change"},
+        "pace": {"value": "the ILO describes the current decline as approximately 0.2 percentage points per year", "unit": "percentage points per year", "value_type": "reported_trend_rate"}
+      },
+      "method": "ILO global estimates summarized in an official news release; the release does not reproduce the complete statistical methodology or country-level series.",
+      "uncertainty": "An average global earnings gap is not a causal estimate and can conceal differences in hours, employment selection, occupation, sector, age, care, informal work, race, disability, migration status, and country definitions.",
+      "subgroup": "Women and men across countries and income groups, with additional exposure among caregivers, informal workers, low-paid workers, women in segregated occupations, and workers facing discrimination.",
+      "counterinterpretation": "A slow aggregate improvement can coexist with substantial progress in particular countries, sectors, cohorts, or legal reforms; the global average should not be read as a uniform experience.",
+      "source_url": "https://www.ilo.org/resource/news/gender-pay-gap-narrows-just-two-percentage-points-decade",
+      "retrieval_hash": "sha256:070001b2468cc26fbb0d0c761977d19a34b4d814e3de4e74ddaef5e66cc98d49",
+      "status": "reported"
+    },
+    {
+      "period": "2016–2026; variation by country income group",
+      "denominator": {"value": 3, "unit": "income-group comparisons reported by the ILO", "value_type": "reported_comparative_frame"},
+      "measures": {
+        "high_income_change": {"value": "the gap narrowed by around 2.5 percentage points in high-income countries over the past decade", "unit": "percentage-point change", "value_type": "reported_group_change"},
+        "lower_middle_change": {"value": "the gap narrowed by around 2 percentage points in lower-middle-income countries", "unit": "percentage-point change", "value_type": "reported_group_change"},
+        "upper_middle_change": {"value": "the gap narrowed by around 1 percentage point in upper-middle-income countries", "unit": "percentage-point change", "value_type": "reported_group_change"},
+        "policy_variation": {"value": "some countries have made substantial progress, while others have seen gaps remain unchanged or widen", "unit": "reported cross-country variation", "value_type": "reported_heterogeneity"}
+      },
+      "method": "ILO comparative estimates summarized by national income group; no country causal decomposition is provided in the release.",
+      "uncertainty": "Income-group averages can hide large within-group variation, different data quality, and changes in labour-force composition or measurement over time.",
+      "subgroup": "Workers in high-, lower-middle-, and upper-middle-income countries; women entering or leaving paid work; public- and private-sector workers; and workers in informal or precarious employment.",
+      "counterinterpretation": "Slower aggregate narrowing in some groups may reflect difficult-to-measure entry into paid work or structural occupational change rather than no improvement in women’s economic position.",
+      "source_url": "https://www.ilo.org/resource/news/gender-pay-gap-narrows-just-two-percentage-points-decade",
+      "retrieval_hash": "sha256:070001b2468cc26fbb0d0c761977d19a34b4d814e3de4e74ddaef5e66cc98d49",
+      "status": "reported"
+    },
+    {
+      "period": "2026; structural mechanisms behind the pay gap",
+      "denominator": {"value": 1, "unit": "ILO diagnosis of structural drivers of gender pay inequality", "value_type": "reported_mechanism_frame"},
+      "measures": {
+        "employment_access": {"value": "differences in access to employment contribute to gender pay inequality", "unit": "reported structural factor", "value_type": "reported_mechanism"},
+        "career_progression": {"value": "unequal career progression and occupational segregation contribute to the gap", "unit": "reported structural factor", "value_type": "reported_mechanism"},
+        "care": {"value": "the unequal distribution of paid and unpaid care responsibilities contributes to gender pay inequality", "unit": "reported structural factor", "value_type": "reported_care_mechanism"},
+        "undervaluation": {"value": "discrimination and the undervaluation of women’s work are identified as structural contributors", "unit": "reported structural factor", "value_type": "reported_valuation_mechanism"}
+      },
+      "method": "ILO interpretive synthesis accompanying the global estimates; it does not quantify the contribution of each mechanism in the release.",
+      "uncertainty": "The mechanisms interact and may vary by country, occupation, family structure, sector, employer, and legal regime; the source does not establish a single dominant cause.",
+      "subgroup": "Caregivers, mothers, women in undervalued occupations, part-time and informal workers, women facing discrimination, and workers with limited bargaining or progression opportunities.",
+      "counterinterpretation": "Observed pay gaps can reflect multiple forms of sorting and preference as well as discrimination; mechanism-specific evidence is required before assigning one explanation or remedy.",
+      "source_url": "https://www.ilo.org/resource/news/gender-pay-gap-narrows-just-two-percentage-points-decade",
+      "retrieval_hash": "sha256:070001b2468cc26fbb0d0c761977d19a34b4d814e3de4e74ddaef5e66cc98d49",
+      "status": "reported"
+    },
+    {
+      "period": "2026; institutional routes proposed to accelerate equal pay",
+      "denominator": {"value": 1, "unit": "ILO and EPIC policy-action set for equal pay for work of equal value", "value_type": "reported_policy_set"},
+      "measures": {
+        "transparency": {"value": "stronger pay transparency and objective, gender-neutral job evaluation are proposed measures", "unit": "reported policy route", "value_type": "reported_policy_recommendation"},
+        "wage_policy": {"value": "effective wage policies and enforcement of equality legislation are identified as routes to address structural inequality", "unit": "reported policy route", "value_type": "reported_policy_recommendation"},
+        "bargaining": {"value": "collective bargaining and social dialogue are presented as mechanisms to address undervaluation and give women a voice in shaping economic lives", "unit": "reported institutional route", "value_type": "reported_bargaining_recommendation"},
+        "care_protection": {"value": "investment in care systems and social protection is included among measures that can address gender-pay inequality", "unit": "reported policy route", "value_type": "reported_care_policy_recommendation"}
+      },
+      "method": "ILO policy statement and EPIC convening context; measures are recommendations and commitments, not evidence of adoption or effect.",
+      "uncertainty": "The release does not show which reforms are in force, who bears implementation costs, whether transparency changes bargaining power, or whether care investment narrows pay gaps without reducing job quality or access.",
+      "subgroup": "Women workers, employers, unions, governments, pay-setting institutions, care workers, families, and workers in occupations whose value is contested or undercounted.",
+      "counterinterpretation": "Transparency and formal equality rules can reveal gaps without correcting them; bargaining and care investment can be unevenly accessible and may leave informal, domestic, migrant, or subcontracted workers outside protection.",
+      "source_url": "https://www.ilo.org/resource/news/gender-pay-gap-narrows-just-two-percentage-points-decade",
+      "retrieval_hash": "sha256:070001b2468cc26fbb0d0c761977d19a34b4d814e3de4e74ddaef5e66cc98d49",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.equalpayinternationalcoalition.org/", "claim": "Equal Pay International Coalition context for cross-sector equal-pay collaboration."},
+    {"source_url": "https://www.ilo.org/resource/other/equal-remuneration-convention-1951-no-100", "claim": "ILO Equal Remuneration Convention No. 100 context for equal pay for work of equal value."}
+  ],
+  "boundary": "This record adds a gendered distribution and bargaining route: the global pay gap is changing slowly, while care, segregation, progression, undervaluation, transparency, collective bargaining, care systems, and social protection shape the conversion of formal equality into household economic power. It is an ILO estimate summary and policy statement, not a country-level causal decomposition, worker panel, employer audit, or proof that proposed measures close gaps.",
+  "retrieval_hash": "sha256:070001b2468cc26fbb0d0c761977d19a34b4d814e3de4e74ddaef5e66cc98d49"
+}

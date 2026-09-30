@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-flying-geese-automation-aging-industrialization-2026",
+  "title": "Automation may interrupt the expected industrial relocation ladder as aging and protectionism intensify",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11468, Can the Flying Geese Fly Again? Automation and the Pattern of Industrialization",
+  "geography": "China, nine individually reported countries, advanced economies, emerging markets, and World Bank regions in a 16-sector multi-country trade and robotization model",
+  "observations": [
+    {
+      "period": "Model scenarios calibrated to trade, robot adoption, labor force, and production-network data; China and developing-country comparison",
+      "denominator": {"value": 16, "unit": "sectors in the multi-country quantitative model", "value_type": "reported_model_frame"},
+      "measures": {
+        "china_robot_productivity": {"value": "doubling robot productivity raises China's modeled real GDP by 0.77%, compared with 0.23% on average for developing economies", "unit": "percent modeled real-GDP change", "value_type": "reported_model_estimate"},
+        "aging_pattern": {"value": "China and Thailand face severe modeled export and GDP declines from aging, while India and the Philippines see significant increases in trade and economic activity", "unit": "reported scenario direction", "value_type": "reported_model_result"},
+        "automation_timing": {"value": "earlier robot adoption in China, associated with higher real wages, gives it a stronger modeled response to productivity gains", "unit": "bounded competitiveness mechanism", "value_type": "bounded_mechanism"},
+        "development_ladder": {"value": "automation can preserve incumbent manufacturing competitiveness rather than allowing production to relocate predictably toward younger or lower-wage economies", "unit": "bounded industrial-relocation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Multi-country general-equilibrium trade model fitted to global trade, industrial-robot, population, and input-output production-network data.",
+      "uncertainty": "Results are model scenarios dependent on calibration, functional forms, population projections, trade assumptions, robot productivity, and sector aggregation; they are not observed post-automation outcomes.",
+      "subgroup": "Manufacturing workers, younger and older labor forces, firms in China and developing economies, exporting sectors, consumers of traded goods, and places competing for industrial relocation.",
+      "counterinterpretation": "Higher robot productivity can increase GDP and exports without preserving employment, wages, bargaining power, or broad-based local opportunity; incumbent competitiveness is not equivalent to worker welfare.",
+      "source_url": "https://documents.worldbank.org/curated/en/099410209282647426/pdf/IDU-48b753d2-21a0-4e55-aa84-a65f0516ba8a.pdf",
+      "retrieval_hash": "sha256:897f594070f6e9559b0780d590f95273105886a4f35b4839ee58f53860ab81b0",
+      "status": "reported"
+    },
+    {
+      "period": "Trade-cost and robot-productivity counterfactuals",
+      "denominator": {"value": 3, "unit": "country-group and country comparison results highlighted for trade-cost interactions", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "china_turkiye": {"value": "doubling robot productivity undoes the modeled negative real-GDP effects of higher trade costs in China and Türkiye", "unit": "reported model interaction", "value_type": "reported_model_result"},
+        "developing_countries": {"value": "a tenfold increase in robot productivity is required in the model to eliminate the harmful real-GDP effects of higher trade costs for all developing countries", "unit": "reported model interaction", "value_type": "reported_model_result"},
+        "advanced_economies": {"value": "advanced economies experience a large modeled decline in exports and GDP in the combined scenario because they are effectively engaging in a trade war", "unit": "reported scenario direction", "value_type": "reported_model_result"},
+        "geopolitical_industrialization": {"value": "protectionism and automation do not simply reverse one another; the ability to absorb trade shocks depends on existing robot capability and sector structure", "unit": "bounded trade-technology mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Counterfactual combinations of a 10% increase in Northern trade costs and alternative robot-productivity multipliers within the calibrated model.",
+      "uncertainty": "The tenfold productivity requirement is a model-specific threshold, not a forecast of feasible investment or a universal policy prescription; trade responses may differ with retaliation, subsidies, exchange rates, and firm entry.",
+      "subgroup": "Export-oriented firms, industrial workers, importing consumers, governments using protection, and developing economies seeking manufacturing-led upgrading.",
+      "counterinterpretation": "Protection can redirect supply chains even when modeled GDP effects are offset, and robot adoption may deepen concentration if capital, skills, energy, and finance are unevenly available.",
+      "source_url": "https://documents.worldbank.org/curated/en/099410209282647426/pdf/IDU-48b753d2-21a0-4e55-aa84-a65f0516ba8a.pdf",
+      "retrieval_hash": "sha256:897f594070f6e9559b0780d590f95273105886a4f35b4839ee58f53860ab81b0",
+      "status": "reported"
+    },
+    {
+      "period": "China labor-force decline and sectoral automatable-task thresholds",
+      "denominator": {"value": 3, "unit": "illustrative sectors: vehicles, computer and electronics, and metals", "value_type": "reported_sector_frame"},
+      "measures": {
+        "vehicles": {"value": "with about a 10% labor-supply decline, doubling robot productivity can fully offset the loss of comparative advantage in vehicles", "unit": "reported model threshold", "value_type": "reported_sector_result"},
+        "electronics": {"value": "maintaining the same outcome in computer and electronics requires about a 220% robot-productivity increase, or more than three-fold productivity", "unit": "reported model threshold", "value_type": "reported_sector_result"},
+        "metals": {"value": "when labor-force reduction exceeds 14%, the model cannot identify an equivalent competitiveness-preserving threshold in metals because too few tasks are automatable", "unit": "reported model infeasibility threshold", "value_type": "reported_sector_result"},
+        "worker_conversion": {"value": "the same demographic and technology shock produces different employment and place consequences depending on the task composition of the sector", "unit": "bounded sectoral-distribution mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Sector-specific counterfactual analysis varying labor supply, robot productivity, and the estimated share of automatable tasks while holding China's export share constant.",
+      "uncertainty": "The exercise preserves an export-competitiveness target rather than estimating worker transitions, displacement, wage distribution, or local employment; task shares and productivity thresholds are model inputs.",
+      "subgroup": "Vehicle, electronics, and metals workers; regions specialized in low-automatable production; firms choosing capital versus labor; and younger economies expecting labor-intensive industrial entry.",
+      "counterinterpretation": "A sector can preserve export competitiveness while shedding workers or changing job quality; sectors with fewer automatable tasks may retain labor demand but lose competitiveness under demographic pressure.",
+      "source_url": "https://documents.worldbank.org/curated/en/099410209282647426/pdf/IDU-48b753d2-21a0-4e55-aa84-a65f0516ba8a.pdf",
+      "retrieval_hash": "sha256:897f594070f6e9559b0780d590f95273105886a4f35b4839ee58f53860ab81b0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099410209282647426", "claim": "Official World Bank record, WPS number, authors, date, abstract, geography, sectors, themes, and document metadata."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/658", "claim": "World Bank reproducibility metadata, model scope, data sources, software environment, verification note, and temporary embargo disclosure."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/658/download/1983/README.pdf", "claim": "Reproducibility README and stated data/code access conditions."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099410209282647426", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds an automation-to-industrial-relocation and sectoral-task-composition mechanism. It is a calibrated multi-country model, not observed causal evidence that automation preserves manufacturing jobs, improves wages, distributes gains, or changes household consumption. The cultural and social consequences remain open: whether the expected development ladder weakens, which places lose industrial entry, and how workers and consumers experience the resulting concentration require country, firm, and worker-level follow-through.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, reproducibility package, and README were reviewed for the 16-sector model, robot-productivity scenarios, aging and trade-cost interactions, China and developing-country comparisons, and vehicle/electronics/metals task thresholds. The reproducibility package is temporarily embargoed and relies partly on restricted IFR robot data.",
+    "source_url_sha256": "sha256:897f594070f6e9559b0780d590f95273105886a4f35b4839ee58f53860ab81b0",
+    "checked": "2026-09-29"
+  }
+}

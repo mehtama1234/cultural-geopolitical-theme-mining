@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-tunisia-drought-firm-revenue-labor-resilience-2026",
+  "title": "Drought shocks reduce Tunisian firm revenue while resilience and labor adjustment split by firm type",
+  "theme_ids": ["cost", "work", "energy", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11472, Droughts and Firms in Tunisia",
+  "geography": "Tunisia’s formal firms across 254 delegations, using a panel from approximately 2000-2019 linked to satellite and reanalysis precipitation measures",
+  "observations": [
+    {
+      "period": "Tunisia formal firms; more than 1.4 million firm-year observations over approximately 2000-2019",
+      "denominator": {"value": 1414909, "unit": "firm-year observations in the main estimation sample", "value_type": "reported_observation_count"},
+      "measures": {
+        "drought_definition": {"value": "a negative precipitation shock is annual precipitation one standard deviation below the long-term average for the delegation-year", "unit": "reported precipitation-shock definition", "value_type": "reported_method"},
+        "total_revenue": {"value": "drought reduces total firm revenues by approximately 12.4%", "unit": "percent modeled revenue change", "value_type": "reported_panel_estimate"},
+        "revenue_per_worker": {"value": "drought reduces revenue per worker by approximately 11.4%", "unit": "percent modeled revenue-per-worker change", "value_type": "reported_panel_estimate"},
+        "employment": {"value": "there is no statistically significant relationship between droughts and the number of workers for the full sample", "unit": "reported panel result", "value_type": "reported_panel_result"},
+        "climate_to_firm": {"value": "a local water shock can reduce firm performance without an immediate aggregate employment response", "unit": "bounded climate-firm mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Firm-level panel regressions with firm fixed effects, year-by-governorate fixed effects, temperature controls, and standard errors clustered at the delegation level.",
+      "uncertainty": "The design treats precipitation shocks as plausibly exogenous conditional on controls, but the paper is observational; formal registry coverage, shock measurement, timing, and omitted local mechanisms limit causal interpretation.",
+      "subgroup": "Formal firms, employees, consumers, households dependent on local firms, domestic and exporting businesses, and delegations facing recurrent water scarcity.",
+      "counterinterpretation": "Stable worker counts can coexist with lower wages, hours, profits, investment, informal displacement, reduced quality, or later adjustment; the paper does not measure all these channels.",
+      "source_url": "https://documents.worldbank.org/curated/en/099900309282693119/pdf/IDU-8b3fab30-2982-4de6-b73e-9df3332d07fe.pdf",
+      "retrieval_hash": "sha256:efaf536952cb24ee89d600a580b6407599bca91157d1aab2f2bf2dd1f9bf9dda",
+      "status": "reported"
+    },
+    {
+      "period": "Tunisia firms; drought heterogeneity by size, ownership, and export orientation",
+      "denominator": {"value": 3, "unit": "firm-type dimensions examined: size, ownership, and export orientation", "value_type": "reported_heterogeneity_frame"},
+      "measures": {
+        "large_firms": {"value": "large firms, defined as having 100 or more employees, are more affected by drought in revenue per worker and revenue than small and medium firms", "unit": "reported heterogeneous panel result", "value_type": "reported_heterogeneity_estimate"},
+        "foreign_and_exporting_revenue": {"value": "foreign-owned and exporting firms show greater revenue resilience to drought shocks than domestic and non-exporting firms", "unit": "reported heterogeneous panel result", "value_type": "reported_heterogeneity_estimate"},
+        "large_and_foreign_employment": {"value": "large and foreign-owned firms experience stronger negative employment responses under drought, while exporter status is associated with shielding employees", "unit": "reported heterogeneous employment result", "value_type": "reported_heterogeneity_estimate"},
+        "capital_labor_route": {"value": "foreign firms may preserve revenues through imported capital and financial capacity while shedding labor, consistent with capital-labor substitution", "unit": "bounded firm-adjustment mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Interactions between drought shocks and firm size, foreign ownership, and exporter status in revenue, revenue-per-worker, and worker-count models.",
+      "uncertainty": "The paper presents possible mechanisms rather than directly measuring capital substitution, credit access, imported technology, wages, or worker transitions; interaction estimates are sample- and specification-dependent.",
+      "subgroup": "Large and small firms, foreign- and domestic-owned firms, exporters and non-exporters, employees exposed to restructuring, and local suppliers and customers.",
+      "counterinterpretation": "Export exposure can provide diversification and adaptation resources, while large firms’ broader market integration can also transmit drought stress more widely through supply chains and finance.",
+      "source_url": "https://documents.worldbank.org/curated/en/099900309282693119/pdf/IDU-8b3fab30-2982-4de6-b73e-9df3332d07fe.pdf",
+      "retrieval_hash": "sha256:efaf536952cb24ee89d600a580b6407599bca91157d1aab2f2bf2dd1f9bf9dda",
+      "status": "reported"
+    },
+    {
+      "period": "Tunisia formal firms; sectoral revenue and workforce responses",
+      "denominator": {"value": 9, "unit": "sectors examined in sector heterogeneity analysis", "value_type": "reported_sector_frame"},
+      "measures": {
+        "services_and_health": {"value": "drought has statistically significant negative effects on revenue per worker in services and health, approximately -27.7% and -35.8% in the reported sector estimates", "unit": "percent modeled revenue-per-worker change", "value_type": "reported_sector_estimate"},
+        "household_health_route": {"value": "the paper identifies reduced household health spending as one possible pathway for lower health-sector revenue during drought", "unit": "bounded demand mechanism", "value_type": "bounded_mechanism"},
+        "tourism_route": {"value": "service-sector vulnerability may reflect exposure of hotels and restaurants to drought conditions", "unit": "bounded sector mechanism", "value_type": "bounded_mechanism"},
+        "wholesale_retail_workers": {"value": "worker counts rise in wholesale and retail while revenue and revenue per worker show no statistically significant drought response in that sector", "unit": "reported sectoral labor result", "value_type": "reported_sector_result"},
+        "informal_boundary": {"value": "the formal registry may understate drought burden where informal firms, especially in agriculture, are more exposed and less able to adapt", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Sector-specific versions of the firm-level fixed-effects panel models across nine sectors.",
+      "uncertainty": "Several sector results are imprecise; the formal-firm frame excludes informal activity, and proposed household-demand and tourism pathways are not directly tested.",
+      "subgroup": "Health users, tourism and hospitality workers, wholesale and retail workers, informal agricultural firms, formal service firms, and households in drought-affected delegations.",
+      "counterinterpretation": "Sectoral worker reallocation may reflect coping or labor-market adjustment rather than improved opportunity; stable or rising employment can accompany falling productivity and household welfare.",
+      "source_url": "https://documents.worldbank.org/curated/en/099900309282693119/pdf/IDU-8b3fab30-2982-4de6-b73e-9df3332d07fe.pdf",
+      "retrieval_hash": "sha256:efaf536952cb24ee89d600a580b6407599bca91157d1aab2f2bf2dd1f9bf9dda",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099900309282693119", "claim": "Official World Bank record, WPS number, authors, date, abstract, Tunisia geography, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099900309282693119", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a drought-to-firm-performance and uneven-adaptation mechanism. It is evidence from Tunisia’s formal firm registry and does not measure informal firms, household welfare, wages, job quality, firm investment, credit, public water delivery, or causal consumer and health outcomes. The observed revenue and worker patterns support a follow-through agenda, not a universal claim about firm resilience or climate adaptation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, abstract, formal-firm registry, more than one million firm-year observations, delegation-level precipitation shocks, 12.4% revenue and 11.4% revenue-per-worker estimates, firm-type heterogeneity, sector results, and informal-firm boundary were reviewed.",
+    "source_url_sha256": "sha256:efaf536952cb24ee89d600a580b6407599bca91157d1aab2f2bf2dd1f9bf9dda",
+    "checked": "2026-09-29"
+  }
+}

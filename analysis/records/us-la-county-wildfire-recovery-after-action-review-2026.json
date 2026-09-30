@@ -1,0 +1,124 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-la-county-wildfire-recovery-after-action-review-2026",
+  "title": "Wildfire recovery becomes an institutional learning episode, while household repopulation outcomes remain open",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Los Angeles County independent Recovery and Repopulation After-Action Review for the January 2025 Eaton and Palisades wildfires, released September 11, 2026",
+  "geography": "Los Angeles County; Eaton and Palisades wildfire-impacted communities",
+  "observations": [
+    {
+      "period": "January 7, 2025-March 31, 2025 operational review; released September 11, 2026",
+      "denominator": {"value": 1, "unit": "independent county recovery and repopulation after-action review", "value_type": "institutional_review"},
+      "measures": {
+        "findings": {"value": 26, "unit": "review findings", "value_type": "reported_review_count"},
+        "actionable_recommendations": {"value": 25, "unit": "actionable recommendations", "value_type": "reported_recommendation_count"},
+        "focus_areas": {"value": ["communications", "volunteer and donations management", "recovery", "repopulation", "shelter, housing, and people at higher risk", "public health and access and functional needs"], "unit": "review focus areas", "value_type": "reported_focus_area_set"},
+        "institutional_mechanism": {"value": "A disaster response is converted into formal learning and future-readiness recommendations across communication, housing, repopulation, public health, and access needs", "unit": "bounded institutional-learning mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Independent McChrystal Group after-action review commissioned/released by Los Angeles County, covering short-term recovery and repopulation operations after the Eaton and Palisades fires. The county release reports the finding, recommendation, time, and focus-area counts; the review is not a population survey or household outcome panel.",
+      "uncertainty": "The public release does not establish which recommendations were adopted, funded, implemented, or effective, nor does it identify household-level exposure, service receipt, safe return, displacement duration, health outcome, or trust change. The review period ends March 31, 2025, while release and implementation occur later.",
+      "subgroup": "Fire-impacted residents, displaced households, people with higher risk or access and functional needs, volunteers, donors, recovery agencies, and county systems involved in repopulation.",
+      "counterinterpretation": "An after-action review can create accountability and institutional memory, but it can also become a symbolic compliance artifact if recommendations lack owners, funding, deadlines, public progress measures, or survivor participation.",
+      "source_url": "https://lacounty.gov/2026/09/11/la-county-releases-second-after-action-review-covering-recovery-and-repopulation-operations-following-2025-wildfires/",
+      "retrieval_hash": "sha256:c931092a3b8c24379463debaae89d4271defd8bbd561b04d57e7e70e8da71249",
+      "status": "reported"
+    },
+    {
+      "period": "Findings and Recommendations table released September 11, 2026; review of January-March 2025 operations",
+      "denominator": {"value": 25, "unit": "actionable recommendations in the official findings-and-recommendations table", "value_type": "recommendation_set"},
+      "measures": {
+        "near_term_recommendations": {"value": 11, "unit": "recommendations with near-term horizon", "value_type": "reported_horizon_count"},
+        "mid_term_recommendations": {"value": 9, "unit": "recommendations with mid-term horizon", "value_type": "reported_horizon_count"},
+        "long_term_recommendations": {"value": 5, "unit": "recommendations with long-term horizon", "value_type": "reported_horizon_count"},
+        "assigned_lead_agency": {"value": "Each recommendation names a lead agency and supporting agencies", "unit": "implementation-accountability structure", "value_type": "reported_governance_structure"},
+        "reported_breakdowns": {"value": ["CJIC scaling, integration, and publication authority did not keep pace with recovery needs", "repopulation decisions were not translated into resident-ready instructions", "residents made duplicative trips to access benefit programs", "public shelter and housing information was fragmented", "shelter and housing options were not consistently equipped for the full range of access and functional needs", "residential-care emergency coordination lacked real-time capacity visibility"], "unit": "selected official findings", "value_type": "reported_finding_set"},
+        "mechanism": {"value": "Institutional learning becomes potentially executable when a diagnosed failure is assigned an owner, supporting agencies, and a time horizon; implementation remains the next observable stage", "unit": "bounded accountability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official Los Angeles County findings-and-recommendations PDF table. The table enumerates 26 findings and 25 recommendations across six focus areas and assigns lead agencies, supporting agencies, and proposed horizons.",
+      "uncertainty": "A named lead and horizon do not establish adoption, funding, completed implementation, public reporting, survivor influence, or improved service outcomes. Horizon categories are source-defined and not a performance timeline unless later status evidence is found.",
+      "subgroup": "County recovery, emergency-management, communications, law-enforcement, housing, public-health, disability-access, shelter, and social-service systems serving fire-impacted residents.",
+      "counterinterpretation": "Formal assignment can improve accountability, but it can also diffuse responsibility across supporting agencies or remain a planning artifact if progress is not publicly tracked.",
+      "source_url": "https://file.lacounty.gov/SDSInter/lac/1217422_LACountyAARofRecoveryandRepopulationEfforts-FindingsandRecommendations.pdf",
+      "retrieval_hash": "sha256:96b53187e9f907e3f18ac6c3818e6fd44112b7713ce232d026549383fc44d10a",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; public community-survey route attached to the after-action review",
+      "denominator": {"value": 1, "unit": "public survey instrument and feedback route", "value_type": "public_feedback_instrument"},
+      "measures": {
+        "eligibility_scope": {"value": "Residents who evacuated, experienced property damage, used shelters or debris-removal/recovery services, had access and functional needs, sought information about someone in County custody, were unhoused at fire outbreak, attempted to volunteer or donate, plus non-impacted residents with observations", "unit": "published eligibility scope", "value_type": "reported_scope"},
+        "completion_claim": {"value": "less than 10 minutes", "unit": "published estimated completion time", "value_type": "reported_instrument_metadata"},
+        "privacy_claim": {"value": "responses described as anonymized and used solely to inform improvements to recovery and repopulation operations", "unit": "published data-use description", "value_type": "reported_data_use_statement"},
+        "results": {"value": "not publicly observed in the reviewed material", "unit": "survey results or response distribution", "value_type": "unmeasured"},
+        "mechanism": {"value": "The County created a formal voice channel for affected and observing residents, but its institutional effect depends on response volume, representativeness, synthesis, public response, and implementation follow-up", "unit": "bounded public-voice mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "County after-action-review hub description of a Decipher public community survey linked to the review; no response file, sample frame, response count, weighting plan, or results were located in this pass.",
+      "uncertainty": "An open feedback instrument is not a probability sample or evidence of resident influence. The public page does not establish recruitment reach, response bias, response count, analysis protocol, or whether recommendations change after the survey.",
+      "subgroup": "Fire-impacted and non-impacted Los Angeles County residents, including evacuees, property-damage survivors, shelter and recovery-service users, people with access and functional needs, unhoused residents, volunteers, and donors.",
+      "counterinterpretation": "A broad invitation may surface experiences omitted from administrative data, but voluntary participation can overrepresent people with strong experiences, internet access, time, or organizational connection.",
+      "source_url": "https://lacounty.gov/aar/",
+      "retrieval_hash": "sha256:685327e06afb7f10f54747b75a00bbf52d79b48e417cdb6625e935b80f2799f1",
+      "status": "reported"
+    },
+    {
+      "period": "September 15, 2026; Board response after receiving the recovery and repopulation after-action review",
+      "denominator": {"value": 1, "unit": "unanimously approved Board implementation motion", "value_type": "reported_governance_action"},
+      "measures": {
+        "board_action": {"value": "Board received the second independent review and directed next steps to act on its recommendations", "unit": "reported institutional action", "value_type": "reported_action"},
+        "reporting_requirement": {"value": "regular implementation reporting must identify responsible parties, required resources, and barriers across near-, mid-, and long-term recommendations", "unit": "accountability requirement", "value_type": "reported_requirement"},
+        "third_party_tracking": {"value": "dedicated third-party administrator to track progress and strengthen coordination across local, state, and federal partners", "unit": "implementation-monitoring mechanism", "value_type": "reported_governance_mechanism"},
+        "implementation_status": {"value": "follow-through and recommendation completion not established by the announcement", "unit": "unmeasured implementation outcome", "value_type": "unmeasured"},
+        "mechanism": {"value": "A review is converted into an accountability system when responsibility, resources, barriers, reporting cadence, and an independent tracking function are named", "unit": "bounded institutional-accountability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Supervisor announcement describing the unanimously approved September 15 Board motion after the second independent review; it reports the intended accountability structure, not completed implementation.",
+      "uncertainty": "The announcement does not provide the motion text's full reporting schedule, administrator identity, baseline status by recommendation, funding amounts, public dashboard, or completed action evidence.",
+      "subgroup": "Los Angeles County recovery and emergency-management agencies, partner governments, and residents affected by future and current disasters.",
+      "counterinterpretation": "Regular reporting and third-party tracking can increase accountability, but reporting may still measure activity rather than whether residents experience better information, housing, access, health protection, or repopulation.",
+      "source_url": "https://lindseyhorvath.lacounty.gov/stronger-county-disaster-response/",
+      "retrieval_hash": "sha256:c9dc452ffda1c75d62cb9237b08f244698ffaf5e688727d941e59e8c646a7557",
+      "status": "reported"
+    },
+    {
+      "period": "May 19, 2026; Disaster Recovery Rebuild Authority launch",
+      "denominator": {"value": 1, "unit": "county recovery-governance authority launch", "value_type": "reported_institutional_launch"},
+      "measures": {
+        "authority": {"value": "Los Angeles County Disaster Recovery Rebuild Authority established as a unified coordinating body within Public Works", "unit": "reported governance structure", "value_type": "reported_action"},
+        "phase_zero_staffing": {"value": 13, "unit": "full-time positions in Phase 0", "value_type": "reported_staffing_count"},
+        "reported_outputs": {"value": "comprehensive operational plan, alignment with One-Stop Permitting Centers, Infrastructure Master Plan coordination, and ongoing written reports on progress, metrics, resources, funding, and barriers", "unit": "reported launch mandate", "value_type": "reported_mandate_set"},
+        "implementation_status": {"value": "authority launch and staffing were reported; downstream household recovery, completed infrastructure, and durable repopulation were not established", "unit": "bounded status", "value_type": "partially_observed"},
+        "mechanism": {"value": "Dedicated coordination capacity can reduce fragmented recovery governance, but its value depends on resources, interagency authority, community alignment, and delivery into household recovery", "unit": "bounded recovery-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Supervisor announcement describing the Board's unanimous vote and Phase 0 launch of the Disaster Recovery Rebuild Authority.",
+      "uncertainty": "The source is an official announcement and does not independently verify staffing persistence, budget execution, authority over other departments, infrastructure completion, or resident outcomes.",
+      "subgroup": "Fire-impacted unincorporated communities, county recovery agencies, infrastructure providers, and residents waiting to rebuild or return.",
+      "counterinterpretation": "A specialized authority may improve coordination, but it may also add another layer unless its mandate, reporting, and community interface are clear.",
+      "source_url": "https://kathrynbarger.lacounty.gov/la-county-board-of-supervisors-unanimously-vote-to-launch-los-angeles-county-disaster-recovery-rebuild-authority/",
+      "retrieval_hash": "sha256:f9dee0c65bc672fc92d212aa39670f3c31506a21f337aeee7bfd2ea779ca0053",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://file.lacounty.gov/SDSInter/lac/1217422_LACountyAARofRecoveryandRepopulationEfforts-FindingsandRecommendations.pdf", "claim": "Official findings-and-recommendations table lists 26 findings and 25 recommendations, including lead agencies, supporting agencies, horizons, and specific recovery/repopulation breakdowns."},
+    {"source_url": "https://lacounty.gov/aar", "claim": "Los Angeles County's after-action-review hub is the linked location for the full report, executive summary, findings and recommendations, and FAQs."},
+    {"source_url": "https://selfserve.decipherinc.com/survey/selfserve/2a8c/260109", "claim": "The County-linked public community survey is a feedback route for impacted and observing residents; its public existence does not establish response volume or influence."},
+    {"source_url": "https://lindseyhorvath.lacounty.gov/stronger-county-disaster-response/", "claim": "The September 15, 2026 supervisor announcement reports unanimous Board action requiring implementation reporting, responsibility/resource/barrier tracking, and a dedicated third-party administrator; it does not establish completion."},
+    {"source_url": "https://kathrynbarger.lacounty.gov/la-county-board-of-supervisors-unanimously-vote-to-launch-los-angeles-county-disaster-recovery-rebuild-authority/", "claim": "The May 19, 2026 announcement reports the Disaster Recovery Rebuild Authority launch, Phase 0 staffing of 13 full-time positions, executive coordination, and ongoing written reporting; it does not establish durable recovery."},
+    {"source_url": "https://recovery.lacounty.gov/disaster-case-management-program/", "claim": "LA County's Disaster Case Management Program describes the personalized recovery-support route for insurance, FEMA/SBA, financing, rebuilding, and unmet needs; it is a service description, not evidence of receipt or outcome."},
+    {"source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/", "claim": "The county permitting dashboard supplies the separate administrative rebuilding-stage denominator; it is not merged with the after-action review's recommendation denominator."}
+  ],
+  "boundary": "This record establishes an official independent-review and institutional-learning layer in the Eaton/Palisades recovery episode. It does not establish implementation, funding, survivor influence, service receipt, claim adequacy, safe occupancy, household recovery, mobility, health, trust, or political response. Review findings and recommendations are not outcome measures, and their denominator must not be combined with permit, occupancy, survivor, or household counts.",
+  "reproduction_audit": {
+    "checked": "2026-09-29",
+    "source_hash_scope": "Los Angeles County September 11, 2026 release, official findings-and-recommendations PDF, after-action-review hub, September 15 implementation-motion announcement, and May 19 Disaster Recovery Rebuild Authority announcement were retrieved and hashed; linked community-survey route was recorded as a public feedback instrument.",
+    "extraction_scope": "Review-period and focus-area counts, finding and recommendation tables, lead-agency and horizon structure, selected diagnosed breakdowns, public-survey eligibility/data-use description, Board accountability action, recovery-authority staffing and reporting mandate, and implementation boundary; no household linkage, survey result, recommendation completion, or durable recovery claim.",
+    "status": "reproduced from official Los Angeles County release"
+  }
+}

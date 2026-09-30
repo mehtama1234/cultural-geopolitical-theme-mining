@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ofcom-ai-telecom-consumer-agency-human-support-2026",
+  "title": "Consumers are beginning to use AI as a telecoms-market intermediary while retaining demand for human support and accountable access",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ofcom, Consumers using AI to help manage their telecoms services, but human contact still valued, 25 September 2026",
+  "geography": "Online adults and small businesses in the United Kingdom using phone, broadband, and pay-TV markets",
+  "observations": [
+    {
+      "period": "2026; AI use in consumer telecoms journeys",
+      "denominator": {"value": 1, "unit": "Ofcom Technology Tracker online-adult user frame", "value_type": "published_tracker_frame"},
+      "measures": {
+        "general_ai_use": {"value": 53, "unit": "percent of adult UK internet users who interacted with a GenAI tool and/or AI customer-service chatbot in the prior 12 months", "value_type": "reported_survey_share"},
+        "telecom_ai_use": {"value": 8, "unit": "percent of online adults using an AI tool in relation to telecoms services", "value_type": "reported_survey_share"},
+        "issue_resolution": {"value": 6, "unit": "percent using AI to resolve a telecoms issue", "value_type": "reported_survey_share"},
+        "comparison_complaint": {"value": "3% use AI for price, product, or service comparison and 2% use it to make a complaint", "unit": "reported survey shares", "value_type": "reported_usage_pattern"},
+        "agency_route": {"value": "AI is moving from general experimentation into concrete consumer navigation, comparison, and remedy-seeking", "unit": "reported consumer mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ofcom review drawing on Technology Tracker research and qualitative research on consumer experiences and attitudes.",
+      "uncertainty": "The publication does not establish whether AI use improves prices, resolution time, service quality, complaint outcomes, or consumer welfare.",
+      "subgroup": "Online adults, small businesses, telecoms customers, people resolving issues, people comparing services, and people making complaints.",
+      "counterinterpretation": "Early use may reflect novelty or limited availability rather than a durable shift in how consumers manage essential services.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/consumers-using-ai-to-help-manage-their-telecoms-services-but-human-contact-still-valued",
+      "retrieval_hash": "sha256:dc51a0cfd6fb34efd439e8ae61f00bf20a5c3d67241381b2f4804147400469ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; human support and service complexity",
+      "denominator": {"value": 1, "unit": "Ofcom qualitative consumer-research frame", "value_type": "qualitative_research_frame"},
+      "measures": {
+        "mixed_preference": {"value": "some participants prefer AI to human interaction, while others value human empathy, compassion, and the ability to understand complex problems", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "human_route": {"value": "speaking to a person remains particularly valued for complex or sensitive issues", "unit": "reported consumer preference", "value_type": "reported_mechanism"},
+        "trust_problem": {"value": "some participants doubt whether AI can understand the issue or produce a useful resolution", "unit": "reported trust concern", "value_type": "reported_mechanism"},
+        "service_route": {"value": "automation does not eliminate the need for human escalation; it changes the boundary between convenience and accountable support", "unit": "analytic service mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ofcom qualitative research reported alongside Technology Tracker findings.",
+      "uncertainty": "Qualitative participants illustrate a range of views and are not representative of all UK telecoms customers.",
+      "subgroup": "Consumers preferring convenience, consumers with complex or sensitive issues, people with low AI trust, and small businesses.",
+      "counterinterpretation": "Improved agent design, context retention, and clear escalation could increase trust without requiring human contact for every routine task.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/consumers-using-ai-to-help-manage-their-telecoms-services-but-human-contact-still-valued",
+      "retrieval_hash": "sha256:dc51a0cfd6fb34efd439e8ae61f00bf20a5c3d67241381b2f4804147400469ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; personal AI agents in telecoms markets",
+      "denominator": {"value": 1, "unit": "Ofcom future-use and regulatory analysis", "value_type": "policy_analysis_frame"},
+      "measures": {
+        "agentic_use": {"value": "future AI agents could select better broadband deals, prepare transactions, monitor accounts, and switch customers to better offers", "unit": "reported possible application", "value_type": "reported_scenario"},
+        "time_effort": {"value": "some people recognize that personal agents could save time and effort", "unit": "reported qualitative benefit", "value_type": "reported_mechanism"},
+        "privacy_risk": {"value": "most participants share concerns about personal data and privacy in these applications", "unit": "reported qualitative concern", "value_type": "reported_mechanism"},
+        "bargaining_route": {"value": "AI may shift consumer bargaining power, but only if authorization, verification, privacy, and commercial incentives are trustworthy", "unit": "analytic market mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ofcom review of emerging agentic-AI applications and associated consumer-research findings.",
+      "uncertainty": "These are prospective applications, not evidence that agents currently deliver better deals or that firms will pass savings to consumers.",
+      "subgroup": "Telecoms customers, small businesses, AI-agent users, firms, data intermediaries, and consumers with limited time or bargaining capacity.",
+      "counterinterpretation": "Agentic tools could create new lock-in, biased recommendations, unauthorized changes, or surveillance even when they appear convenient.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/consumers-using-ai-to-help-manage-their-telecoms-services-but-human-contact-still-valued",
+      "retrieval_hash": "sha256:dc51a0cfd6fb34efd439e8ae61f00bf20a5c3d67241381b2f4804147400469ae",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; regulatory boundary for AI customer service",
+      "denominator": {"value": 1, "unit": "Ofcom consumer-protection position", "value_type": "regulatory_position"},
+      "measures": {
+        "transparency": {"value": "customers should be clearly told when they are interacting with a GenAI application", "unit": "Ofcom stated expectation", "value_type": "reported_regulatory_expectation"},
+        "gatekeeper_risk": {"value": "Ofcom would be concerned if AI applications created barriers to support channels that providers are required to make available", "unit": "Ofcom stated consumer risk", "value_type": "reported_regulatory_concern"},
+        "harm_monitoring": {"value": "Ofcom reports limited evidence that AI has so far been a systemic cause of harm to telecoms customers, while committing to monitor developments", "unit": "reported regulatory assessment", "value_type": "reported_status"},
+        "accountability_route": {"value": "consumer AI becomes a public-systems issue when automation mediates access to essential communications and complaint remedies", "unit": "analytic regulatory mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ofcom regulatory review and stated expectations for telecoms providers and AI developers.",
+      "uncertainty": "The regulatory position may evolve as evidence of benefit, exclusion, privacy loss, or consumer harm accumulates.",
+      "subgroup": "Telecoms customers, people needing complaints or complex support, providers, AI developers, and consumer-protection bodies.",
+      "counterinterpretation": "Strong disclosure and escalation rules may preserve accountability while allowing automation to handle routine navigation efficiently.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/consumers-using-ai-to-help-manage-their-telecoms-services-but-human-contact-still-valued",
+      "retrieval_hash": "sha256:dc51a0cfd6fb34efd439e8ae61f00bf20a5c3d67241381b2f4804147400469ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ofcom.org.uk/research-and-data/online-research/online-nation", "claim": "Ofcom's wider media and online-use research provides complementary context for AI adoption and digital behavior."},
+    {"source_url": "https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/", "claim": "Pew data-center attitudes provide complementary public legitimacy context for AI infrastructure."}
+  ],
+  "boundary": "This record adds a consumer-technology route from AI use in telecoms navigation through human support, personal-agent bargaining, privacy, transparency, and regulatory access. It uses aggregate tracker and qualitative findings, not individual service histories, causal consumer outcomes, or proof that AI improves telecoms markets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ofcom publication was reviewed for publication date, Technology Tracker shares, qualitative human-support findings, prospective agentic-AI uses, privacy concerns, transparency expectations, gatekeeper risk, and harm-monitoring position.",
+    "source_url_sha256": "sha256:dc51a0cfd6fb34efd439e8ae61f00bf20a5c3d67241381b2f4804147400469ae",
+    "checked": "2026-09-26"
+  }
+}

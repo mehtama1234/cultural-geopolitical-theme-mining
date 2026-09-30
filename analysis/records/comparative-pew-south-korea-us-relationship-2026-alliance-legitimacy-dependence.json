@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-south-korea-us-relationship-2026-alliance-legitimacy-dependence",
+  "title": "Strategic dependence can persist while trust, favorability, and perceived reciprocity in the U.S.-South Korea relationship deteriorate",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center, How South Koreans view their relationship with the U.S., August 24, 2026",
+  "geography": "South Korea; nationally representative adults with U.S. favorability, reliability, reciprocity, tariff, peace, alliance, and threat comparisons",
+  "observations": [
+    {
+      "period": "March 3-April 4, 2026; South Korean views of the United States",
+      "denominator": {"value": 1045, "unit": "South Korean adults surveyed in Pew Research Center's Spring 2026 Global Attitudes Survey", "value_type": "survey_sample"},
+      "measures": {
+        "unfavorable_us_view": {"value": 55, "unit": "percent with an unfavorable view of the U.S.; 39% in 2025", "value_type": "reported_share"},
+        "favorable_us_view": {"value": 45, "unit": "percent with a favorable view; 61% in 2025 and 80% in 2018", "value_type": "reported_share"},
+        "very_unfavorable": {"value": 18, "unit": "percent with a very unfavorable view; 9% in 2025", "value_type": "reported_share"}
+      },
+      "method": "Pew nationally representative survey of 1,045 South Korean adults conducted March 3-April 4, 2026, with trend comparisons from prior Global Attitudes Survey waves.",
+      "uncertainty": "The survey predates the reported later decision to scale back annual joint military exercises and does not isolate the effects of tariffs, presidential leadership, bilateral negotiation, or wider regional events.",
+      "subgroup": "South Korean adults nationally, with long-run trend comparisons.",
+      "counterinterpretation": "A negative view of the U.S. may reflect administration-specific judgments rather than rejection of the alliance, American society, or security cooperation as such.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/24/how-south-koreans-view-their-relationship-with-the-us/",
+      "retrieval_hash": "sha256:a0c57012b349d939e409f3fd4ff2fbea16d3918a2b715d3adacf9321f9988509",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026; reliability and perceived U.S. reciprocity",
+      "denominator": {"value": 1045, "unit": "South Korean adults in the Pew survey", "value_type": "survey_sample"},
+      "measures": {
+        "reliable_partner": {"value": 57, "unit": "percent considering the U.S. a reliable partner; 83% in 2022", "value_type": "reported_share"},
+        "us_considers_south_korean_interests": {"value": 21, "unit": "percent saying the U.S. considers countries like South Korea a great deal or fair amount in international policy; 38% in 2023", "value_type": "reported_share"},
+        "us_does_not_consider_interests": {"value": 78, "unit": "percent saying not too much or not at all", "value_type": "reported_share"}
+      },
+      "method": "Pew trend comparison of South Korean views of U.S. reliability and whether the U.S. considers other countries' interests.",
+      "uncertainty": "Reliability and reciprocity are perceptions, not measures of treaty performance, consultation records, military readiness, or actual diplomatic influence.",
+      "subgroup": "South Korean adults with 2022/2023 and 2026 trend comparisons.",
+      "counterinterpretation": "Alliance dependence may remain high even when perceived voice and reciprocity fall, creating a legitimacy problem that strategic necessity alone may not solve.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/24/how-south-koreans-view-their-relationship-with-the-us/",
+      "retrieval_hash": "sha256:a0c57012b349d939e409f3fd4ff2fbea16d3918a2b715d3adacf9321f9988509",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026; South Korean judgments of U.S. policy",
+      "denominator": {"value": 1045, "unit": "South Korean adults in the Pew survey", "value_type": "survey_sample"},
+      "measures": {
+        "us_contributes_to_peace": {"value": 47, "unit": "percent saying the U.S. contributes a great deal or fair amount to peace and stability; 74% in 2023", "value_type": "reported_share"},
+        "disapprove_tariffs": {"value": 85, "unit": "percent disapproving of the way President Trump was handling tariffs", "value_type": "reported_share"},
+        "approve_tariffs": {"value": 14, "unit": "percent approving", "value_type": "reported_share"},
+        "disapprove_iran_handling": {"value": 75, "unit": "about three-quarters disapproving of the way Trump was handling Iran", "value_type": "reported_share"}
+      },
+      "method": "Pew public-opinion measures of South Korean evaluations of U.S. peace contribution, tariffs, and Iran policy during the second Trump administration.",
+      "uncertainty": "Policy approval is not a direct measure of alliance support, economic losses, or future South Korean government action; some question timing and issue salience are administration-specific.",
+      "subgroup": "South Korean adults nationally.",
+      "counterinterpretation": "Trade and security policy can transmit through distinct channels: people may value U.S. protection while opposing tariff pressure or military decisions.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/24/how-south-koreans-view-their-relationship-with-the-us/",
+      "retrieval_hash": "sha256:a0c57012b349d939e409f3fd4ff2fbea16d3918a2b715d3adacf9321f9988509",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026; alliance indispensability amid declining favorability",
+      "denominator": {"value": 1045, "unit": "South Korean adults in the Pew survey; alliance and threat questions use relevant weighted universes", "value_type": "survey_sample"},
+      "measures": {
+        "us_most_important_ally": {"value": 84, "unit": "percent naming the U.S. as South Korea's most important ally; 89% in 2025", "value_type": "reported_share"},
+        "north_korea_greatest_threat": {"value": "South Koreans consistently view North Korea as the greatest threat to their nation", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "us_active_duty_presence": {"value": 23400, "unit": "approximately active-duty U.S. military personnel stationed in South Korea as of March 2026", "value_type": "reported_count"}
+      },
+      "method": "Pew public-opinion analysis combined with cited U.S. Defense Manpower Data Center estimate of U.S. military presence.",
+      "uncertainty": "An important-ally response and troop count do not establish public support for every alliance arrangement, military exercise, burden-sharing proposal, or policy change.",
+      "subgroup": "South Korean adults, with alliance opinion read alongside the North Korea threat context and U.S. force presence.",
+      "counterinterpretation": "The divergence between alliance indispensability and U.S. favorability is a strategic-legitimacy signal: dependence can stabilize cooperation while worsening the political and cultural terms of that cooperation.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/24/how-south-koreans-view-their-relationship-with-the-us/",
+      "retrieval_hash": "sha256:a0c57012b349d939e409f3fd4ff2fbea16d3918a2b715d3adacf9321f9988509",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record uses South Korean opinion to test the U.S. external-legitimacy mechanism: strategic dependence, alliance necessity, military presence, trade pressure, reliability, voice, and public favorability can diverge. It does not establish South Korean government policy, military effectiveness, causal U.S. responsibility for opinion change, or generalize South Korea to all allies."
+}

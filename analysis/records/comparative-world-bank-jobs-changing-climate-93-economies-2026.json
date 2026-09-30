@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-jobs-changing-climate-93-economies-2026",
+  "title": "Climate adaptation is being framed as a labour-market conversion problem: resilience investment can offset job losses only through sectoral reallocation and worker protection",
+  "theme_ids": ["cost", "time", "work", "energy", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "infrastructure_technology_dependency", "public_systems_feedback", "household_room_consumption", "firm_sector_market_power", "geopolitical_state_consequences"],
+  "source_unit": "World Bank, Jobs in a Changing Climate: Insights from Country Climate and Development Reports covering 93 economies",
+  "geography": "Low- and middle-income economies; 93 Country Climate and Development Reports representing 64 percent of the population and 77 percent of GDP of low- and middle-income countries",
+  "observations": [
+    {
+      "period": "2050 horizon; climate-related employment exposure in 49 analyzed countries",
+      "denominator": {"value": 49, "unit": "countries with quantified employment effects in the report's analyzed set", "value_type": "reported_country_count"},
+      "measures": {
+        "potential_job_losses": {"value": 43000000, "unit": "job-equivalents potentially lost by 2050 across 49 countries", "value_type": "reported_modelled_estimate"},
+        "global_extrapolation": {"value": 260000000, "unit": "job-equivalents when the 49-country estimate is extrapolated across all low- and middle-income countries", "value_type": "reported_extrapolation"},
+        "employment_mechanism": {"value": "climate impacts can negatively affect employment through sectoral, regional, and economic changes", "unit": "reported labour-market mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of Country Climate and Development Reports with modelled employment implications; the global figure is an extrapolation, not a forecast of realized individual job losses.",
+      "uncertainty": "Country coverage, model assumptions, climate scenarios, sector definitions, time horizon, and extrapolation make the figures unsuitable for direct country-by-country or worker-level interpretation.",
+      "subgroup": "Workers in climate-exposed sectors and regions, low-income households, informal workers, women, youth, firms, communities, and countries with limited adaptation finance.",
+      "counterinterpretation": "Climate change can create as well as destroy work; aggregate job counts may hide wage, safety, quality, location, and access losses, and adaptation can protect assets without protecting the same workers.",
+      "source_url": "https://www.worldbank.org/en/topic/climatechange/publication/jobs-in-a-changing-climate",
+      "retrieval_hash": "sha256:03b42f83ef362d2d32c0b7a7f5f38c6e29960965e319416210138a6eea1f6621",
+      "status": "reported"
+    },
+    {
+      "period": "2050 horizon; adaptation investment and employment opportunity in 49 analyzed countries",
+      "denominator": {"value": 49, "unit": "countries in the quantified adaptation-job analysis", "value_type": "reported_country_count"},
+      "measures": {
+        "adaptation_jobs": {"value": 25000000, "unit": "equivalent more and better-paid jobs estimated across the 49 countries", "value_type": "reported_modelled_estimate"},
+        "global_extrapolation": {"value": 150000000, "unit": "equivalent jobs when adaptation effects are extrapolated globally", "value_type": "reported_extrapolation"},
+        "job_quality": {"value": "the report frames adaptation investment as capable of creating more and better-paid jobs while protecting vulnerable workers and communities", "unit": "reported policy direction", "value_type": "reported_policy_direction"},
+        "conversion_condition": {"value": "resilience investment must be connected to human capital, business conditions, worker reallocation, and protection", "unit": "reported policy mechanism", "value_type": "reported_conversion_mechanism"}
+      },
+      "method": "World Bank synthesis and model-based estimate of adaptation-related employment benefits, including a global extrapolation.",
+      "uncertainty": "The estimate is not a count of announced jobs, filled jobs, wage gains, or net household welfare; “equivalent jobs” and “better-paid” depend on modelling and sectoral assumptions.",
+      "subgroup": "Workers transitioning into adaptation sectors, firms investing in resilience, communities receiving infrastructure, low-income households, and workers requiring reskilling or relocation.",
+      "counterinterpretation": "Adaptation projects can be capital-intensive, temporary, or captured by skilled workers and firms; new jobs may not be accessible to those losing work or living far from investment.",
+      "source_url": "https://www.worldbank.org/en/topic/climatechange/publication/jobs-in-a-changing-climate",
+      "retrieval_hash": "sha256:03b42f83ef362d2d32c0b7a7f5f38c6e29960965e319416210138a6eea1f6621",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-country evidence base and development coverage",
+      "denominator": {"value": 93, "unit": "economies represented by Country Climate and Development Reports in the synthesis", "value_type": "reported_economy_count"},
+      "measures": {
+        "ccdr_coverage": {"value": 93, "unit": "economies", "value_type": "reported_economy_count"},
+        "population_coverage": {"value": 64, "unit": "percent of low- and middle-income-country population represented", "value_type": "reported_coverage_share"},
+        "gdp_coverage": {"value": 77, "unit": "percent of low- and middle-income-country GDP represented", "value_type": "reported_coverage_share"},
+        "policy_scope": {"value": "the reports connect climate and development goals to job creation, economic growth, resilience, and nationally determined contributions", "unit": "reported policy scope", "value_type": "reported_policy_scope"}
+      },
+      "method": "Cross-report synthesis of 93 World Bank Country Climate and Development Reports.",
+      "uncertainty": "Coverage is broad but not universal; represented population and GDP do not guarantee comparable country methods, labour-market data, climate assumptions, or distributional measurement.",
+      "subgroup": "National governments, local authorities, workers, firms, sectors, regions, households, development-finance institutions, and communities making adaptation choices.",
+      "counterinterpretation": "A large report portfolio can produce strategic coherence while still leaving implementation fragmented, finance-constrained, or politically contested at country and local levels.",
+      "source_url": "https://www.worldbank.org/en/topic/climatechange/publication/jobs-in-a-changing-climate",
+      "retrieval_hash": "sha256:03b42f83ef362d2d32c0b7a7f5f38c6e29960965e319416210138a6eea1f6621",
+      "status": "reported"
+    },
+    {
+      "period": "2050 horizon; low-emission development and sectoral transition",
+      "denominator": {"value": 1, "unit": "low-emission development and labour-market transition pathway", "value_type": "reported_transition_frame"},
+      "measures": {
+        "short_term_direction": {"value": "low-emission development can deliver net economic gains over the short term in most countries", "unit": "reported macroeconomic direction", "value_type": "reported_modelled_direction"},
+        "aggregate_employment": {"value": "aggregate employment effects may be modest while sectoral and regional shifts are significant", "unit": "reported transition condition", "value_type": "reported_transition_mechanism"},
+        "creation_and_decline": {"value": "emerging technologies and industries may create opportunities while other sectors decline", "unit": "reported structural mechanism", "value_type": "reported_sectoral_mechanism"},
+        "policy_requirements": {"value": "human capital, business conditions, worker reallocation, and protection of vulnerable people and communities are identified as policy requirements", "unit": "reported policy set", "value_type": "reported_policy_requirements"}
+      },
+      "method": "World Bank comparative climate-development synthesis distinguishing aggregate employment from sectoral and regional reallocation.",
+      "uncertainty": "Modelled aggregate gains do not show who transitions, who pays adjustment costs, whether jobs are decent, or how political conflict over pace and place will be resolved.",
+      "subgroup": "Workers in declining and emerging sectors, firms, regions dependent on carbon-intensive activity, young people entering work, and households facing energy or mobility costs.",
+      "counterinterpretation": "A positive aggregate transition can coexist with concentrated regional decline, skill mismatch, wage loss, stranded communities, and political backlash if redistribution and voice are weak.",
+      "source_url": "https://www.worldbank.org/en/topic/climatechange/publication/jobs-in-a-changing-climate",
+      "retrieval_hash": "sha256:03b42f83ef362d2d32c0b7a7f5f38c6e29960965e319416210138a6eea1f6621",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/topic/climatechange/publication/country-climate-and-development-reports", "claim": "World Bank Country Climate and Development Reports as the underlying country evidence base."},
+    {"source_url": "https://openknowledge.worldbank.org/entities/publication/b241b8f1-c77d-4470-9070-514fdc168440", "claim": "World Bank publication landing page for the report, where available."}
+  ],
+  "boundary": "This record adds a climate-to-work conversion route linking adaptation, low-emission development, sectoral reallocation, human capital, business investment, vulnerable households, and geopolitical/development finance. The job figures are modelled estimates and extrapolations from a 49-country quantified set and 93 CCDRs; they are not realized job counts, worker-level forecasts, wage evidence, or proof that adaptation benefits are distributed fairly.",
+  "retrieval_hash": "sha256:03b42f83ef362d2d32c0b7a7f5f38c6e29960965e319416210138a6eea1f6621"
+}

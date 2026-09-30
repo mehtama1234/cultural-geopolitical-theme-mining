@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security",
+  "title": "Renewable deployment is accelerating, but technology and regional concentration shape who gains energy security",
+  "theme_ids": ["energy", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "care_health_reproduction"
+  ],
+  "source_unit": "International Renewable Energy Agency, Renewable Capacity Statistics 2026",
+  "geography": "Global renewable power generation capacity, with regional and technology comparisons for 2016-2025 and detailed 2025 additions",
+  "observations": [
+    {
+      "period": "2025; global renewable capacity expansion",
+      "denominator": {"value": 1, "unit": "global renewable power capacity stock and annual additions", "value_type": "capacity_frame"},
+      "measures": {
+        "total_capacity": {"value": 5149, "unit": "GW of total renewable power capacity at end-2025", "value_type": "reported_capacity"},
+        "annual_additions": {"value": 692, "unit": "GW added during 2025", "value_type": "reported_additions"},
+        "annual_growth": {"value": 15.5, "unit": "percent annual increase in renewable capacity", "value_type": "reported_growth"},
+        "share_of_total_additions": {"value": 85.6, "unit": "percent of total global power-capacity expansion represented by renewables", "value_type": "reported_share"}
+      },
+      "method": "IRENA compilation of renewable power capacity installed and connected at year end using questionnaires, official national statistics, industry associations, reports, and news sources.",
+      "uncertainty": "Capacity is maximum net generating capacity, not electricity actually generated; reporting coverage, revisions, grid connection, and source quality vary across countries and technologies.",
+      "subgroup": "Utilities, governments, grid operators, investors, workers, households, firms, and communities affected by power-system investment and reliability.",
+      "counterinterpretation": "Rapid capacity growth does not by itself establish affordability, reliability, emissions reductions, access, or equitable local benefits.",
+      "source_url": "https://www.irena.org/Publications/2026/Mar/Renewable-capacity-statistics-2026",
+      "retrieval_hash": "sha256:e27076ae3a2336330b43a3facf249c4f5118a3603ea0bd6a8241c07795a42b30",
+      "status": "reported"
+    },
+    {
+      "period": "2025; technology composition of renewable additions",
+      "denominator": {"value": 692, "unit": "GW of renewable capacity added globally in 2025", "value_type": "annual_addition_frame"},
+      "measures": {
+        "solar_additions": {"value": 511, "unit": "GW of solar capacity added", "value_type": "reported_additions"},
+        "solar_pv_component": {"value": 510.3, "unit": "GW of solar photovoltaic capacity within solar additions", "value_type": "reported_additions"},
+        "wind_additions": {"value": 159, "unit": "GW of wind capacity added", "value_type": "reported_additions"},
+        "solar_wind_share": {"value": 96.8, "unit": "percent of net renewable additions from solar and wind together", "value_type": "reported_technology_share"},
+        "bioenergy_growth": {"value": 2.3, "unit": "percent annual bioenergy capacity growth", "value_type": "reported_growth"}
+      },
+      "method": "IRENA technology-level accounting of annual additions across solar, wind, hydropower, bioenergy, geothermal, and off-grid systems.",
+      "uncertainty": "Technology shares describe nameplate capacity additions and do not measure dispatchability, storage, capacity factors, lifecycle impacts, or local system integration costs.",
+      "subgroup": "Solar and wind manufacturers, miners and material suppliers, grid planners, energy workers, consumers, and communities hosting generation and transmission.",
+      "counterinterpretation": "Concentration in solar and wind can reflect falling costs and rapid deployment while increasing the importance of storage, grids, flexibility, and complementary technologies.",
+      "source_url": "https://www.irena.org/Publications/2026/Mar/Renewable-capacity-statistics-2026",
+      "retrieval_hash": "sha256:e27076ae3a2336330b43a3facf249c4f5118a3603ea0bd6a8241c07795a42b30",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional distribution of renewable capacity growth",
+      "denominator": {"value": 692, "unit": "GW of global renewable capacity additions in 2025", "value_type": "regional_addition_frame"},
+      "measures": {
+        "asia_share": {"value": 74.2, "unit": "percent of new renewable capacity contributed by Asia", "value_type": "reported_regional_share"},
+        "asia_additions": {"value": 513.3, "unit": "GW of renewable capacity added in Asia", "value_type": "reported_additions"},
+        "asia_growth": {"value": 21.6, "unit": "percent annual growth in Asia's renewable capacity", "value_type": "reported_growth"},
+        "africa_additions": {"value": 11.3, "unit": "GW added in Africa, its highest capacity increase in the series", "value_type": "reported_additions"},
+        "middle_east_growth": {"value": 28.9, "unit": "percent annual renewable-capacity growth in the Middle East", "value_type": "reported_growth"}
+      },
+      "method": "IRENA regional aggregation of country-level renewable capacity statistics and annual additions.",
+      "uncertainty": "Regional aggregates can hide very different country baselines, access conditions, grid constraints, financing environments, and off-grid activity.",
+      "subgroup": "Regions and countries with different energy-import exposure, public finance, grid capacity, energy poverty, industrial capabilities, and climate vulnerabilities.",
+      "counterinterpretation": "High regional concentration may change as financing, supply chains, policy, and grid investment diffuse; current shares are not fixed geopolitical outcomes.",
+      "source_url": "https://www.irena.org/Publications/2026/Mar/Renewable-capacity-statistics-2026",
+      "retrieval_hash": "sha256:e27076ae3a2336330b43a3facf249c4f5118a3603ea0bd6a8241c07795a42b30",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional capacity stock and energy-security gap",
+      "denominator": {"value": 5149, "unit": "GW of global renewable capacity at end-2025", "value_type": "global_stock_frame"},
+      "measures": {
+        "asia_stock": {"value": 2891, "unit": "GW of renewable capacity in Asia", "value_type": "reported_capacity"},
+        "europe_stock": {"value": 934, "unit": "GW of renewable capacity in Europe", "value_type": "reported_capacity"},
+        "central_america_caribbean_stock": {"value": 21, "unit": "GW of renewable capacity in Central America and the Caribbean", "value_type": "reported_capacity"},
+        "security_implication": {"value": "uneven renewable capacity leaves low-share economies more vulnerable and underscores the need to increase renewable energy for energy security", "unit": "IRENA interpretation", "value_type": "reported_policy_implication"},
+        "off_grid_additions": {"value": 1.7, "unit": "GW of off-grid electricity capacity added outside Eurasia, Europe, and North America", "value_type": "reported_additions"}
+      },
+      "method": "IRENA comparison of regional renewable capacity stocks, off-grid additions, and energy-security implications.",
+      "uncertainty": "Capacity stock is not equivalent to energy access or energy security; it does not identify prices, outages, ownership, local pollution, or household-level incidence.",
+      "subgroup": "Low-capacity regions, energy-importing states, off-grid communities, utilities, public agencies, and households exposed to unreliable or expensive energy.",
+      "counterinterpretation": "Small capacity stocks can coexist with strong potential, distributed systems, imports, efficiency, or other forms of energy resilience; aggregate capacity is one component of security.",
+      "source_url": "https://www.irena.org/Publications/2026/Mar/Renewable-capacity-statistics-2026",
+      "retrieval_hash": "sha256:e27076ae3a2336330b43a3facf249c4f5118a3603ea0bd6a8241c07795a42b30",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.irena.org/News/pressreleases/2026/Apr/Near-700-GW-Surge-in-2025-Proves-Renewable-Energy-Resilience", "claim": "IRENA's release provides the 2025 capacity highlights and regional interpretation."},
+    {"source_url": "https://www.irena.org/Data/Statistical-publications/Yearbooks", "claim": "IRENA's yearbook page provides the historical capacity-statistics series and datasets."}
+  ],
+  "boundary": "This record adds a renewable-deployment route across capacity growth, technology concentration, regional inequality, off-grid systems, and energy security. It uses aggregate IRENA capacity statistics, not respondent-level energy histories, individual utility bills, plant-level operating records, causal forecasts, or proof that capacity growth produces equal affordability or security for every place.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IRENA publication and 2025 capacity highlights reviewed for total capacity, annual additions, technology composition, regional distribution, capacity stocks, off-grid additions, and energy-security interpretation.",
+    "source_url_sha256": "sha256:e27076ae3a2336330b43a3facf249c4f5118a3603ea0bd6a8241c07795a42b30",
+    "checked": "2026-09-26"
+  }
+}

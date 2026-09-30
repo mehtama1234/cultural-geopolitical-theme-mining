@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iom-world-migration-report-2026-mobility-displacement-development",
+  "title": "Migration remains a development asset under pressure from disruption, displacement, climate mobility, and constrained pathways",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Organization for Migration, World Migration Report 2026",
+  "geography": "Global migration, mobility, displacement, migrant development contributions, climate mobility, regular pathways, and community response",
+  "observations": [
+    {
+      "period": "mid-2024; international migration and mobility frame",
+      "denominator": {"value": 1, "unit": "global population, international migrant stock, and migration-mobility frame", "value_type": "global_migration_frame"},
+      "measures": {
+        "international_migrants_mid_2024": {"value": 304, "unit": "millions of international migrants worldwide by mid-2024", "value_type": "reported_stock_estimate"},
+        "cross_border_movement": {"value": "cross-border movement remains the exception rather than the norm, while internal migration is more common", "unit": "IOM report synthesis", "value_type": "reported_pattern"},
+        "work_channel": {"value": "work is the main reason among people who migrate internationally, and migrant workers constitute the majority", "unit": "IOM report synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "IOM compilation and synthesis of global migration stocks, flows, migrant-group, labor, and mobility evidence.",
+      "uncertainty": "International migrant stocks are estimates rather than complete movement histories; reasons for migration and migrant-worker classifications vary across countries and data systems.",
+      "subgroup": "International migrants, migrant workers, students, refugees, asylum-seekers, internally displaced people, origin communities, and destination institutions.",
+      "counterinterpretation": "Most people remain in their country of birth, and migration can be temporary, circular, internal, or locally embedded rather than a one-way international move.",
+      "source_url": "https://publications.iom.int/es/node/8946",
+      "retrieval_hash": "sha256:79fd1af37272a1e07bd768a70eaee8f62bf4620624c25730611c592d708642f5",
+      "status": "reported"
+    },
+    {
+      "period": "end-2024; displacement and geopolitical disruption",
+      "denominator": {"value": 1, "unit": "global displacement and forced-mobility frame", "value_type": "displacement_frame"},
+      "measures": {
+        "internal_displacement": {"value": 83, "unit": "more than millions of people living in internal displacement globally by the end of 2024", "value_type": "reported_stock_estimate"},
+        "disruption_channels": {"value": "geopolitical tensions, conflict, environmental disruption, and distortion of facts are reshaping migration and displacement", "unit": "IOM report overview synthesis", "value_type": "reported_mechanism"},
+        "response_problem": {"value": "displacement responses must connect protection, durable solutions, local capacity, and mobility governance", "unit": "report analytical frame", "value_type": "reported_framework"}
+      },
+      "method": "IOM synthesis of displacement tracking, conflict and environmental context, and migration-governance analysis.",
+      "uncertainty": "Displacement counts depend on reporting, definitions, duration, and access; the aggregate stock does not measure individual safety, intention to return, or service quality.",
+      "subgroup": "Internally displaced people, refugees, host communities, local authorities, humanitarian organizations, and populations exposed to conflict or environmental shocks.",
+      "counterinterpretation": "Displacement can decline through return, resettlement, integration, or under-reporting; a stock change alone does not identify whether conditions improved.",
+      "source_url": "https://publications.iom.int/es/node/8946",
+      "retrieval_hash": "sha256:79fd1af37272a1e07bd768a70eaee8f62bf4620624c25730611c592d708642f5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; migration as development infrastructure under pressure",
+      "denominator": {"value": 1, "unit": "migration-development, remittance, investment, skills, and civic-engagement frame", "value_type": "migration_development_frame"},
+      "measures": {
+        "development_contributions": {"value": "migrants and diasporas contribute through remittances, investment, knowledge and skills transfer, and civic and political engagement", "unit": "IOM report synthesis", "value_type": "reported_framework"},
+        "strategic_asset_at_risk": {"value": "migration is treated as a strategic development asset increasingly exposed to disruption and policy risk", "unit": "IOM thematic chapter framing", "value_type": "reported_mechanism"},
+        "policy_question": {"value": "protecting development gains requires attention to financing, regular pathways, rights, and institutional capacity", "unit": "IOM report framework", "value_type": "reported_framework"}
+      },
+      "method": "IOM thematic analysis of migration-development linkages, remittances, investment, skills, civic engagement, and global financing frameworks.",
+      "uncertainty": "Sector-level development contributions are heterogeneous and do not establish that migration causes aggregate development outcomes or that benefits reach all origin and destination communities.",
+      "subgroup": "Migrants, diasporas, origin households and communities, destination economies, employers, public institutions, and financial-transfer systems.",
+      "counterinterpretation": "Remittances and skills transfer can support resilience, but migration can also impose care gaps, recruitment costs, brain drain, exclusion, or dependence on external income.",
+      "source_url": "https://publications.iom.int/es/node/8946",
+      "retrieval_hash": "sha256:79fd1af37272a1e07bd768a70eaee8f62bf4620624c25730611c592d708642f5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; climate mobility, regular pathways, disability, and local action",
+      "denominator": {"value": 1, "unit": "IOM thematic chapters on climate mobility, pathways, disability, and community response", "value_type": "mobility_governance_frame"},
+      "measures": {
+        "climate_mobility": {"value": "environmental disruption is a central feature of contemporary mobility and requires local and community action", "unit": "IOM report synthesis", "value_type": "reported_framework"},
+        "regular_pathways": {"value": "regular migration pathways require policy designs that distinguish myths, realities, opportunities, and protection needs", "unit": "IOM thematic chapter framing", "value_type": "reported_framework"},
+        "inclusion": {"value": "disability and migration require explicit attention to distinct risks, access, and response capacity", "unit": "IOM thematic chapter framing", "value_type": "reported_framework"}
+      },
+      "method": "IOM thematic synthesis of climate mobility, regular migration pathways, internal displacement, disability and migration, and local/community responses.",
+      "uncertainty": "The thematic chapters identify mechanisms and policy questions rather than estimating individual climate-migration decisions, causal pathway effects, or universal local outcomes.",
+      "subgroup": "Climate-affected communities, migrants with disabilities, displaced people, local governments, community organizations, employers, and pathway administrators.",
+      "counterinterpretation": "Environmental stress does not mechanically produce migration; local adaptation, livelihoods, social networks, infrastructure, and public choices shape whether people move, stay, or return.",
+      "source_url": "https://publications.iom.int/es/node/8946",
+      "retrieval_hash": "sha256:79fd1af37272a1e07bd768a70eaee8f62bf4620624c25730611c592d708642f5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.iom.int/books/world-migration-report-2026-chapter-2", "claim": "IOM Chapter 2 provides the global migrant-stock, migrant-group, displacement, and remittance evidence base."},
+    {"source_url": "https://publications.iom.int/books/world-migration-report-2026-chapter-4", "claim": "IOM Chapter 4 provides complementary migration-development, remittance, investment, skills, and civic-engagement analysis."}
+  ],
+  "boundary": "This record adds a global migration, displacement, development, climate-mobility, pathway, disability, and local-response route. It uses aggregate stocks, report synthesis, and thematic policy analysis, not individual migration histories, respondent-level attitudes, causal remittance or pathway estimates, or a claim that climate stress mechanically causes migration.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IOM World Migration Report 2026 materials were reviewed for the global migrant stock, internal displacement, migration-development contributions, disruption, regular pathways, climate mobility, disability, and community-action chapters.",
+    "source_url_sha256": "sha256:79fd1af37272a1e07bd768a70eaee8f62bf4620624c25730611c592d708642f5",
+    "checked": "2026-09-26"
+  }
+}

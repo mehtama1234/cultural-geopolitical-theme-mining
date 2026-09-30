@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-ai-concern-young-adults-jobs-2026",
+  "title": "AI optimism is giving way to a cross-generational expectation of job loss, with young adults moving sharply toward concern",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Pew Research Center short read, Young adults in the U.S. are increasingly wary of AI, concerned it will take jobs, August 18, 2026",
+  "geography": "United States; adults nationally, with age comparisons and a 2021-2026 trend",
+  "observations": [
+    {
+      "period": "June 22-28, 2026; sentiment toward AI in daily life",
+      "denominator": {"value": 3488, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "concern_total": {"value": 52, "unit": "percent more concerned than excited about increased AI use in daily life; 37% in 2021", "value_type": "reported_share"},
+        "equal_mix": {"value": 37, "unit": "percent equally concerned and excited", "value_type": "reported_share"},
+        "excitement_total": {"value": 9, "unit": "percent more excited than concerned; 18% in 2021", "value_type": "reported_share"}
+      },
+      "method": "Pew survey of 3,488 U.S. adults conducted June 22-28, 2026; respondents are members of the American Trends Panel and the survey represents the U.S. adult population.",
+      "uncertainty": "The sentiment measure captures perceived direction and affect, not actual AI adoption, exposure, or causal drivers of concern.",
+      "subgroup": "U.S. adults nationally across age groups.",
+      "counterinterpretation": "Concern and excitement can coexist with active use; a skeptical public may still normalize AI when it is embedded in work, health, education or consumer services.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+      "retrieval_hash": "sha256:9b154e4e19c41f82ba61bb7dd656a22400db1cf7632e3f4d370d179830f13076",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2026; age trajectory in AI sentiment",
+      "denominator": {"value": 3488, "unit": "U.S. adults in the 2026 survey; historical trend uses comparable Pew measures", "value_type": "survey_sample"},
+      "measures": {
+        "under_30_concern": {"value": 55, "unit": "percent of adults ages 18-29 more concerned than excited in 2026, versus 31% in 2021 and 47% in 2025", "value_type": "reported_share"},
+        "under_30_excitement": {"value": 11, "unit": "percent of adults ages 18-29 more excited than concerned in 2026, versus 25% in 2021", "value_type": "reported_share"},
+        "older_comparison": {"value": "2026 concern was 51% among ages 30-49, 47% among ages 50-64 and 59% among ages 65+", "unit": "age-group comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Comparable Pew trend questions on whether increased AI use produces more concern or excitement, reported by age group.",
+      "uncertainty": "Age patterns are descriptive; they do not establish whether labor-market exposure, media narratives, education, personal use or life-stage expectations explain the movement.",
+      "subgroup": "Adults ages 18-29, 30-49, 50-64 and 65+.",
+      "counterinterpretation": "Young adults are not uniquely anti-AI; concern is now widespread, and older adults remain at least as concerned in absolute terms.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+      "retrieval_hash": "sha256:9b154e4e19c41f82ba61bb7dd656a22400db1cf7632e3f4d370d179830f13076",
+      "status": "reported"
+    },
+    {
+      "period": "June 22-28, 2026; expected effect of AI on U.S. jobs over the next 20 years",
+      "denominator": {"value": 3488, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "fewer_jobs_total": {"value": 71, "unit": "percent expecting AI to lead to fewer jobs; 64% in 2024", "value_type": "reported_share"},
+        "more_jobs_total": {"value": 5, "unit": "percent expecting AI to lead to more jobs", "value_type": "reported_share"},
+        "no_difference": {"value": 10, "unit": "percent expecting AI not to make much difference", "value_type": "reported_share"}
+      },
+      "method": "Pew survey comparing 2026 responses with its 2024 measure of expected AI effects on the number of jobs in the United States.",
+      "uncertainty": "This is a forecast belief about a 20-year horizon, not a labor-market projection or estimate of net employment effects.",
+      "subgroup": "U.S. adults nationally, with comparisons by age.",
+      "counterinterpretation": "Expectations may reflect visible automation narratives and uncertainty more than considered forecasts; people may distinguish aggregate job loss from their own job security.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+      "retrieval_hash": "sha256:9b154e4e19c41f82ba61bb7dd656a22400db1cf7632e3f4d370d179830f13076",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; age differences in expected AI job loss",
+      "denominator": {"value": 3488, "unit": "U.S. adults in the 2026 survey; subgroup estimates use weighted age-group universes", "value_type": "survey_sample"},
+      "measures": {
+        "under_30_job_loss": {"value": 73, "unit": "percent of adults ages 18-29 expecting fewer jobs in 2026, versus 61% in 2024", "value_type": "reported_share"},
+        "30_49_job_loss": {"value": 74, "unit": "percent of adults ages 30-49 expecting fewer jobs in 2026, versus 66% in 2024", "value_type": "reported_share"},
+        "65_plus_job_loss": {"value": 63, "unit": "percent of adults ages 65+ expecting fewer jobs in 2026, versus 58% in 2024", "value_type": "reported_share"}
+      },
+      "method": "Pew age-group comparison of expectations that AI will lead to fewer U.S. jobs over the next two decades.",
+      "uncertainty": "Subgroup differences do not reveal whether concern is about replacement, reduced entry-level opportunity, degraded work quality, or broader social consequences.",
+      "subgroup": "Adults ages 18-29, 30-49 and 65+; the youngest adults are now about as likely as prime-age adults to expect job loss.",
+      "counterinterpretation": "The convergence may indicate a shared national narrative about AI rather than a uniquely youth-specific labor-market fear.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+      "retrieval_hash": "sha256:9b154e4e19c41f82ba61bb7dd656a22400db1cf7632e3f4d370d179830f13076",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/", "claim": "Comparative Pew context on international expectations of AI-related job loss and growth."}
+  ],
+  "boundary": "This record treats AI skepticism as a cultural, labor-market and legitimacy signal connecting age, work expectations, social connection and technology adoption. It does not forecast actual employment, measure individual exposure, establish causal sources of concern, or imply that public expectations are correct."
+}

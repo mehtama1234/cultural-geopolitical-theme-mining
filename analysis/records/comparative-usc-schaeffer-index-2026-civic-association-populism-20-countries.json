@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-usc-schaeffer-index-2026-civic-association-populism-20-countries",
+  "title": "Civic association and bridging contact are emerging as a political infrastructure between social decline, belonging, and populist backlash",
+  "theme_ids": ["voice", "energy", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "USC Schaeffer Center, The Schaeffer Index: Initial Findings from a 20-Country Study of Populism",
+  "geography": "20 countries: United States, Canada, Brazil, Argentina, Germany, United Kingdom, France, Italy, Spain, Poland, Netherlands, Belgium, Sweden, Austria, Portugal, Japan, South Korea, Australia, New Zealand, and South Africa",
+  "observations": [
+    {
+      "period": "July 2025 survey; social, political, and economic decline across 20 countries",
+      "denominator": {"value": 32000, "unit": "approximately adults across nationally representative samples in 20 countries", "value_type": "reported_multicountry_sample"},
+      "measures": {
+        "values_loss": {"value": 66, "unit": "percent globally agreeing that society has lost touch with the values that built the nation", "value_type": "reported_share"},
+        "political_system": {"value": "a majority in every surveyed country agreed that the political system was broken; more than three-quarters did so in Spain, Argentina, France, South Africa, and the United States", "unit": "reported cross-country pattern", "value_type": "reported_assessment"},
+        "financial_disappointment": {"value": "roughly half in every country felt poorer than expected; 61% in the United States and 56% in the United Kingdom were financially disappointed", "unit": "reported cross-country pattern", "value_type": "reported_assessment"},
+        "backlash_route": {"value": "economic and institutional disappointment creates a broad context in which nostalgia and political backlash can become meaningful, but does not establish a single cause", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "First annual round of the Schaeffer Index survey, collected in July 2025 across nationally representative samples in 20 countries; USC public summary reports descriptive cross-country findings.",
+      "uncertainty": "The public article does not provide full weighting, country sample sizes, question wording for every measure, or the forthcoming longitudinal/statistical model; results are not causal estimates.",
+      "subgroup": "Adults across 20 countries with different economic conditions, political systems, civic institutions, social networks, and exposure to populist-nationalist parties.",
+      "counterinterpretation": "Nostalgia, distrust, and financial disappointment may be correlated expressions of broader conditions rather than a pathway from economic decline to populism.",
+      "source_url": "https://schaeffer.usc.edu/research/populism-drivers-20-country-poll/",
+      "retrieval_hash": "sha256:9153a0ccd113228392443f73ea079297415172f2b2d0fcb09d9ed4ab394a8ef0",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025 survey; associational participation",
+      "denominator": {"value": 32000, "unit": "approximately adults across 20 countries", "value_type": "reported_multicountry_sample"},
+      "measures": {
+        "no_group_participation": {"value": 45, "unit": "percent saying they do not participate in any civic association, group, or club", "value_type": "reported_share"},
+        "meaningful_frequency": {"value": 40, "unit": "percent participating in an activity with meaningful frequency across the 20 countries", "value_type": "reported_share"},
+        "group_mix": {"value": "sports clubs were the most common group at 17%, followed by exercise classes and religious groups at 13% each; political parties were least common at 4%", "unit": "reported participation pattern", "value_type": "reported_assessment"},
+        "civic_infrastructure": {"value": "weak or uneven associational participation may reduce routine opportunities to build trust, shared identity, and practical political voice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-sectional survey asking about participation in sports, unions, parties, cultural groups, volunteering, professional organizations, and other associations.",
+      "uncertainty": "Participation frequency is self-reported and the article does not establish whether low participation reflects cost, time, exclusion, lack of supply, distrust, or preference; no causal effect is estimated.",
+      "subgroup": "People with different social time, income, care duties, transportation, access to organizations, and local civic infrastructure.",
+      "counterinterpretation": "Formal group participation is not the whole of social life; family, informal mutual aid, online groups, and issue-specific action may be meaningful but not captured by the measure.",
+      "source_url": "https://schaeffer.usc.edu/research/populism-drivers-20-country-poll/",
+      "retrieval_hash": "sha256:9153a0ccd113228392443f73ea079297415172f2b2d0fcb09d9ed4ab394a8ef0",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025 survey; friendship, participation, and bridging contact",
+      "denominator": {"value": 32000, "unit": "approximately adults across 20 countries", "value_type": "reported_multicountry_sample"},
+      "measures": {
+        "few_close_friends": {"value": 65, "unit": "percent reporting three close friends or fewer", "value_type": "reported_share"},
+        "no_close_friends": {"value": 12, "unit": "percent reporting no close friends", "value_type": "reported_share"},
+        "bridging_contact": {"value": "63% of group participants reported meeting people different from them daily or weekly, compared with 46% of nonparticipants", "unit": "reported participation comparison", "value_type": "reported_association"},
+        "belonging_association": {"value": "participants in every surveyed country were more likely to report higher community belonging", "unit": "reported cross-country association", "value_type": "reported_association"},
+        "mechanism": {"value": "association can create repeated contact across lines of difference, which may connect social belonging to political tolerance and institutional confidence", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-sectional survey comparison of friendship, group participation, community belonging, and contact across racial, class, religious, social, and political difference.",
+      "uncertainty": "The observed associations do not show whether participation creates bridging contact or whether people with more networks select into groups; social-group quality and power relations are not fully measured.",
+      "subgroup": "People with different numbers of close friends, group membership, and exposure to diverse social settings.",
+      "counterinterpretation": "Contact across difference can produce conflict or reinforce boundaries if groups are unequal, polarized, or organized around exclusion; diversity of contact is not automatically deliberative quality.",
+      "source_url": "https://schaeffer.usc.edu/research/populism-drivers-20-country-poll/",
+      "retrieval_hash": "sha256:9153a0ccd113228392443f73ea079297415172f2b2d0fcb09d9ed4ab394a8ef0",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025 survey; political diversity within groups and populist-nationalist support",
+      "denominator": {"value": 32000, "unit": "approximately adults across 20 countries", "value_type": "reported_multicountry_sample"},
+      "measures": {
+        "populist_support": {"value": 21, "unit": "percent of all survey participants reporting a vote for populist-nationalist parties", "value_type": "reported_share"},
+        "homogeneous_religious_group": {"value": 26, "unit": "percent reporting populist-nationalist voting among participants in very politically homogeneous religious organizations", "value_type": "reported_share"},
+        "diverse_religious_group": {"value": 17, "unit": "percent reporting populist-nationalist voting among participants in very politically diverse religious organizations", "value_type": "reported_share"},
+        "political_diversity_route": {"value": "the political diversity of groups may matter more than membership alone for whether association creates bridging rather than insulated identity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey comparison using reported participation and organization-level political homogeneity/diversity, with populist-nationalist party classification based on Stanford’s Votes for Populists dataset and Cas Mudde’s definition.",
+      "uncertainty": "These are descriptive associations; party support, group composition, self-selection, country context, and organization type may confound the relationship, and classification is contestable.",
+      "subgroup": "Participants in religious and other organizations with different levels of political diversity, plus supporters and non-supporters of populist-nationalist parties.",
+      "counterinterpretation": "Politically diverse groups may attract people who already hold more pluralist views; group diversity could be an outcome of prior attitudes rather than their cause.",
+      "source_url": "https://schaeffer.usc.edu/research/populism-drivers-20-country-poll/",
+      "retrieval_hash": "sha256:9153a0ccd113228392443f73ea079297415172f2b2d0fcb09d9ed4ab394a8ef0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://schaeffer.usc.edu/research/populism-drivers-20-country-poll/", "claim": "Official USC Schaeffer public summary of the initial 20-country Schaeffer Index findings and survey methodology."},
+    {"source_url": "https://schaeffer.usc.edu/centers/center-for-civic-society/", "claim": "USC Center for Civic Society institutional context for the index’s civic-infrastructure and political-attitudes research program."}
+  ],
+  "boundary": "This record adds a comparative political-culture route linking decline perceptions, financial disappointment, civic association, friendship, bridging contact, political diversity, belonging, and populist-nationalist support. It uses an initial 2025 survey round summarized in a 2026 public article, not respondent-level atlas ingestion, causal evidence, longitudinal results, election forecasts, or proof that civic groups reduce populism.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official USC Schaeffer article reviewed for field date, approximately 32,000-adult/20-country sample, decline and trust findings, group participation, friendship, bridging contact, populist-nationalist comparisons, party classification, and planned future modeling.",
+    "source_url_sha256": "sha256:9153a0ccd113228392443f73ea079297415172f2b2d0fcb09d9ed4ab394a8ef0",
+    "checked": "2026-09-28"
+  }
+}

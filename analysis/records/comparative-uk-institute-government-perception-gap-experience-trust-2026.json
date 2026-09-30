@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-institute-government-perception-gap-experience-trust-2026",
+  "title": "Positive service experience does not automatically become institutional trust: the public separates delivery from whether government acts in its interests",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Institute for Government, More in Common and University of York Policy Engine, How does the public understand government? Assessing the perception gap between experience and trust among voters in England, September 2026",
+  "geography": "England, with regional comparisons and focus groups in the North East and East of England; regional-mayoral areas compared with other areas",
+  "observations": [
+    {
+      "period": "August 2026; service experience versus general institutional trust",
+      "denominator": {"value": 5002, "unit": "adults in England surveyed by More in Common for the report", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "service_contact": {"value": 3, "unit": "percent reporting no contact with a government delivery service in the prior year", "value_type": "reported_share"},
+        "service_quality": {"value": 64, "unit": "percent of recent service users saying the service was delivered to a good standard", "value_type": "reported_share"},
+        "national_trust": {"value": 28, "unit": "percent reporting a fair amount or a great deal of trust in the UK government to act in the interests of people like them", "value_type": "reported_share"},
+        "perception_gap": {"value": "personal experiences of government services were generally more positive than overall trust in government to act in people’s interests", "unit": "reported relationship between measures", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted quantitative survey of 5,002 adults in England, supplemented by focus groups in the North East and East of England and interviews with mayors and their teams.",
+      "uncertainty": "The perception gap is descriptive and does not establish whether broken promises, political conduct, media, service quality, economic conditions, or attribution caused low trust; service users and non-users may differ.",
+      "subgroup": "Adults in England, public-service users, non-users, voters with different party preferences, age and education groups, and residents of regional-mayoral areas.",
+      "counterinterpretation": "Improving service delivery may still matter greatly, but it may not repair trust if people interpret government through promises, fairness, integrity, representation, or national economic conditions.",
+      "source_url": "https://www.instituteforgovernment.org.uk/publication/how-public-understand-government",
+      "retrieval_hash": "sha256:15efb259da79e3f4c84005cd20bd3ab4a22cda7afee038422f29c93a12727762",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; institutional attribution when local conditions improve or worsen",
+      "denominator": {"value": 1, "unit": "reported attribution comparison across eight local issues in regional-mayoral areas", "value_type": "survey_attribution_frame"},
+      "measures": {
+        "negative_blame_national": {"value": 46, "unit": "percent average attributing a negative local condition to UK government", "value_type": "reported_attribution_share"},
+        "positive_credit_national": {"value": 30, "unit": "percent average crediting UK government when a local condition was viewed positively", "value_type": "reported_attribution_share"},
+        "local_credit_blame": {"value": "local councils were credited more often than blamed, 45% versus 32% on average across the eight issues", "unit": "reported attribution comparison", "value_type": "reported_pattern"},
+        "mayor_credit_blame": {"value": "regional mayors were credited around twice as often as blamed, 13% versus 6%", "unit": "reported attribution comparison", "value_type": "reported_pattern"}
+      },
+      "method": "Survey comparison of perceived responsibility and attribution across eight local issues, interpreted with qualitative focus-group and mayoral-interview evidence.",
+      "uncertainty": "Attribution percentages are not measures of actual administrative responsibility or causal performance; issue wording, salience, partisan identity, media exposure, and regional institutional arrangements may affect responses.",
+      "subgroup": "Residents of regional-mayoral areas, people judging local services and conditions, national and local political audiences, and residents with differing views of government tiers.",
+      "counterinterpretation": "National government may receive blame because it is more visible or symbolically responsible for the country, while local actors receive credit for proximity; this does not prove local delivery is more effective.",
+      "source_url": "https://www.instituteforgovernment.org.uk/sites/default/files/2026-09/how-does-the-public-understand-government.pdf",
+      "retrieval_hash": "sha256:15efb259da79e3f4c84005cd20bd3ab4a22cda7afee038422f29c93a12727762",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; government visibility, responsibility, and information pathways",
+      "denominator": {"value": 5000, "unit": "rounded survey base reported for the England public-understanding questions", "value_type": "weighted_survey_sample_rounded"},
+      "measures": {
+        "self_reported_knowledge": {"value": 57, "unit": "percent saying they know a great deal or fair amount about how government works", "value_type": "reported_share"},
+        "perceived_citizen_knowledge": {"value": 31, "unit": "percent saying the average person knows a great deal or fair amount about how government works", "value_type": "reported_share"},
+        "information_channels": {"value": "news channels were reported by 61% as a source of information about government, newspapers by 38%, social media by 37%, friends and family by 36%, and government or council websites/apps by 25%", "unit": "reported multiple-response source shares", "value_type": "reported_shares"},
+        "responsibility_mapping": {"value": "people generally distinguish some local responsibilities such as bins, buses, planning, housing, childcare and social care, but large proportions still assign responsibility to the wrong tier and regional mayors did not clearly resolve the confusion", "unit": "reported governance-understanding pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey questions on civic knowledge, information sources, perceived government responsibilities, and open-text descriptions of the last government action affecting respondents’ lives.",
+      "uncertainty": "Self-reported knowledge is not tested administrative knowledge; information-source shares are multiple response; responsibility attribution may reflect funding visibility, issue salience, or institutional complexity rather than simple misunderstanding.",
+      "subgroup": "Adults in England, people using government or public-service information, residents of different regions, and people relying on news, social media, interpersonal, or direct government channels.",
+      "counterinterpretation": "A mixed information environment can help people encounter government information, and some responsibility confusion may be reasonable when powers, funding, and delivery are split across levels.",
+      "source_url": "https://www.instituteforgovernment.org.uk/publication/how-public-understand-government",
+      "retrieval_hash": "sha256:15efb259da79e3f4c84005cd20bd3ab4a22cda7afee038422f29c93a12727762",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; place identity, devolution, and subgroup trust differences",
+      "denominator": {"value": 1, "unit": "England regional and subgroup comparison in the report’s survey and qualitative evidence", "value_type": "regional_trust_frame"},
+      "measures": {
+        "mayor_trust": {"value": 41, "unit": "percent in regional-mayoral areas trusting a regional mayor to act in the interests of people like them, compared with 28% for UK government and 39% for local council", "value_type": "reported_share"},
+        "education_gap": {"value": "74% of people without degrees reported not much or no trust in UK government to act in their interests, compared with 55% of degree holders", "unit": "reported subgroup trust shares", "value_type": "reported_gap"},
+        "social_cohesion_region": {"value": "the report describes a stark regional difference in perceptions of how well people of different ethnicities and cultures get on, with a positive balance of +34% in London versus +2% in Yorkshire and the Humber", "unit": "reported regional perception balance", "value_type": "reported_regional_difference"},
+        "devolution_limit": {"value": "having a regional mayor did not by itself improve overall perceptions of government, and higher mayoral trust may reflect place-champion identity, education, institutional age, or other regional factors", "unit": "reported qualification", "value_type": "reported_caveat"}
+      },
+      "method": "Regional and demographic comparison from the weighted England survey, combined with focus groups and interviews with regional mayors and their teams.",
+      "uncertainty": "The report explicitly cautions that mayoral presence is not a causal treatment; regional comparisons may reflect education, urbanization, institutional history, local politics, economic conditions, or sample composition.",
+      "subgroup": "Residents of London and other regional-mayoral areas, degree and non-degree groups, younger and older adults, and communities with different perceptions of cross-cultural relations.",
+      "counterinterpretation": "Local champions may create symbolic belonging and voice even without greater formal service power, but symbolic proximity can also produce disappointment if responsibility and resources remain unclear.",
+      "source_url": "https://www.instituteforgovernment.org.uk/sites/default/files/2026-09/how-does-the-public-understand-government.pdf",
+      "retrieval_hash": "sha256:15efb259da79e3f4c84005cd20bd3ab4a22cda7afee038422f29c93a12727762",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.instituteforgovernment.org.uk/sites/default/files/2026-09/how-does-the-public-understand-government.pdf", "claim": "Official 24-page report PDF containing the survey, focus-group, interview, attribution, and methodology findings."},
+    {"source_url": "https://www.instituteforgovernment.org.uk/publication/how-public-understand-government", "claim": "Official publication page describing the 5,002-person survey, focus groups, and regional-mayoral interviews."}
+  ],
+  "boundary": "This record adds a political-cultural legitimacy route from everyday government experience through attribution, information, place identity, devolution, social cohesion, and institutional trust. It is a UK survey and qualitative case synthesis, not a causal evaluation of devolution, a behavioral trace, a representative U.S. estimate, or proof that better service delivery alone repairs political legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Institute for Government publication page and 24-page report PDF were reviewed for the perception gap, service experience, trust, attribution, responsibility mapping, information channels, regional-mayoral comparisons, subgroup differences, social-cohesion regional variation, and methodology.",
+    "pdf_sha256": "sha256:15efb259da79e3f4c84005cd20bd3ab4a22cda7afee038422f29c93a12727762",
+    "checked": "2026-09-28"
+  }
+}

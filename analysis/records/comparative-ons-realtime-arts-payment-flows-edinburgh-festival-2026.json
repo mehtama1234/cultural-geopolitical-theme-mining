@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-realtime-arts-payment-flows-edinburgh-festival-2026",
+  "title": "Festival-season cultural production leaves a payment-network signal distinct from attendance",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Office for National Statistics Economic activity and social change in the UK, real-time indicators: 17 September 2026",
+  "geography": "United Kingdom, with Scotland compared with the rest of the UK; creative-arts payment flows and retail footfall",
+  "observations": [
+    {
+      "period": "August 2026 compared with July 2026; inter-organisation payments involving Scottish arts organisations",
+      "denominator": {"value": 1, "unit": "month-on-month comparison of anonymised aggregated Bacs Direct Debit, Bacs Direct Credit, and Faster Payment flows; no population denominator", "value_type": "comparison_frame"},
+      "measures": {
+        "scotland_arts_org_payments_to_other_uk_arts_orgs": {"value": 73, "unit": "percent increase in payment value from Scottish arts organisations to other UK arts organisations", "value_type": "reported_change"},
+        "rest_of_uk_equivalent_arts_org_payments": {"value": -40, "unit": "percent change in equivalent payments in the rest of the UK", "value_type": "reported_change"},
+        "festival_signal": {"value": "Scottish arts-organisation payments to other UK arts organisations have shown an August peak every year from 2021 to 2025, with August values 1.9 to 2.6 times the average of the other months in the year", "unit": "reported seasonal payment-flow pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Festival-season cultural production can be observed as inter-organisation payment activity and geographic network concentration before it is interpreted as audience attendance or consumer spending", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS real-time indicator using anonymised and aggregated Bacs Direct Debit, Bacs Direct Credit, and Faster Payment System flows between organisations classified in SIC Division 90, comparing Scottish arts organisations with the rest of the UK.",
+      "uncertainty": "The indicator is an experimental official statistic in development. It excludes ticket sales and visitor spending, may contain SIC misclassification and fuzzy-matching false positives, excludes suppressed cells and unassigned regions, and does not measure jobs, artist income, audience size, or festival quality.",
+      "subgroup": "Arts organisations in Scotland and the rest of the UK whose inter-organisation payment flows are captured and regionally attributed.",
+      "counterinterpretation": "The August change may reflect payment timing, invoicing, one-off contracts, festival logistics, or classification artifacts rather than a broad expansion of cultural production; payment value is not the same as realized cultural participation or welfare.",
+      "source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026/pdf",
+      "retrieval_hash": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 compared with July 2026 and August 2025; UK retail footfall",
+      "denominator": {"value": 1, "unit": "retail-footfall index comparison; no unique-person denominator", "value_type": "comparison_frame"},
+      "measures": {
+        "uk_retail_footfall_month_on_month": {"value": -2, "unit": "percent change in estimated UK retail footfall from July 2026", "value_type": "reported_change"},
+        "uk_retail_footfall_year_on_year": {"value": 3, "unit": "percent change in estimated UK retail footfall from August 2025", "value_type": "reported_change"},
+        "regional_pattern": {"value": "Compared with August 2025, footfall rose 14% in London and 3% in Scotland, while it fell 5% in the North East and 5% in Yorkshire and the Humber", "unit": "reported regional changes", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Place-based consumer presence can recover year-on-year while weakening month-on-month, creating a timing and geography layer for cultural venues, high streets, and festival-linked spending without identifying cultural attendance", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS real-time indicator based on BT Active Intelligence estimated UK retail footfall, reported as non-seasonally-adjusted month-on-month and year-on-year changes.",
+      "uncertainty": "The series excludes people who live and work in retail areas, counts visits rather than unique visitors, is not seasonally adjusted, and is affected by calendar variation; retail footfall is not a cultural-participation or household-spending measure.",
+      "subgroup": "Visitors to UK retail locations, with regional comparisons where data were available.",
+      "counterinterpretation": "Footfall can move differently from transaction value, cultural attendance, transport access, or local wellbeing; London and Scotland changes cannot be interpreted as general regional consumer welfare.",
+      "source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026/pdf",
+      "retrieval_hash": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026", "claim": "Official ONS bulletin landing page for the 17 September 2026 real-time indicators release."},
+    {"source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026/pdf", "claim": "ONS consumer-behaviour, arts-payment-flow, footfall, methods, and quality statements."}
+  ],
+  "boundary": "This record adds a near-real-time cultural-production and place-consumer layer using administrative payment flows and footfall. It does not establish ticket sales, attendance, visitor spending, artist income, jobs, cultural quality, consumer welfare, or causal effects of festivals or geography.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS 17 September 2026 real-time-indicators PDF reviewed for August consumer behaviour, retail-footfall regional changes, SIC Division 90 inter-organisation payment flows, Edinburgh festival context, suppression, misclassification, and non-seasonal limitations.",
+    "pdf_sha256": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+    "checked": "2026-09-30"
+  }
+}

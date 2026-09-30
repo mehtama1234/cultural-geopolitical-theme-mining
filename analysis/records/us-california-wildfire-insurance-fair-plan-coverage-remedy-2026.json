@@ -1,0 +1,151 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-wildfire-insurance-fair-plan-coverage-remedy-2026",
+  "title": "California wildfire risk is becoming an insurance-availability and household-exit problem before reforms can prove durable protection",
+  "theme_ids": ["cost", "energy", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "California Department of Insurance market data, FAIR Plan wildfire claims records, and Sustainable Insurance Strategy reforms",
+  "geography": "California; wildfire-distressed areas and 2025 Los Angeles wildfire claim exposure",
+  "observations": [
+    {
+      "period": "December 2025 / Q1 2026; California insurance market snapshot",
+      "denominator": {"value": 8300730, "unit": "homeowner policies excluding FAIR Plan policies", "value_type": "reported_policy_count"},
+      "measures": {
+        "private_homeowner_policies": {"value": 8300730, "unit": "homeowner policy count excluding FAIR Plan", "value_type": "reported_count"},
+        "fair_plan_policies": {"value": 668609, "unit": "FAIR Plan homeowner and commercial policy count in December", "value_type": "reported_count"},
+        "average_premium": {"value": 1571, "unit": "US dollars average California homeowner premium compared with 1512 US dollars national average", "value_type": "reported_amount"},
+        "distressed_zip_codes": {"value": 662, "unit": "ZIP codes identified as distressed areas", "value_type": "reported_count"},
+        "mechanism": {"value": "Climate exposure is translated into a household security problem through policy availability, premium burden, and dependence on a last-resort market", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Department of Insurance Sustainable Insurance Strategy market snapshot updated February 2026.",
+      "uncertainty": "Policy counts and average premiums do not show underinsurance, deductibles, cancellations, household income burden, geographic incidence within ZIP codes, or whether people can obtain replacement coverage.",
+      "subgroup": "Homeowners and commercial policyholders in California, with separate FAIR Plan and non-FAIR Plan populations.",
+      "counterinterpretation": "A large FAIR Plan count can reflect improved access to a backstop rather than only market failure; average premiums can conceal coverage differences and risk-based variation.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Sustainable-Insurance-Strategy.cfm",
+      "retrieval_hash": "sha256:ae6574258d9fcffe7c86c1fd461d12578a43dbaa6224544f9c9454a94ba66da8",
+      "status": "reported"
+    },
+    {
+      "period": "January-February 2025; Palisades and Eaton wildfire claim stage",
+      "denominator": {"value": 4794, "unit": "FAIR Plan claims received from the Palisades and Eaton fires as of February 2025", "value_type": "reported_claim_count"},
+      "measures": {
+        "claims_received": {"value": 4794, "unit": "reported FAIR Plan claims from the two Los Angeles-area fires", "value_type": "reported_count"},
+        "paid_to_policyholders": {"value": 914, "unit": "million US dollars paid to policyholders as of February 2025", "value_type": "reported_amount"},
+        "estimated_total_loss": {"value": 4, "unit": "billion US dollars estimated FAIR Plan loss from the Palisades and Eaton fires", "value_type": "reported_estimate"},
+        "mechanism": {"value": "A catastrophe turns insurance availability into a claims-processing and liquidity route: the backstop's value depends on payment timing, coverage limits, and the gap between paid claims and total loss", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California FAIR Plan assessment order reporting claims, paid losses, reserves, and anticipated payments after the 2025 Los Angeles wildfires.",
+      "uncertainty": "Paid amounts are not a recovery rate, do not measure adequacy or timeliness for each household, and may change as claims are adjusted and reserves develop.",
+      "subgroup": "FAIR Plan policyholders affected by the Palisades and Eaton fires; the observation does not cover all wildfire survivors or all insurers.",
+      "counterinterpretation": "Rapid payment of some total-loss claims can coexist with disputes, smoke-damage uncertainty, underinsurance, temporary housing costs, and delayed or denied supplemental claims.",
+      "source_url": "https://www.insurance.ca.gov/0250-insurers/0500-legal-info/0700-commissioners-orders/upload/Order-No-2025-1-Approving-the-California-FAIR-Plan-Association-s-Request-to-Issue-Assessment.pdf",
+      "retrieval_hash": "sha256:306cf8af307e35074cf45dba6a2db122ca6ebe184c7b8ea0b3403778438cb969",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025; coverage reform implementation",
+      "denominator": {"value": 1500000, "unit": "homeowners in wildfire-distressed areas and on the FAIR Plan described as affected by new insurer-writing requirements", "value_type": "reported_affected_population"},
+      "measures": {
+        "coverage_scope": {"value": 1500000, "unit": "homeowners potentially affected by rules requiring insurers using approved forward-looking models to write more policies in wildfire-distressed areas", "value_type": "reported_affected_population"},
+        "wildfire_claims_returned": {"value": 67, "unit": "million US dollars returned to wildfire survivors to date, according to the Department", "value_type": "reported_amount"},
+        "reform": {"value": "The Department also expanded transparency, reviewed catastrophe models, and established temporary high-value FAIR Plan commercial coverage", "unit": "reported regulatory actions", "value_type": "reported_policy"},
+        "mechanism": {"value": "Regulation attempts to convert a last-resort market into broader private-market choice and faster consumer recovery, but policy adoption is not proof of insurer writing, affordability, or successful depopulation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Department of Insurance Sustainable Insurance Strategy announcement and model-review implementation report.",
+      "uncertainty": "The affected-population and returned-funds figures are reported program-level quantities; they do not identify household-level coverage restoration, claim adequacy, or later exit from the FAIR Plan.",
+      "subgroup": "Homeowners, businesses, housing associations, farms, and affordable-housing developments in wildfire-distressed areas or on the FAIR Plan.",
+      "counterinterpretation": "Expanding insurer obligations may increase available coverage while also increasing approved rates or creating implementation delays; the distribution of costs and benefits remains open.",
+      "source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release052-2025.cfm",
+      "retrieval_hash": "sha256:398d6ec6c201f51dd9e8882f89eb38a21fbbb55effcb1fd84414ea4fff95dd7c",
+      "status": "reported"
+    },
+    {
+      "period": "February-May 2026; reform and market-stabilization signal",
+      "denominator": {"value": 6, "unit": "insurance groups reported by the Department as expanding in California under the Sustainable Insurance Strategy", "value_type": "reported_group_count"},
+      "measures": {
+        "expanding_groups": {"value": 6, "unit": "homeowners insurance groups expanding in California compared with zero in 2025", "value_type": "reported_count"},
+        "claim_payments_all_insurers": {"value": 22.4, "unit": "billion US dollars distributed since January 2025 for Los Angeles wildfires, including FAIR Plan payments, according to the Department", "value_type": "reported_amount"},
+        "reform_direction": {"value": "The Make It FAIR Act proposal and related reforms target claims handling, transparency, coverage options, advance payments, and FAIR Plan financial stability", "unit": "reported policy direction", "value_type": "reported_policy"},
+        "mechanism": {"value": "Early market stabilization signals may improve institutional capacity without yet proving that exposed households can remain insured, recover fully, or exercise meaningful choice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Department of Insurance 2026 market snapshot and reform announcement.",
+      "uncertainty": "The reported group count and aggregate payments are not a common-denominator recovery rate, do not isolate FAIR Plan from private-market payments, and do not establish permanent market return or household recovery.",
+      "subgroup": "California homeowners, wildfire survivors, insurers, and FAIR Plan policyholders; aggregate reporting does not support household-level outcome inference.",
+      "counterinterpretation": "More insurer participation can coexist with higher premiums, narrower terms, non-renewals elsewhere, or continued dependence on the FAIR Plan; reform legislation and market commitments can still change.",
+      "source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release005-2026.cfm",
+      "retrieval_hash": "sha256:615865b7abda3d04f5b99c9cdee2dd65791f32fefa303ab17945dcaf005d2cfe",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025-February 2026; complaint, enforcement, and correction route",
+      "denominator": {"value": 220, "unit": "smoke-related consumer complaints received by the California Department of Insurance after the Palisades and Eaton fires, as reported in July 2025", "value_type": "reported_complaint_count"},
+      "measures": {
+        "consumer_complaints": {"value": 220, "unit": "smoke-related complaints against the FAIR Plan reported as received by January-July 2025", "value_type": "reported_count"},
+        "violations_identified": {"value": 418, "unit": "consumer-protection violations identified in the Department's multi-year FAIR Plan investigation", "value_type": "reported_count"},
+        "complaint_recovery": {"value": 74, "unit": "million US dollars recovered for wildfire survivors through formal Department complaint intervention, as reported July 2025", "value_type": "reported_amount"},
+        "institutional_action": {"value": "The Department filed an Order to Show Cause against the FAIR Plan for systematically denying or limiting smoke-damage claims and later reported enforcement action against State Farm based on survivor complaints", "unit": "reported enforcement route", "value_type": "reported_action"},
+        "mechanism": {"value": "A complaint can become institutional correction when a regulator aggregates claimant experiences into investigation, document access, enforcement, and monetary recovery; correction is still distinct from full claim adequacy or household recovery", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Department of Insurance enforcement and consumer-assistance reporting, including complaint counts, investigation findings, formal action, and reported complaint intervention recoveries.",
+      "uncertainty": "Complaint counts and recovered amounts are administrative intervention measures, not a denominator for all affected households, a complete recovery rate, or proof that every claimant received adequate or timely payment.",
+      "subgroup": "Wildfire survivors with smoke-damage or related claims involving the FAIR Plan or private insurers; the enforcement evidence is complaint- and investigation-based.",
+      "counterinterpretation": "Enforcement visibility may improve accountability while also revealing that many consumers needed intervention; monetary recovery can coexist with delay, litigation, unmeasured losses, and continued uncertainty.",
+      "source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release054-2025.cfm",
+      "retrieval_hash": "sha256:af27609c608315c804cdad98289ee43331ff19443d368ac25074a94a7a7c4378",
+      "status": "reported"
+    },
+    {
+      "period": "September 18, 2026; conditional private-market reopening signal",
+      "denominator": {"value": 12, "unit": "insurance groups reported as having filed or received approval under California's Sustainable Insurance Strategy framework", "value_type": "reported_group_count"},
+      "measures": {
+        "reopening_filings": {"value": 2, "unit": "major insurers—State Farm and Allstate—filing plans or rules to begin writing new California residential policies", "value_type": "reported_filing_count"},
+        "state_farm_eligibility": {"value": "State Farm proposed accepting homes meeting IBHS Wildfire Prepared Home Enhanced standards statewide, and Essential standards in low and moderate wildfire-severity zones", "unit": "reported proposed eligibility rule", "value_type": "reported_policy_condition"},
+        "complaint_recovery": {"value": 338, "unit": "million US dollars recovered through Department intervention for Eaton and Palisades survivors, including 52 million dollars for smoke-damage claims", "value_type": "reported_amount"},
+        "market_status": {"value": "Both filings remained under Department review and the companies were not yet open for new business", "unit": "reported implementation status", "value_type": "reported_status"},
+        "mechanism": {"value": "Insurance availability is becoming a conditional exchange between household mitigation, regulatory approval, insurer risk selection, and consumer choice; a filing can widen future options without yet producing an available policy or affordable durable coverage", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Department of Insurance consumer alert reporting insurer filings, proposed wildfire-hardening eligibility, complaint recoveries, and review status.",
+      "uncertainty": "The filing count and complaint recovery are administrative aggregates; they do not establish approvals, policy issuance, take-up, premium, deductible, coverage adequacy, access for survivors with damaged or unrepaired properties, or the distribution of new business across wildfire-distressed communities.",
+      "subgroup": "California homeowners, especially wildfire survivors and households seeking admitted-market coverage; State Farm's proposal distinguishes homes by IBHS mitigation certification and wildfire severity.",
+      "counterinterpretation": "Reopening filings may signal improving market capacity, but insurers can narrow eligibility, seek rate changes, delay implementation, or remain concentrated outside the highest-risk communities; mitigation-linked access may also shift cost and responsibility onto households.",
+      "source_url": "https://www.insurance.ca.gov/0400-news/0102-alerts/2026/Major-California-home-insurers-move-to-r.cfm",
+      "retrieval_hash": "sha256:98df22026bdb4dd6f41634d47f3b481c9ca7e0c19aefeb48458a87eb53049c07",
+      "status": "reported"
+    },
+    {
+      "period": "August 15, 2026; homeowner-reported insurance access and affordability themes",
+      "denominator": {"value": null, "unit": "California Fire Insurance Project survey responses received through mid-August 2026; public sample size and sampling frame not disclosed on the findings page", "value_type": "not_disclosed"},
+      "measures": {
+        "fair_plan_mentions": {"value": "about two-thirds of respondents mention the FAIR Plan somewhere in their story; about half are categorized directly as FAIR Plan or FAIR Plan-plus-DIC/wrap placements", "unit": "reported share of survey responses", "value_type": "reported_share"},
+        "premium_examples": {"value": "reported annual premium pairs include increases of approximately 363% and 367% in individual homeowner accounts, alongside smaller and volatile year-to-year changes", "unit": "self-reported examples, not verified quotes or policy records", "value_type": "reported_examples"},
+        "mitigation_limit": {"value": "respondents describe mitigation work such as defensible space and ember-resistant vents without guaranteed stable coverage; some report non-renewal, FAIR Plan placement, or new carrier demands", "unit": "reported experience theme", "value_type": "reported_theme"},
+        "consumer_mechanism": {"value": "insurance insecurity is experienced as an option-set and household-budget problem: non-renewal or carrier exit -> search and documentation effort -> FAIR Plan or wrap coverage -> premium, coverage, lending, and property-plan tradeoffs", "unit": "bounded consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Fire Insurance Project findings page updated August 15, 2026; survey responses and public homeowner discussions are explicitly separated by the publisher. This observation uses only the survey-theme section and preserves the publisher's disclosure that respondent numbers, sampling, weighting, and reported figures are not publicly verified on the page.",
+      "uncertainty": "The page does not disclose a public sample size or probability sampling frame; the responses may overrepresent highly affected homeowners, cannot estimate statewide prevalence, and do not establish carrier conduct, policy terms, or household welfare. The premium figures are self-reported and unverified.",
+      "subgroup": "California homeowners reporting non-renewal, premium increases, FAIR Plan or DIC/wrap placement, carrier exit, mitigation work, home purchase, refinance, or coverage-search difficulty.",
+      "counterinterpretation": "A self-selected research sample can surface otherwise invisible mechanisms and consumer language, but the high FAIR Plan share may reflect recruitment through affected networks rather than the statewide distribution of insurance experiences.",
+      "source_url": "https://cafireproject.com/findings",
+      "retrieval_hash": "sha256:43f1958b43f4e51166aaa10db04904ab40ed7ffbed7657c7cbcf15d2de2f5516",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release044-2025.cfm", "claim": "California Department of Insurance describes the FAIR Plan reform package, transparency requirements, and consumer-accountability goals."},
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/140-catastrophes/MandatoryOneYearMoratoriumNonRenewals.cfm", "claim": "California's one-year post-disaster non-renewal moratorium and consumer assistance route."}
+    ,{"source_url": "https://cafireproject.com/findings", "claim": "California Fire Insurance Project anonymized survey themes on non-renewal, FAIR Plan placement, premium volatility, mitigation, and coverage-search friction."}
+  ],
+  "boundary": "This record follows California wildfire exposure through FAIR Plan dependence, catastrophe claims, insurance-market reforms, aggregate payments, and early market-stabilization signals. It does not establish household-level claim adequacy, payment timing, full recovery, durable affordability, insurer depopulation of the FAIR Plan, residential mobility, or trust and political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official California Department of Insurance market, claims, reform, enforcement, and September 18, 2026 reopening-alert pages plus the California Fire Insurance Project findings page were reviewed for policy counts, premiums, wildfire claims, payments, regulatory actions, conditional insurer re-entry, homeowner-reported access and affordability themes, and the stated implementation boundaries.",
+    "checked": "2026-09-29"
+  }
+}

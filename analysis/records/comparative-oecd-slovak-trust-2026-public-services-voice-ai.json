@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-slovak-trust-2026-public-services-voice-ai",
+  "title": "Institutional trust is weakening where people experience low voice, questionable fairness and uncertain data and AI stewardship",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "OECD Survey on Drivers of Trust in Public Institutions 2026 Results: Slovak Republic",
+  "geography": "Slovak Republic; representative adult survey within the 2025 OECD Trust Survey",
+  "observations": [
+    {
+      "period": "2023-2025; trust in national government and public institutions",
+      "denominator": {"value": 1, "unit": "representative Slovak adult population in OECD Trust Survey 2025; survey fielded 10 September-23 October 2025", "value_type": "survey_population"},
+      "measures": {
+        "national_government_trust": {"value": 23, "unit": "per cent reporting high or moderately high trust in national government in 2025; down from 31 per cent in 2023", "value_type": "published_survey_estimate"},
+        "police_trust": {"value": 40, "unit": "per cent reporting high or moderately high trust in police", "value_type": "published_survey_estimate"},
+        "court_trust": {"value": 32, "unit": "per cent reporting high or moderately high trust in courts", "value_type": "published_survey_estimate"},
+        "political_party_trust": {"value": 14, "unit": "per cent reporting high or moderately high trust in political parties", "value_type": "published_survey_estimate"},
+        "civil_service_trust": {"value": 32, "unit": "per cent reporting high or moderately high trust in civil service, versus 45 per cent OECD average", "value_type": "published_survey_estimate"}
+      },
+      "method": "Representative adult survey using a 0-10 trust scale, with high or moderately high defined as responses 6-10; Slovak results compared with 2023 and OECD averages.",
+      "uncertainty": "Trust is a perception measure and does not by itself identify institutional performance, causal sources of decline or future political behavior; institution labels and fieldwork conditions can affect comparability.",
+      "subgroup": "Slovak adults assessing national government, police, courts, political parties, civil service and media.",
+      "counterinterpretation": "Lower trust in political institutions can coexist with higher trust in administrative or law-and-order institutions; a national average can conceal sharply different partisan or regional experiences.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/slovak-republic_c07afdd0/4985632d-en.pdf",
+      "retrieval_hash": "sha256:bccb5047aadd15a703899f66ce79ba6e6e1f864ac697c7801f03c4acef83a7fe",
+      "status": "reported"
+    },
+    {
+      "period": "2025; political agency, age, gender and socio-economic trust gaps",
+      "denominator": {"value": 1, "unit": "representative Slovak adult population in OECD Trust Survey 2025", "value_type": "survey_population"},
+      "measures": {
+        "political_agency_gap": {"value": 39, "unit": "percentage-point trust gap associated with political agency/voice in Slovakia, versus 47 points OECD average", "value_type": "published_subgroup_comparison"},
+        "financial_hardship_gap": {"value": 9, "unit": "percentage-point trust gap associated with financial hardship in Slovakia, versus 18 points OECD average", "value_type": "published_subgroup_comparison"},
+        "youth_trust": {"value": 17, "unit": "per cent of young Slovaks reporting high or moderately high trust, versus 31 per cent among people aged 50+", "value_type": "published_subgroup_comparison"},
+        "gender_gap": {"value": 6, "unit": "percentage-point lower trust among women than men in Slovakia", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "OECD subgroup analysis of trust in national government by political agency, financial hardship, education, age and gender.",
+      "uncertainty": "Gap estimates describe associations and do not establish why groups differ; political agency is measured as a perception of influence, not observed participation or representation.",
+      "subgroup": "Young adults, older adults, women, men, people experiencing financial hardship and people differentiated by education and perceived political voice.",
+      "counterinterpretation": "A narrower Slovak agency gap than the OECD average can still coexist with low overall trust; group-level averages do not reveal which institutions or issues generate the gap.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/slovak-republic_c07afdd0/4985632d-en.pdf",
+      "retrieval_hash": "sha256:bccb5047aadd15a703899f66ce79ba6e6e1f864ac697c7801f03c4acef83a7fe",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; day-to-day service encounters, fairness and data legitimacy",
+      "denominator": {"value": 1, "unit": "representative Slovak adult population; service satisfaction restricted to recent service users", "value_type": "survey_population"},
+      "measures": {
+        "administrative_service_satisfaction": {"value": 57, "unit": "per cent in 2025, up from 54 per cent in 2023", "value_type": "published_survey_estimate"},
+        "benefit_application_fairness": {"value": 32, "unit": "per cent in 2025, down from 36 per cent in 2023, viewing fair treatment in benefit applications as likely", "value_type": "published_survey_estimate"},
+        "public_data_legitimacy": {"value": 38, "unit": "per cent in 2025, down from 42 per cent in 2023, viewing legitimate public-sector data use as likely", "value_type": "published_survey_estimate"},
+        "trust_mechanism": {"value": "Across OECD countries, more positive day-to-day experiences—especially service satisfaction, fair benefit treatment and legitimate data use—tend to accompany higher national-government trust.", "unit": "reported cross-country association", "value_type": "published_association"}
+      },
+      "method": "Survey measures of frontline public-service experience and perceptions of administrative fairness and data use, with 2023-2025 comparison and OECD-wide association analysis.",
+      "uncertainty": "The country note reports association rather than a causal service-to-trust estimate; satisfaction is not a full service-quality audit and public perceptions of data legitimacy may reflect broader political information environments.",
+      "subgroup": "Recent public-service users, benefit applicants and adults evaluating public-sector data practices.",
+      "counterinterpretation": "A small increase in administrative-service satisfaction can coexist with declining fairness and data-legitimacy perceptions; trust may respond to political decisions beyond frontline encounters.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/slovak-republic_c07afdd0/4985632d-en.pdf",
+      "retrieval_hash": "sha256:bccb5047aadd15a703899f66ce79ba6e6e1f864ac697c7801f03c4acef83a7fe",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; complex decision-making and public-sector AI expectations",
+      "denominator": {"value": 1, "unit": "representative Slovak adult population in OECD Trust Survey 2025", "value_type": "survey_population"},
+      "measures": {
+        "evidence_based_decision_confidence": {"value": 28, "unit": "per cent in 2025, down from 36 per cent in 2023, viewing government use of evidence positively", "value_type": "published_survey_estimate"},
+        "intergenerational_balance": {"value": 24, "unit": "per cent in 2025, down from 33 per cent in 2023, viewing government as balancing generations positively", "value_type": "published_survey_estimate"},
+        "political_voice": {"value": 17, "unit": "per cent in 2025, down from 20 per cent in 2023, believing people like them have a say in government", "value_type": "published_survey_estimate"},
+        "ai_government_confidence": {"value": "Only 28% expect personal information protection, 32% human oversight, 28% transparency and 29% fair treatment when government uses AI; 35% expect more tailored services and 33% expect cost reduction.", "unit": "reported expectations of future government AI use", "value_type": "published_survey_estimate"}
+      },
+      "method": "Survey of perceptions of complex policy decision-making and first-wave measures of familiarity with and expectations for AI use in government.",
+      "uncertainty": "Expectations about future AI use are not deployment audits or realized harms; associations between evidence, intergenerational balance, voice and trust are reported at OECD level and do not prove Slovak causality.",
+      "subgroup": "Slovak adults evaluating evidence use, intergenerational fairness, political voice, privacy, oversight, transparency and fair treatment in public-sector AI.",
+      "counterinterpretation": "Low confidence may reflect prudent demand for safeguards rather than blanket opposition to AI; tailored services and cost reduction may be valued if rights, explanation and human remedy are credible.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results-country-notes_6dae3a76/slovak-republic_c07afdd0/4985632d-en.pdf",
+      "retrieval_hash": "sha256:bccb5047aadd15a703899f66ce79ba6e6e1f864ac697c7801f03c4acef83a7fe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_c88c8869-en/slovak-republic_4985632d-en.html", "claim": "Official OECD country-note page with methodology context, figures and full report link."},
+    {"source_url": "https://www.oecd.org/en/about/news/press-releases/2026/06/trust-steadies-but-people-still-do-not-feel-heard-oecd-trust-survey.html", "claim": "OECD release frames political voice and feeling heard as central trust drivers."}
+  ],
+  "boundary": "This record adds an institutional-legitimacy layer: trust is connected to political agency, day-to-day service fairness, evidence use, intergenerational balancing, data legitimacy and conditions for public-sector AI. It is representative survey evidence from Slovakia within the OECD Trust Survey, not observed service performance, causal political behavior, administrative records or proof that low trust has one universal cause.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD country-note page and seven-page PDF were reviewed for survey scope, trust levels, subgroup gaps, service encounters, complex decision-making, AI expectations and causal/measurement boundaries.",
+    "source_url_sha256": "sha256:bccb5047aadd15a703899f66ce79ba6e6e1f864ac697c7801f03c4acef83a7fe",
+    "checked": "2026-09-27"
+  }
+}

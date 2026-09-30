@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fhwa-our-nations-highways-2026-mobility-dependency",
+  "title": "American everyday life remains structurally car-dependent while roads allocate access, work, social life, and freight through different layers",
+  "theme_ids": ["time", "cost", "work", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Highway Administration, Our Nation's Highways 2026: Travel, published July 31, 2026",
+  "geography": "United States; public roads, National Household Travel Survey trips, vehicle miles, and domestic freight",
+  "observations": [
+    {
+      "period": "2022; passenger travel trips by mode",
+      "denominator": {"value": 1, "unit": "share of passenger travel trips in the National Household Travel Survey", "value_type": "trip_frame"},
+      "measures": {
+        "motor_vehicle_trips": {"value": 91, "unit": "percent of passenger trips using motor vehicles", "value_type": "reported_share"},
+        "car": {"value": 40, "unit": "percent of passenger trips by car", "value_type": "reported_share"},
+        "suv": {"value": 30, "unit": "percent of passenger trips by SUV", "value_type": "reported_share"},
+        "pickup": {"value": 10, "unit": "percent of passenger trips by pickup truck", "value_type": "reported_share"},
+        "walking_biking": {"value": 8, "unit": "percent of passenger trips by walking or bicycle", "value_type": "reported_share"},
+        "mobility_dependency": {"value": "work, errands, and social activity are carried through a transportation system in which motor vehicles account for the large majority of trips", "unit": "analytic structural implication", "value_type": "analytic_implication"}
+      },
+      "method": "FHWA presentation of 2022 National Household Travel Survey trip shares by travel mode.",
+      "uncertainty": "Trip shares do not measure trip distance, household vehicle ownership, cost, safety, accessibility, transit quality, or whether the mode was chosen or forced by place and infrastructure.",
+      "subgroup": "People making passenger trips in the United States, including commuting, family/personal, social/recreational, and school/church trips.",
+      "counterinterpretation": "Motor-vehicle dominance can reflect convenience, geography, dispersed destinations, weather, family logistics, disability access, or freight-supporting land use rather than a single cultural preference for cars.",
+      "source_url": "https://www.fhwa.dot.gov/policyinformation/pubs/our_nations_highways_2026/travel.cfm",
+      "retrieval_hash": "sha256:6a606588ebcafc4a510706873bcd6f74ff08488bd383b2c22fbaa64f06982932",
+      "status": "reported"
+    },
+    {
+      "period": "2024; public-road use and travel scale",
+      "denominator": {"value": 339000000, "unit": "U.S. residents used in FHWA per-person travel calculation", "value_type": "population_frame"},
+      "measures": {
+        "public_road_vmt": {"value": 3300000000000, "unit": "vehicle-miles traveled on public roads in the 50 states and D.C.", "value_type": "reported_total"},
+        "person_miles": {"value": 5200000000000, "unit": "person-miles of travel", "value_type": "reported_total"},
+        "vmt_per_person": {"value": 9714, "unit": "vehicle-miles per person", "value_type": "reported_rate"},
+        "travel_per_person": {"value": 15289, "unit": "miles of travel per person", "value_type": "reported_rate"},
+        "system_scale": {"value": "mobility is a large recurring household, infrastructure, energy, and economic exposure rather than a marginal service category", "unit": "analytic implication from travel scale", "value_type": "analytic_implication"}
+      },
+      "method": "FHWA Highway Statistics and population-based calculations reported in Our Nation's Highways 2026.",
+      "uncertainty": "National mileage totals do not show distribution by income, geography, disability, race, age, vehicle ownership, trip purpose, or the household cost and time required to produce the travel.",
+      "subgroup": "Residents and users of public roads in the 50 states and D.C.",
+      "counterinterpretation": "High travel volume can reflect economic activity and access as well as burden; vehicle miles are not equivalent to welfare, productive output, or necessary travel.",
+      "source_url": "https://www.fhwa.dot.gov/policyinformation/pubs/our_nations_highways_2026/travel.cfm",
+      "retrieval_hash": "sha256:6a606588ebcafc4a510706873bcd6f74ff08488bd383b2c22fbaa64f06982932",
+      "status": "reported"
+    },
+    {
+      "period": "2022; trip purpose and weekly time structure",
+      "denominator": {"value": 1, "unit": "privately operated vehicle and passenger-trip shares in the National Household Travel Survey", "value_type": "trip_frame"},
+      "measures": {
+        "weekday_commuting": {"value": 31, "unit": "percent of weekday privately operated vehicle trips classified as commuting", "value_type": "reported_share"},
+        "weekday_family_personal": {"value": 39, "unit": "percent of weekday privately operated vehicle trips for family and personal reasons, including shopping and medical appointments", "value_type": "reported_share"},
+        "weekday_social_recreation": {"value": 20, "unit": "percent of weekday privately operated vehicle trips for social and recreational reasons", "value_type": "reported_share"},
+        "weekend_social_recreation": {"value": 40, "unit": "percent of weekend trips for social and recreational reasons", "value_type": "reported_share"},
+        "weekend_family_personal": {"value": 37, "unit": "percent of weekend trips for family and personal reasons", "value_type": "reported_share"},
+        "life_routine_route": {"value": "the same mobility system organizes paid work, care and errands, and social/recreational participation across different parts of the week", "unit": "analytic routine mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "FHWA presentation of 2022 National Household Travel Survey trip purposes and start-time patterns for weekdays and weekends.",
+      "uncertainty": "Purpose categories are descriptive and do not quantify trip duration, cost, failed trips, accessibility, household substitution, or whether a trip could have been made by another mode.",
+      "subgroup": "People making weekday and weekend trips in the United States.",
+      "counterinterpretation": "A trip-purpose share does not establish that roads caused social participation or that car travel is the only route; it describes how travel demand is currently organized.",
+      "source_url": "https://www.fhwa.dot.gov/policyinformation/pubs/our_nations_highways_2026/travel.cfm",
+      "retrieval_hash": "sha256:6a606588ebcafc4a510706873bcd6f74ff08488bd383b2c22fbaa64f06982932",
+      "status": "reported"
+    },
+    {
+      "period": "2024; road hierarchy and 2023 domestic freight",
+      "denominator": {"value": 1, "unit": "U.S. public-road functional classes and domestic freight movement", "value_type": "infrastructure_frame"},
+      "measures": {
+        "arterial_road_share": {"value": 11, "unit": "percent of road miles classified as arterials", "value_type": "reported_share"},
+        "arterial_vmt_share": {"value": 73, "unit": "percent of vehicle miles traveled on arterials", "value_type": "reported_share"},
+        "local_road_share": {"value": 69, "unit": "percent of road miles classified as local roads", "value_type": "reported_share"},
+        "local_vmt_share": {"value": 13, "unit": "percent of vehicle miles traveled on local roads", "value_type": "reported_share"},
+        "truck_freight_weight": {"value": 65, "unit": "percent of domestic freight moved by weight via truck in 2023", "value_type": "reported_share"},
+        "access_mobility_split": {"value": "arterials carry disproportionate mobility while local roads provide disproportionate access, creating a built-in tradeoff between movement and proximity", "unit": "reported infrastructure interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "FHWA functional-class road-mile and VMT shares plus Freight Analysis Framework 5.5.1 domestic freight measures.",
+      "uncertainty": "Functional class does not measure actual sidewalk, transit, safety, congestion, maintenance, or neighborhood access; freight weight is not freight value, ton-miles, or household price impact.",
+      "subgroup": "Road users, local communities, freight-dependent firms, and households receiving goods and services through the public-road network.",
+      "counterinterpretation": "The mobility/access split can support efficient movement and local access simultaneously in some places; it does not by itself establish that road design produces inequality or a particular household outcome.",
+      "source_url": "https://www.fhwa.dot.gov/policyinformation/pubs/our_nations_highways_2026/travel.cfm",
+      "retrieval_hash": "sha256:6a606588ebcafc4a510706873bcd6f74ff08488bd383b2c22fbaa64f06982932",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nhts.ornl.gov/", "claim": "The National Household Travel Survey is the underlying federal travel-behavior source cited for passenger-trip mode and purpose measures.", "status": "official-data-source"},
+    {"source_url": "https://www.fhwa.dot.gov/policyinformation/pubs/our_nations_highways_2026/", "claim": "FHWA's Our Nation's Highways 2026 collection provides the broader roads, travel, safety, and freight chapters surrounding the travel page.", "status": "official-report-hub"}
+  ],
+  "boundary": "This record adds a mobility-dependency layer: motor vehicles dominate passenger trips, travel volume is enormous, work/family/social routines are organized through the road system, arterials carry disproportionate VMT, local roads provide disproportionate access, and trucking carries most domestic freight by weight. It does not estimate household transport cost, emissions, safety, accessibility, inequality, or causal effects of road design.",
+  "retrieval_hash": "sha256:6a606588ebcafc4a510706873bcd6f74ff08488bd383b2c22fbaa64f06982932"
+}

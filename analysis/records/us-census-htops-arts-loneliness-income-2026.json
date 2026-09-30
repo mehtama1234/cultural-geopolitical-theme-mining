@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-arts-loneliness-income-2026",
+  "title": "Cultural participation and loneliness show sharply unequal income gradients in the same U.S. pulse survey",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Census Bureau Household Trends and Outlook Pulse Survey, July 2026 topical tables 2607",
+  "geography": "United States; adults age 18 and older living in housing units",
+  "observations": [
+    {
+      "period": "July 15-August 3, 2026; in-person arts attendance during the prior four weeks",
+      "denominator": {"value": 261534494, "unit": "estimated U.S. civilian population age 18 and older in the published weighted-count table; total row", "value_type": "weighted_population_estimate"},
+      "measures": {
+        "live_music_dance_theater_total": {"value": 20.5, "unit": "percent attending a live music, dance, or theater performance in the last four weeks", "value_type": "calculated_share_from_published_counts"},
+        "live_music_dance_theater_household_income_under_35000": {"value": 10.6, "unit": "percent among adults in households with income below $35,000", "value_type": "calculated_share_from_published_counts"},
+        "live_music_dance_theater_household_income_150000_plus": {"value": 37.6, "unit": "percent among adults in households with income of $150,000 or more", "value_type": "calculated_share_from_published_counts"},
+        "income_gradient": {"value": 27.0, "unit": "percentage-point gap between the highest and lowest published household-income groups", "value_type": "calculated_difference_from_published_counts"},
+        "mechanism": {"value": "Recent live cultural participation is strongly stratified by household income, consistent with household room, price, transport, time, venue access, and social network differences shaping who can convert cultural value into attendance", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 Arts Table 1. Percentages are calculated from published weighted counts; the source table includes a did-not-report category and uses a four-week recall window.",
+      "uncertainty": "HTOPS is an experimental cross-sectional product. The income rows are household-income categories, not individual earnings; the gap is descriptive and does not identify the contribution of price, time, transport, health, supply, preference, or selection.",
+      "subgroup": "U.S. adults age 18 and older by household-income category.",
+      "counterinterpretation": "Higher attendance may reflect geography, age, education, employment flexibility, family composition, or cultural preference correlated with income; low four-week attendance does not mean no cultural participation over a longer period or through digital and informal routes.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts1.xlsx",
+      "retrieval_hash": "sha256:e7b5045984df39bb470a1909db670f76bd02a84ba8c19029bf0866fa07e75a33",
+      "status": "reported"
+    },
+    {
+      "period": "July 15-August 3, 2026; feelings of loneliness at survey time",
+      "denominator": {"value": 261534494, "unit": "estimated U.S. civilian population age 18 and older in the published weighted-count table; total row", "value_type": "weighted_population_estimate"},
+      "measures": {
+        "always_or_usually_lonely_total": {"value": 8.7, "unit": "percent reporting feeling lonely always or usually", "value_type": "calculated_share_from_published_counts"},
+        "always_or_usually_lonely_household_income_under_35000": {"value": 18.2, "unit": "percent among adults in households with income below $35,000", "value_type": "calculated_share_from_published_counts"},
+        "always_or_usually_lonely_household_income_150000_plus": {"value": 1.9, "unit": "percent among adults in households with income of $150,000 or more", "value_type": "calculated_share_from_published_counts"},
+        "income_gradient": {"value": 16.3, "unit": "percentage-point gap between the lowest and highest published household-income groups", "value_type": "calculated_difference_from_published_counts"},
+        "mechanism": {"value": "Economic room and social connection appear in the same cross-sectional measurement surface: the groups with the least household room also report more frequent loneliness, but the table cannot establish whether income, time, health, work, housing, or social infrastructure produces the difference", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 Health Table 3a. Percentages are calculated from published weighted counts; the source table includes a did-not-report category.",
+      "uncertainty": "Loneliness is a self-reported subjective measure; the cross-sectional income gradient is not a causal welfare or cultural-participation estimate and may reflect age, health, employment, household composition, housing, or survey response differences.",
+      "subgroup": "U.S. adults age 18 and older by household-income category.",
+      "counterinterpretation": "High income does not guarantee connection, and lower-income respondents may differ in reporting, household structure, or exposure to other stressors; loneliness is not equivalent to social isolation or absence of support.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3a.xlsx",
+      "retrieval_hash": "sha256:27cc4e16ab4b2b3f163e35cc60b1804fce3ed4c86414d47c78249bbb883dee90",
+      "status": "reported"
+    },
+    {
+      "period": "July 15-August 3, 2026; social interaction frequency",
+      "denominator": {"value": 261534494, "unit": "estimated U.S. civilian population age 18 and older in the published weighted-count table; total row", "value_type": "weighted_population_estimate"},
+      "measures": {
+        "in_person_get_together_at_least_three_times_weekly_total": {"value": 25.2, "unit": "percent getting together in person with loved ones or a close social network three or more times per week", "value_type": "calculated_share_from_published_counts"},
+        "in_person_get_together_at_least_three_times_weekly_age_18_34": {"value": 18.7, "unit": "percent among adults ages 18-34", "value_type": "calculated_share_from_published_counts"},
+        "in_person_get_together_at_least_three_times_weekly_age_65_plus": {"value": 37.1, "unit": "percent among adults age 65 and older", "value_type": "calculated_share_from_published_counts"},
+        "phone_or_video_contact_at_least_three_times_weekly_total": {"value": 53.6, "unit": "percent talking with loved ones or a close social network by phone or video three or more times per week", "value_type": "calculated_share_from_published_counts"},
+        "mechanism": {"value": "Social connection is multi-channel and age-patterned: older adults report more frequent in-person gatherings than younger adults in this table, while phone/video contact is more common overall, so cultural and social access cannot be inferred from attendance alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 Health Table 3c. Combined frequency shares are calculated by adding the published three-or-four-times and five-or-more-times categories and dividing by the published total row.",
+      "uncertainty": "The measure is self-reported frequency, not contact quality, support, network size, or causal wellbeing; age differences may reflect life stage, work, caregiving, health, mobility, household composition, and survey coverage.",
+      "subgroup": "U.S. adults age 18 and older by age group; telephone/video and in-person channels are measured separately.",
+      "counterinterpretation": "More frequent contact is not necessarily more supportive or inclusive, and digital contact may complement rather than substitute for in-person connection.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3c.xlsx",
+      "retrieval_hash": "sha256:08fb7b2497b4dfd5392c949c0af7ba88faadb4d9c7949dc39a24ccd8d8d3de81",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cdn.www.census.gov/data/tables/2026/demo/hhp/2607.html", "claim": "Official July 2026 HTOPS table index, topical scope, release date, and arts/social-connection table links."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_2607_Source_and_Accuracy.pdf", "claim": "HTOPS sample design, 12,755 respondents, weighting, cross-sectional design, response rate, and experimental-data caveats."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts1.xlsx", "claim": "In-person arts attendance by household-income category."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3a.xlsx", "claim": "Loneliness by household-income category."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3c.xlsx", "claim": "In-person and telephone/video social-interaction frequency by age and other characteristics."}
+  ],
+  "boundary": "This record adds a same-instrument descriptive bridge between household income, recent cultural attendance, loneliness, and social-contact frequency. It uses experimental cross-sectional HTOPS weighted counts and does not establish causal income effects, cultural exclusion, social-support quality, longitudinal change, or individual-level linkage between the arts and loneliness cells.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census HTOPS July 2026 table index, source-and-accuracy statement, arts attendance table, loneliness table, and social-interaction table retrieved; weighted total rows, income rows, age rows, category definitions, and missing-report treatment reviewed.",
+    "html_sha256": "sha256:1a71c89e48a620da086240c7174b1a3d497056c8be33d6415ba3592a418c645b",
+    "source_accuracy_pdf_sha256": "sha256:5b17eb1e2b01fe59eb434366a257da979be01c651be14b23f55d83747c644360",
+    "table_hashes": {
+      "arts1": "sha256:e7b5045984df39bb470a1909db670f76bd02a84ba8c19029bf0866fa07e75a33",
+      "health3a": "sha256:27cc4e16ab4b2b3f163e35cc60b1804fce3ed4c86414d47c78249bbb883dee90",
+      "health3c": "sha256:08fb7b2497b4dfd5392c949c0af7ba88faadb4d9c7949dc39a24ccd8d8d3de81"
+    },
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-cloud-procurement-public-capability-lockin-2026",
+  "title": "Cloud procurement becomes a public-capability and vendor-dependency decision",
+  "theme_ids": ["energy", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank, Enabling Cloud Procurement: A Guide for the Public Sector",
+  "geography": "Public-sector ministries and agencies; comparative procurement and governance guidance drawing on public-cloud and digital-transformation cases",
+  "observations": [
+    {
+      "period": "2026; public-sector digital and AI transformation through cloud services",
+      "denominator": {"value": 1, "unit": "public-sector cloud-procurement system and layered technology stack", "value_type": "reported_policy_frame"},
+      "measures": {
+        "capability_route": {"value": "AI services, data analytics, e-government systems, and disaster-recovery arrangements are increasingly delivered through cloud services rather than built as capital infrastructure", "unit": "reported digital-government shift", "value_type": "reported_system_finding"},
+        "procurement_position": {"value": "cloud procurement is on the critical path for digital and AI transformation because procurement and financial-management arrangements determine what services government can acquire and sustain", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "governance_model": {"value": "the guide identifies a case for a centralized government cloud-procurement broker, standardized strategies, and whole-of-government framework agreements", "unit": "reported governance route", "value_type": "reported_policy_route"},
+        "continuity": {"value": "cloud contracts need service-level expectations for availability, performance, data durability, incident response, and continuity rather than only one-off hardware delivery", "unit": "reported procurement requirement", "value_type": "reported_requirement"}
+      },
+      "method": "World Bank public-sector guide synthesizing cloud concepts, procurement policy, financial management, institutional arrangements, procurement routes, evaluation criteria, and real-life-inspired scenarios.",
+      "uncertainty": "The guide is practical policy guidance and does not estimate the causal effect of centralized procurement, cloud adoption, or AI services on public-service outcomes.",
+      "subgroup": "Ministries, agencies, procurement and finance teams, digital and AI offices, technical teams, implementing agencies, public-service users, cloud providers, integrators, and software vendors.",
+      "counterinterpretation": "Centralization can improve standards and bargaining power but can also concentrate decision-making, reduce local fit, or create a new single point of institutional failure; the guide does not prescribe one universal model.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090226134518733/pdf/P506819-76102be6-d48a-4f88-97e6-830e41c15d57.pdf",
+      "retrieval_hash": "sha256:a85c5eeceee8339b0813d13d6a43424505aedc2087a9bfb6d3d54717cadc6d7d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cloud procurement routes, supplier structure, and market participation",
+      "denominator": {"value": 3, "unit": "procurement-route families discussed: direct contracting, indirect procurement, and framework or marketplace arrangements", "value_type": "reported_procurement_frame"},
+      "measures": {
+        "supplier_access": {"value": "open frameworks, supplier prequalification, and marketplaces are presented as ways to balance participation between large providers and smaller and medium-sized enterprises", "unit": "reported procurement route", "value_type": "reported_policy_route"},
+        "competition": {"value": "framework design and demand aggregation can simplify adoption and expand expertise, but must preserve competition, transparency, fairness, and fit-for-purpose evaluation", "unit": "reported governance requirement", "value_type": "reported_requirement"},
+        "evaluation": {"value": "evaluation should combine price with technical, security, privacy, interoperability, sustainability, and service considerations", "unit": "reported evaluation dimensions", "value_type": "reported_framework"},
+        "market_power_mechanism": {"value": "public procurement becomes a market-shaping institution that can either widen or narrow the provider ecosystem and distribute digital capability across firms", "unit": "bounded market-power mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative procurement guidance covering direct and indirect routes, framework agreements, supplier accreditation, marketplaces, tender evaluation, SME participation, and sustainability criteria.",
+      "uncertainty": "The guide identifies design choices and risks but does not measure actual supplier concentration, SME entry, prices, or procurement performance across countries.",
+      "subgroup": "Cloud hyperscalers, local and regional providers, SMEs, independent software vendors, systems integrators, procurement officers, and governments seeking interoperable services.",
+      "counterinterpretation": "Large providers may offer stronger security, resilience, and technical capacity in some settings; maximizing the number of suppliers can add integration, oversight, and accountability costs.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090226134518733/pdf/P506819-76102be6-d48a-4f88-97e6-830e41c15d57.pdf",
+      "retrieval_hash": "sha256:a85c5eeceee8339b0813d13d6a43424505aedc2087a9bfb6d3d54717cadc6d7d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cloud risk, data control, portability, and public-service legitimacy",
+      "denominator": {"value": 1, "unit": "public-sector cloud risk and exit-governance frame", "value_type": "reported_risk_frame"},
+      "measures": {
+        "lockin": {"value": "without clear policy and institutional arrangements, procurement decisions can increase compliance risk, vendor lock-in, and resource risk", "unit": "reported risk pathway", "value_type": "reported_risk_finding"},
+        "exit_controls": {"value": "data portability, interoperability, non-proprietary services, multi-cloud options, and clear exit strategies with costs and timelines are emphasized as ways to reduce lock-in", "unit": "reported control set", "value_type": "reported_requirement"},
+        "public_trust": {"value": "data residency, security, privacy, incident response, and continuity conditions connect cloud procurement to public trust and service reliability", "unit": "bounded legitimacy mechanism", "value_type": "bounded_mechanism"},
+        "accountability": {"value": "the guide frames procurement, technical architecture, finance, security, and service assurance as linked accountability roles rather than isolated purchasing tasks", "unit": "reported institutional arrangement", "value_type": "reported_governance_route"}
+      },
+      "method": "Guide-based risk and contract analysis using cloud service layers, data governance, security and privacy criteria, interoperability, exit terms, service levels, and scenario-based procurement design.",
+      "uncertainty": "Recommended controls do not establish that a contract will be portable, that multi-cloud lowers total cost, or that security and privacy will be enforced in operation; outcomes require implementation audits.",
+      "subgroup": "Citizens using health, civil-registration, e-government, and smart-city services; data-protection officers; technical teams; vendors; auditors; and public managers.",
+      "counterinterpretation": "Cloud dependence can improve resilience, security, and access to expertise where governments lack in-house capacity; exit controls may be costly or technically limited for specialized services.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090226134518733/pdf/P506819-76102be6-d48a-4f88-97e6-830e41c15d57.pdf",
+      "retrieval_hash": "sha256:a85c5eeceee8339b0813d13d6a43424505aedc2087a9bfb6d3d54717cadc6d7d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099090226134518733", "claim": "Official World Bank record, report number, date, project, abstract, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099090226134518733", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a procurement-to-public-capability mechanism linking cloud contracting to AI and data capacity, supplier market structure, lock-in, security, continuity, privacy, and public-service legitimacy. It is a World Bank implementation guide, not causal evidence that centralization, cloud adoption, or multi-cloud improves outcomes; all scenario benefits require live procurement and service audits.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, API metadata, cloud and AI transformation framing, centralized broker, procurement routes, SME participation, framework agreements, evaluation criteria, continuity, privacy, security, portability, exit, vendor lock-in, and public-service scenarios were reviewed.",
+    "source_url_sha256": "sha256:a85c5eeceee8339b0813d13d6a43424505aedc2087a9bfb6d3d54717cadc6d7d",
+    "checked": "2026-09-29"
+  }
+}

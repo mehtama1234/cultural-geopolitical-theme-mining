@@ -1,0 +1,231 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mexico-inegi-modecult-2025-cultural-participation-digital-barriers",
+  "title": "Mexican cultural participation rebounds but remains stratified by age, education, identity, time, cost, and digital form",
+  "theme_ids": [
+    "cost",
+    "time",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "INEGI Módulo sobre Eventos Culturales Seleccionados, MODECULT 2025",
+  "geography": "Mexico",
+  "observations": [
+    {
+      "period": "June 2025; selected cultural-event attendance, comparable adult series",
+      "denominator": {
+        "value": 4818,
+        "unit": "sampled dwellings in MODECULT 2025; comparable 2016-2025 series reports population aged 18+ in 32 cities of 100,000+ inhabitants",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "adults_attending_selected_cultural_event_2025": {
+          "value": 61.2,
+          "unit": "percent of population aged 18+; theatre, live music, dance, exhibition, or cinema in previous 12 months",
+          "value_type": "reported_share"
+        },
+        "adults_attending_selected_cultural_event_2024": {
+          "value": 52.5,
+          "unit": "percent of population aged 18+ in comparable series",
+          "value_type": "reported_share"
+        },
+        "adults_attending_selected_cultural_event_2016": {
+          "value": 64,
+          "unit": "percent of population aged 18+ in comparable series",
+          "value_type": "reported_share"
+        },
+        "attendance_change_2025_from_2024": {
+          "value": 8.7,
+          "unit": "percentage points",
+          "value_type": "reported_change"
+        },
+        "attendance_change_2025_from_2016": {
+          "value": -2.8,
+          "unit": "percentage points",
+          "value_type": "reported_change"
+        }
+      },
+      "method": "INEGI MODECULT 2025 direct interviews using a probabilistic, stratified, four-stage sample of 4,818 dwellings, with national, urban/rural, and 32-city coverage; the 18+ series is retained separately from the new 12+ indicators.",
+      "uncertainty": "The comparable series covers 32 urban areas and selected event types, not all cultural practices or the full national population. Year-to-year changes can reflect post-pandemic normalization, event supply, prices, and survey redesign; attendance is not frequency, quality, or cultural meaning.",
+      "subgroup": "Population aged 18+ in the 32 cities of 100,000+ inhabitants for the comparable series; the 2025 redesign additionally reports population aged 12+ nationally.",
+      "counterinterpretation": "The 2025 rebound does not restore the 2016 attendance rate in the comparable series; recovery can coexist with a changed event mix, unequal access, and more digitally mediated participation.",
+      "source_url": "https://www.inegi.org.mx/contenidos/programas/modecult/doc/resultados_modecult_jun2025.pdf",
+      "retrieval_hash": "sha256:242953be6fff024de29130b92c9b3946139f183d5a0b1d991f746709208703aa",
+      "status": "reported"
+    },
+    {
+      "period": "June 2025; national 12+ cultural participation gradients",
+      "denominator": {
+        "value": 4818,
+        "unit": "sampled dwellings; national estimates for population aged 12+ are survey-weighted",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "population_12plus_attending_any_cultural_event": {
+          "value": 64.7,
+          "unit": "percent nationally",
+          "value_type": "reported_share"
+        },
+        "women_12plus_attending_any_cultural_event": {
+          "value": 64,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "men_12plus_attending_any_cultural_event": {
+          "value": 65.6,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "age_12_24_attendance": {
+          "value": 80.9,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "age_25_49_attendance": {
+          "value": 71.1,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "age_50plus_attendance": {
+          "value": 47.8,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "basic_incomplete_attendance": {
+          "value": 50.2,
+          "unit": "percent among population with incomplete basic education",
+          "value_type": "reported_share"
+        },
+        "higher_education_attendance": {
+          "value": 82.8,
+          "unit": "percent among population with higher education",
+          "value_type": "reported_share"
+        },
+        "afrodescendant_attendance": {
+          "value": 68.9,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "indigenous_self_identification_attendance": {
+          "value": 59.5,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "indigenous_language_speaker_attendance": {
+          "value": 48.5,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "disability_attendance": {
+          "value": 48.3,
+          "unit": "percent",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "INEGI MODECULT 2025 cross-tabulations of cultural attendance by age, sex, education, self-identification/language, and disability status; the source reports percentages rather than causal effects.",
+      "uncertainty": "Subgroup percentages have different effective sample sizes and may have sampling error; the release does not establish why groups differ. Identity, education, age, disability, income, geography, transport, event supply, and time are correlated.",
+      "subgroup": "Mexican population aged 12+ at national level, disaggregated by age, sex, education, Afrodescendant identity, Indigenous self-identification, Indigenous-language status, and disability.",
+      "counterinterpretation": "The near gender parity should not be read as equal access: age, education, language, and disability gradients are much larger, and higher attendance may reflect urban access, school exposure, income, or event preferences rather than cultural inclusion alone.",
+      "source_url": "https://www.inegi.org.mx/contenidos/programas/modecult/doc/resultados_modecult_jun2025.pdf",
+      "retrieval_hash": "sha256:242953be6fff024de29130b92c9b3946139f183d5a0b1d991f746709208703aa",
+      "status": "reported"
+    },
+    {
+      "period": "June 2025; cultural barriers, artistic participation, and online cultural consumption",
+      "denominator": {
+        "value": null,
+        "unit": "Event-specific non-attenders; artistic participants aged 12+; women aged 12+ who viewed cultural events online; all people aged 12+ for organizing. Numeric subgroup bases are not supplied.",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "cinema_nonattendance_no_event_or_unaware": {
+          "value": 30.3,
+          "unit": "percent of non-attenders for cinema",
+          "value_type": "reported_share"
+        },
+        "cinema_nonattendance_lack_of_time": {
+          "value": 17.5,
+          "unit": "percent of non-attenders for cinema",
+          "value_type": "reported_share"
+        },
+        "cinema_nonattendance_cost_or_prefer_other_spending": {
+          "value": 15.8,
+          "unit": "percent of non-attenders for cinema",
+          "value_type": "reported_share"
+        },
+        "population_12plus_acting_in_theater": {
+          "value": 10.3,
+          "unit": "percent among those reporting artistic activities; activity-specific distribution",
+          "value_type": "reported_share"
+        },
+        "population_12plus_dancing": {
+          "value": 17.2,
+          "unit": "percent among those reporting artistic activities; activity-specific distribution",
+          "value_type": "reported_share"
+        },
+        "population_12plus_audio_visual_creation": {
+          "value": 61,
+          "unit": "percent among those reporting artistic activities; activity-specific distribution",
+          "value_type": "reported_share"
+        },
+        "population_12plus_organizing_cultural_events": {
+          "value": 4.4,
+          "unit": "percent nationally",
+          "value_type": "reported_share"
+        },
+        "dance_nonattendance_no_interest": {
+          "value": 35.3,
+          "unit": "percent of dance non-attenders",
+          "value_type": "reported_share"
+        },
+        "dance_nonattendance_no_event_or_unaware": {
+          "value": 29.2,
+          "unit": "percent of dance non-attenders",
+          "value_type": "reported_share"
+        },
+        "women_online_cultural_viewers_watching_live_music": {
+          "value": 71.9,
+          "unit": "percent of women aged 12+ who viewed cultural events online",
+          "value_type": "reported_share"
+        },
+        "women_online_cultural_viewers_watching_cultural_documentaries": {
+          "value": 62.6,
+          "unit": "percent of women aged 12+ who viewed cultural events online",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "MODECULT 2025 expanded its questionnaire to collect reasons for non-attendance, artistic activity, cultural-event organization/support, and virtual cultural attendance. The reported percentages use activity- or event-specific conditional denominators. Charts visually checked on PDF pages 22, 23, 26 and 28: dance barriers, conditional artistic activity, national organizing, and women-specific online viewing.",
+      "uncertainty": "Barrier categories are self-reported and mutually structured within event-specific non-attender populations; they do not prove that cost, time, supply, or interest caused non-attendance. Online viewing percentages do not measure duration, payment, platform, or substitution for in-person attendance.",
+      "subgroup": "Mexican population aged 12+; event-specific non-attenders, artistic participants, online cultural consumers, and cultural-event organizers/supporters.",
+      "counterinterpretation": "Activity mix among artistic participants and online viewers cannot establish population-wide prevalence or be directly compared with the national organizer share.",
+      "source_url": "https://www.inegi.org.mx/contenidos/programas/modecult/doc/resultados_modecult_jun2025.pdf",
+      "retrieval_hash": "sha256:242953be6fff024de29130b92c9b3946139f183d5a0b1d991f746709208703aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.inegi.org.mx/programas/modecult/",
+      "claim": "INEGI's official MODECULT program page documents the 2025 conceptual redesign, objectives, population, coverage, sample, periodicity, and historical comparability boundary.",
+      "status": "official-program-page"
+    },
+    {
+      "source_url": "https://www.inegi.org.mx/rnm/index.php/catalog/1138",
+      "claim": "INEGI's official metadata catalog documents MODECULT 2025's sample design, population, concepts, and data materials.",
+      "status": "official-metadata"
+    },
+    {
+      "source_url": "https://www.inegi.org.mx/contenidos/programas/modecult/doc/resultados_modecult_may2024.pdf",
+      "claim": "The prior MODECULT 2024 presentation supplies the immediately preceding comparable adult attendance estimate used in the 2016-2025 series.",
+      "status": "official-comparison-release"
+    }
+  ],
+  "boundary": "This record adds direct cultural participation, barrier, artistic-agency, organizer, and online-consumption evidence to the Mexico household-spending and Brazil/Canada retail layers. The comparable 2016-2025 adult series covers 32 large urban areas, while the redesigned 2025 indicators cover people aged 12+ nationally; these universes must not be merged. The record does not measure cultural quality, identity formation, causal access barriers, spending amounts, or long-run social outcomes. Source-dependence audit 2026-09-30: the companion MODECULT 2025 record uses the same survey wave; overlapping estimates are not independent corroboration.",
+  "retrieval_hash": "sha256:242953be6fff024de29130b92c9b3946139f183d5a0b1d991f746709208703aa"
+}

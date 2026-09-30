@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-acled-raleigh-report-september-2026-conflict-systems-disorder",
+  "title": "Conflict systems are broadening beyond battlefield violence into economic pressure, hybrid disorder, cultural disruption, alliances, and material bottlenecks",
+  "theme_ids": ["energy", "cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "ACLED, Raleigh Report: September 2026",
+  "geography": "Global conflict systems, including Ukraine, the Middle East, Iran, India-China relations, China-linked materials, hybrid disorder, and conflict-affected societies",
+  "observations": [
+    {
+      "period": "Summer 2026; conflict intensity and remote violence",
+      "denominator": {"value": 1, "unit": "ACLED conflict-analysis frame", "value_type": "qualitative_global_conflict_frame"},
+      "measures": {
+        "ukraine": {"value": "ACLED’s September analysis describes Ukraine as experiencing its most frequent conflict weeks since the conflict began, with sustained high events in August", "unit": "reported conflict pattern", "value_type": "reported_pattern"},
+        "global_conflict": {"value": "the report states conflict levels are on target to be higher in 2026 than in 2025, with remote violence such as bombing growing most", "unit": "reported global trend", "value_type": "reported_pattern"},
+        "protest_exception": {"value": "other forms of conflict and disorder are described as growing while protests were the exception", "unit": "reported conflict-category pattern", "value_type": "reported_comparison"},
+        "conflict_route": {"value": "conflict monitoring needs to distinguish battlefield intensity, remote violence, disorder, protest, and political alignment rather than collapse them into one war count", "unit": "analytic conflict mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "ACLED CEO monthly conflict analysis drawing on ACLED event data, conflict monitors, and geopolitical interpretation.",
+      "uncertainty": "The publication is an interpretive monthly report and does not reproduce the underlying event counts or provide a causal forecast of annual conflict levels.",
+      "subgroup": "Conflict-affected civilians, political authorities, armed groups, protesters, humanitarian actors, and populations exposed to remote or hybrid violence.",
+      "counterinterpretation": "Higher event reporting can reflect improved detection, changing definitions, or concentrated episodes rather than uniform escalation everywhere.",
+      "source_url": "https://acleddata.com/newsletter/raleigh-report-september-2026",
+      "retrieval_hash": "sha256:721d7a62000b538ebb30a66e03edf1f866f1ea4817f93bb7406e0b9bdb4bf4a2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; conflict systems and economic pressure",
+      "denominator": {"value": 1, "unit": "ACLED conflict-system interpretation", "value_type": "qualitative_system_frame"},
+      "measures": {
+        "economic_component": {"value": "economic pressure is described as a major component of conflict, operating from local roadblocks to larger state-level programs", "unit": "reported conflict mechanism", "value_type": "reported_mechanism"},
+        "shock_route": {"value": "sanctions, trade and maritime pressure, energy and commodity exposure, and economic threats can create long-tail shocks beyond immediate combat", "unit": "analytic geopolitical-economic route", "value_type": "analytic_mechanism_set"},
+        "local_global_link": {"value": "conflict systems scale across super-local restrictions, national economic policy, regional alliances, and global supply dependencies", "unit": "reported multiscale mechanism", "value_type": "reported_synthesis"}
+      },
+      "method": "ACLED interpretive analysis of conflict components, economic pressure, regional actors, and geopolitical strategy.",
+      "uncertainty": "The analysis identifies mechanisms but does not estimate the separate causal effects of sanctions, trade, roadblocks, energy, or military pressure on civilian welfare.",
+      "subgroup": "Households, workers, traders, firms, maritime communities, governments, and conflict-affected populations exposed to economic coercion or interruption.",
+      "counterinterpretation": "Economic pressure can constrain armed actors or create negotiation leverage, but may also shift costs onto civilians and local markets.",
+      "source_url": "https://acleddata.com/newsletter/raleigh-report-september-2026",
+      "retrieval_hash": "sha256:721d7a62000b538ebb30a66e03edf1f866f1ea4817f93bb7406e0b9bdb4bf4a2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; hybrid disorder, cultural disruption, and coordination",
+      "denominator": {"value": 1, "unit": "ACLED conflict-disorder assessment", "value_type": "qualitative_hybrid_conflict_frame"},
+      "measures": {
+        "disorder_set": {"value": "cyber attacks, hybrid attacks, bots, scams, and information or cultural disruption are treated as conflict-relevant disorder tactics", "unit": "reported hybrid-disorder set", "value_type": "reported_mechanism_set"},
+        "coordination_effect": {"value": "the report argues that perceived disorder can erode collaboration and coordination when societies face threats", "unit": "reported social mechanism", "value_type": "reported_mechanism"},
+        "reality_route": {"value": "shared reality and cultural narratives become part of operational conflict capacity, not only a communications after-effect", "unit": "analytic cultural-conflict route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "ACLED conflict analysis connecting observed disorder tactics with social coordination and cultural narratives.",
+      "uncertainty": "The report does not quantify bot, scam, cyber, or narrative exposure or establish how much each changes behavior, trust, or conflict outcomes.",
+      "subgroup": "Digital users, journalists, civic groups, local officials, conflict parties, media systems, and communities exposed to information disorder.",
+      "counterinterpretation": "Public disagreement or cultural contestation is not automatically a conflict tactic; interventions to protect shared reality can themselves threaten speech or pluralism.",
+      "source_url": "https://acleddata.com/newsletter/raleigh-report-september-2026",
+      "retrieval_hash": "sha256:721d7a62000b538ebb30a66e03edf1f866f1ea4817f93bb7406e0b9bdb4bf4a2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; alliances, middle powers, and material bottlenecks",
+      "denominator": {"value": 1, "unit": "ACLED geopolitical-strategy assessment", "value_type": "qualitative_geopolitical_frame"},
+      "measures": {
+        "middle_power_route": {"value": "India-China rapprochement and Saudi Arabia, Pakistan, and Turkey defense alignment are interpreted as signs that middle powers are acting around their own local and regional interests", "unit": "reported geopolitical pattern", "value_type": "reported_mechanism"},
+        "material_bottleneck": {"value": "military replenishment is constrained by production capacity and raw materials, including materials controlled or processed by China", "unit": "reported defense-industrial constraint", "value_type": "reported_constraint_set"},
+        "alignment_shift": {"value": "geopolitical shifts can make previously peripheral countries, governments, geographies, and alliances newly consequential", "unit": "analytic strategic route", "value_type": "analytic_mechanism_set"},
+        "open_test": {"value": "connect conflict events to alliance bargaining, materials, production, economic exposure, local legitimacy, and civilian security without assuming bloc behavior is fixed", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "ACLED geopolitical interpretation of conflict-relevant alliances, regional actors, defense production, and supply dependencies.",
+      "uncertainty": "The report is strategic analysis rather than a formal forecast; alliance intentions, material access, and production effects can change quickly.",
+      "subgroup": "Middle-power governments, militaries, defense industries, commodity and logistics firms, local communities, and civilians exposed to strategic realignment.",
+      "counterinterpretation": "Pragmatic alignment can reduce conflict or create bargaining space; material dependence can also incentivize restraint rather than escalation.",
+      "source_url": "https://acleddata.com/newsletter/raleigh-report-september-2026",
+      "retrieval_hash": "sha256:721d7a62000b538ebb30a66e03edf1f866f1ea4817f93bb7406e0b9bdb4bf4a2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://acleddata.com/series/raleigh-report", "claim": "ACLED Raleigh Report series provides monthly continuity and prior conflict-analysis context."},
+    {"source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict?lang=en", "claim": "International IDEA democracy-conflict analysis provides complementary institutional and peace-security context."}
+  ],
+  "boundary": "This record adds a conflict-system route from event intensity through economic pressure, hybrid disorder, cultural coordination, alliances, defense materials, and local-global strategic shifts. It is an interpretive ACLED publication, not a complete event dataset, causal conflict forecast, household-impact estimate, or proof that every described geopolitical intention will be realized.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ACLED September 2026 Raleigh Report page was reviewed for conflict intensity, protest and disorder comparisons, Ukraine, regional alignments, economic pressure, hybrid tactics, military material bottlenecks, and geopolitical-shift framing.",
+    "source_url_sha256": "sha256:721d7a62000b538ebb30a66e03edf1f866f1ea4817f93bb7406e0b9bdb4bf4a2",
+    "checked": "2026-09-26"
+  }
+}

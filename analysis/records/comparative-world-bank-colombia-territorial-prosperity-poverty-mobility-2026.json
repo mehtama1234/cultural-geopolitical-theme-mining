@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-colombia-territorial-prosperity-poverty-mobility-2026",
+  "title": "Colombia’s poverty and mobility gaps are territorial: uneven public-service capacity and connectivity shape who can convert cities and growth into opportunity",
+  "theme_ids": ["cost", "work", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Bank, Trajectories: Prosperity and Poverty Reduction in the Colombian Territory, 2026",
+  "geography": "Colombia’s departments and municipalities, poorer territories, cities, and populations experiencing uneven poverty reduction and social mobility",
+  "observations": [
+    {
+      "period": "2026; territorial poverty and unequal prosperity",
+      "denominator": {"value": 1, "unit": "Colombia territorial poverty and prosperity assessment", "value_type": "country_territorial_frame"},
+      "measures": {
+        "people_in_poverty": {"value": 16000000, "unit": "more than 16 million Colombians living in poverty", "value_type": "reported_population_total"},
+        "high_poverty_territories": {"value": "La Guajira and Chocó are identified among especially hard-hit regions", "unit": "reported territorial pattern", "value_type": "reported_geographic_pattern"},
+        "uneven_reduction": {"value": "poorer municipalities are not reducing poverty at the same rate as better-off municipalities", "unit": "reported territorial trend", "value_type": "reported_pattern"},
+        "state_capacity_route": {"value": "uneven public-service delivery and local institutional capacity contribute to divergent territorial trajectories", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank territorial development report combining poverty, service, labor, connectivity, mobility, and subnational institutional evidence.",
+      "uncertainty": "National and territorial aggregates conceal within-municipality variation and do not establish a single causal effect of local capacity on poverty reduction.",
+      "subgroup": "Poor households, rural and urban residents, departments and municipalities, local governments, workers, migrants, and people in historically underserved territories.",
+      "counterinterpretation": "Poorer regions may improve through targeted investment, transfers, migration, or local innovation even when national territorial gaps remain wide.",
+      "source_url": "https://www.worldbank.org/en/country/colombia/publication/informe-trayectorias-prosperidad-y-reducci-n-de-la-pobreza-en-el-territorio-colombiano",
+      "retrieval_hash": "sha256:04b769572a0d753c06c8b0868ef0ebac038c5e58550c7777394bcb149a74b325",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social mobility and circumstances at birth",
+      "denominator": {"value": 100, "unit": "labor-income inequality percentage reference", "value_type": "social_mobility_inequality_frame"},
+      "measures": {
+        "circumstances_at_birth": {"value": 30, "unit": "at least percent of labor-income inequality determined by circumstances at birth", "value_type": "reported_lower_bound"},
+        "parental_link": {"value": "individual wellbeing is closely tied to parents’ wellbeing, especially in some departments", "unit": "reported intergenerational pattern", "value_type": "reported_mechanism"},
+        "mobility_route": {"value": "social mobility depends on access to quality education, health, formal land ownership, housing, and decent work across territories", "unit": "reported asset pathway", "value_type": "reported_mechanism_set"},
+        "boundary": {"value": "the report’s mobility relationship does not identify a single intervention or causal pathway for each person or department", "unit": "interpretation boundary", "value_type": "boundary"}
+      },
+      "method": "World Bank analysis of intergenerational and territorial determinants of labor-income inequality and mobility.",
+      "uncertainty": "The reported share is an aggregate inequality decomposition and does not predict an individual’s mobility or isolate every channel of parental and territorial advantage.",
+      "subgroup": "Children and adults from different parental backgrounds, departments, municipalities, rural communities, and households with unequal access to assets and services.",
+      "counterinterpretation": "Circumstances at birth can matter while education, migration, labor demand, social protection, and individual effort still alter trajectories; mobility varies across places and cohorts.",
+      "source_url": "https://www.worldbank.org/en/country/colombia/publication/informe-trayectorias-prosperidad-y-reducci-n-de-la-pobreza-en-el-territorio-colombiano",
+      "retrieval_hash": "sha256:04b769572a0d753c06c8b0868ef0ebac038c5e58550c7777394bcb149a74b325",
+      "status": "reported"
+    },
+    {
+      "period": "2026; territorial access to education, health, jobs, and connectivity",
+      "denominator": {"value": 1, "unit": "World Bank Colombia service-access and opportunity assessment", "value_type": "territorial_service_frame"},
+      "measures": {
+        "learning_poverty": {"value": "learning poverty reaches 100% in a number of municipalities", "unit": "reported municipal education pattern", "value_type": "reported_extreme_pattern"},
+        "preventable_infant_deaths": {"value": 90, "unit": "percent of infant deaths identified as preventable with adequate care", "value_type": "reported_upper_bound_pattern"},
+        "formal_employment_gap": {"value": "poorer departments have low formal employment and connectivity levels", "unit": "reported territorial labor and infrastructure pattern", "value_type": "reported_mechanism"},
+        "city_opportunity": {"value": "cities are often destinations for economic opportunity, but people from poorer territories cannot always leverage those opportunities", "unit": "reported mobility mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of territorial education, health, labor-market, connectivity, and destination-city evidence.",
+      "uncertainty": "The public summary’s extreme examples do not represent all municipalities or establish that moving to a city improves outcomes for every household.",
+      "subgroup": "Children, patients, workers, rural households, migrants, city residents, local service providers, and communities with weak connectivity or formal employment.",
+      "counterinterpretation": "Cities can expand opportunity, but improved services and connectivity in origin territories may reduce forced mobility and enable people to benefit without relocating.",
+      "source_url": "https://www.worldbank.org/en/country/colombia/publication/informe-trayectorias-prosperidad-y-reducci-n-de-la-pobreza-en-el-territorio-colombiano",
+      "retrieval_hash": "sha256:04b769572a0d753c06c8b0868ef0ebac038c5e58550c7777394bcb149a74b325",
+      "status": "reported"
+    },
+    {
+      "period": "2026; subnational institutions and coordinated service delivery",
+      "denominator": {"value": 1, "unit": "World Bank Colombian territorial-governance assessment", "value_type": "subnational_governance_frame"},
+      "measures": {
+        "institutional_constraint": {"value": "local governments face revenue-generation, fiscal-management, and coordination challenges", "unit": "reported institutional condition", "value_type": "reported_constraint_set"},
+        "scale_economies": {"value": "limited coordination across municipalities restricts the ability to improve service delivery through economies of scale", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "policy_route": {"value": "strengthening technical and fiscal capacity and partnerships across government levels is identified as a route to local development", "unit": "reported policy direction", "value_type": "reported_policy_set"},
+        "open_test": {"value": "connect institutional reform to budget execution, service access, employment, mobility, and durable poverty reduction", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "World Bank assessment of subnational fiscal capacity, coordination, service delivery, and local development.",
+      "uncertainty": "Institutional strengthening recommendations do not establish political feasibility, implementation, or distribution of benefits across municipalities.",
+      "subgroup": "Municipal and departmental governments, residents, service users, local firms, civil-society organizations, and national agencies.",
+      "counterinterpretation": "Decentralization can improve responsiveness, but shared services and national coordination may be necessary where local tax bases, staff, or administrative capacity are weak.",
+      "source_url": "https://www.worldbank.org/en/country/colombia/publication/informe-trayectorias-prosperidad-y-reducci-n-de-la-pobreza-en-el-territorio-colombiano",
+      "retrieval_hash": "sha256:04b769572a0d753c06c8b0868ef0ebac038c5e58550c7777394bcb149a74b325",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/brief/2026/09/18/thailand-cities-of-the-future-urban-foundations-for-a-high-income-economy", "claim": "World Bank Thailand cities brief provides comparative urban concentration, secondary-city, and investment-allocation context."},
+    {"source_url": "https://www.worldbank.org/en/brief/2026/09/17/malaysia-s-growth-is-leaving-cities-behind", "claim": "World Bank Malaysia urban-growth work provides complementary subnational concentration and city-potential context."}
+  ],
+  "boundary": "This record adds a Colombia-specific territorial route from poverty and circumstances at birth through service access, connectivity, cities, labor markets, social mobility, and subnational institutional capacity. It is not an individual mobility prediction, causal service evaluation, household panel, or proof that city migration or decentralization produces inclusive prosperity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank Colombia publication page was reviewed for poverty totals, territorial disparities, circumstances-at-birth inequality, education and health access, formal employment and connectivity, city opportunity, and subnational fiscal and coordination constraints.",
+    "source_url_sha256": "sha256:04b769572a0d753c06c8b0868ef0ebac038c5e58550c7777394bcb149a74b325",
+    "checked": "2026-09-26"
+  }
+}

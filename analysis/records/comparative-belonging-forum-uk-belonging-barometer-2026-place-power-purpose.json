@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose",
+  "title": "Belonging is becoming a practical test of whether everyday systems, places and institutions feel workable and fair",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Belonging Forum, 2026 Belonging Barometer",
+  "geography": "United Kingdom adults aged 18 and over; nationally and politically representative weighted survey across all four nations",
+  "observations": [
+    {
+      "period": "December 1-17, 2025; third wave of the UK Belonging Barometer",
+      "denominator": {"value": 10001, "unit": "UK adults aged 18 and over surveyed by Opinium", "value_type": "survey_sample"},
+      "measures": {
+        "framework": {"value": "belonging is measured across People, Place, Power and Purpose: relationships, shared environments, influence over decisions, and meaning or contribution", "unit": "published measurement framework", "value_type": "reported_framework"},
+        "belonging": {"value": "73% say they belong at least somewhat, while 22% say they do not really belong or do not belong at all", "unit": "reported survey share", "value_type": "reported_share"},
+        "measurement_use": {"value": "the Barometer is designed to track connection, inclusion, voice and contribution over time and to inform policy and community practice", "unit": "reported purpose", "value_type": "reported_interpretation"}
+      },
+      "method": "Opinium survey conducted 1-17 December 2025 with 10,001 UK adults; results weighted to be nationally and politically representative across all four nations.",
+      "uncertainty": "The findings are self-reported associations and perceptions from one survey wave; they do not establish causal effects of housing, services, politics or relationships on belonging.",
+      "subgroup": "UK adults across age, health, disability, housing, relationship, sexuality, faith, work and regional groups.",
+      "counterinterpretation": "A multidimensional belonging measure can reveal system strain that loneliness measures miss, but it still cannot determine which intervention would produce durable connection or whether reported belonging changes behavior.",
+      "source_url": "https://belongingforum.org/wp-content/uploads/2026/06/2026-Belonging-Barometer.pdf",
+      "retrieval_hash": "sha256:1215e59a5c514c70abb0514a7ad96ea2f76eb39dc8097fb26d032ed66ddf5a1b",
+      "status": "reported"
+    },
+    {
+      "period": "Since 2020; reported change in national and local connection",
+      "denominator": {"value": 1, "unit": "UK adult belonging comparison with the start of the 2020s", "value_type": "published_time_comparison"},
+      "measures": {
+        "national_connection": {"value": "39% feel less connected to modern Britain than at the start of the decade, compared with 14% who feel more connected", "unit": "reported survey share", "value_type": "reported_share"},
+        "local_resilience": {"value": "local connection appears more stable: 22% feel more connected to their local community, 24% less connected and 48% report no change", "unit": "reported survey shares", "value_type": "reported_share"},
+        "community_infrastructure": {"value": "27% report fewer opportunities to meet new people, 26% a lower sense of community and 33% less confidence in local decision-making", "unit": "reported survey shares", "value_type": "reported_share"}
+      },
+      "method": "Retrospective survey comparison of perceived connection, community opportunities, local pride and local decision-making since 2020.",
+      "uncertainty": "Retrospective perceptions may reflect recall, changing reference points and contemporaneous economic or political conditions; the result is not a longitudinal individual panel.",
+      "subgroup": "UK adults with different local, regional and national attachments, including people with and without disabilities.",
+      "counterinterpretation": "National disconnection can coexist with resilient local ties, and reported local stability does not prove that local institutions, services or social networks are functioning equally well everywhere.",
+      "source_url": "https://belongingforum.org/wp-content/uploads/2026/06/2026-Belonging-Barometer.pdf",
+      "retrieval_hash": "sha256:1215e59a5c514c70abb0514a7ad96ea2f76eb39dc8097fb26d032ed66ddf5a1b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; economic, time and local-service pressures on participation",
+      "denominator": {"value": 10001, "unit": "UK adults surveyed in the Belonging Barometer", "value_type": "survey_sample"},
+      "measures": {
+        "economic_pressure": {"value": "86% say at least one economic factor has made it harder to build connections, and 58% say the rising cost of living limits their ability to take part in community life", "unit": "reported survey shares", "value_type": "reported_share"},
+        "local_change": {"value": "74% say their local area has changed since the pandemic; 37% report changes to local businesses or high streets and 34% changes to local services such as GP surgeries, schools or public transport", "unit": "reported survey shares", "value_type": "reported_share"},
+        "life_stage_pressure": {"value": "adults aged 35-54 report weaker connection and life satisfaction alongside caring responsibilities, financial strain and time scarcity", "unit": "reported subgroup pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Survey questions on economic barriers, local change, participation, time pressure and life-stage differences, interpreted through the People, Place, Power and Purpose framework.",
+      "uncertainty": "The report identifies linked pressures rather than isolating their causal contribution; local changes and economic barriers may be experienced differently across regions and groups.",
+      "subgroup": "Midlife adults, renters, unemployed people, people with caring responsibilities, people facing high travel or housing costs and residents dependent on local services.",
+      "counterinterpretation": "Economic pressure may reduce some forms of participation while redirecting people toward lower-cost relationships, mutual aid, online spaces or informal community activity that the survey may not fully capture.",
+      "source_url": "https://belongingforum.org/wp-content/uploads/2026/06/2026-Belonging-Barometer.pdf",
+      "retrieval_hash": "sha256:1215e59a5c514c70abb0514a7ad96ea2f76eb39dc8097fb26d032ed66ddf5a1b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; unequal belonging across health, housing, age and identity",
+      "denominator": {"value": 10001, "unit": "UK adults surveyed, with subgroup comparisons", "value_type": "survey_sample"},
+      "measures": {
+        "health": {"value": "poor physical and especially mental health are consistently linked to weaker friendship satisfaction, life meaning and overall belonging", "unit": "reported association", "value_type": "reported_assessment"},
+        "security": {"value": "homeowners, married people and retirees report stronger neighbourhood connection and life satisfaction, while renters, unemployed people and separated or divorced people report weaker connection", "unit": "reported subgroup pattern", "value_type": "reported_assessment"},
+        "identity_and_representation": {"value": "young adults report social activity alongside anxiety, loneliness and weaker life satisfaction; LGBT+ respondents report weaker belonging, neighbourhood connection and political trust; people with disabilities report greater disconnection and weaker representation", "unit": "reported subgroup patterns", "value_type": "reported_assessment"}
+      },
+      "method": "Cross-sectional demographic and wellbeing comparisons across the Barometer's four belonging dimensions.",
+      "uncertainty": "Subgroup differences are descriptive associations and may reflect intersecting health, income, housing, discrimination, age, relationship and accessibility conditions that are not fully separated in the report.",
+      "subgroup": "Young adults, midlife adults, renters, unemployed people, LGBT+ people, people with disabilities, people in poor health and people with weaker housing or relationship security.",
+      "counterinterpretation": "Stronger belonging among more secure groups may reflect selection, life stage or existing resources rather than housing tenure or relationship status directly causing connection.",
+      "source_url": "https://belongingforum.org/wp-content/uploads/2026/06/2026-Belonging-Barometer.pdf",
+      "retrieval_hash": "sha256:1215e59a5c514c70abb0514a7ad96ea2f76eb39dc8097fb26d032ed66ddf5a1b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://belongingforum.org/research/belonging-barometer/barometer-2026/", "claim": "Belonging Forum publication page with headline findings, the People-Place-Power-Purpose framework and related constituency and disability reports."},
+    {"source_url": "https://belongingforum.org/research/belonging-barometer/barometer-2025/", "claim": "Prior Belonging Barometer wave for the publication's repeated-measurement context."}
+  ],
+  "boundary": "This record adds a UK belonging, place, participation and institutional-performance layer linking social connection to relationships, local spaces, housing, services, economic pressure, time, health and political representation. It is a nationally weighted cross-sectional survey and descriptive trend comparison, not a longitudinal panel, causal evaluation, behavioral observation or proof that any single factor produces belonging.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Belonging Forum publication page and 34-page 2026 PDF were reviewed for the 10,001-person methodology, People-Place-Power-Purpose framework, belonging levels, since-2020 connection change, economic and local-service pressures, and subgroup patterns.",
+    "source_url_sha256": "sha256:1215e59a5c514c70abb0514a7ad96ea2f76eb39dc8097fb26d032ed66ddf5a1b",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-edward-jones-financial-future-confidence-us-canada-2026",
+  "title": "Current financial confidence is age-stratified while future security remains broadly uncertain across generations",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Edward Jones-Gallup, Money and Meaning: Understanding Financial Fulfillment, September 15, 2026",
+  "geography": "United States and Canada; adults aged 21 and older, with generation and life-stage comparisons",
+  "observations": [
+    {
+      "period": "March-April 2026 survey; confidence managing current versus future finances",
+      "denominator": {"value": 5000, "unit": "more than 5,000 U.S. adults surveyed; study also interviewed more than 2,000 Canadian adults", "value_type": "reported_survey_sample_lower_bound"},
+      "measures": {
+        "us_current_gen_z": {"value": 25, "unit": "percent of U.S. Gen Z adults expressing a great deal of confidence managing current financial needs", "value_type": "published_subgroup_estimate"},
+        "us_current_millennials": {"value": 31, "unit": "percent of U.S. millennials", "value_type": "published_subgroup_estimate"},
+        "us_current_gen_x": {"value": 38, "unit": "percent of U.S. Gen X adults", "value_type": "published_subgroup_estimate"},
+        "us_current_boomers": {"value": 54, "unit": "percent of U.S. baby boomers", "value_type": "published_subgroup_estimate"},
+        "us_current_age_range": {"value": 29, "unit": "percentage-point range between U.S. baby boomers and Gen Z on current-finance confidence", "value_type": "derived_difference"}
+      },
+      "method": "Edward Jones-Gallup Money and Meaning study interviewing more than 5,000 U.S. adults and more than 2,000 Canadian adults aged 21 and older in March and April 2026; public summary reports generation comparisons.",
+      "uncertainty": "The public article provides lower-bound total sample descriptions rather than exact analytic denominators and does not establish whether age differences reflect wealth, income, life stage, cohort, health, housing or survey interpretation.",
+      "subgroup": "U.S. Gen Z adults aged 21-29, millennials aged 30-46, Gen X aged 47-61 and baby boomers aged 62-80.",
+      "counterinterpretation": "Older adults may report greater current confidence because they have more accumulated assets and fewer acquisition goals, not because they face fewer financial risks overall.",
+      "source_url": "https://news.gallup.com/poll/714008/confidence-managing-financial-future-lacking-ages.aspx",
+      "retrieval_hash": "source_page:sha256:3a6ed89527ee821cd6b0d52e78a264f224c77ed3aa83bcfb40e5d687202e5153",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026 survey; future-finance confidence converges across generations",
+      "denominator": {"value": 5000, "unit": "more than 5,000 U.S. adults surveyed; exact generation-specific denominators not disclosed in the public summary", "value_type": "reported_survey_sample_lower_bound"},
+      "measures": {
+        "us_future_gen_z": {"value": 26, "unit": "percent of U.S. Gen Z adults expressing a great deal of confidence managing future financial needs", "value_type": "published_subgroup_estimate"},
+        "us_future_millennials": {"value": 25, "unit": "percent of U.S. millennials", "value_type": "published_subgroup_estimate"},
+        "us_future_gen_x": {"value": 26, "unit": "percent of U.S. Gen X adults", "value_type": "published_subgroup_estimate"},
+        "us_future_boomers": {"value": 37, "unit": "percent of U.S. baby boomers", "value_type": "published_subgroup_estimate"},
+        "future_current_convergence": {"value": "Future-finance confidence differs less by generation than current-finance confidence, and even Gen X remains below one-third expressing a great deal of confidence.", "unit": "reported pattern", "value_type": "analytical_synthesis"}
+      },
+      "method": "Generation comparison of confidence in managing future financial needs in the Edward Jones-Gallup study.",
+      "uncertainty": "Confidence is a subjective expectation and not a projection of retirement adequacy, savings balances, debt, income replacement or future consumption; the study is not a longitudinal wealth panel.",
+      "subgroup": "U.S. generations, with parallel Canada comparisons in the source.",
+      "counterinterpretation": "Future uncertainty may reflect different financial goals and time horizons across life stages rather than a shared deterioration in expected security.",
+      "source_url": "https://news.gallup.com/poll/714008/confidence-managing-financial-future-lacking-ages.aspx",
+      "retrieval_hash": "source_page:sha256:3a6ed89527ee821cd6b0d52e78a264f224c77ed3aa83bcfb40e5d687202e5153",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026 survey; Gen X retirement planning and perceived control",
+      "denominator": {"value": 1, "unit": "U.S. Gen X subgroup; public article does not disclose subgroup count", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "gen_x_has_retirement_plan": {"value": 59, "unit": "percent of U.S. Gen X adults reporting a retirement financial plan", "value_type": "published_subgroup_estimate"},
+        "gen_x_savings_may_not_last": {"value": 39, "unit": "percent of U.S. Gen X adults worried current and future savings will not last", "value_type": "published_subgroup_estimate"},
+        "gen_x_control_with_plan": {"value": 31, "unit": "percent of U.S. Gen X adults with a retirement plan reporting a great deal of control over their financial future", "value_type": "published_subgroup_estimate"},
+        "gen_x_control_without_plan": {"value": "About one-fifth of Gen X adults overall report a great deal of control; worry about savings is 59% among those without a plan versus 25% among those with a plan.", "unit": "reported subgroup comparison", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Descriptive comparison of Gen X retirement planning, savings-duration worry and perceived control.",
+      "uncertainty": "Planning is associated with confidence and lower worry but the cross-sectional data do not show that planning causes control, adequacy or realized retirement security; financial capacity may enable both.",
+      "subgroup": "U.S. Gen X adults aged 47-61, by reported retirement-plan status.",
+      "counterinterpretation": "A plan may be a marker of higher income, financial literacy, employer access or accumulated assets rather than an independent protection.",
+      "source_url": "https://news.gallup.com/poll/714008/confidence-managing-financial-future-lacking-ages.aspx",
+      "retrieval_hash": "source_page:sha256:3a6ed89527ee821cd6b0d52e78a264f224c77ed3aa83bcfb40e5d687202e5153",
+      "status": "reported"
+    },
+    {
+      "period": "March-April 2026 survey; younger-adult financial stress, extra work and life tradeoffs",
+      "denominator": {"value": 1, "unit": "U.S. generation subgroups; public article does not disclose subgroup counts", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "gen_z_financial_stress": {"value": 53, "unit": "percent of U.S. Gen Z adults always or often experiencing financial stress", "value_type": "published_subgroup_estimate"},
+        "gen_x_financial_stress": {"value": 35, "unit": "percent of U.S. Gen X adults", "value_type": "published_subgroup_estimate"},
+        "gen_z_working_more_than_wanted": {"value": 33, "unit": "percent of employed U.S. Gen Z adults working more hours than desired to increase income", "value_type": "published_subgroup_estimate"},
+        "gen_x_working_more_than_wanted": {"value": 24, "unit": "percent of employed U.S. Gen X adults", "value_type": "published_subgroup_estimate"},
+        "gen_z_finances_control_life": {"value": 33, "unit": "percent of U.S. Gen Z adults saying finances always or often control their lives", "value_type": "published_subgroup_estimate"},
+        "life_stage_room_mechanism": {"value": "Younger adults are converting financial pressure into extra work, delayed asset-building and sacrificed priorities while trying to build income and wealth.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive generation comparisons of financial stress, work hours, sacrificed priorities and perceived financial control.",
+      "uncertainty": "The measures are self-reported and cross-sectional; they do not quantify hours, income, asset accumulation, causal tradeoffs or future financial outcomes.",
+      "subgroup": "U.S. Gen Z, millennials, Gen X and baby boomers, with Canada comparisons in the source.",
+      "counterinterpretation": "Generational differences may partly reflect age, employment stage, household composition and different definitions of financial goals rather than a single cohort condition.",
+      "source_url": "https://news.gallup.com/poll/714008/confidence-managing-financial-future-lacking-ages.aspx",
+      "retrieval_hash": "source_page:sha256:3a6ed89527ee821cd6b0d52e78a264f224c77ed3aa83bcfb40e5d687202e5153",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a life-course household-security mechanism: current financial confidence is strongly age-stratified, while confidence in the future remains comparatively low across generations; younger adults absorb pressure through stress, extra work and delayed wealth-building, and Gen X faces a retirement-control gap. The study does not establish causal cohort effects, financial adequacy, realized retirement outcomes, asset distributions or policy impact."
+}

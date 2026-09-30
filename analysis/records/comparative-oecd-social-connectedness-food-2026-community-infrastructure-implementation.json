@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-social-connectedness-food-2026-community-infrastructure-implementation",
+  "title": "Food-centred activity is becoming a social-infrastructure route for connection, belonging, and community participation",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "time_hidden_price",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD, Promoting Social Connectedness Through Food",
+  "geography": "OECD-country and cross-country community food initiatives, including activities to grow, access, prepare, consume, and redistribute food",
+  "observations": [
+    {
+      "period": "2026; food and social connectedness as an emerging policy route",
+      "denominator": {"value": 1, "unit": "OECD policy and community-initiative evidence frame", "value_type": "social_infrastructure_frame"},
+      "measures": {
+        "policy_priority": {"value": "social connectedness and loneliness have moved steadily up the OECD policy agenda", "unit": "reported policy trend", "value_type": "reported_trend"},
+        "structural_changes": {"value": "declining in-person socialising, rising solo living, and erosion or transformation of local social infrastructure are identified as concurrent changes", "unit": "reported social pattern", "value_type": "reported_mechanism_set"},
+        "food_route": {"value": "growing, preparing, and eating food with others can provide accessible and adaptable opportunities for connection", "unit": "reported policy route", "value_type": "reported_mechanism"},
+        "priority_groups": {"value": "older people, people living alone, socio-economically disadvantaged people, men, and young people are identified among groups facing elevated or changing disconnection risks", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "OECD synthesis of social-connection evidence, policy strategies, food-centred activities, and community-level implementation experience.",
+      "uncertainty": "The report identifies an emerging policy field and practical pathways; social connectedness outcomes vary by context, program design, participation, and evaluation quality.",
+      "subgroup": "People experiencing loneliness or isolation, older people, people living alone, socio-economically disadvantaged communities, men, young people, and local food and community organizations.",
+      "counterinterpretation": "Food is not inherently socially inclusive; cost, culture, disability, safety, stigma, time, transport, and participation rules can exclude people from food-centred activities.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:6c3e296bbe3d4d6f95c31495400261b893b29bec7284cd5a2a8591db0f78f537",
+      "status": "reported"
+    },
+    {
+      "period": "2026; eight food-based community and government case studies",
+      "denominator": {"value": 8, "unit": "in-depth food initiative case studies reviewed by the OECD", "value_type": "case_study_frame"},
+      "measures": {
+        "activity_stages": {"value": "grow, access, prepare, consume, and redistribute food", "unit": "food-system activity stages represented in case studies", "value_type": "reported_activity_set"},
+        "accessibility": {"value": "food-based activities can be adapted for participation across age, income, culture, and ability", "unit": "cross-case finding", "value_type": "reported_implementation_finding"},
+        "stigma_route": {"value": "purposeful activities such as meals, gardening, and cooking can offer a socially acceptable reason to engage without explicitly framing participation around loneliness", "unit": "cross-case mechanism", "value_type": "reported_mechanism"},
+        "cultural_meaning": {"value": "food can create opportunities for intercultural exchange and connection", "unit": "cross-case cultural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD comparative case-study review of community-led and government-supported food initiatives across multiple countries and food-system stages.",
+      "uncertainty": "Case studies demonstrate implementation possibilities rather than population-representative effects or universal program success; selection criteria may favor visible or innovative initiatives.",
+      "subgroup": "Community participants, volunteers, local food organizations, culturally diverse groups, older people, disadvantaged populations, and public agencies supporting food initiatives.",
+      "counterinterpretation": "Case-study transfer can fail when local food meanings, land access, staffing, food safety, funding, or social norms differ; accessible design requires more than offering food.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:6c3e296bbe3d4d6f95c31495400261b893b29bec7284cd5a2a8591db0f78f537",
+      "status": "reported"
+    },
+    {
+      "period": "2026; food activity and local social-infrastructure renewal",
+      "denominator": {"value": 1, "unit": "OECD cross-case social-infrastructure and community-space frame", "value_type": "place_connection_frame"},
+      "measures": {
+        "space_repurposing": {"value": "vacant urban lots, idle farmland, and underused community venues are repurposed into gardens, cafes, dining spaces, and cooking venues", "unit": "cross-case implementation pattern", "value_type": "reported_place_pattern"},
+        "social_infrastructure": {"value": "food initiatives can renew local spaces that facilitate recurring interaction and social capital", "unit": "reported place mechanism", "value_type": "reported_mechanism"},
+        "co_benefits": {"value": "case studies identify possible co-benefits for nutrition, food security, physical activity, urban greening, biodiversity, soil restoration, and climate resilience", "unit": "reported cross-domain benefit set", "value_type": "reported_mechanism_set"},
+        "service_bridge": {"value": "community food settings can create routes to other group activities, social services, and support resources", "unit": "reported institutional pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD case-study synthesis linking food activities to the physical and organizational spaces that support community interaction and broader well-being.",
+      "uncertainty": "Co-benefits are potential or observed within selected cases, not estimates of average effects; place renewal can also trigger contestation, displacement, or unequal control.",
+      "subgroup": "Residents, local organizations, land stewards, urban planners, public libraries and community venues, social-service providers, and neighborhoods with underused or neglected spaces.",
+      "counterinterpretation": "Repurposing space may improve connection only when access is affordable, safe, durable, and governed with local participation; a physical venue alone does not create belonging.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:6c3e296bbe3d4d6f95c31495400261b893b29bec7284cd5a2a8591db0f78f537",
+      "status": "reported"
+    },
+    {
+      "period": "2026; implementation capacity, volunteering, and evaluation",
+      "denominator": {"value": 1, "unit": "OECD cross-case implementation and evidence-quality frame", "value_type": "program_implementation_frame"},
+      "measures": {
+        "volunteer_dependence": {"value": "many initiatives rely on volunteer resources because of financial constraints", "unit": "cross-case implementation finding", "value_type": "reported_mechanism"},
+        "volunteer_risk": {"value": "volunteer dependence can create turnover and burnout risks while also supporting confidence, purpose, and skill development", "unit": "reported implementation tradeoff", "value_type": "reported_tradeoff"},
+        "government_enablers": {"value": "funding, space or land, policy alignment, referral pathways, standards, and monitoring can support development, scaling, and sustainability", "unit": "reported enabling set", "value_type": "reported_policy_route"},
+        "evidence_gap": {"value": "existing evidence often relies on qualitative feedback or participant surveys, creating a need for stronger mixed-method evaluation", "unit": "reported evidence limitation", "value_type": "reported_evidence_gap"}
+      },
+      "method": "OECD implementation synthesis across community-led and government-supported food initiatives, with explicit attention to organizational resources and evaluation design.",
+      "uncertainty": "The report does not establish causal effect sizes, cost-effectiveness, or long-term sustainability for the case-study initiatives; implementation conditions differ across places.",
+      "subgroup": "Volunteers, program staff, community organizations, public agencies, funders, researchers, participants, and social-service partners.",
+      "counterinterpretation": "Formal evaluation can miss cultural meaning and relational value; qualitative evidence remains useful even though it cannot alone establish scale, durability, or causality.",
+      "source_url": "https://www.oecd.org/en/publications/promoting-social-connectedness-through-food_1fdd5254-en.html",
+      "retrieval_hash": "sha256:6c3e296bbe3d4d6f95c31495400261b893b29bec7284cd5a2a8591db0f78f537",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/social-connections-and-loneliness-in-oecd-countries_6df2d6a0-en.html", "claim": "OECD's preceding social-connections report provides the comparative loneliness and connection context."},
+    {"source_url": "https://www.who.int/groups/commission-on-social-connection", "claim": "WHO's Commission on Social Connection provides complementary public-health context."}
+  ],
+  "boundary": "This record adds a food-culture and social-infrastructure route across connection, belonging, community space, food access, volunteering, public support, and evaluation. It uses aggregate OECD synthesis and selected public case studies, not respondent-level loneliness histories, individual dietary records, household consumption diaries, causal program evaluations, or proof that food initiatives produce the same outcomes in every community.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD report page and full-report executive summary reviewed for policy priority, structural disconnection, eight case studies, food activity stages, accessibility, cultural meaning, space renewal, co-benefits, volunteering, government support, and evidence gaps.",
+    "source_url_sha256": "sha256:6c3e296bbe3d4d6f95c31495400261b893b29bec7284cd5a2a8591db0f78f537",
+    "checked": "2026-09-26"
+  }
+}

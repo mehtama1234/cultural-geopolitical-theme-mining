@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-idmc-grid-2026-internal-displacement-conflict-disaster-data-systems",
+  "title": "Internal displacement is becoming a structural crisis as conflict, disasters, repeated movements, and weak data systems compound",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Internal Displacement Monitoring Centre, 2026 Global Report on Internal Displacement",
+  "geography": "Global, with regional overviews covering 104 countries and territories",
+  "observations": [
+    {
+      "period": "2025; people living in internal displacement at year end",
+      "denominator": {"value": 104, "unit": "countries and territories covered by the global estimate", "value_type": "country_territory_frame"},
+      "measures": {
+        "idp_stock": {"value": 82.2, "unit": "million internally displaced people at end-2025", "value_type": "reported_global_stock"},
+        "long_run_change": {"value": "more than doubled over the decade, from 38.9 million in 2016 to 82.2 million in 2025", "unit": "reported decade comparison", "value_type": "reported_trend"},
+        "drivers": {"value": "conflict, violence, and disasters, many intensified by climate change, drove internal displacement", "unit": "reported driver set", "value_type": "reported_driver_set"},
+        "structural_frame": {"value": "internal displacement is described as a global structural crisis rather than a short-lived emergency alone", "unit": "reported analytical framing", "value_type": "reported_synthesis"}
+      },
+      "method": "IDMC global aggregation of country-level estimates and internal-displacement event data, supported by regional overviews, maps, charts, and publication synthesis.",
+      "uncertainty": "Coverage, definitions, reporting quality, and estimation methods vary across countries; the global stock is a year-end estimate and does not identify every person who moved or returned during the year.",
+      "subgroup": "Internally displaced people, people exposed to conflict or disasters, host communities, national and local authorities, humanitarian organizations, and service providers.",
+      "counterinterpretation": "A large stock can reflect improved detection and reporting as well as worsening displacement; people counted in the stock may have very different durations, needs, coping resources, and prospects for return or integration.",
+      "source_url": "https://www.internal-displacement.org/publications/2026-global-report-on-internal-displacement-grid/",
+      "retrieval_hash": "sha256:b11352fdc9142cf12b867dd0975a79a3398d1bc32c75de022e6d276309bbb0dd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; conflict and violence displacement",
+      "denominator": {"value": 1, "unit": "global conflict-displacement reporting frame", "value_type": "global_event_frame"},
+      "measures": {
+        "conflict_change": {"value": "conflict-related internal displacements increased 60 percent compared with 2024", "unit": "reported year-over-year change", "value_type": "reported_change"},
+        "repeat_movement": {"value": "protracted and intensifying conflicts can force people to move repeatedly, adding to annual displacement while enlarging the year-end stock", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "political_consequence": {"value": "internal displacement links security shocks to housing, services, livelihoods, local authority capacity, and durable-solution politics within countries", "unit": "bounded synthesis", "value_type": "bounded_mechanism"},
+        "response_route": {"value": "durable solutions require more than physical movement away from immediate danger, including recovery, safety, services, livelihoods, and rights", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "IDMC comparison of annual conflict-related internal displacements and year-end displacement stocks across its global monitoring coverage.",
+      "uncertainty": "Annual displacement events are movements rather than unique people; the same person can be displaced multiple times, and the report does not establish a causal forecast for future conflicts.",
+      "subgroup": "People displaced by conflict or violence, people repeatedly displaced, host communities, local authorities, peace and humanitarian actors, and livelihood providers.",
+      "counterinterpretation": "Higher event counts may partly reflect better event detection or reporting; a fall in annual movements would not necessarily mean that the accumulated displaced population has recovered or found a durable solution.",
+      "source_url": "https://www.internal-displacement.org/global-report/grid2026/",
+      "retrieval_hash": "sha256:b11352fdc9142cf12b867dd0975a79a3398d1bc32c75de022e6d276309bbb0dd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional concentration of internal displacement",
+      "denominator": {"value": 1, "unit": "global regional comparison frame", "value_type": "regional_comparison_frame"},
+      "measures": {
+        "east_asia_pacific": {"value": 19.6, "unit": "million conflict- and disaster-related internal displacements in East Asia and the Pacific in 2025", "value_type": "reported_regional_events"},
+        "sub_saharan_africa": {"value": 17.3, "unit": "million internal displacements in Sub-Saharan Africa in 2025", "value_type": "reported_regional_events"},
+        "sub_saharan_stock": {"value": 31.7, "unit": "million internally displaced people in Sub-Saharan Africa at end-2025", "value_type": "reported_regional_stock"},
+        "regional_asymmetry": {"value": "regional exposure differs in both event flows and accumulated stocks, with conflict the primary driver in Sub-Saharan Africa and disaster and conflict both prominent in East Asia and the Pacific", "unit": "reported regional pattern", "value_type": "reported_pattern"}
+      },
+      "method": "IDMC regional aggregation of internal-displacement events and year-end stocks, with regional narrative interpretation.",
+      "uncertainty": "Regional aggregates combine countries with different data systems and event profiles; event totals and stocks are not interchangeable and should not be read as a single affected-person count.",
+      "subgroup": "Displaced people and host communities across East Asia and the Pacific and Sub-Saharan Africa, including populations exposed to conflict, disasters, and climate-related hazards.",
+      "counterinterpretation": "High event totals can coexist with rapid returns or short-duration movements, while a lower event total can coexist with a large unresolved stock; regional averages conceal substantial country and subnational variation.",
+      "source_url": "https://www.internal-displacement.org/global-report/grid2026/",
+      "retrieval_hash": "sha256:b11352fdc9142cf12b867dd0975a79a3398d1bc32c75de022e6d276309bbb0dd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; displacement information and durable solutions",
+      "denominator": {"value": 1, "unit": "global displacement-data and response framework", "value_type": "global_system_frame"},
+      "measures": {
+        "data_system_route": {"value": "the report includes a chapter on resilient and sustainable displacement data systems", "unit": "reported publication component", "value_type": "reported_system_component"},
+        "measurement_function": {"value": "reliable, comparable, and sustained data are treated as infrastructure for targeting assistance, coordinating actors, and tracking progress toward solutions", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "local_state_capacity": {"value": "local and national governments and partners are central to turning displacement evidence into protection, recovery, services, and durable solutions", "unit": "reported governance route", "value_type": "reported_governance_mechanism"},
+        "feedback_loop": {"value": "displacement data can shape resource allocation and public accountability, while weak data systems can make needs and recovery gaps less visible", "unit": "bounded synthesis", "value_type": "bounded_feedback_mechanism"}
+      },
+      "method": "IDMC review of displacement measurement practice, country and regional evidence, and solution-oriented response requirements.",
+      "uncertainty": "Data-system recommendations do not by themselves demonstrate that measurement produces better outcomes; institutional incentives, privacy, access, interoperability, funding, and local trust affect implementation.",
+      "subgroup": "Displaced people, host communities, local and national governments, statistical and humanitarian data producers, funders, and organizations responsible for recovery and durable solutions.",
+      "counterinterpretation": "More data can impose reporting burdens or create privacy and protection risks if governance is weak; some forms of displacement and unmet need remain difficult to measure even in well-funded systems.",
+      "source_url": "https://www.internal-displacement.org/publications/2026-global-report-on-internal-displacement-grid/",
+      "retrieval_hash": "sha256:b11352fdc9142cf12b867dd0975a79a3398d1bc32c75de022e6d276309bbb0dd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.doi.org/10.55363/IDMC.ETWG8973", "claim": "Official DOI for the 2026 Global Report on Internal Displacement."},
+    {"source_url": "https://www.internal-displacement.org/publications/summary-global-report-on-internal-displacement-2026/", "claim": "Official summary page for the report's global findings and response framing."}
+  ],
+  "boundary": "This record adds a global conflict, disaster, mobility, durable-solutions, and displacement-data route using IDMC aggregate estimates and publication analysis. It does not contain respondent-level displacement histories, individual location trajectories, household files, causal conflict forecasts, person-level service needs, or proof that every displaced population follows the same path.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IDMC 2026 report page and global report page reviewed for the 82.2 million year-end stock, 104-country coverage, decade increase, conflict and disaster drivers, regional totals, repeated displacement framing, and displacement-data-system chapter.",
+    "source_url_sha256": "sha256:b11352fdc9142cf12b867dd0975a79a3398d1bc32c75de022e6d276309bbb0dd",
+    "checked": "2026-09-26"
+  }
+}

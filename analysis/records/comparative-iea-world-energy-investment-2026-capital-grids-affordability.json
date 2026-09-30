@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iea-world-energy-investment-2026-capital-grids-affordability",
+  "title": "Energy investment is shifting toward electricity and AI, but grids, finance, and geography determine who can absorb the transition",
+  "theme_ids": ["cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "housing_place_mobility"
+  ],
+  "source_unit": "International Energy Agency, World Energy Investment 2026",
+  "geography": "Global energy investment, electricity systems, clean-energy supply chains, emerging and developing economies, and regional investment patterns",
+  "observations": [
+    {
+      "period": "2015-2025 estimated; global energy investment and electricity-system transition",
+      "denominator": {"value": 1, "unit": "global energy investment frame", "value_type": "global_investment_frame"},
+      "measures": {
+        "electricity_sector_investment_2025": {"value": 1500000000000, "unit": "US dollars of expected 2025 investment in electricity generation, grids, and storage, approximately", "value_type": "reported_investment_total"},
+        "electricity_vs_fossil_supply_premium": {"value": 50, "unit": "percent by which 2025 electricity-sector investment is expected to exceed total investment in bringing oil, natural gas, and coal to market, approximately", "value_type": "reported_comparison"},
+        "clean_energy_investment_share_increase": {"value": "clean-energy investment has expanded alongside demand for industry, cooling, electric mobility, data centres, and artificial intelligence", "unit": "reported investment driver shift", "value_type": "reported_mechanism"}
+      },
+      "method": "IEA synthesis of capital-flow data, project and company information, regional dashboards, and full-year estimates for 2025 and 2026 investment patterns.",
+      "uncertainty": "Investment commitments and estimates do not establish completed capacity, lower consumer bills, reliable access, emissions outcomes, or equitable local benefits.",
+      "subgroup": "Utilities, energy firms, technology companies, households, workers, governments, investors, and regions competing for electricity and infrastructure capital.",
+      "counterinterpretation": "More electricity investment can improve reliability, affordability, and industrial capability, but benefits depend on connection, regulation, costs, and distribution rather than capital totals alone.",
+      "source_url": "https://www.iea.org/reports/world-energy-investment-2026",
+      "retrieval_hash": "sha256:8ac40d9985d31b875fdc8956deb9e16a240a937862bd9b853fba7c8335d9f2db",
+      "status": "reported"
+    },
+    {
+      "period": "2025 estimated; grids, generation, and infrastructure bottlenecks",
+      "denominator": {"value": 1, "unit": "global electricity infrastructure investment frame", "value_type": "global_grid_investment_frame"},
+      "measures": {
+        "annual_grid_investment": {"value": 400000000000, "unit": "US dollars spent on grids worldwide each year, approximately", "value_type": "reported_investment_total"},
+        "annual_generation_investment": {"value": 1000000000000, "unit": "US dollars spent on generation assets worldwide each year, approximately", "value_type": "reported_investment_total"},
+        "grid_constraint_set": {"value": "permitting delays, tight transformer and cable supply chains, and weak utility finances in many developing economies", "unit": "reported infrastructure constraints", "value_type": "reported_constraint_set"},
+        "electricity_demand_drivers": {"value": "industry, cooling, electric mobility, data centres, and artificial intelligence", "unit": "reported demand drivers", "value_type": "reported_driver_set"}
+      },
+      "method": "IEA comparison of global spending on generation and grids with sector, supply-chain, permitting, and utility-finance analysis.",
+      "uncertainty": "Global totals conceal connection queues, regional reliability, outage exposure, local permitting conflict, and differences between announced and delivered infrastructure.",
+      "subgroup": "Electricity users, utilities, grid-equipment manufacturers, data-centre developers, households, local governments, and communities near new infrastructure.",
+      "counterinterpretation": "Generation-heavy investment can still be rational during early deployment, and digital demand may accelerate grid modernization; bottlenecks can ease through planning, manufacturing expansion, and demand flexibility.",
+      "source_url": "https://www.iea.org/reports/world-energy-investment-2026",
+      "retrieval_hash": "sha256:8ac40d9985d31b875fdc8956deb9e16a240a937862bd9b853fba7c8335d9f2db",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; regional concentration and industrial-geopolitical realignment",
+      "denominator": {"value": 1, "unit": "global clean-energy and fossil-energy investment geography", "value_type": "regional_investment_frame"},
+      "measures": {
+        "china_clean_energy_share": {"value": 33, "unit": "approximate share of global clean-energy investment accounted for by China in 2025, up from about one-quarter ten years earlier", "value_type": "reported_regional_share"},
+        "middle_east_upstream_share": {"value": 20, "unit": "approximate share of global upstream oil and gas investment expected in the Middle East in 2025", "value_type": "reported_regional_share"},
+        "chinese_overseas_ev_battery_announcements": {"value": 80000000000, "unit": "US dollars of announced overseas investment by Chinese EV and battery manufacturers over the last five years, approximately", "value_type": "reported_announced_investment"},
+        "investment_realignment": {"value": "clean-energy manufacturing and investment are spreading into major markets while upstream oil and gas investment remains concentrated in resource-holding regions", "unit": "reported geopolitical-economic pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "IEA regional and sectoral comparison of investment flows, company announcements, and energy-firm/project finance patterns.",
+      "uncertainty": "Announced investment is not completed capacity or realized employment; regional shares do not by themselves establish ownership, technology transfer, local value capture, or geopolitical control.",
+      "subgroup": "China, resource-holding states, importing economies, energy and technology firms, workers, host communities, and governments negotiating industrial policy.",
+      "counterinterpretation": "Cross-border investment can diversify production, lower technology costs, and create industrial capability even when strategic competition is intense.",
+      "source_url": "https://www.iea.org/reports/world-energy-investment-2026",
+      "retrieval_hash": "sha256:8ac40d9985d31b875fdc8956deb9e16a240a937862bd9b853fba7c8335d9f2db",
+      "status": "reported"
+    },
+    {
+      "period": "2025 estimated; emerging and developing economies and energy-finance access",
+      "denominator": {"value": 1, "unit": "emerging and developing economy clean-energy investment frame excluding China", "value_type": "development_finance_frame"},
+      "measures": {
+        "africa_clean_energy_share": {"value": 2, "unit": "percent of global clean-energy investment accounted for by Africa despite about 20% of world population", "value_type": "reported_regional_share"},
+        "africa_energy_investment_change": {"value": -33.3333333333, "unit": "percent lower African energy investment in 2025 than in 2015, approximately", "value_type": "reported_change"},
+        "africa_debt_service_to_energy_investment": {"value": 85, "unit": "percent-equivalent ratio of debt-servicing costs to total energy investment in Africa in 2025, more than", "value_type": "reported_finance_ratio"},
+        "international_public_finance_share": {"value": 7, "unit": "percent of clean-energy investment in emerging and developing economies excluding China supplied by international public finance, approximately", "value_type": "reported_finance_share"}
+      },
+      "method": "IEA comparison of regional energy-investment levels, debt-service burdens, capital sources, and public-finance mobilisation.",
+      "uncertainty": "Regional aggregates do not measure household access, project quality, distributional incidence, debt sustainability for every country, or whether public finance is additional and effective.",
+      "subgroup": "African and other emerging-market governments, utilities, households, workers, international financiers, local communities, and energy-project developers.",
+      "counterinterpretation": "Targeted guarantees, domestic capital-market development, and better project preparation could mobilize private finance and improve energy access without requiring public finance to fund all investment directly.",
+      "source_url": "https://www.iea.org/reports/world-energy-investment-2026",
+      "retrieval_hash": "sha256:8ac40d9985d31b875fdc8956deb9e16a240a937862bd9b853fba7c8335d9f2db",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.iea.org/reports/world-energy-investment-2026/executive-summary", "claim": "Official IEA executive summary with investment, grid, regional, finance, and industrial-geography findings."},
+    {"source_url": "https://www.iea.org/reports/world-energy-investment-2026", "claim": "Official IEA report landing page, publication date, scope, data explorer, and regional dashboard coverage."}
+  ],
+  "boundary": "This record adds an investment-to-grid-bottleneck-to-industrial-geography-to-development-finance route. It is publication-level aggregate evidence, not respondent-level data, household incidence, completed-project evidence, causal welfare effects, or proof that investment concentration automatically produces geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IEA World Energy Investment 2026 landing page and executive summary were reviewed; global electricity investment, grid and generation spending, demand drivers, regional concentration, cross-border industrial investment, Africa, debt-service, and international-public-finance claims were cross-checked.",
+    "source_url_sha256": "sha256:8ac40d9985d31b875fdc8956deb9e16a240a937862bd9b853fba7c8335d9f2db",
+    "checked": "2026-09-26"
+  }
+}

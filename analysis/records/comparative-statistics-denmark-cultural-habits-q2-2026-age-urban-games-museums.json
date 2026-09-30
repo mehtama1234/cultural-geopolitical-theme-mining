@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statistics-denmark-cultural-habits-q2-2026-age-urban-games-museums",
+  "title": "Danish cultural participation is age- and place-shaped differently across digital games, cinema, museums, and heritage",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Statistics Denmark Cultural Habits Survey, Q2 2026, StatBank tables KV2HOVED and KV2URB",
+  "geography": "Denmark; population cultural and recreational activity participation by age and degree of urbanisation",
+  "observations": [
+    {
+      "period": "Q2 2026; cultural and recreational participation within the previous 12 months by age",
+      "denominator": {"value": 15100, "unit": "persons drawn in each quarterly Statistics Denmark Cultural Habits Survey sample; published percentages are population estimates", "value_type": "published_sample_design"},
+      "measures": {
+        "digital_games_total": {"value": 66, "unit": "percent participating in digital games within the previous 12 months", "value_type": "reported_survey_share"},
+        "digital_games_age_16_24": {"value": 93, "unit": "percent among ages 16-24", "value_type": "reported_subgroup_share"},
+        "digital_games_age_75_plus": {"value": 38, "unit": "percent among ages 75 and over", "value_type": "reported_subgroup_share"},
+        "digital_games_age_gap": {"value": 55, "unit": "percentage-point difference between ages 16-24 and 75+", "value_type": "calculated_difference_from_published_table"},
+        "museum_total": {"value": 64, "unit": "percent visiting a museum within the previous 12 months", "value_type": "reported_survey_share"},
+        "museum_age_16_24": {"value": 68, "unit": "percent among ages 16-24", "value_type": "reported_subgroup_share"},
+        "museum_age_75_plus": {"value": 56, "unit": "percent among ages 75 and over", "value_type": "reported_subgroup_share"},
+        "cinema_age_gap": {"value": 40, "unit": "percentage-point difference: cinema participation was 88% at ages 16-24 versus 48% at ages 75+", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Age is not a single cultural-participation gradient: digital games and cinema are sharply youth-skewed, while museum participation is comparatively age-flat, implying different access, routine, technology, and meaning pathways", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Denmark StatBank table KV2HOVED for Q2 2026; percentages indicate people participating at least once in the previous 12 months, by activity and age.",
+      "uncertainty": "The survey uses four questionnaire versions and the questionnaire was changed from 2024, so results are not directly comparable with earlier versions. These are annual-recall, cross-sectional percentages, not frequency, intensity, spending, quality, or causal age effects.",
+      "subgroup": "Danish residents represented by the Cultural Habits Survey, by age group.",
+      "counterinterpretation": "Age differences may combine life stage, household composition, technology access, health, transport, education, social norms, and recall; museum parity does not establish equal affordability or welcome.",
+      "source_url": "https://www.dst.dk/en/Statistik/emner/kultur-og-fritid/digital-adfaerd-og-kulturvaner/kultur-og-fritidsvaner",
+      "retrieval_hash": "sha256:13533ce4f15cc836fe13d41f3a489f83024ca69dc6017767e3f901e9f50f6296",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; selected cultural participation by degree of urbanisation",
+      "denominator": {"value": 15100, "unit": "persons drawn in each quarterly Statistics Denmark Cultural Habits Survey sample; urbanisation percentages are population estimates", "value_type": "published_sample_design"},
+      "measures": {
+        "museum_dense_vs_thin": {"value": "71% densely populated areas versus 58% thinly populated areas", "unit": "percent visiting a museum within the previous 12 months", "value_type": "reported_urban_distribution"},
+        "cinema_dense_vs_thin": {"value": "76% densely populated areas versus 64% thinly populated areas", "unit": "percent visiting a cinema within the previous 12 months", "value_type": "reported_urban_distribution"},
+        "concert_dense_vs_thin": {"value": "69% densely populated areas versus 61% thinly populated areas", "unit": "percent attending a concert or music festival within the previous 12 months", "value_type": "reported_urban_distribution"},
+        "heritage_dense_vs_thin": {"value": "70% densely populated areas versus 67% thinly populated areas", "unit": "percent visiting Danish cultural heritage sites or objects within the previous 12 months", "value_type": "reported_urban_distribution"},
+        "urban_selectivity": {"value": "Contemporary venue participation shows larger dense-to-thin gaps than Danish heritage-site participation", "unit": "bounded comparative pattern", "value_type": "bounded_mechanism"},
+        "mechanism": {"value": "Place selectively shapes cultural access: venue-based cinema, museum, and concert participation likely depend more on proximity and transport than heritage participation, which may be distributed through local or dispersed sites", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Denmark StatBank table KV2URB for Q2 2026; urbanisation categories are densely populated, intermediate, and thinly populated areas.",
+      "uncertainty": "Urbanisation is an aggregate place classification, not a measure of venue supply, travel time, price, transport, household income, or individual mobility. The differences are descriptive and do not establish that urbanisation causes participation gaps.",
+      "subgroup": "Danish residents by degree of urbanisation.",
+      "counterinterpretation": "Dense-area differences may reflect age, education, income, tourism, population composition, cultural supply, or self-selection rather than a pure access effect; heritage-site parity does not mean equal experience or cultural belonging.",
+      "source_url": "https://www.statbank.dk/KV2URB",
+      "retrieval_hash": "sha256:3d49e95c99608bb21e899e57c5cf8d4019e409dfda9bb0d00b7c17f8d20c2f61",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://api.statbank.dk/v1/tableinfo/KV2HOVED?lang=en", "claim": "Statistics Denmark KV2HOVED metadata, activity definitions, Q2 2026 time code, survey footnotes, and questionnaire-break notice."},
+    {"source_url": "https://api.statbank.dk/v1/tableinfo/KV2URB?lang=en", "claim": "Statistics Denmark KV2URB metadata, urbanisation categories, activity definitions, and Q2 2026 time code."},
+    {"source_url": "https://www.statbank.dk/KV2HOVED", "claim": "StatBank table route for cultural activity by age and sex."},
+    {"source_url": "https://www.statbank.dk/KV2URB", "claim": "StatBank table route for cultural activity by urbanisation."}
+  ],
+  "boundary": "This record adds a current Danish cultural-behavior, age, and place layer. It does not establish frequency, spending, venue supply, affordability, travel time, cultural quality, or causal age/urbanisation effects; the 2024 questionnaire redesign limits direct historical comparison.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Denmark cultural-habits page and StatBank KV2HOVED/KV2URB metadata and Q2 2026 CSV extracts reviewed; activity, age, urbanisation, sample-design, questionnaire-break, and annual-recall definitions checked.",
+    "html_sha256": "sha256:a45d30ccc629cbf2a218e6b01c90dd64d75b4f0762d708fb0a40dad18fc79eb6",
+    "metadata_hashes": {
+      "KV2HOVED": "sha256:406e23dcd26d82b3ab24d733a195c8bd0e20ffefa3c415188322943e0d82452d",
+      "KV2URB": "sha256:c927818ed1530d635ef32c460912a02a43908da682f62ad66b9e39ffedc3a76c"
+    },
+    "csv_hashes": {
+      "age": "sha256:13533ce4f15cc836fe13d41f3a489f83024ca69dc6017767e3f901e9f50f6296",
+      "urban": "sha256:3d49e95c99608bb21e899e57c5cf8d4019e409dfda9bb0d00b7c17f8d20c2f61"
+    },
+    "checked": "2026-09-30"
+  }
+}

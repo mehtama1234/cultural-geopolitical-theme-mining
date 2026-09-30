@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-us-census-aging-world-2025-fertility-trap-age-friendly-capacity",
+  "title": "Rapid fertility decline and longer lives are creating older, sometimes shrinking populations that require new arrangements for care, work, technology, and disaster resilience",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Census Bureau, An Aging World: 2025, Report P95-26-1",
+  "geography": "Global population aging across countries and regions, with socioeconomic and demographic coverage where data are available and projections through 2060",
+  "observations": [
+    {
+      "period": "2026 publication; global population aging and fertility transition",
+      "denominator": {"value": 1, "unit": "global population aging and demographic-transition framework", "value_type": "global_demographic_frame"},
+      "measures": {
+        "aging_direction": {"value": "the global population is getting older faster than envisioned a decade earlier, producing increasingly top-heavy age distributions", "unit": "reported demographic pattern", "value_type": "reported_pattern"},
+        "demographic_causes": {"value": "falling death rates increase survival to older ages while falling fertility reduces the population at younger ages", "unit": "reported demographic mechanism", "value_type": "reported_mechanism"},
+        "fertility_trap": {"value": "sustained below-replacement fertility can cause the number of potential parents to decline each year, accelerating population aging and eventual shrinkage", "unit": "reported demographic mechanism", "value_type": "reported_mechanism"},
+        "projection_horizon": {"value": 2060, "unit": "year through which the report presents older-population projections", "value_type": "reported_projection_horizon"}
+      },
+      "method": "U.S. Census Bureau compilation of historical, current, and projected older-population counts, shares, growth rates, socioeconomic statistics, and demographic literature.",
+      "uncertainty": "Population projections depend on future fertility, mortality, migration, health, conflict, and policy conditions; a demographic mechanism does not determine a single economic or cultural response.",
+      "subgroup": "Older adults, children and younger cohorts, working-age populations, families, caregivers, health systems, pension systems, employers, and governments in aging or shrinking societies.",
+      "counterinterpretation": "Aging can reflect longer lives and improved health rather than only crisis; productivity, migration, later work, technology, and institutional redesign can change how societies absorb age-structure shifts.",
+      "source_url": "https://cdn.www.census.gov/library/publications/2026/demo/P95-26-1.html",
+      "retrieval_hash": "sha256:82a993aaac803d450ab6a622d9d8d4ccfed4a11de49bd941251612b854a6e14d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-country prevalence of older populations",
+      "denominator": {"value": 1, "unit": "countries and regions covered by the global aging comparison", "value_type": "country_age_structure_frame"},
+      "measures": {
+        "older_population_threshold_countries": {"value": 77, "unit": "countries with at least 14 percent of the population at older ages, a threshold typical of higher-income countries", "value_type": "reported_country_count"},
+        "world_population_milestone": {"value": 8000000000, "unit": "global population surpassed 8 billion in 2023", "value_type": "reported_global_population"},
+        "early_shrinkage_examples": {"value": "Russia and Japan were among the first populous countries to experience both population shrinkage and a rising older share", "unit": "reported country pattern", "value_type": "reported_pattern"},
+        "uneven_transition": {"value": "aging and shrinkage are spreading unevenly across countries, with some populations still growing for decades while their age structures change", "unit": "reported demographic pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Census Bureau comparative country and regional demographic estimates and projections, supplemented by socioeconomic statistics where available.",
+      "uncertainty": "The 14-percent threshold is a descriptive benchmark rather than a universal boundary for social or policy capacity; country comparisons vary with data availability and age definitions.",
+      "subgroup": "Countries with older or shrinking populations, countries with younger and growing populations, migrants, families, workers, retirees, and public systems planning across age structures.",
+      "counterinterpretation": "A younger population can also face care, employment, housing, and education pressures; older population share alone does not indicate welfare, fiscal stress, or social cohesion.",
+      "source_url": "https://cdn.www.census.gov/library/publications/2026/demo/P95-26-1.html",
+      "retrieval_hash": "sha256:82a993aaac803d450ab6a622d9d8d4ccfed4a11de49bd941251612b854a6e14d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social capacity and adaptation research priorities",
+      "denominator": {"value": 1, "unit": "Census Bureau review of leading research areas on population aging", "value_type": "aging_research_frame"},
+      "measures": {
+        "age_friendly_communities": {"value": "building age-friendly communities is identified as a leading research and policy priority", "unit": "reported policy priority", "value_type": "reported_policy_route"},
+        "ai_health_employment": {"value": "AI applications in health systems and employment are identified as important areas for aging research", "unit": "reported research priority", "value_type": "reported_research_route"},
+        "humanitarian_disasters": {"value": "the effects of humanitarian disasters on older populations are identified as a leading research area", "unit": "reported research priority", "value_type": "reported_research_route"},
+        "capacity_conversion": {"value": "age structure becomes a lived social condition through community design, care systems, work arrangements, technology, health access, and crisis response", "unit": "bounded social-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Census Bureau synthesis of recent aging literature and socioeconomic evidence alongside demographic projections.",
+      "uncertainty": "Research priorities identify important routes but do not establish that a specific age-friendly, AI, or disaster policy will improve outcomes across settings or age groups.",
+      "subgroup": "Older adults with different health, income, disability, housing, digital access, family support, employment, and displacement conditions; caregivers and service providers.",
+      "counterinterpretation": "Technology can increase access and independence, but it can also produce surveillance, exclusion, labor displacement, or unsafe automation if designed without older people and caregivers.",
+      "source_url": "https://cdn.www.census.gov/library/publications/2026/demo/P95-26-1.html",
+      "retrieval_hash": "sha256:82a993aaac803d450ab6a622d9d8d4ccfed4a11de49bd941251612b854a6e14d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; demographic transition and household/public-system implications",
+      "denominator": {"value": 1, "unit": "global aging report's population, socioeconomic, and policy implications frame", "value_type": "generational_capacity_frame"},
+      "measures": {
+        "intergenerational_room": {"value": "fewer younger people alongside more older people can alter household care capacity, labor supply, public transfer systems, and political priorities", "unit": "bounded transmission mechanism", "value_type": "bounded_mechanism"},
+        "care_work_reallocation": {"value": "longer lives and lower fertility can shift unpaid and paid care demands across families, communities, employers, and public systems", "unit": "bounded transmission mechanism", "value_type": "bounded_mechanism"},
+        "health_education_development": {"value": "the report links growth in older populations to worldwide improvements in health services, education, and economic development", "unit": "reported demographic context", "value_type": "reported_mechanism"},
+        "planning_need": {"value": "countries need planning for population size, age structure, socioeconomic conditions, technology, employment, communities, and disasters rather than a single aging policy", "unit": "bounded policy route", "value_type": "bounded_policy_route"}
+      },
+      "method": "Bounded synthesis of the Census Bureau's demographic findings and review of socioeconomic and policy implications.",
+      "uncertainty": "The report does not estimate country-specific household care burdens, pension solvency, labor-market effects, political behavior, or the causal effect of any adaptation strategy.",
+      "subgroup": "Older adults, children, working-age adults, women caregivers, migrants, employers, health and social-care workers, households, local communities, and national administrations.",
+      "counterinterpretation": "Age structure can create new markets, forms of civic participation, knowledge transfer, and longer working lives; dependency ratios alone can overstate constraints when health and institutions improve.",
+      "source_url": "https://cdn.www.census.gov/library/publications/2026/demo/P95-26-1.html",
+      "retrieval_hash": "sha256:82a993aaac803d450ab6a622d9d8d4ccfed4a11de49bd941251612b854a6e14d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/development/desa/pd/data/living-arrangements", "claim": "Complementary UN data on household size, composition, and living arrangements of older persons across 200 countries and areas."},
+    {"source_url": "https://www.un.org/development/desa/pd/content/World-Population-Prospects-2024", "claim": "Complementary UN population estimates and projections for population size, age structure, fertility, mortality, and migration."}
+  ],
+  "boundary": "This record adds a demographic-structure route across falling fertility, longevity, population shrinkage, aging, households, care, work, age-friendly communities, AI, health systems, and humanitarian disasters. It uses Census Bureau aggregate demographic estimates, projections, socioeconomic statistics, and literature synthesis, not respondent-level data, individual life histories, household care records, causal estimates of aging on politics or welfare, or proof that demographic change produces one universal social outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official U.S. Census Bureau publication page reviewed for the global aging direction, demographic causes, fertility trap, 2060 projection horizon, 77-country older-population threshold, population milestone, and research priorities on communities, AI, employment, health, and disasters.",
+    "source_url_sha256": "sha256:82a993aaac803d450ab6a622d9d8d4ccfed4a11de49bd941251612b854a6e14d",
+    "checked": "2026-09-26"
+  }
+}

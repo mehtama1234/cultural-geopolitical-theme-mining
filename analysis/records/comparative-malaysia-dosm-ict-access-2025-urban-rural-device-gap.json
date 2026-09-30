@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-malaysia-dosm-ict-access-2025-urban-rural-device-gap",
+  "title": "Malaysia approaches universal mobile and internet access while device and place gaps remain",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Department of Statistics Malaysia, ICT Use and Access by Individuals and Households Survey Report 2025",
+  "geography": "Malaysia; household ICT access and individual ICT use, including urban-rural and sex comparisons",
+  "observations": [
+    {
+      "period": "2025; household ICT access",
+      "denominator": {"value": null, "unit": "households covered by DOSM ICT Use and Access by Individuals and Households Survey; published percentages are survey estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "household_internet_access": {"value": 97.1, "unit": "percent of households with Internet access", "value_type": "reported_survey_share"},
+        "household_internet_urban": {"value": 99.0, "unit": "percent of urban households with Internet access", "value_type": "reported_subgroup_share"},
+        "household_internet_rural": {"value": 90.7, "unit": "percent of rural households with Internet access", "value_type": "reported_subgroup_share"},
+        "urban_rural_gap": {"value": 8.3, "unit": "percentage-point difference between urban and rural household Internet access", "value_type": "calculated_difference_from_published_table"},
+        "household_computer_access": {"value": 92.6, "unit": "percent of households with computer access", "value_type": "reported_survey_share"},
+        "household_pay_tv_access": {"value": 62.0, "unit": "percent of households with pay-TV access", "value_type": "reported_survey_share"},
+        "mechanism": {"value": "Basic connectivity is close to universal at the national level, but place still marks a meaningful access boundary and the device bundle is changing unevenly", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from DOSM's 2025 ICT Use and Access by Individuals and Households release; urban-rural gap calculated from the published subgroup percentages.",
+      "uncertainty": "The release reports survey percentages and year-over-year changes, but the summary does not establish service quality, affordability, speed, reliability, computer type, or causal reasons for the urban-rural difference.",
+      "subgroup": "Malaysian households, with urban and rural subgroup estimates.",
+      "counterinterpretation": "A high access rate may conceal shared devices, mobile-only access, unstable service, household income differences, or low ability to use services effectively; pay-TV decline may reflect substitution rather than reduced media engagement.",
+      "source_url": "https://www.dosm.gov.my/portal-main/release-content/ict-use-and-access-by-individuals-and-households-survey-report-2025",
+      "retrieval_hash": "sha256:d87487b7c4d296c7abe9e7cf095a94c58d4023929ef4b81b74b273bafc20e36c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; individual ICT use",
+      "denominator": {"value": null, "unit": "individuals covered by DOSM ICT Use and Access by Individuals and Households Survey; published percentages are survey estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "individual_mobile_phone_use": {"value": 99.6, "unit": "percent of individuals using a mobile phone", "value_type": "reported_survey_share"},
+        "individual_internet_use": {"value": 98.3, "unit": "percent of individuals using the Internet", "value_type": "reported_survey_share"},
+        "individual_computer_use": {"value": 81.5, "unit": "percent of individuals using a computer", "value_type": "reported_survey_share"},
+        "internet_use_male": {"value": 98.7, "unit": "percent of males using the Internet", "value_type": "reported_subgroup_share"},
+        "internet_use_female": {"value": 97.8, "unit": "percent of females using the Internet", "value_type": "reported_subgroup_share"},
+        "sex_gap": {"value": 0.9, "unit": "percentage-point difference between male and female Internet use", "value_type": "calculated_difference_from_published_table"},
+        "mobile_computer_gap": {"value": 18.1, "unit": "percentage-point difference between mobile-phone and computer use", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "The dominant consumer interface may be mobile-first: Internet and phone use are nearly universal while computer use remains materially lower", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from DOSM's 2025 ICT Use and Access by Individuals and Households release; device and sex gaps calculated from the published percentages.",
+      "uncertainty": "These are use indicators, not measures of frequency, task type, digital skill, spending, employment, platform dependence, or outcomes; the sex difference is descriptive and does not establish parity in quality of access.",
+      "subgroup": "Malaysian individuals, with sex subgroup estimates.",
+      "counterinterpretation": "Mobile-first use may be an efficient choice rather than a constraint, and the computer-use gap may reflect age, occupation, education, household structure, or device substitution.",
+      "source_url": "https://www.dosm.gov.my/portal-main/release-content/ict-use-and-access-by-individuals-and-households-survey-report-2025",
+      "retrieval_hash": "sha256:d87487b7c4d296c7abe9e7cf095a94c58d4023929ef4b81b74b273bafc20e36c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.dosm.gov.my/uploads/release-content/file_20260422202124.pdf", "claim": "DOSM media statement PDF for the 2025 ICT Use and Access by Individuals and Households release."},
+    {"source_url": "https://open.dosm.gov.my/data-catalogue/icths_internet_sex", "claim": "OpenDOSM catalogue route for ICT household/individual Internet-use data by sex and related dimensions."}
+  ],
+  "boundary": "This record adds a Malaysian digital-access and device-configuration layer. It does not establish online shopping, content preferences, digital skills, service quality, affordability, frequency, or causal urban-rural, sex, or device effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "DOSM release HTML and linked media statement reviewed; national, urban-rural, device, and sex percentages and year-over-year definitions checked.",
+    "html_sha256": "sha256:d87487b7c4d296c7abe9e7cf095a94c58d4023929ef4b81b74b273bafc20e36c",
+    "pdf_sha256": "sha256:de59d15bfada52c402362d859012d5403a389ebd74d0434790c84ea533d51f1e",
+    "checked": "2026-09-30"
+  }
+}

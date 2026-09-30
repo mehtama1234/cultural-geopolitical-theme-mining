@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-culture-statistics-2026-participation-barriers-measurement",
+  "title": "Cultural participation is measurable as a social-distribution problem, but the evidence is periodic, multidimensional, and bounded by what official surveys can ask",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Eurostat, Guide to Eurostat culture statistics: 2026 edition",
+  "geography": "European Union, most EFTA countries, and selected enlargement countries, using EU-SILC, ICT, household-budget, labor-force, business, and government-finance statistical systems",
+  "observations": [
+    {
+      "period": "2006-2028; EU-SILC cultural-participation measurement cycle",
+      "denominator": {"value": 3, "unit": "EU-SILC cultural-participation waves or modules highlighted in the guide: 2006, 2015, and 2022", "value_type": "reported_measurement_frame"},
+      "measures": {
+        "participation_source": {"value": "EU-SILC is the main recent comparative source for cultural participation linked to income, education, health, and other living-condition indicators", "unit": "guide assessment", "value_type": "reported_data_route"},
+        "module_timing": {"value": "the next six-yearly quality-of-life module is scheduled for 2028", "unit": "guide schedule", "value_type": "reported_data_timing"},
+        "coverage": {"value": "cinema, live performances, cultural sites, artistic practice, reading, and reasons for non-participation", "unit": "reported indicator coverage", "value_type": "reported_measurement_scope"}
+      },
+      "method": "Eurostat methodological guide describing EU-SILC cultural-participation modules, coverage, comparability, reference periods, and dissemination.",
+      "uncertainty": "The guide documents measurement architecture rather than presenting one current participation estimate; periodic modules limit the continuity and frequency of observed cultural change.",
+      "subgroup": "People aged 16 and over in private households, with indicators disaggregated by age, sex, education, income, disability, poverty risk, urbanization, and household type.",
+      "counterinterpretation": "A periodic official module can still support meaningful comparison; limited frequency does not make the data unusable, but it constrains claims about rapid cultural shifts.",
+      "source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf/d56858bc-5927-a31f-3936-9fc3ed0a83a2?download=true&t=1782299555515&version=1.0",
+      "retrieval_hash": "sha256:4e66ad39d3ef1cf678aabba022e8c12ccf79cae475cd5a0d9b64770c27200ef0",
+      "status": "reported"
+    },
+    {
+      "period": "2015 and 2022; reported barriers to cultural participation",
+      "denominator": {"value": 2, "unit": "EU-SILC cultural-participation modules with obstacle questions", "value_type": "reported_module_frame"},
+      "measures": {
+        "barrier_categories": {"value": "cannot afford it, lack of interest, no cultural activity nearby, lack of time, and other reasons", "unit": "reported response categories", "value_type": "reported_barrier_taxonomy"},
+        "single_reason_limit": {"value": "non-participants are generally asked to select one main reason", "unit": "guide methodological limitation", "value_type": "reported_measurement_limit"},
+        "overlap_problem": {"value": "a single-response format may not capture overlapping financial, time, proximity, health, and interest constraints", "unit": "guide methodological interpretation", "value_type": "reported_measurement_caveat"}
+      },
+      "method": "Review of EU-SILC question design and response categories for non-participation.",
+      "uncertainty": "Reported reasons are self-reported and constrained by questionnaire design; selecting one main reason does not identify the full access chain or causal bottleneck.",
+      "subgroup": "People who do not attend cinema, live performances, or cultural sites, including households facing cost, time, mobility, proximity, disability, or interest barriers.",
+      "counterinterpretation": "A standardized main-reason question improves cross-country comparability and can identify dominant reported obstacles even when barriers overlap.",
+      "source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf/d56858bc-5927-a31f-3936-9fc3ed0a83a2?download=true&t=1782299555515&version=1.0",
+      "retrieval_hash": "sha256:4e66ad39d3ef1cf678aabba022e8c12ccf79cae475cd5a0d9b64770c27200ef0",
+      "status": "reported"
+    },
+    {
+      "period": "2022; cultural participation and unequal exposure dimensions",
+      "denominator": {"value": 1, "unit": "2022 EU-SILC quality-of-life cultural-participation module", "value_type": "reported_module_frame"},
+      "measures": {
+        "disaggregation": {"value": "cultural indicators can be analyzed by age, sex, education, income quintile, disability, poverty or social-exclusion risk, urbanization, and household type", "unit": "guide data dimensions", "value_type": "reported_distributional_scope"},
+        "disability_analysis": {"value": "the 2022 module added analysis of cultural participation by activity limitation or disability", "unit": "guide methodological addition", "value_type": "reported_inclusion_dimension"},
+        "household_context": {"value": "cultural participation can be connected to household composition and wider living-condition indicators", "unit": "guide analytical route", "value_type": "reported_contextual_route"}
+      },
+      "method": "Eurostat description of disaggregation and linked socioeconomic dimensions in EU-SILC cultural participation tables.",
+      "uncertainty": "Disaggregation improves visibility but does not establish why groups differ, whether supply or demand is binding, or whether participation produces wellbeing, belonging, or political action.",
+      "subgroup": "People with different income, education, disability, age, gender, household, urbanization, and poverty-risk profiles.",
+      "counterinterpretation": "Observed group differences may reflect measurement, age, local supply, transport, health, social norms, household resources, or selection into cultural activities rather than one cultural-access mechanism.",
+      "source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf/d56858bc-5927-a31f-3936-9fc3ed0a83a2?download=true&t=1782299555515&version=1.0",
+      "retrieval_hash": "sha256:4e66ad39d3ef1cf678aabba022e8c12ccf79cae475cd5a0d9b64770c27200ef0",
+      "status": "reported"
+    },
+    {
+      "period": "2022 and ongoing; culture, digital access, and household resources",
+      "denominator": {"value": 1, "unit": "Eurostat culture-statistics measurement system", "value_type": "reported_system_frame"},
+      "measures": {
+        "online_culture": {"value": "ICT-survey indicators cover selected online cultural activities and digital cultural consumption but are not designed as a complete cultural-participation survey", "unit": "guide assessment", "value_type": "reported_digital_measurement_scope"},
+        "household_expenditure": {"value": "household-budget statistics provide evidence on private financing of cultural goods and, to some extent, access to culture", "unit": "guide assessment", "value_type": "reported_expenditure_route"},
+        "public_expenditure": {"value": "government finance statistics track cultural, recreation, and religion expenditure in money and as shares of total expenditure or GDP", "unit": "guide assessment", "value_type": "reported_public_finance_route"}
+      },
+      "method": "Guide-level synthesis of Eurostat ICT, household-budget, and government-finance sources for culture statistics.",
+      "uncertainty": "Different statistical systems measure different stages—access, spending, use, and public provision—and should not be treated as one common participation measure.",
+      "subgroup": "Households, cultural users, non-users, digital participants, cultural organizations, governments, and communities with unequal access to cultural infrastructure.",
+      "counterinterpretation": "Triangulating expenditure, online activity, and participation can strengthen the atlas even when no single source measures the full cultural ecosystem.",
+      "source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf/d56858bc-5927-a31f-3936-9fc3ed0a83a2?download=true&t=1782299555515&version=1.0",
+      "retrieval_hash": "sha256:4e66ad39d3ef1cf678aabba022e8c12ccf79cae475cd5a0d9b64770c27200ef0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/web/culture/information-data", "claim": "Eurostat Culture statistics information and data hub."},
+    {"source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf/d56858bc-5927-a31f-3936-9fc3ed0a83a2?download=true&t=1782299555515&version=1.0", "claim": "Official Guide to Eurostat culture statistics 2026 PDF."}
+  ],
+  "boundary": "This record adds a cultural-participation measurement, access-barrier, household-resource, digital-consumption, and public-finance route. It uses an official methodological guide, not respondent-level ingestion, current participation estimates, a causal cultural-participation effect, a complete cultural ecosystem census, or proof that one reported barrier is the binding constraint.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat 2026 culture-statistics guide reviewed for EU-SILC cultural-participation timing, activity coverage, barrier categories, distributional dimensions, digital participation, household expenditure, government expenditure, and methodological limitations.",
+    "source_url_sha256": "sha256:4e66ad39d3ef1cf678aabba022e8c12ccf79cae475cd5a0d9b64770c27200ef0",
+    "checked": "2026-09-27"
+  }
+}

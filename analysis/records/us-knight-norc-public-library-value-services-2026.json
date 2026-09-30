@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-knight-norc-public-library-value-services-2026",
+  "title": "Public libraries retain broad legitimacy by functioning as information, technology, learning, and community infrastructure",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Knight Foundation and NORC at the University of Chicago survey of U.S. adults, May 14-18, 2026",
+  "geography": "United States; adults ages 18 and older and perceptions of local public libraries",
+  "observations": [
+    {
+      "period": "May 14-18, 2026; public-library value and essential-service status",
+      "denominator": {"value": 1047, "unit": "U.S. adults ages 18 and older in the NORC AmeriSpeak Omnibus survey", "value_type": "survey_sample"},
+      "measures": {
+        "essential_or_valuable": {"value": 93, "unit": "percent viewing their local public library as an essential or valuable public service", "value_type": "reported_share"},
+        "essential": {"value": 63, "unit": "percent viewing their local public library as an essential public service", "value_type": "reported_share"},
+        "valuable_not_essential": {"value": 31, "unit": "percent viewing their local public library as valuable but not essential", "value_type": "reported_share"},
+        "neither": {"value": 6, "unit": "percent saying their local public library is neither valuable nor essential", "value_type": "reported_share"},
+        "cross_group_breadth": {"value": "a majority in every measured age, race, party, and income group viewed local libraries as essential", "unit": "reported subgroup pattern", "value_type": "reported_assessment"}
+      },
+      "method": "NORC AmeriSpeak Omnibus web and telephone interviews conducted in English and Spanish; overall margin of sampling error plus or minus 3.9 percentage points at the 95% confidence level.",
+      "uncertainty": "This is a cross-sectional perception survey funded by Knight Foundation; perceived value is not observed usage, service quality, fiscal return, or proof that every library performs equally.",
+      "subgroup": "U.S. adults ages 18 and older across measured demographic, partisan, and income groups.",
+      "counterinterpretation": "Broad legitimacy may reflect symbolic attachment, expected availability, or general support for public goods; it does not establish that people use their local branch or support every program and funding level.",
+      "source_url": "https://knightfoundation.org/articles/research/knight-foundation-norc-survey-on-public-libraries-2026/",
+      "retrieval_hash": "sha256:7d7d4c2c1b11c837b89b0004ba18e093dfca5544cb4f1e93e67404761ceb4e65",
+      "status": "reported"
+    },
+    {
+      "period": "May 14-18, 2026; services and community functions valued",
+      "denominator": {"value": 1047, "unit": "U.S. adults in the Knight-NORC survey", "value_type": "survey_sample"},
+      "measures": {
+        "books_media_information": {"value": 81, "unit": "percent rating access to books, media, and information as extremely or very valuable to the community", "value_type": "reported_share"},
+        "neighborhood_place": {"value": 67, "unit": "percent rating a neighborhood place to spend time outside home or work as extremely or very valuable", "value_type": "reported_share"},
+        "classes_events": {"value": 70, "unit": "percent rating free classes, activities, and events as extremely or very valuable", "value_type": "reported_share"},
+        "computers_internet": {"value": 74, "unit": "percent rating computers, internet access, and technology help as extremely or very valuable", "value_type": "reported_share"},
+        "job_and_public_service_help": {"value": 67, "unit": "percent rating help with job searches and navigating public services as extremely or very valuable", "value_type": "reported_share"},
+        "multi_function_institution": {"value": "libraries are valued simultaneously as information, technology, learning, work-navigation, and third-place infrastructure", "unit": "analytic institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Descriptive survey ratings of local library services and community functions.",
+      "uncertainty": "The measures capture perceived community value and do not establish service availability, reach, quality, frequency, or effects on employment, digital access, learning, or social connection.",
+      "subgroup": "U.S. adults evaluating multiple local-library functions.",
+      "counterinterpretation": "High perceived value for a service does not mean the library is the preferred or sufficient provider; households may use schools, nonprofits, commercial internet, employers, or government agencies instead.",
+      "source_url": "https://knightfoundation.org/articles/research/knight-foundation-norc-survey-on-public-libraries-2026/",
+      "retrieval_hash": "sha256:7d7d4c2c1b11c837b89b0004ba18e093dfca5544cb4f1e93e67404761ceb4e65",
+      "status": "reported"
+    },
+    {
+      "period": "May 14-18, 2026; perceived community value and funding-cut impact",
+      "denominator": {"value": 1047, "unit": "U.S. adults in the Knight-NORC survey", "value_type": "survey_sample"},
+      "measures": {
+        "community_value_high": {"value": 62, "unit": "percent saying their local public library is extremely or very valuable to their community", "value_type": "reported_share"},
+        "community_value_somewhat": {"value": 30, "unit": "percent saying their local public library is somewhat valuable to their community", "value_type": "reported_share"},
+        "community_value_not": {"value": 8, "unit": "percent saying their local public library is not valuable to their community", "value_type": "reported_share"},
+        "cuts_any_impact": {"value": 93, "unit": "percent saying budget cuts forcing reduced library hours, programs, or services would affect their community", "value_type": "reported_share"},
+        "cuts_major": {"value": 45, "unit": "percent expecting a major community impact from library-service cuts", "value_type": "reported_share"},
+        "cuts_minor": {"value": 47, "unit": "percent expecting a minor community impact from library-service cuts", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional NORC survey asking adults to assess community value and a hypothetical local-library budget-cut scenario.",
+      "uncertainty": "The budget-cut item is a perceived hypothetical impact, not an observed funding change, service reduction, usage loss, or economic evaluation.",
+      "subgroup": "U.S. adults and their perceptions of local community infrastructure.",
+      "counterinterpretation": "People can value libraries and still accept cuts under fiscal pressure; reported impact does not specify which services, populations, or places would be most affected.",
+      "source_url": "https://knightfoundation.org/articles/research/knight-foundation-norc-survey-on-public-libraries-2026/",
+      "retrieval_hash": "sha256:7d7d4c2c1b11c837b89b0004ba18e093dfca5544cb4f1e93e67404761ceb4e65",
+      "status": "reported"
+    },
+    {
+      "period": "May 14-18, 2026; subgroup differences in library valuation",
+      "denominator": {"value": 1047, "unit": "U.S. adults in the Knight-NORC survey; subgroup comparisons reported by the source", "value_type": "survey_sample"},
+      "measures": {
+        "education_age_pattern": {"value": "college graduates and adults age 30 and older were more likely than adults without a degree and younger adults to recognize personal/community value and anticipate an impact from funding cuts", "unit": "reported subgroup comparison", "value_type": "reported_comparison"},
+        "gender_pattern": {"value": "women were consistently more positive toward libraries, their services, and their potential community impact than men", "unit": "reported subgroup comparison", "value_type": "reported_comparison"},
+        "partisan_pattern": {"value": "Democrats were more likely than Republicans to recognize personal and community value, strongly support services, and see major impact from cuts", "unit": "reported partisan comparison", "value_type": "reported_comparison"},
+        "legitimacy_distribution": {"value": "broad institutional legitimacy coexists with uneven intensity of valuation across education, age, gender, and party groups", "unit": "analytic distributional implication", "value_type": "analytic_implication"}
+      },
+      "method": "Published subgroup comparisons from the Knight-NORC survey; no causal or experimental assignment.",
+      "uncertainty": "The public fact sheet does not provide all subgroup sample sizes, estimates, or multivariable controls; differences should not be interpreted as effects of education, age, gender, or party identity.",
+      "subgroup": "Adults grouped by education, age, gender, and self-identified party affiliation.",
+      "counterinterpretation": "Subgroup differences may reflect local library availability, community context, household needs, political identity, or survey response patterns rather than different underlying library service value.",
+      "source_url": "https://knightfoundation.org/wp-content/uploads/2026/09/Knight-Foundation-Fact-Sheet-Series_Public-Libraries-Design_Final-1.pdf",
+      "retrieval_hash": "sha256:7d7d4c2c1b11c837b89b0004ba18e093dfca5544cb4f1e93e67404761ceb4e65",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imls.gov/research-evaluation/surveys/public-libraries-survey-pls", "claim": "IMLS Public Libraries Survey provides national descriptive administrative data on library systems, facilities, staffing, finance, and usage.", "status": "official-comparator"},
+    {"source_url": "https://knightfoundation.org/wp-content/uploads/2026/09/Knight-Foundation-Fact-Sheet-Series_Public-Libraries-Design_Final-1.pdf", "claim": "Knight-NORC fact sheet provides survey methodology, 1,047-adult sample, field dates, margin of error, service-value ratings, and subgroup comparisons.", "status": "official-methodology"}
+  ],
+  "boundary": "This record adds a shared-institution mechanism: public libraries retain broad legitimacy because people value them as information, technology, learning, work-navigation, and community-space infrastructure, while intensity of valuation varies across groups. It does not establish usage, service quality, fiscal return, causal trust, or the realized effects of funding cuts.",
+  "retrieval_hash": "sha256:7d7d4c2c1b11c837b89b0004ba18e093dfca5544cb4f1e93e67404761ceb4e65"
+}

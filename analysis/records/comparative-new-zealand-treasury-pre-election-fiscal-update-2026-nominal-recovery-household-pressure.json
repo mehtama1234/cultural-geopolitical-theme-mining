@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-new-zealand-treasury-pre-election-fiscal-update-2026-nominal-recovery-household-pressure",
+  "title": "A fiscally improving recovery can still feel constrained when inflation, energy and fixed budgets redistribute room",
+  "theme_ids": ["cost", "time", "energy", "work"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "New Zealand Treasury, Pre-election Economic and Fiscal Update 2026, 29 September 2026",
+  "geography": "New Zealand; national household, labor-market, energy-price, tax, public-spending and fiscal forecasts",
+  "observations": [
+    {
+      "period": "2024–2031 forecast horizon; recovery, household demand and labor market",
+      "denominator": {"value": 1, "unit": "New Zealand macroeconomic forecast frame", "value_type": "official_forecast_frame"},
+      "measures": {
+        "household_demand": {"value": "household spending and residential investment remained subdued even as export demand supported an emerging recovery", "unit": "Treasury assessment", "value_type": "reported_assessment"},
+        "shock": {"value": "higher oil and fuel prices associated with the Middle East conflict further delayed recovery through inflationary pressure and higher interest rates", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "unemployment": {"value": "forecast to peak at 5.6% and gradually improve to 4.3% by the end of the forecast period", "unit": "percent unemployment rate", "value_type": "official_forecast"},
+        "real_wages": {"value": "real wages are forecast to begin recovering as inflation moderates", "unit": "Treasury forecast direction", "value_type": "official_forecast"},
+        "mechanism": {"value": "An externally supported macro recovery can coexist with delayed household recovery when energy, interest-rate and housing channels keep domestic demand and perceived room constrained", "unit": "bounded macro-to-household mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "New Zealand Treasury economic forecast incorporating available information and fiscal policy settings as at the forecast finalisation dates; the update is an official forecast, not a household panel.",
+      "uncertainty": "Forecast outcomes depend on oil prices, interest rates, global demand, migration, productivity, terms of trade and geopolitical shocks; aggregate indicators do not identify distribution across households, regions, tenure or income.",
+      "subgroup": "New Zealand households, renters and homeowners, workers and jobseekers, borrowers exposed to interest rates, energy users, builders and firms dependent on domestic demand.",
+      "counterinterpretation": "Export resilience and improving employment can support household recovery even if aggregate spending is initially subdued; the forecast does not establish that every household experiences delayed recovery.",
+      "source_url": "https://www.treasury.govt.nz/sites/default/files/2026-09/prefu26.pdf",
+      "retrieval_hash": "sha256:13a767bb1176081c2c54441d6fd569a171cfa03877b11b5fa63209f175c44298",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26–2030/31; New Zealand fiscal balance, revenue, spending and debt forecast",
+      "denominator": {"value": 1, "unit": "New Zealand core Crown fiscal forecast", "value_type": "official_forecast_frame"},
+      "measures": {
+        "obegalx": {"value": "operating balance before gains and losses excluding ACC is forecast to move from a $6.8 billion deficit in 2026/27 to a $4.0 billion surplus in 2028/29 and an $11.7 billion surplus in 2030/31", "unit": "New Zealand dollars", "value_type": "official_forecast"},
+        "revenue_share": {"value": "core Crown revenue is forecast to rise from 30.4% of GDP in 2025/26 to 31.8% in 2030/31", "unit": "percent of GDP", "value_type": "official_forecast"},
+        "expense_share": {"value": "core Crown expenses are forecast to fall from 32.2% of GDP in 2026/27 to 29.8% in 2030/31", "unit": "percent of GDP", "value_type": "official_forecast"},
+        "debt": {"value": "net core Crown debt is forecast to peak at 43.9% of GDP in 2027/28 before declining to 39.5% by the end of the forecast period", "unit": "percent of GDP", "value_type": "official_forecast"},
+        "mechanism": {"value": "Fiscal repair creates a future claim of room, but the political meaning of that room depends on whether lower spending shares are experienced as restored capacity, restraint, or deferred pressure", "unit": "bounded fiscal-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "New Zealand Treasury fiscal forecasts based on government policy settings, revenue and expenditure assumptions, debt projections and Crown-entity positions.",
+      "uncertainty": "These are forecasts conditional on stated policy settings and assumptions; they do not establish future service quality, distributional incidence, political durability, or whether fiscal room is allocated to households, infrastructure, health, education or debt reduction.",
+      "subgroup": "Taxpayers, public-service users, benefit recipients, public employees, future taxpayers, firms and communities affected by operating allowances, fiscal consolidation and debt choices.",
+      "counterinterpretation": "Lower expense shares can reflect stronger growth rather than cuts in nominal services, and returning to surplus may improve borrowing resilience; aggregate fiscal improvement is not inherently evidence of household loss.",
+      "source_url": "https://www.treasury.govt.nz/sites/default/files/2026-09/prefu26.pdf",
+      "retrieval_hash": "sha256:13a767bb1176081c2c54441d6fd569a171cfa03877b11b5fa63209f175c44298",
+      "status": "reported"
+    },
+    {
+      "period": "2026–2031; inflation, tax revenue and public-sector operating pressure",
+      "denominator": {"value": 1, "unit": "New Zealand fiscal forecast mechanism", "value_type": "official_forecast_frame"},
+      "measures": {
+        "nominal_tax_effect": {"value": "higher prices lift tax revenue through nominal incomes, spending and profits, while many government expenses are constrained by fixed budget allowances", "unit": "Treasury-described fiscal mechanism", "value_type": "reported_mechanism"},
+        "fiscal_asymmetry": {"value": "the inflation-related revenue effect generally produces a net fiscal gain in the forecast period", "unit": "Treasury assessment", "value_type": "reported_assessment"},
+        "agency_pressure": {"value": "higher inflation can make it more difficult for agencies to operate within existing funding baselines and allowances, increasing pressure on future budgets", "unit": "Treasury-described institutional risk", "value_type": "reported_risk"},
+        "downside_probability": {"value": "based on historical forecast errors, there is a 10–20% chance that core Crown tax revenue is at least 2.0 percentage points of GDP lower than forecast by the end of the period", "unit": "Treasury fan-chart risk estimate", "value_type": "official_risk_estimate"},
+        "mechanism": {"value": "Inflation can improve the government's nominal fiscal position while squeezing the real purchasing power and operating capacity of households and public agencies, creating a hidden distributional and service-quality bargain", "unit": "bounded inflation-and-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Treasury analysis of nominal revenue, fixed expenditure allowances, inflation, operating baselines and forecast-error distributions.",
+      "uncertainty": "The fiscal asymmetry is an aggregate accounting mechanism and does not measure real service quality, agency adaptation, wage settlements, household prices or who bears the adjustment; risk estimates reflect historical forecast errors rather than probabilities of a specific shock.",
+      "subgroup": "Public agencies with fixed baselines, public-sector workers, service users, households facing higher prices, firms paying taxes and communities dependent on locally delivered services.",
+      "counterinterpretation": "Nominal revenue growth can provide time to adjust budgets and protect services; agencies may receive future funding or improve productivity, so fixed allowances do not automatically imply service deterioration.",
+      "source_url": "https://www.treasury.govt.nz/sites/default/files/2026-09/prefu26.pdf",
+      "retrieval_hash": "sha256:13a767bb1176081c2c54441d6fd569a171cfa03877b11b5fa63209f175c44298",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.treasury.govt.nz/publications/efu/pre-election-economic-and-fiscal-update-2026", "claim": "Official New Zealand Treasury publication page with issue date, executive summary, signed-document details, PDF, charts and supplementary files."},
+    {"source_url": "https://www.treasury.govt.nz/sites/default/files/2026-09/prefu26.pdf", "claim": "Official 140-page signed Pre-election Economic and Fiscal Update 2026 with economic outlook, fiscal forecasts, risks and forecast financial statements."}
+  ],
+  "boundary": "This record identifies a macro-to-household, energy-inflation, fiscal-capacity and public-service operating-pressure subtheme. It does not establish that New Zealand households will experience a particular welfare change, that forecast surpluses will improve services, that inflation will produce a specific distributional effect, or that geopolitical energy shocks will occur; those require realized price, wage, debt, service, budget, regional and household episodes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official New Zealand Treasury 140-page Pre-election Economic and Fiscal Update 2026 PDF and publication page were reviewed for recovery timing, household demand, oil and Middle East conflict risk, unemployment and real-wage forecasts, OBEGALx, revenue, expenses, debt, nominal-inflation asymmetry, fixed budget allowances and forecast-error risks.",
+    "source_url_sha256": "sha256:13a767bb1176081c2c54441d6fd569a171cfa03877b11b5fa63209f175c44298",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-care-support-systems-2026-poverty-dignity-work-family",
+  "title": "Care is emerging as foundational social infrastructure: it converts household vulnerability into participation, security, and dignity",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "United Nations Commission for Social Development, Eradicating poverty and ensuring dignity through resilient care and support systems (E/CN.5/2026/4)",
+  "geography": "Global; national experiences and international evidence reviewed for the Commission for Social Development",
+  "observations": [
+    {
+      "period": "2026; life-course definition of care and support systems",
+      "denominator": {"value": 1, "unit": "global care-and-support policy framework", "value_type": "reported_framework"},
+      "measures": {
+        "system_components": {"value": "Legal and policy frameworks, services, financing, social and physical infrastructure, programmes, standards, training, governance, administration, and supportive norms", "unit": "reported system definition", "value_type": "reported_framework"},
+        "life_course_scope": {"value": "Early childhood care and education, disability support, community and residential services, independent living, long-term care, and support for caregivers", "unit": "reported scope", "value_type": "reported_pattern"},
+        "participation_route": {"value": "Care systems enable participation in education, employment, and social life while linking care-related needs to social protection", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "mechanism": {"value": "Care is not only a household burden or a health service; it is infrastructure that determines whether people can participate in other institutions and markets", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN Secretariat synthesis of international frameworks, available evidence, national experiences, and cross-sectoral policy considerations.",
+      "uncertainty": "The note is a policy synthesis rather than a harmonized global measurement system; definitions, coverage, and service quality vary across countries.",
+      "subgroup": "Children, older people, people with disabilities, caregivers, families facing care shocks, and workers dependent on care services.",
+      "counterinterpretation": "Families and communities provide substantial care outside formal systems, and formalization may not always improve cultural fit, autonomy, or dignity without user control.",
+      "source_url": "https://documents.un.org/api/symbol/access?l=en&s=E%2FCN.5%2F2026%2F4&t=pdf",
+      "retrieval_hash": "sha256:2d95c77e87c6184ee849657931688e243bdd651417cacc49cbd1ffe38253a657",
+      "status": "reported"
+    },
+    {
+      "period": "2026; care systems and poverty, income, and social inclusion",
+      "denominator": {"value": 1, "unit": "global policy evidence synthesis", "value_type": "reported_framework"},
+      "measures": {
+        "social_returns": {"value": "Accessible, affordable, quality care and support systems generate social and economic returns throughout the life course", "unit": "reported synthesis finding", "value_type": "reported_pattern"},
+        "poverty_route": {"value": "Care systems can support poverty eradication and dignity by strengthening social protection, household resilience, and access to education and employment", "unit": "reported policy route", "value_type": "reported_mechanism"},
+        "shock_buffer": {"value": "Care and support systems provide resilience during disruption while revealing pressures when coverage, workforce, financing, or infrastructure are under-resourced", "unit": "reported system pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "The same care need can become poverty, unpaid time, or exclusion when the system is absent, and capability when support is affordable and reachable", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN review of evidence and policy experiences linking care systems to poverty, social protection, employment, education, and social inclusion.",
+      "uncertainty": "The note does not estimate a universal return on care investment or identify a single causal policy package that works across contexts.",
+      "subgroup": "Low-income households, families facing disability or ageing-related needs, children needing early support, and people whose employment depends on care availability.",
+      "counterinterpretation": "Care investment can be poorly targeted, fiscally unsustainable, or inaccessible if services are geographically concentrated or designed without affected people.",
+      "source_url": "https://documents.un.org/api/symbol/access?l=en&s=E%2FCN.5%2F2026%2F4&t=pdf",
+      "retrieval_hash": "sha256:2d95c77e87c6184ee849657931688e243bdd651417cacc49cbd1ffe38253a657",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gender, household responsibility, and labor-market participation",
+      "denominator": {"value": 1, "unit": "global care-system evidence synthesis", "value_type": "reported_framework"},
+      "measures": {
+        "unpaid_care_distribution": {"value": "When care systems are limited or uneven, unpaid care responsibilities fall disproportionately on women and girls", "unit": "reported global pattern", "value_type": "reported_pattern"},
+        "life_choice_effect": {"value": "Unequal unpaid care affects income, security, education, employment, and participation in public life", "unit": "reported consequence pathway", "value_type": "reported_mechanism"},
+        "co_responsibility": {"value": "The UN system guidance frames care as a shared responsibility among genders, households, the State, markets, families, and communities", "unit": "reported governance principle", "value_type": "reported_framework"},
+        "mechanism": {"value": "Care time is a hidden allocation system: where responsibility is privatized, gender and household inequality compound even when formal rights are equal", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN synthesis of care, gender, labor, social-protection, and social-development evidence.",
+      "uncertainty": "The note establishes a broad evidence and policy direction, not a new globally comparable estimate of unpaid-care hours or a causal gender-employment decomposition.",
+      "subgroup": "Women and girls, single-parent households, informal caregivers, families with disability or eldercare needs, and workers in low-paid care occupations.",
+      "counterinterpretation": "Redistributing care through services or paid work can create new burdens or reduce autonomy if caregivers and care recipients lack voice over service design.",
+      "source_url": "https://documents.un.org/api/symbol/access?l=en&s=E%2FCN.5%2F2026%2F4&t=pdf",
+      "retrieval_hash": "sha256:2d95c77e87c6184ee849657931688e243bdd651417cacc49cbd1ffe38253a657",
+      "status": "reported"
+    },
+    {
+      "period": "2026; system-building requirements and policy implementation",
+      "denominator": {"value": 1, "unit": "global policy options framework", "value_type": "reported_framework"},
+      "measures": {
+        "persistent_gaps": {"value": "Coverage, financing, workforce capacity, infrastructure, data, and coordination remain persistent constraints", "unit": "reported system gap", "value_type": "reported_pattern"},
+        "policy_linkages": {"value": "The note calls for integrating care with social protection, health, education, labor policy, and decent-work strategies", "unit": "reported policy route", "value_type": "reported_recommendation"},
+        "workforce_condition": {"value": "Improving care work requires attention to decent work, training, standards, representation, and fair reward", "unit": "reported policy route", "value_type": "reported_recommendation"},
+        "data_and_governance": {"value": "Data, governance, financing, and administrative mechanisms are part of the care system rather than after-the-fact evaluation tools", "unit": "reported framework implication", "value_type": "reported_mechanism"},
+        "mechanism": {"value": "Resilience depends on an integrated system that can finance, staff, reach, coordinate, and learn—not isolated family programs or facilities", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN Secretariat review of policy options, good practices, global commitments, and system-wide guidance.",
+      "uncertainty": "The note identifies implementation requirements and examples but does not evaluate the effectiveness of each country practice or establish a common cost benchmark.",
+      "subgroup": "Care recipients, unpaid and paid caregivers, public agencies, employers, service providers, and communities with thin infrastructure or fiscal capacity.",
+      "counterinterpretation": "Integrated systems may increase administrative complexity; a smaller number of well-funded, locally accountable services could outperform broad coordination structures.",
+      "source_url": "https://documents.un.org/api/symbol/access?l=en&s=E%2FCN.5%2F2026%2F4&t=pdf",
+      "retrieval_hash": "sha256:2d95c77e87c6184ee849657931688e243bdd651417cacc49cbd1ffe38253a657",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://digitallibrary.un.org/record/4096493", "claim": "Official UN Digital Library record for E/CN.5/2026/4."},
+    {"source_url": "https://www.ilo.org/topics-and-sectors/care-economy", "claim": "ILO care-economy context on paid and unpaid care work."}
+  ],
+  "boundary": "This record adds a global care-infrastructure route from life-course needs through household time, poverty, gender, work, social protection, public services, and dignity. It is a UN Secretariat policy note synthesizing evidence and good practices, not a harmonized global outcome dataset, respondent-level study, or causal evaluation of any care programme.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN document PDF was retrieved from the UN Official Document System and reviewed for the definition of care systems, life-course scope, poverty and participation routes, gendered unpaid-care effects, system gaps, and policy options.",
+    "source_url_sha256": "sha256:2d95c77e87c6184ee849657931688e243bdd651417cacc49cbd1ffe38253a657",
+    "checked": "2026-09-28"
+  }
+}

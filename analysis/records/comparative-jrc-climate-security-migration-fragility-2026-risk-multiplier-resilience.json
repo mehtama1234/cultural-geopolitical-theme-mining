@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-jrc-climate-security-migration-fragility-2026-risk-multiplier-resilience",
+  "title": "Climate pressure becomes a displacement and conflict risk through existing vulnerabilities, while mobility and social protection can also build resilience",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "European Commission Joint Research Centre, Climate security, migration and fragility, 2026",
+  "geography": "Global climate security, migration, displacement and fragility pathways, with policy implications for vulnerable places and communities",
+  "observations": [
+    {
+      "period": "2026 JRC brief; climate, conflict and human mobility",
+      "denominator": {"value": 1, "unit": "European Commission JRC analytical brief", "value_type": "published_synthesis"},
+      "measures": {
+        "risk_multiplier": {"value": "The brief says climate change rarely acts as a direct cause of violence or displacement, but intensifies existing political, economic and social vulnerabilities.", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "pathway_one": {"value": "Climate stress can contribute to conflict, which then drives displacement.", "unit": "reported pathway", "value_type": "reported_mechanism"},
+        "pathway_two": {"value": "Climate stress can increase migration pressures that may heighten local tensions.", "unit": "reported pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "European Commission Joint Research Centre policy brief synthesizing research on climate, conflict, fragility and human mobility.",
+      "uncertainty": "The public record is a brief rather than a new global event dataset or causal estimate; the strength and direction of pathways vary by place, institutions, livelihoods and conflict history.",
+      "subgroup": "Communities exposed to climate hazards, conflict-affected populations, migrants, displaced people, host communities and institutions managing mobility or security.",
+      "counterinterpretation": "Climate stress may also prompt cooperation, adaptation, investment or planned mobility; migration itself is not inherently destabilizing and conflict is not an automatic climate outcome.",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC146054",
+      "retrieval_hash": "sha256:6b24dd0e8b41e08443e6c615907d8e53015f6139bf93dc372ef7c8aa7d64cac9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 JRC brief; mobility, remittances and resilience",
+      "denominator": {"value": 1, "unit": "European Commission JRC policy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "mobility_resilience": {"value": "The brief identifies mobility and remittances as potential resilience mechanisms that can weaken negative climate-conflict-displacement dynamics when supported by effective institutions.", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "institutional_condition": {"value": "The beneficial effect of mobility is presented as conditional on effective institutions rather than automatic.", "unit": "reported condition", "value_type": "reported_interpretation"},
+        "household_pathway": {"value": "Remittances and mobility can help households diversify income, manage shocks and sustain connections across places, while weak access or unsafe routes can increase exposure.", "unit": "analytical pathway", "value_type": "inference_from_source_scope"}
+      },
+      "method": "JRC synthesis of mobility and resilience evidence in the context of climate security and fragility.",
+      "uncertainty": "The brief does not quantify remittance effects, identify which institutional arrangements are sufficient, or establish whether mobility benefits are distributed equally across gender, class, legal status or origin.",
+      "subgroup": "Migrant households, diaspora networks, remittance recipients, host communities, local authorities and people excluded from safe or regular mobility channels.",
+      "counterinterpretation": "Remittances can stabilize households while deepening dependency or inequality, and migration can shift rather than eliminate risk when receiving places lack housing, work or services.",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC146054",
+      "retrieval_hash": "sha256:6b24dd0e8b41e08443e6c615907d8e53015f6139bf93dc372ef7c8aa7d64cac9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 JRC brief; shock-responsive social protection",
+      "denominator": {"value": 1, "unit": "European Commission JRC policy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "social_protection": {"value": "Shock-responsive social protection is identified as a tool that can strengthen resilience and weaken negative climate-mobility dynamics.", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "adaptation_link": {"value": "The brief recommends combining conflict-sensitive adaptation with social protection rather than treating climate adaptation, security and welfare as separate policy silos.", "unit": "reported policy implication", "value_type": "reported_interpretation"},
+        "delivery_question": {"value": "The key unresolved route is whether assistance arrives early, adequately and safely enough to prevent harmful displacement or conflict escalation.", "unit": "open implementation question", "value_type": "reported_boundary"}
+      },
+      "method": "JRC policy synthesis connecting climate adaptation, social protection, conflict sensitivity and migration governance.",
+      "uncertainty": "The public brief does not evaluate a named social-protection program, its fiscal cost, targeting accuracy, timing, take-up or longer-term effects on displacement and conflict.",
+      "subgroup": "Poor and climate-exposed households, displaced people, migrants, host communities, social-protection agencies and humanitarian or development organizations.",
+      "counterinterpretation": "Adding social protection without accountable delivery can leave exclusion, corruption, surveillance or coercion intact; adaptation investments may also produce displacement if land and participation safeguards are weak.",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC146054",
+      "retrieval_hash": "sha256:6b24dd0e8b41e08443e6c615907d8e53015f6139bf93dc372ef7c8aa7d64cac9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 JRC brief; safe pathways and inclusive urbanization",
+      "denominator": {"value": 1, "unit": "European Commission JRC policy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "safe_pathways": {"value": "The brief recommends safe migration pathways as part of reducing forced-displacement risks and managing mobility more constructively.", "unit": "reported policy implication", "value_type": "reported_interpretation"},
+        "inclusive_urbanisation": {"value": "Inclusive urbanization is presented alongside adaptation, social protection and safe pathways as part of a resilience strategy.", "unit": "reported policy package", "value_type": "reported_interpretation"},
+        "governance_chain": {"value": "The policy chain runs from climate and conflict exposure through legal mobility, settlement, services and local inclusion to reduced risk and greater resilience.", "unit": "analytical pathway", "value_type": "inference_from_source_scope"}
+      },
+      "method": "JRC brief's integrated policy recommendations for climate security, migration and fragility.",
+      "uncertainty": "The brief does not establish how safe pathways, urban inclusion or adaptation should be sequenced, financed or evaluated across different cities and political settings.",
+      "subgroup": "Migrants, displaced people, urban residents, host communities, city governments, national migration authorities and organizations working on climate adaptation and conflict prevention.",
+      "counterinterpretation": "Urbanization can concentrate opportunity and services but also intensify housing, labor, identity and political tensions if local capacity and participation do not keep pace.",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC146054",
+      "retrieval_hash": "sha256:6b24dd0e8b41e08443e6c615907d8e53015f6139bf93dc372ef7c8aa7d64cac9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.jrc.ec.europa.eu/", "claim": "European Commission Joint Research Centre publications repository."},
+    {"source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC146054", "claim": "Official public brief record, abstract, date, author and policy synthesis."}
+  ],
+  "boundary": "This record adds a climate-security and mobility mechanism: climate stress is treated as a risk multiplier whose effects depend on political, economic and social vulnerabilities, while mobility, remittances, shock-responsive social protection, safe pathways and inclusive urbanization can support resilience under effective institutions. It is a policy brief, not a global causal event study or evaluation of a specific program.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official European Commission JRC record was reviewed for the risk-multiplier framing, two displacement/conflict pathways, mobility and remittance resilience, shock-responsive social protection, safe pathways and inclusive urbanization recommendations.",
+    "source_url_sha256": "sha256:6b24dd0e8b41e08443e6c615907d8e53015f6139bf93dc372ef7c8aa7d64cac9",
+    "checked": "2026-09-27"
+  }
+}

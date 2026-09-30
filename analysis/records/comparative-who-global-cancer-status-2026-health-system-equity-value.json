@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-global-cancer-status-2026-health-system-equity-value",
+  "title": "Cancer control is a health-system, social, and economic-capacity problem whose scientific gains remain unequally distributed",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Health Organization, Global status report on cancer 2026: The future we choose together",
+  "geography": "Global cancer burden, prevention and control systems, with comparisons between and within countries",
+  "observations": [
+    {
+      "period": "2026 report; global cancer burden and consequences",
+      "denominator": {"value": 1, "unit": "global cancer burden and health-system assessment frame", "value_type": "global_health_system_frame"},
+      "measures": {
+        "assessment_scope": {"value": "The report assesses cancer incidence, mortality, survival, risk factors, health-system performance, and human, social, and economic consequences", "unit": "reported assessment scope", "value_type": "reported_scope"},
+        "burden_system_link": {"value": "Cancer burden is analyzed alongside the capacity of health systems to respond", "unit": "reported analytic frame", "value_type": "reported_framework"},
+        "consequence_set": {"value": "Cancer has human, social, and economic consequences beyond clinical outcomes", "unit": "reported consequence set", "value_type": "reported_systemic_consequence"}
+      },
+      "method": "WHO global report combining new disease-burden data, cancer-control implementation assessment, health-system performance analysis, and evidence on social and economic consequences.",
+      "uncertainty": "The landing page describes the report scope but does not by itself supply every country estimate, causal attribution, or household-level cost distribution; measures and data quality vary across settings.",
+      "subgroup": "People at risk of cancer, people living with cancer, survivors, caregivers, health workers, health systems, employers, households, and governments.",
+      "counterinterpretation": "Scientific and clinical progress can reduce mortality and improve survival even where systems remain uneven; aggregate burden does not mean every population experiences the same risk or access.",
+      "source_url": "https://www.who.int/publications/i/item/9789240123977",
+      "retrieval_hash": "sha256:801a7890c7289703966c8ee35dfcb078c70a8e45d10feb77c9f96f1e1b9bf2bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; cancer-continuum implementation",
+      "denominator": {"value": 1, "unit": "cancer prevention-to-survivorship continuum", "value_type": "care_continuum_frame"},
+      "measures": {
+        "continuum": {"value": "The report covers prevention, early detection, diagnosis, treatment, palliative care, and survivorship", "unit": "reported service continuum", "value_type": "reported_scope"},
+        "ambition_action_gap": {"value": "Persistent gaps remain between cancer-control ambition and implementation", "unit": "reported implementation pattern", "value_type": "reported_gap"},
+        "equity_pattern": {"value": "Disparities persist both between and within countries", "unit": "reported distributional pattern", "value_type": "reported_pattern"}
+      },
+      "method": "WHO review of implementation across the cancer continuum, comparing health-system capacity and equitable access across country and subnational contexts where evidence permits.",
+      "uncertainty": "A global continuum framework does not establish that every country lacks the same service or that one implementation gap causes a particular individual outcome; local availability, quality, affordability, and continuity remain distinct.",
+      "subgroup": "People facing different cancer risks, stages, diagnoses, treatment options, income levels, geographic locations, ages, disabilities, and legal or social barriers.",
+      "counterinterpretation": "Some countries may have strong performance in selected continuum stages, and improvements in prevention or early detection can precede measurable survival gains.",
+      "source_url": "https://www.who.int/publications/i/item/9789240123977",
+      "retrieval_hash": "sha256:801a7890c7289703966c8ee35dfcb078c70a8e45d10feb77c9f96f1e1b9bf2bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; public capability, protection, and value",
+      "denominator": {"value": 1, "unit": "WHO strategic cancer-control framework", "value_type": "policy_framework"},
+      "measures": {
+        "strategic_shifts": {"value": "The report proposes three shifts: better capabilities, better protections, and better value", "unit": "reported strategic framework", "value_type": "reported_framework"},
+        "capability_route": {"value": "Stronger monitoring, prevention, early detection, treatment, palliative care, and health-system capability are linked to equitable cancer control", "unit": "reported policy route", "value_type": "reported_policy_pathway"},
+        "protection_route": {"value": "Universal health coverage and people-centred approaches are identified as protections against unequal cancer consequences", "unit": "reported policy route", "value_type": "reported_policy_pathway"}
+      },
+      "method": "WHO synthesis translating burden and implementation evidence into a strategic framework and seven recommendations for governments and other stakeholders.",
+      "uncertainty": "Recommendations are policy directions, not evaluations of realized reform, budget adequacy, or causal effects on survival, financial protection, trust, or productivity.",
+      "subgroup": "Health ministries, providers, patients, caregivers, communities, employers, insurers, public budgets, and international organizations.",
+      "counterinterpretation": "More capability can increase spending without improving value if procurement, prevention, referral, or accountability remain weak; universal coverage alone does not guarantee timely or respectful care.",
+      "source_url": "https://www.who.int/publications/i/item/9789240123977",
+      "retrieval_hash": "sha256:801a7890c7289703966c8ee35dfcb078c70a8e45d10feb77c9f96f1e1b9bf2bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; community participation and system legitimacy",
+      "denominator": {"value": 1, "unit": "people-centred cancer-control and monitoring frame", "value_type": "participatory_health_system_frame"},
+      "measures": {
+        "community_engagement": {"value": "Meaningful engagement of affected communities is identified as part of more equitable cancer control", "unit": "reported governance route", "value_type": "reported_governance_mechanism"},
+        "monitoring": {"value": "Robust monitoring systems are emphasized as necessary to see implementation and inequity", "unit": "reported capacity requirement", "value_type": "reported_capacity_requirement"},
+        "trust_link": {"value": "Respectful, people-centred, and participatory delivery can connect clinical capability to public legitimacy and usable access", "unit": "analytic transmission route", "value_type": "program_mechanism"}
+      },
+      "method": "WHO policy synthesis connecting health-system performance, affected-community engagement, monitoring, and equitable outcomes.",
+      "uncertainty": "The report does not provide a universal estimate of community participation, patient trust, complaint resolution, or adherence, and engagement is not evidence by itself of shared decision power.",
+      "subgroup": "Affected people, caregivers, patient organizations, marginalized communities, frontline workers, data and monitoring institutions, and decision-makers.",
+      "counterinterpretation": "Participation can improve fit and accountability, but poorly resourced consultation can shift unpaid burden to patients and communities without changing allocation or care decisions.",
+      "source_url": "https://www.who.int/publications/i/item/9789240123977",
+      "retrieval_hash": "sha256:801a7890c7289703966c8ee35dfcb078c70a8e45d10feb77c9f96f1e1b9bf2bd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://iris.who.int/handle/10665/382304", "claim": "WHO Iris record and downloadable full report."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240122482", "claim": "Complementary WHO World health statistics 2026 context on global health indicators and inequality monitoring."}
+  ],
+  "boundary": "This record adds a global cancer-burden, prevention-and-control, health-system-capacity, household-consequence, and community-engagement route. It uses WHO aggregate and system-level evidence, not individual patient records, household medical spending, causal treatment effects, provider quality scores, or proof that the proposed strategic shifts have been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO publication page reviewed for burden, incidence, mortality, survival, risk factors, health-system performance, continuum implementation, disparities, universal coverage, monitoring, community engagement, and the three strategic shifts.",
+    "source_url_sha256": "sha256:801a7890c7289703966c8ee35dfcb078c70a8e45d10feb77c9f96f1e1b9bf2bd",
+    "checked": "2026-09-26"
+  }
+}

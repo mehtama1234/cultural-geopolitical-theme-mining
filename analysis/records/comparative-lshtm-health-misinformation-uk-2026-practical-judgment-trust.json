@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-lshtm-health-misinformation-uk-2026-practical-judgment-trust",
+  "title": "Health misinformation creates an unequal practical-judgment gap between information exposure, confidence, and safe care decisions",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "London School of Hygiene & Tropical Medicine, Health Misinformation: Public Perceptions of Threat to the UK, based on Survation survey",
+  "geography": "United Kingdom adults aged 18+; national online-panel survey conducted 9–10 September 2026",
+  "observations": [
+    {
+      "period": "September 2026; confidence in evaluating health claims",
+      "denominator": {"value": 2110, "unit": "UK adults surveyed by Survation through an online panel", "value_type": "survey_sample"},
+      "measures": {
+        "low_confidence_accuracy": {"value": 19, "unit": "percent not very or not at all confident judging whether a health claim is accurate", "value_type": "reported_share"},
+        "high_confidence_accuracy": {"value": 45, "unit": "percent very or somewhat confident judging whether a health claim is accurate", "value_type": "reported_share"},
+        "income_gap": {"value": "56% of people earning over £40,000 were very or somewhat confident versus 34% earning under £20,000", "unit": "reported income gradient", "value_type": "reported_subgroup_contrast"},
+        "education_gap": {"value": "55% with level 4 or higher qualifications were confident versus 34% lacking level 1 qualifications", "unit": "reported education gradient", "value_type": "reported_subgroup_contrast"}
+      },
+      "method": "Cross-sectional online-panel survey commissioned and funded by LSHTM and conducted by Survation on 9–10 September 2026.",
+      "uncertainty": "Confidence is self-reported and is not a test of misinformation detection accuracy; the online-panel design and regional sample-size limits constrain representativeness and causal inference.",
+      "subgroup": "UK adults by income, educational attainment, age, region, and reported access to health-information resources.",
+      "counterinterpretation": "Lower confidence may reflect appropriate caution rather than lower capability, while high confidence does not establish accurate judgment.",
+      "source_url": "https://www.lshtm.ac.uk/research/research-action/features/health-misinformation-public-perceptions-threat-uk",
+      "retrieval_hash": "sha256:080fbd6047f1e1d3ce760a6cddf2df1a13bc5b03126ba3dd7a2037cc26e368e8",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; exposure routes and health topics",
+      "denominator": {"value": 2110, "unit": "UK adults surveyed; exposure responses allowed multiple sources or topics", "value_type": "survey_sample"},
+      "measures": {
+        "social_media_exposure": {"value": 61, "unit": "percent who had encountered health information they believed false or misleading on social media", "value_type": "reported_share"},
+        "website_blog_exposure": {"value": 30, "unit": "percent reporting websites or blogs as an exposure route", "value_type": "reported_share"},
+        "ai_chatbot_exposure": {"value": 19, "unit": "percent reporting AI chatbots as an exposure route", "value_type": "reported_share"},
+        "topic_exposure": {"value": "24% vaccines; 21% dietary supplements or weight-loss injections; 18% climate change; 16% mental health", "unit": "reported six-month topic exposure shares", "value_type": "reported_share_set"},
+        "reproductive_health_young_adults": {"value": 32, "unit": "percent of 18–24 year-olds reporting exposure to misinformation about women's reproductive health", "value_type": "reported_subgroup_share"}
+      },
+      "method": "Survey questions on prior exposure routes and six-month exposure to specified health misinformation topics; multiple responses permitted.",
+      "uncertainty": "Exposure is based on respondents' classification of claims as false or misleading; it does not verify claim falsity, exposure frequency, algorithmic causation, or subsequent behavior.",
+      "subgroup": "UK adults, with age, gender, and regional differences in reported exposure across topics and channels.",
+      "counterinterpretation": "High social-media exposure may partly reflect greater use and recall, while low reported exposure may reflect recognition gaps rather than safer information environments.",
+      "source_url": "https://www.lshtm.ac.uk/research/research-action/features/health-misinformation-public-perceptions-threat-uk",
+      "retrieval_hash": "sha256:080fbd6047f1e1d3ce760a6cddf2df1a13bc5b03126ba3dd7a2037cc26e368e8",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; regretted decisions and known harm",
+      "denominator": {"value": 2110, "unit": "UK adults surveyed, with age-specific subgroup comparisons", "value_type": "survey_sample"},
+      "measures": {
+        "regretted_health_decision": {"value": 14, "unit": "percent reporting a health decision based on false or misleading information later regretted", "value_type": "reported_share"},
+        "regretted_18_24": {"value": 22, "unit": "percent of 18–24 year-olds reporting a regretted health decision", "value_type": "reported_subgroup_share"},
+        "known_serious_harm": {"value": 21, "unit": "percent saying someone they knew had come to serious harm after such a decision", "value_type": "reported_share"},
+        "known_serious_harm_18_24": {"value": 38, "unit": "percent of 18–24 year-olds reporting someone known had suffered serious harm", "value_type": "reported_subgroup_share"},
+        "family_worry": {"value": 49, "unit": "percent worried family members could be harmed by health decisions based on misinformation", "value_type": "reported_share"}
+      },
+      "method": "Self-reported survey questions about personal regret, known serious harm, and family concerns; examples included preventable disease, delayed treatment, or prolonged symptoms.",
+      "uncertainty": "The survey does not clinically verify harms, identify specific claims, establish timing or causality, or distinguish misinformation from other reasons for a health decision.",
+      "subgroup": "Young adults, older adults, families, and respondents with different exposure and information-checking practices.",
+      "counterinterpretation": "Reported regret and known harm may increase awareness of misinformation and motivate later checking or demand for trusted information rather than only indicating vulnerability.",
+      "source_url": "https://www.lshtm.ac.uk/research/research-action/features/health-misinformation-public-perceptions-threat-uk",
+      "retrieval_hash": "sha256:080fbd6047f1e1d3ce760a6cddf2df1a13bc5b03126ba3dd7a2037cc26e368e8",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; checking behavior and policy legitimacy",
+      "denominator": {"value": 2110, "unit": "UK adults surveyed; action-priority responses ranked top three of six options", "value_type": "survey_sample"},
+      "measures": {
+        "nhs_or_government_check": {"value": 51, "unit": "percent who would check an NHS or government website", "value_type": "reported_share"},
+        "gp_or_pharmacist_check": {"value": 47, "unit": "percent who would ask a GP or local community pharmacist", "value_type": "reported_share"},
+        "ai_chatbot_check": {"value": 18, "unit": "percent who would ask an AI chatbot", "value_type": "reported_share"},
+        "government_more_action": {"value": 47, "unit": "percent saying the UK Government should do more", "value_type": "reported_share"},
+        "policy_priorities": {"value": "57% ranked penalties for those profiting from misinformation, 54% public education, and 46% platform warning labels among their top three priorities", "unit": "reported ranked-priority shares", "value_type": "reported_share_set"}
+      },
+      "method": "Survey of preferred checking routes, perceived effects, government responsibility, and ranked policy priorities.",
+      "uncertainty": "Preferred actions are legitimacy and attitude measures, not evidence that legislation, education, labeling, or support would reduce misinformation or improve care outcomes.",
+      "subgroup": "UK adults, public-health institutions, clinicians, platforms, government, families, and people using AI or social media for health information.",
+      "counterinterpretation": "A mixed response—trusted public sources, clinicians, family, AI, and social media—suggests that information ecosystems require accessible human and institutional handoffs rather than a single corrective channel.",
+      "source_url": "https://www.lshtm.ac.uk/research/research-action/features/health-misinformation-public-perceptions-threat-uk",
+      "retrieval_hash": "sha256:080fbd6047f1e1d3ce760a6cddf2df1a13bc5b03126ba3dd7a2037cc26e368e8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.lshtm.ac.uk/newsevents/news/2026/1-5-young-people-uk-regret-health-decision-based-misinformation", "claim": "LSHTM release summarizing the survey and report launch."},
+    {"source_url": "https://www.lshtm.ac.uk/research/research-action/features/health-misinformation-public-perceptions-threat-uk", "claim": "Full LSHTM report with methods, findings, questions, and limitations."}
+  ],
+  "boundary": "This record adds a health-information, practical-judgment, and institutional-trust layer. It uses an online-panel survey of 2,110 UK adults and self-reported exposure, confidence, regret, and known harms; it does not verify misinformation, clinically confirm outcomes, establish causality, estimate population prevalence beyond the sample design, or evaluate an intervention.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Full LSHTM report reviewed for survey design, confidence gradients, information sources, topic exposure, regret and known harm, checking behavior, policy priorities, and limitations.",
+    "source_url_sha256": "sha256:080fbd6047f1e1d3ce760a6cddf2df1a13bc5b03126ba3dd7a2037cc26e368e8",
+    "checked": "2026-09-28"
+  }
+}

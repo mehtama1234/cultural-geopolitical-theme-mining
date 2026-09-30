@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kas-south-africa-migration-rule-law-social-cohesion-2026",
+  "title": "Migration becomes a projection surface for urban insecurity when weak state capacity leaves jobs, housing, services, and belonging politically unresolved",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Konrad-Adenauer-Stiftung Occasional Paper Series No. 2/2026, Migration, Rule of Law, and Social Cohesion in Urban South Africa: Xenophobic Mobilisation as a Challenge to State Capacity",
+  "geography": "Urban South Africa, focused on Gauteng/Johannesburg/Pretoria with Cape Town as a comparative context",
+  "observations": [
+    {
+      "period": "2025-2026; labor-market and migration context",
+      "denominator": {"value": 1, "unit": "urban South African structural context examined in the qualitative study", "value_type": "qualitative_case_frame"},
+      "measures": {
+        "official_unemployment": {"value": 31.4, "unit": "percent official unemployment rate in South Africa in Q4 2025", "value_type": "reported_share"},
+        "expanded_unemployment": {"value": 42.1, "unit": "percent expanded unemployment rate including discouraged work-seekers in Q4 2025", "value_type": "reported_share"},
+        "immigrant_population": {"value": 5.1, "unit": "percent of population represented by more than three million immigrants in the report's cited 2026 context", "value_type": "reported_share"},
+        "structural_context": {"value": "Migration intersects with unemployment, inequality, spatial segregation, informal work, limited public services, and institutional capacity constraints", "unit": "reported structural pattern", "value_type": "reported_mechanism"},
+        "causal_boundary": {"value": "The report explicitly rejects migration as the sole or primary cause of unemployment or institutional overload", "unit": "reported analytical boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Qualitative analysis of academic literature, policy reports, media coverage, public documents, and current South African migration, labor, and social-cohesion statistics.",
+      "uncertainty": "The study is not representative or comprehensive; the structural statistics provide context but do not identify the causal contribution of migration to unemployment, public-service pressure, or violence.",
+      "subgroup": "South African workers, African migrants, informal traders, urban residents, unemployed people, public-service users, and communities in Gauteng and Cape Town.",
+      "counterinterpretation": "Migration can support labor markets, household survival, and regional mobility; high unemployment and public-service strain may be driven primarily by domestic economic and institutional conditions.",
+      "source_url": "https://www.kas.de/documents/261596/10543300/Migration%2C%2BRule%2Bof%2BLaw%2B%26%2BSocial%2BCohesion%2Bin%2BUrban%2BSouth%2BAfrica.pdf/f076e025-46eb-641e-9dd6-da619223d47a?t=1780321705549&version=1.0",
+      "retrieval_hash": "sha256:3b6eeb828034ba1d8c42674834ea8afcf73f237231f8305f5ff3130c92b19089",
+      "status": "reported"
+    },
+    {
+      "period": "1994-2026; xenophobic discrimination, violence, and social cohesion",
+      "denominator": {"value": 1, "unit": "Xenowatch incident and impact series cited by the qualitative study", "value_type": "reported_event_series"},
+      "measures": {
+        "incidents": {"value": 1295, "unit": "xenophobic discrimination and violence incidents documented since 1994", "value_type": "reported_count"},
+        "displacements": {"value": 128758, "unit": "people displaced in the cited Xenowatch series", "value_type": "reported_count"},
+        "looted_businesses": {"value": 5648, "unit": "businesses looted in the cited Xenowatch series", "value_type": "reported_count"},
+        "deaths": {"value": 696, "unit": "deaths in the cited Xenowatch series", "value_type": "reported_count"},
+        "violence_boundary": {"value": "The study treats the figures as evidence that xenophobia is not merely transient attitude, while warning that under-reporting is likely", "unit": "reported evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Qualitative synthesis using Xenowatch, public reporting, research literature, and policy analysis.",
+      "uncertainty": "The series may undercount incidents and the study does not establish that all recorded harms are attributable to a single movement or cause; event definitions and reporting coverage matter.",
+      "subgroup": "African migrants, migrant-owned businesses, displaced residents, local communities, civil-society monitors, police, and public institutions.",
+      "counterinterpretation": "Documented incidents may be concentrated in high-visibility periods or locations; counter-mobilization and community solidarity can coexist with serious violence and exclusion.",
+      "source_url": "https://www.kas.de/documents/261596/10543300/Migration%2C%2BRule%2Bof%2BLaw%2B%26%2BSocial%2BCohesion%2Bin%2BUrban%2BSouth%2BAfrica.pdf/f076e025-46eb-641e-9dd6-da619223d47a?t=1780321705549&version=1.0",
+      "retrieval_hash": "sha256:3b6eeb828034ba1d8c42674834ea8afcf73f237231f8305f5ff3130c92b19089",
+      "status": "reported"
+    },
+    {
+      "period": "2026; institutional trust, political attribution, and exclusionary mobilisation",
+      "denominator": {"value": 1, "unit": "South African public-opinion and institutional-trust context synthesized in the study", "value_type": "qualitative_comparative_frame"},
+      "measures": {
+        "parliament_trust": {"value": 33, "unit": "approximately percent of the population reported as trusting parliament", "value_type": "reported_approximate_share"},
+        "political_party_trust": {"value": 23, "unit": "percent of the population reported as trusting political parties", "value_type": "reported_share"},
+        "government_trust": {"value": 27, "unit": "approximately percent of the population reported as trusting government", "value_type": "reported_approximate_share"},
+        "attribution_mechanism": {"value": "When unemployment, housing, crime, service overload, and institutional failure are attributed to migrants, structural causes recede and conflict is reorganized around belonging and exclusion", "unit": "reported analytical mechanism", "value_type": "bounded_mechanism"},
+        "private_authority": {"value": "When public authorities appear overwhelmed or opaque, private movements can claim authority to verify residency, control access, or restore order", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative interpretation of Afrobarometer findings, media and political discourse, movement activity, and rule-of-law analysis.",
+      "uncertainty": "The study does not estimate a causal effect of trust on xenophobia or verify every cited public-opinion figure; political attribution varies across groups, locations, and time.",
+      "subgroup": "People with different socioeconomic capital, local residents, migrants, political movements, public agencies, and civil-society organizations.",
+      "counterinterpretation": "Public concern about migration can include legitimate questions about administrative capacity and legal status without necessarily producing xenophobic exclusion; low trust may be a consequence as well as a condition of mobilisation.",
+      "source_url": "https://www.kas.de/documents/261596/10543300/Migration%2C%2BRule%2Bof%2BLaw%2B%26%2BSocial%2BCohesion%2Bin%2BUrban%2BSouth%2BAfrica.pdf/f076e025-46eb-641e-9dd6-da619223d47a?t=1780321705549&version=1.0",
+      "retrieval_hash": "sha256:3b6eeb828034ba1d8c42674834ea8afcf73f237231f8305f5ff3130c92b19089",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; Gauteng and Cape Town urban variation",
+      "denominator": {"value": 2, "unit": "urban contexts compared: Gauteng and Cape Town/Western Cape", "value_type": "qualitative_comparative_case_frame"},
+      "measures": {
+        "gauteng_context": {"value": "Gauteng concentrates labor-related migration, informal work, housing shortages, public-service competition, and visible organized xenophobic mobilisation", "unit": "reported urban pattern", "value_type": "reported_pattern"},
+        "cape_town_context": {"value": "Cape Town is more strongly associated in the study with spatial segregation, displacement, gentrification, housing and cost-of-living conflict, and less visible everyday exclusion", "unit": "reported urban pattern", "value_type": "reported_pattern"},
+        "incident_comparison": {"value": "The cited Xenowatch analysis recorded 79 incidents in Gauteng versus 36 in the Western Cape from 2022 to 2024", "unit": "reported incident comparison", "value_type": "reported_comparison"},
+        "place_meaning": {"value": "The same migration and belonging conflict takes different forms depending on labor markets, housing, spatial segregation, visibility, and institutional reach", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Qualitative comparison of urban contexts using migration, labor, housing, media, movement, and Xenowatch evidence.",
+      "uncertainty": "Two urban contexts cannot establish a general city typology; incident counts and qualitative contrasts may reflect differences in reporting, visibility, organization, or population scale.",
+      "subgroup": "Residents, internal and international migrants, informal workers, tenants, neighborhood organizations, city governments, and movements in Gauteng and the Western Cape.",
+      "counterinterpretation": "Organized visibility in Gauteng may make conflict appear more prevalent than everyday exclusion in Cape Town; urban differences may reflect institutional reporting rather than fundamentally different social dynamics.",
+      "source_url": "https://www.kas.de/documents/261596/10543300/Migration%2C%2BRule%2Bof%2BLaw%2B%26%2BSocial%2BCohesion%2Bin%2BUrban%2BSouth%2BAfrica.pdf/f076e025-46eb-641e-9dd6-da619223d47a?t=1780321705549&version=1.0",
+      "retrieval_hash": "sha256:3b6eeb828034ba1d8c42674834ea8afcf73f237231f8305f5ff3130c92b19089",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.afrobarometer.org/publication/ad1108-south-africans-oppose-immigration-express-mixed-attitudes-toward-foreigners/", "claim": "Afrobarometer source cited for South African public attitudes toward immigration and foreigners."},
+    {"source_url": "https://xenowatch.ac.za/", "claim": "Xenowatch source cited for documented incidents, displacement, business losses, and deaths."},
+    {"source_url": "https://www.kas.de/documents/261596/10543300/Migration%2C%2BRule%2Bof%2BLaw%2B%26%2BSocial%2BCohesion%2Bin%2BUrban%2BSouth%2BAfrica.pdf/f076e025-46eb-641e-9dd6-da619223d47a?t=1780321705549&version=1.0", "claim": "Official 2026 qualitative paper and full methodological boundary."}
+  ],
+  "boundary": "This record adds a comparative urban-cohesion route from unemployment, inequality, housing, services, migration, and institutional distrust through political attribution, xenophobic mobilisation, rule-of-law erosion, private claims to authority, and social fragmentation. It is a qualitative case analysis with cited statistics and event series, not a representative public-opinion study, a causal migration-impact estimate, or a general claim about South Africa or migrants.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Konrad-Adenauer-Stiftung PDF was reviewed for the South African labor and migration context, Xenowatch incident series, institutional trust, Gauteng/Cape Town comparison, and the paper's qualitative non-representative methodology.",
+    "source_url_sha256": "sha256:3b6eeb828034ba1d8c42674834ea8afcf73f237231f8305f5ff3130c92b19089",
+    "checked": "2026-09-28"
+  }
+}

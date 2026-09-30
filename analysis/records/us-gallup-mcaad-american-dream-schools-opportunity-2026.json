@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-mcaad-american-dream-schools-opportunity-2026",
+  "title": "Education is a widely valued American-Dream institution whose perceived school performance tracks opportunity hope",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Milken Center for Advancing the American Dream and Gallup American Dream Study, second wave",
+  "geography": "United States; nationally representative survey of more than 6,300 adults, fielded January 7-March 4, 2026",
+  "observations": [
+    {
+      "period": "January 7-March 4, 2026; education as part of the American Dream",
+      "denominator": {"value": 6300, "unit": "more than 6,300 U.S. adults surveyed in the MCAAD-Gallup American Dream Study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "quality_education_dream": {"value": 92, "unit": "percent saying obtaining a quality education is a very or somewhat important part of the American Dream", "value_type": "published_survey_estimate"},
+        "very_important_education": {"value": 61, "unit": "percent saying quality education is very important to the American Dream", "value_type": "published_survey_estimate"},
+        "future_priority": {"value": "Education and learning rank third among areas Americans say the U.S. should prioritize over the next 50 years to expand opportunity for future generations.", "unit": "reported priority ranking", "value_type": "reported_mechanism"},
+        "education_as_social_contract": {"value": "Education functions as a cultural promise connecting present institutions to future mobility, work opportunity and intergenerational fairness.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Second wave of the nationally representative MCAAD-Gallup American Dream Study, conducted by web and mail among more than 6,300 U.S. adults from January 7-March 4, 2026.",
+      "uncertainty": "The public article does not provide the exact sample size, full weighting details or respondent-level linkage between school experiences and Dream judgments; the study is observational.",
+      "subgroup": "U.S. adults, with comparisons by age, parent status, education, political party and financial circumstances.",
+      "counterinterpretation": "Education may be a symbolic expression of broader opportunity ideals rather than a direct evaluation of schools; respondents may value education even while distrusting current institutions.",
+      "source_url": "https://news.gallup.com/poll/714437/hope-american-dream-linked-views-schools.aspx",
+      "retrieval_hash": "source_page:sha256:34f14ee454fc77811a9ce63eaa245544c10ad176399e3e82fd891c59b2b0a300",
+      "status": "reported"
+    },
+    {
+      "period": "January 7-March 4, 2026; importance-performance gap in K-12 goals",
+      "denominator": {"value": 6300, "unit": "more than 6,300 U.S. adults surveyed; goal-specific denominators follow the study question", "value_type": "reported_survey_sample"},
+      "measures": {
+        "critical_thinking_gap": {"value": "88% call teaching critical thinking and problem-solving very important, while 17% rate K-12 schools excellent or very good on that goal", "unit": "reported importance-performance comparison", "value_type": "published_survey_estimate"},
+        "life_improvement_gap": {"value": "79% call giving everyone a chance to improve life circumstances very important, while 18% rate school performance excellent or very good", "unit": "reported importance-performance comparison", "value_type": "published_survey_estimate"},
+        "workforce_preparation_gap": {"value": "77% call workforce preparation very important, while 16% rate schools excellent or very good on it", "unit": "reported importance-performance comparison", "value_type": "published_survey_estimate"},
+        "institutional_bargain_gap": {"value": "Large gaps between what education is expected to deliver and what schools are perceived to deliver can weaken confidence in opportunity institutions even when their cultural value remains high.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive importance and performance ratings from the MCAAD-Gallup survey across five K-12 goals.",
+      "uncertainty": "Ratings are public perceptions, not classroom observations, achievement measures, causal school evaluations or evidence about individual student outcomes.",
+      "subgroup": "U.S. adults; ratings vary by age, parent status, education and direct connection to schools.",
+      "counterinterpretation": "Respondents may hold higher standards for national institutions than for their local schools, and low ratings may reflect general political dissatisfaction or media narratives rather than school operations.",
+      "source_url": "https://news.gallup.com/poll/714437/hope-american-dream-linked-views-schools.aspx",
+      "retrieval_hash": "source_page:sha256:34f14ee454fc77811a9ce63eaa245544c10ad176399e3e82fd891c59b2b0a300",
+      "status": "reported"
+    },
+    {
+      "period": "January 7-March 4, 2026; school ratings and American-Dream optimism",
+      "denominator": {"value": 6300, "unit": "more than 6,300 U.S. adults surveyed; favorable-rating subgroup defined by rating at least three of five school goals excellent or very good", "value_type": "reported_survey_sample"},
+      "measures": {
+        "favorable_school_optimism": {"value": 65, "unit": "percent of adults with favorable school ratings who agree they are optimistic about the future of the American Dream", "value_type": "published_subgroup_estimate"},
+        "other_school_optimism": {"value": 38, "unit": "percent among adults not giving favorable ratings on at least three goals", "value_type": "published_subgroup_estimate"},
+        "everyone_opportunity": {"value": "61% of favorable-ratings group versus 43% of others agree everyone has opportunity to achieve the Dream", "unit": "reported subgroup comparison", "value_type": "published_subgroup_estimate"},
+        "next_generation": {"value": "68% of favorable-ratings group versus 40% of others agree the next generation will have more opportunities", "unit": "reported subgroup comparison", "value_type": "published_subgroup_estimate"},
+        "association_boundary": {"value": "The reported link persists after accounting for age, education, party, financial circumstances and general optimism, but remains an observational association rather than a demonstrated school effect.", "unit": "reported statistical boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Gallup summary of adjusted and unadjusted associations between K-12 ratings and American-Dream optimism; full model details are provided in a linked appendix.",
+      "uncertainty": "The public article does not establish temporal order, causal direction, unmeasured family or community factors, or whether improving school performance would increase Dream optimism.",
+      "subgroup": "Adults rating schools favorably on at least three of five goals versus those who do not.",
+      "counterinterpretation": "Optimistic people may rate institutions more favorably, or both ratings may reflect local conditions, socioeconomic security, political identity or direct school connection.",
+      "source_url": "https://news.gallup.com/poll/714437/hope-american-dream-linked-views-schools.aspx",
+      "retrieval_hash": "source_page:sha256:34f14ee454fc77811a9ce63eaa245544c10ad176399e3e82fd891c59b2b0a300",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/714437/hope-american-dream-linked-views-schools.aspx", "claim": "Official Gallup article reports MCAAD-Gallup sample, education importance, K-12 goals, importance-performance gaps, subgroup patterns and Dream-optimism associations."}
+  ],
+  "boundary": "This record adds an education-to-opportunity-legitimacy route from cultural valuation of quality education through perceived K-12 performance, intergenerational hope and institutional confidence. It does not establish school effectiveness, causal effects on optimism, student achievement, classroom conditions or policy impact.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup article was reviewed for survey frame, sample and field dates, education importance, five K-12 goals, importance-performance gaps, personal/direct-connection differences, favorable-rating subgroup comparisons and association caveats.",
+    "source_page_sha256": "sha256:34f14ee454fc77811a9ce63eaa245544c10ad176399e3e82fd891c59b2b0a300",
+    "checked": "2026-09-29"
+  }
+}

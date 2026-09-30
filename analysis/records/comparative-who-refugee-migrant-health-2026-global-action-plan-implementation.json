@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-refugee-migrant-health-2026-global-action-plan-implementation",
+  "title": "Refugee and migrant health is being reframed as core public-health, migration-governance, development, and universal-coverage infrastructure rather than a parallel humanitarian service",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "WHO, World report on promoting the health of refugees and migrants: Monitoring progress on the WHO global action plan",
+  "geography": "Global; all six WHO regions and countries implementing the 2019-2030 Global Action Plan on Promoting the Health of Refugees and Migrants",
+  "observations": [
+    {
+      "period": "2026 report; first global baseline for the 2019-2030 WHO Global Action Plan",
+      "denominator": {"value": 93, "unit": "WHO Member States completing the first Global Survey on Health and Migration in early 2025", "value_type": "reported_country_response_count"},
+      "measures": {
+        "baseline": {"value": "The report provides the first global baseline for assessing implementation of the WHO Global Action Plan on Promoting the Health of Refugees and Migrants", "unit": "reported monitoring milestone", "value_type": "reported_institutional_milestone"},
+        "integration_scope": {"value": "Refugee and migrant health is assessed within public health, migration governance, development, and universal health coverage agendas", "unit": "reported policy-integration frame", "value_type": "reported_scope"},
+        "regional_coverage": {"value": 6, "unit": "WHO regions represented by global evidence, policy analysis, and country case studies", "value_type": "reported_region_count"}
+      },
+      "method": "WHO global report structured around six Global Action Plan priority areas, combining the 93-country Global Survey on Health and Migration, global evidence, policy analysis, and country case studies from all six WHO regions.",
+      "uncertainty": "A country-reported implementation survey is not a complete measure of service quality, access, health outcomes, or lived experience; participation and reporting capacity may vary across countries and policy domains.",
+      "subgroup": "Refugees, asylum-seekers, migrants in different legal and work statuses, host communities, health systems, migration authorities, and public-health and development institutions.",
+      "counterinterpretation": "Embedding migrant health in national systems can improve continuity and equity, but formal integration may coexist with exclusionary eligibility rules, detention, fear of authorities, language barriers, or uneven implementation.",
+      "source_url": "https://www.who.int/publications/i/item/9789240117747",
+      "retrieval_hash": "sha256:5095ae181cc9ed9699da6780ba8289b6ec112ad7c3cf160c369fd20c1fa83b28",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; six priority areas of the WHO Global Action Plan",
+      "denominator": {"value": 6, "unit": "Global Action Plan priority areas used to structure the report", "value_type": "reported_framework_count"},
+      "measures": {
+        "priority_structure": {"value": "The report consolidates implementation evidence across the six priority areas of the Global Action Plan", "unit": "reported monitoring framework", "value_type": "reported_framework"},
+        "cross_sector_route": {"value": "The implementation route joins health equity and system resilience to migration governance, development, universal health coverage, leadership, investment, coordination, data, and participation", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "recommended_roadmaps": {"value": "WHO recommends national implementation roadmaps, stronger monitoring systems, cross-sector partnerships, and inclusion of refugees and migrants in decision-making", "unit": "reported recommendation set", "value_type": "reported_recommendation"}
+      },
+      "method": "WHO synthesis of the Global Action Plan's six priority areas, survey findings, policy analysis, and country examples.",
+      "uncertainty": "The public summary does not enumerate the country-level performance of each priority area or establish which recommendations are most effective under different legal, fiscal, conflict, or health-system conditions.",
+      "subgroup": "National ministries, health providers, local authorities, migrant and refugee organizations, civil society, employers, schools, and people on the move.",
+      "counterinterpretation": "Roadmaps and coordination mechanisms can become administrative overlays without budget, workforce, legal protection, interpretation, data safeguards, and accountability to affected people.",
+      "source_url": "https://www.who.int/publications/i/item/9789240117747",
+      "retrieval_hash": "sha256:5095ae181cc9ed9699da6780ba8289b6ec112ad7c3cf160c369fd20c1fa83b28",
+      "status": "reported"
+    },
+    {
+      "period": "2026; health equity and system resilience for people on the move",
+      "denominator": {"value": 1, "unit": "WHO global health-and-migration policy frame", "value_type": "reported_framework"},
+      "measures": {
+        "health_equity": {"value": "The report frames migrant- and refugee-inclusive action as essential to health equity", "unit": "reported policy objective", "value_type": "reported_objective"},
+        "system_resilience": {"value": "The report links inclusive refugee and migrant health systems to broader system resilience and global health security", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "continuity": {"value": "Health, migration, and development systems are treated as connected across movement and settlement contexts rather than as isolated emergency phases", "unit": "reported systems frame", "value_type": "reported_interpretation"}
+      },
+      "method": "WHO report overview and stated implications for integrating refugee and migrant health into public-health, migration-governance, development, and UHC agendas.",
+      "uncertainty": "System-level framing does not measure continuity of care, health outcomes, or resilience in every setting; health security language can also prioritize state surveillance over migrant agency and privacy if safeguards are weak.",
+      "subgroup": "People moving across borders, displaced populations, host communities, health workers, public-health agencies, and institutions responsible for UHC and emergency preparedness.",
+      "counterinterpretation": "Inclusive health systems may improve population health, but political backlash, resource scarcity, unequal host-community investment, and legal precarity can limit trust and actual use.",
+      "source_url": "https://www.who.int/publications/i/item/9789240117747",
+      "retrieval_hash": "sha256:5095ae181cc9ed9699da6780ba8289b6ec112ad7c3cf160c369fd20c1fa83b28",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; governance and participation route",
+      "denominator": {"value": 1, "unit": "WHO report recommendation frame", "value_type": "reported_framework"},
+      "measures": {
+        "leadership": {"value": "Stronger leadership, sustained investment, and enhanced coordination are identified as necessary to promote refugee and migrant health", "unit": "reported implementation requirement", "value_type": "reported_requirement"},
+        "data_monitoring": {"value": "Strengthened data and monitoring systems are recommended for implementation tracking and accountability", "unit": "reported institutional requirement", "value_type": "reported_requirement"},
+        "affected_voice": {"value": "The report recommends greater inclusion of refugees and migrants in decision-making processes", "unit": "reported participation requirement", "value_type": "reported_requirement"}
+      },
+      "method": "WHO report recommendations derived from global evidence, the 93-country survey, policy analysis, and country case studies.",
+      "uncertainty": "Participation language does not establish representation, decision power, safety, compensation, or feedback closure; data systems can also create privacy and status risks for people with insecure legal positions.",
+      "subgroup": "Refugees and migrants, representative organizations, local communities, health and migration authorities, data stewards, and civil-society partners.",
+      "counterinterpretation": "Inclusion can be consultative rather than authoritative, and monitoring can improve administrative visibility without reducing discrimination, exclusion, or unequal bargaining power.",
+      "source_url": "https://www.who.int/publications/i/item/9789240117747",
+      "retrieval_hash": "sha256:5095ae181cc9ed9699da6780ba8289b6ec112ad7c3cf160c369fd20c1fa83b28",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://iris.who.int/server/api/core/bitstreams/d62502a5-fd7a-431f-b90c-7864e227e9db/content", "claim": "WHO publication page links the 122-page global report download."}
+  ],
+  "boundary": "This record adds a global refugee- and migrant-health signal on implementation monitoring, cross-sector integration, health equity, system resilience, data, participation, and governance. It is based on the WHO public report summary and its 93-country survey frame, not respondent-level microdata, a complete health-outcome evaluation, proof of equal access, or evidence that national roadmaps are implemented effectively.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO publication page reviewed for report date, first global baseline claim, six priority areas, 93-country Global Survey on Health and Migration, six-region evidence base, integration agenda, recommendations, and report metadata.",
+    "source_url_sha256": "sha256:5095ae181cc9ed9699da6780ba8289b6ec112ad7c3cf160c369fd20c1fa83b28",
+    "checked": "2026-09-27"
+  }
+}

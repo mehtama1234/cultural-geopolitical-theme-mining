@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cbo-social-security-long-term-projections-2026-trust-fund-2032-intergenerational-contract",
+  "title": "Retirement security is a present social contract with a 2032 institutional deadline",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Congressional Budget Office, CBO's 2026 Long-Term Projections for Social Security, September 17, 2026",
+  "geography": "United States; Social Security program, Old-Age and Survivors Insurance Trust Fund, current-law 75-year projection",
+  "observations": [
+    {
+      "period": "2026–2100; CBO 75-year current-law projection",
+      "denominator": {"value": 75, "unit": "years in the projection horizon", "value_type": "reported_projection_frame"},
+      "measures": {
+        "financing_gap": {"value": "the gap between Social Security outlays and revenues generally widens over the next 75 years", "unit": "reported projection direction", "value_type": "reported_projection"},
+        "law_assumption": {"value": "current laws generally remain unchanged", "unit": "projection assumption", "value_type": "reported_assumption"},
+        "mechanism": {"value": "A long-horizon financing imbalance becomes a present expectation problem when workers, retirees and institutions must interpret what unchanged law can credibly promise", "unit": "bounded institutional-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CBO annual projection of Social Security revenues and outlays for the next 75 years under generally unchanged current law; this record uses the official report page and its summary of the linked workbook.",
+      "uncertainty": "The projection is conditional on current-law assumptions and is not a forecast of enacted policy, household behavior, political response or lived retirement adequacy.",
+      "subgroup": "Current workers paying payroll taxes, current and future retirees, survivors, dependents, employers and households making work, saving and care decisions around expected public retirement income.",
+      "counterinterpretation": "A widening projected gap does not by itself establish an imminent loss of benefits, a particular reform, or a uniform burden across generations; those outcomes depend on future law and distributional choices.",
+      "source_url": "https://www.cbo.gov/publication/62556",
+      "retrieval_hash": "cbo-official-report-page:sha256:7a528a6bf471529a4802d60060cf45fe53bcd050fcbaea325520abe527dc5c7c",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2032; Old-Age and Survivors Insurance Trust Fund",
+      "denominator": {"value": 1, "unit": "OASI Trust Fund", "value_type": "reported_institutional_frame"},
+      "measures": {
+        "deadline": {"value": 2032, "unit": "fiscal year in which CBO projects the OASI Trust Fund balance is exhausted", "value_type": "reported_projection"},
+        "visibility": {"value": "A specific institutional date makes retirement-system solvency legible as a near-term political and household-planning issue rather than an abstract 75-year chart", "unit": "bounded interpretation", "value_type": "bounded_mechanism"},
+        "policy_choice": {"value": "The source establishes the exhaustion projection but does not specify the post-exhaustion benefit, financing or reform outcome", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "CBO official summary of the 2026 long-term Social Security projections.",
+      "uncertainty": "Trust-fund exhaustion is conditional on the report's current-law projection and should not be read as a claim that a specific automatic benefit reduction or payment outcome will occur.",
+      "subgroup": "People approaching retirement, younger workers assessing the credibility of future benefits, families coordinating paid work and unpaid care, and political constituencies assigning responsibility for reform.",
+      "counterinterpretation": "The date can mobilize reform and planning without producing a single shared public narrative; perceived urgency may differ by age, income, health, family support and trust in institutions.",
+      "source_url": "https://www.cbo.gov/publication/62556",
+      "retrieval_hash": "cbo-official-report-page:sha256:7a528a6bf471529a4802d60060cf45fe53bcd050fcbaea325520abe527dc5c7c",
+      "status": "reported"
+    },
+    {
+      "period": "Long-run intergenerational frame; current workers, retirees and dependents",
+      "denominator": {"value": 1, "unit": "Social Security social-contract frame", "value_type": "bounded_interpretive_frame"},
+      "measures": {
+        "intergenerational_link": {"value": "Payroll-financed retirement expectations connect work, aging, family care, public revenue and political voice across generations", "unit": "bounded cross-domain mechanism", "value_type": "bounded_mechanism"},
+        "legitimacy_question": {"value": "The practical question becomes whether the system is experienced as reliable, fairly financed and responsive before the projected deadline arrives", "unit": "analytic question", "value_type": "bounded_mechanism"},
+        "consumer_social_effect": {"value": "Expected public retirement security can shape saving, labor-force timing, family transfers, care arrangements and willingness to accept tax or benefit changes", "unit": "bounded downstream pathway", "value_type": "bounded_mechanism"}
+      },
+      "method": "Interpretive extension of the CBO projection, explicitly separated from the report's measured fiscal projections.",
+      "uncertainty": "The CBO source does not measure public attitudes, saving behavior, family care, consumption, political attribution or subgroup-specific adequacy; those require linked survey, administrative and episode evidence.",
+      "subgroup": "Workers, retirees, caregivers, employers, taxpayers and households with unequal access to private savings, housing wealth, health and family support.",
+      "counterinterpretation": "Public retirement systems can retain legitimacy through reform, trust, private resources or strong family support; a fiscal projection alone cannot establish cultural conflict or political realignment.",
+      "source_url": "https://www.cbo.gov/publication/62556",
+      "retrieval_hash": "cbo-official-report-page:sha256:7a528a6bf471529a4802d60060cf45fe53bcd050fcbaea325520abe527dc5c7c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cbo.gov/publication/62556", "claim": "Official CBO report page with publication date, 75-year current-law scope, widening outlay-revenue gap and projected OASI Trust Fund exhaustion in fiscal year 2032."},
+    {"source_url": "https://www.cbo.gov/system/files/2026-09/62556-2026-Long-Term-Social-Security-Projections.xlsx", "claim": "Official data workbook linked by CBO for the projections underlying the report."}
+  ],
+  "boundary": "This record identifies a retirement-security, intergenerational-contract and institutional-legitimacy subtheme from a conditional CBO projection. It does not establish post-2032 benefit levels, automatic benefit reductions, reform choices, public opinion, household adequacy, saving behavior, family care, political response or causal effects; those require linked policy, survey, household and episode evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official CBO report page was reviewed for the September 17, 2026 publication date, 75-year current-law projection scope, widening outlay-revenue gap and projected fiscal-year-2032 OASI Trust Fund exhaustion; the linked workbook was identified but exact workbook bytes were not used for numeric extraction.",
+    "source_url_sha256": "cbo-official-report-page:sha256:7a528a6bf471529a4802d60060cf45fe53bcd050fcbaea325520abe527dc5c7c",
+    "checked": "2026-09-29"
+  }
+}

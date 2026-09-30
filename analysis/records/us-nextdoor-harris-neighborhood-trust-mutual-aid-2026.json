@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nextdoor-harris-neighborhood-trust-mutual-aid-2026",
+  "title": "Neighborhood trust is practically resilient but socially under-connected, especially for young adults",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Nextdoor/The Harris Poll, Most Americans Still Rely on Their Neighbors, September 28, 2026",
+  "geography": "United States; adults age 18+",
+  "observations": [
+    {
+      "period": "April 16-20, 2026 survey fieldwork, published September 28, 2026; practical neighborhood reliance",
+      "denominator": {"value": 1003, "unit": "U.S. adults age 18+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "trust_strengthened": {"value": 32, "unit": "percent saying trust in their neighborhood strengthened over the past five years", "value_type": "published_survey_estimate"},
+        "trust_weakened": {"value": 16, "unit": "percent saying neighborhood trust weakened over the past five years", "value_type": "published_survey_estimate"},
+        "neighbor_help": {"value": 67, "unit": "percent saying they could call on a neighbor for help if needed", "value_type": "published_survey_estimate"},
+        "neighborhood_belonging": {"value": 64, "unit": "percent feeling a sense of belonging where they live", "value_type": "published_survey_estimate"},
+        "mutual_aid_route": {"value": "Neighborhood social infrastructure can remain operational even when broad narratives describe social trust as uniformly declining.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Online Harris Poll conducted for Nextdoor in the United States; results weighted for demographic and political characteristics where necessary to align with population proportions.",
+      "uncertainty": "This is a commissioned, cross-sectional online survey using respondents who agreed to participate; reported trust and willingness to seek help are not observed assistance, repeated contact, or a causal neighborhood effect.",
+      "subgroup": "U.S. adults age 18+; the publication reports age, region, and other subgroup comparisons.",
+      "counterinterpretation": "People may report generalized reliance or belonging without using it during a real shock; the apparent improvement may reflect recall, question framing, or selective participation.",
+      "source_url": "https://blog.nextdoor.com/most-americans-still-rely-on-their-neighbors.-new-nextdoor-research-shows-the-conditions-for-stronger-communities-are-already-in-place",
+      "retrieval_hash": "sha256:230ed9be944ccae1fb7db16fad60ad50ed086dbccfcad31d4254c2adec704c2b",
+      "status": "reported"
+    },
+    {
+      "period": "April 16-20, 2026 survey fieldwork, published September 28, 2026; desired versus experienced connection",
+      "denominator": {"value": 1003, "unit": "U.S. adults age 18+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "want_more_interaction": {"value": 27, "unit": "percent wanting more interaction with neighbors than they currently have", "value_type": "published_survey_estimate"},
+        "young_adult_loneliness": {"value": 69, "unit": "percent of adults ages 18-24 feeling lonely or socially isolated at least sometimes", "value_type": "published_subgroup_estimate"},
+        "overall_loneliness": {"value": 46, "unit": "percent of adults overall feeling lonely or socially isolated at least sometimes", "value_type": "published_survey_estimate"},
+        "young_adult_welcomed": {"value": 24, "unit": "percent of adults ages 18-24 feeling welcomed or included by neighbors, versus 41% overall", "value_type": "published_subgroup_estimate"},
+        "connection_option_gap": {"value": "The strongest neighborhood connection gap is not necessarily refusal of community; it is a lack of low-stakes routes into belonging for younger adults.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional online survey with subgroup estimates reported by age.",
+      "uncertainty": "The subgroup base and exact question wording are not fully reproduced in the publication summary; loneliness, welcome, and desired interaction are self-reports and not measures of social-network size or service access.",
+      "subgroup": "Adults ages 18-24 compared with U.S. adults overall.",
+      "counterinterpretation": "Young adults may be more willing to name loneliness or desire for interaction than older adults, so differences may partly reflect reporting norms.",
+      "source_url": "https://blog.nextdoor.com/most-americans-still-rely-on-their-neighbors.-new-nextdoor-research-shows-the-conditions-for-stronger-communities-are-already-in-place",
+      "retrieval_hash": "sha256:230ed9be944ccae1fb7db16fad60ad50ed086dbccfcad31d4254c2adec704c2b",
+      "status": "reported"
+    },
+    {
+      "period": "April 16-20, 2026 survey fieldwork, published September 28, 2026; local recommendation trust",
+      "denominator": {"value": 1003, "unit": "U.S. adults age 18+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "neighbor_recommendation_trust": {"value": 35, "unit": "percent trusting neighbors a lot or completely for contractor or local-service recommendations", "value_type": "published_survey_estimate"},
+        "online_review_trust": {"value": 25, "unit": "percent trusting online reviews a lot or completely for contractor or local-service recommendations", "value_type": "published_survey_estimate"},
+        "influencer_recommendation_trust": {"value": 14, "unit": "percent trusting social-media influencers a lot or completely for contractor or local-service recommendations", "value_type": "published_survey_estimate"},
+        "proximity_accountability": {"value": "Local recommendation trust may derive from proximity and repeat accountability rather than from abstract platform reputation alone.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional online survey; respondents rated information sources for local contractor and service recommendations.",
+      "uncertainty": "Trust ratings are not verified recommendation accuracy, completed purchases, service quality, or remedy; the platform sponsor may make neighborhood-mediated routes more salient.",
+      "subgroup": "U.S. adults age 18+.",
+      "counterinterpretation": "Neighbors may be trusted because recommendations are socially visible, not necessarily because they provide better information than reviews or influencers.",
+      "source_url": "https://blog.nextdoor.com/most-americans-still-rely-on-their-neighbors.-new-nextdoor-research-shows-the-conditions-for-stronger-communities-are-already-in-place",
+      "retrieval_hash": "sha256:230ed9be944ccae1fb7db16fad60ad50ed086dbccfcad31d4254c2adec704c2b",
+      "status": "reported"
+    },
+    {
+      "period": "April 16-20, 2026 survey fieldwork, published September 28, 2026; trust-building infrastructure",
+      "denominator": {"value": 1003, "unit": "U.S. adults age 18+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "day_to_day_interaction": {"value": 66, "unit": "percent naming regular day-to-day interactions as what strengthens neighbor trust", "value_type": "published_survey_estimate"},
+        "long_term_residency": {"value": 45, "unit": "percent naming long-term residency as a trust-strengthening condition", "value_type": "published_survey_estimate"},
+        "community_events": {"value": 31, "unit": "percent naming shared community events", "value_type": "published_survey_estimate"},
+        "shared_public_spaces": {"value": 24, "unit": "percent naming shared public spaces", "value_type": "published_survey_estimate"},
+        "neighborhood_apps": {"value": 17, "unit": "percent naming neighborhood apps or online groups", "value_type": "published_survey_estimate"},
+        "communication_barrier": {"value": 46, "unit": "percent naming lack of communication as what most weakens neighbor trust", "value_type": "published_survey_estimate"},
+        "infrastructure_mechanism": {"value": "Digital tools may lower the cost of repeated contact, but the reported trust-building mechanism is recurring interaction rather than app use by itself.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional online survey with multiple-response trust-builder and trust-barrier items.",
+      "uncertainty": "The estimates identify perceived mechanisms, not experimental effects of apps, events, public space, or residency; categories may overlap and the sponsor is a neighborhood platform.",
+      "subgroup": "U.S. adults age 18+.",
+      "counterinterpretation": "People who already trust neighbors may be more likely to value or participate in repeated interaction, so the direction of influence is unresolved.",
+      "source_url": "https://blog.nextdoor.com/most-americans-still-rely-on-their-neighbors.-new-nextdoor-research-shows-the-conditions-for-stronger-communities-are-already-in-place",
+      "retrieval_hash": "sha256:230ed9be944ccae1fb7db16fad60ad50ed086dbccfcad31d4254c2adec704c2b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://blog.nextdoor.com/most-americans-still-rely-on-their-neighbors.-new-nextdoor-research-shows-the-conditions-for-stronger-communities-are-already-in-place", "claim": "Official Nextdoor publication page containing survey results, subgroup contrasts, recommendation-trust findings, and methodology.", "status": "official-publication-page"},
+    {"source_url": "https://www.americansurveycenter.org/research/strangers-next-door-the-decline-of-neighborhood-socializing-and-the-class-divide-in-belonging/", "claim": "Adjacent American Neighbor Survey evidence provides a separate class and neighborhood-socializing comparison; it is not treated as the same survey or merged estimate.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record adds a neighborhood social-infrastructure route: practical mutual aid and local recommendation trust can persist alongside an unmet desire for connection, with a sharper welcome gap among young adults. It does not establish actual assistance, completed local-service outcomes, causal app effects, or durable community recovery. The source is platform-commissioned, cross-sectional, and based on an online opt-in panel.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Nextdoor publication page was reviewed for publication date, survey sample, weighting, practical reliance, young-adult connection gap, recommendation trust, trust-building mechanisms, and methodological limits.",
+    "source_page_sha256": "sha256:230ed9be944ccae1fb7db16fad60ad50ed086dbccfcad31d4254c2adec704c2b",
+    "checked": "2026-09-28"
+  }
+}

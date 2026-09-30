@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-industry-ratings-cost-trust-2026",
+  "title": "Public industry legitimacy is weakening most where firms are associated with household costs, technological disruption and visible risk",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "Gallup, Computer Sector Leads Drops in Industry Ratings, September 17, 2026",
+  "geography": "United States; adults in Gallup Poll Social Series telephone survey",
+  "observations": [
+    {
+      "period": "August 3-24, 2026 survey; industry favorability and decline",
+      "denominator": {"value": 1, "unit": "Gallup Poll Social Series national adult survey; the article does not state the respondent count in the publication summary", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "computer_positive": {"value": 48, "unit": "percent with a very or somewhat positive view of the computer industry", "value_type": "published_survey_estimate"},
+        "computer_decline": {"value": -11, "unit": "percentage-point change from 2025 to 2026", "value_type": "reported_difference"},
+        "farming_positive": {"value": 54, "unit": "percent positive toward farming and agriculture", "value_type": "published_survey_estimate"},
+        "utilities_positive": {"value": 33, "unit": "percent positive toward electric and gas utilities", "value_type": "published_survey_estimate"},
+        "oil_gas_positive": {"value": 30, "unit": "percent positive toward oil and gas", "value_type": "published_survey_estimate"},
+        "average_industry_positive": {"value": 36, "unit": "average positive rating across 25 business sectors", "value_type": "published_survey_estimate"}
+      },
+      "method": "Gallup annual tracking of positive views of 25 business sectors; latest poll conducted August 3-24, 2026, with comparisons to prior years.",
+      "uncertainty": "The public article does not state the respondent count or full subgroup denominators; favorability is a broad public judgment and does not directly measure firm conduct, prices, service quality or consumer welfare.",
+      "subgroup": "U.S. adults overall, with party comparisons in the article.",
+      "counterinterpretation": "Ratings may reflect inflation, recent events, political identity or sector visibility rather than a stable judgment of industry performance; the computer decline may partly reflect broad technology-sector concerns rather than one industry alone.",
+      "source_url": "https://news.gallup.com/poll/714548/computer-sector-leads-drops-industry-ratings.aspx",
+      "retrieval_hash": "source_page:sha256:0f2d99910731b42cc57e382a1c33955d3334db07888c35bb95ccb1e340957bcc",
+      "status": "reported"
+    },
+    {
+      "period": "August 3-24, 2026 survey; household-cost and technology-legitimacy pathway",
+      "denominator": {"value": 1, "unit": "Gallup annual industry-rating survey; public article does not state the respondent count", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "computer_peak": {"value": 75, "unit": "percent positive toward the computer industry at its 2017 peak", "value_type": "published_trend_estimate"},
+        "utilities_peak": {"value": 50, "unit": "percent positive toward electric and gas utilities at the 2020 peak", "value_type": "published_trend_estimate"},
+        "oil_gas_peak": {"value": 43, "unit": "percent positive toward oil and gas at the 2020 peak", "value_type": "published_trend_estimate"},
+        "cost_visibility_mechanism": {"value": "Industries connected to energy, food and household bills are evaluated amid inflation and financial hardship, while technology firms are evaluated amid AI, data-center and job-disruption concerns.", "unit": "analytical synthesis grounded in publication context", "value_type": "analytical_synthesis"}
+      },
+      "method": "Trend comparison and contextual interpretation in Gallup's annual industry-rating publication.",
+      "uncertainty": "The article does not estimate causal effects of inflation, AI, data centers or specific incidents on sector ratings; the proposed pathway is an interpretive synthesis, not a regression or experiment.",
+      "subgroup": "U.S. adults evaluating computer, utility, farming and oil-and-gas sectors.",
+      "counterinterpretation": "Public ratings can decline because of national mood or partisan realignment even when sector-level service and prices are unchanged.",
+      "source_url": "https://news.gallup.com/poll/714548/computer-sector-leads-drops-industry-ratings.aspx",
+      "retrieval_hash": "source_page:sha256:0f2d99910731b42cc57e382a1c33955d3334db07888c35bb95ccb1e340957bcc",
+      "status": "reported"
+    },
+    {
+      "period": "August 3-24, 2026 survey; partisan industry-legitimacy differences",
+      "denominator": {"value": 1, "unit": "Gallup annual industry-rating survey; party subgroup sample sizes not disclosed in the public article", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "republican_average_positive": {"value": 43, "unit": "average positive rating across 25 sectors among Republicans and Republican-leaning independents", "value_type": "published_subgroup_estimate"},
+        "democratic_average_positive": {"value": 33, "unit": "average positive rating among Democrats and Democratic-leaning independents", "value_type": "published_subgroup_estimate"},
+        "federal_government_republican_positive": {"value": 32, "unit": "percent of Republicans rating the federal government positively", "value_type": "published_subgroup_estimate"},
+        "federal_government_democratic_positive": {"value": 7, "unit": "percent of Democrats rating the federal government positively", "value_type": "published_subgroup_estimate"},
+        "partisan_legitimacy_boundary": {"value": "Industry ratings partly track which party controls the presidency, but computer-sector decline was similar across parties.", "unit": "reported pattern", "value_type": "published_association"}
+      },
+      "method": "Gallup comparison of average sector ratings and selected industry ratings by party identification.",
+      "uncertainty": "Party differences are descriptive and may reflect presidential approval, ideology, sector exposure, media narratives or economic experience; the article does not identify causal attribution.",
+      "subgroup": "Republicans and Republican-leaning independents versus Democrats and Democratic-leaning independents.",
+      "counterinterpretation": "Partisan ratings can be a general political thermometer rather than a sector-specific consumer or worker judgment.",
+      "source_url": "https://news.gallup.com/poll/714548/computer-sector-leads-drops-industry-ratings.aspx",
+      "retrieval_hash": "source_page:sha256:0f2d99910731b42cc57e382a1c33955d3334db07888c35bb95ccb1e340957bcc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a sector-legitimacy mechanism: public ratings weaken for industries linked to household costs, technology disruption and visible risk, while partisan context shapes overall industry judgment. It does not establish causal drivers, actual prices, service quality, consumer behavior, firm revenue, regulation or sector performance."
+}

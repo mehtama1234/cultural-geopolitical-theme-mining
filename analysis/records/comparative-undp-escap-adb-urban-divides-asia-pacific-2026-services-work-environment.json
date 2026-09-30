@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-escap-adb-urban-divides-asia-pacific-2026-services-work-environment",
+  "title": "Asia-Pacific urban growth is widening opportunity for some while housing, informal work, service gaps, and environmental risk concentrate exclusion",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNDP, ESCAP and ADB, Inclusive Urban Futures: From Inequality to Opportunity, 2026 Asia-Pacific SDG Partnership Report",
+  "geography": "Asia-Pacific urban areas, with regional and country-level analysis of housing, basic services, employment, and environmental liveability",
+  "observations": [
+    {
+      "period": "2026; regional urbanization and future urban population",
+      "denominator": {"value": 2200000000, "unit": "urban residents in Asia-Pacific, approximately more than", "value_type": "reported_regional_population"},
+      "measures": {
+        "global_urban_share": {"value": "the region contains more than half of the global urban population", "unit": "reported regional demographic context", "value_type": "reported_population_context"},
+        "future_urban_movement": {"value": 1200000000, "unit": "additional people projected to live in the region's urban areas by 2050, approximately", "value_type": "reported_population_projection"},
+        "annual_urban_movement": {"value": 48000000, "unit": "people per year represented by the projected urban increase, approximately", "value_type": "derived_projection_context"},
+        "inequality_dimensions": {"value": "urban inequality is analyzed across access to housing and services, employment, and environmental liveability", "unit": "reported analytical framework", "value_type": "reported_framework"}
+      },
+      "method": "UNDP, ESCAP and ADB regional synthesis using SDG indicators, leave-no-one-behind analysis, country evidence, and examples of urban policy and implementation.",
+      "uncertainty": "The projection and regional aggregates combine countries with different definitions, data quality, and urban trajectories; regional trends do not describe every city or establish that urbanization alone causes each inequality.",
+      "subgroup": "Urban residents, migrants, low-income households, women, youth, older people, people with disabilities, informal workers, city governments, businesses, and communities in informal settlements.",
+      "counterinterpretation": "Urban growth can expand jobs, services, infrastructure, and social mobility; inequality reflects policy, land, labor, investment, and governance choices that vary across cities.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_bridging_urban_divides_for_inclusive_and_sustainable_development_19_feb.pdf",
+      "retrieval_hash": "sha256:2b42960276940f739a3f0e8ea973443dde60cb0e56deaebaa4cb275d068eaa5f",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; housing, slums, and basic-service inequality",
+      "denominator": {"value": 697000000, "unit": "people living in slums or informal settlements in Asia-Pacific in 2022, approximately", "value_type": "reported_regional_population"},
+      "measures": {
+        "global_slum_share": {"value": 62, "unit": "percent of the global slum population represented by Asia-Pacific residents in 2022", "value_type": "reported_regional_share"},
+        "furthest_behind_slum_risk": {"value": 2, "unit": "times as likely for the report's furthest-behind households to live in slums compared with the average household, approximately", "value_type": "reported_relative_risk"},
+        "service_bundle": {"value": "insecure tenure, inadequate housing, sanitation gaps, unreliable energy, weak digital and financial access, and limited transport can overlap in informal settlements", "unit": "reported deprivation set", "value_type": "reported_mechanism_set"},
+        "exclusion_route": {"value": "housing and service deficits restrict mobility, health, education, job access, and security simultaneously", "unit": "reported cross-domain mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Regional SDG and household-survey analysis using ESCAP's leave-no-one-behind methodology and slum and service indicators.",
+      "uncertainty": "Slum definitions, survey years, and service thresholds vary; the relative-risk comparison is a bounded analytical result and does not describe every informal settlement or household adaptation.",
+      "subgroup": "Residents of slums and informal settlements, low-income households, migrants, women, older people, people with disabilities, informal workers, and local service providers.",
+      "counterinterpretation": "Informal settlements can provide proximity to jobs, social networks, and affordable entry into cities; upgrading, tenure reform, and service expansion may improve outcomes without relocation.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_bridging_urban_divides_for_inclusive_and_sustainable_development_19_feb.pdf",
+      "retrieval_hash": "sha256:2b42960276940f739a3f0e8ea973443dde60cb0e56deaebaa4cb275d068eaa5f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; urban employment and digital/service exclusion",
+      "denominator": {"value": 1, "unit": "Asia-Pacific urban labor-market and service-access framework", "value_type": "regional_urban_system_frame"},
+      "measures": {
+        "informal_work": {"value": 65, "unit": "percent or more of urban workers engaged in low-paid and insecure informal work in the region", "value_type": "reported_regional_share"},
+        "young_old_informal": {"value": "more than four out of five of the youngest and oldest workers are in informal employment", "unit": "reported relative share", "value_type": "reported_subgroup_pattern"},
+        "service_gaps": {"value": "clean cooking, digital connectivity, financial services, and affordable safe public transport remain unevenly available", "unit": "reported service-access pattern", "value_type": "reported_pattern"},
+        "platform_route": {"value": "platform-based employment can create opportunity while leaving workers without social protection or bargaining power, especially where connectivity and digital skills are limited", "unit": "reported labor-market mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Regional labor, service-access, and SDG analysis covering informal employment, skills, digitalization, transport, financial access, and social protection.",
+      "uncertainty": "The report's regional shares and mechanisms do not identify individual employment histories, platform causality, or the effect of specific digital or labor policies on earnings and bargaining power.",
+      "subgroup": "Young and older workers, women, informal workers, platform workers, home-based producers, migrants, people without connectivity or digital skills, firms, and city governments.",
+      "counterinterpretation": "Informal and platform work can offer flexibility, entry, and livelihood opportunities where formal jobs are scarce; formalization can also impose costs or reduce access if poorly designed.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_bridging_urban_divides_for_inclusive_and_sustainable_development_19_feb.pdf",
+      "retrieval_hash": "sha256:2b42960276940f739a3f0e8ea973443dde60cb0e56deaebaa4cb275d068eaa5f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; environmental liveability and urban risk",
+      "denominator": {"value": 1, "unit": "Asia-Pacific urban environmental liveability framework", "value_type": "regional_environment_frame"},
+      "measures": {
+        "unsafe_air_exposure": {"value": 2300000000, "unit": "people in the region exposed to unsafe air quality according to WHO standards, approximately more than", "value_type": "reported_regional_population"},
+        "air_pollution_mortality": {"value": "two-thirds of global premature deaths from air pollution occur in Asia and the Pacific, according to the report", "unit": "reported regional share", "value_type": "reported_health_share"},
+        "risk_concentration": {"value": "outdoor and manual workers, women, children, older people, and low-resource communities face heightened pollution, heat, disaster, and health risks", "unit": "reported subgroup pattern", "value_type": "reported_exposure_pattern"},
+        "clean_cooking": {"value": 1000000000, "unit": "people in the region still relying on biomass, charcoal, or kerosene for cooking, approximately", "value_type": "reported_regional_population"},
+        "governance_route": {"value": "urban environmental risk reflects both physical exposure and the distribution of infrastructure, green space, health access, work protections, and local governance", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Regional environmental, health, energy, labor, and urban-system synthesis using SDG evidence and reported exposure estimates.",
+      "uncertainty": "Exposure and premature-death estimates depend on thresholds, models, and attribution; regional aggregates do not establish individual health effects or uniform risk across cities.",
+      "subgroup": "Outdoor and manual workers, women and girls exposed to household air pollution, children, older people, low-income households, informal settlements, city agencies, and health systems.",
+      "counterinterpretation": "Urban density and coordinated infrastructure can reduce per-capita emissions and improve access to services; environmental risks can fall quickly when transport, energy, housing, and public-health systems improve.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_bridging_urban_divides_for_inclusive_and_sustainable_development_19_feb.pdf",
+      "retrieval_hash": "sha256:2b42960276940f739a3f0e8ea973443dde60cb0e56deaebaa4cb275d068eaa5f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unhabitat.org/world-cities-report-2026", "claim": "UN-Habitat World Cities Report 2026 provides complementary global housing-crisis context."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/", "claim": "UN SDG 11 reporting provides complementary global indicators on housing, transport, land, and urban access."}
+  ],
+  "boundary": "This record adds an Asia-Pacific urban-inequality route across rapid urbanization, housing, slums, basic services, informal work, platform work, digital access, transport, pollution, clean cooking, climate risk, and local governance. It uses aggregate regional synthesis and survey/SDG analysis, not respondent-level household histories, individual exposure or health records, causal platform-work estimates, city-specific forecasts, or proof that all urban residents experience the same inequality pathway.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official 2026 Asia-Pacific SDG Partnership report PDF reviewed for regional urban population, projected urban growth, slum population, informal work, service gaps, platform work, air-pollution exposure, clean cooking, and three-dimensional urban inequality framework.",
+    "source_url_sha256": "sha256:2b42960276940f739a3f0e8ea973443dde60cb0e56deaebaa4cb275d068eaa5f",
+    "checked": "2026-09-26"
+  }
+}

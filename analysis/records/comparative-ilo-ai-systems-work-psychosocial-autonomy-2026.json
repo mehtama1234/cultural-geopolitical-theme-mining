@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-ai-systems-work-psychosocial-autonomy-2026",
+  "title": "AI-enabled management is turning surveillance, work intensity, autonomy and data use into psychosocial work conditions requiring integrated rights and health governance",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "International Labour Organization, AI systems @ work: a changing psychosocial work environment, ILO Working Paper 170",
+  "geography": "Global policy and occupational-safety analysis of AI and digitalization across employment settings",
+  "observations": [
+    {
+      "period": "2026 report; AI across the employment relationship",
+      "denominator": {"value": 1, "unit": "global employment-cycle and workplace policy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "employment_cycle_scope": {"value": "AI is increasingly used across recruitment, work organization, monitoring and performance management", "unit": "reported scope of workplace AI use", "value_type": "reported_interpretation"},
+        "psychosocial_environment": {"value": "AI changes the mental and social conditions under which work is performed, not only the technical content of tasks", "unit": "reported occupational-health framing", "value_type": "reported_mechanism"},
+        "risk_governance_gap": {"value": "existing occupational-safety and health approaches may not yet fully address AI-associated psychosocial risks", "unit": "reported policy gap", "value_type": "reported_interpretation"}
+      },
+      "method": "ILO working-paper synthesis of AI workplace uses, occupational safety and health concepts, psychosocial risk research and regulatory developments.",
+      "uncertainty": "The paper is a policy and evidence review, not a prevalence estimate or causal evaluation of any single AI system; effects depend on design, deployment, sector, worker participation and institutional safeguards.",
+      "subgroup": "Workers, job applicants, managers, platform workers, employees subject to monitoring or automated evaluation, and occupational-safety and health institutions.",
+      "counterinterpretation": "AI can improve safety, support decision-making and reduce hazardous exposure when workers have transparency, participation, human support and meaningful avenues for correction.",
+      "source_url": "https://www.ilo.org/publications/ai-systems-work-changing-psychosocial-work-environment",
+      "retrieval_hash": "sha256:bc3c2d75aef3b2180a37ffe4f807737de903b7655f03751b2407c73e9c496ea5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; augmented psychosocial risks from AI-based systems",
+      "denominator": {"value": 1, "unit": "AI-associated psychosocial-risk taxonomy and evidence review", "value_type": "published_synthesis"},
+      "measures": {
+        "surveillance": {"value": "intensive or intrusive monitoring can create psychosocial risk", "unit": "reported risk pathway", "value_type": "reported_mechanism"},
+        "work_intensification": {"value": "AI-enabled measurement and optimization can increase work pressure and intensify the pace or volume of work", "unit": "reported risk pathway", "value_type": "reported_mechanism"},
+        "autonomy_and_dignity": {"value": "algorithmic direction and evaluation can reduce job autonomy and affect dignity at work", "unit": "reported risk pathway", "value_type": "reported_mechanism"},
+        "privacy_data_concern": {"value": "excessive data collection and limited transparency can create additional psychosocial and rights risks", "unit": "reported risk pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO review of psychosocial factors at work and emerging or augmented risks associated with AI-based systems, including surveillance, autonomy and data transparency.",
+      "uncertainty": "These are risk pathways identified in the literature and policy analysis; the paper does not assign a common probability, severity score or population prevalence to each risk.",
+      "subgroup": "Workers in digitally monitored settings, platform and logistics workers, employees managed through data-driven systems, and workers with limited bargaining or appeal power.",
+      "counterinterpretation": "Monitoring may identify hazards or support fairer workload management when its purpose is limited, data use is transparent, workers can contest decisions and human judgment remains accountable.",
+      "source_url": "https://www.ilo.org/resource/news/ai-driven-intrusive-surveillance-and-loss-autonomy-work-linked-psychosocial",
+      "retrieval_hash": "sha256:bc3c2d75aef3b2180a37ffe4f807737de903b7655f03751b2407c73e9c496ea5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; integrated policy response to AI-related psychosocial risks",
+      "denominator": {"value": 1, "unit": "cross-domain labour, equality, occupational-health and data-governance policy synthesis", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "integrated_policy": {"value": "effective response requires labour and employment law, equality and non-discrimination, occupational safety and health, and privacy and data protection to work together", "unit": "reported governance route", "value_type": "reported_policy_interpretation"},
+        "high_risk_regulation": {"value": "employment uses of AI are increasingly treated as high-risk in developing general AI regulatory frameworks", "unit": "reported regulatory direction", "value_type": "reported_interpretation"},
+        "new_osh_rights": {"value": "the paper identifies emerging needs for rights related to transparency, participation, data use, human oversight and protection from psychosocial harm", "unit": "reported institutional implication", "value_type": "reported_policy_interpretation"}
+      },
+      "method": "ILO analysis of regulatory frameworks and national policy responses addressing AI-associated psychosocial risks and occupational safety and health.",
+      "uncertainty": "The report maps policy directions and gaps rather than evaluating enforcement, employer compliance, worker awareness or outcomes in specific jurisdictions.",
+      "subgroup": "Workers, employers, regulators, unions, equality bodies, occupational-health professionals, data-protection authorities and AI system providers.",
+      "counterinterpretation": "Layering multiple legal regimes can create fragmented responsibility; integrated governance will matter only if rights are understandable, enforceable, resourced and usable by workers.",
+      "source_url": "https://www.ilo.org/publications/ai-systems-work-changing-psychosocial-work-environment",
+      "retrieval_hash": "sha256:bc3c2d75aef3b2180a37ffe4f807737de903b7655f03751b2407c73e9c496ea5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00034098", "claim": "Official DOI for ILO Working Paper 170."},
+    {"source_url": "https://www.ilo.org/algorithmic-management-workplace", "claim": "ILO background on algorithmic management, tracked data and automated organization, supervision and evaluation of work."},
+    {"source_url": "https://www.ilo.org/publications/revolutionizing-health-and-safety-role-ai-and-digitalization-work", "claim": "ILO 2025 global report context on AI, digitalization, occupational safety and worker participation."}
+  ],
+  "boundary": "This record adds an AI-to-psychosocial-work route: surveillance, work intensification, reduced autonomy, dignity, data use and transparency are treated as work conditions and governance issues. It is an ILO working-paper synthesis, not worker-level mental-health data, a workplace audit, a prevalence estimate, a legal determination or a causal evaluation of AI deployment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page, ILO news summary and linked DOI metadata were reviewed for workplace AI scope, psychosocial risk pathways, surveillance, work intensification, autonomy, privacy and integrated policy response; the official publication page was hashed.",
+    "source_url_sha256": "sha256:bc3c2d75aef3b2180a37ffe4f807737de903b7655f03751b2407c73e9c496ea5",
+    "checked": "2026-09-27"
+  }
+}

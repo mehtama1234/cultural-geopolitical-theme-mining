@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ymca-canada-connections-snapshot-2026-third-places-belonging",
+  "title": "Canadians value in-person third places, but belonging remains constrained by access, cost, time and welcome",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "time_hidden_price",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "YMCA Canada and YMCA of Greater Toronto, 2026 YMCA Connections Snapshot",
+  "geography": "Canada, national survey release; subgroup and provincial comparisons reported in the public summary",
+  "observations": [
+    {
+      "period": "2026; community belonging and year-over-year comparison",
+      "denominator": {"value": 1, "unit": "Canadian survey respondents; public release does not disclose the sample size", "value_type": "sponsor_survey_summary"},
+      "measures": {
+        "community_connection": {"value": 36, "unit": "per cent feeling connected to the community where they live all or most of the time", "value_type": "published_survey_estimate"},
+        "year_over_year": {"value": "virtually unchanged from 38% in 2025", "unit": "reported annual comparison", "value_type": "published_comparison"},
+        "belonging_gap": {"value": "desire for connection remains higher than lived community connection", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Public summary of the second annual YMCA Connections Snapshot; detailed instrument, weighting, field dates and sample size are not provided in the accessed release.",
+      "uncertainty": "This is sponsor-commissioned survey evidence with incomplete public methodology; the stable national estimate does not establish causal change or equal belonging across communities.",
+      "subgroup": "Canadian adults, with provincial and service-access comparisons reported where available.",
+      "counterinterpretation": "A broad belonging question may miss relationships, cultural communities and informal networks that operate outside the respondent's local-community frame; stability may also reflect measurement limits rather than no change.",
+      "source_url": "https://www.ymcagta.org/news/belonging-remains-out-of-reach-for-many-canadians-despite-strong-demand-for-connection",
+      "retrieval_hash": "sha256:25cc37f0de65ce8c7d35a9151c0aeb62efec1fe1fd36e495944850922b97611c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; third places, online connection and face-to-face preference",
+      "denominator": {"value": 1, "unit": "Canadian survey respondents; public release does not disclose the sample size", "value_type": "sponsor_survey_summary"},
+      "measures": {
+        "third_place_importance": {"value": 77, "unit": "per cent saying community spaces beyond home and work play an important role in increasing social connection", "value_type": "published_survey_estimate"},
+        "regular_use": {"value": 33, "unit": "per cent regularly spending time in third places", "value_type": "published_survey_estimate"},
+        "desired_supply": {"value": 64, "unit": "per cent wishing there were more third places in their communities", "value_type": "published_survey_estimate"},
+        "online_connection": {"value": 21, "unit": "per cent reporting online connection in 2026, down 5 percentage points from 2025", "value_type": "published_survey_estimate"},
+        "encounter_route": {"value": "face-to-face experiences rank first among what matters for feeling connected, followed by shared experiences or interests", "unit": "reported preference pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Public summary of survey responses about community spaces, online connection and preferred forms of social connection.",
+      "uncertainty": "The release does not establish whether limited use reflects supply, affordability, safety, schedule, transport, social anxiety, or selection into other forms of connection; third-place categories are broad.",
+      "subgroup": "Canadian respondents reporting community, online and in-person connection preferences.",
+      "counterinterpretation": "Low regular use does not necessarily mean spaces are unavailable or ineffective; some people may prefer home-based, workplace, faith-based or culturally specific settings not counted as third places.",
+      "source_url": "https://www.ymcagta.org/news/belonging-remains-out-of-reach-for-many-canadians-despite-strong-demand-for-connection",
+      "retrieval_hash": "sha256:25cc37f0de65ce8c7d35a9151c0aeb62efec1fe1fd36e495944850922b97611c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; barriers to participation in community spaces",
+      "denominator": {"value": 1, "unit": "Canadian survey respondents; public release does not disclose the sample size", "value_type": "sponsor_survey_summary"},
+      "measures": {
+        "social_discomfort": {"value": 48, "unit": "per cent naming social anxiety or discomfort as a barrier to community connection", "value_type": "published_survey_estimate"},
+        "time_barrier": {"value": 43, "unit": "per cent naming lack of time as a barrier", "value_type": "published_survey_estimate"},
+        "wayfinding_barrier": {"value": 42, "unit": "per cent naming not knowing where to start as a barrier", "value_type": "published_survey_estimate"},
+        "participation_conversion": {"value": "belonging infrastructure requires social welcome and navigability as well as physical availability", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Public summary of self-reported barriers to community connection.",
+      "uncertainty": "The release does not show response overlap, question order, subgroup denominators or whether barriers refer to one preferred program, all community participation, or connection generally.",
+      "subgroup": "Canadian respondents identifying barriers to connecting with others in their community.",
+      "counterinterpretation": "Reported barriers may describe perceived difficulty rather than actual nonattendance; interventions that solve one barrier may leave time, transport, safety or cultural-fit constraints intact.",
+      "source_url": "https://www.ymcagta.org/news/belonging-remains-out-of-reach-for-many-canadians-despite-strong-demand-for-connection",
+      "retrieval_hash": "sha256:25cc37f0de65ce8c7d35a9151c0aeb62efec1fe1fd36e495944850922b97611c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; affordability, welcome and program access",
+      "denominator": {"value": 1, "unit": "Canadian survey respondents; public release does not disclose the sample size", "value_type": "sponsor_survey_summary"},
+      "measures": {
+        "affordable_programs": {"value": 73, "unit": "per cent saying access to free or affordable programs contributes to belonging", "value_type": "published_survey_estimate"},
+        "more_use_if_affordable": {"value": "more than half say they would use third places more often if spaces were affordable or free", "unit": "reported participation intention", "value_type": "reported_survey_pattern"},
+        "more_use_if_welcoming": {"value": 49, "unit": "per cent saying they would visit more often if spaces were more welcoming or inclusive", "value_type": "published_survey_estimate"},
+        "service_access_barriers": {"value": "reported barriers include fitness and wellness programs, mental-health and wellbeing services, children and youth programs, and newcomer and settlement services", "unit": "reported service-access pattern", "value_type": "reported_mechanism"},
+        "institutional_route": {"value": "community organizations can convert belonging demand only when price relief, welcome and usable program pathways are jointly supplied", "unit": "reported policy mechanism", "value_type": "reported_policy_proposition"}
+      },
+      "method": "Public summary of perceived contribution of affordability and welcome and barriers to accessing selected community services.",
+      "uncertainty": "The YMCA's institutional role creates an advocacy and sponsor-framing risk; stated intentions are not observed attendance, durable relationships, or verified community outcomes.",
+      "subgroup": "Canadian respondents considering community programs, wellness, youth, mental-health and newcomer services.",
+      "counterinterpretation": "Free access alone may not overcome cultural mismatch, disability access, caregiving, transportation, safety or schedule barriers; program demand may not translate into sustainable provider capacity.",
+      "source_url": "https://www.ymcagta.org/news/belonging-remains-out-of-reach-for-many-canadians-despite-strong-demand-for-connection",
+      "retrieval_hash": "sha256:25cc37f0de65ce8c7d35a9151c0aeb62efec1fe1fd36e495944850922b97611c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ymca.ca/en/media", "claim": "YMCA Canada media page confirms the second annual Connections Snapshot release and its national institutional context."},
+    {"source_url": "https://www.ymcagta.org/news/YMCA-Connections-Snapshot-survey-results-reveal-Canadians-seek-social-connections", "claim": "2025 baseline release provides the prior-year comparison and confirms the recurring Connections Snapshot series; it is not used as a 2026 denominator."}
+  ],
+  "boundary": "This record adds a community-infrastructure route from desire for connection through third-place supply, affordability, welcome, social confidence, time and navigability to lived belonging. It is a sponsor-commissioned Canadian survey summary with undisclosed sample and incomplete methodology in the accessed release, not a causal evaluation, attendance register, national census of third places, or proof that YMCA provision produces durable belonging.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official YMCA of Greater Toronto 2026 release and YMCA Canada media context were reviewed for the 2025 comparison, belonging, third-place importance and use, online connection, face-to-face preference, barriers, affordability, welcome and service-access findings.",
+    "source_url_sha256": "sha256:25cc37f0de65ce8c7d35a9151c0aeb62efec1fe1fd36e495944850922b97611c",
+    "checked": "2026-09-28"
+  }
+}

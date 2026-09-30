@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost",
+  "title": "Arts and culture operate as social infrastructure, but cost and welcome determine who can convert participation into belonging",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Canadian Heritage and Canada Council for the Arts, Arts and Heritage Access and Availability Survey 2025-26, conducted by Leger",
+  "geography": "Canada; national survey of residents ages 16 and older, including a telephone sample from the territories",
+  "observations": [
+    {
+      "period": "2025-26 survey; in-person and online cultural participation",
+      "denominator": {"value": 5150, "unit": "Canadians surveyed: 5,000 primarily online plus 150 telephone respondents from the territories", "value_type": "reported_survey_sample"},
+      "measures": {
+        "in_person_attendance": {"value": 60, "unit": "percent reporting attendance at an arts or culture performance or event in person during the prior 12 months", "value_type": "reported_share"},
+        "online_participation": {"value": 47, "unit": "percent reporting online arts or culture participation during the prior 12 months", "value_type": "reported_share"},
+        "increased_in_person_since_before_pandemic": {"value": 18, "unit": "percent reporting increased in-person engagement compared with before the pandemic", "value_type": "reported_share"},
+        "increased_online_since_before_pandemic": {"value": 14, "unit": "percent reporting increased online engagement compared with before the pandemic", "value_type": "reported_share"},
+        "participation_pattern": {"value": "Cultural participation is both a live social practice and a digital practice, with neither mode representing the whole cultural public", "unit": "reported pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Canadian Heritage and Canada Council survey conducted by Leger, primarily online with a territorial telephone supplement; national descriptive estimates.",
+      "uncertainty": "The sample is not a longitudinal panel, the modes differ, and reported participation is subject to recall, nonresponse, and access-to-internet differences; increased engagement is self-reported.",
+      "subgroup": "Canadians ages 16 and older, including residents of the territories; the public page reports national participation totals rather than a full subgroup table.",
+      "counterinterpretation": "High participation can reflect occasional attendance rather than durable cultural involvement, while online participation may complement rather than substitute for live social connection.",
+      "source_url": "https://canadacouncil.ca/research/research-library/2026/07/arts-and-heritage-access-and-availability-survey-2025-26",
+      "retrieval_hash": "sha256:7673db69f311e01d1c7c3e303191663e4d3737fabf6036cd717b73223168d90b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-26 survey; motivations and barriers to in-person cultural attendance",
+      "denominator": {"value": 1, "unit": "Canadians who attended at least one arts or culture event in person; published page reports qualitative ranking rather than a single sample count", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "primary_motivations": {"value": "Enjoyment and socializing with friends or family were the main motivations for attending in person", "unit": "reported motivation pattern", "value_type": "reported_pattern"},
+        "leading_barrier": {"value": "Cost was the leading barrier to participation", "unit": "reported barrier ranking", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Cultural participation can create social connection, but household budget room determines whether that infrastructure is reachable", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey description of reported motivations and barriers among respondents, as summarized by Canadian Heritage and the Canada Council for the Arts.",
+      "uncertainty": "The public summary does not provide the full distribution, effect sizes, or causal relationship between price and nonattendance; cost may interact with transportation, time, caregiving, geography, and perceived welcome.",
+      "subgroup": "Respondents who attended or considered attending arts and culture events; the public page does not publish a complete demographic breakdown for this result.",
+      "counterinterpretation": "Cost may be the leading stated barrier while free, community, digital, or informal cultural practices remain available; nonattendance is not equivalent to cultural isolation.",
+      "source_url": "https://canadacouncil.ca/research/research-library/2026/07/arts-and-heritage-access-and-availability-survey-2025-26",
+      "retrieval_hash": "sha256:7673db69f311e01d1c7c3e303191663e4d3737fabf6036cd717b73223168d90b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-26 survey; perceived quality of life, community, and national belonging",
+      "denominator": {"value": 5150, "unit": "Canadians surveyed in the national access and availability survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "quality_of_life_importance": {"value": 56, "unit": "percent saying arts or culture performances and events are important to their quality of life", "value_type": "reported_share"},
+        "community_better_place": {"value": 71, "unit": "percent saying arts and culture make communities better places to live", "value_type": "reported_share"},
+        "local_economy_importance": {"value": 67, "unit": "percent saying arts and culture are important for local economies", "value_type": "reported_share"},
+        "cross_cultural_connection": {"value": 70, "unit": "percent agreeing arts and culture help bring people together across different languages and cultures", "value_type": "reported_share"},
+        "mechanism": {"value": "Respondents attach civic, economic, and social value to culture, but stated collective value does not by itself demonstrate equal access or actual cohesion outcomes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted national survey estimates as summarized by the sponsoring public cultural agencies.",
+      "uncertainty": "These are attitudes and perceived benefits, not experimental estimates of cultural participation causing community cohesion, local economic growth, or belonging.",
+      "subgroup": "Canadians ages 16 and older; the public summary presents national estimates without full subgroup intersections.",
+      "counterinterpretation": "People may endorse the social value of culture without attending events themselves, and cultural venues can be valued while remaining financially, geographically, or socially exclusionary.",
+      "source_url": "https://canadacouncil.ca/research/research-library/2026/07/arts-and-heritage-access-and-availability-survey-2025-26",
+      "retrieval_hash": "sha256:7673db69f311e01d1c7c3e303191663e4d3737fabf6036cd717b73223168d90b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-26 survey; cultural organizations as participation and contribution infrastructure",
+      "denominator": {"value": 5150, "unit": "Canadians surveyed in the national access and availability survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "support_or_contribution": {"value": 28, "unit": "percent reporting donation of money, goods, or services, purchase or renewal of a membership or subscription, or volunteering with an arts or culture organization", "value_type": "reported_share"},
+        "welcome_in_cultural_facilities": {"value": 56, "unit": "percent saying they feel welcome in cultural facilities", "value_type": "reported_share"},
+        "local_community_belonging": {"value": 48, "unit": "percent saying arts and culture help them feel part of their local community", "value_type": "reported_share"},
+        "national_belonging": {"value": 46, "unit": "percent saying arts and culture help them feel part of Canada", "value_type": "reported_share"},
+        "mechanism": {"value": "Cultural infrastructure has a contribution route beyond attendance, but welcome and belonging are lower than broad claims about cultural social value", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey estimates of cultural-organization support, perceived welcome, and belonging reported by Canadian Heritage and the Canada Council for the Arts.",
+      "uncertainty": "The bundled contribution measure combines different behaviors, and perceived welcome or belonging is subjective; the survey does not establish whether organizations caused these feelings.",
+      "subgroup": "Canadians ages 16 and older, including cultural participants, supporters, members, subscribers, and volunteers.",
+      "counterinterpretation": "Membership, donation, volunteering, and purchase behavior may be concentrated among already-engaged publics; cultural institutions may support belonging for some while reproducing barriers for others.",
+      "source_url": "https://canadacouncil.ca/research/research-library/2026/07/arts-and-heritage-access-and-availability-survey-2025-26",
+      "retrieval_hash": "sha256:7673db69f311e01d1c7c3e303191663e4d3737fabf6036cd717b73223168d90b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.gc.ca/site/eng/9.944370/publication.html", "claim": "Canadian government publication route for the survey report."},
+    {"source_url": "https://www.arts.gov/impact/research/publications/great-connector-how-arts-participation-renews-civic-and-community-engagement", "claim": "U.S. NEA comparative research route on arts participation and civic/community engagement."}
+  ],
+  "boundary": "This record adds a comparative cultural-infrastructure route from arts access through socializing, local and national belonging, perceived community value, and organizational contribution while preserving cost and welcome as access conditions. It is a national survey summary, not a causal evaluation, a measure of actual cohesion, a longitudinal participation panel, or proof that cultural institutions distribute belonging equally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Canada Council for the Arts publication page was reviewed for sample, methods, participation, motivations, cost barriers, perceived cultural value, welcome, belonging, and contribution measures.",
+    "source_url_sha256": "sha256:7673db69f311e01d1c7c3e303191663e4d3737fabf6036cd717b73223168d90b",
+    "checked": "2026-09-28"
+  }
+}

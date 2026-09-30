@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-health-migration-displacement-climate-research-priorities-2026",
+  "title": "Climate-linked migration is forcing health systems to treat mobility, displacement, and resilience as one connected policy problem",
+  "theme_ids": ["voice", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Health Organization, Global research prioritization and action plan on health, migration and displacement in the context of climate change, 2026",
+  "geography": "Global migration, displacement, climate, and health systems across origin, transit, destination, and return contexts",
+  "observations": [
+    {
+      "period": "2026; climate, mobility, and health-system research agenda",
+      "denominator": {"value": 1, "unit": "WHO Global Research Prioritization Exercise on health, migration, displacement, and climate change", "value_type": "published_research_agenda"},
+      "measures": {
+        "linked_driver": {"value": "climate change is treated both as an increasingly important driver of migration and displacement and as a determinant of health", "unit": "reported policy-research framing", "value_type": "reported_mechanism"},
+        "journey_scope": {"value": "health risks and access barriers must be studied across the migration journey rather than only at a destination point", "unit": "reported research scope", "value_type": "reported_framework_scope"},
+        "core_themes": {"value": "priority research is organized around social determinants of health, universal health coverage, and emergencies", "unit": "three core research themes", "value_type": "reported_research_priorities"},
+        "boundary": {"value": "the report prioritizes evidence gaps and action; it is not a prevalence estimate or causal evaluation of climate migration health effects", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "WHO structured and participatory research-prioritization exercise using a scoping review, technical consultations, and stakeholder surveys.",
+      "uncertainty": "Research priorities identify important unknowns and coordination needs but do not quantify the magnitude or direction of every health pathway.",
+      "subgroup": "Migrants, refugees, internally displaced people, people in transit, host communities, health workers, and populations exposed to climate hazards.",
+      "counterinterpretation": "Migration can also reduce exposure to climate hazards or improve access to care, depending on legal status, resources, route, and receiving-system capacity.",
+      "source_url": "https://www.who.int/publications/i/item/9789240119406",
+      "retrieval_hash": "sha256:f4072733f869ef32f32300407b005dab3d99e3c713b4f64d41bdc4d11dce360e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; structural determinants and unequal access",
+      "denominator": {"value": 1, "unit": "WHO identified evidence-gap cluster on migrant and displaced populations", "value_type": "published_research_priority"},
+      "measures": {
+        "determinants": {"value": "the agenda prioritizes effects of social and structural determinants on health across migration and displacement contexts", "unit": "reported research priority", "value_type": "reported_research_priority"},
+        "access": {"value": "barriers to health-care access and inclusion in health systems are identified as major gaps", "unit": "reported evidence gap", "value_type": "reported_institutional_gap"},
+        "intersectionality": {"value": "the report calls for improved data and intersectional analyses to distinguish how legal status, gender, age, disability, poverty, race, place, and climate exposure combine", "unit": "reported methodological priority", "value_type": "reported_methodological_priority"},
+        "analytic_signal": {"value": "mobility status is not a sufficient explanation: health outcomes depend on the interaction of material conditions, rights, services, social position, and environmental exposure", "unit": "analytic inequality mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "WHO synthesis of scoping evidence, stakeholder input, and technical prioritization across social determinants and universal health coverage.",
+      "uncertainty": "The prioritization does not supply harmonized subgroup estimates or establish that any single determinant dominates across settings.",
+      "subgroup": "People with insecure legal status, women and girls, children, older people, people with disabilities, low-income households, and marginalized ethnic or racial groups.",
+      "counterinterpretation": "Broad intersectional categories can improve visibility while still requiring local data, participatory interpretation, and safeguards against stereotyping.",
+      "source_url": "https://www.who.int/publications/i/item/9789240119406",
+      "retrieval_hash": "sha256:f4072733f869ef32f32300407b005dab3d99e3c713b4f64d41bdc4d11dce360e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; emergencies, continuity, and climate-resilient response",
+      "denominator": {"value": 1, "unit": "WHO action-plan route for migration, displacement, climate, and health emergencies", "value_type": "published_action_plan"},
+      "measures": {
+        "emergency_inclusion": {"value": "inclusion of migrants and displaced populations in emergency responses is a named evidence gap and action priority", "unit": "reported emergency-system priority", "value_type": "reported_research_priority"},
+        "long_term": {"value": "long-term health impacts of displacement require research beyond immediate crisis response", "unit": "reported longitudinal priority", "value_type": "reported_research_priority"},
+        "resilience": {"value": "the proposed roadmap calls for equitable, climate-resilient health responses coordinated across sectors", "unit": "reported policy route", "value_type": "reported_policy_route"},
+        "analytic_signal": {"value": "health-system resilience is partly a portability and continuity problem: care, data, protection, and emergency support must travel across changing places and statuses", "unit": "analytic public-infrastructure mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "WHO action-plan and roadmap synthesis linking research priorities to policy and practice.",
+      "uncertainty": "A roadmap establishes a coordination direction, not evidence that health systems can currently sustain continuity across borders or displacement episodes.",
+      "subgroup": "Displaced people, migrants in transit, host health systems, emergency responders, community organizations, and cross-border public authorities.",
+      "counterinterpretation": "National health systems may have stronger continuity than cross-border data suggests, while centralized coordination may overlook local or community-led care networks.",
+      "source_url": "https://www.who.int/publications/i/item/9789240119406",
+      "retrieval_hash": "sha256:f4072733f869ef32f32300407b005dab3d99e3c713b4f64d41bdc4d11dce360e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; evidence infrastructure and policy translation",
+      "denominator": {"value": 2, "unit": "WHO cross-cutting research themes: data, policy and interventions; health outcomes", "value_type": "published_research_framework"},
+      "measures": {
+        "cross_cutting": {"value": "data, policy and interventions, and health outcomes are treated as cross-cutting themes rather than separate silos", "unit": "two cross-cutting themes", "value_type": "reported_research_framework"},
+        "knowledge_gap": {"value": "the report emphasizes improved data, coordinated interdisciplinary research, and translation into policy and practice", "unit": "reported evidence-system need", "value_type": "reported_system_need"},
+        "governance_route": {"value": "evidence quality depends on collaboration across health, migration, climate, emergency, social-protection, and other sectors", "unit": "reported coordination mechanism", "value_type": "reported_mechanism"},
+        "open_test": {"value": "join climate hazard, movement or immobility, legal status, housing and work conditions, service access, continuity, health outcome, and later institutional response without treating aggregate priorities as individual histories", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "WHO Global Research Prioritization Exercise and proposed joint action plan.",
+      "uncertainty": "The agenda identifies priority questions but does not guarantee comparable data, funding, implementation, or causal inference across countries.",
+      "subgroup": "Researchers, public-health agencies, migration authorities, humanitarian actors, climate planners, civil society, and affected communities.",
+      "counterinterpretation": "More data and coordination can improve policy while also creating privacy, surveillance, consent, and cross-border data-governance risks.",
+      "source_url": "https://www.who.int/publications/i/item/9789240119406",
+      "retrieval_hash": "sha256:f4072733f869ef32f32300407b005dab3d99e3c713b4f64d41bdc4d11dce360e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/i/item/9789240119406", "claim": "The official WHO page provides the report date, methodology, core themes, cross-cutting themes, and action-plan framing."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240119406", "claim": "The report's downloadable publication is the primary source for the research-prioritization exercise and roadmap."},
+    {"source_url": "https://www.who.int/publications/i/item/9789292800208", "claim": "WHO South-East Asia UHC monitoring supplies a complementary regional service and climate-health monitoring route."}
+  ],
+  "boundary": "This record adds a climate-mobility-health route from social and structural exposure through health-care access, emergency inclusion, continuity, data infrastructure, and climate-resilient public response. It is a WHO research-prioritization agenda, not respondent-level data, a prevalence estimate, a causal evaluation, or proof that climate change produces one uniform migration or health outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO publication page was reviewed for the climate-migration-health framing, migration-journey scope, three core themes, two cross-cutting themes, evidence gaps, participatory method, and action-plan route.",
+    "source_url_sha256": "sha256:f4072733f869ef32f32300407b005dab3d99e3c713b4f64d41bdc4d11dce360e",
+    "checked": "2026-09-26"
+  }
+}

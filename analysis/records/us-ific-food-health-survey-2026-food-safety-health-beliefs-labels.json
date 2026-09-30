@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ific-food-health-survey-2026-food-safety-health-beliefs-labels",
+  "title": "Food trust is rebounding but health judgments are moving toward ingredients, processing, labels, and perceived control over the food system",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "International Food Information Council, 2026 IFIC Food & Health Survey: A Focus on Food & Ingredient Safety, September 8, 2026",
+  "geography": "United States adults ages 18–80, with a first-year Canadian comparison sample",
+  "observations": [
+    {
+      "period": "2025–2026; confidence in the U.S. food supply",
+      "denominator": {"value": 3005, "unit": "U.S. adults ages 18–80 in the IFIC online survey", "value_type": "weighted_online_panel_sample"},
+      "measures": {
+        "food_supply_confidence": {"value": 62, "unit": "percent very or somewhat confident in the safety of the U.S. food supply in 2026", "value_type": "reported_share"},
+        "year_over_year_change": {"value": "confidence rose from 55% in 2025 to 62% in 2026", "unit": "percentage-point change", "value_type": "reported_change"},
+        "historical_boundary": {"value": "2026 confidence remained below 68% in 2022 and far below the 78% record high in 2012", "unit": "reported historical comparison", "value_type": "reported_trend"},
+        "top_issues": {"value": "pesticides, carcinogens, and foodborne illness remained the most frequently selected top-three food safety concerns", "unit": "reported concern ranking", "value_type": "reported_pattern"}
+      },
+      "method": "Annual IFIC online survey conducted by Greenwald Research through Dynata; fielded March 22–April 8, 2026; weighted by age, education, gender, race/ethnicity, and region to the 2025 Current Population Survey.",
+      "uncertainty": "This is a weighted consumer-panel survey, not a probability sample or behavioral trace; confidence and concern are perceptions, not direct measures of food contamination, inspection performance, or health outcomes.",
+      "subgroup": "U.S. consumers, households making food decisions, and people with different demographic and health-related experiences; the public summary emphasizes national trends more than subgroup outcome differences.",
+      "counterinterpretation": "The confidence rebound may reflect changing salience, reassurance, or survey timing rather than durable institutional trust or safer food conditions.",
+      "source_url": "https://ific.org/research/2026-ific-food-health-survey-food-ingredient-safety/",
+      "retrieval_hash": "sha256:1e3accd385c003a0736bdd8b2a02d58c5e978dbf0437beebba94340f7867abbe",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2026; ingredient simplicity and processing as health criteria",
+      "denominator": {"value": 3005, "unit": "U.S. IFIC survey respondents", "value_type": "weighted_online_panel_sample"},
+      "measures": {
+        "ingredient_simplicity": {"value": "limited or no artificial ingredients or preservatives rose ten percentage points since 2022; limited number of ingredients rose seven points; minimal or no processing rose six points", "unit": "reported change in food-health criteria", "value_type": "reported_trend"},
+        "freshness": {"value": "fresh remained the leading criterion associated with a healthy food, while low in sugar fell out of the top three for the first time", "unit": "reported ranking", "value_type": "reported_pattern"},
+        "nutrition_shift": {"value": "nutrient-specific criteria such as protein, sugar, sodium, carbohydrate, and saturated fat were less prominent than in the prior year", "unit": "reported year-over-year pattern", "value_type": "reported_change"},
+        "interpretation": {"value": "health judgments are expanding beyond nutrient content toward ingredients, processing, freshness, naturalness, and environmental production", "unit": "survey interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated annual survey question on the top five of 20 criteria used to define a healthy food.",
+      "uncertainty": "Reported criteria are beliefs and decision cues, not nutrition knowledge, dietary quality, food purchases, or clinical outcomes; wording and changing public discourse may influence trends.",
+      "subgroup": "U.S. consumers, food shoppers, people managing diet and health, and households navigating labels, prices, and competing health claims.",
+      "counterinterpretation": "Ingredient simplicity can be a useful heuristic but may also create fear, moralization, or misleading equivalences between processing, safety, nutrition, and health.",
+      "source_url": "https://ific.org/wp-content/uploads/2026-IFIC-Food-Health-Survey-Food-Ingredient-Safety-1.pdf",
+      "retrieval_hash": "sha256:1e3accd385c003a0736bdd8b2a02d58c5e978dbf0437beebba94340f7867abbe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; food-label regulation, federalism, and public voice",
+      "denominator": {"value": 3005, "unit": "U.S. IFIC survey respondents", "value_type": "weighted_online_panel_sample"},
+      "measures": {
+        "low_awareness": {"value": 69, "unit": "percent reporting hearing little or nothing about state-level food-labeling requirements or ingredient bans", "value_type": "reported_share"},
+        "shared_responsibility": {"value": 42, "unit": "percent preferring shared state and federal responsibility for food-ingredient policy", "value_type": "reported_share"},
+        "national_rule": {"value": 35, "unit": "percent preferring one national federal rule set", "value_type": "reported_share"},
+        "state_only": {"value": 14, "unit": "percent preferring each state to establish its own rules", "value_type": "reported_share"},
+        "federal_role": {"value": 77, "unit": "percent favoring some federal role, combining shared and national approaches", "value_type": "derived_reported_share"}
+      },
+      "method": "New IFIC survey questions on awareness of state food regulation and preferred allocation of regulatory responsibility.",
+      "uncertainty": "Preferences do not establish knowledge of specific rules, implementation performance, or causal support for federal versus state policies; respondents may interpret ‘responsibility’ differently.",
+      "subgroup": "U.S. consumers, food shoppers, people exposed to state labeling debates, and residents affected by fragmented food rules.",
+      "counterinterpretation": "Low awareness may reflect limited salience rather than disengagement; support for a federal role may coexist with demands for local adaptation or stronger consumer participation.",
+      "source_url": "https://ific.org/wp-content/uploads/2026-IFIC-Food-Health-Survey-Food-Ingredient-Safety-1.pdf",
+      "retrieval_hash": "sha256:1e3accd385c003a0736bdd8b2a02d58c5e978dbf0437beebba94340f7867abbe",
+      "status": "reported"
+    },
+    {
+      "period": "2015–2026; food-safety guidance and everyday practice",
+      "denominator": {"value": 3005, "unit": "U.S. IFIC survey respondents", "value_type": "weighted_online_panel_sample"},
+      "measures": {
+        "core_four_familiarity": {"value": 65, "unit": "percent reporting at least some familiarity with clean, separate, cook, and chill guidance", "value_type": "reported_share"},
+        "not_familiar": {"value": 30, "unit": "percent reporting no familiarity with the Core Four guidance", "value_type": "reported_share"},
+        "handwashing": {"value": 75, "unit": "percent reporting regularly washing hands in 2026, compared with 83% in 2016 and 97% in 2013", "value_type": "reported_share_and_trend"},
+        "thermometer": {"value": 35, "unit": "percent reporting regular food-thermometer use in 2026, up five points from 2016", "value_type": "reported_share_and_change"},
+        "label_reach": {"value": 59, "unit": "percent reporting seeing the Safe Handling Instructions label, compared with 67% in 2015", "value_type": "reported_share_and_change"}
+      },
+      "method": "Repeated IFIC survey items on food-safety familiarity, self-reported practices, and label exposure.",
+      "uncertainty": "Self-reported practice is subject to recall and social-desirability bias; a trend break after years without measurement may reflect wording, context, or sample differences rather than true behavioral change.",
+      "subgroup": "U.S. household food preparers, consumers using labels and guidance, and people with different cooking routines and access to food-safety information.",
+      "counterinterpretation": "Label information may reach fewer people while remaining highly useful to those who see it; declines in some practices do not establish increased foodborne illness.",
+      "source_url": "https://ific.org/wp-content/uploads/2026-IFIC-Food-Health-Survey-Food-Ingredient-Safety-1.pdf",
+      "retrieval_hash": "sha256:1e3accd385c003a0736bdd8b2a02d58c5e978dbf0437beebba94340f7867abbe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ific.org/research/2025-ific-food-health-survey/", "claim": "Earlier IFIC Food & Health survey materials provide prior-year food, health, affordability, and trust context."},
+    {"source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/affordability-pressures-mount,-but-consumers-continue-to-prioritize-restaurants/", "claim": "National Restaurant Association consumer tracking provides complementary evidence on food spending, affordability, and household adaptation."}
+  ],
+  "boundary": "This record adds a U.S. food-culture and public-trust route from food-supply confidence and ingredient concerns through health heuristics, labeling awareness, federalism preferences, household preparation, and everyday risk management. It is a weighted online consumer-panel survey commissioned by IFIC, not a probability sample, behavioral trace, clinical study, or causal measure of food safety or dietary health.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official IFIC September 8, 2026 publication page and 39-page PDF were reviewed for sample and weighting, food-supply confidence, top food-safety issues, ingredient and processing criteria, state-regulation awareness, federal/state preferences, food-safety guidance familiarity, self-reported practices, and label exposure.",
+    "pdf_sha256": "sha256:1e3accd385c003a0736bdd8b2a02d58c5e978dbf0437beebba94340f7867abbe",
+    "checked": "2026-09-28"
+  }
+}

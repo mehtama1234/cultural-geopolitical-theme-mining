@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026",
+  "title": "Northern Irish 16-year-olds combine strong place belonging with divided community confidence, heavy social-media exposure, and selective political agency",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "time_hidden_price"
+  ],
+  "source_unit": "ARK, Northern Ireland Young Life and Times Survey 2026",
+  "geography": "Northern Ireland; 16-year-olds invited from across the region",
+  "observations": [
+    {
+      "period": "March 30-May 1, 2026; belonging, community relations, and perceived social openness",
+      "denominator": {"value": 1965, "unit": "16-year-olds who took part in the Northern Ireland Young Life and Times Survey", "value_type": "reported_youth_survey_sample"},
+      "measures": {
+        "place_belonging": {"value": 71, "unit": "percent definitely or probably expecting to have a sense of belonging to Northern Ireland", "value_type": "reported_share"},
+        "community_respect": {"value": 22, "unit": "percent agreeing or strongly agreeing that Northern Ireland is a place where people respect each other", "value_type": "reported_share"},
+        "religion_and_relations": {"value": 75, "unit": "percent saying religion will always make a difference to how people in Northern Ireland feel about each other", "value_type": "reported_share"},
+        "racist_exposure": {"value": 59, "unit": "percent seeing or hearing racist comments or jokes very or quite often", "value_type": "reported_share"},
+        "refugee_openness": {"value": "34% agree Northern Ireland welcomes refugees escaping persecution, 57% agree it is a duty to protect them, and 67% say media negatively affect perceptions of refugees", "unit": "reported shares", "value_type": "reported_share_set"},
+        "meaning_mechanism": {"value": "young people can feel attachment to place while perceiving weak interpersonal respect and frequent prejudice; belonging is therefore not equivalent to social cohesion or inclusive safety", "unit": "bounded cultural mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ARK Young Life and Times Survey 2026 summary of results; the survey invited 16-year-olds with January-March birthdays across Northern Ireland. Results are self-reported perceptions and experiences, and the 2026 instrument was split across two versions.",
+      "uncertainty": "Participation is not necessarily a probability sample of all Northern Irish 16-year-olds; item denominators may differ because of the split survey, and perceived exposure does not measure independently verified incidents or causal drivers.",
+      "subgroup": "Northern Irish 16-year-olds by religion, gender, family affluence, urban/rural setting, school type, and identity context.",
+      "counterinterpretation": "Strong place belonging may itself be a resource for future civic repair; low respect agreement may reflect strict wording or adolescent skepticism rather than absence of everyday cooperation.",
+      "source_url": "https://www.ark.ac.uk/ylt/2026/summary26.pdf",
+      "retrieval_hash": "sha256:917dbd495a5caa22040e5f3a69dac074c087a9cf26fb70c757c43e7ce2713309",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social-media time, platform reach, and online harm among 16-year-olds",
+      "denominator": {"value": 1965, "unit": "YLT 2026 respondents; individual social-media items may use the relevant split-survey denominator", "value_type": "reported_youth_survey_sample"},
+      "measures": {
+        "daily_time": {"value": "45% report 3-5 hours per day on social media, 24% 6-8 hours, 9% more than 8 hours, and 19% fewer than 3 hours", "unit": "reported time-use shares", "value_type": "reported_share_set"},
+        "platform_reach": {"value": "Snapchat 89%, TikTok 87%, Instagram 79%, YouTube 70%, WhatsApp 68%, and Facebook 29% are reported as used", "unit": "reported platform-use shares", "value_type": "reported_share_set"},
+        "harm_exposure": {"value": "54% report none of the listed social-media harms; among reported harms, offensive material is 24%, non-consensual sharing of information/photos/videos 16%, and deliberate dishonesty for financial or personal benefit 16%", "unit": "reported experience shares", "value_type": "reported_share_set"},
+        "gendered_exposure": {"value": "girls are more likely than boys to report relationship manipulation (12% versus 8%) and stalking of activities (16% versus 11%)", "unit": "reported subgroup shares", "value_type": "reported_subgroup_comparison"},
+        "attention_mechanism": {"value": "high platform exposure coexists with privacy, manipulation, fraud, and harassment risks; social media is both everyday infrastructure and a site where trust and safety costs are unevenly distributed", "unit": "bounded platform mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ARK YLT 2026 summary tables on social-media time, apps, and reported harmful behaviours; the measures are survey self-reports, not device logs, content audits, or platform prevalence estimates.",
+      "uncertainty": "The summary does not provide all item-level response rates, exposure duration definitions, weighting details, or causal ordering; reported harms may be underreported or interpreted differently across respondents.",
+      "subgroup": "Northern Irish 16-year-olds using Snapchat, TikTok, Instagram, YouTube, WhatsApp, Facebook, and other platforms, with gender and urban/rural differences in exposure.",
+      "counterinterpretation": "Heavy use can support friendship, identity, and information access; the harm list captures selected negative experiences and should not be read as net platform effect or inevitable damage.",
+      "source_url": "https://www.ark.ac.uk/ylt/2026/summary26.pdf",
+      "retrieval_hash": "sha256:917dbd495a5caa22040e5f3a69dac074c087a9cf26fb70c757c43e7ce2713309",
+      "status": "reported"
+    },
+    {
+      "period": "2026; youth political agency, safety, and environmental meaning",
+      "denominator": {"value": 1965, "unit": "YLT 2026 respondents; political and environment items may use the relevant split-survey denominator", "value_type": "reported_youth_survey_sample"},
+      "measures": {
+        "voting_age": {"value": 40, "unit": "percent in favour of lowering the voting age to 16; 32% opposed and 28% did not know", "value_type": "reported_share"},
+        "affluence_difference": {"value": "support for lowering the voting age was 46% among respondents describing their families as not well-off, compared with 40% among average and well-off groups", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_comparison"},
+        "local_safety": {"value": 84, "unit": "percent feeling fairly or very safe in the area where they lived; very-safe responses were higher in rural than urban areas (55% versus 29%)", "value_type": "reported_share"},
+        "nature_values_action": {"value": "87% agree they treat nature with respect, 82% say being in nature makes them very happy, but only 39% agree they feel part of nature; 70% frequently or more often try to avoid disturbing wildlife", "unit": "reported value and behaviour shares", "value_type": "reported_share_set"},
+        "agency_mechanism": {"value": "youth political and ecological agency is selective and situated: support for voice and care for nature coexist with uneven safety, place, and household-resource conditions", "unit": "bounded civic-cultural mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ARK YLT 2026 summary of political, safety, and environment results; this observation keeps stated support, perceived safety, values, and reported behaviour as separate measures.",
+      "uncertainty": "The survey does not establish future voting, political participation, conservation impact, or causal effects of affluence and geography; the voting-age measure is an attitude, not a turnout or policy outcome.",
+      "subgroup": "Northern Irish 16-year-olds by family affluence, gender, urban/rural residence, religion, and local safety experience.",
+      "counterinterpretation": "High environmental values and place safety may support durable participation even where formal political support is uncertain; reported nature behaviour may be constrained by access rather than motivation.",
+      "source_url": "https://www.ark.ac.uk/ylt/2026/summary26.pdf",
+      "retrieval_hash": "sha256:917dbd495a5caa22040e5f3a69dac074c087a9cf26fb70c757c43e7ce2713309",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ark.ac.uk/ylt/2026/", "claim": "ARK index of detailed 2026 YLT topic results and technical notes."},
+    {"source_url": "https://www.ark.ac.uk/ylt/2026/tech26.pdf", "claim": "ARK technical notes for the 2026 split-survey design and fieldwork."},
+    {"source_url": "https://relate.younglife.org/about/", "claim": "Complementary global youth relationship and AI-companion evidence."}
+  ],
+  "boundary": "This record adds a public youth-survey route from place belonging and community tension through social-media exposure, online harm, safety, political agency, and environmental meaning. It is a Northern Ireland 16-year-old survey with a split instrument and self-reported measures; it does not establish causal effects, population-wide prevalence beyond the survey frame, future voting, platform telemetry, independently verified harm, or durable social cohesion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ARK YLT 2026 index, summary PDF, and technical-notes PDF were reviewed for fieldwork dates, respondent count, split-survey design, community relations, refugee attitudes, social-media time and harms, political agency, safety, and environmental measures.",
+    "source_page_sha256": "index sha256:5551282b9ab7239a0b31c7ea2d2a458c19d941fbb931bf0ac310d93f49cd316a; summary sha256:917dbd495a5caa22040e5f3a69dac074c087a9cf26fb70c757c43e7ce2713309; technical notes sha256:971632b94e8c384f567fe16087b1faf15cc82fcaaaa2e14f1244727ac7f870da",
+    "checked": "2026-09-29"
+  }
+}

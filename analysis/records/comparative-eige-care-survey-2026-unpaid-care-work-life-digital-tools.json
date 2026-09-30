@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools",
+  "title": "Unpaid care is a gendered time-and-work infrastructure whose effects depend on formal services, household position, and digital support",
+  "theme_ids": ["time", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "European Institute for Gender Equality, CARE Survey second-wave technical report",
+  "geography": "All 27 EU Member States; population aged 16–74; fieldwork October–December 2024",
+  "observations": [
+    {
+      "period": "2024 fieldwork; second CARE Survey wave",
+      "denominator": {"value": 27, "unit": "EU Member States covered", "value_type": "reported_country_count"},
+      "measures": {
+        "sample": {"value": 65202, "unit": "respondents", "value_type": "reported_sample_size"},
+        "coverage": {"value": 27, "unit": "EU Member States", "value_type": "reported_geographic_coverage"},
+        "age_range": {"value": "16–74", "unit": "years", "value_type": "reported_target_population"},
+        "care_scope": {"value": "informal long-term care, informal childcare, housework, leisure, and volunteering", "unit": "survey domains", "value_type": "reported_domain_scope"}
+      },
+      "method": "EIGE commissioned a cross-national computer-assisted web survey using online panels, quotas for age, sex, and region, and post-fieldwork weights incorporating education, parents of children under 12, and long-term caregiver status.",
+      "uncertainty": "The sample is recruited from non-probability online panels; weighting improves alignment on selected characteristics but does not make the survey equivalent to a probability sample or a time-use diary.",
+      "subgroup": "Women and men, parents caring for children under 12, informal long-term caregivers, migrants, and households with varying employment and care arrangements.",
+      "counterinterpretation": "A large harmonized sample can reveal patterned differences without establishing that gender, formal-care access, employment, or household structure caused any individual outcome.",
+      "source_url": "https://eige.europa.eu/sites/default/files/documents/care-survey-second-wave.pdf",
+      "retrieval_hash": "sha256:fc7bcf226790bd81644cfc12229b0aaa837fdb9a505f764098ae43dda585af85",
+      "status": "reported"
+    },
+    {
+      "period": "2024 fieldwork; care-to-work and work–life-balance route",
+      "denominator": {"value": 1, "unit": "CARE Survey analytic framework", "value_type": "care_work_linkage_frame"},
+      "measures": {
+        "informal_formal_link": {"value": "the survey is designed to examine interactions between informal care, access to formal care services, employment, and work–life balance", "unit": "reported analytic route", "value_type": "reported_mechanism_scope"},
+        "policy_target": {"value": "childcare, long-term care, formal-care access, and the work–life effects of care responsibilities", "unit": "European care-strategy policy domains", "value_type": "reported_policy_scope"},
+        "time_conversion": {"value": "care responsibility can be converted into constrained employment, leisure, volunteering, and schedule flexibility", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-national questionnaire design linking care provision and service access with employment, work–life balance, individual activities, and household characteristics.",
+      "uncertainty": "The technical report documents the design and measurement route; the report alone does not provide a causal estimate of lost earnings, hours, health, or career progression.",
+      "subgroup": "Informal caregivers, parents of young children, employed and non-employed adults, migrants, and people with different access to formal care.",
+      "counterinterpretation": "Care can also produce meaning, reciprocity, skills, and social connection; treating all unpaid care as a loss would miss its relational and cultural value.",
+      "source_url": "https://eige.europa.eu/publications-resources/publications/care-survey-second-wave-online-panel-survey-gender-gaps-unpaid-care-individual-and-social-activities-technical-report?language_content_entity=en",
+      "retrieval_hash": "sha256:fc7bcf226790bd81644cfc12229b0aaa837fdb9a505f764098ae43dda585af85",
+      "status": "reported"
+    },
+    {
+      "period": "2024 fieldwork; care, technology, transport, and environmental routines",
+      "denominator": {"value": 1, "unit": "CARE Survey second-wave questionnaire", "value_type": "expanded_care_context_frame"},
+      "measures": {
+        "digital_tools": {"value": "the second wave includes digital tools used in informal care", "unit": "reported questionnaire domain", "value_type": "reported_measurement_extension"},
+        "transport": {"value": "the questionnaire includes transport use in relation to care activities", "unit": "reported questionnaire domain", "value_type": "reported_measurement_extension"},
+        "eco_considerations": {"value": "the questionnaire explores eco-friendly considerations in informal care", "unit": "reported questionnaire domain", "value_type": "reported_measurement_extension"},
+        "infrastructure_route": {"value": "care is organized through time, mobility, digital tools, household resources, and formal services rather than through a single home-based activity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Questionnaire expansion in the second wave, with thematic modules on informal care, individual and social activities, transport, digital tools, and environmental considerations.",
+      "uncertainty": "Inclusion of a topic measures its visibility and reported experience; it does not establish that digital or low-carbon tools reduce care burden, improve quality, or distribute work equally.",
+      "subgroup": "Caregivers, care recipients, parents, migrants, people with different transport access, and households with different digital resources.",
+      "counterinterpretation": "Digital tools and transport may add coordination or surveillance burdens, and greener care options may be inaccessible where time, money, or services are scarce.",
+      "source_url": "https://eige.europa.eu/sites/default/files/documents/care-survey-second-wave.pdf",
+      "retrieval_hash": "sha256:fc7bcf226790bd81644cfc12229b0aaa837fdb9a505f764098ae43dda585af85",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication and data-release route",
+      "denominator": {"value": 1, "unit": "CARE Survey evidence system", "value_type": "care_evidence_infrastructure_frame"},
+      "measures": {
+        "longitudinal_comparison": {"value": "the second wave builds on a first wave conducted in 2022, enabling monitoring of change over time", "unit": "reported survey-wave structure", "value_type": "reported_comparison_route"},
+        "intersectional_analysis": {"value": "individual and household characteristics are collected to support intersectional analysis", "unit": "reported analytic capability", "value_type": "reported_analytic_capability"},
+        "microdata_route": {"value": "EIGE reports that survey microdata are to be made accessible through an open data archive in 2026", "unit": "reported data-access route", "value_type": "reported_data_infrastructure"},
+        "institutional_use": {"value": "care evidence is intended to feed monitoring of the European care strategy and the Gender Equality Index", "unit": "reported policy-use route", "value_type": "reported_policy_use"}
+      },
+      "method": "Repeated cross-national survey design with published technical documentation, selected indicators in EIGE’s Gender Statistics Database, and a planned open-data archive for microdata.",
+      "uncertainty": "A repeated survey improves monitoring potential but does not guarantee identical respondents, identical country conditions, causal identification, or equal data quality across Member States.",
+      "subgroup": "Policy analysts, care systems, employers, households, caregivers, parents, migrants, and gender-equality institutions.",
+      "counterinterpretation": "Better measurement can support policy while still leaving unresolved questions about service quality, bargaining power, unpaid-care valuation, and whether institutions act on the evidence.",
+      "source_url": "https://eige.europa.eu/publications-resources/publications/care-survey-second-wave-online-panel-survey-gender-gaps-unpaid-care-individual-and-social-activities-technical-report?language_content_entity=en",
+      "retrieval_hash": "sha256:fc7bcf226790bd81644cfc12229b0aaa837fdb9a505f764098ae43dda585af85",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://eige.europa.eu/publications-resources/publications/care-survey-second-wave-online-panel-survey-gender-gaps-unpaid-care-individual-and-social-activities-technical-report?language_content_entity=en", "claim": "Official EIGE publication page and technical-report metadata."},
+    {"source_url": "https://www.ilo.org/publications/migrant-workers-care-economy", "claim": "Complementary ILO route on migrant labor in care work and the organization of paid and unpaid care."}
+  ],
+  "boundary": "This record adds a European care-and-time infrastructure route across unpaid long-term care, childcare, housework, leisure, volunteering, formal services, employment, transport, digital tools, migration, and work–life balance. It uses EIGE’s published survey design and scope, not respondent-level results, a probability sample, time-use diaries, causal estimates, observed service quality, wage histories, or proof that care responsibility produces one universal gender or labor-market outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official EIGE CARE Survey second-wave technical-report PDF reviewed for survey scope, sample size, EU-27 coverage, fieldwork dates, questionnaire domains, weighting route, and planned data-access route.",
+    "source_url_sha256": "sha256:fc7bcf226790bd81644cfc12229b0aaa837fdb9a505f764098ae43dda585af85",
+    "checked": "2026-09-28"
+  }
+}

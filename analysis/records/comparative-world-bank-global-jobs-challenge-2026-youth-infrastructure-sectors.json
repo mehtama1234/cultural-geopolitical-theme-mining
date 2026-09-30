@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-global-jobs-challenge-2026-youth-infrastructure-sectors",
+  "title": "A youth-heavy demographic wave turns jobs into an infrastructure, sector, and social-stability challenge",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, The Global Jobs Challenge",
+  "geography": "Emerging market and developing economies, with global demographic, labor-market, infrastructure, and sector implications",
+  "observations": [
+    {
+      "period": "2025-2035; youth entry into working age",
+      "denominator": {"value": 1200000000, "unit": "young people in emerging market and developing economies expected to reach working age", "value_type": "reported_projection"},
+      "measures": {
+        "demographic_wave": {"value": 1200000000, "unit": "people reaching working age during 2025-2035", "value_type": "reported_projection"},
+        "development_stakes": {"value": "sufficient job creation could support poverty reduction, shared prosperity, self-sufficient economies, and social stability", "unit": "reported development pathway", "value_type": "reported_mechanism"},
+        "challenge_condition": {"value": "many affected economies enter the demographic wave with low per-capita incomes, high debt, and limited policy room", "unit": "reported constraint set", "value_type": "reported_context"}
+      },
+      "method": "World Bank synthesis of demographic projections, labor-market conditions, macroeconomic constraints, infrastructure, and job-creation policy pathways.",
+      "uncertainty": "The projection describes a demographic opportunity and pressure, not a forecast of actual employment, earnings, migration, or political behavior in every country.",
+      "subgroup": "Young people entering working age, households, employers, governments, migrants, and communities in emerging market and developing economies.",
+      "counterinterpretation": "A large working-age cohort can raise growth and innovation when education, health, institutions, finance, and job demand align; demographic size alone does not determine outcomes.",
+      "source_url": "https://www.worldbank.org/en/research/publication/global-jobs-challenge",
+      "retrieval_hash": "sha256:1e8cd9f3249a8801f2b9fc98719df08a1b4a5ef906936178dda823a65922cd3e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; job-creation policy architecture",
+      "denominator": {"value": 1, "unit": "World Bank global jobs policy framework", "value_type": "policy_framework"},
+      "measures": {
+        "policy_pillars": {"value": "foundational physical, human, and digital capital; a business-friendly environment; and mobilization of private capital", "unit": "reported policy pillars", "value_type": "reported_framework"},
+        "structural_pressure": {"value": "slower global growth, harder export-led strategies, AI, and the energy transition complicate job creation", "unit": "reported structural conditions", "value_type": "reported_mechanism"},
+        "coordination_need": {"value": "national strategies need to be adapted to country circumstances while international support remains relevant", "unit": "reported governance implication", "value_type": "reported_policy_direction"}
+      },
+      "method": "World Bank policy synthesis connecting labor demand to physical infrastructure, human capital, digital access, firms, finance, and national strategy.",
+      "uncertainty": "The framework identifies enabling conditions but does not estimate the cost, sequencing, or country-specific employment effect of each pillar.",
+      "subgroup": "Workers, job seekers, firms, investors, training systems, infrastructure users, governments, and development-finance institutions.",
+      "counterinterpretation": "Private capital and business reform can expand opportunity but may not reach lagging regions or vulnerable workers without public investment, labor protections, and inclusive access.",
+      "source_url": "https://www.worldbank.org/en/research/publication/global-jobs-challenge",
+      "retrieval_hash": "sha256:1e8cd9f3249a8801f2b9fc98719df08a1b4a5ef906936178dda823a65922cd3e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; sectors with large-scale job potential",
+      "denominator": {"value": 5, "unit": "sectors identified by the World Bank as having potential for resilient, large-scale job creation", "value_type": "reported_sector_set"},
+      "measures": {
+        "sector_set": {"value": "infrastructure including energy, agribusiness and farming, health, tourism, and value-added manufacturing", "unit": "reported priority sectors", "value_type": "reported_sector_set"},
+        "cross_domain_link": {"value": "job creation depends on connections among physical systems, food production, care, mobility, services, and industrial upgrading", "unit": "reported cross-domain pathway", "value_type": "reported_mechanism"},
+        "resilience_frame": {"value": "sector strategies are presented as part of resilient, large-scale job creation rather than a single-industry solution", "unit": "reported development frame", "value_type": "reported_framework"}
+      },
+      "method": "World Bank comparison of sector opportunities within a global jobs and development framework.",
+      "uncertainty": "Sector potential varies with local demand, productivity, skills, energy and transport access, environmental constraints, trade conditions, and institutional quality.",
+      "subgroup": "Workers, farmers, caregivers, health workers, tourism workers, manufacturers, entrepreneurs, consumers, and communities near infrastructure or industrial investment.",
+      "counterinterpretation": "Sector expansion can create low-quality or insecure work and environmental pressure unless productivity gains are paired with rights, skills, public services, and distributional safeguards.",
+      "source_url": "https://www.worldbank.org/en/research/publication/global-jobs-challenge",
+      "retrieval_hash": "sha256:1e8cd9f3249a8801f2b9fc98719df08a1b4a5ef906936178dda823a65922cd3e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; jobs, poverty, and social stability",
+      "denominator": {"value": 1, "unit": "global jobs-development challenge", "value_type": "reported_system_frame"},
+      "measures": {
+        "welfare_route": {"value": "jobs are presented as central to reducing poverty and promoting shared prosperity", "unit": "reported development mechanism", "value_type": "reported_mechanism"},
+        "stability_route": {"value": "employment opportunity is linked to self-sufficient economies and social stability", "unit": "reported social mechanism", "value_type": "reported_mechanism"},
+        "technology_transition": {"value": "AI and the energy transition create uncertainty alongside potential productivity and investment opportunities", "unit": "reported transition condition", "value_type": "reported_context"}
+      },
+      "method": "World Bank synthesis linking demographic change, employment, poverty, macroeconomic conditions, technology, energy, and social stability.",
+      "uncertainty": "The publication does not establish that job growth alone causes social stability or that technology transitions will produce net gains for every worker or place.",
+      "subgroup": "Young workers, informal workers, households, firms, governments, communities facing economic frustration, and people affected by AI or energy-transition restructuring.",
+      "counterinterpretation": "Social stability also depends on rights, representation, prices, public services, identity, conflict, and political legitimacy; employment indicators should not substitute for those dimensions.",
+      "source_url": "https://www.worldbank.org/en/research/publication/global-jobs-challenge",
+      "retrieval_hash": "sha256:1e8cd9f3249a8801f2b9fc98719df08a1b4a5ef906936178dda823a65922cd3e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/research/publication/jobs-in-a-changing-climate", "claim": "World Bank climate-and-jobs analysis provides complementary evidence on adaptation, employment shifts, and resilience investment."},
+    {"source_url": "https://www.worldbank.org/en/publication/global-monitoring-report/development-trends-and-economic-development", "claim": "World Bank demographic-trends analysis provides complementary evidence on age structure, labor, migration, and development policy."}
+  ],
+  "boundary": "This record adds a global jobs route linking youth demography, infrastructure, human and digital capital, private finance, priority sectors, technology transitions, poverty, and social stability. It is a publication-level synthesis, not individual employment histories, respondent-level labor data, a country job forecast, or proof that any single policy creates stability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank Global Jobs Challenge page was reviewed for the 2025-2035 youth cohort, policy pillars, structural constraints, priority sectors, and jobs-to-stability pathways.",
+    "source_url_sha256": "sha256:1e8cd9f3249a8801f2b9fc98719df08a1b4a5ef906936178dda823a65922cd3e",
+    "checked": "2026-09-26"
+  }
+}

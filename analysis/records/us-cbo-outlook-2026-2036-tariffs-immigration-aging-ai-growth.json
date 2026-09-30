@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth",
+  "title": "US growth is being reconfigured by fiscal stimulus, tariffs, immigration, aging, and AI investment",
+  "theme_ids": ["cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Congressional Budget Office The Budget and Economic Outlook: 2026 to 2036",
+  "geography": "United States; federal budget, macroeconomy, labor force, households, firms, trade, and global exposure",
+  "observations": [
+    {
+      "period": "2026-2036; CBO baseline economic outlook",
+      "denominator": {"value": 100, "unit": "annual real GDP growth comparison frame", "value_type": "forecast_frame"},
+      "measures": {
+        "real_gdp_growth_2026": {"value": 2.2, "unit": "percent projected real GDP growth in 2026", "value_type": "reported_forecast"},
+        "real_gdp_growth_2027": {"value": 1.8, "unit": "percent projected real GDP growth in 2027", "value_type": "reported_forecast"},
+        "growth_2027_2036": {"value": 1.8, "unit": "average annual percent real GDP growth projected from 2027 through 2036", "value_type": "reported_forecast"},
+        "inflation_2026": {"value": 2.7, "unit": "percent PCE inflation projected in 2026", "value_type": "reported_forecast"},
+        "inflation_2030": {"value": 2.0, "unit": "percent PCE inflation projected around 2030 and thereafter", "value_type": "reported_forecast"}
+      },
+      "method": "CBO baseline projections incorporating enacted law, implemented tariff and immigration policies, fiscal changes, labor-force projections, and macroeconomic assumptions.",
+      "uncertainty": "These are baseline forecasts, not observed outcomes; CBO emphasizes uncertainty around policy effects, tariffs, immigration, AI diffusion, geopolitical conflict, interest rates, and global demand.",
+      "subgroup": "US households, workers, firms, governments, and trading partners affected by the macroeconomic baseline.",
+      "counterinterpretation": "Near-term growth can improve while longer-run growth slows; aggregate GDP and inflation do not establish equal household purchasing power, regional outcomes, or distributional welfare.",
+      "source_url": "https://www.cbo.gov/publication/62105",
+      "retrieval_hash": "official_source_url:sha256:46ac47979ade63328ad728129076fcb35e701dbe00d538c404c1b9daf1f0ad21",
+      "status": "reported"
+    },
+    {
+      "period": "2026 and later; fiscal and trade-policy interaction",
+      "denominator": {"value": 1, "unit": "CBO policy-scenario comparison", "value_type": "forecast_mechanism_frame"},
+      "measures": {
+        "reconciliation_act": {"value": "boosts near-term consumer spending and private investment and raises productive capacity through labor supply and investment effects", "unit": "reported modeled mechanism", "value_type": "reported_forecast_mechanism"},
+        "tariff_effect": {"value": "higher tariffs raise imported-goods costs, reduce purchasing power, reduce foreign investment, and lower economic efficiency", "unit": "reported modeled mechanism", "value_type": "reported_forecast_mechanism"},
+        "tariff_inflation": {"value": "inflation is projected higher through 2029 than in the January 2025 forecast, primarily because of higher tariffs", "unit": "forecast revision", "value_type": "reported_forecast_revision"},
+        "deficits": {"value": 23.1, "unit": "trillion dollars in projected federal deficits from 2026 through 2035", "value_type": "reported_forecast_amount"}
+      },
+      "method": "CBO comparison of its current baseline with prior projections and decomposition of enacted fiscal, tariff, and immigration-policy effects.",
+      "uncertainty": "The effects are model-based estimates conditional on current law and CBO assumptions; they do not predict the incidence of costs and gains across specific households, sectors, or regions.",
+      "subgroup": "Consumers of imported goods, workers, firms using imported inputs, investors, taxpayers, recipients of federal programs, and trading partners.",
+      "counterinterpretation": "Tariffs can redirect production and supply chains and fiscal changes can increase investment; the report's projected aggregate drag does not mean every industry or household experiences a loss.",
+      "source_url": "https://www.cbo.gov/publication/62105",
+      "retrieval_hash": "official_source_url:sha256:46ac47979ade63328ad728129076fcb35e701dbe00d538c404c1b9daf1f0ad21",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2036; labor supply and demographic structure",
+      "denominator": {"value": 100, "unit": "civilian noninstitutionalized population and labor-force projection frame", "value_type": "forecast_frame"},
+      "measures": {
+        "unemployment_2026": {"value": 4.6, "unit": "percent projected unemployment rate in 2026", "value_type": "reported_forecast"},
+        "unemployment_2032": {"value": 4.2, "unit": "percent projected unemployment rate in 2032", "value_type": "reported_forecast"},
+        "labor_force_participation": {"value": "declines from 62.5% in 2025 to 61.9% in 2036", "unit": "labor-force participation rate", "value_type": "reported_forecast"},
+        "payroll_growth": {"value": 44000, "unit": "average jobs added per month projected from 2028 through 2036", "value_type": "reported_forecast"},
+        "labor_supply_drivers": {"value": "population aging and reduced net immigration slow labor-force growth", "unit": "reported structural mechanism", "value_type": "reported_forecast_mechanism"}
+      },
+      "method": "CBO labor-market and demographic projections using population, immigration, participation, employment, and policy assumptions.",
+      "uncertainty": "Labor-force projections depend on fertility, mortality, migration, participation, policy implementation, business demand, and future technological change; they are not a forecast of any person's employment path.",
+      "subgroup": "Workers, employers, immigrants, older adults, younger entrants, caregivers, and regions with differing demographic structures.",
+      "counterinterpretation": "A declining participation rate can coexist with low unemployment and productivity growth; labor scarcity may raise wages or accelerate automation in some sectors while reducing opportunity in others.",
+      "source_url": "https://www.cbo.gov/publication/62105",
+      "retrieval_hash": "official_source_url:sha256:46ac47979ade63328ad728129076fcb35e701dbe00d538c404c1b9daf1f0ad21",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2036; trade, dollar, AI, and productive-capacity pathway",
+      "denominator": {"value": 100, "unit": "projected real output and trade-growth frame", "value_type": "forecast_frame"},
+      "measures": {
+        "business_fixed_investment_2026": {"value": 3.9, "unit": "percent projected real business fixed-investment growth in 2026", "value_type": "reported_forecast"},
+        "export_growth_2026": {"value": 2.0, "unit": "percent projected real export growth in 2026", "value_type": "reported_forecast"},
+        "trade_deficit_2036": {"value": 1.6, "unit": "percent of GDP projected for the trade deficit in 2036", "value_type": "reported_forecast"},
+        "dollar_change": {"value": -9.6, "unit": "percent projected cumulative decline in the dollar's exchange value from 2026 through 2036", "value_type": "reported_forecast"},
+        "ai_productivity": {"value": "wider adoption of generative AI is expected to support productivity and investment, while requiring substantial data-center, computing, and intellectual-property investment", "unit": "reported forecast mechanism", "value_type": "reported_forecast_mechanism"}
+      },
+      "method": "CBO projection of trade flows, exchange rates, business investment, productivity, and AI-related capital formation.",
+      "uncertainty": "The pace and distribution of AI productivity, supply-chain adjustment, exchange-rate movement, and foreign demand are highly uncertain; projected trade and investment changes do not establish realized reshoring or consumer benefit.",
+      "subgroup": "US exporters, importers, firms using AI or imported inputs, consumers, workers, investors, and foreign trading partners.",
+      "counterinterpretation": "A smaller trade deficit or higher investment can reflect adjustment costs, lower imports, currency changes, or concentrated gains rather than broad economic security or self-sufficiency.",
+      "source_url": "https://www.cbo.gov/publication/62105",
+      "retrieval_hash": "official_source_url:sha256:46ac47979ade63328ad728129076fcb35e701dbe00d538c404c1b9daf1f0ad21",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cbo.gov/publication/61882", "claim": "CBO's January 2025 outlook is the principal comparison baseline referenced in the 2026 forecast revisions.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a macro-to-lived-conditions pathway: fiscal support, tariffs, immigration policy, aging, AI investment, trade, and debt jointly shape US growth, prices, labor supply, and household room. It is a CBO forecast under current-law and policy assumptions, not observed outcomes, a causal policy evaluation, or a distributional household panel.",
+  "retrieval_hash": "official_source_url:sha256:46ac47979ade63328ad728129076fcb35e701dbe00d538c404c1b9daf1f0ad21"
+}

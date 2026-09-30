@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-prospects-children-volatile-world-2026-systems",
+  "title": "Children’s futures are being shaped by interacting geopolitical, fiscal, climate, digital, and social-system pressures",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNICEF Innocenti, Prospects for Children in 2026: A Global Outlook Overview, The Future for Children in a Volatile World",
+  "geography": "Global child prospects under technological, geopolitical, public-finance, climate, environmental, and social-contract change",
+  "observations": [
+    {
+      "period": "2026 outlook; interacting volatility drivers",
+      "denominator": {"value": 1, "unit": "global child-prospects foresight frame", "value_type": "global_child_outlook_frame"},
+      "measures": {
+        "driver_set": {"value": "Technological change, shifting geopolitics, climate and environmental crises, and evolving social contracts are converging to create volatility for children", "unit": "reported driver set", "value_type": "reported_structural_pressure"},
+        "system_question": {"value": "The outlook asks how public, private, and social systems can withstand volatility and support children to flourish", "unit": "reported policy question", "value_type": "reported_policy_question"},
+        "response_orientation": {"value": "Inclusion, resilience, and opportunity are identified as the desired trajectory", "unit": "reported policy orientation", "value_type": "reported_policy_objective"}
+      },
+      "method": "UNICEF Innocenti foresight-informed global outlook synthesizing thematic analyses of technology, work, social protection, climate, NGOs, child protection, and data infrastructure.",
+      "uncertainty": "This is a foresight and policy synthesis, not a forecast of one realized future, a representative child survey, or a causal estimate of each volatility driver.",
+      "subgroup": "Children and adolescents, families, schools, health and social services, public and private institutions, NGOs, and communities in different demographic and geopolitical contexts.",
+      "counterinterpretation": "Volatility can create opportunities for institutional redesign, innovation, and stronger child-centred systems; risks and opportunities are not distributed uniformly.",
+      "source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook",
+      "retrieval_hash": "sha256:4b8317413427167860467675a38027f0dabd1cda5dfdc994d2f0c10ae7217e44",
+      "status": "reported"
+    },
+    {
+      "period": "2026 outlook; AI, work, and household security",
+      "denominator": {"value": 1, "unit": "child and household AI-to-work transition frame", "value_type": "ai_work_family_frame"},
+      "measures": {
+        "ai_route": {"value": "AI is entering classrooms, clinics, social-protection systems, and labour markets, with implications for children’s rights and services", "unit": "reported institutional route", "value_type": "reported_mechanism"},
+        "income_volatility": {"value": "AI and automation may shift skill demand, contribute to job loss or precarious gig work, and make family incomes more volatile", "unit": "reported risk pathway", "value_type": "reported_risk_mechanism"},
+        "capability_response": {"value": "Shock-responsive systems, foundational and AI literacies, school-to-work pathways, critical thinking, socio-emotional skills, and wellbeing safeguards are identified as responses", "unit": "reported policy response set", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UNICEF foresight analysis linking AI adoption and labour-market change to household income, nutrition, schooling, care, child rights, and transition policy.",
+      "uncertainty": "The report identifies plausible pathways rather than estimating the number of jobs affected, household income losses, or realized AI effects on learning, care, or wellbeing.",
+      "subgroup": "Children, adolescents, caregivers, workers, households dependent on labour income, students, teachers, employers, digital platforms, and public employment and education systems.",
+      "counterinterpretation": "AI can improve access to personalized learning and services, and automation may create new work; outcomes depend on governance, distribution, skills, and protection.",
+      "source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook",
+      "retrieval_hash": "sha256:4b8317413427167860467675a38027f0dabd1cda5dfdc994d2f0c10ae7217e44",
+      "status": "reported"
+    },
+    {
+      "period": "2026 outlook; geopolitics, public funding, and service continuity",
+      "denominator": {"value": 1, "unit": "child services under geopolitical and fiscal pressure", "value_type": "public_finance_service_frame"},
+      "measures": {
+        "military_social_tradeoff": {"value": "Rising military spending can crowd out investment in children and normalize responses that intensify displacement, education disruption, violence, and family separation", "unit": "reported policy tension", "value_type": "reported_tradeoff"},
+        "funding_fragility": {"value": "Competing budgets, fragmented coordination, unpredictable funding, and humanitarian needs threaten continuity of essential child services", "unit": "reported public-capacity pattern", "value_type": "reported_capacity_risk"},
+        "resilience_tools": {"value": "Buffers, redundancy, contingency financing, shock-responsive systems, and measures of resilience and equity are identified as needed", "unit": "reported policy response set", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UNICEF global outlook synthesis connecting geopolitics, defense priorities, fiscal space, humanitarian funding, child poverty, and public-service continuity.",
+      "uncertainty": "The reported tradeoffs are system-level arguments, not country-specific budget causal estimates or proof that one spending category directly determines child outcomes.",
+      "subgroup": "Children in conflict or displacement, marginalized children, humanitarian populations, schools, health systems, social-protection recipients, NGOs, and public budgets.",
+      "counterinterpretation": "Security spending can protect children in some contexts, and fiscal restraint can coexist with service reform; the risk lies in unexamined tradeoffs and fragile continuity.",
+      "source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook",
+      "retrieval_hash": "sha256:4b8317413427167860467675a38027f0dabd1cda5dfdc994d2f0c10ae7217e44",
+      "status": "reported"
+    },
+    {
+      "period": "2026 outlook; climate transition and child-centred legitimacy",
+      "denominator": {"value": 1, "unit": "child-centred climate and environmental transition frame", "value_type": "climate_child_transition_frame"},
+      "measures": {
+        "climate_consequences": {"value": "Climate change is altering children’s lives through food insecurity, health and disease burdens, displacement, and educational disruption", "unit": "reported consequence set", "value_type": "reported_mechanism"},
+        "transition_requirements": {"value": "Resilient schools and health systems, safe mobility, child-sensitive social protection, and green skills are identified as transition supports", "unit": "reported support set", "value_type": "reported_policy_pathway"},
+        "participation": {"value": "Child and youth participation and leadership are framed as sources of legitimacy and innovation for climate action", "unit": "reported governance mechanism", "value_type": "reported_participation_route"}
+      },
+      "method": "UNICEF synthesis of climate, environment, service resilience, social protection, green skills, and child/youth participation pathways.",
+      "uncertainty": "The outlook does not quantify hazard exposure or establish that child participation causes more effective climate policy; implementation and local capacity remain open.",
+      "subgroup": "Children and youth in climate-exposed places, low-income households, displaced populations, schools, health systems, workers, communities, and policymakers.",
+      "counterinterpretation": "Green transition policies can improve health, skills, and resilience, but can also reproduce inequality when costs, access, and voice are unevenly distributed.",
+      "source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook",
+      "retrieval_hash": "sha256:4b8317413427167860467675a38027f0dabd1cda5dfdc994d2f0c10ae7217e44",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/innocenti/reports/growing-rights", "claim": "Complementary UNICEF framework on developmental, protective, and emancipatory child capacities."},
+    {"source_url": "https://www.unicef.org/reports/childrens-climate-risk-report-2026", "claim": "Complementary UNICEF evidence on compound climate hazards, vulnerability, and child services."}
+  ],
+  "boundary": "This record adds a child-centred foresight route linking geopolitics, fiscal space, AI, work, climate, public services, NGOs, and social protection. It uses a global outlook synthesis, not child-level histories, national budget estimates, causal AI or climate effects, representative forecasts, or proof that resilience tools have been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNICEF Innocenti 2026 Global Outlook page reviewed for volatility drivers, AI and work, social protection, geopolitics and public funding, climate transition, child participation, data infrastructure, and resilience recommendations.",
+    "source_url_sha256": "sha256:4b8317413427167860467675a38027f0dabd1cda5dfdc994d2f0c10ae7217e44",
+    "checked": "2026-09-26"
+  }
+}

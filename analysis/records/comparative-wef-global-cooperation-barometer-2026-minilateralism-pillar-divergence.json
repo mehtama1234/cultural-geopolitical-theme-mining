@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-global-cooperation-barometer-2026-minilateralism-pillar-divergence",
+  "title": "Global cooperation is reconfiguring from broad multilateralism toward smaller coalitions, with technology and climate cooperation stronger than peace and security cooperation",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Economic Forum and McKinsey & Company, Global Cooperation Barometer 2026, Third Edition",
+  "geography": "Global cooperation across countries and economies, with indicators spanning all geographies and levels of development from 2012-2024 and partial 2025 updates",
+  "observations": [
+    {
+      "period": "2012-2024; global cooperation measurement frame indexed to 2020",
+      "denominator": {"value": 41, "unit": "cooperation indicators across five global-connection pillars", "value_type": "reported_indicator_denominator"},
+      "measures": {
+        "pillars": {"value": "trade and capital; innovation and technology; climate and natural capital; health and wellness; peace and security", "unit": "barometer pillars", "value_type": "reported_measurement_framework"},
+        "time_series": {"value": "2012-2024", "unit": "main trendline period", "value_type": "reported_period"},
+        "base_year": {"value": 2020, "unit": "index base year equal to 1", "value_type": "reported_index_base"}
+      },
+      "method": "The barometer combines action metrics showing manifested cooperation and outcome metrics influenced by cooperation plus other factors; pillar and overall indices use equal-weighted averages.",
+      "uncertainty": "The tool is explicitly incomplete; data availability differs by indicator and some 2025 figures are partial-year data or projections, while outcomes are not attributable to cooperation alone.",
+      "subgroup": "States, regional blocs, firms, research networks, civil society, multilateral institutions, and populations affected by cross-border cooperation or fragmentation.",
+      "counterinterpretation": "A composite index can show broad direction while masking sharp divergence within pillars, regions, income groups, and specific cooperative arrangements.",
+      "source_url": "https://www.weforum.org/publications/the-global-cooperation-barometer-2026/in-full/about-the-global-cooperation-barometer/",
+      "retrieval_hash": "sha256:19f4912f6f9ce730d29d947af92f6319475e22a2d2a33da23a9f1cd2f68e1447",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2025; evolution of multilateral and smaller-coalition cooperation",
+      "denominator": {"value": 1, "unit": "global cooperation trend interpretation frame", "value_type": "published_assessment_frame"},
+      "measures": {
+        "overall_cooperation": {"value": "overall cooperation has held steady", "unit": "reported barometer pattern", "value_type": "reported_assessment"},
+        "multilateralism": {"value": "cooperation tied to broad multilateral mechanisms has largely declined", "unit": "reported trend pattern", "value_type": "reported_assessment"},
+        "minilateralism": {"value": "smaller, adaptive, purpose-built coalitions have continued and become more prominent", "unit": "reported cooperation pattern", "value_type": "reported_assessment"},
+        "metric_baseline": {"value": "most cooperation metrics remain above 2019 levels", "unit": "reported comparison", "value_type": "reported_assessment"}
+      },
+      "method": "The report interprets 41 action and outcome metrics alongside global political and economic developments to distinguish broad multilateral cooperation from flexible smaller-group cooperation.",
+      "uncertainty": "The reported shift is an interpretation of trends and arrangements, not a complete inventory of coalitions or proof that smaller groups are more legitimate, equitable, or durable.",
+      "subgroup": "National governments, regional partnerships, trade and technology coalitions, multilateral institutions, and communities affected by changing global rules.",
+      "counterinterpretation": "Smaller coalitions may preserve practical cooperation but can also fragment standards, exclude weaker actors, and weaken universal accountability.",
+      "source_url": "https://www.weforum.org/publications/the-global-cooperation-barometer-2026/in-full/introduction-the-evolution-of-global-cooperation/",
+      "retrieval_hash": "sha256:1266e38432122cdf0b6af2b3fa7215e435f8c5a6d19bab892577c90f8f3f510f",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2025; cooperation by pillar",
+      "denominator": {"value": 5, "unit": "global cooperation pillars", "value_type": "reported_pillar_denominator"},
+      "measures": {
+        "innovation_climate": {"value": "innovation and technology and climate and natural capital show increasing cooperation", "unit": "reported pillar pattern", "value_type": "reported_assessment"},
+        "trade_capital": {"value": "trade and capital cooperation remains above 2019 levels but is flattening and reconfiguring", "unit": "reported pillar pattern", "value_type": "reported_assessment"},
+        "health": {"value": "health and wellness cooperation is flattening, with outcomes still above pre-COVID levels but vulnerable to declining aid", "unit": "reported pillar pattern", "value_type": "reported_assessment"},
+        "peace_security": {"value": "peace and security shows the greatest decline, with every metric below pre-pandemic levels", "unit": "reported pillar pattern", "value_type": "reported_assessment"}
+      },
+      "method": "The barometer compares action and outcome indices across the five pillars and identifies where domestic interests converge or conflict with global goals.",
+      "uncertainty": "Pillar-level patterns aggregate heterogeneous indicators and cannot establish a single cause for divergence or predict the durability of cooperation.",
+      "subgroup": "People exposed to conflict, health-system strain, climate risk, technology transitions, trade reconfiguration, and unequal access to cooperative gains.",
+      "counterinterpretation": "Strong technology or climate cooperation can coexist with conflict, exclusion, or extractive arrangements; positive aggregate momentum is not equivalent to universal benefit.",
+      "source_url": "https://www.weforum.org/publications/the-global-cooperation-barometer-2026/in-full/introduction-the-evolution-of-global-cooperation/",
+      "retrieval_hash": "sha256:1266e38432122cdf0b6af2b3fa7215e435f8c5a6d19bab892577c90f8f3f510f",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2025; decline in multilateral security and assistance mechanisms",
+      "denominator": {"value": 1, "unit": "reported pre-pandemic comparison frame", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "peacekeeping_resolutions_health_aid": {"value": "peacekeeping activity, multilateral resolutions, and health aid were each more than 20 percent below 2019 levels by the end of 2024", "unit": "reported change relative to 2019", "value_type": "reported_change"},
+        "foreign_aid_2024": {"value": -11, "unit": "percent change in foreign aid in 2024, as reported", "value_type": "reported_change"},
+        "security_gap": {"value": "cooperation has receded most sharply where conflict and humanitarian need are rising", "unit": "reported interpretation", "value_type": "reported_assessment"}
+      },
+      "method": "The report compares cooperation-related flows and institutional activity against 2019 pre-pandemic levels and places them alongside conflict and humanitarian trends.",
+      "uncertainty": "The comparison does not show whether declining activity reflects capacity, political choice, measurement coverage, or temporary shocks, and does not estimate effects on specific affected populations.",
+      "subgroup": "Conflict-affected communities, humanitarian recipients, peacekeeping and health institutions, aid-dependent governments, and states seeking alternative security partnerships.",
+      "counterinterpretation": "Declines in broad multilateral measures may coexist with bilateral, regional, or informal cooperation that the selected indicators do not capture.",
+      "source_url": "https://www.weforum.org/publications/the-global-cooperation-barometer-2026/in-full/introduction-the-evolution-of-global-cooperation/",
+      "retrieval_hash": "sha256:1266e38432122cdf0b6af2b3fa7215e435f8c5a6d19bab892577c90f8f3f510f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/the-global-cooperation-barometer-2026/in-full/", "claim": "Full report, executive summary, recommendations, and appendix navigation."},
+    {"source_url": "https://www.weforum.org/publications/the-global-cooperation-barometer-2026/in-full/recommendations-strategies-for-new-forms-of-cooperation/", "claim": "Recommendations for adaptive and interest-aligned forms of cooperation."}
+  ],
+  "boundary": "This record adds a global-cooperation and institutional-reconfiguration route linking trade, technology, climate, health, peace, multilateralism, minilateralism, and uneven geopolitical consequences. It is a composite index and expert/executive survey-informed synthesis, not a causal measure of cooperation, a complete coalition inventory, respondent-level public opinion, or proof that smaller coalitions produce equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WEF Global Cooperation Barometer 2026 pages were reviewed for the five pillars, 41 indicators, 2012-2024 frame, 2020 index base, steady overall cooperation, multilateral decline and minilateral adaptation, pillar divergence, and pre-pandemic security and aid comparisons.",
+    "source_url_sha256": "sha256:1266e38432122cdf0b6af2b3fa7215e435f8c5a6d19bab892577c90f8f3f510f",
+    "checked": "2026-09-27"
+  }
+}

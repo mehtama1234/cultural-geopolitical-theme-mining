@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nim-gfk-consumer-climate-germany-august-2026-sentiment-savings",
+  "title": "German consumer sentiment improves through income expectations while willingness to buy remains depressed and willingness to save stays high",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Nuremberg Institute for Market Decisions, NIM Consumer Climate powered by GfK, Consumer Climate Improves, August 2026",
+  "geography": "Germany’s private consumers and household economic expectations",
+  "observations": [
+    {
+      "period": "August 2026; composite consumer climate and economic expectations",
+      "denominator": {"value": 2000, "unit": "approximately German consumer interviews informing the monthly study", "value_type": "published_survey_sample_approximate"},
+      "measures": {
+        "consumer_climate": {"value": -26.6, "unit": "NIM consumer climate index points for September expectations, up 2.8 points month-on-month", "value_type": "reported_index"},
+        "economic_expectations": {"value": -3.9, "unit": "economic-expectations index points, up 2.4 points and the fourth consecutive increase", "value_type": "reported_index"},
+        "income_expectations": {"value": 1.7, "unit": "income-expectations index points, up 16.2 points and the highest level in six months", "value_type": "reported_index"},
+        "sentiment_route": {"value": "consumer sentiment is improving through income and economic expectations even though the overall climate remains deeply negative", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "NIM Consumer Climate powered by GfK survey indicators collected on behalf of the European Commission and summarized in a monthly publication.",
+      "uncertainty": "The indices are subjective sentiment indicators and do not directly measure realized income, purchases, savings, or welfare; the public page gives approximate sample size and index movements rather than respondent-level records.",
+      "subgroup": "German private consumers, households with different income expectations, savers, purchasers, retailers, and producers of durable goods and services.",
+      "counterinterpretation": "Improving expectations may not translate into consumption if prices, liquidity, debt, housing, care, or labor-market conditions remain restrictive.",
+      "source_url": "https://www.nim.org/en/consumer-climate/detail-consumer-climate/consumer-climate-improves",
+      "retrieval_hash": "sha256:e3e8e6f700c3aa1559b443af0baccd055018c9af7a6c315ec173b100c6d99f8a",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; willingness to buy and major-purchase behavior",
+      "denominator": {"value": 2000, "unit": "approximately German consumer interviews informing the monthly study", "value_type": "published_survey_sample_approximate"},
+      "measures": {
+        "willingness_to_buy": {"value": -9.8, "unit": "willingness-to-buy index points, virtually unchanged month-on-month", "value_type": "reported_index"},
+        "low_purchase_level": {"value": "willingness to buy has remained around -10 points for about four years", "unit": "reported longitudinal pattern", "value_type": "reported_persistence"},
+        "purchase_route": {"value": "better income expectations have not yet converted into greater willingness to make major purchases", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"},
+        "boundary": {"value": "the index is not transaction data and does not show which categories or households are delaying purchases", "unit": "interpretation boundary", "value_type": "boundary"}
+      },
+      "method": "NIM/GfK monthly willingness-to-buy indicator based on consumer assessments of whether major purchases are favorable.",
+      "uncertainty": "The indicator does not identify the causes of purchase hesitation or distinguish affordability, uncertainty, product need, credit, or cultural preference.",
+      "subgroup": "German households considering furniture, appliances, electronics, and other major purchases; retailers and manufacturers.",
+      "counterinterpretation": "Low willingness to buy may reflect prudence or durable shifts in consumption priorities rather than only financial distress.",
+      "source_url": "https://www.nim.org/en/consumer-climate/detail-consumer-climate/consumer-climate-improves",
+      "retrieval_hash": "sha256:e3e8e6f700c3aa1559b443af0baccd055018c9af7a6c315ec173b100c6d99f8a",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; willingness to save and household precaution",
+      "denominator": {"value": 2000, "unit": "approximately German consumer interviews informing the monthly study", "value_type": "published_survey_sample_approximate"},
+      "measures": {
+        "willingness_to_save": {"value": 15.5, "unit": "willingness-to-save index points, down 1.5 points month-on-month", "value_type": "reported_index"},
+        "high_saving": {"value": "willingness to save remains at a very high level and roughly matches the prior year", "unit": "reported longitudinal pattern", "value_type": "reported_persistence"},
+        "precaution_route": {"value": "households may be slightly less inclined to save while still maintaining strong precautionary behavior", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "NIM/GfK monthly willingness-to-save indicator reflecting whether consumers consider saving advisable given the general economic situation.",
+      "uncertainty": "The index does not measure savings balances, debt repayment, liquidity constraints, or actual saving flows.",
+      "subgroup": "German households with different financial buffers, savers, borrowers, banks, retailers, and policymakers monitoring consumption.",
+      "counterinterpretation": "High willingness to save can coexist with adequate finances and long-term planning, not only fear or constrained consumption.",
+      "source_url": "https://www.nim.org/en/consumer-climate/detail-consumer-climate/consumer-climate-improves",
+      "retrieval_hash": "sha256:e3e8e6f700c3aa1559b443af0baccd055018c9af7a6c315ec173b100c6d99f8a",
+      "status": "reported"
+    },
+    {
+      "period": "August-September 2026; sentiment-to-consumption translation",
+      "denominator": {"value": 1, "unit": "NIM consumer climate interpretation framework", "value_type": "qualitative_indicator_framework"},
+      "measures": {
+        "translation_gap": {"value": "the gap between improving income expectations, high saving willingness, and persistently low purchase willingness is the central pattern", "unit": "reported cross-indicator pattern", "value_type": "reported_synthesis"},
+        "leading_indicator": {"value": "NIM treats consumer climate as a leading indicator of actual private-consumption trends, while noting that behavior also depends on liquidity, necessity, prices, and individual circumstances", "unit": "reported interpretation boundary", "value_type": "reported_methodological_boundary"},
+        "open_test": {"value": "test whether improving expectations eventually reach purchases, services, household formation, and cultural consumption—or remain sentiment without spending recovery", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Cross-indicator interpretation of the NIM Consumer Climate publication and its stated method boundaries.",
+      "uncertainty": "A monthly sentiment series cannot establish household-level causal pathways, actual consumption changes, or distribution across income, age, region, and household type.",
+      "subgroup": "German consumers, households, retailers, service providers, policymakers, and researchers comparing sentiment with realized consumption.",
+      "counterinterpretation": "Sentiment can lead actual spending with a lag, and major-purchase caution may coexist with continued spending on essentials, experiences, or lower-cost categories.",
+      "source_url": "https://www.nim.org/en/consumer-climate/detail-consumer-climate/consumer-climate-improves",
+      "retrieval_hash": "sha256:e3e8e6f700c3aa1559b443af0baccd055018c9af7a6c315ec173b100c6d99f8a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.icsc.com/news-and-views/icsc-exchange/new-icsc-report-consumer-spending-remains-active-as-households-make-sharper-tradeoffs", "claim": "ICSC consumer-economy work provides complementary U.S. evidence on selective spending, job security, and household margin."},
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-consumer-confidence-september-2026-stability-war-recovery", "claim": "Ipsos global consumer-confidence work provides complementary cross-national sentiment context."}
+  ],
+  "boundary": "This record adds a Germany-specific consumer-sentiment route from income and economic expectations through saving precaution, major-purchase hesitation, and the gap between sentiment and realized consumption. It uses aggregate index evidence, not respondent-level records in the corpus, household budgets, transaction data, or causal welfare estimates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official NIM publication page was reviewed for the August 2026 consumer-climate, economic-expectations, income-expectations, willingness-to-buy, willingness-to-save, method, and interpretation-boundary statements.",
+    "source_url_sha256": "sha256:e3e8e6f700c3aa1559b443af0baccd055018c9af7a6c315ec173b100c6d99f8a",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-global-loneliness-policy-scoping-review-194-states-2026",
+  "title": "Loneliness is becoming a policy category, but national recognition has not yet become evaluated social infrastructure",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Goldman et al., National policy responses to address loneliness: A global scoping review of 194 WHO member states, Health Policy 165 (2026), 105553",
+  "geography": "Global review of national policies across 194 WHO Member States; included policy documents from selected high-income countries",
+  "observations": [
+    {
+      "period": "Policy landscape through February 2025; global coverage of loneliness policy",
+      "denominator": {"value": 194, "unit": "WHO Member States searched for national policies directly addressing loneliness, social isolation, or social connection", "value_type": "reported_global_policy_universe"},
+      "measures": {
+        "documents_found": {"value": 36, "unit": "policy-related documents identified across 21 countries", "value_type": "reported_document_count"},
+        "direct_policy_states": {"value": 8, "unit": "WHO Member States with policies directly addressing loneliness, social isolation, or social connection", "value_type": "reported_country_count"},
+        "direct_policy_share": {"value": 4.1, "unit": "percent of 194 WHO Member States with a directly addressing national policy in the review", "value_type": "derived_share"},
+        "included_documents": {"value": 12, "unit": "documents from eight Member States included in the in-depth policy analysis", "value_type": "reported_document_count"},
+        "mechanism": {"value": "Loneliness is being recognized as a societal and public-health challenge, but dedicated national policy remains concentrated and sparse", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Scoping review of government websites in all 194 WHO Member States using defined search terms, followed by matrix extraction, document analysis, and policymaker validation.",
+      "uncertainty": "Policy-document visibility, language, terminology, expired links, and the exclusion of loneliness content embedded in broader health or social policies may understate national activity; policy presence is not implementation.",
+      "subgroup": "National governments and policy systems across WHO Member States, with the included dedicated policies concentrated in high-income countries.",
+      "counterinterpretation": "Countries may address loneliness through mental-health, ageing, public-health, social, housing, transport, or community policies without labeling it as a standalone issue; dedicated-policy absence does not mean no action.",
+      "source_url": "https://www.utupub.fi/bitstream/handle/10024/197370/1-s2.0-S0168851025003070-main.pdf?isAllowed=y&sequence=1",
+      "retrieval_hash": "sha256:cac7821b7de6e7d60fd097019a87f5f37d748bb071cc6f953114f4cae394d418",
+      "status": "reported"
+    },
+    {
+      "period": "Included national policies; common aims and intervention routes",
+      "denominator": {"value": 8, "unit": "Member States with directly addressing policy documents included in the analysis", "value_type": "reported_country_subsample"},
+      "measures": {
+        "awareness_and_stigma": {"value": "All included countries identified raising awareness and reducing stigma as a common aim", "unit": "reported policy pattern", "value_type": "reported_pattern"},
+        "individual_and_organization_support": {"value": "All included countries supported both individuals and organisations to manage loneliness", "unit": "reported policy pattern", "value_type": "reported_pattern"},
+        "community_local_approaches": {"value": "Stronger communities and local approaches appeared in policies from Denmark, Finland, Japan, Scotland, Wales, the Netherlands, and the USA", "unit": "reported country pattern", "value_type": "reported_pattern"},
+        "cross_sectoral_collaboration": {"value": "Cross-sector collaboration among government, private, and third-sector actors appeared in policies from Denmark, England, Germany, Japan, Sweden, and the USA", "unit": "reported country pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "The policy response is moving from individual coping toward community infrastructure, organizational capacity, and cross-sector coordination", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative qualitative analysis of the included national strategies, action plans, priority plans, and advisories.",
+      "uncertainty": "Policy aims and recommendations do not establish funded delivery, reach, local capacity, or effectiveness; country comparisons reflect different documents and institutional contexts.",
+      "subgroup": "National and local governments, civil-society organizations, private-sector partners, health and social-care systems, and people experiencing loneliness or social isolation.",
+      "counterinterpretation": "Community-based approaches can shift responsibility to under-resourced local organizations, while individual supports may remain essential for people facing severe or persistent isolation.",
+      "source_url": "https://www.utupub.fi/bitstream/handle/10024/197370/1-s2.0-S0168851025003070-main.pdf?isAllowed=y&sequence=1",
+      "retrieval_hash": "sha256:cac7821b7de6e7d60fd097019a87f5f37d748bb071cc6f953114f4cae394d418",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2025; timing and political origins of national loneliness policies",
+      "denominator": {"value": 8, "unit": "Member States with directly addressing policy documents in the review", "value_type": "reported_country_subsample"},
+      "measures": {
+        "recent_policy_emergence": {"value": "Most included policies were published in 2023, with earlier examples beginning in 2018", "unit": "reported policy-timing pattern", "value_type": "reported_pattern"},
+        "policy_origins": {"value": "Policies emerged following societal activism, government-department initiatives, or a large-scale research project", "unit": "reported policy-origin pattern", "value_type": "reported_mechanism"},
+        "research_and_data": {"value": "Several policies called for research or improved knowledge to strengthen action and measurement", "unit": "reported policy priority", "value_type": "reported_response"},
+        "mechanism": {"value": "Loneliness becomes governable when social concern, institutional sponsorship, and evidence infrastructure align", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Document chronology and qualitative comparison of national policy origins and stated priorities.",
+      "uncertainty": "The review describes policy emergence but does not identify a causal sequence between activism, research, government sponsorship, and adoption; chronology is not impact evidence.",
+      "subgroup": "National policy actors, researchers, civil-society advocates, local organizations, and populations targeted by national strategies.",
+      "counterinterpretation": "A policy may be adopted symbolically or in response to political attention without a durable budget, implementation mandate, or local delivery network.",
+      "source_url": "https://www.utupub.fi/bitstream/handle/10024/197370/1-s2.0-S0168851025003070-main.pdf?isAllowed=y&sequence=1",
+      "retrieval_hash": "sha256:cac7821b7de6e7d60fd097019a87f5f37d748bb071cc6f953114f4cae394d418",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review conclusion; evaluation and implementation boundary",
+      "denominator": {"value": 8, "unit": "Member States with directly addressing policies included in the in-depth analysis", "value_type": "reported_country_subsample"},
+      "measures": {
+        "rigorous_effectiveness_evaluation": {"value": 0, "unit": "included national policies with rigorous evaluation of effectiveness identified by the review", "value_type": "reported_count"},
+        "funding_requirement": {"value": "The review concludes that adequate funding is required to maximise policy impact", "unit": "reported implementation condition", "value_type": "reported_boundary"},
+        "evidence_gap": {"value": "The policy field has more stated interventions than rigorous evidence about which national strategies work, for whom, and through which local routes", "unit": "reported evidence gap", "value_type": "reported_boundary"},
+        "mechanism": {"value": "Recognition can outrun implementation and evaluation, creating a legitimacy risk if governments name connection as a priority without resourcing delivery or demonstrating results", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Scoping-review assessment of the policy documents and their stated or available evaluation evidence.",
+      "uncertainty": "No evaluation identified does not prove no local or unpublished evaluation exists; the review does not estimate policy effectiveness or compare outcomes across countries.",
+      "subgroup": "People experiencing loneliness or social isolation, organizations delivering community interventions, health and social-care systems, and national/local funders.",
+      "counterinterpretation": "Policy adoption may still coordinate services, reduce stigma, or create future evaluation capacity before measurable population outcomes are available.",
+      "source_url": "https://www.utupub.fi/bitstream/handle/10024/197370/1-s2.0-S0168851025003070-main.pdf?isAllowed=y&sequence=1",
+      "retrieval_hash": "sha256:cac7821b7de6e7d60fd097019a87f5f37d748bb071cc6f953114f4cae394d418",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/groups/commission-on-social-connection/report", "claim": "WHO Commission report establishing the global public-health framing for social connection."},
+    {"source_url": "https://pubmed.ncbi.nlm.nih.gov/41494267/", "claim": "PubMed record for the peer-reviewed 2026 scoping review."},
+    {"source_url": "https://doi.org/10.1016/j.healthpol.2025.105553", "claim": "Peer-reviewed DOI and publication route."}
+  ],
+  "boundary": "This record adds a global policy-capacity route from loneliness recognition through national strategies, community infrastructure, cross-sector collaboration, funding, and evaluation. It is a scoping review of publicly available policy documents, not a prevalence estimate, intervention evaluation, causal health study, or proof that dedicated national policy improves social connection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The open-access article PDF was reviewed for the 194-state search universe, document inclusion, eight-state policy subsample, common policy aims, origins, and evaluation/funding conclusions.",
+    "source_url_sha256": "sha256:cac7821b7de6e7d60fd097019a87f5f37d748bb071cc6f953114f4cae394d418",
+    "checked": "2026-09-28"
+  }
+}

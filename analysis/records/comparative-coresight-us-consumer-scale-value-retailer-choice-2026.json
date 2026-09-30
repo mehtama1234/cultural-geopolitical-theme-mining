@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-coresight-us-consumer-scale-value-retailer-choice-2026",
+  "title": "Consumer value pressure is being expressed through scale-versus-value retailer choice",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Coresight Research, Consumers Reward Scale as Amazon Gains: US Consumer Survey Insights, September 29, 2026 public report preview",
+  "geography": "United States; consumer sentiment and retailer/category shopping tracked weekly and described by income group",
+  "observations": [
+    {
+      "period": "September 29, 2026 public preview; current report scope",
+      "denominator": {"value": 1, "unit": "publicly described Coresight US Consumer Survey Insights report", "value_type": "published_scope_frame"},
+      "measures": {
+        "sentiment_segmentation": {"value": "the report examines consumer sentiment in total and by income, weekly", "unit": "reported research scope", "value_type": "reported_method"},
+        "retailer_choice": {"value": "the public title frames consumers as rewarding scale while Amazon gains and dollar stores lose shopper momentum", "unit": "published finding headline", "value_type": "reported_headline"},
+        "mechanism": {"value": "Macroeconomic pressure can be translated into retailer selection, with household income shaping whether scale, value, convenience or assortment is experienced as the safer purchase route", "unit": "bounded consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Public preview of a Coresight Research deep-dive based on weekly US consumer survey data; the preview identifies the measures and headline but does not expose the full report or underlying tables.",
+      "uncertainty": "The public preview does not provide sample size, field dates, weighting, subgroup estimates, retailer shares, effect sizes, causal evidence or the full definition of scale, value or shopper momentum.",
+      "subgroup": "U.S. consumers segmented by income, retailer visited and selected purchase categories; detailed subgroup composition is not publicly shown in the preview.",
+      "counterinterpretation": "A retailer's shopper momentum may reflect assortment, promotion, geography, delivery, product mix or survey timing rather than a durable income-driven shift toward scale.",
+      "source_url": "https://coresight.com/research/consumers-reward-scale-as-amazon-gains-us-consumer-survey-insights/",
+      "retrieval_hash": "sha256:010495969b406d4a65a616ce271b7e562dc3e232a0728aea74d784a3d5dd3797",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; weekly consumer sentiment, retailer shopping and category purchase behavior",
+      "denominator": {"value": 1, "unit": "Coresight weekly consumer-survey tracking frame", "value_type": "published_scope_frame"},
+      "measures": {
+        "tracked_outcomes": {"value": "the report includes weekly rates of shopping at major retailers and weekly rates of purchasing in selected retail categories", "unit": "reported measurement scope", "value_type": "reported_method"},
+        "economic_context": {"value": "the public preview positions the analysis against shifting economic conditions, inflationary pressures and the Iran conflict", "unit": "reported contextual frame", "value_type": "reported_context"},
+        "mechanism": {"value": "Consumer sentiment and observed shopping routes should be read together: confidence can diverge from where households actually shop and what categories they continue to purchase", "unit": "bounded sentiment-choice mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Coresight public description of a weekly US consumer survey databank and related deep-dive report.",
+      "uncertainty": "The preview does not reveal whether sentiment changes precede shopping changes, how purchases are measured, or whether retailer movement reflects substitution, frequency, basket size or new shoppers.",
+      "subgroup": "Households with different incomes, shopping channels, retail preferences and category exposures.",
+      "counterinterpretation": "Weekly movement can be seasonal or promotional and need not represent a durable change in household welfare, retailer power or consumer loyalty.",
+      "source_url": "https://coresight.com/research/consumers-reward-scale-as-amazon-gains-us-consumer-survey-insights/",
+      "retrieval_hash": "sha256:010495969b406d4a65a616ce271b7e562dc3e232a0728aea74d784a3d5dd3797",
+      "status": "reported"
+    },
+    {
+      "period": "Public preview boundary; access and interpretation",
+      "denominator": {"value": 1, "unit": "publicly accessible report-preview layer", "value_type": "published_scope_frame"},
+      "measures": {
+        "access_condition": {"value": "the page exposes the research questions and data categories but requires subscription or purchase for the full report", "unit": "reported access condition", "value_type": "reported_boundary"},
+        "open_question": {"value": "The public evidence supports a hypothesis about scale, value and income-divergent retailer choice, but not a quantified estimate of who switched, why or with what household consequences", "unit": "analytic boundary", "value_type": "bounded_mechanism"},
+        "next_test": {"value": "The next test is to connect retailer choice to price, basket composition, delivery access, travel time, promotions, credit, brand trust and realized household room", "unit": "research route", "value_type": "bounded_mechanism"}
+      },
+      "method": "Direct review of the public Coresight report preview and its linked description of the underlying weekly survey databank.",
+      "uncertainty": "Full report access is unavailable in the public preview, so no numerical retailer comparison or causal claim is made here.",
+      "subgroup": "Consumers and retailers whose choices and market power are shaped by income, geography, price pressure, scale and value positioning.",
+      "counterinterpretation": "The public headline may reflect a short-period commercial signal rather than an enduring cultural or consumer transformation.",
+      "source_url": "https://coresight.com/research/consumers-reward-scale-as-amazon-gains-us-consumer-survey-insights/",
+      "retrieval_hash": "sha256:010495969b406d4a65a616ce271b7e562dc3e232a0728aea74d784a3d5dd3797",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://coresight.com/research/consumers-reward-scale-as-amazon-gains-us-consumer-survey-insights/", "claim": "Official public preview with publication date, headline, research questions, weekly sentiment and shopping measures, economic context and access boundary."},
+    {"source_url": "https://coresight.com/research/", "claim": "Coresight Research public research index and report ecosystem."}
+  ],
+  "boundary": "This record captures only the public preview of a proprietary Coresight report. It does not establish sample composition, retailer market share, causal substitution, price pass-through, household welfare, durable loyalty or general consumer behavior; full report access or independent transaction and household evidence is required.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Coresight preview was reviewed for the September 29, 2026 publication date, scale/value headline, income-divergent sentiment question, weekly retailer and category measures, economic context and subscriber-only access boundary.",
+    "source_url_sha256": "sha256:010495969b406d4a65a616ce271b7e562dc3e232a0728aea74d784a3d5dd3797",
+    "checked": "2026-09-29"
+  }
+}

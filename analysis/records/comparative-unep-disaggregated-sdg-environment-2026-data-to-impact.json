@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-disaggregated-sdg-environment-2026-data-to-impact",
+  "title": "Environmental progress becomes more actionable when SDG evidence is disaggregated to reveal who and where is exposed",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "political_judgment_action",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNEP, From Data to Impact: Measuring Progress through Disaggregated SDG Indicators",
+  "geography": "Global environmental dimension of the Sustainable Development Goals, with national and subnational policy applications",
+  "observations": [
+    {
+      "period": "2026 report; environmental SDG measurement scope",
+      "denominator": {"value": 92, "unit": "environment-related SDG indicators addressed through proposed disaggregation", "value_type": "indicator_framework_scope"},
+      "measures": {
+        "indicator_scope": {"value": 92, "unit": "environment-related SDG indicators for which the report proposes scientifically informed disaggregation", "value_type": "reported_indicator_count"},
+        "edition": {"value": 4, "unit": "fourth edition of UNEP's Measuring Progress series", "value_type": "publication_series_edition"},
+        "policy_target": {"value": "Disaggregated environmental evidence is intended to support more targeted and localized action", "unit": "reported policy objective", "value_type": "reported_policy_objective"}
+      },
+      "method": "UNEP special-edition assessment of environmental SDG progress and proposed scientific disaggregations for environment-related indicators, with implications for national and subnational policymaking.",
+      "uncertainty": "A proposed disaggregation framework is not the same as complete data availability, comparable measurement, or demonstrated policy impact; indicator definitions and local coverage remain implementation constraints.",
+      "subgroup": "Countries, subnational places, communities, households, ecosystems, public agencies, and populations with different environmental exposures and adaptive capacity.",
+      "counterinterpretation": "National aggregates can be useful for international accountability and resource allocation; disaggregation should complement rather than replace comparable global indicators.",
+      "source_url": "https://www.unep.org/resources/report/data-impact-measuring-progress-through-disaggregated-sdg-indicators",
+      "retrieval_hash": "sha256:3ca570ff114e533833de86b73e4e177d824c60464cc4944dfc09e08871fc3975",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; local exposure and unequal environmental conditions",
+      "denominator": {"value": 1, "unit": "environmental SDG disaggregation and exposure frame", "value_type": "environmental_distribution_frame"},
+      "measures": {
+        "visibility_route": {"value": "Disaggregation can show environmental conditions and risks that national averages conceal", "unit": "reported measurement implication", "value_type": "reported_measurement_implication"},
+        "localization": {"value": "The report emphasizes national and subnational evidence for targeted interventions", "unit": "reported governance route", "value_type": "reported_governance_mechanism"},
+        "inequality_route": {"value": "Environmental data can be linked to social and economic conditions to identify unequal exposure and capacity", "unit": "analytic transmission route", "value_type": "program_mechanism"}
+      },
+      "method": "UNEP synthesis of environmental measurement requirements and the relevance of disaggregation to localized evidence-based policy.",
+      "uncertainty": "Visibility of unequal exposure does not itself identify responsibility, causal harm, effective remedy, or whether local institutions have resources to act on the information.",
+      "subgroup": "Low-income communities, rural and urban residents, Indigenous and local communities, children, workers, climate-vulnerable places, and people with limited mobility or service access.",
+      "counterinterpretation": "Fine-grained data can stigmatize places, increase surveillance, or create false precision when denominators, temporal coverage, or measurement quality are weak.",
+      "source_url": "https://www.unep.org/resources/report/data-impact-measuring-progress-through-disaggregated-sdg-indicators",
+      "retrieval_hash": "sha256:3ca570ff114e533833de86b73e4e177d824c60464cc4944dfc09e08871fc3975",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; environment-to-society and economy pathway",
+      "denominator": {"value": 1, "unit": "environmental SDG policy-impact frame", "value_type": "environment_society_economy_frame"},
+      "measures": {
+        "impact_domains": {"value": "Disaggregated environmental indicators are intended to inform interventions affecting society, the economy, and the environment", "unit": "reported impact-domain set", "value_type": "reported_impact_domains"},
+        "intervention_route": {"value": "Environmental evidence can guide more targeted interventions rather than relying only on broad national averages", "unit": "reported policy pathway", "value_type": "reported_policy_pathway"},
+        "cross_domain": {"value": "Environmental conditions should be read alongside social and economic context", "unit": "reported analytic principle", "value_type": "reported_framework"}
+      },
+      "method": "UNEP policy synthesis linking environmental SDG monitoring to intervention design and social, economic, and environmental consequences.",
+      "uncertainty": "The report's impact pathway is a measurement and policy rationale, not a causal evaluation of a specific intervention or a guarantee that better data produce more equitable outcomes.",
+      "subgroup": "Environmental ministries, local governments, households, workers, firms, public-health systems, infrastructure planners, and communities exposed to pollution, hazards, or resource stress.",
+      "counterinterpretation": "Targeted environmental action can impose costs or trade-offs on households and firms; local optimization may shift burdens across places or groups without coordination.",
+      "source_url": "https://www.unep.org/resources/report/data-impact-measuring-progress-through-disaggregated-sdg-indicators",
+      "retrieval_hash": "sha256:3ca570ff114e533833de86b73e4e177d824c60464cc4944dfc09e08871fc3975",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; data-to-decision capacity",
+      "denominator": {"value": 1, "unit": "environmental monitoring, policy, and implementation chain", "value_type": "data_to_action_frame"},
+      "measures": {
+        "chain": {"value": "The report links scientific disaggregation to evidence-based policymaking and localized intervention", "unit": "reported data-to-action chain", "value_type": "reported_mechanism"},
+        "capacity_requirement": {"value": "Effective use requires data collection, standards, analytical capacity, institutional coordination, and implementation resources", "unit": "analytic implementation requirements", "value_type": "program_mechanism"},
+        "accountability": {"value": "Disaggregated indicators can make environmental distribution and policy response more contestable", "unit": "analytic accountability route", "value_type": "program_mechanism"}
+      },
+      "method": "UNEP framework interpretation of how disaggregated environmental SDG indicators can connect measurement, policy design, implementation, and accountability.",
+      "uncertainty": "The publication does not establish that every country has the capacity, political incentives, or public participation needed to convert disaggregated data into durable implementation.",
+      "subgroup": "Statistical offices, environmental agencies, local authorities, researchers, civil society, affected communities, funders, and policy users.",
+      "counterinterpretation": "More indicators can overwhelm decision-makers or divert resources from enforcement and maintenance; data visibility without remedy can increase frustration rather than agency.",
+      "source_url": "https://www.unep.org/resources/report/data-impact-measuring-progress-through-disaggregated-sdg-indicators",
+      "retrieval_hash": "sha256:3ca570ff114e533833de86b73e4e177d824c60464cc4944dfc09e08871fc3975",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/resources/global-environment-outlook-7", "claim": "Complementary UNEP whole-of-society and whole-of-government environmental assessment context."},
+    {"source_url": "https://unstats.un.org/sdgs/indicators/database/", "claim": "UN SDG indicator database context for global indicator definitions and reporting."}
+  ],
+  "boundary": "This record adds an environment-to-local-policy and unequal-exposure measurement route. It uses UNEP framework and reporting evidence, not a complete subnational environmental dataset, individual exposure histories, causal estimates of disaggregation, proof of policy enforcement, or evidence that visible disparities receive resources or remedy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNEP report page reviewed for the fourth Measuring Progress edition, 92 environment-related SDG indicators, scientific disaggregation, national and subnational evidence, targeted action, and social, economic, and environmental policy relevance.",
+    "source_url_sha256": "sha256:3ca570ff114e533833de86b73e4e177d824c60464cc4944dfc09e08871fc3975",
+    "checked": "2026-09-26"
+  }
+}

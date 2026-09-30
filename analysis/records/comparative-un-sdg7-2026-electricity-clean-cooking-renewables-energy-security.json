@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg7-2026-electricity-clean-cooking-renewables-energy-security",
+  "title": "Electricity and clean-cooking access are expanding while energy exclusion remains concentrated in poorer, rural, fragile, and conflict-affected places",
+  "theme_ids": ["energy", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 7: Affordable and Clean Energy",
+  "geography": "Global comparison of electricity access, clean cooking, renewable energy, energy efficiency, and energy-transition investment",
+  "observations": [
+    {
+      "period": "2015-2024; electricity and clean-cooking access",
+      "denominator": {"value": 1, "unit": "global population and household energy-access coverage", "value_type": "global_energy_access_frame"},
+      "measures": {
+        "electricity_access_2015": {"value": 87, "unit": "percent of the global population with access to electricity in 2015", "value_type": "reported_share"},
+        "electricity_access_2024": {"value": 92, "unit": "percent of the global population with access to electricity in 2024", "value_type": "reported_share"},
+        "people_without_electricity": {"value": 655, "unit": "millions of people without electricity in 2024", "value_type": "reported_estimate"},
+        "clean_cooking_access_2024": {"value": 75, "unit": "percent of the global population with access to clean cooking fuels and technologies in 2024", "value_type": "reported_share"}
+      },
+      "method": "UN SDG compilation of household electricity and clean-cooking access indicators.",
+      "uncertainty": "Access measures do not fully capture reliability, affordability, quality, appliance ownership, fuel availability, or household control over energy decisions.",
+      "subgroup": "Rural and urban households, low-income populations, sub-Saharan Africa, fragile and conflict-affected settings, women and children exposed to household energy burdens.",
+      "counterinterpretation": "Coverage gains represent major improvements in connectivity, health, education, care, and productive capacity even when reliability and affordability remain unequal.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-07/",
+      "retrieval_hash": "sha256:d08f794fcb4c10e5d0b85d64b022f8b499cd3e279a02be6c84fe9f7d9777ce37",
+      "status": "reported"
+    },
+    {
+      "period": "2024; geographic concentration of energy exclusion",
+      "denominator": {"value": 1, "unit": "global population without electricity and clean cooking", "value_type": "energy_inequality_frame"},
+      "measures": {
+        "sub_saharan_share_without_electricity": {"value": 86, "unit": "percent of the world's population without electricity living in sub-Saharan Africa", "value_type": "reported_share"},
+        "conflict_fragile_exposure": {"value": "people without electricity are increasingly likely to live in low-income, remote rural, fragile, and conflict-affected settings", "unit": "report subgroup pattern", "value_type": "reported_pattern"},
+        "clean_cooking_gain_since_2010": {"value": 1000, "unit": "millions fewer people living in households mainly relying on polluting cooking fuels and technologies in 2024 than in 2010", "value_type": "reported_change"},
+        "access_2030_projection": {"value": 92.5, "unit": "projected global electricity-access rate in 2030 under current trajectory", "value_type": "reported_projection"}
+      },
+      "method": "UN SDG disaggregation and projection of electricity and clean-cooking access by region, location, income, fragility, and conflict context.",
+      "uncertainty": "Projection depends on current trends and does not model all policy, conflict, climate, price, or technology changes; regional shares conceal country and household differences.",
+      "subgroup": "Sub-Saharan Africa, remote rural populations, fragile and conflict-affected communities, low-income households, and women and children exposed to polluting household energy.",
+      "counterinterpretation": "Distributed renewable energy and mini-grids can reach remote places, but affordability, maintenance, supply chains, finance, and governance determine whether access persists.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-07/",
+      "retrieval_hash": "sha256:d08f794fcb4c10e5d0b85d64b022f8b499cd3e279a02be6c84fe9f7d9777ce37",
+      "status": "reported"
+    },
+    {
+      "period": "2023; renewable energy and transition structure",
+      "denominator": {"value": 1, "unit": "global final energy use and renewable-energy capacity", "value_type": "renewable_transition_frame"},
+      "measures": {
+        "renewables_global_energy": {"value": 18, "unit": "percent of global energy use supplied by renewables in 2023", "value_type": "reported_share"},
+        "renewables_electricity": {"value": 30, "unit": "more than percent of global electricity supplied by renewables in 2023", "value_type": "reported_share_boundary"},
+        "developing_capacity_growth": {"value": 13, "unit": "percent compound average annual growth in renewable capacity in developing countries over the past five years", "value_type": "reported_growth_rate"},
+        "developed_capacity_growth": {"value": 8, "unit": "percent compound average annual growth in renewable capacity in developed countries over the past five years", "value_type": "reported_growth_rate"}
+      },
+      "method": "UN SDG synthesis of renewable-energy shares and renewable-capacity growth by development group.",
+      "uncertainty": "Capacity growth does not equal delivered energy, affordability, reliability, local ownership, or emissions reduction; group averages conceal technology and country differences.",
+      "subgroup": "Developing and developed economies, utilities, households, workers, renewable-energy firms, grid systems, and communities hosting energy infrastructure.",
+      "counterinterpretation": "Faster capacity growth in developing economies can support leapfrogging and access, but finance, grids, storage, local skills, and governance determine whether capacity becomes service.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-07/",
+      "retrieval_hash": "sha256:d08f794fcb4c10e5d0b85d64b022f8b499cd3e279a02be6c84fe9f7d9777ce37",
+      "status": "reported"
+    },
+    {
+      "period": "2010-2023; energy efficiency and household-economic pressure",
+      "denominator": {"value": 1, "unit": "global primary energy intensity and SDG energy-efficiency trajectory", "value_type": "energy_efficiency_frame"},
+      "measures": {
+        "energy_intensity_improvement_2023": {"value": 1.5, "unit": "percent improvement in global primary energy intensity in 2023", "value_type": "reported_change"},
+        "energy_intensity_2023": {"value": 3.76, "unit": "megajoules per dollar of GDP, measured in 2021 PPP, in 2023", "value_type": "reported_measure"},
+        "sdg_efficiency_target": {"value": 2.6, "unit": "percent annual improvement rate targeted by the SDG energy-efficiency trajectory", "value_type": "reported_target"},
+        "regions_meeting_target": {"value": 0, "unit": "regions achieving the 2.6 percent improvement rate between 2010 and 2023", "value_type": "reported_count"}
+      },
+      "method": "UN SDG comparison of primary energy intensity, efficiency changes, and the SDG target trajectory.",
+      "uncertainty": "Energy intensity is an economy-wide ratio and does not measure household bills, energy poverty, rebound effects, or sector-specific efficiency; target comparison is not a causal evaluation.",
+      "subgroup": "Households, firms, transport, buildings, industry, energy-intensive sectors, and regions with different prices, technologies, and policy capacity.",
+      "counterinterpretation": "Efficiency gains can reduce resource pressure and costs, but economic growth, demand increases, and uneven access can offset aggregate improvements.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-07/",
+      "retrieval_hash": "sha256:d08f794fcb4c10e5d0b85d64b022f8b499cd3e279a02be6c84fe9f7d9777ce37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.iea.org/reports/world-energy-outlook-2026", "claim": "IEA State of Energy Policy 2026 and related outlook work provide complementary energy-system and policy analysis."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-12/", "claim": "UN SDG 12 provides complementary consumption, material, subsidy, and waste evidence."}
+  ],
+  "boundary": "This record adds a global energy-access and household-security route linking electricity, clean cooking, regional exclusion, renewables, energy efficiency, affordability, and transition capacity. It uses aggregate SDG indicators and projections, not household energy diaries, individual health outcomes, causal energy-policy estimates, or proof that capacity growth delivers reliable service.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 7 page was reviewed for electricity and clean-cooking coverage, access gaps, regional concentration, renewable-energy shares and capacity growth, energy intensity, and efficiency-target claims.",
+    "source_url_sha256": "sha256:d08f794fcb4c10e5d0b85d64b022f8b499cd3e279a02be6c84fe9f7d9777ce37",
+    "checked": "2026-09-26"
+  }
+}

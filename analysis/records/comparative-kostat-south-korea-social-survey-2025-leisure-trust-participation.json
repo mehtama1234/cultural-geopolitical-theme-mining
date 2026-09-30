@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kostat-south-korea-social-survey-2025-leisure-trust-participation",
+  "title": "South Korean leisure and group participation rebound while generalized social trust declines",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Statistics Korea, 2025 Social Survey: welfare, social participation, leisure, income and consumption, and labor",
+  "geography": "South Korea; residents aged 13 or 19 and over depending on the module, with two-year comparisons to 2023",
+  "observations": [
+    {
+      "period": "2025; leisure and cultural participation in the previous 12 months, compared with 2023",
+      "denominator": {"value": null, "unit": "Statistics Korea Social Survey respondents; module denominators vary by age and question and are not disclosed in the public summary used here", "value_type": "not_disclosed"},
+      "measures": {
+        "domestic_travel": {"value": 70.2, "unit": "percent with domestic tourism travel experience", "value_type": "reported_survey_share"},
+        "domestic_travel_change": {"value": 3.5, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "overseas_travel": {"value": 31.5, "unit": "percent with overseas travel experience", "value_type": "reported_survey_share"},
+        "overseas_travel_change": {"value": 16.4, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "cultural_art_sport_venue_attendance": {"value": 57.7, "unit": "percent attending cultural, artistic, or sports events in person", "value_type": "reported_survey_share"},
+        "cultural_attendance_change": {"value": 2.4, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "leisure_facility_use": {"value": 73.5, "unit": "percent using leisure facilities such as tourist attractions, recreation forests, and beaches", "value_type": "reported_survey_share"},
+        "leisure_facility_change": {"value": 4.4, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "book_reading": {"value": 48.7, "unit": "percent of people aged 13 or over reading at least one book in the previous year", "value_type": "reported_survey_share"},
+        "books_per_reading_person": {"value": 14.3, "unit": "average books among reading population", "value_type": "reported_survey_average"},
+        "mechanism": {"value": "Post-pandemic leisure recovery is broad but uneven: travel and facility use rose more sharply than cultural venue attendance, while the share reading remained nearly flat and reading intensity declined", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Korea Social Survey tables 23-1, 23-2, 24, 25, and 26; changes are calculated from the published 2023 and 2025 percentages.",
+      "uncertainty": "The survey uses annual-recall questions and broad activity categories; it does not establish frequency, spending, affordability, venue supply, travel purpose, quality of experience, or causal post-pandemic recovery.",
+      "subgroup": "South Korean residents, with age thresholds varying by table; cultural venue attendance and travel measures are annual-recall population shares.",
+      "counterinterpretation": "Travel and facility increases may reflect pent-up demand, mobility normalization, or category-specific supply; cultural attendance may be constrained by cost, time, health, or substitution into home and digital activity.",
+      "source_url": "https://www.kostat.go.kr/board.es?act=view&bid=219&list_no=439196&mid=a10301060100&ref_bid=218%2C219%2C220%2C10820%2C11815%2C11895%2C11816%2C208&tag=",
+      "retrieval_hash": "sha256:d23dc7925f4b11bda8b73181efa857d4ab2c4a73b354c9d7f0813ea63af28c54",
+      "status": "reported"
+    },
+    {
+      "period": "2025; social participation, volunteering, trust, and loneliness, compared with 2023 where available",
+      "denominator": {"value": null, "unit": "Statistics Korea Social Survey respondents; social-participation and trust module denominators vary and are not disclosed in the public summary used here", "value_type": "not_disclosed"},
+      "measures": {
+        "organization_participation": {"value": 69.2, "unit": "percent participating in at least one organization", "value_type": "reported_survey_share"},
+        "organization_participation_change": {"value": 5.0, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "donation_experience": {"value": 26.1, "unit": "percent with donation experience", "value_type": "reported_survey_share"},
+        "volunteer_experience": {"value": 14.4, "unit": "percent with volunteer experience", "value_type": "reported_survey_share"},
+        "volunteer_experience_change": {"value": 3.8, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "general_social_trust": {"value": 54.6, "unit": "percent saying Korean society can be trusted", "value_type": "reported_survey_share"},
+        "general_social_trust_change": {"value": -3.5, "unit": "percentage-point change from 2023", "value_type": "calculated_difference_from_published_table"},
+        "loneliness": {"value": 38.2, "unit": "percent frequently or sometimes feeling lonely", "value_type": "reported_survey_share"},
+        "participation_trust_tension": {"value": "Group participation, donation, and volunteering rose while generalized social trust fell", "unit": "bounded comparative pattern", "value_type": "bounded_mechanism"},
+        "mechanism": {"value": "More organized activity does not automatically translate into generalized trust: people may participate through specific, instrumental, or identity-based groups while broader social confidence declines", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Korea Social Survey tables 17, 18, 19-1, and 20-1; changes are calculated from the published 2023 and 2025 percentages.",
+      "uncertainty": "Trust and participation are self-reported cross-sectional measures; the survey does not identify group composition, intensity, reciprocity, institutional performance, political context, or causal direction between participation and trust.",
+      "subgroup": "South Korean residents aged 19 or over for most social-participation and trust items; exact module eligibility follows the Statistics Korea table definitions.",
+      "counterinterpretation": "Participation may be concentrated in family, hobby, religious, or professional groups that do not generate generalized trust; trust changes may reflect survey wording, political events, cohort replacement, or response composition.",
+      "source_url": "https://www.kostat.go.kr/board.es?act=view&bid=219&list_no=439196&mid=a10301060100&ref_bid=218%2C219%2C220%2C10820%2C11815%2C11895%2C11816%2C208&tag=",
+      "retrieval_hash": "sha256:d23dc7925f4b11bda8b73181efa857d4ab2c4a73b354c9d7f0813ea63af28c54",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.kostat.go.kr/boardDownload.es?bid=219&list_no=439196&seq=2", "claim": "Official Statistics Korea 2025 Social Survey statistical-table workbook used to reproduce tables 17-20 and 23-28."},
+    {"source_url": "https://www.kostat.go.kr/boardDownload.es?bid=219&list_no=439196&seq=3", "claim": "Official Statistics Korea PDF press release for the 2025 Social Survey headline findings."},
+    {"source_url": "https://sri.kostat.go.kr/boardDownload.es?bid=11761&list_no=442629&seq=1", "claim": "Official English-language press release summarizing 2025 leisure, travel, cultural attendance, reading, and preferred leisure activities."}
+  ],
+  "boundary": "This record adds a South Korean leisure, cultural-participation, social-organization, trust, and loneliness layer. It does not establish causal recovery, spending, affordability, institutional legitimacy, group quality, cultural belonging, or a contradiction between participation and trust at the individual level.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Korea release page, statistical-table workbook, PDF release, and English summary reviewed; 2023/2025 values, table definitions, annual-recall windows, age thresholds, and change calculations checked.",
+    "html_sha256": "sha256:d23dc7925f4b11bda8b73181efa857d4ab2c4a73b354c9d7f0813ea63af28c54",
+    "xlsx_sha256": "sha256:00362653d89cee6bfa7ad4c184232d2ee7e6b11d573a482feac216ad5e96a6ce",
+    "pdf_sha256": "sha256:b3194cda582367a1f016201fde363154459fb7eda1de6cf823fc1138bb7a6a7a",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-umass-poll-ai-data-center-local-consent-crosspartisan-2026",
+  "title": "Local opposition to AI data centers crosses party lines because communities separate national technological ambition from who pays local costs",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "University of Massachusetts Amherst Poll, September 2026 national public-opinion poll on AI data centers and presidential AI handling",
+  "geography": "United States; national adult sample fielded August 21-26, 2026",
+  "observations": [
+    {
+      "period": "August 21-26, 2026; local consent and cross-partisan opposition",
+      "denominator": {"value": 1000, "unit": "U.S. adults in the UMass Amherst national poll", "value_type": "reported_survey_sample"},
+      "measures": {
+        "local_data_center_support": {"value": 11, "unit": "percent supporting construction of an AI data center in their local community", "value_type": "published_survey_estimate"},
+        "local_data_center_opposition": {"value": 65, "unit": "percent opposing construction of an AI data center in their local community", "value_type": "published_survey_estimate"},
+        "democratic_opposition": {"value": 76, "unit": "percent of Democrats opposing local AI data-center construction", "value_type": "published_subgroup_estimate"},
+        "republican_opposition": {"value": 52, "unit": "percent of Republicans opposing local AI data-center construction", "value_type": "published_subgroup_estimate"},
+        "cross_party_route": {"value": "Local siting opposition is substantially broader than a simple partisan rejection of AI or a national technology agenda.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UMass Poll national survey of 1,000 respondents, matched and weighted to an ACS-based sampling frame on demographic and political variables; reported margin of error 3.5%.",
+      "uncertainty": "This is a cross-sectional opinion survey and a hypothetical local-siting question; it does not measure actual project votes, permitting outcomes, or realized local effects.",
+      "subgroup": "U.S. adults by party, ideology, age, gender, education, income, race, 2024 vote, and movement-affiliation measures.",
+      "counterinterpretation": "Opposition may reflect general local-development resistance, prior infrastructure experiences, or question framing rather than a stable view of all AI data centers.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll-2",
+      "retrieval_hash": "sha256:65187df9ebdc2fbfd539339a6b1cebfb88913870b0985d5cf3003d5eaabfce00",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; open-ended reasons for local opposition",
+      "denominator": {"value": 1000, "unit": "U.S. adults; each open-ended response assigned one substantive or residual theme", "value_type": "reported_survey_sample"},
+      "measures": {
+        "environmental_resource_harm": {"value": 28, "unit": "percent of responses coded as environmental harm or depletion of natural resources", "value_type": "published_open_ended_coding_estimate"},
+        "local_disruption_land_use": {"value": 15, "unit": "percent coded as local disruption, land use, or poor community fit", "value_type": "published_open_ended_coding_estimate"},
+        "utility_cost_burden": {"value": 10, "unit": "percent coded as higher utility bills or economic burden on residents", "value_type": "published_open_ended_coding_estimate"},
+        "ai_industry_distrust": {"value": 13, "unit": "percent coded as rejection of AI or distrust of the AI industry", "value_type": "published_open_ended_coding_estimate"},
+        "local_cost_mechanism": {"value": "Most coded opposition centered on tangible local resource and community costs rather than generalized opposition to generative AI.", "unit": "reported qualitative mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UMass Poll inductive thematic coding of open-ended answers; each response assigned to one of five substantive themes or a residual category.",
+      "uncertainty": "The coding is publisher-reported and not an independent qualitative audit; one-theme assignment compresses mixed motives, and percentages describe responses rather than population-level causal prevalence.",
+      "subgroup": "All 1,000 respondents who answered the open-ended local data-center question; valence is associated with coded themes in the release.",
+      "counterinterpretation": "Respondents may use local environmental language to express broader distrust of corporate development or political decision-making; open-ended answers do not reveal which concern would change a permitting decision.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll-2",
+      "retrieval_hash": "sha256:65187df9ebdc2fbfd539339a6b1cebfb88913870b0985d5cf3003d5eaabfce00",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; local cost-benefit conflict and strategic competitiveness",
+      "denominator": {"value": 1000, "unit": "U.S. adults in the national poll", "value_type": "reported_survey_sample"},
+      "measures": {
+        "economic_benefit_support_theme": {"value": 12, "unit": "percent of open-ended responses coded as economic benefits, technological necessity, or competitiveness", "value_type": "published_open_ended_coding_estimate"},
+        "local_benefit_argument": {"value": "Supporters cite jobs, tax revenue, business investment, and local economic development.", "unit": "reported support mechanism", "value_type": "reported_mechanism"},
+        "strategic_competitiveness_argument": {"value": "Some supporters frame data centers as necessary for U.S. economic dominance and competition with China.", "unit": "reported geopolitical mechanism", "value_type": "reported_mechanism"},
+        "cost_benefit_split": {"value": "The siting debate separates broad national technological benefits from concentrated local resource, utility, land-use, and quality-of-life costs.", "unit": "analytical synthesis from survey coding", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive synthesis of open-ended responses and subgroup support/opposition results.",
+      "uncertainty": "The study does not estimate the actual distribution of data-center benefits and costs, nor test whether community-benefit agreements or rate protections alter opinion.",
+      "subgroup": "U.S. adults, including partisan and ideological subgroups; supporter explanations are a minority-coded response group.",
+      "counterinterpretation": "Strategic-competition arguments may coexist with local protections if residents believe benefits are fairly shared; opposition does not imply rejection of AI development elsewhere.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll-2",
+      "retrieval_hash": "sha256:65187df9ebdc2fbfd539339a6b1cebfb88913870b0985d5cf3003d5eaabfce00",
+      "status": "reported"
+    },
+    {
+      "period": "March-August 2026 comparison; political accountability for AI",
+      "denominator": {"value": 1000, "unit": "U.S. adults in the August 2026 UMass Poll; comparison with March 2026 reported by the poll", "value_type": "reported_survey_sample"},
+      "measures": {
+        "presidential_ai_handling_poor": {"value": 57, "unit": "percent saying President Trump has handled artificial intelligence poorly in August 2026", "value_type": "published_survey_estimate"},
+        "presidential_ai_handling_well": {"value": 23, "unit": "percent saying President Trump has handled artificial intelligence well in August 2026", "value_type": "published_survey_estimate"},
+        "not_well_at_all_change": {"value": "The share saying AI was handled not well at all rose from 36% in March to 43% in August.", "unit": "reported repeated cross-section comparison", "value_type": "published_comparison_estimate"},
+        "issue_accountability_route": {"value": "AI infrastructure and policy are becoming a political performance test, not only a technology-adoption question.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UMass Poll repeated cross-sectional comparison of presidential handling of AI; August sample was 1,000 adults and the release reports March comparison figures.",
+      "uncertainty": "The comparison is not a panel estimate and cannot isolate data-center opinion, specific events, or partisan changes as causes of the shift.",
+      "subgroup": "U.S. adults with party, ideology, age, gender, and other subgroup comparisons reported in the poll tables.",
+      "counterinterpretation": "Issue approval may track broader presidential approval or current events rather than a distinct judgment about AI infrastructure policy.",
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll-2",
+      "retrieval_hash": "sha256:65187df9ebdc2fbfd539339a6b1cebfb88913870b0985d5cf3003d5eaabfce00",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.umass.edu/poll/about/reports/2026-09-national-public-opinion-poll-2",
+      "claim": "The official UMass Poll page provides sample, weighting, margin of error, local data-center support/opposition, open-ended thematic coding, and presidential AI-handling results.",
+      "status": "official-publication-page"
+    }
+  ],
+  "boundary": "This record adds a local-consent and political-accountability route: opposition to AI data centers crosses party lines because residents distinguish national technological benefits from concentrated local costs and community fit. It does not establish realized environmental harm, utility-rate causality, permitting behavior, project economics, or causal presidential approval effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UMass Poll report page was reviewed for methodology, local support/opposition, party comparisons, open-ended thematic coding, supporter arguments, and repeated presidential AI-handling estimates.",
+    "source_page_sha256": "sha256:65187df9ebdc2fbfd539339a6b1cebfb88913870b0985d5cf3003d5eaabfce00",
+    "checked": "2026-09-28"
+  }
+}

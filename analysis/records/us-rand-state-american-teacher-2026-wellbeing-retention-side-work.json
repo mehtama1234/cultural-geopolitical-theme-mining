@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-rand-state-american-teacher-2026-wellbeing-retention-side-work",
+  "title": "Teacher well-being and retention pressure are becoming constraints on sustained public-school capacity",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "RAND State of the American Teacher Survey 2026 and American Life Panel companion survey; nationally representative K–12 public-school teacher panel",
+  "geography": "United States; K–12 public-school teachers with comparison to employed adults with at least a bachelor’s degree",
+  "observations": [
+    {
+      "period": "January 28–February 21, 2026; survey scope and representativeness",
+      "denominator": {"value": 829, "unit": "weighted responses from nationally representative K–12 public-school teachers", "value_type": "reported_sample_size"},
+      "measures": {
+        "invited_panelists": {"value": 2000, "unit": "American Teacher Panel members invited", "value_type": "reported_sample_size"},
+        "completion_rate": {"value": 42, "unit": "percent among eligible invitees", "value_type": "reported_rate"},
+        "margin_of_error": {"value": 3.6, "unit": "approximate percentage points after weighting", "value_type": "reported_margin"},
+        "survey_domains": {"value": "well-being, job satisfaction, pay, hours, school climate, student mental-health supports, retention, and teacher background", "unit": "reported survey scope", "value_type": "reported_scope"}
+      },
+      "method": "Probability-based American Teacher Panel sample weighted to national K–12 public-school teacher characteristics; companion American Life Panel sample included 498 employed adults ages 18–65 with at least a bachelor’s degree.",
+      "uncertainty": "The survey is self-reported and cross-sectional in 2026; weighting improves national representation but does not eliminate nonresponse or measurement error, and the companion adults are not a perfect occupational control group.",
+      "subgroup": "U.S. K–12 public-school teachers, with comparison to employed adults with a bachelor’s degree.",
+      "counterinterpretation": "Teachers who respond may differ from nonrespondents in stress, retention, or school experience; poor well-being may reflect broader social conditions as well as school working conditions.",
+      "source_url": "https://www.rand.org/education-employment-infrastructure/projects/state-of-the-american-teacher-and-the-american-principal.html",
+      "retrieval_hash": "official_source_url:sha256:6bd45def90df49b037be1408cf466238119c990fa0ce22e5dd633c15f485457b",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2026; teacher well-being and job-related stress",
+      "denominator": {"value": 829, "unit": "weighted 2026 teacher survey respondents", "value_type": "reported_sample_size"},
+      "measures": {
+        "poor_wellbeing_relative_to_similar_workers": {"value": "teachers were more likely than similar working adults to report poor well-being on every indicator in 2026, continuing a pattern since 2021", "unit": "reported comparison", "value_type": "reported_comparison"},
+        "female_teacher_stress_gap": {"value": "female teachers were consistently more likely than male teachers and similar working adults to report frequent job-related stress", "unit": "reported comparison", "value_type": "reported_comparison"},
+        "wellbeing_constructs": {"value": "job-related stress, coping, depressive symptoms, and burnout", "unit": "reported measurement constructs", "value_type": "reported_scope"}
+      },
+      "method": "Repeated State of the American Teacher survey indicators, including stress, coping, PHQ-2 depressive symptoms, and a four-item burnout operationalization.",
+      "uncertainty": "These are screening and self-report measures, not clinical diagnoses; repeated survey patterns do not establish that teaching caused the difference or that the same teachers experienced the pattern each year.",
+      "subgroup": "Public-school teachers, with gender and comparison-worker contrasts reported by RAND.",
+      "counterinterpretation": "Teachers may differ from comparison workers in age, occupation, schedules, public-facing responsibilities, and reporting norms; gender differences may reflect school, household, or wider labor-market conditions.",
+      "source_url": "https://www.rand.org/education-employment-infrastructure/projects/state-of-the-american-teacher-and-the-american-principal.html",
+      "retrieval_hash": "official_source_url:sha256:6bd45def90df49b037be1408cf466238119c990fa0ce22e5dd633c15f485457b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; retention and outside employment",
+      "denominator": {"value": 829, "unit": "weighted 2026 teacher survey respondents", "value_type": "reported_sample_size"},
+      "measures": {
+        "intend_to_leave_job": {"value": 18, "unit": "percent of teachers intending to leave their jobs", "value_type": "reported_share"},
+        "stay_as_long_as_able": {"value": 25, "unit": "approximately one in four teachers planning to stay in teaching as long as able", "value_type": "reported_share"},
+        "outside_job": {"value": 30, "unit": "percent reporting a job outside their school system", "value_type": "reported_share"},
+        "outside_job_hours": {"value": 13, "unit": "average hours per week spent in outside jobs among those reporting one", "value_type": "reported_average"}
+      },
+      "method": "Weighted national teacher survey estimates of retention intentions and outside employment.",
+      "uncertainty": "Intentions are not departures, and outside-job estimates do not identify whether work is financially necessary, chosen for identity or interest, or compatible with teaching quality and rest.",
+      "subgroup": "U.S. public-school teachers; outside-job hours are conditional on holding an outside job.",
+      "counterinterpretation": "Some outside work may provide flexibility, professional development, or household resilience; intent-to-leave can change with pay, leadership, school climate, family needs, or labor-market conditions.",
+      "source_url": "https://www.rand.org/education-employment-infrastructure/projects/state-of-the-american-teacher-and-the-american-principal.html",
+      "retrieval_hash": "official_source_url:sha256:6bd45def90df49b037be1408cf466238119c990fa0ce22e5dd633c15f485457b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public-school capacity mechanism",
+      "denominator": {"value": 1, "unit": "RAND report interpretation connecting teacher working conditions to school service capacity", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "service_capacity_route": {"value": "teacher stress, financial strain, outside work, and exit intentions can affect staffing continuity, student support, and the ability of schools to sustain learning and mental-health functions", "unit": "program-relevant mechanism", "value_type": "reported_mechanism"},
+        "school_work_is_public_infrastructure": {"value": "teacher working conditions have implications for student learning, educator health, engagement, and intentions to stay", "unit": "RAND project framing", "value_type": "reported_interpretation"}
+      },
+      "method": "Synthesis of RAND’s repeated nationally representative teacher surveys and project framing; no causal service-output estimate is claimed.",
+      "uncertainty": "The survey does not measure student outcomes, vacancies, instructional quality, or the causal effect of teacher well-being on school performance.",
+      "subgroup": "Public-school teachers and the students and schools relying on their continuity.",
+      "counterinterpretation": "Staffing systems, leadership, curriculum, family conditions, funding, student needs, and local labor markets also shape school capacity; teacher well-being is one route among several.",
+      "source_url": "https://www.rand.org/education-employment-infrastructure/projects/state-of-the-american-teacher-and-the-american-principal.html",
+      "retrieval_hash": "official_source_url:sha256:6bd45def90df49b037be1408cf466238119c990fa0ce22e5dd633c15f485457b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.7249/RRA4404-3", "claim": "RAND technical documentation and survey results for the 2026 State of the American Teacher Survey.", "status": "primary-publication"},
+    {"source_url": "https://www.rand.org/pubs/research_reports/RRA4404-2.html", "claim": "RAND selected findings report for the 2026 State of the American Teacher survey.", "status": "primary-publication", "access_boundary": "RAND’s site returned a 403 during direct retrieval; the RAND project page and technical-documentation metadata were used."}
+  ],
+  "boundary": "This record identifies a U.S. public-school workforce trend in which teacher well-being, outside employment, and retention pressure may constrain service continuity. It does not establish clinical prevalence, actual turnover, student achievement effects, or a causal relationship between teacher conditions and school outcomes.",
+  "retrieval_hash_scope": "Official RAND project page and DOI metadata; direct RAND HTML/PDF retrieval was access-blocked during collection"
+}

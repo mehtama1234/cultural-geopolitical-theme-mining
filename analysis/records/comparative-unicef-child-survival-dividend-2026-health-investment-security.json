@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-child-survival-dividend-2026-health-investment-security",
+  "title": "Child-survival gains depend on health, nutrition, immunization, and WASH systems whose returns extend into economic resilience and security",
+  "theme_ids": ["cost", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNICEF, The Child Survival Dividend: How saving children's lives generates compounding returns for economic prosperity, global security and our shared humanity",
+  "geography": "Global child-survival and public-health investment evidence with attention to immunization, nutrition, health systems, WASH, financing, debt, aid, and security",
+  "observations": [
+    {
+      "period": "Approximately 2000-2026; global under-five mortality progress",
+      "denominator": {"value": 1, "unit": "annual deaths among children under five globally", "value_type": "child_survival_frame"},
+      "measures": {
+        "annual_deaths_prior": {"value": 10.1, "unit": "million annual under-five deaths at the earlier comparison point", "value_type": "reported_count_millions"},
+        "annual_deaths_current": {"value": 4.9, "unit": "million annual under-five deaths at the current comparison point", "value_type": "reported_count_millions"},
+        "progress_driver": {"value": "sustained investment in immunization, nutrition, health systems, and water, sanitation and hygiene drove the reduction", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNICEF synthesis of global child-survival trends and the contribution of public-health, nutrition, immunization, and WASH systems.",
+      "uncertainty": "The comparison aggregates multiple decades, countries, causes, and interventions; it does not attribute a specific number of lives saved to one sector or establish equal progress across populations.",
+      "subgroup": "Newborns, infants, children under five, mothers and caregivers, children in fragile or underserved settings, and communities lacking basic health or WASH services.",
+      "counterinterpretation": "Mortality decline can reflect multiple interacting factors including income, education, fertility, treatment, prevention, nutrition, and epidemiological change; progress does not mean preventable deaths have ended.",
+      "source_url": "https://www.unicef.org/reports/child-survival-dividend",
+      "retrieval_hash": "sha256:2dfba78e3d1d3da2d3770cc58f3fb6d00e56daf04e801f1141b60f696521588f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public-health investment as economic and social infrastructure",
+      "denominator": {"value": 1, "unit": "child-survival investment and development-capacity frame", "value_type": "health_investment_return_frame"},
+      "measures": {
+        "return_set": {"value": "child-survival investment is presented as generating compounding returns through healthier populations, stronger economies, reduced security risks, and greater resilience", "unit": "reported policy framework", "value_type": "reported_mechanism"},
+        "life_course": {"value": "early survival, nutrition, and health affect physical growth, learning, productivity, and future well-being", "unit": "reported life-course mechanism", "value_type": "reported_mechanism"},
+        "shared_system": {"value": "health, nutrition, immunization, and WASH systems function as shared public infrastructure rather than isolated medical services", "unit": "reported analytical frame", "value_type": "reported_framework"}
+      },
+      "method": "UNICEF synthesis connecting child-survival interventions to human capital, economic prosperity, security, and resilience pathways.",
+      "uncertainty": "The brief describes compounding pathways rather than estimating one universal rate of economic return or a causal security effect for every investment.",
+      "subgroup": "Children and families, health and nutrition workers, public agencies, economies dependent on future human capital, and communities exposed to instability.",
+      "counterinterpretation": "Returns depend on service quality, equity, governance, labor-market conditions, and complementary investments; high spending alone does not guarantee survival or prosperity gains.",
+      "source_url": "https://www.unicef.org/reports/child-survival-dividend",
+      "retrieval_hash": "sha256:2dfba78e3d1d3da2d3770cc58f3fb6d00e56daf04e801f1141b60f696521588f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; financing and political risks to child-survival systems",
+      "denominator": {"value": 1, "unit": "global child-survival financing and public-system risk frame", "value_type": "health_finance_risk_frame"},
+      "measures": {
+        "risk_set": {"value": "aid cuts, rising debt burdens, inadequate domestic budgets, and political headwinds threaten the systems that produced child-survival gains", "unit": "reported risk set", "value_type": "reported_mechanism"},
+        "system_effect": {"value": "financing disruption can weaken immunization, nutrition, primary care, WASH, surveillance, and emergency response capacity", "unit": "reported public-system pathway", "value_type": "reported_mechanism"},
+        "intergenerational_risk": {"value": "reversing child-survival progress can reduce future learning, earnings, resilience, and public trust", "unit": "reported life-course risk", "value_type": "reported_mechanism"}
+      },
+      "method": "UNICEF policy brief linking child-survival outcomes to external aid, domestic budgets, debt burdens, political priorities, and health-system continuity.",
+      "uncertainty": "The brief identifies system-level risks but does not estimate the mortality impact of a specific funding cut or distinguish all country-specific buffers and responses.",
+      "subgroup": "Children in low-income, fragile, conflict-affected, and aid-dependent settings; health workers; caregivers; and public agencies managing constrained budgets.",
+      "counterinterpretation": "Domestic financing, pooled procurement, prevention, community delivery, debt restructuring, and better allocation can protect essential services even under fiscal pressure.",
+      "source_url": "https://www.unicef.org/reports/child-survival-dividend",
+      "retrieval_hash": "sha256:2dfba78e3d1d3da2d3770cc58f3fb6d00e56daf04e801f1141b60f696521588f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; child-survival policy and collective action",
+      "denominator": {"value": 1, "unit": "global child-survival policy and implementation frame", "value_type": "health_governance_frame"},
+      "measures": {
+        "policy_direction": {"value": "countries and partners are urged to protect and accelerate proven child-survival solutions while strengthening systems", "unit": "reported policy direction", "value_type": "reported_recommendation"},
+        "collective_action": {"value": "shared health infrastructure creates benefits beyond individual households, including outbreak control, social stability, and resilience", "unit": "reported public-good mechanism", "value_type": "reported_mechanism"},
+        "equity_boundary": {"value": "global progress can mask unequal access by geography, income, conflict, disability, gender, and service reliability", "unit": "reported analytical boundary", "value_type": "reported_boundary"}
+      },
+      "method": "UNICEF policy synthesis of child-survival targets, proven interventions, health-system strengthening, and partner coordination.",
+      "uncertainty": "Recommendations do not establish implementation feasibility or equal service reach; public-health effects depend on trust, supply chains, workforce, surveillance, and local participation.",
+      "subgroup": "Children, families, community health workers, ministries, international partners, local organizations, and populations excluded from routine health systems.",
+      "counterinterpretation": "Centralized programmes can achieve scale, while community-led and locally adapted delivery may improve trust and reach; both can fail without durable finance and accountability.",
+      "source_url": "https://www.unicef.org/reports/child-survival-dividend",
+      "retrieval_hash": "sha256:2dfba78e3d1d3da2d3770cc58f3fb6d00e56daf04e801f1141b60f696521588f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/i/item/9789240116559", "claim": "WHO World Health Statistics provides complementary mortality, health-system, and SDG indicator context."},
+    {"source_url": "https://www.unicef.org/reports/childrens-climate-risk-report-2026", "claim": "UNICEF Children's Climate Risk Report 2026 provides complementary environmental-risk and service-exposure context."}
+  ],
+  "boundary": "This record adds a child-survival and public-health investment route linking mortality, immunization, nutrition, health systems, WASH, human capital, economic resilience, security, aid, debt, and political capacity. It uses publication-level aggregate evidence, not child-level medical records, household health histories, respondent-level trust measures, or causal return estimates for a specific programme.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNICEF Child Survival Dividend page was reviewed for mortality progress, intervention drivers, economic and security return pathways, financing risks, and policy recommendations.",
+    "source_url_sha256": "sha256:2dfba78e3d1d3da2d3770cc58f3fb6d00e56daf04e801f1141b60f696521588f",
+    "checked": "2026-09-26"
+  }
+}

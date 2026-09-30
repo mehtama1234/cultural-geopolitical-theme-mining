@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-depop-edited-self-2026-fashion-resale-identity-ritual",
+  "title": "Fashion culture is moving from algorithmic novelty toward edited identity, repeatable staples, nostalgia, everyday ritual, and circular self-expression",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Depop, The Edited Self: 2026 Trends Report, public newsroom summary supported by platform search, sales, and cultural research",
+  "geography": "Depop global peer-to-peer fashion community and 2026 fashion-culture forecast",
+  "observations": [
+    {
+      "period": "2026 forecast; edited identity and selective consumption",
+      "denominator": {"value": 43500000, "unit": "Depop registered users cited by the company, approximately", "value_type": "reported_platform_community"},
+      "measures": {
+        "edited_self": {"value": "The report describes a move toward sharper, more intentional personal style as people choose clarity over clutter and lived-in authenticity over fast-moving microtrends", "unit": "reported fashion-culture trend", "value_type": "reported_trend"},
+        "quality_over_quantity": {"value": "Consumers are described as choosing quality over quantity, repeating silhouettes, refining core staples, and curating wardrobes with personal authorship", "unit": "reported consumption orientation", "value_type": "reported_orientation"},
+        "algorithmic_churn": {"value": "The forecast positions edited wardrobes as a response to digital saturation and accelerated trend cycles", "unit": "reported cultural pressure", "value_type": "reported_mechanism"}
+      },
+      "method": "Depop trend forecast using proprietary platform insights, search and sales data, and cultural research; the public release is a company-produced synthesis.",
+      "uncertainty": "The public summary does not provide the search volumes, sales baselines, market weighting, or independent validation needed to estimate how broadly the trend extends beyond Depop's community.",
+      "subgroup": "Secondhand-fashion buyers and sellers, Gen Z and younger Millennials, style communities, people managing economic pressure, and consumers seeking identity beyond rapid trend turnover.",
+      "counterinterpretation": "Selective dressing may reflect a platform and brand narrative rather than broad consumption decline; repeatable staples can coexist with high apparel volume and continued microtrend participation.",
+      "source_url": "https://news.depop.com/depop-unveils-2026-fashion-trends-report-the-edited-self/",
+      "retrieval_hash": "sha256:43749ff44a12704faa821c17d2f5168a1b30b4a0b4d269d39043e036d63ab527",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; modern uniforms and decision fatigue",
+      "denominator": {"value": 1, "unit": "Depop Modern Uniforms trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "modern_uniforms": {"value": "Dependable silhouettes, repeatable staples, neutral palettes, tailoring, and workwear are forecast as ways to dress with conviction through repetition rather than reinvention", "unit": "reported style trend", "value_type": "reported_trend"},
+        "decision_fatigue": {"value": "Decision fatigue, economic tension, and constant digital noise are identified as pressures behind uniform dressing", "unit": "reported cultural pressure", "value_type": "reported_mechanism"},
+        "taste_signal": {"value": "Taste is increasingly signaled through consistency and personal editing rather than constant novelty", "unit": "reported identity mechanism", "value_type": "reported_orientation"}
+      },
+      "method": "Depop platform trend interpretation combining search signals with cultural research and category observation.",
+      "uncertainty": "The source does not establish whether uniform dressing is primarily driven by affordability, aesthetics, work norms, fatigue, sustainability, or algorithmic recommendation, and the drivers may differ by place and income.",
+      "subgroup": "Workers, students, fashion participants, people with limited time or budget, and consumers using clothing to reduce daily decision load.",
+      "counterinterpretation": "Uniforms can reduce choice but can also impose conformity, reproduce workplace status codes, or shift spending toward premium basics rather than reducing consumption.",
+      "source_url": "https://news.depop.com/depop-unveils-2026-fashion-trends-report-the-edited-self/",
+      "retrieval_hash": "sha256:43749ff44a12704faa821c17d2f5168a1b30b4a0b4d269d39043e036d63ab527",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; neo-nostalgia and everyday ceremony",
+      "denominator": {"value": 1, "unit": "Depop Neo Nostalgia and Everyday Ceremony trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "neo_nostalgia": {"value": "Gen Z and young Millennials are forecast to blend fragments of the 1970s, 1990s, and early 2000s into a personal visual language rather than recreate one historical era", "unit": "reported cultural trend", "value_type": "reported_trend"},
+        "everyday_ceremony": {"value": "Dressing with intention is forecast as a way to make ordinary routines feel more meaningful, present, and self-expressive", "unit": "reported ritual trend", "value_type": "reported_mechanism"},
+        "presence_route": {"value": "Fashion is positioned as a low-scale ritual that supplies atmosphere and confidence when people go out less or daily life feels blurred by work and screens", "unit": "reported identity-and-wellbeing route", "value_type": "reported_orientation"}
+      },
+      "method": "Depop cultural trend forecast using platform search behavior, community signals, and editorial interpretation.",
+      "uncertainty": "Search interest and platform examples do not establish population-level adoption, emotional benefit, or whether nostalgia functions similarly across cultures and generations.",
+      "subgroup": "Young fashion consumers, secondhand shoppers, online style communities, people seeking ritual and presence, and consumers using clothing for mood or identity work.",
+      "counterinterpretation": "Nostalgia can be commercialized, exclusionary, or politically selective; dressing for presence may be a coping strategy without changing the conditions that make everyday life feel depleted.",
+      "source_url": "https://news.depop.com/depop-unveils-2026-fashion-trends-report-the-edited-self/",
+      "retrieval_hash": "sha256:43749ff44a12704faa821c17d2f5168a1b30b4a0b4d269d39043e036d63ab527",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; circular fashion, sport, and public belonging",
+      "denominator": {"value": 1, "unit": "Depop Romanticized Sports and circular-fashion trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "romanticized_sports": {"value": "Sportswear is forecast to move beyond performance into playful, soft-edged styling that combines jerseys, tennis whites, ski layers, silk, tailoring, and ballet flats", "unit": "reported style trend", "value_type": "reported_trend"},
+        "circular_route": {"value": "Secondhand, upcycled, repeated, and archival pieces are framed as vehicles for affordability, durability, personal authorship, and circular fashion", "unit": "reported consumption route", "value_type": "reported_mechanism"},
+        "public_moments": {"value": "Large public moments such as the World Cup and the U.S. 250th are forecast to create reasons to gather, dress with presence, and signal belonging", "unit": "reported cultural participation route", "value_type": "reported_trend"}
+      },
+      "method": "Depop fashion forecast combining platform data, cultural research, seasonal events, and community marketplace observation.",
+      "uncertainty": "The forecast does not measure circularity outcomes, garment life extension, event participation, or whether sports references travel equally across markets.",
+      "subgroup": "Sports fans, secondhand buyers and sellers, style communities, event participants, younger consumers, and people using clothing to signal group belonging.",
+      "counterinterpretation": "Sport and circular aesthetics can be rapidly commodified, and resale does not automatically reduce new production, textile waste, or unequal access to desirable goods.",
+      "source_url": "https://news.depop.com/depop-unveils-2026-fashion-trends-report-the-edited-self/",
+      "retrieval_hash": "sha256:43749ff44a12704faa821c17d2f5168a1b30b4a0b4d269d39043e036d63ab527",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://downloads.ctfassets.net/itoh30v6uh9a/59FRCWfgu0u6Rn7EBTy2qQ/4319ad5f24ae3d95386e406eb9d4adc1/2026_Depop_Trends_Report_19.12.pdf", "claim": "The full public PDF contains the four trend sections and supporting platform and cultural material referenced in the newsroom summary."},
+    {"source_url": "https://www.depop.com/blog/depop-data-download/", "claim": "Depop's public data-download page describes current trend forecasts and data deep dives based on platform search and demand."}
+  ],
+  "boundary": "This record adds a fashion and resale-culture signal about intentional editing, repetition, nostalgia, everyday ritual, sport, circularity, and public belonging. It is a platform-owned trend forecast using aggregate search and sales interpretation, not respondent-level data, an independent market estimate, a causal sustainability evaluation, or proof that all consumers are moving away from novelty and volume.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Depop newsroom summary reviewed for The Edited Self framing, Modern Uniforms, Neo Nostalgia, Everyday Ceremony, Romanticized Sports, platform community scale, and the stated search/sales/cultural research basis.",
+    "source_url_sha256": "sha256:43749ff44a12704faa821c17d2f5168a1b30b4a0b4d269d39043e036d63ab527",
+    "checked": "2026-09-27"
+  }
+}

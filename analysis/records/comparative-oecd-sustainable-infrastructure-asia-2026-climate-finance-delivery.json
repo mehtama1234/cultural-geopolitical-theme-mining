@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-sustainable-infrastructure-asia-2026-climate-finance-delivery",
+  "title": "Central and Southeast Asia face an infrastructure expansion choice between carbon-intensive lock-in and better-planned, climate-resilient, inclusive delivery",
+  "theme_ids": ["energy", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "OECD, Accelerating Sustainable Infrastructure Investments: Assessing Policies for Planning, Delivery and Financing in Central and Southeast Asia",
+  "geography": "Indonesia, Kazakhstan, Mongolia, the Philippines, Thailand, and Uzbekistan; Central and Southeast Asia regional infrastructure systems",
+  "observations": [
+    {
+      "period": "2026 report; infrastructure investment needs in six Central and Southeast Asian countries",
+      "denominator": {"value": 6, "unit": "countries covered by the OECD Sustainable Infrastructure Programme in Asia analysis", "value_type": "country_count"},
+      "measures": {
+        "annual_infrastructure_gap": {"value": "approximately 5-7 percent of GDP annually", "unit": "reported infrastructure investment gap across the covered regions", "value_type": "reported_estimate"},
+        "sustainability_alignment_cost": {"value": "about 1 percent of GDP in most countries", "unit": "additional reported cost of aligning infrastructure with climate and sustainability objectives, relative to total investment needs", "value_type": "reported_estimate"},
+        "lock_in_risk": {"value": "Without reform, current investment patterns could entrench carbon-intensive and climate-vulnerable systems; aligned policies could support more sustainable, resilient, and inclusive infrastructure", "unit": "reported policy scenario", "value_type": "reported_interpretation"}
+      },
+      "method": "OECD synthesis of the Sustainable Infrastructure Programme in Asia, implemented from 2021-2026, covering strategic planning, sectoral policies, financial systems, and regional analysis.",
+      "uncertainty": "The figures are regional estimates and policy-analysis results, not household-level costs or a forecast of realized investment; country definitions, sector coverage, and scenario assumptions matter for interpretation.",
+      "subgroup": "Residents and firms in the six countries, infrastructure users, governments, investors, workers, communities exposed to climate risks, and people affected by energy, transport, and industrial projects.",
+      "counterinterpretation": "Higher sustainable-infrastructure spending can improve resilience and services while increasing public debt, land conflict, tariffs, construction disruption, or unequal access if governance and distributional safeguards are weak.",
+      "source_url": "https://www.oecd.org/en/publications/accelerating-sustainable-infrastructure-investments_031d486e-en.html",
+      "retrieval_hash": "sha256:bc3f14d9c53da1b2ad2c748c12d7bf59f4103d12aa630be65bba6026bf584794",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; energy and transport investment pipeline",
+      "denominator": {"value": 6, "unit": "SIPA countries covered by the OECD infrastructure-pipeline assessment", "value_type": "country_count"},
+      "measures": {
+        "coal_capacity": {"value": 31, "unit": "gigawatts of new coal capacity reported as under development across the six countries, approximately", "value_type": "reported_pipeline_volume"},
+        "transport_pattern": {"value": "Road-based transport dominates future investment plans", "unit": "reported infrastructure-pipeline pattern", "value_type": "reported_pattern"},
+        "misalignment": {"value": "Infrastructure pipelines continue to prioritize carbon-intensive assets, particularly in energy and transport", "unit": "reported investment pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD assessment of infrastructure pipelines and sectoral policies in the six countries.",
+      "uncertainty": "Pipeline status is not the same as final approval, construction, operation, or emissions outcome; the public summary does not provide project-level timelines, ownership, financing, or cancellation probabilities.",
+      "subgroup": "Energy and transport users, project developers, coal and infrastructure workers, urban and rural communities, governments, financiers, and people exposed to air pollution and climate risk.",
+      "counterinterpretation": "Coal and road investments may respond to real access, reliability, freight, mobility, and development needs; transition policy must address those service needs rather than treating infrastructure choices as only emissions decisions.",
+      "source_url": "https://www.oecd.org/en/publications/accelerating-sustainable-infrastructure-investments_031d486e-en.html",
+      "retrieval_hash": "sha256:bc3f14d9c53da1b2ad2c748c12d7bf59f4103d12aa630be65bba6026bf584794",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; planning, appraisal, and project-preparation capacity",
+      "denominator": {"value": 1, "unit": "OECD cross-country policy-assessment frame", "value_type": "reported_framework"},
+      "measures": {
+        "implementation_gap": {"value": "All six countries have national development and climate strategies, but commitments are not yet systematically translated into investment decisions", "unit": "reported governance pattern", "value_type": "reported_pattern"},
+        "project_bottleneck": {"value": "A shortage of well-prepared, bankable sustainable infrastructure projects is identified as a major bottleneck", "unit": "reported delivery constraint", "value_type": "reported_constraint"},
+        "integrated_appraisal": {"value": "Integrated cost-benefit analysis can increase the benefit-cost ratio of sustainable projects by up to tenfold when overlooked environmental and social benefits are counted", "unit": "reported appraisal comparison", "value_type": "reported_estimate"}
+      },
+      "method": "OECD review of planning frameworks, project preparation and evaluation practices, sectoral policies, and financial systems, including SIPA experience.",
+      "uncertainty": "The up-to-tenfold result is an analytical finding under specified appraisal conditions, not a guaranteed return for every project; benefit valuation, discounting, data quality, and distributional weights shape the result.",
+      "subgroup": "Planning ministries, local governments, project-preparation facilities, investors, communities affected by project appraisal, and public agencies responsible for budgets and delivery.",
+      "counterinterpretation": "More integrated appraisal can improve decisions but can also create technical barriers, obscure contested values in monetized analysis, or privilege projects that can demonstrate benefits in formal models.",
+      "source_url": "https://www.oecd.org/en/publications/accelerating-sustainable-infrastructure-investments_031d486e-en.html",
+      "retrieval_hash": "sha256:bc3f14d9c53da1b2ad2c748c12d7bf59f4103d12aa630be65bba6026bf584794",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; finance, resilience, nature, and institutional delivery",
+      "denominator": {"value": 6, "unit": "countries covered by the OECD regional infrastructure assessment", "value_type": "country_count"},
+      "measures": {
+        "climate_exposure": {"value": "Floods, droughts, heatwaves, and sea-level rise are already affecting infrastructure systems across both regions", "unit": "reported climate-exposure pattern", "value_type": "reported_pattern"},
+        "finance_constraints": {"value": "Underdeveloped financial markets, limited non-bank participation, nascent risk-sharing instruments, and persistent fossil-fuel subsidies constrain sustainable-investment flows", "unit": "reported finance constraint set", "value_type": "reported_constraint"},
+        "governance_constraints": {"value": "Limited technical capacity, fragmented governance, and weak coordination across ministries and levels of government hinder planning and implementation", "unit": "reported institutional constraint set", "value_type": "reported_constraint"},
+        "nature_based_solutions": {"value": "Nature-based solutions remain underutilized despite reported cost-effectiveness and environmental co-benefits", "unit": "reported delivery pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD regional analysis of financial systems, climate resilience, nature-based solutions, institutional capacity, and governance across the six countries.",
+      "uncertainty": "The public summary identifies constraints and opportunities but does not quantify avoided losses, project-level resilience, finance mobilization, or who benefits from nature-based investments.",
+      "subgroup": "Climate-exposed households and communities, infrastructure users, public agencies, financial institutions, engineering and construction firms, and local governments.",
+      "counterinterpretation": "Institutional and finance reforms may unlock investment without guaranteeing affordability, local consent, maintenance, ecological integrity, or protection for communities with the least bargaining power.",
+      "source_url": "https://www.oecd.org/en/publications/accelerating-sustainable-infrastructure-investments_031d486e-en.html",
+      "retrieval_hash": "sha256:bc3f14d9c53da1b2ad2c748c12d7bf59f4103d12aa630be65bba6026bf584794",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/031d486e-en", "claim": "OECD DOI for the 390-page publication."}
+  ],
+  "boundary": "This record adds a Central and Southeast Asian infrastructure-delivery signal on climate lock-in, investment gaps, coal and road pipelines, project preparation, appraisal, sustainable finance, resilience, nature-based solutions, and institutional coordination. It is an OECD policy assessment, not a household affordability study, a project-by-project audit, a causal evaluation of the tenfold appraisal result, or proof that recommendations will be implemented equitably.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page reviewed for country coverage, infrastructure-gap and alignment-cost estimates, coal and road pipeline findings, strategy-to-investment implementation gap, integrated appraisal result, climate exposure, financial constraints, nature-based solutions, and governance constraints.",
+    "source_url_sha256": "sha256:bc3f14d9c53da1b2ad2c748c12d7bf59f4103d12aa630be65bba6026bf584794",
+    "checked": "2026-09-27"
+  }
+}

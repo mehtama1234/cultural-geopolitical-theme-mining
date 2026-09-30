@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-la-county-wildfire-alerts-aar-implementation-2026",
+  "title": "Wildfire after-action recommendations become an operating-capacity and training program, while resident-level safety remains open",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Los Angeles County August 3, 2026 joint feasibility and status report on implementation of the first McChrystal After Action Report recommendations for the January 2025 Eaton and Palisades fires",
+  "geography": "Los Angeles County emergency-management, fire, and sheriff systems serving the Eaton and Palisades fire area and wider County operational area",
+  "observations": [
+    {
+      "period": "August 3, 2026; OEM organizational transformation and staffing plan",
+      "denominator": {"value": 1, "unit": "official County implementation-status report", "value_type": "institutional_status_report"},
+      "measures": {
+        "new_budgeted_oem_positions": {"value": 44, "unit": "new budgeted positions in FY 2026-27", "value_type": "reported_staffing_capacity"},
+        "transformation_horizon": {"value": "FY 2026-27 through FY 2028-29", "unit": "multi-year implementation plan", "value_type": "reported_plan_horizon"},
+        "oem_reporting_structure": {"value": "effective March 1, 2026, OEM reports directly to the Chief Executive Officer", "unit": "reported organizational change", "value_type": "reported_governance_change"},
+        "planned_total_oem_capacity": {"value": 120, "unit": "full-time-equivalent estimate for a future standalone OEM department", "value_type": "reported_future_plan"},
+        "mechanism": {"value": "After-action learning is translated into staffing, authority, planning, and administrative infrastructure intended to improve emergency readiness", "unit": "bounded implementation-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "County Chief Executive Office joint feasibility and status report covering OEM, Fire, and Sheriff implementation of after-action recommendations, including staffing, governance, fiscal analysis, and a multi-year transformation plan.",
+      "uncertainty": "Budgeted positions are not necessarily filled positions, and a transformation plan is not completed capacity. The report does not establish faster warning receipt, safer evacuation, equitable access, lower harm, resident trust, or outcomes in a subsequent disaster.",
+      "subgroup": "County emergency-management staff, fire and sheriff personnel, residents in hazard-exposed communities, and people dependent on public alerts, evacuation coordination, recovery, and access support.",
+      "counterinterpretation": "More staffing and direct executive reporting may increase capacity, but can also create transition costs, authority ambiguity, or administrative growth without reliable field performance.",
+      "source_url": "https://file.lacounty.gov/SDSInter/bos/bc/1214307_AARBoardMemoSecondReportBack_finalsigned_.pdf",
+      "retrieval_hash": "sha256:0b373675cf89932699a2f2a10be91a5507a9be1c51654b0fb82214a9268581b4",
+      "status": "reported"
+    },
+    {
+      "period": "August 3, 2026; implementation actions and remaining work reported for alerts, evacuation, training, and coordination",
+      "denominator": {"value": 1, "unit": "official implementation-status report covering first-AAR recommendation areas", "value_type": "institutional_status_report"},
+      "measures": {
+        "evacuation_annex": {"value": "updated County Emergency Operations Plan evacuation annex under stakeholder review, with signature page intended to document unified leadership", "unit": "reported implementation status", "value_type": "underway"},
+        "alerting_practice": {"value": "Genasys ALERT job aids disseminated and used in real-time incidents and scenario-based exercises; monthly OEM duty-officer drills cover alerts, message development, and troubleshooting", "unit": "reported operating practice", "value_type": "implemented_or_underway"},
+        "countywide_exercise": {"value": "April 29, 2026 full-scale exercise with FEMA, Inglewood Police, CEOC, and County Joint Information Center tested simultaneous incidents across three operational areas", "unit": "reported exercise episode", "value_type": "completed_exercise"},
+        "sheriff_training": {"value": "evacuation curriculum integrated into Sheriff Academy, Patrol School, Supervisory School, and ICS-300 courses; training reported complete for available personnel in designated waves", "unit": "reported training institutionalization", "value_type": "implemented_training"},
+        "remaining_gap": {"value": "the report describes policies, exercises, training, and organizational changes but does not observe a new disaster outcome or resident-level warning and evacuation experience", "unit": "unmeasured downstream outcome", "value_type": "unmeasured"},
+        "mechanism": {"value": "Operational learning becomes durable only if staffing, procedures, exercises, and technology transfer into timely, understandable, equitable field action", "unit": "bounded implementation-to-outcome mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official status report attachments describing current, completed, and planned implementation actions across OEM, Fire, and Sheriff recommendation areas.",
+      "uncertainty": "Status labels are agency-reported and may describe implementation activity rather than tested effectiveness. No common denominator links training or exercises to household warning receipt, evacuation timing, injury, displacement, or trust.",
+      "subgroup": "Residents and responders across multiple County operational areas, with potentially unequal access to alerts, transportation, language access, disability accommodations, and safe evacuation options.",
+      "counterinterpretation": "Exercises and training can reveal and correct gaps before a disaster, but successful exercise performance may not generalize to a fast-moving, infrastructure-disrupting event.",
+      "source_url": "https://file.lacounty.gov/SDSInter/bos/bc/1214307_AARBoardMemoSecondReportBack_finalsigned_.pdf",
+      "retrieval_hash": "sha256:0b373675cf89932699a2f2a10be91a5507a9be1c51654b0fb82214a9268581b4",
+      "status": "reported"
+    },
+    {
+      "period": "August 3, 2026; recommendation tracker status categories",
+      "denominator": {"value": 1, "unit": "official first-AAR implementation tracker", "value_type": "recommendation_status_tracker"},
+      "measures": {
+        "status_mix": {"value": "The tracker and narrative contain completed, ongoing, under-review, planned, and future-horizon actions; the report does not publish a single completion percentage", "unit": "reported status structure", "value_type": "mixed_status_tracker"},
+        "evacuation_annex": {"value": "under review by stakeholder department heads", "unit": "reported status", "value_type": "under_review"},
+        "webeoc_training": {"value": "began January 2026 and continues until all operational-area partner users receive training", "unit": "reported status", "value_type": "ongoing"},
+        "command_course_compliance": {"value": "instruction continues with anticipated completion by the end of 2026", "unit": "reported status and horizon", "value_type": "ongoing_with_target"},
+        "alerting_practice": {"value": "Genasys job aids and monthly alert/warning drills reported as implemented and used in incidents and exercises", "unit": "reported status", "value_type": "implemented_or_underway"},
+        "mechanism": {"value": "Implementation is layered and asynchronous: a system can have working tools and training while governance documents, user coverage, and compliance remain unfinished", "unit": "bounded implementation-status mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Recommendation tracker and narrative status sections in the official August 3, 2026 report; statuses are agency-reported and retained as separate categories rather than collapsed into a completion rate.",
+      "uncertainty": "The report does not define a common denominator for completed versus ongoing items, verify field performance, or show whether the remaining actions were funded and delivered on schedule.",
+      "subgroup": "Emergency-management agencies, operational-area partners, responders, and residents dependent on coordinated alerts and evacuation systems.",
+      "counterinterpretation": "A mixed status portfolio is expected in multi-year transformation and does not by itself indicate failure; however, without standardized milestones and outcome measures, progress can be difficult for residents to evaluate.",
+      "source_url": "https://file.lacounty.gov/SDSInter/bos/bc/1214307_AARBoardMemoSecondReportBack_finalsigned_.pdf",
+      "retrieval_hash": "sha256:0b373675cf89932699a2f2a10be91a5507a9be1c51654b0fb82214a9268581b4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://lacounty.gov/aar/", "claim": "Los Angeles County's after-action-review hub lists the August 3, 2026 implementation update and the earlier alerts/evacuation review context."},
+    {"source_url": "https://file.lacounty.gov/SDSInter/bos/supdocs/208130.pdf", "claim": "The September 30, 2025 Board motion directed implementation of first-AAR recommendations and recurring progress reporting."},
+    {"source_url": "https://lindseyhorvath.lacounty.gov/stronger-county-disaster-response/", "claim": "The September 15, 2026 Board response to the separate recovery/repopulation review adds a later accountability architecture; it is not merged with this first-AAR implementation status."}
+  ],
+  "boundary": "This record establishes agency-reported implementation activity for the first after-action review's alerts, evacuation, training, coordination, and emergency-management capacity recommendations. It does not establish resident-level warning receipt, evacuation behavior, injury prevention, equitable access, household recovery, trust, or effectiveness in a subsequent disaster. It is separate from the September 2026 recovery/repopulation after-action review and must not be treated as proof that its 25 newer recommendations were implemented.",
+  "reproduction_audit": {
+    "checked": "2026-09-29",
+    "source_hash_scope": "Official Los Angeles County August 3, 2026 41-page implementation-status PDF was retrieved and hashed; the County after-action hub and September 30, 2025 Board motion were recorded as context.",
+    "extraction_scope": "Reported staffing, governance, multi-year plan, alerting, evacuation-annex, exercise, training, and downstream-outcome boundaries; no respondent linkage or causal effectiveness estimate.",
+    "status": "reproduced from official Los Angeles County implementation report"
+  }
+}

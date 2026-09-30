@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-global-working-hours-gender-policy-time-2026",
+  "title": "Development redistributes working time across age and gender through schooling, pensions, social spending, and regulation",
+  "theme_ids": ["time", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11473, Global Working Hours",
+  "geography": "160 countries covering 97% of the world population in cross section, with time series spanning more than 20 years in 86 countries",
+  "observations": [
+    {
+      "period": "Global hours worked database; cross section of 160 countries",
+      "denominator": {"value": 160, "unit": "countries in the cross-sectional labor-force-survey microdatabase", "value_type": "reported_country_frame"},
+      "measures": {
+        "population_coverage": {"value": "the database covers 97% of the world population in cross section", "unit": "percent of world population", "value_type": "reported_coverage"},
+        "survey_scale": {"value": "about 470 million individuals are represented in the harmonized survey microdata", "unit": "surveyed individuals", "value_type": "reported_database_scale"},
+        "global_gender_hours": {"value": "women supply 35% of GDP-producing hours and men 65%; women’s average hours are 55% of men’s", "unit": "share and ratio of GDP-producing hours", "value_type": "reported_global_estimate"},
+        "time_as_resource": {"value": "working time is a social distributional resource shaped by employment rates and hours per worker, not only an individual labor-supply choice", "unit": "bounded time-and-institution mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Harmonized labor-force-survey microdatabase combining hours, employment, age, gender, schooling, and related socioeconomic variables.",
+      "uncertainty": "Survey definitions differ across countries; actual versus usual hours, main-job versus all-job measures, seasonality, unpaid household work, and agricultural coverage limit exact comparability.",
+      "subgroup": "Women and men, young people, prime-age adults, older adults, employed and non-employed people, unpaid caregivers, and households organized around paid work and care.",
+      "counterinterpretation": "GDP-producing hours exclude unpaid cooking, cleaning, childcare, and eldercare, so the database does not measure total socially necessary work or overall time well-being.",
+      "source_url": "https://documents.worldbank.org/curated/en/099924009282636274/pdf/IDU-dd691fb7-262a-4e55-b65a-ddca7474fa76.pdf",
+      "retrieval_hash": "sha256:6871a0d9887a347c07a774b580828a390e7db2e0e6b5bbb6585d0c3a2f1599ac",
+      "status": "reported"
+    },
+    {
+      "period": "Cross-country development comparisons by age and gender",
+      "denominator": {"value": 3, "unit": "age groups used in the paper: young 15-19, prime-age 20-59, elderly 60+", "value_type": "reported_age_frame"},
+      "measures": {
+        "overall_development": {"value": "hours worked per adult decline only slightly with GDP per capita and are weakly correlated with development overall", "unit": "reported cross-country relationship", "value_type": "reported_result"},
+        "young_and_elderly": {"value": "hours worked by ages 15-19 and 60+ decline with development, with the cross-country reductions explained entirely by rising school attendance and public pension coverage", "unit": "reported age-specific relationship", "value_type": "reported_result"},
+        "prime_age": {"value": "prime-age hours worked are stable or slightly increasing with GDP per adult", "unit": "reported age-specific relationship", "value_type": "reported_result"},
+        "gender_reshuffling": {"value": "falling male hours per worker are quantitatively offset by rising female labor-force participation in many countries", "unit": "reported gender-time pattern", "value_type": "reported_result"},
+        "social_meaning": {"value": "development changes who works, when, and under which institutions rather than simply reducing the total amount of work", "unit": "bounded social-time mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-country regressions and country time-series analysis of hours per adult, hours per worker, employment rates, age, gender, GDP per adult, school attendance, and pension coverage.",
+      "uncertainty": "The paper reports associations and explanatory correlations, not causal estimates of schooling, pensions, development, or gender norms; within-country time-series patterns differ from cross-country relationships.",
+      "subgroup": "Adolescents balancing school and work, older adults with or without pensions, prime-age women and men, households with different care arrangements, and workers in countries with different social norms.",
+      "counterinterpretation": "Lower youth or elderly paid work may indicate improved protection, but it may also reflect exclusion, weak labor demand, health constraints, or unmeasured unpaid work; higher female participation does not imply equal job quality or autonomy.",
+      "source_url": "https://documents.worldbank.org/curated/en/099924009282636274/pdf/IDU-dd691fb7-262a-4e55-b65a-ddca7474fa76.pdf",
+      "retrieval_hash": "sha256:6871a0d9887a347c07a774b580828a390e7db2e0e6b5bbb6585d0c3a2f1599ac",
+      "status": "reported"
+    },
+    {
+      "period": "Prime-age hours and public policy indicators across countries",
+      "denominator": {"value": 3, "unit": "policy domains examined: labor taxes, social spending, and working-time regulations", "value_type": "reported_policy_frame"},
+      "measures": {
+        "labor_taxes": {"value": "labor income taxes are strongly negatively related to hours worked across countries", "unit": "reported cross-country correlation", "value_type": "reported_result"},
+        "social_spending": {"value": "the labor-tax relationship is attenuated after controlling for social spending", "unit": "reported regression relationship", "value_type": "reported_result"},
+        "working_time_regulation": {"value": "the labor-tax relationship disappears after further controlling for working-hours regulations; both social spending and regulations are associated with lower hours worked", "unit": "reported regression relationship", "value_type": "reported_result"},
+        "policy_tradeoff": {"value": "the observed association is consistent with taxes financing transfers and institutions that reduce hours, rather than a simple tax-only work disincentive", "unit": "bounded policy-and-time mechanism", "value_type": "bounded_mechanism"},
+        "consumer_household_route": {"value": "time policy can alter household room for care, consumption, rest, and civic participation, but these outcomes are not measured directly", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Exploratory cross-country regressions relating prime-age hours to net-of-tax labor income, social spending, transfers, formal employment, and an index of working-time regulations.",
+      "uncertainty": "Policy variables are endogenous and jointly determined with development, labor-market structure, norms, and institutions; correlations cannot rank policy interventions or establish a causal hours response.",
+      "subgroup": "Formal and informal workers, parents and caregivers, low- and high-income households, women and men, employers, unions, and governments designing tax and social-protection systems.",
+      "counterinterpretation": "Shorter paid hours may reflect healthier work standards and social protection, but can also coexist with low incomes, multiple jobs, unpaid care burdens, or involuntary underemployment.",
+      "source_url": "https://documents.worldbank.org/curated/en/099924009282636274/pdf/IDU-dd691fb7-262a-4e55-b65a-ddca7474fa76.pdf",
+      "retrieval_hash": "sha256:6871a0d9887a347c07a774b580828a390e7db2e0e6b5bbb6585d0c3a2f1599ac",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099924009282636274", "claim": "Official World Bank record, WPS number, authors, date, abstract, country coverage, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099924009282636274", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a development-to-time-allocation mechanism. It measures paid or GDP-producing work through labor-force surveys and does not measure unpaid care, rest, subjective time pressure, job quality, household consumption, bargaining power, or causal policy effects. The gender, age, cultural, consumer, and political implications are hypotheses for follow-through, not direct outcomes established by this cross-country evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, abstract, 160-country and 86-country coverage, survey scale, age and gender patterns, school and pension associations, labor-tax/social-spending/regulation relationships, and unpaid-work boundary were reviewed.",
+    "source_url_sha256": "sha256:6871a0d9887a347c07a774b580828a390e7db2e0e6b5bbb6585d0c3a2f1599ac",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-ipo-counterfeit-goods-wave5-2026",
+  "title": "Cost pressure and platform convenience sustain counterfeit purchasing while harm reporting and perceived seriousness remain low",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Intellectual Property Office, Counterfeit goods research (Wave 5), 2026 publication",
+  "geography": "United Kingdom adults aged 18+; nationally representative survey with qualitative and communications-testing stages",
+  "observations": [
+    {
+      "period": "2025; counterfeit purchasing and price-value judgment",
+      "denominator": {"value": 5057, "unit": "UK adults aged 18+ in the nationally representative Stage 1 online survey", "value_type": "survey_sample"},
+      "measures": {
+        "ever_purchased": {"value": 26, "unit": "percent who had ever made a counterfeit purchase", "value_type": "reported_share"},
+        "current_purchasing": {"value": 17, "unit": "percent who currently purchase counterfeits", "value_type": "reported_share"},
+        "unintentional_purchase": {"value": 17, "unit": "percent who had accidentally bought a counterfeit at some point", "value_type": "reported_share"},
+        "price_gap": {"value": "30%–85% less than genuine products", "unit": "reported price comparison", "value_type": "reported_range"},
+        "young_adult_exposure": {"value": 46, "unit": "percent of 18–24 year-olds reporting an ever-purchase in 2025", "value_type": "reported_subgroup_share"}
+      },
+      "method": "Wave 5 of a longitudinal counterfeit-purchasing tracker using a 15-minute online survey with quotas and ONS-linked weighting; core measures were compared with prior waves.",
+      "uncertainty": "The study measures self-reported purchasing and does not independently authenticate products, estimate total market value, or establish that cost-of-living pressure caused purchasing; some category definitions changed.",
+      "subgroup": "UK adults, especially younger and price-sensitive consumers, with comparisons by age, gender, social grade, region, and product category.",
+      "counterinterpretation": "Stable current purchasing alongside rising ever-purchase among younger adults may reflect exposure, recall, category shifts, or improved recognition rather than a uniform expansion of demand.",
+      "source_url": "https://www.gov.uk/government/publications/ipo-counterfeit-goods-research-wave-5/ipo-counterfeit-goods-research-wave-5",
+      "retrieval_hash": "sha256:aa69222836c142237156870b51b30e54a9a81c22b498c06ce7d1c9696882f50f",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2025; access routes and consumer verification",
+      "denominator": {"value": 1, "unit": "UK counterfeit-purchasing categories and respondents described in the tracker", "value_type": "tracker_frame"},
+      "measures": {
+        "marketplace_shift": {"value": "Major online marketplaces and social media increasingly supply counterfeit goods, while smaller online retailers and some in-person routes declined", "unit": "reported channel pattern", "value_type": "reported_pattern"},
+        "social_media_route": {"value": "Social media and short-form video environments increasingly shape exposure and purchasing routes", "unit": "reported contextual pattern", "value_type": "reported_pattern"},
+        "unintentional_young_adult_purchase": {"value": "Unintentional purchase rose sharply among 18–24 year-olds, with over 30% indicating an unintentional purchase", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "verification": {"value": "Weak product checks and platform-mediated discovery leave consumers exposed to deception", "unit": "reported interpretation", "value_type": "reported_pattern"}
+      },
+      "method": "Wave-on-wave tracker analysis supplemented by qualitative research on category-specific purchase routes and product checking.",
+      "uncertainty": "Channel shares vary by category and are not a causal estimate of platform effects; the report does not observe recommendation algorithms, seller enforcement, or individual transaction records.",
+      "subgroup": "Younger online shoppers, category-specific consumers, marketplace and social-media users, and consumers with different verification practices.",
+      "counterinterpretation": "Large marketplaces may be selected because they offer search, price comparison, reviews, and recourse cues, even when counterfeit detection remains imperfect.",
+      "source_url": "https://www.gov.uk/government/publications/ipo-counterfeit-goods-research-wave-5/ipo-counterfeit-goods-research-wave-5",
+      "retrieval_hash": "sha256:aa69222836c142237156870b51b30e54a9a81c22b498c06ce7d1c9696882f50f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; harm, safety, and complaint action",
+      "denominator": {"value": 1, "unit": "respondents who knowingly purchased counterfeit products in the previous 12 months and reported relevant experiences", "value_type": "conditional_subsample"},
+      "measures": {
+        "negative_consequence": {"value": "More than two-thirds reported at least one negative consequence", "unit": "reported conditional share", "value_type": "reported_share_band"},
+        "harm_types": {"value": "Product failure, scams and financial loss, data-security risks, and health or safety risks in safety-critical categories", "unit": "reported consequence categories", "value_type": "reported_pattern"},
+        "action_taken": {"value": 20, "unit": "approximately percent of those with negative experiences who took action", "value_type": "reported_share_approximate"},
+        "reporting_awareness": {"value": 38, "unit": "percent unaware of reporting channels", "value_type": "reported_share"},
+        "recovery_condition": {"value": "Most affected consumers did not report unless financial recovery was possible", "unit": "reported action condition", "value_type": "reported_pattern"}
+      },
+      "method": "New Wave 5 harms module asking recent counterfeit purchasers about negative experiences and action, alongside reporting-channel questions.",
+      "uncertainty": "The harm module is new and has no historical trend baseline; experiences may have occurred at different times from the reported purchase, and conditional denominators should not be read as population prevalence.",
+      "subgroup": "Counterfeit purchasers, especially men, 18–24 year-olds, lower-income consumers, and respondents in London and the North West who showed higher reported exposure to negative outcomes.",
+      "counterinterpretation": "Low reporting may reflect low perceived remedy value, uncertainty about jurisdiction, stigma, or transaction ambiguity rather than acceptance of harm alone.",
+      "source_url": "https://www.gov.uk/government/publications/ipo-counterfeit-goods-research-wave-5/ipo-counterfeit-goods-research-wave-5",
+      "retrieval_hash": "sha256:aa69222836c142237156870b51b30e54a9a81c22b498c06ce7d1c9696882f50f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; consumer language, moral distance, and segments",
+      "denominator": {"value": 1, "unit": "UK counterfeit-purchaser segments and qualitative respondents", "value_type": "segmentation_frame"},
+      "measures": {
+        "language": {"value": "Younger purchasers often used softer terms such as fake, dupe, or lookalike", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "seriousness": {"value": "Softer language corresponded with lower perceived seriousness and moral distance from illegality", "unit": "reported interpretation", "value_type": "reported_pattern"},
+        "moderate_segment": {"value": "Trend-Responsive Bargain Seekers were described as 25–44, active online shoppers focused on fashion, sports, and technology; 31% distrusted warnings about potential harms", "unit": "reported segment profile", "value_type": "reported_pattern"},
+        "heavy_segment": {"value": "Rebellious Value Activists were described as under 35, mainly male, buying across multiple categories; over half dismissed harm-related messaging", "unit": "reported segment profile", "value_type": "reported_pattern"}
+      },
+      "method": "IPO segmentation using self-declared purchasing behavior and number of categories, supplemented by qualitative interpretation and communications testing.",
+      "uncertainty": "Segments are analytic profiles rather than fixed social identities; language does not prove moral motivation, and communications-test responses do not establish behavior change.",
+      "subgroup": "Light, moderate, and heavy purchasers, with age, gender, online-shopping, category, and attitude differences.",
+      "counterinterpretation": "The language of dupes may describe perceived value and product similarity rather than deliberate denial of legal or safety consequences.",
+      "source_url": "https://www.gov.uk/government/publications/ipo-counterfeit-goods-research-wave-5/ipo-counterfeit-goods-research-wave-5",
+      "retrieval_hash": "sha256:aa69222836c142237156870b51b30e54a9a81c22b498c06ce7d1c9696882f50f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/ipo-counterfeit-goods-research-wave-5", "claim": "Publication landing page for Wave 5 research."},
+    {"source_url": "https://www.gov.uk/government/publications/ipo-counterfeit-goods-research-wave-5/ipo-counterfeit-goods-research-wave-5", "claim": "Full HTML report with methodology, category findings, harms, segmentation, and communications testing."}
+  ],
+  "boundary": "This record adds a consumer-recourse and platform-mediated authenticity layer. It is based primarily on self-reported UK consumer survey and qualitative evidence; it does not estimate the counterfeit market, authenticate individual goods, establish platform liability, identify causal effects of prices or social media, or measure completed enforcement or redress.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Full IPO Wave 5 HTML report reviewed for sample design, prevalence, price motivation, access routes, harms, reporting, segmentation, and methodological changes.",
+    "source_url_sha256": "sha256:aa69222836c142237156870b51b30e54a9a81c22b498c06ce7d1c9696882f50f",
+    "checked": "2026-09-28"
+  }
+}

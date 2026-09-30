@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unfpa-supplies-partnership-2025-contraceptive-access-financing",
+  "title": "Reproductive choice depends on commodity access, last-mile logistics, domestic financing, and supply-chain resilience",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNFPA, UNFPA Supplies Partnership Annual Report 2025",
+  "geography": "54 UNFPA Supplies Partnership partner countries, including remote, rural, low-income, and humanitarian settings",
+  "observations": [
+    {
+      "period": "2025; reproductive-health commodity and service reach",
+      "denominator": {"value": 54, "unit": "UNFPA Supplies Partnership partner countries", "value_type": "programme_country_frame"},
+      "measures": {
+        "women_and_girls_reached": {"value": 23300000, "unit": "women and girls reached through the Global Health Initiative in 2025", "value_type": "reported_service_reach"},
+        "unintended_pregnancies_prevented": {"value": 10000000, "unit": "unintended pregnancies prevented through quality-assured contraceptives", "value_type": "reported_modelled_impact"},
+        "unsafe_abortions_averted": {"value": 3000000, "unit": "unsafe abortions averted through reported programme contribution", "value_type": "reported_modelled_impact"}
+      },
+      "method": "UNFPA annual programme reporting using commodity procurement, service-reach, impact-model, and partner-country data.",
+      "uncertainty": "Reported prevented and averted outcomes are programme estimates and do not establish that every outcome was caused solely by supplied commodities; service reach does not equal uninterrupted or equitable use.",
+      "subgroup": "Women and girls, adolescents, people seeking contraception, remote and rural communities, low-income households, health providers, and people in humanitarian settings.",
+      "counterinterpretation": "Commodity access is necessary but not sufficient; informed choice, respectful services, partner dynamics, legal conditions, transport, privacy, and continuity also shape reproductive agency.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-supplies-partnership-annual-report-2025",
+      "retrieval_hash": "sha256:ab4566c2c97c597a52c3de161dcada7949af3288a0821d9f80ad2b389dd883d6",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; domestic financing and national commitment",
+      "denominator": {"value": 54, "unit": "Supplies Partnership partner countries", "value_type": "programme_country_frame"},
+      "measures": {
+        "domestic_financing_change": {"value": 6, "unit": "more than fold increase in domestic financing for sexual and reproductive health commodities since 2020", "value_type": "reported_change"},
+        "compact_participation": {"value": 41, "unit": "eligible countries signing the Compact to strengthen accountability and domestic financing for commodities", "value_type": "reported_country_count"},
+        "match_fund_awards": {"value": 63300000, "unit": "US dollars in Supplies Match Fund awards matching government resources 2:1 from 2022 to 2025", "value_type": "reported_finance_total"}
+      },
+      "method": "UNFPA financing and programme reporting on country commitments, domestic commodity budgets, compact participation, and matching mechanisms.",
+      "uncertainty": "Financing commitments, compact signatures, and awards do not establish full disbursement, sustained domestic budgets, affordability at point of care, or equal allocation across regions and methods.",
+      "subgroup": "Ministries of health and finance, procurement agencies, clinics, pharmacies, donors, households, and people dependent on public or subsidized commodities.",
+      "counterinterpretation": "Catalytic external finance can build domestic ownership but may also create short-term incentives, reporting burdens, or vulnerability if donor support retreats before national systems stabilize.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-supplies-partnership-annual-report-2025",
+      "retrieval_hash": "sha256:ab4566c2c97c597a52c3de161dcada7949af3288a0821d9f80ad2b389dd883d6",
+      "status": "reported"
+    },
+    {
+      "period": "2025; product choice and last-mile delivery",
+      "denominator": {"value": 54, "unit": "Supplies Partnership partner countries", "value_type": "programme_country_frame"},
+      "measures": {
+        "new_products": {"value": 49, "unit": "countries procuring new or lesser-used reproductive-health products through UNFPA", "value_type": "reported_country_count"},
+        "last_mile_assurance": {"value": 54, "unit": "partner countries conducting Last Mile Assurance activities", "value_type": "reported_country_count"},
+        "programme_budget": {"value": 184300000, "unit": "US dollars in 2025 programme budget", "value_type": "reported_budget_total"}
+      },
+      "method": "UNFPA procurement, product-introduction, supply-chain, and programme-budget reporting.",
+      "uncertainty": "Product procurement and last-mile assurance do not prove stock availability at every facility, correct counseling, user preference fit, or uninterrupted delivery during conflict or disaster.",
+      "subgroup": "People in remote, rural, underserved, and humanitarian settings; health facilities; supply-chain workers; and consumers choosing among contraceptive methods.",
+      "counterinterpretation": "Expanding method choice can improve agency but can also complicate forecasting, training, procurement, waste management, and informed-consent practices.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-supplies-partnership-annual-report-2025",
+      "retrieval_hash": "sha256:ab4566c2c97c597a52c3de161dcada7949af3288a0821d9f80ad2b389dd883d6",
+      "status": "reported"
+    },
+    {
+      "period": "2025 and through 2050; economic and system-return frame",
+      "denominator": {"value": 1, "unit": "UNFPA Supplies Partnership investment and reproductive-health systems frame", "value_type": "investment_frame"},
+      "measures": {
+        "economic_benefit": {"value": 5000000000, "unit": "US dollars in estimated economic benefits by 2050 associated with the 2025 programme budget", "value_type": "reported_modelled_projection"},
+        "healthcare_costs_saved": {"value": 754000000, "unit": "US dollars in estimated direct health-care costs saved through 2025 contraceptive results", "value_type": "reported_modelled_impact"},
+        "system_pathway": {"value": "family-planning commodities are framed as supporting health-system resilience, gender equality, education, work, economic stability, and demographic resilience", "unit": "reported development mechanism", "value_type": "reported_framework"}
+      },
+      "method": "UNFPA partnership reporting and economic-benefit modelling linking contraceptive access to health, household, labor, and development outcomes.",
+      "uncertainty": "Modelled economic benefits depend on assumptions about avoided events, service costs, labor and education pathways, discounting, and future conditions; they are not observed household income gains.",
+      "subgroup": "Women and girls, households, health systems, employers, governments, donors, and communities affected by reproductive choice and timing.",
+      "counterinterpretation": "Economic-return framing should complement rather than replace reproductive rights, informed choice, bodily autonomy, quality of care, and non-economic reasons for family planning.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-supplies-partnership-annual-report-2025",
+      "retrieval_hash": "sha256:ab4566c2c97c597a52c3de161dcada7949af3288a0821d9f80ad2b389dd883d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unfpa.org/publications/unfpa-maternal-and-newborn-health-fund-2025-impact-report", "claim": "UNFPA Maternal and Newborn Health Fund 2025 provides complementary maternal-care, midwifery, emergency continuity, and surveillance context."},
+    {"source_url": "https://www.unfpa.org/unfpa-supplies-partnership", "claim": "UNFPA Supplies Partnership overview provides complementary supply-chain, financing, and health-system context."}
+  ],
+  "boundary": "This record adds a reproductive-commodity route linking contraceptive access, product choice, last-mile logistics, domestic financing, donor matching, health-system resilience, household agency, and modelled economic returns. It is an aggregate programme report, not individual purchase histories, clinical records, respondent-level behavior, or a causal evaluation of every estimated impact.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNFPA Supplies Partnership Annual Report 2025 page was reviewed for partner-country coverage, service reach, contraceptive impact estimates, domestic financing, compact participation, product choice, last-mile assurance, budget, and economic-return claims.",
+    "source_url_sha256": "sha256:ab4566c2c97c597a52c3de161dcada7949af3288a0821d9f80ad2b389dd883d6",
+    "checked": "2026-09-26"
+  }
+}

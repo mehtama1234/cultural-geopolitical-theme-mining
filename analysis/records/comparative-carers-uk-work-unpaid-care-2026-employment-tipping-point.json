@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point",
+  "title": "Unpaid care is becoming an employment-continuity fault line: workers cut hours, absorb stress, or leave depending on the support around them",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Carers UK, Balancing work and unpaid care: a critical issue",
+  "geography": "United Kingdom; adults and workers with current or past unpaid-care experience",
+  "observations": [
+    {
+      "period": "July 14-17, 2026; current unpaid care and comparison with 2019",
+      "denominator": {"value": 4000, "unit": "UK adults; item-specific worker and carer bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "workers_combining_paid_and_unpaid_care": {"value": 20, "unit": "percent of UK workers, estimated 6.7 million", "value_type": "published_survey_estimate"},
+        "workers_combining_paid_and_unpaid_care_2019": {"value": 15, "unit": "percent of UK workers, estimated 4.9 million in the comparable 2019 survey", "value_type": "published_survey_estimate"},
+        "current_unpaid_care": {"value": 20, "unit": "percent of UK adults, estimated 11 million", "value_type": "published_survey_estimate"},
+        "current_unpaid_care_2019": {"value": 17, "unit": "percent of UK adults, estimated 8.8 million in the comparable 2019 survey", "value_type": "published_survey_estimate"},
+        "scale_mechanism": {"value": "Unpaid care is increasingly present inside working life, making employment continuity a care-system outcome as well as an individual choice.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Opinium online polling for Carers UK, weighted to be nationally representative of UK adults; the report repeats selected 2019 questions.",
+      "uncertainty": "The comparison is repeated cross-sectional self-report, not a panel or administrative time series; population estimates are modelled from survey percentages.",
+      "subgroup": "UK adults, current carers, former carers, and workers currently combining paid work with unpaid care.",
+      "counterinterpretation": "Changes may reflect question wording, awareness, demographic composition, or reporting differences as well as a real increase in caring exposure.",
+      "source_url": "https://www.carersuk.org/reports/balancing-work-and-unpaid-care-a-critical-issue/",
+      "retrieval_hash": "sha256:379008ed40ad07d9bc7e079252f860b49b9851763b5b99db500224c723383079",
+      "status": "reported"
+    },
+    {
+      "period": "July 14-17, 2026; employment adaptations associated with unpaid care",
+      "denominator": {"value": 4000, "unit": "UK adults; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "reduced_hours": {"value": 7.5, "unit": "percent of UK adults, estimated 4.1 million, reporting reduced hours because of caring; about 20% among current carers", "value_type": "published_survey_estimate"},
+        "left_work_at_some_point": {"value": 6, "unit": "percent of UK adults, estimated 3.3 million, reporting giving up work to care; 16% among current carers", "value_type": "published_survey_estimate"},
+        "left_work_last_two_years": {"value": 1100000, "unit": "estimated people who left work to care in the last two years, approximately 1,500 per day", "value_type": "published_population_estimate"},
+        "employment_tipping_point": {"value": "Care pressure converts into a graded employment response: schedule reduction, accumulated strain, or exit, rather than a single work-versus-care decision.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Self-reported retrospective employment consequences from the weighted Opinium survey; the report compares selected estimates with 2019.",
+      "uncertainty": "The survey does not validate employment spells, care intensity, timing, or whether caring was the sole cause of a work change.",
+      "subgroup": "UK adults with current or past unpaid-care experience, including workers currently balancing paid work and care.",
+      "counterinterpretation": "Work changes may also reflect health, redundancy, household income, labour-market conditions, or other life events overlapping with care.",
+      "source_url": "https://www.carersuk.org/reports/balancing-work-and-unpaid-care-a-critical-issue/",
+      "retrieval_hash": "sha256:379008ed40ad07d9bc7e079252f860b49b9851763b5b99db500224c723383079",
+      "status": "reported"
+    },
+    {
+      "period": "July 14-17, 2026; workplace impact and strain",
+      "denominator": {"value": 4000, "unit": "UK adults; employee and current-carer bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "workplace_impact_with_caring_experience": {"value": 59, "unit": "percent of employees with caring experience saying caring impacted their workplace", "value_type": "published_subgroup_estimate"},
+        "workplace_impact_current_carers": {"value": 52, "unit": "percent of current carers saying caring negatively affected employment", "value_type": "published_subgroup_estimate"},
+        "stress_or_tiredness_affecting_work": {"value": 8, "unit": "percent of UK adults; 18% among current carers", "value_type": "published_subgroup_estimate"},
+        "no_reported_work_impact_current_carers": {"value": 28, "unit": "percent of current carers saying care did not affect work", "value_type": "published_subgroup_estimate"},
+        "support_buffer_mechanism": {"value": "Care does not produce one uniform employment outcome; intensity, duration, employer flexibility, formal care, and other support likely shape whether pressure becomes disruption.", "unit": "report interpretation and mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted survey estimates on reported employment effects and stress, with current-carer and caring-experience subgroup comparisons.",
+      "uncertainty": "The report observes variation but does not identify causal effects of employer flexibility, social-care provision, or care intensity.",
+      "subgroup": "Current carers, former carers, and employees with caring experience.",
+      "counterinterpretation": "Respondents may normalize or underreport workplace effects; people retaining employment may differ systematically from those who exited.",
+      "source_url": "https://www.carersuk.org/reports/balancing-work-and-unpaid-care-a-critical-issue/",
+      "retrieval_hash": "sha256:379008ed40ad07d9bc7e079252f860b49b9851763b5b99db500224c723383079",
+      "status": "reported"
+    },
+    {
+      "period": "September 16, 2026; policy conversion proposed by the report",
+      "denominator": {"value": 4000, "unit": "UK adults; advocacy recommendations are not survey estimates", "value_type": "reported_survey_sample"},
+      "measures": {
+        "paid_carers_leave_proposal": {"value": 10, "unit": "days of paid Carer's Leave called for by Carers UK", "value_type": "report_recommendation"},
+        "leave_conversion": {"value": "The report treats unpaid leave as financially unusable for many carers and frames paid leave plus stronger employment rights as a way to keep care from converting into preventable labour-market exit.", "unit": "report advocacy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Policy recommendation from Carers UK based on the polling findings and the organisation's advocacy position; the survey itself does not test policy effects.",
+      "uncertainty": "This is an advocacy proposal, not an experimental estimate of the employment effect of paid leave; the report also includes sponsor-supported material from Standard Life.",
+      "subgroup": "Unpaid carers and employers in the UK policy context.",
+      "counterinterpretation": "Paid leave may shift costs across employers, government, households, and formal-care systems without resolving longer-duration or high-intensity care.",
+      "source_url": "https://www.carersuk.org/reports/balancing-work-and-unpaid-care-a-critical-issue/",
+      "retrieval_hash": "sha256:379008ed40ad07d9bc7e079252f860b49b9851763b5b99db500224c723383079",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.carersuk.org/media/3dsbct4j/cuk-balancing-work-and-unpaid-care_digital.pdf", "claim": "Official report PDF containing the polling methodology, 2019 comparison, employment estimates, subgroup findings, and recommendations.", "status": "official-report-pdf"}
+  ],
+  "boundary": "This record adds a UK employment-continuity route to the atlas: unpaid care becomes a material work and time constraint, with graded consequences from stress and reduced hours to employment exit. It does not establish causality, validate population counts administratively, measure care intensity, or show that paid leave would produce the proposed outcomes. The report is an advocacy publication and includes Standard Life sponsorship context.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Carers UK report page and PDF were reviewed for publication date, Opinium sample and fieldwork, question scope, 2019 comparison, employment consequences, workplace variation, recommendation, sponsorship, and methodological limits.",
+    "source_page_sha256": "sha256:379008ed40ad07d9bc7e079252f860b49b9851763b5b99db500224c723383079",
+    "checked": "2026-09-28"
+  }
+}

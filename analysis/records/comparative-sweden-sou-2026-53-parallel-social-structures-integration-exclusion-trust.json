@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-sweden-sou-2026-53-parallel-social-structures-integration-exclusion-trust",
+  "title": "Swedish inquiry frames social exclusion as an interaction among segregation, institutional distrust, discrimination, alternative systems and constrained individual rights",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "Government of Sweden, SOU 2026:53 Parallella samhällsstrukturer – ett kunskapsunderlag för förbättrad integration och minskat utanförskap",
+  "geography": "Sweden; national policy inquiry with attention to local areas, institutions, migrants, children, women and socially excluded communities",
+  "observations": [
+    {
+      "period": "2026 inquiry definition and analytical frame",
+      "denominator": {"value": 1, "unit": "Swedish government inquiry and 610-page final report", "value_type": "source_document"},
+      "measures": {
+        "composite_problem": {"value": "The inquiry treats ‘parallel social structures’ as a composite problem in which normative systems, power structures, institutional distrust, segregation, social exclusion, discrimination, alternative social systems and sometimes criminality interact.", "unit": "reported analytical framework", "value_type": "reported_framework"},
+        "not_single_group": {"value": "The report explicitly says the phenomenon cannot be understood as one group or as all residents of disadvantaged areas; cultural diversity, religious affiliation and collective organisation remain protected features of an open democracy.", "unit": "reported boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Government-commissioned inquiry synthesising research, official knowledge and stakeholder experience; the report develops a working concept rather than a single prevalence estimate.",
+      "uncertainty": "The inquiry says the term has no generally accepted definition and that the phenomena it combines are difficult to distinguish and measure causally.",
+      "subgroup": "Groups, local communities and institutions experiencing different combinations of integration, exclusion, trust and rights constraints.",
+      "counterinterpretation": "The framework may be useful for coordinating policy domains, but its composite character makes it vulnerable to over-broad labeling unless local evidence and individual rights safeguards are maintained.",
+      "source_url": "https://www.regeringen.se/contentassets/9cfe59cb64b94b9eb76f4e80bf4c9387/parallella-samhallsstrukturer_ett-kunskapsunderlag-for-forbattrad-integration-och-minskat-utanforskap-sou-2026_53.pdf",
+      "retrieval_hash": "sha256:7e8084108ab6bf16f953d7c9d65bcc713d98019ef2adab1082a768290de4c327",
+      "status": "reported"
+    },
+    {
+      "period": "2026 inquiry; trust, segregation, discrimination and institutional inclusion",
+      "denominator": {"value": 1, "unit": "Swedish government inquiry and its cited research base", "value_type": "source_document"},
+      "measures": {
+        "trust_pattern": {"value": "Sweden is generally characterised by high social trust, but trust varies across groups and tends to be lower among foreign-born people; education, health and employment are associated with higher trust.", "unit": "reported research synthesis", "value_type": "reported_pattern"},
+        "institutional_requirement": {"value": "The inquiry calls for public authorities to act lawfully, effectively, impartially and without discrimination, particularly in areas marked by exclusion and low trust.", "unit": "reported governance requirement", "value_type": "reported_policy_route"},
+        "rights_mechanism": {"value": "It describes segregation and discrimination in housing and labour markets as possible contributors to separation from wider society and constrained access to rights.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Synthesis of comparative research, Swedish administrative and policy knowledge, and inquiry analysis; relationships are not estimated as one causal model.",
+      "uncertainty": "The report notes that trust, segregation, socioeconomic disadvantage and discrimination often co-occur, making it difficult to identify which factor is most important in a given setting.",
+      "subgroup": "Foreign-born people, residents of segregated or disadvantaged areas, and people encountering housing, labour-market or public-authority barriers.",
+      "counterinterpretation": "Lower trust among a group may reflect institutional treatment and exclusion as much as internal norms; the report does not justify treating group identity as a causal explanation by itself.",
+      "source_url": "https://www.regeringen.se/contentassets/9cfe59cb64b94b9eb76f4e80bf4c9387/parallella-samhallsstrukturer_ett-kunskapsunderlag-for-forbattrad-integration-och-minskat-utanforskap-sou-2026_53.pdf",
+      "retrieval_hash": "sha256:7e8084108ab6bf16f953d7c9d65bcc713d98019ef2adab1082a768290de4c327",
+      "status": "reported"
+    },
+    {
+      "period": "2026 inquiry; alternative social systems and everyday access to institutions",
+      "denominator": {"value": 1, "unit": "Swedish government inquiry and its qualitative evidence base", "value_type": "source_document"},
+      "measures": {
+        "alternative_routes": {"value": "The report describes informal or alternative routes for conflict resolution, housing allocation, livelihoods, education, information, protection and financial matters.", "unit": "reported system examples", "value_type": "reported_system_link"},
+        "rights_risk": {"value": "These routes become especially problematic when customary or internal rules displace statutory rights or make it harder for people with weak positions within a group to assert their interests.", "unit": "reported rights mechanism", "value_type": "reported_mechanism"},
+        "institutional_legitimacy": {"value": "Reliance on informal leaders, criminal actors or internal networks can weaken the legitimacy and reach of ordinary public institutions.", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Conceptual and empirical synthesis in the inquiry; examples are not a national count of all informal activity or evidence that every community using informal support is harmful.",
+      "uncertainty": "The report distinguishes benign community organisation from systems that restrict fundamental rights, but does not provide a single prevalence measure for each alternative route.",
+      "subgroup": "Women, children, LGBTI people and others with weaker bargaining power inside restrictive family, customary or network structures, as well as residents who lack accessible formal routes.",
+      "counterinterpretation": "Informal community support can fill gaps left by inaccessible or distrusted institutions; the key analytic question is whether it expands or restricts individual agency and rights.",
+      "source_url": "https://www.regeringen.se/contentassets/9cfe59cb64b94b9eb76f4e80bf4c9387/parallella-samhallsstrukturer_ett-kunskapsunderlag-for-forbattrad-integration-och-minskat-utanforskap-sou-2026_53.pdf",
+      "retrieval_hash": "sha256:7e8084108ab6bf16f953d7c9d65bcc713d98019ef2adab1082a768290de4c327",
+      "status": "reported"
+    },
+    {
+      "period": "2026 inquiry; policy response and intergenerational persistence",
+      "denominator": {"value": 1, "unit": "Swedish government inquiry recommendations", "value_type": "source_document"},
+      "measures": {
+        "measurement_gap": {"value": "The inquiry reports no national overview and no single indicator for prevalence, recommending combined indicators that capture rights constraints, institutional distrust, alternative systems, separation and everyday life.", "unit": "reported measurement limitation", "value_type": "reported_data_gap"},
+        "policy_portfolio": {"value": "Recommended action spans governance and follow-up, integration and gender equality, prevention for children and young people, reducing segregation and strengthening excluded areas, and societal resilience.", "unit": "five policy directions", "value_type": "reported_policy_portfolio"},
+        "intergenerational_risk": {"value": "The report warns that without sustained preventive and promotive efforts, restrictive structures may be reproduced across generations, with schools and preschools serving as important institutional sites.", "unit": "reported intergenerational mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Policy inquiry recommendations based on the report’s multi-domain synthesis; these are proposed routes, not evaluated interventions.",
+      "uncertainty": "The recommendations do not establish which interventions will improve integration, trust, gender equality or rights in practice, nor how outcomes should be attributed across national, regional and local actors.",
+      "subgroup": "Children and young people, women, municipalities, schools, public authorities, civil society, businesses, property owners and local communities.",
+      "counterinterpretation": "A multi-domain policy portfolio can improve coordination, but it can also diffuse accountability unless each intervention has clear authority, measures, safeguards and follow-up.",
+      "source_url": "https://www.regeringen.se/contentassets/9cfe59cb64b94b9eb76f4e80bf4c9387/parallella-samhallsstrukturer_ett-kunskapsunderlag-for-forbattrad-integration-och-minskat-utanforskap-sou-2026_53.pdf",
+      "retrieval_hash": "sha256:7e8084108ab6bf16f953d7c9d65bcc713d98019ef2adab1082a768290de4c327",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://government.se/press-releases/2026/09/parallel-social-structures-affect-integration-and-social-exclusion/", "claim": "Official English government summary of the inquiry’s framing and five policy areas."},
+    {"source_url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2026/08/sou-202653/", "claim": "Official Swedish report landing page and publication metadata."}
+  ],
+  "boundary": "This record treats SOU 2026:53 as a government inquiry and policy knowledge base, not as a neutral prevalence census or a causal evaluation. Its politically charged term ‘parallel social structures’ has no generally accepted definition; the report itself stresses interaction among exclusion, discrimination, trust, segregation, alternative systems and rights constraints, and warns against equating all cultural, religious or migrant communities with the phenomenon.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 610-page PDF and government English summary were reviewed, especially the English summary pages 35-49 for definitions, measurement limits, trust, alternative systems, rights boundaries, intergenerational risks and policy recommendations.",
+    "source_url_sha256": "sha256:7e8084108ab6bf16f953d7c9d65bcc713d98019ef2adab1082a768290de4c327",
+    "checked": "2026-09-27"
+  }
+}

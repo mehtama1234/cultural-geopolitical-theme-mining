@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-finland-life-course-wellbeing-2026-intergenerational-loneliness",
+  "title": "Strong national well-being can coexist with an intergenerational gradient in work, mental health, and social connection",
+  "theme_ids": ["work", "time", "cost", "voice", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD, Well-being along the life course in Finland: Implications for forward-looking policy design",
+  "geography": "Finland, benchmarked against OECD countries and examined across young, middle-aged, and older life stages",
+  "observations": [
+    {
+      "period": "2026; Finland's life-course well-being profile",
+      "denominator": {"value": 1, "unit": "Finland national well-being assessment", "value_type": "country_assessment_frame"},
+      "measures": {
+        "aggregate_pattern": {"value": "Finland performs strongly on many well-being dimensions, but aggregate strength masks an intergenerational gradient", "unit": "reported national pattern", "value_type": "reported_pattern"},
+        "younger_adults": {"value": "younger people face rising unemployment, declining PISA performance, and deteriorating subjective well-being after the pandemic", "unit": "reported life-course pattern", "value_type": "reported_pattern"},
+        "policy_logic": {"value": "forward-looking policy should target life-stage-specific risks instead of relying on national averages", "unit": "reported policy direction", "value_type": "reported_policy_direction"}
+      },
+      "method": "OECD multidimensional well-being assessment combining aggregate indicators, peer benchmarking, life-course breakdowns, and forward-looking policy analysis.",
+      "uncertainty": "This is a 65-page OECD working paper and descriptive policy analysis; it does not establish causal effects or show that the Finland pattern transfers unchanged to other countries.",
+      "subgroup": "Young people, middle-aged adults, older adults, women and men, workers, caregivers, and people experiencing loneliness or mental-health difficulty.",
+      "counterinterpretation": "Strong national outcomes remain real; the finding is about distribution, sustainability, and changing exposure to risk across life stages rather than a claim that Finland is broadly failing.",
+      "source_url": "https://www.oecd.org/en/publications/well-being-along-the-life-course-in-finland_4bddb2df-en.html",
+      "retrieval_hash": "sha256:042a130f3a62941dd89ca51c6586795836fe316e2409cba4935b31cda0b9a13f",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2026; work, gender, and transition pressure",
+      "denominator": {"value": 1, "unit": "Finland life-course labor and unpaid-work frame", "value_type": "life_course_frame"},
+      "measures": {
+        "middle_aged_men": {"value": "employment among middle-aged men has declined markedly since 2019, among the largest such declines in the OECD", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "women_unpaid_work": {"value": 1.4, "unit": "ratio of women's unpaid work to men's unpaid work", "value_type": "reported_ratio"},
+        "young_transition": {"value": "recent graduates face rising unemployment alongside weaker educational and mental-health outcomes", "unit": "reported transition pattern", "value_type": "reported_pattern"},
+        "mental_health": {"value": "mental-health outcomes for young and middle-aged Finns are worse than those of comparable peers", "unit": "reported comparative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Life-course comparison of employment, unpaid work, education, mental health, and transition indicators within OECD benchmarking.",
+      "uncertainty": "The paper identifies overlapping pressures but does not decompose the relative contributions of labor demand, education, gender norms, family policy, housing, or post-pandemic effects.",
+      "subgroup": "Middle-aged men, women with unpaid-care responsibilities, recent graduates, young workers, and people outside secure employment.",
+      "counterinterpretation": "Some employment and unpaid-work differences may reflect life-stage choices or measurement conventions; the policy issue is constrained choice and unequal exposure, not a presumption that all group differences are harmful.",
+      "source_url": "https://www.oecd.org/en/publications/well-being-along-the-life-course-in-finland_4bddb2df-en.html",
+      "retrieval_hash": "sha256:042a130f3a62941dd89ca51c6586795836fe316e2409cba4935b31cda0b9a13f",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2026; loneliness and social isolation across age groups",
+      "denominator": {"value": 1, "unit": "Finland population social-connection frame benchmarked to OECD peers", "value_type": "country_comparison_frame"},
+      "measures": {
+        "population_direction": {"value": "loneliness and social isolation increased across all age groups since 2018", "unit": "reported direction", "value_type": "reported_pattern"},
+        "older_adults": {"value": "people aged 50 and over saw the largest deterioration, with adults aged 75 and over the most isolated and lonely", "unit": "reported age pattern", "value_type": "reported_pattern"},
+        "young_people": {"value": "young Finns report loneliness at nearly twice the OECD youth average, although levels may be stabilizing after the pandemic peak", "unit": "reported comparative pattern", "value_type": "reported_comparison"},
+        "policy_implication": {"value": "social connection should be treated as prevention and social investment across the life course", "unit": "reported policy direction", "value_type": "reported_policy_direction"}
+      },
+      "method": "OECD analysis of social-connection indicators by age and comparison with OECD averages, linked to prevention and social-investment policy framing.",
+      "uncertainty": "Loneliness and isolation measures capture related but distinct experiences; the paper does not estimate a causal effect of any single service or community intervention.",
+      "subgroup": "Young people, adults aged 50 and over, adults aged 75 and over, people living alone, and groups with limited access to social support.",
+      "counterinterpretation": "Reported loneliness may partly reflect changing norms and disclosure; post-pandemic stabilization would not erase the longer-term deterioration or its unequal distribution.",
+      "source_url": "https://www.oecd.org/en/publications/well-being-along-the-life-course-in-finland_4bddb2df-en.html",
+      "retrieval_hash": "sha256:042a130f3a62941dd89ca51c6586795836fe316e2409cba4935b31cda0b9a13f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; demographic and fiscal capacity constraints",
+      "denominator": {"value": 1, "unit": "Finland demographic and public-finance context", "value_type": "structural_assessment_frame"},
+      "measures": {
+        "old_age_dependency": {"value": 40, "unit": "approximate old-age dependency ratio in 2024", "value_type": "reported_share"},
+        "fertility": {"value": 1.3, "unit": "births per woman in 2024", "value_type": "reported_rate"},
+        "social_spending": {"value": "pension, health, and long-term-care spending doubled between 2009 and 2022", "unit": "reported spending change", "value_type": "reported_change"},
+        "capacity_pressure": {"value": "aging, debt, defense needs, AI and digitalization create competing demands on future policy capacity", "unit": "reported structural context", "value_type": "reported_context"}
+      },
+      "method": "OECD demographic, public-finance, social-spending, and forward-looking policy-capacity assessment.",
+      "uncertainty": "The fiscal figures describe pressure and trade-offs, not a forecast of insolvency or a quantified estimate of the effect of any specific reform.",
+      "subgroup": "Older adults, working-age taxpayers, families, caregivers, public-service users, and future cohorts affected by demographic and fiscal choices.",
+      "counterinterpretation": "Demographic pressure can also accelerate productivity, prevention, migration, and service redesign; the report frames capacity as a policy challenge rather than a predetermined decline.",
+      "source_url": "https://www.oecd.org/en/publications/well-being-along-the-life-course-in-finland_4bddb2df-en.html",
+      "retrieval_hash": "sha256:042a130f3a62941dd89ca51c6586795836fe316e2409cba4935b31cda0b9a13f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/well-being-along-the-life-course-in-finland_435c6448/4bddb2df-en.pdf", "claim": "Official 65-page OECD working paper PDF used for life-course, loneliness, labor, demographic, and policy-capacity details."},
+    {"source_url": "https://doi.org/10.1787/4bddb2df-en", "claim": "Official OECD DOI and publication citation."}
+  ],
+  "boundary": "This record adds a comparative advanced-economy route showing how strong aggregate well-being can coexist with age-specific labor, mental-health, loneliness, gender, and fiscal pressures. It is not a causal evaluation, a respondent-level study, or proof that Finland's policy mix generalizes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page and 65-page report PDF were reviewed for intergenerational well-being, employment, unpaid work, mental health, loneliness, social isolation, demographic change, social spending, and forward-looking policy capacity.",
+    "source_url_sha256": "sha256:042a130f3a62941dd89ca51c6586795836fe316e2409cba4935b31cda0b9a13f",
+    "checked": "2026-09-28"
+  }
+}

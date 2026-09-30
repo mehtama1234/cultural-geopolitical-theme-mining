@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-walton-genz-school-engagement-2026-belonging-future-confidence",
+  "title": "Students’ future confidence is strongly associated with meaningful schoolwork, teacher recognition, belonging and individualized support",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Walton Family Foundation–Gallup Voices of Gen Z Study, Engaged Students More Confident in Their Post-High School Future",
+  "geography": "United States; middle- and high-school students aged 14–19",
+  "observations": [
+    {
+      "period": "May 22–June 9, 2026; U.S. Gen Z students aged 14–19",
+      "denominator": {"value": 1758, "unit": "U.S. students aged 14–19 responding to a web survey", "value_type": "reported_sample"},
+      "measures": {
+        "future_preparedness": {"value": 60, "unit": "percent agreeing they feel prepared for the future", "value_type": "reported_share"},
+        "historical_baseline": {"value": 43, "unit": "percent agreeing they felt prepared in the 2023 first survey", "value_type": "reported_share"},
+        "school_interest_gap": {"value": "More than four in ten say school usually does not feel interesting or like a good fit for their talents", "unit": "reported survey finding", "value_type": "reported_share_approximate"}
+      },
+      "method": "Walton Family Foundation–Gallup annual web survey of 14–19-year-old Gen Z students, with comparisons to prior annual waves.",
+      "uncertainty": "The survey is cross-sectional in each wave and the article reports association, not a causal effect of engagement on future preparedness; year comparisons may include sample and context changes.",
+      "subgroup": "U.S. middle- and high-school students aged 14–19, with comparisons by postgraduation plans and engagement level.",
+      "counterinterpretation": "Preparedness may influence how students perceive school engagement, or both may reflect family, socioeconomic, school and community conditions; the findings do not isolate teacher or curriculum effects.",
+      "source_url": "https://news.gallup.com/poll/713831/engaged-students-confident-post-high-school-future.aspx",
+      "retrieval_hash": "sha256:feffeff48499bb1414d9a84bddb84f8aa9871cda2f7ee73a0126273133260ade",
+      "status": "reported"
+    },
+    {
+      "period": "May 22–June 9, 2026; school-engagement index comparison",
+      "denominator": {"value": 1758, "unit": "U.S. students aged 14–19", "value_type": "reported_sample"},
+      "measures": {
+        "high_engagement_prepared": {"value": 81, "unit": "percent of students reporting 10 or more of 12 engaging school experiences who feel prepared for the future", "value_type": "reported_share"},
+        "low_engagement_prepared": {"value": 27, "unit": "percent of students reporting three or fewer engaging experiences who feel prepared for the future", "value_type": "reported_share"},
+        "engagement_gradient": {"value": "The high-engagement preparedness share is three times the low-engagement share", "unit": "reported association", "value_type": "reported_difference"}
+      },
+      "method": "Composite engagement measure covering relevance and interest of coursework, challenge, teacher and peer connection, belonging, recognition and future support.",
+      "uncertainty": "The 12-experience index is an analytical grouping, not a randomized intervention or validated causal scale; unmeasured student and school characteristics may explain part of the gradient.",
+      "subgroup": "Students grouped by number of reported engaging school experiences.",
+      "counterinterpretation": "Highly engaged students may have stronger prior preparation, support or confidence that independently predicts future preparedness; the result should guide mechanism hypotheses rather than prove a school-program effect.",
+      "source_url": "https://news.gallup.com/poll/713831/engaged-students-confident-post-high-school-future.aspx",
+      "retrieval_hash": "sha256:feffeff48499bb1414d9a84bddb84f8aa9871cda2f7ee73a0126273133260ade",
+      "status": "reported"
+    },
+    {
+      "period": "May 22–June 9, 2026; belonging and individualized adult support",
+      "denominator": {"value": 1758, "unit": "U.S. students aged 14–19", "value_type": "reported_sample"},
+      "measures": {
+        "school_belonging": {"value": 67, "unit": "percent agreeing school is a place where they feel they belong", "value_type": "reported_share"},
+        "school_fit": {"value": 55, "unit": "percent agreeing their school feels like the perfect place for students like them", "value_type": "reported_share"},
+        "teacher_checkin": {"value": 71, "unit": "percent agreeing a teacher or adult regularly checks in on how they are doing", "value_type": "reported_share"},
+        "teacher_recognition": {"value": 70, "unit": "percent agreeing adults at school recognize their individual talents and interests", "value_type": "reported_share"}
+      },
+      "method": "Survey measures on belonging, teacher/adult relationships, recognition, goals and wellbeing support.",
+      "uncertainty": "Reported relationships and belonging are subjective perceptions and do not measure staff behavior, school climate through observation, or later attainment and retention.",
+      "subgroup": "U.S. students aged 14–19, including students with different engagement and postgraduation plans.",
+      "counterinterpretation": "Students may form belonging judgments from broader identity and peer experiences, not only adult support; a supportive teacher relationship may be necessary but insufficient for institutional fit.",
+      "source_url": "https://news.gallup.com/poll/713831/engaged-students-confident-post-high-school-future.aspx",
+      "retrieval_hash": "sha256:feffeff48499bb1414d9a84bddb84f8aa9871cda2f7ee73a0126273133260ade",
+      "status": "reported"
+    },
+    {
+      "period": "May 22–June 9, 2026; college-bound versus non-college-bound students",
+      "denominator": {"value": 1758, "unit": "U.S. students aged 14–19, compared by stated postgraduation plans", "value_type": "reported_sample"},
+      "measures": {
+        "college_bound_prepared": {"value": 68, "unit": "percent of students planning two- or four-year college who feel prepared for the future", "value_type": "reported_share"},
+        "noncollege_prepared": {"value": 50, "unit": "percent of students not planning college who feel prepared for the future", "value_type": "reported_share"},
+        "positive_challenge_gap": {"value": "45% of non-college-bound students versus 67% of college-bound students say schoolwork challenges them in a good way", "unit": "percent", "value_type": "reported_difference"},
+        "belonging_gap": {"value": "59% of non-college-bound students versus 71% of college-bound students feel they belong at school", "unit": "percent", "value_type": "reported_difference"}
+      },
+      "method": "Subgroup comparison by stated postsecondary plans across engagement, belonging, teacher support and preparedness measures.",
+      "uncertainty": "Postgraduation plans are self-reported and may be correlated with socioeconomic status, achievement, school tracking and family expectations; the survey does not identify the institutional source of the gap.",
+      "subgroup": "Students planning versus not planning to attend a two- or four-year college.",
+      "counterinterpretation": "The gap may reflect different pathways and expectations rather than a single failure of school relevance; career and technical pathways could require different forms of engagement that the index does not fully capture.",
+      "source_url": "https://news.gallup.com/poll/713831/engaged-students-confident-post-high-school-future.aspx",
+      "retrieval_hash": "sha256:feffeff48499bb1414d9a84bddb84f8aa9871cda2f7ee73a0126273133260ade",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/651674/gen-z-research.aspx", "claim": "Walton Family Foundation–Gallup research hub describing the annual Gen Z study and related reports."},
+    {"source_url": "https://www.waltonfamilyfoundation.org/learning/knowledge-center", "claim": "Foundation knowledge-center context for the 2026 student engagement findings."}
+  ],
+  "boundary": "This record adds a U.S. education-and-belonging layer: future confidence is patterned with meaningful schoolwork, teacher recognition, individualized support and belonging, with a notable gap for students not planning college. It is a sponsored cross-sectional web survey and association analysis, not respondent-level longitudinal data, a causal school evaluation, an achievement measure, a clinical assessment or proof that one intervention will close the gap.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup publication page was retrieved and reviewed for sample, field dates, preparedness trend, engagement gradient, belonging, teacher support and college-plan subgroup findings; the HTML was hashed.",
+    "source_url_sha256": "sha256:feffeff48499bb1414d9a84bddb84f8aa9871cda2f7ee73a0126273133260ade",
+    "checked": "2026-09-27"
+  }
+}

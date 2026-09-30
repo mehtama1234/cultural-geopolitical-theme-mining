@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-middle-east-conflict-health-systems-2026-displacement-continuity",
+  "title": "Conflict is producing a compound health-systems crisis through displacement, infrastructure damage, access restrictions, supply gaps, and interrupted continuity of care",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "World Health Organization, Middle East Escalation of Conflict, Global external situation report No. 11, data as of 14 September 2026",
+  "geography": "Conflict-affected countries in the WHO Eastern Mediterranean and European regions, including Iran, Lebanon, Iraq, Israel, Yemen, and related regional spillover risks",
+  "observations": [
+    {
+      "period": "Data as of 14 September 2026; selected affected countries",
+      "denominator": {"value": 5, "unit": "countries with selected displacement, injury, death, or health-system indicators in the report table", "value_type": "reported_country_frame"},
+      "measures": {
+        "reported_displacement": {"value": "333 in Lebanon and 77,798 in Yemen in the report’s selected country table; Iran and Iraq marked N/A", "unit": "reported displaced people, country-specific estimates", "value_type": "reported_estimate"},
+        "reported_injuries": {"value": "33,806 in Iran; 12,406 in Lebanon; 2,379 in Yemen; 300 in Iraq; 9,067 in Israel", "unit": "reported injuries, country-specific cumulative estimates", "value_type": "reported_estimate"},
+        "reported_deaths": {"value": "3,375 in Iran; 4,383 in Lebanon; 504 in Yemen; 109 in Iraq; 26 in Israel", "unit": "reported deaths, country-specific cumulative estimates", "value_type": "reported_estimate"}
+      },
+      "method": "WHO situation-report compilation using country reporting and operational updates; data cutoff is 14 September 2026 and country estimates may differ from other sources or be revised.",
+      "uncertainty": "The report explicitly notes differing data cutoffs, incomplete reporting, delayed verification, and possible upward or downward revision; figures are not a harmonized conflict mortality or displacement census.",
+      "subgroup": "Civilians, displaced households, injured people, patients with chronic or acute conditions, health workers, and communities in conflict-affected or return areas.",
+      "counterinterpretation": "Reported totals document exposure but do not alone establish service access, household coping, mortality attribution, or the relative contribution of conflict, infrastructure, disease, or underfunding.",
+      "source_url": "https://www.who.int/publications/m/item/middle-east-escalation-of-conflict--global-external-situation-report--11---15-september-2026",
+      "retrieval_hash": "sha256:28a4de97bab065132b375194da3357ab8017b375686a2c6bacf7e8bedb95bb81",
+      "status": "reported"
+    },
+    {
+      "period": "Data as of 14 September 2026; attacks and infrastructure impacts on health care",
+      "denominator": {"value": 4, "unit": "countries with reported WHO-verified attacks on health care in the table", "value_type": "reported_country_frame"},
+      "measures": {
+        "verified_attacks": {"value": "27 in Iran, 215 in Lebanon, 9 in Israel, and 1 in Yemen", "unit": "WHO-verified attacks on health care", "value_type": "reported_count"},
+        "lebanon_closed_facilities": {"value": "21 primary health-care centers and 3 hospitals remain closed in conflict-affected areas", "unit": "reported closed supported facilities", "value_type": "reported_count"},
+        "lebanon_damaged_hospitals": {"value": "17 hospitals damaged, including the three that remain closed", "unit": "reported damaged hospitals", "value_type": "reported_count"}
+      },
+      "method": "WHO Surveillance System for Attacks on Health Care and country operational reporting, with verification and consolidation caveats retained.",
+      "uncertainty": "WHO notes delays in verification and changes as data are consolidated; facility closure and damage status can change with access, repair, security, and reporting.",
+      "subgroup": "Patients, health workers, primary-care users, hospitals, clinics, referral networks, and communities relying on local facilities in conflict and return areas.",
+      "counterinterpretation": "Facility closure does not mean all care stops, since referral, outreach, temporary structures, repairs, and adjusted staffing can preserve some services while increasing travel, waiting, and access burdens.",
+      "source_url": "https://cdn.who.int/media/docs/default-source/middle-east-situation-report/middle-east-conflict-global-situation-report-15-september-2026.pdf?download=true&sfvrsn=afb72b2b_6",
+      "retrieval_hash": "sha256:28a4de97bab065132b375194da3357ab8017b375686a2c6bacf7e8bedb95bb81",
+      "status": "reported"
+    },
+    {
+      "period": "Data as of 14 September 2026; system and household continuity pressures",
+      "denominator": {"value": 1, "unit": "reported compound health-system disruption frame", "value_type": "reported_system_assessment"},
+      "measures": {
+        "infrastructure_disruptions": {"value": "power and water damage disrupted hospital continuity, vaccine and medicine cold chains, safe drinking water, and sanitation-related readiness in affected areas of Iran", "unit": "reported disruption pathways", "value_type": "reported_mechanism"},
+        "medicine_pressure": {"value": "shortages and significant price increases were reported for some imported or branded medicines, with particular implications for cancer, chronic-disease, and other NCD patients", "unit": "reported access and affordability pressure", "value_type": "reported_assessment"},
+        "yemen_reproductive_need": {"value": "approximately 240 pregnant women were reported to need immediate access to lifesaving reproductive-health services", "unit": "reported urgent need estimate", "value_type": "reported_estimate"}
+      },
+      "method": "WHO country situation and operational reporting linking conflict, infrastructure damage, supply chains, access, displacement, disease, and continuity of care.",
+      "uncertainty": "The report provides operational snapshots rather than a full population denominator, causal decomposition, or repeated household-level measurement of cost, delay, substitution, and treatment outcome.",
+      "subgroup": "Patients needing chronic, cancer, maternal, reproductive, mental-health, trauma, or infectious-disease services; displaced families; pregnant women; and households facing medicine-price increases.",
+      "counterinterpretation": "Emergency deliveries, generators, alternate facilities, and outreach can mitigate disruption, but mitigation may be temporary, geographically uneven, or unable to replace routine and specialized care.",
+      "source_url": "https://cdn.who.int/media/docs/default-source/middle-east-situation-report/middle-east-conflict-global-situation-report-15-september-2026.pdf?download=true&sfvrsn=afb72b2b_6",
+      "retrieval_hash": "sha256:28a4de97bab065132b375194da3357ab8017b375686a2c6bacf7e8bedb95bb81",
+      "status": "reported"
+    },
+    {
+      "period": "Data as of 14 September 2026; response capacity and funding",
+      "denominator": {"value": 1, "unit": "WHO regional emergency appeal", "value_type": "reported_appeal_frame"},
+      "measures": {
+        "appeal": {"value": "US$30.3 million", "unit": "WHO emergency appeal for health operations across five countries", "value_type": "reported_appeal"},
+        "funding_received": {"value": "US$15.6 million, or 50%", "unit": "reported funding received against the appeal", "value_type": "reported_share"},
+        "response_routes": {"value": "logistics, air charters, trauma and intensive-care supplies, NCD and mental-health supplies, generators, preparedness, and emergency repairs", "unit": "reported operational response set", "value_type": "reported_response"}
+      },
+      "method": "WHO operational update and emergency-appeal reporting within the situation report.",
+      "uncertainty": "Funding received is a snapshot at the report date and does not measure disbursement timing, procurement completion, delivery, utilization, or outcome.",
+      "subgroup": "WHO country offices, ministries of health, health facilities, humanitarian partners, donors, and populations dependent on externally supported essential services.",
+      "counterinterpretation": "An underfunded appeal indicates resource constraint but does not by itself show that every planned intervention is unavailable or that funding is the only operational bottleneck.",
+      "source_url": "https://cdn.who.int/media/docs/default-source/middle-east-situation-report/middle-east-conflict-global-situation-report-15-september-2026.pdf?download=true&sfvrsn=afb72b2b_6",
+      "retrieval_hash": "sha256:28a4de97bab065132b375194da3357ab8017b375686a2c6bacf7e8bedb95bb81",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/emergencies/situations/middle-east-conflict", "claim": "WHO’s Middle East conflict emergency page provides the broader situation and response context."},
+    {"source_url": "https://extranet.who.int/ssa/Index.aspx", "claim": "WHO Surveillance System for Attacks on Health Care provides the attack-verification context cited in the report."}
+  ],
+  "boundary": "This record adds a realized conflict-health systems signal linking casualties, displacement, attacks on health care, damaged power and water infrastructure, supply chains, medicine affordability, service continuity, emergency response, and funding. It is a dated WHO situation report with country-reported estimates, not a harmonized conflict census, causal attribution, beneficiary-level panel, complete service-availability map, or outcome evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO publication page and three-page PDF were reviewed for the 14 September data cutoff, country estimates, attacks on health care, facility closures and damage, infrastructure and medicine pressures, reproductive-health need, response routes, and appeal funding; reported estimates and operational claims were kept distinct from causal conclusions.",
+    "source_url_sha256": "sha256:28a4de97bab065132b375194da3357ab8017b375686a2c6bacf7e8bedb95bb81",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-creative-australia-national-arts-participation-2025-cultural-background-cost",
+  "title": "Australian arts participation is culturally connective but increasingly cost-constrained",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Creative Australia, Creative Transformations: Results of the National Arts Participation Survey 2025",
+  "geography": "Australia; nationally representative survey of people aged 15 years and over",
+  "observations": [
+    {
+      "period": "2025 compared with 2022; cultural-background arts engagement",
+      "denominator": {
+        "value": 9065,
+        "unit": "Australians aged 15 years and over in the nationally representative National Arts Participation Survey 2025 sample",
+        "value_type": "publisher_reported_survey_sample"
+      },
+      "measures": {
+        "own_cultural_background_engagement_2025": {
+          "value": 40,
+          "unit": "percent participating in the arts to engage with their own cultural background, language group, or community in 2025",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "own_cultural_background_engagement_2022": {
+          "value": 32,
+          "unit": "percent participating in the arts to engage with their own cultural background, language group, or community in 2022",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "engagement_change": {
+          "value": 8,
+          "unit": "percentage-point increase from 2022 to 2025",
+          "value_type": "calculated_difference_from_published_values"
+        },
+        "mechanism": {
+          "value": "Arts participation is not only attendance or generic entertainment: a growing share reports using arts and creativity to connect with cultural background, language group, or community",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025, a nationally representative survey of Australians aged 15 years and over, with comparison to the 2022 survey wave.",
+      "uncertainty": "The measure is self-reported and publisher-defined; it does not identify migrant status, country of birth, specific cultural group, frequency, venue, spending, or whether the increase reflects true population change, survey mode, wording, or sample composition.",
+      "subgroup": "All surveyed Australians aged 15 years and over; the public summary reports the cultural-background measure without a complete country-of-birth or visa-stream cross-tab.",
+      "counterinterpretation": "The rise may reflect wider recognition or reporting of cultural connection rather than more frequent arts practice, and the category can include heritage, language, or community identities beyond migration status.",
+      "source_url": "https://www.creative.gov.au/news-events/news/more-australians-attending-arts-ever-cost-growing-barrier",
+      "retrieval_hash": "sha256:02dd390a2cf5b595396d6029137342632aaa6aaa3948e7824f8442097ee42a87",
+      "status": "reported"
+    },
+    {
+      "period": "2025; live arts attendance and cost conversion",
+      "denominator": {
+        "value": 9065,
+        "unit": "Australians aged 15 years and over in the nationally representative National Arts Participation Survey 2025 sample",
+        "value_type": "publisher_reported_survey_sample"
+      },
+      "measures": {
+        "live_arts_attendance": {
+          "value": 74,
+          "unit": "percent attending at least one live arts event or festival in the previous year",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "cost_main_barrier": {
+          "value": 60,
+          "unit": "percent identifying tickets or entry costs as the biggest barrier to attending arts events",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "missed_due_to_cost": {
+          "value": 55,
+          "unit": "percent reporting that they missed arts events they wanted to attend because of cost",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "mechanism": {
+          "value": "High headline attendance coexists with a large cost-to-conversion gap: cultural value and desire do not guarantee realized attendance when entry prices constrain choice",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025 summary estimates for live arts attendance, perceived barriers, and missed attendance due to cost.",
+      "uncertainty": "The survey does not reveal household income, ticket category, event frequency, completed purchase records, substitution to free or digital activities, or subgroup-specific cost burdens in the public summary.",
+      "subgroup": "Australians aged 15 years and over; attendance and cost measures are population aggregates rather than migrant-specific estimates.",
+      "counterinterpretation": "Cost may be reported as the biggest barrier because of preference, timing, transport, caregiving, health, or competing priorities; missed events are not a verified transaction or welfare measure.",
+      "source_url": "https://www.creative.gov.au/news-events/news/more-australians-attending-arts-ever-cost-growing-barrier",
+      "retrieval_hash": "sha256:02dd390a2cf5b595396d6029137342632aaa6aaa3948e7824f8442097ee42a87",
+      "status": "reported"
+    },
+    {
+      "period": "2025 compared with 2022; arts education and later-life engagement",
+      "denominator": {
+        "value": 9065,
+        "unit": "Australians aged 15 years and over in the nationally representative National Arts Participation Survey 2025 sample; education-exposure subgroups are separate survey groups",
+        "value_type": "publisher_reported_survey_sample"
+      },
+      "measures": {
+        "attendance_with_school_arts_education": {
+          "value": 80,
+          "unit": "percent attending arts events among adults taught an art form during school years",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "attendance_without_school_arts_education": {
+          "value": 58,
+          "unit": "percent attending arts events among adults not taught an art form during school years",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "creating_with_school_arts_education": {
+          "value": 50,
+          "unit": "percent creating art among adults taught an art form during school years",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "creating_without_school_arts_education": {
+          "value": 22,
+          "unit": "percent creating art among adults not taught an art form during school years",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Cultural participation appears to carry an accumulated capability pathway: early arts education is associated with later attendance and creative practice, alongside current cost barriers",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia cross-sectional National Arts Participation Survey 2025 comparison of adults reporting school-age arts education and those not reporting it.",
+      "uncertainty": "The comparison is observational and does not establish that school arts education caused later participation; family resources, school quality, selection, local supply, education, and prior interest may influence both.",
+      "subgroup": "Adults with and without reported school-age arts education; the public summary does not cross-classify this result with migrant status, income, disability, or region.",
+      "counterinterpretation": "Arts education may be a marker for broader household cultural capital, school opportunity, parental support, or continuing access rather than an isolated causal treatment.",
+      "source_url": "https://www.creative.gov.au/news-events/news/more-australians-attending-arts-ever-cost-growing-barrier",
+      "retrieval_hash": "sha256:02dd390a2cf5b595396d6029137342632aaa6aaa3948e7824f8442097ee42a87",
+      "status": "reported"
+    },
+    {
+      "period": "2025; AI-assisted creative practice and audience authenticity expectations",
+      "denominator": {
+        "value": 9065,
+        "unit": "Australians aged 15 years and over in the nationally representative National Arts Participation Survey 2025 sample",
+        "value_type": "publisher_reported_survey_sample"
+      },
+      "measures": {
+        "ai_creation_or_idea_use": {
+          "value": 40,
+          "unit": "percent reporting use of AI tools to create art or generate ideas",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "ai_creative_use_disclosure_importance": {
+          "value": 82,
+          "unit": "percent saying AI use in creative works should be disclosed",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "ai_creativity_concern": {
+          "value": 93,
+          "unit": "percent with at least one concern about AI and creativity",
+          "value_type": "publisher_reported_survey_share"
+        },
+        "mechanism": {
+          "value": "Creative AI adoption and creative legitimacy are moving together but not in the same direction: people may use AI while demanding provenance and disclosure from the cultural products they encounter",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025 summary estimates for AI use in creative activity and attitudes toward disclosure and AI-related concerns.",
+      "uncertainty": "The public summary does not distinguish generative tools, frequency, task depth, output publication, paid consumption, creator income, or subgroup patterns; reported concerns and disclosure preferences are not observed enforcement or audience behavior.",
+      "subgroup": "Australians aged 15 years and over; population-level estimates without migrant, income, age, or arts-sector cross-tabs in the public summary.",
+      "counterinterpretation": "AI may be used for experimentation, brainstorming, accessibility, or low-stakes play without displacing human creation; disclosure demand may reflect general transparency norms rather than rejection of AI-assisted art.",
+      "source_url": "https://www.creative.gov.au/news-events/news/more-australians-attending-arts-ever-cost-growing-barrier",
+      "retrieval_hash": "sha256:02dd390a2cf5b595396d6029137342632aaa6aaa3948e7824f8442097ee42a87",
+      "status": "reported"
+    },
+    {
+      "period": "2025; general-sample CALD creative participation",
+      "denominator": {
+        "value": 1538,
+        "unit": "CALD respondents in the general-population National Arts Participation Survey sample; CALD status was self-identified and this subgroup was part of the overall 9,065 sample",
+        "value_type": "publisher_reported_subgroup_sample"
+      },
+      "measures": {
+        "cald_creative_participation": {
+          "value": 51,
+          "unit": "percent of CALD respondents creating, producing, or collaborating in the making of art in 2025",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "overall_creative_participation": {
+          "value": 39,
+          "unit": "percent of Australians in the general population sample creating, producing, or collaborating in the making of art in 2025",
+          "value_type": "publisher_reported_population_share"
+        },
+        "cald_creative_participation_gap": {
+          "value": 12,
+          "unit": "percentage-point difference between general-sample CALD respondents and the overall Australian estimate",
+          "value_type": "calculated_difference_from_published_values"
+        },
+        "mechanism": {
+          "value": "Current CALD respondents are not only an access-risk group: they show higher reported creative-making participation than the overall population, so cultural inclusion must distinguish participation agency from attendance and cost barriers",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025 subgroup analysis using the general-population sample; CALD is self-identified and the report notes that no standardized definition fully captures cultural diversity.",
+      "uncertainty": "This is a cross-sectional self-report comparison and does not establish causal effects of CALD identity, language, migration, community infrastructure, or arts policy; the subgroup may differ from the total population in age, education, income, urban location, and survey response.",
+      "subgroup": "Self-identified CALD respondents in the general population survey, n=1,538, compared with the overall Australian estimate; this is not a country-of-birth or visa-stream measure.",
+      "counterinterpretation": "Higher creative participation may reflect cultural practice, community activity, age composition, targeted recruitment, or different meanings of art-making rather than uniformly greater access or wellbeing.",
+      "source_url": "https://creative.gov.au/sites/creative-australia/files/documents/2026-06/National%20Arts%20Participation%20Survey%20Results%202025_FA%20TAGGED_0.pdf",
+      "retrieval_hash": "sha256:de50df434c7390069565d6e6bc6a1eb8cd4d6ce470c98b2825fdc309edb0cd68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; CALD creative participation by art form",
+      "denominator": {
+        "value": 1538,
+        "unit": "CALD respondents in the general-population National Arts Participation Survey sample; non-CALD comparison respondents are a separate subgroup",
+        "value_type": "publisher_reported_subgroup_sample"
+      },
+      "measures": {
+        "music_creation_cald": {
+          "value": 28,
+          "unit": "percent of CALD respondents creating music",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "music_creation_non_cald": {
+          "value": 15,
+          "unit": "percent of non-CALD respondents creating music",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "dance_participation_cald": {
+          "value": 21,
+          "unit": "percent of CALD respondents participating in dance",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "dance_participation_non_cald": {
+          "value": 9,
+          "unit": "percent of non-CALD respondents participating in dance",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "theatre_participation_cald": {
+          "value": 15,
+          "unit": "percent of CALD respondents participating in theatre",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "theatre_participation_non_cald": {
+          "value": 7,
+          "unit": "percent of non-CALD respondents participating in theatre",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "creative_writing_cald": {
+          "value": 19,
+          "unit": "percent of CALD respondents producing creative writing",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "creative_writing_non_cald": {
+          "value": 11,
+          "unit": "percent of non-CALD respondents producing creative writing",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "mechanism": {
+          "value": "The CALD difference is form-specific but consistently visible across music, dance, theatre, and creative writing, indicating active cultural production rather than only passive audience attendance",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025 general-sample comparisons of self-identified CALD and non-CALD respondents across selected creative forms.",
+      "uncertainty": "The measures are self-reported, cross-sectional, and not adjusted here for age, education, income, language, ethnicity, migration generation, or cultural practice outside the survey's definitions; they do not establish causal inclusion or professional creative work.",
+      "subgroup": "Self-identified CALD and non-CALD respondents in the general population survey; CALD is a broad identity measure and not equivalent to migrant status.",
+      "counterinterpretation": "Higher reported participation may reflect different cultural definitions of music, dance, theatre, and writing, social networks, or life-stage composition rather than greater institutional access.",
+      "source_url": "https://creative.gov.au/sites/creative-australia/files/documents/2026-06/National%20Arts%20Participation%20Survey%20Results%202025_FA%20TAGGED_0.pdf",
+      "retrieval_hash": "sha256:de50df434c7390069565d6e6bc6a1eb8cd4d6ce470c98b2825fdc309edb0cd68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; targeted translated CALD sample and cultural-background making",
+      "denominator": {
+        "value": 183,
+        "unit": "specifically engaged CALD respondents completing simplified or translated surveys; this focused sample was not included in the overall 9,065 representative sample",
+        "value_type": "publisher_reported_focused_sample"
+      },
+      "measures": {
+        "focused_cald_creative_participation": {
+          "value": 65,
+          "unit": "percent of specifically engaged CALD respondents creating, producing, or collaborating in the making of art",
+          "value_type": "publisher_reported_focused_subgroup_share"
+        },
+        "focused_cald_background_making": {
+          "value": 68,
+          "unit": "percent of specifically engaged CALD respondents making art to engage with their cultural background, language group, or community",
+          "value_type": "publisher_reported_focused_subgroup_share"
+        },
+        "translated_languages": {
+          "value": "Cantonese, French, Hazaragi, Korean, Punjabi, and Turkish",
+          "unit": "languages used for simplified or translated focused surveys",
+          "value_type": "publisher_reported_language_set"
+        },
+        "mechanism": {
+          "value": "When the survey reaches CALD respondents with lower English proficiency through translated and simplified instruments, cultural-making and background connection become especially visible; measurement design changes what cultural agency can be observed",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia focused CALD survey using simplified and translated questionnaires, with community-supported recruitment; the report explicitly treats this as a focused sample rather than a representative estimate of all CALD Australians.",
+      "uncertainty": "The n=183 focused sample is not population-representative and cannot be compared directly to weighted general-population prevalence; it may overrepresent people reachable through participating community organizations and those willing to complete a focused survey.",
+      "subgroup": "Specifically engaged CALD respondents not fluent in English, separate from the n=1,538 general-sample CALD subgroup.",
+      "counterinterpretation": "The high rate may reflect the targeted recruitment and the survey's focus on culturally connected respondents rather than a general CALD population rate.",
+      "source_url": "https://creative.gov.au/sites/creative-australia/files/documents/2026-06/National%20Arts%20Participation%20Survey%20Results%202025_FA%20TAGGED_0.pdf",
+      "retrieval_hash": "sha256:de50df434c7390069565d6e6bc6a1eb8cd4d6ce470c98b2825fdc309edb0cd68",
+      "status": "reported"
+    },
+    {
+      "period": "2025 compared with 2022; CALD cultural-background engagement and attendance",
+      "denominator": {
+        "value": 1538,
+        "unit": "self-identified CALD respondents in the general-population National Arts Participation Survey sample; general-population comparison estimates are separate weighted survey groups",
+        "value_type": "publisher_reported_subgroup_sample"
+      },
+      "measures": {
+        "cald_own_background_engagement": {
+          "value": 55,
+          "unit": "percent of CALD respondents engaging with their own cultural background, language group, or community through arts and creativity in 2025",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "overall_own_background_engagement": {
+          "value": 40,
+          "unit": "percent of Australians engaging with their own cultural background, language group, or community through arts and creativity in 2025",
+          "value_type": "publisher_reported_population_share"
+        },
+        "cald_own_background_engagement_2022": {
+          "value": 52,
+          "unit": "percent of CALD respondents engaging with their own cultural background, language group, or community through arts and creativity in 2022",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Cultural-background engagement is more prevalent among CALD respondents than in the population overall and remained broadly stable while the national rate rose, suggesting a high-agency cultural route rather than a simple participation deficit",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025 comparison of self-identified CALD respondents with the general population on arts engagement with own cultural background, language group, or community.",
+      "uncertainty": "The measure combines attending and making art and does not identify country of birth, visa stream, generation, income, or specific language group; it is a cross-sectional self-report comparison and does not establish causal cultural access or belonging.",
+      "subgroup": "Self-identified CALD respondents, n=1,538, compared with the national population estimate; CALD is a broad, contested, self-identification measure.",
+      "counterinterpretation": "The stable CALD rate alongside national growth may reflect sample composition, wording, identity interpretation, or ceiling effects rather than unchanged cultural agency.",
+      "source_url": "https://creative.gov.au/sites/creative-australia/files/documents/2026-06/National%20Arts%20Participation%20Survey%20Results%202025_FA%20TAGGED_0.pdf",
+      "retrieval_hash": "sha256:de50df434c7390069565d6e6bc6a1eb8cd4d6ce470c98b2825fdc309edb0cd68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; CALD attendance at arts events focused on own cultural background or community",
+      "denominator": {
+        "value": 1538,
+        "unit": "self-identified CALD respondents in the general-population National Arts Participation Survey sample; non-CALD comparison group is separate",
+        "value_type": "publisher_reported_subgroup_sample"
+      },
+      "measures": {
+        "cald_own_background_event_attendance": {
+          "value": 49,
+          "unit": "percent of CALD respondents attending arts events to engage with their own cultural background, language group, or community in 2025",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "non_cald_own_background_event_attendance": {
+          "value": 32,
+          "unit": "percent of non-CALD respondents attending arts events to engage with their own cultural background, language group, or community in 2025",
+          "value_type": "publisher_reported_subgroup_share"
+        },
+        "cald_event_attendance_gap": {
+          "value": 17,
+          "unit": "percentage-point difference between CALD and non-CALD respondents",
+          "value_type": "calculated_difference_from_published_values"
+        },
+        "cald_event_types": {
+          "value": {"music": 25, "theatre": 12, "festivals_or_celebrations": 23, "visual_arts_and_craft": 13, "dance": 17, "book_or_literary": 10},
+          "unit": "percent of CALD respondents attending each event type to engage with own cultural background, language group, or community",
+          "value_type": "publisher_reported_subgroup_shares"
+        },
+        "mechanism": {
+          "value": "The CALD participation advantage reaches audience behavior as well as production: culturally specific events, especially music and festivals, are active conversion channels rather than only identity statements",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Creative Australia National Arts Participation Survey 2025 subgroup comparison for in-person arts events focused on respondents' own cultural background, language group, or community.",
+      "uncertainty": "The event measure is self-reported and does not show frequency, ticket price, venue supply, transport, repeat behavior, or household financial capacity; CALD is not equivalent to migrant status or country of birth.",
+      "subgroup": "Self-identified CALD and non-CALD respondents in the general population sample; event-type percentages are within the CALD subgroup and are not mutually exclusive.",
+      "counterinterpretation": "The higher CALD rate may reflect community festivals and social networks, different definitions of cultural events, age structure, or targeted sample composition rather than uniformly easier access to mainstream cultural institutions.",
+      "source_url": "https://creative.gov.au/sites/creative-australia/files/documents/2026-06/National%20Arts%20Participation%20Survey%20Results%202025_FA%20TAGGED_0.pdf",
+      "retrieval_hash": "sha256:de50df434c7390069565d6e6bc6a1eb8cd4d6ce470c98b2825fdc309edb0cd68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://creative.gov.au/research/creative-transformations-results-national-arts-participation-survey",
+      "claim": "Creative Australia provides the 2025 survey overview, full report, executive summary, and methodological context.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://creative.gov.au/audience-data-explorer",
+      "claim": "Creative Australia's Audience Data Explorer provides interactive cohort and trend exploration for the 2025 National Arts Participation Survey.",
+      "status": "official-data-explorer"
+    },
+    {
+      "source_url": "https://creative.gov.au/sites/creative-australia/files/documents/2026-06/National%20Arts%20Participation%20Survey%20Results%202025_FA%20TAGGED_0.pdf",
+      "claim": "The full 2025 report documents the CALD sampling frames, self-identification definition, general-sample subgroup results, focused translated surveys, and measurement limits.",
+      "status": "official-primary-report"
+    }
+  ],
+  "boundary": "This record adds a current Australian arts-participation, cultural-connection, cost-barrier, and arts-education layer. It does not provide migrant-specific attendance cross-tabs, causal education effects, verified spending, or equal cultural access across household groups.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Creative Australia 2025 National Arts Participation Survey release page, results page, and audience-data-explorer description were reviewed for sample size, cultural-background engagement, live attendance, cost barriers, missed attendance, arts education, and public cross-tab limits.",
+    "checked": "2026-09-30"
+  }
+}

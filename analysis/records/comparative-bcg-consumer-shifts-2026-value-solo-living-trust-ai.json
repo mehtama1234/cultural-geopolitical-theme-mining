@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai",
+  "title": "Consumer choice is shifting from price alone toward perceived value, solo-life fit, concentrated trust, longevity, and AI-guided discovery",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Boston Consulting Group Center for Customer Insight, Five Consumer Behavior Shifts Reshaping Growth in 2026",
+  "geography": "Consumers in 12 markets: Brazil, China, France, Germany, India, Italy, Japan, South Korea, Sweden, Turkey, the United Kingdom, and the United States",
+  "observations": [
+    {
+      "period": "2026; cross-market consumer research frame",
+      "denominator": {"value": 13000, "unit": "consumers surveyed across 12 markets, approximately more than", "value_type": "reported_survey_sample"},
+      "measures": {
+        "market_coverage": {"value": 49, "unit": "percent of global population represented approximately by the 12 surveyed markets", "value_type": "reported_coverage_context"},
+        "brand_validation": {"value": 1000, "unit": "brands analyzed across categories and markets, approximately more than", "value_type": "reported_brand_analysis_frame"},
+        "qualitative_depth": {"value": 100, "unit": "consumer qualitative interviews conducted across markets, approximately more than", "value_type": "reported_interview_count"},
+        "five_themes": {"value": "value over price, the longevity mindset, solo living, a new trust compass, and AI-guided decision making", "unit": "reported consumer-theme set", "value_type": "reported_theme_set"}
+      },
+      "method": "BCG Center for Customer Insight survey of more than 13,000 demographically balanced consumers in 12 markets, qualitative interviews, and analysis of more than 1,000 brands using purchase-behavior data from 2022-2026.",
+      "uncertainty": "The markets represent a large but non-global share of population; survey responses, stated intentions, qualitative interpretation, and proprietary brand data use different units and do not establish causal effects or future market outcomes.",
+      "subgroup": "Consumers across 12 markets, age and income groups, solo households, longevity-oriented consumers, AI users, brands, retailers, service providers, and category-specific audiences.",
+      "counterinterpretation": "The five themes may partly reflect survey framing, market composition, or short-run uncertainty; traditional price sensitivity, household forms, trusted sources, and non-AI purchase journeys remain important.",
+      "source_url": "https://www.bcg.com/publications/2026/five-consumer-shifts-reshaping-growth",
+      "retrieval_hash": "sha256:afff98d557f1f17a06e6333aff1419ef11bb55bec0952af53066ff448ffbf141",
+      "status": "reported"
+    },
+    {
+      "period": "2026; value judgments and purchase decisions",
+      "denominator": {"value": 13000, "unit": "surveyed consumers across 12 markets, approximately more than", "value_type": "reported_survey_sample"},
+      "measures": {
+        "value_over_price": {"value": 67, "unit": "percent saying they would not buy a product even when they could afford it if they did not perceive strong value", "value_type": "reported_survey_share"},
+        "value_drivers": {"value": "quality, convenience, service, personal connection, quantity, and trust supplement price in consumers' value judgments", "unit": "reported decision-factor set", "value_type": "reported_factor_set"},
+        "brand_value_performance": {"value": 14, "unit": "percent of more than 1,000 analyzed brands consistently winning on value, according to BCG's analysis", "value_type": "reported_brand_share"},
+        "friction_cost": {"value": 77, "unit": "percent saying they value products and services that reduce friction in daily life", "value_type": "reported_survey_share"}
+      },
+      "method": "BCG cross-market consumer survey combined with analysis of category-specific value drivers and brand performance.",
+      "uncertainty": "The reported relationships describe stated perceptions and BCG's proprietary brand assessment; they do not estimate willingness-to-pay causally, identify actual household budgets, or prove that value perception predicts every purchase.",
+      "subgroup": "Consumers facing price pressure, convenience-sensitive shoppers, service users, category brands, retailers, and households trading money against time and effort.",
+      "counterinterpretation": "Price remains an important entry condition and may dominate for necessities or liquidity-constrained households; perceived value can also reflect branding, availability, or unobserved income differences.",
+      "source_url": "https://www.bcg.com/publications/2026/five-consumer-shifts-reshaping-growth",
+      "retrieval_hash": "sha256:afff98d557f1f17a06e6333aff1419ef11bb55bec0952af53066ff448ffbf141",
+      "status": "reported"
+    },
+    {
+      "period": "2026; household form, longevity, and well-being orientation",
+      "denominator": {"value": 13000, "unit": "surveyed consumers across 12 markets, approximately more than", "value_type": "reported_survey_sample"},
+      "measures": {
+        "wellbeing_priority": {"value": 75, "unit": "percent citing health and well-being as the number-one marker of a prosperous life, approximately three-quarters", "value_type": "reported_survey_share"},
+        "longevity_cohort": {"value": 33, "unit": "percent of consumers already embracing a longevity-oriented pursuit, approximately one-third", "value_type": "reported_survey_share"},
+        "solo_households": {"value": 33, "unit": "percent of households in mature markets consisting of a single person, approximately one in three", "value_type": "reported_household_share"},
+        "solo_design_gap": {"value": "50-70", "unit": "percent of solo householders in the survey saying products and services are not designed for people like them", "value_type": "reported_survey_range"}
+      },
+      "method": "BCG survey analysis of prosperity, health, longevity, household form, spending priorities, and perceived product-service fit, with contextual demographic comparisons.",
+      "uncertainty": "The longevity and solo-living shares use different denominators and market contexts; self-reported priorities do not establish actual spending, health outcomes, household well-being, or that solo living is voluntary everywhere.",
+      "subgroup": "Solo householders, older consumers, longevity seekers, households purchasing health and wellness products, insurers, housing providers, food and retail categories, and care systems.",
+      "counterinterpretation": "Living alone can reflect constraint, bereavement, migration, or housing costs as well as autonomy; health and well-being priorities can coexist with limited capacity to spend on them.",
+      "source_url": "https://www.bcg.com/publications/2026/five-consumer-shifts-reshaping-growth",
+      "retrieval_hash": "sha256:afff98d557f1f17a06e6333aff1419ef11bb55bec0952af53066ff448ffbf141",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust and AI in consumer decision journeys",
+      "denominator": {"value": 13000, "unit": "surveyed consumers across 12 markets, approximately more than", "value_type": "reported_survey_sample"},
+      "measures": {
+        "information_overload": {"value": 43, "unit": "percent reporting mental overwhelm from information volume", "value_type": "reported_survey_share"},
+        "ai_purchase_use": {"value": 31, "unit": "percent using AI at least occasionally in purchase journeys", "value_type": "reported_survey_share"},
+        "ai_regular_reliance": {"value": 19, "unit": "percent regularly relying on AI for purchase decisions, approximately one in five", "value_type": "reported_survey_share"},
+        "ai_recommendation_conversion": {"value": 70, "unit": "percent of AI-loyalist consumers ultimately buying products recommended by AI", "value_type": "reported_conditional_share"},
+        "trust_sources": {"value": "experts, friends and family, and AI tools are becoming concentrated trust sources while brands do not directly control all of them", "unit": "reported trust pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "BCG survey of consumer information use and purchase journeys, supplemented by brand and qualitative analysis.",
+      "uncertainty": "The AI figures are self-reported and conditional; recommendation use is not randomized exposure, and conversion does not establish product quality, consumer welfare, informed choice, privacy, or durable reliance.",
+      "subgroup": "AI users, information-overloaded consumers, higher-income and developing-market consumers, Gen Z and Millennials, brands, platforms, retailers, and trust intermediaries.",
+      "counterinterpretation": "AI may supplement rather than replace human advice and brand discovery; consumers can reject recommendations, and high recommendation conversion may reflect category, convenience, or selection effects.",
+      "source_url": "https://www.bcg.com/publications/2026/five-consumer-shifts-reshaping-growth",
+      "retrieval_hash": "sha256:afff98d557f1f17a06e6333aff1419ef11bb55bec0952af53066ff448ffbf141",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bcg.com/publications/2026/battle-for-the-interface-consumer-ai-disruption-index", "claim": "BCG's related consumer-AI work provides a complementary route on exposure and resilience at the interface."},
+    {"source_url": "https://www.bcg.com/publications/2026/ai-in-cpg-and-retail-how-winners-are-pulling-ahead", "claim": "BCG's related consumer-goods analysis provides complementary firm and retail context for AI-mediated demand."}
+  ],
+  "boundary": "This record adds a publication-level consumer route across perceived value, price, time and convenience, solo living, longevity, trust, information overload, and AI-guided purchase discovery. It uses BCG's aggregate survey, interviews, and proprietary brand analysis, not individual purchase histories, household budgets, respondent-level psychological profiles, causal AI effects, welfare estimates, or proof that these themes apply uniformly across consumers or markets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official BCG publication page reviewed for the 12-market sample, 13,000-plus consumers, 1,000-plus brands, five themes, value-over-price, longevity, solo living, trust, information overload, and AI purchase figures.",
+    "source_url_sha256": "sha256:afff98d557f1f17a06e6333aff1419ef11bb55bec0952af53066ff448ffbf141",
+    "checked": "2026-09-26"
+  }
+}

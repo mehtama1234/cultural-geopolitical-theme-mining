@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-circle-community-trends-2026-human-connection-belonging",
+  "title": "Community is being repositioned from attention and audience growth toward belonging, trust, retention and intentionally designed human connection",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Circle, The 2026 Community Trends Report",
+  "geography": "Community builders, creators, brands and online communities; report scope is not fully disclosed in the public summary",
+  "observations": [
+    {
+      "period": "2026 report; public summary and research frame",
+      "denominator": {"value": 750, "unit": "community builders surveyed (public page says 750+)", "value_type": "reported_sample_lower_bound"},
+      "measures": {
+        "expert_interviews": {"value": 12, "unit": "experts interviewed", "value_type": "reported_sample"},
+        "product_data_scope": {"value": "product data from more than 20,000 Circle communities", "unit": "reported platform-data scope", "value_type": "reported_scope"},
+        "research_focus": {"value": "behavioral shifts and trends in community building", "unit": "reported research purpose", "value_type": "reported_scope"}
+      },
+      "method": "Circle public summary describing expert interviews, a survey of community builders and analysis of product data from Circle communities.",
+      "uncertainty": "The public page does not disclose the full questionnaire, sampling frame, weighting, country coverage, product-data definitions or the complete report; Circle has a commercial interest in community-building demand.",
+      "subgroup": "Community builders, creators, brands, customer communities and participants in online spaces.",
+      "counterinterpretation": "The reported shift may partly reflect Circle’s customer base and positioning rather than a general transformation of community behavior across platforms or publics.",
+      "source_url": "https://circle.so/2026-community-trends-report",
+      "retrieval_hash": "sha256:9cf1793781a6523d3b3a5b1cf225f7e2947d3713f5f937efb6c8294066611c08",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; attention versus connection",
+      "denominator": {"value": 1, "unit": "Circle public trend thesis", "value_type": "commercial_published_thesis"},
+      "measures": {
+        "reported_shift": {"value": "the public summary frames connection, rather than attention, as the more important community value", "unit": "reported market thesis", "value_type": "reported_interpretation"},
+        "human_signal": {"value": "as AI-generated content increases and algorithms amplify noise, people are described as gravitating toward experiences perceived as real and human", "unit": "reported behavioral thesis", "value_type": "reported_interpretation"},
+        "community_function": {"value": "community is positioned as a source of belonging, transformation and durable relationships", "unit": "reported value proposition", "value_type": "reported_framework"}
+      },
+      "method": "Synthesis presented on Circle’s public report page from the report’s research and expert commentary.",
+      "uncertainty": "This is a commercial trend interpretation, not an independently verified measure of platform-wide user behavior or a causal test of AI-generated content on belonging.",
+      "subgroup": "People seeking connection in online communities, creators, community managers, customers and brands.",
+      "counterinterpretation": "A desire for human connection may coexist with attention-seeking, parasocial participation, algorithmic discovery and commercial persuasion rather than replacing them.",
+      "source_url": "https://circle.so/2026-community-trends-report",
+      "retrieval_hash": "sha256:9cf1793781a6523d3b3a5b1cf225f7e2947d3713f5f937efb6c8294066611c08",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; community as business infrastructure",
+      "denominator": {"value": 1, "unit": "Circle market-positioning thesis", "value_type": "commercial_published_thesis"},
+      "measures": {
+        "business_role": {"value": "community is described as a key differentiator and growth engine for creators and brands rather than a nice-to-have extension of branding", "unit": "reported business thesis", "value_type": "reported_interpretation"},
+        "value_route": {"value": "belonging and transformation are linked to business durability and growth", "unit": "reported value mechanism", "value_type": "reported_mechanism"},
+        "power_question": {"value": "community design can shift value from rented platform attention toward owned relationships, but ownership and control remain platform- and business-dependent", "unit": "interpretive program implication", "value_type": "inference_from_source"}
+      },
+      "method": "Commercial trend synthesis connecting community practices to creator and brand business models.",
+      "uncertainty": "The public summary does not show retention, revenue, churn or comparative outcome data proving that communities cause business growth or durability.",
+      "subgroup": "Creators, brands, customer-community operators, community professionals and members whose participation generates economic value.",
+      "counterinterpretation": "Commercializing community can support continuity and resources, but it can also turn belonging into a funnel, extract member labor or impose platform and brand priorities on social spaces.",
+      "source_url": "https://circle.so/2026-community-trends-report",
+      "retrieval_hash": "sha256:9cf1793781a6523d3b3a5b1cf225f7e2947d3713f5f937efb6c8294066611c08",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; intentional and differentiated community design",
+      "denominator": {"value": 1, "unit": "Circle public strategy thesis", "value_type": "commercial_published_thesis"},
+      "measures": {
+        "strategy_shift": {"value": "community builders are described as moving away from copy-and-paste approaches toward experimentation and pilots", "unit": "reported practice shift", "value_type": "reported_interpretation"},
+        "design_principle": {"value": "spaces are being designed to feel more intentional, human and built for the long run", "unit": "reported design direction", "value_type": "reported_framework"},
+        "fit": {"value": "the report emphasizes that communities should be designed around the specific audience, product, team and brand rather than a single universal model", "unit": "reported design principle", "value_type": "reported_recommendation"}
+      },
+      "method": "Public summary of Circle’s community-builder research and expert commentary.",
+      "uncertainty": "The claims describe reported strategy trends and do not establish which design choices create inclusion, safety, belonging or durable participation across communities.",
+      "subgroup": "Community designers, moderators, creators, members, customers and organizations experimenting with online social infrastructure.",
+      "counterinterpretation": "Intentional design can improve fit and participation, while differentiation may also fragment communities, increase management labor or exclude people who do not match the target audience.",
+      "source_url": "https://circle.so/2026-community-trends-report",
+      "retrieval_hash": "sha256:9cf1793781a6523d3b3a5b1cf225f7e2947d3713f5f937efb6c8294066611c08",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://circle.so/", "claim": "Circle platform context for the report’s commercial community-building perspective."}
+  ],
+  "boundary": "This record adds a commercial community-culture signal linking AI-generated content and algorithmic noise to perceived human connection, belonging, creator and brand strategy, intentional design and platform economics. It is based on Circle’s public summary and self-described research, not a representative population study, independent behavioral audit or causal evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Circle report page was reviewed for the stated sample and product-data scope, attention-versus-connection thesis, community-as-business proposition and intentional-design claims; the public-summary and commercial-interest limitations were retained.",
+    "source_url_sha256": "sha256:9cf1793781a6523d3b3a5b1cf225f7e2947d3713f5f937efb6c8294066611c08",
+    "checked": "2026-09-27"
+  }
+}

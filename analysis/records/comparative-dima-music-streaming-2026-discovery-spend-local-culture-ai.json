@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai",
+  "title": "Streaming is becoming cultural discovery infrastructure, but platform value and local cultural benefits remain jointly contested",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Digital Media Association 2026 Annual Report, using MusicWatch consumer research",
+  "geography": "United States plus Canada, Brazil, Chile, and Mexico; comparative consumer streaming and music-culture findings",
+  "observations": [
+    {
+      "period": "December 2025–February 2026; U.S. music-streaming engagement and value",
+      "denominator": {"value": 3555, "unit": "U.S. internet-using respondents ages 13–70 in MusicWatch research", "value_type": "reported_weighted_sample"},
+      "measures": {
+        "daily_streaming": {"value": 50, "unit": "percent listening to streaming services every day", "value_type": "reported_share"},
+        "paid_daily_streaming": {"value": 58, "unit": "percent of paid subscribers listening every day", "value_type": "reported_share"},
+        "service_affection": {"value": 94, "unit": "percent saying they like or love their streaming service", "value_type": "reported_share"},
+        "service_value": {"value": 90, "unit": "percent describing their service as good, very good, or excellent value", "value_type": "reported_share"},
+        "platform_value": {"value": "streaming is experienced as a high-frequency, high-value cultural service rather than only a distribution channel", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MusicWatch survey for DIMA among 3,555 U.S. respondents ages 13–70, weighted and projected to the U.S. internet-using population by age, gender, ethnicity, income, and region.",
+      "uncertainty": "DIMA represents major music-streaming services and the report is industry-sponsored; reported satisfaction and value are not independent measures of artist compensation, market concentration, affordability for non-users, or long-term retention.",
+      "subgroup": "U.S. streamers, paid subscribers, non-paying listeners, age cohorts, and listeners with different spending and format mixes.",
+      "counterinterpretation": "High satisfaction can coexist with subscription fatigue, unequal access, low artist income, algorithmic dependence, and limited bargaining power over platform terms.",
+      "source_url": "https://dima.org/resource/consumer-engagement-with-music-streaming-continues-to-soar-according-to-research-from-the-digital-media-association-dima-with-listeners-spending-more-time-and-more-money-on-music-than-they-did-five-years/",
+      "retrieval_hash": "sha256:8220d58ba035358ec55633673cdd2526a55c43d0a83744e312cc9b180e0f9154",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025–February 2026; U.S. music spending and artist connection",
+      "denominator": {"value": 3555, "unit": "U.S. internet-using respondents ages 13–70 in MusicWatch research", "value_type": "reported_weighted_sample"},
+      "measures": {
+        "artist_connection": {"value": 86, "unit": "percent saying streaming improves their connection to artists and music they love", "value_type": "reported_share"},
+        "annual_recorded_music_spend": {"value": 434, "unit": "approximate U.S. dollars spent annually by the average streamer on recorded music", "value_type": "reported_average"},
+        "paid_subscriber_spend": {"value": 614, "unit": "approximate U.S. dollars spent annually by paid on-demand subscribers on recorded music", "value_type": "reported_average"},
+        "five_year_change": {"value": 27, "unit": "percent more recorded-music spending than five years earlier", "value_type": "reported_change"},
+        "consumption_currency": {"value": "platform engagement converts into artist connection and broader music spending, but the report does not establish how value is distributed across artists or listeners", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MusicWatch expenditure and attitude measures summarized in DIMA’s annual report.",
+      "uncertainty": "The spending figures are report estimates and averages; they do not identify household budget tradeoffs, artist-level payouts, distributional incidence, or causation from streaming to spending.",
+      "subgroup": "Average streamers, paid on-demand subscribers, artists, songwriters, labels, platforms, and households with different disposable income.",
+      "counterinterpretation": "Rising music spending may reflect price changes, format substitution, higher-income users, or more complete measurement rather than broad-based consumer surplus or artist prosperity.",
+      "source_url": "https://dima.org/resource/consumer-engagement-with-music-streaming-continues-to-soar-according-to-research-from-the-digital-media-association-dima-with-listeners-spending-more-time-and-more-money-on-music-than-they-did-five-years/",
+      "retrieval_hash": "sha256:8220d58ba035358ec55633673cdd2526a55c43d0a83744e312cc9b180e0f9154",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025–February 2026; music discovery and cultural memory",
+      "denominator": {"value": 3555, "unit": "U.S. internet-using respondents ages 13–70 in MusicWatch research", "value_type": "reported_weighted_sample"},
+      "measures": {
+        "streaming_discovery": {"value": 69, "unit": "percent naming streaming as a main source for discovering new music", "value_type": "reported_share"},
+        "social_discovery": {"value": 50, "unit": "percent naming social media as a main source for discovering new music", "value_type": "reported_share"},
+        "playlist_tool": {"value": 57, "unit": "percent using playlists as a discovery feature", "value_type": "reported_share"},
+        "recommendation_tool": {"value": 47, "unit": "percent using recommendations as a discovery feature", "value_type": "reported_share"},
+        "back_catalogue": {"value": 88, "unit": "percent of streamers using streaming to discover older songs", "value_type": "reported_share"},
+        "memory_route": {"value": "streaming expands both novelty and cultural memory by making older catalogs searchable and recommender-visible", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Music discovery questions covering sources, platform features, new releases, and older songs.",
+      "uncertainty": "Discovery is self-reported and does not show whether recommendations broaden taste, reinforce existing preferences, or change artist income and cultural participation.",
+      "subgroup": "Listeners across generations, with different preferences for homepage exploration, playlists, recommendation systems, radio-style features, and social discovery.",
+      "counterinterpretation": "Greater catalog access can increase choice while making attention more dependent on platform ranking, metadata, licensing, and recommendation design.",
+      "source_url": "https://dima.org/wp-content/uploads/dlm_uploads/2026/06/dima-2026-streaming-report.pdf",
+      "retrieval_hash": "sha256:8220d58ba035358ec55633673cdd2526a55c43d0a83744e312cc9b180e0f9154",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025–February 2026; comparative streaming and local-culture route",
+      "denominator": {"value": 4000, "unit": "approximately 1,000 respondents each in Canada, Brazil, Chile, and Mexico", "value_type": "reported_comparative_sample"},
+      "measures": {
+        "comparative_scope": {"value": "parallel MusicWatch studies were conducted in Canada, Brazil, Chile, and Mexico with country-specific weighting", "unit": "comparative study design", "value_type": "reported_method"},
+        "global_discovery": {"value": "the report describes streaming as a route to new genres and artists across borders, alongside country-specific listening and spending patterns", "unit": "reported comparative assessment", "value_type": "reported_assessment"},
+        "local_culture": {"value": "the report examines whether streaming helps preserve, promote, and discover local culture and artists", "unit": "reported cultural measure", "value_type": "reported_measure"},
+        "regulatory_meaning": {"value": "consumer views of platform access and government oversight differ across markets, making streaming both a cultural interface and a policy object", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Parallel country studies of music listening, discovery, spending, AI-generated music, local culture, and government oversight.",
+      "uncertainty": "The comparative samples are country-specific online studies and the source is a trade association report; cross-country percentages should not be treated as fully equivalent without the underlying questionnaires and weighting details.",
+      "subgroup": "Listeners in Canada, Brazil, Chile, and Mexico, including paid and unpaid users, local-artist audiences, and people with different views of regulation.",
+      "counterinterpretation": "Platform reach can support local discovery while concentrating cultural gatekeeping, revenue, data, and policy leverage in a small number of global services.",
+      "source_url": "https://dima.org/resource/consumer-engagement-with-music-streaming-continues-to-soar-according-to-research-from-the-digital-media-association-dima-with-listeners-spending-more-time-and-more-money-on-music-than-they-did-five-years/",
+      "retrieval_hash": "sha256:8220d58ba035358ec55633673cdd2526a55c43d0a83744e312cc9b180e0f9154",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://dima.org/research-reports/", "claim": "DIMA report index and Streaming Forward research context."},
+    {"source_url": "https://dima.org/wp-content/uploads/dlm_uploads/2026/06/dima-2026-streaming-report.pdf", "claim": "Full DIMA 2026 report with U.S. and comparative music-streaming findings."},
+    {"source_url": "https://luminatedata.com/blog/luminate-2026-midyear-report-trends-in-music-television-film/", "claim": "Complementary consumption-side source on streaming growth, genre diversification, and library viewing."}
+  ],
+  "boundary": "This record adds a platform-to-culture and platform-to-consumption route across engagement, spending, discovery, back-catalogue use, local culture, AI-generated music, and regulation. It does not treat industry-sponsored satisfaction as independent welfare evidence, infer artist-level distribution, or establish that streaming causes cultural diversity, local-artist success, or consumer surplus.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official DIMA 2026 Annual Report PDF and DIMA release reviewed for U.S. and comparative samples, engagement, value, spending, discovery, back-catalogue, local-culture, AI, and oversight claims.",
+    "source_url_sha256": "sha256:8220d58ba035358ec55633673cdd2526a55c43d0a83744e312cc9b180e0f9154",
+    "checked": "2026-09-28"
+  }
+}

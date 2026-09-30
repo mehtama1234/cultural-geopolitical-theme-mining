@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-global-flourishing-childhood-antecedents-adult-relationships-2025",
+  "title": "Adult relationship quality is associated with childhood family belonging, health, financial security, and adversity across countries, but the strength of pathways varies by context",
+  "theme_ids": ["voice", "time", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "political_judgment_action"
+  ],
+  "source_unit": "Wilkinson et al., Life course insights into social relationship quality: a cross-national analysis of 22 countries, Scientific Reports 2025",
+  "geography": "22 countries in Wave 1 of the Global Flourishing Study, including the United States, United Kingdom, and diverse non-Western contexts",
+  "observations": [
+    {
+      "period": "Global Flourishing Study Wave 1; childhood conditions and adult relationship quality",
+      "denominator": {"value": 202898, "unit": "adults in nationally representative samples across 22 countries", "value_type": "reported_cross_national_sample"},
+      "measures": {
+        "parent_relationships": {"value": "better reported relationships with mother and father during childhood were associated with higher adult social relationship quality", "unit": "reported cross-national association", "value_type": "reported_association"},
+        "childhood_abuse": {"value": "experiencing abuse during childhood was associated with lower adult social relationship quality", "unit": "reported cross-national association", "value_type": "reported_association"},
+        "family_outsider": {"value": "feeling like an outsider in one’s family while growing up was associated with lower adult social relationship quality", "unit": "reported cross-national association", "value_type": "reported_association"},
+        "life_course_route": {"value": "early family belonging and adversity may accumulate into later relational advantage or disadvantage", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Country-specific multivariate regression and random-effects meta-analysis using nationally representative Wave 1 Global Flourishing Study samples; childhood factors were retrospectively reported in adulthood.",
+      "uncertainty": "The design is cross-sectional and retrospective, so associations are not longitudinal causal estimates; recall bias, unmeasured confounding, relationship-quality effects on recall, and cross-cultural interpretation remain possible.",
+      "subgroup": "Adults across 22 countries, analyzed by childhood family relationships, abuse, family belonging, health, financial status, religious attendance, age cohort, and sociodemographic characteristics.",
+      "counterinterpretation": "Adult relationship quality may shape how people remember childhood, and common causes such as mental health, family resources, neighborhood conditions, or later institutional experiences may explain part of the association.",
+      "source_url": "https://www.nature.com/articles/s41598-025-86246-x",
+      "retrieval_hash": "sha256:2bb90a2ae2cb93d5629261a57eddc0b5ac028685166c83c9a379b1b4877ded9f",
+      "status": "reported"
+    },
+    {
+      "period": "Global Flourishing Study Wave 1; childhood health and financial security",
+      "denominator": {"value": 202898, "unit": "adults across 22 countries", "value_type": "reported_cross_national_sample"},
+      "measures": {
+        "childhood_health": {"value": "excellent or very good self-rated childhood health was associated with higher adult relationship quality, while fair childhood health was associated with lower quality relative to good health", "unit": "reported cross-national association", "value_type": "reported_association"},
+        "subjective_financial_status": {"value": "higher subjective financial status during childhood was associated with higher adult relationship quality", "unit": "reported cross-national association", "value_type": "reported_association"},
+        "resource_route": {"value": "health and economic resources may enable time, mobility, confidence, and shared activities that support later relationships", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"},
+        "inequality_route": {"value": "relational outcomes can carry forward childhood inequalities even when adult relationship quality is measured subjectively", "unit": "reported structural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Multivariate country-specific models and pooled random-effects meta-analysis of retrospective childhood health and financial-status measures.",
+      "uncertainty": "Childhood health and financial status are self-reported retrospectively; socioeconomic position, adult health, family structure, and national welfare context may confound associations, and the study does not identify a specific intervention pathway.",
+      "subgroup": "Adults with different childhood health and subjective financial circumstances across 22 countries.",
+      "counterinterpretation": "People with stronger adult relationships may recall childhood conditions more positively; material resources may proxy parental care, education, neighborhood safety, or later opportunity rather than directly producing relationship quality.",
+      "source_url": "https://www.nature.com/articles/s41598-025-86246-x",
+      "retrieval_hash": "sha256:2bb90a2ae2cb93d5629261a57eddc0b5ac028685166c83c9a379b1b4877ded9f",
+      "status": "reported"
+    },
+    {
+      "period": "Global Flourishing Study Wave 1; cross-national heterogeneity of childhood pathways",
+      "denominator": {"value": 22, "unit": "countries with country-specific analyses", "value_type": "reported_cross_national_frame"},
+      "measures": {
+        "abuse_heterogeneity": {"value": "the association between childhood abuse and adult relationship quality was largest in Poland and smallest in Sweden, with limited evidence in Germany, Hong Kong, and India", "unit": "reported country-specific association pattern", "value_type": "reported_heterogeneity"},
+        "parent_pathways": {"value": "parent relationship associations differed by country: some showed maternal effects, some paternal effects, some both, and some neither", "unit": "reported country-specific pattern", "value_type": "reported_heterogeneity"},
+        "family_structure": {"value": "associations for parental divorce or parental death differed in direction across countries", "unit": "reported country-specific pattern", "value_type": "reported_heterogeneity"},
+        "contextual_mechanism": {"value": "national norms, gender roles, family systems, welfare conditions, and cultural meanings may shape how childhood experiences carry into adult relationships", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Country-specific analyses alongside random-effects meta-analysis, with heterogeneity statistics and sensitivity analyses reported by the authors.",
+      "uncertainty": "The exploratory design does not identify why country coefficients differ; differences may reflect measurement, translation, sampling, reporting, institutional context, or true social mechanisms.",
+      "subgroup": "Adults across 22 national contexts, with childhood experiences and family structures interpreted within country-specific social systems.",
+      "counterinterpretation": "Cross-country coefficient differences should not be read as national rankings of family quality or resilience; observed heterogeneity may reflect survey comparability limits.",
+      "source_url": "https://www.nature.com/articles/s41598-025-86246-x",
+      "retrieval_hash": "sha256:2bb90a2ae2cb93d5629261a57eddc0b5ac028685166c83c9a379b1b4877ded9f",
+      "status": "reported"
+    },
+    {
+      "period": "2025 publication; policy and research implications",
+      "denominator": {"value": 1, "unit": "cross-national exploratory life-course study and its proposed research agenda", "value_type": "reported_policy_frame"},
+      "measures": {
+        "early_intervention_route": {"value": "protective childhood relationships, prevention of abuse, family belonging, health, and material security are identified as upstream conditions for later relational well-being", "unit": "reported policy-relevant mechanism", "value_type": "reported_mechanism_set"},
+        "social_infrastructure_route": {"value": "family, schools, health systems, religious communities, neighborhoods, and economic supports may shape relational capacity over the life course", "unit": "reported interpretive mechanism set", "value_type": "reported_mechanism_set"},
+        "measurement_boundary": {"value": "the study calls for deeper research by relationship type and more direct examination of mechanisms rather than treating global relationship quality as a single endpoint", "unit": "reported research implication", "value_type": "reported_boundary"},
+        "cumulative_exposure": {"value": "relational well-being should be read as accumulated across childhood, health, economic resources, family belonging, and later social institutions", "unit": "reported analytic synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Authors' synthesis of exploratory cross-national associations and stated future research implications.",
+      "uncertainty": "The paper does not evaluate interventions or prove that changing any upstream factor will improve adult relationship quality; policy implications require longitudinal and quasi-experimental testing.",
+      "subgroup": "Children, families, schools, health and social-service systems, communities, and adults experiencing early-life advantage or adversity.",
+      "counterinterpretation": "Early-life interventions may improve many outcomes without producing the same relational effects across cultures; formal systems can support relationships but can also impose stigma or surveillance.",
+      "source_url": "https://www.nature.com/articles/s41598-025-86246-x",
+      "retrieval_hash": "sha256:2bb90a2ae2cb93d5629261a57eddc0b5ac028685166c83c9a379b1b4877ded9f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nature.com/articles/s41598-025-86246-x", "claim": "Open-access Scientific Reports article using Global Flourishing Study data from 202,898 adults in 22 countries to examine childhood antecedents of adult relationship quality."},
+    {"source_url": "https://www.nature.com/articles/s41598-025-86246-x.pdf", "claim": "Publisher PDF for the 2025 peer-reviewed article."}
+  ],
+  "boundary": "This record adds a life-course mechanism from childhood family relationships, abuse, belonging, health, and financial security through adult relationship quality and cross-national heterogeneity. It is exploratory retrospective cross-sectional evidence, not longitudinal causal proof, an intervention evaluation, or a claim that national culture alone determines adult relationships.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Publisher article reviewed for sample, childhood predictors, adult relationship-quality measure, pooled associations, country-specific heterogeneity, policy-relevant pathways, and limitations including recall and causal boundaries.",
+    "source_page_sha256": "sha256:2bb90a2ae2cb93d5629261a57eddc0b5ac028685166c83c9a379b1b4877ded9f",
+    "checked": "2026-09-28"
+  }
+}

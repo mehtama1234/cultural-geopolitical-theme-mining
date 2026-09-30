@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-seychelles-growth-jobs-digital-skills-2026",
+  "title": "In a high-income small island economy, aging, skills shortages, high costs, and digital access determine whether growth becomes good work and intergenerational mobility",
+  "theme_ids": ["work", "cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Group, 2026 Seychelles Country Growth and Jobs Report: Modernize, Utilize, Digitalize: How to Raise Productivity to Deliver Growth, Good Jobs, and Social Mobility, summarized September 17, 2026",
+  "geography": "Seychelles, a small island economy with high income per capita, geographic isolation, aging pressures, and a narrow labor market",
+  "observations": [
+    {
+      "period": "September 2026; growth capacity and small-island constraints",
+      "denominator": {"value": 1, "unit": "Seychelles national growth-and-jobs assessment", "value_type": "reported_country_context"},
+      "measures": {
+        "growth_record": {"value": "the report describes Seychelles as having achieved more than three decades of economic growth and one of Africa’s highest income-per-capita levels", "unit": "reported development context", "value_type": "reported_synthesis"},
+        "constraints": {"value": "aging, skills shortages, small size, and geographic isolation are identified as pressures on sustaining economic performance", "unit": "reported structural constraints", "value_type": "reported_synthesis"},
+        "translation_question": {"value": "the policy question is whether productivity and private-sector reform can create quality jobs and social mobility rather than only preserve aggregate income", "unit": "analytic policy question", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Bank country growth-and-jobs report summarized in an official press release.",
+      "uncertainty": "The press release does not provide the report’s full sectoral, distributional, demographic, or labor-market estimates, and does not establish causal effects of the proposed reforms.",
+      "subgroup": "Young people, older workers, firms, workers facing skills shortages, households, and future generations in a small and geographically isolated economy.",
+      "counterinterpretation": "Small size and isolation can constrain scale, but can also enable coordinated reforms if institutions, employers, and education systems align.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/seychelles-could-create-thousands-of-new-and-better-paid-jobs-and-increase-gdp",
+      "retrieval_hash": "sha256:9f2228bc8a10064425f80c48dcee921d4403f24dfed50966097f3d1f60a8ba55",
+      "status": "reported"
+    },
+    {
+      "period": "2040; modeled reform scenario and household purchasing power",
+      "denominator": {"value": 1, "unit": "World Bank accelerated-reform scenario for Seychelles", "value_type": "modeled_scenario"},
+      "measures": {
+        "gdp": {"value": 13, "unit": "percent potential GDP increase by 2040 under proposed reforms", "value_type": "modeled_scenario"},
+        "jobs": {"value": 2900, "unit": "additional jobs projected under the scenario", "value_type": "modeled_scenario"},
+        "better_paid_jobs": {"value": 7600, "unit": "equivalent better-paying jobs projected under the scenario", "value_type": "modeled_scenario"},
+        "real_wages": {"value": 8, "unit": "percent potential increase in real wages", "value_type": "modeled_scenario"},
+        "purchasing_power": {"value": 8, "unit": "percent potential increase in household purchasing power", "value_type": "modeled_scenario"}
+      },
+      "method": "World Bank scenario estimates reported in the official country-report release.",
+      "uncertainty": "These are modeled potential gains, not observed outcomes; they do not establish who receives jobs, wage gains, or purchasing-power improvements, or how costs are distributed.",
+      "subgroup": "Workers, households, young people, firms, and future generations affected by productivity and labor-market reforms.",
+      "counterinterpretation": "Aggregate wage and purchasing-power gains can mask unequal access, migration effects, housing costs, or job displacement in a small labor market.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/seychelles-could-create-thousands-of-new-and-better-paid-jobs-and-increase-gdp",
+      "retrieval_hash": "sha256:9f2228bc8a10064425f80c48dcee921d4403f24dfed50966097f3d1f60a8ba55",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; labor-market modernization and youth transition",
+      "denominator": {"value": 1, "unit": "World Bank Modernize and Utilize reform framework", "value_type": "reported_policy_framework"},
+      "measures": {
+        "modernize": {"value": "the report calls for updating labor regulations, reforming foreign-labor management, reducing barriers to trade and investment, and strengthening commercial justice", "unit": "reported policy package", "value_type": "reported_policy_set"},
+        "human_capital": {"value": "the report calls for addressing youth vulnerability, improving education and workforce skills, and strengthening school-to-work pathways", "unit": "reported policy package", "value_type": "reported_policy_set"},
+        "mobility_route": {"value": "the central open route is whether education and workforce systems produce usable skills, job access, earnings, and intergenerational mobility", "unit": "analytic mechanism chain", "value_type": "research_queue"}
+      },
+      "method": "World Bank report priorities summarized in the official release.",
+      "uncertainty": "The release does not report youth employment, school-to-work transition, vacancy, migration, wage, or skill-mismatch microdata, nor evaluate the proposed reforms.",
+      "subgroup": "Young people, students, foreign and domestic workers, employers, educators, and households planning across generations.",
+      "counterinterpretation": "Labor-market modernization can improve matching and productivity, but reforming foreign labor and regulation may also redistribute opportunity or weaken protections if worker voice is not preserved.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/seychelles-could-create-thousands-of-new-and-better-paid-jobs-and-increase-gdp",
+      "retrieval_hash": "sha256:9f2228bc8a10064425f80c48dcee921d4403f24dfed50966097f3d1f60a8ba55",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; digitalization, affordability, and public-service access",
+      "denominator": {"value": 1, "unit": "World Bank Digitalize reform framework", "value_type": "reported_policy_framework"},
+      "measures": {
+        "digital_transformation": {"value": "digital transformation is presented as a productivity, innovation, entrepreneurship, and public-service-delivery priority", "unit": "reported policy frame", "value_type": "reported_synthesis"},
+        "access_conditions": {"value": "the proposed route includes improving internet quality and affordability, expanding digital government services, and strengthening digital skills", "unit": "reported policy package", "value_type": "reported_policy_set"},
+        "dependency_test": {"value": "digitalization becomes inclusive only if people can afford access, use services, retain alternatives, and contest errors or exclusion", "unit": "analytic accountability route", "value_type": "research_queue"}
+      },
+      "method": "World Bank country-report strategy and reform priorities summarized in the official release.",
+      "uncertainty": "The release does not report current connectivity, affordability, digital-skill gaps, public-service uptake, privacy safeguards, or distributional effects.",
+      "subgroup": "Young people, older residents, rural or remote users, low-income households, entrepreneurs, public-service users, and workers exposed to digital transition.",
+      "counterinterpretation": "Digital government can reduce distance and administrative friction, but it can also shift costs and responsibilities onto users when connectivity, support, and appeal routes are weak.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/seychelles-could-create-thousands-of-new-and-better-paid-jobs-and-increase-gdp",
+      "retrieval_hash": "sha256:9f2228bc8a10064425f80c48dcee921d4403f24dfed50966097f3d1f60a8ba55",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/04/zimbabwe-must-leverage-macroeconomic-stability", "claim": "Zimbabwe Growth and Jobs provides a contrasting route where growth and stabilization coexist with mass informality and weak household translation."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-group-backs-water-security-sanitation-paraiba-brazil", "claim": "Brazil Paraíba water-security work provides complementary infrastructure and service-access context."}
+  ],
+  "boundary": "This record adds a small-island growth-to-household route from aging, skills shortages, isolation, labor-market and business reform, human capital, digital access, and public services through projected jobs, wages, purchasing power, and social mobility. It is a country-report summary with modeled scenarios, not a causal evaluation, household panel, or proof of equitable gains.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank September 17, 2026 press release was reviewed for Seychelles growth context, aging and isolation pressures, modeled GDP/jobs/wage/purchasing-power gains, labor-market modernization, youth skills, school-to-work pathways, digital adoption, internet affordability, digital government, and skills priorities.",
+    "source_url_sha256": "sha256:9f2228bc8a10064425f80c48dcee921d4403f24dfed50966097f3d1f60a8ba55",
+    "checked": "2026-09-28"
+  }
+}

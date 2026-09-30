@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mckinsey-state-consumer-2026-ai-health-experience-resourceful-value",
+  "title": "Consumer value is being recalculated through AI-mediated discovery, measurable wellness, experiences, and resourceful low-waste spending",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "McKinsey & Company, State of the Consumer 2026: When tech acceleration and cost pressures collide, 22 June 2026",
+  "geography": "Consumer trends in Brazil, France, Germany, the United Kingdom, and the United States, with global market and category context",
+  "observations": [
+    {
+      "period": "2026; consumer sentiment and four trend frame",
+      "denominator": {"value": 4863, "unit": "consumers surveyed in Brazil, France, Germany, the United Kingdom, and the United States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "dominant_pressures": {"value": "rapid technology advancement and sustained cost consciousness are identified as broad, persistent forces shaping consumption", "unit": "McKinsey synthesis", "value_type": "reported_framework"},
+        "trend_set": {"value": "the tech-driven path to purchase, health revolution, experience economy, and resourceful consumer", "unit": "four reported consumer trends", "value_type": "reported_theme_set"},
+        "value_diffusion": {"value": "priority placed on value cuts across income segments and categories while established-channel scale is less decisive", "unit": "reported market mechanism", "value_type": "reported_mechanism"},
+        "method_context": {"value": "the report combines survey data with ongoing consumer sentiment research and global client work", "unit": "published method description", "value_type": "reported_method"}
+      },
+      "method": "McKinsey consumer survey of 4,863 people in five countries combined with ongoing sentiment research, category analysis, and client-work synthesis.",
+      "uncertainty": "The survey covers five markets and the four-trend frame is an interpretive business synthesis; it is not a representative estimate of all consumers globally or a causal forecast.",
+      "subgroup": "Consumers across five markets, income groups, generations, health and wellness users, digital shoppers, experience seekers, retailers, brands, and service providers.",
+      "counterinterpretation": "The prominence of technology and value may reflect the 2026 cost environment and publisher framing; conventional stores, brands, and price sensitivity remain important for many categories and consumers.",
+      "source_url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-consumer",
+      "retrieval_hash": "sha256:099226cafb9e63d55905c6506a420a0ced078fdd9b84c073aa7e90c3222ef828",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI, social discovery, and purchase journeys",
+      "denominator": {"value": 4863, "unit": "consumers in the five-country McKinsey survey; generational percentages are reported subgroup shares", "value_type": "reported_survey_sample"},
+      "measures": {
+        "gen_ai_shopping": {"value": "28 percent of Gen Z respondents report using generative-AI tools for shopping versus 16 percent of baby boomers", "unit": "survey share", "value_type": "reported_survey_share"},
+        "ai_overview": {"value": "60 percent of Gen Z respondents report regularly using AI overviews at the top of traditional search platforms versus 29 percent of baby boomers", "unit": "survey share", "value_type": "reported_survey_share"},
+        "social_discovery": {"value": "23 percent of Gen Z respondents report discovering new brands on social media, and 34 percent say social media plays a key role at purchase compared with 16 percent of boomers", "unit": "survey shares", "value_type": "reported_survey_comparison"},
+        "information_shift": {"value": "AI-generated answers can reduce clicks to brand, retailer, and publisher sites while making third-party information and signal consistency more important", "unit": "reported digital-market mechanism", "value_type": "reported_mechanism"},
+        "brand_site_citations": {"value": 1, "unit": "percent of sources cited by large language models in the report's consumer-goods XEO360 data, October 2025-May 2026", "value_type": "reported_platform_measure"}
+      },
+      "method": "McKinsey five-country survey, generational subgroup comparisons, and cited XEO360 analysis of sources used in large-language-model brand queries.",
+      "uncertainty": "The generational comparisons are survey associations, not age effects; XEO360 citation shares depend on query design, model behavior, category, and the measured period, and do not establish consumer conversion.",
+      "subgroup": "Gen Z, baby boomers, social-media users, AI-shopping users, brands, retailers, publishers, platforms, and creators of third-party product information.",
+      "counterinterpretation": "AI and social discovery can complement rather than replace stores, search, direct websites, friends, and family; adoption and trust may vary sharply by category and market.",
+      "source_url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-consumer",
+      "retrieval_hash": "sha256:099226cafb9e63d55905c6506a420a0ced078fdd9b84c073aa7e90c3222ef828",
+      "status": "reported"
+    },
+    {
+      "period": "2026; wellness, health measurement, and consumption",
+      "denominator": {"value": 4863, "unit": "consumers in the five-country McKinsey survey plus cited external category research", "value_type": "mixed_published_evidence_frame"},
+      "measures": {
+        "wellness_gap": {"value": "most surveyed consumers say dimensions such as heart health, cognitive function, sleep, stress, and gut health matter, but fewer than half feel they are achieving their wellness goals", "unit": "survey finding", "value_type": "reported_survey_finding"},
+        "health_information": {"value": "38 percent of Gen Z respondents report turning to social media for health information, while 59 percent of boomers in a cited 2024 McKinsey survey reported turning to doctors", "unit": "survey shares from current and cited research", "value_type": "reported_survey_comparison"},
+        "digital_measurement": {"value": "wearables, glucose monitors, and fitness trackers make sleep, glucose, nutrient intake, and heart health more measurable to consumers", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"},
+        "food_and_wellness_route": {"value": "consumer demand is moving toward products that reduce trade-offs among taste, price, and health function, with more specific life-stage and physiological segmentation", "unit": "reported market mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "McKinsey consumer survey and synthesis of cited wellness, food-and-beverage, health-information, and GLP-1 evidence.",
+      "uncertainty": "Several health and GLP-1 figures come from different surveys, dates, and external sources; the report does not establish that wearable feedback or product changes cause durable health improvement.",
+      "subgroup": "Gen Z, millennials, boomers, wellness consumers, people using wearables or health tools, food and beverage consumers, patients, clinicians, and health-oriented brands.",
+      "counterinterpretation": "Digital measurement can widen attention without improving access, interpretation, or outcomes; health goals and information sources may reflect affordability, clinical availability, and cultural norms.",
+      "source_url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-consumer",
+      "retrieval_hash": "sha256:099226cafb9e63d55905c6506a420a0ced078fdd9b84c073aa7e90c3222ef828",
+      "status": "reported"
+    },
+    {
+      "period": "2026; experience spending and resourceful consumption",
+      "denominator": {"value": 4863, "unit": "consumers in the five-country McKinsey survey, with global market-growth comparisons", "value_type": "mixed_published_evidence_frame"},
+      "measures": {
+        "experience_growth": {"value": 2.6, "unit": "percent global experiences-market growth from 2023 to 2025, versus 0.8 percent for nonessential goods", "value_type": "reported_market_growth"},
+        "cost_constraint": {"value": "cost remains the most important factor in experience-related purchases even as consumers seek connection, relaxation, excitement, and learning", "unit": "reported survey finding", "value_type": "reported_survey_finding"},
+        "resourceful_use": {"value": "82 percent say they use items longer before replacing them, 69 percent repair rather than discard, and 68 percent actively reduce waste", "unit": "survey shares", "value_type": "reported_survey_share"},
+        "alternative_consumption": {"value": "30 percent report buying apparel secondhand and nearly half report doing services themselves that they previously paid for", "unit": "survey shares", "value_type": "reported_survey_share"},
+        "value_recalibration": {"value": "resourcefulness is framed as a broader recalibration of value involving durability, versatility, repairability, resale, and selective splurges rather than uniform withdrawal from consumption", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "McKinsey five-country consumer survey combined with global market-growth comparisons and category examples for experiences, resale, repair, and DIY.",
+      "uncertainty": "Market-growth figures and survey shares use different populations and measurement periods; reported intentions do not establish actual household budgets, environmental impact, or long-term category performance.",
+      "subgroup": "Consumers under cost pressure, higher-income selective spenders, Gen Z and boomers, experience providers, resale and repair markets, retailers, and product designers.",
+      "counterinterpretation": "Resourceful consumption may coexist with higher total consumption elsewhere, and experience growth can be concentrated among consumers with enough income and mobility to participate.",
+      "source_url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-consumer",
+      "retrieval_hash": "sha256:099226cafb9e63d55905c6506a420a0ced078fdd9b84c073aa7e90c3222ef828",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mckinsey.com/industries/consumer-packaged-goods/how-we-help-clients/consumerwise", "claim": "McKinsey's ConsumerWise page identifies the report and related consumer-sentiment work."},
+    {"source_url": "https://www.mckinsey.com/featured-insights/charts/from-likes-to-buys", "claim": "A related McKinsey chart summarizes the changing relationship among social media, generative AI, and consumer trust."}
+  ],
+  "boundary": "This record adds a publisher consumer-research signal about AI-mediated discovery, health and wellness measurement, experience spending, and resourceful consumption under cost pressure. It uses aggregate survey and market synthesis, not respondent-level ingestion, a representative global consumer panel, causal health evidence, household budget diaries, or proof that any business response will work.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official McKinsey State of the Consumer 2026 page reviewed for the five-country survey frame, four trends, AI and social discovery, wellness, experience-market growth, repair, reuse, resale, and DIY measures.",
+    "source_url_sha256": "sha256:099226cafb9e63d55905c6506a420a0ced078fdd9b84c073aa7e90c3222ef828",
+    "checked": "2026-09-27"
+  }
+}

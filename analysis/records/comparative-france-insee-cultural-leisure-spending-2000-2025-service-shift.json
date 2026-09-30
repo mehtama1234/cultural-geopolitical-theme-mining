@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-france-insee-cultural-leisure-spending-2000-2025-service-shift",
+  "title": "France's household cultural and leisure spending has shifted toward services while books and durable goods lose share",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "INSEE, Cultural, sports and leisure expenditure, annual national accounts data 2000-2025",
+  "geography": "France; household cultural, sports, and leisure expenditure",
+  "observations": [
+    {
+      "period": "2021-2025; composition of household cultural, sports, and leisure expenditure",
+      "denominator": {
+        "value": 107866,
+        "unit": "million euros of household cultural, sports, and leisure expenditure in 2025; category composition denominator",
+        "value_type": "national_accounts_total"
+      },
+      "measures": {
+        "cultural_services_share_2021": {"value": 8.6, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "cultural_services_share_2022": {"value": 11.2, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "cultural_services_share_2023": {"value": 11.9, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "cultural_services_share_2024": {"value": 12.3, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "cultural_services_share_2025": {"value": 12.4, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "cultural_services_2025_value": {"value": 13356, "unit": "million euros; cinema, live shows, museums, audiovisual subscriptions, and photo development included", "value_type": "national_accounts_value"},
+        "mechanism": {"value": "The household cultural-leisure basket has reweighted toward recurring or accessed services, consistent with a service/platform economy, but the aggregate category cannot identify who consumes them or whether quantity, price, or quality changed", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "INSEE annual national accounts, base 2020, using the current COICOP classification; cultural services include cinema, live shows, museums, audiovisual subscriptions, and photo development.",
+      "uncertainty": "Shares are composition measures within cultural, sports, and leisure expenditure, not shares of all household consumption; 2024 is semi-definitive and 2025 provisional.",
+      "subgroup": "French households in the national accounts; no demographic or income breakdown is provided in this release.",
+      "counterinterpretation": "The service-share increase may reflect price changes, reopening and post-pandemic normalization, subscription accounting, or reclassification rather than more cultural participation or improved welfare.",
+      "source_url": "https://www.insee.fr/fr/statistiques/2408369",
+      "retrieval_hash": "sha256:b34a63b723fcc0e3fb64dd1928328937e6dfbfd800848419eab2cfc53bb70c1a",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; books, press, and stationery within household cultural, sports, and leisure expenditure",
+      "denominator": {
+        "value": 107866,
+        "unit": "million euros of household cultural, sports, and leisure expenditure in 2025; category composition denominator",
+        "value_type": "national_accounts_total"
+      },
+      "measures": {
+        "books_press_stationery_share_2021": {"value": 13.6, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "books_press_stationery_share_2022": {"value": 11.7, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "books_press_stationery_share_2023": {"value": 10.8, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "books_press_stationery_share_2024": {"value": 10.2, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "books_press_stationery_share_2025": {"value": 9.9, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "books_press_stationery_2025_value": {"value": 10675, "unit": "million euros", "value_type": "national_accounts_value"},
+        "mechanism": {"value": "Books, press, and stationery have lost composition share since 2021 even as cultural services gained share, indicating a shift in the paid cultural basket rather than a uniform expansion of every cultural category", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "INSEE annual national accounts category shares and 2025 provisional values.",
+      "uncertainty": "The aggregate books/press/stationery category combines physical and potentially digital items under the classification and does not measure reading, attention, or cultural meaning.",
+      "subgroup": "French households in the national accounts; no income, age, education, or household-type breakdown in this release.",
+      "counterinterpretation": "Share decline can result from faster growth in other categories or relative price movements rather than a fall in book purchases or reading volume.",
+      "source_url": "https://www.insee.fr/fr/statistiques/2408369",
+      "retrieval_hash": "sha256:b34a63b723fcc0e3fb64dd1928328937e6dfbfd800848419eab2cfc53bb70c1a",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; durable cultural and audiovisual/photo equipment within household cultural, sports, and leisure expenditure",
+      "denominator": {
+        "value": 107866,
+        "unit": "million euros of household cultural, sports, and leisure expenditure in 2025; category composition denominator",
+        "value_type": "national_accounts_total"
+      },
+      "measures": {
+        "other_durable_cultural_recreational_goods_share_2021": {"value": 11.3, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "other_durable_cultural_recreational_goods_share_2025": {"value": 9.0, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "audiovisual_photographic_equipment_share_2021": {"value": 1.6, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "audiovisual_photographic_equipment_share_2025": {"value": 1.2, "unit": "percent of cultural, sports, and leisure expenditure", "value_type": "national_accounts_share"},
+        "services_plus_books_share_2025": {"value": 22.3, "unit": "percent of cultural, sports, and leisure expenditure; cultural services plus books/press/stationery", "value_type": "calculated_composition_share"},
+        "mechanism": {"value": "The paid cultural basket is becoming less equipment- and durable-good-heavy while services remain prominent, consistent with access shifting from ownership toward use, subscription, and venue/service purchase", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "INSEE annual national accounts composition data using the revised COICOP classification; the combined 2025 service-plus-books figure is calculated from the published shares.",
+      "uncertainty": "The classification does not reveal device ownership, streaming quantity, household access, or whether services are consumed digitally or in person; the calculated combination is descriptive.",
+      "subgroup": "French households in the national accounts.",
+      "counterinterpretation": "Equipment-share decline may reflect durable replacement cycles, price changes, or reclassification, not a move away from owned cultural goods in every household.",
+      "source_url": "https://www.insee.fr/fr/statistiques/2408369",
+      "retrieval_hash": "sha256:b34a63b723fcc0e3fb64dd1928328937e6dfbfd800848419eab2cfc53bb70c1a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.insee.fr/fr/statistiques/2408369",
+      "claim": "INSEE table provides annual 2000-2025 cultural, sports, and leisure expenditure composition, category definitions, values, and provisional/semi-definitive status.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.insee.fr/fr/statistiques/2408369#titre-bloc-2",
+      "claim": "INSEE table and downloadable data identify the national-accounts source and revised COICOP classification.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds French national-accounts evidence on the composition of household cultural, sports, and leisure expenditure. It measures expenditure shares rather than participation, reach, frequency, quality, prices by category, income distribution, or cultural meaning; 2025 figures are provisional and the aggregate category is broader than culture alone.",
+  "retrieval_hash": "sha256:b34a63b723fcc0e3fb64dd1928328937e6dfbfd800848419eab2cfc53bb70c1a"
+}

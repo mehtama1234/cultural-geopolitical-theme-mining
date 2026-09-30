@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-meta-rai-india-omnichannel-shopping-2026-social-discovery-creators",
+  "title": "Indian retail journeys are becoming social, creator-led, conversational, and omnichannel, with platform data connecting discovery to offline purchase",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Meta and Retailers Association of India, India omnichannel shopping whitepaper findings",
+  "geography": "India retail consumers, brands, creators, and online/offline commerce journeys",
+  "observations": [
+    {
+      "period": "2026; India omnichannel shopping behavior",
+      "denominator": {"value": 1, "unit": "Meta-RAI whitepaper consumer and retail-journey frame; sample details are not stated in the public newsroom summary", "value_type": "reported_frame"},
+      "measures": {
+        "cross_channel_spend": {"value": 2.5, "unit": "times the spending of single-channel shoppers, as reported for omnichannel shoppers", "value_type": "reported_comparison"},
+        "multi_touchpoint_value": {"value": 73, "unit": "percent higher spending reported when consumers engage across multiple touchpoints, as described in the public summary", "value_type": "reported_comparison"},
+        "journey_model": {"value": "Discovery, influence, conversation, purchase, and post-purchase interaction are converging across social, messaging, online, and physical retail", "unit": "reported commerce mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Meta newsroom summary of a whitepaper produced with the Retailers Association of India, combining research insights and real-world case studies.",
+      "uncertainty": "The public summary does not state the consumer sample, field dates, weighting, causal design, spending definitions, or whether the 73% comparison and 2.5-times comparison use the same population and denominator.",
+      "subgroup": "Indian omnichannel shoppers, single-channel shoppers, retailers, platforms, creators, marketers, delivery systems, and offline stores.",
+      "counterinterpretation": "Higher spending among omnichannel shoppers may reflect pre-existing income, shopping frequency, or product mix rather than an effect of omnichannel exposure; more touchpoints can also increase surveillance and impulse spending.",
+      "source_url": "https://about.fb.com/news/2026/02/ai-fuels-indias-omnichannel-shopping-surge-meta-retailers-association-of-india/",
+      "retrieval_hash": "sha256:81b2ec265ab10e1335c22414deb5dc53d2790230eafa05314b3a6a6e02711973",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social discovery and short-form video in India",
+      "denominator": {"value": 1, "unit": "Meta-RAI whitepaper social-discovery frame", "value_type": "reported_frame"},
+      "measures": {
+        "social_discovery": {"value": 77, "unit": "percent of retail brand and product discovery reported as happening on social media", "value_type": "reported_consumer_measure"},
+        "meta_share_of_social_discovery": {"value": 96, "unit": "percent of social discovery reported as occurring on Meta platforms", "value_type": "reported_platform_measure"},
+        "daily_short_form_video": {"value": 97, "unit": "percent of consumers reported as watching short-form video daily", "value_type": "reported_consumer_measure"},
+        "video_time": {"value": 60, "unit": "percent of time on Facebook and Instagram reported as spent on video", "value_type": "reported_platform_measure"}
+      },
+      "method": "Meta newsroom summary of the Meta-RAI retail whitepaper and platform-reported discovery and usage measures.",
+      "uncertainty": "These figures are company-associated claims; the public page does not provide full survey wording, independent validation, platform denominator, market coverage, or a non-platform comparison sufficient to estimate total Indian social discovery.",
+      "subgroup": "Indian retail consumers, short-form-video viewers, social platforms, brands, creators, and marketers using video for discovery.",
+      "counterinterpretation": "Platform-attributed discovery may overstate platform causation, omit untracked offline discovery, and reflect measurement choices or self-reinforcing recommendation systems.",
+      "source_url": "https://about.fb.com/news/2026/02/ai-fuels-indias-omnichannel-shopping-surge-meta-retailers-association-of-india/",
+      "retrieval_hash": "sha256:81b2ec265ab10e1335c22414deb5dc53d2790230eafa05314b3a6a6e02711973",
+      "status": "reported"
+    },
+    {
+      "period": "2026; online/offline research crossing in Indian retail",
+      "denominator": {"value": 1, "unit": "Meta-RAI whitepaper omnichannel consumer-journey frame", "value_type": "reported_frame"},
+      "measures": {
+        "online_to_store_research": {"value": 50, "unit": "percent-plus of retail consumers reported as researching online before buying in-store", "value_type": "reported_consumer_measure"},
+        "store_to_online_research": {"value": 50, "unit": "percent-plus of retail consumers reported as researching in-store before buying online", "value_type": "reported_consumer_measure"},
+        "commerce_architecture": {"value": "Retailers are being pushed toward unified models that integrate discovery, conversion, and fulfilment across digital and physical touchpoints", "unit": "reported business mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Meta newsroom summary of the whitepaper's reported cross-channel research behavior and retail implications.",
+      "uncertainty": "The public summary does not define the exact thresholds, sample, product categories, time period, or whether the two measures are mutually exclusive or based on the same respondents.",
+      "subgroup": "Consumers comparing products across channels, physical retailers, e-commerce firms, store associates, logistics providers, and commerce platforms.",
+      "counterinterpretation": "Cross-channel research may increase comparison and agency for some consumers while shifting costs to workers, increasing data extraction, and disadvantaging households with limited connectivity or nearby retail access.",
+      "source_url": "https://about.fb.com/news/2026/02/ai-fuels-indias-omnichannel-shopping-surge-meta-retailers-association-of-india/",
+      "retrieval_hash": "sha256:81b2ec265ab10e1335c22414deb5dc53d2790230eafa05314b3a6a6e02711973",
+      "status": "reported"
+    },
+    {
+      "period": "2026; conversational commerce and creator influence in India",
+      "denominator": {"value": 1, "unit": "Meta-RAI whitepaper messaging and creator-commerce frame", "value_type": "reported_frame"},
+      "measures": {
+        "whatsapp_discovery": {"value": 72, "unit": "percent of product discovery reported as happening on WhatsApp", "value_type": "reported_platform_measure"},
+        "creator_purchase": {"value": 71, "unit": "percent of consumers reported as making a purchase within a couple of days after seeing creator content on Meta technologies", "value_type": "reported_consumer_measure"},
+        "business_messaging_returns": {"value": 61, "unit": "percent average improvement in return on ad spend reported for Business Messaging and Click-to-WhatsApp campaigns", "value_type": "reported_business_measure"},
+        "lead_generation": {"value": 62, "unit": "percent average increase in leads reported for the same messaging campaigns", "value_type": "reported_business_measure"}
+      },
+      "method": "Meta newsroom summary of platform and whitepaper measures on WhatsApp discovery, creator content, and business messaging outcomes.",
+      "uncertainty": "The public summary does not provide independent measurement, sample design, baseline definitions, category mix, attribution windows, or whether reported campaign gains generalize beyond participating businesses.",
+      "subgroup": "WhatsApp users, creators, retail brands, small businesses, advertisers, messaging customers, and consumers translating social trust into purchase.",
+      "counterinterpretation": "Conversational and creator commerce may make discovery more relevant, but it can also blur advertising and advice, intensify behavioral targeting, and make platform dependence a condition of market visibility.",
+      "source_url": "https://about.fb.com/news/2026/02/ai-fuels-indias-omnichannel-shopping-surge-meta-retailers-association-of-india/",
+      "retrieval_hash": "sha256:81b2ec265ab10e1335c22414deb5dc53d2790230eafa05314b3a6a6e02711973",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an India retail signal on social discovery, short-form video, creators, WhatsApp, online/offline research, and platform-linked omnichannel measurement. It is based on a Meta newsroom summary of a Meta-RAI whitepaper and contains company-reported platform and campaign measures; it is not an independent national survey, a causal evaluation, a complete retail-market census, or proof that platform-attributed conversion reflects durable consumer welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Meta newsroom page reviewed for the Meta-RAI whitepaper's omnichannel spending comparison, social-discovery and video measures, online/offline research behavior, WhatsApp discovery, creator purchase, and messaging campaign outcomes.",
+    "source_url_sha256": "sha256:81b2ec265ab10e1335c22414deb5dc53d2790230eafa05314b3a6a6e02711973",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-kenya-smart-mediator-assignment-justice-capacity-2026",
+  "title": "Allocating scarce judicial mediation capacity turns algorithmic matching into an access-to-justice institution",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11456, SMaRT: Online Reusable Resource Assignment and an Application to Mediation in the Kenyan Judiciary",
+  "geography": "Kenya; court-annexed mediation across 87 court stations, 13 case-type categories, and approximately 2,100 mediators",
+  "observations": [
+    {
+      "period": "2016-2025 administrative data; court-annexed mediation allocation frame",
+      "denominator": {"value": 30633, "unit": "mediation cases in the Kenyan Judiciary administrative dataset", "value_type": "reported_administrative_sample"},
+      "measures": {
+        "mediator_pool": {"value": 2100, "unit": "approximately 2,100 mediators", "value_type": "reported_resource_pool"},
+        "court_stations": {"value": 87, "unit": "court stations", "value_type": "reported_geographic_coverage"},
+        "case_categories": {"value": 13, "unit": "case-type categories", "value_type": "reported_case_coverage"},
+        "allocation_problem": {"value": "incoming cases must be assigned immediately to eligible, capacity-constrained mediators whose quality is heterogeneous and partly unknown", "unit": "bounded institutional problem", "value_type": "reported_problem_definition"}
+      },
+      "method": "Retrospective analysis of restricted Kenyan Judiciary mediation records, with algorithmic experiments using observed case, mediator, capacity, eligibility, and resolution information.",
+      "uncertainty": "The administrative dataset and computational experiments describe the allocation problem and simulate algorithm performance; they do not yet provide causal evidence from live deployment.",
+      "subgroup": "Litigants, case types, court stations, newly onboarded and experienced mediators, and mediators with different estimated historical value added or workload.",
+      "counterinterpretation": "Historical assignment and resolution data may reflect selection, case mix, station differences, or institutional practices rather than stable mediator quality; mediation resolution is not the same as equal justice, satisfaction, or durable settlement.",
+      "source_url": "https://documents.worldbank.org/curated/en/099845009162639662/pdf/IDU-a2beaaf7-dbcc-4441-a911-92c4420f73e2.pdf",
+      "retrieval_hash": "sha256:955ada03559697e2a620a49bfb15be1214194f500422dc5eae65a61d05a08273",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; SMaRT algorithmic allocation and learning design",
+      "denominator": {"value": 1, "unit": "online judicial resource-assignment algorithm", "value_type": "reported_method_frame"},
+      "measures": {
+        "algorithm": {"value": "SMaRT (Selecting Mediators that are Right for the Task) combines quadratic-program assignment with multi-agent bandit-style learning", "unit": "reported algorithm design", "value_type": "reported_method"},
+        "objective": {"value": "maximize case completion or resolution while assigning immediately under soft capacity constraints and eligibility restrictions", "unit": "reported optimization objective", "value_type": "reported_objective"},
+        "comparative_result": {"value": "SMaRT outperforms baseline approaches in stylized instances and in applications to the Kenyan data, while exposing the tradeoff between capacity strictness and case resolution", "unit": "reported computational result", "value_type": "reported_algorithmic_result"},
+        "institutional_mechanism": {"value": "matching rules convert hidden administrative judgment about quality, eligibility, workload, and delay into an explicit allocation system", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Quadratic programming and multi-agent bandit-style learning evaluated against baselines under known-quality and learning-about-quality settings.",
+      "uncertainty": "The result is algorithmic and computational rather than a measured improvement in litigant outcomes; objective weights and quality estimates embed normative choices about throughput, capacity, and fairness.",
+      "subgroup": "Cases arriving over time, mediators with different capacity and estimated quality, and courts balancing prompt assignment against overload and resolution performance.",
+      "counterinterpretation": "A higher modeled resolution rate may not improve access if the algorithm reallocates difficult cases, disadvantages less-observed mediators, or makes the process less contestable to litigants and legal professionals.",
+      "source_url": "https://documents.worldbank.org/curated/en/099845009162639662/pdf/IDU-a2beaaf7-dbcc-4441-a911-92c4420f73e2.pdf",
+      "retrieval_hash": "sha256:955ada03559697e2a620a49bfb15be1214194f500422dc5eae65a61d05a08273",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; proposed institutional test",
+      "denominator": {"value": 1, "unit": "planned Kenyan Judiciary deployment evaluation", "value_type": "reported_future_evaluation"},
+      "measures": {
+        "causal_status": {"value": "the study plans a randomized controlled trial deploying SMaRT in the judiciary's mediation management system", "unit": "reported evaluation status", "value_type": "reported_planned_evaluation"},
+        "fairness_question": {"value": "the central policy choice is not simply whether to automate, but how to balance immediate assignment, mediator workload, estimated quality, geographic eligibility, and case resolution", "unit": "bounded governance question", "value_type": "bounded_governance_mechanism"},
+        "legitimacy_risk": {"value": "an allocation system can make institutional priorities more visible while also creating a new opaque authority over who receives which public-facing service", "unit": "bounded social-political interpretation", "value_type": "bounded_mechanism"},
+        "reproduction_status": {"value": "World Bank computational reproducibility package is available, while the restricted administrative data are not redistributed", "unit": "reported reproducibility condition", "value_type": "reported_data_boundary"}
+      },
+      "method": "Forward-looking evaluation design plus review of the World Bank reproducibility metadata and data-access limitations.",
+      "uncertainty": "The RCT has not yet established causal effects; the future evaluation may measure operational outcomes more directly than legitimacy, perceived fairness, or unequal access.",
+      "subgroup": "Litigants, mediators, court administrators, legal professionals, and cases with different urgency, complexity, location, and likelihood of successful mediation.",
+      "counterinterpretation": "Algorithmic allocation may be a narrow operational aid rather than a broad justice reform; transparent human override and appeals could preserve legitimacy even if the matching model is imperfect.",
+      "source_url": "https://documents.worldbank.org/curated/en/099845009162639662/pdf/IDU-a2beaaf7-dbcc-4441-a911-92c4420f73e2.pdf",
+      "retrieval_hash": "sha256:955ada03559697e2a620a49bfb15be1214194f500422dc5eae65a61d05a08273",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/research/all?lang_exact=English&os=20&qterm=", "claim": "World Bank research listing for Policy Research Working Paper 11456 and its abstract."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/648", "claim": "World Bank reproducibility package, restricted-data statement, computational verification, and study metadata."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11456.html", "claim": "Bibliographic record and publisher PDF link for WPS11456."}
+  ],
+  "boundary": "This record adds algorithmic public-capacity allocation as a justice and legitimacy mechanism. It is not evidence that SMaRT has improved live judicial outcomes, that mediation equals equal justice, or that optimizing resolution rates resolves the normative question of fair allocation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, World Bank research listing, and reproducibility package were reviewed for the Kenyan administrative dataset, mediator and court coverage, assignment constraints, SMaRT algorithm, baseline comparison, capacity-resolution tradeoff, proposed RCT, and restricted-data boundary.",
+    "source_url_sha256": "sha256:955ada03559697e2a620a49bfb15be1214194f500422dc5eae65a61d05a08273",
+    "checked": "2026-09-29"
+  }
+}

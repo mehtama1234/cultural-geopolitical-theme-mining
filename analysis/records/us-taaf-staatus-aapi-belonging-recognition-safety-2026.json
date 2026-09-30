@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-taaf-staatus-aapi-belonging-recognition-safety-2026",
+  "title": "AAPI cultural visibility is rising without resolving belonging, recognition, threat perception, or everyday safety",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "housing_place_mobility"
+  ],
+  "source_unit": "The Asian American Foundation, STAATUS Index 2026",
+  "geography": "United States; national survey of U.S. adults with Asian American and Pacific Islander subgroup analysis",
+  "observations": [
+    {
+      "period": "2026; definitions of belonging and American identity",
+      "denominator": {"value": 1778, "unit": "U.S. adults surveyed nationally; subgroup bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "birthplace_definition": {"value": 50, "unit": "percent of U.S. adults saying being born in the United States is important to being truly American", "value_type": "reported_survey_share"},
+        "aapi_birthplace_rejection": {"value": 77, "unit": "percent of AAPIs saying being born in the United States is not important to being truly American", "value_type": "reported_subgroup_share"},
+        "identity_boundary": {"value": "AAPIs are more likely than other groups to decouple American identity from being white, Christian, or U.S.-born", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "belonging_mechanism": {"value": "Belonging is contested across the definition of Americanness, not reducible to formal citizenship or perceived social position", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "STAATUS Index 2026 national survey of U.S. adults with comparisons by racial and ethnic group and AAPI-specific questions; the public report page does not expose all fieldwork and weighting details.",
+      "uncertainty": "The public summary gives the overall sample and selected subgroup percentages but not every subgroup denominator, question wording, field dates, weighting procedure, or margin of error.",
+      "subgroup": "U.S. adults, AAPI adults, and comparison groups identified in the public report.",
+      "counterinterpretation": "Responses may reflect differing interpretations of ‘truly American’ and group identity; rejecting birthplace as a criterion does not establish equal belonging in institutions or daily life.",
+      "source_url": "https://taaf.org/our-work/staatus-index-2026",
+      "retrieval_hash": "sha256:07ff8fb326a22488f23e452777118778e714ce96b7b6e4cb61a2ab3f75a78b30",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cultural contribution and recognition",
+      "denominator": {"value": 1778, "unit": "U.S. adults surveyed nationally; subgroup bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "great_deal_cultural_influence": {"value": 7, "unit": "percent of U.S. adults saying AAPI communities have a great deal of influence on U.S. culture", "value_type": "reported_survey_share"},
+        "little_or_no_influence": {"value": 49, "unit": "percent of U.S. adults saying AAPI communities have little or no influence on U.S. culture", "value_type": "reported_survey_share"},
+        "recent_influence_gain": {"value": 33, "unit": "approximately one in three U.S. adults saying AAPIs have gained cultural influence in the past five years", "value_type": "reported_survey_share_approximate"},
+        "sector_visibility": {"value": "AAPI influence is more visible in food and restaurants, digital culture and gaming, film and television, and fashion/beauty than in generalized recognition", "unit": "reported sector pattern", "value_type": "reported_pattern"},
+        "recognition_mechanism": {"value": "Cultural contribution can be consumed or noticed in sectors while remaining weakly credited as collective influence or historical knowledge", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey questions on perceived AAPI cultural influence overall, by sector, and over the prior five years.",
+      "uncertainty": "Perceived cultural influence is not a measure of ownership, representation, economic benefit, media exposure, or institutional recognition; approximate figures and subgroup bases are reported as presented on the public page.",
+      "subgroup": "U.S. adults, AAPI adults, younger and older adults, and respondents evaluating cultural sectors.",
+      "counterinterpretation": "Low generalized recognition could reflect a high threshold for naming group influence even where everyday cultural exchange is substantial; sector visibility may be a sign of gradual recognition rather than a fixed gap.",
+      "source_url": "https://taaf.org/our-work/staatus-index-2026",
+      "retrieval_hash": "sha256:07ff8fb326a22488f23e452777118778e714ce96b7b6e4cb61a2ab3f75a78b30",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived threat and policy framing",
+      "denominator": {"value": 1778, "unit": "U.S. adults surveyed nationally; concerned-respondent bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "chinese_american_threat": {"value": 20, "unit": "approximately one in five U.S. adults concerned that Chinese Americans pose a threat to U.S. society", "value_type": "reported_survey_share_approximate"},
+        "threat_reasons": {"value": "Among concerned respondents, national security (85%) and job-market competition (72%) are leading reasons, followed by educational opportunity, culture/values, and public health", "unit": "reported conditional reasons", "value_type": "reported_pattern"},
+        "framing_shift": {"value": "Support for revoking Chinese student visas in critical fields shifts materially under right-leaning, balanced, and left-leaning arguments", "unit": "reported message-test pattern", "value_type": "reported_experimental_pattern"},
+        "threat_mechanism": {"value": "Geopolitical competition can be translated into ethnic suspicion, while framing and information context alter support for restrictive policy", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey measures of perceived threat and reasons, paired with a framing experiment on a restrictive student-visa policy; the public summary reports the directional and selected percentage results.",
+      "uncertainty": "The framing result is an attitudinal experiment, not a forecast of legislation or behavior; concern about Chinese Americans is not equivalent to a policy position, discriminatory action, or actual security risk.",
+      "subgroup": "U.S. adults, respondents concerned about Chinese Americans, and respondents receiving different political frames.",
+      "counterinterpretation": "Security and labor-market concerns may be sincere policy concerns rather than generalized ethnic hostility, while frame responsiveness can reflect ordinary question-order and argument effects.",
+      "source_url": "https://taaf.org/our-work/staatus-index-2026",
+      "retrieval_hash": "sha256:07ff8fb326a22488f23e452777118778e714ce96b7b6e4cb61a2ab3f75a78b30",
+      "status": "reported"
+    },
+    {
+      "period": "2026; everyday safety, recognition, and routes to engagement",
+      "denominator": {"value": 1778, "unit": "U.S. adults surveyed nationally; AAPI subgroup bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "aapi_race_harassment": {"value": 20, "unit": "approximately one in five AAPIs reporting being insulted or harassed because of race in the past year", "value_type": "reported_subgroup_share_approximate"},
+        "unsafe_spaces": {"value": "Among AAPIs, public transit (22%) and online spaces or social media (19%) are the most commonly reported places of racial unsafety or discomfort", "unit": "reported subgroup shares", "value_type": "reported_survey_pattern"},
+        "information_gap": {"value": 31, "unit": "percent of U.S. adults saying they get no information about AAPI communities", "value_type": "reported_survey_share"},
+        "engagement_routes": {"value": "Respondents most often identify cultural/community programs (43%), film and television (37%), and school teaching of AAPI history (34%) as ways to support AAPI communities; more events and local-business promotion (40%) are the leading draw to ethnic neighborhoods", "unit": "reported support and participation preferences", "value_type": "reported_pattern"},
+        "safety_recognition_gap": {"value": "Public-facing cultural visibility and proposed education routes coexist with persistent racial exposure in transit, online spaces, and everyday interaction", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey measures of racial incidents, place-specific safety, information exposure, proposed support, and neighborhood-engagement preferences.",
+      "uncertainty": "Self-reported incidents and safety perceptions do not measure administrative complaints, prevalence of all discrimination, causal effects of media or education, or repeat participation in ethnic neighborhoods.",
+      "subgroup": "AAPI adults, U.S. adults with and without relationships or information about AAPIs, and residents/visitors to ethnic neighborhoods.",
+      "counterinterpretation": "The proposed engagement routes may reflect stated openness without guaranteed attendance, funding, institutional trust, or protection from harassment; transit and online exposure can be context-specific.",
+      "source_url": "https://taaf.org/our-work/staatus-index-2026",
+      "retrieval_hash": "sha256:07ff8fb326a22488f23e452777118778e714ce96b7b6e4cb61a2ab3f75a78b30",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://taaf.org/our-work/staatus-index-2026", "claim": "Official STAATUS Index 2026 publication page and public findings."},
+    {"source_url": "https://www.norc.org/research/projects/staatus-index.html", "claim": "NORC research and data-collection context for the STAATUS Index, where available."}
+  ],
+  "boundary": "This record adds an AAPI cultural-politics mechanism: cultural contribution and apparent social position can coexist with weak recognition, contested belonging, geopolitical threat perception, race-based harassment, and place-specific unsafety. It is a survey and message-test summary, not a longitudinal discrimination panel, administrative incident dataset, causal evaluation of education/media, or proof that stated engagement routes become durable inclusion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official TAAF STAATUS Index 2026 page was reviewed for sample size, belonging definitions, perceived social position, federal-policy disconnect, perceived threat and framing, cultural recognition, racial incidents, unsafe spaces, information gaps, and proposed engagement routes.",
+    "source_url_sha256": "sha256:07ff8fb326a22488f23e452777118778e714ce96b7b6e4cb61a2ab3f75a78b30",
+    "checked": "2026-09-28"
+  }
+}

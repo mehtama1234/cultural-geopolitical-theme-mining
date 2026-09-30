@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dcms-offload-movember-youth-connection-pilot-2026-evaluation",
+  "title": "A place-based sports intervention is being used as a bridge from social connection to mental-health literacy, aspiration and re-engagement for boys and young men at risk of isolation",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport, Rugby League Cares and Edge Hill University, evaluation of Offload and Movember Ahead of the Game pilots",
+  "geography": "Wigan and Wakefield, England; boys and young men experiencing loneliness, isolation or NEET status",
+  "observations": [
+    {
+      "period": "November 2025–March 2026; pilot delivery",
+      "denominator": {"value": 1400, "unit": "more than 1,400 participants reported as engaged across the two pilot programmes", "value_type": "reported_programme_reach"},
+      "measures": {
+        "locations": {"value": 2, "unit": "English localities: Wigan and Wakefield", "value_type": "reported_count"},
+        "delivery_partners": {"value": 4, "unit": "Community Club Organisations linked to professional rugby league teams delivering the pilots", "value_type": "reported_count"},
+        "programme_pair": {"value": "Movember Ahead of the Game and Offload", "unit": "two place-based community-sport pilots", "value_type": "reported_programme_set"}
+      },
+      "method": "Government-funded pilot delivery by Rugby League Cares with independent evaluation commissioned from Edge Hill University's Centre for Mental Health, Sport and Physical Activity Research and Faculty of Education.",
+      "uncertainty": "The public summary reports programme reach but does not establish a randomized comparison, representative reach, retention, effect size or long-term outcomes.",
+      "subgroup": "Boys aged 11–18 in the prevention programme and NEET young men aged 16–24 in the targeted programme.",
+      "counterinterpretation": "Reported reach can include varied levels of engagement and does not show that every participant experienced improved connection, wellbeing or aspiration.",
+      "source_url": "https://www.gov.uk/government/publications/improving-social-connections-wellbeing-and-aspirations-among-boys-and-young-men-experiencing-loneliness-and-isolation-through-the-offload-and-movember",
+      "retrieval_hash": "sha256:56abe4a463d724ba299c6c1a2cd653b4b95077dd94ca7251a0195bbd2350e870",
+      "status": "reported"
+    },
+    {
+      "period": "November 2025–March 2026; programme design and target populations",
+      "denominator": {"value": 2, "unit": "pilot programme models evaluated", "value_type": "reported_programme_frame"},
+      "measures": {
+        "ahead_of_game": {"value": "prevention programme for boys and young men aged 11–18 and trusted adults, teaching mental-health conversation and support skills", "unit": "reported programme design", "value_type": "reported_intervention_route"},
+        "offload": {"value": "six-week early-intervention behaviour-change programme for NEET young men aged 16–24 focused on social connections, wellbeing, aspirations and coping with life challenges", "unit": "reported programme design", "value_type": "reported_intervention_route"},
+        "trusted_network": {"value": "parents, guardians, youth workers, group leaders and volunteers are included as part of the support network", "unit": "reported programme design", "value_type": "reported_support_network"}
+      },
+      "method": "Programme description and evaluation scope from the UK government publication and Edge Hill University report abstract.",
+      "uncertainty": "Programme descriptions indicate intended mechanisms, not evidence that the mechanisms were delivered uniformly or caused observed changes.",
+      "subgroup": "Boys and young men at different prevention and early-intervention stages, including NEET young men and their trusted adults.",
+      "counterinterpretation": "A single sports identity may be a strong engagement hook for some participants but exclude those who do not identify with rugby, sport or male-coded group settings.",
+      "source_url": "https://research.edgehill.ac.uk/en/publications/improving-social-connections-wellbeing-and-aspirations-among-boys/",
+      "retrieval_hash": "sha256:6717fbcbe5df78ece6f75fd0f69524d45f511e36b25172d3a910ab637e52fc8a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 evaluation; social connection, wellbeing and aspiration outcomes",
+      "denominator": {"value": 1, "unit": "independent evaluation of the two pilot programme models", "value_type": "published_evaluation_frame"},
+      "measures": {
+        "evaluation_questions": {"value": "whether the programmes improve social connections, wellbeing and aspirations, and what should be adapted for future scale-up", "unit": "reported evaluation purpose", "value_type": "reported_evaluation_scope"},
+        "reported_direction": {"value": "public summaries describe encouraging improvements in social connection, wellbeing and aspirations among participants", "unit": "reported evaluation direction", "value_type": "reported_interpretation"},
+        "scale_up_question": {"value": "evaluation is intended to generate actionable learning for potential future scale-up or adaptation", "unit": "reported policy-use route", "value_type": "reported_policy_route"}
+      },
+      "method": "Independent evaluation commissioned by Rugby League Cares and reported through UK government, Edge Hill University and partner summaries.",
+      "uncertainty": "The accessible public summaries do not provide complete outcome tables, comparison groups, attrition, measurement instruments or effect sizes; reported improvement should not be treated as causal proof.",
+      "subgroup": "Pilot participants, delivery organizations, trusted adults, community-sport practitioners and policymakers considering youth loneliness interventions.",
+      "counterinterpretation": "Positive change may reflect selection into the programme, intensive local delivery, novelty, regression to the mean, participant self-report or concurrent support.",
+      "source_url": "https://www.gov.uk/government/publications/improving-social-connections-wellbeing-and-aspirations-among-boys-and-young-men-experiencing-loneliness-and-isolation-through-the-offload-and-movember",
+      "retrieval_hash": "sha256:56abe4a463d724ba299c6c1a2cd653b4b95077dd94ca7251a0195bbd2350e870",
+      "status": "reported"
+    },
+    {
+      "period": "2026; place-based community sport as a social-infrastructure mechanism",
+      "denominator": {"value": 1, "unit": "place-based youth intervention mechanism", "value_type": "published_programme_synthesis"},
+      "measures": {
+        "engagement_hook": {"value": "professional-sport identity and trusted community organizations are used to lower the barrier to joining conversations about mental health and connection", "unit": "reported mechanism", "value_type": "reported_interpretation"},
+        "reengagement_route": {"value": "regular group activity is linked in the programme logic to confidence, coping, aspirations and possible re-engagement with education or employment", "unit": "reported theory of change", "value_type": "reported_intervention_route"},
+        "local_system": {"value": "four club-community foundations create a place-based delivery network rather than a purely digital or clinical intervention", "unit": "reported delivery model", "value_type": "reported_intervention_route"}
+      },
+      "method": "Synthesis of pilot design, public evaluation summaries and the broader DCMS social-connection evidence base.",
+      "uncertainty": "The mechanism is plausible and locally grounded but not independently established across places, sports, genders, cultures or delivery organizations.",
+      "subgroup": "Young people with weak social ties, NEET young men, local community organizations, sports foundations, schools, youth services and employment support.",
+      "counterinterpretation": "Sports-based delivery can reproduce exclusion, require transport and time, or prioritize visible group participation over quieter forms of connection and support.",
+      "source_url": "https://www.edgehill.ac.uk/document/uk-government-funded-evaluation-report/",
+      "retrieval_hash": "sha256:6717fbcbe5df78ece6f75fd0f69524d45f511e36b25172d3a910ab637e52fc8a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://research.edgehill.ac.uk/en/publications/improving-social-connections-wellbeing-and-aspirations-among-boys/", "claim": "Edge Hill University abstract and evaluation scope."},
+    {"source_url": "https://www.edgehill.ac.uk/document/uk-government-funded-evaluation-report/", "claim": "University-hosted evaluation report page."},
+    {"source_url": "https://www.gov.uk/government/publications/social-connection-framework/social-connection-framework", "claim": "UK policy framework connecting the pilot to wider youth social-connection policy."}
+  ],
+  "boundary": "This record adds a named intervention and evaluation route to the youth-belonging sequence. It is a local pilot with public summary findings, not a randomized trial, national programme evaluation, clinical treatment study, or proof that sport-based connection scales uniformly.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK publication, Edge Hill University abstract and university report page were reviewed for pilot locations, timing, reach, programme populations, delivery model, evaluation questions, reported direction and limits; the GOV.UK publication page was hashed.",
+    "source_url_sha256": "sha256:56abe4a463d724ba299c6c1a2cd653b4b95077dd94ca7251a0195bbd2350e870",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-power-of-trust-2026-local-values-consumer-legitimacy",
+  "title": "Institutional skepticism is redirecting trust toward familiar, local, and values-aligned actors",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos, Global Trends 10th Edition 2026: The Power of Trust, 21 September 2026",
+  "geography": "Adults across 38 markets in the Ipsos Global Trends 2026 comparative framework",
+  "observations": [
+    {
+      "period": "2026; institutional concern and economic fairness",
+      "denominator": {"value": 38, "unit": "markets in the Ipsos Global Trends comparative survey frame", "value_type": "published_global_trends_frame"},
+      "measures": {
+        "government_distance": {"value": 69, "unit": "percent saying their government does not prioritize their concerns", "value_type": "reported_global_share"},
+        "rigged_economy": {"value": 73, "unit": "percent believing the economy is rigged in favor of the rich and powerful", "value_type": "reported_global_share"},
+        "legitimacy_route": {"value": "institutional distance and perceived economic unfairness create demand for trust anchors closer to everyday life", "unit": "reported trend mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ipsos Global Trends 2026 cross-market survey and published cultural-trend synthesis.",
+      "uncertainty": "The page reports cross-market aggregate findings without a single pooled population estimate; country differences, fieldwork, weighting, and question context matter.",
+      "subgroup": "Consumers, citizens, local communities, workers, people judging government responsiveness, and people experiencing economic inequality.",
+      "counterinterpretation": "Dissatisfaction with institutions can motivate reform and collective action rather than permanent withdrawal into private or local trust.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026",
+      "retrieval_hash": "sha256:621a66f47502b447570b20256da416f8c420dd7b098da32e545e429a27f12568",
+      "status": "reported"
+    },
+    {
+      "period": "2026; transformation of trust",
+      "denominator": {"value": 1, "unit": "Ipsos published global-trend synthesis", "value_type": "trend_framework"},
+      "measures": {
+        "trust_shift": {"value": "trust is becoming more personal, local, and values-driven rather than disappearing", "unit": "Ipsos trend synthesis", "value_type": "reported_pattern"},
+        "familiarity": {"value": "familiarity, localization, values, and purpose are identified as strong indicators for brand success amid institutional skepticism", "unit": "Ipsos trend framing", "value_type": "reported_mechanism_set"},
+        "social_route": {"value": "local organizations and familiar relationships may function as legitimacy infrastructure when national institutions feel distant", "unit": "analytic program mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ipsos macro-trend synthesis connecting trust, culture, institutions, and consumption across 38 markets.",
+      "uncertainty": "This is a framework for interpreting comparative signals, not a causal test showing that local trust produces stronger institutions, brands, or social cohesion.",
+      "subgroup": "Local communities, consumers, brands, civic organizations, public institutions, and groups with low confidence in national systems.",
+      "counterinterpretation": "Local and familiar trust can be exclusionary, parochial, or vulnerable to misinformation; scale and impartiality may still require formal institutions.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026",
+      "retrieval_hash": "sha256:621a66f47502b447570b20256da416f8c420dd7b098da32e545e429a27f12568",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust and consumption under AI change",
+      "denominator": {"value": 1, "unit": "Ipsos Global Trends trust-and-consumption framework", "value_type": "trend_framework"},
+      "measures": {
+        "consumer_translation": {"value": "trust affects how people evaluate news, products, and services as institutional skepticism persists", "unit": "Ipsos trend framing", "value_type": "reported_mechanism"},
+        "ai_pressure": {"value": "AI increases the need to understand how trust is generated and protected and how consumption patterns change", "unit": "Ipsos trend framing", "value_type": "reported_mechanism"},
+        "control_route": {"value": "AI-mediated choice may intensify the premium on recognizable identity, values alignment, and accountable human or local intermediaries", "unit": "analytic consumer-institution mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ipsos published synthesis of trust, AI, news, products, and services; it is not an experiment or behavioral transaction dataset.",
+      "uncertainty": "The report does not establish whether local or values-aligned trust improves accuracy, welfare, purchasing outcomes, or AI safety.",
+      "subgroup": "AI users, news audiences, consumers, brands, local organizations, and people navigating automated recommendations.",
+      "counterinterpretation": "AI can also broaden access to information and comparison, weakening the role of familiar intermediaries rather than strengthening it.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026",
+      "retrieval_hash": "sha256:621a66f47502b447570b20256da416f8c420dd7b098da32e545e429a27f12568",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-source open test",
+      "denominator": {"value": 1, "unit": "analytic cross-source route", "value_type": "research_queue"},
+      "measures": {
+        "open_test": {"value": "test whether proximity, values alignment, and familiarity restore trust when formal institutions remain distrusted", "unit": "open analytic route", "value_type": "research_queue"},
+        "measurement_chain": {"value": "join perceived institutional responsiveness to local participation, consumer choice, information quality, public-service use, and durable collective action", "unit": "proposed cross-source chain", "value_type": "analytic_measurement_chain"},
+        "boundary": {"value": "trust redirection should not be treated as proof of institutional repair or a universal preference for local actors", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Program synthesis of the Ipsos publication with adjacent trust, media, consumer, and public-systems records.",
+      "uncertainty": "The proposed chain is a research direction, not a finding from the Ipsos page.",
+      "subgroup": "Citizens and consumers across countries, local institutions, national governments, brands, platforms, and civic intermediaries.",
+      "counterinterpretation": "Formal institutions may regain trust through visible performance, fairness, and accountability even when local relationships remain important.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026",
+      "retrieval_hash": "sha256:621a66f47502b447570b20256da416f8c420dd7b098da32e545e429a27f12568",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition", "claim": "The full Ipsos Global Trends 2026 publication provides the broader 38-market cultural and consumer framework."},
+    {"source_url": "https://www.edelman.com/trust/2026/trust-barometer", "claim": "Edelman provides a complementary cross-market account of insularity and institutional trust."}
+  ],
+  "boundary": "This record adds a distinct Ipsos publication route from institutional skepticism and perceived economic unfairness through local, familiar, values-aligned trust and AI-era consumption. It is aggregate comparative trend evidence, not respondent-level data, causal proof of local-trust effects, or a claim that formal institutions are becoming irrelevant.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos page was reviewed for the 38-market frame, government-prioritization share, economy-rigged share, trust transformation, consumer implications, AI context, and publication date.",
+    "source_url_sha256": "sha256:621a66f47502b447570b20256da416f8c420dd7b098da32e545e429a27f12568",
+    "checked": "2026-09-29"
+  }
+}

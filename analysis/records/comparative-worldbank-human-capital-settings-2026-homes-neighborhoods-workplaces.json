@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-human-capital-settings-2026-homes-neighborhoods-workplaces",
+  "title": "Human capital is produced across homes, neighborhoods, and workplaces, so location, care, safety, and job quality shape lifetime opportunity",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank Group Human Capital Report 2026, Building Human Capital Where It Matters: Homes, Neighborhoods, and Workplaces, with Human Capital Index Plus 2026 findings brief",
+  "geography": "Global; HCI+ country and regional comparisons, with detailed evidence from low- and middle-income countries and country examples",
+  "observations": [
+    {
+      "period": "2010–2025; low- and middle-income countries",
+      "denominator": {"value": 129, "unit": "low- and middle-income countries assessed for changes in nutrition, learning, or workforce skill development", "value_type": "reported_country_frame"},
+      "measures": {
+        "countries_with_decline": {"value": 86, "unit": "countries experiencing a decline in at least one of nutrition, learning, or workforce skill development", "value_type": "reported_country_count"},
+        "future_earnings_loss_lmic": {"value": 51, "unit": "percent of future labor earnings estimated to be lost in low- and middle-income countries due to current health, education, and work-skill deficits", "value_type": "reported_index_estimate"},
+        "global_future_earnings_gap": {"value": 47, "unit": "percent of potential future earnings the average child born today could gain if human capital matched top performers at similar income levels", "value_type": "reported_index_estimate"},
+        "mechanism": {"value": "Human-capital stagnation is not only a school problem; it is an accumulation failure across early care, local environments, and the transition into productive work", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank synthesis of global human-capital trends and the HCI+ index, which integrates health, education, and employment dimensions through age 65.",
+      "uncertainty": "The HCI+ is a modeled comparative index and the future-earnings translation is an interpretation of gaps, not a forecast of individual earnings or a causal estimate of any single intervention.",
+      "subgroup": "Children and working-age populations globally, with particular attention to low- and middle-income countries and regional income bands.",
+      "counterinterpretation": "Income, institutions, labor demand, migration, health, and measurement quality also shape earnings; the index cannot attribute every gap to human-capital policy alone.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/4571cc83-b352-4f3b-8232-9781edf62043/download",
+      "retrieval_hash": "sha256:0b09474ff3e896761e800ee63e8e698e4025c312aabf096f43f9422307a46c84",
+      "status": "reported"
+    },
+    {
+      "period": "Childhood through adolescence; home setting and early skill formation",
+      "denominator": {"value": 1, "unit": "World Bank cross-country evidence synthesis on home environments and child development", "value_type": "reported_evidence_frame"},
+      "measures": {
+        "maternal_education_gradient": {"value": "Children whose mothers have more education perform better on vocabulary and mathematics tests, with gaps remaining broadly constant through childhood and adolescence", "unit": "reported cross-country pattern", "value_type": "reported_association"},
+        "care_environment": {"value": "Resources alone do not always compensate for low levels of care; nurturing, reading, play, emotional support, and safety shape development", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "program_earnings_association": {"value": "Evidence summarized by the report indicates that effective early-childhood and parenting programs can improve adult earnings by nearly 40 percent", "unit": "reported long-run estimate from cited evidence", "value_type": "reported_estimate"},
+        "mechanism": {"value": "Household time, resources, care quality, and parental capability transmit advantage before formal schooling and can compound across generations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank evidence review on human-capital accumulation at home, including parental education, care environments, and early-childhood interventions.",
+      "uncertainty": "The report synthesizes evidence from multiple studies and settings; the cited earnings estimate should not be treated as a universal treatment effect or a guarantee from any single parenting program.",
+      "subgroup": "Children and adolescents, parents and caregivers, girls and boys, and families with different education, resources, care environments, and exposure to violence.",
+      "counterinterpretation": "Schools, peers, health, genetics, neighborhood conditions, and labor markets also contribute; home support may be partly a marker for broader family and institutional resources.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0b09474ff3e896761e800ee63e8e698e4025c312aabf096f43f9422307a46c84",
+      "status": "reported"
+    },
+    {
+      "period": "Across the life course; neighborhood exposure and intergenerational opportunity",
+      "denominator": {"value": 1, "unit": "World Bank comparative neighborhood and human-capital evidence frame", "value_type": "reported_evidence_frame"},
+      "measures": {
+        "brazil_neighborhood_earnings": {"value": "In a cited Brazil example, a low-income child growing up in a low-income neighborhood earns half as much as a low-income child growing up in a high-income neighborhood", "unit": "reported place-based comparison", "value_type": "reported_comparison"},
+        "service_and_safety_route": {"value": "Neighborhoods shape access to schools, health care, safe streets, jobs, pollution exposure, crime, and infrastructure", "unit": "reported place mechanism", "value_type": "reported_mechanism"},
+        "same_income_different_outcomes": {"value": "Families with the same income can experience substantially different human-capital outcomes depending on where they live", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Place converts household resources into different opportunity sets through service quality, safety, pollution, transport, peer environments, and access to jobs", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank synthesis of neighborhood effects, service access, environmental exposure, and place-based human-capital evidence.",
+      "uncertainty": "The report uses cited place-based evidence and examples rather than a single universal neighborhood causal estimate; residential selection and unmeasured family factors remain relevant.",
+      "subgroup": "Low-income children and families across neighborhoods with different service quality, safety, environmental exposure, transport, and labor-market access.",
+      "counterinterpretation": "Families may sort into neighborhoods based on resources, preferences, social networks, or risk, so observed place differences are not automatically caused by neighborhood conditions alone.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0b09474ff3e896761e800ee63e8e698e4025c312aabf096f43f9422307a46c84",
+      "status": "reported"
+    },
+    {
+      "period": "Working life; workplace learning and job quality in low- and middle-income countries",
+      "denominator": {"value": 1, "unit": "World Bank evidence synthesis on workers and firms in low- and middle-income countries", "value_type": "reported_evidence_frame"},
+      "measures": {
+        "limited_learning_work": {"value": 70, "unit": "percent of workers in low- and middle-income countries estimated to be in small-scale agriculture, low-quality self-employment, or micro firms", "value_type": "reported_share"},
+        "experience_earnings_gap": {"value": "For the same gain in experience, earnings of self-employed workers increase only about half as much as earnings of salaried workers", "unit": "reported comparative pattern", "value_type": "reported_comparison"},
+        "women_participation_route": {"value": "Childcare and safe commuting are identified as workplace-adjacent investments that can increase women’s labor-force participation and skill accumulation", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "mechanism": {"value": "A job can either compound human capital through training and experience or trap workers in low-learning, low-productivity work; labor-market institutions and surrounding care infrastructure affect which path occurs", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank comparative labor-market and human-capital synthesis, with workplace learning and employment-status comparisons.",
+      "uncertainty": "The reported share and earnings comparison summarize heterogeneous labor markets and do not establish that formal employment or childcare alone causes the observed productivity difference.",
+      "subgroup": "Workers in low- and middle-income countries, including self-employed workers, salaried workers, women facing care and commuting barriers, and youth entering the labor market.",
+      "counterinterpretation": "Self-employment can offer autonomy, flexibility, or entrepreneurial upside not captured by average earnings growth; formal jobs can also be low-quality or offer limited learning.",
+      "source_url": "https://www.worldbank.org/en/publication/human-capital-report",
+      "retrieval_hash": "sha256:0b09474ff3e896761e800ee63e8e698e4025c312aabf096f43f9422307a46c84",
+      "status": "reported"
+    },
+    {
+      "period": "2026 HCI+ gender and income-comparable performance",
+      "denominator": {"value": 1, "unit": "World Bank HCI+ country comparison and gender decomposition", "value_type": "reported_index_frame"},
+      "measures": {
+        "female_male_hci_gap": {"value": 20, "unit": "HCI+ points lower for the female population than the male population, with the gap largely explained by labor-force participation and job quality", "value_type": "reported_index_difference"},
+        "income_comparable_variation": {"value": "Countries with similar income levels often achieve very different HCI+ scores, with an average 90th–10th percentile gap of about 60 points within income bands", "unit": "reported index comparison", "value_type": "reported_comparison"},
+        "top_performers": {"value": "Jamaica, Kenya, Kyrgyz Republic, and Viet Nam are highlighted as strong performers for their income levels", "unit": "reported country comparison", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Institutions, gender norms, job quality, care infrastructure, and policy choices can turn similar national resources into different human-capital trajectories", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank HCI+ index decomposition and income-band benchmarking across countries, health, education, and employment dimensions.",
+      "uncertainty": "Index comparisons depend on component definitions, weights, missingness, and cross-country comparability; a gender gap in the index is not a standalone causal estimate of discrimination or any specific policy effect.",
+      "subgroup": "Female and male populations, countries at similar income levels, and children whose future human capital is projected through age 65.",
+      "counterinterpretation": "A lower female HCI+ score can reflect labor-force participation, job quality, health, education, or measurement differences; country rankings should not be read as fixed national traits.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099811402092628470/pdf/IDU-f6333f28-3d52-4e38-b09e-bf8848829e69.pdf",
+      "retrieval_hash": "sha256:0b09474ff3e896761e800ee63e8e698e4025c312aabf096f43f9422307a46c84",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://humancapital.worldbank.org/en/building-human-capital-where-it-matters", "claim": "Interactive HCI+ data and country comparisons accompanying the report."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/461", "claim": "World Bank reproducibility package for the flagship report."},
+    {"source_url": "https://doi.org/10.60572/xn7y-4g24", "claim": "Reproducibility package DOI and metadata."}
+  ],
+  "boundary": "This record adds a comparative human-capital route from home care and resources through neighborhood exposure, services, workplace learning, gendered labor participation, job quality, and future earnings. It synthesizes World Bank evidence and HCI+ modeled comparisons; it is not respondent-level analysis, a causal evaluation of a single program, a complete measure of wellbeing, or a claim that human capital is reducible to earnings.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Human Capital Report 2026 page, press release, HCI+ findings brief, and reproducibility metadata reviewed for global deficits, home care, neighborhood effects, workplace learning, gender decomposition, income-band comparisons, and index boundaries.",
+    "source_url_sha256": "sha256:0b09474ff3e896761e800ee63e8e698e4025c312aabf096f43f9422307a46c84",
+    "checked": "2026-09-28"
+  }
+}

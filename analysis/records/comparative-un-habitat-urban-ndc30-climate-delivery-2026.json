@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-habitat-urban-ndc30-climate-delivery-2026",
+  "title": "National climate plans are becoming more urban, but housing, infrastructure, and delivery capacity remain uneven",
+  "theme_ids": ["energy", "time", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN-Habitat, Urban Content in NDC 3.0: Cities at the Centre",
+  "geography": "Global analysis of 142 third-generation Nationally Determined Contributions submitted by mid-April 2026",
+  "observations": [
+    {
+      "period": "NDC 2.0-NDC 3.0; urban content in national climate plans",
+      "denominator": {"value": 142, "unit": "third-generation Nationally Determined Contributions analyzed by UN-Habitat", "value_type": "national_climate_plan_frame"},
+      "measures": {
+        "well_developed_urban_content": {"value": 80, "unit": "percent of submitted NDC 3.0 plans with well-developed urban content", "value_type": "reported_share"},
+        "previous_cycle": {"value": 49, "unit": "percent of plans with well-developed urban content in the previous cycle", "value_type": "reported_share"},
+        "change": {"value": 31, "unit": "percentage-point increase between the previous cycle and NDC 3.0", "value_type": "reported_change"}
+      },
+      "method": "UN-Habitat content analysis of national climate plans across sectors, regions, income groups, and NDC revision cycles.",
+      "uncertainty": "Plan content measures stated ambition and design, not implementation, funding, emissions outcomes, affordability, or lived urban conditions; submitted plans are not necessarily comparable in detail or enforceability.",
+      "subgroup": "Urban residents, local governments, housing and transport users, informal-settlement communities, and national agencies coordinating climate policy.",
+      "counterinterpretation": "A plan can create a stronger coordination platform even before implementation evidence is available, while some effective local action may be under-described in national documents.",
+      "source_url": "https://unhabitat.org/urban-content-in-ndc-30-cities-at-the-centre",
+      "retrieval_hash": "sha256:4b5baf7a02b5d7e427fb7b30be64a41f89410444b2e5823e7ec65a17648c8744",
+      "status": "reported"
+    },
+    {
+      "period": "2026; housing and informal-settlement presence in NDC 3.0",
+      "denominator": {"value": 142, "unit": "NDC 3.0 submissions reviewed for urban and housing content", "value_type": "housing_climate_plan_frame"},
+      "measures": {
+        "housing_informal_settlement_priority": {"value": "housing and informal settlements emerge as a cross-cutting climate priority in almost half of submitted NDC 3.0 plans", "unit": "reported qualitative share", "value_type": "reported_pattern"},
+        "policy_link": {"value": "housing, climate exposure, urban services, and resilience are increasingly treated as connected policy problems", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "delivery_boundary": {"value": "recognition in a climate plan does not establish secure tenure, affordability, service access, or protection from displacement", "unit": "reported analytical boundary", "value_type": "reported_boundary"}
+      },
+      "method": "UN-Habitat thematic coding of national climate plans for housing, informal settlements, and urban resilience content.",
+      "uncertainty": "The summary does not provide a single standardized housing metric for every country; wording, baseline conditions, and implementation authority vary across plans.",
+      "subgroup": "People in informal settlements, renters, low-income households, displaced populations, local housing authorities, and communities in climate-exposed locations.",
+      "counterinterpretation": "National recognition can support resources and legal attention for upgrading, while community-led programs may advance even when plan language is limited.",
+      "source_url": "https://unhabitat.org/urban-content-in-ndc-30-cities-at-the-centre",
+      "retrieval_hash": "sha256:4b5baf7a02b5d7e427fb7b30be64a41f89410444b2e5823e7ec65a17648c8744",
+      "status": "reported"
+    },
+    {
+      "period": "2026; implementation mechanisms in national climate plans",
+      "denominator": {"value": 142, "unit": "NDC 3.0 submissions reviewed for urban delivery mechanisms", "value_type": "multilevel_delivery_frame"},
+      "measures": {
+        "concrete_delivery_mechanisms": {"value": "nearly three-quarters of NDC 3.0 plans include concrete urban delivery mechanisms", "unit": "reported qualitative share", "value_type": "reported_share"},
+        "mechanism_set": {"value": "multilevel governance and capacity-building are prominent delivery mechanisms", "unit": "reported policy mechanism set", "value_type": "reported_framework"},
+        "institutional_implication": {"value": "cities and regions are increasingly treated as implementation partners rather than only policy recipients", "unit": "reported institutional direction", "value_type": "reported_mechanism"}
+      },
+      "method": "UN-Habitat analysis of urban implementation mechanisms and governance arrangements stated in NDC 3.0 submissions.",
+      "uncertainty": "Presence of a mechanism in a plan does not show authority, staffing, finance, coordination quality, public participation, or delivery results.",
+      "subgroup": "Municipal governments, regional authorities, utilities, transit agencies, community organizations, and residents affected by urban climate investments.",
+      "counterinterpretation": "Multilevel coordination may improve delivery when responsibilities and resources are clear, but it can also diffuse accountability across government levels.",
+      "source_url": "https://unhabitat.org/urban-content-in-ndc-30-cities-at-the-centre",
+      "retrieval_hash": "sha256:4b5baf7a02b5d7e427fb7b30be64a41f89410444b2e5823e7ec65a17648c8744",
+      "status": "reported"
+    },
+    {
+      "period": "2026; urban climate policy sectors",
+      "denominator": {"value": 1, "unit": "urban climate-planning sector frame across analyzed NDC 3.0 submissions", "value_type": "urban_services_frame"},
+      "measures": {
+        "sector_set": {"value": "housing, transport, infrastructure, energy, waste management, and related urban services are increasingly visible in national climate strategies", "unit": "reported policy scope", "value_type": "reported_framework"},
+        "implementation_shift": {"value": "climate implementation is becoming increasingly urban and tied to national-subnational coordination", "unit": "reported analytical conclusion", "value_type": "reported_mechanism"},
+        "user_experience_boundary": {"value": "the plan analysis does not show whether services become cheaper, safer, more accessible, or more reliable for residents", "unit": "reported analytical boundary", "value_type": "reported_boundary"}
+      },
+      "method": "UN-Habitat cross-sector synthesis of urban content, service systems, governance, and delivery language in NDC 3.0 plans.",
+      "uncertainty": "Sector visibility varies by plan and does not provide comparable investment, emissions, service-quality, or distributional measures.",
+      "subgroup": "Residents dependent on public transport, energy, water, waste, housing, and infrastructure systems, especially low-income and climate-exposed communities.",
+      "counterinterpretation": "Urban climate integration can align infrastructure investments and reduce duplicated effort, while sectoral specialization may still be necessary for effective delivery.",
+      "source_url": "https://unhabitat.org/urban-content-in-ndc-30-cities-at-the-centre",
+      "retrieval_hash": "sha256:4b5baf7a02b5d7e427fb7b30be64a41f89410444b2e5823e7ec65a17648c8744",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unhabitat.org/world-cities-report-2026", "claim": "UN-Habitat World Cities Report 2026 provides complementary housing, displacement, and urban-resilience context."},
+    {"source_url": "https://unfccc.int/ndc-synthesis-report-2025", "claim": "UNFCCC NDC synthesis work provides complementary national climate-plan context."}
+  ],
+  "boundary": "This record adds a national-to-urban implementation route linking climate plans to housing, informal settlements, transport, infrastructure, energy, waste, services, and multilevel governance. It measures plan content rather than implementation or resident outcomes; it is not a city administrative panel, household housing survey, emissions impact estimate, or respondent-level climate-attitudes dataset.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN-Habitat publication page was reviewed for the 142-plan frame, urban-content change, housing and informal-settlement priority, delivery mechanisms, and sector scope.",
+    "source_url_sha256": "sha256:4b5baf7a02b5d7e427fb7b30be64a41f89410444b2e5823e7ec65a17648c8744",
+    "checked": "2026-09-26"
+  }
+}

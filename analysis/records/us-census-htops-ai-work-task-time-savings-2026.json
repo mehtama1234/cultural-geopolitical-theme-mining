@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-ai-work-task-time-savings-2026",
+  "title": "AI at work is becoming ordinary, but its time gains and practical access are unevenly distributed",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. Census Bureau America Counts analysis of the March 2026 Household Trends and Outlook Pulse Survey (HTOPS), revised September 2026 weights",
+  "geography": "United States; workers using AI on the job, with education, sex, and age comparisons",
+  "observations": [
+    {
+      "period": "March 2026 HTOPS; work-related AI use",
+      "denominator": {"value": 1, "unit": "U.S. worker population estimated by the HTOPS release; article reports weighted shares rather than an analytic respondent count", "value_type": "reported_population_estimate"},
+      "measures": {
+        "any_ai_task_use": {"value": 56, "unit": "percent of U.S. workers reporting AI use for at least one of 11 job tasks", "value_type": "reported_share"},
+        "top_tasks": {"value": "Searching for information or technical help (37%), writing communications/documentation/instructions (32%), generating ideas (32%), interpreting/translating/summarizing (31%), and administrative tasks (27%)", "unit": "reported task shares", "value_type": "reported_pattern"},
+        "task_boundary": {"value": "The most common uses are assistance and augmentation tasks; coding, modeling, customer support, and logistics/supply-chain management were less frequently reported", "unit": "reported task pattern", "value_type": "reported_boundary"}
+      },
+      "method": "Census Bureau analysis of weighted HTOPS responses about AI use across 11 job tasks; comparative statements were statistically tested at the 90% confidence level unless otherwise noted.",
+      "uncertainty": "Self-reported task use is not product telemetry, verified productivity, automation, displacement, or a measure of whether employers share the gains; the survey is cross-sectional.",
+      "subgroup": "U.S. workers, with task-specific comparisons by education, sex, and age reported in the article.",
+      "counterinterpretation": "AI use may supplement rather than replace human work, and common information or writing uses may produce quality or learning gains that are not captured by time estimates.",
+      "source_url": "https://www.census.gov/library/stories/2026/08/ai-use-at-work.html",
+      "retrieval_hash": "sha256:c0413d1de263c46c172b4b1830f77fcf4f9c51704bde24836450821d493b9f04",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 HTOPS; reported time saved among workers using AI last week",
+      "denominator": {"value": 1, "unit": "U.S. workers who reported AI use at work during the prior week; article reports weighted response shares", "value_type": "reported_population_estimate"},
+      "measures": {
+        "daily_use": {"value": 24, "unit": "percent of AI users at work reporting use every day in the prior week", "value_type": "reported_share"},
+        "intermittent_use": {"value": 46, "unit": "percent of AI users at work reporting use at least one day but not every day in the prior week", "value_type": "reported_share"},
+        "one_to_two_hours_saved": {"value": 31, "unit": "percent of AI users at work reporting that AI saved one to two hours compared with completing the work without AI", "value_type": "reported_share"},
+        "three_to_four_hours_saved": {"value": 15, "unit": "percent of AI users at work reporting that AI saved three to four hours", "value_type": "reported_share"},
+        "more_than_four_hours_saved": {"value": 15, "unit": "percent of AI users at work reporting that AI saved more than four hours", "value_type": "reported_share"},
+        "no_or_negative_time_gain": {"value": "10% reported no time saved and 4% reported that using AI required additional time", "unit": "reported response shares", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Reported time savings are an early productivity signal, but the worker-level consequence depends on whether saved time becomes lower workload, more output, learning, surveillance, or employer capture", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Census Bureau weighted survey estimates of self-reported counterfactual time required without AI among recent AI users at work.",
+      "uncertainty": "The counterfactual is recalled and subjective; reported time saved does not identify task quality, rework, wage changes, workload intensification, or the disposition of saved time.",
+      "subgroup": "Workers who used AI at work in the last week, with mutually exclusive frequency and time-saving response categories as reported by Census.",
+      "counterinterpretation": "A time saving can increase worker autonomy or reduce drudgery, but it can also create expectations of faster output and greater monitoring; the survey does not distinguish these paths.",
+      "source_url": "https://www.census.gov/library/stories/2026/08/ai-use-at-work.html",
+      "retrieval_hash": "sha256:c0413d1de263c46c172b4b1830f77fcf4f9c51704bde24836450821d493b9f04",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 HTOPS; education differences in AI use",
+      "denominator": {"value": 1, "unit": "U.S. workers grouped by educational attainment; article reports weighted shares", "value_type": "reported_population_estimate"},
+      "measures": {
+        "interpret_translate_summarize_bachelors": {"value": 46, "unit": "percent of workers with a bachelor's degree or higher reporting use for interpretation, translation, or summarization", "value_type": "reported_share"},
+        "interpret_translate_summarize_some_college": {"value": 25, "unit": "percent of workers with some college or an associate degree reporting the same use", "value_type": "reported_share"},
+        "interpret_translate_summarize_high_school_or_less": {"value": 15, "unit": "percent of workers with a high school diploma/equivalency or less reporting the same use", "value_type": "reported_share"},
+        "any_day_use_bachelors": {"value": 75, "unit": "percent of workers with a bachelor's degree or higher reporting AI use at least one day in the prior week", "value_type": "reported_share"},
+        "any_day_use_some_college": {"value": 62, "unit": "percent of workers with some college or an associate degree reporting AI use at least one day", "value_type": "reported_share"},
+        "any_day_use_high_school_or_less": {"value": 59, "unit": "percent of workers with a high school diploma/equivalency or less reporting AI use at least one day", "value_type": "reported_share"},
+        "mechanism": {"value": "The diffusion of AI is not only a technology-adoption question; it is also a question of which workers' jobs provide usable access to AI-assisted tasks and learning", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Census Bureau weighted subgroup comparisons by educational attainment; article reports statistically tested differences.",
+      "uncertainty": "Education may proxy for occupation, employer resources, task mix, industry, digital access, or worker choice; the survey does not isolate any one cause of the gap.",
+      "subgroup": "Workers with a bachelor's degree or higher, some college or an associate degree, and a high school diploma/equivalency or less.",
+      "counterinterpretation": "Lower measured use does not necessarily mean lower benefit: some occupations may have fewer applicable AI tasks, and adoption can be deliberately constrained by safety, privacy, or job design.",
+      "source_url": "https://www.census.gov/library/stories/2026/08/ai-use-at-work.html",
+      "retrieval_hash": "sha256:c0413d1de263c46c172b4b1830f77fcf4f9c51704bde24836450821d493b9f04",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 HTOPS; sex and age differences in AI use",
+      "denominator": {"value": 1, "unit": "U.S. workers grouped by sex and age; article reports weighted shares", "value_type": "reported_population_estimate"},
+      "measures": {
+        "information_search_men": {"value": 42, "unit": "percent of male workers reporting AI use to search for information", "value_type": "reported_share"},
+        "information_search_women": {"value": 31, "unit": "percent of female workers reporting AI use to search for information", "value_type": "reported_share"},
+        "daily_use_men": {"value": 30, "unit": "percent of male AI users at work reporting daily use in the prior week", "value_type": "reported_share"},
+        "daily_use_women": {"value": 17, "unit": "percent of female AI users at work reporting daily use in the prior week", "value_type": "reported_share"},
+        "writing_use_age_18_49": {"value": 34, "unit": "percent of workers ages 18 to 49 reporting AI use for writing communications, documentation, or instructions", "value_type": "reported_share"},
+        "writing_use_age_50_plus": {"value": 29, "unit": "percent of workers age 50 and older reporting the same use", "value_type": "reported_share"},
+        "mechanism": {"value": "AI adoption is entering workplaces through differentiated task cultures and job structures, so aggregate use can conceal unequal familiarity, frequency, and access to time gains", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Census Bureau weighted subgroup comparisons by sex and age in the March 2026 HTOPS analysis.",
+      "uncertainty": "The article does not establish whether differences arise from occupation, employer policy, task assignment, training, worker preference, or unequal access to tools; these are descriptive comparisons.",
+      "subgroup": "Male and female workers; workers ages 18 to 49 versus 50 and older.",
+      "counterinterpretation": "Different task mix or privacy and ethical preferences may produce different use patterns without implying unequal capability or eventual productivity gains.",
+      "source_url": "https://www.census.gov/library/stories/2026/08/ai-use-at-work.html",
+      "retrieval_hash": "sha256:c0413d1de263c46c172b4b1830f77fcf4f9c51704bde24836450821d493b9f04",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/programs-surveys/household-pulse-survey.html", "claim": "HTOPS survey design and experimental cross-sectional program context."},
+    {"source_url": "https://cdn.www.census.gov/newsroom/press-releases/2026/htops-data-tables.html", "claim": "March 2026 HTOPS table release and revised-weighting notice."},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm", "claim": "Related Federal Reserve household survey evidence on generative AI use and perceived work effects."}
+  ],
+  "boundary": "This record adds a U.S. task-level AI diffusion route from workplace adoption through reported time savings and unequal access by education, sex, and age. It is weighted, cross-sectional survey evidence with revised estimates, not verified productivity, employer records, person-level longitudinal evidence, job displacement, wage gains, reduced workload, or proof that time savings become worker-controlled time.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Census Bureau article was reviewed for March 2026 HTOPS AI task-use shares, time-saving categories, education, sex, age comparisons, revision notice, and survey limitations.",
+    "source_url_sha256": "sha256:c0413d1de263c46c172b4b1830f77fcf4f9c51704bde24836450821d493b9f04",
+    "checked": "2026-09-28"
+  }
+}

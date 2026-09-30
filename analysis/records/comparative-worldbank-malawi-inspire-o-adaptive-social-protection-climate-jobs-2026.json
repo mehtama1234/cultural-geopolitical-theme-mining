@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-malawi-inspire-o-adaptive-social-protection-climate-jobs-2026",
+  "title": "Climate resilience is being designed as an integrated household route from cash protection through public works, jobs, digital delivery, and institutional transparency",
+  "theme_ids": ["cost", "work", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Group, Malawi: World Bank Group Approves Grant Financing to Improve Resilience to Climate and Economic Shocks and Create Pathways to More Jobs, September 17, 2026",
+  "geography": "Malawi; all 25 districts and four cities, with additional drought-responsive financing in 10 drought-prone districts",
+  "observations": [
+    {
+      "period": "September 2026; INSPIRE-O project design and coverage",
+      "denominator": {"value": 165.9, "unit": "million US dollars in approved grant financing", "value_type": "announced_project_finance"},
+      "measures": {
+        "coverage": {"value": "the project is designed to reach vulnerable households across all 25 districts and four cities of Malawi", "unit": "announced geographic scope", "value_type": "reported_project_scope"},
+        "shock_context": {"value": "the project targets households exposed to poverty, droughts, floods, and other climate and economic shocks that can erode livelihoods faster than families recover", "unit": "reported risk frame", "value_type": "reported_context"},
+        "integrated_route": {"value": "adaptive safety nets, climate-smart public works, and economic-inclusion programs are designed as a combined pathway rather than separate relief and employment systems", "unit": "announced program architecture", "value_type": "reported_policy_design"}
+      },
+      "method": "World Bank Group press release describing an approved grant project and its stated components, scope, and rationale.",
+      "uncertainty": "This is an announced project design, not evidence of completed disbursement, beneficiary reach, payment reliability, employment, income, or resilience outcomes.",
+      "subgroup": "Poor and climate-exposed households, ultra-poor households, women, youth, households in drought-prone districts, and residents of rural districts and cities.",
+      "counterinterpretation": "Integrated programming can improve continuity, but combining protection, employment, and digital-system objectives can also create implementation complexity or leave the hardest-to-reach households behind.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/malawi-world-bank-grant-financing-to-improve-resilience-to-climate",
+      "retrieval_hash": "sha256:13a1c505d950abfeee1187c9cc321fa02f6e8ba7a501fb7792c4842bb913e3f6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; adaptive safety nets and climate-triggered protection",
+      "denominator": {"value": 10, "unit": "drought-prone districts targeted for additional drought-responsive financing", "value_type": "announced_geographic_scope"},
+      "measures": {
+        "cash_protection": {"value": "the adaptive-safety-net component will expand and strengthen Malawi’s Social Cash Transfer Program", "unit": "announced delivery component", "value_type": "reported_project_component"},
+        "shock_finance": {"value": "additional financing mechanisms are intended to activate when drought and other climate shocks hit", "unit": "announced financing mechanism", "value_type": "reported_policy_design"},
+        "recovery_route": {"value": "the stated design links reliable cash during shocks to a longer route toward skills, work, and livelihood formation", "unit": "announced theory of change", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank project description and implementation rationale.",
+      "uncertainty": "The announcement does not specify trigger thresholds, payment speed, benefit adequacy, targeting error, grievance reach, or whether transfers prevent harmful coping or accelerate recovery.",
+      "subgroup": "Ultra-poor households, drought-exposed households, households receiving cash transfers, and people whose livelihoods depend on climate-sensitive work.",
+      "counterinterpretation": "Shock-responsive finance can protect consumption, but late, inadequate, or poorly targeted payments can fail to prevent asset sales, hunger, debt, or displacement.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/malawi-world-bank-grant-financing-to-improve-resilience-to-climate",
+      "retrieval_hash": "sha256:13a1c505d950abfeee1187c9cc321fa02f6e8ba7a501fb7792c4842bb913e3f6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; climate-smart public works and inclusive employment",
+      "denominator": {"value": 1, "unit": "INSPIRE-O Jobs NOW component", "value_type": "announced_program_component"},
+      "measures": {
+        "jobs_now": {"value": "the Jobs NOW component is intended to create immediate and sustainable income pathways through climate-smart labor-intensive public works", "unit": "announced employment pathway", "value_type": "reported_project_component"},
+        "priority_groups": {"value": "the project explicitly prioritizes expanding job opportunities for women and youth", "unit": "announced inclusion priority", "value_type": "reported_subgroup_priority"},
+        "capability_question": {"value": "the end-to-end test is whether public works produce wages, usable skills, assets, and durable livelihood options after the program rather than only temporary participation", "unit": "analytic outcome route", "value_type": "research_queue"}
+      },
+      "method": "World Bank project architecture and stated employment rationale.",
+      "uncertainty": "The source does not report wage levels, work duration, occupational safety, childcare or transport access, skills transfer, labor-market transitions, or gendered distribution of benefits.",
+      "subgroup": "Women, young people, poor households, climate-exposed workers, and people entering or re-entering paid work.",
+      "counterinterpretation": "Public works can stabilize income and build useful assets, but poorly designed work can reproduce low-paid, temporary, or gender-segregated labor without improving bargaining power.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/malawi-world-bank-grant-financing-to-improve-resilience-to-climate",
+      "retrieval_hash": "sha256:13a1c505d950abfeee1187c9cc321fa02f6e8ba7a501fb7792c4842bb913e3f6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; social-protection data and payment infrastructure",
+      "denominator": {"value": 1, "unit": "INSPIRE-O institutional-strengthening component", "value_type": "announced_system_component"},
+      "measures": {
+        "registry": {"value": "the project will modernize Malawi’s Social Registry and Core Management Information System", "unit": "announced data-system investment", "value_type": "reported_project_component"},
+        "digital_payments": {"value": "digital payment infrastructure is intended to improve targeting, reduce leakage, and increase transparency across social protection", "unit": "announced delivery objective", "value_type": "reported_policy_design"},
+        "governance_test": {"value": "digital delivery becomes protective only if households can enroll, correct records, receive payments, understand decisions, and contest exclusion", "unit": "analytic accountability route", "value_type": "research_queue"}
+      },
+      "method": "World Bank project description of institutional strengthening, digital delivery, and project management.",
+      "uncertainty": "The announcement does not establish interoperability, connectivity, identity coverage, privacy safeguards, exclusion error, appeal access, agent liquidity, or actual transparency gains.",
+      "subgroup": "Households with limited connectivity, women, rural residents, people lacking formal documentation, local implementers, and social-protection administrators.",
+      "counterinterpretation": "Digitization can reduce leakage and speed delivery, but it can also make exclusion harder to see or challenge when systems are inaccessible, inaccurate, or opaque.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/malawi-world-bank-grant-financing-to-improve-resilience-to-climate",
+      "retrieval_hash": "sha256:13a1c505d950abfeee1187c9cc321fa02f6e8ba7a501fb7792c4842bb913e3f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/country/malawi/brief/malawi-social-protection", "claim": "World Bank Malawi social-protection context provides complementary background for the project’s delivery and poverty route."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/23/malawi-economic-monitor-building-stability-to-unlock-growth", "claim": "Malawi Economic Monitor provides complementary macroeconomic and household-cost context for the intervention."}
+  ],
+  "boundary": "This record adds a named intervention route from climate and economic shocks through adaptive cash protection, climate-smart public works, women’s and youth employment, digital registries, payment infrastructure, targeting, transparency, and household resilience. It is a project announcement, not evidence of implementation, beneficiary outcomes, payment performance, or causal poverty reduction.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank September 17, 2026 press release was reviewed for the approved financing, geographic scope, shock context, adaptive safety nets, Jobs NOW, women and youth priorities, digital registry, payment infrastructure, targeting, leakage, and transparency claims.",
+    "source_url_sha256": "sha256:13a1c505d950abfeee1187c9cc321fa02f6e8ba7a501fb7792c4842bb913e3f6",
+    "checked": "2026-09-28"
+  }
+}

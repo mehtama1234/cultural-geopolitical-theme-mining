@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unhcr-central-sahel-displacement-host-capacity-2026",
+  "title": "Central Sahel displacement is compounding insecurity, climate pressure, and strain on host-community services and infrastructure",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNHCR, Salih calls for greater investment in protection and solutions in the Central Sahel, 21 September 2026",
+  "geography": "Burkina Faso, Mali, Niger, displaced people, refugees, and host communities in the Central Sahel",
+  "observations": [
+    {
+      "period": "2020-31 July 2026; forced displacement across Burkina Faso, Mali, and Niger",
+      "denominator": {"value": 3, "unit": "Central Sahel countries covered: Burkina Faso, Mali, and Niger", "value_type": "regional_displacement_frame"},
+      "measures": {
+        "forcibly_displaced": {"value": 3800000, "unit": "people forcibly displaced across the three countries by 31 July 2026", "value_type": "reported_population_total"},
+        "change_since_2020": {"value": "the total has nearly doubled since 2020", "unit": "reported change pattern", "value_type": "reported_trend"},
+        "primary_driver": {"value": "insecurity remains the primary driver of forced displacement", "unit": "reported displacement mechanism", "value_type": "reported_mechanism"},
+        "boundary": {"value": "the press release does not provide a full country-by-country time series, causal decomposition, or household outcome estimate", "unit": "evidence boundary", "value_type": "boundary"}
+      },
+      "method": "UNHCR public briefing and regional protection update summarizing displacement conditions and the High Commissioner’s call for investment in protection and solutions.",
+      "uncertainty": "The reported total aggregates different displacement statuses and country contexts; the press release does not expose the full methodology, denominators, or uncertainty intervals.",
+      "subgroup": "Refugees, internally displaced people, returnees, host communities, local authorities, humanitarian workers, and people exposed to insecurity and climate pressure.",
+      "counterinterpretation": "Displacement totals can rise through improved registration or reporting as well as new flight; falling totals would not necessarily mean safe return or durable solutions.",
+      "source_url": "https://www.unhcr.org/us/news/press-releases/unhcr-s-salih-calls-greater-investment-protection-and-solutions-central-sahel",
+      "retrieval_hash": "sha256:95c0db6382344dcb98ca24a1653641184356e6f664664fff30de3d3a879c9f60",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; displacement, insecurity, climate pressure, and local capacity",
+      "denominator": {"value": 1, "unit": "UNHCR Central Sahel protection and solutions assessment", "value_type": "humanitarian_capacity_frame"},
+      "measures": {
+        "stacked_pressures": {"value": "insecurity, climate pressures, and forced displacement interact rather than operate as separate risks", "unit": "reported regional mechanism", "value_type": "reported_mechanism_set"},
+        "host_capacity": {"value": "host communities continue welcoming people forced to flee despite pressure on local services, infrastructure, and resources", "unit": "reported host-community pattern", "value_type": "reported_mechanism"},
+        "geographic_reach": {"value": "the pressures have implications beyond the Central Sahel", "unit": "reported regional implication", "value_type": "reported_implication"},
+        "open_route": {"value": "connect insecurity and climate shocks to movement, legal status, housing, services, livelihoods, local politics, and durable solutions", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UNHCR field and protection framing in the 21 September 2026 regional briefing.",
+      "uncertainty": "The public release identifies interacting pressures but does not quantify the relative contribution of climate, insecurity, service capacity, funding, or governance in each location.",
+      "subgroup": "Host communities, displaced households, local governments, service providers, humanitarian agencies, and communities exposed to environmental and security shocks.",
+      "counterinterpretation": "Host solidarity and local initiatives can create protection and inclusion capacity, but solidarity alone cannot replace predictable financing, security, infrastructure, or political accountability.",
+      "source_url": "https://www.unhcr.org/us/news/press-releases/unhcr-s-salih-calls-greater-investment-protection-and-solutions-central-sahel",
+      "retrieval_hash": "sha256:95c0db6382344dcb98ca24a1653641184356e6f664664fff30de3d3a879c9f60",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; protection, solutions, and investment response",
+      "denominator": {"value": 1, "unit": "UNHCR policy and operational response framing", "value_type": "durable_solutions_frame"},
+      "measures": {
+        "response_priority": {"value": "greater investment in life-saving protection and lasting solutions for displaced people and host communities", "unit": "reported response priority", "value_type": "reported_policy_priority"},
+        "solution_stages": {"value": "protection, local service capacity, livelihoods, safe return or other durable pathways, and host-community support should be tracked as distinct stages", "unit": "analytic response chain", "value_type": "analytic_mechanism_set"},
+        "measurement_gap": {"value": "a displacement count does not establish safety, service adequacy, voluntary return, integration, or durable resolution", "unit": "interpretation boundary", "value_type": "boundary"},
+        "next_test": {"value": "join displacement totals to protection incidents, service access, financing, infrastructure, employment, social cohesion, return conditions, and re-displacement", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Cross-source interpretation of UNHCR’s protection-and-solutions framing, bounded to the public briefing rather than a full operational evaluation.",
+      "uncertainty": "The press release does not report implementation funding, response coverage, service outcomes, or the effectiveness of any particular solution pathway.",
+      "subgroup": "Displaced people, returnees, host communities, donors, humanitarian and development actors, local authorities, and regional institutions.",
+      "counterinterpretation": "Investment can improve protection and local capacity, but poorly designed aid or security responses can also create dependency, exclusion, or new displacement pressures.",
+      "source_url": "https://www.unhcr.org/us/news/press-releases/unhcr-s-salih-calls-greater-investment-protection-and-solutions-central-sahel",
+      "retrieval_hash": "sha256:95c0db6382344dcb98ca24a1653641184356e6f664664fff30de3d3a879c9f60",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unhcr.org/global-trends-report-2025", "claim": "UNHCR Global Trends provides complementary global displacement totals, returns, and hosting context."},
+    {"source_url": "https://dataviz.unhcr.org/product-gallery/2026/09/from-space-to-settlement/", "claim": "UNHCR SocioSat provides complementary displacement-setting data-continuity and spatial-monitoring context."}
+  ],
+  "boundary": "This record adds a current Central Sahel route from insecurity and climate pressure through forced displacement, host-community capacity, local services, infrastructure, protection, and durable solutions. It is a bounded public briefing, not a full displacement database, causal conflict model, household panel, service evaluation, or proof of safe and durable return.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNHCR 21 September 2026 public briefing was reviewed for the three-country scope, 3.8 million displaced total, near doubling since 2020, insecurity as primary driver, climate and host-capacity framing, and protection-and-solutions response priority.",
+    "source_url_sha256": "sha256:95c0db6382344dcb98ca24a1653641184356e6f664664fff30de3d3a879c9f60",
+    "checked": "2026-09-26"
+  }
+}

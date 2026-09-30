@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-muslim-americans-discrimination-support-representation-2026",
+  "title": "Muslim belonging is a dual condition of support, discrimination and representational harm",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "political_judgment_action"
+  ],
+  "source_unit": "Pew Research Center, Muslims have felt both discrimination and support from other Americans, September 3, 2026",
+  "geography": "United States; U.S. Muslims, with 2026 measures compared on the chart with selected earlier Pew and Project MAPS measures",
+  "observations": [
+    {
+      "period": "2026; current perceptions and experiences among U.S. Muslims",
+      "denominator": {"value": 1, "unit": "U.S. Muslim respondents in Pew's American Trends Panel and related historical survey series; chart does not state the 2026 n on the public page", "value_type": "published_survey_frame"},
+      "measures": {
+        "religion_based_support": {"value": 34, "unit": "percent saying someone expressed support in the past year because they are Muslim", "value_type": "reported_share"},
+        "perceived_discrimination": {"value": 59, "unit": "percent saying there is a lot of discrimination against Muslims", "value_type": "reported_share"},
+        "unfair_tv_movie_portrayal": {"value": 59, "unit": "percent saying Muslims receive unfair portrayal in TV and movies", "value_type": "reported_share"},
+        "mechanism": {"value": "Belonging and exclusion can be experienced simultaneously: interpersonal support does not cancel group-level discrimination or representational harm", "unit": "bounded belonging mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Pew Research Center chart based on the 2026 American Trends Panel and historical Pew telephone surveys; the public chart reports percentages and question wording but not the 2026 sample size on the page.",
+      "uncertainty": "The measures capture perceptions and reported experiences, not independently verified incidents, causal effects, population prevalence outside the survey frame or changes in institutional treatment.",
+      "subgroup": "U.S. Muslims with potentially different experiences by age, race, gender, immigration history, geography, religiosity, visibility and media use; those subgroup estimates are not supplied in the public chart.",
+      "counterinterpretation": "Support and discrimination responses may refer to different settings and social actors; their coexistence does not imply that respondents experience every institution or community as uniformly hostile or supportive.",
+      "source_url": "https://www.pewresearch.org/chart/muslims-have-felt-both-discrimination-and-support-from-other-americans/",
+      "retrieval_hash": "sha256:1c50d6588a66d801fc1bee1e3b03768532d9ab11d6ca2207654ef3cbcd4ab73b",
+      "status": "reported"
+    },
+    {
+      "period": "2001–2026; historical comparison shown by Pew with changing question wording",
+      "denominator": {"value": 1, "unit": "historical Pew and Project MAPS survey measures displayed on the chart", "value_type": "published_comparison_frame"},
+      "measures": {
+        "series_scope": {"value": "The chart displays selected measures from 2001, 2007, 2011, 2017 and 2026, but the labels and wording are not identical across years", "unit": "reported historical scope", "value_type": "reported_boundary"},
+        "longitudinal_caution": {"value": "The historical display supports a question about persistence and change in perceived discrimination and portrayal, but does not by itself establish a single comparable time series", "unit": "methodological boundary", "value_type": "bounded_mechanism"},
+        "meaning": {"value": "Representation and everyday treatment remain linked components of group belonging, even when the available indicators change across survey waves", "unit": "bounded cultural mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Pew chart reproducing current and historical survey measures from the American Trends Panel, Pew telephone surveys and Project MAPS; historical question wording and response frames are displayed in the chart notes.",
+      "uncertainty": "Different wording, modes, samples and reference periods limit direct trend comparisons; the chart is not a harmonized repeated-measures dataset.",
+      "subgroup": "U.S. Muslim respondents across survey years, with historical comparability constrained by the available survey instruments.",
+      "counterinterpretation": "A change in a displayed percentage may reflect wording, mode, sampling or context as well as a change in underlying social conditions.",
+      "source_url": "https://www.pewresearch.org/chart/muslims-have-felt-both-discrimination-and-support-from-other-americans/",
+      "retrieval_hash": "sha256:1c50d6588a66d801fc1bee1e3b03768532d9ab11d6ca2207654ef3cbcd4ab73b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cultural representation, media trust and public legitimacy",
+      "denominator": {"value": 1, "unit": "bounded cultural-politics pathway", "value_type": "interpretive_frame"},
+      "measures": {
+        "representation_authority": {"value": "When unfair portrayal is reported alongside discrimination, media representation becomes part of how institutional respect and public membership are judged", "unit": "bounded cultural mechanism", "value_type": "bounded_mechanism"},
+        "consumer_cultural_effect": {"value": "Perceived misrepresentation can affect media choice, brand and platform trust, willingness to be publicly visible, and demand for culturally competent services", "unit": "bounded downstream pathway", "value_type": "bounded_mechanism"},
+        "political_effect": {"value": "The gap between interpersonal support and group-level protection can create pressure for voice, accountability and institutional recognition without implying a single partisan response", "unit": "bounded political pathway", "value_type": "bounded_mechanism"}
+      },
+      "method": "Interpretive extension of the Pew measures, explicitly separated from the survey's reported percentages.",
+      "uncertainty": "The chart does not measure media consumption, purchasing, platform behavior, political participation, service use or causal effects of representation.",
+      "subgroup": "Muslim audiences, media institutions, platforms, brands, schools, employers, public agencies and civic organizations that mediate recognition and everyday belonging.",
+      "counterinterpretation": "Representation concerns may motivate cultural production and civic participation rather than withdrawal; support networks may buffer harm, and the source does not measure either pathway.",
+      "source_url": "https://www.pewresearch.org/chart/muslims-have-felt-both-discrimination-and-support-from-other-americans/",
+      "retrieval_hash": "sha256:1c50d6588a66d801fc1bee1e3b03768532d9ab11d6ca2207654ef3cbcd4ab73b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/chart/muslims-have-felt-both-discrimination-and-support-from-other-americans/", "claim": "Official Pew chart with 2026 percentages, historical comparison display, question notes and source survey description."}
+  ],
+  "boundary": "This record identifies a cultural belonging, discrimination, representation and institutional-voice subtheme. It does not establish verified incident rates, causal effects of media portrayal, subgroup differences, media or consumer behavior, political participation, institutional reform effects or a harmonized longitudinal trend; those require the underlying topline, microdata or linked behavioral and episode evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew chart page was reviewed for the September 3, 2026 date, 2026 support, discrimination and TV/movie portrayal percentages, historical comparison labels, question notes and survey-source description.",
+    "source_url_sha256": "sha256:1c50d6588a66d801fc1bee1e3b03768532d9ab11d6ca2207654ef3cbcd4ab73b",
+    "checked": "2026-09-29"
+  }
+}

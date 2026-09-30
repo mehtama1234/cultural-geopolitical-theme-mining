@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-supplements-2026-wellness-consumer-health-belief-market",
+  "title": "Supplement use is a mass consumer-health practice shaped by age, income, identity, and perceived personal importance",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center, About 8 in 10 Americans take supplements, and many see them as important to their health, September 2026",
+  "geography": "United States; adults nationally with age, gender, race/ethnicity, education, and income comparisons",
+  "observations": [
+    {
+      "period": "July 6-12, 2026; supplement use by type",
+      "denominator": {"value": 3554, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "any_supplement": {"value": 78, "unit": "percent currently taking at least one supplement for health", "value_type": "reported_share"},
+        "vitamins_or_minerals": {"value": 67, "unit": "percent currently taking vitamins or minerals", "value_type": "reported_share"},
+        "protein_supplements": {"value": 31, "unit": "percent currently taking protein supplements", "value_type": "reported_share"},
+        "omega_oils": {"value": 25, "unit": "percent currently taking omega oil supplements", "value_type": "reported_share"},
+        "herbals": {"value": 19, "unit": "percent currently taking herbal supplements", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center survey of 3,554 U.S. adults in the American Trends Panel, fielded July 6-12, 2026; respondents were given a definition including vitamins, minerals, herbals, protein powders, melatonin, and probiotics, excluding prescription and over-the-counter drugs.",
+      "uncertainty": "These are self-reported product-use measures and do not establish medical need, product quality, health benefit, safety, spending, adherence, or whether use substitutes for clinical care.",
+      "subgroup": "U.S. adults nationally, with type-specific and demographic comparisons.",
+      "counterinterpretation": "High supplement use may represent prevention, treatment of a diagnosed deficiency, routine, cultural practice, fitness goals, influencer exposure, or consumer experimentation; the aggregate does not imply a common motivation.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/10/about-8-in-10-americans-take-supplements-and-many-see-them-as-important-to-their-health/",
+      "retrieval_hash": "sha256:3761702840cc22ca3748eca03c7c30200d3252643bc6f7d90e4304162902fcf0",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; age and supplement category",
+      "denominator": {"value": 3554, "unit": "U.S. adults in the Pew survey; age-group comparisons use weighted subgroup universes", "value_type": "survey_sample"},
+      "measures": {
+        "any_supplement_under_30": {"value": 67, "unit": "percent of adults ages 18-29", "value_type": "reported_share"},
+        "any_supplement_age_65_plus": {"value": 85, "unit": "percent of adults age 65 and older", "value_type": "reported_share"},
+        "vitamins_under_30": {"value": 48, "unit": "percent of adults ages 18-29 taking vitamins or minerals", "value_type": "reported_share"},
+        "vitamins_age_65_plus": {"value": 81, "unit": "percent of adults age 65 and older taking vitamins or minerals", "value_type": "reported_share"},
+        "protein_under_30": {"value": 37, "unit": "percent of adults ages 18-29 taking protein supplements", "value_type": "reported_share"},
+        "protein_age_65_plus": {"value": 23, "unit": "percent of adults age 65 and older taking protein supplements", "value_type": "reported_share"}
+      },
+      "method": "Pew age-group comparison of reported supplement use by product type.",
+      "uncertainty": "Age differences are descriptive and do not identify health status, fitness behavior, marketing exposure, income, or clinical advice; product categories overlap.",
+      "subgroup": "Adults ages 18-29, 30-49, 50-64, and 65 and older.",
+      "counterinterpretation": "Older adults may use vitamins in response to age-related nutritional needs while younger adults may use protein products for fitness or identity reasons; the survey cannot distinguish these pathways.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/10/about-8-in-10-americans-take-supplements-and-many-see-them-as-important-to-their-health/",
+      "retrieval_hash": "sha256:3761702840cc22ca3748eca03c7c30200d3252643bc6f7d90e4304162902fcf0",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; perceived importance among supplement users",
+      "denominator": {"value": 1, "unit": "U.S. adults taking each supplement category; category-specific denominators", "value_type": "conditional_survey_population"},
+      "measures": {
+        "vitamins_extremely_very_important": {"value": 62, "unit": "percent of vitamin/mineral users saying supplements are extremely or very important to their health", "value_type": "reported_share"},
+        "omega_extremely_very_important": {"value": 63, "unit": "percent of omega-oil users", "value_type": "reported_share"},
+        "herbals_extremely_very_important": {"value": 51, "unit": "percent of herbal users", "value_type": "reported_share"},
+        "protein_extremely_very_important": {"value": 44, "unit": "percent of protein-supplement users", "value_type": "reported_share"},
+        "vitamins_somewhat_important": {"value": 33, "unit": "percent of vitamin/mineral users saying somewhat important", "value_type": "reported_share"}
+      },
+      "method": "Conditional Pew estimates among users of each supplement type; importance is a perception measure, not a clinical efficacy measure.",
+      "uncertainty": "Importance judgments can reflect belief, routine, symptom interpretation, marketing, clinician advice, or perceived identity; they do not establish benefit or causality.",
+      "subgroup": "Users of vitamins/minerals, protein, omega oils, herbals, and other supplements.",
+      "counterinterpretation": "A product can be considered important without being medically effective, and reported importance can coexist with uncertainty about ingredients, regulation, interactions, and appropriate dose.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/10/about-8-in-10-americans-take-supplements-and-many-see-them-as-important-to-their-health/",
+      "retrieval_hash": "sha256:3761702840cc22ca3748eca03c7c30200d3252643bc6f7d90e4304162902fcf0",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; demographic and income differences",
+      "denominator": {"value": 3554, "unit": "U.S. adults in the Pew survey; weighted subgroup comparisons", "value_type": "survey_sample"},
+      "measures": {
+        "women_any_supplement": {"value": 82, "unit": "percent of women", "value_type": "reported_share"},
+        "men_any_supplement": {"value": 74, "unit": "percent of men", "value_type": "reported_share"},
+        "asian_omega_oils": {"value": 40, "unit": "percent of Asian adults; estimate representative of English speakers where applicable", "value_type": "reported_share"},
+        "upper_income_any_supplement": {"value": 85, "unit": "percent of upper-income adults", "value_type": "reported_share"},
+        "lower_income_any_supplement": {"value": 74, "unit": "percent of lower-income adults", "value_type": "reported_share"},
+        "postgraduate_any_supplement": {"value": 82, "unit": "percent of adults with postgraduate education", "value_type": "reported_share"}
+      },
+      "method": "Pew weighted subgroup table using gender, race/ethnicity, education, and adjusted family-income tiers.",
+      "uncertainty": "Subgroup differences are descriptive and may reflect age, health, income, education, access, cultural practice, or product marketing; they do not establish unequal medical need or effect.",
+      "subgroup": "U.S. adults by gender, race/ethnicity, education, and adjusted family income.",
+      "counterinterpretation": "Higher use among wealthier and more educated adults may reflect purchasing power and health optimization, while lower use may reflect cost or different care routes; use rates alone cannot determine welfare or adequacy.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/10/about-8-in-10-americans-take-supplements-and-many-see-them-as-important-to-their-health/",
+      "retrieval_hash": "sha256:3761702840cc22ca3748eca03c7c30200d3252643bc6f7d90e4304162902fcf0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a consumer-health and belief layer: supplements are a mass household practice whose product mix and perceived importance vary by age, income, gender, identity, and likely wellness culture. It does not establish efficacy, safety, clinical need, spending, substitution for care, or causal health outcomes."
+}

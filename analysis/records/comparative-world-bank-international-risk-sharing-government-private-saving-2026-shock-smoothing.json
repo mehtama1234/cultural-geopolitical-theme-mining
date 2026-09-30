@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-international-risk-sharing-government-private-saving-2026-shock-smoothing",
+  "title": "International shocks are absorbed through different public, private and cross-border buffers depending on development and fiscal capacity",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11345, Who Smooths the Shock? Government and Private Saving in International Risk Sharing",
+  "geography": "134 countries, covering advanced economies and emerging market and developing economies, 1990-2023",
+  "observations": [
+    {
+      "period": "1990-2023; international income-risk-sharing panel",
+      "denominator": {"value": 134, "unit": "countries in the study panel", "value_type": "published_country_frame"},
+      "measures": {
+        "design": {"value": "the paper decomposes how output shocks are smoothed through saving, cross-border income, transfers and other national-account channels", "unit": "reported accounting framework", "value_type": "reported_method"},
+        "central_signal": {"value": "savings are a central shock-smoothing mechanism, but the mix of public, private and cross-border channels differs sharply across country groups", "unit": "reported cross-country finding", "value_type": "reported_assessment"}
+      },
+      "method": "Panel analysis of 134 countries using an accounting-based decomposition of international risk sharing and income volatility.",
+      "uncertainty": "This is aggregate macroeconomic evidence; it does not identify which households receive protection, how quickly benefits arrive, or whether observed smoothing is welfare-improving.",
+      "subgroup": "Advanced economies, emerging markets and developing economies, governments, private savers, remittance-receiving households and countries with different fiscal and capital-account conditions.",
+      "counterinterpretation": "More measured smoothing can reflect precautionary saving or compressed consumption rather than generous public protection; accounting shares do not by themselves establish policy causality.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099254403302620407/pdf/IDU-1a886cdd-9dd7-420a-b088-4578150c7aba.pdf",
+      "retrieval_hash": "sha256:806078c71ed3b5bc788e5689ae624eb2bcea68c9adb4439d0c5766d7e48c5bf1",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2023; advanced economies versus emerging market and developing economies",
+      "denominator": {"value": 2, "unit": "broad country groups compared in the paper", "value_type": "published_group_frame"},
+      "measures": {
+        "advanced_economies": {"value": "government saving absorbs about 14 percent of output shocks, exceeding the contribution of private saving", "unit": "reported share of output shocks smoothed", "value_type": "reported_share"},
+        "emerging_and_developing": {"value": "private saving smooths roughly 16 percent of output shocks compared with about 6 percent through government saving", "unit": "reported share of output shocks smoothed", "value_type": "reported_share"},
+        "interpretation": {"value": "the same global shock can reach households through different national buffers: public fiscal capacity in richer economies and private precautionary saving in EMDE", "unit": "reported policy interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Country-group comparison from the paper's national-account risk-sharing decomposition.",
+      "uncertainty": "The percentages are aggregate contributions, not the probability or magnitude of protection for an individual household, worker or firm.",
+      "subgroup": "Households and firms in advanced economies versus emerging and developing economies, with different access to public insurance and private liquidity.",
+      "counterinterpretation": "Private saving may indicate resilience, but it can also indicate that households must self-insure because public systems are thinner or less trusted.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099254403302620407/pdf/IDU-1a886cdd-9dd7-420a-b088-4578150c7aba.pdf",
+      "retrieval_hash": "sha256:806078c71ed3b5bc788e5689ae624eb2bcea68c9adb4439d0c5766d7e48c5bf1",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2023; cross-border income and transfer channels",
+      "denominator": {"value": 2, "unit": "major country-group patterns identified in the paper", "value_type": "published_group_frame"},
+      "measures": {
+        "advanced_economies": {"value": "primary investment income from abroad helps smooth income volatility mainly in advanced economies", "unit": "reported risk-sharing channel", "value_type": "reported_assessment"},
+        "emerging_and_developing": {"value": "remittances and transfers help smooth income volatility mainly in emerging market and developing economies", "unit": "reported risk-sharing channel", "value_type": "reported_assessment"},
+        "social_meaning": {"value": "migration, financial ownership and public or private transfers are part of the everyday infrastructure through which national shocks reach or are buffered from households", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Accounting decomposition of national income and cross-border risk-sharing components.",
+      "uncertainty": "The study does not estimate the distribution of remittance, transfer or investment-income gains within countries or their social costs.",
+      "subgroup": "Migrant-sending households, transfer recipients, asset owners, governments, financial intermediaries and countries integrated differently into global capital and labor flows.",
+      "counterinterpretation": "Cross-border channels can stabilize aggregate income while increasing dependence on migration, volatile capital markets or external policy decisions.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099254403302620407/pdf/IDU-1a886cdd-9dd7-420a-b088-4578150c7aba.pdf",
+      "retrieval_hash": "sha256:806078c71ed3b5bc788e5689ae624eb2bcea68c9adb4439d0c5766d7e48c5bf1",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2023; fiscal space and capital-account openness",
+      "denominator": {"value": 134, "unit": "countries in the panel", "value_type": "published_country_frame"},
+      "measures": {
+        "fiscal_space": {"value": "countries with more fiscal space are better able to smooth output volatility through government saving", "unit": "reported cross-country relationship", "value_type": "reported_association"},
+        "capital_openness": {"value": "more open capital accounts shift the balance toward government-based stabilization and improve access to cross-border smoothing channels", "unit": "reported cross-country relationship", "value_type": "reported_association"},
+        "program_implication": {"value": "shock resilience depends not only on household behavior but also on whether governments have room to save, borrow, transfer and coordinate across borders", "unit": "reported policy implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country heterogeneity analysis relating the decomposition to fiscal space and capital-account openness.",
+      "uncertainty": "The paper reports relationships within an aggregate macro framework; it does not provide a clean causal estimate of a specific fiscal or financial reform.",
+      "subgroup": "Highly indebted governments, fiscally buffered governments, open and less-open economies, households exposed to public transfers and firms exposed to international finance.",
+      "counterinterpretation": "Openness may improve smoothing in some settings but can also transmit financial shocks faster; fiscal space can be politically contested and unevenly deployed.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099254403302620407/pdf/IDU-1a886cdd-9dd7-420a-b088-4578150c7aba.pdf",
+      "retrieval_hash": "sha256:806078c71ed3b5bc788e5689ae624eb2bcea68c9adb4439d0c5766d7e48c5bf1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/501", "claim": "World Bank reproducibility package describing the 134-country panel, 1990-2023 coverage, findings and computational verification."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11345.html", "claim": "Bibliographic record for World Bank Policy Research Working Paper 11345 and its abstract."}
+  ],
+  "boundary": "This record adds a macro-to-household-buffer route linking international volatility to public saving, private precautionary saving, remittances, transfers, investment income, fiscal space and capital-account openness. It is aggregate accounting evidence, not respondent-level data, household causal evidence, a welfare evaluation or a forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank working-paper PDF, World Bank reproducibility package and bibliographic abstract were reviewed for the country panel, country-group percentages, cross-border channels, fiscal-space relationship and methodological boundaries.",
+    "source_url_sha256": "sha256:806078c71ed3b5bc788e5689ae624eb2bcea68c9adb4439d0c5766d7e48c5bf1",
+    "checked": "2026-09-27"
+  }
+}

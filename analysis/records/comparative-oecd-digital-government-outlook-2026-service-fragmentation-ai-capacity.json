@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-digital-government-outlook-2026-service-fragmentation-ai-capacity",
+  "title": "Digital government is advancing faster than joined-up service capacity, leaving access, trust, and accountability dependent on implementation",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "OECD Digital Government Outlook 2026",
+  "geography": "OECD member and partner-country comparative digital-government indicators and case evidence; country coverage varies by indicator and year",
+  "observations": [
+    {
+      "period": "2026 report; public-service access and administrative confidence",
+      "denominator": {"value": 1, "unit": "OECD comparative public-service evidence frame", "value_type": "reported_comparative_frame"},
+      "measures": {
+        "support_confidence_gap": {"value": 46, "unit": "percent of people not confident they could access support when needed", "value_type": "reported_average_share"},
+        "benefit_access_confidence": {"value": 31, "unit": "percent who feel they could easily receive public benefits if needed", "value_type": "reported_average_share"},
+        "simple_quick_application": {"value": 28, "unit": "percent who think a public-benefit application would be simple and quick", "value_type": "reported_average_share"},
+        "mechanism": {"value": "Digital availability does not equal practical reachability; speed, simplicity, and confidence determine whether formal support becomes usable support", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD synthesis of trust-survey indicators and comparative digital-government evidence cited in the 2026 Outlook.",
+      "uncertainty": "The indicators summarize perceptions and comparative evidence rather than linked administrative records; they do not estimate take-up, eligibility, processing errors, or causal effects of digitisation.",
+      "subgroup": "People navigating public benefits and services across OECD comparison contexts, with uneven needs, digital access, language, disability, and administrative capacity.",
+      "counterinterpretation": "Low confidence may reflect complex or high-stakes needs rather than poor digital design alone; some services may be accessible despite low general expectations.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/digital-government-outlook_4585678e/0496b2bc-en.pdf",
+      "retrieval_hash": "sha256:a2c32fe8dfcba7aba54d1a251a6b247208b800175eea8cf781a772c59a62d800",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; complex life-event service journeys",
+      "denominator": {"value": 1, "unit": "OECD human-centred service-design synthesis", "value_type": "reported_governance_frame"},
+      "measures": {
+        "cross_role_life": {"value": "A person seeking support may simultaneously be a worker, caregiver, student, and small-business owner", "unit": "reported service-design example", "value_type": "reported_assessment"},
+        "fragmentation": {"value": "Institutional boundaries produce duplication, repeated requests for information, and fragmented handovers", "unit": "reported implementation pattern", "value_type": "reported_assessment"},
+        "rights_route": {"value": "Complex service journeys can affect whether people understand, claim, or exercise rights and remedies", "unit": "bounded governance mechanism", "value_type": "bounded_mechanism"},
+        "mechanism": {"value": "The unit of lived access is a cross-agency journey, while government delivery is still commonly organised as separate institutional entry points", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD qualitative and comparative synthesis of human-centred public administrative service implementation and cross-agency delivery.",
+      "uncertainty": "The report identifies recurring implementation patterns and examples, not a universal prevalence estimate or causal comparison of institutional models.",
+      "subgroup": "People facing overlapping work, care, health, displacement, legal-aid, benefit, or small-business needs; burdens are likely unequal but are not collapsed into one prevalence measure.",
+      "counterinterpretation": "Institutional specialisation can improve expertise and safeguards; integration without clear accountability may create new privacy, coordination, or exclusion risks.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/digital-government-outlook_4585678e/0496b2bc-en.pdf",
+      "retrieval_hash": "sha256:a2c32fe8dfcba7aba54d1a251a6b247208b800175eea8cf781a772c59a62d800",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; standards, user engagement, reliability, proactiveness, and feedback",
+      "denominator": {"value": 1, "unit": "OECD digital-government implementation framework", "value_type": "reported_governance_frame"},
+      "measures": {
+        "implementation_gap": {"value": "The central challenge is whether service frameworks shape day-to-day design, investment, and delivery rather than whether frameworks exist", "unit": "reported implementation diagnosis", "value_type": "reported_assessment"},
+        "reliability": {"value": "Services must remain coherent and accessible as needs, demand, and circumstances change", "unit": "reported service principle", "value_type": "reported_assessment"},
+        "feedback": {"value": "Continuous improvement requires measurement connected to actual service improvement, not only process milestones or form completion", "unit": "reported performance principle", "value_type": "reported_assessment"},
+        "mechanism": {"value": "Digital capability becomes public value only when standards, engagement, reliability, proactive support, and feedback alter delivery in practice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD comparative framework and country cases on digital-government governance, service design, monitoring, and implementation.",
+      "uncertainty": "The framework is diagnostic and comparative; it does not provide a single causal score linking each practice to trust, equity, take-up, or welfare.",
+      "subgroup": "Service users, frontline staff, administrators, digital designers, oversight bodies, and people with limited time or ability to navigate repeated processes.",
+      "counterinterpretation": "Process measures remain necessary for basic accountability; outcome and user-experience measures can also be noisy, delayed, or difficult to attribute.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/digital-government-outlook_4585678e/0496b2bc-en.pdf",
+      "retrieval_hash": "sha256:a2c32fe8dfcba7aba54d1a251a6b247208b800175eea8cf781a772c59a62d800",
+      "status": "reported"
+    },
+    {
+      "period": "2025 versus 2023 comparative government-AI use",
+      "denominator": {"value": 4, "unit": "public-sector policy areas compared in the Outlook: internal processes, public-service design and delivery, policymaking, and oversight/accountability", "value_type": "reported_policy_area_frame"},
+      "measures": {
+        "adoption_pattern": {"value": "AI use is more widespread in internal processes and public-service design and delivery than in policymaking and public-sector oversight/accountability", "unit": "reported comparative pattern", "value_type": "reported_assessment"},
+        "capacity_dependency": {"value": "AI deployment depends on interoperable data, digital infrastructure, skills, procurement, governance, and clear liability", "unit": "reported implementation condition", "value_type": "reported_assessment"},
+        "trust_dependency": {"value": "Cross-border and cross-agency interoperability ultimately depends on institutional trust, mutual recognition, privacy, security, and personal-data protections", "unit": "reported governance condition", "value_type": "reported_assessment"},
+        "mechanism": {"value": "Government AI is arriving first where it can increase administrative capacity, while the accountability layer needed to govern it is less mature", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD comparative indicator and case synthesis covering public-sector AI use, digital public infrastructure, interoperability, digital identity, and governance.",
+      "uncertainty": "Reported policy-area coverage does not measure system quality, algorithmic accuracy, distributional effects, worker impacts, or whether oversight can actually stop or correct an AI-assisted decision.",
+      "subgroup": "Public-service users, public employees, agencies, vendors, regulators, and people with less capacity to understand or contest automated processes.",
+      "counterinterpretation": "Lower use in policymaking or oversight may reflect appropriate caution and legal safeguards rather than institutional weakness; higher deployment does not prove better service.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/digital-government-outlook_4585678e/0496b2bc-en.pdf",
+      "retrieval_hash": "sha256:a2c32fe8dfcba7aba54d1a251a6b247208b800175eea8cf781a772c59a62d800",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/trustworthy-artificial-intelligence-in-the-public-sector_6f98c91a.html", "claim": "Complementary OECD evidence on public-sector AI optimism, fairness, transparency, data protection, and trust."},
+    {"source_url": "https://www.oecd.org/en/publications/the-people-and-the-budget_81674d37-en/full-report/overview-the-need-to-empower-public-understanding-of-the-budget_74707255.html", "claim": "Complementary OECD evidence on service satisfaction, fiscal understanding, and trust in government."}
+  ],
+  "boundary": "This record adds a comparative route from digital-government infrastructure and AI adoption through service reachability, cross-agency coordination, rights access, feedback, trust, and accountability. It is a secondary comparative public-report synthesis, not respondent-level analysis, an administrative service-outcome evaluation, a causal estimate, or proof that digitalisation improves welfare or equity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD Digital Government Outlook 2026 PDF was reviewed for public-service access confidence, cross-agency fragmentation, implementation and feedback principles, public-sector AI policy-area adoption, interoperability, and accountability conditions.",
+    "source_url_sha256": "sha256:a2c32fe8dfcba7aba54d1a251a6b247208b800175eea8cf781a772c59a62d800",
+    "checked": "2026-09-28"
+  }
+}

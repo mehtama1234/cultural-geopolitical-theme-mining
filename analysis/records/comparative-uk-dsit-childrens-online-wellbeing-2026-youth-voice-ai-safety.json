@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dsit-childrens-online-wellbeing-2026-youth-voice-ai-safety",
+  "title": "Young people want social media redesigned and governed rather than simply removed, balancing connection and community against algorithmic pressure, AI risk, and weak trust",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "UK Department for Science, Innovation and Technology, Children's wellbeing online: What young people think about social media, safety and AI, prepared by Savanta, 15 July 2026",
+  "geography": "United Kingdom young people ages 10-21, parents, teachers, youth practitioners, public consultation participants, and youth-led hack events",
+  "observations": [
+    {
+      "period": "2026; online life, connection, and exposure",
+      "denominator": {"value": 9000, "unit": "more than young people ages 10-21 completing the main online survey, with more than 5,000 parents and over 2,200 teachers/youth practitioners surveyed separately", "value_type": "reported_survey_frame"},
+      "measures": {
+        "smartphone_access": {"value": 97, "unit": "percent of young people in the main survey reporting smartphone access", "value_type": "reported_survey_share"},
+        "social_media_use": {"value": 96, "unit": "percent of young people in the main survey reporting social-media use", "value_type": "reported_survey_share"},
+        "connection_benefit": {"value": 82, "unit": "percent saying social media helped them feel connected to other people", "value_type": "reported_survey_share"},
+        "inclusion_benefit": {"value": 71, "unit": "percent saying social media made them feel included", "value_type": "reported_survey_share"},
+        "anxiety_exposure": {"value": "40 percent said social media sometimes made them worry about what others think, and 39 percent said it made them feel anxious; these feelings were more common among girls and disabled young people", "unit": "reported survey shares and subgroup pattern", "value_type": "reported_survey_finding"},
+        "social_infrastructure": {"value": "young people described social media as a way to reach friends, information, education, and communities that may be unavailable locally or too costly to access in person", "unit": "youth-led qualitative finding", "value_type": "reported_mechanism"}
+      },
+      "method": "UK main survey of young people, parents, teachers and youth practitioners combined with seven youth-led hack events and youth collaborators.",
+      "uncertainty": "Survey shares describe reported experience rather than clinical wellbeing or causal effects; public-consultation respondents were self-selecting and are kept distinct from the main survey.",
+      "subgroup": "Young people ages 10-21, girls, disabled young people, rural youth, cultural or faith minorities, parents, teachers, youth practitioners, and youth-led communities.",
+      "counterinterpretation": "Connection benefits may vary by platform, household support, offline access, disability, geography, and the type of community being sought; high use does not by itself establish harm.",
+      "source_url": "https://www.gov.uk/government/publications/childrens-wellbeing-online-social-media-quantitative-and-qualitative-report/childrens-wellbeing-online-what-young-people-think-about-social-media-safety-and-ai",
+      "retrieval_hash": "sha256:e6b2ecfdcab6eb1c63f4191daf4e7f7ad8938c0765f0dae2245ac93cfd51c7bf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; blanket-ban preferences and targeted platform controls",
+      "denominator": {"value": 9000, "unit": "more than young people ages 10-21 in the main UK survey, with separate parent and professional surveys", "value_type": "reported_survey_frame"},
+      "measures": {
+        "young_people_full_ban": {"value": 29, "unit": "percent of young people supporting a full under-16 social-media ban", "value_type": "reported_survey_share"},
+        "young_people_selective_access": {"value": 48, "unit": "percent saying under-16s should be allowed on some platforms but not others", "value_type": "reported_survey_share"},
+        "parent_minimum_age": {"value": 76, "unit": "percent of parents in the main survey agreeing social media should have a minimum age of 16", "value_type": "reported_survey_share"},
+        "targeted_features": {"value": 76, "unit": "percent of young people agreeing that restricting certain features would make social media safer, compared with 75% of parents and 82% of teachers/youth practitioners", "value_type": "reported_survey_comparison"},
+        "policy_route": {"value": "young people generally favored targeted, practical, enforceable changes over an outright ban, while parents and professionals placed more weight on strong age rules", "unit": "reported policy-preference pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Main survey comparisons across young people, parents, and teachers/youth practitioners, supplemented by youth-led deliberative hack events.",
+      "uncertainty": "Preferences may reflect question wording, age, perceived enforceability, family rules, and local context; support for a ban or feature restrictions does not predict implementation outcomes.",
+      "subgroup": "Under-16s, young people ages 16-21, parents, teachers, youth practitioners, policymakers, platforms, and families with different levels of offline social access.",
+      "counterinterpretation": "A well-enforced age floor could reduce some exposures, while targeted controls could leave structural engagement incentives intact; the report does not adjudicate the policy tradeoff experimentally.",
+      "source_url": "https://www.gov.uk/government/publications/childrens-wellbeing-online-social-media-quantitative-and-qualitative-report/childrens-wellbeing-online-what-young-people-think-about-social-media-safety-and-ai",
+      "retrieval_hash": "sha256:e6b2ecfdcab6eb1c63f4191daf4e7f7ad8938c0765f0dae2245ac93cfd51c7bf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform design, algorithmic control, and institutional responsibility",
+      "denominator": {"value": 7, "unit": "UK youth-led hack events across Belfast, Brighton, Caerphilly, Edinburgh, Gloucester, Ipswich, and Newcastle", "value_type": "participatory_event_frame"},
+      "measures": {
+        "design_concerns": {"value": "young people repeatedly raised infinite scrolling, autoplay, public like counts, poor comment moderation, age-inappropriate advertising, opaque algorithms, and contact from strangers", "unit": "youth-led qualitative issue set", "value_type": "reported_issue_set"},
+        "time_limits": {"value": 84, "unit": "percent of young people in the main survey supporting at least one daily-limit or overnight-access restriction", "value_type": "reported_survey_share"},
+        "platform_responsibility": {"value": "young people assigned platforms responsibility for moderation, algorithm design, and age verification, and government responsibility for binding standards and enforcement", "unit": "youth-led governance framing", "value_type": "reported_framework"},
+        "incentive_awareness": {"value": "young people linked the features they find harmful to the commercial incentives that make platforms money, reducing confidence in voluntary action", "unit": "youth-led institutional interpretation", "value_type": "reported_mechanism"},
+        "desired_route": {"value": "the preferred response was platform-level design change and enforceable accountability rather than relying only on family willpower or individual self-control", "unit": "reported policy mechanism", "value_type": "reported_framework"}
+      },
+      "method": "Seven participatory youth hack events co-designed and co-delivered with young people, plus main survey results and youth collaborators in analysis and writing.",
+      "uncertainty": "Hack events are qualitative and participatory rather than statistically representative; the findings show articulated concerns and proposals, not prevalence estimates for every issue.",
+      "subgroup": "Young people ages 10-18 participating in hack events, youth collaborators ages 16-21, platform users, parents, policymakers, and platform designers.",
+      "counterinterpretation": "Platform-level limits can be bypassed or create new exclusion; user control and moderation improvements also require usable defaults, appeal routes, and privacy-preserving enforcement.",
+      "source_url": "https://www.gov.uk/government/publications/childrens-wellbeing-online-social-media-quantitative-and-qualitative-report/childrens-wellbeing-online-what-young-people-think-about-social-media-safety-and-ai",
+      "retrieval_hash": "sha256:e6b2ecfdcab6eb1c63f4191daf4e7f7ad8938c0765f0dae2245ac93cfd51c7bf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI content, age verification, and trust",
+      "denominator": {"value": 9000, "unit": "main survey of young people, with separate parent/professional surveys and youth-led qualitative events", "value_type": "reported_survey_frame"},
+      "measures": {
+        "ai_concerns": {"value": "young people identified misinformation, deepfakes, romantic or friend-like chatbots, over-reliance for schoolwork, extremist content, and AI data-centre water use as major concerns", "unit": "reported concern set", "value_type": "reported_issue_set"},
+        "ai_age_requirement": {"value": "83 percent of young people ages 16-21 and 85 percent of parents support minimum age requirements for AI chatbots; 85 percent of teachers/youth practitioners also support them", "unit": "reported survey comparison", "value_type": "reported_survey_comparison"},
+        "content_labeling": {"value": "mandatory, visible labeling of AI-generated or edited content was the most consistent practical demand at the youth hack events", "unit": "youth-led policy proposal", "value_type": "reported_framework"},
+        "age_check_support": {"value": "66 percent of young people ages 16-21 in the main survey say age checks would help keep them safer, while youth consultation participants raised privacy, exclusion, and enforceability concerns", "unit": "reported survey and consultation comparison", "value_type": "reported_survey_comparison"},
+        "trust_condition": {"value": "young people support stronger verification only when it works, is enforced, and does not create disproportionate privacy or exclusion risks", "unit": "reported trust mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Mixed-method UK research combining main surveys, self-selected public consultation, professional survey, youth hacks, and youth collaborators.",
+      "uncertainty": "AI concerns and proposals emerged strongly in qualitative events but are not all prevalence estimates; support percentages differ by age and sample frame, and the report does not evaluate a specific age-verification technology.",
+      "subgroup": "Young people, parents, teachers, youth practitioners, disabled and foreign-language users, platforms, schools, regulators, and AI developers.",
+      "counterinterpretation": "Labels, literacy, and age checks may reduce some risks but cannot alone resolve algorithmic incentives, privacy leakage, misinformation supply, or the social value of online communities.",
+      "source_url": "https://www.gov.uk/government/publications/childrens-wellbeing-online-social-media-quantitative-and-qualitative-report/childrens-wellbeing-online-what-young-people-think-about-social-media-safety-and-ai",
+      "retrieval_hash": "sha256:e6b2ecfdcab6eb1c63f4191daf4e7f7ad8938c0765f0dae2245ac93cfd51c7bf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/collections/growing-up-in-the-online-world", "claim": "The UK government's Growing up in the online world collection contains the full quantitative and qualitative reports and policy response."},
+    {"source_url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement", "claim": "The government's progress statement provides complementary policy context and distinguishes young people's views from a singular solution."}
+  ],
+  "boundary": "This record adds UK public research on young people's online connection, platform design, social-media safety, AI concerns, age verification, and youth-led policy preferences. It preserves survey, public-consultation, professional, and participatory evidence as different frames; it is not respondent-level ingestion, a clinical wellbeing study, a global youth estimate, a platform audit, or proof that a ban or feature restriction will produce the claimed outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK DSIT youth summary reviewed for main survey frames, connection and anxiety shares, ban and targeted-control preferences, youth hack methods, platform responsibility, AI concerns, labeling, and age-verification findings.",
+    "source_url_sha256": "sha256:e6b2ecfdcab6eb1c63f4191daf4e7f7ad8938c0765f0dae2245ac93cfd51c7bf",
+    "checked": "2026-09-27"
+  }
+}

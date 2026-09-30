@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-woman-president-skepticism-2026-gender-representation-legitimacy",
+  "title": "Skepticism about a woman president is rising even as gender-neutral leadership becomes the dominant public frame",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center short read, Americans have grown more skeptical that a woman will be president in their lifetime, September 2, 2026",
+  "geography": "United States; adults nationally with gender, party, and expectation/importance comparisons",
+  "observations": [
+    {
+      "period": "July 6-12, 2026; perceived likelihood of a woman president",
+      "denominator": {"value": 3554, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "not_likely_2026": {"value": 37, "unit": "percent saying it is not too or not at all likely the U.S. will elect a woman president in their lifetime", "value_type": "reported_share"},
+        "not_likely_2023": {"value": 26, "unit": "percent in July 2023", "value_type": "reported_share"},
+        "highly_likely_2026": {"value": 17, "unit": "percent saying extremely or very likely", "value_type": "reported_share"},
+        "highly_likely_2023": {"value": 25, "unit": "percent in July 2023", "value_type": "reported_share"},
+        "somewhat_likely_2026": {"value": 44, "unit": "percent saying somewhat likely", "value_type": "reported_share"}
+      },
+      "method": "Pew survey of 3,554 U.S. adults conducted July 6-12, 2026, compared with a July 2023 survey using the same future-election question.",
+      "uncertainty": "This measures expectation, not candidate supply, voter behavior, electoral probability, or the causes of change between 2023 and 2026; lifetime horizons also vary by respondent age.",
+      "subgroup": "U.S. adults nationally, with gender and party comparisons.",
+      "counterinterpretation": "Rising skepticism may reflect recent political experience, candidate visibility, broader institutional pessimism, or a judgment that presidential gender is no longer the central barrier; the survey cannot separate these explanations.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/02/americans-have-grown-more-skeptical-that-a-woman-will-be-president-in-their-lifetime/",
+      "retrieval_hash": "sha256:f5353412543d670d76213ff31f10a794419c6a834028eaa706287c05e62d5518",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; personal importance of gender representation",
+      "denominator": {"value": 3554, "unit": "U.S. adults in the Pew survey", "value_type": "survey_sample"},
+      "measures": {
+        "highly_important_all": {"value": 18, "unit": "percent saying it is extremely or very important personally that the U.S. elects a woman president", "value_type": "reported_share"},
+        "somewhat_important_all": {"value": 16, "unit": "percent saying somewhat important", "value_type": "reported_share"},
+        "not_important_or_gender_irrelevant": {"value": 66, "unit": "percent saying not too or not at all important or that the president's gender does not matter", "value_type": "reported_share"},
+        "importance_2023": {"value": 18, "unit": "percent highly important in 2023, unchanged", "value_type": "reported_share"}
+      },
+      "method": "Pew comparison of the personal importance of electing a woman president in 2023 and 2026.",
+      "uncertainty": "The question captures symbolic and personal importance but not broader beliefs about representation, policy, role-model effects, or institutional equality.",
+      "subgroup": "U.S. adults nationally, with gender and party comparisons.",
+      "counterinterpretation": "A stable minority may attach high importance to descriptive representation while a large majority treats leadership as gender-neutral; these positions can coexist with skepticism about the near-term likelihood of a woman winning.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/02/americans-have-grown-more-skeptical-that-a-woman-will-be-president-in-their-lifetime/",
+      "retrieval_hash": "sha256:f5353412543d670d76213ff31f10a794419c6a834028eaa706287c05e62d5518",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; party and gender differences in importance",
+      "denominator": {"value": 3554, "unit": "U.S. adults in the Pew survey; subgroup estimates use weighted party and gender universes", "value_type": "survey_sample"},
+      "measures": {
+        "democratic_high_importance": {"value": 30, "unit": "percent of Democrats or Democratic leaners", "value_type": "reported_share"},
+        "republican_high_importance": {"value": 5, "unit": "percent of Republicans or Republican leaners", "value_type": "reported_share"},
+        "women_high_importance": {"value": 22, "unit": "percent of women", "value_type": "reported_share"},
+        "men_high_importance": {"value": 12, "unit": "percent of men", "value_type": "reported_share"},
+        "democratic_women_high_importance": {"value": 37, "unit": "percent of Democratic or Democratic-leaning women", "value_type": "reported_share"},
+        "democratic_men_high_importance": {"value": 22, "unit": "percent of Democratic or Democratic-leaning men", "value_type": "reported_share"}
+      },
+      "method": "Pew weighted subgroup comparisons by party identification and gender.",
+      "uncertainty": "Party and gender associations do not establish why respondents answer differently, how they vote, or whether descriptive representation changes policy or institutional trust.",
+      "subgroup": "Democratic and Republican adults, women and men, and party-by-gender intersections.",
+      "counterinterpretation": "The partisan gap may reflect different theories of equality and leadership rather than a simple pro- or anti-woman position; a low importance response can mean gender neutrality rather than opposition.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/02/americans-have-grown-more-skeptical-that-a-woman-will-be-president-in-their-lifetime/",
+      "retrieval_hash": "sha256:f5353412543d670d76213ff31f10a794419c6a834028eaa706287c05e62d5518",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; expectation and importance among respondents who prioritize representation",
+      "denominator": {"value": 1, "unit": "U.S. adults saying electing a woman president is extremely or very important; conditional subgroup denominator not stated in the article", "value_type": "conditional_survey_population"},
+      "measures": {
+        "important_and_highly_likely": {"value": 30, "unit": "percent of those for whom electing a woman president is highly important who also say it is extremely or very likely", "value_type": "reported_share"},
+        "important_and_somewhat_likely": {"value": 40, "unit": "percent of the highly-important group", "value_type": "reported_share"},
+        "important_and_not_likely": {"value": 30, "unit": "percent of the highly-important group", "value_type": "reported_share"}
+      },
+      "method": "Pew conditional comparison between personal importance and perceived likelihood of a woman president.",
+      "uncertainty": "The conditional relationship is descriptive and does not show whether hope, skepticism, political engagement, or information exposure changes the other response.",
+      "subgroup": "Adults who say electing a woman president is extremely or very important personally.",
+      "counterinterpretation": "The split between optimism, uncertainty, and pessimism suggests that representation can remain normatively important even when people do not expect institutions to deliver it soon.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/02/americans-have-grown-more-skeptical-that-a-woman-will-be-president-in-their-lifetime/",
+      "retrieval_hash": "sha256:f5353412543d670d76213ff31f10a794419c6a834028eaa706287c05e62d5518",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a gender-representation and institutional-expectation layer: symbolic importance, perceived likelihood, party identity, and gender identity do not move as one. It does not establish electoral behavior, candidate viability, sexism as a sole cause, policy consequences of descriptive representation, or the likelihood of any future election."
+}

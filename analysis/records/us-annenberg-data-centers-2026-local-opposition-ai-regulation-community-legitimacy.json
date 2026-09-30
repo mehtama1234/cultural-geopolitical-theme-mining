@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-annenberg-data-centers-2026-local-opposition-ai-regulation-community-legitimacy",
+  "title": "Americans separate abstract AI optimism from neighborhood-level opposition to data centers",
+  "theme_ids": ["energy", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Annenberg Public Policy Center Institutions of Democracy survey; SSRS nationally representative sample of 1,320 U.S. adult citizens, June 16–July 19, 2026, compared with a February–March 2026 survey",
+  "geography": "United States; nationally representative adults ages 18 and older",
+  "observations": [
+    {
+      "period": "February–July 2026; local data-center construction",
+      "denominator": {"value": 1320, "unit": "U.S. adult citizens in the June–July 2026 APPC Institutions of Democracy survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "oppose_new_local_data_centers": {"value": "61; 49 in spring", "unit": "percent; June–July 2026 versus February–March 2026", "value_type": "reported_change"},
+        "strongly_oppose": {"value": 44, "unit": "percent in June–July 2026", "value_type": "reported_share"},
+        "support_new_local_data_centers": {"value": "14; 21 in spring", "unit": "percent; June–July 2026 versus February–March 2026", "value_type": "reported_change"},
+        "neither_support_nor_oppose": {"value": 25, "unit": "percent in June–July 2026", "value_type": "reported_share"}
+      },
+      "method": "APPC/SSRS nationally representative survey with a spring comparison; respondents were weighted to population benchmarks and the full-sample margin of error was ±3.5 percentage points.",
+      "uncertainty": "The comparison uses separate survey waves and measures stated local attitudes rather than permit decisions, energy bills, construction outcomes, or causal exposure to a proposed facility.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Opposition can reflect general infrastructure, environmental, privacy, or land-use concerns rather than opposition to AI itself; stated attitudes may change with project design, benefits, or local information.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/",
+      "retrieval_hash": "sha256:21bb40ff222990831c6c820a99063d45530b4af61a994b71de5c06dfd3cd6286",
+      "status": "reported"
+    },
+    {
+      "period": "June–July 2026; local data-center opposition by political identity and age",
+      "denominator": {"value": 1320, "unit": "U.S. adult citizens in the June–July 2026 APPC Institutions of Democracy survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "democratic_opposition": {"value": "69 Democrat; 54 Republican; 53 independent", "unit": "percent opposing new local data centers", "value_type": "reported_subgroup_comparison"},
+        "under_30_opposition": {"value": 70, "unit": "percent of adults under 30 opposing new local data centers", "value_type": "reported_share"},
+        "age_65_plus_opposition": {"value": 57, "unit": "percent of adults 65 and older opposing new local data centers", "value_type": "reported_share"}
+      },
+      "method": "APPC/SSRS subgroup estimates from the June–July 2026 nationally representative survey.",
+      "uncertainty": "Subgroup margins of error are larger than the full-sample margin; party and age differences are descriptive and do not identify whether concerns arise from jobs, privacy, energy, land use, or political messaging.",
+      "subgroup": "U.S. adults by party identification and age.",
+      "counterinterpretation": "Cross-party opposition does not imply a common policy agenda; younger adults may be more exposed to AI labor, privacy, or climate narratives, but the survey does not establish the mechanism.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/",
+      "retrieval_hash": "sha256:21bb40ff222990831c6c820a99063d45530b4af61a994b71de5c06dfd3cd6286",
+      "status": "reported"
+    },
+    {
+      "period": "February–July 2026; broad AI outlook and regulation",
+      "denominator": {"value": 1320, "unit": "U.S. adult citizens in the June–July 2026 APPC Institutions of Democracy survey; spring comparison", "value_type": "reported_sample_size"},
+      "measures": {
+        "expect_ai_negative_us_impact": {"value": 39, "unit": "percent expecting somewhat or very negative impact over the next decade", "value_type": "reported_share"},
+        "expect_ai_positive_us_impact": {"value": 18, "unit": "percent expecting somewhat or very positive impact over the next decade", "value_type": "reported_share"},
+        "government_too_little_ai_regulation": {"value": 68, "unit": "percent saying government has done too little to regulate AI", "value_type": "reported_share"},
+        "government_about_right_or_too_much": {"value": "22 about right; 8 too much", "unit": "percent", "value_type": "reported_share_set"}
+      },
+      "method": "APPC/SSRS survey comparison across spring and summer 2026 AI-attitude questions.",
+      "uncertainty": "The report describes the spring-to-summer changes as statistically unchanged; broad expectations are not forecasts and do not identify desired regulatory design or actual government action.",
+      "subgroup": "U.S. adults ages 18 and older, with party comparisons for regulation demand.",
+      "counterinterpretation": "Stable national-level AI judgment can coexist with rapidly changing local experience; saying regulation is insufficient does not specify whether respondents want federal, state, local, or sectoral rules.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/",
+      "retrieval_hash": "sha256:21bb40ff222990831c6c820a99063d45530b4af61a994b71de5c06dfd3cd6286",
+      "status": "reported"
+    },
+    {
+      "period": "2026; expected AI impact by domain",
+      "denominator": {"value": 1320, "unit": "U.S. adult citizens in the June–July 2026 APPC Institutions of Democracy survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "medical_research_positive": {"value": "57 positive; 16 negative", "unit": "percent expecting AI impact on medical research and discoveries", "value_type": "reported_share_set"},
+        "privacy_data_security_net": {"value": -63, "unit": "percentage points positive minus negative expectations", "value_type": "reported_net_difference"},
+        "child_safety_online_net": {"value": -50, "unit": "percentage points positive minus negative expectations", "value_type": "reported_net_difference"},
+        "employment_jobs_net": {"value": -46, "unit": "percentage points positive minus negative expectations", "value_type": "reported_net_difference"},
+        "government_services_net": {"value": -7, "unit": "percentage points positive minus negative expectations", "value_type": "reported_net_difference"}
+      },
+      "method": "APPC survey map of expected AI impact across 13 domains; net values are reported positive-minus-negative differences.",
+      "uncertainty": "Net expectations combine separate positive and negative responses and do not measure actual outcomes, risk probabilities, or respondents’ understanding of each domain.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "The positive medical-research assessment may reflect high public trust in medical innovation, while privacy and jobs are more immediate personal concerns; domain differences do not prove a single general attitude toward AI.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/",
+      "retrieval_hash": "sha256:21bb40ff222990831c6c820a99063d45530b4af61a994b71de5c06dfd3cd6286",
+      "status": "reported"
+    },
+    {
+      "period": "June–July 2026; AI use and local data-center views",
+      "denominator": {"value": 1320, "unit": "U.S. adult citizens in the June–July 2026 APPC Institutions of Democracy survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "heard_moderate_amount_about_ai": {"value": 76, "unit": "percent", "value_type": "reported_share"},
+        "used_ai_past_month": {"value": 59, "unit": "percent using or interacting with AI at least a few times in the past month", "value_type": "reported_share"},
+        "frequent_ai_users_negative_us_outlook": {"value": 29, "unit": "percent of those using AI many times or almost every day expecting negative U.S. impact", "value_type": "reported_share"},
+        "nonusers_negative_us_outlook": {"value": 54, "unit": "percent of those not using AI in the past month expecting negative U.S. impact", "value_type": "reported_share"},
+        "local_opposition_by_use": {"value": "64 nonusers; 60 light users; 60 heavy users", "unit": "percent opposing new local data centers", "value_type": "reported_subgroup_comparison"}
+      },
+      "method": "APPC/SSRS survey cross-tabulation of AI use, broad national expectations, and local data-center opposition.",
+      "uncertainty": "Cross-sectional use groups are self-selected; the survey does not establish whether use changes optimism, whether optimism drives use, or which concrete local concerns sustain opposition.",
+      "subgroup": "U.S. adults grouped by recent AI-use frequency.",
+      "counterinterpretation": "Hands-on use may reduce abstract uncertainty while leaving privacy, jobs, energy, land-use, or neighborhood concerns intact; local opposition is not necessarily anti-technology sentiment.",
+      "source_url": "https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/",
+      "retrieval_hash": "sha256:21bb40ff222990831c6c820a99063d45530b4af61a994b71de5c06dfd3cd6286",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.annenbergpublicpolicycenter.org/americans-pessimistic-about-ais-impact-and-want-more-regulation/", "claim": "Spring 2026 APPC comparison source for AI outlook, regulation, jobs, and initial data-center attitudes.", "status": "comparison-source"}
+  ],
+  "boundary": "This record captures U.S. public expectations about AI and local data-center construction, including subgroup and domain contrasts. It does not establish actual environmental, energy, employment, privacy, health, or economic effects; permit outcomes; causal mechanisms; or whether local opposition produces policy change.",
+  "retrieval_hash": "sha256:21bb40ff222990831c6c820a99063d45530b4af61a994b71de5c06dfd3cd6286"
+}

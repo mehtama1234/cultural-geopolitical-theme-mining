@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity",
+  "title": "Digital life is becoming a layered utility: connectivity, sociality and AI are expanding together but unevenly",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "DataReportal, Digital 2026 Mid-Year Global Update Report",
+  "geography": "Global digital users, with GWI survey comparisons across 54 economies and platform, connectivity and web-traffic evidence from multiple data partners",
+  "observations": [
+    {
+      "period": "April 2026; global digital access and user-identity estimates",
+      "denominator": {"value": 8250000000, "unit": "estimated world population frame", "value_type": "published_population_frame"},
+      "measures": {
+        "internet": {"value": "6.12 billion people use the internet, equivalent to 73.8% of the global population, while around 2.2 billion remain offline", "unit": "reported global estimate", "value_type": "reported_estimate"},
+        "mobile": {"value": "5.83 billion unique mobile users represent 70.4% of the global population", "unit": "reported global estimate", "value_type": "reported_estimate"},
+        "social": {"value": "5.79 billion active social-media user identities equal 69.9% of the global population, but identities may not represent unique people", "unit": "reported identity estimate", "value_type": "reported_estimate"}
+      },
+      "method": "DataReportal synthesis of Manochi, GSMA Intelligence, Ericsson and other partner data, with explicit caveats about definitions, revisions and non-unique social-media identities.",
+      "uncertainty": "Global totals combine different sources, definitions and reporting vintages; active user identities, subscribers and people are not interchangeable, and delayed or revised country reporting affects trend interpretation.",
+      "subgroup": "Connected and offline populations, mobile users, social-media users, people in countries with revised official internet estimates, and groups facing affordability or infrastructure barriers.",
+      "counterinterpretation": "High aggregate connectivity can coexist with weak quality, affordability, safety, language access, device sharing, low digital capability or unequal benefits from being online.",
+      "source_url": "https://datareportal.com/reports/digital-2026-mid-year-global-update-report",
+      "retrieval_hash": "sha256:ef6bb8edad8c1fd2409c3a8f083fa1e9b5f45d7fd05d4e81f7d01eaaad8bb682",
+      "status": "reported"
+    },
+    {
+      "period": "Q4 2025 survey wave, reported in 2026; AI use among online adults in 54 economies",
+      "denominator": {"value": 240000, "unit": "more than GWI survey respondents aged 16 and above across 54 economies", "value_type": "survey_sample"},
+      "measures": {
+        "broad_ai": {"value": "81.2% of surveyed online adults used at least one form of AI in the past month, including AI embedded in wider software as well as standalone tools", "unit": "reported survey share", "value_type": "reported_share"},
+        "estimated_reach": {"value": "applying the survey result to the estimated adult online population yields roughly 4.02 billion monthly users of some form of AI, or 48.6% of the world population", "unit": "modeled global estimate", "value_type": "modeled_estimate"},
+        "geography": {"value": "AI use is reported as relatively higher across many Asian, African and South American markets and lower across much of Europe and North America", "unit": "reported geographic pattern", "value_type": "reported_assessment"}
+      },
+      "method": "GWI survey evidence combined with DataReportal population and internet-user estimates; the report distinguishes broad AI functionality from standalone generative-AI platforms.",
+      "uncertainty": "The 4.02 billion figure is an extrapolation from covered economies and online adults, not a direct global count; survey coverage, age composition, definitions and self-reporting limit comparability.",
+      "subgroup": "Online adults across 54 economies, users of embedded AI features, standalone AI users, older users and people in regions with different connectivity and platform ecosystems.",
+      "counterinterpretation": "Reported use may include low-frequency or incidental exposure to embedded AI and does not establish meaningful reliance, quality, productivity, autonomy or equitable benefit.",
+      "source_url": "https://datareportal.com/reports/digital-2026-mid-year-global-update-report",
+      "retrieval_hash": "sha256:ef6bb8edad8c1fd2409c3a8f083fa1e9b5f45d7fd05d4e81f7d01eaaad8bb682",
+      "status": "reported"
+    },
+    {
+      "period": "Q4 2025 survey wave; reported motivations among active AI users",
+      "denominator": {"value": 1, "unit": "active AI user response frame in the GWI survey", "value_type": "published_usage_frame"},
+      "measures": {
+        "information": {"value": "58.8% select finding information as a motivation for AI use", "unit": "reported survey share", "value_type": "reported_share"},
+        "advice_and_learning": {"value": "37.8% use AI to get advice on problems and 37.0% to learn or improve skills", "unit": "reported survey shares", "value_type": "reported_share"},
+        "multi_purpose": {"value": "active AI users select an average of 3.1 of nine possible motivations, including 26.5% who use AI for entertainment", "unit": "reported survey average and share", "value_type": "reported_share_and_average"}
+      },
+      "method": "GWI multi-response survey question on reasons for using AI, summarized by DataReportal across demographic and global comparisons.",
+      "uncertainty": "Motivation categories are predefined and self-reported; the figures do not measure duration, task quality, substitution, downstream action or whether use is voluntary or embedded by a platform.",
+      "subgroup": "AI users seeking information, advice, skills, recommendations, entertainment, work support or life-management help, with motivations varying by age and market.",
+      "counterinterpretation": "AI may be becoming a general-purpose information and advice layer, but widespread use can also reflect search integration, novelty, low-cost experimentation or unmet needs in human and institutional support.",
+      "source_url": "https://datareportal.com/reports/digital-2026-mid-year-global-update-report",
+      "retrieval_hash": "sha256:ef6bb8edad8c1fd2409c3a8f083fa1e9b5f45d7fd05d4e81f7d01eaaad8bb682",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026; social-media scale and reported motivations",
+      "denominator": {"value": 5790000000, "unit": "reported active social-media user identities", "value_type": "reported_identity_frame"},
+      "measures": {
+        "growth": {"value": "active social-media user identities increased by 294 million, or 5.4%, over the prior 12 months", "unit": "reported annual change", "value_type": "reported_growth"},
+        "connection": {"value": "49.0% of adult social-media users say they use social channels to keep in touch with friends and family", "unit": "reported survey share", "value_type": "reported_share"},
+        "attention": {"value": "39.3% cite filling spare time and 30.1% cite reading news stories as social-media motivations", "unit": "reported survey shares", "value_type": "reported_share"}
+      },
+      "method": "Manochi identity estimates combined with GWI survey data on social-media motivations and partner platform measures.",
+      "uncertainty": "Social-media identities are not unique humans, platform definitions vary, and motivation shares do not reveal whether use strengthens relationships, increases exposure to misinformation or changes civic behavior.",
+      "subgroup": "Social-media users across age, geography and platform ecosystems, including people using social channels for relationships, entertainment, news, discovery and spare-time activity.",
+      "counterinterpretation": "Growing platform use does not prove growing social connection; social media may simultaneously support contact, fragment attention, intensify commercial surveillance and displace local or offline interaction.",
+      "source_url": "https://datareportal.com/reports/digital-2026-mid-year-global-update-report",
+      "retrieval_hash": "sha256:ef6bb8edad8c1fd2409c3a8f083fa1e9b5f45d7fd05d4e81f7d01eaaad8bb682",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://datareportal.com/reports/digital-2026-global-overview-report", "claim": "DataReportal Digital 2026 Global Overview page with the broader digital, AI, social, ecommerce and online-entertainment report context and data caveats."},
+    {"source_url": "https://datareportal.com/", "claim": "DataReportal publication hub for the Global Digital Reports series and country-level digital data."}
+  ],
+  "boundary": "This record adds a global digital-connectivity, platform-attention and AI-use layer linking access to sociality, information, advice, learning, entertainment and uneven technological dependence. It synthesizes publisher and partner estimates plus surveys, not respondent-level ingestion, a direct global census, unique-person counts, behavioral telemetry, causal effects or evidence that digital access produces equal welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official DataReportal Digital 2026 Mid-Year Global Update page was reviewed for April 2026 internet, mobile, social identity and GenAI estimates; GWI AI adoption and motivation figures; social-media motivation figures; partner-source caveats; and the distinction between identities, users and unique people.",
+    "source_url_sha256": "sha256:ef6bb8edad8c1fd2409c3a8f083fa1e9b5f45d7fd05d4e81f7d01eaaad8bb682",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-demographic-growth-2026-aging-youth-migration",
+  "title": "Demographic divergence is redistributing labor, care, migration, and growth opportunities across countries",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank, Global Monitoring Report 2026: Demographic Trends Are Shaping Economic Growth",
+  "geography": "Global country and regional comparison of population growth, age structure, labor supply, migration, human capital, and old-age support",
+  "observations": [
+    {
+      "period": "2026; global population and working-age structure",
+      "denominator": {"value": 1, "unit": "world population and country age-structure profiles", "value_type": "global_demographic_frame"},
+      "measures": {
+        "population_growth": {"value": "global population growth has slowed markedly", "unit": "reported demographic trend", "value_type": "reported_change"},
+        "working_age_share": {"value": "the global working-age share peaked in 2012 and is now declining", "unit": "reported age-structure trend", "value_type": "reported_change"},
+        "economic_implication": {"value": "age structure is expected to shape economic growth, productivity, labor-force participation, and old-age support", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of demographic projections and cross-country development indicators organized by demographic stage.",
+      "uncertainty": "Global summaries conceal large differences in fertility, mortality, migration, participation, productivity, health, and pension-system capacity; demographic structure does not determine economic outcomes by itself.",
+      "subgroup": "Older people, working-age adults, children, caregivers, countries with shrinking labor forces, and households facing changing dependency ratios.",
+      "counterinterpretation": "Productivity growth, longer healthy working lives, labor-force participation, migration, and institutional reform can offset or reshape the effects of population aging.",
+      "source_url": "https://www.worldbank.org/en/publication/global-monitoring-report/development-trends-and-economic-development",
+      "retrieval_hash": "sha256:098f710afde5fb9abf15a17accff34805c5b5bdfcd1f7e0a67b5a71307c67b5e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; youth-heavy growth and poverty opportunity",
+      "denominator": {"value": 1, "unit": "countries and regions classified by demographic stage and poverty concentration", "value_type": "demographic_dividend_frame"},
+      "measures": {
+        "working_age_growth": {"value": "centers of global poverty are projected to experience increases in working-age populations", "unit": "reported demographic trend", "value_type": "reported_pattern"},
+        "opportunity": {"value": "a rising working-age population can create a demographic dividend through higher incomes", "unit": "reported development mechanism", "value_type": "reported_mechanism"},
+        "constraint": {"value": "conflict and fragility can prevent countries from converting youth growth into jobs and human-capital gains", "unit": "reported constraint", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank comparison of demographic profiles with poverty, conflict, fragility, job creation, and human-capital policy conditions.",
+      "uncertainty": "The demographic-dividend pathway depends on education, health, labor demand, institutions, security, gender access, and distribution; a larger working-age population is not itself a welfare improvement.",
+      "subgroup": "Young people, women entering labor markets, conflict-affected populations, low-income countries, and households with limited access to education or decent work.",
+      "counterinterpretation": "Youthful populations can support entrepreneurship, innovation, and domestic demand when labor markets and public systems absorb new entrants.",
+      "source_url": "https://www.worldbank.org/en/publication/global-monitoring-report/development-trends-and-economic-development",
+      "retrieval_hash": "sha256:098f710afde5fb9abf15a17accff34805c5b5bdfcd1f7e0a67b5a71307c67b5e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; aging, care, productivity, and old-age support",
+      "denominator": {"value": 1, "unit": "countries and regions with aging or contracting populations", "value_type": "aging_support_frame"},
+      "measures": {
+        "population_contraction": {"value": "many current engines of global growth are aging rapidly and will experience outright population contraction", "unit": "reported demographic trend", "value_type": "reported_pattern"},
+        "policy_response": {"value": "recommended responses include productivity gains, higher labor-force participation, and fiscally sustainable old-age support", "unit": "reported policy direction", "value_type": "reported_recommendation"},
+        "care_pressure": {"value": "changing age structures increase pressure on pensions, health systems, care arrangements, and intergenerational transfers", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank analysis of aging and contraction scenarios linked to productivity, labor-force, fiscal, health, and old-age-support policy.",
+      "uncertainty": "The report-level framework does not estimate care burdens or pension adequacy for every country; outcomes depend on health, household structure, migration, technology, and institutional design.",
+      "subgroup": "Older people, caregivers, women doing unpaid care, workers approaching retirement, employers, and public pension and health systems.",
+      "counterinterpretation": "Aging societies can retain well-being through healthier longevity, flexible work, productivity, prevention, care innovation, and stronger social infrastructure.",
+      "source_url": "https://www.worldbank.org/en/publication/global-monitoring-report/development-trends-and-economic-development",
+      "retrieval_hash": "sha256:098f710afde5fb9abf15a17accff34805c5b5bdfcd1f7e0a67b5a71307c67b5e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; migration, trade, and capital as demographic adjustment",
+      "denominator": {"value": 1, "unit": "countries and regions with diverging population and labor-supply trajectories", "value_type": "cross_border_adjustment_frame"},
+      "measures": {
+        "adjustment_channels": {"value": "openness to labor, trade, and capital flows can smooth population imbalances", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "development_condition": {"value": "countries with young populations need job creation and human-capital investment, while aging economies need productivity and participation strategies", "unit": "reported policy differentiation", "value_type": "reported_framework"},
+        "distributional_boundary": {"value": "cross-border adjustment creates distributional, political, and institutional questions that aggregate demographic trends do not resolve", "unit": "reported analytical boundary", "value_type": "reported_boundary"}
+      },
+      "method": "World Bank demographic-stage framework connecting population change with labor, trade, capital, migration, and development policy.",
+      "uncertainty": "Openness is not automatically beneficial or politically durable; effects vary by migrant rights, labor-market institutions, infrastructure, remittance channels, receiving capacity, and bargaining power.",
+      "subgroup": "Migrants, sending and receiving communities, workers competing or collaborating across borders, employers, families separated by migration, and states managing demographic imbalance.",
+      "counterinterpretation": "Domestic human-capital, care, housing, and labor-market reforms may reduce dependence on cross-border adjustment, while migration can complement rather than substitute for those investments.",
+      "source_url": "https://www.worldbank.org/en/publication/global-monitoring-report/development-trends-and-economic-development",
+      "retrieval_hash": "sha256:098f710afde5fb9abf15a17accff34805c5b5bdfcd1f7e0a67b5a71307c67b5e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/world-development-report/2023", "claim": "World Development Report 2023 provides complementary evidence on migration, development, and policy design."},
+    {"source_url": "https://www.un.org/development/desa/pd/content/World-Population-Prospects-2024", "claim": "UN World Population Prospects provides complementary demographic projections and methods."}
+  ],
+  "boundary": "This record adds a demographic-structure route linking aging, youth-heavy poverty regions, labor supply, care, old-age support, migration, trade, capital, human capital, and conflict or fragility. It uses publication-level aggregate evidence, not individual fertility histories, respondent-level labor trajectories, household care diaries, or causal estimates of migration or demographic policy effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank demographic-trends publication page was reviewed for global age structure, youth-heavy poverty regions, aging and contraction, old-age support, and cross-border adjustment claims.",
+    "source_url_sha256": "sha256:098f710afde5fb9abf15a17accff34805c5b5bdfcd1f7e0a67b5a71307c67b5e",
+    "checked": "2026-09-26"
+  }
+}

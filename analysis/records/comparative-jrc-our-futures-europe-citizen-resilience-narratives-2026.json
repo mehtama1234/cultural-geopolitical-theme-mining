@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-jrc-our-futures-europe-citizen-resilience-narratives-2026",
+  "title": "Citizen-authored futures connect resilience to agency, institutional capacity, and unresolved social trade-offs",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "trust_identity_meaning", "public_systems_feedback", "geopolitical_state_consequences", "household_room_consumption", "platforms_data_attention", "unequal_exposure_status"],
+  "source_unit": "European Commission Joint Research Centre, Resilience: The future of Europe as seen by EU citizens, analyzed through the Our Futures initiative",
+  "geography": "European Union; citizen-authored future narratives in all 24 official languages",
+  "observations": [
+    {
+      "period": "Our Futures contributions analyzed in the JRC resilience report; publication and public release 2025–2026",
+      "denominator": {"value": 4000, "unit": "over 4,000 short citizen stories collected through the Our Futures open platform; exact total and selection stages vary by analysis", "value_type": "published_narrative_corpus"},
+      "measures": {
+        "eu_core_stories": {"value": 340, "unit": "stories explicitly referencing the EU's role, position, or institutions", "value_type": "reported_corpus_subset"},
+        "anticipated_shocks_stories": {"value": 899, "unit": "stories surfacing specific shocks people fear or anticipate", "value_type": "reported_corpus_subset"},
+        "narrative_method": {"value": "Citizens wrote short stories imagining everyday life in 2040 and interpreted their own anxieties, aspirations, trade-offs, and perceived room for action", "unit": "methodological mechanism", "value_type": "reported_method"},
+        "voice_mechanism": {"value": "Narrative participation exposes how citizens connect issues and imagine agency in ways pre-set survey categories may miss", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Open-platform, self-authored future stories collected across the EU and thematically analyzed by the JRC; the report is not a probability survey or representative forecast.",
+      "uncertainty": "Contributors self-select into an imaginative exercise; corpus size, language, recruitment, story length, coding, and selected-subset rules affect the observed themes. Narrative frequency is not population prevalence.",
+      "subgroup": "European citizens contributing stories in 24 official languages; the public summary does not provide a representative demographic weighting frame.",
+      "counterinterpretation": "The stories may overrepresent people with strong future concerns, digital access, civic interest, or narrative motivation; absence from the corpus is not absence from public concern.",
+      "source_url": "https://policy-lab.ec.europa.eu/stories/what-citizens-stories-reveal-about-europes-resilience-2026-09-27_en",
+      "retrieval_hash": "sha256:404bb8f35868ee6ddce7bbfb8ba83673fb6b4d54e32a9322ab75bf4dca73707d",
+      "status": "reported"
+    },
+    {
+      "period": "JRC resilience narrative analysis; cross-cutting concerns",
+      "denominator": {"value": 340, "unit": "core stories explicitly referencing the EU's role, position, or institutions", "value_type": "reported_corpus_subset"},
+      "measures": {
+        "eight_concern_areas": {"value": "Security and defence; democracy, institutions and trust; migration and social cohesion; climate and environmental degradation; economic inequality; technological disruption; ageing societies; shifting global power balances", "unit": "coded narrative themes", "value_type": "reported_theme_set"},
+        "democracy_governance_share": {"value": 41, "unit": "percent of core stories touching democracy or governance", "value_type": "reported_corpus_share"},
+        "nature_climate_share": {"value": 29, "unit": "percent of core stories touching nature or climate", "value_type": "reported_corpus_share"},
+        "intertwined_challenges": {"value": "Stories connect climate disruption with migration, affordability, social division and polarization, and connect AI with work, human connection, democracy and control", "unit": "reported narrative pattern", "value_type": "reported_pattern"},
+        "systems_imagination": {"value": "Citizens imagine resilience as a cross-domain capacity rather than a single hazard response", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Thematic analysis of the 340 core narratives, with coding of recurring issues and cross-cutting references.",
+      "uncertainty": "Coded narrative shares depend on the selected 340-story subset, coding decisions, overlapping themes, and the prompt's emphasis on Europe's collective future.",
+      "subgroup": "Stories selected for explicit reference to Europe, its institutions, or its collective future; not all Our Futures contributions.",
+      "counterinterpretation": "High thematic overlap may reflect the report's analytical frame rather than how contributors themselves would rank or causally connect issues.",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC143071",
+      "retrieval_hash": "sha256:404bb8f35868ee6ddce7bbfb8ba83673fb6b4d54e32a9322ab75bf4dca73707d",
+      "status": "reported"
+    },
+    {
+      "period": "JRC resilience narrative analysis; citizen-articulated structural tensions",
+      "denominator": {"value": 340, "unit": "core stories explicitly referencing the EU's role, position, or institutions", "value_type": "reported_corpus_subset"},
+      "measures": {
+        "tension_1": {"value": "Integration versus autonomy", "unit": "structural tension", "value_type": "reported_tension"},
+        "tension_2": {"value": "Protected versus open borders", "unit": "structural tension", "value_type": "reported_tension"},
+        "tension_3": {"value": "Environmental action versus economic growth", "unit": "structural tension", "value_type": "reported_tension"},
+        "tension_4": {"value": "Technological progress versus human values, including privacy, connection, and control", "unit": "structural tension", "value_type": "reported_tension"},
+        "tension_5": {"value": "Global engagement versus strategic independence", "unit": "structural tension", "value_type": "reported_tension"},
+        "tradeoff_mechanism": {"value": "Resilience is imagined through unresolved political, material, technological, and geopolitical trade-offs rather than a single consensus solution", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Thematic synthesis of recurring tensions across citizen-authored future stories.",
+      "uncertainty": "The tensions are interpretive categories, not experimental preference estimates; the report does not show how representative or stable each tension is across countries or demographic groups.",
+      "subgroup": "EU citizen narratives about Europe's collective future.",
+      "counterinterpretation": "A tension appearing in a story does not mean the author experiences it as an unavoidable policy trade-off or would choose one side in a concrete decision.",
+      "source_url": "https://policy-lab.ec.europa.eu/stories/what-citizens-stories-reveal-about-europes-resilience-2026-09-27_en",
+      "retrieval_hash": "sha256:404bb8f35868ee6ddce7bbfb8ba83673fb6b4d54e32a9322ab75bf4dca73707d",
+      "status": "reported"
+    },
+    {
+      "period": "JRC resilience narrative analysis; hope, fear, and perceived agency",
+      "denominator": {"value": 340, "unit": "core stories used for the resilience analysis; optimistic and pessimistic visions are described as nearly even", "value_type": "reported_corpus_subset"},
+      "measures": {
+        "vision_polarity": {"value": "Optimistic and pessimistic visions are described as almost evenly split", "unit": "reported narrative pattern", "value_type": "reported_pattern"},
+        "optimistic_endpoints": {"value": "A greener, more united and democratic Europe with technology harnessed while protecting people and the planet", "unit": "reported narrative pattern", "value_type": "reported_pattern"},
+        "pessimistic_endpoints": {"value": "Institutional collapse, authoritarian drift, climate catastrophe, social fragmentation, or geopolitical instability", "unit": "reported narrative pattern", "value_type": "reported_pattern"},
+        "agency": {"value": "Most storytellers, including pessimistic ones, are described as believing they personally can do something to shape the future they imagine", "unit": "reported narrative interpretation", "value_type": "reported_pattern"},
+        "capacity_mechanism": {"value": "The same anxieties produce different futures depending on whether citizens believe Europe has the capacity to act", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Interpretive comparison of optimistic and pessimistic future narratives and their reported sense of personal agency.",
+      "uncertainty": "The public summary does not provide the exact polarity coding rule or percentage distribution; agency is self-interpreted within a narrative exercise and is not observed action.",
+      "subgroup": "Contributors to the Our Futures platform whose stories were included in the resilience analysis.",
+      "counterinterpretation": "Narrative agency can express imaginative hope without predicting political participation, policy support, or future resilience behavior.",
+      "source_url": "https://policy-lab.ec.europa.eu/stories/what-citizens-stories-reveal-about-europes-resilience-2026-09-27_en",
+      "retrieval_hash": "sha256:404bb8f35868ee6ddce7bbfb8ba83673fb6b4d54e32a9322ab75bf4dca73707d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC143071", "claim": "JRC repository record for the full Resilience report, including publication metadata and the report's analytical scope.", "status": "official-report-record"},
+    {"source_url": "https://policy-lab.ec.europa.eu/our-futures_en", "claim": "EU Policy Lab Our Futures platform context for the citizen-story collection.", "status": "official-platform-context"}
+  ],
+  "boundary": "This record is citizen-authored narrative and foresight evidence, not a representative public-opinion survey, forecast, or causal evaluation. It is useful for mapping perceived futures, cross-domain tensions, and agency; it does not establish population prevalence, policy preferences, realized resilience, or institutional performance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official EU Policy Lab release reviewed for the narrative corpus, selected EU-referencing stories, anticipated shocks, coded concern areas, five tensions, optimism/pessimism framing, agency interpretation, and methodological boundary; JRC repository record checked for report identity.",
+    "source_page_sha256": "sha256:404bb8f35868ee6ddce7bbfb8ba83673fb6b4d54e32a9322ab75bf4dca73707d",
+    "checked": "2026-09-28",
+    "version_note": "The public release summarizes the JRC report; exact coding, corpus construction, and country/language breakdowns should be reproduced from JRC143071 and its underlying Our Futures materials."
+  }
+}

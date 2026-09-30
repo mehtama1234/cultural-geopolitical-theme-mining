@@ -1,6 +1,6 @@
 # PSID acquisition gate
 
-**Checked:** 2026-09-24
+**Checked:** 2026-09-28
 **Status:** open account-controlled acquisition gate; no PSID estimate published
 
 **Route-selection rule — 2026-09-20:** PSID is the first authenticated
@@ -23,7 +23,7 @@ first route because it can create a customized multi-wave extract; the first
 authenticated pass should request a minimal field cart rather than download
 all packaged files by default.
 
-**Current public-route recheck — 2026-09-20:** the official [PSID Getting
+**Current public-route recheck — 2026-09-28:** the official [PSID Getting
 Started page](https://psidonline.isr.umich.edu/GettingStarted.aspx) still says
 that public-use data are available to researchers who register and accept the
 Conditions of Use. It describes the Data Center and packaged-data routes and
@@ -31,7 +31,10 @@ continues to expose longitudinal family, employment, income, health, and
 wellbeing content. This makes PSID the preferred first authenticated route for
 the broad atlas's material/time/care bridge, ahead of the more restrictive UAS
 route, subject to account access and the same structural audit. No PSID file
-was downloaded or analyzed in this recheck.
+was downloaded or analyzed in this recheck. The current official packaged-data
+page lists the 2019, 2021, and 2023 Main Study Family Files and the 1968–2023
+Cross-year Individual File, confirming that the intended route remains live but
+account-controlled.
 
 ## What is available
 
@@ -75,7 +78,7 @@ small smoke-audit outputs; no target PSID package was present. No package was
 downloaded during this check, and the absence of a local package is not
 evidence that the substantive relationship is absent.
 
-**Current local recheck — 2026-09-24:** a fresh repository/workspace inventory
+**Current local recheck — 2026-09-28:** a fresh repository/workspace inventory
 again found only access notes, manifests, scripts, and compiled test artifacts;
 there is no authorized 2019, 2021, or 2023 PSID package, UAS respondent file,
 HRS file, or event-compatible restricted input. This confirms the operational

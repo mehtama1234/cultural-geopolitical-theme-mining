@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-bihar-food-accounting-salience-dietary-diversity-2026",
+  "title": "Food-tracking salience can change feeding habits and dietary diversity, but not food quantity or child nutrition status by itself",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11461, Food Accounting Salience and Dietary Diversity: A Randomized Impact Evaluation of an Intervention to Track and Improve Young Children's Food Consumption in Bihar, India",
+  "geography": "2,682 households with children aged 6–24 months across six districts of Bihar, India, in a cluster-randomized intervention delivered with frontline-worker support",
+  "observations": [
+    {
+      "period": "December 2022-July 2023 intervention and follow-up; cluster-randomized trial",
+      "denominator": {"value": 2682, "unit": "households with children aged 6–24 months in six Bihar districts", "value_type": "reported_randomized_sample"},
+      "measures": {
+        "intervention": {"value": "mothers in treatment households received a wall-mounted food-tracking journal", "unit": "reported household intervention", "value_type": "reported_intervention"},
+        "attention": {"value": "the intervention increased mothers' attention to and automaticity of key feeding behaviors", "unit": "reported causal intervention outcome", "value_type": "reported_causal_effect"},
+        "dietary_diversity": {"value": "the intervention increased the probability that children achieved minimum dietary diversity", "unit": "reported causal intervention outcome", "value_type": "reported_causal_effect"},
+        "behavioral_route": {"value": "salience and tracking can reinforce reminders and habit formation around feeding", "unit": "bounded mechanism interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cluster-randomized controlled trial of a household-level wall-journal intervention, with feeding behavior, beliefs, and child dietary outcomes measured over follow-up.",
+      "uncertainty": "The estimates are specific to the Bihar households, child ages, journal design, frontline-worker delivery, food environment, and study period; the result does not establish identical effects in other nutrition settings.",
+      "subgroup": "Mothers and caregivers of young children, children with different feeding needs, households with different food access and income, and frontline workers delivering the intervention.",
+      "counterinterpretation": "The journal may operate through contact with the frontline worker, attention from the research encounter, or social desirability rather than the physical tracking tool alone.",
+      "source_url": "https://documents.worldbank.org/curated/en/099901209212637745/pdf/IDU-9d215cf4-17f4-44c5-9b18-38019808adf7.pdf",
+      "retrieval_hash": "sha256:aa838926a6a7a37f70345dc53904b7a74c4740f546d3add86a8a9675372ab59d",
+      "status": "reported"
+    },
+    {
+      "period": "Five months post-treatment; child quantity and anthropometric outcomes",
+      "denominator": {"value": 2682, "unit": "randomized Bihar households and children in the study frame", "value_type": "reported_followup_frame"},
+      "measures": {
+        "food_quantity": {"value": "no detectable change in the quantity of food fed to children", "unit": "reported causal outcome", "value_type": "reported_null_effect"},
+        "child_muac": {"value": "no detectable change in children's mid-upper arm circumference", "unit": "reported anthropometric outcome", "value_type": "reported_null_effect"},
+        "persistence": {"value": "changes in food diversity were small five months after treatment", "unit": "reported follow-up pattern", "value_type": "reported_effect_boundary"},
+        "constraint": {"value": "food availability and household income limited improvements in dietary diversity", "unit": "reported implementation and material constraint", "value_type": "reported_constraint"}
+      },
+      "method": "Randomized follow-up comparison of feeding quantity, dietary diversity, and child anthropometric status.",
+      "uncertainty": "The study period and outcomes do not establish long-run growth, health, food security, or whether larger complementary investments would amplify the behavioral effect.",
+      "subgroup": "Households with different incomes, food availability, market access, seasonal exposure, and children at different nutritional risk.",
+      "counterinterpretation": "Anthropometric measures may require longer follow-up or stronger dietary changes; a null quantity effect does not mean the intervention had no welfare value.",
+      "source_url": "https://documents.worldbank.org/curated/en/099901209212637745/pdf/IDU-9d215cf4-17f4-44c5-9b18-38019808adf7.pdf",
+      "retrieval_hash": "sha256:aa838926a6a7a37f70345dc53904b7a74c4740f546d3add86a8a9675372ab59d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; delivery heterogeneity and household economic status",
+      "denominator": {"value": 2682, "unit": "Bihar randomized households with frontline-worker delivery and economic-status comparisons", "value_type": "reported_heterogeneity_frame"},
+      "measures": {
+        "frontline_worker": {"value": "impacts varied by the frontline worker delivering the intervention", "unit": "reported delivery heterogeneity", "value_type": "reported_heterogeneous_effect"},
+        "economic_status": {"value": "better-off households showed larger gains in knowledge, perceived norms, and habit formation", "unit": "reported subgroup pattern", "value_type": "reported_heterogeneous_effect"},
+        "dietary_effect": {"value": "treatment effects on dietary diversity did not differ by household economic status", "unit": "reported subgroup boundary", "value_type": "reported_heterogeneity_boundary"},
+        "system_route": {"value": "behavior tools work through a delivery relationship and within material constraints, not as stand-alone information", "unit": "bounded mechanism interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cluster-randomized intervention analysis with frontline-worker and household-economic-status heterogeneity.",
+      "uncertainty": "The heterogeneity findings do not identify all worker characteristics, household mechanisms, or long-run equity effects, and do not prove that the intervention equalizes nutrition outcomes.",
+      "subgroup": "Frontline workers, mothers, poorer and better-off households, children with different food access, and local nutrition systems.",
+      "counterinterpretation": "Worker variation may reflect caseload, geography, trust, language, supervision, or measurement differences; economic-status patterns can differ for outcomes not measured here.",
+      "source_url": "https://documents.worldbank.org/curated/en/099901209212637745/pdf/IDU-9d215cf4-17f4-44c5-9b18-38019808adf7.pdf",
+      "retrieval_hash": "sha256:aa838926a6a7a37f70345dc53904b7a74c4740f546d3add86a8a9675372ab59d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11461.html", "claim": "Abstract and bibliographic record for World Bank Policy Research Working Paper 11461."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/649", "claim": "World Bank reproducibility package with trial design, data description, and computational verification metadata."},
+    {"source_url": "https://microdata.worldbank.org/catalog/5890", "claim": "Related World Bank Bihar nutrition impact-evaluation data and intervention context."}
+  ],
+  "boundary": "This record adds a causal salience-and-tracking-to-feeding-behavior and dietary-diversity route, with explicit limits around food quantity, child MUAC, persistence, income and food availability, frontline-worker delivery, and household heterogeneity. It does not establish long-run nutrition or growth effects, food-security improvement, universal transferability, or that behavior tools can substitute for affordable diverse food and reliable care infrastructure.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank working-paper PDF, abstract, reproducibility package, and related data record were reviewed for the 2,682-household cluster RCT, wall-journal intervention, behavior and dietary-diversity effects, null food-quantity and MUAC outcomes, five-month boundary, frontline-worker variation, and income/food-availability constraints.",
+    "source_url_sha256": "sha256:aa838926a6a7a37f70345dc53904b7a74c4740f546d3add86a8a9675372ab59d",
+    "checked": "2026-09-29"
+  }
+}

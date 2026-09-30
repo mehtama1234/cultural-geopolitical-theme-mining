@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-action-agenda-2026-development-day-one-crisis-systems",
+  "title": "Crisis response is being reframed as development from day one, linking services, livelihoods, institutions, peacebuilding, and climate resilience",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNDP, Moving Beyond Crisis: Action Agenda",
+  "geography": "Global crisis-affected, fragile, conflict-affected, and disaster-exposed settings, with national and local systems as the intended delivery base",
+  "observations": [
+    {
+      "period": "2024-2026; global crisis and development-risk frame",
+      "denominator": {"value": 1, "unit": "UNDP global crisis assessment frame", "value_type": "published_assessment_frame"},
+      "measures": {
+        "acute_poverty_in_crisis": {"value": 440000000, "unit": "people in acute poverty living in countries affected by war, fragility, or low peacefulness", "value_type": "reported_population_estimate"},
+        "state_conflicts": {"value": 61, "unit": "state-based conflicts across 36 countries in 2024", "value_type": "reported_conflict_count"},
+        "forced_displacement": {"value": 117200000, "unit": "people forcibly displaced worldwide", "value_type": "reported_population_estimate"},
+        "crisis_armed_groups": {"value": 380, "unit": "non-state armed groups controlling territory worldwide, approximately", "value_type": "reported_actor_count"}
+      },
+      "method": "UNDP compiles global conflict, poverty, displacement, climate, disaster, health, and governance indicators to frame the convergence of crisis pressures and development reversals.",
+      "uncertainty": "The figures use different years, definitions, and source systems; they describe overlapping global conditions and should not be summed or treated as one joint population count.",
+      "subgroup": "People in conflict and fragile settings, displaced populations, low-income households, host communities, public institutions, local authorities, and humanitarian and development actors.",
+      "counterinterpretation": "Global crisis indicators can obscure local resilience, uneven exposure, and differences between acute emergency need, chronic fragility, and recoverable shock.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-09/undps_action_agenda_moving_beyond_crisis.pdf",
+      "retrieval_hash": "sha256:19f56d92afc52539e6d2f95aa0d0ae86c96ba6492a26d4292d4e8ec8a9e93f21",
+      "status": "reported"
+    },
+    {
+      "period": "2026; development-from-day-one programming model",
+      "denominator": {"value": 1, "unit": "UNDP crisis action model", "value_type": "published_programming_frame"},
+      "measures": {
+        "action_fronts": {"value": "prepare and prevent; respond and recover; transition and transform", "unit": "three overlapping action fronts", "value_type": "reported_framework"},
+        "development_shift": {"value": "restore essential services, livelihoods, infrastructure, governance, rule of law, and social cohesion from the outset of crisis", "unit": "reported strategic shift", "value_type": "reported_recommendation"},
+        "transition_logic": {"value": "shift leadership, responsibility, and resources progressively to affected communities and national and local institutions", "unit": "reported transition principle", "value_type": "reported_framework"}
+      },
+      "method": "The Action Agenda organizes UNDP's contribution across prevention, response, recovery, transition, and transformation rather than assuming a single linear crisis sequence.",
+      "uncertainty": "The model is a programmatic framework, not evidence that day-one development action produces faster recovery or prevents relapse in every setting.",
+      "subgroup": "Crisis-affected communities, national and local institutions, humanitarian agencies, peacebuilding actors, development partners, and groups facing exclusion from recovery decisions.",
+      "counterinterpretation": "Early development programming can protect systems and agency, but it can also divert resources from immediate life-saving needs or impose external institutional models if locally led transition is weak.",
+      "source_url": "https://www.undp.org/publications/undps-action-agenda-moving-beyond-crisis",
+      "retrieval_hash": "sha256:49290a32e819a09dfca71b8e26d5a69141a701b1b5276c7725d8ecd85c38112a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; integrated crisis-development building blocks",
+      "denominator": {"value": 5, "unit": "Action Agenda building blocks", "value_type": "reported_pillar_denominator"},
+      "measures": {
+        "building_blocks": {"value": "analytics; services, infrastructure and institutions; livelihoods, jobs and economies; peacebuilding and social cohesion; climate and nature", "unit": "reported building blocks", "value_type": "reported_framework"},
+        "reinforcement_path": {"value": "restored services support livelihoods, livelihoods support social cohesion, and stronger institutions rebuild confidence in the social contract", "unit": "reported systems pathway", "value_type": "reported_pathway"},
+        "finance": {"value": "crisis-ready finance and earlier risk-informed investment are treated as cross-cutting requirements", "unit": "reported financing principle", "value_type": "reported_framework"}
+      },
+      "method": "UNDP presents the five building blocks as mutually reinforcing components that should be adapted to context across the three action fronts.",
+      "uncertainty": "The proposed reinforcement pathway is a theory of action, not a quantified causal model or implementation assessment across countries.",
+      "subgroup": "Public service users, workers, firms, local economies, social-cohesion actors, climate-vulnerable communities, and institutions managing recovery finance.",
+      "counterinterpretation": "Integrated programming can improve coherence while creating coordination burdens, blurred accountability, and competition among sectoral priorities.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-09/undps_action_agenda_moving_beyond_crisis.pdf",
+      "retrieval_hash": "sha256:19f56d92afc52539e6d2f95aa0d0ae86c96ba6492a26d4292d4e8ec8a9e93f21",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; financing and system-capacity constraints on crisis recovery",
+      "denominator": {"value": 1, "unit": "global crisis-finance and development-capacity frame", "value_type": "reported_context_frame"},
+      "measures": {
+        "oda_change": {"value": -23, "unit": "percent change in official development assistance in 2025, as reported", "value_type": "reported_change"},
+        "debt_interest_constraint": {"value": 3300000000, "unit": "people living in countries spending more on debt interest than on health or education", "value_type": "reported_population_estimate"},
+        "natural_catastrophe_losses": {"value": 417000000000, "unit": "US dollars in economic losses from natural catastrophes in 2024, with 63 percent uninsured", "value_type": "reported_loss_estimate"},
+        "resource_problem": {"value": "response resources are contracting while crisis needs rise", "unit": "reported system condition", "value_type": "reported_assessment"}
+      },
+      "method": "The Action Agenda combines macro-finance, disaster-loss, aid-flow, debt, and crisis-need indicators to argue for earlier, more resilient, and differently financed development action.",
+      "uncertainty": "The indicators come from different sources and do not estimate the counterfactual effect of financing changes or identify which actors can close each gap.",
+      "subgroup": "Low-income and crisis-affected countries, debt-constrained public systems, uninsured households and firms, displaced people, donors, development financiers, and local recovery institutions.",
+      "counterinterpretation": "Reduced aid can encourage domestic ownership or new financing arrangements, while early investment can fail if governance, conflict, or fiduciary conditions remain unresolved.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-09/undps_action_agenda_moving_beyond_crisis.pdf",
+      "retrieval_hash": "sha256:19f56d92afc52539e6d2f95aa0d0ae86c96ba6492a26d4292d4e8ec8a9e93f21",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/future-development/publications/landscape-development-undp-trends-update-2026", "claim": "UNDP trends update context on development risks and structural transitions."},
+    {"source_url": "https://www.undp.org/publications/service-delivery-systems-hybrid-governance-framework-development-actors-complex-settings", "claim": "Related UNDP-UNU framework on service delivery and non-state actors in complex settings."}
+  ],
+  "boundary": "This record adds a crisis-development systems route linking conflict, displacement, climate shocks, debt and aid constraints, essential services, livelihoods, institutions, social cohesion, and locally led transition. It is a UNDP action framework with aggregate contextual indicators, not a complete crisis census, respondent-level recovery histories, causal evaluation, funding audit, or proof that development-from-day-one programming works uniformly across settings.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 20-page UNDP Action Agenda and publication page were reviewed for crisis indicators, development-from-day-one framing, three action fronts, five building blocks, financing constraints, and the non-linear transition model.",
+    "source_url_sha256": "sha256:19f56d92afc52539e6d2f95aa0d0ae86c96ba6492a26d4292d4e8ec8a9e93f21",
+    "checked": "2026-09-27"
+  }
+}

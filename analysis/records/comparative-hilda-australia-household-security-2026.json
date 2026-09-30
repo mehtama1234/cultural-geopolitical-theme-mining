@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-hilda-australia-household-security-2026",
+  "title": "Australian household security is being stretched across housing, food, work fit, and life-course timing while intimate relationships remain a resilient resource",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Melbourne Institute of Applied Economic and Social Research, University of Melbourne, 2026 HILDA Annual Statistical Report",
+  "geography": "Australia; nationally representative HILDA household panel, Waves 1–24 with selected 2024 outcomes",
+  "observations": [
+    {
+      "period": "2001–2024 HILDA panel; education, work fit, and life-course timing",
+      "denominator": {"value": 17000, "unit": "approximately Australians followed annually in the HILDA panel", "value_type": "reported_annual_panel_scale"},
+      "measures": {
+        "overeducation": {"value": 50, "unit": "approximately half of Australian workers described as over-educated for their job in the 2026 report summary", "value_type": "reported_summary_share"},
+        "young_adults_at_home": {"value": 50, "unit": "approximately half of Australians aged 18–29 living with parents in the report summary", "value_type": "reported_summary_share"},
+        "life_course_compression": {"value": "education, job fit, housing independence and household formation are interacting rather than moving as separate transitions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Annual HILDA Statistical Report synthesis of longitudinal household-panel data collected from 2001 through 2024; the public university summary reports headline findings while detailed estimates and definitions remain in the full report.",
+      "uncertainty": "The public summary does not provide every denominator, subgroup estimate, or model specification for the headline findings; over-education and living-at-home measures require the report’s precise definitions and should not be treated as causal effects.",
+      "subgroup": "Australian workers, young adults aged 18–29, and HILDA household members followed over time.",
+      "counterinterpretation": "Living with parents may reflect preference, cultural norms, education, care exchange, or housing-market conditions; over-education can reflect career entry, changing skill requirements, or worker choice.",
+      "source_url": "https://www.unimelb.edu.au/newsroom/news/2026/september/huge-jump-in-university-education%2C-increased-financial-stress-and-we-really-love-our-partners",
+      "retrieval_hash": "sha256:b948c7564497abe8defc3d8707e124662737365d46a92f6e11dfd1b475bcc64f",
+      "status": "reported"
+    },
+    {
+      "period": "2024 HILDA outcome; food insecurity and household security",
+      "denominator": {"value": 17000, "unit": "approximately Australians followed annually in the HILDA panel; exact food-insecurity analytic denominator is report-specific", "value_type": "reported_annual_panel_scale"},
+      "measures": {
+        "food_insecurity": {"value": "more than one in six Australians aged 15 and over", "unit": "reported 2024 food-insecurity prevalence summary", "value_type": "reported_summary_share"},
+        "economic_pressure": {"value": "employment remains high while housing and money stress increase", "unit": "reported longitudinal summary pattern", "value_type": "reported_pattern"},
+        "security_conversion": {"value": "employment does not automatically convert into food, housing, or financial security", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "HILDA longitudinal panel analysis summarized in the 2026 Annual Statistical Report; the report covers selected waves and 2024 outcomes across economic wellbeing, housing, food insecurity and related domains.",
+      "uncertainty": "The public university summary does not publish the full food-insecurity instrument, weighting details, duration measure, or causal decomposition; the reported share is not a food-bank use or nutritional-health outcome.",
+      "subgroup": "Australians aged 15 and over and households observed through HILDA’s annual panel.",
+      "counterinterpretation": "Food insecurity can be episodic, seasonal, or buffered by informal support; employment status alone does not identify income adequacy, food access, or household coping.",
+      "source_url": "https://www.unimelb.edu.au/newsroom/news/2026/september/huge-jump-in-university-education%2C-increased-financial-stress-and-we-really-love-our-partners",
+      "retrieval_hash": "sha256:b948c7564497abe8defc3d8707e124662737365d46a92f6e11dfd1b475bcc64f",
+      "status": "reported"
+    },
+    {
+      "period": "2001–2024 HILDA panel; family relationship quality and household resilience",
+      "denominator": {"value": 17000, "unit": "approximately Australians followed annually in the HILDA panel; relationship analytic samples vary by wave", "value_type": "reported_annual_panel_scale"},
+      "measures": {
+        "partner_relationships": {"value": "life-partner relationships are reported as very strong", "unit": "reported longitudinal summary pattern", "value_type": "reported_pattern"},
+        "resilience_counterweight": {"value": "strong intimate relationships coexist with financial, housing, food and work stress", "unit": "bounded cross-domain mechanism", "value_type": "bounded_mechanism"},
+        "social_infrastructure_boundary": {"value": "household and intimate relationships may buffer insecurity without removing structural constraints", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "HILDA repeated annual interviews tracking household and family relationships, economic wellbeing, employment, health and subjective wellbeing over more than two decades.",
+      "uncertainty": "The public summary does not establish whether relationship quality causes resilience or how relationship measures interact with income, housing, care, or health trajectories at the individual level.",
+      "subgroup": "Australian partnered and household respondents across HILDA waves.",
+      "counterinterpretation": "Strong relationship ratings can reflect selection, adaptation, reporting norms, or survivorship; they do not imply equal access to supportive relationships or absence of household conflict.",
+      "source_url": "https://melbourneinstitute.unimelb.edu.au/hilda/publications/hilda-statistical-reports/past-reports",
+      "retrieval_hash": "sha256:a81b9030171474eba778e3d502e14842984547a629fa94af415c7385eff035e2",
+      "status": "reported"
+    },
+    {
+      "period": "2001–2024 HILDA panel; wellbeing and fatigue by age",
+      "denominator": {"value": 17000, "unit": "approximately Australians followed annually in the HILDA panel; age-specific analytic samples vary", "value_type": "reported_annual_panel_scale"},
+      "measures": {
+        "fatigue": {"value": "fatigue increases across the country", "unit": "reported longitudinal summary pattern", "value_type": "reported_pattern"},
+        "younger_health": {"value": "younger people report worse health in the 2026 report summary", "unit": "reported age-pattern comparison", "value_type": "reported_comparison"},
+        "time_health_route": {"value": "economic and household pressure is accompanied by wellbeing and fatigue signals, not only financial measures", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Longitudinal HILDA analysis summarized across annual waves and selected 2024 health and wellbeing outcomes.",
+      "uncertainty": "The public summary does not specify the health instrument, fatigue measure, age cut points, or causal pathway; reported health is not clinical diagnosis or medical utilization.",
+      "subgroup": "Australian respondents across age groups, with emphasis on younger people in the report summary.",
+      "counterinterpretation": "Age differences may reflect reporting, cohort, labor-market, housing, family, or survey-period effects rather than a single national fatigue cause.",
+      "source_url": "https://www.unimelb.edu.au/newsroom/news/2026/september/huge-jump-in-university-education%2C-increased-financial-stress-and-we-really-love-our-partners",
+      "retrieval_hash": "sha256:b948c7564497abe8defc3d8707e124662737365d46a92f6e11dfd1b475bcc64f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://melbourneinstitute.unimelb.edu.au/hilda", "claim": "Official HILDA overview documents the nationally representative household panel, annual follow-up, and long-run scope.", "status": "official-study-context"},
+    {"source_url": "https://www.dss.gov.au/long-term-research/living-australia-household-income-and-labour-dynamics-australia-hilda-survey", "claim": "Australian Government Department of Social Services describes HILDA governance, coverage and data access.", "status": "government-study-context"}
+  ],
+  "boundary": "This record adds a comparative longitudinal household-security route: life-course timing, job fit, food insecurity, housing and financial stress, intimate relationships, fatigue and age-linked wellbeing should be read together without assuming that employment or relationship strength automatically produces security. It is an official report synthesis of HILDA panel evidence, not a new respondent-level extraction or causal evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official University of Melbourne summary, HILDA report index, and HILDA study overview were browser-reviewed for the 2026 report scope, Waves 1–24 coverage, panel scale, over-education, food insecurity, living-at-home, relationships, financial/housing stress, fatigue and younger-health findings. The report PDF was not shell-retrievable because the host returned 403/content-length access errors; URL fingerprints are retained for the accessible official pages.",
+    "source_url_sha256": "sha256:b948c7564497abe8defc3d8707e124662737365d46a92f6e11dfd1b475bcc64f",
+    "checked": "2026-09-28"
+  }
+}

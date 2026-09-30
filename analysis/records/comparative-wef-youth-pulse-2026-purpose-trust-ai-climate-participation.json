@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-youth-pulse-2026-purpose-trust-ai-climate-participation",
+  "title": "Young people combine economic insecurity with purpose-driven work, local trust, early AI adoption, and renewed civic ambition",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Economic Forum, Youth Pulse 2026: Insights From the Next Generation for a Changing World",
+  "geography": "Young people aged 18-30 in 144 countries and territories, with nearly 4,600 participants from 489 locations",
+  "observations": [
+    {
+      "period": "2026; youth economic outlook and personal stress",
+      "denominator": {"value": 4600, "unit": "approximately young people aged 18-30 surveyed across 144 countries and territories", "value_type": "published_global_survey_sample_approximate"},
+      "measures": {
+        "inequality_future_trend": {"value": 48.2, "unit": "percent selecting growing inequality between rich and poor among economic trends shaping the future", "value_type": "reported_share"},
+        "cost_housing_future_trend": {"value": 46.3, "unit": "percent selecting increasing cost of living and housing", "value_type": "reported_share"},
+        "financial_stress": {"value": 57.2, "unit": "percent selecting financial concerns as a major source of stress or anxiety", "value_type": "reported_share"},
+        "entrepreneurship_future_trend": {"value": 34.1, "unit": "percent selecting the rise of entrepreneurship among economic trends shaping the future", "value_type": "reported_share"}
+      },
+      "method": "WEF Youth Pulse survey asking respondents to select up to three economic trends and sources of stress; the report combines quantitative responses with qualitative reflections and youth-led examples.",
+      "uncertainty": "The global sample is a WEF youth-perspectives survey rather than a probability sample of all young people; response composition, location coverage, and question framing limit population inference.",
+      "subgroup": "Young people ages 18-30 across global regions, with regional comparisons for economic outlook and entrepreneurship.",
+      "counterinterpretation": "Entrepreneurship and side-income activity can express agency and innovation, but may also reflect constrained access to stable jobs, capital, housing, or social protection.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:7a590bd8dc2de3e7be424b3b9947d04ebb180da701f2e3dd7891ca502408ecb4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; youth work, purpose, and career priorities",
+      "denominator": {"value": 4600, "unit": "approximately Youth Pulse participants aged 18-30", "value_type": "published_global_survey_sample_approximate"},
+      "measures": {
+        "purpose_career_priority": {"value": 61.8, "unit": "percent selecting a sense of purpose or meaning among future-career priorities", "value_type": "reported_share"},
+        "flexibility_balance_priority": {"value": 58.1, "unit": "percent selecting flexibility and work-life balance", "value_type": "reported_share"},
+        "security_priority": {"value": 45.1, "unit": "percent selecting job and financial security", "value_type": "reported_share"},
+        "youth_employment_policy_priority": {"value": 57, "unit": "percent identifying youth employment and meaningful economic opportunity as a top policy priority", "value_type": "reported_share"}
+      },
+      "method": "WEF survey question asking respondents to select up to three career priorities and policy priorities, interpreted alongside the report's qualitative youth perspectives.",
+      "uncertainty": "Stated priorities do not establish job choices, labor-market outcomes, willingness to trade pay for purpose, or whether employers can deliver flexibility and meaning.",
+      "subgroup": "Young professionals and young adults considering work, education, purpose, flexibility, security, and policy opportunity.",
+      "counterinterpretation": "Purpose and balance may be aspirations shaped by insecurity rather than a rejection of pay or benefits; priorities can vary with age, region, household resources, and labor-market conditions.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:7a590bd8dc2de3e7be424b3b9947d04ebb180da701f2e3dd7891ca502408ecb4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; youth political trust, geopolitical concern, and participation",
+      "denominator": {"value": 4600, "unit": "approximately Youth Pulse participants aged 18-30", "value_type": "published_global_survey_sample_approximate"},
+      "measures": {
+        "geopolitical_tension_future_trend": {"value": 59.4, "unit": "percent selecting increased geopolitical tension among political trends shaping the next five years", "value_type": "reported_share"},
+        "community_leader_effectiveness": {"value": 60, "unit": "percent rating community leaders very or somewhat effective in driving positive change", "value_type": "reported_share"},
+        "run_for_office_likely": {"value": 36, "unit": "percent saying they are likely to run for political office", "value_type": "reported_share"},
+        "leadership_quality": {"value": "transparency and accountability 56.4%; innovative vision and long-term thinking 54.3%", "unit": "reported leadership-quality selections", "value_type": "reported_share_set"}
+      },
+      "method": "WEF survey questions on political trends, leader effectiveness, leadership qualities, and likelihood of running for political office; response options and multi-selection rules are retained from the report.",
+      "uncertainty": "Perceived effectiveness and stated political ambition do not establish institutional trust, office-seeking behavior, turnout, policy influence, or successful reform; the community-leader measure is not a causal comparison.",
+      "subgroup": "Young people across regions, including respondents evaluating local, business, national, and media leadership.",
+      "counterinterpretation": "Local trust can reflect proximity and visibility rather than durable capacity; political ambition can rise alongside frustration without translating into access, representation, or institutional change.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:7a590bd8dc2de3e7be424b3b9947d04ebb180da701f2e3dd7891ca502408ecb4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; youth technology use, environmental concern, and consumption",
+      "denominator": {"value": 4600, "unit": "approximately Youth Pulse participants aged 18-30", "value_type": "published_global_survey_sample_approximate"},
+      "measures": {
+        "ai_regular_use": {"value": 60, "unit": "approximately percent reporting regular AI use to enhance skills", "value_type": "reported_approximate_share"},
+        "ai_entry_level_job_reduction": {"value": 67, "unit": "approximately two-thirds believing AI will reduce entry-level job opportunities", "value_type": "reported_approximate_share"},
+        "purpose_built_communities": {"value": 95, "unit": "percent saying intentionally designed youth communities provide a critical space for learning, growth, and dialogue", "value_type": "reported_share"},
+        "ethical_environmental_purchase_factors": {"value": "environmental and ethical considerations rank among the top three factors guiding youth purchasing decisions after quality and affordability", "unit": "reported consumption pattern", "value_type": "reported_ordering"}
+      },
+      "method": "WEF survey and qualitative synthesis across technological, social, and environmental outlooks, including AI-use, community, and youth-consumption questions.",
+      "uncertainty": "Reported AI use is self-described and does not measure intensity, skill gains, job displacement, or product purchases; the community and consumption findings are not causal or representative estimates of all youth.",
+      "subgroup": "Young AI users, workers and learners, youth communities, consumers, and people concerned about climate and environmental degradation.",
+      "counterinterpretation": "Early adoption can coexist with demands for safeguards, skills, and equitable access; ethical purchasing priorities may be constrained by affordability and availability.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:7a590bd8dc2de3e7be424b3b9947d04ebb180da701f2e3dd7891ca502408ecb4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2024", "claim": "ILO youth-employment work provides complementary labor-market and informality context for the Youth Pulse priorities."},
+    {"source_url": "https://www.pewresearch.org/global/2026/02/17/where-and-why-people-arent-proud-of-their-country/", "claim": "Pew national-pride research provides complementary cross-national identity and public-institution meaning context."}
+  ],
+  "boundary": "This record adds a youth-perspective route across inequality, affordability, purpose, work, local trust, geopolitical anxiety, AI adoption, climate-shaped consumption, and political participation. It uses the WEF report's aggregate survey and qualitative synthesis, not a probability-sample estimate of all young people, respondent-level prediction, causal labor-market or political models, verified AI effects, or proof that stated values determine behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF Youth Pulse 2026 page and linked report PDF were retrieved and reviewed for sample frame, economic concerns, stress, career priorities, political trends, leader effectiveness, political ambition, AI use, community belonging, and values-driven consumption.",
+    "source_url_sha256": "sha256:7a590bd8dc2de3e7be424b3b9947d04ebb180da701f2e3dd7891ca502408ecb4",
+    "checked": "2026-09-26"
+  }
+}

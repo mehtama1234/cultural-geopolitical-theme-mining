@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-full-fact-uk-information-environment-2026-ai-uncertainty-democratic-trust",
+  "title": "AI-mediated information and fragmented institutional responsibility are turning uncertainty itself into a democratic risk",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "political_judgment_action", "public_systems_feedback", "trust_identity_meaning", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "Full Fact, Full Fact Report 2026: A system under strain—strengthening the UK's democratic information environment",
+  "geography": "United Kingdom, with international comparisons and lessons for democratic information resilience",
+  "observations": [
+    {
+      "period": "2026; misinformation concern, trust and democratic participation",
+      "denominator": {"value": 1, "unit": "Full Fact UK public polling and report synthesis; individual polling denominators vary by question", "value_type": "national_public_opinion_frame"},
+      "measures": {
+        "political_misinformation_concern": {"value": 80, "unit": "percent of UK adults expressing concern about political misinformation", "value_type": "reported_share"},
+        "political_institution_trust_damage": {"value": 48, "unit": "percent of the concerned group saying concern about misinformation negatively affected trust in political institutions over the past year", "value_type": "reported_share"},
+        "mainstream_media_trust_damage": {"value": 57, "unit": "percent of the concerned group saying concern about misinformation negatively affected trust in mainstream-media accuracy", "value_type": "reported_share"},
+        "youth_online_political_information": {"value": 78, "unit": "percent of UK 13-17-year-olds reporting exposure to political information online", "value_type": "reported_share"},
+        "youth_confident_assessing_truth": {"value": 53, "unit": "percent of UK 13-17-year-olds confident they can tell whether online political information is true or false", "value_type": "reported_share"},
+        "peer_truth_assessment_confidence": {"value": 36, "unit": "percent of UK 13-17-year-olds confident that other people their age can assess whether online political information is true or false", "value_type": "reported_share"}
+      },
+      "method": "Full Fact report drawing on its own polling, fact-checking and case analysis, public research, interviews, policy review, and international evidence; the report is an advocacy and policy analysis rather than a single probability-sample survey.",
+      "uncertainty": "Polling questions have different samples and fieldwork details; reported associations do not establish that misinformation caused trust or participation changes, and Full Fact’s institutional perspective shapes the policy diagnosis.",
+      "subgroup": "UK adults, adults concerned about political misinformation, young people aged 13-17, voters, journalists, fact checkers, public authorities, platforms and AI-mediated information users.",
+      "counterinterpretation": "Scepticism can strengthen democratic scrutiny; the report distinguishes healthy skepticism from corrosive cynicism and does not imply that all disagreement or uncertainty is misinformation.",
+      "source_url": "https://fullfact.org/policy/reports/full-fact-report-2026/",
+      "retrieval_hash": "sha256:ab3dcb3b84529b36cfcc1a3e1690274066df4893d283cdf92dad71f41efac5fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-mediated search, platform design and institutional readiness",
+      "denominator": {"value": 1, "unit": "Full Fact information-environment assessment and cited UK evidence", "value_type": "democratic_information_system_frame"},
+      "measures": {
+        "ai_answer_exposure": {"value": 64, "unit": "percent of people in the UK regularly seeing an AI-generated answer to one of their searches in the past week in cited 2025 evidence", "value_type": "reported_share"},
+        "institutional_gap": {"value": "no single institution is responsible for system-wide coherence of the UK democratic information environment", "unit": "reported governance condition", "value_type": "reported_pattern"},
+        "risk_pathway": {"value": "AI summaries, synthetic media, recommender systems, monetised incentives, reduced moderation and fragmented public responsibility can weaken authoritative signals and increase uncertainty", "unit": "reported system pathway", "value_type": "reported_mechanism"},
+        "policy_response": {"value": "four mutually reinforcing reform pillars: secure the information ecosystem, strengthen public resilience, modernise laws and institutions, and increase commercial transparency and accountability", "unit": "reported policy framework", "value_type": "reported_policy_set"}
+      },
+      "method": "Full Fact systems analysis of information flows during elections and crises, platform and AI mediation, UK legal and institutional arrangements, and international governance examples.",
+      "uncertainty": "The report is a policy diagnosis and does not provide a causal estimate of how much any single platform, AI tool or regulatory gap changes electoral outcomes or public trust.",
+      "subgroup": "People receiving information through search, social platforms, chatbots and recommendation systems; public-interest media; regulators; election authorities; crisis communicators; and platform operators.",
+      "counterinterpretation": "Automated tools can improve accessibility and speed, and platform or AI reforms may produce trade-offs involving expression, privacy, competition, and institutional overreach.",
+      "source_url": "https://fullfact.org/documents/419/full-fact-report-2026-DIGITAL.pdf",
+      "retrieval_hash": "sha256:ab3dcb3b84529b36cfcc1a3e1690274066df4893d283cdf92dad71f41efac5fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://fullfact.org/policy/reports/full-fact-report-2026/", "claim": "Canonical Full Fact report page and executive summary."},
+    {"source_url": "https://fullfact.org/documents/419/full-fact-report-2026-DIGITAL.pdf", "claim": "Official 105-page report PDF with methods, cases, international lessons and recommendations."}
+  ],
+  "boundary": "This record adds a UK democratic-information route connecting platform design, AI mediation, synthetic media, institutional coordination, media literacy, trust and participation. It is a policy and advocacy report with cited polling and cases, not a representative global prevalence estimate, an algorithm audit, a causal electoral study, or respondent-level raw-data ingestion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Full Fact landing page and 105-page PDF were reviewed; report scope, executive-summary diagnosis, UK polling figures, AI-search exposure, institutional fragmentation and four reform pillars were cross-checked.",
+    "report_pdf_sha256": "sha256:ab3dcb3b84529b36cfcc1a3e1690274066df4893d283cdf92dad71f41efac5fc",
+    "checked": "2026-09-28"
+  }
+}

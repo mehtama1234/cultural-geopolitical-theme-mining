@@ -1,0 +1,43 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-india-pib-upi-fy2025-26-payment-throughput-digital-consumer-infrastructure",
+  "title": "India's UPI becomes dominant payment infrastructure while transaction throughput remains distinct from consumer capability",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Government of India Press Information Bureau release marking ten years of UPI, using NPCI statistics for FY2025-26",
+  "geography": "India",
+  "observations": [
+    {
+      "period": "FY2025-26; UPI annual payment infrastructure",
+      "denominator": {"value": 1, "unit": "aggregate UPI payment-system account; transactions are not unique consumers or household respondents", "value_type": "aggregate_account"},
+      "measures": {
+        "annual_transaction_volume": {"value": 24161.69, "unit": "crore UPI transactions", "value_type": "reported_level"},
+        "annual_transaction_value": {"value": 314, "unit": "lakh crore Indian rupees", "value_type": "reported_level"},
+        "volume_growth": {"value": 30.0, "unit": "percent year over year", "value_type": "reported_change"},
+        "value_growth": {"value": 20.59, "unit": "percent year over year", "value_type": "reported_change"},
+        "share_of_indias_digital_payments": {"value": 85, "unit": "percent in FY2025-26", "value_type": "reported_share"},
+        "live_banks": {"value": 703, "unit": "banks live on UPI as of March 2026", "value_type": "reported_level"},
+        "daily_average_transactions": {"value": 66, "unit": "crore transactions per day", "value_type": "reported_level"}
+      },
+      "method": "Government of India PIB summary of NPCI UPI statistics in a ten-year retrospective; values are system-level annual transaction counts and value, not a survey or panel of consumers.",
+      "uncertainty": "The release does not identify unique users, household distribution, merchant category, transaction purpose, failed payments, fraud, fees, or realized consumer benefit. Growth in transaction volume can reflect repeated low-value transfers, platform adoption, formalization, or payment substitution.",
+      "subgroup": "India's UPI payment infrastructure; no household-income, age, gender, geography, disability, or merchant subgroup in the headline figures.",
+      "counterinterpretation": "Dominant digital rails can coexist with exclusion, device or connectivity gaps, fraud, coercion, debt, and weak remedy. Payment throughput is an infrastructure measure, not proof of broad consumer agency or welfare.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257135&lang=3&reg=3",
+      "retrieval_hash": "sha256:81371350384c62626d2c586fa6f1566fdd7a9b88df53661598458117599e5f29",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.npci.org.in/product/upi/product-statistics", "claim": "Official NPCI UPI Product Statistics page provides monthly transaction volume, value, and live-bank series; direct retrieval was restricted during this pass, so it is retained as a comparison route rather than the primary hashed artifact.", "status": "official-comparison-context-access-limited"},
+    {"source_url": "https://www.digipay.gov.in/dashboard/", "claim": "Government DigiDhan dashboard links digital-payment totals to RBI, banks, and NPCI sources and provides mode and state-level exploration.", "status": "official-comparison-context"}
+  ],
+  "boundary": "This record adds India's payment-rail infrastructure layer to South Korea's online commerce and the Africa/Asia retail signals. It does not measure unique users, household welfare, merchant economics, cultural consumption, fraud, affordability, or effective consumer remedy.",
+  "retrieval_hash": "sha256:81371350384c62626d2c586fa6f1566fdd7a9b88df53661598458117599e5f29"
+}

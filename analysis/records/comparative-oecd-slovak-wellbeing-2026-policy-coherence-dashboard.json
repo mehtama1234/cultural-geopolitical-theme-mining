@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-slovak-wellbeing-2026-policy-coherence-dashboard",
+  "title": "Well-being measurement is becoming a policy-coordination technology, while Slovakia shows mixed progress and persistent trust, housing and education gaps",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "OECD, Conceptualising and assessing well-being in the Slovak Republic: Building policy coherence for sustainable development",
+  "geography": "Slovak Republic, with OECD, UNECE, SDG and peer-country framework comparison",
+  "observations": [
+    {
+      "period": "2026 technical report; sustainable well-being measurement and policy application",
+      "denominator": {"value": 1, "unit": "OECD technical report and comparative measurement-framework synthesis", "value_type": "publication_unit"},
+      "measures": {
+        "framework_principles": {"value": "Well-being frameworks distinguish current outcomes from their distribution and resources for future well-being; treat well-being as multidimensional; and combine objective and subjective measures.", "unit": "reported framework principle", "value_type": "reported_framework"},
+        "current_dimensions": {"value": "Common dimensions include subjective well-being, material conditions, work and leisure, housing, health, knowledge and skills, safety, social connections, civic engagement and environmental conditions; national frameworks may add culture, language, diversity, sports, preparedness and collective community well-being.", "unit": "recommended measurement dimensions", "value_type": "reported_framework"},
+        "dashboard_choice": {"value": "Most national and international initiatives use dashboards rather than a single composite index, with composite indices sometimes used as communication tools.", "unit": "reported institutional practice", "value_type": "reported_framework"}
+      },
+      "method": "OECD synthesis of international and national well-being frameworks, measurement guidance, policy applications and Slovak institutional planning.",
+      "uncertainty": "Framework recommendations describe measurement architecture and policy intent, not guaranteed adoption, causal policy effects or comparable lived outcomes across countries.",
+      "subgroup": "National statistical offices, ministries, policy evaluators, budget authorities and populations represented through official well-being indicators.",
+      "counterinterpretation": "A larger dashboard can create reporting burden, indicator conflict or symbolic measurement without changing budget decisions; a composite index can improve communication while hiding distributional trade-offs.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/conceptualising-and-assessing-well-being-in-the-slovak-republic_32196cfd/9042e810-en.pdf",
+      "retrieval_hash": "sha256:b2c65a116825c3a0cb1013d43e869a7a5d867e133987dae10633a88963e0c60e",
+      "status": "reported"
+    },
+    {
+      "period": "Slovak Republic, 2010-2024 or latest available year; multidimensional well-being trend",
+      "denominator": {"value": 1, "unit": "Slovak Republic indicator profile synthesized by OECD", "value_type": "country_profile"},
+      "measures": {
+        "improving_domains": {"value": "Improvements are reported in income inequality, household wealth, difficulty making ends meet, life satisfaction, premature mortality, gender wage gap and gender parity in politics.", "unit": "reported direction across indicators", "value_type": "published_trend_assessment"},
+        "persistent_or_worsening_domains": {"value": "Educational outcomes declined; housing affordability and overcrowding remain challenges; relative income poverty and household debt increased; trust in government deteriorated from already low levels.", "unit": "reported direction across indicators", "value_type": "published_trend_assessment"},
+        "mixed_progress": {"value": "Material and selected quality-of-life indicators can improve while education, housing, poverty, debt and institutional trust move in less favorable directions.", "unit": "cross-domain interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "OECD Well-being Framework analysis of Slovak official and internationally comparable indicators, with trend thresholds and coverage review.",
+      "uncertainty": "The report combines indicators with different reference years and data sources; directional change does not establish a common cause or imply that all groups experienced the national trend equally.",
+      "subgroup": "Slovak residents differentiated by age, education and gender in the report's inequality analysis, alongside national material, quality-of-life and community-relations indicators.",
+      "counterinterpretation": "Aggregate improvements may coexist with concentrated hardship, and deteriorating trust may reflect political or information dynamics not captured by material indicators.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/conceptualising-and-assessing-well-being-in-the-slovak-republic_32196cfd/9042e810-en.pdf",
+      "retrieval_hash": "sha256:b2c65a116825c3a0cb1013d43e869a7a5d867e133987dae10633a88963e0c60e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; well-being evidence entering government coordination and budgeting",
+      "denominator": {"value": 1, "unit": "Slovak sustainable well-being framework and institutional implementation process", "value_type": "institutional_process"},
+      "measures": {
+        "institutional_leadership": {"value": "The Deputy Prime Minister's office, Government Office, Statistical Office and relevant ministries and stakeholders are developing a sustainable well-being framework and indicator dashboard linked to SDG implementation.", "unit": "reported institutional arrangement", "value_type": "reported_institutional_status"},
+        "policy_uses": {"value": "The report identifies strategic planning, policy appraisal, evaluation, performance management, budgeting and whole-of-government coordination as potential applications.", "unit": "reported policy application set", "value_type": "reported_framework"},
+        "tradeoff_visibility": {"value": "A well-being lens makes cross-sector interlinkages, synergies and trade-offs more explicit across economic, social and environmental objectives.", "unit": "reported policy mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Review of Slovak institutional arrangements and comparative OECD country practices, including national performance and budgeting examples.",
+      "uncertainty": "Identified applications are implementation pathways and institutional plans, not evidence that indicators already determine Slovak budget allocations or improve outcomes.",
+      "subgroup": "Government coordination bodies, statistical producers, ministries, budget authorities, stakeholders and communities affected by cross-sector policy trade-offs.",
+      "counterinterpretation": "Measurement can remain advisory if decision rights, budget rules, accountability and political incentives are not connected to the dashboard.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/conceptualising-and-assessing-well-being-in-the-slovak-republic_32196cfd/9042e810-en.pdf",
+      "retrieval_hash": "sha256:b2c65a116825c3a0cb1013d43e869a7a5d867e133987dae10633a88963e0c60e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; data quality, disaggregation and future-well-being capacity",
+      "denominator": {"value": 1, "unit": "OECD assessment of Slovak well-being data coverage and framework alignment", "value_type": "publication_unit"},
+      "measures": {
+        "indicator_quality_criteria": {"value": "Recommended criteria include timeliness, frequency, credibility, compatibility, accuracy, relevance, clear directional meaning, universality, measurability, disaggregation and understandability.", "unit": "reported indicator-selection criteria", "value_type": "reported_framework"},
+        "data_gaps": {"value": "The report identifies gaps in official data coverage, timeliness and alignment with the OECD Well-being Framework.", "unit": "reported measurement limitation", "value_type": "reported_data_gap"},
+        "future_resources": {"value": "Sustainability is assessed through resources and capital stocks for future well-being, including natural, economic, human and social capital, separately from current outcomes.", "unit": "reported sustainability architecture", "value_type": "reported_framework"}
+      },
+      "method": "OECD data-availability review and framework alignment assessment, including current well-being, inequalities and resources for future well-being.",
+      "uncertainty": "Data availability and indicator quality vary by domain; missingness and non-comparable measures can make vulnerable groups and long-term degradation less visible.",
+      "subgroup": "Groups requiring disaggregation by age, education, gender, income and other relevant characteristics, plus future generations represented through sustainability-capital measures.",
+      "counterinterpretation": "More disaggregation is not automatically more useful if it compromises privacy, statistical reliability or institutional capacity to act on the evidence.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/conceptualising-and-assessing-well-being-in-the-slovak-republic_32196cfd/9042e810-en.pdf",
+      "retrieval_hash": "sha256:b2c65a116825c3a0cb1013d43e869a7a5d867e133987dae10633a88963e0c60e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/conceptualising-and-assessing-well-being-in-the-slovak-republic_9042e810-en.html", "claim": "Official OECD publication page with abstract, date, metadata and downloadable report."},
+    {"source_url": "https://www.un.org/beyondGDP", "claim": "Related UN Beyond GDP agenda and 2026 expert-group implementation context."}
+  ],
+  "boundary": "This record adds an institutional measurement-and-policy layer: well-being dashboards are becoming a way to coordinate economic, social and environmental decisions, expose distributional and intergenerational trade-offs, and connect evidence to budgeting and strategy. It is a technical country report and comparative framework synthesis, not respondent-level ingestion, a causal evaluation of dashboard use, a complete national welfare account or proof that measurement changes policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD publication page and 73-page PDF were reviewed for framework principles, dimensions, dashboard design, Slovak trends, institutional arrangements, policy applications, data gaps, disaggregation and sustainability-capital boundaries.",
+    "source_url_sha256": "sha256:b2c65a116825c3a0cb1013d43e869a7a5d867e133987dae10633a88963e0c60e",
+    "checked": "2026-09-27"
+  }
+}

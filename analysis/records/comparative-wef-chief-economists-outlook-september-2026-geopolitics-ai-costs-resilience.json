@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-chief-economists-outlook-september-2026-geopolitics-ai-costs-resilience",
+  "title": "Global economic stabilization remains fragile as geopolitical risk, cost pressure, AI investment, and shrinking fiscal room pull in different directions",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Economic Forum, Chief Economists' Outlook: September 2026",
+  "geography": "Global economic outlook based on WEF Chief Economists Survey fielded 4-20 August 2026, with regional comparisons",
+  "observations": [
+    {
+      "period": "August 2026 survey; 12-month global economic outlook",
+      "denominator": {"value": 1, "unit": "WEF Chief Economists Survey response frame", "value_type": "published_expert_survey_frame"},
+      "measures": {
+        "outlook_weaken": {"value": 45, "unit": "percent expecting global economic conditions to weaken over the next 12 months, down from 89% in May", "value_type": "reported_share"},
+        "inflation_rise": {"value": 50, "unit": "percent expecting global inflation to rise over the next 12 months, down from 94% in May", "value_type": "reported_share"},
+        "resilience_improve": {"value": 25, "unit": "percent expecting the global economy to become more resilient over the next 12 months", "value_type": "reported_share"},
+        "geopolitical_uncertainty": {"value": 97, "unit": "percent selecting geopolitical conflicts among top five sources of global economic uncertainty", "value_type": "reported_share"}
+      },
+      "method": "WEF survey of chief economists conducted 4-20 August 2026, with historical comparison to earlier editions and supporting macroeconomic analysis.",
+      "uncertainty": "Expert expectations are not forecasts with known probabilities or realized outcomes; sample composition, question framing, and rapidly changing geopolitical conditions affect comparability across editions.",
+      "subgroup": "Chief economists from public and private sectors, with regional outlooks for major world regions and economies.",
+      "counterinterpretation": "Improving sentiment can coexist with severe household or regional stress; lower inflation expectations do not imply lower price levels or restored purchasing power.",
+      "source_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+      "retrieval_hash": "sha256:5edf3a82db4ef74e54d663468f3190fe702d96ad49950ace70777cf529149a1a",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 survey; AI investment and data-centre social trade-offs",
+      "denominator": {"value": 1, "unit": "WEF Chief Economists Survey response frame", "value_type": "published_expert_survey_frame"},
+      "measures": {
+        "ai_adoption_increase": {"value": 97, "unit": "percent expecting AI adoption to increase over the next 12 months", "value_type": "reported_share"},
+        "ai_productivity_gains": {"value": 69, "unit": "percent expecting AI to unlock meaningful productivity gains", "value_type": "reported_share"},
+        "data_center_growth": {"value": 78, "unit": "percent expecting data-centre investment to contribute significantly to global growth", "value_type": "reported_share"},
+        "data_center_job_gap": {"value": 61, "unit": "percent not expecting data-centre investment to create comparable numbers of jobs", "value_type": "reported_share"},
+        "local_pushback": {"value": 79, "unit": "percent expecting data-centre expansion to face significant local-community pushback", "value_type": "reported_share"}
+      },
+      "method": "WEF expert survey on AI adoption, productivity, data-centre investment, employment, and local response, interpreted with the report's infrastructure and growth analysis.",
+      "uncertainty": "These are expectations rather than realized investment, productivity, employment, electricity costs, or local political outcomes; data-centre effects vary by location, ownership, grid conditions, and labor market.",
+      "subgroup": "Chief economists, AI and data-centre investors, workers, local communities, utilities, governments, and firms exposed to automation or infrastructure demand.",
+      "counterinterpretation": "Limited direct job creation can coexist with productivity, tax, construction, or supplier benefits; local opposition may demand better siting and cost allocation rather than reject AI entirely.",
+      "source_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+      "retrieval_hash": "sha256:5edf3a82db4ef74e54d663468f3190fe702d96ad49950ace70777cf529149a1a",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 survey; household cost-of-living outlook",
+      "denominator": {"value": 1, "unit": "WEF Chief Economists Survey response frame on household expenditure and real incomes", "value_type": "published_expert_survey_frame"},
+      "measures": {
+        "food_cost_increase": {"value": 88, "unit": "percent expecting household food expenditure to increase", "value_type": "reported_share"},
+        "electricity_cost_increase": {"value": 83, "unit": "percent expecting household electricity expenditure to increase", "value_type": "reported_share"},
+        "transport_cost_increase": {"value": 77, "unit": "percent expecting household transport expenditure to increase", "value_type": "reported_share"},
+        "likely_policy_responses": {"value": "tax reductions on essential goods 60%, consumption subsidies 54%, price caps 50%", "unit": "reported expected policy-response shares", "value_type": "reported_share_set"},
+        "regional_real_income_pressure": {"value": "weakest real-income expectations were concentrated in the Middle East and North Africa, Europe, and Latin America and the Caribbean", "unit": "reported regional pattern", "value_type": "reported_regional_pattern"}
+      },
+      "method": "WEF survey of chief economists on expected household expenditure, real incomes, and likely government responses, supplemented by regional analysis.",
+      "uncertainty": "Expert expectations do not measure actual household budgets, incidence, policy implementation, or whether subsidies and price controls improve real purchasing power without other trade-offs.",
+      "subgroup": "Households, consumers, governments, essential-goods markets, and regions with differing real-income outlooks.",
+      "counterinterpretation": "Expected cost increases can accelerate substitution, efficiency, and energy transition; broad visible policies may protect households while creating fiscal, supply, or distributional complications.",
+      "source_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+      "retrieval_hash": "sha256:5edf3a82db4ef74e54d663468f3190fe702d96ad49950ace70777cf529149a1a",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 survey; trade fragmentation and regional resilience",
+      "denominator": {"value": 1, "unit": "WEF Chief Economists Survey response frame on trade, investment, and regional growth", "value_type": "published_expert_survey_frame"},
+      "measures": {
+        "fragmentation_increase": {"value": 77, "unit": "percent expecting geoeconomic fragmentation to deepen over the next year", "value_type": "reported_share"},
+        "global_trade_increase": {"value": "approximately two-thirds", "unit": "share expecting global trade volumes to increase", "value_type": "reported_approximate_share"},
+        "china_non_us_exports": {"value": 83, "unit": "percent expecting Chinese exports to markets outside the US to increase", "value_type": "reported_share"},
+        "regional_strong_growth": {"value": "74% expected strong or very strong growth in India and 73% in South-East Asia; 61% expected weak or very weak growth in Europe", "unit": "reported regional growth expectations", "value_type": "reported_regional_share_set"},
+        "fdi_increase": {"value": 56, "unit": "percent expecting global foreign direct investment to increase", "value_type": "reported_share"}
+      },
+      "method": "WEF chief-economist survey on trade, investment, business environments, regional growth, and geoeconomic fragmentation.",
+      "uncertainty": "Expectations do not establish realized trade or FDI flows, tariff incidence, supply-chain relocation, regional welfare, or whether fragmentation produces durable strategic autonomy.",
+      "subgroup": "Chief economists, governments, multinational firms, regional economies, exporters, workers, and consumers exposed to trade and investment reconfiguration.",
+      "counterinterpretation": "Fragmentation can redirect investment and create new regional opportunities; rising trade volumes can coexist with higher costs, duplicated systems, and unequal bargaining power.",
+      "source_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/",
+      "retrieval_hash": "sha256:5edf3a82db4ef74e54d663468f3190fe702d96ad49950ace70777cf529149a1a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/en/Publications/WEO", "claim": "IMF World Economic Outlook provides complementary macroeconomic projections and inflation context."},
+    {"source_url": "https://www.weforum.org/publications/asean-digital-economy-outlook-2026/", "claim": "WEF ASEAN Digital Economy Outlook provides a firm and infrastructure-level route for the regional participation and digital-market claims."},
+    {"source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-chapter-2/", "claim": "WEF Global Risks Report 2026 provides complementary risk-perception context for geopolitical, technological, and societal pressures."}
+  ],
+  "boundary": "This record adds an expert-expectations macro route linking geopolitical uncertainty, fiscal capacity, cost-of-living pressure, AI investment, data-centre infrastructure, trade fragmentation, and regional resilience. It uses the WEF Chief Economists Survey and report synthesis, not household-level inflation, realized trade flows, causal AI productivity, local political outcomes, or a forecast with known probabilities.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF Chief Economists' Outlook September 2026 page and linked PDF were retrieved and reviewed for survey timing, outlook changes, resilience, geopolitical uncertainty, AI/data-centre expectations, household-cost pressures, trade fragmentation, and regional growth.",
+    "source_url_sha256": "sha256:5edf3a82db4ef74e54d663468f3190fe702d96ad49950ace70777cf529149a1a",
+    "checked": "2026-09-26"
+  }
+}

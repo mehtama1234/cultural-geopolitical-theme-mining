@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dcms-culture-heritage-social-cohesion-2026",
+  "title": "Culture and heritage are being treated as social infrastructure whose cohesion value is real but difficult to isolate and monetize",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Department for Digital, Culture, Media and Sport / Culture and Heritage Capital Programme, Culture and heritage capital - Valuing social cohesion: a scoping study, 24 September 2026",
+  "geography": "United Kingdom culture and heritage assets, services, communities, institutions, and social-cohesion valuation evidence",
+  "observations": [
+    {
+      "period": "2026; evidence review and theoretical framework",
+      "denominator": {"value": 35, "unit": "papers reviewed in detail in the rapid evidence assessment", "value_type": "published_evidence_review_denominator"},
+      "measures": {
+        "mechanism_set": {"value": "the literature converges on four broad mechanisms: shared identity and belonging, social-network formation, shared norms and values, and spaces for socialisation and social mixing", "unit": "reported mechanism framework", "value_type": "reported_mechanism_set"},
+        "evidence_quality": {"value": "the evidence base is mixed; most papers rely on regression or cross-sectional survey analysis or qualitative evidence and generally cannot make causal claims", "unit": "reported evidence limitation", "value_type": "reported_methodological_boundary"},
+        "cultural_route": {"value": "culture and heritage assets can operate as social infrastructure by creating repeated or symbolic encounters, place expression, memory, and shared practices", "unit": "analytic culture-to-cohesion mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the framework is a scoping and theory-of-change exercise, not proof that every cultural asset produces cohesion or that one mechanism dominates", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Rapid evidence assessment of 35 papers, development of a theoretical framework, expert and stakeholder input, and pilot valuation work commissioned through the UK Culture and Heritage Capital Programme.",
+      "uncertainty": "The review includes heterogeneous contexts, methods, assets, and outcomes; mechanisms are often theorized rather than formally tested.",
+      "subgroup": "Cultural and heritage participants, local communities, institutions, cultural workers, public funders, and people who use or value cultural assets.",
+      "counterinterpretation": "Cultural participation may reflect pre-existing trust, resources, education, or social networks rather than independently creating cohesion.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:be190bbdd7c20c643fc218e8f3bf8fceb71946ca80d3b82b286af68f5a677490",
+      "status": "reported"
+    },
+    {
+      "period": "2026; micro, meso, and macro cohesion pathways",
+      "denominator": {"value": 3, "unit": "levels in the DCMS social-cohesion framework", "value_type": "published_framework_levels"},
+      "measures": {
+        "micro": {"value": "individual-level outcomes include reduced isolation, stronger social ties, trust in friends and neighbours, and belonging", "unit": "framework outcome level", "value_type": "reported_outcome_set"},
+        "meso": {"value": "community-level outcomes include generalized trust, volunteering, openness toward others, and participation in civic organizations", "unit": "framework outcome level", "value_type": "reported_outcome_set"},
+        "macro": {"value": "society-level outcomes include political participation, institutional trust, governance, political freedom, and corruption-related indicators", "unit": "framework outcome level", "value_type": "reported_outcome_set"},
+        "analytic_signal": {"value": "culture-to-cohesion pathways cross from personal connection to community capacity to institutional legitimacy, but the levels should not be collapsed into one score", "unit": "analytic multi-level mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "DCMS theory-of-change framework synthesized from the evidence review, available datasets, and pilot valuation work.",
+      "uncertainty": "The levels identify possible outcomes and measurement surfaces, not a demonstrated sequence or effect size from cultural participation to political or institutional outcomes.",
+      "subgroup": "Individuals, neighbourhoods, civic associations, cultural institutions, and public systems.",
+      "counterinterpretation": "Micro belonging can coexist with exclusionary group boundaries, and community activity does not necessarily translate into institutional trust or political legitimacy.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:be190bbdd7c20c643fc218e8f3bf8fceb71946ca80d3b82b286af68f5a677490",
+      "status": "reported"
+    },
+    {
+      "period": "2026; valuation feasibility and public investment",
+      "denominator": {"value": 6, "unit": "valuation methods assessed in the scoping study", "value_type": "published_method_assessment_frame"},
+      "measures": {
+        "monetization_gap": {"value": "few attempts have monetized social cohesion as an isolated outcome; only one paper in the review explicitly monetized social capital", "unit": "reported evidence gap", "value_type": "reported_gap"},
+        "valuation_difficulty": {"value": "overlapping indicators, different perceptions, double counting, and non-monetizable dimensions such as belonging or trust complicate valuation", "unit": "reported methodological constraint", "value_type": "reported_constraint_set"},
+        "library_pilot": {"value": "three social-cohesion dimensions—interaction across groups, belonging/shared identity, and trust/respect/social cooperation—accounted for approximately 30% of average coin allocations in the library-services pilot", "unit": "percent of pilot allocations, approximate", "value_type": "reported_pilot_share"},
+        "analytic_signal": {"value": "cultural assets may be systematically undervalued when appraisal counts market or use value but misses social infrastructure and cohesion benefits", "unit": "analytic public-investment mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Assessment of six valuation approaches plus a pilot study using cultural-asset and social-cohesion valuation exercises.",
+      "uncertainty": "The pilot is not a national welfare estimate; coin allocations are context-specific and cannot be interpreted as a general share of all cultural value or a causal return on investment.",
+      "subgroup": "Library and cultural-service users, valuation participants, public funders, appraisal practitioners, and cultural institutions.",
+      "counterinterpretation": "Adding social-cohesion components to appraisal can create double counting or overclaiming if trust, belonging, wellbeing, and participation overlap.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:be190bbdd7c20c643fc218e8f3bf8fceb71946ca80d3b82b286af68f5a677490",
+      "status": "reported"
+    },
+    {
+      "period": "2026; future measurement and causal closure",
+      "denominator": {"value": 1, "unit": "DCMS future-research agenda", "value_type": "published_research_priority_frame"},
+      "measures": {
+        "data_need": {"value": "the study calls for stronger qualitative work to understand which cohesion outcomes matter, how pathways vary by asset, and how people value them", "unit": "reported research priority", "value_type": "reported_policy_output"},
+        "causal_need": {"value": "experimental or quasi-experimental designs exploiting variation in exposure to culture and heritage could test effects on loneliness, community trust, and belonging", "unit": "reported causal research route", "value_type": "reported_research_queue"},
+        "implementation_route": {"value": "future appraisal should connect asset funding, access, participation, mechanisms, distribution, and downstream social outcomes rather than stop at attendance or asset existence", "unit": "analytic implementation chain", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the publication recommends a research and valuation agenda; it does not report completed causal estimates or prove public-funding effectiveness", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "DCMS scoping study recommendations based on evidence review, theory-of-change development, dataset assessment, valuation-method assessment, and pilot results.",
+      "uncertainty": "The proposed designs require suitable exposure variation, longitudinal outcome data, distributional measurement, and safeguards against selection and reverse causality.",
+      "subgroup": "Researchers, cultural funders, local authorities, cultural organizations, communities, and people affected by access or exclusion from cultural assets.",
+      "counterinterpretation": "Causal identification may remain difficult because cultural assets are selected into places and communities through prior political, economic, and social processes.",
+      "source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study",
+      "retrieval_hash": "sha256:be190bbdd7c20c643fc218e8f3bf8fceb71946ca80d3b82b286af68f5a677490",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report", "claim": "The UK Community and Engagement Survey provides outcome measures for belonging, neighbour interaction, trust, cohesion, and local-area change that can operationalize parts of the framework."},
+    {"source_url": "https://www.unesco.org/en/culture", "claim": "UNESCO provides complementary global cultural-policy and heritage context."}
+  ],
+  "boundary": "This record adds a culture-and-heritage-as-social-infrastructure route from public investment and access through shared identity, social ties, norms, social mixing, belonging, civic participation, and institutional legitimacy. It is a UK scoping study and evidence synthesis, not proof of causal cultural effects, a national monetized estimate, a respondent-level dataset, or evidence that all cultural assets produce cohesion equally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK scoping study was reviewed for its 35-paper evidence review, four mechanisms, micro/meso/macro framework, valuation gap, six-method assessment, pilot allocation finding, methodological limits, and causal-research recommendations.",
+    "source_url_sha256": "sha256:be190bbdd7c20c643fc218e8f3bf8fceb71946ca80d3b82b286af68f5a677490",
+    "checked": "2026-09-26"
+  }
+}

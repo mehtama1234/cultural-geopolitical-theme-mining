@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-state-world-children-2025-child-poverty-crises",
+  "title": "Child poverty is a multidimensional deprivation shaped by household resources, services, social protection, and converging crises",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNICEF, The State of the World's Children 2025: Ending Child Poverty: Our Shared Imperative",
+  "geography": "Global child-poverty, deprivation, social-protection, climate, conflict, service, and public-finance evidence with low-, middle-, and high-income comparisons",
+  "observations": [
+    {
+      "period": "2025; global monetary child poverty",
+      "denominator": {"value": 1, "unit": "children globally assessed against the extreme monetary-poverty line", "value_type": "child_poverty_frame"},
+      "measures": {
+        "extreme_poverty_children": {"value": 412, "unit": "million children living in extreme monetary poverty", "value_type": "reported_count"},
+        "poverty_line": {"value": 3, "unit": "US dollars per person per day", "value_type": "poverty_line"},
+        "relative_risk": {"value": "children are more than twice as likely as adults to live in extreme monetary poverty", "unit": "reported comparative risk", "value_type": "reported_pattern"}
+      },
+      "method": "UNICEF synthesis of global monetary-poverty estimates and child-focused analysis of household resources and rights.",
+      "uncertainty": "Monetary poverty is a threshold measure and does not fully capture in-kind services, intra-household allocation, temporary shocks, or multidimensional deprivation.",
+      "subgroup": "Young children, children with disabilities, rural and Indigenous children, displaced children, and children in fragile or conflict-affected settings.",
+      "counterinterpretation": "Income support, public services, social protection, and local conditions can reduce deprivation even when household monetary income remains low.",
+      "source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025",
+      "retrieval_hash": "sha256:ea54f5af292a5d5307cac8a465a6c0475b73c20219e74e4835279ccb51683028",
+      "status": "reported"
+    },
+    {
+      "period": "2025; multidimensional deprivation in low- and middle-income countries",
+      "denominator": {"value": 1, "unit": "children in low- and middle-income countries assessed across vital deprivation domains", "value_type": "multidimensional_child_deprivation_frame"},
+      "measures": {
+        "multiple_deprivation": {"value": "more than one in five children are severely deprived in at least two vital areas", "unit": "reported global LMIC pattern", "value_type": "reported_share_approximate"},
+        "sanitation_low_income": {"value": 65, "unit": "percent of children in low-income countries lacking access to a toilet", "value_type": "reported_share"},
+        "sanitation_lower_middle": {"value": 26, "unit": "percent of children in lower-middle-income countries lacking access to a toilet", "value_type": "reported_share"},
+        "sanitation_upper_middle": {"value": 11, "unit": "percent of children in upper-middle-income countries lacking access to a toilet", "value_type": "reported_share"}
+      },
+      "method": "UNICEF multidimensional child-poverty synthesis across housing, nutrition, water, sanitation, education, healthcare, and related rights.",
+      "uncertainty": "Domain thresholds and country coverage differ; deprivation counts do not establish identical severity, duration, or causal pathways for each child.",
+      "subgroup": "Children in low-income settings, rural communities, informal settlements, households without safe water or sanitation, and children facing barriers to schooling or healthcare.",
+      "counterinterpretation": "Progress in one service domain can materially improve child well-being even when other deprivations persist; averages can conceal local improvements and inequalities.",
+      "source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025",
+      "retrieval_hash": "sha256:ea54f5af292a5d5307cac8a465a6c0475b73c20219e74e4835279ccb51683028",
+      "status": "reported"
+    },
+    {
+      "period": "2025; social protection, informal work, and caregiver security",
+      "denominator": {"value": 1, "unit": "children and working households assessed for social-protection and labor-market conditions", "value_type": "family_security_frame"},
+      "measures": {
+        "children_without_social_protection": {"value": 1.6, "unit": "billion children globally lacking any social-protection coverage", "value_type": "reported_count"},
+        "informal_work": {"value": 58, "unit": "percent of the global workforce in informal employment in 2023", "value_type": "reported_share"},
+        "african_working_poverty": {"value": 29, "unit": "percent of working people in Africa living in poverty", "value_type": "reported_share"},
+        "policy_set": {"value": "child benefits, public services, decent work, parental leave, and affordable childcare are identified as mutually reinforcing responses", "unit": "reported policy framework", "value_type": "reported_framework"}
+      },
+      "method": "UNICEF synthesis linking child poverty to social-protection coverage, caregiver employment, informality, wages, leave, childcare, and public services.",
+      "uncertainty": "Coverage and labor indicators use different denominators and reference years; association with child outcomes does not establish the effect of one benefit or labor reform.",
+      "subgroup": "Children in working-poor households, informal workers, caregivers, women with care responsibilities, and families without parental leave or childcare.",
+      "counterinterpretation": "Informal work can provide income where formal employment is scarce, and targeted or universal benefits may work differently depending on take-up, adequacy, and delivery capacity.",
+      "source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025",
+      "retrieval_hash": "sha256:ea54f5af292a5d5307cac8a465a6c0475b73c20219e74e4835279ccb51683028",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2030; climate, conflict, and funding risks to child well-being",
+      "denominator": {"value": 1, "unit": "children and public systems exposed to converging climate, conflict, and financing risks", "value_type": "compound_child_risk_frame"},
+      "measures": {
+        "climate_hazard_exposure": {"value": 80, "unit": "percent of children facing at least one extreme climate hazard each year", "value_type": "reported_share"},
+        "conflict_exposure": {"value": 19, "unit": "percent of the world's children living in a conflict area in 2024", "value_type": "reported_share"},
+        "debt_service_health": {"value": 45, "unit": "developing countries paying more in debt interest than they spend on health", "value_type": "reported_count"},
+        "debt_service_education": {"value": 22, "unit": "developing countries paying more in debt interest than they spend on education", "value_type": "reported_count"}
+      },
+      "method": "UNICEF synthesis of child climate-risk, conflict, public-finance, aid, education, health, and social-protection evidence.",
+      "uncertainty": "The indicators describe exposure and fiscal conditions, not the same children or a single causal pathway; projections about aid cuts and mortality depend on policy responses and assumptions.",
+      "subgroup": "Children in climate-exposed, conflict-affected, displaced, indebted, and aid-dependent settings, plus communities relying on public health and education systems.",
+      "counterinterpretation": "Climate-resilient services, debt restructuring, social protection, humanitarian access, and protected child spending can interrupt the compound-risk pathway.",
+      "source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025",
+      "retrieval_hash": "sha256:ea54f5af292a5d5307cac8a465a6c0475b73c20219e74e4835279ccb51683028",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/reports/learning-interrupted", "claim": "UNICEF Learning Interrupted provides complementary evidence on climate-related school disruption."},
+    {"source_url": "https://www.unicef.org/reports/state-worlds-children", "claim": "UNICEF flagship report archive provides related child-trend publications and prior editions."}
+  ],
+  "boundary": "This record adds a child-poverty route linking monetary resources to sanitation, housing, nutrition, education, healthcare, social protection, caregiver work, climate hazards, conflict, debt, and public budgets. It uses publication-level aggregate evidence, not child-level panel histories, household spending microdata, respondent-level deprivation interviews, or causal estimates of any single service or fiscal policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNICEF State of the World's Children 2025 page was reviewed for monetary and multidimensional poverty, social protection, informal work, caregiver policy, climate, conflict, debt, and service-financing claims.",
+    "source_url_sha256": "sha256:ea54f5af292a5d5307cac8a465a6c0475b73c20219e74e4835279ccb51683028",
+    "checked": "2026-09-26"
+  }
+}

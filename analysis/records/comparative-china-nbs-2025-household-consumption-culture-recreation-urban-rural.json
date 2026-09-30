@@ -1,0 +1,176 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural",
+  "title": "China's cultural-consumption growth is real but remains stratified by household place and room",
+  "theme_ids": [
+    "cost",
+    "time",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "National Bureau of Statistics of China 2025 household income and consumption expenditure release",
+  "geography": "China; nationwide, urban, and rural resident aggregates",
+  "observations": [
+    {
+      "period": "Calendar year 2025",
+      "denominator": {
+        "value": null,
+        "unit": "China resident household consumption-expenditure survey aggregates; public release does not state a respondent denominator on the English page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "per_capita_consumption": {
+          "value": 29476,
+          "unit": "yuan per person; nationwide consumption expenditure",
+          "value_type": "official_aggregate"
+        },
+        "real_consumption_growth": {
+          "value": 4.4,
+          "unit": "percent year-over-year real increase after price adjustment",
+          "value_type": "official_aggregate_growth"
+        },
+        "education_culture_recreation": {
+          "value": 3489,
+          "unit": "yuan per person; education, culture, and recreation consumption expenditure",
+          "value_type": "official_aggregate"
+        },
+        "culture_recreation_growth": {
+          "value": 9.4,
+          "unit": "percent year-over-year nominal increase",
+          "value_type": "official_aggregate_growth"
+        },
+        "culture_recreation_share": {
+          "value": 11.8,
+          "unit": "percent of nationwide per-capita consumption expenditure",
+          "value_type": "official_composition_share"
+        },
+        "mechanism": {
+          "value": "Cultural consumption can expand faster than total household consumption while remaining an expenditure aggregate rather than proof of equal cultural access, attendance, or belonging",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official NBS annual household income and consumption expenditure release using resident survey aggregates and category totals.",
+      "uncertainty": "The release does not identify which cultural goods or services drove the category, whether growth reflects prices or quantities within the category, who consumed the items, or whether spending translated into participation or wellbeing.",
+      "subgroup": "All surveyed resident households represented by the nationwide aggregate; subgroup detail is provided in separate urban and rural aggregates.",
+      "counterinterpretation": "Category growth may reflect education or communications-adjacent spending, price changes, or higher spending by already advantaged households rather than broad cultural democratization.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202601/t20260120_1962356.html",
+      "retrieval_hash": "sha256:307d19633e719ddd219d5c3deb64f10721a4a76644a4b19bbdc49a1753738a53",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2025; urban-rural comparison",
+      "denominator": {
+        "value": null,
+        "unit": "urban and rural resident household aggregates in the NBS release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "urban_culture_recreation": {
+          "value": 4298,
+          "unit": "yuan per urban resident; education, culture, and recreation consumption expenditure",
+          "value_type": "official_subgroup_aggregate"
+        },
+        "rural_culture_recreation": {
+          "value": 2322,
+          "unit": "yuan per rural resident; education, culture, and recreation consumption expenditure",
+          "value_type": "official_subgroup_aggregate"
+        },
+        "urban_rural_culture_gap": {
+          "value": 1.85,
+          "unit": "urban-to-rural ratio of per-capita education, culture, and recreation expenditure, calculated from reported values",
+          "value_type": "derived_ratio"
+        },
+        "urban_culture_growth": {
+          "value": 9.4,
+          "unit": "percent year-over-year nominal increase in urban education, culture, and recreation spending",
+          "value_type": "official_subgroup_growth"
+        },
+        "rural_culture_growth": {
+          "value": 8.3,
+          "unit": "percent year-over-year nominal increase in rural education, culture, and recreation spending",
+          "value_type": "official_subgroup_growth"
+        },
+        "mechanism": {
+          "value": "Fast growth does not erase a large place-based spending gap; cultural optionality can widen in absolute resources even when rural spending grows nearly as quickly",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "NBS urban-rural subgroup aggregates; urban-to-rural ratio derived as 4,298 divided by 2,322 and rounded to two decimals.",
+      "uncertainty": "Urban-rural spending differences are not adjusted here for prices, household composition, service supply, travel distance, or different cultural goods; the ratio is not an access or attendance ratio.",
+      "subgroup": "Urban residents versus rural residents as defined by the NBS resident-income and consumption statistics.",
+      "counterinterpretation": "Different prices and service availability may explain part of the gap, and rural households may receive cultural value through nonmarket, shared, or locally supplied activities not captured by this expenditure category.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202601/t20260120_1962356.html",
+      "retrieval_hash": "sha256:307d19633e719ddd219d5c3deb64f10721a4a76644a4b19bbdc49a1753738a53",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2025; household-budget composition",
+      "denominator": {
+        "value": null,
+        "unit": "urban and rural resident household aggregates in the NBS release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "urban_total_consumption": {
+          "value": 35869,
+          "unit": "yuan per urban resident; total consumption expenditure",
+          "value_type": "official_subgroup_aggregate"
+        },
+        "rural_total_consumption": {
+          "value": 20259,
+          "unit": "yuan per rural resident; total consumption expenditure",
+          "value_type": "official_subgroup_aggregate"
+        },
+        "urban_rural_total_consumption_gap": {
+          "value": 1.77,
+          "unit": "urban-to-rural ratio of total per-capita consumption expenditure, calculated from reported values",
+          "value_type": "derived_ratio"
+        },
+        "urban_culture_share_approx": {
+          "value": 12.0,
+          "unit": "percent, calculated as urban culture/recreation spending divided by urban total consumption and rounded",
+          "value_type": "derived_composition_share"
+        },
+        "rural_culture_share_approx": {
+          "value": 11.5,
+          "unit": "percent, calculated as rural culture/recreation spending divided by rural total consumption and rounded",
+          "value_type": "derived_composition_share"
+        },
+        "mechanism": {
+          "value": "The cultural share of the budget can look similar across places while the absolute room available to spend differs materially",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "NBS urban-rural category and total aggregates; derived ratios and shares calculated from the reported values and rounded to two decimals or one decimal as labeled.",
+      "uncertainty": "Budget shares do not establish equal cultural experience, need, price exposure, or service quality; the underlying category includes education and recreation alongside culture.",
+      "subgroup": "Urban and rural residents in the NBS household consumption framework.",
+      "counterinterpretation": "Similar category shares may reflect different necessities, household priorities, or supply constraints rather than comparable cultural preference or welfare.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202601/t20260120_1962356.html",
+      "retrieval_hash": "sha256:307d19633e719ddd219d5c3deb64f10721a4a76644a4b19bbdc49a1753738a53",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202507/t20250730_1960541.html",
+      "claim": "NBS first-half 2025 release provides an earlier within-year comparison for education, culture, and recreation expenditure.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202602/t20260228_1962661.html",
+      "claim": "NBS 2025 national statistical communiqué provides related retail and cultural-economy context but is not substituted for the household expenditure measures.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a comparative household-budget and cultural-consumption layer for China. It supports a place-stratified spending signal, not equal cultural access, attendance, digital use, quality, cultural meaning, or causal welfare; the education-culture-recreation category is broader than culture alone.",
+  "retrieval_hash": "sha256:307d19633e719ddd219d5c3deb64f10721a4a76644a4b19bbdc49a1753738a53"
+}

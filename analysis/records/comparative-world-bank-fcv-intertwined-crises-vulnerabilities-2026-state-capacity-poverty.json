@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-fcv-intertwined-crises-vulnerabilities-2026-state-capacity-poverty",
+  "title": "Fragility persists when weak institutions, repeated shocks, fiscal constraint, and human-capital loss reinforce one another",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "housing_place_mobility"
+  ],
+  "source_unit": "World Bank, Fragile and Conflict-Affected Situations: Intertwined Crises, Multiple Vulnerabilities",
+  "geography": "Economies classified as fragile and conflict-affected situations, with comparisons to other developing countries and global poverty, health, education, food, debt, and growth outcomes",
+  "observations": [
+    {
+      "period": "2026; persistence and overlapping shocks in fragile and conflict-affected situations",
+      "denominator": {"value": 1, "unit": "World Bank FCS economy classification and vulnerability frame", "value_type": "fragility_frame"},
+      "measures": {
+        "long_term_classification": {"value": 75, "unit": "approximate percent of FCS economies remaining classified as such for more than a decade", "value_type": "reported_persistence_share"},
+        "institutional_condition": {"value": "weak institutions constrain responses to conflict, natural disasters, commodity-price swings, and global downturns", "unit": "World Bank synthesis", "value_type": "reported_mechanism_set"},
+        "fiscal_constraint": {"value": "limited fiscal space constrains investment in education, health, infrastructure, and shock response", "unit": "World Bank synthesis", "value_type": "reported_institutional_mechanism"},
+        "policy_route": {"value": "state capacity, governance, tailored policy, and sustained international support are identified as routes to resilience", "unit": "World Bank policy framing", "value_type": "reported_policy_framework"}
+      },
+      "method": "World Bank comparative analysis of fragile and conflict-affected situations, institutional conditions, overlapping shocks, fiscal capacity, and development outcomes.",
+      "uncertainty": "Classification is an analytical and operational construct; persistence does not imply that every institution or community within an FCS economy is equally fragile.",
+      "subgroup": "FCS governments, households, firms, local institutions, conflict-affected communities, and populations exposed to overlapping shocks.",
+      "counterinterpretation": "Long classification duration can coexist with institutional reform, local resilience, or improved outcomes in particular sectors and places.",
+      "source_url": "https://www.worldbank.org/en/research/publication/fragile-and-conflict-affected-situations-vulnerabilities",
+      "retrieval_hash": "sha256:ab7c07def9f6f988c50f3e431230b929392878b4d58c5b24cb5b446e2122a39a",
+      "status": "reported"
+    },
+    {
+      "period": "early 2000s-2026; conflict frequency, lethality, and economic scarring",
+      "denominator": {"value": 1, "unit": "World Bank five-year conflict and post-conflict growth comparison frame", "value_type": "conflict_economic_frame"},
+      "measures": {
+        "conflict_change": {"value": "on a five-year basis, the frequency and lethality of conflicts have more than tripled since the early 2000s", "unit": "World Bank conflict synthesis", "value_type": "reported_trend"},
+        "gdp_per_capita_scarring": {"value": -20, "unit": "approximate cumulative percent GDP-per-capita drop after five years following high-intensity conflict relative to pre-conflict projections", "value_type": "reported_economic_estimate"},
+        "shock_transmission": {"value": "conflict produces human and economic losses while interacting with natural disasters, commodity swings, and global downturns", "unit": "World Bank synthesis", "value_type": "reported_mechanism_set"},
+        "recovery_boundary": {"value": "post-conflict recovery is not automatic and depends on institutions, policy, financing, and peace conditions", "unit": "bounded interpretation", "value_type": "reported_boundary"}
+      },
+      "method": "World Bank synthesis of conflict trends and comparative post-conflict GDP-per-capita trajectories relative to pre-conflict projections.",
+      "uncertainty": "The GDP estimate is a comparative macroeconomic estimate, not a realized loss for every household or a causal forecast independent of conflict intensity, duration, policy, and external support.",
+      "subgroup": "Conflict-affected households, workers, firms, public institutions, displaced populations, and communities rebuilding infrastructure and services.",
+      "counterinterpretation": "Some economies recover faster than the aggregate pattern through peace agreements, institutional rebuilding, external support, and diversified production.",
+      "source_url": "https://www.worldbank.org/en/research/publication/fragile-and-conflict-affected-situations-vulnerabilities",
+      "retrieval_hash": "sha256:ab7c07def9f6f988c50f3e431230b929392878b4d58c5b24cb5b446e2122a39a",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2030; poverty, extreme poverty, and acute food insecurity in FCS economies",
+      "denominator": {"value": 1, "unit": "FCS population and global extreme-poverty projection frame", "value_type": "fragility_poverty_frame"},
+      "measures": {
+        "extreme_poverty_share": {"value": 40, "unit": "percent of the population of FCS economies living in extreme poverty", "value_type": "reported_population_share"},
+        "global_extreme_poor_2030": {"value": 60, "unit": "projected percent of the world's extreme poor living in FCS economies by 2030", "value_type": "projected_global_share"},
+        "global_extreme_poor_2024": {"value": 50, "unit": "percent of the world's extreme poor living in FCS economies in 2024", "value_type": "reported_global_share"},
+        "acute_food_insecurity": {"value": 200000000, "unit": "people in FCS economies facing acute food insecurity", "value_type": "reported_population_estimate"},
+        "food_share": {"value": 20, "unit": "approximate share of the FCS population facing acute food insecurity", "value_type": "reported_population_share"}
+      },
+      "method": "World Bank poverty, food-security, and fragility synthesis using FCS economy estimates and global extreme-poverty projections.",
+      "uncertainty": "Poverty and food-security estimates differ in reference years, thresholds, coverage, and conflict-related data availability; projections are not fixed outcomes.",
+      "subgroup": "Poor households, people in conflict-affected and hunger-prone areas, children, displaced populations, farmers, and humanitarian systems.",
+      "counterinterpretation": "Peace, governance, social protection, markets, and targeted assistance can change poverty and food-security trajectories; the projection highlights risk, not inevitability.",
+      "source_url": "https://www.worldbank.org/en/research/publication/fragile-and-conflict-affected-situations-vulnerabilities",
+      "retrieval_hash": "sha256:ab7c07def9f6f988c50f3e431230b929392878b4d58c5b24cb5b446e2122a39a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; health, education, and debt vulnerability in FCS economies",
+      "denominator": {"value": 1, "unit": "FCS human-capital and debt-vulnerability comparison frame", "value_type": "fragility_human_capital_frame"},
+      "measures": {
+        "life_expectancy_gap": {"value": -7, "unit": "years shorter life expectancy in FCS economies than in other developing countries", "value_type": "reported_health_gap"},
+        "infant_mortality": {"value": 2, "unit": "more-than-fold infant-mortality rate in FCS economies compared with other developing countries", "value_type": "reported_health_ratio"},
+        "schooling": {"value": 6, "unit": "average years of schooling received by children in FCS economies", "value_type": "reported_education_measure"},
+        "debt_distress": {"value": 70, "unit": "percent of FCS economies in or at high risk of debt distress", "value_type": "reported_country_share"},
+        "service_strain": {"value": "health systems are under severe strain and education and infrastructure are disrupted by conflict and fiscal constraint", "unit": "World Bank synthesis", "value_type": "reported_institutional_mechanism"}
+      },
+      "method": "World Bank comparison of FCS human-capital outcomes, health-system strain, education, and debt-vulnerability indicators.",
+      "uncertainty": "Aggregate gaps do not identify individual treatment, schooling, or debt outcomes and may reflect selection, conflict exposure, geography, and data limitations.",
+      "subgroup": "Children, women, patients, students, indebted governments, public-service workers, and households experiencing disrupted health and education.",
+      "counterinterpretation": "Targeted health, education, infrastructure, debt, and governance investments can improve outcomes even under fragility; FCS populations are not defined only by deficits.",
+      "source_url": "https://www.worldbank.org/en/research/publication/fragile-and-conflict-affected-situations-vulnerabilities",
+      "retrieval_hash": "sha256:ab7c07def9f6f988c50f3e431230b929392878b4d58c5b24cb5b446e2122a39a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/brief/2026/07/01/classification-of-fragile-and-conflict-affected-situations", "claim": "World Bank FY2027 FCV classifications distinguish public conflict prevalence from institutional fragility."},
+    {"source_url": "https://www.worldbank.org/en/topic/fragilityconflictviolence/publication/a-wbg-strategy-for-engaging-in-fcv-settings-2026-2030", "claim": "World Bank FCV strategy provides complementary operational and state-capacity context."}
+  ],
+  "boundary": "This record adds a fragility-to-poverty and state-capacity route across persistent classification, overlapping shocks, conflict scarring, poverty, food insecurity, health, education, infrastructure, and debt. It uses aggregate World Bank analysis, not household respondent histories, individual health or schooling records, local case files, causal conflict forecasts, or proof that every FCS economy follows the same pathway.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank FCS publication page reviewed for persistence, overlapping shocks, conflict trends, GDP scarring, extreme poverty, food insecurity, health, education, debt distress, and policy response findings.",
+    "source_url_sha256": "sha256:ab7c07def9f6f988c50f3e431230b929392878b4d58c5b24cb5b446e2122a39a",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-asean-china-ai-labour-policy-dialogue-2026",
+  "title": "AI labour governance in Asia is being negotiated as a South-South employment, skills, and digital-inclusion project rather than only a firm technology decision",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "ILO report on Regional Policy Dialogue 2026: Harnessing AI to Build Employment-Friendly Labour Markets in ASEAN and China, published September 8, 2026",
+  "geography": "ASEAN and China; regional policy dialogue held in Bangkok, Thailand, August 26-27, 2026",
+  "observations": [
+    {
+      "period": "August 26-27, 2026; ASEAN-China regional AI labour-policy dialogue",
+      "denominator": {"value": 1, "unit": "regional policy dialogue involving governments, workers, and employers from ASEAN and China", "value_type": "reported_dialogue_frame"},
+      "measures": {
+        "policy_scope": {"value": "Participants discussed AI transformation of labour markets, public employment services, skills-development systems, ethical and safe adoption, and employment-friendly policy", "unit": "policy domains", "value_type": "reported_policy_scope"},
+        "governance_principle": {"value": "Human judgment and social dialogue were identified as essential to inclusive and resilient labour markets in the AI era", "unit": "reported governance principle", "value_type": "reported_policy_direction"},
+        "regional_route": {"value": "South-South knowledge sharing was used to exchange policy innovations and practical pathways for AI governance", "unit": "cooperation mechanism", "value_type": "reported_cooperation_mechanism"}
+      },
+      "method": "Official ILO report of a regional policy dialogue and its stated takeaways; it is not a survey, firm-level evaluation, or causal assessment of AI policy.",
+      "uncertainty": "The dialogue records policy positions and knowledge exchange, not implementation, worker outcomes, AI productivity, job displacement, or the degree of consensus among participants.",
+      "subgroup": "Governments, worker and employer organizations, public employment services, skills systems, workers exposed to AI, and people affected by digital-access gaps across ASEAN and China.",
+      "counterinterpretation": "Dialogue can produce principles without changing firm incentives or state practice; “human judgment” may preserve discretion without guaranteeing worker control, fairness, or accountable remedies.",
+      "source_url": "https://www.ilo.org/resource/news/inclusive-policies-and-social-dialogue-key-navigating-ai-transformation",
+      "retrieval_hash": "sha256:61654deed6b1371f8783bf8fc2373df488ce3586fe4b8731b846b6b038c18974",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI exposure and uneven labour-market impact in South-East Asia",
+      "denominator": {"value": 80000000, "unit": "workers in South-East Asia employed in jobs with potential generative-AI exposure", "value_type": "reported_exposure_estimate"},
+      "measures": {
+        "exposure": {"value": "Almost 80 million workers in South-East Asia are employed in jobs with potential exposure to generative AI", "unit": "workers", "value_type": "reported_exposure_estimate"},
+        "unevenness": {"value": "Participants emphasized that AI impacts will not be experienced equally and that digital divides must be included in governance", "unit": "reported distributional condition", "value_type": "reported_policy_assessment"},
+        "response": {"value": "Reskilling and upskilling, public employment-service innovation, and attention to digital access were identified as response areas", "unit": "policy response set", "value_type": "reported_policy_direction"}
+      },
+      "method": "ILO regional dialogue citing an exposure estimate and discussing policy implications; the source does not provide country-by-country exposure distributions, task-level causal effects, or transition outcomes.",
+      "uncertainty": "Potential exposure is not job loss, task automation, productivity gain, or realized worker harm; the estimate's coverage and definition are not fully detailed in the news report.",
+      "subgroup": "Workers in South-East Asia with different occupations, skills, gender, income, sector, firm size, connectivity, and access to training or public employment services.",
+      "counterinterpretation": "Exposure may create complementarity and better work rather than displacement; digital divides can sometimes be narrowed through low-cost tools, but access alone does not ensure skills, bargaining power, or benefit capture.",
+      "source_url": "https://www.ilo.org/resource/news/inclusive-policies-and-social-dialogue-key-navigating-ai-transformation",
+      "retrieval_hash": "sha256:61654deed6b1371f8783bf8fc2373df488ce3586fe4b8731b846b6b038c18974",
+      "status": "reported"
+    },
+    {
+      "period": "2026; China-ASEAN South-South cooperation and standards coordination",
+      "denominator": {"value": 1, "unit": "ILO-China-supported ASEAN employment cooperation project", "value_type": "reported_cooperation_frame"},
+      "measures": {
+        "coordination": {"value": "China and ASEAN participants discussed alignment and coordination of development strategies, governance frameworks, and technical standards for AI", "unit": "regional coordination agenda", "value_type": "reported_cooperation_agenda"},
+        "institutional_partners": {"value": "The dialogue brought governments, workers' organizations, and employers' organizations into a shared AI-and-employment policy space", "unit": "institutional participants", "value_type": "reported_participation_frame"},
+        "geopolitical_mechanism": {"value": "South-South cooperation is positioned as a way to shape regional AI governance and translate technological opportunity into inclusive labour outcomes", "unit": "bounded geopolitical-policy mechanism", "value_type": "reported_policy_direction"}
+      },
+      "method": "ILO report of a China-supported ASEAN regional cooperation project and policy dialogue; it does not establish binding standards, implementation, or geopolitical convergence.",
+      "uncertainty": "The report does not specify which standards will be adopted, how interests will be reconciled, or how regional coordination will affect national regulation, firms, or workers.",
+      "subgroup": "ASEAN and Chinese governments, regional labour institutions, worker and employer organizations, standards bodies, technology firms, and workers crossing regional value chains.",
+      "counterinterpretation": "South-South coordination can broaden policy agency, but it can also export dominant standards, leave smaller economies with limited leverage, or prioritize technology diffusion over rights and remedy.",
+      "source_url": "https://www.ilo.org/resource/news/inclusive-policies-and-social-dialogue-key-navigating-ai-transformation",
+      "retrieval_hash": "sha256:61654deed6b1371f8783bf8fc2373df488ce3586fe4b8731b846b6b038c18974",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/promoting-global-development-initiative-focus-south-south-cooperation-employment-asean", "claim": "ILO project page for the South-South employment cooperation project referenced in the report."}
+  ],
+  "boundary": "This record captures the policy-dialogue and regional-cooperation framing of AI labour governance in ASEAN and China. It does not establish AI job loss, productivity, worker outcomes, adopted standards, implementation, or causal effects of social dialogue.",
+  "retrieval_hash": "sha256:61654deed6b1371f8783bf8fc2373df488ce3586fe4b8731b846b6b038c18974"
+}

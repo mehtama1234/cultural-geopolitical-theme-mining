@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gensler-city-pulse-2026-downtown-belonging-vibrancy-culture",
+  "title": "Urban residents value downtowns but underuse them, making belonging, cultural draw, mobility, and street-level comfort the next city-centre battleground",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gensler Research Institute, City Pulse 2026: The Downtown Report",
+  "geography": "Residents across 75 cities and 30 countries, with longitudinal comparison of urban experience since the pandemic",
+  "observations": [
+    {
+      "period": "2026; global downtown sentiment and visit frequency",
+      "denominator": {"value": 35000, "unit": "city residents surveyed across 75 cities in 30 countries, approximately", "value_type": "reported_survey_frame"},
+      "measures": {
+        "downtown_affinity": {"value": 73, "unit": "percent of global residents who rate their downtown highly", "value_type": "reported_aggregate_share"},
+        "weekly_visit": {"value": "fewer than half", "unit": "global residents visiting downtown at least once a week", "value_type": "reported_aggregate_pattern"},
+        "central_tension": {"value": "People value their downtowns but do not visit often enough, indicating a gap between positive sentiment and actual urban use", "unit": "reported urban-experience pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gensler Research Institute global resident survey across 75 cities and 30 countries, presented as a longitudinal study of urban experience since the pandemic.",
+      "uncertainty": "The public release does not provide the full sampling frame, weighting, field dates, response rates, or country-by-country uncertainty intervals; it is a firm-produced survey and design research signal.",
+      "subgroup": "Urban residents, downtown visitors and non-visitors, workers, residents of mixed-use districts, city leaders, retailers, cultural venues, and mobility providers.",
+      "counterinterpretation": "Positive ratings may reflect broad symbolic attachment rather than willingness to visit; visit frequency is shaped by work, housing, safety, transit, weather, affordability, and local alternatives.",
+      "source_url": "https://www.gensler.com/press-releases/city-pulse-downtown-report-2026",
+      "retrieval_hash": "sha256:3b5a099238a23b2f3180b954522dac6db235f03ef0e743a9f95b11f1683bd301",
+      "status": "reported"
+    },
+    {
+      "period": "2026; duration, vibrancy, and urban feedback loops",
+      "denominator": {"value": 1, "unit": "Gensler City Pulse urban-experience analysis", "value_type": "reported_analysis_frame"},
+      "measures": {
+        "stay_duration": {"value": "Residents who spend more time downtown consistently rate the experience more highly, regardless of how often they visit", "unit": "reported association", "value_type": "reported_association"},
+        "vibrancy_loop": {"value": "Livelier neighbourhoods attract more people, whose presence makes the area feel safer and more welcoming, attracting more visitors", "unit": "reported urban feedback mechanism", "value_type": "reported_mechanism"},
+        "design_levers": {"value": "Street-level design, more things to do, and well-lit public spaces are identified as possible starting points for the positive cycle", "unit": "reported intervention set", "value_type": "reported_policy_pathway"}
+      },
+      "method": "Cross-city analysis of reported downtown experience, visit behaviour, and design attributes in the City Pulse study.",
+      "uncertainty": "The public findings describe association and design hypotheses, not a causal experiment showing that one intervention will create vibrancy or improve safety in every city.",
+      "subgroup": "Residents who linger or avoid lingering, pedestrians, families, workers, retailers, public-space users, cultural operators, and people concerned about safety or welcome.",
+      "counterinterpretation": "Vibrancy can be unevenly distributed and may produce displacement, noise, crowding, surveillance, or exclusion if public-space improvements are not accompanied by affordability and inclusion.",
+      "source_url": "https://www.gensler.com/press-releases/city-pulse-downtown-report-2026",
+      "retrieval_hash": "sha256:3b5a099238a23b2f3180b954522dac6db235f03ef0e743a9f95b11f1683bd301",
+      "status": "reported"
+    },
+    {
+      "period": "2026; downtown as neighbourhood rather than office district",
+      "denominator": {"value": 1, "unit": "global resident vision-of-downtown frame", "value_type": "reported_preference_frame"},
+      "measures": {
+        "mixed_use_ideal": {"value": 40, "unit": "percent of global residents who say their ideal downtown in 10 years is a lively mix of housing, shops, and offices", "value_type": "reported_preference_share"},
+        "desired_function": {"value": "Residents want downtowns to provide places to live, eat, work, and spend time rather than function mainly as commute-to office districts", "unit": "reported place expectation", "value_type": "reported_preference"},
+        "cultural_draw": {"value": "Walkability and a strong cultural and entertainment offering rank among the top draws across visitor types", "unit": "reported attraction pattern", "value_type": "reported_aggregate_pattern"}
+      },
+      "method": "Gensler City Pulse resident preference analysis across a global multi-city sample.",
+      "uncertainty": "An ideal-downtown preference is not a guaranteed development demand signal; housing cost, zoning, jobs, transit, tourism, and cultural supply constrain implementation.",
+      "subgroup": "Residents, workers, families, visitors, cultural and entertainment audiences, housing seekers, retailers, and city-centre developers.",
+      "counterinterpretation": "Mixed-use density can improve access and vitality but may raise rents, intensify competition for public space, or reproduce exclusion without housing and mobility protections.",
+      "source_url": "https://www.gensler.com/press-releases/city-pulse-downtown-report-2026",
+      "retrieval_hash": "sha256:3b5a099238a23b2f3180b954522dac6db235f03ef0e743a9f95b11f1683bd301",
+      "status": "reported"
+    },
+    {
+      "period": "2026; urban friction, mobility, and belonging",
+      "denominator": {"value": 1, "unit": "global downtown barrier analysis", "value_type": "reported_barrier_frame"},
+      "measures": {
+        "mobility_friction": {"value": "Parking costs, limited bike lanes, confusing navigation, and unreliable public transit rank among residents' top complaints", "unit": "reported barrier set", "value_type": "reported_barrier"},
+        "place_friction": {"value": "Physical friction includes getting there, finding somewhere to sit, and escaping heat; social friction includes feeling that downtown was not built for you", "unit": "reported access-and-belonging mechanism", "value_type": "reported_mechanism"},
+        "investment_priorities": {"value": "Attractiveness, after-hours activity, lighting, and perceived safety are identified as areas where design and investment can improve experience", "unit": "reported intervention set", "value_type": "reported_policy_pathway"}
+      },
+      "method": "Gensler urban-experience research linking resident complaints, physical design, mobility, safety perception, and social welcome.",
+      "uncertainty": "The release does not quantify the relative effect or cost of each barrier, and perceived safety or welcome may vary sharply by gender, age, disability, race, income, and time of day.",
+      "subgroup": "People with mobility constraints, lower-income residents, women and gender minorities, older adults, disabled people, families, transit users, cyclists, and groups historically excluded from downtown space.",
+      "counterinterpretation": "Design changes alone cannot resolve structural inequity, housing displacement, transit underfunding, policing harms, or unequal cultural representation.",
+      "source_url": "https://www.gensler.com/press-releases/city-pulse-downtown-report-2026",
+      "retrieval_hash": "sha256:3b5a099238a23b2f3180b954522dac6db235f03ef0e743a9f95b11f1683bd301",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gensler.com/research-insight/city-pulse-2026", "claim": "The City Pulse 2026 research page provides the full report route and related urban-experience materials."},
+    {"source_url": "https://www.gensler.com/research-insight/future-of-cities", "claim": "Gensler's future-of-cities research contextualizes the downtown experience and public-realm route."}
+  ],
+  "boundary": "This record adds an aggregate, multi-city urban-experience signal linking downtown belonging, visit frequency, mixed-use expectations, cultural draw, mobility friction, and public-space vibrancy. It uses published survey summaries and is not respondent-level data, a causal evaluation, a city ranking, or proof that design investment alone produces inclusion, safety, or economic recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Gensler City Pulse 2026 release reviewed for sample scope, downtown sentiment and visit frequency, duration and vibrancy findings, mixed-use preferences, cultural draw, mobility friction, and belonging barriers.",
+    "source_url_sha256": "sha256:3b5a099238a23b2f3180b954522dac6db235f03ef0e743a9f95b11f1683bd301",
+    "checked": "2026-09-27"
+  }
+}

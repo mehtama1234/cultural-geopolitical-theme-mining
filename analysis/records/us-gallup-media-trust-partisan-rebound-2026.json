@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-media-trust-partisan-rebound-2026",
+  "title": "A small rebound in media confidence does not undo historically weak and partisan trust",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup Governance poll and long-run U.S. media-confidence trend",
+  "geography": "United States; adults surveyed September 1-17, 2026",
+  "observations": [
+    {
+      "period": "September 1-17, 2026; confidence in mass media",
+      "denominator": {"value": null, "unit": "U.S. adults in Gallup Governance poll; public article does not state the sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "media_confidence": {"value": 33, "unit": "percent expressing a great deal or fair amount of confidence in newspapers, television and radio to report news fully, accurately and fairly", "value_type": "published_survey_estimate"},
+        "limited_or_no_confidence": {"value": 66, "unit": "percent expressing not very much or no confidence", "value_type": "published_survey_estimate"},
+        "year_over_year_rebound": {"value": "confidence rose from 28% in 2025, but remains near the bottom of Gallup's more than 50-year trend", "unit": "reported trend comparison", "value_type": "published_survey_estimate"},
+        "rebound_without_restoration": {"value": "A year-over-year improvement can be real without representing institutional recovery when the majority still lacks confidence.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup Governance poll conducted September 1-17, 2026, reported alongside Gallup's long-run media-confidence trend; the public article does not state the sample size or full sampling details.",
+      "uncertainty": "The survey predates major White House-media-access events beginning September 18; the article cautions that any effect of those events is not reflected. Confidence is reported perception, not a content-accuracy audit or news-use measure.",
+      "subgroup": "U.S. adults; party identification is reported separately.",
+      "counterinterpretation": "The rebound may reflect changing political evaluations, event salience or sampling variation rather than broad restoration of journalistic credibility.",
+      "source_url": "https://news.gallup.com/poll/714938/trust-news-media-edges-slightly-higher.aspx",
+      "retrieval_hash": "sha256:f963616b8416b1f86d6e65257796ba0767a83ba740b7816989ff7e35bedcb338",
+      "status": "reported"
+    },
+    {
+      "period": "September 1-17, 2026; partisan divergence in media confidence",
+      "denominator": {"value": null, "unit": "U.S. adults in Gallup Governance poll; party subgroup denominators not disclosed in public article", "value_type": "not_disclosed"},
+      "measures": {
+        "republican_confidence": {"value": 22, "unit": "percent of Republicans expressing confidence, up from 8% in 2025", "value_type": "published_survey_estimate"},
+        "democratic_confidence": {"value": 50, "unit": "percent of Democrats expressing confidence, versus 51% in 2025", "value_type": "published_survey_estimate"},
+        "independent_confidence": {"value": 31, "unit": "percent of independents expressing confidence", "value_type": "published_survey_estimate"},
+        "partisan_authority_gap": {"value": "The same information institution is evaluated through sharply different partisan trust channels, leaving shared public facts vulnerable to identity-based filtering.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup subgroup estimates from the September 2026 Governance poll and historical trend comparison.",
+      "uncertainty": "The release does not identify the causes of partisan movement, exposure patterns, outlet mix, ideological composition, or whether confidence predicts use, sharing, correction acceptance or civic action.",
+      "subgroup": "Republicans, Democrats and independents in the U.S. adult sample.",
+      "counterinterpretation": "Partisan confidence may track changing evaluations of media coverage rather than fixed hostility to news institutions; trust in particular outlets can differ from trust in mass media overall.",
+      "source_url": "https://news.gallup.com/poll/714938/trust-news-media-edges-slightly-higher.aspx",
+      "retrieval_hash": "sha256:f963616b8416b1f86d6e65257796ba0767a83ba740b7816989ff7e35bedcb338",
+      "status": "reported"
+    },
+    {
+      "period": "1970s-2026; long-run institutional confidence trajectory",
+      "denominator": {"value": null, "unit": "Gallup historical trend series; public article does not provide a single pooled denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "historical_high": {"value": "about seven in ten in the 1970s, above 50% through the early 2000s", "unit": "reported historical confidence range", "value_type": "reported_trend"},
+        "current_low": {"value": "confidence fell below 30% for the first time in 2025 and is 33% in 2026", "unit": "reported historical comparison", "value_type": "reported_trend"},
+        "institutional_memory": {"value": "Trust is shaped by accumulated political conflict and repeated credibility disputes, not only the current news cycle.", "unit": "reported mechanism", "value_type": "analytical_synthesis"},
+        "open_conversion": {"value": "The unresolved stage is whether stronger reporting, transparency, correction and plural source ecosystems can convert episodic confidence movement into durable legitimacy.", "unit": "open research question", "value_type": "reported_boundary"}
+      },
+      "method": "Historical comparisons summarized by Gallup from its more than 50-year media-confidence trend.",
+      "uncertainty": "Historical question wording, modes, samples and media environments change over time; the trend does not identify a single causal driver or establish that the current measure is comparable in every respect across decades.",
+      "subgroup": "U.S. adults across historical survey periods.",
+      "counterinterpretation": "Low confidence in mass media may coexist with trust in particular journalists, local outlets, public broadcasters, specialized sources or interpersonal verification networks.",
+      "source_url": "https://news.gallup.com/poll/714938/trust-news-media-edges-slightly-higher.aspx",
+      "retrieval_hash": "sha256:f963616b8416b1f86d6e65257796ba0767a83ba740b7816989ff7e35bedcb338",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/714938/trust-news-media-edges-slightly-higher.aspx", "claim": "Official Gallup article reports current media confidence, partisan comparisons, field dates, event-timing boundary and historical trend."}
+  ],
+  "boundary": "This record adds a media-legitimacy route from long-run confidence decline through partisan divergence, event-sensitive rebound and possible source-selection or civic consequences. It does not measure news accuracy, exposure, outlet-level trust, sharing, correction, misinformation, causal political behavior or the effect of post-fieldwork events.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup article was reviewed for the 2026 confidence estimate, 2025 comparison, partisan subgroup estimates, September 1-17 field period, post-fieldwork event boundary and historical trend framing.",
+    "source_page_sha256": "sha256:f963616b8416b1f86d6e65257796ba0767a83ba740b7816989ff7e35bedcb338",
+    "checked": "2026-09-29"
+  }
+}

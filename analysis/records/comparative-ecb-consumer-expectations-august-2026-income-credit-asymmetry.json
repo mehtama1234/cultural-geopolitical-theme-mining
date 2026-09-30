@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ecb-consumer-expectations-august-2026-income-credit-asymmetry",
+  "title": "Euro-area household expectations remain stable in aggregate while income and credit exposure diverge sharply by position",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "time_hidden_price"
+  ],
+  "source_unit": "European Central Bank, Consumer Expectations Survey results – August 2026",
+  "geography": "Euro area; adults in Belgium, Germany, Ireland, Greece, Spain, France, Italy, the Netherlands, Austria, Portugal and Finland",
+  "observations": [
+    {
+      "period": "August 2026; inflation perceptions and expectations",
+      "denominator": {"value": 19000, "unit": "approximately adult consumers in the ECB monthly online survey across 11 euro-area countries", "value_type": "reported_survey_frame"},
+      "measures": {
+        "past_inflation_perception": {"value": 3.5, "unit": "median percent perceived inflation over the previous 12 months", "value_type": "published_median"},
+        "one_year_inflation_expectation": {"value": 3.0, "unit": "median percent expected inflation over the next 12 months", "value_type": "published_median"},
+        "three_year_inflation_expectation": {"value": 2.9, "unit": "median percent expected inflation three years ahead", "value_type": "published_median"},
+        "five_year_inflation_expectation": {"value": 2.5, "unit": "median percent expected inflation five years ahead", "value_type": "published_median"},
+        "income_quintile_exposure": {"value": "respondents in the bottom income quintile continued to report higher inflation perceptions and expectations than those in the top quintile", "unit": "reported distributional pattern", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "ECB monthly online Consumer Expectations Survey; aggregate results are reported as medians unless otherwise indicated and are drawn from around 19,000 adults across 11 euro-area countries.",
+      "uncertainty": "The release reports perceived and expected inflation, not individually verified price baskets, realized inflation exposure, or causal effects of income position on expectations.",
+      "subgroup": "Adults in the bottom and top income quintiles as defined by the survey.",
+      "counterinterpretation": "Higher expectations among lower-income respondents may reflect different consumption baskets, local prices, financial vulnerability, or information exposure rather than only objective inflation differences.",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.ga.html",
+      "retrieval_hash": "sha256:ba9a04285995841d80faef68ce63cc5f9663cf78cdea57d40d51842a1966fff6",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; income and consumption expectations",
+      "denominator": {"value": 19000, "unit": "approximately adult consumers in the ECB monthly online survey across 11 euro-area countries", "value_type": "reported_survey_frame"},
+      "measures": {
+        "expected_nominal_income_growth": {"value": 1.0, "unit": "median expected nominal income growth over the next 12 months", "value_type": "published_median"},
+        "bottom_quintile_income_expectation": {"value": 1.7, "unit": "average expected nominal income growth in the bottom income quintile", "value_type": "published_subgroup_estimate"},
+        "top_quintile_income_expectation": {"value": 0.7, "unit": "average expected nominal income growth in the top income quintile", "value_type": "published_subgroup_estimate"},
+        "expected_nominal_spending_growth": {"value": 3.6, "unit": "median expected nominal spending growth over the next 12 months", "value_type": "published_median"},
+        "expectations_gap": {"value": "expected spending growth remains above expected nominal income growth, while the aggregate expectation is unchanged", "unit": "reported expectation relationship", "value_type": "reported_mechanism"}
+      },
+      "method": "ECB monthly online Consumer Expectations Survey with income-quintile comparisons.",
+      "uncertainty": "Expected income and spending are self-reported nominal expectations; the release does not identify whether households will use savings, credit, reduced quantities, or substitution to bridge the gap.",
+      "subgroup": "Euro-area consumers overall and the bottom versus top income quintiles.",
+      "counterinterpretation": "Higher expected income growth in the bottom quintile can reflect catch-up expectations or composition differences and does not establish improved real purchasing power.",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.ga.html",
+      "retrieval_hash": "sha256:ba9a04285995841d80faef68ce63cc5f9663cf78cdea57d40d51842a1966fff6",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; labour-market and housing-cost expectations",
+      "denominator": {"value": 19000, "unit": "approximately adult consumers in the ECB monthly online survey across 11 euro-area countries", "value_type": "reported_survey_frame"},
+      "measures": {
+        "expected_unemployment_rate": {"value": 11.0, "unit": "median expected unemployment rate in 12 months", "value_type": "published_median"},
+        "bottom_quintile_expected_unemployment": {"value": 13.4, "unit": "average expected unemployment rate in 12 months among the bottom income quintile", "value_type": "published_subgroup_estimate"},
+        "top_quintile_expected_unemployment": {"value": 9.4, "unit": "average expected unemployment rate in 12 months among the top income quintile", "value_type": "published_subgroup_estimate"},
+        "expected_home_price_growth": {"value": 3.4, "unit": "median expected home-price growth over the next 12 months", "value_type": "published_median"},
+        "bottom_quintile_home_price_expectation": {"value": 4.0, "unit": "average expected home-price growth in the lowest income quintile", "value_type": "published_subgroup_estimate"},
+        "top_quintile_home_price_expectation": {"value": 3.2, "unit": "average expected home-price growth in the highest income quintile", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "ECB monthly online Consumer Expectations Survey; housing and labour indicators are reported as survey expectations, not administrative forecasts.",
+      "uncertainty": "The survey does not observe actual unemployment, home transactions, affordability, housing tenure, or individual exposure to job loss or price change.",
+      "subgroup": "Euro-area consumers overall and income-quintile groups.",
+      "counterinterpretation": "Lower-income respondents may expect faster home-price growth because they face greater affordability pressure or because of different local-market composition; the result is not evidence of a uniform housing market.",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.ga.html",
+      "retrieval_hash": "sha256:ba9a04285995841d80faef68ce63cc5f9663cf78cdea57d40d51842a1966fff6",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; mortgage rates and credit access",
+      "denominator": {"value": 19000, "unit": "approximately adult consumers in the ECB monthly online survey across 11 euro-area countries", "value_type": "reported_survey_frame"},
+      "measures": {
+        "expected_mortgage_rate": {"value": 4.9, "unit": "median expected mortgage interest rate in 12 months", "value_type": "published_median"},
+        "bottom_quintile_expected_mortgage_rate": {"value": 5.7, "unit": "average expected mortgage interest rate in 12 months among the bottom income quintile", "value_type": "published_subgroup_estimate"},
+        "top_quintile_expected_mortgage_rate": {"value": 4.4, "unit": "average expected mortgage interest rate in 12 months among the top income quintile", "value_type": "published_subgroup_estimate"},
+        "credit_tightening": {"value": "the net percentage reporting tighter past credit access and expecting tighter future credit access both declined from July", "unit": "reported monthly direction", "value_type": "published_change"},
+        "credit_asymmetry": {"value": "credit conditions eased in aggregate while expected mortgage costs remained 1.3 percentage points higher for the bottom than the top income quintile", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ECB monthly online Consumer Expectations Survey; credit-access measures are net balances and mortgage figures are expected rates.",
+      "uncertainty": "The release does not identify who is applying for credit, actual approval or denial, mortgage type, lender pricing, debt service, or whether expectations change behaviour.",
+      "subgroup": "Euro-area consumers, with mortgage-rate comparisons by income quintile.",
+      "counterinterpretation": "Income-group differences may partly reflect tenure and borrower composition; expected mortgage rates cannot be interpreted as realized borrowing costs for all households.",
+      "source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.ga.html",
+      "retrieval_hash": "sha256:ba9a04285995841d80faef68ce63cc5f9663cf78cdea57d40d51842a1966fff6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.ga.html", "claim": "Official ECB August 2026 Consumer Expectations Survey release, including sample frame, income quintiles, inflation, income, spending, labour, housing and credit expectations.", "status": "primary-survey-release"},
+    {"source_url": "https://data.ecb.europa.eu/", "claim": "ECB Data Portal provides the associated aggregate country and euro-area time series.", "status": "official-data-context"}
+  ],
+  "boundary": "This record adds a distributional expectations route: lower-income euro-area consumers report higher inflation, unemployment and mortgage-rate expectations while aggregate income, spending and credit-access expectations remain comparatively stable. The monthly online survey is broad and repeated but self-reported; it does not measure realized prices, borrowing, spending, employment, housing transactions, or causal household outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ECB primary release reviewed for survey frame, fieldwork timing, income-quintile comparisons, inflation, income, spending, unemployment, housing, mortgage and credit-access measures.",
+    "source_url_sha256": "sha256:ba9a04285995841d80faef68ce63cc5f9663cf78cdea57d40d51842a1966fff6",
+    "checked": "2026-09-28"
+  }
+}

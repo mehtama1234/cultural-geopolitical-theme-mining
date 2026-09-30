@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ukraine-conflict-digital-skills-labor-demand-2026",
+  "title": "War-related disruption is associated with a more digital composition of surviving labour demand in Ukraine",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "infrastructure_technology_dependency", "work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "trust_identity_meaning"],
+  "source_unit": "World Bank Policy Research Working Paper 11446, Labor Demand for Digital Skills in Post-2022 Ukraine: Evidence from Online Job Vacancy Data, September 2026",
+  "geography": "Ukraine, 2021-2025; online vacancies, employers, workers, displaced and conflict-exposed regions, digital and non-digital occupations, and reconstruction labour markets",
+  "observations": [
+    {
+      "period": "2021-2025; invasion-related labour-demand change",
+      "denominator": {"value": 1, "unit": "millions of Ukrainian online job vacancies classified and mapped to the ESCO taxonomy", "value_type": "reported_vacancy_dataset"},
+      "measures": {"digital_skill_share": {"value": "attack intensity is positively associated with the digital-skill share of job postings", "unit": "reported time-series association", "value_type": "reported_association"}, "skill_classification": {"value": "vacancies are classified with large language models and mapped to the ESCO skills taxonomy", "unit": "reported measurement method", "value_type": "reported_method"}, "conflict_link": {"value": "vacancy-level skill data are linked to high-frequency ACLED attack-intensity measures", "unit": "reported conflict-labour linkage", "value_type": "reported_method"}},
+      "method": "Large-scale online vacancy dataset, language-model skill classification, ESCO mapping, ACLED attack-intensity measures, and time-series models with alternative specifications and attack measures.",
+      "uncertainty": "The association is not a simple causal estimate of individual skill acquisition, wages, employment access, or household welfare; online vacancies also underrepresent informal and offline work.",
+      "subgroup": "Workers and employers in conflict-exposed and less-exposed regions, digital and non-digital occupations, displaced workers, remote workers, and people without recognized digital skills.",
+      "counterinterpretation": "A higher digital-skill share may reflect the composition of vacancies that remain visible online rather than a broad-based improvement in workers' capabilities or job quality.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099416309142637653",
+      "retrieval_hash": "sha256:f1250e3693e8397b75872c60182efbac16c01768c661ece344db7329d8b7e535",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; mechanisms behind digital-demand growth",
+      "denominator": {"value": 1, "unit": "World Bank vacancy-level decomposition of post-2022 Ukrainian digital-skill demand", "value_type": "reported_decomposition_frame"},
+      "measures": {"mechanism_set": {"value": "within-occupation shifts, between-occupation shifts, and remote-work adoption jointly drive the increase in digital-skill demand", "unit": "reported decomposition", "value_type": "reported_mechanism_set"}, "upskilling_share": {"value": "within-occupation reskilling and upskilling account for roughly half of the total rise in the digital-skill share", "unit": "reported approximate contribution", "value_type": "reported_decomposition_result"}, "remote_work": {"value": "remote-work adoption is one component of the observed shift in vacancy skill composition", "unit": "reported labour-market mechanism", "value_type": "reported_mechanism_set"}},
+      "method": "Time-series and decomposition analysis of classified online vacancies, occupation shifts, and remote-work indicators.",
+      "uncertainty": "The decomposition identifies consistent empirical components but does not show whether reskilling was employer-led, worker-led, subsidized, forced by displacement, or equally accessible.",
+      "subgroup": "Workers whose existing occupations acquire digital tasks, workers changing occupations, remote-capable workers, displaced people, and employers redesigning work under attack exposure.",
+      "counterinterpretation": "Digital tasks can preserve employment and enable geographic continuity, but remote work may also intensify surveillance, blur work boundaries, or exclude workers lacking equipment, connectivity, or credentials.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099416309142637653",
+      "retrieval_hash": "sha256:f1250e3693e8397b75872c60182efbac16c01768c661ece344db7329d8b7e535",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; resilience and reconstruction implications",
+      "denominator": {"value": 1, "unit": "World Bank interpretation of Ukrainian vacancy and conflict evidence", "value_type": "reported_policy_implication_frame"},
+      "measures": {"vacancy_resilience": {"value": "the growing digital-skill share partly reflects the relative resilience of digital hiring against a broader contraction in vacancy volume", "unit": "reported labour-demand comparison", "value_type": "reported_resilience_finding"}, "policy_endpoint": {"value": "the findings carry implications for digital reskilling, labour-market monitoring, and recovery and reconstruction planning", "unit": "reported policy implication", "value_type": "reported_policy_route"}, "visibility_gap": {"value": "online vacancy evidence can reveal changing employer demand while omitting much informal, offline, and non-posted work", "unit": "analytical measurement boundary", "value_type": "reported_measurement_boundary"}},
+      "method": "World Bank policy research working paper using online vacancy evidence and conflict-intensity measures to inform recovery and reconstruction policy.",
+      "uncertainty": "The paper does not establish that digital hiring is durable after conflict, that digital work is accessible to all groups, or that reskilling policy will translate into secure employment.",
+      "subgroup": "Reconstruction workers, digitally skilled and digitally excluded workers, employers, displaced households, public employment services, training institutions, and regional planners.",
+      "counterinterpretation": "Digital labour demand may help maintain economic continuity, but reconstruction also requires physical, care, civic, and locally embedded work that vacancy data may not capture.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099416309142637653",
+      "retrieval_hash": "sha256:f1250e3693e8397b75872c60182efbac16c01768c661ece344db7329d8b7e535",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://reproducibility.worldbank.org/catalog/622", "claim": "World Bank reproducibility package for the Ukraine digital-skills labour-demand study."}, {"source_url": "https://doi.org/10.1596/1813-9450-11446", "claim": "Official DOI for World Bank Policy Research Working Paper 11446."}],
+  "boundary": "This record adds a conflict-to-digital-labour-demand route linking attack exposure, occupation change, upskilling, remote work, vacancy resilience, and reconstruction planning. It does not establish individual causal skill acquisition, wages, job quality, household welfare, broad informal labour effects, or equal digital access.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official World Bank paper record reviewed for the millions-of-vacancies dataset, LLM/ESCO classification, ACLED attack measures, positive association, decomposition mechanisms, remote work, vacancy resilience, and policy implications.", "source_url_sha256": "sha256:f1250e3693e8397b75872c60182efbac16c01768c661ece344db7329d8b7e535", "checked": "2026-09-29"}
+}

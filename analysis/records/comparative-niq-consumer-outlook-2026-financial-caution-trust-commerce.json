@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-niq-consumer-outlook-2026-financial-caution-trust-commerce",
+  "title": "Consumer recovery is cautious: households protect essentials, seek income insurance and demand lived value across local and digital commerce",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NIQ, Consumer Outlook: Guide to 2026",
+  "geography": "Global consumers and FMCG markets, with NIQ consumer survey, retail measurement and omnishopper evidence across multiple countries and market groups",
+  "observations": [
+    {
+      "period": "2025 consumer outlook survey, reported for 2026 planning",
+      "denominator": {"value": 1, "unit": "global consumer sentiment comparison frame; survey sample size not stated on the publication page", "value_type": "published_survey_frame"},
+      "measures": {
+        "financial_position": {"value": "30% of global consumers say they are better off financially than a year ago, while 32.8% say they are worse off", "unit": "reported survey shares", "value_type": "reported_share"},
+        "drivers_of_decline": {"value": "among consumers who feel worse off, 73% attribute the decline to increased cost of living, 39% to economic slowdown and 30% to job insecurity", "unit": "reported survey shares", "value_type": "reported_share"},
+        "geopolitical_concern": {"value": "concern about geopolitical conflict rose from 12% to 14%, while global conflict and war moved from the fifth to the second-ranked concern", "unit": "reported comparison", "value_type": "reported_change"}
+      },
+      "method": "NIQ Consumer Outlook survey comparisons across recent waves, interpreted alongside NIQ global consumer and market evidence.",
+      "uncertainty": "The publication combines survey sentiment and market measures from different periods and geographies; reported financial position is not the same as measured income, wealth or consumption capacity.",
+      "subgroup": "Consumers reporting financial improvement or decline, households facing cost, job or geopolitical pressure, and consumers across North America, Europe, India, China and other regional markets.",
+      "counterinterpretation": "Improved sentiment can coexist with materially constrained budgets, and geopolitical concern may be mediated by local prices, media exposure, political context or personal vulnerability.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2025/consumer-outlook-guide-to-2026/",
+      "retrieval_hash": "sha256:4550d5e9b2f76b1096b85c8896f9ba8a1949aede1b4d51d47961797df0b9a4bb",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; household spending intentions and income strategies",
+      "denominator": {"value": 1, "unit": "global consumer spending-intention frame", "value_type": "published_intention_frame"},
+      "measures": {
+        "income_insurance": {"value": "60% say they are actively seeking additional income streams beyond their primary job, including consumers classified as financially thriving", "unit": "reported survey share", "value_type": "reported_share"},
+        "essential_protection": {"value": "consumers plan to protect spending on utilities, education, health care and rent or mortgages while reducing or holding back on eating out, out-of-home entertainment, food delivery and some discretionary categories", "unit": "reported spending-intention pattern", "value_type": "reported_assessment"},
+        "autonomy": {"value": "NIQ describes consumers as seeking simplicity, control and fewer clearer choices while continuing to hedge against future instability", "unit": "reported consumer interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "NIQ Consumer Outlook survey questions on additional income, debt, inheritance and intended spending by category.",
+      "uncertainty": "Spending intentions are not realized transactions, and the source does not establish whether additional income comes from platform work, second jobs, asset sales, household transfers or other means.",
+      "subgroup": "Cautious consumers, financially thriving and rebound segments, households protecting core expenses, people reducing discretionary consumption and people seeking additional work or income.",
+      "counterinterpretation": "Maintaining essential spending may reflect price inflation rather than stable volume, while reduced discretionary spending can be substitution into lower-cost or at-home alternatives rather than simple withdrawal.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2025/consumer-outlook-guide-to-2026/",
+      "retrieval_hash": "sha256:4550d5e9b2f76b1096b85c8896f9ba8a1949aede1b4d51d47961797df0b9a4bb",
+      "status": "reported"
+    },
+    {
+      "period": "Latest 52 weeks ending June 15, 2025; global FMCG measurement across NIQ market coverage",
+      "denominator": {"value": 225, "unit": "consistent FMCG categories measured across 58 countries for the inflation comparison", "value_type": "market_measurement_frame"},
+      "measures": {
+        "price_level": {"value": "consumers spend about USD 106 today for what would have cost USD 100 in 2023; average FMCG price growth was 2.6% in 2025 versus 4.1% in 2024", "unit": "reported price comparison", "value_type": "reported_market_measure"},
+        "sales_and_volume": {"value": "global FMCG value sales grew 3.5% while volume grew 0.9% from 2024 to 2025", "unit": "reported market growth rates", "value_type": "reported_growth"},
+        "category_divergence": {"value": "health and beauty and perishable food led volume growth, while health care, confectionery and snacks and non-alcoholic beverages saw higher price inflation", "unit": "reported category pattern", "value_type": "reported_assessment"}
+      },
+      "method": "NIQ Global Strategic Planner and retail measurement evidence using equivalent-volume price and volume measures across market and category coverage.",
+      "uncertainty": "Market value growth can reflect price rather than quantity, and country, category, channel and exchange-rate coverage differ; these measures do not directly identify household welfare or affordability.",
+      "subgroup": "FMCG households, consumers facing food and health-care price pressure, retailers, manufacturers, private-label and national-brand suppliers across regions.",
+      "counterinterpretation": "Slower inflation is not falling prices, and category growth can coexist with deprivation if households trade down, reduce quantities, delay purchases or shift spending between channels.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2025/consumer-outlook-guide-to-2026/",
+      "retrieval_hash": "sha256:4550d5e9b2f76b1096b85c8896f9ba8a1949aede1b4d51d47961797df0b9a4bb",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; trust, localization and omnichannel commerce",
+      "denominator": {"value": 1, "unit": "global brand-trust and commerce comparison frame", "value_type": "published_commerce_frame"},
+      "measures": {
+        "brand_trust": {"value": "95% say trusting the brand they buy from is very or somewhat important; product quality and consistency and customer-service responsiveness outrank many symbolic value claims in the report's trust hierarchy", "unit": "reported survey share and ranking", "value_type": "reported_share_and_assessment"},
+        "cultural_fluency": {"value": "NIQ reports that consumers in West Africa, Southeast Asia and the Middle East seek local language, design and product nuance rather than a single globally uniform proposition", "unit": "reported market interpretation", "value_type": "reported_interpretation"},
+        "channel_shift": {"value": "discovery and conversion increasingly occur across social media, search, messaging apps, retail media and stores; in the US, about 77% of FMCG sales still occur in-store even as online occasions grow", "unit": "reported commerce pattern", "value_type": "reported_market_measure"}
+      },
+      "method": "NIQ Consumer Outlook survey, retail measurement services and Expanded Omnishopper evidence on trust, localization, social commerce and channel performance.",
+      "uncertainty": "The source is designed for consumer and market strategy; trust rankings and channel measures are context-specific and do not establish that localization or omnichannel presence causes loyalty or welfare gains.",
+      "subgroup": "Consumers with different local identities and languages, online and in-store shoppers, social-commerce users, retailers, brands and households with different payment and delivery access.",
+      "counterinterpretation": "Digital discovery does not make commerce digital-only; offline stores remain critical, and the convenience of a seamless journey may increase surveillance, platform dependence or pressure on consumer autonomy.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2025/consumer-outlook-guide-to-2026/",
+      "retrieval_hash": "sha256:4550d5e9b2f76b1096b85c8896f9ba8a1949aede1b4d51d47961797df0b9a4bb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nielseniq.com/global/en/insights/", "claim": "NIQ Insights publication hub providing the Consumer Outlook context and related consumer, retail and market measurement resources."},
+    {"source_url": "https://nielseniq.com/global/en/insights/report/2025/consumer-outlook-guide-to-2026/", "claim": "Official NIQ publication page with survey, retail measurement, category inflation, spending intentions, trust and omnichannel findings."}
+  ],
+  "boundary": "This record adds a global consumer-economy layer linking household caution to essential spending, secondary income seeking, inflation, geopolitical concern, category demand, brand trust, cultural localization and omnichannel commerce. It synthesizes NIQ surveys and market measurements, not respondent-level ingestion, a complete household expenditure panel, causal welfare evidence or proof that reported intentions become realized purchases.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official NIQ Consumer Outlook publication page was reviewed for financial-position shares, cost and geopolitical drivers, additional income seeking, essential spending intentions, FMCG price and volume measures, category patterns, brand trust, localization and in-store/online channel findings.",
+    "source_url_sha256": "sha256:4550d5e9b2f76b1096b85c8896f9ba8a1949aede1b4d51d47961797df0b9a4bb",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-national-mood-250th-2026-future-expectations-polarization",
+  "title": "National dissatisfaction coexists with modestly improved long-horizon expectations and persistent partisan polarization",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center report On the Country's 250th Anniversary, the American People Are in a Sour Mood, using American Trends Panel and historical survey data",
+  "geography": "United States; adults nationally, with party and age comparisons",
+  "observations": [
+    {
+      "period": "January 2026 and December 2025; national mood",
+      "denominator": {"value": 3592, "unit": "U.S. adults in the April 6-12, 2026 American Trends Panel survey; historical mood measures use their stated survey waves", "value_type": "survey_sample"},
+      "measures": {
+        "satisfied_with_country_direction": {"value": 29, "unit": "percent satisfied in January 2026; 69% dissatisfied", "value_type": "reported_share"},
+        "best_years_ahead": {"value": 40, "unit": "percent saying the country's best years are ahead; 59% say behind", "value_type": "reported_share"},
+        "year_ahead_better": {"value": 50, "unit": "percent saying 2026 would be better than 2025; 48% worse", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center analysis combining an April 6-12, 2026 survey of 3,592 U.S. adults with prior survey waves; the satisfaction and best-years measures come from separate January and December 2025/January 2026 questions.",
+      "uncertainty": "The measures are cross-sectional mood reports from different field periods and do not identify which economic, political, cultural, or personal conditions produced the views; they are not behavioral measures of civic participation or institutional performance.",
+      "subgroup": "U.S. adults nationally, with additional party, age, and historical comparisons in the report.",
+      "counterinterpretation": "A sour present mood can coexist with hope, happiness, personal security, or confidence in particular institutions; dissatisfaction with national direction is not equivalent to generalized despair or imminent political action.",
+      "source_url": "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-the-american-people-are-in-a-sour-mood/",
+      "retrieval_hash": "sha256:d94ae5b64f3a722d7df6a08ff4349aa3927441ebc6d22516daad692eebfeb6f2",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026; expectations for 2050",
+      "denominator": {"value": 3592, "unit": "U.S. adults surveyed April 6-12, 2026", "value_type": "survey_sample"},
+      "measures": {
+        "economy_stronger": {"value": 43, "unit": "percent expecting a stronger economy by 2050; 55% expect weaker", "value_type": "reported_share"},
+        "government_works_better": {"value": 45, "unit": "percent expecting the system of government to work better; 54% worse", "value_type": "reported_share"},
+        "safer_country": {"value": 41, "unit": "percent expecting the U.S. to be safer; 56% more dangerous", "value_type": "reported_share"},
+        "less_political_division": {"value": 33, "unit": "percent expecting less political division; 66% more division", "value_type": "reported_share"},
+        "more_important_world": {"value": 40, "unit": "percent expecting the U.S. to be more important in the world; 58% less important", "value_type": "reported_share"}
+      },
+      "method": "Pew American Trends Panel survey with standardized future-expectation questions; the report compares selected measures with prior 2023 and earlier waves.",
+      "uncertainty": "Expectations are perceptions rather than forecasts and may reflect current political identity, news environments, age, or question framing; they do not predict actual economic, security, governmental, or geopolitical outcomes.",
+      "subgroup": "U.S. adults, with party and age comparisons reported by Pew.",
+      "counterinterpretation": "Pessimistic aggregate expectations can coexist with improving expectations relative to 2023: Pew reports 13-point growth in the share expecting greater U.S. global importance, 12-point growth expecting less division, and 11-point growth expecting a stronger economy.",
+      "source_url": "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-the-american-people-are-in-a-sour-mood/",
+      "retrieval_hash": "sha256:d94ae5b64f3a722d7df6a08ff4349aa3927441ebc6d22516daad692eebfeb6f2",
+      "status": "reported"
+    },
+    {
+      "period": "January 1991-January 2026; partisan national mood",
+      "denominator": {"value": 1, "unit": "U.S. adults by party identification or leaning across historical Pew survey waves", "value_type": "survey_population"},
+      "measures": {
+        "republican_satisfaction_january_2026": {"value": 54, "unit": "percent of Republicans and Republican leaners satisfied with country direction", "value_type": "reported_share"},
+        "democratic_satisfaction_january_2026": {"value": 8, "unit": "percent of Democrats and Democratic leaners satisfied", "value_type": "reported_share"},
+        "republican_satisfaction_january_2022": {"value": 10, "unit": "percent of Republicans and Republican leaners satisfied in January 2022", "value_type": "reported_share"},
+        "democratic_satisfaction_january_2022": {"value": 29, "unit": "percent of Democrats and Democratic leaners satisfied in January 2022", "value_type": "reported_share"}
+      },
+      "method": "Pew historical survey series, mainly telephone through 2018 and mainly American Trends Panel online surveys from 2019 onward; the report interprets satisfaction as tracking which party controls the White House.",
+      "uncertainty": "The association between presidential party and satisfaction does not establish that party control caused individual attitudes; survey modes, political context, question timing, and partisan composition change across waves.",
+      "subgroup": "Republicans and Republican-leaning independents compared with Democrats and Democratic-leaning independents.",
+      "counterinterpretation": "Partisan mood alignment can reflect selective interpretation of national conditions, identity, information exposure, or retrospective approval rather than a shared evaluation of material conditions.",
+      "source_url": "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-the-american-people-are-in-a-sour-mood/",
+      "retrieval_hash": "sha256:d94ae5b64f3a722d7df6a08ff4349aa3927441ebc6d22516daad692eebfeb6f2",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026; age differences in expectations for 2050",
+      "denominator": {"value": 1, "unit": "U.S. adults by age group", "value_type": "survey_population"},
+      "measures": {
+        "optimistic_18_29": {"value": 42, "unit": "percent of adults ages 18-29 very or somewhat optimistic about 2050", "value_type": "reported_share"},
+        "optimistic_65_plus": {"value": 55, "unit": "percent of adults age 65 and older very or somewhat optimistic", "value_type": "reported_share"},
+        "less_division_18_29": {"value": 24, "unit": "percent of adults ages 18-29 expecting less political division by 2050", "value_type": "reported_share"},
+        "less_division_65_plus": {"value": 41, "unit": "percent of adults age 65 and older expecting less political division", "value_type": "reported_share"}
+      },
+      "method": "Pew subgroup comparison from the April 6-12, 2026 American Trends Panel survey.",
+      "uncertainty": "Age differences are descriptive associations; they do not distinguish life-cycle effects from cohort experience, economic position, education, media use, or changing political context.",
+      "subgroup": "Adults ages 18-29, 30-49, 50-64, and 65 and older.",
+      "counterinterpretation": "Younger adults are less optimistic on several national-system questions but are not uniformly less hopeful or happy about the future; age patterns vary by question and emotional register.",
+      "source_url": "https://www.pewresearch.org/2026/06/12/on-the-countrys-250th-anniversary-the-american-people-are-in-a-sour-mood/",
+      "retrieval_hash": "sha256:d94ae5b64f3a722d7df6a08ff4349aa3927441ebc6d22516daad692eebfeb6f2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/pr_26.06.12_national-mood_topline.pdf", "claim": "Official Pew topline and methodology for the April 6-12, 2026 survey.", "status": "official-methodology"}
+  ],
+  "boundary": "This record adds a national-mood and future-imagination layer: Americans report sustained dissatisfaction and concern about division and national decline, while long-horizon expectations have improved from 2023 on selected measures and remain strongly aligned with party and age. It does not establish causal drivers, actual future outcomes, political mobilization, institutional performance, or individual material trajectories."
+}

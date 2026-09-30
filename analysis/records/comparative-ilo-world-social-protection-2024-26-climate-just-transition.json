@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-world-social-protection-2024-26-climate-just-transition",
+  "title": "Social protection expands globally while climate-vulnerable populations remain least protected and just-transition capacity stays uneven",
+  "theme_ids": ["cost", "energy", "work", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "household_room_consumption"
+  ],
+  "source_unit": "International Labour Organization, World Social Protection Report 2024-26: Universal social protection for climate action and a just transition",
+  "geography": "Global and regional social-protection coverage, expenditure, climate vulnerability, life-course benefits, and just-transition policy indicators",
+  "observations": [
+    {
+      "period": "2015-2023; effective social-protection coverage",
+      "denominator": {"value": 1, "unit": "global population assessed for effective coverage by at least one social-protection benefit", "value_type": "global_coverage_frame"},
+      "measures": {
+        "covered_2023": {"value": 52.4, "unit": "percent of the global population covered by at least one social-protection benefit", "value_type": "reported_share"},
+        "covered_2015": {"value": 42.8, "unit": "percent of the global population covered in 2015", "value_type": "reported_share"},
+        "unprotected": {"value": 3.8, "unit": "billion people with no social-protection coverage", "value_type": "reported_count"}
+      },
+      "method": "ILO compilation of national administrative data, surveys, modeled estimates, and the World Social Protection Database for SDG indicator 1.3.1.",
+      "uncertainty": "Coverage estimates use different national systems, definitions, data years, and methodological enhancements; having a benefit does not establish adequacy, take-up, continuity, or protection from a specific shock.",
+      "subgroup": "People outside formal systems, low-income populations, informal workers, children, older people, people with disabilities, migrants, and households exposed to climate shocks.",
+      "counterinterpretation": "The increase since 2015 is substantial institutional progress even though effective coverage remains incomplete and uneven across countries and population groups.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate",
+      "retrieval_hash": "sha256:ac4b2a26cc3bfe0d114b391e03f0b31cbb9d6b038c0c133901471c90aec23ca1",
+      "status": "reported"
+    },
+    {
+      "period": "2023; climate-vulnerability gradient in social protection",
+      "denominator": {"value": 20, "unit": "countries identified as most vulnerable to the climate crisis", "value_type": "climate_vulnerability_frame"},
+      "measures": {
+        "unprotected_most_vulnerable": {"value": 91.3, "unit": "percent of people without any social-protection coverage in the 20 most climate-vulnerable countries", "value_type": "reported_share"},
+        "unprotected_count": {"value": 364, "unit": "million people without coverage in those 20 countries", "value_type": "reported_count"},
+        "unprotected_50_countries": {"value": 75, "unit": "percent of people without coverage across the 50 most climate-vulnerable countries", "value_type": "reported_share"}
+      },
+      "method": "ILO comparison of effective social-protection coverage with climate-vulnerability classifications and country population estimates.",
+      "uncertainty": "The relationship is a cross-country distributional pattern, not a causal estimate; vulnerability rankings, coverage years, and country conditions can change.",
+      "subgroup": "People in climate-vulnerable countries, climate-exposed workers and households, rural and informal populations, and communities with limited fiscal capacity.",
+      "counterinterpretation": "Some countries can improve preparedness through targeted, shock-responsive, or regionally supported systems even when baseline coverage is low.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate",
+      "retrieval_hash": "sha256:ac4b2a26cc3bfe0d114b391e03f0b31cbb9d6b038c0c133901471c90aec23ca1",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; life-course and gender coverage gaps",
+      "denominator": {"value": 1, "unit": "global population and children assessed for effective social-protection coverage", "value_type": "life_course_coverage_frame"},
+      "measures": {
+        "children_uncovered": {"value": 76.1, "unit": "percent of children without effective social-protection coverage", "value_type": "reported_share"},
+        "women_covered": {"value": 50.1, "unit": "percent of women with effective social-protection coverage", "value_type": "reported_share"},
+        "men_covered": {"value": 54.6, "unit": "percent of men with effective social-protection coverage", "value_type": "reported_share"},
+        "child_benefit_coverage": {"value": 23.9, "unit": "percent of children aged 0-18 covered by child cash benefits", "value_type": "reported_share"}
+      },
+      "method": "ILO life-course compilation of effective coverage by sex, age, and benefit type from national and modeled social-protection data.",
+      "uncertainty": "Sex, age, and benefit measures are not interchangeable and may reflect legal eligibility, effective access, and differing country data quality; coverage does not measure benefit adequacy or safety.",
+      "subgroup": "Children, women, caregivers, people with disabilities, and households relying on child, family, maternity, health, or income-security benefits.",
+      "counterinterpretation": "Aggregate coverage can conceal meaningful gains in particular programs or countries, and social protection is only one component of care, health, and income security.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate",
+      "retrieval_hash": "sha256:ac4b2a26cc3bfe0d114b391e03f0b31cbb9d6b038c0c133901471c90aec23ca1",
+      "status": "reported"
+    },
+    {
+      "period": "2023; public expenditure and just-transition capacity",
+      "denominator": {"value": 1, "unit": "countries reporting average public expenditure as a share of GDP", "value_type": "fiscal_capacity_frame"},
+      "measures": {
+        "social_protection_excluding_health": {"value": 12.9, "unit": "percent of GDP allocated on average to social protection excluding healthcare", "value_type": "reported_share"},
+        "healthcare": {"value": 6.5, "unit": "percent of GDP allocated on average to healthcare", "value_type": "reported_share"},
+        "combined": {"value": 19.3, "unit": "percent of GDP for social protection and healthcare combined", "value_type": "reported_share"},
+        "policy_role": {"value": "social protection can cushion mitigation costs, support adaptation, and enable transitions into greener work when paired with labour-market and climate policy", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO compilation of public social-protection and healthcare expenditure with report-level analysis of climate adaptation, mitigation, and just-transition functions.",
+      "uncertainty": "Global averages hide large income-group and country differences; expenditure levels do not establish delivery quality, distribution, or the effectiveness of a particular climate policy.",
+      "subgroup": "Low-income countries, workers and enterprises facing transition costs, households exposed to climate shocks, and public agencies financing social-protection floors.",
+      "counterinterpretation": "Higher expenditure is not automatically more protective; targeting, adequacy, fiscal sustainability, institutional capacity, and worker voice also shape outcomes.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate",
+      "retrieval_hash": "sha256:ac4b2a26cc3bfe0d114b391e03f0b31cbb9d6b038c0c133901471c90aec23ca1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/article/world-social-protection-report-2024-26-figures", "claim": "ILO figures page provides the report's headline coverage and expenditure indicators."},
+    {"source_url": "https://www.ilo.org/topics-and-sectors/social-protection", "claim": "ILO social-protection topic page provides complementary financing and policy context."}
+  ],
+  "boundary": "This record adds a global public-system route linking social-protection coverage, climate vulnerability, life-course and gender gaps, fiscal capacity, and just-transition policy. It uses publication-level aggregate indicators, not respondent-level histories, individual benefit records, household panels, or causal estimates of climate or welfare-policy effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page and accompanying figures page were reviewed for coverage, climate vulnerability, life-course and gender gaps, expenditure, and just-transition claims.",
+    "source_url_sha256": "sha256:ac4b2a26cc3bfe0d114b391e03f0b31cbb9d6b038c0c133901471c90aec23ca1",
+    "checked": "2026-09-26"
+  }
+}

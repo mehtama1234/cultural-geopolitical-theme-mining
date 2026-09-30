@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-nicotine-pouches-marketing-youth-regulatory-gaps-2026",
+  "title": "A new nicotine category is being normalized through youth-oriented culture and digital marketing faster than regulation can respond",
+  "theme_ids": ["voice", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Health Organization, Exposing marketing tactics and strategies driving the global growth of nicotine pouches, 2026",
+  "geography": "Global nicotine-pouch market, tobacco-industry marketing, youth exposure, and national regulatory systems",
+  "observations": [
+    {
+      "period": "2026; nicotine-pouch market expansion and regulatory lag",
+      "denominator": {"value": 1, "unit": "WHO global report on nicotine-pouch marketing and regulation", "value_type": "published_global_report"},
+      "measures": {
+        "market_scale": {"value": "WHO reports retail sales of nicotine pouches above 23 billion units in 2024, increasing by more than 50% from the prior year, and a global market value near US$7 billion in 2025", "unit": "reported global market indicators", "value_type": "reported_market_finding"},
+        "regulatory_gap": {"value": "around 160 countries have no specific regulation, 16 ban sale, and 32 regulate nicotine pouches in some form", "unit": "countries by reported regulatory status", "value_type": "reported_regulatory_finding"},
+        "lag_signal": {"value": "product growth and marketing are moving faster than comprehensive safeguards for flavors, age, advertising, nicotine strength, packaging, and retail", "unit": "analytic market-governance mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the report documents marketing, market, product, and regulatory patterns; it does not estimate individual use prevalence or causal health effects of each product", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "WHO global report prepared with Stanford experts, combining review of market developments, product characteristics, advertising materials, marketing channels, and regulatory approaches.",
+      "uncertainty": "Market estimates and regulatory classifications can change rapidly as products, company ownership, and national rules evolve.",
+      "subgroup": "Adolescents, young adults, children, people who smoke, dual users, non-users exposed to marketing, families, retailers, and public-health systems.",
+      "counterinterpretation": "Some nicotine-pouch use may substitute for combustible tobacco for some adults, but the report does not establish the size or durability of that substitution.",
+      "source_url": "https://www.who.int/publications/i/item/9789240114920",
+      "retrieval_hash": "sha256:f0fef0895aa6ec4494e3b08f0713ef6f7bd64e5468368405700622a41b37baca",
+      "status": "reported"
+    },
+    {
+      "period": "2026; product design, flavor, packaging, and social meaning",
+      "denominator": {"value": 1, "unit": "WHO analysis of nicotine-pouch product and advertising strategies", "value_type": "published_marketing_analysis"},
+      "measures": {
+        "appeal": {"value": "sleek and discreet packaging, flavors such as bubble gum and gummy bears, and multiple strength tiers are identified as product features that can lower perceived risk or increase appeal", "unit": "reported product-marketing tactics", "value_type": "reported_marketing_finding"},
+        "meaning": {"value": "advertising associates nicotine pouches with good times, glamorous lifestyles, romance, pleasure, popular music, motor sports, and social belonging", "unit": "reported advertising themes", "value_type": "reported_cultural_finding"},
+        "normalization": {"value": "discreet use in schools and smoke-free settings and packaging that can resemble sweets are described as routes to normalization and youth exposure", "unit": "reported exposure route", "value_type": "reported_mechanism"},
+        "analytic_signal": {"value": "consumer demand is being shaped through a combined product-and-identity system, not only through nicotine availability or price", "unit": "analytic consumer-culture mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "WHO review of product design, flavoring, package labeling, advertising themes and slogans, sponsorship, and retail presentation.",
+      "uncertainty": "Documented marketing tactics show intended or available appeal but do not prove that any single tactic caused initiation or dependence.",
+      "subgroup": "Children, adolescents, young adults, people in school or smoke-free settings, sports and music audiences, and people targeted by lifestyle marketing.",
+      "counterinterpretation": "Adults may interpret discreetness and flavor as convenience or a lower-risk alternative, while the same design can create different effects across age and prior nicotine use.",
+      "source_url": "https://www.who.int/publications/i/item/9789240114920",
+      "retrieval_hash": "sha256:f0fef0895aa6ec4494e3b08f0713ef6f7bd64e5468368405700622a41b37baca",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform, influencer, sponsorship, and cross-border promotion",
+      "denominator": {"value": 1, "unit": "WHO analysis of nicotine-pouch promotion channels", "value_type": "published_marketing_analysis"},
+      "measures": {
+        "digital": {"value": "the report identifies heavy promotion on social media and other youth-targeted platforms, including influencer marketing", "unit": "reported promotion channel", "value_type": "reported_platform_finding"},
+        "events": {"value": "sponsorship of concerts, festivals, sports, and Formula 1, alongside free or discounted samples and branded merchandise, extends promotion into cultural and social occasions", "unit": "reported promotion channel set", "value_type": "reported_marketing_finding"},
+        "cross_border": {"value": "social media crosses national boundaries and can circumvent advertising restrictions and bans", "unit": "reported regulatory-transmission route", "value_type": "reported_mechanism"},
+        "analytic_signal": {"value": "platform and event ecosystems can convert a regulated product category into ambient cultural visibility that is harder for national regulators to contain", "unit": "analytic platform-market mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "WHO analysis of advertising channels, influencer marketing, sponsorships, events, samples, branded merchandise, and digital-platform promotion.",
+      "uncertainty": "The report identifies channels and tactics but does not provide a universal exposure denominator or causal estimate of platform-driven uptake.",
+      "subgroup": "Youth social-media users, sports and music audiences, influencers, platform users, event attendees, national regulators, and cross-border publics.",
+      "counterinterpretation": "Advertising restrictions, platform enforcement, age verification, and local public-health campaigns may reduce exposure unevenly, and digital visibility does not equal purchase or use.",
+      "source_url": "https://www.who.int/publications/i/item/9789240114920",
+      "retrieval_hash": "sha256:f0fef0895aa6ec4494e3b08f0713ef6f7bd64e5468368405700622a41b37baca",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy response, addiction risk, and consumer protection",
+      "denominator": {"value": 1, "unit": "WHO recommended comprehensive regulatory response", "value_type": "published_policy_guidance"},
+      "measures": {
+        "risk": {"value": "WHO identifies nicotine as highly addictive and emphasizes risks for children, adolescents, and young adults, including effects on developing brains and cardiovascular risk", "unit": "reported public-health risk frame", "value_type": "reported_health_finding"},
+        "safeguards": {"value": "recommended measures include flavor and advertising restrictions, age verification, plain packaging, health warnings, nicotine caps, taxation, surveillance, and enforcement", "unit": "reported policy measure set", "value_type": "reported_policy_route"},
+        "consumer_power": {"value": "effective protection depends on closing gaps across product design, labeling, marketing, retail, platform, taxation, and enforcement systems rather than relying on consumer knowledge alone", "unit": "analytic consumer-protection mechanism", "value_type": "analytic_mechanism"},
+        "open_test": {"value": "join product availability, price and tax, marketing exposure, age and identity targeting, initiation or substitution, dependence, cessation, health outcomes, complaints, and regulatory enforcement", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "WHO policy guidance based on its marketing and product analysis and the regulatory implications of emerging nicotine products.",
+      "uncertainty": "Recommended safeguards are not evidence that governments have adopted or enforced them, and their relative effects are not estimated in this report.",
+      "subgroup": "Youth, adult nicotine users, non-users, families, schools, retailers, public-health agencies, platforms, and regulators.",
+      "counterinterpretation": "Harm-reduction policy may require differentiated rules for adult smokers and youth protection; the report's global recommendations do not resolve every country-specific tradeoff.",
+      "source_url": "https://www.who.int/publications/i/item/9789240114920",
+      "retrieval_hash": "sha256:f0fef0895aa6ec4494e3b08f0713ef6f7bd64e5468368405700622a41b37baca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/news/item/15-05-2026-who-warns-nicotine-pouch-brands-targeting-youth-as-sales-surge", "claim": "WHO's news release provides the market size, unit sales, regulatory-status counts, youth-targeting examples, and policy recommendations summarized in this record."},
+    {"source_url": "https://www.paho.org/en/documents/exposing-marketing-tactics-and-strategies-driving-global-growth-nicotine-pouches", "claim": "PAHO/WHO provides the regional publication landing page and summary of social-media, influencer, flavor, event, and regulatory tactics."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240116276", "claim": "WHO's related nicotine-product regulation report supplies complementary tobacco-control and product-regulation context."}
+  ],
+  "boundary": "This record adds a consumer-culture and public-health route from nicotine-pouch product design, marketing, platforms, and events through youth exposure, normalization, market growth, regulation, and consumer protection. It is a WHO marketing and policy report, not respondent-level use data, a causal estimate of advertising effects, proof of product-specific health outcomes, or a judgment that every adult substitution effect is identical.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO publication page and associated WHO news release were reviewed for market expansion, regulatory gaps, product and flavor design, advertising themes, social and event channels, youth exposure, addiction risk, and recommended safeguards.",
+    "source_url_sha256": "sha256:f0fef0895aa6ec4494e3b08f0713ef6f7bd64e5468368405700622a41b37baca",
+    "checked": "2026-09-26"
+  }
+}

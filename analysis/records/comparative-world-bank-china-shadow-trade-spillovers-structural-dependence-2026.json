@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-china-shadow-trade-spillovers-structural-dependence-2026",
+  "title": "China’s trade rise creates asymmetric gains and competitive pressure while deepening structural dependence for developing economies",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11467, Growing in China’s shadow",
+  "geography": "Developing economies observed annually from 1995-2019, with extended descriptive and robustness evidence through 2023, using pre-determined 1995 trade-structure exposure to China",
+  "observations": [
+    {
+      "period": "Developing economies; annual panel 1995-2019 and China per-capita GDP growth shocks",
+      "denominator": {"value": 2625, "unit": "country-year observations in the reported descriptive panel frame", "value_type": "reported_panel_observation_count"},
+      "measures": {
+        "average_spillover": {"value": "a one percentage-point increase in China’s per-capita GDP growth is associated with a 0.2 percentage-point increase in per-capita GDP growth in other developing economies", "unit": "percentage points", "value_type": "reported_shift_share_estimate"},
+        "complementarity": {"value": "countries whose exports match goods China imports benefit more from China’s growth", "unit": "reported trade-complementarity mechanism", "value_type": "reported_result"},
+        "competition": {"value": "countries whose exports resemble China’s export basket experience adverse growth effects from China’s expansion", "unit": "reported trade-competition mechanism", "value_type": "reported_result"},
+        "dual_exposure": {"value": "China’s rise operates simultaneously as demand enhancement for upstream suppliers and competitive pressure for overlapping manufacturers", "unit": "bounded geopolitical trade mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Shift-share/Bartik design interacting China’s time-varying growth with countries’ pre-determined 1995 export similarity to China’s import and export baskets, with country and year fixed effects and robustness controls.",
+      "uncertainty": "The design addresses some endogeneity concerns but remains observational; global shocks, commodity cycles, country institutions, and measurement of trade similarity limit causal certainty.",
+      "subgroup": "Commodity exporters, intermediate-goods suppliers, manufacturing exporters, workers in exposed sectors, firms competing with Chinese goods, and households affected by growth and price changes.",
+      "counterinterpretation": "A positive GDP association does not establish broad welfare gains, job quality, wages, household consumption, or equal distribution; manufacturing competition may coexist with cheaper consumer goods or productivity gains.",
+      "source_url": "https://documents.worldbank.org/curated/en/099800509282648148/pdf/IDU-f1c01573-fc45-4bd7-a903-c8275f05c8db.pdf",
+      "retrieval_hash": "sha256:cd5db1d2bfd0516cf70775e2b8b1c7ad45cac40f4e8081f873acf16807d645e1",
+      "status": "reported"
+    },
+    {
+      "period": "Country-specific exposure to China’s growth; commodity and basic-manufacturing exporters",
+      "denominator": {"value": 4, "unit": "illustrative country cases highlighted for heterogeneous spillovers", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "angola": {"value": "a one percentage-point increase in China’s GDP growth is associated with 0.40 percentage points higher GDP growth in Angola", "unit": "percentage points", "value_type": "reported_country_estimate"},
+        "brazil": {"value": "a one percentage-point increase in China’s GDP growth is associated with 0.45 percentage points higher GDP growth in Brazil", "unit": "percentage points", "value_type": "reported_country_estimate"},
+        "bangladesh_philippines": {"value": "the corresponding modeled growth increase is approximately 0.1 percentage points for Bangladesh and the Philippines", "unit": "percentage points", "value_type": "reported_country_estimate"},
+        "commodity_dependence": {"value": "commodity exporters receive the largest benefits, while basic manufactured-goods exporters receive more modest gains", "unit": "reported heterogeneous spillover pattern", "value_type": "reported_result"},
+        "development_route": {"value": "the same external growth shock creates different development opportunities depending on whether a country supplies China or competes with it", "unit": "bounded country-structure mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Heterogeneous shift-share estimates using export-import and export-export similarity indices, with examples for commodity and basic-manufactured exporters.",
+      "uncertainty": "Country examples are model-based associations and do not establish that China caused each country’s full growth path; domestic reforms, commodity prices, and other trading partners also matter.",
+      "subgroup": "Resource-producing regions, manufacturing clusters, commodity and intermediate-goods firms, formal and informal workers, and households exposed to boom-bust cycles.",
+      "counterinterpretation": "Commodity gains can produce fiscal and employment benefits while increasing volatility, concentration, environmental burden, and vulnerability to a later demand slowdown.",
+      "source_url": "https://documents.worldbank.org/curated/en/099800509282648148/pdf/IDU-f1c01573-fc45-4bd7-a903-c8275f05c8db.pdf",
+      "retrieval_hash": "sha256:cd5db1d2bfd0516cf70775e2b8b1c7ad45cac40f4e8081f873acf16807d645e1",
+      "status": "reported"
+    },
+    {
+      "period": "Developing economies; China slowdown and longer-term structural transformation",
+      "denominator": {"value": 2, "unit": "long-run risk channels emphasized by the paper: slowing China growth and structural dependence", "value_type": "reported_risk_frame"},
+      "measures": {
+        "slowdown_effect": {"value": "a one percentage-point decline in China’s growth could lower growth in other developing economies by approximately 0.14-0.21 percentage points", "unit": "percentage points", "value_type": "reported_sensitivity_estimate"},
+        "spillover_weakening": {"value": "China’s boom contributed approximately 0.4-0.5 percentage points to annual developing-economy growth during 1995-2007, with the contribution shrinking during 2008-2019", "unit": "percentage points", "value_type": "reported_historical_estimate"},
+        "export_dependence": {"value": "exports to China expanded to more than 600 billion dollars in constant 2010 prices at their 2020 peak, driven largely by intermediate goods", "unit": "constant 2010 US dollars", "value_type": "reported_trade_value"},
+        "complexity": {"value": "other developing economies’ export complexity remained flat or declined while China’s rose, consistent with possible specialization toward raw and intermediate goods", "unit": "reported structural pattern", "value_type": "reported_descriptive_pattern"},
+        "reform_boundary": {"value": "greater export intensity to China is associated with slower progress on financial, product, labor-market, and institutional reforms, but the paper explicitly treats this as correlation rather than proof of China-caused reform delay", "unit": "reported correlation and evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Extended descriptive analysis of trade values, economic complexity, and reform indicators, alongside estimated growth sensitivity to China’s slowdown.",
+      "uncertainty": "Complexity is relative and can reflect other global forces; reform associations may reflect pre-existing resource dependence, institutional path dependence, or political economy rather than China’s trade itself.",
+      "subgroup": "Governments managing commodity and intermediate-goods dependence, domestic firms attempting upgrading, workers in exposed export sectors, and households affected by boom-bust growth.",
+      "counterinterpretation": "China-linked specialization can finance infrastructure, learning, and later upgrading; flat complexity does not prove capability destruction or failed reform, and diversification may be costly or infeasible in the short run.",
+      "source_url": "https://documents.worldbank.org/curated/en/099800509282648148/pdf/IDU-f1c01573-fc45-4bd7-a903-c8275f05c8db.pdf",
+      "retrieval_hash": "sha256:cd5db1d2bfd0516cf70775e2b8b1c7ad45cac40f4e8081f873acf16807d645e1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099800509282648148", "claim": "Official World Bank record, WPS number, authors, date, abstract, geography, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099800509282648148", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a China-centered geopolitical trade-spillover and structural-dependence mechanism. It is shift-share and panel evidence about GDP growth and trade exposure, not direct evidence about household welfare, consumer prices, employment quality, political legitimacy, or causal reform failure. The structural-transformation and reform pathways are explicitly presented as suggestive or correlational and require country, firm, worker, and household follow-through.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, abstract, 1995-2019 panel, 1995 exposure indices, dual complementarity/competition channels, country examples, slowdown sensitivity, trade-value peak, complexity pattern, reform association, and causal boundaries were reviewed.",
+    "source_url_sha256": "sha256:cd5db1d2bfd0516cf70775e2b8b1c7ad45cac40f4e8081f873acf16807d645e1",
+    "checked": "2026-09-29"
+  }
+}

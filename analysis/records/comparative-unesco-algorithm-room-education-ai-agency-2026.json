@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-algorithm-room-education-ai-agency-2026",
+  "title": "Education institutions are being pushed to renegotiate agency, meaning, expression, and public accountability as algorithmic systems become ordinary infrastructure",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UNESCO, The algorithm in the room: Seeing and confronting the implications of AI for the future of education, September 2026",
+  "geography": "Global education systems, higher education, teachers, learners, communities, and public governance of AI",
+  "observations": [
+    {
+      "period": "September 2026; publication scope and education-system exposure",
+      "denominator": {"value": 26, "unit": "think pieces compiled in the UNESCO publication", "value_type": "published_collection_size"},
+      "measures": {
+        "algorithmic_exposure": {"value": "algorithmic systems, content, and infrastructures now affect education systems across the world", "unit": "reported global framing", "value_type": "reported_pattern"},
+        "publication_mode": {"value": "a collection of 26 think pieces rather than a single survey or causal evaluation", "unit": "publication design", "value_type": "reported_method"},
+        "institutional_question": {"value": "education systems must decide what should remain human, public, relational, and accountable when AI becomes embedded in learning", "unit": "reported synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "UNESCO editorial collection of 26 think pieces on AI, algorithms, education, pedagogy, public purpose, and future-making.",
+      "uncertainty": "The collection is conceptual and policy-oriented, not a representative survey, implementation evaluation, learning-outcome study, or forecast of AI adoption.",
+      "subgroup": "Students, teachers, education leaders, researchers, families, communities, technology providers, and public authorities.",
+      "counterinterpretation": "Algorithmic tools can expand access, support teachers, personalize practice, and reduce administrative burdens when goals, safeguards, and human responsibility remain visible.",
+      "source_url": "https://www.unesco.org/en/articles/algorithm-room-seeing-and-confronting-implications-ai-future-education?hub=66916",
+      "retrieval_hash": "sha256:5cb4a1ed29c76fcaa0231ed647ea23f28844d671cfd9cec78bbccede00c15f01",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; agency, autonomy, and oversight question",
+      "denominator": {"value": 1, "unit": "UNESCO publication question set", "value_type": "qualitative_framework"},
+      "measures": {
+        "agency_question": {"value": "who will hold agency, autonomy, and oversight as algorithmic systems shape education", "unit": "publication question", "value_type": "reported_question"},
+        "accountability_route": {"value": "the relevant unit of analysis is not only whether a tool works, but who can contest, explain, alter, or refuse its use", "unit": "program interpretation", "value_type": "analytic_mechanism"},
+        "power_boundary": {"value": "automation can redistribute authority among teachers, learners, administrators, platforms, and public institutions", "unit": "reported institutional implication", "value_type": "reported_mechanism"}
+      },
+      "method": "UNESCO thematic framing of agency, autonomy, and oversight across the collected education essays.",
+      "uncertainty": "The publication raises governance questions but does not measure actual control, contestability, adoption, or institutional outcomes in specific systems.",
+      "subgroup": "Learners and teachers subject to AI-supported assessment or recommendation, education administrators, platform operators, and regulators.",
+      "counterinterpretation": "Clear delegation, human review, and transparent appeal paths can make algorithmic assistance compatible with professional and learner autonomy.",
+      "source_url": "https://www.unesco.org/en/articles/algorithm-room-seeing-and-confronting-implications-ai-future-education?hub=66916",
+      "retrieval_hash": "sha256:5cb4a1ed29c76fcaa0231ed647ea23f28844d671cfd9cec78bbccede00c15f01",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; learning, identity, and human development question",
+      "denominator": {"value": 1, "unit": "UNESCO publication question set", "value_type": "qualitative_framework"},
+      "measures": {
+        "development_question": {"value": "how young people will develop relationally, emotionally, and cognitively in an algorithmic education environment", "unit": "publication question", "value_type": "reported_question"},
+        "meaning_question": {"value": "what remains meaningful and relevant for pedagogy and assessment when content and feedback can be generated", "unit": "publication question", "value_type": "reported_question"},
+        "expression_question": {"value": "how people will think, question, and express themselves when algorithmic mediation shapes knowledge and communication", "unit": "publication question", "value_type": "reported_question"},
+        "social_route": {"value": "education is simultaneously a skills system and a setting where attention, identity, relationships, judgment, and cultural participation are formed", "unit": "cross-source interpretation", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNESCO collection organized around relational, emotional, cognitive, pedagogical, assessment, expression, and future-of-education questions.",
+      "uncertainty": "These are normative and exploratory questions, not measured effects of AI on development, wellbeing, creativity, or social connection.",
+      "subgroup": "Children and young people, educators, families, peers, cultural communities, and institutions shaping learning and expression.",
+      "counterinterpretation": "AI may free time for dialogue, experimentation, and deeper learning if institutions protect human interaction rather than simply increasing output expectations.",
+      "source_url": "https://www.unesco.org/en/articles/algorithm-room-seeing-and-confronting-implications-ai-future-education?hub=66916",
+      "retrieval_hash": "sha256:5cb4a1ed29c76fcaa0231ed647ea23f28844d671cfd9cec78bbccede00c15f01",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; education as a common good amid geopolitical distrust",
+      "denominator": {"value": 1, "unit": "UNESCO public-purpose and governance framing", "value_type": "qualitative_framework"},
+      "measures": {
+        "common_good_question": {"value": "how AI will be governed so education remains a common good serving public purposes and accountable to the public", "unit": "publication question", "value_type": "reported_question"},
+        "geopolitical_context": {"value": "universities and education systems face disagreement over social and political roles, geopolitical distrust, and backlash against diversity and inclusion policies", "unit": "reported context", "value_type": "reported_institutional_pattern"},
+        "shared_world_route": {"value": "the challenge is how people with different histories and imagined futures can continue to inhabit and build a world in common", "unit": "publication synthesis", "value_type": "reported_synthesis"},
+        "governance_test": {"value": "AI education policy should be tested against public accountability, pluralism, local community voice, and the ability to contest institutional priorities", "unit": "analytic test", "value_type": "research_queue"}
+      },
+      "method": "UNESCO public-purpose framing connecting algorithmic education to public accountability, common-good governance, disagreement, and plural futures.",
+      "uncertainty": "The collection does not establish how particular countries, universities, or communities will resolve these conflicts or whether stated principles change practice.",
+      "subgroup": "Universities, schools, students, administrators, communities, policymakers, researchers, and groups affected by education inclusion and governance disputes.",
+      "counterinterpretation": "Disagreement can strengthen education when institutions preserve open inquiry, procedural fairness, and channels for revision rather than treating consensus as a prerequisite for cooperation.",
+      "source_url": "https://www.unesco.org/en/articles/algorithm-room-seeing-and-confronting-implications-ai-future-education?hub=66916",
+      "retrieval_hash": "sha256:5cb4a1ed29c76fcaa0231ed647ea23f28844d671cfd9cec78bbccede00c15f01",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/articles/education-culture-multilateralism", "claim": "Complementary UNESCO education-and-multilateralism framing on classrooms, cooperation, disagreement, and common worlds."},
+    {"source_url": "https://www.oecd.org/en/publications/digital-education-outlook-2026_1deefd65-en.html", "claim": "OECD digital-education evidence provides complementary system, teacher-agency, and generative-AI context."}
+  ],
+  "boundary": "This record adds a cultural and institutional route from algorithmic education to agency, autonomy, meaning, expression, public accountability, and common-world formation. It is a qualitative UNESCO collection, not a representative survey, causal effect study, learning-outcome evaluation, or proof of any specific AI benefit or harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO publication page was reviewed for the 26-piece collection, global algorithmic exposure, six organizing questions, public-purpose framing, and geopolitical and inclusion context.",
+    "source_url_sha256": "sha256:5cb4a1ed29c76fcaa0231ed647ea23f28844d671cfd9cec78bbccede00c15f01",
+    "checked": "2026-09-26"
+  }
+}

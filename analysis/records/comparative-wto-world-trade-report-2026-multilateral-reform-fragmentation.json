@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wto-world-trade-report-2026-multilateral-reform-fragmentation",
+  "title": "The future of trade cooperation is being framed as a choice between renewed multilateral rules, geopolitical fragmentation, and a thinner network of bilateral deals",
+  "theme_ids": ["cost", "work", "voice", "energy", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Trade Organization, World Trade Report 2026: A Critical Juncture for the World Trading System, September 2026",
+  "geography": "Global merchandise and services trade, WTO members, least-developed countries, advanced economies, and alternative trade-governance scenarios",
+  "observations": [
+    {
+      "period": "2026; current role of multilateral trade rules",
+      "denominator": {"value": 100, "unit": "global merchandise trade percentage reference", "value_type": "reported_trade_base"},
+      "measures": {
+        "most_favoured_nation": {"value": 72, "unit": "percent of global merchandise trade still taking place under WTO most-favoured-nation terms", "value_type": "reported_trade_share"},
+        "system_history": {"value": "the WTO reports that rules-based cooperation supported trade expansion, crisis resilience, and narrower income gaps between developing and advanced economies", "unit": "reported historical synthesis", "value_type": "reported_synthesis"},
+        "governance_route": {"value": "trade rules remain an active institutional infrastructure rather than a settled background condition", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "WTO flagship report combining historical trade analysis, current institutional assessment, and scenario modelling.",
+      "uncertainty": "Historical associations between WTO cooperation, growth, resilience, and convergence do not identify a single causal contribution or guarantee future effects.",
+      "subgroup": "WTO members, exporters, importers, workers, consumers, developing economies, and institutions participating in trade-rule reform.",
+      "counterinterpretation": "Trade cooperation can produce uneven gains, adjustment costs, and distributional conflict even when aggregate trade and output expand.",
+      "source_url": "https://www.wto.org/english/news_e/news26_e/wtr_15sep26_483_e.htm",
+      "retrieval_hash": "sha256:b1828a52ead699a1df3cd68eb39dea57944340da544b35518c743c185168578b",
+      "status": "reported"
+    },
+    {
+      "period": "2050; strengthened multilateral framework scenario",
+      "denominator": {"value": 100, "unit": "baseline trajectory percentage reference", "value_type": "scenario_baseline"},
+      "measures": {
+        "global_gdp": {"value": 2.9, "unit": "percent projected increase in global GDP relative to baseline", "value_type": "reported_scenario_estimate"},
+        "global_exports": {"value": 17.9, "unit": "percent projected increase in global exports relative to baseline", "value_type": "reported_scenario_estimate"},
+        "ldc_gdp": {"value": 7.7, "unit": "percent projected GDP increase for least-developed countries under the strengthened-cooperation scenario", "value_type": "reported_scenario_estimate"},
+        "reform_route": {"value": "broader market opening, digital-trade and services disciplines, wider membership, and calibrated security rules are modelled as the cooperation package", "unit": "reported policy scenario", "value_type": "reported_policy_set"}
+      },
+      "method": "WTO scenario simulation comparing a strengthened multilateral framework with alternative trade-governance futures.",
+      "uncertainty": "Scenario estimates depend on model assumptions, baseline choices, implementation, political feasibility, and distribution across countries, sectors, firms, workers, and households.",
+      "subgroup": "Least-developed countries, developing exporters, services firms, digital businesses, workers, consumers, and governments negotiating trade rules.",
+      "counterinterpretation": "Aggregate gains may be concentrated and can coexist with sectoral disruption, environmental costs, or unequal bargaining power.",
+      "source_url": "https://www.wto.org/english/news_e/news26_e/wtr_15sep26_483_e.htm",
+      "retrieval_hash": "sha256:b1828a52ead699a1df3cd68eb39dea57944340da544b35518c743c185168578b",
+      "status": "reported"
+    },
+    {
+      "period": "2050; geopolitical fragmentation and free-trade-agreement scenarios",
+      "denominator": {"value": 100, "unit": "baseline trajectory percentage reference", "value_type": "scenario_baseline"},
+      "measures": {
+        "geo_fragmented_gdp": {"value": -5.1, "unit": "percent projected change in global GDP under geopolitical-bloc fragmentation", "value_type": "reported_scenario_estimate"},
+        "geo_fragmented_exports": {"value": -18.6, "unit": "percent projected change in global exports under geopolitical-bloc fragmentation", "value_type": "reported_scenario_estimate"},
+        "fta_world_gdp": {"value": -6.9, "unit": "percent projected change in global GDP when multilateral cooperation is replaced by a network of FTAs", "value_type": "reported_scenario_estimate"},
+        "fta_world_exports": {"value": -26.9, "unit": "percent projected change in global exports when multilateral cooperation is replaced by a network of FTAs", "value_type": "reported_scenario_estimate"},
+        "fragmentation_route": {"value": "geopolitical blocs and fragmented agreements can alter trade costs, market access, investment geography, and public bargaining space", "unit": "analytic cross-domain route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "WTO comparative scenario modelling of multilateral erosion, geopolitical blocs, and a fragmented FTA system.",
+      "uncertainty": "These are counterfactual global scenarios, not forecasts; they do not specify which countries, sectors, workers, or consumers bear the costs.",
+      "subgroup": "Trade-dependent economies, smaller exporters, firms in global value chains, workers, consumers, and governments facing geopolitical alignment choices.",
+      "counterinterpretation": "Regional or bilateral agreements can preserve market access and policy autonomy in some settings even if global efficiency is lower.",
+      "source_url": "https://www.wto.org/english/news_e/news26_e/wtr_15sep26_483_e.htm",
+      "retrieval_hash": "sha256:b1828a52ead699a1df3cd68eb39dea57944340da544b35518c743c185168578b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; pressures requiring adaptation of trade rules",
+      "denominator": {"value": 1, "unit": "WTO assessment of structural changes in the trading system", "value_type": "qualitative_institutional_frame"},
+      "measures": {
+        "structural_changes": {"value": "the report identifies shifts in economic power, expanded government intervention and industrial policy, digitalization and environmental transformation, and rising geopolitical tensions", "unit": "reported change set", "value_type": "reported_mechanism_set"},
+        "digital_services": {"value": "digital trade and services are identified as areas where new multilateral disciplines may be needed", "unit": "reported governance route", "value_type": "reported_policy_set"},
+        "institutional_test": {"value": "the open question is whether trade governance can adapt while preserving openness, predictability, fairness, and room for legitimate security and development policy", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "WTO institutional and historical analysis of trade-rule pressures and reform options.",
+      "uncertainty": "The report does not provide a blueprint, implementation timetable, or evidence that members will agree on the proposed balance of openness, security, and development.",
+      "subgroup": "Trade ministries, regulators, services and digital firms, industrial-policy agencies, developing-country negotiators, workers, and consumers.",
+      "counterinterpretation": "Rule adaptation may improve legitimacy and policy space, but new rules can also increase compliance costs or entrench powerful actors.",
+      "source_url": "https://www.wto.org/english/news_e/news26_e/wtr_15sep26_483_e.htm",
+      "retrieval_hash": "sha256:b1828a52ead699a1df3cd68eb39dea57944340da544b35518c743c185168578b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/publication/global-trade-update-september-2026-services-are-reshaping-global-trade", "claim": "UN Trade and Development services-trade work provides complementary digital-export, connectivity, and least-developed-country capacity context."},
+    {"source_url": "https://www.wto.org/english/res_e/booksp_e/wtr26_e/wtr26_e.pdf", "claim": "The WTO World Trade Report 2026 PDF is the underlying flagship publication for the public summary and scenarios."}
+  ],
+  "boundary": "This record adds a trade-governance route from multilateral rules through geopolitical fragmentation, digital and services trade, development distribution, and public bargaining space. It uses aggregate historical analysis and counterfactual scenarios, not firm-level causal estimates, household price effects, worker outcomes, or proof that reform produces inclusive gains.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WTO World Trade Report 2026 publication summary was reviewed for the 72 percent most-favoured-nation trade share, scenario estimates, least-developed-country implications, and structural pressures on the multilateral trading system.",
+    "source_url_sha256": "sha256:b1828a52ead699a1df3cd68eb39dea57944340da544b35518c743c185168578b",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-critical-risk-governance-2026-polycrisis-preparedness",
+  "title": "Critical-risk governance is shifting toward anticipatory, whole-of-society preparedness, but learning, accountability and international coordination lag",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "OECD, Tracking Progress in the Governance of Critical Risks",
+  "geography": "34 OECD countries adhering to the OECD Recommendation on the Governance of Critical Risks",
+  "observations": [
+    {
+      "period": "2017-2023 progress review; published 2026",
+      "denominator": {"value": 34, "unit": "OECD countries surveyed against the Recommendation's five principles", "value_type": "published_country_frame"},
+      "measures": {
+        "implementation": {"value": "most countries made progress across the five principles, but implementation remains uneven", "unit": "cross-country assessment", "value_type": "reported_assessment"},
+        "risk_scope": {"value": "national strategies increasingly address emerging climate risks, concurrent or multi-risk events, misinformation and disinformation impacts, and security of supply", "unit": "reported strategy pattern", "value_type": "reported_assessment"}
+      },
+      "method": "OECD survey and review of country implementation of the 2014 Recommendation, covering progress through 2023 and implementation context through 2024.",
+      "uncertainty": "The review measures governance arrangements and reported progress, not realized resilience, avoided losses or performance in a common crisis test.",
+      "subgroup": "National governments, subnational authorities, critical infrastructure operators, businesses, voluntary organizations and communities exposed to systemic risks.",
+      "counterinterpretation": "Formal strategies and institutions may coexist with weak operational capacity; broader risk language does not prove that governments can manage compound crises effectively.",
+      "source_url": "https://www.oecd.org/en/publications/tracking-progress-in-the-governance-of-critical-risks_66bcd7b0-en.html",
+      "retrieval_hash": "sha256:305ce12f951189ceb8e09af400b17f9c3cddf48812dd57803eb605a77f6d9fd3",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2024 implementation context; whole-of-government and whole-of-society coordination",
+      "denominator": {"value": 34, "unit": "OECD country governance systems reviewed", "value_type": "published_country_frame"},
+      "measures": {
+        "consultation": {"value": "all adherents have some consultative mechanisms, while whole-of-government coordination still needs improvement", "unit": "reported institutional pattern", "value_type": "reported_assessment"},
+        "partnerships": {"value": "COVID-19 highlighted the need for regulatory flexibility, clear emergency authority with time limits and oversight, and incentives for private and voluntary-sector participation", "unit": "reported governance lesson", "value_type": "reported_assessment"},
+        "social_cohesion": {"value": "social cohesion and broad participation are treated as conditions for legitimate and durable risk governance", "unit": "reported policy framework", "value_type": "reported_framework"}
+      },
+      "method": "Comparative governance review of country arrangements and lessons identified from recent crises.",
+      "uncertainty": "Consultation and partnership mechanisms vary in depth, representativeness and authority; their existence does not establish meaningful influence over decisions.",
+      "subgroup": "Public agencies, elected officials, firms, civil society, voluntary organizations and communities with different capacities to participate in emergency governance.",
+      "counterinterpretation": "A whole-of-society model can distribute responsibility and resources more effectively, but can also shift burdens onto communities or private actors without accountability or support.",
+      "source_url": "https://www.oecd.org/en/publications/tracking-progress-in-the-governance-of-critical-risks_66bcd7b0-en.html",
+      "retrieval_hash": "sha256:305ce12f951189ceb8e09af400b17f9c3cddf48812dd57803eb605a77f6d9fd3",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; anticipation, foresight and preparedness investment",
+      "denominator": {"value": 1, "unit": "OECD cross-country governance synthesis", "value_type": "published_framework"},
+      "measures": {
+        "assessment_gap": {"value": "risk assessments are common, but their connection to investment and preparedness decisions is uneven", "unit": "reported governance gap", "value_type": "reported_assessment"},
+        "foresight_gap": {"value": "foresight and horizon scanning remain underdeveloped and weakly connected to operational decision-making", "unit": "reported governance gap", "value_type": "reported_assessment"},
+        "international_gap": {"value": "international cooperation is recognized as essential but is among the least developed and exercised parts of risk-governance arrangements", "unit": "reported governance gap", "value_type": "reported_assessment"}
+      },
+      "method": "Synthesis of country survey responses and OECD assessment of risk identification, anticipation, prevention, preparedness and cross-border cooperation.",
+      "uncertainty": "The report identifies institutional gaps but does not quantify how much additional investment or cooperation would change crisis outcomes.",
+      "subgroup": "Risk analysts, finance and infrastructure planners, emergency managers, cross-border institutions and populations affected by cascading failures.",
+      "counterinterpretation": "Foresight is difficult to institutionalize because uncertainty, political time horizons and budget competition can make preventive benefits hard to demonstrate.",
+      "source_url": "https://www.oecd.org/en/publications/tracking-progress-in-the-governance-of-critical-risks_66bcd7b0-en.html",
+      "retrieval_hash": "sha256:305ce12f951189ceb8e09af400b17f9c3cddf48812dd57803eb605a77f6d9fd3",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; transparency, accountability and systemic learning",
+      "denominator": {"value": 1, "unit": "OECD cross-country governance synthesis", "value_type": "published_framework"},
+      "measures": {
+        "accountability": {"value": "transparency and accountability mechanisms remain scarce or weak in many systems", "unit": "reported governance gap", "value_type": "reported_assessment"},
+        "learning": {"value": "most countries lack institutionalized, systematic learning from crises", "unit": "reported governance gap", "value_type": "reported_assessment"},
+        "emerging_dependencies": {"value": "an updated framework may need to address emerging technologies, supply-chain fragility, geopolitical tensions and critical-infrastructure dependencies", "unit": "reported future-policy implication", "value_type": "reported_recommendation"}
+      },
+      "method": "Comparative review of accountability, evaluation and learning arrangements, with implications for updating the OECD Recommendation.",
+      "uncertainty": "The report does not establish that weak formal accountability caused poor crisis outcomes or that an updated Recommendation would resolve these gaps.",
+      "subgroup": "Citizens, public servants, infrastructure users, firms, oversight bodies and communities that bear the consequences of opaque or poorly learned crisis decisions.",
+      "counterinterpretation": "Post-crisis learning can be politically constrained, but excessive proceduralization may also slow urgent decisions or obscure responsibility across complex systems.",
+      "source_url": "https://www.oecd.org/en/publications/tracking-progress-in-the-governance-of-critical-risks_66bcd7b0-en.html",
+      "retrieval_hash": "sha256:305ce12f951189ceb8e09af400b17f9c3cddf48812dd57803eb605a77f6d9fd3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/tracking-progress-in-the-governance-of-critical-risks_bbf7afcd/66bcd7b0-en.pdf", "claim": "Official OECD report PDF, 165 pages."},
+    {"source_url": "https://doi.org/10.1787/66bcd7b0-en", "claim": "Official OECD DOI."}
+  ],
+  "boundary": "This record adds a governance and geopolitical-risk signal: states are broadening risk frameworks toward compound threats, anticipatory planning, whole-of-society participation and critical dependencies, while accountability, learning, preparedness investment and cross-border cooperation lag. It is a comparative governance review, not a causal evaluation of resilience, a forecast of a specific crisis or proof that formal arrangements translate into public safety.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD publication page and downloadable report were reviewed for the 34-country frame, five-principle progress assessment, whole-of-government and whole-of-society findings, anticipation and investment gaps, international cooperation, accountability, learning and emerging dependency implications.",
+    "source_url_sha256": "sha256:305ce12f951189ceb8e09af400b17f9c3cddf48812dd57803eb605a77f6d9fd3",
+    "checked": "2026-09-27"
+  }
+}

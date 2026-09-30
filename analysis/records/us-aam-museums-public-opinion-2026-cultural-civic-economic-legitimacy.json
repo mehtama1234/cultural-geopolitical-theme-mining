@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aam-museums-public-opinion-2026-cultural-civic-economic-legitimacy",
+  "title": "Museums retain broad public legitimacy as educational, economic, informational, and civic infrastructure",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "American Alliance of Museums, Museums & Public Opinion 2026, produced with Wilkening Consulting",
+  "geography": "United States; national public opinion about museums and museum support",
+  "observations": [
+    {
+      "period": "2026; public valuation of museums",
+      "denominator": {"value": null, "unit": "U.S. adults; public report summary does not disclose the survey sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "educational_asset": {"value": 95, "unit": "percent believing museums are educational assets for their communities", "value_type": "reported_share"},
+        "economic_benefit": {"value": 89, "unit": "percent believing museums contribute important economic benefits to their community", "value_type": "reported_share"},
+        "positive_legislative_action": {"value": 91, "unit": "percent saying they would think positively of elected officials taking legislative action to support museums", "value_type": "reported_share"},
+        "maintain_or_increase_federal_funding": {"value": 96, "unit": "percent wanting federal museum funding maintained or increased", "value_type": "reported_share"}
+      },
+      "method": "AAM partnered with Wilkening Consulting to write and test key questions, analyze survey results, and coauthor the public report; the public summary does not disclose the full sample, field dates, weighting, response rate, or questionnaire.",
+      "uncertainty": "The headline estimates are bounded by the public report’s limited methodological disclosure; perceived value and support for funding do not establish museum use, local economic impact, educational outcomes, or willingness to pay.",
+      "subgroup": "U.S. adults, with the report stating that support extends across age, political affiliation, and museum-going habits.",
+      "counterinterpretation": "High stated support can coexist with low attendance, uneven geographic access, disagreement over particular exhibitions, or weak willingness to fund specific institutions; broad legitimacy is not uniform local capacity.",
+      "source_url": "https://www.aam-us.org/2026/09/11/museums-public-opinion-2026-report/",
+      "retrieval_hash": "sha256:6b2d6e68d199836ab1ce9ea857c2f04053bf78c19b943b1119f595eb6775f82a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; museum content and information trust",
+      "denominator": {"value": null, "unit": "U.S. adults; public report summary does not disclose the survey sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "support_censoring_museum_content": {"value": "about 1 in 10", "unit": "reported share supporting censorship of museum content", "value_type": "reported_share"},
+        "museum_information_trust": {"value": "museums remain one of the most trusted sources of information, and trust has increased over several years", "unit": "reported public-opinion pattern", "value_type": "reported_trend"}
+      },
+      "method": "Public AAM/Wilkening Consulting report summary; the public page provides the headline interpretation but not the full question wording, response distribution, or trust scale.",
+      "uncertainty": "Trust is a reported perception and the public summary does not specify comparison institutions, question wording, subgroup precision, or whether trust refers to all museums or selected types; it does not verify accuracy of museum information.",
+      "subgroup": "U.S. adults across age, political affiliation, and museum-going habits as described by the report.",
+      "counterinterpretation": "Support for low censorship can reflect a general free-expression norm rather than agreement with every museum practice or exhibition; rising trust can coexist with controversy, politicized attacks, and unequal access.",
+      "source_url": "https://www.aam-us.org/2026/09/11/museums-public-opinion-2026-report/",
+      "retrieval_hash": "sha256:6b2d6e68d199836ab1ce9ea857c2f04053bf78c19b943b1119f595eb6775f82a",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2026; public valuation across time",
+      "denominator": {"value": null, "unit": "U.S. adults in AAM public-opinion tracking; complete repeated-survey details not disclosed in the public summary", "value_type": "not_disclosed"},
+      "measures": {
+        "longitudinal_public_legitimacy": {"value": "Americans continue to recognize museums as essential community and national institutions nearly a decade after AAM began tracking opinion in 2018", "unit": "reported longitudinal interpretation", "value_type": "reported_trend"},
+        "cross_group_support": {"value": "support reaches across age, political affiliation, and museum-going habits", "unit": "reported subgroup pattern", "value_type": "reported_comparison"}
+      },
+      "method": "AAM description of public-opinion tracking begun in 2018, with the 2026 report summarizing trend and subgroup findings; the public page does not provide the full time series or harmonized survey methodology.",
+      "uncertainty": "The phrase ‘continue to recognize’ is a report-level interpretation rather than a fully reproducible time series in the public summary; it does not establish stable attitudes in every locality or institution.",
+      "subgroup": "U.S. adults compared across age, political affiliation, and museum-going behavior.",
+      "counterinterpretation": "Stable national legitimacy may conceal changing expectations about museums’ role, generational differences, or widening gaps between perceived community value and actual public funding or access.",
+      "source_url": "https://www.aam-us.org/2026/09/11/museums-public-opinion-2026-report/",
+      "retrieval_hash": "sha256:6b2d6e68d199836ab1ce9ea857c2f04053bf78c19b943b1119f595eb6775f82a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cultural-institution legitimacy layer: museums are publicly framed as educational, economic, informational, and civic assets with broad support for continued public funding and limited support for censorship. The public summary does not establish attendance, access, local economic effects, learning outcomes, causal trust, or realized funding decisions."
+}

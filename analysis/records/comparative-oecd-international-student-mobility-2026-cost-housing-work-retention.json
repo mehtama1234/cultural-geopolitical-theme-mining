@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-international-student-mobility-2026-cost-housing-work-retention",
+  "title": "International student mobility is becoming a negotiated package of affordability, housing, work rights, family life, and post-study belonging",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "OECD, International Student Mobility: Factors for Attraction and Retention, published September 11, 2026",
+  "geography": "OECD countries and accession countries; international tertiary students, higher-education systems, housing, labor-market, migration, and family-policy environments",
+  "observations": [
+    {
+      "period": "2010–2024; international student flows and destination competition",
+      "denominator": {"value": 1, "unit": "OECD international tertiary-student inflow and enrolment comparison frame", "value_type": "comparative_mobility_frame"},
+      "measures": {
+        "long_run_growth": {"value": 70, "unit": "percent increase in the number of international students in OECD countries between 2010 and 2020", "value_type": "reported_change"},
+        "2024_inflow_change": {"value": -13, "unit": "percent change in tertiary international-student inflows to OECD countries in 2024, compared with 2023", "value_type": "reported_change"},
+        "destination_declines": {"value": "Canada fell 39% and Australia 22% between 2023 and 2024, while other OECD destinations grew 5%", "unit": "reported destination comparison", "value_type": "reported_comparison"},
+        "major_destination_share": {"value": 49, "unit": "percent of international students enrolled in the OECD in 2023 hosted by the United States, United Kingdom, Australia, and Canada combined", "value_type": "reported_share"},
+        "study_level": {"value": "International students represented about 5% of bachelor's, 19% of master's, and 27% of doctoral enrolments across the OECD in 2024", "unit": "reported enrolment shares", "value_type": "reported_comparison"}
+      },
+      "method": "OECD comparative analysis using education and migration datasets, national statistical sources, and a 2025 policy questionnaire completed by 31 OECD Member and accession countries.",
+      "uncertainty": "Country definitions differ between international and foreign students, flow measures exclude some intra-EU/EFTA mobility, and changes in permits or enrolments do not reveal student welfare, completion, debt, or post-study retention for the same person.",
+      "subgroup": "International tertiary students, master's and doctoral students, STEM students, major English-speaking destinations, emerging destinations, and students from different origin regions.",
+      "counterinterpretation": "Recent declines in some destinations may reflect intentional capacity management, diversification, or temporary policy changes rather than a broad collapse in international education; growth in smaller destinations can improve system balance.",
+      "source_url": "https://www.oecd.org/en/publications/international-student-mobility_2f807049-en.html",
+      "retrieval_hash": "sha256:6c330f804166742ab04e3beeb62d19d2fc9cb10268b0e809d22a7c5481c6ed4f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; affordability, living costs, housing, and public support",
+      "denominator": {"value": 1, "unit": "OECD international-student policy environment; cross-country instruments rather than a common student survey denominator", "value_type": "policy_comparison_frame"},
+      "measures": {
+        "cost_bundle": {"value": "Tuition fees, visa and financial requirements, living costs, scholarships, income supports, and housing assistance vary widely across countries", "unit": "reported policy variation", "value_type": "reported_comparison"},
+        "housing_role": {"value": "Student housing and broader housing capacity are treated as determinants of attraction, completion, and retention rather than as separate from education policy", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "support_route": {"value": "Government scholarships, student loans, public support, and housing measures differ in availability and generosity, with implications for access and composition", "unit": "reported support-system comparison", "value_type": "reported_comparison"},
+        "policy_tension": {"value": "Destination countries are balancing accessibility and quality against housing pressure, public-service capacity, and migration concerns", "unit": "reported policy tension", "value_type": "reported_tension"}
+      },
+      "method": "OECD mapping of fees, minimum financial requirements, living costs, scholarships, loans, income supports, housing assistance, and country policy settings.",
+      "uncertainty": "The report compares policy availability and requirements, not the actual price paid by each student, housing search experience, service use, debt burden, affordability threshold, or completed degree outcome.",
+      "subgroup": "Students from lower-resource families, students with dependants, master's and doctoral students, renters, students in high-cost cities, and students choosing between established and emerging destinations.",
+      "counterinterpretation": "Higher fees or stricter financial requirements can support quality and system capacity when paired with scholarships and transparent pathways, while low cost alone may not produce good study or work outcomes.",
+      "source_url": "https://www.oecd.org/en/publications/international-student-mobility_2f807049-en.html",
+      "retrieval_hash": "sha256:6c330f804166742ab04e3beeb62d19d2fc9cb10268b0e809d22a7c5481c6ed4f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; work during study, post-study retention, and skills policy",
+      "denominator": {"value": 1, "unit": "OECD international-student work and migration-policy comparison", "value_type": "policy_comparison_frame"},
+      "measures": {
+        "work_during_study": {"value": "Most OECD countries allow international students to work during study, and recent reforms generally expanded hour limits in response to living costs and labor shortages", "unit": "reported policy pattern", "value_type": "reported_pattern"},
+        "post_study_pathways": {"value": "Post-study work opportunities vary widely and are a central determinant of enrolment and retention; emerging evidence links longer, more flexible pathways to higher graduate retention", "unit": "reported policy and evidence synthesis", "value_type": "reported_mechanism"},
+        "strategic_use": {"value": "Countries increasingly frame international students as a source of skills, demographic support, global competitiveness, and labor supply", "unit": "reported policy frame", "value_type": "reported_policy_frame"},
+        "selectivity": {"value": "Some major destinations have moved from expansion toward stabilisation or managed reduction, while others set explicit growth targets", "unit": "reported policy divergence", "value_type": "reported_comparison"}
+      },
+      "method": "OECD comparative review of work rights, post-study pathways, English-taught programmes, family admission, enrolment targets, and recent policy reforms.",
+      "uncertainty": "Policy rights do not establish whether students can find decent work, balance work and study, obtain a qualifying job, transition status, or remain; retention evidence is described as emerging and not a universal causal estimate.",
+      "subgroup": "Students in labor-shortage fields, STEM students, graduates seeking work, students with limited financial room, and countries pursuing expansion versus managed reduction.",
+      "counterinterpretation": "Expanded work rights may support student affordability but can also increase study-work conflict, labor-market segmentation, or incentives for recruitment beyond educational capacity.",
+      "source_url": "https://www.oecd.org/en/publications/international-student-mobility_2f807049-en/full-report/policies-shaping-the-attraction-and-retention-of-international-students_13dd834b.html",
+      "retrieval_hash": "sha256:6c330f804166742ab04e3beeb62d19d2fc9cb10268b0e809d22a7c5481c6ed4f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; family admission, integration, and cultural belonging",
+      "denominator": {"value": 1, "unit": "OECD international-student family and social-integration policy environment", "value_type": "policy_comparison_frame"},
+      "measures": {
+        "family_policy": {"value": "Most OECD countries allow some dependants to join international students, but eligibility and partner work rights differ substantially by study level and country", "unit": "reported policy comparison", "value_type": "reported_comparison"},
+        "selective_tightening": {"value": "Several major destinations have tightened family access since 2020, especially for housing and broader migration concerns; master's and doctoral students are more affected because they are more likely to move with dependants", "unit": "reported policy change", "value_type": "reported_pattern"},
+        "integration_surface": {"value": "The student journey includes arrival, academic adaptation, housing, local-community integration, study progression, and post-graduation pathways", "unit": "reported student-experience route", "value_type": "reported_route"},
+        "belonging_boundary": {"value": "Social integration and belonging may influence study outcomes and longer-term retention, but the report primarily maps policy conditions rather than estimating their causal effects", "unit": "analytical boundary", "value_type": "derived_boundary"}
+      },
+      "method": "OECD comparative policy analysis of family admission, partner work rights, student support, housing, integration context, and post-study routes.",
+      "uncertainty": "Country rules and student experiences are heterogeneous; the report does not follow a student-family unit through arrival, housing, belonging, completion, work, and retention, nor measure discrimination or local cultural participation uniformly.",
+      "subgroup": "Advanced-level students, students with partners or children, students in high-cost housing markets, international students in English-taught programmes, and host communities.",
+      "counterinterpretation": "Selective family rules may be intended to protect housing and service capacity, while broad family access may support wellbeing and retention; either policy can shift costs across students, institutions, and communities.",
+      "source_url": "https://www.oecd.org/en/publications/international-student-mobility_2f807049-en.html",
+      "retrieval_hash": "sha256:6c330f804166742ab04e3beeb62d19d2fc9cb10268b0e809d22a7c5481c6ed4f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/005ff28d-en", "claim": "OECD comparative report on international students in higher education provides complementary journey, integration, housing, and post-graduation context across six major destinations."},
+    {"source_url": "https://doi.org/10.1787/ae26c893-en", "claim": "OECD International Migration Outlook 2025 provides the migration-flow and labor-market context used in the student-mobility analysis."}
+  ],
+  "boundary": "This comparative record adds a cultural-mobility and institutional-capacity route from international education through affordability, housing, work rights, family life, integration, labor supply, and post-study retention. It does not infer individual student experience, completion, debt, belonging, job quality, discrimination, family welfare, causal retention, or the effect of a named policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD International Student Mobility: Factors for Attraction and Retention reviewed for 2024 flow changes, destination concentration, study-level shares, costs, housing, public support, work rights, post-study pathways, family admission, and policy divergence; policy comparisons were kept distinct from individual outcomes.",
+    "source_url_sha256": "sha256:6c330f804166742ab04e3beeb62d19d2fc9cb10268b0e809d22a7c5481c6ed4f",
+    "checked": "2026-09-28"
+  }
+}

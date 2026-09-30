@@ -1,0 +1,207 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-consumer-conditions-scoreboard-2025-online-problems-scams-trust-sustainability",
+  "title": "EU online consumer adoption is expanding faster than protection, trust, and sustainable-choice capacity",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "European Commission Consumer Conditions Scoreboard 2025 and November 2024 Consumer Conditions Survey",
+  "geography": "EU27 plus Iceland and Norway; representative consumer survey across the Single Market",
+  "observations": [
+    {
+      "period": "2024 Consumer Conditions Survey; online commerce, cost pressure, and purchase problems",
+      "denominator": {
+        "value": null,
+        "unit": "representative consumers in EU27 Member States plus Iceland and Norway; survey sample size not stated in the scoreboard report",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "online_consumer_share": {
+          "value": 76.0,
+          "unit": "percent of consumers buying online, up from 71% in 2022",
+          "value_type": "official_survey_share"
+        },
+        "online_crossborder_eu": {
+          "value": 35.0,
+          "unit": "percent buying from another EU country in 2024, up from 27% in 2022",
+          "value_type": "official_survey_share"
+        },
+        "online_purchase_problem": {
+          "value": 26.0,
+          "unit": "percent of online buyers experiencing a problem they felt gave legitimate reason to complain",
+          "value_type": "official_survey_share"
+        },
+        "offline_purchase_problem": {
+          "value": 16.0,
+          "unit": "percent of offline buyers experiencing a problem they felt gave legitimate reason to complain",
+          "value_type": "official_survey_share"
+        },
+        "bill_payment_concern": {
+          "value": 38.0,
+          "unit": "percent concerned about being able to pay bills",
+          "value_type": "official_survey_share"
+        },
+        "preferred_food_affordability_concern": {
+          "value": 35.0,
+          "unit": "percent worried about affording preferred food",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Digital consumer reach and cross-border choice are expanding while problem exposure and household budget pressure remain materially higher online or at the point of everyday consumption",
+          "unit": "bounded cross-source mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission Consumer Conditions Survey conducted in November 2024 by Ipsos for the Commission; the Scoreboard combines survey results with contextual data and compares selected indicators with 2022.",
+      "uncertainty": "The online/offline problem comparison is descriptive and does not identify whether platform complexity, product mix, consumer expectations, reporting propensity, or purchase frequency causes the difference; the survey does not establish household welfare.",
+      "subgroup": "Consumers in EU27, Iceland, and Norway; online and offline purchasers have different conditional denominators.",
+      "counterinterpretation": "Online shoppers may report more problems because they transact more often, have more visible complaint routes, or buy more cross-border—not necessarily because every online transaction is intrinsically less reliable.",
+      "source_url": "https://commission.europa.eu/document/download/2816337b-4fd1-4db2-a71c-d14a206a5a93_en?filename=consumer_conditions_scoreboard_2025_final.pdf",
+      "retrieval_hash": "sha256:4220959b9aeccc910322bb3e150954fe049cc7243562208365ea682f0572a0e0",
+      "status": "reported"
+    },
+    {
+      "period": "2024 Consumer Conditions Survey; digital fairness, scams, and unfair commercial practices",
+      "denominator": {
+        "value": null,
+        "unit": "consumers who buy online for targeted-advertising measures; all surveyed consumers for scam and unfair-practice measures",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "targeted_advertising_concern": {
+          "value": 93.0,
+          "unit": "percent of online buyers worried about online targeted advertising",
+          "value_type": "official_survey_share"
+        },
+        "personal_data_consent_concern": {
+          "value": 71.0,
+          "unit": "percent of online buyers concerned about personal-data collection without consent",
+          "value_type": "official_survey_share"
+        },
+        "excessive_advertising_concern": {
+          "value": 67.0,
+          "unit": "percent of online buyers concerned about excessive advertising",
+          "value_type": "official_survey_share"
+        },
+        "unavoidable_personalisation_concern": {
+          "value": 63.0,
+          "unit": "percent of online buyers concerned about unavoidable personalisation",
+          "value_type": "official_survey_share"
+        },
+        "online_scams": {
+          "value": 45.0,
+          "unit": "percent encountering fraudulent practices or scams online",
+          "value_type": "official_survey_share"
+        },
+        "fake_reviews": {
+          "value": 66.0,
+          "unit": "percent encountering or noticing fake reviews as an unfair online practice",
+          "value_type": "official_survey_share"
+        },
+        "misleading_discounting": {
+          "value": 61.0,
+          "unit": "percent encountering or noticing misleading discounting",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Consumer attention and data are being used in a market where perceived manipulation, fraud, reputation distortion, and discount opacity are widespread enough to become a trust problem rather than isolated incidents",
+          "unit": "bounded digital-market mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Scoreboard survey estimates for online targeted-advertising concerns and consumer-reported online fraud and unfair commercial practices.",
+      "uncertainty": "The measures capture experience or perception, not verified fraud incidence, monetary loss, platform responsibility, or causal effects on purchasing; conditional denominators differ by question.",
+      "subgroup": "Online buyers for advertising measures; the broader surveyed consumer population for scam and unfair-practice measures.",
+      "counterinterpretation": "High awareness of fake reviews or scams could reflect effective consumer vigilance as well as high exposure; perceived unfairness does not prove legal infringement in each case.",
+      "source_url": "https://commission.europa.eu/document/download/2816337b-4fd1-4db2-a71c-d14a206a5a93_en?filename=consumer_conditions_scoreboard_2025_final.pdf",
+      "retrieval_hash": "sha256:4220959b9aeccc910322bb3e150954fe049cc7243562208365ea682f0572a0e0",
+      "status": "reported"
+    },
+    {
+      "period": "2024 Consumer Conditions Survey; sustainability, repair, and institutional trust",
+      "denominator": {
+        "value": null,
+        "unit": "EU27 consumers in the representative Consumer Conditions Survey; subgroup denominators vary by question",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "environmental_purchase_influence": {
+          "value": 43.0,
+          "unit": "percent factoring environmental impact into at least one or two recent purchases, down 13 percentage points from 2022",
+          "value_type": "official_survey_share"
+        },
+        "replace_defective_product": {
+          "value": 40.0,
+          "unit": "percent replacing a defective product with a new one",
+          "value_type": "official_survey_share"
+        },
+        "repair_defective_product": {
+          "value": 35.0,
+          "unit": "percent repairing a defective product",
+          "value_type": "official_survey_share"
+        },
+        "secondhand_refurbished_replacement": {
+          "value": 9.0,
+          "unit": "percent buying second-hand or refurbished as a replacement",
+          "value_type": "official_survey_share"
+        },
+        "repair_cost_barrier": {
+          "value": 61.0,
+          "unit": "percent of non-repairers citing cost as a reason not to repair",
+          "value_type": "official_conditional_survey_share"
+        },
+        "repair_effort_barrier": {
+          "value": 32.0,
+          "unit": "percent of non-repairers citing effort as a reason not to repair",
+          "value_type": "official_conditional_survey_share"
+        },
+        "trust_public_protection": {
+          "value": 61.0,
+          "unit": "percent agreeing that public organisations protect consumer rights",
+          "value_type": "official_survey_share"
+        },
+        "trust_traders": {
+          "value": 70.0,
+          "unit": "percent agreeing that retailers and service providers respect consumer rights",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Cost and effort suppress repair and sustainable choice even as consumers express trust in traders and public protection; formal confidence does not automatically convert into lower-waste behavior or effective remedy",
+          "unit": "bounded consumer-capacity mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Scoreboard estimates on sustainable purchasing, defective-product response, barriers to repair, and trust in traders and public organisations.",
+      "uncertainty": "The survey does not establish whether price, convenience, availability, product quality, knowledge, or infrastructure causes the observed sustainable-choice decline; repair measures are self-reported and conditional.",
+      "subgroup": "EU27 consumers, with repair barriers conditional on consumers who did not repair a defective product.",
+      "counterinterpretation": "The fall in environmental purchasing may partly reflect question framing, changing product mix, or reduced salience rather than a durable rejection of sustainability; trust can coexist with skepticism about individual firms.",
+      "source_url": "https://commission.europa.eu/document/download/2816337b-4fd1-4db2-a71c-d14a206a5a93_en?filename=consumer_conditions_scoreboard_2025_final.pdf",
+      "retrieval_hash": "sha256:4220959b9aeccc910322bb3e150954fe049cc7243562208365ea682f0572a0e0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://commission.europa.eu/strategy-and-policy/policies/consumers/consumer-protection-policy/key-consumer-data_en",
+      "claim": "The European Commission summary identifies the 2025 Consumer Conditions Scoreboard, its November 2024 representative survey, and its headline online-problem, scam, cost-of-living, trust, and sustainability findings.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://commission.europa.eu/publications/2024-consumer-conditions-survey-full-data-set_en?prefLang=lt",
+      "claim": "The Commission provides the underlying 2024 survey data by country/region and demographic group as downloadable datasets.",
+      "status": "official-data-resource"
+    }
+  ],
+  "boundary": "This record adds EU-wide consumer-conditions evidence connecting e-commerce growth to purchase problems, scams, fake reviews, targeted-ad concerns, cost-of-living pressure, repair barriers, sustainable-choice decline, and institutional trust. It does not provide verified fraud loss, household welfare, causal effects, platform-level attribution, or a single common denominator for all conditional indicators.",
+  "retrieval_hash": "sha256:4220959b9aeccc910322bb3e150954fe049cc7243562208365ea682f0572a0e0"
+}

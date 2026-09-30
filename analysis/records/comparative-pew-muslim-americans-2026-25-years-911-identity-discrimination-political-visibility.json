@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-muslim-americans-2026-25-years-911-identity-discrimination-political-visibility",
+  "title": "Muslim Americans combine growing demographic and political visibility with persistent discrimination and a more polarized public image after 9/11",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center, 25 Years After 9/11, a Portrait of Muslim Americans",
+  "geography": "United States; U.S. adults and Muslim American adults across identity, generation, nativity and political context",
+  "observations": [
+    {
+      "period": "May 4-17, 2026 and January 2026 public-opinion surveys; national perceptions of Muslims and Islam",
+      "denominator": {"value": null, "unit": "U.S. adults in Pew public-opinion surveys; exact item-level bases vary", "value_type": "not_disclosed"},
+      "measures": {
+        "negative_impact": {"value": 42, "unit": "per cent saying Muslims have a very or somewhat negative impact on the country", "value_type": "published_survey_estimate"},
+        "positive_impact": {"value": 17, "unit": "per cent saying Muslims have a very or somewhat positive impact on the country", "value_type": "published_survey_estimate"},
+        "less_patriotic": {"value": 43, "unit": "per cent saying Muslims are less patriotic than other Americans", "value_type": "published_survey_estimate"},
+        "islam_violence": {"value": 51, "unit": "per cent saying Islam encourages violence more than other religions; 76% among Republicans and 29% among Democrats", "value_type": "published_survey_estimate"},
+        "historical_shift": {"value": "The Islam-violence measure was 25% in March 2002 and ranged from 38% to 52% in later readings, including 45%-52% in the last decade.", "unit": "published time-series comparison", "value_type": "published_trend"}
+      },
+      "method": "Pew national public-opinion surveys; the Islam-violence series used telephone surveys from 2002-2015 and the American Trends Panel from 2016-2026.",
+      "uncertainty": "The measures capture public perceptions rather than Muslims' actual patriotism, social contribution or religious beliefs; question wording, mode changes and partisan composition constrain direct long-run comparison.",
+      "subgroup": "U.S. adults by political affiliation and perceptions of Muslims and Islam.",
+      "counterinterpretation": "Polarized perceptions may reflect broader partisan sorting and media environments as well as changing views of Muslims specifically; the data do not establish which mechanism dominates.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:f6717c1736e8d2ee66f9ecb7d2b91e278ca011845986b78c3708e4ec88d50b1f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Muslim American survey; reported support, discrimination and news coverage",
+      "denominator": {"value": null, "unit": "U.S. Muslim adults in Pew survey; exact item-level bases vary", "value_type": "not_disclosed"},
+      "measures": {
+        "support": {"value": 34, "unit": "per cent saying someone expressed support for them in the past year because they are Muslim", "value_type": "published_survey_estimate"},
+        "a_lot_of_discrimination": {"value": 59, "unit": "per cent saying there is a lot of discrimination against Muslims in the country", "value_type": "published_survey_estimate"},
+        "unfair_news": {"value": 59, "unit": "per cent saying news coverage of Islam or Muslims is often unfair", "value_type": "published_survey_estimate"},
+        "historical_context": {"value": "In the comparable 2017 survey, 49% reported support, 48% a lot of discrimination and 60% unfair TV or movie portrayals; the source also reports earlier 2001, 2007 and 2011 readings.", "unit": "published historical comparison", "value_type": "published_trend"}
+      },
+      "method": "Pew survey of Muslim American adults with historical comparisons to prior Pew Muslim American surveys.",
+      "uncertainty": "Self-reported support, discrimination and perceived coverage are not a complete incident census and do not identify frequency, perpetrator, institutional remedy or downstream effects.",
+      "subgroup": "Muslim American adults, with historical comparisons across survey years.",
+      "counterinterpretation": "Support and discrimination can coexist in the same social environment; the findings do not imply that every Muslim American experiences either condition uniformly.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:f6717c1736e8d2ee66f9ecb7d2b91e278ca011845986b78c3708e4ec88d50b1f",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2026; demographic, congregational and political visibility of Muslim Americans",
+      "denominator": {"value": null, "unit": "Mixed population estimates, mosque counts, FBI reported incidents and congressional membership", "value_type": "not_disclosed"},
+      "measures": {
+        "population": {"value": "Estimated Muslim population rose from 2.4 million in 2007 to 5.5 million in 2026.", "unit": "estimated U.S. Muslim population", "value_type": "published_estimate"},
+        "mosques": {"value": "Mosque count rose from about 1,200 in 2000 to about 2,800 in 2020.", "unit": "reported U.S. mosque count", "value_type": "published_estimate"},
+        "hate_crimes": {"value": "FBI recorded 481 anti-Islamic hate-crime incidents in 2001 and 205 in 2025; comparison years include 307 in 2016 and 95 in 2021.", "unit": "reported incidents", "value_type": "administrative_count"},
+        "political_visibility": {"value": "There were no Muslim members of Congress in 2001, compared with four and a fifth about to join in the 2026 account; the source also describes the first Muslim mayor of New York City.", "unit": "public institutional representation", "value_type": "published_count_and_event"}
+      },
+      "method": "Pew population estimates and surveys, independent mosque counts, FBI Uniform Crime Reporting data and public-record political representation.",
+      "uncertainty": "Population and mosque estimates are not a decennial census; FBI counts reflect reported incidents and changing participation and collection systems, including the NIBRS transition, and should not be read as a complete measure of harm.",
+      "subgroup": "U.S. Muslim population, congregations, reported hate-crime incidents and elected officials.",
+      "counterinterpretation": "Institutional growth and political visibility may expand capacity and voice without implying that discrimination or public suspicion has receded; the series does not identify causal relationships among these measures.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:f6717c1736e8d2ee66f9ecb7d2b91e278ca011845986b78c3708e4ec88d50b1f",
+      "status": "reported"
+    },
+    {
+      "period": "2017 Muslim American survey; age and nativity differences in discrimination, friendliness and news coverage",
+      "denominator": {"value": null, "unit": "U.S. Muslim adults in 2017 Pew survey; historical subgroup comparison", "value_type": "not_disclosed"},
+      "measures": {
+        "age_discrimination": {"value": "53% of Muslims ages 18-40 reported discrimination, compared with 40% of those ages 41 and older.", "unit": "per cent reporting discrimination", "value_type": "published_subgroup_comparison"},
+        "nativity_discrimination": {"value": "61% of U.S.-born Muslims reported discrimination, compared with 39% of foreign-born Muslims.", "unit": "per cent reporting discrimination", "value_type": "published_subgroup_comparison"},
+        "nativity_friendliness": {"value": "30% of U.S.-born Muslims said American people are generally friendly toward Muslims, compared with 73% of foreign-born Muslims.", "unit": "per cent reporting perceived friendliness", "value_type": "published_subgroup_comparison"},
+        "nativity_unfair_news": {"value": "74% of U.S.-born Muslims said news coverage was unfair, compared with 49% of foreign-born Muslims.", "unit": "per cent reporting perceived unfair coverage", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Pew 2017 Muslim American survey subgroup comparisons, included by the 2026 retrospective source.",
+      "uncertainty": "These are historical cross-sectional subgroup differences, not current 2026 estimates or longitudinal evidence that nativity or age causes the reported experiences.",
+      "subgroup": "Muslim American adults by age and nativity.",
+      "counterinterpretation": "Differences may reflect cohort, location, language, immigration selection, racialization or different exposure to U.S. institutions rather than nativity alone.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:f6717c1736e8d2ee66f9ecb7d2b91e278ca011845986b78c3708e4ec88d50b1f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/", "claim": "Official Pew retrospective combining Muslim American surveys, public opinion, FBI hate-crime data, population estimates, mosque counts and political representation."}
+  ],
+  "boundary": "This record adds a religion, civic identity and political-visibility layer to the cross-source atlas: demographic and institutional growth can coexist with persistent discrimination and polarized public perceptions. It is a mixed data essay, not a complete national discrimination or hate-crime census, a causal analysis of post-9/11 effects, a direct household mobility study or one fully consistent time series across all measures.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew source page was reviewed for 2026 public perceptions, Muslim American experiences, historical survey comparisons, FBI hate-crime counts, population and mosque estimates, political representation and subgroup boundaries.",
+    "source_url_sha256": "sha256:f6717c1736e8d2ee66f9ecb7d2b91e278ca011845986b78c3708e4ec88d50b1f",
+    "checked": "2026-09-27"
+  }
+}

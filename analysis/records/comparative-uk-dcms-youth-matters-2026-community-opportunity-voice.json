@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dcms-youth-matters-2026-community-opportunity-voice",
+  "title": "Youth wellbeing and civic confidence are tied to local third spaces, trusted adults, affordable opportunity, and whether young people feel heard",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport, Youth Matters: State of the Nation, updated 12 August 2026",
+  "geography": "England primarily, with selected UK-wide comparisons; young people ages 10-21 and up to 25 for those with special educational needs or disabilities",
+  "observations": [
+    {
+      "period": "2025-2026; youth survey and interconnected priorities",
+      "denominator": {"value": 14134, "unit": "young people ages 10-21, up to 25 for those with SEN/D, in the National Youth Strategy Survey in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "concern_set": {"value": "friendships and social life, school or college, money, future plans, and mental health and wellbeing were the five major concern areas", "unit": "reported priority set", "value_type": "reported_theme_set"},
+        "daily_life_priorities": {"value": "young people prioritized lower living costs, more recreational and leisure activities, better mental-health support, secure jobs, and good-quality healthcare", "unit": "reported priority set", "value_type": "reported_framework"},
+        "system_link": {"value": "the report connects community, connection and belonging; physical, mental and digital wellbeing; skills and opportunity; and safety and security", "unit": "reported policy framework", "value_type": "reported_framework"},
+        "uneven_exposure": {"value": "challenges are disproportionately experienced by young people with SEN/D and those from lower socioeconomic backgrounds", "unit": "reported subgroup pattern", "value_type": "reported_finding"}
+      },
+      "method": "National Youth Strategy Survey of more than 14,000 young people combined with focus groups, workshops, youth-sector engagement, and youth collaborators.",
+      "uncertainty": "The report combines primary and secondary evidence across different years and geographies; the priority rankings are descriptive and do not establish one causal hierarchy among youth concerns.",
+      "subgroup": "Young people ages 10-21, young people with SEN/D up to age 25, lower socioeconomic groups, communities outside London, youth-sector organizations, and local institutions.",
+      "counterinterpretation": "Young people’s priorities may shift with local conditions, economic cycles, age, family support, and policy visibility; interconnected problems do not imply one universal intervention.",
+      "source_url": "https://www.gov.uk/government/publications/youth-matters-state-of-the-nation/youth-matters-state-of-the-nation",
+      "retrieval_hash": "sha256:7757dca3d06202a31a904b0a4c83336ffb6e36c93f3dc6237debd79cd0a698fb",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; trusted adults, local belonging, and third spaces",
+      "denominator": {"value": 1, "unit": "Youth Matters synthesis of UK youth surveys and community research", "value_type": "published_synthesis_frame"},
+      "measures": {
+        "trusted_adult_gap": {"value": "around one in five young people ages 13-17 in England and Wales do not have a trusted adult outside their family", "unit": "reported population estimate", "value_type": "reported_estimate"},
+        "loneliness": {"value": "about one third of young people ages 10-19 report feeling alone or lonely some of the time", "unit": "reported survey estimate", "value_type": "reported_estimate"},
+        "local_belonging": {"value": 51, "unit": "percent of young people agreeing they feel they belong with people in their local area; 46% among ages 16-25 versus 57% among ages 10-15", "value_type": "reported_survey_share"},
+        "youth_facility_spending": {"value": 73, "unit": "percent fall in spending on youth facilities between 2010/11 and 2022/23", "value_type": "reported_change"},
+        "third_space_route": {"value": "young people describe youth clubs and free, accessible places outside home and school as spaces for belonging, trusted adults, activities, advice, and safer social connection", "unit": "reported qualitative mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-source DCMS synthesis combining the National Youth Strategy Survey, youth engagement, youth-sector evidence, and cited UK statistics.",
+      "uncertainty": "The report’s synthesis spans different data sources and periods; the relationship between youth-facility spending and loneliness or belonging is not a causal estimate.",
+      "subgroup": "Young people in England and Wales, older adolescents, rural youth, young women, lower-income communities, youth workers, mentors, and local public spaces.",
+      "counterinterpretation": "Digital communities, schools, sports, faith groups, libraries, and informal peer networks can provide belonging even where formal youth facilities decline; local provision is heterogeneous.",
+      "source_url": "https://www.gov.uk/government/publications/youth-matters-state-of-the-nation/youth-matters-state-of-the-nation",
+      "retrieval_hash": "sha256:7757dca3d06202a31a904b0a4c83336ffb6e36c93f3dc6237debd79cd0a698fb",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; access to activities and place-based inequality",
+      "denominator": {"value": 14134, "unit": "National Youth Strategy Survey young people in England; selected activity measures draw on cited DCMS Youth Participation Pilot surveys", "value_type": "mixed_published_evidence_frame"},
+      "measures": {
+        "activity_sufficiency": {"value": 45, "unit": "percent of young people ages 10-19 agreeing there are enough clubs and activities in their area", "value_type": "reported_survey_share"},
+        "local_service_happiness": {"value": 46, "unit": "percent agreeing they are happy with activities and services in their local area", "value_type": "reported_survey_share"},
+        "local_fit": {"value": 37, "unit": "percent agreeing local activities and services are made for young people like them", "value_type": "reported_survey_share"},
+        "fun_access_priority": {"value": 46, "unit": "percent selecting more recreational and leisure activities as something that would most improve daily life", "value_type": "reported_survey_share"},
+        "access_gradient": {"value": "satisfaction and participation are lower for some lower socioeconomic groups and young people with SEN/D, while affordability, transport, awareness, and safety shape access", "unit": "reported subgroup mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "National Youth Strategy Survey and cited DCMS youth participation evidence, with qualitative engagement on local activities, transport, affordability, and safety.",
+      "uncertainty": "Measures combine different surveys and activity universes; reported local satisfaction does not identify whether the constraint is supply, price, transport, awareness, safety, or fit.",
+      "subgroup": "Young people ages 10-19, older youth, lower-income groups, young people with SEN/D, young women, ethnic-minority groups, rural communities, and local youth services.",
+      "counterinterpretation": "Low reported access may reflect information gaps rather than absence of provision in some places; expanding facilities without transport, affordability, or trusted staffing may not improve participation.",
+      "source_url": "https://www.gov.uk/government/publications/youth-matters-state-of-the-nation/youth-matters-state-of-the-nation",
+      "retrieval_hash": "sha256:7757dca3d06202a31a904b0a4c83336ffb6e36c93f3dc6237debd79cd0a698fb",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; voice, influence, and civic participation",
+      "denominator": {"value": 14134, "unit": "National Youth Strategy Survey young people in England, with UK electoral and opinion comparisons", "value_type": "mixed_published_evidence_frame"},
+      "measures": {
+        "voice_matter": {"value": "49 percent of young people felt negatively about their voice mattering in decisions across the country, compared with 26 percent who agreed", "unit": "reported survey comparison", "value_type": "reported_survey_comparison"},
+        "local_influence": {"value": "young people were equally likely to disagree and agree that they know how to influence local decisions, at 34 percent each", "unit": "reported survey comparison", "value_type": "reported_survey_comparison"},
+        "electoral_participation": {"value": 37, "unit": "estimated turnout among UK 18-24 year olds in the 2024 general election, compared with 55% among ages 45-54", "value_type": "reported_electoral_estimate"},
+        "volunteering_social_action": {"value": "44 percent of young people ages 10-19 volunteered in the prior year and 47 percent participated in social action; improving the local area was the most common social-action activity", "unit": "reported survey shares", "value_type": "reported_survey_share"},
+        "civic_route": {"value": "low formal political confidence coexists with local volunteering, petitions, campaigning, and demand for meaningful youth voice", "unit": "analytic civic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "National Youth Strategy Survey combined with electoral participation estimates and cited youth participation and social-action surveys.",
+      "uncertainty": "Turnout, influence perceptions, volunteering, and social action use different samples and definitions; low electoral participation does not mean absence of civic activity.",
+      "subgroup": "Young people ages 10-25, young women, ethnic-minority groups, lower-income communities, young people with SEN/D, local authorities, schools, and youth organizations.",
+      "counterinterpretation": "Perceived voice can improve through informal or local channels even when national institutions remain distant; formal participation may also be constrained by age, registration, housing mobility, or political supply.",
+      "source_url": "https://www.gov.uk/government/publications/youth-matters-state-of-the-nation/youth-matters-state-of-the-nation",
+      "retrieval_hash": "sha256:7757dca3d06202a31a904b0a4c83336ffb6e36c93f3dc6237debd79cd0a698fb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/youth-matters-your-national-youth-strategy", "claim": "The companion National Youth Strategy translates the State of the Nation evidence into policy priorities."},
+    {"source_url": "https://www.gov.uk/government/publications/childrens-wellbeing-online-social-media-quantitative-and-qualitative-report/childrens-wellbeing-online-what-young-people-think-about-social-media-safety-and-ai", "claim": "The companion online-wellbeing report provides more detailed evidence on youth digital life, platform design, AI, and safety preferences."}
+  ],
+  "boundary": "This record adds UK public research on youth belonging, trusted adults, local third spaces, activity access, economic insecurity, and civic voice. It combines survey, cited secondary, qualitative, and youth-advisory evidence without treating them as one dataset; it is not respondent-level ingestion, a causal evaluation of youth services, a global youth estimate, or proof that any single investment reverses wellbeing or turnout patterns.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK Youth Matters page reviewed for survey frame, youth priorities, trusted-adult and loneliness context, youth-facility spending, local activity access, belonging, civic voice, participation, and subgroup differences.",
+    "source_url_sha256": "sha256:7757dca3d06202a31a904b0a4c83336ffb6e36c93f3dc6237debd79cd0a698fb",
+    "checked": "2026-09-27"
+  }
+}

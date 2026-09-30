@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-trade-investment-decent-work-africa-2026-social-dialogue",
+  "title": "Trade and investment do not automatically produce decent work; policy alignment and social dialogue shape who benefits",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "ILO, Trade, Investment and Decent Work in Africa: Evidence and Stakeholder Perspectives",
+  "geography": "Ghana, Kenya, Mozambique, South Africa, and Uganda, with implications for African regional integration and the African Continental Free Trade Area",
+  "observations": [
+    {
+      "period": "2026; stakeholder assessment of policies for inclusive trade benefits",
+      "denominator": {"value": 3, "unit": "stakeholder groups surveyed or consulted: governments, workers’ organizations, and employers’ associations", "value_type": "stakeholder_group_set"},
+      "measures": {
+        "government_support": {"value": 95, "unit": "percent of government respondents identifying employment policies among the most effective policies for inclusive trade benefits", "value_type": "reported_stakeholder_share"},
+        "worker_support": {"value": 93, "unit": "percent of workers’ organizations identifying employment policies among the most effective policies", "value_type": "reported_stakeholder_share"},
+        "employer_support": {"value": 91, "unit": "percent of employers’ associations identifying employment policies among the most effective policies", "value_type": "reported_stakeholder_share"}
+      },
+      "method": "ILO research using surveys and consultations with government representatives, employers’ and workers’ organizations, and civil society in five African countries.",
+      "uncertainty": "Stakeholder agreement indicates a policy priority, not causal evidence that employment policies produce inclusive trade outcomes or that all participants define effectiveness identically.",
+      "subgroup": "Government ministries, employers, workers’ organizations, civil society, firms, workers in traded sectors, and communities affected by regional integration.",
+      "counterinterpretation": "Broad agreement can coexist with disagreement over policy design, financing, enforcement, wage distribution, and which sectors or workers should receive support.",
+      "source_url": "https://www.ilo.org/resource/news/workers-employers-and-governments-agree-need-link-trade-and-employment",
+      "retrieval_hash": "sha256:cf239fa7206f30803b972c238ca3cf5d66c5d8f29bb2e2f3354c74fb8e396dae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; structural labor-market exposure in African economies",
+      "denominator": {"value": 100, "unit": "percent of total employment in African economies, approximate regional frame", "value_type": "regional_employment_share"},
+      "measures": {
+        "informal_employment": {"value": 85, "unit": "more than percent of employment accounted for by informal work on average across the referenced African labor markets", "value_type": "reported_share"},
+        "job_quantity_quality_tension": {"value": "trade can create and displace jobs while leaving workers exposed to informality, low wages, and poor working conditions", "unit": "reported labor-market mechanism", "value_type": "reported_mechanism"},
+        "supply_chain_exposure": {"value": "informality remains widespread in export-oriented agricultural supply chains", "unit": "reported structural condition", "value_type": "reported_context"}
+      },
+      "method": "ILO evidence and stakeholder perspectives connecting trade and investment to employment quantity, job quality, informality, productivity, and supply chains.",
+      "uncertainty": "The regional informality estimate is an average and does not describe every country, sector, worker, contract, or household; trade exposure does not determine individual job outcomes.",
+      "subgroup": "Informal workers, agricultural workers, women, young people, small firms, exporters, supply-chain workers, and households dependent on labor income.",
+      "counterinterpretation": "Informal work can provide entry, flexibility, or income where formal jobs are scarce; formalization policies may impose costs or exclude workers if not designed with worker voice and social protection.",
+      "source_url": "https://www.ilo.org/resource/news/workers-employers-and-governments-agree-need-link-trade-and-employment",
+      "retrieval_hash": "sha256:cf239fa7206f30803b972c238ca3cf5d66c5d8f29bb2e2f3354c74fb8e396dae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labor provisions in African trade agreements",
+      "denominator": {"value": 50, "unit": "trade agreements involving African countries that are in force and reported to the WTO", "value_type": "agreement_set"},
+      "measures": {
+        "agreements_with_labor_references": {"value": 15, "unit": "agreements including references to labor provisions", "value_type": "reported_agreement_count"},
+        "stakeholder_benefit_support": {"value": 80, "unit": "more than percent of surveyed stakeholders identifying improved labor standards and stronger social dialogue among main benefits", "value_type": "reported_stakeholder_share"},
+        "implementation_condition": {"value": "labor provisions require institutional capacity, coordination, and stakeholder participation to influence implementation", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO review of African trade agreements and stakeholder perspectives on labor provisions, standards, and social dialogue.",
+      "uncertainty": "The presence of a labor provision does not establish enforcement, compliance, improved wages, or better working conditions; agreement counts depend on reporting and classification.",
+      "subgroup": "Trade negotiators, labor ministries, employers, worker representatives, inspectors, firms in supply chains, and workers covered or missed by agreements.",
+      "counterinterpretation": "Labor provisions can be symbolic or burdensome if poorly implemented; domestic labor institutions and collective bargaining may matter as much as treaty language.",
+      "source_url": "https://www.ilo.org/resource/news/workers-employers-and-governments-agree-need-link-trade-and-employment",
+      "retrieval_hash": "sha256:cf239fa7206f30803b972c238ca3cf5d66c5d8f29bb2e2f3354c74fb8e396dae",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; trade integration, social dialogue, and decent work",
+      "denominator": {"value": 1, "unit": "trade-and-decent-work policy system", "value_type": "reported_system_frame"},
+      "measures": {
+        "policy_alignment": {"value": "trade, investment, employment, skills, social protection, and labor standards need to be considered together", "unit": "reported policy framework", "value_type": "reported_recommendation"},
+        "voice_route": {"value": "structured, predictable, and well-informed social dialogue can improve policy targeting, implementation, and accountability", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "regional_route": {"value": "the African Continental Free Trade Area can support structural transformation and better jobs when accompanied by coherent labor and social policies", "unit": "reported regional development pathway", "value_type": "reported_policy_direction"}
+      },
+      "method": "ILO synthesis of stakeholder consultation, trade-policy analysis, labor-market concerns, and regional integration implications.",
+      "uncertainty": "The report establishes a policy direction rather than a quantified forecast of AfCFTA employment, wages, productivity, or household welfare.",
+      "subgroup": "Workers, employers, governments, social partners, civil society, regional institutions, consumers, and communities affected by trade and investment decisions.",
+      "counterinterpretation": "Social dialogue can be unevenly representative or slow decision-making; consultation does not guarantee that marginalized, informal, or migrant workers gain actual bargaining power.",
+      "source_url": "https://www.ilo.org/resource/news/workers-employers-and-governments-agree-need-link-trade-and-employment",
+      "retrieval_hash": "sha256:cf239fa7206f30803b972c238ca3cf5d66c5d8f29bb2e2f3354c74fb8e396dae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/research-and-publications/integrating-trade-and-decent-work", "claim": "ILO Integrating Trade and Decent Work programme provides complementary reports and labor-provision resources."},
+    {"source_url": "https://unctad.org/publication/global-trade-update-september-2026-services-are-reshaping-global-trade", "claim": "UNCTAD Global Trade Update September 2026 provides complementary services-trade and digital-export context."}
+  ],
+  "boundary": "This record adds a trade-to-work and governance route linking African regional integration, investment, employment policy, informality, labor standards, social protection, skills, supply chains, and social dialogue. It uses an aggregate publication and stakeholder-perspective frame, not individual worker histories, a causal trade-impact estimate, or proof that consultation becomes implementation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication announcement and report summary were reviewed for stakeholder composition, policy-support shares, informality, labor provisions, social dialogue, AfCFTA, and implementation claims.",
+    "source_url_sha256": "sha256:cf239fa7206f30803b972c238ca3cf5d66c5d8f29bb2e2f3354c74fb8e396dae",
+    "checked": "2026-09-26"
+  }
+}

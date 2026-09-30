@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kpmg-uk-consumer-pulse-q3-2026-financial-security-discretionary-culture",
+  "title": "Financial caution is reallocating discretionary life rather than stopping consumption: households cut everyday room and large purchases while preserving selected food, leisure, culture, and resale occasions",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "KPMG UK, Consumer Pulse Q3 2026: Consumer confidence marginally improves, heading toward final quarter of 2026",
+  "geography": "United Kingdom consumer households, with quarterly comparison and September 2026 outlook",
+  "observations": [
+    {
+      "period": "September 2-9, 2026; financial security and perceived economic direction",
+      "denominator": {"value": 3000, "unit": "UK consumers surveyed online by OnePoll for KPMG UK", "value_type": "reported_survey_sample"},
+      "measures": {
+        "financially_secure": {"value": 56, "unit": "percent describing themselves as financially secure", "value_type": "reported_survey_share"},
+        "financially_insecure": {"value": 22, "unit": "percent describing themselves as financially insecure", "value_type": "reported_survey_share"},
+        "economy_worsening": {"value": 55, "unit": "percent saying the UK economy is worsening", "value_type": "reported_survey_share"},
+        "economy_improving": {"value": 13, "unit": "percent saying the UK economy is improving", "value_type": "reported_survey_share"},
+        "perceived_cost_pressures": {"value": "among those seeing the economy as worsening, groceries, utilities, and eating or drinking out were the most cited reasons", "unit": "reported reason pattern", "value_type": "reported_mechanism_set"}
+      },
+      "method": "KPMG Consumer Pulse survey conducted online by OnePoll among 3,000 UK consumers from 2-9 September 2026; the release reports quarter-over-quarter comparisons and descriptive associations.",
+      "uncertainty": "This is an online sponsor-commissioned survey and does not establish population-level causal effects, verified household budgets, realized financial resilience, or representative behavior for every UK subgroup.",
+      "subgroup": "UK consumers differentiated by perceived financial security, economic outlook, age, and spending situation in the published tables.",
+      "counterinterpretation": "Perceived security and economic direction can diverge because people evaluate their own finances, public services, and national economy through different reference points; seasonal spending also matters.",
+      "source_url": "https://kpmg.com/uk/en/media/press-releases/2026/09/consumer-confidence-marginally-improves-2026.html",
+      "retrieval_hash": "sha256:86f72e4eb83864e4b79ee9d2299deeb60cbe94d369081ebe2d198afc93576872",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; adaptation responses among consumers who see the economy worsening",
+      "denominator": {"value": 1642, "unit": "respondents in the KPMG sample reporting that the economy is worsening", "value_type": "reported_subsample"},
+      "measures": {
+        "reduce_everyday_spending": {"value": 51, "unit": "percent reporting that they reduce monthly spending on everyday items as a precaution", "value_type": "reported_behavior_share"},
+        "save_more": {"value": 36, "unit": "percent reporting that they save more as a contingency", "value_type": "reported_behavior_share"},
+        "defer_big_ticket": {"value": 33, "unit": "percent reporting that they defer big-ticket purchases", "value_type": "reported_behavior_share"},
+        "employment_stickiness": {"value": 21, "unit": "percent reporting they are less inclined to leave their current employment", "value_type": "reported_behavior_share"},
+        "adaptation_route": {"value": "economic pessimism converts into precautionary spending, savings, purchase timing, and job-mobility decisions", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive follow-up questions asked of respondents who said the economy was worsening; multiple responses could be selected.",
+      "uncertainty": "The data do not show the size or duration of spending reductions, whether saving is feasible, or whether job stickiness reflects security, fear, satisfaction, or limited alternatives.",
+      "subgroup": "UK consumers reporting a worsening economy, with household room and employment decisions observed through self-report.",
+      "counterinterpretation": "Precautionary saving can improve future resilience, and reduced job mobility can be temporary seasonal caution rather than durable labor-market constraint.",
+      "source_url": "https://kpmg.com/uk/en/media/press-releases/2026/09/consumer-confidence-marginally-improves-2026.html",
+      "retrieval_hash": "sha256:86f72e4eb83864e4b79ee9d2299deeb60cbe94d369081ebe2d198afc93576872",
+      "status": "reported"
+    },
+    {
+      "period": "June-August 2026; reported food, leisure, cultural, and appearance spending",
+      "denominator": {"value": 3000, "unit": "UK consumers surveyed online", "value_type": "reported_survey_sample"},
+      "measures": {
+        "restaurant": {"value": 53, "unit": "percent reporting eating at a restaurant in the previous three months", "value_type": "reported_behavior_share"},
+        "takeaway": {"value": 40, "unit": "percent reporting ordering takeaway food at home", "value_type": "reported_behavior_share"},
+        "new_clothing": {"value": 45, "unit": "percent reporting buying new clothing", "value_type": "reported_behavior_share"},
+        "cinema": {"value": 29, "unit": "percent reporting going to the cinema", "value_type": "reported_behavior_share"},
+        "ticketed_event": {"value": 23, "unit": "percent reporting attending a gig, theatre, or other ticketed event", "value_type": "reported_behavior_share"},
+        "selected_occasions": {"value": "continued social, food, leisure, and appearance spending coexists with caution about essentials and large purchases", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Self-reported three-month activity in the KPMG Consumer Pulse survey; categories are not mutually exclusive and do not measure spending amounts.",
+      "uncertainty": "Participation shares do not establish frequency, price, household budget impact, affordability, or whether activities were traded down, subsidized, or financed.",
+      "subgroup": "UK consumers overall, with differences by financial security and consumer circumstances available in the survey instrument and published release.",
+      "counterinterpretation": "Reported participation can remain high while frequency, quality, venue choice, or spending per occasion falls; social and cultural occasions may be treated as high-value forms of connection.",
+      "source_url": "https://kpmg.com/uk/en/media/press-releases/2026/09/consumer-confidence-marginally-improves-2026.html",
+      "retrieval_hash": "sha256:86f72e4eb83864e4b79ee9d2299deeb60cbe94d369081ebe2d198afc93576872",
+      "status": "reported"
+    },
+    {
+      "period": "June-August 2026; resale, channels, payments, and future big-ticket plans",
+      "denominator": {"value": 3000, "unit": "UK consumers surveyed online", "value_type": "reported_survey_sample"},
+      "measures": {
+        "second_hand_clothing": {"value": 20, "unit": "percent reporting buying second-hand clothing", "value_type": "reported_behavior_share"},
+        "resale": {"value": 18, "unit": "percent reporting selling clothing or footwear on a resale site", "value_type": "reported_behavior_share"},
+        "in_store": {"value": 62, "unit": "percent reporting buying in-store", "value_type": "reported_channel_share"},
+        "online": {"value": 57, "unit": "percent reporting buying online", "value_type": "reported_channel_share"},
+        "no_big_ticket_purchase": {"value": 39, "unit": "percent reporting no big-ticket purchase in the previous three months", "value_type": "reported_behavior_share"},
+        "no_future_big_ticket_plan": {"value": 42, "unit": "percent reporting no planned big-ticket spending in the following three months", "value_type": "reported_behavior_share"},
+        "resale_and_channel_route": {"value": "financial caution coexists with channel hybridity and resale participation, while large-purchase optionality remains compressed", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive self-reported purchase, resale, payment, channel, and future-intention questions in the KPMG Consumer Pulse survey.",
+      "uncertainty": "The release does not identify transaction values, profitability of resale, debt exposure, household-level substitution, or whether planned purchases occur.",
+      "subgroup": "UK consumers, with resale highest among 18-24-year-olds for selling clothing or footwear in the reported data.",
+      "counterinterpretation": "Resale can reflect fashion, sustainability, or identity as well as financial pressure; in-store and online shares overlap and do not reveal channel loyalty or retailer outcomes.",
+      "source_url": "https://kpmg.com/uk/en/media/press-releases/2026/09/consumer-confidence-marginally-improves-2026.html",
+      "retrieval_hash": "sha256:86f72e4eb83864e4b79ee9d2299deeb60cbe94d369081ebe2d198afc93576872",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://kpmg.com/uk/en/media/press-releases/2026/09/consumer-confidence-marginally-improves-2026.html", "claim": "Official KPMG UK release with sample, field dates, security, economic outlook, spending, channel, resale, and future-intention results."}
+  ],
+  "boundary": "This record adds a current UK consumer-behavior route from financial security and perceived economic decline through precautionary spending, job stickiness, social and cultural occasions, resale, channels, and big-ticket optionality. It is a sponsor-commissioned online survey and descriptive pulse, not verified transaction data, household-budget microdata, a causal consumption model, or a universal consumer trend.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official KPMG UK release reviewed for OnePoll sample and field dates, financial-security categories, economic concerns, precautionary responses, spending occasions, resale, channels, payments, and big-ticket plans.",
+    "source_page_sha256": "sha256:86f72e4eb83864e4b79ee9d2299deeb60cbe94d369081ebe2d198afc93576872",
+    "checked": "2026-09-28"
+  }
+}

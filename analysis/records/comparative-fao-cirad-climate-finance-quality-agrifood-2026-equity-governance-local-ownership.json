@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-cirad-climate-finance-quality-agrifood-2026-equity-governance-local-ownership",
+  "title": "Agrifood climate finance is being reframed from a volume problem into a quality, access, governance, and local-ownership problem",
+  "theme_ids": ["cost", "energy", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "FAO and CIRAD, Exploring the quality of climate finance for agrifood systems",
+  "geography": "Global agrifood systems, with attention to climate-vulnerable countries, communities, farmers, women, and local institutions",
+  "observations": [
+    {
+      "period": "2026 report announcement",
+      "denominator": {"value": 1, "unit": "global agrifood-system climate-risk frame", "value_type": "reported_scope"},
+      "measures": {
+        "emissions_role": {"value": "Agrifood systems generate approximately one third of global greenhouse-gas emissions", "unit": "share of global greenhouse-gas emissions", "value_type": "reported"},
+        "exposure_role": {"value": "Agrifood systems are highly exposed to climate impacts and are central to climate solutions", "unit": "reported system position", "value_type": "reported_framework"},
+        "finance_gap": {"value": "Climate finance for agrifood systems remains insufficient and often poorly aligned with the needs of climate-vulnerable countries and communities", "unit": "reported finance diagnosis", "value_type": "reported_interpretation"}
+      },
+      "method": "Joint FAO-CIRAD report and official FAO summary mapping emerging positions, proposals, dilemmas, risks, and good practices concerning the quality of climate finance for agrifood systems.",
+      "uncertainty": "The public announcement does not expose the full evidence base, finance classifications, or denominator definitions behind the reported one-third framing; it is a systems review and framework, not a causal impact evaluation.",
+      "subgroup": "Farmers, food-system workers, women, rural communities, climate-vulnerable countries, local institutions, funders, and recipients of climate finance.",
+      "counterinterpretation": "Increasing climate finance volume may still produce weak outcomes if money is poorly targeted, inaccessible, debt-creating, or disconnected from local institutions and agrifood livelihoods.",
+      "source_url": "https://www.fao.org/food-agriculture-sustainable-transformation-partnership/news-and-events/news/detail/new-fao-cirad-report-calls-for-better-quality-climate-finance-for-agrifood-systems/en",
+      "retrieval_hash": "sha256:7912862459ff7f9ea182d7d555c176d891613229130eb1b0c5993830fbdd780c",
+      "status": "reported"
+    },
+    {
+      "period": "2024 finance flows, reported in 2026 FAO FAST Partnership update",
+      "denominator": {"value": 1, "unit": "international climate-finance flow comparison", "value_type": "reported_comparison"},
+      "measures": {
+        "agrifood_flow_change": {"value": -10, "unit": "percent change in climate-finance flows to agrifood systems in 2024", "value_type": "reported"},
+        "relative_decline": {"value": "The agrifood decline was five times larger than the overall decline in climate finance", "unit": "relative decline comparison", "value_type": "reported_comparison"},
+        "food_producing_sector_share": {"value": 5, "unit": "percent of total international public finance received by crops, forestry, livestock, and fishery", "value_type": "reported"}
+      },
+      "method": "Official FAO FAST Partnership update citing new FAO data and a September 2026 multi-stakeholder meeting on increasing and improving climate finance reaching agrifood systems.",
+      "uncertainty": "The public update does not provide the underlying time series, currency basis, sector-boundary choices, or whether the 5 percent denominator includes all international public finance categories; these are reported headline comparisons.",
+      "subgroup": "Food-producing sectors, farmers, communities, governments, financial institutions, and countries seeking adaptation and resilience finance.",
+      "counterinterpretation": "A falling flow can reflect temporary portfolio timing or reclassification, while a small sector share can hide substantial private, domestic, or off-budget financing not counted in the international public-finance measure.",
+      "source_url": "https://www.fao.org/food-agriculture-sustainable-transformation-partnership/news-and-events/news/detail/fast-partnership-builds-bridges-to-strengthen-climate-finance-for-agrifood-systems/en",
+      "retrieval_hash": "sha256:7912862459ff7f9ea182d7d555c176d891613229130eb1b0c5993830fbdd780c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 quality-of-finance framework",
+      "denominator": {"value": 1, "unit": "FAO-CIRAD climate-finance quality framework", "value_type": "reported_framework"},
+      "measures": {
+        "capital_dimension": {"value": "Quality depends on the source and cost of capital, including who pays, who bears risk, and which interventions or beneficiaries qualify", "unit": "reported analytical dimension", "value_type": "reported_mechanism"},
+        "governance_dimension": {"value": "Quality also depends on how finance is allocated and monitored, by whom, and according to whose knowledge", "unit": "reported analytical dimension", "value_type": "reported_mechanism"},
+        "distributional_tension": {"value": "The report highlights an equity-efficiency paradox in designing climate finance for agrifood systems", "unit": "reported policy tension", "value_type": "reported_interpretation"}
+      },
+      "method": "FAO-CIRAD synthesis that develops a comprehensive framework for examining the quality of climate finance rather than tracking volume alone.",
+      "uncertainty": "The public summary does not specify a single scoring rule or demonstrate that the framework predicts project outcomes; it is an analytical and policy framework.",
+      "subgroup": "Funders, ministries, development banks, financial intermediaries, farmers, communities, local governments, and civil-society organizations.",
+      "counterinterpretation": "A stronger quality framework can improve accountability, but additional governance requirements may also slow disbursement or privilege organizations with greater administrative capacity.",
+      "source_url": "https://www.fao.org/food-agriculture-sustainable-transformation-partnership/news-and-events/news/detail/new-fao-cirad-report-calls-for-better-quality-climate-finance-for-agrifood-systems/en",
+      "retrieval_hash": "sha256:7912862459ff7f9ea182d7d555c176d891613229130eb1b0c5993830fbdd780c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 implementation and reform agenda",
+      "denominator": {"value": 1, "unit": "FAO-CIRAD and FAST Partnership reform agenda", "value_type": "reported_framework"},
+      "measures": {
+        "failure_modes": {"value": "Prior climate finance is described as donor-driven, weak in local ownership, poorly coordinated, reliant on inappropriate instruments, and too short-term or project-based", "unit": "reported structural failure set", "value_type": "reported_diagnosis"},
+        "priority_routes": {"value": "Proposed routes include just transitions, locally led climate action, social protection, secure community rights over natural resources, systemic rather than isolated project approaches, and greater fiscal or concessional space amid debt", "unit": "reported policy route set", "value_type": "reported_recommendation"},
+        "coordination_mechanism": {"value": "The report proposes a multi-stakeholder quality lab and inclusive dialogue between funders and recipients", "unit": "reported governance proposal", "value_type": "reported_proposal"}
+      },
+      "method": "Official FAO reporting on the FAO-CIRAD report and FAST Partnership engagement with governments, financial institutions, intergovernmental organizations, civil society, youth, farmers' organizations, and networks.",
+      "uncertainty": "The agenda identifies reforms and participation principles but does not establish that a quality lab, local leadership, or systemic finance model will be adopted or improve realized outcomes.",
+      "subgroup": "Local communities, Indigenous and farmer organizations, women, youth, public agencies, development financiers, civil society, and climate-vulnerable countries.",
+      "counterinterpretation": "Locally led and rights-based finance can improve legitimacy and fit, while fragmented local priorities and multiple veto points can make cross-border, infrastructure, or rapid-response investments harder to coordinate.",
+      "source_url": "https://www.fao.org/food-agriculture-sustainable-transformation-partnership/news-and-events/news/detail/new-fao-cirad-report-calls-for-better-quality-climate-finance-for-agrifood-systems/en",
+      "retrieval_hash": "sha256:7912862459ff7f9ea182d7d555c176d891613229130eb1b0c5993830fbdd780c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/food-agriculture-sustainable-transformation-partnership/news-and-events/news/detail/fast-partnership-builds-bridges-to-strengthen-climate-finance-for-agrifood-systems/en", "claim": "FAO reports 2024 agrifood climate-finance flow and international public-finance share comparisons and describes the FAST Partnership response."},
+    {"source_url": "https://doi.org/10.4060/ce1255en", "claim": "FAO publication identifier for Exploring the quality of climate finance for agrifood systems."}
+  ],
+  "boundary": "This record captures an official FAO-CIRAD systems-level signal that climate finance for agrifood systems must be evaluated by quality, access, cost, governance, equity, and local ownership as well as volume. It is not respondent-level evidence, a causal evaluation of finance projects, or proof that the proposed reforms will be implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FAO news page reviewed for report date, agrifood emissions and climate-exposure framing, finance gap, capital and governance dimensions, equity-efficiency tension, failure modes, and reform proposals; related FAO FAST update reviewed for 2024 finance-flow comparisons.",
+    "source_url_sha256": "sha256:7912862459ff7f9ea182d7d555c176d891613229130eb1b0c5993830fbdd780c",
+    "checked": "2026-09-27"
+  }
+}

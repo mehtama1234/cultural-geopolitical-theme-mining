@@ -1,0 +1,145 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport",
+  "title": "Australian household spending held up in August through transport while recreation and culture reversed its July rise",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "firm_sector_market_power",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Australian Bureau of Statistics Monthly Household Spending Indicator, August 2026",
+  "geography": "Australia; national and state/territory household-spending estimates",
+  "observations": [
+    {
+      "period": "August 2026; national household spending",
+      "denominator": {
+        "value": null,
+        "unit": "ABS monthly household-spending indicator built from aggregated, de-identified bank-card transactions, supermarket transactions, and new-vehicle sales; transaction-provider sample size is not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "total_current_price_monthly": {
+          "value": 0.0,
+          "unit": "percent month-on-month change in seasonally adjusted current-price household spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "total_current_price_annual": {
+          "value": 6.8,
+          "unit": "percent year-on-year change in seasonally adjusted current-price household spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "transport_monthly": {
+          "value": 2.3,
+          "unit": "percent month-on-month change in seasonally adjusted current-price transport spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "mechanism": {
+          "value": "Flat aggregate spending concealed a category rotation toward transport, with fuel spending rising after the restoration of fuel excise duty and electric-vehicle sales contributing",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS Monthly Household Spending Indicator using aggregated, de-identified bank-card transactions, supermarket transactions, and new-vehicle sales, benchmarked to annual household final consumption expenditure and adjusted for coverage gaps.",
+      "uncertainty": "The release does not publish unique households, income or demographic cross-tabs, cash share, merchant-level detail, or household-level trajectories; current-price changes are not quantity-adjusted.",
+      "subgroup": "Australian households represented by the indicator; state and territory estimates are place aggregates rather than panel outcomes.",
+      "counterinterpretation": "Transport growth may reflect fuel prices, tax timing, vehicle purchases, commuting, or seasonal travel rather than a broad increase in household mobility or discretionary capacity.",
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/aug-2026",
+      "retrieval_hash": "sha256:c0df466ea0e1a5181b84d3d532436c8ef407c30991a7bc4f4f85caa814f25256",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; recreation-and-culture category reversal",
+      "denominator": {
+        "value": null,
+        "unit": "ABS household-spending transactions allocated to the recreation-and-culture COICOP category; unique-household denominator not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "recreation_culture_current_price_monthly": {
+          "value": -1.4,
+          "unit": "percent month-on-month change in seasonally adjusted current-price recreation and culture spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "recreation_culture_current_price_annual": {
+          "value": 6.1,
+          "unit": "percent year-on-year change in seasonally adjusted current-price recreation and culture spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "discretionary_goods_services_monthly": {
+          "value": -0.3,
+          "unit": "percent month-on-month change in seasonally adjusted current-price discretionary goods and services spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "mechanism": {
+          "value": "The July recreation-and-culture increase did not persist into August: aggregate annual growth remained positive while the near-term cultural/leisure category contracted",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS seasonally adjusted current-price category estimates for August, with the release's comparison to July and annual movement.",
+      "uncertainty": "The category combines diverse goods and services and does not identify event attendance, ticket prices, unique consumers, household income, or whether the July increase reflected major-event timing.",
+      "subgroup": "Australian household transactions allocated to recreation and culture; this is not a direct cultural-participation measure.",
+      "counterinterpretation": "The fall may reflect the end of major sporting events, seasonal timing, price changes, or ordinary volatility rather than a durable retreat from cultural or leisure spending.",
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/aug-2026",
+      "retrieval_hash": "sha256:c0df466ea0e1a5181b84d3d532436c8ef407c30991a7bc4f4f85caa814f25256",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; state and territory current-price divergence",
+      "denominator": {
+        "value": null,
+        "unit": "seasonally adjusted current-price household spending estimates by Australian state and territory; state household counts and unique transaction frames are not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "state_monthly_total": {
+          "value": {"New South Wales": 0.3, "Victoria": -0.4, "Queensland": 0.3, "South Australia": 0.1, "Western Australia": -0.2, "Tasmania": -0.5, "Northern Territory": 0.1, "Australian Capital Territory": -0.5},
+          "unit": "percent month-on-month change in seasonally adjusted current-price total household spending",
+          "value_type": "official_subnational_estimate"
+        },
+        "state_range": {
+          "value": 0.8,
+          "unit": "percentage-point range between the strongest and weakest state/territory monthly total-spending changes",
+          "value_type": "derived_from_official_estimates"
+        },
+        "mechanism": {
+          "value": "A flat national total contained place-specific contraction and growth, so national consumer resilience cannot be treated as evenly distributed across Australia",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS state and territory seasonally adjusted current-price household-spending estimates for August 2026.",
+      "uncertainty": "State aggregates do not identify within-state inequality, prices, population composition, tourism, household income, or a causal reason for the observed divergence.",
+      "subgroup": "Australian states and territories; these are place aggregates, not matched household outcomes.",
+      "counterinterpretation": "Small monthly differences may be seasonal or within revision error; the range should not be treated as a durable regional ranking.",
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/aug-2026",
+      "retrieval_hash": "sha256:c0df466ea0e1a5181b84d3d532436c8ef407c30991a7bc4f4f85caa814f25256",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator-methodology",
+      "claim": "ABS methodology documents the bank-card, supermarket, vehicle-sales, benchmarking, COICOP, and coverage-adjustment framework.",
+      "status": "official-methodology"
+    },
+    {
+      "source_url": "https://www.abs.gov.au/media-centre/media-releases/household-spending-unchanged-august",
+      "claim": "ABS release summary reports flat total spending, the 1.4% recreation-and-culture fall, transport growth, and fuel/vehicle contributors.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/jul-2026",
+      "claim": "July 2026 is the immediately preceding release and supplies the comparison point for the recreation-and-culture reversal.",
+      "status": "official-comparator"
+    }
+  ],
+  "boundary": "This record follows the ABS transaction-based household-spending series one month forward. It does not establish individual cultural attendance, household welfare, affordability, unique consumers, causal substitution, or equal access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ABS August 2026 Monthly Household Spending Indicator page, media release, methodology page, and July comparator were reviewed for total spending, recreation-and-culture reversal, transport growth, state variation, data inputs, and measurement limits.",
+    "checked": "2026-09-30"
+  }
+}

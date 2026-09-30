@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-timor-leste-vanilla-value-chain-skills-decent-work-2026",
+  "title": "A heritage crop becomes a global value-chain test: market access must be built with farmer voice and decent work",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Development of the Timor-Leste vanilla value chain roadmap including associated skills needs and stocktaking of working conditions, September 2026",
+  "geography": "Timor-Leste, with the vanilla value chain spanning rural farms, collectors, processors, traders, domestic markets and export links to Indonesia",
+  "observations": [
+    {
+      "period": "1989–2025; emergence of the Timor-Leste vanilla trade",
+      "denominator": {"value": 1, "unit": "Timor-Leste vanilla industry and recorded trade frame", "value_type": "reported_sector_frame"},
+      "measures": {
+        "trade_start": {"value": "Cultivation dates back to around 1989, but recorded trade only began in 2020", "unit": "reported industry history", "value_type": "reported_history"},
+        "export_volume": {"value": 6.3, "unit": "metric tonnes of dried and cured vanilla exported in 2025, primarily to Indonesia", "value_type": "reported_trade_measure"},
+        "market_structure": {"value": "The country has a limited number of processors, buyers and regular trading partners; vanilla remains a secondary crop for most farmers", "unit": "reported market condition", "value_type": "reported_constraint"},
+        "mechanism": {"value": "Low volumes, inadequate infrastructure and concentrated buyer and processor access weaken farmer bargaining power and reduce incentives to invest in quality", "unit": "bounded value-chain mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO value-chain roadmap based on fieldwork, primary and secondary data, global market review and interviews with public, private and value-chain actors.",
+      "uncertainty": "The report describes an emerging sector and a 2025 export snapshot; it does not estimate a causal effect of vanilla expansion on household income, poverty, bargaining power or rural wellbeing.",
+      "subgroup": "Smallholder vanilla farmers, collectors, processors, traders and rural communities in Timor-Leste, especially people treating vanilla as a secondary crop.",
+      "counterinterpretation": "A small export base can still be strategically valuable if it supports learning, quality upgrading and a differentiated origin position; larger volume is not the only development objective.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/20260903%20Vanilla%20Road%20Map%20Final%20(002).pdf",
+      "retrieval_hash": "sha256:333b231bdc5e169e4f04cf28100c2688777e59c9b8aa70d0a5afc4aa08723272",
+      "status": "reported"
+    },
+    {
+      "period": "2026 roadmap; staged upgrading of production, coordination and market access",
+      "denominator": {"value": 1, "unit": "ILO three-phase vanilla value-chain roadmap", "value_type": "reported_roadmap_frame"},
+      "measures": {
+        "phase_i": {"value": "Strengthen foundations through Good Agricultural Practices training, nurseries, supporting infrastructure and national data on production, cultivated area, productivity and exports", "unit": "reported roadmap phase", "value_type": "reported_policy_recommendation"},
+        "phase_ii": {"value": "Strengthen farmer cooperatives and value-chain coordination to share knowledge, improve access to certification and finance, and increase bargaining power with processors and buyers", "unit": "reported roadmap phase", "value_type": "reported_policy_recommendation"},
+        "phase_iii": {"value": "Expand domestic processing and higher-value products such as vanilla extract, improve quality-standard compliance and use trade promotion and international partnerships to reach export markets", "unit": "reported roadmap phase", "value_type": "reported_policy_recommendation"},
+        "mechanism": {"value": "A rural commodity becomes a more durable livelihood pathway when production capability, collective voice, value addition and market access are sequenced rather than treated as separate projects", "unit": "bounded upgrading mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO roadmap synthesis of value-chain diagnostics, SWOT analysis, business-development planning and skills analysis.",
+      "uncertainty": "The three phases are proposed sequencing and implementation guidance, not a tested intervention package; results depend on public capacity, finance, infrastructure, buyer demand and producer organization.",
+      "subgroup": "Farmers and cooperatives, processors, traders, government agriculture and trade agencies, training providers, certifiers, financiers and export partners.",
+      "counterinterpretation": "Cooperatives and certification can impose costs or administrative burdens without improving prices if buyers remain concentrated and domestic processing does not create real alternatives.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/20260903%20Vanilla%20Road%20Map%20Final%20(002).pdf",
+      "retrieval_hash": "sha256:333b231bdc5e169e4f04cf28100c2688777e59c9b8aa70d0a5afc4aa08723272",
+      "status": "reported"
+    },
+    {
+      "period": "2026; skills, inclusion, consumer meaning and working conditions across the value chain",
+      "denominator": {"value": 1, "unit": "Timor-Leste vanilla occupations, skills and working-conditions assessment", "value_type": "reported_work_frame"},
+      "measures": {
+        "consumer_positioning": {"value": "Agroforestry-integrated production and largely organic practices without synthetic fertilizers or chemical pesticides align with demand for sustainably produced, minimally processed and naturally cultivated products", "unit": "reported market-positioning observation", "value_type": "reported_consumer_signal"},
+        "inclusion": {"value": "The roadmap identifies targeted skills development and more inclusive participation as routes to create opportunities for women and young people", "unit": "reported workforce recommendation", "value_type": "reported_inclusion_recommendation"},
+        "hazards": {"value": "Occupational risks span biological, physical, chemical, psychosocial, ergonomic, safety-related and natural hazards across the value chain", "unit": "reported occupational-risk typology", "value_type": "reported_risk_typology"},
+        "mechanism": {"value": "A culturally legible, sustainable origin story becomes socially durable only when the skills and safety conditions behind the product are visible in the value-chain design", "unit": "bounded cultural-economy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO assessment of occupations, skill levels and occupational safety and health conditions, combined with the roadmap's analysis of sustainable production and international consumer demand.",
+      "uncertainty": "The report identifies alignment with consumer demand but does not measure willingness to pay, brand recognition, export premium, household distribution of gains or improved safety outcomes.",
+      "subgroup": "Women and young people entering rural value-chain occupations, farmers and processors exposed to work hazards, and consumers and buyers seeking natural or sustainably produced products.",
+      "counterinterpretation": "Sustainability language can be captured by exporters or buyers without improving producer income or safety; certification and quality compliance can also exclude smaller farmers if finance and support are absent.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/20260903%20Vanilla%20Road%20Map%20Final%20(002).pdf",
+      "retrieval_hash": "sha256:333b231bdc5e169e4f04cf28100c2688777e59c9b8aa70d0a5afc4aa08723272",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/development-timor-leste-vanilla-value-chain-roadmap-including-associated", "claim": "Official ILO publication page with date, authors, DOI and three-phase roadmap scope."},
+    {"source_url": "https://www.ilo.org/resource/news/new-study-charts-path-forward-timor-leste%E2%80%99s-vanilla-industry", "claim": "Official ILO news summary with 2025 export volume, market constraints, agroforestry positioning, inclusion and occupational-risk findings."},
+    {"source_url": "https://doi.org/10.54394/00035204", "claim": "Official DOI for the Timor-Leste vanilla value-chain roadmap."}
+  ],
+  "boundary": "This record identifies a value-chain, bargaining-power, skills, consumer-positioning and decent-work theme. It does not establish that the roadmap will increase farmer income, create durable jobs, improve safety, produce an export premium, strengthen women’s or youth economic power, or distribute value fairly; those require follow-up data on prices, contracts, processing, certification, work conditions, household outcomes and buyer concentration.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO 50-page PDF and publication/news pages, Timor-Leste production and trade history, 2025 export volume, market structure, agroforestry practices, three-phase roadmap, skills, inclusion, consumer-positioning and occupational-risk findings were reviewed.",
+    "source_url_sha256": "sha256:333b231bdc5e169e4f04cf28100c2688777e59c9b8aa70d0a5afc4aa08723272",
+    "checked": "2026-09-29"
+  }
+}

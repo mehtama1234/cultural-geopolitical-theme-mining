@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-colombia-dane-cultural-creative-economy-2025-value-added-employment-divergence",
+  "title": "Colombia's cultural and creative economy expands overall while cultural industries contract and employment composition shifts",
+  "theme_ids": ["voice", "work", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "DANE Cuenta Satélite de Economía Cultural y Creativa, 2023 definitive–2025 preliminary",
+  "geography": "Colombia",
+  "observations": [
+    {
+      "period": "2025 preliminary; Colombian cultural and creative economy production account",
+      "denominator": {"value": 1, "unit": "national cultural and creative economy production account; includes observed-economy units and micronegocios", "value_type": "aggregate_account"},
+      "measures": {
+        "cultural_creative_gross_value_added_current": {"value": 47892.222, "unit": "billions of Colombian pesos at current prices", "value_type": "reported_level"},
+        "cultural_creative_gross_value_added_current_2024": {"value": 44379.788, "unit": "billions of Colombian pesos at current prices; provisional", "value_type": "reported_level"},
+        "cultural_creative_gross_value_added_current_change": {"value": 7.9, "unit": "percent from 2024 provisional current-price value added", "value_type": "reported_change"},
+        "cultural_creative_share_of_national_value_added_average": {"value": 2.89, "unit": "percent average of national gross value added, 2023-2025 preliminary/provisional series", "value_type": "reported_share"},
+        "functional_creations_share": {"value": 53.5, "unit": "percent of cultural and creative economy gross value added in 2025 preliminary", "value_type": "reported_share"},
+        "arts_and_heritage_share": {"value": 30.5, "unit": "percent of cultural and creative economy gross value added in 2025 preliminary", "value_type": "reported_share"},
+        "cultural_industries_share": {"value": 16.0, "unit": "percent of cultural and creative economy gross value added in 2025 preliminary", "value_type": "reported_share"}
+      },
+      "method": "DANE satellite-account production framework extending national accounts across arts and heritage, cultural industries, and functional creations; figures include observed economic units and micronegocios, with 2025 marked preliminary and 2024 provisional.",
+      "uncertainty": "Current-price value added is not real household consumption, cultural participation, or artist welfare. Preliminary/provisional status, revisions, scope definitions, and inclusion of micronegocios affect comparisons; the total can grow through prices, composition, or production without equal audience access.",
+      "subgroup": "Colombian cultural and creative economy at national level, divided into arts and heritage, cultural industries, and functional creations.",
+      "counterinterpretation": "The sector's 2.89% average national value-added share is economically meaningful but does not imply proportional cultural influence or broad consumer access; functional creations dominate the aggregate while many public-facing cultural forms may remain smaller.",
+      "source_url": "https://www.dane.gov.co/files/operaciones/CSECC/bol-CSECC-2025pr.pdf",
+      "retrieval_hash": "sha256:e2d81c64f2a62d7c035d36e159a56df7f72b9edff66512c06f32d05e1435905c",
+      "status": "reported"
+    },
+    {
+      "period": "2025 preliminary; real-volume and cultural-segment divergence",
+      "denominator": {"value": 1, "unit": "national chained-volume cultural and creative economy value-added account, reference year 2015", "value_type": "aggregate_index"},
+      "measures": {
+        "total_cultural_creative_real_value_added_change": {"value": 2.6, "unit": "percent from 2024 provisional chained-volume value added", "value_type": "reported_change"},
+        "arts_heritage_real_value_added_change": {"value": 4.3, "unit": "percent from 2024 provisional chained-volume value added", "value_type": "reported_change"},
+        "cultural_industries_real_value_added_change": {"value": -1.1, "unit": "percent from 2024 provisional chained-volume value added", "value_type": "reported_change"},
+        "functional_creations_real_value_added_change": {"value": 2.9, "unit": "percent from 2024 provisional chained-volume value added", "value_type": "reported_change"},
+        "cultural_industries_audiovisual_average_segment_share": {"value": 55.5, "unit": "percent of cultural-industries value added across 2023-2025 preliminary/provisional series", "value_type": "reported_share"},
+        "functional_creations_digital_software_average_segment_share": {"value": 71.7, "unit": "percent of functional-creations value added across 2023-2025 preliminary/provisional series", "value_type": "reported_share"},
+        "arts_heritage_tourism_cultural_average_segment_share": {"value": 38.9, "unit": "percent of arts-and-heritage value added across 2023-2025 preliminary/provisional series", "value_type": "reported_share"}
+      },
+      "method": "DANE chained-volume series and segment composition tables; real-volume growth is separated from current-price value added and segment shares use the account's defined economic areas.",
+      "uncertainty": "The account's segments are production classifications, not consumer categories. Segment shares do not establish platform causality, audience demand, cultural value, or distribution of income among workers and firms.",
+      "subgroup": "Arts and heritage, cultural industries, and functional creations; segments include audiovisual, editorial, tourism cultural, education cultural, and digital media/software.",
+      "counterinterpretation": "Overall creative-economy growth hides a sectoral split: arts and heritage and digital/functional production expand while cultural industries contract in real terms. This can reflect demand substitution, production costs, business restructuring, or measurement boundaries rather than a single cultural decline.",
+      "source_url": "https://www.dane.gov.co/files/operaciones/CSECC/bol-CSECC-2025pr.pdf",
+      "retrieval_hash": "sha256:e2d81c64f2a62d7c035d36e159a56df7f72b9edff66512c06f32d05e1435905c",
+      "status": "reported"
+    },
+    {
+      "period": "2025 preliminary; Colombian cultural and creative employment",
+      "denominator": {"value": 820478, "unit": "people occupied in the cultural and creative economy in 2025 preliminary; employment account", "value_type": "reported_count"},
+      "measures": {
+        "cultural_creative_occupancy_change": {"value": 1.7, "unit": "percent from 2024", "value_type": "reported_change"},
+        "arts_heritage_occupancy_change": {"value": 4.6, "unit": "percent from 2024", "value_type": "reported_change"},
+        "cultural_industries_occupancy_change": {"value": -2.3, "unit": "percent from 2024", "value_type": "reported_change"},
+        "functional_creations_occupancy_change": {"value": -0.3, "unit": "percent from 2024", "value_type": "reported_change"},
+        "cultural_creative_full_time_equivalent_change": {"value": 2.9, "unit": "percent from 2024; equivalent full-time jobs", "value_type": "reported_change"},
+        "arts_heritage_share_of_occupancy": {"value": 46.7, "unit": "percent of cultural and creative economy occupied people in 2025 preliminary", "value_type": "reported_share"},
+        "cultural_industries_share_of_occupancy": {"value": 12.6, "unit": "percent of cultural and creative economy occupied people in 2025 preliminary", "value_type": "reported_share"},
+        "functional_creations_share_of_occupancy": {"value": 40.7, "unit": "percent of cultural and creative economy occupied people in 2025 preliminary", "value_type": "reported_share"}
+      },
+      "method": "DANE cultural satellite account labor measures for occupied people and equivalent full-time jobs, with 2025 preliminary estimates by cultural-economic area.",
+      "uncertainty": "Occupation counts and full-time-equivalent jobs are not earnings, job quality, creative autonomy, or worker security. Area-level changes can hide informal work, multiple jobs, hours, gender differences, and segment-specific bargaining power.",
+      "subgroup": "Occupied people and full-time-equivalent jobs in arts and heritage, cultural industries, and functional creations.",
+      "counterinterpretation": "Total employment and full-time-equivalent work can grow while cultural-industry employment falls; the split suggests that sectoral expansion does not automatically mean stable work across the cultural economy.",
+      "source_url": "https://www.dane.gov.co/files/operaciones/CSECC/bol-CSECC-2025pr.pdf",
+      "retrieval_hash": "sha256:e2d81c64f2a62d7c035d36e159a56df7f72b9edff66512c06f32d05e1435905c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.dane.gov.co/index.php/estadisticas-por-tema/cuentas-nacionales/cuentas-satelite/cuenta-satelite-de-cultura-en-colombia/cuenta-satelite-de-economia-cultural-y-creativa-csecc-2023-2025pr", "claim": "DANE's official CSECC 2023-2025pr page provides the release context, segment visualizations, employment materials, and downloadable tables.", "status": "official-program-page"},
+    {"source_url": "https://www.dane.gov.co/files/operaciones/CSECC/anex-CSECC-ConsolidadSegmento-2025pr.xlsx", "claim": "Official DANE consolidated segment workbook provides the segment-level value-added tables underlying the cultural-economy comparison.", "status": "official-data-table"},
+    {"source_url": "https://www.dane.gov.co/files/operaciones/CSECC/anex-CSECC-Empleo-2025p.xlsx", "claim": "Official DANE employment workbook provides occupied-person and work-equivalent tables for the cultural and creative economy.", "status": "official-employment-table"}
+  ],
+  "boundary": "This record adds a Colombia supply-side cultural-economy and labor layer to the Mexico household-budget and participation findings. It does not measure consumer attendance, household cultural spending, subjective cultural meaning, firm profitability, earnings distribution, or causal effects. 2025 values are preliminary and 2024 values provisional where marked by DANE.",
+  "retrieval_hash": "sha256:e2d81c64f2a62d7c035d36e159a56df7f72b9edff66512c06f32d05e1435905c"
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-social-protection-climate-insurance-2026-just-transition",
+  "title": "Climate policy and climate shocks are being linked to social-protection design, insurance coverage, livelihood security, and the conditions of a just transition",
+  "theme_ids": ["cost", "work", "energy", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "care_health_reproduction",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "International Labour Organization and Agence Française de Développement, Social Protection and Climate Change: The Role of Social Insurance",
+  "geography": "Global social-protection systems, workers, households, and states facing climate impacts and low-emissions transitions",
+  "observations": [
+    {
+      "period": "2026 publication; global social-protection coverage frame",
+      "denominator": {"value": 1, "unit": "global social-protection system frame", "value_type": "published_assessment"},
+      "measures": {
+        "coverage_gap": {"value": "more than half of the world’s population, including the most vulnerable, still lack basic social-protection coverage", "unit": "reported global coverage assessment", "value_type": "reported_assessment"},
+        "life_cycle_function": {"value": "social protection is framed as coverage against life-cycle risks", "unit": "reported institutional function", "value_type": "reported_framework"},
+        "climate_threat": {"value": "climate change threatens development gains, poverty reduction, livelihoods, health, living standards, and social equality", "unit": "reported risk pathway", "value_type": "reported_assessment"}
+      },
+      "method": "ILO-AFD report based on a literature review, analytical work, and ILO normative frameworks; the publication states that the underlying analysis was conducted in 2022 and not updated for subsequent developments.",
+      "uncertainty": "The global coverage statement and analytical findings reflect the report’s original research timeframe; they are not a current administrative census or a causal estimate of climate effects on particular households.",
+      "subgroup": "Workers, households, informal workers, vulnerable populations, people facing climate hazards, and communities with limited access to social insurance or social assistance.",
+      "counterinterpretation": "Social protection can buffer climate and life-cycle risk, but eligibility, contribution requirements, benefit adequacy, administrative access, and fiscal capacity can leave exposed groups outside effective protection.",
+      "source_url": "https://www.ilo.org/publications/social-protection-and-climate-change-role-social-insurance",
+      "retrieval_hash": "sha256:4cbc2dc554ce56953a7f919a8a2a3311e3de53b2084d7283a8dd3a68664a49a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; social protection and climate action synergy",
+      "denominator": {"value": 1, "unit": "ILO-AFD climate and social-protection linkage frame", "value_type": "published_framework"},
+      "measures": {
+        "shared_goal": {"value": "universal social protection and climate action share the urgent goal of protecting people and planet", "unit": "reported policy synergy", "value_type": "reported_principle"},
+        "adaptation_route": {"value": "social-protection mechanisms can help address the social consequences of climate change and climate policies", "unit": "reported policy route", "value_type": "reported_mechanism"},
+        "policy_integration": {"value": "climate policies should be considered alongside social-protection mechanisms rather than treated as separate domains", "unit": "reported governance direction", "value_type": "reported_interpretation"}
+      },
+      "method": "Conceptual and analytical synthesis of social-protection mechanisms in relation to climate impacts and climate-policy responses.",
+      "uncertainty": "The report identifies a policy synergy but does not provide a standardized implementation model, comparative outcome estimates, or proof that integration produces equitable adaptation.",
+      "subgroup": "Workers and households exposed to climate shocks, people affected by mitigation policies, governments, social-insurance institutions, employers, and climate-policy implementers.",
+      "counterinterpretation": "Linking climate and social policy can improve protection, but it can also add administrative complexity, shift costs to contributors, or prioritize transition compensation over deeper changes in exposure and power.",
+      "source_url": "https://www.ilo.org/publications/social-protection-and-climate-change-role-social-insurance",
+      "retrieval_hash": "sha256:4cbc2dc554ce56953a7f919a8a2a3311e3de53b2084d7283a8dd3a68664a49a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; contributory social insurance and just transition",
+      "denominator": {"value": 1, "unit": "report’s contributory social-protection focus", "value_type": "published_framework"},
+      "measures": {
+        "underexamined_route": {"value": "contributory social protection in the context of climate policies has received relatively little attention in existing literature", "unit": "reported literature-gap assessment", "value_type": "reported_assessment"},
+        "transition_scope": {"value": "the report connects climate policy, economic and labor-market change, social protection, and the protection of livelihoods and living standards", "unit": "reported transition scope", "value_type": "reported_framework"},
+        "crisis_learning": {"value": "economic, financial, humanitarian, and COVID-19 crises are used as sources of knowledge about possible climate-related disruption", "unit": "reported analytical route", "value_type": "reported_method"}
+      },
+      "method": "Literature review and analytical work focused on contributory social insurance, informed by ILO normative frameworks and lessons from other crises.",
+      "uncertainty": "The report’s evidence base is historical and analytical rather than a current evaluation of contributory schemes; crisis analogies may not reproduce climate-risk conditions or distributional effects.",
+      "subgroup": "Formal and informal workers, employers, contributors, people transitioning between sectors, households facing job or livelihood loss, and social-insurance administrators.",
+      "counterinterpretation": "Contributory insurance can stabilize transitions for covered workers, while contribution-based systems may exclude informal, precarious, unpaid, migrant, or low-income workers unless subsidies and complementary protection are built in.",
+      "source_url": "https://www.ilo.org/publications/social-protection-and-climate-change-role-social-insurance",
+      "retrieval_hash": "sha256:4cbc2dc554ce56953a7f919a8a2a3311e3de53b2084d7283a8dd3a68664a49a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; evidence-timing boundary",
+      "denominator": {"value": 1, "unit": "publication evidence-base timing statement", "value_type": "reported_method_boundary"},
+      "measures": {
+        "analysis_year": {"value": 2022, "unit": "year in which the literature review and analytical work were conducted", "value_type": "reported_method_date"},
+        "publication_year": {"value": 2026, "unit": "publication date", "value_type": "reported_publication_date"},
+        "update_status": {"value": "analysis, data, and references were not updated to incorporate subsequent developments", "unit": "reported evidence limitation", "value_type": "reported_limitation"}
+      },
+      "method": "Direct reproduction of the report’s stated evidence-timing and publication-status caveat.",
+      "uncertainty": "Changes in climate policy, coverage, labor markets, prices, hazards, and social-protection practice after 2022 are outside the underlying analysis.",
+      "subgroup": "Researchers, policymakers, social-protection institutions, workers, employers, and analysts interpreting the report for current policy decisions.",
+      "counterinterpretation": "The older evidence base can still provide a useful conceptual foundation, but current decisions require newer data and context-specific evaluation.",
+      "source_url": "https://www.ilo.org/publications/social-protection-and-climate-change-role-social-insurance",
+      "retrieval_hash": "sha256:4cbc2dc554ce56953a7f919a8a2a3311e3de53b2084d7283a8dd3a68664a49a9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.social-protection.org/gimi/ShowTheme.action?id=12&lang=EN", "claim": "ILO social-protection and just-transition thematic context, including coverage gaps and climate-vulnerable populations."},
+    {"source_url": "https://doi.org/10.54394/00034328", "claim": "Official DOI record for the ILO-AFD publication."}
+  ],
+  "boundary": "This record adds a climate-social-protection and just-transition signal linking climate shocks and policies to lifecycle risk, work, household security, social insurance, coverage gaps, and institutional capacity. It is an ILO-AFD literature review and analytical report whose underlying work was conducted in 2022 and not updated, not a current coverage census, household panel, causal evaluation, or proof that contributory social insurance protects excluded workers.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page and downloadable report were reviewed for the social-protection coverage gap, climate-risk framing, social-protection/climate-action synergy, contributory-insurance focus, crisis-learning route, and explicit 2022 evidence-timing limitation.",
+    "source_url_sha256": "sha256:4cbc2dc554ce56953a7f919a8a2a3311e3de53b2084d7283a8dd3a68664a49a9",
+    "checked": "2026-09-27"
+  }
+}

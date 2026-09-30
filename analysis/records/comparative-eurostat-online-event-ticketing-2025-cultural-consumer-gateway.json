@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-online-event-ticketing-2025-cultural-consumer-gateway",
+  "title": "Online event-ticket buying is becoming a cultural-consumer gateway, with wide national access gaps",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Eurostat, ICT usage by households and individuals dataset isoc_ec_ibgs; 2025 online event-ticket purchase release published August 4, 2026",
+  "geography": "European Union and member countries; individuals aged 16 to 74 in the ICT survey universe",
+  "observations": [
+    {
+      "period": "2025; previous 3 months; EU individuals aged 16 to 74",
+      "denominator": {"value": 1, "unit": "Eurostat ICT-survey percentage universe of individuals aged 16 to 74; respondent count not reported in the release", "value_type": "reported_population_frame"},
+      "measures": {
+        "online_event_ticket_purchase_2025": {"value": 26.8, "unit": "percent purchasing tickets online for events in the previous 3 months", "value_type": "reported_share"},
+        "online_event_ticket_purchase_2024": {"value": 23.0, "unit": "percent purchasing tickets online for events in the previous 3 months", "value_type": "reported_share"},
+        "year_on_year_change": {"value": 3.8, "unit": "percentage-point increase from 2024 to 2025", "value_type": "reported_change"},
+        "mechanism": {"value": "Digital ticketing is an observable gateway between online commerce and live cultural or social participation; growth in the gateway does not by itself show more attendance, affordability, repeat purchase, or equal access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat annual ICT usage survey indicator I_BTICK2, reported as the percentage of individuals purchasing event tickets online in the previous three months; the filtered API extract preserves the 2024 and 2025 EU totals.",
+      "uncertainty": "This is a repeated cross-sectional ICT survey measure of a three-month online purchase, not a transaction ledger or attendance count. It does not identify ticket price, event type, household spending, resale, failed purchase, accessibility, or whether online buying replaced offline purchase.",
+      "subgroup": "EU individuals aged 16 to 74; the release reports an all-individuals aggregate and country comparisons.",
+      "counterinterpretation": "The increase may reflect more events, post-pandemic normalization, changes in supply or ticketing infrastructure, or survey/reporting variation rather than a broad expansion of cultural participation or consumer wellbeing.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260804-1",
+      "retrieval_hash": "sha256:f3eeae50ea083b45318dd964d5736dcdf1a71fde180eb0d8545fac2cbb1b9884",
+      "status": "reported"
+    },
+    {
+      "period": "2025; previous 3 months; country comparison",
+      "denominator": {"value": 1, "unit": "Country-specific Eurostat ICT-survey percentage universes of individuals aged 16 to 74", "value_type": "reported_population_frame"},
+      "measures": {
+        "highest_country": {"value": "Ireland 51.5%; Netherlands 48.1%; Denmark 47.9%", "unit": "percent purchasing event tickets online in the previous 3 months", "value_type": "reported_country_comparison"},
+        "lowest_country": {"value": "Bulgaria 11.4%; Romania 12.6%; Italy 14.2%", "unit": "percent purchasing event tickets online in the previous 3 months", "value_type": "reported_country_comparison"},
+        "range_high_low": {"value": 40.1, "unit": "percentage-point difference between Ireland and Bulgaria", "value_type": "derived_country_range"},
+        "mechanism": {"value": "The online cultural-consumer gateway is highly uneven across countries, leaving open whether the gap is driven by income, card and platform access, event supply, trust, urban concentration, language, or cultural-market structure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat country percentages from the ICT usage by households and individuals survey, as reported in the 2025 release and linked dataset.",
+      "uncertainty": "Country contrasts are descriptive and combine different digital infrastructures, event markets, price levels, survey contexts, and population composition; they do not estimate a causal country effect.",
+      "subgroup": "Individuals aged 16 to 74 in selected EU countries.",
+      "counterinterpretation": "Low online ticket purchase can coexist with strong offline purchasing, free public cultural provision, different event calendars, or lower need for online booking; high online purchase can reflect concentrated commercial supply rather than broad participation.",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_ec_ibgs?lang=en&indic_is=I_BTICK2&ind_type=IND_TOTAL&unit=PC_IND&geo=EU27_2020&time=2024&time=2025",
+      "retrieval_hash": "sha256:93df3dfa8adc5e90371ce83c35407076865894598634fe4ee0af24f51a0b0dcc",
+      "status": "reported"
+    },
+    {
+      "period": "2025; online cultural-consumption context",
+      "denominator": {"value": 1, "unit": "Eurostat ICT survey indicators; denominators and reference windows vary by indicator", "value_type": "reported_population_frame"},
+      "measures": {
+        "transaction_stage": {"value": "Online ticket purchase is a transaction-stage measure distinct from cultural attendance, online content use, and stated cultural importance", "unit": "measurement distinction", "value_type": "bounded_mechanism"},
+        "missing_join": {"value": "ticket purchase -> price paid -> event attendance -> repeat participation -> belonging or cultural value", "unit": "unobserved chain", "value_type": "open"},
+        "consumer_power_question": {"value": "The next test is whether platform ticketing changes price visibility, fees, resale exposure, accessibility, discovery, and the distribution of cultural-market value between audiences, venues, artists, and intermediaries", "unit": "next-test specification", "value_type": "open"}
+      },
+      "method": "Interpretive bridge based on the Eurostat indicator's purchase denominator and the separate cultural-participation and ICT-use measurement families described in the Eurostat culture-statistics documentation.",
+      "uncertainty": "The source does not link respondents to event attendance, cultural identity, provider revenue, platform fees, or household budgets; this observation is a measurement boundary, not an outcome estimate.",
+      "subgroup": "EU individuals aged 16 to 74 in the relevant ICT survey universe.",
+      "counterinterpretation": "Online ticketing may be an administrative convenience for existing attendees rather than a mechanism that creates new cultural demand or changes cultural power.",
+      "source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf",
+      "retrieval_hash": "sha256:fd5f0953177c96fb1b13b6273b170c63cdb018be2763bbb94daac81c90c8a91c",
+      "status": "inferred"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/databrowser/view/ISOC_EC_IBGS__custom_22189741/default/table", "claim": "Interactive table linked by Eurostat for the event-ticket indicator."},
+    {"source_url": "https://ec.europa.eu/eurostat/en/web/culture", "claim": "Eurostat culture-statistics overview spanning participation, ICT use, cultural expenditure, prices, and cultural-sector economics."},
+    {"source_url": "https://ec.europa.eu/eurostat/cache/metadata/en/cult_pcs_esms.htm", "claim": "Eurostat metadata distinguishing cultural participation, ICT cultural use, e-commerce, and transaction-stage indicators."}
+  ],
+  "boundary": "This record adds an online transaction gateway between digital commerce and cultural participation. It is official Eurostat repeated cross-sectional survey evidence, not a ticketing ledger, attendance measure, household-spending estimate, causal platform-power evaluation, or proof that online access expanded cultural belonging or consumer welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat news article, filtered isoc_ec_ibgs API extract for the 2024-2025 EU total, interactive table link, culture-statistics guide, and cultural-participation metadata reviewed; purchase window, age universe, country contrasts, and missing attendance/price joins preserved.",
+    "release_html_sha256": "sha256:f3eeae50ea083b45318dd964d5736dcdf1a71fde180eb0d8545fac2cbb1b9884",
+    "api_sha256": "sha256:93df3dfa8adc5e90371ce83c35407076865894598634fe4ee0af24f51a0b0dcc",
+    "checked": "2026-09-30"
+  }
+}

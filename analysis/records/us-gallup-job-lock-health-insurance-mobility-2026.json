@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-job-lock-health-insurance-mobility-2026",
+  "title": "Employer health insurance is constraining job mobility for a large minority of U.S. workers",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "West Health-Gallup Center on Healthcare in America study of job lock",
+  "geography": "United States; employed adults relying primarily on employer-sponsored health insurance; underlying study fielded October 27-December 22, 2025",
+  "observations": [
+    {
+      "period": "October 27-December 22, 2025; job lock among workers with employer-sponsored insurance",
+      "denominator": {"value": 2322, "unit": "employed respondents whose primary health coverage was employer-sponsored insurance", "value_type": "reported_subsample"},
+      "measures": {
+        "job_lock": {"value": 24, "unit": "percent staying in a current job they want to leave because they fear losing health insurance", "value_type": "published_survey_estimate"},
+        "estimated_workers": {"value": 23, "unit": "million adults represented by the reported estimate", "value_type": "publisher_estimate"},
+        "change_since_2021": {"value": 8, "unit": "percentage-point increase in job-lock reporting since 2021", "value_type": "published_trend_estimate"},
+        "coverage_mobility_lock": {"value": "Employment-linked coverage converts healthcare risk into reduced worker mobility, even when a worker wants to leave the job.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "West Health-Gallup nationally representative study of 5,660 U.S. adults age 18 and older conducted via Gallup Panel web and mail; this estimate focuses on 2,322 employed respondents relying primarily on employer-sponsored coverage.",
+      "uncertainty": "Job lock is self-reported and cross-sectional; the study does not observe actual job transitions, alternative coverage prices, wage offers, employer behavior or subsequent health outcomes.",
+      "subgroup": "Employed adults primarily covered by employer-sponsored health insurance.",
+      "counterinterpretation": "Workers may remain in a job for wages, schedule, location, retirement benefits or job satisfaction as well as insurance; reported fear of losing coverage does not prove insurance is the sole constraint.",
+      "source_url": "https://news.gallup.com/poll/712166/one-four-employees-locked-jobs-health-insurance.aspx",
+      "retrieval_hash": "source_page:sha256:8cbe9448ad5def8f8a5700eb93e9448cc77ed57c1e7530874274677683791cb5",
+      "status": "reported"
+    },
+    {
+      "period": "October 27-December 22, 2025; healthcare financial strain and job lock",
+      "denominator": {"value": 2322, "unit": "employed respondents relying primarily on employer-sponsored health insurance; subgroup denominators vary", "value_type": "reported_subsample"},
+      "measures": {
+        "medical_debt_job_lock": {"value": 44, "unit": "percent among respondents reporting personal or household medical debt who report job lock", "value_type": "published_subgroup_estimate"},
+        "no_medical_debt_job_lock": {"value": 21, "unit": "percent among respondents without medical debt who report job lock", "value_type": "published_subgroup_estimate"},
+        "major_health_burden_job_lock": {"value": 48, "unit": "percent among respondents calling healthcare expenses a major financial burden who report job lock", "value_type": "published_subgroup_estimate"},
+        "debt_to_mobility_route": {"value": "Healthcare debt and financial burden can reduce the practical exit options available to workers, linking medical costs to bargaining power and career choice.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive subgroup comparisons reported from the West Health-Gallup study; subgroup measures are not causal estimates.",
+      "uncertainty": "The source does not establish whether medical debt causes job lock, whether job lock causes later debt, or how household assets, public coverage, spouse coverage and local labor markets modify the association.",
+      "subgroup": "Workers with employer-sponsored coverage, split by medical debt, healthcare burden and healthcare-cost stress.",
+      "counterinterpretation": "Workers experiencing debt may also face worse health, lower wages or fewer alternative jobs, with these conditions jointly producing both debt and job lock.",
+      "source_url": "https://news.gallup.com/poll/712166/one-four-employees-locked-jobs-health-insurance.aspx",
+      "retrieval_hash": "source_page:sha256:8cbe9448ad5def8f8a5700eb93e9448cc77ed57c1e7530874274677683791cb5",
+      "status": "reported"
+    },
+    {
+      "period": "October 27-December 22, 2025; chronic-condition and gender differences in job lock",
+      "denominator": {"value": 2322, "unit": "employed respondents relying primarily on employer-sponsored health insurance; subgroup denominators vary", "value_type": "reported_subsample"},
+      "measures": {
+        "chronic_condition_job_lock": {"value": 29, "unit": "percent among workers reporting one or more chronic conditions who report job lock, versus 17% without such conditions", "value_type": "published_subgroup_estimate"},
+        "multiple_conditions": {"value": 41, "unit": "percent among workers reporting three or more diagnoses who report job lock", "value_type": "published_subgroup_estimate"},
+        "women_job_lock": {"value": 30, "unit": "percent of women versus 20% of men reporting job lock", "value_type": "published_subgroup_estimate"},
+        "life_course_optionality": {"value": "Health needs and gendered exposure can narrow the range of jobs, moves, training or entrepreneurship that feel safely available.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive chronic-condition and gender comparisons from the West Health-Gallup study.",
+      "uncertainty": "These estimates do not isolate gender, diagnosis, caregiving, labor-market discrimination, income, occupation, family coverage or employer benefits; no transition or opportunity outcome is observed.",
+      "subgroup": "Women and men, and workers with differing chronic-condition burdens, among those primarily covered by employer insurance.",
+      "counterinterpretation": "The gender difference may reflect differences in healthcare needs, coverage dependence, occupations, family roles or reporting rather than a direct insurance effect.",
+      "source_url": "https://news.gallup.com/poll/712166/one-four-employees-locked-jobs-health-insurance.aspx",
+      "retrieval_hash": "source_page:sha256:8cbe9448ad5def8f8a5700eb93e9448cc77ed57c1e7530874274677683791cb5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/712166/one-four-employees-locked-jobs-health-insurance.aspx", "claim": "Official Gallup article reports the study frame, job-lock prevalence, trend, healthcare-burden, debt, chronic-condition and gender subgroup estimates."}
+  ],
+  "boundary": "This record adds an employment-linked healthcare route from coverage dependence through job lock, medical debt, chronic-condition exposure, gender differences and constrained mobility. It does not establish causal job lock, actual job transitions, wage effects, entrepreneurship, coverage alternatives, healthcare outcomes or the sole role of insurance in employment decisions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup article was reviewed for the 5,660-person underlying study, 2,322-person employed employer-insurance subsample, field dates, job-lock prevalence and trend, healthcare burden/debt, chronic-condition and gender comparisons, and methodological boundary.",
+    "source_page_sha256": "sha256:8cbe9448ad5def8f8a5700eb93e9448cc77ed57c1e7530874274677683791cb5",
+    "checked": "2026-09-29"
+  }
+}

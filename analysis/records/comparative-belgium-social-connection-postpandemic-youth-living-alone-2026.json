@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-belgium-social-connection-postpandemic-youth-living-alone-2026",
+  "title": "Post-pandemic social connection was broadly stable in Belgium, but young people and those living alone show specific functional losses",
+  "theme_ids": ["voice", "time", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "Verhaegen et al., Social connection before and after the COVID-19 pandemic: results of the Belgian Health Interview Survey, BMC Public Health 2026",
+  "geography": "Belgium, national population aged 15 years and older, with stratified analyses by age, household situation, sex, and education",
+  "observations": [
+    {
+      "period": "2018 versus 2023-2024; national social connection",
+      "denominator": {"value": 13001, "unit": "Belgian Health Interview Survey participants: 2018 N=8075 and 2023-2024 N=4926, age 15+", "value_type": "national_repeated_cross_section"},
+      "measures": {
+        "general_change": {"value": "no statistically significant pre/post difference in social-contact frequency, social support, or social satisfaction in the general population", "unit": "reported population comparison", "value_type": "reported_null_comparison"},
+        "structural_connection": {"value": "social-contact frequency showed no significant difference between 2018 and 2023-2024", "unit": "reported repeated-cross-section comparison", "value_type": "reported_null_comparison"},
+        "functional_connection": {"value": "social support and social satisfaction showed no general pre/post difference, although finer response distributions suggest a subtle shift from very satisfied toward rather satisfied", "unit": "reported repeated-cross-section comparison", "value_type": "reported_pattern"},
+        "recovery_interpretation": {"value": "by 2023-2024, broad Belgian social connection appears more recovered or stable than a simple permanent-decline narrative would imply", "unit": "reported analytic interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "National household health surveys using registry-based multi-stage stratified sampling, post-stratification weighting, and logistic regression comparing 2018 with 2023-2024.",
+      "uncertainty": "The study is repeated cross-sectional rather than longitudinal, lacks an acute-pandemic measurement, and measures selected structural and functional components rather than qualitative relationship quality, loneliness in a fully comparable way, or within-person change.",
+      "subgroup": "Belgian residents aged 15 years and older, with population-level estimates of contact frequency, perceived social support, and social satisfaction.",
+      "counterinterpretation": "A stable national average can conceal localized or subgroup harms, measurement insensitivity, changes in relationship quality, or social changes not captured by the selected indicators.",
+      "source_url": "https://link.springer.com/article/10.1186/s12889-026-26932-1",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    },
+    {
+      "period": "2018 versus 2023-2024; adolescents and young adults aged 15-24",
+      "denominator": {"value": 1, "unit": "stratified age-group comparison within the Belgian Health Interview Survey", "value_type": "reported_subgroup_analysis"},
+      "measures": {
+        "poor_social_support": {"value": "15-24-year-olds had higher odds of poor social support after the pandemic than before it", "unit": "reported adjusted subgroup comparison", "value_type": "reported_subgroup_change"},
+        "other_indicators": {"value": "the study found no significant age-group pre/post effect for social-contact frequency or social satisfaction among 15-24-year-olds", "unit": "reported subgroup comparison", "value_type": "reported_null_comparison"},
+        "developmental_route": {"value": "the authors identify youth social support as a specific point of concern because adolescence and young adulthood depend heavily on close social development and peer connection", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Stratified logistic-regression analysis of the repeated national health surveys, with age-group interaction and subgroup comparisons.",
+      "uncertainty": "The result is an indication from repeated cross-sectional data, not proof that pandemic policies caused the change; small subgroup combinations require caution and the study does not identify the role of school, work, telework, digital media, or household transitions.",
+      "subgroup": "Belgian adolescents and young adults aged 15-24.",
+      "counterinterpretation": "The shift may reflect cohort, economic, educational, or broader generational changes unrelated to the pandemic, and poor social support may not imply reduced contact frequency or dissatisfaction.",
+      "source_url": "https://link.springer.com/article/10.1186/s12889-026-26932-1",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    },
+    {
+      "period": "2018 versus 2023-2024; people living alone",
+      "denominator": {"value": 1, "unit": "stratified household-situation comparison within the Belgian Health Interview Survey", "value_type": "reported_subgroup_analysis"},
+      "measures": {
+        "social_satisfaction": {"value": "people living alone had higher odds of low social satisfaction after the pandemic than before it", "unit": "reported adjusted subgroup comparison", "value_type": "reported_subgroup_change"},
+        "baseline_inequality": {"value": "people living alone also had poorer social connection in general than those not living alone", "unit": "reported population difference", "value_type": "reported_inequality_pattern"},
+        "outside_household_dependence": {"value": "living alone increases reliance on contacts outside the household for social needs, making disruptions to out-of-household connection especially consequential", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"},
+        "younger_intersection": {"value": "the post-pandemic social-satisfaction difference was particularly pronounced among younger people living alone", "unit": "reported subgroup interaction", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "Stratified and interaction analyses of nationally sampled Belgian health-survey data, using social satisfaction and household situation measures.",
+      "uncertainty": "The cross-sectional design cannot establish within-person decline or causality; living alone may proxy age, housing affordability, relationship status, migration, work, health, or other conditions not fully separated in the comparison.",
+      "subgroup": "Belgian residents living alone, especially younger people living alone.",
+      "counterinterpretation": "Living alone does not necessarily mean social isolation, and low satisfaction may reflect changing expectations, relationship quality, or housing and labor conditions rather than pandemic effects alone.",
+      "source_url": "https://link.springer.com/article/10.1186/s12889-026-26932-1",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    },
+    {
+      "period": "1997-2023-2024; long-run Belgian social-connection context",
+      "denominator": {"value": 1, "unit": "repeated Belgian Health Interview Survey time series since 1997 for available indicators", "value_type": "reported_time_series_frame"},
+      "measures": {
+        "infrequent_contacts": {"value": "the percentage reporting infrequent social contacts increased over the long run but appeared to stabilize in the most recent waves", "unit": "reported time-series pattern", "value_type": "reported_trend_pattern"},
+        "low_social_satisfaction": {"value": "low social satisfaction showed a significant increasing long-run trend since the start of measurement", "unit": "reported time-series pattern", "value_type": "reported_trend_pattern"},
+        "inequality_route": {"value": "social connection is patterned by living alone and education even when national post-pandemic averages are stable", "unit": "reported structural pattern", "value_type": "reported_mechanism"},
+        "policy_implication": {"value": "preparedness and social policy should target vulnerable life situations rather than assume a uniform national recovery or decline", "unit": "reported policy implication", "value_type": "reported_policy_proposition"}
+      },
+      "method": "Descriptive contextualization of repeated national survey indicators alongside the 2018 versus 2023-2024 comparison.",
+      "uncertainty": "Available time-series indicators use different questions and may not capture qualitative relationship quality, changing norms, or all dimensions of loneliness and connection.",
+      "subgroup": "Belgian population, with attention to people living alone, youth, education groups, and other sociodemographic strata.",
+      "counterinterpretation": "Long-run trends may reflect reporting changes, demographic shifts, household composition, and survey instruments as well as genuine changes in social life.",
+      "source_url": "https://link.springer.com/article/10.1186/s12889-026-26932-1",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://link.springer.com/article/10.1186/s12889-026-26932-1", "claim": "Open-access BMC Public Health article with abstract, methods, results, subgroup findings, limitations, and long-run context."},
+    {"source_url": "https://link.springer.com/content/pdf/10.1186/s12889-026-26932-1.pdf", "claim": "Publisher PDF for the 12-page peer-reviewed article."}
+  ],
+  "boundary": "This record adds a comparative social-connection route from pandemic-era disruption through national recovery, youth support, living alone, education, social satisfaction, and policy targeting. It is nationally sampled repeated cross-sectional evidence from Belgium, not a longitudinal causal estimate, global trend, qualitative relationship assessment, or proof that pandemic policy caused subgroup changes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Publisher article and accessible full-text source reviewed for survey waves, sample sizes, social-connection dimensions, national findings, youth and living-alone subgroup results, long-run context, methods, and limitations.",
+    "source_page_sha256": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pmnch-global-health-financing-crisis-2026-program-cuts-rights",
+  "title": "Global health-financing pressure is moving from organizational budgets into program closures, service contraction, and unequal rights exposure",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Partnership for Maternal, Newborn & Child Health, Global Funding Crisis Deepens as 7 in 10 PMNCH Partners Report Program Cuts, Suspensions or Closures",
+  "geography": "Partner organizations working on women’s, children’s, and adolescents’ health and rights across at least 67 countries",
+  "observations": [
+    {
+      "period": "2026; partner-organization funding conditions",
+      "denominator": {"value": 67, "unit": "countries represented in the PMNCH partner survey", "value_type": "reported_country_coverage"},
+      "measures": {
+        "reduced_or_uncertain_funding": {"value": "nearly 80%", "unit": "share of surveyed partner organizations reporting reduced or uncertain funding", "value_type": "reported_share"},
+        "program_disruption": {"value": "77%", "unit": "share reporting moderate, significant, or severe impact from global disruptions on advancing women’s, children’s, and adolescents’ health and rights", "value_type": "reported_share"},
+        "downsized_suspended_closed": {"value": "69%", "unit": "share reporting that they had downsized, temporarily suspended, or permanently closed programs", "value_type": "reported_share"}
+      },
+      "method": "PMNCH summary of a survey of partner organizations based in at least 67 countries; the public release reports aggregate organizational responses rather than beneficiary-level outcomes.",
+      "uncertainty": "The survey is an organizational self-report from a PMNCH partner network, not a representative census of all health organizations, a verified service-utilization series, or a causal estimate of financing cuts on mortality or rights outcomes.",
+      "subgroup": "Organizations and communities working on maternal, newborn, child, adolescent, sexual and reproductive health, nutrition, gender equality, disability inclusion, and rights.",
+      "counterinterpretation": "Organizations reporting disruption may be more exposed, more transparent, or more connected to the network than organizations maintaining services; program status does not alone establish beneficiary harm or durable closure.",
+      "source_url": "https://pmnch.who.int/news-and-events/news/item/06-09-2026-global-funding-crisis-deepens-as-7-in-10-pmnch-partners-report-program-cuts-suspensions-or-closures",
+      "retrieval_hash": "sha256:f97b9bf0e65106d1f9b2fa35931ac592726af18ebce6622e683855e46d90d5cb",
+      "status": "reported"
+    },
+    {
+      "period": "2026; affected program areas",
+      "denominator": {"value": 1, "unit": "reported set of program areas affected by funding constraints", "value_type": "reported_program_frame"},
+      "measures": {
+        "most_cited_area": {"value": "sexual and reproductive health and rights", "unit": "most frequently cited affected program area in the release", "value_type": "reported_rank"},
+        "other_affected_areas": {"value": "adolescent programming, maternal and newborn health, and nutrition", "unit": "reported affected program areas", "value_type": "reported_set"},
+        "service_examples": {"value": "contraceptive and family-planning commodities, safe abortion care, antenatal and newborn care, immunization outreach, and nutrition supplementation", "unit": "reported service examples", "value_type": "reported_examples"}
+      },
+      "method": "Qualitative and aggregate synthesis of partner responses describing which programs and service lines are being squeezed.",
+      "uncertainty": "The release does not quantify service-volume loss for each area, establish geographic representativeness, or separate temporary prioritization from permanent loss of access.",
+      "subgroup": "Women, children, adolescents, people with disabilities, and communities relying on local or community-led health and rights programs.",
+      "counterinterpretation": "Reprioritization can protect core services in a crisis, while the same reported shift can still reduce breadth, prevention, outreach, or continuity for groups outside the new priority.",
+      "source_url": "https://pmnch.who.int/news-and-events/news/item/06-09-2026-global-funding-crisis-deepens-as-7-in-10-pmnch-partners-report-program-cuts-suspensions-or-closures",
+      "retrieval_hash": "sha256:f97b9bf0e65106d1f9b2fa35931ac592726af18ebce6622e683855e46d90d5cb",
+      "status": "reported"
+    },
+    {
+      "period": "2026; organizational adaptation routes",
+      "denominator": {"value": 1, "unit": "reported partner response set", "value_type": "reported_response_frame"},
+      "measures": {
+        "strengthening_partnerships": {"value": "59%", "unit": "share reporting stronger partnerships and coalitions as an adaptation", "value_type": "reported_share"},
+        "funding_diversification": {"value": "56%", "unit": "share reporting diversified funding sources", "value_type": "reported_share"},
+        "core_activity_reprioritization": {"value": "51%", "unit": "share reporting reprioritization around core activities", "value_type": "reported_share"},
+        "most_requested_support": {"value": "68% identified information on flexible and core funding as the most helpful support", "unit": "reported support need", "value_type": "reported_share"}
+      },
+      "method": "Descriptive summary of reported organizational responses and requested forms of support.",
+      "uncertainty": "Adaptation shares can overlap, reflect perceived rather than verified effectiveness, and do not show whether the strategies preserve service quality, staff retention, or local accountability.",
+      "subgroup": "Civil-society organizations, health ministries, coalitions, local partners, staff, and communities affected by changing service-delivery models.",
+      "counterinterpretation": "Coalitions, localization, and funding diversification may increase resilience, but they can also shift unpaid coordination burdens, fragment accountability, or move services toward digital and remote forms that exclude some users.",
+      "source_url": "https://pmnch.who.int/news-and-events/news/item/06-09-2026-global-funding-crisis-deepens-as-7-in-10-pmnch-partners-report-program-cuts-suspensions-or-closures",
+      "retrieval_hash": "sha256:f97b9bf0e65106d1f9b2fa35931ac592726af18ebce6622e683855e46d90d5cb",
+      "status": "reported"
+    },
+    {
+      "period": "2026; financing and institutional voice",
+      "denominator": {"value": 1, "unit": "reported financing-reform frame", "value_type": "published_framework"},
+      "measures": {
+        "financing_shift": {"value": "from abrupt, uncertain funding toward flexible, predictable, sustained international and domestic financing", "unit": "reported reform direction", "value_type": "reported_recommendation"},
+        "localization": {"value": "localization and community-based organizations are presented as important mitigation routes", "unit": "reported implementation route", "value_type": "reported_use"},
+        "voice_condition": {"value": "women, children, adolescents, and organizations representing them should have meaningful voice in decisions about scarce resources", "unit": "reported governance principle", "value_type": "reported_principle"}
+      },
+      "method": "Policy interpretation and recommendations accompanying the PMNCH organizational survey summary.",
+      "uncertainty": "The recommendations do not establish a financing mechanism, implementation timetable, or evidence that greater flexibility and voice will produce equitable health outcomes in every setting.",
+      "subgroup": "Governments, donors, health organizations, community-based groups, women, children, adolescents, and rights constituencies affected by financing decisions.",
+      "counterinterpretation": "Domestic mobilization and localization can strengthen ownership, but they may be insufficient where fiscal space is narrow and can transfer responsibility without transferring resources or decision power.",
+      "source_url": "https://pmnch.who.int/news-and-events/news/item/06-09-2026-global-funding-crisis-deepens-as-7-in-10-pmnch-partners-report-program-cuts-suspensions-or-closures",
+      "retrieval_hash": "sha256:f97b9bf0e65106d1f9b2fa35931ac592726af18ebce6622e683855e46d90d5cb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/development-co-operation-report-2025_6e4b8e7d-en.html", "claim": "Related OECD development-finance context for aid trends and financing pressure."},
+    {"source_url": "https://pmnch.who.int/pmnch-strategy-2026-2030", "claim": "PMNCH strategy context for maternal, newborn, child, adolescent health and rights work."}
+  ],
+  "boundary": "This record adds a global health-financing and care-capacity signal linking uncertain funding, organizational contraction, program prioritization, service continuity, localization, domestic resource mobilization, and voice in resource decisions. It is a partner-network survey summary and advocacy publication, not a representative organizational census, beneficiary-level dataset, service-utilization record, mortality estimate, or causal evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official PMNCH/WHO page was reviewed for the 67-country coverage, funding and program-disruption shares, affected program areas, adaptation routes, support needs, localization, financing, and voice claims; recommendations and external projections were kept distinct from survey results.",
+    "source_url_sha256": "sha256:f97b9bf0e65106d1f9b2fa35931ac592726af18ebce6622e683855e46d90d5cb",
+    "checked": "2026-09-27"
+  }
+}

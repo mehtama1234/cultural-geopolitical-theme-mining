@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-global-poverty-update-2026-extreme-poverty-uneven-progress",
+  "title": "Global extreme poverty is declining only marginally while progress remains sharply uneven across regions and exposed to measurement revision",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank September 2026 Global Poverty Update using the Poverty and Inequality Platform",
+  "geography": "Global and regional poverty estimates through 2024 with nowcasts for 2025 and 2026",
+  "observations": [
+    {
+      "period": "2024; global extreme poverty",
+      "denominator": {"value": 1, "unit": "world population under the World Bank international poverty-line framework", "value_type": "modeled_population_estimate"},
+      "measures": {
+        "people_in_extreme_poverty": {"value": "more than 824 million", "unit": "people living below $3.00 per person per day in 2021 PPP", "value_type": "modeled_estimate"},
+        "global_rate": {"value": "10.1%", "unit": "share of world population below the international extreme-poverty line", "value_type": "modeled_rate"},
+        "coverage": {"value": "survey coverage sufficient across all regions in 2022–2024", "unit": "reported survey-coverage assessment", "value_type": "reported_assessment"}
+      },
+      "method": "World Bank Poverty and Inequality Platform global and regional estimates combining household-survey data with auxiliary national-accounts, population, and price data.",
+      "uncertainty": "The estimate depends on poverty-line choice, purchasing-power-parity conversion, survey coverage, imputation, price data, and model harmonization; it is not a direct count of every person’s current resources.",
+      "subgroup": "People and households below the international extreme-poverty line, with regional differences and data-coverage constraints retained.",
+      "counterinterpretation": "A global rate can decline while poverty remains severe or rises in particular regions; income poverty also does not capture multidimensional deprivation, insecurity, services, or agency.",
+      "source_url": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+      "retrieval_hash": "sha256:030e988d291442cb2a1240345bea0646ee5921145c9f52c7dcc8c3e5221480ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; global poverty trajectory",
+      "denominator": {"value": 1, "unit": "global extreme-poverty estimate and World Bank nowcast frame", "value_type": "modeled_projection"},
+      "measures": {
+        "2024_rate": {"value": "10.1%", "unit": "estimated global extreme-poverty rate", "value_type": "modeled_rate"},
+        "2026_rate": {"value": "9.8%", "unit": "projected global extreme-poverty rate", "value_type": "nowcast"},
+        "direction": {"value": "marginal decline", "unit": "reported trajectory description", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank nowcasts for 2025 and 2026 based on national-accounts projections from the June 2026 Global Economic Prospects and the latest available poverty estimates.",
+      "uncertainty": "The 2025 and 2026 figures are nowcasts rather than completed survey estimates and are sensitive to growth, inflation, distribution, conflict, and future data revisions.",
+      "subgroup": "Global population, with outcomes likely to differ by region, income group, labor market, prices, conflict exposure, and public-service access.",
+      "counterinterpretation": "A small projected decline need not mean meaningful improvement in lived security, consumption smoothing, nutrition, or access to services for households near the poverty line.",
+      "source_url": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+      "retrieval_hash": "sha256:030e988d291442cb2a1240345bea0646ee5921145c9f52c7dcc8c3e5221480ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; regional divergence and data revision",
+      "denominator": {"value": 1, "unit": "global and regional poverty comparison frame", "value_type": "reported_comparison"},
+      "measures": {
+        "high_poverty_regions": {"value": "Sub-Saharan Africa and the Middle East, North Africa, Afghanistan and Pakistan remain the regions with the highest or rising extreme-poverty pressure in the release", "unit": "reported regional pattern", "value_type": "reported_comparison"},
+        "revision": {"value": "10.4% to 10.1%, or about 846.8 million to 824.3 million people, compared with the March 2026 vintage", "unit": "revised global estimate comparison", "value_type": "reported_revision"},
+        "revision_drivers": {"value": "new household surveys, revised country-year estimates, and updated national accounts, population projections, and consumer price indices", "unit": "reported revision drivers", "value_type": "reported_set"}
+      },
+      "method": "Descriptive comparison of the September 2026 Poverty and Inequality Platform vintage with the March 2026 vintage and regional trend framing.",
+      "uncertainty": "Revisions improve or alter estimates without necessarily indicating real-time changes in household welfare; regional comparisons remain dependent on comparable data and modeled coverage.",
+      "subgroup": "Regions with high poverty, conflict and displacement exposure, limited survey coverage, or substantial revisions to the underlying data.",
+      "counterinterpretation": "Improved measurement can lower an estimate without reducing deprivation, while a rising regional rate can reflect new data and boundary changes as well as real worsening.",
+      "source_url": "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in",
+      "retrieval_hash": "sha256:030e988d291442cb2a1240345bea0646ee5921145c9f52c7dcc8c3e5221480ec",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://pip.worldbank.org/", "claim": "World Bank Poverty and Inequality Platform provides the underlying poverty estimates and data interface."},
+    {"source_url": "https://www.worldbank.org/en/publication/global-economic-prospects", "claim": "World Bank Global Economic Prospects provides the macroeconomic projections used for the 2025 and 2026 nowcasts."}
+  ],
+  "boundary": "This record adds a material-pressure and inequality signal linking extreme-poverty measurement, household resources, regional divergence, conflict and data coverage, nowcasting, and revision. It is a World Bank modeled estimate and nowcast, not respondent-level ingestion, a current household panel, multidimensional deprivation measure, causal poverty intervention evaluation, or proof of lived welfare change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank Data Blog update was reviewed for the poverty line, 2024 estimate, 2025–2026 nowcasts, regional divergence, survey coverage, vintage revision, and revision drivers; modeled estimates and projections were kept distinct from direct observations.",
+    "source_url_sha256": "sha256:030e988d291442cb2a1240345bea0646ee5921145c9f52c7dcc8c3e5221480ec",
+    "checked": "2026-09-27"
+  }
+}

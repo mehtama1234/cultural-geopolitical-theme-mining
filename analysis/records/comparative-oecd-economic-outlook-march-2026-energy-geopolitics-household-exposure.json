@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-economic-outlook-march-2026-energy-geopolitics-household-exposure",
+  "title": "Geopolitical energy disruption converts global interdependence into uneven household, business, and inflation exposure",
+  "theme_ids": ["cost", "energy", "work", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "household_room_consumption", "infrastructure_technology_dependency", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power"],
+  "source_unit": "OECD Economic Outlook, Interim Report March 2026: Testing Resilience",
+  "geography": "Global and G20 economies, with country comparisons across advanced and emerging economies and specific household-energy exposure analysis",
+  "observations": [
+    {
+      "period": "March 2026; Middle East conflict and energy-market disruption",
+      "denominator": {"value": 1, "unit": "OECD interim outlook scenario and global economic assessment", "value_type": "study_unit"},
+      "measures": {
+        "energy_shock": {"value": "The report says oil prices rose by over 50% between the conflict's onset and March 20, while gas prices rose sharply in Europe and Asia", "unit": "reported commodity-price change", "value_type": "reported_change"},
+        "supply_interdependence": {"value": "Disruption affects energy, fertilisers, air transport, and other global supply chains because the Middle East is a major production and logistics hub", "unit": "supply-chain exposure assessment", "value_type": "reported_interpretation"},
+        "inflation_channel": {"value": "Sustained disruption is expected to add to business costs and consumer-price inflation while weighing on growth", "unit": "macroeconomic transmission pathway", "value_type": "reported_relationship"},
+        "interpretation": {"value": "Geopolitical risk is experienced domestically through infrastructure and commodity dependence, not only through military or diplomatic channels", "unit": "cross-source interpretation", "value_type": "inferred"}
+      },
+      "method": "OECD combines national accounts, commodity and financial-market data, trade statistics, price databases, and a scenario-based macroeconomic projection using information available through March 23, 2026.",
+      "uncertainty": "The outlook is conditional on a technical energy-price path and uncertain conflict duration and breadth. It is a forecast and scenario assessment, not a realized causal decomposition of household welfare.",
+      "subgroup": "Effects differ by country, income, energy intensity, sector, import dependence, and exposure to transport, petrochemical, metals, and fertiliser markets.",
+      "counterinterpretation": "Strategic reserves, substitution, fiscal support, lower energy intensity, and a short-lived disruption could reduce the projected effects; price changes do not map one-for-one onto household living standards.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/oecd-economic-outlook-interim-report-march-2026_254a8d56/d4623013-en.pdf",
+      "retrieval_hash": "sha256:120d19d7919bb367971c2375e63e94d874730518b7e1334fa25a41a46aaf0f62",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projections; global growth and G20 inflation",
+      "denominator": {"value": 1, "unit": "OECD interim outlook baseline projection", "value_type": "study_unit"},
+      "measures": {
+        "global_growth": {"value": "Global GDP growth is projected at 2.9% in 2026 and 3.0% in 2027", "unit": "annual percentage growth", "value_type": "reported_projection"},
+        "g20_inflation_revision": {"value": "G20 headline inflation was revised upward by 1.2 percentage points for 2026 and 0.2 points for 2027 relative to the December 2025 outlook", "unit": "percentage-point revision", "value_type": "reported_revision"},
+        "technology_offset": {"value": "Technology-related investment and production provide a growth impulse that partly offsets higher energy and fertiliser costs", "unit": "projected macroeconomic contribution", "value_type": "reported_interpretation"},
+        "interpretation": {"value": "Resilience is uneven: aggregate growth can remain positive while household purchasing power and sectoral conditions deteriorate", "unit": "macro-to-household interpretation", "value_type": "inferred"}
+      },
+      "method": "The OECD compares the March 2026 interim baseline with its December 2025 outlook using revised data and a technical assumption about oil and gas futures prices.",
+      "uncertainty": "Forecast revisions are sensitive to energy prices, conflict duration, policy responses, technology investment, and trade conditions. GDP growth is not a direct measure of distributional welfare or cultural confidence.",
+      "subgroup": "National and sectoral outcomes vary widely; the G20 aggregate obscures differences among energy importers, exporters, lower-income households, and energy-intensive firms.",
+      "counterinterpretation": "Positive growth and productivity gains in AI-adopting sectors could support wages or public revenues over time, even if near-term price pressure is regressive.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/oecd-economic-outlook-interim-report-march-2026_254a8d56/d4623013-en.pdf",
+      "retrieval_hash": "sha256:120d19d7919bb367971c2375e63e94d874730518b7e1334fa25a41a46aaf0f62",
+      "status": "reported"
+    },
+    {
+      "period": "Latest available household energy-basket comparisons in the OECD report",
+      "denominator": {"value": 1, "unit": "OECD cross-country household consumption-basket comparison", "value_type": "study_unit"},
+      "measures": {
+        "country_range": {"value": "The share of energy in household consumption baskets ranges from around 12% in Brazil to 6% in Canada", "unit": "share of household consumption basket", "value_type": "reported_comparison"},
+        "distributional_exposure": {"value": "Households at the lower end of the income distribution have a higher energy consumption share than those at the higher end", "unit": "income-group comparison", "value_type": "reported_relationship"},
+        "sector_exposure": {"value": "Transport, petrochemicals, and metals manufacturing are identified as particularly exposed business sectors", "unit": "sectoral exposure assessment", "value_type": "reported_comparison"},
+        "interpretation": {"value": "The same geopolitical shock creates different political and consumer pressures depending on household budget structure and national energy dependence", "unit": "distributional interpretation", "value_type": "inferred"}
+      },
+      "method": "The OECD uses consumer-price weights and country energy-mix information to compare energy shares in household consumption baskets and discusses income distribution and sectoral exposure.",
+      "uncertainty": "The energy-basket share is not the same as total exposure to an energy shock: fuel mix, pass-through, housing type, transport needs, subsidies, and substitution all matter. Country figures are not a uniform cross-national survey measure.",
+      "subgroup": "Lower-income households, energy-intensive households, renters or commuters, and residents of import-dependent economies may face different exposure than national averages suggest.",
+      "counterinterpretation": "Higher energy shares can also reflect different accounting conventions, climate, transport systems, or household production patterns; the share alone does not establish hardship or political response.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/oecd-economic-outlook-interim-report-march-2026_254a8d56/d4623013-en.pdf",
+      "retrieval_hash": "sha256:120d19d7919bb367971c2375e63e94d874730518b7e1334fa25a41a46aaf0f62",
+      "status": "compared"
+    },
+    {
+      "period": "2025–2026; AI adoption, productivity, labour demand, and policy response",
+      "denominator": {"value": 1, "unit": "OECD report synthesis of labour, productivity, AI adoption, and policy evidence", "value_type": "study_unit"},
+      "measures": {
+        "ai_productivity": {"value": "U.S. labour productivity growth has recently been faster in sectors with high AI adoption", "unit": "sectoral productivity comparison", "value_type": "reported_relationship"},
+        "labour_demand": {"value": "Job-vacancy measures have eased in Canada, the United Kingdom, and the United States, while unemployment remains low by historical standards", "unit": "labour-market trend assessment", "value_type": "reported_change"},
+        "policy_buffer": {"value": "Governments have announced emergency measures to cushion energy costs, adding pressure to public finances", "unit": "policy response assessment", "value_type": "reported_interpretation"},
+        "interpretation": {"value": "The transition combines productivity upside, labour-market uncertainty, and fiscal choices over who absorbs infrastructure and energy shocks", "unit": "cross-domain interpretation", "value_type": "inferred"}
+      },
+      "method": "The report combines sectoral productivity data, vacancy and unemployment indicators, policy announcements, and macroeconomic projections; the U.S. AI comparison uses BEA, BLS, and OECD calculations.",
+      "uncertainty": "The sectoral AI association is not a causal estimate of AI's productivity effect, and vacancy changes do not establish layoffs, job quality, or worker bargaining power. Policy measures may change as conditions evolve.",
+      "subgroup": "Impacts differ by occupation, sector, skill, geography, energy intensity, and access to social protection or employer support.",
+      "counterinterpretation": "Productivity gains could support employment and wages over time; easing vacancies may reflect normalization rather than deterioration, and fiscal support can prevent deeper household losses.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/oecd-economic-outlook-interim-report-march-2026_254a8d56/d4623013-en.pdf",
+      "retrieval_hash": "sha256:120d19d7919bb367971c2375e63e94d874730518b7e1334fa25a41a46aaf0f62",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an official macro-to-household pathway linking geopolitical conflict, energy and fertiliser dependence, inflation, growth, sectoral exposure, AI productivity, labour demand, and fiscal buffering. It does not provide respondent-level data, a causal household-welfare estimate, a political-opinion measure, or a forecast that remains valid if conflict and energy conditions change.",
+  "retrieval_hash": "sha256:120d19d7919bb367971c2375e63e94d874730518b7e1334fa25a41a46aaf0f62"
+}

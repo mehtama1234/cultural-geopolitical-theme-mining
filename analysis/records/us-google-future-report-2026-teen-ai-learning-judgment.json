@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-google-future-report-2026-teen-ai-learning-judgment",
+  "title": "U.S. teens are making AI part of learning and creativity while developing uneven habits of verification, judgment and self-limitation",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Google Kids & Families, U.S. Future Report 2026: Growing Up with Technology and Learning How to Shape Its Role",
+  "geography": "United States; national teen findings with six-state context, focus groups and digital-journey evidence",
+  "observations": [
+    {
+      "period": "2026 report; U.S. teens ages 13–17",
+      "denominator": {"value": null, "unit": "U.S. teens ages 13–17 in the report's quantitative study; public materials describe the national sample as over 1,000 on the webpage and over 7,000 in the PDF foreword", "value_type": "not_disclosed"},
+      "measures": {
+        "past_year_ai_use": {"value": 94, "unit": "percent saying they used an AI tool during the past year", "value_type": "published_share"},
+        "weekly_learning_use": {"value": 74, "unit": "percent using AI for learning at least weekly", "value_type": "published_share"},
+        "weekly_creativity_use": {"value": 57, "unit": "percent using AI to support creativity at least weekly", "value_type": "published_share"}
+      },
+      "method": "Google Future Report quantitative study with a nationally described teen survey, six state-level studies, focus groups and digital journaling; the report presents national findings first and uses state and qualitative evidence for context.",
+      "uncertainty": "The public webpage and PDF foreword describe different headline sample sizes, and the sponsor does not provide a full independent methods appendix in the public landing-page summary; reported use is not a behavioral trace or learning-outcome measure.",
+      "subgroup": "U.S. teens ages 13–17, with selected age, state, race and ethnicity comparisons where the report identifies them as meaningful.",
+      "counterinterpretation": "Near-universal reported exposure does not mean equal frequency, tool quality, access, confidence, school permission, learning benefit or safe use across households and schools.",
+      "source_url": "https://www.gstatic.com/marketing-cms/a5/cf/b51105654f569d3e7708b0b1a0de/google-us-future-report-2026.pdf",
+      "retrieval_hash": "sha256:cc8bc8614c4cc16f559f5f403a3549c4c6587df03fa8f96b85b5e2bdda049f2b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; information evaluation among U.S. teens",
+      "denominator": {"value": null, "unit": "U.S. teens ages 13–17 in the report's quantitative study", "value_type": "not_disclosed"},
+      "measures": {
+        "any_evaluation_step": {"value": 93, "unit": "percent taking at least one step to evaluate information before relying on it", "value_type": "published_share"},
+        "consistent_trustworthiness_evaluation": {"value": 50, "unit": "percent regularly considering whether information is trustworthy", "value_type": "published_share"},
+        "cross_checking": {"value": 55, "unit": "percent actively checking facts against other trusted sources", "value_type": "published_share"},
+        "credibility_check": {"value": 46, "unit": "percent checking the credibility of websites or authors", "value_type": "published_share"}
+      },
+      "method": "Self-reported survey measures summarized in the report, supplemented by qualitative accounts of how teens question, compare and revise AI-generated information.",
+      "uncertainty": "The measures describe reported habits rather than verified fact-checking quality, frequency across contexts, or the accuracy of final decisions; the categories may overlap.",
+      "subgroup": "U.S. teens ages 13–17 using online and AI-generated information.",
+      "counterinterpretation": "A high share taking at least one evaluative step can coexist with inconsistent depth, time pressure, unequal source literacy and overconfidence in unreliable material.",
+      "source_url": "https://www.gstatic.com/marketing-cms/a5/cf/b51105654f569d3e7708b0b1a0de/google-us-future-report-2026.pdf",
+      "retrieval_hash": "sha256:cc8bc8614c4cc16f559f5f403a3549c4c6587df03fa8f96b85b5e2bdda049f2b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; reported AI use cases during the prior year",
+      "denominator": {"value": null, "unit": "U.S. teens ages 13–17 who answered the report's AI-use question", "value_type": "not_disclosed"},
+      "measures": {
+        "research_for_homework": {"value": 61, "unit": "percent selecting research for homework as an AI use", "value_type": "published_share"},
+        "schoolwork": {"value": 52, "unit": "percent selecting doing schoolwork as an AI use", "value_type": "published_share"},
+        "search_daily_questions": {"value": 52, "unit": "percent selecting use as a search engine for daily questions", "value_type": "published_share"},
+        "spellcheck_editing": {"value": 51, "unit": "percent selecting spellchecking and editing", "value_type": "published_share"},
+        "generating_images": {"value": 44, "unit": "percent selecting generating images", "value_type": "published_share"}
+      },
+      "method": "Multiple-response survey item in the Google Future Report; respondents could select more than one use.",
+      "uncertainty": "These are reported use categories, not measures of time spent, task quality, learning transfer, cheating, authorship or the actual tools used; percentages should not be summed.",
+      "subgroup": "U.S. teens ages 13–17 who reported using AI tools during the report's reference period.",
+      "counterinterpretation": "AI can function as an explanatory aid or creative partner while also reducing productive struggle, memory, confidence and independent practice when it becomes the first response to difficulty.",
+      "source_url": "https://www.gstatic.com/marketing-cms/a5/cf/b51105654f569d3e7708b0b1a0de/google-us-future-report-2026.pdf",
+      "retrieval_hash": "sha256:cc8bc8614c4cc16f559f5f403a3549c4c6587df03fa8f96b85b5e2bdda049f2b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; school guidance and everyday digital readiness",
+      "denominator": {"value": null, "unit": "U.S. teens ages 13–17 in the report's school-technology context", "value_type": "not_disclosed"},
+      "measures": {
+        "schools_without_approved_ai_tools": {"value": 30, "unit": "percent reporting their school has no approved AI tools", "value_type": "published_share"},
+        "unsure_of_approved_tools": {"value": 12, "unit": "percent unsure which AI tools their school approves", "value_type": "published_share"},
+        "phone_time_boundary": {"value": 24, "unit": "percent regularly setting a boundary such as switching off a phone at a certain time", "value_type": "published_share"},
+        "readiness_frame": {"value": "The report frames digital readiness as judgment built through experience, guidance, trusted adults and increasing responsibility, not access or technical skill alone.", "unit": "reported interpretation", "value_type": "reported_framework"}
+      },
+      "method": "Survey and qualitative synthesis across school, family and community contexts; school-approval and self-boundary figures are descriptive, while the readiness frame is the report's interpretation.",
+      "uncertainty": "The report does not establish why schools lack approved tools, whether rules are enforced consistently, or whether reported boundaries improve sleep, learning, safety or well-being.",
+      "subgroup": "U.S. teens, families, educators, schools, technology companies, policymakers and communities sharing responsibility for digital norms.",
+      "counterinterpretation": "Rules without explanation can produce trial-and-error behavior, but greater permission without safeguards, instruction and human support can also increase overreliance or exposure to harm.",
+      "source_url": "https://www.gstatic.com/marketing-cms/a5/cf/b51105654f569d3e7708b0b1a0de/google-us-future-report-2026.pdf",
+      "retrieval_hash": "sha256:cc8bc8614c4cc16f559f5f403a3549c4c6587df03fa8f96b85b5e2bdda049f2b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publicpolicy.google/article/us-future-report/", "claim": "Google Public Policy landing page with publication date, headline findings and report resources."},
+    {"source_url": "https://www.gstatic.com/marketing-cms/f4/d6/0e28412c4c329a07be78e8d283f9/google-us-future-report-ecosystem-voices.pdf", "claim": "Companion two-page ecosystem and youth-voices resource describing the broader research framing."}
+  ],
+  "boundary": "This record captures a U.S. youth-culture and technology transition: AI is already routine in teen learning and creativity, while verification, productive friction, school norms, trusted-adult guidance and self-limitation remain uneven. The source is Google-sponsored survey and qualitative research with inconsistent public headline sample descriptions; it is not an independent behavioral-trace study, causal learning evaluation, school-policy audit, clinical assessment or proof that reported use produces better outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 66-page U.S. Future Report PDF and Google Public Policy landing page were reviewed for sample framing, AI adoption, learning and creativity use, verification habits, school guidance, digital readiness, qualitative context and sponsor limitations.",
+    "source_url_sha256": "sha256:cc8bc8614c4cc16f559f5f403a3549c4c6587df03fa8f96b85b5e2bdda049f2b",
+    "checked": "2026-09-27"
+  }
+}

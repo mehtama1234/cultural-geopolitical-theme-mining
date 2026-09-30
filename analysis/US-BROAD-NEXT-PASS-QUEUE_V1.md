@@ -1,5 +1,1789 @@
 # US broad program next-pass queue v1
 
+**Latest South Africa cultural-structure rotation — 2026-09-30:** the [Stats SA Census 2022 Cultural Dynamics record](records/comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage.json) adds a population-scale identity and household layer: multiracial households rose from 1.3% in 2001 to 11.4% in 2022, multilingual households from 3.5% in 1996 to 9.4% in 2022, while legal marriage fell from 35.6% in 1996 to 23.8% in 2022. Christianity remained 84.5% in 2022, but traditional African religious affiliation reached 9.5%. These are census classifications, not direct measures of trust, tolerance, practice, welfare, or cohesion. Next: connect cultural structure to language access, housing, migration, consumer segmentation, and lived intergroup contact.
+
+**Latest Singapore cultural-credit rotation — 2026-09-30:** the [MCCY/NAC SG Culture Pass record](records/comparative-singapore-mccy-sg-culture-pass-2026-audience-reach-multicultural-access.json) adds an audience-conversion test: more than 1.2 million citizens registered, seven in ten had not attended a local arts or culture programme in the prior five years, and nine in ten users expressed interest in attending another. NAC’s 2023 survey shows the broader gap between 59% physical attendance, 66% digital consumption, and 28% active participation, with childhood-exposed respondents much more engaged. The pass figures are early administrative and stated-interest signals, not redemption, repeat attendance, causal impact, or equal access. Next: find redemption, programme, income, neighborhood, and repeat-attendance data.
+
+**Latest UK observed digital-finance rotation — 2026-09-30:** the [Open Banking Limited 2026 activity and fraud record](records/comparative-uk-open-banking-limited-2026-api-payments-users-fraud.json) shows open banking becoming routine infrastructure: payments rose 45% year over year from August 2025 to July 2026, July API calls reached 2.94 billion, and the ecosystem passed 1 billion cumulative payments in June. The connected risk is concentrated in authorised push-payment fraud: OBL reports more than two-thirds of reported cases as APP fraud, with investment fraud among the largest categories by value. These are ecosystem aggregates and provider-covered fraud comparisons, not unique-user, reimbursement, switching, or causal-safety evidence. Next: join payment use to transaction value, consumer composition, reimbursement, merchant categories, and independent fraud or household outcomes.
+
+**MODECULT source verification — 2026-09-30:** visual checks of the original charts corrected category and denominator errors in both Mexico 2025 records. Artistic-activity shares are conditional on artistic participation: audiovisual creation 61.0%, theatre 10.3%, dance 17.2%. The national organizing/coordinating share is 4.4%. The 35.3% disinterest and 29.2% supply/awareness barriers refer to dance, and the online-viewing shares previously labelled national refer to women who viewed cultural events online. Both records reuse one survey wave and must not count as independent corroboration. Next: check these conditional universes in downstream comparisons before promoting a population-wide creative-agency finding.
+
+**Latest Australia data-portability rotation — 2026-09-30:** the [ACCC Consumer Data Right data-quality record](records/comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability.json) adds a platform/data-attention route from formal consent and portability through accuracy, structured comparability, issue escalation, and actual choice. The ACCC reports 1.3 million CDR users by July 2026, but stakeholder ratings remain only 3.2/5 for product-data quality and 3.1/5 for resolving consumer-data issues; some tickets stayed open more than six months. The next test joins repeated quality and resolution measures to actual switching, savings, fraud exposure, small-business productivity, and distributional access. The source is a small stakeholder survey and regulatory observation, not consumer-level or causal evidence.
+
+**Latest Australia current cultural-connection rotation — 2026-09-30:** the [Creative Australia National Arts Participation Survey 2025 record](records/comparative-creative-australia-national-arts-participation-2025-cultural-background-cost.json) supplies the current layer missing from the older migrant baseline: arts engagement with one's own cultural background, language group, or community rose from 32% in 2022 to 40% in 2025; 74% attended a live arts event or festival, but 60% named cost as the biggest barrier and 55% missed a wanted event because of cost. The next test joins this current cultural-connection measure to migrant status, household room, and venue-level participation; the public summary does not publish the needed country-of-birth cross-tab.
+
+The full report now closes part of that gap with current CALD subgroup evidence: 51% of self-identified CALD respondents in the general sample reported creative participation versus 39% overall, with higher CALD rates for music (28% versus 15%), dance (21% versus 9%), theatre (15% versus 7%), and creative writing (19% versus 11%). A separate translated, focused CALD sample (n=183) reported 65% creative participation and 68% making art to engage cultural background/community; it is indicative, not representative. The next test is to connect this active creative agency to visa stream, income, housing, and actual audience conversion.
+
+The same report now supplies that audience-conversion layer: 55% of CALD respondents engaged with their own cultural background through arts/creativity, and 49% attended arts events for that purpose versus 32% of non-CALD respondents. Music (25%) and festivals/celebrations (23%) were prominent CALD channels. The next test is whether this culturally specific participation remains reachable under rent, cost, transport, and language constraints.
+
+The same [Creative Australia 2025 record](records/comparative-creative-australia-national-arts-participation-2025-cultural-background-cost.json) adds an AI-authenticity consumer signal: 40% reported using AI tools to create art or generate ideas, 82% said AI use in creative works should be disclosed, and 93% had at least one concern about AI and creativity. The next test joins use, disclosure, provenance, and creator or audience behavior rather than treating AI adoption as automatic cultural substitution.
+
+**Latest Australia historical cultural-baseline rotation — 2026-09-30:** the [ABS migrant cultural-attendance baseline record](records/comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline.json) recovers direct migrant cultural-use evidence missing from newer settlement releases: in 2005–06, attendance at at least one cultural venue/event was 90% among migrants born in main English-speaking countries, 76% among migrants born in non-main-English-speaking countries, and 86% among people born in Australia; cinema and library reach also differed by migrant grouping. This is a historical baseline, not a current trend estimate. The next test is whether a current survey or administrative cultural dataset can refresh these cross-tabs without collapsing country of birth into a single migrant category.
+
+**Latest Australia migrant-social-connection continuation — 2026-09-30:** the existing [ABS General Social Survey 2025 record](records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json) now adds the migrant subgroup: 46% reported weekly face-to-face contact with family or friends outside the household versus about 53% for adults overall, while discrimination was 20% for migrants versus 17% for people born in Australia. The next test joins this social-friction signal to visa stream, language, housing, transport, and cultural-venue use; it does not establish isolation or causality.
+
+**Latest Australia migration-and-room rotation — 2026-09-30:** the [ABS Migrant Settlement Outcomes 2026 record](records/comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language.json) adds linked-data evidence that settlement capacity diverges by visa stream: employment was 82% in the skilled stream versus 46% in the humanitarian stream, median 2023–24 income was A$83,466 versus A$43,910, and rent pressure above 30% of household income was especially high among recent humanitarian arrivals. English proficiency and GP contact also vary by stream and arrival cohort. The next test joins migrant household room to cultural participation, local service supply, language access, transport, and actual spending; this release does not itself measure cultural or consumer behavior.
+
+**Latest Spain household-room rotation — 2026-09-30:** the [INE Household Budget Survey 2025 record](records/comparative-spain-ine-household-budget-2025-recreation-culture-quintile-room.json) adds distributional budget evidence: recreation, sport, and culture averaged €1,772 per household and rose 4.7% nominally, but essential-cost concentration differed sharply by spending quintile. The next test joins cultural spending to real prices, attendance, household type, region, and income or expenditure rank.
+
+**Latest Australia continuation — 2026-09-30:** the [ABS August 2026 household-spending record](records/comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport.json) shows the July leisure increase did not persist: total spending was flat, recreation and culture fell 1.4%, and transport rose 2.3%. The next test joins event calendars, fuel prices, transport use, cinema/sport attendance, and household distribution to separate timing from durable substitution.
+
+**Latest Australia observed-consumption rotation — 2026-09-30:** the [ABS Monthly Household Spending Indicator July 2026 record](records/comparative-abs-monthly-household-spending-july-2026-card-culture-volume.json) adds transaction-based behavior rather than stated intention. Total current-price spending rose 1.1% month over month and 7.0% year over year; recreation and culture rose 1.5% month over month, while real recreation-and-culture volume rose 1.7% in the June quarter versus 0.7% for total spending. The next test joins category spending to prices, event attendance, household distribution, and repeat behavior.
+
+**Latest Norway inclusion-and-conversion rotation — 2026-09-30:** the [Statistics Norway immigrant-background cultural-use record](records/comparative-norway-ssb-immigrant-cultural-use-2025-library-museum-concert-gap.json) adds a subgroup denominator rather than another national average. In 1,331 completed interviews, 60% visited a public library, 53% a museum, and 58% a cinema; participation was higher in libraries and museums but lower in theatre and concerts than the total population, while 62% wanted more cinema and 61% more concerts. The next test joins venue supply, price, language, transport, age, and household resources to distinguish institution-specific inclusion from unmet demand.
+
+**Latest UK mobility-consumption rotation — 2026-09-30:** the [VisitBritain Domestic Sentiment Tracker September 2026 record](records/comparative-visitbritain-domestic-sentiment-september-2026-travel-intentions-cost-barriers.json) finds overnight-trip intention recovering to 78%, but 53.8% identify costs and finances as a barrier; 62.1% of intended domestic trips are short breaks and 34.3% are four-plus-night holidays. The next test joins intention to bookings, occupancy, realized spend, cultural visits, and household resources to distinguish demand recovery from trip compression.
+
+**Latest England hybrid-culture rotation — 2026-09-30:** the [DCMS Community and Engagement Survey Quarter 2 record](records/comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift.json) finds in-person arts engagement down from 90% to 83% while digital arts engagement moved from 34% to 36%; physical library use rose from 27% to 31% and digital library use from 16% to 18%, with modest rises in volunteering and local-official contact. The next test is whether this reflects survey redesign, real mode substitution, institution-specific recovery, or a broader shift from cultural attendance into civic action.
+
+**Latest South Africa social-capacity rotation — 2026-09-30:** the [Stats SA Volunteer Activities Survey 2024 record](records/comparative-south-africa-statssa-volunteer-activities-2024-social-capacity-direct-organizational.json) finds 3.1 million volunteers and a 6.9% volunteer rate; direct volunteering (56.3%) exceeds organizational volunteering (42.8%), 91.3% cite a believed-in cause, and participation varies by sex, population group, labor-market status, and province. This is unpaid social-capacity evidence, not proof of institutional cohesion or household welfare.
+
+**Latest Colombia cultural-economy rotation — 2026-09-30:** the [DANE CSECC 2025 preliminary record](records/comparative-colombia-dane-cultural-creative-economy-2025-value-added-employment-divergence.json) finds real cultural/creative value added up 2.6%, arts and heritage up 4.3%, functional creations up 2.9%, but cultural industries down 1.1%; employment rose overall while cultural-industry employment fell 2.3%. This is the supply/labor counterpart to direct participation data, not a household cultural-demand estimate.
+
+**Latest Mexico cultural-participation rotation — 2026-09-30:** the [INEGI MODECULT 2025 record](records/comparative-mexico-inegi-modecult-2025-cultural-participation-digital-barriers.json) finds comparable adult attendance at 61.2%, up from 52.5% in 2024 but still below 2016; the expanded 12+ data show strong age, education, identity, disability, time, cost, online-consumption, artistic-activity, and organizing differences. This is direct cultural-use evidence, not proof of causal access barriers or cultural welfare.
+
+**Latest Mexico household-room rotation — 2026-09-30:** the [INEGI ENIGH 2024 record](records/comparative-mexico-inegi-enigh-2024-household-room-cultural-spending-inequality.json) finds average monthly monetary household expenditure of 15,891 pesos, up 7.9% from 2022 in 2024 pesos; education and recreation represented 9.6%, but education was still 21.0% below 2016, while income and spending diverged sharply by decile, gender, Indigenous-language status, and state. This is household-room evidence beneath the retail series, not a real-time 2026 or causal cultural-demand estimate.
+
+**Latest Brazil retail-category rotation — 2026-09-30:** the [IBGE July 2026 retail record](records/comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence.json) finds Brazilian retail volume down 0.8% month over month but up 1.2% year over year; food retail rose 2.9% year over year and pharmaceuticals/cosmetics 4.7%, while clothing fell 4.7% year over year and books/stationery fell 4.2% month over month. The enterprise-based series points to selective category adaptation, not a direct household or cultural-participation shift.
+
+**Latest Canada retail-channel rotation — 2026-09-30:** the [Statistics Canada July 2026 retail record](records/comparative-statcan-retail-trade-july-2026-ecommerce-regional-pullback.json) finds retail sales at C$73.7 billion, down 0.7% month over month but up 5.1% year over year; volume fell 1.1%, e-commerce fell 3.5% to C$5.5 billion and 7.5% of retail trade, Ontario fell 2.0%, and Alberta rose 1.4%. The finding is a channel-and-region divergence test: annual nominal growth can coexist with immediate volume and online pullback.
+
+**Latest India payment-rail rotation — 2026-09-30:** the [Government of India UPI infrastructure record](records/comparative-india-pib-upi-fy2025-26-payment-throughput-digital-consumer-infrastructure.json) reports 24,161.69 crore UPI transactions worth ₹314 lakh crore in FY2025–26, with volume up 30.0%, value up 20.59%, UPI representing 85% of India’s digital payments, and 703 banks live by March 2026. This is powerful infrastructure adoption, but throughput is not unique-user capability, household welfare, fraud protection, or effective remedy.
+
+**Latest South Korea mobile-commerce rotation — 2026-09-30:** the [South Korea July 2026 online-shopping record](records/comparative-south-korea-mods-online-shopping-july-2026-mobile-services-category.json) finds online-shopping transaction value up 7.3% year over year to ₩25.0954 trillion and mobile value up 6.4%, but mobile’s share edged down to 78.0% from 78.6%. Food services (+8.9%), groceries (+8.1%), auto goods (+31.1%), and travel/transport (+14.5% month over month) grew while clothing fell 6.1%. Digital commerce is expanding through service and convenience categories, not uniformly across consumer life.
+
+**Latest Hong Kong category-polarization rotation — 2026-09-30:** the [Hong Kong July 2026 retail record](records/comparative-hong-kong-csd-retail-july-2026-online-luxury-culture-divergence.json) finds nominal retail sales up 4.5% and real volume up 2.3%, with online sales up 9.5% and 9.1% of total value. Yet jewellery/watches/valuable gifts rose 19.7%, while books/newspapers/stationery/gifts fell 2.8%, apparel fell 1.8%, vehicles 18.2%, and fuel 18.0%. The finding is category polarization, not uniform consumer strength.
+
+**Latest South Africa real-retail rotation — 2026-09-30:** the [Statistics South Africa July 2026 retail record](records/comparative-south-africa-statssa-retail-trade-july-2026-real-category-demand.json) finds real retail sales up 3.4% year over year and 2.5% month over month, with general dealers contributing 1.3 percentage points, other retailers 0.8, clothing/footwear/leather 0.5, and specialized food/beverage/tobacco 0.4. The regional contrast matters: growth is visible in essential and general retail categories, but this aggregate does not establish equal household room or discretionary cultural demand.
+
+**Latest Japan digital-culture channel rotation — 2026-09-30:** the [Japan Statistics Bureau Household Economy record](records/comparative-japan-statistics-household-economy-july-2026-online-shopping-tickets.json) finds online-shopping expenditure down 0.7% nominally year over year, the household online-shopping-use rate down 2.4 points to 55.6%, and tickets contributing −0.53 percentage points to the spending change. The signal is narrower than “culture is declining”: household room, channel reach, and ticket-related spending are separate conversion stages.
+
+**Latest Japan household-room rotation — 2026-09-30:** the [Japan Statistics Bureau July 2026 household-account record](records/comparative-japan-statistics-family-income-expenditure-july-2026-real-household-room.json) finds average two-or-more-person household consumption at ¥301,245, down 1.5% nominally and 3.6% in real terms year over year; workers’ household income fell 1.7% nominally and 3.8% in real terms. This is a household-level counter-signal to the U.S. aggregate and Great Britain retail increases: consumer recovery is geographically and instrumentally conditional, not a single global direction.
+
+**Latest Great Britain retail-channel rotation — 2026-09-30:** the [ONS August 2026 retail-sales record](records/comparative-ons-retail-sales-august-2026-online-channel-fuel-culture.json) finds retail volume up 0.5% month over month and 2.4% year over year, but the more revealing split is channel and mobility: online sales value rose 8.9% year over year and reached 28.8% of retail sales, while fuel volumes fell as retailers reported partial tank-filling under price pressure. Art dealers and sports merchandise also moved with different weather/event conditions. The signal is selective, channel-shifting consumer adaptation, not uniform discretionary recovery.
+
+**Latest aggregate-consumption rotation — 2026-09-30:** the [BEA August 2026 Personal Income and Outlays record](records/us-bea-personal-income-outlays-2026-august.json) finds current-dollar PCE up 0.9% and real PCE up 0.6% month over month, while real disposable personal income was flat and the personal saving rate rose to 4.1%. Goods supplied 59.8% of the monthly current-dollar PCE increase versus 40.2% for services. The signal is a household-room test, not proof of broad welfare improvement: aggregate current-dollar flows cannot show who gained, who borrowed, or who cut other spending.
+
+**Latest ASEAN digital-trust rotation — 2026-09-30:** the [GSMA ASEAN Consumer Scam record](records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json) finds 8% reporting a scam in the prior year; 68% of victims lost money, 82% of money-losing victims recovered none, and 45% of reported cases remained unresolved. Digital protection is failing at resolution and recovery, not only prevention.
+
+**Latest EU physical-activity rotation — 2026-09-30:** the [Special Eurobarometer sport record](records/comparative-eu-eurobarometer-sport-physical-activity-2026-commuting-community-gaps.json) finds 39% never exercise, even as active commuting rises to 37% and fitness-centre attendance to 39%; 93% say physical activity improves mental health and 86% say it helps community building. Belief is much broader than realized participation, with sharp country gaps.
+
+**Latest New Zealand domestic-access rotation — 2026-09-30:** the [MBIE Domestic Visitor Survey record](records/comparative-new-zealand-mbie-dvs-october-2025-domestic-travel-culture-cost-barriers.json) finds 61% took an overnight domestic trip and 47% a qualifying day trip; 36% of overnight trips included a museum/gallery visit and 13% a Māori cultural site, while “too expensive” was a barrier for 32% of planned overnight travel. Intentions, realized travel, and cultural conversion are separate stages.
+
+**Latest New Zealand visitor-behavior rotation — 2026-09-30:** the [MBIE IVS record](records/comparative-new-zealand-mbie-ivs-june-2026-tourism-recovery-purpose-cultural-access.json) finds international visitor volume at 94% of 2019 and inflation-adjusted spend at 98%, while holiday travel reached 53% versus 51% in 2019 and market recovery varied. Mobility recovery is not identical to local cultural access or equal tourism benefit.
+
+**Latest Canada pressure-to-care rotation — 2026-09-30:** the [MHRC Poll 29 record](records/comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit.json) finds 46% saying cost of living harms their mental health, 37% reporting difficulty fully paying bills, and 35% difficulty affording or maintaining stable housing; among people who accessed support in the past five years, 52% ended care earlier than planned or needed, while only 29% of recent support users said needs were fully met. Material pressure and institutional exit are linked in the survey, not causally proven.
+
+**Latest England social-connection rotation — 2026-09-30:** the [CES loneliness record](records/comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap.json) finds the national often/always-lonely rate stable at 7%, but 14% for disabled people versus 3% for non-disabled people, 11% in the most deprived areas versus 4% in the least deprived, and a local-authority range from 13% to 2%. National stability is masking unequal exposure.
+
+**Latest ONS real-time consumer rotation — 2026-09-30:** the [ONS real-time indicators record](records/comparative-ons-realtime-consumer-pressure-august-2026-footfall-spending-failures.json) finds August retail footfall down 2% month-on-month and total Revolut debit spending down 1%, while entertainment spending was up 14% year-on-year and the sampled Direct Debit failure rate rose from 2.3% to 2.4%. Consumer pressure is mixed across presence, category spending, recurring payment reliability, and fuel demand.
+
+**Latest China consumer-composition rotation — 2026-09-30:** the [NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json) finds total retail sales up only 0.4% year-on-year in August, while online service retail rose 5.1% year-to-date, telecom equipment rose 27.3%, and motor vehicles fell 18.5%; education/culture/recreation prices rose 1.4% while residence prices fell 0.3%. Aggregate consumer growth is hiding category and price divergence.
+
+**Current registry checkpoint:** 1978 machine-readable records and 5941
+observations. The trend registry holds 1978 records and
+5941 observations. The queue remains open; each completed rotation creates the next
+test rather than closing the program.
+
+**Latest Brazil Pix-conversion rotation — 2026-09-30:** the [BCB payment-habits record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json) finds cash falling from 76.6% of diary-recorded payments in 2019 to 40.5% in 2023, while Pix reached 24.9%. Yet 17.3% had not used Pix in the prior year, and 37.3% of nonusers cited lack of knowledge. Infrastructure can move faster than consumer capability.
+
+**Latest South Africa payment-behavior rotation — 2026-09-30:** the [SARB Payments Study record](records/comparative-south-africa-sarb-payments-study-2023-cash-digital-income-choice.json) finds cash represented 56% of payment volume but only 21% of payment value, while debit cards represented 34% of volume and 55% of value. Recall-based digital-method use was much broader than short diary-recorded use. The finding separates payment reach, transaction value, and realized frequency.
+
+**Latest Kenya financial-consumer rotation — 2026-09-30:** the [FinAccess record](records/comparative-kenya-finaccess-2024-digital-finance-usage-debt-distress.json) finds mobile-money usage at 82.3% and daily use at 52.6%, while credit use reached 64.0% and savings use fell to 68.1%. Yet 16.6% of borrowers completely defaulted and 9.8% of mobile-money users reported losing money. Digital finance is therefore a high-frequency consumer infrastructure with a simultaneous remedy, suitability, and debt-distress problem.
+
+**Latest Kenya digital-funnel rotation — 2026-09-30:** the [KNBS ICT record](records/comparative-kenya-knbs-ict-2023-24-mobile-internet-household-gap.json) finds 64.9% of individuals used a mobile phone but only 35.0% used the internet. Household internet connection was 36.3% nationally, 54.1% urban and 25.1% rural; county internet use ranged from 64.7% in Nairobi City to 9.1% in West Pokot. This separates mobile reach from stable household digital optionality.
+
+**Latest India consumption-room rotation — 2026-09-30:** the [MoSPI HCES record](records/comparative-india-mospi-hces-2023-24-consumption-room-inequality.json) finds average monthly per-capita consumption of ₹4,122 in rural India versus ₹6,996 in urban India; non-food items were 53% of rural MPCE versus 60% of urban MPCE. The top-to-bottom-5% MPCE ratio was about 6.0× rural and 8.6× urban. The signal is that aggregate consumption growth can coexist with sharply unequal room for cultural and discretionary spending.
+
+**Latest Colombia hidden-time rotation — 2026-09-30:** the [DANE ENUT record](records/comparative-colombia-dane-enut-2024-25-unpaid-care-time-gender-migration.json) finds 90.0% of women aged 10+ participated in unpaid work on the reference day versus 65.5% of men; among participants, women averaged 7h35m versus 3h12m for men. Foreign-born women averaged 9h31m of unpaid work versus 7h30m for Colombia-born women. The next hypothesis is that cultural and consumer “choice” is conditioned by unpaid time allocation before it appears as stated preference or attendance.
+
+**Latest Indonesia social-participation rotation — 2026-09-30:** the [BPS socio-cultural record](records/comparative-indonesia-bps-socio-culture-2025-informal-formal-participation.json) finds 88.87% of Indonesians aged 10+ participated in neighborhood social activities, but only 11.06% were registered in an organization outside work or school. Meeting participation was 43.22% for men versus 24.81% for women, and 41.13% of meeting participants gave a suggestion or opinion. The new hypothesis is that broad local sociality does not automatically convert into standing organizational membership or equally distributed formal voice.
+
+**Latest leisure-affordability rotation — 2026-09-30:** the [Eurostat leisure-affordability record](records/comparative-eurostat-leisure-affordability-2025-holiday-participation-inequality.json) finds 27.5% of EU residents could not afford a week away from home in 2025, while 12.1% could not afford regular leisure participation. Holiday exclusion ranged from 61.4% in Romania to 10.6% in Luxembourg. This is the household-room boundary beneath cultural supply and digital access.
+
+**Latest cultural-workforce rotation — 2026-09-30:** the [Eurostat cultural-employment record](records/comparative-eurostat-cultural-employment-2025-workforce-education-country-gap.json) finds 8.9 million people employed in culture, equal to 4.3% of EU employment; 61.9% had tertiary education, and country shares ranged from 5.7% in the Netherlands to 1.8% in Romania. Cultural consumption rests on a large but highly educated and place-stratified production system.
+
+**Latest digital-cultural-conversion rotation — 2026-09-30:** the [Eurostat online event-ticket record](records/comparative-eurostat-online-event-ticketing-2025-cultural-access-country-gap.json) finds 26.8% of EU individuals bought event tickets online in the prior three months in 2025, up 3.8 points from 2024. Rates ranged from 51.5% in Ireland to 11.4% in Bulgaria. Digital ticketing is a measurable conversion stage between cultural interest and attendance, but its access is sharply place-stratified.
+
+**Latest EU youth-social rotation — 2026-09-30:** the [Eurostat social-network record](records/comparative-eurostat-social-network-use-youth-2025-age-country-gap.json) finds 89.3% of 16–29-year-olds used social networks in 2025 versus 67.3% of the general 16–74 population. Youth use ranged from 80.3% in Italy to 98.3% in Cyprus, while age gaps ranged from 7.2 points in Denmark to 29.2 in Croatia. Social-network life is widespread, but not organized identically across generations or countries.
+
+**Latest exit-friction rotation — 2026-09-30:** the [Ofcom telecom switching and remedy record](records/comparative-ofcom-telecom-switching-retention-harm-remedy-2026.json) finds 3.43 million One Touch Switch starts amid cost pressure, but also a named retention failure: millions of Virgin Media cancellation calls were likely mishandled, over one million callers had to repeat their request, and Ofcom imposed a £28 million fine. Consumer choice depends on executable exit, not merely the existence of competing offers.
+
+**Latest recourse-routing rotation — 2026-09-30:** the [UK Financial Ombudsman record](records/comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse.json) finds new complaints falling from 305,700 to 214,600, while the share brought by professional representatives fell from 50% to 18% after representative charges were introduced; withdrawal/abandonment fell from 35% to 18%, and only 30% of resolved complaints were upheld overall. A complaint decline is therefore not automatically a decline in consumer harm—it may be a change in access, routing, and case readiness.
+
+**Latest safety-by-design rotation — 2026-09-30:** the [Ofcom protective-defaults record](records/comparative-ofcom-protective-defaults-social-platforms-2026-choice-architecture-rct.json) finds high retention of safer defaults across adults and teenagers in randomized mock-platform trials. In prior trials, adults choosing reduced sensitive content rose from 15% when permissive content was preselected to 42% when the protective option was preselected; children’s retention of a no-harmful-recommendations setting was about 70% with a default versus 50% without one. The finding shifts platform safety from individual vigilance toward interface design, while live-platform effects remain unproven.
+
+**Latest social-time rotation — 2026-09-30:** the [Statistics Canada time-use record](records/comparative-statcan-time-use-2022-time-pressure-friendship-social-connection.json) finds high time pressure rising from 15.0% in 1992 to 24.2% in 2022, while the share seeing friends on an average day fell from 47.9% in 1986 to 19.3% in 2022. Among those who saw friends, average time fell from 5.0 to 3.8 hours, and concern about insufficient family/friend time rose to 46.3%. This makes social connection a measurable time-allocation constraint, not simply an attitude or platform-use story.
+
+**Latest cyber-trust rotation — 2026-09-30:** the [Philippines PSA NICTHS cybersecurity record](records/comparative-philippines-psa-nicths-2024-cybersecurity-awareness-incidents-reporting.json) finds 62.5% of ICT-device users experienced a cybersecurity incident in 2024, while only 33.4% were aware of cybersecurity/data privacy and 1.9% of victims reported incidents to authorities. SMS fraud affected 57.1% of victims, with sharper regional concentrations. Digital adoption is therefore creating a protection-and-recourse problem, not just an access or commerce story.
+
+**Latest social-commerce conversion rotation — 2026-09-30:** the [Philippines PSA NICTHS e-commerce record](records/comparative-philippines-psa-nicths-2024-ecommerce-cod-social-selling-trust.json) finds 36.7% of internet users bought online, 15.4% sold goods/services for income, and 94.4% of online goods sellers used social media. Yet 97.6% of buyers preferred cash on delivery, 42.9% of non-electronic-payment buyers cited security concerns, and 71.7% of non-buyers preferred shopping in person. Connectivity is converting into commerce, but trust and habit still govern the transaction.
+
+**Latest handset-ecology rotation — 2026-09-30:** the [Indonesia BPS telecommunications record](records/comparative-indonesia-bps-telecommunication-2024-mobile-computer-fixedline-ecology.json) shows internet use reaching 72.78% of the population while 99.08% of internet users used mobile cellular devices, only 18.52% of households owned a computer, and 0.99% had fixed-line telephones. Home access dominated, but public-place access reached 51.62% and in-vehicle access 33.31%. This is a device and access ecology signal, not cultural-use evidence.
+
+**Latest administrative-communication rotation — 2026-09-30:** the [Ghana NCA Q2 2026 telecom record](records/comparative-ghana-nca-q2-2026-mobile-data-voice-substitution.json) shows mobile internet subscriptions rising from 23.2 million to 30.5 million and penetration from 71.6% to 89.5% since Q4 2023, while voice minutes per subscription fell 11.7% to 701. Fibre reached 294,626 subscriptions, tiny beside mobile data. This is a mobile-data expansion and possible voice-displacement signal, not unique-person access or cultural-use evidence.
+
+**Latest digital-intensity rotation — 2026-09-30:** the [Philippines PSA NICTHS 2024 record](records/comparative-philippines-psa-nicths-2024-mobile-digital-intensity-cost.json) shows home internet access rising from 17.7% in 2019 to 48.8% in 2024, while 67.3% of people aged 10+ used the internet, 98.8% of users relied on cellphones, 76.9% used it daily, and average use reached 4.6 hours per day. NCR home access was 68.7% versus 27.7% in BARMM, so rising intensity coexists with deep regional exclusion.
+
+**Latest mobile-first digital-access rotation — 2026-09-30:** the [South Africa GHS 2025 record](records/comparative-south-africa-statssa-ghs-2025-mobile-first-digital-access-household-room.json) finds 85.6% of households could access the internet somewhere, but only 20.6% had fixed home access and 78.9% relied on mobile access. Any-access ranged from 93.8% in Western Cape to 74.5% in Eastern Cape, while fixed-home access ranged from 49.7% in Western Cape to 5.9% in Limpopo. This is an infrastructure and household-room constraint, not a cultural participation measure.
+
+**Latest observed-basket rotation — 2026-09-30:** the [France INSEE cultural-leisure spending record](records/comparative-france-insee-cultural-leisure-spending-2000-2025-service-shift.json) adds national-accounts evidence beneath the attendance data: cultural services rose from 8.6% to 12.4% of the cultural/sports/leisure basket between 2021 and 2025, while books/press/stationery fell from 13.6% to 9.9% and durable cultural/recreational goods from 11.3% to 9.0%. This suggests an ownership-to-service shift, but not necessarily more participation or equal access.
+
+**Latest cultural-supply divergence rotation — 2026-09-30:** the [China NBS cultural-enterprise H1 2026 record](records/comparative-china-nbs-cultural-enterprises-h1-2026-channel-creative-divergence.json) adds the production side: 82,000 above-designated-size cultural enterprises generated 7,202.6 billion yuan in revenue, up 4.6%, but news/information and creative design grew 9.2% while cultural communication channels fell 3.2% and consumer-terminal production rose only 0.4%. The signal is a value-capture and distribution hypothesis, not household demand or cultural impact evidence.
+
+**Latest active-participation rotation — 2026-09-30:** the [South Korea MCST 2025 culture and leisure record](records/comparative-south-korea-mcst-2025-cultural-leisure-active-participation.json) shows direct cultural attendance at 60.2%, down 2.8 percentage points, driven in part by a 6.4-point fall in film attendance. But active cultural/arts participation rose 1.1 points to 5.8%, cultural-arts education rose 2.2 points to 8.6%, and broader leisure satisfaction reached 64.0%. The signal is a mode shift hypothesis—not proof of cultural retreat or digital substitution.
+
+**Latest place-stratified cultural-outings rotation — 2026-09-30:** the [French Ministry of Culture 2025 outings barometer](records/comparative-france-ministry-culture-cultural-outings-2025-mobility-stratification.json) shows cinema at 57%, monuments at 61%, live shows at 47%, and museums at 33%, with rates close to 2019 despite a slight 2025 decline. But cinema attendance ranges from 76% among ages 15–24 to 45% among ages 70+, from 71% in high-income groups to 46% in low-income groups, and from 64% in large urban centres to 48% in dispersed rural areas. Museum and festival attendance also often bundles with overnight travel. This is a place-and-status access signal, not causal recovery evidence.
+
+**Latest digital-domestic-legitimacy rotation — 2026-09-30:** the [Brazil Ministry of Culture habits and policy record](records/comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025.json) finds music (53%), films (52%), and series (40%) outranking venue-based forms in the last 30 days, with lack of time (33%) more prominent than lack of money (24%) as a stated barrier. Yet policy approval is high—81% for CEUs da Cultura and 73% for Paulo Gustavo/Aldir Blanc—despite 74% reporting no awareness of the named laws. This is a perception and reach signal, not spending, causal policy impact, or durable trust evidence.
+
+**Latest hidden-time conversion rotation — 2026-09-30:** the [India Time Use Survey 2024 record](records/comparative-india-mospi-time-use-2024-culture-leisure-care-gender.json) measures what attendance surveys miss: 93.0% participated in a broad culture/leisure/mass-media/sports category on the reference day, averaging 159 minutes per person; women spent 289 minutes per day in unpaid domestic work when participating versus 88 for men, and 137 versus 75 minutes in caregiving. Culture/leisure/media time was 169 minutes per male person versus 148 female, with urban participants at 183 minutes versus 165 rural. The category is broad and the diary is one day, but it makes time inequality observable.
+
+**Latest inequality-in-cultural-access rotation — 2026-09-30:** the [Mexico INEGI MODECULT 2025 record](records/comparative-mexico-inegi-modecult-2025-cultural-access-disability-education-digital-creation.json) adds a national cultural-participation lens: 64.7% of people aged 12+ attended an event, but attendance was 80.9% among ages 12–24 versus 47.8% among ages 50+, 82.8% with higher education versus 50.2% with incomplete basic education, and 48.3% among people with disabilities. Fairs and cinema were major gateways, while photography/video creation accounted for 61.0% among artistic participants. The 2025 instrument expanded national coverage and age range, so direct trend comparisons require caution.
+
+**Latest digital-to-place cultural rotation — 2026-09-30:** the [Spain Ministry of Culture habits record](records/comparative-spain-ministry-culture-cultural-habits-2024-2025-digital-active-gender.json) adds an official provisional comparison: 80.4% viewed audiovisual content and 77.3% listened to music monthly, while 54.3% visited monuments, 49.2% visited museums/exhibitions/galleries, 48.3% attended live cultural events, and 48.8% went to cinema annually. Active creation was also visible—21.6% photography, 15.9% painting/drawing, 11.3% video—with sex differences in reading and videogame use. The results are a first-tranche advance, not the final biennial estimate.
+
+**Latest repeated-participation rotation — 2026-09-30:** the [Norwegian Cultural Barometer 2025 record](records/comparative-norway-ssb-cultural-barometer-2025-postpandemic-stabilization.json) adds a repeated-wave behavioral check: cinema attendance fell from 72% in 2016 to 62% in 2025, theatre from 50% to 37%, while library use stabilized near pre-pandemic levels; 80% of children aged 9–15 visited a library, and 64% wanted to attend concerts more often. Financial reasons, time, and more interesting alternatives were the leading reported barriers. This is representative survey evidence, not a causal pandemic estimate or individual panel.
+
+**Latest direct-cultural-participation rotation — 2026-09-30:** the [Saudi GASTAT household culture and entertainment record](records/comparative-saudi-gastat-household-culture-entertainment-2024-participation.json) separates attendance from practice: 81.6% visited at least one cultural event or activity and 85.3% visited an entertainment event, but 39.0% practiced a cultural activity. Parks/gardens reached 65.8%, museums 13.4%, cinemas 24.9%, and literary/poetry events 2.5%; book reading was 48.5%. This is cross-sectional self-report evidence, not causal access or policy impact; the next test joins venue mix to price, transport, demographics, digital media, and repeat participation.
+
+**Latest comparative household-culture rotation — 2026-09-30:** the [China NBS 2025 household-consumption record](records/comparative-china-nbs-2025-household-consumption-culture-recreation-urban-rural.json) adds a large non-Western household-budget lens: education, culture, and recreation spending reached 3,489 yuan per person, up 9.4% nominally and 11.8% of total consumption; urban spending was 4,298 yuan versus 2,322 yuan rural, a 1.85-to-1 ratio. The category is broader than culture and does not establish participation or belonging; the next test joins expenditure to prices, service supply, digital access, mobility, and actual cultural use.
+
+**Latest subprime-mobility-remedy rotation — 2026-09-30:** the [multistate Credit Acceptance Corporation settlement record](records/us-multistate-cac-subprime-auto-loan-settlement-2026.json) adds an unequal-credit-to-mobility layer: the New York Attorney General reports more than $630 million in debt relief for more than 55,000 consumers, $60 million in restitution, and separate relief for repossessed versus retained vehicles. The settlement also creates disclosure, dealer-control, and 95%-debt-waiver early off-ramps for qualifying new high-risk loans. This is a reported legal resolution, not proof of payment receipt, transportation recovery, compliance, or durable trust; the next test follows account correction, vehicle retention, credit reporting, and household mobility.
+
+**Latest monitored-remedy rotation — 2026-09-30:** the [CFPB Bilt transition record](records/us-cfpb-bilt-transition-redress-2026.json) follows a named financial-service failure beyond complaint or perception: more than 2,000 eligible consumers were reimbursed $264,792.71 for transition-related fees, over 500 newly identified customers were targeted through proactive outreach, and the CFPB recorded technical remediation, monitoring, and closure. This is a single agency-monitored episode, not proof of national reliability or durable trust repair; the next test follows remedy through individual receipt, residual burden, retention, and repeat service use.
+
+**Latest hidden-time cultural-access rotation — 2026-09-30:** the [Chile ENPCCL 2024 record](records/comparative-chile-enpccl-2024-cultural-participation-time-ses-disability.json) shows 75.4% participation among urban residents aged 15+, but 28.7% wanted cultural participation and could not achieve it; among that unmet-demand group, lack of time or fatigue (30.9%) exceeded economic reasons (20.1%). Participation also varied sharply by socioeconomic status and disability, making time, energy, accessibility, and status a joint conversion problem rather than a simple interest or price story. The next test joins cultural participation to care, work schedules, transport, venue accessibility, and repeat attendance.
+
+**Latest transport-accessibility rotation — 2026-09-30:** the [Statistics Canada accessibility-and-travel record](records/comparative-statcan-accessibility-travel-barriers-2025-disability-trip-prevention.json) tests the transport stage of that bridge: 29% of people with disabilities or long-term conditions who considered an out-of-town trip said possible accessibility barriers discouraged or prevented it, rising to 46% among those with greater daily-activity difficulty versus 19% among those with less. The release also finds terminal barriers for 40% of travellers and incomplete support realization; it does not identify cultural trip purpose or provider fault. The next test joins anticipated travel failure to venue access, cultural attendance, care, and local transport supply.
+
+**Latest national arts-optionality rotation — 2026-09-30:** the [England DCMS Participation Survey 2024/25 record](records/comparative-england-dcms-participation-survey-2024-25-arts-physical-digital-deprivation.json) shows arts engagement is overwhelmingly physical-first: 90% engaged physically, 35% digitally, and 56% physically only. Physical participation was 95% in the least deprived areas versus 81% in the most deprived, while digital participation was 39% versus 31%; the report also finds 89% physical engagement among disabled adults versus 91% among non-disabled adults. The next test joins mode choice and deprivation to transport, venue supply, price, household time, and repeat use.
+
+**Latest household-adaptation rotation — 2026-09-30:** the [ONS August 2026 social-trends record](records/comparative-ons-public-opinions-social-trends-august-2026-cost-water-consumer-adaptation.json) connects current pressure to reported behavior: among adults whose cost of living rose, 59% spent less on non-essentials, 43% shopped around more, and 38% cut spending on food or essentials; separately, 88% reported at least one water-saving action during drought and restrictions. The source is rapid self-report evidence, not transaction or meter data; the next test joins defensive consumption to household resources, prices, gendered domestic work, and durable substitution.
+
+**Latest observed-spending rotation — 2026-09-30:** the [ONS Family Spending FYE 2025 record](records/comparative-ons-family-spending-fye2025-recreation-culture-income-gap.json) tests those reported adaptations against recorded expenditure: real household spending rose 5%, recreation and culture rose £6.70 per week, but the richest fifth spent £1,083.60 weekly versus £407.30 for the poorest, a 2.7-to-1 ratio. The richest fifth added £98.10 per week versus £18.10 for the poorest. The next test separates price, quantity, household composition, debt, and actual cultural use rather than treating aggregate spending recovery as broad consumer recovery.
+
+**Latest expectation-to-capacity rotation — 2026-09-30:** the [ECB Consumer Expectations Survey August 2026 record](records/comparative-ecb-consumer-expectations-august-2026-income-inflation-spending.json) adds a euro-area forward-looking layer: expected nominal spending growth was 3.6% versus expected nominal income growth of 1.0%; lower-income households expected 13.4% unemployment and 5.7% mortgage rates versus 9.4% and 4.4% among the top income quintile. The next test joins expectations to realized spending, credit, housing tenure, savings, and cultural or social substitution.
+
+**Latest confidence-reversal rotation — 2026-09-30:** the [European Commission September 2026 consumer-survey record](records/comparative-european-commission-consumer-confidence-september-2026-sentiment-uncertainty.json) shows EU consumer confidence falling 0.8 points to -15.8 and euro-area confidence falling 1.0 point to -16.5 after four months of recovery; inflation expectations rose 1.8 points and uncertainty rose 1.2 points. The next test joins confidence reversal to major-purchase timing, realized spending, country variation, and geopolitical or energy information.
+
+**Latest observed-demand rotation — 2026-09-30:** the [Eurostat July 2026 retail-trade record](records/comparative-eurostat-retail-trade-july-2026-food-nonfood-consumer-demand.json) gives the first behavioral check: monthly retail volume fell 0.6% in the euro area and 0.4% in the EU, with non-food down 1.4% and 1.1% while food rose 0.4% and 0.3%; annual totals remained positive but fuel fell. The next test joins confidence, category substitution, prices, household income, and cultural or discretionary retail categories.
+
+**Latest balance-sheet-consumption rotation — 2026-09-30:** the [IMF Japan 2026 household-consumption record](records/comparative-imf-japan-2026-household-debt-consumption-fiscal-shock.json) opens the financial mechanism: highly indebted and high-LTV households had more negative consumption responses to fiscal tightening, while deleveraging was strongly associated with lower per-capita consumption. The next test joins debt repayment to household income, savings, prices, discretionary categories, and actual cultural use.
+
+**Latest observed-consumption rotation — 2026-09-30:** the [Statistics Canada household-spending record](records/comparative-statcan-household-spending-2023-income-tenure-culture-refresh-2026.json) adds a current-dollar household-budget layer: average 2023 spending was $76,750, with shelter at 32.1%, transportation at 15.8%, food at 15.7%, and recreation up 23.9% from 2021. The top income quintile averaged $123,447 in goods and services versus $40,080 for the bottom, while the bottom quintile devoted 34.8% to shelter and 17.9% to food. The release uses refreshed 2021-Census-calibrated weights and is not real-consumption, panel, or causal-welfare evidence; the next test joins spending composition to prices, quantities, income, debt, cultural participation, and household room.
+
+**Latest cultural-access rotation — 2026-09-30:** the [Eurostat cultural-participation record](records/comparative-eurostat-cultural-participation-disability-age-2022-refresh-2026.json) adds harmonized participation cells rather than another cultural-value attitude: in Sweden, participation in cinema, live performances, or cultural sites was 66.8% among people reporting no activity limitation, 52.8% among those with some limitation, and 34.8% among those with severe limitation; the same indicator ranged from 79.9% at ages 16–24 to 47.2% at ages 65+. The source is a 2022 cross-sectional EU-SILC module documented in Eurostat’s 2026 culture refresh; it does not identify whether cost, transport, health, venue access, caregiving, or supply caused the gaps. The next test joins participation to accessibility, household room, mobility, venue supply, repeat attendance, and belonging.
+
+**Latest same-instrument social-consumption rotation — 2026-09-30:** the [Census HTOPS arts/loneliness/income record](records/us-census-htops-arts-loneliness-income-2026.json) joins several routes without pretending they are person-level causal links. Recent live music, dance, or theater attendance was 10.6% among adults in households under $35,000 versus 37.6% at $150,000+, while always/usually loneliness was 18.2% versus 1.9%. The experimental July 2026 survey also reports three-or-more-times-weekly in-person contact at 18.7% for ages 18–34 and 37.1% for ages 65+. The next test follows actual household or person-level change through price, time, transport, accessibility, cultural participation, and connection; this cross-sectional release cannot identify the mechanism.
+
+**Latest diary-time rotation — 2026-09-30:** the [ABS Australia time-use record](records/comparative-abs-australia-time-use-2024-disability-carer-free-time-2026.json) adds observed daily allocation beneath care and cultural-access narratives. Among people who participated in caring/support, carers averaged 2h45 per day versus 1h46 for non-carers, while participant-level free time averaged 5h25 versus 5h36; disability-status cells also show different free-time duration among participants. The two-day diary is not a carer-prevalence or causal time-displacement estimate, but it makes the hidden conversion cost measurable. The next test joins diary time to household cost, work schedule, transport, accessibility, social contact, and repeat cultural participation.
+
+**Latest civic-action rotation — 2026-09-30:** the [England Community and Engagement civic-action record](records/comparative-govuk-community-engagement-civic-action-place-2025-26.json) adds an institutional-conversion layer: 46% engaged in civic participation, consultation, or activism at least once in 2025/26, but the rate was 55% among higher managerial/professional groups versus 39% among routine/manual and never-worked/long-term-unemployed groups; cited local-authority estimates ranged from 61% in Camden to 17% in the City of London. The survey measures whether an act occurred, not influence or institutional response. The next test joins local service experience, cultural/social infrastructure, invitation, participation, official response, and durable voice.
+
+**Latest perceived-efficacy rotation — 2026-09-30:** the [England local-influence record](records/comparative-govuk-community-engagement-local-influence-efficacy-2025-26.json) extends civic action into legitimacy: 59% said being able to influence local decisions was important, but only 26% felt they personally could, while 29% wanted more council involvement. People most often named online petitions (50%), contacting a council or official (47%), knowing what issues were being considered (47%), and online/email response (41%) as routes or enabling conditions. These are perceptions and stated routes, not observed council response or decision change; the next test follows one local issue through notice, access, contribution, official response, and durable efficacy.
+
+**Latest named-response rotation — 2026-09-30:** the [Stockton-on-Tees Yarm public-engagement decision record](records/uk-stockton-yarm-public-engagement-decision-scrutiny-2026.json) supplies an observed institutional middle stage: the council records resident opposition to a specific High Street scheme, a decision not to proceed and reallocate funding, a scrutiny call-in over how engagement was presented and interpreted, and Cabinet reconsideration with the original decision confirmed. This is a bounded council-reported episode, not representative public opinion or completed regeneration; the next test follows retained funding and renewed engagement into an operating project, resident experience, and durable efficacy.
+
+**Latest observed-mobility rotation — 2026-09-30:** the [DfT domestic transport-use record](records/comparative-uk-dft-domestic-transport-usage-september-2026-mode-recovery.json) adds administrative behavior evidence: latest indexed use was 94% of the comparable rail baseline, 83% for buses outside London, 79% for London bus and Tube, and 105% for motor traffic. The series is mode-specific and does not identify unique travelers, trip purpose, affordability, or modal switching; the next test joins observed mobility to household cost, service availability, hybrid work, disability, care, and local participation.
+
+**Latest household-infrastructure rotation — 2026-09-30:** the [Northern Ireland household water-use record](records/comparative-northern-ireland-household-water-usage-2025-26-routines-equipment-deprivation.json) adds concrete routine and equipment evidence: 48% of respondents shower seven times a week, 85% of households use a washing machine more than weekly, 43% do not own a dishwasher, and dual-flush toilet ownership is 68% in the most deprived areas versus 81% in the least deprived. The 3,459-household Continuous Household Survey is representative at household level but split-sample and self-reported; it does not measure metered volumes, bills, efficiency, or causal deprivation effects. The next test joins household equipment and routine to actual water use, prices, drought exposure, time burden, and infrastructure response.
+
+**Latest media-legitimacy rotation — 2026-09-30:** the [Ofcom News Consumption Survey record](records/comparative-ofcom-news-consumption-2026-ai-intermediaries-local-trust.json) adds a distribution-and-trust mechanism: 73% of UK adults accessed news through online intermediaries, 21% used AI for news, and 56% were less trusting of an AI-written story than a human-written one, while television reached 62% during the May 2026 election period and 71% rated local news among the most important forms of news. The survey's 2025-2026 redesign broadened news to passive exposure and changed the fieldwork design, so prior-year comparisons are constrained; the next test follows an identifiable news encounter through verification, political or local action, correction, and durable trust or exit.
+
+**Latest cultural-consumer gateway rotation — 2026-09-30:** the [Eurostat online-event-ticketing record](records/comparative-eurostat-online-event-ticketing-2025-cultural-consumer-gateway.json) adds a transaction-stage cultural measure: 26.8% of EU individuals aged 16–74 bought event tickets online in the previous three months in 2025, up 3.8 percentage points from 2024, but the country range ran from 51.5% in Ireland to 11.4% in Bulgaria. This is an online purchase gateway, not attendance, affordability, repeat participation, or cultural belonging; the next test follows a ticket through price and fees, attendance, accessibility, resale or remedy, repeat use, and value distribution between audiences, venues, artists, and intermediaries.
+
+**Latest recurring cultural-consumption rotation — 2026-09-30:** the [Eurostat paid-streaming subscription record](records/comparative-eurostat-paid-streaming-subscriptions-2025-cultural-consumer-access.json) separates recurring digital consumption from one-off ticket purchase: 32.7% of EU internet users had a paid film, series, or sports streaming subscription in 2025, versus 23.0% for music, 7.2% for online news, and 6.1% for gaming streaming. The film/series/sports rate was 35.6% in cities versus 29.0% in rural areas and ranged from 63.9% in Ireland to 9.3% in Bulgaria. This is subscription presence, not use, affordability, content quality, creator income, or market power; the next test follows recurring payment through household budget, usage, cancellation, discovery, and provider value capture.
+
+**Latest cultural-labor geography rotation — 2026-09-30:** the [ONS creative-industries jobs record](records/comparative-ons-creative-industries-jobs-london-regional-demographics-2025.json) adds a production-side place-concentration layer: estimated creative jobs were 13.7% of all London jobs versus 5.9% outside London, with London creative jobs 26.0% self-employed and 80.4% degree-or-equivalent by derived workbook shares. The APS source warns about response quality, 2022-based weights, and non-comparability; this is not a clean regional ranking or a measure of cultural consumption. The next test joins creative job concentration to earnings, housing, commuting, care, firm survival, worker voice, and cultural access.
+
+**Latest cultural-production/access rotation — 2026-09-30:** the [Census HTOPS arts-production and local-opportunity record](records/us-census-htops-arts-production-local-opportunity-2026.json) adds two distinct stages to the existing attendance evidence: 26.2% of adults ages 18–34 versus 13.8% of adults 65+ reported creating, practicing, or performing personal art in the last four weeks, while agreement that local arts opportunities were plentiful ranged from 59.6% below $35,000 household income to 82.5% at $150,000+. These are experimental cross-sectional measures, not professional production, objective venue supply, affordability, or causal age/income effects; the next test joins practice and perceived supply to time, transport, price, disability access, attendance, and local cultural infrastructure.
+
+**Latest real-time cultural-economy rotation — 2026-09-30:** the [ONS real-time arts-payment-flow record](records/comparative-ons-realtime-arts-payment-flows-edinburgh-festival-2026.json) adds administrative network evidence: payments from Scottish arts organisations to other UK arts organisations rose 73% in August versus July, while equivalent payments in the rest of the UK fell 40%; Scottish arts payment flows have shown a recurring August peak from 2021–2025. The indicator excludes ticket sales and visitor spending and is official statistics in development; the next test joins production flows to festival attendance, jobs, artist income, place footfall, and audience value capture.
+
+**Latest official AI-adoption rotation — 2026-09-30:** the [Eurostat generative-AI use record](records/comparative-eurostat-generative-ai-use-age-purpose-2025.json) adds a harmonized population baseline: 65% of EU internet users ages 16–24 used generative-AI tools in 2025 versus 14% of ages 55–74; private use reached 27%, professional use 16%, and formal-education use 10%. This is adoption and purpose evidence, not trust, capability, productivity, substitution, or welfare; the next test joins age and purpose to verified task completion, human support, work control, cultural discovery, and exit.
+
+**Latest enterprise-platform rotation — 2026-09-30:** the [Eurostat enterprise social-media record](records/comparative-eurostat-enterprise-social-media-size-country-2025.json) adds the supply side of digital discovery: 60.6% of small EU enterprises used social media in 2025 versus 76.2% of medium and 89.1% of large enterprises, while country shares ranged from 88.2% in Malta to 41.5% in Bulgaria. This is enterprise presence, not consumer reach, conversion, or platform power; the next test joins firm size and place to audience discovery, sales, labor burden, and market concentration.
+
+**Latest platform-experience rotation — 2026-09-30:** the [Eurostat hostile-online-content record](records/comparative-eurostat-hostile-online-content-age-gender-2025.json) adds a population-level exposure and identity-safety layer: 53.7% of EU internet users ages 16–24 encountered hostile or degrading content in 2025, including 57.2% of young women versus 50.4% of young men. This measures exposure to content directed at people or groups, not direct victimization, severity, platform response, or harm; the next test follows exposure through reporting, moderation, identity safety, civic/cultural participation, and exit.
+
+**Latest youth-material-capacity rotation — 2026-09-30:** the [Eurostat youth-overcrowding record](records/comparative-eurostat-youth-overcrowding-age-country-2025.json) adds an objective household-room constraint: 26.9% of EU young people ages 15–29 lived in overcrowded households in 2025 versus 16.8% of the total population, with rates from 60.4% in Romania to 3.5% in Cyprus. This is a room-standard indicator, not subjective privacy, rent burden, homelessness, or causal cultural behavior; the next test joins household room to study/work capacity, care, digital use, cultural practice, and consumer autonomy.
+
+**Latest youth-autonomy rotation — 2026-09-30:** the [Eurostat parental-home exit record](records/comparative-eurostat-youth-parental-home-exit-employment-2025.json) adds a household-formation transition: the EU average age of leaving the parental home was 26.3 in 2025, ranging from 31.5 in Croatia to 21.4 in Finland; earlier exit generally coincided with higher youth employment across countries. This is an aggregate transition indicator and reported association, not a causal employment effect or proof of individual independence; the next test joins exit timing to rent, overcrowding, education, work, care, privacy, and consumer autonomy.
+
+**Latest place-by-category consumption rotation — 2026-09-30:** the [Census Monthly State Retail Sales record](records/us-census-monthly-state-retail-sales-experimental-2026.json) adds experimental modeled transaction-side dispersion: June 2026 total retail growth ranged from -7.6% in Alaska to +11.3% in Louisiana, while sporting-goods/books/music retail ranged from -9.6% in D.C. to +24.8% in Alaska. This is nominal year-over-year modeled sales, not real-volume growth or household welfare, and the Census page flags a September methodology revision; the next test joins place/category divergence to prices, population, tourism, household budgets, and repeat behavior.
+
+**Latest cultural-social-material tension rotation — 2026-09-30:** the [ABS General Social Survey 2025 record](records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json) adds a same-instrument bridge: 79% of Australians attended a cultural venue or event and 48% participated in a cultural activity in the prior year; weekly face-to-face contact outside the household rose from 41.3% in 2020 to 52.2% in 2025, while household cash-flow problems rose from 20.7% to 25.3% and dissaving from 22.9% to 25.7%. These are repeated cross-sections with questionnaire and confidentiality cautions, not individual trajectories or causal links; the next test joins participation and contact to household resources, time, place, accessibility, and durable wellbeing.
+
+**Latest cultural-production labor rotation — 2026-09-30:** the [Statistics Canada National Culture Indicators record](records/comparative-statcan-national-culture-indicators-q1-2026-production-jobs.json) adds an economic-account layer: real Canadian culture GDP rose 0.6% quarter-over-quarter in Q1 2026 while culture jobs fell 0.3%; broadcasting real GDP rose 1.6% while broadcasting jobs fell 1.8%, and film/video jobs fell 2.3%. These are national, seasonally adjusted accounts—not worker-level security or audience demand—and the next test joins subdomain output to job quality, earnings, platform structure, and cultural access.
+
+**Latest real-consumption composition rotation — 2026-09-30:** the [Japan Statistics Bureau CTI record](records/comparative-japan-statistics-consumption-trend-index-july-2026-real-category-household.json) adds a modeled household-consumption lens: July 2026 real consumption fell 2.4% year-over-year while nominal consumption fell only 0.1%; real education fell 11.8%, utilities 8.7%, and culture/recreation 0.7%, while clothing rose 2.4%. Single-person households fell 1.6% versus 2.2% for multi-person households. This is an indexed, revised aggregate—not direct household spending or welfare—and the next test joins category pressure to prices, household structure, and cultural substitution.
+
+**Latest accessibility-to-consumer rotation — 2026-09-30:** the [Statistics Canada disability-accessibility record](records/comparative-statcan-disability-accessibility-digital-consumer-barriers-2022-2024.json) adds practical interface friction: among Canadians with disabilities, 13% reported barriers accessing government information/services online, 11% booking online, and 9% banking or shopping online; Internet-use barriers were 28% among people with very severe disabilities versus 9% among people with mild disabilities. The measures are self-reported cross-sectional barriers, not failed transactions or remedy outcomes; the next test follows accessibility friction through alternate channels, support, completion, cost, and institutional trust.
+
+**Latest culture audience/creator rotation — 2026-09-30:** the [New Zealand cultural-participation record](records/comparative-new-zealand-cultural-participation-2025-access-creation-ai-volunteering.json) adds an audience-to-production bridge: cultural attendance reached 88% in 2025, but active creation fell from 44% in 2023 to 40%; 72% said accessibility or convenience would encourage more engagement. Among creators, 65% of digital-tool users used generative AI, while 36% of nonusers cited skills or knowledge as a barrier. This is commissioned online-panel evidence, not verified output or causal access evidence; the next test joins audience access to creator capability, volunteer labor, and cultural value capture.
+
+**Latest age/place cultural-behavior rotation — 2026-09-30:** the [Statistics Denmark Cultural Habits record](records/comparative-statistics-denmark-cultural-habits-q2-2026-age-urban-games-museums.json) adds current participation behavior: digital-game participation was 93% among ages 16–24 versus 38% among people 75+, while museum participation was 68% versus 56%; cinema attendance was 76% in densely populated areas versus 64% in thinly populated areas, while Danish heritage-site visits were 70% versus 67%. This is a quarterly cross-sectional survey with a post-2024 questionnaire break; the next test joins age/place patterns to venue supply, transport, digital routines, and cultural meaning.
+
+**Latest digital-access infrastructure rotation — 2026-09-30:** the [Malaysia DOSM ICT-access record](records/comparative-malaysia-dosm-ict-access-2025-urban-rural-device-gap.json) adds a mobile-first access contrast: household Internet access was 97.1% overall, 99.0% urban, and 90.7% rural, while individual mobile use reached 99.6% and computer use 81.5%. The next test joins connectivity mode to task type, affordability, service quality, and public/consumer outcomes without treating access as behavior.
+
+**Latest household-consumption rotation — 2026-09-30:** the [China NBS H1 2026 consumption record](records/comparative-china-nbs-household-consumption-education-culture-recreation-h1-2026.json) shows rural consumption growing faster than urban consumption, including education/culture/recreation, without closing the absolute level gap. The next test decomposes the combined category into education pressure, leisure, travel, devices, and cultural participation before inferring a consumer trend.
+
+**Latest participation-and-trust rotation — 2026-09-30:** the [Statistics Korea 2025 Social Survey record](records/comparative-kostat-south-korea-social-survey-2025-leisure-trust-participation.json) shows cultural attendance, travel, organization participation, and volunteering rising while generalized trust declines. The next test joins specific group types and activity intensity to trust, loneliness, institutional performance, and subgroup differences.
+
+**Latest local cultural-access rotation — 2026-09-30:** the [England DCMS museums-and-galleries record](records/comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap.json) shows a 50-point physical and 20-point digital local-authority spread. The next test joins local cultural participation to venue density, transport, deprivation, demographic composition, and repeat use.
+
+**Latest affordability-and-channel rotation — 2026-09-30:** the [Statistics Poland culture-participation record](records/comparative-poland-statistics-culture-participation-2024-spending-streaming-access.json) shows that rising nominal cultural spending coexists with financial abandonment and sharply unequal paid-streaming access. The next test decomposes price, income, supply, device, and substitution mechanisms.
+
+**Latest Latin American digital-access rotation — 2026-09-30:** the [Mexico INEGI ENDUTIH record](records/comparative-mexico-inegi-endutih-2025-internet-age-rural-indigenous-device-gap.json) shows narrowing rural Internet gaps alongside persistent mobile/computer, age, state, and minority-identification distinctions. The next test joins access mode to tasks, skills, language, affordability, and outcomes.
+
+**Latest hybrid-sociality rotation — 2026-09-30:** the [Statistics Canada social-connections record](records/comparative-statcan-social-connections-2025-virtual-inperson-friendship-satisfaction.json) shows that virtual contact usually supplements in-person contact, while virtual-only sociality is associated with lower satisfaction and more loneliness. The next test joins contact mode to distance, migration, income, disability, platform use, and social-space availability.
+
+## Next operating priority after the breadth rotation
+
+The next high-value pass should add a stronger unit of proof rather than
+another aggregate endpoint. Priority order:
+
+1. **Authorized same-unit route:** acquire an approved PSID or UAS extract and
+   follow a respondent through material exposure, alternative, effort/payment,
+   outcome, trust/action, and exit. Until authorization and files are present,
+   no PSID/UAS estimate is promoted.
+2. **Identifier-bearing public episode:** follow one medical event, consumer
+   remedy, platform control request, named facility/account, or geopolitical
+   incident through the next observed consequence and response.
+3. **Bridge-only rotation:** if neither route is available, add a source only
+   when it supplies a missing actor, stage, denominator, or later consequence;
+   do not add another announcement, use-rate, forecast, or attitude endpoint
+   that duplicates the current atlas.
+
+The breadth memos remain active interpretive context. The next completion
+standard is stronger linkage: actual use or operation, practical alternative,
+dated consequence, remedy or response, and durability.
+
+**Latest home-resilience rotation — 2026-09-29:** the [IKEA Life at Home 2026 record](records/comparative-ikea-life-at-home-2026-home-needs-control-comfort-security-climate-action.json) adds a practical consumer-meaning route from financial, climate, technological, and social uncertainty through home security, comfort, control, climate motivation, domestic routines, and future optimism. The source is a commercially commissioned online survey and qualitative research programme, not objective housing or causal behavior evidence. The next test follows a named household or housing episode through energy cost, time use, repair or purchase, shared life, and durable room.
+
+**Latest youth-AI-connection rotation — 2026-09-29:** the [RELATE Project 2026 record](records/comparative-young-life-relate-2026-ai-companions-face-to-face-trust.json) adds a youth relationship layer: among 7,105 adolescents and young adults in 11 countries, the publisher reports 35% with an AI companion, 64% preferring face-to-face connection with close friends, and 70% preferring a trusted person over AI or search for difficult advice. The study is publisher-reported survey and qualitative evidence from a faith-based nonprofit, not independent population surveillance or causal evidence. The next test follows a named youth-serving setting through AI use, confidentiality, adult listening, referral or escalation, offline participation, and wellbeing.
+
+**Latest public youth-survey rotation — 2026-09-29:** the [Northern Ireland Young Life and Times record](records/comparative-ark-ylt-northern-ireland-16-year-olds-community-social-media-politics-2026.json) adds a university-linked public survey of 1,965 16-year-olds. It shows 71% expecting a sense of belonging to Northern Ireland but only 22% agreeing that people respect each other, 59% frequently seeing or hearing racist comments or jokes, and 40% supporting a voting age of 16. It also supplies social-media time, platform reach, online-harm, urban/rural safety, and environmental-value measures. The instrument was split and the results are self-reported; the next test follows a named youth setting through cross-community contact, platform exposure, safety, civic participation, and durable trust.
+
+**Latest observed-consumption rotation — 2026-09-30:** the [CNBC/NRF Retail Monitor record](records/us-cnbc-nrf-retail-monitor-affinity-transactions-august-2026.json) adds actual anonymized card-transaction evidence rather than another survey endpoint. August total retail sales excluding autos and gas rose 0.22% month over month and 3.87% year over year; core sales rose 0.17% and 3.47%. The monitor uses a large permissioned card frame, but the August release changed methodology and is not directly comparable with July. The next test joins transaction growth to prices, quantities, income, credit, category substitution, repeat purchase, and household-panel evidence.
+
+**BEA macro-consumption freshness checkpoint — 2026-09-30:** BEA's release schedule lists Personal Income and Outlays for August 2026 on September 30, but the live consumer-spending page and current-release index still identify July 2026 as the current release, and the expected August release page/PDF was not available at retrieval. This is a freshness/non-observation result, not an August estimate. The existing [BEA July income-and-outlays record](records/us-bea-personal-income-outlays-2026-july.json) remains the valid national-accounts comparator; August BEA values must be added only after a direct official release or data table is retrievable and its annual-update vintage is preserved.
+
+**Latest comparative household-confidence rotation — 2026-09-30:** the [Japan Cabinet Office Consumer Confidence Survey record](records/comparative-japan-cabinet-office-consumer-confidence-august-2026-price-expectations-purchase-timing.json) adds an official household survey with 6,674 valid responses, a 79.5% response rate, and a 15-month rotating design. The August consumer-confidence index rose 0.6 points to 35.5, durable-goods purchase timing rose 1.9 points to 27.5, while income-growth and employment perceptions softened; 89% expected prices to rise over the following year. This is a perception-and-intention layer, not realized spending or household welfare. The next test joins Japan's purchase timing and price expectations to actual household expenditure, wages, durable-goods sales, and subgroup or regional outcomes.
+
+**Latest online-channel rotation — 2026-09-30:** the [Census Quarterly Retail E-Commerce Sales record](records/us-census-quarterly-ecommerce-sales-2026q2-channel-shift.json) adds an observed channel surface: Q2 2026 seasonally adjusted e-commerce sales rose 12.2% year over year versus 6.7% for total retail, reaching 17.1% of retail sales. The estimate is nominal and establishment-level, so it does not identify unique buyers, real quantities, household affordability, channel substitution, or platform power. The next test joins online share to category, price, delivery, access, repeat-purchase, and household-panel evidence.
+
+**Latest digital-social-infrastructure rotation — 2026-09-30:** the [UK DSIT informal and proxy digital support record](records/comparative-uk-dsit-informal-proxy-digital-support-2026-social-infrastructure.json) adds the hidden labor behind digital participation. In the commissioned mixed-method study, 35% of UK adults provided informal digital help in the prior year; 53% of supporters provided proxy help, 31% reported using someone else's login details for online banking or financial accounts, and 65% helped with at least one financial transaction. The study is strongest on mechanism—immediate access can coexist with dependency, time burden, and insecure delegation—and does not establish causal service failure or national digital-exclusion prevalence. The next test follows a named service or household through supported access, task completion, credential safety, repeat dependence, and formal remedy.
+
+**Latest digital-rebalancing rotation — 2026-09-30:** the [Sweden Internet Foundation 2026 record](records/comparative-sweden-internet-foundation-2026-ai-detox-digital-services-social-norms.json) adds a public-interest digital-life survey with 3,776 core respondents. It reports 62% using AI services, 81% using either AI services or Google AI overviews, 80% getting stuck passive-scrolling too long, 30% having completed a digital detox, and 77% using a digital mailbox while 25% of users aged 76 or older say the service makes things harder. The study is January self-report survey evidence weighted to Statistics Sweden, not passive usage or causal wellbeing data. The next test joins AI and digital-service adoption to verified search, service completion, attention, sleep, social participation, and age-specific remedy or non-use.
+
+**Acquisition-gate recheck — 2026-09-29:** a fresh workspace inventory found
+the existing PSID/UAS documentation, manifests, and audit artifacts but no
+authorized PSID Family File, PSID cross-year individual file, or UAS respondent
+package. The current PSID audit still records Conditions-of-Use acceptance as
+the access prerequisite; the UAS audit still records registration and explicit
+terms compliance as prerequisites, including the restriction on automated or
+LLM handling without written authorization. This is an access-state
+checkpoint, not evidence that the underlying relationships are absent. No
+respondent-level estimate is promoted. The next executable step remains a
+human-led authorized file handoff followed by the structural merge audit; in
+parallel, the identifier-bearing public-episode route remains available.
+
+**Public-episode route selection — 2026-09-29:** the first executable public
+episode is the [California wildfire-insurance and FAIR Plan route](projects/us-wildfire-insurance/california-fair-plan-coverage-remedy-2026-09-28.md).
+It is currently the strongest available household-and-place case because the
+same bounded episode already contains wildfire exposure, policy availability,
+FAIR Plan dependence, catastrophe claims, aggregate payments, complaints,
+regulatory investigation, monetary intervention, and private-market response.
+The next pass must not convert those aggregate stages into a household recovery
+claim. It should seek a dated claim or property trajectory with policy status,
+deductible, claim filing, adjustment, payment timing, repair or temporary
+housing, mortgage continuity, move or stay, and later insurance choice.
+The executable public-data plan is the [California household-recovery
+acquisition map](projects/us-wildfire-insurance/california-household-recovery-acquisition-map-2026-09-29.md),
+which starts with one bounded geography and keeps claims, properties, permits,
+and households as separate denominators until a lawful link is established.
+The route now includes two access-gated surfaces: the county-linked [Fire
+Survivor Insurance Survey](https://www.efsurvivors.net/firesurvey), whose
+sampling and data-use terms must be audited before any respondent evidence is
+used, and the county's [rebuilding Power BI dashboard](https://app.powerbigov.us/view?r=eyJrIjoiNzQ1YWIxN2UtNTFjZC00Yjg5LWE5YzctMzUwYWY3YjhjYTQ5IiwidCI6IjA3NTk3MjQ4LWVhMzgtNDUxYi04YWJlLWE2MzhlZGRiYWM4MSJ9),
+whose metric definitions and refresh provenance must be preserved before
+extracting counts.
+The survey's August 2, 2026 data-handling policy has now been audited and
+retained: it specifies de-identification, address recoding, small-cell
+suppression, separated contact/advocacy files, and a future public-use dataset,
+but does not provide a sample frame, response count, weighting plan, or current
+respondent file. The next valid step is to monitor for the public-use release;
+no survey outcome is promoted now.
+The live instrument was also checked without submission: its first page
+requires affected-home address, fire event, and renter/owner status. This
+confirms the intended property/household stratification but not sample quality
+or representativeness; the next valid input remains the public-use release or
+an authorized analyst handoff.
+The EFSN homepage and September advocacy update now add a distinct collective-
+action layer: 1,600 State Farm accounts are reported as helping power county
+litigation, while the network reports that 7 in 10 survivors are still not
+home, roughly half have taken on new debt, and more than $100M in stalled
+payments moved to families. These are advocacy-source claims with no public
+sampling or verification frame; they advance the voice-to-institution arrow
+without closing household recovery. The next decisive input remains the
+promised public-use insurer dataset or a lawful longitudinal evaluation.
+The County's August State Farm lawsuit and September Farmers investigation now
+close more of the institutional middle: community evidence and complaints are
+reported as inputs to investigation, litigation, potential restitution, and
+contamination oversight. The allegations remain unadjudicated, and payment,
+remediation, safe return, and household recovery are still open.
+The first aggregate query pass is now preserved in the [LA County rebuilding
+dashboard record](records/us-la-county-fire-rebuilding-dashboard-2026.json)
+and [stage-conversion memo](projects/us-wildfire-insurance/la-county-fire-rebuild-dashboard-stage-conversion-2026-09-29.md):
+it adds current damage estimates, construction-stage counts, county occupancy-
+approval progress, displacement-assistance pressure, mobility, and local
+spending indicators, but still does not establish claim adequacy, occupancy by
+the original household, household recovery, or mobility.
+
+The California DOI claims tracker was rechecked 2026-09-29 and still displays
+its July 6, 2026 update: 41,727 claims filed, 40,482 partially paid, and $25.2
+billion paid to date. This is a useful freshness/non-observation result—the
+public aggregate claims surface has not advanced to property-level timing or
+adequacy evidence—so the next decisive acquisition remains a lawful property or
+claim trajectory rather than another aggregate total.
+
+**Latest lived-insurance-constraint rotation — 2026-09-29:** the [California
+Fire Insurance Project findings](https://cafireproject.com/findings) add a
+consumer-voice layer to the wildfire route. In the publisher's self-selected,
+unweighted survey responses received through mid-August, roughly two-thirds of
+respondents mention FAIR Plan placement, with individual self-reported premium
+examples rising 363–367%; respondents also describe mitigation work that did
+not guarantee stable coverage. The source does not disclose a public sample
+size or sampling frame, and its figures are unverified, so this is a mechanism
+and lived-experience signal—not statewide prevalence or carrier-performance
+evidence. It sharpens the next test: follow a named property from non-renewal
+or application through coverage, premium, mortgage/escrow, repair, and later
+stay/exit.
+
+Two adjacent routes remain secondary: the [NYC congestion-pricing
+implementation record](records/us-nyc-congestion-pricing-implementation-2026.json)
+is stronger on observed operation and public infrastructure but weaker on
+household incidence, while the [CFPB BrightSpeed redress route](projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md)
+is stronger on named remedy administration but does not publish recipient-level
+receipt or recovery. This ranking is an execution choice, not an evidence
+quality score across domains. A new NYC observation now follows congestion-
+pricing mitigation money into an Off-Hour Deliveries incentive program for
+businesses. It adds a firm-side adaptation and time-shifting mechanism, while
+leaving participation, actual delivery shifts, worker burden, and neighborhood
+effects open.
+
+The CFPB BrightSpeed route has also received a current-status recheck: the
+case page still reports distribution as ongoing, while the payments-by-case
+index was modified September 28, 2026 and still lists BrightSpeed as a Civil
+Penalty Fund case. The FY2024 financial report also records 122,507 initial
+checks mailed and $53,885,244 distributed, while the CFPB's geographic map
+reports $53,335,244.07. The $549,999.93 difference is preserved as an
+unreconciled accounting/distribution-stage gap; checks mailed still do not
+prove receipt or recovery.
+
+The NYC universal-school-meals route now adds a current city performance layer:
+221,232 average breakfasts and 549,064 average lunches served daily, 74.6%
+student satisfaction with food services, and 119 schools certified for halal
+and kosher meals. These indicators sharpen the access-to-usability and
+cultural-fit bridge, but do not establish unique-student consumption,
+subgroup reach, household food-security change, or learning effects under
+current citywide provision.
+
+**Latest digital-middle rotation — 2026-09-29:** the [encounter,
+interpretation, action, and trust synthesis](projects/cross-domain/us-digital-encounter-interpretation-action-trust-2026-09-29.md)
+connects cultural discoverability, AI-election authenticity, and
+post-moderation/local-trust evidence. It keeps availability, attention,
+verification, action, correction, and durable participation as separate stages;
+the next test requires an identifiable encounter joined to a first-party or
+administrative action and correction record.
+
+**Latest nonemployer/gig-infrastructure rotation — 2026-09-29:** the [Census
+2024 Nonemployer Statistics record](records/us-census-nonemployer-gig-picture-2024-release-2026.json)
+adds a broad operator layer across mobility, delivery, care, repair,
+hospitality, and cultural production. Selected industries show roughly 7.3
+million individual proprietorships and $169.3 billion in receipts, but the
+share actually attributable to gig work is unknown and receipts are not worker
+income or consumer welfare. The next test follows a named operator or category
+through hours, fees, expenses, repeat demand, service completion, household
+room, and exit. The state file shows California, Florida, Texas, and New York
+account for about 40.1% of selected-industry proprietorships and 43.6% of
+receipts, so the next comparison should preserve local market structure rather
+than pool operators nationally.
+
+**Latest services-customer-class rotation — 2026-09-29:** the [Census Quarterly
+Services Survey record](records/us-census-quarterly-services-consumer-class-2026-q2.json)
+adds the employer-firm customer split: information-sector revenue grew 10.0%
+year over year while household/individual-user revenue grew 4.8% and represented
+29.4% of the total; telecommunications was 64.4% household-facing but declined
+1.8%. The next test follows a named service from firm revenue through price,
+access, repeat use, completion, household room, and cultural participation; do
+not treat nominal revenue as consumer welfare or merge employer and nonemployer
+frames.
+
+**Latest food-access conversion rotation — 2026-09-29:** the [USDA food-security
+and assistance record](records/usda-food-security-assistance-spending-2024-2025-2026.json)
+adds the household-side constraint: 13.7% of households were food insecure in
+2024 while inflation-adjusted USDA food-and-nutrition-assistance spending fell
+1% in FY2025 to $147.9 billion. The next test follows a named household or
+local food-access episode through prices, eligibility, application, benefit
+receipt, substitution, food availability, and later security; spending and
+prevalence must not be treated as the same denominator.
+
+**Latest food-outlet behavior rotation — 2026-09-29:** the [USDA Food
+Expenditure Series record](records/usda-food-expenditure-outlet-shift-2025-revision-2026.json)
+adds constant-dollar outlet behavior: 2025 food sales grew 0.9% overall, with
+food away from home up 1.1% and food at home up 0.7%; December full-service
+restaurant sales rose while limited-service and warehouse-club/supercenter sales
+fell. The next test follows a named food category or local outlet through price,
+quantity, purchaser type, benefit/payment, convenience, social meaning, and
+repeat choice; the all-purchaser series is not a household spending panel.
+
+**AI legitimacy handoff — 2026-09-29:** the [SSRS/CNN AI legitimacy synthesis](projects/cross-domain/ssrs-cnn-ai-fear-regulation-public-legitimacy-2026-09-29.md)
+adds a probability-based public-attitude layer: fear and concern about AI
+coexist with broad demand for federal regulation. This is complementary to,
+not a substitute for, the digital-use and implementation records. The next
+valid test is a named AI-mediated work, consumer, or public-service episode
+that joins exposure to control, human review, correction, remedy, and later
+trust or exit; no causal adoption or regulatory-effect claim is promoted.
+
+**Worker-transition synthesis handoff — 2026-09-29:** the [Gallup workplace
+manager synthesis](projects/cross-domain/gallup-ai-workplace-manager-buffer-displacement-2026-09-29.md)
+adds a worker-level mechanism: frequent AI users report more displacement fear,
+while perceived manager respect and organizational care narrow that association;
+fear also co-moves with burnout, satisfaction, engagement, and job-search
+pressure. The panel is observational, so the next valid test is a named
+workplace deployment with task redesign, training, wages, retention, or actual
+job transition—not another adoption or attitude endpoint.
+
+**Provisional commercial-signal handoff — 2026-09-29:** the [Coresight
+scale-versus-value preview](projects/cross-domain/coresight-us-consumer-scale-value-retailer-choice-2026-09-29.md)
+adds a hypothesis about income-divergent sentiment translating into retailer,
+category, convenience, and scale choice. Because the full report is
+subscription-only and the public preview gives no sample, weights, effect
+sizes, or transaction denominator, it remains a watch item for triangulation,
+not a prevalence, substitution, loyalty, or household-welfare finding. The
+next test requires independent transaction or panel evidence distinguishing new
+shoppers, frequency, basket compression, promotion, and durable switching.
+
+**Family-time conversion handoff — 2026-09-29:** the [National Parent Survey
+synthesis](projects/cross-domain/new-america-parent-survey-time-care-money-sandwich-2026-09-28.md)
+adds a concrete route from desired family time through leave, wages, childcare,
+transport, work schedules, and stacked eldercare. It also shows why a single
+“work-family preference” is too coarse: preferred paths are plural and
+income/place/family structure change the reachable option set. The next valid
+test is a named intervention joined to usable time, care reliability,
+employment continuity, household room, and subgroup-specific recovery; the
+survey remains cross-sectional and partly nonprobability-based.
+
+**Intergenerational-security handoff — 2026-09-29:** the [CBO Social Security
+projection synthesis](projects/cross-domain/cbo-social-security-long-term-projections-2026-trust-fund-2032-intergenerational-contract-2026-09-29.md)
+adds a fiscal-capacity-to-household-expectations route: a projected 2032 OASI
+trust-fund exhaustion date can become a present signal about retirement,
+saving, work, family transfers, care, and institutional credibility. CBO does
+not measure those downstream responses, and the projection does not specify a
+post-exhaustion policy outcome. The next valid test requires age- and
+income-specific expectations linked to saving, retirement timing, care, and a
+concrete policy episode.
+
+**Social Security mechanism synthesis — 2026-09-29:** the [information,
+family-mobility, and legitimacy synthesis](projects/cross-domain/us-social-security-information-family-mobility-legitimacy-2026-09-29.md)
+adds actual mechanism evidence beside the CBO forecast: personalized benefit
+information changes DI/OAI application behavior, while historical parental
+coverage is estimated to affect children's later mobility and opportunity.
+These are not a single contemporary household chain; application is not award,
+historical mobility is not current transferability, and neither closes payment
+adequacy, care substitution, or trust. The next valid test is a contemporary
+award-and-receipt route linked to work, retirement, care, mobility, and later
+household room.
+
+**Latest geopolitical-response rotation — 2026-09-29:** the [operation,
+external response, and public permission synthesis](projects/cross-domain/us-geopolitical-operation-response-legitimacy-2026-09-29.md)
+follows a Baltic interception, NATO airspace response, KFOR local integration,
+and alliance-legitimacy attitudes. It adds operation and attributed response
+while keeping deterrence, adversary adaptation, host consent, and durable
+leverage open; the next test requires an event-country-party ledger with a
+before/after response and public or host-community denominator.
+
+**Latest consumer-agency rotation — 2026-09-29:** the [payment, AI, and
+credit mediation synthesis](projects/cross-domain/us-consumer-agency-payment-ai-credit-2026-09-29.md)
+follows payment choice, shock buffers, AI recommendation, verification, human
+credibility, and repeat reliance. It keeps reported adoption separate from
+observed purchase, welfare, debt, and exit; the next test requires one
+consumer task joined to payment, recommendation, purchase, return/debt, and
+repeat-use data.
+
+**Latest time-conversion rotation — 2026-09-29:** the [family care, work
+flexibility, and participation synthesis](projects/cross-domain/us-time-conversion-family-care-participation-2026-09-29.md)
+follows care and life-stage needs through leave, childcare, unpaid work,
+information, schedule control, and continuity. It keeps stated preference,
+diary time, access, actual use, and outcomes separate; the next test requires a
+dated family or worker episode with observed hours, cost, waiting, and later
+work, health, or participation consequences.
+
+**Latest health-cost rotation — 2026-09-29:** the [health cost as household
+political economy synthesis](projects/cross-domain/us-health-cost-care-delay-household-politics-2026-09-29.md)
+follows medical events and denials through payment, delay, debt, work pressure,
+basic-needs trade-offs, appeal, trust, and political attribution. It keeps
+event screens, survey reports, and attitudes separate; the next test requires a
+dated care need with resolution time, completed care, household consequence,
+remedy, and later attribution or action.
+
+**Latest cultural-consumer rotation — 2026-09-29:** the [identity-bearing
+consumption synthesis](projects/cross-domain/cultural-consumer-identity-heritage-human-trust-2026-09-29.md)
+connects youth cultural capital, flexible restorative travel, human guidance,
+place-based heritage, and fan voice. It keeps cultural interpretation,
+reported intention, actual spending/attendance, and institutional response
+separate; the next test requires one identity-bearing choice joined to repeat
+participation, firm or regulator response, and durable loyalty or exit.
+
+**Latest infrastructure-operating rotation — 2026-09-29:** the [operation
+before household incidence synthesis](projects/cross-domain/us-infrastructure-operation-incidence-acceptance-2026-09-29.md)
+follows CHPE, PJM large-load response, Virginia cost allocation, and EIA demand
+forecasts. It adds operating output and disruption while keeping bills,
+reliability, compensation, host-place burden, and acceptance open; the next
+test requires an identifier-bearing facility or account joined to a dated
+payment, service, or reliability consequence.
+
+**Latest tariff-and-consumer rotation — 2026-09-29:** the [Ipsos Consumer Tracker record](records/comparative-ipsos-consumer-tracker-september-2026-tariffs-price-politics-trust.json) adds a route from trade policy through visible prices, product value, substitution, safety trust, household room, and political attribution. The source is perception evidence, not product-level tariff incidence or observed purchasing. The next test follows a named product category or household panel through prices, substitution, quantity, debt, complaint, and political judgment.
+
+**Latest geopolitical-household rotation — 2026-09-29:** the [World Bank Ukraine living-conditions record](records/comparative-world-bank-ukraine-living-conditions-spring-2026-poverty-resilience.json) adds a route from war exposure through food, prices, care, labor segmentation, informality, disability, displacement, social assistance, and household recovery. The source is mixed modeled and phone-survey evidence, not a causal panel. The next test follows a named household or subgroup through shock, food, benefit receipt, care, housing, work, income recovery, and political attribution.
+
+**Latest platform-work and financial-health rotation — 2026-09-29:** the [ILO UNGA81 record](records/comparative-ilo-unga81-platform-work-financial-health-2026.json) adds a route from transformed work through algorithmic control, income volatility, workplace finance, social protection, worker voice, and household room. The source is an agenda and event account, not outcome evidence. The next test follows a named platform-worker cohort from work allocation and pay through fees, volatility, financial-service use, protection, complaint, bargaining, and remedy.
+
+**Latest ASEAN trade-and-work rotation — 2026-09-29:** the [ILO ASEAN labour-rights record](records/comparative-ilo-asean-trade-labour-rights-supply-chain-competitiveness-2026.json) adds a route from trade requirements through supplier cost and adaptation, worker voice, inspection, remedy, continued market access, and regional legitimacy. The source is policy architecture, not outcome evidence. The next test follows a named ASEAN supply chain from FTA or buyer requirement through worker awareness, complaint, inspection, remedy, listing, prices, and community effects.
+
+**Latest consumer-sentiment rotation — 2026-09-29:** the [European Commission consumer-confidence record](records/comparative-european-commission-consumer-confidence-september-2026-economic-sentiment-recovery-reversal.json) adds a route from expectations through purchase timing, substitution, saving, borrowing, household room, and political attribution. The aggregate indicators are not realized welfare or causal evidence. The next test follows a named country or household panel from confidence through prices, employment, income, spending, debt, housing, cultural participation, and political judgment.
+
+**Latest government-AI public-capacity rotation — 2026-09-29:** the [World Bank government-AI record](records/comparative-world-bank-government-ai-public-service-scale-evaluation-2026.json) adds a route from public-service shortages and administrative friction through local data, connectivity, evaluation, procurement, vendor independence, staff capacity, auditability, correction, and durable legitimacy. The source is a cross-economy survey, policy framework, and selected implementation evidence, not proof of equitable citizen outcomes. The next test follows a named service user through AI-assisted contact, waiting, decision quality, explanation, appeal, correction, and repeat access.
+
+**Named U.S. agency public-AI rotation — 2026-09-29:** the [SSA AI and disability-service record](records/us-ssa-ai-disability-service-oversight-2026.json) adds a concrete agency route: AI-enhanced IVR and chatbot, IMAGEN evidence processing, automated-call volume, disability-processing targets, selected denial review, and an open OIG AI audit. This advances the institutional-conversion stage without claiming claimant-level AI exposure, approval, error, appeal, correction, payment, health, work, or household recovery. The next decisive input is a privacy-approved SSA episode or agency evaluation joining tool exposure to waiting, explanation, appeal/correction, payment timing, and later outcome.
+
+**Latest social-protection-coverage rotation — 2026-09-29:** the [ILO social-protection floors record](records/comparative-ilo-social-protection-floors-informal-workers-systems-2026.json) adds a route from informal work and social risk through legal entitlement, data, coordination, enrolment, contribution systems, worker organization, benefit access, and household resilience. The ILO reports more than 9 million people with improved access across six countries, but this is programme reporting rather than causal or independently verified outcome evidence. The next test follows a named country and worker group from eligibility and enrolment through contributions, claim, payment, adequacy, continuity, complaint, and post-project survival.
+
+**Latest gender-pay-gap rotation — 2026-09-29:** the [ILO gender-pay-gap record](records/comparative-ilo-gender-pay-gap-2026-care-segregation-bargaining.json) adds a route from unequal care and labour-market access through occupational sorting, progression, undervaluation, bargaining asymmetry, pay gaps, household room, and economic voice. Women still earn around 18% less than men globally and the gap narrowed only two percentage points since 2018; this is an ILO estimate summary, not a causal decomposition. The next test follows a named occupation, employer, or sector through pay-setting, care time, hours, progression, bargaining, transparency, enforcement, and household outcomes.
+
+**Latest fisheries-labour-governance rotation — 2026-09-29:** the [ILO/RPOA-IUU fisheries record](records/comparative-ilo-rpoa-iuu-fisheries-labour-exploitation-responsible-supply-chain-2026.json) adds a route from cost-cutting, weak enforcement, and hidden labour exploitation through crew welfare, labour/fisheries coordination, standards, inspection, safe migration, and responsible seafood supply-chain legitimacy. The source is a workshop and programme announcement, not a worker-outcome or IUU-prevalence study. The next test follows a named vessel, port, fleet, or seafood chain from recruitment and movement through onboard conditions, labour inspection, vessel legality, buyer due diligence, traceability, complaint, remedy, and community effects.
+
+**Latest forced-labour-trade-remedy rotation — 2026-09-29:** the [ILO–Canada PRIME PH record](records/comparative-ilo-philippines-forced-labour-trade-remedy-responsible-business-2026.json) adds a route from hidden forced-labour risk, informality, and economic pressure through worker voice, institutional detection, justice and remedy, firm due diligence, import-market rules, and trade legitimacy. The source documents a four-year project launch, not prevalence or impact evidence. The next test follows a named Philippine export chain from recruitment and subcontracting through working conditions, complaint, investigation, remedy, buyer due diligence, import decisions, prices, and community effects.
+
+**Latest Pacific-labour-governance rotation — 2026-09-29:** the [ILO Pacific labour-governance record](records/comparative-ilo-pacific-regional-labour-governance-mobility-skills-2026.json) adds a route from island labour-market constraints and mobility through regional economic strategy, a Labour Ministers Meeting, tripartite dialogue, skills, social protection, and workforce resilience. The source documents political endorsement and intended architecture, not operating performance or worker outcomes. The next test follows a named Pacific labour-mobility or skills episode through recruitment, movement, recognition, employment conditions, protection, family impacts, regional deliberation, and remedy.
+
+**Latest creator-legitimacy rotation — 2026-09-29:** the [UNESCO South Africa digital-creators record](records/comparative-unesco-south-africa-digital-creators-information-legitimacy-online-harm-2026.json) adds a route from creator visibility and platform distribution through information interpretation, metric and commercial incentives, verification, AI disclosure, online harm, audience trust, and platform governance. In a survey of 48 creators, 36% did not systematically verify information before sharing and only 10.4% had received Media and Information Literacy training; the research is small-sample, self-reported, and not causal. The next test follows a named creator cohort from content production and distribution through disclosure, trust, harassment, moderation, income, support, and actual public influence.
+
+**Latest ageing-migrant-life-course rotation — 2026-09-29:** the [ILO STREAM ageing migrant record](records/comparative-ilo-ageing-migrant-workers-gulf-social-protection-portability-2026.json) adds a route from temporary labour migration through long-term and multigenerational settlement, employer-linked protection, retirement income, healthcare, housing, residency, family care, and cross-border portability. The paper focuses on lower- and middle-income Indian migrant families in the UAE and is a qualitative/policy synthesis, not Gulf-wide prevalence or causal evidence. The next test follows a named migration corridor from recruitment and payroll through contributions, healthcare, residence, housing, retirement, return or settlement, and actual benefit portability.
+
+**Latest child-safety-online rotation — 2026-09-29:** the [European Commission Special Panel record](records/comparative-eu-child-safety-online-developmental-social-contract-2026.json) adds a developmental social-contract route from commercial attention architecture through age-appropriate autonomy, privacy-preserving age assurance, safety by design, child participation, complaint remedy, and offline cultural and social infrastructure. The report recommends a harmonised EU-wide restriction below age 13 and shifts proof of safety toward providers, but it is an independent co-chair policy synthesis rather than official Commission position or outcome evidence. The next test follows a named platform or jurisdiction from rule adoption through age-assurance experience, design change, complaint and remedy, youth participation, offline substitution, and measured developmental or social outcomes.
+
+**Named platform child-safety enforcement rotation — 2026-09-29:** the [EU–Snapchat DSA proceeding record](records/comparative-eu-snapchat-child-safety-dsa-proceedings-2026.json) turns that policy route into an identifier-bearing episode. The European Commission names age assurance, grooming or criminal recruitment, default settings, illegal-product information, and reporting/redress as investigation surfaces. The proceeding is an investigative action, not an adjudicated violation or child-outcome measure; the next test follows Snapchat's response, any design change, report handling, correction, remedy, and later trust, participation, or exit.
+
+**Latest disability-inclusive-employment rotation — 2026-09-29:** the [ILO disability employment services record](records/comparative-ilo-disability-employment-services-digital-inclusion-2026.json) adds a route from disability-related labour-market barriers through person-centred public employment services, digital matching, reasonable accommodation, assistive technology, retention, progression, and workplace agency. The ILO reports that current digital tools concentrate more on access, job search, skills, and matching than on accommodation, retention, or progression; the source is a practice-exchange and implementation map, not causal employment evidence. The next test follows a named person or employer from intake and matching through accommodation, workplace experience, retention, progression, and remedy.
+
+**Latest refugee-livelihood-conversion rotation — 2026-09-29:** the [UNHCR Uganda Q2 livelihoods dashboard record](records/comparative-unhcr-uganda-refugee-livelihoods-resilience-q2-2026.json) adds a route from refugee and host-community vulnerability through land, productive inputs, agricultural and market skills, producer organizations, employer links, finance, documentation, formalization, and self-reliance. The sector reports $27.8M received against a $153M requirement, 0.6 acres per supported household against a 1.2-acre self-reliance threshold, and subgroup variation from 0.2 acres for Congolese households to 0.9 for Sudanese households. The dashboard is partner reporting, not causal or representative household evidence. The next test follows a settlement or livelihood group through land, market sale, finance, documentation, employment retention, consumption, and refugee-host relations.
+
+**Latest employment-centred-trade rotation — 2026-09-29:** the [ILO Lebanon METI record](records/comparative-ilo-lebanon-meti-trade-investment-employment-policy-2026.json) adds a route from trade and investment choices through sector/value-chain selection, employment analysis, tripartite coordination, MSME and worker support, skills, gender, formalization, and regional integration. The project establishes a Policy Working Group and plans a sectoral action plan, but it does not yet establish job creation, wages, firm performance, or worker outcomes. The next test follows the selected Lebanese value chain from evidence and finance through firm behaviour, skills, worker conditions, gender access, formalization, and realized employment.
+
+**Latest climate-to-work-conversion rotation — 2026-09-29:** the [World Bank Jobs in a Changing Climate record](records/comparative-world-bank-jobs-changing-climate-93-economies-2026.json) adds a route from climate exposure through sectoral and regional job change, adaptation and low-emission investment, skills, worker reallocation, firm adaptation, and social protection. The synthesis estimates 43 million equivalent job losses by 2050 across 49 analyzed countries and 25 million equivalent adaptation jobs, with larger figures extrapolated globally; these are modelled and extrapolated estimates, not realized worker outcomes. The next test follows a named country or sector from climate financing and procurement through transition, household income, regional services, and political response.
+
+**Latest whole-system-education rotation — 2026-09-29:** the [UNICEF Education Strategy record](records/comparative-unicef-education-strategy-2026-learning-system-failures-ai-teachers.json) adds a route from household, crisis, climate, migration, and technology constraints through access and continuity, teacher conditions, system feedback, responsible AI/EdTech, learning, protection, and future work. UNICEF targets 350 million children and young people learning and acquiring skills by 2030, but the strategy is an institutional roadmap, not achieved outcomes or causal evidence. The next test follows a country or crisis episode through financing, teacher conditions, access, learning, technology use, protection, household burden, and future transition.
+
+**Latest living-wage-governance rotation — 2026-09-29:** the [ILO living-wage partnership record](records/comparative-ilo-living-wage-public-private-partnerships-2026.json) adds a route from household and family costs through common wage estimation, national data, tripartite institutions, multinational supply chains, company roadmaps, and worker bargaining. The ILO signed three first public-private agreements with the Responsible Business Alliance, Unilever, and amfori; amfori's network covers 2,400 member companies in more than 50 countries. The announcement documents intended architecture, not wage increases, worker welfare, purchasing-practice change, or supply-chain compliance. The next test follows a named sourcing country or sector from estimate through bargaining, roadmap, payroll, household consumption, and remedy.
+
+**Latest cooperative-data rotation — 2026-09-29:** the [ILO Lebanon cooperative record](records/comparative-ilo-lebanon-cooperative-data-digital-modernization-2026.json) adds a route from fragmented paper records through cooperative visibility, public capacity, digital administration, finance, market access, refugee-host livelihoods, and worker protection. Lebanon has around 850 registered cooperatives, with nationwide data not comprehensively updated since 2007; associated ILO cooperation reports 400 subsidized loans worth USD 1.33 million, around 2,000 jobs created or sustained, and more than 1,000 farmers and workers reaching new buyers or international markets. The announcement does not establish cooperative survival, member power, job quality, or digital-service outcomes. The next test follows a named cooperative or district through requalification, registry inclusion, finance, digital use, member voice, buyers, wages, protection, and survival.
+
+**Latest productive-resilience rotation — 2026-09-29:** the [World Bank Mozambique PASP record](records/comparative-world-bank-mozambique-pasp-social-protection-climate-autonomy-2026.json) adds a route from climate and income shock through transfers, skills, productive grants, public ecological work, mobile-money access, household assets, food security, housing resilience, and post-programme autonomy. PASP reports more than 300,000 participants, 65% women beneficiaries, and more than 200,000 electronic-money accounts, but the feature story does not establish representative treatment effects, active account use, ecological impact, or durable autonomy at population scale. The next test is a province-level episode following transfer adequacy, payment use, work conditions, asset ownership, care time, climate loss, food security, and outcomes after exit.
+
+**Latest completed social-institution rotation — 2026-09-29:** the [IFS churchgoing-marriage record](records/comparative-ifs-churchgoing-marriage-shared-values-2026.json) adds a route from recurring communal practice and shared values through relationship meaning, household wellbeing and belonging. The next valid test is independent evidence with sample detail, temporal ordering, nonreligious comparison and downstream care or participation outcomes rather than a causal reading of church attendance.
+
+**Latest completed consumer-expectations rotation — 2026-09-29:** the [Conference Board September consumer-confidence record](records/us-conference-board-consumer-confidence-september-2026-current-expectations-spending.json) adds a route from current conditions through future expectations, inflation/rate perceptions, planned spending and political attribution. The next valid test is a household-panel or transaction episode that separates precautionary saving from forced cutbacks, category substitution from demand loss, and sentiment from realized household welfare.
+
+**Latest completed nonprofit-infrastructure rotation — 2026-09-29:** the [IU Lilly Family School of Philanthropy nonprofit-recognition record](records/us-iu-lilly-nonprofits-philanthropy-recognition-confidence-2026.json) adds a route from ordinary activity through nonprofit service infrastructure, recognition, confidence, provider-role judgment and funding legitimacy. The next valid test is a named service episode linking actual use, capacity, user outcomes, public awareness, funding and political response rather than treating reported activity as realized service quality.
+
+**Latest completed place-and-work rotation — 2026-09-29:** the [Pew Philadelphia Gen Z place-retention record](records/us-pew-charitable-philadelphia-genz-place-retention-work-quality-2026.json) adds a route from place attachment through job quality, career pathways, transit, safety, networks, affordability and stay/exit decisions. The next valid test is longitudinal metro and household evidence on realized jobs, wages, commute, housing, family stage and migration rather than treating focus-group preferences as population behavior.
+
+**Latest completed meaning-of-work rotation — 2026-09-29:** the [Harvard Making Caring Common Gen Z work-purpose record](records/us-harvard-mcc-genz-meaningful-work-purpose-financial-security-2026.json) adds a route from helping-work aspirations through financial security, care-sector burden, salary/purpose trade-offs and wellbeing. The next valid test is longitudinal worker evidence on actual job choice, pay, hours, emotional load, housing, debt, health and retention rather than treating stated purpose or hypothetical choices as realized labor behavior.
+
+**Latest completed music-culture rotation — 2026-09-29:** the [YouGov music consumption and discovery record](records/us-yougov-music-consumption-discovery-genz-streaming-2026.json) adds a route from music importance and expanded listening through streaming, social, editorial and live discovery to identity and platform/artist power. The next valid test is behavioral evidence on listening, spending, live attendance, artist income, genre diversity and platform concentration rather than treating self-reported discovery as cultural influence.
+
+**Latest completed financial-guidance rotation — 2026-09-29:** the [Gallup financial-guidance record](records/us-gallup-financial-guidance-ai-trust-affordability-2026.json) adds a route from financial uncertainty through low-cost internet and AI research, family and professional validation, trust, accountability and possible remedy. The next valid test is observed advice quality, access cost, actual debt/investment decisions, financial security and fiduciary or consumer protection rather than treating guidance-seeking as realized welfare.
+
+**Latest completed rural-political-legitimacy rotation — 2026-09-29:** the [AP–KFF rural-voter record](records/us-ap-kff-rural-voters-cost-healthcare-political-legitimacy-2026.json) adds a route from rural cost and healthcare strain through policy visibility, perceived delivery, partisan trust, respect and possible electoral withdrawal. The next valid test is a named rural healthcare or cost episode linking policy implementation to local access, household spending, service continuity, attribution and actual voting or nonvoting rather than treating poll sentiment as realized political change.
+
+**Latest completed information-legitimacy rotation — 2026-09-29:** the [Gallup media-trust record](records/us-gallup-media-trust-partisan-rebound-2026.json) adds a route from long-run confidence decline through partisan source evaluation, event-sensitive rebound, correction and shared-fact legitimacy. The next valid test is outlet- and exposure-specific evidence linking reporting, source choice, correction, cross-partisan credibility and civic action rather than treating confidence movement as restored information legitimacy.
+
+**Latest completed household-resilience rotation — 2026-09-29:** the [NerdWallet financial-resilience record](records/us-nerdwallet-financial-resilience-control-buffer-credit-2026.json) adds a route separating perceived control and bill confidence from liquid shock buffers, expected credit use, life stage and future household room. The next valid test is panel or administrative evidence linking a named shock to borrowing, repayment, arrears, consumption, health, work, recovery and durable security rather than treating a composite resilience score as realized capacity.
+
+**Latest completed public-capacity rotation — 2026-09-29:** the [Partnership for Public Service public-trust record](records/us-pps-public-trust-government-civil-servants-capacity-2026.json) adds a route separating abstract federal-government distrust from civil-servant judgment and specific service experience, while preserving partisan attribution and capacity loss as open mechanisms. The next valid test is a named agency or service episode linking encounter quality, workforce capacity, administrative correction, user outcomes and durable trust rather than treating institutional perceptions as realized delivery.
+
+**Latest completed health-insurance mobility rotation — 2026-09-29:** the [Gallup job-lock record](records/us-gallup-job-lock-health-insurance-mobility-2026.json) adds a route from employer-sponsored coverage dependence through medical debt, chronic conditions, gendered exposure, job lock and constrained mobility. The next valid test is panel or administrative evidence linking coverage loss risk to actual job transitions, wages, entrepreneurship, family decisions, alternative coverage and health outcomes rather than treating stated job lock as observed labor-market behavior.
+
+**Latest completed life-stage care-information rotation — 2026-09-29:** the [Gallup-Pivotal menopause record](records/us-gallup-pivotal-menopause-information-care-work-2026.json) adds a route from distributed life-stage information through provider recognition, treatment continuity, work, self-care and community participation. The next valid test is longitudinal or episode-level evidence linking information access and care navigation to diagnosis, treatment, workplace accommodation, hours, promotion, family care and civic participation rather than treating retrospective self-report as causal life-course effect.
+
+**Latest completed education-legitimacy rotation — 2026-09-29:** the [MCAAD–Gallup American Dream and schools record](records/us-gallup-mcaad-american-dream-schools-opportunity-2026.json) adds a route from education as a cultural promise through perceived K-12 capability, opportunity belief, intergenerational hope and institutional legitimacy. The next valid test is a named school or education episode linking resources, teaching, student experience, achievement, family mobility and durable opportunity rather than treating school ratings as causal Dream optimism.
+
+**Latest completed U.S. distributional rotation — 2026-09-29:** the [CBO household-income distribution record](records/us-cbo-household-income-distribution-2023-transfers-taxes-inequality.json) adds a route from market income through transfers, taxes, unequal household room and fiscal legitimacy. The next valid test is a named U.S. tax, transfer, Medicaid, SNAP, SSI or labor-market episode that follows distribution into take-up, adequacy, consumption, debt, health access, administrative friction and political response rather than treating average income after transfers and taxes as realized household security.
+
+**Latest completed macro-household recovery rotation — 2026-09-29:** the [New Zealand Treasury Pre-election Fiscal Update record](records/comparative-new-zealand-treasury-pre-election-fiscal-update-2026-nominal-recovery-household-pressure.json) adds a route from energy and geopolitical shocks through household demand, real-wage recovery, nominal fiscal repair, fixed public budgets, service pressure and contested recovery narratives. The next valid test is a named New Zealand household, energy or public-service episode that follows forecast improvement into realized prices, wages, debt, staffing, service quality, distribution and political attribution rather than treating forecast surpluses as lived recovery.
+
+**Latest completed consumer-confidence rotation — 2026-09-29:** the [ANZ–Roy Morgan Australian consumer-confidence record](records/comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook.json) adds a route from financial pessimism through inflation expectations, regional variation, purchase timing and anticipated constraint. The next valid test is a named household or retail episode that follows sentiment into actual spending, debt, savings, durable-goods replacement and political attribution rather than treating confidence as realized welfare.
+
+**Latest completed corridor-resilience rotation — 2026-09-29:** the [World Bank Trans-Caspian Transport Corridor record](records/comparative-world-bank-trans-caspian-corridor-logistics-economic-corridor-2026.json) adds a route from geopolitical routing pressure through bottlenecks, digital interoperability, operator governance, local links, jobs and regional legitimacy. The next valid test is a named corridor episode that follows investment into clearance, reliability, freight cost, firm entry, worker conditions, local value capture, household prices, environmental exposure and remedy rather than treating projected trade and jobs as realized outcomes.
+
+**Latest completed fiscal-capacity rotation — 2026-09-29:** the [World Bank Philippines Public Finance Review record](records/comparative-world-bank-philippines-public-finance-review-fiscal-capacity-targeting-2026.json) adds a route from procurement and tax administration through fiscal room, targeting, administrative visibility, household protection, burden distribution and trust. The next valid test is a named Philippines reform episode that follows savings and revenue changes into supplier participation, registry inclusion/exclusion, benefit receipt, service quality, complaint correction and political attribution rather than treating projected fiscal gains as realized capacity.
+
+**Latest completed preparedness-finance rotation — 2026-09-29:** the [OECD global-health PPR record](records/comparative-oecd-global-health-ppr-financing-aid-dependence-resilience-2026.json) adds a route from global health risk through invisible prevention benefits, unequal fiscal capacity, aid dependence, resilience accounting and collective trust. The next valid test is a named country or regional health-security episode that follows financing into surveillance, worker protection, supply continuity, communication, access, remedy and political attribution rather than treating a tracker or budget line as realized preparedness.
+
+**Latest completed regional-interoperability rotation — 2026-09-29:** the [World Bank Africa integration record](records/comparative-world-bank-africa-integration-interoperability-regional-public-goods-2026.json) adds a route from formal regional agreements through behind-the-border trade costs, interoperable customs/standards/payments/data, corridors, power pools, regional public goods and multi-level legitimacy. The next valid test is a named corridor, power-pool, payment, insurance, customs or standards episode that follows formal agreement into actual clearance, cost, access, remedy and political trust rather than treating legal integration as realized commerce.
+
+**Latest completed water-governance rotation — 2026-09-29:** the [OECD/AWC Philippines water-regulation record](records/comparative-oecd-philippines-water-sanitation-regulation-fragmentation-data-2026.json) adds a route from climate and demand pressure through fragmented providers, tariff affordability, service quality, aggregation, integrated data and household trust. The next valid test is a named water or sanitation episode that follows tariff changes, investment, outages, quality, complaints, household cost, local political response and remedy across differently regulated communities rather than treating proposed regulation or infrastructure spending as realized security.
+
+**Latest completed social-economy rotation — 2026-09-29:** the [OECD ASEAN inclusive-business record](records/comparative-oecd-asean-inclusive-business-social-enterprise-market-participation-2026.json) adds a route from informal work and underserved demand through social-enterprise experimentation, inclusive value-chain roles, finance, accreditation, impact measurement, affordable access and mission continuity. The next valid test is a named ASEAN enterprise or programme that follows prices, worker conditions, customer access, supplier bargaining power, public support, investor control and mission drift after scale rather than treating mission language or accreditation as realized inclusion.
+
+**Latest completed gendered-market-access rotation — 2026-09-29:** the [World Bank India trade-facilitation record](records/comparative-world-bank-india-women-trade-facilitation-gendered-infrastructure-2026.json) adds a route from formal border procedures through care time, safety, mobility, local-language information, small-firm consultation, finance and grievance confidence. The next valid test is a named trade or border episode that follows women-led firms through clearance, waiting, safety, complaint/remedy, transaction costs, repeat trading and firm survival rather than treating digitization or formal transparency as realized inclusion.
+
+**Latest completed rural-value-chain rotation — 2026-09-29:** the [ILO Timor-Leste vanilla record](records/comparative-ilo-timor-leste-vanilla-value-chain-skills-decent-work-2026.json) adds a route from heritage/agroforestry production through skills, infrastructure, cooperative voice, certification, processing, consumer sustainability meaning and occupational safety. The next valid test is a named vanilla or origin-product episode that follows farmer prices, buyer concentration, cooperative survival, processing, inclusion, hazards and premium distribution rather than treating a roadmap or sustainability positioning as realized rural welfare.
+
+**Latest completed geopolitical-cultural rotation — 2026-09-29:** the [JPPI Israeli Society Index record](records/comparative-jppi-israel-society-index-september-2026-election-security-social-cohesion.json) adds a route from security and territorial judgment through election salience, judicial authority, unity, identity attribution, social repair and education legitimacy. The next test is a named conflict, election, education or institutional episode that follows stated stakes into turnout, policy choice, civic trust, service delivery and durable cohesion rather than treating survey salience or preference as realized political outcome.
+
+**Latest completed household-shortage rotation — 2026-09-29:** the [ONS Great Britain shortages record](records/comparative-ons-great-britain-shortages-august-2026-substitution-availability.json) adds a route from goods availability through extra spending, search time, substitution, reduced purchases and possible unmet food, medicine and fuel needs. The next test is a named supply or household episode that follows shortage exposure into price, quality, diet, health, debt, time and durable room; continued shopping remains insufficient welfare evidence.
+
+**Latest completed supply-chain power rotation — 2026-09-29:** the [UK Groceries Code Adjudicator supplier-survey record](records/comparative-uk-gca-supplier-retailer-code-2026-power-payment-forecasting.json) adds a route from formal compliance through forecasting, invoice resolution, de-listing, payment delay, confidential voice and practical supplier exit. The next test is a named supply-chain episode that follows an issue into correction, payment, continued listing, supplier investment, consumer availability and durable bargaining room rather than treating compliance scores or reported issues as remedy.
+
+**Latest completed care-and-labour rotation — 2026-09-29:** the [Statistics South Africa Gender Series XIII record](records/comparative-stats-sa-gender-care-work-2026-time-infrastructure-labor.json) adds a gendered care-conversion route from dependency and infrastructure through education interruption, paid-care work and unequal time. The next valid test is a named care, water, school or employment episode that follows formal provision into actual hours, continuity, household bargaining, earnings and durable wellbeing; the report’s proxy indicators are not unpaid-care-hour or causal estimates.
+
+**Latest completed public-safety rotation — 2026-09-29:** the [Statistics South Africa GPSJS 2025/26 record](records/comparative-stats-sa-gpsjs-2025-26-crime-reporting-safety-self-protection.json) adds a security-conversion route from crime exposure through reporting, perceived safety and self-protection. The next valid test is a named safety or justice episode that follows exposure into reporting effort, police response, case remedy, household cost, mobility and durable trust rather than treating reported incidence or private precaution as realized security.
+
+**Latest completed cross-episode synthesis — 2026-09-28:** [Conditional public capacity: when formal provision becomes lived legitimacy](projects/cross-domain/conditional-public-capacity-legitimacy-2026-09-28.md) compares the recent Medi-Cal, congestion-pricing, universal-school-meals, and wildfire-insurance episodes. It identifies reachability, usability, continuity, correction, and attribution as the shared open middle while preserving each source unit and boundary.
+
+**Latest completed welfare-culture rotation — 2026-09-28:** the [BSA 43 welfare-deservingness record](records/bsa43-welfare-deservingness-polarization-2026.json) adds a category-specific legitimacy route: broad anti-welfare sentiment coexists with strong disability-benefit support, while deservingness cues and partisan identity structure reform judgments. The next valid test is a named benefit episode that follows rhetoric and eligibility into actual take-up, adequacy, household room, service access, and durable legitimacy; the 2024 wording discontinuity and possible 2025 reform-salience effect must remain explicit.
+
+**Latest completed consumer-culture rotation — 2026-09-28:** the [PwC UK consumer-sentiment record](records/comparative-pwc-uk-consumer-sentiment-festive-spending-2026.json) adds a protected-occasion route: confidence rebounds while cutback plans, cost concerns, and housing/job pressure remain, and festive spending is partly defended as a meaningful ritual. The next valid test is a named household episode that follows prices, rent, energy, or job insecurity into timing, substitution, borrowing, social continuity, and durable room rather than treating sentiment or planned Christmas spending as realized welfare.
+
+**Latest completed care-legitimacy rotation — 2026-09-28:** the [BSA 43 NHS waiting record](records/bsa43-nhs-waiting-legitimacy-2026.json) adds a quality-versus-access route: the public can remain relatively positive about care quality while strongly rejecting the time required to reach care. The next valid test is a named health-system episode that follows staffing, funding, targets, productivity, migration, and social-care capacity into actual waiting, continuity, household time, treatment, attribution, and durable legitimacy; historical measurement changes must remain explicit.
+
+**Latest completed nation–state cohesion rotation — 2026-09-28:** the [AthenaLab Chile identity-and-cohesion record](records/comparative-athenalab-chile-national-identity-cohesion-2026.json) adds a symbolic-belonging versus institutional-legitimacy route: national pride and crisis solidarity coexist with interpersonal distrust, polarization, migration tension, and weak representative institutions. The next valid test is a named civic, integration, decentralization, or public-service episode that follows belonging into durable everyday cooperation, inclusion, voice, and institutional trust rather than treating pride or episodic solidarity as cohesion.
+
+**Latest completed material-belonging rotation — 2026-09-28:** the [Helen Clark Foundation New Zealand cohesion record](records/comparative-helen-clark-nz-social-cohesion-2026-belonging-financial-stress.json) adds a financial-stress, housing, food, friendship, safety, youth-isolation, and local-belonging route. The next valid test is a named housing, food, community, or youth episode that follows material room into actual participation, friendship, trust, anti-immigration attribution, and durable belonging rather than treating survey association as a cohesion effect.
+
+**Latest completed consumer-infrastructure rotation — 2026-09-28:** the [Stitch South Africa consumer-payments record](records/comparative-stitch-south-africa-consumer-payments-2026-digital-wallets-bnpl-agentic-commerce.json) adds payment fragmentation, wallet speed, BNPL liquidity, payday timing, cross-border platform choice, checkout failure, and AI-mediated commerce. The next valid test is a named payment or consumer-protection episode that follows formal payment choice into successful completion, repayment, fraud exposure, remedy, repeat access, and durable trust rather than treating adoption or platform conversion as consumer welfare.
+
+**Latest completed political-ecology rotation — 2026-09-28:** the [More in Common Strong Roots record](records/comparative-more-in-common-strong-roots-2026-nature-cross-party-coalitions.json) adds cross-party nature attachment, place pride, rejection of the nature-versus-development binary, political stewardship, and electoral accountability. The next valid test is a named conservation, planning, water, or green-space episode that follows shared nature concern into local acceptance, cost incidence, delivery, access, participation, and durable trust rather than treating stated care or conjoint perceptions as realized environmental protection.
+
+**Latest completed information-environment rotation — 2026-09-28:** the [IPIE 2026 expert-survey record](records/comparative-ipie-information-environment-2026-platform-accountability-ai-search-research-pressure.json) adds platform accountability, AI-search speed, source-visibility loss, viewpoint-diversity risk, public trust, and research-capacity pressure. The next valid test is a named AI-search, platform, news, or research-governance episode that follows intermediary design into observed exposure, source choice, correction, civic understanding, public remedy, and durable legitimacy rather than treating expert pessimism or forecast trade-offs as user outcomes.
+
+**Latest completed place-and-participation rotation — 2026-09-28:** the [Pew urban/suburban/rural public-life record](records/us-pew-urban-suburban-rural-public-life-engagement-2026-place-specific-routes.json) adds place-specific routes through groups, religious participation, in-person/online interaction, protest, signage, and official contact while keeping overall engagement distributions broadly similar. The next valid test is a named local participation or civic-infrastructure episode that follows place and access into belonging, political influence, institutional feedback, remedy, and durable trust rather than treating residence type or self-reported activity as civic efficacy.
+
+**Latest completed citizen-futures rotation — 2026-09-28:** the [JRC Our Futures citizen-resilience record](records/comparative-jrc-our-futures-europe-citizen-resilience-narratives-2026.json) adds citizen-authored future narratives connecting democracy, climate, migration, affordability, technology, geopolitical shocks, institutional capacity, and agency. The next valid test is a named resilience, climate, migration, technology, or democratic episode that follows imagined capacity to act into policy demand, participation, adaptation, delivery, remedy, and durable legitimacy rather than treating narrative themes as forecasts or prevalence.
+
+The associated [conditional-legitimacy measurement design](projects/cross-domain/conditional-legitimacy-measurement-design-v1.md) now specifies the minimum same-unit variables and source routes required before those open arrows can be promoted to stronger findings.
+
+**Latest completed U.S. democratic-legitimacy rotation — 2026-09-28:** the [Gallup/Kettering Democracy for All record](records/us-gallup-kettering-democracy-for-all-2026-local-national-legitimacy-frustration.json) adds a local-national split: democratic commitment persists while national performance, rule-of-law, equal-treatment, and accountability judgments worsen, and local democracy is rated more positively. The [supporting synthesis](projects/cross-domain/gallup-kettering-democracy-local-national-legitimacy-2026-09-28.md) treats local trust as an association and keeps participation, policy influence, and recovery open.
+
+**Latest completed social-care legitimacy rotation — 2026-09-28:** the [Wellcome/More in Common mental-health record](records/comparative-wellcome-more-in-common-britain-mental-health-early-intervention-waiting-lists-2026.json) connects cross-party mental-health legitimacy and early-intervention demand to waiting-list skepticism, referral friction, scientific hope, and age/gender exposure differences. The [supporting synthesis](projects/cross-domain/wellcome-mental-health-consensus-service-legitimacy-2026-09-28.md) keeps attitude, service reach, treatment receipt, and outcome separate; the next test is whether early support is reachable, timely, continuous, and equitably distributed.
+
+**Latest completed consumer-culture rotation — 2026-09-28:** the [Foresight Factory September 2026 record](records/comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy.json) extracts three linked signals: postpartum care as a distinct life stage, phone-free schooling as an attention-and-substitution problem, and whimsy/mystery as resistance to hyper-personalized consumption. The [supporting synthesis](projects/cross-domain/foresight-factory-care-attention-whimsy-2026-09-28.md) keeps commercial trend intelligence separate from population prevalence and asks whether these signals become reachable care, usable time, social participation, affordability, or durable agency.
+
+**Latest completed geopolitical-cultural rotation — 2026-09-28:** the [More in Common Caught between sides record](records/comparative-more-in-common-caught-between-sides-2026-conflict-cohesion-safety.json) follows the Israel-Palestine conflict into British safety judgments, identity sorting, speech restraint, media/platform responsibility, and interfaith-cohesion expectations. The [supporting synthesis](projects/cross-domain/more-in-common-conflict-domestic-cohesion-2026-09-28.md) treats non-alignment, silence, and perceived threat as distinct cultural mechanisms; the next valid test is whether these perceptions produce observable changes in mobility, worship, schooling, civic participation, reporting, protection, and remedy.
+
+**Latest completed U.S. large-load legitimacy rotation — 2026-09-28:** the [Virginia data-center residential-relief record](records/us-virginia-data-center-residential-bill-relief-package-2026.json) now follows the case from proposed credits and modeled allocation into enacted cost attribution, data-center electricity-tax collection machinery, and Executive Order 22 community-transparency controls. The next valid test is whether collections, tariff assignment, bill posting, received credits, local participation, environmental protection, and community benefit become observable rather than remaining policy architecture.
+
+**Latest completed comparative urban-cohesion rotation — 2026-09-28:** the [KAS South Africa record](records/comparative-kas-south-africa-migration-rule-law-social-cohesion-2026.json) connects migration attribution to jobs, housing, services, insecurity, institutional trust, rule of law, and belonging. The next valid test is a named U.S. or allied migration/urban episode that follows insecurity attribution into service access, housing, labor, policing, legal remedy, and intergroup trust rather than treating anti-migrant sentiment as a standalone attitude.
+
+**Latest completed U.S. administrative-trust rotation — 2026-09-28:** the [Urban Institute immigrant-families record](records/us-urban-immigrant-families-enforcement-chilling-effect-2025.json) connects immigration concern to practical non-use of work, care, schools, police, community life, and safety-net programs. The next valid test is a named U.S. local or state episode that follows perceived enforcement risk into actual service take-up, employment continuity, child attendance, health outcomes, legal remedy, and durable trust rather than treating reported worry as realized institutional withdrawal.
+
+The bounded [welcome/non-use/trust synthesis](projects/us-immigration-local-demand/migration-welcome-nonuse-trust-synthesis-2026-09-28.md)
+now places that national non-use surface beside the Chicagoland local-attitude
+case and the county growth/nativity trust-action screen. It preserves the
+important counterpattern—public welcome, household protective non-use, and
+non-monotonic institutional trust can coexist—and keeps the missing
+encounter-level attribution, substitute route, material consequence, remedy,
+and later action open.
+
+**Latest completed U.S. AI-work rotation — 2026-09-28:** the [Census HTOPS AI task/time record](records/us-census-htops-ai-work-task-time-savings-2026.json) connects AI task use to reported time savings and unequal access by education, sex, and age. The next valid test is a named workplace or occupation episode that follows saved time into workload, pay, learning, monitoring, bargaining power, job quality, and household room rather than treating self-reported time savings as worker benefit.
+
+The [AI time-savings/control synthesis](projects/ai-work-control/ai-time-savings-control-conversion-synthesis-2026-09-28.md)
+sharpens that open middle: saved time may become autonomy, learning, extra
+output, surveillance, or intensified workload. Adoption and reported time
+savings therefore remain distinct from worker control, pay, household room,
+and political meaning.
+
+**Latest completed comparative cultural-infrastructure rotation — 2026-09-28:** the [Canada Arts and Heritage Access survey record](records/comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost.json) connects arts participation to socializing, cost barriers, welcome, belonging, contribution, and local-economic value. The next valid test is a named U.S. or allied cultural-access episode that follows price, transport, geography, disability, language, and institutional welcome into repeat participation, local voice, and durable belonging rather than treating stated cultural value as shared access.
+
+**Latest completed comparative political-voice rotation — 2026-09-28:** the [OECD political voice and trust record](records/comparative-oecd-trust-2026-political-voice-responsiveness-barriers.json) connects voting and consultation to perceived official responsiveness, material participation barriers, political voice, and trust. The next valid test is a named U.S. or allied consultation, referendum, or local-participation episode that follows participation into adopted policy, feedback, representation, and durable trust rather than treating attendance or stated influence as actual voice.
+
+**Latest completed comparative household-exposure rotation — 2026-09-28:** the [ONS Great Britain cost-of-living and shortages record](records/comparative-ons-great-britain-cost-living-conflict-shortages-may-2026.json) connects price pressure and international-conflict worry to food and energy substitution, emergency liquidity, goods availability, and reduced mobility. The next valid test is a named U.S. or allied cost/energy episode that follows prices into household tradeoffs, health and cultural participation, local political attribution, and durable financial room rather than treating concern as realized hardship.
+
+**Latest completed global consumer-protection rotation — 2026-09-28:** the [OECD Consumer Finance Risk Monitor record](records/comparative-oecd-consumer-finance-risk-monitor-2026-scams-digital-exclusion-remedy.json) connects macro and digital risk to scams, financial exclusion, product detriment, complaints, supervisory coordination, and consumer remedy. The next valid test is a named U.S. or allied financial-product episode that follows exposure into complaint filing, dispute resolution, compensation, account access, and restored trust rather than treating regulatory response as realized consumer protection.
+
+**Latest completed global social-connection policy rotation — 2026-09-28:** the [194-state loneliness-policy scoping review](records/comparative-global-loneliness-policy-scoping-review-194-states-2026.json) connects national recognition to community infrastructure, cross-sector action, funding, and evaluation. The next valid test is a named U.S. or allied local social-infrastructure episode that follows policy language into funded delivery, reach, repeat participation, health, and durable connection rather than treating a national strategy as an outcome.
+
+**Latest completed U.S. local-capacity rotation — 2026-09-28:** the [NLC Municipal Infrastructure Conditions record](records/us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding.json) connects infrastructure condition to municipal finance, staff capacity, elected priorities, federal grants, and public-system reliability. The next valid test is a named U.S. infrastructure project that follows grant award into procurement, completion, maintenance, service reliability, neighborhood exposure, and household benefit rather than treating funding secured as realized capacity.
+
+**Latest completed U.S. disaster-resilience rotation — 2026-09-28:** the [GAO BRIC resilience-grant record](records/us-gao-bric-resilience-grant-delay-communication-outcomes-2026.json) connects resilience appropriations to review time, reimbursement, policy continuity, communication, local capacity, planning support, and outcome measurement. The next valid test is a named hazard-mitigation project that follows award into construction, maintenance, avoided loss, neighborhood exposure, and household protection rather than treating obligation or restart as realized resilience.
+
+**Latest completed comparative labor-market rotation — 2026-09-28:** the [ILO Employment and Social Trends 2026 record](records/comparative-ilo-employment-social-trends-2026-job-quality-inequality.json) connects headline employment stability to the global jobs gap, job quality, informality, working poverty, productivity divergence, gender and youth inequality, trade and AI exposure, and domestic institutional buffering. The next valid test is a named U.S. or allied labor-market episode that follows employment into earnings, hours, protection, bargaining, household room, and durable mobility rather than treating low unemployment as realized job quality.
+
+**Latest completed comparative care-infrastructure rotation — 2026-09-28:** the [UN resilient care and support systems record](records/comparative-un-care-support-systems-2026-poverty-dignity-work-family.json) connects life-course care needs to household time, poverty, gendered unpaid work, social protection, workforce capacity, public services, and dignity. The next valid test is a named U.S. or allied care episode that follows policy or service availability into reachable coverage, unpaid time, employment, health, household room, caregiver power, and durable participation rather than treating care-system design as realized support.
+
+**Latest completed comparative cultural-adaptation rotation — 2026-09-28:** the [Korea Social and Cultural Trends 2026 record](records/comparative-korea-social-cultural-trends-2026-adaptation-consumption-ai-kculture.json) connects post-crisis adaptation to AI governance attention, hyper-personalization, practical consumption, wellness, K-culture, fandom, emotional value, and coexistence. The next valid test is a named U.S. or allied cultural-consumer episode that follows online attention into actual spending, identity practice, creator or firm value, social participation, and durable belonging rather than treating keyword growth as population behavior.
+
+**Latest completed comparative household-security rotation — 2026-09-28:** the [UN SDG Goal 1 2026 record](records/comparative-un-sdg1-2026-poverty-protection-spending-aid.json) connects extreme poverty to social-protection coverage, benefit-type inequality, public-spending incidence, working poverty, aid retrenchment, and state buffering. The next valid test is a named U.S. or allied poverty episode that follows eligibility into actual receipt, adequacy, service use, work, health, household room, and recovery rather than treating coverage or spending as realized security.
+
+**Latest completed U.S. housing-security rotation — 2026-09-28:** the [Federal Reserve housing record](records/us-federal-reserve-household-housing-affordability-insurance-2025.json) connects housing tenure and payment burden to renter arrears, forced mobility, insurance affordability, weather exposure, and household balance-sheet risk. The next valid test is a named U.S. housing episode that follows affordability into arrears, eviction or move, credit, insurance claims, neighborhood continuity, and durable household room rather than treating tenure or median payment as realized security.
+
+**Latest completed Asia-Pacific deprivation-measurement rotation — 2026-09-28:** the [ADB Key Indicators 2026 record](records/comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation.json) adds a route from household versus individual poverty through gender and rural inequality, life-stage exposure, health insurance, internet access, property ownership, decision power, and targeted policy. The next valid test is a named U.S. or allied episode that follows household eligibility into individual access, control, service use, privacy, and durable capability rather than treating household averages as shared wellbeing.
+
+**Latest completed comparative household-security rotation — 2026-09-28:** the [PPRC Bangladesh State of the Real Economy record](records/comparative-pprc-bangladesh-real-economy-2026-household-fragility-resilience.json) adds a route from poverty and vulnerable non-poor status through budget room, cumulative shocks, informal work, debt, food insecurity, health costs, coping networks, digital participation, social protection, and accountable governance. The next valid test is a named U.S. or allied household-security episode that follows coping into asset depletion, unpaid time, health, food, work, administrative reach, and durable recovery rather than treating resilience as realized security.
+
+**Latest completed global consumer-culture rotation — 2026-09-28:** the [NIQ and World Data Lab Two Consumers record](records/comparative-niq-world-data-lab-2026-two-consumers-premium-value-mindsets.json) adds a route from inflation and unequal spending power through situational premiumization, trade-down, trust, identity, convenience, private label, and regional divergence. The next valid test is a named U.S. or allied category episode that follows perceived value into actual basket substitution, household room, health or cultural participation, and producer or worker incidence rather than treating commercial projections as household welfare.
+
+**Latest discovery-commerce rotation — 2026-09-29:** the NIQ/World Data Lab record now adds AI discovery, social-platform discovery-to-purchase, APAC social/quick-commerce, and retail-media influence. The next valid test is a named product or category episode that follows recommendation exposure through verification, price, purchase, quality, return or remedy, repeat choice, and who controls the discovery interface; commercial toplines do not establish conversion or consumer welfare.
+
+**Latest child-safety policy-transition rotation — 2026-09-29:** the [Snapchat DSA proceeding record](records/comparative-eu-snapchat-child-safety-dsa-proceedings-2026.json) now connects the named investigation and collective-action route to the proposed EU KIDS Act: under-13 access prohibition, a 15 account-age floor, safety-by-design, and a provider burden of proof. The next valid test follows adoption, age-assurance implementation, design change, reporting/remedy, youth participation or substitution, and measured developmental outcomes; the proposal is not yet law or outcome evidence.
+
+**Latest social-connection implementation rotation — 2026-09-29:** the [WHO social-connection record](records/comparative-who-social-connection-loneliness-2025.json) now adds a current policy-conversion checkpoint: WHO reports eight Member States with adopted policies on social connection, social isolation, or loneliness. The next valid test follows a named country's policy through funding, local delivery, participation, inclusion, repeated use, and measured connection or health outcomes; policy adoption is not implementation or effectiveness evidence.
+
+**Latest named-country social-policy rotation — 2026-09-29:** the [Japan Cabinet Office loneliness-and-isolation record](records/comparative-japan-cabinet-office-loneliness-isolation-priority-plan-2026.json) adds a statutory and dated revision route: 2023 law, 2024 priority plan, and July 10, 2026 partial revision. The next valid test follows one municipality or programme through budget, staffing, referral, participant experience, repeat use, inclusion, and measured connection, health, work, or civic outcomes; legal architecture is not service effectiveness.
+
+**Latest completed global democracy-and-conflict rotation — 2026-09-28:** the [International IDEA Global State of Democracy record](records/comparative-international-idea-gsod-2026-democracy-conflict-rule-of-law.json) adds a route from democratic stagnation and rights erosion through participation, rule of law, state capacity, public accountability, and conflict risk. The next valid test is a named U.S. or allied institutional episode that follows changes in expression, justice, civic space, and participation into actual public influence, remedy, trust, and conflict or peace outcomes rather than treating index movement as lived democratic experience.
+
+**Latest completed global youth-futures rotation — 2026-09-28:** the [World Economic Forum Youth Pulse record](records/comparative-wef-youth-pulse-2026-cost-ai-community-trust-purpose.json) adds a route from inequality and financial strain through purpose-driven work, education mismatch, AI adoption, entry-level job anxiety, community-level trust, political participation, climate concern, and youth-led action. The next valid test is a named U.S. or allied youth episode that follows these perceptions into education-to-work transitions, AI-enabled earnings, local participation, durable trust, and climate or civic outcomes rather than treating aspiration as realized agency.
+
+**Latest completed global cultural-economy rotation — 2026-09-28:** the [UNESCO Re|Shaping Policies for Creativity record](records/comparative-unesco-reshaping-policies-creativity-2026-cultural-work-platforms-freedom.json) adds a route from cultural-policy recognition and trade through digital creator income, platform visibility, skills, gender inclusion, public funding, and artistic freedom. The next valid test is a named U.S. or allied cultural-sector episode that follows digital reach into creator earnings, local discoverability, worker protection, representation, and rule-setting power rather than treating cultural-market growth as shared cultural prosperity.
+
+**Latest completed U.S. food-trust rotation — 2026-09-28:** the [IFIC Food & Health Survey record](records/us-ific-food-health-survey-2026-food-safety-health-beliefs-labels.json) adds a route from food-supply confidence and ingredient concern through health heuristics, labels, regulatory awareness, federalism preferences, and household practice. The next valid test is a named U.S. food-safety or labeling episode that follows public concern into actual information exposure, purchase/handling behavior, regulatory attribution, and health or trust outcomes rather than treating self-reported beliefs as realized safety.
+
+**Latest completed geoeconomic-development rotation — 2026-09-28:** the [World Bank Djibouti private-investment record](records/comparative-worldbank-djibouti-private-investment-energy-digital-tourism-2026.json) adds a route from strategic location and connectivity through energy cost, off-grid solar, data centers, tourism, skills, competition, regulation, cultural assets, and potential local jobs. The next valid test is a named U.S. or allied gateway/strategic-infrastructure episode that follows connectivity into affordable energy, retained local value, job quality, community control, and realized household benefit rather than treating investment potential as development.
+
+**Latest completed U.S. consumer-culture rotation — 2026-09-28:** the [National Restaurant Association Consumer Insights record](records/us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending.json) adds a route from household strain through protected restaurant occasions, trading down, grocery substitution, generational and income divergence, operator margins, and workforce pressure. The next valid test is a named U.S. consumer or local-business episode that follows price pressure into frequency, quality, worker conditions, substitution, household debt or food security, and durable cultural participation rather than treating industry engagement as broad consumer wellbeing.
+
+**Latest completed small-island growth rotation — 2026-09-28:** the [World Bank Seychelles Growth and Jobs record](records/comparative-worldbank-seychelles-growth-jobs-digital-skills-2026.json) adds a route from aging, skills shortages, isolation, and high costs through labor-market modernization, youth transitions, digital affordability, public-service access, jobs, wages, and household purchasing power. The next valid test is a named U.S. or comparative skills/digital-government episode that follows reform into access, job quality, wages, affordability, and intergenerational mobility rather than treating modeled gains as realized prosperity.
+
+**Latest completed stability-to-work rotation — 2026-09-28:** the [World Bank Zimbabwe Growth and Jobs record](records/comparative-worldbank-zimbabwe-growth-jobs-informality-infrastructure-2026.json) adds a route from macroeconomic stabilization and GDP growth through informality, low earnings, power shortages, transport and irrigation bottlenecks, regulatory friction, formalization, and worker bargaining. The next valid test is a named U.S. or comparative stabilization/infrastructure episode that follows policy into formal jobs, earnings, job quality, household room, and distribution rather than treating GDP growth or modeled reform gains as realized prosperity.
+
+**Latest completed water-infrastructure rotation — 2026-09-28:** the [World Bank Brazil Paraíba water-security record](records/comparative-worldbank-brazil-paraiba-water-security-sanitation-jobs-2026.json) adds a route from drought and poverty through water losses, sanitation gaps, rural service access, state capacity, monitoring, PPP governance, jobs, household time, cost, and legitimacy. The next valid test is a named U.S. or comparative water/sanitation episode that follows investment into operating service, affordability, household time, exposure, job quality, and contestability rather than treating announced financing or job estimates as realized infrastructure value.
+
+**Latest completed adaptive-resilience rotation — 2026-09-28:** the [World Bank Malawi INSPIRE-O record](records/comparative-worldbank-malawi-inspire-o-adaptive-social-protection-climate-jobs-2026.json) adds a route from climate and economic shocks through adaptive cash protection, climate-smart public works, women’s and youth employment, drought-responsive finance, digital registries, payment infrastructure, targeting, and transparency. The next valid test is a named U.S. or comparative climate/safety-net episode that follows shock exposure into payment timing, work quality, administrative reach, correction rights, and household recovery rather than treating approved project architecture as realized resilience.
+
+**Latest completed geopolitical-institutional rotation — 2026-09-28:** the [Salzburg Global public-institutions record](records/comparative-salzburg-global-public-institutions-2026-transactional-order-state-capacity.json) adds a route from a more transactional international order and thinner public capacity through alliance diversification, private dependence, AI literacy, distributed foresight, long-term commitment, actionable inclusion, and trust. The next valid test is a named U.S. or allied institutional episode that follows public-capacity investment or outsourcing into retained expertise, vendor accountability, decision quality, implementation, and public legitimacy rather than treating expert recommendations as realized capability.
+
+**Latest completed platform-governance rotation — 2026-09-28:** the [ILO Platform Economy Convention No. 193 record](records/comparative-ilo-platform-economy-convention-2026-algorithmic-management-rights-remedy.json) adds the first dedicated global labor-standard route from platform work and automated management through worker classification, pay, social security, algorithmic explanations and review, data rights, deactivation, remedies, enforcement, and cross-border implementation. The next valid test is a named country or platform case showing ratification or domestic rule change, platform compliance, worker awareness, remedy reach, and restored earnings or bargaining rather than treating adoption as realized protection.
+
+**Latest completed cooperative-inclusion rotation — 2026-09-28:** the [ILO PROSPECTS Jordan cooperative record](records/comparative-ilo-jordan-prospects-cooperatives-refugee-inclusion-2026.json) adds a named intervention route from displacement and labor-market barriers through cooperative law, institutional capacity, shared ownership, women’s and youth participation, refugee-host livelihoods, food and water capability, rights awareness, and social cohesion. The next valid test is whether named cooperatives retain finance, membership, formal work, earnings, safety, childcare and transport access, and cross-group participation after programme support and changing work-permit rules rather than treating reported outputs as durable inclusion.
+
+**Latest completed supply-chain resilience rotation — 2026-09-28:** the [UK Government Office for Science global supply chains record](records/comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience.json) adds a network-level route from multi-tier concentration, shared chokepoints, climate, and geopolitics through national exposure, prices, firm adaptation, and household risk. The next valid test is a named U.S. or allied commodity, infrastructure, or essential-service episode that follows a network shock into realized availability, price, substitution, public response, and unequal incidence rather than treating scenarios as forecasts.
+
+**Latest completed within-city inclusion rotation — 2026-09-28:** the [OECD Inclusive Growth in Cities record](records/comparative-oecd-inclusive-growth-cities-2026-within-city-opportunity-gaps.json) adds evidence from more than 600 EU cities that productivity and GDP growth do not automatically reduce poverty or expand opportunity. It links housing, labor markets, mobility, infrastructure, climate action, participation, granular data, and cross-department delivery to the question of whether growth becomes shared urban capability. The next valid test is a named U.S. city intervention with neighborhood-level exposure, operating service, household time/cost, and durable outcomes—not a citywide growth statistic or a policy priority alone.
+
+**Latest completed urban-capacity rotation — 2026-09-28:** the [World Bank Madagascar Urbanization Review record](records/comparative-worldbank-madagascar-urbanization-growth-poverty-infrastructure-2026.json) adds a named-country route from urban economic concentration and rapid growth through rising secondary-city poverty, informal and hazard-prone settlement, water and waste deficits, climate exposure, weak municipal finance, and proposed delivery reforms. The next valid test is a named U.S. or comparative city episode that follows infrastructure investment into operating service, household time and cost, exposure, and durable local legitimacy rather than treating urban GDP or announced capacity as inclusive growth.
+
+**Latest completed household-shock rotation — 2026-09-28:** the [World Bank Trade Policy and Natural Shocks Dashboard record](records/comparative-worldbank-trade-natural-shocks-household-income-distribution-2025.json) adds a route from climate yields, conflict-linked food inflation, and restrictive trade policies through household income, food security, unequal exposure, and response channels. The next valid test is a named country or commodity episode that follows modeled exposure into realized prices, diet, work, transfers, and recovery rather than treating an average modeled loss as lived household outcome.
+
+**Latest completed cultural-economy rotation — 2026-09-28:** the [European Audiovisual Observatory Key Trends 2026 record](records/comparative-eao-key-trends-2026-cultural-work-streaming-public-media.json) adds a route from creator work and social protection through streaming investment, platform and company concentration, public-media funding, and cultural access. The next valid test is a named U.S. or cross-border cultural-production episode that follows creator income, bargaining, audience reach, and public or platform control rather than treating market growth as cultural health.
+
+**Latest completed geopolitical-trade rotation — 2026-09-28:** the [IMF Annual Report 2026 trade-resilience record](records/comparative-imf-annual-report-2026-trade-resilience-supply-chain-geopolitics.json) adds a route from US trade-policy shifts and energy-route disruption through regional reorientation, supply-chain diversification, efficiency tradeoffs, external imbalances, and consumer or business expectations. The next valid test is a named commodity, infrastructure, or household price episode that shows who pays for resilience and whether diversification produces usable security rather than only aggregate continuity.
+
+**Latest completed comparative public-service rotation — 2026-09-28:** the [Norway Citizen Survey 2026 record](records/comparative-norway-dfo-citizen-survey-2026-service-voice-ai-trust.json) adds a route from reasonably usable services through declining administrative trust, weak perceived influence, low complaint responsiveness, local voice, and public-sector AI fairness concerns. The next valid test is whether a named U.S. service can improve both delivery quality and the ability of residents to influence, understand, and correct decisions rather than optimizing satisfaction alone.
+
+**Latest completed fiscal-legitimacy rotation — 2026-09-28:** the [OECD The People and the Budget record](records/comparative-oecd-people-budget-2026-fiscal-understanding-legitimacy.json) adds a route from public understanding and perceived voice through budget communication, citizen engagement, independent fiscal institutions, and the contestability of fiscal trade-offs. The next valid test is a named U.S. budget or service reform with clear distributional incidence and a traceable public explanation and correction route—not merely a communication campaign or announced participation process.
+
+**Latest completed life-course well-being rotation — 2026-09-28:** the [OECD Finland well-being record](records/comparative-oecd-finland-life-course-wellbeing-2026-intergenerational-loneliness.json) adds a route from strong aggregate performance through youth transition, middle-aged employment and unpaid-work divergence, loneliness, mental health, and demographic-fiscal pressure. The next valid test is whether life-course-targeted prevention, labor-market redesign, and social infrastructure can convert national capability into durable connection and agency without treating one country’s working-paper evidence as universal.
+
+**Latest completed measurement-infrastructure rotation — 2026-09-28:** the [UN DESA National Inclusion Accounts record](records/comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution.json) adds a route for decomposing age-specific production, consumption, transfers, care, and saving by education, income, family type, residence, and migration status. The next valid test is whether this accounting infrastructure can identify reachable buffers and unequal incidence in the U.S. life-course bridge rather than merely improve descriptive granularity.
+
+**Latest completed public-service delivery rotation — 2026-09-28:** the [OECD Serving Citizens 2026 record](records/comparative-oecd-serving-citizens-2026-life-events-feedback-implementation.json) adds a route from life-event administration through service integration, data sharing, user feedback, policy learning, and institutional trust. The next valid test is whether a named U.S. life-event service actually reduces time, access, and coordination burdens for affected groups rather than stopping at a reform strategy or digital interface.
+
+**Latest completed fiscal-capacity rotation — 2026-09-28:** the [OECD Restoring Public Finances record](records/comparative-oecd-restoring-public-finances-2026-social-protection-tradeoffs.json) adds a route from debt, aging, defence, health, and crisis legacies through savings in social protection, healthcare, public operations, and public employment. The next valid test is whether named U.S. budget or service reforms preserve reachable benefits, care, administrative capacity, and legitimacy rather than counting announced savings as realized public value.
+
+**Life-course comparison checkpoint — 2026-09-28:** Finland and Korea now form a comparative diagnostic. The next US-facing pass should test life-course incidence directly: which group absorbs the constraint, which institution is expected to buffer it, whether that buffer is reachable, and whether it produces durable agency rather than only a favorable national average.
+
+**US life-course bridge checkpoint — 2026-09-28:** join the existing Urban family-geography, CSSP care-arrangement, and Pew AI/young-adult-work records to test three domestic bottlenecks: family formation and housing, midlife care/work capacity, and entry-level work meaning and agency. Keep household adaptation separate from institutional buffering and realized outcomes.
+
+**Latest completed growth-to-well-being rotation — 2026-09-28:** the [OECD Korea well-being record](records/comparative-oecd-korea-wellbeing-2026-growth-life-course-social-capital.json) adds a route from long-run growth and human-capital gains through youth transition, work-time, mental health, social connection, gender barriers, trust, and environmental costs. The next valid test is whether cross-sector prevention and redistribution convert aggregate capability into independent, connected, fairly shared lives rather than leaving growth gains stranded in national averages.
+
+**Latest completed displacement-to-work rotation — 2026-09-28:** the [World Bank Kenya refugee-host jobs record](records/comparative-worldbank-kenya-refugee-host-jobs-aid-shrinkage-2026.json) adds a route from shrinking aid and forced displacement through shared thin labor markets, work-permit and mobility barriers, food insecurity, climate shocks, and public-service strain. The next valid test is whether integrated settlements produce real, decent, and fairly distributed opportunity for refugees and hosts rather than transferring humanitarian risk into weak local economies.
+
+**Latest completed food-and-connection rotation — 2026-09-28:** the [OECD food social-connectedness record](records/comparative-oecd-food-social-connectedness-2026-community-infrastructure.json) adds a route from food access and shared activity through low-stigma participation, cultural exchange, volunteer capacity, repurposed space, and service referral. The next valid test is whether food-based social infrastructure produces durable, inclusive connection without substituting volunteer labor for income security, housing, healthcare, or public investment.
+
+**Latest completed youth-mental-health rotation — 2026-09-28:** the [OECD youth mental-health record](records/comparative-oecd-youth-mental-health-2026-intersecting-pressure-prevention.json) adds a route from cumulative digital, economic, school, housing, climate, conflict, and social pressures through unequal youth distress, prevention, early support, and service coordination. The next valid test is whether low-threshold, peer, school, family, and community supports reduce persistent harm without medicalizing structural insecurity or relying on high-threshold care after escalation.
+
+**Latest completed AI-divergence rotation — 2026-09-28:** the [UNDP Next Great Divergence record](records/comparative-undp-next-great-divergence-2026-ai-capability-inequality.json) adds a route from uneven AI readiness through infrastructure, skills, jobs, gender, public services, governance, trust, and environmental cost. The next valid test is whether hard infrastructure and soft institutional levers produce inclusive capability—or allow gains to concentrate in high-capacity countries, urban hubs, large firms, and highly skilled workers.
+
+**Latest completed anticipatory-capacity rotation — 2026-09-28:** the [World Bank AI social-risk forecasting record](records/comparative-worldbank-ai-social-risk-forecasting-2026-anticipatory-capacity.json) adds a route from machine-learning signals about conflict, displacement, crime, and poverty through early warning, risk finance, service scaling, and social protection. The next valid test is whether anticipatory models improve timely, fair, and contestable public action rather than automating attention, reproducing data bias, or treating forecasts as certainty.
+
+**Latest completed migration-research rotation — 2026-09-28:** the [European Commission future-research record](records/comparative-eu-future-research-migration-integration-2026-policy-capacity.json) adds a policy-capacity route across integration, labor sustainability, legal pathways, AI, climate mobility, shared data, and research-to-practice translation. The next valid test is whether this expanded knowledge infrastructure changes local implementation, migrant rights, service coordination, and social cohesion rather than remaining an agenda document.
+
+**Latest completed labor-mobility rotation — 2026-09-28:** the [WEC Social Impact Report 2026 record](records/comparative-wec-social-impact-2026-borderless-talent-mobility-safeguards.json) adds a labor-shortage-to-mobility route through international matching, qualification recognition, language and training, legal pathways, integration, and worker safeguards. The next valid test is whether mobility produces decent, portable, and fairly distributed opportunity rather than shifting recruitment risk onto migrants or weakening origin-country capacity.
+
+**Latest completed climate-risk rotation — 2026-09-28:** the [WorldRiskReport 2026 record](records/comparative-worldriskreport-2026-storms-vulnerability-social-protection.json) adds a 193-country route from storm exposure through social vulnerability, infrastructure, health access, warning reach, coping, adaptation, and social protection. The next valid test is whether inclusive warning, resilient infrastructure, and protection systems reduce realized household and community loss under comparable hazards rather than treating structural rankings as event forecasts.
+
+**Latest completed global-health architecture rotation — 2026-09-28:** KFF’s
+[14-institution mapping record](records/comparative-kff-global-health-architecture-2026-institutions-financing-civil-society.json)
+adds a system-capacity route linking governance voice, civil-society inclusion,
+mandate overlap, technical assistance, funding-cycle misalignment, graduation,
+co-financing, and country sustainability. The next valid test is whether
+institutional reform reduces administrative burden and protects service
+continuity for countries and communities—or only rearranges global governance
+without changing delivery.
+
+**Latest completed civic-political rotation — 2026-09-28:** USC’s [Schaeffer
+Index record](records/comparative-usc-schaeffer-index-2026-civic-association-populism-20-countries.json)
+adds an initial 20-country route from perceived social, political, and economic
+decline through civic association, friendship, bridging contact, group
+political diversity, belonging, and populist-nationalist support. The next valid
+test is whether civic investment and cross-cutting institutions change political
+trust or merely attract people already predisposed toward pluralism.
+
+**Latest completed belonging-and-place rotation — 2026-09-28:** YMCA Canada’s
+[Connections Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third-places-belonging.json)
+adds Canadian evidence that 77% see third places as important for connection,
+but only 33% regularly use them and 64% want more available locally. The next
+valid test is whether affordable, welcoming, time-compatible spaces create
+durable relationships and civic participation, rather than treating space
+availability or stated belonging as outcomes by themselves.
+
+**Latest completed volunteerism rotation — 2026-09-28:** the UN Volunteers’
+[State of the World’s Volunteerism record](records/comparative-unv-state-world-volunteerism-2026-give-social-infrastructure.json)
+adds a global route from volunteer action and mutual aid through social cohesion,
+trust, crisis response, development, measurement, and inclusive institutional
+capacity. The next valid test is whether recognizing volunteer contribution
+leads to fair support, public investment, and usable civic power—or instead
+normalizes unpaid substitution for public services and unequal crisis burdens.
+
+**Latest completed community-prosperity rotation — 2026-09-28:** Prosper
+Global’s [Voices of Prosperity record](records/comparative-prosper-global-voices-of-prosperity-2026-shared-planning-community.json)
+uses 396 individual and group conversations with 1,102 people across six
+countries and 15 languages to add a community-defined prosperity route. It
+links shared wellbeing, safety, future planning, local knowledge, mutual
+support, climate, conflict, displacement, and youth opportunity. The next valid
+test is whether this locally defined capacity is supported by durable security,
+livelihood, public-service, and political institutions rather than romanticizing
+community resilience or treating qualitative themes as prevalence estimates.
+
+**Latest completed government-technology rotation — 2026-09-28:** Gartner’s
+[Top Technology Trends in Government record](records/comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce.json)
+adds an operating-capacity route linking agentic AI, adaptive cyber resilience,
+digital identity, workforce investment, service redesign, and accountability.
+The next valid test is whether these institutional investments produce usable,
+secure, explainable, and contestable public services rather than merely faster
+automation or vendor dependence.
+
+**Latest completed care-and-time rotation — 2026-09-28:** EIGE’s CARE Survey
+second-wave technical report adds a 27-country, 65,202-person evidence route
+linking informal care, formal services, employment, work–life balance,
+housework, leisure, volunteering, transport, digital tools, migration, and
+gender roles. The next valid test is whether formal care capacity and workplace
+control convert measured care exposure into durable time, income, and agency;
+the technical report documents the evidence system rather than proving causal
+individual outcomes.
+
+**Latest completed digital-trust rotation — 2026-09-28:** Thales’ Digital Trust
+Index adds login and onboarding friction, security preferences, data-use
+comprehension, AI-agent concern, sectoral trust, credential sharing, and the
+adoption–confidence gap. The next valid test is whether observable access and
+authentication events produce durable inclusion, safety, and recourse rather
+than merely stated trust or abandonment.
+
+**Latest completed public-sector AI rotation — 2026-09-28:** BCG’s Digital
+Government Citizen Survey adds 44-country evidence on weekly AI use, agentic
+comfort, regional variation, human oversight, appeals, and public reporting.
+The next valid test is whether visible safeguards operate as usable correction
+and remedy channels rather than remaining assurances around automated services.
+
+**Latest completed cultural-consumer rotation — 2026-09-28:** Ipsos B&A’s
+Irish Sign of the Times adds resigned resilience, emergency-liquidity pressure,
+cultural identity, alliance preferences, AI-mediated search, human meaning,
+performance pressure, and housing-delayed adulthood. The next valid test is
+whether these adaptations translate into durable household room, belonging,
+political alignment, and consumer agency rather than short-term coping stories.
+
+**Latest completed mental-load rotation — 2026-09-28:** YouGov’s Nordic study
+adds awareness gaps, gendered wellbeing, young-mother and financial-pressure
+exposure, intention-versus-action help-seeking, and workplace/public support.
+The next valid test is whether support changes workload, boundaries, service
+access, and durable wellbeing rather than only increasing awareness.
+
+**Latest completed place-capacity rotation — 2026-09-28:** Nordregio’s State of
+the Nordic Region adds territorial evidence on population ageing and migration,
+urban/rural divergence, labour vulnerability, regional economies, critical
+infrastructure, and green innovation. The next valid test is whether place-based
+capacity translates into service access, job quality, housing room, and durable
+territorial inclusion.
+
+**Latest completed regional-well-being rotation — 2026-09-28:** OECD Regional
+Well-Being adds eleven comparable dimensions and a within-country disparity
+route. The next valid test is whether place-based measurement changes resource
+allocation, service reliability, and resident voice rather than only producing
+regional rankings.
+
+**Latest completed information-authority rotation — 2026-09-28:** AP-NORC/API’s
+Media Insight study adds creator-based news use, topic-specific discovery,
+generational trust differences, AI-source comparison, misinformation attribution,
+and news avoidance. The next valid test is whether distributed information
+authority improves understanding and local connection or increases exposure to
+fragmented, weakly accountable interpretation.
+
+**Latest completed cultural-consumption rotation — 2026-09-28:** DIMA’s 2026
+music-streaming report adds engagement, spending, discovery, back-catalogue use,
+local culture, AI-generated music, and regulation across the U.S. and comparison
+markets. The next valid test is whether platform discovery broadens durable
+cultural participation and artist opportunity or increases platform dependence.
+
+**Latest completed youth-culture rotation — 2026-09-28:** Mastercard’s Next
+Growth Generation adds Gen Z/Gen Alpha agency, creators, fandoms,
+micro-communities, AI co-pilots, household influence, and projected economic
+capacity across 18 markets. The next valid test is whether youth co-creation
+becomes durable voice and opportunity or is primarily captured as commercial
+participation by platforms and brands.
+
+**Latest completed wellbeing-consumption rotation — 2026-09-28:** Kantar’s
+Pursuit of Wellbeing adds affordability, health behavior, institutional
+reliability, care navigation, personalization, and AI guidance. The next valid
+test is whether consumer-led wellbeing supplements public and professional
+capacity or shifts the burden of staying well onto people with unequal money,
+time, and expertise.
+
+**Latest completed Nordic consumer-culture rotation — 2026-09-28:** WPP Media’s
+2026 trend-seminar overview adds mental scarcity, Zillennial pressure, trusted
+curation, and status through freedom, time, control, and inner peace. The next
+valid test is whether these are broad lived shifts or commercial language for
+unequal access to time-saving services, guidance, and self-optimization.
+
+**Latest completed cultural-AI rotation — 2026-09-28:** the Google Research
+global survey preprint adds cultural identity, religion and tradition, AI
+familiarity, sacred and historical sensitivity, and representation red lines
+across 13 countries. The next valid test is whether participatory controls,
+local review, and recourse actually change model outputs and cultural safety.
+
+**Latest completed global workplace-culture rotation — 2026-09-28:** SHRM’s
+2026 framework adds 27,159 workers across 25 countries, eight organizational
+culture types, three operating dimensions, and a decision-rights/relationship
+route. The next valid test is whether culture-type differences predict durable
+worker voice, inclusion, retention, or control after accounting for pay, sector,
+labor institutions, and worker power.
+
+**Latest completed public-pessimism rotation — 2026-09-28:** FGS Global Radar
+2026 adds a 27-country route from institutional distrust and affordability
+pressure through reform demand, disruptor support, elite perceptions, and
+visible-results expectations. The next valid test is whether pessimism produces
+durable political realignment or mainly changes rhetoric and short-term demand.
+
+**Latest completed consumer-institution rotation — 2026-09-28:** the open-access
+European consumer-policy study adds 73,120 consumers across 30 countries and a
+route from policy capacity through market trust to vulnerability-conditioned
+reach. The next valid test is whether consumer protection produces usable
+dispute resolution and material recovery for economically exposed consumers.
+
+**Latest completed identity-and-belonging rotation — 2026-09-28:** the
+WGS/Strategy& framework adds four identity-marker categories and a route from
+foundational markers through everyday participation, trust, policy embedding,
+and state resilience, with UAE and Saudi examples. The next valid test is
+whether identity policy produces inclusive belonging and material confidence or
+mainly strengthens official narratives and conditional membership.
+
+**Latest completed Africa social-cohesion rotation — 2026-09-28:** Afrobarometer
+adds 50,961 interviews across 38 countries showing strong tolerance alongside
+steep trust-by-distance gradients, restrictive immigration attitudes, fairness
+concerns, family solidarity, and limited collective civic action. The next valid
+test is whether institutional fairness and usable civic channels convert social
+tolerance and informal support into broader cooperation.
+
+**Latest completed disagreement-and-civic-space rotation — 2026-09-28:** UCL and
+More in Common add polling of 2,000 Britons and focus groups showing strong
+support for open discussion alongside speech restraint, fear of being labelled,
+low confidence in the quality of debate, and a shift toward informal spaces such
+as pubs over formal civic forums. The next valid test is whether safer, usable
+spaces for disagreement change actual participation, relationship quality, and
+institutional trust rather than only reported norms.
+
+**Latest completed place-identity rotation — 2026-09-28:** the OECD’s *Local
+Identity, Pride and Branding in Place Transformation* report adds a cross-place
+route from inherited decline narratives and local identity through participatory
+story-making, cultural/physical regeneration, talent and investment, belonging,
+and the risk of displacement or unequal benefit. The next valid test is whether
+resident-shaped place narratives produce material shared prosperity and public
+power rather than visibility, tourism, or investment alone.
+
+**Latest completed youth-infrastructure rotation — 2026-09-28:** British Academy /
+London Development Trust focus-group research with 107 young people across seven
+national sites, plus an initial London phase, adds a route from safety,
+affordability, transport, identity, and relational support through activation of
+social/cultural places, wellbeing, belonging, and civic capacity. The next valid
+test is whether youth-shaped feedback loops and stable investment produce actual
+attendance, influence, and durable public-space access.
+
+**Latest completed consumer-expectations rotation — 2026-09-28:** the University
+of Michigan’s September 2026 Surveys of Consumers add a route from price, fuel,
+and trade-shock salience through weakened personal-finance expectations, higher
+inflation expectations, durable-purchase timing, and cross-partisan sentiment
+decline. The next valid test is which households defer, substitute, borrow, or
+pull purchases forward—and whether those adaptations produce material recovery or
+deeper unequal exposure.
+
+**Latest completed Scottish legitimacy rotation — 2026-09-28:** the Scottish
+Social Attitudes Survey 2025 adds a route from economic insecurity and social
+trust through institutional fairness/listening, petitions and representative
+contact, perceived political influence, and durable voting norms. The next valid
+test is whether participation produces visible response and material change—or
+remains expressive activity alongside a persistent legitimacy gap.
+
+**Latest completed credit-consumption rotation — 2026-09-28:** the Philadelphia
+Fed LIFE survey report adds a route from perceived borrowing costs through
+forgone large purchases, cheaper substitutions, saving/investment tradeoffs,
+debt- and asset-conditioned flexibility, and changed affordability thresholds.
+The next valid test is whether these financing adaptations become durable losses
+of mobility, durable access, or wellbeing—or recover through refinancing, income,
+or consumer remedy.
+
+**Latest completed household-environment rotation — 2026-09-28:** Statistics
+Canada’s September 2026 analysis of the 2021 Households and the Environment
+Survey adds a route from dwelling form, tenure, residence duration, nearby nature,
+and settlement scale through composting and controlled hazardous-waste disposal.
+The next valid test is whether usable local infrastructure converts household
+environmental responsibility into durable behavior without shifting costs onto
+renters, recent movers, apartment residents, or lower-capacity places.
+
+**Latest completed childcare-economy rotation — 2026-09-28:** Statistics
+Canada’s early-learning and child-care industry update adds a route from CWELCC
+public transfers and industry expansion through provider consolidation, small-firm
+exit, regional provision, and family-care continuity. The next valid test is
+whether economic growth and public spending become usable spaces, lower fees,
+quality, stable hours, and parent work capacity—or mainly larger providers and
+aggregate GDP.
+
+**Child-survival and public-health infrastructure rotation — 2026-09-26:** the
+UNICEF Child Survival Dividend adds mortality progress, immunization, nutrition,
+health systems, WASH, human capital, economic resilience, security, aid, debt,
+and budget risk. The next valid test is whether health investment remains a
+durable public good under fiscal and geopolitical pressure.
+
+**Wealthy-country inequality rotation — 2026-09-26:** UNICEF Innocenti’s Report
+Card 20 adds within-country income gaps, child poverty, health, mental
+well-being, skills, perceived opportunity, and child participation across 44
+high-income/OECD countries. The next valid test is whether national prosperity
+becomes shared childhood capability rather than reproducing status gaps.
+
+**Adolescent culture and well-being rotation — 2026-09-26:** the OECD paper adds
+gendered well-being, identity norms, family communication, school disengagement,
+body image, online harms, community space, and multi-sector support. The next
+valid test is whether families, schools, communities, and platforms create safer
+belonging and agency rather than reproducing unequal attention and distress.
+
+**Youth labor-market conditions rotation — 2026-09-26:** the ILO Global
+Employment Trends for Youth 2026 report adds unemployment, NEET, informality,
+gender and care gaps, technology exposure, skills, employment services, and
+social-protection needs. The next valid test is whether policy supports durable
+decent-work transitions rather than merely reducing headline unemployment.
+
+**Youth-transition and labor-programme rotation — 2026-09-26:** the joint ILO–
+World Bank systematic review adds 228 evaluations across 62 countries, comparing
+skills, entrepreneurship, employment services, wage subsidies, public delivery,
+partnerships, subgroup effects, and cost-effectiveness. The next valid test is
+whether positive programme effects become durable, decent work and bargaining
+power for young people.
+
+**Child-poverty and intergenerational-capability rotation — 2026-09-26:**
+UNICEF’s State of the World’s Children 2025 adds monetary and multidimensional
+child poverty, sanitation, social protection, caregiver work, climate, conflict,
+debt, and child-sensitive budgeting. The next valid test is whether public
+services and family supports interrupt deprivation across generations.
+
+**Low-income-country resilience rotation — 2026-09-26:** the IMF low-income-
+country outlook adds per-capita divergence, aid, remittances, debt service,
+reserve buffers, food and energy prices, governance, public financial management,
+and private-sector job creation. The next valid test is whether macro resilience
+reaches households through prices, services, jobs, and political trust.
+
+**Fiscal-pressure rotation — 2026-09-26:** the IMF Fiscal Monitor adds global
+debt, interest burdens, defense, aging, climate transition, public investment,
+aid shocks, social-protection targeting, and political feasibility. The next
+valid test is who receives protection or absorbs adjustment when geopolitical,
+demographic, and climate pressures compete for public budgets.
+
+**Urban climate-delivery rotation — 2026-09-26:** UN-Habitat’s NDC 3.0 analysis
+adds the plan-to-implementation bridge: urban content, housing and informal
+settlements, transport, energy, infrastructure, waste, and multilevel delivery
+mechanisms. The next valid test is whether national recognition becomes local
+resources, service reliability, affordability, and accountable implementation.
+
+**Demographic-divergence rotation — 2026-09-26:** the World Bank’s demographic-
+growth publication adds aging, shrinking workforces, youth-heavy poverty regions,
+care and old-age support, migration, trade, capital, and human-capital capacity.
+The next valid test joins demographic structure to jobs, housing, care systems,
+mobility rights, fiscal support, and political bargaining while keeping aggregate
+projections separate from individual life histories.
+
+**Social-protection and climate-transition rotation — 2026-09-26:** the ILO
+World Social Protection Report 2024-26 adds coverage, climate vulnerability,
+child and gender gaps, public expenditure, and just-transition capacity to the
+cross-source map. The next valid test is whether protection is adequate,
+portable, shock-responsive, and usable during price, care, climate, and labour-
+market transitions—not whether respondent-level data can answer the whole
+program.
+
+**Gender-accountability and usable-agency rotation — 2026-09-26:** the UN SDG
+Goal 5 2026 pass adds representation, gender-responsive budgeting, legal reform,
+land rights, mobile access, and bodily-agency stages. It complements the gender
+snapshot, time-use, Women–Business–Law, care, work, and political-voice records.
+The next valid test joins formal rights or representation to enforcement, budget
+execution, safe access, household bargaining, workplace power, or policy change.
+
+**Trade-biodiversity and social-visibility rotation — 2026-09-26:** the UNCTAD
+trade-and-biodiversity framework adds ecosystem provenance, value-chain
+traceability, rural livelihood, food-equity, land-rights, Indigenous, and
+social-sustainability stages. It complements the trade, food, productive-
+capacity, and sustainable-finance lanes. The next valid test joins a
+biodiversity-linked product to verified production practice, worker conditions,
+community benefit-sharing, consumer information, or ecological change.
+
+**Productive-capacity and measurement-gap rotation — 2026-09-26:** the UNCTAD
+Productive Capacities Index adds a multidimensional route across human capital,
+energy, transport, ICT, institutions, private-sector development, structural
+change, and statistical visibility. It complements the trade, debt, energy,
+finance, and work lanes. The next valid test joins a capacity dimension to
+delivered infrastructure, firm formation, job quality, household access, or
+political accountability.
+
+**Sovereign-debt and fiscal-space rotation — 2026-09-26:** the UNCTAD external-
+debt report adds a macro-financial route from borrowing costs and debt service
+through development spending, domestic credit, public capacity, and geopolitical
+autonomy. It complements the macro-growth, trade, energy-investment, and
+development-finance records. The next valid test joins a debt shock or
+restructuring episode to public-service protection, infrastructure delivery,
+private-credit crowd-out, household costs, or political contestation.
+
+**Sustainable-finance implementation rotation — 2026-09-26:** the UNCTAD
+Sustainable Finance Policy Monitor adds disclosure, carbon-pricing,
+regional-divergence, compliance-cost, and implementation-capacity stages. It
+complements the trade, energy-investment, critical-minerals, firm-power, and
+public-finance lanes. The next valid test joins a sustainability rule to firm
+reporting cost, financing access, worker transition, consumer pass-through,
+emissions outcome, or political contestation.
+
+**Trade-fragmentation and services rotation — 2026-09-26:** the UNCTAD Global
+Trade Update adds a cross-source route from geopolitical fragmentation and
+regulatory tightening through value-chain relocation, services, South–South
+trade, food security, and smaller-exporter compliance costs. It complements the
+existing food, critical-minerals, digital-services, and macro records. The next
+valid test joins a trade rule or shock to firm adaptation, worker exposure,
+consumer pass-through, food access, or political response.
+
+**Macro-to-household vulnerability rotation — 2026-09-26:** the [UN DESA WESP
+2026 record](records/comparative-un-desa-wesp-2026-growth-trade-inflation-fiscal-space.json)
+adds the global-growth, trade, inflation, fiscal-space, regional-divergence,
+investment, AI-concentration, and household-cost layer behind more specific
+consumer and labor signals. It uses aggregate forecasts and analysis, not
+household microdata, individual price exposure, firm-level causal outcomes, wage
+histories, poverty transitions, or proof that macro changes affect every group
+the same way. The next test joins growth, trade, prices, wages, debt, public
+capacity, household room, firm behavior, and geopolitical shocks.
+
+**Household-structure rotation — 2026-09-26:** the [UN DESA household and
+living-arrangements record](records/comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity.json)
+adds a care-capacity route across household size, age composition,
+multigenerational and skipped-generation living, older-person arrangements,
+housing, migration, and public services. It uses published aggregate estimates
+standardized across 1,129 sources, not raw respondent-level data, individual
+household histories, care-time diaries, household budgets, causal welfare
+estimates, or proof that household form determines support or well-being. The
+next test joins age structure, fertility, migration, housing, care, work,
+health, income, and social protection.
+
+**Aging-and-fertility rotation — 2026-09-26:** the [U.S. Census aging-world
+record](records/comparative-us-census-aging-world-2025-fertility-trap-age-friendly-capacity.json)
+adds a demographic-structure route across falling fertility, longevity,
+population shrinkage, households, care, work, age-friendly communities, AI,
+health systems, and humanitarian disasters. It uses aggregate estimates,
+projections, socioeconomic statistics, and literature synthesis—not
+respondent-level data, individual life histories, household care records, causal
+estimates of aging on politics or welfare, or proof that demographic change has
+one universal social outcome. The next test joins age structure, fertility,
+migration, care, employment, housing, technology, health, disaster exposure,
+and public-system adaptation.
+
+**Gender-institutional-power rotation — 2026-09-26:** the [UN Women/UN DESA
+Gender Snapshot record](records/comparative-un-women-desa-gender-snapshot-2026-institutional-power-leadership.json)
+adds a cross-SDG route across women’s leadership, courts, parliaments,
+gender-equality mechanisms, civic space, funding, accountability, social norms,
+and policy implementation. It uses aggregate indicators and institutional
+reporting, not respondent-level data, individual leadership histories, household
+time-use or income records, causal estimates of women leaders, or proof that
+representation alone produces equal outcomes. The next test joins formal power,
+institutional capacity, resources, legal enforcement, care, work, conflict,
+climate, and public legitimacy.
+
+**Travel-and-tourism-development rotation — 2026-09-26:** the [WEF tourism
+record](records/comparative-wef-travel-tourism-development-index-2026-cultural-openness-affordability.json)
+adds a mobility-and-place route across cultural attractions, travel openness,
+digital readiness, affordability, infrastructure, tourism jobs, workforce gaps,
+crowding, and distribution of benefits. It uses composite index and aggregate
+sector estimates, not individual travel histories, household affordability
+calculations, resident displacement records, worker wage or job-quality data,
+visitor-level preferences, or causal proof that higher scores produce inclusive
+development. The next test joins mobility, cultural demand, prices, visa and
+border access, local capacity, jobs, climate stress, and resident legitimacy.
+
+**Consumer-polarisation rotation — 2026-09-26:** the [NIQ/World Data Lab
+record](records/comparative-niq-world-data-lab-two-consumers-2026-premium-value-polarization.json)
+adds a global basket-and-market route across inflation, selective upgrading,
+trading down, premiumisation, private label, cultural relevance, income
+mobility, and regional consumer growth. It combines commercial price, shopper,
+survey, consumption, and projection data, not individual household budgets,
+respondent purchase histories, causal welfare estimates, nutrition outcomes, or
+proof that commercial consumer classes map cleanly onto social classes. The next
+test joins prices, wages, trust, identity, category, channel, geography,
+private label, and household adaptation.
+
+**AI-and-citizen-participation rotation — 2026-09-26:** the [OECD AI citizen
+participation record](records/comparative-oecd-ai-citizen-participation-2026-democratic-innovation.json)
+adds a technology-to-democracy route across participation design, translation,
+sense-making, facilitation, scale, civic space, exclusion, trust, skills,
+procurement, and vendor dependence. It synthesizes 50 public use cases across
+22 countries, not respondent-level records, representative participation rates,
+individual political histories, causal AI effects on turnout or trust, or proof
+of policy influence. The next test joins AI mediation, accessibility, language,
+deliberation, public accountability, low-tech alternatives, and institutional
+adoption.
+
+**Private-finance-mobilisation rotation — 2026-09-26:** the [OECD private-finance
+record](records/comparative-oecd-private-finance-mobilisation-2026-risk-sector-climate-development.json)
+adds a development-finance and geopolitical-economy route across public
+risk-sharing, private capital, recipient-country risk, infrastructure, social
+sectors, climate mitigation and adaptation, multilateral development banks, and
+data/coordination capacity. It uses OECD aggregate mobilisation statistics and
+report synthesis, not individual investments, firm-level causal outcomes,
+household welfare, jobs or skills effects, technology transfer, project
+additionality, or proof that mobilisation is inclusive. The next test joins
+public guarantees, investability, country risk, sector allocation, climate
+finance, adaptation, social provision, and development legitimacy.
+
+**Cross-border-payments rotation — 2026-09-26:** the [OECD cross-border payments
+record](records/comparative-oecd-cross-border-payments-remittances-2026-transparency-consumer-route.json)
+adds a financial-consumer infrastructure route across remittances, fees, currency
+conversion, delivery time, access, status tracking, terms, interoperability, and
+regulatory accountability. It uses OECD policy analysis and guidance, not
+individual transfer histories, household budgets, provider-level causal estimates,
+corridor-specific harm estimates, or proof that disclosure alone produces
+comprehension or successful delivery. The next test joins migration and work,
+fees, timing, tracking, receipt, household room, and consumer protection.
+
+**Asia-Pacific urban-divides rotation — 2026-09-26:** the [urban-divides
+record](records/comparative-undp-escap-adb-urban-divides-asia-pacific-2026-services-work-environment.json)
+adds a regional place-based route across urbanization, slums, housing, basic
+services, informal work, digital access, transport, pollution, clean cooking,
+climate risk, and city governance. It uses regional SDG and household-survey
+analysis, not respondent-level histories, individual exposure or health records,
+causal platform-work estimates, or proof that all cities share one pathway. The
+next test joins population movement, tenure, services, mobility, work security,
+environmental risk, health, and local governance.
+
+**Inequality-cross-system rotation — 2026-09-26:** the [World Inequality Report
+2026 record](records/comparative-wir-2026-wealth-climate-gender-finance-political-cleavages.json)
+adds a distributional route across income, wealth, capital-linked emissions,
+unpaid care, human-capital access, global finance, taxation, territorial divides,
+and democratic coalitions. It uses World Inequality Lab aggregate estimates and
+synthesis, not respondent-level income or political histories, household budgets,
+individual emissions footprints, causal climate effects, or proof that one policy
+equalizes outcomes everywhere. The next test joins assets, climate exposure, care
+time, human capital, finance, taxation, place, representation, and legitimacy.
+
+**Governance-durability rotation — 2026-09-26:** the [ILO governance-climate
+record](records/comparative-ilo-governance-climate-ebmo-capacity-2026-institutional-durability.json)
+adds an institutional route across governance quality, political and economic
+stability, investment, employer organizations, social dialogue, enterprise
+conditions, and reform durability. It uses ILO aggregate indices, country
+trajectories, regression evidence, and organizational analysis, not individual
+worker experiences, firm-level causal investment histories, political forecasts,
+or proof that capacity produces inclusive outcomes everywhere. The next test joins
+rules, institutions, intermediary capacity, worker voice, investment, enterprise
+behavior, reform persistence, and legitimacy.
+
+**Food-market-risk rotation — 2026-09-26:** the [FAO Food Outlook 2026
+record](records/comparative-fao-food-outlook-2026-geopolitical-weather-fertilizer-import-costs.json)
+adds a food-system and geopolitical-price route across cereal production, stocks,
+fertilizer, maritime logistics, energy, weather, trade, food import bills, and
+consumer access. It uses FAO market assessments and forecasts, not household food
+diaries, farm-level causal estimates, retailer pass-through estimates, or proof
+that aggregate supply becomes equal affordability or diet quality. The next test
+joins weather, energy, fertilizer, shipping, prices, household room, nutrition,
+and public response.
+
+**Consumer-choice rotation — 2026-09-26:** the [BCG consumer shifts
+record](records/comparative-bcg-consumer-shifts-2026-value-solo-living-trust-ai.json)
+adds a consumer route across perceived value, price, convenience, solo living,
+longevity, information overload, trust, and AI-guided product discovery. It uses
+BCG aggregate survey, interview, and brand analysis, not individual purchase
+histories, household budgets, causal AI effects, welfare estimates, or proof that
+every consumer follows one pathway. The next test joins money, household form,
+time, value, trusted information, algorithmic discovery, satisfaction, repeat use,
+and market power.
+
+**Youth-voice-and-civic-space rotation — 2026-09-26:** the [UNDP youth peace,
+security, and electoral-processes record](records/comparative-undp-youth-peace-security-electoral-processes-2026-digital-first-participation.json)
+adds a cultural-political route across youth identity, issue-driven and digital
+participation, protest, civic space, representation, civic technology, elections,
+peacebuilding, and institutional legitimacy. It uses UNDP thematic synthesis,
+cited evidence, and illustrative cases, not respondent-level political histories,
+individual platform traces, causal protest effects, election forecasts, or proof
+that all youth participate in one way. The next test joins youth voice, digital
+risk, representation, safety, institutional responsiveness, peacebuilding, and
+durable political influence.
+
+**Internal-displacement rotation — 2026-09-26:** the [IDMC 2026 Global Report
+on Internal Displacement record](records/comparative-idmc-grid-2026-internal-displacement-conflict-disaster-data-systems.json)
+adds a global geopolitical route across conflict, disasters, repeated movement,
+housing, services, livelihoods, host communities, durable solutions, and
+displacement-data systems. It uses IDMC aggregate estimates and report synthesis,
+not respondent-level displacement histories, household location files, causal
+conflict forecasts, person-level service needs, or proof that every displaced
+population follows the same path. The next test joins shocks, mobility, housing,
+work, local capacity, data visibility, return or integration, and accountability.
+
+**Place-accessibility rotation — 2026-09-26:** the [OECD service accessibility
+record](records/comparative-oecd-service-accessibility-estonia-netherlands-2026-place-transport-capacity.json)
+adds a route across urban-rural gradients, transport, proximity, service
+capacity, childcare, schooling, employment services, labor participation, and
+social inclusion. It uses aggregate municipal and spatial analysis in Estonia
+and the Netherlands, not respondent-level travel histories, individual
+enrollment files, family mobility decisions, causal employment forecasts, or
+proof that the same pattern holds in every country. The next test joins place,
+time, capacity, transport, care, work, and service legitimacy.
+
+**Masculinity-and-gender-norms rotation — 2026-09-26:** the [OECD Masculinity
+and Gender Equality record](records/comparative-oecd-masculinity-gender-equality-2026-provider-authority-violence.json)
+adds a cultural and political route across provider identity, household
+authority, unpaid care, work, women’s economic agency, generational change,
+violence risk, accountability, and positive masculinities. It uses published
+OECD comparative findings and qualitative synthesis, not respondent-level survey
+extraction, individual violence histories, household case files, causal
+forecasts, or proof that norms operate identically across settings. The next
+test joins norms, work, care, power, institutions, safety, and social change.
+
+**Food-and-connection rotation — 2026-09-26:** the [OECD Promoting Social
+Connectedness Through Food record](records/comparative-oecd-social-connectedness-food-2026-community-infrastructure-implementation.json)
+adds a route across food culture, loneliness, belonging, social infrastructure,
+community space, food access, volunteering, public support, and evaluation. It
+uses aggregate OECD synthesis and selected public case studies, not
+respondent-level loneliness histories, individual dietary records, household
+consumption diaries, causal program evaluations, or proof that food initiatives
+produce the same outcomes in every community. The next test joins food access,
+place, culture, care, social participation, and institutional support.
+
+**Innovation-capability rotation — 2026-09-26:** the [WIPO Innovation
+Capabilities Outlook 2026 record](records/comparative-wipo-innovation-capabilities-outlook-2026-ecosystem-complexity-diffusion.json)
+adds a route across science, technology, entrepreneurship, production,
+capability concentration, diversification, regional development, translation,
+and unused innovation potential. It uses aggregate WIPO and Harvard Growth Lab
+analysis, not respondent-level worker histories, firm case files, individual
+patent attribution, causal technology forecasts, or proof that capability
+concentration produces identical social outcomes everywhere. The next test joins
+innovation, skills, finance, supply chains, labor, public value, and legitimacy.
+
+**Hydrological-overshoot rotation — 2026-09-26:** the [UNU-INWEH Global Water
+Bankruptcy record](records/comparative-unu-global-water-bankruptcy-2026-hydrological-overshoot-natural-capital-governance.json)
+adds a route across chronic water-system decline, aquifers, river basins,
+wetlands, natural capital, food, health, livelihoods, equity, governance, and
+cooperation. It uses aggregate UNU-INWEH report analysis, not respondent-level
+water histories, individual consumption records, basin-level causal forecasts,
+household utility bills, or proof that every water system has crossed an
+irreversible threshold. The next test joins water accounting, allocation,
+climate, ecosystems, food, finance, and institutional trust.
+
+**Renewable-deployment rotation — 2026-09-26:** the [IRENA Renewable Capacity
+Statistics 2026 record](records/comparative-irena-renewable-capacity-statistics-2026-deployment-concentration-energy-security.json)
+adds a route across renewable capacity growth, solar and wind concentration,
+regional deployment, off-grid systems, energy security, infrastructure, costs,
+and geopolitical dependence. It uses aggregate IRENA capacity statistics, not
+respondent-level energy histories, individual utility bills, plant-level
+operating records, causal forecasts, or proof that capacity growth produces
+equal affordability or security for every place. The next test joins deployment,
+grids, finance, supply chains, jobs, household energy, and local legitimacy.
+
+**Built-environment transition rotation — 2026-09-26:** the [UNEP/GlobalABC
+Buildings and Construction 2025-2026 record](records/comparative-unep-globalabc-buildings-construction-2025-2026-emissions-affordability-investment.json)
+adds a route across building-sector emissions, material extraction, jobs, future
+stock, energy intensity, green certification, affordable living, resilience,
+codes, and investment. It uses aggregate global sector analysis, not
+respondent-level housing histories, individual utility bills, property records,
+building inspections, causal forecasts, or proof that every city or household
+follows the same pathway. The next test joins buildings, energy, materials,
+housing cost, labor, finance, and local implementation.
+
+**Fragility-to-capacity rotation — 2026-09-26:** the [World Bank Fragile and
+Conflict-Affected Situations record](records/comparative-world-bank-fcv-intertwined-crises-vulnerabilities-2026-state-capacity-poverty.json)
+adds a route across persistent fragility, overlapping shocks, conflict scarring,
+extreme poverty, acute food insecurity, health, education, infrastructure, debt,
+and state capacity. It uses aggregate World Bank analysis, not household
+respondent histories, individual health or schooling records, local case files,
+causal conflict forecasts, or proof that every fragile economy follows the same
+pathway. The next test joins conflict, fiscal room, services, poverty, food,
+governance, and recovery.
+
+**Terrorism-and-borderlands rotation — 2026-09-26:** the [IEP Global Terrorism
+Index 2026 record](records/comparative-iep-global-terrorism-index-2026-youth-borderlands-conflict.json)
+adds a route across global terrorism decline, regional concentration, conflict
+linkage, borderlands, youth radicalisation, online pathways, governance, and
+employment conditions. It uses aggregate index measures and report synthesis,
+not respondent-level radicalisation histories, individual victim files, causal
+platform effects, or proof that any correlate is a universal cause of terrorism.
+The next test joins conflict, borders, youth, platforms, jobs, state legitimacy,
+displacement, and prevention.
+
+**Peace-and-fragmentation rotation — 2026-09-26:** the [IEP Global Peace Index
+2026 record](records/comparative-iep-global-peace-index-2026-conflict-fragmentation-militarisation.json)
+adds a geopolitical route across peacefulness, conflict diffusion, conflict
+deaths, militarisation, middle-power fragmentation, economic costs, and Positive
+Peace. It uses an aggregate composite index and report synthesis, not
+respondent-level safety histories, event-level conflict microdata, individual
+victim records, causal geopolitical forecasts, or proof that index movement
+describes every community. The next test joins conflict, displacement, arms,
+finance, institutions, households, and local resilience.
+
+**Gendered-ageing rotation — 2026-09-26:** the [UN DESA Gender matters in an
+ageing world record](records/comparative-un-desa-gender-ageing-world-2026-older-women-health-economic-security.json)
+adds a demographic route across older women’s population growth, longevity,
+later-life health, pension and income insecurity, unpaid care, and policy
+visibility. It uses aggregate UN demographic estimates and policy synthesis, not
+respondent-level ageing histories, individual health records, household care
+diaries, causal pension effects, or proof that ageing produces the same outcome
+for all women. The next test joins ageing, care, health, work, pensions,
+household room, and civic participation.
+
+**Social-protection-coverage-and-resilience rotation — 2026-09-26:** the [World
+Bank State of Social Protection Report 2025 record](records/comparative-world-bank-state-social-protection-2025-coverage-adequacy-shock-response.json)
+adds a route across coverage expansion, benefit adequacy, crisis response,
+delivery infrastructure, gender disparity, labor programs, and household
+resilience. It uses aggregate indicators and report synthesis, not respondent-level
+benefit histories, individual case files, causal transfer effects, consumption
+panels, or proof that coverage automatically becomes adequate protection. The
+next test joins social protection, work, care, digital payments, shocks, fiscal
+capacity, gender, and household room.
+
+**Public-employment-services rotation — 2026-09-26:** the [IDB/OECD/WAPES
+World of Public Employment Services 2026 record](records/comparative-oecd-idb-wapes-public-employment-services-2026-digital-shock-transition.json)
+adds a delivery-system route across institutional variation, digital maturity,
+shock response, migrant transitions, social-economy partnerships, and labor-market
+resilience. It uses comparative survey and policy information, not respondent-level
+job-search histories, individual placement records, case-management files, causal
+service evaluations, or proof that digitization improves outcomes for every group.
+The next test joins public services, employers, training, housing, mobility,
+care, trust, and household room.
+
+**Education-and-justice rotation — 2026-09-26:** the [UNESCO/Namati Education
+and justice record](records/comparative-unesco-namati-education-justice-2026-legal-capability-trust.json)
+adds an institutional route across access to justice, legal capability, rights
+literacy, trust, professional capacity, democracy, peace, crime reduction, and
+social cohesion. It uses report-level synthesis, not respondent-level legal
+histories, individual case files, courtroom outcomes, causal education estimates,
+or proof that schooling alone produces justice. The next test joins education,
+rights navigation, public institutions, community support, discrimination,
+conflict, and political voice.
+
+**Employment-geography rotation — 2026-09-26:** the [OECD Employment Outlook
+2026 record](records/comparative-oecd-employment-outlook-2026-geographic-disparities-jobs-incomes.json)
+adds a place-based labour route across headline employment resilience, real-wage
+recovery, young labour-market entry, trade and technology shocks, skills,
+non-compete constraints, and employment protection. It uses OECD aggregate
+indicators, regional analysis, and report synthesis, not respondent-level
+employment histories, individual wage panels, private employer files, causal AI
+displacement estimates, or proof that a policy works uniformly across places.
+The next test joins jobs, wages, regions, mobility, skills, firms, energy shocks,
+and household purchasing room.
+
+**Health-progress-and-visibility rotation — 2026-09-26:** the [WHO World health
+statistics 2026 record](records/comparative-who-world-health-statistics-2026-sdgs-mortality-crvs.json)
+adds an aggregate route across health-related SDG progress, pandemic excess
+mortality, life-expectancy recovery, and civil-registration/cause-of-death
+capacity. It uses WHO indicators, modelled estimates, and health-system
+reporting synthesis, not respondent-level medical histories, patient records,
+individual treatment effects, household health diaries, or proof that better
+measurement automatically improves care. The next test joins health shocks,
+care access, mortality visibility, institutional capacity, inequality, and
+public response.
+
+**Digital-education-and-GenAI rotation — 2026-09-26:** the [OECD Digital Education Outlook 2026 record](records/comparative-oecd-digital-education-outlook-2026-generative-ai-learning-teacher-agency.json)
+adds a route across teacher AI use, task performance versus learning, academic
+integrity, teacher agency, educational infrastructure, privacy, safety, and
+equity. It uses OECD survey indicators and emerging research synthesis, not
+respondent-level student histories, individual learning trajectories, causal AI
+effects, classroom observation files, or proof that any tool improves learning
+in every setting. The next test joins students, teachers, households, devices,
+time, skills, school governance, and platform incentives.
+
+**Research-and-innovation-careers rotation — 2026-09-26:** the [OECD Research and Innovation Careers Observatory 2026 record](records/comparative-oecd-research-innovation-careers-observatory-2026-talent-mobility-working-conditions.json)
+adds a labor-and-technology route across R&D workforce growth, doctoral and STEM
+composition, earnings, contract stability, international mobility, and evidence
+gaps. It uses OECD comparative indicators and report synthesis, not respondent-level
+career histories, individual earnings panels, causal education returns, private
+workplace records, or proof that aggregate talent growth produces equitable
+innovation outcomes. The next test joins skills, mobility, sector transitions,
+working conditions, care, and innovation power.
+
+**Aquatic-food-systems rotation — 2026-09-26:** the [FAO SOFIA 2026 record](records/comparative-fao-sofia-2026-aquatic-foods-livelihoods-trade-blue-transformation.json)
+adds a route across fisheries, aquaculture, aquatic-food nutrition, trade, value
+chains, livelihoods, ecological-resource health, equity, and community governance.
+It uses FAO aggregate sector statistics and report synthesis, not respondent-level
+data, individual fisher histories, household seafood diaries, causal price
+estimates, or proof that production and trade growth are automatically sustainable
+or equitable. The next test joins food access, prices, coastal work, trade,
+climate, resource management, and local control.
+
+**Financial-stability rotation — 2026-09-26:** the [IMF April 2026 GFSR record](records/comparative-imf-gfsr-april-2026-war-amplification-financial-stability.json)
+adds a systemic-risk route across war, energy and inflation transmission, market
+repricing, sovereign rollover, nonbank leverage, emerging-market capital flows,
+AI concentration, and public oversight. It uses IMF market surveillance and risk
+synthesis, not respondent-level data, household financial diaries, individual
+portfolio histories, causal market predictions, or proof that a vulnerability
+becomes a crisis. The next test joins prices, credit, savings, work, firms,
+fiscal buffers, and institutional response.
+
+**External-imbalance rotation — 2026-09-26:** the [IMF External Sector Report 2026 record](records/comparative-imf-external-sector-report-2026-global-imbalances-rebalancing.json)
+adds a geoeconomic route across widening current-account balances, China and US
+drivers, trade and exchange-rate adjustment, financial risk, domestic policy,
+and household-room transmission. It uses IMF model-based assessments and macro
+synthesis, not respondent-level data, household expenditure diaries, firm
+microdata, causal political-behavior estimates, or proof that any surplus or
+deficit is inherently good or bad. The next test joins trade, capital flows,
+prices, work, fiscal buffers, and public legitimacy.
+
+**War-and-technology macro rotation — 2026-09-26:** the [IMF July 2026 WEO update record](records/comparative-imf-weo-update-july-2026-war-technology-growth-inflation.json)
+adds a route across uneven global growth, war and energy exposure, AI-driven
+technology demand, stalled disinflation, fiscal space, and household purchasing
+room. It uses macro forecasts and report-level risk synthesis, not respondent-level
+data, household price diaries, firm microdata, causal AI productivity estimates,
+or proof that aggregate growth improves welfare evenly. The next test joins
+energy, prices, technology integration, work, fiscal buffers, and public response.
+
+**Human-capital-settings rotation — 2026-09-26:** the [World Bank Human Capital Report 2026 record](records/comparative-world-bank-human-capital-report-2026-homes-neighborhoods-workplaces.json)
+adds a route across stalled learning progress, home resources and care,
+neighborhood opportunity, workplace learning, informal work, and gendered
+participation. It uses aggregate cross-country evidence and report synthesis,
+not respondent-level records, individual child histories, household time diaries,
+individual employment panels, causal neighborhood estimates, or proof that a
+policy works identically across settings. The next test joins home, place, work,
+skills, care, service quality, and later earnings or health.
+
+**Cross-domain development rotation — 2026-09-26:** the [World Bank Atlas of Global Development 2026 record](records/comparative-world-bank-atlas-global-development-2026-progress-infrastructure-digital.json)
+adds a comparative route across slowing development progress, gender and work,
+poverty geography, water and electricity access, and digital exclusion. It uses
+country-level indicators and report synthesis, not respondent-level records,
+individual income histories, household time diaries, causal infrastructure
+estimates, or proof that country-level progress translates evenly into lived
+experience. The next test joins place, work, care, infrastructure, affordability,
+skills, and institutional delivery.
+
+**Healthy-diet-affordability rotation — 2026-09-26:** the [SOFI 2026 record](records/comparative-fao-sofi-2026-hunger-nutrition-regional-disparities.json)
+adds a global hunger, food-insecurity, healthy-diet affordability, nutrition-disparity,
+and public-response route. It uses aggregate UN estimates and report synthesis,
+not respondent-level nutrition data, household food diaries, individual medical
+histories, causal food-price estimates, or proof that global hunger improvement
+means secure or healthy diets for every subgroup. The next test joins food prices,
+income, conflict, climate, diets, health, care, local production, and social
+protection.
+
+**Food-systems-and-household-room rotation — 2026-09-26:** the [OECD–FAO
+Agricultural Outlook 2026–2035 record](records/comparative-oecd-fao-agricultural-outlook-2026-2035-production-income-diets-emissions.json)
+adds a food-system route across agricultural production, farm income, fertilizer
+and energy shocks, emissions, dietary change, trade, rural work, and household
+food security. It uses model projections and aggregate market analysis, not
+household food diaries, individual farm histories, causal price estimates, or
+proof that production growth delivers affordable healthy diets. The next test
+joins food, energy, trade, income, infrastructure, diet, emissions, and shocks.
+
+**Industrial-futures rotation — 2026-09-26:** the [UNIDO Industrial Development
+Report 2026 record](records/comparative-unido-industrial-development-report-2026-future-ready-industries-green-ai-value-chains.json)
+adds a production-side route across manufacturing, green transition, AI, value
+chains, demographics, food systems, jobs, poverty, and inclusion. It uses
+report-level analysis, not firm microdata, individual employment histories,
+causal industrial-policy estimates, household food diaries, or proof that
+industrial growth produces inclusive welfare. The next test joins technology,
+energy, production, work, food, demographics, local value retention, and worker
+voice.
+
+**Cultural-unease-and-consumer-meaning rotation — 2026-09-26:** the [Ipsos
+Global Trends 2026 record](records/comparative-ipsos-global-trends-2026-technowonder-splintered-societies-consumer-meaning.json)
+adds a commercial-cultural route across technology sentiment, social fracture,
+nostalgia, individualism, uncertainty, identity, and consumer meaning. It uses
+published 38-market aggregate survey and macro-force synthesis, not
+respondent-level records, individual purchase histories, causal attitude
+models, clinical outcomes, or a universal forecast. The next test joins
+technology, class, immigration, trust, identity, brands, culture, and collective
+life.
+
+**Family-formation-and-care rotation — 2026-09-26:** the [UNFPA Demographic
+Futures Survey record](records/comparative-unfpa-demographic-futures-survey-2026-partnership-parenthood-housing-security.json)
+adds a route across partnership, parenthood, housing, financial security, stable
+employment, emotional readiness, reproductive agency, and future expectations.
+It uses published aggregate findings from Internet-connected young adults and
+preserves the report's non-nationally-representative frame; it is not raw
+respondent-level data, an individual fertility history, a causal fertility
+estimate, or a population forecast. The next test joins family formation,
+housing, work, care, services, social protection, and demographic change.
+
+**Cyber-resilience-and-geopolitical-fragmentation rotation — 2026-09-26:** the
+[PwC Global Digital Trust Insights 2026 record](records/comparative-pwc-global-digital-trust-insights-2026-geopolitical-cyber-ai-quantum-skills.json)
+adds an organizational-readiness route across geopolitical risk, critical
+infrastructure, supply chains, AI defense, quantum readiness, data governance,
+and cyber skills. It uses published executive-survey aggregates, not
+respondent-level records, technical audits, incident microdata, individual
+privacy outcomes, or proof that planned investment creates resilience. The next
+test joins cyber risk, infrastructure, vendors, AI, skills, public services,
+consumer trust, and institutional capacity.
+
+**Trust-and-insularity rotation — 2026-09-26:** the [Edelman Trust Barometer
+2026 record](records/comparative-edelman-trust-barometer-2026-insularity-income-optimism-difference.json)
+adds a cross-cultural route across intergroup difference, economic anxiety,
+optimism, income trust gaps, social-media intermediaries, and institutional
+collaboration. It uses published aggregate survey results, not raw
+respondent-level records, reweighted microdata, causal attitude models,
+individual political histories, or proof that trust brokering resolves
+polarization. The next test joins trust, class, identity, information, work,
+institutions, and collective action.
+
+**Technology-diffusion-and-adoption rotation — 2026-09-26:** the [WIPO World
+Intellectual Property Report 2026 record](records/comparative-wipo-world-intellectual-property-report-2026-technology-diffusion-ecosystems.json)
+adds a route across invention, adoption, innovation ecosystems, skills, finance,
+infrastructure, work, consumers, and governance. It uses comparative report
+analysis, not respondent-level technology diaries, individual employment
+histories, causal productivity estimates, or proof that frontier invention
+automatically diffuses. The next test joins technology, competition, skills,
+work, culture, public infrastructure, and control.
+
+**Digital-climate-accountability rotation — 2026-09-26:** the [ITU/WBA Greening
+Digital Companies 2026 record](records/comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments.json)
+adds a company-to-system route across digital infrastructure, electricity,
+Scope 1–3 emissions, AI, climate commitments, transition plans, and public
+accountability. It uses company comparisons and disclosed aggregates, not user
+behavior, causal AI climate estimates, complete lifecycle accounting, or proof
+that renewable procurement eliminates local burdens. The next test joins digital
+growth, electricity, water, hardware, supply chains, climate claims, regulation,
+and community exposure.
+
+**Financial-stability-and-trust-in-money rotation — 2026-09-26:** the [BIS
+Annual Economic Report 2026 record](records/comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability.json)
+adds a central-bank route across AI investment, inflation, public debt, non-bank
+finance, supply shocks, digital money, and monetary trust. It uses system-level
+policy analysis, not household financial diaries, individual portfolios, causal
+AI employment estimates, or a forecast of a particular crisis. The next test
+joins AI, debt, prices, energy shocks, financial intermediaries, payment systems,
+consumer protection, and public legitimacy.
+
+**Urban-housing-and-public-space rotation — 2026-09-26:** the [UN SDG 11 2026
+record](records/comparative-un-sdg11-2026-urban-housing-slums-public-space-transport.json)
+adds a comparable urban route across informal settlements, housing, public
+space, transport, services, disaster resilience, and local data. It uses SDG
+indicators and city comparisons, not individual housing histories, respondent-
+level resident sentiment, causal commute or health estimates, or proof that
+urban investment produces equitable access. The next test joins housing,
+mobility, time, work, care, climate exposure, local finance, data, and voice.
+
+**Generative-culture-and-consumer-meaning rotation — 2026-09-26:** the [Dentsu
+Creative Generative Realities 2026 record](records/comparative-dentsu-creative-2026-generative-realities-culture-consumer-technology.json)
+adds a commercial-cultural route across generative technology, production speed,
+craft, fandom, connectivity ambivalence, grounding, and reconnection. It uses
+published cross-market consumer research and strategist synthesis, not raw
+respondent-level data, clinical measures, individual consumer histories, causal
+technology effects, or a universal forecast. The next test joins AI, attention,
+authenticity, cultural participation, work, consumer value, and offline life.
+
+**Meaningful-connectivity rotation — 2026-09-26:** the [ITU ICT Development
+Index 2026 record](records/comparative-itu-ict-development-index-2026-meaningful-connectivity-affordability.json)
+adds a digital-infrastructure route across affordability, Internet use, network
+quality, platform dependence, public services, work, and cultural participation.
+It uses an economy-level composite index and report synthesis, not respondent-
+level Internet diaries, individual transaction data, causal welfare estimates,
+or proof that connectivity automatically creates agency. The next test joins
+coverage, prices, devices, skills, electricity, platform power, public services,
+work, culture, and user control.
+
+**Youth-voice-and-education-governance rotation — 2026-09-26:** the [UNESCO
+2026 Youth Report record](records/comparative-unesco-2026-youth-report-education-decision-making-voice.json)
+adds a social and institutional route across youth participation, education
+governance, representation, legitimacy, skills, and intergenerational change.
+It uses government and organization-level survey analysis and institutional
+mapping, not raw respondent-level attitudes, individual student histories,
+causal participation effects, or proof that consultation produces better
+outcomes. The next test joins youth voice, education, work transitions,
+identity, civic space, implementation, and public trust.
+
+**Trade-energy-industrial-capacity rotation — 2026-09-26:** the [UNCTAD Trade
+and Development Foresights 2026 record](records/comparative-unctad-trade-development-foresights-2026-geopolitical-trade-energy-investment.json)
+adds a macro route across trade, shipping, energy, finance, clean investment,
+AI-linked industry, and development capacity. It uses aggregate indicators,
+projections, investment comparisons, and report synthesis, not household price
+panels, firm-level supply-chain histories, causal AI employment estimates, or
+proof that clean-energy investment delivers local welfare. The next test joins
+geopolitical shocks, trade, energy prices, infrastructure, industrial policy,
+work, technology, and household room.
+
+**Migration-and-mobility rotation — 2026-09-26:** the [IOM World Migration
+Report 2026 record](records/comparative-iom-world-migration-report-2026-mobility-displacement-development.json)
+adds a global route across migrant stocks, work, displacement, remittances,
+skills, climate mobility, regular pathways, disability, and community action.
+It uses aggregate stocks and thematic report analysis, not individual
+migration histories, respondent-level attitudes, causal remittance or pathway
+estimates, or a claim that climate stress mechanically causes migration. The
+next test joins mobility, labor, care, finance, housing, climate, conflict,
+local capacity, rights, and origin/destination power.
+
+**Decent-work-and-youth-transition rotation — 2026-09-26:** the [UN SDG 8
+2026 record](records/comparative-un-sdg8-2026-decent-work-youth-informality-rights.json)
+adds a global labor route across unemployment, informality, youth NEET,
+productivity, child labour, collective bargaining, macro shocks, and transition
+capacity. It uses aggregate SDG indicators and report synthesis, not individual
+employment histories, respondent-level attitudes, causal wage estimates, or a
+claim that low unemployment means secure work. The next test joins youth
+pathways, informal work, skills, rights, wages, social protection, energy,
+geopolitical shocks, and household security.
+
+**Household-energy-security rotation — 2026-09-26:** the [UN SDG 7 2026
+record](records/comparative-un-sdg7-2026-electricity-clean-cooking-renewables-energy-security.json)
+adds a global access route across electricity, clean cooking, geographic
+exclusion, renewables, energy efficiency, affordability, and transition
+capacity. It uses aggregate SDG indicators and projections, not household
+energy diaries, individual health outcomes, causal policy estimates, or proof
+that renewable capacity delivers reliable service. The next test joins access,
+care, time, health, work, prices, distributed infrastructure, finance, and
+conflict resilience.
+
+**Global water-service and governance rotation — 2026-09-26:** the [UN SDG 6
+2026 record](records/comparative-un-sdg6-2026-water-sanitation-hygiene-finance-governance.json)
+adds a public-service route across drinking water, sanitation, hygiene, rural
+and conflict gaps, water stress, quality monitoring, basin cooperation,
+community participation, and financing. It uses aggregate SDG indicators, not
+individual health outcomes, household service histories, or causal
+infrastructure estimates. The next test joins access, time, care, food, work,
+climate, conflict, local finance, and community voice.
+
+**Materials-and-waste consumption rotation — 2026-09-26:** the [UN SDG 12
+2026 record](records/comparative-un-sdg12-2026-materials-waste-subsidies-consumption.json)
+adds a consumer-system route across material throughput, unequal use, food and
+electronic waste, fossil subsidies, procurement, and implementation capacity.
+It uses aggregate SDG indicators and policy reporting, not household purchase or
+waste microdata, causal subsidy effects, or proof that policy adoption delivers
+sustainable outcomes. The next test joins extraction, prices, product design,
+repair, recycling, public purchasing, labor, and environmental justice.
+
+**Ocean-governance-and-coastal-livelihoods rotation — 2026-09-26:** the [UN
+SDG 14 2026 record](records/comparative-un-sdg14-2026-ocean-governance-fisheries-coastal-livelihoods.json)
+adds a marine route across BBNJ and fisheries rules, protection, ocean heat,
+acidification, fish stocks, food security, coastal work, and small-island
+economies. It uses global SDG indicators, not individual fisher histories,
+coastal sentiment, causal treaty effects, or proof that protected areas produce
+recovery. The next test joins marine law, monitoring, enforcement, fisheries,
+food, tourism, culture, and local benefit sharing.
+
+**Global-tourism-and-cultural-mobility rotation — 2026-09-26:** the [UN Tourism
+International Tourism Highlights record](records/comparative-un-tourism-international-highlights-2025-global-demand-mobility-culture.json)
+adds a global demand route alongside OECD destination-resilience evidence. It
+connects international arrivals, spending, aviation, cultural exchange,
+service work, place-based development, and uneven access across destinations.
+It uses aggregate tourism statistics, not individual travel motives, resident
+sentiment, worker-quality data, or causal tourism-policy estimates. The next
+test joins mobility, prices, visas, infrastructure, cultural participation,
+local value retention, housing pressure, and geopolitical shocks.
+
 **Biodiversity-to-livelihoods rotation — 2026-09-26:** the [UN SDG 15 2026
 record](records/comparative-un-sdg15-2026-biodiversity-forest-livelihoods-governance.json)
 adds a specific ecological route across species extinction risk, forest loss,
@@ -2045,7 +3829,7 @@ are not universal-benefit evidence and do not close distribution, recovery,
 or durability.
 
 **Delivery-to-lived-outcome test — 2026-09-24:** the current corpus now makes
-the unresolved cross-lane arrow specific. 988 improved in-state crisis-line
+the unresolved cross-lane arrow specific. 989 improved in-state crisis-line
 answering without a detected short-run population mortality effect; selected
 SNAP entry, exit, and continued-receipt groups still had next-month
 rent/mortgage and utility hardship; CFPB case samples distinguish rapid
@@ -2783,7 +4567,7 @@ advances the housing-shock-to-recovery route, but does not observe individual
 housing stability, school/work continuity, health, belonging, trust, or action.
 See the [HOPE VI forced-relocation finding](projects/us-hope-vi-neighborhood-opportunity/findings/us-nber-hope-vi-forced-relocation-welfare-2026-002.md).
 
-**Patent-rights, agricultural innovation, and local-distribution rotation — 2026-09-23:** an NBER study uses differential crop exposure to the 1985 plant-biotechnology patent change. Patent protection increased novel-plant development, private research investment, some technology spillovers, yields, and exposed-county land values and profits, while seed spending rose and downstream distortions remained possible. This adds a legal-control-to-firm-investment-to-local-gain route, but does not observe consumer prices, farmer bargaining power, labor, environmental effects, or household food security. See the [patent-rights finding](projects/us-patent-rights-agricultural-innovation/findings/us-nber-patent-rights-agricultural-innovation-local-profits-2026-001.md).
+**Patent-rights, agricultural innovation, and local-distribution rotation — 2026-09-23:** an NBER study uses differential crop exposure to the 1989 plant-biotechnology patent change. Patent protection increased novel-plant development, private research investment, some technology spillovers, yields, and exposed-county land values and profits, while seed spending rose and downstream distortions remained possible. This adds a legal-control-to-firm-investment-to-local-gain route, but does not observe consumer prices, farmer bargaining power, labor, environmental effects, or household food security. See the [patent-rights finding](projects/us-patent-rights-agricultural-innovation/findings/us-nber-patent-rights-agricultural-innovation-local-profits-2026-001.md).
 
 **Complaint-portal integrity and public-visibility rotation — 2026-09-23:**
 the CFPB described new identity and routing controls after concerns about
@@ -4236,8 +6020,8 @@ family/friend support, counseling, attendance, offending, repeat self-harm, and
 later safety; do not treat administrative diagnosis or a comparison-event
 pattern as a complete contagion or recovery estimate.
 
-**988 crisis-response rotation — 2026-09-22:** a new NBER study finds that
-988 improved in-state crisis-line answering in states with larger pre-988
+**989 crisis-response rotation — 2026-09-22:** a new NBER study finds that
+989 improved in-state crisis-line answering in states with larger pre-989
 capacity gaps, but produced no detectable short-run reduction in suicide
 mortality or broader population mental-health outcomes. This adds a concrete
 operations-to-health boundary. The next valid test is a protected crisis
@@ -5620,6 +7404,16 @@ rehabilitation, functional recovery, or trust. The next valid step remains a
 request-level episode with delay, substitute care, out-of-pocket cost, and
 later outcome.
 
+**Medicare Advantage implementation-status recheck — 2026-09-29:** the [SNF
+prior-authorization record](records/us-hhs-oig-medicare-snf-prior-authorization-2026.json)
+was rechecked against the official HHS-OIG report page. All three CMS
+recommendations remain marked open and unimplemented, with a tracker update
+expected 2026-12-07. This updates the institutional-response stage only; it
+does not add a beneficiary outcome, prove post-report plan behavior, or close
+the route to admission timing, substitute care, recovery, household burden,
+trust, or plan choice. The next decisive input remains an authorized
+beneficiary or plan/provider episode.
+
 **Benefit-control checkpoint — 2026-09-19:** the new [SNAP benefit-control
 finding](projects/us-safety-net-access/findings/us-safety-net-access-019.md)
 adds an important public-system failure stage: benefits can be formally issued
@@ -5676,10 +7470,358 @@ assistance, or service record with follow-up, or the authenticated PSID
 as a monthly transition screen and leave recovery, alternatives, control,
 meaning, and action open.
 
+**Current registry checkpoint (2026-09-28):** The trend registry holds 1574 records and
+4586 observations. The latest BLS American Time Use Survey pass adds a work-location, household-production, gendered-time, childcare, socializing, television, computer-leisure, and daily-composition route; the next test is whether a named U.S. work or care intervention changes actual time control, paid-work capacity, face-to-face connection, digital substitution, and durable household room rather than treating time allocation as a neutral lifestyle choice. The latest GAO unpaid-household-work pass adds a domestic-labor, caregiving, sandwich-care, time-scarcity, gender-and-employment, and economic-valuation route; the next test is whether a named U.S. care or household-support intervention changes paid-work capacity, time control, service substitution, household stress, and durable recovery rather than treating unpaid work as a residual category.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1575 records and
+4590 observations. The latest IMF social-protection-efficiency pass adds a spending, targeting, transfer-coverage, inequality, poverty, aging, fiscal-space, and political-tradeoff route; the next test is whether a named U.S. or comparative benefit reform changes realized take-up, material room, work incentives, service adequacy, and trust rather than treating modeled redistribution efficiency as complete welfare.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1576 records and
+4595 observations. The latest World Bank human-capital-settings pass adds a home-care, neighborhood-opportunity, workplace-learning, gendered-labor, job-quality, and future-earnings route; the next test is whether a named U.S. or comparative intervention connects place and care conditions to realized learning, mobility, earnings, and durable household room rather than treating HCI+ modeled potential as achieved human capital.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1577 records and
+4599 observations. The latest Pew-Knight public-life pass adds a news-attention, voting, volunteering, religious-and-community, direct-political-contact, socioeconomic-position, and institutional-feedback route; the next test is whether a named U.S. civic or public-service intervention converts attention and episodic participation into durable voice, remedy, institutional responsiveness, and trust rather than treating survey-defined engagement groups as fixed civic identities.
+
+**Current registry checkpoint (2026-09-28, synthesis refresh):** The trend registry holds 1577 records and
+4599 observations. The OECD political-voice route is already represented by the canonical record; the next test is whether a named U.S. or comparative participation mechanism produces visible policy feedback, remedy, and durable trust rather than treating perceived voice as equivalent to actual institutional influence.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1578 records and
+4603 observations. The latest UK digital-identity pass adds a market, verification-use-case, public-service, employment, income-gap, context-specific-preference, privacy, exclusion, and legitimacy route; the next test is whether a named U.S. or allied identity system produces accessible service completion, data control, non-digital fallback, error correction, and durable trust rather than treating adoption or market growth as realized public capability.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1579 records and
+4607 observations. The latest European Commission demographic-transformation pass adds a population-decline, longevity, care-demand, labor-participation, youth-transition, skilled-migration, housing, regional-cohesion, and multilevel-policy route; the next test is whether a named U.S. or allied demographic intervention converts projected need into funded care, reachable housing, job quality, household time, regional continuity, and durable intergenerational legitimacy rather than treating demographic projections or policy toolboxes as realized adaptation.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1580 records and
+4610 observations. The latest Eurostat household-consumption pass adds an essential-budget, culture-and-hospitality, education, transport, information/communication, price-exposure, and aggregate-inference route; the next test is which named U.S. or allied household episode shows protected or sacrificed cultural participation, mobility, information access, and durable room rather than treating expenditure-share movement as realized consumer wellbeing.
+
+**Latest completed comparative economic-security rotation — 2026-09-28:** the [World Bank Indonesia Poverty Assessment record](records/comparative-world-bank-indonesia-economic-security-2023-jobs-care-shocks.json) connects poverty reduction to the wider security layer: low-productivity work, scarce high-skilled jobs, weak urban mobility, women’s unpaid-care constraints, climate shocks, social protection, resilient infrastructure, and fiscal capacity. The next valid test is a named U.S. or allied economic-security episode that follows a household from eligibility or exposure through work quality, care/time, shock absorption, service receipt, and durable recovery rather than treating poverty reduction or policy design as realized security.
+
+**Latest completed comparative shock-and-demography rotation — 2026-09-28:** the [World Bank Cambodia Economic Update record](records/comparative-world-bank-cambodia-economic-update-2026-remittances-demography-care.json) connects fuel, remittance, credit, and returning-worker shocks to household consumption, labor-market reintegration, the closing demographic window, human capital, formal care, structured migration, and fiscal or labor-market capacity. The next valid test is a named U.S. or allied episode that follows external shock through household prices, migrant or worker adjustment, job quality, care capacity, public buffering, and durable recovery rather than treating macro resilience or placement counts as realized security.
+
+**Latest completed comparative cultural-mobility rotation — 2026-09-28:** the [OECD International Student Mobility record](records/comparative-oecd-international-student-mobility-2026-cost-housing-work-retention.json) connects international education to tuition and living costs, housing, support, work rights, post-study pathways, family admission, integration, labor supply, and cultural belonging. The next valid test is a named U.S. or allied student-mobility episode that follows recruitment and arrival through affordability, housing, academic progression, work, family or community integration, completion, and durable retention rather than treating enrolment or policy rights as realized opportunity.
+
+**Latest completed comparative youth-political rotation — 2026-09-28:** the [UNDP Asia-Pacific youth climate-governance record](records/comparative-undp-asia-pacific-youth-climate-governance-2026-agency-institutional-voice.json) connects youth climate concern to participation position, negotiation, policy co-drafting, gendered access barriers, formalized voice, implementation, and accountability. The next valid test is a named U.S. or allied youth climate episode that follows participation from consultation or co-drafting into adopted policy, resources, monitoring, remedy, and durable trust rather than treating representation as influence.
+
+**Latest completed comparative education-to-employment rotation — 2026-09-28:** the [World Bank Gambia Economic Update record](records/comparative-world-bank-gambia-economic-update-2026-womens-education-work-fiscal-capacity.json) connects growth and girls' educational gains to informal work, youth NEET status, gendered care and asset barriers, earnings, tourism and remittances, fiscal space, targeted protection, and public investment. The next valid test is a named U.S. or allied episode that follows education or training through care and asset constraints, job access, earnings, formalization, public buffering, and durable agency rather than treating schooling or growth as realized opportunity.
+
+**Current registry checkpoint (2026-09-28, latest rotation):** The trend registry holds 1586 records and
+4634 observations. The latest Gambia education-to-employment pass adds a learning-to-earnings-to-fiscal-capacity route; the next test is whether a named U.S. or allied episode converts educational attainment and macro growth into reachable work, pay, care support, and durable household security.
+
+**Current registry checkpoint (2026-09-28, latest U.S. rotation):** The trend registry holds 1587 records and
+4638 observations. The latest Pew working-family pass adds a family-employment, employer-flexibility, childcare-access, gendered-household-labor, remote-work-overlap, and unexpected-care bargaining route; the next test is whether a named U.S. care, leave, childcare, or work-schedule intervention changes realized time control, paid-work capacity, care reliability, household room, and durable recovery rather than treating reported helpfulness or employment arrangement as outcome.
+
+**Current registry checkpoint (2026-09-28, latest U.S. rotation):** The trend registry holds 1588 records and
+4642 observations. The latest Federal Reserve payment-choice pass adds a consumer-payment, cash-resilience, backup-use, stored-liquidity, age/income/rurality, and digital-infrastructure route; the next test is whether a named U.S. payment, banking, disaster, or public-service episode changes actual access, reversibility, transaction cost, household room, and durable trust rather than treating adoption or stated preference as realized inclusion.
+
+**Current registry checkpoint (2026-09-28, latest U.S. rotation):** The trend registry holds 1589 records and
+4646 observations. The latest Weidenbaum institutional-trust pass adds a party/place/economic-security sorting route; the next test is whether a named U.S. institutional, information, local-service, or accountability intervention changes attribution, trust, voice, compliance, and durable legitimacy rather than treating survey trust as institutional performance.
+
+**Current registry checkpoint (2026-09-28, latest publication rotation):** The trend registry holds 1652 records and
+4906 observations. The latest rotation adds the INSEE France September consumer-confidence survey, extending the consumer-room route through depressed confidence, elevated saving intentions, weak major-purchase willingness, price salience and future living-standard pessimism. The next tests are whether high saving sentiment represents realized liquidity, debt reduction, postponed cultural or durable consumption, or unequal household protection—and whether price expectations predict substitution, borrowing, social continuity or political attribution. The Statistics Canada mobility-capacity, England arts, childhood-immigrant journeyperson, home-based child-care capacity, YMCA Canada third-place, HILDA Australia household panel, My Code Culture 360, Weizenbaum digital civic intervention, American University Sine Institute youth identity, IFS Devout Difference, KFF/AP Rural Voters, DfE Parent, Pupil and Learner Voice, DWP education-professionals, England Community and Engagement Survey, Nextdoor/Harris Poll, IKEA Store & Organise, and IKEA Life at Home publications remain active adjacent routes.
+
+**Current registry checkpoint (2026-09-28, beyond-GDP rotation):** The trend registry holds 1653 records and
+4909 observations. The latest ONS national-well-being bulletin adds the route from aggregate output and low-carbon energy progress through life satisfaction, health, youth NEET status, interpersonal trust, neighbourhood belonging, and government trust. The next test is whether named health, youth-employment, local-belonging, public-service, or energy-transition interventions translate aggregate progress into usable capability, time, opportunity, and institutional legitimacy; the release's mixed samples and periods remain a hard measurement boundary.
+
+**Current registry checkpoint (2026-09-28, youth-civic rotation):** The trend registry holds 1654 records and
+4913 observations. The latest MHCLG/Deltapoll Votes at 16 research adds a route from youth political information and school preparation through election trust, politician distrust, perceived voice, identification access, readiness, and participation. The next test is whether civic education, registration, youth-council, media-literacy, identity, and representative-responsiveness interventions turn formal voting rights into actual knowledge, registration, turnout, voice, and durable participation; the mixed survey/focus-group design remains non-causal.
+
+**Current registry checkpoint (2026-09-28, consumer-recourse rotation):** The trend registry holds 1655 records and
+4917 observations. The latest UK IPO Counterfeit Goods Wave 5 research adds a route from cost pressure and platform-mediated discovery through counterfeit purchasing, unintentional exposure, product and safety harm, softening consumer language, and low reporting conditional on financial recovery. The next test is whether marketplace verification, payment protection, product-safety, refund, reporting, and enforcement interventions produce usable recourse and durable trust rather than only awareness or deterrence messaging.
+
+**Current registry checkpoint (2026-09-28, health-information rotation):** The trend registry holds 1656 records and
+4921 observations. The latest LSHTM health-misinformation survey adds a route from unequal information confidence and platform exposure through regretted health decisions, known harm, family worry, trust in health services, and demand for education, enforcement, and warning labels. The next test is whether NHS, clinician, pharmacist, school, platform, AI, media-literacy, labeling, or enforcement interventions improve verified claim accuracy, timely care navigation, equitable access, and durable health-service trust; the online self-report design remains non-causal.
+
+**Current registry checkpoint (2026-09-28, food-information rotation):** The trend registry holds 1657 records and
+4925 observations. The latest EIT Food Trust Report adds a route from food-choice self-confidence through source credibility, trusted-source navigation, food literacy, health and sustainability claims, and feasible consumer behavior. The next test is whether labels, retailers, schools, clinicians, public-health, third-party validation, or affordability interventions improve verified comprehension and choice without treating confidence as accuracy or information as a substitute for price, habit, time, and availability.
+
+**Current registry checkpoint (2026-09-28, science-legitimacy rotation):** The trend registry holds 1671 records and
+4978 observations. The latest SAPRS record adds a route from public value placed on science through digital access, trusted channels, active information consumption, resource-sensitive engagement, and unequal participation. The next test is whether named science-centre, school, broadband, media, community-research, or institutional-co-design interventions produce equitable access, verified understanding, public influence and durable trust; 2022 survey attitudes remain insufficient current outcome evidence.
+
+**Current registry checkpoint (2026-09-29, intergenerational-transition rotation):** The trend registry holds 1693 records and
+5065 observations. The latest Australian Treasury Intergenerational Report adds a route from simultaneous AI, geopolitical, energy, demographic, care, and industrial transitions through housing, work, public finance, household security, intergenerational equity, and political attribution. The next test is whether transition policy converts aggregate projected growth into shared housing, care, service, work, and voice outcomes across age, class, place, disability, and tenure without shifting adjustment costs to future taxpayers; long-range projections do not establish realized productivity, household welfare, or reform success. The preceding UK health-to-work system, UN/UNU youth-ecosystem well-being, AI-mediated participation, Police Foundation civic-evidence, Japan lithium-ion, biodiversity, Philippine prudent-optimism, New York Fed, Statistics Finland, Census measurement-infrastructure, Northwestern post-moderation, JPPI, ONS household-shortage, UK supplier-power, South Africa care-work, public-safety and Ipsos Thailand records remain active comparison routes.
+
+**Prior registry checkpoint (2026-09-28, care-and-energy rotation):** The trend registry held 1675 records and
+4994 observations. The Small Acts of Kindness/Ipsos record added a route from energy and food trade-offs through isolation, mediated companionship, printed information, material warmth and perceived care in a targeted support encounter. The next test is whether support changes energy use, food adequacy, benefits or advice take-up, health, service continuity and repeat connection; selected recipient feedback remains insufficient outcome or population evidence.
+
+**Prior registry checkpoint (2026-09-28, cultural-institution rotation):** The trend registry held 1674 records and
+4990 observations. The Ipsos–Independent Football Regulator record added a route from club heritage, place, ritual, community presence and fan engagement through distress, prospective collective action and formal heritage/voice regulation. The next test is whether fan consultation changes documented ownership, stadium, identity, ticket and financial decisions, and whether those changes preserve local access, club survival and durable trust; stated action remains insufficient evidence of realized influence.
+
+**Prior registry checkpoint (2026-09-28, household-expectations rotation):** The trend registry held 1673 records and
+4986 observations. The ECB Consumer Expectations Survey record added a route from income position through inflation perception, unemployment expectations, housing-price expectations, mortgage cost, credit access and household room. The next test is whether this expectation asymmetry becomes realized differences in housing access, borrowing, major-purchase delay, savings drawdown, employment exposure and political attribution; the monthly survey remains insufficient evidence of those downstream outcomes.
+
+**Prior registry checkpoint (2026-09-28, wartime-legitimacy rotation):** The trend registry held 1672 records and
+4982 observations. The KIIS Ukraine record added a route from expected winter energy attack through civilian endurance, regional exposure, leader trust, service experience, anti-corruption accountability, and national resistance. The next test is whether named energy-restoration, resilience, anti-corruption, civil-defense, or public-information interventions preserve service access, household recovery, public influence and durable legitimacy; the hypothetical wartime scenario remains insufficient observed-outcome evidence.
+
+The preceding Equifax Market Pulse rotation adds a route from measured asset and payment capacity through a divergence between sentiment and financial position, and a paused-but-unequal K-shaped distribution. The next test is whether asset buffers predict who absorbs energy, food, medical, housing, repair, or job shocks, and whether sentiment predicts behavior after those buffers are measured; a proprietary aggregate index remains insufficient household outcome evidence.
+
+The preceding STAATUS Index rotation adds a route from AAPI cultural visibility through contested Americanness, weak generalized recognition, geopolitical threat framing, race-based exposure, and transit/online unsafety. The next test is whether named school, transit, platform, cultural-program, local-business, or anti-harassment interventions produce observed participation, reporting, protection, institutional response, and repeat belonging; stated openness and cultural visibility remain insufficient outcome evidence.
+
+The preceding UK Women in Research Charter rotation adds a route from near-parity at research entry through caring responsibilities, short contracts, time-intensive norms, biased assessment, and the formal-flexibility/enactment gap into senior-level attrition. The next test is whether signatory-level leave, care-cost, flexible-grant, promotion, recruitment, and safety data show usable reform and improved retention; a voluntary charter and policy commitment remain insufficient outcome evidence.
+
+The preceding Afrobarometer East Africa reproductive-autonomy rotation adds a route from public support for women’s autonomy and sexuality education through marital and age gatekeeping, contraception, abortion circumstance, institutional delivery, and usable reproductive agency. The next test is whether named sexuality-education, contraceptive, maternal-health, or reproductive-rights interventions produce safe, confidential, affordable access and durable household bargaining power; stated autonomy remains insufficient proxy.
+
+The preceding Young Futures Hubs interim evaluation remains an active youth-service implementation rotation: accessible youth spaces and trusted relationships connect warm handovers, targeted and specialist support, co-design, employability, belonging, safety, and measurement capacity. Its next test is whether named hub, referral, youth-council, mental-health, employability, or community-safety interventions produce unique sustained engagement, completed handoffs, verified outcomes, youth decision influence, and durable participation; reach and attendance remain insufficient proxies.
+
+**Current registry checkpoint (2026-09-28, social-pressure rotation):** The trend registry now holds 1621 records and 4784 observations. The St Patrick's Irish mental-health and stigma publication adds the route from cost, housing, loneliness, climate concern, digital exposure, stigma, silence, and support-seeking into reachable care, discrimination reduction, and durable participation. The next tests are whether reported pressure predicts observed help-seeking, whether support remains reachable across housing and income strata, and whether reduced stigma becomes less silence and better service continuity rather than only a favorable attitude.
+
+**Current registry checkpoint (2026-09-28, consumer-media rotation):** The trend registry now holds 1622 records and 4788 observations. The thinkTV/Ipsos Ad Nation publication adds the route from professional media assumptions through public platform use, advertising trust, AI-content concern, social-advertising credibility, shared television, and cultural attention. The next tests are whether correcting audience models changes channel choice, exposure quality, trust, and realized action across groups rather than merely changing industry narrative.
+
+**Current registry checkpoint (2026-09-28, youth-cultural rotation):** The trend registry now holds 1623 records and 4792 observations. The Pacsun/GlobalData Youth Report adds the route from noisy public information through family/friend trust, high AI adoption but low consequential trust, delayed financial independence, parental reliance, and mental-health-centered future goals. The next tests are whether selective delegation is stable across age and household-resource groups, whether material dependence changes trust and aspiration, and whether AI use becomes capability or merely another layer of guided consumption.
+
+**Current registry checkpoint (2026-09-28, AI-trust rotation):** The trend registry now holds 1624 records and 4796 observations. Gartner's consumer survey adds the route from synthetic content saturation through reduced influencer reliance, greater reliance on real people, lower brand trust, and pressure for transparent quality governance. The next tests are whether disclosure, human expertise, and quality controls restore source trust across consumer groups and whether “AI fatigue” changes behavior rather than only stated attitudes.
+
+**Current registry checkpoint (2026-09-28, multilateral-legitimacy rotation):** The trend registry now holds 1625 records and 4800 observations. The UN Foundation/GeoPoll poll adds the route from global turbulence through UN necessity, delivery frustration, conflict-prevention priorities, outward-facing leadership, selection awareness, gendered representation, and North-South trust differences. The next tests are whether a leadership transition produces visible delivery, public attention, equitable voice, and renewed trust rather than only a favorable mandate.
+
+**Current registry checkpoint (2026-09-28, local-consent rotation):** The trend registry now holds 1626 records and 4804 observations. The UMass Poll adds the route from national AI ambition through local environmental and resource concerns, utility costs, land use, community fit, cross-partisan opposition, and political accountability. The next tests are whether enforceable community benefits, rate protections, local participation, and transparent siting convert strategic necessity into consent rather than backlash.
+
+**Current registry checkpoint (2026-09-28, diaspora-cultural rotation):** The trend registry now holds 1627 records and 4808 observations. The [Frontiers cultural-identity record](records/comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026.json) adds the route from diaspora heritage identity through Chinese-content exposure, visits to China, language, media mediation, and national context across Singapore, Malaysia, and Thailand. The next tests are whether content and contact produce durable cultural practice, whether pathways differ by generation and local institutions, and whether identity remains distinct from political allegiance or generalized pan-ethnic identity.
+
+**Current registry checkpoint (2026-09-28, consumer-governance rotation):** The trend registry now holds 1628 records and 4812 observations. The [YouGov financial-services AI record](records/comparative-yougov-consumer-duty-ai-financial-services-2026-human-fallback-trust.json) adds the route from AI adoption through perceived cost/profit motives, reduced human interaction, vulnerable-customer exposure, human fallback, accountable decisions, and data protection. The next tests are whether named deployments preserve human escalation, explain decisions, provide remedy, and improve realized customer outcomes across older and vulnerable customers rather than only changing stated confidence.
+
+**Current registry checkpoint (2026-09-28, work-and-family meaning rotation):** The trend registry now holds 1629 records and 4816 observations. The [YouGov values-of-children-and-work record](records/comparative-yougov-values-children-work-2026-success-time-meaning.json) adds the route from childrearing ideals through work-time preferences, remote-work legitimacy, passion-versus-pay, and age/ideology/education/parenthood differences. The next tests are whether named work, leave, childcare, or remote-work interventions make preferred autonomy, care time, security, and purpose materially reachable across groups rather than leaving them as stated ideals.
+
+**Current registry checkpoint (2026-09-28, employment-continuity rotation):** The trend registry now holds 1631 records and 4824 observations. The [Carers UK work and unpaid-care record](records/comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point.json) adds the route from unpaid care inside working life through reduced hours, stress, and employment exit. The next tests are whether care intensity, employer flexibility, formal-care access, and paid leave preserve employment continuity and reduce household income loss.
+
+**Current registry checkpoint (2026-09-28, election-information rotation):** The trend registry now holds 1632 records and 4828 observations. The [Catawba College–YouGov Ballots & Bots record](records/comparative-catawba-yougov-election-ai-authenticity-trust-2026.json) adds the route from suspected synthetic political content through authenticity uncertainty, conditional election legitimacy, trusted local verification, and demand for disclosure and platform accountability. The next tests are whether provenance labels, rapid correction, and local election-office communication preserve acceptance of results.
+
+**Current registry checkpoint (2026-09-28, local-consumer rotation):** The trend registry now holds 1633 records and 4832 observations. The [SOCi Local Discovery Index record](records/comparative-soci-local-discovery-ai-verification-loop-2026.json) adds the route from AI-mediated local discovery through cross-channel verification, review-based remedy, category-specific visibility, and unequal discovery access. The next tests are whether local consumers complete the verification loop, whether stale information causes measurable diversion or exclusion, and whether responsive reputation systems restore conversion.
+
+**Current registry checkpoint (2026-09-28, education-legitimacy rotation):** The trend registry now holds 1634 records and 4836 observations. The [Public First cross-party education record](records/comparative-public-first-education-cross-party-technical-pathways-delivery-2026.json) adds the route from technical-pathway and adult-readiness preferences through cross-party policy agreement, implementation skepticism, local-capacity concerns, and transparent delivery. The next tests are whether technical routes produce actual enrollment, completion, work transitions, earnings, and durable trust rather than only broad stated support.
+
+**Current registry checkpoint (2026-09-28, employer-transition rotation):** The trend registry now holds 1635 records and 4840 observations. The [WorldSkills UK/Public First Ready to Work record](records/comparative-worldskillsuk-public-first-ready-to-work-employer-skills-2026.json) adds the employer-side route from harder youth entry into work through employability-skill signaling, firm capability, structured demonstrations, and unequal access to credible early-career pathways. The next tests are whether competitions, work experience, and technical routes change interviews, offers, retention, earnings, and subgroup access.
+
+**Current registry checkpoint (2026-09-28, home-resilience rotation):** The trend registry now holds 1636 records and 4844 observations. The [IKEA Life at Home 2026 record](records/comparative-ikea-life-at-home-2026-home-resilience-control-sustainability.json) adds the route from external uncertainty through home security, comfort, control, domestic agency, and savings/health-motivated climate action. The next tests are whether housing quality, energy cost, health, repair/reuse, and income-stratified access to household agency move together in observed behavior.
+
+**Latest continuation:** The ONS Great Britain wellbeing/loneliness publication adds a repeated official-survey route through anxiety, loneliness, hope, cost-of-living and housing salience, and age-stratified cultural/geopolitical issue priorities. The next test is whether these reported states connect to actual household adaptation, service use, political action, and durable belonging.
+
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 1013 records and
-2357 observations. The latest UNICEF digital-safety pass adds platform-contact,
+  have exact registered-URL references. The trend registry holds 1571 records and
+4574 observations. The latest OECD Digital Government Outlook service-capacity pass adds a reachability, cross-agency life-journey, implementation-feedback, interoperability, AI-adoption, and accountability route; the next test is whether a named U.S. service journey converts digital capability into completed access, lower repetition, usable appeal, and durable trust rather than treating platform or AI deployment as realized public value. The latest Harvard JCHS housing-structure pass adds a supply, mobility, migration, household-formation, first-time-buying, and cost-burden route; the next test is whether a named U.S. housing episode connects supply to actual listing access, moving, tenure, family formation, commute, neighborhood continuity, and durable household room rather than treating construction or population growth as realized affordability. The latest Institute for Government legitimacy-and-attribution pass adds a service-experience, trust, responsibility-mapping, credit/blame, devolution, place-identity, and information-pathway route; the next test is whether a named U.S. local or state intervention changes responsibility clarity, public explanation, voice, credit/blame, and durable trust rather than treating service satisfaction as legitimacy. The latest ILO PROSPECTS Jordan cooperative pass adds a
+displacement, cooperative-capacity, shared-ownership, refugee-host livelihood,
+women’s and youth participation, food-and-water, and social-cohesion route; the
+next test is whether named cooperatives retain finance, formal work, safety,
+childcare, transport, membership, and cross-group participation after programme
+support. The latest ILO GenAI jobs and work-organization pass adds a
+comparative task-productivity, time-capture, entry-level opportunity, worker-
+judgment, coordination, and work-redesign route; the next test is whether a
+named U.S. workplace or occupation converts adoption into durable changes in
+workload, pay, hiring, training, voice, and job quality rather than treating
+time savings or planned use as shared productivity. The latest IEA Energy and AI pass adds a data-centre,
+electricity-affordability, grid-timing, emissions and energy-security route; the
+next test is whether AI infrastructure pays its system costs and produces
+shared energy benefits rather than concentrating price and environmental risks.
+The latest ITU/Global E-waste Monitor pass adds a
+digital-consumption-to-material-recovery, environmental-health, regulation and
+worker-safety route; the next test is whether device circularity improves access
+and recovery without shifting hazardous work and disposal burdens to weaker
+communities. The latest World Bank What a Waste 3.0 pass adds a
+consumption-to-municipal-capacity, public-health, jobs, emissions and circularity
+route; the next test is whether waste reduction and service investment improve
+household and worker conditions without shifting pollution or costs to weaker
+communities. The latest World Bank livable-cities pass adds a risk-informed
+spatial-planning, housing, services and mobility route; the next test is whether
+hazard data becomes enforceable, equitable and participatory land-use and
+infrastructure decisions. The latest ILO AI-systems-at-work pass adds a psychosocial,
+surveillance, autonomy and data-governance route; the next test is whether
+workers have enforceable transparency, participation, appeal and protection
+against intensified control. The latest ILO/ETF AI-skills pass adds a work-transition,
+AI-literacy and human-agency route; the next test is whether capability
+investment produces usable worker control and inclusive access rather than
+simply shifting adjustment costs onto individuals. The latest UNICEF Goal Area 5 pass adds a child-poverty,
+cash-transfer, public-budget, care-policy and inclusion route; the next test is
+whether integrated social-protection systems are adequate and usable for
+excluded households during recurrent shocks. The latest citizens’ assemblies handbook pass adds
+deliberation, agency, time, information, trust, and follow-through signals
+after the UN Office for Partnerships AI and Human
+Development pass adds trust, culture, labor, knowledge, and responsibility
+signals after the UNDP Greening Moonshot pass adds operational
+climate, emissions, energy-savings, resilience, safety, and service-continuity
+signals after the World Bank long-term growth prospects pass adds
+macro, investment, productivity, demographic, trade, and policy-space signals
+after the UNESCO-ICOM museum AI pass adds cultural,
+governance, capacity, and trust signals after the OECD-UNDP
+development-cooperation effectiveness
+pass adds ownership, results, partnership, transparency, and accountability
+signals after the UNHCR Global Appeal 2026 pass adds displacement,
+host-capacity, protection, and economic-inclusion signals after the FAO-CIRAD
+climate-finance quality pass adds
+detection, governance, local-ownership, and finance-access signals after the
+IFPRI/CGIAR agrifood-outlook pass adds
+detection, prevention, recovery, community, platform, and funding-gap signals
+after the UNDP language-inclusive AI pass adds consent,
+representation, local compute, deployment, and value-return signals after the
+UN development-resilience pass adds compounding-
+shock, fiscal-space, cross-sector transmission, and response-capacity signals
+after the Security Council Report AI-geopolitics pass adds
+peacebuilding, cyber, military-autonomy, strategic-input, and multilateral-
+adaptation signals after the OECD space-economy pass adds public-service
+dependency, orbital sustainability, launch concentration, critical-material,
+and signal-resilience signals after the Ofcom AI-consumer-service pass adds
+privacy, agentic-bargaining, and anti-gatekeeping signals after the World Energy
+Council trilemma pass adds
+integration, access, affordability, AI-demand, and geopolitical energy-system
+signals after the UNFCCC culture-and-climate pass adds storytelling,
+sector, place-based, and implementation signals after the PPIC California
+affordability-and-government pass
+adds state-level cost, housing, health-care, and trust signals after the Ipsos
+Power-of-Trust pass adds local, familiar,
+values-aligned, and AI-era consumer-trust signals after the Pew-Knight press-
+freedom pass adds institutional
+trust, censorship-boundary, partisan-control, and information-legitimacy
+signals after the ACLED conflict-systems pass adds event intensity,
+economic pressure, hybrid disorder, middle-power alignment, and defense-material
+context after the Pew Israel-Palestine coexistence pass adds public
+legitimacy, territorial conflict, trust, security, work, and economic
+interdependence context after the Pew religious-landscape pass adds demographic,
+retention, communal-trust, partisan-identity, and social-attitude context after
+the Salzburg Global cultural-infrastructure pass adds
+cultural sovereignty, civic infrastructure, representation, trust, and invisible
+labor context after the Pew global-AI-attitudes pass adds job-loss,
+inequality, awareness, age, gender, and ideology context after the International
+IDEA democracy-conflict pass adds
+institutional credibility, rights, democratic competition, and peace-security
+context after the ONS Great Britain social-trends pass adds public
+priorities, climate salience, water adaptation, and cost-of-living context after
+the NIM/GfK Germany consumer-climate pass adds
+European sentiment, saving precaution, and purchase-readiness context after the
+ICSC consumer-economy pass adds selective
+resilience, job-security anxiety, brand switching, and household financial
+margin context after the WTO trade-governance pass adds multilateral
+reform, geopolitical-fragmentation, services, digital-trade, and development
+distribution context after the CIVICUS civil-society pass adds civic-space,
+collective-resistance, technology-power, rights, and youth-mobilization context
+after the World Bank Colombia territorial pass adds poverty,
+social mobility, city opportunity, public-service access, and local-capacity
+context after the UNESCO youth-peace pass adds youth voice,
+multilateral legitimacy, culture-of-peace, and shared-future context after the
+UNESCO Culture x El Niño pass adds cultural
+continuity, heritage preparedness, emergency finance, and climate-information
+context after the World Bank Thailand cities pass adds urban
+concentration, congestion, secondary-city potential, spatial investment, and
+multi-nodal development context after the UNHCR Central Sahel pass adds insecurity,
+climate pressure, host-capacity, protection, and durable-solutions context after
+the UNHCR SocioSat pass adds displacement-data
+continuity, satellite change detection, settlement coverage, and field-
+verification context after the FAO urban-agrifood pass adds city-scale food
+access, health, livelihoods, multi-level governance, and ecological-transition
+context after the FAO soil-resources pass adds land degradation,
+agrifood resilience, biodiversity, adoption, and implementation context after
+the WHO South-East Asia UHC pass adds climate-health
+monitoring, resilient systems, equitable coverage, and accountability context
+after the UNESCO Algorithm in the Room pass adds agency,
+meaning, expression, public accountability, and common-world context after the
+UN DESA WESP September pass adds geopolitical
+energy shock, inflation, growth, trade-tension, and fiscal-space context after
+the UNCTAD services-trade pass adds digital-export
+inequality, connectivity, payments, skills, AI readiness, and rule-making
+capacity context after the Pew national-pride pass adds freedom, governance,
+public-service legitimacy, and national-meaning context before the Ipsos AI Trust
+Deficit in Healthcare pass adds
+clinical-AI adoption, patient awareness, task-specific trust, and accountability
+context before the Ipsos Global Consumer Confidence pass adds
+current-versus-expected economic room, geopolitical recovery, jobs security, and
+country confidence divergence after the Ipsos Global Trustworthiness Index pass adds
+profession, AI-chatbot, intermediary, ordinary-person, and country-trust context
+after the Ipsos What Worries the World pass adds healthcare,
+unemployment, country-direction, and optimism-versus-lived-economy context after
+the Gartner AI-content trust pass adds influencer
+skepticism, human-source preference, brand AI saturation, and provenance context
+after the Kearney Future Consumer pass adds trust,
+verification, AI-mediated time, choice overload, and synthetic-connection
+context after the UNESCO UIS Cultural and Creative Ecosystem
+Indicators pass adds cultural measurement, informal and community activity,
+AI/platform governance, equity, territory, and statistical-capacity context
+after the Mondelēz State of Snacking pass adds food-culture,
+social ritual, meal-substitution, health, nostalgia, and sensory-consumption
+context after the IKEA Life at Home Report pass adds household
+security, comfort, control, climate-action motivation, and age-patterned concern
+context after the WEF Top 10 Emerging Technologies pass adds
+distributed infrastructure, point-of-use production, personalized health,
+trust, and access context after the WEF Circularity Playbook pass added resource
+security, repair, refurbishment, recurring revenue, critical-material exposure,
+and industrial resilience context after the WEF Chief Sustainability Officers' Outlook pass adds
+green divergence, adaptation, corporate transition investment, AI resource trade-offs,
+and resilience-capital context after the WEF Chief Economists' Outlook pass adds
+geopolitical uncertainty, fiscal-room constraints, cost-of-living pressure,
+AI/data-centre trade-offs, trade fragmentation, and regional resilience after
+the WEF ASEAN Digital Economy Outlook pass adds
+cross-border digital participation, payments, identity, cybersecurity, data
+governance, and MSME capability context after the WEF Youth Pulse pass adds youth inequality,
+purpose-driven work, local trust, geopolitical anxiety, AI adoption, climate-shaped
+consumption, and political participation after the ONS public-opinions pass adds cost-of-living,
+public-service, AI-convenience, information-authenticity, privacy, and cyber-risk
+context after the Values Institute global-values pass added cultural
+priorities, generational identity, depletion, purpose, gendered wellbeing, and
+capacity-to-act context after the UNFPA supplies-chain pass added contraceptive access,
+product choice, financing, and last-mile context after the UNFPA maternal-newborn pass added reproductive-care,
+midwifery, emergency-continuity, and health-data context after the UN Women
+gender-data pass added care, safety,
+environment, governance, and policy-use context after the ILO trade-and-decent-work pass added labor-policy,
+social-dialogue, and regional-integration context after the OECD
+digital-measurement pass added trust,
+well-being, platform, consumer, and data-infrastructure context after the Africa
+sustainable-development pass added regional
+infrastructure, access-quality, financing, and implementation context after the
+World Bank global-jobs pass added youth-demography,
+infrastructure, sector, and social-stability context after the UNICEF
+environmental-nutrition pass added exposure,
+WASH, and integrated public-health infrastructure context after the child-survival
+pass added mortality progress,
+health investment, WASH, human capital, security, aid, debt, and fiscal risk
+while keeping country-level incidence open. The latest UNICEF Innocenti inequality pass adds within-
+country income gaps, child poverty, health, skills, perceived opportunity, and
+child participation while keeping causal pathways open. The latest OECD
+adolescent-well-being pass adds gendered
+well-being, identity norms, family communication, school and digital pressures,
+community support, and multi-sector responses while keeping causal pathways open.
+The latest ILO youth-labor-market pass adds unemployment,
+NEET, informality, gender and care gaps, technology exposure, skills, and social
+protection while keeping individual transitions open. The latest ILO–World Bank youth-programme pass adds evaluated
+employment and earnings effects, skills, entrepreneurship, delivery partnerships,
+subgroup differences, and cost-effectiveness while keeping durability and job
+quality open. The latest UNICEF child-poverty pass adds monetary and
+multidimensional deprivation, sanitation, social protection, caregiver work,
+climate, conflict, and child-sensitive budgets while keeping child-level
+incidence open. The latest IMF low-income-country pass adds per-capita
+divergence, aid, remittances, debt service, reserves, commodity costs,
+governance, and job creation while keeping household incidence open. The latest IMF fiscal-pressure pass adds debt, public-budget
+trade-offs, aid shocks, social-protection targeting, and political feasibility
+while keeping incidence open. The latest UN-Habitat urban climate-delivery pass adds plan
+content, housing and informal settlements, urban services, and multilevel
+delivery while keeping implementation outcomes open. The latest World Bank
+demographic pass adds aging, youth-
+heavy poverty regions, care, old-age support, migration, and human-capital
+capacity while keeping individual trajectories open. The latest ILO social-
+protection pass adds coverage, climate-
+vulnerability, child and gender gaps, public expenditure, and just-transition
+capacity while keeping adequacy, portability, and lived usability open. The
+latest UN SDG Goal 5 pass adds representation, gender-
+responsive budgeting, legal reform, land rights, digital access, and bodily-
+agency stages while keeping enforcement and individual outcomes open. The latest
+UNCTAD trade-biodiversity pass adds ecosystem,
+value-chain, rural-livelihood, social-sustainability, and traceability stages
+while keeping verified ecological and distributional outcomes open. The latest
+UNCTAD productive-capacities pass adds human,
+energy, transport, ICT, institution, private-sector, structural-change, and
+measurement-gap stages while keeping country-specific opportunity and causal
+development outcomes open. The latest UNCTAD external-debt pass adds debt-service,
+fiscal-space, domestic-borrowing, development-finance, and public-capacity
+stages while keeping country-specific service cuts and household incidence open.
+The latest UNCTAD sustainable-finance pass adds disclosure,
+carbon-pricing, regional-divergence, compliance-cost, and implementation-capacity
+stages while keeping capital allocation and household incidence open. The latest
+UNCTAD trade-update pass adds fragmentation,
+value-chain, services, South-South trade, food-security, and regulatory-burden
+stages while keeping firm incidence and household pass-through open. The latest
+OECD-UNDP development-cooperation pass adds
+civic-consultation, civil-society capacity, marginalized-group visibility,
+data-disaggregation, and implementation-feedback stages while keeping policy
+influence and durable civic power open. The latest IEA investment pass adds
+electricity-capital,
+grid-bottleneck, industrial-geography, development-finance, and AI-demand
+stages while keeping delivered capacity, affordability, and local benefit open.
+The latest UNICEF digital-safety pass adds platform-contact,
 exploitation, disclosure, reporting, trusted-support, child-protection, and
 accountability stages while keeping causal effects and institutional outcomes
 open. The latest WHO social-connection pass adds loneliness,
@@ -6150,11 +8292,12 @@ as a linked respondent-cohort case. It formalizes six partial arrows without
 turning retrospective exposure, self-reported recovery, or later hardship into
 a dated individual remedy or causal trust/exit result.
 
-The official Fair Work Commission route was rechecked for the strongest public
-worker episode, Mudiyanselage: the decision and bulletin still expose forced
-exit, a constrained new job, partial payment, a compensation order, and broken
-trust, but no later public payment, compliance, or employment follow-up. This
-closes the public-search branch for now. The next valid advance is a
+The official Fair Work Commission route was rechecked on 2026-09-29 for the
+strongest public worker episode, Mudiyanselage: the decision, order, 2025
+bulletin, and current bulletin index still expose forced exit, a constrained
+new job, partial payment, a compensation order, and broken trust, but no later
+public payment, compliance, or employment follow-up. This closes the
+public-search branch for now. The next valid advance is a
 privacy-preserving payroll, compliance, worker-confirmed, or later-employment
 source with final payment, accepted work or non-use, pay/hours/commute
 trade-off, recurrence, and trust or exit fields; another reading of the same
@@ -6552,6 +8695,25 @@ medical-debt episode, unpaid-care substitution, trust response, or political
 action. The next acquisition remains an event-oriented same-household route
 with a dated need or bill, care decision, substitution, recovery, and
 institutional response.
+
+**Cohesion-as-national-resilience rotation — 2026-09-26:** the UK *Protecting
+What Matters* Command Paper links economic insecurity, public-space decline,
+technology, migration, extremism, online echo chambers, foreign influence, and
+institutional trust, then proposes confident, cohesive, and resilient-community
+pillars. This adds a state-diagnosis-to-policy-delivery-to-security route, not
+independent causal evidence. The next valid test joins Pride in Place,
+integration, platform controls, local services, social-contract experience,
+belonging, trust, participation, safety, and resistance to hostile influence.
+
+**Neighbourhood belonging-and-trust rotation — 2026-09-26:** England's
+2025/26 Community and Engagement Survey reports 61% strong neighbourhood
+belonging, 69% monthly neighbour chat, 61% perceived collective pull-together,
+38% local trust, and 79% agreement that different backgrounds get along. It
+also shows large local-authority and deprivation gradients and 31% saying their
+area worsened over two years. This adds an official place-to-belonging-to-trust
+route, not respondent-level linkage or causal community evidence. The next
+valid test joins local assets and services to housing, safety, mobility,
+cultural participation, trust, collective action, and exit or political action.
 
 The new [public-system route-to-judgment synthesis](projects/us-safety-net-access/findings/us-safety-net-access-014.md)
 rotates the program into the public-systems lane. It places administrative
@@ -7323,6 +9485,12 @@ The [structured Meadley enforcement ledger](projects/ai-work-control/data/fwc-me
 adds an officially reported compensation payment followed by failed
 reinstatement and court enforcement. Treat it as a payment-implementation
 endpoint, not restored opportunity or household recovery.
+The [Westrip/Meadley route recheck](projects/ai-work-control/fwc-westrip-meadley-route-recheck-2026-09-28.md)
+confirms that these cases are complementary rather than joinable: Westrip has
+the alternative-employment and non-return stages but only an ordered remedy,
+while Meadley has reported payment but no observed alternative route. The
+public search found no Westrip payment instrument or later worker follow-up,
+so neither case qualifies for end-to-end promotion.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the contrasting aggregate-completion stage: a reported exhausted
 $18.25 million back-pay fund, distinct from worker-level receipt and restored
@@ -12359,3 +14527,1528 @@ workers are women. This adds an infrastructure-to-time-to-governance route,
 not individual time-use or causal health evidence. The next valid test joins
 water access, collection, sanitation, safety, climate shocks, education, work,
 utility capacity, decision power, and household adaptation.
+
+**Energy-investment and grid-absorption rotation — 2026-09-26:** the IEA World
+Energy Investment 2026 pass adds electricity-capital, grid-bottleneck,
+industrial-geography, AI-demand, development-finance, and regional-inequality
+stages. It complements, rather than duplicates, the existing household-energy,
+energy-policy, and critical-minerals records. The next valid test joins
+investment announcements to delivered grid capacity, connection time, utility
+solvency, affordability, local employment, public finance, and household access.
+
+**Civic-inclusion and implementation rotation — 2026-09-26:** the OECD-UNDP
+development-cooperation pass adds a cross-source route from formal stakeholder
+engagement to consultation quality, civil-society funding, marginalized-group
+visibility, data capacity, and policy feedback. It complements the existing
+trust, participation, and public-systems records. The next valid test joins
+consultation input to an identifiable decision, implementation change, resource
+allocation, representation outcome, or durable civic capacity.
+
+**Youth clean-energy workforce rotation — 2026-09-26:** UNDP and Goodwall's
+energy-talent publication reports more than 58,000 young people reached across
+more than 100 countries, 55,314 learning-journey completions, 93% reported
+clean-energy career interest, and 92% selecting a concrete next step. A quiz
+among 5,078 completers found weaker knowledge of the breadth of non-engineering
+roles and projected job creation. This adds a youth-to-workforce-to-energy-
+governance route, not representative youth polling or proof of employment
+effects. The next valid test joins learning to credential recognition,
+apprenticeship or placement, first job, retention, earnings, enterprise,
+decision participation, and later mobility.
+
+**Human-anchor and ritualized-consumption rotation — 2026-09-26:** Penguin
+Random House Consumer Insights' Moments Fall 2026 describes consumers using
+human provenance, trusted experts, firsthand experience, active digital
+preservation, personal “minorstone” rituals, longer comparison, deals, and AI
+shopping tools to navigate an uncertain cultural environment. This adds a
+consumer-to-meaning-to-control route, not representative public polling or
+proof of durable behavioral change. The next valid test joins AI/content
+exposure to source choice, archive or deletion behavior, ritual practice,
+shopping research, spending, trust, and later identity or exit.
+
+**AI diffusion-and-confidence rotation — 2026-09-26:** Gallup/Microsoft's
+first 37-country 2026 fieldwork wave reports a median 81% AI awareness, 43%
+ever-use, 57% never-use, 36% high trust in accuracy, and positive emotions in
+34 countries. It also finds high-income Western countries combining higher use
+with higher worry, while frequent users report more trust. This adds an
+access-to-use-to-trust-to-emotion route, not a causal panel or accuracy audit.
+The next valid test joins connectivity, task, skill, institutional safeguard,
+use frequency, error or success, trust, worry, and consequential adoption.
+
+**Occasion-and-moderation consumption rotation — 2026-09-26:** Southern
+Glazer's Raise the Bar H2 2026 release describes beverage alcohol fragmenting
+across RTDs, wine cocktails, no/low/functional drinks, smaller formats,
+premium products, venues, and social occasions. It reports 94% of spirits
+volume growth from spirits RTDs and 92% of wine growth from cocktails, while
+warning that growth share is not total consumption. This adds a
+format-to-occasion-to-moderation route, not population-health evidence. The
+next valid test joins venue, product, price, format, moderation choice, social
+participation, repeat purchase, intake, and health or wellbeing outcome.
+
+**Culture-as-social-infrastructure rotation — 2026-09-26:** the UK DCMS/AHRC
+scoping study reviews 35 papers and maps four culture-to-cohesion mechanisms:
+shared identity and belonging, social networks, shared norms and values, and
+spaces for socialisation and mixing. It separates micro, meso, and macro
+outcomes and warns that evidence is mostly correlational and monetization is
+underdeveloped. This adds a culture-to-civic-capacity route, not proof of
+causal cultural effects. The next valid test joins funding and access to asset
+use, repeated interaction, distribution, belonging, trust, participation, and
+institutional response.
+
+**Responsible-AI accountability rotation — 2026-09-26:** the [Global Index on
+Responsible AI 2026 record](records/comparative-global-index-responsible-ai-2026-governance-implementation-redress.json)
+adds a 135-country route from AI diffusion through public-sector disclosure,
+procurement, labor protection, cultural and linguistic inclusion, environmental
+accountability, civil-society participation, and redress. It reports that
+implementation evidence trails active frameworks, public algorithm disclosure
+is rare, and skills investment is more common than worker protection. This is
+comparative public evidence, not respondent-level data or proof of lived
+outcomes. The next valid test joins deployment, procurement, energy and language
+exposure, labor bargaining power, complaint routes, enforcement, and service
+quality.
+
+**Climate-mobility-health continuity rotation — 2026-09-26:** the [WHO health,
+migration, displacement, and climate research-priorities record](records/comparative-who-health-migration-displacement-climate-research-priorities-2026.json)
+adds a cross-border route from climate exposure and movement through social
+determinants, universal coverage, emergency inclusion, continuity of care, data,
+and climate-resilient public response. It is a participatory research agenda,
+not a prevalence estimate, causal evaluation, or respondent-level history. The
+next valid test joins hazard, movement or immobility, legal status, housing and
+work, service access, portable protection and records, health outcome, and
+institutional response.
+
+**Emerging nicotine-market and cultural-normalization rotation — 2026-09-26:**
+the [WHO nicotine-pouch marketing record](records/comparative-who-nicotine-pouches-marketing-youth-regulatory-gaps-2026.json)
+adds a consumer-health route from product design, flavors, packaging, platforms,
+influencers, sponsorship, and social belonging through youth exposure, market
+growth, dependence risk, and regulatory response. WHO reports more than 23
+billion retail units sold in 2024, a near-US$7 billion 2025 market, and roughly
+160 countries without specific regulation. This is marketing and policy
+evidence, not individual use or causal advertising evidence. The next valid test
+joins availability, price and tax, exposure, targeting, initiation or
+substitution, dependence, cessation, health, complaints, and enforcement.
+
+**Public-attention and political-judgment rotation — 2026-09-26:** Gallup's
+[World's Most Important Problem 2026 record](records/comparative-gallup-worlds-most-important-problem-2026-economic-trust-security.json)
+adds 107-country aggregate evidence that economic security leads global concern
+(23% median), followed by work (10%), politics/government (8%), and
+safety/security (7%). It links household economic perception to national
+judgment, institutional distrust to political concern, and conflict to security
+salience. This is country-level survey aggregation, not respondent-level
+analysis or causal proof. The next valid test joins costs, work quality, local
+services, trust, conflict exposure, media attention, and political response.
+
+**Inequality-and-visibility rotation — 2026-09-26:** the [UN SDG Goal 10 2026
+record](records/comparative-un-sdg10-2026-inequality-discrimination-displacement-labour-share.json)
+adds global aggregate evidence on poorest-40% growth, relative poverty,
+labour's falling GDP share, discrimination reporting and data gaps, refugee
+displacement, migrant fatalities, and development finance. It complements the
+poverty, work, migration, and public-systems lanes without treating headline
+growth as equal lived progress. The next valid test joins income distribution,
+labour bargaining, discrimination visibility, conflict and climate exposure,
+mobility, host capacity, social protection, finance, and political response.
+
+**Democratic-regression and civic-resistance rotation — 2026-09-26:** the [BTI
+2026 record](records/comparative-bti-2026-democratic-regression-resistance-governance.json)
+adds 137-country evidence on autocratic expansion, election quality,
+participation rights, rule of law, patronage, governance capacity, market
+competition, and civic resistance. It reports 56% autocratic rule and 54% of
+countries failing minimum election standards while documenting reform openings
+and resistance. This is expert-coded comparative evidence, not respondent-level
+data or causal regime analysis. The next valid test joins participation,
+information control, local services, inequality, civic organization, repression,
+elections, institutional checks, and later reform.
+
+**GDP-to-lived-progress measurement rotation — 2026-09-26:** the [Gallup
+Economics 2026 record](records/comparative-gallup-economics-2026-ambition-payroll-thriving.json)
+adds three proposed indicators alongside GDP: worker ambition/engagement,
+full-time employer-based payroll-to-population, and present/future thriving. Its
+global headline values are 20%, 27%, and 35%, respectively. This is Gallup's
+proprietary aggregate framework, not a replacement for national accounts or
+respondent-level analysis. The next valid test joins prices, job access, work
+control, care time, housing, services, trust, life evaluation, and mobility.
+
+**Family-policy and cross-megatrend care rotation — 2026-09-26:** the [UN
+family-policy and megatrends record](records/comparative-un-family-policymaking-megatrends-care-work-digital-climate-2026.json)
+adds a household route across technology, demography, urbanization, migration,
+and climate through care, work-family balance, services, early childhood,
+parenting, intergenerational support, and public resilience. It is a policy
+synthesis of reported good practices, not respondent-level data or causal
+family-outcome evidence. The next valid test joins household structure, care and
+work time, income and housing, digital access, services, childcare or leave,
+child development, health, and political trust.
+
+**Tourism-as-managed-growth rotation — 2026-09-26:** the [OECD Tourism Trends
+and Policies 2026 record](records/comparative-oecd-tourism-trends-policies-2026-managed-growth-community-resilience.json)
+adds a distinct 53-country sector and policy lens: strong post-pandemic demand,
+geopolitical and extreme-weather risk, concentrated visitor flows, community
+benefits, local governance, infrastructure, skills, digitalisation, and AI. It
+uses aggregate OECD evidence and policy synthesis, not respondent-level travel
+data or causal implementation evidence. The next valid test joins visitor
+demand, prices, local value capture, housing and infrastructure, workforce
+capacity, weather exposure, digital control, and resident legitimacy.
+
+**Global-risk perception rotation — 2026-09-26:** the [UN Global Risk Report
+2026 record](records/comparative-un-global-risk-report-2026-war-ai-climate-cooperation.json)
+adds a 155-country, 28-risk stakeholder frame: 36% expect large-scale war
+within one year, AI power concentration is rising as a concern, climate
+inaction remains the top-ranked risk, and joint government action is the
+preferred response. This is stakeholder risk perception, not representative
+public opinion, realized risk, or an event forecast. The next valid test joins
+war risk, AI control, climate exposure, infrastructure dependence, trust,
+preparedness, and actual international cooperation.
+**Beyond-GDP well-being rotation — 2026-09-26:** the [ONS June 2026 record](records/comparative-ons-beyond-gdp-national-wellbeing-june-2026-finance-trust-culture.json)
+adds a national social-and-consumer layer: 24.6% report financial difficulty,
+government trust is 29.2%, cultural engagement fell to 82.9% from 90.0%, while
+social-relationship satisfaction remains 85.8% and 86.0% report environmental
+lifestyle changes. It is a multi-measure official-statistics synthesis, not a
+single respondent dataset or causal model. The next valid test joins household
+room, time and care burdens, health, cultural access, local belonging, trust,
+consumer sentiment, and political or environmental action.
+**Social-and-cultural conditions rotation — 2026-09-26:** the [SCP Social and
+Cultural Developments 2026 record](records/comparative-scp-social-cultural-developments-2026-quality-life-participation-trust.json)
+adds a Dutch national layer: high average life quality and participation coexist
+with stacked inequality, mental-health strain, discrimination, participation
+pressure, and weaker trust or representation among vulnerable groups. It is
+comparative and survey-based evidence, not a causal or respondent-level
+universal model. The next valid test joins material room, social networks,
+participation demands, mental health, discrimination, representation, and trust.
+**Demography-and-digital-governance rotation — 2026-09-26:** the [UN CPD 2026
+record](records/comparative-un-population-development-technology-research-2026-digital-demographic-divides.json)
+connects population growth, ageing, mobility, urbanization, data systems, AI,
+privacy, digital inequality, cyber harms, and rights-based policy. It is a UN
+policy synthesis, not individual demographic data or a causal technology-impact
+study. The next valid test joins demographic change, data visibility, digital
+access, privacy, AI control, service reach, mobility, and rights protection.
+**Food-market shock-transmission rotation — 2026-09-26:** the [FAO SOCO 2026
+record](records/comparative-fao-soco-2026-trade-resilience-food-shocks.json)
+adds a global food-trade layer: trade grew fivefold since 2000, connectivity can
+buffer shocks, but conflict, weather, energy, export restrictions, and price
+spikes transmit instability into food security. It uses aggregate market and
+policy evidence, not household food diaries or causal welfare data. The next
+valid test joins trade connectivity, market power, restrictions, food prices,
+social protection, nutrition, and household purchasing room.
+**Labour resilience and regional mobility rotation — 2026-09-26:** the [OECD
+Employment Outlook 2026 record](records/comparative-oecd-employment-outlook-2026-regional-wages-mobility.json)
+adds broad work evidence: high employment and participation coexist with
+slowing real-wage recovery, large regional job gaps, limited movement toward
+opportunity, and non-compete constraints on mobility and bargaining. It uses
+aggregate OECD labour-market evidence, not individual job histories or a
+universal causal wage model. The next valid test joins regional opportunity,
+housing, mobility, skills, wages, job controls, household room, and political
+response.
+**Africa infrastructure-and-delivery rotation — 2026-09-26:** the [2026 Africa
+Sustainable Development Report record](records/comparative-africa-sustainable-development-report-2026-water-energy-cities-finance.json)
+adds joint AUC/UNECA/AfDB/UNDP evidence: progress on 12 SDGs but insufficient
+pace, roughly 600 million people without electricity, and a USD 670–848 billion
+annual SDG financing gap. It uses aggregate regional monitoring, not project
+causal evidence or household service data. The next valid test joins finance,
+energy, water, housing, urban capacity, youth work, digital access, and local
+institutional delivery.
+**Middle-class resilience rotation — 2026-09-26:** the [World Bank Philippines
+record](records/comparative-world-bank-philippines-middle-class-resilience-2026-poverty-jobs-shocks.json)
+adds a country-level household-security signal: poverty fell from 23.5% to 15.5%
+between 2015 and 2023, but 28% remain vulnerable, the secure middle class is
+about one-quarter of the population, and 61% face high climate-disaster risk.
+It uses aggregate poverty evidence and conditional scenarios, not individual
+household trajectories or causal reform evaluation. The next valid test joins
+income, prices, formal work, care, insurance, climate exposure, local services,
+and political legitimacy.
+**Infrastructure-as-access rotation — 2026-09-26:** the [World Bank
+Infrastructure Foundations record](records/comparative-world-bank-infrastructure-foundations-2026-energy-transport-digital-returns.json)
+adds a global asset-and-investment layer across energy, transport, and digital
+networks. It finds persistent subnational gaps, sector-specific returns, and
+higher potential from coordinated systems, while procurement, construction
+costs, and market concentration constrain impact. It uses aggregate asset and
+modeled-return evidence, not household service records or project causal proof.
+The next valid test joins infrastructure location, reliability, cost,
+maintenance, digital access, local power, household time, and opportunity.
+
+**Informal-civic-infrastructure rotation — 2026-09-26:** the [ILO-UNV
+informal-volunteering record](records/comparative-ilo-unv-informal-volunteering-2026-community-social-infrastructure.json)
+adds the unpaid person-to-person support layer: nearly 70% of volunteering is
+informal, many people do not label it volunteering, and participation varies
+with care, gender intersections, income, education, disability, and place. It
+uses comparative published evidence, not individual volunteering histories or
+causal estimates of care, participation, trust, or wellbeing. The next valid
+test joins unpaid care and available time, reciprocal support, civic voice,
+formal recognition, social protection, service gaps, and institutional capacity.
+
+**Cancer-system capability rotation — 2026-09-26:** the [WHO Global Cancer
+Status 2026 record](records/comparative-who-global-cancer-status-2026-health-system-equity-value.json)
+adds a population-health and public-capacity layer across prevention, early
+detection, diagnosis, treatment, palliative care, survivorship, risk factors,
+health-system performance, financial and social consequences, and community
+engagement. It uses global system-level evidence, not patient records,
+household medical spending, causal treatment effects, or proof of implementation.
+The next valid test joins exposure, prevention, referral, care continuity,
+affordability, work and caregiver burden, monitoring, affected-community voice,
+and equitable health-system response.
+
+**Environmental disaggregation-to-action rotation — 2026-09-26:** the [UNEP
+Data to Impact record](records/comparative-unep-disaggregated-sdg-environment-2026-data-to-impact.json)
+adds a measurement and local-policy layer across 92 environment-related SDG
+indicators. It asks whether national and subnational evidence can reveal unequal
+exposure and guide targeted action across society, the economy, and the
+environment. It uses a UNEP framework and reporting synthesis, not individual
+exposure histories, a complete local dataset, causal effects of disaggregation,
+or proof that visible disparities receive remedy. The next valid test joins
+place, hazard, infrastructure, health, household room, data capacity, local
+voice, budget allocation, implementation, and durable protection.
+
+**Nature-finance transition rotation — 2026-09-26:** the [UNEP State of
+Finance for Nature 2026 record](records/comparative-unep-state-finance-nature-2026-harmful-flows-transition.json)
+adds the capital-allocation layer behind climate, biodiversity, land, and
+resilience outcomes. UNEP reports roughly $7.3 trillion in nature-negative flows
+versus $220 billion for Nature-based Solutions in 2023, with $571 billion needed
+annually by 2030. It uses aggregate finance-flow estimates and transition
+frameworks, not project ecological outcomes, household exposure, worker
+transitions, local consent, or proof of equitable gains. The next valid test
+joins subsidies, investment, sector power, prices, jobs, public budgets, local
+rights, transition protection, and realized ecological change.
+
+**Plastic-life-cycle measurement rotation — 2026-09-26:** the [UNEP-UNITAR
+plastic-flow guideline record](records/comparative-unep-unitar-plastic-flow-statistics-2026-circular-economy.json)
+adds a common accounting layer for production, trade, consumption, use, and
+waste. It treats comparable national, regional, and global statistics as a
+precondition for circular-economy, source-reduction, waste-management, and
+producer-accountability policy. It is a first-step statistical guideline, not a
+completed global dataset, individual purchase history, exposure record, causal
+behavior estimate, or proof of lower plastic pollution. The next valid test
+joins material flows, product design, prices, consumer demand, informal and
+formal recovery work, waste infrastructure, local exposure, regulation, and
+realized circularity.
+
+**Child-capacity and rights rotation — 2026-09-26:** UNICEF Innocenti’s
+[Growing with Rights record](records/comparative-unicef-growing-with-rights-child-capacities-2026.json)
+adds a present-tense child-agency layer across developmental, protective, and
+emancipatory capacities. It places fragile contexts, climate change, digital
+transformation, family support, safety, participation, and public institutions
+in one rights framework. It uses a conceptual global synthesis, not child-level
+histories, representative participation rates, causal exposure effects, or proof
+that institutions act on children’s views. The next valid test joins care,
+protection, learning, digital design, accessibility, child voice, institutional
+feedback, and remedy.
+
+**Child-futures volatility rotation — 2026-09-26:** UNICEF Innocenti’s [Prospects
+for Children 2026 record](records/comparative-unicef-prospects-children-volatile-world-2026-systems.json)
+adds a foresight route connecting geopolitics, public funding, AI, work, climate,
+NGOs, social protection, data infrastructure, and child rights. It treats child
+prospects as an early-warning system for service continuity, household income,
+education, health, displacement, and legitimacy. It uses global outlook synthesis,
+not child-level histories, national budget estimates, causal technology or
+climate effects, or proof that resilience tools are implemented. The next valid
+test joins defense and social spending, fiscal buffers, labor transitions, care,
+AI governance, climate exposure, child voice, and service outcomes.
+
+**Heat-health readiness rotation — 2026-09-27:** the [WHO heat-health action
+plan record](records/comparative-who-europe-heat-health-action-plans-2026-urban-ageing-resilience.json)
+adds an operational climate-health layer across urbanization, ageing, unequal
+exposure, warnings, communication, health and social care, infrastructure, and
+local governance. Its eight-element framework is implementation guidance, not a
+heat-mortality estimate, local plan inventory, individual exposure history,
+household energy data, causal evaluation, or proof that plans reduce harm. The
+next valid test joins hazard, housing, cooling cost, work, care, mobility,
+warning reach, local capacity, trust, and realized protection.
+
+**Urban jobs-and-access rotation — 2026-09-27:** the [World Bank MENA cities
+record](records/comparative-world-bank-mena-cities-jobs-housing-mobility-2026.json)
+adds a regional urban-economy layer linking youth employment pressure, city
+productivity, housing, transport, childcare, safety, utilities, digital
+connectivity, firms, and public-private delivery. It is a publication-level
+comparative synthesis, not respondent-level employment data, individual
+mobility histories, a city rent series, a causal reform estimate, or proof of
+inclusive job creation. The next valid test joins demographic pressure, land,
+housing, time, care, safety, infrastructure, firm demand, city scale, and
+realized access to work.
+
+**Youth digital-life rotation — 2026-09-27:** the [OECD social-media-age
+record](records/comparative-oecd-social-media-age-youth-attention-wellbeing-2026.json)
+adds a youth culture and platform-governance layer linking social-media time,
+attention, communication, creativity, learning, gender, class, well-being,
+school practice, and regulation. It is comparative survey-linked and
+literature evidence, not platform telemetry, clinical diagnosis, respondent
+histories, causal effects, or proof that restrictions improve outcomes. The
+next valid test joins activity type, intensity, content, identity, peer
+connection, school context, family support, platform design, policy, and
+realized well-being.
+
+**Digital-economy capability rotation — 2026-09-27:** the [DCO Digital
+Economy Trends 2026 record](records/comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness.json)
+adds an expert-informed technology foresight layer spanning AI, robots, energy,
+cybersecurity, digital trade, sovereignty, competing technology blocs, work,
+digital well-being, and public readiness. It is not a technology forecast,
+firm census, individual employment panel, causal estimate, or proof of
+equitable outcomes. The next valid test joins technology adoption, energy and
+data infrastructure, standards, geopolitical alignment, cyber exposure, labor
+transition, public capacity, trust, and realized agency.
+
+**Democratic-security rotation — 2026-09-27:** the [Council of Europe
+democratic-pact record](records/comparative-council-europe-democratic-pact-2026-trust-social-rights-civic-space.json)
+adds a political-institutional layer linking geopolitical rupture, information
+manipulation, social rights, civic space, elections, inclusion, digital
+technology, AI, and institutional trust. It is strategic and consultation
+evidence, not a representative opinion survey, democracy score, causal security
+model, or proof of implementation. The next valid test joins material
+vulnerability, information conditions, participation, media and judicial
+independence, local capacity, rights protection, and realized democratic
+security.
+
+**Smart-education rotation — 2026-09-27:** the [UNESCO IITE Smart Education
+record](records/comparative-unesco-iite-smart-education-2026-ai-teachers-governance-regions.json)
+adds an education-system layer linking AI, pedagogy, teacher capacity,
+infrastructure, fragile contexts, equity, human values, sustainability, and
+institutional responsibility across seven regional perspectives. It is a
+cross-regional policy synthesis, not student-level learning data, a technology-
+adoption census, causal effect estimate, implementation audit, or proof of
+improved outcomes. The next valid test joins AI use, curriculum, teacher work,
+data governance, language, accessibility, family trust, learner voice, and
+realized educational opportunity.
+
+**Poverty-and-protection rotation — 2026-09-27:** the [UN SDG Goal 1
+record](records/comparative-un-sdg1-2026-poverty-social-protection-working-poverty-aid.json)
+adds a current monitoring layer linking extreme poverty, working poverty,
+benefit coverage, public-spending incidence, aid flows, conflict, climate
+shocks, and living costs. It is aggregate SDG indicator evidence, not household
+panel data, respondent-level benefit histories, causal program evaluation, or
+proof that coverage is adequate. The next valid test joins poverty dynamics,
+job quality, benefit design, public-service reach, administrative access,
+shocks, and realized household security.
+
+**Youth mental-health ecosystem rotation — 2026-09-27:** the [UNU–UN Youth
+Office youth mental-health record](records/comparative-unu-youth-mental-health-ecosystem-2026-uncertain-world.json)
+adds a cross-sector well-being route linking mental health to education, decent
+work, housing, peace, climate, digital spaces, community, arts, culture,
+spirituality, and youth agency. It is a global framework with cited aggregate
+health evidence, not clinical histories, representative participation rates,
+causal effects, or proof of implementation. The next valid test joins
+structural uncertainty, daily environments, care and connection, youth voice,
+institutional coordination, and realized well-being.
+
+**Digital-propaganda and contested-authority rotation — 2026-09-27:** the [UN
+CTED propaganda-infrastructure record](records/comparative-un-cted-propaganda-operational-infrastructure-2026-digital-extremism.json)
+adds a digital-security route linking propaganda to recruitment, radicalization,
+financing, operational planning, governance claims, AI, gaming-adjacent spaces,
+youth targeting, and human-rights-compliant response. It is an expert policy
+assessment, not a content census, individual radicalization history, causal
+effect estimate, platform prevalence measure, or proof that a countermeasure is
+effective. The next valid test joins digital affordances, identity and
+grievance, resource mobilization, claims to authority, public response, rights
+protection, and realized security.
+
+**Food-price early-warning rotation — 2026-09-27:** the [FAO FPMA September
+2026 record](records/comparative-fao-fpma-september-2026-food-price-shocks-household-resilience.json)
+adds a current food-cost route linking prices to weather, El Niño, conflict,
+trade logistics, supply expectations, stocks, production, and market resilience.
+It uses aggregate market monitoring and forecasts, not household purchase
+histories, diet records, local retail pass-through, causal welfare estimates, or
+proof of food-security change for every group. The next valid test joins hazard
+and geopolitical disruption, logistics, prices, income and safety nets,
+substitution, diet, and realized food security.
+
+**Food-security distributional-risk rotation — 2026-09-27:** the [World Bank
+June 2026 food-security update record](records/comparative-world-bank-food-security-update-june-2026-inflation-fertilizer-el-nino.json)
+adds an income-group and regional layer linking domestic food inflation and real
+price pressure to fertilizer costs, El Niño scenarios, cereal production, and
+unequal exposure. It uses country-level aggregate and conditional scenario
+evidence, not household purchase histories, diet records, individual
+food-security transitions, causal welfare estimates, or proof that food
+insecurity changed for every group. The next valid test joins input and climate
+shock, production, domestic prices, income-group exposure, public protection,
+household adaptation, and realized nutrition security.
+
+**Central-Sahel food-delivery rotation — 2026-09-27:** the [WFP Central Sahel
+record](records/comparative-wfp-central-sahel-2026-food-insecurity-access-resilience.json)
+adds an operational regional layer linking lean-season timing, conflict,
+displacement, markets, climate, humanitarian access, assistance, resilience,
+and national capacity. It is a public operational synthesis, not household
+consumption data, a causal program evaluation, a complete needs census, proof of
+funding receipt, or proof that assistance produced durable food security. The
+next valid test joins conflict and climate stress, displacement, stocks, market
+access, humanitarian delivery, social protection, and realized food security.
+
+**Climate-overshoot pathway rotation — 2026-09-27:** the [UNEP Limiting
+Overshoot record](records/comparative-unep-limiting-overshoot-2026-climate-risk-adaptation-return.json)
+adds a current climate-pathway and governance layer linking overshoot, peak
+warming, duration, irreversible thresholds, adaptation limits, vulnerability,
+development, and institutional urgency. It is a global pathway framework, not a
+local forecast, damage curve, household exposure history, causal adaptation
+evaluation, or implementation audit. The next valid test joins global pathway
+choices, hazard, infrastructure, health, finance, household room, local
+capacity, and durable protection.
+
+**Global-water-systems rotation — 2026-09-27:** the [WMO State of Global Water
+Resources 2025 record](records/comparative-wmo-global-water-resources-2025-hydrological-variability-storage-glaciers.json)
+adds a physical-systems layer linking river flows, terrestrial storage,
+groundwater, glaciers, disasters, early warning, transboundary governance,
+cities, food, energy, health, and measurement capacity. It uses global
+modelled, satellite, and reported hydrological evidence, not local water-access
+histories, household bills, causal basin impacts, or proof that better data
+produced protection. The next valid test joins hydrological change, storage,
+infrastructure, allocation, exposure, public capacity, cross-border cooperation,
+and realized water security.
+
+**Air-quality and climate-health rotation — 2026-09-27:** the [WMO Air Quality
+and Climate Bulletin record](records/comparative-wmo-air-quality-climate-bulletin-2026-wildfire-ozone-aerosol-health.json)
+adds a pollution–health layer linking wildfire smoke, PM2.5, heat-driven ozone,
+aerosols, black carbon, microplastics, atmospheric observation, and coordinated
+policy. It is global and regional scientific synthesis, not personal exposure
+histories, clinical records, local sensor coverage, causal mortality estimates
+for every population, or proof of policy effect. The next valid test joins
+climate and emission sources, pollution, unequal exposure, information,
+protection, health burden, and coordinated public response.
+
+**Small-state trusted-AI implementation rotation — 2026-09-27:** the [UNDP
+Small States, Big Signals record](records/comparative-undp-small-states-ai-governance-trust-procurement-2026.json)
+adds an implementation and sovereignty layer linking procurement, vendor
+contracts, public servants, digital public infrastructure, institutional
+coordination, data quality, trust, inclusion, and correction rights. It is a
+learning-case synthesis, not a global adoption census, representative citizen
+survey, causal evaluation, or proof that workstreams are fully operational. The
+next valid test joins AI ambition, procurement, infrastructure, readiness, data,
+public voice, correction, trust, and realized public value.
+
+**Mediterranean information-integrity rotation — 2026-09-27:** the [UNESCO–EU
+Mediterranean information-integrity record](records/comparative-unesco-eu-mediterranean-information-integrity-2026-trust-media-literacy.json)
+adds a regional information-politics layer linking geopolitical tension,
+conflict, migration, media pluralism, freedom of expression, platforms,
+literacy, public trust, regional cooperation, and social cohesion. It is a
+policy and cooperation assessment, not a representative information-use survey,
+content census, causal disinformation estimate, implementation audit, or proof
+of improved trust. The next valid test joins geopolitical and social pressure,
+media conditions, platform affordances, literacy, public judgment, civic space,
+regional cooperation, and realized social cohesion.
+
+**Health-emergency governance rotation — 2026-09-27:** the [WHO public-health
+and social-measures consultation record](records/comparative-who-public-health-social-measures-emergencies-2026-acceptance-equity.json)
+adds a preparedness layer linking public acceptance, feasibility, unequal social
+cost, community-centered implementation, unintended consequences, evaluation,
+and decision-support infrastructure. It is a global expert consultation and
+framework, not a public-opinion survey, respondent-level behavior dataset,
+causal intervention evaluation, implementation inventory, or proof of equitable
+outcomes. The next valid test joins hazard and uncertainty, evidence quality,
+local fit, public voice, socioeconomic protection, digital decision support,
+and realized health protection.
+
+**Children-on-the-move rotation — 2026-09-27:** the [UNICEF Global Programme
+Framework record](records/comparative-unicef-global-programme-framework-children-on-move-2026-protection-integration.json)
+adds a mobility and inclusion layer linking root causes, protection and care,
+learning, basic services, discrimination, social cohesion, child agency,
+integration, and long-term solutions. It is a global rights-based programme
+framework, not child-level migration histories, a complete service-coverage
+census, representative host-community attitudes, causal programme evaluation,
+or proof of successful integration. The next valid test joins displacement and
+mobility pressure, legal status, protection, education, services, host capacity,
+child voice, and realized belonging.
+
+**Living-heritage education rotation — 2026-09-27:** the [UNESCO regional
+study record](records/comparative-unesco-living-heritage-education-latin-america-2026-community-participation.json)
+adds a cultural-continuity layer linking oral traditions, local ecological
+knowledge, crafts, rituals, performance, community participation, educational
+relevance, inclusion, and creativity. It is a documented practice synthesis,
+not a representative school or cultural-practice census, respondent-level
+learning data, causal impact evaluation, universal transferability claim, or
+proof of durable heritage transmission. The next valid test joins local
+knowledge, curriculum, community voice, institutional support, cultural access,
+and realized belonging and capability.
+
+**Food-system governance rotation — 2026-09-27:** the [FAO/HLPE-FSN issues
+record](records/comparative-fao-hlpe-food-systems-issues-2026-agency-governance.json)
+adds a structural layer linking healthy-diet affordability, climate and
+geopolitical uncertainty, trade, corporate concentration, digital and AI change,
+One Health, and agency. It is a global foresight issue map, not household
+purchase histories, dietary intake records, market-concentration estimates for
+every commodity, causal nutrition effects, representative agency measures, or
+proof of policy implementation. The next valid test joins food-system
+structure, prices, power, technology, health, cultural practice, public voice,
+and realized diet and resilience.
+
+**Cross-sector technology foresight rotation — 2026-09-27:** the [UN Horizon
+Scanning 2026 record](records/comparative-un-horizon-scanning-2026-science-technology-anticipatory-governance.json)
+adds a structural layer linking science, AI, data systems, biotechnology, energy,
+environmental change, power, accountability, preparedness, and human rights. It
+is an expert horizon-scanning assessment, not a technology-adoption census,
+public-opinion survey, causal impact estimate, probability forecast,
+implementation audit, or proof of equitable governance. The next valid test
+joins technological change, infrastructure, institutional capacity, rule-setting,
+public voice, rights protection, and realized social consequences.
+
+**Displacement-to-work rotation — 2026-09-27:** the [ILO PROSPECTS results
+record](records/comparative-ilo-prospects-2026-displacement-work-inclusion-systems.json)
+adds an implementation and labour-market layer linking humanitarian-to-
+development transition, decent work, skills, employment, enterprise, social
+protection, local economic development, national systems, and host-community
+inclusion. It is a public programme results brief, not respondent-level
+employment histories, a complete beneficiary census, job-quality or earnings
+estimates, causal programme evaluation, representative host-community attitudes,
+or proof of durable inclusion. The next valid test joins displacement pressure,
+legal and labour-market access, skills, protection, local enterprise, host
+capacity, institutional coordination, and realized economic belonging.
+
+**Adolescent-health systems rotation — 2026-09-27:** the [WHO adolescent-health
+and well-being record](records/comparative-who-adolescent-health-wellbeing-2026-equity-resilience-systems.json)
+adds a youth-health layer linking equity, resilience, data, adolescent engagement,
+service access, fragile settings, climate change, digital transformation, and
+widening inequities. It is a global organizational report and framework, not
+respondent-level health histories, clinical diagnoses, representative adolescent
+attitudes, a complete service-coverage census, causal intervention evaluation,
+or proof of improved well-being. The next valid test joins social and
+environmental pressure, service access, digital conditions, adolescent voice,
+institutional coordination, and realized health and agency.
+
+**Digital-inclusion rotation — 2026-09-27:** the [World Bank digital-exclusion
+record](records/comparative-world-bank-digital-exclusion-lmics-2026-gender-affordability-use.json)
+adds a participation layer linking broadband coverage, actual Internet use,
+affordability, digital literacy, relevant content, safety, privacy, gender norms,
+and economic and civic opportunity. It is aggregate cross-country data and
+hypothetical scenario analysis, not respondent-level digital histories,
+platform-use logs, causal intervention effects, a complete accessibility census,
+or proof that connection produces equal benefits. The next valid test joins
+network coverage, affordability, skills, gender norms, safety, meaningful use,
+and realized digital agency.
+
+**Youth-institutional-influence rotation — 2026-09-27:** the [UN Youth2030
+record](records/comparative-un-youth2030-2026-institutional-participation-accountability.json)
+adds a public-systems accountability layer linking meaningful participation,
+organizational process, Country Team implementation, resource access, decision
+power, and feedback. It is UN-system implementation and monitoring evidence,
+not respondent-level youth attitudes, representative public opinion, individual
+civic histories, causal effects on policy, or proof that consultation becomes
+co-ownership. The next valid test joins demographic and social pressure,
+institutional design, access, youth voice, resource allocation, accountability,
+and realized influence.
+
+**Cultural-public-finance rotation — 2026-09-27:** the [UNESCO UIS Culture
+2026 record](records/comparative-unesco-uis-culture-2026-heritage-spending-data-capacity.json)
+adds a cultural-public-finance layer linking heritage expenditure, data capacity,
+regional inequality, post-pandemic budget direction, cultural access, and public
+stewardship. It is SDG indicator and country-aggregate expenditure evidence, not
+a complete global spending census, respondent-level cultural behavior, causal
+preservation evaluation, or proof of equitable cultural access. The next valid
+test joins public-resource allocation, heritage condition, place and identity,
+cultural participation, local voice, accountability, and realized continuity.
+
+**Hybrid-governance rotation — 2026-09-27:** the [UNDP–UNU service-delivery
+record](records/comparative-undp-unu-hybrid-governance-service-delivery-2026-state-legitimacy.json)
+adds a geopolitical service-delivery layer linking limited statehood, non-state
+provision, protection, accountability, local voice, social contracts, and
+authority. It is a global policy framework and case-study synthesis, not a
+prevalence estimate, complete actor census, respondent-level service histories,
+causal evaluation, or claim that non-state governance is inherently better or
+more legitimate. The next valid test joins state capacity and conflict, service
+networks, protection, local voice, legitimacy, accountability, and realized
+social order.
+
+**Innovation-cluster rotation — 2026-09-27:** the [WIPO GII 2026 record](records/comparative-wipo-gii-2026-innovation-clusters-patents-science-venture-capital.json)
+adds a place-based technology and geoeconomics layer linking patents, science,
+venture capital, urban concentration, industrial capability, technological
+sovereignty, and uneven local consequences. It is an index and geospatial
+methodology, not a complete innovation census, causal regional-growth estimate,
+firm-level ownership history, respondent-level experience, or proof that cluster
+activity produces broad-based welfare. The next valid test joins knowledge and
+capital concentration, place, infrastructure, labor, industrial power, public
+policy, and realized technological advantage.
+
+**Regional social-cohesion rotation — 2026-09-27:** the [UNDP Bosnia and
+Herzegovina SCORE record](records/comparative-undp-score-bosnia-2025-social-cohesion-local-resilience-system-pessimism.json)
+adds a regional social-cohesion layer linking local cooperation, inclusive
+belonging, system-level pessimism, institutional support, civic action, and
+vulnerability to divisive narratives. It is an aggregate interpretation of a
+weighted national survey, not individual respondent histories, a causal
+political-behavior evaluation, a complete account of local power, or evidence
+that resilience will persist under future shocks. The next valid test joins
+lived local relations, identity, institutional expectations, system-level
+uncertainty, civic action, narratives, and realized social cohesion.
+
+**Global-cooperation rotation — 2026-09-27:** the [WEF Global Cooperation
+Barometer record](records/comparative-wef-global-cooperation-barometer-2026-minilateralism-pillar-divergence.json)
+adds a cross-domain geopolitical-institutional layer linking trade, technology,
+climate, health, peace, multilateralism, smaller coalitions, and uneven global
+consequences. It is a composite index and expert/executive survey-informed
+synthesis, not a causal measure of cooperation, a complete coalition inventory,
+respondent-level public opinion, or proof that smaller coalitions produce
+equitable outcomes. The next valid test joins shared risk and national interest,
+institutions, coalition design, material exchange, legitimacy, security, and
+realized global order.
+
+**Digital-safety foresight rotation — 2026-09-27:** the [WEF digital-safety
+foresight record](records/comparative-wef-digital-safety-foresight-2026-ecosystem-harms-governance.json)
+adds a digital-governance layer linking external risk sensing, AI and
+user-behavior change, adversarial tactics, regulation, early warning,
+preparedness, coordination, trust, and accountability. It is a practice
+framework, not a cyber-incident census, respondent-level harm data, causal
+evaluation, implementation audit, or proof that shared responsibility produces
+remedy or equitable safety. The next valid test joins technological and social
+change, risk sensing, institutional readiness, platform and public governance,
+user voice, accountability, and realized digital safety.
+
+**Crisis-development rotation — 2026-09-27:** the [UNDP Moving Beyond Crisis
+record](records/comparative-undp-action-agenda-2026-development-day-one-crisis-systems.json)
+adds an integrated crisis-development layer linking conflict, displacement,
+climate shocks, debt and aid constraints, essential services, livelihoods,
+institutions, social cohesion, and locally led transition. It is a UNDP action
+framework with aggregate contextual indicators, not a complete crisis census,
+respondent-level recovery histories, causal evaluation, funding audit, or proof
+that development-from-day-one programming works uniformly. The next valid test
+joins compounding crisis, services, work, institutions, local voice, social
+cohesion, finance, and realized recovery and resilience.
+
+**Intergenerational-opportunity rotation — 2026-09-27:** the [OECD mobility
+record](records/comparative-oecd-intergenerational-social-mobility-2026-parental-background-earnings-opportunity.json)
+adds a long-run opportunity layer linking parental education, earnings,
+bottom-tail persistence, women’s participation, educational attainment, skills,
+care, place, and policy routes. It is a comparative OECD working paper using
+published survey-based estimates, not raw respondent-level ingestion, individual
+life histories, a causal evaluation of a single reform, or proof that any policy
+package works uniformly. The next valid test joins inherited opportunity, place,
+education, care, skills, work, mobility, institutional design, and realized
+intergenerational room.
+
+**Lived-condition and reliability rotation — 2026-09-27:** the [SCP Social and
+Cultural Developments 2026 record](records/comparative-scp-netherlands-social-cultural-developments-2026-wellbeing-trust-inequality.json)
+adds a national public-systems layer linking quality of life, social cohesion,
+income and education gradients, mental-health pressure, participation, political
+trust, responsiveness, and problem-solving credibility. It is a national
+monitoring report using aggregate and subgroup survey results plus European
+comparisons, not raw respondent-level ingestion, clinical diagnosis, causal
+policy evaluation, or a general claim about every country. The next valid test
+joins unequal resources and social experience, well-being, cohesion,
+institutional reliability, public voice, and realized legitimacy.
+
+**Participation-implementation rotation — 2026-09-27:** the [European
+Commission JRC citizen-engagement record](records/comparative-european-commission-citizen-engagement-impact-2026-participation-legitimacy-capacity.json)
+adds an implementation layer linking institutional commitment, administrative
+capacity, civic process, communication, recommendation uptake, accountability,
+legitimacy, and trust. It is an EU public-administration survey, qualitative
+interview, and report synthesis, not a causal evaluation of each process,
+representative public opinion, raw participant-level data, or proof that
+deliberation is equitable or effective when outputs are ignored. The next valid
+test joins public demand, civic process, institutional capacity, policy uptake,
+explanation, accountability, and realized legitimacy.
+
+**Gendered-DPI rotation — 2026-09-27:** the [UN Women gender-inclusive DPI
+record](records/comparative-un-women-gender-inclusive-digital-public-infrastructure-2026.json)
+adds a gendered infrastructure and public-service layer linking digital identity,
+payments, data exchange, financial inclusion, essential services, life-course
+access, co-design, safeguards, and accountability. It is a global exemplar-story
+and policy framework, not an adoption census, raw user-level dataset, causal
+evaluation, or proof that scaling produces equitable outcomes without offline
+routes and remedy. The next valid test joins digital-system design, identity,
+payments, services, gendered exposure, agency, safeguards, accountability, and
+realized capability.
+
+**Gendered-civic-space rotation — 2026-09-27:** the [UN Women public-sphere
+violence record](records/comparative-un-women-online-violence-women-public-sphere-ai-2025.json)
+adds a civic-space and platform-governance layer linking online violence,
+offline safety, AI-enabled abuse, women’s public participation, legal
+protection, platform accountability, and support. It is a global survey and
+policy synthesis, not a country-by-country prevalence census, raw platform
+incident log, respondent-level harm history, causal participation estimate, or
+proof that every moderation or legal response is effective and proportionate.
+The next valid test joins platform and AI change, gendered exposure, safety,
+public voice, civic space, accountability, and realized participation.
+
+**Assistive-technology rotation — 2026-09-27:** the [UN Women–ATscale
+record](records/comparative-un-women-atscale-assistive-technology-gender-2026.json)
+adds a disability, care, and access layer linking assistive products, autonomy,
+time, service continuity, education, work, leadership, digital access, and
+public participation. It is a global policy brief and mixed evidence synthesis,
+not a product-coverage census, raw user-level disability dataset, representative
+prevalence estimate, causal impact evaluation, or proof that mainstreaming works
+without disability-specific provision and user-led accountability. The next
+valid test joins disability and gendered need, products, services, care, work,
+institutional design, public voice, and realized participation.
+
+**Conflict-finance and local-capacity rotation — 2026-09-27:** the [UN Women
+Ukraine aid-cuts record](records/comparative-un-women-ukraine-aid-cuts-women-led-organizations-2026.json)
+adds a conflict-finance and local-civic-capacity layer linking foreign-assistance
+contraction, women-led organizations, staffing, planning, operations,
+gender-responsive services, local accountability, and crisis resilience. It is a
+comparative organizational assessment, not a complete civil-society census,
+audited funding database, individual service-user histories, causal aid-
+effectiveness estimate, or proof that every organization or region experienced
+the same effect. The next valid test joins geopolitical and fiscal pressure,
+funding, staffing, local civic capacity, service continuity, gendered access,
+accountability, and realized crisis resilience.
+
+**Commercial future-of-work rotation — 2026-09-27:** the [ManpowerGroup Human
+Edge record](records/comparative-manpower-human-edge-2026-ai-workforce-trust-skills.json)
+adds a workforce-forecast layer linking AI job redesign, hybrid teams, skills,
+training access, burnout, trust, contingent work, workforce aging, degrees,
+mentorship, and succession. It is commercially produced and mixes survey
+evidence, external sources, and vendor interpretation, not raw respondent-level
+ingestion, a complete labor-market census, a causal AI displacement estimate, an
+independent audit of employer claims, or proof that its workforce strategies
+improve worker welfare. The next valid test joins AI and demographic change, job
+design, skills, trust, time, bargaining, income security, organizational power,
+and realized work agency.
+
+**Global social-progress rotation — 2026-09-27:** the [2026 Global Social
+Progress Index record](records/comparative-social-progress-index-2026-rights-health-housing-gdp.json)
+adds a non-economic global outcome layer linking rights, health, safety,
+environmental quality, water, sanitation, housing, information, education,
+inclusion, opportunity, and the limits of GDP as a progress measure. It is a
+composite index and publisher interpretation, not a causal political-economy
+model, respondent-level lived-experience data, a complete within-country
+distributional account, or proof that rights decline causes every other
+component to worsen. The next valid test joins political and economic
+conditions, rights, institutions, services, health, housing, information,
+environment, and realized social progress.
+
+**Peace-justice-inclusion rotation — 2026-09-27:** the [SDG 16 Global Progress
+Report 2026 record](records/comparative-sdg16-global-progress-report-2026-peace-justice-inclusion-institutions.json)
+adds a public-institutions layer linking conflict, detention, violence, legal
+identity, discrimination, representation, official statistics, and reform
+capacity. It is a UN-produced publication synthesis and selected country case
+studies, not respondent-level ingestion, a causal institutional-performance
+model, a complete country panel, or proof that highlighted reforms generalize
+everywhere. The next valid test joins conflict and exclusion, measurement,
+institutions, representation, justice, public trust, and realized social order.
+
+**Circular-consumption rotation — 2026-09-27:** the [Mastercard
+conscious-consumption record](records/comparative-mastercard-conscious-consumption-2026-circular-commerce-value-values.json)
+adds a consumer-culture and market-infrastructure layer linking cost,
+durability, trust, values, resale, rental, repair, reuse, digital access, and
+spending behavior. It combines aggregated and anonymized spending analysis with
+partner survey research, not respondent-level ingestion, a representative global
+consumer panel, a causal sustainability estimate, a complete lifecycle
+analysis, or proof that circular adoption improves welfare or environmental
+outcomes uniformly. The next valid test joins cost and values, product design,
+market infrastructure, consumer action, firm power, and realized environmental
+and household outcomes.
+
+**Domestic-revenue and fiscal-frontier rotation — 2026-09-27:** the [World
+Bank Raising Revenue Right record](records/comparative-world-bank-raising-revenue-right-2026-fiscal-frontier-trust-technology.json)
+adds a public-finance and state-capacity layer linking fiscal pressure, tax
+efficiency, fairness, administrative technology, transparency, trust, taxpayer
+compliance, and public-service capacity. It is a World Bank policy-research
+framework and comparative evidence synthesis, not respondent-level ingestion, a
+complete tax-incidence database, a causal reform estimate, a country
+implementation evaluation, or proof that more revenue becomes better services
+or legitimacy. The next valid test joins debt and aid pressure, tax design,
+administration, trust, public services, household room, and realized state
+capacity.
+
+**AI capability-to-consequence rotation — 2026-09-27:** the [Stanford AI Index
+2026 record](records/comparative-stanford-ai-index-2026-adoption-capability-trust-transparency.json)
+adds a technology-capability and social-consequence layer linking AI adoption,
+investment, labor adjustment, productivity, incidents, transparency, language,
+safety, public opinion, and institutional governance. It is a Stanford research
+synthesis of aggregate surveys, benchmarks, incident records, and published
+studies, not respondent-level ingestion, a causal estimate of aggregate
+employment effects, a complete incident census, a universal model-quality
+measure, or proof that capability gains translate into equitable welfare or
+trusted institutions. The next valid test joins AI investment and adoption,
+infrastructure, work, language, safety, public governance, trust, and realized
+social consequence.
+
+**AI-safety-and-resilience rotation — 2026-09-27:** the [International AI
+Safety Report 2026 record](records/comparative-international-ai-safety-report-2026-capability-risk-resilience.json)
+adds a scientific risk-and-resilience layer linking general-purpose AI
+capability, malicious use, malfunctions, systemic dependence, labor, human
+autonomy, AI companions, safeguards, governance, and societal resilience. It is
+an international scientific review, not respondent-level ingestion, a
+probability forecast of catastrophic outcomes, a complete misuse census, a
+causal evaluation of safeguards, or proof that one governance regime is
+sufficient. The next valid test joins capability and infrastructure, misuse,
+malfunction, labor, autonomy, institutions, resilience, accountability, and
+realized social consequence.
+
+**Nutrition-climate-health rotation — 2026-09-27:** the [2026 Global Nutrition
+Report record](records/comparative-global-nutrition-report-2026-climate-health-financing-healthy-diet.json)
+adds a food-health-climate and fiscal-capacity layer linking healthy-diet
+affordability, malnutrition, climate shocks, food prices, health and sanitation
+infrastructure, social protection, financing, governance, gendered exposure,
+and commitment accountability. It is a global report synthesis, not
+respondent-level ingestion, a causal estimate of climate effects, household
+microdata, or proof that integrated policy will work uniformly. The next valid
+test joins climate and fiscal pressure, food access, health delivery, system
+coordination, public accountability, and realized nutrition.
+
+**Connected-consumer infrastructure rotation — 2026-09-27:** the [Assurant
+Connected Consumer Trends 2026 record](records/comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership.json)
+adds a consumer-technology and ownership layer linking device dependence,
+cost, reliability, support, repair, protection, AI trust, brand power, and
+total ownership value. It is a company-sponsored online consumer survey and
+commercial report, not respondent-level ingestion, observed claims or
+transactions, a causal estimate of support effects, or proof of equal benefit
+across markets. The next valid test joins connected-device dependence, cost,
+complexity, support, repair, brand power, trust, household room, and realized
+consumer agency.
+
+**Higher-education mobility and AI-readiness rotation — 2026-09-27:** the
+[UNESCO Higher Education Global Trends 2026 record](records/comparative-unesco-higher-education-global-trends-2026-mobility-ai-equity.json)
+adds an education, mobility, and institutional-capacity layer linking
+enrollment, completion, credential recognition, refugee access, gendered
+leadership, finance, international mobility, AI policy, and labor-market
+conversion. It is a UNESCO comparative report using aggregate public
+indicators and literature, not respondent-level ingestion, student transcripts,
+causal estimates of higher-education returns, or proof that expansion produces
+equal quality or opportunity. The next valid test joins demographic and
+technological change, access, cost, completion, mobility, credentials,
+institutional power, work, and realized social opportunity.
+
+**Child-centred education-systems rotation — 2026-09-27:** the [UNICEF
+Education Strategy 2026 record](records/comparative-unicef-education-strategy-2026-learning-equity-skills-systems.json)
+adds a child-centred systems and future-readiness layer linking meaningful
+learning, equity, skills, technological change, environmental change, system
+transformation, partnerships, and implementation capacity. It is a public
+UNICEF strategy, not respondent-level ingestion, student-level learning data,
+an implementation audit, a causal reform estimate, or proof of equal outcomes
+across countries. The next valid test joins changing conditions, education
+design, institutional capacity, family and teacher burden, skills, equity, and
+realized child opportunity.
+
+**Participation-and-cohesion rotation — 2026-09-27:** the [OECD Cohesion
+Policy participation record](records/comparative-oecd-citizen-participation-cohesion-policy-2026-pilots-trust-capacity.json)
+adds a local-democracy and cultural-participation layer linking deliberation,
+student voice, civic monitoring, budget input, policy timing, feedback,
+institutional capacity, inclusion, trust, and policy relevance. It is an OECD
+pilot synthesis, not respondent-level ingestion, a representative population
+survey, a randomized causal estimate, proof of equal inclusion, or proof that
+recommendations produced durable outcomes. The next valid test joins lived
+experience, civic process, local knowledge, institutional capacity, policy
+choice, explanation, trust, and realized public value.
+
+**Culture-and-consumer-signal rotation — 2026-09-27:** the [Spate Global
+Culture Shifts 2026 record](records/comparative-spate-global-culture-shifts-2026-search-social-wellness.json)
+adds a commercial cultural-signal layer linking stress regulation,
+self-optimization, wellness, nostalgia, analog practices, spirituality,
+platform discovery, search intent, aesthetic identity, brand strategy, and
+purchase pathways. It is trend forecasting, not respondent-level ingestion,
+raw search or social data, a representative cultural survey, clinical
+evidence, a causal purchase model, or proof that the movements are durable or
+globally prevalent. The next valid test joins ambient pressure, platform
+attention, cultural identity, product demand, and realized social meaning.
+
+**Cultural-measurement and access rotation — 2026-09-27:** the [Eurostat
+culture-statistics guide 2026 record](records/comparative-eurostat-culture-statistics-2026-participation-barriers-measurement.json)
+adds a measurement and access layer linking cultural participation, cost,
+time, proximity, disability, income, poverty risk, household type, digital
+activity, household expenditure, and public cultural spending. It is an
+official methodological guide, not respondent-level ingestion, a current
+participation estimate, a causal cultural-participation effect, or a complete
+cultural-ecosystem census. The next valid test joins household and place
+conditions, access barriers, cultural practice, identity, social connection,
+public provision, and realized participation.
+
+**Democratic-institution rotation — 2026-09-27:** the [citizens’ assemblies
+handbook record](records/comparative-newdemocracy-undef-undp-citizens-assemblies-2026-deliberation-agency-trust.json)
+adds a participatory-democracy implementation layer. It links civic lottery,
+time, information, structured deliberation, representation, agency, trust,
+policymaking, public explanation, and institutional follow-through. It is a
+practice handbook, not respondent-level ingestion, a representative opinion
+dataset, a causal evaluation, or proof of equitable outcomes. The next valid
+test joins distrust and contested policy, civic selection, time, information,
+deliberation, agency, institutional response, trust, and realized legitimacy.
+
+**Cultural-AI dialogue rotation — 2026-09-27:** the [UN Office for Partnerships
+AI and Human Development dispatches](records/comparative-unop-ai-human-development-dispatches-2026-trust-culture-labor-knowledge.json)
+adds a qualitative cultural-social layer. It links AI to trust, language,
+responsibility, cultural identity, knowledge ownership, embodied systems,
+household life, journalism, labor, and social cohesion. It is a selective,
+unattributed narrative account, not a representative survey, respondent-level
+ingestion, consensus statement, technical forecast, or causal estimate. The
+next valid test joins technical capability, language, trust, cultural identity,
+knowledge ownership, labor, household relationships, public accountability,
+and realized human development.
+
+**Operational-climate rotation — 2026-09-27:** the [UNDP Greening Moonshot
+record](records/comparative-undp-greening-moonshot-2026-operations-emissions-energy-resilience.json)
+adds an institutional implementation layer. It links reported emissions
+reduction, green-energy projects, savings, energy resilience, workplace safety,
+service continuity, procurement, mobility, buildings, travel, and daily habits.
+It is a self-reported organizational mid-term report, not a global emissions
+estimate, independently verified causal evaluation, respondent-level ingestion,
+or proof that savings generalize across institutions. The next valid test joins
+climate risk, operations, energy cost, infrastructure resilience, work
+conditions, service continuity, institutional credibility, and public value.
+
+**Macro-conditions rotation — 2026-09-27:** the [World Bank long-term growth
+prospects record](records/comparative-world-bank-long-term-growth-prospects-2026-productivity-investment-demography-trade.json)
+adds a macro-to-social layer. It links a projected three-decade low in global
+potential growth to weakening investment, productivity, labor-force expansion,
+and trade, with consequences for poverty reduction, climate action, public
+capacity, convergence, and household opportunity. It is a conditional
+structural outlook, not realized welfare, respondent-level ingestion, or a
+country-by-country causal forecast. The next valid test joins macro potential,
+investment, jobs, prices, fiscal space, household room, inequality, climate
+adaptation, and political legitimacy.
+
+**Cultural-institutional AI rotation — 2026-09-27:** the [UNESCO-ICOM museum AI
+record](records/comparative-unesco-icom-museum-ai-adoption-governance-capacity-2026.json)
+adds a cultural-technology layer. It links reported museum AI adoption to
+internal policy gaps, exploratory and staff-led use, accuracy, copyright, data
+protection, unequal digital capacity, training, professional ethics, and
+community trust. It is a survey summary, not respondent-level ingestion, a
+representative estimate of all museums, a causal evaluation, or proof that AI
+improves cultural access. The next valid test joins cultural production,
+institutional adoption, data and copyright governance, staff capacity, trust,
+visitor experience, community voice, and realized cultural value.
+
+**Development-cooperation effectiveness rotation — 2026-09-27:** the [OECD-UNDP
+development-cooperation effectiveness record](records/comparative-undp-oecd-development-cooperation-effectiveness-2026-country-ownership-results-accountability.json)
+adds an institutional-finance and implementation layer. It links reporting from
+44 partner governments and 93 development partners to country ownership,
+results, inclusive partnerships, transparency, mutual accountability, and
+evidence-to-action. It is a monitoring and policy report, not respondent-level
+ingestion, a causal impact evaluation, a complete aid inventory, or proof that
+joint action improves realized outcomes. The next valid test joins external
+finance, ownership, institutional capacity, partnership power, transparency,
+accountability, local implementation, and public value.
+
+**Displacement-and-host-systems rotation — 2026-09-27:** the [UNHCR Global
+Appeal 2026 record](records/comparative-unhcr-global-appeal-2026-displacement-funding-inclusion-host-systems.json)
+adds a protection, public-service, livelihoods, and development-finance layer.
+It links projected displacement and statelessness to humanitarian funding,
+host-system capacity, legal status, equitable services, employment,
+entrepreneurship, financial services, local solutions, return, and
+resettlement. It is a planning appeal, not a realized displacement count,
+respondent-level ingestion, funding-outcome evaluation, or proof of durable
+protection. The next valid test joins conflict and climate exposure,
+displacement, status, service access, work, host capacity, agency, and durable
+security.
+
+**Agrifood-finance quality rotation — 2026-09-27:** the [FAO-CIRAD climate-
+finance quality record](records/comparative-fao-cirad-climate-finance-quality-agrifood-2026-equity-governance-local-ownership.json)
+adds a cross-source climate, food, finance, and governance layer. It links
+agrifood emissions and exposure to insufficient and poorly aligned finance,
+cost and source of capital, risk allocation, local ownership, donor-driven
+design, short project cycles, community rights, and the equity-efficiency
+tension. It is official systems-level finance evidence, not respondent-level
+ingestion, a causal project evaluation, or proof that the proposed quality
+reforms will be implemented. The next valid test joins climate exposure,
+finance access, fiscal space, farmer and community agency, resilience
+investment, and realized food-system outcomes.
+
+**Digital-resilience rotation — 2026-09-27:** the [ITU-UNDRR digital-systems-failure record](records/comparative-itu-undrr-digital-systems-fail-2026-cascades-resilience.json) adds a cross-border infrastructure and essential-services layer. It links digital interdependence to cascade risk, secondary spillovers, weakened analogue fallback, uneven redundancy, healthcare and payment continuity, early warning, trust, and global coordination. It is an expert preparedness report with illustrative scenarios, not a prediction, incident census, respondent-level dataset, or causal evaluation. The next valid test joins a realized disruption to local service loss, household exposure, fallback use, recovery time, institutional response, and unequal consequences.
+
+**Everyday-consumption rotation — 2026-09-27:** the [NCA coffee data-trends record](records/comparative-nca-coffee-data-trends-2026-specialty-out-of-home-routines.json) adds a consumer-culture layer. It links a widespread home routine to specialty and espresso formats, out-of-home recovery, drive-through, app ordering, and retail-channel movement. It is a trade-association survey summary, not transaction data, respondent-level ingestion, a causal estimate, or proof of durable cultural change. The next valid test joins reported format and channel choice to price, household budget, location, repeat behavior, social occasion, and realized spending.
+
+**Care-finance rotation — 2026-09-27:** the [PMNCH global health-financing record](records/comparative-pmnch-global-health-financing-crisis-2026-program-cuts-rights.json) adds a care-capacity and institutional-finance layer. It links uncertain funding to organizational contraction, service prioritization, localization, flexible-finance needs, and affected-group voice across women’s, children’s, and adolescents’ health work. It is a partner-network survey summary and advocacy publication, not beneficiary-level evidence, a representative organizational census, or a causal evaluation. The next valid test joins financing changes to named facilities or programs, service availability, local alternatives, household burden, and realized health outcomes.
+
+**Poverty-measurement rotation — 2026-09-27:** the [World Bank global poverty update](records/comparative-world-bank-global-poverty-update-2026-extreme-poverty-uneven-progress.json) adds a material-pressure and inequality layer. It links the 2024 extreme-poverty estimate and 2025–26 nowcasts to regional divergence, conflict and coverage limits, survey revisions, prices, work, services, and household security. It is modeled survey-and-nowcast evidence, not respondent-level ingestion, a multidimensional deprivation measure, or a causal welfare evaluation. The next valid test joins poverty status to repeated household resources, prices, services, exposure, agency, and realized change.
+
+**Commodity-price rotation — 2026-09-27:** the [World Bank Pink Sheet September 2026 record](records/comparative-world-bank-pink-sheet-september-2026-energy-food-fertilizer-metals.json) adds a price-transmission layer. It links energy, food, fertilizer, and metals benchmarks to geopolitical exposure, firm and farm inputs, state vulnerability, and household room while preserving the distinction between benchmark prices and lived costs. It is price/index evidence, not retail inflation, household expenditure, firm profit, or welfare data. The next valid test joins a benchmark shock to local prices, contracts, margins, household budgets, political response, and realized outcomes.
+
+**Conflict-health systems rotation — 2026-09-27:** the [WHO Middle East situation report](records/comparative-who-middle-east-conflict-health-systems-2026-displacement-continuity.json) adds a dated operational layer. It links conflict to casualties, displacement, attacks on health care, damaged power and water systems, medicine costs and shortages, facility closure, reproductive-health need, emergency adaptation, and underfunded response. It is a situation report, not a harmonized conflict census, causal attribution, beneficiary panel, or outcome evaluation. The next valid test joins a realized conflict exposure to named facilities, household care access, travel and waiting burden, treatment continuity, alternatives, and recovery.
+
+**Public-health sensing rotation — 2026-09-27:** the [WHO Weekly Epidemiological Record 101(38) record](records/comparative-who-weekly-epidemiological-record-101-38-2026-surveillance-signals.json) adds a surveillance-infrastructure layer. It links raw signal volume to categorization, deduplication, escalation, respiratory-virus variation, reporting quality, laboratory participation, vaccination, and prevention. It is a surveillance publication, not a complete event census, population prevalence estimate, respondent-level dataset, or causal vaccine evaluation. The next valid test joins a signal to verification, geographic and social coverage, public communication, intervention, and realized health protection.
+
+**Education-AI governance rotation — 2026-09-27:** the [UNESCO common-good consultation record](records/comparative-unesco-ai-education-common-good-deliberative-governance-2026.json) adds a public-purpose technology layer. It links AI diffusion to education-system agency, sovereignty, age appropriateness, learner safety, procurement, total cost, explainability, equity, inclusion, and deliberation. It is a discussion-paper and consultation record, not learner-level evidence, an adoption survey, a learning-outcome evaluation, or proof of equitable implementation. The next valid test joins a named AI education system to procurement terms, cost, teacher and learner voice, safety incidents, explanations, alternatives, and realized learning or civic outcomes.
+
+**Education-culture rotation — 2026-09-27:** the [UNESCO multilateralism think-piece record](records/comparative-unesco-education-multilateralism-classroom-cooperation-2026.json) adds a qualitative cultural-institutional layer. It links classroom encounter to cooperation across difference, curriculum, local-global knowledge, intellectual humility, identity, trust, and civic agency without requiring consensus. It is a think piece, not classroom observation, survey, learning-outcome evidence, or causal evaluation. The next valid test joins educational practice to exposure to difference, knowledge authority, belonging, trust, cooperation, and later civic or social-cohesion action.
+
+**Climate-social-protection rotation — 2026-09-27:** the [ILO-AFD social-insurance record](records/comparative-ilo-social-protection-climate-insurance-2026-just-transition.json) adds a climate-labor-household layer. It links climate impacts and policy to lifecycle risk, social insurance, work and livelihood transitions, coverage gaps, and just-transition design. It is a literature review based on 2022 analysis, not current coverage data, a household panel, or a causal evaluation. The next valid test joins a climate or policy shock to actual coverage, eligibility, contributions, benefit receipt, job transition, household budget, and realized recovery.
+
+**Labor/platform rotation — 2026-09-27:** the [ILO Cambodia digital-platform-workers record](records/comparative-ilo-cambodia-digital-platform-workers-2026-algorithmic-work-security.json) adds a platform-labor layer. It links platform expansion to long hours and unpaid waiting, operating costs, algorithmic allocation and penalties, injury risk, contractor classification, and weak collective voice. Because the study is limited to Phnom Penh, the next test is whether the same mechanism appears across Cambodia and in other platform-work systems.
+
+**AI-health governance rotation — 2026-09-27:** the [WHO AI-health-research ethics record](records/comparative-who-ai-health-research-ethics-2026-oversight-equity.json) adds a lifecycle-governance layer. It links AI health research to ethics review, institutional capacity, public trust, data power, benefit sharing, local participation, and risks of data colonialism and ethics dumping. The next test joins a named AI health research or deployment pathway to review authority, data provenance, community participation, remedy, benefit distribution, and realized health outcomes.
+
+**Housing-security rotation — 2026-09-27:** the [OECD homelessness and housing-exclusion record](records/comparative-oecd-homelessness-housing-exclusion-2026-pathways-hidden.json) adds a pathway and measurement layer. It links poverty, housing-market pressure, institutional exits, relationship breakdown, health, employment, social support and hidden homelessness. The next test joins a local housing shock or institutional transition to living situation, rent and income, service access, informal support, prevention, and durable housing security.
+
+**Climate-politics rotation — 2026-09-27:** the [OECD climate-sentiment and just-transition record](records/comparative-oecd-climate-sentiment-2026-just-transition-public-support.json) adds a public-legitimacy layer. It links climate concern to action support, perceived policy effectiveness, household and sectoral economic security, social norms, communication, compensation and fair burden sharing. The next test joins a named climate policy to local prices, work exposure, compensation, perceived fairness, trust, political response and realized emissions or adaptation outcomes.
+
+**Digital-identity rotation — 2026-09-27:** the [W3C Identity & the Web record](records/comparative-w3c-identity-web-2026-privacy-governance-trust.json) adds a digital-public-infrastructure layer. It links credentials to privacy, recognition, access, trust, cultural meaning, human rights, surveillance, interoperability and vendor power. The next test joins a named identity system to issuance authority, data minimization, exclusion, verification friction, remedy, user control and realized access or harm.
+
+**Cultural-AI rotation — 2026-09-27:** the [Government of Canada AI and Culture Summit record](records/comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust.json) adds a cultural-production layer. It links AI adoption to copyright, creator livelihoods, trust, co-design, Indigenous and linguistic sovereignty, domestic infrastructure, literacy and institutional readiness. The next test joins a named cultural AI tool to training-data rights, attribution, compensation, community consent, workflow use, worker voice, institutional capacity and realized cultural value.
+
+**Community-culture rotation — 2026-09-27:** the [Circle 2026 Community Trends record](records/comparative-circle-community-trends-2026-human-connection-belonging.json) adds a community and platform-economy layer. It links AI-generated content and algorithmic noise to connection, belonging, intentional design, creator and brand strategy, retention and the commercialization of community. The next test joins a named community to participation quality, moderation, member labor, trust, retention, revenue, platform dependence and realized belonging.
+
+**Critical-risk governance rotation — 2026-09-27:** the [OECD critical-risk governance record](records/comparative-oecd-critical-risk-governance-2026-polycrisis-preparedness.json) adds a state-capacity and geopolitical-risk layer. It links compound climate, infrastructure, information, supply and geopolitical risks to foresight, preparedness investment, whole-of-society coordination, accountability, systematic learning and cross-border cooperation. The next test joins a named dependency or crisis to operational readiness, public burden, institutional response and realized safety.
+
+**Trade-infrastructure rotation — 2026-09-27:** the [WEF TradeTech Paradox record](records/comparative-wef-tradetech-paradox-2026-connectivity-fragmentation.json) adds a digital-connectivity and geoeconomic layer. It links trade fragmentation to digital visibility, finance, logistics, interoperability, governance, human capacity and firm or state dependence. The next test joins a named trade corridor or platform to costs, delays, data power, labor effects, SME access, resilience and realized household or regional consequences.
+
+**Housing-and-migration rotation — 2026-09-27:** the [SVR Germany housing and participation record](records/comparative-svr-germany-housing-migration-2026-participation-neighborhoods.json) adds a place-and-status layer. It links housing affordability, tenure, migration background, neighbourhood resources, social segregation, education, work, discrimination, refugee accommodation and participation. The next test joins a named housing or migration policy to local supply, rent, tenure, services, legal choice, social interaction and realized mobility or belonging.
+
+**Intercultural-dialogue rotation — 2026-09-27:** the [UNESCO–IEP dialogue record](records/comparative-unesco-iep-intercultural-dialogue-2022-released-2026-peace-inclusion.json) adds a cultural and civic-capacity layer. It links dialogue structures, processes and values to identity, inclusion, rights, conflict prevention, resilience and peace. The next test joins a named dialogue, school, cultural or civic intervention to participation, institutional response, material inclusion, feedback and durable social cohesion.
+
+**Social-cohesion measurement rotation — 2026-09-27:** the [World Bank social-cohesion record](records/comparative-world-bank-social-cohesion-development-outcomes-2023-bonding-bridging-linking.json) adds a relational-governance layer. It separates bonding, bridging and linking, then connects those dimensions to trust, participation, citizen-state relations, development investment and implementation. The next test joins a named program to each relational dimension, material delivery, institutional accountability and durable outcomes.
+
+**Process-legitimacy rotation — 2026-09-27:** the [World Bank process-legitimacy record](records/comparative-world-bank-process-legitimacy-2025-development-contestation.json) adds a procedural-governance layer. It links fairness, representation, affected-group losses and multi-level legitimacy contests to negotiation, cooperation and implementation risk. The next test joins a named development change to who decides, who loses, who can contest, what feedback occurs and whether material outcomes are accepted as legitimate.
+
+**AI-diffusion rotation — 2026-09-27:** the [World Bank generative-AI use record](records/comparative-world-bank-generative-ai-use-2025-income-digital-divide.json) adds a technology-capability layer. It links GenAI traffic to country income, connectivity, platform concentration, localization and potential work or economic participation. The next test joins a named AI tool or service to access cost, language, skills, task use, platform dependence, work bargaining and realized gains or harms.
+
+**Creative-work rotation — 2026-09-27:** the [UK Creative Industries AI Adoption Plan record](records/comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills.json) adds a cultural-labour layer. It links AI adoption to augmentation, trust, rights, firm size, skills, entry routes, cost barriers and regional infrastructure. The next test joins a named creative workflow to worker control, client rules, training, copyright, compensation, public disclosure and realized job quality or cultural value.
+
+**Child-digital-safety rotation — 2026-09-27:** the [ITU Protection through Online Participation record](records/comparative-itu-pop-child-online-protection-2026-reporting-support-pathways.json) adds a child-agency and protection layer. It links online risk to reporting, help-seeking, support, referral, platform responsibility, accessibility and public-service capacity. The next test joins a named online reporting pathway to child awareness, trust, response time, referral completion, privacy, safety and realized protection.
+
+**Ageing-and-AI rotation — 2026-09-27:** the [ITU AI and ageing record](records/comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation.json) adds a life-course digital-inclusion layer. It links AI to health, economic security, participation, connectivity, age and gender inequality, affordability, skills and trust. The next test joins a named AI-enabled service to older-person access, human support, privacy, cost, care capacity, agency and realized wellbeing.
+
+**Shock-smoothing rotation — 2026-09-27:** the [World Bank international risk-sharing record](records/comparative-world-bank-international-risk-sharing-government-private-saving-2026-shock-smoothing.json) adds a macro-household buffer layer. It links global shocks to government saving, private saving, remittances, transfers, investment income, fiscal space and capital-account openness. The next test joins a shock to the available buffer, distributional reach, speed of protection, household consumption room and political legitimacy.
+
+**Housing-resilience rotation — 2026-09-27:** the [World Bank housing robustness record](records/comparative-world-bank-housing-robustness-2026-poverty-disaster-learning.json) adds a built-environment layer. It links poverty and fragile housing to building systems, repeated disaster experience, governance quality and institutional learning. The next test joins a named hazard to housing fragility, code and enforcement capacity, household material room, repair or rebuilding access and realized safety.
+
+**Adaptive-protection rotation — 2026-09-27:** the [World Bank disaster-poverty record](records/comparative-world-bank-adaptive-social-protection-2026-disaster-poverty-coverage-intensity.json) adds a delivery layer. It links disaster exposure to poverty, consumption and well-being losses, coverage, benefit intensity, targeting, country income and delivery capacity. The next test joins a named hazard to reach, payment speed, support depth, exclusion, grievance access and realized recovery.
+
+**AI-skills rotation — 2026-09-27:** the [OECD AI and skills record](records/comparative-oecd-ai-skills-2026-adoption-training-human-work.json) adds a work-transition layer. It links AI adoption to skills shortages, high-level and human skills, data interpretation, training, algorithmic management, worker privacy and job quality. The next test joins a named AI deployment to task change, training access, workload, bargaining, social interaction, privacy and realized worker outcomes.
+
+**Everyday-health rotation — 2026-09-27:** the [PwC Voice of the Consumer record](records/comparative-pwc-voice-consumer-2026-everyday-health-data-trust.json) adds a consumer-health layer. It links daily routines to food, sleep, stress, weight, wearables, diagnostics, coaching, AI, pharmacies, data sharing, affordability and trusted human guidance. The next test joins a named health occasion to actual purchase, recurring use, data permission, cost, clinical support, exclusion and realized wellbeing.
+
+**Generation Equality rotation — 2026-09-27:** the [UN Women institutionalized feminist systems-change record](records/comparative-un-women-generation-equality-2026-institutionalized-feminist-systems-change.json) adds a governance-and-implementation layer. It links commitments to financing, accountability, public-system integration, feminist and youth leadership, civic space, data learning and durable change. The next test joins a named commitment to who controls resources, who decides, who can contest, what data changes, and whether local implementation persists.
+
+**Pacific gender-data rotation — 2026-09-27:** the [UN Women Pacific Gender Data Outlook Index record](records/comparative-un-women-pacific-gender-data-outlook-index-2026-data-capacity-accessibility.json) adds a measurement-as-infrastructure layer. It links enabling environment, financing, data production, accessibility and the missing data-use pathway to policy visibility, prioritization, investment and accountability. The next test joins a data-system score to actual policy uptake, local control, privacy, disaggregation and whether better evidence changes resource allocation.
+
+**Belonging rotation — 2026-09-27:** the [Belonging Forum UK Belonging Barometer record](records/comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose.json) adds a social-infrastructure layer. It links belonging to People, Place, Power and Purpose, then to housing and economic pressure, time, local services, health, representation and participation. The next test joins a named place or policy change to actual third-space access, cost, time, safety, institutional responsiveness, social ties and durable belonging.
+
+**Digital-systems rotation — 2026-09-27:** the [DataReportal Digital 2026 Mid-Year record](records/comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity.json) adds a global digital-infrastructure layer. It links internet and mobile access to social platforms, AI, information, advice, learning, entertainment, attention and uneven digital dependence. The next test joins a named platform or AI service to access cost, identity and data power, language, skills, time, work effects, offline alternatives and realized participation.
+
+**AI-attitudes rotation — 2026-09-27:** the [Public First AI Global 2026 record](records/comparative-public-first-ai-global-2026-backlash-sovereignty-sophistication.json) adds a legitimacy-and-power layer. It links AI adoption to sentiment, shallow versus sophisticated use, income, education, firm support, sensitive-data trust, model origin, data sovereignty, data-centre politics and relational use. The next test joins a named deployment to who has sophisticated access, who bears infrastructure costs, whose data and model authority dominate, and whether trust or resistance changes implementation.
+
+**Consumer-outlook rotation — 2026-09-27:** the [NIQ Consumer Outlook 2026 record](records/comparative-niq-consumer-outlook-2026-financial-caution-trust-commerce.json) adds a household-consumption layer. It links financial caution, cost of living, geopolitical concern and income insurance to essential spending, category inflation, brand trust, cultural localization, social commerce and physical retail. The next test joins a named price or geopolitical shock to household budget, substitution, debt, additional work, channel access, trust and realized consumption.
+
+**Hybrid-value rotation — 2026-09-27:** the [Capgemini consumer 2026 record](records/comparative-capgemini-consumer-2026-value-ai-human-touch-fairness.json) adds a consumer-control layer. It links fairness and quality to switching, intentional indulgence, AI shopping, permissions, data concern, human support and social commerce. The next test joins a named shopping journey to price fairness, product reliability, agent autonomy, disclosure, human escalation, emotional value and realized loyalty.
+
+**Cultural-identity rotation — 2026-09-27:** the [Culturati Cultural Mosaic 5.0 record](records/comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai.json) adds a cultural-decision layer. It links polycultural identity to lifestyle, shopping, media, creators, trusted voices and AI discovery. The next test joins a named cultural audience or product journey to representation, language, creator authority, recommendation visibility, platform incentives, price, trust and realized choice.
+
+**Civic-geopolitical rotation — 2026-09-27:** the [CIVICUS 2026 State of Civil Society record](records/comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics.json) adds a civic-geopolitical layer. It links democratic retreat, impunity, technology power, civic-space contraction, funding pressure and distributed resistance. The next test joins a named country or movement to civic-space change, platform or surveillance exposure, organizational autonomy, funding, tactical mix, policy response and durable democratic outcome.
+
+**Labor-market rotation — 2026-09-27:** the [ILO Employment and Social Trends 2026 record](records/comparative-ilo-employment-social-trends-2026-fragile-stability-job-quality.json) adds a work-security layer. It links headline employment stability to the jobs gap, informality, working poverty, income recovery, productivity divergence, gender and youth exclusion, trade and domestic policy. The next test joins a named labor market or sector to job access, quality, wages, protection, technology exposure, household room and realized mobility.
+
+**Food-culture rotation — 2026-09-27:** the [Circana Eating Patterns in America 2026 record](records/comparative-circana-eating-patterns-america-2026-food-occasions-channels.json) adds a consumption-system layer. It links food occasions to home/away context, time, money, channels, preparation infrastructure, emerging behavior and commercial measurement. The next test joins a named food routine or category to price, time, social meaning, channel access, health or security, repeat behavior and realized household tradeoff.
+
+**Institutional-confidence rotation — 2026-09-27:** the [Gallup Global Confidence in Institutions 20-Year Review record](records/comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust.json) adds a legitimacy countertrend. It links institution-specific confidence to regime type, political position, election and judicial perceptions and information constraints. The next test joins a named institution or policy to service experience, voice, performance, regime context, information environment, subgroup trust and durable legitimacy.
+
+**Poverty-fragility rotation — 2026-09-27:** the [World Bank Fragility at the Core of Global Poverty record](records/comparative-world-bank-poverty-fragility-2026-feedback-data-conflict.json) adds a development-security layer. It links poverty concentration to conflict, displacement, institutional capacity, public delivery, data architecture and resilience. The next test joins a named fragile or conflict-affected setting to violence, displacement, service access, income, local institutions, assistance, recovery and durable poverty reduction.
+
+**Climate-mobility rotation — 2026-09-27:** the [JRC Climate Security, Migration and Fragility record](records/comparative-jrc-climate-security-migration-fragility-2026-risk-multiplier-resilience.json) adds a climate-security layer. It links climate stress to conflict, mobility, remittances, protection, safe pathways, urban inclusion and institutional capacity. The next test joins a named place or route to hazard, livelihood, violence, displacement, migration choice, host capacity, policy protection and realized resilience.
+
+**Humanitarian-capacity rotation — 2026-09-27:** the [OCHA Global Humanitarian Overview 2026 record](records/comparative-ocha-global-humanitarian-overview-2026-needs-funding-service-collapse.json) adds a response-capacity layer. It links conflict and climate need to funding, service closure, coordination, cash, water, shelter, infrastructure and recovery. The next test joins a named crisis to needs assessment, funding, delivery, recipient control, service continuity, local capacity and durable outcome.
+
+**Organizational-AI rotation — 2026-09-27:** the [Deloitte Global Human Capital Trends 2026 record](records/comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust.json) adds a work-design layer. It links AI adoption to human–machine synergy, leadership, adaptability, cultural debt, trust and worker/manager perception gaps. The next test joins a named deployment to task redesign, decision authority, data quality, worker voice, training, surveillance, productivity, autonomy and job quality.
+
+**Professional-workforce rotation — 2026-09-27:** the [ACCA Global Talent Trends 2026 record](records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json) adds an adoption-and-legitimacy layer. It links AI hiring confidence, regular use, skill learning, agent deployment, hybrid schedules, promotion visibility, purpose, wellbeing and retention. The next test joins a named deployment to human review, training access, task authority, schedule control, promotion rules, mental health, turnover and realized job quality.
+
+**Human-purpose rotation — 2026-09-27:** the [ITDF Human Purpose in Peril record](records/comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds.json) adds a public meaning-and-agency layer. It links LLM adoption to daily influence, learning, product research, health, work, finance, housing, social rehearsal, connection, purpose, critical thinking, verification and institutional guidance. The next test joins a named AI-mediated life journey to convenience, delegation, accuracy, dependence, human support, social meaning and realized autonomy.
+
+**Civic-conversation rotation — 2026-09-27:** the [More in Common/UCL Disagreeing Well record](records/comparative-more-in-common-disagreeing-well-2026-silence-civic-spaces.json) adds a social-cohesion layer. It links identity conflict to reluctance to speak, negative labels, disagreement norms, political hostility, civic-forum use, informal spaces, party variation and generational variation. The next test joins a named controversy to reputational risk, platform exposure, listening, venue access, cross-group contact, participation and durable legitimacy.
+
+**Geopolitical-public-opinion rotation — 2026-09-27:** the [Rockefeller Foundation/Focaldata global cooperation record](records/comparative-rockefeller-focaldata-global-cooperation-2026-security-leadership-aid.json) adds a public-legitimacy layer. It links world pessimism to security priorities, cooperation support, aid, national-interest framing, leadership fragmentation, coalition design and institutional trust. The next test joins a named crisis or aid decision to perceived threat, household/national benefit, delivery evidence, leadership legitimacy, coalition preference and durable public consent.
+
+**Climate-consent rotation — 2026-09-27:** the [Potential Energy Fixing Climate Communications record](records/comparative-potential-energy-climate-communications-2026-cost-health-energy-independence.json) adds a climate-meaning layer. It links climate support to pollution, health, household cost, fairness, energy independence, perceived solvability, ideology and language around net zero, bans and mandates. The next test joins a named climate or energy policy to lived exposure, bill effects, health, local benefit, messenger trust, framing, distributional fairness and durable consent.
+
+**Social-connection rotation — 2026-09-27:** the [Meta-Gallup Global State of Social Connections record](records/comparative-meta-gallup-global-social-connections-2023-142-countries-loneliness.json) adds a social-health layer. It links emotional connectedness to loneliness, age, gender, country context, family/friend interaction, social capital and public-system support. The next test joins a named place or population to contact frequency, relationship quality, time and mobility, service access, loneliness, health, belonging and durable resilience.
+
+**Culture-infrastructure rotation — 2026-09-27:** the [4Culture King County Culture and Communities record](records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json) adds a cultural-participation layer. It links culture to belonging, health, learning, identity, community value, cost, time, caregiving, accessibility and public investment. The next test joins a named cultural program or place to household room, transport, welcome, representation, participation depth, social connection and durable community outcome.
+
+**Well-being-governance rotation — 2026-09-27:** the [OECD Slovak Republic well-being record](records/comparative-oecd-slovak-wellbeing-2026-policy-coherence-dashboard.json) adds a measurement-as-institution layer. It links dashboards and data quality to material conditions, relationships, sustainability, inequality, housing, education, trust, policy appraisal and budgeting. The next test joins a named indicator or dashboard to decision rights, budget changes, disaggregation, public accountability and realized outcomes rather than assuming measurement itself produces policy coherence.
+
+**Institutional-confidence rotation — 2026-09-27:** the [OECD Slovak trust record](records/comparative-oecd-slovak-trust-2026-public-services-voice-ai.json) adds a legitimacy-and-digital-government layer. It links trust to service encounters, benefit fairness, data legitimacy, evidence use, intergenerational balance, political voice and AI safeguards. The next test joins a named service or AI deployment to accessibility, treatment, explanation, human remedy, participation, trust change and realized institutional performance.
+
+**Culture-and-emergency rotation — 2026-09-27:** the [UNESCO Voices of Courage record](records/comparative-unesco-voices-courage-2026-women-culture-emergencies-resilience.json) adds a gendered cultural-resilience layer. It links crisis exposure to livelihood loss, safety, displacement, unpaid care, artistic freedom, support, decision-making and women-led heritage and community recovery. The next test joins a named crisis or cultural program to funding, protection, mobility, care burden, voice, continuity and durable recovery.
+
+**Health-economy rotation — 2026-09-27:** the [WHO Economics of Health for All record](records/comparative-who-economics-health-for-all-2026-cross-sector-policy-finance.json) adds a health-as-economic-system layer. It links tax, trade, industry, labor, care, commercial practices, social protection, finance, participation and dashboards to health equity and prosperity. The next test joins a named economic or commercial policy to health impact, distribution, household costs, worker conditions, public voice, accountability and realized outcomes.
+
+**Latino mobility-and-meaning rotation — 2026-09-27:** the [Pew American Dream record](records/comparative-pew-latinos-american-dream-2026-mobility-identity-household-security.json) adds a cultural-economic layer. It links household security, homeownership, work, opportunity, family/community wellbeing, freedom, equal treatment, nativity and generation to intergenerational hope and perceived attainability. The next test joins a named price, housing, labor or immigration condition to actual household room, mobility, consumption, identity, political trust and realized opportunity.
+
+**Identity-and-belonging rotation — 2026-09-27:** the [Pew Latino identity record](records/comparative-pew-latino-identity-2026-belonging-discrimination-generation-politics.json) adds a belonging-and-opportunity layer. It links identity centrality, discrimination, language, immigrant generation, self-labels, linked fate and collective responsibility to perceived advancement, social connection and political meaning. The next test joins a named institutional or labor encounter to identity treatment, language, opportunity, safety, participation, mutual aid and realized belonging.
+
+**Muslim-American identity-and-visibility rotation — 2026-09-27:** the [Pew Muslim Americans record](records/comparative-pew-muslim-americans-2026-25-years-911-identity-discrimination-political-visibility.json) adds a religion-and-civic-visibility layer. It links demographic and mosque growth, political representation, discrimination, media framing, public perceptions and partisan sorting to belonging and legitimacy. The next test joins a named institution, media environment or public event to treatment, safety, representation, religious freedom, participation and durable civic inclusion.
+
+**Social-exclusion systems rotation — 2026-09-27:** the [Swedish SOU 2026:53 record](records/comparative-sweden-sou-2026-53-parallel-social-structures-integration-exclusion-trust.json) adds a rights-and-institution layer. It links segregation, discrimination, institutional distrust, informal housing/justice/information routes, gendered power, children’s exposure and local public capacity to integration and resilience. The next test joins a named place or service system to access, treatment, trust, rights protection, informal substitution, participation and durable inclusion.
+
+**AI-distribution rotation — 2026-09-27:** the [TASC Ireland AI and Inequality record](records/comparative-tasc-ireland-ai-inequality-2026-work-distribution-voice.json) adds a technology-and-distribution layer. It links AI exposure, complementarity, gender, digital access, algorithmic management, ownership, worker voice and global environmental costs to work security and inclusion. The next test joins a named AI deployment to task change, pay, schedule, surveillance, bargaining power, accessibility, remedy and realized household or community outcomes.
+
+**Ireland household-inequality rotation — 2026-09-27:** the [TASC State We Are In 2026 record](records/comparative-tasc-ireland-inequality-2026-household-living-standards-housing.json) adds a material-security layer. It links market income, taxes, transfers, purchasing power, housing tenure, poverty, deprivation, emergency accommodation and essential services to household room and legitimacy. The next test joins a named housing, wage, transfer or service intervention to cost, time, access, receipt, adequacy, durability and realized household security.
+
+**US youth-health rotation — 2026-09-27:** the [CDC Youth Health in Focus 2025 record](records/us-cdc-youth-health-in-focus-2025.json) adds a youth-health layer. It links mental-health and dietary gains to persistent sleep, activity, school-PE and digital-risk constraints. The next test joins a named school, family, platform, food, activity or public-health intervention to sleep, attention, safety, belonging, health equity and durable wellbeing.
+
+**US consumer-reality rotation — 2026-09-27:** the [TruStage What Matters Now 2026 record](records/us-trustage-what-matters-now-2026-financial-reality-consumer-inclusion.json) adds a consumer-finance and inclusion layer. It links financial strain, race, generation, neurodivergence, family influence, digital channels, app satisfaction and community relevance to security and institutional choice. The next test joins a named financial product, digital experience or community intervention to affordability, access, representation, trust, switching and realized household room.
+
+**US social-connection rotation — 2026-09-27:** the [Social Connection in America 2026 record](records/us-rand-connection-institute-social-connection-america-2026-weak-ties-time-community.json) adds a social-infrastructure layer. It links time, distance, infrequent contact, formal participation, cross-background interaction and digital substitution to loneliness, belonging, health and civic capacity. The next test joins a named workplace, caregiving, transport, third-place, community or digital intervention to time released, contact quality, inclusion, trust and durable connection.
+
+**US young-men culture rotation — 2026-09-27:** the [Equimundo State of American Men 2026 record](records/us-equimundo-state-american-men-2026-economic-insecurity-ai-manhood-democracy.json) adds a masculinity-and-mobility layer. It links economic insecurity, nostalgia, prediction markets, AI use, influencer commerce, physical connection, restrictive gender norms and democratic commitment. The next test joins a named economic, platform, mentorship, community or civic intervention to purpose, opportunity, care, belonging, institutional fairness and realized political participation.
+
+**US civic-literacy rotation — 2026-09-27:** the [Annenberg Civics Knowledge 2026 record](records/us-annenberg-civics-knowledge-2026-constitutional-literacy-rights.json) adds a constitutional-literacy layer. It links knowledge of branches, rights, federalism, vetoes and judicial review to communication, education, rights recognition and institutional judgment. The next test joins a named civics, media, school or public-information intervention to accurate understanding, rights exercise, trust, participation and durable democratic capacity.
+
+**US AI-infrastructure rotation — 2026-09-27:** the [Annenberg Data Centers 2026 record](records/us-annenberg-data-centers-2026-local-opposition-ai-regulation-community-legitimacy.json) adds an AI-infrastructure legitimacy layer. It links local data-center opposition, AI use, privacy, jobs, energy, regulation and neighborhood exposure to cross-party public judgment. The next test joins a named data-center proposal or mitigation to energy cost, water, jobs, land use, privacy, local benefit, procedural fairness and realized community legitimacy.
+
+**US climate-health rotation — 2026-09-27:** the [Annenberg Heat and Health 2026 record](records/us-annenberg-heat-health-2026-climate-cost-routines-cooling-access.json) adds a climate-as-household-life layer. It links heat and smoke exposure to electricity costs, sleep, exercise, outdoor activity, cooling access, pregnancy risk knowledge and unequal adaptation. The next test joins a named cooling, energy, housing, workplace, health-communication or wildfire intervention to cost, time, safety, access, behavior and durable health protection.
+
+**US public-health-capacity rotation — 2026-09-27:** the [TFAH Underfunded and Under Strain 2026 record](records/us-tfah-public-health-system-2026-underfunding-workforce-capacity.json) adds a public-health-capacity layer. It links fiscal design, staffing, grant continuity, technical assistance, data systems, emergency readiness and prevention to community protection and household security. The next test joins a named funding, workforce, data, preparedness or governance intervention to operational capacity, service continuity, equity, trust and realized health protection.
+
+**US public-health-worker rotation — 2026-09-27:** the [PH WINS Pulse Check 2026 record](records/us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics.json) adds a worker-experience layer. It links burnout, stress, politics, budgets, advancement, retention and retirement to institutional continuity. The next test joins a named funding, management, career, labor, training or political intervention to worker well-being, voice, retention, service continuity and realized community protection.
+
+**US health-politics rotation — 2026-09-27:** the [Nature Human Behaviour political-health polarization record](records/us-nature-political-health-polarization-2026-ideology-trust-care-mortality.json) adds a political-identity-as-health-determinant layer. It links ideology, medical trust, care engagement, biomarkers and mortality while preserving the observational boundary. The next test joins a named health institution, policy, media environment or care intervention to trust, access, adherence, treatment, health behavior and realized outcomes.
+
+**US housing-and-life-course rotation — 2026-09-27:** the [JCHS State of the Nation’s Housing 2026 record](records/us-jchs-state-nations-housing-2026-affordability-household-formation-mobility.json) adds a housing-as-life-course layer. It links prices, rent, insurance, household formation, residential mobility, homeownership entry, low-cost rental supply, and public assistance. The next test joins a named housing, zoning, finance, insurance, transportation or safety-net intervention to affordability, timing, tenure, displacement risk, access, and realized household security.
+
+**US healthcare-access rotation — 2026-09-27:** the [Commonwealth Fund coverage-denials record](records/us-commonwealth-coverage-denials-2026-care-delay-debt-trust.json) adds an institutional-friction layer. It links coverage denials to care delay, worsening health, out-of-pocket costs, medical debt, appeal time, household labor, and trust. The next test joins a named insurer, provider, prior-authorization, appeal, consumer-assistance or reporting intervention to transparency, remedy, time, affordability, care continuity and realized health protection.
+
+**US belonging-and-agency rotation — 2026-09-27:** the [Belonging Barometer 2026 record](records/us-american-immigration-council-belonging-barometer-2026-local-agency-safety.json) adds a local-civic-capacity layer. It links psychological safety, social connection, perceived agency, age, income, and local information to belonging. The next test joins a named community, local-news, public-participation or inclusion intervention to welcome, equal treatment, voice, decision influence, social ties, and durable civic capacity.
+
+**US worker-survival rotation — 2026-09-27:** the [Federal Reserve Worker Perspectives 2026 record](records/us-fed-worker-perspectives-2026-survival-mode-job-quality-ai-screening.json) adds a lived labor-market layer. It links cost pressure, wages, household survival, mobility, job retention, side work, job quality, caregiving time, AI screening, and confidence. The next test joins a named wage, training, childcare, employer, workforce, or AI-screening intervention to household room, job quality, time, agency, mobility, and durable economic security.
+
+**US security-and-public-safety rotation — 2026-09-27:** the [Berkeley Labor Center security guard record](records/us-berkeley-security-guard-workforce-2026-job-quality-public-safety.json) adds a frontline-infrastructure layer. It links private security’s public role to wages, benefits, contracting, turnover, training, assault risk, service readiness, and public safety. The next test joins a named sectoral standard, responsible-contracting rule, training requirement, technology, or workforce pathway to job quality, retention, safety, trust, and realized service reliability.
+
+**US education-capacity rotation — 2026-09-27:** the [RAND State of the American Teacher 2026 record](records/us-rand-state-american-teacher-2026-wellbeing-retention-side-work.json) adds a public-school workforce layer. It links teacher well-being, financial strain, outside work, time, retention intentions, school climate, and student-support capacity. The next test joins a named pay, workload, mental-health, leadership, AI, credential, or staffing intervention to teacher time, well-being, retention, instructional continuity, and realized student support.
+
+**US entertainment-consumption rotation — 2026-09-27:** the [Luminate 2026 Midyear record](records/us-luminate-midyear-2026-music-tv-film-consumption-diversity-ai.json) adds a commercial-culture layer. It links streaming, language, genre, fandom, physical formats, library content, theater use, platform concentration, and creator AI. The next test joins a named platform, release, pricing, recommendation, fandom, venue, or AI intervention to discovery, access, attention, cultural identity, creator control, and durable participation.
+
+**US food-household rotation — 2026-09-27:** the [ReFED American Households 2026 record](records/us-refed-households-2026-grocery-price-behavior-food-waste.json) adds a consumer-routine layer. It links grocery prices, income, shopping, preparation, storage, leftovers, food waste, time, and practical household capacity. The next test joins a named price, retailer, SNAP, food-waste, labeling, storage, meal-planning, or community intervention to affordability, nutrition, time, waste, food security, and realized household room.
+
+**US digital-participation rotation — 2026-09-27:** the [Purdue mobile-dependent households record](records/us-purdue-mobile-dependent-households-2026-digital-participation.json) adds a functional-access layer. It links falling outright non-use to rising mobile-only participation, device and data constraints, broadband quality, affordability, disability, housing, and place. The next test joins a named BEAD, device, affordability, accessibility, housing-wiring, public-service, or digital-literacy intervention to task completion, time, agency, service access, and durable participation.
+
+**US financial-resilience rotation — 2026-09-27:** the [Financial Health Pulse 2026 record](records/us-finhealth-pulse-2026-financial-vulnerability-insurance-confidence.json) adds a household-protection layer. It links financial vulnerability, bill payment, spending room, debt manageability, insurance confidence, essential costs, student loans, and income position. The next test joins a named insurance, debt, benefit, lender, employer, price, or consumer-protection intervention to risk absorption, remedy, household room, trust, and durable financial security.
+
+**US climate-health rotation — 2026-09-27:** the [Climate Central heat-illness record](records/us-climate-central-heat-illness-er-visits-2026-climate-health-burden.json) adds a realized-burden layer. It links warming, heat illness, emergency-care demand, regional exposure, household cost, insurance, hospital capacity, and public-health response. The next test joins a named heat action plan, cooling intervention, warning system, housing measure, insurance response, or hospital protocol to illness prevention, care demand, affordability, and durable resilience.
+
+**US aging-capacity rotation — 2026-09-27:** the [America’s Health Rankings 2026 Senior Report record](records/us-ahr-senior-report-2026-aging-care-workforce-food-behavioral-health.json) adds a demographic-service layer. It links population aging, home-health and geriatric workforce distribution, unpaid support, behavioral-health risk, food insecurity, SNAP, and home-delivered meals. The next test joins a named aging, caregiver, workforce, nutrition, housing, transportation, or behavioral-health intervention to care access, time, household room, wellbeing, and durable aging capacity.
+
+**US institutional-functioning rotation — 2026-09-27:** the [Freedom House United States 2026 record](records/us-freedom-house-2026-institutional-functioning-rights-oversight.json) adds a legitimacy-and-capacity layer. It links democratic status, legislative productivity, executive authority, oversight, anticorruption safeguards, speech, protest, media pressure, and civic resilience. The next test joins a named election, oversight, court, transparency, media, protest, or ethics intervention to accountability, political voice, institutional trust, policy continuity, and durable democratic capacity.
+
+**US macro-geopolitical rotation — 2026-09-27:** the [CBO Budget and Economic Outlook 2026–2036 record](records/us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth.json) adds a policy-to-economy layer. It links fiscal stimulus, tariffs, immigration, aging, AI investment, labor supply, trade, debt, inflation, and purchasing power. The next test joins a named tariff, tax, immigration, industrial, AI, labor, or safety-net intervention to firm adjustment, prices, jobs, household room, and durable economic security.
+
+**US civic-infrastructure rotation — 2026-09-27:** the [GAO public-library facilities record](records/us-gao-public-library-facilities-2026-deferred-maintenance-civic-infrastructure.json) adds a physical public-capacity layer. It links building condition, accessibility, deferred maintenance, local funding, technology, community space, voting, emergency response, and civic connection. The next test joins a named capital, accessibility, library, broadband, emergency, voting, or local-funding intervention to usable space, service continuity, inclusion, participation, and durable public capacity.
+
+**US municipal-infrastructure rotation — 2026-09-27:** the [NLC Municipal Infrastructure Conditions 2026 record](records/us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility.json) adds a local-fiscal layer. It links water, sewer, stormwater, roads, treatment, local revenue, cash financing, staffing, federal grants, and public-service reliability. The next test joins a named infrastructure, bond, grant, workforce, rate, or technical-assistance intervention to project delivery, household safety, economic opportunity, equity, and durable local capacity.
+
+**US energy-affordability rotation — 2026-09-27:** the [Duke Cost of Keeping Cool record](records/us-duke-energy-affordability-extreme-heat-2026-cooling-access.json) adds a heat-and-bill layer. It links county-level modeled energy burden, electricity-dependent home safety, cooling demand, extreme-heat compounding, and support-program design. The next test should join a named utility, weatherization, cooling, rate, emergency, or energy-assistance intervention to bill relief, safe-home function, health protection, equitable access, and durable resilience.
+
+**US home-environment rotation — 2026-09-27:** the [EIA 2024 RECS housing-characteristics record](records/us-eia-recs-2024-home-energy-devices-routines-2026.json) adds a home-as-infrastructure layer. It links regional housing form, appliance and lighting transitions, streaming, smart-home control, cooking, conditioned space, and energy measurement. The next test should join a named retrofit, appliance, utility, platform, housing, or device intervention to energy demand, household cost, time, attention, privacy, and durable domestic capacity.
+
+**US civic-foresight rotation — 2026-09-27:** the [Civic Life in America 2036 record](records/us-civic-futures-civic-life-2036-ai-trust-connection.json) adds a scenario layer. It links trust, participation, social connection, precarity, polarization, AI-mediated representation, institutional rules, and unequal agency. The next test should join a named civic, local-news, association, AI-governance, public-participation, or cross-community intervention to belonging, voice, accountability, institutional responsiveness, and durable civic capacity.
+
+**US media-politics rotation — 2026-09-27:** the [Gallup influencer-audiences record](records/us-gallup-influencer-audiences-democratic-norms-2026.json) adds a creator-mediated action layer. It links political podcast and influencer audiences to protest rights, voting efficacy, accountability judgments, party divergence, and institutional skepticism. The next test should join a named creator, platform, news, moderation, civic-information, or mobilization intervention to exposure, interpretation, trust, participation, and durable political agency.
+
+**US election-legitimacy rotation — 2026-09-27:** the [Gallup election-concerns record](records/us-gallup-election-concerns-democratic-legitimacy-2026.json) adds a perceived-risk layer. It links election administration, official pressure, ballot security, intimidation, social-media intensity, political finance, gerrymandering, and accountability. The next test should join a named election-administration, information, safety, audit, campaign-finance, or civic-trust intervention to verified procedure, confidence, participation, and outcome acceptance.
+
+**US-anchored geopolitical rotation — 2026-09-27:** the [MPI migration-diplomacy record](records/us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage.json) adds a migration-as-statecraft layer. It links displacement, conflict, smuggling, foreign aid, visas, sanctions, tariffs, labor pathways, technology, security, and partner-country leverage. The next test should join a named U.S. or allied migration partnership, pathway, aid, sanctions, border, or diplomatic intervention to cooperation, protection, labor capacity, domestic legitimacy, and durable geopolitical alignment.
+
+**US labor-supply rotation — 2026-09-27:** the [Business Economics immigration-policy record](records/us-business-economics-immigration-policy-labor-supply-2026.json) adds a policy-to-labor layer. It links net migration, population growth, immigrant-intensive industries, education composition, fiscal incidence, stable-unemployment employment growth, firm capacity, and household costs. The next test should join a named immigration, visa, labor-mobility, employer, training, automation, or public-service intervention to labor supply, wages, prices, fiscal capacity, sector growth, and durable household room.
+
+**US behavioral-health rotation — 2026-09-27:** the [SAMHSA 2025 NSDUH record](records/us-samhsa-nsduh-2025-behavioral-health-youth-adult-treatment-2026.json) adds a transition layer. It links improving youth indicators and broad substance-use reach to persistent adult mental-health burden and age-graded treatment receipt. The next test should join a named school, community, insurance, provider, prevention, harm-reduction, or behavioral-health intervention to youth trajectories, treatment access, household time/cost, work capacity, and durable recovery.
+
+**US cultural-health rotation — 2026-09-27:** the [UF-UCL arts-engagement record](records/us-ufl-ucl-arts-engagement-time-use-2003-2023-2026.json) adds a cultural-access layer. It links stable but low daily arts participation to home-based and solitary creation, partial post-pandemic rebound in shared contexts, social connection, and possible health support. The next test should join a named arts, library, school, health-system, neighborhood, or affordability intervention to participation, public-space use, social connection, identity, and durable well-being.
+
+**US youth-work rotation — 2026-09-27:** the [Pew teen summer-employment record](records/us-pew-teen-summer-employment-1948-2026-work-socialization.json) adds a first-job layer. It links the long decline and partial rebound of teen summer employment to age and race/ethnicity gaps, hospitality/retail/logistics concentration, work socialization, household contribution, and opportunity. The next test should join a named school-to-work, transportation, wage, scheduling, youth-employment, or employer intervention to access, job quality, time allocation, household room, and durable work trajectories.
+
+**US education-capacity rotation — 2026-09-27:** the [NCES Condition of Education 2025 record](records/us-nces-condition-education-2025-enrollment-learning-pathways.json) adds an education-system layer. It links public enrollment contraction, elevated at-home instruction, divergent undergraduate/postbaccalaureate pathways, weaker learning indicators, attainment, and labor-market returns. The next test should join a named school, district, virtual-learning, credential, financial-aid, or workforce intervention to enrollment, household time/cost, learning, completion, work access, and durable opportunity.
+
+**US mobility-infrastructure rotation — 2026-09-27:** the [FHWA Our Nation's Highways 2026 record](records/us-fhwa-our-nations-highways-2026-mobility-dependency.json) adds a mobility-dependency layer. It links car-dominant travel, work/family/social trip purposes, road hierarchy, local access, freight movement, household time/cost, and energy exposure. The next test should join a named transit, road-safety, street-design, mobility-choice, rural-connectivity, or freight intervention to access, trip failure, time, household room, social participation, and durable mobility.
+
+**US grid-capacity rotation — 2026-09-27:** the [DOE National Transmission Needs Study record](records/us-doe-national-transmission-needs-2026-ai-manufacturing-electrification.json) adds an infrastructure-governance layer. It links AI and industrial load growth, electrification, congestion, interregional reliability, affordability, storms, public consultation, and rate/land-use questions. The next test should join a named transmission, interconnection, demand-response, storage, generation, rate-design, or permitting intervention to capacity, congestion, household prices, reliability, local agency, and durable service.
+
+**US climate-governance rotation — 2026-09-27:** the [National Academies drought-assessment record](records/us-national-academies-drought-assessment-nonstationarity-2026.json) adds a nonstationary-risk layer. It links drought, aridification, groundwater, wildfire, flash drought, changing baselines, indicators, early warning, water management, infrastructure, and adaptation authority. The next test should join a named monitoring, water-allocation, drought-response, infrastructure, agricultural, public-health, or adaptation intervention to warning, service continuity, cost, local agency, and durable resilience.
+
+**US shared-institution rotation — 2026-09-27:** the [Knight-NORC public-library record](records/us-knight-norc-public-library-value-services-2026.json) adds a common-infrastructure layer. It links perceived library legitimacy to information, internet, classes, community space, job/public-service navigation, subgroup differences, and anticipated effects of cuts. The next test should join a named library, broadband, literacy, workforce, public-service, or community-space intervention to access, usage, local legitimacy, social connection, and durable institutional capacity.
+
+**US care-and-life-course rotation — 2026-09-27:** the [AARP/National Alliance for Caregiving sandwich-generation record](records/us-aarp-sandwich-generation-caregiving-2026-work-family-compression.json) adds a household-capacity layer. It links simultaneous child-rearing and adult care to compressed time, complex medical tasks, work disruption, physical strain, financial pressure, and weak caregiver-centered clinical attention. The next test should join a named respite, paid-care, workplace, training, Medicaid, family-leave, or clinical-screening intervention to care intensity, work continuity, household room, caregiver health, and durable relief.
+
+**US national-mood rotation — 2026-09-27:** the [Pew 250th-anniversary national-mood record](records/us-pew-national-mood-250th-2026-future-expectations-polarization.json) adds a legitimacy-and-future layer. It links present dissatisfaction and national pessimism to partisan mood alignment, age differences, expectations about political division, government, safety, economic strength, and U.S. global importance. The next test should join a named economic, civic, media, institutional, or place-based intervention to lived conditions, trust, future expectations, political participation, and durable legitimacy.
+
+**US cultural-institution rotation — 2026-09-27:** the [AAM Museums & Public Opinion 2026 record](records/us-aam-museums-public-opinion-2026-cultural-civic-economic-legitimacy.json) adds a cultural-infrastructure layer. It links museum legitimacy to education, local economic value, information trust, public funding, elected-official incentives, content boundaries, and cross-group support. The next test should join a named museum, library, school, cultural-access, public-funding, or community-partnership intervention to reach, use, learning, belonging, trust, and durable institutional capacity.
+
+**US public-power rotation — 2026-09-27:** the [UMass corruption and economic-attribution record](records/us-umass-corruption-public-power-2026-partisan-double-standard-costs.json) adds a governance-and-attribution layer. It links perceived federal corruption and shared abuse standards to partisan blame assignment, presidential trust, price perceptions, national direction, and accountability demand. The next test should join a named ethics, transparency, enforcement, public-information, price-relief, or civic-accountability intervention to verified conduct, attribution, trust, remedy, and durable legitimacy.
+
+**US-to-world legitimacy rotation — 2026-09-27:** the [Pew U.S. role in the world record](records/us-pew-role-world-2026-partisan-global-legitimacy-intervention.json) adds a domestic-opinion-to-geopolitics layer. It links partisan identity to perceived U.S. respect, peace contribution, foreign-policy consideration, interference, influence, and superpower status. The next test should join a named diplomatic, aid, military, trade, alliance, or public-information intervention to domestic legitimacy, partner trust, perceived reciprocity, external leverage, and durable geopolitical consequence.
+
+**US cultural-demographic rotation — 2026-09-27:** the [Pew Hispanic identity and counting record](records/us-pew-hispanic-identity-counting-2026-population-race-ancestry.json) adds an identity-and-measurement layer. It links Hispanic population growth to Census categories, racial self-identification, ancestry, generation, Afro-Latino identity, intermarriage, cultural continuity, and public recognition. The next test should join a named media, consumer, electoral, education, language, health, housing, or administrative intervention to identity expression, access, belonging, representation, and durable institutional fit.
+
+**US AI-infrastructure rotation — 2026-09-27:** the [Pew data-center public-opinion record](records/us-pew-data-centers-2026-local-legitimacy-energy-costs-community-consent.json) adds a local-legitimacy layer. It links rising awareness to environmental concern, home-energy costs, nearby quality of life, jobs, tax revenue, rural and partisan opinion, and hypothetical siting discomfort. The next test should join a named data-center, transmission, rate-design, water, tax, permitting, or community-benefit intervention to realized exposure, cost allocation, local agency, consent, and durable legitimacy.
+
+**US consumer-health rotation — 2026-09-27:** the [Pew supplements record](records/us-pew-supplements-2026-wellness-consumer-health-belief-market.json) adds a wellness-consumption layer. It links widespread supplement use to age, income, gender, race/ethnicity, education, product type, perceived health importance, and commercial/influencer culture. The next test should join a named clinical, regulatory, retail, workplace, insurance, or public-health intervention to product access, spending, information quality, safety, self-management, and durable health or care outcomes.
+
+**US cultural-memory rotation — 2026-09-27:** the [Pew 9/11 memory and generational-transmission record](records/us-pew-911-memory-generational-transmission-2026-national-trauma-education.json) adds a historical-memory layer. It links vivid direct recollection to age, cohort replacement, school instruction, family narrative, media, national identity, and security meaning. The next test should join a named curriculum, memorial, media, museum, civic, or public-history intervention to historical knowledge, identity, intergroup meaning, political judgment, and durable transmission.
+
+**US work/identity rotation — 2026-09-27:** the [Pew working-class identity record](records/us-pew-working-class-identity-2026-politics-income-occupation.json) adds a class-language layer. It links self-described working-class identity to income, education, financial comfort, blue-collar work, race/ethnicity, and party, showing that the term is a cultural and political classification rather than a clean material category. The next test should join a named workplace, organizing, media, policy, or civic intervention to status recognition, attribution, voice, bargaining, political action, and durable representation.
+
+**US workplace-data rotation — 2026-09-27:** the [Gallup employee data-use record](records/us-gallup-employee-data-trust-2026-workplace-monitoring-voice.json) adds a monitoring-and-trust layer. It links perceived activity/content data collection to purpose-specific comfort, engagement, transparency, managerial access, and leadership trust. The next test should join a named monitoring, AI, privacy, works-council, HR, or collective-bargaining intervention to actual data practice, employee agency, fairness, job quality, and durable workplace legitimacy.
+
+**US women's-health rotation — 2026-09-27:** the [Gallup-Pivotal women's health record](records/us-gallup-pivotal-womens-health-2026-care-work-civic-participation.json) adds a care-to-capacity layer. It links dismissal, diagnostic delay, treatment access, menopause, career limits, caregiving, relationships, and civic participation. The next test should join a named clinical, insurance, employer, accommodation, public-health, or community intervention to recognized need, timely diagnosis, usable care, work/family capacity, and durable participation.
+
+**US care-affordability rotation — 2026-09-27:** the [KFF women's health affordability record](records/us-kff-womens-health-affordability-2026-cost-care-tradeoffs.json) adds a cost-to-household-room layer. It links insurance and care prices to delayed treatment, skipped tests, prescription nonadherence, coverage gaps, and reduced spending on basic needs. The next test should join a named insurance, Medicaid, pharmacy, employer, price, or safety-net intervention to usable care, medication continuity, household stability, and later health capacity.
+
+**US gender-representation rotation — 2026-09-27:** the [Pew woman-president skepticism record](records/us-pew-woman-president-skepticism-2026-gender-representation-legitimacy.json) adds a symbolic-representation layer. It links perceived likelihood of a woman president to gender-neutral leadership frames, party identity, personal importance, and institutional expectation. The next test should join a named candidate, campaign, media, electoral, or representation intervention to perceived viability, political participation, legitimacy, and durable institutional change.
+
+**US-anchored alliance-legitimacy rotation — 2026-09-27:** the [Pew South Korea-U.S. relationship record](records/comparative-pew-south-korea-us-relationship-2026-alliance-legitimacy-dependence.json) adds a partner-perception layer. It links U.S. favorability, reliability, reciprocity, tariffs, peace contribution, alliance indispensability, and military presence. The next test should join a named diplomatic, trade, defense, burden-sharing, or public-information intervention to partner voice, trust, alliance legitimacy, external leverage, and strategic room.
+
+**US mediated-health-information rotation — 2026-09-27:** the [Pew race and social-media health-information record](records/us-pew-health-information-race-social-media-2026.json) adds a race-differentiated source-pathway layer. It links platform use, perceived accuracy, source criteria, medical expertise, transparency, influencer use, and questions people do not want to ask clinicians. The next test should join a named provider, platform, public-health, language, community, or information-quality intervention to usable health knowledge, disclosure, care navigation, and durable health capacity.
+
+**US AI-health rotation — 2026-09-27:** the [Pew AI chatbots for health record](records/us-pew-ai-chatbots-health-2026-navigation-privacy-mental-health.json) adds an AI-navigation layer. It links speed, low cost, symptom interpretation, diagnosis and lab translation, sensitive questions, helpfulness, privacy comfort, and skepticism about emotional-support uses. The next test should join a named clinical, platform, privacy, insurer, public-health, or mental-health intervention to accurate navigation, safe disclosure, professional handoff, and durable care outcomes.
+
+**US AI/work rotation — 2026-09-27:** the [Pew AI concern and young-adult jobs record](records/us-pew-ai-concern-young-adults-jobs-2026.json) adds a public-legitimacy layer. It links rising concern, falling excitement, age convergence, expected job loss, creativity, connection, and workplace meaning. The next test should join a named employer, education, labor, platform, or public-information intervention to worker agency, entry-level opportunity, trust, skill formation, and durable adoption legitimacy.
+
+**US family-mobility rotation — 2026-09-27:** the [Urban families, core cities and suburbs record](records/us-urban-families-core-suburbs-2026.json) adds a geography-and-life-stage layer. It links fertility, child retention, family-sized housing, child care, schools, commute patterns, amenities, and unequal ability to access family-friendly environments. The next test should join a named housing, child-care, school, transit, employer, or city-planning intervention to family formation, child retention, mobility, and durable metropolitan capacity.
+
+**US care-portfolio rotation — 2026-09-27:** the [CSSP family care arrangements record](records/us-cssp-family-care-arrangements-2026.json) adds a care-sequencing layer. It links parental, formal and family/friend/neighbor care to cost, trust, language and culture, paid leave, work design, and the gap between care used and care wanted. The next test should join a named paid-leave, subsidy, family-care, employer, early-learning, or community intervention to feasible care portfolios, parental time, work continuity, and durable child and family capacity.
+
+**US corporate-legitimacy rotation — 2026-09-27:** the [Stanford CEO activism and consumer response record](records/us-stanford-ceo-activism-consumer-response-2026.json) adds a firm-voice layer. It links issue-specific CEO advocacy, AI caution among younger adults, corporate authority, consumer memory, and reported purchasing response. The next test should join a named CEO-voice, employee, product, sustainability, governance, or crisis-communication intervention to stakeholder trust, consumer action, worker legitimacy, and durable corporate accountability.
+
+**US household-literacy rotation — 2026-09-27:** the [Capita-Book Harvest home literacy record](records/us-capita-book-harvest-home-literacy-2026.json) adds a cultural-access layer. It links home-library supply, cost, race, language and identity fit, reading frequency, work schedules, fatigue, schools, libraries and civic capacity. The next test should join a named book-gifting, library, school, health-care, employer-schedule, translation, or family-support intervention to durable home access, reading time, cultural recognition, and learning capacity.
+
+**Global youth-well-being rotation — 2026-09-27:** the [UNU–UN Youth Office youth mental-health record](records/comparative-unu-un-youth-mental-health-2026-ecosystem-wellbeing.json) adds an ecosystem layer. It links mental health to housing, education, decent work, digital technology, climate, peace, governance, arts, sports, care, connection, community and youth agency. The next test should join a named youth, school, housing, work, platform, climate, cultural, sports, or public-health intervention to access, safety, belonging, voice, prevention and durable well-being.
+
+**US teen-AI rotation — 2026-09-27:** the [Google U.S. Future Report record](records/us-google-future-report-2026-teen-ai-learning-judgment.json) adds a digital-readiness layer. It links near-universal teen AI exposure to learning, creativity, verification, productive friction, school guidance, trusted adults, family routines and youth agency. The next test should join a named school, platform, family, digital-literacy, privacy, or youth-participation intervention to usable judgment, learning quality, safety, autonomy and durable opportunity.
+
+**US civic-expression rotation — 2026-09-27:** the [Freedom Forum First Amendment record](records/us-freedom-forum-first-amendment-2026-expression-knowledge-surveillance.json) adds a participation-legitimacy layer. It links First Amendment valuation to practical knowledge, self-censorship, violence and social-tension fears, surveillance, government-platform transparency, online verification, press watchdog expectations and unequal education gradients. The next test should join a named civics, school, platform, protest, press, privacy, public-information or legal-literacy intervention to usable rights knowledge, expression safety, participation, trust and durable democratic capacity.
+
+**US youth-civic-capacity rotation — 2026-09-27:** the [Chamber Foundation Civic and Economic Literacy record](records/us-chamber-foundation-civic-economic-literacy-2026-teen-optimism-practice.json) adds an optimism-to-practice layer. It links teen and adult concern about division to problem-solving optimism, listening norms, local business, civic and economic knowledge, formal engagement, workplace practice and low-friction pathways. The next test should join a named school, employer, local-business, civics, jury, community or youth-participation intervention to usable knowledge, cross-viewpoint practice, agency, trust and durable civic capacity.
+
+**UK comparative digital-lives rotation — 2026-09-27:** the [Nuffield–Ada Lovelace youth digital-experience record](records/comparative-nuffield-ada-young-people-digital-lives-2026-platform-agency.json) adds a platform-agency layer. It links digital community and essential-service dependence to algorithmic design, online harms, self-safeguarding, surveillance, AI, privacy, regulation, alternative spaces and youth governance. The next test should join a named platform, safety-by-design, privacy, school, youth-work, mental-health, alternative-space or participatory-governance intervention to control, safety, belonging, agency and durable digital inclusion.
+**Renewable-jobs distribution checkpoint — 2026-09-27:** the [IRENA–ILO Annual Review 2025 record](records/comparative-irena-ilo-renewable-energy-jobs-2025-inclusive-workforce-geopolitics.json) adds a global transition-work route. The next pass should connect renewable deployment, domestic manufacturing, grid build-out, training, women’s advancement and disability inclusion to observable local job quality, bargaining power and household stability.
+
+**Global climate-legitimacy checkpoint — 2026-09-27:** the [UNDP Peoples' Climate Vote 2024 record](records/comparative-undp-peoples-climate-vote-2024-global-action-fairness-geopolitics.json) adds a public-demand route. The next pass should connect climate concern and faster-transition preferences to named policies, household cost, local exposure, adaptation finance, cross-border cooperation, trust and realized implementation.
+
+**EU household-energy checkpoint — 2026-09-27:** the [European Commission energy Eurobarometer record](records/comparative-european-commission-eurobarometer-energy-affordability-consumer-protection-2025.json) adds a consumer-interface route. The next pass should connect affordability priorities and reported energy actions to actual bills, housing efficiency, provider markets, energy-poverty protection, data access, switching and durable household room.
+
+**EU institutional-response checkpoint — 2026-09-27:** the [European Commission Citizens' Energy Package record](records/comparative-european-commission-citizens-energy-package-2026-affordability-security-autonomy.json) adds a state-capacity route. The next pass should connect announced finance, grids, consumer protections, clean-technology supply chains and strategic-autonomy measures to implementation, local costs, jobs, import dependence and durable public legitimacy.
+
+**Gendered law-to-capability checkpoint — 2026-09-27:** the [World Bank Women, Business and the Law 2026 record](records/comparative-world-bank-women-business-law-2026-law-policy-enforcement-gender-economy.json) adds an implementation-gap route. The next pass should connect legal reforms and supportive institutions to safety, childcare, finance, entrepreneurship, workplace practice, enforcement, income and durable economic agency.
+
+**W-LEX lived-experience checkpoint — 2026-09-27:** the [World Bank W-LEX record](records/comparative-world-bank-wlex-womens-lived-experience-2026-law-practice-gender-perception.json) adds a practice-level route. The next pass should connect formal rights and enforcement systems to comparable first-person work, pay, mobility, entrepreneurship and pension experience, alongside norms around care, safety, assets and marriage.
+
+**Gendered-fiscal checkpoint — 2026-09-27:** the [World Bank gender-and-fiscal-policy record](records/comparative-world-bank-gender-fiscal-policy-2026-tax-budget-care-data.json) adds a revenue-and-spending route. The next pass should connect filing rules, thresholds, tax administration, care spending, budget instruments and sex-disaggregated data to household room, labor-force participation, benefit access, public-service quality and trust.
+
+**Youth-belonging checkpoint — 2026-09-27:** the [UK Social Connection Framework record](records/comparative-uk-dcms-social-connection-framework-2026-young-men-belonging-infrastructure.json) adds a social-infrastructure route. The next pass should connect accessible places, transport, clubs, trusted adults, school belonging, NEET status and online-media literacy to youth agency, mental health, re-engagement, safety and durable participation.
+
+**Youth-loneliness evidence checkpoint — 2026-09-27:** the [UK NatCen boys and young men loneliness record](records/comparative-uk-dcms-natcen-boys-young-men-loneliness-2026-risk-protective-factors.json) adds an empirical route. The next pass should connect mental-health support, anti-bullying practice, family support, friendship quality, in-person contact, organized activity and education/work pathways to durable belonging without treating associations as causal.
+
+**Youth-intervention checkpoint — 2026-09-27:** the [UK Offload and Movember pilot evaluation record](records/comparative-uk-dcms-offload-movember-youth-connection-pilot-2026-evaluation.json) adds an intervention route. The next pass should connect sports-based engagement, trusted adults, mental-health literacy, coping, aspirations and NEET re-engagement to comparison groups, retention, cost, transport, safeguarding and durable outcomes.
+
+**Comparative cohesion checkpoint — 2026-09-28:** the [UNDP Bosnia and Herzegovina SCORE 2025 record](records/comparative-undp-bosnia-social-cohesion-score-2025-local-resilience-system-pessimism.json) adds a local-resilience/system-pessimism route. The next pass should connect community cooperation, inclusive civic identity and everyday intergroup relations to economic insecurity, political instability, institutional legitimacy, civic awareness, divisive narratives and structured participation.
+
+**Structural health-equity checkpoint — 2026-09-28:** the [WHO social determinants of health equity record](records/comparative-who-social-determinants-health-equity-2025-life-chances-public-services.json) adds an upstream life-chances route. The next pass should connect housing, education, work, income, social protection, progressive taxation, discrimination, climate exposure, displacement, local government and universal public services to health, household resilience, trust and realized equity.
+
+**Generational work-and-life checkpoint — 2026-09-28:** the [Deloitte Gen Z and Millennial Survey 2026 record](records/comparative-deloitte-genz-millennial-survey-2026-stability-housing-ai-work-purpose.json) adds a conditional-ambition route. The next pass should connect housing affordability, delayed milestones, financial security, workload, leadership pathways, purpose, AI training, digital fatigue and organizational readiness to durable work participation and household formation.
+
+**Democratic-information checkpoint — 2026-09-28:** the [Full Fact Report 2026 record](records/comparative-full-fact-uk-information-environment-2026-ai-uncertainty-democratic-trust.json) adds a shared-reality infrastructure route. The next pass should connect AI-mediated search, synthetic media, platform ranking, moderation, media literacy, public-interest journalism, crisis communication, institutional coordination and platform accountability to trust, participation and resilience.
+
+**Global-cooperation checkpoint — 2026-09-28:** the [Future of International Cooperation Report 2026 record](records/comparative-stimson-future-international-cooperation-2026-global-trust-multilateral-governance.json) adds a geopolitical trust-infrastructure route. The next pass should connect information integrity, AI compute and expertise gaps, early warning, preventive diplomacy, regional trade, security compliance, legal accountability and shared public goods to durable cooperation.
+
+**Social-contract checkpoint — 2026-09-28:** the [Earth for All Survey 2026 record](records/comparative-earth4all-social-contract-2026-inequality-trust-democracy.json) adds a delivery-gap route. The next pass should test whether broad demand for economic-system change can be connected to credible redistribution, fair-transition design, public-service performance, democratic accountability, and long-horizon trust rather than treating low trust as a free-floating attitude.
+
+**Information-environment checkpoint — 2026-09-28:** the [IPIE 2026 expert-survey record](records/comparative-ipie-information-environment-2026-platform-accountability-ai-search.json) adds a shared-reality infrastructure route. The next pass should connect AI-mediated answer speed, source referral and revenue, viewpoint diversity, platform accountability, research access, public trust, and civic participation without treating expert forecasts as public prevalence or causal outcomes.
+
+**Community-power checkpoint — 2026-09-28:** the [NPC Everyone's Environment record](records/comparative-npc-everyones-environment-community-power-2026-climate-nature.json) adds a place-and-participation route. The next pass should connect community capacity, evidence standards, lived-experience authority, co-governance, green-space quality and safety, devolution, and visible feedback to usable environmental benefit and trust.
+
+**Consumer-optionalities checkpoint — 2026-09-28:** the [KPMG Consumer Pulse Q3 2026 record](records/comparative-kpmg-uk-consumer-pulse-q3-2026-financial-security-discretionary-culture.json) adds a household-room-to-culture route. The next pass should connect essential-cost pressure, precautionary saving, job stickiness, occasion spending, resale, payment/channel choice, and big-ticket deferral to social connection, identity, retailer strategy, and household recovery without treating participation as affordability.
+
+**Culture-and-place checkpoint — 2026-09-28:** the [HERA En/counter/points record](records/comparative-hera-encounter-points-belonging-public-space-culture-2026.json) adds a research-to-practice route. The next pass should connect cultural representation, community participation, museum governance, public-space design, place ownership, regeneration, access, displacement risk, and measurable belonging without treating institutional adoption as outcome evidence.
+
+**AI-commerce checkpoint — 2026-09-28:** the [Product.ai Trust in AI Commerce record](records/us-product-ai-trust-commerce-2026-ai-recommendation-verification-agency.json) adds a platform-consumer agency route. The next pass should connect AI discovery, verification labor, source trust, price and category risk, delegated purchasing, retailer visibility, age/digital-skill differences, and consumer recourse without treating AI use as replacement of judgment.
+
+**Agentic-commerce checkpoint — 2026-09-28:** the [Visa agentic-commerce record](records/comparative-visa-agentic-commerce-payment-control-reversibility-2025-2026.json) adds the payment-control route. The next pass should connect delegated discovery and checkout, data visibility, customization and deletion, payment-provider recognition, fraud protection, refunds, human escalation, reversibility, and unequal digital/payment capability without treating stated willingness as realized delegation.
+
+**Cultural-discoverability checkpoint — 2026-09-28:** the [European cultural discoverability record](records/comparative-eu-cultural-discoverability-platform-curation-ai-2026.json) adds the culture-to-platform route. The next pass should connect availability, ranking, recommendation, metadata, language, translation, digital skills, AI-generated content, creator economics, exposure diversity, and pluralism without treating catalog presence as audience access.
+
+**AI-search distribution checkpoint — 2026-09-28:** the [One Further AI Overviews record](records/comparative-one-further-ai-overviews-cultural-sector-2026-search-traffic-distribution.json) adds the intermediary-to-owned-audience route. The next pass should connect AI citation, organic traffic, search intent, website conversion, donations and attendance, direct audience ownership, platform diversification, and measurement limits without treating visibility in an answer interface as audience engagement.
+
+**Organizational-culture checkpoint — 2026-09-28:** the [Culture Amp Performance Culture record](records/comparative-cultureamp-performance-culture-ai-2026-organizational-voice-resourcing.json) adds the workplace-system route. The next pass should connect engagement, performance confidence, leadership, voice, energy, resource alignment, retention, AI-supported people analytics, workload, surveillance, and worker bargaining without treating sponsor-defined culture quadrants as causal outcomes.
+
+**Social-connection checkpoint — 2026-09-28:** the [Belgian Health Interview Survey record](records/comparative-belgium-social-connection-postpandemic-youth-living-alone-2026.json) adds the subgroup-recovery route. The next pass should connect national averages, youth support, living alone, education, household structure, telework, public-health preparedness, local social infrastructure, and mental-health exposure without treating stable national means as universal recovery.
+
+**Global relationship-quality checkpoint — 2026-09-28:** the [Global Flourishing Study relationship-quality record](records/comparative-global-flourishing-social-relationship-quality-22-countries-2026.json) adds the cross-national social-resource route. The next pass should connect country context, age, religious participation, partnership, employment, community institutions, relational quality, and health without turning subjective scores into a universal cultural hierarchy.
+
+**Life-course social-capacity checkpoint — 2026-09-28:** the [Global Flourishing childhood-antecedents record](records/comparative-global-flourishing-childhood-antecedents-adult-relationships-2025.json) adds the upstream exposure route. The next pass should connect childhood family voice and safety, abuse, belonging, health, material security, schools, care systems, country context, and adult relational quality without treating retrospective association as causal proof.
+
+**Crisis-cohesion checkpoint — 2026-09-28:** the [crisis interdependence record](records/comparative-crisis-interdependence-social-cohesion-2026.json) adds the crisis-mechanism route. The next pass should connect crisis type, duration, salience, mutual dependence, unequal exposure, distributional conflict, top-down versus bottom-up coordination, institutional legitimacy, and post-crisis recovery without treating solidarity or distrust as automatic outcomes.
+
+**Firm-side/global SME checkpoint — 2026-09-28:** the [Mastercard Dreamonomics record](records/comparative-mastercard-dreamonomics-2026-sme-controlled-growth-digital-cybersecurity.json) adds the controlled-growth and business-infrastructure route. The next pass should connect cost pressure, risk posture, customer-relationship depth, tool fragmentation, cybersecurity, AI adoption, real-time payments, regional infrastructure, vendor dependence, and firm bargaining power without treating sponsored self-report as audited performance or causal evidence.
+
+**U.S. household adaptation checkpoint — 2026-09-28:** the [KPMG Consumer Pulse Summer 2026 record](records/us-kpmg-consumer-pulse-summer-2026-household-room-discretionary-travel-ai.json) adds the household-budget route. The next pass should connect recession expectations, income change, regular expenses, discretionary compression, savings buffers, travel access, home eating, generational differences, direct booking, and selective AI planning without treating stated plans or estimated budget shares as realized behavior.
+
+**Macro-geopolitical household-exposure checkpoint — 2026-09-28:** the [OECD Economic Outlook March 2026 record](records/comparative-oecd-economic-outlook-march-2026-energy-geopolitics-household-exposure.json) adds the macro transmission route. The next pass should connect conflict duration, energy and fertiliser dependence, household budget shares, inflation expectations, supply-chain substitution, AI productivity, labour demand, fiscal cushioning, and unequal exposure without treating conditional projections as realized welfare outcomes.
+
+**Institutional-legitimacy checkpoint — 2026-09-28:** the [Trustlab institutional-trust record](records/comparative-trustlab-institutional-trust-governance-performance-six-countries-2026.json) adds the governance-encounter route. The next pass should connect reliability, integrity, service quality, political identity, disaster response, explicit versus behavioral trust, voice, and repeated public interactions without treating historical association as a current causal estimate.
+
+**Rights-delivery checkpoint — 2026-09-28:** the [International SERF Index 2026 record](records/comparative-serf-index-2026-social-economic-rights-capacity-200-countries.json) adds the feasible-capacity route. The next pass should connect rights fulfillment, income-level benchmarks, health, education, food, housing, work, sex disaggregation, missingness, country capacity, and legitimacy without treating composite scores as universal lived experience.
+
+**Wealth-distribution checkpoint — 2026-09-28:** the [UBS Global Wealth Report 2026 record](records/comparative-ubs-global-wealth-report-2026-wealth-pyramid-median-mobility-ownership.json) adds the ownership route. The next pass should connect average versus median wealth, asset prices, currencies, debt, millionaire expansion, inheritance, liquidity, housing, cultural assets, and political comparison without treating modeled wealth or HNWI evidence as household financial security.
+
+**Wealth-measurement checkpoint — 2026-09-28:** the [Graduate Center Wealth Project warehouse record](records/comparative-gc-wealth-project-data-warehouse-2026-transmission-tax-measurement.json) adds the data-infrastructure route. The next pass should connect wealth definitions, housing, debt, percentiles, inheritance and gift taxes, legal regimes, source metadata, missingness, and intergenerational mobility without treating harmonized aggregates as respondent-level lived experience.
+**Civic-evidence checkpoint — 2026-09-29:** The [Police Foundation digital citizen evidence record](records/comparative-uk-police-foundation-digital-citizen-evidence-surveillance-participation-2026.json) adds a consumer-surveillance-to-civic-participation route: device adoption, perceived safety and deterrence, willingness to share footage, fragmented police intake, privacy, feedback, and participation legitimacy. The next test is whether accessible intake, national standards, privacy safeguards, triage, and meaningful feedback convert household-generated footage into accountable public safety and durable trust rather than burden shifting, vigilantism, or participation fatigue; the YouGov survey does not establish actual submissions, crime reduction, case outcomes, or causal trust effects.
+
+**Pathway-affordability checkpoint — 2026-09-29:** The [UK social-security and education-choice record](records/comparative-uk-social-security-education-choice-age-16-2026.json) adds a household-budget-to-pathway route: mandatory participation, benefit eligibility, apprenticeship affordability, caring/disability exposure, departmental policy drift, and participation tracking. The next test is whether pathway-neutral support and timely, consent-aware monitoring turn formal choice into affordable choice, persistence, and trust in academic and vocational parity; the SSAC review does not provide a population-wide causal estimate or show that tracking alone improves outcomes.
+
+The trend registry holds 1694 records and
+5069 observations.
+
+**Cultural-infrastructure checkpoint — 2026-09-29:** The [UK Culture and Heritage Capital social-cohesion valuation record](records/comparative-uk-culture-heritage-social-cohesion-valuation-2026.json) adds the route from cultural and heritage assets through shared identity, social networks, trust, participation, non-user value, and public-investment appraisal. The next test is whether valuation makes cultural infrastructure more durable and equitable without double-counting welfare or reducing contested belonging to monetisable outputs; the scoping study does not establish causal cohesion effects or a national willingness-to-pay estimate.
+
+The trend registry holds 1695 records and
+5072 observations.
+
+**Institutional-learning checkpoint — 2026-09-29:** The [UK Pathways to Work Innovation Fund record](records/comparative-uk-pathways-work-innovation-fund-co-design-evidence-2026.json) adds a route from disability and health-related employment barriers through lived-experience design, accessible participation, cross-sector partnerships, experimentation, evidence, and possible scale. The next test is whether co-design changes decision rights and participant outcomes, and whether a portfolio of short experiments produces transferable learning rather than fragmented provision; the bid pack is prospective and does not establish funded-project effects.
+
+The trend registry holds 1696 records and
+5075 observations.
+
+**Consumer-recourse checkpoint — 2026-09-29:** The [New Zealand Consumer Survey 2026 record](records/comparative-new-zealand-consumer-survey-2026-rights-ai-recourse.json) adds a formal-rights-to-practical-agency route: legal awareness, usable knowledge, reviews and ratings, AI guidance, problem recognition, direct action, resolution, regulator accessibility, and unequal consumer confidence. The next test is whether AI and independent information reduce remedy effort and improve fair, durable outcomes across income, age, and ethnicity groups; the survey does not establish legal comprehension, causal AI effects, or resolution quality.
+
+The trend registry holds 1697 records and
+5078 observations.
+
+**Energy-consumption checkpoint — 2026-09-29:** The [German NIM consumer-climate record](records/comparative-germany-nim-consumer-climate-september-2026-energy-saving.json) adds an energy-price-to-precaution route: perceived purchasing-power loss, income-expectation decline, saving propensity, large-purchase hesitation, and divergence between household and macroeconomic outlooks. The next test is whether energy exposure, liquidity, debt, and realized purchases separate secure-household saving from constrained-household cutbacks; the NIM release measures sentiment, not direct behavior or causal energy effects.
+
+The trend registry holds 1698 records and
+5081 observations.
+
+**Diaspora-democracy checkpoint — 2026-09-29:** The [Council of Europe diaspora participation record](records/comparative-council-europe-diaspora-democratic-engagement-social-cohesion-2026.json) adds a plural-membership route: diaspora networks and youth capacity, consultation, equal partnership, civic education, political rights, deliberative mechanisms, organizational funding, and democratic legitimacy. The next test is whether structured participation transfers decision power and improves belonging across internally diverse diaspora and host communities rather than producing symbolic consultation; the Parliamentary Assembly report is a recommendation set, not implementation or causal evidence.
+
+The trend registry holds 1699 records and
+5084 observations.
+
+**Migration-selection checkpoint — 2026-09-29:** The [Canada Express Entry labour-market record](records/comparative-canada-express-entry-selection-occupational-mobility-2026.json) adds a prediction-and-matching route: language, education, prior earnings, Canadian experience, job offers, occupational retention, wages, downward mobility, and migrant household security. The next test is whether selection-predictive factors also produce fair occupational access across credential, family, regional, and discrimination conditions; the IRCC studies are observational and do not establish that the ranking system caused the outcome gap or that predictive validity equals fairness.
+
+The trend registry holds 1700 records and
+5087 observations.
+
+**VET-adaptation checkpoint — 2026-09-29:** The [OECD VET in transition record](records/comparative-oecd-vet-transition-energy-constraints-2026.json) adds an adaptation-infrastructure route: green and industrial change, qualification-update lag, teacher capability, low adult-training participation, modular retraining, personalised guidance, and social-partner governance. The next test is whether exposed workers can actually use these pathways without losing income, time, recognition, or bargaining power; the OECD paper is comparative policy analysis and does not establish causal training effects or equal access.
+
+The trend registry holds 1701 records and
+5165 observations.
+
+**Effective-care checkpoint — 2026-09-29:** The [OECD-IDB-World Bank Latin America and Caribbean health record](records/comparative-oecd-idb-world-bank-lac-health-2026-coverage-to-effective-care.json) adds a coverage-to-usability route: formal coverage, care quality, financial protection, workforce, physical and digital capacity, ageing, chronic disease, and unequal outcomes. The next test is whether people can turn nominal entitlement into timely, trusted, affordable, and effective care without shifting navigation, data, travel, or payment burdens onto households; the joint publication launch materials do not establish country-specific causal effects or household care-seeking behavior.
+
+The trend registry holds 1702 records and
+5093 observations.
+
+**Protection-financing checkpoint — 2026-09-29:** The [OECD Paraguay social-protection financing record](records/comparative-oecd-paraguay-social-protection-financing-informality-2026.json) adds a financing-and-formalisation route: informality, mandatory contributions, dependents, health insurance, pensions, social assistance, benefit adequacy, tax-base expansion, excise taxes, and household legitimacy. The next test is whether contributory and non-contributory routes connect varied workers to adequate protection without making irregular households carry unaffordable compliance or navigation costs; the OECD report evaluates reform options and scenarios, not public acceptance, realized reforms, or causal formalisation effects.
+
+The trend registry holds 1703 records and
+5096 observations.
+
+**AI-pathway checkpoint — 2026-09-29:** The [OECD Belgium/Greece AI employment-support record](records/comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026.json) adds a pathway-infrastructure route: minimum-income dependence, unstable entry jobs, low progression, linked administrative data, AI matching, career guidance, training, human override, interoperability, and job quality. The next test is whether AI expands agency and progression rather than classifying people into recurrent precarity; the OECD report does not establish causal AI effects, universal transition rates, implemented safeguards, or that tools create quality jobs where labour demand is weak.
+
+The trend registry holds 1704 records and
+5099 observations.
+
+**Productive-ageing checkpoint — 2026-09-29:** The [World Bank productive-ageing record](records/comparative-world-bank-productive-aging-older-workers-developing-countries-2026.json) adds a later-life-work route: older adults’ market and non-market work, productivity, skills, health, work conditions, pensions, care, and household security. The next test is whether productive ageing represents supported choice and dignity or work necessity caused by weak income protection; the World Bank report is comparative policy analysis and does not establish voluntariness, causal productivity effects, or a universal retirement policy.
+
+The trend registry holds 1705 records and
+5102 observations.
+
+**Conflict-digital-labour checkpoint — 2026-09-29:** The [World Bank Ukraine digital-skills labour-demand record](records/comparative-world-bank-ukraine-conflict-digital-skills-labor-demand-2026.json) adds a conflict-to-reconstruction route: attack intensity, occupation shifts, within-job upskilling, remote work, vacancy resilience, digital access, and labour-market monitoring. The next test is whether digital demand creates distributed reconstruction opportunity or a selective resilience premium for workers with connectivity, credentials, safe space, and remote-capable occupations; the paper does not establish individual causal skill acquisition, wages, job quality, household welfare, or equal access.
+
+The trend registry holds 1706 records and
+5105 observations.
+
+**Safe-digital-participation checkpoint — 2026-09-29:** The [World Bank Nigeria adolescent-girls record](records/comparative-world-bank-nigeria-adolescent-girls-safe-spaces-digital-literacy-2026.json) adds a safe-space-to-digital-capability route: life skills, school safety, digital literacy, implementation fidelity, retention, socio-emotional outcomes, delivery capacity, and gendered access. The next test is whether safe, trusted learning infrastructure converts digital training into durable agency and economic opportunity rather than a short-lived skill gain; the evaluation reports short-term outcomes and does not establish long-term empowerment, causal employment or health effects, or technology-driven norm change.
+
+The trend registry holds 1707 records and
+5108 observations.
+
+**Wartime-wage checkpoint — 2026-09-29:** The [World Bank Ukraine minimum-wage record](records/comparative-world-bank-ukraine-minimum-wage-wartime-reform-2026.json) adds a formal-recovery bargain route: proposed wage-floor sequencing, modeled earnings, job losses, employer adjustment, social contributions, formal/informal coverage, and household room. The next test is whether a visible recovery wage promise distributes gains without concentrating job loss, informality, or price pressure among excluded workers; the paper is a forward-looking formal-sector simulation, not an observed reform effect.
+
+The trend registry holds 1708 records and
+5111 observations.
+
+**Care-work infrastructure checkpoint — 2026-09-29:** The [World Bank Uganda informal-worker childcare record](records/comparative-world-bank-uganda-informal-workers-childcare-delivery-welfare-2026.json) adds a causal care-to-work route: free childcare, redistribution of unpaid care, women’s hourly earnings, child development, well-being, utilization, workplace versus community delivery, and public value. The next test is whether care infrastructure is designed around irregular informal work and household routines rather than employer norms; the Kampala trial does not establish long-run formalisation, universal delivery superiority, provider sustainability without subsidy, or effects outside the study context.
+
+The trend registry holds 1709 records and
+5114 observations.
+
+**Spatial-climate coordination checkpoint — 2026-09-29:** The [World Bank Thu Duc spatial-underperformance record](records/comparative-world-bank-ho-chi-minh-thu-duc-spatial-underperformance-flood-2026.json) adds a place-and-climate route: flood exposure, productivity, residential amenity, transport, land use, commuting, agglomeration, intervention coordination, and net-new versus reallocated metropolitan output. The next test is whether adaptation and urban investment produce inclusive local opportunity rather than higher land values, displacement, or gains that remain geographically inaccessible; the paper is a spatial general-equilibrium simulation and does not establish completed infrastructure effects or equitable welfare.
+
+The trend registry holds 1710 records and
+5117 observations.
+
+**Locally-led resilience checkpoint — 2026-09-29:** The [World Bank Papua New Guinea resilience record](records/comparative-world-bank-png-locally-led-climate-resilience-local-governance-2026.json) adds a local-governance-to-climate-resilience route: spatial risk profiles, conflict-sensitive adaptation, centralized implementation, Local-Level Government capacity, adaptation finance, wantok networks, Indigenous knowledge, churches, community organizations, and social cohesion. The next test is whether “locally led” action transfers decision power and resources rather than downloading responsibility onto strained communities; the report does not establish causal resilience effects, equal representation, durable finance, or that community networks can replace public capacity.
+
+The trend registry holds 1726 records and
+5120 observations.
+
+**Digital-fiscal reach checkpoint — 2026-09-29:** The [IMF Middle East and Central Asia digitalization record](records/comparative-imf-me-central-asia-digitalization-revenue-social-assistance-2026.json) adds a route from digital identity, connectivity, financial inclusion, interoperable social registries, tax administration, revenue, social-assistance targeting, poverty, inequality, trust, exclusion, privacy, and enforcement costs. The next test is whether named implementations improve realized benefit reach and fiscal fairness for people with weak connectivity, limited accounts, or disputed records rather than merely increasing administrative data and enforcement capacity; the note combines comparative indicators, cases, and associations.
+
+The trend registry holds 1712 records and
+5123 observations.
+
+**First-buyer digital-adoption checkpoint — 2026-09-29:** The [World Bank Georgia digital-market record](records/comparative-world-bank-georgia-digital-market-access-demand-incentive-2026.json) adds randomized evidence that training alone did not increase digital participation, while a conditional purchase order increased market access by 26 percentage points; the effect largely dissipated as controls caught up and remained stronger among firms with higher baseline e-commerce readiness. The next test is whether a named procurement or platform case turns a first demand shock into repeat transactions and broader supplier diversity rather than temporarily subsidizing already-ready firms; the paper does not establish durable profits, employment, productivity, survival, or consumer welfare.
+
+The trend registry holds 1713 records and
+5126 observations.
+
+**Job-search initiation checkpoint — 2026-09-29:** The [World Bank Pakistan job-search record](records/comparative-world-bank-pakistan-job-search-initiation-friction-2026.json) adds randomized evidence that changing the application default increased applications by 600%, consistent with psychological and search-initiation costs; it does not establish employment, wages, match quality, job quality, retention, or employer welfare. The next test is whether lower-friction initiation produces interviews, accepted jobs, and durable work across people facing different care, transport, discrimination, digital-access, and confidence barriers rather than merely increasing application volume.
+
+The trend registry holds 1714 records and
+5129 observations.
+
+**Contextual-agency measurement checkpoint — 2026-09-29:** The [World Bank Tunisia women's-agency record](records/comparative-world-bank-tunisia-womens-agency-context-specific-ai-measurement-2026.json) adds evidence that India-Tunisia item overlap is minimal, rural and urban Tunisian measures differ, machine learning performs well against a qualitative benchmark, and current generative-AI methods do not improve the exercise. The next test is whether locally validated modules change program targeting and outcomes relative to a universal scale alone, while retaining transparent comparison; the study does not estimate population agency or causal empowerment.
+
+The trend registry holds 1715 records and
+5132 observations.
+
+**AI-institutionalization checkpoint — 2026-09-29:** The [World Bank 60-economy government-AI record](records/comparative-world-bank-government-ai-adoption-institutional-readiness-60-economies-2026.json) adds evidence that adoption is broad but shallow, 44% of internal use is individual ad hoc work, constraints vary by income and readiness, and many governments provide generative-AI access before formal guidelines. The next test is whether a named agency moves from informal use to governed workflow, human review, error correction, explanation, and measurable service improvement rather than treating access as institutional capability; the survey does not audit systems or citizen outcomes.
+
+The trend registry holds 1716 records and
+5135 observations.
+
+**Salience-within-constraint checkpoint — 2026-09-29:** The [World Bank Bihar food-accounting record](records/comparative-world-bank-bihar-food-accounting-salience-dietary-diversity-2026.json) adds cluster-RCT evidence that a food-tracking journal increased attention, automaticity, and minimum dietary diversity but did not change food quantity or child MUAC; effects varied by frontline worker and were constrained by food availability and income. The next test is whether pairing salience tools with food access, income, market, and care supports produces durable nutritional gains without shifting additional monitoring work onto mothers; the study does not establish long-run health or food-security effects.
+
+**Latest completed AI-work-organization rotation — 2026-09-29:** the [ILO Chinese enterprise AI-adoption record](records/comparative-ilo-chinese-enterprise-ai-adoption-hybrid-work-measurement-2026.json) adds the next queue route: test whether organizational AI adoption changes tasks, hours, staffing, wages, career entry, worker voice, quality, and capture of productivity gains. The source's purposive enterprise sample, self-reported firm metrics and descriptive professional survey remain explicit.
+
+**Latest completed climate-work rotation — 2026-09-29:** the [ILO Colombia heat-stress record](records/comparative-ilo-colombia-heat-stress-occupational-mortality-climate-risk-2026.json) adds the next queue route: test whether heat exposure becomes altered schedules, breaks, productivity, injury, claims, mortality, income and household cost across formal and informal work. The source is observational and its station coverage, dry-air temperature and 2022 labor-distribution assumptions remain explicit.
+
+**Latest completed self-employed-protection rotation — 2026-09-29:** the [ILO comparative social-insurance record](records/comparative-ilo-self-employed-social-insurance-design-portability-2026.json) adds the next queue route: test whether flexible contributions, subsidies, benefit fit, one-stop access and worker organization produce durable take-up and portable protection across irregular income and changing status. The selected cases have sparse beneficiary and long-run outcome evidence.
+
+**Latest completed project-afterlife rotation — 2026-09-29:** the [ILO EIIP formalization record](records/comparative-ilo-eiip-formalization-project-afterlife-public-investment-2026.json) adds the next queue route: follow infrastructure participants after project closure into registration, next employment, claims, wages, procurement, cooperative survival and household security. The brief warns that short projects, weak local capacity and insufficient follow-up can leave formalization temporary.
+
+The trend registry holds 1827 records and
+5511 observations.
+
+**Latest regional-AI-governance rotation — 2026-09-29:** the [ILO ASEAN-China AI labour-policy record](records/comparative-ilo-asean-china-ai-labour-policy-dialogue-2026.json) adds a route from AI exposure through public employment services, skills, tripartite dialogue, digital access, regional standards, worker transition, and South-South policy agency. The dialogue cites almost 80 million potentially GenAI-exposed workers in South-East Asia, but it is an agenda-setting event, not evidence of job loss, implementation, or outcomes. The next test follows one AI policy from regional discussion through national rule, training/service delivery, firm deployment, worker experience, and remedy.
+
+**Latest rural-urban-transition rotation — 2026-09-29:** the [World Bank Laos poverty and urban-vulnerability record](records/comparative-world-bank-laos-poverty-urban-vulnerability-remittances-2026.json) adds a route from rural welfare improvement and sectoral growth through urban vulnerability, job quality, migration, remittances, housing, youth inactivity, ethnic inequality, and household fallback capacity. National poverty fell from 24.6% to 15% between 2012 and 2024, while urban poverty rose from 7% to 8.9% and remittance-receiving households rose to 21.6%. The profile is descriptive, not causal or longitudinal household evidence; the next test follows one corridor or group through work, movement, transfers, housing, schooling, and care.
+
+**Latest prosperity-distribution rotation — 2026-09-29:** the [World Bank Uzbekistan poverty and equity record](records/comparative-world-bank-uzbekistan-poverty-middle-class-job-quality-2026.json) adds a route from wage growth and poverty reduction through job formality, productivity, spatial concentration, care, skills, transfer coverage, vulnerability, and durable mobility. Poverty fell from 17.0% to 5.8% and the middle-class share exceeded 72%, while about 85% of new jobs were informal, high-skilled work concentrated around Tashkent, and women’s care constraints remained large. The assessment is not causal or longitudinal household evidence; the next test follows households across work, care, migration, education, shocks, and return to poverty.
+
+**Latest health-capacity rotation — 2026-09-29:** the [WHO essential-public-health-functions record](records/comparative-who-essential-public-health-functions-institutional-capacity-2026.json) adds a route from everyday prevention and exposure through public-health institutions, workforce, primary services, WASH, housing, data, crisis response, and geopolitical financing. WHO reports more than 120 countries identifying institutional capacity as a medium-to-high priority, but the update is not a comparable capacity dataset or causal evaluation. The next test follows one country from budget composition and workforce through routine service, household cost, crisis response, and trust.
+
+**Latest consumer-confidence asymmetry rotation — 2026-09-29:** the [Ipsos September global consumer-confidence record](records/comparative-ipsos-global-consumer-confidence-september-2026-subindex-asymmetry.json) adds a multi-clock route from geopolitical/economic shock through current purchasing, investment caution, future expectations, job sentiment, selective consumption, and political attribution. The overall index is stable at 48.4, but Expectations and Jobs (56.6 and 57.7) sit well above Current and Investment (39.0 and 41.7); the survey is cross-country and perception-based, not realized spending or household welfare evidence. The next test follows a country or consumer group from sentiment into purchase, saving, borrowing, employment, and public response.
+
+**Latest labour-governance institution rotation — 2026-09-29:** the [ILO Kurdistan tripartite social-dialogue record](records/comparative-ilo-kurdistan-tripartite-social-dialogue-labour-governance-2026.json) adds a route from labour conflict and policy change through equal tripartite representation, information exchange, legislation, implementation follow-up, and worker/firm legitimacy. The Forum is newly established: the source does not establish effective influence, policy change, enforcement, worker outcomes, or durability. The next test is a named Forum issue followed from agenda to decision, implementation, remedy, and affected outcomes.
+
+**Latest formalization-and-family-security rotation — 2026-09-29:** the [ILO South Asia formalization and child-labour record](records/comparative-ilo-south-asia-formalization-child-labour-voice-2026.json) adds a route from informal work and supply-chain risk through policy, enforcement, community organization, formal status, worker voice, social protection, and child protection. The ILO closeout reports improved access and representation for 23,208 workers and 13 policy or legislative measures, but does not establish causal reductions in child labour, durable formalization, benefit adequacy, wage gains, or post-project survival. The next test is a post-project country-sector episode following wages, registration, safety, benefits, schooling, complaints, and household income.
+
+**Latest classroom-technology rotation — 2026-09-29:** the [Gallup classroom-device record](records/us-gallup-teacher-screens-device-oversight-efficacy-2026.json) adds the next test: whether teacher control, filtering, monitoring, training and non-digital alternatives make ubiquitous learning technology usable and legitimate, rather than treating screen time as a standalone exposure. The survey is cross-sectional and perception-based; it does not establish causal effects on learning, attention, equity or teacher retention.
+
+**Latest AI-legitimacy rotation — 2026-09-29:** the [SCSP–Gallup AI sentiment record](records/us-scsp-gallup-ai-sentiment-trust-preparation-2026.json) adds the next test: whether rising use and self-teaching are converted into credible training, independent testing, safety governance and worker transition support rather than leaving individuals to absorb adoption risk. The survey reports expectations and stated preferences, not realized displacement, productivity, fairness or policy outcomes.
+
+**Latest worker-transition rotation — 2026-09-29:** the [Gallup AI workplace-manager record](records/us-gallup-ai-workplace-manager-buffer-displacement-2026.json) adds the next test: whether manager respect, wellbeing support, role explanation and worker voice convert direct AI exposure from displacement fear into manageable transition. The four-wave panel analysis is observational and does not establish causal management effects, actual job loss or successful retraining.
+
+**Latest collective-voice rotation — 2026-09-29:** the [Gallup union-influence record](records/us-gallup-union-influence-approval-2026-collective-voice.json) adds the next test: whether rising approval and demand for union influence convert into membership, organizing, bargaining power and worker outcomes despite low confidence that unions will strengthen. The poll measures stated attitudes, not realized collective action or institutional change.
+
+**Latest life-course household-security rotation — 2026-09-29:** the [Edward Jones–Gallup financial-future record](records/comparative-gallup-edward-jones-financial-future-confidence-us-canada-2026.json) adds the next test: whether age-stratified current confidence, younger-adult extra work and Gen X retirement uncertainty translate into observed asset-building, housing, care, debt and retirement outcomes. The study is cross-sectional and does not establish causal cohort effects or financial adequacy.
+
+**Latest place-and-firm rotation — 2026-09-29:** the [Gallup local-business-climate record](records/us-gallup-business-owner-local-climate-retention-2026.json) adds the next test: whether customer access, support networks, regulation and public services retain growing firms when local costs are high, rather than treating taxes or real estate as sufficient explanations. The survey links satisfaction to stated relocation intention but does not establish actual moves, firm survival or local-policy effects.
+
+**Latest speculative-consumption rotation — 2026-09-29:** the [Gallup crypto-ownership record](records/us-gallup-crypto-ownership-risk-reversal-2026.json) adds the next test: whether crypto’s retreat from its 2025 ownership peak becomes durable consumer exit, selective high-risk participation or a new platform-mediated financial habit concentrated by age, gender and income. The survey measures ownership and risk perceptions, not realized returns, harm, debt or causal market behavior.
+
+**Latest measurement-legitimacy rotation — 2026-09-29:** the [Gallup unemployment-measurement record](records/us-gallup-unemployment-measurement-narrative-slack-2026.json) adds the next test: whether a layered labor dashboard connecting headline unemployment, U-6, job fit, nonparticipation, care, disability, wages and transitions better tracks lived work insecurity and policy legitimacy than a single headline number. The source is an analytical essay, not a new survey or validated replacement statistic.
+
+**Latest sector-legitimacy rotation — 2026-09-29:** the [Gallup industry-ratings record](records/us-gallup-industry-ratings-cost-trust-2026.json) adds the next test: whether public legitimacy declines for sectors associated with household costs, AI disruption and visible risk translate into consumer behavior, regulation, firm adaptation or infrastructure politics. The survey measures perceptions, not actual sector performance or causal attribution.
+
+**Early-childhood-care checkpoint — 2026-09-29:** The [World Bank Ukraine ECPE record](records/comparative-world-bank-ukraine-early-childhood-preschool-expenditure-institutional-2026.json) adds evidence that wartime disruption and demographic decline turn preschool into a territorial care, female-labor, and recovery-capacity problem: enrollment fell 31.1%, the highest-enrollment hromadas serve nearly three times as many children as the lowest, per-child spending varies nearly 50-fold, and 64% of hromadas contain both an understaffed and an overstaffed preschool. The next test is whether local implementation of the 2024 Preschool Law converts flexibility into safe, equitable access rather than preserving input-rigid and fiscally unequal provision; the PEIR is not a causal evaluation of the law or wartime disruption.
+
+**Digital-consumer-credit checkpoint — 2026-09-29:** The [World Bank financial-consumer over-indebtedness record](records/comparative-world-bank-financial-consumer-overindebtedness-digital-credit-2026.json) adds a route from income and price pressure through targeted digital credit, interface and product design, repayment stress, collection, informal substitution, and insolvency. The note’s cited Tanzania example reports a nearly 40% default rate for first-time digital microcredit loans; its broader contribution is the lifecycle response linking prevention, mitigation, lawful exit, data, supervision, and dispute resolution. The next test is whether country reforms reduce realized borrowing harm while preserving beneficial access; this is a global policy synthesis, not a harmonized prevalence study or causal evaluation.
+
+**Digital-finance-competition checkpoint — 2026-09-29:** The [World Bank digital-financial-services competition record](records/comparative-world-bank-digital-financial-services-competition-interoperability-2026.json) adds a route from formal account access through interoperability, market contestability, switching, fees, fraud, trust, and active digital use. Across six country cases, 2024 digital-payment usage among account holders ranged from 80% in Ghana and 77% in Brazil to 48% in India, 54% in Nigeria, and 40% in the Philippines. The next test is whether open rails, data mobility, coordinated competition, and consumer supervision change realized usage and consumer power without new concentration or single-point-of-failure risks; this is a comparative case-study synthesis, not a causal evaluation.
+
+**Justice-capacity checkpoint — 2026-09-29:** The [World Bank Ethiopia JUPITER record](records/comparative-world-bank-ethiopia-justice-delivery-customary-digital-capacity-2026.json) adds a route from institutional throughput through user-facing friction, customary substitution or nonuse, and justice legitimacy. Federal courts cleared more than 95% of cases, yet 67% of surveyed court users identified lengthy processes as discouraging; Oromia customary courts received more than 374,000 cases in 2023/2024. The next test is whether digitalization, legal aid, statutory-customary linkages, and capacity reform improve fair resolution and trust rather than internal throughput alone; the assessment is not causal.
+
+**Skills-governance checkpoint — 2026-09-29:** The [ILO next-generation Sector Skills Bodies record](records/comparative-ilo-next-generation-sector-skills-bodies-2026.json) adds a route from AI, climate, demographic, and business-model change through institutionalized worker/employer voice, labor-market intelligence, training and enterprise adaptation, and transition security. The guide moves SSBs from narrow advisory bodies toward agile, integrated, hybrid-funded, data-driven sector institutions. The next test is whether they improve job quality, mobility, skills use, and Just Transition outcomes without employer capture; the guide is comparative practical guidance, not causal evidence.
+
+**Social-protection-composition checkpoint — 2026-09-29:** The [ILO Ethiopia social-protection coverage record](records/comparative-ilo-ethiopia-social-protection-coverage-cash-kind-health-gender-2026.json) adds a route from programme expansion through benefit composition, household room, life-course and gender gaps, local delivery, and data governance. CBHI reaches about 40.7% of the population and school feeding 7.6 million children, while only 5.8% receive cash social protection; older-women pension coverage is 1.8% and severe-disability benefit coverage 0.3%. The next test is whether cash protection and integrated registries improve realized resilience without displacing useful in-kind services; this is a fact-finding baseline, not a causal evaluation.
+
+**Migrant-rights-lifecycle checkpoint — 2026-09-29:** The [ILO migrant-workers-rights record](records/comparative-ilo-migrant-workers-rights-lifecycle-recruitment-social-protection-2026.json) adds a route from recruitment and migration status through workplace and residence conditions, social-protection portability, family room, enforcement, return, and reintegration. The guide connects information and fees before departure, equality and safety at work, benefits and housing during residence, and cross-border remedy after harm. The next test is whether rights pathways reduce recruitment debt, improve safety and portability, and create effective worker voice without status-based exclusion; it is normative guidance, not causal evidence.
+
+**Social-protection-implementation checkpoint — 2026-09-29:** The [ILO Global Flagship Programme record](records/comparative-ilo-social-protection-floors-institutional-change-effective-access-2026.json) adds a route from policy commitment through legal entitlement, registration and administration, benefit delivery, and realized household protection. The programme reports 84.19 million people affected, including 31.51 million gaining legal coverage and 23.81 million gaining effective coverage; institutional results reached 180 against an ambition of 80. The next test is whether country reforms sustain domestic financing, delivery, adequacy, inclusion, and crisis responsiveness after external support changes; this is a programme retrospective, not a causal evaluation.
+
+**Lifelong-learning institutionalization checkpoint — 2026-09-29:** The [ILO skills and lifelong-learning evaluation record](records/comparative-ilo-skills-lifelong-learning-strategy-evaluation-2026.json) adds a route from work-transition pressure through policy and governance reform, worker voice, financing, implementation capacity, and durable learning access. The next test is whether national systems convert frameworks and pilots into accessible, funded, worker-legitimate lifelong-learning infrastructure rather than leaving reforms at the policy or externally funded project stage; the evaluation is strategy-level and not causal proof of employment, wage, productivity, or inclusion effects.
+
+**Education-infrastructure checkpoint — 2026-09-29:** The [OECD Education at a Glance 2026 teacher-shortage record](records/comparative-oecd-education-at-a-glance-2026-teacher-shortage-status-place.json) adds a route from skilled-labor scarcity and ageing through uneven teacher supply, place- and subject-specific access, occupational status, family burden, and community confidence. The next test is whether a named staffing or reallocation episode improves teacher stability and student access in hard-to-staff places without treating demographic decline as automatic relief; the report is comparative indicator and survey evidence, not causal proof of learning or retention effects.
+
+**Social-protection-usability checkpoint — 2026-09-29:** The [ILO Jordan social-security registration record](records/comparative-ilo-jordan-social-security-registration-behavioral-outreach-2026.json) adds randomized evidence that contribution affordability plus human outreach increased worker registration, while low-cost SMS scaled awareness but did not increase worker registration. The next test is whether social insurance reforms combine affordable contributions, human navigation, simpler administration, and realized claim access across the worker lifecycle; the Jordan small-firm experiment does not establish durable post-subsidy coverage or benefit adequacy.
+
+**Formalization-trust checkpoint — 2026-09-29:** The [ILO Jordan firm-level RCT record](records/comparative-ilo-jordan-social-security-rct-firm-level-trust-process-friction-2026.json) adds preliminary implementation evidence that formalization varies by firm size, wage eligibility, nationality and administrative capacity, while data staleness, digital-process friction, inspection-like contact and loopholes can weaken trust. The next test is whether hybrid outreach and child-benefit incentives produce durable contributions and claims without adding administrative burden or selective exclusion; the report does not establish long-run formalization or benefit adequacy.
+
+**Formalization-trust checkpoint — 2026-09-29:** The [ILO Jordan firm-level RCT record](records/comparative-ilo-jordan-social-security-rct-firm-level-trust-process-friction-2026.json) adds preliminary implementation evidence that formalization varies by firm size, wage eligibility, nationality and administrative capacity, while data staleness, digital-process friction, inspection-like contact and loopholes can weaken trust. The next test is whether hybrid outreach and child-benefit incentives produce durable contributions and claims without adding administrative burden or selective exclusion; the report does not establish long-run formalization or benefit adequacy.
+
+**Social-protection-usability checkpoint — 2026-09-29:** The [ILO Jordan social-security registration record](records/comparative-ilo-jordan-social-security-registration-behavioral-outreach-2026.json) adds randomized evidence that contribution affordability plus human outreach increased worker registration, while low-cost SMS scaled awareness but did not increase worker registration. The next test is whether social insurance reforms combine affordable contributions, human navigation, simpler administration, and realized claim access across the worker lifecycle; the Jordan small-firm experiment does not establish durable post-subsidy coverage or benefit adequacy.
+
+**Environmental-learning checkpoint — 2026-09-29:** The [World Bank Pakistan air-pollution learning record](records/comparative-world-bank-pakistan-air-pollution-learning-cognition-2026.json) adds causal evidence that school-year PM2.5 exposure lowers primary-school learning in rural Punjab, with a larger mathematics effect and only a small attendance channel. The next test is whether clean-air interventions change in-class learning, teacher performance, household health costs, and later educational transitions; the study does not establish national representativeness, direct cognition measures, or lifetime earnings effects.
+
+**Policy-to-price pass-through checkpoint — 2026-09-29:** The [World Bank Papua New Guinea food-tax record](records/comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026.json) adds evidence that tax relief passed through in formal urban supermarkets but not informal or rural stores; only 16% of foregone revenue accrued to the poorest two quintiles, while richer households and stores or wholesalers captured much larger shares. The next test is whether named cost-of-living reforms reach the stores and household channels used by poorer groups, and whether transfers or price relief change realized food affordability rather than only announced fiscal support; the paper is PNG-specific and its transfer comparison is static.
+
+The trend registry holds 1799 records and
+5388 observations.

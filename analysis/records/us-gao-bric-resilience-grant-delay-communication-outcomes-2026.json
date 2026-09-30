@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-bric-resilience-grant-delay-communication-outcomes-2026",
+  "title": "Disaster-resilience funding becomes a lived public-system outcome only when grant review, policy continuity, and measurement work",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Government Accountability Office, FEMA: Billions in Building Resilient Infrastructure and Communities Subgrants Remain Unawarded (GAO-26-107774)",
+  "geography": "United States; FEMA BRIC applicants and subapplicants across states, territories, Tribes, and local governments",
+  "observations": [
+    {
+      "period": "Fiscal years 2020-2023 grant cycles; status as of March 2025",
+      "denominator": {"value": 3820, "unit": "BRIC subapplications analyzed across four grant cycles", "value_type": "reported_program_dataset"},
+      "measures": {
+        "awarded_subgrants": {"value": 1245, "unit": "subgrants awarded", "value_type": "reported_count"},
+        "allocated_funding": {"value": 2.5, "unit": "billion dollars allocated against 4.8 billion dollars available", "value_type": "reported_aggregate"},
+        "reimbursed": {"value": 62, "unit": "million dollars reimbursed", "value_type": "reported_aggregate"},
+        "completed_closeout": {"value": 37, "unit": "subgrants with completed work and initiated closeout", "value_type": "reported_count"},
+        "mechanism": {"value": "A grant award is not equivalent to implemented resilience; obligation, reimbursement, construction, and closeout are separate conversion points", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO analysis of FEMA BRIC documentation and program data from four grant cycles, supplemented by interviews with selected states, communities, and FEMA officials.",
+      "uncertainty": "The figures describe BRIC administrative status rather than the full universe of resilience investment or verified hazard-loss reduction; reimbursement and closeout can lag physical work.",
+      "subgroup": "Local governments, states, Tribes, territories, and economically disadvantaged rural communities applying for hazard-mitigation support.",
+      "counterinterpretation": "A low completed-closeout count may partly reflect the long duration of infrastructure projects and administrative timing rather than project failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-107774",
+      "retrieval_hash": "sha256:01bafb8204091ee03ad26019808838aa496a9aa0dff7f60d80439843ae7a4aea",
+      "status": "reported"
+    },
+    {
+      "period": "As of March 2025; award-review pipeline",
+      "denominator": {"value": 700, "unit": "BRIC subapplications awaiting FEMA award decisions after the second review stage had not been completed", "value_type": "reported_count"},
+      "measures": {
+        "associated_funding": {"value": 2.2, "unit": "billion dollars associated with pending subapplications", "value_type": "reported_aggregate"},
+        "median_review_time": {"value": "7 to 9 months to finalize review and award", "unit": "months", "value_type": "reported_duration"},
+        "local_cost_pressure": {"value": "Communities reported that review delays could extend project timelines and increase costs", "unit": "reported implementation consequence", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Administrative time is an infrastructure cost: delay can erode purchasing power, contractor availability, and local planning certainty", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO analysis of FEMA review-stage data and interviews with selected state and community officials.",
+      "uncertainty": "Reported cost effects were not estimated as a national causal total; interviewed communities were a nongeneralizable selection.",
+      "subgroup": "Applicants with limited staff, changing construction prices, hazard exposure, or little ability to absorb schedule slippage.",
+      "counterinterpretation": "Review safeguards may prevent poorly designed or non-cost-effective projects, so faster processing is not automatically better processing.",
+      "source_url": "https://www.gao.gov/products/gao-26-107774",
+      "retrieval_hash": "sha256:01bafb8204091ee03ad26019808838aa496a9aa0dff7f60d80439843ae7a4aea",
+      "status": "reported"
+    },
+    {
+      "period": "April 2025-March 2026; BRIC program status transition",
+      "denominator": {"value": 1, "unit": "federal grant-program transition reviewed by GAO", "value_type": "reported_program_case"},
+      "measures": {
+        "policy_sequence": {"value": "FEMA announced BRIC termination in April 2025 and restart in March 2026", "unit": "reported policy sequence", "value_type": "reported_pattern"},
+        "communication_gap": {"value": "FEMA did not clarify which subgrants would be terminated during the intervening period", "unit": "reported governance gap", "value_type": "reported_boundary"},
+        "work_stoppage": {"value": "State officials reported that some subrecipients stopped work because of funding uncertainty", "unit": "reported implementation consequence", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Policy volatility and unclear communication can freeze local action even when money and project demand exist", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO review of FEMA advisories and interviews with selected state and community officials.",
+      "uncertainty": "The report does not quantify how many projects stopped or isolate communication from other causes of delay.",
+      "subgroup": "State agencies, local governments, Tribes, contractors, and residents awaiting mitigation investments.",
+      "counterinterpretation": "Program changes may reflect legitimate reprioritization or legal and fiscal constraints; clearer communication would not by itself resolve funding scarcity.",
+      "source_url": "https://www.gao.gov/products/gao-26-107774",
+      "retrieval_hash": "sha256:01bafb8204091ee03ad26019808838aa496a9aa0dff7f60d80439843ae7a4aea",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2023 and fiscal years 2024-2025 BRIC program design",
+      "denominator": {"value": 2, "unit": "BRIC funding-cycle designs compared by GAO", "value_type": "reported_program_comparison"},
+      "measures": {
+        "performance_boundary": {"value": "FEMA established goals but did not consistently define methods and targets to measure results or use performance information in the termination decision", "unit": "reported performance-management finding", "value_type": "reported_boundary"},
+        "design_shift": {"value": "The newer cycle emphasized construction-ready infrastructure, faster obligation, and greater state, territory, and Tribal responsibility", "unit": "reported program-design shift", "value_type": "reported_pattern"},
+        "planning_change": {"value": "Direct technical assistance and some stand-alone planning activities were removed or narrowed in the newer cycle", "unit": "reported eligibility change", "value_type": "reported_pattern"},
+        "mechanism": {"value": "A speed-and-construction focus can improve delivery while weakening upstream planning and capacity support for places least able to prepare projects", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO comparison of FEMA BRIC notices of funding opportunity, performance goals, administrative data, and program-management practices.",
+      "uncertainty": "The report does not yet show whether the revised cycle will shorten reviews, improve geographic equity, or reduce future disaster losses.",
+      "subgroup": "Smaller, rural, Tribal, disadvantaged, and technically constrained communities facing high hazard exposure.",
+      "counterinterpretation": "Prioritizing construction-ready projects and shifting responsibility to states or Tribes could reduce federal bottlenecks and speed implementation if those governments have sufficient capacity.",
+      "source_url": "https://www.gao.gov/products/gao-26-107774",
+      "retrieval_hash": "sha256:01bafb8204091ee03ad26019808838aa496a9aa0dff7f60d80439843ae7a4aea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107774/index.html", "claim": "Official full GAO report with appendices, methods, and BRIC subapplication data."},
+    {"source_url": "https://www.fema.gov/grants/mitigation/building-resilient-infrastructure-communities", "claim": "FEMA BRIC program page for program context."}
+  ],
+  "boundary": "This record captures a public-system conversion problem: resilience need and federal appropriations pass through review time, policy continuity, communication, local capacity, and outcome measurement before they become completed protective infrastructure. It is a GAO administrative and interview-based audit, not a national estimate of avoided disaster losses or a respondent-level household study.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GAO report page and full HTML report were reviewed for BRIC awards, pending review, reimbursement, program transition, performance-management, and funding-cycle design findings.",
+    "source_url_sha256": "sha256:01bafb8204091ee03ad26019808838aa496a9aa0dff7f60d80439843ae7a4aea",
+    "checked": "2026-09-28"
+  }
+}

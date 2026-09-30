@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-ai-education-common-good-deliberative-governance-2026",
+  "title": "AI in education is being reframed as a public-purpose and agency problem requiring deliberative governance, not merely technology adoption",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "UNESCO, Global consultation on education in the age of AI and the discussion paper Sustaining education as a common good in the age of AI: The case for deliberative governance",
+  "geography": "Global education systems and stakeholders participating in UNESCO’s September–November 2026 consultation",
+  "observations": [
+    {
+      "period": "2026; education as a common-good governance frame",
+      "denominator": {"value": 1, "unit": "UNESCO discussion-paper governance frame", "value_type": "published_framework"},
+      "measures": {
+        "public_purpose": {"value": "education is framed as a common good whose public purposes can be undermined when AI use is ungoverned", "unit": "reported normative frame", "value_type": "reported_principle"},
+        "system_pressure": {"value": "education systems are responding to rapidly changing technologies without consistently adequate regulatory frameworks, institutional capacity, or shared understanding", "unit": "reported governance assessment", "value_type": "reported_assessment"},
+        "agency_question": {"value": "the central policy question is how education systems can exercise agency and shape AI to sustain education’s public purpose", "unit": "reported policy question", "value_type": "reported_framework"}
+      },
+      "method": "UNESCO discussion paper and consultation page establishing a normative and policy framework for deliberative governance of AI in education.",
+      "uncertainty": "The discussion paper is a normative and agenda-setting document; it does not measure implementation, learning outcomes, public attitudes, or the effects of any particular AI system.",
+      "subgroup": "Students, teachers, families, education authorities, school leaders, researchers, technology providers, civil society, and communities affected by AI-mediated education decisions.",
+      "counterinterpretation": "Calling education a common good can support public accountability, but it does not resolve who sets the purpose, how disagreement is handled, or how resources and decision rights are distributed.",
+      "source_url": "https://www.unesco.org/en/digital-education/artificial-intelligence/consultation",
+      "retrieval_hash": "sha256:89a12fafdef5f0aac9ae8a00a7a3bab7eab0584eb85931767a7f9f04ee50a1fe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-in-education governance workstreams",
+      "denominator": {"value": 6, "unit": "UNESCO background-paper workstreams listed for consultation", "value_type": "reported_workstream_denominator"},
+      "measures": {
+        "workstreams": {"value": "digital and AI sovereignty; age appropriateness; learner safety; AI procurement; total cost of ownership; and the right to an explanation", "unit": "reported governance workstreams", "value_type": "reported_framework"},
+        "governance_scope": {"value": "the consultation spans political authority, developmental appropriateness, safety, purchasing, lifetime cost, and explainability", "unit": "reported governance scope", "value_type": "reported_interpretation"},
+        "implementation_question": {"value": "the papers ask what it takes for systems to shape and govern AI rather than simply absorb tools", "unit": "reported policy question", "value_type": "reported_framework"}
+      },
+      "method": "Inventory and synthesis of the six UNESCO-listed background-paper topics accompanying the common-good discussion paper.",
+      "uncertainty": "The workstreams identify decision domains but do not establish common standards, comparative country performance, or causal effects of any governance route.",
+      "subgroup": "Education ministries, school systems, procurement teams, teachers, learners, families, technology vendors, safety and rights advocates, and public-interest researchers.",
+      "counterinterpretation": "A broad governance agenda can make hidden costs and rights visible, but it can also overwhelm institutions or delay useful tools if priorities are not sequenced and resourced.",
+      "source_url": "https://www.unesco.org/en/digital-education/artificial-intelligence/consultation",
+      "retrieval_hash": "sha256:89a12fafdef5f0aac9ae8a00a7a3bab7eab0584eb85931767a7f9f04ee50a1fe",
+      "status": "reported"
+    },
+    {
+      "period": "September–November 2026; global consultation process",
+      "denominator": {"value": 1, "unit": "UNESCO consultation process", "value_type": "published_process"},
+      "measures": {
+        "consultation_window": {"value": "September to November 2026", "unit": "reported consultation period", "value_type": "reported_schedule"},
+        "comment_deadline": {"value": "15 October 2026", "unit": "reported deadline for contributions", "value_type": "reported_schedule"},
+        "policy_output": {"value": "feedback will inform a compilation of policy briefs planned for Digital Learning Week 2027", "unit": "reported policy-development route", "value_type": "reported_process"}
+      },
+      "method": "UNESCO consultation process description inviting experts, academics, government officials, and other stakeholders to review the discussion and background papers.",
+      "uncertainty": "Participation in a consultation does not establish representativeness, consensus, implementation, or that submitted feedback will be adopted in final policy briefs.",
+      "subgroup": "Experts, academics, public officials, teachers, learners, technology and procurement practitioners, civil society, and other education stakeholders.",
+      "counterinterpretation": "Consultation can broaden voice and surface contextual knowledge, while time, language, institutional access, and technical expertise can still shape whose views enter the policy process.",
+      "source_url": "https://www.unesco.org/en/digital-education/artificial-intelligence/consultation",
+      "retrieval_hash": "sha256:89a12fafdef5f0aac9ae8a00a7a3bab7eab0584eb85931767a7f9f04ee50a1fe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; principles proposed for AI governance in education",
+      "denominator": {"value": 1, "unit": "UNESCO consultation question set", "value_type": "published_process"},
+      "measures": {
+        "principles": {"value": "human agency, equity, inclusion, safety, and ethics", "unit": "reported UNESCO principles for AI in education", "value_type": "reported_principle_set"},
+        "evidence_request": {"value": "the consultation asks for evidence, examples, and country experiences to strengthen feasibility", "unit": "reported evidence route", "value_type": "reported_process"},
+        "policy_questions": {"value": "clear concepts, policy problem framing, actionable recommendations, principles, evidence, and implementation", "unit": "reported consultation question set", "value_type": "reported_framework"}
+      },
+      "method": "Synthesis of UNESCO’s published consultation questions and stated principles.",
+      "uncertainty": "Principles and questions are not outcome measures; their interpretation and implementation may differ across education systems, technologies, and political contexts.",
+      "subgroup": "Learners, educators, families, administrators, policymakers, vendors, researchers, and communities whose rights or opportunities may be affected by AI-mediated education.",
+      "counterinterpretation": "Principle-based governance can clarify public obligations, but broad principles require operational thresholds, accountability, remedy, and resources to change practice.",
+      "source_url": "https://www.unesco.org/en/digital-education/artificial-intelligence/consultation",
+      "retrieval_hash": "sha256:89a12fafdef5f0aac9ae8a00a7a3bab7eab0584eb85931767a7f9f04ee50a1fe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000399349", "claim": "UNESCO repository entry for the discussion paper Sustaining education as a common good in the age of AI."},
+    {"source_url": "https://www.unesco.org/en/digital-education/artificial-intelligence", "claim": "UNESCO AI and education hub provides related policy and governance context."}
+  ],
+  "boundary": "This record adds an education-governance and public-purpose signal linking AI diffusion, common-good framing, system agency, deliberation, sovereignty, age appropriateness, safety, procurement, total cost, explainability, equity, and implementation. It is a discussion-paper and consultation record, not an adoption survey, learner-level dataset, learning-outcome evaluation, representative public-opinion measure, or proof that deliberative governance will produce equitable AI use.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO consultation page was reviewed for the common-good and deliberative-governance frame, six background-paper workstreams, consultation period and deadline, policy-output route, principles, and evidence/implementation questions; normative proposals were kept distinct from measured outcomes.",
+    "source_url_sha256": "sha256:89a12fafdef5f0aac9ae8a00a7a3bab7eab0584eb85931767a7f9f04ee50a1fe",
+    "checked": "2026-09-27"
+  }
+}

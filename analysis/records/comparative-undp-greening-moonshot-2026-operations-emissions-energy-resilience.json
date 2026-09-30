@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-greening-moonshot-2026-operations-emissions-energy-resilience",
+  "title": "Climate-smart institutional operations are being treated as an implementation, cost, resilience, and credibility strategy rather than a symbolic sustainability pledge",
+  "theme_ids": ["energy", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "UNDP, Greening Moonshot: Strengthening credibility and delivering value for money through climate-smart UNDP operations",
+  "geography": "UNDP offices, facilities, fleets, travel, procurement, and operations across its global footprint",
+  "observations": [
+    {
+      "period": "2018 baseline to 2025; 2030 target",
+      "denominator": {"value": 1, "unit": "UNDP operational-emissions baseline and target frame", "value_type": "reported_baseline_target"},
+      "measures": {
+        "emissions_reduction": {"value": 25, "unit": "percent reduction in operational emissions compared with 2018 by 2025", "value_type": "reported_percentage"},
+        "target": {"value": 50, "unit": "percent operational-emissions reduction target by 2030 compared with 2018", "value_type": "reported_target"},
+        "implementation_status": {"value": "UNDP reports being on track toward the 2030 target", "unit": "reported status", "value_type": "reported_assessment"}
+      },
+      "method": "UNDP mid-term organizational report comparing operational emissions with a 2018 baseline and tracking progress toward a 2030 reduction target.",
+      "uncertainty": "The public summary does not provide the full emissions inventory, scope boundaries, activity data, offsets, regional breakdown, or whether the trajectory will remain linear to 2030.",
+      "subgroup": "UNDP staff, offices, facilities, suppliers, travelers, fleet users, partner communities, and people dependent on UNDP operations during crises.",
+      "counterinterpretation": "Operational emissions reductions can improve credibility and efficiency, but organizational footprints are small relative to global emissions and may not represent broader sectoral decarbonization.",
+      "source_url": "https://www.undp.org/publications/greening-moonshot-strengthening-credibility-and-delivering-value-money-through-climate-smart-undp-operations",
+      "retrieval_hash": "sha256:bf699adef1d0fc9a3a5b6c3862fc4cc65d915669b606dcd02a6b38a4e2efeb4c",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2026; operational-project portfolio",
+      "denominator": {"value": 200, "unit": "more than 200 UNDP greening projects reported across the global footprint", "value_type": "reported_project_count"},
+      "measures": {
+        "annual_avoided_emissions": {"value": 4000, "unit": "tonnes of CO2 equivalent reduced each year by the reported greening projects", "value_type": "reported_annual_reduction"},
+        "project_types": {"value": "Green energy, energy efficiency, electric mobility, building upgrades, travel decisions, and changes to daily habits are among the implementation routes", "unit": "reported intervention set", "value_type": "reported_framework"},
+        "operationalization": {"value": "Climate action is being embedded in offices, facilities, fleets, travel, and day-to-day operations", "unit": "reported operating model", "value_type": "reported_mechanism"}
+      },
+      "method": "UNDP organizational portfolio report aggregating greening projects and their reported operational effects.",
+      "uncertainty": "The public summary does not specify project-level baselines, additionality, verification, persistence, or whether the aggregate avoids double counting.",
+      "subgroup": "UNDP offices and staff, facility managers, procurement and travel teams, local vendors, and communities where operational upgrades are implemented.",
+      "counterinterpretation": "Many small operational projects can build institutional learning, but project portfolios can also scatter responsibility and favor visible efficiency projects over harder supply-chain, travel, or labor changes.",
+      "source_url": "https://www.undp.org/publications/greening-moonshot-strengthening-credibility-and-delivering-value-money-through-climate-smart-undp-operations",
+      "retrieval_hash": "sha256:bf699adef1d0fc9a3a5b6c3862fc4cc65d915669b606dcd02a6b38a4e2efeb4c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; energy-savings and value-for-money frame",
+      "denominator": {"value": 1, "unit": "UNDP greening investment and savings frame", "value_type": "reported_financial_frame"},
+      "measures": {
+        "energy_return": {"value": 8.5, "unit": "dollars of energy savings reported for each dollar invested in green-energy solutions", "value_type": "reported_ratio"},
+        "annual_savings": {"value": 2000000, "unit": "approximately US dollars saved annually through the Greening Moonshot", "value_type": "reported_annual_saving"},
+        "value_for_money": {"value": "The report presents climate-smart operations as improving value for money as well as reducing emissions", "unit": "reported organizational rationale", "value_type": "reported_interpretation"}
+      },
+      "method": "UNDP mid-term assessment of green-energy solutions and operational cost savings.",
+      "uncertainty": "The public summary does not show the investment denominator, accounting treatment, energy-price assumptions, payback periods, or whether savings are gross or net of maintenance and financing costs.",
+      "subgroup": "UNDP budget holders, facilities and procurement teams, staff, host-country suppliers, and public institutions considering climate-smart operations.",
+      "counterinterpretation": "Financial savings can accelerate adoption, but efficiency investments may privilege locations with high upfront capital and can shift cost or maintenance burdens onto local partners.",
+      "source_url": "https://www.undp.org/publications/greening-moonshot-strengthening-credibility-and-delivering-value-money-through-climate-smart-undp-operations",
+      "retrieval_hash": "sha256:bf699adef1d0fc9a3a5b6c3862fc4cc65d915669b606dcd02a6b38a4e2efeb4c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; operational resilience and service continuity",
+      "denominator": {"value": 1, "unit": "UNDP climate-smart operations resilience frame", "value_type": "reported_framework"},
+      "measures": {
+        "resilience_route": {"value": "Climate-smart operations are reported to strengthen resilience and help keep services running where grids fail and fuel supply chains are volatile", "unit": "reported resilience mechanism", "value_type": "reported_mechanism"},
+        "workplace_route": {"value": "The report associates greening operations with improved workplace health and safety", "unit": "reported workplace effect", "value_type": "reported_assessment"},
+        "credibility_route": {"value": "Operational climate action is framed as strengthening UNDP credibility as a climate-action partner", "unit": "reported institutional effect", "value_type": "reported_interpretation"}
+      },
+      "method": "UNDP organizational case and progress synthesis connecting emissions, energy, safety, service continuity, and institutional credibility.",
+      "uncertainty": "The summary does not establish causal effects on service continuity, safety, partner trust, or performance under specific outages or fuel shocks.",
+      "subgroup": "Staff working in fragile or infrastructure-constrained settings, local communities relying on continuity of UNDP-supported services, and partner institutions.",
+      "counterinterpretation": "Resilient low-carbon operations can reduce dependence on volatile grids and fuel, but distributed systems may introduce new maintenance, cybersecurity, procurement, or technical-capacity dependencies.",
+      "source_url": "https://www.undp.org/publications/greening-moonshot-strengthening-credibility-and-delivering-value-money-through-climate-smart-undp-operations",
+      "retrieval_hash": "sha256:bf699adef1d0fc9a3a5b6c3862fc4cc65d915669b606dcd02a6b38a4e2efeb4c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an institutional implementation signal linking climate-smart operations, emissions, energy savings, resilience, workplace safety, service continuity, and organizational credibility. It is a UNDP self-reported mid-term organizational report, not a global emissions estimate, causal evaluation, respondent-level dataset, independently verified project portfolio, or proof that operational savings generalize to all institutions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP publication page reviewed for 2018 baseline, 2025 emissions reduction, 2030 target, more than 200 projects, annual emissions reduction, energy-savings ratio, annual savings, resilience, workplace safety, and service-continuity framing.",
+    "source_url_sha256": "sha256:bf699adef1d0fc9a3a5b6c3862fc4cc65d915669b606dcd02a6b38a4e2efeb4c",
+    "checked": "2026-09-27"
+  }
+}

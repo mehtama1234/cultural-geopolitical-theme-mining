@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-ai-social-risk-forecasting-2026-anticipatory-capacity",
+  "title": "Public protection is shifting from reactive measurement toward AI-assisted anticipation of social risk",
+  "theme_ids": ["voice", "cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Group Social Policy, AI for Social Risk Forecasting and Explanation",
+  "geography": "World Bank operational settings, with proof-of-concept cases in eastern Democratic Republic of Congo, the Ethiopia-Kenya-Somalia borderlands, a small island developing state, and Uganda",
+  "observations": [
+    {
+      "period": "2026; World Bank social-policy and disaster-risk-finance practice",
+      "denominator": {
+        "value": 1,
+        "unit": "World Bank social-risk modeling framework",
+        "value_type": "institutional_framework"
+      },
+      "measures": {
+        "risk_domain": {"value": "models target conflict, crime, population displacement, and poverty as interacting social risks", "unit": "reported model scope", "value_type": "reported_scope"},
+        "input_breadth": {"value": "models combine climate, crime, conflict, demographic, microeconomic, macroeconomic, built-environment, and online-language signals", "unit": "reported input family", "value_type": "reported_method"},
+        "operating_shift": {"value": "social protection and development operations are being oriented toward anticipating risk and targeting mitigants before conventional surveys capture the full change", "unit": "reported operational direction", "value_type": "reported_orientation"}
+      },
+      "method": "World Bank description of machine-learning proof-of-concept models and their intended operational use; this is not a population survey or independent evaluation of welfare effects.",
+      "uncertainty": "The brief describes model inputs, forecasts, and operational applications but does not establish that prediction improves distributional outcomes, reduces harm, or avoids surveillance and exclusion risks.",
+      "subgroup": "People and places exposed to conflict, displacement, poverty, crime, climate stress, weak infrastructure, and limited access to jobs or social protection.",
+      "counterinterpretation": "Anticipatory systems can make public action faster, but they can also automate attention toward legible or model-defined risks while under-serving people whose needs are poorly represented in data.",
+      "source_url": "https://www.worldbank.org/en/brief/2026/06/08/ai-social-risk-forecasting",
+      "retrieval_hash": "sha256:9fec4b2a54497893e3cd40c0205b2d105e2b24bb0db6d48a7fde75ed92f9f9a6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; eastern Democratic Republic of Congo proof of concept",
+      "denominator": {
+        "value": 1,
+        "unit": "conflict-forecasting case covering North Kivu, South Kivu, and Ituri",
+        "value_type": "case_study_frame"
+      },
+      "measures": {
+        "forecast_horizon": {"value": 150, "unit": "days", "value_type": "reported_forecast_horizon"},
+        "reported_accuracy": {"value": 87, "unit": "percent maximum reported accuracy", "value_type": "reported_model_performance"},
+        "strongest_signal": {"value": "social perception about politics, armed groups, and mining was identified as the strongest driver of change, alongside economic pressure and conflict history", "unit": "reported model finding", "value_type": "reported_driver"},
+        "financing_bridge": {"value": "the forecast informs a risk-financing concept that could trigger disbursements in response to observed or forecast conflict levels", "unit": "reported operational linkage", "value_type": "reported_application"}
+      },
+      "method": "World Bank proof-of-concept conflict model and stated connection to risk and resilience assessment and stabilization-recovery planning.",
+      "uncertainty": "The reported accuracy is case- and horizon-specific; it is not a generalizable performance guarantee, causal explanation of conflict, or evidence that forecast-triggered finance reaches affected communities fairly.",
+      "subgroup": "Communities in conflict-affected provinces, local authorities, humanitarian and development actors, and people whose safety and livelihoods depend on timely assistance.",
+      "counterinterpretation": "Online sentiment and socioeconomic signals may improve situational awareness while still missing local knowledge, strategic deception, or harms that are not publicly expressed.",
+      "source_url": "https://www.worldbank.org/en/brief/2026/06/08/ai-social-risk-forecasting",
+      "retrieval_hash": "sha256:9fec4b2a54497893e3cd40c0205b2d105e2b24bb0db6d48a7fde75ed92f9f9a6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Horn of Africa population-change proof of concept",
+      "denominator": {
+        "value": 56,
+        "unit": "towns and cities in the Ethiopia-Kenya-Somalia borderlands analyzed with satellite imagery",
+        "value_type": "case_study_coverage"
+      },
+      "measures": {
+        "structure_identification": {"value": 99.9, "unit": "percent reported accuracy for identifying built structures", "value_type": "reported_model_performance"},
+        "population_forecast_horizon": {"value": 3, "unit": "months ahead", "value_type": "reported_forecast_horizon"},
+        "population_forecast_accuracy": {"value": 74, "unit": "percent maximum reported accuracy", "value_type": "reported_model_performance"},
+        "principal_drivers": {"value": "conflict events, climate pressures, and economic conditions", "unit": "reported driver set", "value_type": "reported_driver"},
+        "capacity_application": {"value": "the work informs a $330 million pastoral-economy project and the design of displacement-risk forecasting for Ethiopia", "unit": "reported program linkage", "value_type": "reported_application"}
+      },
+      "method": "Satellite-imagery model using built structures as a proxy for population change in data-scarce borderlands.",
+      "uncertainty": "Structure identification is not the same as identifying people, household welfare, or displacement intent; forecast performance and operational value may vary across places, seasons, and settlement types.",
+      "subgroup": "Pastoralists, displaced people, host communities, borderland residents, and public services facing rapid population change and climate or conflict pressure.",
+      "counterinterpretation": "Physical expansion can reflect construction, seasonal movement, or land-use change rather than stable population growth, and satellite visibility does not establish who receives services.",
+      "source_url": "https://www.worldbank.org/en/brief/2026/06/08/ai-social-risk-forecasting",
+      "retrieval_hash": "sha256:9fec4b2a54497893e3cd40c0205b2d105e2b24bb0db6d48a7fde75ed92f9f9a6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; displacement-risk finance and small-island crime proof of concepts",
+      "denominator": {
+        "value": 2,
+        "unit": "operational cases described by the World Bank: one displacement-finance application and one small-island crime model",
+        "value_type": "case_study_frame"
+      },
+      "measures": {
+        "displacement_application": {"value": "Uganda's model is intended to scale public-service capacity in advance of refugee arrivals rather than only after arrival", "unit": "reported operational design", "value_type": "reported_application"},
+        "crime_model_accuracy": {"value": 87.1, "unit": "percent reported accuracy for daily crime changes", "value_type": "reported_model_performance"},
+        "crime_data_substitute": {"value": "an agentic language model generated crime data from online news where official statistics were unavailable", "unit": "reported data method", "value_type": "reported_method"},
+        "social_signals": {"value": "food prices and sentiment about women, youth, public services, and governance were among the identified drivers", "unit": "reported driver set", "value_type": "reported_driver"}
+      },
+      "method": "World Bank operational examples connecting predictive models to public-service capacity, governance assessment, and portfolio development.",
+      "uncertainty": "News-derived indicators and anticipatory triggers may encode media bias, uneven reporting, language gaps, or political incentives; the brief does not provide a full fairness, privacy, or false-positive assessment.",
+      "subgroup": "Refugees and host communities, women and youth, residents of data-poor settings, local service providers, and people affected by automated risk classification.",
+      "counterinterpretation": "Anticipating arrivals can protect service continuity, but pre-positioning resources may also intensify surveillance or stigmatize groups if forecasts are treated as certainty rather than planning signals.",
+      "source_url": "https://www.worldbank.org/en/brief/2026/06/08/ai-social-risk-forecasting",
+      "retrieval_hash": "sha256:9fec4b2a54497893e3cd40c0205b2d105e2b24bb0db6d48a7fde75ed92f9f9a6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://openknowledge.worldbank.org/handle/10986/43494", "claim": "World Bank Social Policy & Labor Discussion Paper No. 2620 associated with the social-risk forecasting work."},
+    {"source_url": "https://blogs.worldbank.org/en/voices/how-ai-and-machine-learning-can-predict-and-explain-social-risks", "claim": "World Bank public explanation of how AI and machine learning are being applied to social-risk prediction and development operations."}
+  ],
+  "boundary": "This record adds an anticipatory-public-capacity route from AI-assisted social-risk sensing to possible early action. It is not evidence that prediction is unbiased, that forecast accuracy transfers across settings, that automated triggers improve welfare, or that predictive systems should replace community voice, official statistics, or democratic accountability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank brief reviewed for model scope, input families, three proof-of-concept cases, reported performance, operational linkages, and the distinction between forecasting and realized social outcomes.",
+    "source_url_sha256": "sha256:9fec4b2a54497893e3cd40c0205b2d105e2b24bb0db6d48a7fde75ed92f9f9a6",
+    "checked": "2026-09-28"
+  }
+}

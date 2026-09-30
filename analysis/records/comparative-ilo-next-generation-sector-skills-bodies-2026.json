@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-next-generation-sector-skills-bodies-2026",
+  "title": "Sector skills institutions are being redesigned as system integrators for AI, green transition, and decent work",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Next generation sector skills bodies: Driving productivity, innovation, decent work and social justice, 2026",
+  "geography": "Comparative guide drawing on Sector Skills Body models across 18 countries, including Australia, South Africa, New Zealand, Singapore, Ghana, Jordan, Nigeria, Ethiopia, Kenya, and Zambia",
+  "observations": [
+    {
+      "period": "2026; global skills-system diagnosis under digitalization, AI, climate transition, and demographic change",
+      "denominator": {"value": 18, "unit": "countries covered by comparative Sector Skills Body analysis", "value_type": "reported_comparative_country_frame"},
+      "measures": {
+        "polycrisis": {"value": "the guide identifies rapid digitalization, AI expansion, climate transition, and demographic shifts as converging pressures on skills systems", "unit": "reported structural pressures", "value_type": "reported_policy_diagnosis"},
+        "broken_link": {"value": "high unemployment can coexist with acute skills shortages when education and training systems are weakly connected to sector and enterprise demand", "unit": "reported labor-market paradox", "value_type": "reported_system_diagnosis"},
+        "institutional_gap": {"value": "common weaknesses include unclear mandates, fragmented roles, weak governance, unstable funding, limited labor-market intelligence, and uneven industry partnership", "unit": "reported institutional barriers", "value_type": "reported_barrier_set"},
+        "model_shift": {"value": "the guide proposes moving from narrow, rigid, consultative, fragmented, single-source, and advisory SSBs toward integrated, agile, industry-led, ecosystem-based, hybrid-funded, data-driven institutions", "unit": "six reported institutional shifts", "value_type": "reported_model_shift"},
+        "mechanism": {"value": "skills mismatch is framed as a coordination and institutional-wiring problem, not only a shortage of training seats", "unit": "bounded skills-governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative guide synthesizing evidence and practice from 18 country SSB models, international organizations, national experts, practitioners, training, and country pilots.",
+      "uncertainty": "The guide is practical policy guidance and comparative synthesis, not a causal evaluation of SSBs; country models, labor-market conditions, institutional capacity, and implementation quality vary substantially.",
+      "subgroup": "Workers facing technological or green transitions, young people, women, older workers, persons with disabilities, SMEs, employers, training providers, sector associations, and public skills authorities.",
+      "counterinterpretation": "Skills mismatch can also reflect weak job creation, low wages, migration, discrimination, macroeconomic shocks, or poor working conditions; stronger skills institutions cannot resolve those constraints alone.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/9789220430880_PDF_Web_ENG.pdf",
+      "retrieval_hash": "sha256:037e727dd780b2cb5d62aa06a4306011d3f4b0cd37f2ed827f38c7be60abcc5a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; expanded Sector Skills Body mandate and institutional voice",
+      "denominator": {"value": 1, "unit": "next-generation Sector Skills Body model", "value_type": "reported_institutional_model"},
+      "measures": {
+        "skills_domain": {"value": "proposed functions include labor-market intelligence, occupational standards, qualifications, training quality, work-based learning, skills strategies, and policy advice", "unit": "reported skills-service portfolio", "value_type": "reported_model_function"},
+        "business_domain": {"value": "proposed functions also include enterprise advice, technology and AI adoption, innovation, SME support, productivity, competitiveness, and sector-transition support", "unit": "reported business-service portfolio", "value_type": "reported_model_function"},
+        "social_dialogue": {"value": "the model moves from casual consultation toward structured and sustained employer and worker leadership in sector skills development", "unit": "reported governance shift", "value_type": "reported_governance_mechanism"},
+        "triple_bottom_line": {"value": "SSBs are framed as creating economic value through productivity and innovation, social value through decent work and inclusion, and environmental value through green skills and Just Transition support", "unit": "reported value framework", "value_type": "reported_policy_framework"},
+        "mechanism": {"value": "sector-level institutions can translate worker and employer voice into standards, training, technology adoption, and transition choices when participation is institutionalized rather than episodic", "unit": "bounded social-dialogue-to-action mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Normative and comparative institutional design guidance based on cross-country SSB functions, governance arrangements, stakeholder roles, and sectoral practice.",
+      "uncertainty": "The proposed dual mandate may stretch institutional capacity or create conflicts between enterprise productivity and worker protection; the guide does not establish that broader portfolios improve wages, job quality, or inclusion in practice.",
+      "subgroup": "Workers and employers in sectors undergoing AI, digital, climate, demographic, or business-model transitions; worker and employer organizations; SMEs; and training institutions.",
+      "counterinterpretation": "Industry leadership can improve relevance but may privilege incumbent firms or narrow employer demand; worker participation, public accountability, and inclusion safeguards are needed to prevent capture.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/9789220430880_PDF_Web_ENG.pdf",
+      "retrieval_hash": "sha256:037e727dd780b2cb5d62aa06a4306011d3f4b0cd37f2ed827f38c7be60abcc5a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; governance, financing, intelligence, and implementation of next-generation SSBs",
+      "denominator": {"value": 1, "unit": "guide’s phased SSB establishment and operating framework", "value_type": "reported_implementation_frame"},
+      "measures": {
+        "governance": {"value": "performance and credibility depend on legal status, autonomy, membership, boards, committees, secretariats, oversight, and balanced autonomy with accountability", "unit": "reported governance requirements", "value_type": "reported_institutional_requirement"},
+        "financing": {"value": "the guide recommends diversified hybrid models combining public investment, employer levies, donor or international support, and earned income where appropriate", "unit": "reported financing options", "value_type": "reported_financing_model"},
+        "intelligence": {"value": "next-generation SSBs are expected to generate, interpret, and use labor-market and sector intelligence to anticipate change and inform action", "unit": "reported data-and-decision function", "value_type": "reported_institutional_function"},
+        "implementation": {"value": "the guide recommends piloting in a limited number of strategic sectors, learning, and scaling after governance, finance, capacity, and monitoring arrangements are tested", "unit": "reported phased implementation route", "value_type": "reported_implementation_guidance"},
+        "mechanism": {"value": "skills governance becomes durable when voice, data, financing, oversight, and adaptive learning are connected into a repeatable sectoral operating system", "unit": "bounded institutional-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Practical roadmap covering planning and design, institutional setup, operationalization, financing, governance, oversight, performance measurement, and monitoring and evaluation.",
+      "uncertainty": "The guide identifies success factors but does not provide a common outcome metric or estimate comparative returns; hybrid finance can introduce employer influence, administrative complexity, or unequal sector representation.",
+      "subgroup": "Skills authorities, worker and employer organizations, sector bodies, training providers, public funders, SMEs, donors, and communities affected by sector transition decisions.",
+      "counterinterpretation": "Formal sector bodies may reproduce existing power inequalities, and data-driven intelligence can privilege measurable employer demand over informal work, care work, worker experience, or longer-term public value.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/9789220430880_PDF_Web_ENG.pdf",
+      "retrieval_hash": "sha256:037e727dd780b2cb5d62aa06a4306011d3f4b0cd37f2ed827f38c7be60abcc5a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/next-generation-sector-skills-bodies", "claim": "Official ILO publication page with date, abstract, six institutional shifts, functions, target audience, and publication metadata."},
+    {"source_url": "https://doi.org/10.54394/GZIL9510", "claim": "Official DOI for the ILO guide."}
+  ],
+  "boundary": "This record adds a skills-governance-to-worker-voice, enterprise-adaptation, and Just Transition mechanism. It is a comparative practical guide, not causal evidence that Sector Skills Bodies improve wages, employment, productivity, inclusion, or environmental outcomes; the next test is whether specific bodies convert structured social dialogue, labor-market intelligence, and hybrid financing into measurable improvements in job quality, mobility, skills use, and transition security without employer capture.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO PDF and publication page, comparative 18-country evidence base, poly-crisis diagnosis, six institutional shifts, dual mandate, triple-bottom-line framework, governance, finance, labor-market intelligence, phased implementation, inclusion, and noncausal boundary were reviewed.",
+    "source_url_sha256": "sha256:037e727dd780b2cb5d62aa06a4306011d3f4b0cd37f2ed827f38c7be60abcc5a",
+    "checked": "2026-09-29"
+  }
+}

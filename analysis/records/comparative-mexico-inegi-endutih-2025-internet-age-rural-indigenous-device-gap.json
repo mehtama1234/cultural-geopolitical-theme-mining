@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mexico-inegi-endutih-2025-internet-age-rural-indigenous-device-gap",
+  "title": "Mexico’s internet access is expanding and rural gaps are narrowing, but device, age, and territorial inequalities remain",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Instituto Nacional de Estadística y Geografía (INEGI), ENDUTIH 2025",
+  "geography": "Mexico; people aged 6 and over and private households, with national, urban-rural, state, age, and Indigenous self-identification dimensions",
+  "observations": [
+    {
+      "period": "2025; Internet, household, mobile, and computer/tablet access",
+      "denominator": {"value": 65057, "unit": "sampled dwellings in the 2025 ENDUTIH; published percentages cover people aged 6+ or households as specified", "value_type": "reported_survey_sample"},
+      "measures": {
+        "internet_users": {"value": 86.1, "unit": "percent of people aged 6 and over using the Internet", "value_type": "reported_survey_share"},
+        "internet_users_change": {"value": 3.0, "unit": "percentage-point increase from 2024", "value_type": "reported_change"},
+        "urban_internet_use": {"value": 88.9, "unit": "percent of people aged 6+ in urban areas using the Internet", "value_type": "reported_subgroup_share"},
+        "rural_internet_use": {"value": 75.2, "unit": "percent of people aged 6+ in rural areas using the Internet", "value_type": "reported_subgroup_share"},
+        "urban_rural_internet_gap": {"value": 13.7, "unit": "percentage-point difference between urban and rural Internet use in 2025", "value_type": "calculated_difference_from_published_table"},
+        "urban_rural_gap_2017": {"value": 31.9, "unit": "percentage-point urban-rural Internet-use gap in 2017", "value_type": "reported_historical_comparison"},
+        "households_with_internet": {"value": 78.3, "unit": "percent of households with Internet access", "value_type": "reported_household_share"},
+        "mobile_phone_use": {"value": 84.6, "unit": "percent of people aged 6+ using a mobile phone", "value_type": "reported_survey_share"},
+        "computer_or_tablet_use": {"value": 38.1, "unit": "percent of people aged 6+ using a computer, laptop, or tablet", "value_type": "reported_survey_share"},
+        "mobile_computer_gap": {"value": 46.5, "unit": "percentage-point difference between mobile-phone and computer/tablet use", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Mexico is moving toward broad Internet access and a narrower rural gap, but connectivity remains strongly mobile-first and does not imply equal access to computer-dependent tasks, services, or forms of digital production", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from INEGI ENDUTIH 2025 press release and results report; urban-rural and device gaps are calculated from published percentages.",
+      "uncertainty": "The survey measures availability/use indicators rather than speed, reliability, affordability, digital skills, task type, or outcomes; rural-gap comparisons across years reflect the survey's revised population estimates and design.",
+      "subgroup": "People aged 6 and over and households in Mexico, by urban-rural domain.",
+      "counterinterpretation": "Mobile-first access can be an efficient consumer choice rather than a deficit, and narrowing rural Internet gaps may coexist with persistent quality, device, language, affordability, or service-use differences.",
+      "source_url": "https://www.inegi.org.mx/programas/endutih/2025/",
+      "retrieval_hash": "sha256:3b384802f781bd2037cc2043c2f2d04335b92d12ae34dfbe073b3314c6e04da1",
+      "status": "reported"
+    },
+    {
+      "period": "2025; age, Indigenous self-identification, and state variation in Internet use",
+      "denominator": {"value": 65057, "unit": "sampled dwellings in the 2025 ENDUTIH; subgroup percentages are survey-weighted estimates for people aged 6+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "internet_use_age_15_24": {"value": 97.6, "unit": "percent of people aged 15-24 using the Internet", "value_type": "reported_subgroup_share"},
+        "internet_use_age_75_plus": {"value": 30.0, "unit": "percent of people aged 75 and over using the Internet", "value_type": "reported_subgroup_share"},
+        "age_internet_gap": {"value": 67.6, "unit": "percentage-point difference between ages 15-24 and 75+", "value_type": "calculated_difference_from_published_table"},
+        "internet_use_age_75_plus_2015": {"value": 3.0, "unit": "percent of people aged 75+ using the Internet in 2015", "value_type": "reported_historical_comparison"},
+        "internet_users_indigenous_self_description": {"value": 26.6, "unit": "percent of Internet users self-describing as Indigenous", "value_type": "reported_subgroup_share"},
+        "household_internet_state_high": {"value": 90.5, "unit": "percent of households with Internet in Mexico City, the highest state-level estimate", "value_type": "reported_subgroup_share"},
+        "household_internet_state_low": {"value": 53.9, "unit": "percent of households with Internet in Chiapas, the lowest state-level estimate", "value_type": "reported_subgroup_share"},
+        "state_household_internet_gap": {"value": 36.6, "unit": "percentage-point difference between highest and lowest named state-level household estimates", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Aggregate digital expansion can coexist with a very large life-stage and territorial divide: older adults are entering the Internet rapidly but remain far below youth, and state-level household access differs by more than thirty points", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from INEGI ENDUTIH 2025 results report and press release; age and state gaps are calculated from published subgroup percentages.",
+      "uncertainty": "Indigenous self-description among Internet users is not an Internet-use rate for Indigenous people and should not be interpreted as a group access comparison; state estimates reflect household composition, infrastructure, income, geography, and survey sampling.",
+      "subgroup": "Mexican people aged 6+, age groups, Internet users' self-description, and households by federal entity.",
+      "counterinterpretation": "The age gap may shrink through cohort replacement and continued adoption; state variation may capture urbanization and household resources rather than state policy or cultural preference alone.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25_RR.pdf",
+      "retrieval_hash": "sha256:3b384802f781bd2037cc2043c2f2d04335b92d12ae34dfbe073b3314c6e04da1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25.pdf", "claim": "Official INEGI six-page press release with headline Internet, urban-rural, household, mobile, computer/tablet, and survey-design measures."},
+    {"source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25_RR.pdf", "claim": "Official INEGI 23-page ENDUTIH 2025 results report with age series, state tables, Indigenous variables, and methodological notes."},
+    {"source_url": "https://www.inegi.org.mx/programas/endutih/2025/", "claim": "INEGI ENDUTIH program page describing scope, annual design, domains, sample, questionnaire, and documentation."}
+  ],
+  "boundary": "This record adds a Mexican digital-access, device, age, minority-identification, and state-variation layer. It does not establish digital skills, online consumer behavior, service quality, affordability, causal rural or state effects, or Indigenous group access rates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "INEGI ENDUTIH program page, press release, and 23-page results report reviewed; 2025 national, urban-rural, historical, age, Indigenous self-description, state, device, sample, and revised-population notes checked.",
+    "press_release_pdf_sha256": "sha256:058031f40e3227ea1b6058de4162bef8428eaf76d455290f1fc8885ccb1446da",
+    "results_report_pdf_sha256": "sha256:3b384802f781bd2037cc2043c2f2d04335b92d12ae34dfbe073b3314c6e04da1",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-household-spending-2023-income-tenure-culture-refresh-2026",
+  "title": "Canadian household spending recovered unevenly: shelter and food remain concentrated while recreation, restaurants, and travel reopen through unequal household room",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": ["household_room_consumption", "housing_place_mobility", "unequal_exposure_status", "trust_identity_meaning", "infrastructure_technology_dependency"],
+  "source_unit": "Statistics Canada, Survey of Household Spending 2023, updated September 18, 2026 with 2021-Census-calibrated weights",
+  "geography": "Canada; provinces and the three territorial capitals, with income-quintile, household-type, tenure, and provincial comparisons",
+  "observations": [
+    {
+      "period": "2023 reference year; updated September 18, 2026; national expenditure composition",
+      "denominator": {"value": 10723, "unit": "sample households: 9,991 households in the provinces and 732 in the three territorial capitals", "value_type": "survey_frame"},
+      "measures": {
+        "total_goods_services": {"value": 76750, "unit": "average annual current-dollar spending on goods and services per Canadian household", "value_type": "reported_average_dollars"},
+        "shelter_share": {"value": 32.1, "unit": "percent of total consumption allocated to shelter", "value_type": "reported_share"},
+        "transport_share": {"value": 15.8, "unit": "percent of total consumption allocated to transportation", "value_type": "reported_share"},
+        "food_share": {"value": 15.7, "unit": "percent of total consumption allocated to food", "value_type": "reported_share"},
+        "food_total": {"value": 12046, "unit": "average annual food spending per household, including stores and restaurants", "value_type": "reported_average_dollars"},
+        "restaurant_food": {"value": 3351, "unit": "average annual spending on food purchased from restaurants", "value_type": "reported_average_dollars"}
+      },
+      "method": "Statistics Canada Survey of Household Spending, using household expenditure data and updated weights calibrated to demographic projections based on the 2021 Census; estimates are current dollars and include sales taxes.",
+      "uncertainty": "Average spending is not a median or household welfare measure and is not inflation-adjusted. The survey covers the provinces for Canada-level estimates and the three territorial capitals separately; category averages include households with and without expenditures in the category.",
+      "subgroup": "Canadian households, provinces, and territorial capitals.",
+      "counterinterpretation": "Higher nominal spending can reflect inflation, household composition, or reopening after pandemic restrictions rather than improved real purchasing power or cultural participation.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260918/dq260918a-eng.htm",
+      "retrieval_hash": "sha256:a39e81f464215d3f111ab55fcc92f82aadf650a212a32afd3b38c438e49fa444",
+      "status": "observed"
+    },
+    {
+      "period": "2019-2023 reference years; updated September 18, 2026; post-pandemic cultural and social consumption",
+      "denominator": {"value": 10723, "unit": "SHS sample households across provinces and the three territorial capitals", "value_type": "survey_frame"},
+      "measures": {
+        "recreation": {"value": 5231, "unit": "average annual recreation spending per household in 2023, up 23.9% from 2021", "value_type": "reported_average_dollars"},
+        "recreation_services_change": {"value": 120.7, "unit": "percent increase from 2021 to 2023 in recreational services spending, including cinemas, live sport, performing arts, and package trips", "value_type": "reported_change_percent"},
+        "accommodation_away": {"value": 910, "unit": "average annual spending on accommodation away from home in 2023, up 129.2% from 2021", "value_type": "reported_average_dollars"},
+        "accommodation_vs_2019": {"value": "2023 accommodation spending surpassed the 2019 pre-pandemic level after a 44.9% decline from 2019 to 2021", "unit": "reported recovery pattern", "value_type": "reported_mechanism"},
+        "personal_care": {"value": 1860, "unit": "average annual personal-care spending per household in 2023, up 30.1% from 2021", "value_type": "reported_average_dollars"}
+      },
+      "method": "Repeated reference-year comparisons from the SHS category tables; 2023 estimates use the refreshed 2021-Census-calibrated weights.",
+      "uncertainty": "The recovery pattern does not identify which households resumed participation, whether services were affordable, or whether spending represents durable cultural practice versus one-time reopening and price effects.",
+      "subgroup": "Canadian households by recreation, accommodation, personal-care, household type, income, tenure, and geography.",
+      "counterinterpretation": "A rebound in paid recreation and travel can coexist with material constraint if spending is concentrated among higher-income or already-connected households.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260918/dq260918a-eng.htm",
+      "retrieval_hash": "sha256:a39e81f464215d3f111ab55fcc92f82aadf650a212a32afd3b38c438e49fa444",
+      "status": "observed"
+    },
+    {
+      "period": "2023 reference year; income-quintile and household-type allocation",
+      "denominator": {"value": 10723, "unit": "SHS sample households; income groups are five equal population groups", "value_type": "survey_frame"},
+      "measures": {
+        "top_bottom_total_gap": {"value": 123447, "unit": "average annual goods-and-services spending in the highest income quintile versus 40080 in the lowest quintile", "value_type": "reported_group_average_dollars"},
+        "lowest_quintile_shelter": {"value": 34.8, "unit": "percent of total consumption allocated to shelter in the lowest income quintile", "value_type": "reported_share"},
+        "highest_quintile_shelter": {"value": 32.2, "unit": "percent allocated to shelter in the highest income quintile", "value_type": "reported_share"},
+        "lowest_quintile_food": {"value": 17.9, "unit": "percent allocated to food in the lowest income quintile", "value_type": "reported_share"},
+        "highest_quintile_recreation": {"value": 7.7, "unit": "percent allocated to recreation in the highest income quintile versus 5.4% in the lowest quintile", "value_type": "reported_share"},
+        "one_person_shelter": {"value": 36.9, "unit": "percent of total consumption allocated to shelter by one-person households", "value_type": "reported_share"},
+        "couple_no_children_recreation": {"value": 8.2, "unit": "percent allocated to recreation by couples without children", "value_type": "reported_share"}
+      },
+      "method": "SHS estimates compared by income quintile and household type using the refreshed weights; spending shares are shares of total current consumption.",
+      "uncertainty": "Income quintile comparisons are descriptive and current-dollar; they do not estimate marginal propensities, price elasticity, debt, wealth, unpaid cultural participation, or causal effects of household composition.",
+      "subgroup": "Lowest and highest income quintiles, one-person households, couples with and without children, and other Canadian household types.",
+      "counterinterpretation": "A lower recreation share may reflect necessity spending, household age, care responsibilities, or different free cultural practices rather than absence of cultural value.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260918/dq260918a-cansim-eng.htm",
+      "retrieval_hash": "sha256:a39e81f464215d3f111ab55fcc92f82aadf650a212a32afd3b38c438e49fa444",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260918/dq260918a-eng.pdf", "claim": "Official Statistics Canada release PDF documenting the refreshed 2023 SHS weights and publication context.", "status": "official-release-pdf"},
+    {"source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260918/dq260918a-cansim-eng.htm", "claim": "Official table index linking household spending by income quintile, household type, tenure, geography, area size, age, and equipment.", "status": "official-data-table-index"},
+    {"source_url": "https://www150.statcan.gc.ca/n1/en/catalogue/71-607-X2026002", "claim": "Statistics Canada household-spending visualization tool for geography, tenure, household type, and income quintile comparisons.", "status": "official-visualization"}
+  ],
+  "boundary": "This record adds an observed household-consumption and cultural-participation layer from Canada: essential spending concentration, reopening of restaurants, recreation, travel and personal care, and unequal household room by income and type. It uses current-dollar averages and refreshed survey weights; it is not real consumption, a panel, a causal welfare estimate, or evidence that paid spending captures all cultural participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Statistics Canada September 18, 2026 release and table index were reviewed for refreshed weights, sample, category values, post-pandemic changes, income-quintile shares, household-type differences, geography, and current-dollar boundaries.",
+    "source_page_sha256": "sha256:a39e81f464215d3f111ab55fcc92f82aadf650a212a32afd3b38c438e49fa444",
+    "checked": "2026-09-30"
+  }
+}

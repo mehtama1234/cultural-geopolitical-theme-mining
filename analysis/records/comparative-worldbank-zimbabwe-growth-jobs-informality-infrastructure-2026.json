@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-zimbabwe-growth-jobs-informality-infrastructure-2026",
+  "title": "Macroeconomic stabilization can coexist with mass informality when growth does not reach productive work, infrastructure, and household earnings",
+  "theme_ids": ["cost", "work", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Group, Zimbabwe Growth and Jobs Report, summarized in Zimbabwe Must Leverage Macroeconomic Stability to Accelerate Growth and Create 230,000 New Jobs by 2040, September 4, 2026",
+  "geography": "Zimbabwe, with national labor-market, infrastructure, macroeconomic, and household-income implications",
+  "observations": [
+    {
+      "period": "Early 2026 and 2021–2025; macroeconomic stability versus lived economic security",
+      "denominator": {"value": 1, "unit": "Zimbabwe national growth and jobs report context", "value_type": "reported_country_context"},
+      "measures": {
+        "inflation": {"value": "local-currency inflation reached single digits in early 2026, reportedly for the first time since 1997", "unit": "reported macroeconomic change", "value_type": "reported_trend"},
+        "growth": {"value": "real GDP growth averaged nearly 6% between 2021 and 2025", "unit": "reported average annual growth", "value_type": "reported_average"},
+        "translation_gap": {"value": "the report says stabilization and growth had not yet generated widespread improvements in productive employment or household incomes", "unit": "reported macro-to-household gap", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank country growth-and-jobs report summarized in an official press release.",
+      "uncertainty": "The press release does not provide the full distributional time series, causal decomposition, or household panel needed to identify which channels prevented growth from reaching incomes.",
+      "subgroup": "Workers, informal households, low-income households, young people, firms, and communities affected by macroeconomic and infrastructure conditions.",
+      "counterinterpretation": "Macroeconomic stabilization may be a necessary precondition whose benefits arrive with delay; the absence of immediate household gains does not show that stabilization failed.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/04/zimbabwe-must-leverage-macroeconomic-stability",
+      "retrieval_hash": "sha256:10fb2ccf156e3f7792008022226a3ad134515a2201772982e5ebd6fdd976caf9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; informality, earnings, and structural transformation",
+      "denominator": {"value": 80, "unit": "percent of Zimbabweans reported to work in the informal sector", "value_type": "reported_share"},
+      "measures": {
+        "informal_work": {"value": 80, "unit": "percent of workers in the informal sector", "value_type": "reported_share"},
+        "median_earnings": {"value": 130, "unit": "US dollars per month median informal-sector earnings", "value_type": "reported_median"},
+        "sector_shift": {"value": "labor has shifted largely from agriculture into low-productivity retail and informal services rather than formal manufacturing or high-value services", "unit": "reported structural pattern", "value_type": "reported_mechanism"},
+        "poverty": {"value": "nearly half the population is reported to live below the international poverty line", "unit": "reported population condition", "value_type": "reported_share_approximate"}
+      },
+      "method": "World Bank labor-market and structural-transformation analysis as summarized in the official release.",
+      "uncertainty": "The release does not specify the reference year, earnings distribution, unpaid work, gender and age breakdowns, or the boundary between informal self-employment and enterprise activity.",
+      "subgroup": "Informal workers, agricultural workers, retail and service workers, young people entering work, and households dependent on low and variable earnings.",
+      "counterinterpretation": "Informal work can provide flexibility and entry when formal jobs are scarce, but low median earnings and weak protection can leave households exposed to shocks and limit upward mobility.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/04/zimbabwe-must-leverage-macroeconomic-stability",
+      "retrieval_hash": "sha256:10fb2ccf156e3f7792008022226a3ad134515a2201772982e5ebd6fdd976caf9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; electricity, transport, irrigation, and productive opportunity",
+      "denominator": {"value": 6.1, "unit": "percent of GDP estimated to be lost annually from electricity shortages", "value_type": "reported_estimate"},
+      "measures": {
+        "power_cost": {"value": 6.1, "unit": "percent of GDP annual cost attributed to electricity shortages", "value_type": "reported_estimate"},
+        "infrastructure_bottlenecks": {"value": "the report identifies power generation and grid reliability, transport corridors, and agricultural irrigation as foundational constraints", "unit": "reported structural constraints", "value_type": "reported_synthesis"},
+        "household_firm_route": {"value": "reliable power and transport are positioned as conditions for firms to invest, workers to access productive jobs, and households to receive higher and more stable earnings", "unit": "analytic mechanism chain", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Bank report priorities and estimated macroeconomic cost summarized in the official release.",
+      "uncertainty": "The 6.1% estimate is not an observed household loss measure; the release does not identify incidence by firm, region, income, gender, or sector, nor establish which infrastructure investment has the highest return.",
+      "subgroup": "Firms, workers, farmers, households dependent on electricity and transport, and communities affected by unreliable irrigation or public infrastructure.",
+      "counterinterpretation": "Infrastructure investment can expand capacity without improving affordability or reliability if governance, maintenance, financing, and access remain weak.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/04/zimbabwe-must-leverage-macroeconomic-stability",
+      "retrieval_hash": "sha256:10fb2ccf156e3f7792008022226a3ad134515a2201772982e5ebd6fdd976caf9",
+      "status": "reported"
+    },
+    {
+      "period": "2030–2040; reform scenario and formalization route",
+      "denominator": {"value": 1, "unit": "World Bank accelerated-reform scenario", "value_type": "modeled_scenario"},
+      "measures": {
+        "baseline_growth": {"value": 4, "unit": "percent average growth through 2030 under the current course", "value_type": "reported_baseline_projection"},
+        "accelerated_gdp": {"value": "accelerated reforms could raise real GDP by an additional 10.7% by 2030 and 26.9% by 2040 above baseline", "unit": "modeled cumulative difference from baseline", "value_type": "modeled_scenario"},
+        "jobs": {"value": 230000, "unit": "potential new jobs by 2040 under accelerated reforms", "value_type": "modeled_scenario"},
+        "earnings": {"value": 30, "unit": "percent or more increase in real worker earnings by 2040 under the scenario", "value_type": "modeled_scenario"},
+        "reform_route": {"value": "the proposed route combines debt and fiscal repair, infrastructure, simpler regulation, land tenure, commercial justice, credit, and private investment", "unit": "reported policy package", "value_type": "reported_policy_set"}
+      },
+      "method": "World Bank scenario analysis and policy priorities summarized in an official country-report release.",
+      "uncertainty": "These are modeled scenarios, not forecasts or observed effects; implementation, political economy, external shocks, job quality, distribution, and formalization remain open.",
+      "subgroup": "Workers, informal enterprises, young people, firms, investors, households, public agencies, and communities affected by reform and infrastructure allocation.",
+      "counterinterpretation": "Aggregate growth and job creation can coexist with unequal gains, displacement, or weak worker protection if formalization and investment occur without bargaining power, social protection, and accountable institutions.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/04/zimbabwe-must-leverage-macroeconomic-stability",
+      "retrieval_hash": "sha256:10fb2ccf156e3f7792008022226a3ad134515a2201772982e5ebd6fdd976caf9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/brief/zimbabwe-economic-update", "claim": "World Bank Zimbabwe economic-update materials provide complementary macroeconomic and reform context."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/malawi-world-bank-grant-financing-to-improve-resilience-to-climate", "claim": "Malawi INSPIRE-O provides a complementary route from shocks through safety nets, jobs, and delivery capacity."}
+  ],
+  "boundary": "This record adds a named macro-to-household route from stabilization and growth through informality, low earnings, power and transport bottlenecks, regulation, investment, formal jobs, and worker earnings. It is a country-report summary with modeled scenarios, not a causal evaluation, household panel, or proof that reforms will create evenly distributed, decent work.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank September 4, 2026 press release was reviewed for inflation and growth context, informality and earnings, poverty, structural transformation, electricity-shortage cost, infrastructure priorities, reform scenarios, jobs, earnings, and policy package.",
+    "source_url_sha256": "sha256:10fb2ccf156e3f7792008022226a3ad134515a2201772982e5ebd6fdd976caf9",
+    "checked": "2026-09-28"
+  }
+}

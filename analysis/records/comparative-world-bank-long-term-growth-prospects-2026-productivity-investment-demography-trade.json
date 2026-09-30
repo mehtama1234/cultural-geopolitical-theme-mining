@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-long-term-growth-prospects-2026-productivity-investment-demography-trade",
+  "title": "A structural global growth slowdown is making productivity, investment, labor-force aging, trade, and policy space central to future social opportunity",
+  "theme_ids": ["cost", "work", "time", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Bank, Falling Long-Term Growth Prospects: Trends, Expectations, and Policies",
+  "geography": "Global and regional potential growth across advanced economies and emerging market and developing economies",
+  "observations": [
+    {
+      "period": "2026 publication; remainder of the 2020s",
+      "denominator": {"value": 1, "unit": "global potential-growth outlook", "value_type": "reported_projection"},
+      "measures": {
+        "growth_speed_limit": {"value": "Global potential growth is expected to fall to a three-decade low over the remainder of the 2020s at current trends", "unit": "reported long-term growth outlook", "value_type": "reported_projection"},
+        "growth_definition": {"value": "Potential growth is the maximum longer-term growth the global economy can sustain without igniting inflation", "unit": "reported economic definition", "value_type": "reported_definition"},
+        "development_consequence": {"value": "A persistent and broad-based decline in long-term growth prospects imperils poverty reduction, climate action, and other development objectives", "unit": "reported consequence frame", "value_type": "reported_assessment"}
+      },
+      "method": "World Bank book synthesizing global and regional analysis of potential growth and its drivers using a comprehensive database of potential-growth estimates.",
+      "uncertainty": "The projection is conditional on current trends and policy assumptions; potential growth is not realized GDP, household income, welfare, or a forecast of every country or group.",
+      "subgroup": "Emerging market and developing economies, advanced economies, workers, firms, households, governments, and populations dependent on growth for poverty reduction and public investment.",
+      "counterinterpretation": "Lower potential growth can coexist with improved well-being if distribution, public services, environmental sustainability, and non-market value improve; aggregate growth is not a complete social-outcome measure.",
+      "source_url": "https://www.worldbank.org/en/research/publication/long-term-growth-prospects",
+      "retrieval_hash": "sha256:39b6bfb2c193a4d778fe364ddc9fbd844ef0f14e50fdb66d94276b23198d963e",
+      "status": "reported"
+    },
+    {
+      "period": "1990s to 2026; drivers of the structural slowdown",
+      "denominator": {"value": 1, "unit": "World Bank long-term growth driver framework", "value_type": "reported_framework"},
+      "measures": {
+        "investment": {"value": "Growth in investment has weakened", "unit": "reported structural trend", "value_type": "reported_assessment"},
+        "productivity": {"value": "Growth in total factor productivity has weakened", "unit": "reported structural trend", "value_type": "reported_assessment"},
+        "labor_force": {"value": "The global labor force is aging and expanding more slowly", "unit": "reported demographic trend", "value_type": "reported_assessment"},
+        "trade": {"value": "International trade growth is much weaker than in the early 2000s", "unit": "reported structural trend", "value_type": "reported_assessment"}
+      },
+      "method": "Cross-country and regional analysis of potential growth and its underlying drivers over recent decades.",
+      "uncertainty": "The driver set identifies broad structural forces but does not imply a single causal decomposition for every country or establish how shocks and policy responses will interact.",
+      "subgroup": "Workers and firms in trade-exposed sectors, younger and older labor-force cohorts, countries with different productivity and investment capacity, and households affected by slower income growth.",
+      "counterinterpretation": "Slower labor-force growth can reduce some pressures and encourage automation, while weaker trade can support local resilience in some settings but reduce specialization, income, and technology diffusion.",
+      "source_url": "https://www.worldbank.org/en/research/publication/long-term-growth-prospects",
+      "retrieval_hash": "sha256:39b6bfb2c193a4d778fe364ddc9fbd844ef0f14e50fdb66d94276b23198d963e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; emerging market and developing economy implications",
+      "denominator": {"value": 1, "unit": "World Bank EMDE development-outlook frame", "value_type": "reported_framework"},
+      "measures": {
+        "convergence_risk": {"value": "Slower productivity, investment, labor-force, and trade growth can limit convergence and reduce the resources available for development", "unit": "reported risk pathway", "value_type": "reported_mechanism"},
+        "policy_burden": {"value": "Countries must respond to lower growth while addressing poverty, climate change, income distribution, and other development objectives", "unit": "reported policy burden", "value_type": "reported_assessment"},
+        "global_support": {"value": "National policy action is described as requiring cross-border cooperation and substantial financing from the global community", "unit": "reported policy route", "value_type": "reported_recommendation"}
+      },
+      "method": "World Bank global and regional assessment of structural growth prospects and policy options for advanced, emerging, and developing economies.",
+      "uncertainty": "The report’s policy routes do not demonstrate political feasibility, financing availability, distributional effects, or that cross-border cooperation will reverse divergence.",
+      "subgroup": "Low- and middle-income countries, governments with constrained fiscal space, workers, households, firms, and populations vulnerable to poverty, climate, and service shortfalls.",
+      "counterinterpretation": "A large investment push can raise productive capacity, but debt-financed or externally directed investment can deepen dependency, environmental damage, or inequality if local control and distribution are weak.",
+      "source_url": "https://www.worldbank.org/en/research/publication/long-term-growth-prospects",
+      "retrieval_hash": "sha256:39b6bfb2c193a4d778fe364ddc9fbd844ef0f14e50fdb66d94276b23198d963e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy reversal and investment route",
+      "denominator": {"value": 1, "unit": "World Bank policy-response framework", "value_type": "reported_framework"},
+      "measures": {
+        "reversal_condition": {"value": "The slowdown could be reversed by the end of the 2020s if countries replicate strong policy efforts from recent decades", "unit": "reported conditional pathway", "value_type": "reported_projection"},
+        "investment_route": {"value": "A major investment push grounded in robust macroeconomic frameworks is identified as a central response", "unit": "reported policy recommendation", "value_type": "reported_recommendation"},
+        "policy_set": {"value": "The policy response requires national action supported by cross-border cooperation and substantial global financing", "unit": "reported policy set", "value_type": "reported_framework"}
+      },
+      "method": "World Bank synthesis of evidence on potential growth drivers and policy options.",
+      "uncertainty": "The conditional reversal pathway is not a guarantee; it depends on investment quality, productivity response, labor and trade policy, macro stability, political capacity, and global cooperation.",
+      "subgroup": "Policymakers, investors, workers, firms, households, development institutions, and communities affected by infrastructure, climate, labor, and public-finance choices.",
+      "counterinterpretation": "Investment-led growth can expand opportunity, but it can also increase resource use, displace communities, concentrate firm power, or prioritize measurable output over social and cultural value.",
+      "source_url": "https://www.worldbank.org/en/research/publication/long-term-growth-prospects",
+      "retrieval_hash": "sha256:39b6bfb2c193a4d778fe364ddc9fbd844ef0f14e50fdb66d94276b23198d963e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a macro-to-social trend linking potential growth, productivity, investment, labor-force aging, trade, convergence, poverty, climate action, policy space, and global cooperation. It is a World Bank structural outlook, not realized GDP or household welfare, a respondent-level dataset, a causal decomposition for every country, or proof that investment-led policy will produce equitable opportunity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank publication page reviewed for the three-decade-low potential-growth outlook, definition of potential growth, weakened investment/productivity/labor-force/trade drivers, development consequences, and conditional policy-reversal route.",
+    "source_url_sha256": "sha256:39b6bfb2c193a4d778fe364ddc9fbd844ef0f14e50fdb66d94276b23198d963e",
+    "checked": "2026-09-27"
+  }
+}

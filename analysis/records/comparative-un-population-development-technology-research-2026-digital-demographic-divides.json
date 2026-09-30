@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-population-development-technology-research-2026-digital-demographic-divides",
+  "title": "Technology and research are reshaping demographic policy through data capacity, digital divides, privacy risk, urbanization, ageing, mobility, and AI",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations Commission on Population and Development, Technology and research affecting population and development, E/CN.9/2026/2",
+  "geography": "Global population and development policy; demographic, technology, research, data, and rights implications",
+  "observations": [
+    {
+      "period": "1994–2026; global demographic and technological transformation",
+      "denominator": {"value": 1, "unit": "global population and development policy framework", "value_type": "global_policy_frame"},
+      "measures": {
+        "world_population_change": {"value": "World population grew from 5.7 billion at the 1994 ICPD to 8.2 billion in the report's contemporary reference period", "unit": "reported demographic change", "value_type": "reported_change"},
+        "demographic_megatrends": {"value": "Population growth has been accompanied by slower growth, population ageing, increasing international mobility, and increasingly urban settlement patterns", "unit": "reported demographic pattern", "value_type": "reported_pattern"},
+        "technology_acceleration": {"value": "Mobile communication, social media, large-scale digital data, biotechnology, health science, renewable energy, and generative AI have transformed the policy environment", "unit": "reported technology pattern", "value_type": "reported_pattern"}
+      },
+      "method": "UN Secretary-General report synthesizing demographic evidence, technology and research developments, population-policy norms, and implementation implications for the ICPD Programme of Action.",
+      "uncertainty": "The report is a policy synthesis rather than a single forecast or causal model; demographic and technology changes vary sharply across countries, groups, and institutional settings.",
+      "subgroup": "People across age, sex, income, race, ethnicity, migration status, disability, and geographic location; governments, researchers, technology providers, and public institutions.",
+      "counterinterpretation": "Technology can expand access to health, education, communication, data, and economic opportunity, while demographic change can create new capabilities and social resources rather than only increasing pressure.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2026_cpd59_cn.9_2026_2_sg-report.pdf",
+      "retrieval_hash": "sha256:df9b8bb9b251e0339c3e8ad871055f2ad6425a03b0ec7a5da217b3ad0effe357",
+      "status": "reported"
+    },
+    {
+      "period": "2026; population data and evidence capacity",
+      "denominator": {"value": 1, "unit": "global population-data and SDG-monitoring system", "value_type": "global_data_policy_frame"},
+      "measures": {
+        "data_requirement": {"value": "High-quality, timely, reliable, and disaggregated population data are needed to monitor the ICPD Programme of Action and SDGs", "unit": "reported policy requirement", "value_type": "reported_requirement"},
+        "disaggregation_frame": {"value": "Relevant dimensions include income, sex, age, race, ethnicity, migration status, disability, and geographic location", "unit": "reported data dimensions", "value_type": "reported_dimension_set"},
+        "census_role": {"value": "Population and housing censuses remain a critical source of population numbers and sociodemographic characteristics in most countries", "unit": "reported statistical function", "value_type": "reported_mechanism"}
+      },
+      "method": "UN assessment of population data systems, censuses, demographic analysis, projections, and evidence requirements for policy implementation.",
+      "uncertainty": "Data availability, quality, timeliness, privacy, and comparability differ across countries; disaggregation does not guarantee use, protection, or equitable policy response.",
+      "subgroup": "National statistical offices, researchers, public agencies, communities undercounted by data systems, and people whose characteristics affect access to services or protection.",
+      "counterinterpretation": "More granular data can improve targeting and accountability, but aggregate indicators and universal services may sometimes protect privacy and reduce classification harms better than intensive profiling.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2026_cpd59_cn.9_2026_2_sg-report.pdf",
+      "retrieval_hash": "sha256:df9b8bb9b251e0339c3e8ad871055f2ad6425a03b0ec7a5da217b3ad0effe357",
+      "status": "reported"
+    },
+    {
+      "period": "2026; unequal access and technology-facilitated harms",
+      "denominator": {"value": 1, "unit": "global technology, research, and population-development policy frame", "value_type": "global_policy_frame"},
+      "measures": {
+        "digital_divide": {"value": "Technological change can deepen inequalities and create new divides through unequal access within and between countries", "unit": "reported inequality mechanism", "value_type": "reported_mechanism"},
+        "rights_risks": {"value": "The report identifies data-security and privacy risks, technology-facilitated gender-based violence, cyberbullying, and rapid misinformation or disinformation as emerging challenges", "unit": "reported risk set", "value_type": "reported_risk_set"},
+        "distribution_route": {"value": "The same technology can increase access and capability for some groups while intensifying exposure, exclusion, surveillance, or harm for others", "unit": "cross-source analytical mechanism", "value_type": "derived_mechanism"}
+      },
+      "method": "UN normative and analytical synthesis of technology impacts on population, development, equality, privacy, gender, safety, and social participation.",
+      "uncertainty": "The report identifies plausible and documented risk channels but does not estimate a universal effect size or attribute specific harms to one technology across all contexts.",
+      "subgroup": "Women and girls, children and young people, marginalized communities, people with limited connectivity or digital skills, migrants, disabled people, and users of public or commercial platforms.",
+      "counterinterpretation": "Rights-based governance, digital literacy, inclusive infrastructure, and accountability can convert technology into an enabler of participation, health, education, and social protection.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2026_cpd59_cn.9_2026_2_sg-report.pdf",
+      "retrieval_hash": "sha256:df9b8bb9b251e0339c3e8ad871055f2ad6425a03b0ec7a5da217b3ad0effe357",
+      "status": "reported"
+    },
+    {
+      "period": "2026; rights-based research and policy implementation",
+      "denominator": {"value": 1, "unit": "ICPD technology, research, and population-development policy framework", "value_type": "global_policy_frame"},
+      "measures": {
+        "normative_anchor": {"value": "The report positions the ICPD Programme of Action, the 2030 Agenda, the Pact for the Future, and the Global Digital Compact as guiding frameworks for inclusive technological change", "unit": "reported governance frame", "value_type": "reported_framework_set"},
+        "policy_goal": {"value": "Innovation should be harnessed while protecting human rights and ensuring that no one is left behind", "unit": "reported policy principle", "value_type": "reported_principle"},
+        "implementation_route": {"value": "Population data, research, privacy, digital access, and demographic policy need to be connected rather than treated as separate technical domains", "unit": "cross-domain governance mechanism", "value_type": "derived_mechanism"}
+      },
+      "method": "UN policy synthesis linking international normative frameworks with technology, research, demographic change, and population-development implementation.",
+      "uncertainty": "Normative frameworks express commitments and policy direction; they do not prove implementation, institutional capacity, or equal outcomes across countries.",
+      "subgroup": "Governments, multilateral institutions, researchers, technology firms, civil society, local communities, and people whose rights or services depend on data and digital systems.",
+      "counterinterpretation": "Separate sectoral governance can preserve specialized expertise and may be more practical in some settings, provided coordination, rights protection, and accountability remain effective.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2026_cpd59_cn.9_2026_2_sg-report.pdf",
+      "retrieval_hash": "sha256:df9b8bb9b251e0339c3e8ad871055f2ad6425a03b0ec7a5da217b3ad0effe357",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/en/global-risk-report", "claim": "Complementary global risk-perception context on AI power concentration, climate inaction, war risk, and cooperation."},
+    {"source_url": "https://www.un.org/en/global-issues/population", "claim": "Complementary UN population and development context."}
+  ],
+  "boundary": "This record adds a UN population-development and technology-policy layer connecting demographic change, urbanization, mobility, data, AI, privacy, digital inequality, and rights. It is a policy synthesis, not individual demographic data, a causal technology-impact study, a representative digital-use survey, or proof that international frameworks are implemented evenly.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Commission on Population and Development report E/CN.9/2026/2 reviewed for demographic transformation, technology and research change, population data requirements, digital divides, privacy and safety risks, and rights-based policy frameworks.",
+    "source_url_sha256": "sha256:df9b8bb9b251e0339c3e8ad871055f2ad6425a03b0ec7a5da217b3ad0effe357",
+    "checked": "2026-09-26"
+  }
+}

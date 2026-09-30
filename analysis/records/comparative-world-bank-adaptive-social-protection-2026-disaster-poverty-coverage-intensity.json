@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-adaptive-social-protection-2026-disaster-poverty-coverage-intensity",
+  "title": "Disaster policy faces a coverage-versus-intensity choice, with lower-income populations carrying large poverty and well-being losses",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11334, Coverage or Intensity of Support? Adaptive Social Protection to Reduce Disaster-Related Poverty",
+  "geography": "131 countries, with global estimates of disaster-related poverty and modeled adaptive social-protection expansion scenarios",
+  "observations": [
+    {
+      "period": "2026; modeled global disaster-poverty burden",
+      "denominator": {"value": 131, "unit": "countries modeled in the study", "value_type": "published_country_frame"},
+      "measures": {
+        "poverty_risk": {"value": "25.6 million people are estimated to be at risk of poverty due to disasters, including 12.7 million facing extreme poverty", "unit": "reported modeled people", "value_type": "reported_estimate"},
+        "consumption_loss": {"value": "disaster-related consumption losses are estimated at $758 billion", "unit": "reported modeled U.S. dollars", "value_type": "reported_estimate"},
+        "wellbeing_loss": {"value": "well-being losses are estimated as equivalent to a uniform $1.143 trillion drop in consumption", "unit": "reported modeled U.S. dollars equivalent", "value_type": "reported_estimate"}
+      },
+      "method": "Global modeling of poverty, consumption and well-being losses from natural hazards, combined with adaptive social-protection policy scenarios.",
+      "uncertainty": "These are modeled global estimates that depend on hazard, poverty, exposure, consumption and welfare assumptions; they are not a contemporaneous disaster-loss census or respondent-level measurement.",
+      "subgroup": "People vulnerable to disaster-related poverty, people facing extreme poverty, lower-income populations, governments, social-protection systems and disaster-risk agencies.",
+      "counterinterpretation": "Modeled welfare-equivalent losses should not be read as cash losses to households or as a direct estimate of how many people would actually receive assistance.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099317203182622058/pdf/IDU-9df63a15-49f6-47f1-96f9-088f56636e7b.pdf",
+      "retrieval_hash": "sha256:8ae74bfc670cd30e8ac3f08fe9f41af799f17652be93bcc6cb652aced94eb7e9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; adaptive social-protection design scenarios",
+      "denominator": {"value": 2, "unit": "policy dimensions compared in the paper", "value_type": "published_framework"},
+      "measures": {
+        "coverage": {"value": "coverage is the breadth of the population reached by a support measure", "unit": "reported policy dimension", "value_type": "reported_definition"},
+        "intensity": {"value": "intensity is the extent of support received by each beneficiary", "unit": "reported policy dimension", "value_type": "reported_definition"},
+        "tradeoff": {"value": "limited resources force governments to choose how to balance reaching more people with supporting each recipient more deeply", "unit": "reported policy problem", "value_type": "reported_interpretation"}
+      },
+      "method": "Systematic comparison of modeled adaptive social-protection measures under alternative coverage and intensity expansions.",
+      "uncertainty": "Scenario results depend on transfer design, targeting, administrative feasibility, fiscal resources, hazard assumptions and implementation quality.",
+      "subgroup": "Potential beneficiaries, excluded households, existing transfer recipients, social-protection administrators and fiscal authorities.",
+      "counterinterpretation": "The coverage-intensity framing can omit delivery speed, dignity, access costs, grievance systems, informal support and whether benefits arrive before irreversible losses.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099317203182622058/pdf/IDU-9df63a15-49f6-47f1-96f9-088f56636e7b.pdf",
+      "retrieval_hash": "sha256:8ae74bfc670cd30e8ac3f08fe9f41af799f17652be93bcc6cb652aced94eb7e9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; modeled policy expansion across income groups",
+      "denominator": {"value": 131, "unit": "countries modeled in the study", "value_type": "published_country_frame"},
+      "measures": {
+        "overall_pattern": {"value": "total benefits are usually largest in scenarios with the most extensive coverage and intensity", "unit": "reported scenario result", "value_type": "reported_assessment"},
+        "expansion_path": {"value": "the optimal expansion path differs by measure and country income group", "unit": "reported scenario result", "value_type": "reported_heterogeneity"},
+        "lower_income_priority": {"value": "prioritizing intensity while focusing on lower-income populations is generally most effective for reducing socio-economic disaster impacts", "unit": "reported modeled policy implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative scenario analysis by adaptive social-protection measure and country income group.",
+      "uncertainty": "The modeled optimum is not a universal program prescription; political targeting, administrative capacity and local price and hazard conditions can change the ranking.",
+      "subgroup": "Lower-income populations, existing beneficiaries, near-poor households, countries at different income levels and agencies allocating scarce disaster-response resources.",
+      "counterinterpretation": "Targeting intensity toward lower-income groups may leave many near-poor or newly affected households without timely help, creating legitimacy and social-cohesion risks.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099317203182622058/pdf/IDU-9df63a15-49f6-47f1-96f9-088f56636e7b.pdf",
+      "retrieval_hash": "sha256:8ae74bfc670cd30e8ac3f08fe9f41af799f17652be93bcc6cb652aced94eb7e9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; income-group differences in expansion sequencing",
+      "denominator": {"value": 2, "unit": "higher- and lower-income country groups compared in the policy scenarios", "value_type": "published_group_frame"},
+      "measures": {
+        "lower_income": {"value": "lower-income countries benefit more strongly from early increases in coverage than higher-income countries", "unit": "reported modeled relationship", "value_type": "reported_heterogeneity"},
+        "sequence": {"value": "the right order of broadening reach and increasing support depends on country income and the measure being expanded", "unit": "reported policy implication", "value_type": "reported_interpretation"},
+        "system_signal": {"value": "adaptive protection is an institutional bridge joining disaster risk management, climate adaptation and social-protection delivery", "unit": "reported framework", "value_type": "reported_interpretation"}
+      },
+      "method": "Income-group comparison of modeled adaptive social-protection expansion paths.",
+      "uncertainty": "The paper does not establish that modeled early coverage increases can be implemented quickly, accurately or equitably in every lower-income setting.",
+      "subgroup": "Lower-income countries, first-time beneficiaries, disaster-exposed households, local delivery institutions and international funders.",
+      "counterinterpretation": "Early coverage expansion without adequate benefit intensity or reliable delivery may create nominal inclusion without meaningful recovery capacity.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099317203182622058/pdf/IDU-9df63a15-49f6-47f1-96f9-088f56636e7b.pdf",
+      "retrieval_hash": "sha256:8ae74bfc670cd30e8ac3f08fe9f41af799f17652be93bcc6cb652aced94eb7e9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/498", "claim": "World Bank reproducibility package documenting the 131-country modeling frame, data sources, scenarios and computational verification."},
+    {"source_url": "https://www.worldbank.org/en/programs/tokyo-drm-hub", "claim": "World Bank Tokyo Disaster Risk Management Hub listing the 2026 adaptive social-protection publication."}
+  ],
+  "boundary": "This record adds an adaptive-social-protection route linking natural hazards to poverty, consumption room, well-being, coverage, benefit intensity, targeting, fiscal capacity and institutional delivery. It is modeled cross-country scenario evidence, not respondent-level data, a disaster-loss census, an implementation audit or proof that support arrives in time.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank working-paper PDF, World Bank reproducibility package and disaster-risk hub listing were reviewed for the 131-country frame, poverty and welfare estimates, coverage-intensity framework, income-group expansion paths and implementation boundaries.",
+    "source_url_sha256": "sha256:8ae74bfc670cd30e8ac3f08fe9f41af799f17652be93bcc6cb652aced94eb7e9",
+    "checked": "2026-09-27"
+  }
+}

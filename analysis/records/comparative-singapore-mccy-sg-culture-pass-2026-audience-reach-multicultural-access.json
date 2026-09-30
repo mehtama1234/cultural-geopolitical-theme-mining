@@ -1,0 +1,191 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-singapore-mccy-sg-culture-pass-2026-audience-reach-multicultural-access",
+  "title": "Singapore uses a cultural credit and multicultural funding route to convert non-attenders into arts audiences",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Singapore Ministry of Culture, Community and Youth SG Culture Pass and Multicultural Arts Programme statements; National Arts Council Population Survey on the Arts 2023 results",
+  "geography": "Singapore",
+  "observations": [
+    {
+      "period": "September 2025-September 2026; SG Culture Pass registration and early use",
+      "denominator": {
+        "value": null,
+        "unit": "Singapore citizens registering for the SG Culture Pass; total registration base and user count are not fully disclosed in the public statement",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "registered_citizens": {
+          "value": 1200000,
+          "unit": "more than 1.2 million citizens registered for the SG Culture Pass",
+          "value_type": "reported_count"
+        },
+        "registrants_without_recent_attendance": {
+          "value": 70,
+          "unit": "seven in ten registrants had not attended a local arts and culture programme in the previous five years",
+          "value_type": "reported_share"
+        },
+        "users_interested_in_repeat_attendance": {
+          "value": 90,
+          "unit": "nine in ten credit users expressed interest in attending another local programme",
+          "value_type": "reported_share"
+        },
+        "mechanism": {
+          "value": "A targeted cultural credit can reach a large pool of recent non-attenders and create stated repeat interest, making affordability and first exposure part of audience development rather than treating attendance as fixed preference",
+          "unit": "bounded cultural-access mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "MCCY parliamentary statement reporting early SG Culture Pass registration and user-feedback figures after the September 2025 launch; the statement is administrative and program-reported, not a randomized evaluation.",
+      "uncertainty": "Registration is not redemption, attendance, repeat attendance, spending, or sustained cultural engagement. The public statement does not disclose the denominator or selection process for the user-interest result, programme mix, household income, or counterfactual attendance.",
+      "subgroup": "Singapore citizens registering for or using SG Culture Pass credits, including people without local arts and culture attendance in the prior five years.",
+      "counterinterpretation": "The scheme may mainly subsidize people already inclined to attend, and stated interest in another programme may not survive cost, time, transport, or programme-fit constraints.",
+      "source_url": "https://www.mccy.gov.sg/about-us/news-and-resources/strengthening-multicultural-identity-and-building-a-more-inclusive-society-through-the-arts/",
+      "retrieval_hash": "sha256:7cd02995c6edf84caad9e4ca2a4e699277ebeeff26f3c84b5d7e40fff6eabd57",
+      "status": "reported"
+    },
+    {
+      "period": "2023; Singapore arts engagement by mode and life stage",
+      "denominator": {
+        "value": 2086,
+        "unit": "respondents in the National Arts Council Population Survey on the Arts 2023; percentages are survey estimates",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "overall_arts_attendance": {
+          "value": 79,
+          "unit": "percent attending physically or digitally at least one arts or cultural event/activity",
+          "value_type": "reported_share"
+        },
+        "physical_arts_attendance": {
+          "value": 59,
+          "unit": "percent attending arts events physically",
+          "value_type": "reported_share"
+        },
+        "digital_arts_consumption": {
+          "value": 66,
+          "unit": "percent consuming arts digitally or online",
+          "value_type": "reported_share"
+        },
+        "active_arts_participation": {
+          "value": 28,
+          "unit": "percent participating in arts activities",
+          "value_type": "reported_share"
+        },
+        "senior_physical_attendance": {
+          "value": 45,
+          "unit": "percent among seniors",
+          "value_type": "reported_subgroup_share"
+        },
+        "senior_participation": {
+          "value": 12,
+          "unit": "percent among seniors",
+          "value_type": "reported_subgroup_share"
+        },
+        "youth_physical_attendance": {
+          "value": 69,
+          "unit": "percent among youths",
+          "value_type": "reported_subgroup_share"
+        },
+        "youth_participation": {
+          "value": 41,
+          "unit": "percent among youths",
+          "value_type": "reported_subgroup_share"
+        },
+        "mechanism": {
+          "value": "A high combined reach can conceal a smaller active-practice base and a strong life-stage gradient, with digital consumption adding reach without demonstrating physical conversion",
+          "unit": "bounded cultural-mode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "NAC Population Survey on the Arts 2023, conducted January-March 2024 and reported for 2023; the annual report gives overall and life-stage estimates.",
+      "uncertainty": "The survey is cross-sectional and self-reported; physical attendance, digital consumption, and active participation are different measures and cannot be added. Life-stage differences do not establish age effects.",
+      "subgroup": "Singapore residents surveyed in 2023, including students, youths, PMEBs, married respondents with children, seniors, and surviving/divorced/widowed respondents.",
+      "counterinterpretation": "Digital consumption may complement physical arts use, and lower senior participation may reflect different art forms, access, health, or measurement rather than weak cultural interest.",
+      "source_url": "https://www.nac.gov.sg/docs/default-source/nac-news-files/final-nac-annual-report-fy24-25.pdf?sfvrsn=bf0f1157_1",
+      "retrieval_hash": "sha256:e3c743abc869d455ac2139a2ad5675655152a87b72349edaa424bf564554fbbc",
+      "status": "reported"
+    },
+    {
+      "period": "2023; childhood arts exposure and later Singapore arts engagement",
+      "denominator": {
+        "value": 2086,
+        "unit": "NAC Population Survey on the Arts 2023 respondents; childhood-exposure subgroup bases are reported as n=1,626 exposed and n=460 not exposed",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "physical_attendance_exposed": {
+          "value": 65,
+          "unit": "percent among respondents reporting childhood arts exposure",
+          "value_type": "reported_subgroup_share"
+        },
+        "physical_attendance_not_exposed": {
+          "value": 38,
+          "unit": "percent among respondents not reporting childhood arts exposure",
+          "value_type": "reported_subgroup_share"
+        },
+        "active_participation_exposed": {
+          "value": 32,
+          "unit": "percent among respondents reporting childhood arts exposure",
+          "value_type": "reported_subgroup_share"
+        },
+        "active_participation_not_exposed": {
+          "value": 14,
+          "unit": "percent among respondents not reporting childhood arts exposure",
+          "value_type": "reported_subgroup_share"
+        },
+        "digital_consumption_exposed": {
+          "value": 72,
+          "unit": "percent among respondents reporting childhood arts exposure",
+          "value_type": "reported_subgroup_share"
+        },
+        "digital_consumption_not_exposed": {
+          "value": 45,
+          "unit": "percent among respondents not reporting childhood arts exposure",
+          "value_type": "reported_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Early cultural exposure is associated with later physical, digital, and active engagement, suggesting that audience development may be cumulative across the life course",
+          "unit": "bounded cultural-exposure mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "NAC Population Survey on the Arts 2023 cross-sectional comparison of respondents reporting childhood exposure versus no exposure; subgroup estimates are descriptive.",
+      "uncertainty": "Exposure is recalled and not randomly assigned; family resources, school access, neighborhood, prior interest, and current age may jointly explain the differences. The association cannot establish that childhood exposure caused later engagement.",
+      "subgroup": "Singapore arts-survey respondents reporting childhood arts and cultural exposure versus no exposure.",
+      "counterinterpretation": "The exposure comparison may partly measure family and school advantage or retrospective identity rather than a program effect; Culture Pass results cannot be attributed to this association.",
+      "source_url": "https://www.nac.gov.sg/docs/default-source/nac-news-files/final-nac-annual-report-fy24-25.pdf?sfvrsn=bf0f1157_1",
+      "retrieval_hash": "sha256:e3c743abc869d455ac2139a2ad5675655152a87b72349edaa424bf564554fbbc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nac.gov.sg/resources/research/population-survey--on-the-arts/overview-of-population-survey-on-the-arts",
+      "claim": "NAC overview of the Population Survey on the Arts series and its engagement, motivation, barrier, and audience-segment scope.",
+      "status": "official-program-page"
+    },
+    {
+      "source_url": "https://www.nac.gov.sg/docs/default-source/about-us-files/singapore-cultural-statistics-2025.pdf?sfvrsn=55c16a35_1",
+      "claim": "Singapore Cultural Statistics 2025 provides sector-level arts, heritage, employment, funding, and value-added context.",
+      "status": "official-statistics"
+    }
+  ],
+  "boundary": "This record adds Singapore evidence on cultural credit reach, audience development, multicultural policy, and the distinction between physical attendance, digital consumption, and active practice. The Culture Pass figures are early administrative and stated-interest signals, not a causal program evaluation; the arts survey is cross-sectional and the childhood-exposure comparison is associational. The record does not establish redemption, repeat attendance, spending displacement, cultural belonging, or equal access by income, disability, migrant status, or neighborhood.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "MCCY statement reviewed for SG Culture Pass launch, registration, prior-attendance, repeat-interest, Sing Lit credit, and Multicultural Arts Programme Grant figures; NAC FY2024-25 annual report reviewed for 2023 Population Survey overall, life-stage, and childhood-exposure estimates.",
+    "source_url_sha256": "MCCY page sha256:7cd02995c6edf84caad9e4ca2a4e699277ebeeff26f3c84b5d7e40fff6eabd57; NAC report sha256:e3c743abc869d455ac2139a2ad5675655152a87b72349edaa424bf564554fbbc",
+    "checked": "2026-09-30"
+  }
+}

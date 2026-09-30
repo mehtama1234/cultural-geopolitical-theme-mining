@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-korea-mods-online-shopping-july-2026-mobile-services-category",
+  "title": "South Korean online commerce expands through mobile services while clothing contracts and mobile share edges down",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "South Korea Ministry of Data and Statistics Online Shopping Trends, July 2026",
+  "geography": "South Korea",
+  "observations": [
+    {
+      "period": "July 2026; online-shopping aggregate",
+      "denominator": {"value": 1, "unit": "aggregate South Korean online-shopping transaction value; not household respondents", "value_type": "aggregate_account"},
+      "measures": {
+        "online_shopping_transaction_value": {"value": 25.0954, "unit": "trillion Korean won", "value_type": "reported_level"},
+        "online_shopping_value_annual_change": {"value": 7.3, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "mobile_shopping_transaction_value": {"value": 19.5716, "unit": "trillion Korean won", "value_type": "reported_level"},
+        "mobile_shopping_value_annual_change": {"value": 6.4, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "mobile_share_of_online_shopping": {"value": 78.0, "unit": "percent of online-shopping transaction value; 78.6% a year earlier", "value_type": "reported_share"}
+      },
+      "method": "South Korean official online-shopping trends release, using transaction-value estimates by product group and operating form; mobile share is reported within total online-shopping transaction value.",
+      "uncertainty": "These are aggregate transaction values, not unique consumers, household welfare, or real-volume measures. Nominal growth can reflect prices, product mix, and platform coverage; a mobile-share decline does not establish less mobile use by individual consumers.",
+      "subgroup": "South Korean online-shopping market and mobile channel; no consumer-income, age, household, or regional subgroup in the headline release.",
+      "counterinterpretation": "Online growth can coexist with affordability pressure if essential services, delivery, or price inflation lead the increase; platform transaction value does not show merchant margins, consumer debt, or satisfaction.",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=241&list_no=446725&mid=a10301120100&ref_bid=240,241&tag=",
+      "retrieval_hash": "sha256:1dfbbda42806a7d2342cca858aed24f0755097cb53546e374d6a6def8565e079",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; online product and service categories",
+      "denominator": {"value": 1, "unit": "aggregate South Korean online-shopping category transaction values; nominal year-over-year changes", "value_type": "aggregate_index"},
+      "measures": {
+        "clothing_transaction_change": {"value": -6.1, "unit": "percent year over year", "value_type": "reported_change"},
+        "food_service_transaction_change": {"value": 8.9, "unit": "percent year over year", "value_type": "reported_change"},
+        "food_grocery_transaction_change": {"value": 8.1, "unit": "percent year over year", "value_type": "reported_change"},
+        "automobile_and_auto_goods_transaction_change": {"value": 31.1, "unit": "percent year over year", "value_type": "reported_change"},
+        "travel_transport_monthly_change": {"value": 14.5, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "food_service_monthly_change": {"value": 7.9, "unit": "percent from June 2026", "value_type": "reported_change"}
+      },
+      "method": "Official category-level online-shopping transaction-value comparisons from the July 2026 release.",
+      "uncertainty": "Category movement is nominal and platform-based; it does not distinguish price, order count, basket size, or whether online categories replace offline purchases. Month-over-month travel and food-service changes may be seasonal.",
+      "subgroup": "South Korean online product and service categories.",
+      "counterinterpretation": "Food delivery/grocery and auto-goods growth may reflect convenience, price, or repair/replacement cycles rather than stronger household discretionary room; clothing decline can reflect seasonality or promotions.",
+      "source_url": "https://mods.go.kr/board.es?act=view&bid=241&list_no=446725&mid=a10301120100&ref_bid=240,241&tag=",
+      "retrieval_hash": "sha256:1dfbbda42806a7d2342cca858aed24f0755097cb53546e374d6a6def8565e079",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://mods.go.kr/board.es?act=view&bid=241&list_no=446725&mid=a10301120100&ref_bid=240,241&tag=", "claim": "Official South Korean statistical release reports July 2026 total, mobile, category, and operating-form online-shopping transaction values.", "status": "official-release"},
+    {"source_url": "https://kosis.kr/eng/", "claim": "KOSIS is the official Korean statistical portal linked by the release for statistical tables and supporting datasets.", "status": "official-data-portal"}
+  ],
+  "boundary": "This record adds a South Korean mobile-commerce and service-category layer to Hong Kong category polarization and Japan household/channel contraction. It does not measure unique consumers, cultural attendance, household welfare, causal platform substitution, or merchant value capture.",
+  "retrieval_hash": "sha256:1dfbbda42806a7d2342cca858aed24f0755097cb53546e374d6a6def8565e079"
+}

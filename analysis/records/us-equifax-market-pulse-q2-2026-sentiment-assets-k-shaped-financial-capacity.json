@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-equifax-market-pulse-q2-2026-sentiment-assets-k-shaped-financial-capacity",
+  "title": "Measured financial capacity improves slightly while consumer sentiment falls, with assets separating U.S. households more sharply than income or credit alone",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Equifax, Q2 2026 Market Pulse Index",
+  "geography": "United States; proprietary aggregated consumer credit, debt, income, capacity, asset, and VantageScore data",
+  "observations": [
+    {
+      "period": "Q2 2026; national financial-capacity index",
+      "denominator": {"value": null, "unit": "U.S. consumers represented in Equifax proprietary aggregated data; population coverage and analytic denominator are not disclosed in the release", "value_type": "not_disclosed"},
+      "measures": {
+        "market_pulse_index": {"value": 61.3, "unit": "Equifax Market Pulse Index score on a 1–100 scale", "value_type": "reported_index"},
+        "quarter_change": {"value": 0.4, "unit": "index-point increase from 60.9 in Q1 2026", "value_type": "reported_change"},
+        "year_comparison": {"value": "The national average remained slightly below its level one year earlier", "unit": "reported comparison", "value_type": "reported_pattern"},
+        "k_shape_pause": {"value": "The release describes the Q2 movement as the first pause in the widening K-shaped economic gap in three years", "unit": "reported distributional interpretation", "value_type": "reported_interpretation"},
+        "capacity_boundary": {"value": "A one-quarter improvement is not evidence of a durable reversal or broadly shared financial security", "unit": "analytic boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Equifax proprietary Market Pulse Index synthesizing anonymized credit, debt, income, capacity, asset, and VantageScore data with AI and machine-learning methods.",
+      "uncertainty": "The release does not disclose the full construction, population coverage, weighting, missing-data treatment, subgroup denominators, or confidence intervals; the index is a company-produced analytic measure rather than a public probability survey.",
+      "subgroup": "U.S. consumers segmented into Thrivers, Middle, and Strivers, with generational comparisons.",
+      "counterinterpretation": "The small index increase may reflect temporary balance-sheet or credit conditions and could coexist with persistent affordability, employment, housing, or health pressures not captured equally by the index.",
+      "source_url": "https://www.prnewswire.com/news-releases/equifax-second-quarter-2026-market-pulse-index-report-sees-first-pause-in-k-shaped-economic-widening-in-three-years-302890538.html",
+      "retrieval_hash": "sha256:e4d03e534c19b8b0e8cd68246657847fa3c862eb800e1f7cf858d4bea0fadb7d",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; distribution across financial-capacity segments",
+      "denominator": {"value": null, "unit": "U.S. consumers represented in Equifax Market Pulse segmentation", "value_type": "not_disclosed"},
+      "measures": {
+        "thrivers_change": {"value": 3.2, "unit": "percent quarter-over-quarter growth in the Thrivers segment, index 80 or above", "value_type": "reported_change"},
+        "middle_change": {"value": 0.9, "unit": "percent quarter-over-quarter growth in the Middle segment, index 50–79", "value_type": "reported_change"},
+        "strivers_change": {"value": -4.2, "unit": "percent quarter-over-quarter change in the Strivers segment, index 49 or below", "value_type": "reported_change"},
+        "middle_share": {"value": 70, "unit": "approximately percent of the U.S. population represented by the Middle segment", "value_type": "reported_share_approximate"},
+        "distribution_mechanism": {"value": "Aggregate stabilization can coexist with unequal movement: upper and middle segments expand while the economically sensitive lower segment contracts", "unit": "reported distributional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Quarterly comparison of Equifax Market Pulse consumer segments defined by the index thresholds.",
+      "uncertainty": "Segment movement is proprietary aggregate analysis; it does not show household transitions, causal drivers, geographic exposure, or whether people move between segments persistently.",
+      "subgroup": "Thrivers, Middle, and Strivers; all U.S. consumers represented in the index.",
+      "counterinterpretation": "The reported segment shifts may partly reflect index reclassification around thresholds rather than large real-world changes in household resources.",
+      "source_url": "https://www.prnewswire.com/news-releases/equifax-second-quarter-2026-market-pulse-index-report-sees-first-pause-in-k-shaped-economic-widening-in-three-years-302890538.html",
+      "retrieval_hash": "sha256:e4d03e534c19b8b0e8cd68246657847fa3c862eb800e1f7cf858d4bea0fadb7d",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; assets, income, and credit as different forms of security",
+      "denominator": {"value": null, "unit": "U.S. consumers represented in Equifax Market Pulse segmentation", "value_type": "not_disclosed"},
+      "measures": {
+        "thriver_affluence": {"value": 78, "unit": "percent of Thrivers considered Affluent, holding more than $1 million in assets", "value_type": "reported_segment_share"},
+        "striver_mass_market": {"value": 97, "unit": "percent or more of Strivers considered Mass Market, holding less than $100,000 in assets", "value_type": "reported_segment_share_approximate"},
+        "mass_affluent_middle": {"value": 32.4, "unit": "percent of all U.S. consumers identified as Mass Affluent households with $100,000 to $1 million in assets and sitting in the Middle", "value_type": "reported_share"},
+        "asset_split": {"value": "Assets are described as the clearest dividing line, while households with similar asset levels can still sit on different sides of the Middle depending on credit, debt, and income", "unit": "reported distributional interpretation", "value_type": "reported_interpretation"},
+        "buffer_mechanism": {"value": "Savings and other wealth create an option buffer that can absorb shocks even when income or credit indicators look similar", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Equifax segmentation using proprietary asset, income, debt, credit, capacity, and score data.",
+      "uncertainty": "Asset definitions, valuation, liquidity, household composition, and access to those assets are not fully documented in the release; asset presence is not identical to usable cash or welfare.",
+      "subgroup": "Thrivers, Middle, Strivers, Affluent, Mass Affluent, and Mass Market consumers.",
+      "counterinterpretation": "Assets may be illiquid, earmarked, geographically concentrated, or unavailable to all household members; income volatility and essential-cost exposure can still dominate lived security.",
+      "source_url": "https://www.prnewswire.com/news-releases/equifax-second-quarter-2026-market-pulse-index-report-sees-first-pause-in-k-shaped-economic-widening-in-three-years-302890538.html",
+      "retrieval_hash": "sha256:e4d03e534c19b8b0e8cd68246657847fa3c862eb800e1f7cf858d4bea0fadb7d",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; financial capacity versus consumer sentiment and payment behavior",
+      "denominator": {"value": null, "unit": "Equifax Market Pulse aggregate compared with University of Michigan consumer sentiment and Equifax late-payment indicators", "value_type": "not_disclosed"},
+      "measures": {
+        "sentiment": {"value": 49.5, "unit": "University of Michigan consumer-sentiment index cited for Q2 2026, described as the lowest since tracking began", "value_type": "reported_index"},
+        "late_payments": {"value": 1.9, "unit": "percent late-payment measure in Q2, down from 2.1%", "value_type": "reported_share"},
+        "sentiment_capacity_divergence": {"value": "Consumer sentiment fell even as the Market Pulse Index rose incrementally and late payments improved", "unit": "reported cross-measure divergence", "value_type": "analytic_mechanism"},
+        "measurement_route": {"value": "Perceived insecurity, payment behavior, credit status, assets, and capacity are distinct layers and should not be collapsed into a single consumer-confidence signal", "unit": "analytic measurement principle", "value_type": "analytic_boundary"}
+      },
+      "method": "Comparison of Equifax proprietary aggregate financial-capacity measures with the University of Michigan sentiment index and Equifax late-payment indicator cited in the release.",
+      "uncertainty": "The measures differ in populations, construction, timing, and data-generating process; the comparison is descriptive and does not establish why sentiment and financial capacity diverged.",
+      "subgroup": "U.S. consumers, survey respondents, and households observed in credit and asset data.",
+      "counterinterpretation": "Sentiment may lead or lag financial capacity, or may incorporate political, media, price, employment, and future-expectation concerns not reflected in current balance-sheet measures.",
+      "source_url": "https://www.prnewswire.com/news-releases/equifax-second-quarter-2026-market-pulse-index-report-sees-first-pause-in-k-shaped-economic-widening-in-three-years-302890538.html",
+      "retrieval_hash": "sha256:e4d03e534c19b8b0e8cd68246657847fa3c862eb800e1f7cf858d4bea0fadb7d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://investor.equifax.com/news-events/press-releases/detail/1413/equifax-market-pulse-index-report-highlights-growing", "claim": "Equifax Q1 2026 Market Pulse release provides the immediately prior quarter and K-shaped segmentation context."},
+    {"source_url": "https://www.sca.isr.umich.edu/", "claim": "University of Michigan Surveys of Consumers context for the sentiment comparison cited by Equifax."},
+    {"source_url": "https://investor.equifax.com/news-events/press-releases/detail/1416/equifax-national-market-pulse-data-shows-u-s-consumer", "claim": "Equifax Q2 2026 consumer-credit trends release provides related debt and delinquency context."}
+  ],
+  "boundary": "This record adds a measurement and consumer-financial-capacity mechanism: current sentiment can deteriorate while measured financial capacity and payment performance improve slightly, and assets can separate household option sets more sharply than income or credit scores alone. The source uses proprietary Equifax aggregates and a company-defined index; it is not a public household panel, causal evaluation, transaction-level welfare measure, or proof that aggregate stabilization reaches households equally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Equifax's 28 September 2026 Market Pulse release was reviewed for Q2 index level and change, segment movements, asset distributions, generational comparisons, sentiment divergence, late payments, index construction, and proprietary-data limitations.",
+    "source_url_sha256": "sha256:e4d03e534c19b8b0e8cd68246657847fa3c862eb800e1f7cf858d4bea0fadb7d",
+    "checked": "2026-09-28"
+  }
+}

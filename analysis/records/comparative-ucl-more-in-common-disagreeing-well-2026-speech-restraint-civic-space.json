@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space",
+  "title": "Britons value open disagreement but experience a shrinking, socially costly public space for expressing it",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UCL and More in Common, Disagreeing Well research, reported 22 September 2026",
+  "geography": "Great Britain; polling of 2,000 people with follow-up focus groups",
+  "observations": [
+    {
+      "period": "September 2026; openness and perceived difficulty",
+      "denominator": {"value": 2000, "unit": "people polled in Britain; focus-group follow-up also conducted", "value_type": "published_survey_sample"},
+      "measures": {
+        "important_every_topic_discussed": {"value": 63, "unit": "percent saying it is important every topic can be discussed despite disagreement", "value_type": "published_survey_estimate"},
+        "harder_to_disagree": {"value": 58, "unit": "percent saying it is becoming harder to disagree about difficult topics", "value_type": "published_survey_estimate"},
+        "debate_well": {"value": 6, "unit": "percent saying Britain debates and disagrees very well", "value_type": "published_survey_estimate"},
+        "openness_gap": {"value": "Normative support for open debate coexists with a widespread belief that the current environment handles disagreement badly", "unit": "reported contrast", "value_type": "reported_pattern"}
+      },
+      "method": "UCL and More in Common polling of 2,000 people with follow-up focus groups, as summarized in the official UCL publication page.",
+      "uncertainty": "The accessible page does not provide the full questionnaire, weighting details, field dates, or subgroup base sizes; the results measure reported attitudes and perceptions rather than observed speech or debate quality.",
+      "subgroup": "British adults across political and age groups, with a reported stronger perception among Reform voters that disagreement is becoming harder.",
+      "counterinterpretation": "The perceived decline may reflect heightened political salience or greater awareness of disagreement rather than a uniform collapse of public discussion; valuing openness does not imply willingness to engage in every setting.",
+      "source_url": "https://www.ucl.ac.uk/news/2026/sep/britons-think-disagreement-matters-most-fear-speaking-their-minds",
+      "retrieval_hash": "sha256:abd38d0a895d5eb8f4fc22cd57eb308ef6938b67fdc3ef10ab708137220fe0bc",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; self-censorship and social sanction",
+      "denominator": {"value": 2000, "unit": "people polled in Britain", "value_type": "published_survey_sample"},
+      "measures": {
+        "bite_tongue": {"value": 69, "unit": "percent saying they sometimes bite their tongue rather than express what they really think", "value_type": "published_survey_estimate"},
+        "fear_labelled_misunderstood": {"value": 44, "unit": "percent saying fear of being labelled or misunderstood makes them hesitant to discuss contentious issues", "value_type": "published_survey_estimate"},
+        "speech_restraint": {"value": "Public silence is a social-risk adaptation, not a clean measure of apathy or agreement", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Published polling estimate with qualitative focus-group interpretation around contentious topics including immigration, gender identity, and the conflict in the Middle East.",
+      "uncertainty": "The report does not establish whether restraint is caused by actual sanctions, anticipated sanctions, social-media dynamics, workplace risk, or ordinary conversational preference, nor whether it reduces civic participation.",
+      "subgroup": "British adults with different political identities and experiences of contentious public discussion.",
+      "counterinterpretation": "Holding back can be a deliberate norm of civility or a choice to avoid escalation; it can protect relationships even while reducing visible pluralism.",
+      "source_url": "https://www.ucl.ac.uk/news/2026/sep/britons-think-disagreement-matters-most-fear-speaking-their-minds",
+      "retrieval_hash": "sha256:abd38d0a895d5eb8f4fc22cd57eb308ef6938b67fdc3ef10ab708137220fe0bc",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; disagreement goals and skills",
+      "denominator": {"value": 2000, "unit": "people polled in Britain", "value_type": "published_survey_sample"},
+      "measures": {
+        "understand_other_view": {"value": 32, "unit": "percent saying understanding the other person's view is the most important objective in a political disagreement", "value_type": "published_survey_estimate"},
+        "change_mind": {"value": 4, "unit": "percent saying changing the other person's mind is the most important objective", "value_type": "published_survey_estimate"},
+        "listening_valued": {"value": 46, "unit": "percent identifying listening as the most important attribute of healthy disagreement", "value_type": "published_survey_estimate"},
+        "constructive_capacity": {"value": "People report a preference for mutual understanding, but many lack confidence, skills, or opportunities to enact it", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Polling questions on objectives and behaviours in disagreement, supplemented by focus-group discussion.",
+      "uncertainty": "Stated goals and valued skills are not observed conversation outcomes; the research does not show whether dialogue programmes change beliefs, relationships, or political behaviour.",
+      "subgroup": "British adults participating in political and social disagreement across online and offline settings.",
+      "counterinterpretation": "The preference for understanding may reflect low expectations of persuasion rather than a broad appetite for deep dialogue; listening as an ideal can coexist with selective exposure.",
+      "source_url": "https://www.ucl.ac.uk/news/2026/sep/britons-think-disagreement-matters-most-fear-speaking-their-minds",
+      "retrieval_hash": "sha256:abd38d0a895d5eb8f4fc22cd57eb308ef6938b67fdc3ef10ab708137220fe0bc",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; civic-space substitution",
+      "denominator": {"value": 2000, "unit": "people polled in Britain", "value_type": "published_survey_sample"},
+      "measures": {
+        "pub_discussion": {"value": 23, "unit": "percent saying they argue about politics at the pub", "value_type": "published_survey_estimate"},
+        "social_media_strangers": {"value": 22, "unit": "percent saying they argue about politics on social media with strangers", "value_type": "published_survey_estimate"},
+        "community_or_town_hall": {"value": 17, "unit": "percent saying they argue about politics at a community group or town hall", "value_type": "published_survey_estimate"},
+        "politicians_rude_disrespectful": {"value": 57, "unit": "percent saying politicians tend to be rude and disrespectful when debating each other", "value_type": "published_survey_estimate"},
+        "space_substitution": {"value": "Informal venues appear more usable for disagreement than formal civic forums, while social media is prominent but widely viewed as toxic", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Published survey comparisons of settings where people report political disagreement, plus perceptions of politician behaviour and social-media debate.",
+      "uncertainty": "The venue percentages are not measures of quality, frequency, representativeness, or access; the publication does not establish that physical-space decline caused online toxicity or civic disengagement.",
+      "subgroup": "British adults using pubs, social media, educational institutions, community groups, town halls, and other public settings.",
+      "counterinterpretation": "Pubs may be named because they are familiar, not because they are broadly accessible or inclusive; low use of formal forums may reflect their purpose, scheduling, or selection effects rather than institutional failure alone.",
+      "source_url": "https://www.ucl.ac.uk/news/2026/sep/britons-think-disagreement-matters-most-fear-speaking-their-minds",
+      "retrieval_hash": "sha256:abd38d0a895d5eb8f4fc22cd57eb308ef6938b67fdc3ef10ab708137220fe0bc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ucl.ac.uk/news/2026/sep/britons-think-disagreement-matters-most-fear-speaking-their-minds", "claim": "Official UCL summary of the polling and focus-group research.", "status": "official-publication-page"},
+    {"source_url": "https://www.moreincommon.org.uk/", "claim": "More in Common is the research partner identified by UCL.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a civic-culture route from fear of social labelling and hostile disagreement through speech restraint, venue substitution, and the perceived usability of public forums. It does not establish actual censorship, platform causality, political withdrawal, polarization as a single metric, or that dialogue interventions produce durable institutional trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UCL publication page reviewed for sample frame, reported percentages, focus-group description, venue comparisons, and limitations.",
+    "source_page_sha256": "sha256:abd38d0a895d5eb8f4fc22cd57eb308ef6938b67fdc3ef10ab708137220fe0bc",
+    "checked": "2026-09-28"
+  }
+}

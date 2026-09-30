@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wmo-global-water-resources-2025-hydrological-variability-storage-glaciers",
+  "title": "The global water cycle is becoming more erratic while freshwater storage and glacier buffers decline",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "World Meteorological Organization, State of Global Water Resources 2025, published 17 September 2026",
+  "geography": "Global hydrological cycle, river basins, groundwater, terrestrial water storage, snow, glaciers, and water-related extremes",
+  "observations": [
+    {
+      "period": "2025; global river discharge",
+      "denominator": {"value": 100, "unit": "global basin-area comparison against 1991–2020 hydrological conditions", "value_type": "published_comparison_frame"},
+      "measures": {
+        "dry_discharge_area": {"value": 36, "unit": "percent of global basin area with below-normal river discharge in 2025", "value_type": "reported_share"},
+        "historical_rank": {"value": "one of the driest years for global river discharge in more than three decades", "unit": "reported historical comparison", "value_type": "reported_assessment"},
+        "normal_basin_share": {"value": "34–38", "unit": "percent of river basins with normal conditions in each of the past seven years, compared with a 46% 1991–2020 average", "value_type": "reported_range"}
+      },
+      "method": "WMO combines 13 global hydrological models driven by observed weather data with Member observations and partner data.",
+      "uncertainty": "Modelled river discharge and basin classifications are not direct measures of household water access, quality, affordability, or local service reliability.",
+      "subgroup": "River-basin populations, farmers, cities, ecosystems, energy systems, downstream communities, and countries sharing transboundary waters.",
+      "counterinterpretation": "Some regions experienced above-normal flows and local recovery; global and basin averages conceal strong spatial variation and can change across seasons.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-global-water-resources/2025",
+      "retrieval_hash": "sha256:7ec09d4560890c59803dfd358d7624e10efac5a53860a532618b8f395432859f",
+      "status": "reported"
+    },
+    {
+      "period": "2014–2016 through 2025; terrestrial water storage",
+      "denominator": {"value": 1, "unit": "global terrestrial water storage system including groundwater, lakes, rivers, soil moisture, vegetation, ice, and snow", "value_type": "published_system_frame"},
+      "measures": {
+        "storage_trend": {"value": "declining since the mid-2010s", "unit": "reported long-term trend", "value_type": "reported_trend"},
+        "storage_signal": {"value": "below-normal terrestrial water storage repeatedly affected the south-western United States, Patagonia and the subtropical Andes, Ganges–Indus headwaters, North Africa, Middle East, Central Asia, and eastern China during 2021–2025", "unit": "reported geographic pattern", "value_type": "reported_pattern"},
+        "buffer_function": {"value": "slow water reserves act as a buffer against single dry years, but that savings account is being depleted", "unit": "reported system mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WMO uses satellite gravimetry, hydrological modelling, and in situ observations to assess land water storage.",
+      "uncertainty": "Terrestrial storage anomalies do not directly identify extraction, allocation, quality, legal access, or the timing of impacts on each user.",
+      "subgroup": "Groundwater-dependent households and farms, cities, ecosystems, hydropower systems, and downstream populations reliant on slow reserves.",
+      "counterinterpretation": "Positive storage anomalies occurred in parts of sub-Saharan Africa, the Sahel, and the Tibetan Plateau; local abundance can coexist with regional depletion or access conflict.",
+      "source_url": "https://public.wmo.int/news/media-centre/wmo-recent-water-trends-have-serious-future-implications",
+      "retrieval_hash": "sha256:7ec09d4560890c59803dfd358d7624e10efac5a53860a532618b8f395432859f",
+      "status": "reported"
+    },
+    {
+      "period": "2025 hydrological year; glaciers and groundwater",
+      "denominator": {"value": 1, "unit": "major glaciated regions and monitored groundwater systems assessed by WMO", "value_type": "published_system_frame"},
+      "measures": {
+        "glacier_loss": {"value": 408, "unit": "gigatonnes of glacier mass loss in the 2025 hydrological year, with an uncertainty of ±132 gigatonnes", "value_type": "reported_estimate"},
+        "glacier_consecutive_loss": {"value": 4, "unit": "consecutive years in which every major glaciated region recorded net ice loss", "value_type": "reported_count"},
+        "groundwater_anomaly": {"value": "nearly two-thirds", "unit": "share of monitored wells worldwide with conditions outside historical norms in 2025", "value_type": "reported_share"},
+        "water_tower_implication": {"value": "glacier and snow changes affect downstream water availability, hazards, food, health, ecosystems, and development", "unit": "reported system mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WMO synthesizes cryosphere, groundwater, satellite, modelled, and national hydrological evidence.",
+      "uncertainty": "The monitored wells and reporting regions are not a complete global sample; glacier mass estimates have stated uncertainty and downstream effects vary by basin.",
+      "subgroup": "Mountain and downstream communities, irrigation and hydropower users, cities, ecosystems, and countries dependent on glacier-fed seasonal water.",
+      "counterinterpretation": "Glacier melt can temporarily increase runoff before peak water and decline; some regions have different storage and precipitation conditions, so timing and basin context matter.",
+      "source_url": "https://public.wmo.int/news/media-centre/wmo-recent-water-trends-have-serious-future-implications",
+      "retrieval_hash": "sha256:7ec09d4560890c59803dfd358d7624e10efac5a53860a532618b8f395432859f",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2025; water-related extremes and measurement capacity",
+      "denominator": {"value": 5, "unit": "years of reported water-related extreme events summarized by WMO", "value_type": "published_period_frame"},
+      "measures": {
+        "regional_disaster_concentration": {"value": "Asia and Africa accounted for at least half of recorded water-related extreme events and more than 80% of reported associated deaths", "unit": "reported regional share pattern", "value_type": "reported_pattern"},
+        "extreme_recurrence": {"value": "national services reported record-breaking floods and droughts in each of the past five years, with some places having little recovery time", "unit": "reported recurrence pattern", "value_type": "reported_pattern"},
+        "data_coverage": {"value": "the report expanded to 68 countries and more than 3,000 stations, but Africa and Asia remain among the least represented regions in hydrological observations", "unit": "reported monitoring coverage", "value_type": "reported_capacity_pattern"},
+        "governance_need": {"value": "shared data, standards, and early warning are required because water systems cross borders", "unit": "reported governance direction", "value_type": "reported_framework"}
+      },
+      "method": "WMO integrates national services, global modelling systems, satellite observations, and expert contributions across 15 hydrological variables.",
+      "uncertainty": "Event counts and deaths depend on reporting and attribution; data gaps are themselves uneven and can understate exposure in hard-hit areas.",
+      "subgroup": "Water-stressed and disaster-exposed populations, national hydrological services, transboundary basin authorities, local governments, and early-warning users.",
+      "counterinterpretation": "Improved monitoring can increase reported events without a proportional increase in underlying hazards; some gaps reflect measurement capacity rather than no extreme event.",
+      "source_url": "https://wmo.int/resources/publication-series/state-of-global-water-resources/2025",
+      "retrieval_hash": "sha256:7ec09d4560890c59803dfd358d7624e10efac5a53860a532618b8f395432859f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wmo.int/resources/publication-series/global-seasonal-climate-updates/gscu-son2026", "claim": "Complementary near-term seasonal climate outlook and El Niño conditions."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240094710", "claim": "Complementary climate-health and heat-readiness evidence."}
+  ],
+  "boundary": "This record adds a physical water-system and measurement-capacity route linking river flows, storage, groundwater, glaciers, disasters, early warning, transboundary governance, cities, food, energy, health, and household exposure. It uses global modelled, satellite, and reported hydrological evidence, not local water bills, household access histories, basin-level causal impacts, or proof that better data produced better protection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "WMO State of Global Water Resources 2025 landing page, official press release, and launch materials were reviewed for river discharge, storage, groundwater, glacier, disaster, coverage, and governance findings.",
+    "source_url_sha256": "sha256:7ec09d4560890c59803dfd358d7624e10efac5a53860a532618b8f395432859f",
+    "checked": "2026-09-27"
+  }
+}

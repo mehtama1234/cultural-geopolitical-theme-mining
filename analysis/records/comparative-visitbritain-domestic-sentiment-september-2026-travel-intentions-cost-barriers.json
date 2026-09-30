@@ -1,0 +1,138 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-visitbritain-domestic-sentiment-september-2026-travel-intentions-cost-barriers",
+  "title": "UK domestic travel intent is recovering while cost and trip-format constraints still shape discretionary mobility",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "VisitBritain/VisitEngland Domestic Sentiment Tracker, September 2026 report and data tables",
+  "geography": "United Kingdom residents aged 16 and over; domestic overnight and short-break intentions",
+  "observations": [
+    {
+      "period": "September 2026; next six months domestic travel intention",
+      "denominator": {
+        "value": 1755,
+        "unit": "UK residents aged 16+ in the September 2026 tracker sample; question-specific valid bases vary",
+        "value_type": "survey_sample_count"
+      },
+      "measures": {
+        "uk_overnight_trip_intention": {
+          "value": 78.0,
+          "unit": "percent intending to take a UK overnight trip, up 3 percentage points from August and above September 2025",
+          "value_type": "official_survey_share"
+        },
+        "domestic_demand_pattern": {
+          "value": "demand recovered from the dip seen earlier in summer 2026",
+          "unit": "reported monthly directional pattern",
+          "value_type": "official_directional_finding"
+        },
+        "mechanism": {
+          "value": "Travel intention can recover before realized travel, booking, spending, or cultural activity, leaving a conversion gap between desire and executable mobility",
+          "unit": "bounded mobility-conversion mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "VisitBritain monthly Domestic Sentiment Tracker; the September report uses a nationally representative UK sample of adults aged 16+ with additional Scotland and Wales boosts. The tracker measures intentions, motivations, destinations, travel companions, accommodation, and barriers.",
+      "uncertainty": "This is stated future intention, not observed trips, bookings, spending, or cultural attendance. Monthly samples are repeated cross-sections and the exact valid base varies by question; the survey cannot establish whether the reported recovery materialized.",
+      "subgroup": "UK residents aged 16 and over, with gender, age, life-stage, social-grade, regional, Scotland, and Wales breakdowns in the data tables.",
+      "counterinterpretation": "Higher intention may reflect seasonal timing, pent-up demand, survey composition, or a shift toward lower-cost travel rather than broad discretionary recovery; intention can coexist with cancellation or substitution.",
+      "source_url": "https://www.visitbritain.org/research-insights/domestic-sentiment-tracker",
+      "retrieval_hash": "sha256:1297887eee4c3029a054e5a7d7b4d0517c35405ba2d739a84962a8977ab17522; pdf:sha256:4ae8b8d36a2c5085a94da8d6cc1c9bc670c3b3630153d6cb13efc82e33a79c22; tables:sha256:ee62d949abe80d9ecadc05b2bdd756364dfa660b6c6cd9242df8a6aa16460949",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; barriers to a UK short break or holiday in the next six months",
+      "denominator": {
+        "value": 1755,
+        "unit": "UK residents aged 16+ in the tracker; barrier question has a question-specific valid base and multiple responses",
+        "value_type": "survey_sample_count"
+      },
+      "measures": {
+        "costs_and_finances_barrier": {
+          "value": 53.8,
+          "unit": "percent identifying costs and finances as a potential barrier",
+          "value_type": "calculated_share_from_published_weighted_table"
+        },
+        "uk_weather_barrier": {
+          "value": 35.0,
+          "unit": "percent identifying UK weather as a potential barrier",
+          "value_type": "official_survey_share"
+        },
+        "rising_cost_of_living_barrier": {
+          "value": 28.5,
+          "unit": "percent identifying rising cost of living as a potential barrier",
+          "value_type": "calculated_share_from_published_weighted_table"
+        },
+        "rising_holiday_cost_barrier": {
+          "value": 27.2,
+          "unit": "percent identifying rising costs of holidays or leisure as a potential barrier",
+          "value_type": "calculated_share_from_published_weighted_table"
+        },
+        "mechanism": {
+          "value": "Discretionary mobility is governed by both demand and usable household room: a majority identify financial barriers even while overall travel intention improves",
+          "unit": "bounded affordability mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Derived from the September 2026 VisitBritain data-table weighted proportions; barrier responses are multiple-response and therefore not mutually exclusive.",
+      "uncertainty": "Barrier percentages are perceptions or anticipated constraints, not measured budgets, prices, cancellations, or realized exclusion. They do not identify whether cost, time, weather, health, transport, or preference was binding for a specific respondent.",
+      "subgroup": "UK residents aged 16+ considering a UK short break or holiday; published tables include demographic and life-stage comparisons.",
+      "counterinterpretation": "A person can report cost concern and still travel by shortening the trip, trading down accommodation, traveling off-peak, using savings, or relying on shared costs; barriers can overlap.",
+      "source_url": "https://www.visitbritain.org/media/6108/download?attachment",
+      "retrieval_hash": "sha256:ee62d949abe80d9ecadc05b2bdd756364dfa660b6c6cd9242df8a6aa16460949",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; intended next domestic trip format",
+      "denominator": {
+        "value": 1755,
+        "unit": "UK residents aged 16+ with a next UK trip response; trip-format question is conditional and weighted",
+        "value_type": "survey_sample_count"
+      },
+      "measures": {
+        "short_break_intention": {
+          "value": 62.1,
+          "unit": "percent describing the next intended domestic trip as a short break of 1–3 nights",
+          "value_type": "calculated_share_from_published_weighted_table"
+        },
+        "holiday_intention": {
+          "value": 34.3,
+          "unit": "percent describing the next intended domestic trip as a holiday of 4 or more nights",
+          "value_type": "calculated_share_from_published_weighted_table"
+        },
+        "no_barrier_share": {
+          "value": 18.4,
+          "unit": "percent reporting no barriers to a UK short break or holiday in the next six months",
+          "value_type": "calculated_share_from_published_weighted_table"
+        },
+        "mechanism": {
+          "value": "Household adaptation may appear as trip compression and format substitution rather than complete exit from travel",
+          "unit": "bounded discretionary-adaptation mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Derived from VisitBritain September 2026 report tables for intended next domestic-trip type and barriers; conditional denominators and non-mutually-exclusive responses are preserved.",
+      "uncertainty": "These are intended trip formats, not realized nights, spend, destination choice, or cultural participation. The table’s trip-type categories do not reveal whether short breaks are cheaper, more convenient, or preferred for other reasons.",
+      "subgroup": "UK residents intending a next domestic trip, with age, gender, life-stage, social-grade, and regional breakdowns.",
+      "counterinterpretation": "Shorter trips may reflect preference, work schedules, school calendars, or destination supply rather than financial compression; a reported lack of barriers does not prove affordability or completion.",
+      "source_url": "https://www.visitbritain.org/media/6108/download?attachment",
+      "retrieval_hash": "sha256:ee62d949abe80d9ecadc05b2bdd756364dfa660b6c6cd9242df8a6aa16460949",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.visitbritain.org/research-insights/england-hotel-occupancy-latest",
+      "claim": "VisitBritain’s official hotel-occupancy series supplies an observed accommodation-demand counterpart to the tracker’s stated travel intentions.",
+      "status": "comparison-context"
+    }
+  ],
+  "boundary": "This record adds a current UK domestic-mobility and discretionary-consumption layer connecting travel intention, barriers, and trip format. It does not establish realized travel, household welfare, cultural participation, causal cost effects, regional incidence, or completed bookings.",
+  "retrieval_hash": "page:sha256:1297887eee4c3029a054e5a7d7b4d0517c35405ba2d739a84962a8977ab17522; pdf:sha256:4ae8b8d36a2c5085a94da8d6cc1c9bc670c3b3630153d6cb13efc82e33a79c22; tables:sha256:ee62d949abe80d9ecadc05b2bdd756364dfa660b6c6cd9242df8a6aa16460949"
+}

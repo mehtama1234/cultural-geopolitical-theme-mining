@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-africa-statssa-ghs-2025-mobile-first-digital-access-household-room",
+  "title": "South Africa's digital access is widespread but mobile-first and sharply uneven across provinces",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "time_hidden_price"
+  ],
+  "source_unit": "Statistics South Africa, General Household Survey 2025",
+  "geography": "South Africa; private households across all nine provinces and residents in workers' hostels",
+  "observations": [
+    {
+      "period": "2010-2025; household internet access by location and device",
+      "denominator": {
+        "value": 20095,
+        "unit": "households in the GHS 2025 public-use household file; national estimates are benchmarked household survey estimates",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "internet_access_anywhere_2010": {"value": 28.0, "unit": "percent of households with internet access at any location", "value_type": "official_household_share"},
+        "internet_access_anywhere_2025": {"value": 85.6, "unit": "percent of households with internet access at any location", "value_type": "official_household_share"},
+        "fixed_home_internet_2025": {"value": 20.6, "unit": "percent of households with fixed internet access at home", "value_type": "official_household_share"},
+        "mobile_internet_2025": {"value": 78.9, "unit": "percent of households with internet access through mobile devices", "value_type": "official_household_share"},
+        "mechanism": {"value": "Internet access has become widespread mainly through mobile connectivity, while fixed home access remains a minority condition; digital cultural and consumer participation therefore rests on different quality, cost, privacy, and reliability conditions than a binary online/offline measure reveals", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Statistics South Africa annual household survey with national time-series indicators; access includes home, work, study, internet café, public hotspot, library, and other locations.",
+      "uncertainty": "The measure records household access or use at one or more locations, not individual frequency, bandwidth, affordability, data expenditure, device quality, or cultural use.",
+      "subgroup": "Private households across South Africa's nine provinces and residents in workers' hostels; institutional and military collective quarters are excluded.",
+      "counterinterpretation": "Mobile-first access may be sufficient for some cultural and consumer activities, and the survey cannot establish that fixed access produces better outcomes for every use.",
+      "source_url": "https://www.statssa.gov.za/publications/P0318/P03182025.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; provincial digital-access gradients",
+      "denominator": {
+        "value": 20095,
+        "unit": "households in the GHS 2025 public-use household file; provincial estimates are weighted household survey estimates",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "western_cape_any_internet": {"value": 93.8, "unit": "percent of households with any internet access", "value_type": "official_subgroup_share"},
+        "eastern_cape_any_internet": {"value": 74.5, "unit": "percent of households with any internet access", "value_type": "official_subgroup_share"},
+        "western_cape_fixed_home_internet": {"value": 49.7, "unit": "percent of households with fixed internet at home", "value_type": "official_subgroup_share"},
+        "limpopo_fixed_home_internet": {"value": 5.9, "unit": "percent of households with fixed internet at home", "value_type": "official_subgroup_share"},
+        "public_wifi_national": {"value": 8.2, "unit": "percent of households reporting public Wi-Fi access", "value_type": "official_household_share"},
+        "mechanism": {"value": "National digital reach conceals a provincial infrastructure gradient: both basic connectivity and the more stable fixed-home layer are concentrated unevenly, shaping the reliability and privacy of downstream cultural, social, and consumer use", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GHS 2025 provincial table for internet access by type; provincial percentages are weighted household estimates.",
+      "uncertainty": "Province is an aggregate place marker and does not isolate network supply, income, urbanicity, electricity reliability, device ownership, or data prices.",
+      "subgroup": "Households in Western Cape, Eastern Cape, Limpopo, and all other South African provinces.",
+      "counterinterpretation": "High mobile access can partially compensate for low fixed access, while fixed-home differences may reflect household choice as well as infrastructure and affordability.",
+      "source_url": "https://www.statssa.gov.za/publications/P0318/P03182025.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; household structure and material room",
+      "denominator": {
+        "value": 20095,
+        "unit": "households in the GHS 2025 public-use household file; national weighted household estimates",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "single_person_households": {"value": 26.6, "unit": "percent of households consisting of one person", "value_type": "official_household_share"},
+        "female_headed_households": {"value": 42.6, "unit": "percent of households headed by a woman", "value_type": "official_household_share"},
+        "food_access_inadequate_or_severely_inadequate": {"value": 22.0, "unit": "percent of households reporting inadequate or severely inadequate food access", "value_type": "official_household_share"},
+        "social_grant_recipient_individuals": {"value": 39.5, "unit": "percent of individuals benefiting from social grants", "value_type": "official_population_share"},
+        "mechanism": {"value": "Digital access sits inside highly differentiated household structures and material constraints; connectivity can expand while food insecurity, grant dependence, and household isolation continue to shape what digital or cultural consumption is affordable and meaningful", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GHS 2025 household structure, food-access, and social-grant indicators from the national survey release; the measures describe different denominators and should not be read as one causal chain.",
+      "uncertainty": "These aggregate indicators do not identify individual welfare trajectories, spending substitution, social connection quality, or causal effects of household structure or grants on digital or cultural use.",
+      "subgroup": "South African households and individuals represented by the GHS 2025 national estimates.",
+      "counterinterpretation": "Single-person households can have greater autonomy, grants can protect consumption, and food-access measures may fluctuate seasonally; none automatically implies reduced cultural participation.",
+      "source_url": "https://www.statssa.gov.za/publications/P0318/P03182025.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.statssa.gov.za/?PPN=P0318&page_id=1854",
+      "claim": "Statistics South Africa publication page identifies the GHS 2025 release, release date, main publication, key findings, and downloadable tables.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/1144",
+      "claim": "Public metadata documents the GHS 2025 target population, sampling design, weighting, and public-use household file with 20,095 cases.",
+      "status": "official-data-archive"
+    }
+  ],
+  "boundary": "This record adds South African evidence on mobile-first digital access, provincial infrastructure inequality, household structure, food access, and social-grant coverage. It does not measure cultural participation, digital frequency, data prices, device quality, platform use, or causal household welfare effects.",
+  "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+}

@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-young-life-relate-2026-ai-companions-face-to-face-trust",
+  "title": "Young people are using AI companions inside a shrinking relationship field while still preferring trusted human presence",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Young Life Research and Practice / Pinkston, RELATE Project 2026",
+  "geography": "11 countries: United States, United Kingdom, Argentina, Mexico, Hong Kong, India, Ethiopia, Kenya, Liberia, Nigeria, and Zimbabwe",
+  "observations": [
+    {
+      "period": "2026; adolescents and young adults' AI-companion use and relationship preferences",
+      "denominator": {"value": 7105, "unit": "adolescents and young adults ages 13-24 surveyed across 11 countries", "value_type": "reported_multicountry_survey_sample"},
+      "measures": {
+        "ai_use": {"value": 89, "unit": "percent using AI in some way", "value_type": "reported_share"},
+        "ai_companion": {"value": 35, "unit": "percent reporting an AI companion; 45% among ages 13-15 according to the publisher's summary", "value_type": "reported_share"},
+        "comfort": {"value": 60, "unit": "percent of those with an AI companion saying they are more comfortable with it than with some friends or family", "value_type": "reported_subgroup_share"},
+        "stress_and_advice": {"value": "12% say they cope with stress by talking to an AI companion and nearly 10% would turn to AI first for difficult advice", "unit": "reported subgroup shares", "value_type": "reported_subgroup_shares"},
+        "human_preference": {"value": "64% prefer connecting with close friends in person, up from 54% in the publisher's 2024 comparison; 70% prefer a trusted person over AI or online search for difficult advice", "unit": "reported preference shares", "value_type": "reported_preference"},
+        "paradox": {"value": "AI is functioning as an accessible, nonjudgmental substitute or bridge when human attention and confidentiality are scarce, while face-to-face trust remains the preferred endpoint", "unit": "bounded cultural-consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "RELATE Project 2026 survey summary and Young Life research blog; the publisher states the study covered 7,105 people ages 13-24 in 11 countries. The AI-companion and preference figures are publisher-reported survey results, not platform telemetry or a longitudinal causal test.",
+      "uncertainty": "The public materials do not provide a full questionnaire, weighting plan, response rates, recruitment frame, or complete subgroup denominators on the summary pages. Young Life is a faith-based nonprofit and the study's mission and interpretation may shape question selection, framing, and emphasis.",
+      "subgroup": "Adolescents and young adults ages 13-24, with particular attention to Gen Alpha ages 13-15, young people with limited adult listening support, and users of AI companions.",
+      "counterinterpretation": "AI companions may supplement rather than replace human relationships, and stated face-to-face preference may coexist with practical barriers such as distance, cost, stigma, time, or lack of safe trusted adults.",
+      "source_url": "https://blog.younglife.org/relate/when-your-new-friend-is-an-algorithm-inside-teens-growing-use-of-ai-companions/",
+      "retrieval_hash": "sha256:ea2580a172217a7c2ee4f75d98225c38cbfdb55d6538358f96b8abc80e6d7d18",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust, listening, and close-relationship capacity",
+      "denominator": {"value": 7105, "unit": "RELATE Project 2026 participants ages 13-24 across 11 countries", "value_type": "reported_multicountry_survey_sample"},
+      "measures": {
+        "confidentiality": {"value": 73, "unit": "percent saying it is extremely or very important that someone keeps what they say private", "value_type": "reported_share"},
+        "adult_listening_gap": {"value": "four in ten are not fully confident they have an adult in their life who is genuinely interested in listening", "unit": "reported survey pattern", "value_type": "reported_pattern"},
+        "close_relationship_count": {"value": "average reported close relationships declined from 5.3 in the 2024 comparison to 4.4 in the 2026 summary", "unit": "reported average relationship count", "value_type": "reported_comparison"},
+        "trust_route": {"value": "privacy, sustained attention, and being listened to are treated as scarce relationship infrastructure; AI can imitate availability but cannot establish reciprocal human commitment", "unit": "bounded social mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "RELATE 2026 official project pages and executive-summary findings; the close-group count and listening-gap measures are publisher summaries, while the public pages do not expose the full item wording or variance.",
+      "uncertainty": "The comparison with 2024 may involve different samples, fieldwork, or question contexts; an average relationship count does not measure relationship quality, reciprocity, safety, or actual support. No causal effect of AI use or relationship decline is established.",
+      "subgroup": "Young people seeking confidential listening, trusted adults, peer connection, mentorship, and belonging across the 11-country study frame.",
+      "counterinterpretation": "A smaller reported close circle may represent more selective or digitally distributed relationships rather than a uniform collapse in meaningful support; confidentiality preferences can also reflect ordinary developmental boundary-setting.",
+      "source_url": "https://relate.younglife.org/",
+      "retrieval_hash": "sha256:f59134be6d8397e0b2357b087c91dde7ef6311a2ca0332f923d02dd28002fc78",
+      "status": "reported"
+    },
+    {
+      "period": "2026; qualitative explanation of AI companionship and human connection",
+      "denominator": {"value": 97, "unit": "Gen Z and Gen Alpha voices in 22 RELATE 2.0 focus groups across 11 countries", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "qualitative_route": {"value": "participants describe AI as patient, available, and less judgmental, while describing human presence, mentorship, and real-world conversation as more authentic and relationally consequential", "unit": "qualitative theme", "value_type": "reported_qualitative_theme"},
+        "formation_question": {"value": "the emerging issue is not only whether young people use AI, but whether AI-mediated reassurance changes help-seeking, privacy expectations, adult mentorship, emotional vocabulary, and offline participation", "unit": "open cultural mechanism", "value_type": "research_question"},
+        "next_test": {"value": "follow a named youth-serving setting or cohort through AI use, adult listening access, confidentiality, advice quality, referral or escalation, offline participation, and later wellbeing", "unit": "next identifier-bearing test", "value_type": "research_queue"}
+      },
+      "method": "RELATE 2026 resources page reporting 22 focus groups and 97 Gen Z/Alpha voices; quotations are illustrative qualitative evidence and are not prevalence estimates.",
+      "uncertainty": "Focus-group participants and selected quotations may not represent the broader survey sample or all young people; the publisher's faith-based mission may shape recruitment, interpretation, and the proposed adult-support response.",
+      "subgroup": "Young people in the focus groups, adult mentors, parents, educators, faith leaders, youth organizations, and designers of AI companion systems.",
+      "counterinterpretation": "Young people may use AI for low-stakes experimentation while reserving meaningful trust for humans; the distinction between companion, tool, search, and entertainment may be fluid across contexts.",
+      "source_url": "https://relate.younglife.org/2026-resources/",
+      "retrieval_hash": "sha256:079a6b9b94d8ed1d6f4b7c3a121aae3a9aa2bc95a18912b04c6ae1364bc9a51d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://relate.younglife.org/about/", "claim": "Official study description with the 7,105-person, 11-country sample and country counts."},
+    {"source_url": "https://relate.younglife.org/2026-resources/", "claim": "Official resources page with the executive summary, focus-group description, and qualitative themes."},
+    {"source_url": "https://www.gallup.com/analytics/509675/state-of-social-connections.aspx", "claim": "Meta-Gallup global social-connection evidence provides a broader, non-ministry comparative context."}
+  ],
+  "boundary": "This record adds a youth relationship-and-AI companionship route from shrinking or insufficient human listening capacity through AI use, confidentiality, advice, face-to-face preference, mentorship, and offline connection. It is publisher-reported survey and qualitative evidence from a faith-based nonprofit, not independent population surveillance, platform telemetry, causal evidence, mental-health diagnosis, or proof that AI companions replace human relationships.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official RELATE home, about, resources, and Young Life blog pages were reviewed for sample size, countries, AI-companion shares, face-to-face and trusted-person preferences, confidentiality, listening gap, relationship-count comparison, and focus-group scope.",
+    "source_page_sha256": "home sha256:f59134be6d8397e0b2357b087c91dde7ef6311a2ca0332f923d02dd28002fc78; about sha256:c97cae570cdb58f168a2368c2f063d02e213196d8f70998c79927b15de988438; resources sha256:079a6b9b94d8ed1d6f4b7c3a121aae3a9aa2bc95a18912b04c6ae1364bc9a51d; blog sha256:ea2580a172217a7c2ee4f75d98225c38cbfdb55d6538358f96b8abc80e6d7d18",
+    "checked": "2026-09-29"
+  }
+}

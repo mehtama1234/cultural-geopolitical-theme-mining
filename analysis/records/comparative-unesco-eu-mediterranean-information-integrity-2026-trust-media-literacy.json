@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-eu-mediterranean-information-integrity-2026-trust-media-literacy",
+  "title": "Information integrity is becoming a regional resilience and social-cohesion infrastructure issue in the Mediterranean",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNESCO–EU high-level event summary, Strengthening information integrity and freedom of expression: A UNESCO–EU Priority at UN General Assembly, published 22 September 2026",
+  "geography": "Mediterranean information ecosystems connecting Europe, North Africa, and the Middle East",
+  "observations": [
+    {
+      "period": "2026 UNESCO–EU Mediterranean information-integrity assessment",
+      "denominator": {"value": 1, "unit": "Mediterranean regional information ecosystem", "value_type": "published_regional_frame"},
+      "measures": {
+        "structural_context": {"value": "cultural and linguistic diversity, media and cultural exchange, and growing digital connectivity provide foundations for cooperation and resilience", "unit": "reported regional condition", "value_type": "reported_framework"},
+        "pressure_set": {"value": "conflicts, geopolitical tensions, population movements, fragile political transitions, social-media dominance, fragmented media, and unequal access to verified information", "unit": "reported interacting pressures", "value_type": "reported_framework"},
+        "regional_stakes": {"value": "information integrity is treated as a cornerstone of regional resilience, social cohesion, and stability", "unit": "reported policy framing", "value_type": "reported_framework"}
+      },
+      "method": "UNESCO and the European Union synthesize regional policy discussion, normative frameworks, and multi-stakeholder experience around information integrity.",
+      "uncertainty": "This is a policy and cooperation assessment, not a representative survey of Mediterranean information use, a content prevalence census, or a causal estimate of disinformation effects.",
+      "subgroup": "Journalists, media organizations, platforms, regulators, civil society, academia, citizens, migrants, and communities in conflict or political transition.",
+      "counterinterpretation": "Information disorder can be locally contained or countered by trusted institutions, plural media, literacy, and community networks; regional risk framing does not imply uniform vulnerability.",
+      "source_url": "https://www.unesco.org/en/articles/strengthening-information-integrity-and-freedom-expression-unesco-eu-priority-un-general-assembly",
+      "retrieval_hash": "sha256:c5ad38f7465eed06da3e08b73c73fceb812e8f17bf4eb9d6e2fff2f986f2a70b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 UNESCO–EU agenda; rights and public trust",
+      "denominator": {"value": 1, "unit": "shared UNESCO–EU regional cooperation agenda", "value_type": "published_policy_frame"},
+      "measures": {
+        "rights_foundation": {"value": "independent journalism, freedom of expression, and access to reliable and verified information are treated as foundations of resilient societies", "unit": "reported governance principle", "value_type": "reported_framework"},
+        "trust_function": {"value": "reliable information and open media ecosystems are linked to public trust and regional cooperation", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "policy_integration": {"value": "information integrity is framed as a peace, security, and sustainability issue, not only a media issue", "unit": "reported policy expansion", "value_type": "reported_framework"}
+      },
+      "method": "The event connects freedom of expression, journalism, information access, peace, security, sustainability, and trust in a regional policy frame.",
+      "uncertainty": "Normative alignment does not establish media independence, information access, trust levels, or policy implementation in each country.",
+      "subgroup": "Independent media, fact-checkers, citizens, minority-language communities, regulators, and public institutions whose legitimacy depends on credible communication.",
+      "counterinterpretation": "Information-integrity policy can be misused to suppress dissent; safeguards for pluralism, transparency, editorial independence, and lawful expression remain essential.",
+      "source_url": "https://www.unesco.org/en/articles/strengthening-information-integrity-and-freedom-expression-unesco-eu-priority-un-general-assembly",
+      "retrieval_hash": "sha256:c5ad38f7465eed06da3e08b73c73fceb812e8f17bf4eb9d6e2fff2f986f2a70b",
+      "status": "reported"
+    },
+    {
+      "period": "Since 2023; UNESCO Internet for Trust and regional coalitions",
+      "denominator": {"value": 1, "unit": "UNESCO Internet for Trust cooperation pathway supported by the EU since 2023", "value_type": "published_program_frame"},
+      "measures": {
+        "coalition_start": {"value": 2023, "unit": "year since UNESCO and EU-supported coalitions began building regional responses", "value_type": "reported_program_start"},
+        "stakeholder_ecosystem": {"value": "governments, regulators, media, civil society, academia, platforms, and citizens", "unit": "reported coalition participants", "value_type": "reported_framework"},
+        "regional_translation": {"value": "regional perspectives and expertise from the Global South have been brought into global policy discussions", "unit": "reported institutional contribution", "value_type": "reported_pattern"},
+        "policy_links": {"value": "the initiative has contributed to global principles for information integrity, the Global Digital Compact, and regional digital-policy work", "unit": "reported policy linkage", "value_type": "reported_framework"}
+      },
+      "method": "UNESCO reports on coalition-building and the translation of global principles into regional and national policy dialogue.",
+      "uncertainty": "Participation and policy contribution do not prove implementation, enforcement, platform compliance, or improved public information outcomes.",
+      "subgroup": "Regional organizations, national regulators, media and civil society networks, platforms, researchers, and citizens engaging with information systems.",
+      "counterinterpretation": "Multi-stakeholder coalitions can broaden voice and legitimacy, but they can also reproduce power asymmetries if affected communities lack decision rights or resources.",
+      "source_url": "https://www.unesco.org/en/articles/strengthening-information-integrity-and-freedom-expression-unesco-eu-priority-un-general-assembly",
+      "retrieval_hash": "sha256:c5ad38f7465eed06da3e08b73c73fceb812e8f17bf4eb9d6e2fff2f986f2a70b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Pact for the Mediterranean; regional media and literacy infrastructure",
+      "denominator": {"value": 1, "unit": "EU Pact for the Mediterranean and UNESCO regional cooperation framework", "value_type": "published_policy_frame"},
+      "measures": {
+        "media_support": {"value": "enabling environment for independent media organizations", "unit": "reported policy direction", "value_type": "reported_framework"},
+        "network_support": {"value": "networks of journalists, fact-checkers, and content creators committed to trustworthy, pluralistic, high-quality information", "unit": "reported institutional mechanism", "value_type": "reported_framework"},
+        "literacy_role": {"value": "media and information literacy is treated as a regional resilience capability", "unit": "reported policy direction", "value_type": "reported_framework"},
+        "local_grounding": {"value": "responses should be grounded in global principles and local realities rather than designed only at the global level", "unit": "reported implementation principle", "value_type": "reported_framework"}
+      },
+      "method": "The agenda connects regional cooperation, media viability, fact-checking, content creation, platform governance, and media and information literacy.",
+      "uncertainty": "The framework does not measure media viability, literacy outcomes, network reach, or whether local actors control implementation.",
+      "subgroup": "Journalists, fact-checkers, creators, educators, platform users, minority-language audiences, regulators, and civic organizations.",
+      "counterinterpretation": "Literacy and networks can support agency, but they cannot substitute for platform accountability, access to independent media, safe civic space, or remedy for information harms.",
+      "source_url": "https://www.unesco.org/en/articles/strengthening-information-integrity-and-freedom-expression-unesco-eu-priority-un-general-assembly",
+      "retrieval_hash": "sha256:c5ad38f7465eed06da3e08b73c73fceb812e8f17bf4eb9d6e2fff2f986f2a70b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/internet-trust/guidelines", "claim": "Complementary UNESCO guidelines for digital-platform governance."},
+    {"source_url": "https://www.un.org/en/information-integrity", "claim": "Complementary UN Global Principles for Information Integrity context."}
+  ],
+  "boundary": "This record adds a Mediterranean regional information-integrity route linking geopolitical tension, conflict, migration, media pluralism, freedom of expression, platforms, literacy, public trust, regional cooperation, and social cohesion. It is a policy and cooperation assessment, not a representative information-use survey, content census, causal disinformation estimate, implementation audit, or proof of improved trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNESCO's official event summary was reviewed for regional pressures, rights and trust principles, the UNESCO–EU coalition pathway, the Pact for the Mediterranean, media networks, and local-grounding boundaries.",
+    "source_url_sha256": "sha256:c5ad38f7465eed06da3e08b73c73fceb812e8f17bf4eb9d6e2fff2f986f2a70b",
+    "checked": "2026-09-27"
+  }
+}

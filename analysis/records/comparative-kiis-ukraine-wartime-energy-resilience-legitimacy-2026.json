@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kiis-ukraine-wartime-energy-resilience-legitimacy-2026",
+  "title": "Ukrainians separate infrastructure endurance from leader trust: wartime resilience remains broad but legitimacy is conditional",
+  "theme_ids": ["voice", "energy", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Kyiv International Institute of Sociology, August–September 2026 public-opinion releases",
+  "geography": "Ukraine; adults living in government-controlled territory",
+  "observations": [
+    {
+      "period": "August 21–September 10, 2026; expected winter energy attack scenario",
+      "denominator": {"value": 1003, "unit": "Ukrainian adults aged 18+ in government-controlled territory", "value_type": "reported_survey_sample"},
+      "measures": {
+        "continue_resistance_under_energy_attack": {"value": 77, "unit": "percent saying Ukraine should continue armed resistance even if attacks temporarily deprive some people of electricity, heating or sewage", "value_type": "published_survey_estimate"},
+        "accept_any_russian_demands": {"value": 12, "unit": "percent saying Ukraine should accede to any Russian demands to preserve electricity, heating and sewage", "value_type": "published_survey_estimate"},
+        "undecided": {"value": 11, "unit": "percent unable to decide", "value_type": "published_survey_estimate"}
+      },
+      "method": "KIIS CATI survey using randomly generated mobile-phone numbers and statistical weighting; all regions under government control were covered.",
+      "uncertainty": "This is a hypothetical scenario and stated preference, not observed behavior during an outage, a measure of military capability, or evidence that households would experience identical service loss.",
+      "subgroup": "Ukrainian adults aged 18+ residing in government-controlled territory; residents of occupied territories and citizens abroad were excluded.",
+      "counterinterpretation": "The forced-choice wording may compress support for negotiation, resilience, and infrastructure protection into a stark binary; respondents may also interpret ‘resistance’ differently.",
+      "source_url": "https://www.kiis.com.ua/?cat=reports&id=1634&lang=eng&page=1&t=1",
+      "retrieval_hash": "sha256:488caa771b57a5eaa929982d539ee1de41954add5e5af5a5e96964181fd472ee",
+      "status": "reported"
+    },
+    {
+      "period": "August 21–September 10, 2026; regional variation in energy-attack response",
+      "denominator": {"value": 1003, "unit": "Ukrainian adults aged 18+ in government-controlled territory", "value_type": "reported_survey_sample"},
+      "measures": {
+        "kyiv_continue_resistance": {"value": 83, "unit": "percent in Kyiv city supporting continued resistance under the scenario", "value_type": "published_subgroup_estimate"},
+        "east_continue_resistance": {"value": 68, "unit": "percent in the East supporting continued resistance under the scenario", "value_type": "published_subgroup_estimate"},
+        "regional_floor": {"value": 68, "unit": "lowest reported regional share supporting continued resistance across the listed macroregions", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "KIIS CATI survey with regional macroregion comparisons; macroregions are defined by KIIS and differ in exposure, displacement and war experience.",
+      "uncertainty": "Regional comparisons are descriptive and do not isolate attack exposure, displacement, infrastructure condition, political preference, or sample-composition effects.",
+      "subgroup": "Residents of Kyiv city and the East compared with other KIIS-defined macroregions.",
+      "counterinterpretation": "The lower Eastern estimate does not imply rejection of national resistance; it may reflect higher direct exposure, different perceived costs, or greater preference for feasible adaptation.",
+      "source_url": "https://www.kiis.com.ua/?cat=reports&id=1634&lang=eng&page=1&t=1",
+      "retrieval_hash": "sha256:488caa771b57a5eaa929982d539ee1de41954add5e5af5a5e96964181fd472ee",
+      "status": "reported"
+    },
+    {
+      "period": "August 21–September 10, 2026; presidential trust and resilience judgment",
+      "denominator": {"value": 1003, "unit": "Ukrainian adults aged 18+ in government-controlled territory", "value_type": "reported_survey_sample"},
+      "measures": {
+        "presidential_trust": {"value": 54, "unit": "percent saying they trust President Volodymyr Zelenskyy", "value_type": "published_survey_estimate"},
+        "presidential_distrust": {"value": 41, "unit": "percent saying they do not trust the president", "value_type": "published_survey_estimate"},
+        "trust_balance": {"value": 13, "unit": "percentage-point trust-minus-distrust balance", "value_type": "reported_difference"},
+        "resistance_among_presidential_trusters": {"value": 89, "unit": "percent of respondents trusting Zelenskyy supporting continued resistance under the winter energy-attack scenario", "value_type": "published_subgroup_estimate"},
+        "resistance_among_presidential_distrusters": {"value": 65, "unit": "percent of respondents not trusting Zelenskyy supporting continued resistance under the scenario", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "KIIS companion CATI survey using the same field period, sampling approach and wartime exclusions.",
+      "uncertainty": "The association between leader trust and resistance preference is descriptive; the survey cannot establish whether trust causes resilience judgment or vice versa.",
+      "subgroup": "Ukrainian adults split by stated trust in the president.",
+      "counterinterpretation": "A majority supporting resistance among presidential distrusters shows that national defense legitimacy is not reducible to personal leader approval.",
+      "source_url": "https://www.kiis.com.ua/?cat=reports&id=1635&lang=eng&page=1&t=1",
+      "retrieval_hash": "sha256:9f6eb40be2d7c9ec54fb56bcc56758ccbc7ebe69a40e423f864de72c08c69401",
+      "status": "reported"
+    },
+    {
+      "period": "August 21–September 10, 2026; institutional legitimacy and anti-corruption pressure",
+      "denominator": {"value": 1003, "unit": "Ukrainian adults aged 18+ in government-controlled territory", "value_type": "reported_survey_sample"},
+      "measures": {
+        "military_veteran_resistance": {"value": 85, "unit": "percent of serving personnel or veterans supporting continued resistance under the scenario", "value_type": "published_subgroup_estimate"},
+        "non_served_resistance": {"value": 77, "unit": "percent of respondents without military service supporting continued resistance", "value_type": "published_subgroup_estimate"},
+        "student_trust_balance": {"value": 34, "unit": "percentage-point trust-minus-distrust balance for students in the president-trust survey", "value_type": "published_subgroup_estimate"},
+        "entrepreneur_trust_balance": {"value": -12, "unit": "percentage-point trust-minus-distrust balance for entrepreneurs, farmers and self-employed respondents", "value_type": "published_subgroup_estimate"},
+        "corruption_legitimacy_pressure": {"value": "KIIS reports that anti-corruption investigations and personnel decisions are central to continued presidential legitimacy during wartime.", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "KIIS subgroup analysis and longitudinal trust comparison; the anti-corruption interpretation is the institute’s contextual commentary, not a causal estimate.",
+      "uncertainty": "Small subgroup balances and contextual commentary should not be generalized as stable social blocs or used to infer institutional performance directly.",
+      "subgroup": "Military/veteran status, non-served respondents, students, and entrepreneurs/farmers/self-employed respondents.",
+      "counterinterpretation": "The pattern may reflect age, region, income, sectoral exposure, or survey timing rather than a simple service-status or occupational legitimacy divide.",
+      "source_url": "https://www.kiis.com.ua/?cat=reports&id=1635&lang=eng&page=1&t=1",
+      "retrieval_hash": "sha256:9f6eb40be2d7c9ec54fb56bcc56758ccbc7ebe69a40e423f864de72c08c69401",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.kiis.com.ua/?cat=reports&id=1634&lang=eng&page=1&t=1", "claim": "KIIS survey of Ukrainian choices under a hypothetical winter energy attack.", "status": "primary-survey-release"},
+    {"source_url": "https://www.kiis.com.ua/?cat=reports&id=1635&lang=eng&page=1&t=1", "claim": "KIIS companion survey of presidential trust and subgroup legitimacy differences.", "status": "primary-survey-release"}
+  ],
+  "boundary": "This record adds a wartime geopolitical-state mechanism: civilians distinguish infrastructure endurance and national resistance from trust in the current leader, while direct exposure and institutional conduct condition the legitimacy of sacrifice. KIIS covers adults in government-controlled territory by mobile CATI during wartime; occupied territories and citizens abroad are excluded, and the scenario is hypothetical. The results do not measure outage behavior, military capacity, corruption itself, or causal effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The two KIIS primary survey releases were reviewed for sampling, field dates, wartime exclusions, winter energy-attack scenario, regional and trust subgroups, presidential trust, and anti-corruption legitimacy context.",
+    "energy_scenario_source_sha256": "sha256:488caa771b57a5eaa929982d539ee1de41954add5e5af5a5e96964181fd472ee",
+    "trust_source_sha256": "sha256:9f6eb40be2d7c9ec54fb56bcc56758ccbc7ebe69a40e423f864de72c08c69401",
+    "checked": "2026-09-28"
+  }
+}

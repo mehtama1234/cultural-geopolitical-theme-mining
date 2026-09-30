@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-health-information-race-social-media-2026",
+  "title": "Health-information pathways are racially differentiated, with social media and influencers filling different access and disclosure roles",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center, Americans' use of social media for health information differs by race and ethnicity, August 13, 2026",
+  "geography": "United States; adults nationally with race/ethnicity, source-use, perceived-accuracy, source-criteria, and influencer-purpose comparisons",
+  "observations": [
+    {
+      "period": "October 20-26, 2025; social media as a health-information pathway",
+      "denominator": {"value": 5111, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "all_at_least_sometimes": {"value": 36, "unit": "percent getting health information from social media at least sometimes", "value_type": "reported_share"},
+        "hispanic_at_least_sometimes": {"value": 49, "unit": "percent of Hispanic adults", "value_type": "reported_share"},
+        "black_at_least_sometimes": {"value": 45, "unit": "percent of Black adults", "value_type": "reported_share"},
+        "asian_at_least_sometimes": {"value": 47, "unit": "percent of Asian adults; English-speaker estimate", "value_type": "reported_share"},
+        "white_at_least_sometimes": {"value": 30, "unit": "percent of White adults", "value_type": "reported_share"}
+      },
+      "method": "Pew American Trends Panel survey of 5,111 U.S. adults conducted October 20-26, 2025; racial categories follow Pew's non-Hispanic single-race and Hispanic-of-any-race definitions.",
+      "uncertainty": "This measures reported source use, not the amount, topic, quality, or clinical consequence of information received; Asian estimates represent English speakers.",
+      "subgroup": "White, Hispanic, Black, and Asian adults nationally.",
+      "counterinterpretation": "Higher social-media use may reflect convenience, language and cultural fit, unmet information needs, younger age, platform exposure, or different relationships with clinical institutions—not simply lower trust in medicine.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/13/americans-use-of-social-media-for-health-information-differs-by-race-and-ethnicity/",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025; perceived accuracy of social-media health information",
+      "denominator": {"value": 1, "unit": "U.S. adults who ever get health information from social media; conditional subgroup denominator", "value_type": "conditional_survey_population"},
+      "measures": {
+        "all_not_accurate": {"value": 47, "unit": "percent saying social-media health information is not too or not at all accurate", "value_type": "reported_share"},
+        "white_not_accurate": {"value": 51, "unit": "percent of White social-media health-information users", "value_type": "reported_share"},
+        "hispanic_not_accurate": {"value": 44, "unit": "percent of Hispanic users", "value_type": "reported_share"},
+        "black_not_accurate": {"value": 34, "unit": "percent of Black users", "value_type": "reported_share"},
+        "asian_not_accurate": {"value": 43, "unit": "percent of Asian users; English-speaker estimate", "value_type": "reported_share"},
+        "all_extremely_very_accurate": {"value": 7, "unit": "percent saying information is extremely or very accurate", "value_type": "reported_share"}
+      },
+      "method": "Pew conditional comparison among respondents who say they ever get health information from social media.",
+      "uncertainty": "Perceived accuracy is not verified accuracy and cannot show whether different groups receive different content, evaluate it differently, or use it for different decisions.",
+      "subgroup": "Social-media health-information users by race/ethnicity.",
+      "counterinterpretation": "A lower share calling information inaccurate may reflect perceived relevance, familiarity, or usefulness rather than weaker standards or greater misinformation exposure.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/13/americans-use-of-social-media-for-health-information-differs-by-race-and-ethnicity/",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025; criteria for trusted health-information sources",
+      "denominator": {"value": 5111, "unit": "U.S. adults in Pew survey; subgroup comparisons use weighted race/ethnicity universes", "value_type": "survey_sample"},
+      "measures": {
+        "white_medical_training_important": {"value": 79, "unit": "percent of White adults saying medical training is extremely or very important in health-information sources", "value_type": "reported_share"},
+        "hispanic_medical_training_important": {"value": 71, "unit": "percent of Hispanic adults", "value_type": "reported_share"},
+        "black_medical_training_important": {"value": 66, "unit": "percent of Black adults", "value_type": "reported_share"},
+        "asian_medical_training_important": {"value": 70, "unit": "percent of Asian adults; English-speaker estimate", "value_type": "reported_share"},
+        "white_conflict_transparency_important": {"value": 75, "unit": "percent of White adults", "value_type": "reported_share"},
+        "black_conflict_transparency_important": {"value": 67, "unit": "percent of Black adults", "value_type": "reported_share"}
+      },
+      "method": "Pew questions about characteristics adults prioritize in people from whom they get health information, including medical training, conflicts of interest, clarity, personal experience, likability, and physical fitness.",
+      "uncertainty": "Stated source criteria do not predict actual source choice or whether respondents can evaluate credentials and conflicts in a platform environment.",
+      "subgroup": "U.S. adults by race/ethnicity; Asian estimates represent English speakers.",
+      "counterinterpretation": "Medical expertise and transparency remain broadly valued even where social-media use is higher, suggesting that the pathway may be an access and translation problem rather than a simple rejection of expertise.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/13/americans-use-of-social-media-for-health-information-differs-by-race-and-ethnicity/",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "status": "reported"
+    },
+    {
+      "period": "June 9-15, 2025; influencers as an alternative disclosure channel",
+      "denominator": {"value": 5023, "unit": "U.S. adults in Pew American Trends Panel survey; conditional subgroup among health-information influencer users", "value_type": "survey_sample"},
+      "measures": {
+        "all_do_not_ask_doctor_major_or_minor": {"value": 48, "unit": "percent of influencer users saying learning about things they do not want to ask a doctor about is a major or minor reason", "value_type": "reported_share"},
+        "white_do_not_ask_doctor": {"value": 41, "unit": "percent of White influencer users", "value_type": "reported_share"},
+        "hispanic_do_not_ask_doctor": {"value": 57, "unit": "percent of Hispanic influencer users", "value_type": "reported_share"},
+        "black_do_not_ask_doctor": {"value": 55, "unit": "percent of Black influencer users", "value_type": "reported_share"},
+        "asian_do_not_ask_doctor": {"value": 58, "unit": "percent of Asian influencer users; English-speaker estimate", "value_type": "reported_share"}
+      },
+      "method": "Pew survey conducted June 9-15, 2025, among 5,023 U.S. adults, with conditional comparison among respondents who get health information from influencers.",
+      "uncertainty": "The measure does not identify the topics people avoid asking clinicians about, whether influencer information improves care, or whether avoidance reflects embarrassment, access, cost, cultural fit, or prior dismissal.",
+      "subgroup": "Hispanic, Black, Asian, and White adults who get health information from influencers.",
+      "counterinterpretation": "Influencers may be functioning as a low-friction disclosure and question-formulation space that complements providers, but they may also become a substitute when clinical access or trust is weak.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/13/americans-use-of-social-media-for-health-information-differs-by-race-and-ethnicity/",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a race-differentiated health-information pathway: platform use, perceived accuracy, source criteria, and influencer use for sensitive questions do not move together. It does not establish misinformation exposure, clinical substitution, provider discrimination, algorithmic causality, or health outcomes."
+}

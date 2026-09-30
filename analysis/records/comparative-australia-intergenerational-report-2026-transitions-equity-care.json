@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-intergenerational-report-2026-transitions-equity-care",
+  "title": "Intergenerational politics is becoming a contest over who receives, finances, and governs simultaneous AI, energy, geopolitical, demographic, and care transitions",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Australian Treasury, 2026 Intergenerational Report, released 21 September 2026",
+  "geography": "Australia; 40-year macroeconomic, demographic, fiscal, and policy projection to 2065-66",
+  "observations": [
+    {
+      "period": "2026-2065/66; long-horizon transition frame",
+      "denominator": {"value": 1, "unit": "Australian Treasury Intergenerational Report projection framework", "value_type": "published_projection_frame"},
+      "measures": {
+        "projection_horizon": {"value": 40, "unit": "years from the current outlook to 2065-66", "value_type": "published_projection_horizon"},
+        "major_transitions": {"value": "Artificial intelligence, geopolitical fragmentation, energy transition, ageing and the care economy, and industrial transformation are treated as simultaneous structural transitions", "unit": "reported transition set", "value_type": "reported_mechanism_set"},
+        "policy_object": {"value": "The report uses long-range projections to inform policy settings for economic resilience, productivity, fiscal sustainability, services, housing, and intergenerational equity", "unit": "reported policy frame", "value_type": "reported_policy_route"}
+      },
+      "method": "Australian Treasury long-horizon projection and policy analysis; the report is a scenario and baseline framework, not a prediction of a single certain future.",
+      "uncertainty": "Forty-year projections are sensitive to productivity, migration, fertility, technology adoption, climate, geopolitical shocks, policy choices, and model assumptions.",
+      "subgroup": "Current and future generations, workers, households, older people, carers, taxpayers, service users, firms, and communities exposed differently to transitions.",
+      "counterinterpretation": "A unified transition frame can support coherent policy, but it can also compress distinct risks into a single national-growth narrative and obscure distributional conflict.",
+      "source_url": "https://treasury.gov.au/publication/2026-intergenerational-report",
+      "retrieval_hash": "sha256:b831bcca44a5cb9f87ebf5a8bc1a81b2a20435149b5c4e47945b465de0f94063",
+      "status": "reported"
+    },
+    {
+      "period": "2065-66; projected aggregate growth and living-standard route",
+      "denominator": {"value": 1, "unit": "Australian Treasury baseline projection", "value_type": "published_projection_frame"},
+      "measures": {
+        "economy_size": {"value": 2, "unit": "more than two times the current economy in projected real terms by 2065-66", "value_type": "published_projection_estimate"},
+        "income_per_capita": {"value": 55, "unit": "percent higher projected income per capita by 2065-66", "value_type": "published_projection_estimate"},
+        "budget_balance": {"value": -1.8, "unit": "percent of GDP projected underlying cash balance in 2065-66", "value_type": "published_projection_estimate"},
+        "gross_debt": {"value": 27.4, "unit": "percent of GDP projected gross debt in 2065-66", "value_type": "published_projection_estimate"},
+        "distributional_boundary": {"value": "Aggregate growth and per-capita income gains do not specify who receives income, housing, care, service, or asset benefits across generations and places", "unit": "analytic distributional boundary", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Treasury baseline long-term projections as summarized in the Treasurer’s official release; figures are modelled projections, not observed outcomes.",
+      "uncertainty": "The report’s aggregate path does not establish household income distribution, wealth, housing access, service quality, or realized productivity from AI and other transitions.",
+      "subgroup": "Younger and older generations, households with different assets and housing tenure, taxpayers, benefit recipients, and regions.",
+      "counterinterpretation": "Improved aggregate fiscal projections may create room for public investment, but fiscal room can be consumed by shocks or allocated in ways that widen rather than reduce intergenerational inequality.",
+      "source_url": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/2026-intergenerational-report",
+      "retrieval_hash": "sha256:92535e573562ef30cfaf1bb10f01f5ca6c217367e59683c636ec69dbd7aa1913",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2065/66; ageing, fertility, care, and intergenerational equity",
+      "denominator": {"value": 1, "unit": "Australian Treasury demographic and fiscal projection frame", "value_type": "published_projection_frame"},
+      "measures": {
+        "population_change": {"value": "Families are projected to have fewer children and population growth is projected to slow", "unit": "reported demographic direction", "value_type": "reported_projection_pattern"},
+        "care_pressure": {"value": "Ageing and the care economy are identified as a major transition affecting services, budgets, work, and household responsibilities", "unit": "reported demographic-care mechanism", "value_type": "reported_mechanism_set"},
+        "equity_focus": {"value": "The report adds a dedicated chapter on intergenerational equity, with housing and the distribution of transition benefits and costs as central political questions", "unit": "reported policy focus", "value_type": "reported_policy_route"},
+        "reform_route": {"value": "The official release links reforms in aged care, the NDIS, superannuation, housing, taxation, productivity, and services to the challenge of making current and future generations beneficiaries of change", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "Treasury projection and government policy framing; the release describes directions and reforms, not a causal evaluation of their effects.",
+      "uncertainty": "The report does not establish how care work, housing costs, taxation, migration, or service access will be distributed across households or generations.",
+      "subgroup": "Young adults, families, older people, unpaid carers, people using aged care or disability services, renters, prospective homeowners, and future taxpayers.",
+      "counterinterpretation": "Intergenerational framing can mobilize long-term planning, but it may turn age groups into political competitors and hide within-generation inequality, migration, class, disability, and gender differences.",
+      "source_url": "https://treasury.gov.au/publication/2026-intergenerational-report",
+      "retrieval_hash": "sha256:b831bcca44a5cb9f87ebf5a8bc1a81b2a20435149b5c4e47945b465de0f94063",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2065/66; AI, energy, geopolitical fragmentation, and industrial transformation",
+      "denominator": {"value": 1, "unit": "Australian Treasury transition analysis", "value_type": "published_projection_frame"},
+      "measures": {
+        "ai_transition": {"value": "AI is described as a defining influence on the economy over the next 40 years and as a major change since the prior report", "unit": "reported technology transition", "value_type": "reported_projection_pattern"},
+        "geopolitical_transition": {"value": "Conflict and strategic competition are described as increasing and broadening, affecting resilience and policy choices", "unit": "reported geopolitical transition", "value_type": "reported_projection_pattern"},
+        "energy_transition": {"value": "Clean-energy transition is treated as a major economic and industrial shift with implications for productivity, investment, and resilience", "unit": "reported infrastructure transition", "value_type": "reported_projection_pattern"},
+        "industrial_route": {"value": "Australia’s industrial base is projected to evolve further toward services under the influence of AI and the other transitions", "unit": "reported labor-industrial mechanism", "value_type": "reported_projection_pattern"},
+        "governance_test": {"value": "The open political question is whether policy can convert transition capacity into broadly shared work, housing, care, security, and voice rather than concentrated gains", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Treasury long-term transition analysis and official policy summary; technology, geopolitical, energy, and industrial effects are scenario-dependent.",
+      "uncertainty": "The report does not show realized AI productivity, distributional incidence, employment displacement, geopolitical shocks, energy affordability, or household adaptation.",
+      "subgroup": "Workers, firms, regions, households, public institutions, strategic industries, and communities with different transition exposure and bargaining power.",
+      "counterinterpretation": "Transition narratives can support investment and preparedness, but they can also justify rapid restructuring before affected workers, communities, and publics have meaningful influence or recourse.",
+      "source_url": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/2026-intergenerational-report",
+      "retrieval_hash": "sha256:92535e573562ef30cfaf1bb10f01f5ca6c217367e59683c636ec69dbd7aa1913",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://treasury.gov.au/publication/2026-intergenerational-report", "claim": "Australian Treasury publication page, projection horizon, download, and five transition areas."},
+    {"source_url": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/2026-intergenerational-report", "claim": "Official government summary of projected growth, income, fiscal path, demographic change, reforms, and intergenerational equity framing."}
+  ],
+  "boundary": "This record adds a long-horizon intergenerational-politics route from simultaneous AI, geopolitical, energy, demographic, care, and industrial transitions through housing, work, public finance, household security, and distributional judgment. It does not treat Treasury projections as realized outcomes, establish causal effects of reforms, or infer that aggregate growth will produce shared intergenerational benefit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Treasury publication and Treasurer’s release reviewed for transition categories, projection horizon, aggregate growth and fiscal figures, demographic and care framing, intergenerational equity, and policy boundaries.",
+    "source_url_sha256": "sha256:b831bcca44a5cb9f87ebf5a8bc1a81b2a20435149b5c4e47945b465de0f94063; sha256:92535e573562ef30cfaf1bb10f01f5ca6c217367e59683c636ec69dbd7aa1913",
+    "checked": "2026-09-29"
+  }
+}

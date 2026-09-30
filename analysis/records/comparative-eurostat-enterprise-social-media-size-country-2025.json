@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-enterprise-social-media-size-country-2025",
+  "title": "Enterprise social-media participation is broad but strongly stratified by firm size and country",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Eurostat 2025 EU survey on ICT usage and e-commerce in enterprises, published 12 June 2026",
+  "geography": "European Union; enterprises with 10 or more employees or self-employed persons in covered NACE sections",
+  "observations": [
+    {
+      "period": "2025; enterprise social-media use by firm size",
+      "denominator": {"value": 1, "unit": "EU enterprises with at least 10 employees or self-employed persons in covered NACE sectors; comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "social_media_any_total": {"value": 63.6, "unit": "percent of covered EU enterprises using any type of social media", "value_type": "reported_share"},
+        "social_media_small_enterprises": {"value": 60.6, "unit": "percent among small enterprises with 10-49 employees or self-employed persons", "value_type": "reported_share"},
+        "social_media_medium_enterprises": {"value": 76.2, "unit": "percent among medium enterprises with 50-249 employees or self-employed persons", "value_type": "reported_share"},
+        "social_media_large_enterprises": {"value": 89.1, "unit": "percent among large enterprises with 250 or more employees or self-employed persons", "value_type": "reported_share"},
+        "size_gradient": {"value": 28.5, "unit": "percentage-point gap between large and small enterprise use", "value_type": "calculated_difference_from_published_shares"},
+        "change_since_2023": {"value": 2.5, "unit": "percentage-point increase in overall enterprise use from 61.1% in 2023 to 63.6% in 2025", "value_type": "calculated_difference_from_published_shares"},
+        "mechanism": {"value": "Social-media presence is becoming ordinary enterprise infrastructure, but smaller firms remain less able or willing to enter the same discovery, marketing, customer-contact, and collaboration layer as large firms", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat summary of the 2025 EU survey on ICT usage and e-commerce in enterprises; social media includes use to increase online presence, marketing, communication, collaboration, and knowledge-sharing.",
+      "uncertainty": "Enterprise use is a broad binary indicator and does not measure audience reach, spending, conversion, platform dependence, content quality, labor burden, customer outcomes, or whether use is active, effective, or commercially important.",
+      "subgroup": "Small, medium, and large enterprises in covered NACE Rev. 2 sections and group 95.1.",
+      "counterinterpretation": "Large firms may have different sector mix, regulatory exposure, customer base, staffing, and brand needs; lower small-firm use does not prove exclusion from consumer discovery or lower business performance.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260612-2",
+      "retrieval_hash": "sha256:096a23e9cbfd5b53a9163b16b4fe6b36ccc52f19b1225ea982824b86ddf9cdb6",
+      "status": "reported"
+    },
+    {
+      "period": "2025; enterprise social-media use by country",
+      "denominator": {"value": 1, "unit": "covered enterprises in each EU country; comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "highest_country": {"value": "Malta 88.2%, Finland 87.6%, and Denmark 86.1%", "unit": "reported country shares of enterprises using social media", "value_type": "reported_distribution"},
+        "lowest_country": {"value": "Bulgaria 41.5%, Croatia 46.0%, and Hungary 47.3%", "unit": "reported country shares of enterprises using social media", "value_type": "reported_distribution"},
+        "country_range": {"value": 46.7, "unit": "percentage-point difference between Malta and Bulgaria", "value_type": "calculated_difference_from_published_shares"},
+        "mechanism": {"value": "Enterprise access to consumer-facing digital discovery is geographically uneven, linking platform participation to connectivity, skills, firm structure, market composition, and national digitalization conditions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat country comparison from the 2025 EU survey on ICT usage and e-commerce in enterprises, restricted to the covered enterprise population.",
+      "uncertainty": "Country differences are descriptive and may combine infrastructure, sector composition, firm size, language, labor, marketing norms, and survey response effects; they do not identify which firms reach consumers or whether social-media use changes market power.",
+      "subgroup": "Covered enterprises across EU Member States.",
+      "counterinterpretation": "Low reported enterprise social-media use may reflect alternative channels, sector-specific business models, or lower need for public-facing promotion rather than digital exclusion or weak consumer access.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260612-2",
+      "retrieval_hash": "sha256:096a23e9cbfd5b53a9163b16b4fe6b36ccc52f19b1225ea982824b86ddf9cdb6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Social_media_-_statistics_on_the_use_by_enterprises", "claim": "Eurostat methodological and data context for enterprise social-media use."},
+    {"source_url": "https://ec.europa.eu/eurostat/web/digital-economy-and-society/database/comprehensive-database", "claim": "Eurostat digital-economy database route for the isoc_cismt source dataset."}
+  ],
+  "boundary": "This record adds a harmonized enterprise-side platform-discovery and digital-market participation layer. It does not establish consumer exposure, sales conversion, firm survival, labor effects, platform dependence, causal productivity, or cultural influence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat 12 June 2026 article retrieved; 2025 EU enterprise total, 2023 comparison, firm-size breakdown, country range, covered enterprise population, and stated purposes reviewed.",
+    "html_sha256": "sha256:096a23e9cbfd5b53a9163b16b4fe6b36ccc52f19b1225ea982824b86ddf9cdb6",
+    "checked": "2026-09-30"
+  }
+}

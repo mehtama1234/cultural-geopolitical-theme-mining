@@ -1,0 +1,155 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-abs-migrant-cultural-attendance-2005-06-english-country-arrival-baseline",
+  "title": "Australia's older migrant cultural-attendance baseline shows large country-of-birth and arrival-cohort differences",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "time_hidden_price"
+  ],
+  "source_unit": "Australian Bureau of Statistics, Arts and Culture in Australia: A Statistical Overview, 2008, Feature Article 4",
+  "geography": "Australia; people aged 15 years and over in the 2005-06 Multipurpose Household Survey cultural-attendance module",
+  "observations": [
+    {
+      "period": "2005-06; attendance at at least one cultural venue or event by country-of-birth group",
+      "denominator": {
+        "value": null,
+        "unit": "Australian adults aged 15 years and over in the ABS 2005-06 cultural-attendance survey; published subgroup sample denominators are not reproduced in the feature article",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "born_in_australia_attendance": {
+          "value": 86,
+          "unit": "percent attending at least one selected cultural venue or event in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "migrant_main_english_speaking_country_attendance": {
+          "value": 90,
+          "unit": "percent attending at least one selected cultural venue or event in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "migrant_non_main_english_speaking_country_attendance": {
+          "value": 76,
+          "unit": "percent attending at least one selected cultural venue or event in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "non_mesc_gap": {
+          "value": -14,
+          "unit": "percentage-point difference between migrants born in non-main-English-speaking countries and people born in Australia",
+          "value_type": "calculated_difference_from_published_table"
+        },
+        "mechanism": {
+          "value": "Migrant cultural attendance was not one uniform category: country-of-birth and language-context groupings were associated with sharply different cultural-venue reach",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS feature-article analysis of the 2005-06 Multipurpose Household Survey cultural and sporting attendance data, comparing people born in Australia with migrants born in main English-speaking and non-main-English-speaking countries.",
+      "uncertainty": "This is a historical cross-sectional survey result using classifications and venue lists from 2005-06; it does not establish current migrant participation, causal language or income effects, cultural belonging, or whether the groups had equal opportunity to attend.",
+      "subgroup": "People born in Australia, migrants born in main English-speaking countries, and migrants born in non-main-English-speaking countries; the groups differ in age, arrival cohort, education, income, location, and language context.",
+      "counterinterpretation": "The gap may reflect age structure, settlement location, transport, household resources, venue supply, language, familiarity, survey interpretation, or selection into migration categories rather than country of birth alone.",
+      "source_url": "https://www.abs.gov.au/AUSSTATS/abs%40.nsf/Lookup/4172.0Feature%2BArticle42008%2B%28Second%20Edition%29",
+      "retrieval_hash": "sha256:ace9d5aea41bab2c035c0c7f6937b2eb74a512c6d6975a057df47f5185e58c09",
+      "status": "reported"
+    },
+    {
+      "period": "2005-06; cultural attendance by time since arrival",
+      "denominator": {
+        "value": null,
+        "unit": "Migrants aged 15 years and over in the ABS 2005-06 cultural-attendance survey, grouped by arrival before or during 2001-06",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "recent_migrant_attendance": {
+          "value": 92,
+          "unit": "percent of migrants arriving between 2001 and 2006 who attended at least one cultural venue or event in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "earlier_migrant_attendance": {
+          "value": 80,
+          "unit": "percent of migrants arriving before 2001 who attended at least one cultural venue or event in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "arrival_cohort_gap": {
+          "value": 12,
+          "unit": "percentage-point difference between recent and earlier migrant arrival cohorts",
+          "value_type": "calculated_difference_from_published_table"
+        },
+        "mechanism": {
+          "value": "Newer arrival cohorts showed higher reported cultural attendance than earlier cohorts in this snapshot, so settlement time should not be assumed to produce a simple monotonic participation increase",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS comparison of migrants arriving in Australia between 2001 and 2006 with migrants arriving before 2001 using the 2005-06 cultural-attendance module.",
+      "uncertainty": "The arrival-cohort comparison is cross-sectional and vulnerable to cohort composition, age, life stage, origin, visa pathway, selection, and period effects; it is not a longitudinal follow-up of the same migrants.",
+      "subgroup": "Recent and earlier migrant arrival cohorts in 2005-06; the article further reports differences within main-English-speaking and non-main-English-speaking groups.",
+      "counterinterpretation": "Higher recent attendance could reflect younger age, education, urban concentration, active cultural exploration after arrival, or different origin composition rather than a general settlement mechanism.",
+      "source_url": "https://www.abs.gov.au/AUSSTATS/abs%40.nsf/Lookup/4172.0Feature%2BArticle42008%2B%28Second%20Edition%29",
+      "retrieval_hash": "sha256:ace9d5aea41bab2c035c0c7f6937b2eb74a512c6d6975a057df47f5185e58c09",
+      "status": "reported"
+    },
+    {
+      "period": "2005-06; selected venue attendance by country-of-birth group",
+      "denominator": {
+        "value": null,
+        "unit": "Australian adults aged 15 years and over in the ABS cultural-attendance survey; venue-specific subgroup denominators are not disclosed in the feature article",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "cinema_attendance_mesc": {
+          "value": 67,
+          "unit": "percent of migrants born in main English-speaking countries attending cinema in the previous 12 months",
+          "value_type": "official_venue_share"
+        },
+        "cinema_attendance_non_mesc": {
+          "value": 51,
+          "unit": "percent of migrants born in non-main-English-speaking countries attending cinema in the previous 12 months",
+          "value_type": "official_venue_share"
+        },
+        "library_attendance_mesc": {
+          "value": 42,
+          "unit": "percent of migrants born in main English-speaking countries attending libraries in the previous 12 months",
+          "value_type": "official_venue_share"
+        },
+        "library_attendance_non_mesc": {
+          "value": 32,
+          "unit": "percent of migrants born in non-main-English-speaking countries attending libraries in the previous 12 months",
+          "value_type": "official_venue_share"
+        },
+        "mechanism": {
+          "value": "The access pattern was venue-specific: cinema was the most common venue for both migrant groups, while library use and cinema reach still differed by country-of-birth grouping",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS venue-level cultural-attendance estimates from the 2005-06 Multipurpose Household Survey, classified by country-of-birth group.",
+      "uncertainty": "The venue categories are historical and do not capture digital access, unpaid cultural practice, language-specific or community-run venues, cost, transport, quality, frequency, or current platform behavior.",
+      "subgroup": "Migrants born in main English-speaking and non-main-English-speaking countries; classification is a proxy and does not represent all language, ethnicity, religion, or cultural identities.",
+      "counterinterpretation": "Differences between cinema and library use may reflect age, family structure, education, local supply, English proficiency, transport, price, or different cultural practices rather than a general openness or exclusion gradient.",
+      "source_url": "https://www.abs.gov.au/AUSSTATS/abs%40.nsf/Lookup/4172.0Feature%2BArticle42008%2B%28Second%20Edition%29",
+      "retrieval_hash": "sha256:ace9d5aea41bab2c035c0c7f6937b2eb74a512c6d6975a057df47f5185e58c09",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/cultural-and-creative-activities/latest-release",
+      "claim": "ABS's newer cultural and creative activities release supplies the current national cultural-attendance framework but does not reproduce the historical migrant cross-tabs in this record.",
+      "status": "official-comparator"
+    },
+    {
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/migrant-data-matrices/australia",
+      "claim": "ABS's migrant data matrices identify culture-and-leisure data cubes and their historical source publications.",
+      "status": "official-data-catalogue"
+    }
+  ],
+  "boundary": "This record adds a historical direct migrant-cultural-attendance baseline beneath the current Australian settlement and General Social Survey layers. It does not establish current participation, causal integration, equal access, digital cultural behavior, or trend continuity across the 2005-06 to 2025 measurement gap.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ABS Feature Article 4 on migrant attendance and participation in cultural and sporting activities was reviewed for country-of-birth, arrival-cohort, English-proficiency, and venue-specific results and limitations.",
+    "checked": "2026-09-30"
+  }
+}

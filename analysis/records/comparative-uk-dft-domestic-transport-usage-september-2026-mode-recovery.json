@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dft-domestic-transport-usage-september-2026-mode-recovery",
+  "title": "Great Britain’s mobility recovery remains mode-specific: road traffic is above baseline while public transport has not fully returned",
+  "theme_ids": ["time", "cost", "voice", "energy"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "infrastructure_technology_dependency", "public_systems_feedback"],
+  "source_unit": "UK Department for Transport, Daily domestic transport use by mode",
+  "geography": "Great Britain; National Rail excluding Elizabeth line, buses, Transport for London, and motor traffic",
+  "observations": [
+    {
+      "period": "Latest DfT publishing period updated September 10, 2026; mode usage relative to pre-COVID baseline",
+      "denominator": {"value": 1, "unit": "mode-specific daily or rolling-week usage index relative to the relevant 2019 or 2020 pre-COVID baseline", "value_type": "administrative_index_frame"},
+      "measures": {
+        "rail_latest": {"value": 94, "unit": "percent of equivalent 2019 passenger journeys for the week ending August 30, 2026, National Rail excluding Elizabeth line", "value_type": "reported_index"},
+        "bus_latest": {"value": 83, "unit": "percent of the pre-COVID baseline for bus boardings outside London on September 7, 2026", "value_type": "reported_index"},
+        "london_bus_latest": {"value": 79, "unit": "percent of the equivalent 2019 day for London bus boardings on September 4, 2026", "value_type": "reported_index"},
+        "london_tube_latest": {"value": 79, "unit": "percent of the equivalent 2019 day for London Underground entries and exits on September 4, 2026", "value_type": "reported_index"},
+        "motor_traffic_latest": {"value": 105, "unit": "percent of the first-week-of-February-2020 baseline for motor traffic on September 7, 2026", "value_type": "reported_index"}
+      },
+      "method": "DfT official monthly statistics using automatic traffic counts, rail ticket-settlement data, Transport for London entries and exits/boardings, and bus data; rail is a seven-day rolling average and other modes are weekday observations excluding bank holidays.",
+      "uncertainty": "The baselines differ by mode and year; the series measures indexed use rather than unique people, trips for a defined purpose, affordability, accessibility, or household welfare. Rail figures are estimates from ticket revenue allocation and some data remain provisional.",
+      "subgroup": "Great Britain transport modes, with separate London and non-London bus measures and National Rail excluding Elizabeth line.",
+      "counterinterpretation": "Lower public-transport use may reflect hybrid work, service or timetable changes, fares, modal substitution, or changed trip purposes rather than a simple loss of mobility; higher road traffic does not identify who is traveling or why.",
+      "source_url": "https://www.gov.uk/government/statistics/daily-domestic-transport-use-by-mode/domestic-transport-usage-by-mode",
+      "retrieval_hash": "sha256:fb2a58125bf25f464c7fdf2d7856e527d39f32d8d9308c2e98bd4bad62ed2fe0",
+      "status": "observed"
+    },
+    {
+      "period": "September 2025-September 2026; twelve-month mode-recovery pattern",
+      "denominator": {"value": 1, "unit": "Great Britain mode-usage time series, indexed to mode-specific pre-COVID comparison periods", "value_type": "administrative_index_frame"},
+      "measures": {
+        "public_transport_pattern": {"value": "National Rail, buses, and Transport for London usage generally remained below pre-COVID levels across the year", "unit": "reported time-series pattern", "value_type": "reported_mechanism"},
+        "motor_pattern": {"value": "motor-vehicle usage generally settled close to or above its pre-COVID baseline", "unit": "reported time-series pattern", "value_type": "reported_mechanism"},
+        "bus_current_range": {"value": "weekday bus usage outside London ranged from 69% to 83% of baseline in the current publishing period", "unit": "reported index range", "value_type": "reported_range"},
+        "motor_current_range": {"value": "weekday motor traffic ranged from 99% to 105% of baseline in the current publishing period", "unit": "reported index range", "value_type": "reported_range"}
+      },
+      "method": "Monthly DfT administrative and sensor series compared with equivalent pre-COVID dates; the publication emphasizes trend monitoring rather than exact daily volume interpretation.",
+      "uncertainty": "Weather, school holidays, industrial action, bank holidays, data lags, and mode-specific service conditions affect the series. The data do not establish a causal effect of remote work, fares, fuel prices, or transport policy.",
+      "subgroup": "Public transport and road users in Great Britain, with London and non-London differences.",
+      "counterinterpretation": "A mode split can represent changed trip composition rather than reduced access: fewer commuting trips may coexist with stable or increased discretionary, care, or delivery travel.",
+      "source_url": "https://www.gov.uk/government/statistics/daily-domestic-transport-use-by-mode/domestic-transport-usage-by-mode",
+      "retrieval_hash": "sha256:fb2a58125bf25f464c7fdf2d7856e527d39f32d8d9308c2e98bd4bad62ed2fe0",
+      "status": "observed"
+    },
+    {
+      "period": "September 2026 methodology and data-source boundary",
+      "denominator": {"value": 1, "unit": "DfT transport-mode measurement system", "value_type": "methodology_frame"},
+      "measures": {
+        "road_counter_network": {"value": 275, "unit": "approximately automatic traffic-count sites used to estimate Great Britain road-traffic change", "value_type": "reported_method_measure"},
+        "rail_source": {"value": "LENNON ticket-settlement data estimates passenger journeys from earnings and allocates season-ticket journeys over product validity", "unit": "reported administrative method", "value_type": "reported_method"},
+        "data_use_boundary": {"value": "The series is suitable for monitoring overall change in usage trends, not for interpreting exact daily journey counts", "unit": "reported quality boundary", "value_type": "reported_method_boundary"},
+        "policy_open_middle": {"value": "Mode recovery remains open between observed use, service design, household cost, accessibility, trip purpose, and local economic or social participation", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "DfT methodology note covering road counters, rail LENNON estimates, TfL data, bus data, baselines, rolling averages, revisions, and quality limits.",
+      "uncertainty": "The index is not a person-level panel and cannot identify modal switching, income or disability differences, trip purpose, missed journeys, or causal policy response.",
+      "subgroup": "Transport modes and administrative data systems rather than individuals.",
+      "counterinterpretation": "Administrative usage indicators are valuable precisely because they observe operation, but their aggregate nature means they must be joined to household, place, and service-access evidence before interpreting social meaning.",
+      "source_url": "https://www.gov.uk/government/statistics/daily-domestic-transport-use-by-mode/covid-19-transport-data-methodology-note",
+      "retrieval_hash": "sha256:fb2a58125bf25f464c7fdf2d7856e527d39f32d8d9308c2e98bd4bad62ed2fe0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/daily-domestic-transport-use-by-mode", "claim": "Official DfT collection page linking the monthly usage series, data tables, CSV, ODS, methodology note, and planned publication changes.", "status": "official-series-index"},
+    {"source_url": "https://assets.publishing.service.gov.uk/media/6aa034df4e17456e2cdf51a4/COVID-19-transport-use-statistics.csv", "claim": "Official DfT CSV containing the underlying daily mode-usage series used by the publication.", "status": "official-data-table"}
+  ],
+  "boundary": "This record adds an observed mobility and infrastructure route from mode-specific transport operation through time, cost, access, hybrid-work change, and public-system use. It does not measure unique travelers, household transport burden, trip purpose, accessibility, social participation, emissions, or causal effects of remote work, fares, fuel, or transport policy. Mode baselines and time windows remain explicit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official DfT usage page and methodology note were reviewed for current publishing periods, mode-specific values, baseline definitions, data sources, rolling averages, provisional status, and quality caveats.",
+    "source_page_sha256": "sha256:fb2a58125bf25f464c7fdf2d7856e527d39f32d8d9308c2e98bd4bad62ed2fe0",
+    "checked": "2026-09-30"
+  }
+}

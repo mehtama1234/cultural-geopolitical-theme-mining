@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-immigrant-income-wealth-2026-homeownership-inheritance",
+  "title": "Immigrant economic integration has a long wealth-building timeline: recent immigrant families can have similar incomes but substantially less accumulated wealth, homeownership, pension access, and inheritance",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Statistics Canada and Immigration, Refugees and Citizenship Canada, Economic well-being among immigrant and Canadian-born families: The joint distribution of income and wealth",
+  "geography": "Canada; recent immigrant families, established immigrant families, and Canadian-born families",
+  "observations": [
+    {
+      "period": "2016, 2019, and 2023 pooled Survey of Financial Security; family income-wealth distribution",
+      "denominator": {"value": 3, "unit": "Survey of Financial Security years pooled for the study", "value_type": "reported_data_period_count"},
+      "measures": {
+        "bottom_joint_distribution": {"value": "More than 16% of recent immigrant families were in the lower-income/lower-wealth group, compared with 13% of Canadian-born and 10% of established immigrant families", "unit": "reported weighted family shares", "value_type": "reported_comparison"},
+        "middle_income_lower_wealth": {"value": "25% of recent immigrant families were in the middle-income/lower-wealth category, compared with 9% of Canadian-born and 8% of established immigrant families", "unit": "reported weighted family shares", "value_type": "reported_comparison"},
+        "top_joint_distribution": {"value": "4% of recent immigrant families were in the higher-income/higher-wealth group, compared with 13% of Canadian-born and 16% of established immigrant families", "unit": "reported weighted family shares", "value_type": "reported_comparison"}
+      },
+      "method": "Statistics Canada and IRCC study using pooled Survey of Financial Security data, classifying families jointly across income and wealth quartiles; the top 1% of families are excluded from the regression analysis.",
+      "uncertainty": "The study describes distributions and adjusted associations, not causal effects of immigration or a complete measure of family well-being; wealth is measured at a point in time and includes assets, liabilities, housing, pensions, inheritance, and other components.",
+      "subgroup": "Recent immigrant families, established immigrant families, Canadian-born families, lower- and higher-income groups, and families at different wealth positions.",
+      "counterinterpretation": "The gaps reflect life-cycle stage, time in Canada, age, family structure, housing, inheritance, pension access, and other socioeconomic factors; they should not be read as uniform outcomes for all immigrant families or as evidence of individual effort differences.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026008/article/00001-eng.htm",
+      "retrieval_hash": "sha256:97b51eb61628c229befd0747b0139cc7eaf6aa41e1c4a9f3548b844ee64ed379",
+      "status": "reported"
+    },
+    {
+      "period": "2016, 2019, and 2023 pooled data; wealth gaps across income quartiles",
+      "denominator": {"value": 4, "unit": "family income quartiles used in the joint income-wealth analysis", "value_type": "reported_distribution_framework"},
+      "measures": {
+        "bottom_quartile_gap": {"value": 65000, "unit": "Canadian dollars; lower-income recent immigrant families had approximately this much less wealth than Canadian-born families before adjustment", "value_type": "reported_difference"},
+        "lower_middle_gap": {"value": 260700, "unit": "Canadian dollars; reported wealth difference between recent immigrant and Canadian-born families in the lower-middle income group before adjustment", "value_type": "reported_difference"},
+        "upper_middle_gap": {"value": 429300, "unit": "Canadian dollars; reported wealth difference in the upper-middle income group before adjustment", "value_type": "reported_difference"},
+        "top_quartile_gap": {"value": 700000, "unit": "Canadian dollars; reported wealth difference between recent immigrant and Canadian-born families in the top income quartile before adjustment", "value_type": "reported_difference"}
+      },
+      "method": "Statistics Canada regression and descriptive analysis of family-size-adjusted wealth across income quartiles, with models adjusting for wealth components, earners, age, gender, education, homeownership, pension participation, and inheritance.",
+      "uncertainty": "Dollar estimates are study-period values and reflect model specification and family-size adjustment; adjusted differences remain associations and do not isolate a single mechanism or predict individual future wealth.",
+      "subgroup": "Recent immigrant and Canadian-born families across lower, lower-middle, upper-middle, and higher income groups.",
+      "counterinterpretation": "Large wealth differences can narrow or reverse with time in Canada and life-cycle accumulation; income alone is an incomplete indicator of economic security, while wealth alone can also obscure liquidity and debt burdens.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026008/article/00001-eng.htm",
+      "retrieval_hash": "sha256:97b51eb61628c229befd0747b0139cc7eaf6aa41e1c4a9f3548b844ee64ed379",
+      "status": "reported"
+    },
+    {
+      "period": "2016, 2019, and 2023 pooled data; asset and institutional routes into wealth",
+      "denominator": {"value": 1, "unit": "Statistics Canada study of lower-income family wealth components", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "bottom_homeownership": {"value": 0.3, "unit": "percent of recent immigrant families in the lower-income/lower-wealth group owning their principal residence, compared with 4% of established immigrant and Canadian-born families", "value_type": "reported_share"},
+        "bottom_pension": {"value": 5.9, "unit": "percent of recent immigrant families in the lower-income/lower-wealth group with a registered pension plan, compared with 7.3% of established immigrant and 10.3% of Canadian-born families", "value_type": "reported_share"},
+        "bottom_inheritance": {"value": 0.8, "unit": "percent of recent immigrant families in the lower-income/lower-wealth group reported as having received an inheritance, compared with 12.5% of established immigrant and 22.3% of Canadian-born families", "value_type": "reported_share"},
+        "education_paradox": {"value": 54, "unit": "percent of lower-income/lower-wealth recent immigrant families with a university-degree major income earner, compared with 32% of established immigrant and 14% of Canadian-born families", "value_type": "reported_share"}
+      },
+      "method": "Descriptive comparison of wealth components and socioeconomic characteristics among families at the bottom of the joint income-wealth distribution.",
+      "uncertainty": "These measures are subgroup associations and are shaped by age, time in Canada, family composition, wealth transfer, housing markets, and institutional eligibility; they do not imply that education directly produces or fails to produce wealth.",
+      "subgroup": "Lower-income/lower-wealth recent immigrant, established immigrant, and Canadian-born families.",
+      "counterinterpretation": "Recent immigrant families may be younger and earlier in the accumulation life cycle; foreign property, remittances, debt, informal support, or unmeasured assets can complicate Canadian wealth comparisons.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026008/article/00001-eng.htm",
+      "retrieval_hash": "sha256:97b51eb61628c229befd0747b0139cc7eaf6aa41e1c4a9f3548b844ee64ed379",
+      "status": "reported"
+    },
+    {
+      "period": "2016, 2019, and 2023 pooled data; established immigrant families and time in Canada",
+      "denominator": {"value": 3, "unit": "family-status groups: recent immigrant, established immigrant, and Canadian-born", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "established_immigrant_position": {"value": "Established immigrant families matched or exceeded Canadian-born family wealth across much of the income distribution and were wealthier at the bottom of the income distribution", "unit": "reported distributional pattern", "value_type": "reported_comparison"},
+        "bottom_established_difference": {"value": 174500, "unit": "Canadian dollars; established immigrant families had approximately this much more wealth than Canadian-born families in the bottom income quartile before adjustment", "value_type": "reported_difference"},
+        "time_mechanism": {"value": "The study identifies time in Canada and life-cycle processes as important routes for homeownership, pension accumulation, inheritance exposure, and wealth building", "unit": "reported mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative analysis of recent immigrant, established immigrant, and Canadian-born families across joint income-wealth positions using pooled Survey of Financial Security data.",
+      "uncertainty": "The study is observational and cannot establish that time in Canada alone causes wealth convergence; selection, cohort, migration pathway, age, family composition, and macroeconomic conditions also matter.",
+      "subgroup": "Recent and established immigrant families, Canadian-born families, lower-income households, older and younger major income earners, and families with different asset and transfer histories.",
+      "counterinterpretation": "Convergence for established immigrants can coexist with persistent inequality within immigrant groups, high housing costs, wealth concentration, unequal legal or labor-market access, and barriers faced by newer arrivals.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026008/article/00001-eng.htm",
+      "retrieval_hash": "sha256:97b51eb61628c229befd0747b0139cc7eaf6aa41e1c4a9f3548b844ee64ed379",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.25318/36280001202600800001-eng", "claim": "Statistics Canada DOI for the Economic and Social Reports article."}
+  ],
+  "boundary": "This record adds a Canada inequality and integration signal on the joint distribution of income and wealth, homeownership, pensions, inheritance, education, and time in country. It is based on pooled Survey of Financial Security data and observational models, not respondent-level public microdata, a causal immigration evaluation, a universal immigrant-family profile, or proof that income convergence produces equal wealth or security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada and IRCC article reviewed for pooled survey years, family-group comparisons, joint distribution shares, wealth gaps by income quartile, wealth components, education, and established-immigrant convergence findings.",
+    "source_url_sha256": "sha256:97b51eb61628c229befd0747b0139cc7eaf6aa41e1c4a9f3548b844ee64ed379",
+    "checked": "2026-09-27"
+  }
+}

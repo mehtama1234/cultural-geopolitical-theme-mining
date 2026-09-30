@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "bsa43-nhs-waiting-legitimacy-2026",
+  "title": "NHS legitimacy is increasingly an access-time problem: care quality remains more trusted than the ability to reach it",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "trust_identity_meaning", "time_hidden_price", "political_judgment_action", "unequal_exposure_status", "infrastructure_technology_dependency"],
+  "source_unit": "National Centre for Social Research, British Social Attitudes 43, Waiting for treatment",
+  "geography": "Great Britain; BSA adult respondents, with service-performance comparisons primarily for England and historical NHS series",
+  "observations": [
+    {
+      "period": "1983-2025; overall NHS satisfaction and dissatisfaction",
+      "denominator": {"value": 3464, "unit": "unweighted BSA respondents in the 2025 overall NHS satisfaction series; historical bases vary", "value_type": "unweighted_base"},
+      "measures": {
+        "satisfied_1997": {"value": 34, "unit": "percent very or quite satisfied with the NHS", "value_type": "reported_survey_share"},
+        "dissatisfied_1997": {"value": 50, "unit": "percent very or quite dissatisfied", "value_type": "reported_survey_share"},
+        "satisfied_2010": {"value": 70, "unit": "percent satisfied", "value_type": "reported_survey_share"},
+        "satisfied_2024": {"value": 21, "unit": "percent satisfied", "value_type": "reported_survey_share"},
+        "dissatisfied_2024": {"value": 59, "unit": "percent dissatisfied", "value_type": "reported_survey_share"},
+        "satisfied_2025": {"value": 26, "unit": "percent satisfied", "value_type": "reported_survey_share"},
+        "legitimacy_route": {"value": "Public satisfaction can recover over years when system performance becomes visibly better, but post-pandemic legitimacy remains historically weak", "unit": "reported longitudinal pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "British Social Attitudes repeated annual survey trend series from 1983 to 2025, with reported unweighted bases and historical comparability caveats.",
+      "uncertainty": "Overall satisfaction is a perception measure; the series does not identify each respondent's care encounter or establish that government action caused changes in satisfaction.",
+      "subgroup": "Adults in Great Britain, with comparisons by party support and age.",
+      "counterinterpretation": "Political alignment, media salience, and broader national mood may move satisfaction independently of observed service performance.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA43-NHS.pdf",
+      "retrieval_hash": "sha256:434eaa65d07ab9289c95b6c7d6235dd4992a555a94479675099d4449b37db8ff",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; waiting as the dominant dissatisfaction route",
+      "denominator": {"value": 3464, "unit": "unweighted BSA respondents in the 2025 overall satisfaction series; service-specific item bases vary", "value_type": "unweighted_base"},
+      "measures": {
+        "waiting_dissatisfaction_2023": {"value": 71, "unit": "percent citing long waits for a GP or hospital appointment as a reason for NHS dissatisfaction", "value_type": "reported_survey_share"},
+        "hospital_appointment_time_satisfaction": {"value": 16, "unit": "percent satisfied with the time before a hospital appointment in the latest survey", "value_type": "reported_survey_share"},
+        "ae_wait_satisfaction": {"value": 14, "unit": "percent satisfied with time spent waiting in A&E", "value_type": "reported_survey_share"},
+        "gp_wait_satisfaction": {"value": 27, "unit": "percent satisfied with GP appointment waiting time", "value_type": "reported_survey_share"},
+        "waiting_as_hidden_price": {"value": "Access time is experienced as a system cost and a visible test of whether public provision is reachable", "unit": "reported interpretive mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "BSA survey questions on reasons for dissatisfaction and satisfaction with waiting times for hospital, A&E, and GP access.",
+      "uncertainty": "The release does not report each respondent's actual wait, clinical urgency, use of private care, or time lost from work and care.",
+      "subgroup": "People evaluating GP, hospital, and A&E access; service users and the broader public.",
+      "counterinterpretation": "High dissatisfaction with waiting may partly reflect expectations, media attention, or generalized institutional frustration rather than a direct recent encounter.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA43-NHS.pdf",
+      "retrieval_hash": "sha256:434eaa65d07ab9289c95b6c7d6235dd4992a555a94479675099d4449b37db8ff",
+      "status": "reported"
+    },
+    {
+      "period": "2010-2025; quality and access diverge across NHS services",
+      "denominator": {"value": 1460, "unit": "unweighted BSA respondents in the 2025 specific-service satisfaction comparison; item bases and service availability vary", "value_type": "unweighted_base"},
+      "measures": {
+        "care_quality_satisfied": {"value": 50, "unit": "percent satisfied with quality of care provided by the NHS in the latest comparison", "value_type": "reported_survey_share"},
+        "hospital_appointment_satisfied": {"value": 16, "unit": "percent satisfied with time before hospital appointment", "value_type": "reported_survey_share"},
+        "gp_satisfaction_2010": {"value": 78, "unit": "percent satisfied with GP services", "value_type": "reported_survey_share"},
+        "gp_satisfaction_2023": {"value": 34, "unit": "percent satisfied with GP services", "value_type": "reported_survey_share"},
+        "ae_satisfaction_2010": {"value": 61, "unit": "percent satisfied with accident and emergency", "value_type": "reported_survey_share"},
+        "ae_satisfaction_latest": {"value": 22, "unit": "percent satisfied with accident and emergency", "value_type": "reported_survey_share"},
+        "quality_access_split": {"value": "The public can remain more positive about care quality than about the time and route required to reach care", "unit": "reported contrast", "value_type": "analytic_mechanism"}
+      },
+      "method": "Repeated BSA service-specific satisfaction items, with the chapter comparing GP, A&E, inpatient, and outpatient services across historical waves.",
+      "uncertainty": "Service questions differ across years and some item bases are partial; satisfaction does not measure clinical outcomes, safety, or equity of treatment.",
+      "subgroup": "Respondents evaluating specific NHS services, with age and party-support comparisons.",
+      "counterinterpretation": "The quality-versus-access contrast may reflect different question wording or public ideals of care rather than a stable two-dimensional legitimacy structure.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA43-NHS.pdf",
+      "retrieval_hash": "sha256:434eaa65d07ab9289c95b6c7d6235dd4992a555a94479675099d4449b37db8ff",
+      "status": "reported"
+    },
+    {
+      "period": "1997-2010 versus 2024-2025; resources, productivity, and visible feedback",
+      "denominator": {"value": null, "unit": "Historical BSA survey, NHS performance, workforce, demographic, and fiscal indicators combined in a comparative chapter; no single respondent denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "waiting_list_pandemic_change": {"value": 34, "unit": "percent increase in the number waiting for treatment at end-2021 compared with 2020", "value_type": "reported_change"},
+        "ae_four_hour_2002_03": {"value": 79, "unit": "percent leaving A&E within four hours in 2002/03", "value_type": "reported_service_indicator"},
+        "ae_four_hour_2010": {"value": 98, "unit": "percent leaving A&E within four hours by the end of New Labour", "value_type": "reported_service_indicator"},
+        "ae_four_hour_2024": {"value": 59, "unit": "percent leaving A&E within four hours when Labour regained office", "value_type": "reported_service_indicator"},
+        "policy_feedback": {"value": "Funding, targets, staffing, choice, migration, social care, and productivity are linked to legitimacy only when they become visible as shorter waits and reachable service", "unit": "reported policy interpretation", "value_type": "analytic_mechanism"}
+      },
+      "method": "Comparative synthesis of BSA attitudes and administrative or published NHS indicators; the chapter flags changing definitions and incomplete historical comparability.",
+      "uncertainty": "The comparison is not a causal policy evaluation: indicators changed definition, England and Great Britain geographies differ, and the chapter cannot isolate funding, targets, productivity, migration, or pandemic effects.",
+      "subgroup": "NHS patients and the public, service staff, older people, migrants in the health workforce, and governments responsible for service delivery.",
+      "counterinterpretation": "More staff or spending can coexist with worse access if demand, demographics, social care bottlenecks, or productivity change; a target improvement may not generalize across services.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA43-NHS.pdf",
+      "retrieval_hash": "sha256:434eaa65d07ab9289c95b6c7d6235dd4992a555a94479675099d4449b37db8ff",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://natcen.ac.uk/publications/bsa-43-waiting-treatment", "claim": "Official publication landing page and summary.", "status": "official-publication-page"},
+    {"source_url": "https://www.kingsfund.org.uk/insight-and-analysis/reports", "claim": "King's Fund context for NHS satisfaction, access, and service performance.", "status": "context-source"}
+  ],
+  "boundary": "This record adds an NHS legitimacy route in which waiting time, service reachability, quality judgments, productivity, demographics, migration, and public feedback interact. It does not establish individual patient outcomes, causal policy effects, actual time lost, clinical quality, or a single Britain-wide administrative trend; historical definitions and geographies vary.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official BSA 43 NHS PDF reviewed for summary, 1983-2025 satisfaction series, waiting-time measures, service-specific satisfaction, party and age patterns, historical policy comparison, measurement changes, and boundaries.",
+    "source_page_sha256": "sha256:434eaa65d07ab9289c95b6c7d6235dd4992a555a94479675099d4449b37db8ff",
+    "checked": "2026-09-28"
+  }
+}

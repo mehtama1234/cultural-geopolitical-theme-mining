@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-role-world-2026-partisan-global-legitimacy-intervention",
+  "title": "Americans view U.S. global power through sharply partisan lenses, with broad agreement that it interferes abroad",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center, Most Americans Now Say U.S. Foreign Policy Ignores the Interests of Other Countries, April 2026, based on the American Trends Panel",
+  "geography": "United States; adults nationally with party, age, and global-country comparisons",
+  "observations": [
+    {
+      "period": "March 23-29, 2026; U.S. consideration of other countries' interests",
+      "denominator": {"value": 3507, "unit": "U.S. adults in Pew American Trends Panel Wave 190; survey response rate 87%", "value_type": "survey_sample"},
+      "measures": {
+        "us_ignores_other_interests": {"value": 53, "unit": "percent saying the U.S. considers other countries' interests not too much or not at all", "value_type": "reported_share"},
+        "change_since_2023": {"value": "up from 27% in 2023", "unit": "percentage-point comparison", "value_type": "reported_change"},
+        "democrats_see_ignoring": {"value": "three-in-four Democrats", "unit": "reported share saying the U.S. ignores other countries' interests", "value_type": "reported_share"},
+        "republicans_see_consideration": {"value": "at least two-thirds of Republicans have said the U.S. considers other countries' interests across the historical series", "unit": "reported historical pattern", "value_type": "reported_trend"}
+      },
+      "method": "Pew Research Center nationally representative American Trends Panel survey conducted March 23-29, 2026; online and live telephone interviews in English and Spanish, with historical comparisons from prior Pew waves.",
+      "uncertainty": "These are public perceptions of foreign-policy orientation, not coded policy behavior, diplomatic outcomes, partner responses, or an evaluation of whether U.S. decisions actually considered foreign interests.",
+      "subgroup": "U.S. adults nationally, with Democratic and Republican comparisons and historical administration context.",
+      "counterinterpretation": "The partisan shift may reflect changes in administration, policy visibility, media framing, or partisan identity rather than a common public assessment of a stable foreign-policy doctrine.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/pg_2026.04.28_us-role-world_report.pdf",
+      "retrieval_hash": "sha256:837a82b32ff64f46ea5e939798d05a8c30ba921272fb623e4dd7202d688d8c79",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026; perceived global role and partisan divergence",
+      "denominator": {"value": 3507, "unit": "U.S. adults in the March 23-29, 2026 Pew survey", "value_type": "survey_sample"},
+      "measures": {
+        "contributes_to_peace_total": {"value": 57, "unit": "percent saying the U.S. contributes a great deal or fair amount to global peace and stability", "value_type": "reported_share"},
+        "contributes_to_peace_democrats": {"value": 35, "unit": "percent among Democrats", "value_type": "reported_share"},
+        "contributes_to_peace_republicans": {"value": 82, "unit": "percent among Republicans", "value_type": "reported_share"},
+        "us_respected_democrats": {"value": 30, "unit": "percent of Democrats saying the U.S. is respected around the world", "value_type": "reported_share"},
+        "us_respected_republicans": {"value": 73, "unit": "percent of Republicans saying the U.S. is respected around the world", "value_type": "reported_share"}
+      },
+      "method": "Pew survey comparison of perceived U.S. global standing by party, using common questions about peace, respect, foreign-policy consideration, influence, and interference.",
+      "uncertainty": "Partisan differences are associations in public opinion and do not establish differences in information, experience, ideology, or actual U.S. global performance; multiple perceptions may be held simultaneously.",
+      "subgroup": "Democrats and Republicans in the U.S. adult population.",
+      "counterinterpretation": "A respondent can believe the U.S. is powerful yet disrespectful, influential yet interventionist, or protective of peace while ignoring other countries' interests; the measures are not one-dimensional approval scales.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/pg_2026.04.28_us-role-world_report.pdf",
+      "retrieval_hash": "sha256:837a82b32ff64f46ea5e939798d05a8c30ba921272fb623e4dd7202d688d8c79",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; perceived U.S. interference and influence",
+      "denominator": {"value": 3507, "unit": "U.S. adults in the March 23-29, 2026 Pew survey; some country questions use a random half-sample", "value_type": "survey_sample"},
+      "measures": {
+        "us_interferes_total": {"value": 83, "unit": "percent saying the U.S. interferes in other countries' affairs a great deal or fair amount", "value_type": "reported_share"},
+        "us_interferes_democrats": {"value": 89, "unit": "percent among Democrats", "value_type": "reported_share"},
+        "us_interferes_republicans": {"value": 77, "unit": "percent among Republicans", "value_type": "reported_share"},
+        "influence_getting_weaker": {"value": 41, "unit": "percent saying U.S. influence has been getting weaker in recent years", "value_type": "reported_share"},
+        "influence_getting_stronger": {"value": 34, "unit": "percent saying U.S. influence has been getting stronger", "value_type": "reported_share"},
+        "republicans_influence_stronger": {"value": 55, "unit": "percent among Republicans saying influence is getting stronger", "value_type": "reported_share"}
+      },
+      "method": "Pew repeated cross-sectional comparison of U.S. adults' views of interference and influence, including party and age splits.",
+      "uncertainty": "Perceived interference is not a coded count of interventions, and perceived influence is not a measure of military, economic, diplomatic, or cultural power; historical comparisons are subject to changing contexts and survey modes.",
+      "subgroup": "U.S. adults nationally, with Democratic/Republican and age comparisons.",
+      "counterinterpretation": "Broad agreement that the U.S. interferes abroad can coexist with disagreement over whether that interference is legitimate, stabilizing, effective, or evidence of strength.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/pg_2026.04.28_us-role-world_report.pdf",
+      "retrieval_hash": "sha256:837a82b32ff64f46ea5e939798d05a8c30ba921272fb623e4dd7202d688d8c79",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026; global superpower perception",
+      "denominator": {"value": 1765, "unit": "U.S. adults receiving the open-ended country-ranking form", "value_type": "survey_subsample"},
+      "measures": {
+        "us_named_global_superpower": {"value": 57, "unit": "percent naming the U.S. as a global superpower", "value_type": "reported_share"},
+        "china_named_global_superpower": {"value": 44, "unit": "percent naming China as a global superpower", "value_type": "reported_share"},
+        "russia_named_global_superpower": {"value": 24, "unit": "percent naming Russia", "value_type": "reported_share"},
+        "no_superpower_named": {"value": 5, "unit": "percent naming no country", "value_type": "reported_share"}
+      },
+      "method": "Pew open-ended question asked a randomly selected half-sample which countries are militarily and economically dominant global superpowers; multiple answers were allowed.",
+      "uncertainty": "The measure captures public conceptions of superpower status, not a geopolitical index or expert assessment; open-ended recognition may reflect salience, familiarity, or current events.",
+      "subgroup": "U.S. adults in the relevant random half-sample, with party comparisons reported in the source.",
+      "counterinterpretation": "Naming the U.S. as a superpower does not imply approval of U.S. policy, confidence in its legitimacy, or expectation that its influence is growing.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/pg_2026.04.28_us-role-world_report.pdf",
+      "retrieval_hash": "sha256:837a82b32ff64f46ea5e939798d05a8c30ba921272fb623e4dd7202d688d8c79",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a US-to-world legitimacy layer: Americans' perceptions of U.S. power, respect, interference, peace contribution, and attention to other countries are strongly partisan and internally multidimensional. It does not establish actual foreign-policy conduct, diplomatic influence, partner trust, geopolitical outcomes, or causal effects of public opinion on policy."
+}

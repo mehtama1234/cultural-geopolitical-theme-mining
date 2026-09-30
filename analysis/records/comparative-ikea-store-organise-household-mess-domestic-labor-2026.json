@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ikea-store-organise-household-mess-domestic-labor-2026",
+  "title": "Household mess is a coordination and meaning system: clutter converts domestic labor into conflict, time loss, and identity work",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ingka Group/IKEA, Store & Organise Report 2026: Finding Meaning in the Mess",
+  "geography": "Global; adults in 31 markets",
+  "observations": [
+    {
+      "period": "April 2026 survey fieldwork, published August 24, 2026; household coordination",
+      "denominator": {"value": 31488, "unit": "adults across 31 markets; samples nationally representative and weighted by gender, age, and geography", "value_type": "reported_survey_sample"},
+      "measures": {
+        "silent_protest": {"value": 38, "unit": "percent reporting that someone in the home leaves things out hoping someone else will deal with them", "value_type": "published_survey_estimate"},
+        "mess_as_coordination": {"value": "Visible disorder can operate as an indirect signal about who is expected to notice, decide, and perform domestic work.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "YouGov online survey conducted in April 2026 across 31 markets; samples were described as nationally representative and weighted by gender, age, and geography.",
+      "uncertainty": "The item reports a self-described household behavior, not observed task allocation, conflict frequency, or gendered labor distribution; the source does not establish that leaving items out is intentional protest in every case.",
+      "subgroup": "Adults across 31 markets; the publication reports the global estimate and selected market contrasts.",
+      "counterinterpretation": "Leaving things out may reflect forgetfulness, limited storage, fatigue, or accessibility constraints rather than a communicative strategy.",
+      "source_url": "https://www.ingka.com/newsroom/new-global-ikea-study-nearly-4-in-10-are-staging-a-silent-protest-over-household-mess/",
+      "retrieval_hash": "sha256:dd5d4955ec141422edbd0e82dc6a0a835364ff9b391b511a7c9133c0965ecca1",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026 survey fieldwork, published August 24, 2026; clutter and household conflict",
+      "denominator": {"value": 31488, "unit": "adults across 31 markets", "value_type": "reported_survey_sample"},
+      "measures": {
+        "countertop_clutter": {"value": 24, "unit": "percent naming the kitchen countertop as the hardest space to keep clutter-free", "value_type": "published_survey_estimate"},
+        "countertop_argument": {"value": 37, "unit": "percent naming the kitchen countertop as the place most likely to cause an argument", "value_type": "published_survey_estimate"},
+        "domestic_friction": {"value": "A small, repeated spatial problem becomes a visible test of standards, responsibility, and control inside the household.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional YouGov survey with published global percentages from the Store & Organise Report 2026.",
+      "uncertainty": "The two percentages describe perceptions and reported associations; they do not measure argument intensity, duration, resolution, or who performs the cleanup.",
+      "subgroup": "Adults across 31 markets.",
+      "counterinterpretation": "Kitchen counters may be both high-traffic and highly visible, so the result may reflect exposure and salience rather than a uniquely causal role in household conflict.",
+      "source_url": "https://www.ingka.com/newsroom/new-global-ikea-study-nearly-4-in-10-are-staging-a-silent-protest-over-household-mess/",
+      "retrieval_hash": "sha256:dd5d4955ec141422edbd0e82dc6a0a835364ff9b391b511a7c9133c0965ecca1",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026 survey fieldwork, published August 24, 2026; objects, memory, and home identity",
+      "denominator": {"value": 31488, "unit": "adults across 31 markets", "value_type": "reported_survey_sample"},
+      "measures": {
+        "lived_in_home": {"value": 59, "unit": "percent preferring a lived-in home over a minimalist one", "value_type": "published_survey_estimate"},
+        "sentimental_retention": {"value": 82, "unit": "percent keeping things purely for sentimental reasons, even when rarely used or out of sight", "value_type": "published_survey_estimate"},
+        "meaningful_mess": {"value": "The household is not optimizing for visual order alone; stored objects preserve memory, identity, and belonging, while clutter can also be experienced as creative expression.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional YouGov survey with global estimates and market comparisons published by Ingka Group.",
+      "uncertainty": "Sentimental retention and preference for a lived-in home are self-reports; the source does not measure actual inventory, disposal behavior, or long-term wellbeing.",
+      "subgroup": "Adults across 31 markets; the publication reports selected generational, gender, and country contrasts.",
+      "counterinterpretation": "Keeping sentimental items may reflect ordinary attachment rather than a broad cultural shift away from minimalism; retailer framing may also make storage meanings more salient.",
+      "source_url": "https://www.ingka.com/newsroom/new-global-ikea-study-nearly-4-in-10-are-staging-a-silent-protest-over-household-mess/",
+      "retrieval_hash": "sha256:dd5d4955ec141422edbd0e82dc6a0a835364ff9b391b511a7c9133c0965ecca1",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026 survey fieldwork, published August 24, 2026; time cost of misplaced possessions",
+      "denominator": {"value": 31488, "unit": "adults across 31 markets; market examples reported for India and the UK", "value_type": "reported_survey_sample"},
+      "measures": {
+        "search_time_india": {"value": 80, "unit": "minutes per day reportedly spent looking for misplaced items in India", "value_type": "published_survey_estimate"},
+        "search_time_uk": {"value": 15, "unit": "minutes per day reportedly spent looking for misplaced items in the UK", "value_type": "published_survey_estimate"},
+        "hidden_time_price": {"value": "Organization failure converts space and clutter into recurring unpaid search labor, with a large reported cross-market gap.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional YouGov survey; the publication reports market-level self-estimates of time spent looking for misplaced items.",
+      "uncertainty": "The comparison is descriptive and may reflect differences in recall, household size, storage systems, product ownership, or survey interpretation; it is not a time-use diary or causal comparison.",
+      "subgroup": "Respondents in India and the United Kingdom as reported market examples.",
+      "counterinterpretation": "Higher reported search time may arise from different norms or item inventories rather than worse organization or greater domestic burden.",
+      "source_url": "https://www.ingka.com/newsroom/new-global-ikea-study-nearly-4-in-10-are-staging-a-silent-protest-over-household-mess/",
+      "retrieval_hash": "sha256:dd5d4955ec141422edbd0e82dc6a0a835364ff9b391b511a7c9133c0965ecca1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ingka.com/newsroom/new-global-ikea-study-nearly-4-in-10-are-staging-a-silent-protest-over-household-mess/", "claim": "Official Ingka Group publication page containing the report findings, sample, fieldwork date, and methodology boundary.", "status": "official-publication-page"},
+    {"source_url": "https://www.ingka.com/reports/", "claim": "Ingka Group reports page lists the IKEA Store & Organise Report 2026 as the underlying report resource.", "status": "linked-report-resource"}
+  ],
+  "boundary": "This record adds a household coordination and meaning route: mess can expose indirect negotiation over domestic labor, impose hidden search-time costs, and preserve identity through sentimental objects. It does not establish unequal labor allocation, intentional protest in every case, causal conflict effects, or that storage products resolve these tensions. The source is retailer-commissioned consumer research based on online self-reports.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ingka Group publication page was reviewed for report date, sample, weighting, fieldwork date, household coordination findings, clutter-conflict findings, sentimental retention, and search-time comparisons.",
+    "source_page_sha256": "sha256:dd5d4955ec141422edbd0e82dc6a0a835364ff9b391b511a7c9133c0965ecca1",
+    "checked": "2026-09-28"
+  }
+}

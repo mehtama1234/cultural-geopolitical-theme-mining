@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-visa-agentic-commerce-payment-control-reversibility-2025-2026",
+  "title": "Agentic commerce adoption depends on payment-level control, reversibility, data visibility, and recognizable recourse rather than convenience alone",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Visa, Earning Consumer Trust in the Age of Agentic Commerce, based on Visa Agentic Commerce Consumer Research Surveys in the United States, Australia, and New Zealand",
+  "geography": "United States, Australia, and New Zealand online shoppers; report page updated for Visa Intelligent Commerce and survey fieldwork identified as 2025",
+  "observations": [
+    {
+      "period": "2025 survey fieldwork; U.S., Australia, and New Zealand familiarity and adoption frame",
+      "denominator": {"value": 3700, "unit": "online-shopping adults aged 18-65 with a debit or credit card: U.S. n=1600, Australia n=1600, New Zealand n=500", "value_type": "reported_survey_sample"},
+      "measures": {
+        "us_familiarity": {"value": 55, "unit": "percent of U.S. respondents familiar with AI shopping assistants", "value_type": "reported_survey_share"},
+        "australia_familiarity": {"value": 59, "unit": "percent of Australian respondents familiar with AI shopping assistants", "value_type": "reported_survey_share"},
+        "new_zealand_familiarity": {"value": 43, "unit": "percent of New Zealand respondents familiar with AI shopping assistants", "value_type": "reported_survey_share"},
+        "agent_consideration": {"value": "35% of U.S., 44% of Australian, and 34% of New Zealand respondents said an agent would increase consideration", "unit": "reported cross-market pattern", "value_type": "reported_subgroup_pattern"},
+        "adoption_route": {"value": "consumers are pragmatic about AI shopping: savings, time, convenience, and comparison drive interest, while control and transparency condition adoption", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "15-minute online survey via AYTM among monthly online shoppers aged 18-65 holding a debit or credit card; national samples are described by Visa as representative online surveys, with respondents shown AI-assisted commerce scenarios across gifts, groceries, travel, and electronics.",
+      "uncertainty": "The report is Visa-sponsored, survey fieldwork is identified as 2025 despite the current report page, scenario responses are not observed transactions, and national representativeness does not establish causal adoption or payment outcomes.",
+      "subgroup": "Online shoppers in the United States, Australia, and New Zealand, with market-specific familiarity, motivators, and barriers.",
+      "counterinterpretation": "Familiarity and stated consideration may reflect scenario salience or brand framing; actual adoption may depend on merchant coverage, interface quality, regulation, and payment protections.",
+      "source_url": "https://corporate.visa.com/en/products/intelligent-commerce/earning-trust-report.html",
+      "retrieval_hash": "sha256:642af04edbf13e428f57f43d254d2f484b1842444fa94f03611e9be6c2e7fb19",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey fieldwork; agent substitution across the buyer journey",
+      "denominator": {"value": 3700, "unit": "online-shopping adults in the three-market Visa survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "discovery_substitution": {"value": 73, "unit": "percent average substitution rate for discovery tasks across markets and use cases", "value_type": "reported_substitution_share"},
+        "evaluation_substitution": {"value": 69, "unit": "percent average substitution rate for evaluation tasks", "value_type": "reported_substitution_share"},
+        "cart_checkout_substitution": {"value": 62, "unit": "percent average substitution rate for cart and checkout tasks", "value_type": "reported_substitution_share"},
+        "post_purchase_substitution": {"value": 64, "unit": "percent average substitution rate for tracking, returns, and warranty tasks", "value_type": "reported_substitution_share"},
+        "journey_route": {"value": "agentic substitution spans discovery through post-purchase, making payment, returns, warranty, and recourse part of the trust surface", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Scenario-based survey estimates of tasks respondents might offload to AI assistants across four buyer-journey stages; rates are weighted averages across the three markets and use cases.",
+      "uncertainty": "Substitution rates represent stated willingness or scenario responses, not deployed-agent logs, completed purchases, return outcomes, fraud rates, or verified time savings.",
+      "subgroup": "Online shoppers across U.S., Australian, and New Zealand markets and four everyday shopping use cases.",
+      "counterinterpretation": "Respondents may interpret “substitution” as assistance rather than full delegation; high discovery substitution can coexist with human approval at checkout and post-purchase.",
+      "source_url": "https://corporate.visa.com/content/dam/VCOM/corporate/products/documents/earning-consumer-trust-in-the-age-of-agentic-commerce.pdf",
+      "retrieval_hash": "sha256:642af04edbf13e428f57f43d254d2f484b1842444fa94f03611e9be6c2e7fb19",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey fieldwork; privacy, control, and error concerns",
+      "denominator": {"value": 3700, "unit": "online-shopping adults in the three-market Visa survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "data_control_important": {"value": 85, "unit": "percent saying visibility into data collection and ability to customize or delete shopping and purchase information is important among U.S. respondents", "value_type": "reported_survey_share"},
+        "stop_without_control": {"value": 54, "unit": "percent saying they were not very or not at all likely to use an agent without control over data", "value_type": "reported_survey_share"},
+        "wrong_product_concern": {"value": 43, "unit": "percent average across markets concerned an agent could select the wrong product", "value_type": "reported_survey_share"},
+        "loss_of_control_concern": {"value": 50, "unit": "percent average across markets concerned about decisions being made without them", "value_type": "reported_survey_share"},
+        "payment_recourse_route": {"value": "transparency, fraud protection, refund policies, recognizable payment providers, and reversibility become part of the consumer control contract", "unit": "reported mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Survey questions on data visibility, customization and deletion, purchase accuracy, loss of control, reliability, privacy, and security; cross-market averages are reported separately from U.S.-specific data-control results.",
+      "uncertainty": "The survey does not test actual deletion, refund, fraud, dispute, or reversal performance; reported preferences may vary by product risk, transaction size, agent design, and institutional safeguards.",
+      "subgroup": "Online shoppers in the U.S., Australia, and New Zealand, with U.S.-specific data-control results and cross-market concern averages.",
+      "counterinterpretation": "Consumers may accept limited data visibility when benefits are large, and recognizable payment brands can create trust without guaranteeing fair recourse or reliable agent behavior.",
+      "source_url": "https://corporate.visa.com/en/products/intelligent-commerce/earning-trust-report.html",
+      "retrieval_hash": "sha256:642af04edbf13e428f57f43d254d2f484b1842444fa94f03611e9be6c2e7fb19",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey fieldwork; human control and payment-infrastructure implications",
+      "denominator": {"value": 3700, "unit": "online-shopping adults in the three-market Visa survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "adoption_drivers": {"value": "saving time, saving money, reducing repetitive work, better deals, and reducing decision fatigue", "unit": "reported driver set", "value_type": "reported_mechanism_set"},
+        "trust_requirements": {"value": "nearly nine in ten want transparency into how agents make decisions, and about half would stop using them if control disappeared", "unit": "reported cross-market pattern", "value_type": "reported_mechanism"},
+        "human_ai_hybrid": {"value": "hybrid experiences pairing human support with AI efficiency are proposed as a route to confidence in early-adoption markets", "unit": "reported implementation proposition", "value_type": "reported_policy_proposition"},
+        "infrastructure_route": {"value": "agentic commerce requires payment networks, issuers, acquirers, wallets, merchants, and developers to coordinate standards, identity, authentication, and consumer controls", "unit": "reported infrastructure mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Visa interpretation of its multi-market survey findings and proposed payment-ecosystem implications; recommendations are strategic and sponsor-authored.",
+      "uncertainty": "The report's proposed infrastructure role for Visa is not an independent evaluation of standards, market power, consumer outcomes, or payment-sector competition.",
+      "subgroup": "Consumers, merchants, issuers, acquirers, wallets, developers, AI platforms, payment networks, and users needing human support or recourse.",
+      "counterinterpretation": "Interoperable agentic-payment infrastructure could improve security and convenience, but concentration in recognizable payment brands may also limit choice or shift control toward infrastructure intermediaries.",
+      "source_url": "https://corporate.visa.com/en/products/intelligent-commerce/earning-trust-report.html",
+      "retrieval_hash": "sha256:642af04edbf13e428f57f43d254d2f484b1842444fa94f03611e9be6c2e7fb19",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://corporate.visa.com/en/products/intelligent-commerce/earning-trust-report.html", "claim": "Official Visa report page with methodology, cross-market findings, data-control, substitution, and payment-infrastructure discussion."},
+    {"source_url": "https://corporate.visa.com/content/dam/VCOM/corporate/products/documents/earning-consumer-trust-in-the-age-of-agentic-commerce.pdf", "claim": "Official 35-page Visa report PDF with appendix tables and market results."}
+  ],
+  "boundary": "This record adds a payment-control route from AI shopping assistance through discovery, evaluation, checkout, returns, data visibility, fraud protection, refunds, reversibility, and recognizable recourse. It uses a Visa-sponsored scenario survey whose fieldwork is identified as 2025, not observed transaction data, independent payment-infrastructure evaluation, causal adoption evidence, or proof that reported control preferences become durable safeguards.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Visa report page and PDF reviewed for market samples, survey frame, buyer-journey substitution rates, data-control findings, privacy and loss-of-control concerns, refund/reversibility language, and payment-ecosystem recommendations.",
+    "report_pdf_sha256": "sha256:642af04edbf13e428f57f43d254d2f484b1842444fa94f03611e9be6c2e7fb19",
+    "checked": "2026-09-28"
+  }
+}

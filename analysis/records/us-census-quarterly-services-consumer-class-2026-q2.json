@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-quarterly-services-consumer-class-2026-q2",
+  "title": "Service-sector growth is not uniformly household-facing: information demand is split between business and consumer channels",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "firm_sector_market_power", "time_hidden_price", "trust_identity_meaning", "work_control_bargaining"],
+  "source_unit": "Census Bureau Quarterly Services Survey employer-firm revenue by class of customer, seasonally adjusted and not price-adjusted",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Second quarter 2026; information sector (NAICS 51)",
+      "denominator": {"value": null, "unit": "employer-firm revenue universe; exact establishment denominator is not disclosed in the release table", "value_type": "not_disclosed"},
+      "measures": {
+        "total_revenue": {"value": 701570, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "household_consumer_individual_user_revenue": {"value": 206371, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "business_revenue": {"value": 456700, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "household_revenue_share": {"value": 29.4156, "unit": "percent of information-sector revenue, calculated from published customer-class levels", "value_type": "derived_share"},
+        "total_revenue_yoy_change": {"value": 10.0, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"},
+        "household_revenue_yoy_change": {"value": 4.8, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"},
+        "business_revenue_yoy_change": {"value": 11.3, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"}
+      },
+      "method": "Transcribed Table 7 of the Census Quarterly Services Survey all-tables workbook. Household share is calculated as household consumers and individual users revenue divided by total information-sector revenue. Estimates are seasonally adjusted but not adjusted for price changes.",
+      "uncertainty": "Customer classes are firm-reported revenue classifications, not unique households, transactions, users, workers, or cultural participants. The table is an employer-firm frame and does not include the Census nonemployer operator layer. Revenue growth is nominal and cannot establish real demand, welfare, affordability, or service quality.",
+      "subgroup": "Information-sector employer firms; aggregate information sector only.",
+      "counterinterpretation": "The slower household channel may reflect price changes, classification, business-to-consumer intermediaries, durable demand saturation, or household substitution rather than weak cultural demand. Business growth may ultimately support consumer services indirectly.",
+      "source_url": "https://www.census.gov/services/qss/qss-all-current.xlsx",
+      "retrieval_hash": "sha256:3ca3cbb285eda24ac2d34d1e35741f40d422c324ce4575924ee67c6758f7757e",
+      "status": "estimated"
+    },
+    {
+      "period": "Second quarter 2026; telecommunications (NAICS 517, 5171, 5172, and other telecommunications rows as published)",
+      "denominator": {"value": null, "unit": "telecommunications employer-firm revenue universe; exact establishment denominator is not disclosed in the release table", "value_type": "not_disclosed"},
+      "measures": {
+        "total_revenue": {"value": 162222, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "household_consumer_individual_user_revenue": {"value": 104438, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "business_revenue": {"value": 52476, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "household_revenue_share": {"value": 64.3797, "unit": "percent of telecommunications revenue, calculated from published customer-class levels", "value_type": "derived_share"},
+        "total_revenue_yoy_change": {"value": -1.8, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"},
+        "household_revenue_yoy_change": {"value": -1.2, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"}
+      },
+      "method": "Transcribed the telecommunications aggregate row in Table 7 of the Census Quarterly Services Survey all-tables workbook. Household share is calculated from the published household, business, and total revenue levels.",
+      "uncertainty": "The aggregate contains distinct wired, wireless, and other telecommunications businesses; the table does not reveal household-level prices, subscriptions, usage, churn, outages, access quality, or affordability. Revenue is nominal and establishment-based.",
+      "subgroup": "Telecommunications employer firms within the information sector.",
+      "counterinterpretation": "A high household revenue share does not prove broad access or consumer benefit; flat revenue can coexist with price increases, reduced usage, churn, or unequal service quality.",
+      "source_url": "https://www.census.gov/services/qss/qss-all-current.xlsx",
+      "retrieval_hash": "sha256:3ca3cbb285eda24ac2d34d1e35741f40d422c324ce4575924ee67c6758f7757e",
+      "status": "estimated"
+    },
+    {
+      "period": "Second quarter 2026; publishing industries (except Internet; NAICS 511)",
+      "denominator": {"value": null, "unit": "publishing employer-firm revenue universe; exact establishment denominator is not disclosed in the release table", "value_type": "not_disclosed"},
+      "measures": {
+        "total_revenue": {"value": 200736, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "household_consumer_individual_user_revenue": {"value": 45882, "unit": "million dollars, seasonally adjusted", "value_type": "reported_level"},
+        "household_revenue_share": {"value": 22.8569, "unit": "percent of publishing revenue, calculated from published customer-class levels", "value_type": "derived_share"},
+        "total_revenue_yoy_change": {"value": 13.3, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"},
+        "household_revenue_yoy_change": {"value": 11.3, "unit": "percent, second quarter 2026 from second quarter 2025", "value_type": "reported_change"}
+      },
+      "method": "Transcribed the publishing aggregate row in Table 7 of the Census Quarterly Services Survey all-tables workbook and calculated the household revenue share from published levels.",
+      "uncertainty": "Publishing customer classes do not identify readers, subscribers, cultural participation, attention, advertising exposure, creator income, or household media budgets. Revenue is nominal and may include intermediate business sales.",
+      "subgroup": "Publishing employer firms except Internet publishing; aggregate row only.",
+      "counterinterpretation": "Fast nominal revenue growth with a minority household share could reflect business distribution, advertising, licensing, consolidation, or price changes rather than expanding household cultural consumption.",
+      "source_url": "https://www.census.gov/services/qss/qss-all-current.xlsx",
+      "retrieval_hash": "sha256:3ca3cbb285eda24ac2d34d1e35741f40d422c324ce4575924ee67c6758f7757e",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/services/current/index.html", "claim": "Official second-quarter 2026 Quarterly Services Survey release: selected-services revenue was $6,418.7 billion, up 7.6% year over year and 3.0% quarter over quarter.", "status": "official-release"},
+    {"source_url": "https://www.census.gov/services/qss/historic_data.html", "claim": "Official historical-data page identifies the second-quarter 2026 all-tables workbook and Quarterly Services Survey data context.", "status": "official-program-context"},
+    {"source_url": "https://www.census.gov/services/index.html", "claim": "Census describes QSS as a timely source of service-industry revenue and expense indicators and notes the employer-firm and customer-class scope.", "status": "official-method-context"}
+  ],
+  "boundary": "This record measures nominal employer-firm service revenue by customer class; it does not measure unique consumers, household spending, affordability, service completion, worker conditions, nonemployer receipts, attention, cultural meaning, or causal demand. It is a bridge between the nonemployer operator layer and payroll/service-firm revenue, not a pooled market-size estimate. Customer-class values marked S in the workbook are suppressed and are not imputed."
+}

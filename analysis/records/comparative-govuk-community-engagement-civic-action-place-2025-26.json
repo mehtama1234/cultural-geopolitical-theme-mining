@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-govuk-community-engagement-civic-action-place-2025-26",
+  "title": "Civic engagement has recovered nationally but remains sharply place- and status-dependent",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport / Ministry of Housing, Communities and Local Government, Community and Engagement Survey 2025/26: Civic Engagement",
+  "geography": "England; people aged 16 and over",
+  "observations": [
+    {
+      "period": "2025/26 Community and Engagement Survey; civic engagement in the prior 12 months",
+      "denominator": {"value": 175000, "unit": "over 175,000 Community and Engagement Survey responses; people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "any_civic_engagement": {"value": 46, "unit": "percent taking part at least once in civic participation, civic consultation, or civic activism", "value_type": "published_survey_estimate"},
+        "change_from_2024_25": {"value": 5, "unit": "percentage-point increase from 2024/25 estimate of 41%", "value_type": "published_change"},
+        "civic_participation": {"value": 38, "unit": "percent taking part at least once in democratic participation such as contacting an official, signing a petition, or attending a rally; voting excluded", "value_type": "published_survey_estimate"},
+        "civic_consultation": {"value": 20, "unit": "percent taking part at least once in consultation about local services or problems", "value_type": "published_survey_estimate"},
+        "civic_activism": {"value": 9, "unit": "percent taking part at least once in local decision-making or civic roles", "value_type": "published_survey_estimate"},
+        "mechanism": {"value": "Civic voice has distinct access stages: broad participation is more common than consultation, and consultation is more common than ongoing local activism", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official Community and Engagement Survey estimate for people aged 16+ in England; civic engagement is a derived measure covering participation, consultation, or activism at least once in the prior 12 months.",
+      "uncertainty": "Estimates are rounded and self-reported; the survey measures whether an activity happened at least once, not intensity, influence, policy response, or whether participation produced a public outcome.",
+      "subgroup": "People aged 16+ in England; civic participation, consultation, and activism are separate components.",
+      "counterinterpretation": "A rise in one-time engagement need not mean durable civic capacity or institutional responsiveness; the 5-point change may also reflect sampling and fieldwork variation.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2",
+      "retrieval_hash": "sha256:cabb139b99d1ae32aa5fbd8e4610a8ba1532c00ddf095be42c44c87b7a43eaf3",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 Community and Engagement Survey; civic engagement by socioeconomic and place measures",
+      "denominator": {"value": 175000, "unit": "over 175,000 survey responses; subgroup estimates for people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "higher_managerial_professional": {"value": 55, "unit": "percent in higher managerial, administrative, or professional occupations engaging at least once", "value_type": "published_subgroup_estimate"},
+        "routine_manual": {"value": 39, "unit": "percent in routine and manual occupations engaging at least once", "value_type": "published_subgroup_estimate"},
+        "never_worked_long_term_unemployed": {"value": 39, "unit": "percent in the never-worked or long-term-unemployed classification engaging at least once", "value_type": "published_subgroup_estimate"},
+        "least_deprived_area": {"value": 49, "unit": "percent in the least deprived area decile engaging at least once", "value_type": "published_subgroup_estimate"},
+        "most_deprived_area": {"value": 41, "unit": "percent in the most deprived area decile engaging at least once", "value_type": "published_subgroup_estimate"},
+        "mechanism": {"value": "Civic voice is socially stratified: occupational position and neighborhood deprivation correlate with who gets from concern or local experience into an observed civic act", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official subgroup estimates from the Community and Engagement Survey; socioeconomic classification is based on respondent occupation and employment status, while deprivation is area-level Index of Multiple Deprivation.",
+      "uncertainty": "These are descriptive subgroup associations; occupation and area deprivation do not identify individual income, time, transport, confidence, institutional access, discrimination, or causal barriers.",
+      "subgroup": "People aged 16+ in England by socioeconomic classification and area deprivation decile.",
+      "counterinterpretation": "Higher engagement among professional groups may reflect different forms of participation or survey response, while lower rates in deprived areas do not imply lower political interest; capacity and institutional opportunity may differ.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2",
+      "retrieval_hash": "sha256:cabb139b99d1ae32aa5fbd8e4610a8ba1532c00ddf095be42c44c87b7a43eaf3",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 Community and Engagement Survey; local-authority variation",
+      "denominator": {"value": 329, "unit": "English local authorities represented in the published comparison; local estimates derive from survey responses", "value_type": "reported_local_authority_frame"},
+      "measures": {
+        "local_authority_high": {"value": 61, "unit": "percent engaging at least once in Camden, the highest cited local-authority estimate", "value_type": "published_local_estimate"},
+        "local_authority_low": {"value": 17, "unit": "percent engaging at least once in the City of London, the lowest cited local-authority estimate", "value_type": "published_local_estimate"},
+        "local_authority_range": {"value": 44, "unit": "percentage-point range between cited highest and lowest local-authority estimates", "value_type": "published_difference"},
+        "local_authority_range_excluding_city_of_london": {"value": 27, "unit": "percentage-point range from Camden at 61% to Rochdale at 34% after excluding the City of London", "value_type": "published_difference"},
+        "mechanism": {"value": "National civic-engagement recovery conceals sharply different local conversion environments, so the next causal question is which local institutions, places, services, and invitation routes turn residents into participants or activists", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official local-authority comparisons from the Community and Engagement Survey; published estimates are rounded and accompanied by confidence-interval cautions.",
+      "uncertainty": "Local variation may reflect population composition, urban form, housing turnover, local organizations, service experience, sample error, or question interpretation; it is not a ranking of local government performance or civic virtue.",
+      "subgroup": "Local-authority populations in England.",
+      "counterinterpretation": "Extreme local comparisons can be sensitive to one authority and different confidence intervals; a high one-time engagement rate does not establish influence or durable local capacity.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2",
+      "retrieval_hash": "sha256:cabb139b99d1ae32aa5fbd8e4610a8ba1532c00ddf095be42c44c87b7a43eaf3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/guidance/community-and-engagement-survey-202526", "claim": "Official CES scope, population, survey pathways, and release architecture."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2", "claim": "Official sampling, fieldwork, address-based push-to-web design, target sample, and comparability caveats."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report", "claim": "Related neighborhood-contact and local-trust route from the same survey programme."}
+  ],
+  "boundary": "This record adds an official civic-action route from local experience and social position through participation, consultation, and activism. It does not measure whether institutions responded, whether participants changed decisions, the quality of deliberation, or durable civic power; all estimates are descriptive and self-reported.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK civic-engagement report reviewed for definitions, national levels, change from 2024/25, socioeconomic and deprivation differences, local-authority range, rounding, confidence-interval, and self-report caveats.",
+    "source_page_sha256": "sha256:cabb139b99d1ae32aa5fbd8e4610a8ba1532c00ddf095be42c44c87b7a43eaf3",
+    "checked": "2026-09-30"
+  }
+}

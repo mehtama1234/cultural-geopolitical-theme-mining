@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-energy-crisis-social-protection-scalability-2026",
+  "title": "Crisis protection is becoming a capability problem: systems must scale up temporarily and scale down credibly",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "consumer_power_recourse",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11454, Get Ready: What Lessons for Social Protection from the Recent Energy Crisis?",
+  "geography": "Global country-response review covering the March-May 2026 energy crisis, with comparisons to responses during the 2008, 2020, and 2022 crises",
+  "observations": [
+    {
+      "period": "March-May 2026; global energy-crisis policy response tracker",
+      "denominator": {"value": 104, "unit": "countries with planned or implemented social-policy responses as of May 7, 2026", "value_type": "reported_country_response_frame"},
+      "measures": {
+        "responses": {"value": 256, "unit": "planned or implemented social-policy responses", "value_type": "reported_policy_action_count"},
+        "global_reach": {"value": "about half of countries worldwide had planned or implemented a response", "unit": "reported global coverage description", "value_type": "reported_coverage_pattern"},
+        "response_heterogeneity": {"value": "actions varied with crisis interpretation, price transmission, fiscal space, and interaction with monetary policy", "unit": "reported explanatory framework", "value_type": "reported_mechanism_set"},
+        "mechanism": {"value": "uncertain shock duration makes governments hesitate between immediate relief, inflation control, and preparedness for persistent volatility", "unit": "bounded political-economy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive global coding of country responses in 2026, compared with response patterns during earlier economic and price crises.",
+      "uncertainty": "The tracker records announced, planned, or implemented policy actions, not uniform spending, coverage, household receipt, price effects, or welfare outcomes; timing and classification can change as the crisis evolves.",
+      "subgroup": "Countries with different income levels, fiscal space, inflation conditions, administrative systems, energy exposure, and political incentives; households and firms exposed differently to energy-price transmission.",
+      "counterinterpretation": "Non-response can reflect limited local inflation or fiscal constraints rather than weak protection capacity, while a large response count can conceal shallow, delayed, or poorly targeted implementation.",
+      "source_url": "https://documents.worldbank.org/curated/en/099351409162612673/pdf/IDU-4312dfec-0ddd-4d76-8ccb-247fe5e53907.pdf",
+      "retrieval_hash": "sha256:d0eb52b4c97a51b6fe2ac207a786dd48d6e426a68184eb49b14e2f6d3fdb2d44",
+      "status": "reported"
+    },
+    {
+      "period": "2026 energy-crisis tracker; policy-instrument composition",
+      "denominator": {"value": 256, "unit": "global social-policy responses recorded as of May 7, 2026", "value_type": "reported_response_denominator"},
+      "measures": {
+        "subsidy_position": {"value": "subsidies accounted for nearly half of current responses", "unit": "reported share of responses", "value_type": "reported_policy_mix"},
+        "historical_comparison": {"value": "from 2022 through 2026, the share of subsidies among crisis responses was more than three times the share of cash transfers", "unit": "reported comparative policy mix", "value_type": "reported_historical_comparison"},
+        "political_logic": {"value": "subsidies can be introduced quickly, suppress visible price increases, support selected sectors, and appear more scalable than alternatives even when they are fiscally costly", "unit": "bounded political-economy mechanism", "value_type": "bounded_mechanism"},
+        "consumer_translation": {"value": "the policy instrument changes whether relief appears as a lower price, a transfer, a service, or a less visible future fiscal burden", "unit": "bounded household-consumption mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-crisis descriptive comparison of classified social-assistance, subsidy, labor-market, insurance, service, and preparedness responses.",
+      "uncertainty": "Instrument shares do not establish which response protected households best; subsidies may stabilize prices or sectors while benefiting groups unevenly and weakening fiscal room for later protection.",
+      "subgroup": "Energy consumers, firms, sectors, taxpayers, cash-transfer recipients, informal households, and groups with different ability to absorb inflation or access administrative systems.",
+      "counterinterpretation": "Cash transfers may be more distributionally efficient in theory but slower or harder to deliver where registries, payment systems, trust, or fiscal space are weak; subsidies can have non-income objectives such as price containment or energy security.",
+      "source_url": "https://documents.worldbank.org/curated/en/099351409162612673/pdf/IDU-4312dfec-0ddd-4d76-8ccb-247fe5e53907.pdf",
+      "retrieval_hash": "sha256:d0eb52b4c97a51b6fe2ac207a786dd48d6e426a68184eb49b14e2f6d3fdb2d44",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; crisis-ready social-protection architecture",
+      "denominator": {"value": 4, "unit": "illustrative reform scenarios for making social protection more crisis ready", "value_type": "reported_reform_frame"},
+      "measures": {
+        "scalability_rule": {"value": "prepare seriously, scale up temporarily, and scale down credibly", "unit": "reported design principle", "value_type": "reported_policy_principle"},
+        "institutional_requirement": {"value": "crisis response requires pre-agreed triggers, delivery infrastructure, financing, communication, and a credible exit path rather than improvisation after prices rise", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "legitimacy_test": {"value": "temporary protection is politically durable only if households can understand eligibility, receive support in time, and believe withdrawal rules are predictable rather than arbitrary", "unit": "bounded legitimacy mechanism", "value_type": "bounded_mechanism"},
+        "open_outcome": {"value": "the paper proposes reform scenarios and a framework, not a causal evaluation of household welfare or trust", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Conceptual crisis-response framework and four illustrative reform scenarios grounded in comparative policy tracking.",
+      "uncertainty": "The scenarios are design propositions; their effectiveness depends on country-specific administrative capacity, fiscal rules, political coalitions, shock duration, and household take-up.",
+      "subgroup": "Existing beneficiaries, newly exposed households, people outside registries, workers and firms affected by price transmission, and taxpayers funding temporary expansion.",
+      "counterinterpretation": "Automatic triggers and exit rules can improve credibility but may be too rigid for shocks that change in composition, or may withdraw support before households regain income and service stability.",
+      "source_url": "https://documents.worldbank.org/curated/en/099351409162612673/pdf/IDU-4312dfec-0ddd-4d76-8ccb-247fe5e53907.pdf",
+      "retrieval_hash": "sha256:d0eb52b4c97a51b6fe2ac207a786dd48d6e426a68184eb49b14e2f6d3fdb2d44",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099351409162612673", "claim": "Official World Bank document page for WPS11454 and its subject metadata."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11454.html", "claim": "Bibliographic record and abstract for WPS11454."},
+    {"source_url": "https://www.brookings.edu/articles/social-protection-energy-prices-lessons/", "claim": "Author-authored contemporaneous summary of the response tracker, subsidy dominance, fiscal constraints, and crisis-insurance framing."},
+    {"source_url": "https://researchrepository.ilo.org/esploro/outputs/report/Tracking-Global-Social-Policy-Responses-to/995707172102676", "claim": "Related World Bank/ILO tracker covering 195 countries, 3,842 data points, and five social-policy categories."}
+  ],
+  "boundary": "This record adds crisis scalability and policy-instrument choice as a social-protection, household-cost, and legitimacy mechanism. It does not estimate household welfare, receipt, poverty reduction, trust, or causal protection effects, and it does not establish that subsidies are always inferior to transfers or that automatic triggers work equally across countries.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, official document page, abstract record, author summary, and related tracker metadata were reviewed for the 2026 response count, country coverage, policy mix, historical comparison, crisis-response framework, four reform scenarios, and evidence boundaries.",
+    "source_url_sha256": "sha256:d0eb52b4c97a51b6fe2ac207a786dd48d6e426a68184eb49b14e2f6d3fdb2d44",
+    "checked": "2026-09-29"
+  }
+}

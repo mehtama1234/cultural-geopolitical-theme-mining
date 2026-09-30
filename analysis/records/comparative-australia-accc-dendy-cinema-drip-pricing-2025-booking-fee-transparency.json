@@ -1,0 +1,142 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-accc-dendy-cinema-drip-pricing-2025-booking-fee-transparency",
+  "title": "Australian cinema ticketing shows physical cultural access can be distorted by late mandatory fees",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Australian Competition and Consumer Commission Dendy Cinema drip-pricing infringement notice",
+  "geography": "Australia; Dendy cinemas in New South Wales, Queensland, and the Australian Capital Territory",
+  "observations": [
+    {
+      "period": "25 June 2025 ACCC enforcement notice; Dendy online ticket-booking process",
+      "denominator": {
+        "value": 52,
+        "unit": "Dendy screens across six cinemas in NSW, Queensland, and the ACT",
+        "value_type": "official_business_footprint"
+      },
+      "measures": {
+        "penalty": {
+          "value": 19800,
+          "unit": "Australian dollars infringement-notice penalty paid by Dendy Cinema Pty Ltd",
+          "value_type": "official_penalty_amount"
+        },
+        "hidden_mandatory_fee": {
+          "value": "unavoidable per-ticket booking fee was excluded from the prominently displayed price and total price appeared only in the final stages of the online transaction",
+          "unit": "documented alleged drip-pricing practice",
+          "value_type": "official_enforcement_finding"
+        },
+        "mechanism": {
+          "value": "A physical cultural outing can become less comparable and less affordable when the mandatory booking fee appears after consumers have invested time in selecting a film and session",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ACCC infringement notice announcement concerning Dendy's online movie-ticket price display; the ACCC states the conduct was alleged and that payment of the notice is not an admission of contravention.",
+      "uncertainty": "The notice does not quantify affected ticket buyers, fee amounts per transaction, abandoned bookings, refunds, or attendance loss; an infringement-notice payment is not an admission of contravention.",
+      "subgroup": "Consumers using Dendy's online ticket-booking process across the six cinemas.",
+      "counterinterpretation": "The booking fee may be small relative to the ticket and some consumers may have proceeded regardless; the case establishes a price-display concern, not realized welfare loss.",
+      "source_url": "https://www.accc.gov.au/media-release/dendy-pays-penalties-for-alleged-drip-pricing-practices",
+      "retrieval_hash": "sha256:d11b159a6e8e717ea77797940dae116c5d6776b442d9b63ba6b3631b66d2ff37",
+      "status": "reported"
+    },
+    {
+      "period": "25 June 2025 ACCC notice; price-display obligation",
+      "denominator": {
+        "value": null,
+        "unit": "Dendy online ticket offers; no transaction denominator disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "earliest_opportunity_rule": {
+          "value": "businesses must prominently show the total minimum quantifiable price, including mandatory fees, at the earliest opportunity in the booking process",
+          "unit": "ACCC consumer-law guidance",
+          "value_type": "official_policy_rule"
+        },
+        "consumer_decision_effect": {
+          "value": "the ACCC said showing only part of the movie-ticket price reduced consumers' ability to make an informed purchasing decision",
+          "unit": "regulator-stated consumer-protection mechanism",
+          "value_type": "official_regulator_assessment"
+        },
+        "industry_monitoring": {
+          "value": "the ACCC said it was examining cinema-industry pricing practices more broadly",
+          "unit": "sector-level follow-up action",
+          "value_type": "official_regulatory_follow_up"
+        },
+        "mechanism": {
+          "value": "Price transparency is a cultural-access control because the point at which a fee is shown changes comparison, commitment, and the time cost of exiting the purchase path",
+          "unit": "bounded policy mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ACCC announcement and consumer-law explanation accompanying the Dendy infringement notice.",
+      "uncertainty": "The ACCC statement does not establish whether other cinemas breached the law, whether industry practices changed, or whether consumers received compensation.",
+      "subgroup": "Australian cinema consumers and cinema businesses using online ticket sales.",
+      "counterinterpretation": "A sector review or public warning may improve compliance without changing ticket affordability, film availability, or geographic access to cinemas.",
+      "source_url": "https://www.accc.gov.au/media-release/dendy-pays-penalties-for-alleged-drip-pricing-practices",
+      "retrieval_hash": "sha256:d11b159a6e8e717ea77797940dae116c5d6776b442d9b63ba6b3631b66d2ff37",
+      "status": "reported"
+    },
+    {
+      "period": "25 June 2025 ACCC notice; Australian consumer-protection priority context",
+      "denominator": {
+        "value": null,
+        "unit": "ACCC 2025-26 compliance and enforcement priorities; no consumer denominator disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "priority": {
+          "value": "misleading surcharging practices and other add-on costs",
+          "unit": "ACCC 2025-26 compliance and enforcement priority",
+          "value_type": "official_policy_priority"
+        },
+        "cultural_channel": {
+          "value": "cinema ticketing",
+          "unit": "physical cultural-consumption channel",
+          "value_type": "official_sector"
+        },
+        "cross_case_link": {
+          "value": "Dendy's cinema fee case extends the same late-price mechanism found in UK live-event ticketing and EU marketplaces into a venue-level cultural transaction",
+          "unit": "bounded cross-source mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Cross-source interpretation anchored in the ACCC's stated enforcement priority and the Dendy cinema case; no statistical pooling is claimed.",
+      "uncertainty": "The cases differ in law, scale, platform structure, fee size, and remedy; they cannot establish a universal prevalence rate for drip pricing or a common causal effect on cultural participation.",
+      "subgroup": "Consumers of cinema, live events, second-hand marketplaces, and other online-booked cultural services.",
+      "counterinterpretation": "The repeated enforcement mechanism may reflect regulator selection of visible cases rather than broad market prevalence; other fee practices may be lawful and clearly disclosed.",
+      "source_url": "https://www.accc.gov.au/media-release/dendy-pays-penalties-for-alleged-drip-pricing-practices",
+      "retrieval_hash": "sha256:d11b159a6e8e717ea77797940dae116c5d6776b442d9b63ba6b3631b66d2ff37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.accc.gov.au/business/pricing/price-displays",
+      "claim": "Current ACCC price-display guidance says a business may show a service price excluding a mandatory booking fee only if it also prominently displays the price inclusive of that fee; the guidance preserves the earliest-comparable-price rule while leaving fee amounts and cinema demand outcomes unmeasured.",
+      "retrieval_hash": "sha256:d2148e79e431888fab58c78acd2f0930b0352eb12f3f733f7524e6118b49a840",
+      "status": "official-follow-up; shell retrieval blocked with HTTP 403"
+    },
+    {
+      "source_url": "https://www.accc.gov.au/business/selling-products-and-services/selling-tickets-to-events",
+      "claim": "ACCC ticket-selling guidance explains that businesses must not hide costs or other important ticket conditions from consumers.",
+      "status": "official-policy-context"
+    },
+    {
+      "source_url": "https://www.gov.uk/government/news/cma-orders-stubhub-uk-to-refund-customers-over-hidden-fees",
+      "claim": "The UK StubHub case provides a cross-jurisdiction live-event comparator with hidden fees, automatic refunds, and a financial penalty.",
+      "status": "official-comparator"
+    }
+  ],
+  "boundary": "This record adds an Australian physical-culture enforcement episode linking cinema access to mandatory booking fees, late price disclosure, consumer decision time, and sector monitoring. The ACCC source was browser-readable but returned a 403 to shell retrieval in this pass; the retrieval hash therefore identifies the blocked response, while the reported facts are transcribed from the official ACCC publication. It does not estimate consumer harm, refund completion, attendance exclusion, or industry-wide prevalence.",
+  "retrieval_hash": "sha256:d11b159a6e8e717ea77797940dae116c5d6776b442d9b63ba6b3631b66d2ff37"
+}

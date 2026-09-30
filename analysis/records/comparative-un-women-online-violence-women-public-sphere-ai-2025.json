@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-online-violence-women-public-sphere-ai-2025",
+  "title": "Technology-facilitated violence is becoming a civic-space and public-participation constraint for women",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UN Women, Tipping point: The chilling escalation of violence against women in the public sphere in the age of AI",
+  "geography": "Women in public life and public debate across 119 countries, with global survey and policy synthesis",
+  "observations": [
+    {
+      "period": "2025 publication; global survey and synthesis across 119 countries",
+      "denominator": {"value": 119, "unit": "countries represented in the global survey described by UN Women", "value_type": "country_coverage_frame"},
+      "measures": {
+        "public_sphere_targeting": {"value": "women who speak publicly, report news, or defend human rights are targeted by online threats, abuse, and misinformation", "unit": "UN Women publication finding", "value_type": "reported_pattern"},
+        "participation_constraint": {"value": "online attacks are framed as a threat to women’s ability to participate freely in public debate", "unit": "UN Women assessment", "value_type": "reported_mechanism"},
+        "civic_space_link": {"value": "technology-facilitated violence is connected to shrinking civic space and backlash against women’s rights", "unit": "UN Women synthesis", "value_type": "reported_system_link"},
+        "public_actor_set": {"value": "journalists, human-rights defenders, and other women speaking in public are visible target groups", "unit": "publication scope", "value_type": "reported_subgroup_set"}
+      },
+      "method": "UN Women publication combining a global survey of women from 119 countries with analysis of technology-facilitated violence, public participation, and policy response.",
+      "uncertainty": "The source describes a global survey and public-space pattern; it is not a population prevalence estimate for every country, a platform incident census, or a causal estimate of participation loss.",
+      "subgroup": "Women journalists, activists, human-rights defenders, public officials, advocates, and others who speak or organize in public spaces.",
+      "counterinterpretation": "Online public participation can expand reach and solidarity; the finding concerns unequal exposure to abuse and retaliation, not an inevitable result of digital expression.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2025/12/tipping-point-the-chilling-escalation-of-violence-against-women-in-the-public-sphere-in-the-age-of-ai",
+      "retrieval_hash": "sha256:fa19bfbf621a3b15606288b57bc83953932772704031c7517f48faee907de6c3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 publication; online-to-offline safety and well-being pathway",
+      "denominator": {"value": 1, "unit": "UN Women technology-facilitated violence pathway", "value_type": "harm_pathway_frame"},
+      "measures": {
+        "online_offline_spillover": {"value": "harm that begins online can spill into offline intimidation, safety risks, and real-world harm", "unit": "UN Women publication finding", "value_type": "reported_mechanism"},
+        "wellbeing_endpoint": {"value": "online violence affects safety and well-being as well as public participation", "unit": "UN Women assessment", "value_type": "reported_endpoint"},
+        "visibility_cost": {"value": "the threat can raise the personal and social cost of speaking, reporting, organizing, or defending rights", "unit": "synthesis of the publication's participation pathway", "value_type": "reported_mechanism"},
+        "boundary": {"value": "digital abuse should not be treated as a separate or merely virtual harm category", "unit": "UN Women framing", "value_type": "reported_boundary"}
+      },
+      "method": "Policy and evidence synthesis linking online abuse to offline safety, well-being, and civic participation.",
+      "uncertainty": "The publication does not provide a universal conversion rate from online abuse to offline harm, and exposure and consequences vary by context, platform, identity, and access to support.",
+      "subgroup": "Women with public roles, women facing intersectional discrimination, journalists and defenders with visible public profiles, and people supporting or reporting abuse.",
+      "counterinterpretation": "Not every online attack produces offline harm, but the possibility of spillover is sufficient to make platform governance and public safety connected policy issues.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2025/12/tipping-point-the-chilling-escalation-of-violence-against-women-in-the-public-sphere-in-the-age-of-ai",
+      "retrieval_hash": "sha256:fa19bfbf621a3b15606288b57bc83953932772704031c7517f48faee907de6c3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 publication; AI-enabled scaling and control problem",
+      "denominator": {"value": 1, "unit": "UN Women AI and technology-facilitated violence assessment", "value_type": "technology_risk_frame"},
+      "measures": {
+        "content_generation": {"value": "AI and other technologies make abusive content easier to create", "unit": "UN Women publication finding", "value_type": "reported_mechanism"},
+        "control_difficulty": {"value": "AI makes abusive content harder to control", "unit": "UN Women publication finding", "value_type": "reported_mechanism"},
+        "governance_gap": {"value": "the accelerating capacity to produce abuse increases pressure on platforms, regulators, and legal systems to detect, remove, prevent, and remedy it", "unit": "publication implication", "value_type": "reported_governance_need"},
+        "power_endpoint": {"value": "technology can alter who can speak safely and who is pushed out of public life", "unit": "UN Women synthesis", "value_type": "reported_system_link"}
+      },
+      "method": "UN Women analysis of technology-facilitated violence with specific attention to AI-enabled production and control challenges.",
+      "uncertainty": "The source identifies a direction of technological change but does not estimate future attack volumes, attribute all abuse to AI, or evaluate the effectiveness of specific detection systems.",
+      "subgroup": "Women public figures, journalists, activists, human-rights defenders, platforms, regulators, law-enforcement and support organizations.",
+      "counterinterpretation": "AI can also support moderation, documentation, and safety tools; governance quality determines whether it amplifies abuse or helps reduce it.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2025/12/tipping-point-the-chilling-escalation-of-violence-against-women-in-the-public-sphere-in-the-age-of-ai",
+      "retrieval_hash": "sha256:fa19bfbf621a3b15606288b57bc83953932772704031c7517f48faee907de6c3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 publication; recommended public, legal, and platform response",
+      "denominator": {"value": 1, "unit": "UN Women response framework", "value_type": "policy_response_frame"},
+      "measures": {
+        "platform_route": {"value": "digital platforms should become safer and more capable of responding to technology-facilitated violence", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "legal_route": {"value": "legal protections should be strengthened to address online and technology-facilitated abuse", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "support_route": {"value": "women experiencing abuse need support to remain safe and participate in public life", "unit": "UN Women recommendation", "value_type": "reported_policy_route"},
+        "accountability_boundary": {"value": "response requires coordination among platforms, governments, civil society, and affected women rather than treating abuse as an individual resilience problem", "unit": "publication framework", "value_type": "reported_governance_set"}
+      },
+      "method": "UN Women policy recommendations grounded in the publication's global survey and public-participation analysis.",
+      "uncertainty": "The recommendations are not an implementation audit or evaluation of a particular law, platform intervention, or support service.",
+      "subgroup": "Women affected by online violence, platforms, regulators, justice systems, civil-society organizations, and public institutions responsible for civic-space protection.",
+      "counterinterpretation": "Stronger rules can improve safety, but overbroad moderation or weak due process can also restrict legitimate speech; remedy and proportionality remain important.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2025/12/tipping-point-the-chilling-escalation-of-violence-against-women-in-the-public-sphere-in-the-age-of-ai",
+      "retrieval_hash": "sha256:fa19bfbf621a3b15606288b57bc83953932772704031c7517f48faee907de6c3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/making-digital-public-infrastructure-work-for-women-and-girls-exemplar-stories", "claim": "Related UN Women publication on gender-inclusive digital public infrastructure and safeguards."},
+    {"source_url": "https://www.unwomen.org/en/resources", "claim": "UN Women publication catalogue and related technology-facilitated violence resources."}
+  ],
+  "boundary": "This record adds a civic-space and platform-governance route across online violence, offline safety, AI-enabled abuse, women’s public participation, legal protection, platform accountability, and support. It uses a UN Women global survey and policy synthesis, not a country-by-country prevalence census, raw platform incident logs, respondent-level harm histories, causal participation estimates, or proof that every moderation or legal response is effective and proportionate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Women publication listing and search-visible publication summary reviewed for the 119-country survey scope, public-sphere targeting, online-to-offline spillover, AI escalation, civic-space link, and response recommendations.",
+    "source_url_sha256": "sha256:fa19bfbf621a3b15606288b57bc83953932772704031c7517f48faee907de6c3",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-freedom-forum-first-amendment-2026-expression-knowledge-surveillance",
+  "title": "Americans value First Amendment freedoms while knowledge gaps, self-censorship and surveillance concerns constrain everyday participation",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Freedom Forum, The First Amendment: Where America Stands 2026",
+  "geography": "United States; adults aged 16 and older, with selected college, generational, racial/ethnic, education and income comparisons",
+  "observations": [
+    {
+      "period": "July 24-August 3, 2026; U.S. respondents aged 16+",
+      "denominator": {"value": 804, "unit": "online U.S. respondents aged 16 and older", "value_type": "reported_sample"},
+      "measures": {
+        "first_amendment_vital": {"value": 91, "unit": "percent saying the First Amendment is vital to America", "value_type": "published_share"},
+        "first_amendment_goes_too_far": {"value": "24; 13 in 2025", "unit": "percent; 2026 and prior-year comparison", "value_type": "published_change"},
+        "campus_free_exchange": {"value": 57, "unit": "percent saying college campuses should foster a free exchange of ideas", "value_type": "published_share"},
+        "hate_speech_awareness": {"value": 67, "unit": "percent correctly recognizing that the First Amendment protects hate speech", "value_type": "published_share"}
+      },
+      "method": "Annual Freedom Forum online survey designed and conducted for the organization by McKee Wallwork and Decision Analyst using proprietary research methodologies; respondents were drawn from American Consumer Opinion, Decision Analyst and partner panels and could respond in English or Spanish.",
+      "uncertainty": "The sample is an online panel rather than a probability sample of all U.S. residents, and the publicly released report is an overview while full survey results are available upon request; subgroup margins may be higher than the overall ±3.4 percentage points.",
+      "subgroup": "U.S. respondents aged 16 and older, including college students, Gen Z and other generations.",
+      "counterinterpretation": "Valuing a constitutional freedom and believing it goes too far can coexist because respondents may support the principle while disagreeing about specific applications, tradeoffs or groups protected.",
+      "source_url": "https://www.freedomforum.org/was-report-2026",
+      "retrieval_hash": "sha256:6b6cbf468df70beb1c8aefe798531e344ed58ded25a1d2d90555c5808a05359b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; reported reasons for not speaking freely",
+      "denominator": {"value": 804, "unit": "online U.S. respondents aged 16 and older", "value_type": "reported_sample"},
+      "measures": {
+        "do_not_speak_freely": {"value": 60, "unit": "percent saying they do not speak freely", "value_type": "published_share"},
+        "college_students_do_not_speak_freely": {"value": 81, "unit": "percent of current college students", "value_type": "published_subgroup_share"},
+        "gen_z_do_not_speak_freely": {"value": 69, "unit": "percent of Gen Z respondents", "value_type": "published_subgroup_share"},
+        "fear_violent_response": {"value": 33, "unit": "percent citing fear of a violent response", "value_type": "published_share"},
+        "fear_family_tension": {"value": 30, "unit": "percent citing fear of creating tension with friends or family", "value_type": "published_share"},
+        "surveillance_discourages_protest": {"value": 37, "unit": "percent saying surveillance technologies discouraged protest participation", "value_type": "published_share"}
+      },
+      "method": "Self-reported online survey questions about speech, participation and perceived deterrents; multiple reasons could be selected.",
+      "uncertainty": "The survey measures perceived inhibition rather than observed speech, protest or political-group participation and cannot identify whether surveillance, violence, family tension or other factors caused withdrawal.",
+      "subgroup": "U.S. adults and older teens, with college-student, generational and racial/ethnic comparisons.",
+      "counterinterpretation": "The report also finds that the share saying nothing keeps them from speaking freely has risen to 36% and that deterrence measures have declined since 2024, so the pattern is not uniformly worsening.",
+      "source_url": "https://www.freedomforum.org/was-report-2026",
+      "retrieval_hash": "sha256:6b6cbf468df70beb1c8aefe798531e344ed58ded25a1d2d90555c5808a05359b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; First Amendment knowledge and practical understanding",
+      "denominator": {"value": 804, "unit": "online U.S. respondents aged 16 and older", "value_type": "reported_sample"},
+      "measures": {
+        "say_informed": {"value": 86, "unit": "percent saying they are informed about First Amendment rights", "value_type": "published_share"},
+        "name_all_five": {"value": 11, "unit": "percent able to name all five freedoms without prompting", "value_type": "published_share"},
+        "name_none": {"value": 26, "unit": "percent unable to name a single freedom without prompting", "value_type": "published_share"},
+        "private_workplace_misconception": {"value": 73, "unit": "percent incorrectly believing the First Amendment applies to private workplaces", "value_type": "published_share"},
+        "education_gradient": {"value": "20% of advanced-degree respondents versus 8% of respondents with a high-school education or less could name all five freedoms", "unit": "education-group comparison", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Unaided knowledge questions and self-assessed knowledge in the Freedom Forum survey.",
+      "uncertainty": "Naming a freedom is only one measure of civic knowledge; the survey does not test legal reasoning, actual rights exercise, classroom instruction or whether greater knowledge changes behavior.",
+      "subgroup": "U.S. respondents aged 16 and older, with education and generation comparisons.",
+      "counterinterpretation": "The gap between confidence and unaided recall may reflect the difference between abstract awareness and practical application rather than simple civic indifference.",
+      "source_url": "https://www.freedomforum.org/was-report-2026",
+      "retrieval_hash": "sha256:6b6cbf468df70beb1c8aefe798531e344ed58ded25a1d2d90555c5808a05359b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; online information, government control and press legitimacy",
+      "denominator": {"value": 804, "unit": "online U.S. respondents aged 16 and older", "value_type": "reported_sample"},
+      "measures": {
+        "government_transparency_social_media": {"value": 74, "unit": "percent saying government should be transparent about communication with social media companies about content moderation", "value_type": "published_share"},
+        "concern_government_control": {"value": 63, "unit": "percent concerned government has too much control over what can be said in media or online", "value_type": "published_share"},
+        "verify_online_images": {"value": 77, "unit": "percent using some method to verify online images and videos", "value_type": "published_share"},
+        "always_trust_online_media": {"value": 5, "unit": "percent always trusting images and videos posted online from the media", "value_type": "published_share"},
+        "news_watchdog": {"value": 60, "unit": "percent saying it is important for news media to serve as a government watchdog", "value_type": "published_share"}
+      },
+      "method": "Self-reported survey measures of digital trust, verification, content moderation and press roles.",
+      "uncertainty": "The findings describe public judgments and reported verification, not the accuracy of verification, the content people encounter, platform enforcement or the effects of government-platform communication.",
+      "subgroup": "U.S. respondents aged 16 and older, with Gen Z reporting higher verification than older generations.",
+      "counterinterpretation": "Skepticism toward online media and government control can support verification and oversight, but it can also make shared factual authority harder to sustain.",
+      "source_url": "https://www.freedomforum.org/was-report-2026",
+      "retrieval_hash": "sha256:6b6cbf468df70beb1c8aefe798531e344ed58ded25a1d2d90555c5808a05359b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.freedomforum.org/where-america-stands/", "claim": "Official 2026 survey overview with findings, subgroup comparisons and link to the report."},
+    {"source_url": "https://www.freedomforum.org/about-freedom-forum/media-advisory/2026-09-22/", "claim": "Freedom Forum release describing the 2026 survey launch, headline findings and field dates."}
+  ],
+  "boundary": "This record captures a civic-legitimacy and participation signal: Americans broadly value First Amendment freedoms while practical knowledge, expression confidence, surveillance concerns, online verification and views of government-platform control shape how those freedoms are experienced. The source is an advocacy-organization-sponsored online panel survey with proprietary methods and an overview of publicly released results; it is not a probability-sample population estimate, legal assessment, behavioral trace, causal participation study or measure of actual government censorship.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Freedom Forum 2026 report and survey overview were browser-reviewed for field dates, sample size, margin of error, First Amendment valuation, speech inhibition, knowledge, surveillance, online verification, press and government-control findings. The public PDF endpoint was not directly retrievable from the shell, so the stored fingerprint is a SHA-256 of the canonical report URL rather than a downloaded-file hash.",
+    "source_url_sha256": "sha256:6b6cbf468df70beb1c8aefe798531e344ed58ded25a1d2d90555c5808a05359b",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-circularity-playbook-2026-resource-security-repair-revenue",
+  "title": "Circularity is moving from an environmental aspiration toward a resource-security, repair, resilience, and recurring-revenue strategy",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Economic Forum and Bain & Company, The Resilience-to-Growth Circularity Playbook for Industrial Solutions and Manufacturing",
+  "geography": "Industrial Solutions and Manufacturing executives across seven regions and ten industries, including a 94-person IS&M subgroup",
+  "observations": [
+    {
+      "period": "June 2026 executive survey; current and three-year circularity importance",
+      "denominator": {"value": 430, "unit": "senior executives surveyed across ten industries and seven regions; IS&M subgroup n=94", "value_type": "published_executive_survey_sample"},
+      "measures": {
+        "current_importance": {"value": 80, "unit": "percent of executives saying circularity is important or very important to their organization today", "value_type": "reported_share"},
+        "three_year_importance": {"value": 94, "unit": "percent expecting circularity to be important or very important within three years", "value_type": "reported_share"},
+        "embedded_strategy": {"value": "two-thirds report circular strategies embedded across one or more divisions or fully integrated into core strategy", "unit": "reported organizational pattern", "value_type": "reported_approximate_pattern"},
+        "execution_gap": {"value": "cost, operational complexity, limited material visibility, immature secondary markets, fragmented ecosystems, and linear governance constrain scale", "unit": "reported barrier set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "WEF and Bain executive survey with 430 senior executives, including 94 leading Industrial Solutions and Manufacturing organizations, supplemented by company examples and playbook synthesis.",
+      "uncertainty": "The survey is an executive perspective sample rather than a representative census of firms; stated importance and strategy integration do not establish investment, material recovery, profitability, or environmental outcomes.",
+      "subgroup": "Industrial Solutions and Manufacturing executives, business units, suppliers, customers, repair and remanufacturing networks, and secondary-material markets.",
+      "counterinterpretation": "Circularity may rise as a strategic label without changing production volumes, labor conditions, product affordability, or material throughput; some linear processes remain efficient or necessary in specific contexts.",
+      "source_url": "https://www.weforum.org/publications/the-resilience-to-growth-circularity-playbook-for-industrial-solutions-and-manufacturing/",
+      "retrieval_hash": "sha256:6dbfa797f265e7cec664b6a48426cfe113e91f9e0420ec2183c52eefdec1d242",
+      "status": "reported"
+    },
+    {
+      "period": "2026; circularity's revenue, cost, and resource-security potential",
+      "denominator": {"value": 94, "unit": "IS&M executives in the Circularity for Competitiveness and Resilience Executive Survey", "value_type": "published_sector_survey_subsample"},
+      "measures": {
+        "revenue_potential": {"value": 70, "unit": "percent expecting circular activities to contribute at least 20% of revenue at full potential", "value_type": "reported_share"},
+        "operating_cost_reduction": {"value": 65, "unit": "percent expecting circularity to reduce operating costs at full potential", "value_type": "reported_share"},
+        "resource_security": {"value": 77, "unit": "percent saying circularity could substantially address resource security if scaled", "value_type": "reported_share"},
+        "virgin_material_pressure": {"value": 81, "unit": "percent likely or extremely likely to pursue circularity because of rising cost or reduced availability of virgin materials", "value_type": "reported_share"}
+      },
+      "method": "WEF and Bain sector survey asking IS&M executives about the full potential of circular models, resource security, costs, and revenues.",
+      "uncertainty": "Full-potential estimates are expectations, not realized revenue shares or cost reductions; they depend on market design, customer demand, secondary-material quality, financing, and execution.",
+      "subgroup": "Industrial machinery, equipment, manufacturing, service, refurbishment, remanufacturing, and resource-recovery businesses.",
+      "counterinterpretation": "Circular business models can create recurring revenue and resilience while also requiring upfront capital, new skills, reverse logistics, and potentially higher service or product prices.",
+      "source_url": "https://www.weforum.org/publications/the-resilience-to-growth-circularity-playbook-for-industrial-solutions-and-manufacturing/",
+      "retrieval_hash": "sha256:6dbfa797f265e7cec664b6a48426cfe113e91f9e0420ec2183c52eefdec1d242",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; critical-material and linear-supply-chain exposure",
+      "denominator": {"value": 94, "unit": "IS&M executive survey subgroup, with report-level industrial supply-chain context", "value_type": "published_sector_survey_and_context_frame"},
+      "measures": {
+        "critical_material_visibility": {"value": 26, "unit": "percent of companies with a clear picture of exposure to critical raw materials and rare-earth elements", "value_type": "reported_share"},
+        "material_restrictions": {"value": 228, "unit": "global critical-mineral import and export restrictions enacted in 2025 according to the report's cited context", "value_type": "reported_count"},
+        "rare_earth_supply_coverage": {"value": "35-40%", "unit": "share of 2035 demand covered by remaining global rare-earth and graphite supplies if supply from the dominant geography were disrupted, under the report's cited scenario", "value_type": "reported_scenario_range"},
+        "margin_pressure": {"value": "average gross margins in the referenced IS&M context declined from 32% to 27% over the 15 years to 2024", "unit": "reported margin change", "value_type": "reported_change"}
+      },
+      "method": "WEF and Bain survey combined with cited trade, material-concentration, margin, and supply-risk context; scenario values are retained as reported rather than treated as forecasts.",
+      "uncertainty": "The critical-material scenario depends on assumptions about demand, substitution, recycling, trade, and dominant-geography disruption; restrictions and margin context do not prove circularity would solve supply risk.",
+      "subgroup": "Manufacturers dependent on steel, aluminium, copper, nickel, lithium, graphite, rare earths, and concentrated global supply chains.",
+      "counterinterpretation": "Material restrictions can prompt substitution, diversification, and innovation; critical-material exposure differs sharply by product, geography, inventory, contracts, and recovery capability.",
+      "source_url": "https://www.weforum.org/publications/the-resilience-to-growth-circularity-playbook-for-industrial-solutions-and-manufacturing/",
+      "retrieval_hash": "sha256:6dbfa797f265e7cec664b6a48426cfe113e91f9e0420ec2183c52eefdec1d242",
+      "status": "reported"
+    },
+    {
+      "period": "2026; circularity as repair, service, and installed-base strategy",
+      "denominator": {"value": 1, "unit": "WEF/Bain circularity playbook framework for industrial products and equipment already in use", "value_type": "published_strategy_frame"},
+      "measures": {
+        "installed_base_route": {"value": "repair, refurbishment, remanufacturing, modernization, leasing, rental, as-a-service, and end-of-life recovery are identified as routes to extend use and recover value", "unit": "reported circular-business mechanism set", "value_type": "reported_mechanism_set"},
+        "customer_capex_route": {"value": "customers seeking to delay capital expenditure and prolong equipment life can align with service-led circular propositions", "unit": "reported market mechanism", "value_type": "reported_mechanism"},
+        "policy_enabler": {"value": 63, "unit": "percent of IS&M executives naming regulation and policy as key enablers for their circular journey", "value_type": "reported_share"},
+        "three_step_route": {"value": "quantify risk and value, codify high-value circular moves, and amplify through governance, data, partnerships, and finance", "unit": "reported implementation framework", "value_type": "reported_policy_route"}
+      },
+      "method": "WEF/Bain playbook synthesis of executive survey findings, industrial examples, and a three-step implementation framework.",
+      "uncertainty": "The framework describes potential value routes rather than demonstrating uptake, product-level durability, repair access, worker outcomes, customer savings, or reduced material extraction.",
+      "subgroup": "Equipment owners, manufacturers, repair workers, service providers, consumers of durable goods, regulators, financiers, and material-recovery systems.",
+      "counterinterpretation": "Extending product life can reduce replacement demand but may delay adoption of safer or more efficient technologies; service models can improve access while increasing dependence on manufacturers and data platforms.",
+      "source_url": "https://www.weforum.org/publications/the-resilience-to-growth-circularity-playbook-for-industrial-solutions-and-manufacturing/",
+      "retrieval_hash": "sha256:6dbfa797f265e7cec664b6a48426cfe113e91f9e0420ec2183c52eefdec1d242",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/", "claim": "WEF Chief Sustainability Officers' Outlook provides complementary transition, adaptation, AI-resource, and resilience-capital context."},
+    {"source_url": "https://www.iea.org/reports/world-energy-investment-2026", "claim": "IEA World Energy Investment provides complementary energy and material-transition investment context."},
+    {"source_url": "https://www.oecd.org/environment/waste/", "claim": "OECD waste and resource-productivity work provides complementary policy and material-circularity context."}
+  ],
+  "boundary": "This record adds a circularity, resource-security, repair, and industrial-market route across supply-chain volatility, critical materials, installed equipment, recurring revenue, operating costs, regulation, and resilience. It uses a WEF/Bain executive survey and strategy synthesis, not verified circular flows, consumer repair access, product prices, worker outcomes, material substitution, causal profitability, or proof that circularity produces equitable environmental gains.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF Circularity Playbook page and linked PDF were retrieved and reviewed for executive sample, circularity importance, revenue and cost expectations, critical-material exposure, supply-chain context, installed-base routes, policy enablers, and implementation framework.",
+    "source_url_sha256": "sha256:6dbfa797f265e7cec664b6a48426cfe113e91f9e0420ec2183c52eefdec1d242",
+    "checked": "2026-09-26"
+  }
+}

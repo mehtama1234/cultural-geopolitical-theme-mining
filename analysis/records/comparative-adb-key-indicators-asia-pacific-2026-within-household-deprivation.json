@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-adb-key-indicators-asia-pacific-2026-within-household-deprivation",
+  "title": "Household-level poverty can conceal unequal access to health, internet, property, and decision power within the same family",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Asian Development Bank, Key Indicators for Asia and the Pacific 2026",
+  "geography": "Asia and the Pacific; theme analysis of 23 developing economies and statistical indicators for 50 ADB regional member economies",
+  "observations": [
+    {
+      "period": "2026 report; household versus individual deprivation",
+      "denominator": {"value": 23, "unit": "developing economies in the report's thematic analysis of deprivation", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "dual_lens": {"value": "The report combines shared household circumstances with individual experiences to measure socioeconomic deprivation", "unit": "reported measurement framework", "value_type": "reported_framework"},
+        "hidden_deprivation": {"value": "A substantial share of people experience individual deprivation while living in households that are not classified as poor", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "resource_distribution": {"value": "People in the same household do not necessarily share the same opportunities, resources, or decision-making power", "unit": "reported analytical finding", "value_type": "reported_mechanism"},
+        "measurement_meaning": {"value": "Household averages can hide who receives capability, access, and agency within the household", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ADB thematic analysis combining household-level and individual-level deprivation indicators across 23 developing economies in Asia and the Pacific.",
+      "uncertainty": "The report's individual deprivation measures and country coverage do not establish causal household bargaining processes or imply that every non-poor household contains the same pattern of hidden deprivation.",
+      "subgroup": "Women, men, children, working-age adults, older people, rural and urban residents, and individuals within households with different resource and decision positions.",
+      "counterinterpretation": "Household pooling can provide protection and shared resources; individual deprivation indicators identify unequal outcomes but do not by themselves show whether intra-household allocation, external institutions, or personal needs are the main cause.",
+      "source_url": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2026",
+      "retrieval_hash": "sha256:d3601b470f72a2b6c4398e83508cbe1b982e2c0b6e69c6b2c46c1a4115ab00d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; demographic and spatial inequality in individual deprivation",
+      "denominator": {"value": 23, "unit": "developing economies in the report's thematic analysis", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "gender_pattern": {"value": "Women are consistently identified among groups experiencing greater individual deprivation", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "rural_pattern": {"value": "Rural residents are consistently identified among groups experiencing greater individual deprivation", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "age_pattern": {"value": "People ages 25–39 are consistently identified among groups experiencing greater individual deprivation", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "intersectional_meaning": {"value": "Deprivation risk is shaped by gender, place, and life stage in ways that household poverty status alone may not reveal", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ADB cross-country comparison of individual deprivation indicators disaggregated by demographic and spatial groups.",
+      "uncertainty": "The summary reports consistent group patterns but not a single causal estimate; group averages can conceal within-group variation, country differences, and measurement differences across indicators.",
+      "subgroup": "Women, rural residents, people ages 25–39, urban residents, men, other age groups, and people at different stages of household formation and work.",
+      "counterinterpretation": "Higher measured deprivation among a group does not mean all members lack agency or resources; some indicators may reflect life-stage needs, survey design, or country-specific opportunity structures.",
+      "source_url": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2026",
+      "retrieval_hash": "sha256:d3601b470f72a2b6c4398e83508cbe1b982e2c0b6e69c6b2c46c1a4115ab00d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; health, digital, and property access as capability conditions",
+      "denominator": {"value": 23, "unit": "developing economies in the report's thematic analysis", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "health_insurance": {"value": "Lack of health insurance is identified as a key driver of deprivation", "unit": "reported deprivation driver", "value_type": "reported_driver"},
+        "internet_access": {"value": "Lack of internet access is identified as a key driver of deprivation", "unit": "reported deprivation driver", "value_type": "reported_driver"},
+        "property_ownership": {"value": "Lack of property ownership is identified as a key driver of deprivation", "unit": "reported deprivation driver", "value_type": "reported_driver"},
+        "capability_route": {"value": "Health protection, connectivity, and ownership shape individual capability and decision power beyond household income alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ADB thematic analysis linking individual deprivation indicators with access to health insurance, internet, property, and other resources.",
+      "uncertainty": "The report identifies drivers and associations within a comparative measurement framework; the summary does not establish which access intervention would have the largest effect or how resources are controlled within households.",
+      "subgroup": "Individuals without health coverage, internet access, or property ownership, especially women, rural residents, and working-age adults in developing economies.",
+      "counterinterpretation": "Insurance, internet, and property can improve opportunity without guaranteeing agency or wellbeing; ownership and access may also be mediated by debt, quality, reliability, safety, and household control.",
+      "source_url": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2026",
+      "retrieval_hash": "sha256:d3601b470f72a2b6c4398e83508cbe1b982e2c0b6e69c6b2c46c1a4115ab00d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; statistical infrastructure and policy targeting",
+      "denominator": {"value": 50, "unit": "ADB regional member economies included in the publication's statistical indicators", "value_type": "reported_economy_comparison_frame"},
+      "measures": {
+        "indicator_scope": {"value": "The publication compiles economic, financial, social, environmental, labor, governance, globalization, transport, and communication indicators", "unit": "reported statistical coverage", "value_type": "reported_scope"},
+        "policy_targeting": {"value": "The thematic chapter calls for targeted, gender-sensitive, and individual-focused interventions rather than relying only on household-level poverty classification", "unit": "reported policy implication", "value_type": "reported_implication"},
+        "data_gap": {"value": "More granular individual measurement changes which people and mechanisms become visible to policy", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "development_meaning": {"value": "Measurement architecture is part of social policy capacity: what is counted determines whether hidden deprivation can be reached", "unit": "bounded analytical interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "ADB publication combining a thematic deprivation chapter with standardized indicators and economy tables for regional members.",
+      "uncertainty": "Statistical coverage, comparability, missingness, and indicator definitions vary across economies; better measurement does not itself deliver services, redistribution, or household decision power.",
+      "subgroup": "Statistical agencies, policymakers, service providers, households, individuals with hidden deprivation, and groups requiring gender- or place-sensitive targeting.",
+      "counterinterpretation": "Individual targeting can improve precision but may increase administrative burden, privacy risk, exclusion errors, or intra-household conflict if governance and recourse are weak.",
+      "source_url": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2026",
+      "retrieval_hash": "sha256:d3601b470f72a2b6c4398e83508cbe1b982e2c0b6e69c6b2c46c1a4115ab00d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.22617/FLS260278-3", "claim": "ADB citable publication record for Key Indicators for Asia and the Pacific 2026."},
+    {"source_url": "https://data.adb.org/", "claim": "ADB data library supporting the publication's economy indicators and data tables."},
+    {"source_url": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2026", "claim": "Official ADB publication page with deprivation theme chapter and regional indicators."}
+  ],
+  "boundary": "This record adds an Asia-Pacific measurement-to-capability route from household poverty classification through individual deprivation, gender and rural inequality, health insurance, internet access, property ownership, decision power, and targeted policy. It uses ADB comparative indicators and a thematic deprivation framework; it is not a causal evaluation, a universal household survey, or proof that targeting produces realized agency or wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ADB Key Indicators for Asia and the Pacific 2026 page was reviewed for the 23-economy deprivation analysis, household/individual dual-lens framework, group patterns, deprivation drivers, 50-economy indicator scope, and policy implications.",
+    "source_url_sha256": "sha256:d3601b470f72a2b6c4398e83508cbe1b982e2c0b6e69c6b2c46c1a4115ab00d4",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-data-centers-2026-local-legitimacy-energy-costs-community-consent",
+  "title": "Data centers are becoming a local legitimacy problem as Americans connect AI infrastructure to energy, environment, and quality of life",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Pew Research Center survey analysis, Americans' views of data centers have turned more negative, September 2026",
+  "geography": "United States; adults nationally with urban, suburban, rural, party, age, education, and awareness comparisons",
+  "observations": [
+    {
+      "period": "January-August 2026; perceived data-center effects",
+      "denominator": {"value": 10548, "unit": "U.S. adults surveyed July 20-August 9, 2026 in Pew American Trends Panel", "value_type": "survey_sample"},
+      "measures": {
+        "environment_mostly_bad": {"value": 54, "unit": "percent saying data centers are mostly bad for the environment; 39% in January", "value_type": "reported_share"},
+        "home_energy_costs_mostly_bad": {"value": 50, "unit": "percent saying data centers are mostly bad for home energy costs; 38% in January", "value_type": "reported_share"},
+        "nearby_quality_of_life_mostly_bad": {"value": 49, "unit": "percent saying data centers are mostly bad for nearby quality of life; 30% in January", "value_type": "reported_share"},
+        "local_jobs_mostly_bad": {"value": 24, "unit": "percent saying data centers are mostly bad for local jobs; 15% in January", "value_type": "reported_share"},
+        "local_tax_revenue_mostly_bad": {"value": 21, "unit": "percent saying data centers are mostly bad for local tax revenue; 12% in January", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center American Trends Panel survey of 10,548 U.S. adults fielded July 20-August 9, 2026, compared with January 2026 responses.",
+      "uncertainty": "These are perceptions of possible effects, not measured electricity bills, emissions, jobs, tax receipts, or local quality-of-life outcomes; the shift does not establish which events or information changed opinion.",
+      "subgroup": "U.S. adults nationally, with demographic, partisan, geographic, and awareness comparisons.",
+      "counterinterpretation": "Rising concern can reflect increased awareness and salience rather than realized local harm; people may oppose specific siting, rate allocation, water use, or governance arrangements rather than data centers in every form.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/",
+      "retrieval_hash": "sha256:ac40cb904d885db10ecaac3df0229191cd6825cca79de393fb303a3096145f95",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; local comfort and community consent",
+      "denominator": {"value": 10548, "unit": "U.S. adults in the July 20-August 9, 2026 survey", "value_type": "survey_sample"},
+      "measures": {
+        "not_comfortable_local_data_center": {"value": 60, "unit": "percent saying they would be not too or not at all comfortable with a new data center operating in their area", "value_type": "reported_share"},
+        "very_or_extremely_comfortable": {"value": 7, "unit": "percent saying they would be extremely or very comfortable", "value_type": "reported_share"},
+        "somewhat_comfortable": {"value": 19, "unit": "percent saying they would be somewhat comfortable", "value_type": "reported_share"},
+        "not_heard_of_data_centers": {"value": 12, "unit": "percent saying they had not heard of data centers", "value_type": "reported_share"},
+        "democratic_discomfort": {"value": 68, "unit": "percent of Democrats or Democratic leaners not too or not at all comfortable", "value_type": "reported_share"},
+        "republican_discomfort": {"value": 54, "unit": "percent of Republicans or Republican leaners not too or not at all comfortable", "value_type": "reported_share"}
+      },
+      "method": "Pew descriptive comparison of comfort with a hypothetical new local data center, including party and place groups.",
+      "uncertainty": "Hypothetical comfort is not a vote, permitting decision, protest, or observed siting conflict; unfamiliarity and question framing may affect the response.",
+      "subgroup": "U.S. adults by party, urbanicity, and awareness of data centers.",
+      "counterinterpretation": "Community resistance may be negotiable through local benefits, rate protections, water and land safeguards, transparency, or ownership arrangements; discomfort alone does not identify the preferred governance solution.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/",
+      "retrieval_hash": "sha256:ac40cb904d885db10ecaac3df0229191cd6825cca79de393fb303a3096145f95",
+      "status": "reported"
+    },
+    {
+      "period": "January-August 2026; awareness of data centers",
+      "denominator": {"value": 10548, "unit": "U.S. adults in the July 20-August 9, 2026 survey, with January comparison", "value_type": "survey_sample"},
+      "measures": {
+        "heard_a_lot": {"value": 35, "unit": "percent saying they had heard or read a lot about data centers; 25% in January", "value_type": "reported_share"},
+        "heard_at_least_a_little": {"value": 88, "unit": "percent saying they had heard at least a little; 75% in January", "value_type": "reported_share"},
+        "heard_nothing": {"value": 12, "unit": "percent saying they had heard nothing; 25% in January", "value_type": "reported_share"}
+      },
+      "method": "Pew repeated survey measure of public awareness alongside impact and comfort questions.",
+      "uncertainty": "Awareness is self-reported and does not measure factual understanding, exposure to a local project, or the quality of information received; increasing awareness may itself change the composition of opinion.",
+      "subgroup": "U.S. adults, with awareness varying by gender, education, and other groups reported by Pew.",
+      "counterinterpretation": "More awareness can increase opposition, support, or uncertainty depending on whether information emphasizes economic benefits, household costs, environmental burdens, or local control.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/",
+      "retrieval_hash": "sha256:ac40cb904d885db10ecaac3df0229191cd6825cca79de393fb303a3096145f95",
+      "status": "reported"
+    },
+    {
+      "period": "January-August 2026; rural and partisan environmental concern",
+      "denominator": {"value": 10548, "unit": "U.S. adults in the Pew survey; subgroup comparisons use the relevant weighted group universes", "value_type": "survey_sample"},
+      "measures": {
+        "rural_environment_bad": {"value": "50% in August, up from 32% in January", "unit": "rural adults saying data centers are mostly bad for the environment", "value_type": "reported_change"},
+        "democrat_environment_bad": {"value": "62% in August, up from 50% in January", "unit": "Democrats or Democratic leaners", "value_type": "reported_change"},
+        "republican_environment_bad": {"value": "47% in August, up from 31% in January", "unit": "Republicans or Republican leaners", "value_type": "reported_change"},
+        "rural_quality_of_life_bad": {"value": "45% in August, up from 28% in January", "unit": "rural adults saying data centers are mostly bad for nearby quality of life", "value_type": "reported_change"}
+      },
+      "method": "Pew subgroup comparison across January and August 2026 survey waves, with rural, party, and age/education groups.",
+      "uncertainty": "Subgroup opinion changes do not establish local exposure or explain whether national political messaging, direct experience, or project siting drove the movement; the survey is not a map of planned facilities.",
+      "subgroup": "Rural adults, Democrats, Republicans, and other demographic groups.",
+      "counterinterpretation": "Cross-party and rural movement suggests the issue may be becoming a broad infrastructure-governance concern, but shared concern does not guarantee shared policy preferences or coalition action.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/",
+      "retrieval_hash": "sha256:ac40cb904d885db10ecaac3df0229191cd6825cca79de393fb303a3096145f95",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a local-legitimacy and household-cost layer to AI infrastructure: rising awareness is accompanied by more negative perceptions of environmental, energy, quality-of-life, jobs, and tax effects, plus broad discomfort with local siting. It does not establish realized impacts, causal opinion change, community decisions, rate effects, emissions, water use, or durable public consent."
+}

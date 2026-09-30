@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-imf-external-sector-report-2026-global-imbalances-rebalancing",
+  "title": "Widening global current-account imbalances raise adjustment and financial risks while coordinated rebalancing offers the least disruptive path",
+  "theme_ids": ["cost", "voice", "energy", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "International Monetary Fund, External Sector Report 2026: Amid Rising Imbalances, the Case for Rebalancing",
+  "geography": "Global external sector with assessments of 30 of the world's largest economies based on 2025 data",
+  "observations": [
+    {
+      "period": "2025-2026; global current-account balances",
+      "denominator": {"value": 30, "unit": "largest economies assessed in the IMF external-sector framework", "value_type": "assessment_sample"},
+      "measures": {
+        "balance_direction": {"value": "global current-account balances widened further in 2025", "unit": "IMF external-sector assessment", "value_type": "reported_finding"},
+        "excess_balances": {"value": "staff assessment suggests excess current-account balances also increased", "unit": "IMF External Balance Assessment synthesis", "value_type": "reported_finding"},
+        "main_drivers": {"value": "China and the United States are identified as the main drivers of the increase in excess balances", "unit": "IMF staff assessment", "value_type": "reported_finding"},
+        "risk": {"value": "persistent large excess balances can signal uneven growth and increase the risk of disorderly adjustment", "unit": "IMF risk framing", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF multilateral external-sector assessment using 2025 data, External Balance Assessment methodology, country evidence, and staff judgment.",
+      "uncertainty": "External-balance gaps are model-based assessments with methodological and data uncertainty; they are not direct measures of household welfare, firm intent, or political causality.",
+      "subgroup": "Major economies, trading partners, exporters, importers, workers, consumers, capital owners, and governments exposed to external adjustment.",
+      "counterinterpretation": "A current-account surplus or deficit is not automatically harmful; composition, productivity, demographics, capital flows, and domestic policy determine whether an imbalance is sustainable.",
+      "source_url": "https://www.imf.org/en/publications/esr/issues/2026/07/30/external-sector-report-2026?cid=bl-com-ESREA2026001",
+      "retrieval_hash": "sha256:35ad06258c3a5cea7439108df83a4b326e985d037b845ecfee3c78c88e11352c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; coordinated domestic policy and rebalancing",
+      "denominator": {"value": 1, "unit": "global rebalancing policy scenario frame", "value_type": "policy_scenario_frame"},
+      "measures": {
+        "preferred_path": {"value": "simultaneous policy actions to address domestic imbalances yield the most favorable global outcome", "unit": "IMF policy assessment", "value_type": "reported_framework"},
+        "unilateral_effect": {"value": "rebalancing by one country can still meaningfully reduce excess global balances", "unit": "IMF scenario finding", "value_type": "reported_mechanism"},
+        "financial_tradeoff": {"value": "unilateral rebalancing can pose financial-market risks with negative effects on growth", "unit": "IMF scenario risk", "value_type": "reported_risk"},
+        "coordination_channel": {"value": "domestic demand, fiscal, structural, exchange-rate, and trade policies interact across countries", "unit": "IMF external-sector framework", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF policy and scenario analysis of domestic imbalances and multilateral external adjustment.",
+      "uncertainty": "Scenario results depend on model assumptions, policy timing, market reactions, and international coordination; they do not predict a specific political settlement.",
+      "subgroup": "Governments, central banks, exporters, import-competing workers, borrowers, savers, and households exposed to exchange-rate or financial adjustment.",
+      "counterinterpretation": "Coordination may be difficult, but domestic reforms and targeted transition support can reduce adjustment costs even without a fully synchronized package.",
+      "source_url": "https://www.imf.org/en/publications/esr/issues/2026/07/30/external-sector-report-2026?cid=bl-com-ESREA2026001",
+      "retrieval_hash": "sha256:35ad06258c3a5cea7439108df83a4b326e985d037b845ecfee3c78c88e11352c",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; external positions, trade barriers, and adjustment",
+      "denominator": {"value": 30, "unit": "economy-level external-sector assessment sample", "value_type": "external_position_frame"},
+      "measures": {
+        "assessment_scope": {"value": "external positions and policies are assessed for 30 of the world's largest economies", "unit": "IMF report scope", "value_type": "reported_scope"},
+        "analytical_inputs": {"value": "current accounts, capital flows, exchange rates, external balance sheets, reserves, trade barriers, and country-specific evidence", "unit": "IMF assessment inputs", "value_type": "reported_inventory"},
+        "domestic_translation": {"value": "external adjustment can affect import prices, export demand, investment, employment, and public policy room", "unit": "external-to-domestic transmission mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Multilaterally consistent external-position assessment using the refined IMF EBA methodology and country-specific evidence.",
+      "uncertainty": "The assessment is not a household expenditure survey or firm-level trade census; aggregate external positions do not identify who bears adjustment costs.",
+      "subgroup": "Export-oriented regions, import-dependent consumers, trade-exposed sectors, workers, investors, and governments managing external vulnerability.",
+      "counterinterpretation": "Trade diversification, social protection, productivity investment, and domestic demand can make external adjustment less disruptive for exposed groups.",
+      "source_url": "https://www.imf.org/en/publications/esr/issues/2026/07/30/external-sector-report-2026?cid=bl-com-ESREA2026001",
+      "retrieval_hash": "sha256:35ad06258c3a5cea7439108df83a4b326e985d037b845ecfee3c78c88e11352c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; external imbalance as a geopolitical and social route",
+      "denominator": {"value": 1, "unit": "global external-balance, political-economy, and household-room frame", "value_type": "geoeconomic_transmission_frame"},
+      "measures": {
+        "geoeconomic_tension": {"value": "persistent external divergence can intensify trade and policy conflict between surplus and deficit economies", "unit": "IMF external-sector interpretation", "value_type": "reported_mechanism"},
+        "distributional_channel": {"value": "adjustment can redistribute purchasing power, employment opportunity, investment, and exposure to imported prices", "unit": "macro-to-household transmission", "value_type": "reported_mechanism"},
+        "institutional_requirement": {"value": "rebalancing requires domestic policy choices and multilateral cooperation rather than exchange-rate adjustment alone", "unit": "IMF policy framing", "value_type": "reported_framework"},
+        "boundary_signal": {"value": "external imbalance is a macro condition, not a diagnosis of household irresponsibility or national moral performance", "unit": "interpretive boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "IMF report synthesis connecting external-balance assessments with domestic policy and multilateral adjustment channels.",
+      "uncertainty": "The report does not measure public opinion, cultural meaning, or household political behavior; those require separate sources with compatible denominators.",
+      "subgroup": "Workers, consumers, firms, governments, trading partners, and communities exposed to trade or financial adjustment.",
+      "counterinterpretation": "External imbalances may reflect beneficial investment and specialization; the policy question is whether gains and adjustment capacity are broadly distributed.",
+      "source_url": "https://www.imf.org/en/publications/esr/issues/2026/07/30/external-sector-report-2026?cid=bl-com-ESREA2026001",
+      "retrieval_hash": "sha256:35ad06258c3a5cea7439108df83a4b326e985d037b845ecfee3c78c88e11352c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/en/publications/esr", "claim": "The IMF External Sector Report series provides historical context and annual multilateral external assessments."},
+    {"source_url": "https://www.imf.org/en/publications/pp/2026/04/20/understanding-global-imbalances-566013", "claim": "The IMF policy paper provides complementary explanation of global imbalances and surveillance methodology."}
+  ],
+  "boundary": "This record adds a geoeconomic route across current-account divergence, external positions, trade and exchange-rate adjustment, financial risk, domestic policy, and household-room transmission. It uses IMF model-based external assessments and macro synthesis, not respondent-level data, household expenditure diaries, firm microdata, causal political-behavior estimates, or proof that any surplus or deficit is inherently good or bad.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IMF External Sector Report 2026 page reviewed for the 30-economy assessment scope, widening 2025 current-account balances, China and US drivers, disorderly-adjustment risk, coordinated rebalancing, and methodology framing.",
+    "source_url_sha256": "sha256:35ad06258c3a5cea7439108df83a4b326e985d037b845ecfee3c78c88e11352c",
+    "checked": "2026-09-26"
+  }
+}

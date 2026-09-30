@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-icsc-consumer-economy-2026-value-tradeoffs-job-security",
+  "title": "U.S. consumers remain willing to spend while shifting toward value, selectivity, and financial-risk management as job-security anxiety rises",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "International Council of Shopping Centers, Consumer Economy Report, September 2026",
+  "geography": "United States households, consumers, workers, retailers, brands, and the consumer economy",
+  "observations": [
+    {
+      "period": "Spring-summer 2026; spending, inflation attribution, and financial outlook",
+      "denominator": {"value": 1003, "unit": "U.S. consumers in the summer 2026 ICSC survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "spending_level": {"value": 77, "unit": "percent reporting higher monthly spending", "value_type": "reported_survey_share"},
+        "inflation_attribution": {"value": 60, "unit": "percent of consumers whose spending increased citing higher prices, down from 65 percent in spring", "value_type": "reported_survey_share"},
+        "financial_outlook": {"value": 55, "unit": "percent expecting their financial situation to improve over the next year", "value_type": "reported_survey_share"},
+        "consumer_route": {"value": "continued spending can coexist with lower inflation salience and more deliberate household tradeoffs", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ICSC quarterly consumer-economy report combining proprietary online surveys and economic data; summer survey fielded July 29-31, 2026.",
+      "uncertainty": "This is a commercial-industry survey and public summary, not a causal estimate of inflation or income effects; reported shares do not establish actual spending totals or represent all households equally.",
+      "subgroup": "U.S. consumers, households with different financial cushions, retailers, brands, marketplaces, and services providers.",
+      "counterinterpretation": "Higher reported spending may reflect prices, essential-cost increases, household composition, or timing rather than stronger real consumption or welfare.",
+      "source_url": "https://www.icsc.com/news-and-views/icsc-exchange/new-icsc-report-consumer-spending-remains-active-as-households-make-sharper-tradeoffs",
+      "retrieval_hash": "sha256:c83f18a00a03cf3fa0eed84e631413ded131dffbe3988d8388489fd711f6c3a2",
+      "status": "reported"
+    },
+    {
+      "period": "Spring-summer 2026; job security and household bargaining",
+      "denominator": {"value": 1003, "unit": "U.S. consumers in the summer 2026 ICSC survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "job_security": {"value": 84, "unit": "percent feeling secure in their current job, down from 87 percent in spring", "value_type": "reported_survey_share"},
+        "job_search": {"value": 35, "unit": "percent of employed consumers planning to look for another job, up from 30 percent in spring", "value_type": "reported_survey_share"},
+        "instability_reason": {"value": 22, "unit": "percent citing layoffs or job instability as a reason for seeking new employment, up from 10 percent", "value_type": "reported_survey_share"},
+        "work-consumption_route": {"value": "income stability and job security may be becoming more important to consumer choice than inflation alone", "unit": "analytic household mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "ICSC comparison of spring and summer 2026 consumer survey responses.",
+      "uncertainty": "The comparison is descriptive and does not identify whether job anxiety causes shopping changes or how responses differ by occupation, income, or region.",
+      "subgroup": "Employed consumers, job seekers, households exposed to layoffs, workers with different bargaining power, and employers.",
+      "counterinterpretation": "Job-search intentions may reflect opportunity-seeking, dissatisfaction, or normal labor-market churn rather than worsening realized employment.",
+      "source_url": "https://www.icsc.com/news-and-views/icsc-exchange/new-icsc-report-consumer-spending-remains-active-as-households-make-sharper-tradeoffs",
+      "retrieval_hash": "sha256:c83f18a00a03cf3fa0eed84e631413ded131dffbe3988d8388489fd711f6c3a2",
+      "status": "reported"
+    },
+    {
+      "period": "Summer-fall 2026; brand loyalty, value, and selective consumption",
+      "denominator": {"value": 1003, "unit": "U.S. consumers in the summer 2026 ICSC survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "brand_meaning": {"value": 61, "unit": "percent saying brand names mean less today than in the past", "value_type": "reported_survey_share"},
+        "trade_down": {"value": 40, "unit": "percent shifting to lower-priced brands or retailers in the prior three months", "value_type": "reported_survey_share"},
+        "future_selectivity": {"value": 72, "unit": "percent expecting to become more selective in purchases over the next three months", "value_type": "reported_survey_share"},
+        "loyalty_route": {"value": "value-seeking weakens automatic brand loyalty while leaving room for purchases that deliver clear utility, enjoyment, or personal reward", "unit": "reported consumer mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "ICSC consumer survey questions on brands, retailer switching, deal-seeking, and forward purchase selectivity.",
+      "uncertainty": "The survey does not isolate price, quality, identity, trust, or channel effects, and intentions may not become realized purchase behavior.",
+      "subgroup": "Price-sensitive households, private-label and branded-product shoppers, retailers, consumer brands, and discretionary-category buyers.",
+      "counterinterpretation": "Brand loyalty may be changing rather than disappearing; trusted brands can retain value when they make quality and utility legible.",
+      "source_url": "https://www.icsc.com/news-and-views/icsc-exchange/new-icsc-report-consumer-spending-remains-active-as-households-make-sharper-tradeoffs",
+      "retrieval_hash": "sha256:c83f18a00a03cf3fa0eed84e631413ded131dffbe3988d8388489fd711f6c3a2",
+      "status": "reported"
+    },
+    {
+      "period": "Summer-fall 2026; discretionary spending and financial margin",
+      "denominator": {"value": 1003, "unit": "U.S. consumers in the summer 2026 ICSC survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "nonessential_purchase_intent": {"value": 82, "unit": "percent expecting to make nonessential purchases in the next three months", "value_type": "reported_survey_share"},
+        "treat_yourself": {"value": 30, "unit": "percent planning to increase treat-yourself purchases, up from 24 percent in spring", "value_type": "reported_survey_share"},
+        "essential_expense_margin": {"value": 54, "unit": "percent saying an essential-expense increase of 249 dollars per month or less would force discretionary cuts", "value_type": "reported_survey_share"},
+        "immediate_cutback": {"value": 19, "unit": "percent saying any additional essential-cost increase would require immediate cutbacks", "value_type": "reported_survey_share"},
+        "open_test": {"value": "consumer resilience may be conditional: households preserve small rewards while operating with limited room for additional shocks", "unit": "analytic household route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "ICSC survey comparison of discretionary purchase intentions and household responses to essential-cost increases.",
+      "uncertainty": "These are self-reported expectations, not observed budgets or longitudinal financial outcomes; the report does not establish debt, savings, housing, care, or regional mechanisms for each household.",
+      "subgroup": "Households with different savings, debt, housing, care, and essential-expense burdens; discretionary retailers and service providers.",
+      "counterinterpretation": "Selective indulgence can reflect adaptation and agency, but it may also mask reduced security or borrowing when essential costs rise.",
+      "source_url": "https://www.icsc.com/news-and-views/icsc-exchange/new-icsc-report-consumer-spending-remains-active-as-households-make-sharper-tradeoffs",
+      "retrieval_hash": "sha256:c83f18a00a03cf3fa0eed84e631413ded131dffbe3988d8388489fd711f6c3a2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-consumer-confidence-september-2026-stability-war-recovery", "claim": "Ipsos consumer-confidence work provides cross-national macro-consumer context complementary to the U.S. household tradeoff evidence."},
+    {"source_url": "https://www.mondelezinternational.com/stateofsnacking/", "claim": "Mondelēz State of Snacking provides complementary social, cultural, and discretionary-consumption context."}
+  ],
+  "boundary": "This record adds a U.S. consumer-economy route from job security and household financial margin through value-seeking, brand switching, discretionary spending, and selective resilience. It uses a commercial survey and economic context, not respondent-level records in the corpus, causal household-budget analysis, observed transactions, or proof of welfare improvement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ICSC September 10, 2026 report announcement was reviewed for survey field dates, sample sizes, spending, inflation attribution, job security, brand switching, discretionary spending, and financial-margin findings.",
+    "source_url_sha256": "sha256:c83f18a00a03cf3fa0eed84e631413ded131dffbe3988d8388489fd711f6c3a2",
+    "checked": "2026-09-26"
+  }
+}

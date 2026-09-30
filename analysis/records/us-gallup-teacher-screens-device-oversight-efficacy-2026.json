@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-teacher-screens-device-oversight-efficacy-2026",
+  "title": "Classroom technology becomes more legitimate when teachers retain operational control over it",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Gallup, Screens Ubiquitous in Classrooms; Teachers Split on Efficacy, September 16, 2026",
+  "geography": "United States; K-12 public school teachers",
+  "observations": [
+    {
+      "period": "May 6-29, 2026 survey; student learning-device use and preferred amount",
+      "denominator": {"value": 2101, "unit": "U.S. K-12 public school teachers in the Teaching for Tomorrow study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "device_use_in_class": {"value": 96, "unit": "percent reporting student use of learning devices in class", "value_type": "published_survey_estimate"},
+        "prefer_less_device_time": {"value": 61, "unit": "percent saying students should spend less time on learning devices", "value_type": "published_survey_estimate"},
+        "prefer_same_or_more": {"value": 39, "unit": "percent saying students should spend about the same amount or more time on learning devices", "value_type": "derived_share"}
+      },
+      "method": "Walton Family Foundation and Gallup Teaching for Tomorrow study, in partnership with the Joan Ganz Cooney Center; nationally representative probability-based panel of U.S. public school teachers.",
+      "uncertainty": "The article reports teacher perceptions and preferences, not observed device minutes, student achievement, classroom behavior or causal effects of screen exposure.",
+      "subgroup": "Elementary, middle and high school teachers.",
+      "counterinterpretation": "Teachers may be responding to implementation friction, distraction, or inadequate support rather than to digital learning technology in the abstract; grade-level differences may also reflect student age and classroom structure.",
+      "source_url": "https://news.gallup.com/poll/714479/screens-ubiquitous-classrooms-teachers-split-efficacy.aspx",
+      "retrieval_hash": "source_page:sha256:e7a956fbfc9995ef8bf3d6c12400bcb006c83d9092fdba7c52f9e42b74c2e2cf",
+      "status": "reported"
+    },
+    {
+      "period": "May 6-29, 2026 survey; perceived benefits and harms of learning devices",
+      "denominator": {"value": 2101, "unit": "U.S. K-12 public school teachers in the Teaching for Tomorrow study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "tools_help_learning": {"value": 59, "unit": "percent agreeing digital tools or apps help students learn more effectively", "value_type": "published_survey_estimate"},
+        "equal_harm_and_good": {"value": 52, "unit": "percent saying learning devices do equal amounts of harm and good", "value_type": "published_survey_estimate"},
+        "more_harm_than_good": {"value": 29, "unit": "percent saying learning devices do more harm than good", "value_type": "published_survey_estimate"},
+        "more_good_than_harm": {"value": 18, "unit": "percent saying learning devices do more good than harm", "value_type": "published_survey_estimate"}
+      },
+      "method": "Descriptive survey estimates of teacher judgments about device efficacy and relative harm or benefit.",
+      "uncertainty": "The categories capture teacher judgment and do not identify the specific applications, instructional tasks, student populations, or time horizons behind those judgments.",
+      "subgroup": "All surveyed K-12 public school teachers, with grade-level comparisons in the publication.",
+      "counterinterpretation": "Mixed judgments may indicate that device value is task-specific and unevenly distributed rather than a general rejection of classroom technology.",
+      "source_url": "https://news.gallup.com/poll/714479/screens-ubiquitous-classrooms-teachers-split-efficacy.aspx",
+      "retrieval_hash": "source_page:sha256:e7a956fbfc9995ef8bf3d6c12400bcb006c83d9092fdba7c52f9e42b74c2e2cf",
+      "status": "reported"
+    },
+    {
+      "period": "May 6-29, 2026 survey; teacher oversight and device legitimacy",
+      "denominator": {"value": 2101, "unit": "U.S. K-12 public school teachers in the Teaching for Tomorrow study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "a_lot_of_oversight": {"value": 42, "unit": "percent reporting a lot of oversight over what students do on devices during instruction", "value_type": "published_survey_estimate"},
+        "some_oversight": {"value": 44, "unit": "percent reporting some oversight", "value_type": "published_survey_estimate"},
+        "little_or_no_oversight": {"value": 14, "unit": "percent reporting not much or no oversight", "value_type": "published_survey_estimate"},
+        "efficacy_with_a_lot_oversight": {"value": 67, "unit": "percent agreeing digital tools help students learn more effectively among teachers with a lot of oversight", "value_type": "published_subgroup_estimate"},
+        "efficacy_with_little_or_no_oversight": {"value": 49, "unit": "percent agreeing among teachers with little or no oversight", "value_type": "published_subgroup_estimate"},
+        "oversight_efficacy_gap": {"value": 18, "unit": "percentage-point descriptive difference between high-oversight and low/no-oversight groups", "value_type": "reported_difference"}
+      },
+      "method": "Gallup comparison of teacher judgments by reported level of classroom device oversight.",
+      "uncertainty": "The cross-sectional association does not establish that more oversight causes positive views; teachers with more oversight may work in better-supported classrooms, teach younger students, or have different technology conditions.",
+      "subgroup": "Teachers reporting a lot, some, or little/no oversight over student device use.",
+      "counterinterpretation": "Oversight may be a proxy for staffing, classroom size, training, school policy, or implementation quality. The finding supports a control-and-governance hypothesis, not a causal estimate.",
+      "source_url": "https://news.gallup.com/poll/714479/screens-ubiquitous-classrooms-teachers-split-efficacy.aspx",
+      "retrieval_hash": "source_page:sha256:e7a956fbfc9995ef8bf3d6c12400bcb006c83d9092fdba7c52f9e42b74c2e2cf",
+      "status": "reported"
+    },
+    {
+      "period": "May 6-29, 2026 survey; preferred governance response",
+      "denominator": {"value": 2101, "unit": "U.S. K-12 public school teachers in the Teaching for Tomorrow study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "strong_support_print_hands_on": {"value": 58, "unit": "percent strongly supporting more investment in high-quality print-based or hands-on materials", "value_type": "published_survey_estimate"},
+        "strong_support_filtering_monitoring": {"value": 54, "unit": "percent strongly supporting stronger filtering or monitoring requirements", "value_type": "published_survey_estimate"},
+        "strong_support_daily_maximum": {"value": 34, "unit": "percent strongly supporting a daily maximum for student device use", "value_type": "published_survey_estimate"},
+        "governance_preference": {"value": "Teacher support is stronger for bounded safeguards, non-digital alternatives and management tools than for a blanket daily time limit.", "unit": "analytical synthesis grounded in reported support levels", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive survey estimates for six possible classroom-device policy approaches.",
+      "uncertainty": "Support for hypothetical policy options is not evidence of implementation feasibility, student outcomes, or agreement about what filtering and monitoring should entail.",
+      "subgroup": "U.S. K-12 public school teachers.",
+      "counterinterpretation": "Teachers may favor tools that restore immediate classroom manageability while viewing time caps as too blunt for differentiated instruction or accessibility needs.",
+      "source_url": "https://news.gallup.com/poll/714479/screens-ubiquitous-classrooms-teachers-split-efficacy.aspx",
+      "retrieval_hash": "source_page:sha256:e7a956fbfc9995ef8bf3d6c12400bcb006c83d9092fdba7c52f9e42b74c2e2cf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a classroom-technology governance mechanism: the legitimacy of ubiquitous learning devices appears to depend partly on teacher oversight, implementation control and bounded safeguards. The publication is cross-sectional and perception-based; it does not establish causal effects on learning, attention, behavior, teacher retention, equity or policy outcomes."
+}

@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-circana-eating-patterns-america-2026-food-occasions-channels",
+  "title": "Eating is becoming an occasion-and-channel system shaped by budget, convenience, identity and where food is consumed",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "time_hidden_price"
+  ],
+  "source_unit": "Circana, Eating Patterns in America 2026",
+  "geography": "United States food, beverage, retail and foodservice consumption",
+  "observations": [
+    {
+      "period": "2026 report overview; U.S. food and beverage consumption",
+      "denominator": {"value": 1800000000000, "unit": "dollars of spending covered by the report overview", "value_type": "published_market_scope"},
+      "measures": {
+        "spending_scope": {"value": 1800000000000, "unit": "U.S. food and beverage spending represented in report scope", "value_type": "published_market_scope"},
+        "occasion_scope": {"value": 618000000000, "unit": "eating and drinking occasions represented in report scope", "value_type": "published_market_scope"},
+        "decision_system": {"value": "The report frames what, when, where and why Americans eat and drink as a connected consumer-decision system spanning food, beverage, retail and foodservice.", "unit": "reported analytical frame", "value_type": "reported_interpretation"}
+      },
+      "method": "Circana commercial market-intelligence report overview drawing on multiple integrated datasets; the public page states market scope but does not expose the full tables, sampling, weighting or model specification.",
+      "uncertainty": "The spending and occasion figures describe the report's coverage, not a causal estimate or proof that every consumption decision is observed with equal completeness; the public overview does not show uncertainty intervals.",
+      "subgroup": "U.S. consumers, households, food and beverage categories, foodservice operators, retailers, manufacturers and channels of consumption.",
+      "counterinterpretation": "A very large measurement frame can reveal system-level shifts while still obscuring household inequality, cultural meaning, unpaid preparation, food insecurity and the reasons behind individual choices.",
+      "source_url": "https://www.circana.com/post/eating-patterns-in-america-2026-see-how-america-eats-drinks-and-decides",
+      "retrieval_hash": "sha256:cf172a3e8309807b0446efc77a27dacc950a7f2aee3fe2a50144f0dac17c2f39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report overview; in-home and away-from-home eating",
+      "denominator": {"value": 2, "unit": "reported consumption contexts", "value_type": "published_framework"},
+      "measures": {
+        "context_split": {"value": "The report explicitly connects in-home and away-from-home eating and drinking rather than treating grocery and foodservice as separate consumer worlds.", "unit": "reported analytical frame", "value_type": "reported_interpretation"},
+        "occasion_logic": {"value": "Consumption occasions are presented as the unit through which behaviors, channels and opportunities can be compared.", "unit": "reported analytical frame", "value_type": "reported_interpretation"},
+        "household_tradeoff": {"value": "The source creates an open route for analyzing how money, time, convenience, sociality and preparation effort move consumers between home and away-from-home contexts.", "unit": "analytical implication", "value_type": "inference_from_source_scope"}
+      },
+      "method": "Public description of Circana's integrated food, beverage, foodservice, distribution, appliance and housewares datasets.",
+      "uncertainty": "The overview does not disclose the observed share, frequency or causal drivers of home versus away-from-home substitution, nor how patterns vary by income, age, place or household structure.",
+      "subgroup": "Households managing food budgets and preparation time, foodservice users, retailers, restaurants, delivery and takeout channels, and consumers whose routines vary by work or care schedules.",
+      "counterinterpretation": "The home/away distinction may understate hybrid forms such as meal kits, prepared grocery, workplace food, communal cooking and informal food exchange.",
+      "source_url": "https://www.circana.com/post/eating-patterns-in-america-2026-see-how-america-eats-drinks-and-decides",
+      "retrieval_hash": "sha256:cf172a3e8309807b0446efc77a27dacc950a7f2aee3fe2a50144f0dac17c2f39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report overview; emerging behaviors, segments and channels",
+      "denominator": {"value": 1, "unit": "Circana report decision framework", "value_type": "published_framework"},
+      "measures": {
+        "early_signal": {"value": "The report is designed to identify emerging eating and drinking behaviors before they become mainstream.", "unit": "reported research use", "value_type": "reported_application"},
+        "segment_channel": {"value": "It directs attention to occasions, consumer segments and channels with the greatest commercial potential.", "unit": "reported decision lens", "value_type": "reported_application"},
+        "mainstreaming": {"value": "Food trends are treated as movements through discovery, occasion, channel and repeat consumption rather than as isolated product preferences.", "unit": "analytical implication", "value_type": "inference_from_source_scope"}
+      },
+      "method": "Circana's public commercial framing of the report's use for innovation, marketing, merchandising and activation.",
+      "uncertainty": "The public overview does not identify which specific behaviors are emerging, their prevalence, persistence, cultural origin or conversion into repeat purchase; it is a report description rather than the full findings.",
+      "subgroup": "Early adopters, mainstream consumers, culturally distinct food audiences, retailers, brands, foodservice operators and channel intermediaries.",
+      "counterinterpretation": "Commercial attention to what may become mainstream can amplify novelty and profitable segments while overlooking low-margin routines, food access, health consequences and practices that resist marketization.",
+      "source_url": "https://www.circana.com/post/eating-patterns-in-america-2026-see-how-america-eats-drinks-and-decides",
+      "retrieval_hash": "sha256:cf172a3e8309807b0446efc77a27dacc950a7f2aee3fe2a50144f0dac17c2f39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report overview; integrated food-consumption measurement",
+      "denominator": {"value": 1, "unit": "Circana integrated dataset system", "value_type": "published_framework"},
+      "measures": {
+        "dataset_integration": {"value": "The public page says the report integrates datasets spanning food and beverage, foodservice, broadline distribution, small appliances and housewares.", "unit": "reported measurement scope", "value_type": "reported_method"},
+        "system_boundary": {"value": "Food choice is measured as connected to retail, service, preparation equipment and distribution infrastructure, not only to a packaged product purchase.", "unit": "reported analytical implication", "value_type": "inference_from_source_scope"},
+        "power_question": {"value": "The integrated view raises a cross-source question about who controls visibility and value across the eating system: households, brands, retailers, restaurants, platforms or distributors.", "unit": "analytical implication", "value_type": "inference_from_source_scope"}
+      },
+      "method": "Circana public description of multiple integrated commercial datasets and its use for innovation, merchandising and activation decisions.",
+      "uncertainty": "The public page does not disclose dataset overlap, harmonization, coverage bias, ownership, access rules, or whether the integrated view can distinguish correlation from causal influence.",
+      "subgroup": "Consumers, households, manufacturers, retailers, foodservice operators, distributors, appliance and housewares firms, and data or platform intermediaries.",
+      "counterinterpretation": "Integration may improve visibility across channels but can also reproduce commercial categories and make unmonetized, informal or culturally specific food practices less visible.",
+      "source_url": "https://www.circana.com/post/eating-patterns-in-america-2026-see-how-america-eats-drinks-and-decides",
+      "retrieval_hash": "sha256:cf172a3e8309807b0446efc77a27dacc950a7f2aee3fe2a50144f0dac17c2f39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.circana.com/", "claim": "Circana's official consumer and market measurement platform."},
+    {"source_url": "https://www.circana.com/post/eating-patterns-in-america-2026-see-how-america-eats-drinks-and-decides", "claim": "Official public overview stating the 2026 report's U.S. spending and occasion scope, in-home/away-from-home coverage and integrated dataset frame."}
+  ],
+  "boundary": "This record adds an everyday food-culture and consumption-system layer. It treats Circana's public page as a commercial report overview: the page establishes the measurement scope and analytical frame, but does not disclose the full findings, sampling, weighting, category tables, household distribution, causal mechanisms or food-security outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Circana page was reviewed for the 2026 publication date, 41st-edition claim, 1.8 trillion dollars of spending, 618 billion eating and drinking occasions, in-home and away-from-home scope, emerging-behavior/occasion/channel frame and integrated dataset description.",
+    "source_url_sha256": "sha256:cf172a3e8309807b0446efc77a27dacc950a7f2aee3fe2a50144f0dac17c2f39",
+    "checked": "2026-09-27"
+  }
+}

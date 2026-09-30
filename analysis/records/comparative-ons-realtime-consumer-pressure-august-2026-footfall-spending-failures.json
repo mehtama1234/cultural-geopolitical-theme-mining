@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-realtime-consumer-pressure-august-2026-footfall-spending-failures",
+  "title": "Near-real-time consumer activity weakens while entertainment spending and payment failures diverge",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Office for National Statistics Economic activity and social change in the UK, real-time indicators: 17 September 2026",
+  "geography": "United Kingdom, with regional retail-footfall comparisons and UK-wide aggregated payment indicators",
+  "observations": [
+    {
+      "period": "August 2026 compared with July 2026 and August 2025; retail footfall and card spending",
+      "denominator": {"value": 1, "unit": "experimental index and aggregated card-spending comparison; no unique-person denominator", "value_type": "comparison_frame"},
+      "measures": {
+        "retail_footfall_month_on_month": {"value": -2, "unit": "percent change in estimated UK retail footfall from July 2026", "value_type": "reported_change"},
+        "retail_footfall_year_on_year": {"value": 3, "unit": "percent change in estimated UK retail footfall from August 2025", "value_type": "reported_change"},
+        "revolut_debit_spending_month_on_month": {"value": -1, "unit": "percent change in seasonally adjusted Revolut debit-card spending from July 2026", "value_type": "reported_change"},
+        "revolut_debit_spending_year_on_year": {"value": 4, "unit": "percent change in seasonally adjusted Revolut debit-card spending from August 2025", "value_type": "reported_change"},
+        "entertainment_spending_year_on_year": {"value": 14, "unit": "percent change in Revolut debit-card entertainment spending from August 2025", "value_type": "reported_change"},
+        "mechanism": {"value": "Aggregate consumer activity can soften month-on-month while selected discretionary categories, including entertainment, remain above the prior year; footfall, payment value, and category spending are separate behavioral stages", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS real-time indicators using BT Active Intelligence estimated retail footfall and anonymised aggregated Revolut debit-card spending; the bulletin reports month-on-month and year-on-year changes.",
+      "uncertainty": "These are official statistics in development. Footfall counts visits rather than unique people, excludes people who live and work in retail areas, and is not seasonally adjusted; Revolut spending is a participating-card sample and current-price transaction value, not household welfare or total UK spending.",
+      "subgroup": "Visitors to UK retail locations and Revolut debit-card transactions represented in the aggregated indicator, with category and regional breakdowns where available.",
+      "counterinterpretation": "Calendar effects, inflation, sample composition, tourism, and changes in payment method can explain divergence; higher entertainment card spending does not establish higher attendance, affordability, or cultural satisfaction.",
+      "source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026/pdf",
+      "retrieval_hash": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 compared with August 2025; direct-debit payment reliability",
+      "denominator": {"value": 1, "unit": "sample of anonymised and aggregated Bacs Direct Debit payments; no unique-household denominator", "value_type": "comparison_frame"},
+      "measures": {
+        "direct_debit_failure_rate_2025": {"value": 2.3, "unit": "percent of sampled Direct Debit payments failing in August 2025", "value_type": "reported_rate"},
+        "direct_debit_failure_rate_2026": {"value": 2.4, "unit": "percent of sampled Direct Debit payments failing in August 2026", "value_type": "reported_rate"},
+        "failure_rate_change": {"value": 0.1, "unit": "percentage-point increase in the sampled Direct Debit failure rate", "value_type": "calculated_difference_from_published_rate"},
+        "category_signal": {"value": "Fitness-facility failure rates rose from 5.7% to 6.1%, while loan failure rates rose from 4.7% to 5.0%", "unit": "reported category rates", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Payment failure can reveal household budget friction at recurring commitments, with discretionary fitness and loan categories showing higher failure rates than the aggregate series", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS real-time indicator based on seasonally adjusted Direct Debit average transaction and failure-rate data supplied by Pay.UK and Vocalink.",
+      "uncertainty": "The data are anonymised and aggregated, the underlying rates are low and volatile, and failure does not identify the reason, household, later recovery, cancellation, arrears, or harm.",
+      "subgroup": "Sampled Bacs Direct Debit payments by selected payment category.",
+      "counterinterpretation": "A failed payment can reflect an account change, technical issue, timing, merchant retry, or intentional cancellation rather than financial distress; category rates are not population prevalence.",
+      "source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026/pdf",
+      "retrieval_hash": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 compared with July 2026 and August 2025; automotive fuel demand",
+      "denominator": {"value": 1, "unit": "average fuel quantity demanded per aggregated card transaction; no household denominator", "value_type": "comparison_frame"},
+      "measures": {
+        "fuel_price_growth_change_month_on_month": {"value": 7, "unit": "percentage-point increase in the growth rate of average automotive fuel prices from July 2026", "value_type": "reported_change"},
+        "fuel_quantity_demand_growth_change_month_on_month": {"value": -3, "unit": "percentage-point change in growth of average quantity demanded per fuel transaction from July 2026", "value_type": "reported_change"},
+        "fuel_quantity_demand_growth_change_year_on_year": {"value": -11, "unit": "percentage-point change in growth of average quantity demanded per fuel transaction from August 2025", "value_type": "reported_change"},
+        "mechanism": {"value": "Price pressure can appear as lower quantity demanded per fuel transaction, adding a mobility-cost channel to consumer and cultural optionality without observing individual travel decisions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS real-time indicator combining aggregated anonymised card-spending data with Department for Energy Security and Net Zero road-fuel price, sales, and stock data.",
+      "uncertainty": "The indicator is aggregated and current-price oriented; it does not identify drivers, trip purpose, fuel substitution, mileage, income, or whether reduced quantity reflects fewer trips or different refuelling timing.",
+      "subgroup": "Aggregated UK automotive-fuel transactions represented in the indicator.",
+      "counterinterpretation": "Fuel demand per transaction can change because of tank size, refuelling timing, vehicle mix, travel seasonality, or price promotions rather than a general reduction in mobility.",
+      "source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026/pdf",
+      "retrieval_hash": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/latest", "claim": "ONS landing page for the real-time indicators bulletin, release date, headline consumer findings, and official-statistics-in-development designation."},
+    {"source_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/bulletins/economicactivityandsocialchangeintheukrealtimeindicators/17september2026", "claim": "ONS HTML bulletin with consumer behaviour, footfall, Revolut spending, Direct Debit failure, fuel demand, data-source, and limitation statements."}
+  ],
+  "boundary": "This record adds a near-real-time UK consumer and payment-friction layer. It does not establish household-level financial distress, total consumer spending, cultural attendance, mobility reduction, causal price effects, or later remedy and trust outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS 17 September 2026 real-time-indicators PDF reviewed for August retail footfall, Revolut spending, Direct Debit failure rates, fuel prices and demand, source construction, and official-statistics-in-development limitations.",
+    "pdf_sha256": "sha256:9f861302aa2d1a434d595b5cefa3a00fe71bad4d2a38f30eb210927cfd6f0c46",
+    "checked": "2026-09-30"
+  }
+}

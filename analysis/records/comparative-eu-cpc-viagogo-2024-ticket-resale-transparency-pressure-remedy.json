@@ -1,0 +1,162 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-cpc-viagogo-2024-ticket-resale-transparency-pressure-remedy",
+  "title": "EU consumer authorities converted ticket-resale concerns into platform commitments on identity, price, pressure, ranking, and remedy",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "European Commission Consumer Protection Cooperation Network dialogue with Viagogo",
+  "geography": "European Union and European Economic Area consumer-facing Viagogo websites",
+  "observations": [
+    {
+      "period": "16 May 2024 commitments; implementation deadlines through 31 August 2024",
+      "denominator": {
+        "value": null,
+        "unit": "EU/EEA consumers using Viagogo ticket-resale websites; no affected-consumer count disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "seller_identity": {
+          "value": "Viagogo committed to identify whether a seller is a trader or private person and display relevant trader details",
+          "unit": "platform transparency commitment",
+          "value_type": "official_commitment"
+        },
+        "marketplace_role": {
+          "value": "Viagogo committed to make its status as a secondary marketplace visibly clear",
+          "unit": "platform-role disclosure commitment",
+          "value_type": "official_commitment"
+        },
+        "legal_jurisdiction": {
+          "value": "EU consumers would be able to bring legal actions in their Member State of residence and retain mandatory local-law protections",
+          "unit": "consumer-recourse commitment",
+          "value_type": "official_commitment"
+        },
+        "mechanism": {
+          "value": "In secondary cultural markets, consumer agency depends on knowing who sells the ticket and which legal protections remain available, not only on seeing a nominal ticket price",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission factsheet summarizing commitments made by Viagogo following dialogue with the CPC Network and national consumer authorities.",
+      "uncertainty": "The commitments document planned or implemented changes but do not quantify prior consumer harm, actual compliance across every EU/EEA site, or successful use of legal remedies.",
+      "subgroup": "Consumers purchasing or attempting to purchase resale tickets on Viagogo sites directed to EU/EEA consumers.",
+      "counterinterpretation": "Disclosure of seller identity and jurisdiction may improve formal rights without changing scarcity, resale markups, affordability, or consumers' practical ability to litigate.",
+      "source_url": "https://commission.europa.eu/document/download/702073f5-01ee-4087-b822-6efbc8c24ce5_en?filename=CPC-viagogo-factsheet-v3.pdf&prefLang=en",
+      "retrieval_hash": "sha256:df7148b0c3290cab0985fc8fabe065b9dba1c9f094ada84c3737d0236152e592",
+      "status": "reported"
+    },
+    {
+      "period": "16 May 2024 commitments; price, ranking, and pressure controls",
+      "denominator": {
+        "value": null,
+        "unit": "EU/EEA Viagogo ticket listings and checkout journeys; no listing or consumer count disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "price_display": {
+          "value": "Viagogo committed to consistent fee terminology and clearer display of estimated tax, booking fees, and delivery-fee conditions near ticket prices",
+          "unit": "pricing-transparency commitment",
+          "value_type": "official_commitment"
+        },
+        "seat_information": {
+          "value": "Viagogo committed to display seat numbers when sellers provide them",
+          "unit": "listing-information commitment",
+          "value_type": "official_commitment"
+        },
+        "ranking_explanation": {
+          "value": "Viagogo committed to explain ranking criteria and improve the clarity of its best-value filter",
+          "unit": "search-ranking transparency commitment",
+          "value_type": "official_commitment"
+        },
+        "countdown_pressure": {
+          "value": "Viagogo committed to substantially reduce countdown messages and clarify availability and popularity statements",
+          "unit": "choice-pressure commitment",
+          "value_type": "official_commitment"
+        },
+        "mechanism": {
+          "value": "Ticket resale converts platform interface design into cultural-consumer pressure through incomplete price, ranking opacity, seat uncertainty, and scarcity messaging",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission factsheet listing CPC concerns and Viagogo website commitments with implementation deadlines.",
+      "uncertainty": "The factsheet does not measure whether users read or understood the new information, whether pressure messages changed conversion, or whether transparent pricing reduced final prices.",
+      "subgroup": "EU/EEA consumers comparing resale ticket listings and progressing through Viagogo checkout.",
+      "counterinterpretation": "More information can increase cognitive load and does not eliminate scarcity or high prices; fewer countdowns may not remove other urgency cues or algorithmic ranking effects.",
+      "source_url": "https://commission.europa.eu/document/download/702073f5-01ee-4087-b822-6efbc8c24ce5_en?filename=CPC-viagogo-factsheet-v3.pdf&prefLang=en",
+      "retrieval_hash": "sha256:df7148b0c3290cab0985fc8fabe065b9dba1c9f094ada84c3737d0236152e592",
+      "status": "reported"
+    },
+    {
+      "period": "16 May 2024 commitments; failed, invalid, changed, or cancelled ticket remedy",
+      "denominator": {
+        "value": null,
+        "unit": "EU/EEA Viagogo consumers; no affected-customer count disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "refund_window": {
+          "value": "Viagogo committed to allow consumers more time to apply for a refund under its Guarantee when tickets fail",
+          "unit": "remedy-access commitment",
+          "value_type": "official_commitment"
+        },
+        "fraud_and_cancelled_events": {
+          "value": "Viagogo committed to continue efforts to remove fraudulent ticket listings and cancelled events quickly",
+          "unit": "platform-safety commitment",
+          "value_type": "official_commitment"
+        },
+        "contact_route": {
+          "value": "Viagogo committed to make consumer and authority contact channels more prominent and available for queries and regulatory issues",
+          "unit": "recourse-route commitment",
+          "value_type": "official_commitment"
+        },
+        "terms_changes": {
+          "value": "Viagogo committed to advance notice and free cancellation opportunity for future unilateral changes to terms",
+          "unit": "contractual-fairness commitment",
+          "value_type": "official_commitment"
+        },
+        "mechanism": {
+          "value": "The value of a ticketing platform is realized only if failed delivery, invalidity, cancellation, changed terms, and seat substitution have a reachable remedy route",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission factsheet summary of CPC concerns and Viagogo commitments on guarantees, contact, ticket fraud, cancellations, and terms.",
+      "uncertainty": "The commitments do not report refund claims, successful resolutions, average time to remedy, or verified compliance after implementation.",
+      "subgroup": "EU/EEA consumers whose resale tickets are undelivered, invalid, affected by cancellation, or subject to changed platform terms.",
+      "counterinterpretation": "A formal Guarantee or contact address may remain practically weak if consumers cannot document the problem, meet deadlines, or obtain a response; the factsheet does not test usability.",
+      "source_url": "https://commission.europa.eu/document/download/702073f5-01ee-4087-b822-6efbc8c24ce5_en?filename=CPC-viagogo-factsheet-v3.pdf&prefLang=en",
+      "retrieval_hash": "sha256:df7148b0c3290cab0985fc8fabe065b9dba1c9f094ada84c3737d0236152e592",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/market-places-and-digital-services_en",
+      "claim": "The Commission says the CPC Network will actively monitor implementation, while noting Viagogo did not commit to disclose possible delivery-fee amounts at the beginning when multiple delivery options exist or clearly explain additional rights against the actual seller or event organizer after cancellation or postponement.",
+      "retrieval_hash": "sha256:2c6c3703ba5e6d988c9ba735a8fe07b5e8a55434ecf0b6dbeca54e23371607f6",
+      "status": "official-follow-up-and-open-gap"
+    },
+    {
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/market-places-and-digital-services_en",
+      "claim": "The European Commission's coordinated-actions page places the Viagogo dialogue within EU marketplace and digital-services consumer enforcement.",
+      "status": "official-policy-context"
+    },
+    {
+      "source_url": "https://www.gov.uk/government/news/cma-orders-stubhub-uk-to-refund-customers-over-hidden-fees",
+      "claim": "The UK StubHub case supplies a cross-jurisdiction comparator involving hidden fees, automatic refunds, and a financial penalty.",
+      "status": "official-comparator"
+    }
+  ],
+  "boundary": "This record adds an EU/EEA ticket-resale platform-governance episode linking seller identity, price clarity, ranking, scarcity pressure, fraud/cancellation, legal jurisdiction, and remedy routes. It does not quantify affected consumers, verify implementation or compliance, estimate ticket affordability, or prove that the commitments changed cultural participation.",
+  "retrieval_hash": "sha256:df7148b0c3290cab0985fc8fabe065b9dba1c9f094ada84c3737d0236152e592"
+}

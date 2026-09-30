@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-berkeley-security-guard-workforce-2026-job-quality-public-safety",
+  "title": "Private security has become public-safety infrastructure while its workforce remains underpaid and underprotected",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UC Berkeley Labor Center, Underpaid, Undervalued, and Essential: The Security Guard Workforce in the United States, July 2026; national data and state/metropolitan factsheet synthesis",
+  "geography": "United States; national security-guard workforce with selected state and metropolitan comparisons",
+  "observations": [
+    {
+      "period": "2024–2034; size, structure, and replacement demand",
+      "denominator": {"value": 1300000, "unit": "approximately U.S. security officers", "value_type": "reported_count"},
+      "measures": {
+        "annual_openings": {"value": 162300, "unit": "projected openings per year, mostly replacement openings", "value_type": "reported_count"},
+        "contract_security_share": {"value": 60, "unit": "percent working for contract security firms rather than the establishments protected", "value_type": "reported_share"},
+        "employment_projection": {"value": "roughly flat through 2034", "unit": "reported employment projection", "value_type": "reported_projection"},
+        "workforce_public_role": {"value": "guards staff hospitals, schools, transit systems, stores, and offices and increasingly de-escalate conflicts, manage emergencies, and respond to mental-health crises", "unit": "reported occupational scope", "value_type": "reported_scope"}
+      },
+      "method": "Synthesis of national labor-market data with UC Berkeley Labor Center state and metropolitan security-workforce factsheets.",
+      "uncertainty": "The workforce and openings are reported industry estimates/projections; replacement openings do not by themselves measure vacancy duration, service quality, or unmet public-safety need.",
+      "subgroup": "U.S. private security officers, including contract and directly employed guards.",
+      "counterinterpretation": "Private security staffing varies by site, contract, technology, policing, local regulation, and demand; a large workforce does not mean every guard performs the same public-safety role.",
+      "source_url": "https://laborcenter.berkeley.edu/underpaid-undervalued-and-essential/",
+      "retrieval_hash": "sha256:ed3ea0ad4e0205f1991d2974890eef2926a0733ebf92d895933a6c60f437e80a",
+      "status": "reported"
+    },
+    {
+      "period": "2024; wages, living standards, and benefits",
+      "denominator": {"value": 1, "unit": "U.S. security officer workforce comparison universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "median_hourly_wage": {"value": 18.70, "unit": "U.S. dollars per hour", "value_type": "reported_median"},
+        "median_annual_earnings": {"value": 36282, "unit": "U.S. dollars per year", "value_type": "reported_median"},
+        "relative_wage": {"value": 73, "unit": "cents earned by a median security officer per dollar earned by the typical U.S. worker", "value_type": "reported_ratio"},
+        "below_mit_living_wage": {"value": 71, "unit": "percent earning below the MIT living wage for a single adult", "value_type": "reported_share"},
+        "low_wage_benchmark": {"value": 41, "unit": "percent classified as low-wage under a two-thirds-of-median benchmark", "value_type": "reported_share"},
+        "without_employer_or_union_health_insurance": {"value": 43, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Labor-market wage, living-wage, and benefits analysis presented by the Berkeley Labor Center.",
+      "uncertainty": "Benchmarks vary by location, household size, hours, benefits, and overtime; median earnings do not establish take-home pay, schedule stability, or household poverty.",
+      "subgroup": "U.S. security officers, with demographic and geography differences reported separately.",
+      "counterinterpretation": "Some guards receive overtime, public benefits, household support, or employer benefits not captured by the headline wage comparison; local wages may exceed or fall below the national median.",
+      "source_url": "https://laborcenter.berkeley.edu/underpaid-undervalued-and-essential/",
+      "retrieval_hash": "sha256:ed3ea0ad4e0205f1991d2974890eef2926a0733ebf92d895933a6c60f437e80a",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2024; turnover, training, and safety risk",
+      "denominator": {"value": 1, "unit": "U.S. security-industry workforce and regulatory comparison universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "annual_industry_turnover": {"value": 89, "unit": "percent in 2024; private-sector comparison 66 percent", "value_type": "reported_comparison"},
+        "turnover_peak": {"value": 99, "unit": "approximately percent in 2022", "value_type": "reported_share"},
+        "states_with_unarmed_training_minimum": {"value": "about half of states", "unit": "reported policy coverage", "value_type": "reported_scope"},
+        "training_hours_range": {"value": "4 to 48 hours among states with minimums", "unit": "reported range for unarmed-guard training", "value_type": "reported_range"},
+        "fatality_risk": {"value": "more than twice the average worker rate", "unit": "reported occupational fatality comparison", "value_type": "reported_comparison"},
+        "fatal_assault_share": {"value": "nearly two-thirds", "unit": "share of fatal injuries resulting from assaults", "value_type": "reported_share"}
+      },
+      "method": "National industry turnover and occupational-safety data combined with review of state licensing and training requirements.",
+      "uncertainty": "Turnover definitions, occupational classifications, injury reporting, and state training rules differ; the report does not identify a single causal effect of wages, training, contracting, or site conditions on each outcome.",
+      "subgroup": "Security guards and unarmed-guard regulatory systems across the United States.",
+      "counterinterpretation": "Turnover can reflect seasonal work, labor-market alternatives, site closure, voluntary mobility, or workers moving into better jobs; training hours are not equivalent to training quality.",
+      "source_url": "https://laborcenter.berkeley.edu/underpaid-undervalued-and-essential/",
+      "retrieval_hash": "sha256:ed3ea0ad4e0205f1991d2974890eef2926a0733ebf92d895933a6c60f437e80a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; job quality as public-safety capacity",
+      "denominator": {"value": 1, "unit": "report synthesis of security-workforce and public-safety evidence", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "job_quality_service_link": {"value": "higher pay and lower turnover are associated with better and more reliable security services; constant churn erodes experience and readiness", "unit": "reported research synthesis", "value_type": "reported_association"},
+        "policy_route": {"value": "sectoral pay and benefit standards, standardized training, responsible contracting, and career pathways", "unit": "reported policy pathway", "value_type": "reported_policy_route"},
+        "institutional_mechanism": {"value": "low-bid contracting can externalize labor costs while transferring readiness and safety risk to workers, sites, and the public", "unit": "report-consistent mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Report synthesis of security-industry research, labor standards, contracting structures, and the San Francisco International Airport case cited by the authors.",
+      "uncertainty": "The report does not provide a unified causal estimate across all sites or prove that each proposed intervention will improve public safety in every setting.",
+      "subgroup": "Security officers, contracting firms, protected establishments, and members of the public using sites staffed by private security.",
+      "counterinterpretation": "Technology, site design, management, policing, public investment, and local conditions also shape security reliability; higher pay alone is not a complete safety strategy.",
+      "source_url": "https://laborcenter.berkeley.edu/underpaid-undervalued-and-essential/",
+      "retrieval_hash": "sha256:ed3ea0ad4e0205f1991d2974890eef2926a0733ebf92d895933a6c60f437e80a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://laborcenter.berkeley.edu/wp-content/uploads/2026/07/Underpaid-Undervalued-and-Essential%E2%80%94The-Security-Guard-Workforce-in-the-United-States.pdf", "claim": "Direct PDF of the national report, methods, tables, references, and policy analysis.", "status": "primary-publication"},
+    {"source_url": "https://laborcenter.berkeley.edu/security-guards-undervalued-and-underpaid/", "claim": "Berkeley Labor Center series page for state and metropolitan security-workforce factsheets.", "status": "publisher-context"}
+  ],
+  "boundary": "This record identifies a U.S. infrastructure-and-labor mechanism in which private security has expanded into frontline public-safety work while low wages, thin benefits, high turnover, uneven training, and elevated injury risk weaken workforce stability. It does not establish that any single job-quality intervention causes a specific safety outcome, nor that all private security sites have the same conditions.",
+  "retrieval_hash": "sha256:ed3ea0ad4e0205f1991d2974890eef2926a0733ebf92d895933a6c60f437e80a"
+}

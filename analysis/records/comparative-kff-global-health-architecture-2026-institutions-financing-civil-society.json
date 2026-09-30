@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kff-global-health-architecture-2026-institutions-financing-civil-society",
+  "title": "Global health capacity is shaped by overlapping institutions, misaligned funding cycles, governance voice, and the burdens of transition—not only by available money",
+  "theme_ids": ["voice", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "KFF, Mapping the Global Health Landscape: Analysis of Fourteen International Organizations, September 2026",
+  "geography": "Fourteen international organizations operating in or financing health work in low- and middle-income countries",
+  "observations": [
+    {
+      "period": "2026 institutional mapping; governance and stakeholder representation",
+      "denominator": {"value": 14, "unit": "international organizations mapped by KFF", "value_type": "reported_institution_count"},
+      "measures": {
+        "governance_variation": {"value": "the mapped institutions span public-private partnerships, UN member-state entities, hosted partnerships, and multilateral development banks", "unit": "reported governance comparison", "value_type": "reported_assessment"},
+        "civil_society_voice": {"value": "formal civil-society representation and decision-making power are more present in multi-stakeholder public-private partnerships than in member-state institutions", "unit": "reported governance pattern", "value_type": "reported_assessment"},
+        "legitimacy_mechanism": {"value": "the governance model determines whether affected communities and civil society have formal voice, not simply whether institutions consult them", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KFF descriptive mapping using official organizational documents, governance materials, strategic plans, financial statements, and outreach to organizations.",
+      "uncertainty": "The mapping is not an organizational performance assessment; formal representation does not establish substantive influence, and the selected 14 institutions are not an exhaustive global-health census.",
+      "subgroup": "Civil-society organizations, affected communities, member states, public-private boards, donors, and institutions with different voting and decision-making rules.",
+      "counterinterpretation": "Formal stakeholder seats may be advisory, unevenly resourced, or disconnected from country-level implementation and affected-community power.",
+      "source_url": "https://www.kff.org/global-health-policy/mapping-the-global-health-landscape-analysis-of-fourteen-international-organizations/",
+      "retrieval_hash": "sha256:f75ff53bc8ad502c3ae37fcbcb6a4622939a76601960e7764406e9c8cb3746a7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 institutional mapping; issue overlap and health-systems strengthening",
+      "denominator": {"value": 14, "unit": "international organizations mapped by KFF", "value_type": "reported_institution_count"},
+      "measures": {
+        "health_systems_focus": {"value": 10, "unit": "organizations identified as focusing on health systems strengthening among seven assessed health areas", "value_type": "reported_institution_count"},
+        "secondary_focus": {"value": "maternal and child health and global health security/pandemic preparedness and response were each a focus of six organizations", "unit": "reported institutional overlap", "value_type": "reported_assessment"},
+        "modality_overlap": {"value": "technical assistance was the most common functional modality, followed by country financing and market shaping", "unit": "reported modality pattern", "value_type": "reported_assessment"},
+        "coordination_mechanism": {"value": "overlap can create synergy but can also impose coordination and administrative burdens on the same countries", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative institutional mapping across seven health focus areas and six functional modalities.",
+      "uncertainty": "A shared focus area does not mean identical programs, countries, instruments, or duplication; KFF notes that deeper cross-domain analysis reduces apparent overlap in some areas.",
+      "subgroup": "Health ministries, country implementers, civil society, service providers, and communities interacting with multiple global-health institutions.",
+      "counterinterpretation": "Multiple institutions in a sector can provide resilience, specialization, and choice rather than waste, especially when roles and financing are complementary.",
+      "source_url": "https://www.kff.org/global-health-policy/mapping-the-global-health-landscape-analysis-of-fourteen-international-organizations/",
+      "retrieval_hash": "sha256:f75ff53bc8ad502c3ae37fcbcb6a4622939a76601960e7764406e9c8cb3746a7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 institutional mapping; fundraising and country-financing cycles",
+      "denominator": {"value": 14, "unit": "international organizations mapped by KFF", "value_type": "reported_institution_count"},
+      "measures": {
+        "funding_alignment": {"value": "fundraising approaches and cycles are generally not aligned across organizations", "unit": "reported institutional pattern", "value_type": "reported_assessment"},
+        "country_cycle_burden": {"value": "countries receiving support may face multiple grant and financing periods tied to different institutional cycles", "unit": "reported implementation condition", "value_type": "reported_assessment"},
+        "administrative_mechanism": {"value": "misaligned schedules can create administrative burden and reduce the practical coherence of health-system planning even when total funding is available", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "fiscal_context": {"value": "tightening fiscal environments increase the stakes of coordination, comparative advantage, and resource allocation", "unit": "reported context", "value_type": "reported_assessment"}
+      },
+      "method": "KFF comparison of fundraising processes, replenishment periods, country-financing cycles, and organizational operating models.",
+      "uncertainty": "The descriptive mapping does not quantify country-level administrative costs, health outcomes, or the counterfactual effect of aligning funding cycles.",
+      "subgroup": "Health ministries and country teams managing multiple grants, donors, reporting requirements, procurement systems, and implementation calendars.",
+      "counterinterpretation": "Different cycles can preserve institutional specialization, allow rapid response, and diversify financing rather than inherently reducing effectiveness.",
+      "source_url": "https://www.kff.org/global-health-policy/mapping-the-global-health-landscape-analysis-of-fourteen-international-organizations/",
+      "retrieval_hash": "sha256:f75ff53bc8ad502c3ae37fcbcb6a4622939a76601960e7764406e9c8cb3746a7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 institutional mapping; graduation, co-financing, and transition burden",
+      "denominator": {"value": 6, "unit": "organizations or financing institutions using country-income and related eligibility criteria in the mapped subset", "value_type": "reported_institution_count"},
+      "measures": {
+        "eligibility_logic": {"value": "all six country-financing institutions use country income, with some adding capacity, risk, disease, or debt criteria", "unit": "reported eligibility pattern", "value_type": "reported_assessment"},
+        "transition_burden": {"value": "multiple graduation policies and co-financing requirements can create unanticipated short-term burdens as countries transition from external support", "unit": "reported implementation risk", "value_type": "reported_risk"},
+        "sustainability_mechanism": {"value": "rising income does not automatically equal fiscal, institutional, or service-delivery capacity to replace external financing", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "lowest_need_tradeoff": {"value": "as resources are directed toward the lowest-income and highest-need countries, countries on transition glidepaths may face simultaneous loss of support from more than one organization", "unit": "reported system condition", "value_type": "reported_assessment"}
+      },
+      "method": "KFF mapping of eligibility, country-financing, co-financing, graduation, debt-distress, and capacity-gap criteria.",
+      "uncertainty": "The report does not estimate country-specific service losses or prove that graduation causes worse outcomes; transition effects depend on domestic financing, coordination, and institutional capacity.",
+      "subgroup": "Lower-middle-income and middle-income countries, health ministries, communities reliant on externally financed services, and institutions managing transition support.",
+      "counterinterpretation": "Graduation and co-financing can strengthen country ownership and domestic spending when sequenced with adequate preparation, predictable support, and aligned institutions.",
+      "source_url": "https://www.kff.org/global-health-policy/mapping-the-global-health-landscape-analysis-of-fourteen-international-organizations/",
+      "retrieval_hash": "sha256:f75ff53bc8ad502c3ae37fcbcb6a4622939a76601960e7764406e9c8cb3746a7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.kff.org/global-health-policy/mapping-the-global-health-landscape-analysis-of-fourteen-international-organizations/", "claim": "Official KFF report page and descriptive mapping of 14 global health institutions."},
+    {"source_url": "https://www.kff.org/topic/global-health-policy/", "claim": "KFF global health policy research hub providing related financing, aid, and institutional context."}
+  ],
+  "boundary": "This record adds a global-health institutional-capacity route linking governance voice, civil-society inclusion, overlapping mandates, technical assistance, financing cycles, eligibility, graduation, co-financing, and country sustainability. It is a descriptive institutional mapping, not an organizational performance evaluation, country-level outcome study, causal financing analysis, exhaustive global-health census, or proof that alignment alone improves health equity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official KFF report page reviewed for the 14-institution frame, governance models, civil-society representation, health-area overlap, functional modalities, fundraising and funding cycles, eligibility, graduation, co-financing, and methodological boundaries.",
+    "source_url_sha256": "sha256:f75ff53bc8ad502c3ae37fcbcb6a4622939a76601960e7764406e9c8cb3746a7",
+    "checked": "2026-09-28"
+  }
+}

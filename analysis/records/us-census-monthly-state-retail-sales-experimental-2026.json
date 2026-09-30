@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-monthly-state-retail-sales-experimental-2026",
+  "title": "Modeled retail growth diverges sharply across U.S. states and consumer-facing categories",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "U.S. Census Bureau Monthly State Retail Sales (MSRS), June 2026 experimental vintage",
+  "geography": "United States; 50 states and District of Columbia, with national and retail-subsector comparisons",
+  "observations": [
+    {
+      "period": "June 2026; year-over-year percentage change in total retail sales excluding nonstore retailers",
+      "denominator": {"value": 52, "unit": "U.S. states and District of Columbia with modeled state observations", "value_type": "geographic_coverage_frame"},
+      "measures": {
+        "state_median": {"value": 7.7, "unit": "percent year-over-year change; median across states and District of Columbia", "value_type": "calculated_median_from_published_csv"},
+        "lowest_state": {"value": "Alaska -7.6%", "unit": "percent year-over-year change", "value_type": "reported_modeled_state_indicator"},
+        "highest_state": {"value": "Louisiana +11.3%", "unit": "percent year-over-year change", "value_type": "reported_modeled_state_indicator"},
+        "state_range": {"value": 18.9, "unit": "percentage-point difference between Louisiana and Alaska", "value_type": "calculated_difference_from_published_csv"},
+        "mechanism": {"value": "Retail behavior is geographically uneven: a national retail signal can conceal materially different local consumption and business conditions, with implications for place, household budgets, category exposure, and local commercial ecosystems", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction and median calculation from the Census MSRS not-adjusted year-over-year percentage-change CSV for June 2026; nonnumeric suppression markers were excluded.",
+      "uncertainty": "MSRS is an experimental modeled product blending Monthly Retail Trade Survey data, administrative data, and third-party data. The Census page states that the methodology will continue to improve and that MRTS estimates were scheduled for revision on September 28, 2026, with revisions reflected in the July 2026 report. These are nominal year-over-year sales changes, not inflation-adjusted volumes, household welfare, foot traffic, or causal estimates.",
+      "subgroup": "U.S. states and District of Columbia.",
+      "counterinterpretation": "State differences may reflect prices, population, tourism, energy exposure, business mix, reporting/model inputs, weather, and calendar effects rather than a simple difference in consumer demand or cultural preference.",
+      "source_url": "https://www.census.gov/retail/state_retail_sales.html",
+      "retrieval_hash": "sha256:1c3f0b21950386423c1b917af7fd43195e95d155ebdf53606ef496e295290af9",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; year-over-year percentage change in selected retail subsectors",
+      "denominator": {"value": 52, "unit": "U.S. states and District of Columbia with modeled state observations; category coverage varies by suppression", "value_type": "geographic_coverage_frame"},
+      "measures": {
+        "sporting_goods_books_music_range": {"value": "District of Columbia -9.6% to Alaska +24.8%", "unit": "percent year-over-year change; NAICS 451", "value_type": "reported_modeled_state_distribution"},
+        "gasoline_range": {"value": "Wyoming +2.6% to Michigan +25.4%", "unit": "percent year-over-year change; NAICS 447", "value_type": "reported_modeled_state_distribution"},
+        "food_beverage_range": {"value": "Mississippi -5.9% to Alaska +12.2%", "unit": "percent year-over-year change; NAICS 445", "value_type": "reported_modeled_state_distribution"},
+        "category_mechanism": {"value": "The same state can sit in very different retail regimes by category; this creates a route for testing whether broad consumer narratives are actually category-specific and place-specific", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction of June 2026 state rows from the Census MSRS year-over-year CSV; NAICS labels follow the Census MSRS data dictionary and values are not interpreted as real-volume growth.",
+      "uncertainty": "Subsector estimates inherit the experimental product's blending, modeling, coverage, suppression, and revision limitations. Ranges identify dispersion, not individual consumer behavior, category profitability, affordability, or causal substitution between categories.",
+      "subgroup": "Retail subsectors across U.S. states and District of Columbia: food and beverage retailers (445), gasoline stations (447), and sporting goods, hobby, musical instrument, book, and miscellaneous retailers (451).",
+      "counterinterpretation": "A high nominal sales change can result from prices or compositional shifts; a low or negative change can reflect deflation, timing, population change, or model uncertainty. The source cannot distinguish cultural meaning from ordinary commercial or macroeconomic variation.",
+      "source_url": "https://www.census.gov/retail/state_retail_sales.html",
+      "retrieval_hash": "sha256:7e8d525bb013d81bcf31890a15779fea7af201045b8d712e88e853730627a0f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/retail/mrts/www/statedata/state_retail_yy.csv", "claim": "Official MSRS state and NAICS year-over-year percentage-change CSV beginning January 2019; June 2026 values used for the observations."},
+    {"source_url": "https://www.census.gov/retail/mrts/www/statedata/state_retail_se.csv", "claim": "Official MSRS standard-error CSV for interpreting the modeled estimates and their uncertainty."},
+    {"source_url": "https://www.census.gov/retail/mrts/www/statedata/state_retail_coverage.csv", "claim": "Official MSRS coverage-measures CSV for understanding source coverage by state and category."},
+    {"source_url": "https://www.census.gov/retail/mrts/www/statedata/msrs_data_dictionary.pdf", "claim": "Official MSRS data dictionary defining fields, state identifiers, NAICS categories, and suppression markers."},
+    {"source_url": "https://www.census.gov/retail/mrts/www/statedata/msrs_technical_documentation.pdf", "claim": "Official MSRS technical documentation for the experimental blended-data methodology and limitations."}
+  ],
+  "boundary": "This record adds an experimental U.S. place-by-category retail-behavior layer. It does not establish real-volume growth, consumer welfare, cultural preference, affordability, profitability, causal substitution, or individual household behavior; all findings should be revisited after Census revisions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census MSRS landing page, year-over-year CSV, standard-error CSV, coverage CSV, data dictionary, and technical documentation reviewed; June 2026 state/category values and suppression handling checked.",
+    "html_sha256": "sha256:1c3f0b21950386423c1b917af7fd43195e95d155ebdf53606ef496e295290af9",
+    "csv_hashes": {
+      "year_over_year": "sha256:7e8d525bb013d81bcf31890a15779fea7af201045b8d712e88e853730627a0f7",
+      "standard_errors": "sha256:a977b1106f16a105a748e85f21a448d49be0c6a005850732f368a375b9385886",
+      "coverage": "sha256:91c0e3cc0bac8505d4c8fdd5de8726cd8a76f03033fffa9f28d4abe1f7b89b50"
+    },
+    "documentation_hashes": {
+      "data_dictionary": "sha256:f01ea8eea51c065bcaab1ac6bce1e84956d753583a586293709817c2146e3b79",
+      "overview": "sha256:f2adb5e97d742a21ff5d6ab958a4b5718a9eaaf798e4958d4ec8adc3ad326a63",
+      "technical_documentation": "sha256:558ef5736ee5c050384f5916e9111b9d8762d0f57a22ceaaa16c950544b4e480"
+    },
+    "checked": "2026-09-30"
+  }
+}

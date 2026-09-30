@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ap-kff-rural-voters-cost-healthcare-political-legitimacy-2026",
+  "title": "Rural cost and healthcare strain are testing whether partisan loyalty converts into political legitimacy",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Associated Press and KFF Health News rural registered-voter poll",
+  "geography": "United States; registered voters living in rural areas; fielded August 12-24, 2026",
+  "observations": [
+    {
+      "period": "August 12-24, 2026; rural economic and cost-of-living judgment",
+      "denominator": {"value": 2241, "unit": "U.S. rural registered voters surveyed by AP and KFF", "value_type": "reported_survey_sample"},
+      "measures": {
+        "worse_economy": {"value": "about half said the economy is worse off than when Donald Trump returned to office", "unit": "reported rural-voter assessment", "value_type": "published_survey_estimate"},
+        "cost_pain": {"value": "groceries, gas and healthcare were top pain points, with about three-quarters rating local cost of living only fair or poor", "unit": "reported rural-voter assessment", "value_type": "published_survey_estimate"},
+        "material_political_translation": {"value": "Partisan support can remain substantial while pocketbook disappointment weakens confidence that promised economic improvement has arrived.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "AP-KFF poll of 2,241 rural registered voters using the probability-based SSRS Opinion Panel, conducted August 12-24, 2026; full-sample margin of sampling error reported as plus or minus 3 percentage points.",
+      "uncertainty": "The poll is cross-sectional and self-reported; it does not establish which policies caused local economic conditions, how rural residence is defined in every estimate, or whether economic dissatisfaction changes turnout or vote choice.",
+      "subgroup": "Rural registered voters, including Republican, Democratic and independent voters; state and local economic conditions vary substantially.",
+      "counterinterpretation": "Economic frustration may coexist with durable partisan identity, cultural alignment or retrospective blame that limits electoral switching.",
+      "source_url": "https://apnews.com/article/rural-voters-trump-economy-midterms-healthcare-poll-8098dfa7a9534551203dfa4a8c27564c",
+      "retrieval_hash": "sha256:f2c72dc87de5ab71c764a62ca293cd76e4da949b1cba5c75bbf3145f7c5c9080",
+      "status": "reported"
+    },
+    {
+      "period": "August 12-24, 2026; healthcare policy visibility and local service legitimacy",
+      "denominator": {"value": 2241, "unit": "U.S. rural registered voters surveyed by AP and KFF", "value_type": "reported_survey_sample"},
+      "measures": {
+        "healthcare_policy_impact": {"value": 17, "unit": "percent saying administration healthcare policies had a positive impact on their healthcare costs", "value_type": "published_survey_estimate"},
+        "no_or_negative_impact": {"value": 41, "unit": "percent saying no impact and 41% saying negative impact", "value_type": "published_survey_estimate"},
+        "rural_health_fund_awareness": {"value": "more than eight in ten had heard little or nothing about the rural health fund, including about six in ten who had heard nothing", "unit": "reported awareness estimate", "value_type": "published_survey_estimate"},
+        "visibility_conversion": {"value": "A named policy or funding stream cannot generate legitimacy when residents cannot connect it to accessible local care, costs or visible service change.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive AP-KFF survey estimates reported in the public article; the source combines healthcare-cost perceptions, policy awareness and rural service context.",
+      "uncertainty": "Awareness is not implementation or service-use evidence; the poll does not measure hospital finances, coverage changes, travel time, staffing, closures or individual healthcare outcomes.",
+      "subgroup": "Rural registered voters concerned with healthcare costs and local service availability.",
+      "counterinterpretation": "Low awareness may reflect information overload or limited salience rather than policy failure, while local hospitals can change for reasons outside the surveyed administration's policies.",
+      "source_url": "https://apnews.com/article/rural-voters-trump-economy-midterms-healthcare-poll-8098dfa7a9534551203dfa4a8c27564c",
+      "retrieval_hash": "sha256:f2c72dc87de5ab71c764a62ca293cd76e4da949b1cba5c75bbf3145f7c5c9080",
+      "status": "reported"
+    },
+    {
+      "period": "August 12-24, 2026; partisan trust, respect and electoral agency",
+      "denominator": {"value": 2241, "unit": "U.S. rural registered voters surveyed by AP and KFF", "value_type": "reported_survey_sample"},
+      "measures": {
+        "trump_approval": {"value": 48, "unit": "percent approving of Trump's job performance among rural voters", "value_type": "published_survey_estimate"},
+        "party_respect": {"value": "48% said the Republican Party respects people like them a lot or some, 45% said this of Trump and 37% said this of the Democratic Party", "unit": "reported respect estimates", "value_type": "published_survey_estimate"},
+        "electoral_withdrawal_risk": {"value": "The article reports uncertainty about voting among some economically frustrated rural voters; this is a possible agency and turnout channel, not a turnout forecast.", "unit": "reported mechanism", "value_type": "reported_boundary"},
+        "legitimacy_gap": {"value": "Partisan identity and approval can coexist with weak perceptions of respect, delivery and local economic improvement.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Cross-sectional AP-KFF poll with reported party, presidential approval and respect measures; individual vote intention and turnout are not modeled as outcomes in the article.",
+      "uncertainty": "The source does not establish persistence, causal attribution, actual November voting, or whether nonvoting reflects economic frustration rather than candidate, health, access or scheduling factors.",
+      "subgroup": "Rural Republican, Democratic and independent registered voters.",
+      "counterinterpretation": "Respect judgments may be symbolic and partisan, while approval can remain stable through cultural or identity alignment despite material disappointment.",
+      "source_url": "https://apnews.com/article/rural-voters-trump-economy-midterms-healthcare-poll-8098dfa7a9534551203dfa4a8c27564c",
+      "retrieval_hash": "sha256:f2c72dc87de5ab71c764a62ca293cd76e4da949b1cba5c75bbf3145f7c5c9080",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://apnews.com/article/rural-voters-trump-economy-midterms-healthcare-poll-8098dfa7a9534551203dfa4a8c27564c", "claim": "AP article reports the poll sample, field dates, rural cost, healthcare awareness, approval, respect and partisan findings."},
+    {"source_url": "https://www.kff.org/", "claim": "KFF Health News is the partner organization identified in the poll report."}
+  ],
+  "boundary": "This record adds a rural place-specific legitimacy route from cost and healthcare strain through policy visibility, partisan trust, perceived respect and possible electoral agency. It does not establish causal policy effects, actual healthcare access or outcomes, individual vote choice, turnout, or a uniform rural experience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official AP article was reviewed for the SSRS panel, sample, field dates, margin of error, rural cost-of-living, healthcare policy impact and awareness, approval, respect and electoral-agency findings.",
+    "source_page_sha256": "sha256:f2c72dc87de5ab71c764a62ca293cd76e4da949b1cba5c75bbf3145f7c5c9080",
+    "checked": "2026-09-29"
+  }
+}

@@ -186,6 +186,63 @@
       "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-mid-atlantic-powered-during-hot-weather-conditions",
       "retrieval_hash": "sha256:0c57dc0ffe794124343a8005d94eac74db60e8c4502519e7be0e94bfc54823d5",
       "status": "reported"
+    },
+    {
+      "period": "September 16-18, 2026; recurring PJM emergency reliability intervention",
+      "denominator": {
+        "value": 1,
+        "unit": "DOE section 202(c) emergency order application and PJM operating episode",
+        "value_type": "reported_emergency_order_application"
+      },
+      "measures": {
+        "eea_status": {
+          "value": "PJM anticipated Energy Emergency Alert 1 conditions for September 17-18",
+          "unit": "reported emergency operating status",
+          "value_type": "reported_operating_forecast"
+        },
+        "reserve_margin_stress": {
+          "value": 700,
+          "unit": "approximately MW below reserve margin forecast for September 17",
+          "value_type": "reported_system_forecast"
+        },
+        "forecast_demand": {
+          "value": 133285,
+          "unit": "MW anticipated PJM demand",
+          "value_type": "reported_system_forecast"
+        },
+        "generation_outages": {
+          "value": 33191,
+          "unit": "MW of anticipated generation outages",
+          "value_type": "reported_system_forecast"
+        },
+        "large_load_backup_authority": {
+          "value": "The requested order authorized PJM to direct backup generation at large loads as a last resort before or during EEA 3",
+          "unit": "emergency reliability-control authority",
+          "value_type": "reported_operational_authority"
+        },
+        "residential_protection_target": {
+          "value": "The application identified avoiding firm load shedding, including residential load, as a purpose of the requested relief",
+          "unit": "stated protection target",
+          "value_type": "reported_policy_objective"
+        },
+        "reporting_requirement": {
+          "value": "PJM was required to report whether specified units were dispatched and operated in reliance on the emergency order",
+          "unit": "compliance reporting requirement",
+          "value_type": "reported_accountability_mechanism"
+        },
+        "household_outcome": {
+          "value": "not observed",
+          "unit": "actual residential outage avoidance, bill effect, air-quality burden, backup-generation dispatch, or customer experience",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of PJM's September 16, 2026 application for a DOE section 202(c) emergency order and the associated filings-and-orders record; quantified system stress and authorized controls are coded separately from realized dispatch and household outcomes.",
+      "uncertainty": "The application establishes a recurring federal emergency-governance stage, quantified forecast stress, a last-resort backup-generation authority, and a reporting obligation. It does not establish actual backup-generation dispatch, environmental burden, avoided residential load shedding, bill effects, or durable large-load behavior.",
+      "subgroup": "PJM, generators, transmission and distribution operators, large-load facilities, and Mid-Atlantic electricity customers; customer-level incidence is not identified.",
+      "counterinterpretation": "A repeated emergency order may reflect prudent contingency planning and coordination rather than realized household harm or a system failure; the stated residential protection goal is not evidence that interruption would otherwise have occurred.",
+      "source_url": "https://www.energy.gov/documents/pjms-202c-application-202-26-45",
+      "retrieval_hash": "sha256:c8b49e80eac439f3915df9e889cf9fc04b1d69b168eee5e3cc45f231dcd3f7c2",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -204,6 +261,12 @@
       "claim": "FERC oversight material describes a direction for NERC to submit initial large-load reliability standards, registry criteria, and a work plan by December 31, 2026, while public stakeholder processes continue.",
       "status": "official-follow-up",
       "access_boundary": "The material does not establish submission, adoption, facility compliance, household reliability, bill effects, or local acceptance."
+    },
+    {
+      "source_url": "https://www.pjm.com/library/filing-order.aspx",
+      "claim": "PJM's filings-and-orders record identifies a September 17, 2026 DOE emergency order and a September 18 daily compliance report covering the September 17 operating day.",
+      "status": "official-follow-up",
+      "access_boundary": "The filing index establishes the reporting stage; it does not by itself establish the content of actual dispatch, household outcomes, emissions, or bill effects."
     }
   ],
   "boundary": "This record establishes a dated large-load operating event, an operator response, a proposed reliability-control response, and a later regulator-directed standard-setting stage. It does not establish a household outage, bill change, environmental burden, completed rule adoption, facility compliance, durable facility behavior, local acceptance, or changed geopolitical leverage."

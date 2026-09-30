@@ -1,0 +1,155 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-spain-ine-household-budget-2025-recreation-culture-quintile-room",
+  "title": "Spanish household budgets gave recreation, sport, and culture more nominal room in 2025 while essential spending remained sharply unequal by spending quintile",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Instituto Nacional de Estadística (INE), Household Budget Survey 2025 final results",
+  "geography": "Spain; resident households and persons covered by the annual Household Budget Survey",
+  "observations": [
+    {
+      "period": "2025; national household budget",
+      "denominator": {
+        "value": 24000,
+        "unit": "approximately 24,000 dwellings in the annual Household Budget Survey sample",
+        "value_type": "official_survey_sample_approximate"
+      },
+      "measures": {
+        "average_household_spending": {
+          "value": 35101,
+          "unit": "euros average household consumption expenditure in current prices",
+          "value_type": "official_survey_estimate"
+        },
+        "average_person_spending": {
+          "value": 14066,
+          "unit": "euros average consumption expenditure per person in current prices",
+          "value_type": "official_survey_estimate"
+        },
+        "recreation_sport_culture_spending": {
+          "value": 1772,
+          "unit": "euros average household spending on recreation, sport, and culture in current prices",
+          "value_type": "official_survey_estimate"
+        },
+        "recreation_sport_culture_share": {
+          "value": 5.0,
+          "unit": "percent of average household consumption expenditure allocated to recreation, sport, and culture",
+          "value_type": "official_survey_share"
+        },
+        "recreation_sport_culture_growth": {
+          "value": 4.7,
+          "unit": "percent annual change in average household recreation, sport, and culture spending",
+          "value_type": "official_survey_estimate"
+        },
+        "mechanism": {
+          "value": "Nominal cultural and leisure spending expanded, but the category remains a bounded share of household budgets and must be read against essential-cost pressure",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "INE annual Household Budget Survey, approximately 24,000 sampled dwellings, recording monetary and selected non-monetary household consumption under COICOP 2018.",
+      "uncertainty": "Values are current-price averages and do not show individual cultural attendance, real-volume change, within-category composition, household debt, or the distribution of cultural spending within the average.",
+      "subgroup": "Resident households in Spain; the sample and estimates cover household consumption rather than only paid cultural admissions.",
+      "counterinterpretation": "Higher nominal recreation/culture spending may reflect price inflation, more expensive events, household composition, or a small number of high-spending households rather than broader access.",
+      "source_url": "https://www.ine.es/dyngs/Prensa/en/EPF2025.pdf",
+      "retrieval_hash": "sha256:d315c3025e03d4824c02258728bb5a3c0d8faba6426c85f9ed89624e41f48a73",
+      "status": "reported"
+    },
+    {
+      "period": "2025; spending-quintile allocation and household room",
+      "denominator": {
+        "value": 24000,
+        "unit": "approximately 24,000 sampled dwellings; quintile comparisons are based on household spending distribution",
+        "value_type": "official_survey_sample_approximate"
+      },
+      "measures": {
+        "lowest_quintile_essential_share": {
+          "value": 61.5,
+          "unit": "percent of the lowest-spending-quintile household budget devoted to housing, water, electricity, gas and other fuels plus food and non-alcoholic beverages",
+          "value_type": "official_quintile_share"
+        },
+        "highest_quintile_selected_discretionary_share": {
+          "value": 33.6,
+          "unit": "percent of the highest-spending-quintile household budget devoted to transport, restaurants/accommodation, and recreation/sport/culture combined",
+          "value_type": "official_quintile_share"
+        },
+        "mechanism": {
+          "value": "Household room is distributional: lower-spending households concentrate more budget in essentials, while higher-spending households can allocate a much larger combined share to mobility, hospitality, and recreation/culture",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "INE Household Budget Survey 2025 comparison of budget shares by household consumption-expenditure quintile.",
+      "uncertainty": "The published 33.6% combines three broad categories and does not isolate recreation/culture for the highest quintile; budget shares do not establish deprivation, subjective welfare, cultural participation, or causal price effects.",
+      "subgroup": "Lowest and highest household consumption-expenditure quintiles in Spain; quintiles are distributional groups, not fixed households across time.",
+      "counterinterpretation": "A higher discretionary share can reflect higher transport or restaurant spending rather than cultural consumption, and a lower essential share does not mean the lowest quintile has no cultural participation.",
+      "source_url": "https://www.ine.es/dyngs/Prensa/en/EPF2025.pdf",
+      "retrieval_hash": "sha256:d315c3025e03d4824c02258728bb5a3c0d8faba6426c85f9ed89624e41f48a73",
+      "status": "reported"
+    },
+    {
+      "period": "2025; household-type and regional spending divergence",
+      "denominator": {
+        "value": 24000,
+        "unit": "approximately 24,000 sampled dwellings; household-type and regional estimates are separate cross-sectional groups",
+        "value_type": "official_survey_sample_approximate"
+      },
+      "measures": {
+        "couple_with_children_spending": {
+          "value": 44438,
+          "unit": "euros average annual household consumption expenditure for couples with children",
+          "value_type": "official_household_type_estimate"
+        },
+        "single_under_65_spending": {
+          "value": 23784,
+          "unit": "euros average annual household consumption expenditure for one-person households under 65",
+          "value_type": "official_household_type_estimate"
+        },
+        "single_65_plus_spending": {
+          "value": 23024,
+          "unit": "euros average annual household consumption expenditure for one-person households aged 65 or older",
+          "value_type": "official_household_type_estimate"
+        },
+        "regional_per_person_range": {
+          "value": {"Basque Country": 16642, "Andalusia": 12197},
+          "unit": "euros average consumption expenditure per person in highest and lowest autonomous communities reported",
+          "value_type": "official_regional_estimate"
+        },
+        "mechanism": {
+          "value": "Household structure and place alter the room available for discretionary cultural and consumer choices before preferences or attendance are observed",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "INE Household Budget Survey 2025 estimates by household type and autonomous community.",
+      "uncertainty": "These are current-price averages and do not adjust for household needs, housing prices, age, disability, regional supply, or the composition of recreation/culture spending.",
+      "subgroup": "Spanish household types and autonomous communities; the regional and household-type comparisons are not a matched longitudinal design.",
+      "counterinterpretation": "Higher spending can reflect larger household size, higher prices, housing costs, or different non-monetary consumption rather than greater discretionary cultural capacity.",
+      "source_url": "https://www.ine.es/dyngs/Prensa/en/EPF2025.pdf",
+      "retrieval_hash": "sha256:d315c3025e03d4824c02258728bb5a3c0d8faba6426c85f9ed89624e41f48a73",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ine.es/dyngs/Prensa/EPF2025.htm",
+      "claim": "INE's Spanish release supplies the interactive tables, category definitions, spending-quintile summary, household-type results, and regional comparisons for the 2025 survey.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.ine.es/prensa/epf_prensa.htm",
+      "claim": "INE documents the annual survey's approximately 24,000-dwelling sample and its role in measuring household consumption and national-account/price-index inputs.",
+      "status": "official-methodology-context"
+    }
+  ],
+  "boundary": "This record adds Spanish household-budget and distributional room evidence beneath cultural-participation and transaction indicators. It does not establish real cultural consumption, attendance, causal affordability, individual welfare, or durable household trajectories.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "INE English and Spanish 2025 Household Budget Survey release pages, English PDF, survey landing page, and detailed-table index were reviewed for sample scale, recreation/culture spending, quintile budget shares, household types, regional comparisons, and current-price boundaries.",
+    "checked": "2026-09-30"
+  }
+}

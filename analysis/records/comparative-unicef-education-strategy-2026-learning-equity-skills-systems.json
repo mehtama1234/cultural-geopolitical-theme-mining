@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-education-strategy-2026-learning-equity-skills-systems",
+  "title": "Education systems are being asked to deliver learning, equity, and future skills while institutions built for an earlier era face technological, social, and environmental change",
+  "theme_ids": ["time", "work", "voice", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNICEF, Shaping the Future of Learning: UNICEF Education Strategy 2026",
+  "geography": "Global education systems serving children and adolescents, with implementation through UNICEF country partnerships and the 2026-2029 strategic plan",
+  "observations": [
+    {
+      "period": "September 2026; global learning and education-system challenge",
+      "denominator": {"value": 1, "unit": "UNICEF global education strategy frame", "value_type": "reported_strategy_frame"},
+      "measures": {
+        "learning_crisis": {"value": "millions of children are not gaining the knowledge, skills, and opportunities needed to thrive", "unit": "strategy assessment", "value_type": "reported_system_problem"},
+        "sdg4_horizon": {"value": "fewer than five years remain to achieve SDG 4", "unit": "strategy framing", "value_type": "reported_deadline_frame"},
+        "system_question": {"value": "education systems designed for an earlier era may not prepare children for the technological, social, and environmental future they inherit", "unit": "strategy framing", "value_type": "reported_institutional_question"}
+      },
+      "method": "UNICEF strategy document synthesizing global education experience, system priorities, operating model, and partnerships for the 2026-2029 strategic plan.",
+      "uncertainty": "The strategy identifies a global challenge and organizational response rather than providing one new comparable outcome series or a causal estimate of which reform produces learning gains.",
+      "subgroup": "Children and adolescents, especially those facing exclusion or poor learning outcomes; teachers, families, education ministries, and partner organizations.",
+      "counterinterpretation": "The strategy’s diagnosis does not imply that legacy education systems are uniformly obsolete; established institutions may provide durable infrastructure that can be adapted rather than replaced.",
+      "source_url": "https://www.unicef.org/reports/education-strategy",
+      "retrieval_hash": "sha256:afc0b81e1401d9d4a826b44ea13885d79dc54085170cdb17f6dc5d215247ee16",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2029; UNICEF strategy priorities",
+      "denominator": {"value": 1, "unit": "UNICEF Education Strategy 2026 priority frame", "value_type": "reported_strategy_priority_frame"},
+      "measures": {
+        "learning": {"value": "accelerating meaningful learning is a central strategy objective", "unit": "strategy priority", "value_type": "reported_policy_priority"},
+        "equity": {"value": "equity is treated as a system-wide objective alongside learning and skills development", "unit": "strategy priority", "value_type": "reported_policy_priority"},
+        "skills": {"value": "skills development for every child and adolescent is part of the strategy vision", "unit": "strategy priority", "value_type": "reported_policy_priority"},
+        "scale": {"value": "countries are supported to transform education systems at scale", "unit": "strategy implementation route", "value_type": "reported_implementation_route"}
+      },
+      "method": "Review of the strategy’s stated vision, goals, operating model, and country-partnership orientation.",
+      "uncertainty": "Stated priorities are not evidence that implementation is funded, politically sustained, equitably delivered, or effective in every country context.",
+      "subgroup": "Children, adolescents, learners with unequal access, education workers, ministries, donors, local implementers, and communities participating in system transformation.",
+      "counterinterpretation": "Scaling a common strategy can improve coordination but can also flatten local differences if system reform is not adapted to language, culture, conflict, disability, infrastructure, and labor-market context.",
+      "source_url": "https://www.unicef.org/reports/education-strategy",
+      "retrieval_hash": "sha256:afc0b81e1401d9d4a826b44ea13885d79dc54085170cdb17f6dc5d215247ee16",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2029; education governance and partnership capacity",
+      "denominator": {"value": 1, "unit": "UNICEF organizational strategy and country-partnership frame", "value_type": "reported_governance_frame"},
+      "measures": {
+        "operating_model": {"value": "the strategy clarifies priorities, operating model, and partnerships required to drive impact", "unit": "strategy architecture", "value_type": "reported_governance_route"},
+        "strategic_link": {"value": "the education strategy serves as a roadmap for implementing UNICEF’s Strategic Plan 2026-2029", "unit": "organizational planning route", "value_type": "reported_planning_route"},
+        "system_change": {"value": "improving outcomes is framed as requiring stronger systems and a reimagining of how, where, and when children learn", "unit": "strategy synthesis", "value_type": "reported_system_change_route"}
+      },
+      "method": "Institutional strategy analysis of UNICEF’s stated implementation model and partnership architecture.",
+      "uncertainty": "The strategy does not independently verify partner capacity, national uptake, financing, teacher workload, or the durability of country-level reforms.",
+      "subgroup": "UNICEF, national and local education authorities, schools, teachers, families, civil society, funders, and technology or service partners.",
+      "counterinterpretation": "A clear global operating model can coexist with fragmented national authority, competing priorities, and weak local implementation capacity.",
+      "source_url": "https://www.unicef.org/reports/education-strategy",
+      "retrieval_hash": "sha256:afc0b81e1401d9d4a826b44ea13885d79dc54085170cdb17f6dc5d215247ee16",
+      "status": "reported"
+    },
+    {
+      "period": "2026; education futures under technological, social, and environmental change",
+      "denominator": {"value": 1, "unit": "future-of-learning transition frame", "value_type": "reported_future_frame"},
+      "measures": {
+        "future_readiness": {"value": "education must prepare children for a future shaped by rapid technological, social, and environmental change", "unit": "strategy framing", "value_type": "reported_future_need"},
+        "learning_design": {"value": "the strategy calls for reimagining how, where, and when children learn", "unit": "strategy framing", "value_type": "reported_design_route"},
+        "continuity": {"value": "system transformation is intended to operate at scale rather than as isolated projects", "unit": "strategy implementation route", "value_type": "reported_scale_route"}
+      },
+      "method": "Foresight-oriented strategy synthesis connecting education delivery, technology, social change, environmental change, equity, and skills.",
+      "uncertainty": "The future pressures are broad and interacting; the strategy does not forecast a single future or establish which learning model will dominate.",
+      "subgroup": "Children and adolescents entering changing labor markets and civic environments, plus families and educators adapting to new learning arrangements.",
+      "counterinterpretation": "New learning formats can increase flexibility but also shift costs, care burdens, surveillance, and responsibility onto families or teachers if public capacity does not keep pace.",
+      "source_url": "https://www.unicef.org/reports/education-strategy",
+      "retrieval_hash": "sha256:afc0b81e1401d9d4a826b44ea13885d79dc54085170cdb17f6dc5d215247ee16",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook", "claim": "UNICEF Innocenti global outlook context on AI, climate, geopolitics, social protection, and children’s futures."},
+    {"source_url": "https://www.unicef.org/reports/education-strategy", "claim": "Official UNICEF Education Strategy 2026 page and English PDF download."}
+  ],
+  "boundary": "This record adds a child-centred education, learning, equity, skills, governance, and future-readiness route. It uses a public organizational strategy, not respondent-level ingestion, student-level learning data, a causal estimate of education reform, an implementation audit, or proof that the strategy produces equal outcomes across countries.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNICEF Education Strategy 2026 page reviewed for the learning crisis, SDG4 horizon, strategy vision, equity and skills priorities, operating model, partnerships, and future-of-learning framing.",
+    "source_url_sha256": "sha256:afc0b81e1401d9d4a826b44ea13885d79dc54085170cdb17f6dc5d215247ee16",
+    "checked": "2026-09-27"
+  }
+}

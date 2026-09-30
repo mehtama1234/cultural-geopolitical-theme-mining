@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-opn-personal-wellbeing-loneliness-august-2026",
+  "title": "Broad wellbeing remains moderate while loneliness, anxiety, and material issue salience stay unevenly distributed by age",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["trust_identity_meaning", "unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "political_judgment_action", "care_health_reproduction", "public_systems_feedback"],
+  "source_unit": "Office for National Statistics, Public opinions and social trends, Great Britain: personal wellbeing and loneliness, 5 to 30 August 2026",
+  "geography": "Great Britain; adults responding to the Opinions and Lifestyle Survey (OPN)",
+  "observations": [
+    {
+      "period": "5 to 30 August 2026; personal wellbeing means",
+      "denominator": {"value": 3450, "unit": "Great Britain adults in the life-satisfaction item; item-specific OPN samples vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "life_satisfaction_all": {"value": 6.9, "unit": "mean score from 0 to 10", "value_type": "reported_survey_estimate"},
+        "worthwhile_all": {"value": 7.2, "unit": "mean score from 0 to 10", "value_type": "reported_survey_estimate"},
+        "happy_all": {"value": 7.2, "unit": "mean score from 0 to 10", "value_type": "reported_survey_estimate"},
+        "anxiety_all": {"value": 3.9, "unit": "mean score from 0 to 10, where higher means more anxious", "value_type": "reported_survey_estimate"},
+        "hope_all": {"value": 6.4, "unit": "mean score from 0 to 10", "value_type": "reported_survey_estimate"},
+        "young_life_satisfaction": {"value": 6.9, "unit": "mean score for age 16 to 29", "value_type": "reported_subgroup_estimate"},
+        "young_anxiety": {"value": 4.1, "unit": "mean score for age 16 to 29", "value_type": "reported_subgroup_estimate"},
+        "young_hope": {"value": 6.5, "unit": "mean score for age 16 to 29", "value_type": "reported_subgroup_estimate"},
+        "wellbeing_not_one_score": {"value": "Moderate broad wellbeing can coexist with elevated anxiety and loneliness; a single life-satisfaction score hides the pattern", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Weighted OPN estimates with published confidence intervals and item-specific sample sizes; means are reported separately for personal wellbeing measures.",
+      "uncertainty": "The survey is repeated cross-sectional rather than a panel, and self-reported means do not establish causes or clinical mental-health prevalence. Age comparisons should be read with their confidence intervals and differing item bases.",
+      "subgroup": "All persons and adults aged 16 to 29.",
+      "counterinterpretation": "Near-similar young and all-person means may indicate resilience or measurement compression rather than equal lived conditions; anxiety and loneliness capture different dimensions from life satisfaction.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalwellbeingandloneliness",
+      "retrieval_hash": "sha256:87cb80d5dcddb0444e24ec65afe0d51028e3639161b444057e6326e41a3e69c3",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; low and high wellbeing thresholds",
+      "denominator": {"value": 3450, "unit": "Great Britain adults; threshold item bases vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "low_life_satisfaction_all": {"value": 9, "unit": "percent with low life satisfaction", "value_type": "reported_survey_share"},
+        "low_worthwhile_all": {"value": 9, "unit": "percent with low worthwhile score", "value_type": "reported_survey_share"},
+        "high_anxiety_all": {"value": 33, "unit": "percent with high anxiety", "value_type": "reported_survey_share"},
+        "high_anxiety_young": {"value": 35, "unit": "percent of age 16 to 29 with high anxiety", "value_type": "reported_subgroup_share"},
+        "high_hope_young": {"value": 69, "unit": "percent of age 16 to 29 with high hope", "value_type": "reported_subgroup_share"},
+        "threshold_split": {"value": "Young adults show both high hope and slightly higher high-anxiety prevalence, making aspiration and distress coexisting rather than mutually exclusive categories", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "ONS threshold classifications derived from the same OPN wellbeing battery; estimates include lower and upper confidence limits in the source workbook.",
+      "uncertainty": "Thresholds are operational classifications, not diagnoses or stable individual trajectories; the August 2026 workbook also records a correction to a July 2026 Table 24 estimate, so historical extracts should be version-controlled.",
+      "subgroup": "All persons and adults aged 16 to 29.",
+      "counterinterpretation": "The apparent coexistence of hope and anxiety may reflect different questions, timing, or subgroups rather than a single psychological state.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalwellbeingandloneliness",
+      "retrieval_hash": "sha256:87cb80d5dcddb0444e24ec65afe0d51028e3639161b444057e6326e41a3e69c3",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; loneliness and long-run rolling trend",
+      "denominator": {"value": 3560, "unit": "Great Britain adults answering the loneliness item", "value_type": "published_survey_sample"},
+      "measures": {
+        "lonely_often_always_some_time_all": {"value": 25, "unit": "percent", "value_type": "reported_survey_share"},
+        "lonely_often_always_some_time_young": {"value": 32, "unit": "percent of age 16 to 29", "value_type": "reported_subgroup_share"},
+        "lonely_often_always_some_time_50_to_69": {"value": 20, "unit": "percent", "value_type": "reported_subgroup_share"},
+        "lonely_often_always_some_time_70_plus": {"value": 21, "unit": "percent", "value_type": "reported_subgroup_share"},
+        "rolling_trend": {"value": "The latest 25% estimate is within the broad 2020-2026 rolling range, with repeated recent estimates mostly between 23% and 27%", "unit": "reported time-series pattern", "value_type": "reported_pattern"},
+        "loneliness_age_gradient": {"value": "Loneliness is more concentrated among younger adults than older age bands in this period", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "OPN responses to a self-reported loneliness frequency question; the workbook provides all-person trend estimates from March 2020 and current age-band breakdowns.",
+      "uncertainty": "The rolling periods are repeated cross-sections, not a panel; the time-series range is descriptive and should not be interpreted as a causal pandemic or post-pandemic effect. Loneliness is not a clinical diagnosis.",
+      "subgroup": "All persons, age 16 to 29, 30 to 49, 50 to 69, 70 and over, and sex groups.",
+      "counterinterpretation": "Age differences may reflect life stage, household composition, reporting norms, survey coverage, or exposure to other forms of social contact rather than age itself.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalwellbeingandloneliness",
+      "retrieval_hash": "sha256:87cb80d5dcddb0444e24ec65afe0d51028e3639161b444057e6326e41a3e69c3",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; important issues by age",
+      "denominator": {"value": null, "unit": "OPN respondents; issue-specific sample sizes and confidence intervals are published in the workbook", "value_type": "not_disclosed"},
+      "measures": {
+        "cost_of_living_all": {"value": 89, "unit": "percent naming cost of living as an important issue", "value_type": "reported_survey_share"},
+        "economy_all": {"value": 70, "unit": "percent", "value_type": "reported_survey_share"},
+        "nhs_all": {"value": 79, "unit": "percent", "value_type": "reported_survey_share"},
+        "housing_young": {"value": 64, "unit": "percent of age 16 to 29 naming housing", "value_type": "reported_subgroup_share"},
+        "housing_all": {"value": 53, "unit": "percent", "value_type": "reported_survey_share"},
+        "cost_of_living_young": {"value": 90, "unit": "percent of age 16 to 29", "value_type": "reported_subgroup_share"},
+        "immigration_young_vs_older": {"value": "42% of age 16 to 29 versus 82% of age 70 and over", "unit": "percent naming immigration", "value_type": "reported_subgroup_pattern"},
+        "international_conflict_young_vs_older": {"value": "39% of age 16 to 29 versus 60% of age 70 and over", "unit": "percent naming international conflict", "value_type": "reported_subgroup_pattern"},
+        "issue_salience_mechanism": {"value": "Material pressures are near-universal, but housing is especially age-sensitive and geopolitical/identity issues are strongly age-stratified", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "OPN question asking respondents which issues face the UK, with all-person and age-band percentages and confidence intervals.",
+      "uncertainty": "Issue selection is salience, not ranked policy preference or causal concern; respondents can select multiple issues. Age patterns may be shaped by life stage, media exposure, and question interpretation.",
+      "subgroup": "All persons and age bands 16 to 29, 30 to 49, 50 to 69, and 70 and over.",
+      "counterinterpretation": "High material issue salience does not imply that cultural or geopolitical concerns are absent; salience can reflect immediate household exposure and available public language for describing insecurity.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalwellbeingandloneliness",
+      "retrieval_hash": "sha256:87cb80d5dcddb0444e24ec65afe0d51028e3639161b444057e6326e41a3e69c3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing", "claim": "ONS wellbeing statistics context and related releases.", "status": "organization-context"},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/peoplepopulationandcommunity", "claim": "ONS population and social-trends statistical context.", "status": "organization-context"}
+  ],
+  "boundary": "This record adds a repeated official wellbeing-and-salience layer: broad wellbeing, anxiety, loneliness, and public issue priorities are related but non-equivalent measures. It does not establish causality, clinical mental-health prevalence, actual consumer behavior, or the policy causes of age differences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS dataset page and linked Excel workbook reviewed for August 2026 personal wellbeing, threshold, loneliness, trend, and important-issue tables.",
+    "source_page_sha256": "sha256:87cb80d5dcddb0444e24ec65afe0d51028e3639161b444057e6326e41a3e69c3",
+    "checked": "2026-09-28",
+    "version_note": "ONS dataset page records a correction posted 7 September 2026 to July 2026 Table 24; this record uses the 5 to 30 August 2026 workbook and does not silently backfill the corrected historical table."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-accessibility-travel-barriers-2025-disability-trip-prevention",
+  "title": "Accessibility barriers can prevent travel before a trip begins for Canadians with disabilities",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Statistics Canada, Survey Series on Accessibility – Experiences with Accessibility and Travel, 2025",
+  "geography": "Canada; persons aged 15 years and older with disabilities or long-term conditions, with travel, daily-activity difficulty, support, and accessibility-barrier dimensions",
+  "observations": [
+    {
+      "period": "January 2022 to February 2025; intercity or out-of-town travel",
+      "denominator": {"value": null, "unit": "Canadian persons aged 15 years and older with disabilities or long-term conditions participating in the Survey Series on Accessibility – Experiences with Accessibility and Travel", "value_type": "not_disclosed"},
+      "measures": {
+        "took_out_of_town_trip": {"value": 52, "unit": "percent taking an out-of-town trip involving airplane, train, bus, or ferry", "value_type": "reported_survey_share"},
+        "terminal_barrier": {"value": 40, "unit": "percent of travellers experiencing at least one condition-related barrier at an airport, train station, bus terminal, or ferry terminal", "value_type": "reported_subgroup_share"},
+        "vehicle_barrier": {"value": 34, "unit": "percent of travellers experiencing at least one condition-related barrier inside an airplane, train, bus, or ferry", "value_type": "reported_subgroup_share"},
+        "greater_daily_difficulty_trip": {"value": 45, "unit": "percent taking a trip among people reporting greater difficulty with daily activities", "value_type": "reported_subgroup_share"},
+        "less_daily_difficulty_trip": {"value": 57, "unit": "percent taking a trip among people reporting less difficulty with daily activities", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Mobility access can fail at the infrastructure and service-interface stage: people may face barriers at terminals or onboard before cultural, social, consumer, or care destinations become reachable", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Canada’s official release based on the Survey Series on Accessibility – Experiences with Accessibility and Travel.",
+      "uncertainty": "The release covers a selected population with disabilities or long-term conditions and measures self-reported travel and barriers over a multi-year reference window; it does not identify trip purpose, local travel, missed cultural events, causal effects, or the absolute number of trips prevented.",
+      "subgroup": "Canadians aged 15 years and older with disabilities or long-term conditions, compared by difficulty carrying out daily activities.",
+      "counterinterpretation": "Travel differences may reflect health, resources, trip necessity, family support, destination, or transport supply in addition to accessibility barriers; travelling does not mean the trip was easy or fully accommodated.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250527/dq250527b-eng.htm",
+      "retrieval_hash": "sha256:897f6f5bb7eece63874cb9320f92d3d13fa8c243b1fb230c7016b423eb78e0b4",
+      "status": "reported"
+    },
+    {
+      "period": "January 2022 to February 2025; unmet transportation need and accommodation",
+      "denominator": {"value": null, "unit": "Canadian travellers with disabilities or long-term conditions who considered an out-of-town trip, or who needed support services or accommodations during travel", "value_type": "not_disclosed"},
+      "measures": {
+        "discouraged_or_prevented": {"value": 29, "unit": "percent of people who considered taking a trip reporting that possible accessibility concerns discouraged or prevented an out-of-town trip", "value_type": "reported_subgroup_share"},
+        "greater_difficulty_discouraged": {"value": 46, "unit": "percent among people with greater difficulty carrying out daily activities", "value_type": "reported_subgroup_share"},
+        "less_difficulty_discouraged": {"value": 19, "unit": "percent among people with less difficulty carrying out daily activities", "value_type": "reported_subgroup_share"},
+        "needed_support": {"value": 52, "unit": "percent of travellers reporting that they needed support services or accommodations during their trip", "value_type": "reported_subgroup_share"},
+        "full_access_to_needed_support": {"value": 42, "unit": "percent among travellers needing support who had access to all support services or accommodations needed", "value_type": "reported_subgroup_share"},
+        "did_not_know_how_to_request": {"value": 44, "unit": "percent among people not fully accommodated citing not knowing how to request access", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "The hidden price of mobility includes anticipated failure and administrative uncertainty: possible accessibility problems can stop a trip before purchase or departure, while request knowledge and service explanation affect whether support is realized", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the official release; support and accommodation reasons are conditional shares and multiple reasons could be selected.",
+      "uncertainty": "The release does not show whether a discouraged trip would have been cultural, social, medical, work-related, or recreational; reported barriers and anticipated barriers are not equivalent to observed provider failures or legal non-compliance.",
+      "subgroup": "Canadian persons with disabilities or long-term conditions who considered travel or needed travel support, split by daily-activity difficulty.",
+      "counterinterpretation": "Some respondents may have adapted plans, used informal help, or chosen not to travel for reasons unrelated to accessibility; lack of knowledge about requesting support may reflect communication, planning, or provider-design issues that require separate testing.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250527/dq250527b-eng.htm",
+      "retrieval_hash": "sha256:897f6f5bb7eece63874cb9320f92d3d13fa8c243b1fb230c7016b423eb78e0b4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2025038-eng.pdf", "claim": "Official Statistics Canada infographic with travel-related accessibility-barrier figures and subgroup breakdowns."},
+    {"source_url": "https://www.statcan.gc.ca/en/survey/household/5414-EAT", "claim": "Survey Series on Accessibility – Experiences with Accessibility and Travel design and collection page."},
+    {"source_url": "https://www.statcan.gc.ca/en/topics-start/accessibility", "claim": "Statistics Canada accessibility statistics hub and related tables."}
+  ],
+  "boundary": "This record adds a transport-accessibility and anticipated-trip-prevention layer beneath cultural and social participation. It does not establish cultural-trip exclusion, causal disability effects, provider fault, legal non-compliance, trip counts, or outcomes after accommodation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada release and infographic reviewed for travel incidence, terminal and onboard barriers, daily-activity gradients, support access, request knowledge, and discouraged or prevented trips.",
+    "html_sha256": "sha256:897f6f5bb7eece63874cb9320f92d3d13fa8c243b1fb230c7016b423eb78e0b4",
+    "pdf_sha256": "sha256:c24d6483e772fdc8f6b8f096b56b34a0251b84107f6e6c24e3b9ab1c74f908e8",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-tasc-ireland-inequality-2026-household-living-standards-housing",
+  "title": "Ireland’s tax-and-transfer system reduces measured disposable-income inequality while leaving deep pre-distribution, housing and household-room pressures intact",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "TASC, The State We Are In: Inequality in Ireland 2026",
+  "geography": "Ireland; households, renters, workers, unemployed people, lone-parent families, people with disabilities or long-term illness, and income deciles",
+  "observations": [
+    {
+      "period": "2025 SILC income year; market-income and disposable-income inequality",
+      "denominator": {"value": 1, "unit": "TASC annual inequality report using World Inequality Database and Irish Survey on Income and Living Conditions evidence", "value_type": "source_document"},
+      "measures": {
+        "market_gini": {"value": 0.455, "unit": "Gini coefficient for market income in SILC 2025", "value_type": "published_estimate"},
+        "disposable_gini": {"value": 0.274, "unit": "Gini coefficient for disposable income in SILC 2025", "value_type": "published_estimate"},
+        "income_top_decile": {"value": "The top 10% received 36.9% of equivalised disposable income while the poorest fifth received 9.4%; the richest two-fifths received almost 60%.", "unit": "income shares", "value_type": "published_estimate"},
+        "redistribution_pattern": {"value": "Tax and transfers substantially reduce measured inequality after market income is generated, but the report argues that compensation does not change the structures producing unequal wages, ownership and access to services.", "unit": "reported structural interpretation", "value_type": "reported_framework"}
+      },
+      "method": "TASC synthesis of official SILC 2025 data, World Inequality Database estimates and 25 years of prior inequality research.",
+      "uncertainty": "The report is an interpretive synthesis and the market/disposable comparison does not identify the separate causal contribution of taxes, transfers, employment, household composition or measurement choices.",
+      "subgroup": "Income deciles, households and people before and after taxes and social transfers.",
+      "counterinterpretation": "Strong redistribution is materially protective and prevents substantially higher poverty; describing it as compensation should not be read as saying transfers are ineffective or unnecessary.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_annual_inequality_report_2026.pdf",
+      "retrieval_hash": "sha256:96fe2c49bd01f4352bd1fe2f091803d01fafb234288662f18e7a3e4e2dbefbc7",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; real household living standards, poverty and temporary supports",
+      "denominator": {"value": 1, "unit": "Irish households and individuals in SILC 2025; income received during 2024", "value_type": "source_document"},
+      "measures": {
+        "real_median_income": {"value": "Real median household disposable income rose only from €51,120 in 2022 to €51,624 in SILC 2025, despite nominal income growth.", "unit": "2022 euros / real median household disposable income", "value_type": "published_estimate"},
+        "poverty_risk": {"value": 12.6, "unit": "per cent at risk of poverty in SILC 2025, up from 11.7% the previous year", "value_type": "published_estimate"},
+        "enforced_deprivation": {"value": 15.1, "unit": "per cent experiencing enforced deprivation in SILC 2025", "value_type": "published_estimate"},
+        "transfer_dependence": {"value": 79, "unit": "per cent of net disposable income represented by social transfers in the lowest income decile", "value_type": "published_estimate"},
+        "support_counterfactual": {"value": "Without cost-of-living measures included in SILC 2025, the at-risk-of-poverty rate would have been 14.9% rather than 12.6%.", "unit": "reported counterfactual estimate", "value_type": "published_counterfactual"}
+      },
+      "method": "TASC analysis of SILC 2025 and counterfactual estimates excluding specified COVID-19 and cost-of-living supports.",
+      "uncertainty": "The counterfactual depends on assumptions about how temporary supports affect measured income; real median income does not capture wealth, service quality, debt, housing costs or within-household distribution.",
+      "subgroup": "Lower-income households, people at risk of poverty, people experiencing deprivation and recipients of social transfers.",
+      "counterinterpretation": "Temporary supports were effective and necessary in preventing worse measured poverty, even if they did not permanently lower essential costs or raise the long-run income floor.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_annual_inequality_report_2026.pdf",
+      "retrieval_hash": "sha256:96fe2c49bd01f4352bd1fe2f091803d01fafb234288662f18e7a3e4e2dbefbc7",
+      "status": "reported"
+    },
+    {
+      "period": "SILC 2025 and June 2026; unequal exposure by work, health, household type and housing tenure",
+      "denominator": {"value": 1, "unit": "Irish individuals and households in SILC 2025 plus official emergency-accommodation count", "value_type": "source_document"},
+      "measures": {
+        "unemployment_poverty": {"value": "41.8% of unemployed people and 46.2% of people unable to work because of long-standing health problems were in the bottom income quintile.", "unit": "per cent in bottom income quintile", "value_type": "published_subgroup_comparison"},
+        "no_work_household": {"value": "46.7% of people in households where nobody was working were in the bottom quintile, compared with 8.6% in the top quintile.", "unit": "per cent by household work status", "value_type": "published_subgroup_comparison"},
+        "renter_disadvantage": {"value": "More than one-third of renters were in the bottom income quintile compared with 13.6% of owner-occupiers; renters were more than three times as likely to be at risk of poverty and more than four times as likely to experience enforced deprivation.", "unit": "housing-tenure comparison", "value_type": "published_subgroup_comparison"},
+        "emergency_accommodation": {"value": "17,482 people, including 5,620 children, were in local-authority-managed emergency accommodation in June 2026; the total was 437% higher than in July 2014 and the number of children 650% higher.", "unit": "reported emergency-accommodation count and change", "value_type": "administrative_count"}
+      },
+      "method": "TASC synthesis of SILC subgroup tables and official homelessness/emergency-accommodation statistics.",
+      "uncertainty": "Emergency-accommodation counts exclude some forms of homelessness, including rough sleeping, domestic-violence refuges, asylum accommodation, own-door temporary accommodation and hidden homelessness; subgroup associations are not causal estimates.",
+      "subgroup": "Unemployed people, people with long-term health problems, no-work households, lone-parent families, renters, owner-occupiers and children in emergency accommodation.",
+      "counterinterpretation": "Housing tenure and work status are strongly entangled with household composition, age, geography and health; the report’s comparisons identify concentrated exposure, not a single cause.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_annual_inequality_report_2026.pdf",
+      "retrieval_hash": "sha256:96fe2c49bd01f4352bd1fe2f091803d01fafb234288662f18e7a3e4e2dbefbc7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; pre-distribution, essential services and household room",
+      "denominator": {"value": 1, "unit": "TASC 25-year research synthesis and current policy analysis", "value_type": "source_document"},
+      "measures": {
+        "predistribution_route": {"value": "The report prioritises wages, employment security, trade-union rights, collective bargaining and more equal ownership of housing, financial wealth and productive assets.", "unit": "reported policy route", "value_type": "reported_policy_portfolio"},
+        "universal_services": {"value": "It calls for expanded universal provision of housing, healthcare, childcare, education, disability supports, eldercare, transport and other essential services.", "unit": "reported policy route", "value_type": "reported_policy_portfolio"},
+        "household_room_mechanism": {"value": "Cash transfers and temporary energy payments can protect households while leaving high rents, expensive childcare, energy costs and inefficient homes structurally unresolved.", "unit": "reported household mechanism", "value_type": "reported_mechanism"},
+        "ai_continuity": {"value": "The report connects future AI distribution to the same institutional questions: ownership, labour-market power, public investment, regulation, social dialogue and who receives gains or bears costs.", "unit": "reported cross-chapter synthesis", "value_type": "reported_framework"}
+      },
+      "method": "Normative and empirical synthesis across TASC’s historical research, current inequality evidence and its AI special-focus chapter.",
+      "uncertainty": "The proposed policy routes are not evaluated interventions, and the report does not establish which combination of wages, ownership, services or bargaining reforms would produce particular household outcomes.",
+      "subgroup": "Workers, renters, families using essential services, people with disabilities, carers, older people, children and communities exposed to high costs or weak public provision.",
+      "counterinterpretation": "Redistribution after income is generated can be both a necessary safety net and a platform for longer-run structural reform; the two should not be treated as mutually exclusive.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_annual_inequality_report_2026.pdf",
+      "retrieval_hash": "sha256:96fe2c49bd01f4352bd1fe2f091803d01fafb234288662f18e7a3e4e2dbefbc7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.tasc.ie/publications/list/tasc-annual-inequality-report-2026/", "claim": "Official TASC report page and publication summary."},
+    {"source_url": "https://www.tasc.ie/assets/files/pdf/tasc_ai_inequality_2026.pdf", "claim": "Related standalone AI special-focus brief extracted from the annual report."}
+  ],
+  "boundary": "This record adds a household-material and redistribution layer to the Ireland inequality stream: market-income inequality, tax-and-transfer protection, real purchasing power, housing tenure, deprivation, emergency accommodation and essential services are connected to the report’s pre-distribution argument. It is an independent think-tank synthesis using official and secondary evidence, not a new household panel, causal poverty evaluation, complete homelessness census or proof that any proposed reform would produce a specified outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 86-page TASC PDF and publication page were reviewed for the executive summary, SILC 2025 inequality and living-standard estimates, housing and emergency-accommodation figures, transfer counterfactuals, pre-distribution proposals and the relationship to the AI chapter.",
+    "source_url_sha256": "sha256:96fe2c49bd01f4352bd1fe2f091803d01fafb234288662f18e7a3e4e2dbefbc7",
+    "checked": "2026-09-27"
+  }
+}

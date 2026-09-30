@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-ethiopia-social-protection-coverage-cash-kind-health-gender-2026",
+  "title": "Ethiopia’s social-protection expansion is uneven: school meals and health coverage grow while cash security remains thin",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "International Labour Organization, Social Protection Coverage in Ethiopia: A Fact-Finding Report Based on the ILO-Social Security Inquiry (SSI) Data Collection Tool, 2025/2026",
+  "geography": "Ethiopia nationally, with rural, urban, gender, age, disability, informal-economy, and programme-level coverage distinctions",
+  "observations": [
+    {
+      "period": "2024; Ethiopia social-protection coverage across cash, in-kind, and health schemes",
+      "denominator": {"value": 1, "unit": "Ethiopian population and social-protection system assessed through the ILO SSI tool", "value_type": "reported_national_system_frame"},
+      "measures": {
+        "overall_nonhealth": {"value": "11.5% of the population had at least one form of social protection excluding health when in-kind programmes such as school feeding are included", "unit": "percent of population", "value_type": "reported_coverage_estimate"},
+        "cash_coverage": {"value": "cash-based social-protection coverage was 5.8% of the population, leaving 94.2% without a cash social-protection benefit", "unit": "percent of population", "value_type": "reported_coverage_estimate"},
+        "health_coverage": {"value": "Community-Based Health Insurance covered about 40.7% of the population, or approximately 53.7 million people", "unit": "percent and people", "value_type": "reported_health_coverage_estimate"},
+        "coverage_split": {"value": "the strongest expansion is in health insurance and in-kind school feeding, while cash income security remains much thinner", "unit": "reported system pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "social protection can expand visibly through services and meals without providing households equivalent cash room to absorb income, price, health, or work shocks", "unit": "bounded benefit-composition mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO Social Security Inquiry data collection combined with quantitative scheme reporting, key-informant interviews, institutional collaboration, and validation with Ethiopian agencies.",
+      "uncertainty": "Coverage estimates depend on scheme definitions, administrative data quality, inclusion of school feeding, and incomplete sex-disaggregated information; the report measures effective coverage, not adequacy, benefit value, take-up barriers, or household welfare effects.",
+      "subgroup": "Low-income households, informal-economy workers, rural communities, children, households exposed to food or health shocks, and people relying on in-kind rather than cash support.",
+      "counterinterpretation": "In-kind meals and community health insurance can provide high-value protection that cash indicators understate; cash and in-kind benefits are not interchangeable, and health coverage may reduce catastrophic expenditure without creating income support.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-07/SOCIAL~1.PDF",
+      "retrieval_hash": "sha256:b0fde4d865c25f94512c78b1c0bd3e59a9418d6358bf7d1f88e5f0aec7c90a99",
+      "status": "reported"
+    },
+    {
+      "period": "2024; life-course, gender, disability, and informal-work protection gaps",
+      "denominator": {"value": 1, "unit": "Ethiopian population disaggregated by age, sex, disability, labor-market status, and poverty status", "value_type": "reported_distributional_frame"},
+      "measures": {
+        "children": {"value": "14.7% of children under 15 received social-protection benefits, largely through school feeding; no universal child benefit exists", "unit": "percent of children under 15", "value_type": "reported_group_coverage"},
+        "older_people": {"value": "4.2% of people over 60 received a pension, with coverage of 7.1% for older men and 1.8% for older women", "unit": "percent of older population", "value_type": "reported_group_coverage"},
+        "disability": {"value": "only 0.3% of people with severe disabilities received disability benefits, falling to 0.1% among women with severe disabilities", "unit": "percent of target group", "value_type": "reported_group_coverage"},
+        "work_and_pensions": {"value": "9.7% of the workforce contributed to a pension scheme and 9.7% were covered for work injuries, reflecting the reach of formal employment in a highly informal labor market", "unit": "percent of workforce", "value_type": "reported_workforce_coverage"},
+        "mechanism": {"value": "social-protection gaps reproduce labor-market inequality across the life course when informal workers, older women, and people with disabilities cannot convert work, care, or vulnerability into portable income security", "unit": "bounded life-course inequality mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "SSI indicator estimation using contributory and non-contributory scheme data, gender and group disaggregation where available, and qualitative institutional validation.",
+      "uncertainty": "Some maternity and gender-disaggregated data are unavailable or partial; the report identifies coverage gaps but does not estimate causal contributions of informality, gender norms, disability barriers, or employment histories.",
+      "subgroup": "Women, older people, persons with severe disabilities, informal workers, rural households, children, workers with occupational-injury risk, and families without contributory employment.",
+      "counterinterpretation": "Low contributory coverage may reflect the structure of employment and scheme maturity rather than only administrative exclusion; safety nets, family support, community systems, and in-kind programmes may provide unmeasured protection.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-07/SOCIAL~1.PDF",
+      "retrieval_hash": "sha256:b0fde4d865c25f94512c78b1c0bd3e59a9418d6358bf7d1f88e5f0aec7c90a99",
+      "status": "reported"
+    },
+    {
+      "period": "2019/2020-2024/2025; school feeding, local provisioning, and social-protection data infrastructure",
+      "denominator": {"value": 1, "unit": "Ethiopian school-feeding programme and national social-protection information system", "value_type": "reported_programme_frame"},
+      "measures": {
+        "school_feeding_scale": {"value": "school feeding reached 7,597,334 students in 2024, up from about 2,055,623 in 2019/20, an increase of more than 270%", "unit": "students and percent change", "value_type": "reported_programme_change"},
+        "funding": {"value": "annual school-feeding funding rose from 2.89 billion Ethiopian Birr in 2019/20 to 14.68 billion Birr in 2024", "unit": "Ethiopian Birr", "value_type": "reported_budget_change"},
+        "localization": {"value": "home-grown school feeding links schools to local farmers, school gardens, community contributions, and mothers’ meal preparation, while shifting the programme toward national and local ownership", "unit": "reported delivery model", "value_type": "reported_programme_mechanism"},
+        "data_gap": {"value": "the report calls for a centralized, digitized social-protection database because fragmented systems hinder timely monitoring, planning, coordination, and evaluation", "unit": "reported governance requirement", "value_type": "reported_data_system_finding"},
+        "mechanism": {"value": "a visible programme can scale through local food and community labor while national protection remains difficult to see and coordinate when benefit registries are fragmented", "unit": "bounded local-delivery-to-data-governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Programme trend analysis, administrative reports, budget and beneficiary data, SSI validation, and institutional assessment of social-protection information management.",
+      "uncertainty": "School-feeding growth and budget figures are programme-level measures and do not establish causal effects on attendance, nutrition, local economies, or household welfare; regional conflict, drought, infrastructure, inflation, and donor or community contributions affect implementation.",
+      "subgroup": "Schoolchildren, caregivers, mothers involved in meal preparation, local farmers, communities facing food insecurity, regional governments, and agencies coordinating social-protection delivery.",
+      "counterinterpretation": "School feeding may be a highly efficient form of child protection and local economic support even when cash coverage is low; centralized digital databases can improve coordination but also create privacy, exclusion, and administrative-burden risks.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-07/SOCIAL~1.PDF",
+      "retrieval_hash": "sha256:b0fde4d865c25f94512c78b1c0bd3e59a9418d6358bf7d1f88e5f0aec7c90a99",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/social-protection-coverage-ethiopia-fact-finding-report-based-ilo-social", "claim": "Official ILO publication page with report abstract, key coverage statistics, date, and publication metadata."},
+    {"source_url": "https://doi.org/10.54394/NMVY0397", "claim": "Official DOI for the ILO Ethiopia social-protection coverage report."}
+  ],
+  "boundary": "This record adds a cash-versus-in-kind-and-health protection composition mechanism with life-course, gender, disability, informality, local-delivery, and data-governance implications. It is a national fact-finding baseline, not a causal evaluation, benefit-adequacy study, or complete household-welfare account; the next test is whether expanded cash protection, integrated registries, domestic financing, and locally owned programmes improve realized resilience and equitable access without sacrificing privacy or excluding people poorly represented in administrative data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO PDF and publication page, SSI methodology, national and group coverage, cash versus in-kind distinction, CBHI, school-feeding scale and financing, gender and disability gaps, informality, data fragmentation, and measurement boundaries were reviewed.",
+    "source_url_sha256": "sha256:b0fde4d865c25f94512c78b1c0bd3e59a9418d6358bf7d1f88e5f0aec7c90a99",
+    "checked": "2026-09-29"
+  }
+}

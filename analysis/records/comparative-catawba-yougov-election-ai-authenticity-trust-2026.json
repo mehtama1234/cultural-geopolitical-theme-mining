@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-catawba-yougov-election-ai-authenticity-trust-2026",
+  "title": "Election legitimacy is conditional on an information environment voters can authenticate, correct, and locally explain",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Catawba College Center for North Carolina Politics & Public Service, Catawba College-YouGov National Survey: The Ballots & Bots",
+  "geography": "United States; adults 18 and older",
+  "observations": [
+    {
+      "period": "September 4-9, 2026; election commitment and system confidence",
+      "denominator": {"value": 1200, "unit": "U.S. adults 18 and older; weighted national sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "secure_fair_elections_important": {"value": 86, "unit": "percent saying ensuring elections are secure and fair describes them very or somewhat well", "value_type": "published_survey_estimate"},
+        "accept_unfavorable_results": {"value": 82, "unit": "percent saying they would accept election results even when their preferred candidate loses", "value_type": "published_survey_estimate"},
+        "confidence_in_overall_election_system": {"value": 58, "unit": "percent expressing confidence in the overall American election system", "value_type": "published_survey_estimate"},
+        "conditional_legitimacy": {"value": "Commitment to fair elections is broader than confidence in the system, suggesting legitimacy can persist as a norm while becoming conditional on credible information and visible administration.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Online YouGov survey commissioned by the Center for North Carolina Politics & Public Service and written for the Ballots & Bots conference; weighted to reflect U.S. adults; overall margin of error plus or minus 3.6 percentage points.",
+      "uncertainty": "This is a cross-sectional national survey; stated willingness to accept results is not observed post-election behavior, and the source does not establish causal effects of AI exposure on legitimacy.",
+      "subgroup": "U.S. adults, with partisan and election-perception comparisons reported by the source.",
+      "counterinterpretation": "Respondents may distinguish abstract commitment to election fairness from confidence in particular administrators, procedures, or current political narratives.",
+      "source_url": "https://www.catawba.edu/news/all-news/2026/yougov-38/",
+      "retrieval_hash": "sha256:463f5764a8d87ac2f01266b3ecbbeea1886d3acba9b13b8627c139110902608a",
+      "status": "reported"
+    },
+    {
+      "period": "September 4-9, 2026; perceived AI exposure and authenticity uncertainty",
+      "denominator": {"value": 1200, "unit": "U.S. adults 18 and older; weighted national sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "encountered_suspected_ai_political_content": {"value": 48, "unit": "percent saying they encountered political content they thought might have been generated or altered using AI in the past six months", "value_type": "published_survey_estimate"},
+        "uncertain_about_suspected_content": {"value": 21, "unit": "percent unsure whether they had encountered AI-generated political content", "value_type": "published_survey_estimate"},
+        "low_confidence_distinguishing_authenticity": {"value": 39, "unit": "percent not very or not at all confident they can distinguish real political content from AI-generated material", "value_type": "published_survey_estimate"},
+        "ai_authentication_problem": {"value": "The legitimacy risk is not only persuasion by false content; perceived inability to authenticate political content can make the surrounding information environment itself less usable.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Self-reported survey measures of perceived exposure to and confidence about AI-generated or altered political content.",
+      "uncertainty": "The survey measures perception, recall, and confidence rather than verified exposure to synthetic media or demonstrated detection accuracy.",
+      "subgroup": "U.S. adults, with platform and political-content exposure questions.",
+      "counterinterpretation": "Respondents may classify ordinary editing, satire, or political content as AI-related; high concern does not establish actual prevalence or persuasion.",
+      "source_url": "https://www.catawba.edu/news/all-news/2026/yougov-38/",
+      "retrieval_hash": "sha256:463f5764a8d87ac2f01266b3ecbbeea1886d3acba9b13b8627c139110902608a",
+      "status": "reported"
+    },
+    {
+      "period": "September 4-9, 2026; anticipated AI effects on elections and safeguards",
+      "denominator": {"value": 1200, "unit": "U.S. adults 18 and older; weighted national sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "concern_ai_misleading_content": {"value": 78, "unit": "percent concerned about AI used to spread misleading political content that looks real", "value_type": "published_survey_estimate"},
+        "harder_to_tell_authenticity": {"value": 76, "unit": "percent saying AI-generated content will make it harder to tell whether campaign information is authentic", "value_type": "published_survey_estimate"},
+        "faster_false_claims": {"value": 71, "unit": "percent saying AI will make false claims about elections spread faster than officials can correct them", "value_type": "published_survey_estimate"},
+        "label_support": {"value": 85, "unit": "percent favoring labels or disclaimers on AI-generated political content", "value_type": "published_survey_estimate"},
+        "platform_responsibility_support": {"value": 81, "unit": "percent favoring holding social media platforms responsible for removing deceptive AI election content", "value_type": "published_survey_estimate"},
+        "safeguard_conversion": {"value": "Voters translate authenticity anxiety into demand for disclosure, removal, penalties, and clear responsibility rather than simply rejecting all AI use.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey estimates of perceived AI risks and support for proposed election-content safeguards.",
+      "uncertainty": "Question wording presents hypothetical risks and policy proposals; support for safeguards does not establish implementation feasibility or effects on trust.",
+      "subgroup": "U.S. adults, with responsibility rankings across federal government, technology companies, campaigns, state government, and social media companies.",
+      "counterinterpretation": "High support for safeguards may reflect broad anti-deception norms without agreement on definitions, enforcement, or acceptable political speech.",
+      "source_url": "https://www.catawba.edu/news/all-news/2026/yougov-38/",
+      "retrieval_hash": "sha256:463f5764a8d87ac2f01266b3ecbbeea1886d3acba9b13b8627c139110902608a",
+      "status": "reported"
+    },
+    {
+      "period": "September 4-9, 2026; trusted election-information routes",
+      "denominator": {"value": 1200, "unit": "U.S. adults 18 and older; weighted national sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "trust_friends_family": {"value": 70, "unit": "percent expressing a great deal or fair amount of trust in friends and family for election information", "value_type": "published_survey_estimate"},
+        "trust_state_election_websites": {"value": 59, "unit": "percent expressing at least a fair amount of trust in state election office websites", "value_type": "published_survey_estimate"},
+        "trust_local_election_officials": {"value": 58, "unit": "percent expressing at least a fair amount of trust in local election officials", "value_type": "published_survey_estimate"},
+        "low_trust_social_and_ai": {"value": 67, "unit": "percent reporting little or no trust in social media platforms and AI chatbots or assistants for accurate voting and election information", "value_type": "published_survey_estimate"},
+        "local_explanation_route": {"value": "When synthetic uncertainty rises, trusted interpersonal and local administrative channels become the practical route for verification and correction.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey comparison of trust in interpersonal, local administrative, local news, social-media, and AI information sources.",
+      "uncertainty": "Trust is self-reported and source categories are broad; the survey does not observe which sources respondents actually use to verify claims or how quickly corrections travel.",
+      "subgroup": "U.S. adults, with trust comparisons across election-information channels.",
+      "counterinterpretation": "High trust in friends and family can also transmit misinformation; local proximity is not itself evidence of accuracy.",
+      "source_url": "https://www.catawba.edu/news/all-news/2026/yougov-38/",
+      "retrieval_hash": "sha256:463f5764a8d87ac2f01266b3ecbbeea1886d3acba9b13b8627c139110902608a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.catawba.edu/news/all-news/2026/yougov-38/", "claim": "Official Catawba College release containing the survey findings, sample, field dates, weighting, margin of error, trust comparisons, and limitations.", "status": "official-methodology-and-findings-page"},
+    {"source_url": "https://www.catawba.edu/news/all-news/2026/yougov-38/", "claim": "The release links the accompanying weighted crosstab spreadsheet and AAPOR transparency information through SharePoint resources that require authenticated access in this environment.", "status": "linked-but-access-gated-resource"}
+  ],
+  "boundary": "This record adds an election-specific legitimacy route: commitment to fair elections can coexist with weaker confidence when voters perceive that political content is synthetic, difficult to authenticate, fast to spread, and hard for officials to correct. It does not establish actual synthetic-content exposure, detection accuracy, persuasion, post-election behavior, causal effects of safeguards, or the quality of interpersonal information. The survey was commissioned for a conference and the linked crosstabs/methodology resources were access-gated during review.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Catawba College findings page was reviewed for publication date, commissioning institution, YouGov sample, field dates, weighting, margin of error, election-confidence measures, AI authenticity concerns, safeguard support, trusted information channels, and boundary statements.",
+    "source_page_sha256": "sha256:463f5764a8d87ac2f01266b3ecbbeea1886d3acba9b13b8627c139110902608a",
+    "checked": "2026-09-28"
+  }
+}

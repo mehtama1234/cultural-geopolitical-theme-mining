@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-mozambique-pasp-social-protection-climate-autonomy-2026",
+  "title": "Social protection is being redesigned as productive, ecological, and digital infrastructure for household autonomy in climate-exposed Mozambique",
+  "theme_ids": ["cost", "time", "work", "energy", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "housing_place_mobility", "infrastructure_technology_dependency", "work_control_bargaining", "care_health_reproduction"],
+  "source_unit": "World Bank feature story, Roots of Resilience: How Mozambique's Families Are Rebuilding Their Lives and Their Land, published 18 September 2026",
+  "geography": "Mozambique; Productive Social Action Program across all 11 provinces, with reported examples in Zambezia and Sofala",
+  "observations": [
+    {
+      "period": "2012–2026; Productive Social Action Program reach and design",
+      "denominator": {"value": 300000, "unit": "Mozambicans who have participated in PASP since its launch", "value_type": "reported_participant_count"},
+      "measures": {
+        "participants": {"value": 300000, "unit": "people", "value_type": "reported_participant_count"},
+        "geographic_reach": {"value": 11, "unit": "Mozambican provinces reached", "value_type": "reported_geographic_count"},
+        "programme_bundle": {"value": "cash or income support combined with skills development, productive grants, and community work", "unit": "reported intervention bundle", "value_type": "reported_programme_design"},
+        "targeting": {"value": "vulnerable, climate-exposed, and economically marginalized families, with women comprising most participants", "unit": "reported targeting frame", "value_type": "reported_targeting"}
+      },
+      "method": "World Bank feature story summarizing PASP reach, design, implementation, and beneficiary accounts; it is not a randomized evaluation or representative household survey.",
+      "uncertainty": "The feature does not provide a complete beneficiary denominator, transfer adequacy, attrition, comparison group, or independently verified aggregate livelihood effects.",
+      "subgroup": "Poor and climate-exposed households, women, small farmers, caregivers, informal workers, rural communities, and families facing food and livelihood insecurity.",
+      "counterinterpretation": "Combining transfers and productive activities can increase administrative burden or condition support on work that excludes people with care, disability, or health constraints; participation counts do not prove durable autonomy.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/09/18/roots-of-resilience-how-mozambiques-families-are-rebuilding-their-lives",
+      "retrieval_hash": "sha256:b2aa6f472cc4ff4378b5e1d5d53a529036024882ff2131e7eeea36e3af9424ab",
+      "status": "reported"
+    },
+    {
+      "period": "2012–2026; gendered participation and household investment route",
+      "denominator": {"value": 100, "unit": "percent of reported PASP beneficiaries", "value_type": "reported_beneficiary_share_frame"},
+      "measures": {
+        "women_beneficiaries": {"value": 65, "unit": "percent of PASP beneficiaries", "value_type": "reported_beneficiary_share"},
+        "household_investment": {"value": "reported uses include farming, small businesses, housing improvements, food, school materials, and children's futures", "unit": "reported household investment set", "value_type": "reported_household_use"},
+        "economic_pathway": {"value": "income, skills, and productive grants are intended to support jobs, self-employment, assets, and livelihoods after programme support", "unit": "reported pathway", "value_type": "reported_programme_mechanism"}
+      },
+      "method": "World Bank feature highlights programme composition and reported beneficiary uses of income and skills.",
+      "uncertainty": "The gender share and household uses are reported by the source; the feature does not establish whether investments are typical, sustained, or sufficient to change gendered bargaining power or poverty trajectories.",
+      "subgroup": "Women beneficiaries, caregivers, children, small-enterprise operators, farmers, and households allocating scarce income across food, housing, education, and productive assets.",
+      "counterinterpretation": "Women’s high participation can reflect gendered targeting and unpaid care burdens rather than equal economic power; household investment may trade off with consumption or care time.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/09/18/roots-of-resilience-how-mozambiques-families-are-rebuilding-their-lives",
+      "retrieval_hash": "sha256:b2aa6f472cc4ff4378b5e1d5d53a529036024882ff2131e7eeea36e3af9424ab",
+      "status": "reported"
+    },
+    {
+      "period": "2012–2026; climate-resilience public-work route",
+      "denominator": {"value": 1, "unit": "PASP community-work and climate-resilience pathway", "value_type": "reported_programme_pathway"},
+      "measures": {
+        "public_work_types": {"value": "coastal protection, riverbank restoration, erosion control, rural infrastructure, and landscape restoration", "unit": "reported community-work set", "value_type": "reported_public_work_set"},
+        "livelihood_link": {"value": "participants receive income while developing practical skills and contributing to projects that protect farms, homes, and local ecosystems", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "household_resilience": {"value": "the feature reports improved food security, more resilient housing, and productive assets among example households and communities", "unit": "reported outcome direction", "value_type": "reported_outcome_direction"}
+      },
+      "method": "World Bank narrative account linking social-protection participation to climate adaptation work and household examples.",
+      "uncertainty": "The source does not quantify avoided climate losses, asset durability, ecological impact, or whether public works create net additional employment or displace other local work.",
+      "subgroup": "Climate-exposed households, coastal and riverine communities, farmers, women, local authorities, ecosystems, and households whose homes or livelihoods face erosion and extreme weather.",
+      "counterinterpretation": "Public works can provide short-term income without changing structural exposure; ecological benefits may be localized, delayed, or vulnerable to larger shocks and maintenance gaps.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/09/18/roots-of-resilience-how-mozambiques-families-are-rebuilding-their-lives",
+      "retrieval_hash": "sha256:b2aa6f472cc4ff4378b5e1d5d53a529036024882ff2131e7eeea36e3af9424ab",
+      "status": "reported"
+    },
+    {
+      "period": "2012–2026; digital-payment and post-transfer autonomy route",
+      "denominator": {"value": 200000, "unit": "electronic money accounts opened through PASP", "value_type": "reported_account_count"},
+      "measures": {
+        "electronic_accounts": {"value": 200000, "unit": "accounts", "value_type": "reported_account_count"},
+        "payment_effect": {"value": "mobile-money transfers reduce travel time, improve security, and provide easier access to funds", "unit": "reported payment mechanism", "value_type": "reported_mechanism"},
+        "financial_inclusion": {"value": "many participants accessed formal financial services for the first time", "unit": "reported inclusion direction", "value_type": "reported_outcome_direction"},
+        "post_programme_examples": {"value": "former beneficiaries are reported to continue farming, building stronger houses, producing for household consumption and local markets, and using acquired skills after support", "unit": "reported follow-up examples", "value_type": "reported_post_programme_account"}
+      },
+      "method": "World Bank feature description of PASP payment infrastructure and selected post-programme household and community examples.",
+      "uncertainty": "Account opening is not active use, savings, or financial well-being; the post-programme examples are illustrative and do not establish population-level persistence or causal impact.",
+      "subgroup": "Remote and rural beneficiaries, women, caregivers, households with high travel costs, small producers, mobile-money users, and people newly entering formal finance.",
+      "counterinterpretation": "Digital payments can create fees, fraud, exclusion, SIM or identity barriers, and new dependence on payment infrastructure; travel-time savings do not automatically become household leisure or care relief.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/09/18/roots-of-resilience-how-mozambiques-families-are-rebuilding-their-lives",
+      "retrieval_hash": "sha256:b2aa6f472cc4ff4378b5e1d5d53a529036024882ff2131e7eeea36e3af9424ab",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://projects.worldbank.org/en/projects-operations/project-detail/P173640", "claim": "World Bank Social Protection for Economic Resilience Project associated with PASP."},
+    {"source_url": "https://www.worldbank.org/en/country/mozambique", "claim": "World Bank country context for Mozambique."}
+  ],
+  "boundary": "This record adds a route from cash and social protection through skills, productive assets, ecological public work, mobile money, household room, and climate resilience. It is based on a World Bank feature story and beneficiary narratives, not a representative survey, randomized evaluation, complete programme administrative dataset, or proof of durable autonomy and ecological impact.",
+  "retrieval_hash": "sha256:b2aa6f472cc4ff4378b5e1d5d53a529036024882ff2131e7eeea36e3af9424ab"
+}

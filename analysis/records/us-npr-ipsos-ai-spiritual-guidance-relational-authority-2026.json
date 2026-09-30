@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-npr-ipsos-ai-spiritual-guidance-relational-authority-2026",
+  "title": "Americans use AI broadly but preserve relational and human authority for spiritual, moral, and emotionally consequential counsel",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "political_judgment_action"
+  ],
+  "source_unit": "NPR and Ipsos, Religion and AI Survey, August 2026",
+  "geography": "United States; adults age 18 and older in a nationally representative KnowledgePanel probability sample",
+  "observations": [
+    {
+      "period": "7–9 August 2026; general AI use and purpose",
+      "denominator": {"value": 1011, "unit": "U.S. adults age 18+; nationally representative KnowledgePanel probability sample", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "any_ai_use": {"value": 61, "unit": "percent reporting use of an AI tool such as ChatGPT, Gemini, or Claude", "value_type": "reported_survey_share"},
+        "monthly_learning": {"value": 55, "unit": "percent of AI users using AI monthly or more to learn about topics they are curious about", "value_type": "reported_conditional_share"},
+        "monthly_work": {"value": 47, "unit": "percent of AI users using AI monthly or more for work tasks", "value_type": "reported_conditional_share"},
+        "monthly_personal_advice": {"value": 30, "unit": "percent of AI users using AI monthly or more for personal decisions", "value_type": "reported_conditional_share"},
+        "domain_gradient": {"value": "AI use is more normalized for information and work than for spiritual, emotional, or relational domains", "unit": "reported purpose gradient", "value_type": "analytic_mechanism"}
+      },
+      "method": "Ipsos probability-based KnowledgePanel survey conducted 7–9 August 2026; total sample weighted by demographic and political benchmarks, margin of sampling error plus or minus 3.6 percentage points for the full sample.",
+      "uncertainty": "Purpose measures are self-reported and monthly-or-more summaries among AI users; they do not measure quality, frequency distribution within categories, or durable behavior.",
+      "subgroup": "U.S. adults and the subset reporting AI use; subgroup bases are smaller for purpose-specific measures.",
+      "counterinterpretation": "Respondents may classify some spiritual, emotional, or relational use as general information or entertainment; lower reported use may reflect question framing or social desirability.",
+      "source_url": "https://www.ipsos.com/en-us/most-americans-skeptical-turning-ai-spiritual-guidance",
+      "retrieval_hash": "sha256:57598ddee1d7d105376ea84424c5bc3b433800a17aaedce484437b7553463b6d",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; preferred sources for difficult personal counsel",
+      "denominator": {"value": 1011, "unit": "U.S. adults age 18+; full survey sample", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "family": {"value": 75, "unit": "percent likely or already turning to family members for advice on a difficult personal topic", "value_type": "reported_survey_share"},
+        "friends": {"value": 71, "unit": "percent likely or already turning to friends", "value_type": "reported_survey_share"},
+        "religious_leader": {"value": 31, "unit": "percent likely or already turning to a religious leader", "value_type": "reported_survey_share"},
+        "ai": {"value": 28, "unit": "percent likely or already turning to an AI tool", "value_type": "reported_survey_share"},
+        "search_engine": {"value": 63, "unit": "percent likely or already turning to a search engine", "value_type": "reported_survey_share"},
+        "relational_authority": {"value": "People distinguish searchable information from counsel that depends on trust, accountability, shared life, or moral standing", "unit": "analytic source hierarchy", "value_type": "analytic_mechanism"}
+      },
+      "method": "Weighted national survey asking respondents how likely they would be to seek advice on a difficult personal topic from different human, institutional, and digital sources.",
+      "uncertainty": "Likelihood or current use is not actual help-seeking, advice quality, relationship strength, or outcome; source categories have different meanings and availability.",
+      "subgroup": "U.S. adults, including people with different religious affiliations, social networks, education, income, and AI familiarity.",
+      "counterinterpretation": "People may use AI privately as a supplement while still naming humans as preferred authorities; low stated AI use does not prove low practical influence.",
+      "source_url": "https://www.ipsos.com/en-us/most-americans-skeptical-turning-ai-spiritual-guidance",
+      "retrieval_hash": "sha256:57598ddee1d7d105376ea84424c5bc3b433800a17aaedce484437b7553463b6d",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; actual and prospective AI use in spiritual or religious domains",
+      "denominator": {"value": 643, "unit": "U.S. adults in the survey who report using AI", "value_type": "unweighted_subsample"},
+      "measures": {
+        "spiritual_guidance_use": {"value": 11, "unit": "percent of AI users who have used AI for spiritual or religious guidance", "value_type": "reported_conditional_share"},
+        "prayer_generation": {"value": 13, "unit": "percent of AI users who have used AI to write or generate prayers", "value_type": "reported_conditional_share"},
+        "scripture_study": {"value": 15, "unit": "percent of AI users who have used AI to study religious scripture or texts", "value_type": "reported_conditional_share"},
+        "personal_advice_use": {"value": 19, "unit": "percent of AI users who have used AI for relationship or personal advice", "value_type": "reported_conditional_share"},
+        "never_spiritual": {"value": 69, "unit": "percent of AI users saying they would never seek religious or spiritual guidance from AI", "value_type": "reported_conditional_share"},
+        "sacred_domain_boundary": {"value": "General AI adoption does not imply delegation of sacred, conscience-related, or identity-forming judgment", "unit": "analytic boundary", "value_type": "analytic_mechanism"}
+      },
+      "method": "KnowledgePanel survey module asked only reported AI users about actual, past, open, and never-use of AI for personal, emotional, religious, and spiritual activities.",
+      "uncertainty": "The AI-user subsample is smaller than the full sample and the public topline reports unweighted base counts; these are use and openness measures, not religious practice or spiritual outcomes.",
+      "subgroup": "Adults who use AI, with variation by income, education, age, religion, and familiarity with digital tools.",
+      "counterinterpretation": "AI may be used as a drafting, search, or accessibility tool without being treated as an authority; reported prayer or scripture use does not establish theological trust or community substitution.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/NPR%20Religion%20and%20AI%20Topline%202026.pdf",
+      "retrieval_hash": "sha256:3d9acf4f996f3d517839590c28c4b6c9c5e2d3a4481a6dcf5ba3d00173662bf2",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; trust, comfort, and practical reasons for AI substitution",
+      "denominator": {"value": 1011, "unit": "U.S. adults age 18+; full survey sample, with some items asked of AI users", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "trust_people": {"value": 75, "unit": "percent of AI users trusting advice from people they know more than advice from AI", "value_type": "reported_conditional_share"},
+        "trust_ai_more": {"value": 6, "unit": "percent of AI users trusting AI advice more than advice from people they know", "value_type": "reported_conditional_share"},
+        "comfortable_ai": {"value": 29, "unit": "percent of all adults comfortable turning to AI for a personal question or problem", "value_type": "reported_survey_share"},
+        "availability_reason": {"value": 31, "unit": "percent of AI users citing anytime availability and no scheduling or waiting as a reason to choose AI over a person", "value_type": "reported_conditional_share"},
+        "judgment_avoidance": {"value": 23, "unit": "percent of AI users citing not wanting to be judged as a reason to choose AI", "value_type": "reported_conditional_share"},
+        "substitution_mechanism": {"value": "AI's practical advantages are privacy, availability, and low social friction, but human trust remains stronger for consequential counsel", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "National survey measures of relative trust, comfort, and stated reasons for choosing AI rather than a person for difficult topics.",
+      "uncertainty": "Trust and comfort are perceptions; the survey does not observe disclosure, advice receipt, harm, follow-up, or whether AI reduces or increases human connection.",
+      "subgroup": "U.S. adults and AI users, including people with different social access and concerns about judgment or scheduling.",
+      "counterinterpretation": "AI may extend access for people lacking trusted or available human support rather than displace relationships; the same low-friction feature can be useful or risky depending on the topic.",
+      "source_url": "https://www.ipsos.com/en-us/most-americans-skeptical-turning-ai-spiritual-guidance",
+      "retrieval_hash": "sha256:57598ddee1d7d105376ea84424c5bc3b433800a17aaedce484437b7553463b6d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-us/most-americans-skeptical-turning-ai-spiritual-guidance", "claim": "Official NPR/Ipsos release and survey summary."},
+    {"source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/NPR%20Religion%20and%20AI%20Topline%202026.pdf", "claim": "Official Ipsos topline questionnaire, sample, field dates, weighting, margins of error, and item-level results."}
+  ],
+  "boundary": "This record adds a cultural-meaning and relational-authority layer to AI adoption: Americans report broad instrumental use of AI but retain stronger trust in people, family, friends, written resources, and religious or human counsel for difficult personal and spiritual questions. It does not measure actual spiritual practice, advice quality, mental-health outcomes, religious-community participation, or causal substitution of AI for human relationships.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos release and linked 17-page NPR Religion and AI topline PDF were reviewed for field dates, 1,011-person KnowledgePanel sample, 643 AI-user subsample, weighting, margin of error, AI purposes, advice-source hierarchy, spiritual-use items, trust, comfort, and practical substitution reasons.",
+    "source_url_sha256": "sha256:57598ddee1d7d105376ea84424c5bc3b433800a17aaedce484437b7553463b6d",
+    "pdf_url_sha256": "sha256:3d9acf4f996f3d517839590c28c4b6c9c5e2d3a4481a6dcf5ba3d00173662bf2",
+    "checked": "2026-09-28"
+  }
+}

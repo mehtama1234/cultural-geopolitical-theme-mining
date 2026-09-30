@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-brazil-paraiba-water-security-sanitation-jobs-2026",
+  "title": "Water security is being treated as economic, public-health, and institutional infrastructure whose service failures distribute time, cost, and opportunity",
+  "theme_ids": ["cost", "energy", "work", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Group, World Bank Group Backs Water Security and the Access to Resilient Water and Sanitation Services in Brazil's Paraíba State, September 22, 2026",
+  "geography": "Paraíba State, Northeast Brazil; João Pessoa Metropolitan Region, 85 municipalities, and rural communities",
+  "observations": [
+    {
+      "period": "September 2026; water stress, poverty, and service exposure",
+      "denominator": {"value": 1, "unit": "Paraíba State project context", "value_type": "reported_place_context"},
+      "measures": {
+        "poverty": {"value": 47.4, "unit": "percent of the state population reported living in poverty", "value_type": "reported_share"},
+        "drought_frequency": {"value": "droughts that once occurred every four to six years are reported to strike approximately every two years", "unit": "reported hazard-frequency comparison", "value_type": "reported_trend"},
+        "inequality_route": {"value": "the project frames climate-driven water scarcity as deepening social and economic inequality, especially where reliable services are absent", "unit": "reported mechanism", "value_type": "reported_synthesis"}
+      },
+      "method": "World Bank project press release describing state conditions, financing, infrastructure gaps, and implementation design.",
+      "uncertainty": "The release does not provide a household panel, neighborhood-level exposure distribution, causal attribution of drought frequency, or realized poverty and health outcomes.",
+      "subgroup": "Poor households, rural communities, residents of the semiarid drought region, urban residents with unreliable water or sanitation, and communities facing climate exposure.",
+      "counterinterpretation": "Large infrastructure investment can improve reliability, but benefits may be uneven if tariffs, connection costs, land, maintenance, or service governance exclude poorer residents.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-group-backs-water-security-sanitation-paraiba-brazil",
+      "retrieval_hash": "sha256:8a099ae848f5d144293453b4463add74de3f0453ca3fb023b5b18dfa331b5373",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; urban water and sanitation service gaps",
+      "denominator": {"value": 1.4, "unit": "million people in the João Pessoa Metropolitan Region served by the targeted wastewater treatment plant", "value_type": "reported_population_scope_millions"},
+      "measures": {
+        "water_losses": {"value": 45, "unit": "percent estimated water-supply-network losses", "value_type": "reported_share"},
+        "sewage_collection": {"value": 65, "unit": "percent of the metropolitan population reported to have sewage collection", "value_type": "reported_share"},
+        "investment_route": {"value": "rehabilitating and expanding wastewater treatment and reducing network losses are positioned as both service and water-security interventions", "unit": "announced infrastructure route", "value_type": "reported_project_design"}
+      },
+      "method": "World Bank infrastructure-gap and project-component summary.",
+      "uncertainty": "The release does not identify neighborhood-level service quality, tariff burdens, untreated discharge outcomes, construction timing, or post-investment operating performance.",
+      "subgroup": "Metropolitan households, residents without sewage collection, households exposed to water interruptions or contamination, and downstream communities.",
+      "counterinterpretation": "Reducing physical losses and expanding treatment may improve system efficiency, but operational gains do not automatically become affordable, continuous household service.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-group-backs-water-security-sanitation-paraiba-brazil",
+      "retrieval_hash": "sha256:8a099ae848f5d144293453b4463add74de3f0453ca3fb023b5b18dfa331b5373",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; rural water access and administrative capacity",
+      "denominator": {"value": 60, "unit": "percent of the rural population reported to lack continuous access to potable water", "value_type": "reported_share_approximate"},
+      "measures": {
+        "rural_gap": {"value": "rural communities are described as lacking continuous potable-water access at a much larger scale than the urban service route addresses", "unit": "reported rural service gap", "value_type": "reported_context"},
+        "capacity_route": {"value": "the project includes building state capacity to plan and sustainably deliver rural water and sanitation services", "unit": "announced institutional route", "value_type": "reported_project_design"},
+        "hidden_cost": {"value": "the open household route is from unreliable water through collection time, health risk, household spending, work interruption, and local legitimacy", "unit": "analytic mechanism chain", "value_type": "research_queue"}
+      },
+      "method": "World Bank project description of rural service conditions and institutional-strengthening plans.",
+      "uncertainty": "The source does not measure who collects water, time burden, household coping costs, health effects, gender distribution, or local accountability.",
+      "subgroup": "Rural households, women and children who may carry collection burdens, small producers, remote communities, and local service providers.",
+      "counterinterpretation": "Rural service delivery may require locally differentiated systems; a state capacity investment can fail if maintenance, financing, community authority, or geographic access remain unresolved.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-group-backs-water-security-sanitation-paraiba-brazil",
+      "retrieval_hash": "sha256:8a099ae848f5d144293453b4463add74de3f0453ca3fb023b5b18dfa331b5373",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; water infrastructure, jobs, and public-private governance",
+      "denominator": {"value": 54000, "unit": "equivalent additional and better-paid jobs estimated by the project announcement", "value_type": "project_estimate"},
+      "measures": {
+        "jobs_estimate": {"value": 54000, "unit": "estimated equivalent additional and better-paid jobs supported by water security, urban services, and sanitation improvements", "value_type": "reported_projection"},
+        "ppp_scope": {"value": "the project lays groundwork for a sanitation public-private partnership across two microregions, potentially benefiting about 2 million urban residents across 85 municipalities", "unit": "announced governance and population scope", "value_type": "reported_project_design"},
+        "coordination": {"value": "the broader multi-phase program is intended to let states share lessons, coordinate water governance, and scale climate-resilient infrastructure", "unit": "reported regional-governance route", "value_type": "reported_policy_design"}
+      },
+      "method": "World Bank financing announcement, project estimate, and multi-phase program description.",
+      "uncertainty": "The 54,000 figure is an estimate rather than observed employment; the PPP and multi-phase program are not proof of contract performance, affordability, job quality, or equitable service access.",
+      "subgroup": "Water and sanitation workers, construction and service firms, urban residents, rural residents, municipalities, regulators, and households affected by tariffs or service expansion.",
+      "counterinterpretation": "Private participation can mobilize capital and operating expertise, but fragmented contracts or weak regulation can move risk to households and weaken public accountability.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-group-backs-water-security-sanitation-paraiba-brazil",
+      "retrieval_hash": "sha256:8a099ae848f5d144293453b4463add74de3f0453ca3fb023b5b18dfa331b5373",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/malawi-world-bank-grant-financing-to-improve-resilience-to-climate", "claim": "Malawi INSPIRE-O provides a complementary adaptive-social-protection route from climate shocks to household resilience and public delivery."},
+    {"source_url": "https://www.worldbank.org/en/country/brazil/brief/water-security", "claim": "World Bank Brazil water-security context provides complementary institutional and regional background."}
+  ],
+  "boundary": "This record adds a named infrastructure-to-household route from drought and poverty through water security, sanitation, rural service capacity, losses, collection access, PPP governance, jobs, time, cost, and public legitimacy. It is a project announcement with estimates, not evidence of completed construction, service reliability, affordability, job quality, or causal welfare effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank September 22, 2026 press release was reviewed for Paraíba poverty and drought context, US$50 million financing, urban losses and sewage coverage, rural potable-water access, 54,000-job estimate, PPP scope, and six-year implementation design.",
+    "source_url_sha256": "sha256:8a099ae848f5d144293453b4463add74de3f0453ca3fb023b5b18dfa331b5373",
+    "checked": "2026-09-28"
+  }
+}

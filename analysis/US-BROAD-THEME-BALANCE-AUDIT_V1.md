@@ -1,30 +1,30 @@
 # US broad theme balance audit v1
 
-**Checked:** 2026-09-26
+**Checked:** 2026-09-30
 **Purpose:** identify under-covered parts of the 14-theme atlas before the next research rotation.
 
 This is a coverage-control artifact, not a quality ranking, sample-size measure, causal-strength score, or claim that a theme with fewer records matters less. Record counts reflect the current machine-readable registry and can be shaped by source availability and project history.
 
-The registry currently contains **1013 records** across **14 themes**. The three lowest-density surfaces are **Platforms, data, and attention**, **Time, care, and social reproduction**, and **Consumer power and recourse**.
+The registry currently contains **1978 records** across **14 themes**. The three lowest-density surfaces are **Consumer power and recourse**, **Time, care, and social reproduction**, and **Platforms, data, and attention**.
 
 ## Density by theme
 
 | Rank (lowest first) | Theme | Records | Observations |
 |---:|---|---:|---:|
-| 1 | Platforms, data, and attention | 123 | 294 |
-| 2 | Time, care, and social reproduction | 172 | 434 |
-| 3 | Consumer power and recourse | 185 | 427 |
-| 4 | Housing, place, and mobility | 225 | 531 |
-| 5 | Geopolitical and state consequences | 261 | 632 |
-| 6 | Care, health, and reproduction | 295 | 758 |
-| 7 | Work, control, and bargaining | 308 | 769 |
-| 8 | Infrastructure, technology, and dependency | 315 | 693 |
-| 9 | Political judgment and collective action | 378 | 901 |
-| 10 | Firm, sector, and market power | 429 | 1000 |
-| 11 | Trust, identity, and meaning | 550 | 1158 |
-| 12 | Household room and consumption | 557 | 1357 |
-| 13 | Public systems and policy feedback | 696 | 1523 |
-| 14 | Unequal exposure and status | 805 | 1860 |
+| 1 | Consumer power and recourse | 359 | 1060 |
+| 2 | Time, care, and social reproduction | 364 | 1123 |
+| 3 | Platforms, data, and attention | 367 | 1217 |
+| 4 | Housing, place, and mobility | 454 | 1383 |
+| 5 | Geopolitical and state consequences | 589 | 1908 |
+| 6 | Care, health, and reproduction | 639 | 2101 |
+| 7 | Work, control, and bargaining | 684 | 2186 |
+| 8 | Firm, sector, and market power | 710 | 2054 |
+| 9 | Political judgment and collective action | 777 | 2409 |
+| 10 | Infrastructure, technology, and dependency | 781 | 2442 |
+| 11 | Household room and consumption | 1215 | 3786 |
+| 12 | Trust, identity, and meaning | 1219 | 3623 |
+| 13 | Public systems and policy feedback | 1456 | 4421 |
+| 14 | Unequal exposure and status | 1721 | 5270 |
 
 ## How to use this
 

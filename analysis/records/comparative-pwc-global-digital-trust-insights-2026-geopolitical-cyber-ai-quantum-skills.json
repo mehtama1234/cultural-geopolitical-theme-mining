@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pwc-global-digital-trust-insights-2026-geopolitical-cyber-ai-quantum-skills",
+  "title": "Geopolitical fragmentation is reshaping cyber strategy while AI, quantum, supply-chain, and skills readiness lag",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "PwC, 2026 Global Digital Trust Insights: New world, new rules—Cybersecurity in an era of uncertainty",
+  "geography": "Business and technology executives across 72 countries, spanning private-sector and public-service industries",
+  "observations": [
+    {
+      "period": "2025-2026; geopolitics and cyber-strategy response",
+      "denominator": {"value": 3887, "unit": "business and technology executives across 72 countries in the published survey frame", "value_type": "published_executive_survey_frame"},
+      "measures": {
+        "cyber_investment_priority": {"value": 60, "unit": "percent ranking cyber-risk investment among their top three strategic priorities in response to geopolitical volatility", "value_type": "reported_share"},
+        "infrastructure_location": {"value": 41, "unit": "percent ranking changes in critical-infrastructure location among top three cyber-strategy changes", "value_type": "reported_share"},
+        "operating_policy_change": {"value": 39, "unit": "percent ranking changes in trade and operating policies among top three responses", "value_type": "reported_share"},
+        "geopolitical_channel": {"value": "fractured alliances, trade disputes, weakened institutions, and supply-chain disruption are reshaping cyber vulnerabilities", "unit": "PwC report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "PwC Global Digital Trust Insights 2026 online survey of business and technology executives conducted May-July 2025, summarized across 72 countries.",
+      "uncertainty": "Executive perceptions and planned strategy changes do not measure realized cyber resilience, actual investment, incident frequency, or population-level digital safety.",
+      "subgroup": "Business and technology leaders, critical-infrastructure operators, public services, suppliers, workers, customers, and communities exposed to cyber disruption.",
+      "counterinterpretation": "Strategic reprioritization can strengthen resilience and localization, but it can also increase fragmentation, cost, redundancy, and exclusion from global systems.",
+      "source_url": "https://www.pwc.com/jg/en/assets/global-digital-trust-insights/dti-report-2026.pdf",
+      "retrieval_hash": "sha256:e6b74cc49565de7655cc53fa521bd2a346138ad56a21f0bf618913d8b21c95aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cyber readiness and supply-chain vulnerability",
+      "denominator": {"value": 1971, "unit": "security leaders, chief operating officers, and operations directors answering readiness questions", "value_type": "security_leadership_frame"},
+      "measures": {
+        "overall_readiness": {"value": 6, "unit": "percent feeling very capable across all surveyed cyber vulnerabilities", "value_type": "reported_share"},
+        "capability_gap": {"value": "roughly half report their organization is at best somewhat capable of withstanding attacks targeting specific vulnerabilities", "unit": "PwC report synthesis", "value_type": "reported_gap"},
+        "weak_spots": {"value": "legacy systems and supply-chain vulnerabilities remain among the weakest spots and frequent targets for nation-state actors", "unit": "PwC report synthesis", "value_type": "reported_risk"}
+      },
+      "method": "PwC subgroup analysis of security leaders and operations executives within the Global Digital Trust Insights survey.",
+      "uncertainty": "Perceived capability is not a penetration test, incident record, or independent audit; subgroup composition and self-assessment can shape the result.",
+      "subgroup": "Security leaders, operations directors, legacy-system owners, suppliers, critical infrastructure, public agencies, and users dependent on connected services.",
+      "counterinterpretation": "Self-identified gaps may reflect more mature risk awareness, while organizations reporting confidence may still face unknown or systemic vulnerabilities.",
+      "source_url": "https://www.pwc.com/jg/en/assets/global-digital-trust-insights/dti-report-2026.pdf",
+      "retrieval_hash": "sha256:e6b74cc49565de7655cc53fa521bd2a346138ad56a21f0bf618913d8b21c95aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proactive defense, AI, and data governance",
+      "denominator": {"value": 1, "unit": "surveyed organizations' cyber spending, AI defense, and data-risk governance frame", "value_type": "cyber_governance_frame"},
+      "measures": {
+        "proactive_spending": {"value": 24, "unit": "percent spending significantly more on proactive than reactive cybersecurity measures", "value_type": "reported_share"},
+        "balanced_spending": {"value": 67, "unit": "percent reporting roughly equal reactive and proactive cybersecurity spending", "value_type": "reported_share"},
+        "data_controls": {"value": 6, "unit": "percent reporting full implementation of all surveyed enterprise data-risk measures", "value_type": "reported_share"},
+        "ai_defense": {"value": "AI and agentic AI are among the leading priorities for threat hunting, cloud security, data protection, and cyber defense", "unit": "PwC report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "PwC aggregate analysis of cyber spending, data governance, and AI-security priorities.",
+      "uncertainty": "Budget shares and implementation claims do not establish effectiveness, proportionality, privacy protection, or whether AI tools reduce total cyber risk.",
+      "subgroup": "Security teams, data stewards, AI developers, employees, customers, regulators, and organizations with different cyber maturity and resources.",
+      "counterinterpretation": "Reactive spending can be rational during acute incidents, and AI tools may improve detection and response if governance, data quality, and human oversight are strong.",
+      "source_url": "https://www.pwc.com/jg/en/assets/global-digital-trust-insights/dti-report-2026.pdf",
+      "retrieval_hash": "sha256:e6b74cc49565de7655cc53fa521bd2a346138ad56a21f0bf618913d8b21c95aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; quantum readiness and cyber skills",
+      "denominator": {"value": 1, "unit": "enterprise quantum-resistant security and cyber-talent readiness frame", "value_type": "future_cyber_capability_frame"},
+      "measures": {
+        "quantum_priority": {"value": "quantum computing ranks among the threats organizations are least prepared to address, while fewer than 10 percent prioritize it in budgets", "unit": "PwC report synthesis", "value_type": "reported_gap"},
+        "quantum_completion": {"value": 3, "unit": "percent reporting implementation of all leading quantum-resistant measures surveyed", "value_type": "reported_share"},
+        "skills_barrier": {"value": 53, "unit": "percent prioritizing AI and machine-learning tools to help close cyber capability gaps", "value_type": "reported_share"},
+        "talent_mechanism": {"value": "knowledge and skills gaps remain major barriers to AI-enabled cyber defense and post-quantum readiness", "unit": "PwC report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "PwC aggregate analysis of quantum-readiness, AI-security, and cyber-talent questions.",
+      "uncertainty": "Readiness percentages are executive reports of organizational status, not technical verification or a forecast of when quantum threats will materialize.",
+      "subgroup": "Cybersecurity workers, technology leaders, organizations with legacy cryptography, public agencies, critical infrastructure, and education or training systems.",
+      "counterinterpretation": "Low current readiness may reflect rational sequencing while standards, threat intelligence, and usable post-quantum tools mature; early preparation can still reduce future switching costs.",
+      "source_url": "https://www.pwc.com/jg/en/assets/global-digital-trust-insights/dti-report-2026.pdf",
+      "retrieval_hash": "sha256:e6b74cc49565de7655cc53fa521bd2a346138ad56a21f0bf618913d8b21c95aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026", "claim": "ITU ICT Development Index 2026 provides complementary global connectivity and digital-infrastructure conditions."},
+    {"source_url": "https://www.bis.org/publications/aer-2026", "claim": "BIS Annual Economic Report 2026 provides complementary financial, geopolitical, and digital-trust system analysis."}
+  ],
+  "boundary": "This record adds an executive-perception and organizational-readiness route across geopolitics, cyber risk, critical infrastructure, AI defense, quantum readiness, data governance, and skills. It uses published aggregate survey results and report synthesis, not respondent-level records, technical audits, incident microdata, individual privacy outcomes, or proof that planned investment creates resilience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official PwC 2026 Global Digital Trust Insights materials were reviewed for the 3,887-executive/72-country frame, geopolitical strategy response, readiness, cyber spending, AI defense, quantum readiness, and skills gaps.",
+    "source_url_sha256": "sha256:e6b74cc49565de7655cc53fa521bd2a346138ad56a21f0bf618913d8b21c95aa",
+    "checked": "2026-09-26"
+  }
+}

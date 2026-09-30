@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-happiness-social-media-product-traps-2026",
+  "title": "Some social platforms create collective product traps: people use them for access while wishing the social system did not exist",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Happiness Report 2026, Chapter 6: Social media, wasting time, and product traps",
+  "geography": "United States studies summarized in the chapter, including a nationally representative adult sample, a Facebook deactivation experiment, and U.S. college-student evidence on Instagram and TikTok",
+  "observations": [
+    {
+      "period": "2018 pilot and subsequent U.S. nationally representative valuation studies",
+      "denominator": {"value": 828, "unit": "participants in the full Facebook valuation survey; pilot sample separately reported as 439", "value_type": "reported_study_sample"},
+      "measures": {
+        "facebook_wtp_median": {"value": 5, "unit": "US dollars per month people would pay to use Facebook", "value_type": "reported_median"},
+        "facebook_wta_median": {"value": 98.5, "unit": "US dollars per month people would demand to stop using Facebook", "value_type": "reported_median"},
+        "zero_wtp_pilot": {"value": 46, "unit": "percent of pilot participants willing to pay zero for a month of Facebook use", "value_type": "reported_share"},
+        "mechanism": {"value": "Use can persist despite low reflective valuation because the social cost of leaving is larger than the price people assign to the product itself", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Chapter synthesis of willingness-to-pay and willingness-to-accept studies, including a nationally representative U.S. sample and an earlier pilot.",
+      "uncertainty": "WTP and WTA are vulnerable to anchoring, free-good protest responses, endowment effects, hypothetical bias, and different interpretations of use versus non-use; they are not direct measures of total welfare.",
+      "subgroup": "U.S. adults, Facebook users and non-users, with platform-specific estimates reported for a wider set of social-media services.",
+      "counterinterpretation": "A high amount demanded to stop using a platform may reflect valued social connection, political information, or fear of losing access rather than coercion or low wellbeing.",
+      "source_url": "https://files.worldhappiness.report/WHR26_Ch06.pdf",
+      "retrieval_hash": "sha256:a500d5821c8d595eabbcae045a353ac554085ed9f38e173bc1f0be99c01217dd",
+      "status": "reported"
+    },
+    {
+      "period": "Facebook deactivation experiment; one-month treatment period",
+      "denominator": {"value": 2743, "unit": "Facebook users recruited for the deactivation experiment", "value_type": "reported_study_sample"},
+      "measures": {
+        "deactivation_outcome": {"value": "Participants assigned to deactivate were happier, more satisfied with life, less anxious, and less depressed across measured outcomes", "unit": "reported experimental outcome pattern", "value_type": "reported_experimental_pattern"},
+        "effect_scale": {"value": "The chapter reports the improvement as small but significant and approximately 25–40% of the standard improvement from group or individual therapy", "unit": "reported comparative effect description", "value_type": "reported_effect_description"},
+        "post_treatment_use": {"value": "Deactivation reduced later app use and increased the likelihood of deleting the app, but willingness to accept payment for another month off remained substantial", "unit": "reported follow-up pattern", "value_type": "reported_followup_pattern"},
+        "mechanism": {"value": "Short-run wellbeing improvement does not automatically overcome network dependence, habit, information value, or fear of missing out", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Randomized deactivation experiment summarized in the World Happiness Report chapter; treatment and control groups were followed over a four-week period with wellbeing and later-use measures.",
+      "uncertainty": "The underlying study concerns Facebook users and a defined treatment period; it does not establish long-run effects, effects for every platform, or the relative importance of social connection, information, habit, and design.",
+      "subgroup": "U.S. Facebook users recruited through Facebook advertising, with outcomes measured across subjective wellbeing dimensions.",
+      "counterinterpretation": "A month off may produce novelty or temporary relief while reducing access to relationships or political information; the chapter notes that the control group had more political knowledge on one measured dimension.",
+      "source_url": "https://files.worldhappiness.report/WHR26_Ch06.pdf",
+      "retrieval_hash": "sha256:a500d5821c8d595eabbcae045a353ac554085ed9f38e173bc1f0be99c01217dd",
+      "status": "reported"
+    },
+    {
+      "period": "U.S. college-student studies of community-level platform shutdown preferences",
+      "denominator": {"value": 1, "unit": "community-level valuation design comparing individual deactivation with collective deactivation", "value_type": "reported_experimental_frame"},
+      "measures": {
+        "tiktok_individual_wta": {"value": 59, "unit": "US dollars per month college students would demand to deactivate TikTok individually", "value_type": "reported_average_or_median_as_summarized"},
+        "instagram_individual_wta": {"value": 47, "unit": "US dollars per month college students would demand to deactivate Instagram individually", "value_type": "reported_average_or_median_as_summarized"},
+        "tiktok_collective_wtp": {"value": 28, "unit": "US dollars students would pay for their whole community to deactivate TikTok for a month", "value_type": "reported_average_or_median_as_summarized"},
+        "instagram_collective_wtp": {"value": 10, "unit": "US dollars students would pay for their whole community to deactivate Instagram for a month", "value_type": "reported_average_or_median_as_summarized"},
+        "mechanism": {"value": "The same product can be individually useful yet collectively undesirable when opting out threatens social position, information access, or relationships", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Chapter synthesis of community-contingent willingness-to-pay and individual willingness-to-accept measures among U.S. college students.",
+      "uncertainty": "The population is a college-student sample and the valuations are hypothetical; the estimates do not establish platform-wide prevalence, causality, or the exact social mechanism behind the collective preference.",
+      "subgroup": "U.S. college students and active users of TikTok and Instagram; community boundaries are defined by the study design.",
+      "counterinterpretation": "Collective shutdown preferences may express dissatisfaction with current platform design while students still value the underlying social network, creator economy, or communication function.",
+      "source_url": "https://files.worldhappiness.report/WHR26_Ch06.pdf",
+      "retrieval_hash": "sha256:a500d5821c8d595eabbcae045a353ac554085ed9f38e173bc1f0be99c01217dd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 chapter synthesis; social meaning, opting out, and consumer agency",
+      "denominator": {"value": 1, "unit": "conceptual synthesis of three empirical studies", "value_type": "reported_synthesis_frame"},
+      "measures": {
+        "negative_nonuser_externality": {"value": "Non-users can bear costs from a platform’s existence because important interactions, signals, and opportunities migrate onto it", "unit": "reported conceptual mechanism", "value_type": "reported_mechanism"},
+        "coordination_failure": {"value": "Individual exit can be privately costly even when coordinated exit would make many people better off", "unit": "bounded collective-action mechanism", "value_type": "bounded_mechanism"},
+        "wasting_time_good": {"value": "Some users may continue a product they regard as low-value because habit, free access, social norms, or opportunity costs obscure the alternative use of time", "unit": "reported conceptual mechanism", "value_type": "reported_mechanism"},
+        "consumer_agency_boundary": {"value": "Observed use is not equivalent to endorsement, satisfaction, or unconstrained choice", "unit": "bounded interpretation", "value_type": "bounded_interpretation"}
+      },
+      "method": "Analytical synthesis of experimental and valuation evidence in the chapter; mechanisms are presented as interpretations, not separately identified causal estimates.",
+      "uncertainty": "The product-trap framework is a useful mechanism for further testing but should not be generalized to all digital products, all users, or all forms of repeated consumption.",
+      "subgroup": "Users, non-users, communities, creators, advertisers, and people whose work, relationships, political information, or identity are mediated by platforms.",
+      "counterinterpretation": "Network goods can generate genuine value that individual wellbeing scales or hypothetical valuations fail to capture; social-media use can support knowledge, coordination, and belonging even when it also creates burdens.",
+      "source_url": "https://files.worldhappiness.report/WHR26_Ch06.pdf",
+      "retrieval_hash": "sha256:a500d5821c8d595eabbcae045a353ac554085ed9f38e173bc1f0be99c01217dd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldhappiness.report/ed/2026/internet-use-social-media-and-wellbeing-the-role-of-trust-social-connections-and-emotional-bonds/", "claim": "Complementary World Happiness Report 2026 chapter on internet use, social connection, trust, peer saturation, and generational wellbeing."},
+    {"source_url": "https://doi.org/10.1257/aer.20190658", "claim": "Underlying randomized Facebook deactivation study cited by the chapter."},
+    {"source_url": "https://doi.org/10.1257/aer.20231468", "claim": "Underlying collective product-trap study cited by the chapter."}
+  ],
+  "boundary": "This record adds a consumer-culture and platform-dependence route from repeated use and network effects through time valuation, wellbeing, social pressure, information access, coordination failure, and collective agency. It synthesizes studies summarized in a World Happiness Report chapter; it is not a respondent-level reanalysis, not representative evidence for all platforms or populations, and not proof that any platform should be eliminated.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Happiness Report 2026 Chapter 6 PDF was reviewed for the valuation studies, Facebook deactivation experiment, community-level Instagram/TikTok preferences, negative non-user externality, and product-trap interpretation.",
+    "source_url_sha256": "sha256:a500d5821c8d595eabbcae045a353ac554085ed9f38e173bc1f0be99c01217dd",
+    "checked": "2026-09-28"
+  }
+}

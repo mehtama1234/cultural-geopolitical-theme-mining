@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-values-institute-global-values-2026-values-living-gap",
+  "title": "Relational values remain culturally salient while stress and depleted capacity constrain how people can live them",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "Values Institute, Global Values Report 2026: The Values-Living Gap",
+  "geography": "114 countries represented in a global Values Institute Assessment sample collected June 2025-April 2026",
+  "observations": [
+    {
+      "period": "June 2025-April 2026; values layer",
+      "denominator": {"value": 9656, "unit": "people who completed the Values Institute values assessment across 114 countries", "value_type": "self_selected_assessment_sample"},
+      "measures": {
+        "family_top_five": {"value": 37.4, "unit": "percent placing Family among their five most important values", "value_type": "reported_share"},
+        "respect_top_five": {"value": 31.0, "unit": "percent placing Respect among their five most important values", "value_type": "reported_share"},
+        "kindness_top_five": {"value": 29.7, "unit": "percent placing Kindness among their five most important values", "value_type": "reported_share"},
+        "wealth_or_status_top_five": {"value": "fewer than 5.4", "unit": "percent placing Wealth or Status among their five most important values", "value_type": "reported_upper_bound"}
+      },
+      "method": "Values Institute assessment asking participants to select five important values from a list of 48; the report presents descriptive global, age, gender, and country comparisons.",
+      "uncertainty": "The sample is self-selected and is not a probability sample of the 114 countries; value selection depends on the instrument, translation, recruitment, and willingness to complete an online assessment.",
+      "subgroup": "Assessment participants across countries, age groups, genders, and reported cultural regions.",
+      "counterinterpretation": "Relational values can coexist with status, wealth, conflict, or consumption motives; selecting a value does not establish behavior, spending, political action, or institutional trust.",
+      "source_url": "https://values.institute/global-values-report-2026",
+      "retrieval_hash": "sha256:f18af72acbc6a908a9cafd79a3f05531aea933a3dbddca3e7e570ab0e559f0ea",
+      "status": "reported"
+    },
+    {
+      "period": "June 2025-April 2026; age and cultural differentiation",
+      "denominator": {"value": 9656, "unit": "values-assessment participants, with country and age subgroup comparisons where sample size permitted", "value_type": "self_selected_assessment_sample"},
+      "measures": {
+        "gen_z_family": {"value": 43.0, "unit": "percent of 18-24 participants placing Family in their top five", "value_type": "reported_subgroup_share"},
+        "gen_z_friendship": {"value": 29.1, "unit": "percent of Gen Z participants placing Friendship in their top five", "value_type": "reported_subgroup_share"},
+        "family_us": {"value": 43.2, "unit": "percent of U.S. participants placing Family in their top five", "value_type": "reported_country_share"},
+        "family_germany": {"value": 23.3, "unit": "percent of German participants placing Family in their top five", "value_type": "reported_country_share"},
+        "philippines_respect": {"value": 57.8, "unit": "percent of Philippines participants placing Respect in their top five", "value_type": "reported_country_share"}
+      },
+      "method": "Descriptive subgroup and country comparisons from the Values Institute values layer; country results are reported only where the publication judged sample size sufficient.",
+      "uncertainty": "Small or uneven country samples limit cross-country comparability; differences may reflect recruitment, response norms, translation, composition, or genuine cultural variation.",
+      "subgroup": "Gen Z and other age groups, U.S. and German participants, and participants in the Philippines and other country samples.",
+      "counterinterpretation": "Observed cultural fingerprints are not fixed national traits and should not be used to infer all residents, market segments, or political preferences in a country.",
+      "source_url": "https://values.institute/global-values-report-2026",
+      "retrieval_hash": "sha256:f18af72acbc6a908a9cafd79a3f05531aea933a3dbddca3e7e570ab0e559f0ea",
+      "status": "reported"
+    },
+    {
+      "period": "June 2025-April 2026; stress, rest, and presence",
+      "denominator": {"value": 6231, "unit": "participants who completed the nine-dimension wellbeing assessment", "value_type": "self_selected_wellbeing_sample"},
+      "measures": {
+        "severely_exhausted": {"value": 20.9, "unit": "percent with rest score indicating severe exhaustion", "value_type": "reported_share"},
+        "very_disconnected": {"value": 24.5, "unit": "percent with presence score indicating strong disconnection from the present", "value_type": "reported_share"},
+        "family_valuers_exhausted": {"value": 40.6, "unit": "percent of Family-valuers classified as exhausted", "value_type": "reported_conditional_share"},
+        "family_valuers_both": {"value": 25.8, "unit": "percent of Family-valuers classified as both exhausted and disconnected", "value_type": "reported_conditional_share"}
+      },
+      "method": "Self-reported nine-dimension wellbeing assessment using 1-7 scales, with publication-defined thresholds for exhaustion and presence; conditional values are descriptive associations.",
+      "uncertainty": "The measures are self-reported, threshold-dependent, and drawn from a self-selected assessment sample; they are not clinical diagnoses and do not establish that valuing Family causes depletion.",
+      "subgroup": "Wellbeing-assessment participants, including people placing Family among their top five values.",
+      "counterinterpretation": "People under strain may prioritize relational values more strongly, and people with family responsibilities may face different demands; the direction and mechanisms are not identified.",
+      "source_url": "https://values.institute/global-values-report-2026",
+      "retrieval_hash": "sha256:f18af72acbc6a908a9cafd79a3f05531aea933a3dbddca3e7e570ab0e559f0ea",
+      "status": "reported"
+    },
+    {
+      "period": "June 2025-April 2026; purpose, gender, and wellbeing associations",
+      "denominator": {"value": 9327, "unit": "participants who completed the stress and purpose check-in; wellbeing comparisons use the relevant published layer", "value_type": "self_selected_checkin_sample"},
+      "measures": {
+        "purpose_stress_gradient": {"value": "average stress declined from 4.12 at purpose clarity 1 to 3.07 at purpose clarity 7, while average fulfillment rose from 2.15 to 5.41", "unit": "reported 1-7 scale gradient", "value_type": "reported_association"},
+        "women_high_stress": {"value": 27.2, "unit": "percent of women reporting high stress compared with 22.4 percent of men", "value_type": "reported_gender_comparison"},
+        "women_35_44_compound_anxiety": {"value": 20.9, "unit": "percent of women ages 35-44 meeting the report's compound-anxiety proxy threshold", "value_type": "reported_subgroup_share"},
+        "gratitude_top_five": {"value": 14.4, "unit": "percent including Gratitude among their top five values", "value_type": "reported_share"}
+      },
+      "method": "Values Institute check-in and wellbeing layers, with descriptive gradients, subgroup comparisons, and proxy thresholds reported by the publication.",
+      "uncertainty": "Associations may reflect reverse causality, selection, unmeasured resources, or instrument effects; compound anxiety is explicitly a proxy and not a clinical diagnosis.",
+      "subgroup": "Women and men, women ages 35-44, participants at different purpose-clarity levels, and participants selecting Gratitude.",
+      "counterinterpretation": "Purpose and gratitude may be markers of resources, health, social support, or reporting style rather than independent protective causes; the publication does not identify interventions or causal pathways.",
+      "source_url": "https://values.institute/global-values-report-2026",
+      "retrieval_hash": "sha256:f18af72acbc6a908a9cafd79a3f05531aea933a3dbddca3e7e570ab0e559f0ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/global/2026/02/17/where-and-why-people-arent-proud-of-their-country/", "claim": "Pew national-pride research provides a separate cross-national route for culture, identity, public services, and political meaning."},
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition", "claim": "Ipsos Global Trends 2026 provides complementary cross-market evidence on consumer meaning, technology, identity, and social fragmentation."}
+  ],
+  "boundary": "This record adds a cultural-values and capacity-to-act route linking family, respect, kindness, generational identity, stress, purpose, gendered depletion, and possible consumer or institutional meaning. It preserves the publication as self-selected aggregate evidence; it is not representative population prevalence, respondent-level prediction, a clinical wellbeing study, a causal values model, or proof that values determine political or consumer behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Values Institute Global Values Report 2026 page was retrieved and reviewed for sample frame, values rankings, age and country comparisons, wellbeing thresholds, purpose gradients, gender comparisons, and association boundaries.",
+    "source_url_sha256": "sha256:f18af72acbc6a908a9cafd79a3f05531aea933a3dbddca3e7e570ab0e559f0ea",
+    "checked": "2026-09-26"
+  }
+}

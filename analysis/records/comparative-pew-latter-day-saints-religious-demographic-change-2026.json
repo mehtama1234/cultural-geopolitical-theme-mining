@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-latter-day-saints-religious-demographic-change-2026",
+  "title": "A highly religious U.S. community retains strong social trust and conservative identity while becoming more diverse, less family-centered, and more socially liberal on selected issues",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Pew Research Center, Tradition and Change Among Latter-day Saints in the U.S., 22 September 2026",
+  "geography": "Adults in the United States who identify as members of the Church of Jesus Christ of Latter-day Saints, former members, converts, and comparison religious groups",
+  "observations": [
+    {
+      "period": "2007-2023/24; demographic and family-structure change",
+      "denominator": {"value": 565, "unit": "current Latter-day Saints interviewed in the 2023-24 Pew Religious Landscape Study", "value_type": "published_subgroup_sample"},
+      "measures": {
+        "population_share": {"value": "Latter-day Saints have made up roughly 1 to 2 percent of U.S. adults for at least four decades", "unit": "reported demographic pattern", "value_type": "reported_persistence"},
+        "diversity": {"value": "members are more demographically diverse than in 2007, driven in part by more racially and ethnically diverse converts", "unit": "reported demographic change", "value_type": "reported_mechanism"},
+        "parenthood": {"value": 37, "unit": "percent of members who are parents of children under 18 today, compared with 49 percent in 2007", "value_type": "reported_subgroup_share"},
+        "age": {"value": "median age rose from 41 in 2007 to 44 in 2023-24", "unit": "reported demographic change", "value_type": "reported_median"},
+        "identity_route": {"value": "religious-community identity can remain institutionally stable while its demographic base and household life change", "unit": "analytic cultural mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Pew longitudinal comparison using the 2023-24 Religious Landscape Study and earlier landscape studies from 2007 and 2014, plus a 2011 Latter-day Saint survey.",
+      "uncertainty": "The report’s subgroup estimates have larger margins of error than national estimates, and changes combine cohort, conversion, retention, age, and survey-mode effects.",
+      "subgroup": "Latter-day Saints, converts, lifelong members, former members, women and men, younger and older adults, and households with or without children.",
+      "counterinterpretation": "A smaller share of parents or greater diversity does not by itself indicate weakening community identity, lower well-being, or uniform family change.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:c3fd09bd7a5d78bf41bb02cd7b6fac8eef027172fc6cc76a55b5e8629de5243a",
+      "status": "reported"
+    },
+    {
+      "period": "2007-2023/24; religious practice and retention",
+      "denominator": {"value": 565, "unit": "current Latter-day Saints interviewed in the 2023-24 Pew Religious Landscape Study", "value_type": "published_subgroup_sample"},
+      "measures": {
+        "religion_importance": {"value": 72, "unit": "percent saying religion is very important in their lives", "value_type": "reported_subgroup_share"},
+        "retention": {"value": 54, "unit": "percent of people raised Latter-day Saint who still identify as members in adulthood, compared with 70 percent in 2007", "value_type": "reported_retention_share"},
+        "daily_prayer": {"value": "members have become slightly less religious by some measures, including daily prayer, while remaining among the most religious U.S. groups", "unit": "reported longitudinal pattern", "value_type": "reported_mechanism"},
+        "continuity_route": {"value": "high religious commitment and declining retention can coexist, making institutional continuity depend on lifecycle, conversion, and community ties", "unit": "analytic religious-continuity mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Pew comparison of religious importance, practice, and affiliation across repeated Religious Landscape Studies.",
+      "uncertainty": "Retention is an affiliation measure, not a direct measure of belief, social connection, service participation, or the causes of leaving.",
+      "subgroup": "Lifelong members, converts, former members, young adults, older adults, women and men, and religiously affiliated comparison groups.",
+      "counterinterpretation": "Affiliation changes may reflect identity labeling, marriage, mobility, institutional experience, or survey classification rather than simple secularization.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:c3fd09bd7a5d78bf41bb02cd7b6fac8eef027172fc6cc76a55b5e8629de5243a",
+      "status": "reported"
+    },
+    {
+      "period": "2007-2023/24; political identity and social-issue change",
+      "denominator": {"value": 565, "unit": "current Latter-day Saints interviewed in the 2023-24 Pew Religious Landscape Study", "value_type": "published_subgroup_sample"},
+      "measures": {
+        "republican_identity": {"value": "about three-quarters identify as Republican or lean Republican", "unit": "reported partisan pattern", "value_type": "reported_subgroup_pattern"},
+        "homosexuality_acceptance": {"value": 46, "unit": "percent saying homosexuality should be accepted by society in 2023-24, compared with 24 percent in 2007", "value_type": "reported_subgroup_share"},
+        "women_workforce": {"value": 61, "unit": "percent saying more women in the workforce is a change for the better in 2023-24, compared with 49 percent in 2014", "value_type": "reported_subgroup_share"},
+        "social_identity_route": {"value": "stable partisan identity can coexist with selected shifts in views on diversity, sexuality, gender, and social change", "unit": "analytic identity mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Pew repeated cross-sectional survey comparison of religious, partisan, and social attitudes among Latter-day Saints.",
+      "uncertainty": "The changes are aggregate associations and do not show how institutions, generations, converts, local congregations, or political events produced them.",
+      "subgroup": "Latter-day Saint adults, lifelong members, converts, Republican identifiers, women and men, and younger and older adults.",
+      "counterinterpretation": "Issue-specific liberalization does not imply broad ideological realignment or a uniform change in gender roles, family norms, or partisan behavior.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:c3fd09bd7a5d78bf41bb02cd7b6fac8eef027172fc6cc76a55b5e8629de5243a",
+      "status": "reported"
+    },
+    {
+      "period": "2023/24; communal ties, trust, and institutional belonging",
+      "denominator": {"value": 565, "unit": "current Latter-day Saints interviewed in the 2023-24 Pew Religious Landscape Study", "value_type": "published_subgroup_sample"},
+      "measures": {
+        "community_bonds": {"value": "the report identifies strong communal ties and high social trust among Latter-day Saints", "unit": "reported social-capital pattern", "value_type": "reported_synthesis"},
+        "institutional_belonging": {"value": "religious practice, family life, volunteering, and communal trust are treated as linked dimensions of belonging", "unit": "reported social mechanism set", "value_type": "reported_mechanism_set"},
+        "open_test": {"value": "connect changing retention and demographics to actual support, volunteering, political voice, care, and community resilience without assuming affiliation alone creates equal outcomes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Pew analysis of religious practice, community ties, social trust, and related social and political views.",
+      "uncertainty": "The report describes association within a religious community and does not establish that religious affiliation causes trust, happiness, support, or political behavior.",
+      "subgroup": "Latter-day Saint members, converts, former members, family networks, congregations, volunteers, and local communities.",
+      "counterinterpretation": "Strong internal trust can coexist with boundaries, unequal belonging, or different experiences among converts, former members, racialized groups, women, and LGBTQ people.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:c3fd09bd7a5d78bf41bb02cd7b6fac8eef027172fc6cc76a55b5e8629de5243a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-have-strong-communal-ties-and-high-social-trust/", "claim": "Pew companion analysis provides deeper communal-ties and social-trust context."},
+    {"source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-largely-identify-as-republican-but-stand-out-from-their-partisan-peers-on-diversity-issues/", "claim": "Pew companion analysis provides deeper partisan and diversity-attitude context."}
+  ],
+  "boundary": "This record adds a U.S. religious-community route from demographic change and retention through belief, family structure, partisan identity, social attitudes, communal trust, and belonging. It uses Pew survey synthesis, not a representative global culture measure, individual religious histories, causal institutional effects, or proof that social trust produces equal community outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew Research Center report page was reviewed for survey scope, subgroup sample, demographic and parenthood change, retention, religious importance, partisan identity, social-attitude change, and communal-belonging framing.",
+    "source_url_sha256": "sha256:c3fd09bd7a5d78bf41bb02cd7b6fac8eef027172fc6cc76a55b5e8629de5243a",
+    "checked": "2026-09-26"
+  }
+}

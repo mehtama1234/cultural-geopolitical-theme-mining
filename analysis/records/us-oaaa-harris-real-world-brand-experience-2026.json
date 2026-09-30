@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-oaaa-harris-real-world-brand-experience-2026",
+  "title": "Physical and shared brand experiences are being positioned as a counterweight to fragmented digital attention",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Out of Home Advertising Association of America and The Harris Poll, The Power of the Human Medium: OOH Across Experiential + Retail, released September 17, 2026",
+  "geography": "United States; adults ages 18-64, with Gen Z comparisons",
+  "observations": [
+    {
+      "period": "August 4-5, 2026; consumer preference for real-world engagement",
+      "denominator": {"value": 1474, "unit": "U.S. adults ages 18-64 in the report analysis; survey total 2,015 adults 18+", "value_type": "survey_sample"},
+      "measures": {
+        "in_person_preference": {"value": 73, "unit": "percent preferring products or retailers that engage them through in-person experiences or local outdoor events", "value_type": "reported_share"},
+        "human_feel": {"value": 69, "unit": "percent saying out-of-home advertising feels more human than online or mobile advertising", "value_type": "reported_share"},
+        "cultural_relevance": {"value": 64, "unit": "percent saying out-of-home advertising feels more culturally relevant than online or mobile advertising", "value_type": "reported_share"}
+      },
+      "method": "Online Harris Poll conducted for OAAA August 4-5, 2026; sponsored by the Foundation for Out of Home Advertising Research and Education.",
+      "uncertainty": "The survey is sponsor-funded industry research, and the public release does not provide the full questionnaire, weighting details or causal design; preference claims may reflect framing and self-report.",
+      "subgroup": "U.S. adults ages 18-64, with separate Gen Z findings.",
+      "counterinterpretation": "Preference for in-person engagement does not prove that physical advertising outperforms digital advertising for all consumers or categories; novelty, event quality and local context may drive responses.",
+      "source_url": "https://oaaa.org/news/new-oaaa-research-ooh-turns-attention-into-action-across-the-consumer-retail-journey/",
+      "retrieval_hash": "sha256:923d3ac9ce69bfe91d602c35899fb17e642cb1d1f625ef66eb34977e51849255",
+      "status": "reported"
+    },
+    {
+      "period": "August 4-5, 2026; Gen Z desire for offline social experience",
+      "denominator": {"value": 1474, "unit": "U.S. adults ages 18-64 in the report analysis; Gen Z is a subgroup", "value_type": "survey_sample"},
+      "measures": {
+        "missing_in_person": {"value": 71, "unit": "percent of Gen Z adults saying they are missing out on in-person experiences older generations had at their age", "value_type": "reported_share"},
+        "spontaneous_connection": {"value": 68, "unit": "percent of Gen Z adults wanting more spontaneous moments to meet people or make friends", "value_type": "reported_share"}
+      },
+      "method": "Harris Poll consumer survey reported by OAAA, with Gen Z subgroup comparisons.",
+      "uncertainty": "These are perceptions and desires, not measures of loneliness, friendship formation, event attendance or generationally comparable behavior.",
+      "subgroup": "Gen Z adults in the U.S.",
+      "counterinterpretation": "The desire for offline connection may reflect ordinary life-stage change, pandemic memory, marketing framing or broader social conditions rather than a simple rejection of digital life.",
+      "source_url": "https://oaaa.org/news/new-oaaa-research-ooh-turns-attention-into-action-across-the-consumer-retail-journey/",
+      "retrieval_hash": "sha256:923d3ac9ce69bfe91d602c35899fb17e642cb1d1f625ef66eb34977e51849255",
+      "status": "reported"
+    },
+    {
+      "period": "August 4-5, 2026; reported effects of live brand experiences",
+      "denominator": {"value": 1474, "unit": "U.S. adults ages 18-64 in the report analysis", "value_type": "survey_sample"},
+      "measures": {
+        "memory": {"value": 80, "unit": "percent saying live product or retailer events make them more likely to remember a brand", "value_type": "reported_share"},
+        "consideration": {"value": 80, "unit": "percent saying experiencing a product in person makes them more likely to consider it", "value_type": "reported_share"},
+        "authenticity": {"value": 79, "unit": "percent saying memorable experiences make a brand feel more authentic", "value_type": "reported_share"},
+        "event_attendance": {"value": 89, "unit": "percent saying they would attend a live marketing event or promotional experience", "value_type": "reported_share"}
+      },
+      "method": "Online self-report survey of consumer judgments and stated behavioral intentions.",
+      "uncertainty": "The release reports intended or perceived effects rather than observed randomized behavior, sales lift, repeat purchase or long-term brand trust.",
+      "subgroup": "U.S. adults ages 18-64.",
+      "counterinterpretation": "People may express favorable attitudes toward experiences without attending or buying; event participation may be selected by consumers already inclined toward a brand.",
+      "source_url": "https://oaaa.org/news/new-oaaa-research-ooh-turns-attention-into-action-across-the-consumer-retail-journey/",
+      "retrieval_hash": "sha256:923d3ac9ce69bfe91d602c35899fb17e642cb1d1f625ef66eb34977e51849255",
+      "status": "reported"
+    },
+    {
+      "period": "August 4-5, 2026; movement from physical attention to cross-channel action",
+      "denominator": {"value": 1474, "unit": "U.S. adults ages 18-64 in the report analysis", "value_type": "survey_sample"},
+      "measures": {
+        "post_event_purchase": {"value": 40, "unit": "percent of consumers who attended a live marketing event and made a purchase", "value_type": "reported_share"},
+        "post_event_search": {"value": 30, "unit": "percent looking for more information after a memorable live brand experience", "value_type": "reported_share"},
+        "retail_OOH_action": {"value": "86% say they would take action after an interesting retail out-of-home ad; 45% would visit a website or app, 42% search online and 33% visit a store", "unit": "reported intended-action shares", "value_type": "reported_comparison"},
+        "same_day_stock_signal": {"value": 73, "unit": "percent saying they would visit a nearby store the same day if an out-of-home ad indicated a product was in stock for pickup", "value_type": "reported_share"}
+      },
+      "method": "Harris Poll self-reported retrospective and hypothetical behavior measures across physical and digital channels.",
+      "uncertainty": "Reported behavior is not verified transaction data; the sponsor's industry position creates a reason to treat the magnitude of effects cautiously.",
+      "subgroup": "U.S. adults ages 18-64 who encountered or imagined live and retail out-of-home experiences.",
+      "counterinterpretation": "Physical attention may be most valuable when paired with availability, timing, locality and a compelling experience; it is not a general substitute for digital discovery.",
+      "source_url": "https://oaaa.org/news/new-oaaa-research-ooh-turns-attention-into-action-across-the-consumer-retail-journey/",
+      "retrieval_hash": "sha256:923d3ac9ce69bfe91d602c35899fb17e642cb1d1f625ef66eb34977e51849255",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://oaaa.org/resources/the-harris-poll-the-power-of-ooh-experiential-retail-marketing/", "claim": "The full Harris Poll resource page exists but is restricted to OAAA members; the public press release reports the summarized findings and sample description."}
+  ],
+  "boundary": "This record treats sponsor-funded OOH research as a directional signal about the perceived value of physical, local and shared experiences in a fragmented attention environment. It does not establish causal advertising effectiveness, representative consumer behavior, actual sales lift, long-term trust, or that physical media is universally more human or culturally relevant than digital media."
+}

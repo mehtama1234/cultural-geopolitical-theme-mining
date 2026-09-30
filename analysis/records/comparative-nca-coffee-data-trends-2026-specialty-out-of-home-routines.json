@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nca-coffee-data-trends-2026-specialty-out-of-home-routines",
+  "title": "Coffee remains a daily household routine while specialty, app, drive-through, and out-of-home formats diversify the consumption occasion",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "National Coffee Association, 2026 National Coffee Data Trends Fall Report media highlights, conducted by Dig Insights",
+  "geography": "United States adult coffee and beverage consumption, June 2026 field period",
+  "observations": [
+    {
+      "period": "June 2026; past-day beverage consumption",
+      "denominator": {"value": 1, "unit": "U.S. adults in the NCDT survey universe", "value_type": "survey_population"},
+      "measures": {
+        "past_day_coffee": {"value": "66%", "unit": "share of American adults drinking coffee in the past day", "value_type": "reported_share"},
+        "at_home_preparation": {"value": "83%", "unit": "share of past-day coffee drinkers having coffee at home", "value_type": "reported_share"},
+        "out_of_home_recovery": {"value": "38%", "unit": "share of past-day coffee drinkers consuming coffee out of home", "value_type": "reported_share"}
+      },
+      "method": "NCA media highlights from the twice-yearly National Coffee Data Trends study, conducted by Dig Insights; the NCA reports a nationally representative sample of 1,882 adults aged 18 and over.",
+      "uncertainty": "This is a trade-association release summarizing a commissioned survey; it is not a transaction dataset, longitudinal behavior record, causal estimate, or independent assessment of the coffee market.",
+      "subgroup": "U.S. adults and coffee drinkers, with household and out-of-home consumption occasions represented in the reported measures.",
+      "counterinterpretation": "Stable daily use may reflect habit and routine rather than growing cultural attachment, while the out-of-home rebound may reflect channel substitution or seasonal conditions rather than durable social reconnection.",
+      "source_url": "https://www.ncausa.org/Newsroom/NCA-Coffee-tops-beverage-charts-again-specialty-coffee-hits-new-high",
+      "retrieval_hash": "sha256:3adb04ecabde27a6ec5bda58b12b84d68b0a2c29fdb9660e97eca86ccd47c3e8",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; specialty and espresso-based coffee",
+      "denominator": {"value": 1, "unit": "U.S. adults in the reported NCDT measures", "value_type": "survey_population"},
+      "measures": {
+        "specialty_coffee": {"value": "48%", "unit": "share of American adults drinking specialty coffee in the past day", "value_type": "reported_share"},
+        "specialty_vs_traditional": {"value": "specialty coffee exceeded traditional coffee in the reported past-day measure", "unit": "reported category comparison", "value_type": "reported_comparison"},
+        "espresso_beverage": {"value": "47%", "unit": "share of American adults having an espresso-based beverage in the past week", "value_type": "reported_share"},
+        "espresso_change": {"value": "+17.5%", "unit": "change in the reported espresso-based beverage measure since 2022", "value_type": "reported_change"}
+      },
+      "method": "Descriptive comparison of NCDT beverage categories and the NCA’s historical comparison for espresso-based drinks.",
+      "uncertainty": "Category definitions, field timing, recall, seasonality, and the trade-association sponsorship limit interpretation as a broad cultural transformation or durable demand forecast.",
+      "subgroup": "Adults choosing specialty, espresso-based, traditional, hot, or cold coffee formats across home and out-of-home occasions.",
+      "counterinterpretation": "Specialty growth may represent product relabeling, price and menu changes, or substitution within a stable coffee routine rather than a wholly new consumption identity.",
+      "source_url": "https://www.ncausa.org/Newsroom/NCA-Coffee-tops-beverage-charts-again-specialty-coffee-hits-new-high",
+      "retrieval_hash": "sha256:3adb04ecabde27a6ec5bda58b12b84d68b0a2c29fdb9660e97eca86ccd47c3e8",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; channel and convenience behavior",
+      "denominator": {"value": 1, "unit": "reported coffee-purchasing and out-of-home subsamples", "value_type": "survey_subpopulation"},
+      "measures": {
+        "drive_through": {"value": "55%", "unit": "share of past-week out-of-home coffee buyers ordering at a drive-through", "value_type": "reported_share"},
+        "app_ordering": {"value": "40%", "unit": "share of past-week out-of-home coffee buyers ordering on an app", "value_type": "reported_share"},
+        "grocery_channel": {"value": "35%", "unit": "share of in-home coffee purchases attributed to grocery stores", "value_type": "reported_share"},
+        "mass_merchant_channel": {"value": "28%", "unit": "share of in-home coffee purchases attributed to mass merchandisers", "value_type": "reported_share"}
+      },
+      "method": "NCA descriptive channel summary comparing reported at-home and out-of-home purchase routes.",
+      "uncertainty": "These are reported channel shares rather than transaction-level data; they do not identify prices, margins, repeat frequency, retailer substitution, or whether app ordering changes loyalty or labor conditions.",
+      "subgroup": "Past-week out-of-home coffee buyers and consumers purchasing coffee for in-home preparation.",
+      "counterinterpretation": "Drive-through and app use can signal convenience and routine compression, but they may also reflect commuting patterns, accessibility, promotions, or limited alternatives rather than a generalized preference for frictionless consumption.",
+      "source_url": "https://www.ncausa.org/Newsroom/NCA-Coffee-tops-beverage-charts-again-specialty-coffee-hits-new-high",
+      "retrieval_hash": "sha256:3adb04ecabde27a6ec5bda58b12b84d68b0a2c29fdb9660e97eca86ccd47c3e8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ncausa.org/NCDT", "claim": "NCA’s National Coffee Data Trends landing page provides the recurring study context and report access."},
+    {"source_url": "https://www.ncausa.org/About-Coffee", "claim": "NCA’s consumer-facing background provides context on coffee categories and preparation occasions."}
+  ],
+  "boundary": "This record adds an everyday-consumption and consumer-channel signal linking routine, specialty differentiation, at-home and out-of-home occasions, drive-through and app convenience, and retail-channel movement. It is a trade-association summary of a commissioned cross-sectional survey, not respondent-level ingestion, transaction data, a longitudinal trend estimate, a causal model, a measure of household affordability, or proof of durable cultural change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official NCA newsroom page was reviewed for the June 2026 field period, reported daily, at-home, out-of-home, specialty, espresso, channel, and sample-size measures; the NCA trade-association provenance and survey boundary were retained.",
+    "source_url_sha256": "sha256:3adb04ecabde27a6ec5bda58b12b84d68b0a2c29fdb9660e97eca86ccd47c3e8",
+    "checked": "2026-09-27"
+  }
+}

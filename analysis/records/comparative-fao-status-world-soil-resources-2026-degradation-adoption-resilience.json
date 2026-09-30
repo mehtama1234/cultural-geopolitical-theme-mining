@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-status-world-soil-resources-2026-degradation-adoption-resilience",
+  "title": "Soil degradation is worsening while adoption of proven management practices lags, turning food security and climate resilience into an implementation problem",
+  "theme_ids": ["cost", "energy", "time", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "FAO Global Soil Partnership and Intergovernmental Technical Panel on Soils, Status of the World's Soil Resources 2026",
+  "geography": "Global soils, agricultural land, agrifood systems, and seven FAO Global Soil Partnership regions",
+  "observations": [
+    {
+      "period": "2015-2025; global soil assessment and evidence base",
+      "denominator": {"value": 293, "unit": "experts contributing to the 2026 assessment", "value_type": "reported_expert_contributor_count"},
+      "measures": {
+        "country_expertise": {"value": 76, "unit": "countries represented by contributing experts", "value_type": "reported_country_count"},
+        "literature_window": {"value": 10, "unit": "years of scientific literature reviewed from 2015 to 2025", "value_type": "reported_review_window_years"},
+        "regional_grounding": {"value": "evidence and expertise from seven FAO Global Soil Partnership regions", "unit": "reported assessment structure", "value_type": "reported_geographic_frame"},
+        "assessment_purpose": {"value": "updated global assessment of soil status, threats, sustainable management adoption, and pathways to resilient agrifood systems", "unit": "reported publication purpose", "value_type": "reported_synthesis"}
+      },
+      "method": "FAO Global Soil Partnership and Intergovernmental Technical Panel on Soils assessment combining scientific literature and regional expertise, updating the 2015 global assessment.",
+      "uncertainty": "A global assessment combines heterogeneous regional evidence and does not measure every field, farm, land user, or local management decision; the expert and literature frame is not a causal impact evaluation.",
+      "subgroup": "Farmers, pastoralists, land managers, agrifood firms, rural communities, soil scientists, public agencies, and food-system planners.",
+      "counterinterpretation": "Regional expertise and improved knowledge can support locally adapted solutions; global degradation patterns do not mean every region or farm is deteriorating at the same rate.",
+      "source_url": "https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en",
+      "retrieval_hash": "sha256:991f34f9174fd12ee3e285af150e4cb0b917ffb13a9c7cf04f08cf46beac00e2",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2026; adoption of sustainable soil management",
+      "denominator": {"value": 100, "unit": "regional and subregional assessments reviewed", "value_type": "soil_management_assessment_base"},
+      "measures": {
+        "low_adoption": {"value": 50, "unit": "more than percent of reviewed regional and subregional assessments indicating low or very low adoption of sustainable soil management", "value_type": "reported_lower_bound"},
+        "deteriorating_trend": {"value": 58, "unit": "percent of reviewed assessments reporting a deteriorating trend since 2015", "value_type": "reported_assessment_share"},
+        "improving_trend": {"value": 10, "unit": "approximately percent of reviewed assessments reporting improvement", "value_type": "reported_assessment_share_approximate"},
+        "implementation_gap": {"value": "knowledge and solutions have advanced, but adoption is not occurring at the scale and pace needed", "unit": "reported implementation pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "FAO synthesis of regional and subregional assessments of sustainable soil-management adoption and trends since 2015.",
+      "uncertainty": "The assessment shares depend on the set and quality of reviewed regional evidence; they do not estimate the global area or productivity loss associated with each threat.",
+      "subgroup": "Agricultural producers, land managers, extension systems, investors, governments, and communities whose livelihoods depend on soil functions.",
+      "counterinterpretation": "Low adoption can reflect finance, labor, tenure, knowledge, input, risk, or policy barriers rather than unwillingness; practices may also be adopted informally or under different local names.",
+      "source_url": "https://www.fao.org/geneva/news/details/fao-at-cop17--new-report-warns-soil-degradation-worsening-as-adoption-of-proven-solutions-lags/en",
+      "retrieval_hash": "sha256:991f34f9174fd12ee3e285af150e4cb0b917ffb13a9c7cf04f08cf46beac00e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; soil threats, food production, and ecosystem functions",
+      "denominator": {"value": 1, "unit": "global soil assessment and FAO-UNCCD guidance frame", "value_type": "soil_ecosystem_frame"},
+      "measures": {
+        "most_severe_threat": {"value": "soil erosion remains the most severe threat identified in the global assessment", "unit": "reported threat ranking", "value_type": "reported_threat_pattern"},
+        "soil_functions": {"value": "soil health supports agricultural production, water regulation, biodiversity, carbon storage, and ecosystem services", "unit": "reported ecosystem-service set", "value_type": "reported_mechanism_set"},
+        "food_security_route": {"value": "soil degradation can reduce productive capacity and weaken resilience of agrifood systems under climate and demand pressure", "unit": "reported food-system mechanism", "value_type": "reported_mechanism"},
+        "scale_route": {"value": "avoid degradation, reduce ongoing pressures, and restore already degraded land through integrated landscape management", "unit": "reported policy sequence", "value_type": "reported_policy_options"}
+      },
+      "method": "FAO global soil assessment and companion FAO-UNCCD guidance on avoiding, reducing, and reversing agricultural land and soil degradation.",
+      "uncertainty": "Threat rankings and ecosystem mechanisms do not establish a single global productivity loss or guarantee that a listed practice will work in every soil, climate, tenure, or livelihood context.",
+      "subgroup": "Food producers, rural workers, food consumers, biodiversity and water systems, climate-exposed communities, and land-governance institutions.",
+      "counterinterpretation": "Integrated management can create co-benefits, but restoration may involve tradeoffs over land use, labor, food prices, water, carbon, biodiversity, and who bears transition costs.",
+      "source_url": "https://www.fao.org/geneva/news/details/fao-at-cop17--new-report-warns-soil-degradation-worsening-as-adoption-of-proven-solutions-lags/en",
+      "retrieval_hash": "sha256:991f34f9174fd12ee3e285af150e4cb0b917ffb13a9c7cf04f08cf46beac00e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; soil governance and agrifood-system implementation",
+      "denominator": {"value": 1, "unit": "FAO soil and land-restoration policy framework", "value_type": "implementation_governance_frame"},
+      "measures": {
+        "planning_integration": {"value": "soil and agricultural-land considerations should be integrated into national development planning, climate strategies, biodiversity frameworks, and agrifood transformation", "unit": "reported policy direction", "value_type": "reported_policy_set"},
+        "implementation_gap": {"value": "the challenge is not only knowledge but accelerating action at scale", "unit": "reported governance diagnosis", "value_type": "reported_mechanism"},
+        "digital_support": {"value": "a digital companion, tools, case studies, methodologies, and country applications are intended to support implementation", "unit": "reported implementation support", "value_type": "reported_policy_infrastructure"},
+        "open_test": {"value": "connect soil indicators and restoration commitments to budgets, tenure, extension, farmer risk, yields, food prices, biodiversity, and local decision power", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "FAO-UNCCD guidance and digital implementation companion associated with the 2026 global soil assessment.",
+      "uncertainty": "Policy integration and tools do not prove adoption, financing, productivity gains, equitable land access, or durable restoration outcomes.",
+      "subgroup": "National planners, ministries, local governments, farmers, indigenous and rural communities, extension services, investors, and conservation institutions.",
+      "counterinterpretation": "Integrated planning can improve coherence, but centralized targets may conflict with local priorities unless land users have voice, secure tenure, and practical support.",
+      "source_url": "https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en",
+      "retrieval_hash": "sha256:991f34f9174fd12ee3e285af150e4cb0b917ffb13a9c7cf04f08cf46beac00e2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/land-water/soils/overview/en", "claim": "FAO soil overview provides complementary soil-health, climate-resilience, and ecosystem-function context."},
+    {"source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-agricultural-commodity-markets", "claim": "FAO SOCO 2026 provides complementary trade-shock, food-security, and agrifood-market context."}
+  ],
+  "boundary": "This record adds a soil-to-food-security and climate-resilience route from land degradation through sustainable-management adoption, ecosystem functions, agrifood productivity, and implementation governance. It is not farm-level data, a causal yield estimate, a food-price forecast, or proof that restoration policies produce equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FAO Global Soil Partnership and FAO COP17 summaries were reviewed for the 2026 assessment scope, expert and country frame, literature window, adoption, deterioration, improvement, soil threats, ecosystem functions, and implementation guidance.",
+    "source_url_sha256": "sha256:991f34f9174fd12ee3e285af150e4cb0b917ffb13a9c7cf04f08cf46beac00e2",
+    "checked": "2026-09-26"
+  }
+}

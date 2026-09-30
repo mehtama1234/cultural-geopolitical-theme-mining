@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-poland-statistics-culture-participation-2024-spending-streaming-access",
+  "title": "Poland’s cultural spending rose while physical and paid-digital access remained sharply stratified",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Statistics Poland, Participation in culture in 2024",
+  "geography": "Poland; household cultural expenditure and residents aged 15 and over, by urban-rural residence, age, sex, and education",
+  "observations": [
+    {
+      "period": "2024; household cultural expenditure and financial constraints",
+      "denominator": {"value": 3397, "unit": "households completing the April 2025 modular Participation in culture survey; expenditure measures come from the linked 2024 Household Budget Survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "annual_cultural_expenditure_per_member": {"value": 481.68, "unit": "PLN per household member per year", "value_type": "reported_budget_estimate"},
+        "annual_cultural_expenditure_change": {"value": 21.8, "unit": "percent nominal increase from 2023", "value_type": "reported_growth_rate"},
+        "cultural_expenditure_budget_share": {"value": 2.1, "unit": "percent of total household expenditure, versus 2.0% in 2023", "value_type": "reported_budget_share"},
+        "cinema_theatre_concert_entry_fees_urban": {"value": 64.20, "unit": "PLN per urban household member per year", "value_type": "reported_subgroup_estimate"},
+        "cinema_theatre_concert_entry_fees_rural": {"value": 22.08, "unit": "PLN per rural household member per year", "value_type": "reported_subgroup_estimate"},
+        "urban_rural_entry_fee_gap": {"value": 42.12, "unit": "PLN per household member difference in annual entry-fee spending", "value_type": "calculated_difference_from_published_table"},
+        "gave_up_cinema_for_financial_reasons": {"value": 16.8, "unit": "percent of households", "value_type": "reported_survey_share"},
+        "financial_capacity_worsened": {"value": 12.0, "unit": "approximate percent of households reporting worsened or considerably worsened ability to meet cultural needs", "value_type": "reported_survey_share"},
+        "mechanism": {"value": "Cultural spending can rise in nominal terms while affordability remains selective: entry-fee spending is much higher in urban households and cinema is the most common cultural activity abandoned for financial reasons", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Poland's 2024 Participation in culture publication; expenditure measures come from the linked household-budget system and financial-abandonment measures from the household module.",
+      "uncertainty": "Cultural expenditure includes a broad recreation/sports/culture classification and is not a pure culture measure; nominal growth is not inflation-adjusted, and the survey does not establish whether urban-rural spending gaps arise from price, supply, income, travel, household composition, or preference.",
+      "subgroup": "Polish households, with urban-rural and socio-economic comparisons; expenditure generalized from the linked household budget survey.",
+      "counterinterpretation": "Higher urban entry-fee spending may reflect greater venue supply or different household composition rather than greater cultural desire; reported financial abandonment may also reflect prioritization, health, time, or access constraints.",
+      "source_url": "https://stat.gov.pl/en/topics/culture-tourism-sport/culture/participation-in-culture-in-2024%2C2%2C3.html?contrast=default",
+      "retrieval_hash": "sha256:f08ef0b47354d0c13362c0ce2fa0d3d139d2bb1de675e93dc1f9f9a8e6dd2b51",
+      "status": "reported"
+    },
+    {
+      "period": "2024; physical cinema attendance, paid online film access, and Internet use for cultural purposes",
+      "denominator": {"value": 3397, "unit": "households and household members aged 15 and over in the linked modular culture survey; published percentages are calibrated population estimates", "value_type": "reported_survey_sample"},
+      "measures": {
+        "cinema_attendance": {"value": 63.5, "unit": "percent of people aged 15 and over declaring cinema attendance", "value_type": "reported_survey_share"},
+        "cinema_urban": {"value": 69.2, "unit": "percent among urban residents", "value_type": "reported_subgroup_share"},
+        "cinema_rural": {"value": 54.0, "unit": "percent among rural residents", "value_type": "reported_subgroup_share"},
+        "paid_online_film_access": {"value": 48.1, "unit": "percent using paid online film access, streaming, or VOD outside television/cinema", "value_type": "reported_survey_share"},
+        "paid_online_film_urban": {"value": 55.1, "unit": "percent among urban residents", "value_type": "reported_subgroup_share"},
+        "paid_online_film_rural": {"value": 36.7, "unit": "percent among rural residents", "value_type": "reported_subgroup_share"},
+        "paid_online_film_age_25_34": {"value": 77.0, "unit": "percent among ages 25-34", "value_type": "reported_subgroup_share"},
+        "paid_online_film_age_65_plus": {"value": 15.3, "unit": "percent among ages 65 and over", "value_type": "reported_subgroup_share"},
+        "streaming_age_gap": {"value": 61.7, "unit": "percentage-point difference between ages 25-34 and 65+", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Paid digital film access expands cultural consumption alongside cinema, but both channels retain strong urban-rural gradients and streaming has an extreme age gradient; digitization changes the channel without equalizing access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Poland's 2024 Participation in culture publication; physical attendance, paid film access, and cultural Internet-use shares are published subgroup estimates.",
+      "uncertainty": "The measures are annual-recall self-reports and do not establish subscription intensity, household sharing, price burden, content type, frequency, or whether streaming substitutes for or complements cinema attendance.",
+      "subgroup": "Polish residents aged 15 and over, by place of residence and age group.",
+      "counterinterpretation": "Urban and age differences may reflect broadband, income, education, household composition, language, content preferences, and venue proximity; paid streaming use does not establish cultural quality or participation depth.",
+      "source_url": "https://stat.gov.pl/en/topics/culture-tourism-sport/culture/participation-in-culture-in-2024%2C2%2C3.html?contrast=default",
+      "retrieval_hash": "sha256:f08ef0b47354d0c13362c0ce2fa0d3d139d2bb1de675e93dc1f9f9a8e6dd2b51",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://new.stat.gov.pl/file/196965/download?token=CL_T7LSb", "claim": "Official Statistics Poland 117-page publication containing the English executive summary, tables, expenditure definitions, survey method, sample, calibration, and limitations."},
+    {"source_url": "https://stat.gov.pl/en/topics/culture-tourism-sport/culture/participation-in-culture-in-2024%2C2%2C3.html?contrast=default", "claim": "Statistics Poland publication page describing the five-year modular survey, household expenditure, digital transformation, cross-sections, and downloadable PDF/XLSX tables."}
+  ],
+  "boundary": "This record adds a Polish cultural-consumption, affordability, physical/digital channel, and urban-rural/age stratification layer. It does not establish causal price effects, household welfare, cultural taste, substitution between cinema and streaming, or pure culture expenditure separate from recreation and sports.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Poland publication page and English PDF reviewed; household expenditure, entry-fee urban-rural values, financial abandonment, cinema attendance, paid online film access, age/place gradients, sample, linked household-budget design, calibration, and category caveats checked.",
+    "pdf_sha256": "sha256:f08ef0b47354d0c13362c0ce2fa0d3d139d2bb1de675e93dc1f9f9a8e6dd2b51",
+    "checked": "2026-09-30"
+  }
+}

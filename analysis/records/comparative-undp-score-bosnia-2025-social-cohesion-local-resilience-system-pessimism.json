@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-score-bosnia-2025-social-cohesion-local-resilience-system-pessimism",
+  "title": "Local social cohesion can remain resilient while system-level pessimism and institutional distrust intensify political vulnerability",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UNDP Bosnia and Herzegovina, Social Cohesion and Reconciliation (SCORE) Index 2025 executive summary",
+  "geography": "Bosnia and Herzegovina, all 16 regional-territorial units, with comparison to SCORE 2020 and contextual reference to 2014 and 2020 waves",
+  "observations": [
+    {
+      "period": "2025; national SCORE social-cohesion assessment",
+      "denominator": {"value": 3800, "unit": "approximately surveyed respondents including 660 booster respondents; nationally representative weighted sample approximately 3,170", "value_type": "reported_survey_denominator"},
+      "measures": {
+        "geographic_coverage": {"value": 16, "unit": "regional-territorial units covered", "value_type": "reported_coverage_count"},
+        "core_elements": {"value": "intergroup harmony, inclusive belonging, sense of progress, support for Bosnia and Herzegovina institutions, and constructive citizenship", "unit": "SCORE core elements", "value_type": "reported_measurement_framework"},
+        "fieldwork": {"value": "November 2025 to February 2026, with most data collected in November-December 2025", "unit": "fieldwork period", "value_type": "reported_fieldwork_period"}
+      },
+      "method": "UNDP and SeeD use a stratified, face-to-face CAPI survey across all regional-territorial units, with a weighted nationally representative sample and local booster sites.",
+      "uncertainty": "The index is a national social-cohesion survey, not a complete account of informal networks or local power; the 2020 comparison coincided with COVID-19 and should be interpreted cautiously.",
+      "subgroup": "Residents across entities, ethnic and demographic groups, regional-territorial units, civic institutions, and communities experiencing post-conflict governance and reconciliation pressures.",
+      "counterinterpretation": "Moderate national cohesion does not imply equal safety, trust, political inclusion, or intergroup experience across all communities and localities.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/score_2025-executive_summary.pdf",
+      "retrieval_hash": "sha256:c3187f7d6829007ac889ef4849514d86baad193d7c33e5a2ee00f500b5c8e14d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; lived local relations and community-level cooperation",
+      "denominator": {"value": 1, "unit": "national SCORE interpretation frame", "value_type": "published_assessment_frame"},
+      "measures": {
+        "overall_cohesion": {"value": "moderate social cohesion", "unit": "reported national assessment", "value_type": "reported_assessment"},
+        "intergroup_harmony": {"value": "above-average intergroup harmony", "unit": "reported national pattern", "value_type": "reported_assessment"},
+        "local_cooperation": {"value": "strong community cooperation at the local level", "unit": "reported national pattern", "value_type": "reported_assessment"},
+        "inclusive_identity": {"value": "inclusive civic identity and identification with Bosnia and Herzegovina remain sufficiently strong to serve as an enabling platform", "unit": "reported interpretation", "value_type": "reported_assessment"}
+      },
+      "method": "The report synthesizes SCORE dimensions and weighted survey findings into a national interpretation of everyday relations, belonging, and cooperation.",
+      "uncertainty": "Qualitative labels such as moderate, above-average, and strong summarize index results; they do not identify which mechanisms caused cohesion or guarantee durability under future shocks.",
+      "subgroup": "Neighbors, communities, civic actors, residents with different identities, and institutions that support local cooperation and inclusive belonging.",
+      "counterinterpretation": "Positive local interaction can coexist with segregation, unequal opportunity, weak institutional trust, or limited political influence.",
+      "source_url": "https://www.undp.org/bosnia-herzegovina/publications/social-cohesion-bosnia-and-herzegovina",
+      "retrieval_hash": "sha256:6572e2651dd506e93b083d5e30b43b0b58c19869f0478cba673c98f1d8294e67",
+      "status": "reported"
+    },
+    {
+      "period": "2025; system-level perceptions of direction, stability, and economic future",
+      "denominator": {"value": 1, "unit": "national SCORE interpretation frame", "value_type": "published_assessment_frame"},
+      "measures": {
+        "pessimism": {"value": "pessimism about the country's direction remains widespread", "unit": "reported national pattern", "value_type": "reported_assessment"},
+        "perceived_drivers": {"value": "political instability, economic uncertainty, and regional dynamics", "unit": "reported concern set", "value_type": "reported_interpretation"},
+        "local_system_gap": {"value": "relatively positive local experiences coexist with negative system-level perceptions", "unit": "reported cross-level pattern", "value_type": "reported_assessment"}
+      },
+      "method": "The executive summary compares local social experience and system-level perceptions within the SCORE framework and relates the gap to civic engagement and vulnerability to divisive narratives.",
+      "uncertainty": "The report identifies an association and interpretive pathway, not a causal estimate that pessimism directly produces disengagement or susceptibility to divisive narratives.",
+      "subgroup": "Residents evaluating national institutions, political direction, economic security, regional stability, civic participation, and public narratives.",
+      "counterinterpretation": "System-level pessimism may coexist with active civic engagement, local problem-solving, or mobilization rather than only withdrawal and vulnerability.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/score_2025-executive_summary.pdf",
+      "retrieval_hash": "sha256:c3187f7d6829007ac889ef4849514d86baad193d7c33e5a2ee00f500b5c8e14d",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; change in social-cohesion elements and post-pandemic comparison",
+      "denominator": {"value": 1, "unit": "SCORE comparison across the 2020 and 2025 waves", "value_type": "longitudinal_survey_comparison_frame"},
+      "measures": {
+        "comparison_waves": {"value": "2020 and 2025, with SCORE also implemented in 2014", "unit": "reported survey waves", "value_type": "reported_comparison_frame"},
+        "reported_improvements": {"value": "improvements in intergroup harmony, constructive civic action, and support for Bosnia and Herzegovina institutions are reported in public summaries", "unit": "reported change pattern", "value_type": "reported_assessment"},
+        "baseline_caveat": {"value": "2020 coincided with the COVID-19 period and may represent an unusually low baseline", "unit": "reported comparison caveat", "value_type": "reported_uncertainty"}
+      },
+      "method": "SCORE compares repeated national measurements while noting the unusual context of the 2020 wave and differences in fieldwork timing and local coverage.",
+      "uncertainty": "Repeated cross-sectional comparisons do not follow the same individuals and cannot isolate cohort, period, sampling, or pandemic effects from genuine social change.",
+      "subgroup": "Residents, institutions, communities, and civic actors observed across repeated national social-cohesion measurement waves.",
+      "counterinterpretation": "Apparent improvement can reflect recovery from an exceptional pandemic baseline, changing expectations, or measurement context rather than a durable reconciliation trend.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/score_2025-executive_summary.pdf",
+      "retrieval_hash": "sha256:c3187f7d6829007ac889ef4849514d86baad193d7c33e5a2ee00f500b5c8e14d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/bosnia-herzegovina/projects/score-project", "claim": "SCORE project scope, public data, social-cohesion measurement, and implementation context."},
+    {"source_url": "https://app.scoreforpeace.org/en/bosnia/methodology", "claim": "SCORE methodology and repeated-wave context."}
+  ],
+  "boundary": "This record adds a regional social-cohesion route linking local cooperation, inclusive belonging, system-level pessimism, institutional support, civic action, and vulnerability to divisive narratives. It uses an aggregate interpretation of a weighted national survey, not individual respondent histories, a causal political-behavior evaluation, a complete account of local power, or evidence that resilience will persist under future shocks.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP SCORE 2025 executive summary, publication page, project page, and methodology context were reviewed for the sample and coverage frame, five core elements, local-resilience findings, local/system perception gap, repeated-wave comparison, and COVID-2020 baseline caveat.",
+    "source_url_sha256": "sha256:c3187f7d6829007ac889ef4849514d86baad193d7c33e5a2ee00f500b5c8e14d",
+    "checked": "2026-09-27"
+  }
+}

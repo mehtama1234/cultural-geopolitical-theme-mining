@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-ai-trust-deficit-healthcare-diagnostics-2026",
+  "title": "Healthcare AI adoption is outpacing shared trust, with confidence varying by diagnostic task and perceived clinical friction",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Ipsos, The AI Trust Deficit in Healthcare, September 2026",
+  "geography": "Healthcare professionals and patients; public summary does not disclose the full country frame or sample sizes",
+  "observations": [
+    {
+      "period": "September 2026; healthcare professional use of AI diagnostics",
+      "denominator": {"value": 1, "unit": "Ipsos healthcare-professional survey; full sample and geography restricted to the gated report in the public summary", "value_type": "published_professional_survey_summary"},
+      "measures": {
+        "weekly_ai_diagnostic_use": {"value": 41, "unit": "percent of surveyed healthcare professionals already using AI diagnostic tools weekly", "value_type": "reported_share"},
+        "adoption_route": {"value": "AI-enabled diagnostic tools are becoming part of everyday healthcare", "unit": "reported technology-adoption framing", "value_type": "reported_synthesis"},
+        "implementation_question": {"value": "professional use does not by itself establish clinical validity, workflow safety, accountability, or patient acceptance", "unit": "interpretive boundary", "value_type": "interpretation_boundary"}
+      },
+      "method": "Ipsos healthcare report summarizing survey evidence from healthcare professionals; the full report is gated and the public page does not disclose the complete sample, questionnaire, fieldwork dates, or weighting.",
+      "uncertainty": "The 41% figure cannot be generalized beyond the undisclosed survey frame, and weekly use does not measure tool quality, accuracy, clinical outcomes, or safe integration into care.",
+      "subgroup": "Healthcare professionals using or evaluating AI-powered diagnostic tools.",
+      "counterinterpretation": "Frequent use may reflect experimentation, institutional pressure, or administrative convenience rather than deep trust; clinicians can use tools while retaining substantial skepticism.",
+      "source_url": "https://www.ipsos.com/en/ai-trust-deficit-healthcare",
+      "retrieval_hash": "sha256:f0d07a5274d392aeb3cb3fd50f936245f35890ff11b3196eaed84ad6449f7f77",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; patient awareness of AI diagnostics",
+      "denominator": {"value": 1, "unit": "Ipsos patient survey; full sample and geography restricted to the gated report in the public summary", "value_type": "published_patient_survey_summary"},
+      "measures": {
+        "patient_awareness": {"value": 85, "unit": "percent of surveyed patients with at least some awareness of AI in diagnostics", "value_type": "reported_share"},
+        "awareness_trust_gap": {"value": "awareness is widespread, but the public summary frames confidence as uneven and dependent on application", "unit": "reported patient-adoption pattern", "value_type": "reported_synthesis"},
+        "patient_stakes": {"value": "diagnostic AI changes how patients evaluate explanation, responsibility, error, consent, and clinical judgment", "unit": "reported adoption implication", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Ipsos patient survey summarized on the public report page; the complete design, sample, country coverage, and question wording are not publicly visible without registration.",
+      "uncertainty": "Awareness is not understanding, acceptance, willingness to use, or informed consent; the public figure does not establish patient outcomes or represent all patient populations.",
+      "subgroup": "Patients encountering AI-supported diagnosis, with potentially unequal health literacy, access, language, age, and prior technology experience.",
+      "counterinterpretation": "High awareness can support informed participation if clinicians explain systems well, but it can also increase anxiety or refusal when accountability and error pathways are unclear.",
+      "source_url": "https://www.ipsos.com/en/ai-trust-deficit-healthcare",
+      "retrieval_hash": "sha256:f0d07a5274d392aeb3cb3fd50f936245f35890ff11b3196eaed84ad6449f7f77",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; task-specific trust in AI-powered diagnostics",
+      "denominator": {"value": 1, "unit": "Ipsos healthcare professionals and patient trust comparison; public summary reports relative application patterns rather than full percentages", "value_type": "published_task_comparison_summary"},
+      "measures": {
+        "higher_trust_tasks": {"value": "cancer screening and blood-test analysis", "unit": "diagnostic applications with higher reported trust", "value_type": "reported_application_set"},
+        "lower_trust_tasks": {"value": "mental-health assessment and surgical guidance", "unit": "diagnostic or clinical applications with lower reported trust", "value_type": "reported_application_set"},
+        "friction_pattern": {"value": "trust is higher where AI appears lower-friction or more bounded and lower where judgment, emotion, embodiment, or procedural risk is more salient", "unit": "reported trust mechanism", "value_type": "reported_synthesis"},
+        "governance_need": {"value": "AI adoption requires application-specific evidence, explanation, human oversight, and accountability rather than one generic trust score", "unit": "reported implementation implication", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Ipsos synthesis comparing trust across AI diagnostic applications; exact task-level percentages are not visible in the public summary.",
+      "uncertainty": "Relative trust patterns do not establish comparative accuracy, clinical value, risk, or causal reasons for confidence; application categories may be interpreted differently by professionals and patients.",
+      "subgroup": "Clinicians and patients assessing AI across screening, blood-test analysis, mental-health assessment, and surgical guidance.",
+      "counterinterpretation": "Lower trust in high-stakes or relational applications may be appropriate caution, but it may also slow beneficial tools if safeguards and evidence are not communicated effectively.",
+      "source_url": "https://www.ipsos.com/en/ai-trust-deficit-healthcare",
+      "retrieval_hash": "sha256:f0d07a5274d392aeb3cb3fd50f936245f35890ff11b3196eaed84ad6449f7f77",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trustworthiness-index-2026?trk=public_post_comment-text", "claim": "Ipsos Global Trustworthiness Index provides complementary profession and AI-chatbot trust context."},
+    {"source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/in-full/the-emerging-landscape/", "claim": "WEF emerging-technology foresight provides complementary governance, access, and trust context for AI-enabled health technologies."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240095241", "claim": "WHO ethics and governance work provides complementary health-AI safety, accountability, and equity context."}
+  ],
+  "boundary": "This record adds a health-AI adoption route linking clinician use, patient awareness, task-specific trust, clinical friction, explanation, oversight, and accountability. The public Ipsos summary provides only selected findings from a gated report, so this is not a full representative dataset, diagnostic accuracy evaluation, clinical outcomes study, or proof of safe adoption.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos report page and gated download landing page were reviewed for the public sample-free summary, weekly professional use, patient awareness, application-specific trust pattern, and access limitations; the full report was not publicly available without registration.",
+    "source_url_sha256": "sha256:f0d07a5274d392aeb3cb3fd50f936245f35890ff11b3196eaed84ad6449f7f77",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "uk-stockton-yarm-public-engagement-decision-scrutiny-2026",
+  "title": "A local public-realm consultation shows voice becoming decision, then being tested through scrutiny",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Stockton-on-Tees Borough Council, Yarm Levelling Up Fund Cabinet decision and call-in record, May 2026",
+  "geography": "Yarm, Stockton-on-Tees, England; local public-realm and regeneration funding decision",
+  "observations": [
+    {
+      "period": "March-May 2026; public engagement on the proposed Yarm High Street scheme",
+      "denominator": {"value": 1, "unit": "bounded local public-engagement episode; the decision record does not publish a single respondent denominator in the accessible page", "value_type": "reported_episode_frame"},
+      "measures": {
+        "resident_signal": {"value": "Residents gave a very clear message that they did not support the specific High Street scheme consulted upon", "unit": "reported decision-maker interpretation of engagement feedback", "value_type": "reported_episode_finding"},
+        "decision_relation": {"value": "The Cabinet record states that the engagement directly informed the decision not to proceed with that scheme", "unit": "reported participation-to-decision link", "value_type": "reported_decision_path"},
+        "mechanism": {"value": "A local voice becomes institutionally consequential when a bounded proposal, an identifiable response, and a published decision rationale can be joined", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Machine-readable extraction from the official Stockton-on-Tees Cabinet decision record, preserving the public-engagement signal as the council's reported interpretation rather than an independent reanalysis of all responses.",
+      "uncertainty": "The accessible decision page does not provide the complete consultation instrument, response count, response composition, or independent coding of residents' views; the record reports the Cabinet's account of the engagement.",
+      "subgroup": "Residents and participants in the Yarm public-realm engagement episode; subgroup response patterns are not published on the decision page.",
+      "counterinterpretation": "The decision may have reflected funding, deliverability, borrowing, and wider regeneration considerations alongside engagement feedback; 'directly informed' does not mean residents determined the final allocation.",
+      "source_url": "https://moderngov.stockton.gov.uk/ieDecisionDetails.aspx?AIId=6436",
+      "retrieval_hash": "sha256:12338c7833b36687ad60b0594efc2d93bd556b9e7a778c48972d158bdfdd788a",
+      "status": "reported"
+    },
+    {
+      "period": "12 March-14 May 2026; Cabinet decision and reconsideration",
+      "denominator": {"value": 1, "unit": "Cabinet decision episode for the Yarm Levelling Up Fund public-realm proposal", "value_type": "reported_episode_frame"},
+      "measures": {
+        "initial_action": {"value": "Cabinet did not proceed with the proposed High Street scheme and decided to reallocate remaining funding while retaining a proportion for locally focused schemes", "unit": "reported institutional decision", "value_type": "reported_decision"},
+        "continued_engagement": {"value": "Further engagement was to take place regarding local priorities, including possible future projects", "unit": "reported follow-up route", "value_type": "reported_followup_path"},
+        "mechanism": {"value": "Institutional response can preserve voice without adopting the original proposal: rejection, reallocation, and a renewed local-priority route are distinct outcomes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official Cabinet record comparing the original 12 March decision with the 14 May reconsideration after scrutiny call-in.",
+      "uncertainty": "The record does not establish whether later local-priority engagement produced a funded project, completed works, or resident satisfaction; implementation remains a separate stage.",
+      "subgroup": "Yarm residents, local members, and council decision-makers within the Levelling Up Fund episode.",
+      "counterinterpretation": "Not proceeding with a scheme may represent fiscal prudence or deliverability constraints rather than a pure response to public preference; retained funding is not realized local benefit.",
+      "source_url": "https://moderngov.stockton.gov.uk/ieDecisionDetails.aspx?AIId=6436",
+      "retrieval_hash": "sha256:12338c7833b36687ad60b0594efc2d93bd556b9e7a778c48972d158bdfdd788a",
+      "status": "reported"
+    },
+    {
+      "period": "22 April-14 May 2026; scrutiny call-in and accountability correction",
+      "denominator": {"value": 1, "unit": "constitutional call-in and Cabinet reconsideration episode", "value_type": "reported_episode_frame"},
+      "measures": {
+        "scrutiny_trigger": {"value": "Executive Scrutiny Committee referred the decision back to Cabinet after raising concerns about clarity and presentation of the engagement exercise, how outcomes were interpreted, the options presented, and the reasons given", "unit": "reported accountability pathway", "value_type": "reported_scrutiny_event"},
+        "institutional_response": {"value": "Cabinet reconsidered the decision, acknowledged the scrutiny role, and confirmed the original decision", "unit": "reported institutional response", "value_type": "reported_response"},
+        "remedy_boundary": {"value": "The record demonstrates reconsideration and explanation, not that the scrutiny changed the project outcome or repaired public trust", "unit": "bounded implementation boundary", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official published decision and call-in record; stages are reconstructed from the dated Cabinet and Executive Scrutiny Committee actions described in the record.",
+      "uncertainty": "This is a single local episode and the record does not provide independent resident evaluation of the revised explanation, a satisfaction measure, or later implementation outcomes.",
+      "subgroup": "Executive Scrutiny Committee, Cabinet, residents, and other participants in the Yarm engagement and decision process.",
+      "counterinterpretation": "Procedural reconsideration can improve accountability without changing a decision; published explanation is not proof of meaningful responsiveness or shared ownership.",
+      "source_url": "https://moderngov.stockton.gov.uk/ieDecisionDetails.aspx?AIId=6436",
+      "retrieval_hash": "sha256:12338c7833b36687ad60b0594efc2d93bd556b9e7a778c48972d158bdfdd788a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://moderngov.stockton.gov.uk/ieDecisionDetails.aspx?AIId=6436", "claim": "Official Stockton-on-Tees Cabinet decision, public-engagement interpretation, reallocation, and call-in reconsideration record."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-local-decisions/community-and-engagement-survey-202526-influencing-local-decisions-report", "claim": "England-wide perceived-influence benchmark that motivates the named local episode route."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2", "claim": "England-wide civic-participation benchmark for the action-to-response comparison."}
+  ],
+  "boundary": "This record is a bounded local public-participation episode connecting resident feedback to a Cabinet decision, funding reallocation, scrutiny call-in, reconsideration, and published rationale. It does not establish representative public opinion, causal influence, completed regeneration, resident satisfaction, or durable trust; the council's account of engagement is kept separate from independently measured response data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Stockton-on-Tees decision page reviewed for the public-engagement signal, initial decision, call-in concerns, reconsideration, funding route, continued engagement, and outcome boundary.",
+    "source_page_sha256": "sha256:12338c7833b36687ad60b0594efc2d93bd556b9e7a778c48972d158bdfdd788a",
+    "checked": "2026-09-30"
+  }
+}

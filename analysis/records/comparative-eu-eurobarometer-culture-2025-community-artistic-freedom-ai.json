@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-eurobarometer-culture-2025-community-artistic-freedom-ai",
+  "title": "Europeans treat culture as community infrastructure and democratic expression while questioning artist livelihoods and AI’s creative-economic effects",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "European Commission, Special Eurobarometer on Europeans' attitudes towards culture, fielded February-April 2025 and published 8 May 2025",
+  "geography": "European Union citizens across all 27 Member States",
+  "observations": [
+    {
+      "period": "2025; culture, community, and European belonging",
+      "denominator": {"value": 267300, "unit": "more than EU citizens responding to the Special Eurobarometer survey across 27 Member States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "culture_exchange_belonging": {"value": 87, "unit": "percent agreeing culture and cultural exchange should have a very important place in the EU so citizens from different countries can feel more European", "value_type": "reported_survey_share"},
+        "heritage_importance": {"value": 86, "unit": "percent saying cultural heritage is important for Europe", "value_type": "reported_survey_share"},
+        "local_welfare": {"value": 86, "unit": "percent saying culture and the arts are important for the welfare and economic development of the place where they live", "value_type": "reported_survey_share"},
+        "community_route": {"value": "culture, shared values, and history are treated as central sources of community feeling and European belonging", "unit": "reported civic-cultural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "European Commission Special Eurobarometer survey conducted February-April 2025 across the 27 EU Member States.",
+      "uncertainty": "The findings measure attitudes and perceived importance rather than actual cultural access, participation equality, local investment, or the causal effect of culture on belonging.",
+      "subgroup": "EU citizens, local communities, cultural participants, heritage communities, artists, cultural organizations, and EU and national policymakers.",
+      "counterinterpretation": "High stated cultural importance can coexist with unequal access, declining local provision, or disagreement over which identities and histories receive recognition.",
+      "source_url": "https://culture.ec.europa.eu/whats-new/news/eurobarometer-publishes-findings-on-europeans-attitudes-towards-culture",
+      "retrieval_hash": "sha256:6e3df23c6d2b52caded22824978442c34e8f3cd87f4743d0e06f184d9f4259a1",
+      "status": "reported"
+    },
+    {
+      "period": "2025; artistic freedom and democratic expression",
+      "denominator": {"value": 267300, "unit": "more than EU citizens responding to the Special Eurobarometer across 27 Member States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "artistic_expression_importance": {"value": 88, "unit": "percent saying freedom of artistic expression is important to them", "value_type": "reported_survey_share"},
+        "perceived_freedom": {"value": 77, "unit": "percent agreeing artists can freely express ideas and opinions without fear of government censorship or retaliation", "value_type": "reported_survey_share"},
+        "country_variation": {"value": "perceptions of artistic freedom vary between EU countries", "unit": "reported cross-country pattern", "value_type": "reported_finding"},
+        "democratic_route": {"value": "artistic freedom is framed as part of a healthy democracy and a cultural-rights infrastructure rather than only a sector concern", "unit": "reported civic mechanism", "value_type": "reported_framework"}
+      },
+      "method": "EU-wide public-opinion survey with Member State comparisons on cultural values and artistic expression.",
+      "uncertainty": "Perceived freedom is not a legal or incident-based measure of censorship, retaliation, self-censorship, or working conditions; cross-country variation needs contextual interpretation.",
+      "subgroup": "Artists, cultural workers, audiences, minority and regional cultural communities, governments, funders, and democratic institutions.",
+      "counterinterpretation": "High support for artistic freedom does not ensure support for controversial works or protect artists from non-state economic, platform, or social pressure.",
+      "source_url": "https://culture.ec.europa.eu/whats-new/news/eurobarometer-publishes-findings-on-europeans-attitudes-towards-culture",
+      "retrieval_hash": "sha256:6e3df23c6d2b52caded22824978442c34e8f3cd87f4743d0e06f184d9f4259a1",
+      "status": "reported"
+    },
+    {
+      "period": "2025; generative AI, artist work, and cultural value",
+      "denominator": {"value": 267300, "unit": "more than EU citizens responding to the Special Eurobarometer across 27 Member States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "ai_art_recognition": {"value": 48, "unit": "percent saying they can tell the difference between an AI-created piece of art and one crafted by a human", "value_type": "reported_survey_share"},
+        "ai_artist_concern": {"value": 73, "unit": "percent concerned generative AI may affect artists' employment or earnings", "value_type": "reported_survey_share"},
+        "artist_fair_pay": {"value": 51, "unit": "percent believing artists in their country generally receive fair and appropriate remuneration", "value_type": "reported_survey_share"},
+        "labor_route": {"value": "public concern about AI’s creative and employment effects is occurring alongside a weak sense that artists are fairly paid", "unit": "reported cultural-labor mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "EU-wide survey of public attitudes toward generative AI, artistic labor, and cultural-sector conditions.",
+      "uncertainty": "Concern and recognition measures are perceptions, not forecasts of AI labor displacement, quality judgments, or artist income; fair-pay assessments may reflect limited knowledge of cultural work.",
+      "subgroup": "Artists, cultural workers, audiences, creators using AI, cultural employers, platforms, rights holders, and policymakers.",
+      "counterinterpretation": "Generative AI may create new creative tools or markets while also redistributing value; public concern does not specify which governance or compensation mechanism would work.",
+      "source_url": "https://culture.ec.europa.eu/whats-new/news/eurobarometer-publishes-findings-on-europeans-attitudes-towards-culture",
+      "retrieval_hash": "sha256:6e3df23c6d2b52caded22824978442c34e8f3cd87f4743d0e06f184d9f4259a1",
+      "status": "reported"
+    },
+    {
+      "period": "2013-2025; participation in artistic activities",
+      "denominator": {"value": 267300, "unit": "more than EU citizens responding to the 2025 Special Eurobarometer, with comparison to the 2013 cultural participation survey", "value_type": "reported_survey_comparison_frame"},
+      "measures": {
+        "recent_participation": {"value": 49, "unit": "percent reporting participation in artistic activities such as dancing, singing, or playing an instrument during the prior 12 months", "value_type": "reported_survey_share"},
+        "change_since_2013": {"value": "the 2025 participation share is about one third higher than the 37 percent reported in 2013", "unit": "reported change", "value_type": "reported_comparison"},
+        "policy_priorities": {"value": "respondents prioritize making arts more accessible, protecting heritage, fair pay and conditions for cultural workers, artistic freedom, and skills development", "unit": "reported policy-priority set", "value_type": "reported_framework"},
+        "participation_route": {"value": "cultural participation is treated as both a lived activity and a policy lever for inclusion, cohesion, democratic values, and creative-sector sustainability", "unit": "reported policy mechanism", "value_type": "reported_framework"}
+      },
+      "method": "Special Eurobarometer cultural-participation question with comparison to the 2013 Eurobarometer measure; policy priorities drawn from the same survey.",
+      "uncertainty": "Question wording, recall, social desirability, and sample or survey changes can affect comparisons across 2013 and 2025; participation frequency, affordability, and subgroup equality are not fully captured by the headline share.",
+      "subgroup": "EU residents, amateur and professional artists, cultural audiences, heritage users, cultural institutions, and creative-sector workers.",
+      "counterinterpretation": "A higher aggregate participation share may conceal concentration among advantaged groups or participation in low-cost informal activities rather than broad access to cultural institutions.",
+      "source_url": "https://culture.ec.europa.eu/whats-new/news/eurobarometer-publishes-findings-on-europeans-attitudes-towards-culture",
+      "retrieval_hash": "sha256:6e3df23c6d2b52caded22824978442c34e8f3cd87f4743d0e06f184d9f4259a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://europa.eu/eurobarometer/surveys/detail/2992", "claim": "The Eurobarometer survey detail page provides the full report and Member State fact sheets for Europeans' attitudes towards culture."},
+    {"source_url": "https://op.europa.eu/en/publication-detail/-/publication/07370fba-110d-11ee-b12e-01aa75ed71a1/language-en", "claim": "The European Commission's Culture and Democracy evidence review provides research context on cultural participation and civic engagement."}
+  ],
+  "boundary": "This record adds EU-wide public-opinion evidence on culture as community and democratic infrastructure, artistic freedom, generative AI concerns, artist remuneration, and cultural participation. It is aggregate survey evidence, not respondent-level ingestion, a causal culture-and-democracy estimate, a cultural labor-market panel, or proof that stated importance translates into equal access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission culture page reviewed for survey size and field period, community and welfare importance, artistic freedom, generative-AI and artist-pay concerns, participation change, and policy priorities.",
+    "source_url_sha256": "sha256:6e3df23c6d2b52caded22824978442c34e8f3cd87f4743d0e06f184d9f4259a1",
+    "checked": "2026-09-27"
+  }
+}

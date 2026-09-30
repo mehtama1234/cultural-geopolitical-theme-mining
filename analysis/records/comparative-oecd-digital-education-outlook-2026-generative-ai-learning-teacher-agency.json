@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-digital-education-outlook-2026-generative-ai-learning-teacher-agency",
+  "title": "Generative AI can improve educational task performance without producing learning unless pedagogy, teacher agency, infrastructure, and trust keep cognitive work visible",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD, Digital Education Outlook 2026: Exploring Effective Uses of Generative AI in Education",
+  "geography": "OECD education systems and comparative international evidence on teachers, learners, educational technology, infrastructure, and governance",
+  "observations": [
+    {
+      "period": "2024-2026; teacher use and attitudes toward AI",
+      "denominator": {"value": 1, "unit": "lower-secondary teachers and OECD TALIS 2024 evidence frame", "value_type": "teacher_survey_frame"},
+      "measures": {
+        "teacher_ai_use": {"value": 37, "unit": "percent of lower-secondary teachers reporting AI use for their job in 2024", "value_type": "reported_estimate"},
+        "lesson_planning_support": {"value": 57, "unit": "percent of lower-secondary teachers agreeing AI helps write or improve lesson plans", "value_type": "reported_estimate"},
+        "academic_integrity_concern": {"value": 72, "unit": "percent of lower-secondary teachers believing AI can harm academic integrity by enabling students to pass off work as their own", "value_type": "reported_estimate"},
+        "teacher_role": {"value": "the Outlook emphasizes augmenting teaching while preserving teacher agency and human relationships", "unit": "OECD policy framing", "value_type": "reported_framework"}
+      },
+      "method": "OECD Digital Education Outlook synthesis with TALIS 2024 teacher indicators and emerging education-technology research.",
+      "uncertainty": "Teacher attitudes and reported use do not measure classroom quality, student learning, implementation intensity, or causal effects; country and school context matter.",
+      "subgroup": "Lower-secondary teachers, students, school leaders, families, education authorities, and communities concerned with academic integrity.",
+      "counterinterpretation": "Teacher-led AI use can reduce administrative load and support planning when educators retain pedagogical control and students remain responsible for reasoning.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "retrieval_hash": "sha256:f3f8e3e715909a8042ced64b701d36da5fa4509bd17aef9e1e9d60b978768134",
+      "status": "reported"
+    },
+    {
+      "period": "2026; task performance versus durable learning",
+      "denominator": {"value": 1, "unit": "OECD synthesis of generative-AI education evidence", "value_type": "learning_evidence_frame"},
+      "measures": {
+        "performance_learning_gap": {"value": "general-purpose GenAI can raise the quality of student outputs without necessarily producing learning gains", "unit": "OECD evidence synthesis", "value_type": "reported_finding"},
+        "access_removed_effect": {"value": "some studies find performance advantages disappear or reverse in exams when AI access is removed", "unit": "OECD research synthesis", "value_type": "reported_mechanism"},
+        "cognitive_offloading_risk": {"value": "outsourcing cognitive tasks can create risks of metacognitive laziness, disengagement, and weaker skill acquisition", "unit": "OECD risk framing", "value_type": "reported_risk"},
+        "pedagogical_design": {"value": "educational GenAI designed or used with intentional pedagogical purpose is associated with more sustained learning improvements", "unit": "OECD evidence synthesis", "value_type": "reported_finding"}
+      },
+      "method": "OECD synthesis of emerging studies comparing general-purpose and education-specific GenAI use, task performance, exams, and learning outcomes.",
+      "uncertainty": "The evidence base is emerging and heterogeneous; the report does not establish one universal effect size or prove that any chatbot causes long-term harm.",
+      "subgroup": "Students, teachers, parents, curriculum designers, assessment authorities, and learners with unequal access to guidance and devices.",
+      "counterinterpretation": "AI can support learning when tasks require explanation, feedback, collaboration, reflection, and independent demonstration rather than simply polished output.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "retrieval_hash": "sha256:f3f8e3e715909a8042ced64b701d36da5fa4509bd17aef9e1e9d60b978768134",
+      "status": "reported"
+    },
+    {
+      "period": "2026; teacher co-design and educational capacity",
+      "denominator": {"value": 1, "unit": "OECD educational GenAI design and teacher-agency frame", "value_type": "teacher_agency_frame"},
+      "measures": {
+        "teacher_augmentation": {"value": "educational GenAI can augment human teaching and tutoring when teacher expertise is integrated into design", "unit": "OECD report finding", "value_type": "reported_mechanism"},
+        "tutoring_evidence": {"value": "evidence indicates inexperienced tutors can improve tutoring quality and student learning using educational GenAI tools", "unit": "OECD evidence synthesis", "value_type": "reported_finding"},
+        "co_design": {"value": "co-design with teachers and end users is identified as a route to educational value", "unit": "OECD policy recommendation", "value_type": "reported_framework"},
+        "institutional_use": {"value": "GenAI may support assessment-item design, curriculum alignment, resource classification, research, and administrative workflows", "unit": "OECD use-case inventory", "value_type": "reported_inventory"}
+      },
+      "method": "OECD review of education-specific GenAI tools, teacher use, tutoring evidence, institutional applications, and design principles.",
+      "uncertainty": "Examples and emerging evidence do not prove equal effectiveness across subjects, teachers, languages, ages, schools, or technology products.",
+      "subgroup": "Teachers, inexperienced tutors, school administrators, students, educational researchers, technology developers, and unions or professional bodies.",
+      "counterinterpretation": "Automation of routine work can create time for relational teaching, but only if workloads, training, accountability, and product incentives are aligned.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "retrieval_hash": "sha256:f3f8e3e715909a8042ced64b701d36da5fa4509bd17aef9e1e9d60b978768134",
+      "status": "reported"
+    },
+    {
+      "period": "2026; equitable infrastructure and trustworthy governance",
+      "denominator": {"value": 1, "unit": "OECD digital-education infrastructure, inclusion, and governance frame", "value_type": "education_governance_frame"},
+      "measures": {
+        "infrastructure_need": {"value": "jurisdictions should ensure devices, connectivity, digital resources, and professional learning so students and teachers can benefit", "unit": "OECD policy recommendation", "value_type": "reported_framework"},
+        "trust_controls": {"value": "privacy, safety, bias testing, age-appropriateness, transparency, and alignment with educational objectives are identified governance requirements", "unit": "OECD policy framework", "value_type": "reported_inventory"},
+        "alternative_access": {"value": "curriculum-aligned resources and alternative solutions are needed where digital divides persist", "unit": "OECD inclusion framing", "value_type": "reported_framework"},
+        "human_capability": {"value": "professional learning and teacher agency are complements to technical infrastructure", "unit": "OECD education-system framing", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD policy synthesis connecting digital infrastructure, education equity, professional learning, privacy, safety, and trustworthy AI governance.",
+      "uncertainty": "Policy recommendations do not measure local implementation, procurement quality, affordability, or the distribution of benefits across students and schools.",
+      "subgroup": "Students without reliable connectivity, teachers, schools, education ministries, families, technology providers, and communities facing language or accessibility barriers.",
+      "counterinterpretation": "Digital access is necessary but not sufficient; low-tech alternatives, public capacity, open standards, and human support can prevent infrastructure from becoming a new gatekeeper.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "retrieval_hash": "sha256:f3f8e3e715909a8042ced64b701d36da5fa4509bd17aef9e1e9d60b978768134",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/topics/sub-issues/artificial-intelligence-in-education.html", "claim": "OECD provides complementary work on AI in education and education-system policy."},
+    {"source_url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_199b259f-en.html", "claim": "OECD PISA 2025 provides complementary student performance and education-outcome context."}
+  ],
+  "boundary": "This record adds a digital-education route across teacher use, task performance, durable learning, academic integrity, teacher agency, infrastructure, privacy, safety, and equity. It uses OECD survey indicators, emerging research synthesis, and policy framing, not respondent-level student histories, individual learning trajectories, causal AI effects, classroom observation files, or proof that any tool improves learning in every setting.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Digital Education Outlook 2026 page reviewed for publication metadata, teacher AI-use indicators, task-performance versus learning distinction, cognitive-offloading risk, teacher co-design, educational GenAI uses, infrastructure, and trustworthy-governance recommendations.",
+    "source_url_sha256": "sha256:f3f8e3e715909a8042ced64b701d36da5fa4509bd17aef9e1e9d60b978768134",
+    "checked": "2026-09-26"
+  }
+}

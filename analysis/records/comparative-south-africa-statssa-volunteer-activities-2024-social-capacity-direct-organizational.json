@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-africa-statssa-volunteer-activities-2024-social-capacity-direct-organizational",
+  "title": "South African volunteering rises while social contribution remains mostly direct and unevenly distributed",
+  "theme_ids": ["voice", "work", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "political_judgment_action"
+  ],
+  "source_unit": "Statistics South Africa Volunteer Activities Survey, 2024",
+  "geography": "South Africa",
+  "observations": [
+    {
+      "period": "2024; South African volunteer activity scale and route",
+      "denominator": {"value": 1, "unit": "South African population aged 15 years and older; survey-weighted volunteer estimates", "value_type": "survey_universe"},
+      "measures": {
+        "volunteers": {"value": 3100000, "unit": "people; rounded official estimate", "value_type": "reported_count"},
+        "volunteers_2018": {"value": 2700000, "unit": "people; rounded official estimate", "value_type": "reported_count"},
+        "volunteers_2014": {"value": 2200000, "unit": "people; rounded official estimate", "value_type": "reported_count"},
+        "volunteer_rate": {"value": 6.9, "unit": "percent of population aged 15+", "value_type": "reported_share"},
+        "volunteer_rate_2018": {"value": 6.7, "unit": "percent of population aged 15+", "value_type": "reported_share"},
+        "direct_volunteering_share": {"value": 56.3, "unit": "percent of volunteers", "value_type": "reported_share"},
+        "organizational_volunteering_share": {"value": 42.8, "unit": "percent of volunteers", "value_type": "reported_share"},
+        "volunteers_with_one_activity": {"value": 95.0, "unit": "percent of volunteers", "value_type": "reported_share"}
+      },
+      "method": "Stats SA Volunteer Activities Survey, a household survey module linked to the Quarterly Labour Force Survey, covering people aged 15+ and up to three volunteer activities; official indexed publication results report rounded counts and weighted rates.",
+      "uncertainty": "The figures describe unpaid non-compulsory work in the survey's reference period and do not measure all informal mutual aid, cultural participation, social trust, or downstream community outcomes. Direct and organizational routes may overlap conceptually and should not be summed as unique pathways without the full tables.",
+      "subgroup": "South African population aged 15+; volunteer activity by direct versus organizational route and number of activities.",
+      "counterinterpretation": "The modest rate increase can coexist with a large absolute volunteer base, but the predominance of direct volunteering may indicate that social contribution is happening outside formal organizations rather than signaling robust institutional capacity.",
+      "source_url": "https://www.statssa.gov.za/publications/P02113/P021132024.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2024; South African volunteer participation by sex and population group",
+      "denominator": {"value": 1, "unit": "South African population aged 15+; subgroup volunteer rates", "value_type": "survey_universe"},
+      "measures": {
+        "women_volunteer_rate": {"value": 7.2, "unit": "percent of women aged 15+", "value_type": "reported_share"},
+        "men_volunteer_rate": {"value": 6.6, "unit": "percent of men aged 15+", "value_type": "reported_share"},
+        "black_african_volunteer_rate": {"value": 7.3, "unit": "percent of Black African population aged 15+", "value_type": "reported_share"},
+        "white_volunteer_rate": {"value": 6.6, "unit": "percent of White population aged 15+", "value_type": "reported_share"},
+        "indian_asian_sex_pattern": {"value": 1, "unit": "indicator: men had higher participation than women in the Indian/Asian population group", "value_type": "reported_indicator"},
+        "youth_unemployed_volunteer_rate": {"value": 8.6, "unit": "percent among unemployed youth volunteers' population subgroup", "value_type": "reported_share"},
+        "adult_discouraged_workseeker_volunteer_rate": {"value": 13.1, "unit": "percent among adult discouraged work-seekers", "value_type": "reported_share"}
+      },
+      "method": "Stats SA subgroup volunteer-rate comparisons by sex, population group, age/labor-market status, using the 2024 VAS survey universe.",
+      "uncertainty": "Subgroup rates are descriptive and may reflect labor-market exposure, household obligations, age structure, opportunity, transport, and reporting differences. The survey does not establish whether volunteering causes networks, employability, or well-being.",
+      "subgroup": "Women and men; Black African, White, and Indian/Asian population groups; unemployed youth and adult discouraged work-seekers.",
+      "counterinterpretation": "Higher participation among women and selected labor-market groups can represent civic agency, but it may also reflect unequal unpaid burdens or weak paid-work options; volunteering should not be automatically coded as freely chosen social capital.",
+      "source_url": "https://www.statssa.gov.za/publications/P02113/P021132024.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2024; South African volunteer motivation and provincial change",
+      "denominator": {"value": 1, "unit": "South African volunteers aged 15+; motivation and province comparisons", "value_type": "survey_universe"},
+      "measures": {
+        "volunteering_for_believed_cause": {"value": 91.3, "unit": "percent of volunteers", "value_type": "reported_share"},
+        "volunteers_receiving_food_2024": {"value": 86.5, "unit": "percent of volunteers reporting food as expected or received return", "value_type": "reported_share"},
+        "volunteers_receiving_food_2018": {"value": 18.9, "unit": "percent of volunteers reporting food as expected or received return", "value_type": "reported_share"},
+        "gauteng_volunteer_rate_change_2014_to_2024": {"value": -1.6, "unit": "percentage points", "value_type": "reported_change"},
+        "eastern_cape_volunteer_rate_change_2014_to_2024": {"value": -1.4, "unit": "percentage points", "value_type": "reported_change"},
+        "western_cape_volunteer_rate_change_2014_to_2024": {"value": -1.2, "unit": "percentage points", "value_type": "reported_change"},
+        "mpumalanga_volunteer_rate_change_2014_to_2024": {"value": 6.8, "unit": "percentage points", "value_type": "reported_change"},
+        "northern_cape_volunteer_rate_change_2014_to_2024": {"value": 5.9, "unit": "percentage points", "value_type": "reported_change"}
+      },
+      "method": "Stats SA VAS motivation, return/expectation, and provincial trend indicators; comparisons are descriptive across 2014, 2018, and 2024 survey rounds.",
+      "uncertainty": "The food-return figure is not directly comparable to the 2014 money category without the full question wording and response structure. Provincial changes may reflect survey design, local labor markets, migration, economic shocks, and institutional opportunity rather than changes in civic values alone.",
+      "subgroup": "South African volunteers by stated motivation, expected or received return, and province.",
+      "counterinterpretation": "A high share citing a believed cause suggests meaning-based motivation, but the rise in food as a reported return can also indicate material insecurity and reciprocity rather than purely altruistic participation.",
+      "source_url": "https://www.statssa.gov.za/publications/P02113/P021132024.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.statssa.gov.za/?PPN=P0211.3&SCH=74549&page_id=1854", "claim": "Stats SA's official publication page identifies the Volunteer Activities Survey 2024 release and publication date.", "status": "official-publication-page"},
+    {"source_url": "https://isibaloweb.statssa.gov.za/pages/surveys/pss/vas/2024/vas2024.php", "claim": "Stats SA's official data portal documents the VAS 2024 household-survey design, population aged 15+, linked QLFS collection, and downloadable datasets/metadata.", "status": "official-data-portal"}
+  ],
+  "boundary": "This record adds a South African unpaid-work, civic-capacity, and social-meaning layer to the cultural and consumer corpus. The official PDF was anti-bot protected during this retrieval pass; the figures were transcribed from Stats SA's indexed official publication result and the access limitation is preserved. This is not a causal volunteering, employment, social-cohesion, or household-welfare estimate.",
+  "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+}

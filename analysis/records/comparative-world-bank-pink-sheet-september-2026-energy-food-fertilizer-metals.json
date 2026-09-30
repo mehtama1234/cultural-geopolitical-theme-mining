@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-pink-sheet-september-2026-energy-food-fertilizer-metals",
+  "title": "August 2026 commodity prices show simultaneous energy and metals pressure with food increases and fertilizer easing, keeping geopolitical price transmission uneven",
+  "theme_ids": ["cost", "energy", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank Commodity Markets Price Data (Pink Sheet), September 2026 release",
+  "geography": "Global benchmark commodity prices and price indexes, with August 2026 monthly observations",
+  "observations": [
+    {
+      "period": "August 2026; monthly global commodity indexes",
+      "denominator": {"value": 1, "unit": "World Bank commodity-price index framework", "value_type": "published_index"},
+      "measures": {
+        "energy_index_change": {"value": "+8.8%", "unit": "change in the World Bank energy price index from July to August 2026", "value_type": "calculated_monthly_change"},
+        "food_index_change": {"value": "+1.4%", "unit": "change in the World Bank food price index from July to August 2026", "value_type": "calculated_monthly_change"},
+        "metals_index_change": {"value": "+4.0%", "unit": "change in the World Bank metals and minerals price index from July to August 2026", "value_type": "calculated_monthly_change"},
+        "fertilizer_index_change": {"value": "-1.9%", "unit": "change in the World Bank fertilizer price index from July to August 2026", "value_type": "calculated_monthly_change"}
+      },
+      "method": "Calculated month-over-month percentage changes from the World Bank Pink Sheet August and July 2026 index values; the World Bank page summarizes the same movements as energy +8.8%, food +1.4%, metals +4.0%, and fertilizers -1.9%.",
+      "uncertainty": "These are benchmark commodity indexes, not retail prices or household cost-of-living measures; transmission varies by country, contract, inventory, currency, taxes, subsidies, and market structure.",
+      "subgroup": "Commodity-importing and exporting states, energy and food producers, manufacturers, farmers, firms, and households exposed to input-price transmission.",
+      "counterinterpretation": "Benchmark price increases can be absorbed by margins, inventories, subsidies, or exchange rates and need not become proportional consumer inflation or political action.",
+      "source_url": "https://www.worldbank.org/en/research/commodity-markets",
+      "retrieval_hash": "sha256:7f5bb6b819c49dc79bb07a3669f443ee1e92787477f7d0399185f96b4f75e437",
+      "status": "compared"
+    },
+    {
+      "period": "August 2026; energy and gas benchmarks",
+      "denominator": {"value": 1, "unit": "World Bank energy commodity benchmark set", "value_type": "published_price_frame"},
+      "measures": {
+        "crude_oil_average": {"value": "$84.4 per barrel", "unit": "August 2026 average crude-oil benchmark", "value_type": "reported_price"},
+        "brent": {"value": "$90.9 per barrel", "unit": "August 2026 Brent benchmark", "value_type": "reported_price"},
+        "europe_natural_gas": {"value": "$21.11 per mmbtu", "unit": "August 2026 Europe natural-gas benchmark", "value_type": "reported_price"},
+        "us_natural_gas": {"value": "$2.77 per mmbtu", "unit": "August 2026 U.S. natural-gas benchmark", "value_type": "reported_price"}
+      },
+      "method": "Direct transcription of August 2026 benchmark prices from the World Bank Pink Sheet, retaining separate energy-market locations and commodities.",
+      "uncertainty": "Benchmarks represent reference prices rather than delivered prices; regional exposure depends on import dependence, infrastructure, hedging, regulation, and contract structure.",
+      "subgroup": "Energy-importing households and firms, transport and industrial sectors, utilities, exporting states, and regions with constrained energy infrastructure.",
+      "counterinterpretation": "High benchmark prices can coexist with stable local bills where policy, contracts, or local production buffer transmission, while low local prices can conceal fiscal or environmental costs.",
+      "source_url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-September-2026.pdf",
+      "retrieval_hash": "sha256:7f5bb6b819c49dc79bb07a3669f443ee1e92787477f7d0399185f96b4f75e437",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; selected food, fertilizer, and metal benchmarks",
+      "denominator": {"value": 1, "unit": "World Bank non-energy commodity benchmark set", "value_type": "published_price_frame"},
+      "measures": {
+        "arabica_coffee": {"value": "$7.97 per kilogram", "unit": "August 2026 Arabica coffee benchmark", "value_type": "reported_price"},
+        "wheat_hrw": {"value": "$330.0 per metric ton", "unit": "August 2026 U.S. hard red winter wheat benchmark", "value_type": "reported_price"},
+        "dap_fertilizer": {"value": "$793.5 per metric ton", "unit": "August 2026 DAP fertilizer benchmark", "value_type": "reported_price"},
+        "copper": {"value": "$14,326 per metric ton", "unit": "August 2026 copper benchmark", "value_type": "reported_price"}
+      },
+      "method": "Direct transcription of selected August 2026 benchmark prices from the World Bank Pink Sheet to retain food, farm-input, and industrial-material channels in one observation layer.",
+      "uncertainty": "Selected benchmarks are not a complete basket and should not be read as a household food basket, farm profitability measure, or industrial-cost index.",
+      "subgroup": "Food consumers and producers, farmers, fertilizer buyers, construction and manufacturing firms, commodity exporters, and communities exposed to input-price changes.",
+      "counterinterpretation": "Commodity price movements can be offset by productivity, substitution, inventories, contracts, or local supply, and higher input prices do not mechanically imply higher retail prices or lower household welfare.",
+      "source_url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-September-2026.pdf",
+      "retrieval_hash": "sha256:7f5bb6b819c49dc79bb07a3669f443ee1e92787477f7d0399185f96b4f75e437",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/research/commodity-markets", "claim": "World Bank commodity-market page provides the September 2026 price update, data links, and report context."},
+    {"source_url": "https://openknowledge.worldbank.org/handle/10986/43233", "claim": "World Bank Commodity Markets Outlook provides broader energy and commodity-market context for 2026."}
+  ],
+  "boundary": "This record adds a commodity-price and geopolitical-economic transmission layer linking energy, food, fertilizer, metals, input costs, state exposure, firm margins, and household room. It is benchmark price and index evidence, not retail inflation, household expenditure, firm profit, trade-flow, causal policy, or welfare data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank Commodity Markets page and September 2026 Pink Sheet PDF were reviewed for the August monthly index changes and selected energy, food, fertilizer, and metals benchmarks; month-over-month index changes were calculated from the published July and August values.",
+    "source_url_sha256": "sha256:7f5bb6b819c49dc79bb07a3669f443ee1e92787477f7d0399185f96b4f75e437",
+    "checked": "2026-09-27"
+  }
+}

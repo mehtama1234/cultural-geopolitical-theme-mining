@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-beyond-gdp-national-wellbeing-june-2026-finance-trust-culture",
+  "title": "Aggregate economic stability coexists with financial strain, low institutional trust, mixed health, and declining cultural engagement in the UK",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UK Office for National Statistics, Beyond GDP insights, UK measures of National Well-being: June 2026",
+  "geography": "United Kingdom national well-being measures, with some indicators for constituent nations or specific UK geographies; 59 annual and 7 quarterly headline measures",
+  "observations": [
+    {
+      "period": "April 2026; household finance and consumer sentiment",
+      "denominator": {"value": 1, "unit": "UK adults and households represented across the ONS national well-being measures", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "financial_difficulty": {"value": 24.6, "unit": "percent of adults finding it fairly or very difficult to get by financially", "value_type": "reported_share"},
+        "income_wealth": {"value": "Income and wealth measures were broadly stable in the short term, with some inequality improvements", "unit": "reported aggregate pattern", "value_type": "reported_pattern"},
+        "consumer_confidence": {"value": "Consumer confidence remained low", "unit": "reported sentiment pattern", "value_type": "reported_pattern"}
+      },
+      "method": "ONS synthesis of 59 national well-being measures and seven quarterly headline measures from multiple official and non-official data sources.",
+      "uncertainty": "The bulletin combines measures with different populations, periods, geographies, definitions, and collection methods; aggregate stability does not describe every household's financial position.",
+      "subgroup": "UK adults, households, people in low income, consumers, workers, and groups experiencing unequal financial pressure.",
+      "counterinterpretation": "Stable income and wealth indicators can reflect genuine resilience, while financial difficulty and low confidence may reflect expectations, prices, debt, housing costs, or unequal exposure rather than aggregate income decline.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/june2026",
+      "retrieval_hash": "sha256:1b6e7b881e3823c91ff01057f3173f9414dc643adcc1bf9bb6623350dae3bbf7",
+      "status": "reported"
+    },
+    {
+      "period": "March–April 2026; trust, civic voice, and community connection",
+      "denominator": {"value": 1, "unit": "UK national well-being governance and relationships measures", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "government_trust": {"value": 29.2, "unit": "percent of adults saying they tend to trust the UK government in March 2026", "value_type": "reported_share"},
+        "lack_of_say": {"value": 63.8, "unit": "percent agreeing they have no say in what government does in April 2026", "value_type": "reported_share"},
+        "neighborhood_belonging": {"value": 63.6, "unit": "percent reporting a sense of belonging to their neighborhood in April 2026", "value_type": "reported_share"},
+        "civic_change": {"value": "Perceived influence improved compared with June 2025, but a clear majority still felt disconnected from government decision-making", "unit": "reported governance pattern", "value_type": "reported_pattern"}
+      },
+      "method": "ONS national well-being framework combining survey measures of trust, civic influence, relationships, and neighborhood belonging.",
+      "uncertainty": "Measures are sensitive to timing, question wording, survey coverage, and events; the improvement in perceived influence occurred shortly before local elections and may not represent durable institutional change.",
+      "subgroup": "UK adults, local communities, voters, residents, public institutions, and people with different levels of political access or belonging.",
+      "counterinterpretation": "Low trust and weak perceived voice can coexist with strong local belonging and may motivate civic reform, local participation, or institutional repair rather than withdrawal alone.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/june2026",
+      "retrieval_hash": "sha256:1b6e7b881e3823c91ff01057f3173f9414dc643adcc1bf9bb6623350dae3bbf7",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026; health, relationships, time, and cultural participation",
+      "denominator": {"value": 1, "unit": "UK adults across ONS health, relationship, time-use, and engagement measures", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "good_health": {"value": 70.4, "unit": "percent of UK adults reporting good or very good health in early 2026", "value_type": "reported_share"},
+        "depression_anxiety": {"value": 24.6, "unit": "percent of UK adults showing some evidence of depression or anxiety in January 2023 to December 2024", "value_type": "reported_share"},
+        "social_relationship_satisfaction": {"value": 85.8, "unit": "percent satisfied with social relationships in September 2025", "value_type": "reported_share"},
+        "cultural_engagement": {"value": 82.9, "unit": "percent engaging with arts and culture in October to December 2025, down from 90.0% the previous year", "value_type": "reported_share_change"},
+        "unpaid_work_gap": {"value": 57, "unit": "minutes more unpaid work per day reported for women than men in March 2024", "value_type": "reported_time_gap"}
+      },
+      "method": "ONS compilation of well-being, health, relationship, time-use, and arts-and-culture participation statistics with short- and long-term comparisons.",
+      "uncertainty": "The measures use different periods and sources; cultural engagement, mental-health indicators, and time-use gaps are not interchangeable or causal explanations of one another.",
+      "subgroup": "UK adults, people with mental-health difficulties, women and men with different unpaid-work burdens, cultural participants, and people experiencing loneliness or social support.",
+      "counterinterpretation": "High relationship satisfaction can provide resilience amid health and cultural-participation declines; reduced cultural engagement may reflect measurement timing, substitution into other activities, or access and cost pressures.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/june2026",
+      "retrieval_hash": "sha256:1b6e7b881e3823c91ff01057f3173f9414dc643adcc1bf9bb6623350dae3bbf7",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; economy, work, environment, and public action",
+      "denominator": {"value": 1, "unit": "UK national well-being economy and environment measures", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "gdp_per_head_change": {"value": 0.9, "unit": "percent year-over-year increase in GDP per head in Q1 2026", "value_type": "reported_change"},
+        "consumer_confidence_index": {"value": -25.4, "unit": "GfK Consumer Confidence Barometer in April 2026", "value_type": "reported_index"},
+        "government_trust": {"value": 29.2, "unit": "percent tending to trust the UK government in March 2026", "value_type": "reported_share"},
+        "environmental_action": {"value": 86.0, "unit": "percent of adults making at least some lifestyle changes to address environmental issues in March 2026", "value_type": "reported_share"},
+        "divergence": {"value": "Improving GDP per head, slowing inflation, and stable labor-market conditions coexist with weak consumer confidence and low government trust", "unit": "reported cross-domain pattern", "value_type": "reported_pattern"}
+      },
+      "method": "ONS cross-domain national well-being comparison across economy, governance, environment, and public behavior measures.",
+      "uncertainty": "Cross-domain divergence is descriptive; it does not identify whether prices, expectations, institutions, health, political events, or distribution caused the sentiment gaps.",
+      "subgroup": "UK households, workers, consumers, voters, environmentally engaged adults, public institutions, and people exposed to unequal economic or environmental conditions.",
+      "counterinterpretation": "Low confidence and trust can coexist with environmental agency and improving aggregate output, indicating selective engagement rather than generalized disengagement.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/june2026",
+      "retrieval_hash": "sha256:1b6e7b881e3823c91ff01057f3173f9414dc643adcc1bf9bb6623350dae3bbf7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing", "claim": "ONS national well-being framework and dashboard context."},
+    {"source_url": "https://www.gallup.com/analytics/708131/gallup-economics.aspx", "claim": "Complementary aggregate measurement frame connecting economic conditions to lived progress and thriving."}
+  ],
+  "boundary": "This record adds an official national well-being and beyond-GDP lens linking household financial room, consumer confidence, health, relationships, cultural participation, time, civic voice, institutional trust, environment, and public action. It uses aggregate and survey-based official statistics with mixed source quality, not a single respondent-level dataset, causal model, representative measure of every UK resident, or evidence that one domain caused another.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS June 2026 bulletin reviewed for the 59-measure framework, financial difficulty, trust, civic voice, belonging, health, relationships, arts and culture, unpaid work, GDP per head, consumer confidence, and environmental action.",
+    "source_url_sha256": "sha256:1b6e7b881e3823c91ff01057f3173f9414dc643adcc1bf9bb6623350dae3bbf7",
+    "checked": "2026-09-26"
+  }
+}

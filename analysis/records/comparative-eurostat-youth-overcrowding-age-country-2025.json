@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-youth-overcrowding-age-country-2025",
+  "title": "Youth cultural and consumer room is constrained by sharply unequal overcrowding across age and place",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Eurostat 2025 EU-SILC housing conditions, published 29 September 2026",
+  "geography": "European Union; young people aged 15-29 and total population",
+  "observations": [
+    {
+      "period": "2025; overcrowding among young people by age",
+      "denominator": {"value": 1, "unit": "EU population and young people aged 15-29 under the Eurostat overcrowding definition; comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "youth_overcrowding_age_15_29": {"value": 26.9, "unit": "percent of young people ages 15-29 living in overcrowded households", "value_type": "reported_share"},
+        "total_population_overcrowding": {"value": 16.8, "unit": "percent of the total EU population living in overcrowded households", "value_type": "reported_share"},
+        "youth_excess": {"value": 10.1, "unit": "percentage-point difference between young people and the total population", "value_type": "reported_difference"},
+        "overcrowding_age_15_19": {"value": 30.1, "unit": "percent among young people ages 15-19", "value_type": "reported_share"},
+        "overcrowding_age_20_24": {"value": 28.7, "unit": "percent among young people ages 20-24", "value_type": "reported_share"},
+        "overcrowding_age_25_29": {"value": 21.8, "unit": "percent among young people ages 25-29", "value_type": "reported_share"},
+        "mechanism": {"value": "Housing crowding is a material constraint on privacy, study, rest, care, social connection, digital use, and cultural practice; young people face more limited household room than the population overall, especially before age 25", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU-SILC housing-conditions indicator. A household is overcrowded when it lacks the minimum rooms required for household size, couples, adults, adolescents, and children under the published definition.",
+      "uncertainty": "This is a household-level room standard, not a direct measure of subjective crowding, housing quality, rent burden, homelessness, cultural participation, or individual privacy; the comparison is descriptive and does not identify causes.",
+      "subgroup": "Young people ages 15-29, with age-band comparisons, versus the total EU population.",
+      "counterinterpretation": "Some shared housing can be chosen or socially supportive, while a household meeting the room standard can still be unaffordable, unsafe, inaccessible, or lacking usable private space.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260929-2",
+      "retrieval_hash": "sha256:96740ee9fc232cb117684b08330c96f3407e9eb0422ce395dbe5e3acef51b09d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; overcrowding among young people by country",
+      "denominator": {"value": 1, "unit": "young people ages 15-29 in each EU country under the Eurostat overcrowding definition; comparative percentage frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "highest_country_rates": {"value": "Romania 60.4%, Latvia 54.9%, and Bulgaria 52.8%", "unit": "reported young-person overcrowding rates", "value_type": "reported_distribution"},
+        "lowest_country_rates": {"value": "Cyprus 3.5%, Ireland 7.4%, and Malta 7.7%", "unit": "reported young-person overcrowding rates", "value_type": "reported_distribution"},
+        "country_range": {"value": 56.9, "unit": "percentage-point difference between Romania and Cyprus", "value_type": "calculated_difference_from_published_shares"},
+        "large_youth_total_gaps": {"value": "the youth rate exceeded the total-population rate by at least 20 percentage points in Bulgaria, Greece, and Romania", "unit": "reported country comparison", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Youth household room is a place-stratified resource, so cultural participation, consumer autonomy, learning, work-from-home capacity, and social life may be conditioned by housing arrangements before any individual preference is observed", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU-SILC country comparison of the overcrowding indicator for young people ages 15-29.",
+      "uncertainty": "Country rates combine housing markets, household formation, multigenerational living, income, migration, tenure, and cultural norms; they do not isolate the effect of crowding on youth behavior, wellbeing, consumption, or cultural access.",
+      "subgroup": "Young people ages 15-29 across EU Member States.",
+      "counterinterpretation": "High overcrowding can coexist with strong family support or low housing costs, while low overcrowding can coexist with isolation, high rents, insecurity, or long commuting burdens.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260929-2",
+      "retrieval_hash": "sha256:96740ee9fc232cb117684b08330c96f3407e9eb0422ce395dbe5e3acef51b09d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Young_people_-_housing_conditions", "claim": "Eurostat methodological and comparative context for young people’s housing conditions."},
+    {"source_url": "https://ec.europa.eu/eurostat/web/income-and-living-conditions/database", "claim": "Eurostat income-and-living-conditions database route for the ilc_lvho05a source dataset."}
+  ],
+  "boundary": "This record adds an objective EU youth-housing room and place-inequality layer to the cultural, social, and consumer atlas. It does not establish rent burden, subjective privacy, homelessness, cultural participation, consumer behavior, wellbeing, or causal effects of overcrowding.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat 29 September 2026 article retrieved; youth and total overcrowding rates, age groups, country ranges, youth-total gaps, and the room-based definition reviewed.",
+    "html_sha256": "sha256:96740ee9fc232cb117684b08330c96f3407e9eb0422ce395dbe5e3acef51b09d",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-globalabc-buildings-construction-2025-2026-emissions-affordability-investment",
+  "title": "Buildings are a high-emissions economic system whose transition depends on affordability, codes, materials, and investment",
+  "theme_ids": ["cost", "energy", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNEP and Global Alliance for Buildings and Construction, Global Status Report for Buildings and Construction 2025-2026",
+  "geography": "Global buildings and construction sector, including construction, renovation, demolition, engineering, building operations, policy, technology, and investment",
+  "observations": [
+    {
+      "period": "2025-2026; global buildings and construction economic and environmental footprint",
+      "denominator": {"value": 1, "unit": "global buildings and construction sector frame", "value_type": "sector_frame"},
+      "measures": {
+        "gdp_share": {"value": "11-13", "unit": "percent of global GDP represented by buildings and construction", "value_type": "reported_sector_share"},
+        "workforce_share": {"value": 9, "unit": "percent of the world's workforce employed across construction, renovation, demolition, and engineering", "value_type": "reported_workforce_share"},
+        "co2_share": {"value": 37, "unit": "percent of global CO2 emissions attributed to the sector", "value_type": "reported_emissions_share"},
+        "material_extraction_share": {"value": 50, "unit": "nearly percent of global material extraction associated with buildings and construction", "value_type": "reported_material_share"}
+      },
+      "method": "UNEP and GlobalABC global sector assessment of economic activity, employment, emissions, and material extraction.",
+      "uncertainty": "Sector boundaries, accounting methods, and the distinction between construction activity, building operations, and embodied materials affect the reported shares.",
+      "subgroup": "Construction and engineering workers, building owners and occupants, material producers, cities, investors, regulators, and communities exposed to building costs and environmental burdens.",
+      "counterinterpretation": "A large sector footprint also creates leverage: efficiency, material substitution, electrification, and better design can produce broad environmental and economic gains.",
+      "source_url": "https://www.unep.org/resources/report/global-status-report-buildings-and-construction-2025-2026",
+      "retrieval_hash": "sha256:db63d309537b2642d3133c6328d3447d634bf6613b221c7b56bd396488234766",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2050; building stock growth and long-lived lock-in",
+      "denominator": {"value": 1, "unit": "global buildings existing or expected by 2050", "value_type": "building_stock_frame"},
+      "measures": {
+        "future_stock": {"value": 50, "unit": "percent of buildings that will exist in 2050 still to be built or renovated", "value_type": "reported_future_stock_share"},
+        "transition_window": {"value": "current construction and renovation choices shape emissions, energy use, resilience, and quality of life for generations", "unit": "UNEP synthesis", "value_type": "reported_mechanism"},
+        "policy_route": {"value": "align new construction, renovation, codes, materials, and building operations with a 2050 net-zero pathway", "unit": "reported policy route", "value_type": "reported_policy_framework"}
+      },
+      "method": "UNEP and GlobalABC assessment of future building stock, long-lived infrastructure, and transition pathways.",
+      "uncertainty": "The future-stock estimate is a global planning approximation and does not specify where construction, renovation, or climate exposure will occur.",
+      "subgroup": "Future occupants, renters and owners, construction firms, local governments, utilities, material suppliers, and communities planning urban growth.",
+      "counterinterpretation": "Retrofit, adaptive reuse, compact development, and stronger standards can reduce lock-in; future stock is not predetermined by current construction patterns.",
+      "source_url": "https://www.unep.org/resources/report/global-status-report-buildings-and-construction-2025-2026",
+      "retrieval_hash": "sha256:db63d309537b2642d3133c6328d3447d634bf6613b221c7b56bd396488234766",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; building energy intensity and green certification",
+      "denominator": {"value": 1, "unit": "global building performance trend frame", "value_type": "building_performance_frame"},
+      "measures": {
+        "energy_intensity_change": {"value": -8.5, "unit": "percent change in global building energy intensity", "value_type": "reported_change"},
+        "green_certifications": {"value": "nearly tripled", "unit": "change in green building certifications over the last decade", "value_type": "reported_growth"},
+        "transition_signal": {"value": "performance and certification are improving, but progress remains insufficient for the 2050 pathway", "unit": "UNEP synthesis", "value_type": "reported_assessment"},
+        "affordability_link": {"value": "climate action in buildings must also deliver resilience and affordable living", "unit": "report framing", "value_type": "reported_policy_frame"}
+      },
+      "method": "UNEP and GlobalABC tracking of building energy intensity, certification, policy, technology, and investment against a net-zero pathway.",
+      "uncertainty": "Global averages conceal variation by climate, building type, energy mix, code enforcement, income, and certification quality.",
+      "subgroup": "Building occupants, landlords, tenants, builders, energy providers, certifiers, and communities affected by bills, indoor conditions, and climate risk.",
+      "counterinterpretation": "Certification growth may reflect market adoption and does not alone establish realized energy savings, lower bills, or equitable access to efficient buildings.",
+      "source_url": "https://www.unep.org/resources/report/global-status-report-buildings-and-construction-2025-2026",
+      "retrieval_hash": "sha256:db63d309537b2642d3133c6328d3447d634bf6613b221c7b56bd396488234766",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2030; energy-efficiency investment requirement",
+      "denominator": {"value": 1, "unit": "global building energy-efficiency investment pathway", "value_type": "investment_frame"},
+      "measures": {
+        "required_investment": {"value": 5.9, "unit": "trillion US dollars of energy-efficiency investment needed by 2030", "value_type": "reported_requirement"},
+        "investment_direction": {"value": "investment must more than double to keep climate goals within reach", "unit": "UNEP assessment", "value_type": "reported_gap"},
+        "implementation_system": {"value": "finance, codes, technology, workforce capability, and policy coordination must move together", "unit": "bounded synthesis", "value_type": "reported_mechanism_set"},
+        "distributional_question": {"value": "the transition must connect efficiency investment with affordable living and resilience rather than only premium construction", "unit": "report framing", "value_type": "reported_equity_route"}
+      },
+      "method": "UNEP and GlobalABC pathway assessment of policy, technology, and investment requirements for building energy efficiency.",
+      "uncertainty": "The investment figure is a pathway requirement, not a guaranteed financing commitment or a forecast of realized spending; costs vary by region and building stock.",
+      "subgroup": "Public and private investors, households and tenants, construction workers, cities, utilities, developers, and communities facing retrofit and housing-cost decisions.",
+      "counterinterpretation": "Innovation, falling technology costs, stronger standards, public finance, and demand reduction could change the required investment mix and timing.",
+      "source_url": "https://www.unep.org/resources/report/global-status-report-buildings-and-construction-2025-2026",
+      "retrieval_hash": "sha256:db63d309537b2642d3133c6328d3447d634bf6613b221c7b56bd396488234766",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/resources/report/global-status-report-buildings-and-construction", "claim": "UNEP's prior Buildings-GSR editions provide the historical sector-tracking series."},
+    {"source_url": "https://globalabc.org/resources/publications", "claim": "GlobalABC provides complementary buildings-sector policy and implementation materials."}
+  ],
+  "boundary": "This record adds a built-environment route across emissions, materials, jobs, building stock, energy performance, affordability, resilience, codes, and investment. It uses aggregate global sector analysis, not respondent-level housing histories, individual utility bills, property records, building inspections, causal forecasts, or proof that every city or household follows the same pathway.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNEP publication page reviewed for sector GDP, workforce, emissions, material extraction, future building stock, energy intensity, green certification, affordable living, and investment findings.",
+    "source_url_sha256": "sha256:db63d309537b2642d3133c6328d3447d634bf6613b221c7b56bd396488234766",
+    "checked": "2026-09-26"
+  }
+}

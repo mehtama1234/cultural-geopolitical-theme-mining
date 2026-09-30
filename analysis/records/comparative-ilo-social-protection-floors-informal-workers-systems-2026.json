@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-social-protection-floors-informal-workers-systems-2026",
+  "title": "Social-protection coverage is being converted through laws, data, automatic enrolment, contribution systems, and worker organization for people outside standard employment",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "public_systems_feedback", "work_control_bargaining", "unequal_exposure_status", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "ILO final results account for the multi-donor project supporting the second phase of the Global Flagship Programme on Building Social Protection Floors for All, published 25 September 2026",
+  "geography": "Six countries across Southeast Asia, West Africa, and Central Africa, with regional learning and Asia-Pacific cooperation context",
+  "observations": [
+    {
+      "period": "2021–2025; five-year multi-donor social-protection systems project",
+      "denominator": {"value": 1, "unit": "ILO project results account and closing tripartite webinar", "value_type": "reported_project_results_frame"},
+      "measures": {
+        "reported_reach": {"value": "more than 9 million people are reported to have improved access to social-protection measures developed with project support", "unit": "people with reported improved access", "value_type": "reported_programme_reach"},
+        "country_scope": {"value": "the project worked across six countries in Southeast Asia, West Africa, and Central Africa", "unit": "country count and regional scope", "value_type": "reported_project_scope"},
+        "target_group": {"value": "the project focused in part on extending social-protection coverage to workers in the informal economy", "unit": "reported target group", "value_type": "reported_policy_target"},
+        "institutional_method": {"value": "country support was combined with regional cooperation, knowledge exchange, and learning", "unit": "reported implementation method", "value_type": "reported_delivery_model"}
+      },
+      "method": "ILO institutional results account and partner statements at a closing webinar; the reported reach is programme reporting, not a harmonized population survey or causal evaluation.",
+      "uncertainty": "Improved access is not the same as active receipt, adequacy, continuity, reduced hardship, or durable outcome; the source does not provide a common denominator, counterfactual, or independent verification across countries.",
+      "subgroup": "Informal workers, women, construction and craft workers, artisans, families, people needing maternity and newborn care, older people, unemployed workers, and people exposed to illness or workplace accidents.",
+      "counterinterpretation": "Administrative or programme access can expand without adequate benefits, regular contributions, low transaction costs, trust, or effective claim-making; reported reach may also combine different measures that are not directly comparable.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-project-improves-social-protection-coverage-over-nine-million-people",
+      "retrieval_hash": "sha256:cddaeb9cba804f3ac6b740dad0ce958f428d6207c0a623e957b6b3c14b2dc2ae",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2025; country-level conversion routes for informal and vulnerable workers",
+      "denominator": {"value": 6, "unit": "country programme examples reported by the ILO", "value_type": "reported_country_example_set"},
+      "measures": {
+        "burundi": {"value": "support contributed to adoption of a National Social Protection Policy and a roadmap to extend coverage to informal economy workers", "unit": "reported institutional milestone", "value_type": "reported_policy_milestone"},
+        "drc": {"value": "support contributed to operationalizing universal health coverage and access to free maternity and newborn care for over 2 million people", "unit": "people with reported service access", "value_type": "reported_service_reach"},
+        "rwanda": {"value": "new mechanisms were supported to extend social security to informal workers; a construction, wood, and craft union reported membership rising from 78,000 to 80,100 and employer willingness to collaborate among 90% of visited companies", "unit": "reported institutional and partner figures", "value_type": "reported_partner_result"},
+        "burkina_senegal": {"value": "Burkina Faso’s universal health insurance scheme reportedly provided access for over 400,000 people, while 60,000 Senegalese artisans reportedly gained health-insurance access", "unit": "people with reported access", "value_type": "reported_service_reach"}
+      },
+      "method": "Selected country examples from ILO project reporting and partner statements; figures and milestones are not independently evaluated here.",
+      "uncertainty": "The examples differ in sector, scheme, time, baseline, definition of access, and evidence source; they do not show take-up, adequacy, health outcomes, worker power, or sustainability after project support.",
+      "subgroup": "Informal workers, artisans, construction workers, union members, women and newborns, households in health-poor settings, and people outside conventional employer-based social insurance.",
+      "counterinterpretation": "Policy adoption and reported access may be important foundations but can coexist with contribution arrears, exclusion, poor service quality, informal fees, or low awareness and trust.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-project-improves-social-protection-coverage-over-nine-million-people",
+      "retrieval_hash": "sha256:cddaeb9cba804f3ac6b740dad0ce958f428d6207c0a623e957b6b3c14b2dc2ae",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2025; automatic enrolment, contribution payments, data, and coordination infrastructure",
+      "denominator": {"value": 1, "unit": "cross-country implementation lesson set in the ILO project account", "value_type": "reported_system_design_set"},
+      "measures": {
+        "automatic_enrolment": {"value": "innovative approaches to automatic enrolment and seamless contribution payments were being implemented in Senegal, Burkina Faso, and the Democratic Republic of the Congo", "unit": "reported implementation route", "value_type": "reported_administrative_innovation"},
+        "financing": {"value": "the approaches are described as helping accelerate coverage while creating a sustainable financing base", "unit": "reported financing mechanism", "value_type": "reported_financing_objective"},
+        "data_coordination": {"value": "Burundi’s partner described data, coordination, and monitoring as foundations for extending coverage", "unit": "reported system capacity", "value_type": "reported_system_capacity"},
+        "information_use": {"value": "the ILO account identifies cooperation among government institutions and better use of existing information as a lesson for extending coverage", "unit": "reported governance lesson", "value_type": "reported_governance_lesson"}
+      },
+      "method": "Institutional lessons and programme reporting; no administrative data audit or independent assessment of enrolment and contribution payment performance is supplied.",
+      "uncertainty": "Automatic enrolment can improve inclusion but may create contribution burdens, inaccurate records, privacy risks, or nominal coverage if systems do not support payment, portability, and claims.",
+      "subgroup": "Informal and irregular workers, self-employed people, small enterprises, women, workers with changing employers, social-security agencies, tax and civil registries, and data-protection authorities.",
+      "counterinterpretation": "Administrative simplification may lower barriers, but digital or automatic systems can exclude people without documents, accounts, connectivity, stable income, or trust in government.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-project-improves-social-protection-coverage-over-nine-million-people",
+      "retrieval_hash": "sha256:cddaeb9cba804f3ac6b740dad0ce958f428d6207c0a623e957b6b3c14b2dc2ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; tripartite institutions, regional learning, and durability after project closure",
+      "denominator": {"value": 1, "unit": "closing webinar and transition to the third phase of the ILO Flagship Programme", "value_type": "reported_durability_frame"},
+      "measures": {
+        "tripartite_review": {"value": "over 50 representatives of participating countries and development partners reviewed results and lessons at a tripartite webinar", "unit": "reported participant count", "value_type": "reported_governance_event"},
+        "worker_voice": {"value": "worker organizations and unions were part of country-level partnerships, including Rwanda’s construction, wood, and craft union", "unit": "reported institutional participation", "value_type": "reported_worker_voice"},
+        "regional_learning": {"value": "the project fostered regional cooperation, knowledge exchange, and adaptation of country experiences", "unit": "reported learning model", "value_type": "reported_learning_architecture"},
+        "continuation": {"value": "the ILO reports that it will work with governments and social partners to sustain advances in the third phase of the Flagship Programme from 2026 to 2030", "unit": "reported continuation plan", "value_type": "reported_programme_continuation"}
+      },
+      "method": "Closing institutional account and partner statements; continuation planning is not evidence of post-project durability or benefit continuity.",
+      "uncertainty": "The source does not show whether national financing, political ownership, worker participation, data systems, and benefit administration persist after donor or project support ends.",
+      "subgroup": "Governments, workers’ and employers’ organizations, development partners, unions, informal workers, social-protection administrators, and communities receiving or seeking coverage.",
+      "counterinterpretation": "Tripartite events and continuation plans may preserve learning, but they can also become reporting rituals without decision power, budget authority, or accessible worker remedy.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-project-improves-social-protection-coverage-over-nine-million-people",
+      "retrieval_hash": "sha256:cddaeb9cba804f3ac6b740dad0ce958f428d6207c0a623e957b6b3c14b2dc2ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/building-social-protection-floors-all", "claim": "ILO Global Flagship Programme on Building Social Protection Floors for All context and programme continuation."},
+    {"source_url": "https://www.ilo.org/resource/other/social-protection-floors-recommendation-2012-no-202", "claim": "ILO Social Protection Floors Recommendation No. 202 context for universal, rights-based coverage."}
+  ],
+  "boundary": "This record adds a coverage-conversion route: social-protection rights become usable protection through law, data, coordination, worker organization, automatic enrolment, contribution systems, health insurance, and durable public administration, especially for informal workers. It relies on ILO programme reporting and selected country examples, not representative population data, causal evaluation, independently verified reach, benefit adequacy, or proof of post-project sustainability.",
+  "retrieval_hash": "sha256:cddaeb9cba804f3ac6b740dad0ce958f428d6207c0a623e957b6b3c14b2dc2ae"
+}

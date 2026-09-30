@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-dwp-education-professionals-young-work-readiness-2026",
+  "title": "Opportunity is a readiness ecology, not an exam result: educators connect young people’s pathways to skills, place, support, and confidence",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UK Department for Work and Pensions / YouGov, Survey of Education Professionals: Young People and Work Report, August 27, 2026",
+  "geography": "Great Britain; teachers and education professionals surveyed through the YouGov panel",
+  "observations": [
+    {
+      "period": "March 2026 survey fieldwork, published August 27, 2026; perceived drivers of opportunity",
+      "denominator": {"value": 1004, "unit": "teachers and education professionals in Great Britain", "value_type": "reported_survey_sample"},
+      "measures": {
+        "motivation": {"value": 67, "unit": "percent identifying motivation as affecting young people’s access to employment, education, or training", "value_type": "published_survey_estimate"},
+        "work_readiness": {"value": 66, "unit": "percent identifying work-readiness skills such as organization, time management, and teamwork", "value_type": "published_survey_estimate"},
+        "local_opportunities": {"value": 60, "unit": "percent identifying availability of local jobs or opportunities", "value_type": "published_survey_estimate"},
+        "confidence": {"value": 50, "unit": "percent identifying confidence as affecting access", "value_type": "published_survey_estimate"},
+        "readiness_ecology": {"value": "Educators describe opportunity as a compound system of personal readiness, social support, local labor demand, and confidence rather than a qualification-only outcome.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Online YouGov survey of education professionals on behalf of DWP; fieldwork in March 2026; the report presents weighted reporting-sample estimates.",
+      "uncertainty": "The respondents report professional perceptions rather than young people’s observed outcomes; the survey is not a causal evaluation of motivation, work-readiness, or local opportunity.",
+      "subgroup": "Teachers and education professionals in Great Britain.",
+      "counterinterpretation": "Professionals may use broad readiness language to describe institutional difficulty, and motivation may partly reflect prior opportunity, health, family support, or labor-market conditions.",
+      "source_url": "https://www.gov.uk/government/publications/survey-of-education-professionals-young-people-and-work-report/survey-of-education-professionals-young-people-and-work-report",
+      "retrieval_hash": "sha256:aa4dfee991f4de18b99b0eebfe785cef3b1ad9be59f4b596e5d32a5491093587",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 survey fieldwork, published August 27, 2026; curriculum legitimacy",
+      "denominator": {"value": 1004, "unit": "teachers and education professionals in Great Britain", "value_type": "reported_survey_sample"},
+      "measures": {
+        "too_much_exam_focus": {"value": 74, "unit": "percent saying there is too much focus on passing exams", "value_type": "published_survey_estimate"},
+        "not_enough_work_preparation": {"value": 73, "unit": "percent saying there is not enough focus on preparing young people for work and employment", "value_type": "published_survey_estimate"},
+        "not_enough_soft_skills": {"value": 73, "unit": "percent saying there is not enough focus on soft skills for work and employment", "value_type": "published_survey_estimate"},
+        "broaden_without_lowering_standards": {"value": 73, "unit": "percent agreeing the curriculum could include more work-related knowledge and skills without lowering academic standards", "value_type": "published_survey_estimate"},
+        "curriculum_conversion": {"value": "The legitimacy problem is framed as balance, not a choice between academic standards and employability: educators want multiple forms of readiness recognized by the system.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional survey of education professionals with forced-choice and agreement items on curriculum priorities.",
+      "uncertainty": "These are professional judgments about curriculum emphasis, not measures of actual teaching time, student attainment, or employer outcomes.",
+      "subgroup": "Teachers and education professionals in Great Britain.",
+      "counterinterpretation": "Perceived exam overemphasis may reflect wider frustration with transitions into work rather than a direct curriculum effect.",
+      "source_url": "https://www.gov.uk/government/publications/survey-of-education-professionals-young-people-and-work-report/survey-of-education-professionals-young-people-and-work-report",
+      "retrieval_hash": "sha256:aa4dfee991f4de18b99b0eebfe785cef3b1ad9be59f4b596e5d32a5491093587",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 survey fieldwork, published August 27, 2026; route diversification",
+      "denominator": {"value": 1004, "unit": "teachers and education professionals in Great Britain", "value_type": "reported_survey_sample"},
+      "measures": {
+        "careers_guidance_support": {"value": 98, "unit": "percent supporting careers guidance through schools, sixth forms, and colleges", "value_type": "published_survey_estimate"},
+        "applied_vocational_support": {"value": 92, "unit": "percent supporting greater access to applied or vocational pathways before age 16", "value_type": "published_survey_estimate"},
+        "alternative_pathways_support": {"value": 95, "unit": "percent supporting alternative pathways for young people who struggle with the current curriculum", "value_type": "published_survey_estimate"},
+        "route_diversification": {"value": "Strong support for multiple routes suggests that education legitimacy is increasingly tied to whether different strengths and learning needs can reach credible work and further-learning pathways.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional survey with support estimates for careers, applied/vocational, and alternative pathways.",
+      "uncertainty": "Support for a pathway does not establish funding, availability, quality, completion, employer recognition, or equitable access.",
+      "subgroup": "Teachers and education professionals in Great Britain.",
+      "counterinterpretation": "High support may reflect general approval of guidance and choice rather than agreement on implementation, sequencing, or resource allocation.",
+      "source_url": "https://www.gov.uk/government/publications/survey-of-education-professionals-young-people-and-work-report/survey-of-education-professionals-young-people-and-work-report",
+      "retrieval_hash": "sha256:aa4dfee991f4de18b99b0eebfe785cef3b1ad9be59f4b596e5d32a5491093587",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 survey fieldwork, published August 27, 2026; engagement and work-experience barriers",
+      "denominator": {"value": 1004, "unit": "teachers and education professionals in Great Britain", "value_type": "reported_survey_sample"},
+      "measures": {
+        "low_motivation_barrier": {"value": 75, "unit": "percent identifying low motivation or interest as a barrier to engagement before age 16", "value_type": "published_survey_estimate"},
+        "parental_influence_barrier": {"value": 70, "unit": "percent identifying parental influence as a barrier", "value_type": "published_survey_estimate"},
+        "send_support_barrier": {"value": 58, "unit": "percent identifying lack of SEND support as a barrier", "value_type": "published_survey_estimate"},
+        "mental_health_barrier": {"value": 54, "unit": "percent identifying mental-health challenges as a barrier", "value_type": "published_survey_estimate"},
+        "work_experience_effectiveness": {"value": 62, "unit": "percent of secondary teachers considering their school effective at providing good-quality work experience; 29% said not effective", "value_type": "published_subgroup_estimate"},
+        "engagement_conversion": {"value": "Readiness is also an institutional-access problem: support, family context, health, peers, and the quality of work experience shape whether a pathway can be used.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional survey of education professionals, including subgroup reporting for secondary teachers and schools with different free-school-meal eligibility levels.",
+      "uncertainty": "Barrier estimates reflect professional attribution and may bundle school, family, health, and labor-market mechanisms; work-experience effectiveness is not observed placement quality or student outcome.",
+      "subgroup": "Teachers and education professionals; secondary teachers for work-experience estimates.",
+      "counterinterpretation": "Professionals may attribute engagement barriers to students or families when institutional design, transport, discrimination, or resource constraints also contribute.",
+      "source_url": "https://www.gov.uk/government/publications/survey-of-education-professionals-young-people-and-work-report/survey-of-education-professionals-young-people-and-work-report",
+      "retrieval_hash": "sha256:aa4dfee991f4de18b99b0eebfe785cef3b1ad9be59f4b596e5d32a5491093587",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/survey-of-education-professionals-young-people-and-work-report/survey-of-education-professionals-young-people-and-work-report", "claim": "Official DWP publication containing the YouGov sample, fieldwork, education-professional findings, subgroup boundaries, and implementation limits.", "status": "official-statistics-publication"},
+    {"source_url": "https://www.gov.uk/government/publications/young-people-and-work-report-general-population-polling/young-people-and-work-report-general-population-polling", "claim": "The companion general-population polling provides a separate public-attitude route and is not merged with professional perceptions in this record.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record adds an education-to-work opportunity route: professionals describe employability as a readiness ecology shaped by work-readiness, confidence, local opportunity, transport, health, SEND support, family context, and work experience, alongside academic attainment. It does not establish young people’s actual transitions, causal curriculum effects, pathway quality, or employer outcomes. The source is a DWP-commissioned YouGov online panel of professional perceptions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK DWP report was reviewed for publication date, sample, fieldwork, methodology, opportunity drivers, curriculum judgments, pathway support, engagement barriers, work-experience estimates, and source boundaries.",
+    "source_page_sha256": "sha256:aa4dfee991f4de18b99b0eebfe785cef3b1ad9be59f4b596e5d32a5491093587",
+    "checked": "2026-09-28"
+  }
+}

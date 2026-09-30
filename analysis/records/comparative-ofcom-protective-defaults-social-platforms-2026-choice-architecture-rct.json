@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ofcom-protective-defaults-social-platforms-2026-choice-architecture-rct",
+  "title": "Safer platform defaults can hold user choices, shifting online safety from individual vigilance toward interface design",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Ofcom, Protective defaults for social media platforms: Adults and Under 18s Defaults Trial",
+  "geography": "United Kingdom; children aged 13-17 and adults in Ofcom randomized online mock-platform experiments",
+  "observations": [
+    {
+      "period": "2026; randomized safe-by-design defaults experiment",
+      "denominator": {
+        "value": null,
+        "unit": "Ofcom experiment participants across children aged 13-17 and adults; exact pooled denominator is reported in the technical report",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "settings_tested": {"value": "sensitive-content exposure, location sharing, direct messaging, and network expansion", "unit": "experimental setting families", "value_type": "official_experimental_description"},
+        "safety_default_retention": {"value": "high across all age groups and setting types", "unit": "qualitative experimental result", "value_type": "official_experimental_result"},
+        "mechanism": {"value": "Platform safety can be produced through the initial choice architecture and retained settings, reducing the amount of vigilance users must supply after entering a service", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ofcom randomized controlled trial using mock social-media platform settings with children aged 13-15, 16-17, and adults; the experiment tested safety-by-design defaults and supportive messaging across multiple controls.",
+      "uncertainty": "Mock online trials cannot fully reproduce real-world social norms, peer influence, platform incentives, repeated exposure, or long-run behavior; high retention in the experiment is not proof of harm reduction in live services.",
+      "subgroup": "Children aged 13-15, children aged 16-17, and adults, with direct age-group comparisons under the same experimental conditions.",
+      "counterinterpretation": "Participants may accept protective defaults because the experiment makes safety salient; real users may opt out when defaults reduce reach, convenience, social connection, or commercial value.",
+      "source_url": "https://www.ofcom.org.uk/online-safety/safety-technology/protective-defaults-for-social-media-platforms",
+      "retrieval_hash": "sha256:8a8f2f7a1857c267a73f613d0b221fb7a381c4538cb3994b87a97d0c8f6ecf16",
+      "status": "reported"
+    },
+    {
+      "period": "Prior Ofcom experiments; sensitive-content and recommendation defaults",
+      "denominator": {
+        "value": null,
+        "unit": "participants in prior Ofcom mock-platform experiments; source page reports percentages without pooled denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "adults_reduced_sensitive_content_when_all_content_default": {"value": 15.0, "unit": "percent choosing reduced sensitive content when all content types was preselected", "value_type": "official_experimental_share"},
+        "adults_reduced_sensitive_content_without_default": {"value": 24.0, "unit": "percent choosing reduced sensitive content when neither option was preselected", "value_type": "official_experimental_share"},
+        "adults_accept_reduced_sensitive_content_when_safety_default": {"value": 42.0, "unit": "percent accepting reduced sensitive content when that setting was preselected", "value_type": "official_experimental_share"},
+        "children_maintain_no_harmful_recommendations_default": {"value": 70.0, "unit": "approximate percent maintaining a no-harmful-content recommendation choice when defaulted", "value_type": "official_experimental_share"},
+        "children_maintain_choice_without_default": {"value": 50.0, "unit": "approximate percent maintaining the no-harmful-content recommendation choice without a default", "value_type": "official_experimental_share"},
+        "mechanism": {"value": "Defaults change the observed distribution of safety choices, with protective preselection producing materially more acceptance or retention than neutral or permissive starting states", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ofcom summary of prior randomized mock-platform experiments comparing permissive, neutral, and protective default settings.",
+      "uncertainty": "The reported percentages come from separate experiments and should not be read as one common treatment effect; the source page does not provide all sample sizes or confidence intervals.",
+      "subgroup": "Adults in the sensitive-content experiment and children in the harmful-recommendation experiment, as specified by the source.",
+      "counterinterpretation": "Higher acceptance may represent passive inattention or low perceived stakes rather than informed preference; default effects may weaken when users understand the trade-offs or have strong social reasons to change settings.",
+      "source_url": "https://www.ofcom.org.uk/online-safety/safety-technology/protective-defaults-for-social-media-platforms",
+      "retrieval_hash": "sha256:8a8f2f7a1857c267a73f613d0b221fb7a381c4538cb3994b87a97d0c8f6ecf16",
+      "status": "reported"
+    },
+    {
+      "period": "2026; safety-by-design support and governance implication",
+      "denominator": {
+        "value": null,
+        "unit": "Ofcom trial participants and accompanying survey respondents; exact denominator is reported in the technical report",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "support_for_safety_by_design_defaults": {"value": "high across children and adults", "unit": "qualitative accompanying-survey result", "value_type": "official_survey_result"},
+        "default_types": {"value": "location sharing, direct messaging, network expansion, and sensitive-content controls", "unit": "platform control categories", "value_type": "official_experimental_description"},
+        "mechanism": {"value": "User protection becomes a contest over who controls the starting state: platform design and regulation can convert stated safety support into lower-exposure defaults, while users retain an avenue to change settings", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ofcom randomized experiment plus accompanying survey of support for safety-by-design defaults, spanning adults and under-18s.",
+      "uncertainty": "Support is an attitude measure and retention is an experimental behavior; neither establishes democratic legitimacy, enforceable implementation, equal effects by disability or language, or durable safety outcomes.",
+      "subgroup": "UK adults and children aged 13-17 included in the Ofcom research programme.",
+      "counterinterpretation": "Protective defaults can impose access, privacy, social, or expressive costs; a default that is safe for one user may be restrictive or exclusionary for another.",
+      "source_url": "https://www.ofcom.org.uk/online-safety/safety-technology/protective-defaults-for-social-media-platforms",
+      "retrieval_hash": "sha256:8a8f2f7a1857c267a73f613d0b221fb7a381c4538cb3994b87a97d0c8f6ecf16",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/online-research/online-safety/protective-defaults-for-social-media-platforms-insights-report.pdf",
+      "claim": "Ofcom's accompanying insights report provides the experimental design, results, and subgroup detail for protective defaults.",
+      "status": "official-primary-report"
+    },
+    {
+      "source_url": "https://www.ofcom.org.uk/online-safety/protecting-children/childrens-online-experiences-research-report",
+      "claim": "Ofcom's broader children’s online experiences programme provides the monitoring context for platform safety and exposure research.",
+      "status": "official-research-programme"
+    }
+  ],
+  "boundary": "This record adds Ofcom experimental evidence on safety-by-design defaults, choice architecture, and user retention of protective settings. It does not establish live-platform harm reduction, long-run user behavior, platform compliance, causal mental-health effects, or equal safety across user groups.",
+  "retrieval_hash": "sha256:8a8f2f7a1857c267a73f613d0b221fb7a381c4538cb3994b87a97d0c8f6ecf16"
+}

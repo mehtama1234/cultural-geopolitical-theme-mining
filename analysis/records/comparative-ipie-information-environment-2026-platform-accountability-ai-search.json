@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipie-information-environment-2026-platform-accountability-ai-search",
+  "title": "Information abundance is separating access from trust while platform accountability and AI-mediated search reshape the conditions for shared reality",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "International Panel on the Information Environment, Trends in the Information Environment: 2026 Expert Survey Results",
+  "geography": "71 countries of expertise, including developed and developing economies and a separately reported United States comparison",
+  "observations": [
+    {
+      "period": "May-June 2026; expert outlook on information-environment conditions",
+      "denominator": {"value": 470, "unit": "experts studying information environments across 71 countries", "value_type": "reported_expert_survey_sample"},
+      "measures": {
+        "expected_worsening": {"value": 76, "unit": "percent expecting the information environment in their country of expertise to worsen over the following year", "value_type": "reported_expert_share"},
+        "expected_improvement": {"value": 14, "unit": "percent expecting conditions to improve", "value_type": "reported_expert_share"},
+        "trend_comparison": {"value": "expected worsening rose from 53% in 2023 to 76% in 2026", "unit": "reported repeated-cross-section pattern", "value_type": "reported_trend"},
+        "developing_country_information_access": {"value": 24, "unit": "percent of experts on developing economies saying people have the information needed to participate in civic life", "value_type": "reported_expert_share"}
+      },
+      "method": "Fourth annual IPIE expert survey conducted 6 May-8 June 2026; researchers were recruited through academic databases, professional networks, nominations, and targeted outreach, with 470 completed responses representing 71 countries of expertise.",
+      "uncertainty": "This is a partly self-selected expert sample and a repeated cross-section, not a probability sample of publics or experts, a behavioral trace, or a causal forecast; the outlook question also combines direction and confidence and may elicit expert pessimism.",
+      "subgroup": "Researchers studying developed economies, developing economies, and the United States; nearly half of respondents focused on developing economies.",
+      "counterinterpretation": "Expert pessimism can rise because measurement and awareness improve; information access, civic participation, and institutional trust can also differ sharply within countries.",
+      "source_url": "https://www.ipie.info/research/sr2026-3-trends-information-environment-2026-expert-survey-results",
+      "retrieval_hash": "sha256:7d7b6d9093503a67894b9294b3dde7360208d471656adde5f55f41aa54668ce6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; access, trust, and the quality of online information",
+      "denominator": {"value": 470, "unit": "IPIE experts in the analytic sample", "value_type": "reported_expert_survey_sample"},
+      "measures": {
+        "diverse_viewpoints_access": {"value": 76, "unit": "percent saying people can find diverse viewpoints online at least somewhat easily", "value_type": "reported_expert_share"},
+        "mainstream_news_trust": {"value": 28, "unit": "percent believing most people in their country trust mainstream news outlets to report politics accurately", "value_type": "reported_expert_share"},
+        "platform_accountability_threat": {"value": 78, "unit": "percent rating lack of platform accountability a big or extreme threat", "value_type": "reported_expert_share"},
+        "misinformation_threat": {"value": 73, "unit": "percent rating misinformation a big or extreme threat", "value_type": "reported_expert_share"},
+        "access_trust_gap": {"value": "people may encounter many viewpoints without having confidence that the information is accurate or accountable", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Expert ratings of healthy-information features, threats, online viewpoint access, and public trust in political reporting, with percentages calculated over all 470 respondents including don’t-know responses in the denominator.",
+      "uncertainty": "Expert judgments do not measure actual exposure, comprehension, news use, platform behavior, or public trust directly; threat ratings are not causal effect estimates.",
+      "subgroup": "Experts on information environments across country and development contexts, with developing-economy experts reporting lower confidence in distinguishing accurate from false information.",
+      "counterinterpretation": "Viewpoint diversity can support pluralism even when trust is low, and low trust may reflect healthy skepticism rather than only information degradation.",
+      "source_url": "https://www.ipie.info/news/press-release-expert-pessimism-about-the-worlds-information-environment-hits-record-high-new-ipie-survey-finds",
+      "retrieval_hash": "sha256:7d7b6d9093503a67894b9294b3dde7360208d471656adde5f55f41aa54668ce6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI summaries in search and information-production sustainability",
+      "denominator": {"value": 470, "unit": "IPIE experts in the analytic sample", "value_type": "reported_expert_survey_sample"},
+      "measures": {
+        "faster_answer_access": {"value": 79, "unit": "percent expecting AI summaries in search results to help people find answers faster", "value_type": "reported_expert_share"},
+        "news_traffic_reduction": {"value": 64, "unit": "percent expecting AI summaries to reduce traffic to news websites", "value_type": "reported_expert_share"},
+        "viewpoint_narrowing": {"value": 58, "unit": "percent expecting AI summaries to narrow the range of viewpoints encountered", "value_type": "reported_expert_share"},
+        "search_tradeoff": {"value": "convenience can increase answer speed while weakening the referral, revenue, and plural-source pathways that sustain original reporting", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "New IPIE questionnaire items on AI summaries in search, interpreted alongside expert views of search engines, generative AI, platforms, and news ecosystems.",
+      "uncertainty": "These are expectations rather than observed traffic or viewpoint effects; the survey does not distinguish all search-summary implementations or identify the causal size of any revenue or pluralism change.",
+      "subgroup": "Experts studying digital platforms, news, search, generative AI, misinformation, and civic information across 71 countries.",
+      "counterinterpretation": "AI summaries may reduce search friction, improve accessibility, and direct users to better sources in some contexts; original publishers may develop new funding or distribution models.",
+      "source_url": "https://www.ipie.info/research/sr2026-3-trends-information-environment-2026-expert-survey-results",
+      "retrieval_hash": "sha256:7d7b6d9093503a67894b9294b3dde7360208d471656adde5f55f41aa54668ce6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; research capacity and governance of the information environment",
+      "denominator": {"value": 470, "unit": "IPIE experts in the analytic sample", "value_type": "reported_expert_survey_sample"},
+      "measures": {
+        "funding_barrier": {"value": 67, "unit": "percent citing research funding as a barrier to studying the information environment", "value_type": "reported_expert_share"},
+        "data_access_barrier": {"value": 60, "unit": "percent citing restricted data access as a barrier", "value_type": "reported_expert_share"},
+        "government_agenda_pressure": {"value": 33, "unit": "percent reporting efforts to align research with a government agenda, up from 21% in 2025", "value_type": "reported_expert_share"},
+        "research_censorship": {"value": 23, "unit": "percent reporting government censorship, more than double the 2025 share", "value_type": "reported_expert_share"},
+        "knowledge-governance_route": {"value": "the capacity to study and govern the information environment is itself exposed to funding, data, political-pressure, and censorship constraints", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Repeated IPIE expert survey items on research conditions, with separate comparison for experts whose country of expertise is the United States.",
+      "uncertainty": "Reported research pressures are expert perceptions and do not provide a census of funding cancellations, censorship events, or research quality; year-to-year differences are not panel estimates.",
+      "subgroup": "Information-environment researchers, including academic, nonprofit, government, media, private-sector, and independent experts; U.S.-focused experts reported elevated political and funding pressure.",
+      "counterinterpretation": "Research constraints can reflect ordinary competition, security, privacy, or data-protection requirements rather than censorship; political pressure reports may be sensitive to field composition.",
+      "source_url": "https://www.ipie.info/research/sr2026-3-trends-information-environment-2026-expert-survey-results",
+      "retrieval_hash": "sha256:7d7b6d9093503a67894b9294b3dde7360208d471656adde5f55f41aa54668ce6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipie.info/news/press-release-expert-pessimism-about-the-worlds-information-environment-hits-record-high-new-ipie-survey-finds", "claim": "Official IPIE summary of the 2026 expert-survey findings."},
+    {"source_url": "https://cdn.prod.website-files.com/643ecb10be528d2c1da863cb/6aa92f6aa8bfb7492c3b5dce_SR2026.3%20FINAL.pdf", "claim": "Official IPIE 2026 synthesis report PDF."}
+  ],
+  "boundary": "This record adds an information-environment route from platform accountability, source trust, AI-mediated search, viewpoint diversity, research capacity, and political pressure through shared reality and civic participation. It uses expert survey judgments and report synthesis, not a public prevalence estimate, observed platform traffic, direct misinformation exposure, causal political effects, or proof that AI summaries will narrow viewpoints everywhere.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IPIE publication page, press release, and 2026 synthesis report PDF reviewed for sample frame, trend comparisons, platform-accountability and misinformation threats, trust/access gap, AI-search trade-offs, and research-capacity constraints.",
+    "report_pdf_sha256": "sha256:7d7b6d9093503a67894b9294b3dde7360208d471656adde5f55f41aa54668ce6",
+    "checked": "2026-09-28"
+  }
+}

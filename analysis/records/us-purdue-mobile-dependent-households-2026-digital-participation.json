@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-purdue-mobile-dependent-households-2026-digital-participation",
+  "title": "Being connected increasingly means mobile-only participation with narrower functional access",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Purdue Center for Regional Development Research & Policy Insights publication 124, using Census tract-level ACS and broadband-quality data",
+  "geography": "United States; Census tracts in the contiguous United States",
+  "observations": [
+    {
+      "period": "2019-2024; 5-Year American Community Survey comparison",
+      "denominator": {"value": 2, "unit": "ACS comparison years", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "mobile_dependent_households": {"value": "increased from 11.9% to 14.1%", "unit": "share of households, mobile-dependent-household measure", "value_type": "reported_share"},
+        "definition": {"value": "average of households with cellular data access only and households with mobile devices only", "unit": "composite measure; components are not mutually exclusive", "value_type": "reported_measure_definition"},
+        "spatial_footprint": {"value": "high-high clusters expanded between 2019 and 2024", "unit": "statistically significant Census-tract cluster pattern", "value_type": "reported_spatial_pattern"}
+      },
+      "method": "Spatial error models and Local Moran's I cluster analysis across 71,500 Census tracts in 2019 and 82,551 in 2024.",
+      "uncertainty": "The two snapshots are not a panel, tract geographies were not harmonized after the decennial census, and the composite measure does not count only households experiencing both constraints.",
+      "subgroup": "Households and places with mobile-only connectivity, limited devices, constrained data plans, disability, lower income, lower educational attainment, blue-collar employment, or weak fixed broadband.",
+      "counterinterpretation": "Mobile access can provide meaningful connection and may be the least-cost option; the measure shows constrained functionality and spatial association, not that mobile-only households are uniformly disconnected or harmed.",
+      "source_url": "https://pcrd.purdue.edu/wp-content/uploads/2026/08/An-Evolving-Digital-Divide-Measuring-and-Understanding-Mobile-Dependent-Households.pdf",
+      "retrieval_hash": "sha256:8c4fdfde7770025a520fae53e52c276b93cfce43522f98746b0ef6f08de3ed07",
+      "status": "reported"
+    },
+    {
+      "period": "2017-2024; ACS trend context",
+      "denominator": {"value": 100, "unit": "US households", "value_type": "percentage_denominator"},
+      "measures": {
+        "no_internet_access": {"value": "decreased from 17.6% to 6.5%", "unit": "household share", "value_type": "reported_share"},
+        "cellular_data_only": {"value": "increased from 7.5% to 11.5%", "unit": "household share", "value_type": "reported_share"},
+        "mobile_devices_only": {"value": "increased from 9.0% to 15.2%", "unit": "household share", "value_type": "reported_share"}
+      },
+      "method": "Publication synthesis of 5-Year ACS internet-access and device-ownership measures.",
+      "uncertainty": "These are population-level trend measures and do not show what tasks households can complete, service quality at a particular address, or the reasons for device and plan choices.",
+      "subgroup": "US households moving from no internet toward cellular-data-only and mobile-device-only access.",
+      "counterinterpretation": "The fall in no-internet access is real progress; the report's point is that access has become more graded and functionally unequal, not that connectivity has failed.",
+      "source_url": "https://pcrd.purdue.edu/wp-content/uploads/2026/08/An-Evolving-Digital-Divide-Measuring-and-Understanding-Mobile-Dependent-Households.pdf",
+      "retrieval_hash": "sha256:8c4fdfde7770025a520fae53e52c276b93cfce43522f98746b0ef6f08de3ed07",
+      "status": "reported"
+    },
+    {
+      "period": "2019 versus 2024; spatial association models",
+      "denominator": {"value": 2, "unit": "cross-sectional model years", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "strengthened_positive_associations": {"value": "disability, household no-internet share, and income-related disadvantage became more strongly associated with mobile dependence", "unit": "direction and relative strength of tract-level association", "value_type": "reported_association"},
+        "location_shift": {"value": "metropolitan status became significantly negatively associated with mobile dependence in 2024, while age 65-plus lost significance", "unit": "model association change", "value_type": "reported_association"},
+        "quality_association": {"value": "higher fixed-broadband quality remained negatively associated with mobile dependence, but the association weakened", "unit": "model association change", "value_type": "reported_association"}
+      },
+      "method": "Spatial error regression using tract socioeconomic, demographic, housing, employment, internet-access, and fixed-broadband-quality variables.",
+      "uncertainty": "Associations are ecological and cannot establish that disability, income, broadband quality, or pandemic-era changes caused a household's mobile dependence.",
+      "subgroup": "Census tracts differentiated by disability, income, education, housing tenure, age, race/ethnicity, employment type, metropolitan status, and broadband quality.",
+      "counterinterpretation": "The changing associations may reflect migration, changed tract composition, measurement shifts, or the interaction of affordability and infrastructure rather than one single mechanism.",
+      "source_url": "https://pcrd.purdue.edu/wp-content/uploads/2026/08/An-Evolving-Digital-Divide-Measuring-and-Understanding-Mobile-Dependent-Households.pdf",
+      "retrieval_hash": "sha256:8c4fdfde7770025a520fae53e52c276b93cfce43522f98746b0ef6f08de3ed07",
+      "status": "reported"
+    },
+    {
+      "period": "2024 and forward; policy interpretation",
+      "denominator": {"value": 1, "unit": "digital-inclusion policy challenge", "value_type": "named_policy_problem"},
+      "measures": {
+        "deployment_limit": {"value": "infrastructure deployment alone may be insufficient when the resulting connection remains mobile-only", "unit": "reported policy implication", "value_type": "reported_implication"},
+        "next_layer": {"value": "affordability, devices, digital literacy, accessibility, and housing wiring need to accompany network buildout", "unit": "reported intervention set", "value_type": "reported_recommendation"},
+        "service_risk": {"value": "essential services moving online can impose higher functional costs on small-screen, capped-data households", "unit": "mechanism hypothesis in report discussion", "value_type": "reported_mechanism"}
+      },
+      "method": "Author interpretation of the measured mobile-dependence trend, spatial associations, and broadband-policy context.",
+      "uncertainty": "The publication does not measure service outcomes, task completion, affordability changes, or causal effects of BEAD, ACP expiration, or digital-literacy programs.",
+      "subgroup": "Households expected to use digital public services, education, work, health, commerce, and civic systems through constrained mobile pathways.",
+      "counterinterpretation": "Mobile plans and smartphones may be adaptive, convenient, and adequate for many tasks; the policy implication concerns option breadth and resilience, not a universal hierarchy of devices.",
+      "source_url": "https://pcrd.purdue.edu/wp-content/uploads/2026/08/An-Evolving-Digital-Divide-Measuring-and-Understanding-Mobile-Dependent-Households.pdf",
+      "retrieval_hash": "sha256:8c4fdfde7770025a520fae53e52c276b93cfce43522f98746b0ef6f08de3ed07",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a US structural digital-participation trend: fewer households are offline, but more rely on mobile-only access with narrower device and data capacity. It does not establish individual household causality, service failure, digital-harm prevalence, or the effects of any broadband or subsidy program.",
+  "retrieval_hash": "sha256:8c4fdfde7770025a520fae53e52c276b93cfce43522f98746b0ef6f08de3ed07"
+}

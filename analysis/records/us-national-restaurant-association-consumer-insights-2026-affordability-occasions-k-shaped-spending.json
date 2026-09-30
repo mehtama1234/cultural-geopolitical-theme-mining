@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-national-restaurant-association-consumer-insights-2026-affordability-occasions-k-shaped-spending",
+  "title": "Households under pressure are preserving selected social consumption while trading down, reducing frequency, and widening the consumer divide",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "National Restaurant Association, Affordability Pressures Mount, but Consumers Continue to Prioritize Restaurants, September 17, 2026",
+  "geography": "United States consumers and restaurant operators; third-quarter 2026 consumer-insights tracking",
+  "observations": [
+    {
+      "period": "Third quarter 2026; financial security and household room",
+      "denominator": {"value": 1, "unit": "National Restaurant Association third-quarter Consumer Insights survey", "value_type": "industry_survey_base_not_published_on_page"},
+      "measures": {
+        "positive_financial_wellbeing": {"value": 65, "unit": "percent of consumers rating their financial well-being positively", "value_type": "reported_share"},
+        "worsened_finances": {"value": 39, "unit": "percent of adults saying their financial situation worsened over the past year", "value_type": "reported_share"},
+        "expense_difficulty": {"value": 50, "unit": "percent saying it became more difficult to cover household expenses over the past year", "value_type": "reported_share"},
+        "overspending": {"value": 34, "unit": "percent saying they regularly spend more than they earn; roughly half reported doing so at least occasionally", "value_type": "reported_share"}
+      },
+      "method": "National Restaurant Association industry analysis using a third-quarter consumer-insights survey and operator tracking; the public page does not state the survey sample size or full methodology.",
+      "uncertainty": "The survey is industry-sponsored, the denominator and weighting are not fully described on the public page, and the measures are self-reported; results should not be treated as a representative household panel or causal consumer-spending estimate.",
+      "subgroup": "U.S. consumers, with reported differences by generation and household income; Gen Z, Millennials, and households earning below $100,000 were more likely to report financial deterioration.",
+      "counterinterpretation": "Positive financial-wellbeing ratings and continued restaurant engagement may reflect adaptation, social priority, or substitution rather than broad financial comfort.",
+      "source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/affordability-pressures-mount,-but-consumers-continue-to-prioritize-restaurants/",
+      "retrieval_hash": "sha256:e660d3a29333185cb01ab145f2efe9ff5b4a47b8f88eb8b2795133aac88b9e0e",
+      "status": "reported"
+    },
+    {
+      "period": "Third quarter 2026; restaurant occasions as protected discretionary consumption",
+      "denominator": {"value": 1, "unit": "National Restaurant Association third-quarter consumer-occasion tracking", "value_type": "industry_tracking_base_not_published_on_page"},
+      "measures": {
+        "restaurant_visit": {"value": 53, "unit": "percent reporting a restaurant visit in the previous week", "value_type": "reported_share"},
+        "takeout_delivery": {"value": 50, "unit": "percent reporting takeout or delivery in the previous week", "value_type": "reported_share"},
+        "coffee_snack": {"value": 36, "unit": "percent reporting a coffee or snack purchase in the previous week", "value_type": "reported_share"},
+        "priority": {"value": "restaurants remained consumers’ top discretionary spending priority even as spending in other areas was reduced", "unit": "reported consumption pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Industry consumer-insights tracking with quarterly comparisons and category-level engagement measures.",
+      "uncertainty": "Engagement is not spending amount, food security, social connection, or household welfare; the public page does not establish whether occasions are replacing other activities or financed through sacrifice or debt.",
+      "subgroup": "U.S. consumers, generations, and income groups; younger consumers showed high engagement while higher-income households had the strongest engagement and only group with an increase from the prior quarter.",
+      "counterinterpretation": "Preserving a restaurant occasion may represent social meaning, convenience, or a relatively small treat while households cut larger or less visible expenses.",
+      "source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/affordability-pressures-mount,-but-consumers-continue-to-prioritize-restaurants/",
+      "retrieval_hash": "sha256:e660d3a29333185cb01ab145f2efe9ff5b4a47b8f88eb8b2795133aac88b9e0e",
+      "status": "reported"
+    },
+    {
+      "period": "Third quarter 2026; income and age divergence in consumption",
+      "denominator": {"value": 1, "unit": "National Restaurant Association weekly restaurant-engagement comparison", "value_type": "industry_tracking_base_not_published_on_page"},
+      "measures": {
+        "gen_z_engagement": {"value": 85, "unit": "percent of Gen Z reporting a restaurant, takeout, delivery, coffee, or snack occasion in the previous week", "value_type": "reported_share"},
+        "baby_boomer_engagement": {"value": 74, "unit": "percent of Baby Boomers reporting one of those occasions in the previous week", "value_type": "reported_share"},
+        "high_income_engagement": {"value": 92, "unit": "percent of households earning at least $100,000 reporting engagement", "value_type": "reported_share"},
+        "low_income_engagement": {"value": 71, "unit": "percent of households earning less than $50,000 reporting engagement", "value_type": "reported_share"},
+        "k_shape": {"value": "the association describes a K-shaped consumer environment in which higher-income spending remains resilient while younger and lower-income households face greater pressure", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-tabulated industry consumer tracking by generation and household income.",
+      "uncertainty": "The cross-tabs do not establish causal effects of income, age, prices, employment, or social meaning; engagement does not indicate frequency, amount, or profitability.",
+      "subgroup": "Gen Z, Millennials, Baby Boomers, and households below or above $50,000 and $100,000 income thresholds.",
+      "counterinterpretation": "Generational differences may reflect life stage, household composition, mobility, or cultural occasion differences rather than financial security alone.",
+      "source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/affordability-pressures-mount,-but-consumers-continue-to-prioritize-restaurants/",
+      "retrieval_hash": "sha256:e660d3a29333185cb01ab145f2efe9ff5b4a47b8f88eb8b2795133aac88b9e0e",
+      "status": "reported"
+    },
+    {
+      "period": "Third quarter 2026; trading down, food substitution, and operator strain",
+      "denominator": {"value": 1, "unit": "National Restaurant Association consumer and operator tracking", "value_type": "industry_tracking_base_not_published_on_page"},
+      "measures": {
+        "spending_less": {"value": 39, "unit": "percent reporting less restaurant, takeout, or delivery spending than in the second quarter", "value_type": "reported_share"},
+        "affordability_barrier": {"value": 43, "unit": "percent saying restaurant dining was somewhat or very difficult during the previous six months; 39% reported similar difficulty for takeout or delivery", "value_type": "reported_share"},
+        "value_shift": {"value": "40% relied more on discounts or value promotions, 36% shifted toward less expensive restaurants, and 34% ordered fewer add-ons", "unit": "reported consumer adaptations", "value_type": "reported_shares"},
+        "grocery_substitution": {"value": 46, "unit": "percent reporting increased grocery-store spending", "value_type": "reported_share"},
+        "operator_profitability": {"value": "one-third of operators reported not being profitable in the first half of 2026", "unit": "reported operator share", "value_type": "reported_share"}
+      },
+      "method": "Industry consumer-insights survey, monthly tracking, and operator survey summarized in an economic commentary.",
+      "uncertainty": "The measures do not identify household food sufficiency, restaurant-worker earnings, business exits, or whether grocery substitution reduces or increases total food costs; industry sponsorship may shape emphasis.",
+      "subgroup": "Younger consumers, lower-income consumers, restaurant operators, workers, full-service and limited-service customers, and households choosing between prepared food and groceries.",
+      "counterinterpretation": "Trading down can preserve participation and demand, but it may shift costs onto restaurant workers and operators or reduce the quality and variety of consumption.",
+      "source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/affordability-pressures-mount,-but-consumers-continue-to-prioritize-restaurants/",
+      "retrieval_hash": "sha256:e660d3a29333185cb01ab145f2efe9ff5b4a47b8f88eb8b2795133aac88b9e0e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/higher-income-households-continue-to-drive-restaurant-sales/", "claim": "National Restaurant Association follow-up commentary provides additional income concentration and restaurant-sales context."},
+    {"source_url": "https://www.restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/restaurants-remain-resilient-despite-challenging-business-conditions/", "claim": "Earlier association commentary provides trend context for restaurant resilience and operating conditions."}
+  ],
+  "boundary": "This record adds a U.S. consumer-culture route from financial strain through protected social consumption, trading down, grocery substitution, generational and income divergence, operator margins, and labor-market pressure. It is an industry-sponsored survey and commentary with incomplete public methodology, not a representative household panel, causal spending study, or direct measure of social connection or food security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official National Restaurant Association September 17, 2026 commentary was reviewed for financial well-being, expense difficulty, overspending, restaurant priorities, weekly engagement, income and generation cross-tabs, affordability barriers, value behavior, grocery substitution, operator profitability, and methodological limits.",
+    "source_url_sha256": "sha256:e660d3a29333185cb01ab145f2efe9ff5b4a47b8f88eb8b2795133aac88b9e0e",
+    "checked": "2026-09-28"
+  }
+}

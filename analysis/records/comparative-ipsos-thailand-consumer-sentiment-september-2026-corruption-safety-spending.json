@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-thailand-consumer-sentiment-september-2026-corruption-safety-spending",
+  "title": "Thai consumers retain routine spending resilience while corruption, safety, unemployment and affordability weaken political-economic legitimacy",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Ipsos Thailand, What Worries Thailand? September 2026, combining What Worries the World and consumer-sentiment findings",
+  "geography": "Thailand; Thai consumers and public-opinion respondents as defined by the Ipsos release",
+  "observations": [
+    {
+      "period": "September 2026; national worries and year-on-year movement",
+      "denominator": {"value": null, "unit": "Thai respondents in the Ipsos What Worries the World and consumer-sentiment source frames; public release does not state a single pooled item base", "value_type": "not_disclosed"},
+      "measures": {
+        "corruption_concern": {"value": 52, "unit": "percent identifying financial and political corruption as one of Thailand's biggest worries", "value_type": "published_survey_estimate"},
+        "crime_violence_concern": {"value": 34, "unit": "percent identifying crime and violence as one of the country's three biggest concerns", "value_type": "published_survey_estimate"},
+        "crime_year_change": {"value": 16, "unit": "percentage-point increase in crime-and-violence concern from September 2025", "value_type": "published_change"},
+        "poverty_inequality_concern": {"value": 34, "unit": "percent identifying poverty and social inequality as a major concern", "value_type": "published_survey_estimate"},
+        "unemployment_concern": {"value": 30, "unit": "percent identifying unemployment as one of the country's biggest worries; up 11 percentage points year-on-year", "value_type": "published_survey_estimate"},
+        "legitimacy_stack": {"value": "governance integrity, public safety and economic opportunity are converging into one public legitimacy surface", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos country analysis combining published What Worries the World concern indicators with consumer-sentiment measures; the public page does not provide one pooled respondent denominator or full questionnaire in the release.",
+      "uncertainty": "Concern measures are self-reported and item-specific; they do not establish actual corruption, crime, unemployment, inequality, causal drivers, or policy effects.",
+      "subgroup": "Thai respondents and consumers represented in the Ipsos country release.",
+      "counterinterpretation": "A rise in concern can reflect greater salience or news attention rather than worsening objective conditions, and top-ranked worries need not determine voting, purchasing or compliance.",
+      "source_url": "https://www.ipsos.com/en-th/what-worries-thailand-september-2026",
+      "retrieval_hash": "sha256:37b5c3175e9ca6dbb8b5336518ea7bb91f2ad90c26b00f36753196888e6d3755",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; national direction and economic evaluation",
+      "denominator": {"value": null, "unit": "Thai respondents in the Ipsos country release; item-specific bases are source-defined", "value_type": "not_disclosed"},
+      "measures": {
+        "wrong_direction": {"value": 52, "unit": "percent saying Thailand is heading in the wrong direction", "value_type": "published_survey_estimate"},
+        "right_direction": {"value": 48, "unit": "percent saying Thailand is heading in the right direction", "value_type": "published_survey_estimate"},
+        "economy_bad": {"value": 61, "unit": "percent describing the current economy as bad", "value_type": "published_survey_estimate"},
+        "direction_economy_gap": {"value": "negative national and economic judgments coexist with continued routine-purchase confidence", "unit": "reported relationship", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos published country-level consumer-sentiment indicators and directional comparisons with August 2026.",
+      "uncertainty": "Direction and economic judgments are aggregate perceptions; they do not measure GDP, household income, public-service performance, or causal attribution.",
+      "subgroup": "Thai respondents in the public release's national consumer-sentiment frame.",
+      "counterinterpretation": "People can distinguish macroeconomic judgment from personal purchasing needs, and negative direction ratings need not imply immediate withdrawal from everyday consumption.",
+      "source_url": "https://www.ipsos.com/en-th/what-worries-thailand-september-2026",
+      "retrieval_hash": "sha256:37b5c3175e9ca6dbb8b5336518ea7bb91f2ad90c26b00f36753196888e6d3755",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; routine and major-purchase confidence",
+      "denominator": {"value": null, "unit": "Thai consumers in the Ipsos consumer-sentiment source frame; item-specific base not disclosed on the public release", "value_type": "not_disclosed"},
+      "measures": {
+        "everyday_purchase_comfort": {"value": 64, "unit": "percent feeling more comfortable making everyday household purchases than six months earlier", "value_type": "published_survey_estimate"},
+        "major_purchase_comfort": {"value": 50, "unit": "percent feeling more comfortable making major purchases such as a home or car than six months earlier", "value_type": "published_survey_estimate"},
+        "financial_situation_stronger": {"value": 46, "unit": "percent expecting their personal financial situation to become stronger over the next six months", "value_type": "published_survey_estimate"},
+        "financial_situation_weaker": {"value": 19, "unit": "percent expecting their personal financial situation to become weaker over the next six months", "value_type": "published_survey_estimate"},
+        "consumption_legitimacy_split": {"value": "routine consumption remains more resilient than major commitments and national economic confidence", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos consumer-sentiment comparisons with six months earlier, as reported in the country analysis.",
+      "uncertainty": "Comfort and expectations are self-reported; the release does not observe transactions, debt service, household budgets, credit access, or future purchase completion.",
+      "subgroup": "Thai consumers in the Ipsos country release.",
+      "counterinterpretation": "Everyday-purchase resilience may reflect necessity, inflation-adjusted nominal spending, temporary confidence, or substitution rather than improved household room.",
+      "source_url": "https://www.ipsos.com/en-th/what-worries-thailand-september-2026",
+      "retrieval_hash": "sha256:37b5c3175e9ca6dbb8b5336518ea7bb91f2ad90c26b00f36753196888e6d3755",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; policy-response context",
+      "denominator": {"value": 1, "unit": "Thai government consumer-subsidy policy context described by Ipsos", "value_type": "reported_policy_context"},
+      "measures": {
+        "consumer_subsidy_extension": {"value": 43, "unit": "billion Thai baht value of the consumer subsidy programme extension cited by Ipsos", "value_type": "reported_policy_amount"},
+        "policy_legitimacy_route": {"value": "household-purchasing-power policy is presented against persistent worries about corruption, safety, unemployment, inequality and living costs", "unit": "reported policy-consumer link", "value_type": "reported_mechanism"},
+        "policy_outcome_boundary": {"value": "the release does not evaluate subsidy take-up, incidence, fiscal sustainability, price effects or durable trust", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Ipsos country analysis citing the September policy extension as contextual evidence alongside public concern and consumer sentiment.",
+      "uncertainty": "The subsidy figure is policy context, not an evaluation; no beneficiary, spending, price or welfare outcome is observed in the release.",
+      "subgroup": "Thai households, consumers and government policy context.",
+      "counterinterpretation": "A consumer subsidy may stabilize routine spending without resolving institutional integrity, labor-market security or perceived direction of the country.",
+      "source_url": "https://www.ipsos.com/en-th/what-worries-thailand-september-2026",
+      "retrieval_hash": "sha256:37b5c3175e9ca6dbb8b5336518ea7bb91f2ad90c26b00f36753196888e6d3755",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-th/what-worries-thailand-september-2026", "claim": "Ipsos primary country analysis with September 2026 concern, direction, economic, spending and policy-context indicators.", "status": "primary-country-analysis"},
+    {"source_url": "https://www.ipsos.com/en/what-worries-the-world", "claim": "Ipsos What Worries the World series provides the comparative concern framework referenced by the Thailand analysis.", "status": "series-context"}
+  ],
+  "boundary": "This record adds a comparative consumer-legitimacy route: routine purchasing confidence can remain resilient while corruption, crime, unemployment, inequality, economic pessimism and national-direction judgments deteriorate. The Ipsos public release combines concern and consumer-sentiment indicators without publishing one pooled denominator on the country page; it does not measure objective conditions, realized purchasing, subsidy incidence, causal attribution or durable political trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Ipsos Thailand primary country analysis reviewed for concern ranking, year-on-year changes, national direction, economic evaluation, routine and major-purchase comfort, personal-finance expectations, and cited subsidy context.",
+    "source_url_sha256": "sha256:37b5c3175e9ca6dbb8b5336518ea7bb91f2ad90c26b00f36753196888e6d3755",
+    "checked": "2026-09-29"
+  }
+}

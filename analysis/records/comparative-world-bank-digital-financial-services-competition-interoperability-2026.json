@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-digital-financial-services-competition-interoperability-2026",
+  "title": "Digital financial inclusion depends on competitive infrastructure, not access rules alone",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Bank, Competition as a Catalyst for Digital Financial Services Usage: Chapeau Paper, September 2026",
+  "geography": "Comparative case studies of Brazil, Ghana, India, Jamaica, Nigeria, and the Philippines, with global financial-inclusion context",
+  "observations": [
+    {
+      "period": "2014-2024; six-country digital financial services comparison",
+      "denominator": {"value": 6, "unit": "country case studies: Brazil, Ghana, India, Jamaica, Nigeria, and the Philippines", "value_type": "reported_comparative_case_frame"},
+      "measures": {
+        "account_ownership": {"value": "2025 Global Findex financial-inclusion rates were 89% in India, 86% in Brazil, 81% in Ghana, 63% in Nigeria, and 50% in the Philippines; Jamaica did not participate in the 2024 Findex survey", "unit": "percent of adults age 15+", "value_type": "reported_cross_country_comparison"},
+        "digital_payments": {"value": "among adults with accounts, 2024 digital-payment usage was 80% in Ghana, 77% in Brazil, 48% in India, 54% in Nigeria, and 40% in the Philippines", "unit": "percent of adults with accounts", "value_type": "reported_cross_country_comparison"},
+        "access_usage_gap": {"value": "account ownership and active digital-payment use diverge across countries, showing that access to an account does not automatically produce routine digital engagement", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "competition, interoperability, market conduct, trust, institutional coordination, and usable last-mile access help determine whether formal access becomes repeated usage", "unit": "bounded digital-finance adoption mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative synthesis of six country case studies using 2025 World Bank Global Findex indicators, policy and regulatory review, infrastructure analysis, and stakeholder-informed country research.",
+      "uncertainty": "The paper explicitly states that it does not establish a causal relationship between competition and digital-finance uptake; countries differ in history, income, infrastructure, measurement, and policy context, and the comparison is not a matched experiment.",
+      "subgroup": "Low-income and underserved consumers, adults with transaction accounts, small merchants, fintech users, rural and last-mile users, and people who remain formally included but digitally inactive.",
+      "counterinterpretation": "Digital-payment usage can be constrained by device access, safety, fraud, cash preferences, digital literacy, network reliability, or trust even where competition is present; higher account ownership may still represent meaningful resilience or future option value.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092126154525383/pdf/P180967-bb7d91b8-ba36-4914-b6f3-dabcc56668d5.pdf",
+      "retrieval_hash": "sha256:d2d7ac9f55c004a1ec003d98dc77942db317b2ae1819c019d015b09b98455a72",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2024; open and interoperable payment infrastructure in Brazil, Ghana, and India",
+      "denominator": {"value": 3, "unit": "higher-performing case-study countries: Brazil, Ghana, and India", "value_type": "reported_case_group"},
+      "measures": {
+        "infrastructure_models": {"value": "Brazil’s Pix, India’s Unified Payments Interface, and Ghana’s Mobile Money Interoperability lowered transaction costs, enabled seamless payments, and supported entry and competition", "unit": "reported infrastructure mechanisms", "value_type": "reported_case_finding"},
+        "ghana_interoperability": {"value": "Ghana’s interoperable mobile-money transactions rose from 90,000 to 800,000 within four months after launch; total mobile-money transactions grew from 981.56 million in 2017 to 1.45 billion in 2018", "unit": "transactions", "value_type": "reported_jurisdiction_specific_change"},
+        "ghana_instant_pay": {"value": "Ghana instant-pay transactions rose from 0.1 million in 2018 to 6.8 million by 2020 after integration with the interoperability framework", "unit": "transactions", "value_type": "reported_jurisdiction_specific_change"},
+        "india_onboarding": {"value": "the paper reports that Aadhaar-enabled electronic KYC reduced onboarding costs by over 80% in India", "unit": "percent reduction", "value_type": "reported_jurisdiction_specific_example"},
+        "mechanism": {"value": "open rails create practical switching and entry possibilities only when access conditions, fees, quality of service, participation rules, and governance prevent the infrastructure from becoming a closed incumbent advantage", "unit": "bounded infrastructure-competition mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative case-study analysis of payment systems, digital ID, licensing, open finance, interoperability rules, transaction data, and infrastructure governance.",
+      "uncertainty": "The reported transaction and onboarding changes are descriptive country examples and are not isolated causal estimates; other reforms, macroeconomic changes, network effects, and adoption dynamics may contribute.",
+      "subgroup": "Consumers switching between providers, small merchants, fintechs and nonbank providers, rural users reached through agents, and users facing onboarding or transaction-cost barriers.",
+      "counterinterpretation": "Open infrastructure can create concentration at another layer, generate governance or single-point-of-failure risks, and require safeguards for privacy, cybersecurity, stability, and anti-money-laundering compliance.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092126154525383/pdf/P180967-bb7d91b8-ba36-4914-b6f3-dabcc56668d5.pdf",
+      "retrieval_hash": "sha256:d2d7ac9f55c004a1ec003d98dc77942db317b2ae1819c019d015b09b98455a72",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; competition, trust, and institutional coordination in lower-performing case studies",
+      "denominator": {"value": 3, "unit": "mixed- or slower-performance case-study countries: Jamaica, Nigeria, and the Philippines", "value_type": "reported_case_group"},
+      "measures": {
+        "barriers": {"value": "incumbent market dominance, restricted access to payment infrastructure, limited consent-based data sharing and account mobility, weak sandbox graduation, limited market-conduct supervision, fraud, and low digital literacy are identified as barriers", "unit": "reported barrier set", "value_type": "reported_case_finding"},
+        "last_mile": {"value": "Nigeria’s SANEF agent network had enrolled over 1.8 million agents by December 2024, while proposed agent exclusivity could threaten interoperability and last-mile access", "unit": "agents and reported governance risk", "value_type": "reported_jurisdiction_specific_example"},
+        "trust": {"value": "high fraud rates, weak market-conduct supervision, and low digital literacy can undermine consumer trust and confidence even when accounts and digital rails exist", "unit": "reported trust mechanism", "value_type": "reported_mechanism"},
+        "institutional_design": {"value": "the paper recommends coordinated action among financial, telecommunications, data-protection, competition, and consumer-protection authorities, including fraud detection and dispute resolution", "unit": "reported governance route", "value_type": "reported_policy_recommendation"},
+        "mechanism": {"value": "digital inclusion becomes a trust-and-governance system: access can stall when users cannot switch, contest errors, understand risks, or rely on institutions to police fraud and concentration", "unit": "bounded trust-governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Country case-study comparison of market structure, agents, payment access, regulatory coordination, fraud, consumer protection, digital literacy, and competition enforcement.",
+      "uncertainty": "The case-study grouping is comparative and interpretive, not a causal classification; agent counts, trust conditions, usage rates, and institutional arrangements do not by themselves establish welfare effects or universal policy rankings.",
+      "subgroup": "Consumers with low digital literacy, users exposed to fraud or scams, agents and merchants, nonbank providers, fintech entrants, and consumers dependent on a small number of incumbent platforms.",
+      "counterinterpretation": "Concentration can sometimes support reliability, investment, or coordinated standards; agent exclusivity may improve oversight in some settings even while risking interoperability in others.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092126154525383/pdf/P180967-bb7d91b8-ba36-4914-b6f3-dabcc56668d5.pdf",
+      "retrieval_hash": "sha256:d2d7ac9f55c004a1ec003d98dc77942db317b2ae1819c019d015b09b98455a72",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099092126154525383", "claim": "Official World Bank record, report number 215017, title, publication metadata, project, and abstract."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099092126154525383", "claim": "World Bank document API record containing the official PDF URL, abstract, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a competition-and-interoperability-to-active-digital-use mechanism that extends the prior digital-credit and consumer-protection findings. It is a comparative case-study synthesis, not a causal evaluation, universal country ranking, or direct measure of household welfare; the next test is whether specific infrastructure and governance reforms change switching, transaction costs, fraud exposure, trust, active usage, and distributional access without creating new concentration or single-point-of-failure risks.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, six-country Global Findex comparisons, interoperability and payment-infrastructure examples, digital-ID onboarding, market-concentration barriers, agent-network evidence, trust and fraud mechanisms, governance recommendations, and noncausal case-study boundary were reviewed.",
+    "source_url_sha256": "sha256:d2d7ac9f55c004a1ec003d98dc77942db317b2ae1819c019d015b09b98455a72",
+    "checked": "2026-09-29"
+  }
+}

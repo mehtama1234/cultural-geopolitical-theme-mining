@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-economics-2026-ambition-payroll-thriving",
+  "title": "Economic progress is being reframed through work engagement, access to real jobs, and perceived life trajectory alongside GDP",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Gallup Economics 2026, Annual Report: leading indicators of economic growth",
+  "geography": "Global Gallup World Poll adult population, with 2025 data and additional U.S. working-population samples",
+  "observations": [
+    {
+      "period": "2026; alternative economic measurement framework",
+      "denominator": {"value": 3, "unit": "Gallup companion indicators proposed alongside GDP: Gross Domestic Ambition, Gross Domestic Payroll to Population, and Gross Domestic Thriving", "value_type": "published_measurement_framework"},
+      "measures": {
+        "ambition": {"value": "Gross Domestic Ambition measures the percentage of employees who are engaged and committed to their jobs in a culture of ambition", "unit": "proposed leading indicator", "value_type": "reported_framework_measure"},
+        "payroll": {"value": "Gross Domestic Payroll to Population measures the share of the entire population aged 15 and older employed full time for an employer for at least 30 hours per week", "unit": "proposed leading indicator", "value_type": "reported_framework_measure"},
+        "thriving": {"value": "Gross Domestic Thriving measures how people rate their lives today and how hopeful they feel about tomorrow", "unit": "proposed leading indicator", "value_type": "reported_framework_measure"},
+        "boundary": {"value": "these are Gallup's proprietary companion measures and framework, not replacements for national accounts, causal estimates, or a complete welfare measure", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Gallup measurement framework combining GDP with World Poll and workplace indicators to capture economic ambition, full-time employer-based work, and present/future life evaluation.",
+      "uncertainty": "The framework's validity, comparability, and relationship to later growth or welfare outcomes require independent testing; definitions may differ from national statistical standards.",
+      "subgroup": "Adults aged 15 and older, employees, full-time workers, people outside the labor force, and populations with different work and life-evaluation conditions.",
+      "counterinterpretation": "Employment engagement and subjective thriving can improve without broad productivity growth, while GDP growth can coexist with low engagement or weak life evaluations.",
+      "source_url": "https://www.gallup.com/analytics/708131/gallup-economics.aspx",
+      "retrieval_hash": "sha256:204a11f88b15202d192bd9a95513e383f6b3bdc45d6b6665b23e6324c973ed68",
+      "status": "reported"
+    },
+    {
+      "period": "2025 data reported in 2026; global work engagement and ambition",
+      "denominator": {"value": 1, "unit": "Gallup global working-population indicator", "value_type": "published_aggregate_survey_measure"},
+      "measures": {
+        "engagement": {"value": "20% of the world's workers are classified by Gallup as engaged—highly ambitious and committed to their jobs", "unit": "global worker share", "value_type": "reported_aggregate_survey"},
+        "culture": {"value": "the Gross Domestic Ambition concept links workplace culture, employee engagement, innovation, growth, and competitiveness", "unit": "reported conceptual pathway", "value_type": "reported_framework_mechanism"},
+        "work_quality": {"value": "the indicator treats work engagement and ambition as distinct from simply having a job", "unit": "reported measurement distinction", "value_type": "reported_measurement_distinction"},
+        "analytic_signal": {"value": "headline employment does not establish that workplaces provide motivation, agency, contribution, or a credible route to growth", "unit": "analytic work-quality mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gallup World Poll and workplace research used to construct the Gross Domestic Ambition indicator.",
+      "uncertainty": "Engagement is a modeled or surveyed construct influenced by question wording, culture, occupation, employment form, and local labor markets; it is not bargaining power or job quality by itself.",
+      "subgroup": "Employees, managers, occupations, sectors, countries, and workers with different levels of control, security, pay, and opportunity.",
+      "counterinterpretation": "Low engagement may reflect temporary conditions, expectations, or cultural response styles rather than durable workplace dysfunction.",
+      "source_url": "https://www.gallup.com/analytics/708131/gallup-economics.aspx",
+      "retrieval_hash": "sha256:204a11f88b15202d192bd9a95513e383f6b3bdc45d6b6665b23e6324c973ed68",
+      "status": "reported"
+    },
+    {
+      "period": "2025 data reported in 2026; full-time employer-based work and economic inclusion",
+      "denominator": {"value": 1, "unit": "Gallup global population employment indicator", "value_type": "published_aggregate_survey_measure"},
+      "measures": {
+        "payroll_to_population": {"value": "27% of the world's population aged 15 and older holds a full-time employer-based job of at least 30 hours per week", "unit": "global population share", "value_type": "reported_aggregate_survey"},
+        "coverage": {"value": "the measure counts the full population rather than only people already in the labor force, making access to stable employer-based work visible", "unit": "reported measurement frame", "value_type": "reported_measurement_distinction"},
+        "inclusion": {"value": "the indicator is intended to connect job growth to the breadth of economic participation rather than counting only unemployment or labor-force totals", "unit": "reported framework route", "value_type": "reported_framework_mechanism"},
+        "analytic_signal": {"value": "a country can show employment or output while a relatively small share of its adult population has the kind of full-time employer relationship the measure treats as a real job", "unit": "analytic access-to-work mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gallup aggregate employment measure using the population aged 15 and older as denominator and a full-time employer-based work threshold.",
+      "uncertainty": "The threshold excludes self-employment, informal work, part-time work, unpaid care, education, and other valuable activities; it should not be interpreted as a universal definition of a real or good job.",
+      "subgroup": "Full-time employees, self-employed and informal workers, caregivers, students, older adults, people seeking work, and countries with different employment structures.",
+      "counterinterpretation": "Self-employment, flexible work, public transfers, household production, and part-time work can provide income or autonomy even when the indicator is low.",
+      "source_url": "https://www.gallup.com/analytics/708131/gallup-economics.aspx",
+      "retrieval_hash": "sha256:204a11f88b15202d192bd9a95513e383f6b3bdc45d6b6665b23e6324c973ed68",
+      "status": "reported"
+    },
+    {
+      "period": "2025 data reported in 2026; present and future life trajectory",
+      "denominator": {"value": 1, "unit": "Gallup global life-evaluation indicator", "value_type": "published_aggregate_survey_measure"},
+      "measures": {
+        "thriving": {"value": "35% of adults worldwide are classified by Gallup as thriving based on present and future life evaluations", "unit": "global adult share", "value_type": "reported_aggregate_survey"},
+        "trajectory": {"value": "the measure combines how people believe their lives are going today with how hopeful they feel about tomorrow", "unit": "reported life-evaluation construct", "value_type": "reported_framework_measure"},
+        "economic_link": {"value": "Gallup positions thriving alongside ambition, payroll-to-population, and GDP to connect economic conditions with perceived life direction", "unit": "reported framework route", "value_type": "reported_framework_mechanism"},
+        "open_test": {"value": "join GDP and prices, job access, work engagement, schedule and care time, housing and services, social connection, trust, life evaluation, and later mobility without treating subjective thriving as a causal outcome of one economic indicator", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Gallup World Poll life-evaluation data, with 2025 data collected between April and December 2025 and a civilian noninstitutionalized population aged 15 and older target.",
+      "uncertainty": "Subjective life evaluations vary with expectations, culture, current shocks, question framing, and response styles; they do not identify which institution or market condition caused the rating.",
+      "subgroup": "Adults across countries, age groups, income and employment situations, households, and people with different present and future expectations.",
+      "counterinterpretation": "High thriving can coexist with low material security in some contexts, while high GDP or employment can coexist with low hope or life satisfaction.",
+      "source_url": "https://www.gallup.com/analytics/708131/gallup-economics.aspx",
+      "retrieval_hash": "sha256:204a11f88b15202d192bd9a95513e383f6b3bdc45d6b6665b23e6324c973ed68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/701519/worlds-most-important-problem-report.aspx", "claim": "Gallup's World’s Most Important Problem report supplies a complementary aggregate public-attention route from economic security, work, governance, and safety to political judgment."},
+    {"source_url": "https://www.gallup.com/workplace/236441/employee-engagement-drives-growth.aspx", "claim": "Gallup workplace research supplies broader context for engagement and workplace performance claims."},
+    {"source_url": "https://www.gallup.com/analytics/708131/gallup-economics.aspx", "claim": "The official Gallup Economics page supplies the three proposed indicators, headline global values, source data, and methodology notes."}
+  ],
+  "boundary": "This record adds a measurement and lived-progress route from GDP and work access through engagement, full-time employer-based employment, life trajectory, and economic inclusion. It uses Gallup's aggregate survey and proprietary framework, not respondent-level records, national-account validation, bargaining-power measures, causal growth estimates, or proof that the three indicators predict future welfare equally across countries.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup Economics 2026 page was reviewed for the three companion indicators, global headline values, conceptual framework, World Poll coverage, 2025 fieldwork window, and population definitions.",
+    "source_url_sha256": "sha256:204a11f88b15202d192bd9a95513e383f6b3bdc45d6b6665b23e6324c973ed68",
+    "checked": "2026-09-26"
+  }
+}

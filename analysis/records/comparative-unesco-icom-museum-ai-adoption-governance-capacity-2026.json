@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-icom-museum-ai-adoption-governance-capacity-2026",
+  "title": "Museums are experimenting with AI faster than they are building internal policy, training, data governance, and professional capacity",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UNESCO-ICOM, Global Survey on the Use of Artificial Intelligence in Museums",
+  "geography": "Museums and cultural institutions across 90 countries, with attention to regional differences in digital infrastructure, funding, technical capacity, and expertise",
+  "observations": [
+    {
+      "period": "2026 survey; global museum AI adoption frame",
+      "denominator": {"value": 400, "unit": "more than 400 museums surveyed across 90 countries", "value_type": "reported_sample_scope"},
+      "measures": {
+        "ai_use": {"value": 57, "unit": "percent of responding museums already using AI", "value_type": "reported_percentage"},
+        "policy_gap": {"value": 55, "unit": "percent of responding museums without an internal AI policy, strategy, or guidelines", "value_type": "reported_percentage"},
+        "adoption_pattern": {"value": "AI use remains predominantly exploratory or staff-led rather than institution-wide", "unit": "reported adoption pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "First UNESCO-ICOM global survey on AI use in museums, summarized through official UNESCO reporting and presented at the 2026 Global Forum on the Ethics of Artificial Intelligence.",
+      "uncertainty": "The public article does not provide the full questionnaire, sampling frame, response rate, weighting, country-by-country estimates, or the operational definition of AI use; reported percentages describe responding museums.",
+      "subgroup": "Museums, museum professionals, curators, educators, archivists, visitors, artists, communities represented in collections, and institutions with unequal digital resources.",
+      "counterinterpretation": "Exploratory staff-led use can be a cautious learning stage rather than institutional failure, while a formal policy can exist without meaningful ethical practice or staff voice.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-icom-global-survey-finds-museums-embracing-ai-governance-and-capacity-lag-behind",
+      "retrieval_hash": "sha256:8b293921148183f07ff18eca2acb27c709bcc9bdb3a95cf843fb6e21b3f94d3d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; museum AI governance concerns",
+      "denominator": {"value": 1, "unit": "UNESCO-ICOM survey-reported concern frame", "value_type": "reported_framework"},
+      "measures": {
+        "leading_concerns": {"value": "Accuracy, copyright, and data protection are identified as leading concerns in museum AI use", "unit": "reported concern set", "value_type": "reported_concern"},
+        "professional_responsibility": {"value": "Museums are navigating ethical, trust, and professional-responsibility questions as they experiment with AI", "unit": "reported institutional challenge", "value_type": "reported_interpretation"},
+        "governance_gap": {"value": "Adoption is advancing faster than institutional capacity and governance", "unit": "reported sector diagnosis", "value_type": "reported_assessment"}
+      },
+      "method": "UNESCO-ICOM survey synthesis connecting adoption with accuracy, intellectual property, data protection, trust, and professional ethics.",
+      "uncertainty": "The concern ranking does not quantify incident rates, legal exposure, visitor harms, provenance problems, or whether specific governance tools mitigate them.",
+      "subgroup": "Collections staff, artists, rights holders, researchers, visitors, data subjects, communities whose cultural materials are held by museums, and museum leadership.",
+      "counterinterpretation": "AI may support access, preservation, translation, discovery, and new forms of interpretation, but these benefits depend on consent, provenance, accuracy, and control over cultural data.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-icom-global-survey-finds-museums-embracing-ai-governance-and-capacity-lag-behind",
+      "retrieval_hash": "sha256:8b293921148183f07ff18eca2acb27c709bcc9bdb3a95cf843fb6e21b3f94d3d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; museum capacity and inequality conditions",
+      "denominator": {"value": 1, "unit": "UNESCO-ICOM global museum capacity frame", "value_type": "reported_framework"},
+      "measures": {
+        "unequal_conditions": {"value": "Digital infrastructure, funding, technical capacity, and access to expertise differ across regions and contexts", "unit": "reported inequality set", "value_type": "reported_assessment"},
+        "capacity_need": {"value": "Museums requested training and guidance on technical and ethical AI use, data governance, and intellectual-property rights", "unit": "reported support need", "value_type": "reported_need"},
+        "distributional_route": {"value": "Unequal institutional capacity means museums do not have the same opportunity to explore or adopt AI", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNESCO-ICOM survey and institutional interpretation of regional and organizational differences in museum AI readiness.",
+      "uncertainty": "The public summary does not report the size or direction of regional differences, nor whether training, funding, or infrastructure access changes adoption or outcomes.",
+      "subgroup": "Museums in low-resource settings, smaller institutions, cultural workers, communities, and audiences dependent on public or local cultural infrastructure.",
+      "counterinterpretation": "Lower adoption may reflect institutional restraint, local priorities, or protection of cultural materials rather than simple deficiency; high adoption may reflect capacity but also greater exposure to ungoverned risks.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-icom-global-survey-finds-museums-embracing-ai-governance-and-capacity-lag-behind",
+      "retrieval_hash": "sha256:8b293921148183f07ff18eca2acb27c709bcc9bdb3a95cf843fb6e21b3f94d3d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy and professional response",
+      "denominator": {"value": 1, "unit": "UNESCO-ICOM museum AI policy response", "value_type": "reported_framework"},
+      "measures": {
+        "guidance_route": {"value": "The survey findings are intended to inform operational and policy guidance for UNESCO Member States and museum professionals", "unit": "reported policy use", "value_type": "reported_use"},
+        "ethics_route": {"value": "The work is aligned with UNESCO’s 2015 museum recommendation, 2021 AI ethics recommendation, and ICOM’s code of ethics", "unit": "reported normative route", "value_type": "reported_framework"},
+        "capacity_route": {"value": "Survey outcomes will guide capacity-building programs", "unit": "reported implementation route", "value_type": "reported_plan"}
+      },
+      "method": "UNESCO-ICOM survey publication and planned use in operational guidance and capacity-building.",
+      "uncertainty": "Planned guidance and capacity-building do not establish adoption, enforcement, funding, or improved visitor, staff, artist, or community outcomes.",
+      "subgroup": "UNESCO Member States, museum leaders, professionals, cultural workers, rights holders, communities, and audiences.",
+      "counterinterpretation": "Shared standards can improve trust and consistency, but global guidance may not resolve local questions about sovereignty, restitution, community consent, or culturally specific knowledge.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-icom-global-survey-finds-museums-embracing-ai-governance-and-capacity-lag-behind",
+      "retrieval_hash": "sha256:8b293921148183f07ff18eca2acb27c709bcc9bdb3a95cf843fb6e21b3f94d3d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cultural-institutional AI signal linking museum adoption, governance, professional capacity, accuracy, copyright, data protection, digital inequality, and cultural trust. It is a public summary of a global survey, not respondent-level ingestion, a representative estimate of all museums, a causal evaluation, a visitor-outcome study, or proof that AI improves cultural access or interpretation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNESCO article reviewed for survey scope across more than 400 museums and 90 countries, 57 percent AI use, 55 percent without internal policy, exploratory/staff-led adoption, concern set, capacity inequalities, requested training, and planned guidance/capacity-building.",
+    "source_url_sha256": "sha256:8b293921148183f07ff18eca2acb27c709bcc9bdb3a95cf843fb6e21b3f94d3d",
+    "checked": "2026-09-27"
+  }
+}

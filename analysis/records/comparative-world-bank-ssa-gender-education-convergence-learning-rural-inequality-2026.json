@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ssa-gender-education-convergence-learning-rural-inequality-2026",
+  "title": "Gender parity in schooling is advancing across generations, but attainment, learning, and opportunity are diverging",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11455, Convergence or Reversal? The Evolution of the Gender Gap in Education in Sub-Saharan Africa",
+  "geography": "Sub-Saharan Africa; microdata from Demographic and Health Surveys and Multiple Indicator Cluster Surveys covering 35 countries, supplemented by learning assessments in 14 francophone countries",
+  "observations": [
+    {
+      "period": "Birth cohorts from the 1970s through cohorts born after 1999; educational attainment",
+      "denominator": {"value": 736000, "unit": "approximately individuals across 35 Sub-Saharan African countries in DHS/MICS microdata", "value_type": "reported_microdata_sample"},
+      "measures": {
+        "historical_gap": {"value": "among cohorts born in the 1970s, female disadvantage was approximately 13–15 percentage points in primary and secondary attendance and about 1.9 years of schooling", "unit": "reported cohort gender gap", "value_type": "reported_gap"},
+        "cohort_convergence": {"value": "attainment gaps narrow sharply across cohorts and are statistically insignificant across most youngest birth cohorts", "unit": "reported cohort trend", "value_type": "reported_convergence"},
+        "youngest_cohorts": {"value": "among people born after 1999, females exceed males in secondary attendance and years of education in a majority of countries", "unit": "reported country-pattern result", "value_type": "reported_reversal_or_convergence"},
+        "mechanism": {"value": "regional gender convergence is a generational process rather than a uniform contemporaneous improvement across all places and education stages", "unit": "bounded social mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-cohort descriptive analysis of harmonized DHS and MICS microdata from 35 countries, with country-specific education-cycle and demographic controls.",
+      "uncertainty": "Cohort comparisons are descriptive and can reflect selection, survey timing, school expansion, migration, mortality, and country-specific changes rather than a single causal intervention.",
+      "subgroup": "Girls and boys across birth cohorts, primary and secondary attendance, countries, rural and urban populations, and socioeconomic and religious groups.",
+      "counterinterpretation": "Apparent parity can coexist with low absolute attendance, changing male participation, selective survival or migration, and unequal school quality; attendance is not the same as learning or later opportunity.",
+      "source_url": "https://documents.worldbank.org/curated/en/099802309162612875/pdf/IDU-6043000e-cda5-497a-a7e3-b0371a0d5885.pdf",
+      "retrieval_hash": "sha256:d21199d92e608b5592c02d76b7bf76a7b32a46985feb3975fb07a0dd5d4bb450",
+      "status": "reported"
+    },
+    {
+      "period": "Birth cohorts and learning assessments; attainment versus learning",
+      "denominator": {"value": 14, "unit": "francophone Sub-Saharan African countries with international educational assessment and monitoring data", "value_type": "reported_learning_assessment_frame"},
+      "measures": {
+        "learning_direction": {"value": "learning gaps show no uniform direction across countries and often run counter to attainment gaps", "unit": "reported cross-country pattern", "value_type": "reported_heterogeneity"},
+        "conversion_gap": {"value": "more equal attendance does not guarantee more equal measured learning", "unit": "bounded education-conversion mechanism", "value_type": "bounded_mechanism"},
+        "institutional_signal": {"value": "gender parity metrics can conceal differences in instructional quality, completion, subject pathways, and usable skills", "unit": "bounded measurement mechanism", "value_type": "bounded_mechanism"},
+        "work_route": {"value": "education parity may improve future work options only when schooling converts into learning, credentials, mobility, and non-discriminatory labor-market opportunity", "unit": "bounded education-to-work mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Supplementary analysis using international assessment and monitoring data for 14 francophone countries, compared with attainment patterns.",
+      "uncertainty": "Learning measures, assessments, grade levels, language, cohorts, and country coverage differ from the household-survey attainment data; the study does not estimate labor-market or income effects.",
+      "subgroup": "Girls and boys in assessed countries, school systems with different language and quality conditions, and learners whose attendance does or does not translate into measured competencies.",
+      "counterinterpretation": "Assessment differences may reflect curriculum, test design, language, participation, or school selection rather than a stable gender learning disadvantage.",
+      "source_url": "https://documents.worldbank.org/curated/en/099802309162612875/pdf/IDU-6043000e-cda5-497a-a7e3-b0371a0d5885.pdf",
+      "retrieval_hash": "sha256:d21199d92e608b5592c02d76b7bf76a7b32a46985feb3975fb07a0dd5d4bb450",
+      "status": "reported"
+    },
+    {
+      "period": "Young and recent birth cohorts; persistent subgroup inequality",
+      "denominator": {"value": 35, "unit": "Sub-Saharan African countries in the regional attainment analysis", "value_type": "reported_country_frame"},
+      "measures": {
+        "persistent_gaps": {"value": "wider attainment gaps persist among rural, poorer, and Muslim populations", "unit": "reported subgroup pattern", "value_type": "reported_inequality_pattern"},
+        "unequal_convergence": {"value": "regional and aggregate convergence can coexist with persistent exclusion for groups facing distance, poverty, gender norms, school costs, insecurity, or weaker supply", "unit": "bounded social-institutional mechanism", "value_type": "bounded_mechanism"},
+        "generational_meaning": {"value": "younger women's educational gains can change family expectations and future agency while leaving place- and class-specific constraints intact", "unit": "bounded cultural mechanism", "value_type": "bounded_mechanism"},
+        "next_outcome": {"value": "the open question is whether parity converts into learning, employment, earnings, voice, health, delayed marriage, and household bargaining power", "unit": "evidence boundary and next-test frame", "value_type": "bounded_next_test"}
+      },
+      "method": "Subgroup comparison across country, rurality, wealth, and religious-population patterns in harmonized survey data.",
+      "uncertainty": "The study documents associations and cohort patterns, not the causal contribution of poverty, rural residence, religion, school supply, household preferences, safety, or labor-market discrimination.",
+      "subgroup": "Rural households, poorer households, Muslim populations, girls and boys, younger cohorts, and countries with different education systems and social norms.",
+      "counterinterpretation": "Persistent gaps may partly reflect differences in survey measurement, population composition, school-cycle definitions, or the timing of reforms; subgroup patterns should not be read as cultural essentialism.",
+      "source_url": "https://documents.worldbank.org/curated/en/099802309162612875/pdf/IDU-6043000e-cda5-497a-a7e3-b0371a0d5885.pdf",
+      "retrieval_hash": "sha256:d21199d92e608b5592c02d76b7bf76a7b32a46985feb3975fb07a0dd5d4bb450",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11455.html", "claim": "Bibliographic record and abstract for WPS11455, including sample, cohort convergence, learning divergence, and subgroup patterns."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/609", "claim": "World Bank reproducibility package describing DHS, MICS, PASEC, and harmonized learning data, access conditions, and reproduction materials."}
+  ],
+  "boundary": "This record adds generational education convergence with a measurement and conversion gap between attendance, learning, work, and agency. It is descriptive cohort evidence, not a causal evaluation of schooling reform, current prevalence estimate, or proof that educational parity has already produced equal labor-market, household, health, or political outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, abstract record, and reproducibility metadata were reviewed for the 35-country and approximately 736,000-person microdata frame, cohort attainment gaps, post-1999 reversal pattern, 14-country learning-assessment comparison, persistent rural/poor/Muslim subgroup gaps, and data-access boundaries.",
+    "source_url_sha256": "sha256:d21199d92e608b5592c02d76b7bf76a7b32a46985feb3975fb07a0dd5d4bb450",
+    "checked": "2026-09-29"
+  }
+}

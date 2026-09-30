@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gartner-consumer-ai-content-trust-influencers-2026",
+  "title": "AI-generated content is weakening default trust in influencers and brands while increasing demand for human credibility and demonstrated expertise",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gartner Marketing survey and September 2026 public Q&A on AI-generated marketing content",
+  "geography": "United States consumers aged 18+",
+  "observations": [
+    {
+      "period": "May-June 2026 survey; AI and influencer reliance",
+      "denominator": {"value": 1006, "unit": "U.S. consumers surveyed by Gartner", "value_type": "published_consumer_survey"},
+      "measures": {
+        "influencer_reliance_decline": {"value": 35, "unit": "percent saying they rely less on influencers for shopping information and recommendations because of AI-generated content", "value_type": "reported_share"},
+        "real_people_reliance_increase": {"value": 43, "unit": "percent saying they rely more on real people for shopping information and recommendations because of AI-generated content", "value_type": "reported_share"},
+        "trust_reassessment": {"value": "consumers are becoming more selective about which sources and content they trust as AI-generated material becomes more prevalent", "unit": "reported consumer pattern", "value_type": "reported_synthesis"}
+      },
+      "method": "Gartner survey of 1,006 U.S. consumers conducted May-June 2026; findings are reported in a Gartner newsroom Q&A, with no public questionnaire or weighting details beyond the published sample.",
+      "uncertainty": "This is a U.S. consumer survey and cannot establish global behavior, causal effects of AI exposure, or whether stated reliance changes lead to actual purchases or source switching.",
+      "subgroup": "U.S. consumers using influencers, real people, brands, social platforms, and AI-mediated content for product discovery and recommendations.",
+      "counterinterpretation": "Reduced influencer reliance may reflect a shift toward more trustworthy sources, but it may also increase dependence on opaque recommendation systems, private communities, or established brands.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-marketing-survuey-finds-35-percent-of-consumers-rely-on-influencers-less-due-to-ai",
+      "retrieval_hash": "sha256:1cc645bcf7df574f21e64cce0599819b0e0683678a589a225bd9245aa1a11f2b",
+      "status": "reported"
+    },
+    {
+      "period": "May-June 2026 survey; perceived brand AI saturation",
+      "denominator": {"value": 1006, "unit": "U.S. consumers surveyed by Gartner", "value_type": "published_consumer_survey"},
+      "measures": {
+        "too_much_ai_marketing": {"value": 65, "unit": "percent believing brands are producing too much AI-generated content in marketing materials", "value_type": "reported_share"},
+        "brand_message_trust_loss": {"value": 57, "unit": "percent saying AI-generated content has made them less trusting of brand messaging overall", "value_type": "reported_share"},
+        "ai_skepticism": {"value": "consumers are not rejecting AI outright but are becoming more selective about content quality, usefulness, and source credibility", "unit": "reported consumer pattern", "value_type": "reported_synthesis"}
+      },
+      "method": "Gartner survey evidence summarized in the public release; perceived content saturation and trust are self-reported attitudes.",
+      "uncertainty": "The survey does not distinguish all forms of AI-generated content, measure exposure frequency, or show whether skepticism improves discernment or simply lowers trust across the information environment.",
+      "subgroup": "Consumers exposed to brand, creator-led, and social-media marketing content in AI-saturated channels.",
+      "counterinterpretation": "Content volume may matter less than disclosure, quality, relevance, and accountability; thoughtful AI use could improve consumer experience without producing the same distrust as low-effort output.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-marketing-survuey-finds-35-percent-of-consumers-rely-on-influencers-less-due-to-ai",
+      "retrieval_hash": "sha256:1cc645bcf7df574f21e64cce0599819b0e0683678a589a225bd9245aa1a11f2b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; authenticity and expertise as marketing response",
+      "denominator": {"value": 1, "unit": "Gartner analyst interpretation of the published survey", "value_type": "published_analyst_interpretation"},
+      "measures": {
+        "credibility_priorities": {"value": "credibility, transparency, demonstrated expertise, useful content, and distinctive human perspectives", "unit": "reported strategic response set", "value_type": "reported_mechanism_set"},
+        "quality_over_quantity": {"value": "consumers signal that quality matters more than simply increasing content output", "unit": "reported marketing implication", "value_type": "reported_synthesis"},
+        "human_perspective": {"value": "human expertise and authentic perspectives remain important for building trust", "unit": "reported trust mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Analyst interpretation and marketing guidance accompanying the Gartner survey; this is not a separate experimental test of the recommended practices.",
+      "uncertainty": "Recommendations describe plausible trust-building mechanisms but do not demonstrate that any specific transparency or expertise intervention causes higher trust or conversion.",
+      "subgroup": "Brand marketers, influencers, creators, consumers, platforms, and audiences evaluating provenance and expertise.",
+      "counterinterpretation": "Human presentation can also be staged, sponsored, or misleading; authenticity signals require accountability and evidence rather than merely a human face.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-marketing-survuey-finds-35-percent-of-consumers-rely-on-influencers-less-due-to-ai",
+      "retrieval_hash": "sha256:1cc645bcf7df574f21e64cce0599819b0e0683678a589a225bd9245aa1a11f2b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform attention and information-quality tension",
+      "denominator": {"value": 1, "unit": "Gartner public analysis of AI-generated content across brand, creator, and social channels", "value_type": "published_analyst_synthesis"},
+      "measures": {
+        "content_saturation": {"value": "AI-generated content is described as increasing across brand, creator-led, and social-media channels", "unit": "reported information-environment condition", "value_type": "reported_synthesis"},
+        "decision_signal": {"value": "consumers are reassessing who and what they trust rather than rejecting AI categorically", "unit": "reported trust transition", "value_type": "reported_synthesis"},
+        "platform_consequence": {"value": "provenance, disclosure, relevance, and demonstrated expertise become more important as content volume grows", "unit": "reported platform-governance implication", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Public Gartner analyst discussion based on the survey and marketing-channel analysis; no platform-level exposure or engagement logs are reported.",
+      "uncertainty": "The release cannot identify how algorithmic ranking, socioeconomic position, age, or media literacy mediate the observed trust response.",
+      "subgroup": "Consumers with different levels of digital literacy, platform dependence, purchasing power, and access to trusted human expertise.",
+      "counterinterpretation": "AI saturation may eventually produce better provenance standards and more deliberate source evaluation, but it may also deepen unequal information burdens for people with less time or capacity to verify claims.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-marketing-survuey-finds-35-percent-of-consumers-rely-on-influencers-less-due-to-ai",
+      "retrieval_hash": "sha256:1cc645bcf7df574f21e64cce0599819b0e0683678a589a225bd9245aa1a11f2b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.kearney.com/industry/consumer-retail/article/-/insights/the-tyranny-of-too-much", "claim": "Kearney Future Consumer study provides complementary evidence on trust, verification workload, AI-mediated time, and synthetic social connection."},
+    {"source_url": "https://www.edelman.com/trust/2026/trust-barometer", "claim": "Edelman Trust Barometer provides complementary institutional and intergroup trust context."},
+    {"source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/in-full/the-emerging-landscape/", "claim": "WEF emerging-technology foresight provides complementary governance and trust/access context for AI systems."}
+  ],
+  "boundary": "This record adds a platform-and-marketing trust route linking AI-generated content, influencer reliance, brand credibility, human expertise, provenance, and information burden. It uses a Gartner U.S. consumer survey and analyst interpretation, not platform telemetry, a representative global sample, a causal experiment, or proof that skepticism leads to better decisions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gartner newsroom page was reviewed for survey timing, sample size, reported percentages, analyst interpretation, and boundaries around AI-generated brand, influencer, and social-media content.",
+    "source_url_sha256": "sha256:1cc645bcf7df574f21e64cce0599819b0e0683678a589a225bd9245aa1a11f2b",
+    "checked": "2026-09-26"
+  }
+}

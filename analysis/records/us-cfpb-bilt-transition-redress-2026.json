@@ -1,0 +1,141 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-bilt-transition-redress-2026",
+  "title": "A financial-service transition converts technical failure into a monitored, proactive remedy",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "CFPB-monitored Bilt transition-remediation episode",
+  "geography": "United States consumers affected by Bilt's transition to a new bank partner",
+  "observations": [
+    {
+      "period": "2026 Bilt bank-partner transition; remediation completed by September 10, 2026",
+      "denominator": {
+        "value": 2000,
+        "unit": "eligible consumers; CFPB release reports more than 2,000",
+        "value_type": "agency_reported_approximate_count"
+      },
+      "measures": {
+        "reimbursement_total": {
+          "value": 264792.71,
+          "unit": "U.S. dollars reimbursed to eligible consumers",
+          "value_type": "agency_reported_aggregate"
+        },
+        "reimbursed_scope": {
+          "value": "over 2,000 eligible consumers",
+          "unit": "reported remediation population",
+          "value_type": "agency_reported_population"
+        },
+        "closure": {
+          "value": "CFPB notified Bilt that it considered the matter closed on September 21, 2026",
+          "unit": "reported oversight status",
+          "value_type": "agency_reported_closure"
+        },
+        "mechanism": {
+          "value": "A service transition becomes a trust-relevant episode when technical failure is translated into identified fees, proactive outreach, reimbursement, and a documented closure decision",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Machine-readable extraction from the CFPB newsroom account of its discussions with Bilt, the reimbursement scope and amount, technical remediation, monitoring, and closure.",
+      "uncertainty": "The release does not publish individual-level payment timing, complaint volume, residual harm, customer satisfaction, account retention, or an independent audit of the technical fix; the total is aggregate and the eligible count is approximate.",
+      "subgroup": "Consumers affected by transition-related overdraft, late, or insufficient-funds fees; the release does not publish demographic or financial-vulnerability subgroup results.",
+      "counterinterpretation": "Voluntary reimbursement and agency closure may reflect a contained transition problem rather than a general improvement in financial-service reliability; reimbursement does not establish that all nonfinancial burdens were repaired.",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/",
+      "retrieval_hash": "sha256:8749fd25457cfd13884e20c5e42e79af24e66b73fc84c41bddef3e1e916da5ad",
+      "status": "reported"
+    },
+    {
+      "period": "June-September 2026; proactive outreach and fee reimbursement",
+      "denominator": {
+        "value": null,
+        "unit": "potentially affected Bilt customers; complete outreach denominator is not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "newly_identified_customers": {
+          "value": 500,
+          "unit": "customers scheduled for reimbursement by June 4 after outreach",
+          "value_type": "agency_reported_approximate_count"
+        },
+        "reimbursable_fee_types": {
+          "value": "overdraft fees, late fees, and insufficient-funds fees related to the transition",
+          "unit": "reported harm categories",
+          "value_type": "reported_remedy_scope"
+        },
+        "delivery_route": {
+          "value": "Bilt proactively reached out to potentially affected customers and offered reimbursement",
+          "unit": "reported remedy process",
+          "value_type": "reported_process_change"
+        },
+        "mechanism": {
+          "value": "Proactive remedy lowers the time and information burden placed on consumers compared with requiring each affected person to identify and prove the transition-related loss",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CFPB description of Bilt's outreach and reimbursement process following CFPB discussions.",
+      "uncertainty": "The source does not report how many consumers were contacted, accepted reimbursement, or experienced unresolved nonfee consequences; the more-than-500 figure is a contemporaneous agency account rather than a final audit.",
+      "subgroup": "Newly identified customers affected by transition-related fees.",
+      "counterinterpretation": "Proactive outreach can be efficient while still missing customers whose records are incomplete or who do not recognize the source of a fee; no-claim remediation is not proof of universal reach.",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/",
+      "retrieval_hash": "sha256:8749fd25457cfd13884e20c5e42e79af24e66b73fc84c41bddef3e1e916da5ad",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; technical-resolution and oversight stage",
+      "denominator": {
+        "value": 1,
+        "unit": "named Bilt transition-remediation episode",
+        "value_type": "reported_episode_frame"
+      },
+      "measures": {
+        "technical_status": {
+          "value": "Bilt documentation submitted to the CFPB appeared to show that transition-related technical issues had been resolved and systems were back on track",
+          "unit": "agency assessment of submitted documentation",
+          "value_type": "reported_oversight_assessment"
+        },
+        "monitoring": {
+          "value": "CFPB continued monitoring until satisfied that full redress would be provided",
+          "unit": "reported oversight route",
+          "value_type": "reported_monitoring_process"
+        },
+        "mechanism": {
+          "value": "A remedy is more credible when compensation and operational repair are both monitored, but the public record still stops short of independent long-run outcome measurement",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official CFPB account of technical documentation, continued monitoring, and closure.",
+      "uncertainty": "The wording indicates that submitted documentation appeared to show resolution; it does not provide system logs, independent verification, post-closure failure rates, or customer-level outcome data.",
+      "subgroup": "Bilt customers affected by the bank-partner transition; no subgroup technical outcomes are reported.",
+      "counterinterpretation": "Agency-supervised closure can mean the documented requirements were met without proving that every customer experienced an error-free transition or durable trust repair.",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/",
+      "retrieval_hash": "sha256:8749fd25457cfd13884e20c5e42e79af24e66b73fc84c41bddef3e1e916da5ad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/",
+      "claim": "Official CFPB account of the transition-related harm, proactive reimbursement, technical remediation, monitoring, and closure.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.consumerfinance.gov/complaint/",
+      "claim": "CFPB complaint channel provides the broader consumer-voice and recourse pathway relevant to the episode.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a named consumer-service remedy episode linking technical transition failure to fees, proactive outreach, reimbursement, technical remediation, and agency closure. It does not estimate national financial-service reliability, prove universal redress, measure customer satisfaction or retention, or establish durable trust repair.",
+  "retrieval_hash": "sha256:8749fd25457cfd13884e20c5e42e79af24e66b73fc84c41bddef3e1e916da5ad"
+}

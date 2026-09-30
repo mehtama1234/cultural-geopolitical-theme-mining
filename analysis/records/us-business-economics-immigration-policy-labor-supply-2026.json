@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-business-economics-immigration-policy-labor-supply-2026",
+  "title": "Immigration policy is becoming a labor-supply and sector-growth constraint, not only a border or identity issue",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Mayda, Selee, and Veuger, Immigration Policy and Labor Supply, Business Economics, June 1, 2026",
+  "geography": "United States; national labor supply, immigrant-intensive industries, and federal/state/local fiscal contexts",
+  "observations": [
+    {
+      "period": "2026; immigration and U.S. population/labor-supply growth",
+      "denominator": {"value": 1, "unit": "published article abstract and panel discussion on U.S. immigration policy and labor supply", "value_type": "publication_frame"},
+      "measures": {
+        "immigration_labor_supply_role": {"value": "most recent growth in the U.S. population and labor supply has come from immigrants", "unit": "reported national labor-supply assessment", "value_type": "reported_assessment"},
+        "policy_shift": {"value": "the article frames recent immigration-policy change as materially relevant to the labor-supply trajectory", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "stable_unemployment_constraint": {"value": "reduced net migration means less employment growth is consistent with maintaining a stable national unemployment rate", "unit": "reported macro-labor implication", "value_type": "reported_implication"}
+      },
+      "method": "Published abstract of a panel discussion at the February 2026 NABE Annual Meeting; full article access is subscription-limited.",
+      "uncertainty": "The abstract does not provide the underlying time series, model specification, estimated effect size, or distinction between policy channels; it does not establish that policy caused a particular employment or unemployment outcome.",
+      "subgroup": "U.S. workers, immigrants, employers, job seekers, industries with different immigrant intensity, and federal/state/local governments.",
+      "counterinterpretation": "Labor supply can also change through participation, aging, automation, domestic migration, hours, and demand; a smaller immigration contribution does not mechanically imply a labor shortage.",
+      "source_url": "https://doi.org/10.1057/s11369-026-00459-0",
+      "retrieval_hash": "sha256:8a1d11f01a8a44843e20852a40f551100d9e928bcc72c4a3fc6958755a87932e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; immigrant-intensive industries and growth",
+      "denominator": {"value": 1, "unit": "published article abstract's industry-growth comparison", "value_type": "publication_frame"},
+      "measures": {
+        "industry_growth": {"value": "industries with higher immigrant intensity have tended to be among the fastest-growing industries", "unit": "reported industry pattern", "value_type": "reported_assessment"},
+        "sector_capacity_route": {"value": "changes in immigration policy can therefore interact with sector expansion and employer labor availability", "unit": "analytic labor-market mechanism", "value_type": "analytic_mechanism"},
+        "firm_adjustment": {"value": "employers and industries may need to adjust through wages, recruitment, substitution, productivity, hours, or slower expansion", "unit": "open mechanism set", "value_type": "open_mechanism"}
+      },
+      "method": "Panel discussion synthesis as published in Business Economics; the abstract reports the relationship but not industry-specific estimates.",
+      "uncertainty": "The publication preview does not quantify immigrant intensity, growth rates, sector heterogeneity, substitution, or firm responses; the association is not a causal industry estimate.",
+      "subgroup": "Immigrant-intensive industries, employers, native-born and immigrant workers, consumers of affected goods and services, and local labor markets.",
+      "counterinterpretation": "Fast-growing industries may attract immigrants because of growth rather than grow because of immigration; technology and capital can also affect both immigration demand and sector expansion.",
+      "source_url": "https://doi.org/10.1057/s11369-026-00459-0",
+      "retrieval_hash": "sha256:8a1d11f01a8a44843e20852a40f551100d9e928bcc72c4a3fc6958755a87932e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; immigrant education distribution and fiscal incidence",
+      "denominator": {"value": 1, "unit": "published article abstract's national and subnational fiscal frame", "value_type": "publication_frame"},
+      "measures": {
+        "education_distribution": {"value": "immigrants are described as disproportionately represented among both lower- and higher-educated groups", "unit": "reported population pattern", "value_type": "reported_assessment"},
+        "fiscal_variation": {"value": "the fiscal impact of immigration varies by immigrant generation and differs across federal, state, and local levels", "unit": "reported fiscal mechanism", "value_type": "reported_mechanism"},
+        "distributional_boundary": {"value": "national labor-supply and population effects do not identify uniform fiscal or economic effects for every jurisdiction or worker group", "unit": "analytic boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Published abstract's synthesis of immigration, education composition, and fiscal-incidence discussion.",
+      "uncertainty": "No state/local fiscal estimates, cohort definitions, benefit-use data, tax data, or time horizon are available in the public abstract; fiscal effects cannot be generalized from the national frame.",
+      "subgroup": "First- and later-generation immigrants, lower- and higher-educated workers, federal taxpayers, state/local governments, and public-service systems.",
+      "counterinterpretation": "Fiscal incidence can differ by age, earnings, legal status, family composition, service use, and jurisdiction; neither a national labor contribution nor a national fiscal claim determines every local balance.",
+      "source_url": "https://doi.org/10.1057/s11369-026-00459-0",
+      "retrieval_hash": "sha256:8a1d11f01a8a44843e20852a40f551100d9e928bcc72c4a3fc6958755a87932e",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; immigration-policy change and labor-market adjustment",
+      "denominator": {"value": 1, "unit": "published abstract's policy-change comparison", "value_type": "publication_frame"},
+      "measures": {
+        "net_migration": {"value": "the article reports little or even negative net migration following the sudden 2025 policy change", "unit": "reported migration pattern", "value_type": "reported_assessment"},
+        "employment_growth": {"value": "the amount of employment growth consistent with stable national unemployment was sharply reduced", "unit": "reported macro-labor implication", "value_type": "reported_implication"},
+        "policy_to_household_route": {"value": "immigration policy can transmit through labor supply into hiring capacity, wage pressure, sector growth, public finance, and household prices or services", "unit": "analytic cross-domain route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Published article abstract describing the panel's interpretation of recent policy change and labor-supply implications.",
+      "uncertainty": "The public abstract does not provide the net-migration series, counterfactual, timing, or estimates of wages, prices, fiscal effects, or household outcomes; the route remains open for causal testing.",
+      "subgroup": "Recent immigrants, native-born workers, employers, job seekers, households, public agencies, and sectors dependent on expanding labor supply.",
+      "counterinterpretation": "A change in net migration may coincide with business-cycle, enforcement, visa, asylum, return, or measurement changes; employment growth can adjust through productivity, participation, and demand.",
+      "source_url": "https://doi.org/10.1057/s11369-026-00459-0",
+      "retrieval_hash": "sha256:8a1d11f01a8a44843e20852a40f551100d9e928bcc72c4a3fc6958755a87932e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1usaea2026001.pdf", "claim": "IMF's U.S. Article IV provides a separate model-based route from reduced immigration to labor supply, wages, prices, output, and macroeconomic risk.", "status": "official_comparator"},
+    {"source_url": "https://www.migrationpolicy.org/publication/migration-diplomacy-transactionalism", "claim": "MPI's migration-diplomacy report supplies a separate geopolitical route connecting migration policy to visas, aid, sanctions, tariffs, labor pathways, and partner leverage.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a U.S. labor-supply route linking immigration policy, population growth, immigrant-intensive industries, education composition, fiscal incidence, and the amount of employment growth compatible with stable unemployment. It is based on a public abstract and panel-discussion summary; it does not establish causal effect sizes, sector-specific outcomes, wages, prices, fiscal balances, household welfare, or migrant-level experiences.",
+  "retrieval_hash": "sha256:8a1d11f01a8a44843e20852a40f551100d9e928bcc72c4a3fc6958755a87932e"
+}

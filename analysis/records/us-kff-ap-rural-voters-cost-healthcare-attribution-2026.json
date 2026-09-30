@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-kff-ap-rural-voters-cost-healthcare-attribution-2026",
+  "title": "Rural partisan loyalty coexists with economic and health-care attribution pressure: issue alignment may not guarantee turnout",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "public_systems_feedback"
+  ],
+  "source_unit": "KFF/AP Rural Voters Survey, September 2026",
+  "geography": "United States; registered voters living in rural census tracts",
+  "observations": [
+    {
+      "period": "August 12-24, 2026 survey fieldwork, published September 2026; rural election priorities and household exposure",
+      "denominator": {"value": 2241, "unit": "U.S. adults registered to vote in rural census tracts", "value_type": "reported_survey_sample"},
+      "measures": {
+        "cost_of_living_issue": {"value": 69, "unit": "percent saying it is extremely important for 2026 midterm candidates to discuss cost of living", "value_type": "published_survey_estimate"},
+        "health_cost_issue": {"value": 56, "unit": "percent saying health care costs are extremely important for candidates to discuss", "value_type": "published_survey_estimate"},
+        "fraud_issue": {"value": 54, "unit": "percent saying fraud in government programs is extremely important for candidates to discuss", "value_type": "published_survey_estimate"},
+        "affordability_worry_health": {"value": 66, "unit": "percent at least somewhat worried about affording health care for themselves or family", "value_type": "published_survey_estimate"},
+        "affordability_worry_gas": {"value": 67, "unit": "percent at least somewhat worried about affording gas or transportation", "value_type": "published_survey_estimate"},
+        "rural_issue_translation": {"value": "Rural political priorities are organized around material cost and care exposure, while issue language also includes deservingness and program fraud.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "KFF/AP survey designed and analyzed jointly; online and telephone interviews conducted August 12-24, 2026 among a nationally representative sample of rural registered voters drawn from the SSRS Opinion Panel.",
+      "uncertainty": "This is a cross-sectional survey of registered voters; issue salience and affordability worry do not establish voting behavior, policy causality, or realized health-care access.",
+      "subgroup": "Rural registered voters, with partisan, age, race/ethnicity, and income subgroup reporting.",
+      "counterinterpretation": "Issue priority may reflect campaign framing or general economic anxiety rather than a stable policy preference; rural classification is census-tract based and does not capture all place meanings.",
+      "source_url": "https://www.kff.org/public-opinion/kff-ap-rural-voters-survey/",
+      "retrieval_hash": "sha256:57ef4e0e122ed8f0ab3647db3fd3a8cb9fa8cd0c311b8cabe781a0cedf4dc2ec",
+      "status": "reported"
+    },
+    {
+      "period": "August 12-24, 2026 survey fieldwork, published September 2026; economic experience and political performance",
+      "denominator": {"value": 2241, "unit": "rural registered voters", "value_type": "reported_survey_sample"},
+      "measures": {
+        "local_economy_worse": {"value": 44, "unit": "percent saying their local economy has gotten worse during the second Trump presidency", "value_type": "published_survey_estimate"},
+        "economy_handling_disapproval": {"value": 57, "unit": "percent disapproving of President Trump’s handling of the economy", "value_type": "published_survey_estimate"},
+        "overall_job_approval": {"value": 48, "unit": "percent approving of President Trump’s overall job performance", "value_type": "published_survey_estimate"},
+        "republican_economy_disapproval": {"value": 27, "unit": "percent of rural Republican voters disapproving of Trump’s handling of the economy", "value_type": "published_subgroup_estimate"},
+        "performance_attribution_gap": {"value": "Approval of a leader overall can remain higher than approval of economic performance, creating a cross-pressured attribution layer rather than simple partisan conversion.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional rural registered-voter survey with partisan and MAGA-support subgroup comparisons; the report includes a 2017 rural comparison for selected measures.",
+      "uncertainty": "Respondents’ retrospective and current evaluations cannot isolate federal policy from inflation, regional labor markets, war, state policy, or local conditions.",
+      "subgroup": "Rural voters overall and rural Republican/MAGA/non-MAGA subgroups.",
+      "counterinterpretation": "Partisan identity, candidate alternatives, and issue bundling may sustain overall approval despite negative economic evaluations.",
+      "source_url": "https://www.kff.org/public-opinion/kff-ap-rural-voters-survey/",
+      "retrieval_hash": "sha256:57ef4e0e122ed8f0ab3647db3fd3a8cb9fa8cd0c311b8cabe781a0cedf4dc2ec",
+      "status": "reported"
+    },
+    {
+      "period": "August 12-24, 2026 survey fieldwork, published September 2026; health-care capacity and policy attribution",
+      "denominator": {"value": 2241, "unit": "rural registered voters", "value_type": "reported_survey_sample"},
+      "measures": {
+        "medicaid_importance": {"value": 92, "unit": "percent saying Medicaid is important for people in their local community", "value_type": "published_survey_estimate"},
+        "doctor_shortage": {"value": 46, "unit": "percent saying their area lacks sufficient doctors, up from 33% in the 2017 comparison", "value_type": "published_survey_estimate"},
+        "hospital_shortage": {"value": 35, "unit": "percent saying their area lacks sufficient hospitals, up from 21% in 2017", "value_type": "published_survey_estimate"},
+        "health_policy_negative_impact": {"value": 41, "unit": "percent saying Trump administration policies had a negative impact on their own health care costs, versus 17% positive", "value_type": "published_survey_estimate"},
+        "care_capacity_political_route": {"value": "Health-system scarcity becomes political when local provider capacity, household costs, and federal policy attribution are joined in the same public judgment.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "KFF/AP rural voter survey with retrospective comparison to KFF/Washington Post 2017 rural survey questions where available.",
+      "uncertainty": "The 2017 and 2026 surveys are separate studies with potentially different wording, context, and sampling; perceived provider shortages are not administrative counts of clinicians or hospitals.",
+      "subgroup": "Rural registered voters, with partisan and Medicaid-connection subgroup reporting.",
+      "counterinterpretation": "Respondents may attribute local health-care conditions to national leadership even when state, market, workforce, or hospital-system decisions are more proximate causes.",
+      "source_url": "https://www.kff.org/public-opinion/kff-ap-rural-voters-survey/",
+      "retrieval_hash": "sha256:57ef4e0e122ed8f0ab3647db3fd3a8cb9fa8cd0c311b8cabe781a0cedf4dc2ec",
+      "status": "reported"
+    },
+    {
+      "period": "August 12-24, 2026 survey fieldwork, published September 2026; partisan loyalty and turnout conversion",
+      "denominator": {"value": 2241, "unit": "rural registered voters", "value_type": "reported_survey_sample"},
+      "measures": {
+        "republican_vote_preference": {"value": 98, "unit": "percent of rural Republican voters saying they would be more likely to vote for a Republican than a Democrat in the upcoming election", "value_type": "published_subgroup_estimate"},
+        "republican_certain_turnout": {"value": 74, "unit": "percent of rural Republican voters absolutely certain to vote, versus 81% of rural Democratic voters", "value_type": "published_subgroup_estimate"},
+        "dissatisfied_republican_certain_turnout": {"value": 59, "unit": "percent of rural Republicans disapproving of Trump’s economic handling who are absolutely certain to vote, versus 79% among those approving", "value_type": "published_subgroup_estimate"},
+        "turnout_conversion": {"value": "Partisan candidate preference can remain intact while dissatisfaction with performance reduces certainty of participation; loyalty, attribution, and turnout are separate stages.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional registered-voter survey with subgroup turnout-intention comparisons; turnout certainty is a stated intention, not a validated vote record.",
+      "uncertainty": "The association between economic dissatisfaction and turnout certainty is descriptive and may reflect age, enthusiasm, candidate choice, registration, local contestation, or other unmeasured factors.",
+      "subgroup": "Rural Republican voters, split by approval of Trump’s economic handling; rural Democratic voters provide a comparison.",
+      "counterinterpretation": "Declared certainty can change before election day, and a lower stated turnout intention does not prove abstention or party switching.",
+      "source_url": "https://www.kff.org/public-opinion/kff-ap-rural-voters-survey/",
+      "retrieval_hash": "sha256:57ef4e0e122ed8f0ab3647db3fd3a8cb9fa8cd0c311b8cabe781a0cedf4dc2ec",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.kff.org/public-opinion/kff-ap-rural-voters-survey/", "claim": "Official KFF/AP publication containing the rural sample, issue priorities, affordability, health-care capacity, attribution, partisan, and turnout findings.", "status": "official-poll-publication"},
+    {"source_url": "https://www.ap.org/news-highlights/elections/2026/how-rural-voters-are-feeling-about-trump-as-the-midterms-approach/", "claim": "AP’s companion report provides additional rural-voter context and source collaboration details.", "status": "official-companion-publication"}
+  ],
+  "boundary": "This record adds a rural political-economy route: cost and health-care exposure shape issue priorities and policy attribution, while partisan loyalty can persist alongside performance dissatisfaction and lower stated turnout certainty. It does not establish vote choice, turnout, causal policy effects, or that federal attribution matches the proximate source of local conditions. The source is a cross-sectional KFF/AP survey of rural registered voters.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official KFF/AP publication page was reviewed for survey design, sample, fieldwork, issue priorities, affordability worries, rural health-care capacity, partisan attribution, and turnout-intention boundaries.",
+    "source_page_sha256": "sha256:57ef4e0e122ed8f0ab3647db3fd3a8cb9fa8cd0c311b8cabe781a0cedf4dc2ec",
+    "checked": "2026-09-28"
+  }
+}

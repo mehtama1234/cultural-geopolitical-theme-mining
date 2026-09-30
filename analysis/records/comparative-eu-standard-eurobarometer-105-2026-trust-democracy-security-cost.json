@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-standard-eurobarometer-105-2026-trust-democracy-security-cost",
+  "title": "EU public confidence combines institutional support and security alignment with persistent cost-of-living pressure and uneven democratic satisfaction",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "European Commission, Standard Eurobarometer 105: Spring 2026, fieldwork March-April 2026 and publication May 2026",
+  "geography": "European Union citizens across the 27 Member States, with country factsheets and wider coverage in the Eurobarometer dataset",
+  "observations": [
+    {
+      "period": "Spring 2026; EU trust, democracy, and membership",
+      "denominator": {"value": 1, "unit": "Standard Eurobarometer 105 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "democracy_satisfaction": {"value": 57, "unit": "percent of EU citizens satisfied with the way democracy works in the EU", "value_type": "reported_survey_share"},
+        "membership_benefit": {"value": 72, "unit": "percent believing their country has benefited overall from EU membership", "value_type": "reported_survey_share"},
+        "eu_stability": {"value": 73, "unit": "percent agreeing the EU is a place of stability in a troubled world", "value_type": "reported_survey_share"},
+        "eu_trust": {"value": 51, "unit": "percent trusting the EU, up 3 percentage points from autumn 2025", "value_type": "reported_survey_share"},
+        "legitimacy_route": {"value": "support for EU membership and stability coexists with a more moderate level of satisfaction with how EU democracy works", "unit": "reported institutional pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "European Commission Standard Eurobarometer 105 public-opinion survey conducted across the EU27, with national factsheets and trend comparisons.",
+      "uncertainty": "Aggregate EU averages conceal substantial country and subgroup variation; trust and satisfaction are attitudes, not direct measures of institutional performance or democratic quality.",
+      "subgroup": "EU citizens, national publics, EU institutions, member-state governments, voters, and people evaluating membership and democratic responsiveness.",
+      "counterinterpretation": "Stability and membership support may be driven by external insecurity or practical benefits without implying durable trust in all EU institutions or policies.",
+      "source_url": "https://europa.eu/eurobarometer/surveys/detail/3613",
+      "retrieval_hash": "sha256:c6b053f8896b09d4e082b3c04a774cae0af707da1473d17f939141e3452850d6",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2026; security, Ukraine, and common defense",
+      "denominator": {"value": 1, "unit": "Standard Eurobarometer 105 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "common_defense": {"value": 81, "unit": "percent backing a common defense and security policy among Member States", "value_type": "reported_survey_share"},
+        "russia_threat": {"value": 76, "unit": "percent agreeing Russia's invasion of Ukraine is a threat to EU security", "value_type": "reported_survey_share"},
+        "eu_response_satisfaction": {"value": 55, "unit": "percent satisfied with the EU's response to Russia's invasion of Ukraine", "value_type": "reported_survey_share"},
+        "ukraine_support": {"value": 76, "unit": "percent agreeing the EU should continue supporting Ukraine until a just and lasting peace", "value_type": "reported_survey_share"},
+        "security_route": {"value": "external geopolitical threat is associated with unusually high support for shared defense and continued Ukraine support", "unit": "reported public-opinion mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "EU27 Standard Eurobarometer public-opinion survey with security and external-relations questions.",
+      "uncertainty": "The measures record public attitudes at one fieldwork point and do not identify whether support reflects threat perception, solidarity, strategic preference, or partisan and national differences.",
+      "subgroup": "EU citizens, national governments, EU institutions, defense publics, Ukraine-support constituencies, and populations exposed to war-related information.",
+      "counterinterpretation": "High support for common defense or Ukraine assistance may weaken if costs, escalation concerns, or national political conditions change; opinion does not establish policy capacity.",
+      "source_url": "https://europa.eu/eurobarometer/surveys/detail/3613",
+      "retrieval_hash": "sha256:c6b053f8896b09d4e082b3c04a774cae0af707da1473d17f939141e3452850d6",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2026; cost of living and economic expectations",
+      "denominator": {"value": 1, "unit": "Standard Eurobarometer 105 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "national_cost_concern": {"value": 36, "unit": "percent identifying cost of living among the main issues facing their country", "value_type": "reported_survey_share"},
+        "personal_cost_concern": {"value": 52, "unit": "percent identifying cost of living among the main issues facing them personally", "value_type": "reported_survey_share"},
+        "eu_economy_good": {"value": 44, "unit": "percent considering the EU economic situation good", "value_type": "reported_survey_share"},
+        "economic_stability_expectation": {"value": "42 percent think the European economic situation will remain the same over the next 12 months, 36 percent think it will worsen, and 15 percent think it will improve", "unit": "reported expectation shares", "value_type": "reported_survey_comparison"},
+        "material_legitimacy_route": {"value": "institutional support and geopolitical alignment are being evaluated alongside direct household cost pressure and weak economic optimism", "unit": "analytic public-opinion mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EU27 Standard Eurobarometer survey questions on personal, national, and EU-level concerns and economic expectations.",
+      "uncertainty": "Concern rankings are not household expenditure measures or causal drivers of trust; EU-level averages obscure income, country, housing, and energy-exposure differences.",
+      "subgroup": "Households, lower-income residents, consumers, workers, national publics, EU economic policymakers, and groups exposed to price and energy volatility.",
+      "counterinterpretation": "High concern can coexist with adaptive behavior, improving real incomes, or strong institutional support; negative expectations do not necessarily translate into political change.",
+      "source_url": "https://europa.eu/eurobarometer/surveys/detail/3613",
+      "retrieval_hash": "sha256:c6b053f8896b09d4e082b3c04a774cae0af707da1473d17f939141e3452850d6",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2026; currency and EU future orientation",
+      "denominator": {"value": 1, "unit": "Standard Eurobarometer 105 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "euro_support": {"value": 74, "unit": "percent supporting the euro across the EU, the highest level since its introduction", "value_type": "reported_survey_share"},
+        "euro_area_support": {"value": 82, "unit": "percent in the euro area supporting the common currency", "value_type": "reported_survey_share"},
+        "future_optimism": {"value": 60, "unit": "approximate share of Europeans saying they are optimistic about the future of the EU", "value_type": "reported_survey_share"},
+        "international_concern": {"value": "the Middle East conflict, broader international situation, and Russia's war against Ukraine were the top EU-level concerns", "unit": "reported concern ranking", "value_type": "reported_theme_set"},
+        "cohesion_route": {"value": "shared currency and future orientation remain relatively strong anchors even as security and cost pressures shape public judgment", "unit": "analytic institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EU27 Standard Eurobarometer survey with trend measures for euro support, optimism, and EU-level issues.",
+      "uncertainty": "Support and optimism are aggregate attitudes, not forecasts of economic integration or policy consensus; the report does not explain which groups or experiences account for the changes.",
+      "subgroup": "Euro-area and non-euro EU citizens, households, workers, businesses, EU institutions, and publics evaluating international risk.",
+      "counterinterpretation": "Symbolic support for the euro or EU future can coexist with dissatisfaction over policy delivery, redistribution, or national economic conditions.",
+      "source_url": "https://europa.eu/eurobarometer/surveys/detail/3613",
+      "retrieval_hash": "sha256:c6b053f8896b09d4e082b3c04a774cae0af707da1473d17f939141e3452850d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.europa.eu/data/datasets/s3613_105_2_std105_eng?locale=en", "claim": "The European Data Portal provides the Standard Eurobarometer STD105 dataset and downloadable data resources."},
+    {"source_url": "https://europa.eu/eurobarometer/surveys/detail/3613?etrans=fr", "claim": "The Eurobarometer survey detail page provides first results, data annexes, country factsheets, and report documents."}
+  ],
+  "boundary": "This record adds current EU public-opinion evidence on democratic satisfaction, trust, EU membership, security, Ukraine, cost of living, economic expectations, euro support, and future optimism. It is aggregate cross-national survey evidence, not respondent-level ingestion, a causal trust model, a security forecast, or proof that EU support is evenly distributed across countries and social groups.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission Eurobarometer page and data-portal summary reviewed for fieldwork timing, EU trust and democracy, membership benefit, stability, Ukraine and defense, cost-of-living, economic expectations, euro support, and optimism measures.",
+    "source_url_sha256": "sha256:c6b053f8896b09d4e082b3c04a774cae0af707da1473d17f939141e3452850d6",
+    "checked": "2026-09-27"
+  }
+}

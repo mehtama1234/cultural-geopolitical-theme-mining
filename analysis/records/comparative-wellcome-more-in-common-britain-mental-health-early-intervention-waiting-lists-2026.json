@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wellcome-more-in-common-britain-mental-health-early-intervention-waiting-lists-2026",
+  "title": "Mental health is becoming a shared public value, but waiting lists threaten to convert consensus and scientific hope into institutional disappointment",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "political_judgment_action"
+  ],
+  "source_unit": "Wellcome and More in Common, British public attitudes research on mental health, early intervention, scientific progress, and service access",
+  "geography": "Britain, with a national poll of 4,000 adults and seven focus groups conducted in late 2025 and early 2026",
+  "observations": [
+    {
+      "period": "Late 2025-early 2026; mental-health legitimacy and social openness",
+      "denominator": {"value": 4000, "unit": "British adults in a national More in Common poll, with seven associated focus groups", "value_type": "reported_survey_sample"},
+      "measures": {
+        "mental_health_equal_physical": {"value": 73, "unit": "percent saying mental health is as important as physical health", "value_type": "published_survey_estimate"},
+        "comfortable_friend_disclosure": {"value": 77, "unit": "percent saying they would feel comfortable if a friend opened up about mental health", "value_type": "published_survey_estimate"},
+        "genuine_concern": {"value": 63, "unit": "percent saying mental-health conversations reflect genuine concern, compared with 22 percent saying they are an excuse", "value_type": "published_survey_estimate"},
+        "early_intervention_support": {"value": 81, "unit": "percent saying support should come early in a person's mental-health journey rather than focusing only on the most severe cases", "value_type": "published_survey_estimate"}
+      },
+      "method": "Wellcome-commissioned More in Common national poll of 4,000 British adults, representative of More in Common's Seven Segments, supplemented by seven focus groups; results are descriptive attitudes and narratives.",
+      "uncertainty": "The survey measures attitudes and self-reported comfort, not clinical need, diagnosis, help-seeking, treatment access, or mental-health outcomes. Focus groups illustrate mechanisms but do not establish prevalence.",
+      "subgroup": "British adults across political and social-value segments, with reported cross-party support for early intervention.",
+      "counterinterpretation": "High stated support may reflect broad norm change without willingness to fund services, change behavior, or accept trade-offs; comfort with a friend's disclosure is not proof of adequate informal support.",
+      "source_url": "https://wellcome.org/insights/articles/mental-health-important-physical-health-britons-hope-scientific-advancements",
+      "retrieval_hash": "sha256:bef31cceac80881fb4111b3710e922988ede9e04e79495965c07c8d99dd85a4d",
+      "status": "reported"
+    },
+    {
+      "period": "Late 2025-early 2026; scientific hope versus service-delivery confidence",
+      "denominator": {"value": 4000, "unit": "British adults in the national poll; focus-group participants provide qualitative context", "value_type": "reported_survey_sample"},
+      "measures": {
+        "hope_science": {"value": 65, "unit": "percent saying coming years will deliver scientific advances that improve lives of people with mental-health issues, compared with 35 percent saying not", "value_type": "published_survey_estimate"},
+        "delivery_gap": {"value": "Focus-group participants expressed concern that patients would not access advances because they would be stuck on waiting lists.", "unit": "reported focus-group mechanism", "value_type": "reported_mechanism"},
+        "service_improvement_demand": {"value": "Approximately three-quarters of Britons say more should be done to improve mental-health services.", "unit": "reported survey summary", "value_type": "published_survey_estimate"},
+        "legitimacy_conversion": {"value": "Public optimism about scientific progress is conditional on visible, reachable service improvement.", "unit": "analytical synthesis from survey and focus groups", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive poll estimates combined with focus-group accounts about waiting lists, referral systems, and access to future advances.",
+      "uncertainty": "The publication does not measure actual waiting times, referral completion, treatment receipt, regional capacity, or whether scientific advances improve outcomes; ‘hope’ is an attitude rather than a forecast.",
+      "subgroup": "British adults and focus-group participants discussing NHS access and future innovation; socioeconomic and regional access differences are not fully reported in the public release.",
+      "counterinterpretation": "Scepticism about waiting lists may coexist with support for science and early intervention; the release cannot establish that waiting lists are the sole or dominant source of distrust.",
+      "source_url": "https://wellcome.org/insights/articles/mental-health-important-physical-health-britons-hope-scientific-advancements",
+      "retrieval_hash": "sha256:bef31cceac80881fb4111b3710e922988ede9e04e79495965c07c8d99dd85a4d",
+      "status": "reported"
+    },
+    {
+      "period": "Late 2025-early 2026; age and gender pattern in reported mental-health experience",
+      "denominator": {"value": 4000, "unit": "British adults in the national poll", "value_type": "reported_survey_sample"},
+      "measures": {
+        "gen_z_reported_issue": {"value": 37, "unit": "percent of Gen Z Britons saying they have experienced a mental-health issue", "value_type": "published_subgroup_estimate"},
+        "baby_boomer_reported_issue": {"value": 16, "unit": "percent of Baby Boomers aged 60-75 saying they have experienced a mental-health issue", "value_type": "published_subgroup_estimate"},
+        "over_75_reported_issue": {"value": 6, "unit": "percent of respondents over 75 saying they have experienced a mental-health issue", "value_type": "published_subgroup_estimate"},
+        "gender_gap": {"value": "31 percent of women versus 26 percent of men report experiencing a mental-health issue; the gap is wider among younger Britons, with Gen Z women the highest-reporting group.", "unit": "published subgroup comparison", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Cross-sectional subgroup comparisons reported from the More in Common poll; the public release does not provide the full questionnaire, weighting details, or clinical validation.",
+      "uncertainty": "Age and gender differences may reflect recognition, willingness to disclose, question interpretation, cohort experience, or actual exposure. They are not age-specific clinical prevalence estimates or causal effects.",
+      "subgroup": "Gen Z, Millennials, Gen X, Baby Boomers, over-75 respondents, women, and men in Britain.",
+      "counterinterpretation": "Older groups may underreport or use different language for distress; younger reporting may reflect reduced stigma as well as increased burden.",
+      "source_url": "https://wellcome.org/insights/articles/mental-health-important-physical-health-britons-hope-scientific-advancements",
+      "retrieval_hash": "sha256:bef31cceac80881fb4111b3710e922988ede9e04e79495965c07c8d99dd85a4d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://wellcome.org/insights/articles/mental-health-important-physical-health-britons-hope-scientific-advancements",
+      "claim": "Wellcome's September 2026 publication reports the More in Common poll sample, focus-group design, cross-party attitudes, early-intervention support, scientific hope, service-delivery concerns, and age/gender differences.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://wellcome.org/our-work/mental-health",
+      "claim": "Wellcome's mental-health programme context frames the publication as engagement and advocacy around evidence-based, equitable health solutions.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a social-contract and care-legitimacy route: mental health moves from stigma and culture-war framing toward shared concern and early-intervention demand, while waiting lists and service reach threaten to break the link between public consensus, scientific hope, and lived support. It does not establish clinical prevalence, treatment receipt, causal service effects, regional equity, or improved outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Wellcome publication was reviewed for the More in Common sample and focus-group design, public attitudes, early-intervention support, scientific hope, waiting-list mechanism, and age/gender subgroup estimates.",
+    "source_page_sha256": "sha256:bef31cceac80881fb4111b3710e922988ede9e04e79495965c07c8d99dd85a4d",
+    "checked": "2026-09-28"
+  }
+}

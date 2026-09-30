@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-ba-sign-of-times-2026-irish-consumer-resigned-resilience-identity-ai-housing",
+  "title": "Economic fatigue, cultural anchoring, AI-mediated choice, and delayed life stages are reorganizing Irish consumer identity and everyday adaptation",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "housing_place_mobility",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Ipsos B&A Ireland, Sign of the Times 2026",
+  "geography": "Ireland; national survey of adults aged 16 and over, supplemented by focus groups, interviews, digital ethnography, and consumer-confidence research",
+  "observations": [
+    {
+      "period": "2026; Irish consumer economic expectations and household resilience",
+      "denominator": {"value": 1042, "unit": "adults in the national Sign of the Times survey", "value_type": "reported_national_sample"},
+      "measures": {
+        "global_economy_worsening": {"value": 74, "unit": "percent expecting the global economy to worsen over the next 12 months", "value_type": "reported_share"},
+        "financial_struggle": {"value": 20, "unit": "approximately percent struggling to get by", "value_type": "reported_share"},
+        "blue_collar_struggle": {"value": 25, "unit": "approximately percent of blue-collar individuals struggling to get by", "value_type": "reported_share"},
+        "unexpected_expense": {"value": 31, "unit": "percent unable to afford an unexpected necessary €1,000 expense", "value_type": "reported_share"},
+        "resigned_resilience": {"value": "repeated crises are described as producing pragmatic emotional withdrawal and small bubbles of normalcy rather than uniform panic", "unit": "qualitative cultural interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos B&A combines a nationally representative online survey with qualitative focus groups and ongoing cultural immersion; the page reports both quantitative shares and interpreted participant narratives.",
+      "uncertainty": "The public page does not provide full question wording, weighting details, income distribution, or causal evidence linking economic expectations to coping behavior; the qualitative language is an interpretive frame, not a population estimate.",
+      "subgroup": "Irish adults, blue-collar people, households with limited emergency liquidity, consumers exposed to inflation, geopolitical uncertainty, energy pressure, and repeated crises.",
+      "counterinterpretation": "Creating normalcy and preserving joy can be adaptive social maintenance rather than apathy; financial vulnerability and cultural resilience can coexist without one causing the other.",
+      "source_url": "https://www.ipsosbanda.ie/ipsos-ba-sign-of-the-times-sott-2026/",
+      "retrieval_hash": "sha256:b03dbcf7fceb19293b0d64e5895eb9a2312d9c6c4e2b080959967d12f29d91d2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cultural identity, geopolitical alignment, and consumer meaning",
+      "denominator": {"value": 1042, "unit": "adults in the national Sign of the Times survey", "value_type": "reported_national_sample"},
+      "measures": {
+        "eu_alliance_priority": {"value": 76, "unit": "percent prioritizing the EU for future international alliances", "value_type": "reported_share"},
+        "us_alliance_priority": {"value": 35, "unit": "percent prioritizing the USA for future international alliances", "value_type": "reported_share"},
+        "canada_alliance_priority": {"value": 38, "unit": "percent prioritizing Canada for future international alliances", "value_type": "reported_share"},
+        "cultural_anchoring": {"value": "language, music, sport, stories, and local cultural specificity are described as sources of stability amid global uncertainty", "unit": "qualitative cultural interpretation", "value_type": "reported_interpretation"},
+        "conscience_commerce": {"value": "the source frames a tension between moral disappointment with the United States and economic dependence on U.S. multinationals", "unit": "bounded geopolitical-consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National survey shares are combined with qualitative cultural interpretation and public behavioral indicators cited by Ipsos B&A, including Irish-language digital interest and sports attendance.",
+      "uncertainty": "Alliance preferences are stated attitudes, not foreign-policy behavior or trade decisions; cited search and attendance indicators do not establish cultural revival, causal nationalism, or consumer purchase effects.",
+      "subgroup": "Irish adults, consumers navigating national identity, people balancing economic ties with moral judgment, and audiences engaging with Irish language, music, sport, and local stories.",
+      "counterinterpretation": "Cultural anchoring can be inclusive belonging, selective nostalgia, or commercial repositioning; it need not imply anti-American politics or a single Irish identity.",
+      "source_url": "https://www.ipsosbanda.ie/ipsos-ba-sign-of-the-times-sott-2026/",
+      "retrieval_hash": "sha256:b03dbcf7fceb19293b0d64e5895eb9a2312d9c6c4e2b080959967d12f29d91d2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-mediated search, human meaning, and trust",
+      "denominator": {"value": 1042, "unit": "adults in the national Sign of the Times survey", "value_type": "reported_national_sample"},
+      "measures": {
+        "ai_search": {"value": 51, "unit": "percent of AI users using AI as an alternative search engine", "value_type": "reported_share"},
+        "ai_learning": {"value": 46, "unit": "percent of AI users using AI for learning and research", "value_type": "reported_share"},
+        "mastery_anxiety": {"value": 61, "unit": "percent agreeing AI will make it harder for individuals to achieve mastery in their field", "value_type": "reported_share"},
+        "human_creation_meaning": {"value": 73, "unit": "percent considering AI-generated art or music less meaningful than human creation", "value_type": "reported_share"},
+        "young_emotional_use": {"value": 22, "unit": "percent of AI users aged 16–24 using AI for emotional support or companionship", "value_type": "reported_share"},
+        "human_friction_route": {"value": "AI adoption can increase the value of human effort, provenance, connection, and meaningful friction even as it compresses search and research effort", "unit": "bounded cultural mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ipsos B&A combines survey measures of AI use and attitudes with qualitative interpretation of meaning, trust, human value, and changing consumer decision journeys.",
+      "uncertainty": "The source does not establish how AI use was measured, whether emotional-support use is clinically meaningful, or whether views about human creation predict spending, loyalty, or cultural participation.",
+      "subgroup": "AI users, people aged 16–24, consumers using AI for search and learning, creators, brands, and audiences evaluating authenticity and human effort.",
+      "counterinterpretation": "Seeing human creation as more meaningful can coexist with heavy AI use; emotional use may reflect experimentation, convenience, loneliness, or a temporary practice rather than replacement of human relationships.",
+      "source_url": "https://www.ipsosbanda.ie/ipsos-ba-sign-of-the-times-sott-2026/",
+      "retrieval_hash": "sha256:b03dbcf7fceb19293b0d64e5895eb9a2312d9c6c4e2b080959967d12f29d91d2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; performance culture, housing, and delayed life stages",
+      "denominator": {"value": 1042, "unit": "adults in the national Sign of the Times survey", "value_type": "reported_national_sample"},
+      "measures": {
+        "gen_z_optimization_pressure": {"value": 67, "unit": "percent of Gen Z reporting pressure to optimize everything in life", "value_type": "reported_share"},
+        "trust_circle": {"value": 48, "unit": "percent confident they could identify AI-generated images", "value_type": "reported_share"},
+        "housing_life_stage": {"value": "housing costs and limited access to home ownership are described as keeping young adults with parents longer, delaying children, and extending intergenerational financial support", "unit": "qualitative structural interpretation", "value_type": "reported_interpretation"},
+        "performance_consumption": {"value": "travel, self-care, social media, and achievement are described as increasingly performative, while imperfection and purposeless play become countercultural release", "unit": "qualitative cultural interpretation", "value_type": "reported_interpretation"},
+        "life_stage_route": {"value": "housing and optimization pressure reshape consumption, identity, family support, and the meaning of adulthood rather than merely changing product preferences", "unit": "bounded social-consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Mixed-method cultural research combining survey, focus groups, digital ethnography, and qualitative interpretation of housing, performance, self-care, travel, and family dynamics.",
+      "uncertainty": "The source is a cultural trend synthesis and does not provide a housing panel, cohort transition data, observed household transfers, or causal evidence that performance pressure produces specific consumption or mental-health outcomes.",
+      "subgroup": "Gen Z, young adults living with parents, parents providing extended support, renters, aspiring homeowners, social-media users, and consumers navigating delayed or scrambled life-stage markers.",
+      "counterinterpretation": "Living with parents can reflect cultural preference, care reciprocity, or housing strategy; optimization practices can be expressive and social rather than only oppressive or commercially induced.",
+      "source_url": "https://www.ipsosbanda.ie/ipsos-ba-sign-of-the-times-sott-2026/",
+      "retrieval_hash": "sha256:b03dbcf7fceb19293b0d64e5895eb9a2312d9c6c4e2b080959967d12f29d91d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsosbanda.ie/ipsos-ba-sign-of-the-times-sott-2026/", "claim": "Official Ipsos B&A publication page with mixed-method scope and reported findings."},
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026", "claim": "Complementary Ipsos global trust route on local, values-driven confidence and institutional skepticism."}
+  ],
+  "boundary": "This record adds a deep Irish cultural-consumer route across economic fatigue, emergency liquidity, cultural identity, geopolitical alignment, AI-mediated search, human meaning, trust circles, performance pressure, housing, delayed life stages, and intergenerational support. It uses a public Ipsos B&A mixed-method overview, not raw respondent microdata, a longitudinal household panel, verified search or attendance causality, clinical mental-health evidence, or proof that Ireland’s pattern generalizes to the United States or globally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Ipsos B&A page reviewed for the 2026 survey sample, mixed-method design, economic expectations, emergency liquidity, alliance preferences, AI use and meaning measures, trust, performance pressure, and housing/life-stage interpretation.",
+    "source_url_sha256": "sha256:b03dbcf7fceb19293b0d64e5895eb9a2312d9c6c4e2b080959967d12f29d91d2",
+    "checked": "2026-09-28"
+  }
+}

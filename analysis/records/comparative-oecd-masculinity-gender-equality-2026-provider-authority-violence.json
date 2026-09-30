@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-masculinity-gender-equality-2026-provider-authority-violence",
+  "title": "Provider and authority norms connect gendered work, household control, economic agency, and violence risk",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "geopolitical_state_consequences",
+    "housing_place_mobility"
+  ],
+  "source_unit": "OECD, Masculinity and Gender Equality: Insights from Côte d'Ivoire and Senegal, Social Institutions and Gender Index",
+  "geography": "Côte d'Ivoire and Senegal, with comparative analysis of masculine norms, women’s economic agency, unpaid care, decision-making, and gender-based violence",
+  "observations": [
+    {
+      "period": "2026; provider, authority, and care norms in Côte d'Ivoire and Senegal",
+      "denominator": {"value": 1, "unit": "OECD comparative masculinity and gender-norm framework across two country contexts", "value_type": "social_norm_frame"},
+      "measures": {
+        "provider_norm": {"value": 96, "unit": "percent of Côte d'Ivoire respondents agreeing that a man's most important role is to provide for his family", "value_type": "reported_published_share"},
+        "provider_stress": {"value": "over 90 percent of men in Côte d'Ivoire report feeling stressed about not being able to provide", "unit": "reported published finding", "value_type": "reported_published_finding"},
+        "authority_norm": {"value": 84, "unit": "percent of people in Côte d'Ivoire saying men should have the final say in important household decisions", "value_type": "reported_published_share"},
+        "care_norm": {"value": "men as providers and decision makers, with women carrying primary responsibility for unpaid care and domestic work, remain central expectations", "unit": "OECD comparative synthesis", "value_type": "reported_mechanism_set"}
+      },
+      "method": "OECD comparative report using a nationally representative Côte d'Ivoire survey and qualitative research in Senegal, interpreted through a common framework of masculine norms.",
+      "uncertainty": "Published shares describe the report's survey frame and do not establish that all people, households, regions, or generations share the same beliefs; qualitative evidence is context-specific.",
+      "subgroup": "Women, men, boys, girls, households, workers, caregivers, community leaders, and people navigating provider, authority, and care expectations.",
+      "counterinterpretation": "Provider and authority ideals can coexist with negotiation, resistance, caring practices, and changing expectations; a reported norm is not identical to behavior or inevitable persistence.",
+      "source_url": "https://www.oecd.org/en/publications/masculinity-and-gender-equality_3973b760-en.html",
+      "retrieval_hash": "sha256:6af1a5ff698422ea46940b778574665a22ca118fa4ccf84771e5424e8e41b980",
+      "status": "reported"
+    },
+    {
+      "period": "2026; generational change and perceived social expectations",
+      "denominator": {"value": 1, "unit": "OECD comparative evidence frame for Côte d'Ivoire and Senegal", "value_type": "generational_norm_frame"},
+      "measures": {
+        "young_women": {"value": "young women in Côte d'Ivoire are described as increasingly challenging restrictive masculinities and expressing the most progressive views in the report's age comparisons", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_pattern"},
+        "young_men": {"value": "many young men continue to navigate pressure to meet provider ideals and succeed economically and socially", "unit": "reported subgroup pattern", "value_type": "reported_mechanism"},
+        "silent_gap": {"value": "people in Côte d'Ivoire often overestimate men's support for restrictive norms and underestimate women's support for them", "unit": "reported perceived-norm pattern", "value_type": "reported_social_expectation_gap"},
+        "change_route": {"value": "making support for positive masculinities more visible may reduce self-censorship, conformity, and assumptions about what others believe", "unit": "reported policy mechanism", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD analysis of age patterns and perceived-versus-reported social expectations in Côte d'Ivoire, complemented by qualitative accounts from Senegal.",
+      "uncertainty": "Generational patterns are not automatic or uniform; perceived-norm gaps may reflect measurement, social desirability, sampling, or context and do not guarantee rapid norm change.",
+      "subgroup": "Young women, young men, parents, peers, community leaders, educators, employers, and people whose choices are shaped by perceived social approval.",
+      "counterinterpretation": "Visible progressive beliefs may not translate into changed household authority, economic control, care allocation, or violence prevention without structural and institutional support.",
+      "source_url": "https://www.oecd.org/en/publications/masculinity-and-gender-equality_3973b760-en.html",
+      "retrieval_hash": "sha256:6af1a5ff698422ea46940b778574665a22ca118fa4ccf84771e5424e8e41b980",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gender norms, economic agency, and paid and unpaid work",
+      "denominator": {"value": 1, "unit": "OECD comparative women’s economic empowerment and labor-market frame", "value_type": "economic_agency_frame"},
+      "measures": {
+        "labor_force_gap_cote_divoire": {"value": 15, "unit": "approximate percentage-point labor-force participation gap between women and men in Côte d'Ivoire", "value_type": "reported_gap"},
+        "labor_force_gap_senegal": {"value": 30, "unit": "nearly percentage-point labor-force participation gap between women and men in Senegal", "value_type": "reported_gap"},
+        "agency_pathway": {"value": "restrictive norms are associated in the report with constraints on women's paid work, household decision making, and ownership or control of productive assets", "unit": "reported comparative mechanism", "value_type": "reported_mechanism_set"},
+        "participation_boundary": {"value": "women's labor-market participation does not automatically produce economic empowerment when work remains vulnerable, conditional, or disconnected from control over resources", "unit": "reported boundary", "value_type": "reported_boundary"}
+      },
+      "method": "OECD comparative analysis linking social norms to labor participation, vulnerable employment, unpaid care, decision-making, and asset control.",
+      "uncertainty": "Labor-force gaps and norm associations are aggregate comparative findings; they do not identify one causal pathway or measure every person's employment, care, or asset experience.",
+      "subgroup": "Women workers, unpaid caregivers, men under provider pressure, households, employers, informal workers, and people seeking assets, finance, childcare, or safe mobility.",
+      "counterinterpretation": "Economic structures, education, legal rights, transport, childcare, labor demand, and conflict also shape agency; changing norms alone cannot remove material constraints.",
+      "source_url": "https://www.oecd.org/en/publications/masculinity-and-gender-equality_3973b760-en.html",
+      "retrieval_hash": "sha256:6af1a5ff698422ea46940b778574665a22ca118fa4ccf84771e5424e8e41b980",
+      "status": "reported"
+    },
+    {
+      "period": "2026; restrictive masculinities, violence, accountability, and positive alternatives",
+      "denominator": {"value": 1, "unit": "OECD gender-based violence and institutional-response synthesis", "value_type": "violence_prevention_frame"},
+      "measures": {
+        "violence_link": {"value": "men who endorse restrictive norms and feel pressure to meet economic or sexual masculinity ideals are reported as more likely to perpetrate violence", "unit": "reported association", "value_type": "reported_association"},
+        "underreporting_route": {"value": "shame, stigma, fear of retaliation, social pressure, and limited institutional trust discourage reporting and leave violence hidden", "unit": "reported institutional mechanism", "value_type": "reported_mechanism_set"},
+        "positive_masculinities": {"value": "equitable, caring, and non-violent models of masculinity are identified as a route to women’s economic agency, reduced violence tolerance, and men’s well-being", "unit": "reported policy route", "value_type": "reported_policy_framework"},
+        "response_system": {"value": "prevention must be paired with legal frameworks, reporting systems, survivor services, accountability, and trusted institutions", "unit": "reported policy set", "value_type": "reported_institutional_route"}
+      },
+      "method": "OECD synthesis of published norm findings, qualitative evidence, gender-based violence pathways, and policy recommendations for prevention and survivor support.",
+      "uncertainty": "The report identifies associations and mechanisms, not a universal causal effect of any single norm; violence is underreported and context-specific.",
+      "subgroup": "Survivors, men and boys, women and girls, families, service providers, justice institutions, schools, community leaders, and prevention organizations.",
+      "counterinterpretation": "Norm-change interventions can fail or provoke backlash without material supports, accountability, safety, and locally credible engagement; positive messaging cannot replace survivor-centered services.",
+      "source_url": "https://www.oecd.org/en/publications/masculinity-and-gender-equality_3973b760-en.html",
+      "retrieval_hash": "sha256:6af1a5ff698422ea46940b778574665a22ca118fa4ccf84771e5424e8e41b980",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/man-enough-measuring-masculine-norms-to-promote-women-s-empowerment_6ffd1936-en.html", "claim": "OECD's earlier framework defines restrictive masculine norms and gender-equitable alternatives."},
+    {"source_url": "https://www.oecd.org/en/topics/gender-and-development.html", "claim": "OECD's gender-and-development program provides broader Social Institutions and Gender Index context."}
+  ],
+  "boundary": "This record adds a cultural-norms route across provider identity, household authority, unpaid care, work, economic agency, generational change, violence risk, accountability, and positive masculinities. It uses published OECD comparative findings and qualitative synthesis, not respondent-level survey extraction, individual violence histories, household case files, causal forecasts, or proof that norms operate identically across Côte d'Ivoire, Senegal, or other settings.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD report page and executive summary reviewed for provider and authority norms, provider stress, generational patterns, perceived social expectations, labor-force gaps, economic agency, violence associations, accountability, and positive-masculinity policy routes.",
+    "source_url_sha256": "sha256:6af1a5ff698422ea46940b778574665a22ca118fa4ccf84771e5424e8e41b980",
+    "checked": "2026-09-26"
+  }
+}

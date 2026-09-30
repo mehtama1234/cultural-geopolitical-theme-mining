@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-cross-border-payments-remittances-2026-transparency-consumer-route",
+  "title": "Cross-border payment access can fail through cost, delay, opacity, and weak tracking even when a transfer channel exists",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "work_control_bargaining"
+  ],
+  "source_unit": "OECD, Transparency in retail cross-border payments and remittances",
+  "geography": "Global retail cross-border payment and remittance systems under the G20 Roadmap for Enhancing Cross-border Payments",
+  "observations": [
+    {
+      "period": "2026; retail cross-border payments and remittances",
+      "denominator": {"value": 1, "unit": "global retail cross-border payment and remittance policy framework", "value_type": "global_policy_framework"},
+      "measures": {
+        "cost_challenge": {"value": "high costs are identified as one of four persistent challenges facing cross-border payments", "unit": "reported system challenge", "value_type": "reported_challenge"},
+        "speed_challenge": {"value": "low speed is identified as a second persistent challenge, making time part of the consumer cost of a transfer", "unit": "reported system challenge", "value_type": "reported_challenge"},
+        "access_challenge": {"value": "limited access is identified as a third challenge, so a nominal payment system does not guarantee a usable route for every payer or payee", "unit": "reported system challenge", "value_type": "reported_mechanism"},
+        "transparency_challenge": {"value": "insufficient transparency is identified as a fourth challenge affecting consumer comparison and control", "unit": "reported system challenge", "value_type": "reported_challenge"}
+      },
+      "method": "OECD policy analysis and guidance for implementing the G20 Roadmap for Enhancing Cross-border Payments and the G20/OECD High-Level Principles on Financial Consumer Protection.",
+      "uncertainty": "The report is guidance rather than a global causal evaluation; challenge prevalence, user harm, and reform effects differ by corridor, provider, currency, regulation, and consumer capability.",
+      "subgroup": "Migrants and remittance senders, families receiving transfers, small businesses, cross-border workers, payment service providers, banks, mobile-money users, and regulators.",
+      "counterinterpretation": "Competition, digital rails, local payment systems, and transparent providers can lower cost and delay; some users may prioritize reliability, cash access, or familiarity over the cheapest route.",
+      "source_url": "https://doi.org/10.1787/9f4da8fe-en",
+      "retrieval_hash": "sha256:fcb79187a5a753fc947eb8249e110812ad0ae036853136fa741410276cda37fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; minimum information for payer and payee control",
+      "denominator": {"value": 1, "unit": "OECD recommended disclosure framework for retail cross-border payments", "value_type": "consumer_protection_framework"},
+      "measures": {
+        "total_cost_disclosure": {"value": "payment service providers should disclose total transaction cost, including relevant charges and currency-conversion charges", "unit": "reported guidance requirement", "value_type": "reported_disclosure_route"},
+        "delivery_time_disclosure": {"value": "expected time of fund delivery should be disclosed to the payer and payee", "unit": "reported guidance requirement", "value_type": "reported_disclosure_route"},
+        "status_tracking": {"value": "payment-status tracking should be available as part of the minimum information route", "unit": "reported guidance requirement", "value_type": "reported_disclosure_route"},
+        "terms_disclosure": {"value": "terms of service should be made visible to users", "unit": "reported guidance requirement", "value_type": "reported_disclosure_route"},
+        "control_conversion": {"value": "disclosure converts an opaque transfer into a route that can be compared, monitored, questioned, and potentially corrected", "unit": "bounded synthesis", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD translation of G20 payment-roadmap objectives into minimum consumer-facing transparency elements.",
+      "uncertainty": "Disclosure does not establish comprehension, accessibility, effective choice, successful delivery, complaint resolution, or compensation after an error or fraud.",
+      "subgroup": "Payers and payees with different languages, financial literacy, disability access, digital access, currency exposure, and dependence on timely remittances.",
+      "counterinterpretation": "More disclosures can increase cognitive burden or become formal compliance without practical understanding; standardized summaries and accessible interfaces may be needed in addition to disclosure.",
+      "source_url": "https://doi.org/10.1787/9f4da8fe-en",
+      "retrieval_hash": "sha256:fcb79187a5a753fc947eb8249e110812ad0ae036853136fa741410276cda37fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; remittances and household economic room",
+      "denominator": {"value": 1, "unit": "retail remittance and cross-border-transfer use case", "value_type": "consumer_transfer_frame"},
+      "measures": {
+        "household_timing": {"value": "delivery time and status visibility can affect whether a transfer arrives when a household, worker, student, or small business needs it", "unit": "bounded transmission mechanism", "value_type": "bounded_mechanism"},
+        "household_cost": {"value": "fees and currency-conversion charges reduce the amount received or increase the amount a sender must provide", "unit": "reported transfer mechanism", "value_type": "reported_mechanism"},
+        "corridor_dependence": {"value": "the practical payment route depends on sender and recipient access, provider coverage, currency, digital connectivity, and regulatory conditions", "unit": "bounded system mechanism", "value_type": "bounded_mechanism"},
+        "consumer_protection": {"value": "financial-consumer-protection principles are intended to support transparency and fair treatment in cross-border payment use", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "Bounded synthesis of OECD guidance applied to remittance and retail-transfer use cases; no individual remittance histories are extracted.",
+      "uncertainty": "The publication does not estimate household welfare effects, corridor-specific fee pass-through, or whether a disclosed route is affordable and usable for every sender or payee.",
+      "subgroup": "Migrant workers, families, students, cross-border workers, small firms, recipients in rural or underserved areas, and people relying on transfers for essential spending.",
+      "counterinterpretation": "Recipients may have substitute channels, savings, local support, or cash alternatives; a lower-cost digital transfer can still be unusable where identity, connectivity, cash-out, or trust barriers persist.",
+      "source_url": "https://doi.org/10.1787/9f4da8fe-en",
+      "retrieval_hash": "sha256:fcb79187a5a753fc947eb8249e110812ad0ae036853136fa741410276cda37fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regulation, interoperability, and market accountability",
+      "denominator": {"value": 1, "unit": "G20 cross-border-payments implementation and financial-consumer-protection framework", "value_type": "regulatory_implementation_frame"},
+      "measures": {
+        "roadmap_route": {"value": "the guidance supports implementation of the G20 Roadmap for Enhancing Cross-border Payments", "unit": "reported policy framework", "value_type": "reported_policy_framework"},
+        "provider_duty": {"value": "payment service providers are the operational point at which cost, timing, status, and terms become visible or opaque to users", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "interoperability_need": {"value": "improving retail transfers requires coordination across providers, jurisdictions, currencies, payment rails, and consumer-protection regimes", "unit": "bounded implementation route", "value_type": "bounded_mechanism"},
+        "accountability_gap": {"value": "a transparency standard can improve comparison and oversight but does not by itself guarantee remedy, competition, or equal access", "unit": "reported limitation", "value_type": "reported_limitation"}
+      },
+      "method": "OECD policy guidance aligned with G20 payment and financial-consumer-protection principles.",
+      "uncertainty": "Implementation depends on national law, supervisory capacity, provider incentives, technical interoperability, data governance, and enforcement; the report does not evaluate each jurisdiction's compliance.",
+      "subgroup": "Regulators, central banks, payment providers, banks, fintechs, remittance firms, consumer advocates, migrants, small businesses, and cross-border households.",
+      "counterinterpretation": "Rules can increase compliance costs or reduce provider entry if poorly designed; market innovation and bilateral arrangements may solve some corridor problems faster than uniform mandates.",
+      "source_url": "https://doi.org/10.1787/9f4da8fe-en",
+      "retrieval_hash": "sha256:fcb79187a5a753fc947eb8249e110812ad0ae036853136fa741410276cda37fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex/report", "claim": "World Bank Global Findex provides complementary global demand-side financial-access and digital-connectivity context."},
+    {"source_url": "https://www.oecd.org/en/publications/consumer-finance-risk-monitor-2026_61f7dbe0-en.html", "claim": "OECD Consumer Finance Risk Monitor 2026 provides complementary financial-consumer-harm and oversight context."}
+  ],
+  "boundary": "This record adds a financial-consumer infrastructure route across cross-border payments, remittances, fees, currency conversion, delivery time, status tracking, terms, access, interoperability, and regulatory accountability. It uses OECD policy analysis and guidance, not individual transfer histories, household budgets, provider-level causal estimates, corridor-specific harm estimates, or proof that disclosure produces comprehension, successful delivery, or household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page reviewed for the four cross-border-payment challenges, minimum disclosure elements, G20 roadmap context, and financial-consumer-protection route.",
+    "source_url_sha256": "sha256:fcb79187a5a753fc947eb8249e110812ad0ae036853136fa741410276cda37fc",
+    "checked": "2026-09-26"
+  }
+}

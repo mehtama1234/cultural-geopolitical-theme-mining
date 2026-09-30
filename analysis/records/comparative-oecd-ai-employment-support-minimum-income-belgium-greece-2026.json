@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026",
+  "title": "AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "infrastructure_technology_dependency", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "consumer_power_recourse", "trust_identity_meaning"],
+  "source_unit": "OECD, AI and Digitalisation for Employment Support in Belgium and Greece: New Tools to Support Minimum Income Beneficiaries, 24 September 2026",
+  "geography": "Belgium and Greece; Minimum Income Scheme beneficiaries, public employment services, social workers, counsellors, employers, and local/regional service institutions",
+  "observations": [
+    {
+      "period": "2026; employment transition and job quality",
+      "denominator": {"value": 1, "unit": "OECD linked-administrative-data analysis of Minimum Income Scheme beneficiaries in Belgium and Greece", "value_type": "reported_data_analysis_frame"},
+      "measures": {"transition_quality": {"value": "beneficiaries often enter unstable, low-paid, part-time, and lower-entry occupations with limited progression prospects", "unit": "reported labour-market pattern", "value_type": "reported_outcome_pattern"}, "employment_income": {"value": "some beneficiaries are employed while remaining enrolled in the minimum-income scheme, indicating that employment income is insufficient for independent living", "unit": "reported administrative-data pattern", "value_type": "reported_household_security_finding"}, "recurrent_instability": {"value": "employment spells are frequently short and many people return to unemployment after relatively brief periods", "unit": "reported employment-pathway pattern", "value_type": "reported_transition_finding"}},
+      "method": "OECD analysis using linked administrative data, institutional assessment, and comparative review of public employment service practices in Belgium and Greece.",
+      "uncertainty": "The report describes observed pathways and system conditions; it does not establish that AI tools caused instability or that proposed tools will improve job quality.",
+      "subgroup": "Minimum-income beneficiaries, people further from the labour market, part-time and low-wage workers, people with informal or transferable skills, and people receiving overlapping social and employment services.",
+      "counterinterpretation": "Entry employment can still provide income, experience, and a bridge to better work; short spells may reflect sectoral conditions, health, care, or labour demand rather than matching failure alone.",
+      "source_url": "https://www.oecd.org/en/publications/ai-and-digitalisation-for-employment-support-in-belgium-and-greece_78164e71-en.html",
+      "retrieval_hash": "sha256:5789d4184bd83866d41c07d337164e39b722429b6c26c6f232d1a30fad6a3d56",
+      "status": "reported"
+    },
+    {
+      "period": "2026; progression rather than placement",
+      "denominator": {"value": 1, "unit": "OECD assessment of proposed AI-enhanced employment-support tools", "value_type": "reported_policy_design_frame"},
+      "measures": {"higher_quality_transition": {"value": "approximately 13% of beneficiaries in the cited analysis move into higher-quality jobs, while most enter positions of similar or lower quality", "unit": "reported transition share", "value_type": "reported_outcome_pattern"}, "tool_scope": {"value": "proposed tools are intended to support job matching, career guidance, training, active labour-market policies, and longer-term progression", "unit": "reported digital-service scope", "value_type": "reported_policy_route"}, "individualisation": {"value": "meaningful recommendations require individual skills, histories, barriers, training options, vacancies, and regional labour-market conditions", "unit": "reported design requirement", "value_type": "reported_system_requirement"}},
+      "method": "OECD administrative-data analysis and design recommendations for comprehensive AI-enhanced job and career recommendation platforms.",
+      "uncertainty": "The approximately 13% figure is context-specific and should not be generalized across all beneficiaries, countries, or future tool deployments.",
+      "subgroup": "Beneficiaries with different skills, employment histories, health or care barriers, digital capabilities, regions, and access to training or quality vacancies.",
+      "counterinterpretation": "Personalised recommendations can broaden search strategies and expose people to overlooked occupations, but better matching cannot create quality jobs where local labour demand is weak.",
+      "source_url": "https://www.oecd.org/en/publications/ai-and-digitalisation-for-employment-support-in-belgium-and-greece_78164e71-en.html",
+      "retrieval_hash": "sha256:5789d4184bd83866d41c07d337164e39b722429b6c26c6f232d1a30fad6a3d56",
+      "status": "reported"
+    },
+    {
+      "period": "2026; data governance, agency, and public-service legitimacy",
+      "denominator": {"value": 1, "unit": "OECD implementation and governance requirements for AI-enabled employment support", "value_type": "reported_governance_frame"},
+      "measures": {"data_constraint": {"value": "administrative data are fragmented, collected for operational rather than analytical purposes, and inconsistently coded across institutions", "unit": "reported data-governance challenge", "value_type": "reported_infrastructure_finding"}, "human_override": {"value": "staff should retain final decision authority and be able to override AI recommendations", "unit": "reported accountability requirement", "value_type": "reported_governance_route"}, "safeguards": {"value": "data governance, interoperability, EU AI Act compliance, privacy impact assessment, training, assisted access, and stakeholder testing are identified as necessary conditions", "unit": "reported safeguard set", "value_type": "reported_policy_requirement"}},
+      "method": "OECD comparative assessment of existing digital employment systems, data quality, institutional coordination, and proposed implementation safeguards.",
+      "uncertainty": "These are design and governance requirements, not evidence that safeguards have been implemented or that they prevent discrimination, exclusion, or over-reliance in practice.",
+      "subgroup": "Jobseekers with low digital skills, social workers and counsellors, employers, underrepresented groups, trade unions, regional employment services, and data subjects.",
+      "counterinterpretation": "Human override and assisted access may improve accountability but can also reproduce discretionary bias unless decisions, overrides, and outcomes are monitored transparently.",
+      "source_url": "https://www.oecd.org/en/publications/ai-and-digitalisation-for-employment-support-in-belgium-and-greece_78164e71-en.html",
+      "retrieval_hash": "sha256:5789d4184bd83866d41c07d337164e39b722429b6c26c6f232d1a30fad6a3d56",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://doi.org/10.1787/78164e71-en", "claim": "Official OECD DOI and citation for the Belgium and Greece AI/digital employment-support report."}],
+  "boundary": "This record adds an AI-mediated employment-service route from administrative data and job matching through career progression, job quality, agency, safeguards, and social legitimacy. It does not establish causal AI effects, universal transition rates, algorithmic fairness, realized implementation, or that recommendations create quality jobs where labour demand is weak.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official OECD publication page and executive-summary material reviewed for beneficiary employment patterns, progression share, tool scope, data fragmentation, human override, interoperability, AI Act and privacy safeguards, and assisted access.", "source_url_sha256": "sha256:5789d4184bd83866d41c07d337164e39b722429b6c26c6f232d1a30fad6a3d56", "checked": "2026-09-29"}
+}

@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-lebanon-cooperative-data-digital-modernization-2026",
+  "title": "Cooperative livelihoods become governable when public data, digital administration, and market access are rebuilt together in Lebanon",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "infrastructure_technology_dependency", "firm_sector_market_power", "work_control_bargaining", "unequal_exposure_status", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "ILO news report on the Lebanon cooperative-sector data and digital-modernization partnership, published 23 September 2026",
+  "geography": "Lebanon, especially agricultural cooperatives and rural livelihoods involving Lebanese and Syrian workers and refugee-host communities",
+  "observations": [
+    {
+      "period": "September 2026 onward; national cooperative data and institutional-modernization partnership",
+      "denominator": {"value": 850, "unit": "cooperatives registered with Lebanon's General Directorate of Cooperatives", "value_type": "reported_registered_count"},
+      "measures": {
+        "registered_cooperatives": {"value": 850, "unit": "cooperatives", "value_type": "reported_registered_count"},
+        "data_gap": {"value": "nationwide cooperative data had not been comprehensively updated since 2007", "unit": "reported administrative-data gap", "value_type": "reported_data_condition"},
+        "records_condition": {"value": "records remain largely paper-based and fragmented", "unit": "reported administrative condition", "value_type": "reported_system_condition"},
+        "reform_route": {"value": "requalification, nationwide data collection, stronger General Directorate capacity, and future digitalization of systems and services", "unit": "reported institutional intervention set", "value_type": "reported_reform_route"}
+      },
+      "method": "Official ILO account of a memorandum of understanding between the ILO, Lebanon's Ministry of Agriculture, and the General Directorate of Cooperatives; it is a partnership announcement, not an evaluation.",
+      "uncertainty": "The source does not establish how many registered cooperatives are active, how complete the legacy records are, or whether data modernization will improve service delivery, finance, job quality, or cooperative survival.",
+      "subgroup": "Agricultural cooperatives, farmers, workers, rural communities, Lebanese and Syrian workers, refugee-host communities, public administrators, and cooperative members.",
+      "counterinterpretation": "More data can improve targeting and transparency, but requalification or digital systems can also exclude informal, low-capacity, paper-poor, or politically unconnected cooperatives if access and support are uneven.",
+      "source_url": "https://www.ilo.org/resource/news/new-partnership-set-strengthen-lebanon%E2%80%99s-cooperative-sector-through-better",
+      "retrieval_hash": "sha256:a825d9dbd3026e395daad3da1d3f274ca589d0b1a3c618106a0994c798cddd0f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cooperative livelihoods, displacement, and agricultural work",
+      "denominator": {"value": 1, "unit": "cooperative-sector livelihood and local-development framework", "value_type": "reported_programme_frame"},
+      "measures": {
+        "livelihood_role": {"value": "cooperatives are described as supporting livelihoods and local economic development for refugees and host communities, particularly in rural areas", "unit": "reported institutional role", "value_type": "reported_role"},
+        "sector_risks": {"value": "agriculture faces informality, low and irregular incomes, limited social protection, occupational safety and health risks, and child labour", "unit": "reported risk set", "value_type": "reported_sector_condition"},
+        "governance_goal": {"value": "better evidence and institutional capacity are intended to support cooperatives, decent jobs, livelihoods, and local development", "unit": "reported policy direction", "value_type": "reported_policy_direction"}
+      },
+      "method": "ILO programme framing connecting cooperative institutions to agricultural livelihoods, displacement contexts, and labour conditions.",
+      "uncertainty": "The account does not provide cooperative-level employment counts, refugee-host distribution, income data, safety incidence, child-labour prevalence, or evidence that cooperatives currently deliver equal benefits.",
+      "subgroup": "Refugee and host-community households, agricultural workers, women and youth where covered, cooperative members, informal workers, and local employers.",
+      "counterinterpretation": "Cooperatives can support shared livelihoods but may reproduce local hierarchy, exclude nonmembers, or lack the capital and market power needed to improve wages and protection.",
+      "source_url": "https://www.ilo.org/resource/news/new-partnership-set-strengthen-lebanon%E2%80%99s-cooperative-sector-through-better",
+      "retrieval_hash": "sha256:a825d9dbd3026e395daad3da1d3f274ca589d0b1a3c618106a0994c798cddd0f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; finance and job-support route for farmers and workers",
+      "denominator": {"value": 400, "unit": "subsidized loans facilitated through broader ILO cooperation in Lebanon", "value_type": "reported_loan_count"},
+      "measures": {
+        "subsidized_loans": {"value": 400, "unit": "loans", "value_type": "reported_loan_count"},
+        "loan_value": {"value": 1.33, "unit": "million US dollars", "value_type": "reported_finance_value"},
+        "jobs": {"value": 2000, "unit": "jobs created or sustained", "value_type": "reported_job_count"},
+        "market_access": {"value": 1000, "unit": "farmers and workers helped to access new buyers and international markets over the past two years", "value_type": "reported_beneficiary_count"}
+      },
+      "method": "ILO report of associated cooperation and reported outputs, including loans, jobs, and market access.",
+      "uncertainty": "The source does not identify loan recipients, repayment, additionality, job quality, job duration, market revenues, or whether access was cooperative-mediated or individually delivered.",
+      "subgroup": "Farmers, workers, cooperative members, small producers, rural businesses, buyers, exporters, and households dependent on agricultural income.",
+      "counterinterpretation": "Loan and buyer access can increase exposure to debt, market volatility, export standards, and unequal bargaining power; jobs created or sustained are not necessarily decent or durable.",
+      "source_url": "https://www.ilo.org/resource/news/new-partnership-set-strengthen-lebanon%E2%80%99s-cooperative-sector-through-better",
+      "retrieval_hash": "sha256:a825d9dbd3026e395daad3da1d3f274ca589d0b1a3c618106a0994c798cddd0f",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 onward; international partnership and cooperative-governance standards",
+      "denominator": {"value": 1, "unit": "ILO–Lebanon–PROSPECTS partnership route for cooperative governance", "value_type": "reported_partnership_frame"},
+      "measures": {
+        "partners": {"value": "ILO, Lebanon's Ministry of Agriculture, General Directorate of Cooperatives, and PROSPECTS partnership", "unit": "reported institutional coalition", "value_type": "reported_partner_set"},
+        "funding_context": {"value": "the initiative is supported through PROSPECTS, funded by the Kingdom of the Netherlands", "unit": "reported development-finance context", "value_type": "reported_funding_context"},
+        "standard": {"value": "the initiative aligns with ILO Recommendation No. 193 and cooperative-statistics guidelines", "unit": "reported governance standard", "value_type": "reported_standard_reference"},
+        "geopolitical_mechanism": {"value": "external partnership and international standards are translated into domestic data, administrative, and rural-development capacity", "unit": "bounded development-governance mechanism", "value_type": "reported_partnership_mechanism"}
+      },
+      "method": "Official ILO account of a development partnership and its stated standards and institutional route.",
+      "uncertainty": "The report does not establish donor additionality, domestic ownership after partnership support, or whether international standards will be adapted effectively to local cooperative realities.",
+      "subgroup": "Lebanese public agencies, cooperative members, refugee and host communities, donors, international organizations, farmers, workers, and local development actors.",
+      "counterinterpretation": "International standards and donor-backed digitalization can improve comparability while also importing categories, reporting burdens, or priorities that do not fit local organizational practice.",
+      "source_url": "https://www.ilo.org/resource/news/new-partnership-set-strengthen-lebanon%E2%80%99s-cooperative-sector-through-better",
+      "retrieval_hash": "sha256:a825d9dbd3026e395daad3da1d3f274ca589d0b1a3c618106a0994c798cddd0f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/partnership-improving-prospects-forcibly-displaced-persons-and-host-communities-prospects-lebanon", "claim": "ILO PROSPECTS partnership context in Lebanon."},
+    {"source_url": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID:312535", "claim": "ILO Recommendation No. 193 on the promotion of cooperatives."}
+  ],
+  "boundary": "This record adds a cooperative-institution route linking data visibility, digital public administration, rural livelihoods, refugee-host economies, finance, market access, decent work, and international development standards. It is an official partnership announcement with reported associated outputs, not evidence of cooperative survival, representative job quality, causal finance effects, or implemented digital-service outcomes.",
+  "retrieval_hash": "sha256:a825d9dbd3026e395daad3da1d3f274ca589d0b1a3c618106a0994c798cddd0f"
+}

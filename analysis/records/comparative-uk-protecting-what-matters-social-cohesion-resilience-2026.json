@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-protecting-what-matters-social-cohesion-resilience-2026",
+  "title": "Social cohesion is being reframed as a national-resilience and security capability shaped by place, services, identity, technology, and geopolitical pressure",
+  "theme_ids": ["voice", "cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "platforms_data_attention",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Ministry of Housing, Communities and Local Government, Protecting What Matters: Towards a more confident, cohesive, and resilient United Kingdom, Command Paper CP 1559, updated 28 April 2026",
+  "geography": "United Kingdom social-cohesion, integration, community-resilience, online-safety, and national-security policy",
+  "observations": [
+    {
+      "period": "2026; government diagnosis of cohesion risk",
+      "denominator": {"value": 1, "unit": "UK government social-cohesion policy framework", "value_type": "published_policy_diagnosis"},
+      "measures": {
+        "pressure_set": {"value": "economic shocks, austerity, technological and demographic change, extremism, malign foreign influence, declining institutional trust, and worsening community tensions are presented as interacting pressures", "unit": "reported policy diagnosis", "value_type": "reported_mechanism_set"},
+        "place_condition": {"value": "closed or under-resourced youth centres, public services, high streets, local venues, and communal spaces are treated as visible conditions affecting confidence and belonging", "unit": "reported place mechanism", "value_type": "reported_mechanism_set"},
+        "security_route": {"value": "social cohesion is framed as a condition of national resilience because hostile states and extremist actors can exploit division", "unit": "reported geopolitical mechanism", "value_type": "reported_mechanism"},
+        "boundary": {"value": "the paper is a government diagnosis and action plan, not an independent causal assessment of the relative contribution of each pressure", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "UK government policy synthesis drawing on cited public evidence, prior reviews, administrative context, and cross-government policy commitments.",
+      "uncertainty": "The paper combines evidence, political interpretation, and proposed action; it does not provide a harmonized causal model or independent evaluation of its diagnosis.",
+      "subgroup": "UK communities, local authorities, civil society, faith groups, young people, minority communities, online users, and public institutions.",
+      "counterinterpretation": "The policy framing may attribute diverse social and political conflicts to cohesion deficits that also reflect material inequality, policy failure, party competition, or ordinary pluralism.",
+      "source_url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom",
+      "retrieval_hash": "sha256:087aac4d3e0f5d452285c06e7e8a69164d6c6ac9a03b50456bdaea9f9b122137",
+      "status": "reported"
+    },
+    {
+      "period": "2026; confident and cohesive community policy pillars",
+      "denominator": {"value": 3, "unit": "policy pillars in the UK government's executive summary: confident, cohesive, and resilient communities", "value_type": "published_policy_pillar_frame"},
+      "measures": {
+        "confident_communities": {"value": "Pride in Place, local decision-making, local media, high-street renewal, cultural and sporting events, youth and community infrastructure, and action on loneliness are proposed to rebuild belonging", "unit": "reported policy route", "value_type": "reported_policy_output"},
+        "cohesive_communities": {"value": "integration, English-language participation, community sponsorship, support for underrepresented groups, shared values, and anti-hate action are proposed to strengthen relationships across backgrounds", "unit": "reported policy route", "value_type": "reported_policy_output"},
+        "resilient_communities": {"value": "extremism prevention, institutional safeguards, platform accountability, researcher access to data, and online-risk mitigation are proposed to protect communities", "unit": "reported policy route", "value_type": "reported_policy_output"},
+        "analytic_signal": {"value": "the state is linking material place investment, cultural identity, integration, online governance, and security rather than treating cohesion as a standalone community-program issue", "unit": "analytic public-systems mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Policy-pillar synthesis from the Command Paper's executive summary and implementation commitments.",
+      "uncertainty": "The pillars describe intended actions and governance arrangements, not completed delivery, budget sufficiency, or measured improvement in cohesion.",
+      "subgroup": "National and local government, schools, communities, cultural and sporting institutions, platforms, civil society, and groups exposed to hate or exclusion.",
+      "counterinterpretation": "A broad pillar structure can improve coordination while also expanding state discretion over identity, integration, extremism, and acceptable public expression.",
+      "source_url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom",
+      "retrieval_hash": "sha256:087aac4d3e0f5d452285c06e7e8a69164d6c6ac9a03b50456bdaea9f9b122137",
+      "status": "reported"
+    },
+    {
+      "period": "2026; online, geopolitical, and demographic transmission",
+      "denominator": {"value": 1, "unit": "UK government risk-and-resilience analysis", "value_type": "published_policy_mechanism_frame"},
+      "measures": {
+        "online_route": {"value": "online echo chambers, algorithmic amplification, misinformation, and reduced physical connection are presented as possible pathways from technology to social fragmentation", "unit": "reported digital route", "value_type": "reported_mechanism_set"},
+        "foreign_influence": {"value": "hostile states and foreign actors are described as promoting extremist narratives and disinformation to exploit grievances and divide communities", "unit": "reported geopolitical route", "value_type": "reported_mechanism"},
+        "migration_pressure": {"value": "migration, asylum accommodation, housing, service capacity, and uneven local burdens are presented as conditions that can intensify community tension when poorly managed", "unit": "reported demographic-and-place route", "value_type": "reported_mechanism_set"},
+        "boundary": {"value": "these are government claims and policy hypotheses; the paper does not estimate the independent effect of algorithms, migration, foreign influence, or service decline", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Government policy analysis combining public evidence, prior reviews, security assessments, and policy interpretation.",
+      "uncertainty": "Transmission pathways are context-dependent and can involve feedback between material conditions, political narratives, media systems, and institutional response.",
+      "subgroup": "Online publics, migrants and asylum seekers, host communities, local service systems, faith groups, and people exposed to extremist or hateful content.",
+      "counterinterpretation": "Online activity can create connection and civic participation, migration can strengthen communities, and perceived tension may be driven by political framing rather than direct exposure.",
+      "source_url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom",
+      "retrieval_hash": "sha256:087aac4d3e0f5d452285c06e7e8a69164d6c6ac9a03b50456bdaea9f9b122137",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social-contract and delivery route",
+      "denominator": {"value": 1, "unit": "UK government cohesion action plan and accountability frame", "value_type": "published_implementation_frame"},
+      "measures": {
+        "social_contract": {"value": "the paper frames cohesion as a reciprocal relationship between citizens, the state, and people who come to the UK, combining rights, responsibilities, integration, and protection from hate", "unit": "reported governance frame", "value_type": "reported_mechanism"},
+        "community_agency": {"value": "Pride in Place and local decision-making are intended to give communities resources and agency to strengthen their own neighbourhoods", "unit": "reported empowerment route", "value_type": "reported_policy_route"},
+        "coordination": {"value": "a Social Cohesion Taskforce and cross-government, devolved, local, civil-society, and public collaboration are proposed for sustained delivery and accountability", "unit": "reported coordination route", "value_type": "reported_policy_output"},
+        "open_test": {"value": "join funding, local authority implementation, service and place change, integration experience, online exposure, hate or safety incidents, belonging, trust, participation, and later resilience", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UK government implementation and accountability framework described in the Command Paper.",
+      "uncertainty": "The plan does not yet show whether proposed resources, powers, and coordination will produce durable local capacity, trust, or reduced conflict.",
+      "subgroup": "Central and devolved government, local authorities, communities, civil society, schools, platforms, and residents affected by place and integration policy.",
+      "counterinterpretation": "Central coordination can improve visibility while displacing local ownership or creating new conflict over whose values, history, and security concerns define cohesion.",
+      "source_url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom",
+      "retrieval_hash": "sha256:087aac4d3e0f5d452285c06e7e8a69164d6c6ac9a03b50456bdaea9f9b122137",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-neighbourhood/community-and-engagement-survey-202526-neighbourhood-and-community-report", "claim": "The Community and Engagement Survey provides outcome measures for belonging, local trust, neighbour interaction, collective action, and perceived local change."},
+    {"source_url": "https://www.gov.uk/government/publications/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study/culture-and-heritage-capital-valuing-social-cohesion-a-scoping-study", "claim": "The DCMS culture-and-heritage study supplies complementary mechanisms for social infrastructure, belonging, trust, and civic capacity."}
+  ],
+  "boundary": "This record adds a UK state-policy route from economic, place, demographic, technological, and geopolitical pressures through integration, identity, community infrastructure, online governance, extremism prevention, and national resilience. It is a policy diagnosis and action plan, not an independent causal evaluation, a neutral measure of public opinion, proof of extremist influence, or evidence that proposed programs have delivered cohesion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK Command Paper was reviewed for its diagnosis of cohesion pressure, confident/cohesive/resilient pillars, place and service routes, online and foreign-influence pathways, social-contract framing, taskforce, and implementation boundaries.",
+    "source_url_sha256": "sha256:087aac4d3e0f5d452285c06e7e8a69164d6c6ac9a03b50456bdaea9f9b122137",
+    "checked": "2026-09-26"
+  }
+}

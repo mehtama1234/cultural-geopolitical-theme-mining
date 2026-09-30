@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers",
+  "title": "Brazil’s Pix transition is rapid but incomplete: actual cash displacement coexists with knowledge and connectivity barriers",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "Banco Central do Brasil, second edition of O brasileiro e os hábitos de uso de meios de pagamento, data collected October–November 2023",
+  "geography": "Brazil; national adult consumer survey, merchant survey, and one-week payment diaries, with payment-method, preference, income-receipt, and barrier dimensions",
+  "observations": [
+    {
+      "period": "2019–2023; one-week payment-diary method mix",
+      "denominator": {
+        "value": 1228,
+        "unit": "payment diaries in the 2023 study; 11,023 recorded payments across participating individuals",
+        "value_type": "reported_payment_diary_sample"
+      },
+      "measures": {
+        "cash_payment_share_2019": {"value": 76.6, "unit": "percent of diary-recorded payments made with cash in 2019", "value_type": "official_diary_share"},
+        "cash_payment_share_2023": {"value": 40.5, "unit": "percent of diary-recorded payments made with cash in 2023", "value_type": "official_diary_share"},
+        "cash_decline": {"value": 36.1, "unit": "percentage-point decline in cash share of recorded payments from 2019 to 2023, calculated from published shares", "value_type": "derived_diary_change"},
+        "pix_payment_share_2023": {"value": 24.9, "unit": "percent of diary-recorded payments made with Pix in 2023", "value_type": "official_diary_share"},
+        "mechanism": {"value": "Pix is not only an infrastructure rollout: it is displacing cash in observed consumer transactions, changing the visibility, speed, and routing of everyday consumption while leaving cash as a major residual instrument", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BCB comparison of one-week payment diaries from the 2019 and 2023 editions; the 2023 release reports 1,228 diaries and 11,023 recorded transactions.",
+      "uncertainty": "The two diary samples and field periods may differ; payment shares do not measure transaction value, merchant acceptance, cash withdrawals, household welfare, or causal effects of Pix.",
+      "subgroup": "Brazilian consumers participating in the 2019 and 2023 payment-diary studies.",
+      "counterinterpretation": "Cash may remain important for privacy, offline resilience, informal commerce, or specific merchant contexts; Pix use does not imply complete replacement of cash or equal access.",
+      "source_url": "https://www.bcb.gov.br/detalhenoticia/20435/nota",
+      "retrieval_hash": "sha256:6e76ac9602913e0d074eab0be21427dccb9276ab92b3c06daa7f20e7cd219775",
+      "status": "reported"
+    },
+    {
+      "period": "2023; stated preference, awareness, and non-use barriers",
+      "denominator": {
+        "value": 1500,
+        "unit": "individuals in the quantitative consumer survey; separate 600-establishment survey and 1,228 payment diaries were also fielded",
+        "value_type": "reported_consumer_sample"
+      },
+      "measures": {
+        "pix_preference": {"value": 64.9, "unit": "percent of people naming Pix among their two most preferred payment methods", "value_type": "official_preference_share"},
+        "cash_preference": {"value": 55.7, "unit": "percent naming cash among their two most preferred payment methods", "value_type": "official_preference_share"},
+        "pix_nonuse_last_12_months": {"value": 17.3, "unit": "percent of interviewees who did not use Pix in the preceding 12 months", "value_type": "official_nonuse_share"},
+        "nonuser_lack_of_knowledge": {"value": 37.3, "unit": "percent of Pix nonusers citing lack of knowledge about how to use it", "value_type": "official_conditional_barrier_share"},
+        "alternative_due_to_internet_access": {"value": 24.2, "unit": "percent of people choosing another payment method in some situations because of difficulty accessing the internet", "value_type": "official_conditional_barrier_share"},
+        "mechanism": {"value": "High stated preference does not eliminate capability barriers: knowledge, connectivity, speed, and context determine whether a preferred payment method is executable at the point of purchase", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BCB 2023 quantitative consumer survey of 1,500 individuals, with conditional barrier questions among Pix nonusers or people choosing alternatives.",
+      "uncertainty": "Preference and barrier shares use different conditional denominators; the release does not identify subgroup precision here or establish why internet access was difficult.",
+      "subgroup": "Brazilian consumers surveyed in 2023, with Pix users/nonusers and payment-choice contexts.",
+      "counterinterpretation": "Non-use may be intentional or situational, and reported knowledge barriers can coexist with access through family, merchants, or other payment rails.",
+      "source_url": "https://www.bcb.gov.br/detalhenoticia/20435/nota",
+      "retrieval_hash": "sha256:6e76ac9602913e0d074eab0be21427dccb9276ab92b3c06daa7f20e7cd219775",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2023; income receipt and electronic-payment infrastructure",
+      "denominator": {
+        "value": 1500,
+        "unit": "individuals in the BCB quantitative consumer survey; reported income-receipt measure compares the 2019 and 2023 editions",
+        "value_type": "reported_consumer_sample"
+      },
+      "measures": {
+        "income_received_in_account_2019": {"value": 40.2, "unit": "percent reporting receipt of their main income source into an account in 2019", "value_type": "official_survey_share"},
+        "income_received_in_account_2023": {"value": 64.1, "unit": "percent reporting receipt of their main income source into an account in 2023", "value_type": "official_survey_share"},
+        "income_account_growth": {"value": 23.9, "unit": "percentage-point increase from 2019 to 2023, calculated from published shares", "value_type": "derived_survey_change"},
+        "merchant_pix_preference": {"value": 69.5, "unit": "percent of surveyed establishments mentioning Pix among payment methods used or remembered", "value_type": "official_merchant_share"},
+        "merchant_cash_presence": {"value": 64.4, "unit": "percent of surveyed establishments mentioning cash", "value_type": "official_merchant_share"},
+        "mechanism": {"value": "Payment behavior is jointly produced by consumer receipt infrastructure and merchant acceptance: electronic income receipt expands the route into electronic payment, but cash remains materially present at the point of sale", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BCB comparison of the 2019 and 2023 consumer surveys plus a separate 2023 survey of 600 commercial establishments.",
+      "uncertainty": "Receipt into an account does not establish account usability, savings, income stability, or electronic-payment use; merchant mention is not transaction share or acceptance quality.",
+      "subgroup": "Brazilian consumers and surveyed commercial establishments in the BCB payment-habits study.",
+      "counterinterpretation": "Income may be received electronically but spent in cash, and merchant payment-method mentions can reflect availability rather than customer preference or actual volume.",
+      "source_url": "https://www.bcb.gov.br/detalhenoticia/20435/nota",
+      "retrieval_hash": "sha256:6e76ac9602913e0d074eab0be21427dccb9276ab92b3c06daa7f20e7cd219775",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bcb.gov.br/estabilidadefinanceira/spbpublicacoes",
+      "claim": "BCB official publications portal listing the 2023 payment-habits study and microdata resources.",
+      "status": "official-publication-portal"
+    },
+    {
+      "source_url": "https://www.bcb.gov.br/en/pressdetail/2614/nota/https%3A/www3.bcb.gov.br/sgspub",
+      "claim": "BCB official English release on Brazil’s 2024 Pix and card transaction growth, used as contextual continuation rather than the survey’s primary denominator.",
+      "status": "official-context-release"
+    }
+  ],
+  "boundary": "This record adds a Brazil payment-diary, preference, merchant, and digital-barrier layer to the cultural, social, and consumer atlas. It does not establish causal Pix effects, financial welfare, merchant profitability, fraud reduction, cultural consumption, or universal cash displacement.",
+  "retrieval_hash": "sha256:6e76ac9602913e0d074eab0be21427dccb9276ab92b3c06daa7f20e7cd219775",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "BCB official 2023 payment-habits release reviewed for consumer, merchant, and diary sample sizes; cash/Pix diary shares, preference, non-use barriers, income receipt, and merchant mentions checked; official publication portal retained for underlying resources.",
+    "checked": "2026-09-30"
+  }
+}

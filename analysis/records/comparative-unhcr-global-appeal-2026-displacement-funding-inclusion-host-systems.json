@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unhcr-global-appeal-2026-displacement-funding-inclusion-host-systems",
+  "title": "Protracted displacement is being managed as a long-term social and development-system problem while humanitarian funding remains structurally inadequate",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "household_room_consumption"
+  ],
+  "source_unit": "UNHCR, Global Appeal 2026",
+  "geography": "Global forced displacement and statelessness across 128 countries and territories, including host communities and displacement-affected areas",
+  "observations": [
+    {
+      "period": "2026 planning horizon",
+      "denominator": {"value": 136000000, "unit": "people projected to be forcibly displaced or stateless in 2026", "value_type": "reported_projection"},
+      "measures": {
+        "operational_presence": {"value": 128, "unit": "countries and territories where UNHCR plans to be present and undertake action", "value_type": "reported_country_count"},
+        "funding_requirement": {"value": 8.505, "unit": "billion US dollars needed in 2026 to protect and assist forcibly displaced and stateless people", "value_type": "reported_requirement"},
+        "system_condition": {"value": "Displacement is framed as involving uncertainty, vulnerability, legal recognition, safety, services, and access to opportunity rather than only emergency shelter", "unit": "reported problem frame", "value_type": "reported_framework"}
+      },
+      "method": "UNHCR annual global appeal using projected populations, country and regional operational plans, programmatic priorities, and financial requirements.",
+      "uncertainty": "The 136 million figure is a planning projection and the $8.505 billion figure is an appeal requirement, not realized displacement, funding received, or outcome measurement.",
+      "subgroup": "Refugees, asylum-seekers, internally displaced people, stateless people, returnees, host communities, women, children, and people with disabilities.",
+      "counterinterpretation": "A very large operational footprint can signal institutional reach while also revealing how displacement has become normalized and how humanitarian systems may be asked to substitute for political resolution.",
+      "source_url": "https://www.unhcr.org/publications/global-appeal-2026",
+      "retrieval_hash": "sha256:5c3945bcae8246c5056934080c0e9e203342ea51c6e02c8b0b962056a4ab65a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; humanitarian-to-development response shift",
+      "denominator": {"value": 1, "unit": "UNHCR 2026 response strategy", "value_type": "reported_strategy"},
+      "measures": {
+        "funding_model": {"value": "Humanitarian funding alone is described as insufficient for unprecedented and protracted displacement", "unit": "reported financing diagnosis", "value_type": "reported_assessment"},
+        "development_partnership": {"value": "UNHCR is increasingly working with development actors such as the World Bank to support solutions and sustain government-led responses", "unit": "reported institutional route", "value_type": "reported_strategy"},
+        "host_system_focus": {"value": "The strategy emphasizes displacement-affected areas and equitable access to services for displaced people and host communities", "unit": "reported delivery focus", "value_type": "reported_principle"}
+      },
+      "method": "UNHCR strategic appeal linking protection and assistance to development actors, national systems, host-community services, and longer-term solutions.",
+      "uncertainty": "The strategy does not prove that development partnerships will be adequately financed, locally legitimate, or capable of replacing emergency resources in acute crises.",
+      "subgroup": "Host governments, municipalities, service providers, development institutions, refugees, displaced people, stateless people, and host communities.",
+      "counterinterpretation": "Embedding displacement response in national and development systems can improve durability, but it can also dilute protection obligations or shift responsibility onto already-constrained host services.",
+      "source_url": "https://www.unhcr.org/publications/global-appeal-2026",
+      "retrieval_hash": "sha256:5c3945bcae8246c5056934080c0e9e203342ea51c6e02c8b0b962056a4ab65a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 program priorities",
+      "denominator": {"value": 1, "unit": "UNHCR Global Appeal 2026 policy and program agenda", "value_type": "reported_agenda"},
+      "measures": {
+        "legal_policy_route": {"value": "The appeal calls for improved legal and policy environments and protection-sensitive responses for people forced to flee", "unit": "reported policy route", "value_type": "reported_priority"},
+        "economic_inclusion_route": {"value": "The agenda includes access to employment, entrepreneurship, agribusiness, and financial services for forcibly displaced and stateless people", "unit": "reported inclusion route", "value_type": "reported_priority"},
+        "service_route": {"value": "Equitable access to services in displacement-affected areas is treated as a key investment area", "unit": "reported public-system route", "value_type": "reported_priority"}
+      },
+      "method": "UNHCR global planning framework combining protection, services, livelihoods, economic inclusion, and solutions priorities.",
+      "uncertainty": "Policy commitments and program priorities do not establish legal access, work authorization, service uptake, income security, or durable self-reliance for affected people.",
+      "subgroup": "Forcibly displaced and stateless people, host communities, employers, financial-service providers, farmers, entrepreneurs, and public agencies.",
+      "counterinterpretation": "Economic inclusion can increase agency and reduce dependency, but labor-market access without rights, bargaining power, or adequate services can produce low-paid and precarious integration.",
+      "source_url": "https://www.unhcr.org/publications/global-appeal-2026",
+      "retrieval_hash": "sha256:5c3945bcae8246c5056934080c0e9e203342ea51c6e02c8b0b962056a4ab65a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; operational implementation frame",
+      "denominator": {"value": 16, "unit": "UNHCR Global Appeal 2026 focus-area routes shown in the public planning interface", "value_type": "reported_program_structure"},
+      "measures": {
+        "route_set": {"value": "The appeal organizes country and regional planning around access, status, policy, gender-based violence, children, justice, community, basic needs, shelter, health, education, WASH, livelihoods, returns, resettlement, and local solutions", "unit": "reported program-route set", "value_type": "reported_framework"},
+        "multi_stage_problem": {"value": "Protection and durable solutions require linked legal, social, health, education, livelihood, shelter, and local-capacity stages", "unit": "reported systems pathway", "value_type": "reported_mechanism"},
+        "coordination_requirement": {"value": "The appeal requires coordination among governments, UNHCR, development actors, civil society, communities, and other partners", "unit": "reported coordination frame", "value_type": "reported_framework"}
+      },
+      "method": "UNHCR public appeal architecture and operational planning categories.",
+      "uncertainty": "A planning taxonomy shows intended coverage, not that every route is funded, available, accessible, safe, or connected for each person or place.",
+      "subgroup": "Displaced people and host communities moving through different protection, service, status, work, return, resettlement, and local-solution pathways.",
+      "counterinterpretation": "A multi-stage framework can prevent narrow emergency metrics, but a large route architecture can also fragment accountability and make it difficult to observe whether people experience a coherent path to safety and opportunity.",
+      "source_url": "https://www.unhcr.org/publications/global-appeal-2026",
+      "retrieval_hash": "sha256:5c3945bcae8246c5056934080c0e9e203342ea51c6e02c8b0b962056a4ab65a9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a global displacement-and-capacity signal linking forced displacement, statelessness, humanitarian funding, host systems, legal recognition, services, work, economic inclusion, and durable solutions. It is a UNHCR planning appeal, not a realized displacement count, funding-outcome evaluation, respondent-level dataset, or proof that economic inclusion and development partnerships produce durable protection or agency.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNHCR Global Appeal 2026 page reviewed for projected displaced/stateless population, countries and territories, funding requirement, humanitarian-to-development shift, equitable services, legal and policy environments, economic inclusion priorities, and operational focus areas.",
+    "source_url_sha256": "sha256:5c3945bcae8246c5056934080c0e9e203342ea51c6e02c8b0b962056a4ab65a9",
+    "checked": "2026-09-27"
+  }
+}

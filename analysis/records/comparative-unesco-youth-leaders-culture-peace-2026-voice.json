@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-youth-leaders-culture-peace-2026-voice",
+  "title": "Youth-led peace-building is being framed as a cultural and institutional question about participation, shared futures, and the mandate of global organizations",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNESCO, Young Leaders Call for a New Culture of Peace, September 2026",
+  "geography": "Young leaders from 135 countries engaging UNESCO and partners on the future of peace, culture, and multilateral institutions",
+  "observations": [
+    {
+      "period": "Summer 2026; youth-led reflection on peace and UNESCO’s future",
+      "denominator": {"value": 145, "unit": "young leaders from 135 countries participating in the youth-led reflection", "value_type": "published_participant_count"},
+      "measures": {
+        "initiative": {"value": "young leaders produced a Call by Young People and a Young People’s Reflection Document on the future of UNESCO’s mandate", "unit": "reported civic process", "value_type": "reported_process"},
+        "peace_frame": {"value": "the initiative calls for a new culture of peace in the minds of women and men for the twenty-first century", "unit": "reported normative frame", "value_type": "reported_synthesis"},
+        "institutional_route": {"value": "youth participation is positioned as input into the direction and legitimacy of a multilateral cultural institution", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNESCO public account of a youth-led reflection process, dialogue at UNESCO Headquarters and the Sorbonne, and resulting call and reflection documents.",
+      "uncertainty": "The 145 participants are not a representative sample of young people globally; the public account does not quantify the content distribution, implementation, or institutional effect of the call.",
+      "subgroup": "Young leaders, youth organizations, educators, cultural institutions, multilateral agencies, policymakers, and communities engaged in peace-building.",
+      "counterinterpretation": "A small, selected leadership group can generate ideas and networks without representing broader youth preferences or securing durable institutional change.",
+      "source_url": "https://www.unesco.org/en/articles/young-leaders-call-new-culture-peace?hub=918",
+      "retrieval_hash": "sha256:4662e904143400917975f52c9b8f917f71849abdfe1468ee29d6094d058209cb",
+      "status": "reported"
+    },
+    {
+      "period": "3-4 September 2026; youth-to-institution dialogue",
+      "denominator": {"value": 11, "unit": "young leaders who presented ideas in direct dialogue during the UNESCO and Sorbonne events", "value_type": "published_presenter_count"},
+      "measures": {
+        "dialogue_sites": {"value": "UNESCO Headquarters and the Sorbonne in Paris", "unit": "reported civic venues", "value_type": "reported_event_frame"},
+        "institutional_dialogue": {"value": "youth ideas were brought into direct dialogue with UNESCO’s Director-General and France’s Minister for Europe and Foreign Affairs", "unit": "reported participation mechanism", "value_type": "reported_mechanism"},
+        "voice_route": {"value": "participation becomes meaningful only if ideas move from symbolic dialogue to agenda-setting, feedback, implementation, and accountability", "unit": "analytic participation chain", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "UNESCO event account describing the public presentation and direct dialogue around the youth documents.",
+      "uncertainty": "Dialogue access does not establish influence on policy, funding, programming, or organizational decisions.",
+      "subgroup": "Youth presenters, UNESCO leadership, government representatives, educators, civil-society actors, and audiences for the call.",
+      "counterinterpretation": "High-level dialogue can provide recognition, learning, and network effects even when formal decision authority remains elsewhere.",
+      "source_url": "https://www.unesco.org/en/articles/young-leaders-call-new-culture-peace?hub=918",
+      "retrieval_hash": "sha256:4662e904143400917975f52c9b8f917f71849abdfe1468ee29d6094d058209cb",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; culture of peace and shared-future formation",
+      "denominator": {"value": 1, "unit": "UNESCO youth-led peace and cultural-reflection framework", "value_type": "qualitative_civic_framework"},
+      "measures": {
+        "peace_as_culture": {"value": "peace is framed as a culture formed in people’s minds and institutions, not only as the absence of armed conflict", "unit": "reported normative mechanism", "value_type": "reported_synthesis"},
+        "future_route": {"value": "youth participation connects present conflict conditions to future institutional purpose, education, culture, and multilateral cooperation", "unit": "analytic cross-domain route", "value_type": "analytic_mechanism_set"},
+        "legitimacy_test": {"value": "the next test is whether youth reflection changes mandates, programmes, resources, representation, or durable civic capacity", "unit": "open analytic route", "value_type": "research_queue"},
+        "boundary": {"value": "the call is not a measure of youth attitudes, conflict trends, or peace outcomes", "unit": "interpretation boundary", "value_type": "boundary"}
+      },
+      "method": "Cross-source interpretation of UNESCO’s youth-led peace framing and institutional dialogue process.",
+      "uncertainty": "A normative call does not show whether participants share a single agenda or whether institutions can translate it into measurable action.",
+      "subgroup": "Young people, conflict-affected communities, schools, cultural institutions, multilateral organizations, and civic actors.",
+      "counterinterpretation": "Symbolic and cultural work can support social cohesion and imagination, but material security, political rights, and conflict accountability remain necessary for durable peace.",
+      "source_url": "https://www.unesco.org/en/articles/young-leaders-call-new-culture-peace?hub=918",
+      "retrieval_hash": "sha256:4662e904143400917975f52c9b8f917f71849abdfe1468ee29d6094d058209cb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/articles/education-culture-multilateralism", "claim": "UNESCO education-and-multilateralism work provides complementary common-world and institutional-disagreement context."},
+    {"source_url": "https://www.undp.org/publications/youth-peace-and-security", "claim": "UNDP youth, peace, and security work provides complementary participation and peace-building context."}
+  ],
+  "boundary": "This record adds a youth-led cultural and civic-participation route from peace reflection through multilateral dialogue, institutional legitimacy, shared futures, and possible agenda-setting. It is a selected participatory process, not representative youth opinion, a conflict dataset, a causal peace intervention, or proof of institutional implementation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO September 2026 article was reviewed for the 145 participants from 135 countries, youth-led call and reflection documents, event dates and venues, institutional dialogue, and culture-of-peace framing.",
+    "source_url_sha256": "sha256:4662e904143400917975f52c9b8f917f71849abdfe1468ee29d6094d058209cb",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-afrobarometer-east-africa-reproductive-autonomy-sexuality-education-2026",
+  "title": "Support for women’s reproductive autonomy is broad, but access and abortion legitimacy remain conditional on age, marriage, and circumstance",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "Afrobarometer, East Africa sexual and reproductive health and rights news release, Round 10",
+  "geography": "Comoros, Kenya, Uganda, Tanzania, Mauritius, Madagascar, and Seychelles; 2024–2025 surveys",
+  "observations": [
+    {
+      "period": "2024–2025; autonomy in marriage and childbearing",
+      "denominator": {"value": 12000, "unit": "interviews across seven East African countries", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "marriage_autonomy": {"value": 80, "unit": "percent agreeing women and girls should decide for themselves whether and when to marry", "value_type": "reported_survey_share"},
+        "childbearing_autonomy": {"value": 73, "unit": "percent agreeing women should decide for themselves how many children to have and when", "value_type": "reported_survey_share"},
+        "cross_country_support": {"value": "Majorities supported both forms of autonomy in all seven surveyed countries", "unit": "reported country pattern", "value_type": "reported_pattern"},
+        "autonomy_boundary": {"value": "Support for decision-making autonomy is broad, but the survey does not measure whether women can exercise it safely or access services needed to do so", "unit": "interpretive boundary", "value_type": "analytic_mechanism"}
+      },
+      "method": "Afrobarometer Round 10 face-to-face interviews in respondents’ language, nationally representative within seven countries, weighted equally for the multi-country average, with margins of error of approximately plus or minus 2–3 percentage points at 95% confidence.",
+      "uncertainty": "Sensitive questions may generate non-response or social-desirability bias; opinions are not observed reproductive behavior, service access, or household decision-making power.",
+      "subgroup": "Citizens across seven East African countries, with country-level variation and smaller subgroup uncertainty.",
+      "counterinterpretation": "Respondents may endorse autonomy as a general principle while accepting family, religious, economic, or legal constraints in actual decisions.",
+      "source_url": "https://www.afrobarometer.org/wp-content/uploads/2026/09/News-release_Most-East-Africans-support-womens-autonomy-in-marriage-decisions_di-bh-17sept26.pdf",
+      "retrieval_hash": "sha256:713ef778796de1851be2d844c2508f25ea2bcedeb01a21fc949ef58b4b7ff13f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; sexuality education and contraceptive availability",
+      "denominator": {"value": 12000, "unit": "interviews across seven East African countries", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "sexuality_education": {"value": 79, "unit": "percent endorsing sexuality education in schools", "value_type": "reported_survey_share"},
+        "contraception_marital_status": {"value": 58, "unit": "percent saying contraceptives should be available to sexually active people regardless of marital status", "value_type": "reported_survey_share"},
+        "contraception_age": {"value": 42, "unit": "percent saying contraceptives should be available regardless of age", "value_type": "reported_survey_share"},
+        "access_layering": {"value": "Support for school-based information and marital-status-neutral access is higher than support for unrestricted age-neutral access", "unit": "reported attitudinal gradient", "value_type": "analytic_mechanism"}
+      },
+      "method": "Weighted multi-country survey with separate questions on sexuality education, contraceptive access by marital status, and contraceptive access by age.",
+      "uncertainty": "The questions measure public norms and policy preferences, not actual service availability, provider practice, affordability, confidentiality, or adolescent access.",
+      "subgroup": "Citizens across seven countries, including adults with different views on marriage, age, sexuality education, and reproductive health.",
+      "counterinterpretation": "Respondents may distinguish education from service access, or express concern about safeguarding and age without opposing contraception for adults or married people.",
+      "source_url": "https://www.afrobarometer.org/wp-content/uploads/2026/09/News-release_Most-East-Africans-support-womens-autonomy-in-marriage-decisions_di-bh-17sept26.pdf",
+      "retrieval_hash": "sha256:713ef778796de1851be2d844c2508f25ea2bcedeb01a21fc949ef58b4b7ff13f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; abortion legitimacy by circumstance",
+      "denominator": {"value": 12000, "unit": "interviews across seven East African countries", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "health_life_risk": {"value": 67, "unit": "percent saying abortion can always or sometimes be justified when the woman’s health or life is at risk", "value_type": "reported_survey_share"},
+        "rape_incest": {"value": 47, "unit": "percent saying abortion can always or sometimes be justified when pregnancy results from rape or incest", "value_type": "reported_survey_share"},
+        "economic_hardship": {"value": 30, "unit": "percent saying abortion can always or sometimes be justified when the woman cannot economically care for a child", "value_type": "reported_survey_share"},
+        "unwanted_pregnancy": {"value": 26, "unit": "percent saying abortion can always or sometimes be justified when the woman does not want the pregnancy for any reason", "value_type": "reported_survey_share"},
+        "circumstance_gradient": {"value": "Support is substantially higher for health-risk circumstances than for economic hardship or an unwanted pregnancy without another stated justification", "unit": "reported attitudinal gradient", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey vignette-style questions asking whether pregnancy termination can always, sometimes, or never be justified under four circumstances.",
+      "uncertainty": "Justification attitudes are not legal status, service access, personal behavior, or clinical judgment; wording and social desirability may affect responses, and country variation is substantial.",
+      "subgroup": "Citizens across seven East African countries, with country-level and demographic variation.",
+      "counterinterpretation": "Respondents may support legal or ethical exceptions without supporting unrestricted access, or may interpret economic and autonomy scenarios differently across national contexts.",
+      "source_url": "https://www.afrobarometer.org/wp-content/uploads/2026/09/News-release_Most-East-Africans-support-womens-autonomy-in-marriage-decisions_di-bh-17sept26.pdf",
+      "retrieval_hash": "sha256:713ef778796de1851be2d844c2508f25ea2bcedeb01a21fc949ef58b4b7ff13f",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; cultural legitimacy, education, and reproductive health policy",
+      "denominator": {"value": 7, "unit": "East African countries with comparable sexual and reproductive health and rights survey modules", "value_type": "country_survey_frame"},
+      "measures": {
+        "country_range": {"value": "Support for sexuality education exceeded 90% in Madagascar, Mauritius, and Seychelles and did not fall below 60% in any surveyed country", "unit": "reported country range", "value_type": "reported_pattern"},
+        "service_legitimacy_gap": {"value": "Public endorsement of autonomy and education exceeds support for every form of unrestricted contraceptive or abortion access", "unit": "reported policy pattern", "value_type": "analytic_mechanism"},
+        "institutional_route": {"value": "Schools, health services, families, religious and community norms, and law jointly shape whether autonomy becomes usable reproductive agency", "unit": "cross-source interpretation", "value_type": "analytic_mechanism"},
+        "voice_without_delivery": {"value": "High stated support creates a public mandate signal but does not establish that institutions provide safe, confidential, affordable, or equitable care", "unit": "evidence boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Comparative interpretation of the Afrobarometer survey modules and country-level distributions, retaining opinion, institutional, and service-delivery layers as distinct.",
+      "uncertainty": "This is a synthesis of cross-sectional public-attitude measures; it does not estimate institutional capacity or causal effects of sexuality education or legal reform.",
+      "subgroup": "Women and girls, adolescents, sexually active people, families, schools, providers, and policymakers across seven countries.",
+      "counterinterpretation": "Public support may not translate into policy change where elite vetoes, provider constraints, funding shortages, stigma, or legal and religious institutions limit implementation.",
+      "source_url": "https://www.afrobarometer.org/wp-content/uploads/2026/09/News-release_Most-East-Africans-support-womens-autonomy-in-marriage-decisions_di-bh-17sept26.pdf",
+      "retrieval_hash": "sha256:713ef778796de1851be2d844c2508f25ea2bcedeb01a21fc949ef58b4b7ff13f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.afrobarometer.org/topics/identity-society-and-gender/", "claim": "Afrobarometer identity, society, and gender topic context."},
+    {"source_url": "https://www.afrobarometer.org/topics/health-education-and-social-services/", "claim": "Afrobarometer health, education, and social-services topic context."}
+  ],
+  "boundary": "This record adds East African public-attitude evidence on marital autonomy, childbearing decisions, sexuality education, contraceptive access, and abortion justification. It preserves the distinction between cultural norm, policy preference, law, service availability, and lived reproductive agency; it does not measure behavior, clinical outcomes, legal compliance, or institutional delivery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Afrobarometer five-page news release reviewed for seven-country sample, 12,000 interviews, margins of error, equal country weighting, autonomy, sexuality education, contraception, abortion circumstances, and sensitive-question limitations.",
+    "source_url_sha256": "sha256:713ef778796de1851be2d844c2508f25ea2bcedeb01a21fc949ef58b4b7ff13f",
+    "checked": "2026-09-28"
+  }
+}

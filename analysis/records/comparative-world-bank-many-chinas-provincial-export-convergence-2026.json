@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-many-chinas-provincial-export-convergence-2026",
+  "title": "China’s export rise contains multiple provincial development paths: early divergence followed by convergence with persistent local difference",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11469, “Many Chinas”: Provincial Foundations of Chinese Export Performance",
+  "geography": "Chinese provinces and three macro-regions from 1995 to 2023, compared with advanced and emerging economies using customs export data",
+  "observations": [
+    {
+      "period": "Chinese provincial exports, 1995-2023; export similarity with advanced economies",
+      "denominator": {"value": 1, "unit": "China provincial export-comparison frame", "value_type": "reported_data_frame"},
+      "measures": {
+        "similarity": {"value": "export similarity between Chinese provinces and advanced economies increased over time", "unit": "reported export-similarity pattern", "value_type": "reported_result"},
+        "eastern_timing": {"value": "the increase initially occurred more rapidly in Eastern provinces", "unit": "reported regional timing pattern", "value_type": "reported_result"},
+        "western_later_shift": {"value": "the convergence of Western provinces toward advanced-economy export similarity is more visible during 2010-2023", "unit": "reported regional timing pattern", "value_type": "reported_result"},
+        "place_mechanism": {"value": "national export upgrading is assembled from regionally sequenced provincial trajectories rather than one uniform development path", "unit": "bounded place-and-development mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Finger-Krein export-similarity indices calculated from Chinese customs data and BACI world export data at detailed product levels.",
+      "uncertainty": "Export-basket similarity does not identify causal effects of policy, infrastructure, investment, labor mobility, or firm capability; product-code similarity can mask quality differences within categories.",
+      "subgroup": "Eastern, Central, and Western provinces; exporting firms; workers in regionally specialized sectors; migrant households; and local governments competing for investment and trade.",
+      "counterinterpretation": "Convergence in export structure can coexist with different wages, productivity, firm ownership, environmental burdens, local services, and household welfare.",
+      "source_url": "https://documents.worldbank.org/curated/en/099535509282630890/pdf/IDU-8bb5ce3b-27eb-4f69-9eea-8bb5f89357f0.pdf",
+      "retrieval_hash": "sha256:f274f0fdab7edf8c6ada8f6071eeccde2febf08eedc4667eb2067d74618ae513",
+      "status": "reported"
+    },
+    {
+      "period": "Chinese provinces; export sophistication after WTO accession in 2001 and after 2010",
+      "denominator": {"value": 2, "unit": "major phases of provincial export-sophistication change", "value_type": "reported_period_frame"},
+      "measures": {
+        "first_phase": {"value": "during the first decade after WTO accession, Eastern provinces’ export sophistication increased much faster than that of other provinces", "unit": "reported EXPY trajectory", "value_type": "reported_result"},
+        "second_phase": {"value": "after about 2010, export sophistication converged remarkably across provinces", "unit": "reported EXPY trajectory", "value_type": "reported_result"},
+        "income_relation": {"value": "before 2010, the relationship between provincial export sophistication and per-capita income strengthened; after 2010, poorer provinces’ sophistication rose faster", "unit": "reported income-sophistication pattern", "value_type": "reported_result"},
+        "mobility_meaning": {"value": "export upgrading can spread across places after an initial concentration phase, but the paper does not show whether workers or households share the gains equally", "unit": "bounded distributional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "EXPY export-sophistication indices using product PRODY values and provincial export shares, compared across time and income.",
+      "uncertainty": "EXPY associates products with the income levels of countries that export them; it is not a direct measure of product quality, worker skill, wage adequacy, job quality, or local prosperity.",
+      "subgroup": "Higher-income Eastern provinces, initially lagging Central and Western provinces, workers moving across regions, provincial firms, and households exposed to uneven upgrading.",
+      "counterinterpretation": "Provincial convergence in export sophistication may reflect reclassification, product composition, supply-chain integration, or capital-intensive upgrading without broad employment growth.",
+      "source_url": "https://documents.worldbank.org/curated/en/099535509282630890/pdf/IDU-8bb5ce3b-27eb-4f69-9eea-8bb5f89357f0.pdf",
+      "retrieval_hash": "sha256:f274f0fdab7edf8c6ada8f6071eeccde2febf08eedc4667eb2067d74618ae513",
+      "status": "reported"
+    },
+    {
+      "period": "2023 provincial export structures and representative provincial-country similarities",
+      "denominator": {"value": 3, "unit": "representative provincial export-bundle comparisons highlighted by the paper", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "shanghai_jiangsu": {"value": "Shanghai and Jiangsu have export bundles most similar to the Republic of Korea", "unit": "highest export-bundle similarity comparison", "value_type": "reported_result"},
+        "guangdong": {"value": "Guangdong’s export bundle is most similar to Viet Nam among the comparison economies", "unit": "highest export-bundle similarity comparison", "value_type": "reported_result"},
+        "shanxi": {"value": "Shanxi’s export bundle is most similar to the Philippines among the comparison economies", "unit": "highest export-bundle similarity comparison", "value_type": "reported_result"},
+        "persistent_heterogeneity": {"value": "substantial heterogeneity remains across individual provinces in 2023 despite national and regional convergence", "unit": "reported provincial pattern", "value_type": "reported_result"},
+        "social_political_route": {"value": "national narratives of export success can conceal different local labor, consumption, identity, and political-accountability experiences", "unit": "bounded social-place mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Province-level export-basket comparison using product-level bilateral export similarity and technology-intensity composition.",
+      "uncertainty": "The representative similarity labels describe export composition, not full provincial economic structure or causal resemblance in institutions, culture, labor markets, or consumer life.",
+      "subgroup": "Residents and workers in Shanghai, Jiangsu, Guangdong, Shanxi, other provinces, firms integrated into different global markets, and local officials accountable for regional development.",
+      "counterinterpretation": "A province resembling a foreign economy in export composition may have very different domestic demand, social protection, ownership, infrastructure, and political institutions.",
+      "source_url": "https://documents.worldbank.org/curated/en/099535509282630890/pdf/IDU-8bb5ce3b-27eb-4f69-9eea-8bb5f89357f0.pdf",
+      "retrieval_hash": "sha256:f274f0fdab7edf8c6ada8f6071eeccde2febf08eedc4667eb2067d74618ae513",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099535509282630890", "claim": "Official World Bank record, authors, date, WPS number, abstract, geography, sector, and topic metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099535509282630890", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a provincial divergence-convergence and place-mediated export-upgrading mechanism. It is descriptive evidence from provincial customs export data, not proof that export sophistication caused local wages, jobs, household consumption, migration, identity, or political trust to change. Those consequences require provincial firm, worker, household, infrastructure, and public-narrative follow-through.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, abstract, province-level customs export data description, 1995-2023 window, export-similarity measures, EXPY sophistication measures, regional timing, and representative 2023 provincial comparisons were reviewed.",
+    "source_url_sha256": "sha256:f274f0fdab7edf8c6ada8f6071eeccde2febf08eedc4667eb2067d74618ae513",
+    "checked": "2026-09-29"
+  }
+}

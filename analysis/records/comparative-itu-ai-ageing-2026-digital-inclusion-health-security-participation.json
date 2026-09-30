@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation",
+  "title": "AI and ageing are being framed as an inclusion and agency problem across health, economic security, participation and connectivity",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "ITU, Artificial intelligence and ageing: Inclusive pathways for older persons in a digital world",
+  "geography": "Older persons globally, with attention to age, gender, regional, affordability, skills, trust and connectivity differences",
+  "observations": [
+    {
+      "period": "2026 publication; AI and later life domains",
+      "denominator": {"value": 4, "unit": "key domains identified on the ITU publication page", "value_type": "reported_domain_denominator"},
+      "measures": {
+        "health": {"value": "the report examines how AI shapes health and wellbeing in later life", "unit": "reported domain", "value_type": "reported_scope"},
+        "economic_security": {"value": "the report examines AI and economic security for older persons", "unit": "reported domain", "value_type": "reported_scope"},
+        "participation": {"value": "the report examines participation and connectivity as part of inclusive ageing in a digital world", "unit": "reported domains", "value_type": "reported_scope"}
+      },
+      "method": "ITU publication combining global evidence, lessons from practice and recommendations for stakeholders and decisionmakers; jointly developed with EY and KAIST.",
+      "uncertainty": "The public publication summary does not provide a single global estimate of AI use or outcome effects among older persons.",
+      "subgroup": "Older persons, older women, people in developing regions, caregivers, health and social-care providers, employers, technology firms and public institutions.",
+      "counterinterpretation": "AI can support access and autonomy while also increasing surveillance, dependency, error exposure, cost or exclusion when human support and non-digital alternatives decline.",
+      "source_url": "https://www.itu.int/pub/D-PHCB-AI_AGE-2026",
+      "retrieval_hash": "sha256:fc8bbc29f4eab6f4fe462f7fc09c1ac4ba5c4f60e480d751d7440161482bdca4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; unequal distribution of AI benefits",
+      "denominator": {"value": 3, "unit": "intersecting inequality dimensions highlighted by the publication", "value_type": "reported_dimension_denominator"},
+      "measures": {
+        "age": {"value": "the distribution of AI benefits differs across older and younger age groups", "unit": "reported inequality dimension", "value_type": "reported_assessment"},
+        "gender": {"value": "gender differences are identified as shaping access to AI benefits in later life", "unit": "reported inequality dimension", "value_type": "reported_assessment"},
+        "region": {"value": "regional differences are identified as shaping the distribution of AI benefits for older persons", "unit": "reported inequality dimension", "value_type": "reported_assessment"}
+      },
+      "method": "Global evidence and practice lessons synthesized through an age- and gender-responsive digital-inclusion lens.",
+      "uncertainty": "The summary identifies unequal distribution but does not quantify the size or causal source of each gap across countries.",
+      "subgroup": "Older women and men, urban and rural older persons, people in high- and low-resource regions, people with disabilities and people with different household support.",
+      "counterinterpretation": "Age, gender and regional gaps may interact with income, education, disability, language, health, household support, trust and service design rather than operate independently.",
+      "source_url": "https://www.itu.int/pub/D-PHCB-AI_AGE-2026",
+      "retrieval_hash": "sha256:fc8bbc29f4eab6f4fe462f7fc09c1ac4ba5c4f60e480d751d7440161482bdca4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; pathways to narrow the AI divide",
+      "denominator": {"value": 1, "unit": "ITU inclusive-AI-for-ageing pathway framework", "value_type": "published_framework"},
+      "measures": {
+        "responsibility": {"value": "the report recommends responsible, inclusive and human-centred AI for ageing societies", "unit": "reported policy orientation", "value_type": "reported_recommendation"},
+        "capacity": {"value": "narrowing the AI divide is linked to stakeholder action, practice lessons and inclusive design rather than technology availability alone", "unit": "reported policy pathway", "value_type": "reported_framework"},
+        "participation": {"value": "AI is positioned as something that should support older persons’ inclusion, participation and wellbeing across the life course", "unit": "reported outcome orientation", "value_type": "reported_objective"}
+      },
+      "method": "Practice-informed global policy publication developed with ITU, EY and KAIST.",
+      "uncertainty": "Recommendations are not an implementation inventory, intervention effect estimate or guarantee that human-centred design will reach the most excluded older people.",
+      "subgroup": "Older persons, families, caregivers, technology designers, governments, civil society, health systems and service providers.",
+      "counterinterpretation": "Inclusive design can improve usability while leaving affordability, care capacity, data governance and institutional accountability unresolved.",
+      "source_url": "https://www.itu.int/pub/D-PHCB-AI_AGE-2026",
+      "retrieval_hash": "sha256:fc8bbc29f4eab6f4fe462f7fc09c1ac4ba5c4f60e480d751d7440161482bdca4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 public webinar and publication framing; barriers to participation",
+      "denominator": {"value": 6, "unit": "intersecting barriers identified in ITU public materials", "value_type": "reported_barrier_frame"},
+      "measures": {
+        "barriers": {"value": "age, gender, geography, digital access, affordability, skills and trust are identified as intersecting barriers to AI participation for older persons", "unit": "reported barrier set", "value_type": "reported_framework"},
+        "design": {"value": "age- and gender-responsive approaches and digital literacy are presented as conditions for inclusive AI participation", "unit": "reported implementation condition", "value_type": "reported_recommendation"},
+        "partnerships": {"value": "cross-sector partnerships are emphasized as necessary to ensure older persons benefit from digital transformation", "unit": "reported governance condition", "value_type": "reported_recommendation"}
+      },
+      "method": "Publication summary and ITU webinar materials presenting preliminary findings, practice examples and expert discussion.",
+      "uncertainty": "The webinar and public summary are not a representative survey or outcome evaluation; barrier categories do not show how many older people face each one.",
+      "subgroup": "Older persons with limited connectivity, income, skills, trust, language access or family and institutional support, especially older women and people in developing regions.",
+      "counterinterpretation": "Digital literacy and better design help, but they cannot alone resolve unequal income, inaccessible care systems, labor-market exclusion, discrimination or privacy risk.",
+      "source_url": "https://www.itu.int/pub/D-PHCB-AI_AGE-2026",
+      "retrieval_hash": "sha256:fc8bbc29f4eab6f4fe462f7fc09c1ac4ba5c4f60e480d751d7440161482bdca4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/en/ITU-D/Digital-Inclusion/Pages/events/2026/ai-and-ageing-inclusive-pathways-for-older-persons-in-adigital-world.aspx", "claim": "ITU webinar page describing preliminary findings, collaborators and practice discussions."},
+    {"source_url": "https://www.itu.int/itu-d/sites/digital-inclusion/", "claim": "ITU digital-inclusion program context for older persons and inclusive participation."}
+  ],
+  "boundary": "This record adds an ageing and digital-inclusion route linking AI to health, economic security, participation, connectivity, age and gender inequality, affordability, skills, trust, human support and institutional design. It is a global policy publication and practice synthesis, not a representative older-person survey, clinical or financial outcome study, causal AI evaluation, implementation inventory or proof that AI improves later-life wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ITU publication page and related webinar materials were reviewed for the four later-life domains, unequal age/gender/regional distribution, responsible and human-centred pathway, barriers, digital literacy and cross-sector partnership claims.",
+    "source_url_sha256": "sha256:fc8bbc29f4eab6f4fe462f7fc09c1ac4ba5c4f60e480d751d7440161482bdca4",
+    "checked": "2026-09-27"
+  }
+}

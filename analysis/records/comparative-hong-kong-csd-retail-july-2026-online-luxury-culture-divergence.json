@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-hong-kong-csd-retail-july-2026-online-luxury-culture-divergence",
+  "title": "Hong Kong retail growth masks a split between online and luxury-linked demand and everyday mobility categories",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Hong Kong Census and Statistics Department retail sales release reported by the Hong Kong Government Information Services, July 2026",
+  "geography": "Hong Kong",
+  "observations": [
+    {
+      "period": "July 2026; retail sales aggregate",
+      "denominator": {"value": 1, "unit": "aggregate Hong Kong retail-sales value and volume; not household respondents", "value_type": "aggregate_account"},
+      "measures": {
+        "total_retail_value": {"value": 4.5, "unit": "percent year-over-year change in nominal retail sales value", "value_type": "reported_change"},
+        "total_retail_volume": {"value": 2.3, "unit": "percent year-over-year change after price effects", "value_type": "reported_change"},
+        "online_sales_share": {"value": 9.1, "unit": "percent of total retail sales value", "value_type": "reported_share"},
+        "online_sales_value_change": {"value": 9.5, "unit": "percent year-over-year change in online retail sales value", "value_type": "reported_change"}
+      },
+      "method": "Hong Kong Census and Statistics Department provisional retail-sales estimates, summarized in the government release; the release reports both nominal value and volume measures and identifies online sales separately.",
+      "uncertainty": "The figures are aggregate establishment sales, provisional, and not household-level welfare or purchase data. Online sales share does not identify unique consumers or replacement of physical purchases; the release does not establish causal effects of visitor arrivals or digital channels.",
+      "subgroup": "Hong Kong retail establishments and sales channels; no household-income, age, or individual-consumer subgroup.",
+      "counterinterpretation": "Nominal growth and online growth can reflect prices, product mix, tourism, promotions, or retailer composition; volume growth is not proof of broad discretionary room.",
+      "source_url": "https://www.news.gov.hk/eng/2026/08/20260831/20260831_165940_475.html",
+      "retrieval_hash": "sha256:d26265facca0fa797ae52aa82d0e99550b4b9fb111335addd86a8974cb4a30da",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; category divergence",
+      "denominator": {"value": 1, "unit": "aggregate Hong Kong retail category sales values; year-over-year nominal changes", "value_type": "aggregate_index"},
+      "measures": {
+        "jewellery_watches_clocks_valuable_gifts": {"value": 19.7, "unit": "percent year-over-year change", "value_type": "reported_change"},
+        "books_newspapers_stationery_gifts": {"value": -2.8, "unit": "percent year-over-year change", "value_type": "reported_change"},
+        "wearing_apparel": {"value": -1.8, "unit": "percent year-over-year change", "value_type": "reported_change"},
+        "motor_vehicles_parts": {"value": -18.2, "unit": "percent year-over-year change", "value_type": "reported_change"},
+        "fuels": {"value": -18.0, "unit": "percent year-over-year change", "value_type": "reported_change"},
+        "medicines_cosmetics": {"value": 7.3, "unit": "percent year-over-year change", "value_type": "reported_change"}
+      },
+      "method": "Category-level nominal retail-sales changes reported by the Hong Kong Government Information Services from Census and Statistics Department provisional estimates.",
+      "uncertainty": "Category movements are not household budgets, and nominal rates do not isolate unit demand, price, tourism, or product mix. ‘Books, newspapers, stationery and gifts’ combines cultural and non-cultural items and cannot be read as a pure cultural-demand measure.",
+      "subgroup": "Hong Kong retail categories; no consumer demographic or household-resource split.",
+      "counterinterpretation": "Luxury-linked growth may be visitor-driven or concentrated among high-resource consumers while lower-ticket or mobility categories contract; category divergence does not prove polarization without household or visitor decomposition.",
+      "source_url": "https://www.news.gov.hk/eng/2026/08/20260831/20260831_165940_475.html",
+      "retrieval_hash": "sha256:d26265facca0fa797ae52aa82d0e99550b4b9fb111335addd86a8974cb4a30da",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.censtatd.gov.hk/en/scode530.html", "claim": "Hong Kong Census and Statistics Department retail-sales programme supplies the underlying official series.", "status": "official-statistical-program"},
+    {"source_url": "https://www.news.gov.hk/eng/2026/08/20260831/20260831_165940_475.html", "claim": "Hong Kong Government release reports July 2026 retail value, volume, online share, and category changes.", "status": "official-release"}
+  ],
+  "boundary": "This record adds a Hong Kong category and channel divergence layer to South African real retail growth, Japanese household contraction, and Great Britain online adaptation. It does not measure household welfare, tourism attribution, cultural attendance, or causal demand polarization.",
+  "retrieval_hash": "sha256:d26265facca0fa797ae52aa82d0e99550b4b9fb111335addd86a8974cb4a30da"
+}

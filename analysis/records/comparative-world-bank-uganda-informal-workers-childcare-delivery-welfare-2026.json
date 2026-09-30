@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-uganda-informal-workers-childcare-delivery-welfare-2026",
+  "title": "Childcare delivery changes the economic and social returns of informal-sector women’s work",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "infrastructure_technology_dependency", "trust_identity_meaning"],
+  "source_unit": "World Bank Policy Research Working Paper 11442, Childcare for Informal-Sector Workers: Delivery Models, Access, and Welfare, September 2026",
+  "geography": "Kampala, Uganda; 883 women market vendors across six markets, their children, household caregivers, community childcare providers, and workplace-based childcare services",
+  "observations": [
+    {
+      "period": "2023-2026; randomized childcare intervention",
+      "denominator": {"value": 883, "unit": "women market vendors randomized to free workplace- or community-based childcare in six Kampala-area markets", "value_type": "reported_randomized_sample"},
+      "measures": {"care_distribution": {"value": "free childcare redistributes caregiving away from household members", "unit": "reported causal intervention outcome", "value_type": "reported_causal_effect"}, "women_earnings": {"value": "free childcare raises women’s hourly earnings", "unit": "reported causal intervention outcome", "value_type": "reported_causal_effect"}, "child_development": {"value": "free childcare improves child development", "unit": "reported causal intervention outcome", "value_type": "reported_causal_effect"}},
+      "method": "Randomized controlled trial comparing free childcare access and workplace-based versus community-based delivery among women market vendors.",
+      "uncertainty": "The causal estimates are specific to participating market vendors, children, services, and implementation conditions in Kampala; they do not establish identical effects for other informal occupations or locations.",
+      "subgroup": "Women informal workers, children needing care, household members who provide unpaid care, and vendors with different work locations, earnings, and family support.",
+      "counterinterpretation": "Childcare can release women’s time and improve productivity, but care quality, safety, affordability after subsidy, and children’s needs determine whether economic gains are durable.",
+      "source_url": "https://documents.worldbank.org/curated/en/099342209082635880/pdf/IDU-3aa4e465-db57-41e9-9d26-8d3c7cdbfb9f.pdf",
+      "retrieval_hash": "sha256:be9109ad680fc85c7d6859904eb05011479b943f0dd43a82ed6900c4650ffbd6",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; delivery-model comparison",
+      "denominator": {"value": 883, "unit": "randomized Kampala market-vendor childcare sample", "value_type": "reported_randomized_comparison"},
+      "measures": {"community_model": {"value": "community centers achieve higher utilization and larger gains in child development and women’s well-being", "unit": "reported delivery-model comparison", "value_type": "reported_heterogeneous_effect"}, "workplace_model": {"value": "workplace centers generate larger economic impacts", "unit": "reported delivery-model comparison", "value_type": "reported_heterogeneous_effect"}, "marginal_value": {"value": "both models have high marginal value of public funds", "unit": "reported public-investment assessment", "value_type": "reported_cost_effectiveness_finding"}},
+      "method": "Randomized comparison of workplace-based childcare corners and community-based private childcare centers, with utilization, child, well-being, and economic outcomes.",
+      "uncertainty": "The comparison does not imply that one model dominates universally; utilization, proximity, quality, operating hours, labour-market structure, and scale can change relative performance.",
+      "subgroup": "Women who work at markets, children with different care needs, households relying on relatives, and communities with different proximity to childcare facilities.",
+      "counterinterpretation": "A workplace model may be economically powerful where care and work are co-located, while community provision may be more adaptable to irregular schedules and broader household use.",
+      "source_url": "https://documents.worldbank.org/curated/en/099342209082635880/pdf/IDU-3aa4e465-db57-41e9-9d26-8d3c7cdbfb9f.pdf",
+      "retrieval_hash": "sha256:be9109ad680fc85c7d6859904eb05011479b943f0dd43a82ed6900c4650ffbd6",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; care, productivity, and household welfare mechanism",
+      "denominator": {"value": 883, "unit": "informal-sector women workers in Kampala childcare trial", "value_type": "reported_household_work_frame"},
+      "measures": {"care_constraint": {"value": "childcare burdens are identified as a productivity constraint for women in informal work", "unit": "reported problem frame", "value_type": "reported_mechanism"}, "welfare_set": {"value": "the study connects childcare access to women’s earnings, child development, and women’s well-being", "unit": "reported multi-outcome pathway", "value_type": "reported_mechanism_set"}, "design_question": {"value": "the study addresses how childcare support should be structured, not simply whether it exists", "unit": "reported research question", "value_type": "reported_policy_question"}},
+      "method": "Randomized evaluation of childcare access and delivery design among informal-sector women workers.",
+      "uncertainty": "The trial does not establish long-run labour formalisation, fertility, household bargaining, provider sustainability without subsidy, or general equilibrium effects on informal markets.",
+      "subgroup": "Women vendors, children, spouses and relatives providing care, informal employers and market authorities, and childcare workers.",
+      "counterinterpretation": "Childcare provision may improve household welfare without changing gender norms or labour-market segmentation; economic gains can coexist with continued unequal responsibility for care.",
+      "source_url": "https://documents.worldbank.org/curated/en/099342209082635880/pdf/IDU-3aa4e465-db57-41e9-9d26-8d3c7cdbfb9f.pdf",
+      "retrieval_hash": "sha256:be9109ad680fc85c7d6859904eb05011479b943f0dd43a82ed6900c4650ffbd6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099342209082635880", "claim": "Official World Bank record for Policy Research Working Paper 11442."}, {"source_url": "https://reproducibility.worldbank.org/catalog/640", "claim": "World Bank reproducibility package for the Ugandan workplace/community childcare trial."}, {"source_url": "https://doi.org/10.1596/1813-9450-11442", "claim": "Official DOI for the World Bank paper."}],
+  "boundary": "This record adds a causal childcare-to-informal-work route linking care redistribution, women’s earnings, child development, well-being, utilization, delivery model, and public value. It does not establish long-run formalisation, fertility, universal delivery superiority, provider sustainability without subsidy, or general equilibrium effects beyond the Kampala trial.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official World Bank paper PDF reviewed for randomized sample, free childcare effects, workplace/community comparison, utilization, child development, women’s well-being, economic impact, and public-funds value claims.", "source_url_sha256": "sha256:be9109ad680fc85c7d6859904eb05011479b943f0dd43a82ed6900c4650ffbd6", "checked": "2026-09-29"}
+}

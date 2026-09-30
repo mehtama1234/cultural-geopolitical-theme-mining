@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-government-ai-adoption-institutional-readiness-60-economies-2026",
+  "title": "Government AI adoption is broad but shallow, with institutional scaffolding often lagging use",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11466, How Is Government Using Artificial Intelligence?",
+  "geography": "60 economies across all income levels, surveyed through central digital agencies, sectoral ministries, and management information system leads",
+  "observations": [
+    {
+      "period": "2026 paper; cross-economy government AI adoption survey",
+      "denominator": {"value": 60, "unit": "economies covered by the AI and Data for Better Governance Survey", "value_type": "reported_survey_coverage"},
+      "measures": {
+        "adoption_shape": {"value": "government AI adoption is broad but shallow and uneven", "unit": "reported cross-economy pattern", "value_type": "reported_comparative_pattern"},
+        "institutionalization": {"value": "most governments report some AI use, but adoption is generally ad hoc and rarely institutionalized", "unit": "reported organizational pattern", "value_type": "reported_assessment"},
+        "internal_use": {"value": 44, "unit": "percent of governments' internal AI use consisting of individual public servants using AI for ad hoc tasks such as information search or summarization", "value_type": "reported_share"},
+        "ecosystem_condition": {"value": "AI value depends on complementary investments in data infrastructure, analytical capability, organizational capacity, and governance", "unit": "reported ecosystem framework", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Cross-economy survey of central digital agencies, sectoral ministries, and management information system leads, interpreted through an institutional ecosystem framework.",
+      "uncertainty": "The survey captures reported government use and readiness rather than independently audited system performance, citizen outcomes, algorithmic quality, or the causal effect of adoption.",
+      "subgroup": "Public servants, ministries, digital agencies, service users, vendors, oversight bodies, and groups exposed to AI-assisted public decisions or service interactions.",
+      "counterinterpretation": "Ad hoc use can be a sensible early learning phase rather than failure; institutionalization may be deliberately slow where risks are high, and reported use may understate informal experimentation.",
+      "source_url": "https://documents.worldbank.org/curated/en/099754209232619673/pdf/IDU-374bad27-677b-42d4-be02-605957316c65.pdf",
+      "retrieval_hash": "sha256:78ea49bb36a1931e0d410e949928e12f27fdb40c58b3f3167cd8a779a294940a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; income-varying AI adoption constraints",
+      "denominator": {"value": 60, "unit": "surveyed economies across all income levels", "value_type": "reported_survey_coverage"},
+      "measures": {
+        "common_constraints": {"value": "lack of data and insufficient budgets are common barriers across income groups", "unit": "reported constraint pattern", "value_type": "reported_constraint_set"},
+        "low_income_constraint": {"value": "lower-income economies more often report a lack of policies as a barrier", "unit": "reported income-pattern difference", "value_type": "reported_heterogeneity"},
+        "high_income_constraint": {"value": "higher-income economies more often emphasize privacy and ethical concerns", "unit": "reported income-pattern difference", "value_type": "reported_heterogeneity"},
+        "interpretation": {"value": "AI governance problems change with institutional readiness rather than disappearing at higher income", "unit": "bounded analytical implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative survey analysis of reported AI constraints by economy income group.",
+      "uncertainty": "Income-group patterns describe reported barriers and do not establish that income causes a particular constraint, nor that privacy and ethics concerns are less important in lower-income settings.",
+      "subgroup": "Governments with different fiscal space, data infrastructure, policy capacity, legal systems, privacy regimes, and public-sector skills.",
+      "counterinterpretation": "Differences may reflect survey interpretation, institutional language, political incentives, or reporting norms rather than the underlying severity of constraints.",
+      "source_url": "https://documents.worldbank.org/curated/en/099754209232619673/pdf/IDU-374bad27-677b-42d4-be02-605957316c65.pdf",
+      "retrieval_hash": "sha256:78ea49bb36a1931e0d410e949928e12f27fdb40c58b3f3167cd8a779a294940a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; generative-AI governance and institutional-readiness archetypes",
+      "denominator": {"value": 60, "unit": "surveyed economies classified by AI adoption and institutional readiness", "value_type": "reported_classification_frame"},
+      "measures": {
+        "governance_lag": {"value": "many governments provide access to generative-AI tools before establishing formal guidelines", "unit": "reported governance pattern", "value_type": "reported_assessment"},
+        "archetypes": {"value": "governments are sorted into four archetypes based on how AI adoption reflects institutional readiness", "unit": "reported typology", "value_type": "reported_framework_set"},
+        "cowboys": {"value": "some governments have AI use running ahead of their institutional scaffolding", "unit": "reported archetype description", "value_type": "reported_archetype"},
+        "policy_shift": {"value": "public-sector AI policy should move beyond adoption toward institutional readiness, responsible use, and sector-specific problem solving", "unit": "reported policy implication", "value_type": "reported_policy_implication"}
+      },
+      "method": "Survey-based typology linking reported AI use to data, analytical, organizational, and governance readiness.",
+      "uncertainty": "The archetypes are analytical classifications, not permanent country labels or causal trajectories; formal guidelines may exist without effective enforcement, and informal use may sometimes be low-risk.",
+      "subgroup": "Public workers using generative AI, managers and procurement officials, citizens subject to automated decisions, data-protection and ethics bodies, and frontline service users.",
+      "counterinterpretation": "Early experimentation can generate learning and productivity before formal governance catches up; strict ex ante rules can also block beneficial low-risk use.",
+      "source_url": "https://documents.worldbank.org/curated/en/099754209232619673/pdf/IDU-374bad27-677b-42d4-be02-605957316c65.pdf",
+      "retrieval_hash": "sha256:78ea49bb36a1931e0d410e949928e12f27fdb40c58b3f3167cd8a779a294940a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11466.html", "claim": "Abstract and bibliographic record for World Bank Policy Research Working Paper 11466."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/655", "claim": "World Bank reproducibility package for the AI and Data for Better Governance Survey and institutional-readiness paper."},
+    {"source_url": "https://blogs.worldbank.org/en/developmenttalk/how-are-governments-using-ai--new-evidence-from-around-the-world", "claim": "World Bank summary of the survey's broad-but-shallow adoption finding and 44 percent ad hoc internal-use statistic."}
+  ],
+  "boundary": "This record adds a 60-economy government-AI adoption and institutional-readiness route linking ad hoc use, data and budget constraints, income-varying barriers, governance lag, archetypes, public-worker practice, citizen exposure, and accountable service potential. It does not independently audit AI systems, measure citizen outcomes, establish causal productivity or welfare effects, or treat the four archetypes as permanent country identities.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank working-paper PDF, abstract, reproducibility package, and World Bank summary were reviewed for the 60-economy survey, broad-but-shallow adoption, 44 percent ad hoc internal-use statistic, income-varying constraints, governance lag, four archetypes, and institutional-readiness interpretation.",
+    "source_url_sha256": "sha256:78ea49bb36a1931e0d410e949928e12f27fdb40c58b3f3167cd8a779a294940a",
+    "checked": "2026-09-29"
+  }
+}

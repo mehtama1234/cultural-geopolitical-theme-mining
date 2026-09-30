@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-africa-public-sector-reform-implementation-npm-capacity-2026",
+  "title": "Public-sector reform ideas diffuse faster than the institutional capacity and political conditions needed to sustain them",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11457, What Works for Public Sector Reform in Africa? Preliminary Evidence on New Public Management Reforms in World Bank Projects",
+  "geography": "Sub-Saharan Africa; World Bank-financed public-sector reform projects implemented between 2010 and 2023, supplemented by four qualitative case studies",
+  "observations": [
+    {
+      "period": "2010-2023; World Bank-financed public-sector reform projects in Sub-Saharan Africa",
+      "denominator": {"value": 1, "unit": "reviewed World Bank-financed public-sector reform project corpus", "value_type": "reported_project_review_frame"},
+      "measures": {
+        "npm_prevalence": {"value": "more than one-third of reviewed projects included at least one New Public Management intervention", "unit": "reported project share", "value_type": "reported_prevalence"},
+        "full_implementation": {"value": 40, "unit": "percent of New Public Management interventions fully implemented", "value_type": "reported_implementation_rate"},
+        "reform_types": {"value": "performance-based incentives and greater autonomy, including performance-based public financial management, agencification, and performance-based pay", "unit": "reported intervention families", "value_type": "reported_reform_set"},
+        "mechanism": {"value": "policy diffusion and project adoption can outpace administrative capability, implementation resources, and political conditions", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Review of project design, implementation, and performance information for World Bank-financed public-sector reform projects, supplemented by qualitative cases.",
+      "uncertainty": "The corpus concerns World Bank-financed projects and intervention coding; full implementation is not equivalent to improved public services, and project performance data may not represent all public-sector reforms in the region.",
+      "subgroup": "Public administrations, central agencies, sector ministries, reform units, civil servants, political executives, donors, and citizens receiving public services.",
+      "counterinterpretation": "Partial implementation may reflect realistic sequencing, financing interruptions, or measurement limitations rather than intrinsic failure; some reforms may produce value before formal completion.",
+      "source_url": "https://documents.worldbank.org/curated/en/099229309172639999/pdf/IDU-4d25579a-5ad0-45a0-b915-d52dd0c436a9.pdf",
+      "retrieval_hash": "sha256:9f5c0c07f88b100d50e6f5d81f80cdaacea026471b9cba56384633400ec465c8",
+      "status": "reported"
+    },
+    {
+      "period": "2010-2023; variation across New Public Management reform types",
+      "denominator": {"value": 1, "unit": "comparative performance assessment of coded reform types", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "comparative_performance": {"value": "performance-based public financial management reforms performed comparatively better than agencification and performance-based pay reforms", "unit": "reported comparative performance pattern", "value_type": "reported_heterogeneity"},
+        "authority_rewiring": {"value": "agencification and performance-based pay attempt more directly to rewire authority and incentives inside bureaucracies and are more challenging to implement", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "design_constraint": {"value": "mixed outcomes are linked to insufficient attention to institutional capacity, implementation constraints, and political-economy dynamics", "unit": "reported explanatory pattern", "value_type": "reported_mechanism_set"},
+        "service_route": {"value": "reform design affects whether public management changes become reliable service delivery, staff discretion, feedback, and citizen-facing remedy", "unit": "bounded service-conversion mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-reform comparison using project design, implementation, and performance information, with interpretation through institutional and political-economy constraints.",
+      "uncertainty": "Comparative performance can reflect reform selection, project context, implementation support, baseline capacity, and measurement differences rather than the intrinsic superiority of one reform family.",
+      "subgroup": "Financial-management agencies, autonomous agencies, civil servants subject to performance pay, ministries, reform sponsors, frontline providers, and service users.",
+      "counterinterpretation": "Performance-based financial management may appear easier to implement because it fits existing budget routines or has more measurable outputs; agencification and pay reforms may require longer horizons or complementary civil-service changes.",
+      "source_url": "https://documents.worldbank.org/curated/en/099229309172639999/pdf/IDU-4d25579a-5ad0-45a0-b915-d52dd0c436a9.pdf",
+      "retrieval_hash": "sha256:9f5c0c07f88b100d50e6f5d81f80cdaacea026471b9cba56384633400ec465c8",
+      "status": "reported"
+    },
+    {
+      "period": "Four qualitative cases; reform sustainability in fragile and neo-patrimonial contexts",
+      "denominator": {"value": 4, "unit": "qualitative in-depth country case studies", "value_type": "reported_case_study_frame"},
+      "measures": {
+        "case_contexts": {"value": "Madagascar, Benin, Burkina Faso, and Burundi", "unit": "reported case-study countries", "value_type": "reported_case_set"},
+        "sustainability": {"value": "New Public Management reforms are particularly difficult to sustain in fragile and neo-patrimonial contexts", "unit": "reported qualitative pattern", "value_type": "reported_sustainability_result"},
+        "political_economy": {"value": "reform durability depends on authority, incentives, coalitions, institutional legitimacy, and context-specific implementation rather than imported design alone", "unit": "bounded political-institutional mechanism", "value_type": "bounded_mechanism"},
+        "legitimacy_route": {"value": "citizens experience reform through continuity, responsiveness, staff discretion, administrative burden, and whether public institutions correct failure", "unit": "bounded legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Four qualitative in-depth case studies used to interpret project-level patterns and sustainability conditions.",
+      "uncertainty": "The cases are illustrative and not a representative sample of fragile or neo-patrimonial states; qualitative mechanisms do not estimate average effects or causal impact.",
+      "subgroup": "Fragile administrations, political and bureaucratic coalitions, reform champions, frontline civil servants, donors, and citizens navigating public services.",
+      "counterinterpretation": "Fragility and neo-patrimonialism are broad contextual labels that can obscure variation, local agency, successful reform pockets, and the role of external financing or conflict shocks.",
+      "source_url": "https://documents.worldbank.org/curated/en/099229309172639999/pdf/IDU-4d25579a-5ad0-45a0-b915-d52dd0c436a9.pdf",
+      "retrieval_hash": "sha256:9f5c0c07f88b100d50e6f5d81f80cdaacea026471b9cba56384633400ec465c8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11457.html", "claim": "Bibliographic record and abstract for WPS11457, including project prevalence, 40 percent implementation, reform-type variation, and four case studies."},
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099229309172639999", "claim": "Official World Bank document record and metadata for WPS11457."}
+  ],
+  "boundary": "This record adds reform-design-to-state-capacity conversion as an institutional and legitimacy mechanism. It is not a representative evaluation of all African public-sector reform, not evidence that full implementation improves citizen outcomes, and not proof that New Public Management reforms are universally ineffective or that one reform family always dominates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF and abstract record were reviewed for project prevalence, 40 percent full implementation, reform-type performance differences, design and political-economy constraints, four country cases, sustainability claims, and project-level evidence boundaries.",
+    "source_url_sha256": "sha256:9f5c0c07f88b100d50e6f5d81f80cdaacea026471b9cba56384633400ec465c8",
+    "checked": "2026-09-29"
+  }
+}

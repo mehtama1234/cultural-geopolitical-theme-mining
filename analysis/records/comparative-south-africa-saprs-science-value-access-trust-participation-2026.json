@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-africa-saprs-science-value-access-trust-participation-2026",
+  "title": "South Africans value science while unequal access, trusted channels and resource costs constrain participation",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action",
+    "time_hidden_price"
+  ],
+  "source_unit": "South African Public Relationship with Science (SAPRS) 2022 Survey Results",
+  "geography": "South Africa; nationally representative adults aged 16 and older",
+  "observations": [
+    {
+      "period": "Late 2022 fieldwork; SAPRS national sample reported in 2024/2026 dissemination",
+      "denominator": {"value": 6400, "unit": "South African adults aged 16+ in the realised nationally representative sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "promise_science_skills_youth": {"value": 78, "unit": "mean score out of 100 for the promise of S&T skills for young people", "value_type": "reported_index_mean"},
+        "environmental_concern": {"value": 72, "unit": "mean score out of 100 for environmental concern", "value_type": "reported_index_mean"},
+        "trust_scientists": {"value": 69, "unit": "mean score out of 100 for trust in the work of scientists", "value_type": "reported_index_mean"},
+        "trust_university_science_information": {"value": 71, "unit": "mean score out of 100 for trust in S&T information from universities", "value_type": "reported_index_mean"}
+      },
+      "method": "SAPRS instrument in Round 19 of the South African Social Attitudes Survey; face-to-face household interviews, three-stage probability sample across 500 small-area layers, weighted to population distributions.",
+      "uncertainty": "Index means describe attitudes and are not measures of scientific literacy, institutional performance, or actual educational and labor-market opportunity.",
+      "subgroup": "South African adults aged 16 and older; the study also reports province, education, socioeconomic, geographic and demographic differences.",
+      "counterinterpretation": "Positive science attitudes may reflect general aspiration or social desirability; they do not guarantee trust in every institution, policy, technology or scientific claim.",
+      "source_url": "https://nstf.org.za/wp-content/uploads/2025/01/SAPRSSurveyResults2022FullReport.pdf",
+      "retrieval_hash": "sha256:839f614cebc02b61b7e0f30bc3b7065b1f17e3d6ad236091b17b13e65095489c",
+      "status": "reported"
+    },
+    {
+      "period": "Late 2022 fieldwork; digital access and science-information exposure",
+      "denominator": {"value": 6400, "unit": "South African adults aged 16+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "cell_phone_access": {"value": 94, "unit": "percent reporting access to a cell phone", "value_type": "reported_share"},
+        "internet_access": {"value": 76, "unit": "percent reporting some form of internet access", "value_type": "reported_share"},
+        "smartphone_access": {"value": 61, "unit": "percent reporting a smartphone", "value_type": "reported_share"},
+        "high_s_and_t_information_exposure": {"value": 21, "unit": "percent reporting high exposure to S&T information", "value_type": "reported_share"},
+        "high_active_s_and_t_information_access": {"value": 5, "unit": "percent actively accessing high amounts of S&T information", "value_type": "reported_share"}
+      },
+      "method": "Weighted SAPRS household survey; digital access, exposure and active consumption are separate measures.",
+      "uncertainty": "Access to a device or internet does not establish reliable bandwidth, affordability, content relevance, science comprehension, or sustained participation.",
+      "subgroup": "South African adults aged 16 and older, with substantial variation by education, socioeconomic status, age, employment and urban/rural geography.",
+      "counterinterpretation": "High mobile penetration can support broad information distribution even when active science-information consumption remains low; access is a condition, not a completed engagement pathway.",
+      "source_url": "https://nstf.org.za/wp-content/uploads/2025/01/SAPRSSurveyResults2022FullReport.pdf",
+      "retrieval_hash": "sha256:839f614cebc02b61b7e0f30bc3b7065b1f17e3d6ad236091b17b13e65095489c",
+      "status": "reported"
+    },
+    {
+      "period": "Late 2022 fieldwork; source-specific trust in S&T news",
+      "denominator": {"value": 6400, "unit": "South African adults aged 16+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "television_science_news_trust": {"value": 66, "unit": "percent trusting S&T information from television", "value_type": "reported_share"},
+        "radio_science_news_trust": {"value": 62, "unit": "percent trusting S&T information from radio", "value_type": "reported_share"},
+        "internet_website_science_news_trust": {"value": 45, "unit": "percent trusting S&T information from internet websites", "value_type": "reported_share"},
+        "social_media_science_news_trust": {"value": 32, "unit": "percent trusting S&T information from social media", "value_type": "reported_share"},
+        "chat_app_science_news_trust": {"value": 31, "unit": "percent trusting S&T information from online chat apps", "value_type": "reported_share"}
+      },
+      "method": "Weighted SAPRS survey asking respondents to rate trust in S&T news by media source.",
+      "uncertainty": "Trust ratings are source-level perceptions and do not validate accuracy, actual media use, or how people resolve conflicting claims.",
+      "subgroup": "South African adults aged 16 and older.",
+      "counterinterpretation": "Lower trust in social and chat media could reflect healthy skepticism, unfamiliarity, or lower source visibility rather than a stable preference for traditional media in every context.",
+      "source_url": "https://nstf.org.za/wp-content/uploads/2025/01/SAPRSSurveyResults2022FullReport.pdf",
+      "retrieval_hash": "sha256:839f614cebc02b61b7e0f30bc3b7065b1f17e3d6ad236091b17b13e65095489c",
+      "status": "reported"
+    },
+    {
+      "period": "Late 2022 fieldwork; participation and unequal access to engagement",
+      "denominator": {"value": 6400, "unit": "South African adults aged 16+", "value_type": "reported_survey_sample"},
+      "measures": {
+        "community_science_engagement_mean": {"value": 23, "unit": "mean score out of 100 for community-based science engagement", "value_type": "reported_index_mean"},
+        "attraction_event_attendance_mean": {"value": 23, "unit": "mean score out of 100 for attraction-based science-event attendance", "value_type": "reported_index_mean"},
+        "online_apps_engagement_mean": {"value": 32, "unit": "mean score out of 100 for use of online science-related apps", "value_type": "reported_index_mean"},
+        "low_community_engagement": {"value": 49, "unit": "percent reporting low community-based science engagement; 34% reported none and 10% high engagement", "value_type": "reported_share"},
+        "access_inequality_range": {"value": "Daily internet use ranged from 15% to 85% across subgroups; exposure and consumption also varied sharply by education, socioeconomic status, geography and age.", "unit": "reported subgroup range", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted SAPRS engagement indices and subgroup comparisons; the report separately identifies engagement types and resource requirements.",
+      "uncertainty": "Composite engagement scores are not equivalent to participation counts, civic influence, scientific careers, or policy co-production.",
+      "subgroup": "South African adults aged 16 and older, stratified by social and geographic characteristics.",
+      "counterinterpretation": "Low measured participation may reflect limited opportunity, survey recall, or the instrument’s definition of engagement rather than lack of interest or rejection of science.",
+      "source_url": "https://nstf.org.za/wp-content/uploads/2025/01/SAPRSSurveyResults2022FullReport.pdf",
+      "retrieval_hash": "sha256:839f614cebc02b61b7e0f30bc3b7065b1f17e3d6ad236091b17b13e65095489c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hsrc.ac.za/our-research/south-african-public-relationship-with-science-survey-saprs/", "claim": "HSRC overview of the SAPRS programme, national sample design and five-year monitoring purpose.", "status": "institutional-source"},
+    {"source_url": "https://www.dsti.gov.za/media/news/4586-survey-reflects-south-africans-relationship-with-science", "claim": "South African Department of Science, Technology and Innovation summary of the survey’s public-interest findings.", "status": "government-summary"}
+  ],
+  "boundary": "This record adds a science-legitimacy and participation mechanism: high perceived promise and moderate trust coexist with low active information consumption and resource-sensitive engagement. It is a 2022 nationally representative survey disseminated through later reports and 2026 public discussion; it does not establish current 2026 levels, causal effects, scientific literacy, or realized institutional inclusion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The full SAPRS 2022 Survey Results PDF, HSRC programme page, and South African government summary were reviewed for sample design, science-value indices, digital access, source-specific trust, information exposure, engagement scores and subgroup boundaries.",
+    "source_pdf_sha256": "sha256:839f614cebc02b61b7e0f30bc3b7065b1f17e3d6ad236091b17b13e65095489c",
+    "source_page_sha256": "sha256:6dbdf511b89c941cc878cf5b15c78e341126c7d7608ee59adffbd08f7ea069a5",
+    "checked": "2026-09-28"
+  }
+}

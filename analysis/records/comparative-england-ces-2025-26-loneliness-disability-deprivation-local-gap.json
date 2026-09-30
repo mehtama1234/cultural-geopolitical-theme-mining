@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap",
+  "title": "England’s loneliness rate is broadly stable nationally but sharply stratified by disability, deprivation, and place",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Department for Culture, Media and Sport / Community and Engagement Survey 2025/26 loneliness report",
+  "geography": "England; representative estimates for people aged 16 and over, with local-authority and subgroup breakdowns",
+  "observations": [
+    {
+      "period": "October 2025-March 2026; England direct loneliness measure",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses; report states the survey includes over 175,000 responses", "value_type": "official_survey_response_frame"},
+      "measures": {
+        "often_always_lonely": {"value": 7, "unit": "percent of people aged 16+ reporting feeling lonely often or always", "value_type": "official_survey_share"},
+        "never_lonely": {"value": 20, "unit": "percent of people aged 16+ reporting never feeling lonely", "value_type": "official_survey_share"},
+        "high_indirect_loneliness": {"value": 9, "unit": "percent of people aged 16+ with a high indirect-loneliness composite score of 8 or 9", "value_type": "official_survey_share"},
+        "year_comparison": {"value": "The direct often/always-lonely estimate was 7% in both 2025/26 and 2024/25; the high indirect-loneliness estimate was 9% in 2025/26 and 9% in 2020/21", "unit": "reported comparison", "value_type": "reported_stability"},
+        "mechanism": {"value": "National loneliness can appear stable while the distribution of social disconnection remains highly unequal; stability is not evidence that exposure or need is evenly shared", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Representative official Community and Engagement Survey of people aged 16 and over in England; loneliness questions were asked in the community pathway from October 2025 to March 2026, including direct and harmonised indirect measures.",
+      "uncertainty": "The estimates are cross-sectional and self-reported, with rounded headline values and survey confidence intervals; they do not follow the same people or establish causes, service effects, or durable social change.",
+      "subgroup": "People aged 16 and over in England, with demographic, deprivation, regional, and local-authority breakdowns.",
+      "counterinterpretation": "A stable national percentage can conceal turnover in who is lonely, seasonal effects, reporting differences, survey redesign effects, or differences in the meaning of loneliness across groups.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-loneliness/community-and-engagement-survey-202526-loneliness-report",
+      "retrieval_hash": "sha256:35f31848acf4eeb14ceb581a7e3fa8a2de4e05cb2fbe7540a8fe8c88e6bccba9",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; direct and indirect loneliness by disability and deprivation",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses; subgroup denominators are not separately disclosed in the report commentary", "value_type": "official_survey_response_frame"},
+      "measures": {
+        "direct_loneliness_disabled": {"value": 14, "unit": "percent of disabled people reporting loneliness often or always", "value_type": "official_survey_share"},
+        "direct_loneliness_non_disabled": {"value": 3, "unit": "percent of non-disabled people reporting loneliness often or always", "value_type": "official_survey_share"},
+        "direct_loneliness_most_deprived": {"value": 11, "unit": "percent of people living in the most deprived areas reporting loneliness often or always", "value_type": "official_survey_share"},
+        "direct_loneliness_least_deprived": {"value": 4, "unit": "percent of people living in the least deprived areas reporting loneliness often or always", "value_type": "official_survey_share"},
+        "indirect_loneliness_disabled": {"value": 17, "unit": "percent of disabled people with high indirect loneliness", "value_type": "official_survey_share"},
+        "indirect_loneliness_non_disabled": {"value": 5, "unit": "percent of non-disabled people with high indirect loneliness", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Disability and area deprivation are associated with a much larger loneliness exposure gradient than the stable national average suggests, making social connection a capability and access issue rather than only an attitude", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive subgroup extraction from the CES 2025/26 loneliness report; deprivation is area-level 2025 Index of Multiple Deprivation decile, not individual income.",
+      "uncertainty": "Subgroup estimates are self-reported and aggregate; disability, area deprivation, health, income, service access, transport, housing, and social network mechanisms are not disentangled. The report warns about rounded values and small-group interpretation.",
+      "subgroup": "Disabled versus non-disabled people and residents of the most versus least deprived area deciles in England.",
+      "counterinterpretation": "The gradients may reflect overlapping health, housing, employment, age, transport, social-network, and place factors; they do not prove disability or deprivation independently causes loneliness.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-loneliness/community-and-engagement-survey-202526-loneliness-report",
+      "retrieval_hash": "sha256:35f31848acf4eeb14ceb581a7e3fa8a2de4e05cb2fbe7540a8fe8c88e6bccba9",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; local-authority direct and indirect loneliness range",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses; local-authority estimates based on survey responses and rounded commentary", "value_type": "official_survey_response_frame"},
+      "measures": {
+        "direct_local_authority_range": {"value": 11, "unit": "percentage-point range between Oldham at 13% and City of London at 2% for often/always loneliness", "value_type": "reported_range"},
+        "indirect_local_authority_range": {"value": 14, "unit": "percentage-point range between Kingston upon Hull at 16% and City of London at 2% for high indirect loneliness", "value_type": "reported_range"},
+        "direct_average_aligned_authorities": {"value": 88, "unit": "percent of local authorities with direct loneliness in line with the England average", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Local social disconnection is geographically concentrated even when most authorities sit near the national average; local infrastructure, population composition, deprivation, and service access remain open mechanisms", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CES local-authority comparison using direct and composite indirect loneliness indicators for people aged 16 and over in England.",
+      "uncertainty": "Local-authority estimates are not causal place effects; differences can reflect composition, confidence intervals, survey response, and reporting practices. The report notes that rounded values and one outlying authority affect the indirect range.",
+      "subgroup": "English local authorities and residents aged 16 and over represented in the CES.",
+      "counterinterpretation": "A high local rate does not establish that local institutions caused loneliness or that a local intervention would reduce it; a low rate does not prove stronger belonging or service performance.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-loneliness/community-and-engagement-survey-202526-loneliness-report",
+      "retrieval_hash": "sha256:35f31848acf4eeb14ceb581a7e3fa8a2de4e05cb2fbe7540a8fe8c88e6bccba9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-loneliness", "claim": "Official CES loneliness release page, coverage, release date, survey scope, and associated data tables."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-loneliness/community-and-engagement-survey-202526-loneliness-report", "claim": "Official report with direct and indirect loneliness, subgroup, deprivation, regional, and local-authority findings."}
+  ],
+  "boundary": "This record adds an England social-connection and unequal-exposure layer. It does not establish causal loneliness mechanisms, mental-health outcomes, cultural participation, service effectiveness, or individual trajectories.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK CES 2025/26 loneliness report reviewed for national direct and indirect measures, disability, deprivation, age, local-authority ranges, sample frame, period, and cross-sectional limitations.",
+    "report_html_sha256": "sha256:35f31848acf4eeb14ceb581a7e3fa8a2de4e05cb2fbe7540a8fe8c88e6bccba9",
+    "checked": "2026-09-30"
+  }
+}

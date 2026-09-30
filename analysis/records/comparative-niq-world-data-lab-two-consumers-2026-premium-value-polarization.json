@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-niq-world-data-lab-two-consumers-2026-premium-value-polarization",
+  "title": "Global consumption is polarising between selectively justified upgrades and tightly managed value choices, putting the mainstream middle under pressure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "NIQ and World Data Lab, A Tale of Two Consumers: The Polarized Mindsets Reshaping Global Consumption",
+  "geography": "Global fast-moving consumer-goods markets, with mature Western markets and emerging Asia-Pacific, Latin America, and Africa comparisons; 2021–2026 observations and 2026–2036 projections",
+  "observations": [
+    {
+      "period": "2021–2025; global fast-moving consumer-goods price and basket context",
+      "denominator": {"value": 1, "unit": "global FMCG market and NIQ price-tracking frame", "value_type": "global_consumer_market_frame"},
+      "measures": {
+        "fmcg_price_increase": {"value": 26, "unit": "percent increase in global FMCG prices from 2021 through 2025", "value_type": "reported_market_change"},
+        "behavioral_shift": {"value": "consumers increasingly upgrade when trust, relevance, performance, or convenience justifies a premium and trade down when the value is unclear", "unit": "reported cross-market behavior pattern", "value_type": "reported_mechanism"},
+        "middle_market_pressure": {"value": "growth is concentrating toward premium and value ends of the price spectrum, increasing pressure on mainstream products", "unit": "reported market pattern", "value_type": "reported_pattern"},
+        "consumer_segmentation": {"value": "upgrade and price-constrained modes vary by category, need state, occasion, region, and perceived value rather than forming fixed income or generational identities", "unit": "reported segmentation mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "NIQ price, survey, consumption, and shopper analysis combined with World Data Lab income, spending, and demographic projections.",
+      "uncertainty": "The report is a commercial market analysis; price changes, spending behavior, and projected categories are not a causal estimate of household welfare, nutrition, or long-term consumer preference.",
+      "subgroup": "Affluent consumers, core consumers, price-constrained households, generations, private-label shoppers, national-brand shoppers, and consumers across mature and emerging markets.",
+      "counterinterpretation": "Premium and value growth can coexist with strong competition and consumer agency; pressure on the middle tier does not imply that all mainstream products or households are declining.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2026/tale-of-two-consumers/",
+      "retrieval_hash": "sha256:6ba25cf78e4c63fad50645fd89b7a3c0943b70da41490dca48a63756a13ebfc7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; global consumer-class size and spending distribution",
+      "denominator": {"value": 8100000000, "unit": "global population used in NIQ and World Data Lab consumer-class analysis", "value_type": "global_population_frame"},
+      "measures": {
+        "core_consumer_population": {"value": 4100000000, "unit": "people spending approximately USD 13–90 per day", "value_type": "projected_consumer_class_size"},
+        "affluent_consumer_population": {"value": 657000000, "unit": "people spending more than USD 90 per day", "value_type": "projected_consumer_class_size"},
+        "core_per_capita_spending": {"value": 7900, "unit": "USD annual per-capita spending", "value_type": "reported_annual_spending"},
+        "affluent_per_capita_spending": {"value": 54700, "unit": "USD annual per-capita spending", "value_type": "reported_annual_spending"},
+        "2026_spending_projection": {"value": "affluent consumers are projected to account for USD 35.9 trillion in spending versus USD 31.6 trillion for core consumers", "unit": "USD trillion nominal global spending", "value_type": "projected_spending_total"}
+      },
+      "method": "World Data Lab consumer-class and spending projections used by the NIQ report; classes are defined by daily spending thresholds rather than a single national poverty or middle-class standard.",
+      "uncertainty": "Projections depend on the baseline scenario, nominal currency measurement, class thresholds, demographic forecasts, and spending definitions; they do not establish equal purchasing power or comparable living standards across countries.",
+      "subgroup": "Core consumers, affluent consumers, households under financial strain, and populations in different income-mobility and market-development contexts.",
+      "counterinterpretation": "A smaller affluent population can account for more spending without proving that core consumers are uniformly deprived; core populations can still drive volume growth and category expansion.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2026/tale-of-two-consumers/",
+      "retrieval_hash": "sha256:6ba25cf78e4c63fad50645fd89b7a3c0943b70da41490dca48a63756a13ebfc7",
+      "status": "reported"
+    },
+    {
+      "period": "2026–2036; geographic redistribution of consumer growth",
+      "denominator": {"value": 1, "unit": "World Data Lab baseline projection of global core and affluent consumer markets", "value_type": "consumer_geography_projection_frame"},
+      "measures": {
+        "western_core_share": {"value": "North America and Europe are projected to fall from 41% to 13% of the global core-consumer population by 2036", "unit": "share of global core-consumer population", "value_type": "projected_regional_share_change"},
+        "emerging_market_runway": {"value": "Asia-Pacific, Latin America, and Africa retain more room for volume growth through population growth, income mobility, and category development", "unit": "reported regional growth mechanism", "value_type": "reported_mechanism"},
+        "india_china_affluence": {"value": "India and China are projected to each have more than 100 million affluent consumers by 2036", "unit": "people in projected affluent consumer class", "value_type": "projected_consumer_class_size"},
+        "market_strategy": {"value": "mature markets lean toward premiumisation and precise value capture while emerging markets can combine affordability, distribution, volume, and selective premium growth", "unit": "reported market pathway", "value_type": "reported_strategy_mechanism"}
+      },
+      "method": "World Data Lab baseline demographic and income-mobility projections interpreted through NIQ category and market analysis.",
+      "uncertainty": "These are scenario projections, not forecasts guaranteed to occur; economic shocks, policy, exchange rates, conflict, climate, and category-specific changes can alter regional trajectories.",
+      "subgroup": "Consumers in mature Western markets, emerging Asia-Pacific, Latin America, Africa, India, China, manufacturers, retailers, and private-label or national-brand suppliers.",
+      "counterinterpretation": "Emerging-market growth does not mean uniform rising prosperity, and mature-market premiumisation can coexist with affordability stress and falling mass-market volume.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2026/tale-of-two-consumers/",
+      "retrieval_hash": "sha256:6ba25cf78e4c63fad50645fd89b7a3c0943b70da41490dca48a63756a13ebfc7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; value, trust, identity, and purchase-choice routes",
+      "denominator": {"value": 1, "unit": "NIQ and World Data Lab cross-generational consumer-behavior synthesis", "value_type": "consumer_decision_frame"},
+      "measures": {
+        "value_for_money_upgrade": {"value": 60, "unit": "percent of upgrade consumers reporting a focus on value for money", "value_type": "reported_survey_share"},
+        "convenience_premium": {"value": 46, "unit": "percent of upgrade consumers willing to pay for convenience", "value_type": "reported_survey_share"},
+        "early_adopter_openness": {"value": 38, "unit": "percent of upgrade consumers open to new products or brands", "value_type": "reported_survey_share"},
+        "decision_route": {"value": "products earn a place in the basket through some combination of reliability, function, convenience, trusted claims, cultural relevance, identity, and affordability", "unit": "reported consumer-choice mechanism", "value_type": "reported_mechanism"},
+        "private_label_route": {"value": "increasing private-label trust and category expansion weaken reliance on legacy national-brand status alone", "unit": "reported market mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "NIQ consumer survey and shopper analysis combined with category, price-tier, private-label, and brand observations.",
+      "uncertainty": "Reported percentages describe the source's consumer segments and definitions; they do not show individual longitudinal choices, causal willingness-to-pay, or whether stated value priorities translate into every purchase.",
+      "subgroup": "Upgrade consumers, price-constrained consumers, Gen Z, Gen X, Boomers, private-label shoppers, national-brand shoppers, and consumers seeking culturally relevant or identity-reinforcing products.",
+      "counterinterpretation": "Trust and cultural relevance can support premium demand, but prices, availability, quality, and household constraints may dominate at the point of purchase; commercial segmentation should not be treated as a fixed social identity.",
+      "source_url": "https://nielseniq.com/global/en/insights/report/2026/tale-of-two-consumers/",
+      "retrieval_hash": "sha256:6ba25cf78e4c63fad50645fd89b7a3c0943b70da41490dca48a63756a13ebfc7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nielseniq.com/global/en/insights/report/2025/consumer-outlook-guide-to-2026/", "claim": "Complementary NIQ consumer-outlook context on cultural fluency, social commerce, local distribution, and trust."},
+    {"source_url": "https://www.worlddatalab.com/", "claim": "World Data Lab provides the income, spending, demographic, and consumer-class projection context used in the report."}
+  ],
+  "boundary": "This record adds a global consumption and market-structure route across inflation, selective upgrading, trading down, premiumisation, private label, cultural relevance, income mobility, and regional consumer growth. It uses NIQ survey, price, shopper, and consumption analysis plus World Data Lab projections, not individual household budgets, respondent-level purchase histories, causal welfare estimates, nutrition outcomes, or proof that commercial consumer classes map cleanly onto social classes in every country.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NIQ report page reviewed for the 2021–2025 FMCG price change, consumer-class definitions and spending totals, 2026–2036 geographic projections, behavioral segmentation, and value/convenience/openness measures.",
+    "source_url_sha256": "sha256:6ba25cf78e4c63fad50645fd89b7a3c0943b70da41490dca48a63756a13ebfc7",
+    "checked": "2026-09-26"
+  }
+}

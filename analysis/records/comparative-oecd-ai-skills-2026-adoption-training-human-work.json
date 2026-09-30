@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-ai-skills-2026-adoption-training-human-work",
+  "title": "AI adoption is constrained by skills while raising the premium on high-level, data and human capabilities",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "platforms_data_attention"
+  ],
+  "source_unit": "OECD policy brief, AI and skills: What we know so far",
+  "geography": "OECD countries and selected employer, SME and manager survey comparisons, with evidence on manufacturing, finance, algorithmic management and generative-AI use",
+  "observations": [
+    {
+      "period": "2026 synthesis using OECD employer and worker evidence, including 2023-2025 survey inputs",
+      "denominator": {"value": 1, "unit": "OECD cross-source evidence synthesis", "value_type": "published_evidence_frame"},
+      "measures": {
+        "barrier": {"value": "around 40% of employers in manufacturing and finance that have not adopted AI cite lack of skills as the main reason, and more than half of SMEs not using generative AI report a skills barrier", "unit": "reported employer/SME survey shares", "value_type": "reported_share"},
+        "adoption_signal": {"value": "skills function as enabling infrastructure for AI adoption rather than a secondary workforce issue", "unit": "reported policy interpretation", "value_type": "reported_interpretation"},
+        "measurement_boundary": {"value": "the brief notes that its most recent underlying data date from late 2024", "unit": "reported data vintage", "value_type": "reported_boundary"}
+      },
+      "method": "OECD synthesis of employer, worker and SME surveys and related labor-market evidence.",
+      "uncertainty": "The survey shares describe reported barriers and perceptions, not a causal estimate of whether training would cause adoption or productivity gains.",
+      "subgroup": "SMEs, manufacturing and finance employers, non-adopting firms, workers with different skill levels and firms with different resources for training.",
+      "counterinterpretation": "Firms may cite skills because of broader cost, management, data or trust constraints; reported barriers can be correlated rather than separable.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/ai-and-skills_8dbed5fe/f843b352-en.pdf",
+      "retrieval_hash": "sha256:dcedcc0b6aa428e6347871e06029d9ca2e987d526679dcbba90b2559437299d2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-using employers in manufacturing and finance",
+      "denominator": {"value": 2, "unit": "sectors highlighted in the OECD employer evidence", "value_type": "published_sector_frame"},
+      "measures": {
+        "high_skill_demand": {"value": "more than half of employers that adopted AI in manufacturing and finance report increased need for highly educated workers", "unit": "reported employer share", "value_type": "reported_share"},
+        "complementarity": {"value": "in the cited exposed roles, AI tends to complement rather than replace employees and increases demand for high-level skills", "unit": "reported labor-market pattern", "value_type": "reported_assessment"},
+        "distributional_risk": {"value": "AI adoption can widen gaps when access to high-level skills, training and complementary organizational capacity is uneven", "unit": "reported policy implication", "value_type": "reported_interpretation"}
+      },
+      "method": "OECD comparison of employer survey responses and broader evidence on employment in AI-exposed roles.",
+      "uncertainty": "Employer-reported skill demand does not establish net employment effects, wage effects or how tasks and bargaining power change within occupations.",
+      "subgroup": "Highly educated workers, workers in routine or lower-skill roles, employers adopting AI, firms unable to invest in complementary capabilities and workers facing transition risk.",
+      "counterinterpretation": "Complementarity in exposed roles can coexist with displacement elsewhere, work intensification or reduced entry-level opportunities.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/ai-and-skills_8dbed5fe/f843b352-en.pdf",
+      "retrieval_hash": "sha256:dcedcc0b6aa428e6347871e06029d9ca2e987d526679dcbba90b2559437299d2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; skill composition under generative AI",
+      "denominator": {"value": 1, "unit": "workforce skill system", "value_type": "published_skill_frame"},
+      "measures": {
+        "advanced_ai": {"value": "fewer than 1% of workers are expected to need advanced AI-specific skills such as programming or model development", "unit": "reported workforce share", "value_type": "reported_estimate"},
+        "broad_skills": {"value": "most workers need digital skills and the ability to use, analyse and interpret data, alongside managerial and human skills such as problem-solving, creativity and innovation", "unit": "reported skill pattern", "value_type": "reported_assessment"},
+        "cultural_signal": {"value": "the AI transition is becoming a broad workplace-literacy and judgment question, not only a specialist coding question", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "OECD synthesis of labor-demand and skills evidence cited in the policy brief.",
+      "uncertainty": "Skill requirements vary by occupation, sector, technology design and workplace organization; the brief does not forecast a fixed universal skill mix.",
+      "subgroup": "Workers with foundational digital skills, managers, creative and social-skill occupations, workers without formal training and education or training providers.",
+      "counterinterpretation": "Broad digital literacy may become a screening device that increases inequality if training, devices, time and workplace support are not accessible.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/ai-and-skills_8dbed5fe/f843b352-en.pdf",
+      "retrieval_hash": "sha256:dcedcc0b6aa428e6347871e06029d9ca2e987d526679dcbba90b2559437299d2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; training, algorithmic management and reported worker outcomes",
+      "denominator": {"value": 4, "unit": "European countries highlighted in the algorithmic-management comparison", "value_type": "published_country_frame"},
+      "measures": {
+        "training": {"value": "more than half of workers using AI report receiving employer-funded training, and trained users are more likely to report positive performance and working-condition outcomes", "unit": "reported worker survey relationship", "value_type": "reported_association"},
+        "social_skill_signal": {"value": "in Germany, France, Italy and Spain, managers using algorithmic-management tools more often report reduced need for empathy than increased need, 20% versus 12%", "unit": "reported manager survey shares", "value_type": "reported_share"},
+        "caution": {"value": "the OECD says it is too early for firm conclusions and calls for monitoring job quality, social interaction and well-being alongside productivity", "unit": "reported methodological caution", "value_type": "reported_boundary"}
+      },
+      "method": "OECD synthesis of worker and manager survey evidence on training, algorithmic management and perceived outcomes.",
+      "uncertainty": "These are self-reported and cross-sectional relationships; training selection, workplace culture and managerial practices may explain part of the association.",
+      "subgroup": "AI-using workers, trained and untrained workers, managers using algorithmic-management software and occupations where empathy and communication are part of supervisory work.",
+      "counterinterpretation": "A reported lower need for empathy may reflect task substitution, managerial misunderstanding, survey framing or organizational standardization rather than a durable decline in human interaction.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/ai-and-skills_8dbed5fe/f843b352-en.pdf",
+      "retrieval_hash": "sha256:dcedcc0b6aa428e6347871e06029d9ca2e987d526679dcbba90b2559437299d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html", "claim": "OECD publication page with the brief's key messages, figures, references and data-vintage caution."},
+    {"source_url": "https://doi.org/10.1787/ea0a0fe1-en", "claim": "Underlying OECD AI workplace survey source cited for employer and worker evidence."},
+    {"source_url": "https://doi.org/10.1787/2d08b99d-en", "claim": "Underlying OECD SME generative-AI workforce survey source cited for skills and shortage evidence."}
+  ],
+  "boundary": "This record adds an AI-workplace and skills layer linking adoption barriers to high-level, digital, data, managerial and human skills, training, algorithmic management, worker voice and job quality. It synthesizes OECD survey evidence, not respondent-level ingestion, causal training evaluation, complete labor-market measurement, wage evidence or proof of future displacement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD PDF and publication page were reviewed for the 40% skills barrier, high-skilled demand, less-than-1% advanced-AI skill estimate, training relationship, algorithmic-management signal and late-2024 data-vintage caution.",
+    "source_url_sha256": "sha256:dcedcc0b6aa428e6347871e06029d9ca2e987d526679dcbba90b2559437299d2",
+    "checked": "2026-09-27"
+  }
+}

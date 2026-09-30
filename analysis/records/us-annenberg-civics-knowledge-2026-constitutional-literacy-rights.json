@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-annenberg-civics-knowledge-2026-constitutional-literacy-rights",
+  "title": "Constitutional literacy is uneven: Americans recognize some high-salience rights and procedures while missing the wider system of government",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "2026 Annenberg Constitution Day Civics Survey by the Annenberg Public Policy Center; SSRS Opinion Panel Omnibus, August 6–9, 2026, 1,034 U.S. adults",
+  "geography": "United States; nationally representative adults ages 18 and older",
+  "observations": [
+    {
+      "period": "2024–2026; U.S. adults and knowledge of government branches",
+      "denominator": {"value": 1034, "unit": "U.S. adults in the 2026 Annenberg Constitution Day Civics Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "can_name_all_three_branches": {"value": "65; 70 in 2025; 65 in 2024", "unit": "percent; reported annual comparison", "value_type": "reported_comparison"},
+        "cannot_name_all_three_branches": {"value": 35, "unit": "percent of U.S. adults in 2026", "value_type": "reported_share"}
+      },
+      "method": "Nationally representative SSRS survey fielded for APPC August 6–9, 2026; the report notes that 2024 and 2025 used different panels, limiting direct trend interpretation.",
+      "uncertainty": "The measure is an open-ended knowledge question with a ±3.5 percentage-point margin of sampling error; annual comparisons are affected by panel and field-method differences and do not establish the causes of knowledge change.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Failure to name branches on demand does not prove inability to navigate government, vote, claim rights, or understand a specific political conflict; recall and civic competence are related but not identical.",
+      "source_url": "https://www.asc.upenn.edu/news-events/news/third-americans-cannot-name-three-branches-government",
+      "retrieval_hash": "sha256:737581f7d4261112290cdd95258203589e021426e5f73332d83abe33faf2280b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. adults and First Amendment rights",
+      "denominator": {"value": 1034, "unit": "U.S. adults in the 2026 Annenberg Constitution Day Civics Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "freedom_of_speech": {"value": 73, "unit": "percent naming freedom of speech in an open-ended question", "value_type": "reported_share"},
+        "freedom_of_religion": {"value": 43, "unit": "percent naming freedom of religion", "value_type": "reported_share"},
+        "freedom_of_assembly": {"value": 31, "unit": "percent naming freedom of assembly", "value_type": "reported_share"},
+        "freedom_of_press": {"value": 29, "unit": "percent naming freedom of the press", "value_type": "reported_share"},
+        "right_to_petition": {"value": 12, "unit": "percent naming the right to petition government", "value_type": "reported_share"},
+        "all_five_rights": {"value": 9, "unit": "percent naming all five First Amendment protections", "value_type": "reported_share"},
+        "none_of_five_rights": {"value": 24, "unit": "percent naming none of the five protections", "value_type": "reported_share"}
+      },
+      "method": "Open-ended APPC/SSRS survey question asking respondents to name specific rights guaranteed by the First Amendment.",
+      "uncertainty": "Open-ended recall depends on wording, prompting, education, media salience, and interview context; naming a right does not establish accurate legal understanding or use.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "The uneven pattern may reflect differential salience of speech, religion, press, assembly, and petition rather than a uniform absence of commitment to constitutional rights.",
+      "source_url": "https://www.asc.upenn.edu/news-events/news/third-americans-cannot-name-three-branches-government",
+      "retrieval_hash": "sha256:737581f7d4261112290cdd95258203589e021426e5f73332d83abe33faf2280b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. adults and constitutional rights regardless of citizenship status",
+      "denominator": {"value": 1034, "unit": "U.S. adults in the 2026 Annenberg Constitution Day Civics Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "know_undocumented_people_have_constitutional_rights": {"value": 56, "unit": "percent saying it is very or somewhat inaccurate that people in the U.S. illegally have no constitutional rights", "value_type": "reported_share"},
+        "say_no_rights_claim_is_accurate": {"value": 44, "unit": "percent saying the claim is accurate", "value_type": "reported_share"},
+        "know_birthright_citizenship": {"value": 76, "unit": "percent correctly saying U.S.-born children subject to its jurisdiction are citizens if neither parent is a citizen", "value_type": "reported_share"}
+      },
+      "method": "APPC/SSRS survey questions on constitutional protections and birthright citizenship.",
+      "uncertainty": "These are knowledge and belief measures, not legal-case analysis, immigration-status data, or evidence of how respondents would act in a policy dispute.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Respondents may interpret the wording through current political conflict; agreement with the legal proposition does not reveal broader views about immigration policy, enforcement, or equal treatment.",
+      "source_url": "https://www.asc.upenn.edu/news-events/news/third-americans-cannot-name-three-branches-government",
+      "retrieval_hash": "sha256:737581f7d4261112290cdd95258203589e021426e5f73332d83abe33faf2280b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. adults and constitutional procedures",
+      "denominator": {"value": 1034, "unit": "U.S. adults in the 2026 Annenberg Constitution Day Civics Survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "know_veto_override": {"value": 83, "unit": "percent correctly identifying the two-thirds override rule", "value_type": "reported_share"},
+        "know_5_4_supreme_court_decision_is_law": {"value": 69, "unit": "percent correctly identifying that a 5-4 Supreme Court decision is law and must be followed", "value_type": "reported_share"},
+        "know_supreme_court_constitutionality_role": {"value": 60, "unit": "percent correctly identifying the Supreme Court's final responsibility when it disagrees with the president", "value_type": "reported_share"},
+        "know_tenth_amendment_states_rights": {"value": 50, "unit": "percent correctly identifying the Tenth Amendment reservation of powers", "value_type": "reported_share"},
+        "unsure_tenth_amendment": {"value": 37, "unit": "percent unsure of the Tenth Amendment relationship", "value_type": "reported_share"}
+      },
+      "method": "APPC/SSRS survey questions on veto power, Supreme Court authority, and federal-state powers.",
+      "uncertainty": "Correct-answer shares measure recall or recognition under survey conditions; they do not establish institutional trust, constitutional interpretation in live disputes, or effective civic participation.",
+      "subgroup": "U.S. adults ages 18 and older.",
+      "counterinterpretation": "Knowledge may be issue-specific: respondents can understand a familiar veto rule while remaining uncertain about federalism or judicial review, so one score should not be treated as overall civic competence.",
+      "source_url": "https://www.asc.upenn.edu/news-events/news/third-americans-cannot-name-three-branches-government",
+      "retrieval_hash": "sha256:737581f7d4261112290cdd95258203589e021426e5f73332d83abe33faf2280b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.annenbergpublicpolicycenter.org/political-communication/civics-knowledge-survey/", "claim": "APPC archive and survey series context.", "status": "official-series-context"}
+  ],
+  "boundary": "This record captures 2026 national estimates of constitutional and government knowledge among U.S. adults. It does not establish political competence, legal understanding, institutional trust, partisan meaning, civic education causes, voting, rights exercise, or democratic performance.",
+  "retrieval_hash": "sha256:737581f7d4261112290cdd95258203589e021426e5f73332d83abe33faf2280b"
+}

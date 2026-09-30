@@ -1,0 +1,112 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyc-congestion-pricing-implementation-2026",
+  "title": "New York congestion pricing produced observed traffic and early transit changes while capital delivery and distributive legitimacy remain open",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Metropolitan Transportation Authority, New York City Comptroller, and New York City Department of Health and Mental Hygiene administrative and evaluation reporting",
+  "geography": "New York City; Congestion Relief Zone and selected environmental-justice monitoring locations",
+  "observations": [
+    {
+      "period": "January-June 2025; first six months of operations",
+      "denominator": {"value": 1, "unit": "Congestion Relief Zone operating program", "value_type": "administrative_program"},
+      "measures": {
+        "vehicle_change": {"value": 11, "unit": "percent reduction in average daily vehicles entering the zone, as reported by MTA after six months", "value_type": "reported_change"},
+        "vehicle_change_absolute": {"value": 70000, "unit": "fewer vehicles entering the zone per day on average, as reported by MTA", "value_type": "reported_change"},
+        "net_revenue": {"value": 268.5, "unit": "million US dollars in year-to-date Congestion Relief Zone net revenue", "value_type": "reported_amount"},
+        "mechanism": {"value": "A price and access rule changed observed traffic volume while creating a dedicated fiscal stream for transit capital", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MTA board reporting based on six months of congestion-pricing data and reported year-to-date net revenue.",
+      "uncertainty": "The comparison is not a randomized estimate; traffic, revenue, and travel behavior can also reflect seasonality, fuel prices, commuting patterns, construction, and broader economic changes.",
+      "subgroup": "Vehicles entering the Congestion Relief Zone; the reported vehicle measure is zone-level and does not identify individual households or drivers.",
+      "counterinterpretation": "A reduction in zone entries can represent trip elimination, route or time substitution, mode shift, or displacement to other streets; it is not by itself a welfare or emissions result.",
+      "source_url": "https://www.mta.info/document/186851",
+      "retrieval_hash": "sha256:9ca3afa4d32ba1ab4ac604e6de6255e3b7e105b90a868ac448c1abcd0a7d6cc3",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2025; one-year operational readout",
+      "denominator": {"value": 1, "unit": "New York City congestion-pricing program and associated transit system", "value_type": "administrative_program"},
+      "measures": {
+        "bus_speed": {"value": 2.3, "unit": "percent improvement in bus speeds in the congestion zone during 2025, as reported in the Comptroller's outlook", "value_type": "reported_change"},
+        "transit_ridership": {"value": 7, "unit": "percent increase in bus and subway ridership from 2024 to 2025", "value_type": "reported_change"},
+        "mechanism": {"value": "The initial traffic intervention coincided with modestly faster buses and higher annual transit ridership, connecting pricing to time and mode-use outcomes without proving that pricing alone caused either change", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "New York City Comptroller summary of MTA and related public data one year after launch.",
+      "uncertainty": "The figures are system-level year-over-year comparisons and do not establish individual affordability, commute reliability for every rider, or a causal effect net of other post-pandemic and operational changes.",
+      "subgroup": "Transit users and road users in and around the zone; subgroup incidence by income, disability, race, occupation, and neighborhood is not supplied by this observation.",
+      "counterinterpretation": "Aggregate ridership growth can coexist with fare burden, longer or displaced trips, or unequal benefits across routes and neighborhoods.",
+      "source_url": "https://comptroller.nyc.gov/newsroom/newsletter/new-york-by-the-numbers-monthly-economic-and-fiscal-outlook-no-109-january-2026/",
+      "retrieval_hash": "sha256:14549915aaf4b5c7925cd105eded22080683af11f7c220f85bac4ced77b02a69",
+      "status": "reported"
+    },
+    {
+      "period": "2025 versus 2024; air-quality evaluation published August 2026",
+      "denominator": {"value": 1, "unit": "NYC air-quality evaluation with Congestion Relief Zone and comparison monitoring locations", "value_type": "evaluation_frame"},
+      "measures": {
+        "zone_air_quality": {"value": "Pollution inside the zone decreased slightly or stayed the same; measured differences were not statistically significant in the evaluation", "unit": "reported evaluation finding", "value_type": "reported_finding"},
+        "environmental_justice_sites": {"value": "Congestion pricing did not increase pollution at analyzed environmental-justice neighborhood sites; one BQE site showed one pollutant improving less than the control site", "unit": "reported evaluation finding", "value_type": "reported_finding"},
+        "mechanism": {"value": "Observed traffic reduction did not automatically become a large measured air-quality gain, and the evaluation required controls for regional patterns such as wildfire smoke and regulation changes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NYC Department of Health and Mental Hygiene evaluation using expanded monitoring and comparison methods.",
+      "uncertainty": "The evaluation reports limited early changes rather than long-term health outcomes, and measured air quality is not equivalent to household exposure, emergency response, or respiratory health.",
+      "subgroup": "Congestion-zone monitors and selected environmental-justice neighborhood sites, not a representative panel of residents.",
+      "counterinterpretation": "Small or heterogeneous effects may require longer observation, more locations, or different pollutants and health endpoints; the absence of a measured increase is not proof of equal exposure.",
+      "source_url": "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-features/congestion-pricing-report/",
+      "retrieval_hash": "sha256:60792843bd4722f9448d367540f1343224e7b263fa739de198ca94429b009642",
+      "status": "reported"
+    },
+    {
+      "period": "2026; capital implementation status",
+      "denominator": {"value": 17, "unit": "MTA capital-dashboard projects identified as enabled by Congestion Relief Zone revenue", "value_type": "reported_project_count"},
+      "measures": {
+        "project_portfolio": {"value": 17, "unit": "projects displayed in the MTA capital dashboard under Enabled by Congestion Relief", "value_type": "reported_count"},
+        "project_types": {"value": "Examples include signal modernization, accessibility, and resilience work intended to support faster and more reliable commutes", "unit": "reported project categories", "value_type": "reported_context"},
+        "mechanism": {"value": "The program has moved from toll collection into a visible capital portfolio, but project presence and revised completion dates are not the same as completed service improvement or household benefit", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MTA capital dashboard listing and project-status presentation.",
+      "uncertainty": "The dashboard does not by itself establish completed construction, maintenance quality, reliability change, accessibility use, neighborhood incidence, or realized benefit for riders.",
+      "subgroup": "Transit riders and communities connected to the listed projects; the observation is project-level rather than rider-level.",
+      "counterinterpretation": "A project can be necessary for long-term reliability while producing little immediate visible change, and delivery delays or cost changes can alter the benefit path.",
+      "source_url": "https://capitaldashboard.mta.info/initiatives?cb=1768967396229&projectId=12654",
+      "retrieval_hash": "sha256:0dc422233d698d65be864512e3cdd776f4cee1c4b6a174967691a1ba9c1ba232",
+      "status": "reported"
+    },
+    {
+      "period": "September 24, 2026; congestion-pricing mitigation converts into off-hour delivery incentives",
+      "denominator": {"value": 1, "unit": "NYC DOT Off-Hour Deliveries incentive-program phase", "value_type": "announced_program_phase"},
+      "measures": {
+        "mitigation_funding": {"value": 5000000, "unit": "US dollars of MTA congestion-pricing funding", "value_type": "announced_program_funding"},
+        "first_phase_businesses": {"value": 14, "unit": "businesses eligible for first-phase incentives", "value_type": "announced_participant_cap"},
+        "first_phase_incentives": {"value": 500000, "unit": "US dollars, more than half a million in first-phase incentives", "value_type": "announced_program_amount"},
+        "delivery_window": {"value": "7 p.m. to 6 a.m.", "unit": "off-peak delivery window", "value_type": "program_rule"},
+        "long_run_target": {"value": 62000, "unit": "daily trucks targeted for shift away from peak hours by 2040", "value_type": "announced_target"},
+        "existing_off_hour_locations": {"value": 1120, "unit": "locations represented by 27 known businesses currently conducting off-hour deliveries", "value_type": "reported_baseline"},
+        "mechanism": {"value": "Congestion-pricing mitigation funding is being used to pay businesses to alter delivery timing, with intended effects on double-parking, traffic safety, environmental exposure, and daytime congestion", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NYC Department of Transportation public announcement and linked Off-Hour Deliveries program description; announcement-level program facts only, with no extraction of participating business identities, payments, delivery counts, or post-shift outcomes.",
+      "uncertainty": "The announcement establishes funding, eligibility, a delivery window, and a long-run target, not completed participation, realized truck shifts, delivery cost, worker schedules, neighborhood exposure, or safety and air-quality outcomes.",
+      "subgroup": "Businesses and freight receivers eligible for the NYC DOT Off-Hour Deliveries incentive program; effects may differ by business size, goods category, labor agreement, neighborhood, and ability to receive overnight deliveries.",
+      "counterinterpretation": "Shifting deliveries into overnight hours could reduce daytime congestion while moving noise, labor, curb, security, or household burdens into different places and times; a participation target is not proof of net welfare gain.",
+      "source_url": "https://www.nyc.gov/html/dot/html/pr2026/nyc-dot-to-provide-incentives-to-reduce-truck-deliveries-during-busiest-hours.shtml",
+      "retrieval_hash": "sha256:e2f68d4b93ea23ceeb9df6d923e5a88396f78fa43eb205735947e8ddec9de8f8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mta.info/document/180056", "claim": "MTA budget materials describe the program's January 5, 2025 launch, revenue projections, and $15 billion capital-bonding purpose."},
+    {"source_url": "https://www.mta.info/tolls/congestion-relief-zone/better-transit", "claim": "MTA identifies the capital and accessibility categories eligible for congestion-pricing revenue."}
+  ],
+  "boundary": "This record follows a named infrastructure and pricing intervention through observed zone traffic, reported revenue, early transit indicators, an air-quality evaluation, and a visible capital portfolio. It does not establish individual household welfare, distributional incidence, long-term health, completed capital benefits, political legitimacy, or a single causal effect of congestion pricing on every outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official MTA, NYC Comptroller, and NYC Health Department pages were retrieved and hashed for the observed traffic, revenue, transit, air-quality, and project-status claims.",
+    "checked": "2026-09-28"
+  }
+}

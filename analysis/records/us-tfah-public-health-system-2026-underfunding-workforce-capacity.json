@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-tfah-public-health-system-2026-underfunding-workforce-capacity",
+  "title": "U.S. public-health protection depends on operational capacity that funding totals alone do not guarantee",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Trust for America’s Health, Underfunded and Under Strain: The State of America’s Public Health System, September 2026; policy analysis of federal, state, and local public-health funding, workforce, infrastructure, and operations",
+  "geography": "United States; federal public-health system with state, local, territorial, and community implications",
+  "observations": [
+    {
+      "period": "2024–2026; public-health spending and CDC capacity",
+      "denominator": {"value": 1, "unit": "report-defined U.S. public-health system and national health-expenditure estimates", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "government_public_health_share_of_health_expenditures": {"value": 3, "unit": "percent of $5.3 trillion U.S. health expenditures in 2024", "value_type": "reported_share"},
+        "cdc_program_funding_fy2026": {"value": 9.1, "unit": "billion dollars; approximately flat with FY2025", "value_type": "reported_estimate"},
+        "cdc_real_funding_change_since_fy2016": {"value": -7, "unit": "percent inflation-adjusted program funding change", "value_type": "reported_change"},
+        "cdc_per_capita_purchasing_power_change": {"value": -12, "unit": "percent change from approximately $30.30 to $26.71 in constant dollars per person", "value_type": "reported_change"}
+      },
+      "method": "TFAH policy analysis of national health expenditures, federal appropriations, inflation-adjusted funding, and per-capita purchasing power using cited government and research sources.",
+      "uncertainty": "The report is a nonprofit policy analysis and its funding comparisons depend on definitions, inflation adjustments, program boundaries, and cited-source revisions; spending shares do not directly measure service quality or health outcomes.",
+      "subgroup": "Federal, state, local, territorial, and community public-health systems and the populations they serve.",
+      "counterinterpretation": "A small public-health share of total health spending may reflect the boundary between governmental prevention and clinical care; nominal funding stability can coexist with capacity loss, but the report does not estimate a single causal effect on population health.",
+      "source_url": "https://www.tfah.org/article/new-report-chronic-underinvestment-and-recent-disruptions-have-weakened-u-s-public-health-system/",
+      "retrieval_hash": "sha256:cd1be93cc514316059e95f490e96c0261cbbf2ab412cf681d5019da6799a6e1c",
+      "status": "estimated"
+    },
+    {
+      "period": "FY2024–May 2026; federal public-health workforce",
+      "denominator": {"value": 1, "unit": "report-defined federal public-health workforce estimates", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "cdc_workforce": {"value": "12,820 end FY2024 to 9,218 May 2026", "unit": "employees", "value_type": "reported_change"},
+        "cdc_workforce_reduction": {"value": 3600, "unit": "approximately employees; 28% reduction", "value_type": "reported_estimate"},
+        "hrsa_workforce_reduction": {"value": -38, "unit": "percent approximate reduction", "value_type": "reported_change"},
+        "samhsa_workforce_reduction": {"value": -42, "unit": "percent approximate reduction", "value_type": "reported_change"},
+        "fda_workforce_reduction": {"value": -22, "unit": "percent approximate reduction", "value_type": "reported_change"}
+      },
+      "method": "TFAH synthesis of Office of Personnel Management and agency workforce information cited in the report.",
+      "uncertainty": "Workforce counts vary by date, agency definition, personnel category, and treatment of separations or rescinded actions; headcount change does not itself measure productivity, service quality, or whether capacity was replaced elsewhere.",
+      "subgroup": "Federal health agencies and the state, local, and community programs dependent on their technical, grant, surveillance, and emergency functions.",
+      "counterinterpretation": "A smaller workforce could reflect restructuring or changed mission scope, but the report argues that the reductions occurred while demands and responsibilities remained high; the causal consequences remain context-specific.",
+      "source_url": "https://www.tfah.org/article/new-report-chronic-underinvestment-and-recent-disruptions-have-weakened-u-s-public-health-system/",
+      "retrieval_hash": "sha256:cd1be93cc514316059e95f490e96c0261cbbf2ab412cf681d5019da6799a6e1c",
+      "status": "estimated"
+    },
+    {
+      "period": "2021–2025; public-health workforce and local capacity baseline",
+      "denominator": {"value": 1, "unit": "report-cited public-health workforce and local-health-department estimates", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "estimated_state_local_staffing_gap": {"value": 80000, "unit": "additional full-time-equivalent positions estimated as a minimum baseline need", "value_type": "reported_estimate"},
+        "workforce_burnout_symptoms": {"value": 71, "unit": "percent of 2024 PH WINS respondents reporting at least one burnout symptom", "value_type": "reported_share"},
+        "near_constant_burnout": {"value": 20, "unit": "percent of 2024 PH WINS respondents", "value_type": "reported_share"},
+        "epidemiologists_planning_to_leave": {"value": "nearly 3 in 10", "unit": "percent planning to leave their agency within one year", "value_type": "reported_share"},
+        "local_health_departments_budget_cuts": {"value": "17 experienced in FY2024; 23 anticipated in FY2025", "unit": "percent of local health departments", "value_type": "reported_comparison"}
+      },
+      "method": "TFAH synthesis of cited workforce surveys and local-health-department capacity studies; estimates come from different sources and denominators.",
+      "uncertainty": "The measures are not a single survey or common denominator; the 80,000-position estimate is a baseline staffing study, while burnout, turnover, and budget measures come from distinct instruments and periods.",
+      "subgroup": "State and local public-health workers, epidemiologists, and local health departments.",
+      "counterinterpretation": "Burnout and turnover intentions do not guarantee departure; staffing gaps can be partly mitigated by technology, partnerships, or changed service models, though those substitutions may create new fragility.",
+      "source_url": "https://www.tfah.org/article/new-report-chronic-underinvestment-and-recent-disruptions-have-weakened-u-s-public-health-system/",
+      "retrieval_hash": "sha256:cd1be93cc514316059e95f490e96c0261cbbf2ab412cf681d5019da6799a6e1c",
+      "status": "estimated"
+    },
+    {
+      "period": "2025–2026; funding-function and operational continuity",
+      "denominator": {"value": 1, "unit": "report-defined public-health programs and operational functions", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "funding_capacity_gap": {"value": "appropriated dollars are necessary but not sufficient", "unit": "report synthesis linking staffing, grant administration, technical assistance, data systems, and timely disbursement to program function", "value_type": "reported_interpretation"},
+        "grant_disruption": {"value": "more than $12 billion in federal grants accessed for termination or clawback before later litigation and partial relief", "unit": "reported federal grant disruption", "value_type": "reported_estimate"},
+        "operational_margin": {"value": "little reserve capacity entering 2025", "unit": "report synthesis of temporary funding, expiring positions, workforce strain, and fragmented infrastructure", "value_type": "reported_assessment"}
+      },
+      "method": "TFAH policy analysis of federal actions, appropriations, grant operations, workforce, technical assistance, and front-line interviews with state and local health officials.",
+      "uncertainty": "The report is an advocacy-oriented synthesis and documents disruption through cited sources and interviews; it does not provide a standardized national measure of program performance or attribute each community outcome to a specific administrative action.",
+      "subgroup": "Public-health agencies, grantees, community organizations, and populations relying on surveillance, prevention, preparedness, and response functions.",
+      "counterinterpretation": "Some disruptions may be temporary, litigated, or offset by state and local action; operational uncertainty itself can reduce planning capacity even when nominal funding later returns.",
+      "source_url": "https://www.tfah.org/article/new-report-chronic-underinvestment-and-recent-disruptions-have-weakened-u-s-public-health-system/",
+      "retrieval_hash": "sha256:cd1be93cc514316059e95f490e96c0261cbbf2ab412cf681d5019da6799a6e1c",
+      "status": "estimated"
+    },
+    {
+      "period": "FY2027 proposal; future public-health capacity",
+      "denominator": {"value": 1, "unit": "report analysis of the FY2027 President's Budget Request", "value_type": "source_defined_policy_universe"},
+      "measures": {
+        "proposed_resources_reduction_for_cdc_and_atrs_functions": {"value": 2.86, "unit": "billion dollars; approximately 31% reduction relative to FY2026 after accounting for proposed transfers", "value_type": "reported_policy_estimate"},
+        "prevention_public_health_fund": {"value": "proposal would eliminate", "unit": "reported policy proposal; not enacted outcome", "value_type": "reported_policy_status"},
+        "threats_named_by_report": {"value": "measles, declining childhood vaccination, foodborne outbreaks, extreme heat, overdose, suicide, and emergency preparedness needs", "unit": "reported demand set", "value_type": "reported_assessment"}
+      },
+      "method": "TFAH analysis of the FY2027 budget proposal and comparison with FY2026 enacted funding; recommendations and policy projections are kept separate from enacted facts.",
+      "uncertainty": "The budget request is a proposal and may be amended, rejected, or offset; reported resource changes are not realized cuts, and the report’s policy interpretation reflects TFAH’s advocacy position.",
+      "subgroup": "Federal, state, local, territorial, and community public-health capabilities and the populations exposed to preventable health threats.",
+      "counterinterpretation": "Reorganization or redistribution could preserve some functions despite aggregate reductions, though the report argues that specialized expertise, continuity, and foundational capacity are difficult to replace quickly.",
+      "source_url": "https://www.tfah.org/article/new-report-chronic-underinvestment-and-recent-disruptions-have-weakened-u-s-public-health-system/",
+      "retrieval_hash": "sha256:cd1be93cc514316059e95f490e96c0261cbbf2ab412cf681d5019da6799a6e1c",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.tfah.org/wp-content/uploads/2026/09/TFAH_Public_Health_Funding_2026_FNL.pdf", "claim": "Full 140-page issue report with cited funding, workforce, operational, front-line, and budget evidence.", "status": "primary-report"}
+  ],
+  "boundary": "This record captures TFAH’s evidence and policy analysis of U.S. public-health funding, workforce, infrastructure, operational continuity, and proposed federal changes. It does not establish a causal national health effect, independently audit every cited estimate, measure all state or local variation, or treat proposed FY2027 policy as enacted fact.",
+  "retrieval_hash": "sha256:cd1be93cc514316059e95f490e96c0261cbbf2ab412cf681d5019da6799a6e1c"
+}

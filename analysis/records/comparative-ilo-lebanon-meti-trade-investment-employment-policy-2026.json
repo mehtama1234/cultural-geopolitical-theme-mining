@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-lebanon-meti-trade-investment-employment-policy-2026",
+  "title": "Lebanon is trying to make trade and investment policy answerable to employment through evidence, sector selection, and tripartite coordination",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "public_systems_feedback", "work_control_bargaining", "unequal_exposure_status", "geopolitical_state_consequences", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "ILO report on the launch of the Mainstreaming Employment into Trade and Investment (METI) project in Lebanon, published 27 August 2026",
+  "geography": "Lebanon, with regional Southern Mediterranean METI II connections across Algeria, Egypt, Jordan, Lebanon, Libya, Morocco, Palestine, Syria, and Tunisia",
+  "observations": [
+    {
+      "period": "August 2026 onward; Lebanon METI project launch and policy-working-group formation",
+      "denominator": {"value": 1, "unit": "national employment-centred trade and investment project in Lebanon", "value_type": "reported_project_frame"},
+      "measures": {
+        "project": {"value": "Mainstreaming Employment into Trade and Investment (METI) project", "unit": "reported project", "value_type": "reported_project_identifier"},
+        "funder": {"value": "European Union funding with ILO implementation", "unit": "reported partnership", "value_type": "reported_funding_partnership"},
+        "policy_working_group": {"value": "a Policy Working Group was established with labour, economy and trade, industry, employer, worker, and research representatives", "unit": "reported coordination mechanism", "value_type": "reported_governance_mechanism"},
+        "policy_problem": {"value": "trade, investment, and employment policies do not automatically produce more or better jobs when designed separately", "unit": "reported policy diagnosis", "value_type": "reported_policy_diagnosis"}
+      },
+      "method": "Official ILO report of project launch, stakeholder composition, and planned policy-analysis approach; it is an institutional announcement, not an impact evaluation.",
+      "uncertainty": "The launch does not establish that the working group will influence policy, that stakeholders have equal power, or that later interventions will create jobs or improve job quality.",
+      "subgroup": "Lebanese ministries, employers, worker organizations, researchers, firms, workers, young people, women, MSMEs, and households affected by economic recovery.",
+      "counterinterpretation": "A policy working group can remain consultative, fragmented, or dominated by better-resourced institutions; coordination does not guarantee implementation, finance, or worker remedy.",
+      "source_url": "https://www.ilo.org/resource/news/turning-trade-and-investment-potential-more-and-better-jobs-lebanon",
+      "retrieval_hash": "sha256:352bd020492bee4f30a56c3c81afbf1c271c0badb5e69cf61b8bfbbb725bb62a",
+      "status": "reported"
+    },
+    {
+      "period": "2026–2028; evidence-to-action route for export-oriented activity",
+      "denominator": {"value": 1, "unit": "planned Lebanon sector-selection and employment-action route", "value_type": "reported_project_mechanism"},
+      "measures": {
+        "sector_selection": {"value": "the project will identify a priority export-oriented sector or value chain with employment potential", "unit": "reported analytical step", "value_type": "reported_project_step"},
+        "action_plan": {"value": "national stakeholders will support a sectoral action plan addressing trade, investment, and employment angles", "unit": "reported policy deliverable", "value_type": "reported_planned_deliverable"},
+        "analysis_tools": {"value": "policy analysis, sector selection, value-chain analysis, employment-potential assessment, and impact assessment are planned tools", "unit": "reported analytical toolkit", "value_type": "reported_method_set"},
+        "employment_goal": {"value": "translate trade and investment opportunities into productive employment and decent work", "unit": "reported project objective", "value_type": "reported_project_objective"}
+      },
+      "method": "ILO description of METI's planned analytical and participatory methods and sectoral implementation route.",
+      "uncertainty": "The project has not yet demonstrated which sector will be selected, what baseline employment effects exist, or whether a plan will be financed, implemented, evaluated, and enforced.",
+      "subgroup": "Export-oriented firms, MSMEs, workers, women and youth, suppliers, sector institutions, investors, policymakers, and communities dependent on selected value chains.",
+      "counterinterpretation": "Selecting sectors for export potential can privilege internationally competitive firms or formal workers while overlooking domestic services, informal livelihoods, care work, or regions with weaker market access.",
+      "source_url": "https://www.ilo.org/resource/news/turning-trade-and-investment-potential-more-and-better-jobs-lebanon",
+      "retrieval_hash": "sha256:352bd020492bee4f30a56c3c81afbf1c271c0badb5e69cf61b8bfbbb725bb62a",
+      "status": "reported"
+    },
+    {
+      "period": "2026–2028; firm, worker, skills, gender, and formalization route",
+      "denominator": {"value": 1, "unit": "planned targeted-intervention package for selected export-oriented activities", "value_type": "reported_project_package"},
+      "measures": {
+        "enterprise_support": {"value": "targeted measures will support micro, small, and medium-sized enterprises and workers", "unit": "reported intervention route", "value_type": "reported_intervention_route"},
+        "skills": {"value": "skills development will be supported where gaps are identified in selected export-oriented activities", "unit": "reported intervention route", "value_type": "reported_skills_route"},
+        "inclusion": {"value": "analysis and interventions will integrate employment quality, skills needs, gender equality, and formalization", "unit": "reported inclusion dimensions", "value_type": "reported_inclusion_frame"},
+        "target_groups": {"value": "particular attention will be given to women and young people", "unit": "reported target groups", "value_type": "reported_targeting_frame"}
+      },
+      "method": "ILO project design description of planned firm, worker, skills, gender, and formalization measures.",
+      "uncertainty": "The design does not establish who will receive support, whether skills match employer demand, or whether formalization improves protection rather than raising entry barriers.",
+      "subgroup": "Women, youth, MSMEs, informal workers, export workers, suppliers, employers, training providers, and households with limited labour-market room.",
+      "counterinterpretation": "Skills programmes can shift responsibility to workers, and formalization can exclude firms or workers if compliance costs exceed support; export growth can also intensify work or environmental pressures.",
+      "source_url": "https://www.ilo.org/resource/news/turning-trade-and-investment-potential-more-and-better-jobs-lebanon",
+      "retrieval_hash": "sha256:352bd020492bee4f30a56c3c81afbf1c271c0badb5e69cf61b8bfbbb725bb62a",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2028; Southern Mediterranean regional integration route",
+      "denominator": {"value": 9, "unit": "countries named in the wider Southern Mediterranean METI programme geography", "value_type": "reported_country_count"},
+      "measures": {
+        "regional_countries": {"value": "Algeria, Egypt, Jordan, Lebanon, Libya, Morocco, Palestine, Syria, and Tunisia", "unit": "named programme geography", "value_type": "reported_country_set"},
+        "regional_exchange": {"value": "policymakers and social partners will exchange knowledge, good practices, and potential regional value-chain linkages", "unit": "reported cooperation mechanism", "value_type": "reported_regional_mechanism"},
+        "regional_goals": {"value": "market diversification, value-chain upgrading, economic resilience, employment, and social inclusion", "unit": "reported regional goals", "value_type": "reported_policy_goals"},
+        "geopolitical_mechanism": {"value": "EU-backed regional cooperation uses employment-centred policy analysis to connect trade integration, national recovery, and decent work", "unit": "bounded regional-development mechanism", "value_type": "reported_geopolitical_mechanism"}
+      },
+      "method": "ILO account of Lebanon's participation in METI II and the programme's Southern Mediterranean regional dimension.",
+      "uncertainty": "Regional exchange and integration do not establish convergence, shared bargaining power, cross-border job gains, or equitable distribution across countries and value chains.",
+      "subgroup": "Southern Mediterranean governments, social partners, firms, workers, women, youth, MSMEs, investors, and communities affected by regional value chains.",
+      "counterinterpretation": "Regional integration can expand opportunity for connected firms while increasing competition, labour arbitrage, migration pressure, or uneven exposure for weaker regions and workers.",
+      "source_url": "https://www.ilo.org/resource/news/turning-trade-and-investment-potential-more-and-better-jobs-lebanon",
+      "retrieval_hash": "sha256:352bd020492bee4f30a56c3c81afbf1c271c0badb5e69cf61b8bfbbb725bb62a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/node/5911", "claim": "ILO METI programme page describing the Southern Mediterranean regional programme and methods."},
+    {"source_url": "https://www.ilo.org/resource/news/new-partnership-set-strengthen-lebanon%E2%80%99s-cooperative-sector-through-better", "claim": "Complementary ILO Lebanon cooperative-data and rural-livelihood partnership."}
+  ],
+  "boundary": "This record adds a policy-design route linking trade and investment, employment measurement, tripartite coordination, export-oriented value chains, MSMEs, skills, gender, formalization, regional integration, and inclusive recovery. It records a project launch and planned mechanisms, not actual trade growth, job creation, wage change, firm performance, worker outcomes, or implemented policy effects.",
+  "retrieval_hash": "sha256:352bd020492bee4f30a56c3c81afbf1c271c0badb5e69cf61b8bfbbb725bb62a"
+}

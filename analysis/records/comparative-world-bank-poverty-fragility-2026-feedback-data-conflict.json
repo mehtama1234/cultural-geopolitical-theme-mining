@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-poverty-fragility-2026-feedback-data-conflict",
+  "title": "Extreme poverty is increasingly concentrated in fragile and conflict-affected settings where poverty and institutional fragility reinforce one another",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Bank, Fragility at the Core of Global Poverty, 2026 reproducibility package",
+  "geography": "Global countries and regions, with analysis of fragile and conflict-affected settings, poverty, institutions, conflict, displacement and development capacity",
+  "observations": [
+    {
+      "period": "2026 report; global poverty and fragility concentration",
+      "denominator": {"value": 1, "unit": "World Bank global report synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "concentration": {"value": "The report examines how extreme poverty has become increasingly concentrated in fragile and conflict-affected settings.", "unit": "reported global pattern", "value_type": "reported_interpretation"},
+        "scope": {"value": "The analysis links poverty, fragility and conflict across countries and regions rather than treating poverty reduction as a standalone income trend.", "unit": "reported analytical frame", "value_type": "reported_interpretation"},
+        "development_implication": {"value": "Poverty-reduction strategies must account for the political, institutional and security conditions that shape whether households can convert growth or services into durable gains.", "unit": "reported policy implication", "value_type": "inference_from_source"}
+      },
+      "method": "World Bank flagship-report analysis using harmonized poverty data, fragility classifications and analytical tools; the public reproducibility package documents the inputs and reproduction process.",
+      "uncertainty": "The public catalog page provides the abstract and reproducibility metadata rather than all report tables; concentration is a synthesized finding, not a single global causal coefficient.",
+      "subgroup": "People living in fragile and conflict-affected settings, poor households exposed to violence or displacement, and countries with limited institutional and fiscal capacity.",
+      "counterinterpretation": "Fragility is not a single condition and poverty can also contribute to institutional stress outside formally classified fragile settings; classification boundaries may hide local variation.",
+      "source_url": "https://reproducibility.worldbank.org/catalog/578",
+      "retrieval_hash": "sha256:8191aad5a11a064bf85cdac703930535e6b69769daeeb17d347e89a009b14074",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; poverty-fragility feedback mechanism",
+      "denominator": {"value": 1, "unit": "World Bank report analytical mechanism", "value_type": "published_synthesis"},
+      "measures": {
+        "reinforcement": {"value": "The report documents how fragility and poverty reinforce one another over time.", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "household_pathway": {"value": "Conflict, displacement, weak services and insecure livelihoods can erode household assets and income while poverty can reduce resilience and constrain recovery.", "unit": "analytical pathway", "value_type": "inference_from_source_scope"},
+        "institutional_pathway": {"value": "Low institutional capacity and insecurity can weaken public delivery and investment, making poverty reduction less durable even where short-term assistance reaches households.", "unit": "analytical pathway", "value_type": "inference_from_source_scope"}
+      },
+      "method": "World Bank synthesis of harmonized data and analytical tools linking fragility and poverty across time and place; the record preserves the report's mechanism claim without converting it into a causal estimate.",
+      "uncertainty": "The catalog abstract does not specify the full identification strategy, timing of shocks, counterfactual or relative contribution of conflict, institutions, climate, geography and economic structure.",
+      "subgroup": "Poor households, displaced people, conflict-affected communities, public agencies, local service providers and populations in low-capacity states.",
+      "counterinterpretation": "External assistance, local institutions, remittances, community networks or private investment may interrupt the feedback loop in particular places; fragility need not produce permanent poverty.",
+      "source_url": "https://reproducibility.worldbank.org/catalog/578",
+      "retrieval_hash": "sha256:8191aad5a11a064bf85cdac703930535e6b69769daeeb17d347e89a009b14074",
+      "status": "reported"
+    },
+    {
+      "period": "2026 reproducibility package; cross-source measurement and classification",
+      "denominator": {"value": 1, "unit": "World Bank reproducibility package", "value_type": "published_method"},
+      "measures": {
+        "data_integration": {"value": "The package identifies harmonized poverty data, World Development Indicators, fragility and conflict lists, institutional assessments, conflict event data, displacement data and subnational indicators as inputs.", "unit": "reported data architecture", "value_type": "reported_method"},
+        "classification_window": {"value": "The fragility and conflict classification input covers FY06 through FY26.", "unit": "fiscal-year classification span", "value_type": "published_data_scope"},
+        "reproducibility": {"value": "The World Bank says computational reproducibility was verified, while some restricted datasets are not redistributed and must be obtained separately.", "unit": "reported reproducibility status", "value_type": "reported_method"}
+      },
+      "method": "Review of the World Bank reproducibility catalog, data inventory, software requirements and replication instructions.",
+      "uncertainty": "Reproduction is not fully turnkey because ACLED, subnational population distributions and other restricted inputs are not included; verified code and packaged outputs do not eliminate measurement or classification uncertainty.",
+      "subgroup": "Researchers, governments, aid agencies and communities whose conditions are represented through national, subnational, conflict and displacement datasets.",
+      "counterinterpretation": "More integrated data can improve targeting while also increasing the risk that classification systems simplify political realities, miss unreported violence or privilege measurable outcomes over lived insecurity.",
+      "source_url": "https://reproducibility.worldbank.org/catalog/578",
+      "retrieval_hash": "sha256:8191aad5a11a064bf85cdac703930535e6b69769daeeb17d347e89a009b14074",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; implications for poverty reduction and public action",
+      "denominator": {"value": 1, "unit": "World Bank report policy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "policy_fit": {"value": "The report's central implication is that poverty-reduction efforts must be adapted to fragile and conflict-affected settings rather than relying on a uniform development pathway.", "unit": "reported policy implication", "value_type": "reported_interpretation"},
+        "capacity_constraint": {"value": "Security, institutional capacity, fiscal space, displacement and local delivery conditions are part of the route from intervention to durable poverty reduction.", "unit": "analytical pathway", "value_type": "inference_from_source_scope"},
+        "coordination": {"value": "The evidence architecture points toward coordination across poverty policy, humanitarian action, peace and security, displacement response and institutional strengthening.", "unit": "analytical implication", "value_type": "inference_from_source_scope"}
+      },
+      "method": "Policy interpretation grounded in the report abstract and reproducibility package's cross-domain data design.",
+      "uncertainty": "The public catalog page does not establish which interventions are most effective, how much they cost, who controls them locally or whether they produce durable improvements in wellbeing and political inclusion.",
+      "subgroup": "Governments, donors, humanitarian and development agencies, local organizations, displaced populations and households living under conflict or institutional fragility.",
+      "counterinterpretation": "A security- or institution-heavy framing can understate household agency, local peacebuilding and informal social protection, or shift resources away from universal services toward exceptional fragile-state programming.",
+      "source_url": "https://reproducibility.worldbank.org/catalog/578",
+      "retrieval_hash": "sha256:8191aad5a11a064bf85cdac703930535e6b69769daeeb17d347e89a009b14074",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.60572/htxb-td85", "claim": "Official DOI for the World Bank Fragility at the Core of Global Poverty reproducibility package."},
+    {"source_url": "https://www.worldbank.org/en/topic/fragilityconflictviolence/brief/classification-of-fragile-and-conflict-affected-situations", "claim": "World Bank fragility and conflict classification resource referenced by the package."},
+    {"source_url": "https://pip.worldbank.org/", "claim": "World Bank Poverty and Inequality Platform referenced as a package input."}
+  ],
+  "boundary": "This record adds a poverty-fragility feedback layer: extreme poverty is increasingly concentrated in fragile and conflict-affected settings, and the report treats poverty and fragility as mutually reinforcing. The public evidence reviewed here is the World Bank abstract and reproducibility metadata; it does not claim a specific causal effect, intervention ranking, household-level pathway or complete reproduction without restricted input data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank reproducibility catalog was reviewed for the report abstract, global scope, authorship, poverty-fragility reinforcement claim, data inputs, FY06-FY26 classification window, computational-verification statement and restricted-data limitations.",
+    "source_url_sha256": "sha256:8191aad5a11a064bf85cdac703930535e6b69769daeeb17d347e89a009b14074",
+    "checked": "2026-09-27"
+  }
+}

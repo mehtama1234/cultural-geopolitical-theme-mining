@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-tunisia-womens-agency-context-specific-ai-measurement-2026",
+  "title": "Women’s agency is context-specific and cannot safely be measured by one universal survey scale or current generative AI",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11464, Developing a Measure of Women's Agency in Tunisia: Machine Learning and Generative Artificial Intelligence Approaches",
+  "geography": "Tunisia; qualitative in-depth interviews and quantitative surveys with the same sample of women, including rural and urban context comparisons, with comparison to an India-developed agency measure",
+  "observations": [
+    {
+      "period": "2026 paper; Tunisia measure development and India comparison",
+      "denominator": {"value": 400, "unit": "women in the Tunisia mixed-methods agency measurement sample", "value_type": "reported_sample"},
+      "measures": {
+        "concept": {"value": "agency is defined as the ability to define and act on one's goals", "unit": "reported conceptual definition", "value_type": "reported_construct"},
+        "cross_context_overlap": {"value": "overlap between questions performing well in India and Tunisia is minimal", "unit": "reported measure-development result", "value_type": "reported_comparative_result"},
+        "within_country_variation": {"value": "questions selected in one context, such as rural Tunisia, do not necessarily perform well in another, such as urban Tunisia", "unit": "reported context-variation result", "value_type": "reported_heterogeneity"},
+        "implication": {"value": "researchers may need context-specific agency measures to measure agency accurately", "unit": "reported methodological implication", "value_type": "reported_policy_implication"}
+      },
+      "method": "Mixed-methods measure development using qualitative interviews and quantitative surveys from the same women, with machine-learning selection and comparison to a prior India measure.",
+      "uncertainty": "The findings concern instrument performance and construct measurement in the studied contexts; they do not imply that agency itself is incomparable or that no cross-context core can ever be identified.",
+      "subgroup": "Women in Tunisia across rural and urban contexts, women in India used for comparison, researchers, program evaluators, and institutions using agency measures to allocate resources.",
+      "counterinterpretation": "Minimal item overlap may reflect survey wording, translation, sampling, model specification, or benchmark choices as well as genuine contextual differences in how agency is expressed.",
+      "source_url": "https://documents.worldbank.org/curated/en/099256409232640706/pdf/IDU-41cc0e6f-8102-439d-9d1b-cf5059023dd4.pdf",
+      "retrieval_hash": "sha256:33c56b8a4df19f7ad37c2eaaa939d6ec42d88c6de307fab8bf44c9de0121ef80",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; machine-learning and generative-AI measure construction",
+      "denominator": {"value": 1, "unit": "Tunisia agency-measurement methods comparison", "value_type": "reported_method_comparison"},
+      "measures": {
+        "machine_learning": {"value": "machine-learning approaches perform well against a benchmark qualitative agency score", "unit": "reported predictive-performance result", "value_type": "reported_method_result"},
+        "generative_ai": {"value": "generative-AI approaches do not perform comparably against the qualitative benchmark", "unit": "reported predictive-performance result", "value_type": "reported_method_result"},
+        "efficiency_claim": {"value": "current readily available generative-AI tools did not make the exercise more effective or less time-consuming", "unit": "reported workflow result", "value_type": "reported_method_result"},
+        "governance_implication": {"value": "automating question generation or scoring does not remove the need for local qualitative grounding and validation", "unit": "bounded methodological implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparison of machine-learning and generative-AI approaches against a manually coded qualitative agency benchmark, with reproducibility materials documenting data and methods.",
+      "uncertainty": "Performance depends on the benchmark, prompts, models, training data, language, translation, sample, and validation design; the result is not a universal evaluation of every generative-AI system.",
+      "subgroup": "Women whose experiences are converted into survey measures, local qualitative researchers, survey designers, AI developers, policymakers, and organizations deploying automated measurement.",
+      "counterinterpretation": "Future models, better local-language systems, human-AI workflows, or richer prompts may improve performance; current failure does not establish permanent incapacity.",
+      "source_url": "https://documents.worldbank.org/curated/en/099256409232640706/pdf/IDU-41cc0e6f-8102-439d-9d1b-cf5059023dd4.pdf",
+      "retrieval_hash": "sha256:33c56b8a4df19f7ad37c2eaaa939d6ec42d88c6de307fab8bf44c9de0121ef80",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; agency measurement and policy interpretation",
+      "denominator": {"value": 1, "unit": "women's agency policy-measurement framework", "value_type": "reported_construct_frame"},
+      "measures": {
+        "policy_status": {"value": "agency is both an end in itself and a means of reducing other gender inequities", "unit": "reported policy framing", "value_type": "reported_policy_frame"},
+        "measurement_risk": {"value": "treating standard large-scale survey measures as universal can obscure local forms of goal definition, action, constraint, and decision-making", "unit": "bounded measurement risk", "value_type": "bounded_mechanism"},
+        "institutional_route": {"value": "measurement design affects what programs can see, compare, fund, and evaluate", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Synthesis of the paper's construct definition, mixed-methods design, context comparisons, and implications for survey and policy measurement.",
+      "uncertainty": "The record concerns measurement validity and policy interpretation, not a population estimate of women's agency or a causal evaluation of empowerment programs.",
+      "subgroup": "Women with different household, geographic, cultural, linguistic, economic, and social positions; program implementers and institutions relying on comparable indicators.",
+      "counterinterpretation": "A universal core can still be useful for broad monitoring if it is supplemented by locally validated modules and interpreted with humility; context-specificity does not require abandoning comparison.",
+      "source_url": "https://documents.worldbank.org/curated/en/099256409232640706/pdf/IDU-41cc0e6f-8102-439d-9d1b-cf5059023dd4.pdf",
+      "retrieval_hash": "sha256:33c56b8a4df19f7ad37c2eaaa939d6ec42d88c6de307fab8bf44c9de0121ef80",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11464.html", "claim": "Abstract and bibliographic record for World Bank Policy Research Working Paper 11464."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/639", "claim": "World Bank reproducibility package with sample, data, AI-score, qualitative benchmark, and method metadata."},
+    {"source_url": "https://www.worldbank.org/en/programs/mena-gender-innovation-lab", "claim": "World Bank MENA Gender Innovation Lab description of the Tunisia agency mixed-methods study."}
+  ],
+  "boundary": "This record adds a context-specific agency-measurement route linking qualitative grounding, survey design, machine learning, generative AI, local variation, and policy visibility. It does not provide a universal agency index, population-level agency prevalence, causal empowerment effects, proof that all generative AI fails, or a reason to discard cross-context comparison when locally validated modules are combined with a transparent core.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank working-paper PDF, abstract, reproducibility package, and MENA Gender Innovation Lab description were reviewed for the 400-woman mixed-methods sample, India-Tunisia overlap, rural-urban variation, machine-learning performance, generative-AI limitation, and policy-measurement boundaries.",
+    "source_url_sha256": "sha256:33c56b8a4df19f7ad37c2eaaa939d6ec42d88c6de307fab8bf44c9de0121ef80",
+    "checked": "2026-09-29"
+  }
+}

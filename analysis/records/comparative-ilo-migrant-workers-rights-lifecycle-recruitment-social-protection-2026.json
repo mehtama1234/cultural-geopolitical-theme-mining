@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-migrant-workers-rights-lifecycle-recruitment-social-protection-2026",
+  "title": "Migrant-worker protection is being reframed as a lifecycle rights pathway rather than a border or recruitment issue",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, International labour standards and migrant workers’ rights: A Guide for policymakers and practitioners, 2025/2026",
+  "geography": "Comparative international labour-migration framework with illustrative regional and national examples across origin, transit, and destination contexts",
+  "observations": [
+    {
+      "period": "2025-2026; migrant-worker rights across the migration experience",
+      "denominator": {"value": 1, "unit": "ILO international-labour-standards framework for migrant workers and their families", "value_type": "reported_normative_framework"},
+      "measures": {
+        "entry_stage": {"value": "the guide covers accurate information, fair recruitment, regulation of recruitment fees and costs, employment contracts, medical examination, and facilitated departure", "unit": "reported rights pathway stages", "value_type": "reported_policy_framework"},
+        "stay_stage": {"value": "the guide covers employment, equality of opportunity and treatment, remuneration, working conditions, housing, social protection, education and culture, freedom of movement, and transfer of funds", "unit": "reported rights pathway stages", "value_type": "reported_policy_framework"},
+        "return_stage": {"value": "the guide covers security of residence, repatriation, appeal against arbitrary decisions, outstanding employment claims, and labour-market reintegration after return", "unit": "reported rights pathway stages", "value_type": "reported_policy_framework"},
+        "mechanism": {"value": "migration risk accumulates across recruitment, status, workplace, residence, family, social-protection, and return systems, so protection at one stage cannot compensate automatically for exclusion at another", "unit": "bounded migration-lifecycle mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Legal and policy guide synthesizing relevant ILO international labour standards, supervisory-body guidance, international instruments, and illustrative national and regional practices.",
+      "uncertainty": "This is a normative and practical guide rather than a prevalence estimate, causal evaluation, or country-compliance audit; legal protection and lived access depend on ratification, domestic law, enforcement, status, employer practice, and migrant knowledge.",
+      "subgroup": "Migrant workers, refugees and other displaced workers where relevant, families, domestic and care workers, agricultural and construction workers, fishers, manufacturing and service workers, employers, recruiters, and public authorities.",
+      "counterinterpretation": "A lifecycle rights framework can improve coherence but may be difficult to implement across multiple jurisdictions, and formal rights may not change outcomes without accessible enforcement, worker organization, and non-retaliatory complaint routes.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-02/ilo%20-%20International%20labour%20standards%20and%20migrant%20workers%20rights%20A4%202026-02-12%20web_0.pdf",
+      "retrieval_hash": "sha256:ba17eb2c563c774cede9ef83db534a14d1dbb61ecc0bb0f07ddce7fe028446c2",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; cross-cutting migration governance: social dialogue, gender, care, violence, and climate mobility",
+      "denominator": {"value": 1, "unit": "ILO guide’s cross-cutting rights and governance themes", "value_type": "reported_normative_framework"},
+      "measures": {
+        "social_dialogue": {"value": "the guide treats social dialogue and worker voice as part of fair migration governance, not only a domestic labor-relations issue", "unit": "reported governance principle", "value_type": "reported_policy_principle"},
+        "gender_and_care": {"value": "gender equality and the care economy are identified as cross-cutting migration concerns, including the conditions of domestic and care workers", "unit": "reported cross-cutting themes", "value_type": "reported_policy_framework"},
+        "violence": {"value": "violence and harassment are treated as risks that can shape migrant workers’ rights throughout recruitment, employment, return, and reintegration", "unit": "reported risk pathway", "value_type": "reported_policy_framework"},
+        "climate": {"value": "climate-induced mobility and Just Transition are included as labour-migration governance concerns", "unit": "reported transition theme", "value_type": "reported_policy_framework"},
+        "mechanism": {"value": "migration governance increasingly links mobility policy to workplace power, gendered care markets, climate adaptation, and social cohesion", "unit": "bounded cross-domain governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-cutting review of labour standards and supervisory guidance on social dialogue, gender, violence and harassment, care work, climate change, and Just Transition in migration contexts.",
+      "uncertainty": "The guide identifies standards and policy routes but does not measure prevalence or effect sizes for gendered exploitation, violence, climate mobility, care-work conditions, or social-dialogue participation across countries.",
+      "subgroup": "Women migrant workers, migrant care and domestic workers, workers exposed to climate-related mobility, workers facing violence or harassment, unions, employers, migrant organizations, and families.",
+      "counterinterpretation": "Migration can provide skills, income, remittances, and social mobility; rights-based governance should not be confused with restricting mobility or treating all migration pathways as equally risky.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-02/ilo%20-%20International%20labour%20standards%20and%20migrant%20workers%20rights%20A4%202026-02-12%20web_0.pdf",
+      "retrieval_hash": "sha256:ba17eb2c563c774cede9ef83db534a14d1dbb61ecc0bb0f07ddce7fe028446c2",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; enforcement, social protection, and cross-border justice for migrant workers",
+      "denominator": {"value": 1, "unit": "ILO monitoring, enforcement, and access-to-justice framework", "value_type": "reported_institutional_framework"},
+      "measures": {
+        "enforcement": {"value": "the guide identifies national labour inspection, specialized bodies, bilateral mechanisms, and international supervision as complementary enforcement channels", "unit": "reported enforcement architecture", "value_type": "reported_policy_framework"},
+        "social_protection": {"value": "the guide addresses equality of treatment, work injury, maternity protection, social security standards, and portability or coordination of protection across borders", "unit": "reported protection domains", "value_type": "reported_policy_framework"},
+        "justice": {"value": "access to justice includes complaint and remedy routes for migrant workers, including workers in irregular situations and cross-border claims", "unit": "reported justice route", "value_type": "reported_policy_framework"},
+        "recruitment_costs": {"value": "regulation of recruitment fees and related costs is treated as a rights and debt-risk issue before employment begins", "unit": "reported recruitment-protection mechanism", "value_type": "reported_policy_framework"},
+        "mechanism": {"value": "rights become practical only when information, inspection, social-protection portability, collective voice, and cross-border remedy are connected across jurisdictions", "unit": "bounded transnational-enforcement mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Standards-based review of national and bilateral enforcement, labour inspection, social-security coordination, recruitment regulation, complaint mechanisms, and cross-border access to justice.",
+      "uncertainty": "The framework does not establish the coverage, cost, speed, or success rate of enforcement and justice mechanisms; portability and remedy vary by legal status, bilateral agreements, institutional capacity, and worker information.",
+      "subgroup": "Migrant workers with tied permits or irregular status, workers facing recruitment debt, injured or unpaid workers, pregnant workers, returnees, unions, labour inspectors, courts, and consular or bilateral authorities.",
+      "counterinterpretation": "Cross-border enforcement can be administratively expensive and politically contested; bilateral mechanisms may protect some corridors while leaving workers outside formal agreements less protected.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-02/ilo%20-%20International%20labour%20standards%20and%20migrant%20workers%20rights%20A4%202026-02-12%20web_0.pdf",
+      "retrieval_hash": "sha256:ba17eb2c563c774cede9ef83db534a14d1dbb61ecc0bb0f07ddce7fe028446c2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/international-labour-standards-and-migrant-workers%E2%80%99-rights-guide", "claim": "Official ILO publication page with title, date, scope, rights domains, and publication metadata."},
+    {"source_url": "https://doi.org/10.54394/NJQZ5975", "claim": "Official DOI for the ILO migrant-workers-rights guide."}
+  ],
+  "boundary": "This record adds a transnational migrant-rights-lifecycle mechanism linking recruitment, work, social protection, residence, family, return, enforcement, and justice. It is a standards-based practical guide, not a prevalence dataset, causal evaluation, or country-compliance audit; the next test is whether rights pathways produce accessible information, lower recruitment debt, safer work, portable protection, worker voice, and effective remedy without creating new status-based exclusions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO PDF and publication page, migrant-rights lifecycle, fair recruitment and fees, employment and residence, social protection and portability, gender and care, climate mobility, social dialogue, enforcement, access to justice, and normative boundary were reviewed.",
+    "source_url_sha256": "sha256:ba17eb2c563c774cede9ef83db534a14d1dbb61ecc0bb0f07ddce7fe028446c2",
+    "checked": "2026-09-29"
+  }
+}

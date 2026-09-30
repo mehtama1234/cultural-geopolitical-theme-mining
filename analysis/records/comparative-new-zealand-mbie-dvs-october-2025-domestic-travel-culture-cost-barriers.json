@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-new-zealand-mbie-dvs-october-2025-domestic-travel-culture-cost-barriers",
+  "title": "New Zealand domestic travel is socially motivated and culturally selective, with cost, health, and weather limiting future trips",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "New Zealand Ministry of Business, Innovation and Employment Domestic Visitor Survey, October 2025 wave",
+  "geography": "New Zealand; population-representative domestic visitors and planned domestic travellers, weighted to 2023 Census age, gender, region, and ethnicity",
+  "observations": [
+    {
+      "period": "April-October 2025; past domestic travel",
+      "denominator": {"value": null, "unit": "Weighted Domestic Visitor Survey respondents; survey sample size not stated in the top-line release", "value_type": "not_disclosed"},
+      "measures": {
+        "overnight_trip_participation": {"value": 61, "unit": "percent taking at least one domestic overnight trip", "value_type": "weighted_survey_share"},
+        "overnight_median_trip_count": {"value": 2, "unit": "median number of domestic overnight trips among relevant respondents", "value_type": "weighted_survey_median"},
+        "overnight_median_nights": {"value": 2, "unit": "median nights for domestic overnight trips", "value_type": "weighted_survey_median"},
+        "day_trip_participation": {"value": 47, "unit": "percent taking at least one qualifying domestic day trip", "value_type": "weighted_survey_share"},
+        "motivations": {"value": "Overnight: visit family/friends 36%, relax/unwind 22%, bond with travel companions 20%; day: visit family/friends 29%, relax/unwind 20%, bond with travel companions 18%", "unit": "reported multiple-response motivation shares", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Domestic travel is partly a social-reproduction activity—family, friends, relaxation, and companion bonding—not only a leisure purchase; trip frequency and duration remain modest", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MBIE Domestic Visitor Survey October 2025 wave covering overnight and qualifying day trips; data weighted by age, gender, region, and ethnicity to match 2023 Census population characteristics.",
+      "uncertainty": "The top-line release does not state the sample size. Trip definitions are specific: overnight means at least one night; day trips require travel at least 40 km one way or air/ferry travel outside the usual work/living area. Multiple-response totals need not sum to 100%.",
+      "subgroup": "New Zealand residents reporting past domestic overnight or day travel during April-October 2025.",
+      "counterinterpretation": "Reported travel may include family obligations rather than discretionary leisure; a median of two trips does not reveal inequality by income, disability, region, household structure, or transport access.",
+      "source_url": "https://teic.mbie.govt.nz/assets/dvs/Domestic%20Visitor%20Survey%20October%202025%20Wave%20Key%20Highlights.pdf",
+      "retrieval_hash": "sha256:1d83eb3bde2a21498c4482f8df3fa2e60dfc258fcb6bb8d4c18414bac7b1a5f7",
+      "status": "reported"
+    },
+    {
+      "period": "April-October 2025; cultural and outdoor activities on domestic overnight trips",
+      "denominator": {"value": null, "unit": "Weighted domestic overnight-trip respondents; sample size not stated in top-line release", "value_type": "not_disclosed"},
+      "measures": {
+        "walked_hiked": {"value": 58, "unit": "percent of domestic overnight trips involving walking or hiking", "value_type": "weighted_survey_share"},
+        "no_physical_activity": {"value": 33, "unit": "approximate percent of domestic overnight trips reporting no physical activity", "value_type": "weighted_survey_share"},
+        "museum_gallery_visit": {"value": 36, "unit": "percent of domestic overnight trips involving a museum or gallery visit", "value_type": "weighted_survey_share"},
+        "maori_cultural_site_visit": {"value": 13, "unit": "percent of domestic overnight trips involving a Māori cultural-site visit", "value_type": "weighted_survey_share"},
+        "mechanism": {"value": "Domestic travel creates a selective culture-and-nature bundle: outdoor activity is more common than museum/gallery visits, while Māori cultural sites reach a smaller but visible share of overnight trips", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from MBIE DVS October 2025 top-line activity and experience measures; activities allow multiple responses.",
+      "uncertainty": "The measures are trip-level survey reports and do not establish spending, attendance duration, cultural meaning, provider revenue, authenticity, or community benefit. Multiple activities can be selected for one trip.",
+      "subgroup": "Domestic overnight trips reported by New Zealand residents in the April-October 2025 reference period.",
+      "counterinterpretation": "The activity mix reflects destination supply, itinerary design, weather, transport, family composition, and question interpretation; lower Māori cultural-site reach does not by itself indicate lower interest or access.",
+      "source_url": "https://teic.mbie.govt.nz/assets/dvs/Domestic%20Visitor%20Survey%20October%202025%20Wave%20Key%20Highlights.pdf",
+      "retrieval_hash": "sha256:1d83eb3bde2a21498c4482f8df3fa2e60dfc258fcb6bb8d4c18414bac7b1a5f7",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025-April 2026; planned domestic travel and barriers",
+      "denominator": {"value": null, "unit": "Weighted respondents with planned domestic travel; sample size not stated in top-line release", "value_type": "not_disclosed"},
+      "measures": {
+        "planned_overnight_travel": {"value": 78, "unit": "percent expecting at least one domestic overnight trip in the next six months", "value_type": "weighted_survey_share"},
+        "planned_day_travel": {"value": 59, "unit": "percent expecting at least one domestic day trip in the next six months", "value_type": "weighted_survey_share"},
+        "overnight_cost_barrier": {"value": 32, "unit": "percent citing being too expensive as a barrier to planned overnight travel", "value_type": "weighted_survey_share"},
+        "day_cost_barrier": {"value": 24, "unit": "percent citing being too expensive as a barrier to planned day travel", "value_type": "weighted_survey_share"},
+        "overnight_health_barrier": {"value": 24, "unit": "percent citing illness or poor health as a barrier to planned overnight travel", "value_type": "weighted_survey_share"},
+        "day_weather_barrier": {"value": 33, "unit": "percent citing weather as a barrier to planned day travel", "value_type": "weighted_survey_share"},
+        "decision_routes": {"value": "Destination websites 38%, friends/family with destination experience 37%, general internet search or other websites 33%", "unit": "reported multiple-response decision-source shares", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Stated future demand exceeds realized recent participation, but conversion is constrained by price, health, weather, and commitments; discovery relies on both official/destination information and trusted social recommendations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from MBIE DVS October 2025 planned-travel, barrier, and decision-making questions; multiple responses are permitted.",
+      "uncertainty": "Intentions are not bookings or completed trips. Barrier percentages use the relevant planned-travel subgroup, and the top-line release does not disclose denominators or subgroup uncertainty; weather and illness may be episodic rather than structural.",
+      "subgroup": "New Zealand residents reporting planned domestic overnight or day travel for October 2025-April 2026.",
+      "counterinterpretation": "High intention may reflect aspirational reporting; cost may be a proxy for time, distance, accommodation, fuel, or household commitments, while social recommendation does not establish actual destination choice or satisfaction.",
+      "source_url": "https://teic.mbie.govt.nz/assets/dvs/Domestic%20Visitor%20Survey%20October%202025%20Wave%20Key%20Highlights.pdf",
+      "retrieval_hash": "sha256:1d83eb3bde2a21498c4482f8df3fa2e60dfc258fcb6bb8d4c18414bac7b1a5f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://teic.mbie.govt.nz/teiccategories/datareleases/dvs/", "claim": "MBIE Domestic Visitor Survey release page, wave scope, mean/median guidance, and NPS comparability caveat."},
+    {"source_url": "https://teic.mbie.govt.nz/assets/dvs/Domestic%20Visitor%20Survey%20October%202025%20Wave%20Key%20Highlights.pdf", "claim": "Official October 2025 DVS top-line findings, definitions, weighting, travel, activity, satisfaction, intentions, barriers, and decision sources."}
+  ],
+  "boundary": "This record adds a New Zealand domestic-mobility, cultural-activity, social-motivation, and travel-cost layer. It does not establish household-level affordability, regional distribution, cultural meaning, Māori community benefit, causal travel effects, or booked/completed future trips.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official MBIE/TEIC Domestic Visitor Survey October 2025 key-highlights PDF reviewed for trip definitions, weighting, past travel, motivations, cultural activities, satisfaction, intentions, barriers, decision routes, and mean/median limitations.",
+    "pdf_sha256": "sha256:1d83eb3bde2a21498c4482f8df3fa2e60dfc258fcb6bb8d4c18414bac7b1a5f7",
+    "checked": "2026-09-30"
+  }
+}

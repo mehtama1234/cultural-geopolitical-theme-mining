@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-tiktok-next-2026-realitea-curiosity-emotional-roi-community",
+  "title": "TikTok’s 2026 forecast points from passive scrolling toward grounded reality, curiosity-led discovery, community verification, and more intentional purchases",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "TikTok for Business, TikTok Next 2026 Trend Report: Irreplaceable Instinct",
+  "geography": "TikTok platform culture and global creator, search, comment, and shopping behavior",
+  "observations": [
+    {
+      "period": "2026 forecast; Reali-TEA and grounded social reality",
+      "denominator": {"value": 1, "unit": "TikTok Next 2026 platform trend forecast", "value_type": "platform_forecast_frame"},
+      "measures": {
+        "reality_turn": {"value": "Audiences are forecast to move from fantasy and polished romanticization toward honesty, behind-the-scenes process, emotional validation, and shared experience", "unit": "reported platform-culture trend", "value_type": "reported_trend"},
+        "lock_in": {"value": "Study habits, fitness goals, hygiene routines, and job-life content are framed as public commitments supported by tight-knit tribes of affirmation, motivation, and accountability", "unit": "reported community pattern", "value_type": "reported_mechanism"},
+        "identity_for_me": {"value": "Identity is described as increasingly built through layered interests, niche communities, and personalized cultural combinations rather than traditional categories", "unit": "reported identity trend", "value_type": "reported_orientation"}
+      },
+      "method": "TikTok Next trend forecast using TikTok One Insights Spotlight, Market Scope, content, comments, search queries, brand interactions, AI-supported analysis, and human cultural interpretation.",
+      "uncertainty": "The public forecast does not provide a representative user denominator, independent sampling frame, or causal test; platform signals may reflect TikTok ranking and participation incentives.",
+      "subgroup": "TikTok creators, niche communities, users seeking accountability, people navigating work and self-care routines, and audiences tired of polished or escapist content.",
+      "counterinterpretation": "Claims of a turn toward reality may themselves be a platform and brand strategy; staged authenticity, oversharing, and performative self-discipline can coexist with curated feeds.",
+      "source_url": "https://ads.tiktok.com/business/en-GB/next",
+      "retrieval_hash": "sha256:e5a1fbe8cde197490d3dd0ca3a08f38c6633db814effe12d0fc965f3b79ba291",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; Curiosity Detours and non-linear discovery",
+      "denominator": {"value": 1, "unit": "TikTok Next 2026 search and discovery trend frame", "value_type": "platform_forecast_frame"},
+      "measures": {
+        "curiosity_currency": {"value": "Curiosity is forecast as a new form of currency, with users following unexpected journeys through search, comments, adjacent communities, and related content", "unit": "reported discovery trend", "value_type": "reported_trend"},
+        "active_discovery": {"value": "Audiences are described as leaving passive For You feed consumption to explore search bars, comments, rabbit holes, and crowd-sourced recommendations", "unit": "reported platform behavior", "value_type": "reported_mechanism"},
+        "adjacent_communities": {"value": "Small, interest-driven communities and unexpected cultural adjacencies are framed as powerful discovery and influence routes", "unit": "reported community route", "value_type": "reported_trend"}
+      },
+      "method": "TikTok Market Scope and Insights Spotlight analysis of search journeys, content performance, community conversation, and related discovery paths.",
+      "uncertainty": "The public page does not report the underlying query volumes, user-level transitions, or whether curiosity journeys result in durable learning, purchases, or community membership.",
+      "subgroup": "Search-oriented users, creators, fans, niche communities, shoppers, learners, and brands discovering adjacent audiences through platform behavior.",
+      "counterinterpretation": "Non-linear discovery can still be platform-shaped and commercialized; apparent rabbit holes may increase attention capture rather than user autonomy or knowledge quality.",
+      "source_url": "https://ads.tiktok.com/business/en-GB/next",
+      "retrieval_hash": "sha256:e5a1fbe8cde197490d3dd0ca3a08f38c6633db814effe12d0fc965f3b79ba291",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; Emotional ROI and intentional consumption",
+      "denominator": {"value": 1, "unit": "TikTok Next 2026 commerce and purchase-intention trend frame", "value_type": "platform_forecast_frame"},
+      "measures": {
+        "impulse_to_intention": {"value": "Impulse is forecast to lose ground to intentional purchases that justify the why-to-buy through value, meaning, payoff, and community connection", "unit": "reported commerce trend", "value_type": "reported_trend"},
+        "evidence_economy": {"value": "Comment sections and community reviews are framed as verification hubs that help shoppers assess purchases before committing", "unit": "reported trust-and-commerce mechanism", "value_type": "reported_mechanism"},
+        "tastemakers": {"value": "Creators are forecast to gain influence through candid guidance, honesty, craft, and community credibility rather than reach or polished brand scripts alone", "unit": "reported influence shift", "value_type": "reported_trend"}
+      },
+      "method": "TikTok platform analysis of search, comments, creator content, brand interactions, and shopping journeys as summarized in the 2026 trend forecast.",
+      "uncertainty": "The forecast does not quantify conversion changes, spending by income group, review reliability, or whether community evidence reduces misinformation or simply replaces one form of influence with another.",
+      "subgroup": "Shoppers, creators, reviewers, TikTok Shop users, brands, people under economic pressure, and consumers seeking value or emotional payoff.",
+      "counterinterpretation": "Intentionality language can be used to sell more effectively; comments and tastemakers can be manipulated, sponsored, or socially amplified without reliable product evidence.",
+      "source_url": "https://ads.tiktok.com/business/en-GB/next",
+      "retrieval_hash": "sha256:e5a1fbe8cde197490d3dd0ca3a08f38c6633db814effe12d0fc965f3b79ba291",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform participation and community-made culture",
+      "denominator": {"value": 1, "unit": "TikTok Next 2026 creator, comment, and brand-participation frame", "value_type": "platform_forecast_frame"},
+      "measures": {
+        "comment_surface": {"value": "Comments, photo reacts, memes, and community participation are treated as part of the creative surface rather than post-publication feedback only", "unit": "reported platform-culture mechanism", "value_type": "reported_mechanism"},
+        "shared_experience": {"value": "Brands are encouraged to build connection through shared experiences, humor, humanity, imperfection, and flexible participation in real-time cultural conversation", "unit": "reported engagement route", "value_type": "reported_strategy"},
+        "human_ai_mix": {"value": "The forecast pairs AI-powered trend decoding and creative tools with a claim that human instinct, curiosity, conviction, and care remain irreplaceable", "unit": "reported technology-culture tension", "value_type": "reported_framework"}
+      },
+      "method": "TikTok Next synthesis combining AI-supported platform analytics with human insight and marketing interpretation.",
+      "uncertainty": "This is a platform-owned commercial forecast whose recommended participation routes serve brand objectives; it does not establish democratic, social, or psychological benefits from greater platform engagement.",
+      "subgroup": "Creators, commenters, fans, brands, community moderators, platform workers, and users whose cultural expression is shaped by recommendation and visibility systems.",
+      "counterinterpretation": "Community-made culture can deepen belonging but can also increase unpaid creative labor, data extraction, harassment, competition for visibility, and dependence on platform governance.",
+      "source_url": "https://ads.tiktok.com/business/en-GB/next",
+      "retrieval_hash": "sha256:e5a1fbe8cde197490d3dd0ca3a08f38c6633db814effe12d0fc965f3b79ba291",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ads.tiktok.com/business/en-GB/next/about", "claim": "TikTok describes the data tools and AI-supported methodology used to develop and test the 2026 trend hypotheses."},
+    {"source_url": "https://ads.tiktok.com/business/library/TikTok_Next_2026_Trend_Report.pdf", "claim": "The full TikTok Next 2026 report provides the three trend signals: Reali-TEA, Curiosity Detours, and Emotional ROI."}
+  ],
+  "boundary": "This record adds TikTok's platform-owned 2026 culture forecast on grounded reality, public accountability, curiosity-led discovery, evidence economies, tastemakers, intentional purchases, and community-made content. It is a platform trend synthesis, not respondent-level data, a representative population forecast, independent causal evidence, or proof that more engagement is socially beneficial.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official TikTok Next 2026 page reviewed for the Irreplaceable Instinct theme, Reali-TEA, Curiosity Detours, Emotional ROI, community and comments, search journeys, evidence economy, and AI-plus-human methodology.",
+    "source_url_sha256": "sha256:e5a1fbe8cde197490d3dd0ca3a08f38c6633db814effe12d0fc965f3b79ba291",
+    "checked": "2026-09-27"
+  }
+}

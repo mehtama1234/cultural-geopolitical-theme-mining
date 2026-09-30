@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-uzbekistan-poverty-middle-class-job-quality-2026",
+  "title": "Rapid poverty reduction can coexist with informal job creation, spatial concentration, gendered care exclusion, and a thinner safety net",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "work_control_bargaining", "housing_place_mobility", "care_health_reproduction", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "World Bank Uzbekistan Poverty and Equity Assessment, Rising to Prosperity: Broadening Opportunities for All, disclosed September 18, 2026",
+  "geography": "Uzbekistan, 2021-2025 poverty, labor-market, spatial, gender, human-capital, and social-protection analysis",
+  "observations": [
+    {
+      "period": "2021-2025; national poverty and middle-class transition",
+      "denominator": {"value": 1, "unit": "Uzbekistan national population", "value_type": "country_welfare_frame"},
+      "measures": {
+        "poverty_decline": {"value": "National poverty fell from 17.0% to 5.8%, lifting approximately 3.7 million people out of poverty", "unit": "percent and people", "value_type": "published_poverty_estimate"},
+        "middle_class": {"value": "The middle-class share more than doubled to over 72% of the population, while one in five people remains vulnerable to falling back into poverty", "unit": "percent of population", "value_type": "published_distributional_estimate"},
+        "drivers": {"value": "Rising wage employment and higher wage earnings drove most of the reported poverty reduction", "unit": "reported poverty-reduction driver", "value_type": "reported_decomposition"}
+      },
+      "method": "World Bank Poverty and Equity Assessment using household welfare, labor-market, and distributional analysis; the reported poverty and middle-class changes are not a randomized intervention estimate.",
+      "uncertainty": "Poverty-line choice, survey comparability, consumption and income measurement, price adjustment, vulnerability thresholds, and attribution among wage, employment, remittance, and policy changes shape the estimates.",
+      "subgroup": "Poor, vulnerable, middle-class, urban, rural, regional, gender, and labor-market groups within Uzbekistan.",
+      "counterinterpretation": "A large poverty decline can represent genuine welfare improvement even if vulnerability remains; middle-class classification does not guarantee secure assets, quality work, or political voice.",
+      "source_url": "https://www.worldbank.org/en/country/uzbekistan/publication/uzbekistan-poverty-and-equity-assessment-rising-to-prosperity-broadening-opportunities-for-all",
+      "retrieval_hash": "sha256:b88e78e464ceda1b6c238f66df0b2e6cadf1ea157b5e968eecb9a6dc109e6778",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; job quantity, quality, and spatial concentration",
+      "denominator": {"value": 1, "unit": "Uzbekistan labor market", "value_type": "country_labor_market_frame"},
+      "measures": {
+        "new_job_composition": {"value": "About two-thirds of new jobs are in construction and trade and about 85% are informal", "unit": "share of new jobs", "value_type": "published_labor_market_estimate"},
+        "productivity": {"value": "Real labor productivity turned negative despite robust job creation", "unit": "reported productivity direction", "value_type": "published_labor_market_estimate"},
+        "spatial_concentration": {"value": "Half of high-skilled jobs are located in Tashkent city and region, and the capital's upper-middle-class population grew more than fourfold since 2021", "unit": "regional labor and class concentration", "value_type": "published_spatial_estimate"}
+      },
+      "method": "World Bank labor-market, spatial, and welfare analysis connecting employment growth to formality, productivity, skills, and location.",
+      "uncertainty": "The report's measures do not alone establish job duration, earnings distribution, working conditions, commuting, migration decisions, or causal effects of regional policy.",
+      "subgroup": "Construction and trade workers, informal workers, high-skilled workers, Tashkent and non-Tashkent regions, young people, and households deciding whether to migrate for opportunity.",
+      "counterinterpretation": "Informal jobs can provide vital entry and income when formal opportunities are scarce; negative productivity growth may reflect measurement, sector composition, or a temporary transition rather than permanent job deterioration.",
+      "source_url": "https://www.worldbank.org/en/country/uzbekistan/publication/uzbekistan-poverty-and-equity-assessment-rising-to-prosperity-broadening-opportunities-for-all",
+      "retrieval_hash": "sha256:b88e78e464ceda1b6c238f66df0b2e6cadf1ea157b5e968eecb9a6dc109e6778",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; gendered care, education, and social-protection gaps",
+      "denominator": {"value": 1, "unit": "Uzbekistan households and human-capital systems", "value_type": "country_distributional_frame"},
+      "measures": {
+        "care_exclusion": {"value": "Among inactive adults in poor and vulnerable households, 92% are women, most citing care responsibilities; mothers of children under two are 36% less likely to work", "unit": "reported labor-force differences", "value_type": "published_gender_estimate"},
+        "gender_pay_gap": {"value": "Women face a persistent reported gender wage gap of 35-40%", "unit": "percent wage gap", "value_type": "published_gender_estimate"},
+        "learning_and_safety_net": {"value": "About 80% of 15-year-olds do not reach minimum proficiency in core subjects, while flagship cash-transfer coverage fell from 26% to 8% of households between 2022 and 2025", "unit": "education and social-protection shares", "value_type": "published_service_estimate"}
+      },
+      "method": "World Bank gender, human-capital, and social-protection analysis within the Poverty and Equity Assessment; the report does not provide a causal estimate of care, education, or transfer-coverage effects.",
+      "uncertainty": "Care responsibilities, wage gaps, learning proficiency, and transfer coverage may reflect selection, measurement, household composition, policy eligibility, and labor-market structure; the source does not establish why coverage declined or the welfare effect for each household.",
+      "subgroup": "Women in poor and vulnerable households, mothers of young children, adolescents, low-income families, regions with lower tertiary access, and households eligible for the Low Income Family Allowance.",
+      "counterinterpretation": "Lower transfer coverage can reflect successful income growth or redesigned targeting for some households, while care exclusion and wage gaps may change as services and job structures evolve; headline national progress does not settle these subgroup paths.",
+      "source_url": "https://www.worldbank.org/en/country/uzbekistan/publication/uzbekistan-poverty-and-equity-assessment-rising-to-prosperity-broadening-opportunities-for-all",
+      "retrieval_hash": "sha256:b88e78e464ceda1b6c238f66df0b2e6cadf1ea157b5e968eecb9a6dc109e6778",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099091826081016988", "claim": "Official World Bank document record for the assessment, report number 214948, disclosure date, and downloadable report."}
+  ],
+  "boundary": "This record captures a country-level distributional pattern in Uzbekistan: strong poverty and middle-class improvement alongside job-quality, spatial, gender, human-capital, and safety-net constraints. It does not establish causal effects, durable mobility, household-level trajectories, or a universal model of poverty reduction.",
+  "retrieval_hash": "sha256:b88e78e464ceda1b6c238f66df0b2e6cadf1ea157b5e968eecb9a6dc109e6778"
+}

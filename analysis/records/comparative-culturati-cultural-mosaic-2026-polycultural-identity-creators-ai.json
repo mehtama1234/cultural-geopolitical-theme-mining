@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai",
+  "title": "Consumer culture is increasingly polycultural, with identity, trusted voices and AI reshaping discovery and choice",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "political_judgment_action"
+  ],
+  "source_unit": "Culturati Research & Consulting, Cultural Mosaic 5.0 syndicated report public overview",
+  "geography": "United States consumer segments identified in the public overview as Hispanic, Black, Asian and General Market; public sample frame N=5,050",
+  "observations": [
+    {
+      "period": "2026 publication; public overview of the Cultural Mosaic 5.0 syndicated study",
+      "denominator": {"value": 5050, "unit": "publicly stated syndicated-report sample frame", "value_type": "published_sample_frame"},
+      "measures": {
+        "polycultural_scope": {"value": "the study frames today's mainstream as polycultural and examines Hispanic, Black, Asian and General Market consumers", "unit": "published segmentation frame", "value_type": "reported_framework"},
+        "tracking": {"value": "the study describes nine years of cultural-intelligence tracking to examine shifts across culture, lifestyle, shopping and media", "unit": "reported research history", "value_type": "reported_method"},
+        "decision_system": {"value": "the public overview connects cultural identity to consumer discovery, evaluation and decision-making rather than treating identity as a demographic label alone", "unit": "reported analytical frame", "value_type": "reported_interpretation"}
+      },
+      "method": "Public overview of a Culturati syndicated report built on longitudinal cultural-intelligence tracking and a stated sample of 5,050 respondents; detailed instrument and full findings are not publicly displayed on the page.",
+      "uncertainty": "The public overview does not provide the full questionnaire, weighting, field dates, geography beyond the described US segments, subgroup margins or the underlying trend results.",
+      "subgroup": "Hispanic, Black, Asian and General Market consumers, with cultural identity, lifestyle, shopping and media behavior treated as intersecting decision contexts.",
+      "counterinterpretation": "A polycultural segmentation can make cultural nuance visible but can also flatten within-group differences, treat market categories as stable identities, or overstate the predictive power of cultural labels.",
+      "source_url": "https://culturatiresearch.com/insights/2026-edition-of-the-cultural-mosaic-5-0-syndicated-report/",
+      "retrieval_hash": "sha256:fca606ef9b50bf89d2f69b13c888acfee90316ecb8f8bd364fffacbf9eda6d3c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 public overview; culture, lifestyle, shopping and media",
+      "denominator": {"value": 1, "unit": "publicly described consumer-culture decision system", "value_type": "published_framework"},
+      "measures": {
+        "cultural_translation": {"value": "the report is designed to connect cultural movements and identity with lifestyle, shopping and media behavior", "unit": "reported analytical aim", "value_type": "reported_interpretation"},
+        "consumer_signal": {"value": "the public description treats shifts in culture as inputs into how consumers discover, evaluate and decide", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "market_implication": {"value": "the stated use is to help brands understand changing behavior across distinct cultural contexts rather than relying on a single generalized mainstream", "unit": "reported application", "value_type": "reported_interpretation"}
+      },
+      "method": "Culturati's public description of its Cultural Mosaic cultural-intelligence approach and syndicated report scope.",
+      "uncertainty": "The public page describes the framework and intended use, but does not disclose enough results to establish which cultural shifts are largest, durable or causal.",
+      "subgroup": "Consumers whose identities, values, language, cultural references and media environments shape product discovery and evaluation.",
+      "counterinterpretation": "Cultural adaptation can become superficial personalization if it changes creative expression without changing product access, price, representation, service or institutional treatment.",
+      "source_url": "https://culturatiresearch.com/insights/2026-edition-of-the-cultural-mosaic-5-0-syndicated-report/",
+      "retrieval_hash": "sha256:fca606ef9b50bf89d2f69b13c888acfee90316ecb8f8bd364fffacbf9eda6d3c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 public overview; trusted voices and creator-mediated choice",
+      "denominator": {"value": 1, "unit": "new research additions described by the public overview", "value_type": "published_scope_frame"},
+      "measures": {
+        "trusted_voices": {"value": "the report adds the role of creators, influencers and trusted voices in shaping choices and behaviors", "unit": "reported research dimension", "value_type": "reported_framework"},
+        "decision_path": {"value": "creator and trusted-voice influence is positioned as part of how consumers discover, evaluate and decide, alongside cultural identity and media", "unit": "reported mechanism", "value_type": "reported_interpretation"},
+        "power_question": {"value": "the public scope raises an open question about who gets cultural authority in commerce: communities, creators, platforms, brands or inherited market categories", "unit": "analytical implication", "value_type": "inference_from_source_scope"}
+      },
+      "method": "Public report overview describing creators, influencers and trusted voices as additions to the study's cultural and consumer decision lens.",
+      "uncertainty": "The public overview does not report creator-level reach, conversion, trust differentials, compensation, platform dependence or whether influence displaces community or institutional authority.",
+      "subgroup": "Creators, influencers, trusted community voices, platform audiences, culturally specific consumer groups, brands and media intermediaries.",
+      "counterinterpretation": "Creator influence can widen representation and cultural participation, but it can also commercialize identity, concentrate attention and make trusted relationships dependent on platform incentives.",
+      "source_url": "https://culturatiresearch.com/insights/2026-edition-of-the-cultural-mosaic-5-0-syndicated-report/",
+      "retrieval_hash": "sha256:fca606ef9b50bf89d2f69b13c888acfee90316ecb8f8bd364fffacbf9eda6d3c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 public overview; AI-mediated product discovery and shopper behavior",
+      "denominator": {"value": 1, "unit": "new research addition described by the public overview", "value_type": "published_scope_frame"},
+      "measures": {
+        "ai_discovery": {"value": "the report adds AI's expanding role across product discovery, research and shopper behavior", "unit": "reported research dimension", "value_type": "reported_framework"},
+        "identity_ai_link": {"value": "the public scope connects AI-mediated shopping journeys to cultural identity and the polycultural mainstream rather than treating AI as a neutral channel", "unit": "reported analytical frame", "value_type": "reported_interpretation"},
+        "open_measurement": {"value": "the public overview leaves open how AI changes cultural visibility, recommendation authority, language access, evaluation and purchase decisions across groups", "unit": "open research question", "value_type": "reported_boundary"}
+      },
+      "method": "Culturati public description of AI as a new analytic dimension in the Cultural Mosaic 5.0 study.",
+      "uncertainty": "No public results are provided for AI use, recommendation accuracy, language or cultural bias, conversion, data practices or subgroup differences.",
+      "subgroup": "Consumers using AI for discovery and research, culturally distinct audiences, creators, brands, recommendation systems and communities whose products or meanings may be surfaced or suppressed.",
+      "counterinterpretation": "AI may widen access to niche cultural products and references, but recommendation systems can also standardize taste, misread identity, reproduce stereotypes or shift authority toward platform owners.",
+      "source_url": "https://culturatiresearch.com/insights/2026-edition-of-the-cultural-mosaic-5-0-syndicated-report/",
+      "retrieval_hash": "sha256:fca606ef9b50bf89d2f69b13c888acfee90316ecb8f8bd364fffacbf9eda6d3c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://culturatiresearch.com/insights/", "claim": "Culturati public insights hub describing its cultural intelligence, syndicated studies and cultural-semiotics work."},
+    {"source_url": "https://culturatiresearch.com/insights/2026-edition-of-the-cultural-mosaic-5-0-syndicated-report/", "claim": "Official public overview with sample frame, segment structure, nine-year tracking claim, creator/trusted-voice addition and AI-shopping addition."}
+  ],
+  "boundary": "This record adds a public cultural-intelligence layer linking identity, polycultural segmentation, creators, trusted voices and AI-mediated discovery to consumer decision-making. It is deliberately limited to the public overview of a syndicated report: detailed results, weighting, field dates, full questionnaire, causal mechanisms and subgroup outcome estimates are not publicly available on the source page.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Culturati public overview was reviewed for the 5,050 sample frame and segment composition, nine years of tracking, cultural/lifestyle/shopping/media scope, creator and trusted-voice addition, AI product-discovery addition and public-access limitations.",
+    "source_url_sha256": "sha256:fca606ef9b50bf89d2f69b13c888acfee90316ecb8f8bd364fffacbf9eda6d3c",
+    "checked": "2026-09-27"
+  }
+}

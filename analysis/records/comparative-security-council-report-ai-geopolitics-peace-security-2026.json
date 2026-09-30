@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-security-council-report-ai-geopolitics-peace-security-2026",
+  "title": "AI is becoming a peace-and-security capability and a source of geopolitical competition faster than multilateral institutions are adapting",
+  "theme_ids": ["voice", "energy", "work", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Security Council Report, Artificial Intelligence, Geopolitics, and the UN Security Council, 15 September 2026",
+  "geography": "International peace and security, UN Security Council agenda, states, firms, and AI supply chains",
+  "observations": [
+    {
+      "period": "2026; AI as conflict-prevention capability and security risk",
+      "denominator": {"value": 1, "unit": "Security Council Report policy analysis", "value_type": "published_policy_analysis"},
+      "measures": {
+        "peace_use": {"value": "AI can support conflict prevention, mediation, peace operations, and sanctions monitoring", "unit": "reported opportunity set", "value_type": "reported_mechanism_set"},
+        "risk_use": {"value": "AI can lower barriers to malicious cyber activity and enable misinformation and disinformation at scale", "unit": "reported risk set", "value_type": "reported_mechanism_set"},
+        "conflict_route": {"value": "the same capabilities can improve early warning and peace work while expanding the speed, scale, and accessibility of hostile operations", "unit": "analytic dual-use mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the report examines how AI affects peace and security; it does not claim that AI itself determines conflict outcomes", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Security Council Report policy paper synthesizing AI, international peace and security, UN practice, and policy options.",
+      "uncertainty": "The paper is a policy analysis rather than an incident dataset, capability benchmark, or causal evaluation of AI in conflict prevention.",
+      "subgroup": "States, UN peace operations, mediators, sanctions monitors, cyber defenders, armed groups, civilians, and information environments.",
+      "counterinterpretation": "Institutional safeguards, human review, and targeted use may allow peacebuilding benefits without producing equivalent escalation risks.",
+      "source_url": "https://www.securitycouncilreport.org/research-reports/artificial-intelligence-geopolitics-and-the-un-security-council.php",
+      "retrieval_hash": "sha256:b0c758bb1e601b0392ac06abe6f442bf8d2d82e6a24ad5e338263af456828980",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI inputs and geopolitical competition",
+      "denominator": {"value": 1, "unit": "Security Council Report analysis of AI competition", "value_type": "geopolitical_systems_frame"},
+      "measures": {
+        "strategic_inputs": {"value": "states and companies compete for semiconductors, computing infrastructure, energy, data, and critical minerals needed to develop and deploy advanced AI", "unit": "reported competition set", "value_type": "reported_mechanism_set"},
+        "resource_route": {"value": "AI capability is coupled to physical infrastructure, resource access, industrial policy, and supply-chain control", "unit": "reported geopolitical mechanism", "value_type": "analytic_mechanism"},
+        "friction": {"value": "competition over AI inputs can become a source of strategic rivalry and geopolitical friction", "unit": "reported geopolitical risk", "value_type": "reported_mechanism"},
+        "cross_source_test": {"value": "join AI capability claims to energy demand, data-center buildout, critical minerals, export controls, and public-service or military dependence", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Security Council Report synthesis of AI capability competition and the material inputs underpinning advanced systems.",
+      "uncertainty": "The analysis identifies strategic dependencies but does not quantify the probability, timing, or outcome of a specific technology conflict.",
+      "subgroup": "States, technology firms, chip and mineral suppliers, energy systems, cloud and data-center operators, militaries, and dependent publics.",
+      "counterinterpretation": "International cooperation, diversified supply chains, open standards, and shared research may reduce rivalry without eliminating competition.",
+      "source_url": "https://www.securitycouncilreport.org/research-reports/artificial-intelligence-geopolitics-and-the-un-security-council.php",
+      "retrieval_hash": "sha256:b0c758bb1e601b0392ac06abe6f442bf8d2d82e6a24ad5e338263af456828980",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI, armed conflict, and human control",
+      "denominator": {"value": 1, "unit": "Security Council Report analysis of military AI risks", "value_type": "security_policy_frame"},
+      "measures": {
+        "decision_speed": {"value": "AI can compress decision-making timelines in armed conflict", "unit": "reported military mechanism", "value_type": "reported_mechanism"},
+        "autonomy": {"value": "increasingly autonomous weapons systems raise questions about human oversight, accountability, and compliance with international humanitarian law", "unit": "reported legal-security concern", "value_type": "reported_mechanism_set"},
+        "human_control": {"value": "advanced systems may diminish human control over consequential decisions and actions", "unit": "reported governance risk", "value_type": "reported_mechanism"},
+        "accountability_route": {"value": "the governance problem is not only whether AI works, but where responsibility remains visible when systems act faster and more autonomously", "unit": "analytic accountability mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Security Council Report policy analysis of AI effects on armed conflict, autonomy, oversight, accountability, and international humanitarian law.",
+      "uncertainty": "The paper identifies legal and governance questions without resolving how existing law applies to every future system or operational context.",
+      "subgroup": "Military operators, commanders, civilians, legal authorities, arms-control institutions, technology firms, and affected populations.",
+      "counterinterpretation": "Human-in-the-loop design, strict use constraints, auditability, and accountability mechanisms could preserve meaningful human control.",
+      "source_url": "https://www.securitycouncilreport.org/research-reports/artificial-intelligence-geopolitics-and-the-un-security-council.php",
+      "retrieval_hash": "sha256:b0c758bb1e601b0392ac06abe6f442bf8d2d82e6a24ad5e338263af456828980",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; Security Council engagement and institutional adaptation",
+      "denominator": {"value": 1, "unit": "UN Security Council institutional engagement assessment", "value_type": "institutional_process_frame"},
+      "measures": {
+        "engagement_status": {"value": "Council engagement with AI has grown since 2023 but remains sporadic, uneven across agenda items, and politically contested", "unit": "reported institutional pattern", "value_type": "reported_status"},
+        "systematic_option": {"value": "the report proposes an Informal Expert Group on Technology, Peace and Security", "unit": "reported institutional option", "value_type": "reported_policy_option"},
+        "capacity_functions": {"value": "proposed functions include horizon-scanning, drawing on technical and scientific expertise, and preserving institutional memory across presidencies and membership cycles", "unit": "reported governance function set", "value_type": "reported_policy_option"},
+        "legitimacy_route": {"value": "multilateral legitimacy may depend on whether institutions can anticipate AI risks rather than react piecemeal after crises", "unit": "analytic institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Security Council Report review of Council engagement and practical options for more systematic AI consideration.",
+      "uncertainty": "The proposed expert group and other options are recommendations, not adopted institutional changes or evidence of future political agreement.",
+      "subgroup": "Security Council members, UN agencies, technical experts, civil society, states affected by conflict, and publics evaluating multilateral credibility.",
+      "counterinterpretation": "Existing thematic and country-specific agenda items may provide sufficient entry points if members develop more consistent practice without creating a new body.",
+      "source_url": "https://www.securitycouncilreport.org/research-reports/artificial-intelligence-geopolitics-and-the-un-security-council.php",
+      "retrieval_hash": "sha256:b0c758bb1e601b0392ac06abe6f442bf8d2d82e6a24ad5e338263af456828980",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/", "claim": "WEF cybersecurity analysis provides complementary AI, cyber, geopolitics, and resilience context."},
+    {"source_url": "https://www.oecd.org/en/publications/the-space-economy-at-a-glance-2026_cbf9b240-en/full-report/managing-vulnerabilities-dependencies-and-sustainability-risks-of-the-space-economy_4d97ef6d.html", "claim": "OECD space-economy analysis provides complementary infrastructure, supply-chain, and signal-resilience context."}
+  ],
+  "boundary": "This record adds an AI-to-peace-and-security route from dual-use capabilities and strategic inputs through cyber, information, military, legal, and multilateral-governance consequences. It is a policy analysis, not a capability test, conflict forecast, incident attribution, legal ruling, or proof that AI causes any particular geopolitical outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Security Council Report publication page and indexed report summary were reviewed for AI peacebuilding uses, cyber and information risks, strategic inputs, armed-conflict autonomy, Council engagement, and proposed institutional options.",
+    "source_url_sha256": "sha256:b0c758bb1e601b0392ac06abe6f442bf8d2d82e6a24ad5e338263af456828980",
+    "checked": "2026-09-26"
+  }
+}

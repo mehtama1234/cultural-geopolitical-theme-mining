@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-la-county-wildfire-insurance-legal-response-2026",
+  "title": "Survivor evidence and claim complaints are moving wildfire insurance disputes into county enforcement, restitution demands, and contamination oversight",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["housing_place_mobility", "consumer_power_recourse", "public_systems_feedback", "care_health_reproduction", "political_judgment_action", "trust_identity_meaning"],
+  "source_unit": "Official Los Angeles County announcements on State Farm litigation and Farmers Insurance investigation after the Eaton and Palisades Fires",
+  "geography": "Los Angeles County; Eaton and Palisades wildfire policyholders and standing homes with potential contamination",
+  "observations": [
+    {
+      "period": "August 31, 2026; County lawsuit against State Farm",
+      "denominator": {"value": 1, "unit": "Los Angeles County Unfair Competition Law lawsuit and County Counsel investigation; affected policyholder count not published in the announcement", "value_type": "reported_action"},
+      "measures": {
+        "alleged_practices": {"value": "delays, systematic underpayments, improper adjuster reassignment, communication barriers, ALE compensation problems, misrepresentations, and smoke-claim suppression", "unit": "official lawsuit allegations", "value_type": "alleged_practice"},
+        "evidence_inputs": {"value": "community organizations including EFSN, Department of Angels, Eaton Fire Residents United, hundreds of complaints, and policyholder documents", "unit": "reported investigation inputs", "value_type": "reported_institutional_method"},
+        "remedy_sought": {"value": "restitution, injunctive relief, and civil penalties up to $2,500 per violation", "unit": "legal remedies sought, not awarded", "value_type": "reported_legal_request"},
+        "adjudicated_recovery": {"value": "not observed", "unit": "no final judgment, restitution distribution, corrected claim, repair, or return-home outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official County of Los Angeles announcement describing County Counsel's investigation, evidence inputs, lawsuit allegations, and requested remedies; allegations are not treated as adjudicated facts.",
+      "uncertainty": "The announcement does not provide a public claimant denominator, claim-level documents, case-by-case remedy status, final liability, payment timing, repair, occupancy, or household mobility.",
+      "subgroup": "State Farm policyholders affected by the Eaton and Palisades Fires, including displaced, smoke-affected, older, and medically vulnerable residents described by the County.",
+      "counterinterpretation": "A public lawsuit can create leverage and a restitution route without proving liability or that every alleged practice occurred across the insurer's claims population; State Farm's response and later court findings remain material.",
+      "source_url": "https://lacounty.gov/2026/08/31/los-angeles-county-sues-state-farm-for-unfair-business-practices-in-handling-2025-wildfire-claims/",
+      "retrieval_hash": "sha256:7f57576278ac109829400b34c55776be537c931c7e3467a6bd52c1346d7f057b",
+      "status": "reported"
+    },
+    {
+      "period": "September 9, 2026; County investigation into Farmers Insurance",
+      "denominator": {"value": 1, "unit": "County Counsel investigation announcement; affected policyholder count not published", "value_type": "reported_action"},
+      "measures": {
+        "investigation_focus": {"value": "delays, refusals to pay for testing and remediation of lead and other contamination, underpayments, denials, and limits on living expenses", "unit": "official investigation focus", "value_type": "reported_focus"},
+        "contamination_context": {"value": "County says testing found lead, asbestos, chromium, and other toxic substances in some standing homes", "unit": "reported public-health and housing context", "value_type": "reported_context"},
+        "institutional_route": {"value": "County Counsel requested information and documentation and may seek restitution, civil penalties, and injunctive relief", "unit": "investigative/legal route", "value_type": "reported_action"},
+        "safe_return": {"value": "not observed", "unit": "no linked remediation payment, safe occupancy, temporary-housing continuity, or household outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official County announcement; reported complaints, contamination context, investigation focus, and potential remedies are retained separately from adjudication and property-level recovery.",
+      "uncertainty": "The announcement does not establish contamination prevalence, insurer liability, claim eligibility, payment adequacy, testing quality, remediation completion, or whether households returned or moved.",
+      "subgroup": "Farmers policyholders with Eaton or Palisades fire impacts, especially households with standing homes, contamination concerns, and ongoing living-expense needs.",
+      "counterinterpretation": "Investigation is an accountability route, not a finding of wrongdoing; contamination and insurance disputes may differ by property, testing protocol, policy language, and remediation need.",
+      "source_url": "https://lacounty.gov/2026/09/09/la-county-launches-investigation-into-farmers-insurance-over-toxic-contamination-claims-wildfire-survivor-complaints/",
+      "retrieval_hash": "sha256:fe2179c389c3867d2dc19dc8d4c8d0c8ed57e76a22aa363047a786eb003b3e17",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release019-2026.cfm", "claim": "California Department of Insurance separately reports a 220-claim State Farm market-conduct review with 398 violations and no restitution remedy in that action.", "status": "official-context"},
+    {"source_url": "https://www.efsurvivors.net/", "claim": "EFSN reports survivor evidence and collective-action inputs that the County announcement says were among investigation materials.", "status": "community-context"}
+  ],
+  "boundary": "This record establishes a public institutional response from survivor evidence and claim complaints into County investigation, litigation, and potential restitution. It does not establish liability, claim-level remedy, safe occupancy, household recovery, or later trust and mobility.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Los Angeles County State Farm and Farmers announcements retrieved and hashed September 29, 2026.", "checked": "2026-09-29"}
+}

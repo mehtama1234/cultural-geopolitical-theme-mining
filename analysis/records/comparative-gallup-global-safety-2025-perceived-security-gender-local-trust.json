@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-global-safety-2025-perceived-security-gender-local-trust",
+  "title": "Perceived safety is reaching a global high even as conflict rises, but gendered insecurity and local institutional trust remain the dividing lines",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "Gallup, Global Safety Report 2025 / Gallup World Poll",
+  "geography": "144 countries and territories; global and country comparisons",
+  "observations": [
+    {
+      "period": "2024 Gallup World Poll; 144 countries and territories",
+      "denominator": {"value": 145000, "unit": "more than 145,000 adults aged 15 and older across 144 countries and territories", "value_type": "reported_sample_approximate"},
+      "measures": {
+        "safe_walking_alone_at_night": {"value": 73, "unit": "percent saying they feel safe walking alone at night where they live", "value_type": "reported_share"},
+        "global_safety_record": {"value": "Highest global level since Gallup began tracking the measure nearly two decades ago", "unit": "reported historical comparison", "value_type": "reported_interpretation"},
+        "law_and_order_index": {"value": 83, "unit": "global Law and Order Index score out of 100 in 2024", "value_type": "reported_index"}
+      },
+      "method": "Gallup nationally representative probability-based surveys using perceived nighttime safety, confidence in local police, household theft and assault/mugging experience; these roll into the Law and Order Index.",
+      "uncertainty": "Perceived safety is distinct from recorded crime or conflict exposure and can reflect local trust, expectations, reporting norms and recent events; country estimates have sampling and non-sampling error.",
+      "subgroup": "Adults aged 15 and older in 144 countries and territories; approximately 1,000 or more respondents per country or territory.",
+      "counterinterpretation": "The global increase may reflect adaptation, improved local policing or changing expectations even while objective conflict counts rise; it does not mean insecurity is broadly resolved.",
+      "source_url": "https://www.gallup.com/analytics/356996/gallup-global-safety-research-center.aspx",
+      "retrieval_hash": "sha256:dae0529eaff9e68eb4dd9bf43935c4364f3471eebfa8597ddc0c06b17bb4e9ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024; gender gap in perceived nighttime safety",
+      "denominator": {"value": 144, "unit": "countries and territories with gender-comparable Gallup World Poll results", "value_type": "reported_population"},
+      "measures": {
+        "countries_gender_gap_10_plus": {"value": 104, "unit": "countries where the difference between men and women feeling safe walking alone at night was at least 10 percentage points", "value_type": "reported_count"},
+        "gender_security_pattern": {"value": "Women remain significantly less likely than men to feel secure", "unit": "reported global pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country comparison of the nighttime-safety indicator by gender.",
+      "uncertainty": "A gender gap in perceived safety does not identify whether the source is victimization, harassment, built environment, policing, social norms, mobility patterns or different risk thresholds.",
+      "subgroup": "Women and men aged 15 and older across 144 countries and territories.",
+      "counterinterpretation": "The gap may partly reflect different willingness to report fear or different exposure to public space rather than a single universal mechanism.",
+      "source_url": "https://www.gallup.com/analytics/356996/gallup-global-safety-research-center.aspx",
+      "retrieval_hash": "sha256:dae0529eaff9e68eb4dd9bf43935c4364f3471eebfa8597ddc0c06b17bb4e9ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024; regional change in perceived safety",
+      "denominator": {"value": 4, "unit": "regions identified by Gallup as driving the year's global increase", "value_type": "reported_population"},
+      "measures": {
+        "regions_driving_increase": {"value": "Asia-Pacific, Western Europe, Latin America and sub-Saharan Africa", "unit": "reported regional pattern", "value_type": "reported_distribution"},
+        "country_range": {"value": "Reported nighttime-safety levels range from 33% in South Africa and 34% in Botswana and Lesotho to 98% in Singapore and 95% in Tajikistan", "unit": "country examples from the global safety map", "value_type": "reported_distribution"},
+        "united_states": {"value": 71, "unit": "percent in the United States saying they feel safe walking alone at night", "value_type": "reported_share"},
+        "canada": {"value": 75, "unit": "percent in Canada saying they feel safe walking alone at night", "value_type": "reported_share"}
+      },
+      "method": "Gallup country-level safety estimates and regional comparison of changes in perceived security.",
+      "uncertainty": "Country comparisons combine different security contexts, survey modes, cultural interpretations and urban/rural compositions; selected country examples are not a causal ranking.",
+      "subgroup": "Residents aged 15 and older across Gallup World Poll countries and territories.",
+      "counterinterpretation": "High perceived safety can coexist with concentrated violence or weak formal institutions, while low perceived safety can reflect rapid change from a previously safer baseline.",
+      "source_url": "https://www.gallup.com/analytics/356996/gallup-global-safety-research-center.aspx",
+      "retrieval_hash": "sha256:dae0529eaff9e68eb4dd9bf43935c4364f3471eebfa8597ddc0c06b17bb4e9ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024; construction of lived-security measure",
+      "denominator": {"value": 4, "unit": "questions used in Gallup's Law and Order Index", "value_type": "reported_measure_frame"},
+      "measures": {
+        "nighttime_safety": {"value": "Whether people feel safe walking alone at night", "unit": "index component", "value_type": "reported_measure"},
+        "local_police_confidence": {"value": "Whether people have confidence in the local police force", "unit": "index component", "value_type": "reported_measure"},
+        "theft_experience": {"value": "Whether money or property was stolen from the respondent or household member in the prior 12 months", "unit": "index component", "value_type": "reported_measure"},
+        "assault_experience": {"value": "Whether the respondent was assaulted or mugged in the prior 12 months", "unit": "index component", "value_type": "reported_measure"}
+      },
+      "method": "Gallup composite index combining perceived safety, local institutional confidence and recent victimization questions.",
+      "uncertainty": "The index is a useful lived-security measure but does not substitute for administrative crime, conflict, police-use-of-force or justice-system data.",
+      "subgroup": "Adults aged 15 and older in the Gallup World Poll.",
+      "counterinterpretation": "A composite score can hide offsetting changes—for example, improved police confidence alongside persistent theft or assault exposure.",
+      "source_url": "https://www.gallup.com/analytics/356996/gallup-global-safety-research-center.aspx",
+      "retrieval_hash": "sha256:dae0529eaff9e68eb4dd9bf43935c4364f3471eebfa8597ddc0c06b17bb4e9ec",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/file/analytics/695138/Gallup_Global-Safety-Report-2025.pdf", "claim": "Official Gallup 2025 Global Safety Report PDF used for retrieval verification and hash."},
+    {"source_url": "https://www.gallup.com/analytics/356996/gallup-global-safety-research-center.aspx", "claim": "Official Gallup report page with sample, methodology, index construction and country data."}
+  ],
+  "boundary": "This record adds a lived-security mechanism: global perceptions of everyday safety can improve even amid historically high conflict, while gendered insecurity and local institutional trust remain persistent divides. It is a repeated global public-opinion program, not a crime registry, conflict dataset, causal estimate of policing, or proof that perceived safety equals objective safety.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup Global Safety Research Center page and 2025 Global Safety Report PDF were retrieved and reviewed for sample scope, global safety, gender gaps, regional change, country comparisons, Law and Order Index construction and survey methods; the PDF was hashed.",
+    "source_url_sha256": "sha256:dae0529eaff9e68eb4dd9bf43935c4364f3471eebfa8597ddc0c06b17bb4e9ec",
+    "checked": "2026-09-27"
+  }
+}

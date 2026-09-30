@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-paraguay-social-protection-financing-informality-2026",
+  "title": "Paraguay's social-protection reach is tied to financing design, informality, and whether contributory and non-contributory systems can connect",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "work_control_bargaining", "unequal_exposure_status", "care_health_reproduction", "political_judgment_action", "firm_sector_market_power"],
+  "source_unit": "OECD, Financing Social Protection in Paraguay: The Role of General Revenues and Social Security Contributions, September 2026",
+  "geography": "Paraguay; workers, self-employed and informal workers, households, older people, health-insurance members, pensioners, and social-assistance recipients",
+  "observations": [
+    {
+      "period": "September 2026; financing and coverage architecture",
+      "denominator": {"value": 1, "unit": "OECD assessment of Paraguay's social-protection financing system", "value_type": "reported_policy_analysis_frame"},
+      "measures": {"financing_mix": {"value": "the report assesses the respective roles of general tax revenues and social-security contributions", "unit": "reported financing architecture", "value_type": "reported_institutional_finding"}, "coverage_route": {"value": "reform options include an additional contribution rate for dependents and gradual extension of mandatory coverage to categories of workers", "unit": "reported policy-option set", "value_type": "reported_policy_route"}, "formalisation": {"value": "the report reviews reforms aimed at promoting formalisation and proposes further policy options", "unit": "reported work-to-protection route", "value_type": "reported_policy_route"}},
+      "method": "OECD country report assessing tax revenues, social-security contributions, contributory health insurance, pensions, social assistance, and formalisation options.",
+      "uncertainty": "The report evaluates reform options and financing requirements; it does not establish that proposed contribution changes will increase formal employment, take-up, or household welfare.",
+      "subgroup": "Dependent workers, self-employed workers, informal workers, dependents, employers, health-insurance members, pensioners, and households outside contributory systems.",
+      "counterinterpretation": "Mandatory contributions can pool risk and stabilize protection, but if poorly matched to irregular incomes they may increase exclusion or encourage informality; general revenue can broaden reach but creates tax and budget trade-offs.",
+      "source_url": "https://www.oecd.org/en/publications/financing-social-protection-in-paraguay_60f236f5-en.html",
+      "retrieval_hash": "sha256:7a7160c645306e0739b47ba1d93261561b08ad92cafdd04057849be40c252c61",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; adequacy gaps in principal assistance programmes",
+      "denominator": {"value": 1, "unit": "Paraguay social-assistance programme assessment", "value_type": "reported_programme_assessment"},
+      "measures": {"programme_set": {"value": "Tekoporã, Adulto Mayor, and Hambre Cero are assessed for coverage and adequacy gaps", "unit": "named social-assistance programmes", "value_type": "reported_programme_scope"}, "expansion_requirement": {"value": "the report estimates financing required to expand coverage under alternative scenarios", "unit": "reported financing-scenario method", "value_type": "reported_financing_analysis"}, "adequacy": {"value": "coverage and adequacy gaps remain a central financing and social-protection problem", "unit": "reported policy problem", "value_type": "reported_institutional_finding"}},
+      "method": "Country-specific OECD analysis of main social-assistance programmes and alternative coverage-expansion financing scenarios.",
+      "uncertainty": "Scenario requirements depend on benefit levels, targeting, inclusion and exclusion errors, administrative capacity, and fiscal assumptions; they are not realized budget outcomes.",
+      "subgroup": "Poor households, older people, children and families reached by cash transfers or school-food support, and households currently missed by programme eligibility or delivery.",
+      "counterinterpretation": "Expanding coverage without improving delivery, targeting, and benefit adequacy can create nominal inclusion without meaningful risk protection; concentrating resources can also improve depth for the most exposed households.",
+      "source_url": "https://www.oecd.org/en/publications/financing-social-protection-in-paraguay_60f236f5-en.html",
+      "retrieval_hash": "sha256:7a7160c645306e0739b47ba1d93261561b08ad92cafdd04057849be40c252c61",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; revenue mobilisation and social legitimacy",
+      "denominator": {"value": 1, "unit": "OECD policy-options assessment for Paraguay", "value_type": "reported_policy_options_frame"},
+      "measures": {"revenue_options": {"value": "options include broadening the personal income-tax base and increasing excise rates on tobacco and alcohol", "unit": "reported revenue-policy options", "value_type": "reported_policy_route"}, "benefit_endpoint": {"value": "additional revenue is considered in relation to health insurance, pensions, and social-assistance expansion", "unit": "reported fiscal-to-social-protection route", "value_type": "reported_mechanism_set"}, "political_tradeoff": {"value": "financing design links who pays, who qualifies, and whether social protection can be sustained", "unit": "analytical mechanism", "value_type": "reported_policy_problem"}},
+      "method": "OECD fiscal and social-protection policy analysis linking revenue sources, contributions, benefit coverage, and financing sustainability.",
+      "uncertainty": "The report does not estimate public acceptance, behavioral responses, incidence across households, or implementation capacity for each revenue option.",
+      "subgroup": "Taxpayers, consumers of excise-taxed goods, formal and informal workers, employers, benefit recipients, and public agencies responsible for collection and delivery.",
+      "counterinterpretation": "Broadening the tax base can improve sustainable protection, but regressive consumption taxes, weak trust, or poor service delivery can undermine perceived fairness and compliance.",
+      "source_url": "https://www.oecd.org/en/publications/financing-social-protection-in-paraguay_60f236f5-en.html",
+      "retrieval_hash": "sha256:7a7160c645306e0739b47ba1d93261561b08ad92cafdd04057849be40c252c61",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://doi.org/10.1787/60f236f5-en", "claim": "Official OECD DOI and citation for the Paraguay social-protection financing report."}],
+  "boundary": "This record adds a Paraguay-specific route from informality and financing design through contributory and non-contributory coverage, benefit adequacy, revenue mobilisation, and social legitimacy. It does not establish causal formalisation effects, public acceptance, realized reform, household welfare, or that any single tax or contribution option is optimal.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official OECD publication page reviewed for financing roles, contribution and mandatory-coverage options, programme coverage and adequacy gaps, alternative expansion scenarios, revenue options, and formalisation routes.", "source_url_sha256": "sha256:7a7160c645306e0739b47ba1d93261561b08ad92cafdd04057849be40c252c61", "checked": "2026-09-29"}
+}

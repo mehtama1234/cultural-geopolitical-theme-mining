@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-stitch-south-africa-consumer-payments-2026-digital-wallets-bnpl-agentic-commerce",
+  "title": "Payment fragmentation turns checkout into a time, liquidity, trust, and consumer-optionality system",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback"],
+  "source_unit": "Stitch, How South Africans Shop in 2026: Consumer Payments Report",
+  "geography": "South Africa; digitally active consumers and Stitch platform transaction data",
+  "observations": [
+    {
+      "period": "2026; payment-method adoption and checkout speed",
+      "denominator": {"value": 3000, "unit": "approximately surveyed South African consumers; digitally active and online transacting sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "tried_new_payment_method": {"value": 93.3, "unit": "percent of surveyed consumers", "value_type": "reported_survey_estimate"},
+        "first_time_digital_wallet_use": {"value": 57.5, "unit": "percent of surveyed consumers", "value_type": "reported_survey_estimate"},
+        "first_time_bnpl_use": {"value": 38.9, "unit": "percent of surveyed consumers", "value_type": "reported_survey_estimate"},
+        "payment_fragmentation": {"value": "No single payment method dominates; wallets, BNPL, bank-linked rails, mobile money, and crypto coexist", "unit": "analytic mechanism", "value_type": "analytic_mechanism"},
+        "wallet_speed": {"value": "About 3 seconds median wallet transaction versus roughly 15–30 seconds for cards in the report's platform comparison", "unit": "transaction-time comparison", "value_type": "reported_platform_measure"}
+      },
+      "method": "Stitch consumer survey of approximately 3,000 people, supplemented by Stitch Q1 2026 platform transaction data; survey and platform denominators are distinct.",
+      "uncertainty": "The sample is digitally active and not a population-representative estimate of all South African consumers. Company platform data, self-report, and commercial framing limit generalization.",
+      "subgroup": "Online transactors; detailed demographic and payment-use differences require the full report tables.",
+      "counterinterpretation": "Trying a payment method does not establish repeated use, lower cost, greater safety, or improved household welfare.",
+      "source_url": "https://consumer-report-2026.stitch.money/",
+      "retrieval_hash": "sha256:8dd4c25f3729e12abdb5881ae959634406dddecb4f7c4b1ec88b885f4260949b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; online shopping repertoire and cross-border platform exposure",
+      "denominator": {"value": 3000, "unit": "approximately surveyed South African consumers; digitally active and online transacting sample", "value_type": "reported_survey_sample"},
+      "measures": {
+        "online_shopping_frequency": {"value": 62.5, "unit": "percent shopping online as much as or more than in-store", "value_type": "reported_survey_estimate"},
+        "international_low_cost_platform_use": {"value": 48.5, "unit": "percent shopping on Temu, Shein, or AliExpress", "value_type": "reported_survey_estimate"},
+        "brand_website_use": {"value": 74.6, "unit": "percent using brand websites", "value_type": "reported_survey_estimate"},
+        "platform_repertoire": {"value": "Consumer choice spans brand sites, retailers, marketplaces, and international low-cost platforms", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey questions on online/in-store balance, shopping destinations, and platform use.",
+      "uncertainty": "Reported percentages describe the digitally active sample and do not measure total retail market share, product quality, labor conditions, or household affordability.",
+      "subgroup": "Digitally active South African consumers; category and income differences are not assumed without tables.",
+      "counterinterpretation": "Broad platform access may increase choice while also increasing exposure to fraud, delivery risk, data extraction, and local-retailer pressure.",
+      "source_url": "https://consumer-report-2026.stitch.money/",
+      "retrieval_hash": "sha256:8dd4c25f3729e12abdb5881ae959634406dddecb4f7c4b1ec88b885f4260949b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; BNPL, liquidity management, and payday timing",
+      "denominator": {"value": null, "unit": "Credit-active consumers for BNPL estimate; Stitch platform transaction data for shopping rhythm; no single pooled denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "credit_active_bnpl_use": {"value": 71, "unit": "percent of credit-active consumers using buy-now-pay-later", "value_type": "reported_survey_estimate"},
+        "bnpl_omnichannel_preference": {"value": 48.7, "unit": "percent wanting BNPL online and in-store", "value_type": "reported_survey_estimate"},
+        "payday_basket_change": {"value": 46, "unit": "percent increase in basket size around payday in Stitch platform data", "value_type": "reported_platform_measure"},
+        "monthly_volume_last_week": {"value": 35, "unit": "percent of monthly transaction volume occurring in the last week", "value_type": "reported_platform_measure"},
+        "liquidity_mechanism": {"value": "BNPL and payment timing operate as cash-flow management and access infrastructure, not only as discount or convenience features", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Stitch survey and Q1 2026 platform transaction analysis; the report separates credit-active consumer responses from platform timing patterns.",
+      "uncertainty": "BNPL use does not reveal repayment success, fees, distress, exclusion, or whether a purchase was necessary. Platform timing patterns are not population-level income-cycle estimates.",
+      "subgroup": "Credit-active consumers and Stitch platform users; the report identifies liquidity-management and no-funds buyer profiles but does not establish causal welfare effects.",
+      "counterinterpretation": "Payment flexibility can preserve participation while increasing repayment exposure or shifting rather than solving affordability pressure.",
+      "source_url": "https://consumer-report-2026.stitch.money/",
+      "retrieval_hash": "sha256:8dd4c25f3729e12abdb5881ae959634406dddecb4f7c4b1ec88b885f4260949b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; payment failure, AI-mediated discovery, and agentic-commerce boundary",
+      "denominator": {"value": null, "unit": "Stitch platform transaction data and survey of digitally active consumers; no single pooled denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "card_attempt_noncompletion": {"value": "Nearly one in four card attempts did not complete on the Stitch platform in the report's Q1 comparison", "unit": "platform transaction outcome", "value_type": "reported_platform_measure"},
+        "failed_card_attempt_reason_invalid_details": {"value": 27, "unit": "percent of non-successful attempts attributed to invalid details", "value_type": "reported_platform_measure"},
+        "chatgpt_product_research": {"value": "31–34% of active ChatGPT users reported using it for product research or price comparison", "unit": "reported survey range", "value_type": "reported_survey_estimate"},
+        "agentic_boundary": {"value": "Discovery and recommendation can move into AI interfaces before merchant checkout, payment authentication, fraud controls, and APIs are interoperable", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Stitch platform transaction data and survey responses, with the report distinguishing checkout performance from AI-use responses.",
+      "uncertainty": "The failure and AI measures are proprietary or self-reported, use different denominators, and do not establish lost sales, consumer harm, or an inevitable shift to agentic purchasing.",
+      "subgroup": "Stitch platform users and active ChatGPT users in the surveyed digital-consumer sample.",
+      "counterinterpretation": "Payment failure can reflect merchant, issuer, authentication, data-entry, or consumer factors; AI research use need not become AI-directed purchase execution.",
+      "source_url": "https://consumer-report-2026.stitch.money/",
+      "retrieval_hash": "sha256:8dd4c25f3729e12abdb5881ae959634406dddecb4f7c4b1ec88b885f4260949b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://stitch.money/blog/how-south-africans-shop-in-2026-key-insights-from-our-annual-consumer-report", "claim": "Stitch companion article describes the approximately 3,000-person survey, 27 interviews, platform data, payment fragmentation, BNPL, checkout friction, and AI-shopping findings.", "status": "publisher-method-context"}
+  ],
+  "boundary": "This is sponsor-produced commercial trend intelligence, not a nationally representative population survey or independent causal evaluation. It is useful for identifying mechanisms at the intersection of consumer culture, payment infrastructure, liquidity, time, trust, and AI-mediated commerce; it does not establish national prevalence, realized welfare, repayment outcomes, market share, or causal effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Stitch 2026 consumer-report landing page, checked against the publisher's companion methodology article.",
+    "source_page_sha256": "sha256:8dd4c25f3729e12abdb5881ae959634406dddecb4f7c4b1ec88b885f4260949b",
+    "checked": "2026-09-28",
+    "version_note": "The landing page is an interactive publisher report page. Survey, interview, and platform-data denominators must remain separate; platform findings should not be generalized to all South African commerce without independent validation."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-limiting-overshoot-2026-climate-risk-adaptation-return",
+  "title": "Climate policy is entering an overshoot era where mitigation, adaptation, vulnerability reduction, and rapid return pathways must advance together",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNEP Limiting Overshoot: Navigating exceedance of 1.5°C and pathways towards return, September 2026 spotlight report",
+  "geography": "Global climate pathways, societies, economies, ecosystems, and communities exposed to warming overshoot",
+  "observations": [
+    {
+      "period": "2026 UNEP assessment; Paris-temperature pathway",
+      "denominator": {"value": 1.5, "unit": "degrees Celsius warming threshold in the Paris Agreement framing", "value_type": "published_threshold"},
+      "measures": {
+        "overshoot_status": {"value": "exceedance of 1.5°C is now widely assessed as unavoidable under current policies and near-term trajectories", "unit": "reported global pathway assessment", "value_type": "reported_assessment"},
+        "pathway": {"value": "overshoot, peak, and decline", "unit": "reported pathway architecture", "value_type": "reported_framework"},
+        "policy_goal": {"value": "return below 1.5°C as soon as possible while reducing vulnerability during exceedance", "unit": "reported policy objective", "value_type": "reported_framework"}
+      },
+      "method": "UNEP synthesizes climate-pathway evidence and assesses risks, impacts, mitigation, adaptation, and development choices under temperature overshoot.",
+      "uncertainty": "The report describes pathways and risks rather than a single deterministic forecast; outcomes depend on emissions, removal, adaptation, technology, finance, and political choices.",
+      "subgroup": "Countries, communities, economies, ecosystems, workers, households, and institutions with unequal exposure and adaptive capacity.",
+      "counterinterpretation": "Unavoidable near-term overshoot does not establish that return is impossible or that all regions face the same impacts; urgency and path choice still materially affect risk.",
+      "source_url": "https://wedocs.unep.org/handle/20.500.11822/49857",
+      "retrieval_hash": "sha256:18a9ab4ae6a0b4fcb4fe7d308311568f5a92b9a5a75c417df8fc3e97ad9a195b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 UNEP assessment; peak-warming and duration effects",
+      "denominator": {"value": 1, "unit": "global climate-risk relationship assessed by UNEP", "value_type": "published_assessment_frame"},
+      "measures": {
+        "peak_warming_risk": {"value": "higher peak warming is associated with greater risks for people and nature", "unit": "reported relationship", "value_type": "reported_relationship"},
+        "duration_risk": {"value": "longer duration above 1.5°C is associated with greater risks and higher probability of crossing irreversible thresholds and adaptation limits", "unit": "reported relationship", "value_type": "reported_relationship"},
+        "decision_window": {"value": "current decisions affect both the magnitude and duration of overshoot", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The spotlight report links peak temperature and duration of exceedance to risk, thresholds, and adaptation limits across people, societies, economies, and ecosystems.",
+      "uncertainty": "The relationship does not provide a local damage curve or identify a single threshold for every ecosystem or community.",
+      "subgroup": "Highly exposed communities, climate-sensitive economies, ecosystems near adaptation limits, and institutions responsible for risk reduction.",
+      "counterinterpretation": "Some impacts may be reversible or manageable with investment, relocation, restoration, and adaptation; irreversible-threshold risk is not uniform or certain in every place.",
+      "source_url": "https://wedocs.unep.org/handle/20.500.11822/49857",
+      "retrieval_hash": "sha256:18a9ab4ae6a0b4fcb4fe7d308311568f5a92b9a5a75c417df8fc3e97ad9a195b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 UNEP assessment; mitigation and adaptation relationship",
+      "denominator": {"value": 1, "unit": "UNEP climate-response framework under overshoot", "value_type": "published_framework"},
+      "measures": {
+        "dual_track": {"value": "mitigation and adaptation must advance together", "unit": "reported policy principle", "value_type": "reported_framework"},
+        "vulnerability_reduction": {"value": "societies, communities, and economies must reduce vulnerability while pursuing temperature decline", "unit": "reported policy direction", "value_type": "reported_framework"},
+        "development_alignment": {"value": "adaptation and development approaches must respond to changing overshoot, peak, and decline conditions", "unit": "reported integration requirement", "value_type": "reported_framework"}
+      },
+      "method": "UNEP frames climate action as a combined pathway across emissions reduction, adaptation, vulnerability, and development rather than a mitigation-only target.",
+      "uncertainty": "A framework does not establish financing, implementation, distributional effects, or which adaptation measures will remain effective under different warming paths.",
+      "subgroup": "National and local governments, infrastructure and health systems, households, firms, development institutions, and communities with different resources and exposure.",
+      "counterinterpretation": "Adaptation without mitigation can lock in exposure and costs, while mitigation without adaptation leaves current and near-term harms insufficiently addressed; sequencing and capacity still vary by place.",
+      "source_url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance",
+      "retrieval_hash": "sha256:18a9ab4ae6a0b4fcb4fe7d308311568f5a92b9a5a75c417df8fc3e97ad9a195b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 UNEP assessment; governance and urgency boundary",
+      "denominator": {"value": 1, "unit": "UNEP spotlight report's global call to action", "value_type": "published_policy_frame"},
+      "measures": {
+        "resignation_boundary": {"value": "overshoot is not an argument for resignation but for urgent action", "unit": "reported governance message", "value_type": "reported_framework"},
+        "risk_management": {"value": "lower peak warming and shorter overshoot reduce risks and the probability of crossing adaptation limits", "unit": "reported decision principle", "value_type": "reported_framework"},
+        "institutional_test": {"value": "climate policy must connect global pathway choices to local vulnerability reduction and development capacity", "unit": "reported implementation test", "value_type": "reported_framework"}
+      },
+      "method": "The report translates global climate science into a strategic decision frame for governments, development actors, and public institutions.",
+      "uncertainty": "The report does not evaluate current national plans, assign responsibility for implementation, or establish that lower-risk pathways are politically or financially secured.",
+      "subgroup": "Decision-makers, climate-vulnerable communities, public systems, investors, workers, and future generations affected by pathway choices.",
+      "counterinterpretation": "Urgency can motivate action but can also produce poorly designed measures, distributional conflict, or adaptation that protects assets while leaving vulnerable people exposed.",
+      "source_url": "https://wedocs.unep.org/handle/20.500.11822/49857",
+      "retrieval_hash": "sha256:18a9ab4ae6a0b4fcb4fe7d308311568f5a92b9a5a75c417df8fc3e97ad9a195b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/i/item/9789240094710", "claim": "Complementary climate-health and heat-readiness evidence."},
+    {"source_url": "https://www.unep.org/resources/state-finance-nature-2026", "claim": "Complementary finance-flow evidence for nature and climate transition."}
+  ],
+  "boundary": "This record adds a climate-pathway and adaptation-governance route linking overshoot, peak warming, duration, irreversible thresholds, vulnerability, development, and institutional urgency. It is a global synthesis and pathway framework, not a local climate forecast, household exposure history, damage estimate, causal adaptation evaluation, or proof of implementation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNEP publication page and official repository abstract were reviewed for the overshoot status, overshoot–peak–decline pathway, risk-duration relationship, mitigation/adaptation linkage, and implementation boundaries.",
+    "source_url_sha256": "sha256:18a9ab4ae6a0b4fcb4fe7d308311568f5a92b9a5a75c417df8fc3e97ad9a195b",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-gender-fiscal-policy-2026-tax-budget-care-data",
+  "title": "Tax and budget systems are an undercounted mechanism of gendered economic opportunity: fiscal rules can either widen care and work penalties or finance the institutions that reduce them",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Women, Business and the Law, Tax and Gender Budgeting thematic data and Reforming Tax and Budget Systems for Gender Equality brief",
+  "geography": "Global fiscal-policy framework with pilot data across 81 economies for tax and 50 economies for gender-responsive budgeting",
+  "observations": [
+    {
+      "period": "Data current 31 December 2024; World Bank gender-and-tax pilot",
+      "denominator": {"value": 81, "unit": "economies covered by WBL pilot data on gender dimensions of tax laws and administration", "value_type": "reported_economy_frame"},
+      "measures": {
+        "tax_scope": {"value": "income-tax filing rules and provisions that treat women and men differently through credits, deductions, exemptions or allowances", "unit": "reported measurement scope", "value_type": "reported_topic_set"},
+        "administrative_scope": {"value": "gender dimensions of tax administration and reporting", "unit": "reported measurement scope", "value_type": "reported_topic_set"},
+        "progress_pattern": {"value": "gender analysis in tax laws and administration remains limited", "unit": "reported global pilot assessment", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank WBL pilot indicators assessing gender integration in tax law, tax administration and reporting across 81 economies.",
+      "uncertainty": "The pilot measures legal and supportive fiscal frameworks rather than tax incidence, household behavior, revenue outcomes or the effect of specific reforms.",
+      "subgroup": "Women and men in paid and unpaid work, taxpayers, informal workers, entrepreneurs, households and tax administrations.",
+      "counterinterpretation": "Tax systems may be formally gender-neutral while still producing unequal effects through income patterns, care responsibilities, informality, asset ownership and compliance costs.",
+      "source_url": "https://wbl.worldbank.org/en/publications/thematic-topics/tax",
+      "retrieval_hash": "sha256:6e1098f746543833d9570ca957b2726c2bef3ed2855799e3ccedf03475ceafb6",
+      "status": "reported"
+    },
+    {
+      "period": "Data current 31 December 2024; gender-responsive budgeting pilot",
+      "denominator": {"value": 50, "unit": "economies covered by WBL pilot data on gender-responsive budgeting", "value_type": "reported_economy_frame"},
+      "measures": {
+        "grb_legal_scope": {"value": "laws governing gender-responsive budgeting, use of sex-disaggregated data and gender assessment of implemented budget programmes", "unit": "reported measurement scope", "value_type": "reported_topic_set"},
+        "grb_supportive_scope": {"value": "government policies and budget instruments such as guidelines, circulars, statements, instructions and manuals for integrating gender into public spending", "unit": "reported measurement scope", "value_type": "reported_topic_set"},
+        "progress_pattern": {"value": "gender-responsive budgeting frameworks are still evolving", "unit": "reported global pilot assessment", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank WBL pilot indicators assessing legal and supportive frameworks for gender-responsive budgeting across 50 economies.",
+      "uncertainty": "The presence of laws, data requirements or budget instruments does not establish that spending changes, services improve or gender gaps narrow.",
+      "subgroup": "Women and men affected by public services, care systems, social protection, employment policy, local budgets and public investment.",
+      "counterinterpretation": "Gender-responsive budgeting can improve prioritization and accountability, but it may become procedural if ministries lack data, authority, financing or implementation capacity.",
+      "source_url": "https://wbl.worldbank.org/en/publications/thematic-topics/tax",
+      "retrieval_hash": "sha256:6e1098f746543833d9570ca957b2726c2bef3ed2855799e3ccedf03475ceafb6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; fiscal design, work, care and gendered economic participation",
+      "denominator": {"value": 1, "unit": "World Bank gender-and-fiscal-policy mechanism framework", "value_type": "published_framework"},
+      "measures": {
+        "tax_mechanisms": {"value": "joint taxation, eligibility thresholds and rules that overlook work and care patterns can increase effective tax rates for women, restrict benefit access or weaken labor-force participation incentives", "unit": "reported mechanism set", "value_type": "reported_interpretation"},
+        "administrative_route": {"value": "individual filing, simpler administration and outreach to women entrepreneurs can improve fairness, participation and compliance when paired with care and labor-market reforms", "unit": "reported reform route", "value_type": "reported_policy_route_set"},
+        "care_route": {"value": "public spending should recognize care work and assess how budget choices affect women and men", "unit": "reported fiscal-policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "World Bank synthesis of gender-responsive tax and budget design, supported by cross-country fiscal-policy research and WBL pilot indicators.",
+      "uncertainty": "These are mechanisms and reform options, not universal causal estimates; effects depend on tax-benefit interaction, household structure, labor markets, care supply and administration.",
+      "subgroup": "Women with care responsibilities, secondary earners, women entrepreneurs, informal workers, low-income households and public-service users.",
+      "counterinterpretation": "Individual filing or targeted relief may improve incentives for some women while increasing administrative burden or reducing household resources if not paired with adequate services and transfers.",
+      "source_url": "https://blogs.worldbank.org/en/developmenttalk/fiscal-policy--how-to-spot-and-fix-unintended-effects-on-women",
+      "retrieval_hash": "sha256:6e1098f746543833d9570ca957b2726c2bef3ed2855799e3ccedf03475ceafb6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; fiscal data, accountability and gender equality implementation",
+      "denominator": {"value": 1, "unit": "World Bank gender-responsive fiscal infrastructure framework", "value_type": "published_framework"},
+      "measures": {
+        "data_gap": {"value": "fiscal data systems often lack sex-disaggregated information needed to identify distributional effects", "unit": "reported institutional gap", "value_type": "reported_interpretation"},
+        "coordination_gap": {"value": "weak coordination between taxation and public spending can prevent fiscal systems from addressing gender inequalities coherently", "unit": "reported institutional gap", "value_type": "reported_interpretation"},
+        "recommended_infrastructure": {"value": "strengthen sex-disaggregated data, routine gender analysis, gender-responsive budgeting and fiscal transparency", "unit": "reported reform route set", "value_type": "reported_policy_route_set"}
+      },
+      "method": "World Bank thematic synthesis of pilot fiscal indicators and policy recommendations for integrating gender into tax and budget systems.",
+      "uncertainty": "The framework identifies data and governance needs but does not show that better data or transparency alone changes allocations, services, poverty, work or political trust.",
+      "subgroup": "Finance ministries, tax administrations, budget agencies, statistical systems, legislators, civil society and people affected by public spending.",
+      "counterinterpretation": "Additional reporting can improve accountability, but it may also create compliance burdens or false precision if administrative data are incomplete and care or informal work remains invisible.",
+      "source_url": "https://wbl.worldbank.org/en/publications/thematic-topics/tax",
+      "retrieval_hash": "sha256:6e1098f746543833d9570ca957b2726c2bef3ed2855799e3ccedf03475ceafb6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/programs/the-global-tax-program/gender", "claim": "World Bank Global Tax Program gender-and-tax context and policy mechanisms."},
+    {"source_url": "https://policycommons.net/artifacts/50218027/toward-fair-fiscal-policy/51116739/", "claim": "Metadata for the Toward Fair Fiscal Policy brief."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/562/study-description", "claim": "Related World Bank fiscal-incidence reproducibility package on gendered tax and transfer effects."}
+  ],
+  "boundary": "This record adds fiscal systems as a mechanism between formal gender rights and lived economic opportunity. It is a global pilot and policy synthesis, not a household tax-benefit incidence estimate, a causal reform evaluation, a complete measure of unpaid care or proof that gender-responsive budgeting changes outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The World Bank WBL tax and gender-budgeting thematic page, Global Tax Program gender page, fiscal-policy explainer and related brief metadata were reviewed for pilot coverage, tax and budget dimensions, work/care mechanisms, data gaps and reform routes; the official thematic page was hashed.",
+    "source_url_sha256": "sha256:6e1098f746543833d9570ca957b2726c2bef3ed2855799e3ccedf03475ceafb6",
+    "checked": "2026-09-27"
+  }
+}

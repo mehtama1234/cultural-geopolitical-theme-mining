@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-911-memory-generational-transmission-2026-national-trauma-education",
+  "title": "9/11 remains a vivid lived memory while national trauma shifts toward school, family, and generational transmission",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center, 9/11 memories remain vivid in the U.S. 25 years later, September 2026",
+  "geography": "United States; adults nationally with age and generational comparisons",
+  "observations": [
+    {
+      "period": "August 24-30, 2026; memory among adults old enough to remember 9/11",
+      "denominator": {"value": 5166, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "pre_2001_exact_memory": {"value": 83, "unit": "percent of adults born before 2001 saying they remember exactly where they were or what they were doing when they heard the news", "value_type": "reported_share"},
+        "age_10_or_older_exact_memory": {"value": 93, "unit": "percent of adults who were age 10 or older at the time reporting exact memory", "value_type": "reported_share"},
+        "age_30_exact_memory": {"value": 54, "unit": "rolling five-year average estimate for age 30", "value_type": "reported_share"},
+        "age_40_exact_memory": {"value": 93, "unit": "rolling five-year average estimate for age 40", "value_type": "reported_share"},
+        "age_50_exact_memory": {"value": 94, "unit": "rolling five-year average estimate for age 50", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center survey of 5,166 U.S. adults in the American Trends Panel, fielded August 24-30, 2026; age-specific estimates use rolling five-year averages.",
+      "uncertainty": "Reported vivid memory is a self-assessment and does not measure accuracy, trauma, political interpretation, or later behavior; age patterns combine life-cycle, cohort, and event-exposure differences.",
+      "subgroup": "Adults born before 2001, adults age 10 or older on September 11, 2001, and younger adult age cohorts.",
+      "counterinterpretation": "High memory vividness does not imply shared meaning: people may remember the event clearly while disagreeing about causes, policy response, war, security, immigration, or national identity.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/03/9-11-memories-remain-vivid-in-the-us-25-years-later/",
+      "retrieval_hash": "sha256:6598ebbb0873f5192b5d962011b9d373e9c1a493c5a06e6f37c6524c0d391764",
+      "status": "reported"
+    },
+    {
+      "period": "2026; adults born after the attacks and inherited knowledge",
+      "denominator": {"value": 5166, "unit": "U.S. adults in the Pew survey; younger-adult subgroup where specified", "value_type": "survey_sample"},
+      "measures": {
+        "born_after_attacks": {"value": 10, "unit": "percent of U.S. adults born after 2001 and therefore not direct witnesses", "value_type": "reported_share"},
+        "ages_18_24_learned_at_school": {"value": 60, "unit": "percent of adults ages 18-24 saying they first learned about 9/11 in class or through schoolwork", "value_type": "reported_share"},
+        "ages_18_24_learned_family_friends": {"value": 16, "unit": "percent of adults ages 18-24 saying they first learned through family or friends", "value_type": "reported_share"},
+        "ages_18_24_learned_independently": {"value": 8, "unit": "percent saying they first learned by reading or watching something on their own", "value_type": "reported_share"},
+        "ages_18_24_unsure_learning_route": {"value": 14, "unit": "percent unsure how they first learned about the attacks", "value_type": "reported_share"}
+      },
+      "method": "Pew survey questions about whether respondents were born after 2001 and how adults ages 18-24 first learned about the attacks.",
+      "uncertainty": "The first-learning route is self-reported and does not measure what was taught, remembered, emotionally experienced, or politically inferred; school exposure is not equivalent to curriculum quality or consensus.",
+      "subgroup": "Adults born after 2001, particularly those ages 18-24 in 2026.",
+      "counterinterpretation": "School-mediated knowledge can coexist with family stories, media exposure, community rituals, and personal research; transmission channels overlap even when respondents name one first source.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/03/9-11-memories-remain-vivid-in-the-us-25-years-later/",
+      "retrieval_hash": "sha256:6598ebbb0873f5192b5d962011b9d373e9c1a493c5a06e6f37c6524c0d391764",
+      "status": "reported"
+    },
+    {
+      "period": "2001-2026; persistence and generational conversion of national trauma",
+      "denominator": {"value": 1, "unit": "U.S. adult memory and historical-attitude frame across Pew surveys since the attacks", "value_type": "historical_survey_frame"},
+      "measures": {
+        "long_run_tracking": {"value": "Pew has regularly measured reactions to 9/11 and related attitudes throughout the 25 years since the attacks", "unit": "reported longitudinal research scope", "value_type": "reported_trend"},
+        "direct_memory_to_transmission_shift": {"value": "As the directly affected population ages, a growing share of adults knows the attacks through school, family, friends, media, or other accounts", "unit": "reported generational mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Pew synthesis of the 2026 survey with prior post-attack and follow-up survey work.",
+      "uncertainty": "The source does not establish how memory transmission changes political attitudes, security preferences, intergroup relations, or national identity; historical survey comparability and cohort replacement remain analytical boundaries.",
+      "subgroup": "Direct witnesses, older adults, younger adults, and post-2001 birth cohorts.",
+      "counterinterpretation": "A national event can remain symbolically important while its political meaning changes across generations, institutions, media environments, and geopolitical contexts.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/03/9-11-memories-remain-vivid-in-the-us-25-years-later/",
+      "retrieval_hash": "sha256:6598ebbb0873f5192b5d962011b9d373e9c1a493c5a06e6f37c6524c0d391764",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cultural-memory and generational-transmission layer: 9/11 remains vividly remembered by those old enough to recall it, while younger Americans increasingly encounter it through school, family, friends, media, and inherited narratives. It does not establish memory accuracy, shared meaning, trauma prevalence, policy attitudes, national identity, or causal political effects."
+}

@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-more-in-common-caught-between-sides-2026-conflict-cohesion-safety",
+  "title": "A distant conflict is reorganizing domestic safety judgments, identity boundaries, speech restraint, and interfaith cohesion even as most Britons reject a simple partisan side",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "More in Common, Caught between sides: Britons' shifting attitudes to the Israel-Palestine conflict and its consequences at home",
+  "geography": "United Kingdom, with polling and focus-group evidence on conflict attitudes, Jewish and Muslim safety, media exposure, identity, and community cohesion",
+  "observations": [
+    {
+      "period": "June and September 2026; reported sympathy and non-alignment",
+      "denominator": {"value": null, "unit": "British public polling respondents; published page does not state the full sample denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "sympathy_israel": {"value": 12, "unit": "percent saying they sympathise more with the Israeli side", "value_type": "published_survey_estimate"},
+        "sympathy_palestine": {"value": 26, "unit": "percent saying they sympathise more with the Palestinian side", "value_type": "published_survey_estimate"},
+        "young_adult_palestine_sympathy": {"value": 46, "unit": "percent of 18-24 year-olds saying they sympathise more with the Palestinian side", "value_type": "published_subgroup_estimate"},
+        "non_alignment": {"value": "The largest recent movement was toward saying neither side or being unsure, but the report cautions that this should not be read as indifference.", "unit": "reported opinion pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "More in Common follow-up research using polling conducted in June 2026, updated sympathy data fielded September 11-15, and a July 2026 focus group; the report compares with its earlier 2025 research.",
+      "uncertainty": "The publication is a polling and focus-group synthesis with incomplete public sample details in the accessible page; it measures reported attitudes and perceptions, not representative behavioral traces or causal effects of the conflict.",
+      "subgroup": "British adults, with age and More in Common Seven Segment differences; 18-24 year-olds are a distinctive subgroup in reported Palestinian sympathy.",
+      "counterinterpretation": "Rising non-alignment may reflect fatigue, uncertainty, or rejection of binary framing rather than reduced moral or political engagement; sympathy does not establish action, identity change, or policy preference.",
+      "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/09/Caught-Between-Sides-UPDATED-SEP26.pdf",
+      "retrieval_hash": "sha256:5b9f0d75baa9722faa105e2454c97df7d0f4d3381192861b42b682c690ee2b35",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025-June 2026; conflict stance and social judgment",
+      "denominator": {"value": null, "unit": "British public polling respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "negative_judgment_of_israel_post": {"value": 33, "unit": "percent saying they would feel worse about someone who posted on social media in support of Israel, up from 27 percent", "value_type": "published_survey_estimate"},
+        "positive_judgment_of_nonposting": {"value": 30, "unit": "percent saying they would feel better about someone who did not post about the conflict, up from 24 percent", "value_type": "published_survey_estimate"},
+        "progressive_activist_negative_judgment": {"value": 59, "unit": "percent of Progressive Activists saying they would feel worse about someone posting in support of Israel, up from 45 percent", "value_type": "published_subgroup_estimate"},
+        "speech_restraint_mechanism": {"value": "Fear of backlash and feeling under-informed make disengagement or silence appear safer than public commentary.", "unit": "reported focus-group mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparison of More in Common polling waves and focus-group accounts about social-media expression, judgment, and conflict discussion.",
+      "uncertainty": "Reported social judgments do not measure actual sanctions, platform moderation, employment consequences, or whether silence changes political participation; subgroup movements are descriptive.",
+      "subgroup": "British adults, including Progressive Activists, young adults, older adults, and other Seven Segments.",
+      "counterinterpretation": "Avoiding public posting can be a prosocial attempt to lower conflict temperature, not necessarily censorship or political withdrawal; online judgment may not carry into offline relationships.",
+      "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/09/Caught-Between-Sides-UPDATED-SEP26.pdf",
+      "retrieval_hash": "sha256:5b9f0d75baa9722faa105e2454c97df7d0f4d3381192861b42b682c690ee2b35",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; perceived Jewish and Muslim safety in Britain",
+      "denominator": {"value": null, "unit": "British public polling respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "safe_for_jewish_people": {"value": 43, "unit": "percent saying the UK is safe for Jewish people, matched by 43 percent saying unsafe", "value_type": "published_survey_estimate"},
+        "jewish_danger_increase": {"value": 60, "unit": "percent saying it has become more dangerous to be Jewish in the UK", "value_type": "published_survey_estimate"},
+        "safe_for_muslim_people": {"value": 53, "unit": "percent saying the UK is safe for Muslim people", "value_type": "published_survey_estimate"},
+        "muslim_danger_increase": {"value": 43, "unit": "percent saying it has become more dangerous to be Muslim in the UK, compared with 20 percent saying less dangerous", "value_type": "published_survey_estimate"},
+        "safety_consensus_gap": {"value": "Sympathy for Israel or Palestine is associated with sharply different judgments of the other community's safety; the report warns that the direction of causation is unclear.", "unit": "reported subgroup pattern", "value_type": "reported_association"}
+      },
+      "method": "More in Common polling trend comparisons, focus-group accounts, and reported incident context; perceptions are kept separate from incident-record evidence.",
+      "uncertainty": "Perceived safety is not a direct measure of victimization or community-level risk. The report includes contextual incident claims, but this record does not treat them as a complete hate-crime census or attribute every perception to the conflict.",
+      "subgroup": "Jewish and Muslim communities in Britain, with age, conflict-sympathy, and Seven Segment differences in perceived safety.",
+      "counterinterpretation": "Safety judgments may reflect national media attention, local incidents, political identity, or broader crime concerns; a perceived decline does not by itself establish migration, exit, or reduced participation.",
+      "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/09/Caught-Between-Sides-UPDATED-SEP26.pdf",
+      "retrieval_hash": "sha256:5b9f0d75baa9722faa105e2454c97df7d0f4d3381192861b42b682c690ee2b35",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; media/platform exposure and perceived cohesion",
+      "denominator": {"value": null, "unit": "British public polling respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "social_media_company_safety_performance": {"value": 19, "unit": "percent saying social-media companies are doing enough to make Jews in the UK feel safe", "value_type": "published_survey_estimate"},
+        "social_media_company_failure": {"value": 46, "unit": "percent saying social-media companies are not doing enough to make Jews in the UK feel safe", "value_type": "published_survey_estimate"},
+        "media_exposure_vs_everyday_exposure": {"value": "Respondents were more likely to report hearing antisemitic and anti-Muslim comments in media than from friends, family, or colleagues; the gap was especially pronounced for younger respondents.", "unit": "reported exposure comparison", "value_type": "published_pattern"},
+        "coexistence_belief": {"value": 47, "unit": "percent believing British Jews and Muslims can live harmoniously while disagreeing about Israel-Palestine, down from 56 percent in October 2025", "value_type": "published_survey_estimate"}
+      },
+      "method": "More in Common polling and qualitative conversations on media exposure, platform responsibility, interfaith safety, and social cohesion.",
+      "uncertainty": "The exposure comparison does not identify specific platforms, content volumes, algorithms, or causal pathways from media exposure to offline hostility; perceived platform responsibility is not a verified moderation audit.",
+      "subgroup": "British adults, with age and conflict-sympathy differences in reported media exposure and safety judgments.",
+      "counterinterpretation": "Higher media recognition may reflect greater visibility or awareness rather than more real-world exposure; declining coexistence belief may be temporary crisis salience rather than durable intergroup separation.",
+      "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/09/Caught-Between-Sides-UPDATED-SEP26.pdf",
+      "retrieval_hash": "sha256:5b9f0d75baa9722faa105e2454c97df7d0f4d3381192861b42b682c690ee2b35",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.moreincommon.org.uk/research/caught-between-sides/",
+      "claim": "More in Common's publication page identifies the report as a September 2026 follow-up on British attitudes to the Israel-Palestine conflict and its domestic social-cohesion effects.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/09/Caught-Between-Sides-UPDATED-SEP26.pdf",
+      "claim": "The report provides polling and focus-group findings on sympathy, social judgment, safety for Jewish and Muslim communities, media exposure, platform responsibility, and interfaith coexistence.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record adds a geopolitical-to-domestic-cultural route: international conflict salience can shape identity judgment, perceived safety, media exposure, speech restraint, platform accountability, and interfaith-cohesion expectations. It does not establish direct causation, a complete hate-crime count, actual platform behavior, migration or exit, household economic effects, or durable community breakdown.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official More in Common publication page and September 2026 PDF reviewed for fieldwork timing, sympathy, age and segment differences, social judgment, safety perceptions, media exposure, platform responsibility, and coexistence measures.",
+    "source_page_sha256": "sha256:5b9f0d75baa9722faa105e2454c97df7d0f4d3381192861b42b682c690ee2b35",
+    "checked": "2026-09-28"
+  }
+}

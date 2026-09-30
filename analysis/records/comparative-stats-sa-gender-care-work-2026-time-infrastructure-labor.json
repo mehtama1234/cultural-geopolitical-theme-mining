@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-stats-sa-gender-care-work-2026-time-infrastructure-labor",
+  "title": "South African care work converts gender, household infrastructure and dependency into unequal time and labour-market room",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Statistics South Africa, Gender Series Volume XIII: Gender Disparities in Care Work in South Africa, 2026, with official summary and publication metadata",
+  "geography": "South Africa; national gender, household, labour-market, education and infrastructure indicators",
+  "observations": [
+    {
+      "period": "2015-2026; demographic and dependency context",
+      "denominator": {"value": 1, "unit": "South African population and dependency-ratio frame reported by Statistics South Africa", "value_type": "national_statistical_frame"},
+      "measures": {
+        "female_population_share_2026": {"value": 50.9, "unit": "percent of population female in 2026, versus 49.1% male", "value_type": "reported_share"},
+        "working_age_share_change": {"value": "65.4% in 2015 to 67.2% in 2026", "unit": "percent of population aged 15-64", "value_type": "reported_change"},
+        "children_share_change": {"value": "28.7% in 2015 to 25.6% in 2026", "unit": "percent of population aged 0-14", "value_type": "reported_change"},
+        "older_share_change": {"value": "5.9% in 2015 to 7.3% in 2026", "unit": "percent of population aged 65+", "value_type": "reported_change"},
+        "old_age_dependency_change": {"value": "7.9 in 2015 to 9.1 in 2025", "unit": "older persons per 100 working-age persons, as reported", "value_type": "reported_change"}
+      },
+      "method": "Statistics South Africa thematic report and official summary using available official demographic and household statistics; the publication uses proxy indicators in the absence of recent time-use data.",
+      "uncertainty": "Dependency ratios describe population structure, not who provides care, how many hours are supplied, or the quality and intensity of care.",
+      "subgroup": "South African population, households and age groups; non-urban dependency ratios are reported as higher than urban ratios.",
+      "counterinterpretation": "A rising working-age share may expand potential care capacity, while ageing and household composition may still increase unpaid-care demands; population structure alone cannot determine household burden.",
+      "source_url": "https://www.statssa.gov.za/?p=19882",
+      "retrieval_hash": "sha256:c4444ea8f736ca0fa666d32d36e5c5ab51d15fd14682aa73d9e7a4945986fc6d",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; household employment and gendered room",
+      "denominator": {"value": 1, "unit": "South African households by sex of household head in the official summary", "value_type": "national_statistical_frame"},
+      "measures": {
+        "female_headed_households": {"value": "41.3% in 2015 to 42.6% in 2025", "unit": "share of households headed by females", "value_type": "reported_change"},
+        "female_headed_no_employed_member": {"value": "38.7% in 2015 to 39.1% in 2025", "unit": "share of female-headed households with no employed member", "value_type": "reported_change"},
+        "male_headed_no_employed_member": {"value": "19.9% in 2015 to 23.5% in 2025", "unit": "share of male-headed households with no employed member", "value_type": "reported_change"},
+        "care_income_mechanism": {"value": "care responsibilities and household employment structure jointly shape the money available to absorb care", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Statistics South Africa gender-series comparison of household structure and employment status using official household indicators.",
+      "uncertainty": "Household head status is not a direct measure of caregiving, household decision power, income amount, or within-household resource distribution.",
+      "subgroup": "Female-headed and male-headed South African households.",
+      "counterinterpretation": "The association between household headship and employment does not identify whether care caused non-employment or whether employment status shaped household structure.",
+      "source_url": "https://www.statssa.gov.za/?p=19882",
+      "retrieval_hash": "sha256:c4444ea8f736ca0fa666d32d36e5c5ab51d15fd14682aa73d9e7a4945986fc6d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; education interruption and gendered family commitments",
+      "denominator": {"value": 1, "unit": "South African children aged 7-18 not attending an educational institution in the official summary", "value_type": "national_statistical_frame"},
+      "measures": {
+        "female_family_commitment_reason": {"value": 8.4, "unit": "percent of females aged 7-18 not attending school citing family commitments as the main reason", "value_type": "reported_share"},
+        "male_family_commitment_reason": {"value": 0.0, "unit": "percent of males aged 7-18 not attending school citing family commitments as the main reason", "value_type": "reported_share"},
+        "education_care_conversion": {"value": "family commitments appear as a gendered reason for non-attendance while males more often cite poor academic performance", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Official Statistics South Africa summary of Gender Series XIII education non-attendance indicators.",
+      "uncertainty": "The summary does not provide the full denominator, sample design, confidence intervals, duration of non-attendance, or whether family commitments involve care, domestic work, income work or other obligations.",
+      "subgroup": "South African females and males aged 7-18 who were not attending an educational institution.",
+      "counterinterpretation": "The gender difference is descriptive and does not prove that care responsibilities caused educational exit or later labour-market disadvantage.",
+      "source_url": "https://www.statssa.gov.za/?p=19882",
+      "retrieval_hash": "sha256:c4444ea8f736ca0fa666d32d36e5c5ab51d15fd14682aa73d9e7a4945986fc6d",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2026; paid care, earnings and infrastructure effort",
+      "denominator": {"value": 1, "unit": "South African labour-market, household-expenditure and water-access indicators in the official summary", "value_type": "national_statistical_frame"},
+      "measures": {
+        "female_paid_care_concentration": {"value": "women dominated domestic work, nursing, teaching and social work in both 2015 and 2026", "unit": "reported occupational pattern", "value_type": "reported_mechanism"},
+        "earnings_change": {"value": "median monthly earnings rose by R1,500 for males and R1,400 for females between 2018 and 2024", "unit": "South African rand change", "value_type": "reported_change"},
+        "preprimary_expenditure_change": {"value": "average pre-primary education expenditure rose from R7,785 in 2015 to R8,069 in 2023", "unit": "South African rand average expenditure", "value_type": "reported_change"},
+        "female_headed_stream_water": {"value": "3.1% in 2015 versus 1.7% of male-headed households", "unit": "households fetching water from a stream or river", "value_type": "reported_share"},
+        "under_30_minutes_water": {"value": "79.6% of male-headed households versus 69.8% of female-headed households", "unit": "households spending less than 30 minutes fetching water", "value_type": "reported_share"}
+      },
+      "method": "Statistics South Africa thematic synthesis of labour, earnings, household expenditure, water access and household infrastructure indicators; it is not a single respondent-level time-use dataset.",
+      "uncertainty": "Occupational concentration, expenditure and water-collection indicators do not measure unpaid-care hours, causality, care quality, total household budgets or the effectiveness of infrastructure improvements.",
+      "subgroup": "South African workers and households, disaggregated by sex of household head and selected sectors/geographies.",
+      "counterinterpretation": "Female concentration in paid-care occupations can reflect both labour-market opportunity and occupational segregation; lower water-collection time may indicate improved access without proving reduced total care work.",
+      "source_url": "https://www.statssa.gov.za/?p=19882",
+      "retrieval_hash": "sha256:c4444ea8f736ca0fa666d32d36e5c5ab51d15fd14682aa73d9e7a4945986fc6d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.statssa.gov.za/?PPN=Report-03-10-32&SCH=74593&page_id=1854", "claim": "Official Statistics South Africa publication page for the full Gender Series XIII report, published 6 August 2026.", "status": "publication-metadata"},
+    {"source_url": "https://www.statssa.gov.za/?PPN=Report-03-10-32&SCH=74593&page_id=1861", "claim": "Official publication description stating that the report uses available official statistics and proxy indicators because recent time-use data are unavailable.", "status": "method-context"}
+  ],
+  "boundary": "This record adds a gendered care-conversion mechanism: demographic dependency, household employment, family commitments, paid-care concentration and infrastructure effort shape who has usable time and labour-market room. Statistics South Africa states that recent time-use data are unavailable and the report uses proxy indicators; this record therefore does not estimate unpaid-care hours, causal effects, within-household bargaining, care quality or a complete care economy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Statistics South Africa care-work article, publication page and publication metadata were reviewed for demographic dependency, household employment, education non-attendance, paid-care concentration, earnings, expenditure, water access and time-use limitations.",
+    "source_page_sha256": "sha256:c4444ea8f736ca0fa666d32d36e5c5ab51d15fd14682aa73d9e7a4945986fc6d",
+    "publication_page_sha256": "sha256:b8fced3586e8521b99a27f1210d4bc7b4f4c65bdcda3adefd66dfec4ab8aafc1",
+    "checked": "2026-09-29"
+  }
+}

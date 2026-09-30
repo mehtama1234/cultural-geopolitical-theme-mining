@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-fao-agricultural-outlook-2026-2035-production-income-diets-emissions",
+  "title": "Agricultural productivity can expand food supply and farm income while fertilizer shocks, unequal capacity, diet change, and emissions keep food security exposed",
+  "theme_ids": ["cost", "energy", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "OECD and Food and Agriculture Organization, OECD-FAO Agricultural Outlook 2026-2035",
+  "geography": "Global, regional, and national agricultural commodities and aquatic-food markets with low-, middle-, and high-income comparisons",
+  "observations": [
+    {
+      "period": "2026-2035; production and agricultural income outlook",
+      "denominator": {"value": 1, "unit": "global agricultural commodity and aquatic-food market projection frame", "value_type": "agricultural_outlook_frame"},
+      "measures": {
+        "production_growth": {"value": 13, "unit": "percent projected expansion in global agricultural production over the next decade", "value_type": "reported_projection"},
+        "income_per_worker": {"value": 9, "unit": "percent projected increase in global gross agricultural income per worker by 2035", "value_type": "reported_projection"},
+        "growth_driver": {"value": "productivity improvements and intensification drive most projected production growth", "unit": "OECD-FAO model synthesis", "value_type": "reported_mechanism"},
+        "uncertainty": {"value": "natural and economic variability leaves a 25 percent chance of a decline in workers' income relative to the projected baseline", "unit": "OECD-FAO risk analysis", "value_type": "reported_risk"}
+      },
+      "method": "OECD-FAO Aglink-Cosimo model and comparative agricultural-market analysis using data through 2025.",
+      "uncertainty": "These are baseline projections and risk scenarios, not realized outcomes; weather, policy, conflict, prices, technology, and trade can shift the path.",
+      "subgroup": "Farm workers, smallholders, agricultural firms, consumers, food-importing countries, low-income economies, and rural communities.",
+      "counterinterpretation": "Productivity growth can improve food availability and rural income while diversification, insurance, and trade reduce exposure to shocks.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en.html",
+      "retrieval_hash": "sha256:e87d82c9a23c085ced2f0b147b284d37d640f18e1c087c6dbb5d769f1ca17a2c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Middle East conflict, fertilizer use, and cereal production",
+      "denominator": {"value": 1, "unit": "global agricultural-input, cereal-production, food-price, and geopolitical-shock frame", "value_type": "fertilizer_shock_frame"},
+      "measures": {
+        "shock_channel": {"value": "economic disruptions associated with the 2026 Middle East conflict are expected to constrain fertilizer use", "unit": "OECD-FAO supplementary analysis", "value_type": "reported_mechanism"},
+        "cereal_effect": {"value": "reduced fertilizer use is expected to decrease cereal production, especially in low-income countries", "unit": "OECD-FAO scenario analysis", "value_type": "reported_projection"},
+        "household_effect": {"value": "income losses and higher food prices could force lower-income households to reduce food consumption or shift toward cheaper foods", "unit": "OECD-FAO scenario analysis", "value_type": "reported_mechanism"},
+        "resilience_difference": {"value": "higher-income households are generally expected to maintain dietary patterns more readily than lower-income households", "unit": "OECD-FAO scenario analysis", "value_type": "reported_difference"}
+      },
+      "method": "OECD-FAO model scenario assessing slower growth and higher energy and fertilizer costs associated with the 2026 geopolitical shock.",
+      "uncertainty": "The scenario is not a household food diary or realized price forecast; the distribution of effects depends on policy, exchange rates, trade, stocks, and local production.",
+      "subgroup": "Low-income households, food-importing countries, cereal producers, children, rural workers, food retailers, and consumers with limited dietary room.",
+      "counterinterpretation": "Substitution, public support, food reserves, local production, and trade rerouting can buffer a fertilizer or cereal shock, though not evenly.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en.html",
+      "retrieval_hash": "sha256:e87d82c9a23c085ced2f0b147b284d37d640f18e1c087c6dbb5d769f1ca17a2c",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2035; emissions and sustainable productivity",
+      "denominator": {"value": 1, "unit": "global agricultural production, direct greenhouse-gas emissions, and sustainability frame", "value_type": "agriculture_emissions_frame"},
+      "measures": {
+        "direct_emissions": {"value": 6.5, "unit": "percent projected increase in direct agricultural greenhouse-gas emissions over the outlook period", "value_type": "reported_projection"},
+        "livestock_share": {"value": 77, "unit": "percent of the projected emissions increase attributed to growing animal herds", "value_type": "reported_projection"},
+        "fertilizer_share": {"value": 23, "unit": "percent of the projected emissions increase attributed to higher nitrous-oxide emissions from synthetic fertilizers", "value_type": "reported_projection"},
+        "productivity_challenge": {"value": "the policy challenge is to accelerate sustainable productivity so emissions grow more slowly or decline relative to current values", "unit": "OECD-FAO report framing", "value_type": "reported_framework"}
+      },
+      "method": "OECD-FAO baseline projection of agricultural production, livestock, fertilizer use, and direct agricultural emissions.",
+      "uncertainty": "The projections exclude some indirect lifecycle effects and depend on technology, land use, diets, policy, and model assumptions; they do not establish local environmental outcomes.",
+      "subgroup": "Farmers, livestock producers, fertilizer users, consumers, climate-exposed communities, policymakers, and food-system workers.",
+      "counterinterpretation": "Technology, breeding, feed, land management, reduced loss, dietary shifts, and better input efficiency could reduce emissions intensity even as total demand grows.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en.html",
+      "retrieval_hash": "sha256:e87d82c9a23c085ced2f0b147b284d37d640f18e1c087c6dbb5d769f1ca17a2c",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2035; dietary transition, rural poverty, and trade",
+      "denominator": {"value": 1, "unit": "global and regional food consumption, agricultural labor productivity, trade, and nutrition frame", "value_type": "food_transition_frame"},
+      "measures": {
+        "southeast_asia_consumption": {"value": 39, "unit": "percent estimated share of global consumption growth from Southeast Asia by 2035", "value_type": "reported_projection"},
+        "diet_diversification": {"value": "urbanization and income gains are expected to shift diets toward greater shares of livestock and fish products in many lower-middle-income countries", "unit": "OECD-FAO report synthesis", "value_type": "reported_mechanism"},
+        "low_income_worker_income": {"value": "agricultural workers in low-income regions of sub-Saharan Africa and South Asia earn about USD 930 per year on average and are projected to reach around USD 1,100", "unit": "reported agricultural labor-income comparison", "value_type": "reported_estimate"},
+        "trade_channel": {"value": "international agricultural trade, infrastructure, storage, and technology remain critical to balancing supply and demand and sustaining affordable healthy diets", "unit": "OECD-FAO report framework", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD-FAO regional and national agricultural-market projections, labor-productivity comparisons, and food-system analysis.",
+      "uncertainty": "Regional averages conceal within-country inequality, informal work, nutrition quality, and differences in farm and consumer access to markets.",
+      "subgroup": "Low-income agricultural workers, smallholders, urban consumers, food-importing households, fishers, retailers, and communities with weak storage or transport infrastructure.",
+      "counterinterpretation": "Trade and dietary diversification can improve access, income, and choice, while local food systems and social protection can reduce dependence on volatile global markets.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-fao-agricultural-outlook-2026-2035_47874669-en.html",
+      "retrieval_hash": "sha256:e87d82c9a23c085ced2f0b147b284d37d640f18e1c087c6dbb5d769f1ca17a2c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/markets-and-trade/publications/crop-prospects-and-food-situation/", "claim": "FAO Crop Prospects and Food Situation provides complementary near-term cereal and acute food-security monitoring."},
+    {"source_url": "https://www.fao.org/markets-and-trade/publications/", "claim": "FAO Food Outlook and State of Agricultural Commodity Markets provide complementary food-market and trade context."}
+  ],
+  "boundary": "This record adds a global agricultural-production, fertilizer-shock, farm-income, diet, emissions, trade, and food-security route. It uses OECD-FAO model projections and aggregate market analysis, not household food diaries, individual farm histories, causal price estimates, or proof that production growth delivers affordable healthy diets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD-FAO Agricultural Outlook 2026-2035 materials were reviewed for production and income projections, Middle East fertilizer and cereal scenario, emissions, dietary transition, low-income farm-worker income, and trade/infrastructure conditions.",
+    "source_url_sha256": "sha256:e87d82c9a23c085ced2f0b147b284d37d640f18e1c087c6dbb5d769f1ca17a2c",
+    "checked": "2026-09-26"
+  }
+}

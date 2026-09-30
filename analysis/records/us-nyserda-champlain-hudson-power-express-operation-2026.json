@@ -36,6 +36,71 @@
       "comparison_source_url": "https://www.nyserda.ny.gov/All-Programs/Large-Scale-Renewables/Tier-Four",
       "retrieval_hash": "sha256:5478d4275c76320d2fd520f7e323fc83117939fbc5dcdfa0b7286111efd3f152",
       "status": "reported"
+    },
+    {
+      "period": "July 3-4, 2026; heat-event operation and early reliability friction",
+      "denominator": {
+        "value": 1,
+        "unit": "NYISO daily electricity-import and CHPE operational episode",
+        "value_type": "reported_operational_episode"
+      },
+      "measures": {
+        "canadian_imports": {"value": 52, "unit": "gigawatt-hours imported from Canada by NYISO on July 3, 2026", "value_type": "reported_grid_flow"},
+        "nyiso_import_share": {"value": 9, "unit": "percent of NYISO electricity demand supplied by Canadian imports on July 3", "value_type": "reported_share"},
+        "chpe_utilization": {"value": 1250, "unit": "megawatts of CHPE capacity fully utilized on July 3", "value_type": "reported_operational_use"},
+        "reliability_friction": {"value": "EIA reported that an outage occurred in June and that CHPE was taken offline again on July 4 for further repairs", "unit": "reported early operating interruption", "value_type": "reported_outage"},
+        "mechanism": {"value": "Commercial operation converted infrastructure promise into observable grid use during heat stress, while the early outage-and-repair episode shows that operation is a sequence of availability and interruption rather than a binary milestone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "U.S. Energy Information Administration analysis using NYISO hourly electric-grid data and official project context.",
+      "uncertainty": "The source does not isolate CHPE's causal effect on wholesale prices, retail bills, emissions, or reliability; the import total includes Canadian flows beyond CHPE, and the outage account does not provide duration, repair cost, or customer-level incidence.",
+      "subgroup": "NYISO electricity users, New York City Zone J, Hydro-Québec, NYISO operators, and communities affected by the transmission system; household outcomes are not individually observed.",
+      "counterinterpretation": "High utilization during a heat event can show valuable capacity while an early outage can be routine commissioning friction; neither alone establishes durable reliability or affordability.",
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=67867",
+      "retrieval_hash": "sha256:bb2023a7bfc9eac3859e3d98648ccc9e9a58a9d9b4e45e2e841262ff620227d3",
+      "status": "reported"
+    },
+    {
+      "period": "August-September 2026; operator-reported post-repair status",
+      "denominator": {
+        "value": 1,
+        "unit": "named CHPE operator public status page",
+        "value_type": "reported_operator_status"
+      },
+      "measures": {
+        "operator_status": {"value": "The project operator's public site describes CHPE as fully operational after commissioning and says the state contract began June 1, 2026", "unit": "operator-reported status", "value_type": "reported_operation"},
+        "availability_verification": {"value": "not independently observed in this record", "unit": "missing post-repair hourly availability, outage duration, and dispatch series", "value_type": "unmeasured"},
+        "reliability_context": {"value": "A contemporaneous reliability record still treats demonstration of planned CHPE capability as relevant to New York City reliability needs", "unit": "reported planning condition", "value_type": "reported_context"},
+        "mechanism": {"value": "Recovery claims and system-level reliability qualification are separate stages: an operator can report restored operation while independent evidence of sustained availability and customer effect remains necessary", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Operator public status page cross-read with public NYISO/utility reliability reporting; operator claim is preserved separately from independent operational verification.",
+      "uncertainty": "The operator page is not an independent availability dataset and does not report outage duration, dispatch, maintenance, delivered energy, price effect, or customer incidence; the reliability-planning condition is not a post-repair performance measure.",
+      "subgroup": "New York City electricity users, NYISO and utility reliability planners, Hydro-Québec, CHPE operator, and route communities.",
+      "counterinterpretation": "The operator's fully-operational statement may accurately describe restored commercial status even if short interruptions or capacity constraints remain; reliability planning can also remain conservative after a project enters service.",
+      "source_url": "https://chpexpress.com/",
+      "retrieval_hash": "sha256:d47b193e1a5691d0fd74e8dccb81f64ff60650da2724df81f6bd85583d5f4a9d",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2027 capability-year planning; CHPE-in versus CHPE-out market case",
+      "denominator": {
+        "value": 2,
+        "unit": "planning cases for New York's 2026-2027 locational capacity requirements",
+        "value_type": "reported_planning_cases"
+      },
+      "measures": {
+        "nyc_lcr_chpe_in": {"value": 86.4, "unit": "percent New York City locational capacity requirement in the CHPE-in case", "value_type": "reported_market_requirement"},
+        "nyc_lcr_chpe_out": {"value": 82.6, "unit": "percent New York City locational capacity requirement in the CHPE-out case", "value_type": "reported_market_requirement"},
+        "market_governance": {"value": "The capacity framework explicitly distinguishes whether CHPE is available for the planning case, showing that project status enters resource-adequacy and market-governance calculations", "unit": "reported planning mechanism", "value_type": "reported_market_mechanism"},
+        "incidence_boundary": {"value": "The planning-case difference does not identify a retail bill change, customer savings, outage reduction, or equal benefit distribution", "unit": "reported analytical boundary", "value_type": "bounded_boundary"},
+        "mechanism": {"value": "Infrastructure realization can alter formal market requirements before its costs and benefits are traceable to households or local communities", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "New York State Association of Counties market update summarizing New York State Reliability Council and NYISO 2026-2027 locational-capacity planning cases.",
+      "uncertainty": "The planning cases are scenario inputs and do not measure realized CHPE availability, market-clearing prices, retail bills, reliability outcomes, or customer incidence; the summary is not the underlying NYISO calculation file.",
+      "subgroup": "NYISO Zone J load-serving entities, capacity-market participants, New York electricity customers, and planners using CHPE-in/CHPE-out reliability cases.",
+      "counterinterpretation": "Different planning cases can reflect methodology and timing assumptions rather than an observed causal effect of CHPE on market prices or reliability.",
+      "source_url": "https://www.nysac.org/media/liqinkls/new-york-market-update-mega-march-2026.pdf",
+      "retrieval_hash": "sha256:84b3bff923f37c4c949f16b9497581c3f7754e95650b044097b4688fb0fd553d",
+      "status": "reported"
     }
   ],
   "related_sources": [

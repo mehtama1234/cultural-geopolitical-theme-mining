@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-desa-gender-ageing-world-2026-older-women-health-economic-security",
+  "title": "Population ageing is increasingly a women’s issue: longer lives coexist with poorer late-life health, care burdens, and economic insecurity",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "United Nations Department of Economic and Social Affairs, Gender matters in an ageing world: The case for gender-responsive policies",
+  "geography": "Global population ageing, with comparisons across income groups and policy implications for older women, health, social protection, care, and economic participation",
+  "observations": [
+    {
+      "period": "2000-2050; global population aged 60 or older",
+      "denominator": {"value": 1, "unit": "global population aged 60 years or older", "value_type": "global_ageing_frame"},
+      "measures": {
+        "older_population_2000": {"value": 608000000, "unit": "people aged 60 or older in 2000", "value_type": "reported_population_count"},
+        "older_population_2025": {"value": 1220000000, "unit": "people aged 60 or older in 2025", "value_type": "reported_population_count"},
+        "older_population_2050": {"value": 2110000000, "unit": "projected people aged 60 or older in 2050", "value_type": "projected_population_count"},
+        "demographic_mechanism": {"value": "population ageing is accelerating in nearly all regions through sustained fertility decline and improved survival at older ages", "unit": "UN DESA demographic synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "UN DESA policy brief using World Population Prospects 2024 and additional demographic and policy datasets.",
+      "uncertainty": "Population projections depend on fertility, mortality, migration, and projection assumptions; aggregate age counts do not describe health, income, living arrangements, or care needs.",
+      "subgroup": "Older persons, families, care systems, governments, and regions at different stages of demographic transition.",
+      "counterinterpretation": "Ageing reflects longer survival and can support longer productive and civic lives when health, income, care, and participation systems adapt.",
+      "source_url": "https://www.un.org/development/desa/pd/content/gender-matters-ageing-world-case-gender-responsive-policies",
+      "retrieval_hash": "sha256:de1e2be4990eb38a665daed8756607daccc957ed0196ffd14dd3f1d69a4e3743",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2050; older women as a share of the older population",
+      "denominator": {"value": 1, "unit": "global women aged 60 or older", "value_type": "older_women_frame"},
+      "measures": {
+        "older_women_2000": {"value": 337000000, "unit": "women aged 60 or older in 2000", "value_type": "reported_population_count"},
+        "older_women_2025": {"value": 664000000, "unit": "women aged 60 or older in 2025", "value_type": "reported_population_count"},
+        "older_women_2050": {"value": 1130000000, "unit": "projected women aged 60 or older in 2050", "value_type": "projected_population_count"},
+        "share_2050": {"value": 54, "unit": "percent of the global population aged 60 or older projected to be women in 2050", "value_type": "projected_population_share"},
+        "low_middle_income_growth": {"value": "the number of women aged 60 or older in low- and middle-income countries is projected to more than double by 2050", "unit": "UN DESA projection framing", "value_type": "projected_distribution"}
+      },
+      "method": "UN DESA age-sex population estimates and projections with income-group comparison.",
+      "uncertainty": "Projection categories and income-group comparisons do not show the distribution of wealth, disability, care, or legal rights among older women.",
+      "subgroup": "Older women, especially those living in low- and middle-income countries, and the families and institutions that support them.",
+      "counterinterpretation": "A growing population of older women is also a source of knowledge, care, paid work, civic participation, and social contribution when barriers are removed.",
+      "source_url": "https://www.un.org/development/desa/pd/content/gender-matters-ageing-world-case-gender-responsive-policies",
+      "retrieval_hash": "sha256:de1e2be4990eb38a665daed8756607daccc957ed0196ffd14dd3f1d69a4e3743",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2050; oldest-old women and longevity",
+      "denominator": {"value": 1, "unit": "global population aged 80 years or older", "value_type": "oldest_old_frame"},
+      "measures": {
+        "women_80_2000": {"value": 48000000, "unit": "women aged 80 or older in 2000", "value_type": "reported_population_count"},
+        "women_80_2025": {"value": 104000000, "unit": "women aged 80 or older in 2025", "value_type": "reported_population_count"},
+        "women_80_2050": {"value": 263000000, "unit": "projected women aged 80 or older in 2050", "value_type": "projected_population_count"},
+        "women_share_80_2025": {"value": 62, "unit": "percent of the population aged 80 or older who were women in 2025", "value_type": "reported_population_share"},
+        "women_share_80_2050": {"value": 59, "unit": "projected percent of the population aged 80 or older who will be women in 2050", "value_type": "projected_population_share"}
+      },
+      "method": "UN DESA age-sex population estimates and projections for the oldest age groups.",
+      "uncertainty": "Counts do not measure healthy ageing, disability-free years, living arrangements, or formal and informal care demand.",
+      "subgroup": "Women at advanced ages, caregivers, health and social-care systems, households, and communities adapting to longevity.",
+      "counterinterpretation": "Longer survival can create substantial social and economic value when age-friendly environments, care, health, and income systems support autonomy.",
+      "source_url": "https://www.un.org/development/desa/pd/content/gender-matters-ageing-world-case-gender-responsive-policies",
+      "retrieval_hash": "sha256:de1e2be4990eb38a665daed8756607daccc957ed0196ffd14dd3f1d69a4e3743",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2050; later-life health and economic security for women",
+      "denominator": {"value": 1, "unit": "global older-women health, income, and policy synthesis frame", "value_type": "gender_ageing_policy_frame"},
+      "measures": {
+        "female_life_expectancy_at_60_2000": {"value": 20.5, "unit": "years of remaining life expectancy at age 60 for women in 2000", "value_type": "reported_life_expectancy"},
+        "female_life_expectancy_at_60_2025": {"value": 23.2, "unit": "years of remaining life expectancy at age 60 for women in 2025", "value_type": "reported_life_expectancy"},
+        "female_life_expectancy_at_60_2050": {"value": 24.9, "unit": "projected years of remaining life expectancy at age 60 for women in 2050", "value_type": "projected_life_expectancy"},
+        "health_inequality": {"value": "women tend to spend a higher proportion of later life in poor health or with disability despite living longer on average", "unit": "UN DESA policy synthesis", "value_type": "reported_health_mechanism"},
+        "economic_security": {"value": "lower lifetime earnings, interrupted careers, and limited pension coverage can leave older women more financially vulnerable while they continue to provide care and support", "unit": "UN DESA policy synthesis", "value_type": "reported_economic_mechanism"}
+      },
+      "method": "UN DESA synthesis of demographic trends and policy implications for health, social protection, care, economic resources, and participation.",
+      "uncertainty": "The brief identifies broad mechanisms and policy priorities; it does not estimate individual causal effects or separate every contribution of health, work, pension, family, and care systems.",
+      "subgroup": "Older women, women with interrupted careers, unpaid caregivers, women with disabilities, pension systems, health systems, and families.",
+      "counterinterpretation": "Gender-responsive health, pension, care, legal, and participation policies can convert longer lives into greater autonomy and contribution rather than vulnerability.",
+      "source_url": "https://www.un.org/development/desa/pd/content/gender-matters-ageing-world-case-gender-responsive-policies",
+      "retrieval_hash": "sha256:de1e2be4990eb38a665daed8756607daccc957ed0196ffd14dd3f1d69a4e3743",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/development/desa/pd/content/population-ageing", "claim": "UN DESA population-ageing page provides complementary older-person data and policy context."},
+    {"source_url": "https://population.un.org/wpp/", "claim": "UN World Population Prospects provides the demographic estimates and projections underlying the brief."}
+  ],
+  "boundary": "This record adds a gendered-ageing route across population growth, longevity, later-life health, pension and income insecurity, unpaid care, and policy visibility. It uses UN DESA aggregate demographic estimates and policy synthesis, not respondent-level ageing histories, individual health records, household care diaries, causal pension effects, or proof that ageing produces the same outcome for all women.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA policy brief page and accessible brief text reviewed for older-population counts, older-women and oldest-old projections, life expectancy at age 60, health, economic-security, care, and gender-responsive policy findings.",
+    "source_url_sha256": "sha256:de1e2be4990eb38a665daed8756607daccc957ed0196ffd14dd3f1d69a4e3743",
+    "checked": "2026-09-26"
+  }
+}

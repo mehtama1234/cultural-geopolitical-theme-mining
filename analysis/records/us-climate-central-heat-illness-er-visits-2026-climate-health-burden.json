@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-climate-central-heat-illness-er-visits-2026-climate-health-burden",
+  "title": "Climate change is adding measurable heat-illness pressure to U.S. emergency care",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "Climate Central Climate Matters analysis using CDC heat-related emergency-department visit rates and a peer-reviewed temperature-health attribution model",
+  "geography": "United States; ten HHS regions covering the 50 states, Puerto Rico, Washington, D.C., and six U.S. territories",
+  "observations": [
+    {
+      "period": "April-October 2018-2025; eight warm seasons",
+      "denominator": {"value": 100000, "unit": "emergency-department visits", "value_type": "reported_rate_denominator"},
+      "measures": {
+        "climate_attributable_heat_illness_rate": {"value": 27, "unit": "percent of the U.S. heat-related emergency-department visit rate", "value_type": "modelled_attributable_share"},
+        "geographic_pattern": {"value": "all regions experienced an increased heat-illness visit rate attributable to climate change", "unit": "regional model finding", "value_type": "reported_modelled_pattern"},
+        "baseline_context": {"value": "heat illness sends more than 67,000 people to US emergency rooms on average each year", "unit": "annual emergency-room visits", "value_type": "reported_average"}
+      },
+      "method": "Climate Central modeled nonlinear relationships between daily maximum temperature and CDC regional heat-related illness emergency-department visit rates, then compared observed temperatures with counterfactual temperatures without human-caused climate change.",
+      "uncertainty": "The 27% estimate is modelled attribution of a rate, not a count of visits uniquely caused by climate change; it depends on regional temperature-health specification, counterfactual construction, CDC surveillance, and rounded presentation.",
+      "subgroup": "People seeking emergency care for heat-related illness across the ten HHS regions during the warm season.",
+      "counterinterpretation": "The analysis does not show that climate change was the only cause of any visit; baseline heat exposure, occupation, housing, age, health status, adaptation, and access to care also shape observed rates.",
+      "source_url": "https://www.climatecentral.org/climate-matters/heat-illness-emergency-room-visits",
+      "retrieval_hash": "sha256:66b7f949791ccd9a9e94195761c408562a5a95b4959c37f6bff4a688adaf2f40",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2025; regional warm-season comparison",
+      "denominator": {"value": 100000, "unit": "emergency-department visits per day", "value_type": "reported_rate_denominator"},
+      "measures": {
+        "region_6_observed_rate": {"value": 225, "unit": "heat-related emergency-department visits per 100,000 visits per day, average in Arkansas, Louisiana, New Mexico, Oklahoma, and Texas", "value_type": "reported_modelled_rate"},
+        "region_6_counterfactual_rate": {"value": 168, "unit": "heat-related emergency-department visits per 100,000 visits per day under the no-human-caused-climate-change counterfactual", "value_type": "reported_counterfactual_rate"},
+        "regional_exposure": {"value": "southern and western states experienced the highest heat-related emergency-department visit rates", "unit": "regional pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Region-specific temperature-health model with population-weighted daily maximum temperatures and counterfactual temperature comparison.",
+      "uncertainty": "Regional rates are averages and should not be interpreted as individual risk, total cases, or a direct estimate of climate-attributable hospital spending.",
+      "subgroup": "Residents and emergency-care systems in southern and western HHS regions, especially Region 6.",
+      "counterinterpretation": "Regional differences can reflect climate, population, occupational exposure, housing, healthcare-seeking, surveillance, and other social conditions rather than temperature alone.",
+      "source_url": "https://www.climatecentral.org/climate-matters/heat-illness-emergency-room-visits",
+      "retrieval_hash": "sha256:66b7f949791ccd9a9e94195761c408562a5a95b4959c37f6bff4a688adaf2f40",
+      "status": "reported"
+    },
+    {
+      "period": "June 27-29, 2021; Pacific Northwest heat wave",
+      "denominator": {"value": 100000, "unit": "emergency-department visits per day", "value_type": "reported_rate_denominator"},
+      "measures": {
+        "observed_rate": {"value": 4710, "unit": "heat-related emergency-department visits per 100,000 visits per day in Alaska, Idaho, Oregon, and Washington", "value_type": "reported_rate"},
+        "typical_warm_season_rate": {"value": 94, "unit": "heat-related emergency-department visits per 100,000 visits per day in the region over 2018-2025", "value_type": "reported_comparison_rate"},
+        "counterfactual_rate": {"value": 3433, "unit": "heat-related emergency-department visits per 100,000 visits per day under the no-human-caused-climate-change counterfactual", "value_type": "reported_counterfactual_rate"},
+        "climate_attributable_share": {"value": 27, "unit": "percent of the modeled rate during the event", "value_type": "modelled_attributable_share"}
+      },
+      "method": "Daily regional temperature-health attribution during the identified heat wave compared with the region's typical warm-season rate and counterfactual temperatures.",
+      "uncertainty": "The event comparison is a modeled rate estimate and does not establish the exact number of climate-caused visits, deaths, or costs; the counterfactual is not directly observable.",
+      "subgroup": "Residents of Alaska, Idaho, Oregon, and Washington during the June 2021 heat wave.",
+      "counterinterpretation": "An extreme event can produce unusually high rates through multiple interacting factors, including infrastructure, public warnings, power, housing, behavior, and healthcare access.",
+      "source_url": "https://www.climatecentral.org/climate-matters/heat-illness-emergency-room-visits",
+      "retrieval_hash": "sha256:66b7f949791ccd9a9e94195761c408562a5a95b4959c37f6bff4a688adaf2f40",
+      "status": "reported"
+    },
+    {
+      "period": "2026; adaptation and system-capacity implication",
+      "denominator": {"value": 1, "unit": "heat-health response chain", "value_type": "named_mechanism_frame"},
+      "measures": {
+        "household_burden": {"value": "additional heat-related emergency care can increase financial and practical burdens on patients and insurers", "unit": "reported implication", "value_type": "reported_mechanism"},
+        "hospital_burden": {"value": "additional heat-related demand can increase pressure on already busy and under-resourced hospitals", "unit": "reported system implication", "value_type": "reported_mechanism"},
+        "response_options": {"value": "heat action plans, education, outreach, surveillance, and improved cooling and treatment protocols are identified as capacity responses", "unit": "reported response set", "value_type": "reported_recommendation"}
+      },
+      "method": "Interpretation of attribution results alongside public-health and emergency-care response pathways.",
+      "uncertainty": "The article does not estimate the cost of additional visits, the effectiveness of any named adaptation, or the distribution of burdens across insurance, income, age, race, disability, or housing groups.",
+      "subgroup": "Patients, households, insurers, hospitals, emergency responders, public-health offices, and communities facing heat exposure.",
+      "counterinterpretation": "Preparedness and cooling interventions may reduce illness and emergency demand; increased climate-attributable risk does not imply an unavoidable increase in harm.",
+      "source_url": "https://www.climatecentral.org/climate-matters/heat-illness-emergency-room-visits",
+      "retrieval_hash": "sha256:66b7f949791ccd9a9e94195761c408562a5a95b4959c37f6bff4a688adaf2f40",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1007/s10584-026-04247-9", "claim": "Climate Central identifies a peer-reviewed Climatic Change study as the full methodology for the attribution analysis.", "status": "official_methodology_reference"}
+  ],
+  "boundary": "This record adds a climate-to-health-system burden pathway for the United States. It measures modeled attribution of heat-related emergency-department visit rates and response implications; it does not establish individual causality, total climate damages, adaptation effectiveness, or equal exposure across social groups.",
+  "retrieval_hash": "sha256:66b7f949791ccd9a9e94195761c408562a5a95b4959c37f6bff4a688adaf2f40"
+}

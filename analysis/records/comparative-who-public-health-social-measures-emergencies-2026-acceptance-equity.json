@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-public-health-social-measures-emergencies-2026-acceptance-equity",
+  "title": "Emergency public-health measures are becoming a context-specific trust, equity, and implementation problem",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "platforms_data_attention", "infrastructure_technology_dependency"],
+  "source_unit": "WHO global technical consultation on public health and social measures during health emergencies: report of the third meeting, Geneva, Switzerland, 24–26 March 2026, published 27 August 2026",
+  "geography": "Global health-emergency preparedness and response, drawing on consultation across 31 Member States and multiple institutional sectors",
+  "observations": [
+    {
+      "period": "24–26 March 2026; global technical consultation",
+      "denominator": {"value": 133, "unit": "experts participating in the third WHO consultation", "value_type": "reported_participant_count"},
+      "measures": {"member_state_coverage": {"value": 31, "unit": "Member States represented", "value_type": "reported_participant_count"}, "institutional_mix": {"value": "ministries of health, national public-health institutes, academia, civil society, and international organizations", "unit": "represented sectors", "value_type": "reported_participant_mix"}, "policy_objective": {"value": "advance integration of public-health and social-measures evidence and guidance into national preparedness and response", "unit": "reported policy objective", "value_type": "reported_framework"}},
+      "method": "WHO reports the scope and outputs of a global technical consultation bringing together public-health, research, civil-society, and international actors.",
+      "uncertainty": "The participant count and consultation scope do not establish global consensus, national implementation, or public acceptance in every setting.",
+      "subgroup": "Public-health authorities, national institutes, researchers, civil-society organizations, international agencies, and communities affected by emergency measures.",
+      "counterinterpretation": "A multi-sector consultation can improve coordination while still missing local knowledge, dissenting views, or populations with limited institutional access.",
+      "source_url": "https://www.who.int/publications/m/item/9789240124318",
+      "retrieval_hash": "sha256:8a747b87bd081ce64a0151cc13bb3ab89906a59f10d6c7744c55d4a08c39166c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 preparedness framework; selection and adaptation of measures",
+      "denominator": {"value": 1, "unit": "WHO framework for public-health and social measures during health emergencies", "value_type": "published_framework"},
+      "measures": {"decision_criteria": {"value": "effectiveness, feasibility, public acceptance, and adverse health and socioeconomic impacts", "unit": "reported decision criteria", "value_type": "reported_framework"}, "context_specificity": {"value": "measures should be selected and adapted to context rather than treated as a uniform package", "unit": "reported implementation principle", "value_type": "reported_framework"}, "tradeoff_scope": {"value": "emergency action has to account for health effects and wider social and economic consequences", "unit": "reported assessment frame", "value_type": "reported_framework"}},
+      "method": "The consultation synthesizes lessons learned and operational guidance around choosing, adapting, and evaluating public-health and social measures.",
+      "uncertainty": "The framework identifies criteria but does not provide a comparative effect estimate for each measure, population, or emergency.",
+      "subgroup": "People subject to movement, gathering, workplace, school, masking, isolation, or other emergency measures, with unequal ability to comply or absorb costs.",
+      "counterinterpretation": "Context adaptation can improve fit but can also create inconsistency, delay, or unequal protection if decision rules and accountability are weak.",
+      "source_url": "https://www.who.int/publications/m/item/9789240124318",
+      "retrieval_hash": "sha256:8a747b87bd081ce64a0151cc13bb3ab89906a59f10d6c7744c55d4a08c39166c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 preparedness work; evidence, unintended consequences, and community-centered response",
+      "denominator": {"value": 1, "unit": "WHO consultation workstream on public-health and social-measures evidence", "value_type": "published_framework"},
+      "measures": {"evaluation_need": {"value": "master protocols are being developed to evaluate the effectiveness of public-health and social measures", "unit": "reported evidence priority", "value_type": "reported_framework"}, "unintended_effects": {"value": "monitoring unintended consequences is part of the preparedness evidence agenda", "unit": "reported evaluation priority", "value_type": "reported_framework"}, "community_approach": {"value": "community-centred approaches are included in operational guidance", "unit": "reported implementation approach", "value_type": "reported_framework"}},
+      "method": "WHO connects research protocols, operational guidance, community-centered approaches, and preparedness decision-making in a common evidence agenda.",
+      "uncertainty": "Prioritizing evaluation and community-centered guidance does not show that protocols are complete, adopted, or effective in practice.",
+      "subgroup": "Communities, local implementers, health workers, researchers, decision-makers, and groups bearing indirect social or economic harms from emergency response.",
+      "counterinterpretation": "More evaluation can improve learning, but emergency speed, data gaps, privacy constraints, and local variation may limit comparability or timely use.",
+      "source_url": "https://www.who.int/publications/m/item/9789240124318",
+      "retrieval_hash": "sha256:8a747b87bd081ce64a0151cc13bb3ab89906a59f10d6c7744c55d4a08c39166c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 preparedness infrastructure; decision support and implementation",
+      "denominator": {"value": 1, "unit": "WHO public-health and social-measures decision-support system", "value_type": "published_framework"},
+      "measures": {"decision_navigator": {"value": "operational guidance for the PHSM Decision Navigator was reviewed", "unit": "reported decision-support tool", "value_type": "reported_framework"}, "influenza_module": {"value": "an epidemic and pandemic influenza module was reviewed", "unit": "reported preparedness module", "value_type": "reported_framework"}, "knowledge_hub": {"value": "an AI-powered PHSM Knowledge Hub is part of the evidence and learning infrastructure", "unit": "reported digital infrastructure", "value_type": "reported_framework"}, "coordination_direction": {"value": "experience, evidence, action, and investment should be connected for preparedness and response", "unit": "reported governance direction", "value_type": "reported_framework"}},
+      "method": "The report describes operational, digital, and research infrastructure intended to connect evidence with emergency decision-making.",
+      "uncertainty": "Mention of tools and modules does not establish their availability, quality, interoperability, adoption, or effects on public trust or outcomes.",
+      "subgroup": "Emergency planners, health authorities, local implementers, researchers, technology teams, and populations relying on timely and credible guidance.",
+      "counterinterpretation": "Digital decision support can improve access and consistency, but it can also reproduce data gaps, obscure judgment, or weaken trust if opaque or poorly adapted.",
+      "source_url": "https://www.who.int/publications/m/item/9789240124318",
+      "retrieval_hash": "sha256:8a747b87bd081ce64a0151cc13bb3ab89906a59f10d6c7744c55d4a08c39166c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.who.int/publications/i/item/9789240114104", "claim": "Complementary WHO evidence on responsible digital technologies and equity in global health."}, {"source_url": "https://www.who.int/en/data/gho/publications/world-health-statistics", "claim": "Complementary WHO health-system, service, and data-quality monitoring."}],
+  "boundary": "This record adds a health-emergency governance route linking public acceptance, equity, feasibility, socioeconomic consequences, community-centered implementation, evaluation, decision support, and preparedness capacity. It uses a global expert consultation and published framework, not respondent-level behavior or attitudes, representative public-opinion estimates, a causal intervention evaluation, a complete implementation inventory, or proof that any emergency measure produced equitable outcomes.",
+  "reproduction_audit": {"retrieval_hash_scope": "WHO publication landing page and overview were reviewed for consultation composition, context-specific decision criteria, public acceptance, socioeconomic consequences, evaluation of unintended effects, community-centered approaches, and decision-support infrastructure.", "source_url_sha256": "sha256:8a747b87bd081ce64a0151cc13bb3ab89906a59f10d6c7744c55d4a08c39166c", "checked": "2026-09-27"}
+}

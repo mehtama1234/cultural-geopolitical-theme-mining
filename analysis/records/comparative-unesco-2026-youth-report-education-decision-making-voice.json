@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-2026-youth-report-education-decision-making-voice",
+  "title": "Youth participation is increasingly recognized in education governance, but formal consultation often stops short of influence",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UNESCO Global Education Monitoring Report, 2026 Youth Report: Lead with youth, in partnership with the United Nations Youth Office",
+  "geography": "Global education governance, youth and student participation, national policy mechanisms, and representative youth organizations",
+  "observations": [
+    {
+      "period": "2026; global baseline of youth participation in education decision-making",
+      "denominator": {"value": 1, "unit": "countries, governments, nationwide youth and student organizations, and education decision-making mechanisms", "value_type": "education_voice_frame"},
+      "measures": {
+        "report_scope": {"value": "first global baseline assessment of how governments engage youth and student organizations in education legislation and policymaking", "unit": "UNESCO GEM report scope", "value_type": "reported_framework"},
+        "formal_mechanisms": {"value": "formal consultation mechanisms with young people exist in many countries", "unit": "report synthesis", "value_type": "reported_pattern"},
+        "influence_gap": {"value": "consultation structures often do not translate into genuine influence over education policies", "unit": "report synthesis", "value_type": "reported_gap"}
+      },
+      "method": "UNESCO Global Education Monitoring Report analysis of government and nationwide youth or student organization survey data and country mechanisms.",
+      "uncertainty": "The report measures institutional mechanisms and reported arrangements, not every young person's experience, policy effect, representativeness, or causal influence on education outcomes.",
+      "subgroup": "Young people, students, youth organizations, education ministries, schools, teachers, marginalized groups, and decision-makers.",
+      "counterinterpretation": "Formal consultation can still build relationships, agenda access, and future influence even when immediate policy adoption is limited; some meaningful participation may occur outside official structures.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/2026youthreport",
+      "retrieval_hash": "sha256:7a57edae5d2c5959816db0be46644eed32d7b7f8006732fa276c26afde69eab5",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; youth leadership and education-system redesign",
+      "denominator": {"value": 1, "unit": "global education agenda, youth participation, and SDG 4 transition frame", "value_type": "youth_leadership_frame"},
+      "measures": {
+        "youth_as_agents": {"value": "the report frames young people as active agents of systemic and long-term change rather than only beneficiaries of education policy", "unit": "UNESCO and UN Youth Office framing", "value_type": "reported_framework"},
+        "agenda_transition": {"value": "the report links participation to the final years of SDG 4 and the design of education beyond the current SDG framework", "unit": "report scope", "value_type": "reported_transition"},
+        "co_design_question": {"value": "the central governance question is whether education agendas are shaped with youth rather than merely for youth", "unit": "report analytical frame", "value_type": "reported_mechanism"}
+      },
+      "method": "UNESCO report synthesis connecting the 2022 Youth Declaration, current education-governance mechanisms, and the next global education agenda.",
+      "uncertainty": "A framing commitment to co-design does not establish implementation, representational fairness, or improved learning, employment, wellbeing, or trust outcomes.",
+      "subgroup": "Youth leaders, students, education authorities, teachers, civil society, and communities affected by education reform.",
+      "counterinterpretation": "Participation can be symbolic or uneven, but sustained youth leadership may improve policy relevance, legitimacy, accountability, and intergenerational learning.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/2026youthreport",
+      "retrieval_hash": "sha256:7a57edae5d2c5959816db0be46644eed32d7b7f8006732fa276c26afde69eab5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; organizational infrastructure for youth voice",
+      "denominator": {"value": 1, "unit": "globally mapped nationwide youth and student organizations involved in education decision-making", "value_type": "youth_organization_frame"},
+      "measures": {
+        "organization_mapping": {"value": 500, "unit": "more than nationwide youth and student organizations included in the accompanying global mapping", "value_type": "reported_mapping_scale"},
+        "representation_channel": {"value": "organized youth and student bodies provide an institutional channel for education-policy voice", "unit": "UNESCO report framework", "value_type": "reported_mechanism"},
+        "visibility_gap": {"value": "mapping participation infrastructure makes visible who can reach education decision-making and where representation remains thin", "unit": "cross-source analytical mechanism", "value_type": "reported_pattern"}
+      },
+      "method": "UNESCO mapping of nationwide youth and student organizations alongside the global baseline of participation mechanisms.",
+      "uncertainty": "An organization count does not measure membership, internal democracy, policy access, geographic coverage, or whether marginalized youth are represented.",
+      "subgroup": "Youth and student organizations, unaffiliated young people, marginalized youth, education officials, schools, and civic intermediaries.",
+      "counterinterpretation": "A smaller number of well-connected organizations can sometimes coordinate durable influence, while a larger organizational field can fragment voice or reproduce elite access.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/2026youthreport",
+      "retrieval_hash": "sha256:7a57edae5d2c5959816db0be46644eed32d7b7f8006732fa276c26afde69eab5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; participation as a cross-domain social contract signal",
+      "denominator": {"value": 1, "unit": "education governance, youth voice, legitimacy, and future-opportunity frame", "value_type": "social_contract_frame"},
+      "measures": {
+        "voice_to_legitimacy": {"value": "the gap between being heard and shaping decisions is a potential legitimacy and trust fault line", "unit": "cross-source analytical mechanism", "value_type": "inferred_mechanism"},
+        "education_to_work": {"value": "education participation links youth voice to skills, work transitions, identity, and future opportunity", "unit": "program synthesis", "value_type": "reported_framework"},
+        "implementation_test": {"value": "the next test is whether participation changes agenda-setting, implementation, monitoring, or accountability", "unit": "program synthesis", "value_type": "open_question"}
+      },
+      "method": "Program-level synthesis connecting the UNESCO participation baseline to education, work, trust, and institutional-feedback themes.",
+      "uncertainty": "This is a cross-source analytical bridge, not a causal estimate from the UNESCO report; the record does not claim that participation automatically produces trust or better outcomes.",
+      "subgroup": "Young people, students, educators, employers, families, civic organizations, and public institutions.",
+      "counterinterpretation": "Young people may exercise agency through work, culture, protest, mutual aid, digital communities, or local organizations even when formal education channels are weak.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/2026youthreport",
+      "retrieval_hash": "sha256:7a57edae5d2c5959816db0be46644eed32d7b7f8006732fa276c26afde69eab5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/reports/gem-report/en/2026", "claim": "The 2026 GEM report provides complementary global education-exclusion, completion, and opportunity context."},
+    {"source_url": "https://www.un.org/development/desa/pd/node/4478", "claim": "UN DESA World Population Highlights 2026: Youth provides complementary demographic and wellbeing context for youth transitions."}
+  ],
+  "boundary": "This record adds a global youth-participation, education-governance, institutional-voice, and intergenerational-legitimacy route. It uses government and organization-level survey analysis, institutional mapping, and report synthesis, not raw respondent-level attitudes, individual student histories, causal participation effects, or proof that consultation produces better education outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNESCO 2026 Youth Report materials were reviewed for the global participation baseline, formal-consultation/influence gap, youth-as-agents framing, and mapping of nationwide youth and student organizations.",
+    "source_url_sha256": "sha256:7a57edae5d2c5959816db0be46644eed32d7b7f8006732fa276c26afde69eab5",
+    "checked": "2026-09-26"
+  }
+}

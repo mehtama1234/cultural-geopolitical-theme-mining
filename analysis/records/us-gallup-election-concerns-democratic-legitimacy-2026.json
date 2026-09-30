@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-election-concerns-democratic-legitimacy-2026",
+  "title": "Election anxiety is broad, partisan in its targets, and connected to confidence in democratic administration",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup and Charles F. Kettering Foundation, Election Concerns Run High Ahead of 2026 Midterms, July 29, 2026",
+  "geography": "United States; adults surveyed ahead of the 2026 congressional and state elections",
+  "observations": [
+    {
+      "period": "April 24-June 10, 2026; election-integrity concern frame",
+      "denominator": {"value": 23683, "unit": "U.S. adults in the web and mail Democracy for All Project survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "leader_pressure_concern": {"value": 67, "unit": "percent expressing a great deal or fair amount of concern that political leaders could pressure election officials to change outcomes", "value_type": "reported_survey_share"},
+        "ballot_handling_concern": {"value": 57, "unit": "percent concerned about ballots being improperly handled, counted, or secured", "value_type": "reported_survey_share"},
+        "voter_intimidation_concern": {"value": 52, "unit": "percent concerned about voter intimidation near polling places", "value_type": "reported_survey_share"},
+        "multiple_concerns": {"value": 73, "unit": "percent reporting at least a fair amount of concern about multiple aspects of the election process", "value_type": "reported_survey_share"}
+      },
+      "method": "Gallup/Kettering web-and-mail survey of 23,683 U.S. adults fielded April 24-June 10, 2026; published margin of sampling error ±1 percentage point at 95% confidence.",
+      "uncertainty": "These are perceptions and concerns, not verified election risks or predictions of turnout, fraud, intimidation, or outcome acceptance; the source notes no trend comparison for the measured questions.",
+      "subgroup": "U.S. adults approaching the 2026 midterm elections, with different political identities, media use, race/ethnicity, and attention to politics.",
+      "counterinterpretation": "Concern can motivate vigilance and participation rather than reduce confidence; the same respondent may be concerned about several risks for different reasons.",
+      "source_url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx",
+      "retrieval_hash": "sha256:8e49617e0f1145931717c72d1ae1d73083d41f97d39ba2f91690962ae4759574",
+      "status": "reported"
+    },
+    {
+      "period": "April 24-June 10, 2026; partisan targets of election concern",
+      "denominator": {"value": 23683, "unit": "U.S. adults in the Democracy for All Project survey; subgroup estimates are party-conditioned", "value_type": "published_survey_sample"},
+      "measures": {
+        "leader_pressure_party_gap": {"value": "77 percent of Democrats versus 56 percent of Republicans concerned about political leaders pressuring election officials", "unit": "reported party comparison", "value_type": "reported_comparison"},
+        "intimidation_party_gap": {"value": "60 percent of Democrats versus 46 percent of Republicans concerned about voter intimidation near polling places", "unit": "reported party comparison", "value_type": "reported_comparison"},
+        "ballot_security_party_gap": {"value": "66 percent of Republicans versus 52 percent of Democrats and 54 percent of independents concerned about ballot handling, counting, or security", "unit": "reported party comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Published Gallup/Kettering party-conditioned comparisons of election-process concerns.",
+      "uncertainty": "Party differences describe concern targets, not agreement about the underlying facts or stable partisan trends; cross-sectional association does not establish information or political causality.",
+      "subgroup": "Democrats, Republicans, independents, and adults with distinct interpretations of election administration and political threat.",
+      "counterinterpretation": "Partisan asymmetry may reflect different lived experiences, elite cues, media environments, or conceptions of election risk; it does not by itself show that one group is more or less committed to elections.",
+      "source_url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx",
+      "retrieval_hash": "sha256:8e49617e0f1145931717c72d1ae1d73083d41f97d39ba2f91690962ae4759574",
+      "status": "reported"
+    },
+    {
+      "period": "April 24-June 10, 2026; social-media use and perceived election risk",
+      "denominator": {"value": 23683, "unit": "U.S. adults in the survey; social-media-use categories are compared descriptively", "value_type": "published_survey_sample"},
+      "measures": {
+        "intimidation_nonuser_to_heavy": {"value": "48 to 60", "unit": "percent concerned about voter intimidation among social-media nonusers versus heavy users spending three or more hours per day", "value_type": "reported_comparison"},
+        "ballot_security_nonuser_to_heavy": {"value": "48 to 65", "unit": "percent concerned about ballot handling, counting, or security among nonusers versus heavy users", "value_type": "reported_comparison"},
+        "protest_harm_nonuser_to_heavy": {"value": "58 to 72", "unit": "percent concerned about peaceful protesters being harmed among nonusers versus heavy users", "value_type": "reported_comparison"},
+        "attention_route": {"value": "social-media intensity is associated with higher reported concern across several democracy-related risks", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "Gallup descriptive cross-tabulation of election and democratic-process concerns by self-reported social-media use.",
+      "uncertainty": "The comparison is observational; social-media intensity may be a proxy for age, political interest, news exposure, ideology, or other factors and does not demonstrate that platforms produced concern.",
+      "subgroup": "Social-media nonusers, light or moderate users, and heavy users reporting three or more hours per day.",
+      "counterinterpretation": "People who are already more concerned may seek more political information and social media; greater exposure may also improve awareness rather than simply increase anxiety.",
+      "source_url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx",
+      "retrieval_hash": "sha256:8e49617e0f1145931717c72d1ae1d73083d41f97d39ba2f91690962ae4759574",
+      "status": "reported"
+    },
+    {
+      "period": "April 24-June 10, 2026; broader democratic-governance concerns",
+      "denominator": {"value": 23683, "unit": "U.S. adults in the Democracy for All Project survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "illegal_action_concern": {"value": 80, "unit": "percent concerned about political leaders taking actions they know may be illegal", "value_type": "reported_survey_share"},
+        "anonymous_money_concern": {"value": 78, "unit": "percent concerned about wealthy people or organizations making large anonymous political donations", "value_type": "reported_survey_share"},
+        "gerrymandering_concern": {"value": 77, "unit": "percent concerned about district boundaries being changed to favor a party or candidate", "value_type": "reported_survey_share"},
+        "legitimacy_route": {"value": "election anxiety extends beyond ballot administration into accountability, political finance, representation, and institutional fairness", "unit": "reported democratic-legitimacy mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Gallup/Kettering survey estimates of concerns about broader democratic governance and institutional integrity.",
+      "uncertainty": "Reported concern does not measure actual illegality, anonymous donations, gerrymandering, institutional fairness, or subsequent political action; several items are normatively and politically interpreted.",
+      "subgroup": "U.S. adults with different party identities, race/ethnicity, political attention, and trust in democratic institutions.",
+      "counterinterpretation": "High concern can reflect heightened civic awareness and demand for accountability rather than democratic withdrawal or declining commitment.",
+      "source_url": "https://news.gallup.com/poll/712955/election-concerns-run-high-ahead-2026-midterms.aspx",
+      "retrieval_hash": "sha256:8e49617e0f1145931717c72d1ae1d73083d41f97d39ba2f91690962ae4759574",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx", "claim": "The parent Democracy for All Project supplies separate national and local democratic-performance and accountability measures.", "status": "official_context"},
+    {"source_url": "https://news.gallup.com/poll/711047/podcaster-audiences-want-us-democracy.aspx", "claim": "Gallup's influencer-audience analysis supplies a separate media-to-political-judgment route.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a U.S. election-legitimacy route connecting perceived election risks, partisan threat interpretation, social-media intensity, accountability, political finance, representation, and institutional confidence. It is a large cross-sectional survey, not an election-security audit, forecast, turnout estimate, causal media study, or evidence that concern translates into participation or rejection of outcomes.",
+  "retrieval_hash": "sha256:8e49617e0f1145931717c72d1ae1d73083d41f97d39ba2f91690962ae4759574"
+}

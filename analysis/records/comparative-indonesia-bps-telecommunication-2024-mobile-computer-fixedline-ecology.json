@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-indonesia-bps-telecommunication-2024-mobile-computer-fixedline-ecology",
+  "title": "Indonesia's internet use is widespread, but the device ecology remains mobile-first with low computer and fixed-line ownership",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "BPS-Statistics Indonesia, Telecommunication Statistics in Indonesia 2024",
+  "geography": "Indonesia; national population, households, and internet users represented by Susenas 2024",
+  "observations": [
+    {
+      "period": "2023-2024; national internet use and mobile-phone ownership",
+      "denominator": {
+        "value": 281600000,
+        "unit": "Indonesia population represented by BPS national estimates; internet and device indicators use their stated Susenas denominators",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "internet_access_2023": {"value": 69.21, "unit": "percent of population accessing the internet", "value_type": "official_population_share"},
+        "internet_access_2024": {"value": 72.78, "unit": "percent of population accessing the internet", "value_type": "official_population_share"},
+        "mobile_cellular_phone_ownership_2024": {"value": 68.65, "unit": "percent of population owning or using a mobile cellular phone", "value_type": "official_population_share"},
+        "mobile_cellular_phone_ownership_2023": {"value": 67.29, "unit": "percent of population owning or using a mobile cellular phone", "value_type": "official_population_share"},
+        "mechanism": {"value": "Internet use is expanding alongside mobile ownership, making mobile devices the primary gateway to digital culture, sociality, and commerce for a large population; the aggregate does not reveal quality, affordability, or depth of use", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BPS annual telecommunications publication drawing on the National Socio-Economic Survey (Susenas), with internet-use indicators reported for 2023 and 2024.",
+      "uncertainty": "Internet access is a recent-use indicator and does not measure frequency, data volume, device quality, bandwidth, cultural use, or household-level access conditions.",
+      "subgroup": "Indonesia's national population represented by BPS Susenas estimates.",
+      "counterinterpretation": "Rising internet use may reflect multiple users sharing devices, low-intensity access, or administrative and survey changes rather than equal digital optionality.",
+      "source_url": "https://www.bps.go.id/en/publication/2025/08/29/beaa2be400eda6ce6c636ef8/telecommunication-statistics-in-indonesia-2024.html",
+      "retrieval_hash": "sha256:500b7047cce7dbbcb0c6f6f5bf7f226aecfbdb48f726323fe065c6e6ca8c9523",
+      "status": "reported"
+    },
+    {
+      "period": "2024; household technology ownership and internet-user device access",
+      "denominator": {
+        "value": 281600000,
+        "unit": "Indonesia population and households represented by BPS Susenas 2024 estimates",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "household_computer_ownership": {"value": 18.52, "unit": "percent of households owning or controlling a computer", "value_type": "official_household_share"},
+        "household_fixed_line_phone_ownership": {"value": 0.99, "unit": "percent of households owning or controlling a fixed-line telephone", "value_type": "official_household_share"},
+        "mobile_cellular_as_internet_access_device": {"value": 99.08, "unit": "percent of internet users using a mobile cellular device to access the internet", "value_type": "official_device_share"},
+        "laptop_as_internet_access_device": {"value": 10.12, "unit": "percent of internet users using a laptop to access the internet", "value_type": "official_device_share"},
+        "mechanism": {"value": "The Indonesian digital-consumer stack is overwhelmingly handset-based: almost all internet users use mobile cellular devices, while computer ownership and fixed-line telephony are minority conditions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BPS Susenas 2024 household-ownership and internet-user device indicators; device percentages may be multiple response.",
+      "uncertainty": "The measures do not identify smartphone quality, shared-device use, screen size, data cost, computer availability at work or school, or the activities performed on each device.",
+      "subgroup": "Indonesian households and internet users represented by the 2024 Susenas survey.",
+      "counterinterpretation": "Handset-first access can be an adaptive and sufficient pathway for many activities; low computer ownership does not necessarily imply low digital participation.",
+      "source_url": "https://www.bps.go.id/en/publication/2025/08/29/beaa2be400eda6ce6c636ef8/telecommunication-statistics-in-indonesia-2024.html",
+      "retrieval_hash": "sha256:500b7047cce7dbbcb0c6f6f5bf7f226aecfbdb48f726323fe065c6e6ca8c9523",
+      "status": "reported"
+    },
+    {
+      "period": "2024; location ecology of internet access",
+      "denominator": {
+        "value": 72780000,
+        "unit": "population internet users represented by BPS Susenas 2024 estimates; location measures allow multiple responses",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "internet_access_at_own_home": {"value": 97.31, "unit": "percent of internet users accessing at their own home", "value_type": "official_access_location_share"},
+        "internet_access_public_places": {"value": 51.62, "unit": "percent of internet users accessing in public places", "value_type": "official_access_location_share"},
+        "internet_access_in_moving_vehicle": {"value": 33.31, "unit": "percent of internet users accessing in a moving vehicle", "value_type": "official_access_location_share"},
+        "internet_access_commercial_location": {"value": 11.79, "unit": "percent of internet users accessing in commercial locations", "value_type": "official_access_location_share"},
+        "mechanism": {"value": "Home remains the dominant access location, but public and mobile-mobility access are material secondary layers, suggesting that digital cultural and consumer participation can move across household, public, and transit spaces", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BPS Susenas 2024 internet-location indicators; responses can exceed 100% because users may access at multiple locations.",
+      "uncertainty": "Location of access does not measure quality, privacy, time burden, cost, or what users do online; the denominator is internet users rather than the full population.",
+      "subgroup": "Indonesian population aged 5 years and above accessing the internet in the reference period, as defined by BPS tables.",
+      "counterinterpretation": "High home access may reflect mobile use inside the home rather than fixed broadband, and public-place access may be incidental or low intensity.",
+      "source_url": "https://www.bps.go.id/en/statistics-table/2/ODcxIzI%3D/percentage-of-population-aged-5-years-and-over-who-ever-accessing-internet-in-the-last-3-months-by-media-location-of-access.html",
+      "retrieval_hash": "sha256:500b7047cce7dbbcb0c6f6f5bf7f226aecfbdb48f726323fe065c6e6ca8c9523",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bps.go.id/en/publication/2025/08/29/beaa2be400eda6ce6c636ef8/telecommunication-statistics-in-indonesia-2024.html",
+      "claim": "BPS publication documents Susenas-based internet penetration, mobile ownership, fixed-line and computer ownership, and telecommunications context.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.bps.go.id/en/statistics-table/2/ODU4IzI%3D/percentage-of-population-aged-5-years-and-over-who-ever-accessing-internet-in-the-last-3-months-by-media-of-access.html",
+      "claim": "BPS statistical table provides internet-access device shares for computer, laptop, mobile cellular, and other devices in 2024.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds Indonesian evidence on internet penetration, mobile/computer/fixed-line device ecology, and access locations. It does not measure cultural participation, platform behavior, digital quality, data affordability, household inequality, or causal consumer effects.",
+  "retrieval_hash": "sha256:500b7047cce7dbbcb0c6f6f5bf7f226aecfbdb48f726323fe065c6e6ca8c9523"
+}

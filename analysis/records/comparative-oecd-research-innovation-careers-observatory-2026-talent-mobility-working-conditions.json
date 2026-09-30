@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-research-innovation-careers-observatory-2026-talent-mobility-working-conditions",
+  "title": "Research and innovation careers are expanding while STEM composition, renewal, mobility, and employment stability reveal uneven future capacity",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "OECD, Research and Innovation Careers Observatory 2026: Key Indicators on Talent, Mobility and Working Conditions",
+  "geography": "OECD countries and major research and innovation systems with comparative talent, mobility, labor-market, and working-condition indicators",
+  "observations": [
+    {
+      "period": "2015-2024; research and development workforce",
+      "denominator": {"value": 1, "unit": "OECD employment and research-and-development workforce frame", "value_type": "employment_indicator_frame"},
+      "measures": {
+        "rd_personnel_2024": {"value": 1.6, "unit": "percent of employment represented by research and development personnel across OECD countries in 2024", "value_type": "reported_estimate"},
+        "rd_personnel_2015": {"value": 1.3, "unit": "percent of employment represented by research and development personnel across OECD countries in 2015", "value_type": "reported_estimate"},
+        "career_direction": {"value": "opportunities for highly skilled people to participate in research and innovation have grown considerably", "unit": "OECD report synthesis", "value_type": "reported_finding"},
+        "renewal_risk": {"value": "future supply is not guaranteed because several countries saw doctoral graduate numbers decline amid ageing and older qualified workforces", "unit": "OECD report finding", "value_type": "reported_risk"}
+      },
+      "method": "OECD-EU Research and Innovation Careers Observatory comparative indicators on workforce size, composition, renewal, outcomes, and mobility.",
+      "uncertainty": "OECD aggregates conceal country, discipline, gender, sector, contract, and career-stage differences; workforce share does not measure innovation quality or worker experience directly.",
+      "subgroup": "Researchers, engineers, doctoral students, technicians, employers, universities, public laboratories, firms, and policymakers responsible for talent renewal.",
+      "counterinterpretation": "A growing R&I workforce can strengthen capacity if systems improve career quality, inclusion, research funding, and pathways between sectors.",
+      "source_url": "https://www.oecd.org/en/publications/research-and-innovation-careers-observatory-2026_138ed294-en.html",
+      "retrieval_hash": "sha256:8f6bdb1b1b375161b03ec5c420c41798ac6f1c967fe0b9b8cb0822fd5c330e0f",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; advanced degrees and STEM composition",
+      "denominator": {"value": 1, "unit": "OECD master's, doctoral, STEM employment, and advanced-qualification frame", "value_type": "skills_composition_frame"},
+      "measures": {
+        "doctoral_degrees_2023": {"value": 300000, "unit": "more than doctoral degrees awarded across OECD countries in 2023", "value_type": "reported_estimate"},
+        "masters_degrees_2023": {"value": 3900000, "unit": "more than master's degrees awarded across OECD countries in 2023", "value_type": "reported_estimate"},
+        "ict_employment_2024": {"value": 3.1, "unit": "percent of OECD employment in ICT professional occupations in 2024", "value_type": "reported_estimate"},
+        "science_engineering_employment_2024": {"value": 3.7, "unit": "percent of OECD employment in science and engineering professional occupations in 2024", "value_type": "reported_estimate"},
+        "doctoral_stem_share": {"value": "the share of doctoral graduates in STEM fell from 48 percent in 2015 to 46 percent in 2023", "unit": "OECD qualification-composition comparison", "value_type": "reported_difference"}
+      },
+      "method": "OECD education, employment, qualification, and occupation indicators assembled through the ReICO evidence base.",
+      "uncertainty": "Degree and occupation categories do not show field quality, skill use, migration selection, job tasks, or whether graduates enter research careers; comparisons vary by national classification.",
+      "subgroup": "STEM students, doctoral and master's graduates, ICT workers, science and engineering professionals, educators, firms, and research institutions.",
+      "counterinterpretation": "Stable or falling STEM shares in advanced degrees can reflect expansion of other valuable fields; policy should match skills to changing needs rather than maximize one category mechanically.",
+      "source_url": "https://www.oecd.org/en/publications/research-and-innovation-careers-observatory-2026_138ed294-en.html",
+      "retrieval_hash": "sha256:8f6bdb1b1b375161b03ec5c420c41798ac6f1c967fe0b9b8cb0822fd5c330e0f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; doctorate labor outcomes and employment stability",
+      "denominator": {"value": 1, "unit": "OECD doctorate-holder and master's-holder labor-market comparison frame", "value_type": "career_outcome_frame"},
+      "measures": {
+        "doctorate_employment": {"value": 90, "unit": "percent-plus employment rate typically reported for doctorate holders in most countries", "value_type": "reported_summary"},
+        "earnings_premium": {"value": 24, "unit": "percent OECD-wide earnings premium of doctorate holders relative to master's degree holders", "value_type": "reported_estimate"},
+        "full_time": {"value": 90, "unit": "percent of employed doctorate holders in full-time jobs on average across the OECD", "value_type": "reported_estimate"},
+        "stability_constraint": {"value": "doctorate holders are slightly less likely than master's holders to hold indefinite contracts, reflecting fixed-term postdoctoral work in some systems", "unit": "OECD report finding", "value_type": "reported_difference"}
+      },
+      "method": "OECD comparative labor-market indicators for doctorate and master's degree holders, including employment, earnings, hours, and contract status.",
+      "uncertainty": "Country differences, field, age, sector, selection into doctoral education, and contract definitions affect outcomes; aggregate premiums are not individual causal returns.",
+      "subgroup": "Doctorate holders, master's graduates, postdoctoral researchers, early-career scientists, universities, firms, and research funders.",
+      "counterinterpretation": "Strong average labor-market outcomes can coexist with early-career insecurity; longer-term career pathways and sector mobility may improve the value of advanced training.",
+      "source_url": "https://www.oecd.org/en/publications/research-and-innovation-careers-observatory-2026_138ed294-en.html",
+      "retrieval_hash": "sha256:8f6bdb1b1b375161b03ec5c420c41798ac6f1c967fe0b9b8cb0822fd5c330e0f",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; international mobility and evidence gaps",
+      "denominator": {"value": 1, "unit": "OECD internationally mobile graduates, researchers, and R&I evidence frame", "value_type": "mobility_evidence_frame"},
+      "measures": {
+        "mobile_masters": {"value": 19, "unit": "percent of master's graduates who were internationally mobile across the OECD in 2023", "value_type": "reported_estimate"},
+        "mobile_doctorates": {"value": 29, "unit": "percent of doctoral graduates who were internationally mobile across the OECD in 2023", "value_type": "reported_estimate"},
+        "prior_mobility_authors": {"value": 10, "unit": "approximate percent of scientific authors affiliated with OECD countries in 2024 showing evidence of prior international mobility", "value_type": "reported_estimate"},
+        "evidence_priority": {"value": "future evidence should track cross-sector and cross-border careers, critical-technology occupations, capabilities, motivations, working conditions, and long-term trajectories", "unit": "OECD ReICO recommendation", "value_type": "reported_framework"}
+      },
+      "method": "OECD mobility indicators and ReICO evidence agenda combining official statistics with proposed administrative, labor-market, and digital-trace sources.",
+      "uncertainty": "Mobility measures do not reveal who benefits, who is excluded, whether mobility is voluntary, or how mobility affects local research capacity; proposed digital traces are not equivalent to respondent data.",
+      "subgroup": "International students, mobile researchers, foreign-born doctorate holders, host institutions, sending countries, and workers considering research careers.",
+      "counterinterpretation": "Mobility can circulate knowledge and strengthen research linkages, while inclusive domestic career systems can retain talent and avoid treating migration as a zero-sum loss.",
+      "source_url": "https://www.oecd.org/en/publications/research-and-innovation-careers-observatory-2026_138ed294-en.html",
+      "retrieval_hash": "sha256:8f6bdb1b1b375161b03ec5c420c41798ac6f1c967fe0b9b8cb0822fd5c330e0f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/topics/sub-issues/science-technology-and-innovation.html", "claim": "OECD science, technology, and innovation work provides complementary policy and indicator context."},
+    {"source_url": "https://ec.europa.eu/eurostat/web/science-technology-innovation", "claim": "Eurostat provides complementary European science, technology, and innovation statistics used in comparative evidence contexts."}
+  ],
+  "boundary": "This record adds a research-and-innovation labor route across talent supply, STEM composition, doctoral outcomes, contract stability, international mobility, and evidence gaps. It uses OECD comparative indicators and report synthesis, not respondent-level career histories, individual earnings panels, causal education returns, private workplace records, or proof that aggregate talent growth produces equitable innovation outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Research and Innovation Careers Observatory 2026 page reviewed for publication metadata, ReICO scope, R&D employment share, degrees, STEM composition, doctorate outcomes, contract stability, international mobility, and future evidence priorities.",
+    "source_url_sha256": "sha256:8f6bdb1b1b375161b03ec5c420c41798ac6f1c967fe0b9b8cb0822fd5c330e0f",
+    "checked": "2026-09-26"
+  }
+}

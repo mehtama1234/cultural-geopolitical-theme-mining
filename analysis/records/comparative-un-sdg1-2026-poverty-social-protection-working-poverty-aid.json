@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg1-2026-poverty-social-protection-working-poverty-aid",
+  "title": "Poverty reduction has stalled globally while social protection expands unevenly across groups and places",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["unequal_exposure_status", "household_room_consumption", "work_control_bargaining", "care_health_reproduction", "public_systems_feedback", "geopolitical_state_consequences", "political_judgment_action", "housing_place_mobility"],
+  "source_unit": "United Nations SDG Indicators, 2026 Sustainable Development Goals Report, Goal 1: No poverty",
+  "geography": "Global and regional SDG monitoring, with country and population-group comparisons where data are available",
+  "observations": [
+    {
+      "period": "2026 estimate; extreme poverty and 2030 trajectory",
+      "denominator": {"value": 1, "unit": "global population measured against the $3.00/day 2021 PPP extreme-poverty line", "value_type": "sdg_global_monitoring_frame"},
+      "measures": {
+        "extreme_poverty_rate": {"value": 10, "unit": "percent of the global population estimated to live in extreme poverty in 2026", "value_type": "reported_global_estimate"},
+        "people_in_extreme_poverty": {"value": 826, "unit": "million people estimated to live in extreme poverty in 2026", "value_type": "reported_global_estimate"},
+        "2030_projected_rate": {"value": 9, "unit": "percent of the global population projected to remain in extreme poverty in 2030 at the current trajectory", "value_type": "reported_projection"},
+        "sub_saharan_concentration": {"value": 71, "unit": "percent of the world's extreme poor concentrated in sub-Saharan Africa", "value_type": "reported_regional_share"}
+      },
+      "method": "UN SDG indicator monitoring using global and regional poverty estimates and projections based on the $3.00/day 2021 PPP line.",
+      "uncertainty": "The estimate depends on survey coverage, purchasing-power revisions, national accounts projections, and the chosen poverty line; the 2030 figure is a trajectory projection rather than a forecast of policy outcomes.",
+      "subgroup": "People in extreme poverty, sub-Saharan African populations, fragile and conflict-affected settings, and regions with different recovery paths.",
+      "counterinterpretation": "Global averages can conceal substantial country-level progress and do not show whether households move temporarily or persistently below the poverty line.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:be92a5f4d58f4631bf55e90cf4756ae855a31630bd014174a4e544ada187197f",
+      "status": "reported"
+    },
+    {
+      "period": "2023; global social-protection coverage",
+      "denominator": {"value": 1, "unit": "global population and population groups covered by at least one social-protection benefit", "value_type": "sdg_social_protection_frame"},
+      "measures": {
+        "any_benefit_coverage": {"value": 52.4, "unit": "percent of the global population covered by at least one social-protection benefit", "value_type": "reported_global_share"},
+        "unprotected_population": {"value": 3.8, "unit": "billion people without any form of social protection", "value_type": "reported_global_estimate"},
+        "children_family_benefit": {"value": 28.2, "unit": "percent of children receiving a family benefit", "value_type": "reported_group_share"},
+        "unemployed_protection": {"value": 16.7, "unit": "percent of unemployed people covered by unemployment protection", "value_type": "reported_group_share"},
+        "old_age_coverage": {"value": 79.6, "unit": "percent of people above retirement age receiving old-age protection", "value_type": "reported_group_share"}
+      },
+      "method": "UN SDG indicator compilation of social-protection coverage by population group and benefit type.",
+      "uncertainty": "Coverage means receipt of at least one benefit and does not establish adequacy, duration, take-up barriers, real purchasing power, or protection against a specific shock.",
+      "subgroup": "Children, mothers with newborns, people with severe disabilities, workers, unemployed people, older persons, and vulnerable populations.",
+      "counterinterpretation": "Coverage expansion can coexist with inadequate benefit levels; low group coverage may reflect eligibility rules, labor informality, administrative gaps, or measurement differences.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:be92a5f4d58f4631bf55e90cf4756ae855a31630bd014174a4e544ada187197f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; working poverty and generational differences",
+      "denominator": {"value": 1, "unit": "employed population measured against the $3.00/day 2021 PPP line", "value_type": "working_poverty_frame"},
+      "measures": {
+        "working_poor": {"value": 284, "unit": "million workers living in extreme poverty", "value_type": "reported_global_estimate"},
+        "working_poverty_rate": {"value": 7.9, "unit": "percent of employed people living in extreme poverty", "value_type": "reported_global_share"},
+        "sub_saharan_and_ldc_rate": {"value": 40, "unit": "approximately percent working-poverty rate in sub-Saharan Africa and least developed countries", "value_type": "reported_regional_share_approximate"},
+        "youth_risk": {"value": "young people aged 15-24 are more than twice as likely as adults to be working poor", "unit": "reported age gradient", "value_type": "reported_group_comparison"}
+      },
+      "method": "UN SDG labor and poverty indicator monitoring by region, development grouping, and age.",
+      "uncertainty": "Working-poverty estimates depend on employment and household income measurement and do not distinguish job quality, hours, household composition, or informal-work dynamics in every country.",
+      "subgroup": "Young workers, adults, workers in sub-Saharan Africa, least developed countries, landlocked developing countries, and other regions.",
+      "counterinterpretation": "Employment can reduce poverty without eliminating vulnerability; income support, productivity, hours, household size, and public services shape whether work produces security.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:be92a5f4d58f4631bf55e90cf4756ae855a31630bd014174a4e544ada187197f",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; public spending and poverty-focused aid",
+      "denominator": {"value": 132, "unit": "countries or areas with comparable pro-poor public-spending data in at least one sector", "value_type": "public_spending_frame"},
+      "measures": {
+        "bottom_quintile_combined_reach": {"value": 26, "unit": "average share of combined education, health, and direct-transfer spending reaching the poorest 20 percent", "value_type": "reported_average"},
+        "cash_transfer_reach": {"value": 32, "unit": "average share of direct cash and near-cash transfers reaching the poorest 20 percent", "value_type": "reported_average"},
+        "education_reach": {"value": 21, "unit": "average share of education spending reaching the poorest 20 percent", "value_type": "reported_average"},
+        "poverty_reduction_oda_change": {"value": -8.7, "unit": "percent change in poverty-reduction ODA grants between 2023 and 2024", "value_type": "reported_change"},
+        "poverty_reduction_oda_2024": {"value": 19.1, "unit": "billion dollars in poverty-reduction ODA grants in 2024", "value_type": "reported_flow"}
+      },
+      "method": "UN SDG monitoring of pro-poor public spending and official development assistance grants.",
+      "uncertainty": "Spending incidence is not the same as service quality or outcome impact; country comparability and sector coverage vary, and ODA changes do not directly measure all external finance or domestic policy responses.",
+      "subgroup": "The poorest 20 percent, users of education and health services, recipients of transfers, low-income countries, and communities affected by aid-funded services.",
+      "counterinterpretation": "Aggregate spending can have long-term benefits that incidence measures miss, while highly targeted transfers may not substitute for universal, high-quality public services.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:be92a5f4d58f4631bf55e90cf4756ae855a31630bd014174a4e544ada187197f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/", "claim": "UN 2026 Sustainable Development Goals Report provides the broader indicator context."},
+    {"source_url": "https://openknowledge.worldbank.org/entities/publication/0445391c-9b64-4e6e-ad99-617dce4f27bc", "claim": "World Bank State of Social Protection Report provides complementary coverage and adequacy analysis."}
+  ],
+  "boundary": "This record adds a current SDG monitoring route linking extreme poverty, working poverty, social-protection coverage, public spending incidence, aid flows, conflict, climate shocks, and living costs. It is aggregate indicator evidence, not household panel data, respondent-level benefit histories, a causal evaluation of social-protection programs, or proof that coverage is adequate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG Goal 1 2026 page was reviewed for global poverty estimates, 2030 trajectory, social-protection group coverage, working poverty, public spending incidence, and poverty-reduction ODA changes.",
+    "source_url_sha256": "sha256:be92a5f4d58f4631bf55e90cf4756ae855a31630bd014174a4e544ada187197f",
+    "checked": "2026-09-27"
+  }
+}

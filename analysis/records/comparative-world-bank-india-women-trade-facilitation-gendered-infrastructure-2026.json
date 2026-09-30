@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-india-women-trade-facilitation-gendered-infrastructure-2026",
+  "title": "Trade facilitation is not gender-neutral when infrastructure, information and care determine who can reach the border",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank, Bridging the Gender Gap in Trade Facilitation: Evidence and Policy Pathways from India, September 2026",
+  "geography": "India, covering women and men traders, customs brokers, logistics facilities, border procedures and trade-related services",
+  "observations": [
+    {
+      "period": "2021–2023; women's participation in Indian trade and the study survey frame",
+      "denominator": {"value": 1, "unit": "Indian trade-related employment and World Bank trader/customs-broker survey frame", "value_type": "reported_sector_frame"},
+      "measures": {
+        "participation_gap": {"value": "Fewer than 5 percent of working women participate in trade-related services such as transport, logistics and customs clearance, compared with nearly 15 percent of working men", "unit": "reported share of working population", "value_type": "reported_labor_indicator"},
+        "survey": {"value": "626 traders and 401 customs brokers were interviewed across India in October–November 2023; women comprised 29 percent of interviewed traders and 25 percent of interviewed customs brokers", "unit": "reported survey sample", "value_type": "reported_sample_measure"},
+        "care": {"value": "Almost all traders reported caretaking responsibilities; among those with responsibilities, 46 percent of women versus 42 percent of men said care affected their ability to work, while the report also cites women performing about 5 hours of unpaid domestic work daily versus 30 minutes for men", "unit": "reported survey and cited time-use measures", "value_type": "reported_time_measure"},
+        "mechanism": {"value": "Trade participation is constrained not only by formal rules but by the time, mobility and safety conditions needed to physically reach and remain in border and logistics spaces", "unit": "bounded gendered-access mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank assessment combining national employment data, surveys of traders and customs brokers, stakeholder consultations, key informant interviews and field visits to land ports, air cargo terminals, inland container depots and warehouses.",
+      "uncertainty": "The survey is descriptive and purposive in its identification of women-led traders and brokers; participation differences do not identify a causal effect of trade facilitation or care burdens on occupational choice.",
+      "subgroup": "Women traders, customs brokers, logistics workers, women-led firms, small and micro enterprises, and workers with care responsibilities operating in or around cross-border trade.",
+      "counterinterpretation": "Women may be underrepresented in some trade-related services while participating through other roles or sectors not captured by the report; some surveyed women-led firms were larger or more educated than male counterparts.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090826045511910/pdf/P174654-c9a94356-4a7f-4153-ba0f-317ec1223568.pdf",
+      "retrieval_hash": "sha256:b439855634e2cd2e8ef6db0ff156daac102b32bfdebac34ab43d3251ece757ee",
+      "status": "reported"
+    },
+    {
+      "period": "2023 survey; information, consultation and procedure usability at the border",
+      "denominator": {"value": 1, "unit": "Surveyed Indian traders, customs brokers and firms reporting trade-facilitation experience", "value_type": "reported_survey_frame"},
+      "measures": {
+        "information": {"value": "54 percent of women traders found trade information incomplete and 50 percent found it unavailable in local languages; 43 percent of women traders and 50 percent of women brokers found government websites hard to use because information was fragmented", "unit": "percent of surveyed subgroup", "value_type": "reported_survey_indicator"},
+        "consultation": {"value": "Only 12 percent of micro firms felt consulted on border-procedure changes, compared with 47 percent of large firms; only 55 percent of women brokers were aware of the National Committee on Trade Facilitation", "unit": "percent of surveyed subgroup", "value_type": "reported_voice_indicator"},
+        "advance_rulings": {"value": "36 percent of women traders were unaware of advance rulings, but 90 percent of women who used them reported positive experiences", "unit": "percent of surveyed women traders", "value_type": "reported_procedure_indicator"},
+        "mechanism": {"value": "A formally digital and transparent border can remain practically exclusive when information is fragmented, not multilingual, hard to navigate, or disconnected from small-firm consultation and appeal routes", "unit": "bounded administrative-access mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Gender-disaggregated survey evidence and stakeholder analysis of transparency, public-private consultation, grievance and appeal mechanisms, advance rulings and border operating hours.",
+      "uncertainty": "Reported awareness, usability and consultation are not the same as successful clearance, lower costs, fewer unofficial payments, business growth or policy influence; survey responses may reflect recall and selection.",
+      "subgroup": "Women traders and brokers, micro and small firms, women-led businesses, regional-language users and firms with limited administrative capacity.",
+      "counterinterpretation": "Digital portals and advance rulings may reduce friction for firms that can access them; the positive experience among users suggests the main gap may be discoverability and practical access rather than the instrument itself.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090826045511910/pdf/P174654-c9a94356-4a7f-4153-ba0f-317ec1223568.pdf",
+      "retrieval_hash": "sha256:b439855634e2cd2e8ef6db0ff156daac102b32bfdebac34ab43d3251ece757ee",
+      "status": "reported"
+    },
+    {
+      "period": "2023 fieldwork and policy recommendations; safety, finance and gender-responsive trade infrastructure",
+      "denominator": {"value": 1, "unit": "Women brokers, women traders and women-led trading firms in the World Bank assessment", "value_type": "reported_policy_frame"},
+      "measures": {
+        "safety": {"value": "64 percent of women customs brokers reported safety concerns during port visits, including unsafe sanitation, lack of safe resting areas, absence of female officials at night, overcrowding and limited security patrols", "unit": "percent of surveyed women customs brokers", "value_type": "reported_safety_indicator"},
+        "harassment_and_remedy": {"value": "About one-third of traders and brokers who visited border posts reported harassment; among those who did not complain, women traders cited lack of awareness of reporting processes, while women brokers cited distrust and fear of retaliation at 67 percent each", "unit": "reported survey pattern", "value_type": "reported_remedy_barrier"},
+        "finance": {"value": "Close to one-third of women-led trading firms identified access to finance as their top challenge in expanding to international markets", "unit": "reported share of women-led trading firms", "value_type": "reported_finance_indicator"},
+        "mechanism": {"value": "Gender-responsive trade facilitation must convert border infrastructure into usable economic capability through safe facilities, care provision, finance, skills, accountable staffing and trusted complaint routes", "unit": "bounded infrastructure-to-capability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank survey, field observations, consultations and recommendations concerning border infrastructure, safety, care facilities, finance, skills, staffing and grievance mechanisms.",
+      "uncertainty": "The report documents perceived and observed barriers but does not estimate how much each barrier changes trade volume, profit, income, firm survival, harassment incidence or women's long-run occupational mobility.",
+      "subgroup": "Women customs brokers and traders, women-led MSMEs, night-shift and field-based logistics workers, and firms seeking international-market expansion.",
+      "counterinterpretation": "Infrastructure upgrades, female staffing and complaint channels could impose costs or remain symbolic if enforcement, confidential remedy and firm-level accountability do not change; finance alone may not overcome safety and care constraints.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090826045511910/pdf/P174654-c9a94356-4a7f-4153-ba0f-317ec1223568.pdf",
+      "retrieval_hash": "sha256:b439855634e2cd2e8ef6db0ff156daac102b32bfdebac34ab43d3251ece757ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099090826045511910", "claim": "Official World Bank document page with report title, date, report number, scope and disclosure status."},
+    {"source_url": "https://documents.worldbank.org/curated/en/099090826045511910/text/P174654-c9a94356-4a7f-4153-ba0f-317ec1223568.txt", "claim": "Official World Bank text version used to reproduce the report's executive-summary findings and limitations."},
+    {"source_url": "https://www.worldbank.org/en/research/all?lang_exact=English", "claim": "World Bank research index listing the September 2026 report and its gender, jobs and trade-facilitation scope."}
+  ],
+  "boundary": "This record identifies a gendered market-access and infrastructure subtheme. It does not establish that multilingual information, care facilities, safer ports, female staffing, finance, skills or consultation will increase women's trade participation, firm profits, export volume, income, safety or political influence; those require follow-up data linking named interventions to clearance time, fees, complaints, remedy, contracts, firm survival and household outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank 48-page PDF and document/text pages, national participation comparison, trader and broker survey frame, care burden, information and consultation gaps, advance-ruling use, safety concerns, harassment/remedy barriers, finance constraints and recommendations were reviewed.",
+    "source_url_sha256": "sha256:b439855634e2cd2e8ef6db0ff156daac102b32bfdebac34ab43d3251ece757ee",
+    "checked": "2026-09-29"
+  }
+}

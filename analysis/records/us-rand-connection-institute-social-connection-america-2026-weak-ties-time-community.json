@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-rand-connection-institute-social-connection-america-2026-weak-ties-time-community",
+  "title": "American social connection is constrained by time and weak community participation, not simply by individual loneliness",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Second annual Social Connection in America survey, a RAND and The Connection Institute national tracking initiative with Barnes Family Foundation support; 2026 public findings",
+  "geography": "United States; national adult social-connection estimates with state-level and future youth-tracking scope",
+  "observations": [
+    {
+      "period": "2026; U.S. adults",
+      "denominator": {"value": 10000, "unit": "more than 10,000 U.S. adults administered the annual survey through Ipsos KnowledgePanel; exact public denominator not stated", "value_type": "lower_bound"},
+      "measures": {
+        "moderate_or_severe_loneliness": {"value": "about 4 in 10", "unit": "reported share of U.S. adults", "value_type": "reported_share"},
+        "social_connection_trend": {"value": "key indicators weakened for a second consecutive year", "unit": "reported 2025–2026 trend pattern", "value_type": "reported_trend"}
+      },
+      "method": "Second annual Social Connection in America survey, administered to more than 10,000 people by Ipsos through KnowledgePanel; the initiative is designed for annual trend tracking over 25 years and the 2026 questions were generally maintained with added technology and participation-barrier items.",
+      "uncertainty": "The public 2026 findings page does not disclose the exact analytic denominator, full weighting details, response rate, or subgroup precision; the cross-sectional annual comparison does not establish why connection changed or whether loneliness caused later outcomes.",
+      "subgroup": "U.S. adults; state-level and youth extensions are part of the initiative’s broader scope.",
+      "counterinterpretation": "A high loneliness share can coexist with meaningful close relationships, informal support, or temporary stress; weakening indicators do not prove a universal national decline in every dimension of social life.",
+      "source_url": "https://socialconnectioninamerica.org/survey-and-data",
+      "retrieval_hash": "sha256:1dfe6f3175b9575458b4da92985351b2621ee73556002c06b419afb25941021c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; frequency of contact with loved ones",
+      "denominator": {"value": 10000, "unit": "more than 10,000 U.S. adults administered the annual survey through Ipsos KnowledgePanel; exact public denominator not stated", "value_type": "lower_bound"},
+      "measures": {
+        "infrequent_contact_with_loved_ones": {"value": "nearly 70%", "unit": "see loved ones no more than once or twice a month", "value_type": "reported_share"},
+        "very_infrequent_contact": {"value": "one in five", "unit": "meet people they care about only a few times a year or less", "value_type": "reported_share"},
+        "time_as_top_barrier": {"value": 30.6, "unit": "percent naming time constraints as a barrier to connection", "value_type": "reported_share"},
+        "distance_as_barrier": {"value": 14.8, "unit": "percent naming distance as a barrier to connection", "value_type": "reported_share"}
+      },
+      "method": "Descriptive estimates from the second annual Social Connection in America survey; the project reports administration to more than 10,000 people through Ipsos KnowledgePanel.",
+      "uncertainty": "Barrier shares may use a question-specific denominator and are not necessarily mutually exclusive; the summary does not establish whether time scarcity reflects work, caregiving, transport, health, scheduling, or preference.",
+      "subgroup": "U.S. adults reporting social-connection frequency and barriers.",
+      "counterinterpretation": "Infrequent in-person contact does not equal absent support; distance and time can be offset by calls, visits clustered around events, mutual aid, or other forms of connection not captured by the headline measure.",
+      "source_url": "https://socialconnectioninamerica.org/survey-and-data",
+      "retrieval_hash": "sha256:1dfe6f3175b9575458b4da92985351b2621ee73556002c06b419afb25941021c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; virtual connection and AI companionship",
+      "denominator": {"value": 10000, "unit": "more than 10,000 U.S. adults administered the annual survey through Ipsos KnowledgePanel; exact public denominator not stated", "value_type": "lower_bound"},
+      "measures": {
+        "virtual_not_equivalent_to_in_person": {"value": "43.9 disagree vs 24.4 agree", "unit": "percent saying virtual interaction satisfies connection as much as in-person interaction", "value_type": "reported_comparison"},
+        "rare_or_never_ai_companion_use": {"value": 84.9, "unit": "percent reporting they rarely or never use an AI companion", "value_type": "reported_share"}
+      },
+      "method": "Descriptive estimates from the second annual Social Connection in America survey; the project reports administration to more than 10,000 people through Ipsos KnowledgePanel.",
+      "uncertainty": "The public summary does not define the AI-companion category, frequency thresholds, or question order; these are reported perceptions and behaviors, not evidence that virtual interaction or AI companionship improves or harms wellbeing.",
+      "subgroup": "U.S. adults asked about virtual interaction and AI companionship.",
+      "counterinterpretation": "Some people may use virtual interaction as a complement rather than substitute for in-person connection; low AI-companion use may reflect low awareness, novelty, access, or question framing.",
+      "source_url": "https://socialconnectioninamerica.org/survey-and-data",
+      "retrieval_hash": "sha256:1dfe6f3175b9575458b4da92985351b2621ee73556002c06b419afb25941021c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; structured community participation and cross-background interaction",
+      "denominator": {"value": 10000, "unit": "more than 10,000 U.S. adults administered the annual survey through Ipsos KnowledgePanel; exact public denominator not stated", "value_type": "lower_bound"},
+      "measures": {
+        "no_club_or_organization_membership": {"value": 57, "unit": "percent reporting no membership", "value_type": "reported_share"},
+        "did_not_volunteer": {"value": 58, "unit": "percent reporting no volunteering in the past year", "value_type": "reported_share"},
+        "did_not_attend_religious_services": {"value": 49, "unit": "percent reporting no attendance in the past year", "value_type": "reported_share"},
+        "frequent_cross_background_interaction": {"value": 37, "unit": "percent interacting often or all the time with people from different backgrounds or viewpoints", "value_type": "reported_share"},
+        "rare_or_never_cross_background_interaction": {"value": 19, "unit": "percent interacting rarely or never with people from different backgrounds or viewpoints", "value_type": "reported_share"}
+      },
+      "method": "Descriptive estimates from the second annual Social Connection in America survey; the project reports administration to more than 10,000 people through Ipsos KnowledgePanel.",
+      "uncertainty": "Participation categories may overlap and the summary does not provide subgroup denominators, trend standard errors, or causal explanations; nonparticipation in formal institutions does not imply social isolation in informal networks.",
+      "subgroup": "U.S. adults reporting civic, religious, organizational, and cross-background interaction.",
+      "counterinterpretation": "Formal membership and volunteering can decline while informal neighborhood, family, online, workplace, or mutual-aid relationships remain active; cross-background contact is not automatically trust, equality, or durable cooperation.",
+      "source_url": "https://socialconnectioninamerica.org/survey-and-data",
+      "retrieval_hash": "sha256:1dfe6f3175b9575458b4da92985351b2621ee73556002c06b419afb25941021c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://socialconnectioninamerica.org/survey-and-data", "claim": "Official survey page: more than 10,000 respondents administered by Ipsos through KnowledgePanel; 2026 questions generally maintained with added technology and participation-barrier items.", "status": "official-methodology"},
+    {"source_url": "https://www.prnewswire.com/news-releases/new-data-show-social-connection-remains-dangerously-weak-in-the-us-302888523.html", "claim": "Public release announcing the second annual 2026 findings.", "status": "project-release"}
+  ],
+  "boundary": "This record captures public 2026 findings on U.S. social connection, contact frequency, barriers, digital substitution, formal participation, and cross-background interaction. It does not establish causal mechanisms, complete sample or weighting details, individual trajectories, health effects, or whether informal relationships compensate for weak formal participation.",
+  "retrieval_hash": "sha256:1dfe6f3175b9575458b4da92985351b2621ee73556002c06b419afb25941021c"
+}

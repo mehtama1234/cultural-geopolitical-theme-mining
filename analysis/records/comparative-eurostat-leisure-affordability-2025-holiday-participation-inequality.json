@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-leisure-affordability-2025-holiday-participation-inequality",
+  "title": "Cultural and leisure supply remains materially out of reach for many European households despite long-run improvement",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Eurostat, EU Statistics on Income and Living Conditions: inability to afford holidays and regular leisure activity in 2025",
+  "geography": "European Union; population aged 16 years and older and EU-SILC respondents across Member States",
+  "observations": [
+    {
+      "period": "2015-2025; annual holiday affordability",
+      "denominator": {
+        "value": null,
+        "unit": "EU population aged 16 years and older in EU-SILC; source article reports population shares without pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "unable_to_afford_week_holiday_2025": {"value": 27.5, "unit": "percent unable to afford one week of annual holiday away from home", "value_type": "official_population_share"},
+        "unable_to_afford_week_holiday_change_2024": {"value": 0.5, "unit": "percentage-point increase from 2024 to 2025", "value_type": "official_percentage_point_change"},
+        "unable_to_afford_week_holiday_change_2015": {"value": -7.7, "unit": "percentage-point change from 2015 to 2025", "value_type": "official_percentage_point_change"},
+        "mechanism": {"value": "Leisure mobility is a household-budget conversion stage: cultural and tourism desire does not become realized participation when households cannot finance the trip, accommodation, or time away from home", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "EU-SILC material-deprivation item measuring whether the household can afford one week of annual holiday away from home each year.",
+      "uncertainty": "The indicator captures affordability capacity, not actual desire, travel behavior, destination, trip length, cultural purpose, or the role of time, care, disability, or transport constraints.",
+      "subgroup": "EU population aged 16 years and older, with country estimates based on EU-SILC.",
+      "counterinterpretation": "A household may not afford a holiday but may not want one, may use local leisure, or may participate in low-cost cultural activity; the measure should not be read as total leisure deprivation.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260730-1",
+      "retrieval_hash": "sha256:9f7c44c07c0df47667878601d3c0722a210a3324ac573e235f59b79724af0c68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; cross-country holiday affordability",
+      "denominator": {
+        "value": null,
+        "unit": "EU Member State population aged 16 years and older in EU-SILC; country shares without pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "romania_unable_holiday": {"value": 61.4, "unit": "percent unable to afford one week of annual holiday away from home in Romania", "value_type": "official_country_share"},
+        "greece_unable_holiday": {"value": 46.6, "unit": "percent unable to afford one week of annual holiday away from home in Greece", "value_type": "official_country_share"},
+        "bulgaria_unable_holiday": {"value": 39.1, "unit": "percent unable to afford one week of annual holiday away from home in Bulgaria", "value_type": "official_country_share"},
+        "hungary_unable_holiday": {"value": 39.1, "unit": "percent unable to afford one week of annual holiday away from home in Hungary", "value_type": "official_country_share"},
+        "luxembourg_unable_holiday": {"value": 10.6, "unit": "percent unable to afford one week of annual holiday away from home in Luxembourg", "value_type": "official_country_share"},
+        "sweden_unable_holiday": {"value": 12.4, "unit": "percent unable to afford one week of annual holiday away from home in Sweden", "value_type": "official_country_share"},
+        "netherlands_unable_holiday": {"value": 12.8, "unit": "percent unable to afford one week of annual holiday away from home in the Netherlands", "value_type": "official_country_share"},
+        "high_low_country_gap": {"value": 50.8, "unit": "percentage-point difference between Romania and Luxembourg", "value_type": "derived_country_gap"},
+        "mechanism": {"value": "Leisure mobility is sharply place-stratified, so a common European cultural and tourism market produces very different household opportunities to leave home and access distant experiences", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "EU-SILC country comparison of inability to afford a week-long annual holiday away from home.",
+      "uncertainty": "Country differences are descriptive and combine income, prices, family structure, housing, transport, social norms, and survey interpretation; they do not identify a single causal driver.",
+      "subgroup": "Population aged 16 years and older in selected EU Member States.",
+      "counterinterpretation": "Lower affordability in one country may coexist with strong local cultural participation or different holiday norms; high affordability does not ensure equal access within the country.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260730-1",
+      "retrieval_hash": "sha256:9f7c44c07c0df47667878601d3c0722a210a3324ac573e235f59b79724af0c68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regular leisure affordability and digital access context",
+      "denominator": {
+        "value": null,
+        "unit": "EU population in EU-SILC; source benchmark reports shares without pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "unable_to_afford_regular_leisure_activity": {"value": 12.1, "unit": "percent unable to afford regular participation in a leisure activity", "value_type": "official_population_share"},
+        "croatia_unable_regular_leisure": {"value": 3.9, "unit": "percent unable to afford regular leisure activity in Croatia", "value_type": "official_country_share"},
+        "greece_unable_regular_leisure": {"value": 27.3, "unit": "percent unable to afford regular leisure activity in Greece", "value_type": "official_country_share"},
+        "unable_to_afford_home_internet": {"value": 2.0, "unit": "percent unable to afford an internet connection for personal use at home", "value_type": "official_population_share"},
+        "mechanism": {"value": "Leisure affordability and digital affordability are related but distinct household constraints: a low internet-access barrier does not imply that people can finance regular leisure, travel, or cultural participation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU-SILC material-deprivation indicators for regular leisure activity and personal home internet access.",
+      "uncertainty": "The leisure item is broad and does not specify cultural form, frequency threshold, quality, transport, or social participation; the internet item does not measure quality, device access, or data affordability.",
+      "subgroup": "EU population covered by EU-SILC, with selected country comparisons.",
+      "counterinterpretation": "Some regular leisure activities are free or home-based, while some households may prefer not to participate; internet affordability can improve without translating into cultural or social opportunity.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260730-1",
+      "retrieval_hash": "sha256:9f7c44c07c0df47667878601d3c0722a210a3324ac573e235f59b79724af0c68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_mdes02/default/table",
+      "claim": "Eurostat's EU-SILC dataset provides the underlying holiday-affordability indicator.",
+      "status": "official-data-archive"
+    },
+    {
+      "source_url": "https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf",
+      "claim": "Eurostat's Key figures on European living conditions reports holiday, regular leisure, food, and internet affordability benchmarks together.",
+      "status": "official-comparative-publication"
+    }
+  ],
+  "boundary": "This record adds EU evidence on leisure affordability, holiday exclusion, country inequality, and the distinction between internet access and regular leisure capacity. It does not measure cultural desire, actual travel, attendance, time scarcity, disability access, household-level causal pathways, or cultural meaning.",
+  "retrieval_hash": "sha256:9f7c44c07c0df47667878601d3c0722a210a3324ac573e235f59b79724af0c68"
+}

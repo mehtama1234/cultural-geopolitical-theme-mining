@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ukraine-living-conditions-spring-2026-poverty-resilience",
+  "title": "War-related poverty and inequality in Ukraine are being transmitted through food variety, labor-market segmentation, care constraints, disability, displacement, and weakening social-assistance adequacy",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Monitoring Living Conditions in Ukraine: Spring 2026 Update, drawing on official pre-war surveys, UNICEF household data, and Listening to Ukraine phone surveys",
+  "geography": "Ukraine during the fourth year of Russia’s full-scale invasion; household phone-survey and modeled national living-conditions evidence",
+  "observations": [
+    {
+      "period": "2021–2025; poverty, inequality, and household resilience",
+      "denominator": {"value": 1, "unit": "World Bank microsimulation-based poverty estimates and Listening to Ukraine evidence", "value_type": "reported_estimate_frame"},
+      "measures": {
+        "poverty_change": {"value": "World Bank estimates indicate that poverty in 2025 had doubled since 2021", "unit": "modeled poverty change", "value_type": "modeled_estimate"},
+        "inequality": {"value": "the update reports rising inequality and declining household resilience under continuing war conditions", "unit": "reported national condition", "value_type": "reported_assessment"},
+        "food_variety": {"value": 35.4, "unit": "percent of households reporting eating only a few kinds of food in Q4 2025", "value_type": "reported_household_share"},
+        "welfare_boundary": {"value": "poverty and food-variety indicators describe material pressure but do not by themselves identify the full causal contribution of war, prices, income, displacement, or policy response", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Combination of microsimulation-based estimates, pre-war official surveys, UNICEF household data, and World Bank Listening to Ukraine phone surveys collected between 2023 and 2025.",
+      "uncertainty": "The source uses different data systems and modeled estimates across periods; the public update is not a single longitudinal panel of all households and does not establish a causal counterfactual.",
+      "subgroup": "Poor and vulnerable households, households with children, displaced people, veterans, people with disabilities, rural and frontline communities, and households with unequal access to work and assistance.",
+      "counterinterpretation": "A national poverty estimate can rise while some households recover or receive effective support; food variety is a material signal but not a complete measure of hunger, nutrition, or household agency.",
+      "source_url": "https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/original/Listening-to-Ukraine-Update-Spring-2026.pdf",
+      "retrieval_hash": "sha256:a592b93b19908c80261cd1fa8ec5a6bb63cceae4694f44bc474997b95760367d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; labor-market segmentation, care, and household poverty",
+      "denominator": {"value": 1, "unit": "World Bank household labor-market analysis in the Spring 2026 update", "value_type": "reported_analysis_frame"},
+      "measures": {
+        "children": {"value": "households with children are more likely to be poor, partly associated with lower female labor-force participation", "unit": "reported subgroup relationship", "value_type": "reported_assessment"},
+        "care_and_education": {"value": "care responsibilities, disruptions in education, and social norms are identified as constraints on female labor-force participation", "unit": "reported labor-market mechanism", "value_type": "reported_mechanism"},
+        "sectoral_gap": {"value": "labor-income gaps across the welfare distribution are related to sectoral variation, with richer workers more represented in high-paying IT and financial services", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"},
+        "informality": {"value": "labor informality remains a structural poverty trap disproportionately affecting vulnerable people", "unit": "reported labor-market condition", "value_type": "reported_assessment"}
+      },
+      "method": "World Bank analysis of labor-market patterns and household welfare distribution using the update’s combined survey and modeled evidence.",
+      "uncertainty": "The summarized relationships do not provide a causal estimate of care, education disruption, sector, or informality effects on individual household poverty.",
+      "subgroup": "Women with care responsibilities, households with children, informal workers, workers outside IT and finance, displaced workers, and households affected by school disruption.",
+      "counterinterpretation": "Sector composition may correlate with education, geography, wartime exposure, and pre-existing wealth; formal employment alone does not guarantee adequate income or protection.",
+      "source_url": "https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/original/Listening-to-Ukraine-Update-Spring-2026.pdf",
+      "retrieval_hash": "sha256:a592b93b19908c80261cd1fa8ec5a6bb63cceae4694f44bc474997b95760367d",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; essential-cost pressure and social-assistance adequacy",
+      "denominator": {"value": 1, "unit": "World Bank living-conditions update on essential consumption and transfers", "value_type": "reported_policy_frame"},
+      "measures": {
+        "essential_prices": {"value": "cumulative price increases in food, utilities, and health-related expenditures continued to erode household purchasing power", "unit": "reported household pressure", "value_type": "reported_assessment"},
+        "assistance": {"value": "declining coverage and value of social assistance limited the ability of transfers to fully protect vulnerable households from rising living costs", "unit": "reported protection limitation", "value_type": "reported_assessment"},
+        "income_protection": {"value": "the adequacy and reliability of social-protection benefits are identified as central to household resilience", "unit": "reported policy requirement", "value_type": "reported_requirement"},
+        "conversion_gap": {"value": "nominal assistance or coverage does not establish real purchasing power, continuity, or protection against a new price or displacement shock", "unit": "bounded mechanism", "value_type": "measurement_limit"}
+      },
+      "method": "World Bank synthesis of household living conditions, prices, and social-assistance coverage/value; it does not provide a randomized transfer evaluation.",
+      "uncertainty": "The update does not establish which households experienced benefit interruption, inadequate amounts, administrative denial, or effective recovery after assistance.",
+      "subgroup": "Low-income households, families with children, energy-vulnerable households, older people, people with disabilities, displaced households, and communities near conflict exposure.",
+      "counterinterpretation": "Transfers may prevent deeper hardship even when they do not fully offset prices; aggregate adequacy does not show household-level receipt or use.",
+      "source_url": "https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/original/Listening-to-Ukraine-Update-Spring-2026.pdf",
+      "retrieval_hash": "sha256:a592b93b19908c80261cd1fa8ec5a6bb63cceae4694f44bc474997b95760367d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; veterans, disability, displacement, and labor-market inclusion",
+      "denominator": {"value": 1, "unit": "World Bank subgroup analysis in the Spring 2026 update", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "inclusion_barriers": {"value": "veterans and people with disabilities face significant barriers to labor-market inclusion", "unit": "reported subgroup condition", "value_type": "reported_assessment"},
+        "compound_exposure": {"value": "war-related injury, displacement, disrupted services, and labor-market exclusion can compound household poverty and care burdens", "unit": "bounded risk mechanism", "value_type": "bounded_mechanism"},
+        "institutional_need": {"value": "effective resilience requires linking social assistance, services, rehabilitation, accessible work, and household support rather than treating income transfer as the entire response", "unit": "bounded policy mechanism", "value_type": "bounded_mechanism"},
+        "next_test": {"value": "a named household or subgroup should be followed from displacement or injury through benefit receipt, care, work access, income, housing, and longer-term recovery", "unit": "research requirement", "value_type": "research_requirement"}
+      },
+      "method": "World Bank subgroup and policy synthesis; the update does not provide a linked individual administrative record across all service and labor outcomes.",
+      "uncertainty": "The public summary does not estimate the relative contribution of injury, disability, displacement, discrimination, care, transport, or labor demand to each person’s outcome.",
+      "subgroup": "Veterans, people with disabilities, internally displaced people, caregivers, children, older people, employers, rehabilitation providers, and local service systems.",
+      "counterinterpretation": "Targeted programs may improve inclusion even while headline labor-market barriers remain; formal eligibility is not proof of accessible work or adequate support.",
+      "source_url": "https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/original/Listening-to-Ukraine-Update-Spring-2026.pdf",
+      "retrieval_hash": "sha256:a592b93b19908c80261cd1fa8ec5a6bb63cceae4694f44bc474997b95760367d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/brief/2025/10/08/listening-to-citizens-of-ukraine-survey", "claim": "World Bank description of the Listening to Ukraine monthly phone-survey programme and household topics."},
+    {"source_url": "https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/", "claim": "World Bank document metadata for the Spring 2026 update."}
+  ],
+  "boundary": "This record adds a geopolitical-shock-to-household-resilience route: war conditions transmit through poverty, food variety, prices, labor-market segmentation, care, informality, disability, displacement, and social-assistance adequacy. It combines modeled estimates and repeated phone surveys, not a causal counterfactual or fully linked longitudinal household panel; it does not prove that any single policy caused the observed change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Spring 2026 update reviewed for poverty and inequality, food variety, labor-market segmentation, care constraints, informality, essential-cost pressure, social-assistance adequacy, veterans, disability, and displacement.",
+    "source_url_sha256": "sha256:a592b93b19908c80261cd1fa8ec5a6bb63cceae4694f44bc474997b95760367d",
+    "checked": "2026-09-29"
+  }
+}

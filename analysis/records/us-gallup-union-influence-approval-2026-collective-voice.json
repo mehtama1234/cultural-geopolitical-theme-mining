@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-union-influence-approval-2026-collective-voice",
+  "title": "Public demand for stronger collective worker voice is rising faster than confidence that unions can regain power",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup, Record-High 47% Want Unions to Have More Influence, September 1, 2026",
+  "geography": "United States; adults in Gallup's annual Work and Education poll",
+  "observations": [
+    {
+      "period": "August 3-24, 2026 survey; desired union influence and approval",
+      "denominator": {"value": 1, "unit": "Gallup annual Work and Education poll; public article does not disclose the respondent count", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "want_more_union_influence": {"value": 47, "unit": "percent wanting labor unions to have more influence than today", "value_type": "published_survey_estimate"},
+        "want_less_union_influence": {"value": 23, "unit": "percent wanting labor unions to have less influence", "value_type": "published_survey_estimate"},
+        "same_union_influence": {"value": 26, "unit": "percent wanting unions to have about the same influence", "value_type": "published_survey_estimate"},
+        "union_approval": {"value": 71, "unit": "percent approving of labor unions", "value_type": "published_survey_estimate"},
+        "more_less_balance": {"value": 24, "unit": "percentage-point balance favoring more rather than less union influence", "value_type": "derived_difference"}
+      },
+      "method": "Gallup annual Work and Education poll conducted August 3-24, 2026; the public article reports national and partisan trend comparisons but not the respondent count or full methodology.",
+      "uncertainty": "The publication summary does not provide sample size, weighting details, question order or complete fieldwork documentation; desired influence and approval are attitudes, not membership, bargaining coverage, strikes or wage outcomes.",
+      "subgroup": "U.S. adults, union members and nonmembers, and Democrats, independents and Republicans.",
+      "counterinterpretation": "People may approve unions as a general counterweight to concentrated employer power without wanting unions in their own workplace or supporting every union action; approval may also reflect broader dissatisfaction with economic conditions.",
+      "source_url": "https://news.gallup.com/poll/713936/record-high-unions-influence.aspx",
+      "retrieval_hash": "source_page:sha256:7bcc5ca75ed5e3a7eac128edaaf84218398c959d63f34e62ac4700b62166417e",
+      "status": "reported"
+    },
+    {
+      "period": "August 3-24, 2026 survey; desired influence versus expected future strength",
+      "denominator": {"value": 1, "unit": "Gallup annual Work and Education poll; public article does not disclose the respondent count", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "expect_unions_stronger": {"value": 27, "unit": "percent expecting labor unions to become stronger in the future", "value_type": "published_survey_estimate"},
+        "expect_unions_weaker": {"value": 39, "unit": "percent expecting labor unions to become weaker", "value_type": "published_survey_estimate"},
+        "expect_same_strength": {"value": 29, "unit": "percent expecting union strength to remain about the same", "value_type": "published_survey_estimate"},
+        "desire_expectation_gap": {"value": 20, "unit": "percentage-point gap between wanting more influence and expecting unions to strengthen", "value_type": "derived_difference"},
+        "interpretive_mechanism": {"value": "Public demand for collective voice now exceeds confidence in institutional capacity to deliver it.", "unit": "analytical synthesis grounded in reported survey estimates", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup comparison of desired union influence with expectations about future union strength.",
+      "uncertainty": "The gap is descriptive and does not identify whether pessimism reflects membership decline, law, employer power, public-sector change, internal union limits, or broader economic expectations.",
+      "subgroup": "U.S. adults overall, with partisan and membership comparisons in the article.",
+      "counterinterpretation": "Respondents may want stronger unions as a symbolic ideal while expecting institutional change to be slow; the two questions may invoke different meanings of influence and strength.",
+      "source_url": "https://news.gallup.com/poll/713936/record-high-unions-influence.aspx",
+      "retrieval_hash": "source_page:sha256:7bcc5ca75ed5e3a7eac128edaaf84218398c959d63f34e62ac4700b62166417e",
+      "status": "reported"
+    },
+    {
+      "period": "August 3-24, 2026 survey; partisan and membership routes to collective voice",
+      "denominator": {"value": 1, "unit": "Gallup annual Work and Education poll; subgroup sample sizes are not disclosed in the public article", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "democrats_want_more": {"value": 73, "unit": "percent of Democrats wanting unions to have more influence", "value_type": "published_subgroup_estimate"},
+        "independents_want_more": {"value": 45, "unit": "percent of independents wanting more union influence", "value_type": "published_subgroup_estimate"},
+        "republicans_want_more": {"value": 19, "unit": "percent of Republicans wanting more union influence", "value_type": "published_subgroup_estimate"},
+        "nonmembers_more_than_less": {"value": "Union nonmembers favor greater influence by 44% to 24%.", "unit": "reported subgroup comparison", "value_type": "published_subgroup_estimate"},
+        "republican_approval": {"value": 52, "unit": "percent of Republicans approving of unions", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Gallup subgroup comparisons by party identification, union membership and approval.",
+      "uncertainty": "Partisan and membership estimates inherit the article's undisclosed subgroup sample sizes and survey-method limitations; attitudes do not establish a coalition for a specific labor policy or organizing campaign.",
+      "subgroup": "Democrats, independents, Republicans, union members and nonmembers.",
+      "counterinterpretation": "Approval across party groups may support unions as a general institution while desired influence remains tied to different ideas of economic order, representation and state-market balance.",
+      "source_url": "https://news.gallup.com/poll/713936/record-high-unions-influence.aspx",
+      "retrieval_hash": "source_page:sha256:7bcc5ca75ed5e3a7eac128edaaf84218398c959d63f34e62ac4700b62166417e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a collective-voice and institutional-capacity route: Americans increasingly want unions to have more influence and approve of them, but fewer expect unions to become stronger. It does not establish membership, organizing activity, bargaining coverage, strikes, wages, firm behavior, legislative change or causal effects of union influence."
+}

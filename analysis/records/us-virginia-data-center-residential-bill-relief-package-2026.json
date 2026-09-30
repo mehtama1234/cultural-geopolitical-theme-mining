@@ -87,6 +87,53 @@
       "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
       "retrieval_hash": "sha256:a12b4629af1fcd6190b2a5e9fd4aea119945464da9057fa98255beb848d98cd8",
       "status": "reported"
+    },
+    {
+      "period": "2026-08-05 through 2026-09-18; enacted and executive implementation stage",
+      "denominator": {
+        "value": 3,
+        "unit": "Virginia data-center accountability actions: SCC tariff direction, enacted consumption-tax administration, and Executive Order 22 framework",
+        "value_type": "reported_regulatory_and_executive_actions"
+      },
+      "measures": {
+        "transmission_cost_assignment": {
+          "value": "The SCC ordered Dominion to develop a policy for directly assigning transmission-infrastructure costs to data centers and other large-load users; the state announcement projected hundreds of millions of dollars in ratepayer protection",
+          "unit": "reported regulatory direction and projected protection",
+          "value_type": "reported_policy_implementation"
+        },
+        "data_center_consumption_tax": {
+          "value": 0.011,
+          "unit": "US dollars per kWh imposed on covered data-center electricity consumption from July 1, 2026 through June 30, 2028",
+          "value_type": "enacted_tax_rate"
+        },
+        "tax_administration": {
+          "value": "The SCC published registration, billing, monthly reporting, collection, and penalty instructions; the first collection was scheduled for September 2026 and included amounts owed from July 1",
+          "unit": "reported implementation machinery",
+          "value_type": "reported_administrative_implementation"
+        },
+        "community_voice_and_transparency": {
+          "value": "Executive Order 22 directed a statewide accountability framework, a local planning and community-engagement toolkit within 120 days, disclosure of material impacts, and a prohibition on new executive-branch nondisclosure agreements covering proposed data-center developments",
+          "unit": "executive implementation direction",
+          "value_type": "reported_governance_action"
+        },
+        "local_site_readiness_control": {
+          "value": "Executive Order 22 excluded new data-center projects with anticipated peak demand of at least 25 MW from specified state site-readiness and expedited-review assistance programs while the framework is implemented",
+          "unit": "reported administrative restriction",
+          "value_type": "reported_governance_action"
+        },
+        "household_bill_and_credit_receipt": {
+          "value": "not observed",
+          "unit": "actual residential bill reduction, proposed credit posting or receipt, net burden, eligibility, and adequacy",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of Virginia's enacted HB30 budget provision, SCC tax-administration page, and Executive Order 22 implementation announcement; enacted rates and administrative controls are coded separately from projected savings and household receipt.",
+      "uncertainty": "The sources establish policy enactment and implementation machinery, not realized household savings. The SCC tariff direction, tax collections, transparency toolkit, community participation, environmental controls, and local benefits still require downstream observation at the facility, locality, bill, and household levels.",
+      "subgroup": "Virginia residential ratepayers, data-center operators, local governments, host communities, utilities, consumer advocates, and state agencies; household-level incidence and community-level participation are not yet observed.",
+      "counterinterpretation": "A tax, tariff direction, and executive framework may improve cost attribution and procedural visibility without reducing bills, preventing local burdens, or changing the pace and distribution of data-center development.",
+      "source_url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html",
+      "retrieval_hash": "sha256:779a8650a2698c313009418c5bee7b2e0344fa68284eebe27a928ecaca1b17be",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -104,6 +151,21 @@
       "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
       "claim": "The SCC summarizes an approved amended transmission cost-allocation method, direct assignment framework, and modeled reduction in a typical residential customer's projected increase.",
       "status": "official-regulatory-summary"
+    },
+    {
+      "source_url": "https://budget.lis.virginia.gov/item/2026/2/HB30/Reenrolled/3/3-5.24/",
+      "claim": "Virginia's 2026 budget imposes a temporary $0.011/kWh electricity-consumption tax on covered data-center operators, establishes SCC collection and refund administration, and schedules the first collection for September 2026.",
+      "status": "official-enacted-budget"
+    },
+    {
+      "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
+      "claim": "The SCC publishes data-center registration, billing, reporting, remittance, and penalty instructions for the enacted electricity-consumption tax.",
+      "status": "official-administrative-implementation"
+    },
+    {
+      "source_url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html",
+      "claim": "Virginia's September 2026 announcement describes Executive Order 22 and its data-center accountability framework, including ratepayer protection, community engagement, transparency, environmental controls, and local planning tools.",
+      "status": "official-executive-implementation"
     }
   ],
   "boundary": "This record establishes a proposed residential bill-credit route alongside an approved modeled cost-allocation framework. It does not establish customer eligibility, bill posting, receipt, net savings, avoided ratepayer burden, reliability improvement, local acceptance, or durable affordability."

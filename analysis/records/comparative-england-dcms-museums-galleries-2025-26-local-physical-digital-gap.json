@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap",
+  "title": "Museum and gallery engagement varies sharply by English local area, with physical and digital access following different geographies",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Department for Culture, Media and Sport, Community and Engagement Survey 2025/26: museums and galleries",
+  "geography": "England; adults aged 16 and over, national and local-authority estimates",
+  "observations": [
+    {
+      "period": "2025/26; museum or gallery engagement in the previous 12 months by local authority",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses across England; local-authority estimates are survey-weighted population estimates", "value_type": "reported_survey_sample"},
+      "measures": {
+        "engaged_any": {"value": 45, "unit": "percent of adults engaging with museums or galleries at least once", "value_type": "reported_survey_share"},
+        "physical_engagement_england": {"value": 42, "unit": "percent of adults physically visiting a museum or gallery", "value_type": "reported_survey_share"},
+        "physical_local_authority_high": {"value": 75, "unit": "percent in the City of London", "value_type": "reported_local_authority_share"},
+        "physical_local_authority_low": {"value": 25, "unit": "percent in Blackburn with Darwen", "value_type": "reported_local_authority_share"},
+        "physical_local_authority_gap": {"value": 50, "unit": "percentage-point difference between reported high and low local-authority estimates", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Physical cultural access is strongly place-differentiated, but the local-authority spread is a composite of supply, tourism, transport, population composition, income, education, and self-selection rather than a pure venue effect", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the DCMS Community and Engagement Survey 2025/26 museums and galleries report; local-authority high and low values are published rounded estimates.",
+      "uncertainty": "Estimates are rounded and survey-weighted; the release cautions that subnational differences should be interpreted with confidence intervals and that local authority is an area classification, not an individual treatment.",
+      "subgroup": "Adults aged 16 and over in England, by lower-tier or unitary local authority.",
+      "counterinterpretation": "The City of London estimate may reflect tourism and unusual population composition, while Blackburn with Darwen may differ in age, deprivation, transport, education, or survey response; neither endpoint identifies the mechanism.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-museums-and-galleries/community-and-engagement-survey-202526-museums-and-galleries-report",
+      "retrieval_hash": "sha256:d37abeef99be6fede802d6455a3812e0a1d140f1c9134b640a3bcfdee6418d11",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; physical and digital museum or gallery engagement and subgroup contrasts",
+      "denominator": {"value": 175000, "unit": "Community and Engagement Survey responses across England; estimates are survey-weighted population shares", "value_type": "reported_survey_sample"},
+      "measures": {
+        "digital_engagement_england": {"value": 15, "unit": "percent of adults digitally engaging with museums or galleries", "value_type": "reported_survey_share"},
+        "digital_engagement_change": {"value": 2, "unit": "percentage-point increase from 2024/25", "value_type": "reported_change"},
+        "digital_local_authority_high": {"value": 29, "unit": "percent in Southwark", "value_type": "reported_local_authority_share"},
+        "digital_local_authority_low": {"value": 9, "unit": "percent in Havant", "value_type": "reported_local_authority_share"},
+        "digital_local_authority_gap": {"value": 20, "unit": "percentage-point difference between reported high and low local-authority estimates", "value_type": "calculated_difference_from_published_table"},
+        "engagement_overlap": {"value": "Among all adults, 12% engaged both physically and digitally, 30% physically only, and 3% digitally only", "unit": "percent of adults", "value_type": "reported_survey_composition"},
+        "disability_physical_gap": {"value": 7, "unit": "percentage-point difference: 45% non-disabled versus 38% disabled physically engaged", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Digital engagement is a smaller but rising access channel and does not simply replace physical engagement: most engagement is physical-only, while digital rates also vary sharply by place and are only slightly different by disability status", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the DCMS 2025/26 museums and galleries report; local-authority and subgroup gaps are calculated from published rounded estimates.",
+      "uncertainty": "Physical and digital measures cover different activities and may include multiple engagements; the annual period combines April-September Participation Survey data with October-March Community and Engagement Survey data, and the report notes sample-size and weighting limitations.",
+      "subgroup": "Adults aged 16 and over in England, with physical/digital and disability-status breakdowns.",
+      "counterinterpretation": "Digital engagement may complement rather than substitute for visits; disability differences may reflect transport, health, venue design, age, income, or reporting, while local digital gaps may reflect language, broadband, institutional presence, or survey composition.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-museums-and-galleries/community-and-engagement-survey-202526-museums-and-galleries-report",
+      "retrieval_hash": "sha256:d37abeef99be6fede802d6455a3812e0a1d140f1c9134b640a3bcfdee6418d11",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/guidance/community-and-engagement-survey-202526", "claim": "DCMS release guidance describing the survey, coverage, replacement of prior surveys, geographic levels, period, and supplementary documentation."},
+    {"source_url": "https://www.ons.gov.uk/explore-local-statistics/indicators/engaged-with-arts", "claim": "ONS local-statistics route using the 2025/26 Community and Engagement Survey and showing local cultural-engagement data-download infrastructure."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-museums-and-galleries", "claim": "DCMS museums and galleries statistical-release landing route and report/data-table publication family."}
+  ],
+  "boundary": "This record adds an England local-area, museum/galleries, physical/digital engagement layer. It does not establish venue supply, travel time, affordability, cultural belonging, service quality, causal local-authority effects, or that digital access substitutes for physical attendance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "DCMS museums and galleries report and related survey guidance reviewed; national, local-authority, physical/digital, overlap, disability, annual-period, sample, rounding, and confidence-interval notes checked.",
+    "html_sha256": "sha256:d37abeef99be6fede802d6455a3812e0a1d140f1c9134b640a3bcfdee6418d11",
+    "checked": "2026-09-30"
+  }
+}

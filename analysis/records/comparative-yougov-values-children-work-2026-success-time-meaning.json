@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-yougov-values-children-work-2026-success-time-meaning",
+  "title": "Americans are negotiating different models of the good life through childrearing values, work time, remote work, and passion versus pay",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "time_hidden_price",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Economist/YouGov Polls, summarized by YouGov in R-E-S-P-E-C-T? What Americans value in kids and work",
+  "geography": "United States; adult citizens, with age, ideology, education, gender, parenthood, and labor-force comparisons",
+  "observations": [
+    {
+      "period": "September 4-8, 2026; preferred traits for children",
+      "denominator": {"value": 1616, "unit": "U.S. adult citizens in the Economist/YouGov poll summarized by the source", "value_type": "reported_survey_sample"},
+      "measures": {
+        "self_reliance_over_obedience": {"value": 58, "unit": "percent preferring self-reliance over obedience for children", "value_type": "published_survey_estimate"},
+        "considerate_over_well_behaved": {"value": 54, "unit": "percent preferring considerate over well-behaved", "value_type": "published_survey_estimate"},
+        "manners_over_curiosity": {"value": 61, "unit": "percent preferring good manners over curiosity", "value_type": "published_survey_estimate"},
+        "elder_respect_over_independence": {"value": 65, "unit": "percent preferring respect for elders over independence", "value_type": "published_survey_estimate"},
+        "ideological_socialization_split": {"value": "Liberals more often choose self-reliance, consideration, curiosity, and independence; conservatives more often choose obedience, good manners, and respect for elders.", "unit": "reported subgroup pattern", "value_type": "reported_mechanism"},
+        "age_heritage_gap": {"value": "80% of adults 65+ prefer respect for elders over independence, versus 53% of adults under 30.", "unit": "reported age comparison", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Economist/YouGov opt-in-panel survey; sample stratified and weighted to U.S. adult citizens using demographic, region, voter-registration, and political targets.",
+      "uncertainty": "These are stated preference trade-offs, not observed parenting, child outcomes, intergenerational behavior, or causal effects of ideology and age.",
+      "subgroup": "U.S. adult citizens, with age, ideology, education, and gender comparisons reported by YouGov.",
+      "counterinterpretation": "Forced-choice wording may exaggerate contrasts between traits that respondents could value simultaneously in everyday life.",
+      "source_url": "https://yougov.com/en-us/articles/55592-r-e-s-p-e-c-t-what-americans-value-in-kids-and-work",
+      "retrieval_hash": "sha256:5348ccac5cd6b44f25b12e1cb5d8571f25b27a028c97068fe08a894b7c75d78d",
+      "status": "reported"
+    },
+    {
+      "period": "September 11-14, 2026; ideal workweek for work-life balance",
+      "denominator": {"value": 1596, "unit": "U.S. adult citizens in the Economist/YouGov poll summarized by the source", "value_type": "reported_survey_sample"},
+      "measures": {
+        "under_35_hours": {"value": 53, "unit": "percent saying a healthy work-life-balance workweek should be 35 hours or less", "value_type": "published_survey_estimate"},
+        "under_30_hours": {"value": 13, "unit": "percent saying the normal workweek should be less than 30 hours", "value_type": "published_survey_estimate"},
+        "thirty_to_thirty_five": {"value": 40, "unit": "percent selecting 30 to 35 hours", "value_type": "published_survey_estimate"},
+        "thirty_six_to_forty": {"value": 43, "unit": "percent selecting 36 to 40 hours", "value_type": "published_survey_estimate"},
+        "under_30_age_gap": {"value": "69% of adults under 30 prefer 35 hours or less, versus 36% of adults 65 and older.", "unit": "reported age comparison", "value_type": "published_subgroup_estimate"},
+        "ideology_time_gap": {"value": "75% of very liberal adults prefer a shorter workweek, versus 32% of very conservative adults.", "unit": "reported ideological comparison", "value_type": "published_subgroup_estimate"},
+        "time_meaning_route": {"value": "Work-time preference is a cultural and political judgment about a healthy life, not only a labor-supply calculation.", "unit": "analytical synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Economist/YouGov opt-in-panel survey with stratification and weighting described in the source methodology.",
+      "uncertainty": "Ideal hours do not establish actual hours, employer feasibility, income loss, productivity, care substitution, or policy support for a particular workweek law.",
+      "subgroup": "U.S. adult citizens by age and ideological self-placement.",
+      "counterinterpretation": "Shorter-workweek preferences may reflect current labor-market conditions, household resources, or survey framing rather than a durable cultural shift.",
+      "source_url": "https://yougov.com/en-us/articles/55592-r-e-s-p-e-c-t-what-americans-value-in-kids-and-work",
+      "retrieval_hash": "sha256:5348ccac5cd6b44f25b12e1cb5d8571f25b27a028c97068fe08a894b7c75d78d",
+      "status": "reported"
+    },
+    {
+      "period": "September 11-14, 2026; remote-work legitimacy",
+      "denominator": {"value": 1596, "unit": "U.S. adult citizens in the Economist/YouGov poll summarized by the source", "value_type": "reported_survey_sample"},
+      "measures": {
+        "remote_work_support": {"value": 72, "unit": "percent strongly or somewhat supporting employers being required to let people work from home when the job can be done remotely", "value_type": "published_survey_estimate"},
+        "remote_work_opposition": {"value": 15, "unit": "percent opposing such a remote-work requirement", "value_type": "published_survey_estimate"},
+        "parent_gender_education_pattern": {"value": "Support is higher among parents of young children, women, college graduates, and liberals.", "unit": "reported subgroup pattern", "value_type": "reported_mechanism"},
+        "work_control_route": {"value": "Remote work is treated as a legitimate condition of work-life balance, with access shaped by care, gender, education, and ideology.", "unit": "analytical synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Economist/YouGov national public-opinion poll summarized in the source article; remote-work question concerns jobs that can be performed remotely.",
+      "uncertainty": "Stated support does not establish whether respondents' jobs are remote-capable, whether mandates are legally or operationally feasible, or how remote work affects productivity and care.",
+      "subgroup": "U.S. adult citizens, including parents of young children, women, college graduates, and ideological groups.",
+      "counterinterpretation": "Support for remote work may represent a preference for flexibility rather than a general endorsement of employer mandates.",
+      "source_url": "https://yougov.com/en-us/articles/55592-r-e-s-p-e-c-t-what-americans-value-in-kids-and-work",
+      "retrieval_hash": "sha256:5348ccac5cd6b44f25b12e1cb5d8571f25b27a028c97068fe08a894b7c75d78d",
+      "status": "reported"
+    },
+    {
+      "period": "September 11-14, 2026; passion versus pay",
+      "denominator": {"value": 1596, "unit": "U.S. adult citizens in the Economist/YouGov poll summarized by the source", "value_type": "reported_survey_sample"},
+      "measures": {
+        "passion_over_pay": {"value": 52, "unit": "percent preferring a passionate job over a well-paying job", "value_type": "published_survey_estimate"},
+        "pay_over_passion": {"value": 48, "unit": "percent preferring a well-paying job over a passionate job", "value_type": "published_survey_estimate"},
+        "full_time_passion": {"value": 46, "unit": "percent of full-time workers prioritizing passion over pay", "value_type": "published_subgroup_estimate"},
+        "nonworker_passion": {"value": "Passion over pay rises to 53% among part-time workers, 56% among unemployed adults, and 58% among retirees.", "unit": "reported labor-force comparison", "value_type": "published_subgroup_estimate"},
+        "success_model_route": {"value": "The meaning of a good job is split between economic security and identity/purpose, and the balance changes with labor-force position and age.", "unit": "analytical synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Economist/YouGov public-opinion poll summarized by YouGov; source reports labor-force subgroup comparisons.",
+      "uncertainty": "A forced choice between passion and pay does not measure actual job choice, income needs, job quality, or long-term wellbeing.",
+      "subgroup": "U.S. adult citizens by full-time, part-time, unemployed, retired, age, and education status.",
+      "counterinterpretation": "People may answer aspirationally, while household costs and labor-market constraints determine actual employment decisions.",
+      "source_url": "https://yougov.com/en-us/articles/55592-r-e-s-p-e-c-t-what-americans-value-in-kids-and-work",
+      "retrieval_hash": "sha256:5348ccac5cd6b44f25b12e1cb5d8571f25b27a028c97068fe08a894b7c75d78d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://yougov.com/en-us/articles/55592-r-e-s-p-e-c-t-what-americans-value-in-kids-and-work",
+      "claim": "The official YouGov summary provides the child-trait trade-offs, age/ideology/education/gender comparisons, workweek preferences, remote-work support, passion-versus-pay split, poll waves, and methodology.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_B94Xkmi.pdf",
+      "claim": "Economist/YouGov poll toplines and crosstabs provide the underlying poll tables linked by the source article.",
+      "status": "linked-poll-resource"
+    }
+  ],
+  "boundary": "This record adds a social-reproduction and work-meaning route: childrearing ideals, work time, remote-work legitimacy, and passion-versus-pay choices are patterned by age, ideology, education, parenthood, and labor-force position. It does not establish actual parenting, work hours, remote-work access, earnings, policy effects, or durable value change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official YouGov article was reviewed for the two poll waves, child-trait comparisons, workweek distributions, remote-work support, passion-versus-pay comparisons, subgroup patterns, and methodology.",
+    "source_page_sha256": "sha256:5348ccac5cd6b44f25b12e1cb5d8571f25b27a028c97068fe08a894b7c75d78d",
+    "checked": "2026-09-28"
+  }
+}

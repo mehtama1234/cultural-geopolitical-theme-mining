@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-family-spending-fye2025-recreation-culture-income-gap",
+  "title": "UK household spending recovered in real terms while the income spending gap widened and recreation recovered selectively",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Office for National Statistics, Family spending in the UK: April 2024 to March 2025, based on the Living Costs and Food Survey",
+  "geography": "United Kingdom; private households, with expenditure by income quintile, category, household type, age, economic status, and region",
+  "observations": [
+    {
+      "period": "Financial year ending 2025; average household expenditure",
+      "denominator": {"value": null, "unit": "Private UK households in the Living Costs and Food Survey; average weekly household expenditure on goods and services", "value_type": "not_disclosed"},
+      "measures": {
+        "average_weekly_expenditure": {"value": 676.6, "unit": "pounds per week per household", "value_type": "reported_average"},
+        "nominal_change": {"value": 9, "unit": "percent increase from FYE 2024", "value_type": "reported_change"},
+        "real_change": {"value": 5, "unit": "percent increase from FYE 2024 after category-specific inflation adjustment", "value_type": "reported_change"},
+        "real_gap_from_2020": {"value": -75.6, "unit": "pounds per week below FYE 2020 average after inflation adjustment", "value_type": "reported_difference"},
+        "transport_real_change": {"value": 8.1, "unit": "pounds per week real increase in transport spending", "value_type": "reported_change_amount"},
+        "recreation_culture_real_change": {"value": 6.7, "unit": "pounds per week real increase in recreation and culture spending", "value_type": "reported_change_amount"},
+        "housing_energy_real_change": {"value": 5.6, "unit": "pounds per week real increase in net housing, fuel, and power spending", "value_type": "reported_change_amount"},
+        "mechanism": {"value": "Aggregate consumer recovery can coexist with an incomplete post-shock level recovery: households are spending more in real terms, but the composition includes housing, transport, energy, and recreation increases that may reflect different pressures and opportunities", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the ONS Family Spending bulletin; nominal and real changes use category-specific CPI deflators and the survey reports average weekly household expenditure.",
+      "uncertainty": "The LCF is a sample survey of private households and expenditure estimates are subject to sampling and reporting error. Aggregate increases do not show whether quantities, prices, household composition, or quality changed, and the data are not a panel of the same households.",
+      "subgroup": "UK private households, with expenditure separated into COICOP categories and financial-year comparisons.",
+      "counterinterpretation": "Higher recreation and culture spending may reflect price, travel, package holidays, household composition, or higher-income households rather than broad cultural access; real increases do not imply improved welfare for every household.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2024tomarch2025",
+      "retrieval_hash": "sha256:15bae2ba85f6399969fecad9026e7b8c7df9c1a70835d712402fa0a71f53ec83",
+      "status": "observed"
+    },
+    {
+      "period": "Financial year ending 2025; income quintile distribution and discretionary categories",
+      "denominator": {"value": null, "unit": "UK households grouped into equivalised disposable-income fifths; reported average weekly expenditure", "value_type": "not_disclosed"},
+      "measures": {
+        "richest_fifth_weekly_expenditure": {"value": 1083.6, "unit": "pounds per week per household", "value_type": "reported_subgroup_average"},
+        "poorest_fifth_weekly_expenditure": {"value": 407.3, "unit": "pounds per week per household", "value_type": "reported_subgroup_average"},
+        "richest_to_poorest_ratio": {"value": 2.7, "unit": "ratio of richest-fifth to poorest-fifth total weekly expenditure", "value_type": "reported_ratio"},
+        "richest_fifth_change": {"value": 98.1, "unit": "pounds per week increase from FYE 2024 for the richest fifth", "value_type": "reported_change_amount"},
+        "poorest_fifth_change": {"value": 18.1, "unit": "pounds per week increase from FYE 2024 for the poorest fifth", "value_type": "reported_change_amount"},
+        "second_hand_car_nominal_change": {"value": 25, "unit": "percent nominal increase in second-hand car purchases", "value_type": "reported_change"},
+        "package_holiday_real_change": {"value": 14, "unit": "percent real increase in package-holiday-abroad spending", "value_type": "reported_change"},
+        "sports_leisure_services_nominal_change": {"value": 29, "unit": "percent nominal increase in sports admission, leisure subscriptions, classes, and equipment hire", "value_type": "reported_change"},
+        "mechanism": {"value": "Selective discretionary recovery is distributionally asymmetric: higher-income households added much more total spending while transport, holidays, sports, subscriptions, and classes recovered as optional categories", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction of income-quintile and category comparisons from the official Family Spending release; category groupings and price-adjusted comparisons follow the ONS publication definitions.",
+      "uncertainty": "Income quintile comparisons are aggregate cross-sections, not causal estimates of purchasing power or cultural participation. Category changes can combine prices, quantities, household size, composition, and reporting changes; some leisure categories are not equivalent to cultural attendance.",
+      "subgroup": "UK households by equivalised disposable-income fifth, with transport, holiday, sports, leisure, and subscription spending categories.",
+      "counterinterpretation": "The widening total expenditure gap may reflect different household needs and prices rather than a uniform loss of consumer welfare; higher spending on leisure can coexist with debt, insecurity, or reduced access among lower-income households.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2024tomarch2025",
+      "retrieval_hash": "sha256:15bae2ba85f6399969fecad9026e7b8c7df9c1a70835d712402fa0a71f53ec83",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2024tomarch2025/pdf", "claim": "Official PDF version of the Family Spending FYE 2025 bulletin."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/adhocs/3492familyspendingtablesukfinancialyearending2025", "claim": "Official ONS route for supplementary income-group family-spending tables."}
+  ],
+  "boundary": "This record adds observed household expenditure and income-distribution evidence to the consumer-trend atlas. It does not establish individual cultural participation, affordability causality, debt, household welfare, price elasticity, or whether discretionary spending displaced essentials.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS Family Spending FYE 2025 bulletin and PDF reviewed for aggregate real and nominal changes, category changes, income-quintile levels and changes, recreation/culture, transport, housing/energy, holidays, sports and leisure categories, deflation methods, and survey boundaries.",
+    "html_sha256": "sha256:15bae2ba85f6399969fecad9026e7b8c7df9c1a70835d712402fa0a71f53ec83",
+    "pdf_sha256": "sha256:46e83601b8a38da071e4caa0db9ade0b1c5ff04d7ea2c6e3bd2baa1093456b44",
+    "checked": "2026-09-30"
+  }
+}

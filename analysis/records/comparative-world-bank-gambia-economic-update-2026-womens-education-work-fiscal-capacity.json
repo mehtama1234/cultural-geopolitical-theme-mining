@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-gambia-economic-update-2026-womens-education-work-fiscal-capacity",
+  "title": "The Gambia's growth and girls' educational gains are not yet converting into formal work, earnings, or fiscal capacity for inclusive opportunity",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "housing_place_mobility"
+  ],
+  "source_unit": "World Bank, The Gambia Economic Update: Learning Without Earning: Women's Educational Gains and Labor Market Constraints, plus Creating Fiscal Space to Sustain Growth and Boost Job Creation, released June 9, 2026",
+  "geography": "The Gambia; national growth, poverty, education, labor, gender, tourism, remittances, fiscal, subsidy, public-investment, and youth systems",
+  "observations": [
+    {
+      "period": "2024–2026; growth, poverty, informality, and youth exclusion",
+      "denominator": {"value": 1, "unit": "Gambian national macroeconomic, poverty, and labor-market frame", "value_type": "national_macro_household_frame"},
+      "measures": {
+        "growth_2024": {"value": 5.6, "unit": "percent real GDP growth in 2024", "value_type": "reported_rate"},
+        "growth_2025": {"value": 5.9, "unit": "percent estimated real GDP growth in 2025", "value_type": "reported_estimate"},
+        "extreme_poverty": {"value": 20.3, "unit": "percent extreme-poverty rate after declining from 21.5%", "value_type": "reported_rate"},
+        "informal_work": {"value": 81, "unit": "percent of workers in the informal sector", "value_type": "reported_share"},
+        "youth_neet": {"value": 41.3, "unit": "percent of youth aged 15–34 not in employment, education, or training", "value_type": "reported_share"},
+        "conversion_gap": {"value": "Growth remains insufficiently converted into secure, formal, and productive opportunity for young people", "unit": "reported structural diagnosis", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank economic update and public-finance review using national accounts, poverty, labor-market, sectoral, fiscal, and policy evidence; rates and counts are country-level indicators rather than a single panel.",
+      "uncertainty": "National growth and poverty rates do not identify who gained, who remained insecure, job quality, household consumption, or the causal contribution of tourism, remittances, agriculture, or reforms.",
+      "subgroup": "Youth, informal workers, poor and rural households, women, agricultural and tourism workers, and people outside employment, education, or training.",
+      "counterinterpretation": "Growth and falling extreme poverty are meaningful gains that can create fiscal and household room for future reforms; informality can provide entry and survival income even when it lacks protection.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/09/charting-a-path-to-stronger-growth-fiscal-resilience-and-womens-economic-participation-in-the-gambia",
+      "retrieval_hash": "sha256:1437b062f03fa4a146c3eb51f7378b6237b7d3c69fd36dee51b1d9e77899efb9",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; education-to-employment and gendered labor-market conversion",
+      "denominator": {"value": 1, "unit": "Gambian women and men of working age and youth labor-market comparison", "value_type": "gender_labor_comparison_frame"},
+      "measures": {
+        "female_participation": {"value": 41.9, "unit": "percent women's labor-force participation", "value_type": "reported_share"},
+        "male_participation": {"value": 54.9, "unit": "percent men's labor-force participation", "value_type": "reported_share"},
+        "female_informal": {"value": 78.1, "unit": "percent of women workers in informal work", "value_type": "reported_share"},
+        "hourly_earnings": {"value": "31.5 GMD per hour for women versus 42.4 GMD for men", "unit": "reported average hourly earnings comparison", "value_type": "reported_comparison"},
+        "barriers": {"value": "Limited education access, heavy care burdens, restricted land and finance access, and social norms impede translation of girls' educational gains into work and earnings", "unit": "reported barrier mechanism", "value_type": "reported_mechanism"},
+        "policy_route": {"value": "School-to-work pathways, women's land and property rights, finance, and childcare are identified as high-return bridges", "unit": "reported policy route", "value_type": "reported_recommendation"}
+      },
+      "method": "World Bank gender and labor-market analysis within the Gambia Economic Update, combining participation, informality, earnings, education, care, property, finance, and policy evidence.",
+      "uncertainty": "The report identifies structural associations and policy priorities but does not follow individual girls or women from schooling through job search, care arrangements, hiring, pay, finance, or durable earnings.",
+      "subgroup": "Women and girls, rural women, women entrepreneurs, caregivers, young women, informal workers, and households constrained by land, finance, childcare, or social norms.",
+      "counterinterpretation": "Education may generate benefits beyond employment, and informal or self-employed work can provide autonomy or flexibility; formal employment expansion without care, safety, and bargaining power may not equal empowerment.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099070125072566070/pdf/P507238-70f99bb6-2c49-421c-955a-95ba67e6c5f7.pdf",
+      "retrieval_hash": "sha256:1437b062f03fa4a146c3eb51f7378b6237b7d3c69fd36dee51b1d9e77899efb9",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2025; fiscal space and public-capacity constraints",
+      "denominator": {"value": 1, "unit": "Gambian public-finance and public-investment frame", "value_type": "national_fiscal_frame"},
+      "measures": {
+        "tax_revenue": {"value": 10.3, "unit": "percent of GDP average tax revenue in 2017–2024", "value_type": "reported_fiscal_indicator"},
+        "fiscal_deficit": {"value": 4.5, "unit": "percent of GDP average fiscal deficit in 2017–2024", "value_type": "reported_fiscal_indicator"},
+        "public_debt": {"value": 76.4, "unit": "percent of GDP public debt in 2025", "value_type": "reported_fiscal_indicator"},
+        "revenue_potential": {"value": "Closing gaps across key tax instruments could unlock 3–4% of GDP in revenue", "unit": "reported fiscal-space estimate", "value_type": "reported_estimate"},
+        "wage_bill_route": {"value": "Hiring, allowance, and payroll modernization reforms could save 2.6% of GDP between 2025 and 2029 for infrastructure, social services, and jobs", "unit": "reported modeled or policy estimate", "value_type": "reported_estimate"},
+        "subsidy_route": {"value": "Replacing broad subsidies with targeted support is proposed to protect vulnerable groups while reducing fiscal pressure", "unit": "reported policy route", "value_type": "reported_recommendation"}
+      },
+      "method": "World Bank Public Finance Review using fiscal accounts, tax instruments, debt, spending, public-investment, subsidy, payroll, and state-owned-enterprise analysis.",
+      "uncertainty": "Revenue and savings estimates are conditional on administration, political feasibility, compliance, spending quality, and protection design; fiscal space does not establish better services or household benefit.",
+      "subgroup": "Poor and vulnerable households, public-service users, public employees, taxpayers, firms, local governments, and sectors requiring infrastructure, social services, and jobs.",
+      "counterinterpretation": "Fiscal consolidation can improve stability, but broad subsidies may be the only accessible protection for some households and payroll reforms can reduce service capacity if staffing is already thin.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/09/charting-a-path-to-stronger-growth-fiscal-resilience-and-womens-economic-participation-in-the-gambia",
+      "retrieval_hash": "sha256:1437b062f03fa4a146c3eb51f7378b6237b7d3c69fd36dee51b1d9e77899efb9",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; tourism, remittances, inflation, and household resilience",
+      "denominator": {"value": 1, "unit": "Gambian tourism, remittance, inflation, and household-income context", "value_type": "national_external_exposure_frame"},
+      "measures": {
+        "tourism_arrivals": {"value": "Tourist arrivals rose from 224,472 to 233,113", "unit": "reported annual arrival comparison", "value_type": "reported_count_comparison"},
+        "income_support": {"value": "Remittances and easing inflation supported household incomes during the growth period", "unit": "reported household-income mechanism", "value_type": "reported_mechanism"},
+        "downside_risks": {"value": "Rising global oil prices, energy-subsidy costs, and fertilizer prices could weaken agricultural gains and household room", "unit": "reported external-risk set", "value_type": "reported_risk"},
+        "growth_to_security_boundary": {"value": "Tourism and remittance recovery can improve aggregate income while leaving informal workers, rural households, and women exposed to price and opportunity shocks", "unit": "analytical boundary", "value_type": "derived_boundary"}
+      },
+      "method": "World Bank macroeconomic and sectoral synthesis of tourism, remittances, inflation, agriculture, energy, fertilizer, and household-income channels.",
+      "uncertainty": "Aggregate arrivals and remittance indicators do not identify distribution, household receipt, job quality, seasonality, local price effects, or whether income gains persist under external shocks.",
+      "subgroup": "Tourism workers, remittance-receiving households, rural farmers, women, informal workers, and consumers exposed to food, fuel, and fertilizer prices.",
+      "counterinterpretation": "Tourism diversification, remittances, private investment, and targeted transfers can buffer external shocks; vulnerability is not uniform across households or sectors.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/09/charting-a-path-to-stronger-growth-fiscal-resilience-and-womens-economic-participation-in-the-gambia",
+      "retrieval_hash": "sha256:1437b062f03fa4a146c3eb51f7378b6237b7d3c69fd36dee51b1d9e77899efb9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents1.worldbank.org/curated/en/099070125072566070/pdf/P507238-70f99bb6-2c49-421c-955a-95ba67e6c5f7.pdf", "claim": "Official Gambia Economic Update PDF provides the education, gender, labor, macroeconomic, and policy evidence."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/06/09/charting-a-path-to-stronger-growth-fiscal-resilience-and-womens-economic-participation-in-the-gambia", "claim": "World Bank release summarizes the paired Economic Update and Public Finance Review findings."}
+  ],
+  "boundary": "This comparative record adds an education-to-employment and fiscal-capacity route linking growth, poverty, informality, youth exclusion, gendered education and work, care, land, finance, tourism, remittances, taxation, subsidies, and public investment. It does not infer individual educational trajectories, job quality, empowerment, service receipt, causal reform effects, or durable household security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Gambia release and Economic Update PDF were reviewed for growth, poverty, informality, youth NEET, female and male participation, earnings, care and property barriers, tourism, remittances, tax revenue, debt, fiscal space, subsidy, and payroll reform claims.",
+    "source_url_sha256": "sha256:1437b062f03fa4a146c3eb51f7378b6237b7d3c69fd36dee51b1d9e77899efb9",
+    "checked": "2026-09-28"
+  }
+}

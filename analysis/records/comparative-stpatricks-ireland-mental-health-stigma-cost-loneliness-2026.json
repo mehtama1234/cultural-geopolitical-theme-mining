@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-stpatricks-ireland-mental-health-stigma-cost-loneliness-2026",
+  "title": "Economic and social pressure is entering mental-health life through loneliness, housing, digital exposure, and help-seeking stigma",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "time_hidden_price"
+  ],
+  "source_unit": "St Patrick's Mental Health Services annual Stigma and Attitudes to Mental Health Survey 2026",
+  "geography": "Ireland; nationally representative adults aged 18 and over",
+  "observations": [
+    {
+      "period": "Summer 2026; everyday pressures and mental-health climate",
+      "denominator": {"value": 1000, "unit": "over 1,000 Irish adults aged 18 and over in a nationally representative survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "societal_anxiety": {"value": 92, "unit": "percent believing there is a worrying amount of anxiety in society", "value_type": "published_survey_estimate"},
+        "mental_health_satisfaction": {"value": 62, "unit": "percent reporting satisfaction with their own mental health", "value_type": "published_survey_estimate"},
+        "loneliness_isolation": {"value": 31, "unit": "percent identifying loneliness and isolation as negatively influencing daily mental health and wellbeing", "value_type": "published_survey_estimate"},
+        "housing_concern": {"value": 24, "unit": "percent naming housing concerns as negatively influencing mental health and wellbeing", "value_type": "published_survey_estimate"},
+        "climate_concern": {"value": 17, "unit": "percent naming climate change as negatively influencing mental health and wellbeing", "value_type": "published_survey_estimate"}
+      },
+      "method": "Coyne Research survey commissioned by St Patrick's Mental Health Services, conducted over summer 2026 with a nationally representative sample of more than 1,000 adults.",
+      "uncertainty": "The public release reports perceived influences and satisfaction, not clinical diagnosis, symptom severity, exposure timing, household income, housing tenure, or causal effects.",
+      "subgroup": "Irish adults aged 18 and over; subgroup breakdowns are not fully reported on the release page.",
+      "counterinterpretation": "High societal anxiety and reported pressures may reflect heightened awareness or broad social interpretation rather than a direct measure of worsening clinical prevalence.",
+      "source_url": "https://www.stpatricks.ie/media-centre/news/2026/september/annual-mental-health-and-stigma-survey-2026",
+      "retrieval_hash": "sha256:0d8ff1a77e3af646fad3b4f32da99d358c8f278b0da458e2c1e0bb9c6b192bfb",
+      "status": "reported"
+    },
+    {
+      "period": "Summer 2026; help-seeking stigma and silence",
+      "denominator": {"value": 1000, "unit": "over 1,000 Irish adults aged 18 and over in the survey; item-level bases are not separately disclosed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "suicidal_thoughts_silence": {"value": 27, "unit": "percent saying they would tell no one if experiencing suicidal thoughts", "value_type": "published_survey_estimate"},
+        "self_help_weakness": {"value": 27, "unit": "percent considering it a sign of weakness if they sought help for a mental-health difficulty", "value_type": "published_survey_estimate"},
+        "friend_help_weakness": {"value": 15, "unit": "percent considering it a sign of weakness if a friend sought help", "value_type": "published_survey_estimate"},
+        "support_gap": {"value": "People may endorse mental-health openness in the abstract while retaining a sharper stigma around their own help-seeking and crisis disclosure.", "unit": "analytical synthesis from published survey items", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional public-attitudes survey; the release reports item percentages but not item wording, response options, weighting details, or the full questionnaire.",
+      "uncertainty": "Stated intentions about disclosure are not observed disclosure behavior, crisis-service use, or treatment access. Percentages may use item-specific bases not disclosed in the release.",
+      "subgroup": "Irish adults; no public item-level subgroup profile on the release page.",
+      "counterinterpretation": "A willingness to tell no one may signal privacy, uncertainty about whom to trust, or question interpretation as well as stigma.",
+      "source_url": "https://www.stpatricks.ie/media-centre/news/2026/september/annual-mental-health-and-stigma-survey-2026",
+      "retrieval_hash": "sha256:0d8ff1a77e3af646fad3b4f32da99d358c8f278b0da458e2c1e0bb9c6b192bfb",
+      "status": "reported"
+    },
+    {
+      "period": "Summer 2026; digital exposure and perceived mental-health risk",
+      "denominator": {"value": 1000, "unit": "over 1,000 Irish adults aged 18 and over in the survey; item-level bases are not separately disclosed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "children_social_media_concern": {"value": 81, "unit": "percent believing social-media and/or smartphone use is associated with mental-health difficulties in children", "value_type": "published_survey_estimate"},
+        "adult_social_media_concern": {"value": 80, "unit": "percent believing social-media and/or smartphone use is associated with mental-health difficulties in adults", "value_type": "published_survey_estimate"},
+        "digital_risk_frame": {"value": "Digital-media exposure is treated by a large majority as a mental-health risk across both children and adults.", "unit": "reported public belief", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive attitudinal estimates from the St Patrick's Mental Health Services annual survey.",
+      "uncertainty": "Belief in an association does not establish device use, platform design, content exposure, dose, direction, or mental-health causality.",
+      "subgroup": "Irish adults; the release does not provide the age-specific bases or whether respondents answered for themselves, children, or society generally.",
+      "counterinterpretation": "Digital-media concern may be a proxy for wider worries about parenting, social change, youth wellbeing, or visibility of distress.",
+      "source_url": "https://www.stpatricks.ie/media-centre/news/2026/september/annual-mental-health-and-stigma-survey-2026",
+      "retrieval_hash": "sha256:0d8ff1a77e3af646fad3b4f32da99d358c8f278b0da458e2c1e0bb9c6b192bfb",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2026 comparison; movement from distress to support-seeking",
+      "denominator": {"value": 1000, "unit": "2026 survey respondents; historical comparison is reported by the publisher and item bases are not separately disclosed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "experienced_difficulty_support": {"value": 73, "unit": "percent of respondents who had experienced a mental-health difficulty and had sought support in 2026", "value_type": "published_subgroup_estimate"},
+        "experienced_difficulty_support_2020": {"value": 35, "unit": "percent in the publisher's 2020 comparison", "value_type": "published_comparison_estimate"},
+        "discrimination_exposure": {"value": 33, "unit": "percent saying they had been, or knew someone who had been, discriminated against due to mental-health difficulties", "value_type": "published_survey_estimate"},
+        "stigma_progress_belief": {"value": 80, "unit": "percent believing people with mental-health difficulties experience less stigma and discrimination than 10 years ago", "value_type": "published_survey_estimate"}
+      },
+      "method": "Publisher-reported annual barometer comparison; the release does not provide the full historical questionnaire, harmonization protocol, or item-level denominators.",
+      "uncertainty": "The 2020 and 2026 estimates may differ in sample composition, wording, context, and reporting behavior; increased support-seeking is not proof of improved access or outcomes.",
+      "subgroup": "Respondents who report having experienced a mental-health difficulty, plus the full adult sample for discrimination and stigma-attitude items.",
+      "counterinterpretation": "Greater support-seeking may reflect both reduced stigma and greater perceived need; discrimination can remain common even while respondents perceive long-term improvement.",
+      "source_url": "https://www.stpatricks.ie/media-centre/news/2026/september/annual-mental-health-and-stigma-survey-2026",
+      "retrieval_hash": "sha256:0d8ff1a77e3af646fad3b4f32da99d358c8f278b0da458e2c1e0bb9c6b192bfb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.stpatricks.ie/media-centre/news/2026/september/annual-mental-health-and-stigma-survey-2026",
+      "claim": "St Patrick's Mental Health Services publishes the 2026 survey findings, sample description, Coyne Research fieldwork attribution, and the reported attitudes and pressures.",
+      "status": "official-publication-page"
+    }
+  ],
+  "boundary": "This record identifies a public-attitudes and social-pressure mechanism linking material insecurity, loneliness, housing, climate concern, digital exposure, stigma, and help-seeking. It does not establish clinical prevalence, causal effects, service capacity, treatment quality, or individual risk prediction.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official St Patrick's Mental Health Services page was reviewed for its 2026 sample description, Coyne Research attribution, pressure, stigma, digital-media, discrimination, and support-seeking findings.",
+    "source_page_sha256": "sha256:0d8ff1a77e3af646fad3b4f32da99d358c8f278b0da458e2c1e0bb9c6b192bfb",
+    "checked": "2026-09-28"
+  }
+}

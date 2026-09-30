@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-social-progress-index-2026-rights-health-housing-gdp",
+  "title": "Global social progress is approaching a turning point as rights decline and gains in health, housing, information, and environmental quality stall or reverse",
+  "theme_ids": ["voice", "cost", "energy", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "Social Progress Imperative, 2026 Global Social Progress Index",
+  "geography": "171 countries covering more than 99% of the world’s population, with country and regional comparisons from 2011-2025",
+  "observations": [
+    {
+      "period": "2011-2025; Global Social Progress Index coverage and framework",
+      "denominator": {"value": 171, "unit": "countries covering more than 99% of the world’s population", "value_type": "global_index_frame"},
+      "measures": {
+        "indicator_set": {"value": 57, "unit": "social and environmental progress drivers measured by the 2026 index", "value_type": "index_indicator_count"},
+        "dimensions": {"value": "Basic Needs, Foundations of Wellbeing, and Opportunity", "unit": "Social Progress Index framework", "value_type": "reported_framework"},
+        "economic_boundary": {"value": "the index focuses on non-economic social performance rather than treating GDP as the outcome itself", "unit": "Social Progress Imperative methodology", "value_type": "reported_boundary"},
+        "time_series": {"value": "the index provides a 15-year comparison spanning 2011-2025", "unit": "reported index coverage", "value_type": "reported_time_series"}
+      },
+      "method": "Composite Social Progress Index using 57 social and environmental outcome indicators across Basic Needs, Foundations of Wellbeing, and Opportunity, with country and regional comparisons over time.",
+      "uncertainty": "A composite index depends on indicator selection, weighting, imputation, comparability, and data quality; it is not a causal model of social progress or a direct measure of lived experience.",
+      "subgroup": "Countries and regions, populations exposed to different rights, health, safety, housing, information, environmental, and opportunity conditions.",
+      "counterinterpretation": "Index movement can reveal broad areas for attention without implying that every component moves together or that national performance is uniform within countries.",
+      "source_url": "https://www.socialprogress.org/social-progress-index",
+      "retrieval_hash": "sha256:06985bff2a3e220b3e4d07c92ca01de7adda5708af5a73396bc7249dc5c769b7",
+      "status": "reported"
+    },
+    {
+      "period": "2011-2025; global rights, health, safety, environment, housing, and information trends",
+      "denominator": {"value": 171, "unit": "countries in the Global Social Progress Index time series", "value_type": "country_time_series_frame"},
+      "measures": {
+        "rights_change": {"value": -6, "unit": "nearly points decline in global rights since 2011", "value_type": "reported_index_change"},
+        "recent_rights_change": {"value": -1.9, "unit": "points decline in rights from 2021 to 2025", "value_type": "reported_index_change"},
+        "recent_quality_change": {"value": "health, safety, and environmental quality declined from 2021 to 2025", "unit": "Social Progress Index finding", "value_type": "reported_trend"},
+        "slowing_components": {"value": "water and sanitation, housing, and access to information slowed significantly in the recent period", "unit": "Social Progress Index finding", "value_type": "reported_trend"}
+      },
+      "method": "Longitudinal comparison of index components and country-level social-progress scores from 2011 through 2025.",
+      "uncertainty": "Changes describe index performance and may reflect measurement, reporting, structural, political, environmental, and economic factors; the index does not identify one causal driver for each component.",
+      "subgroup": "Residents of countries with different rights, health, safety, environmental, housing, water, sanitation, and information conditions.",
+      "counterinterpretation": "Some countries and components continue to improve even within a global slowdown; deterioration is a portfolio-level warning, not a universal experience.",
+      "source_url": "https://www.socialprogress.org/social-progress-index",
+      "retrieval_hash": "sha256:06985bff2a3e220b3e4d07c92ca01de7adda5708af5a73396bc7249dc5c769b7",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; distribution of country-level social-progress change",
+      "denominator": {"value": 171, "unit": "countries in the 2026 Global Social Progress Index comparison", "value_type": "country_change_frame"},
+      "measures": {
+        "declined": {"value": 50, "unit": "countries reported as declining in social progress", "value_type": "reported_country_count"},
+        "unchanged": {"value": 85, "unit": "countries reported as showing no significant change", "value_type": "reported_country_count"},
+        "improved": {"value": 36, "unit": "countries reported as improving", "value_type": "reported_country_count"},
+        "political_context": {"value": "the Social Progress Imperative links a broad rights decline to rising authoritarian and populist leadership and warns of possible further deterioration", "unit": "publisher interpretation of index results", "value_type": "reported_interpretation"}
+      },
+      "method": "Country-level comparison of recent index change, paired with Social Progress Imperative interpretation of rights and political leadership patterns.",
+      "uncertainty": "The leadership relationship is an interpretive association in the publisher’s analysis, not a causal estimate; country counts depend on significance thresholds and index construction.",
+      "subgroup": "Countries with different political systems, rights environments, public services, and social and environmental outcomes.",
+      "counterinterpretation": "Stagnation or decline can be reversed through institutional, social, environmental, and public-service improvements; the index identifies risk, not destiny.",
+      "source_url": "https://www.socialprogress.org/social-progress-index",
+      "retrieval_hash": "sha256:06985bff2a3e220b3e4d07c92ca01de7adda5708af5a73396bc7249dc5c769b7",
+      "status": "reported"
+    },
+    {
+      "period": "2011-2025; social outcomes relative to economic resources",
+      "denominator": {"value": 171, "unit": "country comparisons of social progress and GDP per capita", "value_type": "economic_social_comparison_frame"},
+      "measures": {
+        "gdp_boundary": {"value": "GDP per capita does not determine social progress; countries at similar income levels can have materially different social outcomes", "unit": "Social Progress Imperative finding", "value_type": "reported_relationship"},
+        "denmark_us": {"value": "Denmark and the United States have similar GDP per capita, while the United States scores nearly 10 points lower on social progress in the index", "unit": "reported country comparison", "value_type": "reported_comparison"},
+        "us_rank_change": {"value": -14, "unit": "places the United States has slipped in the index ranking since 2011", "value_type": "reported_rank_change"},
+        "us_component_decline": {"value": "the United States declined in all 12 index components, with rights, housing, advanced education, inclusiveness, basic education, and safety each down more than 3 points", "unit": "Social Progress Imperative country finding", "value_type": "reported_country_trend"}
+      },
+      "method": "Cross-sectional and longitudinal comparison of Social Progress Index scores with GDP per capita and component-level country performance.",
+      "uncertainty": "The GDP comparison is descriptive and does not establish which policies or institutions cause higher social progress; country-level averages can hide internal inequality.",
+      "subgroup": "Countries with similar or different economic resources, residents experiencing varying rights, housing, education, safety, and inclusion conditions, and policymakers using GDP as a progress proxy.",
+      "counterinterpretation": "Economic resources can enable social investment, but conversion into well-being depends on institutions, distribution, public choices, and social and environmental conditions.",
+      "source_url": "https://www.socialprogress.org/social-progress-index",
+      "retrieval_hash": "sha256:06985bff2a3e220b3e4d07c92ca01de7adda5708af5a73396bc7249dc5c769b7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.socialprogress.org/methodology", "claim": "Social Progress Index methodology and indicator framework."},
+    {"source_url": "https://www.socialprogress.org/social-progress-index", "claim": "Interactive country scorecards, time series, results deck, and data-access context."}
+  ],
+  "boundary": "This record adds a global social-progress route across rights, health, safety, environmental quality, water, sanitation, housing, information, education, inclusion, opportunity, and the limits of GDP as a progress measure. It uses a composite index and publisher interpretation, not a causal political-economy model, respondent-level lived-experience data, a complete within-country distributional account, or proof that rights decline causes every other component to worsen.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Social Progress Imperative 2026 index page reviewed for the 171-country frame, 57 indicators, three dimensions, 2011-2025 time series, global rights and component changes, country-change counts, GDP comparison, and US ranking claims.",
+    "source_url_sha256": "sha256:06985bff2a3e220b3e4d07c92ca01de7adda5708af5a73396bc7249dc5c769b7",
+    "checked": "2026-09-27"
+  }
+}

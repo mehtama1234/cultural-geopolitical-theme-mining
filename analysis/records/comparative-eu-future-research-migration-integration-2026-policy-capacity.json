@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-future-research-migration-integration-2026-policy-capacity",
+  "title": "Migration policy is being rebuilt as cross-domain infrastructure linking labor, demography, AI, climate, data, and social cohesion",
+  "theme_ids": ["work", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "European Commission Directorate-General for Research and Innovation, Future research on migration, human mobility and integration: Opportunities and Needs",
+  "geography": "European Union research and policy ecosystem, with relevance to migration, mobility, integration, labor markets, technology, climate, and social cohesion across Europe",
+  "observations": [
+    {
+      "period": "2023-2025 consultation; 2026 research-priority report",
+      "denominator": {
+        "value": 100,
+        "unit": "more than 100 representatives from EU projects, public administrations, international organizations, civil society, universities, and research organizations consulted",
+        "value_type": "reported_consultation_frame"
+      },
+      "measures": {
+        "research_reframing": {"value": "migration research is positioned as a cross-cutting enabler of competitiveness, demographic resilience, labor-market sustainability, innovation, and social cohesion", "unit": "reported policy framing", "value_type": "reported_framework"},
+        "consultation_period": {"value": "2023-2025", "unit": "consultation period", "value_type": "reported_period"},
+        "policy_orientation": {"value": "consolidate, organize, and scale evidence so it can address long-term challenges more effectively", "unit": "reported research-system objective", "value_type": "reported_objective"}
+      },
+      "method": "European Commission synthesis of EU-funded migration research and a multi-stakeholder consultation process; this is an agenda-setting and research-infrastructure report, not a population survey or impact evaluation.",
+      "uncertainty": "The report identifies strategic priorities and evidence needs; it does not show that research coordination changes migration outcomes, labor markets, integration, or public attitudes.",
+      "subgroup": "Migrants, local authorities, employers, researchers, public agencies, civil-society organizations, policymakers, and communities affected by integration and mobility systems.",
+      "counterinterpretation": "Framing migration as a competitiveness or resilience resource can improve policy coordination but may instrumentalize migrants unless rights, belonging, participation, and non-economic outcomes remain explicit.",
+      "source_url": "https://op.europa.eu/en/publication-detail/-/publication/169fad9e-8186-11f1-bf5e-01aa75ed71a1/language-en",
+      "retrieval_hash": "sha256:eaca9f5b859db8d67ef4607c243e627e5f9c064bedf2c47eb981f46576ecd978",
+      "status": "reported"
+    },
+    {
+      "period": "2026; strategic research priorities for migration and integration",
+      "denominator": {
+        "value": 8,
+        "unit": "strategic areas identified for future European migration research",
+        "value_type": "reported_priority_count"
+      },
+      "measures": {
+        "priority_areas": {"value": "integration; labor-market sustainability and socioeconomic resilience; legal migration pathways; technology and AI; climate-related mobility; science-policy connection; shared data and infrastructure; and practical application of research", "unit": "reported priority set", "value_type": "reported_policy_set"},
+        "cross_domain_signal": {"value": "migration is treated as connected to demographic change, labor demand, technological change, climate, and geopolitical instability", "unit": "reported systems framing", "value_type": "reported_mechanism"},
+        "implementation_gap": {"value": "the report emphasizes faster movement from research tools and tested solutions into operational programs", "unit": "reported translation priority", "value_type": "reported_gap"}
+      },
+      "method": "Policy-priority synthesis based on consultation and review of EU-funded migration research.",
+      "uncertainty": "Priority inclusion does not establish funding, implementation, equal regional coverage, or successful operational transfer.",
+      "subgroup": "Research funders, national and local governments, migration and integration services, technology developers, labor-market institutions, and affected communities.",
+      "counterinterpretation": "A broad agenda can improve coordination but may diffuse accountability if no institution owns delivery, data standards, rights protection, or public feedback.",
+      "source_url": "https://op.europa.eu/en/publication-detail/-/publication/169fad9e-8186-11f1-bf5e-01aa75ed71a1/language-en",
+      "retrieval_hash": "sha256:eaca9f5b859db8d67ef4607c243e627e5f9c064bedf2c47eb981f46576ecd978",
+      "status": "reported"
+    },
+    {
+      "period": "2016-2025; EU-funded collaborative migration research",
+      "denominator": {
+        "value": 52,
+        "unit": "collaborative migration projects supported by Horizon 2020 and Horizon Europe, as reported in the associated public summary",
+        "value_type": "reported_project_count"
+      },
+      "measures": {
+        "research_investment": {"value": 160900000, "unit": "euros reported as support for the 52 collaborative projects", "value_type": "reported_program_investment"},
+        "knowledge_infrastructure": {"value": "the report calls for stronger consolidation, organization, shared data, and transfer of research outputs into practice", "unit": "reported system requirement", "value_type": "reported_requirement"},
+        "governance_bridge": {"value": "researchers, public authorities, local actors, civil society, and migrants are expected to be connected more closely in future research design and use", "unit": "reported governance direction", "value_type": "reported_policy_direction"}
+      },
+      "method": "Program-level figures and recommendations reported in the EU publication ecosystem; not an evaluation of project quality, causal return, or distribution of funds.",
+      "uncertainty": "Project counts and investment totals describe research activity, not implementation results, migrant welfare, policy effectiveness, or public legitimacy.",
+      "subgroup": "EU research projects, funders, policy users, local governments, civil-society partners, and people affected by migration and integration policy.",
+      "counterinterpretation": "More research infrastructure may improve evidence but can also reproduce top-down agenda setting if migrant, local, and frontline knowledge is not given decision power.",
+      "source_url": "https://op.europa.eu/en/publication-detail/-/publication/169fad9e-8186-11f1-bf5e-01aa75ed71a1/language-en",
+      "retrieval_hash": "sha256:eaca9f5b859db8d67ef4607c243e627e5f9c064bedf2c47eb981f46576ecd978",
+      "status": "reported"
+    },
+    {
+      "period": "2026; migration research as social infrastructure",
+      "denominator": {
+        "value": 1,
+        "unit": "European research-policy framework",
+        "value_type": "institutional_framework"
+      },
+      "measures": {
+        "integration_scope": {"value": "integration is linked to labor-market sustainability, demographic resilience, innovation, climate mobility, technology, and social cohesion rather than treated as a standalone settlement service", "unit": "reported integrated framework", "value_type": "reported_framework"},
+        "anticipatory_orientation": {"value": "the report calls for research able to anticipate demographic, labor, AI, climate, and geopolitical transformations", "unit": "reported policy orientation", "value_type": "reported_orientation"},
+        "local_application": {"value": "the research agenda emphasizes practical application and stronger connections between evidence producers and local or regional authorities", "unit": "reported implementation direction", "value_type": "reported_direction"}
+      },
+      "method": "European Commission policy and research-system synthesis.",
+      "uncertainty": "This is an institutional framing of future research needs, not evidence that integrated migration policy has already been implemented or produces better social outcomes.",
+      "subgroup": "Local and regional governments, migrants and host communities, labor and education systems, technology and data institutions, and research funders.",
+      "counterinterpretation": "Integrated framing can support joined-up policy, but it can also place migration inside competitiveness agendas that underweight rights, cultural belonging, or democratic participation.",
+      "source_url": "https://op.europa.eu/en/publication-detail/-/publication/169fad9e-8186-11f1-bf5e-01aa75ed71a1/language-en",
+      "retrieval_hash": "sha256:eaca9f5b859db8d67ef4607c243e627e5f9c064bedf2c47eb981f46576ecd978",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fami2030.gov.pt/2026/07/31/novo-relatorio-identifica-areas-estrategicas-para-o-futuro-da-investigacao-sobre-migracao-e-integracao/", "claim": "Associated public summary describing the eight priorities, more than 100 participants, and reported project investment."},
+    {"source_url": "https://doi.org/10.2777/6559097", "claim": "Official DOI for the European Commission publication."}
+  ],
+  "boundary": "This record adds a migration-policy research-capacity and systems-framing route. It is not a migrant survey, labor-market outcome study, integration evaluation, causal policy test, or proof that research coordination changes public attitudes or lived conditions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission Publications Office metadata and associated public summary were reviewed; consultation process, eight strategic areas, cross-domain framing, research-to-practice emphasis, and investment-context claims were cross-checked.",
+    "source_url_sha256": "sha256:eaca9f5b859db8d67ef4607c243e627e5f9c064bedf2c47eb981f46576ecd978",
+    "checked": "2026-09-28"
+  }
+}

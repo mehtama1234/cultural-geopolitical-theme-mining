@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-voices-eca-2016-qualitative-jobs-networks-middle-class",
+  "title": "Economic growth is experienced as an inaccessible ladder when jobs, networks and social norms block movement into a stable middle class",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "housing_place_mobility"
+  ],
+  "source_unit": "World Bank, Voices of Europe and Central Asia: New Insights on Shared Prosperity and Jobs",
+  "geography": "43 communities in nine Europe and Central Asia countries: Bosnia and Herzegovina, North Macedonia, Georgia, Kazakhstan, Kosovo, Kyrgyz Republic, Serbia, Tajikistan and Türkiye",
+  "observations": [
+    {
+      "period": "2016; qualitative account of growth and lived prosperity",
+      "denominator": {"value": null, "unit": "Structured focus groups and semi-structured interviews in 43 communities; qualitative participant denominator and selection frame are not summarized on the public page", "value_type": "not_disclosed"},
+      "measures": {
+        "growth_experience_gap": {"value": "Residents report discontent and concern about a disappearing middle class despite overall economic growth and shared-prosperity gains", "unit": "reported qualitative theme", "value_type": "reported_interpretation"},
+        "mobility_ladder": {"value": "Many people see no open path to climb above the first rungs of an economic ladder", "unit": "reported qualitative theme", "value_type": "reported_interpretation"},
+        "polarization": {"value": "Men and women describe societies as increasingly polarized, with frustration about slow progress and unequal opportunity", "unit": "reported qualitative theme", "value_type": "reported_interpretation"}
+      },
+      "method": "Structured focus-group discussions and semi-structured in-depth interviews across 43 communities in nine countries, used to complement quantitative poverty and mobility measures.",
+      "uncertainty": "Qualitative evidence reveals mechanisms and meanings rather than population prevalence; communities and participants are not a probability sample of Europe and Central Asia.",
+      "subgroup": "Men and women in selected communities across the nine participating countries.",
+      "counterinterpretation": "Perceived stagnation may reflect rising expectations and comparison with fast gains at the top rather than absolute deterioration for every household.",
+      "source_url": "https://www.worldbank.org/en/topic/poverty/publication/voices-europe-central-asia-insights-shared-prosperity-jobs",
+      "retrieval_hash": "sha256:85a5f22afc1d0f5b01716542a00035fb9135a0f41f96af52205933020a86a662",
+      "status": "reported"
+    },
+    {
+      "period": "2016; jobs as the link between growth and household mobility",
+      "denominator": {"value": null, "unit": "Qualitative participants across 43 communities; no pooled respondent denominator reported on the public page", "value_type": "not_disclosed"},
+      "measures": {
+        "job_quality": {"value": "Stable, full-time, formal jobs with open contracts are widely associated with middle-class status and upward mobility", "unit": "reported aspiration and status meaning", "value_type": "reported_interpretation"},
+        "job_access": {"value": "Good jobs, particularly for women and youth, are perceived as out of reach for a large share of people", "unit": "reported qualitative barrier", "value_type": "reported_interpretation"},
+        "downward_spiral": {"value": "Access to jobs is described as capable of propelling households upward or precipitating a downward spiral", "unit": "reported household-mobility mechanism", "value_type": "reported_interpretation"},
+        "public_sector_aspiration": {"value": "The vast majority still aspire to a public-sector job", "unit": "reported aspiration theme", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-community qualitative inquiry into employment, mobility aspirations and household living standards.",
+      "uncertainty": "The report captures perceived job pathways and status meanings; it does not estimate the share of workers in each job category or establish that public-sector employment is objectively more mobile.",
+      "subgroup": "Women, youth and other community residents discussing work and mobility in the participating countries.",
+      "counterinterpretation": "Public-sector aspirations may express demand for predictable rules, benefits and dignity where private-sector work is insecure, rather than nostalgia for state employment itself.",
+      "source_url": "https://www.worldbank.org/en/region/eca/publication/voices-of-eca-new-insights-on-shared-prosperity-and-jobs",
+      "retrieval_hash": "sha256:85a5f22afc1d0f5b01716542a00035fb9135a0f41f96af52205933020a86a662",
+      "status": "reported"
+    },
+    {
+      "period": "2016; networks and social norms as non-traditional employment barriers",
+      "denominator": {"value": null, "unit": "Qualitative participants across 43 communities; no pooled respondent denominator reported on the public page", "value_type": "not_disclosed"},
+      "measures": {
+        "network_barrier": {"value": "Lack of professional and social networks and connections emerges as an important barrier to getting a job", "unit": "reported qualitative barrier", "value_type": "reported_interpretation"},
+        "social_norm_barrier": {"value": "Social norms, especially those affecting women and youth, constrain access to opportunity", "unit": "reported qualitative barrier", "value_type": "reported_interpretation"},
+        "control_perception": {"value": "Barriers perceived as beyond individual control generate frustration and hopelessness", "unit": "reported psychological and political mechanism", "value_type": "reported_interpretation"},
+        "policy_toolkit": {"value": "The report calls for interventions addressing non-traditional barriers rather than relying only on macroeconomic or skills policy", "unit": "reported policy implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Qualitative interviews and focus groups designed to surface social norms, connections, attitudes and aspirations that conventional labor-market statistics miss.",
+      "uncertainty": "Network and norm barriers are reported perceptions and mechanisms; the study does not rank their causal importance against skills, discrimination, transport, vacancies or wages.",
+      "subgroup": "Men and women, including youth, in the participating communities.",
+      "counterinterpretation": "Networks can provide legitimate information and support in thin labor markets, but when access depends on family or political connections they can also reproduce exclusion and perceived unfairness.",
+      "source_url": "https://www.worldbank.org/en/topic/poverty/publication/voices-europe-central-asia-insights-shared-prosperity-jobs",
+      "retrieval_hash": "sha256:85a5f22afc1d0f5b01716542a00035fb9135a0f41f96af52205933020a86a662",
+      "status": "reported"
+    },
+    {
+      "period": "2016; qualitative data as a correction to macroeconomic success narratives",
+      "denominator": {"value": null, "unit": "World Bank qualitative study in 43 communities; no pooled respondent denominator reported on the public page", "value_type": "not_disclosed"},
+      "measures": {
+        "performance_perception_disconnect": {"value": "Traditional economic indicators can show growth and poverty reduction while people report no improvement in daily life or mobility", "unit": "reported analytical lesson", "value_type": "reported_interpretation"},
+        "diagnostics_toolkit": {"value": "The report recommends combining quantitative and qualitative work to identify networks, norms, attitudes and aspirations", "unit": "reported methodological implication", "value_type": "reported_interpretation"},
+        "decision_effect": {"value": "Perceptions of how people get ahead and find good jobs can influence how they evaluate situations and make decisions", "unit": "reported political-economy implication", "value_type": "reported_interpretation"},
+        "middle_class_meaning": {"value": "Middle-class identity is tied to stable employment and earnings, not only measured income or consumption", "unit": "reported status interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Mixed-methods methodological argument grounded in community focus groups, interviews and comparison with conventional indicators.",
+      "uncertainty": "The report’s qualitative account cannot determine the prevalence or political consequences of the perception gap across the full region.",
+      "subgroup": "Residents of selected communities and policymakers interpreting regional mobility and jobs data.",
+      "counterinterpretation": "Perception gaps can be temporary during rapid transition or crisis, but persistent gaps may signal that formal indicators omit security, agency, status and access dimensions of welfare.",
+      "source_url": "https://documents1.worldbank.org/curated/en/372521478680637391/pdf/109964-v2-REVISED-PUBLIC-Voices-ECA-MAIN-REPORT-EN-Digital.pdf",
+      "retrieval_hash": "sha256:85a5f22afc1d0f5b01716542a00035fb9135a0f41f96af52205933020a86a662",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/region/eca/publication/voices-eca-new-insights-shared-prosperity-jobs", "claim": "World Bank regional publication page with expanded description of the qualitative research and the performance-perception disconnect."},
+    {"source_url": "https://documents1.worldbank.org/curated/en/372521478680637391/pdf/109964-v2-REVISED-PUBLIC-Voices-ECA-MAIN-REPORT-EN-Digital.pdf", "claim": "Official World Bank main report PDF used for retrieval verification and hashing."}
+  ],
+  "boundary": "This record adds a qualitative mobility mechanism: growth does not become lived progress when stable jobs, networks, norms and perceived agency block movement into the middle class. It is a purposive community study from 2016, not a current prevalence estimate, representative regional poll or causal evaluation; its value is explanatory depth and a warning against reading macro indicators as complete social experience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank publication pages, main report PDF and regional summary were retrieved and reviewed for the growth-perception disconnect, jobs and mobility, networks, social norms, public-sector aspirations and methodological implications; the PDF was hashed.",
+    "source_url_sha256": "sha256:85a5f22afc1d0f5b01716542a00035fb9135a0f41f96af52205933020a86a662",
+    "checked": "2026-09-27"
+  }
+}

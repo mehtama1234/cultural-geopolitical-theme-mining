@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-scottish-social-attitudes-2025-trust-engagement-listening",
+  "title": "Scottish democratic legitimacy combines durable voting norms with low perceived influence, weakened institutional trust, and economic insecurity gradients",
+  "theme_ids": ["voice", "cost", "energy", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption"
+  ],
+  "source_unit": "Scottish Government, Scottish Social Attitudes Survey 2025: Core Module",
+  "geography": "Scotland; nationally representative survey of adults aged 16 and over",
+  "observations": [
+    {
+      "period": "September-November 2025 fieldwork; published June 2026 and corrected September 2026; social trust",
+      "denominator": {"value": 1549, "unit": "completed Scottish Social Attitudes Survey core-module surveys; weighted estimates", "value_type": "representative_survey_sample"},
+      "measures": {
+        "most_people_trusted": {"value": 53, "unit": "percent saying most people can be trusted", "value_type": "weighted_share"},
+        "cant_be_too_careful": {"value": 45, "unit": "percent saying they cannot be too careful dealing with people", "value_type": "weighted_share"},
+        "low_income_trust_gradient": {"value": "Trust was lower among respondents struggling on present income: 37% among those struggling and 42% among those really struggling said most people can be trusted, compared with 53% overall", "unit": "weighted subgroup comparison", "value_type": "reported_gradient"},
+        "social_trust_cost_route": {"value": "Economic insecurity and social trust are patterned together, without a causal direction established", "unit": "reported subgroup association", "value_type": "reported_mechanism"}
+      },
+      "method": "Scottish Social Attitudes Survey 2025 core module, with stratified random-probability sampling of Scottish private households and weighted analysis; fieldwork used web and alternative telephone modes.",
+      "uncertainty": "The income-trust comparison is descriptive and cross-sectional; it does not establish whether economic insecurity reduces trust, low trust affects economic outcomes, or both reflect other conditions.",
+      "subgroup": "Scottish adults, with comparisons by income difficulty and other demographic, economic, and political factors available in supplementary tables.",
+      "counterinterpretation": "Lower trust among financially strained respondents may reflect institutional or neighbourhood exposure, health, age, or selection into hardship rather than a direct income effect.",
+      "source_url": "https://www.gov.scot/publications/scottish-social-attitudes-survey-2025-core-module/pages/9/",
+      "retrieval_hash": "sha256:352c09e78bc99cb49875c7f378ab5e856589ec4a4e7fc15c60762dcfc88e8280",
+      "status": "reported"
+    },
+    {
+      "period": "September-November 2025 fieldwork; institutional trust and listening",
+      "denominator": {"value": 1549, "unit": "completed Scottish Social Attitudes Survey core-module surveys; weighted estimates", "value_type": "representative_survey_sample"},
+      "measures": {
+        "trust_scottish_government_best_interest": {"value": 46, "unit": "percent trusting the Scottish Government to work in Scotland's best interests", "value_type": "weighted_share"},
+        "trust_uk_government_best_interest": {"value": 18, "unit": "percent trusting the UK Government to act in Scotland's best long-term interest", "value_type": "weighted_share"},
+        "fair_decision_scottish_government": {"value": 23, "unit": "percent trusting the Scottish Government to make fair decisions for different groups", "value_type": "weighted_share"},
+        "fair_decision_local_council": {"value": 13, "unit": "percent trusting local councils to make fair decisions for different groups", "value_type": "weighted_share"},
+        "government_listening_scottish": {"value": 33, "unit": "percent saying the Scottish Government is good at listening before decisions", "value_type": "weighted_share"},
+        "government_listening_uk": {"value": 11, "unit": "percent saying the UK Government is good at listening before decisions", "value_type": "weighted_share"},
+        "government_listening_local": {"value": 26, "unit": "percent saying local councils are good at listening before decisions", "value_type": "weighted_share"},
+        "legitimacy_gap": {"value": "Institutional proximity does not remove legitimacy strain: local and Scottish institutions score above UK institutions on trust/listening, but fair-treatment confidence remains low", "unit": "reported comparison", "value_type": "reported_pattern"}
+      },
+      "method": "Weighted national survey estimates with time-series comparisons and institution-level contrasts.",
+      "uncertainty": "Trust and listening are perceptions, not audits of decision quality or actual participation; the publication does not identify which policies or encounters drive the institution differences.",
+      "subgroup": "Scottish adults evaluating Scottish Government, UK Government, Scottish Parliament, and local councils.",
+      "counterinterpretation": "Lower trust in UK institutions may reflect constitutional preference or responsibility attribution rather than a general proximity effect; local scores may vary sharply across councils.",
+      "source_url": "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2026/06/scottish-social-attitudes-survey-2025-core-module/documents/official-statistics-scottish-social-attitudes-survey-2025-core-module-attitudes-government-economy-health-service/official-statistics-scottish-social-attitudes-survey-2025-core-module-attitudes-government-economy-health-service/govscot%3Adocument/official-statistics-scottish-social-attitudes-survey-2025-core-module-attitudes-government-economy-health-service.pdf",
+      "retrieval_hash": "sha256:352c09e78bc99cb49875c7f378ab5e856589ec4a4e7fc15c60762dcfc88e8280",
+      "status": "reported"
+    },
+    {
+      "period": "September-November 2025 fieldwork; issue expression and political engagement",
+      "denominator": {"value": 1549, "unit": "completed Scottish Social Attitudes Survey core-module surveys; weighted estimates", "value_type": "representative_survey_sample"},
+      "measures": {
+        "signed_petition": {"value": 48, "unit": "percent reporting signing a petition in recent years to register what they thought about an issue", "value_type": "weighted_share"},
+        "contacted_local_council": {"value": 26, "unit": "percent reporting contacting their local council", "value_type": "weighted_share"},
+        "contacted_mp_or_msp": {"value": 25, "unit": "percent reporting contacting an MP or MSP", "value_type": "weighted_share"},
+        "public_meeting": {"value": 10, "unit": "percent reporting attending a public meeting", "value_type": "weighted_share"},
+        "no_listed_activity": {"value": 32, "unit": "percent reporting none of the listed political-expression activities", "value_type": "weighted_share"},
+        "channel_gradient": {"value": "Low-friction or individually addressable channels are more common than collective or institutionally intensive participation", "unit": "reported participation contrast", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey checklist of 16 political-expression activities, capturing self-reported participation over the last few years.",
+      "uncertainty": "The checklist does not measure frequency, effort, success, response, collective efficacy, or whether nonparticipation reflects satisfaction, exclusion, time constraints, or distrust.",
+      "subgroup": "Scottish adults using petitions, councils, MPs/MSPs, consultations, campaigns, protests, organizations, and public meetings.",
+      "counterinterpretation": "Petition signing can be an important collective political act rather than merely low-friction participation; activity rankings do not establish a hierarchy of democratic value.",
+      "source_url": "https://www.gov.scot/publications/scottish-social-attitudes-survey-2025-core-module/pages/9/",
+      "retrieval_hash": "sha256:352c09e78bc99cb49875c7f378ab5e856589ec4a4e7fc15c60762dcfc88e8280",
+      "status": "reported"
+    },
+    {
+      "period": "September-November 2025 fieldwork; perceived influence, priorities, and durable voting norms",
+      "denominator": {"value": 1549, "unit": "completed Scottish Social Attitudes Survey core-module surveys; weighted estimates", "value_type": "representative_survey_sample"},
+      "measures": {
+        "low_perceived_say": {"value": 46, "unit": "percent scoring 0-4 of 10 on whether Scotland's political system allows people like them to have a say", "value_type": "weighted_share"},
+        "high_perceived_say": {"value": 25, "unit": "percent scoring 6-10 of 10 on whether the system allows people like them to have a say", "value_type": "weighted_share"},
+        "citizen_engagement_driver": {"value": 53, "unit": "percent selecting government engagement with citizens as one of the three greatest drivers of trust in the Scottish Government", "value_type": "weighted_share"},
+        "voting_scottish_parliament": {"value": 90, "unit": "percent saying it is important to vote in Scottish Parliament elections", "value_type": "weighted_share"},
+        "voting_uk_parliament": {"value": 84, "unit": "percent saying it is important to vote in UK Parliament elections", "value_type": "weighted_share"},
+        "voting_local": {"value": 85, "unit": "percent saying it is important to vote in local government elections", "value_type": "weighted_share"},
+        "legitimacy_tension": {"value": "Voting remains normatively important while many respondents feel they have limited influence over government", "unit": "reported contrast", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted survey measures of perceived political voice, trust drivers, and the importance of voting.",
+      "uncertainty": "Importance of voting is not turnout; perceived influence is not actual policy responsiveness; the report does not establish whether participation closes the legitimacy gap.",
+      "subgroup": "Scottish adults with differing political, economic, educational, and constitutional views.",
+      "counterinterpretation": "High voting norms can be a source of democratic resilience rather than evidence of legitimacy failure; people may value elections while distrusting particular governments or decision processes.",
+      "source_url": "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2026/06/scottish-social-attitudes-survey-2025-core-module/documents/official-statistics-scottish-social-attitudes-survey-2025-core-module-attitudes-government-economy-health-service/official-statistics-scottish-social-attitudes-survey-2025-core-module-attitudes-government-economy-health-service/govscot%3Adocument/official-statistics-scottish-social-attitudes-survey-2025-core-module-attitudes-government-economy-health-service.pdf",
+      "retrieval_hash": "sha256:352c09e78bc99cb49875c7f378ab5e856589ec4a4e7fc15c60762dcfc88e8280",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.scot/collections/scottish-social-attitudes-survey/", "claim": "Scottish Social Attitudes Survey collection, methods, and historic comparability context.", "status": "official-context"},
+    {"source_url": "https://www.gov.scot/publications/scottish-social-attitudes-survey-2025-core-module/documents/", "claim": "Supporting documents, subgroup tables, time-series tables, and technical materials.", "status": "official-supporting-documents"}
+  ],
+  "boundary": "This record adds a Scotland-specific legitimacy route connecting economic insecurity, social trust, institutional fairness/listening, political-expression channels, perceived influence, and durable voting norms. It is a representative survey of attitudes, not an audit of government performance, a causal model of trust, a turnout estimate, or proof that participation changes policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Scottish Government publication page and PDF reviewed for sample, fieldwork, trust, fairness, listening, participation, influence, voting, subgroup, and methodological caveat claims.",
+    "source_page_sha256": "sha256:352c09e78bc99cb49875c7f378ab5e856589ec4a4e7fc15c60762dcfc88e8280",
+    "checked": "2026-09-28"
+  }
+}

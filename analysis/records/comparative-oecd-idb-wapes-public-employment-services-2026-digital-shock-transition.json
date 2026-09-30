@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-idb-wapes-public-employment-services-2026-digital-shock-transition",
+  "title": "Employment transitions depend not only on jobs but on the public-service systems that match, train, protect, and reach people through shocks",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Inter-American Development Bank, OECD, and World Association of Public Employment Services, The World of Public Employment Services 2026: Delivering in a Changing World of Work",
+  "geography": "Public employment services across global country systems, with 78 service profiles from 74 countries and comparative policy information",
+  "observations": [
+    {
+      "period": "2026; comparative public-employment-service coverage",
+      "denominator": {"value": 78, "unit": "public employment service profiles from 74 countries represented in the publication", "value_type": "service_profile_frame"},
+      "measures": {
+        "comparative_scope": {"value": "the publication updates structured and comparable information on the organization, structure, and practices of public employment services worldwide", "unit": "IDB/OECD/WAPES report scope", "value_type": "reported_scope"},
+        "institutional_variation": {"value": "public employment services vary in institutional and policy arrangements, delivery structures, and operating practices", "unit": "comparative report synthesis", "value_type": "reported_variation"},
+        "policy_endpoint": {"value": "comparative service evidence is intended to inform future labor-market policy components", "unit": "report policy framing", "value_type": "reported_policy_endpoint"}
+      },
+      "method": "Global survey, structured comparative data, policy information, and country profiles compiled by IDB, OECD, and WAPES.",
+      "uncertainty": "Country and service profiles are not a common causal evaluation; institutional labels and reported practices may not be fully comparable or predictive of individual service outcomes.",
+      "subgroup": "Jobseekers, workers at risk of displacement, employers, public employment-service staff, migrants, and people facing the greatest difficulty finding work.",
+      "counterinterpretation": "Different institutional models can work under different labor-market and administrative conditions; variation does not by itself mean one system is ineffective.",
+      "source_url": "https://www.oecd.org/en/publications/the-world-of-public-employment-services-2026_4aebd080-en.html",
+      "retrieval_hash": "sha256:91da8caa8f06f3c4fc3624e5b3bbf282aa62d929450d9e4621d45b8de158f776",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital maturity and shock response in public employment services",
+      "denominator": {"value": 1, "unit": "comparative public-employment-service digital and resilience framework", "value_type": "service_capability_frame"},
+      "measures": {
+        "digital_maturity": {"value": "the publication presents data and analysis on the digital maturity of public employment services", "unit": "report scope", "value_type": "reported_capability_dimension"},
+        "shock_response": {"value": "public employment services are examined for how they respond to shocks and strengthen labor-market resilience", "unit": "report scope", "value_type": "reported_institutional_mechanism"},
+        "delivery_tradeoff": {"value": "digital systems can expand reach and coordination but require attention to access, capability, and institutional design", "unit": "bounded synthesis from report scope", "value_type": "reported_policy_tension"}
+      },
+      "method": "Comparative IDB/OECD/WAPES survey and policy analysis of service organization, digital maturity, and responses to labor-market shocks.",
+      "uncertainty": "Digital maturity is not equivalent to service quality, successful placement, accessibility, or fair treatment; the report does not establish one universal digital model.",
+      "subgroup": "People with limited connectivity or digital skills, displaced workers, migrants, employers, frontline staff, and communities experiencing labor-market shocks.",
+      "counterinterpretation": "Blended and human-supported delivery may be more effective than maximal automation where trust, language, disability access, or complex needs matter.",
+      "source_url": "https://www.oecd.org/en/publications/the-world-of-public-employment-services-2026_4aebd080-en.html",
+      "retrieval_hash": "sha256:91da8caa8f06f3c4fc3624e5b3bbf282aa62d929450d9e4621d45b8de158f776",
+      "status": "reported"
+    },
+    {
+      "period": "2026; employment transitions for migrants and people facing severe access barriers",
+      "denominator": {"value": 1, "unit": "public-employment-service transition-support framework", "value_type": "transition_support_frame"},
+      "measures": {
+        "migrant_support": {"value": "the publication considers how public employment services support employment transitions for migrants", "unit": "report scope", "value_type": "reported_service_route"},
+        "hardest_to_place": {"value": "partnerships with the social economy are examined as a route to support people facing the greatest difficulty finding work", "unit": "report scope", "value_type": "reported_partnership_route"},
+        "transition_bundle": {"value": "matching, skills, information, social-economy partnership, and service access operate as a transition bundle rather than a single placement event", "unit": "bounded synthesis from report scope", "value_type": "reported_mechanism_set"}
+      },
+      "method": "IDB/OECD/WAPES comparative analysis of public employment-service transition support, target groups, and partnerships.",
+      "uncertainty": "The report does not show that every listed service reaches migrants or hard-to-place people equally, nor that participation produces stable employment or income security.",
+      "subgroup": "Migrants, long-term unemployed people, workers with disabilities or care constraints, young entrants, social-economy organizations, and employers.",
+      "counterinterpretation": "Targeted services can stigmatize or segment users if they are poorly designed; universal access with tailored support may sometimes be preferable.",
+      "source_url": "https://www.oecd.org/en/publications/the-world-of-public-employment-services-2026_4aebd080-en.html",
+      "retrieval_hash": "sha256:91da8caa8f06f3c4fc3624e5b3bbf282aa62d929450d9e4621d45b8de158f776",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public-service design and labor-market resilience",
+      "denominator": {"value": 1, "unit": "public employment policy and institutional design synthesis frame", "value_type": "public_service_policy_frame"},
+      "measures": {
+        "service_role": {"value": "public employment services connect jobseekers, workers at risk, employers, training, and labor-market policy", "unit": "report synthesis", "value_type": "reported_institutional_role"},
+        "resilience_route": {"value": "service capacity can support transitions and labor-market resilience when aligned with shocks, local conditions, and target-group needs", "unit": "report policy framing", "value_type": "reported_mechanism"},
+        "governance_question": {"value": "the key design question is how public systems combine digital tools, human support, partnerships, and accountability", "unit": "bounded cross-source research question", "value_type": "open_research_question"}
+      },
+      "method": "Comparative report synthesis across public employment-service organization, practices, digital systems, partnerships, and shock response.",
+      "uncertainty": "This is an institutional mechanism route, not a causal estimate of resilience or a claim that public employment services determine labor-market outcomes alone.",
+      "subgroup": "Jobseekers, employers, service workers, local administrations, national labor ministries, training providers, and social-economy partners.",
+      "counterinterpretation": "Macroeconomic demand, housing, transport, care, wage levels, and employer practices may constrain outcomes even when employment services are well designed.",
+      "source_url": "https://www.oecd.org/en/publications/the-world-of-public-employment-services-2026_4aebd080-en.html",
+      "retrieval_hash": "sha256:91da8caa8f06f3c4fc3624e5b3bbf282aa62d929450d9e4621d45b8de158f776",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html", "claim": "OECD Employment Outlook 2026 provides complementary regional labor-market and transition context."},
+    {"source_url": "https://www.oecd.org/en/topics/policy-areas/employment.html", "claim": "OECD employment policy page links public employment-service modernization and related work."}
+  ],
+  "boundary": "This record adds a public-employment-service route across institutional variation, digital maturity, shock response, migrant transitions, social-economy partnerships, and labor-market resilience. It uses comparative survey and policy information, not respondent-level job-search histories, individual placement records, case-management files, causal service evaluations, or proof that digitization improves outcomes for every group.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IDB/OECD/WAPES publication page reviewed for global survey scope, 78 service profiles from 74 countries, institutional variation, digital maturity, shock response, migrant support, social-economy partnerships, and policy framing.",
+    "source_url_sha256": "sha256:91da8caa8f06f3c4fc3624e5b3bbf282aa62d929450d9e4621d45b8de158f776",
+    "checked": "2026-09-26"
+  }
+}

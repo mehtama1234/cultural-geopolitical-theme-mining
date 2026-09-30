@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyfed-consumer-expectations-august-2026-spending-credit-job-risk",
+  "title": "Household spending expectations rise while credit access, financial outlook, and job-finding confidence deteriorate",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Reserve Bank of New York Center for Microeconomic Data, August 2026 Survey of Consumer Expectations, released 8 September 2026",
+  "geography": "United States; nationally representative internet-based rotating panel of approximately 1,300 household heads, fielded 3–31 August 2026",
+  "observations": [
+    {
+      "period": "August 2026; spending expectations and household financial outlook",
+      "denominator": {"value": 1300, "unit": "approximately 1,300 household heads in the nationally representative rotating panel", "value_type": "published_panel_sample"},
+      "measures": {
+        "spending_growth": {"value": 5.2, "unit": "median percent expected one-year-ahead household spending growth", "value_type": "published_panel_estimate"},
+        "income_growth": {"value": 3.0, "unit": "median percent expected one-year-ahead household income growth", "value_type": "published_panel_estimate"},
+        "financial_outlook": {"value": "Perceptions and expectations about household financial situations deteriorated, with more respondents reporting or expecting a worse situation", "unit": "reported panel pattern", "value_type": "reported_pattern"},
+        "spending_constraint_gap": {"value": "Expected spending growth can exceed expected income growth even as perceived household financial security worsens", "unit": "analytic household-room mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "New York Fed Survey of Consumer Expectations, a nationally representative internet-based rotating panel of approximately 1,300 household heads; respondents participate for up to 12 months.",
+      "uncertainty": "Expectations are not realized spending or income, and the release does not identify whether expected spending reflects necessities, prices, substitution, or volume changes.",
+      "subgroup": "U.S. household heads, with expectations available by age, geography, income, education, and numeracy.",
+      "counterinterpretation": "Higher spending growth may largely reflect expected price increases or essential outlays rather than stronger discretionary consumption; deteriorating financial perceptions can coexist with planned spending.",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260908",
+      "retrieval_hash": "sha256:21ab0717616c56016f0176e3dfd0be035f6133a5afcf7c7ceba44d2e3e305397",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; credit access and short-run debt-payment risk",
+      "denominator": {"value": 1300, "unit": "approximately 1,300 household heads in the SCE panel", "value_type": "published_panel_sample"},
+      "measures": {
+        "credit_access": {"value": "The net share reporting that credit is harder to obtain increased, and future credit availability expectations deteriorated", "unit": "reported household-credit pattern", "value_type": "reported_pattern"},
+        "missed_payment_risk": {"value": 13.2, "unit": "mean perceived probability of missing a minimum debt payment in the next three months", "value_type": "published_panel_estimate"},
+        "credit_buffer": {"value": "The ability to use credit as a household buffer is perceived to be narrowing at the same time that spending expectations remain elevated", "unit": "analytic financial-buffer mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "SCE household-finance questions on perceived credit access and probability of missing a minimum debt payment.",
+      "uncertainty": "The missed-payment probability is a subjective expectation, not observed delinquency; the release does not show which debt types or households drive the movement.",
+      "subgroup": "Household heads with differing credit access, debt obligations, income, and financial buffers.",
+      "counterinterpretation": "Credit tightening perceptions may reflect normalization from unusually easy access or changes in demand; a higher perceived risk need not translate into missed payments.",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260908",
+      "retrieval_hash": "sha256:21ab0717616c56016f0176e3dfd0be035f6133a5afcf7c7ceba44d2e3e305397",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; unemployment risk and job-finding confidence",
+      "denominator": {"value": 1300, "unit": "approximately 1,300 household heads in the SCE panel", "value_type": "published_panel_sample"},
+      "measures": {
+        "higher_unemployment": {"value": 44.4, "unit": "mean perceived probability that the U.S. unemployment rate will be higher in one year", "value_type": "published_panel_estimate"},
+        "job_finding": {"value": 45.4, "unit": "mean perceived probability of finding a job if current job were lost", "value_type": "published_panel_estimate"},
+        "job_loss": {"value": 13.8, "unit": "mean perceived probability of losing one's job in the next 12 months", "value_type": "published_panel_estimate"},
+        "labor_security_split": {"value": "People perceive a weaker labor-market environment while their own expected job loss declines somewhat, separating macro fear from individual positioning", "unit": "analytic labor-confidence mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "SCE labor-market expectation questions, with reported changes across age, education, and income groups.",
+      "uncertainty": "These are subjective probabilities and do not forecast actual unemployment, job loss, or re-employment; individual and macro expectations can move differently.",
+      "subgroup": "Household heads across age, education, income, and employment categories; changes in job-loss and quit expectations were driven especially by lower-education and under-$100,000-income respondents.",
+      "counterinterpretation": "Lower expected personal job loss alongside worse macro expectations may indicate labor-market compositional change, precautionary belief, or confidence in one's own employability rather than general security.",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260908",
+      "retrieval_hash": "sha256:21ab0717616c56016f0176e3dfd0be035f6133a5afcf7c7ceba44d2e3e305397",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; price-category exposure and inflation uncertainty",
+      "denominator": {"value": 1300, "unit": "approximately 1,300 household heads in the SCE panel", "value_type": "published_panel_sample"},
+      "measures": {
+        "gas_price_expectation": {"value": 4.6, "unit": "median percent expected year-ahead gas-price change", "value_type": "published_panel_estimate"},
+        "food_price_expectation": {"value": 5.3, "unit": "median percent expected year-ahead food-price change", "value_type": "published_panel_estimate"},
+        "medical_price_expectation": {"value": 9.1, "unit": "median percent expected year-ahead medical-care price change", "value_type": "published_panel_estimate"},
+        "rent_expectation": {"value": 6.6, "unit": "median percent expected year-ahead rent change", "value_type": "published_panel_estimate"},
+        "category_exposure": {"value": "Household inflation experience is composed of salient categories with different necessity and substitution profiles, not only an aggregate inflation expectation", "unit": "analytic unequal-exposure mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "SCE category-specific price-expectation questions covering gas, food, medical care, college education, and rent.",
+      "uncertainty": "Expected category inflation is not realized price change and may reflect attention, recent experience, or local exposure; category medians do not show household-level budget incidence.",
+      "subgroup": "Households with differing spending baskets, rent exposure, health-care needs, education costs, and transportation dependence.",
+      "counterinterpretation": "High medical or rent expectations may be concentrated among households with particular contracts or needs; substitution and fixed-price arrangements can alter lived impact.",
+      "source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260908",
+      "retrieval_hash": "sha256:21ab0717616c56016f0176e3dfd0be035f6133a5afcf7c7ceba44d2e3e305397",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.newyorkfed.org/microeconomics/sce", "claim": "New York Fed Survey of Consumer Expectations series and methodology context."},
+    {"source_url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260908", "claim": "Official release for the August 2026 SCE findings."}
+  ],
+  "boundary": "This record adds a household-finance route from category-specific price and labor expectations through income-spending divergence, credit access, missed-payment risk, and unequal financial buffers. It does not establish realized inflation, delinquency, unemployment, consumption volume, or causal effects of monetary or credit conditions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official New York Fed release reviewed for field dates, rotating-panel frame, spending and income expectations, credit access, missed-payment risk, labor expectations, category-specific prices, and subgroup notes.",
+    "source_url_sha256": "sha256:21ab0717616c56016f0176e3dfd0be035f6133a5afcf7c7ceba44d2e3e305397",
+    "checked": "2026-09-29"
+  }
+}

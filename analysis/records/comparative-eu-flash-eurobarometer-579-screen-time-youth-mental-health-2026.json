@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-flash-eurobarometer-579-screen-time-youth-mental-health-2026",
+  "title": "Adolescent screen use is a negotiated household and platform-governance problem, not only an individual time problem",
+  "theme_ids": ["time", "voice", "cost", "energy"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "European Commission Flash Eurobarometer 579, Impact of excessive screen time and social media on young people’s mental health",
+  "geography": "European Union, all 27 Member States; adolescents aged 13–18 and their parents",
+  "observations": [
+    {
+      "period": "30 March–16 April 2026; ordinary school-day and weekend screen use",
+      "denominator": {"value": 26297, "unit": "EU adolescents aged 13–18 interviewed across all 27 Member States", "value_type": "survey_sample"},
+      "measures": {
+        "school_day_high_use": {"value": 25, "unit": "percent reporting more than 6 hours of screen time on a typical school day", "value_type": "reported_survey_share"},
+        "weekend_high_use": {"value": 46, "unit": "percent reporting more than 6 hours of screen time on a typical weekend day", "value_type": "reported_survey_share"},
+        "weekend_extreme_use": {"value": 14, "unit": "percent reporting more than 10 hours of screen time on a typical weekend day", "value_type": "reported_survey_share"},
+        "parent_teen_gap": {"value": "Adolescents reported 4.5 hours online on school days and 6.1 hours on weekend days, while parents estimated 3.4 and 5.3 hours respectively", "unit": "reported average hours per day", "value_type": "reported_comparison"}
+      },
+      "method": "EU-wide Flash Eurobarometer survey interviewing adolescents and a separate parent sample, with country-comparable weighted results.",
+      "uncertainty": "Screen-time measures are self-reported or parent-estimated and do not establish device-level exposure, platform-specific use, clinical impairment, or causal effects.",
+      "subgroup": "Adolescents aged 13–18, parents, school-day versus weekend users, and respondents across all EU Member States.",
+      "counterinterpretation": "High online time can include connection, learning, creativity, and social support; duration alone is an imprecise proxy for harm or wellbeing.",
+      "source_url": "https://data.europa.eu/data/datasets/s3686_fl579_eng",
+      "retrieval_hash": "sha256:acff1dc3b1ceebd758d36b080c5b72d197e29fb4f25e933d77fbcf580e391fef",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social-media entry age, emotional experience, and activity displacement",
+      "denominator": {"value": 26297, "unit": "EU adolescents aged 13–18 in the youth survey", "value_type": "survey_sample"},
+      "measures": {
+        "early_entry_gradient": {"value": "Those starting social media before age 10 reported 7.5 hours of weekend screen time versus 5.7 hours among those starting after age 14", "unit": "reported average hours per weekend day by age-of-entry group", "value_type": "reported_group_comparison"},
+        "social_distress": {"value": "Nearly 1 in 3 adolescents reported feeling stressed, sad, or socially excluded because of social media", "unit": "reported survey share", "value_type": "reported_survey_share"},
+        "comparison_pressure": {"value": 45, "unit": "percent reporting comparing themselves with others on social media", "value_type": "reported_survey_share"},
+        "activity_displacement": {"value": "Reported screen-related difficulties included concentration problems, tiredness, and reduced time for hobbies and other activities", "unit": "reported symptom and displacement pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Cross-sectional youth survey with self-reported age of social-media initiation, current use, experiences, and perceived symptoms.",
+      "uncertainty": "The age-of-entry gradient is observational and may reflect prior vulnerability, family context, platform choice, socioeconomic conditions, or recall; it is not a causal estimate of early entry.",
+      "subgroup": "Adolescents with different social-media entry ages, gender and age groups, and differing exposure to offline activities and support.",
+      "counterinterpretation": "Earlier entry may be a marker of broader digital access or social circumstances rather than the cause of later screen time or distress; online connection can also offset isolation.",
+      "source_url": "https://data.europa.eu/data/datasets/s3686_fl579_eng",
+      "retrieval_hash": "sha256:acff1dc3b1ceebd758d36b080c5b72d197e29fb4f25e933d77fbcf580e391fef",
+      "status": "reported"
+    },
+    {
+      "period": "2026; harmful content, mental-health support, and household policy demand",
+      "denominator": {"value": 26297, "unit": "EU adolescents aged 13–18, with 12750 parents interviewed separately", "value_type": "paired_survey_frame"},
+      "measures": {
+        "problematic_content": {"value": 25, "unit": "percent of adolescents reporting encountering problematic online content, including hate speech, body pressure, violence, or misinformation", "value_type": "reported_survey_share"},
+        "mental_health_support": {"value": 40, "unit": "percent of adolescents requesting better access to mental-health support", "value_type": "reported_survey_share"},
+        "parent_harm_perception": {"value": 36, "unit": "percent of parents saying social media harms their child’s mental wellbeing", "value_type": "reported_survey_share"},
+        "restriction_support": {"value": 54, "unit": "percent of parents supporting additional age limits or restrictions on social-media use", "value_type": "reported_survey_share"},
+        "governance_route": {"value": "Adolescents and parents place the problem across platform design, harmful content, household guidance, age rules, and access to support rather than screen duration alone", "unit": "reported policy framing", "value_type": "analytic_mechanism"}
+      },
+      "method": "Paired adolescent and parent survey frames covering use, symptoms, harmful experiences, perceived impacts, support needs, and policy preferences.",
+      "uncertainty": "Reported exposure and perceived harm are not verified incidents or clinical diagnoses; parent and adolescent responses are not linked at the individual household level in the published summary.",
+      "subgroup": "Adolescents, parents, families, schools, mental-health services, platforms, regulators, and young people encountering harmful or misleading content.",
+      "counterinterpretation": "Restrictions may reduce some exposures but can also shift risk to less visible channels, limit beneficial connection, or create privacy and enforcement burdens; the survey does not compare interventions.",
+      "source_url": "https://data.europa.eu/data/datasets/s3686_fl579_eng",
+      "retrieval_hash": "sha256:acff1dc3b1ceebd758d36b080c5b72d197e29fb4f25e933d77fbcf580e391fef",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://commission.europa.eu/news-and-media/news/child-safety-online-eu-survey-confirms-link-between-screen-time-and-wellbeing-2026-06-16_en", "claim": "European Commission summary of the survey’s headline findings and child-safety policy context."},
+    {"source_url": "https://health.ec.europa.eu/inthistogether/healthy-screentime_en", "claim": "Commission public-health guidance connecting screen use, platform design, family support, and mental-health protection."}
+  ],
+  "boundary": "This record adds a large cross-national paired survey on adolescent screen use, social-media experience, harmful content, parent perception, and support demand. It does not establish that screen duration causes mental illness, identify platform-level causal effects, validate parent–teen discrepancies as measurement error, or evaluate age limits, design changes, or mental-health interventions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "EU data catalogue and European Commission materials reviewed for field dates, paired sample sizes, screen-time distributions, parent–teen estimates, age-of-entry comparison, distress, content exposure, support demand, and restriction preferences.",
+    "source_url_sha256": "sha256:acff1dc3b1ceebd758d36b080c5b72d197e29fb4f25e933d77fbcf580e391fef",
+    "checked": "2026-09-28"
+  }
+}

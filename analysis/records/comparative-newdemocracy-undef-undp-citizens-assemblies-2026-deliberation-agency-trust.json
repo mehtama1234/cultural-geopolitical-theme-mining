@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-newdemocracy-undef-undp-citizens-assemblies-2026-deliberation-agency-trust",
+  "title": "Citizens’ assemblies are being institutionalized as a way to bring time, information, civic lottery, and deliberation into democratic decisions beyond elections",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "newDemocracy Foundation, Democracy Beyond Elections: A Handbook on Citizens' Assemblies, second edition, produced with UNDP and UN Democracy Fund support",
+  "geography": "Global deliberative-democracy practice, with examples of citizens’ assemblies addressing climate change, constitutional reform, and other major public decisions",
+  "observations": [
+    {
+      "period": "2026 second edition; global citizens’ assembly practice",
+      "denominator": {"value": 1, "unit": "handbook and growing global Democracy R&D practice network", "value_type": "reported_practice_frame"},
+      "measures": {
+        "institutional_model": {"value": "Citizens’ assemblies use civic lottery to select everyday people and give them time, information, and opportunity to deliberate together", "unit": "reported democratic-design model", "value_type": "reported_framework"},
+        "decision_scope": {"value": "The handbook describes use for high-stakes challenges including climate change and constitutional reform", "unit": "reported application scope", "value_type": "reported_use"},
+        "democratic_goal": {"value": "The model aims to support more informed, substantive, representative, and trusted democratic decisions", "unit": "reported democratic objective", "value_type": "reported_objective"}
+      },
+      "method": "Practical handbook synthesizing experience and lessons from citizens’ assemblies and the Democracy R&D network, produced by newDemocracy with UNDP and UN Democracy Fund support.",
+      "uncertainty": "A handbook and practice network are not a representative evaluation, causal test, or proof that assemblies improve policy outcomes, legitimacy, or equality in every context.",
+      "subgroup": "Randomly selected citizens, elected officials, public servants, facilitators, experts, civil society, communities affected by policy, and people traditionally excluded from formal decision-making.",
+      "counterinterpretation": "Civic lottery and deliberation can broaden voice, while recruitment, support, facilitation, agenda-setting, and unequal ability to participate can still shape whose knowledge enters the room.",
+      "source_url": "https://www.newdemocracy.com.au/2026/09/14/democracy-beyond-elections-a-handbook-on-citizens-assemblies/",
+      "retrieval_hash": "sha256:afc274354903391b5c3dcbb7255db45f55af36c95b42adf4132c533ea8d06b0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; deliberative design and agency",
+      "denominator": {"value": 1, "unit": "citizens’ assembly design framework", "value_type": "reported_framework"},
+      "measures": {
+        "time_condition": {"value": "Deliberation depends on giving participants sufficient time to learn, listen, weigh evidence, and think together", "unit": "reported participation condition", "value_type": "reported_principle"},
+        "information_condition": {"value": "Access to balanced information and structured learning is treated as part of meaningful participation", "unit": "reported participation condition", "value_type": "reported_principle"},
+        "agency_condition": {"value": "The model seeks to give ordinary people a substantive role in considering and recommending responses to major public questions", "unit": "reported agency route", "value_type": "reported_mechanism"}
+      },
+      "method": "Handbook guidance on commissioning, designing, operating, and learning from citizens’ assemblies.",
+      "uncertainty": "Design principles do not establish participant comprehension, deliberative equality, recommendation quality, or whether decision-makers act on recommendations.",
+      "subgroup": "Participants with different education, income, language, disability, age, racial, geographic, and political backgrounds; facilitators; experts; and decision-makers.",
+      "counterinterpretation": "More time and information can improve deliberation, but participation can impose unpaid care, work, travel, accessibility, and emotional costs that filter who can serve.",
+      "source_url": "https://www.newdemocracy.com.au/2026/09/14/democracy-beyond-elections-a-handbook-on-citizens-assemblies/",
+      "retrieval_hash": "sha256:afc274354903391b5c3dcbb7255db45f55af36c95b42adf4132c533ea8d06b0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; democratic trust and representation route",
+      "denominator": {"value": 1, "unit": "handbook’s democracy-beyond-elections problem frame", "value_type": "reported_framework"},
+      "measures": {
+        "trust_route": {"value": "Citizens’ assemblies are presented as a way to support trusted decisions through representative deliberation rather than electoral choice alone", "unit": "reported legitimacy route", "value_type": "reported_mechanism"},
+        "representation_route": {"value": "Civic lottery is used to approximate a cross-section of the public in a deliberative mini-public", "unit": "reported representation mechanism", "value_type": "reported_framework"},
+        "beyond_elections": {"value": "The model expands democratic participation beyond periodic voting toward sustained consideration of policy questions", "unit": "reported democratic shift", "value_type": "reported_interpretation"}
+      },
+      "method": "Handbook synthesis of deliberative-democracy practice and institutional design.",
+      "uncertainty": "Perceived trust, representativeness, and legitimacy require context-specific measurement; a mini-public cannot substitute for broad public accountability, elections, or organized civil society.",
+      "subgroup": "Citizens, elected officials, parties, civil-society organizations, public servants, media, and groups with low trust or weak access to traditional political channels.",
+      "counterinterpretation": "Assemblies can complement representative democracy, but they can also be used symbolically, delay decisions, or shift responsibility to selected citizens without transferring real authority.",
+      "source_url": "https://www.newdemocracy.com.au/2026/09/14/democracy-beyond-elections-a-handbook-on-citizens-assemblies/",
+      "retrieval_hash": "sha256:afc274354903391b5c3dcbb7255db45f55af36c95b42adf4132c533ea8d06b0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; implementation and institutionalization route",
+      "denominator": {"value": 1, "unit": "citizens’ assembly operating model", "value_type": "reported_framework"},
+      "measures": {
+        "commissioning_route": {"value": "The handbook focuses on how political leaders, public officials, and practitioners can commission, design, and operate assemblies", "unit": "reported implementation route", "value_type": "reported_use"},
+        "follow_through": {"value": "The democratic value of an assembly depends on how recommendations connect to policymaking, public explanation, and institutional response", "unit": "reported conversion route", "value_type": "reported_mechanism"},
+        "learning_route": {"value": "The handbook shares practical lessons and case experience to support future deliberative practice", "unit": "reported learning route", "value_type": "reported_use"}
+      },
+      "method": "Practice-oriented guidance drawing on global cases and a deliberative-democracy practitioner network.",
+      "uncertainty": "The public description does not establish a common implementation standard, enforcement mechanism, or outcome benchmark across assemblies.",
+      "subgroup": "Decision-makers, public administrations, facilitators, experts, participants, civil-society observers, media, and communities affected by recommendations.",
+      "counterinterpretation": "Institutionalizing assemblies can create a durable feedback channel, but bureaucratic adoption can turn deliberation into a procedural box-checking exercise if agenda, authority, and feedback remain controlled elsewhere.",
+      "source_url": "https://www.newdemocracy.com.au/2026/09/14/democracy-beyond-elections-a-handbook-on-citizens-assemblies/",
+      "retrieval_hash": "sha256:afc274354903391b5c3dcbb7255db45f55af36c95b42adf4132c533ea8d06b0d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cop-demos.jrc.ec.europa.eu/resources/democracy-beyond-elections-handbook-citizens-assemblies", "claim": "EU Joint Research Centre community page describes the handbook as a guide for commissioning, designing, and operating citizens’ assemblies."}
+  ],
+  "boundary": "This record adds a democratic-institution signal linking civic lottery, time, information, deliberation, representation, agency, trust, policymaking, and institutional follow-through. It is a practical handbook and practice synthesis, not a representative public-opinion dataset, respondent-level ingestion, causal evaluation, or proof that citizens’ assemblies produce trusted or equitable outcomes in every setting.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official newDemocracy publication page reviewed for second-edition status, UNDP and UN Democracy Fund partnership, civic-lottery model, time/information conditions, climate and constitutional applications, representation/trust objective, and implementation guidance.",
+    "source_url_sha256": "sha256:afc274354903391b5c3dcbb7255db45f55af36c95b42adf4132c533ea8d06b0d",
+    "checked": "2026-09-27"
+  }
+}

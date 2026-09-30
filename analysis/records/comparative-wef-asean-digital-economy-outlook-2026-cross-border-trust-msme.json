@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-asean-digital-economy-outlook-2026-cross-border-trust-msme",
+  "title": "ASEAN digital readiness is advancing faster than trusted, inclusive cross-border participation",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Economic Forum, ASEAN Digital Economy Outlook 2026",
+  "geography": "ASEAN Member States, with macro benchmarks and a 2026 survey of more than 4,500 businesses across Southeast Asia",
+  "observations": [
+    {
+      "period": "2024-2026; ASEAN digital integration readiness",
+      "denominator": {"value": 1, "unit": "ASEAN Digital Integration Index 2.0 regional benchmark and selected comparator-economy frame", "value_type": "regional_index_frame"},
+      "measures": {
+        "payments_identity_score": {"value": 70.0, "unit": "ASEAN ADII 2.0 score for digital payments and identities, up 11.2 points from ADII 1.0", "value_type": "reported_index_score"},
+        "cybersecurity_score": {"value": 70.0, "unit": "ASEAN ADII 2.0 score for data protection and cybersecurity, up 7.2 points", "value_type": "reported_index_score"},
+        "digital_trade_logistics_score": {"value": 61.8, "unit": "ASEAN ADII 2.0 score for digital trade and logistics, up 6.5 points", "value_type": "reported_index_score"},
+        "digital_skills_score": {"value": 50.0, "unit": "ASEAN ADII 2.0 score for digital skills and talent", "value_type": "reported_index_score"},
+        "comparator_gap": {"value": "ASEAN remains below the selected Australia, China, Japan, Republic of Korea, and United States comparator average across all six pillars", "unit": "reported regional benchmark pattern", "value_type": "reported_gap_pattern"}
+      },
+      "method": "WEF synthesis of ASEAN Digital Integration Index 2.0, ITU connectivity and cybersecurity indicators, UN trade-facilitation measures, and comparator benchmarks.",
+      "uncertainty": "Composite index scores summarize enabling conditions rather than actual firm welfare, consumer outcomes, or durable cross-border trade; component definitions, years, and country coverage differ.",
+      "subgroup": "ASEAN Member States, digitally advanced comparator economies, firms, consumers, MSMEs, and public institutions responsible for infrastructure and regulation.",
+      "counterinterpretation": "Regional progress can coexist with useful experimentation and rapid improvement; lower scores than advanced comparators do not imply that digital participation is absent or uniformly weak.",
+      "source_url": "https://www.weforum.org/publications/asean-digital-economy-outlook-2026/",
+      "retrieval_hash": "sha256:64dfa96d3f6729d7d841507cd5dc71609323f965e81e3d0c54b8c8561bef5a85",
+      "status": "reported"
+    },
+    {
+      "period": "2026; business digital-tool awareness and adoption",
+      "denominator": {"value": 4500, "unit": "more than 4,500 businesses surveyed across Southeast Asia", "value_type": "published_business_survey_sample_approximate"},
+      "measures": {
+        "digital_payment_awareness": {"value": 83, "unit": "percent of surveyed firms aware of digital payment solutions", "value_type": "reported_share"},
+        "defa_awareness": {"value": 26, "unit": "percent of surveyed firms aware of the ASEAN Digital Economy Framework Agreement", "value_type": "reported_share"},
+        "digital_payment_use": {"value": 91.9, "unit": "percent of surveyed firms reporting use of digital payments in operations", "value_type": "reported_share"},
+        "authentication_use": {"value": 77.4, "unit": "percent reporting use of electronic authentication", "value_type": "reported_share"},
+        "esignature_use": {"value": 68.5, "unit": "percent reporting use of electronic signatures", "value_type": "reported_share"}
+      },
+      "method": "WEF ASEAN digital economy business survey measuring awareness and operational use of digital payments, authentication, e-signatures, digital trade, and DEFA.",
+      "uncertainty": "Surveyed firms are not the full business population; self-reported awareness and use do not establish quality, security, legal validity, productivity, or whether use is domestic or cross-border.",
+      "subgroup": "ASEAN firms, including MSMEs and large firms, using digital transaction tools or considering regional digital-economy policy.",
+      "counterinterpretation": "Low policy awareness may reflect a new implementation stage rather than irrelevance; high payment use can coexist with weak advanced authentication, legal certainty, and data governance.",
+      "source_url": "https://www.weforum.org/publications/asean-digital-economy-outlook-2026/",
+      "retrieval_hash": "sha256:64dfa96d3f6729d7d841507cd5dc71609323f965e81e3d0c54b8c8561bef5a85",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-border participation and firm-size gaps",
+      "denominator": {"value": 4500, "unit": "more than 4,500 businesses in the ASEAN digital economy business survey; MSMEs are firms with 300 or fewer employees", "value_type": "published_business_survey_sample_approximate"},
+      "measures": {
+        "cross_border_trade": {"value": 53.0, "unit": "percent of surveyed firms reporting participation in cross-border digital trade", "value_type": "reported_share"},
+        "cross_border_payments": {"value": 55.9, "unit": "percent reporting use of digital payments for cross-border transactions", "value_type": "reported_share"},
+        "msme_cross_border_trade": {"value": 49.9, "unit": "percent of MSMEs reporting cross-border digital trade compared with 73.4% of large firms", "value_type": "reported_subgroup_share"},
+        "msme_cross_border_payment_gap": {"value": 31.6, "unit": "percentage-point large-firm minus MSME gap in cross-border digital-payment use", "value_type": "reported_gap"},
+        "msme_cross_border_esignature_gap": {"value": 25.1, "unit": "percentage-point large-firm minus MSME gap in cross-border e-signature use", "value_type": "reported_gap"}
+      },
+      "method": "WEF business survey comparing domestic digital-tool use with cross-border digital participation and reported use by firm size.",
+      "uncertainty": "Firm-size differences are descriptive and do not identify whether finance, skills, sector, geography, regulation, demand, or firm capability causes the gaps; participation does not equal profitable or inclusive trade.",
+      "subgroup": "MSMEs with 300 or fewer employees, large firms, cross-border traders, payment users, and firms using authentication or e-signatures.",
+      "counterinterpretation": "Large-firm advantages may reflect greater transaction complexity or compliance needs; MSMEs can benefit from shared platforms and policy simplification even when current participation is lower.",
+      "source_url": "https://www.weforum.org/publications/asean-digital-economy-outlook-2026/",
+      "retrieval_hash": "sha256:64dfa96d3f6729d7d841507cd5dc71609323f965e81e3d0c54b8c8561bef5a85",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital payments, trust, and business value",
+      "denominator": {"value": 4500, "unit": "more than 4,500 businesses surveyed across Southeast Asia, with benefit questions applying to relevant tool users", "value_type": "published_business_survey_sample_approximate"},
+      "measures": {
+        "digital_payment_ease": {"value": 78.9, "unit": "percent of relevant firms identifying ease of use as a leading digital-payment benefit", "value_type": "reported_share"},
+        "digital_payment_efficiency": {"value": 77.5, "unit": "percent identifying improved business efficiency as a leading benefit", "value_type": "reported_share"},
+        "authentication_privacy_trust": {"value": 75.1, "unit": "percent identifying enhanced privacy and trust as a leading benefit of electronic authentication", "value_type": "reported_share"},
+        "esignature_process_efficiency": {"value": 84.5, "unit": "percent identifying increased process efficiency as a leading benefit of e-signatures", "value_type": "reported_share"}
+      },
+      "method": "WEF survey of perceived business benefits from digital trade, digital payments, electronic authentication, and electronic signatures; multiple responses were allowed.",
+      "uncertainty": "Perceived benefits are not verified cost savings, security outcomes, customer welfare, or productivity effects; shares are not mutually exclusive and apply to tool-specific question frames.",
+      "subgroup": "Businesses using digital payments, authentication, e-signatures, and digital trade across ASEAN markets.",
+      "counterinterpretation": "Convenience and efficiency can coexist with privacy, concentration, cybersecurity, and exclusion risks; trusted infrastructure may lower friction without guaranteeing equitable market power.",
+      "source_url": "https://www.weforum.org/publications/asean-digital-economy-outlook-2026/",
+      "retrieval_hash": "sha256:64dfa96d3f6729d7d841507cd5dc71609323f965e81e3d0c54b8c8561bef5a85",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/itu-d/reports/statistics/idi2025/", "claim": "ITU ICT Development Index supplies the connectivity benchmark used in the report's digital-foundation layer."},
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex", "claim": "World Bank Global Findex supplies the digital-payment adoption benchmark used in the report."},
+    {"source_url": "https://www.oecd.org/en/topics/sub-issues/services-trade-restrictiveness-index/digital-stri.html", "claim": "OECD Digital STRI supplies the digital-services regulatory-openness benchmark used in the report."}
+  ],
+  "boundary": "This record adds a regional digital-integration route across connectivity, digital trade, payments, identity, cybersecurity, data governance, skills, MSME participation, cross-border friction, and business value. It uses WEF composite benchmarks and aggregate firm survey evidence, not transaction logs, consumer welfare, firm profits, causal effects of DEFA, legal enforcement outcomes, or proof that digital readiness becomes inclusive regional growth.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF ASEAN Digital Economy Outlook 2026 page and linked PDF were retrieved and reviewed for ADII benchmarks, connectivity, payments, cybersecurity, business awareness, adoption, MSME gaps, cross-border participation, and perceived benefits.",
+    "source_url_sha256": "sha256:64dfa96d3f6729d7d841507cd5dc71609323f965e81e3d0c54b8c8561bef5a85",
+    "checked": "2026-09-26"
+  }
+}

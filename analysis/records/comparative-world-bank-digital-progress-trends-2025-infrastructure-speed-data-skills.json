@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-digital-progress-trends-2025-infrastructure-speed-data-skills",
+  "title": "Digital access is expanding while infrastructure quality, data intensity, computing capacity, and skills remain sharply stratified by country income",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Digital Progress and Trends Report 2025: Strengthening AI Foundations",
+  "geography": "Global; high-income, upper-middle-income, lower-middle-income, and low-income country groups, with regional comparisons",
+  "observations": [
+    {
+      "period": "2022-2024; internet use and mobile-network coverage by country-income group",
+      "denominator": {"value": 100, "unit": "population share within World Bank income-group comparisons", "value_type": "reported_percentage_denominator"},
+      "measures": {
+        "internet_use_2024": {"value": "93% HICs; 81% UMICs; 54% LMICs; 27% LICs", "unit": "percent of population using the internet", "value_type": "reported_income_group_distribution"},
+        "internet_use_change_2022_2024": {"value": "+2 percentage points HICs; +4 UMICs; +5 LMICs; +3 LICs", "unit": "percentage-point change in population internet use", "value_type": "reported_change"},
+        "five_g_coverage_2024": {"value": "84% HICs; 65% UMICs; 35% LMICs; 4% LICs", "unit": "population share covered by 5G mobile networks", "value_type": "reported_income_group_distribution"},
+        "offline_population": {"value": 2600000000, "unit": "people offline in 2024, approximately one-third of global population", "value_type": "reported_population_estimate"},
+        "mechanism": {"value": "Digital participation depends on network quality and generational infrastructure, not only whether a person can reach any signal", "unit": "bounded infrastructure-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank synthesis using ITU, Ookla, GSMA, national statistics, and other sources; figures are aggregate income-group estimates rather than a common person-level panel.",
+      "uncertainty": "Country-income aggregates conceal within-country urban-rural, gender, age, disability, and household differences. Internet penetration, coverage, and 5G availability do not establish affordability, reliability, effective use, or cultural/consumer outcomes.",
+      "subgroup": "Populations in four World Bank income groups; rural and urban populations are discussed separately in the report but are not represented as a single harmonized individual denominator here.",
+      "counterinterpretation": "Higher coverage or internet use may coexist with shared devices, low-quality connections, high data costs, surveillance risk, or shallow use. Lower-income catch-up can coexist with widening quality and data-intensity gaps.",
+      "source_url": "https://ppp.worldbank.org/sites/default/files/2026-01/Digital%20Progress%20and%20Trends%20Report%202025%2C%20Strengthening%20AI%20Foundations.pdf",
+      "retrieval_hash": "sha256:55ccabdc86435e1fce717e8ae7255c5631e1f91becfc9191adb38103a095a10e",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; digital consumption, broadband speed, and affordability",
+      "denominator": {"value": 100, "unit": "population and per-capita traffic comparisons by World Bank income group", "value_type": "reported_percentage_denominator"},
+      "measures": {
+        "data_traffic_per_capita_2023": {"value": "1,400 GB HICs; 400 GB UMICs; 100 GB LMICs; 5 GB LICs", "unit": "annual data traffic per capita", "value_type": "reported_income_group_distribution"},
+        "speed_2024": {"value": "median fixed and mobile speeds in LMICs and LICs remained below 25 Mbps", "unit": "median download speed", "value_type": "reported_aggregate"},
+        "lic_fixed_broadband_affordability": {"value": 29, "unit": "percent of average monthly income consumed by a 5-gigabyte fixed-broadband subscription in LICs in 2024", "value_type": "reported_affordability_share"},
+        "lic_mobile_fixed_price_relation": {"value": 5, "unit": "fixed broadband was nearly five times as expensive as mobile broadband in LICs", "value_type": "reported_price_ratio"},
+        "mechanism": {"value": "Being connected can still mean materially narrower bandwidth, slower service, and higher income shares devoted to access, shaping which digital tasks and cultural or consumer services are practically available", "unit": "bounded quality-affordability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the report's connectivity, speed, data-consumption, and affordability sections, with source calculations based on ITU, Ookla, and related administrative or commercial infrastructure data.",
+      "uncertainty": "Data traffic is not a direct measure of useful activity, and speed medians do not capture reliability, latency, congestion, or household sharing. Affordability ratios are income-group averages and do not measure actual payment, hardship, or substitution.",
+      "subgroup": "Country-income groups, especially LIC and LMIC populations; the figures do not identify specific households or users who reduce consumption because of price or quality.",
+      "counterinterpretation": "Low data traffic may reflect lower demand, different service mix, or measurement differences rather than deprivation alone; higher traffic can also signal automated or low-value usage rather than greater agency.",
+      "source_url": "https://ppp.worldbank.org/sites/default/files/2026-01/Digital%20Progress%20and%20Trends%20Report%202025%2C%20Strengthening%20AI%20Foundations.pdf",
+      "retrieval_hash": "sha256:55ccabdc86435e1fce717e8ae7255c5631e1f91becfc9191adb38103a095a10e",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; AI-complementary skills and computing concentration",
+      "denominator": {"value": 100, "unit": "population and global co-location capacity comparisons by World Bank income group", "value_type": "reported_percentage_denominator"},
+      "measures": {
+        "basic_digital_skills_2023": {"value": "66% HICs; 38% UMICs; 21% LMICs; under 5% LICs", "unit": "population share with basic digital skills", "value_type": "reported_income_group_distribution"},
+        "intermediate_digital_skills_2023": {"value": "57% HICs; 26% UMICs; 13% LMICs; 3% LICs", "unit": "population share with intermediate digital skills", "value_type": "reported_income_group_distribution"},
+        "global_colocation_capacity_2025": {"value": "77% HICs; 18% UMICs; 5% LMICs; less than 0.1% LICs", "unit": "share of global co-location data-center capacity", "value_type": "reported_global_distribution"},
+        "us_server_intensity": {"value": "United States has about 200 times more servers per capita than typical middle-income countries and 20,000 times more than low-income countries", "unit": "reported per-capita server comparison", "value_type": "reported_ratio"},
+        "mechanism": {"value": "Digital use and AI participation depend on complementary skills and computing capacity that are concentrated across countries, so adoption can widen capability and bargaining asymmetries even when basic connectivity spreads", "unit": "bounded capability-concentration mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the report's digital-skills and computing-capacity sections; the report combines administrative, industry, and international statistical sources.",
+      "uncertainty": "Skills definitions, data-center capacity measures, and server counts are not equivalent to individual capability, access to compute, AI quality, productivity, or public benefit. The report does not identify who owns, controls, or pays for infrastructure within countries.",
+      "subgroup": "Populations by country-income group and digital-skills level; no linked worker, household, firm, or user-level denominator is supplied for the infrastructure comparisons.",
+      "counterinterpretation": "Concentrated compute can support affordable services through cloud access, while low measured skills can coexist with effective use of simple tools; infrastructure concentration does not alone prove dependency or harm.",
+      "source_url": "https://ppp.worldbank.org/sites/default/files/2026-01/Digital%20Progress%20and%20Trends%20Report%202025%2C%20Strengthening%20AI%20Foundations.pdf",
+      "retrieval_hash": "sha256:55ccabdc86435e1fce717e8ae7255c5631e1f91becfc9191adb38103a095a10e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex/report", "claim": "Global Findex 2025 provides complementary individual-level financial and digital-use indicators.", "status": "official-comparator"},
+    {"source_url": "https://datahub.itu.int/", "claim": "ITU data are used as a source for the report's global internet and connectivity calculations.", "status": "official-data-context"}
+  ],
+  "boundary": "This record adds infrastructure quality, data intensity, affordability, skill, and computing-capacity layers beneath digital participation and consumer behavior. It does not establish person-level access, platform outcomes, AI productivity, cultural participation, firm ownership, or household welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Digital Progress and Trends Report 2025 PDF reviewed for income-group internet use, 5G coverage, offline population, data traffic, speeds, affordability, digital skills, data-center capacity, and server-intensity claims.",
+    "pdf_sha256": "sha256:55ccabdc86435e1fce717e8ae7255c5631e1f91becfc9191adb38103a095a10e",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-pakistan-air-pollution-learning-cognition-2026",
+  "title": "School-year air pollution slows primary-school learning in rural Punjab through more than attendance alone",
+  "theme_ids": ["energy", "time", "work", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11463, Air Pollution and Student Learning in Pakistan",
+  "geography": "Primary-school students in rural Punjab, Pakistan, across more than 100 villages and three districts in the LEAPS longitudinal panel",
+  "observations": [
+    {
+      "period": "Rural Punjab primary schools; student-year exposure in the 12 months before LEAPS assessments",
+      "denominator": {"value": 50000, "unit": "approximately 50,000 students in the longitudinal LEAPS data", "value_type": "reported_approximate_sample"},
+      "measures": {
+        "pollution_measure": {"value": "fine particulate matter PM2.5 exposure is linked to student and school-year records using high-resolution satellite estimates", "unit": "reported exposure measure", "value_type": "reported_method"},
+        "learning_effect": {"value": "a 1 microgram-per-cubic-meter increase in annual PM2.5 lowers the share of difficult test items answered correctly by 2.7 percentage points", "unit": "percentage points", "value_type": "reported_iv_estimate"},
+        "relative_magnitude": {"value": "the effect is approximately 13.5% of the 0.20 sample mean and about 0.16 standard deviations of the outcome", "unit": "percent of mean and standard deviations", "value_type": "reported_effect_size"},
+        "causal_strategy": {"value": "instrumental-variable estimates use plausibly exogenous upwind agricultural-residue fires interacted with wind direction to address pollution endogeneity", "unit": "reported identification strategy", "value_type": "reported_method"},
+        "human_capital_route": {"value": "ambient pollution can reduce human-capital accumulation even when the immediate outcome is measured as school learning rather than health", "unit": "bounded environment-to-human-capital mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Student-level longitudinal achievement data linked to school-year PM2.5 estimates, with an IV based on upwind residue fires and wind direction, student and school controls, and clustered inference.",
+      "uncertainty": "The instrument identifies the fire-driven component of PM2.5 variation; estimates are for grades 3-5 in rural Punjab and may not generalize to urban areas, other provinces, older students, or present-day conditions.",
+      "subgroup": "Primary-school students, rural households, teachers and schools, children with different ages and genders, agricultural communities, and families investing in education.",
+      "counterinterpretation": "The estimate captures a combined reduced-form effect, not a separately identified cognitive, effort, attendance, or instructional-quality effect; school learning loss does not directly quantify lifetime earnings or household welfare.",
+      "source_url": "https://documents.worldbank.org/curated/en/099820409222616563/pdf/IDU-abbf3908-8a57-4304-8cf9-2de5ea041dde.pdf",
+      "retrieval_hash": "sha256:5849a8e3a1c80a555240a5b4728d67d69ce0137868566e809f3ecdc125c70f40",
+      "status": "reported"
+    },
+    {
+      "period": "Rural Punjab LEAPS assessments; school-year versus vacation exposure and subject differences",
+      "denominator": {"value": 3, "unit": "learning domains and exposure windows examined: all subjects, mathematics versus language, school year versus vacation", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "mathematics": {"value": "the pollution effect on mathematics is roughly 40% larger than the effect across all subjects", "unit": "relative effect magnitude", "value_type": "reported_subject_result"},
+        "language": {"value": "language-subject effects are smaller than mathematics effects in the reported subject comparison", "unit": "reported subject pattern", "value_type": "reported_subject_result"},
+        "school_year_timing": {"value": "school-year PM2.5 exposure predicts lower achievement, while vacation-month exposure has little explanatory power", "unit": "reported timing result", "value_type": "reported_timing_result"},
+        "instructional_route": {"value": "the timing pattern is consistent with pollution affecting learning during instructional months through students, teachers, effort, cognition, or classroom quality", "unit": "bounded timing mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Separate PM2.5 exposure measures for instructional and vacation months, with subject-specific achievement outcomes in Urdu, English, and mathematics.",
+      "uncertainty": "The school-year timing pattern is suggestive rather than definitive evidence for a specific mechanism; exposure windows overlap with seasonal agricultural burning and other time-varying conditions.",
+      "subgroup": "Students learning mathematics and language, teachers exposed during instructional months, schools with different air-quality environments, and households deciding whether school attendance remains worthwhile.",
+      "counterinterpretation": "Subject differences may reflect curriculum, test construction, baseline performance, teacher specialization, or differential measurement rather than a uniquely cognitive mathematics pathway.",
+      "source_url": "https://documents.worldbank.org/curated/en/099820409222616563/pdf/IDU-abbf3908-8a57-4304-8cf9-2de5ea041dde.pdf",
+      "retrieval_hash": "sha256:5849a8e3a1c80a555240a5b4728d67d69ce0137868566e809f3ecdc125c70f40",
+      "status": "reported"
+    },
+    {
+      "period": "Rural Punjab students; attendance and non-attendance channels of learning loss",
+      "denominator": {"value": 4, "unit": "framework channels: attendance, cognition, effort, and instructional quality", "value_type": "reported_mechanism_frame"},
+      "measures": {
+        "absence_response": {"value": "a 1 microgram-per-cubic-meter increase in PM2.5 increases reported recent absences by just over 7.7%", "unit": "percent change in reported absences", "value_type": "reported_first_stage_result"},
+        "attendance_share": {"value": "pollution-induced absences account for only a small portion of the overall learning effect, with a back-of-the-envelope estimate well below 10% under strong assumptions", "unit": "share of total effect", "value_type": "reported_approximate_decomposition"},
+        "nonattendance_channels": {"value": "remaining losses are consistent with direct cognitive effects, headaches or fatigue, reduced effort, and degraded instructional quality or teacher performance", "unit": "bounded mechanism set", "value_type": "bounded_mechanism"},
+        "heterogeneity": {"value": "estimated gender and age differences are statistically imprecise; point estimates suggest larger effects for boys and younger students but are hypothesis-generating", "unit": "reported heterogeneous result", "value_type": "reported_boundary"},
+        "institutional_route": {"value": "clean-air policy may need to protect the learning environment, not only reduce absence or provide access to school", "unit": "bounded education-policy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Attendance regressions and comparisons of students with and without recent absences, combined with the reduced-form learning estimates and a conceptual framework for school performance.",
+      "uncertainty": "The study does not directly measure cognition, effort, teacher attendance, classroom air quality, or instructional quality; the channel decomposition cannot isolate these components causally.",
+      "subgroup": "Students with near-perfect attendance, frequently absent students, younger and older children, boys and girls, teachers, schools, and agricultural households exposed to seasonal smoke.",
+      "counterinterpretation": "A small attendance share in this setting does not imply attendance is unimportant elsewhere; schools with different infrastructure, health systems, or baseline pollution may have different channel weights.",
+      "source_url": "https://documents.worldbank.org/curated/en/099820409222616563/pdf/IDU-abbf3908-8a57-4304-8cf9-2de5ea041dde.pdf",
+      "retrieval_hash": "sha256:5849a8e3a1c80a555240a5b4728d67d69ce0137868566e809f3ecdc125c70f40",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099820409222616563", "claim": "Official World Bank record, WPS number, authors, date, abstract, Pakistan geography, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099820409222616563", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/641", "claim": "World Bank verified reproducibility package metadata for the study."}
+  ],
+  "boundary": "This record adds a causal air-pollution-to-learning and non-attendance mechanism. It is evidence for rural Punjab primary students in grades 3-5 and does not establish national Pakistan effects, lifetime earnings, household welfare, health outcomes, political response, or separately identified cognitive and instructional channels. Gender and age differences are imprecise, and generalization requires additional settings and current data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, reproducibility package, abstract, LEAPS sample, rural Punjab geography, IV strategy, 2.7 percentage-point effect per 1 microgram-per-cubic-meter PM2.5, mathematics and timing heterogeneity, attendance response, channel decomposition, and generalization boundaries were reviewed.",
+    "source_url_sha256": "sha256:5849a8e3a1c80a555240a5b4728d67d69ce0137868566e809f3ecdc125c70f40",
+    "checked": "2026-09-29"
+  }
+}

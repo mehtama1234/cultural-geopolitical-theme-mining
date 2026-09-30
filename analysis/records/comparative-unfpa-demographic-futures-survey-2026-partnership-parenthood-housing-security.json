@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unfpa-demographic-futures-survey-2026-partnership-parenthood-housing-security",
+  "title": "Young adults continue to value partnership and parenthood, but housing, financial security, employment, and social uncertainty constrain the futures they can realize",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "United Nations Population Fund, Lives, Choices and Futures: Demographic Futures Survey",
+  "geography": "Comparative views of Internet-connected young adults aged 18–39 across 73 countries and seven regional groupings",
+  "observations": [
+    {
+      "period": "2025-2026; partnership and family aspirations",
+      "denominator": {"value": 108000, "unit": "over Internet-connected people aged 18 to 39 surveyed across 73 countries", "value_type": "published_survey_frame"},
+      "measures": {
+        "partnership_aspiration": {"value": "more than two thirds want to marry or live with a partner", "unit": "published comparative survey finding", "value_type": "reported_share_boundary"},
+        "ideal_family_size": {"value": "two children is the most commonly reported ideal family size in five of seven regional groupings", "unit": "published comparative survey finding", "value_type": "reported_pattern"},
+        "conditions_gap": {"value": "many young adults value partnership and parenthood while feeling that the conditions to realize these aspirations are out of reach", "unit": "UNFPA report synthesis", "value_type": "reported_gap"}
+      },
+      "method": "UNFPA Demographic Futures Survey of more than 108,000 Internet-connected young adults aged 18–39 across 73 countries, weighted by age, sex, and education level.",
+      "uncertainty": "The survey is not nationally representative and should not be interpreted as a population-level fertility or partnership estimate; Internet access and self-selection shape the frame.",
+      "subgroup": "Internet-connected young adults, people forming partnerships, prospective parents, renters, workers, and groups facing unequal access to family-supporting conditions.",
+      "counterinterpretation": "Reported aspirations can change with life stage, social norms, economic conditions, and available support; wanting partnership or children does not imply a fixed future choice.",
+      "source_url": "https://wcaro.unfpa.org/en/publications/lives-choices-and-futures-demographic-futures-survey",
+      "retrieval_hash": "sha256:21f1baec6d468b56043b51058ffa666ff75a0cafd9dc7ea40f432ab10b3db992",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; economic and housing constraints",
+      "denominator": {"value": 1, "unit": "published comparative survey frame on partnership and parenthood barriers", "value_type": "family_formation_constraints_frame"},
+      "measures": {
+        "common_obstacles": {"value": "economic and housing constraints are the most common obstacles to forming partnerships", "unit": "UNFPA report synthesis", "value_type": "reported_pattern"},
+        "financial_security_partnership": {"value": 81, "unit": "percent identifying financial security as an important consideration for entering a partnership", "value_type": "reported_share_boundary"},
+        "financial_security_parenthood": {"value": 88, "unit": "percent identifying financial security as an important consideration for parenthood", "value_type": "reported_share_boundary"},
+        "material_channel": {"value": "family-formation aspirations are filtered through housing costs, economic security, and the room available for care and consumption", "unit": "program synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "UNFPA published aggregate comparison of reported family-formation considerations and obstacles.",
+      "uncertainty": "These are reported considerations, not causal estimates of housing prices, income, or policy on partnership or fertility outcomes.",
+      "subgroup": "Young adults, renters, low-income households, prospective parents, people facing unstable employment, and communities with limited family-support services.",
+      "counterinterpretation": "Financial security may be one consideration among many; social networks, cultural expectations, care arrangements, health, and personal readiness can alter the weight of material constraints.",
+      "source_url": "https://wcaro.unfpa.org/en/publications/lives-choices-and-futures-demographic-futures-survey",
+      "retrieval_hash": "sha256:21f1baec6d468b56043b51058ffa666ff75a0cafd9dc7ea40f432ab10b3db992",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; employment and emotional readiness",
+      "denominator": {"value": 1, "unit": "published comparative survey frame on parenthood considerations", "value_type": "parenthood_readiness_frame"},
+      "measures": {
+        "stable_employment": {"value": 87, "unit": "percent identifying stable employment as an important precondition for becoming parents", "value_type": "reported_share_boundary"},
+        "emotional_readiness": {"value": 85, "unit": "percent identifying emotional readiness as an important precondition for becoming parents", "value_type": "reported_share_boundary"},
+        "work_care_link": {"value": "employment stability and emotional readiness appear together as conditions young adults associate with family formation", "unit": "UNFPA report synthesis", "value_type": "reported_mechanism"},
+        "institutional_question": {"value": "education, employment security, housing, reproductive health services, and social protection jointly shape the room to realize family aspirations", "unit": "UNFPA report framework", "value_type": "reported_framework"}
+      },
+      "method": "UNFPA published aggregate analysis of young adults' reported parenthood considerations.",
+      "uncertainty": "The report does not establish a causal pathway from employment or emotional readiness to parenthood, nor does it measure service quality or individual health outcomes.",
+      "subgroup": "Workers, students, caregivers, prospective parents, people with disabilities, and young adults facing insecure work or limited reproductive services.",
+      "counterinterpretation": "Stable employment can be desired but not necessary for every family, and flexible work, community support, or public services may compensate for income volatility.",
+      "source_url": "https://wcaro.unfpa.org/en/publications/lives-choices-and-futures-demographic-futures-survey",
+      "retrieval_hash": "sha256:21f1baec6d468b56043b51058ffa666ff75a0cafd9dc7ea40f432ab10b3db992",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; future expectations under conflict and inequality",
+      "denominator": {"value": 1, "unit": "published comparative survey frame on future outlook among young adults", "value_type": "youth_future_frame"},
+      "measures": {
+        "positive_future": {"value": "approximately two thirds feel somewhat or very positive about the future", "unit": "UNFPA published comparative survey finding", "value_type": "reported_share_boundary"},
+        "worries": {"value": "conflict, economic insecurity, and inequality are prominent worries shaping future outlook", "unit": "UNFPA report synthesis", "value_type": "reported_pattern"},
+        "demographic_meaning": {"value": "demographic change is linked to social and economic conditions rather than only population targets or individual preferences", "unit": "UNFPA report framework", "value_type": "reported_framework"}
+      },
+      "method": "UNFPA published synthesis of young adults' expectations, worries, and family-related choices.",
+      "uncertainty": "A positive outlook is not a measure of actual wellbeing, resilience, or future demographic behavior; regional comparisons remain subject to the survey's Internet-connected frame.",
+      "subgroup": "Young adults, communities exposed to conflict or inequality, families, policymakers, employers, and reproductive-health and social-protection systems.",
+      "counterinterpretation": "Optimism can coexist with serious constraints and may support agency, adaptation, and collective action rather than simply predict family formation.",
+      "source_url": "https://wcaro.unfpa.org/en/publications/lives-choices-and-futures-demographic-futures-survey",
+      "retrieval_hash": "sha256:21f1baec6d468b56043b51058ffa666ff75a0cafd9dc7ea40f432ab10b3db992",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unfpa.org/sites/default/files/pub-pdf/swp25-layout-en-v250609-web.pdf", "claim": "UNFPA State of World Population 2025 provides complementary evidence on reproductive agency and barriers to desired family size."},
+    {"source_url": "https://www.un.org/development/desa/pd/node/4478", "claim": "UN DESA World Population Highlights 2026: Youth provides complementary demographic and wellbeing context."}
+  ],
+  "boundary": "This record adds a comparative youth family-formation, housing, employment-security, care, reproductive-agency, and future-expectations route. It uses the publication's aggregate survey results and preserves its non-nationally-representative Internet-connected frame; it is not raw respondent-level data, an individual fertility history, a causal fertility estimate, or a population forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNFPA Lives, Choices and Futures materials were reviewed for the 73-country survey frame, partnership and family aspirations, housing and economic constraints, financial security, stable employment, emotional readiness, and future outlook.",
+    "source_url_sha256": "sha256:21f1baec6d468b56043b51058ffa666ff75a0cafd9dc7ea40f432ab10b3db992",
+    "checked": "2026-09-26"
+  }
+}

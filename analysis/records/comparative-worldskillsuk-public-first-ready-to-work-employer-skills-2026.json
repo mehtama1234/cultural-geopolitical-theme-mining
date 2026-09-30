@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldskillsuk-public-first-ready-to-work-employer-skills-2026",
+  "title": "Employers see the youth transition as harder, but treat employability skills as productive capability rather than a soft add-on",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "WorldSkills UK and Public First, Ready to Work Report 2026",
+  "geography": "United Kingdom; employers",
+  "observations": [
+    {
+      "period": "April 30-May 29, 2026; employer perception of young people's route into work",
+      "denominator": {"value": 2008, "unit": "UK employers surveyed by Public First for WorldSkills UK", "value_type": "reported_survey_sample"},
+      "measures": {
+        "harder_youth_job_entry": {"value": 59, "unit": "percent saying it is harder for young people to get a job today than for previous generations", "value_type": "published_survey_estimate"},
+        "youth_transition_problem": {"value": "Employers perceive a worsening school-to-work transition even while reporting strong demand for young workers with usable employability skills.", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "skills_as_access_gate": {"value": "Hiring access depends on whether young applicants can demonstrate a legible bundle of mindset, teamwork, attention to detail, quality, and adaptability.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Public First survey commissioned by WorldSkills UK; 2,008 UK employers surveyed online from April 30 to May 29, 2026.",
+      "uncertainty": "Employer perceptions are not administrative measures of youth employment or hiring difficulty; the commissioned survey does not identify causal changes in education, recruitment, or labour demand.",
+      "subgroup": "UK employers, with reported views on young people, employability, and technical skills.",
+      "counterinterpretation": "The perceived generational difficulty may reflect changing employer expectations, screening practices, or macroeconomic conditions rather than a decline in young people's capability.",
+      "source_url": "https://www.publicfirst.co.uk/new_report_for_worldskills_uk",
+      "retrieval_hash": "sha256:bb29a3227d7b911de23b3384554786547d209005d15e030ac4ec07b81b004b9a",
+      "status": "reported"
+    },
+    {
+      "period": "April 30-May 29, 2026; what employers value in hiring",
+      "denominator": {"value": 2008, "unit": "UK employers surveyed; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "right_mindset_important": {"value": 95, "unit": "percent saying the right mindset is important in a hiring decision", "value_type": "published_survey_estimate"},
+        "top_employability_skills": {"value": "Teamwork, attention to detail and quality, and adaptability are reported among the most valued skills.", "unit": "reported employer ranking", "value_type": "published_survey_estimate"},
+        "legibility_problem": {"value": "The transition problem is partly a signaling problem: employers want behavioural and practical capability, while young people need credible ways to demonstrate it before employment.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Employer survey estimates on hiring priorities and employability skills; question wording and full tables are linked by the publisher.",
+      "uncertainty": "Importance ratings do not reveal how employers assess these skills, whether they are consistently measured, or whether they predict retention and performance.",
+      "subgroup": "UK employers by sector and organizational context where reported in the full survey materials.",
+      "counterinterpretation": "“Mindset” can be a vague or subjective hiring criterion and may reproduce class, cultural, age, disability, or educational-status biases.",
+      "source_url": "https://www.publicfirst.co.uk/new_report_for_worldskills_uk",
+      "retrieval_hash": "sha256:bb29a3227d7b911de23b3384554786547d209005d15e030ac4ec07b81b004b9a",
+      "status": "reported"
+    },
+    {
+      "period": "April 30-May 29, 2026; employer value of youth employability skills",
+      "denominator": {"value": 2008, "unit": "UK employers surveyed; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "skills_revenue_expectation": {"value": 70, "unit": "percent believing hiring young people with the right employability skills is likely to increase workplace revenue", "value_type": "published_survey_estimate"},
+        "firm_capability_conversion": {"value": "Employability skills are framed by employers as firm capability and revenue potential, not only as a social obligation to offer young people a chance.", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "employer_incentive": {"value": "The employer-side case for youth pathways is strongest when skills are made legible as productivity, adaptability, and team capacity.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive employer survey measure of expected business benefit from employability skills.",
+      "uncertainty": "This is an expectation about revenue, not observed revenue, productivity, or a causal estimate of hiring young people.",
+      "subgroup": "UK employers surveyed for WorldSkills UK.",
+      "counterinterpretation": "Positive expectations may reflect aspirational employer responses or the commissioning organization’s skills-development frame.",
+      "source_url": "https://www.publicfirst.co.uk/new_report_for_worldskills_uk",
+      "retrieval_hash": "sha256:bb29a3227d7b911de23b3384554786547d209005d15e030ac4ec07b81b004b9a",
+      "status": "reported"
+    },
+    {
+      "period": "April 30-May 29, 2026; competitions and workplace readiness",
+      "denominator": {"value": 2008, "unit": "UK employers surveyed; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "competitions_important": {"value": 74, "unit": "percent saying taking part in a competition to develop employability skills is important for developing workplace skills", "value_type": "published_survey_estimate"},
+        "bridge_institution": {"value": "Skills competitions and practical experiences are positioned as an institutional bridge that makes otherwise hidden employability capabilities visible to employers.", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "pathway_test": {"value": "The relevant test is not whether employers endorse skills language, but whether structured demonstrations lead to interviews, fairer selection, retention, and improved youth earnings.", "unit": "next-test mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Employer survey estimate on the perceived value of skills competitions for workplace readiness.",
+      "uncertainty": "The result measures perceived importance and does not evaluate competition participation, selection effects, or employment outcomes.",
+      "subgroup": "UK employers surveyed for WorldSkills UK.",
+      "counterinterpretation": "Competitions may advantage young people who already have institutional support, time, transport, confidence, or access to coaching.",
+      "source_url": "https://www.worldskillsuk.org/wp-content/uploads/2026/09/WorldSkills-UK-Ready-to-Work-Report-2026.pdf",
+      "retrieval_hash": "sha256:bb29a3227d7b911de23b3384554786547d209005d15e030ac4ec07b81b004b9a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.publicfirst.co.uk/new_report_for_worldskills_uk", "claim": "Public First publication page containing the sample, field dates, core employer findings, and links to the full report and tables.", "status": "official-publication-page"},
+    {"source_url": "https://www.worldskillsuk.org/wp-content/uploads/2026/09/WorldSkills-UK-Ready-to-Work-Report-2026.pdf", "claim": "Official WorldSkills UK report PDF containing the employer survey and skills-transition analysis.", "status": "official-report-pdf"}
+  ],
+  "boundary": "This record adds an employer-side youth-transition route: perceived difficulty entering work coexists with strong employer demand for demonstrable employability skills, and competitions or practical experiences are proposed as a bridge. It does not establish actual skill deficits, hiring discrimination, productivity gains, revenue effects, or causal benefits of competitions. The research is commissioned employer polling and should be read alongside young people's own pathway preferences and observed employment outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Public First publication page and WorldSkills UK report PDF were reviewed for survey sponsor, sample size, field dates, employer perceptions of youth work entry, hiring priorities, revenue expectations, competition value, and methodological boundaries.",
+    "source_page_sha256": "sha256:bb29a3227d7b911de23b3384554786547d209005d15e030ac4ec07b81b004b9a",
+    "checked": "2026-09-28"
+  }
+}

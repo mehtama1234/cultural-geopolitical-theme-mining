@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-weizenbaum-digital-civic-intervention-2026",
+  "title": "Digital hostility is becoming ordinary civic exposure, while age groups choose different forms of intervention",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Weizenbaum Institute and Freie Universität Berlin, Weizenbaum Report 2026: Political Participation in Germany",
+  "geography": "Germany; German-speaking population aged 16 and older",
+  "observations": [
+    {
+      "period": "2025 panel survey; online hate and misinformation exposure",
+      "denominator": {"value": 1740, "unit": "German respondents in the 2025 Weizenbaum Panel", "value_type": "reported_telephone_panel_sample"},
+      "measures": {
+        "misinformation_seen": {"value": 47, "unit": "percent reporting that they had seen misinformation online in the past 12 months", "value_type": "reported_share"},
+        "misinformation_response": {"value": {"fact_checked": 32, "warned_others": 25, "reported_to_platform": 12}, "unit": "percent reporting each response to misinformation", "value_type": "reported_shares"},
+        "hate_response": {"value": {"requested_respect": 12, "reported_to_platform": 15}, "unit": "percent reporting each response to hateful comments", "value_type": "reported_shares"}
+      },
+      "method": "Annual scientific telephone panel survey conducted by the Weizenbaum Institute with Freie Universität Berlin; 2025 results are compared with prior panel waves.",
+      "uncertainty": "These are self-reported encounters and responses, not exposure logs, verified misinformation counts, platform-comparison experiments, or evidence that response activity changes the content environment.",
+      "subgroup": "German respondents aged 16 and older; the report separately analyzes age groups and forms of online civic intervention.",
+      "counterinterpretation": "Higher reporting or fact-checking may reflect greater exposure, greater awareness, platform familiarity, or different interpretations of what counts as hate or misinformation.",
+      "source_url": "https://www.weizenbaum-institut.de/media/Publikationen/Weizenbaum_Report/Weizenbaum_Report_2026_EN.pdf",
+      "retrieval_hash": "sha256:09488acccdb17a416acc22a1b0e9d3cc03793892aede9eceec0a73340bbaf4cd",
+      "status": "reported"
+    },
+    {
+      "period": "2025 panel survey; age-differentiated digital exposure and intervention",
+      "denominator": {"value": 1740, "unit": "German respondents in the 2025 Weizenbaum Panel; age-group comparisons use the report's subgroup bases", "value_type": "reported_telephone_panel_sample"},
+      "measures": {
+        "younger_exposure": {"value": {"hate_comments": 90, "misinformation": 80}, "unit": "approximately percent of 16–29-year-olds reporting each online exposure; misinformation is reported as up to 80 percent", "value_type": "reported_subgroup_shares"},
+        "age_specific_response": {"value": "younger people use platform reporting more and fact-check somewhat more, while older people more often intervene directly in conflict situations", "unit": "reported age-pattern comparison", "value_type": "reported_comparison"},
+        "digital_civic_split": {"value": "the same hostile information environment produces platform-mediated and interpersonal forms of civic intervention", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-sectional age-group comparisons within the 2025 Weizenbaum Panel, using reported exposure to hate and misinformation and reported reactions.",
+      "uncertainty": "The age patterns are descriptive; they do not identify whether age, platform use, digital familiarity, exposure intensity, or cohort experience causes the response differences.",
+      "subgroup": "Respondents aged 16–29, 30–49, and 50 or older.",
+      "counterinterpretation": "Younger users may report more because they encounter more content or because reporting tools are more available in their environments; older direct intervention may reflect offline norms rather than greater effectiveness.",
+      "source_url": "https://www.weizenbaum-institut.de/media/Publikationen/Weizenbaum_Report/Weizenbaum_Report_2026_EN.pdf",
+      "retrieval_hash": "sha256:09488acccdb17a416acc22a1b0e9d3cc03793892aede9eceec0a73340bbaf4cd",
+      "status": "reported"
+    },
+    {
+      "period": "2025 panel survey; perceived violence against politicians and participation",
+      "denominator": {"value": 1740, "unit": "German respondents in the 2025 Weizenbaum Panel", "value_type": "reported_telephone_panel_sample"},
+      "measures": {
+        "violence_perceived_widespread": {"value": 81, "unit": "percent viewing threats and violence against politicians as very or rather widespread", "value_type": "reported_share"},
+        "demonstration_difference": {"value": {"widespread": 18, "not_widespread": 12}, "unit": "percent in each perception group reporting participation in a demonstration in the past 12 months", "value_type": "reported_group_comparison"},
+        "mobilization_route": {"value": "perceived political violence is associated with more demonstrations, politician contact, and petition signing rather than simple participation withdrawal", "unit": "bounded correlational mechanism", "value_type": "bounded_mechanism"},
+        "democracy_threat": {"value": 69, "unit": "percent viewing democracy as very or rather threatened by violence against politicians", "value_type": "reported_share"}
+      },
+      "method": "Descriptive cross-sectional analysis of perceived prevalence of violence against politicians, perceived democratic threat, and self-reported political activities in the 2025 panel.",
+      "uncertainty": "The report explicitly treats these as associations; the results do not establish a causal mobilizing effect, objective violence exposure, or durable participation change.",
+      "subgroup": "Respondents grouped by whether they view threats and violence as widespread or not widespread, and by whether they view democracy as threatened.",
+      "counterinterpretation": "Politically attentive or already mobilized respondents may be more likely both to perceive violence as widespread and to participate; reverse causation and common causes remain open.",
+      "source_url": "https://www.weizenbaum-institut.de/media/Publikationen/Weizenbaum_Report/Weizenbaum_Report_2026_EN.pdf",
+      "retrieval_hash": "sha256:09488acccdb17a416acc22a1b0e9d3cc03793892aede9eceec0a73340bbaf4cd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://panel.weizenbaum-institut.de/en/", "claim": "Weizenbaum Panel methods, questionnaires, field reports, and prior reports."},
+    {"source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary", "claim": "Comparative platform-mediated news-consumption and trust context."}
+  ],
+  "boundary": "This record adds a comparative digital-civic mechanism: routine exposure to hate and misinformation can coexist with age-differentiated forms of intervention, while perceived violence against politicians may correlate with mobilization rather than withdrawal. It does not establish causal effects, objective prevalence, platform efficacy, or generalization from Germany to other populations.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Weizenbaum Report 2026 PDF reviewed for panel design, sample size, misinformation and hate exposure, age differences, media trust, and perceived political violence/participation comparisons.",
+    "source_url_sha256": "sha256:09488acccdb17a416acc22a1b0e9d3cc03793892aede9eceec0a73340bbaf4cd",
+    "checked": "2026-09-28"
+  }
+}

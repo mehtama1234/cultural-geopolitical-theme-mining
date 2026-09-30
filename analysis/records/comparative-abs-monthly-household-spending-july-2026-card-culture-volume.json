@@ -1,0 +1,145 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-abs-monthly-household-spending-july-2026-card-culture-volume",
+  "title": "Australian household spending rose in July while recreation and culture outpaced total volume, but nominal growth still mixes prices and quantities",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "firm_sector_market_power",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Australian Bureau of Statistics Monthly Household Spending Indicator, July 2026",
+  "geography": "Australia; national and state/territory household-spending estimates",
+  "observations": [
+    {
+      "period": "July 2026; national household spending",
+      "denominator": {
+        "value": null,
+        "unit": "ABS monthly household-spending indicator built from aggregated, de-identified bank-card transactions, supermarket transactions, and new-vehicle sales; transaction-provider sample size is not published in the release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "total_current_price_monthly": {
+          "value": 1.1,
+          "unit": "percent month-on-month change in seasonally adjusted current-price household spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "total_current_price_annual": {
+          "value": 7.0,
+          "unit": "percent year-on-year change in seasonally adjusted current-price household spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "total_spending_level": {
+          "value": 82338.3,
+          "unit": "million Australian dollars, seasonally adjusted current-price household spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "mechanism": {
+          "value": "Observed household spending accelerated in July, but current-price growth combines price changes, quantities, category mix, and transaction coverage rather than directly measuring real welfare",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS Monthly Household Spending Indicator using aggregated, de-identified bank-card transactions, supermarket transactions, and new-vehicle sales, benchmarked to annual household final consumption expenditure and adjusted for coverage gaps.",
+      "uncertainty": "The release does not publish the participating-bank frame size, unique households, income or demographic cross-tabs, cash share, merchant-level detail, or household-level trajectories; current-price values are not quantity-adjusted.",
+      "subgroup": "Australian households represented by the indicator; state and territory estimates are published separately but are not household panel observations.",
+      "counterinterpretation": "Annual nominal growth can reflect inflation, card coverage, seasonal composition, or substitution toward categories with higher prices rather than broad expansion in real consumption capacity.",
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/jul-2026",
+      "retrieval_hash": "sha256:86a1e6e7a31b3059eb41cb054b5b97789936fb0c214da1a57882d601b4c91990",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; recreation-and-culture category",
+      "denominator": {
+        "value": null,
+        "unit": "ABS household-spending transactions allocated to the recreation-and-culture COICOP category; unique-household denominator not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "recreation_culture_current_price_monthly": {
+          "value": 1.5,
+          "unit": "percent month-on-month change in seasonally adjusted current-price recreation and culture spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "recreation_culture_current_price_annual": {
+          "value": 7.8,
+          "unit": "percent year-on-year change in seasonally adjusted current-price recreation and culture spending",
+          "value_type": "official_transaction_estimate"
+        },
+        "contributors": {
+          "value": "gambling activities, major sporting events, and cinema attendance contributed to the monthly rise",
+          "unit": "ABS reported category contributors",
+          "value_type": "official_reported_pattern"
+        },
+        "mechanism": {
+          "value": "Cultural and leisure spending can grow faster than total household spending through event- and entertainment-linked categories, without showing whether access broadened evenly across households",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS seasonally adjusted current-price category estimates and the release's reported contributors to July recreation-and-culture growth.",
+      "uncertainty": "The category combines diverse goods and services; the release does not identify attendance counts, ticket prices, unique consumers, household income, or the distribution of spending across cultural versus gambling and sporting activities.",
+      "subgroup": "Australian household transactions allocated to recreation and culture; category-level evidence is not a direct cultural-participation measure.",
+      "counterinterpretation": "Category growth may reflect price increases, a small number of major events, gambling activity, seasonal timing, or higher spending by already-engaged households rather than broad cultural access.",
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/jul-2026",
+      "retrieval_hash": "sha256:86a1e6e7a31b3059eb41cb054b5b97789936fb0c214da1a57882d601b4c91990",
+      "status": "reported"
+    },
+    {
+      "period": "June quarter 2026; real household-spending volume",
+      "denominator": {
+        "value": null,
+        "unit": "ABS chain-volume household-spending estimates, seasonally adjusted; no household-level denominator published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "recreation_culture_real_quarterly": {
+          "value": 1.7,
+          "unit": "percent quarter-on-quarter change in seasonally adjusted chain-volume recreation-and-culture household spending",
+          "value_type": "official_chain_volume_estimate"
+        },
+        "total_real_quarterly": {
+          "value": 0.7,
+          "unit": "percent quarter-on-quarter change in seasonally adjusted chain-volume total household spending",
+          "value_type": "official_chain_volume_estimate"
+        },
+        "state_real_quarterly": {
+          "value": {"NSW": 0.4, "Victoria": 0.8, "Queensland": 0.7, "South Australia": 0.9, "Western Australia": 0.7, "Tasmania": 1.1, "Northern Territory": 2.1, "Australian Capital Territory": 1.1},
+          "unit": "percent quarter-on-quarter change in total seasonally adjusted chain-volume household spending by state or territory",
+          "value_type": "official_subnational_estimate"
+        },
+        "mechanism": {
+          "value": "Recreation and culture outpaced total real household spending in the quarter, while total real growth varied across states; category recovery and geographic incidence are separate questions",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS chain-volume measures for the June quarter 2026, seasonally adjusted, with national recreation-and-culture and total spending compared with state and territory total-spending changes.",
+      "uncertainty": "Chain-volume estimates are aggregate and revised; they do not establish real spending by individual households, cultural attendance, affordability, or causality, and state differences do not identify within-state inequality.",
+      "subgroup": "Australia's states and territories; the subnational estimates are place aggregates, not matched household outcomes.",
+      "counterinterpretation": "Quarterly differences can reflect seasonal composition, tourism, event calendars, population change, or measurement revisions rather than durable geographic consumer divergence.",
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator/jul-2026",
+      "retrieval_hash": "sha256:86a1e6e7a31b3059eb41cb054b5b97789936fb0c214da1a57882d601b4c91990",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.abs.gov.au/statistics/economy/finance/monthly-household-spending-indicator-methodology",
+      "claim": "ABS methodology documents the bank-card, supermarket, vehicle-sales, benchmarking, COICOP, and coverage-adjustment framework.",
+      "status": "official-methodology"
+    },
+    {
+      "source_url": "https://www.abs.gov.au/media-centre/media-releases/household-spending-rises-third-month-row",
+      "claim": "ABS release summary reports July's total and recreation-and-culture increases and names cinema, major sporting events, and gambling among contributors.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds observed Australian household-spending and real-volume evidence beneath cultural-participation and financial-stress surveys. It does not establish individual cultural attendance, household welfare, affordability, unique consumers, causal category substitution, or equal access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ABS July 2026 Monthly Household Spending Indicator page, media release, and methodology page were reviewed for total spending, recreation-and-culture category movements, real quarterly volume, state variation, data inputs, benchmarking, and measurement limits.",
+    "checked": "2026-09-30"
+  }
+}

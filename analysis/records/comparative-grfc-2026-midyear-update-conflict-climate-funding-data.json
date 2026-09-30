@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-grfc-2026-midyear-update-conflict-climate-funding-data",
+  "title": "By late 2026, food-crisis risk is being compounded by conflict, climate variability, high input prices, and shrinking humanitarian finance while the evidence system itself is under strain",
+  "theme_ids": ["cost", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Global Report on Food Crises 2026 Mid-year Update, summarized by the European Commission Joint Research Centre",
+  "geography": "Global food-crisis settings assessed through IPC, Cadre Harmonisé, FEWS NET, WFP CARI, HNRP and partner systems; famine-risk focus on Somalia, South Sudan, and Sudan",
+  "observations": [
+    {
+      "period": "August 2026; Global Report on Food Crises 2026 Mid-year Update",
+      "denominator": {"value": 1, "unit": "mid-year global food-crisis assessment", "value_type": "reported_assessment_frame"},
+      "measures": {
+        "acute_food_insecurity": {"value": "Acute food insecurity remains at very high levels across many countries as of August 2026", "unit": "reported global condition", "value_type": "reported_status"},
+        "driver_set": {"value": "Conflict, insecurity, weather extremes, high food and fertilizer prices, El Niño risk, Middle East conflict, and reduced humanitarian funding", "unit": "reported compounding driver set", "value_type": "reported_mechanism"},
+        "late_2026_outlook": {"value": "The update expects new climate, conflict, price, and funding risks to worsen conditions in late 2026 and into 2027", "unit": "reported risk outlook", "value_type": "reported_outlook"}
+      },
+      "method": "Mid-year update to the multi-partner Global Report on Food Crises using acute food-insecurity data from IPC, Cadre Harmonisé, FEWS NET, WFP CARI, humanitarian response plans, and related partner systems.",
+      "uncertainty": "The update summarizes assessed crisis settings rather than all households globally; conditions, classifications, and forecasts can change quickly with access, harvests, conflict, prices, and humanitarian action.",
+      "subgroup": "People in acute food crisis, conflict-affected households, displaced populations, food producers, children, markets, humanitarian agencies, and communities exposed to climate variability.",
+      "counterinterpretation": "Early warning, local production, market support, negotiated access, and humanitarian response can prevent deterioration; a risk outlook is not proof that worsening will occur everywhere.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-crises-across-globe-acute-food-insecurity-remains-alarmingly-high-2026-09-21_en",
+      "retrieval_hash": "sha256:1fc08c80024ae266798d433a8d762acf420fe1957dafc96f095943b7e2acea2d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; humanitarian and food-aid financing outlook",
+      "denominator": {"value": 1, "unit": "Global Report on Food Crises 2026 Mid-year Update financing outlook", "value_type": "reported_financing_frame"},
+      "measures": {
+        "humanitarian_oda_decline": {"value": 40.3, "unit": "percent projected decline in humanitarian official development assistance between 2024 and 2026", "value_type": "reported_projection"},
+        "food_aid_decline": {"value": 44.5, "unit": "percent projected decline in food aid between 2024 and 2026", "value_type": "reported_projection"},
+        "response_capacity": {"value": "Falling aid is identified as a risk multiplier for populations already exposed to conflict, climate shocks, food prices, and displacement", "unit": "reported response mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "European Commission JRC summary of the GRFC 2026 Mid-year Update and its comparison of humanitarian ODA and food-aid trends.",
+      "uncertainty": "The projected declines depend on definitions, exchange rates, inflation, reporting and donor commitments; aggregate finance does not measure local response quality, targeting, or informal coping.",
+      "subgroup": "Food-insecure households, displaced populations, humanitarian responders, local organizations, donors, food producers, and governments dependent on external assistance.",
+      "counterinterpretation": "Funding reductions can sometimes be offset by domestic resources, anticipatory action, local leadership, improved targeting, or development and peace investments, but these are not guaranteed substitutes for emergency food assistance.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-crises-across-globe-acute-food-insecurity-remains-alarmingly-high-2026-09-21_en",
+      "retrieval_hash": "sha256:1fc08c80024ae266798d433a8d762acf420fe1957dafc96f095943b7e2acea2d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; famine-risk assessment in the mid-year update",
+      "denominator": {"value": 3, "unit": "countries identified with famine risk in the cited mid-year update", "value_type": "reported_country_count"},
+      "measures": {
+        "famine_risk_countries": {"value": "Somalia, South Sudan, and Sudan", "unit": "countries with famine risk identified in the mid-year update", "value_type": "reported_country_set"},
+        "catastrophe_comparison": {"value": "The update reports an overall decrease in the number of people facing IPC/CH Phase 5 catastrophe conditions compared with 2025 while famine risk remains in three countries", "unit": "reported severity pattern", "value_type": "reported_comparison"},
+        "risk_mechanism": {"value": "Highly volatile conflict, insecurity, displacement, weather, markets, and access conditions can sustain famine risk even when aggregate catastrophe counts change", "unit": "reported escalation mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "JRC summary of GRFC 2026 Mid-year Update famine-risk and acute-food-insecurity classifications.",
+      "uncertainty": "Famine risk is a warning classification rather than a confirmed famine outcome; assessment quality depends on timely mortality, food-consumption, livelihood, nutrition, and access information.",
+      "subgroup": "Communities in Somalia, South Sudan, and Sudan, displaced people, children, local markets, health and nutrition systems, and humanitarian responders.",
+      "counterinterpretation": "Famine risk can be reduced by ceasefires, access, food assistance, cash, health and nutrition services, local agricultural support, and diplomatic action; forecast severity does not determine the eventual outcome.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-crises-across-globe-acute-food-insecurity-remains-alarmingly-high-2026-09-21_en",
+      "retrieval_hash": "sha256:1fc08c80024ae266798d433a8d762acf420fe1957dafc96f095943b7e2acea2d",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; evidence-system and institutional-capacity conditions",
+      "denominator": {"value": 1, "unit": "Global food-crisis monitoring and governance system described by the JRC", "value_type": "reported_system_frame"},
+      "measures": {
+        "network_change": {"value": "The Food Security Information Network was closed in 2025, requiring more intensive support from partners for the 2026 report and mid-year update", "unit": "reported institutional change", "value_type": "reported_change"},
+        "data_quality_role": {"value": "The JRC provides technical and advisory support to IPC and Cadre Harmonisé frameworks and contributes to quality assurance", "unit": "reported evidence-governance role", "value_type": "reported_institutional_role"},
+        "early_warning_infrastructure": {"value": "The JRC ASAP agricultural-production anomaly bulletin feeds IPC/CH analyses and GRFC assessments of climatic vulnerabilities", "unit": "reported data-to-decision route", "value_type": "reported_mechanism"}
+      },
+      "method": "JRC account of the multi-partner GRFC governance, data-quality, and early-warning infrastructure supporting the 2026 mid-year update.",
+      "uncertainty": "Institutional restructuring can affect continuity, coverage, comparability, and response speed; the public summary does not quantify the effect of FSIN closure on individual country estimates.",
+      "subgroup": "Food-security analysts, local and international assessment partners, governments, donors, humanitarian agencies, farmers, and crisis-affected populations dependent on early warning and assistance.",
+      "counterinterpretation": "Consolidating technical support can improve coordination and quality in some settings, while reducing independent capacity, local ownership, or data diversity if funding and institutional safeguards are insufficient.",
+      "source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/food-crises-across-globe-acute-food-insecurity-remains-alarmingly-high-2026-09-21_en",
+      "retrieval_hash": "sha256:1fc08c80024ae266798d433a8d762acf420fe1957dafc96f095943b7e2acea2d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://knowledge4policy.ec.europa.eu/publication/2026-global-report-food-crises-mid-year-update_en", "claim": "European Commission knowledge portal entry for the 2026 Global Report on Food Crises Mid-year Update."},
+    {"source_url": "https://www.wfp.org/publications/global-report-food-crises-grfc", "claim": "WFP publication hub for the Global Report on Food Crises series."}
+  ],
+  "boundary": "This record is a September 2026 mid-year update to the existing GRFC 2026 signal. It adds late-year conflict, climate, price, funding, famine-risk, and food-security data-system developments; it is not a household food-consumption survey, a complete global census, a causal attribution of each driver, or proof that projected funding declines will produce identical outcomes in every crisis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission JRC summary reviewed for August 2026 acute-food-insecurity status, drivers, famine-risk countries, humanitarian ODA and food-aid projections, FSIN closure, JRC quality-assurance role, and ASAP early-warning contribution.",
+    "source_url_sha256": "sha256:1fc08c80024ae266798d433a8d762acf420fe1957dafc96f095943b7e2acea2d",
+    "checked": "2026-09-27"
+  }
+}

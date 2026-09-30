@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-chief-sustainability-officers-outlook-2026-green-divergence-ai-adaptation",
+  "title": "Sustainability progress is becoming a commercial and resilience capability, but policy, geopolitical, and financing divergence shapes who moves fastest",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Economic Forum, Chief Sustainability Officers' Outlook September 2026",
+  "geography": "Global sustainability transition perspectives from 103 chief sustainability officers across five continents",
+  "observations": [
+    {
+      "period": "10 February-18 March 2026; one-year sustainability outlook",
+      "denominator": {"value": 103, "unit": "anonymized chief sustainability officer responses from the WEF global CSO Community", "value_type": "targeted_executive_survey_sample"},
+      "measures": {
+        "progress_stable_or_accelerate": {"value": 63, "unit": "percent expecting global sustainability progress to remain stable or accelerate over the next year", "value_type": "reported_share"},
+        "company_investment_stable_or_accelerate": {"value": 75, "unit": "approximately three-quarters expecting company transition-related investment to remain unchanged or accelerate", "value_type": "reported_approximate_share"},
+        "geopolitical_drag": {"value": 78, "unit": "percent expecting geopolitical and macroeconomic conditions to drag on sustainability progress", "value_type": "reported_share"},
+        "compliance_lens": {"value": "roughly two-thirds say C-suite leaders still view sustainability primarily through a compliance lens", "unit": "reported executive-perception pattern", "value_type": "reported_approximate_pattern"}
+      },
+      "method": "WEF targeted survey of 103 CSO Community members, consultations, and open-text input; questions were framed globally and not disaggregated by region.",
+      "uncertainty": "This is a purposive executive sample, not a representative business or economy survey; leadership expectations may differ from implemented spending, emissions, adaptation, or worker and consumer outcomes.",
+      "subgroup": "Chief sustainability officers and large-company sustainability leaders across five continents, with company and sector perspectives represented unevenly.",
+      "counterinterpretation": "Executive confidence can reflect organizational strategy, signaling, or selection into the CSO community; stable investment expectations do not establish environmental progress or inclusive benefits.",
+      "source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/",
+      "retrieval_hash": "sha256:6739a1af50596580353da145413737c9cdb89e89b1368efe415fefedb33c286b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; medium-term drivers and constraints on sustainability progress",
+      "denominator": {"value": 103, "unit": "chief sustainability officer responses", "value_type": "targeted_executive_survey_sample"},
+      "measures": {
+        "business_case_accelerator": {"value": 64, "unit": "percent selecting a stronger business case for sustainability measures as a leading three-year accelerator", "value_type": "reported_share"},
+        "technology_cost_accelerator": {"value": 56, "unit": "percent selecting lower costs and greater availability of sustainable technologies", "value_type": "reported_share"},
+        "policy_uncertainty_constraint": {"value": 68, "unit": "percent selecting policy reversals or inconsistent regulatory signals as a leading constraint", "value_type": "reported_share"},
+        "short_term_pressure_constraint": {"value": 61, "unit": "percent selecting business short-term performance pressures as a leading constraint", "value_type": "reported_share"},
+        "international_agreements_driver": {"value": 7, "unit": "percent selecting international agreements as a leading three-year driver", "value_type": "reported_share"}
+      },
+      "method": "WEF CSO survey asking respondents to select up to three accelerators and constraints for sustainability progress over the next three years.",
+      "uncertainty": "Selections describe executive expectations and priorities, not the relative causal power of business cases, technology, policy, or agreements; responses can reflect current corporate incentives and geopolitical context.",
+      "subgroup": "CSOs assessing corporate strategy, regulation, technology costs, capital allocation, and multilateral coordination.",
+      "counterinterpretation": "Commercial framing can accelerate deployment, but policy and international coordination may remain necessary to address externalities, distribution, standards, and collective-action problems.",
+      "source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/",
+      "retrieval_hash": "sha256:6739a1af50596580353da145413737c9cdb89e89b1368efe415fefedb33c286b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI as sustainability accelerator and resource trade-off",
+      "denominator": {"value": 103, "unit": "chief sustainability officer responses", "value_type": "targeted_executive_survey_sample"},
+      "measures": {
+        "ai_sustainability_accelerator": {"value": 73, "unit": "percent expecting AI and other digital technologies to support sustainability progress over the next year", "value_type": "reported_share"},
+        "ai_infrastructure_negative_impact": {"value": 77, "unit": "percent identifying AI infrastructure's energy and resource intensity as its most significant negative impact", "value_type": "reported_share"},
+        "ai_use_route": {"value": "risk modelling, process and resource efficiency, measurement, and reporting", "unit": "reported operational application set", "value_type": "reported_mechanism_set"},
+        "green_economy_scale": {"value": "WEF estimates the green economy exceeded $5 trillion in annual value in 2024 and could exceed $7 trillion by 2030", "unit": "reported global economic estimate", "value_type": "reported_estimate"}
+      },
+      "method": "WEF CSO survey and report synthesis on AI's operational role, infrastructure footprint, and sustainability-related business activity.",
+      "uncertainty": "Expected acceleration is not measured emissions reduction, verified resource efficiency, or net environmental benefit; green-economy estimates and AI effects use different scopes and assumptions.",
+      "subgroup": "Companies deploying AI, sustainability teams, data-centre and technology providers, energy systems, and organizations measuring climate and nature risks.",
+      "counterinterpretation": "AI may improve measurement and efficiency while increasing electricity, water, hardware, and supply-chain burdens; net effects depend on deployment, energy mix, rebound, and governance.",
+      "source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/",
+      "retrieval_hash": "sha256:6739a1af50596580353da145413737c9cdb89e89b1368efe415fefedb33c286b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; adaptation, resilience investment, and green divergence",
+      "denominator": {"value": 103, "unit": "chief sustainability officer responses", "value_type": "targeted_executive_survey_sample"},
+      "measures": {
+        "adaptation_priority": {"value": 85, "unit": "percent expecting adaptation to become a greater global focus over the next three years", "value_type": "reported_share"},
+        "private_investment_decisive": {"value": 77, "unit": "percent agreeing private-sector investment will be decisive to scaling adaptation", "value_type": "reported_share"},
+        "uncertain_cost_benefit": {"value": 62, "unit": "percent citing uncertain cost-benefit assessments as a key constraint on adaptation investment", "value_type": "reported_share"},
+        "emerging_market_leadership": {"value": "around two-thirds expect emerging markets to play a growing leadership role", "unit": "reported executive expectation", "value_type": "reported_approximate_share"},
+        "uneven_commercial_gains": {"value": "over three-quarters expect commercial gains from sustainability to be uneven across sectors and markets", "unit": "reported executive expectation", "value_type": "reported_approximate_share"}
+      },
+      "method": "WEF CSO survey on adaptation priority, investment, cost-benefit assessment, emerging-market leadership, and distribution of commercial gains.",
+      "uncertainty": "Expectations do not establish adaptation investment, avoided losses, resilience, or equitable distribution; cost-benefit uncertainty may reflect measurement gaps, discounting, financing, or policy risk.",
+      "subgroup": "Companies, infrastructure and supply-chain operators, emerging markets, investors, insurers, and communities exposed to climate and nature risks.",
+      "counterinterpretation": "Uneven pathways can support locally appropriate innovation and leadership; commercial divergence can also widen protection gaps where capital, grids, insurance, and public capacity are weak.",
+      "source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/",
+      "retrieval_hash": "sha256:6739a1af50596580353da145413737c9cdb89e89b1368efe415fefedb33c286b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/", "claim": "WEF Chief Economists' Outlook provides complementary macroeconomic, AI investment, cost-of-living, and geopolitical context."},
+    {"source_url": "https://www.iea.org/reports/world-energy-investment-2026", "claim": "IEA World Energy Investment provides complementary energy-investment and transition-capital context."},
+    {"source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-chapter-2/", "claim": "WEF Global Risks Report provides complementary climate, geopolitical, technological, and societal risk context."}
+  ],
+  "boundary": "This record adds a corporate sustainability and adaptation route across business value, policy uncertainty, geopolitics, AI resource trade-offs, climate adaptation, resilience finance, emerging-market leadership, and uneven transition gains. It uses a targeted CSO survey and executive synthesis, not representative corporate behavior, verified emissions or adaptation outcomes, community consent, causal investment effects, or proof that green growth is inclusive.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF Chief Sustainability Officers' Outlook September 2026 page and linked PDF were retrieved and reviewed for sample frame, progress outlook, business-case and policy drivers, AI trade-offs, adaptation investment, and green-divergence claims.",
+    "source_url_sha256": "sha256:6739a1af50596580353da145413737c9cdb89e89b1368efe415fefedb33c286b",
+    "checked": "2026-09-26"
+  }
+}

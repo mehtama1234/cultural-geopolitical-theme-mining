@@ -1,0 +1,183 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-medical-expansion-access-continuity-2025",
+  "title": "California's immigration-status-neutral Medi-Cal expansion converted formal eligibility into initial care access, while continuity remains conditional",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "California Department of Health Care Services and California Health Care Foundation focus-group study of newly eligible undocumented adults",
+  "geography": "California; statewide Medi-Cal policy with a qualitative study of nearly 100 undocumented adults",
+  "observations": [
+    {
+      "period": "January 1, 2024; policy implementation",
+      "denominator": {"value": 1, "unit": "statewide policy change", "value_type": "policy_event"},
+      "measures": {
+        "eligibility": {"value": "Full-scope Medi-Cal became available to otherwise eligible adults ages 26 through 49 regardless of immigration status", "unit": "policy scope", "value_type": "reported_policy"},
+        "administrative_route": {"value": "Eligible residents were automatically given the expanded benefits, subject to continuing eligibility and renewal", "unit": "enrollment rule", "value_type": "reported_policy"},
+        "mechanism": {"value": "Removing immigration status as a formal eligibility barrier can convert legal inclusion into a usable health-care route when enrollment and provider access work", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California DHCS implementation FAQ and policy fact sheet.",
+      "uncertainty": "Policy availability does not establish successful enrollment, appointment access, treatment completion, affordability of non-covered needs, or improved health for every eligible resident.",
+      "subgroup": "Low-income California adults ages 26 through 49 who otherwise meet Medi-Cal eligibility requirements, including undocumented adults.",
+      "counterinterpretation": "Administrative, language, provider-capacity, transportation, and fear-related barriers can remain after a formal eligibility barrier is removed.",
+      "source_url": "https://www.dhcs.ca.gov/services/medi-cal/eligibility/Documents/Adult-Expansion-Eligibility-and-Enrollment-Plan.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; post-expansion participant experience",
+      "denominator": {"value": 100, "unit": "nearly 100 undocumented adults in focus groups", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "enrollment": {"value": 70, "unit": "percent of study participants who successfully enrolled in full-scope Medi-Cal", "value_type": "reported_share"},
+        "care_access": {"value": 88, "unit": "percent of enrolled participants who had accessed health care at least once", "value_type": "reported_share"},
+        "experience": {"value": "Participants generally reported positive access experiences and strong satisfaction with services", "unit": "qualitative finding", "value_type": "reported_finding"},
+        "mechanism": {"value": "The expansion reached beyond symbolic inclusion for many participants: enrollment was followed by at least one care encounter", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California Health Care Foundation qualitative focus-group study of nearly 100 undocumented immigrants newly eligible for full-scope Medi-Cal.",
+      "uncertainty": "The study is not a probability sample or longitudinal administrative evaluation; the figures cannot estimate statewide take-up, represent all undocumented adults, or establish health improvement or causal effects.",
+      "subgroup": "Previously ineligible adult undocumented immigrants who became eligible through the final phase of California's expansion.",
+      "counterinterpretation": "Participants who enrolled or participated in the study may differ from eligible adults who could not enroll, remained fearful, lacked providers, or disengaged after an initial visit.",
+      "source_url": "https://www.chcf.org/resource/2025/02/21/undocumented-californians-newly-eligible-for-medi-cal-share-their-experiences/",
+      "retrieval_hash": "sha256:283437c2c8389e1b693db791b34f5010a323cb41e9984ead6a7f2864efe752a9",
+      "status": "reported"
+    },
+    {
+      "period": "January 1, 2026; continuity shock",
+      "denominator": {"value": 1, "unit": "statewide enrollment policy change", "value_type": "policy_event"},
+      "measures": {
+        "new_enrollment": {"value": "Adults without satisfactory immigration status who are 19 or older can no longer newly enroll in full-scope Medi-Cal", "unit": "eligibility rule", "value_type": "reported_policy"},
+        "existing_members": {"value": "Existing members can retain coverage if they renew on time and continue to meet Medi-Cal rules", "unit": "continuity rule", "value_type": "reported_policy"},
+        "mechanism": {"value": "A system can move from broad formal inclusion to conditional continuity, making renewal timing, administrative legibility, and re-entry capacity part of practical security", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California DHCS public member guidance and immigrant-eligibility FAQ.",
+      "uncertainty": "The policy page describes eligibility rules, not observed disenrollment, delayed care, employment effects, household tradeoffs, or trust changes after the freeze.",
+      "subgroup": "Undocumented and other adults without satisfactory immigration status, with separate protections for children, pregnancy, and certain former foster youth.",
+      "counterinterpretation": "Existing coverage, emergency and pregnancy-related services, county assistance, and legal help may buffer some consequences; the size and distribution of that buffering remain open.",
+      "source_url": "https://www.dhcs.ca.gov/medi-cal/changes/medi-cal-changes/",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "July 1, 2027; projected continuity cost",
+      "denominator": {"value": 1, "unit": "statewide policy provision", "value_type": "policy_event"},
+      "measures": {
+        "premium": {"value": 30, "unit": "US dollars per month for specified full-coverage members ages 19 to 59", "value_type": "reported_policy_amount"},
+        "coverage_condition": {"value": "Specified undocumented or unsatisfactory-status members must pay the monthly premium to keep full coverage", "unit": "continuity rule", "value_type": "reported_policy"},
+        "mechanism": {"value": "Coverage can remain formally available while becoming contingent on recurring payment, creating a direct bridge from immigration status to household budget room and care continuity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "California DHCS immigrant-eligibility FAQ.",
+      "uncertainty": "This is a future policy condition, not observed payment, disenrollment, forgone care, or health outcome data; actual incidence will depend on implementation and household resources.",
+      "subgroup": "Medi-Cal members ages 19 to 59 who are not pregnant and have undocumented or unsatisfactory immigration status and remain in full coverage.",
+      "counterinterpretation": "Premium exemptions, payment assistance, alternative county or safety-net routes, and changes in policy could alter realized effects.",
+      "source_url": "https://www.dhcs.ca.gov/medi-cal-immigrant-eligibility-faqs/",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "October 2023-March 2024 renewal determinations; procedural disenrollment follow-up",
+      "denominator": {"value": 704838, "unit": "people disenrolled from Medi-Cal for procedural reasons during the six-month survey period", "value_type": "reported_population_count"},
+      "measures": {
+        "procedural_disenrollment": {"value": 704838, "unit": "people disenrolled for procedural reasons during the survey period", "value_type": "reported_count"},
+        "survey_completion": {"value": 8481, "unit": "completed procedural-disenrollment survey responses", "value_type": "reported_count"},
+        "measurement_route": {"value": "DHCS used a follow-up survey to learn why people procedurally disenrolled, while explicitly warning that respondents may not represent the full disenrolled population", "unit": "reported administrative feedback route", "value_type": "reported_context"},
+        "mechanism": {"value": "Administrative continuity failures become visible through a feedback instrument, but the feedback route itself has contact, language, selection, and representativeness limits", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DHCS cumulative procedural-disenrollment survey report covering six months of renewal determinations.",
+      "uncertainty": "Survey respondents may not represent the full procedurally disenrolled population; the survey does not establish subsequent re-enrollment, care interruption, or health outcomes.",
+      "subgroup": "People procedurally disenrolled from Medi-Cal during the October 2023-March 2024 determination months; the survey excludes people found ineligible for other reasons or who requested discontinuance.",
+      "counterinterpretation": "Some procedural disenrollment may be temporary or corrected through later renewal, and some people may have other coverage; the reported count is not equivalent to a durable loss of care.",
+      "source_url": "https://www.dhcs.ca.gov/wp-content/uploads/2025/10/Medi-Cal-Disenrollment-Survey-Final-2024.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; formal correction and appeal route",
+      "denominator": {"value": 90, "unit": "days generally allowed to request a Medi-Cal fair hearing after receiving a Notice of Action", "value_type": "reported_procedure"},
+      "measures": {
+        "hearing_window": {"value": 90, "unit": "days to request a fair hearing in the ordinary case", "value_type": "reported_procedure"},
+        "aid_pending": {"value": "Benefits may continue pending review when the hearing is requested within the applicable 10-day protection window", "unit": "reported procedural protection", "value_type": "reported_policy"},
+        "correction_route": {"value": "Members can discuss complaints with the county, file discrimination complaints, or request a hearing when benefits or services are denied or modified", "unit": "reported appeal route", "value_type": "reported_policy"},
+        "mechanism": {"value": "Formal correction exists as a time-bounded route from denial or modification to review, but its practical reach depends on notice, language, disability access, legal help, and successful follow-through", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DHCS public fair-hearing guidance.",
+      "uncertainty": "The guidance establishes the route but does not measure hearing requests, reversal rates, wait times, member awareness, or whether correction restored care and trust.",
+      "subgroup": "Applicants and members whose Medi-Cal benefits or services were denied, modified, or handled in a way they contest.",
+      "counterinterpretation": "A formal hearing route can protect rights while remaining practically inaccessible to people facing language, disability, time, transportation, documentation, or fear barriers.",
+      "source_url": "https://www.dhcs.ca.gov/services/medi-cal/Pages/Medi-CalFairHearing.aspx",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025-June 2026; member voice and attribution route",
+      "denominator": {"value": 16, "unit": "members representing health-sector and lived-experience perspectives on the Voices and Vision Council", "value_type": "reported_member_count"},
+      "measures": {
+        "council_members": {"value": 16, "unit": "members on the Voices and Vision Council", "value_type": "reported_count"},
+        "meeting_frequency": {"value": 4, "unit": "quarterly meetings held by each advisory group during the reporting year", "value_type": "reported_count"},
+        "recommendation_route": {"value": "Member recommendations were documented, voted on, posted with DHCS responses and progress updates, and used to shape communications planning; DHCS stated that implementation feasibility and next steps were still under review", "unit": "reported participation and response route", "value_type": "reported_action"},
+        "communication_change": {"value": "DHCS moved forward with a member-preferred plain-language text-message design after advisory testing", "unit": "reported implementation response", "value_type": "reported_action"},
+        "mechanism": {"value": "Representation can become practical attribution when lived-experience input is connected to a documented recommendation, agency response, and visible communication change; this is influence evidence, not proof of improved coverage or health outcomes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DHCS annual report on the Medi-Cal Member Advisory Committee and Voices and Vision Council.",
+      "uncertainty": "The report is an agency account of advisory process and early implementation; it does not establish population-wide representation, independent causal influence, or member-level outcome improvement.",
+      "subgroup": "Advisory members, including Medi-Cal members, caregivers, advocates, providers, health plans, and community partners; council composition is not equivalent to all Medi-Cal members.",
+      "counterinterpretation": "Formal recommendations and one communication change can coexist with delayed implementation, limited agenda power, or continued barriers for people not represented in the advisory structures.",
+      "source_url": "https://www.dhcs.ca.gov/medi-cal-member-advisory-committee-and-voices-and-vision-council-annual-report/",
+      "retrieval_hash": "sha256:8d2349da56e9f7800bdc2ff235e5d1bc84b4a64e0121156e3ce26111dfd74ca6",
+      "status": "reported"
+    },
+    {
+      "period": "July-December 2025; Medi-Cal Ombudsman correction operations",
+      "denominator": {"value": 106089, "unit": "calls placed to the Medi-Cal Managed Care Office of the Ombudsman across the first two quarters of reporting year 2025-2026", "value_type": "reported_contact_count"},
+      "measures": {
+        "q1_calls_placed": {"value": 57414, "unit": "calls placed to the Ombudsman in January-March 2025 reporting months", "value_type": "reported_count"},
+        "q2_calls_placed": {"value": 48675, "unit": "calls placed to the Ombudsman in October-December 2025 reporting months", "value_type": "reported_count"},
+        "q1_abandoned": {"value": 1730, "unit": "calls abandoned before speaking to an Ombudsman analyst across January-March 2025", "value_type": "reported_count"},
+        "q2_abandoned": {"value": 844, "unit": "calls abandoned before speaking to an Ombudsman analyst across October-December 2025", "value_type": "reported_count"},
+        "average_wait": {"value": "4-5 minutes", "unit": "reported average monthly wait time across the two quarters", "value_type": "reported_duration"},
+        "primary_route": {"value": "Enrollment/disenrollment was the largest recorded contact result category, and many referrals went to county eligibility workers, managed care plans, or state hearings", "unit": "reported administrative route", "value_type": "reported_context"},
+        "mechanism": {"value": "An Ombudsman makes correction operationally visible through contact volume, language, wait, abandonment, referral destination, and case-result fields; these measure route performance, not successful resolution or restored care", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DHCS SB 97 quarterly Ombudsman reports for 2025-2026 Q1 and Q2.",
+      "uncertainty": "The reports count contacts and recorded dispositions, not unique people, completed remedies, clinical outcomes, or whether a referral solved the member's problem; some tables suppress small cells and fee-for-service members are excluded from plan tables.",
+      "subgroup": "Medi-Cal managed-care members contacting the Ombudsman by phone or email; language, ethnicity, age, and plan fields are reported with different denominators and missingness.",
+      "counterinterpretation": "High contact volume can indicate strong awareness and reach of the correction route, unresolved system friction, or both; low abandonment does not prove low unmet need among people who never call.",
+      "source_url": "https://www.dhcs.ca.gov/file/sb97-qtr-1-2025-2026-pdf/",
+      "retrieval_hash": "sha256:b3a4447bf057d8e8cb7ff3f8b25ab34ce68af99c9ebedf504affc4bff6885f33; sha256:d15f1bb31a26309ad2075b00c663abc137d879f36c9d900b541123e68c12e783",
+      "status": "reported"
+    },
+    {
+      "period": "April-June 2026; Ombudsman route continuity check",
+      "denominator": {"value": 53658, "unit": "calls placed to the Medi-Cal Managed Care Office of the Ombudsman across April-June 2026", "value_type": "reported_contact_count"},
+      "measures": {
+        "calls_placed": {"value": 53658, "unit": "calls placed to the Ombudsman across April-June 2026", "value_type": "reported_count"},
+        "abandoned_calls": {"value": 672, "unit": "calls abandoned before speaking to an Ombudsman analyst across April-June 2026", "value_type": "reported_count"},
+        "average_wait": {"value": 5, "unit": "minutes average monthly wait time in each month of April-June 2026", "value_type": "reported_duration"},
+        "primary_issue": {"value": "Access to care was about half of recorded primary issues in each month: 50.48% in April, 50.20% in May, and 50.31% in June", "unit": "reported issue share", "value_type": "reported_share"},
+        "result_pattern": {"value": "Enrollment/disenrollment remained the largest recorded contact result category, while referral accounted for about 22%-23%", "unit": "reported administrative disposition", "value_type": "reported_context"},
+        "mechanism": {"value": "The correction route shows persistence rather than a one-time surge: queue friction is measurable, access-to-care demand remains dominant, and referral is still distinct from completed restoration", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "DHCS SB 97 Quarter 4 2025-2026 Ombudsman report; monthly April-June 2026 tables were summed where appropriate.",
+      "uncertainty": "The report counts contacts and recorded dispositions, not unique people, completed remedies, clinical outcomes, or whether a referral solved the member's problem; denominator differences across tables and administrative coding remain important.",
+      "subgroup": "Medi-Cal managed-care members contacting the Ombudsman by phone or email during April-June 2026; the report's issue and result tables have different operational denominators.",
+      "counterinterpretation": "Persistent contact volume can reflect awareness and reach, unresolved friction, seasonal demand, or changes in reporting; stable wait and abandonment figures do not establish adequate access for members who never call.",
+      "source_url": "https://www.dhcs.ca.gov/file/sb97-qtr-4-2026-pdf/",
+      "retrieval_hash": "sha256:5a42a488f042151086f9e2cc4a1016f2be06a3a68d1e10898ba9a75bf7a45b85",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.dhcs.ca.gov/dataandstats/reports/Documents/FastFacts-May2024.pdf", "claim": "Official enrollment fast facts include undocumented adults within the ACA expansion adult enrollment category."},
+    {"source_url": "https://www.dhcs.ca.gov/data-statistics/medi-cal-enrollment-and-renewal/", "claim": "Official enrollment and renewal data portal for later observed continuity checks."}
+  ],
+  "boundary": "This record follows a named state policy from formal eligibility through reported initial enrollment and care access, then into a later enrollment freeze and future premium condition. It does not establish statewide take-up, treatment completion, health improvement, employment continuity, household budget effects, verified remedy, or trust/action change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official DHCS policy and enrollment pages and the CHCF study were reviewed for implementation scope, participant enrollment and care-use findings, later continuity rules, and measurement boundaries.",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-diary-consumer-payment-choice-2026-cash-digital-rural-income",
+  "title": "U.S. payment technology is changing faster than consumer payment routines, leaving cash as a resilience and access layer",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "infrastructure_technology_dependency", "unequal_exposure_status", "trust_identity_meaning", "housing_place_mobility"],
+  "source_unit": "Federal Reserve 2026 Findings from the Diary of Consumer Payment Choice; nationally representative 2025 diary wave",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025; monthly consumer payment activity",
+      "denominator": {"value": 6079, "unit": "individuals participating in the 2025 Diary; weighted nationally representative UAS survey/diary estimates", "value_type": "survey_sample"},
+      "measures": {
+        "average_total_payments_per_month": {"value": 47, "unit": "payments per consumer per month; 48 in 2024", "value_type": "mean"},
+        "average_cash_payments_per_month": {"value": 6, "unit": "cash payments per consumer per month; 14% of total payments", "value_type": "mean"},
+        "average_credit_card_payments_per_month": {"value": 16, "unit": "payments per consumer per month", "value_type": "mean"},
+        "average_debit_card_payments_per_month": {"value": 15, "unit": "payments per consumer per month", "value_type": "mean"},
+        "remote_payment_share": {"value": 37, "unit": "percent of payments made remotely; approximately 63% were in person", "value_type": "share"}
+      },
+      "method": "Participants reported all payments during an assigned three-day October period; estimates are weighted to U.S. population benchmarks and include bills, purchases, and person-to-person payments.",
+      "uncertainty": "Rounded monthly means can make small year-over-year changes look larger; a three-day diary is not a full-year spending panel, and payment counts do not measure expenditure value, affordability, or welfare.",
+      "subgroup": "U.S. consumers participating in the 2025 Diary wave.",
+      "counterinterpretation": "Stable payment counts can coexist with major changes in merchant mix, payment value, debt, or household financial stress; cash persistence does not mean digital adoption stopped.",
+      "source_url": "https://www.frbservices.org/news/research/2026-diary-consumer-payment-choice/",
+      "retrieval_hash": "sha256:1ccc20a40bc8992a035d0f13d97893b85c594bc263c79236e7b035e30e43e4de",
+      "status": "reported"
+    },
+    {
+      "period": "2025; cash use by age, household income, and residence",
+      "denominator": {"value": 6079, "unit": "2025 Diary participants; subgroup estimates use the report's weighted age, income, and rural/urban classifications", "value_type": "survey_sample"},
+      "measures": {
+        "cash_payments_age_55_plus": {"value": 10, "unit": "average monthly cash payments among consumers age 55 or older; 19% of their payments", "value_type": "subgroup_mean"},
+        "cash_payments_under_25": {"value": 2, "unit": "average monthly cash payments among consumers younger than 25; 6% of their payments", "value_type": "subgroup_mean"},
+        "cash_payments_households_under_100k": {"value": 7, "unit": "average monthly cash payments among households earning under $100,000; about 17% of payments", "value_type": "subgroup_mean"},
+        "cash_payments_households_over_100k": {"value": 5, "unit": "average monthly cash payments among households earning over $100,000; about 9% of payments", "value_type": "subgroup_mean"},
+        "cash_payments_rural": {"value": 9, "unit": "average monthly cash payments among rural residents; 21% of payments", "value_type": "subgroup_mean"},
+        "cash_payments_urban_suburban": {"value": 6, "unit": "average monthly cash payments among urban and suburban residents; 12%-13% of payments", "value_type": "subgroup_mean"}
+      },
+      "method": "Federal Reserve Diary subgroup comparisons using age, household-income, and USDA RUCA-based residence categories; the source reports associations, not adjusted causal effects.",
+      "uncertainty": "Age, income, geography, banking access, merchant availability, preferences, and payment acceptance are correlated; subgroup means do not identify why cash is used or whether digital options are equally usable.",
+      "subgroup": "Consumers grouped by age, household income, and rural/urban/suburban residence.",
+      "counterinterpretation": "Higher cash use may reflect preference, privacy, budgeting, merchant ecology, or backup behavior rather than exclusion; lower cash use may reflect convenience or greater digital access rather than greater security.",
+      "source_url": "https://www.frbservices.org/news/research/2026-diary-consumer-payment-choice/",
+      "retrieval_hash": "sha256:1ccc20a40bc8992a035d0f13d97893b85c594bc263c79236e7b035e30e43e4de",
+      "status": "reported"
+    },
+    {
+      "period": "2025; cash as recurring payment, backup, and store of value",
+      "denominator": {"value": 100, "unit": "weighted U.S. consumer estimates from the 2025 Diary", "value_type": "survey_population"},
+      "measures": {
+        "used_cash_last_30_days": {"value": 80, "unit": "four out of five consumers reporting at least one cash payment in the prior 30 days", "value_type": "share"},
+        "plan_to_continue_cash": {"value": 90, "unit": "percent saying they plan to continue using cash in the future", "value_type": "share"},
+        "carried_cash": {"value": 76, "unit": "percent carrying cash on their person in 2025; average $69", "value_type": "share"},
+        "stored_cash_elsewhere": {"value": 45, "unit": "percent storing cash outside a pocket, purse, or wallet; average $364", "value_type": "share"},
+        "cash_payment_from_non_cash_preference": {"value": 70, "unit": "approximately 70% of in-person cash payments made by people whose stated preferred method was not cash", "value_type": "share"}
+      },
+      "method": "Federal Reserve Diary questions on recent use, future plans, cash holdings, and stated in-person payment preference; stored cash is reported as a store-of-value or emergency reserve.",
+      "uncertainty": "The report does not establish whether stored cash reflects precaution, habit, distrust, lack of account access, disaster preparation, or spending plans; future intention is not future behavior.",
+      "subgroup": "U.S. consumers in the weighted 2025 Diary estimates.",
+      "counterinterpretation": "Cash can be complementary to digital payments rather than an alternative to them; backup use can reflect system resilience and merchant acceptance rather than opposition to technology.",
+      "source_url": "https://www.frbservices.org/news/research/2026-diary-consumer-payment-choice/",
+      "retrieval_hash": "sha256:1ccc20a40bc8992a035d0f13d97893b85c594bc263c79236e7b035e30e43e4de",
+      "status": "reported"
+    },
+    {
+      "period": "2016-2025; payment preference and cash-use transition",
+      "denominator": {"value": 100, "unit": "weighted U.S. consumer estimates; in-person payment preference where specified", "value_type": "survey_population"},
+      "measures": {
+        "in_person_credit_preference_2025": {"value": 38, "unit": "percent preferring credit cards for in-person payments; 24% in 2016", "value_type": "share"},
+        "in_person_debit_preference_2025": {"value": 40, "unit": "percent preferring debit cards for in-person payments", "value_type": "share"},
+        "in_person_cash_preference_2025": {"value": 16, "unit": "percent preferring cash for in-person payments", "value_type": "share"},
+        "cash_under_25_payment_share": {"value": 83, "unit": "five out of six cash payments were for in-person transactions under $25 in 2025", "value_type": "derived_share"},
+        "rural_cash_preference": {"value": 24, "unit": "nearly one in four rural households preferred cash for in-person payments; cards together were 22%", "value_type": "subgroup_share"}
+      },
+      "method": "Annual Diary trend comparisons from 2016 through 2025, with payment preference asked for in-person transactions; the source describes gradual behavioral change despite expanding technology.",
+      "uncertainty": "The transition series combines repeated cross-sectional diary waves rather than following the same consumers; preference, actual use, merchant steering, and payment acceptance are related but distinct measures.",
+      "subgroup": "U.S. consumers overall and rural consumers for the residence comparison.",
+      "counterinterpretation": "Card growth and cash persistence can coexist because payment choice is transaction-specific; the data do not show that cash infrastructure alone causes resilience or that digital payment growth causes exclusion.",
+      "source_url": "https://www.frbservices.org/news/research/2026-diary-consumer-payment-choice/",
+      "retrieval_hash": "sha256:1ccc20a40bc8992a035d0f13d97893b85c594bc263c79236e7b035e30e43e4de",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025.htm", "claim": "The Federal Reserve SHED report supplies complementary U.S. household financial-well-being, banking, credit, hardship, and housing context.", "status": "related", "access_boundary": "Payment counts and cash holdings are not income, expenditure, liquidity, or hardship measures."},
+    {"source_url": "https://www.frbservices.org/news/research/2026-diary-consumer-payment-choice/", "claim": "The public landing page links the 2026 PDF and chart data for the 2025 diary wave.", "status": "primary", "access_boundary": "The landing page and PDF summarize weighted diary estimates; they do not provide a causal evaluation of cash infrastructure."}
+  ],
+  "boundary": "This record establishes U.S. payment counts, payment-method preference, cash use, cash holdings, and subgroup differences by age, income, and residence from the Federal Reserve Diary. It does not establish causal effects of digitization, financial inclusion, merchant acceptance, payment infrastructure, or household welfare; payment frequency is not spending value, affordability, or financial security."
+}

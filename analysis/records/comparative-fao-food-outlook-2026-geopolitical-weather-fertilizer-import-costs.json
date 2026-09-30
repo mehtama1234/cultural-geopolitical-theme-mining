@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-food-outlook-2026-geopolitical-weather-fertilizer-import-costs",
+  "title": "Food markets remain well supplied in aggregate while weather, conflict, fertilizer, shipping, and import-cost risks make access more fragile",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "care_health_reproduction"
+  ],
+  "source_unit": "FAO Food Outlook, June 2026: Global food commodity market trends face rising geopolitical and weather risks",
+  "geography": "Global food commodity markets, with commodity, income-group, and trade-route analysis",
+  "observations": [
+    {
+      "period": "2026/27; global food commodity production and utilization outlook",
+      "denominator": {"value": 1, "unit": "global food commodity market forecast frame", "value_type": "global_market_forecast_frame"},
+      "measures": {
+        "cereal_output": {"value": 2982, "unit": "million tonnes of aggregate global cereal output forecast for 2026, approximately", "value_type": "reported_global_forecast"},
+        "cereal_output_change": {"value": -2.0, "unit": "percent change in global cereal output forecast from the previous year", "value_type": "reported_forecast_change"},
+        "human_consumption": {"value": 1.0, "unit": "percent increase in output used for human consumption", "value_type": "reported_forecast_change"},
+        "aggregate_supply_frame": {"value": "production is expected to ease from record highs but remain historically elevated, with ample stocks supporting supply", "unit": "reported market assessment", "value_type": "reported_market_pattern"}
+      },
+      "method": "FAO commodity-market assessment and forecast covering production, utilization, trade, and stocks across cereals and other major food commodities.",
+      "uncertainty": "Forecasts depend on weather, policy, trade, energy, conflict, planting, yields, stocks, and model assumptions; aggregate supply does not establish affordability, local availability, diet quality, or equal access.",
+      "subgroup": "Food-importing and exporting countries, producers, traders, processors, retailers, consumers, low-income food-deficit countries, and populations exposed to food insecurity.",
+      "counterinterpretation": "Historically elevated production and stocks can buffer shocks and stabilize prices even when regional harvests or particular commodities deteriorate; a global decline does not imply universal shortage.",
+      "source_url": "https://www.fao.org/newsroom/detail/fao-food-outlook--global-food-commodity-market-trends-face-rising-geopolitical-and-weather-risks/",
+      "retrieval_hash": "sha256:de2c2c0d06453bfd34ae72355c7d0f64d76efed3e6787dbc4dc28b59f20eea68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; global food import bill and income-group exposure",
+      "denominator": {"value": 1, "unit": "global food import bill estimate", "value_type": "global_trade_value_frame"},
+      "measures": {
+        "food_import_bill": {"value": 2.22, "unit": "trillion US dollars in the 2025 global food import bill", "value_type": "reported_global_trade_value"},
+        "food_import_bill_change": {"value": 7.9, "unit": "percent increase in the global food import bill from the previous year", "value_type": "reported_trade_change"},
+        "high_income_share": {"value": "more than two-thirds", "unit": "share of the global food import bill accounted for by high-income countries", "value_type": "reported_income_group_share"},
+        "high_income_change": {"value": 9.3, "unit": "percent increase in food import expenditures by high-income countries", "value_type": "reported_income_group_change"}
+      },
+      "method": "FAO estimate of the global food import bill by commodity and income group, with analysis of import costs and price composition.",
+      "uncertainty": "The import bill is a value measure combining quantities, prices, and commodity mix; it does not directly measure household food prices, nutrition, food insecurity, or who bears the cost within countries.",
+      "subgroup": "Food-importing states, low-income food-deficit countries, high-income importers, traders, public procurers, consumers, and households with different food budgets.",
+      "counterinterpretation": "A higher import bill can reflect greater purchasing power, higher-value products, or larger volumes rather than deterioration alone; domestic production and safety-net policy can mediate import exposure.",
+      "source_url": "https://www.fao.org/newsroom/detail/fao-food-outlook--global-food-commodity-market-trends-face-rising-geopolitical-and-weather-risks/",
+      "retrieval_hash": "sha256:de2c2c0d06453bfd34ae72355c7d0f64d76efed3e6787dbc4dc28b59f20eea68",
+      "status": "reported"
+    },
+    {
+      "period": "January-April 2026; fertilizer trade and agricultural input risk",
+      "denominator": {"value": 1, "unit": "global fertilizer trade comparison frame", "value_type": "global_input_trade_frame"},
+      "measures": {
+        "fertilizer_trade_change": {"value": "20-25", "unit": "percent decline in global fertilizer trade volumes in January-April 2026 compared with the same period a year earlier", "value_type": "reported_trade_change_range"},
+        "input_exposure": {"value": "stalled buying in key markets, including Europe and North America, raised concern for the 2026/27 agricultural season", "unit": "reported market risk", "value_type": "reported_risk"},
+        "production_link": {"value": "fertilizer availability and prices shape the cost and yield conditions under which the next agricultural season is produced", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "market_mediation": {"value": "energy prices, trade policy, conflict, inventories, and purchasing timing mediate the transmission from fertilizer markets to food production", "unit": "reported transmission set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "FAO analysis of fertilizer-market trade volumes, prices, purchasing conditions, and implications for the coming agricultural season.",
+      "uncertainty": "Trade-volume changes do not directly measure farm-level application, yields, or food prices; substitution, inventories, domestic production, and policy responses can weaken or delay the transmission.",
+      "subgroup": "Farmers, fertilizer producers and traders, import-dependent agricultural systems, food processors, workers in agrifood supply chains, and consumers exposed to price or availability changes.",
+      "counterinterpretation": "Lower trade volumes may reflect destocking, delayed purchases, or efficiency changes rather than an immediate input shortage; supply can remain adequate in some regions while constrained in others.",
+      "source_url": "https://openknowledge.fao.org/handle/20.500.14283/ce0204en",
+      "retrieval_hash": "sha256:de2c2c0d06453bfd34ae72355c7d0f64d76efed3e6787dbc4dc28b59f20eea68",
+      "status": "reported"
+    },
+    {
+      "period": "2026/27; weather, shipping, energy, and geopolitical transmission",
+      "denominator": {"value": 1, "unit": "global food-market risk and logistics framework", "value_type": "global_risk_transmission_frame"},
+      "measures": {
+        "weather_risk": {"value": "the emergence of El Niño and other weather developments remain major risks to production", "unit": "reported risk condition", "value_type": "reported_risk"},
+        "aquatic_food_output": {"value": 200.5, "unit": "million tonnes of global fisheries and aquaculture production forecast for 2026", "value_type": "reported_global_forecast"},
+        "aquatic_production_change": {"value": 1.0, "unit": "percent increase in global fisheries and aquaculture production forecast for 2026", "value_type": "reported_forecast_change"},
+        "shipping_energy_route": {"value": "alternative shipping fuels, energy prices, maritime regulations, conflict, insurance, and transit disruptions can alter agrifood logistics and import costs", "unit": "reported transmission mechanism", "value_type": "reported_mechanism_set"},
+        "risk_amplification": {"value": "under high geopolitical risk, the food-import-bill response to a given oil-price shock can be almost twice as large as under normal conditions", "unit": "reported comparative risk relationship", "value_type": "reported_relationship"}
+      },
+      "method": "FAO integrated analysis of commodity forecasts, shipping fuels, energy-agriculture linkages, fertilizer markets, logistics, trade routes, and geopolitical risk.",
+      "uncertainty": "The report's scenario and sensitivity relationships are not person-level causal estimates; realized effects depend on route substitution, insurance, inventories, policy, market power, and local food systems.",
+      "subgroup": "Small Island Developing States, food-importing countries, maritime and logistics firms, fishers and aquaculture producers, consumers, and communities exposed to weather or conflict shocks.",
+      "counterinterpretation": "Diversified sourcing, strategic stocks, local production, alternative routes, and open trade can absorb some shocks; logistics risk can be high without producing a sustained global food shortage.",
+      "source_url": "https://www.fao.org/newsroom/detail/fao-food-outlook--global-food-commodity-market-trends-face-rising-geopolitical-and-weather-risks/",
+      "retrieval_hash": "sha256:de2c2c0d06453bfd34ae72355c7d0f64d76efed3e6787dbc4dc28b59f20eea68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://openknowledge.fao.org/handle/20.500.14283/ce0204en", "claim": "Official FAO publication record for the June 2026 Food Outlook."},
+    {"source_url": "https://www.fao.org/giews/reports/food-outlook/en/", "claim": "FAO's recurring Food Outlook series and release context."}
+  ],
+  "boundary": "This record adds a global food-system route across commodity production, stocks, fertilizer, shipping, energy, weather, conflict, trade, food import bills, and consumer access. It uses FAO aggregate market assessments and forecasts, not household food diaries, respondent-level nutrition histories, farm-level causal estimates, retailer pass-through estimates, or proof that aggregate supply conditions translate equally into affordability or diet quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FAO Food Outlook news release and publication record reviewed for cereal output, food-import-bill estimates, income-group exposure, fertilizer trade, shipping and energy linkages, weather risk, aquatic-food production, and geopolitical amplification.",
+    "source_url_sha256": "sha256:de2c2c0d06453bfd34ae72355c7d0f64d76efed3e6787dbc4dc28b59f20eea68",
+    "checked": "2026-09-26"
+  }
+}

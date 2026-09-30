@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ethiopia-justice-delivery-customary-digital-capacity-2026",
+  "title": "Ethiopia’s justice system shows that institutional performance, practical access, and legitimacy can diverge",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Bank, Improving Justice Delivery in Ethiopia: A 2025 JUPITER Assessment, published 2026",
+  "geography": "Ethiopia, with federal courts, regional statutory courts, and customary or cultural justice providers, including a detailed Oromia case",
+  "observations": [
+    {
+      "period": "2022-2025; federal court efficiency, access, and digital delivery",
+      "denominator": {"value": 3, "unit": "federal court tiers: Federal First Instance Court, Federal High Court, and Federal Supreme Court", "value_type": "reported_institutional_frame"},
+      "measures": {
+        "clearance": {"value": "all federal courts had clearance rates above 95% in the last three years; the Federal First Instance Court exceeded 98%, while the Federal High Court exceeded 100% for several years", "unit": "percent of incoming cases cleared", "value_type": "reported_administrative_performance"},
+        "user_deterrence": {"value": "67% of court-user survey respondents identified the length of the process as a factor discouraging them from bringing cases to statutory courts", "unit": "percent of surveyed court users", "value_type": "reported_survey_result"},
+        "digital_gap": {"value": "the federal case-management system lacks a public-facing portal for online filing, document sharing, and case follow-up, and does not provide structured collaboration workflows", "unit": "reported service-delivery condition", "value_type": "reported_institutional_finding"},
+        "capacity_pressure": {"value": "high clearance performance comes with overworked judicial and nonjudicial staff, lengthy procedures, limited technology, and inadequate capacity-building opportunities", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "mechanism": {"value": "back-office throughput can look strong while user-facing access remains weak when speed, transparency, participation, and follow-up are not designed together", "unit": "bounded justice-access mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JUPITER assessment combining administrative court data, court-user survey evidence, interviews, stakeholder questionnaires, institutional review, and benchmarking against selected African justice systems.",
+      "uncertainty": "Clearance rates are not equivalent to fair, timely, or high-quality justice; the court-user survey was conducted at multiple Addis Ababa courts between March and May 2025, and data quality is constrained by incomplete and nonintegrated justice-information systems.",
+      "subgroup": "Court users, litigants, lawyers, judges, clerks, parties unable to travel to federal cities, people with limited digital access, and users deterred by time or procedural complexity.",
+      "counterinterpretation": "High clearance rates may reflect substantial institutional effort and can be a foundation for reform; digitalization without legal, privacy, connectivity, and inclusion safeguards could create new barriers.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092326095510306/pdf/P500649-d67f70e7-d51c-4a99-a0e3-e2a2d355cc2b.pdf",
+      "retrieval_hash": "sha256:8e8c797e4f1219adc7dd7b0d519902b02a3899bd8aeb6bc0e11b79eb380e291e",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; customary justice and statutory-court interconnection in Ethiopia, especially Oromia",
+      "denominator": {"value": 1, "unit": "Ethiopian plural justice system with statutory, customary/cultural, religious, municipal, and social courts", "value_type": "reported_plural_justice_frame"},
+      "measures": {
+        "legal_problem": {"value": "40% of Ethiopians face a legal problem once in four years according to the report’s justice-needs evidence", "unit": "percent of population in cited survey frame", "value_type": "reported_survey_result"},
+        "customary_caseload": {"value": "Oromia customary courts received more than 374,000 cases in fiscal year 2023/2024, nearly half of the caseload received by the state court system", "unit": "cases and relative caseload", "value_type": "reported_administrative_result"},
+        "community_access": {"value": "25% of Addis Ababa court-user survey respondents said they sought legal assistance from community elders; the report notes reliance may be higher in rural areas", "unit": "percent of surveyed court users", "value_type": "reported_survey_result"},
+        "recognition": {"value": "Oromia formally recognized customary courts in 2021, and four additional regional states had recently enacted similar laws, though implementation remained early", "unit": "reported institutional change", "value_type": "reported_policy_change"},
+        "mechanism": {"value": "customary justice can expand low-cost access when linked to statutory courts, legal aid, referral protocols, and quality safeguards, but recognition alone does not guarantee fairness or comparable service", "unit": "bounded plural-justice mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Institutional and qualitative assessment of Ethiopia’s plural justice landscape, administrative caseload data from Oromia, court-user survey evidence, interviews with judges, lawyers, experts, and community-linked justice actors.",
+      "uncertainty": "Customary-court caseload and preference data are geographically and institutionally bounded; the report does not establish causal effects on fairness, resolution time, welfare, gender equity, or long-term trust, and rural reliance is partly inferred from interviews.",
+      "subgroup": "Rural and low-income communities, people unable to afford or reach statutory courts, customary justice providers, community elders, women and minority groups, lawyers, and regional justice authorities.",
+      "counterinterpretation": "Customary institutions may be more accessible, culturally legitimate, and affordable, while statutory courts may be preferred in diverse settings because of perceived impartiality and impersonality; both systems can carry risks of bias or weak procedural safeguards.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092326095510306/pdf/P500649-d67f70e7-d51c-4a99-a0e3-e2a2d355cc2b.pdf",
+      "retrieval_hash": "sha256:8e8c797e4f1219adc7dd7b0d519902b02a3899bd8aeb6bc0e11b79eb380e291e",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; judicial capacity, legal clarity, and legitimacy constraints",
+      "denominator": {"value": 1, "unit": "Ethiopian federal judicial system and statutory legal framework assessed by JUPITER", "value_type": "reported_institutional_frame"},
+      "measures": {
+        "staffing": {"value": "more than 30% of judge positions are empty at the Federal First Instance Court and Federal High Court, while only 53% of judicial administrative positions are occupied at the Federal Supreme Court", "unit": "percent of positions", "value_type": "reported_staffing_result"},
+        "budget": {"value": "the judiciary’s budget is less than 0.5% of the national budget", "unit": "percent of national budget", "value_type": "reported_budget_result"},
+        "legal_fragmentation": {"value": "the Civil Procedure Code dates from 1965 and later laws have created uncertainty about which provisions remain in force, contributing to uneven judgments and weak legal clarity", "unit": "reported legal-system condition", "value_type": "reported_institutional_finding"},
+        "quality_and_trust": {"value": "the report identifies low human-capital capacity, concerns about judgment reasoning and consistency, perceptions of corruption, and susceptibility of constitutional review to political influence as quality and legitimacy risks", "unit": "reported justice-quality and legitimacy risks", "value_type": "reported_risk_set"},
+        "mechanism": {"value": "capacity, compensation, legal-information infrastructure, appointment transparency, and independence jointly shape whether institutional output is experienced as legitimate justice", "unit": "bounded justice-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JUPITER access, efficiency, and quality assessment using administrative data, surveys, interviews, legal and institutional review, and stakeholder questionnaires.",
+      "uncertainty": "Some staffing, population, and performance data are incomplete or not fully segmented; the assessment identifies risks and reform priorities but does not estimate causal effects of budgets, vacancies, legal changes, or judicial independence on case outcomes.",
+      "subgroup": "Judges, judicial staff, court users, litigants, lawyers, legal-aid users, people affected by administrative barriers, and communities whose trust depends on fair and independent adjudication.",
+      "counterinterpretation": "Resource increases alone may not improve quality without legal consolidation, management, incentives, training, transparency, and institutional safeguards; formal judicial independence can also coexist with practical capacity constraints.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092326095510306/pdf/P500649-d67f70e7-d51c-4a99-a0e3-e2a2d355cc2b.pdf",
+      "retrieval_hash": "sha256:8e8c797e4f1219adc7dd7b0d519902b02a3899bd8aeb6bc0e11b79eb380e291e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099092326095510306", "claim": "Official World Bank record, report number 215104, title, author, publication metadata, project, and abstract."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099092326095510306", "claim": "World Bank document API record containing the official PDF URL, abstract, author, and document identifier."}
+  ],
+  "boundary": "This record adds a justice-throughput-to-lived-access-and-legitimacy mechanism. It is a country assessment, not a causal evaluation of digitalization, customary-court recognition, staffing, budgets, or judicial independence; reported survey and administrative figures are bounded by geography, data quality, and institutional coverage, and the next test is whether reforms improve fair resolution, user access, time, quality, and trust across statutory and customary pathways.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, JUPITER methodology, federal clearance rates, court-user deterrence, digital case-management limitations, customary-court caseload and recognition, staffing vacancies, judiciary budget, legal fragmentation, quality and legitimacy risks, and data limitations were reviewed.",
+    "source_url_sha256": "sha256:8e8c797e4f1219adc7dd7b0d519902b02a3899bd8aeb6bc0e11b79eb380e291e",
+    "checked": "2026-09-29"
+  }
+}

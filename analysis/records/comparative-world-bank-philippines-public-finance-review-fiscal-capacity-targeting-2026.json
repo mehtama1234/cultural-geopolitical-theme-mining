@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-philippines-public-finance-review-fiscal-capacity-targeting-2026",
+  "title": "Fiscal capacity is a targeting and trust architecture, not only a spending level",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Group, Building on Reform: Public Finance for a Rising Philippines, announced in official press release, 28 September 2026",
+  "geography": "Philippines; national fiscal, procurement, revenue-administration, health, education and social-protection systems",
+  "observations": [
+    {
+      "period": "2026 World Bank Public Finance Review announcement; potential annual fiscal gains",
+      "denominator": {"value": 1, "unit": "Philippines annual GDP fiscal-gain scenario", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "combined_gain": {"value": "3.6% to 7.1% of GDP in combined savings and additional revenue annually", "unit": "World Bank reported potential fiscal gain", "value_type": "reported_projection"},
+        "procurement_savings": {"value": "up to PHP435 billion annually from procurement reform", "unit": "World Bank reported potential annual saving", "value_type": "reported_projection"},
+        "reform_channels": {"value": "consolidated procurement, easier tax payments, streamlined corporate tax incentives, tighter limits on unprogrammed appropriations, e-invoicing, audits and modernised fiscal-management systems", "unit": "reported reform package", "value_type": "reported_policy_set"},
+        "mechanism": {"value": "Fiscal room is partly an administrative capability: the state can create usable capacity by improving how it purchases, collects, records and allocates before increasing statutory rates or total spending", "unit": "bounded fiscal-administration mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank Public Finance Review diagnostic and official announcement summarising scenario estimates and three reform categories; the source does not provide the underlying model or a causal evaluation in the press release.",
+      "uncertainty": "The 3.6–7.1% range and procurement estimate are potential gains under a reform scenario, not observed savings or guaranteed revenue; distributional incidence, implementation cost, political feasibility and timing are not established by the announcement.",
+      "subgroup": "Taxpayers, firms affected by procurement and tax administration, public employees, service users, suppliers, and households that could receive additional health, education or social-protection resources.",
+      "counterinterpretation": "Administrative efficiency can improve public value, but consolidation and tax-base expansion can also reduce local discretion, burden smaller firms, or shift costs toward groups that lack bargaining power if safeguards are weak.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/28/philippines-could-unlock-up-to-7-1-percent-of-gdp-in-fiscal-gains",
+      "retrieval_hash": "sha256:54d58f69bff8484b31ee52b4848794c480b8690a429b650fa8a8c219959bdf21",
+      "status": "reported"
+    },
+    {
+      "period": "2026; program targeting and social-protection identification",
+      "denominator": {"value": 1, "unit": "Philippines social-program targeting scenario", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "poverty_projection": {"value": "a common social-program registry could lift about 2 million Filipinos out of poverty", "unit": "World Bank reported potential poverty effect", "value_type": "reported_projection"},
+        "targeting_scope": {"value": "better-targeted health, education and social-protection spending is presented as a way to improve outcomes without increasing budgets", "unit": "reported policy proposition", "value_type": "reported_policy_proposition"},
+        "protective_pairing": {"value": "the reform agenda pairs fiscal-gap closure with expanded cash transfers to protect poor and vulnerable households", "unit": "reported policy pairing", "value_type": "reported_policy_set"},
+        "mechanism": {"value": "A registry can turn fiscal capacity into lived protection only if identification, eligibility, delivery and correction connect across programs; administrative visibility is a condition of access, not access itself", "unit": "bounded targeting-usability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank policy diagnosis linking registry-based targeting, health, education and social-protection allocation; the press release reports the potential effect without presenting beneficiary-level evaluation.",
+      "uncertainty": "The projected number is not an observed reduction in poverty and the release does not specify registry coverage, inclusion/exclusion error, transfer adequacy, delivery reliability, privacy protections or grievance performance.",
+      "subgroup": "Poor and vulnerable households, people missing from administrative systems, informal workers, people with unstable addresses or documentation, children, people needing medical assistance, and frontline caseworkers.",
+      "counterinterpretation": "A common registry can reduce duplication and improve coordination, but it can also centralise surveillance, exclude people with incomplete records, freeze eligibility during changing shocks, or make one administrative error propagate across services.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/28/philippines-could-unlock-up-to-7-1-percent-of-gdp-in-fiscal-gains",
+      "retrieval_hash": "sha256:54d58f69bff8484b31ee52b4848794c480b8690a429b650fa8a8c219959bdf21",
+      "status": "reported"
+    },
+    {
+      "period": "2026; fiscal reform, distribution and public legitimacy",
+      "denominator": {"value": 1, "unit": "Philippines fiscal-reform legitimacy bargain", "value_type": "reported_policy_frame"},
+      "measures": {
+        "inclusive_growth_claim": {"value": "the World Bank frames fiscal sustainability and inclusive growth as mutually reinforcing rather than inherently competing objectives", "unit": "reported policy frame", "value_type": "reported_policy_frame"},
+        "human_capital_targets": {"value": "the announced agenda links fiscal reform to foundational learning, reduced health costs, medical assistance, cash transfers and poverty reduction", "unit": "reported target set", "value_type": "reported_policy_set"},
+        "trust_condition": {"value": "the World Bank announcement presents effective use of collected resources as important to citizens' willingness to pay taxes", "unit": "reported legitimacy claim", "value_type": "reported_claim"},
+        "mechanism": {"value": "Fiscal reform becomes socially durable when extraction, allocation and visible service improvement are legible as one bargain; efficiency without voice or fair burden-sharing can weaken the trust needed for compliance", "unit": "bounded fiscal-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank fiscal-policy synthesis and official public communication connecting revenue, procurement, spending quality, human capital and citizen trust.",
+      "uncertainty": "The announcement does not measure willingness to pay, political support, distributional effects, service outcomes or trust change; the legitimacy pathway is an analytical interpretation of the stated reform logic, not a causal finding.",
+      "subgroup": "Taxpayers and voters, low-income households, public employees, firms facing tax or procurement changes, local governments, service providers and communities judging whether reform is fair and usable.",
+      "counterinterpretation": "Visible service improvements may increase fiscal legitimacy, but people can reject reforms that produce good aggregate accounts if they experience higher costs, reduced access, weak participation or unequal enforcement.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/28/philippines-could-unlock-up-to-7-1-percent-of-gdp-in-fiscal-gains",
+      "retrieval_hash": "sha256:54d58f69bff8484b31ee52b4848794c480b8690a429b650fa8a8c219959bdf21",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/28/philippines-could-unlock-up-to-7-1-percent-of-gdp-in-fiscal-gains", "claim": "Official World Bank announcement with the Public Finance Review title, fiscal-gain range, procurement estimate, reform categories, social-registry projection and human-capital targets."},
+    {"source_url": "https://www.worldbank.org/en/brief/2025/12/03/public-finance-reviews", "claim": "World Bank overview of Public Finance Reviews as diagnostics of fiscal policy efficiency, domestic revenue mobilisation and budget institutions."}
+  ],
+  "boundary": "This record identifies a fiscal-capacity, targeting, administrative-usability and legitimacy subtheme. It does not establish that the proposed reforms will produce the stated fiscal gains, lift two million people from poverty, improve learning or health, increase tax compliance, or distribute benefits fairly; those require named implementation episodes with observed procurement, tax collection, registry coverage, transfer delivery, service outcomes, complaints, participation and political response.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank press release announcing Building on Reform: Public Finance for a Rising Philippines, including the 3.6–7.1% GDP fiscal-gain range, PHP435 billion procurement estimate, common social-program registry projection, reform categories, human-capital targets and trust framing.",
+    "source_url_sha256": "sha256:54d58f69bff8484b31ee52b4848794c480b8690a429b650fa8a8c219959bdf21",
+    "checked": "2026-09-29"
+  }
+}

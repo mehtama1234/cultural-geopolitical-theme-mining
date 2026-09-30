@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nordregio-state-nordic-region-2026-demography-labour-place-capacity",
+  "title": "Demographic, labour, economic, and geopolitical transitions are territorially uneven, making place-based capacity more important than national averages",
+  "theme_ids": ["work", "cost", "voice", "energy"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Nordregio, State of the Nordic Region 2026, Nordic Council of Ministers Report 2026:2",
+  "geography": "The Nordic Region: Denmark, Finland, Iceland, Norway, Sweden, the Faroe Islands, Greenland, and Åland; analysis at Nordic, national, regional, municipal, and cross-regional levels",
+  "observations": [
+    {
+      "period": "2026 report; regional evidence architecture",
+      "denominator": {"value": 8, "unit": "Nordic countries and territories covered", "value_type": "reported_regional_coverage"},
+      "measures": {
+        "themes": {"value": 3, "unit": "core themes: demography, labour market, and economy", "value_type": "reported_theme_count"},
+        "chapters": {"value": 10, "unit": "report chapters", "value_type": "reported_chapter_count"},
+        "territorial_levels": {"value": "Nordic-wide, national, regional, municipal, and cross-regional comparison", "unit": "reported analytical levels", "value_type": "reported_scope"},
+        "place_route": {"value": "territorial context mediates how demographic, labour, economic, green, and geopolitical transitions become local capacity or vulnerability", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Nordregio combines harmonized regional statistics, maps, indicators, projections, and research-based analysis across multiple territorial levels and comparable Nordic contexts.",
+      "uncertainty": "The report is a descriptive regional synthesis; indicator definitions, reference years, projection assumptions, and local data availability vary by chapter and do not create one causal regional index.",
+      "subgroup": "Metropolitan, regional-centre, rural, peripheral, coastal, inland, sparsely populated, migrant-diverse, and economically specialized municipalities and regions.",
+      "counterinterpretation": "Territorial variation does not mean every local difference is structural or permanent; national transfers, commuting, migration, institutional cooperation, and measurement choices can alter apparent regional capacity.",
+      "source_url": "https://nordregio.org/publications/state-of-the-nordic-region-2026/",
+      "retrieval_hash": "sha256:9f7a646c56ea485a58b8bec30fcbae4447383ad70c89d56c59f74245c4eabb9b",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2045 projection window; Nordic population and urbanisation",
+      "denominator": {"value": 8, "unit": "Nordic countries and territories in the population projection frame", "value_type": "reported_regional_coverage"},
+      "measures": {
+        "population_2025": {"value": 28, "unit": "approximately million people at the start of the projection frame", "value_type": "reported_projection_baseline"},
+        "population_2045": {"value": 30, "unit": "approximately million people projected by 2045", "value_type": "reported_projection"},
+        "natural_change": {"value": "natural population change is projected to be negative, with net migration driving overall growth", "unit": "reported demographic mechanism", "value_type": "reported_assessment"},
+        "spatial_divergence": {"value": "growth is expected to concentrate in inner-urban, outer-urban, and peri-urban municipalities while rural and sparsely populated areas are more likely to decline", "unit": "reported territorial pattern", "value_type": "reported_assessment"},
+        "age_structure": {"value": "population ageing continues, with substantial increases in the number of people aged 80 and over", "unit": "reported demographic pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Population projections published by Nordic national statistical institutes, interpreted through Nordregio’s spatial classification of urban, peri-urban, rural, and sparsely populated municipalities.",
+      "uncertainty": "Projections depend on fertility, mortality, migration, and spatial-distribution assumptions; they do not forecast care quality, housing affordability, political response, or individual wellbeing.",
+      "subgroup": "Older adults, children and younger cohorts, migrants, urban residents, rural residents, municipalities with population decline, and regions competing for labour and services.",
+      "counterinterpretation": "Population growth can increase fiscal and service capacity in some places while intensifying housing, infrastructure, and affordability pressure in growing urban areas; decline can also create space for adaptation rather than only loss.",
+      "source_url": "https://pub.nordregio.org/r-2026-2-state-of-the-nordic-region-2026/introduction.html",
+      "retrieval_hash": "sha256:9f7a646c56ea485a58b8bec30fcbae4447383ad70c89d56c59f74245c4eabb9b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; population diversity and migration geography",
+      "denominator": {"value": 8, "unit": "Nordic countries and territories", "value_type": "reported_regional_coverage"},
+      "measures": {
+        "diversity_measure": {"value": "population diversity is analysed using country of birth and a Diversity Index", "unit": "reported measurement route", "value_type": "reported_method"},
+        "time_span": {"value": "1990–2024", "unit": "country-of-birth comparison period", "value_type": "reported_time_coverage"},
+        "migration_shift": {"value": "intra-Nordic migration has declined in relative importance while migration from the EU27 and regions outside Europe has become more prominent", "unit": "reported migration pattern", "value_type": "reported_assessment"},
+        "concentration": {"value": "diversity is generally concentrated in metropolitan areas, while some rural municipalities—particularly in Norway and Iceland—also show relatively high diversity", "unit": "reported spatial pattern", "value_type": "reported_assessment"},
+        "belonging_route": {"value": "migration and diversity reshape local labour supply, services, identity, and the territorial politics of inclusion", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Country-of-birth statistics and a spatial Diversity Index are used to compare national and municipal patterns over time.",
+      "uncertainty": "Country of birth is an imperfect proxy for identity, language, citizenship, social position, or integration; spatial concentration does not measure belonging, discrimination, or service quality.",
+      "subgroup": "Foreign-born and native-born residents, EU and non-EU migrants, metropolitan and rural municipalities, local labour markets, and public-service systems.",
+      "counterinterpretation": "Diversity can increase capacity, entrepreneurship, and cultural vitality while also creating service and housing demands; neither concentration nor dispersion determines social cohesion.",
+      "source_url": "https://pub.nordregio.org/r-2026-2-state-of-the-nordic-region-2026/introduction.html",
+      "retrieval_hash": "sha256:9f7a646c56ea485a58b8bec30fcbae4447383ad70c89d56c59f74245c4eabb9b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; labour-market vulnerability, critical infrastructure, and green innovation",
+      "denominator": {"value": 10, "unit": "report chapters spanning demography, labour, and economy", "value_type": "reported_chapter_frame"},
+      "measures": {
+        "labour_vulnerability": {"value": "labour-market dynamics are examined from labour-force, sectoral, vulnerability, and resilience perspectives", "unit": "reported analytical route", "value_type": "reported_scope"},
+        "critical_infrastructure": {"value": "regional economic analysis includes critical infrastructure and the capacity of places to manage external pressures", "unit": "reported analytical route", "value_type": "reported_scope"},
+        "green_innovation": {"value": "the report examines innovation’s role in the Nordic green transition, including regional patterns of green-growth potential", "unit": "reported analytical route", "value_type": "reported_scope"},
+        "resilience_route": {"value": "labour, infrastructure, innovation, and economic resilience interact with geography and governance rather than operating as separate national indicators", "unit": "bounded cross-domain mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative regional indicator analysis, sectoral labour-market examination, economic resilience analysis, critical-infrastructure discussion, and a Regional Potential Index built from grouped indicators.",
+      "uncertainty": "The report’s indices and thematic chapters identify patterns and potential; they do not prove that regional innovation causes job quality, that infrastructure guarantees resilience, or that green growth is socially inclusive.",
+      "subgroup": "Workers, sectors, municipalities, regional economies, infrastructure-dependent communities, green firms, public authorities, and places with different access to skills, capital, and connectivity.",
+      "counterinterpretation": "A region can score highly on innovation or economic potential while producing exclusion, housing pressure, job insecurity, or uneven green-transition costs; capacity and distribution must remain separate.",
+      "source_url": "https://nordregio.org/publications/state-of-the-nordic-region-2026/",
+      "retrieval_hash": "sha256:9f7a646c56ea485a58b8bec30fcbae4447383ad70c89d56c59f74245c4eabb9b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://pub.nordregio.org/r-2026-2-state-of-the-nordic-region-2026/r-2026-2-state-of-the-nordic-region-2026.pdf", "claim": "Official Nordregio report PDF and map-based regional evidence."},
+    {"source_url": "https://yougov.com/articles/54327-new-nordic-report-exposes-the-hidden-mental-load-behind-everyday-life", "claim": "Complementary Nordic household mental-load evidence at the individual and household-responsibility level."}
+  ],
+  "boundary": "This record adds a place-based Nordic capacity route across population change, ageing, migration, urbanisation, labour-market vulnerability, regional economies, critical infrastructure, green innovation, and territorial governance. It uses Nordregio’s comparative regional synthesis, indicators, maps, and projections, not a single causal index, household panel, individual wellbeing measure, service-quality audit, or proof that Nordic regional patterns generalize to the United States.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Nordregio publication page and online report introduction reviewed for report scope, territorial levels, themes, population projection frame, diversity and migration analysis, labour vulnerability, critical infrastructure, green innovation, and Regional Potential Index routes.",
+    "source_url_sha256": "sha256:9f7a646c56ea485a58b8bec30fcbae4447383ad70c89d56c59f74245c4eabb9b",
+    "checked": "2026-09-28"
+  }
+}

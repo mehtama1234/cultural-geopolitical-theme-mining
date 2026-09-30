@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce",
+  "title": "Government AI adoption is becoming an organizational-capacity problem: agentic systems, adaptive cyber defense, and workforce redesign must move together",
+  "theme_ids": ["voice", "energy", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "political_judgment_action"
+  ],
+  "source_unit": "Gartner, Top Technology Trends in Government, September 2026",
+  "geography": "Global government and public-sector technology outlook; supporting CIO survey of 1,219 government respondents conducted January 2026",
+  "observations": [
+    {
+      "period": "2026 outlook; government adoption of agentic AI",
+      "denominator": {"value": 1, "unit": "public-sector technology trend framework", "value_type": "reported_forecast"},
+      "measures": {
+        "agentic_shift": {"value": "governments are moving from AI experimentation toward enterprise-scale agentic AI for operations, citizen experience, software development, and routine decisions", "unit": "reported trend", "value_type": "reported_assessment"},
+        "governance_need": {"value": "digital identity, governance frameworks, redesigned operating models, outcome-based roadmaps, and value metrics are presented as prerequisites for responsible scale", "unit": "reported implementation condition", "value_type": "reported_recommendation"},
+        "mechanism": {"value": "agentic adoption makes organizational redesign and accountability part of the technology decision rather than a later implementation detail", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Gartner public trend outlook based on analyst synthesis and conference discussion; the source is a vendor-analyst forecast, not an outcome evaluation.",
+      "uncertainty": "The public release does not disclose a complete country sample, deployment inventory, agent performance data, or causal evidence that the recommended operating model improves services.",
+      "subgroup": "Public-sector CIOs, civil servants, service users, digital-identity holders, and people affected by automated administrative decisions.",
+      "counterinterpretation": "Agentic systems may remain narrow pilots, add administrative complexity, or shift discretion into opaque vendor and data infrastructures rather than producing better public services.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government",
+      "retrieval_hash": "sha256:3e43fd5aece81db4fb0b5aefc9617be4f0ccfca32ee17b3f40dfc4d604cdb7aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 outlook; cyber resilience under AI, geopolitical, and quantum pressure",
+      "denominator": {"value": 1, "unit": "government cybersecurity operating-model recommendation", "value_type": "reported_framework"},
+      "measures": {
+        "threat_tempo": {"value": "AI is compressing the time between vulnerability discovery and exploitation while geopolitical tension and quantum computing change the risk environment", "unit": "reported risk framing", "value_type": "reported_assessment"},
+        "security_model": {"value": "government security should move from periodic compliance reviews toward continuously evolving resilience, automation, crypto agility, supply-chain visibility, and data-sovereignty controls", "unit": "reported recommendation", "value_type": "reported_recommendation"},
+        "public_consequence": {"value": "cybersecurity becomes a continuity-of-public-services and sovereignty issue, not only an IT-compliance issue", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Gartner analyst synthesis of government technology and cybersecurity trends.",
+      "uncertainty": "The release identifies strategic pressures but does not quantify incidents, service outages, public harms, or differences across government systems and countries.",
+      "subgroup": "Public agencies, critical-service operators, third-party technology providers, residents dependent on digital services, and jurisdictions with different cyber and procurement capacity.",
+      "counterinterpretation": "A continuous-security model can increase surveillance, procurement dependence, and operational cost without making services more usable or fair.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government",
+      "retrieval_hash": "sha256:3e43fd5aece81db4fb0b5aefc9617be4f0ccfca32ee17b3f40dfc4d604cdb7aa",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026 CIO survey; workforce investment and government technology delivery",
+      "denominator": {"value": 1219, "unit": "government CIOs and IT leaders surveyed by Gartner", "value_type": "reported_survey_sample"},
+      "measures": {
+        "people_investment": {"value": 78, "unit": "percent of government respondents anticipating investment in people to advance technology initiatives", "value_type": "reported_share"},
+        "workforce_route": {"value": "AI literacy, workforce modernization, organizational flexibility, and redesigned work are positioned as the delivery conditions for new technology", "unit": "reported implementation route", "value_type": "reported_recommendation"},
+        "capacity_gap": {"value": "technology modernization is constrained by skills, operating-model adaptability, and accountability capacity rather than by tool availability alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Gartner survey of 1,219 CIOs and IT leaders in government conducted in January 2026, as summarized in the public release.",
+      "uncertainty": "The public release does not specify country composition, response rate, question wording, weighting, or whether planned investment becomes funded training, new roles, or improved service capability.",
+      "subgroup": "Government technology workers, frontline civil servants, managers, contractors, and residents whose service access depends on staff capability and operating-model change.",
+      "counterinterpretation": "Investment in workforce capability can be uneven, managerial, or vendor-led; it does not itself establish worker voice, job quality, or citizen benefit.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government",
+      "retrieval_hash": "sha256:3e43fd5aece81db4fb0b5aefc9617be4f0ccfca32ee17b3f40dfc4d604cdb7aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 outlook; public-service legitimacy and adaptive operating models",
+      "denominator": {"value": 1, "unit": "government technology service-delivery framework", "value_type": "reported_framework"},
+      "measures": {
+        "service_redesign": {"value": "future-ready government technology delivery requires adaptive operating models, digital and AI-literate workforces, and governance that preserves accountability while allowing innovation", "unit": "reported recommendation", "value_type": "reported_recommendation"},
+        "citizen_expectation": {"value": "rising citizen expectations are treated as a driver of public-sector modernization alongside economic and geopolitical uncertainty", "unit": "reported context", "value_type": "reported_assessment"},
+        "legitimacy_route": {"value": "public-sector technology gains legitimacy when capability, resilience, and accountability are delivered together rather than traded off", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Synthesis of Gartner’s public trend statements and government-service-delivery recommendations.",
+      "uncertainty": "This is a strategic forecast and normative operating model, not evidence that public trust, accessibility, or service quality has already improved.",
+      "subgroup": "Residents with different digital access and contestability, public employees, oversight institutions, and governments operating under different fiscal and geopolitical constraints.",
+      "counterinterpretation": "Modernization may privilege speed and system integration over explanation, human discretion, privacy, or meaningful appeal for people least able to navigate digital systems.",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government",
+      "retrieval_hash": "sha256:3e43fd5aece81db4fb0b5aefc9617be4f0ccfca32ee17b3f40dfc4d604cdb7aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-14-gartner-reveals-top-technology-trends-in-government", "claim": "Official Gartner public release for the 2026 government technology trend framework and CIO survey summary."},
+    {"source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption", "claim": "Complementary citizen-side evidence on AI-enabled government services, human oversight, appeals, and regional variation."}
+  ],
+  "boundary": "This record adds a public-sector operating-capacity and legitimacy route linking agentic AI, cyber resilience, digital identity, workforce readiness, service redesign, and accountability. It uses Gartner’s public analyst outlook and a summarized CIO survey, not administrative deployment data, observed cyber incidents, service-user outcomes, causal evidence, representative global public opinion, or proof that modernization produces equitable public value.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Gartner public release reviewed for the September 2026 date, agentic-AI trend, cyber-resilience recommendations, service-delivery operating model, and 1,219-person government CIO/IT-leader survey summary.",
+    "source_url_sha256": "sha256:3e43fd5aece81db4fb0b5aefc9617be4f0ccfca32ee17b3f40dfc4d604cdb7aa",
+    "checked": "2026-09-28"
+  }
+}

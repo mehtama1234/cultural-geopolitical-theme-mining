@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-quarterly-ecommerce-sales-2026q2-channel-shift",
+  "title": "U.S. e-commerce grew faster than total retail in Q2 2026 while online share reached 17.1 percent",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "housing_place_mobility"
+  ],
+  "source_unit": "U.S. Census Bureau Quarterly Retail E-Commerce Sales Report, second quarter 2026",
+  "geography": "United States; national retail-establishment aggregate",
+  "observations": [
+    {
+      "period": "Second quarter 2026; seasonally adjusted e-commerce and total retail sales",
+      "denominator": {"value": null, "unit": "Census Quarterly Retail E-Commerce Sales establishment aggregate; survey sample and establishment denominator are not represented as a single household respondent count", "value_type": "not_disclosed"},
+      "measures": {
+        "ecommerce_sales": {"value": 340.2, "unit": "billions of current US dollars, seasonally adjusted and not adjusted for price changes", "value_type": "published_estimate"},
+        "ecommerce_qoq_change": {"value": 3.8, "unit": "percent from Q1 2026; margin of error ±0.4 percentage points", "value_type": "published_change"},
+        "ecommerce_yoy_change": {"value": 12.2, "unit": "percent from Q2 2025; margin of error ±0.9 percentage points", "value_type": "published_change"},
+        "total_retail_yoy_change": {"value": 6.7, "unit": "percent from Q2 2025; margin of error ±0.5 percentage points", "value_type": "published_change"},
+        "ecommerce_share": {"value": 17.1, "unit": "percent of total retail sales, seasonally adjusted", "value_type": "published_share"}
+      },
+      "method": "Census Bureau Quarterly Retail E-Commerce Sales estimate, seasonally adjusted but not adjusted for price changes; e-commerce covers sales where the buyer places an order or negotiates price and terms through the internet, mobile device, EDI, extranet, email, or comparable online system, whether or not payment occurs online.",
+      "uncertainty": "The series is nominal, aggregate, and subject to revision; it does not separate price from quantity, identify households or consumers, measure delivery or service quality, or show whether online growth reflects substitution, new demand, retailer channel reclassification, or concentration among higher-resource shoppers.",
+      "subgroup": "National retail-establishment aggregate; no household, income, age, race, geography, product, or platform subgroup in this observation.",
+      "counterinterpretation": "Online sales growth can coexist with household strain if inflation, convenience, delivery dependence, promotion, or reduced physical access shifts the channel without increasing real consumption or welfare.",
+      "source_url": "https://www.census.gov/retail/eCommerce.html",
+      "retrieval_hash": "sha256:a01bc26f514b1bab879971f032008b7ef51b01d92e34351c657f92be6ccf34b5",
+      "status": "reported"
+    },
+    {
+      "period": "Second quarter 2026; not seasonally adjusted e-commerce channel",
+      "denominator": {"value": null, "unit": "Census national retail-establishment aggregate, not seasonally adjusted", "value_type": "not_disclosed"},
+      "measures": {
+        "ecommerce_sales_not_adjusted": {"value": 329.5, "unit": "billions of current US dollars, not seasonally adjusted and not adjusted for price changes", "value_type": "published_estimate"},
+        "ecommerce_qoq_change_not_adjusted": {"value": 9.4, "unit": "percent from Q1 2026; margin of error ±0.4 percentage points", "value_type": "published_change"},
+        "ecommerce_yoy_change_not_adjusted": {"value": 12.4, "unit": "percent from Q2 2025; margin of error ±0.9 percentage points", "value_type": "published_change"},
+        "ecommerce_share_not_adjusted": {"value": 16.4, "unit": "percent of total retail sales, not seasonally adjusted", "value_type": "published_share"}
+      },
+      "method": "Census Bureau not-seasonally-adjusted companion estimate from the same quarterly release; the adjusted and unadjusted series are retained separately.",
+      "uncertainty": "Not-seasonally-adjusted sales are affected by calendar and seasonal timing and remain nominal; they are not a direct measure of online frequency, unique buyers, order counts, or consumer surplus.",
+      "subgroup": "National retail-establishment aggregate.",
+      "counterinterpretation": "The gap between adjusted and unadjusted growth may reflect timing and seasonal composition rather than a change in underlying online adoption.",
+      "source_url": "https://www.census.gov/retail/mrts/www/data/pdf/ec_current.pdf",
+      "retrieval_hash": "sha256:5c643c6c03bedad23602c3bbf30cfe44c904365f3b7d03f0b950a16d9eb67589",
+      "status": "reported"
+    },
+    {
+      "period": "Second quarter 2026; channel-conversion implication",
+      "denominator": {"value": 1, "unit": "national retail channel comparison using Census e-commerce and total-retail aggregates", "value_type": "derived_comparison_frame"},
+      "measures": {
+        "online_growth_premium": {"value": 5.5, "unit": "percentage-point difference between e-commerce and total-retail year-over-year growth, seasonally adjusted", "value_type": "derived_contrast"},
+        "channel_shift_signal": {"value": "Online retail expanded faster than total retail and accounted for 17.1 percent of sales, creating a measurable channel-shift surface for convenience, discovery, delivery, platform power, and access analysis", "unit": "bounded analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Arithmetic contrast of reported seasonally adjusted year-over-year growth rates and reported e-commerce share; no household-level linkage is implied.",
+      "uncertainty": "The contrast does not identify whether online growth displaced store sales, added purchases, changed product mix, or reflected price differences; it also does not measure distribution across households or firms.",
+      "subgroup": "National retail channel comparison.",
+      "counterinterpretation": "A larger online channel share can reflect merchant reporting or classification changes, temporary promotions, or a shift in where purchases are recorded rather than durable consumer cultural change.",
+      "source_url": "https://www.census.gov/retail/eCommerce.html",
+      "retrieval_hash": "sha256:a01bc26f514b1bab879971f032008b7ef51b01d92e34351c657f92be6ccf34b5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/retail/index.html", "claim": "Census explains how the advance monthly, monthly, annual, and quarterly e-commerce retail programs fit together."},
+    {"source_url": "https://www.census.gov/retail/release_schedule.html", "claim": "Census release schedule places the Q2 2026 Quarterly Retail E-Commerce Report on August 18, 2026 and the Q3 release on November 19, 2026."},
+    {"source_url": "https://www.census.gov/retail/mrts/www/data/excel/26q2table1.xlsx", "claim": "Official Census Table 1 workbook for Q2 2026 e-commerce and total retail estimates."}
+  ],
+  "boundary": "This record adds an official observed retail-channel surface linking e-commerce growth and share to possible changes in discovery, convenience, delivery, access, and platform-mediated consumption. It does not establish real consumption, household affordability, unique buyers, retailer profitability, channel substitution, or causal cultural change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census e-commerce landing page and full Q2 2026 PDF were reviewed for adjusted and unadjusted sales, year-over-year and quarter-over-quarter changes, e-commerce share, definitions, release date, and the price-adjustment and establishment-frame boundaries.",
+    "source_url_sha256": "sha256:a01bc26f514b1bab879971f032008b7ef51b01d92e34351c657f92be6ccf34b5",
+    "checked": "2026-09-30"
+  }
+}

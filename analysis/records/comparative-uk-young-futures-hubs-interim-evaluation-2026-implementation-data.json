@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-young-futures-hubs-interim-evaluation-2026-implementation-data",
+  "title": "Youth hubs can connect open access to targeted support, but partnership time and data infrastructure determine whether reach becomes durable outcome",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport, Young Futures Hubs Early Adopters Pilot evaluation: interim report, Ecorys",
+  "geography": "England; eight Young Futures Hubs Early Adopter sites",
+  "observations": [
+    {
+      "period": "2025–2026; implementation and partnership formation",
+      "denominator": {"value": 8, "unit": "Young Futures Hubs Early Adopter sites", "value_type": "pilot_site_frame"},
+      "measures": {
+        "implementation_challenges": {"value": "Pace of mobilisation, partnership development, co-design, buildings and capital works, and referral pathways were recurring challenges", "unit": "reported cross-site implementation pattern", "value_type": "reported_pattern"},
+        "funding_sustainability": {"value": "Stakeholders raised concerns about funding sustainability relative to emerging need, especially for intensive one-to-one or specialist support", "unit": "reported stakeholder concern", "value_type": "reported_pattern"},
+        "facilitators": {"value": "Pre-existing relationships, dedicated coordination, evidence-led decisions, and consortium support facilitated mobilisation", "unit": "reported implementation pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Interim process evaluation of eight early-adopter sites, examining implementation, local partnerships, co-design, delivery, and feasibility of future impact evaluation.",
+      "uncertainty": "This is an early implementation evaluation, not a comparison of treated and untreated areas or a causal estimate of hub effects; stakeholder reports may reflect local delivery context.",
+      "subgroup": "Young people, youth workers, local authorities, statutory and voluntary partners, specialist services, and communities targeted by local need.",
+      "counterinterpretation": "Early mobilisation friction may be a temporary start-up cost that enables stronger cross-service infrastructure later, rather than evidence that the model cannot scale.",
+      "source_url": "https://www.gov.uk/government/publications/young-futures-hubs-early-adopters-pilot-evaluation-interim-report/young-futures-hubs-early-adopters-pilot-evaluation-interim-report",
+      "retrieval_hash": "sha256:aa2e9cb759b04468349b93a4456b683ceb63778f6a37bd2c4c65cbcc6647c0ff",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; access, trusted relationships, and service connection",
+      "denominator": {"value": 8, "unit": "Early Adopter Hub sites and young people consulted through the evaluation", "value_type": "pilot_site_and_qualitative_frame"},
+      "measures": {
+        "early_access": {"value": "There was strong early evidence of improved engagement, access to support, and trusted relationships between young people and hub staff", "unit": "reported evaluation pattern", "value_type": "reported_pattern"},
+        "informal_to_targeted": {"value": "Co-location and warm handovers were reported to reduce barriers to specialist provision", "unit": "reported service pathway pattern", "value_type": "reported_pattern"},
+        "young_people_experience": {"value": "Young people described supportive spaces for activities, friendship, advice, and confidence, with early indications of connection, belonging, and wellbeing", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "wider_opportunities": {"value": "Early routes were reported into employability support, volunteering, and participation in service design", "unit": "reported pathway pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Process and early-outcome evidence from stakeholder interviews, young-person consultation, qualitative material, and site-level evaluation data.",
+      "uncertainty": "The evidence is indicative and largely qualitative at this interim stage; reported access and belonging do not establish sustained engagement, improved health, reduced crime, or employment outcomes.",
+      "subgroup": "Young people using open-access activities, targeted support, specialist services, employability provision, and co-design processes.",
+      "counterinterpretation": "Trusted informal spaces may be the mechanism that makes later specialist support usable, but the pathway requires repeated contact and functioning referrals rather than one-time attendance.",
+      "source_url": "https://www.gov.uk/government/publications/young-futures-hubs-early-adopters-pilot-evaluation-interim-report/young-futures-hubs-early-adopters-pilot-evaluation-interim-report",
+      "retrieval_hash": "sha256:aa2e9cb759b04468349b93a4456b683ceb63778f6a37bd2c4c65cbcc6647c0ff",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; measurement feasibility and outcome boundaries",
+      "denominator": {"value": 8, "unit": "Early Adopter Hubs assessed for monitoring and evaluation feasibility", "value_type": "pilot_site_frame"},
+      "measures": {
+        "feasible_outputs": {"value": "Aggregate reach, attendance, engagement, referrals, and support delivered were the strongest common evidence base", "unit": "reported feasibility assessment", "value_type": "reported_pattern"},
+        "individual_journey": {"value": "Linked individual-level data tracing a young person's journey across universal, targeted, and specialist support was less feasible", "unit": "reported data limitation", "value_type": "reported_pattern"},
+        "outcome_consistency": {"value": "Outcome data were less consistent than output data; soft outcomes and wellbeing appeared most feasible, especially in targeted provision", "unit": "reported feasibility pattern", "value_type": "reported_pattern"},
+        "linkage_barrier": {"value": "Administrative linkage was not feasible consistently because identifiers, consent arrangements, and data-sharing mechanisms were not in place", "unit": "reported data infrastructure constraint", "value_type": "reported_pattern"}
+      },
+      "method": "Evaluation mapping of hub monitoring systems, indicator definitions, data completeness, comparability, consent, and linkage feasibility.",
+      "uncertainty": "Feasibility findings describe the interim pilot data environment and may change with common indicators, consent processes, data-sharing agreements, and longer implementation.",
+      "subgroup": "Open-access and targeted provision, hub partners, evaluation teams, young people, and data-protection or consent systems.",
+      "counterinterpretation": "Aggregate outputs can still support useful program learning when unique reach, attendances, universal/targeted provision, and outputs/outcomes are kept analytically distinct.",
+      "source_url": "https://www.gov.uk/government/publications/young-futures-hubs-early-adopters-pilot-evaluation-interim-report/young-futures-hubs-early-adopters-pilot-evaluation-interim-report",
+      "retrieval_hash": "sha256:aa2e9cb759b04468349b93a4456b683ceb63778f6a37bd2c4c65cbcc6647c0ff",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; youth voice, co-design, and safer-streets pathway",
+      "denominator": {"value": 8, "unit": "Early Adopter Hub sites with stakeholder and young-person consultation", "value_type": "pilot_site_qualitative_frame"},
+      "measures": {
+        "co_design": {"value": "Young people contributed to service design in some sites, but stakeholders noted that consultation did not always lead decision-making and could remain a sense-check", "unit": "reported co-design tension", "value_type": "reported_pattern"},
+        "time_requirement": {"value": "Meaningful co-design requires time to recruit, engage, and onboard young people before decisions are made", "unit": "reported implementation requirement", "value_type": "reported_pattern"},
+        "safer_streets_route": {"value": "Immediate routes to safer-streets outcomes were more plausibly wellbeing, inclusion, belonging, connection, and skills-building than explicit crime-focused messaging", "unit": "reported theory-of-change pattern", "value_type": "reported_pattern"},
+        "police_normalization": {"value": "In one example, informal contact with local PCSOs was reported to reduce stigma associated with positive relationships with police", "unit": "reported site example", "value_type": "reported_pattern"}
+      },
+      "method": "Qualitative consultation and interim theory-of-change interpretation across hub sites.",
+      "uncertainty": "These are early reported mechanisms and site examples, not verified crime or safety effects; the strength and generalizability of co-design varied across hubs.",
+      "subgroup": "Young people, hub staff, local authorities, police/community safety partners, and young people with different levels of trust and vulnerability.",
+      "counterinterpretation": "A hub can be youth-informed without being youth-led; participation should be assessed by decision rights and visible feedback, not consultation volume alone.",
+      "source_url": "https://www.gov.uk/government/publications/young-futures-hubs-early-adopters-pilot-evaluation-interim-report/young-futures-hubs-early-adopters-pilot-evaluation-interim-report",
+      "retrieval_hash": "sha256:aa2e9cb759b04468349b93a4456b683ceb63778f6a37bd2c4c65cbcc6647c0ff",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/young-futures-hubs-and-transformation-programme-guidance-for-local-authorities/young-futures-hubs-and-transformation-programme-co-creation-guidance-for-local-authorities", "claim": "Related co-creation guidance for local authorities."},
+    {"source_url": "https://www.gov.uk/government/publications/young-futures-hubs-early-adopters-pilot-evaluation-interim-report/young-futures-hubs-early-adopters-pilot-evaluation-interim-report", "claim": "Full interim report with implementation, outcomes, data feasibility, and site examples."}
+  ],
+  "boundary": "This record adds a youth-service infrastructure and evaluation-capacity layer. It covers eight Early Adopter Hubs at an interim implementation stage; it does not establish causal effects on mental health, crime, safer streets, education, employment, or wellbeing, and it cannot treat reach, attendance, qualitative accounts, soft outcomes, and linked individual outcomes as equivalent evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Full interim report reviewed for implementation barriers, trusted relationships, warm handovers, youth co-design, safer-streets pathway, outputs, outcomes, linkage, consent, and data harmonisation limits.",
+    "source_url_sha256": "sha256:aa2e9cb759b04468349b93a4456b683ceb63778f6a37bd2c4c65cbcc6647c0ff",
+    "checked": "2026-09-28"
+  }
+}

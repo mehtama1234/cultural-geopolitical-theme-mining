@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-scp-netherlands-social-cultural-developments-2026-wellbeing-trust-inequality",
+  "title": "High average well-being and social cohesion coexist with unequal participation, mental-health pressure, and a reliability crisis in government",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Sociaal en Cultureel Planbureau, Sociale en Culturele Ontwikkelingen 2026",
+  "geography": "The Netherlands, with European comparisons using European Social Survey round 11 (2023)",
+  "observations": [
+    {
+      "period": "2024-2025; Netherlands quality-of-society overview",
+      "denominator": {"value": 1, "unit": "SCP Netherlands in Beeld aggregate survey and European comparison frame", "value_type": "national_assessment_frame"},
+      "measures": {
+        "life_satisfaction": {"value": 7.7, "unit": "average life-satisfaction score reported by SCP", "value_type": "reported_average"},
+        "paid_work": {"value": 69, "unit": "percent of people with paid work in 2024/2025", "value_type": "reported_share"},
+        "overall_direction": {"value": "average well-being, participation, and social trust are broadly high or stable, while large group differences remain", "unit": "SCP synthesis", "value_type": "reported_synthesis"},
+        "measurement_frame": {"value": "quality of life, social cohesion, and the relationship between citizens and government are assessed together", "unit": "SCP analytical framework", "value_type": "reported_framework"}
+      },
+      "method": "SCP synthesis of the Netherlands in Beeld continuous survey, historical comparisons, European Social Survey round 11 comparisons, and expert interpretation across quality of life, social cohesion, and citizen-government relations.",
+      "uncertainty": "National averages can conceal subgroup, neighborhood, age, income, and education differences; the report is an assessment framework and monitoring publication, not a causal model of well-being.",
+      "subgroup": "Residents grouped by income and educational attainment, younger people and young adults, caregivers, workers, volunteers, and people with different experiences of government.",
+      "counterinterpretation": "High average well-being and participation are real resources; the report identifies distributional and institutional vulnerabilities rather than declaring society to be in generalized decline.",
+      "source_url": "https://www.scp.nl/site/binaries/site-content/collections/documents/2026/02/23/sociale-en-culturele-ontwikkelingen-2026/sociaal-culturele-ontwikkelingen-2026.pdf",
+      "retrieval_hash": "sha256:abb908080ebf94260dfe1ab5561f762d8773a16a8dcafa1cc0bf618030bea180",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; income and education gradients in social trust and life satisfaction",
+      "denominator": {"value": 1, "unit": "SCP subgroup comparison frame from Netherlands in Beeld", "value_type": "subgroup_comparison_frame"},
+      "measures": {
+        "trust_by_income": {"value": "50% of the lowest-income group say other people can be trusted, compared with 60% of the middle-income group and 68% of the highest-income group", "unit": "SCP reported subgroup shares", "value_type": "reported_subgroup_distribution"},
+        "life_satisfaction_by_income": {"value": "life satisfaction is 78% among the lowest-income group, 86% among the middle-income group, and 92% among the highest-income group", "unit": "SCP reported subgroup shares", "value_type": "reported_subgroup_distribution"},
+        "trust_by_education": {"value": "47% of the bo/vmbo education group, 56% of the havo/vwo/mbo group, and 73% of the hbo/wo group say other people can be trusted", "unit": "SCP reported subgroup shares", "value_type": "reported_subgroup_distribution"},
+        "satisfaction_by_education": {"value": "life satisfaction is 82%, 85%, and 91% across those three education groups", "unit": "SCP reported subgroup shares", "value_type": "reported_subgroup_distribution"}
+      },
+      "method": "SCP subgroup comparisons of survey-based social trust and life satisfaction, split by income and educational attainment.",
+      "uncertainty": "These are reported subgroup associations from survey measures; they do not isolate income or education as the sole cause and do not describe every dimension of inequality.",
+      "subgroup": "Lowest, middle, and highest income groups; bo/vmbo, havo/vwo/mbo, and hbo/wo educational groups.",
+      "counterinterpretation": "The gradients coexist with high satisfaction in every group and may reflect multiple linked resources, health, security, networks, and institutional experiences rather than a single deficit.",
+      "source_url": "https://www.scp.nl/site/binaries/site-content/collections/documents/2026/02/23/sociale-en-culturele-ontwikkelingen-2026/sociaal-culturele-ontwikkelingen-2026.pdf",
+      "retrieval_hash": "sha256:abb908080ebf94260dfe1ab5561f762d8773a16a8dcafa1cc0bf618030bea180",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; health, care, participation, and social cohesion",
+      "denominator": {"value": 1, "unit": "SCP quality-of-society monitoring frame", "value_type": "social_resilience_frame"},
+      "measures": {
+        "mental_health_youth": {"value": "66% of participants aged 18-25 are above the threshold for mental-health complaints, compared with 52% among ages 26-65", "unit": "SCP-reported survey comparison", "value_type": "reported_subgroup_difference"},
+        "experienced_health": {"value": 76.6, "unit": "percent reporting their health as good or very good", "value_type": "reported_share"},
+        "healthy_life_years": {"value": "the number of healthy life years has declined in recent years and the Netherlands has fallen in the European ranking over the past two decades", "unit": "SCP synthesis citing national and European indicators", "value_type": "reported_trend"},
+        "cohesion_boundary": {"value": "social cohesion is high in European comparison but differs substantially between groups and neighborhoods", "unit": "SCP assessment", "value_type": "reported_distribution"}
+      },
+      "method": "SCP synthesis of survey-based well-being, mental-health, health-status, care, participation, neighborhood-cohesion, and European comparison indicators.",
+      "uncertainty": "The indicators use different sources and time frames; the threshold measure is not a clinical diagnosis and the report does not establish a single cause of mental-health or healthy-life-year changes.",
+      "subgroup": "Young people and young adults, working-age adults, caregivers, people with different income and education levels, and residents of different neighborhoods.",
+      "counterinterpretation": "Strong cohesion and high self-rated health provide resilience and a platform for targeted support; attention to pressure points need not negate the broader positive baseline.",
+      "source_url": "https://www.scp.nl/site/binaries/site-content/collections/documents/2026/02/23/sociale-en-culturele-ontwikkelingen-2026/sociaal-culturele-ontwikkelingen-2026.pdf",
+      "retrieval_hash": "sha256:abb908080ebf94260dfe1ab5561f762d8773a16a8dcafa1cc0bf618030bea180",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; citizen-government relationship and political trust",
+      "denominator": {"value": 1, "unit": "SCP Netherlands in Beeld and European parliament-trust comparison frame", "value_type": "institutional_trust_frame"},
+      "measures": {
+        "parliament_trust": {"value": 5.2, "unit": "average score out of 10 for trust in the Dutch House of Representatives", "value_type": "reported_average"},
+        "problem_solving_trust": {"value": 4.0, "unit": "average score for confidence that government can solve problems", "value_type": "reported_average"},
+        "institutional_assessment": {"value": "citizens report low political trust, low perceived responsiveness, weak confidence in problem-solving, and concerns about procedural fairness", "unit": "SCP assessment", "value_type": "reported_synthesis"},
+        "legitimacy_boundary": {"value": "government legitimacy is not broadly rejected, but persistent low trust may become a longer-run legitimacy risk", "unit": "SCP interpretation", "value_type": "reported_risk"}
+      },
+      "method": "SCP survey indicators and European comparisons of parliamentary trust, responsiveness, procedural justice, legitimacy, and perceived problem-solving, interpreted alongside longer-run institutional experience.",
+      "uncertainty": "Trust scores are perceptions and do not directly measure institutional performance or predict political behavior; the report identifies a risk pathway rather than a causal forecast.",
+      "subgroup": "Residents across income and education groups, with generally low trust across groups and modest differences between them.",
+      "counterinterpretation": "Critical citizens can still support democratic institutions; low trust may reflect demands for reliability and accountability rather than immediate rejection of government legitimacy.",
+      "source_url": "https://www.scp.nl/site/binaries/site-content/collections/documents/2026/02/23/sociale-en-culturele-ontwikkelingen-2026/sociaal-culturele-ontwikkelingen-2026.pdf",
+      "retrieval_hash": "sha256:abb908080ebf94260dfe1ab5561f762d8773a16a8dcafa1cc0bf618030bea180",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.scp.nl/site/binaries/site-content/collections/documents/2026/02/23/sociale-en-culturele-ontwikkelingen-2026/methodologische-bijlage-sociale-en-culturele-ontwikkelingen-2026.pdf", "claim": "SCP methodological appendix for the Netherlands in Beeld measures and subgroup comparisons."},
+    {"source_url": "https://english.scp.nl/", "claim": "English-language institutional context for the Netherlands Institute for Social Research."}
+  ],
+  "boundary": "This record adds a national public-sector social-condition route across well-being, participation, social trust, mental-health pressure, inequality, and citizen-government reliability. It uses published aggregate and subgroup survey results plus European comparisons, not raw respondent-level data, clinical diagnoses, individual political histories, causal policy evaluation, or a claim that Dutch results generalize to every country.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official SCP publication page and PDF reviewed for the analytical framework, life satisfaction, paid work, income and education gradients, mental-health comparison, health, social cohesion, political trust, and problem-solving indicators.",
+    "source_url_sha256": "sha256:abb908080ebf94260dfe1ab5561f762d8773a16a8dcafa1cc0bf618030bea180",
+    "checked": "2026-09-27"
+  }
+}

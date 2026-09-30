@@ -38,7 +38,7 @@
       "status": "reported"
     },
     {
-      "period": "2026 HHS-OIG recommendation status; page checked 2026-09-21",
+      "period": "2026 HHS-OIG recommendation status; page rechecked 2026-09-29",
       "denominator": {
         "value": 3,
         "unit": "CMS recommendations attached to the SNF prior-authorization review",
@@ -47,11 +47,13 @@
       "measures": {
         "recommendations_open_unimplemented": {"value": 3, "unit": "recommendations marked open and unimplemented", "value_type": "reported_status"},
         "recommendation_update_date": {"value": "2026-12-07", "unit": "expected HHS-OIG recommendation-tracker update date", "value_type": "reported_date"},
+        "recommendation_tracker_status": {"value": "open and unimplemented", "unit": "status of all three CMS recommendations on the official tracker at 2026-09-29 recheck", "value_type": "reported_status"},
+        "report_page_modified": {"value": "2026-06-11", "unit": "official HHS-OIG report-page modified date", "value_type": "reported_date"},
         "cms_explicit_concurrence": {"value": "not stated", "unit": "CMS did not explicitly concur or nonconcur with the three recommendations", "value_type": "reported_status"},
         "follow_through": {"value": "not yet observed", "unit": "no public implementation, corrected denial process, or patient-level care outcome in the report page", "value_type": "unmeasured"}
       },
-      "method": "Follow-up of the official HHS-OIG report page and recommendation tracker status; recommendation issuance, agency stance, implementation status, and expected update are kept separate from actual correction or patient care receipt.",
-      "uncertainty": "The page does not establish whether CMS or MAOs changed review practice after the report, whether denial rates fell, whether contractor oversight changed, or whether any patient experienced faster or more adequate care.",
+      "method": "Follow-up of the official HHS-OIG report page and recommendation tracker status, rechecked 2026-09-29; recommendation issuance, agency stance, implementation status, and expected update are kept separate from actual correction or patient care receipt.",
+      "uncertainty": "At the 2026-09-29 recheck, all three recommendations remained marked open and unimplemented, with an expected tracker update on 2026-12-07. The page does not establish whether CMS or MAOs changed review practice after the report, whether denial rates fell, whether contractor oversight changed, or whether any patient experienced faster or more adequate care.",
       "subgroup": "CMS and Medicare Advantage organizations as institutional actors; affected groups include enrollees, providers, nursing-home residents, and post-acute-care patients.",
       "counterinterpretation": "An open recommendation may reflect a normal implementation timetable rather than inaction; the expected update date is a monitoring point, not proof that correction will occur.",
       "source_url": "https://oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-overturned-nearly-all-appealed-prior-authorization-denials-for-skilled-nursing-facility-admission-raising-concerns-about-initial-denials/",

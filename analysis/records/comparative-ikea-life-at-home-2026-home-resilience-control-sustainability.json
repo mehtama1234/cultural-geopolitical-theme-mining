@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ikea-life-at-home-2026-home-resilience-control-sustainability",
+  "title": "Home is becoming resilience infrastructure: people seek security, comfort, and control as outside uncertainty enters everyday life",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Ingka Group/IKEA, Life at Home Report 2026",
+  "geography": "Global; adults in 31 countries for the Life at Home quantitative study, with qualitative work in India, Spain, and the United States",
+  "observations": [
+    {
+      "period": "July 2025 survey fieldwork, published September 7, 2026; home and future outlook",
+      "denominator": {"value": 31689, "unit": "adults 18+ across 31 countries; each country equally weighted in global results", "value_type": "reported_survey_sample"},
+      "measures": {
+        "happy_home_future_optimism": {"value": 65, "unit": "percent of people happy with life at home who are positive about the future, versus 48% global average", "value_type": "published_survey_estimate"},
+        "home_as_resilience": {"value": "Home is increasingly treated as a place of security, control, comfort, and future preparation when life outside feels unpredictable.", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "household_externality": {"value": "Climate change, economic pressure, health concerns, and technological shifts are experienced through home routines, resources, and emotional conditions rather than as distant abstractions.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "YouGov online survey conducted in July 2025 among nationally representative adults 18+ in 31 countries, weighted by gender, age, and geography; qualitative home ethnographies and digital immersions supplement the quantitative study.",
+      "uncertainty": "The report is commissioned by a retailer and uses online panels; the association between home happiness and future optimism is descriptive and not causal.",
+      "subgroup": "Adults across 31 countries, with qualitative home ethnographies in India, Spain, and the United States.",
+      "counterinterpretation": "People who are more optimistic may also be more likely to report satisfaction with home; home conditions may be a proxy for income, health, family support, or security.",
+      "source_url": "https://www.ingka.com/newsroom/new-ikea-life-at-home-report-2026-reveals-a-world-in-flux-but-home-remains-the-foundation-for-resilience/",
+      "retrieval_hash": "sha256:d3af6392a95c6d175720f71f7d0246582bd22bb1d3ef87c82ca51648fb9848ca",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025 survey fieldwork, published September 7, 2026; home needs versus lived experience",
+      "denominator": {"value": 31689, "unit": "adults 18+ across 31 countries; global country-equal weighting", "value_type": "reported_survey_sample"},
+      "measures": {
+        "security_important": {"value": 82, "unit": "percent saying security is important at home", "value_type": "published_survey_estimate"},
+        "security_experienced": {"value": 68, "unit": "percent regularly experiencing security at home", "value_type": "published_survey_estimate"},
+        "comfort_important": {"value": 86, "unit": "percent saying comfort is important at home", "value_type": "published_survey_estimate"},
+        "comfort_experienced": {"value": 66, "unit": "percent regularly experiencing comfort at home", "value_type": "published_survey_estimate"},
+        "control_important": {"value": 74, "unit": "percent saying control is important at home", "value_type": "published_survey_estimate"},
+        "control_experienced": {"value": 59, "unit": "percent regularly experiencing control at home", "value_type": "published_survey_estimate"},
+        "home_option_gap": {"value": "The gap between desired and experienced security, comfort, and control makes home a material option-set problem, not merely a décor or lifestyle preference.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional global survey measures comparing the importance of emotional home needs with reported frequency of experiencing them.",
+      "uncertainty": "The measures are subjective and do not identify which housing, financial, health, relational, or neighborhood conditions produce the gaps.",
+      "subgroup": "Adults across 31 countries; country-level and qualitative context are reported separately.",
+      "counterinterpretation": "Importance-experience gaps may reflect aspirational standards or cultural differences in interpreting security, comfort, and control.",
+      "source_url": "https://www.ingka.com/newsroom/new-ikea-life-at-home-report-2026-reveals-a-world-in-flux-but-home-remains-the-foundation-for-resilience/",
+      "retrieval_hash": "sha256:d3af6392a95c6d175720f71f7d0246582bd22bb1d3ef87c82ca51648fb9848ca",
+      "status": "reported"
+    },
+    {
+      "period": "July 2025 survey fieldwork, published September 7, 2026; climate action and household motives",
+      "denominator": {"value": 30701, "unit": "participants across 30 countries in the People & Planet consumer-insights sample; country-equal weighting", "value_type": "reported_survey_sample"},
+      "measures": {
+        "already_taking_climate_action": {"value": 83, "unit": "percent saying they are already taking climate action", "value_type": "published_survey_estimate"},
+        "willing_to_do_more": {"value": 81, "unit": "percent willing to do more for climate action", "value_type": "published_survey_estimate"},
+        "saving_money_motivator": {"value": 54, "unit": "percent saying saving money would motivate more sustainable changes", "value_type": "published_survey_estimate"},
+        "health_benefit_motivator": {"value": 41, "unit": "percent saying health benefits would motivate more sustainable changes", "value_type": "published_survey_estimate"},
+        "ideal_home_sustainability": {"value": 21, "unit": "percent saying their ideal home would help them live sustainably", "value_type": "published_survey_estimate"},
+        "household_conversion": {"value": "Climate action becomes more reachable when translated into household savings, health, comfort, repair, reuse, and control rather than framed only as sacrifice or moral duty.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "GlobeScan online consumer research across 30 countries, approximately 1,000 respondents per market; fieldwork March 10-April 22, 2025; samples designed to be nationally representative through online panels.",
+      "uncertainty": "Stated climate action and willingness do not establish observed behavior, emissions reduction, or the affordability of sustainable choices; China and India samples have documented online-access and urban/education composition caveats.",
+      "subgroup": "Consumers across 30 countries, with country and trend comparisons reported by the source.",
+      "counterinterpretation": "Household savings and health motives may increase sustainable behavior in some domains while leaving high-cost or infrastructure-dependent choices unchanged.",
+      "source_url": "https://www.ingka.com/newsroom/new-ikea-life-at-home-report-2026-reveals-a-world-in-flux-but-home-remains-the-foundation-for-resilience/",
+      "retrieval_hash": "sha256:d3af6392a95c6d175720f71f7d0246582bd22bb1d3ef87c82ca51648fb9848ca",
+      "status": "reported"
+    },
+    {
+      "period": "2025 qualitative research, published September 7, 2026; home ethnographies and digital immersions",
+      "denominator": {"value": 60, "unit": "24 home ethnographies and 36 digital immersions across India, Spain, and the United States", "value_type": "qualitative_participant_count"},
+      "measures": {
+        "qualitative_home_meaning": {"value": "Home is described as an active emotional and practical infrastructure for navigating uncertainty, with routines, storage, repair, donation, and household organization used to regain agency.", "unit": "reported qualitative finding", "value_type": "qualitative_finding"},
+        "control_practices": {"value": "People seek control through everyday changes to space and consumption, including repairing, donating, rethinking routines, and changing storage.", "unit": "reported qualitative finding", "value_type": "qualitative_finding"},
+        "agency_through_routine": {"value": "Small household practices can function as agency-restoration strategies when larger economic, climate, or technological conditions feel difficult to control.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative home ethnographies and digital immersions in India, Spain, and the United States, integrated with the global quantitative report.",
+      "uncertainty": "The qualitative sample is small and purposive; it illustrates meanings and practices rather than estimating prevalence or causal impact.",
+      "subgroup": "Participants in India, Spain, and the United States qualitative work.",
+      "counterinterpretation": "Reported household practices may reflect brand-relevant self-presentation or ordinary domestic maintenance rather than generalized resilience behavior.",
+      "source_url": "https://www.ingka.com/newsroom/new-ikea-life-at-home-report-2026-reveals-a-world-in-flux-but-home-remains-the-foundation-for-resilience/",
+      "retrieval_hash": "sha256:d3af6392a95c6d175720f71f7d0246582bd22bb1d3ef87c82ca51648fb9848ca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ingka.com/newsroom/new-ikea-life-at-home-report-2026-reveals-a-world-in-flux-but-home-remains-the-foundation-for-resilience/", "claim": "Official Ingka Group publication page containing global findings, sample, fieldwork dates, qualitative design, and methodological boundaries.", "status": "official-publication-page"},
+    {"source_url": "https://www.ikea.com/", "claim": "The publisher links the IKEA Life at Home Report 2026 as the underlying report resource.", "status": "linked-report-resource"}
+  ],
+  "boundary": "This record adds a cultural-consumer home-resilience route: external uncertainty is managed through the household as a space of security, comfort, control, future optimism, and sustainability practice. It does not establish that home happiness causes optimism, that reported climate action changes emissions, or that IKEA interventions close the security/comfort/control gap. The source is retailer-commissioned mixed-method consumer research based largely on 2025 fieldwork and online panels.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ingka Group publication page was reviewed for report date, quantitative samples, country weighting, fieldwork dates, home-need gaps, climate-action motives, qualitative design, and source limitations.",
+    "source_page_sha256": "sha256:d3af6392a95c6d175720f71f7d0246582bd22bb1d3ef87c82ca51648fb9848ca",
+    "checked": "2026-09-28"
+  }
+}

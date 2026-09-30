@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-latino-identity-2026-belonging-discrimination-generation-politics",
+  "title": "Latino identity remains a source of belonging and linked fate while also being experienced as a barrier, with meaning shifting across generations",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center, U.S. Hispanics Are Divided on Whether Their Identity Helps or Hurts Them in America",
+  "geography": "United States; Hispanic/Latino adults by nativity, immigrant generation, language and political affiliation",
+  "observations": [
+    {
+      "period": "October 6-16, 2025 survey; identity importance and perceived effect on getting ahead",
+      "denominator": {"value": 4923, "unit": "U.S. Latino adults in Pew National Survey of Latinos", "value_type": "survey_respondents"},
+      "measures": {
+        "identity_importance": {"value": 61, "unit": "per cent saying being Hispanic is extremely or very important to how they think about themselves", "value_type": "published_survey_estimate"},
+        "identity_helps": {"value": 26, "unit": "per cent saying being Hispanic helps their ability to get ahead in America a lot or a little", "value_type": "published_survey_estimate"},
+        "identity_hurts": {"value": 33, "unit": "per cent saying being Hispanic hurts their ability to get ahead a lot or a little", "value_type": "published_survey_estimate"},
+        "identity_neither": {"value": 40, "unit": "per cent saying being Hispanic neither helps nor hurts their ability to get ahead", "value_type": "published_survey_estimate"},
+        "identity_meaning_split": {"value": "Identity can be central to self-understanding while being interpreted as a source of connection or discrimination and reduced opportunity.", "unit": "reported interpretation", "value_type": "published_interpretation"}
+      },
+      "method": "Nationally representative bilingual survey conducted online and by live telephone interview, recruited through national random address sampling and weighted to U.S. adult population benchmarks.",
+      "uncertainty": "Perceptions of identity’s effect on advancement do not measure labor-market discrimination, institutional treatment or actual mobility; responses may vary with political context and question framing.",
+      "subgroup": "U.S. Hispanic adults by identity importance, nativity, immigrant generation, political affiliation and experiences of advantage or exclusion.",
+      "counterinterpretation": "The gap between identity importance and perceived advantage may reflect a distinction between cultural belonging and access to institutions, not a rejection of identity.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/07/RE_2026.07.09_National-Survey-of-Latinos_REPORT.pdf",
+      "retrieval_hash": "sha256:67b117e9911df61f78eda942979c6f041d5690f350ed1e177a17dda37f73311c",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; reported identity-related discrimination and support",
+      "denominator": {"value": 4923, "unit": "U.S. Latino adults; Spanish-speaking question restricted where noted", "value_type": "survey_respondents"},
+      "measures": {
+        "identity_discrimination": {"value": 34, "unit": "per cent personally experiencing discrimination or unfair treatment by someone who is not Hispanic because of Hispanic background in prior 12 months", "value_type": "published_survey_estimate"},
+        "spanish_criticism": {"value": 29, "unit": "per cent of relevant respondents criticized for speaking Spanish in public", "value_type": "published_survey_estimate"},
+        "go_back_remark": {"value": 26, "unit": "per cent reporting being told to go back to their home country", "value_type": "published_survey_estimate"},
+        "offensive_names": {"value": 25, "unit": "per cent reporting offensive names because they are Hispanic", "value_type": "published_survey_estimate"},
+        "identity_support": {"value": 34, "unit": "per cent saying someone expressed support for them because they are Hispanic", "value_type": "published_survey_estimate"}
+      },
+      "method": "Survey battery on identity-related experiences in the previous year, with separate wording and denominator for speaking-Spanish question.",
+      "uncertainty": "The battery is not exhaustive; self-reported incidents do not identify perpetrators, institutional remedies, frequency or effects on employment, health or political participation.",
+      "subgroup": "Hispanic adults, including Spanish speakers and respondents reporting discrimination, hostility or identity-based support.",
+      "counterinterpretation": "The coexistence of support and discrimination points to an uneven social environment rather than one uniformly hostile or welcoming experience.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/latino-immigrants-and-u-s-born-latinos-differ-on-how-much-their-identity-shapes-their-lives/",
+      "retrieval_hash": "sha256:67b117e9911df61f78eda942979c6f041d5690f350ed1e177a17dda37f73311c",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; identity importance and self-labels across immigrant generations",
+      "denominator": {"value": 4923, "unit": "U.S. Hispanic adults, including immigrants, second-generation and third-or-higher-generation adults", "value_type": "survey_respondents"},
+      "measures": {
+        "identity_importance_immigrants": {"value": 71, "unit": "per cent of Hispanic immigrants saying being Latino is extremely or very important to identity", "value_type": "published_subgroup_comparison"},
+        "identity_importance_second_generation": {"value": 57, "unit": "per cent among second-generation Hispanics", "value_type": "published_subgroup_comparison"},
+        "identity_importance_third_generation": {"value": 51, "unit": "per cent among third-or-higher-generation Hispanics", "value_type": "published_subgroup_comparison"},
+        "american_only_label": {"value": "5% of immigrants, 22% of second-generation and 40% of third-or-higher-generation Hispanics most often refer to themselves as American alone.", "unit": "self-identification pattern", "value_type": "published_subgroup_comparison"},
+        "heritage_label": {"value": "67% of immigrants, 49% of second-generation and 34% of third-or-higher-generation Hispanics most often use labels including country of origin or heritage.", "unit": "self-identification pattern", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Weighted survey comparison of identity importance, heritage and national self-labels across nativity and immigrant generations.",
+      "uncertainty": "Generational comparisons are cross-sectional and do not track the same families over time; age, cohort, language, place and changing racial categories may contribute to differences.",
+      "subgroup": "Hispanic immigrants, second-generation Hispanics and third-or-higher-generation Hispanics.",
+      "counterinterpretation": "Greater use of ‘American’ does not necessarily mean loss of Latino belonging; people may hold national, pan-ethnic and origin identities simultaneously.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/latino-immigrants-and-u-s-born-latinos-differ-on-how-much-their-identity-shapes-their-lives/",
+      "retrieval_hash": "sha256:67b117e9911df61f78eda942979c6f041d5690f350ed1e177a17dda37f73311c",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; linked fate, immigrant connection and collective responsibility",
+      "denominator": {"value": 4923, "unit": "U.S. Hispanic adults in Pew National Survey of Latinos", "value_type": "survey_respondents"},
+      "measures": {
+        "linked_to_other_hispanics": {"value": "65% of immigrants, 67% of second-generation and 55% of third-or-higher-generation Hispanics say what happens to other Hispanics affects their own lives a great deal or fair amount.", "unit": "perceived linked-fate pattern", "value_type": "published_subgroup_comparison"},
+        "immigrant_legal_link": {"value": 57, "unit": "per cent of Hispanic immigrants saying what happens to Latino immigrants living legally in the country affects their lives a great deal or fair amount", "value_type": "published_subgroup_comparison"},
+        "immigrant_unauthorized_link": {"value": 64, "unit": "per cent of Hispanic immigrants saying what happens to Latino immigrants living illegally affects their lives a great deal or fair amount", "value_type": "published_subgroup_comparison"},
+        "look_out_responsibility": {"value": "38% of immigrants and second-generation Hispanics and 29% of third-or-higher-generation Hispanics say they feel a responsibility to look out for other Hispanics extremely or very often.", "unit": "reported collective-responsibility pattern", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Survey measures of perceived connection to other Hispanics, immigrant groups and collective responsibility across immigrant generations.",
+      "uncertainty": "Perceived linked fate is not observed mutual aid, political mobilization or resource transfer; the wording distinguishes connection from responsibility and action.",
+      "subgroup": "Hispanic immigrants, U.S.-born second-generation and third-or-higher-generation adults, and views of legal and unauthorized immigrants.",
+      "counterinterpretation": "People can perceive common exposure or linked outcomes without adopting a pan-ethnic identity or engaging in collective action; low reported responsibility does not imply indifference.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/latino-immigrants-and-u-s-born-latinos-differ-on-how-much-their-identity-shapes-their-lives/",
+      "retrieval_hash": "sha256:67b117e9911df61f78eda942979c6f041d5690f350ed1e177a17dda37f73311c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/latino-immigrants-and-u-s-born-latinos-differ-on-how-much-their-identity-shapes-their-lives/", "claim": "Official Pew identity report page with generational, linked-fate and self-label findings."},
+    {"source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/", "claim": "Related Pew American Dream source connecting identity to household security and intergenerational mobility."}
+  ],
+  "boundary": "This record adds an identity-and-belonging layer: Latino identity can be central to self-understanding and linked fate while also being experienced as discrimination or a barrier to advancement; meanings shift across immigrant generations without implying a simple assimilation or disappearance of belonging. It is representative survey evidence, not an administrative discrimination census, longitudinal identity trajectory, causal political behavior study or measure of actual mobility.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew report PDF and identity pages were reviewed for survey scope, identity importance, advantage and disadvantage, discrimination experiences, language, generational labels, linked fate and collective responsibility boundaries.",
+    "source_url_sha256": "sha256:67b117e9911df61f78eda942979c6f041d5690f350ed1e177a17dda37f73311c",
+    "checked": "2026-09-27"
+  }
+}

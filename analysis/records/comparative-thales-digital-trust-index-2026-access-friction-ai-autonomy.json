@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy",
+  "title": "Digital trust is experienced at the point of access: identity friction, understandable data practices, and AI autonomy shape abandonment and confidence",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Thales Digital Trust Index 2026, conducted by Vanson Bourne",
+  "geography": "Consumers, partner users, and IT decision makers across the USA, Canada, Mexico, Brazil, UK, France, Germany, Netherlands, UAE, South Africa, Singapore, Japan, and Australia; fieldwork January–February 2026",
+  "observations": [
+    {
+      "period": "2026; consumer digital access and authentication",
+      "denominator": {"value": 14300, "unit": "consumer respondents", "value_type": "reported_consumer_sample"},
+      "measures": {
+        "access_problem": {"value": 57, "unit": "percent reporting a website-access problem in the prior year", "value_type": "reported_share"},
+        "abandonment_switching": {"value": 68, "unit": "percent abandoning or switching providers because of slow performance or complicated sign-up", "value_type": "reported_share"},
+        "alternative_route": {"value": 36, "unit": "percent delaying engagement or seeking alternative channels", "value_type": "reported_share"},
+        "trust_conversion": {"value": "access friction becomes a trust, time, and commercial-loss event rather than only a technical usability defect", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Vanson Bourne survey of consumers across 13 countries, as reported by Thales; the source distinguishes access problems, abandonment, switching, delay, and alternative-channel behavior.",
+      "uncertainty": "The results are sponsor-commissioned self-reports and do not establish causal effects of any single interface, provider, authentication method, or outage on actual revenue or access equity.",
+      "subgroup": "Consumers using websites and digital services across banking, government, healthcare, insurance, education, retail, media, entertainment, logistics, and automotive sectors.",
+      "counterinterpretation": "Some users may switch or delay for reasons unrelated to authentication or performance, and stronger security can itself create justified friction rather than avoidable burden.",
+      "source_url": "https://cpl.thalesgroup.com/about-us/newsroom/digital-trust-index-2026-ai-skepticism-identity-access-friction",
+      "retrieval_hash": "sha256:7597020c530c9f8a6c2b5d007c558980f2da8037852a9893ca92ce979bbca1ed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; security usability and data comprehension",
+      "denominator": {"value": 14300, "unit": "consumer respondents", "value_type": "reported_consumer_sample"},
+      "measures": {
+        "stronger_security_preference": {"value": 45, "unit": "percent preferring stronger security checks even if sign-up takes longer", "value_type": "reported_share"},
+        "lighter_protection_preference": {"value": 22, "unit": "percent favoring faster access with lighter protections", "value_type": "reported_share"},
+        "mfa_trust": {"value": 69, "unit": "percent saying multifactor authentication increases trust", "value_type": "reported_share"},
+        "passkey_trust": {"value": 68, "unit": "percent saying passkeys increase trust", "value_type": "reported_share"},
+        "data_comprehension": {"value": 16, "unit": "percent clearly understanding how companies collect and use personal data", "value_type": "reported_share"}
+      },
+      "method": "Cross-national consumer survey measuring stated preferences and trust associations around security checks, multifactor authentication, passkeys, and data practices.",
+      "uncertainty": "Reported preference is not observed behavior; trust associations may vary by sector, prior fraud exposure, technical literacy, age, accessibility, and perceived necessity of the service.",
+      "subgroup": "Consumers with different security expectations, privacy knowledge, digital skills, accessibility needs, and experiences of account compromise or service failure.",
+      "counterinterpretation": "A preference for stronger checks does not mean consumers accept every identity requirement; opaque or inaccessible controls may still reduce autonomy and participation.",
+      "source_url": "https://cpl.thalesgroup.com/about-us/newsroom/digital-trust-index-2026-ai-skepticism-identity-access-friction",
+      "retrieval_hash": "sha256:7597020c530c9f8a6c2b5d007c558980f2da8037852a9893ca92ce979bbca1ed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI adoption and autonomous action",
+      "denominator": {"value": 200, "unit": "IT decision makers", "value_type": "reported_it_sample"},
+      "measures": {
+        "organizational_ai_use": {"value": 93, "unit": "percent of IT leaders using, deploying, or planning generative-AI initiatives", "value_type": "reported_share"},
+        "responsible_data_trust": {"value": 23, "unit": "percent of consumers trusting companies to use AI responsibly with their data", "value_type": "reported_share"},
+        "agent_concern": {"value": 77, "unit": "percent of consumers concerned about AI agents acting on their behalf online", "value_type": "reported_share"},
+        "autonomy_gap": {"value": "organizational AI adoption is moving faster than consumer confidence in delegated, data-handling, or autonomous activity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Separate reported samples of consumers and IT decision makers in a multi-country digital-trust survey, preserving the distinction between organizational deployment and consumer confidence.",
+      "uncertainty": "The samples have different sizes and roles; the comparison is a descriptive adoption–trust gap, not a causal estimate or a representative measure of all AI deployments.",
+      "subgroup": "Consumers, IT decision makers, users of AI-enabled services, people delegating online tasks, and organizations responsible for data handling and access control.",
+      "counterinterpretation": "Concern about autonomous agents may coexist with useful adoption of assistive AI; the boundary may be task-specific rather than a general rejection of AI.",
+      "source_url": "https://cpl.thalesgroup.com/about-us/newsroom/digital-trust-index-2026-ai-skepticism-identity-access-friction",
+      "retrieval_hash": "sha256:7597020c530c9f8a6c2b5d007c558980f2da8037852a9893ca92ce979bbca1ed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; sectoral digital-trust hierarchy",
+      "denominator": {"value": 14300, "unit": "consumer respondents", "value_type": "reported_consumer_sample"},
+      "measures": {
+        "banking": {"value": 57, "unit": "percent expressing online trust in banking", "value_type": "reported_sector_share"},
+        "government_services": {"value": 40, "unit": "percent expressing online trust in government services", "value_type": "reported_sector_share"},
+        "healthcare": {"value": 35, "unit": "percent expressing online trust in healthcare", "value_type": "reported_sector_share"},
+        "news_media": {"value": 5, "unit": "percent expressing online trust in news media", "value_type": "reported_sector_share"},
+        "essentiality_route": {"value": "online trust is higher in sectors associated with sensitive data and essential services, while media, platform, and entertainment sectors face deeper confidence deficits", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Reported sector-level consumer confidence comparisons from the Thales Digital Trust Index 2026.",
+      "uncertainty": "Sector scores are perception measures and may reflect necessity, familiarity, regulation, recent incidents, or question wording; they do not establish actual data security or institutional reliability.",
+      "subgroup": "Consumers interacting with essential-service providers, public services, financial institutions, health systems, media, social platforms, and entertainment providers.",
+      "counterinterpretation": "High trust in an essential sector may reflect lack of alternatives or dependence rather than informed confidence, while low media trust does not by itself show low usage or low influence.",
+      "source_url": "https://cpl.thalesgroup.com/about-us/newsroom/digital-trust-index-2026-ai-skepticism-identity-access-friction",
+      "retrieval_hash": "sha256:7597020c530c9f8a6c2b5d007c558980f2da8037852a9893ca92ce979bbca1ed",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cpl.thalesgroup.com/sites/default/files/content/campaigns/trust-index/2026-thales-digital-trust-index.pdf", "claim": "Thales 2026 Digital Trust Index report download route."},
+    {"source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption", "claim": "Complementary global citizen evidence on public-service AI adoption, human oversight, appeals, and reporting."}
+  ],
+  "boundary": "This record adds a digital-trust and access-friction route across authentication, data comprehension, AI deployment, autonomous agents, sectoral confidence, abandonment, delay, switching, credential risk, and public-service dependence. It uses Thales’s sponsor-commissioned Vanson Bourne survey summary, not observed login telemetry, verified breaches, provider revenue, causal adoption estimates, individual longitudinal histories, or proof that trust ratings equal actual safety.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Thales publication page reviewed for the 2026 sample composition, fieldwork dates, access-friction measures, authentication preferences, AI adoption and concern measures, sectoral trust shares, and methodological boundary.",
+    "source_url_sha256": "sha256:7597020c530c9f8a6c2b5d007c558980f2da8037852a9893ca92ce979bbca1ed",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-global-annual-results-2025-goal-area-5-child-poverty-social-protection",
+  "title": "Child poverty policy is shifting toward integrated social protection systems that combine cash, public budgets, care, inclusion and crisis response",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNICEF, Global Annual Results Report 2025: Goal Area 5",
+  "geography": "Global UNICEF programme results across reporting countries and crisis-affected settings",
+  "observations": [
+    {
+      "period": "2025; UNICEF-supported child and household cash assistance",
+      "denominator": {"value": 87, "unit": "reporting countries with UNICEF-supported cash-transfer results", "value_type": "reporting_country_frame"},
+      "measures": {
+        "children_reached": {"value": 137000000, "unit": "children reached through cash transfers supported by UNICEF", "value_type": "reported_count"},
+        "households_reached": {"value": 70000000, "unit": "households reached through UNICEF-supported cash transfers", "value_type": "reported_count"},
+        "crisis_cash_assistance": {"value": 559000000, "unit": "US dollars in cash assistance delivered in fragile and humanitarian settings", "value_type": "reported_amount"},
+        "humanitarian_cash_transfers": {"value": 322000000, "unit": "US dollars in humanitarian cash transfers", "value_type": "reported_amount"}
+      },
+      "method": "UNICEF annual programme results aggregation for social protection and child-poverty work in 2025.",
+      "uncertainty": "These are programme-reach and financing results, not estimates of global child-poverty prevalence or causal effects on household welfare; reporting coverage and programme definitions vary by country.",
+      "subgroup": "Children and households receiving cash support, including families affected by conflict, displacement and recurrent shocks.",
+      "counterinterpretation": "Cash assistance can stabilize consumption and access to services, but adequacy, duration, targeting, payment reliability and links to broader services determine whether it changes longer-run poverty trajectories.",
+      "source_url": "https://www.unicef.org/reports/global-annual-results-2025-goal-area-5",
+      "retrieval_hash": "sha256:4bf458fbea63abfe6934c215fd820deca0ac56419442014769dbdb11ca620e68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; national social-protection and public-finance system strengthening",
+      "denominator": {"value": 155, "unit": "countries in which UNICEF worked on Goal Area 5 in 2025", "value_type": "programme_country_frame"},
+      "measures": {
+        "social_sector_budgets": {"value": 93, "unit": "countries that strengthened social-sector budgets with UNICEF support", "value_type": "reported_country_count"},
+        "international_or_private_financing": {"value": 98, "unit": "countries that mobilized international or private financing for social services", "value_type": "reported_country_count"},
+        "social_protection_system_components": {"value": "social policies, social registries, payment systems, case management and links to essential services", "unit": "integrated system components emphasized by UNICEF", "value_type": "reported_policy_route_set"}
+      },
+      "method": "UNICEF reporting on policy, budget, financing and delivery-system improvements under Goal Area 5.",
+      "uncertainty": "Country counts show where support or reported improvement occurred, not the magnitude, durability or independent effectiveness of each reform.",
+      "subgroup": "National governments, social-protection agencies, local administrations, children, caregivers and service providers.",
+      "counterinterpretation": "System strengthening can remain fragmented when registries, payment rails, case management and essential services are not interoperable or when fiscal pressure limits benefit adequacy.",
+      "source_url": "https://www.unicef.org/reports/global-annual-results-2025-goal-area-5",
+      "retrieval_hash": "sha256:4bf458fbea63abfe6934c215fd820deca0ac56419442014769dbdb11ca620e68",
+      "status": "reported"
+    },
+    {
+      "period": "2025; inclusion, care and shock-responsiveness in social protection",
+      "denominator": {"value": 155, "unit": "countries in which UNICEF worked on Goal Area 5 in 2025", "value_type": "programme_country_frame"},
+      "measures": {
+        "gender_responsive_systems": {"value": 69, "unit": "countries that strengthened gender-responsive social protection", "value_type": "reported_country_count"},
+        "disability_inclusive_systems": {"value": 80, "unit": "countries that strengthened disability-inclusive social protection", "value_type": "reported_country_count"},
+        "care_and_family_policy": {"value": 89, "unit": "countries that expanded access to care and family-friendly policies, including subsidized childcare and paid parental leave", "value_type": "reported_country_count"},
+        "shock_responsiveness": {"value": "conflict, displacement and recurrent shocks were explicit design priorities", "unit": "reported programme orientation", "value_type": "reported_interpretation"}
+      },
+      "method": "UNICEF programme results and policy priorities for inclusive, gender-responsive and shock-responsive social protection.",
+      "uncertainty": "Country counts do not indicate population coverage, benefit adequacy or whether reforms have changed gendered care burdens or disability access in practice.",
+      "subgroup": "Girls and women, children with disabilities, caregivers, displaced families and households exposed to conflict or repeated shocks.",
+      "counterinterpretation": "Formal inclusion commitments can coexist with inaccessible services, unpaid-care overload, stigma, weak local capacity and exclusion from digital or administrative systems.",
+      "source_url": "https://www.unicef.org/reports/global-annual-results-2025-goal-area-5",
+      "retrieval_hash": "sha256:4bf458fbea63abfe6934c215fd820deca0ac56419442014769dbdb11ca620e68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/reports/unicef-annual-report/2025", "claim": "UNICEF Annual Report 2025 places Goal Area 5 within the wider results and crisis-response programme."},
+    {"source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025", "claim": "UNICEF child-poverty flagship context on monetary poverty, multidimensional deprivation, climate shocks and conflict."}
+  ],
+  "boundary": "This record adds an institutional trend: child-poverty response is being organized as integrated social infrastructure linking cash, budgets, registries, payment systems, care, disability inclusion and crisis response. It is a UNICEF programme-results report, not a household panel, prevalence estimate, impact evaluation or respondent-level dataset.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNICEF Goal Area 5 report page was retrieved and reviewed for 2025 cash-transfer reach, humanitarian assistance, public-finance and system-strengthening results, and inclusion and care-policy country counts.",
+    "source_url_sha256": "sha256:4bf458fbea63abfe6934c215fd820deca0ac56419442014769dbdb11ca620e68",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-edelman-trust-barometer-2026-insularity-income-optimism-difference",
+  "title": "Trust is retreating toward familiar circles as economic anxiety, geopolitical tension, and technological disruption widen social distance",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Edelman Trust Institute, 2026 Edelman Trust Barometer",
+  "geography": "Published global trust survey covering 28 countries, with cross-country and socioeconomic comparisons",
+  "observations": [
+    {
+      "period": "2026; intergroup trust and social insularity",
+      "denominator": {"value": 33938, "unit": "online survey respondents across 28 countries in the published Trust Barometer research frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "insular_mindset": {"value": 70, "unit": "percent unwilling or hesitant to trust someone with different values, facts, problem-solving approaches, or cultural background", "value_type": "reported_share"},
+        "insularity_pattern": {"value": "people are narrowing trust toward smaller, familiar circles amid economic anxiety, geopolitical tension, and technological disruption", "unit": "Edelman report synthesis", "value_type": "reported_mechanism"},
+        "social_consequence": {"value": "insularity can hinder economic and societal progress by making difference an obstacle to collaboration", "unit": "Edelman report framing", "value_type": "reported_mechanism"}
+      },
+      "method": "Edelman Trust Institute online interviews conducted October 25-November 16, 2025, summarized at global and country levels.",
+      "uncertainty": "This is a private survey's published aggregate result, not a probability-sample estimate of every population; question wording, fieldwork, weighting, and cultural interpretation matter.",
+      "subgroup": "People across 28 countries, socioeconomic groups, cultural backgrounds, institutions, employers, media users, and communities experiencing polarization.",
+      "counterinterpretation": "Familiar networks can provide safety, solidarity, and practical trust during shocks; skepticism toward difference may reflect perceived institutional failure rather than simple intolerance.",
+      "source_url": "https://www.edelman.com/trust/2026/trust-barometer",
+      "retrieval_hash": "sha256:1d8652bcccfdd20b0d27cf8cdf282220921b162c4019d893b230268a20a564b4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; intergenerational optimism and economic security",
+      "denominator": {"value": 1, "unit": "global survey comparison of expectations for the next generation", "value_type": "future_optimism_frame"},
+      "measures": {
+        "next_generation_better_off": {"value": 32, "unit": "percent who believe the next generation will be better off", "value_type": "reported_share"},
+        "largest_declines": {"value": "India and China each recorded a 13-point decline over the prior year in the published comparison", "unit": "reported change", "value_type": "reported_change"},
+        "optimism_channel": {"value": "economic anxiety, technology disruption, and geopolitical tension shape expectations about social mobility and collective progress", "unit": "Edelman report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Edelman global survey comparison of expectations across countries and over time.",
+      "uncertainty": "Optimism is an attitudinal indicator and does not measure actual intergenerational mobility, income, employment, or public-service outcomes.",
+      "subgroup": "Young people, parents, workers, low-income households, emerging economies, and people judging institutional and economic trajectories.",
+      "counterinterpretation": "Low optimism can coexist with local agency, cultural vitality, or high expectations for reform; survey sentiment can shift faster than structural conditions.",
+      "source_url": "https://www.edelman.com/trust/2026/trust-barometer",
+      "retrieval_hash": "sha256:1d8652bcccfdd20b0d27cf8cdf282220921b162c4019d893b230268a20a564b4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social-media trust brokering and commercial credibility",
+      "denominator": {"value": 1, "unit": "published comparison among people who trust at least one relevant social-media influencer", "value_type": "influencer_trust_frame"},
+      "measures": {
+        "food_lifestyle_influencer": {"value": 62, "unit": "percent among the 48 percent who trust a food or lifestyle influencer who would consider or trust a company vouched for by that influencer", "value_type": "conditional_reported_share"},
+        "financial_influencer": {"value": 57, "unit": "percent among the 44 percent who trust a financial influencer who would consider or trust a company vouched for by that influencer", "value_type": "conditional_reported_share"},
+        "trust_channel": {"value": "trusted intermediaries can open closed doors between people and institutions or brands they currently distrust", "unit": "Edelman report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Edelman published aggregate cross-tabulation of influencer trust and willingness to trust a vouched-for company.",
+      "uncertainty": "These are conditional associations, not causal endorsement effects, purchase outcomes, or evidence that influencers are reliable brokers of public information.",
+      "subgroup": "Social-media users, consumers, influencers, brands, financial-service users, and people with low trust in formal institutions.",
+      "counterinterpretation": "Trusted intermediaries can help translate unfamiliar institutions, but sponsorship, commercial incentives, misinformation, and personalization can also deepen manipulation or fragmentation.",
+      "source_url": "https://www.edelman.com/trust/2026/trust-barometer",
+      "retrieval_hash": "sha256:1d8652bcccfdd20b0d27cf8cdf282220921b162c4019d893b230268a20a564b4",
+      "status": "reported"
+    },
+    {
+      "period": "2012-2026; class-based trust divergence",
+      "denominator": {"value": 1, "unit": "global high-income and low-income trust comparison over time", "value_type": "trust_inequality_frame"},
+      "measures": {
+        "income_trust_gap": {"value": "the global trust gap between high- and low-income groups has more than doubled since 2012", "unit": "Edelman report synthesis", "value_type": "reported_change"},
+        "high_low_pattern": {"value": "trust has risen among high earners while stagnating or lagging among low-income groups", "unit": "Edelman report synthesis", "value_type": "reported_pattern"},
+        "us_gap": {"value": 29, "unit": "percentage-point income-based trust gap reported for the United States", "value_type": "reported_gap"}
+      },
+      "method": "Edelman longitudinal aggregate comparison of trust by income group and country.",
+      "uncertainty": "The published gap does not identify which institutions or experiences cause divergence, and income categories and survey modes may not be directly comparable across countries and years.",
+      "subgroup": "High- and low-income groups, workers, consumers, institutions, employers, governments, and communities experiencing unequal economic security.",
+      "counterinterpretation": "Trust gaps may narrow when material security, institutional performance, and credible cross-class contact improve; aggregate divergence does not imply uniform distrust within either group.",
+      "source_url": "https://www.edelman.com/trust/2026/trust-barometer",
+      "retrieval_hash": "sha256:1d8652bcccfdd20b0d27cf8cdf282220921b162c4019d893b230268a20a564b4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en.html", "claim": "OECD Survey on Drivers of Trust in Public Institutions 2026 provides a complementary public-institution and policy-performance trust lens."},
+    {"source_url": "https://www.weforum.org/publications/global-risks-report-2026/digest/", "claim": "WEF Global Risks Report 2026 provides complementary elite-perception analysis of polarization, misinformation, and cooperation risks."}
+  ],
+  "boundary": "This record adds a cross-cultural trust, insularity, optimism, class-divergence, and social-media-brokering route. It uses published aggregate survey results and report synthesis, not raw respondent-level records, reweighted microdata, causal attitude models, individual political histories, or proof that trust brokering resolves polarization.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Edelman Trust Barometer 2026 materials were reviewed for the 28-country survey frame, insular mindset, next-generation optimism, influencer trust, and income-based trust-gap findings.",
+    "source_url_sha256": "sha256:1d8652bcccfdd20b0d27cf8cdf282220921b162c4019d893b230268a20a564b4",
+    "checked": "2026-09-26"
+  }
+}

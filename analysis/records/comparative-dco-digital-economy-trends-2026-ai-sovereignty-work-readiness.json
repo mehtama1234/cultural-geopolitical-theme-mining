@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-dco-digital-economy-trends-2026-ai-sovereignty-work-readiness",
+  "title": "The digital economy is shifting from access expansion toward capability, agency, resilience, and strategic fragmentation",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": ["platforms_data_attention", "infrastructure_technology_dependency", "work_control_bargaining", "geopolitical_state_consequences", "trust_identity_meaning", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "Digital Cooperation Organization, Digital Economy Trends 2026, third edition",
+  "geography": "Global digital economy, regional readiness comparisons, and expert survey perspectives across public, private, and societal stakeholders",
+  "observations": [
+    {
+      "period": "2026 report; 18 forces shaping the next digital-economy era",
+      "denominator": {"value": 18, "unit": "digital-economy forces identified by the DCO report", "value_type": "published_trend_framework"},
+      "measures": {
+        "force_set": {"value": "vertical AI, generalist robots, sustainable digital infrastructure, ambient intelligence, frontier-tech convergence, competing technology blocs, digital trade, immersive experiences, AI divide, digital sovereignty, quantum, workforce transformation, brain-machine interfaces, digital well-being, cybersecurity, agentic AI, API-enabled collaboration, and hyper-personalization", "unit": "reported trend set", "value_type": "reported_framework"},
+        "strategic_shift": {"value": "from expanding access toward strengthening the capacity, agency, and resilience of individuals and nations", "unit": "reported synthesis", "value_type": "reported_interpretation"}
+      },
+      "method": "DCO horizon-scanning and expert-informed synthesis of digital-economy trends, impacts, readiness, and policy implications.",
+      "uncertainty": "A trend framework identifies plausible forces and priorities but does not establish their probability, causal effects, or equal relevance across countries and sectors.",
+      "subgroup": "Individuals, societies, governments, private firms, technology companies, workers, and sectors with different levels of digital capability and infrastructure.",
+      "counterinterpretation": "Some listed forces may remain niche, converge differently, or generate benefits through existing institutions without becoming dominant social or economic trends.",
+      "source_url": "https://det.dco.org/",
+      "retrieval_hash": "sha256:d81c2a6f56902e82811c1458c9d098cf81d336479bb176ca9770814b6057e40e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; expected global digital-economy impact over the next 3-5 years",
+      "denominator": {"value": 1, "unit": "DCO expert outlook on the global digital economy", "value_type": "published_outlook_frame"},
+      "measures": {
+        "access_outlook": {"value": "experts expect digital goods and services to become more accessible and affordable", "unit": "reported expectation", "value_type": "reported_outlook"},
+        "concentration_risk": {"value": "AI advances may concentrate among a few large companies and widen the gap between returns to capital and labor", "unit": "reported risk pathway", "value_type": "reported_mechanism"},
+        "resilience_condition": {"value": "greater interconnection makes resilience and trust necessary to realize positive economic, social, and environmental effects", "unit": "reported condition", "value_type": "reported_mechanism"}
+      },
+      "method": "DCO expert outlook and synthesis of affordability, concentration, labor, and resilience implications.",
+      "uncertainty": "The outlook is expectation-based and does not quantify future prices, concentration, labor displacement, or who captures gains.",
+      "subgroup": "Consumers, workers, firms, technology providers, governments, and communities facing different costs and benefits from digital scale.",
+      "counterinterpretation": "Lower digital prices can broaden access, while competition policy, public investment, open standards, and labor institutions can alter concentration and distributional outcomes.",
+      "source_url": "https://det.dco.org/",
+      "retrieval_hash": "sha256:d81c2a6f56902e82811c1458c9d098cf81d336479bb176ca9770814b6057e40e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regional trend impact and readiness assessment",
+      "denominator": {"value": 5, "unit": "regional comparisons presented by the DCO report", "value_type": "published_regional_comparison"},
+      "measures": {
+        "highest_impact_trend": {"value": "end-to-end cybersecurity is broadly identified as having the greatest potential socio-economic impact", "unit": "reported expert ranking", "value_type": "reported_ranking"},
+        "readiness_pattern": {"value": "three of five regions record their highest readiness score in cybersecurity", "unit": "reported regional pattern", "value_type": "reported_comparison"},
+        "positive_impact_horizon": {"value": "intelligent systems embedded in daily life and expanded digital trade are among the trends expected to create positive impact in the next 12-18 months", "unit": "reported expectation", "value_type": "reported_outlook"}
+      },
+      "method": "DCO regional comparison of expert-rated socio-economic impact and stakeholder readiness.",
+      "uncertainty": "Regional readiness scores are perception-based and may not measure operational capability, actual cyber incidents, or realized benefits; five-region comparisons are not country-level evaluations.",
+      "subgroup": "Regions, public agencies, firms, individuals, digital infrastructure operators, and communities exposed to different security and capability conditions.",
+      "counterinterpretation": "High perceived readiness may reflect awareness rather than capacity, while low perceived readiness can coexist with effective local practice or rapidly improving institutions.",
+      "source_url": "https://det.dco.org/",
+      "retrieval_hash": "sha256:d81c2a6f56902e82811c1458c9d098cf81d336479bb176ca9770814b6057e40e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; expected private-sector employment and preparedness over the next 12-18 months",
+      "denominator": {"value": 1, "unit": "DCO survey respondent outlook on employment and stakeholder preparedness", "value_type": "published_expert_survey_frame"},
+      "measures": {
+        "headcount_expectation": {"value": 2.4, "unit": "average percent expected increase in company headcounts", "value_type": "reported_expert_expectation"},
+        "employment_balance": {"value": "more experts foresee digital trends expanding than reducing employment, while 60 percent expect no more than a slight effect either way", "unit": "reported survey pattern", "value_type": "reported_expectation"},
+        "prepared_private": {"value": 94, "unit": "percent saying private-sector stakeholders are prepared", "value_type": "reported_survey_share"},
+        "prepared_public_and_society": {"value": "70 percent for the public sector and 43 percent for societies and individuals", "unit": "reported survey shares", "value_type": "reported_survey_share"}
+      },
+      "method": "DCO expert survey synthesis of employment expectations and perceived preparedness across private, public, and societal stakeholders.",
+      "uncertainty": "Expectations and preparedness perceptions are not realized employment outcomes, organizational audits, or population-representative measures; the headcount estimate does not identify sector, geography, or job-quality effects.",
+      "subgroup": "Private firms, public institutions, societies and individuals, workers, managers, and sectors undergoing different technology transitions.",
+      "counterinterpretation": "Perceived private-sector preparedness may coexist with worker insecurity or public capacity; modest aggregate headcount change can conceal displacement, reclassification, or unequal job quality.",
+      "source_url": "https://det.dco.org/",
+      "retrieval_hash": "sha256:d81c2a6f56902e82811c1458c9d098cf81d336479bb176ca9770814b6057e40e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://dco.org/initiatives/det-reports/", "claim": "DCO describes the Digital Economy Trends series as evidence-based analysis of global digital-economy trends, technologies, and policy considerations."},
+    {"source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026", "claim": "ITU ICT Development Index 2026 provides complementary connectivity, affordability, and quality measures across 159 economies."}
+  ],
+  "boundary": "This record adds a global digital-economy foresight and readiness route linking AI, automation, energy, data, cybersecurity, trade, sovereignty, work, digital well-being, and social agency. It is an expert-informed publication and survey synthesis, not a technology forecast, firm census, individual employment panel, causal employment estimate, or proof that preparedness produces equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "DCO Digital Economy Trends 2026 landing page and DCO report overview were reviewed for the 18-force framework, impact and readiness comparisons, employment expectations, and preparedness claims.",
+    "source_url_sha256": "sha256:d81c2a6f56902e82811c1458c9d098cf81d336479bb176ca9770814b6057e40e",
+    "checked": "2026-09-27"
+  }
+}

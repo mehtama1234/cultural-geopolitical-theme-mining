@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-prosper-global-voices-of-prosperity-2026-shared-planning-community",
+  "title": "In crisis-affected communities, prosperity is understood as shared capability, safety, and the ability to plan beyond survival",
+  "theme_ids": ["voice", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Prosper Global, Voices of Prosperity: What It Means to Prosper, September 2026",
+  "geography": "396 individual and group conversations with 1,102 people across Colombia, Democratic Republic of Congo, Indonesia, Kenya, Syria, and Ukraine; local teams conducted conversations in 15 languages",
+  "observations": [
+    {
+      "period": "2026 qualitative inquiry; community definitions of prosperity",
+      "denominator": {"value": 1102, "unit": "people participating in individual and group conversations across six countries", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "shared_prosperity": {"value": "participants rarely described prosperity as an individual outcome; they connected their wellbeing to family, neighbors, and community progress", "unit": "reported cross-site qualitative pattern", "value_type": "reported_theme"},
+        "relational_condition": {"value": "prosperity is treated as a condition that is weakened when others remain unsafe, excluded, or unable to recover", "unit": "bounded analytical interpretation", "value_type": "bounded_mechanism"},
+        "cultural_consumer_implication": {"value": "a household or individual gain is not experienced as durable prosperity if local social and material systems remain unstable", "unit": "bounded analytical implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "Prosper Global qualitative inquiry using 396 individual and group conversations conducted by local teams in 15 languages across six crisis-affected countries.",
+      "uncertainty": "The report is purposive qualitative research, not a representative prevalence estimate, standardized cross-country survey, or causal evaluation; translations and local recruitment shape comparability.",
+      "subgroup": "People living through conflict, climate change, displacement, and economic hardship, with country and community context central to interpretation.",
+      "counterinterpretation": "Participants’ emphasis on shared prosperity may reflect the crisis settings and the organization’s listening frame rather than a universal rejection of individual advancement.",
+      "source_url": "https://europe.prosperglobal.org/en-gb/research-resources/voices-of-prosperity-2026",
+      "retrieval_hash": "sha256:d7be6366d552fd9d03200eeb167465585e29f959f582b1fcb9ab65147993f74b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 qualitative inquiry; safety, stability, and future planning",
+      "denominator": {"value": 6, "unit": "countries included in the qualitative inquiry", "value_type": "reported_country_count"},
+      "measures": {
+        "planning_capacity": {"value": "participants described prosperity as the ability to look beyond immediate needs and plan for education, livelihoods, and the future", "unit": "reported cross-site qualitative pattern", "value_type": "reported_theme"},
+        "precondition": {"value": "safety and stability are treated as enabling conditions for future orientation, not merely as outcomes of income growth", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "time_horizon": {"value": "crisis compresses the time horizon toward survival; prosperity expands practical room to make longer-term choices", "unit": "bounded analytical interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-site thematic synthesis of participant accounts in the Prosper Global report.",
+      "uncertainty": "The report does not measure the prevalence or causal effect of planning capacity, nor isolate conflict, climate, displacement, and economic hardship as independent drivers.",
+      "subgroup": "Displaced people, conflict-affected communities, climate-exposed households, young people facing constrained livelihood opportunities, and families navigating insecurity.",
+      "counterinterpretation": "Future planning may be a culturally specific expression of aspiration and cannot be assumed to translate into measurable mobility or improved wellbeing without material supports.",
+      "source_url": "https://europe.prosperglobal.org/en-gb/research-resources/voices-of-prosperity-2026",
+      "retrieval_hash": "sha256:d7be6366d552fd9d03200eeb167465585e29f959f582b1fcb9ab65147993f74b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 qualitative inquiry; local knowledge, mutual support, and self-directed recovery",
+      "denominator": {"value": 396, "unit": "individual and group conversations across six countries", "value_type": "reported_conversation_count"},
+      "measures": {
+        "community_assets": {"value": "participants emphasized existing knowledge, mutual support, local networks, and shared resources as foundations for prosperity", "unit": "reported cross-site qualitative pattern", "value_type": "reported_theme"},
+        "assistance_boundary": {"value": "outside assistance remains essential in crisis but is not described as sufficient for durable prosperity", "unit": "reported program implication", "value_type": "reported_assessment"},
+        "agency_route": {"value": "durable recovery depends on locally owned capability and viable livelihoods, not only delivery of relief", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Local-team qualitative conversations and report synthesis focused on participants’ own definitions of prosperity and support.",
+      "uncertainty": "The source does not compare assistance models, estimate program effects, or establish that local ownership alone overcomes structural constraints, conflict, or unequal power.",
+      "subgroup": "Community members, local entrepreneurs, farmers, displaced people, and families relying on local networks amid crisis and economic hardship.",
+      "counterinterpretation": "Emphasizing community assets can unintentionally shift responsibility from states and international actors onto communities that lack resources or security.",
+      "source_url": "https://europe.prosperglobal.org/en-gb/research-resources/voices-of-prosperity-2026",
+      "retrieval_hash": "sha256:d7be6366d552fd9d03200eeb167465585e29f959f582b1fcb9ab65147993f74b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 qualitative inquiry; recurring barriers to prosperity",
+      "denominator": {"value": 3, "unit": "cross-site barrier families identified by the report", "value_type": "reported_barrier_count"},
+      "measures": {
+        "barriers": {"value": "conflict and insecurity, lived climate impacts, and economic hardship recur across the six-country inquiry", "unit": "reported cross-site barrier pattern", "value_type": "reported_theme"},
+        "youth_opportunity": {"value": "limited opportunities for young people are identified as a particularly persistent economic barrier", "unit": "reported barrier", "value_type": "reported_assessment"},
+        "compound_exposure": {"value": "security, climate, and livelihood shocks compound by narrowing both present resources and future planning room", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Thematic synthesis of 396 conversations across Colombia, Democratic Republic of Congo, Indonesia, Kenya, Syria, and Ukraine.",
+      "uncertainty": "Recurring themes do not show equal intensity across countries or prove that the three barrier families have the same mechanism or policy solution everywhere.",
+      "subgroup": "Young people, climate-exposed producers, displaced and conflict-affected households, and communities facing constrained access to livelihoods and services.",
+      "counterinterpretation": "The barrier framework may understate political economy, gender, disability, health, and institutional differences that shape who can convert assistance or local resources into opportunity.",
+      "source_url": "https://europe.prosperglobal.org/en-gb/research-resources/voices-of-prosperity-2026",
+      "retrieval_hash": "sha256:d7be6366d552fd9d03200eeb167465585e29f959f582b1fcb9ab65147993f74b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.prosperglobal.org/voices-of-prosperity", "claim": "Prosper Global initiative page describing the six-country, 15-language listening approach and community-centered definition of prosperity."},
+    {"source_url": "https://www.prosperglobal.org/blog/kenya-growing-opportunities-to-weather-change", "claim": "Country vignette connecting climate exposure, local livelihood innovation, community support, and shared prosperity in Kenya."}
+  ],
+  "boundary": "This record adds a qualitative, community-defined prosperity route linking shared wellbeing, safety, future planning, local knowledge, mutual support, climate exposure, conflict, displacement, and youth opportunity. It is not a representative global survey, respondent-level atlas ingestion, causal evaluation, or proof that community-led approaches substitute for public protection, international assistance, or structural change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Prosper Global report page, initiative page, and Kenya country vignette reviewed for sample description, countries, languages, qualitative method, shared-prosperity findings, planning mechanism, local-asset framing, and recurring barriers.",
+    "source_url_sha256": "sha256:d7be6366d552fd9d03200eeb167465585e29f959f582b1fcb9ab65147993f74b",
+    "checked": "2026-09-28"
+  }
+}

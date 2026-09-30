@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-financial-guidance-ai-trust-affordability-2026",
+  "title": "AI is entering financial guidance as a low-cost research layer without becoming a trusted decision-maker",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "political_judgment_action"
+  ],
+  "source_unit": "Gallup and Edward Jones Financial Fulfillment study, public article on where Americans seek financial guidance",
+  "geography": "United States; adults age 21 and older; survey fielded March 20-April 6, 2026",
+  "observations": [
+    {
+      "period": "March 20-April 6, 2026; sources used by U.S. financial-guidance seekers",
+      "denominator": {"value": 5075, "unit": "U.S. adults surveyed by Gallup", "value_type": "reported_survey_sample"},
+      "measures": {
+        "guidance_reach": {"value": 75, "unit": "percent who sought financial guidance from at least one source in the prior year", "value_type": "published_survey_estimate"},
+        "internet_research": {"value": 73, "unit": "percent of guidance-seekers using their own internet research", "value_type": "published_survey_estimate"},
+        "ai_use": {"value": 18, "unit": "percent of guidance-seekers using AI tools such as ChatGPT or Claude", "value_type": "published_survey_estimate"},
+        "access_route": {"value": "AI and open internet research can lower the cost and friction of entering a financial-learning journey, but use should not be read as trust or completed financial action.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup and Edward Jones survey of 5,075 U.S. adults age 21 and older, conducted March 20-April 6, 2026, using Gallup's probability-based panel; public article reports source-use percentages.",
+      "uncertainty": "The public article does not provide the full questionnaire, weighting details, question order, or observed financial decisions; percentages describe reported guidance-seeking, not realized financial welfare.",
+      "subgroup": "U.S. adults seeking financial guidance; source-use patterns vary by generation and financial fulfillment category.",
+      "counterinterpretation": "Internet and AI use may supplement professional or family advice rather than substitute for it; self-directed research can reflect curiosity, affordability constraints, or a need to verify advice.",
+      "source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx",
+      "retrieval_hash": "sha256:5ba0edc960ab13c71a13f06f759bd88d8678c3be5c817d3ffad50addb00d7bdc",
+      "status": "reported"
+    },
+    {
+      "period": "March 20-April 6, 2026; reported trust versus use of financial-guidance sources",
+      "denominator": {"value": 5075, "unit": "U.S. adults surveyed by Gallup", "value_type": "reported_survey_sample"},
+      "measures": {
+        "professional_use": {"value": 32, "unit": "percent of guidance-seekers using professional financial advisers", "value_type": "published_survey_estimate"},
+        "family_use": {"value": 35, "unit": "percent using a parent, sibling or relative", "value_type": "published_survey_estimate"},
+        "advisor_confidence": {"value": "about eight in ten U.S. adults have at least some confidence in financial advisers", "unit": "reported confidence estimate", "value_type": "published_survey_estimate"},
+        "trust_use_gap": {"value": "The most-used source is not the most trusted source: internet research is widely used, while professional advice has higher confidence but lower reported use.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive survey estimates reported by Gallup from the same probability-based U.S. adult sample.",
+      "uncertainty": "The public release does not establish why people choose a source, whether professional advice is financially accessible, or whether trust predicts better outcomes.",
+      "subgroup": "U.S. adults across financially fulfilled, conflicted and stressed categories; the public article reports different source mixes by financial situation.",
+      "counterinterpretation": "Professional advice may be used less because it is unnecessary for simple questions or costly to access, not because people reject human expertise.",
+      "source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx",
+      "retrieval_hash": "sha256:5ba0edc960ab13c71a13f06f759bd88d8678c3be5c817d3ffad50addb00d7bdc",
+      "status": "reported"
+    },
+    {
+      "period": "March 20-April 6, 2026; age gradient in AI financial-guidance use and confidence",
+      "denominator": {"value": 5075, "unit": "U.S. adults surveyed by Gallup; subgroup estimates reported by generation", "value_type": "reported_survey_sample"},
+      "measures": {
+        "younger_ai_use": {"value": "about one in four Gen Z adults and millennials who sought guidance used AI, compared with 7% of baby boomers", "unit": "reported generational comparison", "value_type": "published_survey_estimate"},
+        "ai_confidence": {"value": "36% of millennials and 32% of Gen Z adults reported at least some confidence in AI tools, versus 27% of Gen Xers and 15% of baby boomers", "unit": "percent reporting some or greater confidence", "value_type": "published_survey_estimate"},
+        "human_fallback": {"value": "Even among younger adults who use AI more, confidence remains below a majority, leaving human networks and professional accountability as open decision-stage complements.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup subgroup comparisons reported from the 2026 U.S. survey; generation definitions and full cross-tabs are not reproduced in the public article.",
+      "uncertainty": "The age gradient is descriptive; it does not show cohort, life-stage, income, education, or task-complexity causation, nor whether AI use improves financial outcomes.",
+      "subgroup": "Gen Z adults, millennials, Gen Xers and baby boomers who seek financial guidance.",
+      "counterinterpretation": "Younger adults may use AI because they face lower-cost access constraints or different financial questions, while older adults may have more established adviser relationships.",
+      "source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx",
+      "retrieval_hash": "sha256:5ba0edc960ab13c71a13f06f759bd88d8678c3be5c817d3ffad50addb00d7bdc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx", "claim": "Official Gallup article reports the sample, field dates, source-use estimates, confidence gap and generational comparisons."}
+  ],
+  "boundary": "This record adds a financial-guidance trust-and-access route: AI and internet research are low-friction entry points, while professional and human-network sources retain greater confidence for consequential decisions. It does not establish advice quality, financial outcomes, fiduciary protection, or causal substitution between AI and human guidance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup article was reviewed for sample, field dates, source-use percentages, confidence comparisons, financial-fulfillment framing and generational estimates.",
+    "source_page_sha256": "sha256:5ba0edc960ab13c71a13f06f759bd88d8678c3be5c817d3ffad50addb00d7bdc",
+    "checked": "2026-09-29"
+  }
+}

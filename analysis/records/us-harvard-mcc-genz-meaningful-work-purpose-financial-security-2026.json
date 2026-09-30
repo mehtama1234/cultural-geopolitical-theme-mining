@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-harvard-mcc-genz-meaningful-work-purpose-financial-security-2026",
+  "title": "Meaningful work is a strong Gen Z aspiration constrained by pay, financial security and care-work conditions",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Harvard Graduate School of Education Making Caring Common, in collaboration with Gallup and the Walton Family Foundation, as reported by Harvard Gazette, Gen Z puts high priority on jobs with meaning, purpose, but sees daunting hurdles, August 3, 2026",
+  "geography": "United States; Gen Z respondents born 1997–2012, including adults ages 18–29 in work and wellbeing analyses",
+  "observations": [
+    {
+      "period": "2026; Gen Z work aspirations and current job alignment",
+      "denominator": {"value": 2436, "unit": "representative sample of people born 1997–2012 in the Making Caring Common/Gallup survey", "value_type": "reported_representative_survey_sample"},
+      "measures": {
+        "want_helping_job": {"value": 79, "unit": "percent wanting a future job mainly focused on helping people or making a positive difference", "value_type": "reported_share"},
+        "have_helping_job_among_workers_who_want_one": {"value": 56, "unit": "percent of Gen Z adults who want a job mainly focused on helping people and report having one", "value_type": "reported_share"},
+        "meaning_job_link": {"value": "Among Gen Zers who find their jobs meaningful, 84% worked in jobs focused on helping people, compared with 44% among those not in helping-focused jobs", "unit": "reported comparison", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Meaning is not only an attitude toward work; young adults evaluate whether the labor market lets them enact care and contribution through a viable job", "unit": "bounded meaning-of-work mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Harvard Gazette report on a Making Caring Common survey conducted in collaboration with Gallup and the Walton Family Foundation; the public article describes a representative sample of 2,436 people born 1997–2012 but does not reproduce the complete instrument or field dates.",
+      "uncertainty": "The aspiration and job-alignment measures are self-reported and associational; the public article does not establish whether meaningful work causes wellbeing, retention, productivity or altruistic behavior.",
+      "subgroup": "Gen Z respondents by age, employment, occupation, financial security, education, gender, race/ethnicity and mental-health status; full subgroup estimates are not supplied in the article.",
+      "counterinterpretation": "People may find meaning in helping aspects of jobs that are not formally care professions, and job meaning can coexist with dissatisfaction, low pay or a desire to leave.",
+      "source_url": "https://news.harvard.edu/gazette/story/2026/08/gen-z-puts-high-priority-on-jobs-with-meaning-purpose-but-sees-daunting-hurdles/",
+      "retrieval_hash": "sha256:636dbff584323ca13837cdeff72d34ca25445a9a6f70b7a9dc8c52b54e2744ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; meaning, purpose and emotional wellbeing",
+      "denominator": {"value": 1, "unit": "Gen Z respondents in the reported survey; public article gives age-specific mental-health shares but not full analytic denominator for every comparison", "value_type": "published_survey_frame"},
+      "measures": {
+        "adult_gen_z_anxiety_depression": {"value": 70, "unit": "percent of Gen Z adults reported as having mild to severe anxiety or depression symptoms in the article's summary", "value_type": "reported_share"},
+        "meaning_wellbeing_association": {"value": "Gen Z respondents reporting a recent sense of meaning or purpose were less likely to report anxiety and depression symptoms than those who did not report feeling meaningful or purposeful", "unit": "reported association", "value_type": "reported_pattern"},
+        "care_work_duality": {"value": "Helping work can be emotionally draining while also being experienced as gratifying when people see a positive difference", "unit": "bounded wellbeing mechanism", "value_type": "bounded_mechanism"},
+        "mechanism": {"value": "Purpose may operate through perceived contribution and social usefulness, but the same care roles can impose emotional and material burdens", "unit": "bounded wellbeing mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Published summary of survey associations and interview interpretation; the public article does not provide causal models, clinical diagnostic methods or longitudinal follow-up.",
+      "uncertainty": "Meaning, purpose, anxiety and depression are self-reported and may be jointly shaped by work, family, finances, health and social support; no causal mental-health effect is established.",
+      "subgroup": "Gen Z adults in and outside work, including people in caring occupations and people with different financial and social resources.",
+      "counterinterpretation": "People with better mental health may be more able to perceive meaning, and meaningful work may sometimes increase exposure to emotional strain rather than reduce distress.",
+      "source_url": "https://news.harvard.edu/gazette/story/2026/08/gen-z-puts-high-priority-on-jobs-with-meaning-purpose-but-sees-daunting-hurdles/",
+      "retrieval_hash": "sha256:636dbff584323ca13837cdeff72d34ca25445a9a6f70b7a9dc8c52b54e2744ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; meaningful work versus salary and financial security",
+      "denominator": {"value": 1, "unit": "Gen Z respondents answering the hypothetical trade-off question; public article does not state its item-specific n", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "take_double_salary": {"value": 46, "unit": "percent saying they would take a job with double the salary but significantly less meaning and purpose", "value_type": "reported_share"},
+        "keep_meaningful_job": {"value": 28, "unit": "percent saying they would keep the meaningful job", "value_type": "reported_share"},
+        "depends_on_specifics": {"value": 26, "unit": "percent saying the choice would depend on the specifics", "value_type": "reported_share"},
+        "financial_insecurity_effect": {"value": 53, "unit": "percent of adult Gen Z respondents who felt financially insecure saying they would take the higher-paying job, compared with 41% among those living very well", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Purpose competes with material room: financial insecurity makes the salary premium more compelling even when meaningful work is valued", "unit": "bounded work-room tradeoff", "value_type": "bounded_mechanism"}
+      },
+      "method": "Self-reported hypothetical trade-off and financial-security comparison described in the Harvard Gazette article; no realized job-switching or wage behavior is measured.",
+      "uncertainty": "Hypothetical choices may not predict actual job decisions; financial security is self-assessed and the article does not provide full controls, question order or item-specific sample size.",
+      "subgroup": "Gen Z adults by perceived financial security, income, debt, care obligations, occupation, education and access to meaningful work.",
+      "counterinterpretation": "A salary premium may buy autonomy, housing, healthcare or time that creates meaning outside work; choosing higher pay is not evidence that purpose is unimportant.",
+      "source_url": "https://news.harvard.edu/gazette/story/2026/08/gen-z-puts-high-priority-on-jobs-with-meaning-purpose-but-sees-daunting-hurdles/",
+      "retrieval_hash": "sha256:636dbff584323ca13837cdeff72d34ca25445a9a6f70b7a9dc8c52b54e2744ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.harvard.edu/gazette/story/2026/08/gen-z-puts-high-priority-on-jobs-with-meaning-purpose-but-sees-daunting-hurdles/", "claim": "Harvard Gazette summary of the Making Caring Common/Gallup/Walton survey with sample, meaningful-work aspiration, wellbeing association and salary-purpose trade-off findings."},
+    {"source_url": "https://mcc.gse.harvard.edu/reports/gen-z-meaningful-work", "claim": "Underlying Making Caring Common report landing page referenced by Harvard Gazette; the record uses the public article's reported measures and limitations."}
+  ],
+  "boundary": "This record identifies a meaning-of-work, care-labor, financial-security and wellbeing subtheme. It does not establish causality, clinical mental-health effects, realized job choice, wage or retention effects, comparative generational altruism, employer behavior, care-sector labor supply, or the superiority of meaningful work over nonwork sources of purpose.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Harvard Gazette's official article was reviewed for the August 3, 2026 date, collaboration and representative sample description, 79% aspiration, 56% job alignment, 84%/44% meaningful-job comparison, mental-health association, salary-purpose trade-off and financial-security comparison.",
+    "source_page_sha256": "sha256:636dbff584323ca13837cdeff72d34ca25445a9a6f70b7a9dc8c52b54e2744ae",
+    "checked": "2026-09-29"
+  }
+}

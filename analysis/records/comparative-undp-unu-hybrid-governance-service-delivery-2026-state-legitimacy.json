@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-unu-hybrid-governance-service-delivery-2026-state-legitimacy",
+  "title": "In limited-statehood settings, service delivery and legitimacy are produced through hybrid governance networks rather than the state alone",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UNDP and UNU Centre for Policy Research, Service Delivery in Systems of Hybrid Governance: A Framework for Development Actors in Complex Settings",
+  "geography": "Complex and crisis-affected settings with limited territorial, sectoral, or social statehood; global case-study and development-practice framework",
+  "observations": [
+    {
+      "period": "2026; governance and service-delivery frame in complex settings",
+      "denominator": {"value": 1, "unit": "development-programming framework for settings of limited statehood", "value_type": "published_framework"},
+      "measures": {
+        "governance_condition": {"value": "formal state institutions may lack territorial control, monopoly over force, perceived legitimacy, or capacity to deliver basic services", "unit": "reported governance condition", "value_type": "reported_framework"},
+        "hybrid_system": {"value": "non-state actors compete, collaborate, and co-exist with the state in providing protection and services", "unit": "reported governance pattern", "value_type": "reported_framework"},
+        "actor_set": {"value": "armed groups, NGOs, civil-society organizations, international organizations, religious groups, traditional leaders, political groups, and private organizations", "unit": "reported actor categories", "value_type": "reported_framework"}
+      },
+      "method": "UNDP and UNU-CPR synthesize global case studies, prior commissioned research, and operational experience into working definitions for service delivery in hybrid governance settings.",
+      "uncertainty": "The framework identifies recurring conditions and actor relationships; it is not a global prevalence estimate, complete actor census, or causal comparison of state and non-state service quality.",
+      "subgroup": "Communities in crisis settings, public authorities, non-state service providers, civil society, development actors, armed groups, local leaders, and people dependent on basic protection and services.",
+      "counterinterpretation": "Non-state provision can fill urgent gaps while also entrenching coercive authority, unequal access, fragmented standards, or parallel systems that weaken public accountability.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/undp_unu_service_delivery_in_systems_of_hybrid_governance_en.pdf",
+      "retrieval_hash": "sha256:f7f713edb09412a403d1fd7a6f7f9b5654a8802a94a181b1b2f3506161d00f46",
+      "status": "reported"
+    },
+    {
+      "period": "2026; distinctions among limited territorial, sectoral, and social statehood",
+      "denominator": {"value": 1, "unit": "UNDP-UNU conceptual classification", "value_type": "published_conceptual_frame"},
+      "measures": {
+        "territorial_statehood": {"value": "central government does not maintain a monopoly on violence across the territory or is not viewed as the main source of justice and security", "unit": "working definition", "value_type": "reported_definition"},
+        "sectoral_statehood": {"value": "central state is not perceived as the primary source of basic services and protections", "unit": "working definition", "value_type": "reported_definition"},
+        "social_statehood": {"value": "deep ethnic or community divisions shape governance relationships and may contribute to limited territorial or sectoral statehood", "unit": "working definition", "value_type": "reported_definition"}
+      },
+      "method": "The publication distinguishes forms of limited statehood to avoid treating territorial control, service authority, and social legitimacy as one undifferentiated condition.",
+      "uncertainty": "These are analytical categories rather than mutually exclusive or directly scored population measures; local dynamics can differ substantially within a country.",
+      "subgroup": "Residents, local authorities, customary and religious institutions, public-service users, displaced people, and groups divided by identity, territory, or access to protection.",
+      "counterinterpretation": "A weak central role in one sector does not necessarily mean state collapse; plural provision can be coordinated, legitimate, and temporary in some settings.",
+      "source_url": "https://www.undp.org/publications/service-delivery-systems-hybrid-governance-framework-development-actors-complex-settings",
+      "retrieval_hash": "sha256:f7f713edb09412a403d1fd7a6f7f9b5654a8802a94a181b1b2f3506161d00f46",
+      "status": "reported"
+    },
+    {
+      "period": "2026; operational and ethical constraints on engagement with non-state actors",
+      "denominator": {"value": 1, "unit": "development-programming engagement framework", "value_type": "published_framework"},
+      "measures": {
+        "engagement_risks": {"value": "legal complexity, designation concerns, political tension, security risk, authorization barriers, financial constraints, and possible harm to state legitimacy", "unit": "reported challenge set", "value_type": "reported_framework"},
+        "accountability_question": {"value": "development actors must decide who to partner with, how to hold actors accountable, and how to avoid directing resources to harmful actors", "unit": "reported governance problem", "value_type": "reported_framework"},
+        "local_variation": {"value": "the role and legitimacy of non-state actors can differ at local level, including within the same country", "unit": "reported contextual condition", "value_type": "reported_framework"}
+      },
+      "method": "The framework draws operational lessons from UNDP experience and examines legal, political, ethical, security, authorization, and financial dimensions of engagement.",
+      "uncertainty": "The report offers guidance and dilemmas rather than a standardized risk score or evidence that any engagement model succeeds across contexts.",
+      "subgroup": "Development agencies, state authorities, non-state actors, communities, people affected by conflict, rights holders, and populations exposed to coercion or exclusion.",
+      "counterinterpretation": "Refusing all engagement with non-state actors may leave communities without services or voice; engagement can sometimes improve transparency, accountability, and practical legitimacy when safeguards hold.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/undp_unu_service_delivery_in_systems_of_hybrid_governance_en.pdf",
+      "retrieval_hash": "sha256:f7f713edb09412a403d1fd7a6f7f9b5654a8802a94a181b1b2f3506161d00f46",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proposed service-delivery strategy and social-contract pathway",
+      "denominator": {"value": 1, "unit": "UNDP-UNU framework for development programming in hybrid governance systems", "value_type": "published_programming_frame"},
+      "measures": {
+        "programming_shift": {"value": "move from state-only institution building toward engagement with networks and systems of governance", "unit": "reported strategic shift", "value_type": "reported_recommendation"},
+        "delivery_standard": {"value": "more effective, inclusive, and transparent service delivery can increase community buy-in and ability to shape governance arrangements", "unit": "reported theory of change", "value_type": "reported_pathway"},
+        "management_mode": {"value": "adaptive management informed by regular political-economy analysis and contextual understanding of non-state actors", "unit": "reported programming recommendation", "value_type": "reported_recommendation"}
+      },
+      "method": "The report proposes a framework for strategy development, implementation, and evaluation that treats service delivery, accountability, community role, and social-contract renewal as connected.",
+      "uncertainty": "The proposed pathway is not a causal evaluation; community buy-in, accountability, and legitimacy may not follow from service delivery and may vary by actor and context.",
+      "subgroup": "Recipient communities, local governance networks, service providers, public institutions, development actors, and representatives whose authority is contested or negotiated.",
+      "counterinterpretation": "Network-based engagement can unintentionally normalize coercive authorities, blur responsibility, or substitute service provision for rights, representation, and accountable public institutions.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/undp_unu_service_delivery_in_systems_of_hybrid_governance_en.pdf",
+      "retrieval_hash": "sha256:f7f713edb09412a403d1fd7a6f7f9b5654a8802a94a181b1b2f3506161d00f46",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/publications/service-delivery-systems-hybrid-governance-framework-development-actors-complex-settings", "claim": "Official UNDP publication page and report metadata."},
+    {"source_url": "https://www.undp.org/governance", "claim": "UNDP governance context for responsive institutions and service delivery."}
+  ],
+  "boundary": "This record adds a hybrid-governance and service-legitimacy route linking limited statehood, non-state provision, protection, accountability, local voice, social contracts, and geopolitical authority. It is a global policy framework and case-study synthesis, not a prevalence estimate, complete actor census, respondent-level service histories, causal evaluation, or claim that non-state governance is inherently better or more legitimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 47-page UNDP-UNU framework and publication page were reviewed for the definitions of limited territorial, sectoral, and social statehood; actor roles; operational and ethical challenges; and the proposed networked, adaptive service-delivery pathway.",
+    "source_url_sha256": "sha256:f7f713edb09412a403d1fd7a6f7f9b5654a8802a94a181b1b2f3506161d00f46",
+    "checked": "2026-09-27"
+  }
+}

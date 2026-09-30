@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-independent-football-regulator-club-heritage-fan-voice-2026",
+  "title": "Football club heritage converts place-based identity into organized fan voice when institutional survival is threatened",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Ipsos Public Affairs for the Independent Football Regulator, club heritage and fan-response polling, September 2026 release",
+  "geography": "England and Wales; adults aged 16+ and supporters of men's clubs in the top five divisions",
+  "observations": [
+    {
+      "period": "April 10–14, 2026; threatened club dissolution and distress",
+      "denominator": {"value": 1904, "unit": "supporters of at least one men's team in the top five divisions among the weighted England-and-Wales sample", "value_type": "published_subsample"},
+      "measures": {
+        "high_distress_if_club_dissolved": {"value": 32, "unit": "percent of supporters reporting a high level of distress if their club were dissolved or ceased to exist", "value_type": "published_survey_estimate"},
+        "heritage_threat": {"value": "club dissolution is treated as a threat to emotional and place-based continuity, not only a change in entertainment supply", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos online survey of 4,092 adults aged 16+ across England and Wales, including 1,904 supporters of men's clubs in the top five divisions; data were weighted to match the population profile.",
+      "uncertainty": "Distress is self-reported in a hypothetical scenario and does not measure clinical harm, attendance, spending, or actual behavior after a club failure.",
+      "subgroup": "Supporters of men's football clubs in the top five divisions in England and Wales.",
+      "counterinterpretation": "Reported distress may reflect general fandom intensity, local social ties, or survey framing rather than the independent value of club heritage.",
+      "source_url": "https://www.ipsos.com/en-uk/new-research-independent-football-regulator-highlights-importance-club-heritage-football-fans",
+      "retrieval_hash": "sha256:b96e7c7c88eb8e77937ec5209ea7f969bb46f2412b5921be3d55d3754ff9dfb1",
+      "status": "reported"
+    },
+    {
+      "period": "April 10–14, 2026; threatened dissolution and prospective collective action",
+      "denominator": {"value": 1904, "unit": "supporters of at least one men's team in the top five divisions among the weighted England-and-Wales sample", "value_type": "published_subsample"},
+      "measures": {
+        "would_consider_at_least_one_action": {"value": 56, "unit": "percent saying they would consider taking at least one action if their club faced dissolution", "value_type": "published_survey_estimate"},
+        "awareness_or_support_action": {"value": 25, "unit": "percent naming fan or community events, meetings, or online posting as a possible action", "value_type": "published_survey_estimate"},
+        "supporters_trust_action": {"value": 21, "unit": "percent naming joining a supporters' trust or association as a possible action", "value_type": "published_survey_estimate"},
+        "voice_conversion": {"value": "threatened institutional loss can convert cultural attachment into organized, public and associational voice", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos weighted online survey with a hypothetical dissolution scenario and multiple prospective response options.",
+      "uncertainty": "The action estimates measure intention, not mobilization, membership, turnout, policy influence, or successful club rescue; multiple responses and hypothetical wording may affect totals.",
+      "subgroup": "Supporters of men's football clubs in the top five divisions in England and Wales.",
+      "counterinterpretation": "Fans may choose low-cost expressive actions in a survey while not sustaining collective organization when a real insolvency or ownership conflict occurs.",
+      "source_url": "https://www.ipsos.com/en-uk/new-research-independent-football-regulator-highlights-importance-club-heritage-football-fans",
+      "retrieval_hash": "sha256:b96e7c7c88eb8e77937ec5209ea7f969bb46f2412b5921be3d55d3754ff9dfb1",
+      "status": "reported"
+    },
+    {
+      "period": "April 10–14, 2026; elements of club heritage prioritized by supporters",
+      "denominator": {"value": 1904, "unit": "supporters of at least one men's team in the top five divisions among the weighted England-and-Wales sample", "value_type": "published_subsample"},
+      "measures": {
+        "club_history_personal_importance": {"value": 91, "unit": "percent saying club history is personally important", "value_type": "published_survey_estimate"},
+        "stadium_location_traditions_community_engagement": {"value": 87, "unit": "percent saying each of home-stadium location, matchday traditions and atmosphere, community presence, and engagement with fans is personally important", "value_type": "published_survey_estimate"},
+        "club_team_name_importance": {"value": 86, "unit": "percent saying the club team name is personally important", "value_type": "published_survey_estimate"},
+        "heritage_bundle": {"value": "history, place, ritual, community presence, fan relationship and name form a bundled identity asset", "unit": "reported cultural structure", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos survey estimates for supporter-valued components of club heritage.",
+      "uncertainty": "Importance ratings do not rank trade-offs under actual financial distress, identify which changes fans would veto, or establish that every club's supporters share the same heritage bundle.",
+      "subgroup": "Supporters of men's football clubs in the top five divisions in England and Wales.",
+      "counterinterpretation": "High stated importance may coexist with willingness to accept some changes if financial survival, sporting performance, or access improves.",
+      "source_url": "https://www.ipsos.com/en-uk/new-research-independent-football-regulator-highlights-importance-club-heritage-football-fans",
+      "retrieval_hash": "sha256:b96e7c7c88eb8e77937ec5209ea7f969bb46f2412b5921be3d55d3754ff9dfb1",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; regulatory translation of fan heritage and voice",
+      "denominator": {"value": 1, "unit": "Independent Football Regulator institutional framework", "value_type": "institutional_case"},
+      "measures": {
+        "research_policy_link": {"value": "the polling was commissioned to inform the regulator's forthcoming State of the Game report", "unit": "reported policy-use route", "value_type": "reported_institutional_link"},
+        "fan_voice_scope": {"value": "the regulator identifies club identity, heritage and structured fan engagement as matters requiring institutional protection", "unit": "reported regulatory scope", "value_type": "reported_framework"},
+        "translation_gap": {"value": "fan attachment and stated action demand do not by themselves show that consultation changes ownership, stadium, badge, name, ticket, or financial decisions", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Public Ipsos release read with the Independent Football Regulator's official fan-engagement and heritage framework for policy-context triangulation.",
+      "uncertainty": "The release is an initial polling output; the full State of the Game findings and any regulator decisions are not yet available in this source. Institutional scope is not implementation or outcome evidence.",
+      "subgroup": "Supporters, regulated clubs, fan organizations and the Independent Football Regulator.",
+      "counterinterpretation": "Formal fan engagement may improve transparency and reduce avoidable conflict even when it does not grant supporters veto power over every commercial decision.",
+      "source_url": "https://www.footballregulator.org.uk/fans",
+      "retrieval_hash": "sha256:b96e7c7c88eb8e77937ec5209ea7f969bb46f2412b5921be3d55d3754ff9dfb1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-uk/new-research-independent-football-regulator-highlights-importance-club-heritage-football-fans", "claim": "Ipsos primary release with sample, field dates, distress, action and heritage estimates.", "status": "primary-survey-release"},
+    {"source_url": "https://www.footballregulator.org.uk/fans", "claim": "Independent Football Regulator official explanation of fan voice, club heritage and engagement responsibilities.", "status": "official-institutional-context"},
+    {"source_url": "https://www.gov.uk/government/publications/football-governance-bill-supporting-documents/fact-sheet-the-independent-football-regulator-ifr", "claim": "Government fact sheet contextualizing statutory heritage and fan-consultation powers.", "status": "official-policy-context"}
+  ],
+  "boundary": "This record adds a cultural-institutional route: football clubs operate as place-based identity and community infrastructure, and perceived existential threat can convert attachment into prospective fan voice. The Ipsos survey is representative of adults in England and Wales with a weighted supporter subsample, but its dissolution scenario and action items are hypothetical. The record does not establish actual mobilization, financial rescue, attendance, spending, regulator effectiveness, or causal effects of heritage protection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Ipsos primary release reviewed for sample, field dates, distress, prospective action, heritage priorities and State of the Game policy link; the regulator fan page reviewed for institutional context.",
+    "source_url_sha256": "sha256:b96e7c7c88eb8e77937ec5209ea7f969bb46f2412b5921be3d55d3754ff9dfb1",
+    "checked": "2026-09-28"
+  }
+}

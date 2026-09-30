@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade",
+  "title": "Brazil’s cultural economy is large and regionally uneven, with employment growth alongside informality and a weak education-to-cultural-work conversion",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "IBGE Sistema de Informações e Indicadores Culturais 2013-2024, seventh edition",
+  "geography": "Brazil; national, state, capital-municipality, sector, occupation, education, and cultural-trade comparisons",
+  "observations": [
+    {
+      "period": "2014-2024; cultural-sector employment and regional distribution",
+      "denominator": {"value": null, "unit": "Brazilian population aged 14 and over in PNAD Contínua cultural-occupation estimates; national and state comparisons", "value_type": "not_disclosed"},
+      "measures": {
+        "cultural_occupations_2024": {"value": 5900000, "unit": "people occupied in the cultural sector in 2024, approximately", "value_type": "reported_population_estimate"},
+        "cultural_share_occupations_2024": {"value": 5.8, "unit": "percent of total occupied people represented by cultural-sector occupations in 2024", "value_type": "reported_share"},
+        "highest_state_shares": {"value": "São Paulo 7.6%; Rio de Janeiro 7.0%; Ceará 7.0%", "unit": "share of occupied people in cultural-sector occupations", "value_type": "reported_regional_distribution"},
+        "lowest_state_shares": {"value": "Acre 2.7%; Amapá 2.8%; Rondônia 2.0%", "unit": "share of occupied people in cultural-sector occupations", "value_type": "reported_regional_distribution"},
+        "mechanism": {"value": "Cultural participation and consumer demand depend on a geographically uneven production and labor base; cultural opportunity is also an employment and place-economy question", "unit": "bounded cultural-economy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "IBGE synthesis using PNAD Contínua 2014-2024 cultural-occupation estimates, with state and capital-municipality comparisons.",
+      "uncertainty": "The cultural-sector boundary is classification-dependent and combines occupations or activities with heterogeneous cultural content. Employment counts do not establish job quality, earnings, audience access, firm survival, or causal effects of cultural policy.",
+      "subgroup": "People aged 14 and over in cultural-sector occupations, by state and capital municipality; the source also provides selected demographic comparisons.",
+      "counterinterpretation": "Higher cultural-occupation shares may reflect industrial composition, urban concentration, classification, or commuting rather than greater cultural participation or local cultural welfare.",
+      "source_url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/b6c6d2b70f490c4eba9e52403fcec31b.pdf",
+      "retrieval_hash": "sha256:4996ddb4362710d9de1468883af9c27bb2b24e4467b62f126e9269f63665acf9",
+      "status": "reported"
+    },
+    {
+      "period": "2022 and 2024; cultural labor composition and formalization",
+      "denominator": {"value": 100, "unit": "people, businesses, or microentrepreneurs within the relevant IBGE cultural-sector comparison", "value_type": "reported_percentage_denominator"},
+      "measures": {
+        "cultural_sector_business_share_2022": {"value": 6.8, "unit": "percent of businesses in the CEMPRE cultural-sector frame", "value_type": "reported_share"},
+        "cultural_sector_occupied_share_cempre_2022": {"value": 4.2, "unit": "percent of occupied people in the CEMPRE cultural-sector frame", "value_type": "reported_share"},
+        "cultural_sector_wage_mass_share_2022": {"value": 4.5, "unit": "percent of wage mass in the CEMPRE cultural-sector frame", "value_type": "reported_share"},
+        "cultural_mei_share_2022": {"value": 9.5, "unit": "percent of Brazilian individual microentrepreneurs in the cultural sector, about 1.4 million MEI", "value_type": "reported_share"},
+        "cultural_informality_2024": {"value": 44.6, "unit": "percent of cultural-sector occupations classified as informal, versus 40.6% across all sectors", "value_type": "reported_comparative_share"},
+        "self_employment_2024": {"value": 43.0, "unit": "percent of cultural-sector workers who were self-employed, versus 25.2% across all sectors", "value_type": "reported_comparative_share"},
+        "mechanism": {"value": "Cultural production supplies substantial entrepreneurial and self-employed work while carrying higher informality than the economy overall, making cultural consumption and cultural livelihood jointly sensitive to household room and labor protection", "unit": "bounded labor-formality mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "IBGE combination of CEMPRE 2022, individual microentrepreneur statistics, and PNAD Contínua 2024 cultural-labor indicators; units are not pooled across sources.",
+      "uncertainty": "Business, MEI, occupied-person, wage-mass, and informality denominators differ. Informality is a proxy classification; the source does not establish earnings, volatility, social protection, firm survival, or consumer prices.",
+      "subgroup": "Cultural-sector businesses, MEI, workers, self-employed people, and informal workers in Brazil; detailed regional and activity-class differences are available in the source tables.",
+      "counterinterpretation": "High MEI or self-employment shares can indicate entrepreneurship, constrained formal employment, or both. A large cultural sector does not imply secure creative livelihoods or broad audience access.",
+      "source_url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/b6c6d2b70f490c4eba9e52403fcec31b.pdf",
+      "retrieval_hash": "sha256:4996ddb4362710d9de1468883af9c27bb2b24e4467b62f126e9269f63665acf9",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; cultural education conversion and international cultural trade",
+      "denominator": {"value": null, "unit": "Brazilian cultural-sector education, occupation, goods-trade, and services-trade frames; denominators vary by component", "value_type": "not_disclosed"},
+      "measures": {
+        "culture_graduates_in_cultural_sector": {"value": 25.4, "unit": "percent of people aged 25 and over with a culture-related completed degree who were occupied in the cultural sector in 2022", "value_type": "reported_share"},
+        "culture_graduates_outside_sector": {"value": 74.6, "unit": "percent of people aged 25 and over with a culture-related completed degree who worked outside the cultural sector in 2022", "value_type": "reported_share"},
+        "cultural_goods_exports_2024": {"value": 4.0, "unit": "billion Brazilian reais in cultural-goods exports in 2024", "value_type": "reported_trade_value"},
+        "cultural_goods_imports_2024": {"value": 20.8, "unit": "billion Brazilian reais in cultural-goods imports in 2024", "value_type": "reported_trade_value"},
+        "audiovisual_services_trade_2024": {"value": "about R$2.8 billion in exports and R$2.8 billion in imports", "unit": "reported audiovisual and related services trade", "value_type": "reported_trade_value"},
+        "mechanism": {"value": "Cultural capability can be produced through education without converting into cultural-sector work, while international cultural demand and supply are materially asymmetric by goods and more balanced in audiovisual services", "unit": "bounded education-to-work and trade mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "IBGE Censo Demográfico 2022 education/occupation tables and cultural-goods and services trade data from SECEX/MDIC and Banco Central do Brasil.",
+      "uncertainty": "Education-to-work figures are cross-sectional and do not establish why graduates work outside culture. Trade values do not measure cultural influence, domestic access, firm nationality, consumer welfare, or the distribution of export and import gains.",
+      "subgroup": "People aged 25 and over with culture-related degrees, cultural goods, and audiovisual or related services; state-level education-to-work comparisons are reported.",
+      "counterinterpretation": "Working outside the cultural sector may reflect transferable skills or broader labor opportunities rather than wasted training; cultural imports can expand choice and participation rather than simply represent dependency.",
+      "source_url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/b6c6d2b70f490c4eba9e52403fcec31b.pdf",
+      "retrieval_hash": "sha256:4996ddb4362710d9de1468883af9c27bb2b24e4467b62f126e9269f63665acf9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ibge.gov.br/estatisticas/multidominio/cultura-recreacao-e-esporte/9388-indicadores-culturais.html%7C", "claim": "IBGE SIIC 2013-2024 landing page with tables, concepts, methods, and disaggregated data downloads.", "status": "official-data-route"},
+    {"source_url": "https://www.gov.br/cultura/pt-br/assuntos/acoes-programas-e-politicas/sniic/", "claim": "Brazil Ministry of Culture SNIIC context for cultural indicators and participatory data governance.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a Brazil cultural-production, labor, entrepreneurship, education, trade, and regional-inequality layer beneath cultural participation and consumer-demand findings. It does not establish cultural welfare, audience access, job quality, causal policy effects, or household-level spending and participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IBGE SIIC 2013-2024 informative PDF reviewed for cultural employment, regional shares, business and MEI structure, informality, self-employment, education-to-work conversion, and cultural trade.",
+    "pdf_sha256": "sha256:4996ddb4362710d9de1468883af9c27bb2b24e4467b62f126e9269f63665acf9",
+    "checked": "2026-09-30"
+  }
+}

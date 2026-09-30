@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-mycode-culture360-multicultural-pride-safety-trust-2026",
+  "title": "Shared national pride coexists with unequal community safety and a gap between cultural recognition and political trust",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "platforms_data_attention"
+  ],
+  "source_unit": "My Code, Culture 360 Political Tracker Wave 15: Beyond the Vote: Why Midterm Persuasion Requires Cultural Relevance",
+  "geography": "United States; eligible voters ages 18–64, with Hispanic, Black, AANHPI, and non-multicultural comparison groups",
+  "observations": [
+    {
+      "period": "July 2026 Wave 15; national pride and perceived political-violence risk",
+      "denominator": {"value": 3219, "unit": "U.S. eligible voters ages 18–64 in the My Code Wave 15 online survey", "value_type": "reported_weighted_online_sample"},
+      "measures": {
+        "national_pride": {"value": "roughly three-quarters in every community say they are proud to be American", "unit": "reported cross-community pattern", "value_type": "reported_comparison"},
+        "political_violence_concern": {"value": 53, "unit": "percent of eligible voters concerned about political violence", "value_type": "reported_share"},
+        "community_risk_difference": {"value": {"Hispanic": 60, "Black": 52, "AANHPI": 46, "non_multicultural": 38}, "unit": "percent among respondents concerned about political violence who say their own community faces greater risk than others", "value_type": "reported_subgroup_shares"},
+        "pride_safety_gap": {"value": "shared national identity does not imply shared experience of safety", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted online survey fielded through July 8, 2026; reported unweighted bases are Hispanic n=651, Black n=650, AANHPI n=628, and non-multicultural n=1,243. Risk figures are based on 2,781 respondents concerned about political violence.",
+      "uncertainty": "The study measures perceptions and self-identification, not verified exposure to violence, objective community risk, or causal effects of campaign messages.",
+      "subgroup": "Hispanic, Black, AANHPI, and non-multicultural eligible voters ages 18–64.",
+      "counterinterpretation": "Differences may reflect local context, news exposure, partisanship, socioeconomic conditions, or question interpretation rather than an intrinsic group-level safety condition.",
+      "source_url": "https://www.prnewswire.com/news-releases/new-my-code-research-finds-multicultural-voters-share-the-nations-pride-but-not-its-sense-of-safety-302889544.html",
+      "retrieval_hash": "sha256:000cdaf2a992637d9c44e9d5d4c68a929fce3125a8c17e1b8015161758c0c1ea",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026 Wave 15; cultural recognition and political trust",
+      "denominator": {"value": 3219, "unit": "U.S. eligible voters ages 18–64 in the My Code Wave 15 online survey; subgroup bases vary", "value_type": "reported_weighted_online_sample"},
+      "measures": {
+        "black_understood_consideration": {"value": 48, "unit": "percent of Black eligible voters saying feeling understood would increase candidate consideration", "value_type": "reported_share"},
+        "black_understood_trust": {"value": 42, "unit": "percent of Black eligible voters saying feeling understood would increase trust", "value_type": "reported_share"},
+        "non_multicultural_consideration": {"value": 60, "unit": "percent of non-multicultural voters saying feeling understood would increase consideration", "value_type": "reported_share"},
+        "non_multicultural_trust": {"value": 56, "unit": "percent of non-multicultural voters saying feeling understood would increase trust", "value_type": "reported_share"},
+        "recognition_trust_gap": {"value": "being understood can open consideration without transferring into trust", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted cross-sectional survey estimates on the stated effects of feeling understood; the release does not publish the full question wording or all subgroup confidence intervals.",
+      "uncertainty": "Consideration and trust are stated attitudinal responses, not observed vote choice, candidate evaluation, message exposure, or durable institutional legitimacy.",
+      "subgroup": "Black and non-multicultural eligible voters, with the wider tracker also reporting Hispanic and AANHPI groups.",
+      "counterinterpretation": "The difference may reflect baseline trust, candidate context, political identity, wording, or different meanings attached to being understood rather than a universal conversion rule.",
+      "source_url": "https://www.prnewswire.com/news-releases/new-my-code-research-finds-multicultural-voters-share-the-nations-pride-but-not-its-sense-of-safety-302889544.html",
+      "retrieval_hash": "sha256:000cdaf2a992637d9c44e9d5d4c68a929fce3125a8c17e1b8015161758c0c1ea",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026 Wave 15; prior vote continuity and participation uncertainty",
+      "denominator": {"value": 3219, "unit": "U.S. eligible voters ages 18–64 in the My Code Wave 15 online survey", "value_type": "reported_weighted_online_sample"},
+      "measures": {
+        "repeat_2024_choice": {"value": 44, "unit": "percent saying they would repeat their 2024 vote choice", "value_type": "reported_share"},
+        "nonparticipation": {"value": 19, "unit": "percent saying they would not vote", "value_type": "reported_share"},
+        "uncertainty": {"value": 15, "unit": "percent unsure what they would do", "value_type": "reported_share"},
+        "vote_switching": {"value": 10, "unit": "percent saying they would vote differently", "value_type": "reported_share"},
+        "persuadability_boundary": {"value": "reduced vote continuity is not equivalent to candidate openness because nonparticipation and uncertainty are separate routes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Wave 15 comparison with Wave 14 from the Culture 360 Political Tracker; the release reports the percentage-point change and response categories.",
+      "uncertainty": "These are hypothetical or stated intentions during an election cycle, not validated turnout, eventual vote choice, or causal response to campaign communication.",
+      "subgroup": "Multicultural eligible voters and the broader eligible-voter sample ages 18–64; detailed group bases are not supplied for every response category in the release.",
+      "counterinterpretation": "A lower repeat-choice share can reflect dissatisfaction, uncertainty, abstention, measurement timing, or changing candidate fields rather than persuasion opportunity.",
+      "source_url": "https://www.prnewswire.com/news-releases/new-my-code-research-finds-multicultural-voters-share-the-nations-pride-but-not-its-sense-of-safety-302889544.html",
+      "retrieval_hash": "sha256:000cdaf2a992637d9c44e9d5d4c68a929fce3125a8c17e1b8015161758c0c1ea",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026 Wave 15; issue pressure and information overload",
+      "denominator": {"value": 3219, "unit": "U.S. eligible voters ages 18–64 in the My Code Wave 15 online survey", "value_type": "reported_weighted_online_sample"},
+      "measures": {
+        "cost_of_goods": {"value": 39, "unit": "percent naming cost of goods as a leading household concern overall", "value_type": "reported_share"},
+        "aanhpi_cost_of_goods": {"value": 44, "unit": "percent of AANHPI voters naming cost of goods as a leading concern", "value_type": "reported_share"},
+        "black_hispanic_housing": {"value": 28, "unit": "percent of Black and Hispanic voters naming housing as a leading concern", "value_type": "reported_share"},
+        "political_news_overload": {"value": "between 52% and 67% across communities feel overwhelmed by the daily volume of political news", "unit": "reported cross-community range", "value_type": "reported_range"},
+        "issue_to_attention_route": {"value": "material concerns and political-news overload may constrain how cultural messages become usable political attention", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted cross-sectional online survey with community-specific reporting of household concerns and political-news volume.",
+      "uncertainty": "Concern and overwhelm are self-reported; the release does not establish whether information volume causes nonparticipation, issue prioritization, or message rejection.",
+      "subgroup": "Hispanic, Black, AANHPI, non-multicultural, and overall eligible-voter groups.",
+      "counterinterpretation": "News overload can coexist with high engagement and may reflect political salience rather than disengagement; issue shares are not household expenditure or housing-cost measures.",
+      "source_url": "https://www.prnewswire.com/news-releases/new-my-code-research-finds-multicultural-voters-share-the-nations-pride-but-not-its-sense-of-safety-302889544.html",
+      "retrieval_hash": "sha256:000cdaf2a992637d9c44e9d5d4c68a929fce3125a8c17e1b8015161758c0c1ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.prnewswire.com/news-releases/new-my-code-research-finds-multicultural-voters-share-the-nations-pride-but-not-its-sense-of-safety-302889544.html", "claim": "My Code release reports Wave 15 field dates, sample, subgroup bases, and topline cultural-political findings.", "status": "primary-release"},
+    {"source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx", "claim": "Gallup/Kettering provides a separate broad democratic-performance and local-national legitimacy comparison.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record adds a sponsor-produced cultural-political mechanism: national pride can coexist with unequal community safety perceptions; cultural recognition can increase consideration without producing trust; and weakening vote continuity can split into switching, uncertainty, and nonparticipation. It does not establish objective community risk, causal persuasion, validated turnout, or durable trust change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official My Code release carried by PR Newswire was reviewed for Wave 15 field dates, overall and subgroup bases, pride/safety, recognition/trust, vote-continuity, household-concern, and political-news-overload findings.",
+    "source_url_sha256": "sha256:000cdaf2a992637d9c44e9d5d4c68a929fce3125a8c17e1b8015161758c0c1ea",
+    "checked": "2026-09-28"
+  }
+}

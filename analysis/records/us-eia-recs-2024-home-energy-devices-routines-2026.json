@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eia-recs-2024-home-energy-devices-routines-2026",
+  "title": "The American home is becoming a hybrid energy, media, and smart-device environment with persistent regional and housing-type differences",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Energy Information Administration 2024 Residential Energy Consumption Survey Housing Characteristics Highlights",
+  "geography": "United States; primary-residence housing units in all 50 states and the District of Columbia",
+  "observations": [
+    {
+      "period": "2024; national RECS housing-characteristics frame",
+      "denominator": {"value": 17000, "unit": "nearly 17,000 statistically selected households representing 132.5 million occupied primary-residence housing units", "value_type": "published_survey_sample_and_population_frame"},
+      "measures": {
+        "national_coverage": {"value": 132.5, "unit": "million occupied primary-residence housing units represented", "value_type": "published_population_estimate"},
+        "survey_scope": {"value": "housing structure, appliances, electronics, lighting, demographics, square footage, and household energy characteristics are measured in one national source", "unit": "reported measurement scope", "value_type": "reported_scope"},
+        "supplier_linkage": {"value": "energy usage data were collected from electricity, natural-gas, fuel-oil, and propane suppliers for the same housing units", "unit": "reported data-linkage design", "value_type": "reported_method"}
+      },
+      "method": "EIA nationally representative RECS household survey combined with supplier energy-use data; September 2026 release reports preliminary housing characteristics and schedules final consumption and expenditure tables for 2027.",
+      "uncertainty": "The September 2026 release is preliminary for housing characteristics; the full consumption and expenditure estimates and final public-use microdata were not yet released, so these observations do not estimate current bills or causal energy savings.",
+      "subgroup": "Primary-residence households, housing types, regions, appliance users, media-device users, and households with different energy and technology environments.",
+      "counterinterpretation": "A nationally representative frame does not eliminate nonresponse, recall, supplier-linkage, or category-definition limits; ownership and use are not equivalent to affordability, satisfaction, or welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2024/pdf/RECS%20HC%20Flipbook%202026.pdf",
+      "retrieval_hash": "sha256:16e8b5470453b715b729ba1b23eb577e3c7871c45859adedc4d54be18aa9da30",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2024; household media and connected-home routines",
+      "denominator": {"value": 132.5, "unit": "million occupied primary-residence housing units represented by RECS", "value_type": "published_population_estimate"},
+      "measures": {
+        "streaming_device_use": {"value": "56 to 66", "unit": "percent of households using any streaming device, 2020 to 2024", "value_type": "reported_comparison"},
+        "television_peripheral_shift": {"value": "use of cable boxes, DVRs, and DVD players declined while streaming-device use increased", "unit": "reported household technology pattern", "value_type": "reported_pattern"},
+        "smart_speaker_ownership": {"value": "32 to 36", "unit": "percent of households with a smart speaker, 2020 to 2024", "value_type": "reported_comparison"},
+        "connected_home_control": {"value": "more households used smart speakers to control lighting, security, and temperature in 2024 than in 2020", "unit": "reported home-control pattern", "value_type": "reported_pattern"}
+      },
+      "method": "EIA comparison of RECS household electronics and smart-speaker ownership/use measures for 2020 and 2024.",
+      "uncertainty": "The release reports ownership and self-reported use, not minutes of attention, content choices, energy consumption by device, privacy effects, or household-level reasons for adoption.",
+      "subgroup": "Households using streaming devices, smart speakers, connected lighting, security, temperature control, and older television peripherals.",
+      "counterinterpretation": "Device substitution can reduce equipment counts without reducing total screen time or energy demand; smart-device control may supplement rather than replace manual control.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2024/pdf/RECS%20HC%20Flipbook%202026.pdf",
+      "retrieval_hash": "sha256:16e8b5470453b715b729ba1b23eb577e3c7871c45859adedc4d54be18aa9da30",
+      "status": "reported"
+    },
+    {
+      "period": "2009-2024; household lighting transition",
+      "denominator": {"value": 132.5, "unit": "million occupied primary-residence housing units represented by RECS", "value_type": "published_population_estimate"},
+      "measures": {
+        "led_all_or_most": {"value": 63, "unit": "percent of U.S. households using LED bulbs for all or most indoor lighting in 2024", "value_type": "reported_share"},
+        "led_housing_difference": {"value": "65 percent of single-family homes, 57 percent of apartments, and 56 percent of mobile homes used LEDs for all or most indoor lighting", "unit": "reported housing-type comparison", "value_type": "reported_comparison"},
+        "legacy_lighting": {"value": "10 percent used incandescent or halogen bulbs and 7 percent used CFLs for all or most indoor lighting", "unit": "reported share", "value_type": "reported_share"}
+      },
+      "method": "EIA RECS housing-type and lighting-use estimates from the 2024 household survey.",
+      "uncertainty": "Lighting type and use are reported household characteristics; the release does not estimate purchase timing, landlord control, retrofit cost, energy savings, or whether differences reflect access, preference, or building constraints.",
+      "subgroup": "Single-family households, apartment households, mobile-home households, and households using LED, incandescent, halogen, or CFL lighting.",
+      "counterinterpretation": "The housing-type gap is modest and may narrow as products are replaced; LED prevalence is not a direct measure of energy burden or environmental behavior.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2024/pdf/RECS%20HC%20Flipbook%202026.pdf",
+      "retrieval_hash": "sha256:16e8b5470453b715b729ba1b23eb577e3c7871c45859adedc4d54be18aa9da30",
+      "status": "reported"
+    },
+    {
+      "period": "2024; regional home form and everyday household routines",
+      "denominator": {"value": 1, "unit": "RECS national and regional housing-characteristics estimates", "value_type": "published_estimate_frame"},
+      "measures": {
+        "regional_structure": {"value": "basements were more common in the Northeast and Midwest, attics in the South, and attached garages in the West", "unit": "reported regional housing pattern", "value_type": "reported_comparison"},
+        "daily_hot_food": {"value": "more than one-half of households in every state cooked hot food daily, ranging from about 58-59 percent in Louisiana and Alabama to about 84 percent in Wisconsin, Oregon, and Montana", "unit": "reported state comparison", "value_type": "reported_comparison"},
+        "dishwasher_nonuse": {"value": 14, "unit": "percent of U.S. homes that had a dishwasher but did not use it; 20 percent among apartments in buildings with five or more units", "value_type": "reported_share_and_subgroup_comparison"},
+        "cooled_space_difference": {"value": "heated and cooled portions of homes vary by census division, with warmer regions showing a smaller gap between heated and cooled square footage", "unit": "reported regional energy-use context", "value_type": "reported_pattern"}
+      },
+      "method": "EIA RECS regional, state, housing-type, appliance-use, and square-footage estimates.",
+      "uncertainty": "These are descriptive housing and routine measures; they do not establish why households cook, use dishwashers, or condition space differently, nor do they estimate time burden, food quality, or energy cost by household.",
+      "subgroup": "Households in different census divisions and states, housing types, building ages, and appliance environments.",
+      "counterinterpretation": "Regional differences can reflect climate, housing stock, culture, household composition, appliance availability, and reporting; they should not be reduced to a single efficiency or lifestyle explanation.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2024/pdf/RECS%20HC%20Flipbook%202026.pdf",
+      "retrieval_hash": "sha256:16e8b5470453b715b729ba1b23eb577e3c7871c45859adedc4d54be18aa9da30",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://scholars.duke.edu/publication/1915689", "claim": "Duke's Cost of Keeping Cool report supplies a separate mechanism linking energy burden and extreme heat to safe-home function and cooling access.", "status": "official_comparator"},
+    {"source_url": "https://www.eia.gov/consumption/residential/", "claim": "EIA RECS landing page supplies the release schedule, methodological context, and future consumption/expenditure release boundary.", "status": "official_context"}
+  ],
+  "boundary": "This record adds a U.S. home-environment route connecting housing form, energy infrastructure, appliances, media devices, smart-home control, lighting transition, regional routines, and household energy measurement. It does not establish household bills, causal savings, attention or cultural meaning, privacy effects, time burden, affordability, or the final 2024 consumption and expenditure estimates, which EIA scheduled for later release.",
+  "retrieval_hash": "sha256:16e8b5470453b715b729ba1b23eb577e3c7871c45859adedc4d54be18aa9da30"
+}

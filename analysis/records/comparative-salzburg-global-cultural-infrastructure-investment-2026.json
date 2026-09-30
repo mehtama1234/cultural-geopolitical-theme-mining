@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-salzburg-global-cultural-infrastructure-investment-2026",
+  "title": "Cultural institutions are being reframed as civic infrastructure whose funding, governance, and invisible labor shape social resilience and public legitimacy",
+  "theme_ids": ["voice", "cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Salzburg Global, Creating Futures: Rethinking Cultural Institutions, Infrastructure, and Investment, September 2026",
+  "geography": "Cultural institutions, funders, policymakers, and creative-economy actors from more than 25 countries",
+  "observations": [
+    {
+      "period": "September 2026; cultural infrastructure and civic life",
+      "denominator": {"value": 45, "unit": "institutional leaders, cultural funders, policymakers, and creative-economy actors participating in the session", "value_type": "published_participant_count_approximate"},
+      "measures": {
+        "cross_country_scope": {"value": "participants came from more than 25 countries", "unit": "reported participant geography", "value_type": "reported_scope"},
+        "culture_as_infrastructure": {"value": "the session argues that culture should be treated as civic infrastructure alongside transport, education, environment, and public health rather than as a discretionary sector", "unit": "reported institutional frame", "value_type": "reported_synthesis"},
+        "measurement_route": {"value": "a proposed Cultural Intelligence Platform would map cultural assets and track value beyond economic indicators", "unit": "reported policy tool", "value_type": "reported_policy_option"}
+      },
+      "method": "Salzburg Global facilitated international session, working groups, prototyping, and digital publication of participant insights.",
+      "uncertainty": "This is a curated convening and policy-development publication, not a representative survey or evaluation of cultural institutions’ effects on civic cohesion.",
+      "subgroup": "Cultural institutions, artists, funders, policymakers, creative-economy actors, communities, educators, health and climate planners, and civic organizations.",
+      "counterinterpretation": "Calling culture infrastructure may improve recognition and coordination, but can also instrumentalize cultural work or divert resources from artistic autonomy.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-creating-futures-rethinking-cultural-institutions-infrastructure-and-investment",
+      "retrieval_hash": "sha256:6a94ee636da6e6a8f9c09c4d1e4c19a3794bcb030cff80f1b45cff06ada51248",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; cultural funding, sovereignty, and ecosystem capacity",
+      "denominator": {"value": 1, "unit": "Salzburg Global cultural-funding framework", "value_type": "qualitative_institutional_frame"},
+      "measures": {
+        "funding_shift": {"value": "the discussion shifts from obtaining more money to changing the conditions under which money flows", "unit": "reported funding frame", "value_type": "reported_synthesis"},
+        "sovereignty": {"value": "external funding can influence cultural identity and direction, making cultural sovereignty a governance issue", "unit": "reported power mechanism", "value_type": "reported_mechanism"},
+        "ecosystem_route": {"value": "data, coalitions, investable enterprises, regional partnerships, and cross-ministry budgeting are framed as capacity required before capital arrives", "unit": "reported ecosystem policy set", "value_type": "reported_policy_set"},
+        "test_contexts": {"value": "the ecosystem-building approach was applied first to Tunisia and Malta as iterative test contexts", "unit": "reported implementation context", "value_type": "reported_case_frame"}
+      },
+      "method": "Salzburg Global working-group synthesis of cultural financing, coalitions, governance, and local prototyping.",
+      "uncertainty": "The proposed tools and test contexts do not establish financial viability, scalability, local ownership, or distribution of funding benefits.",
+      "subgroup": "Cultural workers, artist-led partnerships, donors, public funders, creative enterprises, regional governments, and communities in post-conflict or high-emigration contexts.",
+      "counterinterpretation": "External capital can expand cultural capacity when terms are transparent, locally governed, and aligned with community priorities.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-creating-futures-rethinking-cultural-institutions-infrastructure-and-investment",
+      "retrieval_hash": "sha256:6a94ee636da6e6a8f9c09c4d1e4c19a3794bcb030cff80f1b45cff06ada51248",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; governance, representation, and institutional trust",
+      "denominator": {"value": 1, "unit": "Salzburg Global cultural-governance framework", "value_type": "qualitative_governance_frame"},
+      "measures": {
+        "power_visibility": {"value": "governance is framed as relational and political, requiring power and competing accountabilities to be made visible", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "trust_diagnostic": {"value": "Groundwork Griot is proposed as a trust diagnostic that can produce different institutional assessments depending on which community answers", "unit": "reported governance tool", "value_type": "reported_policy_option"},
+        "representation": {"value": "the publication argues that missing voices should enter decision-making before bold decisions, because representation precedes ambition", "unit": "reported participation principle", "value_type": "reported_synthesis"},
+        "accountability_route": {"value": "good governance is framed as making competing loyalties visible rather than pretending they can be removed", "unit": "analytic governance route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Salzburg Global participatory governance discussion and prototype development within the cultural-institution session.",
+      "uncertainty": "These are design principles and prototypes, not evidence that the tools change board decisions, trust, representation, or institutional performance.",
+      "subgroup": "Boards, staff, donors, artists, communities, public authorities, marginalized groups, and cultural institutions with competing accountabilities.",
+      "counterinterpretation": "Formal representation can become symbolic without decision rights, resources, feedback, and protection for internal critique.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-creating-futures-rethinking-cultural-institutions-infrastructure-and-investment",
+      "retrieval_hash": "sha256:6a94ee636da6e6a8f9c09c4d1e4c19a3794bcb030cff80f1b45cff06ada51248",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; invisible labor and cultural-work conditions",
+      "denominator": {"value": 1, "unit": "Salzburg Global cultural-labor assessment", "value_type": "qualitative_labor_frame"},
+      "measures": {
+        "invisible_work": {"value": "unpaid and informal producers, connectors, mentors, intermediaries, and translators are described as scaffolding the cultural field without being recognized as professionals", "unit": "reported labor pattern", "value_type": "reported_mechanism_set"},
+        "unequal_burden": {"value": "this labor is described as disproportionately performed by women, racialized workers, Global South participants, and early-career professionals", "unit": "reported distributional pattern", "value_type": "reported_subgroup_pattern"},
+        "protection_route": {"value": "the proposed shift is from informal sacrifice to named, contracted, and structurally protected labor, supported by fee calculators, fair-pay benchmarks, contracts, and IP tools", "unit": "reported labor-policy set", "value_type": "reported_policy_set"},
+        "open_test": {"value": "connect cultural-infrastructure recognition to actual budgets, pay, contracts, access, worker power, and community outcomes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Salzburg Global qualitative synthesis of cultural-worker discussions and practical tool prototypes.",
+      "uncertainty": "The publication does not quantify the cultural labor force, pay gaps, contract coverage, or the effects of proposed tools.",
+      "subgroup": "Cultural workers, producers, mentors, translators, early-career professionals, women, racialized workers, and Global South practitioners.",
+      "counterinterpretation": "Informal cultural labor can provide meaning and mutual aid, but reliance on personal sacrifice can reproduce exclusion and precarity.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-creating-futures-rethinking-cultural-institutions-infrastructure-and-investment",
+      "retrieval_hash": "sha256:6a94ee636da6e6a8f9c09c4d1e4c19a3794bcb030cff80f1b45cff06ada51248",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.uis.unesco.org/en/news/shape-future-cultural-and-creative-statistics-global-consultation-now-open", "claim": "UNESCO UIS cultural and creative statistics framework provides complementary measurement and governance context."},
+    {"source_url": "https://www.unesco.org/en/articles/young-leaders-call-new-culture-peace?hub=918", "claim": "UNESCO youth culture-of-peace work provides complementary voice, representation, and institutional legitimacy context."}
+  ],
+  "boundary": "This record adds a cultural-infrastructure route from civic meaning and institutional funding through sovereignty, representation, trust, invisible labor, and public-system coordination. It is a curated international convening and prototype publication, not representative cultural-sector opinion, causal evaluation, budget data, worker panel data, or proof that proposed tools improve equity or resilience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Salzburg Global September 2026 publication page was reviewed for participant scope, culture-as-infrastructure framing, funding and sovereignty, governance and representation, invisible labor, and proposed prototypes.",
+    "source_url_sha256": "sha256:6a94ee636da6e6a8f9c09c4d1e4c19a3794bcb030cff80f1b45cff06ada51248",
+    "checked": "2026-09-26"
+  }
+}

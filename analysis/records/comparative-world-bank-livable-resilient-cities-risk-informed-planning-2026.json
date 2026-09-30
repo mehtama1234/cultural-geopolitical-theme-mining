@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-livable-resilient-cities-risk-informed-planning-2026",
+  "title": "Urban resilience is shifting from post-disaster response toward risk-informed spatial planning that governs where growth, housing, services and infrastructure can safely occur",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Handbook for Livable and Resilient Cities: Integrating Hazard and Risk Information into Urban Planning",
+  "geography": "Global urban-planning framework with examples and guidance for national and local governments, especially in rapidly urbanizing and emerging-economy contexts",
+  "observations": [
+    {
+      "period": "2026 handbook; definition of livable and resilient urban development",
+      "denominator": {"value": 1, "unit": "global urban-planning framework", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "livability_bundle": {"value": "green and resilient growth, social inclusion, resilient built environments and shared prosperity", "unit": "reported framework components", "value_type": "reported_policy_interpretation"},
+        "access_bundle": {"value": "healthy environments, affordable housing, essential services, jobs, and low-carbon transportation and economies", "unit": "reported access conditions for livable cities", "value_type": "reported_framework_component"},
+        "risk_scope": {"value": "urban risk is shaped by the interaction of hazards, exposure, vulnerability, infrastructure, ecosystems and governance", "unit": "reported systems framing", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank conceptual and operational handbook synthesizing urbanization, hazard, climate, spatial-planning, infrastructure, governance and resilience practice.",
+      "uncertainty": "The framework identifies conditions and planning routes rather than estimating one global effect of risk-informed planning on safety, mobility, health or economic opportunity.",
+      "subgroup": "Urban residents, low-income households, informal-settlement residents, local governments, planners, infrastructure providers, employers and communities exposed to climate and disaster risks.",
+      "counterinterpretation": "Urban growth can reduce risk through density, proximity, services and economic opportunity when governance and infrastructure keep pace; risk is not an inevitable consequence of urbanization.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121825202522885",
+      "retrieval_hash": "sha256:bff081af2e70720e71fc75926139a2a0b4cc7bb2eec62c5b155ffcffa024c7aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 handbook; risk-informed spatial planning and development control",
+      "denominator": {"value": 1, "unit": "risk-informed planning instrument framework", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "restrict": {"value": "restrict development in high-hazard or unacceptable-risk areas and preserve zones for protection, buffers or ecosystem functions", "unit": "RCP planning instrument", "value_type": "reported_policy_route"},
+        "condition": {"value": "condition development on risk studies and measures such as elevation, structural reinforcement, drainage control or hazard-specific standards", "unit": "RCP planning instrument", "value_type": "reported_policy_route"},
+        "promote": {"value": "promote growth toward safer areas through public investment, incentives and nature-based solutions", "unit": "RCP planning instrument", "value_type": "reported_policy_route"},
+        "planning_shift": {"value": "risk data should guide zoning, infrastructure siting and investment before disasters occur", "unit": "reported governance direction", "value_type": "reported_interpretation"}
+      },
+      "method": "Handbook operational framework translating hazard and risk information into land-use rules, investment priorities and development standards.",
+      "uncertainty": "The RCP framework is a planning model; implementation depends on land administration, enforcement, finance, political authority, compensation, participation and the quality of hazard data.",
+      "subgroup": "Residents and landholders in hazard-prone areas, informal settlements, developers, infrastructure agencies, planners, elected officials and affected communities.",
+      "counterinterpretation": "Restrictions or relocation can impose costs, disrupt livelihoods and reproduce exclusion if safer land, housing, transport, services and participation are not provided.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099121825202522885/pdf/P513458-fbac933c-775e-4c87-84c4-10a6d77ef5c5.pdf",
+      "retrieval_hash": "sha256:bff081af2e70720e71fc75926139a2a0b4cc7bb2eec62c5b155ffcffa024c7aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 handbook; institutional capacity and implementation",
+      "denominator": {"value": 1, "unit": "national and local planning-capacity synthesis", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "data_capacity": {"value": "many cities, especially in emerging economies, lack the data systems and institutional capacity to translate hazard information into planning decisions", "unit": "reported implementation constraint", "value_type": "reported_interpretation"},
+        "multi_level_governance": {"value": "effective risk-informed planning requires coordination among urban planners, disaster-risk managers, climate-risk managers and multiple levels of government", "unit": "reported governance requirement", "value_type": "reported_policy_interpretation"},
+        "implementation_cycle": {"value": "context diagnosis, plan formulation, implementation, monitoring and evaluation should be linked as a continuous planning cycle", "unit": "reported operational sequence", "value_type": "reported_framework_component"},
+        "participation": {"value": "governance, community participation and accountability are part of the enabling environment for enforceable risk-informed plans", "unit": "reported institutional condition", "value_type": "reported_policy_interpretation"}
+      },
+      "method": "World Bank guidance on enabling environments, risk assessment, plan formulation, implementation, enforcement, monitoring and evaluation.",
+      "uncertainty": "The handbook illustrates tools and cases but does not provide a comparable global score of city capacity, enforcement or participation quality.",
+      "subgroup": "Local and national public agencies, communities, civil society, technical experts, private investors and residents whose land, mobility or livelihoods are affected by planning decisions.",
+      "counterinterpretation": "More data and coordination do not guarantee fair outcomes; technical planning can still obscure distributional trade-offs, land politics or community knowledge unless accountability is real.",
+      "source_url": "https://www.worldbank.org/en/topic/disasterriskmanagement/publication/from-risk-to-resilience-how-cities-can-plan-for-a-more-livable-and-resilient-future",
+      "retrieval_hash": "sha256:bff081af2e70720e71fc75926139a2a0b4cc7bb2eec62c5b155ffcffa024c7aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121825202522885", "claim": "Official World Bank document record for the handbook."},
+    {"source_url": "https://www.gfdrr.org/en/publications", "claim": "GFDRR publication context for the City Resilience Program and risk-informed urban planning."}
+  ],
+  "boundary": "This record adds a place-and-governance route: housing, services, mobility, infrastructure, risk data and climate exposure are joined through spatial planning and development control. It is a World Bank planning handbook, not a city-level outcome evaluation, household mobility study, property-market estimate, engineering certification or proof that participation and enforcement occur.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank document record, full handbook PDF and World Bank overview were retrieved and reviewed for livable-city conditions, risk-informed planning, the Restrict-Condition-Promote framework, institutional capacity, multi-level governance, participation and implementation; the PDF was hashed.",
+    "source_url_sha256": "sha256:bff081af2e70720e71fc75926139a2a0b4cc7bb2eec62c5b155ffcffa024c7aa",
+    "checked": "2026-09-27"
+  }
+}

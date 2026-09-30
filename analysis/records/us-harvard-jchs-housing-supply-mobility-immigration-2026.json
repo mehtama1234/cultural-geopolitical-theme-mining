@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-harvard-jchs-housing-supply-mobility-immigration-2026",
+  "title": "Housing supply is expanding unevenly while affordability, mobility, household formation, and immigration reshape who can access place",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Harvard Joint Center for Housing Studies, The State of the Nation’s Housing 2026",
+  "geography": "United States; national housing, household-formation, mobility, affordability, demographic, and regional analysis",
+  "observations": [
+    {
+      "period": "2025-2026; housing construction, vacancies, and low-cost supply",
+      "denominator": {"value": 1, "unit": "U.S. housing market and new construction pipeline", "value_type": "reported_market_system"},
+      "measures": {
+        "new_multifamily_asking_rent": {"value": 1900, "unit": "dollars median asking rent for new multifamily units in 2025", "value_type": "reported_median"},
+        "new_single_family_price": {"value": 417400, "unit": "dollars approximate median price of a new single-family home in 2025", "value_type": "reported_median"},
+        "affordable_listings_under_75000_income": {"value": 23, "unit": "percent of listings affordable to households earning $75,000 or less in March 2026", "value_type": "reported_share"},
+        "affordable_listings_2019": {"value": 49, "unit": "percent of listings affordable to households earning $75,000 or less in March 2019", "value_type": "reported_share"},
+        "mechanism": {"value": "More construction or vacancy does not automatically create reachable low-cost housing when land, materials, financing, and market incentives concentrate new supply at higher prices", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Harvard JCHS synthesis of Census, housing-market, construction, vacancy, listing, and affordability data.",
+      "uncertainty": "Listing affordability is a market snapshot and does not measure actual transaction access, subsidies, credit approval, neighborhood quality, or all housing costs.",
+      "subgroup": "Households earning $75,000 or less, lower-income renters, first-time buyers, and households in markets with high land and construction costs.",
+      "counterinterpretation": "Higher-cost new construction can free older units over time, and vacancy increases may eventually moderate rents even if immediate access remains unequal.",
+      "source_url": "https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_The_State_of_the_Nations_Housing_2026_0.pdf",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2024; household residential mobility",
+      "denominator": {"value": 1, "unit": "U.S. households measured in the American Community Survey", "value_type": "reported_survey_population"},
+      "measures": {
+        "annual_mobility": {"value": 11.2, "unit": "percent of households relocating in the prior 12 months in 2024", "value_type": "reported_share"},
+        "moved_households": {"value": 14.8, "unit": "million U.S. households moving in 2024", "value_type": "reported_estimate"},
+        "mobility_trend": {"value": "The 2024 mobility share was the lowest point in the 20-year ACS history, driven by declining homeowner mobility while renter mobility remained roughly stable", "unit": "reported long-run pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Housing costs and mortgage-rate lock-in can reduce the ability to move toward jobs, care, schools, safety, or better-fitting housing, turning place into constraint", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JCHS analysis of ACS household mobility and related mortgage-rate and housing-market data.",
+      "uncertainty": "Low mobility does not distinguish voluntary stability from constrained immobility; the report does not estimate the causal contribution of mortgage lock-in versus jobs, family, health, or local preferences.",
+      "subgroup": "Homeowners with below-market mortgage rates, younger households, renters with different lease options, and households needing to move for work or care.",
+      "counterinterpretation": "Staying can indicate neighborhood attachment, improved housing stability, or satisfaction rather than an inability to move.",
+      "source_url": "https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_The_State_of_the_Nations_Housing_2026_0.pdf",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; migration, household formation, and regional population change",
+      "denominator": {"value": 1, "unit": "U.S. population and household-formation system", "value_type": "reported_demographic_system"},
+      "measures": {
+        "net_international_migration_2024": {"value": 2.7, "unit": "million net international migrants in 2024", "value_type": "reported_estimate"},
+        "net_international_migration_2025": {"value": 1.3, "unit": "million net international migrants in 2025", "value_type": "reported_estimate"},
+        "projected_2026_migration": {"value": 321000, "unit": "projected net international migrants in 2026", "value_type": "reported_projection"},
+        "states_prevented_population_loss": {"value": 14, "unit": "states where immigration prevented aggregate population loss between 2021 and 2025", "value_type": "reported_count"},
+        "mechanism": {"value": "Migration policy changes affect housing demand, rental formation, population growth, labor supply, and the fiscal-demographic base of places", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JCHS synthesis of Census Population Estimates Program, ACS household formation, and housing-market data.",
+      "uncertainty": "The projection is not a realized future count; migration estimates do not establish the cause of housing costs or the distribution of benefits and pressures across local markets.",
+      "subgroup": "Recent immigrants, renter households, states dependent on immigration for population growth, and communities experiencing changing demand for housing and services.",
+      "counterinterpretation": "Lower immigration can reduce rental demand in some markets while weakening labor supply, population growth, and housing construction capacity in others.",
+      "source_url": "https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_The_State_of_the_Nations_Housing_2026_0.pdf",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; first-time buying and cost burden",
+      "denominator": {"value": 1, "unit": "U.S. homebuyers, homeowners, and renter households in JCHS affordability analysis", "value_type": "reported_market_system"},
+      "measures": {
+        "first_time_buyer_share": {"value": 21, "unit": "percent of homebuyers between mid-2024 and mid-2025 who were first-time buyers", "value_type": "reported_share"},
+        "median_first_time_buyer_age": {"value": 40, "unit": "years median age of first-time homebuyers", "value_type": "reported_median"},
+        "severely_cost_burdened_homeowners": {"value": 9.6, "unit": "million homeowner households spending more than half of income on housing and utilities in 2024", "value_type": "reported_estimate"},
+        "renter_cost_burden": {"value": 52, "unit": "percent of renter households cost burdened in 2024 according to JCHS figure summary", "value_type": "reported_share"},
+        "mechanism": {"value": "Housing cost burden delays household formation and first purchase while compressing money available for food, care, mobility, health, and civic or cultural participation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "JCHS analysis of Census ACS, Housing Vacancy Survey, and homebuyer data using moderate and severe cost-burden thresholds.",
+      "uncertainty": "Cost burden is a ratio measure and does not capture household composition, wealth, housing quality, informal support, or the full range of nonhousing expenses.",
+      "subgroup": "First-time buyers, families with children, cost-burdened renters and homeowners, and households with limited residual income.",
+      "counterinterpretation": "Some households choose higher housing costs for quality, location, or services; cost burden does not by itself prove deprivation or delayed family formation.",
+      "source_url": "https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_The_State_of_the_Nations_Housing_2026_0.pdf",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.jchs.harvard.edu/state-nations-housing-2026", "claim": "Harvard JCHS report landing page and related housing data resources."},
+    {"source_url": "https://www.census.gov/programs-surveys/acs", "claim": "Census ACS source underlying mobility, cost-burden, and demographic tabulations."}
+  ],
+  "boundary": "This record adds a U.S. structural housing route from construction and market supply through low-cost availability, residential mobility, immigration, household formation, first-time buying, and cost burden. It is a secondary synthesis of public housing and demographic data, not a household panel, causal land-use evaluation, or proof that any single policy caused mobility or affordability changes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Harvard JCHS 2026 report PDF was reviewed for construction and low-cost supply, affordability, mobility, migration and household formation, first-time buying, and cost-burden findings.",
+    "source_url_sha256": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-searchlight-policy-values-2026-heterodox-coalitions-issue-salience",
+  "title": "The U.S. electorate is more ideologically heterodox than party labels suggest, with family autonomy, economic intervention and international role cutting across coalitions",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Searchlight Institute, How to Build a Supermajority; Searchlight Policy Values Surveys 1 and 2",
+  "geography": "United States; adults weighted to the November 2024 electorate",
+  "observations": [
+    {
+      "period": "June 5–July 7, 2026; U.S. adults weighted to 2024 electorate",
+      "denominator": {"value": 5807, "unit": "U.S. adults recruited online by RepData; weighted to the 2024 electorate", "value_type": "reported_sample"},
+      "measures": {
+        "consistent_conservatism": {"value": 14, "unit": "percent classified as completely ideologically conservative", "value_type": "reported_share"},
+        "consistent_liberalism": {"value": 10, "unit": "percent classified as completely ideologically liberal", "value_type": "reported_share"},
+        "heterodox_majority": {"value": "The large remainder holds combinations of liberal, conservative and cross-pressured views that are not captured by a single left-right scale", "unit": "reported segmentation interpretation", "value_type": "reported_interpretation"},
+        "policy_axes": {"value": "Five axes structure the analysis: gender and gender roles, America’s international role, parental authority and family, the economic role of government, and order versus openness", "unit": "reported analytical framework", "value_type": "reported_framework"}
+      },
+      "method": "Searchlight Policy Values Survey 1: 5,807 U.S. adults recruited online, with an oversample of unregistered respondents and raking to the 2024 electorate on demographic and vote variables; effective sample size 5,021.",
+      "uncertainty": "The segmentation is model-dependent and sponsored by the Searchlight Institute; online recruitment, screening, weighting and the choice of axes shape the resulting groups and do not prove stable causal coalitions.",
+      "subgroup": "U.S. adults eligible or potentially eligible for the electorate, with derived policy-value segments.",
+      "counterinterpretation": "Party identity still matters and may organize many responses; heterodox issue profiles do not guarantee cross-party voting or durable coalition behavior.",
+      "source_url": "https://www.searchlightinstitute.org/research/how-to-build-a-supermajority/",
+      "retrieval_hash": "sha256:d0e01dc3bcb5102471fcbdf5a05216130a1d345d648597a714792ba1b02dd507",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy-values analysis; family autonomy and economic role",
+      "denominator": {"value": 5807, "unit": "U.S. adults in Searchlight Policy Values Survey 1", "value_type": "reported_sample"},
+      "measures": {
+        "parental_autonomy_salience": {"value": "Keeping government out of parental discipline except abuse or neglect produced a +9.1 percentage-point effect on hypothetical candidate choice", "unit": "percentage-point impact in conjoint experiment", "value_type": "reported_experimental_estimate"},
+        "social_security_protection": {"value": "A position to reduce Social Security benefits to keep taxes stable produced a −8.2 percentage-point effect on hypothetical candidate choice", "unit": "percentage-point impact in conjoint experiment", "value_type": "reported_experimental_estimate"},
+        "rich_taxation": {"value": "The position to keep taxes lower on high-income individuals produced a −4.4 percentage-point effect", "unit": "percentage-point impact in conjoint experiment", "value_type": "reported_experimental_estimate"},
+        "consumer_autonomy": {"value": "The report identifies broad support for government staying out of personal consumer choices alongside support for an active redistributive economic role", "unit": "reported coalition pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Randomized hypothetical-candidate conjoint tasks embedded in Searchlight Survey 1; effects are reported as percentage-point changes in candidate choice relative to control positions.",
+      "uncertainty": "Hypothetical vote-choice effects depend on wording, issue set, control conditions and survey context; they are directional estimates, not election forecasts or observed policy outcomes.",
+      "subgroup": "Full weighted U.S. adult sample, with partisan and segment analyses in the source.",
+      "counterinterpretation": "High salience in a conjoint task does not mean voters prioritize the issue in a real election when candidates, events and campaign information interact.",
+      "source_url": "https://www.searchlightinstitute.org/wp-content/uploads/2026/09/Toplines-Supermajority-Searchlight-Survey-1.pdf",
+      "retrieval_hash": "sha256:d0e01dc3bcb5102471fcbdf5a05216130a1d345d648597a714792ba1b02dd507",
+      "status": "reported"
+    },
+    {
+      "period": "June–August 2026; international role and economic stability",
+      "denominator": {"value": 3068, "unit": "U.S. adults recruited online by RepData in Searchlight Policy Values Survey 2, weighted to the 2024 electorate", "value_type": "reported_sample"},
+      "measures": {
+        "economic_stability_isolationism": {"value": "Respondents reporting financial instability were 10 percentage points more likely to say the U.S. should focus on problems at home rather than global affairs", "unit": "percentage-point association", "value_type": "reported_association"},
+        "cross_party_home_focus": {"value": "The home-focused international-role position appears among populist-leaning segments on both sides of the aisle", "unit": "reported coalition pattern", "value_type": "reported_interpretation"},
+        "aid_position": {"value": "In the conjoint experiment, maintaining current military aid to Israel had positive effects among Democrats (+8.9) and Republicans (+1.7) relative to the tested control", "unit": "percentage-point impact in hypothetical candidate choice", "value_type": "reported_experimental_estimate"},
+        "china_position_salience": {"value": "Standing up to China was characterized as a low-salience issue in the report’s testing", "unit": "reported issue-salience interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Searchlight Policy Values Survey 2: 3,068 U.S. adults recruited online August 7–19, 2026, weighted to the 2024 electorate; effective sample size 2,452, plus topical and conjoint questions.",
+      "uncertainty": "The financial-stability relationship is associational and the international-role effects are based on hypothetical choices; neither establishes that economic hardship causes isolationism or predicts foreign-policy voting.",
+      "subgroup": "Respondents grouped by self-reported financial stability, party and derived policy segment.",
+      "counterinterpretation": "Economic instability may correlate with age, region, education, race, ideology or media exposure; the reported ten-point difference may not survive full adjustment or replicate outside this survey.",
+      "source_url": "https://www.searchlightinstitute.org/wp-content/uploads/2026/09/Toplines-Supermajority-Searchlight-Survey-2.pdf",
+      "retrieval_hash": "sha256:cb53b2ade91aa53e286226bee8435becc1d6c65c228bb5e23b12e5bfbbb3fcd7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy-values analysis; coalition segmentation",
+      "denominator": {"value": 9, "unit": "derived policy-value groups identified from five analytical axes", "value_type": "reported_framework"},
+      "measures": {
+        "cross_pressured_segments": {"value": "The report identifies groups combining progressive economic views with traditional cultural views, or conservative economic views with support for humanitarian aid and public healthcare", "unit": "reported segment pattern", "value_type": "reported_interpretation"},
+        "trad_digital": {"value": "A younger, online and ideologically diverse group split its 2024 vote almost equally while combining relatively progressive economics with traditional culture", "unit": "reported segment description", "value_type": "reported_interpretation"},
+        "pocketbook_center": {"value": "The Center Square group is described as less likely to be registered, with few strong policy priorities and a strong pocketbook focus", "unit": "reported segment description", "value_type": "reported_interpretation"},
+        "coalition_implication": {"value": "The report argues durable majorities require issue-specific heterodoxy rather than assuming a single ideological base has uniform preferences", "unit": "reported strategic interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Derived segmentation from survey responses across the five value axes, combined with party, demographic, economic-stability and vote-reflection variables.",
+      "uncertainty": "Named segments are analytic constructions rather than official demographic groups; labels and boundaries depend on the model, selected questions and source organization’s strategic framing.",
+      "subgroup": "Nine derived U.S. electorate segments, including ideologically consistent and cross-pressured groups.",
+      "counterinterpretation": "Coalition profiles can help expose heterogeneity but can also overstate coherence within groups and understate campaign context, geographic variation and turnout differences.",
+      "source_url": "https://www.searchlightinstitute.org/research/how-to-build-a-supermajority/",
+      "retrieval_hash": "sha256:d0e01dc3bcb5102471fcbdf5a05216130a1d345d648597a714792ba1b02dd507",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.searchlightinstitute.org/wp-content/uploads/2026/09/Toplines-Supermajority-Searchlight-Survey-1.pdf", "claim": "Survey 1 toplines with field dates, sample, weighting, policy batteries and conjoint estimates."},
+    {"source_url": "https://www.searchlightinstitute.org/wp-content/uploads/2026/09/Toplines-Supermajority-Searchlight-Survey-2.pdf", "claim": "Survey 2 toplines with August fieldwork, topical questions, predictors and second-wave weighting."}
+  ],
+  "boundary": "This record adds a U.S. political-values mechanism: party labels conceal cross-pressured coalitions, and economic stability, family autonomy, government role and international posture can recombine across partisan lines. It is a Searchlight Institute-sponsored survey and model-based segmentation with hypothetical conjoint experiments, not a neutral election forecast, probability-sample-only panel, observed voting behavior, causal public-opinion model or proof that the proposed supermajority coalition will form.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Searchlight article and two linked topline PDFs were retrieved and reviewed for field dates, sample, weighting, effective sample size, five axes, nine segments, conjoint effects, financial-stability/international-role association and issue-salience claims; both PDFs were hashed.",
+    "source_url_sha256": "sha256:d0e01dc3bcb5102471fcbdf5a05216130a1d345d648597a714792ba1b02dd507; sha256:cb53b2ade91aa53e286226bee8435becc1d6c65c228bb5e23b12e5bfbbb3fcd7",
+    "checked": "2026-09-27"
+  }
+}

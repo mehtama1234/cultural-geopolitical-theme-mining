@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-iu-lilly-nonprofits-philanthropy-recognition-confidence-2026",
+  "title": "Nonprofit infrastructure is widely used but institutionally unrecognized, weakening the public service bargain",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Indiana University Lilly Family School of Philanthropy, What Americans Think About Nonprofits & Philanthropy 2026, September 25, 2026",
+  "geography": "United States; adults in the national survey summarized by Indiana University",
+  "observations": [
+    {
+      "period": "2026; recognition of nonprofit service use",
+      "denominator": {"value": 1, "unit": "respondents in the 2026 national report; sample size is not stated in the public IU news release", "value_type": "published_survey_frame"},
+      "measures": {
+        "self_identified_nonprofit_use": {"value": 7.4, "unit": "percent reporting that they or an immediate family member received or used charitable-organization services in the past year", "value_type": "reported_share"},
+        "activity_typically_provided_by_nonprofits": {"value": 71.9, "unit": "percent reporting at least one activity typically provided by nonprofits", "value_type": "reported_share"},
+        "recognition_gap": {"value": "Nearly 90% of people whose reported activities fit nonprofit service use did not initially identify themselves as nonprofit users", "unit": "bounded recognition gap", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Social infrastructure can be widely consumed as ordinary community life while remaining institutionally invisible to the people who rely on it", "unit": "bounded institutional-recognition mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "IU public release summarizing the 2026 What Americans Think About Nonprofits & Philanthropy report, which builds on 2023 research; the public release does not state the survey sample size or full instrument.",
+      "uncertainty": "The activity list, wording, field dates, sampling frame and classification rules are not fully reproduced in the public release; reported activity does not establish service quality, intensity, access, unmet need or causal recognition effects.",
+      "subgroup": "U.S. adults and households using services or activities associated with nonprofits, potentially varying by income, race, disability, geography, faith, household composition and service type; subgroup estimates are not supplied in the release.",
+      "counterinterpretation": "Respondents may distinguish formal charitable services from community activities for reasons of wording or identity, and low recognition does not necessarily mean low appreciation or support for nonprofits.",
+      "source_url": "https://news.iu.edu/philanthropy/live/news/53497-nearly-90-of-americans-engaging-with-nonprofits-do",
+      "retrieval_hash": "sha256:b1d2c7adc255d414d5f786383311cd626d624c7d76ff403be5eb4826d71c4be7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; nonprofit confidence, institutional influence and political signaling",
+      "denominator": {"value": 1, "unit": "respondents in the 2026 national report", "value_type": "published_survey_frame"},
+      "measures": {
+        "high_confidence_solving_problems": {"value": 23.3, "unit": "percent expressing high confidence in nonprofits' ability to solve societal or global problems", "value_type": "reported_share"},
+        "political_trust_sensitivity": {"value": 22.7, "unit": "percent saying their confidence in nonprofits would decrease if a trusted political figure expressed a lack of confidence in the sector", "value_type": "reported_share"},
+        "sector_direction_uncertainty": {"value": 53.5, "unit": "percent saying they did not know whether the nonprofit and philanthropic sector was headed in the right direction or wrong track", "value_type": "reported_share"},
+        "mechanism": {"value": "Nonprofit legitimacy is comparatively strong but conditional: public confidence can be shaped by political intermediaries even when everyday use is under-recognized", "unit": "bounded legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "IU report summary comparing nonprofit confidence, political-figure influence and perceived sector direction in 2026.",
+      "uncertainty": "These are self-reported attitudes, not institutional-performance measures, donation behavior, policy compliance or observed political influence; the release does not identify causal pathways.",
+      "subgroup": "U.S. adults with different political identities, nonprofit experiences, media exposure and institutional trust; subgroup estimates are not reported in the public release.",
+      "counterinterpretation": "Political statements may be proxies for broader news, ideology or prior confidence rather than direct causes of trust change; uncertainty may reflect lack of information rather than ambivalence.",
+      "source_url": "https://news.iu.edu/philanthropy/live/news/53497-nearly-90-of-americans-engaging-with-nonprofits-do",
+      "retrieval_hash": "sha256:b1d2c7adc255d414d5f786383311cd626d624c7d76ff403be5eb4826d71c4be7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 compared with 2023; provider roles, giving expectations and institutional design",
+      "denominator": {"value": 1, "unit": "respondents in the 2026 report and comparable 2023 report items", "value_type": "published_comparison_frame"},
+      "measures": {
+        "nonprofit_better_than_government_basic_needs": {"value": 18.9, "unit": "percent saying nonprofits are more effective than government at providing basic needs, down from 24.6% in 2023", "value_type": "reported_comparison"},
+        "universal_charitable_deduction_giving_increase": {"value": 19.0, "unit": "percent saying their giving would increase because of the enacted universal charitable deduction, down from 24.4% in the 2023 report's comparison", "value_type": "reported_share"},
+        "foundation_perpetuity_preference": {"value": 78.7, "unit": "percent preferring foundations to reserve assets to give over time or in perpetuity, versus 21.3% preferring rapid distribution", "value_type": "reported_share"},
+        "mechanism": {"value": "Institutional design is judged through service availability, provider roles and time horizon; public support for nonprofit infrastructure does not imply a simple preference for nonprofit rather than government provision", "unit": "bounded public-service bargain", "value_type": "bounded_mechanism"}
+      },
+      "method": "IU release reporting 2026 measures and selected comparisons with the 2023 report; the public release does not provide full question wording, weights, sample details or harmonization documentation.",
+      "uncertainty": "Changes across reports may reflect wording, sample, policy context and awareness as well as changed attitudes; giving intentions are not realized donations or nonprofit revenue.",
+      "subgroup": "U.S. adults with different service use, income, political views, charitable behavior and institutional preferences.",
+      "counterinterpretation": "Respondents may prefer provider-neutral service availability because they cannot distinguish nonprofit and government delivery, not because they reject either institution; perpetuity preferences do not establish grantmaking effectiveness.",
+      "source_url": "https://news.iu.edu/philanthropy/live/news/53497-nearly-90-of-americans-engaging-with-nonprofits-do",
+      "retrieval_hash": "sha256:b1d2c7adc255d414d5f786383311cd626d624c7d76ff403be5eb4826d71c4be7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.iu.edu/philanthropy/live/news/53497-nearly-90-of-americans-engaging-with-nonprofits-do", "claim": "Official IU release with the 2026 nonprofit-use recognition gap, confidence, political-sensitivity, provider-role, giving and foundation-horizon findings."},
+    {"source_url": "https://scholarworks.indianapolis.iu.edu/items/254ac160-e776-4144-a88a-e3eea92fc608", "claim": "Full report landing page referenced by IU; retrieval was not required for the bounded public-release record."}
+  ],
+  "boundary": "This record identifies a nonprofit recognition, public-service legitimacy and institutional-design subtheme. It does not establish nonprofit service quality, unmet need, causal trust or political effects, realized giving, provider superiority, subgroup inequality, or a harmonized 2023–2026 trend; the public release omits the survey sample size and full methods.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Indiana University release was reviewed for the September 25, 2026 date, report title, nonprofit-use recognition gap, confidence, political-sensitivity, sector-direction uncertainty, provider-role comparison, charitable-deduction comparison and foundation-perpetuity preference.",
+    "source_page_sha256": "sha256:b1d2c7adc255d414d5f786383311cd626d624c7d76ff403be5eb4826d71c4be7",
+    "checked": "2026-09-29"
+  }
+}

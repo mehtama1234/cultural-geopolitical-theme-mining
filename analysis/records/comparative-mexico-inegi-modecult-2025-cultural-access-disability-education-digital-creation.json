@@ -1,0 +1,176 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mexico-inegi-modecult-2025-cultural-access-disability-education-digital-creation",
+  "title": "Mexico's cultural participation is broad but sharply stratified by age, education, disability, and Indigenous-language status",
+  "theme_ids": [
+    "time",
+    "cost",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "INEGI MODECULT 2025 Module on Selected Cultural Events",
+  "geography": "Mexico; national population aged 12 years and above, with urban comparison for selected events",
+  "observations": [
+    {
+      "period": "2025 MODECULT; national cultural-event attendance in the preceding 12 months",
+      "denominator": {
+        "value": null,
+        "unit": "population aged 12 years and above in Mexico; the press release does not state the respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "any_cultural_event": {
+          "value": 64.7,
+          "unit": "percent attending at least one cultural event in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "women_any_event": {
+          "value": 64,
+          "unit": "percent of women attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "men_any_event": {
+          "value": 65.6,
+          "unit": "percent of men attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "disability_any_event": {
+          "value": 48.3,
+          "unit": "percent of people with a disability attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "indigenous_language_any_event": {
+          "value": 48.5,
+          "unit": "percent of Indigenous-language speakers attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Broad national attendance coexists with a large access gap for disability and Indigenous-language groups, while the overall gender gap is small",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "INEGI MODECULT 2025 national estimates for people aged 12 and above; the 2025 instrument expanded beyond the prior urban 18+ design and added event categories.",
+      "uncertainty": "The source does not establish whether the gaps arise from cost, transport, accessibility, language, supply, invitation, safety, or different event preferences; the 2025 methodological expansion limits direct comparison with earlier waves.",
+      "subgroup": "Women, men, people with disabilities, and Indigenous-language speakers aged 12 years and above.",
+      "counterinterpretation": "The disability and Indigenous-language differences may reflect age, geography, income, or event measurement rather than a single exclusion mechanism; broad attendance includes diverse event types.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/modecult/modecult2025_CP.pdf",
+      "retrieval_hash": "sha256:20feda1eb37507de1b7802ed14e226e1a523e8d576ca99ad91a1f9810fc36120",
+      "status": "reported"
+    },
+    {
+      "period": "2025 MODECULT; age and education gradients",
+      "denominator": {
+        "value": null,
+        "unit": "population aged 12 years and above in Mexico; subgroup denominators are not separately disclosed in the press release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "age_12_24": {
+          "value": 80.9,
+          "unit": "percent of people aged 12-24 attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "age_50_plus": {
+          "value": 47.8,
+          "unit": "percent of people aged 50 and above attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "basic_education_incomplete": {
+          "value": 50.2,
+          "unit": "percent of people with incomplete basic education attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "higher_education": {
+          "value": 82.8,
+          "unit": "percent of people with some higher education attending at least one cultural event",
+          "value_type": "official_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Cultural access follows life-course and education gradients much more strongly than the aggregate attendance rate suggests",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "INEGI MODECULT 2025 descriptive subgroup estimates for age and educational attainment.",
+      "uncertainty": "These are descriptive differences and do not identify whether education causes attendance, whether age reflects life-cycle or cohort effects, or how cost and location mediate the relationship.",
+      "subgroup": "People aged 12-24 versus 50+, and people with incomplete basic education versus some higher education.",
+      "counterinterpretation": "Younger and more educated groups may have greater exposure through schools, cities, work networks, or measurement opportunities rather than inherently stronger cultural motivation.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/modecult/modecult2025_CP.pdf",
+      "retrieval_hash": "sha256:20feda1eb37507de1b7802ed14e226e1a523e8d576ca99ad91a1f9810fc36120",
+      "status": "reported"
+    },
+    {
+      "period": "2025 MODECULT; event mix and active artistic practice",
+      "denominator": {
+        "value": null,
+        "unit": "Event attendees for event mix; artistic participants aged 12+ for artistic activity mix. Subgroup counts not disclosed.",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "fair_attendance_among_attendees": {
+          "value": 61.7,
+          "unit": "percent of cultural-event attendees who attended fairs, including artisan, food, or local-product fairs",
+          "value_type": "official_conditional_share"
+        },
+        "cinema_among_attendees": {
+          "value": 54.2,
+          "unit": "percent of cultural-event attendees who attended a film screening or cinema",
+          "value_type": "official_conditional_share"
+        },
+        "audiovisual_creation": {
+          "value": 61,
+          "unit": "percent participating in photography, video, or another audiovisual creation activity among people aged 12+ who reported artistic activities",
+          "value_type": "official_conditional_share"
+        },
+        "creative_handwork": {
+          "value": 42.1,
+          "unit": "percent doing manual work for artistic or creative purposes among people aged 12+ who reported artistic activities",
+          "value_type": "official_conditional_share"
+        },
+        "drawing_painting_sculpture": {
+          "value": 35.9,
+          "unit": "percent drawing, painting, or making sculpture among people aged 12+ who reported artistic activities",
+          "value_type": "official_conditional_share"
+        },
+        "mechanism": {
+          "value": "Cultural participation includes local fairs and everyday creation, not only formal institutions; production and attendance are both important routes into cultural life",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "INEGI MODECULT 2025 conditional event and artistic-activity distributions; the results presentation page 23 explicitly restricts artistic activity shares to people who performed artistic activities.",
+      "uncertainty": "The press release does not provide frequency, spending, online distribution, quality, or whether audiovisual creation is recreational, educational, professional, or social-media oriented.",
+      "subgroup": "Cultural-event attendees for event mix; people aged 12+ reporting artistic activities for creative practice.",
+      "counterinterpretation": "The broad creation categories may include occasional low-intensity activity and should not be interpreted as professional cultural production or durable creator identity.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/modecult/modecult2025_CP.pdf",
+      "retrieval_hash": "sha256:20feda1eb37507de1b7802ed14e226e1a523e8d576ca99ad91a1f9810fc36120",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.inegi.org.mx/programas/modecult/",
+      "claim": "INEGI methodology page documents the 2025 expansion from urban adults to national population aged 12 and above, added event categories, and revised variables.",
+      "status": "official-methodology"
+    },
+    {
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/modecult/modecult2025_CP.pdf",
+      "claim": "Official MODECULT 2025 press release and tables provide the attendance, subgroup, event-mix, and active-practice estimates.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.inegi.org.mx/contenidos/programas/modecult/doc/resultados_modecult_jun2025.pdf",
+      "claim": "Page 23 explicitly identifies the conditional artistic-participant universe.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds Mexican cultural-participation evidence with explicit disability, Indigenous-language, age, education, event-type, and active-creation gradients. It does not identify causal barriers, final individual-level trajectories, price or transport mechanisms, or direct comparison with pre-2025 waves because the 2025 instrument expanded coverage and concepts. Source-dependence audit 2026-09-30: the companion MODECULT 2025 record uses the same survey wave; overlapping estimates are not independent corroboration.",
+  "retrieval_hash": "sha256:20feda1eb37507de1b7802ed14e226e1a523e8d576ca99ad91a1f9810fc36120"
+}

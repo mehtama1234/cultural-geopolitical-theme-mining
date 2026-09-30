@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-insee-france-consumer-confidence-savings-climate-september-2026",
+  "title": "French household confidence remains depressed while precautionary saving stays elevated and major-purchase room remains weak",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "INSEE, Monthly consumer confidence survey, September 2026",
+  "geography": "France; approximately 2,000 households surveyed by telephone during August 26–September 17, 2026",
+  "observations": [
+    {
+      "period": "September 2026; confidence and savings climate",
+      "denominator": {"value": 2000, "unit": "approximately French households surveyed by telephone", "value_type": "monthly_repeated_cross_section"},
+      "measures": {
+        "household_confidence": {"value": 86, "unit": "INSEE synthetic household-confidence index; long-term average 100", "value_type": "published_index"},
+        "savings_climate": {"value": 121, "unit": "INSEE synthetic savings-climate index; long-term average 100", "value_type": "published_index"},
+        "monthly_change": {"value": "confidence was stable at 86 while the savings-climate index fell four points from August's 125", "unit": "monthly index comparison", "value_type": "published_change"},
+        "precautionary_room": {"value": "high saving climate coexists with deteriorated confidence, indicating caution does not equal comfortable household room", "unit": "reported analytic interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Monthly consumer confidence survey using seasonally adjusted balances and factor-analysis synthetic indexes; around 2,000 households interviewed by telephone in the first three weeks of the month.",
+      "uncertainty": "Synthetic indexes summarize correlated opinions and are not direct measures of saving balances, consumption, income, or household-level financial behavior.",
+      "subgroup": "French households participating in the monthly confidence survey.",
+      "counterinterpretation": "A high savings-climate index may reflect opportunity or intention to save rather than actual saving, and low confidence may coexist with adequate resources for some households.",
+      "source_url": "https://www.insee.fr/en/statistiques/9055376",
+      "retrieval_hash": "sha256:1c35ffe95ef545e1a0fdbb3ccda373dd65af8972d7eae389bf599db352116b9d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; major-purchase and personal-finance judgments",
+      "denominator": {"value": 2000, "unit": "approximately French households surveyed by telephone", "value_type": "monthly_repeated_cross_section"},
+      "measures": {
+        "major_purchase_intentions": {"value": -37, "unit": "seasonally adjusted balance of opinion on whether it is a good time for major purchases; long-term average -16", "value_type": "published_balance"},
+        "past_financial_situation": {"value": -26, "unit": "balance of opinion on past personal financial situation; long-term average -21", "value_type": "published_balance"},
+        "future_financial_situation": {"value": -14, "unit": "balance of opinion on expected personal financial situation; long-term average -7", "value_type": "published_balance"},
+        "consumption_route": {"value": "weak major-purchase willingness persists even as savings capacity indicators remain above long-term averages", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Seasonally adjusted monthly opinion balances within the INSEE household confidence survey.",
+      "uncertainty": "Balances are differences between positive and negative responses and are not percentages of households or realized purchase volumes.",
+      "subgroup": "French households reporting views on purchases and personal financial conditions.",
+      "counterinterpretation": "Weak purchase intentions can reflect interest rates, durable-goods timing, housing decisions, inflation uncertainty or preference shifts rather than current income shortfall alone.",
+      "source_url": "https://www.insee.fr/en/statistiques/9055376",
+      "retrieval_hash": "sha256:1c35ffe95ef545e1a0fdbb3ccda373dd65af8972d7eae389bf599db352116b9d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; saving capacity and saving intentions",
+      "denominator": {"value": 2000, "unit": "approximately French households surveyed by telephone", "value_type": "monthly_repeated_cross_section"},
+      "measures": {
+        "current_saving_capacity": {"value": 17, "unit": "balance of opinion on current saving capacity; long-term average 10", "value_type": "published_balance"},
+        "expected_saving_capacity": {"value": 15, "unit": "balance of opinion on future saving capacity; long-term average -6", "value_type": "published_balance"},
+        "savings_intentions": {"value": 44, "unit": "balance of opinion on opportunity to save; long-term average 19", "value_type": "published_balance"},
+        "precautionary_behavior": {"value": "saving intentions remain well above their long-term average even as current and expected household judgments are negative in other domains", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Seasonally adjusted balances of opinion from the monthly consumer confidence survey; synthetic savings climate combines current capacity, expected capacity and opportunity to save.",
+      "uncertainty": "The balance measures sentiment and perceived opportunity, not actual saving rates, liquid assets, debt repayment or distribution across households.",
+      "subgroup": "French households responding to current and expected saving-capacity questions.",
+      "counterinterpretation": "High saving intentions can represent unmet precautionary demand, wealthier household behavior, or a reaction to uncertainty rather than broad financial resilience.",
+      "source_url": "https://www.insee.fr/en/statistiques/9055376",
+      "retrieval_hash": "sha256:1c35ffe95ef545e1a0fdbb3ccda373dd65af8972d7eae389bf599db352116b9d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; perceived prices, unemployment and future living standards",
+      "denominator": {"value": 2000, "unit": "approximately French households surveyed by telephone", "value_type": "monthly_repeated_cross_section"},
+      "measures": {
+        "past_consumer_prices": {"value": 33, "unit": "balance of opinion on price increases over the prior twelve months; up seven points in September", "value_type": "published_balance"},
+        "future_inflation": {"value": -9, "unit": "balance of opinion on future inflation; long-term average -32", "value_type": "published_balance"},
+        "unemployment_prospects": {"value": 55, "unit": "balance of opinion on unemployment prospects; down three points from August", "value_type": "published_balance"},
+        "future_standard_of_living": {"value": -60, "unit": "balance of opinion on future standard of living; long-term average -29", "value_type": "published_balance"},
+        "cost_security_route": {"value": "price salience and weak future living-standard judgments can sustain precautionary behavior even when some unemployment fears ease", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Seasonally adjusted monthly opinion balances from the INSEE consumer-confidence survey.",
+      "uncertainty": "The indicators are aggregate balances and cannot identify which households experience price pressure, unemployment exposure, or deteriorating living standards.",
+      "subgroup": "French households reporting views on prices, unemployment and future living standards.",
+      "counterinterpretation": "Perceived price changes and living-standard expectations may move differently from official inflation, employment or household consumption outcomes.",
+      "source_url": "https://www.insee.fr/en/statistiques/9055376",
+      "retrieval_hash": "sha256:1c35ffe95ef545e1a0fdbb3ccda373dd65af8972d7eae389bf599db352116b9d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.insee.fr/en/statistiques/9055376", "claim": "Official INSEE release, time series, methodology and September 2026 balances."},
+    {"source_url": "https://www.insee.fr/en/statistiques/serie/001759970", "claim": "INSEE monthly household confidence survey series context."}
+  ],
+  "boundary": "This record adds a consumer-room route from price salience and confidence through precautionary saving, major-purchase restraint, future living-standard judgments and household expectations. It is a monthly repeated cross-sectional opinion survey with synthetic indexes, not realized spending, saving, debt, income distribution or causal household behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official INSEE September 24, 2026 release reviewed for sample mode and timing, confidence and savings indexes, major-purchase and personal-finance balances, saving capacity and intentions, price, unemployment and future living-standard balances, and index methodology.",
+    "source_url_sha256": "sha256:1c35ffe95ef545e1a0fdbb3ccda373dd65af8972d7eae389bf599db352116b9d",
+    "checked": "2026-09-28"
+  }
+}

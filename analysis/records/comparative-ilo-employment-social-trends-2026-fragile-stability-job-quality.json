@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-employment-social-trends-2026-fragile-stability-job-quality",
+  "title": "Global employment is stable at the headline level while job quality, income security and convergence remain under strain",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "International Labour Organization, Employment and Social Trends 2026",
+  "geography": "Global labour markets, with comparisons across country income groups and attention to women, young people, informal workers and trade-linked employment",
+  "observations": [
+    {
+      "period": "2026 projection; global labour-market headline indicators",
+      "denominator": {"value": 1, "unit": "global labour market projection", "value_type": "published_modelled_estimate"},
+      "measures": {
+        "unemployment": {"value": 4.9, "unit": "per cent projected global unemployment rate", "value_type": "published_modelled_estimate"},
+        "stability_quality_gap": {"value": "The ILO says stable headline employment should not be mistaken for a return to healthy labour-market conditions because job-quality progress has stalled and exposure to economic, demographic and technological risks is rising.", "unit": "reported interpretation", "value_type": "reported_interpretation"},
+        "policy_reading": {"value": "The central signal is fragile stability: aggregate employment can hold while security, quality and distribution deteriorate underneath.", "unit": "analytical implication", "value_type": "inference_from_source"}
+      },
+      "method": "ILO flagship report using modelled labour-market estimates, cross-country indicators and analytical interpretation of productivity, demographic, economic and technological pressures.",
+      "uncertainty": "The 4.9 per cent figure is a projection, not an observed final outcome; headline unemployment does not measure job quality, underemployment, informality or household security directly.",
+      "subgroup": "Workers and jobseekers globally, with risks distributed differently by country income group, gender, age, employment form and exposure to technology or trade shocks.",
+      "counterinterpretation": "Stable unemployment may reflect genuine labour-market resilience and could precede broader improvement if productivity, wages and institutions strengthen; the report's warning is not proof of universal deterioration.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projection and latest available global estimates; unmet labour demand and job quality",
+      "denominator": {"value": 1, "unit": "global working-age labour market frame", "value_type": "published_modelled_estimate"},
+      "measures": {
+        "jobs_gap": {"value": 408000000, "unit": "people in projected global jobs gap in 2026", "value_type": "published_modelled_estimate"},
+        "working_poverty": {"value": 300000000, "unit": "workers living in extreme working poverty", "value_type": "published_estimate"},
+        "informality": {"value": 2100000000, "unit": "workers in informal employment", "value_type": "published_estimate"},
+        "income_recovery": {"value": "Real wages and labour income had not fully recovered from recent inflation shocks according to the report.", "unit": "reported global condition", "value_type": "reported_interpretation"}
+      },
+      "method": "ILO global labour-market estimates and report synthesis; the jobs gap is broader than unemployment because it captures people who want paid work but cannot access it.",
+      "uncertainty": "The figures combine projections and estimates with different reference periods and definitions; they should not be added together or interpreted as mutually exclusive people.",
+      "subgroup": "Informal workers, people excluded from paid work, workers in extreme poverty and households whose living standards remain exposed to inflation and weak income recovery.",
+      "counterinterpretation": "Informal work can provide livelihood access where formal employment is scarce, and aggregate estimates may conceal improving conditions in particular countries or sectors.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projection; income-group divergence, productivity and structural transformation",
+      "denominator": {"value": 1, "unit": "global country-income-group comparison", "value_type": "published_comparative_estimate"},
+      "measures": {
+        "low_income_employment_growth": {"value": 3.1, "unit": "per cent projected employment growth in low-income countries in 2026", "value_type": "published_modelled_estimate"},
+        "divergence": {"value": "High- and upper-middle-income economies benefit from ageing and slower labour-force growth stabilizing unemployment, while low-income economies face rapid labour-force expansion but weaker productivity and lower-quality job creation.", "unit": "reported comparative pattern", "value_type": "reported_interpretation"},
+        "structural_transformation": {"value": "The report says movement into higher-productivity and more formal sectors has slowed markedly over the past two decades.", "unit": "reported long-run pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "ILO comparative analysis across country income groups, with projections for employment and interpretation of productivity and structural transformation.",
+      "uncertainty": "Income-group averages hide large within-group differences; projected employment growth does not establish whether jobs are accessible, productive, formal or adequately paid for particular populations.",
+      "subgroup": "Workers and new labour-market entrants in low-income countries, younger populations in expanding labour forces, and economies seeking a demographic dividend.",
+      "counterinterpretation": "Rapid employment growth can build capabilities and future convergence if accompanied by skills, infrastructure, industrial policy and social protection; low current productivity does not make convergence impossible.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; gender, youth, trade and domestic policy capacity",
+      "denominator": {"value": 1, "unit": "global labour-market and policy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "gender_participation": {"value": 24.2, "unit": "per cent lower likelihood of labour-force participation for women than men", "value_type": "published_estimate"},
+        "youth_disconnection": {"value": 260000000, "unit": "young people not in employment, education or training", "value_type": "published_estimate"},
+        "trade_linked_jobs": {"value": 465000000, "unit": "jobs linked to foreign demand worldwide", "value_type": "published_estimate"},
+        "domestic_action": {"value": "The report argues that progress will increasingly depend on domestic choices around job creation, productivity, skills, social protection and labour-market institutions as external financing and global growth remain constrained.", "unit": "reported policy interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "ILO report synthesis of global labour estimates, trade-linked employment and policy implications; gender and youth figures are global estimates, not respondent-level observations in this record.",
+      "uncertainty": "The figures do not identify the causal contribution of discrimination, care burdens, education, health, macroeconomic conditions or institutions; trade-linked jobs are not necessarily secure or high quality in every setting.",
+      "subgroup": "Women, young people, workers in trade-linked sectors, small and medium enterprises, workers exposed to AI and workers relying on domestic labour-market institutions.",
+      "counterinterpretation": "Domestic policy is important but cannot fully offset global trade, debt, technology, demographic or geopolitical constraints; stronger external coordination may still be necessary.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ilostat.ilo.org/data/", "claim": "ILO data and visualization resources for comparing labour-market trends across countries and regions."},
+    {"source_url": "https://doi.org/10.54394/AHRT2681", "claim": "Official DOI for Employment and Social Trends 2026."}
+  ],
+  "boundary": "This record adds a global labour-market layer: the ILO separates stable unemployment from job quality, informality, working poverty, income recovery, unequal productivity and access to work. It uses ILO modelled estimates and comparative synthesis, not respondent-level microdata, a household panel, transaction data or a causal evaluation of policy effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page was reviewed for the 2026 unemployment projection, global jobs gap, working poverty, informality, income-group divergence, productivity, gender, youth, trade-linked employment and domestic-policy messages.",
+    "source_url_sha256": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+    "checked": "2026-09-27"
+  }
+}

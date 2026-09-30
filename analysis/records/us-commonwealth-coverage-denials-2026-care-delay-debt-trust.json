@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-commonwealth-coverage-denials-2026-care-delay-debt-trust",
+  "title": "Insurance coverage denials convert medical recommendations into household delay, debt, and trust loss",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Commonwealth Fund 2025 Affordability Survey and eight focus groups; report published June 2026",
+  "geography": "United States; working-age adults ages 19–64 with private insurance through an employer, ACA marketplace, or individual market",
+  "observations": [
+    {
+      "period": "July–October 2025; private-insurance coverage denials",
+      "denominator": {"value": 4589, "unit": "survey respondents ages 19–64 with private insurance; weighted to approximately 130.6 million U.S. adults", "value_type": "reported_sample_size"},
+      "measures": {
+        "any_recommended_care_denial": {"value": 21, "unit": "percent reporting that an insurer denied doctor-recommended care for themselves or a family member in the prior year", "value_type": "reported_share"},
+        "prior_authorization_denial": {"value": 13, "unit": "percent reporting a prior-authorization denial", "value_type": "reported_share"},
+        "claim_denial": {"value": 8, "unit": "percent reporting a claim denial", "value_type": "reported_share"}
+      },
+      "method": "Random, nationally representative Commonwealth Fund/SSRS survey of 6,353 U.S. adults ages 19–64, with analysis focused on 4,589 privately insured respondents; eight focus groups supplied qualitative context.",
+      "uncertainty": "The survey asks about the respondent or a family member and is cross-sectional; reported denial is not independently adjudicated and does not establish insurer error, medical necessity, or later clinical outcome.",
+      "subgroup": "Working-age privately insured adults and their households; Medicare-age adults are outside the survey frame.",
+      "counterinterpretation": "Denials can reflect plan exclusions, network rules, administrative error, prior authorization criteria, or billing disputes; the prevalence estimate does not distinguish these mechanisms by itself.",
+      "source_url": "https://www.commonwealthfund.org/publications/surveys/2026/jun/how-health-insurance-coverage-denials-affect-americans-2025-affordability-survey",
+      "retrieval_hash": "sha256:4a0ad5ad58fcc4cb1b42bd006e4340afea924bf146c05202a929b1a1ccd8dc4d",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; consequences of prior-authorization denial",
+      "denominator": {"value": 1, "unit": "adults ages 19–64 with private insurance who experienced a prior-authorization denial", "value_type": "survey_population"},
+      "measures": {
+        "denial_caused_anxiety": {"value": 63, "unit": "percent reporting worry or anxiety", "value_type": "reported_share"},
+        "denial_delayed_care": {"value": 41, "unit": "percent reporting delayed medical care", "value_type": "reported_share"},
+        "health_problem_worsened": {"value": 28, "unit": "percent reporting that a health problem worsened", "value_type": "reported_share"},
+        "denial_cost_more_money": {"value": 31, "unit": "percent reporting additional household cost", "value_type": "reported_share"}
+      },
+      "method": "Conditional survey estimates among people reporting a prior-authorization denial; response options were not mutually exclusive.",
+      "uncertainty": "The timing and severity of health worsening are self-reported; the survey cannot separate denial effects from the underlying condition, care urgency, or other barriers.",
+      "subgroup": "Privately insured working-age adults with a prior-authorization denial affecting themselves or a family member.",
+      "counterinterpretation": "Some delayed care may be rescheduled, replaced with another treatment, or clinically appropriate; the estimates show household-reported consequences rather than a causal clinical trial.",
+      "source_url": "https://www.commonwealthfund.org/publications/surveys/2026/jun/how-health-insurance-coverage-denials-affect-americans-2025-affordability-survey",
+      "retrieval_hash": "sha256:4a0ad5ad58fcc4cb1b42bd006e4340afea924bf146c05202a929b1a1ccd8dc4d",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; consequences of claim denial",
+      "denominator": {"value": 1, "unit": "adults ages 19–64 with private insurance who experienced a claim denial", "value_type": "survey_population"},
+      "measures": {
+        "claim_denial_cost_more_money": {"value": 69, "unit": "percent reporting that the denial cost the household more money", "value_type": "reported_share"},
+        "claim_denial_medical_debt": {"value": 43, "unit": "percent reporting medical debt from the denial that they were still paying off", "value_type": "reported_share"},
+        "claim_denial_delayed_care": {"value": 30, "unit": "percent reporting delayed medical care", "value_type": "reported_share"},
+        "claim_denial_health_worsened": {"value": 21, "unit": "percent reporting a worsened health problem", "value_type": "reported_share"},
+        "denied_bill_at_least_1000": {"value": 55, "unit": "percent reporting an original denied bill of $1,000 or more", "value_type": "reported_share"}
+      },
+      "method": "Conditional survey estimates among people reporting a post-care claim denial; response options were not mutually exclusive where applicable.",
+      "uncertainty": "Debt and worsening are self-reported and do not measure balances, repayment duration, credit effects, collections, or whether a different payment route was available.",
+      "subgroup": "Privately insured working-age adults with a claim denial affecting themselves or a family member.",
+      "counterinterpretation": "A claim denial may be disputed, corrected, or paid by another household or provider source; the findings indicate financial and care friction, not guaranteed long-term debt or harm.",
+      "source_url": "https://www.commonwealthfund.org/publications/surveys/2026/jun/how-health-insurance-coverage-denials-affect-americans-2025-affordability-survey",
+      "retrieval_hash": "sha256:4a0ad5ad58fcc4cb1b42bd006e4340afea924bf146c05202a929b1a1ccd8dc4d",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; appeal friction and institutional remedy",
+      "denominator": {"value": 1, "unit": "privately insured working-age adults who appealed a denial and had received a decision where specified", "value_type": "survey_population"},
+      "measures": {
+        "prior_auth_appeal_care_approved_or_changed": {"value": 50, "unit": "approximately percent saying an appeal approved the recommended care or a different type of care", "value_type": "reported_share"},
+        "prior_auth_appeal_wait_two_weeks_plus": {"value": 80, "unit": "approximately percent waiting two weeks or more for a decision after appealing prior authorization", "value_type": "reported_share"},
+        "claim_appeal_reduced_or_eliminated_amount": {"value": 33, "unit": "percent saying an appeal reduced or eliminated the amount owed", "value_type": "reported_share"},
+        "claim_appeal_wait_one_month_plus": {"value": 60, "unit": "more than percent waiting one month or more for a decision where a decision had been received", "value_type": "reported_share"},
+        "nonappeal_futility_or_rights_uncertainty": {"value": "about half did not appeal; common reasons included not knowing the right, uncertainty about contact, or believing an appeal would not matter", "unit": "reported institutional-friction pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Conditional survey estimates about appeal participation, appeal outcomes, and time to decision, supplemented by focus-group accounts of navigating providers and insurers.",
+      "uncertainty": "Appeal denominators differ by denial type and by whether a decision had arrived; rounded chart values should not be treated as a single end-to-end success rate.",
+      "subgroup": "Privately insured working-age adults who experienced and challenged coverage denials.",
+      "counterinterpretation": "Appeals can correct errors or produce clinically appropriate alternatives; delay may reflect complex cases, incomplete documentation, or external administrative steps as well as insurer behavior.",
+      "source_url": "https://www.commonwealthfund.org/publications/surveys/2026/jun/how-health-insurance-coverage-denials-affect-americans-2025-affordability-survey",
+      "retrieval_hash": "sha256:4a0ad5ad58fcc4cb1b42bd006e4340afea924bf146c05202a929b1a1ccd8dc4d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.commonwealthfund.org/sites/default/files/2026-06/PDF_Richards_how_coverage_denials_affect_americans_2025_affordability_survey_Exhibits.pdf", "claim": "Publisher chartpack containing the report’s survey bases, exhibit values, and appeal outcomes.", "status": "primary-publication"},
+    {"source_url": "https://doi.org/10.26099/f758-3x19", "claim": "DOI for the Commonwealth Fund coverage-denials publication.", "status": "primary-publication"}
+  ],
+  "boundary": "This record identifies a U.S. institutional route from private-insurance coverage denial to care delay, worsening health, household expense, medical debt, appeal time, and trust loss. It does not establish that every denial is improper, that denial caused each reported outcome, or that the findings apply to Medicare, Medicaid, uninsured adults, or older adults outside the survey frame.",
+  "retrieval_hash": "sha256:4a0ad5ad58fcc4cb1b42bd006e4340afea924bf146c05202a929b1a1ccd8dc4d"
+}

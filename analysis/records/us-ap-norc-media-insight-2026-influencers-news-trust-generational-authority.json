@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ap-norc-media-insight-2026-influencers-news-trust-generational-authority",
+  "title": "Information authority is fragmenting across influencers, local news, national news, and AI by generation and task",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Media Insight Project, The Evolving News Landscape: Comparing Media Habits and Trust Between Teens and Adults",
+  "geography": "United States; nationally representative probability samples of teenagers ages 13–17 and adults ages 18 and older",
+  "observations": [
+    {
+      "period": "February 2026 survey; information-source use across generations",
+      "denominator": {"value": 2101, "unit": "combined U.S. teen and adult respondents", "value_type": "reported_probability_sample"},
+      "measures": {
+        "influencer_use": {"value": 57, "unit": "percent getting news or information from influencers or independent creators at least sometimes", "value_type": "reported_share"},
+        "teen_use": {"value": 81, "unit": "percent of teenagers ages 13–17 getting news or information from influencers or independent creators at least sometimes", "value_type": "reported_share"},
+        "young_adult_use": {"value": 63, "unit": "percent of adults ages 18–34 getting news or information from influencers or independent creators at least sometimes", "value_type": "reported_share"},
+        "authority_shift": {"value": "news discovery is becoming distributed through creators and social environments rather than organized only around news organizations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Media Insight Poll conducted February 2–16, 2026 among 1,009 teenagers ages 13–17 and February 5–8, 2026 among 1,092 adults ages 18 and older, using probability sample sources covering the 50 states and District of Columbia.",
+      "uncertainty": "The study measures self-reported frequency and confidence, not exposure logs, accuracy, long-term belief change, or whether creator use replaces or supplements professional news.",
+      "subgroup": "Teenagers, young adults, middle-aged adults, older adults, hard-news consumers, and people with different platform and news-use patterns.",
+      "counterinterpretation": "Influencer use can represent casual discovery, entertainment, or social discussion rather than reliance for consequential decisions; high use does not establish high influence or low media literacy.",
+      "source_url": "https://apnorc.org/projects/the-evolving-news-landscape-comparing-media-habits-and-trust-between-teens-and-adults/",
+      "retrieval_hash": "sha256:5474f4078da83dd907c10a832af1db7e63feff4bca6690faa822bdcbf214e050",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 survey; topic-specific creator use",
+      "denominator": {"value": 2101, "unit": "combined U.S. teen and adult respondents", "value_type": "reported_probability_sample"},
+      "measures": {
+        "national_news": {"value": 44, "unit": "percent getting national-news information from influencers at least sometimes", "value_type": "reported_share"},
+        "culture_entertainment_sports": {"value": 41, "unit": "percent getting culture, entertainment, or sports information from influencers at least sometimes", "value_type": "reported_share"},
+        "health_wellness": {"value": 38, "unit": "percent getting health, wellness, or self-care information from influencers at least sometimes", "value_type": "reported_share"},
+        "local_news": {"value": 35, "unit": "percent getting local-news information from influencers at least sometimes", "value_type": "reported_share"},
+        "task_specificity": {"value": "creator authority is topic-specific: cultural discovery and wellness coexist with political and local-news use", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted survey estimates of self-reported information use by topic and source type.",
+      "uncertainty": "Topic categories combine news, information, and advice; the public report does not establish factual quality, downstream behavior, or the boundaries between creator commentary and journalism.",
+      "subgroup": "Teenagers and adults using creators for national events, culture and entertainment, health and wellness, or local information.",
+      "counterinterpretation": "Creators may function as gateways to reporting or community discussion rather than substitutes for reporting; topic frequency should not be read as equivalent trust.",
+      "source_url": "https://americanpressinstitute.org/influencers-alternative-media-news/",
+      "retrieval_hash": "sha256:5474f4078da83dd907c10a832af1db7e63feff4bca6690faa822bdcbf214e050",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 survey; comparative trust and source capability",
+      "denominator": {"value": 2101, "unit": "combined U.S. teen and adult respondents", "value_type": "reported_probability_sample"},
+      "measures": {
+        "trust_order": {"value": "among users, local news is viewed as most trustworthy, followed by national news, influencers or independent creators, and AI chatbots", "unit": "reported comparative confidence ordering", "value_type": "reported_comparison"},
+        "creator_facts": {"value": 25, "unit": "percent saying independent creators do extremely or very well at offering different viewpoints and getting facts right", "value_type": "reported_share"},
+        "ai_boundary": {"value": "AI chatbots are used and evaluated as an information source but rank below local, national, and creator sources in confidence", "unit": "reported comparative assessment", "value_type": "reported_assessment"},
+        "distributed_authority": {"value": "people assign different jobs to different sources instead of expressing one undifferentiated level of media trust", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative survey questions on confidence and perceived source capability across local news, national news, independent creators, and AI chatbots.",
+      "uncertainty": "The report summarizes perceived confidence and capability; it does not measure source accuracy, correction rates, algorithmic exposure, or actual verification behavior.",
+      "subgroup": "News consumers with different age, source-use, payment, and hard-news-consumption profiles.",
+      "counterinterpretation": "A source can rank low in general confidence yet be trusted for a specific topic, personality, or social relationship; aggregate ordering should not be treated as a stable hierarchy in every context.",
+      "source_url": "https://www.norc.org/content/dam/norc-org/pdf2026/mip-2026-report.pdf",
+      "retrieval_hash": "sha256:5474f4078da83dd907c10a832af1db7e63feff4bca6690faa822bdcbf214e050",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 survey; misinformation attribution and news avoidance",
+      "denominator": {"value": 2101, "unit": "combined U.S. teen and adult respondents", "value_type": "reported_probability_sample"},
+      "measures": {
+        "politicians_misinformation": {"value": 66, "unit": "percent assigning politicians a great deal or quite a bit of responsibility for spreading misinformation", "value_type": "reported_share"},
+        "social_media_companies": {"value": 55, "unit": "percent assigning social media companies a great deal or quite a bit of responsibility", "value_type": "reported_share"},
+        "social_media_users": {"value": 54, "unit": "percent assigning social media users a great deal or quite a bit of responsibility", "value_type": "reported_share"},
+        "local_news_blame": {"value": 35, "unit": "percent assigning local news a great deal or quite a bit of responsibility", "value_type": "reported_share"},
+        "political_meaning": {"value": "people separate information access from blame: creators and platforms are used while political and platform actors are held responsible for misinformation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey questions on perceived responsibility for misinformation and active avoidance of news across social, political, and interpersonal settings.",
+      "uncertainty": "Attribution and avoidance are reported judgments, not causal evidence about misinformation production, belief change, polarization, or civic participation.",
+      "subgroup": "Teens and adults with different political orientations, hard-news consumption, platform exposure, and levels of news fatigue.",
+      "counterinterpretation": "Blaming politicians or platforms may reflect broader dissatisfaction with institutions; avoiding news can be selective self-protection, attention management, or disengagement depending on the person and topic.",
+      "source_url": "https://americanpressinstitute.org/media-fatigue-trust-misinformation-partisanship/",
+      "retrieval_hash": "sha256:5474f4078da83dd907c10a832af1db7e63feff4bca6690faa822bdcbf214e050",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://americanpressinstitute.org/comparing-news-consumption-trust-us-teens-and-adults/", "claim": "Public summary of generational news habits and trust differences."},
+    {"source_url": "https://americanpressinstitute.org/study-methodology-media-insight-project-2026/", "claim": "Survey field dates, probability sample design, and study partnership documentation."},
+    {"source_url": "https://americanpressinstitute.org/influencers-alternative-media-news/", "claim": "Topic-specific creator and influencer use."}
+  ],
+  "boundary": "This record adds a U.S. information-authority route across generational media habits, creator use, topic-specific discovery, source confidence, misinformation attribution, AI comparison, and news avoidance. It does not infer that influencers replace journalism, that platform use causes political beliefs, that confidence equals accuracy, or that reported avoidance equals civic disengagement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official AP-NORC report PDF and American Press Institute project pages reviewed for sample design, field dates, creator-use estimates, source-confidence ordering, misinformation attribution, and news-avoidance framing.",
+    "source_url_sha256": "sha256:5474f4078da83dd907c10a832af1db7e63feff4bca6690faa822bdcbf214e050",
+    "checked": "2026-09-28"
+  }
+}

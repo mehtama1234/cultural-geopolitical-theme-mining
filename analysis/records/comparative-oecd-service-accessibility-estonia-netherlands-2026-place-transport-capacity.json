@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-service-accessibility-estonia-netherlands-2026-place-transport-capacity",
+  "title": "Service access is shaped by a place-capacity tradeoff: shorter urban travel can coexist with higher demand pressure and constrained slots",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "OECD Social, Employment and Migration Working Paper No. 333, Geographic disparities in service accessibility in Estonia and the Netherlands",
+  "geography": "Municipalities and degrees of urbanisation in Estonia and the Netherlands, covering early childhood education and care, primary schools, and Public Employment Services",
+  "observations": [
+    {
+      "period": "2026; physical accessibility across cities, towns, and rural areas",
+      "denominator": {"value": 2, "unit": "countries analyzed: Estonia and the Netherlands", "value_type": "comparative_country_frame"},
+      "measures": {
+        "urban_rural_gradient": {"value": "physical accessibility shows a clear urban-rural gradient across early childhood education and care, primary schools, and Public Employment Services", "unit": "reported comparative finding", "value_type": "reported_spatial_pattern"},
+        "data_system": {"value": "service locations, capacity, enrolment, and local transport infrastructure are combined to assess accessibility", "unit": "reported measurement system", "value_type": "reported_method_set"},
+        "accessibility_concept": {"value": "access depends on transport mode, proximity, service capacity, and local demand rather than distance alone", "unit": "reported analytical frame", "value_type": "reported_mechanism_set"},
+        "inclusion_route": {"value": "access to enabling services is identified as a determinant of labor-market participation and social inclusion", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD municipal-level analysis combining service-location data, capacity, enrolment, and local transport infrastructure across two countries and multiple degrees of urbanisation.",
+      "uncertainty": "The comparison covers two national systems and selected services; accessibility measures do not fully capture opening hours, service quality, affordability, informal care, or individual travel constraints.",
+      "subgroup": "Children, parents, jobseekers, caregivers, rural residents, people without private vehicles, service providers, municipalities, and communities with different transport options.",
+      "counterinterpretation": "Urban proximity can still provide substantial benefits, while rural services may be accessible through flexible transport, local provision, digital support, or informal networks not captured by the measures.",
+      "source_url": "https://doi.org/10.1787/63b9abef-en",
+      "retrieval_hash": "sha256:9831137fa8ea8c30c1d2d4f9a0291e05791bcada809f4c94980cde84b055ebf9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proximity versus competitive accessibility",
+      "denominator": {"value": 1, "unit": "municipal service-accessibility comparison frame", "value_type": "competitive_accessibility_frame"},
+      "measures": {
+        "proximity_boundary": {"value": "shorter travel times in urban areas do not guarantee better competitive accessibility when demand pressure and capacity constraints are high", "unit": "reported analytical finding", "value_type": "reported_mechanism"},
+        "capacity_constraint": {"value": "available places or service capacity relative to local demand changes the meaning of geographic proximity", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "urban_tradeoff": {"value": "dense locations can have lower effective access than less dense areas despite shorter physical travel", "unit": "reported comparative pattern", "value_type": "reported_spatial_tradeoff"},
+        "policy_route": {"value": "service planning should combine transport, location, capacity, and demand rather than optimize distance alone", "unit": "reported policy implication", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD comparison of physical accessibility and competitive accessibility, which incorporates service capacity relative to local demand.",
+      "uncertainty": "Competitive accessibility depends on how capacity and demand are measured and does not directly observe successful enrolment, service quality, affordability, or household choice.",
+      "subgroup": "Families seeking childcare or schools, jobseekers using employment services, municipalities planning capacity, and residents competing for scarce service places.",
+      "counterinterpretation": "Capacity pressure may signal strong demand and investment rather than simple service failure; expanding capacity can also have fiscal, staffing, and spatial tradeoffs.",
+      "source_url": "https://doi.org/10.1787/63b9abef-en",
+      "retrieval_hash": "sha256:9831137fa8ea8c30c1d2d4f9a0291e05791bcada809f4c94980cde84b055ebf9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; double disadvantage among primary-school children",
+      "denominator": {"value": 1, "unit": "primary-school children in the Estonia and Netherlands comparative analysis", "value_type": "child_accessibility_frame"},
+      "measures": {
+        "double_disadvantage": {"value": "13-14", "unit": "percent of primary-school children facing both longer travel times and below-median competitive accessibility", "value_type": "reported_population_share"},
+        "combined_burden": {"value": "long travel and low service capacity relative to demand can compound rather than merely add access barriers", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "place_pathway": {"value": "where a child lives shapes time, transport dependence, and the practical availability of education", "unit": "reported place mechanism", "value_type": "reported_mechanism"},
+        "equity_route": {"value": "accessibility policy should identify children facing simultaneous distance and capacity disadvantage", "unit": "reported policy implication", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD municipal accessibility analysis identifying the share of primary-school children exposed to both longer travel times and below-median competitive access.",
+      "uncertainty": "The reported share is specific to the two-country study design and definitions of long travel and below-median competitive accessibility; it does not measure educational outcomes or family adaptation.",
+      "subgroup": "Primary-school children, parents, caregivers, rural and peri-urban households, school systems, transport planners, and municipalities with constrained school capacity.",
+      "counterinterpretation": "Families may compensate through school choice, relocation, car access, remote arrangements, or informal support, but those adaptations can themselves carry cost, time, and inequality consequences.",
+      "source_url": "https://doi.org/10.1787/63b9abef-en",
+      "retrieval_hash": "sha256:9831137fa8ea8c30c1d2d4f9a0291e05791bcada809f4c94980cde84b055ebf9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Public Employment Services and transport dependence",
+      "denominator": {"value": 1, "unit": "Public Employment Services accessibility and transport-provision comparison", "value_type": "employment_service_access_frame"},
+      "measures": {
+        "transport_vulnerability": {"value": "geographic disparities in public transport provision can be a source of vulnerability for people without access to a private motor vehicle", "unit": "reported comparative finding", "value_type": "reported_vulnerability"},
+        "jobseeker_route": {"value": "physical access to employment services remains relevant even as services digitalise, particularly for people with limited digital skills or disabilities", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "mobility_constraint": {"value": "transport access determines whether nominal service availability becomes usable employment support", "unit": "bounded synthesis", "value_type": "reported_mechanism"},
+        "implementation_route": {"value": "inclusive service planning requires combining public transport, physical locations, capacity, and digital alternatives", "unit": "reported policy route", "value_type": "reported_policy_framework"}
+      },
+      "method": "OECD comparison of Public Employment Services locations, transport provision, and accessibility across municipalities and degrees of urbanisation.",
+      "uncertainty": "The paper measures geographic and transport conditions rather than job-search success, placement, benefit receipt, or the causal effect of service access on employment.",
+      "subgroup": "Jobseekers without cars, people with disabilities, people with limited digital skills, rural residents, employment counselors, and local service authorities.",
+      "counterinterpretation": "Digital services can reduce travel burdens for some users, while in-person access remains important for others; hybrid delivery may redistribute rather than eliminate accessibility gaps.",
+      "source_url": "https://doi.org/10.1787/63b9abef-en",
+      "retrieval_hash": "sha256:9831137fa8ea8c30c1d2d4f9a0291e05791bcada809f4c94980cde84b055ebf9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/geographic-inequalities-in-accessibility-of-essential-services_12bab9fb-en.html", "claim": "OECD's earlier cross-country work provides related physical-accessibility context."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-6.html", "claim": "OECD Employment Outlook 2026 provides complementary geographic labor-market and service-access context."}
+  ],
+  "boundary": "This record adds a place-to-service-access route across transport, proximity, capacity, childcare, schooling, employment services, labor participation, and social inclusion. It uses aggregate municipal and spatial analysis in Estonia and the Netherlands, not respondent-level travel histories, individual enrollment files, family mobility decisions, causal employment forecasts, or proof that the same accessibility pattern holds in every country.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page and abstract reviewed for urban-rural accessibility, service locations, capacity, enrolment, transport, competitive accessibility, the 13-14 percent double disadvantage, and Public Employment Services vulnerability.",
+    "source_url_sha256": "sha256:9831137fa8ea8c30c1d2d4f9a0291e05791bcada809f4c94980cde84b055ebf9",
+    "checked": "2026-09-26"
+  }
+}

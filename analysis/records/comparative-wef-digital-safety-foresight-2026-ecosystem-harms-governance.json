@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-digital-safety-foresight-2026-ecosystem-harms-governance",
+  "title": "Digital safety is shifting from internal product review toward ecosystem-level foresight, early warning, and shared accountability",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Economic Forum, Preparing for the Future: The Pillars of Digital Safety Foresight",
+  "geography": "Organizations and digital ecosystems facing AI, technology, user-behavior, adversarial, regulatory, and dependency changes across sectors and borders",
+  "observations": [
+    {
+      "period": "2026; digital-safety risk environment",
+      "denominator": {"value": 1, "unit": "digital-safety foresight framework", "value_type": "published_framework"},
+      "measures": {
+        "risk_sources": {"value": "AI and other technology advances, user-behaviour shifts, adversarial tactics, regulatory expectations, and broader ecosystem dependencies", "unit": "reported external risk-source set", "value_type": "reported_framework"},
+        "safety_boundary": {"value": "internal safety-by-design review is necessary but insufficient", "unit": "reported governance assessment", "value_type": "reported_assessment"},
+        "operating_problem": {"value": "organizations need to anticipate conditions that emerge outside their own boundaries", "unit": "reported governance problem", "value_type": "reported_assessment"}
+      },
+      "method": "The WEF report synthesizes digital-safety practice and foresight into an outward-looking framework for anticipating ecosystem conditions and translating them into organizational preparedness.",
+      "uncertainty": "The framework identifies practices and response pathways; it does not estimate the prevalence of digital harms, prove that foresight prevents incidents, or establish a universal governance model.",
+      "subgroup": "Technology firms, public agencies, platform users, safety teams, regulators, civil society, developers, and communities exposed to digital-system harms.",
+      "counterinterpretation": "External scanning can improve preparedness while also expanding surveillance, compliance burden, or corporate discretion over contested social risks.",
+      "source_url": "https://www.weforum.org/publications/preparing-for-the-future-the-pillars-of-digital-safety-foresight/",
+      "retrieval_hash": "sha256:fad5cf93a40178813cf042a9da75484b4c8f23bb9791a9451d3ec644f604fce6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; six digital-safety foresight pillars",
+      "denominator": {"value": 6, "unit": "digital-safety foresight pillars", "value_type": "reported_pillar_denominator"},
+      "measures": {
+        "pillars": {"value": "frame and govern; sense; model; assess readiness; install early warning; synthesize", "unit": "reported foresight pillars", "value_type": "reported_framework"},
+        "sequence": {"value": "from defining the risk frame through sensing, modelling, readiness assessment, warning, and synthesis", "unit": "reported process architecture", "value_type": "reported_process"},
+        "governance_link": {"value": "foresight is intended to connect external change detection with organizational decision-making", "unit": "reported governance pathway", "value_type": "reported_framework"}
+      },
+      "method": "The publication organizes foresight into six repeatable pillars rather than treating risk scanning as a one-time horizon exercise.",
+      "uncertainty": "The pillars are a design framework; the report does not provide comparative evidence that each pillar has equal value or that organizations can implement them with similar resources.",
+      "subgroup": "Safety and risk leaders, product teams, policy and legal functions, intelligence and trust-and-safety teams, boards, regulators, and affected users.",
+      "counterinterpretation": "A formal foresight sequence can produce documentation without changing incentives, product decisions, resource allocation, or user protection.",
+      "source_url": "https://www.weforum.org/publications/preparing-for-the-future-the-pillars-of-digital-safety-foresight/",
+      "retrieval_hash": "sha256:fad5cf93a40178813cf042a9da75484b4c8f23bb9791a9451d3ec644f604fce6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital-safety response pathways",
+      "denominator": {"value": 4, "unit": "response pathways presented by the framework", "value_type": "reported_pathway_denominator"},
+      "measures": {
+        "response_pathways": {"value": "four response pathways for translating foresight into practical action", "unit": "reported pathway set", "value_type": "reported_framework"},
+        "response_goal": {"value": "strengthen preparedness, resilience, and coordination in a rapidly changing digital environment", "unit": "reported program objective", "value_type": "reported_objective"},
+        "coordination_scope": {"value": "internal teams and the wider ecosystem of users, adversaries, regulators, technologies, and dependencies", "unit": "reported coordination scope", "value_type": "reported_framework"}
+      },
+      "method": "The report pairs the six foresight pillars with four response pathways designed to move from anticipation to organizational action.",
+      "uncertainty": "The pathways are not a measured intervention effect, implementation inventory, or guarantee that coordination resolves conflicts among safety, access, innovation, privacy, and commercial incentives.",
+      "subgroup": "Organizations deploying AI and digital products, public institutions, supply-chain partners, safety researchers, users, and communities with limited ability to exit harmful systems.",
+      "counterinterpretation": "Coordination can improve resilience but may centralize control, create interoperability dependence, or shift liability without giving affected users meaningful voice or remedy.",
+      "source_url": "https://www.weforum.org/publications/preparing-for-the-future-the-pillars-of-digital-safety-foresight/",
+      "retrieval_hash": "sha256:fad5cf93a40178813cf042a9da75484b4c8f23bb9791a9451d3ec644f604fce6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital-safety accountability and trust implications",
+      "denominator": {"value": 1, "unit": "digital-safety governance interpretation frame", "value_type": "published_framework"},
+      "measures": {
+        "shared_responsibility": {"value": "digital safety requires a broader ecosystem approach rather than isolated organizational review", "unit": "reported governance principle", "value_type": "reported_principle"},
+        "trust_condition": {"value": "resilience depends on anticipating change and coordinating across sectors and borders", "unit": "reported governance pathway", "value_type": "reported_assessment"},
+        "user_implication": {"value": "user behaviour and user-facing harms are part of the external conditions that shape digital safety", "unit": "reported risk scope", "value_type": "reported_framework"}
+      },
+      "method": "The report connects foresight, preparedness, resilience, and coordination to the changing relationship between digital products, users, institutions, and adversaries.",
+      "uncertainty": "The report does not measure trust, user harm, remedy access, or distributional outcomes, and it leaves implementation and accountability arrangements context-dependent.",
+      "subgroup": "Users, vulnerable populations, public-interest organizations, firms, regulators, and cross-border institutions responsible for digital safety and accountability.",
+      "counterinterpretation": "Calling safety a shared responsibility can diffuse accountability unless specific actors retain duties to prevent harm, disclose risks, and provide correction and remedy.",
+      "source_url": "https://www.weforum.org/publications/preparing-for-the-future-the-pillars-of-digital-safety-foresight/",
+      "retrieval_hash": "sha256:fad5cf93a40178813cf042a9da75484b4c8f23bb9791a9451d3ec644f604fce6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/", "claim": "Related WEF cyber-risk context on AI, geopolitics, cyber inequity, and systemic dependence."},
+    {"source_url": "https://www.weforum.org/publications/empowering-defenders-ai-for-cybersecurity/", "claim": "Related WEF publication on applying AI across the cybersecurity lifecycle."}
+  ],
+  "boundary": "This record adds a digital-safety foresight and ecosystem-governance route linking external risk sensing, AI and user-behavior change, adversarial tactics, regulation, early warning, preparedness, coordination, trust, and accountability. It is a practice framework, not a cyber-incident census, respondent-level harm data, causal evaluation, implementation audit, or proof that shared responsibility produces remedy or equitable safety.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF publication page was reviewed for the external risk-source framing, six foresight pillars, four response pathways, and ecosystem-level preparedness and coordination claims; the related cyber outlook was used only as contextual linkage.",
+    "source_url_sha256": "sha256:fad5cf93a40178813cf042a9da75484b4c8f23bb9791a9451d3ec644f604fce6",
+    "checked": "2026-09-27"
+  }
+}

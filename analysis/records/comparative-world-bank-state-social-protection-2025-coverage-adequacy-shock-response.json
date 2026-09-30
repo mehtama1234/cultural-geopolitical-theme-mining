@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-state-social-protection-2025-coverage-adequacy-shock-response",
+  "title": "Social protection has expanded at historic scale but coverage, benefit adequacy, and delivery infrastructure still leave billions exposed to shocks",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, State of Social Protection Report 2025: The 2-Billion-Person Challenge",
+  "geography": "Low- and middle-income countries, with comparisons by income group, region, poverty status, gender, and social-protection function",
+  "observations": [
+    {
+      "period": "2010-2022; expansion of social protection and labor programs",
+      "denominator": {"value": 1, "unit": "low- and middle-income country population coverage frame", "value_type": "global_social_protection_frame"},
+      "measures": {
+        "people_reached": {"value": 4700000000, "unit": "people gaining access to social protection and labor programs over the past decade, as reported by the World Bank", "value_type": "reported_population_count"},
+        "coverage_2010": {"value": 41, "unit": "percent of the population covered in 2010", "value_type": "reported_coverage_share"},
+        "coverage_2022": {"value": 51, "unit": "percent of the population covered in 2022", "value_type": "reported_coverage_share"},
+        "expansion_boundary": {"value": "historic expansion coexists with large uncovered and inadequately covered populations", "unit": "World Bank report synthesis", "value_type": "reported_boundary"}
+      },
+      "method": "World Bank synthesis using ASPIRE administrative indicators and household-survey evidence on social assistance, social insurance, and labor-market programs.",
+      "uncertainty": "Coverage aggregates different programs and definitions across countries and years; access to a program does not establish regular receipt, adequacy, or effective protection.",
+      "subgroup": "Poor households, workers, older people, children, women, people with disabilities, and populations in low- and middle-income countries.",
+      "counterinterpretation": "The ten-percentage-point increase represents substantial institutional progress even though it falls short of universal and adequate protection.",
+      "source_url": "https://www.worldbank.org/en/topic/socialprotection/publication/state-of-social-protection-2025-2-billion-person-challenge",
+      "retrieval_hash": "sha256:4a25f04ba715c6b30ad2f2d6467ddfd66c476577383785d6dc5ec3852f2b5808",
+      "status": "reported"
+    },
+    {
+      "period": "2025; coverage and adequacy gap",
+      "denominator": {"value": 2000000000, "unit": "people in low- and middle-income countries with no or inadequate social protection coverage", "value_type": "reported_population_estimate"},
+      "measures": {
+        "inadequately_covered": {"value": 2000000000, "unit": "people remaining uncovered or inadequately covered", "value_type": "reported_population_estimate"},
+        "low_income_no_coverage": {"value": 75, "unit": "percent of people in low-income countries receiving no form of social protection", "value_type": "reported_coverage_gap"},
+        "benefit_adequacy": {"value": 400000000, "unit": "people whose benefits are so meager they may not help escape poverty or cushion unexpected shocks", "value_type": "reported_population_estimate"},
+        "poor_household_transfer": {"value": 11, "unit": "percent of poor-household income represented by social-assistance transfers in low-income countries", "value_type": "reported_transfer_share"}
+      },
+      "method": "World Bank coverage and adequacy synthesis by country income group, poverty status, and social-protection benefit level.",
+      "uncertainty": "The estimates combine country data with different reference years, program definitions, and measurement quality; adequacy is not identical to household welfare or resilience.",
+      "subgroup": "People in extreme poverty, poor households, low-income countries, fragile and conflict-affected regions, and recipients of low-value benefits.",
+      "counterinterpretation": "Even small benefits can protect consumption or preserve human capital at critical moments, while adequacy may improve through complementary services and labor opportunities.",
+      "source_url": "https://www.worldbank.org/en/topic/socialprotection/publication/state-of-social-protection-2025-2-billion-person-challenge",
+      "retrieval_hash": "sha256:4a25f04ba715c6b30ad2f2d6467ddfd66c476577383785d6dc5ec3852f2b5808",
+      "status": "reported"
+    },
+    {
+      "period": "2020; emergency social protection response during the COVID-19 pandemic",
+      "denominator": {"value": 1, "unit": "developing-country emergency social-protection response frame", "value_type": "shock_response_frame"},
+      "measures": {
+        "emergency_reach": {"value": 1700000000, "unit": "people reached by emergency social-protection responses in developing countries", "value_type": "reported_population_count"},
+        "delivery_infrastructure": {"value": "countries with robust delivery infrastructure before the pandemic responded more effectively", "unit": "World Bank report finding", "value_type": "reported_institutional_mechanism"},
+        "shock_response_tools": {"value": "databases, digital payments, case management, and early-warning systems are identified as infrastructure for timely support", "unit": "World Bank policy framework", "value_type": "reported_policy_inventory"}
+      },
+      "method": "World Bank synthesis of pandemic social-protection responses and the pre-existing systems that enabled rapid scale-up.",
+      "uncertainty": "Reach counts do not measure benefit adequacy, duration, exclusion, or the counterfactual effect of delivery infrastructure; pandemic response patterns may not generalize to every shock.",
+      "subgroup": "Households and workers exposed to pandemic income loss, informal workers, people without records or payment access, and governments scaling emergency support.",
+      "counterinterpretation": "Ad hoc responses and community channels can reach people when formal systems are weak, while robust systems may still exclude migrants or people outside administrative databases.",
+      "source_url": "https://www.worldbank.org/en/topic/socialprotection/publication/state-of-social-protection-2025-2-billion-person-challenge",
+      "retrieval_hash": "sha256:4a25f04ba715c6b30ad2f2d6467ddfd66c476577383785d6dc5ec3852f2b5808",
+      "status": "reported"
+    },
+    {
+      "period": "2025; adequacy, gender, labor programs, and path to universal coverage",
+      "denominator": {"value": 27, "unit": "countries in the report's gender comparison sample", "value_type": "country_sample"},
+      "measures": {
+        "gender_benefit_ratio": {"value": 81, "unit": "cents received by women in social-protection benefits for every 1 dollar received by men, on average", "value_type": "reported_gender_ratio"},
+        "coverage_timeline_extreme_poverty": {"value": 18, "unit": "years required at current growth rates to achieve full coverage for people living in extreme poverty", "value_type": "reported_projection"},
+        "coverage_timeline_poorest": {"value": 20, "unit": "years required at current growth rates to cover the poorest 20 percent of households", "value_type": "reported_projection"},
+        "labor_program_spending": {"value": 0.25, "unit": "percent of GDP spent on labor-market programs on average", "value_type": "reported_spending_share"},
+        "local_multiplier": {"value": 2.5, "unit": "estimated local-economic multiplier for each dollar transferred to poor families", "value_type": "reported_multiplier"}
+      },
+      "method": "World Bank comparison of benefit adequacy, gender distribution, labor-market-program spending, coverage trajectories, and local economic effects.",
+      "uncertainty": "Ratios, timelines, and multiplier estimates depend on country samples, program composition, assumptions, and local economic conditions; they are not universal treatment effects.",
+      "subgroup": "Women benefit recipients, poorest households, labor-market-program participants, local economies, and governments allocating scarce fiscal resources.",
+      "counterinterpretation": "Improving targeting, program design, labor opportunities, and resource allocation may accelerate coverage and raise effective adequacy without relying only on aggregate spending growth.",
+      "source_url": "https://www.worldbank.org/en/topic/socialprotection/publication/state-of-social-protection-2025-2-billion-person-challenge",
+      "retrieval_hash": "sha256:4a25f04ba715c6b30ad2f2d6467ddfd66c476577383785d6dc5ec3852f2b5808",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/data/datatopics/aspire", "claim": "World Bank ASPIRE provides the social-protection indicators and country comparison context used by the report."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2025/04/07/historic-expansion-in-social-protection-in-past-decade", "claim": "World Bank release summarizes coverage gaps, delivery infrastructure, and policy actions."}
+  ],
+  "boundary": "This record adds a global social-protection route across coverage, adequacy, crisis response, delivery infrastructure, gender disparity, labor programs, and household resilience. It uses aggregate World Bank indicators and report synthesis, not respondent-level benefit histories, individual case files, causal transfer effects, household consumption panels, or proof that coverage automatically becomes adequate protection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank State of Social Protection 2025 page, summary, ASPIRE context, and release reviewed for coverage expansion, two-billion-person gap, benefit adequacy, pandemic response, gender ratio, timelines, labor-program spending, and policy recommendations.",
+    "source_url_sha256": "sha256:4a25f04ba715c6b30ad2f2d6467ddfd66c476577383785d6dc5ec3852f2b5808",
+    "checked": "2026-09-26"
+  }
+}

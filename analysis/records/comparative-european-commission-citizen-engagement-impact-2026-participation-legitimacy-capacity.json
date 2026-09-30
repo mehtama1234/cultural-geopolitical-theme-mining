@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-european-commission-citizen-engagement-impact-2026-participation-legitimacy-capacity",
+  "title": "Citizen participation can build administrative capacity and legitimacy, but only when institutions commit, communicate, and show what changed",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "European Commission Joint Research Centre, Citizen Engagement Impact: Making a difference to policy, institutions and society",
+  "geography": "European Union Member State public administrations and citizen-engagement processes, with cross-EU synthesis",
+  "observations": [
+    {
+      "period": "2025 EU Citizen Engagement Impact Survey; administrations with prior citizen-engagement experience",
+      "denominator": {"value": 105, "unit": "public-administration respondents across 20 EU Member States", "value_type": "survey_response_frame"},
+      "measures": {
+        "repeat_intention": {"value": 97, "unit": "percent reporting that their administration would conduct citizen engagement again", "value_type": "reported_share"},
+        "perceived_value": {"value": "administrations report value for policy quality, legitimacy, reflecting community needs, and strengthening democracy", "unit": "European Commission survey synthesis", "value_type": "reported_assessment"},
+        "capacity_gap": {"value": 49.5, "unit": "percent reporting insufficient institutional skills and competencies to conduct or procure citizen engagement effectively", "value_type": "reported_share"},
+        "support_demand": {"value": 54.3, "unit": "percent wanting more support to improve citizen-engagement skills and capacity", "value_type": "reported_share"}
+      },
+      "method": "European Commission/JRC survey of public administrations that had conducted citizen-engagement processes, supplemented by qualitative interviews and cross-case impact synthesis.",
+      "uncertainty": "These are administration-reported perceptions and experiences rather than a randomized evaluation; repeat intention and perceived value do not prove equal benefits for participants or the wider public.",
+      "subgroup": "Public administrations, policymakers, officials procuring engagement, participating citizens, civil-society organizations, and communities affected by policy decisions.",
+      "counterinterpretation": "Administrations may value participation because it supports learning or legitimacy even when policy uptake is limited; that value does not remove the need to test representativeness and outcomes.",
+      "source_url": "https://knowledge4policy.ec.europa.eu/major-report/citizen-engagement-impact-making-difference-policy-institutions-society_en",
+      "retrieval_hash": "sha256:4fa09e515fe77be0ec521c15a3fad36cbe83a4b25b1b22a32f226ab07de2ab73",
+      "status": "reported"
+    },
+    {
+      "period": "2025 EU Citizen Engagement Impact Survey; institutional capability and implementation conditions",
+      "denominator": {"value": 1, "unit": "European Commission citizen-engagement capacity synthesis", "value_type": "institutional_capacity_frame"},
+      "measures": {
+        "planning_skill_demand": {"value": 50.5, "unit": "percent identifying planning as a needed support area", "value_type": "reported_share"},
+        "evaluation_skill_demand": {"value": 43.8, "unit": "percent identifying evaluation skills as a needed support area", "value_type": "reported_share"},
+        "institutional_culture": {"value": "engagement can change public-servant relationships with citizens, communication practices, stakeholder networks, and capacity to conduct future exercises", "unit": "JRC qualitative and survey synthesis", "value_type": "reported_mechanism"},
+        "capacity_route": {"value": "skills, dedicated resources, evaluation, and centers of participatory excellence are proposed as supports for durable capability", "unit": "European Commission recommendation", "value_type": "reported_policy_route"}
+      },
+      "method": "Mixed-method synthesis of administration survey responses, qualitative interviews, and reported impacts across policy, institutional, and public dimensions.",
+      "uncertainty": "Institutional culture effects are difficult to isolate from leadership, legal mandate, topic, process design, and broader administrative reform; the report does not establish a uniform effect size.",
+      "subgroup": "Public servants, engagement practitioners, commissioning politicians, administrative leaders, civil society, and citizens interacting with participation processes.",
+      "counterinterpretation": "New capacity can improve future engagement, but repeated exercises can also become procedural overhead if they lack clear purpose, resources, or routes into decisions.",
+      "source_url": "https://knowledge4policy.ec.europa.eu/major-report/citizen-engagement-impact-making-difference-policy-institutions-society_en",
+      "retrieval_hash": "sha256:4fa09e515fe77be0ec521c15a3fad36cbe83a4b25b1b22a32f226ab07de2ab73",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; policy, institutional, and wider-public effects of engagement",
+      "denominator": {"value": 1, "unit": "European Commission impact-pathway synthesis", "value_type": "participation_impact_frame"},
+      "measures": {
+        "policy_effects": {"value": "citizen recommendations can improve policy quality and sometimes influence other legislation or informal policymaking deliberations", "unit": "JRC reported impact pathways", "value_type": "reported_mechanism"},
+        "institution_effects": {"value": "engagement is associated with closer relationships with citizens, new networks, and greater administrative capacity", "unit": "JRC reported impact pathways", "value_type": "reported_mechanism"},
+        "public_spillovers": {"value": "process visibility and recommendation awareness may increase civic appetite, inform citizens, and alter policy preferences", "unit": "JRC reported possibility", "value_type": "reported_possible_effect"},
+        "communication_condition": {"value": "political commitment and public communication or media coverage are identified as major contributors to impact", "unit": "European Commission survey synthesis", "value_type": "reported_condition"}
+      },
+      "method": "Conceptual and empirical synthesis of direct, indirect, institutional, and wider-public impact pathways from European citizen-engagement processes.",
+      "uncertainty": "Some pathways are indirect or long-term and may be overlooked; the source maps plausible and reported effects rather than proving that every process generates them.",
+      "subgroup": "Participants, non-participating publics, policymakers, public servants, civil society, media, and stakeholders connected through new engagement networks.",
+      "counterinterpretation": "Communication can broaden impact, but visibility without actual policy consideration may increase frustration rather than trust.",
+      "source_url": "https://knowledge4policy.ec.europa.eu/major-report/citizen-engagement-impact-making-difference-policy-institutions-society_en",
+      "retrieval_hash": "sha256:4fa09e515fe77be0ec521c15a3fad36cbe83a4b25b1b22a32f226ab07de2ab73",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; accountability and durability of participatory processes",
+      "denominator": {"value": 1, "unit": "European Commission participatory-governance recommendation frame", "value_type": "institutional_accountability_frame"},
+      "measures": {
+        "followup_failure": {"value": "citizen frustration over slow implementation or unclear policy impact is identified as a major challenge", "unit": "JRC reported challenge", "value_type": "reported_risk"},
+        "impact_design": {"value": "impact should be defined at the start of an engagement process rather than treated as an afterthought", "unit": "European Commission recommendation", "value_type": "reported_policy_route"},
+        "transparent_response": {"value": "commissioning bodies should explain publicly and promptly how recommendations were or were not adopted", "unit": "European Commission recommendation", "value_type": "reported_policy_route"},
+        "institutional_embedding": {"value": "strategic priority or legal mandate is associated with greater reported impact, while safeguards are needed against ignoring or cherry-picking outputs", "unit": "JRC survey synthesis and recommendation", "value_type": "reported_condition"}
+      },
+      "method": "JRC synthesis of survey-reported drivers and challenges, qualitative evidence, and policy recommendations for embedding engagement in democratic systems.",
+      "uncertainty": "The source does not establish a causal threshold for follow-up speed, legal mandate, or impact; implementation quality and process design remain decisive.",
+      "subgroup": "Citizens who participate, wider publics, commissioning officials, elected leaders, civil-society organizations, and administrations responsible for follow-up.",
+      "counterinterpretation": "Not every recommendation should be adopted; transparent reasons for non-adoption can preserve accountability and legitimacy better than symbolic compliance.",
+      "source_url": "https://knowledge4policy.ec.europa.eu/major-report/citizen-engagement-impact-making-difference-policy-institutions-society_en",
+      "retrieval_hash": "sha256:4fa09e515fe77be0ec521c15a3fad36cbe83a4b25b1b22a32f226ab07de2ab73",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC145690/JRC145690_01.pdf", "claim": "European Commission Joint Research Centre full report, JRC145690, Impact of Citizen Engagement."},
+    {"source_url": "https://eur-lex.europa.eu/eli/reco/2023/2836/oj", "claim": "Commission Recommendation on promoting the engagement and effective participation of citizens and civil-society organisations in public policymaking processes."}
+  ],
+  "boundary": "This record adds an institutional participation route across policy quality, administrative culture, civic networks, legitimacy, trust, capacity, follow-up, and accountability. It uses EU public-administration survey responses, qualitative interviews, and report synthesis, not raw participant-level data, representative public opinion, a causal evaluation of any single deliberative process, a complete inventory of all European exercises, or proof that participation is equitable or effective when outputs are ignored.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission Knowledge4Policy page reviewed for the report date, 2025 survey frame, repeat intention, capacity gaps, impact pathways, communication and commitment conditions, follow-up risks, and recommendations.",
+    "source_url_sha256": "sha256:4fa09e515fe77be0ec521c15a3fad36cbe83a4b25b1b22a32f226ab07de2ab73",
+    "checked": "2026-09-27"
+  }
+}

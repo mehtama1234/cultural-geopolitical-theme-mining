@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-worlds-most-important-problem-2026-economic-trust-security",
+  "title": "Public attention converges on economic security but diverges toward work, governance, or safety according to place and stability",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Gallup and World Governments Summit, The World's Most Important Problem: What People Need Leaders to Hear in 2026",
+  "geography": "107 countries and territories; regional, World Bank income-group, and conflict/stability comparisons",
+  "observations": [
+    {
+      "period": "2025 fieldwork reported in 2026; global hierarchy of national problems",
+      "denominator": {"value": 107, "unit": "countries and territories in Gallup World Poll analysis", "value_type": "published_cross_country_survey"},
+      "measures": {
+        "economy": {"value": "a median 23% of adults name the economy, living standards, prices, or wages as their country's most important problem", "unit": "country-level adult survey medians", "value_type": "reported_aggregate_survey"},
+        "work": {"value": "10% name work or employment, 8% politics/government, and 7% safety/security; together with economic concerns these four categories account for roughly half of responses", "unit": "country-level adult survey medians", "value_type": "reported_aggregate_survey"},
+        "secondary": {"value": "food and shelter, social issues, environment and climate, and health each receive a median of 3%; education 2%, immigration 1%, infrastructure 1%, and media less than 1%", "unit": "country-level adult survey medians", "value_type": "reported_aggregate_survey"},
+        "boundary": {"value": "these are perceived national priorities, not objective rankings of harm, causal explanations, or individual life histories", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Gallup World Poll nationally representative probability-based adult samples collected by telephone or face-to-face in 107 countries and territories between March and October 2025; approximately 1,000 or more respondents per country or territory.",
+      "uncertainty": "Country medians compress different question contexts and category coding; sampling error, wording, nonresponse, and field conditions can affect comparisons.",
+      "subgroup": "Adults aged 15 and older, with published comparisons by region, World Bank income group, age, gender, life evaluation, household income perception, and conflict or stability context.",
+      "counterinterpretation": "A lower-ranked issue may still be severe but displaced in public attention by more immediate economic, work, political, or security concerns.",
+      "source_url": "https://www.gallup.com/analytics/701519/worlds-most-important-problem-report.aspx",
+      "retrieval_hash": "sha256:0ee172f542dd7ec91c6efc2780262cf58991f5f3c4e89edb37f0f47add49c8c3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork reported in 2026; income, household room, and economic perception",
+      "denominator": {"value": 107, "unit": "countries and territories compared by World Bank income grouping", "value_type": "published_cross_country_survey"},
+      "measures": {
+        "income_gradient": {"value": "people in lower-income countries more often name economic issues or affording basic needs, while 81% of people in low-income countries identify one of economy, politics, work, safety, or food/shelter among the five major themes versus 65% in high-income countries", "unit": "country-level adult survey medians by income group", "value_type": "reported_aggregate_survey"},
+        "lived_economy": {"value": "people's feelings about household income are more closely related to naming the economy as the top national issue than GDP growth rates", "unit": "reported association in cross-country analysis", "value_type": "reported_association"},
+        "youth": {"value": "34% of adults aged 15 to 34 name the economy or affording basic necessities as the top national concern, compared with 30% among adults 55 and older", "unit": "adult survey estimate across analyzed countries", "value_type": "reported_aggregate_survey"},
+        "analytic_signal": {"value": "public economic judgment is mediated by household room and felt security, not only by aggregate growth", "unit": "analytic household-to-politics mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gallup aggregate analysis of cross-country survey responses and reported relationships with perceived household income, GDP growth, age, and country income group.",
+      "uncertainty": "The reported relationships are descriptive and do not establish that income perception or GDP causes issue prioritization.",
+      "subgroup": "Young adults, older adults, women, lower-income households, people with poor life evaluations, and populations in lower-income countries.",
+      "counterinterpretation": "Economic concern can reflect media salience, political framing, recent shocks, or expectations rather than only material shortfall.",
+      "source_url": "https://www.gallup.com/analytics/701519/worlds-most-important-problem-report.aspx",
+      "retrieval_hash": "sha256:0ee172f542dd7ec91c6efc2780262cf58991f5f3c4e89edb37f0f47add49c8c3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork reported in 2026; governance, trust, and local delivery",
+      "denominator": {"value": 107, "unit": "countries and territories in institutional-trust and national-problem analysis", "value_type": "published_cross_country_survey"},
+      "measures": {
+        "politics": {"value": "politics and government are named as the top national problem by a median 8% globally, with higher concern in high-income countries and Northern America, Europe, and Latin America and the Caribbean", "unit": "country-level adult survey medians", "value_type": "reported_aggregate_survey"},
+        "trust_gap": {"value": "adults expressing confidence in none or one of five institutions are roughly twice as likely to name politics as the top problem as those confident in four or five institutions: 15% versus 8%", "unit": "estimated marginal means from aggregate cross-country analysis", "value_type": "reported_association"},
+        "local_route": {"value": "Gallup identifies local conditions and services such as housing, healthcare, and education as strongly related to institutional confidence", "unit": "reported governance mechanism", "value_type": "reported_association"},
+        "analytic_signal": {"value": "political legitimacy is judged through visible institutional performance and everyday service conditions, not only through national ideology or macro indicators", "unit": "analytic public-systems mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gallup cross-country survey analysis using institutional-confidence measures and regression-adjusted aggregate comparisons.",
+      "uncertainty": "The relationship between trust, service conditions, and political concern is associative; the report does not identify causal direction or specific institutional reforms that would change it.",
+      "subgroup": "Adults across income groups, residents of high-income democracies, local service users, and people with varying confidence in government, courts, elections, military, and financial institutions.",
+      "counterinterpretation": "Higher political concern in affluent democracies may partly reflect greater openness to criticism rather than only institutional failure.",
+      "source_url": "https://www.gallup.com/analytics/701519/worlds-most-important-problem-report.aspx",
+      "retrieval_hash": "sha256:0ee172f542dd7ec91c6efc2780262cf58991f5f3c4e89edb37f0f47add49c8c3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork reported in 2026; conflict, security, and attention displacement",
+      "denominator": {"value": 107, "unit": "countries and territories compared by safety and security concern", "value_type": "published_cross_country_survey"},
+      "measures": {
+        "conflict_priority": {"value": "in countries experiencing violent conflict or instability, physical safety and security dominate public concern and can marginalize economic and political issues", "unit": "reported cross-country pattern", "value_type": "reported_aggregate_pattern"},
+        "examples": {"value": "safety/security is named by 83% in Ukraine, 71% in Israel, and 55% in the State of Palestine in the report's country comparisons", "unit": "adult survey estimates in selected countries and territories", "value_type": "reported_aggregate_survey"},
+        "peace_interaction": {"value": "the report finds a strong relationship between objective peace measures and public concern about physical safety, while some countries show economic hardship displacing security concern", "unit": "reported cross-source association", "value_type": "reported_association"},
+        "open_test": {"value": "join price and household room, work quality, local service performance, trust, conflict exposure, media attention, safety experience, and later political response without treating public priority as a direct measure of objective risk", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Gallup survey analysis compared with Institute for Economics & Peace Global Peace Index measures and country context.",
+      "uncertainty": "Security salience is shaped by conflict, crime, economic hardship, recent shocks, and political communication; cross-country association is not causal proof.",
+      "subgroup": "Conflict-affected populations, residents of peaceful countries facing sudden violence, adults across age and gender, and populations experiencing severe economic hardship.",
+      "counterinterpretation": "Low reported security concern does not mean low insecurity; economic, political, or normalized violence can crowd out explicit security reporting.",
+      "source_url": "https://www.gallup.com/analytics/701519/worlds-most-important-problem-report.aspx",
+      "retrieval_hash": "sha256:0ee172f542dd7ec91c6efc2780262cf58991f5f3c4e89edb37f0f47add49c8c3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/701519/worlds-most-important-problem-report.aspx", "claim": "The official Gallup report page provides the aggregate problem categories, regional and income patterns, institutional-trust analysis, conflict examples, and methodology."},
+    {"source_url": "https://news.gallup.com/poll/702123/economic-anxiety-global-problem.aspx", "claim": "Gallup's related analysis supplies complementary detail on global economic anxiety and household perceptions."},
+    {"source_url": "https://www.visionofhumanity.org/maps/", "claim": "Institute for Economics & Peace peace measures provide the comparative security context referenced by Gallup."}
+  ],
+  "boundary": "This record adds an aggregate public-attention route from household economic security, work, service performance, institutional trust, and conflict exposure through perceived national problems and political judgment. It uses country-level survey aggregates and contextual comparisons, not respondent-level records, individual panel histories, causal effects, or a claim that perceived priority equals objective severity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup 2026 report page was reviewed for global category medians, regional and income differences, household economic perception, institutional trust, local service route, conflict/security displacement, selected country examples, and survey methodology.",
+    "source_url_sha256": "sha256:0ee172f542dd7ec91c6efc2780262cf58991f5f3c4e89edb37f0f47add49c8c3",
+    "checked": "2026-09-26"
+  }
+}

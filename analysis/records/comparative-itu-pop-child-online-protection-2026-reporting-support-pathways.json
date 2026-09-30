@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-pop-child-online-protection-2026-reporting-support-pathways",
+  "title": "Child online protection is shifting from blocking risk toward building accessible reporting, help-seeking and referral pathways",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "ITU and Office of the Special Representative of the Secretary-General on Violence against Children, Protection through Online Participation (PoP) Principles",
+  "geography": "Global child online protection systems involving governments, industry, civil society, child helplines, academia and international organizations",
+  "observations": [
+    {
+      "period": "2026 publication; child online protection guidance",
+      "denominator": {"value": 1, "unit": "global Protection through Online Participation Principles", "value_type": "published_framework"},
+      "measures": {
+        "purpose": {"value": "the Principles provide global guidance to strengthen online reporting and support systems for children", "unit": "reported policy purpose", "value_type": "reported_framework"},
+        "protection_route": {"value": "online participation is treated as a route through which children can report harm, seek help, access support and be referred to protection services", "unit": "reported protection pathway", "value_type": "reported_framework"},
+        "design_shift": {"value": "digital environments are framed as both spaces where risks arise and entry points for protection", "unit": "reported governance interpretation", "value_type": "reported_assessment"}
+      },
+      "method": "Global guidance developed by ITU and the UN Special Representative on Violence against Children with partner input and child consultations.",
+      "uncertainty": "The publication page describes principles and intended pathways, not implementation coverage, service quality, reporting prevalence or child outcomes across countries.",
+      "subgroup": "Children, adolescents, parents and caregivers, child helplines, schools, platforms, governments, social services and protection providers.",
+      "counterinterpretation": "Expanding online reporting can improve access while increasing surveillance, false reports, retraumatization, privacy exposure or referral burden if systems are not safe and responsive.",
+      "source_url": "https://www.itu.int/hub/publication/d-str-cyb_pop-2026/",
+      "retrieval_hash": "sha256:040df37d107ad96c5bb93a4533bec2ed1f142c2e00b67eec1b8fdf8208755b3d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; child-centred reporting and support design",
+      "denominator": {"value": 1, "unit": "child-centred online protection pathway framework", "value_type": "published_framework"},
+      "measures": {
+        "access": {"value": "the Principles aim to support safer, more accessible and child-centred online protection pathways", "unit": "reported design objective", "value_type": "reported_objective"},
+        "agency": {"value": "children’s online participation is treated as a potential source of help-seeking and agency, not only exposure to harm", "unit": "reported child-agency interpretation", "value_type": "reported_framework"},
+        "referral": {"value": "online reports are expected to connect to appropriate support and protection services rather than remain isolated platform events", "unit": "reported service pathway", "value_type": "reported_framework"}
+      },
+      "method": "Principles-oriented design guidance for online reporting, support and referral systems.",
+      "uncertainty": "The public description does not specify universal accessibility standards, response times, safeguarding protocols or referral success measures.",
+      "subgroup": "Children with different ages, abilities, languages, devices, connectivity, family support and exposure to violence or exploitation.",
+      "counterinterpretation": "Child-centred systems require meaningful agency and informed consent; simply adding a reporting button does not ensure safety, trust, comprehension or remedy.",
+      "source_url": "https://www.itu.int/hub/publication/d-str-cyb_pop-2026/",
+      "retrieval_hash": "sha256:040df37d107ad96c5bb93a4533bec2ed1f142c2e00b67eec1b8fdf8208755b3d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; multi-stakeholder governance",
+      "denominator": {"value": 6, "unit": "partner and institutional actor categories identified on the publication page", "value_type": "published_partner_frame"},
+      "measures": {
+        "partners": {"value": "development involved civil society, academia, child helplines, industry, international organizations and UN child-violence leadership", "unit": "reported partner set", "value_type": "reported_scope"},
+        "responsibility": {"value": "online protection is positioned as a shared pathway requiring coordination between platforms, services, governments and civil society", "unit": "reported governance pathway", "value_type": "reported_framework"},
+        "institutional_link": {"value": "platform reporting is connected to public or community protection systems rather than treated as a standalone product feature", "unit": "reported institutional design", "value_type": "reported_interpretation"}
+      },
+      "method": "Multi-stakeholder guidance process with child consultations and expertise from protection, technology, civil-society and international actors.",
+      "uncertainty": "The page does not document the representativeness of consultations, actor power, country adoption, implementation responsibilities or accountability for referral failure.",
+      "subgroup": "Children and families, platforms, helplines, social workers, educators, police and justice systems, regulators, civil society and international organizations.",
+      "counterinterpretation": "Shared responsibility can improve coordination but can also diffuse accountability when a child’s report crosses platform, state and service boundaries.",
+      "source_url": "https://www.itu.int/hub/publication/d-str-cyb_pop-2026/",
+      "retrieval_hash": "sha256:040df37d107ad96c5bb93a4533bec2ed1f142c2e00b67eec1b8fdf8208755b3d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; online participation as protection infrastructure",
+      "denominator": {"value": 1, "unit": "online child-protection infrastructure frame", "value_type": "published_framework"},
+      "measures": {
+        "risk_and_support": {"value": "the same digital environments can generate risk and provide an entry point to support", "unit": "reported dual-use condition", "value_type": "reported_assessment"},
+        "system_requirement": {"value": "effective protection requires accessible reporting, trusted response and appropriate referral beyond content moderation alone", "unit": "reported system implication", "value_type": "reported_recommendation"},
+        "policy_scope": {"value": "the Principles are intended for governments, industry, civil society and other actors building child-centred online protection pathways", "unit": "reported intended-user scope", "value_type": "reported_scope"}
+      },
+      "method": "Policy guidance translating child online participation and protection concerns into system-level reporting and support pathways.",
+      "uncertainty": "The Principles are not an incident census, platform audit, clinical evaluation or proof that online participation improves child safety in practice.",
+      "subgroup": "Children and young people, especially those with limited offline access to help, alongside caregivers, platforms and protection institutions.",
+      "counterinterpretation": "Online access may expand help-seeking for some children while excluding others through connectivity, literacy, disability, surveillance by abusers or lack of trusted adults.",
+      "source_url": "https://www.itu.int/hub/publication/d-str-cyb_pop-2026/",
+      "retrieval_hash": "sha256:040df37d107ad96c5bb93a4533bec2ed1f142c2e00b67eec1b8fdf8208755b3d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/hub/publication/d-str-cyb_pop-2026/", "claim": "Official ITU publication page for the PoP Principles, including purpose, partner development and child-centred pathway framing."},
+    {"source_url": "https://violenceagainstchildren.un.org/", "claim": "UN Special Representative on Violence against Children institutional context."}
+  ],
+  "boundary": "This record adds a child-protection and digital-participation route linking online risk, child agency, reporting, help-seeking, support, referral, platform responsibility and public protection systems. It is global policy guidance, not an implementation inventory, incident prevalence estimate, child-level dataset, platform audit, service-quality evaluation or proof that online reporting produces safer outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ITU publication page was reviewed for the PoP Principles’ purpose, dual risk-and-support framing, child consultations, partner categories, child-centred accessibility and reporting-to-referral pathway claims.",
+    "source_url_sha256": "sha256:040df37d107ad96c5bb93a4533bec2ed1f142c2e00b67eec1b8fdf8208755b3d",
+    "checked": "2026-09-27"
+  }
+}

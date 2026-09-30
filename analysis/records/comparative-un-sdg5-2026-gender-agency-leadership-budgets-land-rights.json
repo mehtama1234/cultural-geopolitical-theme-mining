@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg5-2026-gender-agency-leadership-budgets-land-rights",
+  "title": "Gender equality progress is advancing incrementally while leadership, budgeting, legal, digital, land, and bodily-agency gaps continue to limit power",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "United Nations Statistics Division and UN Women, The Gender Snapshot 2026 / SDG Goal 5 progress report",
+  "geography": "Global SDG Goal 5 indicators, national and local political institutions, workplaces, households, agricultural land systems, digital access, and reproductive-health agency",
+  "observations": [
+    {
+      "period": "2015-2026; political and economic leadership",
+      "denominator": {"value": 1, "unit": "global national-parliament, local-government, and managerial-position frame", "value_type": "gender_leadership_frame"},
+      "measures": {
+        "women_national_parliament_share_2026": {"value": 27.4, "unit": "percent of national parliamentary seats held by women as of 1 January 2026", "value_type": "reported_representation_share"},
+        "women_local_government_share_2025": {"value": 35.6, "unit": "percent of local-government positions held by women in 2025", "value_type": "reported_representation_share"},
+        "women_managerial_share_2025": {"value": 30.5, "unit": "percent of managerial positions held by women worldwide in 2025", "value_type": "reported_representation_share"},
+        "parliament_progress_since_2015": {"value": 5.1, "unit": "percentage-point increase in women's share of national parliamentary seats since 2015", "value_type": "reported_change"},
+        "progress_since_2025": {"value": 0.2, "unit": "percentage-point increase in women's share of national parliamentary seats since 2025", "value_type": "reported_change"}
+      },
+      "method": "UN SDG Goal 5 monitoring using global indicators on political representation, local government, and managerial positions.",
+      "uncertainty": "Representation shares do not establish agenda-setting power, portfolio control, policy responsiveness, workplace authority, or equal outcomes within gender groups.",
+      "subgroup": "Women candidates, elected officials, managers, workers, political parties, public institutions, employers, and households affected by gendered policy decisions.",
+      "counterinterpretation": "Incremental representation can still change recruitment, policy priorities, and institutional legitimacy; descriptive parity is not sufficient for power or accountability.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-05/",
+      "retrieval_hash": "sha256:c0f2500c37683b06537a86e51821b90ad5e039fdc4c9227aa57eb1fe127dbfda",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2025; gender-responsive public finance and institutional accountability",
+      "denominator": {"value": 1, "unit": "countries reporting systems to track and make public gender-equality allocations", "value_type": "gender_budget_frame"},
+      "measures": {
+        "countries_with_tracking_systems_2025": {"value": 123, "unit": "countries reporting a system to track and allocate resources for gender equality in 2025", "value_type": "reported_country_count"},
+        "countries_with_tracking_systems_2018": {"value": 69, "unit": "countries reporting such a system in 2018", "value_type": "reported_country_count"},
+        "comprehensive_system_share": {"value": 25, "unit": "percent of countries with comprehensive systems to track and make public gender-equality allocations, approximately one in four", "value_type": "reported_country_share"},
+        "accountability_boundary": {"value": "the presence of a tracking system does not establish adequate allocation, implementation, impact, or public accountability", "unit": "reported measurement boundary", "value_type": "reported_constraint_set"}
+      },
+      "method": "UN SDG Goal 5 monitoring of gender-responsive budgeting and public allocation-tracking systems.",
+      "uncertainty": "Country reporting systems vary in scope, transparency, quality, and use; system presence is not spending incidence or evidence that gender priorities shape outcomes.",
+      "subgroup": "Finance ministries, gender-equality institutions, civil society, public-service users, women and girls, legislators, auditors, and budget advocates.",
+      "counterinterpretation": "Even incomplete systems can improve visibility and create entry points for accountability; a comprehensive system may still fail without political commitment or implementation capacity.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-05/",
+      "retrieval_hash": "sha256:c0f2500c37683b06537a86e51821b90ad5e039fdc4c9227aa57eb1fe127dbfda",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2026; legal rights, land security, and digital access",
+      "denominator": {"value": 1, "unit": "global SDG Goal 5 legal, land, agricultural-household, and mobile-access indicators", "value_type": "gender_legal_access_frame"},
+      "measures": {
+        "legal_reforms_since_2019": {"value": 99, "unit": "legal reforms reported as advancing women's rights since 2019", "value_type": "reported_reform_count"},
+        "women_agricultural_land_rights": {"value": 50, "unit": "percent-or-fewer of women in agricultural households reporting ownership or secure rights to agricultural land in 68 countries with data", "value_type": "reported_country_indicator_bound"},
+        "women_without_mobile_phone_share": {"value": 63, "unit": "percent of the population without mobile phones represented by women in 2025", "value_type": "reported_population_share"},
+        "mobile_ownership_gap": {"value": 10, "unit": "percent women are less likely than men to own a mobile phone globally in 2025, approximately", "value_type": "reported_gender_gap"}
+      },
+      "method": "UN SDG Goal 5 synthesis of legal-reform tracking, agricultural land-rights indicators, and mobile-phone ownership data.",
+      "uncertainty": "Legal reform counts do not establish enforcement or lived access; land and mobile indicators vary by country, household, documentation, use, affordability, and safety.",
+      "subgroup": "Women in agricultural households, rural women, mobile-internet users, women seeking economic opportunity, legal institutions, and households with insecure land or device access.",
+      "counterinterpretation": "Legal reform and mobile diffusion can improve agency and opportunity when paired with enforcement, affordable access, digital safety, documentation, and social acceptance.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-05/",
+      "retrieval_hash": "sha256:c0f2500c37683b06537a86e51821b90ad5e039fdc4c9227aa57eb1fe127dbfda",
+      "status": "reported"
+    },
+    {
+      "period": "2025; bodily autonomy and reproductive-health decision-making",
+      "denominator": {"value": 78, "unit": "countries with available data on women's reported reproductive-health decision-making", "value_type": "bodily_agency_frame"},
+      "measures": {
+        "contraceptive_decision_agency": {"value": 88.5, "unit": "percent of married or partnered women aged 15-49 reporting ability to make their own decisions about contraceptive use in 2025 data", "value_type": "reported_agency_share"},
+        "reproductive_healthcare_agency": {"value": 75, "unit": "percent of married or partnered women reporting similar agency in reproductive-healthcare decisions", "value_type": "reported_agency_share"},
+        "refusal_of_sex_agency": {"value": 75.4, "unit": "percent of married or partnered women reporting ability to refuse sex", "value_type": "reported_agency_share"},
+        "cross_domain_boundary": {"value": "reported agency differs across contraceptive use, healthcare, and ability to refuse sex and is not equivalent to service access, safety, or freedom from coercion", "unit": "reported interpretation", "value_type": "reported_measurement_boundary"}
+      },
+      "method": "UN SDG Goal 5 compilation of country data on reproductive-health decision-making among married or partnered women aged 15-49.",
+      "uncertainty": "Self-reported agency measures do not establish actual service availability, safety, coercion-free choice, partner dynamics, legal rights, or health outcomes; coverage is limited to countries with data.",
+      "subgroup": "Married or partnered women aged 15-49, reproductive-health providers, households, legal and health systems, and women facing unequal bargaining power or service access.",
+      "counterinterpretation": "High reported agency in one domain can coexist with constraints in another; improvements may come from services, information, legal reform, social norms, or measurement changes.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-05/",
+      "retrieval_hash": "sha256:c0f2500c37683b06537a86e51821b90ad5e039fdc4c9227aa57eb1fe127dbfda",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unwomen.org/en/digital-library/publications/2026/09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2026", "claim": "UN Women and UN DESA Gender Snapshot 2026 context on leadership, institutional power, and SDG progress."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/goal-05/", "claim": "Official UN SDG Goal 5 2026 monitoring page with representation, budgeting, legal, digital, land, and agency indicators."}
+  ],
+  "boundary": "This record adds a gender-accountability route from representation and legal reform through budget visibility, digital and land access, and bodily agency. It is aggregate SDG monitoring, not respondent-level causal analysis, proof of institutional power, individual legal enforcement, household bargaining, or health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG Goal 5 2026 page and related UN Women/UN DESA framing were reviewed; leadership, local government, managerial, budgeting, legal reform, land, mobile-access, and reproductive-agency claims were cross-checked.",
+    "source_url_sha256": "sha256:c0f2500c37683b06537a86e51821b90ad5e039fdc4c9227aa57eb1fe127dbfda",
+    "checked": "2026-09-26"
+  }
+}

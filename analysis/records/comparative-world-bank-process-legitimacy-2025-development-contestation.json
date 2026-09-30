@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-process-legitimacy-2025-development-contestation",
+  "title": "Development legitimacy depends increasingly on how change is negotiated, especially by groups that bear its losses",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11234, Process Legitimacy and Development: Analytical Framings, Implications, and Applications",
+  "geography": "Development-policy and institutional-reform contexts across societal, local, national and international levels",
+  "observations": [
+    {
+      "period": "October 2025 working paper; legitimacy of social change",
+      "denominator": {"value": 1, "unit": "process-legitimacy analytical framework", "value_type": "published_framework"},
+      "measures": {
+        "fairness": {"value": "the legitimacy of social change depends partly on whether the way change is pursued is perceived as legitimate by those most affected, especially those who lose", "unit": "reported legitimacy mechanism", "value_type": "reported_framework"},
+        "drivers": {"value": "the paper identifies constituent drivers and mechanisms through which process legitimacy is established, consolidated, challenged and altered", "unit": "reported analytical scope", "value_type": "reported_framework"},
+        "risk": {"value": "development interventions face legitimacy risks when they fail to navigate contested processes and affected-group perceptions", "unit": "reported governance risk", "value_type": "reported_assessment"}
+      },
+      "method": "World Bank policy research working paper developing an analytical framework from prior process-legitimacy concepts and applications in development practice.",
+      "uncertainty": "The paper is a conceptual and applied framework, not a representative perception survey, causal evaluation or universal legitimacy index.",
+      "subgroup": "People affected by development change, including groups that bear losses; societal groups, local communities, authorities, elites, national actors and international institutions.",
+      "counterinterpretation": "Procedural fairness can improve acceptance without making an unequal outcome substantively fair; participation can also be captured by powerful actors.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099200310202526810/pdf/IDU-896e735a-88f1-4eb0-b3fe-17fe7eac5c3b.pdf",
+      "retrieval_hash": "sha256:1332870a0975aad726bd6ef654784724522988cce55561f255f275a6cc3927d0",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 working paper; four levels of legitimacy contestation",
+      "denominator": {"value": 4, "unit": "levels of legitimacy contest identified by the paper", "value_type": "reported_framework_denominator"},
+      "measures": {
+        "contests": {"value": "legitimacy contests occur between societal groups, elite factions, national and local authorities, and national and global actors", "unit": "reported contest typology", "value_type": "reported_framework"},
+        "verticality": {"value": "legitimacy is not only a citizen-state question; it also moves across horizontal group relations and multiple levels of authority", "unit": "reported governance interpretation", "value_type": "reported_assessment"},
+        "implication": {"value": "the typology helps identify risks when interventions overlook who has authority, voice, losses or competing goals", "unit": "reported policy implication", "value_type": "reported_recommendation"}
+      },
+      "method": "Actor-based analytical model of legitimacy contests in development and institutional change.",
+      "uncertainty": "The four-level typology organizes possible disputes but does not measure the frequency, intensity or outcome of contests across countries.",
+      "subgroup": "Communities, identity groups, elites, local governments, national governments, donors, international organizations, firms and affected publics.",
+      "counterinterpretation": "Multi-level analysis can reveal conflict pathways while making responsibility diffuse and negotiation slow, especially when urgent action is required.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099200310202526810/pdf/IDU-896e735a-88f1-4eb0-b3fe-17fe7eac5c3b.pdf",
+      "retrieval_hash": "sha256:1332870a0975aad726bd6ef654784724522988cce55561f255f275a6cc3927d0",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 working paper; negotiation and shared understanding",
+      "denominator": {"value": 1, "unit": "development-intervention response framework", "value_type": "published_framework"},
+      "measures": {
+        "negotiation": {"value": "development interventions can help navigate legitimacy contests by creating constructive spaces for negotiation", "unit": "reported response pathway", "value_type": "reported_recommendation"},
+        "shared_goals": {"value": "processes can support the gradual emergence of shared understanding around legitimate goals and procedures", "unit": "reported institutional pathway", "value_type": "reported_framework"},
+        "institutional_route": {"value": "legitimacy is treated as something that can be consolidated or challenged through ongoing interaction rather than granted once at project approval", "unit": "reported process interpretation", "value_type": "reported_assessment"}
+      },
+      "method": "Analytical synthesis connecting legitimacy drivers, contestation and development-intervention design.",
+      "uncertainty": "The proposed negotiation route is not an intervention effect estimate and does not specify a universal forum, timeline or representation rule.",
+      "subgroup": "Affected residents, project beneficiaries and non-beneficiaries, implementing agencies, local authorities, donors, firms and civil-society organizations.",
+      "counterinterpretation": "Negotiation spaces can legitimize delay, reproduce power asymmetries or shift responsibility for politically difficult trade-offs onto participants.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099200310202526810/pdf/IDU-896e735a-88f1-4eb0-b3fe-17fe7eac5c3b.pdf",
+      "retrieval_hash": "sha256:1332870a0975aad726bd6ef654784724522988cce55561f255f275a6cc3927d0",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 working paper; process legitimacy and implementation risk",
+      "denominator": {"value": 1, "unit": "development implementation and governance frame", "value_type": "published_framework"},
+      "measures": {
+        "policy_effectiveness": {"value": "perceived procedural legitimacy is presented as relevant to whether development change can proceed and retain cooperation", "unit": "reported governance pathway", "value_type": "reported_framework"},
+        "affected_losses": {"value": "groups that lose from social change are treated as central to legitimacy analysis rather than as residual opposition", "unit": "reported distributional lens", "value_type": "reported_interpretation"},
+        "accountability": {"value": "the framework directs attention to representation, negotiation, authority and contestation alongside material project outputs", "unit": "reported evaluation implication", "value_type": "reported_recommendation"}
+      },
+      "method": "Policy-oriented analytical paper with applications to development practice and institutional reform.",
+      "uncertainty": "The paper does not show that procedural legitimacy guarantees compliance, project delivery, trust or equitable outcomes, and it does not replace outcome or distributional evaluation.",
+      "subgroup": "Affected groups, implementing institutions, local and national authorities, donors, international actors, firms and communities with unequal bargaining power.",
+      "counterinterpretation": "A project can be procedurally legitimate to some actors and illegitimate to others; legitimacy claims must remain open to contestation and material accountability.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099200310202526810/pdf/IDU-896e735a-88f1-4eb0-b3fe-17fe7eac5c3b.pdf",
+      "retrieval_hash": "sha256:1332870a0975aad726bd6ef654784724522988cce55561f255f275a6cc3927d0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099200310202526810", "claim": "Official World Bank publication record for Policy Research Working Paper 11234."},
+    {"source_url": "https://www.worldbank.org/ext/en/topic/social-development/social-cohesion-and-resilience", "claim": "World Bank program context linking process legitimacy to participatory, people-centred work in fragile and conflict-affected settings."}
+  ],
+  "boundary": "This record adds a process-legitimacy route linking how development change is pursued to perceived fairness, representation, contestation, negotiation, cooperation, institutional trust and implementation risk. It is a 2025 conceptual and applied World Bank working paper, not a respondent-level legitimacy dataset, causal project evaluation, current public-opinion estimate or proof that participatory processes produce equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank PDF and publication record were reviewed for the process-legitimacy framework, affected-group lens, four-level contest typology, negotiation pathway and implementation boundaries.",
+    "source_url_sha256": "sha256:1332870a0975aad726bd6ef654784724522988cce55561f255f275a6cc3927d0",
+    "checked": "2026-09-27"
+  }
+}

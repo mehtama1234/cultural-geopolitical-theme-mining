@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-korea-mcst-2025-cultural-leisure-active-participation",
+  "title": "South Korea's direct cultural attendance fell in 2025 while active participation and cultural education rose",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "South Korea Ministry of Culture, Sports and Tourism / Korea Culture and Tourism Institute, 2025 National Culture and Arts Activity Survey and National Leisure Activity Survey results",
+  "geography": "South Korea; residents aged 15 and above across 17 metropolitan and provincial areas",
+  "observations": [
+    {
+      "period": "August 2024-July 2025 reference period; survey fielded August-November 2025",
+      "denominator": {
+        "value": 10040,
+        "unit": "South Korean residents aged 15 and above in the National Culture and Arts Activity Survey; 17 metropolitan and provincial areas",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "direct_cultural_event_attendance": {"value": 60.2, "unit": "percent directly attending a cultural or arts event", "value_type": "official_survey_share"},
+        "direct_attendance_change": {"value": -2.8, "unit": "percentage-point change from prior year", "value_type": "official_change"},
+        "film_attendance": {"value": 50.6, "unit": "percent attending film screenings", "value_type": "official_survey_share"},
+        "film_attendance_change": {"value": -6.4, "unit": "percentage-point change from prior year", "value_type": "official_change"},
+        "popular_music_entertainment_attendance": {"value": 15.0, "unit": "percent attending popular music or entertainment events", "value_type": "official_survey_share"},
+        "art_exhibition_attendance": {"value": 7.7, "unit": "percent attending art exhibitions", "value_type": "official_survey_share"},
+        "mechanism": {"value": "The broad cultural-attendance rate is falling mainly through cinema, making aggregate participation sensitive to a high-reach commercial category rather than uniformly declining across all forms", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National Culture and Arts Activity Survey, an annual nationally approved statistic conducted through one-to-one household tablet interviews; the published reference period covers the prior year of cultural activity.",
+      "uncertainty": "The release reports self-reported attendance and year-over-year changes; it does not establish causes such as price, supply, screen substitution, household time, or venue closures.",
+      "subgroup": "Residents aged 15 and above across South Korea's 17 metropolitan and provincial areas.",
+      "counterinterpretation": "A cinema-led decline could coexist with stable or growing digital consumption, home-based culture, or other forms of participation not captured by the direct-attendance headline.",
+      "source_url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=22169",
+      "retrieval_hash": "sha256:b5d3484f85711d0abd26784055878ad671c5ba826abb027dbecbfe9ac23c19cd",
+      "status": "reported"
+    },
+    {
+      "period": "August 2024-July 2025 reference period; active culture and arts engagement",
+      "denominator": {
+        "value": 10040,
+        "unit": "South Korean residents aged 15 and above in the National Culture and Arts Activity Survey",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "cultural_arts_event_participation": {"value": 5.8, "unit": "percent participating directly in cultural or arts events, exhibitions, or creative activities", "value_type": "official_survey_share"},
+        "cultural_arts_event_participation_change": {"value": 1.1, "unit": "percentage-point change from prior year", "value_type": "official_change"},
+        "cultural_arts_education_experience": {"value": 8.6, "unit": "percent with cultural or arts education experience", "value_type": "official_survey_share"},
+        "cultural_arts_education_change": {"value": 2.2, "unit": "percentage-point change from prior year", "value_type": "official_change"},
+        "mechanism": {"value": "Cultural engagement is becoming more active and learning-oriented even as passive or event-based attendance declines, suggesting a participation-mode transition rather than a simple cultural withdrawal", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "The survey distinguishes direct viewing/attendance from participation in presentations, exhibitions, and creative activities, and separately measures cultural-arts education experience.",
+      "uncertainty": "The published shares do not identify whether active participation is a substitute for attendance, a complementary activity, or concentrated among already-engaged groups; no causal mechanism is estimated.",
+      "subgroup": "Residents aged 15 and above; national survey estimates across 17 metropolitan and provincial areas.",
+      "counterinterpretation": "The increase may reflect survey wording, program availability, cohort composition, or low-base movement rather than a broad change in cultural identity or agency.",
+      "source_url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=22169",
+      "retrieval_hash": "sha256:b5d3484f85711d0abd26784055878ad671c5ba826abb027dbecbfe9ac23c19cd",
+      "status": "reported"
+    },
+    {
+      "period": "August 2024-July 2025 reference period; leisure satisfaction and continuity",
+      "denominator": {
+        "value": 10028,
+        "unit": "South Korean residents aged 15 and above in the National Leisure Activity Survey; 17 metropolitan and provincial areas",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "leisure_satisfaction": {"value": 64.0, "unit": "percent reporting satisfaction with leisure life", "value_type": "official_survey_share"},
+        "continuous_leisure_activity": {"value": 43.2, "unit": "percent reporting continuous participation in leisure activities", "value_type": "official_survey_share"},
+        "continuous_leisure_activity_change": {"value": 4.7, "unit": "percentage-point change from prior year", "value_type": "official_change"},
+        "mechanism": {"value": "Leisure satisfaction and continuity can rise even while a major cultural-attendance measure falls, indicating that household leisure adaptation may preserve wellbeing through other activities, settings, or routines", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National Leisure Activity Survey conducted alongside the culture-and-arts survey; the release reports satisfaction and continuity measures for the prior reference year.",
+      "uncertainty": "Leisure is broader than culture and the release does not identify which activities generated satisfaction or continuity; these are descriptive associations, not welfare or causal estimates.",
+      "subgroup": "Residents aged 15 and above represented by the National Leisure Activity Survey.",
+      "counterinterpretation": "Higher continuity may reflect routine low-cost or home-based activities rather than greater cultural opportunity, and satisfaction is subjective and context-dependent.",
+      "source_url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=22169",
+      "retrieval_hash": "sha256:b5d3484f85711d0abd26784055878ad671c5ba826abb027dbecbfe9ac23c19cd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=22169",
+      "claim": "Official Ministry of Culture, Sports and Tourism release reporting the 2025 culture, arts, leisure, and worker-leave survey results.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://stat.mcst.go.kr/portal/intro/notice/noticeDetail?boardId=NBRD-1002580&boardType=000036",
+      "claim": "Official survey notice documents the nationally approved surveys, 15+ target population, household interview method, and 2025 fieldwork period.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds South Korean evidence on cultural attendance, active participation, cultural education, and broader leisure continuity. The sources are official self-report surveys and do not establish causal reasons for the attendance decline, actual spending, digital substitution, or equal cultural access.",
+  "retrieval_hash": "sha256:b5d3484f85711d0abd26784055878ad671c5ba826abb027dbecbfe9ac23c19cd"
+}

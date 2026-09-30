@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-debeaumont-phwins-pulse-2026-public-health-worker-strain-retention-politics",
+  "title": "Public-health workers report worsening strain, political interference, and younger-worker exit risk",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "de Beaumont Foundation and ASTHO PH WINS Pulse Check, March 2026; 4,827 public-health employees responding from 13,486 PH WINS 2024 respondents",
+  "geography": "United States; state and local governmental public-health workforce",
+  "observations": [
+    {
+      "period": "2024–March 2026; public-health worker well-being",
+      "denominator": {"value": 4827, "unit": "employees completing the PH WINS Pulse Check", "value_type": "reported_sample_size"},
+      "measures": {
+        "burnout_worse": {"value": 35, "unit": "percent saying feelings of burnout worsened since PH WINS 2024", "value_type": "reported_share"},
+        "stress_worse": {"value": 34, "unit": "percent saying stress was worse or much worse since 2024", "value_type": "reported_share"},
+        "young_worker_burnout_worse": {"value": 47, "unit": "percent of employees age 35 and younger", "value_type": "reported_share"},
+        "older_worker_burnout_worse": {"value": 31, "unit": "percent of older employees", "value_type": "reported_share"}
+      },
+      "method": "Online pulse survey distributed to PH WINS 2024 respondents; descriptive comparison of reported workplace conditions since the 2024 administration.",
+      "uncertainty": "The pulse check is a follow-up among prior respondents with a 36% completion rate; it is not a fresh probability sample of all public-health workers, and reported change does not establish cause or clinical burnout diagnosis.",
+      "subgroup": "State and local public-health employees by age, with younger employees defined as age 35 and younger.",
+      "counterinterpretation": "Worsening reported strain may reflect changing expectations, news, work demands, or recall; it does not mean every employee experienced deterioration or that staffing loss necessarily followed.",
+      "source_url": "https://debeaumont.org/programs/phwins/2024-survey/ph-wins-pulse-check/",
+      "retrieval_hash": "sha256:0ac2c41d55b3909fb741395ffa39868dccc211c88370d83260b518f278eb35bc",
+      "status": "reported"
+    },
+    {
+      "period": "2024–March 2026; politics and budgets in public-health work units",
+      "denominator": {"value": 4827, "unit": "employees completing the PH WINS Pulse Check", "value_type": "reported_sample_size"},
+      "measures": {
+        "outside_politics_negatively_influence_work_unit": {"value": 47, "unit": "percent", "value_type": "reported_share"},
+        "work_unit_budget_worse": {"value": 41, "unit": "percent saying budget is worse than in 2024", "value_type": "reported_share"}
+      },
+      "method": "PH WINS Pulse Check descriptive questions on external political conditions and work-unit budgets.",
+      "uncertainty": "The public summary does not disclose all question wording, subgroup precision, or the specific political and budget mechanisms; perceived influence is not an audited measure of policy interference or fiscal change.",
+      "subgroup": "State and local public-health employees and their work units.",
+      "counterinterpretation": "Political attention can sometimes increase resources or accountability; a negative influence rating may reflect conflict, uncertainty, mission change, communication, or broader fiscal conditions rather than one actor’s intervention.",
+      "source_url": "https://debeaumont.org/programs/phwins/2024-survey/ph-wins-pulse-check/",
+      "retrieval_hash": "sha256:0ac2c41d55b3909fb741395ffa39868dccc211c88370d83260b518f278eb35bc",
+      "status": "reported"
+    },
+    {
+      "period": "2024–March 2026; retention and retirement intentions",
+      "denominator": {"value": 4827, "unit": "employees completing the PH WINS Pulse Check", "value_type": "reported_sample_size"},
+      "measures": {
+        "under_35_plan_to_leave_next_year": {"value": 31, "unit": "percent of employees age 35 and younger", "value_type": "reported_share"},
+        "age_36_54_plan_to_leave_next_year": {"value": 23, "unit": "percent", "value_type": "reported_share"},
+        "age_55_plus_plan_to_leave_next_year": {"value": 25, "unit": "percent", "value_type": "reported_share"},
+        "age_61_plus_plan_to_retire_next_year": {"value": "23; 11 in 2024", "unit": "percent; current pulse versus 2024", "value_type": "reported_comparison"}
+      },
+      "method": "PH WINS Pulse Check self-reported intention-to-leave and retirement measures, compared with 2024 where stated.",
+      "uncertainty": "Intentions are not departures; age groups have different career stages and denominators, and the follow-up sample may differ from the full 2024 respondent pool.",
+      "subgroup": "State and local public-health employees by age.",
+      "counterinterpretation": "Some planned exits may be internal transfers, retirement timing changes, or responses to temporary conditions; high younger-worker exit intent can coexist with strong commitment among those who remain.",
+      "source_url": "https://debeaumont.org/programs/phwins/2024-survey/ph-wins-pulse-check/",
+      "retrieval_hash": "sha256:0ac2c41d55b3909fb741395ffa39868dccc211c88370d83260b518f278eb35bc",
+      "status": "reported"
+    },
+    {
+      "period": "2024–March 2026; advancement and job stability",
+      "denominator": {"value": 4827, "unit": "employees completing the PH WINS Pulse Check", "value_type": "reported_sample_size"},
+      "measures": {
+        "advancement_opportunities_worse": {"value": 25, "unit": "percent reporting opportunities for advancement worsened since 2024", "value_type": "reported_share"},
+        "job_instability_reason_for_leaving": {"value": "22; 11 in 2024", "unit": "percent among those reporting worsening advancement and citing a reason for leaving", "value_type": "reported_comparison"}
+      },
+      "method": "PH WINS Pulse Check descriptive comparison of advancement opportunities and reasons for leaving.",
+      "uncertainty": "The second measure is conditional on a subgroup and does not establish that job instability caused an actual departure; public summary details on item nonresponse and subgroup denominators are limited.",
+      "subgroup": "Public-health employees reporting advancement changes and leaving considerations.",
+      "counterinterpretation": "Limited advancement may reflect flatter public organizations, hiring freezes, budget constraints, or changed expectations; career development can occur through training or lateral mobility not captured by promotion.",
+      "source_url": "https://debeaumont.org/programs/phwins/2024-survey/ph-wins-pulse-check/",
+      "retrieval_hash": "sha256:0ac2c41d55b3909fb741395ffa39868dccc211c88370d83260b518f278eb35bc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://debeaumont.org/programs/phwins/2024-survey/", "claim": "PH WINS 2024 survey context and methodology family.", "status": "official-series-context"},
+    {"source_url": "https://www.tfah.org/article/new-report-chronic-underinvestment-and-recent-disruptions-have-weakened-u-s-public-health-system/", "claim": "Related system-capacity record; it is not pooled with these worker-level pulse estimates.", "status": "related-record-context"}
+  ],
+  "boundary": "This record captures worker-reported changes in burnout, stress, political influence, budgets, retention, retirement, advancement, and job instability among PH WINS follow-up respondents. It does not establish causal workforce exits, represent every public-health employee, measure agency performance, or infer community health outcomes.",
+  "retrieval_hash": "sha256:0ac2c41d55b3909fb741395ffa39868dccc211c88370d83260b518f278eb35bc"
+}

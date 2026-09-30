@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-manpower-human-edge-2026-ai-workforce-trust-skills",
+  "title": "AI is shifting work from a replacement debate toward job redesign, rapid relearning, trust, and a weaker traditional employment bargain",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "household_room_consumption"
+  ],
+  "source_unit": "ManpowerGroup, The Human Edge: Global Future of Work Trends 2026",
+  "geography": "Workers and employers across 41 countries, with global future-of-work trend synthesis",
+  "observations": [
+    {
+      "period": "2026; global future-of-work survey frame and AI-enabled job redesign",
+      "denominator": {"value": 12000, "unit": "more than 12,000 workers and 40,000 employers surveyed across 41 countries", "value_type": "mixed_survey_frame"},
+      "measures": {
+        "job_redesign": {"value": "many jobs are expected to be reconfigured around the complementary strengths of people and AI rather than simply eliminated", "unit": "ManpowerGroup trend synthesis", "value_type": "reported_forecast"},
+        "skill_change": {"value": 39, "unit": "percent of core skills workers need expected to change by 2030", "value_type": "reported_forecast"},
+        "hard_to_automate": {"value": "ethical judgment, customer service, and team management are among the skills employers find most difficult to automate", "unit": "ManpowerGroup employer survey synthesis", "value_type": "reported_assessment"},
+        "hybrid_team": {"value": "future teams are framed as mixes of human, machine, freelance, and other employment resources", "unit": "ManpowerGroup trend framework", "value_type": "reported_forecast"}
+      },
+      "method": "ManpowerGroup synthesis of worker and employer surveys, employment-outlook inputs, external research, and workforce trend interpretation across 41 countries.",
+      "uncertainty": "The report is a vendor-produced trend forecast with commercial interests; forecasts and employer perceptions are not causal estimates of AI adoption, job loss, productivity, or worker welfare.",
+      "subgroup": "Workers, employers, managers, AI-augmented teams, freelancers, contractors, and occupations with different exposure to automation and redesign.",
+      "counterinterpretation": "AI augmentation and role redesign can improve work and create new roles when workers retain agency, training, oversight, and bargaining power; replacement is not the only path.",
+      "source_url": "https://www.manpowergroup.com/-/media/project/manpowergroup/mpg-marketing/PDF/Insights/2026/MPG-The_Human_Edge_2026_Global_Trends_Report.pdf",
+      "retrieval_hash": "sha256:17b65288b11b8273e113c4d6da43f45b4d0e5d3796c53347fdb4eb24851be73a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI literacy, skills gaps, and access to relearning",
+      "denominator": {"value": 1, "unit": "ManpowerGroup global worker and employer skills synthesis", "value_type": "skills_transition_frame"},
+      "measures": {
+        "recent_training": {"value": "less than half of global workers received skills training in the previous six months", "unit": "ManpowerGroup cited Global Talent Barometer finding", "value_type": "reported_share"},
+        "ai_literacy": {"value": "AI literacy is framed as specific capability in prompt use, critical analysis of AI output, and ethical deployment rather than a generic label", "unit": "ManpowerGroup trend synthesis", "value_type": "reported_framework"},
+        "access_risk": {"value": "women and underserved communities risk being left behind as AI innovation accelerates", "unit": "ManpowerGroup report warning", "value_type": "reported_risk"},
+        "upskilling_gap": {"value": "part-time, freelance, and unemployed workers may have less access to employer-supported upskilling", "unit": "ManpowerGroup workforce implication", "value_type": "reported_mechanism"}
+      },
+      "method": "Trend synthesis combining worker training indicators, employer perspectives, and policy/workforce implications for AI literacy and upskilling.",
+      "uncertainty": "The report does not provide a complete global training census or prove that AI literacy training produces equal labor-market returns across groups.",
+      "subgroup": "Women, underserved communities, part-time workers, freelancers, unemployed workers, frontline workers, and employees with different exposure to employer learning systems.",
+      "counterinterpretation": "AI literacy may broaden opportunity when training is accessible and accompanied by job redesign, but free or nominal training does not guarantee time, equipment, support, or advancement.",
+      "source_url": "https://www.manpowergroup.com/-/media/project/manpowergroup/mpg-marketing/PDF/Insights/2026/MPG-The_Human_Edge_2026_Global_Trends_Report.pdf",
+      "retrieval_hash": "sha256:17b65288b11b8273e113c4d6da43f45b4d0e5d3796c53347fdb4eb24851be73a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; changing work norms, trust, burnout, and income pressure",
+      "denominator": {"value": 1, "unit": "ManpowerGroup changing-norms and workforce-pressure synthesis", "value_type": "work_norms_frame"},
+      "measures": {
+        "burnout": {"value": 60, "unit": "approximately share of workers worldwide reported as burned out in cited source material", "value_type": "reported_share"},
+        "employer_trust": {"value": "employer trust is described as declining globally, alongside widespread concern that business leaders purposely mislead people", "unit": "ManpowerGroup synthesis citing trust research", "value_type": "reported_trend"},
+        "income_pressure": {"value": "nearly half of frontline workers are unsatisfied with their income and more than one-third need a second job to supplement it", "unit": "ManpowerGroup workforce synthesis", "value_type": "reported_pattern"},
+        "work_bargain": {"value": "gig and temporary work can increase agility for firms while weakening access to family-sustaining wages, skills progression, and employer-provided care or benefits", "unit": "ManpowerGroup workforce implication", "value_type": "reported_tradeoff"}
+      },
+      "method": "ManpowerGroup synthesis of worker-barometer indicators, employer surveys, trust research, and trend interpretation about changing work norms and employment structures.",
+      "uncertainty": "Some statistics are drawn from cited external sources and are not all measured in the same survey or period; the report does not establish a universal burnout or income-pressure causal model.",
+      "subgroup": "Frontline workers, full-time employees, gig and temporary workers, managers, workers with family responsibilities, and employees exposed to return-to-office or performance changes.",
+      "counterinterpretation": "Flexible and contingent work can provide autonomy or entry routes for some workers; the tradeoff depends on pay, benefits, scheduling, voice, and access to progression.",
+      "source_url": "https://www.manpowergroup.com/-/media/project/manpowergroup/mpg-marketing/PDF/Insights/2026/MPG-The_Human_Edge_2026_Global_Trends_Report.pdf",
+      "retrieval_hash": "sha256:17b65288b11b8273e113c4d6da43f45b4d0e5d3796c53347fdb4eb24851be73a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; workforce aging, degree doubts, and succession capacity",
+      "denominator": {"value": 1, "unit": "ManpowerGroup succession-crisis synthesis", "value_type": "demographic_workforce_frame"},
+      "measures": {
+        "aging_strategy": {"value": 57, "unit": "percent of employers saying workforce aging is affecting current hiring strategy", "value_type": "reported_share"},
+        "knowledge_transfer": {"value": "the report identifies weak infrastructure for transferring experienced workers’ judgment and expertise", "unit": "ManpowerGroup assessment", "value_type": "reported_gap"},
+        "degree_signal": {"value": "the employment gap between degree and non-degree holders is described as the narrowest in 30 years, while employers question degree requirements for some roles", "unit": "ManpowerGroup synthesis", "value_type": "reported_trend"},
+        "mentorship": {"value": "many workers report never having worked with a mentor at their current employer", "unit": "ManpowerGroup worker-barometer finding", "value_type": "reported_pattern"}
+      },
+      "method": "ManpowerGroup synthesis of employer hiring-strategy data, worker barometer findings, labor-market research, and trend interpretation on aging, education, mentorship, and succession.",
+      "uncertainty": "The report combines multiple data sources and future-oriented interpretation; it does not measure a complete global succession pipeline or prove that degree requirements cause employment gaps.",
+      "subgroup": "Older workers, retiring experts, younger entrants, Gen Z, non-degree workers, managers, employers, and organizations dependent on tacit knowledge.",
+      "counterinterpretation": "More fluid credentials, mentoring, and intergenerational knowledge transfer can open routes into work, but loosening degree requirements does not automatically improve pay, quality, or advancement.",
+      "source_url": "https://www.manpowergroup.com/-/media/project/manpowergroup/mpg-marketing/PDF/Insights/2026/MPG-The_Human_Edge_2026_Global_Trends_Report.pdf",
+      "retrieval_hash": "sha256:17b65288b11b8273e113c4d6da43f45b4d0e5d3796c53347fdb4eb24851be73a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.manpowergroup.com/workforce-insights/data-driven-insights/global-talent-shortage", "claim": "ManpowerGroup talent-shortage and workforce data context."},
+    {"source_url": "https://www.manpowergroup.com/workforce-insights/data-driven-insights/global-talent-barometer", "claim": "ManpowerGroup Global Talent Barometer context for worker skills, trust, and well-being measures."}
+  ],
+  "boundary": "This record adds a commercial future-of-work route across AI job redesign, hybrid teams, skills, training access, burnout, trust, contingent work, workforce aging, degrees, and mentorship. It uses ManpowerGroup surveys, cited external evidence, and vendor trend interpretation, not raw respondent-level ingestion, a complete global labor-market census, causal AI displacement or productivity estimates, an independent audit of employer claims, or proof that the recommended workforce strategies improve worker welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ManpowerGroup PDF reviewed for the 41-country worker/employer survey frame, job redesign, AI augmentation, skills change, training, trust, burnout, equity, aging, degree, and mentorship claims; commercial-source boundary retained.",
+    "source_url_sha256": "sha256:17b65288b11b8273e113c4d6da43f45b4d0e5d3796c53347fdb4eb24851be73a",
+    "checked": "2026-09-27"
+  }
+}

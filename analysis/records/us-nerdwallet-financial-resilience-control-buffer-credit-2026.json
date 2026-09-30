@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nerdwallet-financial-resilience-control-buffer-credit-2026",
+  "title": "Financial control can coexist with thin buffers and credit dependence",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "political_judgment_action"
+  ],
+  "source_unit": "NerdWallet Consumer Financial Resilience Index, September 2026 Harris Poll survey",
+  "geography": "United States; adults age 18 and older; survey fielded September 8-10, 2026",
+  "observations": [
+    {
+      "period": "September 2026; composite financial resilience and household control",
+      "denominator": {"value": 2060, "unit": "U.S. adults surveyed by The Harris Poll on behalf of NerdWallet", "value_type": "reported_survey_sample"},
+      "measures": {
+        "resilience_index": {"value": 61.5, "unit": "NerdWallet five-question composite index from 0 to 100", "value_type": "published_index_estimate"},
+        "day_to_day_control": {"value": 73, "unit": "percent feeling in control of day-to-day finances", "value_type": "published_survey_estimate"},
+        "bills_on_time": {"value": 78, "unit": "percent confident they can pay all bills on time this month", "value_type": "published_survey_estimate"},
+        "multi_clock_security": {"value": "Subjective control and near-term bill confidence can coexist with limited shock capacity; financial resilience is not a single household state.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "NerdWallet monthly composite based on five equally weighted questions in an online Harris Poll of 2,060 U.S. adults age 18 and older, conducted September 8-10, 2026; reported Bayesian credible interval is plus or minus 2.7 percentage points for the full sample.",
+      "uncertainty": "The index is a self-reported composite, not an administrative balance-sheet measure; the public page does not provide the full weighting variables, subgroup sample sizes or longitudinal respondent linkage.",
+      "subgroup": "U.S. adults; results are further reported by income, generation and presence of children under 18.",
+      "counterinterpretation": "People may feel in control because they have adapted spending, not because they possess large buffers; an index movement can also reflect expectations rather than realized financial events.",
+      "source_url": "https://www.nerdwallet.com/finance/studies/financial-resilience-index",
+      "retrieval_hash": "source_page:sha256:e02d5c3c077c8451fa107daaf5c11aa54e0d1f381e7f7d0180f06def64b6b38e",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; liquidity and credit dependence by household capacity",
+      "denominator": {"value": 2060, "unit": "U.S. adults surveyed by The Harris Poll on behalf of NerdWallet", "value_type": "reported_survey_sample"},
+      "measures": {
+        "credit_for_expenses": {"value": 35, "unit": "percent expecting to rely on credit to manage at least some expenses this month", "value_type": "published_survey_estimate"},
+        "thousand_dollar_buffer": {"value": 63, "unit": "percent reporting enough cash to cover an unexpected $1,000 expense", "value_type": "published_survey_estimate"},
+        "low_income_buffer": {"value": 40, "unit": "percent of households under $50,000 reporting enough cash for an unexpected $1,000 expense", "value_type": "published_subgroup_estimate"},
+        "shock_room": {"value": "A household can meet this month's bills while remaining exposed to a single repair, health, transport or income shock; credit becomes an adaptation channel with future-cost implications.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive subgroup and full-sample estimates from the September 2026 NerdWallet/Harris Poll index.",
+      "uncertainty": "Credit reliance is expected use, not observed borrowing or repayment; the survey does not measure interest cost, delinquency, asset composition, household transfers or later recovery.",
+      "subgroup": "U.S. adults by household income; parents of children under 18 are separately reported as more likely to rely on credit.",
+      "counterinterpretation": "Credit can be a planned liquidity tool rather than distress, while cash-on-hand questions exclude accessible credit, assets, insurance and informal support.",
+      "source_url": "https://www.nerdwallet.com/finance/studies/financial-resilience-index",
+      "retrieval_hash": "source_page:sha256:e02d5c3c077c8451fa107daaf5c11aa54e0d1f381e7f7d0180f06def64b6b38e",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; generational and family-stage resilience differences",
+      "denominator": {"value": 2060, "unit": "U.S. adults surveyed by The Harris Poll on behalf of NerdWallet", "value_type": "reported_survey_sample"},
+      "measures": {
+        "generation_control": {"value": "day-to-day financial control was reported by 82% of baby boomers, 73% of Gen Xers, 67% of millennials and 66% of Gen Zers", "unit": "reported generational comparison", "value_type": "published_subgroup_estimate"},
+        "parent_credit": {"value": 44, "unit": "percent of parents of children under 18 expecting to rely on credit for some expenses, versus 31% of people without children under 18", "value_type": "published_subgroup_estimate"},
+        "recession_expectation": {"value": 61, "unit": "percent expecting the U.S. economy to enter a recession within 12 months", "value_type": "published_survey_estimate"},
+        "life_stage_room": {"value": "Financial resilience varies by life stage and family obligations, not only by income; control, credit dependence and macro expectations form different clocks.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive generation and family-stage estimates from the September 2026 NerdWallet/Harris Poll index; generation definitions are supplied by the source.",
+      "uncertainty": "Age and family-stage associations do not isolate cohort, earnings, debt, housing, childcare, health or employment effects; no causal or panel inference is available.",
+      "subgroup": "Gen Z adults age 18-29, millennials age 30-45, Gen X age 46-61, baby boomers age 62-80, and parents versus nonparents.",
+      "counterinterpretation": "Older adults may have different financial obligations and assets, while younger adults may report lower control because of life-stage expenses rather than weaker long-run resilience.",
+      "source_url": "https://www.nerdwallet.com/finance/studies/financial-resilience-index",
+      "retrieval_hash": "source_page:sha256:e02d5c3c077c8451fa107daaf5c11aa54e0d1f381e7f7d0180f06def64b6b38e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nerdwallet.com/finance/studies/financial-resilience-index", "claim": "Official index page reports the composite, five questions, sample, field dates, control, bill, credit, buffer, income, generation, parent and recession-expectation estimates."}
+  ],
+  "boundary": "This record adds a household-resilience route separating perceived control, near-term bill capacity, liquid shock buffers, expected credit use and macroeconomic expectations. It does not measure administrative wealth, realized borrowing, repayment, debt stress, consumption, health, employment, causal effects or durable financial security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official NerdWallet index page was reviewed for the September composite, five-question construction, Harris Poll sample and field dates, control and bill confidence, credit reliance, $1,000 buffer, income/generation/parent differences and recession expectations.",
+    "source_page_sha256": "sha256:e02d5c3c077c8451fa107daaf5c11aa54e0d1f381e7f7d0180f06def64b6b38",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-statistics-household-economy-july-2026-online-shopping-tickets",
+  "title": "Japanese online-shopping reach and ticket spending soften alongside household contraction",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Japan Statistics Bureau Survey of Household Economy, July 2026 expenditure-related results",
+  "geography": "Japan",
+  "observations": [
+    {
+      "period": "July 2026; household internet-shopping measures",
+      "denominator": {"value": 1, "unit": "household survey estimates; exact publication denominator not stated in the release summary", "value_type": "household_survey_estimate"},
+      "measures": {
+        "net_shopping_expenditure_change": {"value": -0.7, "unit": "percent nominal year over year", "value_type": "reported_change"},
+        "net_shopping_household_use_rate": {"value": 55.6, "unit": "percent of households using online shopping; 2.4 percentage points below a year earlier", "value_type": "reported_share"},
+        "net_shopping_use_rate_change": {"value": -2.4, "unit": "percentage points year over year", "value_type": "reported_change"},
+        "ticket_contribution_to_expenditure_change": {"value": -0.53, "unit": "percentage-point contribution to nominal year-over-year net-shopping expenditure change", "value_type": "reported_contribution"},
+        "gift_contribution_to_expenditure_change": {"value": -0.40, "unit": "percentage-point contribution to nominal year-over-year net-shopping expenditure change", "value_type": "reported_contribution"}
+      },
+      "method": "Japan Statistics Bureau Survey of Household Economy monthly expenditure-related results. The survey covers ICT-related consumption, internet purchases, and infrequently purchased high-value goods and services; the release reports household usage and nominal expenditure movements.",
+      "uncertainty": "The publication summary does not state the exact July analytic denominator in the accessible release text. These are household survey estimates and nominal changes; they do not identify the same households across time, distinguish price from quantity, or establish why ticket and gift spending changed.",
+      "subgroup": "Japanese households; no age, income, geography, disability, or household-composition split in the headline figures.",
+      "counterinterpretation": "Lower online-shopping use can reflect temporary timing, promotions, delivery or platform changes, or substitution to physical shopping; a negative ticket contribution does not prove lower cultural demand or attendance.",
+      "source_url": "https://www.stat.go.jp/data/joukyou/",
+      "retrieval_hash": "sha256:84a26978d09780e43f1db5cfff95633c2368cc65401ca3cc735b710c763a26a7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.stat.go.jp/english/data/joukyou/", "claim": "Official Statistics Bureau English overview describes the Household Economy Survey as a monthly household survey of ICT consumption, internet purchasing, and infrequently purchased high-value goods and services.", "status": "official-methodology-context"},
+    {"source_url": "https://www.stat.go.jp/data/joukyou/", "claim": "Official July 2026 release summary reports online-shopping expenditure, household-use rate, and ticket/gift contribution figures.", "status": "official-release"}
+  ],
+  "boundary": "This record adds an observed household internet-shopping and ticket-channel layer to Japan's broader consumption and income contraction. It does not measure cultural attendance, household welfare, real expenditure, platform causality, or whether online substitution preserved access for households that stopped shopping online.",
+  "retrieval_hash": "sha256:84a26978d09780e43f1db5cfff95633c2368cc65401ca3cc735b710c763a26a7"
+}

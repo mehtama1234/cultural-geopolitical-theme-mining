@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location",
+  "title": "Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "household_room_consumption",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Gallup, State of the Global Workplace 2026, global employee survey and regional comparisons",
+  "geography": "Global; Gallup regional groupings and employee subgroups",
+  "observations": [
+    {
+      "period": "2009–2025; global employees",
+      "denominator": {"value": null, "unit": "Gallup global employee survey respondents; report page does not headline one pooled analytic denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "employee_engagement_2025": {"value": 20, "unit": "percent of employees engaged at work in 2025", "value_type": "reported_share"},
+        "employee_engagement_peak": {"value": 23, "unit": "percent engaged in 2022 and 2023", "value_type": "reported_share"},
+        "not_engaged_2025": {"value": 64, "unit": "percent not engaged in 2025", "value_type": "reported_share"},
+        "actively_disengaged_2025": {"value": 16, "unit": "percent actively disengaged in 2025", "value_type": "reported_share"}
+      },
+      "method": "Gallup global workplace engagement indicator with historical comparison from 2009 through 2025.",
+      "uncertainty": "Global averages conceal country, occupation, sector, contract, age and workplace-power differences; engagement is a survey construct, not a direct measure of productivity or job quality.",
+      "subgroup": "Employees worldwide, with the report also presenting gender, age, job-level, work-location and regional cuts.",
+      "counterinterpretation": "The post-peak decline may reflect changing expectations or survey composition as well as worsening work experience; low engagement does not imply uniform dissatisfaction or imminent exit.",
+      "source_url": "https://www.gallup.com/workplace/697904/state-of-the-global-workplace-global-data.aspx",
+      "retrieval_hash": "sha256:89b4d51d91c670968e8d61a7e46e2e7586503fb25fc05a3ca750ead692f9f11c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; global employees",
+      "denominator": {"value": null, "unit": "Gallup global employee survey respondents; report page does not headline one pooled analytic denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "life_thriving": {"value": 34, "unit": "percent of employees thriving in life", "value_type": "reported_share"},
+        "life_struggling": {"value": 56, "unit": "percent of employees struggling in life", "value_type": "reported_share"},
+        "life_suffering": {"value": 9, "unit": "percent of employees suffering in life", "value_type": "reported_share"},
+        "daily_stress": {"value": 40, "unit": "percent experiencing a lot of stress the previous day", "value_type": "reported_share"},
+        "daily_loneliness": {"value": 22, "unit": "percent experiencing loneliness a lot of the previous day", "value_type": "reported_share"}
+      },
+      "method": "Gallup life-evaluation and daily-emotion indicators linked to employee status and workplace comparisons.",
+      "uncertainty": "The measures are self-reported and cross-sectional at the annual level; they do not establish that work conditions cause life evaluation or daily emotion differences.",
+      "subgroup": "Employees worldwide, with comparisons by gender, age, job level, work location and region.",
+      "counterinterpretation": "Life wellbeing may be driven more by household, community, health or macroeconomic conditions than by the workplace itself; employee status is not a complete social position.",
+      "source_url": "https://www.gallup.com/workplace/697904/state-of-the-global-workplace-global-data.aspx",
+      "retrieval_hash": "sha256:89b4d51d91c670968e8d61a7e46e2e7586503fb25fc05a3ca750ead692f9f11c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; engagement by work location and region",
+      "denominator": {"value": null, "unit": "Gallup global employee survey respondents in the applicable work-location and regional groups; exact analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "engagement_exclusively_remote": {"value": 30, "unit": "percent engaged among exclusively remote employees", "value_type": "reported_share"},
+        "engagement_hybrid": {"value": 25, "unit": "percent engaged among hybrid employees", "value_type": "reported_share"},
+        "engagement_onsite_nonremote": {"value": 17, "unit": "percent engaged among on-site, non-remote-capable employees", "value_type": "reported_share"},
+        "engagement_us_canada": {"value": 31, "unit": "percent engaged in the United States and Canada regional grouping", "value_type": "reported_share"},
+        "engagement_europe": {"value": 12, "unit": "percent engaged in Europe regional grouping", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional comparison of employee engagement by work location and Gallup regional grouping.",
+      "uncertainty": "Work location is not randomly assigned and is entangled with occupation, income, autonomy, commuting constraints, sector and employer selection; regional groupings are broad.",
+      "subgroup": "Exclusively remote, hybrid, on-site remote-capable and on-site non-remote-capable employees; Gallup regional groupings.",
+      "counterinterpretation": "Remote-capable workers may begin with more autonomy, higher-status occupations and better job fit, so the location gradient cannot be read as a pure causal effect of remote work.",
+      "source_url": "https://www.gallup.com/workplace/697904/state-of-the-global-workplace-global-data.aspx",
+      "retrieval_hash": "sha256:89b4d51d91c670968e8d61a7e46e2e7586503fb25fc05a3ca750ead692f9f11c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; wellbeing and work-location comparison",
+      "denominator": {"value": null, "unit": "Gallup global employee survey respondents in the applicable work-location groups; exact analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "thriving_hybrid": {"value": 45, "unit": "percent thriving among hybrid employees", "value_type": "reported_share"},
+        "thriving_onsite_remote_capable": {"value": 45, "unit": "percent thriving among on-site, remote-capable employees", "value_type": "reported_share"},
+        "thriving_exclusively_remote": {"value": 33, "unit": "percent thriving among exclusively remote employees", "value_type": "reported_share"},
+        "daily_stress_hybrid": {"value": 46, "unit": "percent experiencing significant daily stress among hybrid employees", "value_type": "reported_share"},
+        "daily_stress_exclusively_remote": {"value": 41, "unit": "percent experiencing significant daily stress among exclusively remote employees", "value_type": "reported_share"}
+      },
+      "method": "Gallup comparison of life evaluation and daily stress across work-location categories.",
+      "uncertainty": "The work-location categories combine autonomy, commute, occupation, household setting and employer policy; these descriptive differences are not causal estimates.",
+      "subgroup": "Hybrid, exclusively remote, on-site remote-capable and on-site non-remote-capable employees.",
+      "counterinterpretation": "Hybrid work may support wellbeing for some workers while also adding coordination and boundary costs; aggregate thriving and stress can move together.",
+      "source_url": "https://www.gallup.com/workplace/697904/state-of-the-global-workplace-global-data.aspx",
+      "retrieval_hash": "sha256:89b4d51d91c670968e8d61a7e46e2e7586503fb25fc05a3ca750ead692f9f11c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/file/workplace/707798/state-of-the-global-workplace-2026-download.pdf", "claim": "Official downloadable 2026 report used for retrieval verification and hash."},
+    {"source_url": "https://www.gallup.com/workplace/697904/state-of-the-global-workplace-global-data.aspx", "claim": "Official Gallup data summary with global, subgroup and regional workplace indicators."}
+  ],
+  "boundary": "This record adds a comparative work-and-wellbeing mechanism: global engagement remains low after a 2022–23 peak, emotional strain remains elevated, and work location and region correspond with markedly different engagement and wellbeing profiles. It is a repeated global survey and descriptive subgroup comparison, not a causal evaluation of remote or hybrid work, a respondent-level panel, a job-quality audit or proof that one work arrangement generalizes across occupations and countries.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup 2026 global data summary and downloadable report were retrieved and reviewed for engagement, life evaluation, daily emotions, job climate, work-location and regional comparisons; the PDF was hashed.",
+    "source_url_sha256": "sha256:89b4d51d91c670968e8d61a7e46e2e7586503fb25fc05a3ca750ead692f9f11c",
+    "checked": "2026-09-27"
+  }
+}

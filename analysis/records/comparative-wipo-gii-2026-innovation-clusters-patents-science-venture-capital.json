@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wipo-gii-2026-innovation-clusters-patents-science-venture-capital",
+  "title": "Innovation power is concentrating in cross-border urban clusters where patents, science, venture capital, and industrial capability reinforce one another",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "WIPO Global Innovation Index 2026, Ranking of the World's Top 100 Innovation Clusters and cluster methodology",
+  "geography": "Approximately 140 economies and the world's top 100 sub-national innovation clusters, defined by inventor, scientific-author, and venture-capital geographies",
+  "observations": [
+    {
+      "period": "2021-2025 source data; 2026 innovation-cluster ranking",
+      "denominator": {"value": 100, "unit": "top innovation clusters ranked by WIPO", "value_type": "reported_cluster_denominator"},
+      "measures": {
+        "patent_metric": {"value": "inventor locations in published patent applications filed through the WIPO Patent Cooperation Treaty", "unit": "cluster-ranking metric", "value_type": "reported_method"},
+        "science_metric": {"value": "author affiliations in scientific publications indexed in the Web of Science SCIE", "unit": "cluster-ranking metric", "value_type": "reported_method"},
+        "venture_metric": {"value": "locations of companies receiving venture-capital funding", "unit": "cluster-ranking metric", "value_type": "reported_method"}
+      },
+      "method": "WIPO identifies clusters bottom-up without requiring administrative or political boundaries, combining PCT patent applications, scientific publications, and venture-capital activity.",
+      "uncertainty": "The three metrics measure visible innovation activity and finance, not all innovation, informal knowledge, social value, diffusion, or the distribution of gains within a cluster.",
+      "subgroup": "Universities, researchers, inventors, startups, venture investors, R&D firms, skilled workers, city-regions, and communities affected by innovation-led growth.",
+      "counterinterpretation": "A high-density cluster can generate spillovers and new products while also intensifying housing costs, labor competition, exclusion, and dependence on a narrow set of firms or technologies.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2026-cluster-ranking-reports/en/gii-2026-ranking-of-world-s-top-100-innovation-clusters.html",
+      "retrieval_hash": "sha256:ff1fbd4669aeec4f69bd1bd201fde33eb4b02f1447dd3297589e00995d4567ef",
+      "status": "reported"
+    },
+    {
+      "period": "2026 ranking; global innovation-intensive clusters normalized by population",
+      "denominator": {"value": 100, "unit": "top clusters ranked by innovation intensity", "value_type": "reported_cluster_denominator"},
+      "measures": {
+        "top_intensity_1": {"value": "San Jose–San Francisco", "unit": "rank 1 innovation-intensity cluster", "value_type": "reported_rank"},
+        "top_intensity_2": {"value": "Cambridge", "unit": "rank 2 innovation-intensity cluster", "value_type": "reported_rank"},
+        "top_intensity_3": {"value": "Ningde", "unit": "rank 3 innovation-intensity cluster", "value_type": "reported_rank"},
+        "top_five": {"value": "San Jose–San Francisco, Cambridge, Ningde, Boston–Cambridge, and Oxford", "unit": "top five intensity clusters", "value_type": "reported_rank_set"}
+      },
+      "method": "WIPO combines each cluster's global share of patents, scientific publications, and venture-capital deals and normalizes by estimated cluster population.",
+      "uncertainty": "Rankings are sensitive to geocoding, population estimates, fractional counting, metric coverage, and the choice to measure intensity rather than absolute scale.",
+      "subgroup": "Residents of innovation-intensive city-regions, technology workers, research institutions, firms, local governments, and populations exposed to cluster spillovers or displacement.",
+      "counterinterpretation": "Per-capita intensity favors smaller high-density clusters and does not mean they have the largest absolute economic, employment, or geopolitical impact.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2026-cluster-ranking-reports/en/gii-2026-ranking-of-world-s-top-100-innovation-clusters.html",
+      "retrieval_hash": "sha256:ff1fbd4669aeec4f69bd1bd201fde33eb4b02f1447dd3297589e00995d4567ef",
+      "status": "reported"
+    },
+    {
+      "period": "2026; national and regional distribution of top innovation-intensive clusters",
+      "denominator": {"value": 10, "unit": "top ten innovation-intensity clusters", "value_type": "reported_cluster_denominator"},
+      "measures": {
+        "united_states": {"value": 4, "unit": "top-ten intensity clusters located in the United States", "value_type": "reported_cluster_count"},
+        "united_kingdom": {"value": 2, "unit": "top-ten intensity clusters located in the United Kingdom", "value_type": "reported_cluster_count"},
+        "other_leaders": {"value": "one each in China, Finland, the Netherlands, and the Republic of Korea", "unit": "reported country distribution among the top ten", "value_type": "reported_distribution"},
+        "battery_energy_signal": {"value": "Ningde and Daejeon add visible battery and energy-technology weight to the intensity leaders", "unit": "reported sectoral interpretation", "value_type": "reported_assessment"}
+      },
+      "method": "WIPO aggregates cluster-level patent, science, and venture-capital activity and reports the country distribution and technology composition of the top ten intensity ranking.",
+      "uncertainty": "Country labels describe cluster location, not national ownership or complete value-chain control; cross-border firms, workers, suppliers, and capital can connect multiple jurisdictions.",
+      "subgroup": "National innovation systems, city-regions, industrial firms, research universities, energy and battery workers, investors, and policymakers seeking technological sovereignty.",
+      "counterinterpretation": "Concentration can coexist with broad global diffusion of technologies and with innovation activity outside the top-ten intensity clusters.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2026-cluster-ranking-reports/en/gii-2026-ranking-of-world-s-top-100-innovation-clusters.html",
+      "retrieval_hash": "sha256:ff1fbd4669aeec4f69bd1bd201fde33eb4b02f1447dd3297589e00995d4567ef",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; scale of source data used for the 2026 cluster methodology",
+      "denominator": {"value": 1, "unit": "WIPO cluster-methodology data frame", "value_type": "published_methodology_frame"},
+      "measures": {
+        "pct_applications": {"value": 1300000, "unit": "PCT patent applications published between 2021 and 2025, approximately", "value_type": "reported_source_record_count"},
+        "inventor_addresses": {"value": 4400000, "unit": "inventor addresses in the PCT dataset, approximately", "value_type": "reported_source_record_count"},
+        "cluster_boundary": {"value": "clusters can span several municipalities, sub-federal states, or more than one country", "unit": "reported geographic rule", "value_type": "reported_method"}
+      },
+      "method": "The WIPO methodology geocodes inventor and scientific-author locations, matches them to cluster polygons, incorporates population estimates, and uses fractional counting for people associated with multiple locations.",
+      "uncertainty": "Geocoding and fractional counting improve comparability but cannot fully capture remote work, institutional collaboration, hidden innovation, or the direction of causal spillovers.",
+      "subgroup": "Mobile researchers, inventors, firms, universities, cross-border regions, venture-backed companies, and local communities inside or outside cluster boundaries.",
+      "counterinterpretation": "A cross-border cluster definition can reveal real economic linkages while obscuring the public institutions, labor systems, and communities that bear uneven costs and benefits.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2026-cluster-ranking-reports/en/appendix-iv-global-innovation-index-innovation-cluster-methodology.html",
+      "retrieval_hash": "sha256:e690d4f598d656fa7fd66fe7190f0e95a095b535d3290bcacee5d388cfc5a18c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wipo.int/web-publications/global-innovation-index-2026-cluster-ranking-reports/en/index.html", "claim": "WIPO 2026 cluster-ranking landing page and ranking scope."},
+    {"source_url": "https://www.wipo.int/en/web/global-innovation-index", "claim": "WIPO Global Innovation Index series and 2026 release context."}
+  ],
+  "boundary": "This record adds a place-based innovation-power route linking patents, scientific production, venture capital, urban concentration, industrial capability, technological sovereignty, and uneven local consequences. It is an index and geospatial methodology, not a complete innovation census, causal regional-growth estimate, firm-level ownership history, respondent-level experience, or proof that cluster activity produces broad-based welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WIPO GII 2026 cluster-ranking pages and methodology were reviewed for the three metrics, top-intensity cluster ranks, country distribution, battery and energy signal, PCT application and inventor-address counts, population normalization, and cross-border cluster rule.",
+    "source_url_sha256": "sha256:ff1fbd4669aeec4f69bd1bd201fde33eb4b02f1447dd3297589e00995d4567ef",
+    "checked": "2026-09-27"
+  }
+}

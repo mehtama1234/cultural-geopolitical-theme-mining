@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gsma-mobile-gender-gap-2026-access-affordability-safety",
+  "title": "Mobile internet access is expanding for women in LMICs, but affordability, skills, and safety preserve a large gendered usage gap",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GSMA Mobile Gender Gap Report 2026, based on GSMA Consumer Survey 2025 and modelling",
+  "geography": "Low- and middle-income countries; regional estimates for Sub-Saharan Africa, South Asia, East Asia and Pacific, Middle East and North Africa, Europe and Central Asia, and Latin America and Caribbean",
+  "observations": [
+    {
+      "period": "2017 and 2025; LMIC women and men aged 18 and over",
+      "denominator": {"value": null, "unit": "Modelled LMIC adult population; report combines face-to-face survey results from 14 LMICs with extrapolation to other LMICs", "value_type": "not_disclosed"},
+      "measures": {
+        "women_mobile_internet_penetration_2025": {"value": 65, "unit": "percent of women using mobile internet", "value_type": "reported_modelled_estimate"},
+        "women_mobile_internet_users": {"value": 1500, "unit": "million women using mobile internet", "value_type": "reported_modelled_estimate"},
+        "gender_gap_mobile_internet": {"value": 12, "unit": "percent by which women are less likely than men to use mobile internet", "value_type": "reported_modelled_gap"},
+        "women_fewer_than_men": {"value": 200, "unit": "million fewer women than men using mobile internet", "value_type": "reported_modelled_gap"},
+        "women_not_using_mobile_internet": {"value": 810, "unit": "million women in LMICs not using mobile internet", "value_type": "reported_modelled_estimate"},
+        "ownership_gap": {"value": 7, "unit": "percent gender gap in overall mobile ownership in 2025", "value_type": "reported_modelled_gap"},
+        "mechanism": {"value": "Digital participation can expand in aggregate while gendered access gaps preserve unequal reach to information, commerce, work, services, and cultural discovery", "unit": "bounded digital-access mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GSMA combines more than 16,000 face-to-face surveys across 14 LMICs with modelling and extrapolation for countries not directly surveyed; the report is an industry-sponsored research product.",
+      "uncertainty": "Modelled regional and LMIC estimates depend on survey coverage, self-report, sampling, extrapolation, definitions of mobile internet use, and assumptions for countries not directly surveyed. Access does not establish effective use, quality, affordability, safety, or downstream outcomes.",
+      "subgroup": "Women and men aged 18 and over in LMICs, with regional and country comparisons; gender is treated as a binary comparison in the published headline indicators.",
+      "counterinterpretation": "A narrowing aggregate gender gap can coexist with persistent country, class, age, disability, or rural gaps. More users do not imply equal capability, privacy, safety, economic benefit, or cultural agency.",
+      "source_url": "https://www.gsma.com/gender-gap/",
+      "retrieval_hash": "sha256:e07e03ab3b21e7508716aa1df9473e8d28394a4bc5026186f80990725493c319",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional mobile-internet use among women and gender gaps",
+      "denominator": {"value": null, "unit": "Regional LMIC adult estimates from GSMA survey and modelling; no common person-level denominator published on the summary page", "value_type": "not_disclosed"},
+      "measures": {
+        "women_mobile_internet_by_region": {"value": "35% Sub-Saharan Africa; 51% South Asia; 87% East Asia and Pacific; 56% Middle East and North Africa; 79% Europe and Central Asia; 77% Latin America and Caribbean", "unit": "percent of women using mobile internet", "value_type": "reported_regional_estimate"},
+        "gender_gap_by_region": {"value": "26% Sub-Saharan Africa; 25% South Asia; 4% East Asia and Pacific; 15% Middle East and North Africa; 3% Europe and Central Asia; 1% Latin America and Caribbean", "unit": "percent gender gap in mobile internet use", "value_type": "reported_regional_gap"},
+        "barriers": {"value": "affordability, digital skills, awareness, and safety or security concerns remain important barriers to adoption and use", "unit": "reported barrier categories", "value_type": "reported_qualitative_pattern"},
+        "mechanism": {"value": "Coverage alone does not equal participation: handset cost, skills, awareness, and safety shape who can convert network availability into routine digital use", "unit": "bounded access-conversion mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive regional comparison from the 2026 GSMA Mobile Gender Gap summary and associated methodology materials.",
+      "uncertainty": "Regional figures are modelled and may conceal large within-region differences. The summary does not provide a single comparable measure of data prices, handset quality, safety incidents, or use-case completion across regions.",
+      "subgroup": "Women and men in LMIC regional groupings; the published summary does not provide full intersections by income, disability, age, rurality, or ethnicity.",
+      "counterinterpretation": "High mobile-internet penetration in a region may still mean shallow, shared, expensive, or insecure use; low gender gaps do not prove equal autonomy or benefit.",
+      "source_url": "https://www.gsma.com/gender-gap/",
+      "retrieval_hash": "sha256:e07e03ab3b21e7508716aa1df9473e8d28394a4bc5026186f80990725493c319",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma_resources/methodology-the-mobile-gender-gap-report-2026/", "claim": "GSMA methodology for Consumer Survey 2025, modelling, extrapolation, and barrier analysis.", "status": "official-method-context"},
+    {"source_url": "https://www.gsma.com/somic/", "claim": "GSMA State of Mobile Internet Connectivity 2026 context for the global usage gap.", "status": "official-context"}
+  ],
+  "boundary": "This record adds an LMIC digital-access and gender layer to the platform and infrastructure themes. It does not establish internet quality, financial or cultural outcomes, platform causation, safety incidence, household welfare, or equal effective agency.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GSMA Mobile Gender Gap 2026 official summary page reviewed for global and regional mobile-internet penetration, gender gaps, user counts, barrier categories, survey scope, and modelling caveats.",
+    "html_locator_sha256": "sha256:e07e03ab3b21e7508716aa1df9473e8d28394a4bc5026186f80990725493c319",
+    "checked": "2026-09-30"
+  }
+}

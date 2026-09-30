@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-great-britain-cost-living-conflict-shortages-may-2026",
+  "title": "Household cost pressure turns geopolitical risk into substitution, reduced mobility, and unequal financial room",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Office for National Statistics, Public opinions and social trends, Great Britain: May 2026, Opinions and Lifestyle Survey",
+  "geography": "Great Britain; adults ages 16 and over, 6-31 May 2026 OPN collection period",
+  "observations": [
+    {
+      "period": "6-31 May 2026; cost-of-living pressure and household responses",
+      "denominator": {"value": 3780, "unit": "responding adults in the latest OPN period, from 8,770 sampled households", "value_type": "reported_weighted_survey_sample"},
+      "measures": {
+        "cost_of_living_increased": {"value": 66, "unit": "percent reporting that their cost of living increased compared with one month earlier", "value_type": "reported_share"},
+        "cost_of_living_worry": {"value": 63, "unit": "percent very or somewhat worried about rising living costs", "value_type": "reported_share"},
+        "food_price_reason": {"value": 93, "unit": "percent of those reporting increased living costs who cited food-shopping prices as a reason", "value_type": "conditional_share"},
+        "fuel_price_reason": {"value": 77, "unit": "percent of those reporting increased living costs who cited fuel prices as a reason", "value_type": "conditional_share"},
+        "energy_bill_reason": {"value": 61, "unit": "percent of those reporting increased living costs who cited gas or electricity bills as a reason", "value_type": "conditional_share"},
+        "responses": {"value": "61% spent less on non-essentials, 41% spent less on food shopping and essentials, 40% shopped around more, 35% used less household gas or electricity, and 34% cut back on non-essential vehicle journeys", "unit": "reported response shares", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Price pressure is converted into household substitution, energy restraint, and reduced mobility rather than appearing only as abstract inflation concern", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS weighted Opinions and Lifestyle Survey estimates for adults in Great Britain; multiple-response items are not mutually exclusive and comparison requires confidence intervals.",
+      "uncertainty": "The period is short and cross-sectional; reported actions may reflect expectations, recall, seasonality, or overlapping shocks and do not establish a causal effect of any single price change.",
+      "subgroup": "Adults ages 16 and over in Great Britain; age and sex differences are reported for selected financial measures.",
+      "counterinterpretation": "Some cutbacks may be temporary budgeting choices or normal shopping optimization rather than hardship; reduced energy use can also reflect conservation preferences.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/may2026",
+      "retrieval_hash": "sha256:dcd8d764dcf4b4c24b0d614867a187cce32f261cb01f400ea294f4d9ccc6355c",
+      "status": "reported"
+    },
+    {
+      "period": "6-31 May 2026; savings and emergency-expense capacity",
+      "denominator": {"value": 3780, "unit": "responding adults in the latest OPN period", "value_type": "reported_weighted_survey_sample"},
+      "measures": {
+        "unable_to_save": {"value": 35, "unit": "percent reporting they would be unable to save any money in the next 12 months", "value_type": "reported_share"},
+        "unable_to_pay_850": {"value": 25, "unit": "percent reporting their household would be unable to pay an unexpected necessary expense of £850", "value_type": "reported_share"},
+        "unable_to_pay_850_age_30_49": {"value": 31, "unit": "percent of adults ages 30 to 49 reporting inability to pay the £850 expense", "value_type": "reported_subgroup_share"},
+        "unable_to_pay_850_women": {"value": 30, "unit": "percent of women reporting inability to pay the £850 expense", "value_type": "reported_subgroup_share"},
+        "income_covers_minimum": {"value": 70, "unit": "percent agreeing or strongly agreeing that household income covers minimum living expenses", "value_type": "reported_share"},
+        "mechanism": {"value": "A majority can cover minimum expenses while a substantial minority lacks savings or emergency liquidity, revealing different currencies of household security", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS weighted survey estimates with subgroup comparisons; the bulletin provides confidence intervals and directs users to accompanying datasets for statistical testing.",
+      "uncertainty": "The £850 measure is hypothetical and does not observe actual payment behavior, assets, debt, or informal support; subjective minimum expenses vary across households.",
+      "subgroup": "Adults ages 16 and over, with comparisons by age and sex; the bulletin notes greater uncertainty for some smaller groups.",
+      "counterinterpretation": "Inability to pay a specified expense may reflect a preference to use credit or other support rather than no access to resources, while agreement that income covers minimum expenses does not imply discretionary room.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/may2026",
+      "retrieval_hash": "sha256:dcd8d764dcf4b4c24b0d614867a187cce32f261cb01f400ea294f4d9ccc6355c",
+      "status": "reported"
+    },
+    {
+      "period": "6-31 May 2026; international conflict translated into household exposure",
+      "denominator": {"value": 3780, "unit": "responding adults in the latest OPN period", "value_type": "reported_weighted_survey_sample"},
+      "measures": {
+        "international_conflict_worry": {"value": 77, "unit": "percent very or somewhat worried about international conflict", "value_type": "reported_share"},
+        "fuel_availability_or_prices": {"value": 67, "unit": "percent selecting fuel availability or prices as a conflict-related worry", "value_type": "reported_share"},
+        "energy_supply_or_prices": {"value": 66, "unit": "percent selecting energy supply or prices as a conflict-related worry", "value_type": "reported_share"},
+        "safety_of_affected_people": {"value": 61, "unit": "percent selecting safety or well-being of people directly affected as a conflict-related worry", "value_type": "reported_share"},
+        "travel_disruption": {"value": 39, "unit": "percent selecting disruption to travel or transport as a conflict-related worry", "value_type": "reported_share"},
+        "mechanism": {"value": "Geopolitical conflict is perceived through energy, fuel, mobility, and moral safety channels rather than only through foreign-policy opinion", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS weighted OPN estimates of worries associated with international conflict; respondents could select multiple concerns.",
+      "uncertainty": "Worry is not realized exposure, price impact, or political action; the survey does not identify which conflicts respondents had in mind or how media information shaped responses.",
+      "subgroup": "Adults in Great Britain, with age differences: worry was higher among adults ages 50 to 69 and 70 and over than among younger adults.",
+      "counterinterpretation": "Conflict concern can reflect humanitarian solidarity or general uncertainty without changing household behavior; actual supply effects may be limited even when perceived risk is high.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/may2026",
+      "retrieval_hash": "sha256:dcd8d764dcf4b4c24b0d614867a187cce32f261cb01f400ea294f4d9ccc6355c",
+      "status": "reported"
+    },
+    {
+      "period": "6-31 May 2026; reported goods availability and food variety",
+      "denominator": {"value": 3780, "unit": "responding adults in the latest OPN period", "value_type": "reported_weighted_survey_sample"},
+      "measures": {
+        "all_needed_goods_available": {"value": 63, "unit": "percent reporting that everything they needed had been available in the prior two weeks", "value_type": "reported_share"},
+        "essential_food_unavailable": {"value": 8, "unit": "percent unable to buy or access essential food items needed regularly", "value_type": "reported_share"},
+        "other_food_unavailable": {"value": 15, "unit": "percent unable to buy or access other food items", "value_type": "reported_share"},
+        "spent_more_for_normal_purchase": {"value": 53, "unit": "percent reporting they had to spend more than usual to purchase what they normally buy", "value_type": "reported_share"},
+        "less_variety": {"value": 22, "unit": "percent reporting less variety in shops than usual", "value_type": "reported_share"},
+        "more_shops": {"value": 18, "unit": "percent reporting they had to go to more shops than usual", "value_type": "reported_share"},
+        "mechanism": {"value": "Supply and price friction create time and quality costs even when households ultimately obtain a substitute", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS weighted OPN questions on recent goods availability and food-shopping experiences; multiple-response shortage items are not mutually exclusive.",
+      "uncertainty": "The bulletin measures self-reported availability over two weeks and does not establish store-level shortages, nutritional substitution, or longer-run food insecurity.",
+      "subgroup": "Adults ages 16 and over in Great Britain; food and goods questions cover household shopping experiences.",
+      "counterinterpretation": "Most adults reported all needed items were available, and replacements may preserve consumption while shifting time, quality, or price; reported difficulty does not identify deprivation severity.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/may2026",
+      "retrieval_hash": "sha256:dcd8d764dcf4b4c24b0d614867a187cce32f261cb01f400ea294f4d9ccc6355c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/april2026", "claim": "Prior ONS period for comparison of cost-of-living and social-trend measures."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances", "claim": "ONS household-finance dataset accompanying the bulletin."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalexperiencesofshortagesofgoods", "claim": "ONS goods-shortage dataset accompanying the bulletin."}
+  ],
+  "boundary": "This record adds a comparative household-exposure route from cost and geopolitical concern through substitution, energy restraint, reduced mobility, emergency liquidity, and goods availability. It is a weighted short-period survey of Great Britain, not a household panel, observed transaction record, causal price or conflict estimate, or proof of persistent deprivation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ONS bulletin was reviewed for May 2026 sample and weighting notes, cost-of-living responses, emergency capacity, conflict worries, food availability, and shopping-friction measures.",
+    "source_url_sha256": "sha256:dcd8d764dcf4b4c24b0d614867a187cce32f261cb01f400ea294f4d9ccc6355c",
+    "checked": "2026-09-28"
+  }
+}

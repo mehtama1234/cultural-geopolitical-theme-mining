@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-statistics-family-income-expenditure-july-2026-real-household-room",
+  "title": "Japanese household consumption and worker income contract in real terms despite nominal stability",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "time_hidden_price",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Japan Statistics Bureau Family Income and Expenditure Survey, July 2026, two-or-more-person households",
+  "geography": "Japan",
+  "observations": [
+    {
+      "period": "July 2026; two-or-more-person households",
+      "denominator": {"value": 1, "unit": "average monthly household account; survey estimate, not national aggregate spending", "value_type": "household_survey_estimate"},
+      "measures": {
+        "monthly_consumption_expenditure": {"value": 301245, "unit": "yen per household", "value_type": "reported_level"},
+        "nominal_consumption_change": {"value": -1.5, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "real_consumption_change": {"value": -3.6, "unit": "percent from July 2025", "value_type": "reported_change"}
+      },
+      "method": "Japan Statistics Bureau Family Income and Expenditure Survey monthly result for two-or-more-person households; real changes are deflated using the survey's consumer-price treatment and the release reports both nominal and real movements.",
+      "uncertainty": "This is a sample survey of household accounts, not a full national-accounts measure. The July estimate is a monthly cross-section, subject to sampling and non-sampling error; the survey's 2025 questionnaire/classification revisions and price-base treatment matter for comparisons.",
+      "subgroup": "Two-or-more-person households in Japan; no direct one-person-household estimate in this observation.",
+      "counterinterpretation": "A real decline can reflect temporary timing, weather, prices, household composition, or category-specific substitution rather than a durable fall in cultural or discretionary demand; the average conceals distribution across households.",
+      "source_url": "https://www.stat.go.jp/english/data/kakei/156.html",
+      "retrieval_hash": "sha256:fc9aeba0de54cc3a1956c19593c2c77b63d7af84ef777d8f13f7e59150bd8c2f",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; workers' households",
+      "denominator": {"value": 1, "unit": "average monthly workers' household account; survey estimate", "value_type": "household_survey_estimate"},
+      "measures": {
+        "monthly_worker_household_income": {"value": 689476, "unit": "yen per household", "value_type": "reported_level"},
+        "nominal_worker_income_change": {"value": -1.7, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "real_worker_income_change": {"value": -3.8, "unit": "percent from July 2025", "value_type": "reported_change"}
+      },
+      "method": "Japan Statistics Bureau Family Income and Expenditure Survey monthly result for workers' households; the worker-household income series is reported separately from two-or-more-person household consumption.",
+      "uncertainty": "The income measure is an average for the worker-household subgroup and does not establish wage composition, hours, employment transitions, debt, transfers, or disposable-income changes. The cross-sectional monthly comparison does not identify household trajectories.",
+      "subgroup": "Workers' households in Japan; household classification and income definition follow the Statistics Bureau survey.",
+      "counterinterpretation": "Real worker-household income can fall while some groups gain through bonuses, transfers, or employment changes; the aggregate does not establish why consumption changed or whether households reduced saving, quantity, quality, or cultural spending.",
+      "source_url": "https://www.stat.go.jp/english/data/kakei/156.html",
+      "retrieval_hash": "sha256:fc9aeba0de54cc3a1956c19593c2c77b63d7af84ef777d8f13f7e59150bd8c2f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.stat.go.jp/data/kakei/sokuhou/tsuki/index.html", "claim": "Official monthly Japanese release page lists the July 2026 two-or-more-person household real consumption result and time-series context.", "status": "official-release"},
+    {"source_url": "https://www.stat.go.jp/english/data/kakei/1564.html", "claim": "Official Statistics Bureau Q&A documents sampling-error treatment and the survey's tabulated-household context.", "status": "official-quality-context"}
+  ],
+  "boundary": "This record adds a household-account layer beneath aggregate national spending and establishment sales. It does not isolate cultural or leisure categories in July, identify individual households, establish causality, measure one-person households, or prove that real consumption contraction equals reduced wellbeing.",
+  "retrieval_hash": "sha256:fc9aeba0de54cc3a1956c19593c2c77b63d7af84ef777d8f13f7e59150bd8c2f"
+}

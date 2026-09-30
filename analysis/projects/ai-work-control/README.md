@@ -321,9 +321,10 @@ external behavior change.
 
 The [Virginia large-load governance layer](virginia-large-load-governance-reliability-layer-v1.md)
 adds the regulator and utility-response stage: reported 2024–2025 load-drop
-events and a GS-5 tariff framework effective in 2027. It preserves the gap
-between policy design, actual cost allocation, household bills, and local
-legitimacy.
+events, a GS-5 tariff framework effective in 2027, and the 2026 transition into
+direct-assignment, consumption-tax, transparency, and community-voice
+implementation. It preserves the gap between policy design, actual cost
+collection, household bills, received credits, and local legitimacy.
 
 The new [global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
 and [platform-work remedy case ledger](platform-remedy-case-ledger-v1.md)

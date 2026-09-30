@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mexico-inegi-enigh-2024-household-room-cultural-spending-inequality",
+  "title": "Mexican household spending recovers in aggregate while education, culture, and recreation remain distributionally constrained",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "INEGI Encuesta Nacional de Ingresos y Gastos de los Hogares, ENIGH 2024",
+  "geography": "Mexico",
+  "observations": [
+    {
+      "period": "2024; Mexican household income and spending aggregate",
+      "denominator": {"value": 105718, "unit": "sampled private dwellings visited by ENIGH 2024; household estimates are survey-weighted", "value_type": "survey_sample"},
+      "measures": {
+        "average_monthly_current_income_per_household": {"value": 25955, "unit": "2024 Mexican pesos", "value_type": "reported_level"},
+        "average_monthly_current_total_income_per_household": {"value": 27307, "unit": "2024 Mexican pesos including financial and capital receipts", "value_type": "reported_level"},
+        "average_monthly_monetary_current_expenditure_per_household": {"value": 15891, "unit": "2024 Mexican pesos", "value_type": "reported_level"},
+        "monetary_expenditure_change_from_2022": {"value": 7.9, "unit": "percent in real 2024 pesos", "value_type": "reported_change"},
+        "food_beverage_tobacco_spending_share": {"value": 37.7, "unit": "percent of average monthly monetary current expenditure", "value_type": "reported_share"},
+        "transport_communications_spending_share": {"value": 19.5, "unit": "percent of average monthly monetary current expenditure", "value_type": "reported_share"}
+      },
+      "method": "INEGI ENIGH household survey of income and expenditure, with results in 2024 pesos and survey estimates representative by federation entity and urban/rural domains at the state level.",
+      "uncertainty": "These are survey estimates of average household resources and spending, not continuous accounts or individual consumer panels. Averages can conceal within-household and within-state inequality; expenditure growth does not identify debt, savings drawdown, price substitution, or subjective well-being.",
+      "subgroup": "Households residing in private dwellings in Mexico; ENIGH provides sociodemographic, labor, housing, and equipment characteristics alongside income and expenditure.",
+      "counterinterpretation": "The 7.9% increase in monetary expenditure from 2022 can indicate improved nominal or real household room, but the composition remains dominated by food, transport, and communications; aggregate recovery alone does not imply broad discretionary or cultural expansion.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/enigh/ENIGH2024.pdf",
+      "retrieval_hash": "sha256:bbb2cf5acdaf58e624761a2b00a9cb507cb4f31d3e4d008b1e03ebed5c372e16",
+      "status": "reported"
+    },
+    {
+      "period": "2024; Mexican household cultural and discretionary spending",
+      "denominator": {"value": 1, "unit": "average Mexican household monetary current expenditure; prices expressed in 2024 pesos", "value_type": "aggregate_average"},
+      "measures": {
+        "education_recreation_monthly_spending": {"value": 1531, "unit": "2024 Mexican pesos per household per month", "value_type": "reported_level"},
+        "education_recreation_share": {"value": 9.6, "unit": "percent of average monthly monetary current expenditure", "value_type": "reported_share"},
+        "education_recreation_change_from_2022": {"value": 6.0, "unit": "percent in 2024 pesos", "value_type": "reported_change"},
+        "education_recreation_change_from_2016": {"value": -13.1, "unit": "percent in 2024 pesos", "value_type": "reported_change"},
+        "esparcimiento_quarterly_spending_change_from_2022": {"value": 51.5, "unit": "percent in 2024 pesos; specific entertainment category", "value_type": "reported_change"},
+        "education_quarterly_spending_change_from_2022": {"value": -6.3, "unit": "percent in 2024 pesos; specific education category", "value_type": "reported_change"},
+        "top_twenty_spending_share": {"value": 85.2, "unit": "percent of quarterly monetary current expenditure represented by the 20 largest specific spending items", "value_type": "reported_share"}
+      },
+      "method": "INEGI ENIGH spending classifications distinguish the broad monthly education-and-recreation aggregate from quarterly specific categories such as education and esparcimiento; the two time bases should not be treated as identical measures.",
+      "uncertainty": "Education and recreation categories include heterogeneous goods and services and are not direct measures of cultural identity, attendance, creative production, or social meaning. The 2016 comparison is reported in 2024 pesos but spans different economic and survey conditions.",
+      "subgroup": "Mexican households' monetary current expenditure by broad and specific spending rubrics.",
+      "counterinterpretation": "The broad education-and-recreation category recovered from the 2020 shock and rose from 2022, while specific entertainment spending rose sharply and education spending fell; this is category reallocation, not a single direction of cultural demand.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/enigh/ENIGH2024_RR.pdf",
+      "retrieval_hash": "sha256:6b091e2d640b6682ca568203637d2a327fbcae950ba7ef66c441c5970568903d",
+      "status": "reported"
+    },
+    {
+      "period": "2024; Mexican household income, identity, and place disparities",
+      "denominator": {"value": 10, "unit": "income deciles, each containing 10 percent of Mexican households; state comparisons use survey-weighted household averages", "value_type": "distributional_partition"},
+      "measures": {
+        "first_decile_monthly_current_income": {"value": 5598, "unit": "2024 Mexican pesos per household per month", "value_type": "reported_level"},
+        "tenth_decile_monthly_current_income": {"value": 78698, "unit": "2024 Mexican pesos per household per month", "value_type": "reported_level"},
+        "tenth_to_first_decile_income_ratio": {"value": 14, "unit": "ratio of average monthly current income", "value_type": "reported_ratio"},
+        "women_to_men_monthly_monetary_income_gap": {"value": 4111, "unit": "2024 Mexican pesos; women lower than men on average", "value_type": "reported_gap"},
+        "indigenous_or_indigenous_language_income_gap": {"value": -26.0, "unit": "percent relative to national average monetary income", "value_type": "reported_gap"},
+        "highest_state_monthly_current_income": {"value": 39011, "unit": "2024 Mexican pesos per household in Nuevo León", "value_type": "reported_level"},
+        "lowest_state_monthly_current_income": {"value": 13695, "unit": "2024 Mexican pesos per household in Chiapas", "value_type": "reported_level"},
+        "highest_state_monthly_monetary_expenditure": {"value": 22128, "unit": "2024 Mexican pesos per household in Mexico City", "value_type": "reported_level"},
+        "lowest_state_monthly_monetary_expenditure": {"value": 9039, "unit": "2024 Mexican pesos per household in Chiapas", "value_type": "reported_level"}
+      },
+      "method": "INEGI ENIGH decile, sex, ethnic-characteristic, federation-entity, and urban/rural estimates from a household probability survey.",
+      "uncertainty": "These are descriptive gaps, not causal effects of gender, ethnicity, geography, or policy. Income and expenditure gaps can reflect age, education, labor market structure, household composition, prices, remittances, and reporting differences.",
+      "subgroup": "Income deciles; women and men; people who identify as Indigenous or speak an Indigenous language; federation entities; urban and rural localities.",
+      "counterinterpretation": "The lower tenth-to-first-decile ratio relative to 2016 does not eliminate unequal cultural or consumer room: the absolute gap remains large, and lower-income households devote more constrained budgets to essential categories before discretionary participation becomes feasible.",
+      "source_url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2025/enigh/ENIGH2024.pdf",
+      "retrieval_hash": "sha256:bbb2cf5acdaf58e624761a2b00a9cb507cb4f31d3e4d008b1e03ebed5c372e16",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.inegi.org.mx/programas/enigh/nc/2024/default.html", "claim": "INEGI's official ENIGH 2024 program page documents the survey objective, target population, biennial periodicity, thematic coverage, methodology, and downloadable materials.", "status": "official-program-page"},
+    {"source_url": "https://www.inegi.org.mx/rnm/index.php/catalog/1116/related-materials", "claim": "INEGI's official metadata catalog provides questionnaires and tabulation documentation, including education, culture, recreation, time use, networks, and household expenditure sections.", "status": "official-metadata"},
+    {"source_url": "https://operaintercensal.inegi.org.mx/?p=29067", "claim": "INEGI's official results summary reports the headline household income, expenditure, category shares, gender, and Indigenous-income findings.", "status": "official-results-summary"}
+  ],
+  "boundary": "This record adds a direct household-budget and distributional layer to the Mexico and Latin America consumer-culture comparison. It does not measure real-time 2026 behavior, unique cultural attendance, platform use, causal preference formation, or whether spending increases produced greater subjective well-being. The broad education-and-recreation and specific education/esparcimiento measures use different reference periods and should remain separate.",
+  "retrieval_hash": "sha256:bbb2cf5acdaf58e624761a2b00a9cb507cb4f31d3e4d008b1e03ebed5c372e16"
+}

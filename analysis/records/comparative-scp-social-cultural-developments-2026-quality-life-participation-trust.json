@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-scp-social-cultural-developments-2026-quality-life-participation-trust",
+  "title": "High average quality of life in the Netherlands coexists with stacked inequalities, participation pressure, mental-health strain, and fragile institutional trust",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "household_room_consumption"
+  ],
+  "source_unit": "Netherlands Institute for Social Research (SCP), Social and Cultural Developments 2026",
+  "geography": "Netherlands; national social conditions, participation, social cohesion, and citizen-government relations, with European comparisons",
+  "observations": [
+    {
+      "period": "2026; national quality of life and participation",
+      "denominator": {"value": 1, "unit": "Dutch society assessed across quality of life, social cohesion, and citizen-government relations", "value_type": "national_social_conditions_frame"},
+      "measures": {
+        "life_rating": {"value": 7.7, "unit": "average self-rated life satisfaction in the Netherlands", "value_type": "reported_average"},
+        "participation": {"value": "The majority of people have paid work and do volunteer work", "unit": "reported participation pattern", "value_type": "reported_pattern"},
+        "average_quality": {"value": "The quality of Dutch society is high on average compared with other European countries", "unit": "reported comparative assessment", "value_type": "reported_pattern"}
+      },
+      "method": "SCP synthesis using the Nederland in Beeld survey and European Social Survey comparisons across quality-of-life and social-condition indicators.",
+      "uncertainty": "The report's averages conceal variation across groups, measures, and time; life satisfaction and participation do not by themselves establish material security, equal opportunity, or causal policy effects.",
+      "subgroup": "Dutch residents, workers, volunteers, caregivers, young adults, people with different levels of income, health, education, networks, and institutional access.",
+      "counterinterpretation": "High average life satisfaction and participation can represent genuine social resilience, even when specific groups experience severe disadvantage or overextension.",
+      "source_url": "https://www.scp.nl/publicaties-scp/2026/02/sociale-en-culturele-ontwikkelingen-2026",
+      "retrieval_hash": "sha256:315fabe2c4bce05f564ab4a5f108fc6175f3ca5cb618253615172b0b4875267d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; inequality across forms of social and economic capital",
+      "denominator": {"value": 1, "unit": "Dutch population assessed across multiple forms of capital and participation", "value_type": "national_social_conditions_frame"},
+      "measures": {
+        "stacked_inequality": {"value": "Disadvantages in income, social networks, labor-market position, health, education, and ability to participate can accumulate in the same groups", "unit": "reported inequality mechanism", "value_type": "reported_mechanism"},
+        "average_masking": {"value": "National averages hide large differences in who can share in the quality of society", "unit": "reported distributional pattern", "value_type": "reported_pattern"},
+        "representation_route": {"value": "Groups with low scores across several forms of capital have lower government trust and are less well represented in and by policy", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "SCP cross-domain analysis of resources, participation, well-being, social cohesion, and the relationship between citizens and government.",
+      "uncertainty": "The synthesis identifies overlapping disadvantage and association; it does not estimate one universal causal pathway or quantify the contribution of each form of capital.",
+      "subgroup": "People below poverty thresholds, people with limited networks or labor-market access, people experiencing poor health or discrimination, and groups underrepresented in policy.",
+      "counterinterpretation": "Multiple forms of capital can substitute for one another in some contexts, and local organizations or public services may buffer material and social disadvantage.",
+      "source_url": "https://www.scp.nl/publicaties-scp/2026/02/sociale-en-culturele-ontwikkelingen-2026",
+      "retrieval_hash": "sha256:315fabe2c4bce05f564ab4a5f108fc6175f3ca5cb618253615172b0b4875267d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social cohesion, identity, mental health, and participation pressure",
+      "denominator": {"value": 1, "unit": "Dutch social and cultural conditions framework", "value_type": "national_social_conditions_frame"},
+      "measures": {
+        "cohesion": {"value": "Core indicators such as social cohesion, participation, and general life satisfaction are relatively stable over time", "unit": "reported trend", "value_type": "reported_pattern"},
+        "mental_health": {"value": "Burnout, anxiety, and depression concerns have increased, with young adults especially vulnerable and young-adult life satisfaction declining over the past decade", "unit": "reported health and age pattern", "value_type": "reported_pattern"},
+        "participation_pressure": {"value": "High participation across work, volunteering, care, and other activities can create overextension when people must contribute heavily across several domains", "unit": "reported social mechanism", "value_type": "reported_mechanism"},
+        "national_belonging": {"value": "People feel relatively little connection to the Netherlands compared with other indicators of social functioning", "unit": "reported identity pattern", "value_type": "reported_pattern"}
+      },
+      "method": "SCP analysis of well-being, social cohesion, participation, identity, and mental-health indicators over time and across European comparisons.",
+      "uncertainty": "The report's trend descriptions combine survey measures with different time windows; participation, identity, and mental-health associations do not show that one caused another.",
+      "subgroup": "Young adults, people with burnout or anxiety symptoms, high-participation workers and caregivers, volunteers, and residents with different forms of national or local belonging.",
+      "counterinterpretation": "Participation can strengthen social connection and purpose; high involvement may be protective for some people even as it becomes burdensome for others.",
+      "source_url": "https://www.scp.nl/publicaties-scp/2026/02/sociale-en-culturele-ontwikkelingen-2026",
+      "retrieval_hash": "sha256:315fabe2c4bce05f564ab4a5f108fc6175f3ca5cb618253615172b0b4875267d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; discrimination, political trust, and policy legitimacy",
+      "denominator": {"value": 1, "unit": "Dutch citizen-government and social-cohesion assessment", "value_type": "national_social_conditions_frame"},
+      "measures": {
+        "discrimination": {"value": "Experienced discrimination is relatively high, with accumulated or overlapping discrimination a particular concern", "unit": "reported social pattern", "value_type": "reported_pattern"},
+        "political_trust": {"value": "The Netherlands scores relatively well internationally on political trust, but a substantial group reports anxiety, depression, and lower trust or well-being", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "legitimacy_route": {"value": "Persistent inequality, weak representation, and policy outcomes that do not match vulnerable groups' needs can pressure trust in government and social cohesion", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "SCP comparative and national analysis of discrimination, political trust, social cohesion, and citizen-government relations.",
+      "uncertainty": "Comparative scores depend on survey design and country context; the publication does not establish that discrimination or inequality alone determines political trust.",
+      "subgroup": "People reporting discrimination, marginalized groups, residents with overlapping disadvantages, public institutions, and citizens evaluating policy responsiveness.",
+      "counterinterpretation": "High interpersonal trust and political trust can provide institutional resilience and create a base for repairing inequality and representation.",
+      "source_url": "https://www.scp.nl/publicaties-scp/2026/02/sociale-en-culturele-ontwikkelingen-2026",
+      "retrieval_hash": "sha256:315fabe2c4bce05f564ab4a5f108fc6175f3ca5cb618253615172b0b4875267d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.scp.nl/actueel/nieuws/2026/02/23/kwaliteit-nederlandse-samenleving-hoog-maar-verschillen-tussen-groepen-zorgelijk", "claim": "SCP summary of high average quality of life and stacked inequality across groups."},
+    {"source_url": "https://www.scp.nl/publicaties-scp/2025/09/meedoen-in-2050", "claim": "Complementary SCP foresight on participation, autonomy, care, work, and future social cohesion."}
+  ],
+  "boundary": "This record adds a national social-and-cultural conditions lens on quality of life, participation, stacked inequality, mental health, identity, discrimination, social cohesion, and trust in government. It uses aggregate and survey-based comparative evidence, not individual case histories, a causal model, a representative measure of every subgroup, or a claim that participation or trust has one universal cause.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official SCP 2026 publication and associated SCP summary pages reviewed for quality of life, participation, stacked inequality, social cohesion, mental health, national belonging, discrimination, political trust, and citizen-government relations.",
+    "source_url_sha256": "sha256:315fabe2c4bce05f564ab4a5f108fc6175f3ca5cb618253615172b0b4875267d",
+    "checked": "2026-09-26"
+  }
+}

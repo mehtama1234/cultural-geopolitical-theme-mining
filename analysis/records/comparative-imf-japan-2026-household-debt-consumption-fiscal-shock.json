@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-imf-japan-2026-household-debt-consumption-fiscal-shock",
+  "title": "Japan’s household debt and leverage amplify consumption responses to fiscal tightening",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Monetary Fund, Japan 2026 Article IV Consultation, Annex IX: Japan’s Household Consumption Behavior",
+  "geography": "Japan; household-panel and Family Income and Expenditure Survey evidence with income, age, debt, loan-to-value, employment, and consumption dimensions",
+  "observations": [
+    {
+      "period": "Japan household panel evidence, 2004–2023; differential response to fiscal-consolidation shocks",
+      "denominator": {"value": null, "unit": "Annual Japan Household Panel Survey / Keio Household Panel Survey households tracked over time; model estimates reported in the IMF annex", "value_type": "not_disclosed"},
+      "measures": {
+        "highly_indebted_interaction": {"value": -1.96, "unit": "estimated interaction coefficient for fiscal shock and highly indebted household status in log real consumption per capita", "value_type": "reported_model_coefficient"},
+        "high_ltv_interaction": {"value": -5.68, "unit": "estimated interaction coefficient for fiscal shock and high loan-to-value household status in log real consumption per capita", "value_type": "reported_model_coefficient"},
+        "older_household_interaction": {"value": -1.38, "unit": "estimated interaction coefficient for fiscal shock and older-household status in log real consumption per capita", "value_type": "reported_model_coefficient"},
+        "low_education_interaction": {"value": -0.36, "unit": "estimated interaction coefficient for fiscal shock and lower-education household status in log real consumption per capita", "value_type": "reported_model_coefficient"},
+        "highly_indebted_p_value": {"value": 0.022, "unit": "reported p-value for the highly indebted interaction", "value_type": "reported_model_statistic"},
+        "high_ltv_p_value": {"value": 0, "unit": "reported rounded p-value for the high loan-to-value interaction", "value_type": "reported_model_statistic"},
+        "mechanism": {"value": "Balance-sheet constraints amplify the consumption effect of fiscal tightening: highly indebted and high-LTV households have less room to smooth spending when policy or income conditions tighten", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction of the IMF annex’s household fixed-effects model using annual JHPS/KHPS data, real per-capita consumption, disposable income, household characteristics, and narrative fiscal-consolidation shocks.",
+      "uncertainty": "The estimates are model-based associations around identified fiscal shocks and depend on the shock narrative, specification, sample, and interaction interpretation; they are Japan-specific and do not directly measure cultural or retail categories.",
+      "subgroup": "Japanese households by indebtedness, loan-to-value status, age profile, and education, with household and time effects.",
+      "counterinterpretation": "Debt and LTV may proxy for housing tenure, life stage, wealth, income volatility, or access to other buffers; the interaction does not mean debt alone caused every observed consumption response.",
+      "source_url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1jpnea2026001.pdf",
+      "retrieval_hash": "sha256:6b8678ec0734b389c4d9047a9e4cf13974defdd8841330bf2919030edf99fc1e",
+      "status": "reported"
+    },
+    {
+      "period": "Japan household panel and monthly expenditure evidence; debt repayment and consumption",
+      "denominator": {"value": null, "unit": "JHPS/KHPS employed and unemployed households plus monthly Family Income and Expenditure Survey cohort measures, 2000–June 2025", "value_type": "not_disclosed"},
+      "measures": {
+        "deleveraging_consumption_association": {"value": "reductions in debt are strongly and negatively associated with consumption per capita for employed households, driven mainly by middle- and high-income groups and households with middle-aged heads", "unit": "reported panel-model pattern", "value_type": "reported_pattern"},
+        "unemployed_household_deleveraging_pattern": {"value": "a similar but even stronger consumption reduction pattern appears among households with unemployed heads, especially wealthier and older cohorts", "unit": "reported panel-model pattern", "value_type": "reported_pattern"},
+        "employment_income_saving_association": {"value": "employment income has the broadest and strongest association with household saving rates, with somewhat larger effects among wealthier cohorts", "unit": "reported panel-model pattern", "value_type": "reported_pattern"},
+        "macro_data_window": {"value": "monthly Family Income and Expenditure Survey data from January 2000 through June 2025", "unit": "reported data window", "value_type": "reported_method_measure"},
+        "mechanism": {"value": "Deleveraging can look like weak consumer demand while functioning as balance-sheet repair: households reallocate cash from current consumption toward debt reduction, with effects varying by employment, age, and income", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the IMF annex combining JHPS/KHPS panel evidence with FIES cohort time series; the annex distinguishes consumption, saving, income, and balance-sheet responses.",
+      "uncertainty": "The source summarizes research estimates rather than publishing a respondent-level replication dataset; the panel and FIES windows differ, and reported associations do not establish a universal household spending law or a cultural-consumption effect.",
+      "subgroup": "Japanese households by employment status, income, age, and debt behavior.",
+      "counterinterpretation": "Debt repayment may coincide with improved financial health or voluntary saving goals; lower spending may reflect household composition, expected future income, or asset reallocation rather than distress alone.",
+      "source_url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1jpnea2026001.pdf",
+      "retrieval_hash": "sha256:6b8678ec0734b389c4d9047a9e4cf13974defdd8841330bf2919030edf99fc1e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/en/publications/cr/issues/2026/04/02/japan-2026-article-iv-consultation-press-release-staff-report-and-statement-by-the-575112", "claim": "Official IMF publication page and report metadata for Japan 2026 Article IV."},
+    {"source_url": "https://doi.org/10.5089/9798229042574.002", "claim": "IMF DOI for Country Report 2026/075."}
+  ],
+  "boundary": "This record adds panel-based balance-sheet and consumption-response evidence to the consumer trend atlas. It does not establish current Japanese retail behavior, cultural spending, household distress prevalence, or transferability to other countries.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IMF Japan 2026 Article IV PDF reviewed for Annex IX data sources, panel years, FIES window, household fixed-effects model, indebtedness and LTV interactions, deleveraging patterns, income and savings associations, and model limitations.",
+    "pdf_sha256": "sha256:6b8678ec0734b389c4d9047a9e4cf13974defdd8841330bf2919030edf99fc1e",
+    "checked": "2026-09-30"
+  }
+}

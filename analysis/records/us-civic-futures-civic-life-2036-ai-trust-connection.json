@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-civic-futures-civic-life-2036-ai-trust-connection",
+  "title": "American civic life is being reframed as a choice among convenience, hollowing, rule-bound protection, and AI-mediated representation",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Civic Futures Institute, Civic Life in America: Alternative Futures in 2036, September 2026 foresight report and release",
+  "geography": "United States; civic life, communities, institutions, and public participation through 2036",
+  "observations": [
+    {
+      "period": "January-June 2026 research; civic futures evidence frame",
+      "denominator": {"value": 38, "unit": "expert interviews conducted for the report, supplemented by secondary research", "value_type": "published_research_frame"},
+      "measures": {
+        "foresight_method": {"value": "the report uses foresight and scenario construction rather than prediction to explore possible civic futures", "unit": "reported method", "value_type": "reported_method"},
+        "converging_forces": {"value": "five forces are treated as interacting: participation-trust gaps, AI-mediated information and relationships, social connection, economic precarity, and political polarization", "unit": "reported analytic frame", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Civic Futures Institute foresight synthesis based on 38 expert interviews and secondary research, using Jim Dator's Four Futures framework.",
+      "uncertainty": "Expert interviews and scenario synthesis identify possibilities and mechanisms; they do not estimate prevalence, causal effects, forecast probabilities, or representative public opinion.",
+      "subgroup": "Civic leaders, communities, institutions, residents, technology users, people facing economic precarity, and groups with different access to political voice.",
+      "counterinterpretation": "The five forces may interact differently across places and institutions; the report's selection of forces reflects a foresight frame rather than an exhaustive or independently weighted causal model.",
+      "source_url": "https://civicfutures.us/news",
+      "retrieval_hash": "sha256:1ae1acc5f8e34891b63e3bfd846ed77cb505feacadd8ac5ca847c60dcf531187",
+      "status": "reported"
+    },
+    {
+      "period": "2036 scenario horizon; civic participation and belonging",
+      "denominator": {"value": 4, "unit": "alternative civic futures presented by the report", "value_type": "scenario_set"},
+      "measures": {
+        "convenient_america": {"value": "civic life becomes easier to enter but harder to belong to", "unit": "scenario proposition", "value_type": "foresight_scenario"},
+        "hollow_republic": {"value": "civic life continues formally while hollowing out internally", "unit": "scenario proposition", "value_type": "foresight_scenario"},
+        "guarded_union": {"value": "civic life becomes more rule-bound, simultaneously protected and constrained", "unit": "scenario proposition", "value_type": "foresight_scenario"},
+        "agentic_nation": {"value": "civic life gains a second layer of representation through AI agents working on behalf of citizens", "unit": "scenario proposition", "value_type": "foresight_scenario"}
+      },
+      "method": "Scenario construction; the report explicitly presents alternatives rather than a single best- or worst-case prediction.",
+      "uncertainty": "Scenarios are interpretive tools and do not establish that any pathway will occur, how fast it would develop, or who would gain or lose power within it.",
+      "subgroup": "Citizens, civic associations, public institutions, AI-mediated representatives, local communities, and people with unequal time, money, information, or technical access.",
+      "counterinterpretation": "Real civic futures may combine elements of several scenarios or produce paths not represented by the four labels; scenario vividness is not evidence of likelihood.",
+      "source_url": "https://civicfutures.us/civic-life-report",
+      "retrieval_hash": "sha256:1ae1acc5f8e34891b63e3bfd846ed77cb505feacadd8ac5ca847c60dcf531187",
+      "status": "reported"
+    },
+    {
+      "period": "2026; current civic legitimacy and agency context",
+      "denominator": {"value": 1, "unit": "report release context combining cited national indicators with qualitative foresight", "value_type": "context_frame"},
+      "measures": {
+        "civic_agency_problem": {"value": "the report frames a gap between recognizing what is wrong with civic life and believing one has power to change it", "unit": "reported problem definition", "value_type": "reported_mechanism"},
+        "local_global_tension": {"value": "American civic change is situated within a wider global democratic recession while the report focuses on domestic relationships, habits, associations, and governing capacity", "unit": "reported context", "value_type": "reported_context"},
+        "choice_frame": {"value": "the future is presented as shaped by choices embedded in currently emerging forces rather than as inevitable technological or political destiny", "unit": "reported interpretive stance", "value_type": "reported_interpretation"}
+      },
+      "method": "Report release synthesis of its qualitative findings, cited public indicators, and scenario interpretation.",
+      "uncertainty": "The release combines sources with different designs and does not test whether low agency causes withdrawal, whether local civic performance is better than national performance, or whether scenario framing changes behavior.",
+      "subgroup": "Americans with different levels of civic trust, local attachment, political power, institutional access, and exposure to economic or technological change.",
+      "counterinterpretation": "People can report low agency while still participating, organizing, voting, or helping locally; perceived power is not equivalent to actual political capacity or outcome.",
+      "source_url": "https://civicfutures.us/news",
+      "retrieval_hash": "sha256:1ae1acc5f8e34891b63e3bfd846ed77cb505feacadd8ac5ca847c60dcf531187",
+      "status": "reported"
+    },
+    {
+      "period": "2036 horizon; distribution of civic power",
+      "denominator": {"value": 1, "unit": "scenario-level civic power and access question", "value_type": "foresight_frame"},
+      "measures": {
+        "unequal_power_boundary": {"value": "the report states that agency does not require pretending everyone holds equal power", "unit": "reported normative boundary", "value_type": "reported_boundary"},
+        "representation_risk": {"value": "AI-mediated participation may lower friction while creating new questions about who designs, controls, audits, and benefits from civic representation", "unit": "analytic implication of scenario frame", "value_type": "analytic_mechanism"},
+        "institutional_work": {"value": "renewing civic life requires attention to relationships, habits, associations, and governing capacity rather than only individual attitude change", "unit": "reported institutional implication", "value_type": "reported_implication"}
+      },
+      "method": "Interpretive extraction from the report's scenario tradeoffs and concluding agency frame.",
+      "uncertainty": "These are open questions and implications, not observed AI-agent use, institutional reform, political behavior, or distributional outcomes.",
+      "subgroup": "People and organizations with unequal access to AI, civic institutions, public meetings, information, time, and decision-making authority.",
+      "counterinterpretation": "AI-mediated representation could broaden access or improve responsiveness if governed well; it could also reinforce existing power if access and accountability are unequal.",
+      "source_url": "https://civicfutures.us/civic-life-report",
+      "retrieval_hash": "sha256:1ae1acc5f8e34891b63e3bfd846ed77cb505feacadd8ac5ca847c60dcf531187",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx", "claim": "Gallup/Kettering's Democracy for All project supplies a separate public-opinion route on democratic performance, inclusion, and local agency.", "status": "official_comparator"},
+    {"source_url": "https://socialconnectioninamerica.org/", "claim": "Social Connection in America supplies a separate national tracking route on time, belonging, participation, and social connection.", "status": "official_comparator"},
+    {"source_url": "https://freedomhouse.org/country/united-states/freedom-world/2026", "claim": "Freedom House supplies a separate expert-coded institutional and rights assessment for the United States.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a U.S. civic-foresight route connecting trust, participation, social connection, economic precarity, polarization, AI-mediated representation, institutional capacity, and unequal agency. It is a scenario and expert-interview synthesis, not a representative survey, forecast, causal study, observed AI-agent deployment, or prediction that one of the four futures will occur.",
+  "retrieval_hash": "sha256:1ae1acc5f8e34891b63e3bfd846ed77cb505feacadd8ac5ca847c60dcf531187"
+}

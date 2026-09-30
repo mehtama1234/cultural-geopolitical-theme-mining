@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-adolescent-wellbeing-2026-gender-norms-digital-environments",
+  "title": "Adolescent well-being is diverging by gender and shaped across family, school, community, and digital environments",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "OECD, Enhancing adolescent social and emotional well-being",
+  "geography": "Cross-national OECD analysis of adolescent social and emotional well-being, gender differences, norms, and supportive environments",
+  "observations": [
+    {
+      "period": "2021-2022; adolescent mental well-being by gender",
+      "denominator": {"value": 1, "unit": "adolescents aged 11-15 in the OECD Child Well-being Data Portal comparison", "value_type": "adolescent_wellbeing_frame"},
+      "measures": {
+        "girls_poor_mental_wellbeing": {"value": 44, "unit": "percent of girls aged 11-15 reporting poor mental well-being", "value_type": "reported_share"},
+        "boys_poor_mental_wellbeing": {"value": 23.5, "unit": "percent of boys aged 11-15 reporting poor mental well-being", "value_type": "reported_share"},
+        "gender_gap": {"value": "girls report substantially poorer mental well-being than boys across the OECD comparison", "unit": "reported comparative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD cross-national synthesis using the Child Well-being Data Portal and comparable adolescent self-reported social, emotional, and mental-well-being indicators.",
+      "uncertainty": "Self-reported well-being is sensitive to wording, culture, age, survey timing, and disclosure; cross-country differences do not identify a single cause or establish clinical diagnosis.",
+      "subgroup": "Adolescent girls and boys aged approximately 11-15, with attention to gender, age, social background, and differing forms of vulnerability.",
+      "counterinterpretation": "Higher reporting of distress can reflect greater recognition or willingness to disclose problems, while lower reporting does not establish better well-being or lower need.",
+      "source_url": "https://www.oecd.org/en/publications/enhancing-adolescent-social-and-emotional-well-being_00ebd3dd-en.html",
+      "retrieval_hash": "sha256:bb38aee8dab3a05d7caf1d5c395c943f93cdf229d0d21a54ee79b344deebc857",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gendered patterns of social and emotional risk",
+      "denominator": {"value": 1, "unit": "adolescent girls and boys across OECD comparative well-being evidence", "value_type": "gendered_risk_frame"},
+      "measures": {
+        "girls_low_life_satisfaction": {"value": "girls aged 11, 13, and 15 are between 1.65 and 2.5 times more likely than boys to report low life satisfaction", "unit": "reported comparative ratio", "value_type": "reported_ratio"},
+        "girls_internalising": {"value": "girls face higher risks of anxiety, depression, body-image concerns, and self-harm", "unit": "reported risk pattern", "value_type": "reported_mechanism"},
+        "boys_externalising": {"value": "boys face higher risks of conduct problems, aggression, and risk-taking; about one in seven adolescents report repeated physical fighting", "unit": "reported risk pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD synthesis of cross-national adolescent well-being, mental-health, behavior, and resilience measures, interpreted by age and sex.",
+      "uncertainty": "The indicators capture different constructs and sources; they are not interchangeable prevalence estimates for all mental-health conditions or explanations of gender differences.",
+      "subgroup": "Adolescent girls, boys, young people exposed to body-image or online pressures, and youth exhibiting internalising or externalising difficulties.",
+      "counterinterpretation": "Gender patterns are not fixed identities or universal experiences; class, disability, culture, family support, sexuality, race, and digital context can alter vulnerability and protection.",
+      "source_url": "https://www.oecd.org/en/publications/enhancing-adolescent-social-and-emotional-well-being_00ebd3dd-en.html",
+      "retrieval_hash": "sha256:bb38aee8dab3a05d7caf1d5c395c943f93cdf229d0d21a54ee79b344deebc857",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social norms, identity, and adolescent behavior",
+      "denominator": {"value": 1, "unit": "adolescent development and socialization framework", "value_type": "norms_identity_frame"},
+      "measures": {
+        "norms": {"value": "norms of femininity and masculinity can shape expectations, help-seeking, academic engagement, risk-taking, and self-image", "unit": "reported social mechanism", "value_type": "reported_framework"},
+        "digital_pressure": {"value": "appearance pressures, social comparison, sexualisation, and online harms can intensify gendered well-being risks", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "help_seeking": {"value": "restrictive masculinity norms can discourage help-seeking and contribute to disengagement or externalising behaviors", "unit": "reported social mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD policy analysis linking adolescent outcomes to gender norms, family and school environments, community settings, and digital spaces.",
+      "uncertainty": "The report identifies plausible social pathways but does not estimate the causal contribution of a specific norm, platform, household, or intervention.",
+      "subgroup": "Adolescents navigating identity formation, parents and caregivers, educators, peers, digital-platform users, and youth-serving institutions.",
+      "counterinterpretation": "Norms can provide structure and belonging as well as constraint; digital spaces can amplify harm but also support peer connection, information, and help-seeking.",
+      "source_url": "https://www.oecd.org/en/publications/enhancing-adolescent-social-and-emotional-well-being_00ebd3dd-en.html",
+      "retrieval_hash": "sha256:bb38aee8dab3a05d7caf1d5c395c943f93cdf229d0d21a54ee79b344deebc857",
+      "status": "reported"
+    },
+    {
+      "period": "2026; support environments and policy response",
+      "denominator": {"value": 1, "unit": "family, school, community, digital, and service environments shaping adolescent well-being", "value_type": "support_ecosystem_frame"},
+      "measures": {
+        "family_communication": {"value": "around one-third of adolescents across the OECD report difficulties communicating with their parents", "unit": "reported share approximate", "value_type": "reported_share_approximate"},
+        "support_ecosystem": {"value": "families, schools, communities, and digital environments all shape adolescent well-being and require coordinated support", "unit": "reported policy framework", "value_type": "reported_framework"},
+        "service_boundary": {"value": "specialist mental-health services are necessary but insufficient without prevention, school, family, community, and digital supports", "unit": "reported policy conclusion", "value_type": "reported_boundary"}
+      },
+      "method": "OECD synthesis of adolescent well-being indicators and policy evidence on prevention, early identification, family support, schools, communities, and online environments.",
+      "uncertainty": "The policy framework does not establish which combination of supports works best in every setting or how access and quality are distributed across groups.",
+      "subgroup": "Adolescents, parents and caregivers, schools, community organizations, mental-health providers, digital platforms, and public agencies.",
+      "counterinterpretation": "Single-sector services can be effective for particular needs; multi-sector coordination may also create referral burdens, privacy concerns, or uneven responsibility unless governance is clear.",
+      "source_url": "https://www.oecd.org/en/publications/enhancing-adolescent-social-and-emotional-well-being_00ebd3dd-en.html",
+      "retrieval_hash": "sha256:bb38aee8dab3a05d7caf1d5c395c943f93cdf229d0d21a54ee79b344deebc857",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/social-connections-and-loneliness-in-oecd-countries_6df2d6a0-en/full-report.html", "claim": "OECD social-connections work provides complementary evidence on relationships, loneliness, and community conditions."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report.html", "claim": "OECD trust-survey results provide complementary institutional and political-agency context."}
+  ],
+  "boundary": "This record adds an adolescent culture and well-being route linking gender norms, identity, family communication, school engagement, community space, digital environments, mental health, and public support systems. It uses publication-level cross-national aggregate and self-report evidence, not clinical records, respondent-level causal histories, platform trace data, or claims that any single environment causes an outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD policy-paper page and full-report summaries were reviewed for gender differences, life satisfaction, mental well-being, norms, online harms, family communication, and multi-sector support claims.",
+    "source_url_sha256": "sha256:bb38aee8dab3a05d7caf1d5c395c943f93cdf229d0d21a54ee79b344deebc857",
+    "checked": "2026-09-26"
+  }
+}

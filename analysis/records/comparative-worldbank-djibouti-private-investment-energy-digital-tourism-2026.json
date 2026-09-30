@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-djibouti-private-investment-energy-digital-tourism-2026",
+  "title": "Strategic location becomes productive capacity only when energy, digital connectivity, skills, competition, and cultural assets can support locally realized opportunity",
+  "theme_ids": ["energy", "work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Group, Country Private Sector Diagnostic for Djibouti, summarized in World Bank Group Report Identifies Significant Private Investment Potential for Djibouti, September 14, 2026",
+  "geography": "Djibouti, a Horn of Africa maritime and digital gateway serving Ethiopia and global shipping routes",
+  "observations": [
+    {
+      "period": "2016–2026; strategic location versus productive capacity",
+      "denominator": {"value": 1, "unit": "Djibouti country private-sector diagnostic context", "value_type": "reported_country_context"},
+      "measures": {
+        "growth": {"value": 5.3, "unit": "percent average annual GDP growth from 2016 to 2024", "value_type": "reported_average"},
+        "investment": {"value": "substantial foreign direct investment has entered port infrastructure", "unit": "reported investment pattern", "value_type": "reported_synthesis"},
+        "constraints": {"value": "high electricity tariffs, limited finance, skills gaps, and restrictions on competition have constrained private-sector expansion despite strategic location", "unit": "reported constraint set", "value_type": "reported_mechanism"},
+        "translation_question": {"value": "the diagnostic asks whether connectivity and geography can be converted into productive capacity and jobs for Djiboutians rather than only transit rents or infrastructure investment", "unit": "analytic development question", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Bank Group Country Private Sector Diagnostic summarized in an official press release.",
+      "uncertainty": "The release does not provide the full diagnostic’s distributional, political-economy, firm-level, or implementation analysis, and investment potential is not realized investment.",
+      "subgroup": "Djiboutian workers, firms, youth, households, foreign investors, port and logistics actors, and communities affected by strategic infrastructure.",
+      "counterinterpretation": "Strategic rents and foreign investment can finance public capacity, but they do not automatically create broad local opportunity or reduce household costs.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/14/world-bank-group-report-identifies-significant-private-investment-potential-for-dj",
+      "retrieval_hash": "sha256:61e77745f3e2e07b41eb91a615b8dc8c8508d63cd13ec307e285c079c8f8dbf0",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2026; energy cost, off-grid solar, and jobs",
+      "denominator": {"value": 25, "unit": "US cents per kilowatt-hour commercial electricity tariff in Djibouti", "value_type": "reported_price"},
+      "measures": {
+        "tariff_gap": {"value": "Djibouti’s commercial electricity tariff is reported at 25 US cents per kilowatt-hour versus a 14-cent Africa regional average", "unit": "reported commercial electricity price comparison", "value_type": "reported_comparison"},
+        "solar_capacity": {"value": 10, "unit": "megawatts of off-grid solar capacity deployed by private investors since 2022", "value_type": "reported_capacity"},
+        "investment_potential": {"value": 390, "unit": "million US dollars potential private investment in solar energy over five years", "value_type": "modeled_or_diagnostic_potential"},
+        "jobs": {"value": 8500, "unit": "potential jobs associated with the solar opportunity over five years", "value_type": "modeled_or_diagnostic_potential"},
+        "reform_route": {"value": "raising self-generation limits, clarifying power-purchase arrangements, stronger regulation, and skills development are proposed to make lower-cost energy and local jobs more achievable", "unit": "reported policy package", "value_type": "reported_policy_set"}
+      },
+      "method": "Country Private Sector Diagnostic sector analysis summarized in the World Bank release.",
+      "uncertainty": "Investment and job figures are potential estimates; the release does not establish tariff relief for households, grid reliability, worker earnings, project finance, or environmental and land impacts.",
+      "subgroup": "Businesses, workers, energy users, households, off-grid communities, regulators, and people seeking jobs in renewable-energy supply chains.",
+      "counterinterpretation": "Private solar can reduce business exposure to expensive electricity, but it may not lower household prices or broaden access without public regulation, financing, and distribution infrastructure.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/14/world-bank-group-report-identifies-significant-private-investment-potential-for-dj",
+      "retrieval_hash": "sha256:61e77745f3e2e07b41eb91a615b8dc8c8508d63cd13ec307e285c079c8f8dbf0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; submarine cables, data centers, and digital capacity",
+      "denominator": {"value": 8, "unit": "operational submarine cables reported to run through Djibouti", "value_type": "reported_infrastructure_count"},
+      "measures": {
+        "cable_connectivity": {"value": 8, "unit": "operational submarine cables connecting Asia, Europe, and Africa", "value_type": "reported_count"},
+        "capacity": {"value": "current data-center capacity is reported to be nearing full utilization", "unit": "reported infrastructure condition", "value_type": "reported_context"},
+        "investment_range": {"value": "data-center reforms could unlock 160–240 million US dollars in private investment and 700–1,300 jobs", "unit": "potential five-year investment and jobs", "value_type": "modeled_or_diagnostic_potential"},
+        "dependency_route": {"value": "energy provisioning, regulation, market access, skills, and data governance determine whether cable connectivity becomes locally captured digital value", "unit": "analytic mechanism chain", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Bank diagnostic sector assessment summarized in the official release.",
+      "uncertainty": "The release does not establish data-center energy reliability, local value capture, data sovereignty, cybersecurity, wages, or whether digital investment displaces other infrastructure priorities.",
+      "subgroup": "Digital firms, data-center workers, entrepreneurs, public agencies, households, and communities affected by energy and land demand.",
+      "counterinterpretation": "Digital infrastructure can diversify an economy, but data centers can also intensify energy demand, concentrate ownership, and create relatively few jobs compared with capital invested.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/14/world-bank-group-report-identifies-significant-private-investment-potential-for-dj",
+      "retrieval_hash": "sha256:61e77745f3e2e07b41eb91a615b8dc8c8508d63cd13ec307e285c079c8f8dbf0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; tourism, cultural assets, and local opportunity",
+      "denominator": {"value": 2600, "unit": "potential tourism jobs identified over five years", "value_type": "modeled_or_diagnostic_potential"},
+      "measures": {
+        "tourism_investment": {"value": "tourism reforms could attract 66–180 million US dollars in private investment", "unit": "potential five-year investment", "value_type": "modeled_or_diagnostic_potential"},
+        "tourism_jobs": {"value": 2600, "unit": "potential jobs identified in tourism", "value_type": "modeled_or_diagnostic_potential"},
+        "cultural_assets": {"value": "the diagnostic identifies Lake Assal, Lake Abbe, marine ecotourism, and Djibouti City’s cultural designation as assets that could support tourism", "unit": "reported cultural and natural asset set", "value_type": "reported_synthesis"},
+        "conversion_conditions": {"value": "licensing, data, and skills reforms are described as conditions for turning investor interest into committed capital", "unit": "reported policy mechanism", "value_type": "reported_policy_set"}
+      },
+      "method": "World Bank diagnostic tourism assessment summarized in the official release.",
+      "uncertainty": "Potential investment and jobs are not realized outcomes; the release does not examine community ownership, environmental carrying capacity, cultural rights, seasonality, wages, or local revenue retention.",
+      "subgroup": "Tourism workers, local communities, cultural organizations, small firms, visitors, and communities near natural and heritage sites.",
+      "counterinterpretation": "Tourism can broaden opportunity and cultural visibility, but external capital can commodify heritage or leave local residents carrying environmental and service costs.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/14/world-bank-group-report-identifies-significant-private-investment-potential-for-dj",
+      "retrieval_hash": "sha256:61e77745f3e2e07b41eb91a615b8dc8c8508d63cd13ec307e285c079c8f8dbf0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/17/seychelles-could-create-thousands-of-new-and-better-paid-jobs-and-increase-gdp", "claim": "Seychelles Growth and Jobs provides a comparative small-economy route from skills, digital access, and productivity to jobs and purchasing power."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/04/zimbabwe-must-leverage-macroeconomic-stability", "claim": "Zimbabwe Growth and Jobs provides a contrasting route where macro stabilization remains disconnected from formal work and household earnings."}
+  ],
+  "boundary": "This record adds a geoeconomic development route from strategic location and connectivity through energy costs, renewable investment, data centers, tourism, skills, regulation, cultural assets, and potential local jobs. It is a Country Private Sector Diagnostic summary with investment and employment potentials, not evidence of realized capital, broad-based gains, affordability, or cultural and environmental sustainability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank September 14, 2026 press release was reviewed for Djibouti’s strategic location, GDP growth, private-sector constraints, electricity tariffs, off-grid solar, submarine cables, data centers, tourism assets, investment and job potentials, and reform conditions.",
+    "source_url_sha256": "sha256:61e77745f3e2e07b41eb91a615b8dc8c8508d63cd13ec307e285c079c8f8dbf0",
+    "checked": "2026-09-28"
+  }
+}

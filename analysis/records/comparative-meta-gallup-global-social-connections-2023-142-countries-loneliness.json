@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-meta-gallup-global-social-connections-2023-142-countries-loneliness",
+  "title": "Most people feel connected, but global loneliness is uneven and cannot be inferred from connection alone",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Meta-Gallup, The Global State of Social Connections",
+  "geography": "142 countries and areas, with national, age and gender comparisons; fieldwork June 2022-February 2023 and report published 2023",
+  "observations": [
+    {
+      "period": "June 2022-February 2023 fieldwork; 142-country global report",
+      "denominator": {"value": null, "unit": "nationally representative respondents aged 15+ in 142 countries and areas; approximately 1000 per country with specified exceptions", "value_type": "not_disclosed"},
+      "measures": {
+        "global_connectedness": {"value": 72, "unit": "per cent feeling very or fairly connected to other people", "value_type": "published_global_estimate"},
+        "global_loneliness": {"value": 24, "unit": "per cent feeling very or fairly lonely", "value_type": "published_global_estimate"},
+        "no_connection": {"value": 6, "unit": "per cent saying they are not connected at all to other people", "value_type": "published_global_estimate"},
+        "no_loneliness": {"value": 49, "unit": "per cent saying they are not lonely at all", "value_type": "published_global_estimate"}
+      },
+      "method": "Meta-Gallup survey administered through Gallup World Poll in 142 countries and areas, using phone or face-to-face interviews and country weighting; global estimates use population projection weights for surveyed countries.",
+      "uncertainty": "The fieldwork predates the current 2026 context, the full global estimate excludes countries not surveyed such as China, and connectedness/loneliness are self-reported emotional perceptions rather than network-size or health-outcome measures.",
+      "subgroup": "People aged 15 and older across 142 countries and areas, with country and population-weighted global estimates.",
+      "counterinterpretation": "A high global connectedness rate does not imply equal access to support, reciprocity or safe relationships; people can feel connected and still lonely, and low loneliness does not prove social wellbeing.",
+      "source_url": "https://www.gallup.com/file/analytics/513347/Gallup-Meta-Global%20State%20of%20Social%20Connections%20Report-2023.pdf",
+      "retrieval_hash": "sha256:34284d8ddee236f6e786f9c636cd7566bd1e7da178b9bc4f718b405599e9dc4d",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2023 fieldwork; age and gender differences in connection and loneliness",
+      "denominator": {"value": null, "unit": "respondents aged 15+ in 142 countries and areas", "value_type": "not_disclosed"},
+      "measures": {
+        "gender_connectedness": {"value": "73% of men and 72% of women report feeling very or fairly connected globally.", "unit": "population-weighted global percentages", "value_type": "published_subgroup_estimate"},
+        "gender_loneliness": {"value": "24% of men and 24% of women report feeling very or fairly lonely globally, although sizable country-level gender differences exist.", "unit": "population-weighted global percentages", "value_type": "published_subgroup_estimate"},
+        "age_connectedness": {"value": "Rates of social connectedness are relatively consistent across age groups.", "unit": "reported age comparison", "value_type": "published_subgroup_comparison"},
+        "young_loneliness": {"value": "Adults ages 19-29 report higher loneliness than adults ages 65 and older.", "unit": "reported age comparison", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Cross-national weighted survey comparisons by age and gender, with country-level variation preserved in the report tables.",
+      "uncertainty": "Age and gender patterns are descriptive and may reflect country composition, life stage, reporting norms, household structure and social expectations; the report does not identify causal drivers of young-adult loneliness.",
+      "subgroup": "Young adults ages 19-29, older adults ages 65+, men and women, with national differences in subgroup patterns.",
+      "counterinterpretation": "Young adults may report loneliness alongside high social contact because transition, mobility and social comparison affect the quality or security of ties rather than their sheer frequency.",
+      "source_url": "https://www.gallup.com/file/analytics/513347/Gallup-Meta-Global%20State%20of%20Social%20Connections%20Report-2023.pdf",
+      "retrieval_hash": "sha256:34284d8ddee236f6e786f9c636cd7566bd1e7da178b9bc4f718b405599e9dc4d",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2023 fieldwork; national variation and everyday interaction patterns",
+      "denominator": {"value": null, "unit": "respondents aged 15+ in 142 countries and areas", "value_type": "not_disclosed"},
+      "measures": {
+        "country_connectedness_range": {"value": "Reported connectedness varies substantially across countries, from under half in some settings to above 90% in others; the public table includes Mongolia at 95%, Kosovo at 93%, Taiwan at 92% and Dominican Republic at 47%.", "unit": "country percentage comparison", "value_type": "published_country_comparison"},
+        "country_loneliness_range": {"value": "Reported very/fairly lonely responses range from single digits in some European and Asian settings to roughly half or more in several countries, including Lesotho and Afghanistan.", "unit": "country percentage comparison", "value_type": "published_country_comparison"},
+        "frequent_interaction": {"value": "Friends or family who live with respondents or nearby are the most frequently reported social interaction globally and in most countries.", "unit": "reported daily-or-more interaction pattern", "value_type": "published_global_pattern"},
+        "connection_loneliness_distinction": {"value": "Connectedness and loneliness are related but distinct: some respondents report social connections while still feeling lonely.", "unit": "reported analytical distinction", "value_type": "reported_interpretation"}
+      },
+      "method": "Country tables and questions on emotional connectedness, loneliness and frequency of interaction with different social groups.",
+      "uncertainty": "Country comparisons may reflect translation, response styles, sampling coverage, local norms and different meanings of closeness; interaction frequency does not measure support quality, conflict or reciprocity.",
+      "subgroup": "Countries and areas across global regions, with interactions involving co-resident or nearby family and friends and other social groups.",
+      "counterinterpretation": "High reported connection in a country may coexist with exclusion of minorities or people outside family networks; frequent family contact may not substitute for broader civic or institutional support.",
+      "source_url": "https://www.gallup.com/file/analytics/513347/Gallup-Meta-Global%20State%20of%20Social%20Connections%20Report-2023.pdf",
+      "retrieval_hash": "sha256:34284d8ddee236f6e786f9c636cd7566bd1e7da178b9bc4f718b405599e9dc4d",
+      "status": "reported"
+    },
+    {
+      "period": "2023 report; social connection as health, resilience and public-system infrastructure",
+      "denominator": {"value": 1, "unit": "Meta-Gallup analytical framework based on 142-country survey evidence", "value_type": "published_framework"},
+      "measures": {
+        "social_health_frame": {"value": "The report treats social connection and loneliness as core indicators of health, wellbeing and resilience rather than merely private feelings.", "unit": "reported public-health frame", "value_type": "reported_interpretation"},
+        "social_capital_pathway": {"value": "It connects strong social networks to resources such as education, healthcare, economic opportunity, advice and social support.", "unit": "reported systems pathway", "value_type": "reported_interpretation"},
+        "policy_visibility": {"value": "The global data is presented as an infrastructure for governments, researchers and organizations seeking to promote social connection worldwide.", "unit": "reported policy implication", "value_type": "reported_interpretation"},
+        "outcome_boundary": {"value": "The survey describes association and distribution of connection and loneliness; it does not estimate the causal effect of social ties on health, resilience or economic outcomes.", "unit": "explicit evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Report synthesis combining survey distributions, social-connection definitions, country comparisons and cited public-health literature.",
+      "uncertainty": "The report's broader health and resilience claims draw on cited literature rather than a causal analysis of the Meta-Gallup survey; social connection is multidimensional and cannot be reduced to one percentage.",
+      "subgroup": "Individuals, families, communities, governments, NGOs and service systems whose capacity may be affected by social connection and isolation.",
+      "counterinterpretation": "Treating connection as infrastructure can support useful policy, but institutionalizing it may medicalize ordinary solitude or shift responsibility from public systems onto families and communities.",
+      "source_url": "https://www.gallup.com/file/analytics/513347/Gallup-Meta-Global%20State%20of%20Social%20Connections%20Report-2023.pdf",
+      "retrieval_hash": "sha256:34284d8ddee236f6e786f9c636cd7566bd1e7da178b9bc4f718b405599e9dc4d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/509675/state-of-social-connections.aspx", "claim": "Official Meta-Gallup research hub with global data tables, methodology and current report access."},
+    {"source_url": "https://www.gallup.com/file/analytics/513347/Gallup-Meta-Global%20State%20of%20Social%20Connections%20Report-2023.pdf", "claim": "Official 142-country report PDF with global, country, age, gender and interaction findings."}
+  ],
+  "boundary": "This record adds a social-connection and public-health infrastructure layer: most people report feeling connected, but loneliness is substantial, uneven and partly distinct from social contact, with young adults reporting more loneliness than older adults. The evidence is representative survey data collected in 2022-2023 and published in 2023, not current 2026 monitoring, a social-network trace, longitudinal causal analysis or proof of health or resilience effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Meta-Gallup Global State of Social Connections PDF and Gallup research hub were reviewed for 142-country coverage, global connectedness and loneliness, age and gender differences, country variation, interaction frequency, definitions, weighting, fieldwork dates and methodological limits.",
+    "source_url_sha256": "sha256:34284d8ddee236f6e786f9c636cd7566bd1e7da178b9bc4f718b405599e9dc4d",
+    "checked": "2026-09-27"
+  }
+}

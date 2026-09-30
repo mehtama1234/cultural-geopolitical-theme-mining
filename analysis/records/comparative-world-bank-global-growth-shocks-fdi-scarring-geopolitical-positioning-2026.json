@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-global-growth-shocks-fdi-scarring-geopolitical-positioning-2026",
+  "title": "Global growth shocks scar investment announcements unevenly, making geopolitical position part of economic recovery",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11452, The Scars of Global Growth Shocks: Evidence of Uneven Recovery in FDI Announcements",
+  "geography": "Global cross-country and cross-sector foreign-direct-investment project-announcement data, with heterogeneity by country safety, strategic sector, institutions, and geopolitical alignment",
+  "observations": [
+    {
+      "period": "Global growth shocks; dynamic response of FDI project announcements",
+      "denominator": {"value": 1, "unit": "global FDI project-announcement response estimated with local projections", "value_type": "reported_empirical_frame"},
+      "measures": {
+        "scarring_duration": {"value": "adverse global growth shocks have scarring effects on FDI project announcements for about three years", "unit": "reported dynamic effect horizon", "value_type": "reported_effect"},
+        "decision_timing": {"value": "the analysis accounts for the real-time nature of investor decisions", "unit": "reported empirical design feature", "value_type": "reported_method"},
+        "mechanism": {"value": "a temporary global downturn can become a persistent investment pipeline deficit rather than only a contemporaneous output movement", "unit": "bounded macro-firm mechanism", "value_type": "bounded_mechanism"},
+        "boundary": {"value": "an announcement is an investment-intention measure and does not by itself establish project completion, capital expenditure, jobs, or household benefit", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Local-projection estimates using global growth shocks and FDI project-announcement outcomes, with dynamic horizons and robustness exercises.",
+      "uncertainty": "The estimated horizon and magnitude depend on shock definitions, announcement data, model specification, exposure, and the distinction between announced and realized projects; the paper does not establish a universal three-year effect for every shock.",
+      "subgroup": "Countries and sectors with different institutional conditions, geopolitical alignment, perceived safety, global exposure, and strategic importance.",
+      "counterinterpretation": "Lower announcements may reflect firms postponing or rerouting projects rather than permanently losing investment; announcements can also contain strategic signaling and may not map cleanly to realized activity.",
+      "source_url": "https://documents.worldbank.org/curated/en/099224209162626416/pdf/IDU-b7d2d691-2541-4e7f-b896-bb6b3ff4da76.pdf",
+      "retrieval_hash": "sha256:9e09618087ef837ec8280276107750f7ffe345fd28fbc31c23773671ff24d4ac",
+      "status": "reported"
+    },
+    {
+      "period": "Global growth shocks; country safety and sectoral strategicness",
+      "denominator": {"value": 1, "unit": "cross-country and cross-sector heterogeneity analysis", "value_type": "reported_heterogeneity_frame"},
+      "measures": {
+        "safe_countries": {"value": "scarring effects are more subdued in countries perceived as safer", "unit": "reported heterogeneous response", "value_type": "reported_heterogeneity"},
+        "strategic_sectors": {"value": "projects in strategic sectors smooth headline announcement fluctuations because they are less sensitive to adverse global growth shocks", "unit": "reported heterogeneous response", "value_type": "reported_heterogeneity"},
+        "interpretation": {"value": "security, strategic demand, and institutional credibility can buffer the investment pipeline when aggregate growth conditions deteriorate", "unit": "bounded geopolitical-firm mechanism", "value_type": "bounded_mechanism"},
+        "distributional_route": {"value": "investment buffering may protect some places and sectors while concentrating opportunity and bargaining power in already strategic or safer locations", "unit": "bounded development mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "State-dependent and sectoral heterogeneity estimates using alternative definitions of safety, strategic sectors, and institutional conditions.",
+      "uncertainty": "Safety and strategicness are analytical classifications rather than direct measures of every investor's risk judgment, and buffered announcements do not prove equal local employment, supplier participation, or public benefit.",
+      "subgroup": "Advanced economies, emerging and developing economies, strategic and non-strategic sectors, firms with different cross-border exposure, and local labor markets.",
+      "counterinterpretation": "Strategic projects may be supported by state policy or geopolitical priorities and could generate weaker spillovers than ordinary private investment; safer-country effects may partly reflect stronger institutions or data coverage.",
+      "source_url": "https://documents.worldbank.org/curated/en/099224209162626416/pdf/IDU-b7d2d691-2541-4e7f-b896-bb6b3ff4da76.pdf",
+      "retrieval_hash": "sha256:9e09618087ef837ec8280276107750f7ffe345fd28fbc31c23773671ff24d4ac",
+      "status": "reported"
+    },
+    {
+      "period": "Global growth shocks; geopolitical positioning and uneven recovery",
+      "denominator": {"value": 1, "unit": "geopolitical-alignment heterogeneity analysis", "value_type": "reported_heterogeneity_frame"},
+      "measures": {
+        "geopolitical_position": {"value": "geopolitical positioning plays an important role in the uneven recovery of FDI announcements", "unit": "reported heterogeneous response", "value_type": "reported_geopolitical_result"},
+        "robustness": {"value": "the result is robust across alternative shock measures, specifications, institutional definitions, sector definitions, and geopolitical-alignment measures", "unit": "reported robustness set", "value_type": "reported_robustness"},
+        "political_economy": {"value": "economic recovery is partly conditioned by how a country is situated in a fragmented investment and security order, not only by domestic growth prospects", "unit": "bounded geopolitical mechanism", "value_type": "bounded_mechanism"},
+        "open_consequence": {"value": "the allocation of future investment can reshape infrastructure dependence, employment options, local bargaining power, and public attribution of geopolitical alignment", "unit": "bounded downstream mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Robustness and heterogeneity exercises varying geopolitical-alignment definitions and institutional, sectoral, and shock measures.",
+      "uncertainty": "The paper identifies uneven announcement responses, not a complete causal account of alliance choice, investment completion, technology transfer, local political reaction, or household welfare.",
+      "subgroup": "Countries positioned differently in global political and economic networks, strategic industries, local workers, firms, governments, and communities receiving or losing investment prospects.",
+      "counterinterpretation": "Geopolitical alignment may proxy for security, market access, institutions, sanctions exposure, or expected policy stability; the observed relationship should not be read as a single alignment mechanism.",
+      "source_url": "https://documents.worldbank.org/curated/en/099224209162626416/pdf/IDU-b7d2d691-2541-4e7f-b896-bb6b3ff4da76.pdf",
+      "retrieval_hash": "sha256:9e09618087ef837ec8280276107750f7ffe345fd28fbc31c23773671ff24d4ac",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099224209162626416", "claim": "Official World Bank record for WPS11452, authors, metadata, topics, and reproducibility-package link."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11452.html", "claim": "Bibliographic record and abstract summarizing the three-year scarring horizon, safe-country, strategic-sector, geopolitical-positioning, and robustness results."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/619", "claim": "World Bank reproducibility package for the FDI-announcement scarring study."}
+  ],
+  "boundary": "This record adds geopolitical positioning and investment-pipeline scarring as a firm, state-power, and household-opportunity mechanism. It is not evidence that announced projects are completed, that FDI creates local jobs or welfare, or that geopolitical alignment alone causes the observed uneven recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document page, abstract record, and reproducibility metadata were reviewed for the dynamic FDI-announcement result, three-year scarring horizon, safe-country and strategic-sector heterogeneity, geopolitical-positioning result, robustness claims, and announcement-versus-realization boundary.",
+    "source_url_sha256": "sha256:9e09618087ef837ec8280276107750f7ffe345fd28fbc31c23773671ff24d4ac",
+    "checked": "2026-09-29"
+  }
+}

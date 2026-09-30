@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-trustage-what-matters-now-2026-financial-reality-consumer-inclusion",
+  "title": "The American Dream is being renegotiated through financial strain, family dependence, digital finance, and community relevance",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "TruStage What Matters Now Consumer Research 2026, quantitative research conducted with Ipsos and qualitative research by TruStage; 8,813 U.S. consumers in English and Spanish",
+  "geography": "United States; national consumer study with race/ethnicity, generation, income, gender identity, and neurodivergence perspectives",
+  "observations": [
+    {
+      "period": "2026; U.S. consumers",
+      "denominator": {"value": 8813, "unit": "U.S. consumers in the What Matters Now 2026 study", "value_type": "reported_sample_size"},
+      "measures": {
+        "salary_not_enough_need_hustle": {"value": 46, "unit": "percent saying salary is not enough and a hustle is needed to get by", "value_type": "reported_share"},
+        "financial_worry": {"value": "widespread but uneven", "unit": "reported pattern across race/ethnicity, generation, and neurodivergence", "value_type": "reported_assessment"},
+        "neurodivergent_financial_worry": {"value": "higher despite similar earnings and higher employment", "unit": "reported group comparison", "value_type": "reported_comparison"}
+      },
+      "method": "TruStage quantitative research conducted with Ipsos, supplemented by TruStage qualitative research; the study is designed for trend comparison from 2022 to 2026.",
+      "uncertainty": "The study is a commissioned consumer-research program and its public summary does not establish causal mechanisms, objective financial outcomes, or whether the same people changed across every wave.",
+      "subgroup": "U.S. consumers by race/ethnicity, generation, income, gender identity, and neurodivergence.",
+      "counterinterpretation": "Saying a hustle is needed may express cultural expectations or aspiration as well as material insufficiency; higher worry among neurodivergent consumers does not by itself identify discrimination, costs, support gaps, or financial behavior.",
+      "source_url": "https://www.trustage.com/business/insights/understanding-customers/what-matters-now-consumer-research-2026",
+      "retrieval_hash": "sha256:33e235a31e08e5e900bc502f68b93d88a855bfd22bcd202fe4175b3dbb52b4bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. consumers by generation, race/ethnicity, and financial product interest",
+      "denominator": {"value": 8813, "unit": "U.S. consumers in the What Matters Now 2026 study", "value_type": "reported_sample_size"},
+      "measures": {
+        "gen_z_financial_position": {"value": "diverse and financially family-dependent", "unit": "reported consumer segment description", "value_type": "reported_assessment"},
+        "loan_and_insurance_interest": {"value": "strongest among BIPOC and younger consumers", "unit": "reported segment comparison", "value_type": "reported_comparison"},
+        "financial_security_goal": {"value": "widely desired but pathways differ", "unit": "reported consumer pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Ipsos quantitative consumer research and TruStage qualitative analysis across demographic and generational segments.",
+      "uncertainty": "Interest in a product is not product ownership, approval, affordability, debt burden, insurance coverage, or realized financial security; the segment descriptions do not establish causal differences.",
+      "subgroup": "Gen Z, younger consumers, BIPOC consumers, and consumers seeking financial security.",
+      "counterinterpretation": "Higher product interest can reflect aspiration, exposure to risk, marketing reach, or unmet need rather than greater ability to purchase or borrow.",
+      "source_url": "https://www.trustage.com/business/insights/understanding-customers/what-matters-now-consumer-research-2026",
+      "retrieval_hash": "sha256:33e235a31e08e5e900bc502f68b93d88a855bfd22bcd202fe4175b3dbb52b4bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. consumers and financial-service discovery",
+      "denominator": {"value": 8813, "unit": "U.S. consumers in the What Matters Now 2026 study", "value_type": "reported_sample_size"},
+      "measures": {
+        "family_and_friends_influence": {"value": "dominant across segments, especially Hispanic, Asian, and Gen Z consumers", "unit": "reported influence pattern", "value_type": "reported_assessment"},
+        "mobile_social_digital_discovery": {"value": "increasingly guides discovery", "unit": "reported consumer-channel pattern", "value_type": "reported_assessment"},
+        "mobile_app_preference": {"value": "preferred across nearly all segments", "unit": "reported channel preference", "value_type": "reported_assessment"},
+        "digital_app_satisfaction_gap": {"value": "persists for BIPOC and Gen Z consumers", "unit": "reported segment comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Ipsos quantitative research with qualitative interpretation by TruStage across consumer segments and channels.",
+      "uncertainty": "The public summary does not provide all segment denominators or effect sizes; channel preference and satisfaction do not establish account switching, retention, financial outcomes, or platform causality.",
+      "subgroup": "Hispanic, Asian, BIPOC, Gen Z, and other U.S. consumer segments.",
+      "counterinterpretation": "Family influence and digital discovery can coexist with institutional trust, local relationships, advertising, or practical access constraints; a satisfaction gap is not necessarily exclusion or discrimination.",
+      "source_url": "https://www.trustage.com/business/insights/understanding-customers/what-matters-now-consumer-research-2026",
+      "retrieval_hash": "sha256:33e235a31e08e5e900bc502f68b93d88a855bfd22bcd202fe4175b3dbb52b4bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. consumers and social relevance",
+      "denominator": {"value": 8813, "unit": "U.S. consumers in the What Matters Now 2026 study", "value_type": "reported_sample_size"},
+      "measures": {
+        "top_social_issues": {"value": "food insecurity and housing affordability", "unit": "issues consumers care about; reported as up significantly since 2022", "value_type": "reported_priority"},
+        "institution_choice": {"value": "increasingly influenced by social relevance and community presence, not only financial value", "unit": "reported consumer decision pattern", "value_type": "reported_assessment"},
+        "cultural_relevance": {"value": "part of how consumers evaluate representation and discovery", "unit": "reported consumer pattern", "value_type": "reported_assessment"}
+      },
+      "method": "TruStage/Ipsos 2022–2026 trend-comparison study with qualitative interpretation of consumer priorities and institutional choice.",
+      "uncertainty": "The findings capture stated priorities and perceptions rather than verified community investment, institutional behavior, food insecurity, housing affordability, or subsequent account choice.",
+      "subgroup": "U.S. consumers across race/ethnicity, generation, income, gender identity, and neurodivergence.",
+      "counterinterpretation": "Consumers may value community presence symbolically without changing providers; issue salience can rise because of media attention, local events, prices, or personal exposure rather than a common national mechanism.",
+      "source_url": "https://www.trustage.com/business/insights/understanding-customers/what-matters-now-consumer-research-2026",
+      "retrieval_hash": "sha256:33e235a31e08e5e900bc502f68b93d88a855bfd22bcd202fe4175b3dbb52b4bd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.trustage.com/business/insights/understanding-customers/-/media/cunamutual/trustage/program/public/WhatMattersNow2026Report_HR.pdf", "claim": "Full What Matters Now 2026 report used for the study hash and detailed context.", "status": "primary-report"}
+  ],
+  "boundary": "This record captures a commissioned U.S. consumer-research study linking financial strain, identity, generation, neurodivergence, family influence, digital finance, and community relevance. It does not establish objective household finances, causal mechanisms, representative subgroup effects beyond the study design, product outcomes, institutional behavior, or durable change.",
+  "retrieval_hash": "sha256:33e235a31e08e5e900bc502f68b93d88a855bfd22bcd202fe4175b3dbb52b4bd"
+}

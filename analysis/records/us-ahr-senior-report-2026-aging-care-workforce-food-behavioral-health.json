@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ahr-senior-report-2026-aging-care-workforce-food-behavioral-health",
+  "title": "An older America is improving some prevention measures while care capacity and behavioral-health pressures diverge",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "America's Health Rankings 2026 Senior Report executive brief, synthesizing 56 measures from 25 data sources",
+  "geography": "United States; adults age 65 and older, state comparisons, and selected demographic groups",
+  "observations": [
+    {
+      "period": "2024-2040; population and care-capacity context",
+      "denominator": {"value": 1, "unit": "United States older-adult population frame", "value_type": "named_population_frame"},
+      "measures": {
+        "older_adult_population": {"value": "more than 61 million people age 65 and older", "unit": "people", "value_type": "reported_population_estimate"},
+        "projected_2040_population": {"value": "more than 78 million people age 65 and older projected by 2040", "unit": "people", "value_type": "reported_projection"},
+        "home_health_workers": {"value": "increased from 62 to 65 per 1,000 adults age 65 and older between 2023 and 2024; 38% above 2016", "unit": "workers per 1,000 older adults", "value_type": "reported_rate"},
+        "state_gap": {"value": "166 per 1,000 in New York versus 17 per 1,000 in Florida in 2024", "unit": "home-health workers per 1,000 older adults", "value_type": "reported_state_comparison"}
+      },
+      "method": "America's Health Rankings synthesis of demographic estimates and workforce measures from 25 data sources.",
+      "uncertainty": "The population projection and workforce rate do not establish future service adequacy, worker retention, care quality, geographic accessibility, or whether workforce growth matches need.",
+      "subgroup": "Adults age 65 and older, home-health workers, and states with high or low home-health-worker rates.",
+      "counterinterpretation": "Workforce growth is meaningful capacity progress even when uneven; state differences may reflect labor markets, service models, reporting, population needs, and rurality rather than simple shortage alone.",
+      "source_url": "https://www.americashealthrankings.org/publications/reports/2026-senior-report/executive-brief",
+      "retrieval_hash": "sha256:8fbcaf77f9131a83c029d7d61468b0502df66127e82dccc07aa589c1ed5d29b2",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; geriatric clinical capacity",
+      "denominator": {"value": 100000, "unit": "adults age 65 and older", "value_type": "rate_denominator"},
+      "measures": {
+        "geriatric_clinicians": {"value": "increased from 39.9 to 41.5 per 100,000 older adults between September 2024 and September 2025", "unit": "geriatric clinicians per 100,000 older adults", "value_type": "reported_rate"},
+        "clinical_state_gap": {"value": "94.5 per 100,000 in the District of Columbia versus 17.3 per 100,000 in South Dakota", "unit": "geriatric clinicians per 100,000 older adults", "value_type": "reported_state_comparison"},
+        "unpaid_support": {"value": "14.4% of people age 15 and older provided unpaid support or assistance to someone age 65 or older in 2023-2024, statistically unchanged from 14.3% in 2021-2022", "unit": "population share", "value_type": "reported_share"}
+      },
+      "method": "Report synthesis of clinician workforce and American Time Use Survey-related unpaid-support measures.",
+      "uncertainty": "Clinician counts do not measure appointment availability, quality, specialty mix, or geographic travel burden; unpaid-support prevalence does not measure intensity, adequacy, or caregiver strain.",
+      "subgroup": "Older adults, geriatric clinicians, and people providing unpaid support to adults age 65 and older.",
+      "counterinterpretation": "Stable unpaid-support prevalence can coexist with rising total care demand if the older population grows; it does not by itself show a care gap.",
+      "source_url": "https://www.americashealthrankings.org/publications/reports/2026-senior-report/executive-brief",
+      "retrieval_hash": "sha256:8fbcaf77f9131a83c029d7d61468b0502df66127e82dccc07aa589c1ed5d29b2",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024; behavioral-health outcomes among older adults",
+      "denominator": {"value": 100000, "unit": "adults age 65 and older where rate measures apply", "value_type": "rate_denominator"},
+      "measures": {
+        "drug_deaths": {"value": "increased 38% from 9.9 to 13.7 deaths per 100,000 older adults between 2019-2021 and 2022-2024", "unit": "deaths per 100,000 adults age 65 and older", "value_type": "reported_rate"},
+        "suicide_rate": {"value": "increased 4% from 16.9 to 17.6 deaths per 100,000 older adults between 2019-2021 and 2022-2024", "unit": "deaths per 100,000 adults age 65 and older", "value_type": "reported_rate"},
+        "excessive_drinking": {"value": "increased 10% from 6.9% to 7.6% between 2023 and 2024", "unit": "share of adults age 65 and older", "value_type": "reported_share"},
+        "age_85_suicide": {"value": "22.7 deaths per 100,000 among adults age 85 and older in 2023", "unit": "deaths per 100,000 adults", "value_type": "reported_rate"}
+      },
+      "method": "Report synthesis of mortality and behavioral-health indicators from public health data sources.",
+      "uncertainty": "These are population rates and associations; they do not identify causes, individual trajectories, service access, or the role of isolation, pain, substance availability, income, or care quality.",
+      "subgroup": "Adults age 65 and older, adults age 85 and older, and older men and women where the report provides comparisons.",
+      "counterinterpretation": "The divergence from some younger-age trends may reflect age-specific measurement, cohort composition, reporting, survival, or changing diagnosis and treatment patterns rather than a single aging-related mechanism.",
+      "source_url": "https://www.americashealthrankings.org/publications/reports/2026-senior-report/executive-brief",
+      "retrieval_hash": "sha256:8fbcaf77f9131a83c029d7d61468b0502df66127e82dccc07aa589c1ed5d29b2",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; food access and nutrition-support capacity",
+      "denominator": {"value": 100, "unit": "adults age 60 and older for food-insecurity measures", "value_type": "percentage_denominator"},
+      "measures": {
+        "food_insecurity": {"value": "increased 6% from 8.7% to 9.2% between 2022 and 2023", "unit": "share of adults age 60 and older", "value_type": "reported_share"},
+        "older_adults_food_insecure": {"value": "approximately 6.9 million to 7.4 million adults age 60 and older", "unit": "people", "value_type": "reported_population_estimate"},
+        "snap_reach": {"value": "increased from 82.8 to 86.8 participants per 100 adults age 60 and older living in poverty between 2022 and 2023", "unit": "participants per 100 older adults in poverty", "value_type": "reported_rate"},
+        "home_delivered_meals": {"value": "11.3 recipients per 100 adults age 65 and older with independent-living difficulty in 2024, 27% above 2019", "unit": "recipients per 100 older adults with independent-living difficulty", "value_type": "reported_rate"}
+      },
+      "method": "Report synthesis of food-insecurity, SNAP, and home-delivered-meal measures across different age and eligibility universes.",
+      "uncertainty": "The measures use different denominators and years; increased program reach does not establish adequate benefit levels, enrollment access, nutritional quality, or resolution of food insecurity.",
+      "subgroup": "Older adults age 60 and older, older adults in poverty, and adults age 65 and older with independent-living difficulty.",
+      "counterinterpretation": "Support-program expansion and worsening food insecurity can occur simultaneously if need, prices, housing costs, or benefit adequacy rise faster than reach.",
+      "source_url": "https://www.americashealthrankings.org/publications/reports/2026-senior-report/executive-brief",
+      "retrieval_hash": "sha256:8fbcaf77f9131a83c029d7d61468b0502df66127e82dccc07aa589c1ed5d29b2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an aging-and-capacity trend: the older US population is expanding, care workforces are growing but unevenly, behavioral-health risks are worsening in several measures, and food insecurity persists despite greater program reach. It does not establish causal mechanisms, future care adequacy, individual health trajectories, or program effectiveness.",
+  "retrieval_hash": "sha256:8fbcaf77f9131a83c029d7d61468b0502df66127e82dccc07aa589c1ed5d29b2"
+}

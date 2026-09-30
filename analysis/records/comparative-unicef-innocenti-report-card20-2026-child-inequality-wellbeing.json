@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-innocenti-report-card20-2026-child-inequality-wellbeing",
+  "title": "Economic inequality in wealthy countries continues to stratify children’s health, well-being, skills, and perceived opportunity",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNICEF Innocenti, Innocenti Report Card 20: Unequal Chances: Children and Economic Inequality",
+  "geography": "Comparative child well-being and income-inequality analysis across 44 high-income and/or OECD countries, with a 37-country well-being league table",
+  "observations": [
+    {
+      "period": "2026; income inequality and child well-being across wealthy countries",
+      "denominator": {"value": 44, "unit": "high-income and/or OECD countries considered in the report", "value_type": "wealthy_country_child_wellbeing_frame"},
+      "measures": {
+        "league_table": {"value": 37, "unit": "countries ranked where data were available across mental health, physical health, and academic/social skills", "value_type": "reported_count"},
+        "inequality_relationship": {"value": "wider income gaps are linked on average to poorer physical health, mental well-being, and skills for children", "unit": "reported cross-country relationship", "value_type": "reported_pattern"},
+        "wealth_boundary": {"value": "high national income does not guarantee equal child well-being or opportunity", "unit": "reported analytical conclusion", "value_type": "reported_boundary"}
+      },
+      "method": "UNICEF Innocenti comparative analysis of income inequality, child poverty, and child well-being indicators across wealthy countries.",
+      "uncertainty": "Cross-country relationships do not establish that inequality alone causes an outcome; indicators, timing, welfare institutions, housing, health systems, and social norms differ across countries.",
+      "subgroup": "Children in low- and high-income households within wealthy countries, children facing health or education disadvantage, and families with different access to services and social resources.",
+      "counterinterpretation": "Countries with similar income inequality can show different child outcomes when public services, redistribution, family supports, and institutions differ.",
+      "source_url": "https://www.unicef.org/innocenti/reports/report-card-20",
+      "retrieval_hash": "sha256:59d4c5ca907d403bbe9a72c80d59a9dbfaee2c89a71cf20a12764a7c758dc89c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; income distribution and persistent child poverty",
+      "denominator": {"value": 1, "unit": "children in the 44-country high-income/OECD comparison", "value_type": "child_income_distribution_frame"},
+      "measures": {
+        "top_bottom_ratio_more_equal": {"value": 3.5, "unit": "times as much income held by the top fifth as the bottom fifth in the most equal countries", "value_type": "reported_ratio"},
+        "top_bottom_ratio_more_unequal": {"value": 7, "unit": "times or more income held by the top fifth as the bottom fifth in the most unequal countries", "value_type": "reported_ratio_lower_bound"},
+        "child_poverty_floor": {"value": 10, "unit": "percent or more of children living in poverty in every country studied", "value_type": "reported_share_lower_bound"},
+        "child_poverty_range": {"value": "around 10 percent in Denmark to around 37 percent in Colombia and Costa Rica", "unit": "reported country range", "value_type": "reported_range"}
+      },
+      "method": "UNICEF Innocenti distributional comparison of household income and child-poverty rates across high-income and OECD countries.",
+      "uncertainty": "Relative child-poverty thresholds, survey years, household definitions, and tax-benefit systems vary; the range is not a complete measure of material hardship or service access.",
+      "subgroup": "Children in the bottom income quintile, children in single-parent or low-work households, and families facing housing, food, care, or health costs.",
+      "counterinterpretation": "Relative poverty can coexist with high absolute living standards, while strong public services and transfers can reduce harm even when income ratios remain unequal.",
+      "source_url": "https://www.unicef.org/innocenti/reports/report-card-20",
+      "retrieval_hash": "sha256:59d4c5ca907d403bbe9a72c80d59a9dbfaee2c89a71cf20a12764a7c758dc89c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; inequality, child health, and skills",
+      "denominator": {"value": 1, "unit": "children aged 5-14 and child well-being indicators in the cross-country comparison", "value_type": "child_outcomes_frame"},
+      "measures": {
+        "mortality_gradient": {"value": 2.4, "unit": "average ratio of child mortality rates in the five most unequal countries to the five most equal countries", "value_type": "reported_ratio"},
+        "outcome_set": {"value": "children in poorer families face higher risks of ill health, lower life satisfaction, and weaker educational outcomes", "unit": "reported outcome pattern", "value_type": "reported_pattern"},
+        "intergenerational_pathway": {"value": "inequality in childhood can shape health, skills, opportunity, and later-life outcomes", "unit": "reported life-course mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNICEF Innocenti comparison of income inequality with child physical health, mental well-being, and academic/social-skill indicators.",
+      "uncertainty": "The mortality ratio is a grouped comparison, not an individual causal estimate; health and skill outcomes reflect multiple determinants and country-specific measurement systems.",
+      "subgroup": "Children in economically disadvantaged families, children with disabilities, adolescents, and communities with unequal access to health, education, and social supports.",
+      "counterinterpretation": "Reducing inequality is one route to improving outcomes, but targeted health, education, housing, and care interventions can improve children’s lives without immediately changing national income dispersion.",
+      "source_url": "https://www.unicef.org/innocenti/reports/report-card-20",
+      "retrieval_hash": "sha256:59d4c5ca907d403bbe9a72c80d59a9dbfaee2c89a71cf20a12764a7c758dc89c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; child perceptions, fair opportunity, and policy response",
+      "denominator": {"value": 1, "unit": "child well-being and inequality policy frame across wealthy countries", "value_type": "child_opportunity_frame"},
+      "measures": {
+        "perception": {"value": "the report examines how children perceive economic inequality and whether unequal resources shape their sense of opportunity", "unit": "reported analytical scope", "value_type": "reported_framework"},
+        "policy_set": {"value": "recommended responses include reducing child poverty, improving fair access to resources and services, and involving children in creating more equitable societies", "unit": "reported policy direction", "value_type": "reported_recommendation"},
+        "accountability": {"value": "child participation and distributional measurement are treated as part of an equitable policy response", "unit": "reported governance direction", "value_type": "reported_framework"}
+      },
+      "method": "UNICEF Innocenti synthesis of child outcome rankings, income distribution, child poverty, perceptions, and policy implications.",
+      "uncertainty": "The report’s policy conclusions do not establish which intervention mix changes perceived fairness or outcomes in each country; child participation evidence and statistical analyses remain bounded by available data.",
+      "subgroup": "Children and adolescents, families with fewer resources, policymakers, schools, service providers, and children participating in decisions that affect them.",
+      "counterinterpretation": "Participation can improve legitimacy and policy fit but does not replace redistribution, service delivery, or material investment; perceived fairness can also vary across groups.",
+      "source_url": "https://www.unicef.org/innocenti/reports/report-card-20",
+      "retrieval_hash": "sha256:59d4c5ca907d403bbe9a72c80d59a9dbfaee2c89a71cf20a12764a7c758dc89c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025", "claim": "UNICEF State of the World's Children 2025 provides complementary global child-poverty and deprivation evidence."},
+    {"source_url": "https://www.oecd.org/en/publications/enhancing-adolescent-social-and-emotional-well-being_00ebd3dd-en.html", "claim": "OECD adolescent well-being evidence provides complementary social and emotional outcomes by gender and environment."}
+  ],
+  "boundary": "This record adds a wealthy-country child-inequality route linking income distribution to poverty, health, mental well-being, skills, perceived opportunity, and child participation. It uses comparative publication-level aggregate evidence and bounded child well-being measures, not household panel histories, respondent-level causal data, clinical records, or proof that income inequality alone causes any outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNICEF Innocenti Report Card 20 page was reviewed for country coverage, well-being rankings, income ratios, child-poverty range, health and skills relationships, child perceptions, and policy directions.",
+    "source_url_sha256": "sha256:59d4c5ca907d403bbe9a72c80d59a9dbfaee2c89a71cf20a12764a7c758dc89c",
+    "checked": "2026-09-26"
+  }
+}

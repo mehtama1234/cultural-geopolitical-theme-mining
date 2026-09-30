@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-thinktv-ipsos-ad-nation-2026-canada-media-gap-trust",
+  "title": "Media professionals are drifting away from the public they model: platform overestimation coexists with advertising distrust and shared-screen attachment",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "thinkTV and Ipsos, Ad Nation 2026",
+  "geography": "Canada; adults aged 18-59 and Canadian Marketing Association media/advertising professionals",
+  "observations": [
+    {
+      "period": "July-August 2026; public media use versus industry estimates",
+      "denominator": {"value": 600, "unit": "Canadians aged 18-59 who do not work in marketing or media, surveyed through an Ipsos online panel", "value_type": "reported_survey_sample"},
+      "measures": {
+        "tiktok_actual_use": {"value": 30, "unit": "percent of Canadian respondents reporting TikTok use in the past month", "value_type": "published_survey_estimate"},
+        "tiktok_industry_estimate": {"value": 89, "unit": "percent estimated by media/advertising professionals as public TikTok use in the past month", "value_type": "published_professional_estimate"},
+        "estimation_gap": {"value": 59, "unit": "percentage-point difference between reported public use and industry estimate", "value_type": "derived_comparison"},
+        "modeling_distance": {"value": "The audience that media systems model can become a professional projection rather than an observed public.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Two-sample cross-sectional study: 600 Canadian adults aged 18-59 outside marketing/media industries and 174 Canadian Marketing Association members in advertising, publishing, media, creative, or digital agencies.",
+      "uncertainty": "The public sample is an online Ipsos panel and the professional sample is a membership-based industry sample; the comparison is descriptive, not a causal estimate of media planning or platform adoption.",
+      "subgroup": "Canadian adults aged 18-59 versus Canadian marketing/media professionals; the release does not provide full weighting or demographic cross-tabs.",
+      "counterinterpretation": "The gap may partly reflect different definitions of use, recency, audience reach, or extrapolation targets rather than simple ignorance of public behavior.",
+      "source_url": "https://thinktv.ca/research/ad-nation-2026/",
+      "retrieval_hash": "sha256:25e2861070699f495f7d3b3a1b452cb0a2954320c1ce0786e61b72a37a27f65f",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; advertising trust and data/fake-content concerns",
+      "denominator": {"value": 600, "unit": "Canadian adults aged 18-59 outside marketing/media industries; professional comparison sample is 174", "value_type": "reported_survey_sample"},
+      "measures": {
+        "no_advertising_trust": {"value": 29, "unit": "percent of Canadians saying they do not trust any advertising today", "value_type": "published_survey_estimate"},
+        "no_advertising_trust_prior": {"value": 30, "unit": "percent in the publisher's comparison a decade earlier", "value_type": "published_comparison_estimate"},
+        "data_collection_concern": {"value": "Personal-data collection and use are among Canadians' top advertising concerns.", "unit": "reported concern", "value_type": "reported_mechanism"},
+        "ai_fake_content_concern": {"value": "Misleading or fake content ranks highest among perceived risks associated with AI-generated advertising.", "unit": "reported concern", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive public/professional survey comparison with a decade comparison reported by the publisher.",
+      "uncertainty": "The release does not provide the full response distribution, question wording, weighting, or a causal decomposition of distrust; a stable topline does not imply stable reasons.",
+      "subgroup": "Canadian adults aged 18-59, with industry-professional contrasts where reported.",
+      "counterinterpretation": "Advertising distrust may coexist with effective attention, recognition, or purchasing; concern about AI content may also reflect general information skepticism.",
+      "source_url": "https://thinktv.ca/research/ad-nation-2026/",
+      "retrieval_hash": "sha256:25e2861070699f495f7d3b3a1b452cb0a2954320c1ce0786e61b72a37a27f65f",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; social advertising attention and consumer/industry divergence",
+      "denominator": {"value": 600, "unit": "Canadian adults aged 18-59 outside marketing/media industries; professional comparison sample is 174", "value_type": "reported_survey_sample"},
+      "measures": {
+        "social_advertising_alignment": {"value": "Canadian respondents broadly describe social advertising as misleading, low quality, or untrustworthy, while industry professionals are more likely to like it.", "unit": "reported public/professional contrast", "value_type": "reported_mechanism"},
+        "industry_attention_belief": {"value": "Industry respondents are more likely than the public to say social advertising earns attention and makes people want to buy.", "unit": "reported professional/public contrast", "value_type": "reported_mechanism"},
+        "television_ad_attention": {"value": "Canadians rate television highest for the reported attention and purchase-influence attributes.", "unit": "reported public ranking", "value_type": "reported_comparison"},
+        "translation_gap": {"value": "A channel's professional performance narrative can diverge from the audience's felt credibility and attention experience.", "unit": "analytical synthesis from reported contrasts", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparative descriptive survey of Canadian consumers and media/advertising professionals.",
+      "uncertainty": "The public release does not provide all scale points or subgroup distributions, and stated attention or purchase influence is not observed conversion.",
+      "subgroup": "Canadian adults aged 18-59 versus Canadian Marketing Association professionals.",
+      "counterinterpretation": "Different media goals can produce different valid judgments: professionals may assess campaign performance while consumers report personal experience.",
+      "source_url": "https://thinktv.ca/research/ad-nation-2026/",
+      "retrieval_hash": "sha256:25e2861070699f495f7d3b3a1b452cb0a2954320c1ce0786e61b72a37a27f65f",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; fragmented media and shared television experience",
+      "denominator": {"value": 600, "unit": "Canadian adults aged 18-59 outside marketing/media industries; professional comparison sample is 174", "value_type": "reported_survey_sample"},
+      "measures": {
+        "shared_tv_value": {"value": "Canadians continue to value live television as a distinct form of engagement and connection despite fragmented platform and device use.", "unit": "reported public-attitude mechanism", "value_type": "reported_mechanism"},
+        "fragmentation_context": {"value": "Media consumption is increasingly distributed across platforms and devices, but fragmentation does not erase shared-screen value.", "unit": "reported synthesis", "value_type": "reported_mechanism"},
+        "fourth_wave_persistence": {"value": "The public/professional gap has persisted across four editions over roughly a decade.", "unit": "publisher-reported repeated study context", "value_type": "reported_trend"},
+        "cultural-interface_route": {"value": "Media infrastructure is not only a delivery channel; it shapes shared attention, credibility, and the social experience of culture.", "unit": "analytical synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Fourth edition of the thinkTV/Ipsos Ad Nation study; current fieldwork used separate consumer and industry samples.",
+      "uncertainty": "The release does not establish causal effects of television, fragmentation, or shared viewing on social cohesion, purchasing, or political behavior.",
+      "subgroup": "Canadian adults aged 18-59 and media/advertising professionals.",
+      "counterinterpretation": "Reported shared-TV value may reflect content, habit, event programming, or household composition rather than the broadcast technology itself.",
+      "source_url": "https://thinktv.ca/research/ad-nation-2026/",
+      "retrieval_hash": "sha256:25e2861070699f495f7d3b3a1b452cb0a2954320c1ce0786e61b72a37a27f65f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://thinktv.ca/research/ad-nation-2026/",
+      "claim": "The official thinkTV release provides the 2026 findings, public/professional sample sizes, fieldwork dates, platform-use gap, advertising trust, social-advertising contrasts, and shared-television interpretation.",
+      "status": "official-publication-page"
+    }
+  ],
+  "boundary": "This record adds a consumer-media translation route: professional assumptions can diverge from public behavior, while advertising trust, AI-content concern, social-ad credibility, and shared television shape cultural attention. It does not establish causal campaign performance, platform market share, purchase conversion, social cohesion, or political effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official thinkTV Ad Nation 2026 page was reviewed for the two-sample design, fieldwork dates, TikTok usage/estimate gap, advertising trust, data and AI-content concerns, social-advertising contrasts, television value, and repeated-study context.",
+    "source_page_sha256": "sha256:25e2861070699f495f7d3b3a1b452cb0a2954320c1ce0786e61b72a37a27f65f",
+    "checked": "2026-09-28"
+  }
+}

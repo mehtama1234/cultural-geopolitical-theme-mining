@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust",
+  "title": "Organizations are moving from balancing AI tensions to making deliberate choices about human–machine work, adaptation and trust",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Deloitte and Oxford Economics, 2026 Global Human Capital Trends",
+  "geography": "Global organizations, business and HR leaders, workers, managers and executives across 89 countries and multiple industries",
+  "observations": [
+    {
+      "period": "2026 survey; organizational adaptation and competitive strategy",
+      "denominator": {"value": 9000, "unit": "business and human-resources leaders surveyed across 89 countries", "value_type": "published_survey_frame"},
+      "measures": {
+        "agility_strategy": {"value": 70, "unit": "per cent of business leaders saying their primary competitive strategy over the next three years is to be fast and nimble", "value_type": "published_survey_estimate"},
+        "orchestration_driver": {"value": "Leaders identify accelerating how people and resources are orchestrated to perform work and increasing organizational and workforce adaptability as key success drivers.", "unit": "reported leader priorities", "value_type": "reported_interpretation"},
+        "tipping_point": {"value": "The report frames organizations as moving from managing tensions such as control versus empowerment and automation versus augmentation toward deliberate tipping-point choices.", "unit": "reported analytical frame", "value_type": "reported_interpretation"}
+      },
+      "method": "Deloitte 2026 Global Human Capital Trends survey conducted with Oxford Economics, supplemented by worker-, manager- and executive-specific surveys and more than 50 interviews.",
+      "uncertainty": "The public overview does not disclose full sampling, weighting, country-level margins or whether leader-reported strategy changes produce measurable worker or firm outcomes; the 70% is a leader perception, not observed agility.",
+      "subgroup": "Business leaders, HR leaders, managers, workers, executives and organizations operating under AI, market, customer and workforce change.",
+      "counterinterpretation": "Fast-and-nimble strategy language may reflect managerial fashion or competitive signaling; speed can increase overload, instability or worker risk rather than improve adaptive capacity.",
+      "source_url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends.html",
+      "retrieval_hash": "sha256:6e5c325cee3eaead2568b771dabd755d854d8922e6c032bb2cbe47afd75dbe39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; human-centered versus technology-centered AI implementation",
+      "denominator": {"value": 100, "unit": "C-suite leaders in supplementary Deloitte research", "value_type": "published_survey_frame"},
+      "measures": {
+        "tech_focused_approach": {"value": 59, "unit": "per cent of organizations described as taking a technology-focused approach to AI", "value_type": "published_survey_estimate"},
+        "return_risk": {"value": 1.6, "unit": "times greater likelihood of not realizing above-expectation AI returns for technology-focused versus human-centric approaches", "value_type": "published_association"},
+        "human_edge": {"value": "The report argues that AI value depends less on technology differentiation alone and more on redesigning work around human adaptability, creativity and judgment.", "unit": "reported mechanism claim", "value_type": "reported_interpretation"}
+      },
+      "method": "Deloitte report synthesis including a cited supplementary study of 100 C-suite leaders; the public overview reports an association, not a randomized comparison.",
+      "uncertainty": "The 1.6x result may reflect selection, organization size, sector, implementation maturity, reporting bias or other differences between approaches; it does not prove that human-centric design causes superior financial returns.",
+      "subgroup": "C-suite leaders, AI implementation teams, workers whose tasks are redesigned, organizations investing in AI and customers affected by AI-enabled services.",
+      "counterinterpretation": "A human-centric label can conceal weak governance or symbolic employee involvement; technology-focused investment may produce value in settings where process and data foundations are already mature.",
+      "source_url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends.html",
+      "retrieval_hash": "sha256:6e5c325cee3eaead2568b771dabd755d854d8922e6c032bb2cbe47afd75dbe39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; human–machine work and decision-making",
+      "denominator": {"value": 1, "unit": "Deloitte Global Human Capital Trends analytical frame", "value_type": "published_framework"},
+      "measures": {
+        "human_machine_relationship": {"value": "The report calls for moving beyond humans and machines working side by side toward deliberate human–machine synergy and redesigned work.", "unit": "reported organizational design frame", "value_type": "reported_interpretation"},
+        "decision_boundary": {"value": "AI is presented as blurring boundaries around human decision-making, judgment, relevance and meaning at work.", "unit": "reported risk and design issue", "value_type": "reported_interpretation"},
+        "capability_requirement": {"value": "Organizations are encouraged to build workforces that can continually learn, adapt and reinvent in real time rather than prepare once for a fixed future.", "unit": "reported capability frame", "value_type": "reported_interpretation"}
+      },
+      "method": "Deloitte report chapters and public overview on human–machine relationships, AI decision-making, cultural debt and organizational orchestration.",
+      "uncertainty": "The public material does not measure actual autonomy, error rates, worker bargaining power, surveillance, deskilling, safety or distribution of decision authority in deployed systems.",
+      "subgroup": "Workers, managers, designers of AI systems, organizational leaders, customers and people subject to automated or AI-assisted decisions.",
+      "counterinterpretation": "Human–machine synergy can become a managerial demand for workers to absorb constant change, while accountability remains with people who lack control over models, data or system design.",
+      "source_url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends.html",
+      "retrieval_hash": "sha256:6e5c325cee3eaead2568b771dabd755d854d8922e6c032bb2cbe47afd75dbe39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; organizational culture, trust and evidence gaps",
+      "denominator": {"value": 1, "unit": "Deloitte Global Human Capital Trends synthesis", "value_type": "published_framework"},
+      "measures": {
+        "cultural_debt": {"value": "The report identifies AI-related cultural debt as a problem requiring attention alongside technical adoption.", "unit": "reported organizational issue", "value_type": "reported_interpretation"},
+        "trust_requirement": {"value": "The public framing connects AI value to trust, culture, leadership, human judgment and how work is intentionally designed.", "unit": "reported mechanism", "value_type": "reported_interpretation"},
+        "perception_gap": {"value": "Deloitte supplements leader survey evidence with worker-, manager- and executive-specific surveys because organizational perceptions may diverge across roles.", "unit": "reported measurement design", "value_type": "reported_method"}
+      },
+      "method": "Deloitte public methodology and report framing, combining leader, worker and manager surveys with interviews and supplementary research.",
+      "uncertainty": "The public overview does not report the size or direction of worker–leader gaps for each trend, and the commercial research design may emphasize decision relevance over population-representative workforce inference.",
+      "subgroup": "Workers, managers, HR and business leaders, executives, organizational cultures and customers whose trust is affected by AI-mediated work.",
+      "counterinterpretation": "More measurement of perception gaps does not guarantee that workers gain voice or that organizations resolve cultural conflict; trust can be invoked rhetorically while control remains concentrated.",
+      "source_url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends.html",
+      "retrieval_hash": "sha256:6e5c325cee3eaead2568b771dabd755d854d8922e6c032bb2cbe47afd75dbe39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.deloitte.com/global/en/insights/topics/talent/human-capital-trends.html", "claim": "Official Deloitte public overview, methodology and 2026 human-capital trend chapters."},
+    {"source_url": "https://www.deloitte.com/au/en/services/consulting/research/global-human-capital-trends.html", "claim": "Deloitte public regional overview of the 2026 human-advantage frame."}
+  ],
+  "boundary": "This record adds an organizational AI-and-work layer: leaders describe agility, human–machine redesign, human advantage, cultural debt and trust as strategic choices. It relies on Deloitte/Oxford Economics surveys, supplementary executive research and interviews; it is not a representative worker panel, observed productivity study, causal evaluation, or proof of improved job quality, autonomy or worker power.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Deloitte 2026 Global Human Capital Trends page was reviewed for the 9,000-leader/89-country survey frame, 70% agility strategy finding, 100-C-suite supplementary study, 59% technology-focused approach, 1.6x return association, human–machine redesign, cultural debt and multi-perspective methodology.",
+    "source_url_sha256": "sha256:6e5c325cee3eaead2568b771dabd755d854d8922e6c032bb2cbe47afd75dbe39",
+    "checked": "2026-09-27"
+  }
+}

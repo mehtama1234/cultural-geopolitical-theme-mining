@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-public-opinions-social-trends-august-2026-cost-water-consumer-adaptation",
+  "title": "Cost pressure and drought are converting household concern into selective cutbacks and shopping adaptation in Great Britain",
+  "theme_ids": ["cost", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Office for National Statistics, Opinions and Lifestyle Survey, Public opinions and social trends, Great Britain: August 2026",
+  "geography": "Great Britain; adults aged 16 years and over, with cost-of-living actions, water-use adaptation, age, sex, and local-restriction dimensions",
+  "observations": [
+    {
+      "period": "5 to 30 August 2026; cost-of-living experience and household response",
+      "denominator": {"value": 3560, "unit": "responding adults in the Opinions and Lifestyle Survey latest period; weighted estimates represent adults in Great Britain", "value_type": "reported_responding_sample"},
+      "measures": {
+        "cost_of_living_increased": {"value": 55, "unit": "percent reporting that their cost of living increased compared with one month earlier", "value_type": "reported_survey_share"},
+        "food_price_reason": {"value": 94, "unit": "percent among adults reporting an increase who attributed it to food-shopping prices", "value_type": "reported_conditional_share"},
+        "fuel_price_reason": {"value": 72, "unit": "percent among adults reporting an increase who attributed it to fuel prices", "value_type": "reported_conditional_share"},
+        "energy_bill_reason": {"value": 64, "unit": "percent among adults reporting an increase who attributed it to gas or electricity bills", "value_type": "reported_conditional_share"},
+        "less_non_essentials": {"value": 59, "unit": "percent among adults reporting an increase who spent less on non-essentials", "value_type": "reported_conditional_share"},
+        "shopping_around_more": {"value": 43, "unit": "percent among adults reporting an increase who shopped around more", "value_type": "reported_conditional_share"},
+        "less_food_and_essentials": {"value": 38, "unit": "percent among adults reporting an increase who spent less on food shopping and essentials", "value_type": "reported_conditional_share"},
+        "shopping_around_age_gradient": {"value": "24% ages 16–29, 44% ages 30–49, 56% ages 50–69, and 43% ages 70+ reported shopping around more", "unit": "reported age subgroup shares", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Household price pressure converts into a portfolio of defensive consumer actions: discretionary compression, search for cheaper options, and in some households reductions in essentials", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the ONS Opinions and Lifestyle Survey statistical bulletin; response categories may be multi-selected and conditional measures are limited to adults reporting increased cost of living.",
+      "uncertainty": "This is a rapid cross-sectional survey with a 41% response rate in the latest period; reported actions are not observed transactions, quantities, or welfare outcomes, and the release does not identify whether shopping around reduced spending or increased time burden.",
+      "subgroup": "Adults aged 16 years and over in Great Britain, with age breakdowns for shopping-around behavior.",
+      "counterinterpretation": "The decline in reported cost increases from April does not prove relief; households may have adapted, prices may have changed unevenly, or perceptions may lag actual spending. Spending less on essentials may reflect substitution rather than reduced consumption.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026",
+      "retrieval_hash": "sha256:21e246f16d5b7b1190a6c139cfdc9b5cc062c27ad0e7c4627275739b6cc10e42",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; household water-use adaptation during restrictions and drought conditions",
+      "denominator": {"value": 3560, "unit": "responding adults in the Opinions and Lifestyle Survey latest period; weighted estimates represent adults in Great Britain", "value_type": "reported_responding_sample"},
+      "measures": {
+        "any_water_cutback": {"value": 88, "unit": "percent reporting at least one action to reduce water use in the previous month", "value_type": "reported_survey_share"},
+        "tap_not_left_running": {"value": 65, "unit": "percent reporting not leaving the tap running", "value_type": "reported_survey_share"},
+        "full_machine_loads": {"value": 55, "unit": "percent waiting until the washing machine or dishwasher was full before running it", "value_type": "reported_survey_share"},
+        "less_garden_water": {"value": 48, "unit": "percent using less tap water, including hosepipes, in the garden", "value_type": "reported_survey_share"},
+        "shorter_showers": {"value": 42, "unit": "percent taking shorter showers", "value_type": "reported_survey_share"},
+        "local_restrictions_reported": {"value": 40, "unit": "percent reporting current water-use restrictions in their local area", "value_type": "reported_survey_share"},
+        "restriction_action_gradient": {"value": "92% of adults reporting local restrictions took at least one action versus 85% reporting no local restrictions; garden-water reduction was 61% versus 40%", "unit": "reported conditional comparison", "value_type": "reported_distribution"},
+        "gender_action_gradient": {"value": "92% of women versus 83% of men took at least one action", "unit": "reported subgroup shares", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Environmental infrastructure pressure can move from public restriction and local visibility into ordinary household routines, but the response is shaped by gendered responsibility and whether households perceive a local constraint", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the ONS OPN bulletin; water-use actions are self-reported and respondents could select more than one action.",
+      "uncertainty": "The survey measures reported behavior rather than metered water use; local restriction status is also reported by respondents and may be unknown or misclassified. The data do not establish durable behavior change, household savings, or unequal exposure to drought impacts.",
+      "subgroup": "Adults aged 16 years and over in Great Britain, by sex and reported local restriction status.",
+      "counterinterpretation": "Some actions may be routine conservation unrelated to drought or restrictions; the apparent restriction gradient may reflect place, awareness, household type, or prior environmental concern rather than policy effect.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026",
+      "retrieval_hash": "sha256:21e246f16d5b7b1190a6c139cfdc9b5cc062c27ad0e7c4627275739b6cc10e42",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances", "claim": "Official ONS household-finance dataset page with August 2026 and prior downloadable editions."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026/relateddata", "claim": "Official ONS related-data index for household finance, water use, shortages, well-being, and other August 2026 datasets."}
+  ],
+  "boundary": "This record adds rapid household adaptation evidence connecting cost pressure and environmental infrastructure stress to reported consumer and domestic routines. It does not establish real spending, water volumes, savings, causal policy effects, poverty transitions, or long-run behavior change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS August 2026 bulletin reviewed for cost-of-living levels, reported causes, consumer actions, age comparisons, water-use actions, restriction awareness, sex differences, sample, response rate, and survey-quality boundaries.",
+    "html_sha256": "sha256:21e246f16d5b7b1190a6c139cfdc9b5cc062c27ad0e7c4627275739b6cc10e42",
+    "checked": "2026-09-30"
+  }
+}

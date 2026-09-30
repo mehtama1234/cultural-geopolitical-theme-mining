@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-trustlab-institutional-trust-governance-performance-six-countries-2026",
+  "title": "Institutional trust is tied more strongly to perceived governance performance and integrity than to partisan identity alone",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "public_systems_feedback", "political_judgment_action", "unequal_exposure_status", "care_health_reproduction"],
+  "source_unit": "Murtin et al., European Journal of Political Research 2026, What explains trust in institutions? Multi-disciplinary evidence from an international survey",
+  "geography": "Representative samples from Germany, Italy, Japan, Slovenia, the United Kingdom, and the United States; fielded 2017–2020 in the Trustlab database",
+  "observations": [
+    {
+      "period": "2017–2020; six-country institutional-trust comparison",
+      "denominator": {"value": 6000, "unit": "approximately 1,000 respondents per country across six countries in representative Trustlab samples", "value_type": "published_approximate_sample"},
+      "measures": {
+        "government_trust": {"value": "Average self-reported trust in national governments was 3.9 on a 0–10 scale", "unit": "mean self-reported trust score", "value_type": "reported_mean"},
+        "police_trust": {"value": "Average self-reported trust in police was 5.7 on a 0–10 scale", "unit": "mean self-reported trust score", "value_type": "reported_mean"},
+        "institutional_correlation": {"value": "Self-reported trust in government, judiciary, civil service, and police was highly correlated, often above 0.70", "unit": "pairwise correlation coefficient", "value_type": "reported_correlation"},
+        "interpretation": {"value": "People distinguish among institutions, but explicit trust also forms a broad institutional orientation, with service-oriented institutions evaluated more positively than national governments", "unit": "comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "The study combines nationally representative surveys, psychometric measures, cooperative-game and implicit-association modules, and cross-country comparisons of trust in government, civil servants, courts, and police.",
+      "uncertainty": "The fieldwork predates the 2026 publication by several years and country sample sizes are described approximately. Trust scores are not current 2026 levels, and cross-country differences may reflect institutional context, survey translation, or period effects.",
+      "subgroup": "Country, institution, political identity, social preferences, governance perceptions, and socioeconomic characteristics are examined; the six countries are not a representative sample of the world.",
+      "counterinterpretation": "High correlation among explicit trust measures could reflect response style or generalized sentiment rather than a common institutional quality judgment; a lower trust score can also indicate scrutiny rather than democratic failure.",
+      "source_url": "https://www.cambridge.org/core/journals/european-journal-of-political-research/article/what-explains-trust-in-institutions-multidisciplinary-evidence-from-an-international-survey/F927BA1C11E5EC275C910E037FF0696C",
+      "retrieval_hash": "sha256:0ceb76504ae57a1c48a9d109f93f568ec1dfadb3800c1a0afcc58d71d0262da5",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2020; multivariate predictors of self-reported institutional trust",
+      "denominator": {"value": 6000, "unit": "approximately 1,000 respondents per country across six countries", "value_type": "published_approximate_sample"},
+      "measures": {
+        "government_reliability": {"value": "Perceived government reliability was the strongest reported predictor of self-reported trust in government, with a standardized coefficient of approximately 0.336", "unit": "standardized regression coefficient", "value_type": "reported_association"},
+        "official_integrity": {"value": "Perceived integrity of high-level officials was the next strongest predictor, with a standardized coefficient of approximately 0.317", "unit": "standardized regression coefficient", "value_type": "reported_association"},
+        "service_satisfaction": {"value": "Satisfaction with security and education services were also among the strongest predictors, with coefficients of approximately 0.287 and 0.283", "unit": "standardized regression coefficient", "value_type": "reported_association"},
+        "interpretation": {"value": "Institutional legitimacy is experienced through repeated judgments about competence, reliability, integrity, and public-service delivery", "unit": "governance interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "The authors estimate multivariate models with standardized predictors spanning governance quality, political affiliation, social preferences, values, and individual characteristics, using multiple imputation for limited missingness.",
+      "uncertainty": "These are observational associations, not causal effects. Perceptions of service quality and trust may influence each other, and omitted institutional or media factors may affect both. The data are older than the publication date.",
+      "subgroup": "The relative predictors may vary by country, institution, political context, and personal experience of security, education, administration, or disaster response.",
+      "counterinterpretation": "Trust may shape how citizens interpret service performance, so improving measured services alone may not restore trust without procedural fairness, representation, and credible accountability.",
+      "source_url": "https://www.cambridge.org/core/journals/european-journal-of-political-research/article/what-explains-trust-in-institutions-multidisciplinary-evidence-from-an-international-survey/F927BA1C11E5EC275C910E037FF0696C",
+      "retrieval_hash": "sha256:0ceb76504ae57a1c48a9d109f93f568ec1dfadb3800c1a0afcc58d71d0262da5",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2020; explicit, implicit, and experimental trust measures",
+      "denominator": {"value": 6000, "unit": "approximately 1,000 respondents per country across six countries", "value_type": "published_approximate_sample"},
+      "measures": {
+        "explicit_implicit_gap": {"value": "Correlations between explicit self-reported trust and implicit trust measures were generally weak, typically below 0.15", "unit": "correlation coefficient", "value_type": "reported_correlation"},
+        "interpersonal_link": {"value": "General interpersonal trust was moderately associated with institutional trust at about 0.39, while experimental trust showed little relationship with institutional attitudes", "unit": "correlation coefficient", "value_type": "reported_correlation"},
+        "measurement_effect": {"value": "Trust measures clustered more by measurement method than by institutional domain", "unit": "psychometric pattern", "value_type": "reported_pattern"},
+        "interpretation": {"value": "Public trust is not a single clean construct; stated legitimacy, social disposition, and behaviorally measured trust can diverge", "unit": "measurement interpretation", "value_type": "inferred"}
+      },
+      "method": "The study compares self-report scales with implicit-association and experimental trust measures and examines their correlations and latent structure.",
+      "uncertainty": "Implicit and experimental measures have their own validity and interpretation limits. Weak correlation can reflect measurement differences, context, low reliability, or genuinely distinct constructs; it does not prove that survey trust is insincere.",
+      "subgroup": "Measurement relationships may differ by country, institution, education, political identity, interpersonal trust, and familiarity with experimental tasks.",
+      "counterinterpretation": "Explicit trust may be the most policy-relevant measure of perceived legitimacy even if it differs from behavioral or implicit trust; divergence may help diagnose rather than invalidate public attitudes.",
+      "source_url": "https://www.cambridge.org/core/journals/european-journal-of-political-research/article/what-explains-trust-in-institutions-multidisciplinary-evidence-from-an-international-survey/F927BA1C11E5EC275C910E037FF0696C",
+      "retrieval_hash": "sha256:0ceb76504ae57a1c48a9d109f93f568ec1dfadb3800c1a0afcc58d71d0262da5",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2020; governance performance versus political affiliation",
+      "denominator": {"value": 6000, "unit": "approximately 1,000 respondents per country across six countries", "value_type": "published_approximate_sample"},
+      "measures": {
+        "governance_priority": {"value": "The study reports that governance quality explains more variation in institutional trust than political affiliation alone", "unit": "comparative explanatory assessment", "value_type": "reported_comparison"},
+        "partisan_role": {"value": "Political affiliation has an effect, but it is comparatively modest relative to perceived competence, reliability, integrity, and service satisfaction", "unit": "relative predictor assessment", "value_type": "reported_comparison"},
+        "policy_lever": {"value": "Repeated positive interactions with reliable, fair, and effective public services are identified as a plausible route to stronger institutional trust", "unit": "policy implication", "value_type": "reported_policy_direction"},
+        "interpretation": {"value": "Legitimacy is partly performance-based and can be rebuilt through ordinary institutional encounters, not only through symbolic political messaging", "unit": "cross-source interpretation", "value_type": "inferred"}
+      },
+      "method": "The authors compare standardized predictor strength across governance perceptions, political affiliation, values, social preferences, and individual characteristics.",
+      "uncertainty": "The claim is comparative within the study's models and historical samples, not a universal ranking of causes. Service performance may be endogenous to trust, and policy interventions are not tested in this paper.",
+      "subgroup": "Citizens with different political identities, service experiences, social trust, and institutional exposure may respond to the same governance performance differently.",
+      "counterinterpretation": "Performance cannot substitute for representation or voice: efficient services may increase trust in an institution while leaving deeper distributional or democratic conflicts unresolved.",
+      "source_url": "https://www.cambridge.org/core/journals/european-journal-of-political-research/article/what-explains-trust-in-institutions-multidisciplinary-evidence-from-an-international-survey/F927BA1C11E5EC275C910E037FF0696C",
+      "retrieval_hash": "sha256:0ceb76504ae57a1c48a9d109f93f568ec1dfadb3800c1a0afcc58d71d0262da5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1017/S1475676526100875", "claim": "Canonical DOI for the open-access European Journal of Political Research article and supplementary material.", "status": "official-doi"}
+  ],
+  "boundary": "This record adds a comparative governance-performance-to-institutional-trust mechanism using historical six-country Trustlab data. It does not provide current 2026 trust levels, a global estimate, respondent-level ingestion into this atlas, a causal intervention test, or proof that service delivery alone resolves representation and legitimacy conflicts.",
+  "retrieval_hash": "sha256:0ceb76504ae57a1c48a9d109f93f568ec1dfadb3800c1a0afcc58d71d0262da5"
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-stats-sa-gpsjs-2025-26-crime-reporting-safety-self-protection",
+  "title": "South African crime exposure, reporting and perceived safety diverge across households, gender and place",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "political_judgment_action"
+  ],
+  "source_unit": "Statistics South Africa, Governance, Public Safety and Justice Survey 2025/26: Victims of Crime Release",
+  "geography": "South Africa; households and individuals aged 16 years and older as defined by GPSJS",
+  "observations": [
+    {
+      "period": "2025/26; household crime exposure and police reporting",
+      "denominator": {"value": null, "unit": "South African households in the GPSJS 2025/26 release; survey denominator is not stated in the one-page media release", "value_type": "not_disclosed"},
+      "measures": {
+        "housebreaking_affected_households": {"value": 5.3, "unit": "percent of households affected by housebreaking; about 1.08 million households and over 1.5 million incidents", "value_type": "reported_share"},
+        "housebreaking_reported": {"value": 48.2, "unit": "percent of affected households reporting some or all housebreaking incidents to police", "value_type": "reported_share"},
+        "home_robbery_affected_households": {"value": 0.9, "unit": "percent of households affected by home robbery; about 179,000 households", "value_type": "reported_share"},
+        "home_robbery_reported": {"value": 51.6, "unit": "percent of affected households reporting some or all home-robbery incidents to police", "value_type": "reported_share"}
+      },
+      "method": "Statistics South Africa media release summarising the nationally scoped GPSJS 2025/26 victims-of-crime results; household-level incidence and reporting measures are presented as estimates.",
+      "uncertainty": "The one-page release does not provide the full sample design, item denominators, confidence intervals, reasons for non-reporting, police response, case outcomes, or repeat-contact experience.",
+      "subgroup": "South African households represented by the GPSJS release.",
+      "counterinterpretation": "Non-reporting may reflect low perceived benefit, fear, access barriers, prior experience, or incident severity; reported cases should not be read as the complete crime burden.",
+      "source_url": "https://www.statssa.gov.za/publications/P0341/Media%20release%20_GPSJS%202025_26_29082026%20.pdf",
+      "retrieval_hash": "sha256:f51012d8bcdb8caf6b9c5a83ad6aa63d86fa59f0acff6c3dc588718db9b0d884",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; individual crime exposure and police reporting",
+      "denominator": {"value": null, "unit": "South African individuals aged 16 years and older in the GPSJS release; survey denominator is not stated in the one-page media release", "value_type": "not_disclosed"},
+      "measures": {
+        "personal_property_theft_affected": {"value": 2.6, "unit": "percent of people aged 16+ affected by theft of personal property; about 1.2 million people and 1.4 million incidents", "value_type": "reported_share"},
+        "personal_property_theft_reported": {"value": 37.3, "unit": "percent of affected individuals reporting some or all theft incidents to police", "value_type": "reported_share"},
+        "street_robbery_reported": {"value": 41.7, "unit": "percent of individuals experiencing street robbery reporting some or all incidents to police; about 459,000 individuals", "value_type": "reported_share"},
+        "assault_affected_change": {"value": "408,000 individuals experienced assault in 2025/26, up from 363,000 in 2024/25", "unit": "reported estimate and year-on-year comparison", "value_type": "reported_change"}
+      },
+      "method": "Statistics South Africa GPSJS 2025/26 victims-of-crime release, with estimated affected individuals and self-reported police reporting.",
+      "uncertainty": "The release does not establish causal change, incident verification, severity-adjusted reporting, police response, prosecution, recovery, or safety after reporting.",
+      "subgroup": "Individuals aged 16 years and older represented in the GPSJS release.",
+      "counterinterpretation": "Changes in reported incidence may reflect recall, survey coverage, classification or reporting changes as well as underlying exposure.",
+      "source_url": "https://www.statssa.gov.za/publications/P0341/Media%20release%20_GPSJS%202025_26_29082026%20.pdf",
+      "retrieval_hash": "sha256:f51012d8bcdb8caf6b9c5a83ad6aa63d86fa59f0acff6c3dc588718db9b0d884",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; perceived safety and gendered exposure",
+      "denominator": {"value": null, "unit": "South African individuals aged 16 years and older in the GPSJS release; item bases are not stated in the one-page media release", "value_type": "not_disclosed"},
+      "measures": {
+        "safe_day": {"value": 80.7, "unit": "percent feeling safe walking alone in their neighbourhood during the day", "value_type": "reported_share"},
+        "safe_dark": {"value": 37.9, "unit": "percent feeling safe walking alone in their neighbourhood when it is dark", "value_type": "reported_share"},
+        "female_very_unsafe_dark": {"value": 45.1, "unit": "percent of females reporting feeling very unsafe walking alone after dark; compared with 38.8% of males", "value_type": "reported_share"},
+        "female_assault_known_person": {"value": 70.3, "unit": "percent of females experiencing assault reporting a known person as the perpetrator", "value_type": "reported_share"}
+      },
+      "method": "GPSJS 2025/26 self-reported safety and assault-perpetrator indicators as summarised by Statistics South Africa.",
+      "uncertainty": "Perceived safety is not observed victimisation or objective risk; the release does not provide subgroup denominators, confidence intervals, place-level causal explanations, or service outcomes.",
+      "subgroup": "Individuals aged 16 years and older, with gender-specific results for perceived safety and assault context.",
+      "counterinterpretation": "Lower perceived safety can reflect visibility, social norms, prior experience or media attention, not only current incidence; known-person assault does not by itself identify prevention or remedy needs.",
+      "source_url": "https://www.statssa.gov.za/publications/P0341/Media%20release%20_GPSJS%202025_26_29082026%20.pdf",
+      "retrieval_hash": "sha256:f51012d8bcdb8caf6b9c5a83ad6aa63d86fa59f0acff6c3dc588718db9b0d884",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; self-protection response",
+      "denominator": {"value": null, "unit": "South African individuals aged 16 years and older in the GPSJS release; item base is not stated in the one-page media release", "value_type": "not_disclosed"},
+      "measures": {
+        "self_protection_action": {"value": 46.6, "unit": "percent reporting that they had done something to protect themselves against crime", "value_type": "reported_share"},
+        "self_protection_change": {"value": 3.3, "unit": "percentage-point increase from 43.3% in 2024/25", "value_type": "reported_change"},
+        "security_conversion": {"value": "crime exposure and perceived insecurity are converted into household and individual protective action, while formal reporting remains partial", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "GPSJS 2025/26 comparison of self-reported protective behaviour with the prior reporting period.",
+      "uncertainty": "The release does not identify the protective acts, their cost, effectiveness, unequal burden, or whether they improve safety, mobility, trust or reporting.",
+      "subgroup": "Individuals aged 16 years and older represented in the GPSJS release.",
+      "counterinterpretation": "Protective action may be precautionary rather than a response to direct victimisation, and may include low-cost behaviour changes as well as substantial household expense.",
+      "source_url": "https://www.statssa.gov.za/publications/P0341/Media%20release%20_GPSJS%202025_26_29082026%20.pdf",
+      "retrieval_hash": "sha256:f51012d8bcdb8caf6b9c5a83ad6aa63d86fa59f0acff6c3dc588718db9b0d884",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.statssa.gov.za/?cat=26", "claim": "Statistics South Africa crime publication hub and related GPSJS context.", "status": "institutional-source"}
+  ],
+  "boundary": "This record adds a public-safety conversion mechanism: victimisation, police reporting, perceived safety and self-protection are distinct stages, with gender and place shaping usable security. The one-page official release does not establish objective crime prevalence, reporting causes, police remedy, protection effectiveness, household cost, or causal change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The Statistics South Africa GPSJS 2025/26 Victims of Crime media release was reviewed for household and individual crime incidence, reporting, perceived safety, gendered assault context and self-protection comparisons.",
+    "source_pdf_sha256": "sha256:f51012d8bcdb8caf6b9c5a83ad6aa63d86fa59f0acff6c3dc588718db9b0d884",
+    "checked": "2026-09-29"
+  }
+}

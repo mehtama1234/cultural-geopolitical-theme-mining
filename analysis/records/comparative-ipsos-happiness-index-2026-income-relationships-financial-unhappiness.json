@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-happiness-index-2026-income-relationships-financial-unhappiness",
+  "title": "Short-term happiness is improving across most countries while longer-run gains remain uneven, with relationships supporting happiness and finances driving unhappiness",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Ipsos, Happiness Index 2026 / Global Advisor",
+  "geography": "29 countries; global, income and country comparisons",
+  "observations": [
+    {
+      "period": "December 24, 2025–January 9, 2026; 29 countries",
+      "denominator": {"value": 23268, "unit": "adults under age 75 across 29 countries", "value_type": "reported_sample"},
+      "measures": {
+        "happy_global": {"value": 74, "unit": "percent saying they are very or rather happy", "value_type": "reported_share"},
+        "unhappy_global": {"value": 26, "unit": "percent saying they are not very or not at all happy", "value_type": "reported_share"},
+        "lower_income_happy": {"value": 67, "unit": "percent of lower-income respondents saying they are happy", "value_type": "reported_share"},
+        "middle_income_happy": {"value": 76, "unit": "percent of middle-income respondents saying they are happy", "value_type": "reported_share"},
+        "higher_income_happy": {"value": 79, "unit": "percent of higher-income respondents saying they are happy", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor survey asking respondents whether they are very, rather, not very or not at all happy, with household-income comparisons.",
+      "uncertainty": "The global average is a simple country average and happiness is self-reported; income categories and cultural response styles are not directly comparable across all markets.",
+      "subgroup": "Adults under 75 in 29 countries, compared by household income.",
+      "counterinterpretation": "Income may proxy security, health, social position and local opportunity rather than independently causing happiness; country-level norms affect response intensity.",
+      "source_url": "https://www.ipsos.com/en-nl/global-attitudes-to-happiness-2026",
+      "retrieval_hash": "sha256:0d66a36efb3c613ba0ebaa3f969fb7f3bc4786a16fc9112e0224c34b2b0c3e18",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026 and 2011–2026; comparable country series",
+      "denominator": {"value": 29, "unit": "countries in the 2026 Happiness Index; long-run comparison available for 20 countries", "value_type": "reported_population"},
+      "measures": {
+        "happier_than_last_year": {"value": 25, "unit": "countries where people report higher happiness than 12 months earlier", "value_type": "reported_count"},
+        "less_happy_than_2011": {"value": 15, "unit": "countries out of 20 comparable countries where reported happiness is lower than in 2011", "value_type": "reported_count"},
+        "turkiye_long_run_change": {"value": -30, "unit": "percentage-point change in reported happiness since 2011", "value_type": "reported_difference"},
+        "short_long_horizon_divergence": {"value": "Short-term happiness improved in most surveyed countries while the longer-run series declined in most comparable countries", "unit": "reported comparative pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated Ipsos Happiness Index comparison across annual and long-run country series.",
+      "uncertainty": "The 12-month and 15-year comparisons involve changing country composition, survey context and macroeconomic conditions; they do not identify causes of trend movement.",
+      "subgroup": "Residents of 29 countries in 2026, with 20 countries in the long-run comparable series.",
+      "counterinterpretation": "Short-term rebounds may reflect temporary economic or political relief rather than reversal of deeper social, demographic or institutional pressures.",
+      "source_url": "https://www.ipsos.com/en-nl/global-attitudes-to-happiness-2026",
+      "retrieval_hash": "sha256:0d66a36efb3c613ba0ebaa3f969fb7f3bc4786a16fc9112e0224c34b2b0c3e18",
+      "status": "reported"
+    },
+    {
+      "period": "2026; reported sources of happiness",
+      "denominator": {"value": 23268, "unit": "adults under age 75 across 29 countries; analysis among respondents reporting happiness", "value_type": "reported_sample"},
+      "measures": {
+        "feeling_appreciated_loved": {"value": 37, "unit": "percent of happy respondents naming feeling appreciated or loved as contributing to happiness", "value_type": "reported_share"},
+        "family_relationships": {"value": 36, "unit": "percent naming relationships with family and children as contributing to happiness", "value_type": "reported_share"},
+        "relationship_priority_pattern": {"value": "Personal relationships are the strongest reported contributors to happiness", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos top-three selection of life areas contributing to reported happiness.",
+      "uncertainty": "The question identifies perceived contributors rather than causal effects; respondents may attribute happiness to salient relationships after the fact.",
+      "subgroup": "Respondents who reported being very or rather happy across 29 countries.",
+      "counterinterpretation": "Relationship answers may also capture material security, social support and cultural expectations rather than a separable interpersonal effect.",
+      "source_url": "https://www.ipsos.com/en-nl/global-attitudes-to-happiness-2026",
+      "retrieval_hash": "sha256:0d66a36efb3c613ba0ebaa3f969fb7f3bc4786a16fc9112e0224c34b2b0c3e18",
+      "status": "reported"
+    },
+    {
+      "period": "2026; reported sources of unhappiness",
+      "denominator": {"value": 23268, "unit": "adults under age 75 across 29 countries; analysis among respondents reporting unhappiness", "value_type": "reported_sample"},
+      "measures": {
+        "financial_situation_unhappiness": {"value": 57, "unit": "percent of unhappy respondents naming their financial situation as a source of unhappiness", "value_type": "reported_share"},
+        "financial_situation_top_in_28_countries": {"value": 28, "unit": "countries out of 29 where financial situation is the leading reported source of unhappiness", "value_type": "reported_count"},
+        "mental_health_unhappiness": {"value": 30, "unit": "percent naming mental health and wellbeing", "value_type": "reported_share"},
+        "housing_unhappiness": {"value": 22, "unit": "percent naming housing situation or living conditions", "value_type": "reported_share"},
+        "external_cost_pattern": {"value": "External financial and living-condition pressures drive unhappiness more consistently than social media or relationships", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos top-three selection of life areas contributing to reported unhappiness.",
+      "uncertainty": "The analysis is conditional on respondents who report unhappiness and does not measure clinical distress, debt, housing costs or causal pathways.",
+      "subgroup": "Respondents who reported being not very or not at all happy across 29 countries.",
+      "counterinterpretation": "Financial answers may be a broad frame for insecurity, health costs, housing, work and future uncertainty rather than a single spending problem.",
+      "source_url": "https://www.ipsos.com/en-nl/global-attitudes-to-happiness-2026",
+      "retrieval_hash": "sha256:0d66a36efb3c613ba0ebaa3f969fb7f3bc4786a16fc9112e0224c34b2b0c3e18",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/global-opinion-polls/happiness", "claim": "Official Ipsos Happiness Index topic page describing the Global Advisor series."},
+    {"source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-03/ipsos-happiness-index-2026-survey-report.pdf", "claim": "Official Ipsos Happiness Index 2026 survey report PDF used for retrieval verification and hash."}
+  ],
+  "boundary": "This record adds a wellbeing-mechanism distinction: short-term happiness can improve while longer-run levels decline, relationships are perceived as the strongest happiness supports, and financial and housing pressures dominate unhappiness. It is a cross-national self-report survey, not a clinical mental-health measure, causal wellbeing model, longitudinal panel or population-weighted global happiness estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Happiness Index article, topic page and 2026 survey report PDF were retrieved and reviewed for sample, income gradient, country and time comparisons, happiness drivers and unhappiness sources; the PDF was hashed.",
+    "source_url_sha256": "sha256:0d66a36efb3c613ba0ebaa3f969fb7f3bc4786a16fc9112e0224c34b2b0c3e18",
+    "checked": "2026-09-27"
+  }
+}

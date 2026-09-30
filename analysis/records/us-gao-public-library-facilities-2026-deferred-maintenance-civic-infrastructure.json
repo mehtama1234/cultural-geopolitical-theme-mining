@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-public-library-facilities-2026-deferred-maintenance-civic-infrastructure",
+  "title": "Libraries are expanding their civic role while aging facilities constrain access and resilience",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107262 nationally representative survey and site study of public library facilities",
+  "geography": "United States; public libraries in all 50 states, the District of Columbia, and four territories, including tribal libraries in site visits",
+  "observations": [
+    {
+      "period": "2025 survey; national public-library facility conditions",
+      "denominator": {"value": 100, "unit": "US public libraries", "value_type": "percentage_denominator"},
+      "measures": {
+        "poor_building_system": {"value": 38, "unit": "estimated percent of public libraries with at least one building system, such as HVAC, in poor condition", "value_type": "estimated_share"},
+        "health_safety_concern": {"value": 61, "unit": "estimated percent with at least one building system or feature posing a potential health or safety concern", "value_type": "estimated_share"},
+        "library_count_poor_system": {"value": 6000, "unit": "approximately public libraries", "value_type": "estimated_count"},
+        "library_count_safety_concern": {"value": 9800, "unit": "approximately public libraries", "value_type": "estimated_count"}
+      },
+      "method": "GAO nationally representative survey of approximately 16,400 public libraries, supplemented by visits to 21 public and two tribal libraries in seven states and territories.",
+      "uncertainty": "Facility conditions are reported or estimated at the library level and do not measure actual service interruption, building-by-building engineering risk, or user outcomes.",
+      "subgroup": "Public libraries, small and rural libraries, tribal libraries, libraries serving high-poverty areas, people with disabilities, and communities relying on library facilities.",
+      "counterinterpretation": "A reported poor system or potential concern does not mean a building is unusable; libraries may maintain service through repairs, relocation, partnerships, or partial access.",
+      "source_url": "https://www.gao.gov/products/gao-26-107262",
+      "retrieval_hash": "official_source_url:sha256:438641dbbda20dee98b288aa021c7a5ec2085fd261f0c9a55b65aad474dd62be",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; deferred maintenance and repair backlog",
+      "denominator": {"value": 100, "unit": "US public libraries", "value_type": "percentage_denominator"},
+      "measures": {
+        "deferred_maintenance": {"value": 70, "unit": "estimated percent of public libraries with a deferred-maintenance and repair backlog", "value_type": "estimated_share"},
+        "backlog_persistence": {"value": 70, "unit": "estimated percent expecting deferred maintenance to persist or increase over the next three years", "value_type": "estimated_share"},
+        "large_backlog": {"value": 39, "unit": "estimated percent with a deferred-maintenance backlog exceeding $100,000", "value_type": "estimated_share"},
+        "large_backlog_count": {"value": 6200, "unit": "approximately public libraries", "value_type": "estimated_count"}
+      },
+      "method": "GAO survey estimates and review of budget forecasts, planned projects, and reported repair-cost examples.",
+      "uncertainty": "The total national repair cost is unknown; backlog thresholds and expectations are reported estimates, not audited capital-needs assessments or forecasts of actual failure.",
+      "subgroup": "Libraries with aging facilities, high repair needs, small-town and rural libraries, and libraries with limited capital access.",
+      "counterinterpretation": "A backlog can be reduced through local capital campaigns, grants, phased projects, or partnerships even when libraries currently expect persistence; planned persistence is not inevitable failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-107262",
+      "retrieval_hash": "official_source_url:sha256:438641dbbda20dee98b288aa021c7a5ec2085fd261f0c9a55b65aad474dd62be",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; accessibility and public-service role",
+      "denominator": {"value": 100, "unit": "US public libraries", "value_type": "percentage_denominator"},
+      "measures": {
+        "physical_access_barrier": {"value": 7000, "unit": "approximately public libraries reporting a physical barrier to access for people with disabilities", "value_type": "estimated_count"},
+        "construction_funding_challenge": {"value": 71, "unit": "estimated percent citing construction costs and limited funding as key repair challenges", "value_type": "estimated_share"},
+        "local_funding_repair": {"value": 90, "unit": "estimated percent using local funding to address maintenance and repairs", "value_type": "estimated_share"},
+        "civic_functions": {"value": "libraries provide public space for community programs and can serve as voting sites and emergency centers in addition to lending materials", "unit": "reported institutional role", "value_type": "reported_function"}
+      },
+      "method": "GAO survey, site visits, and interviews with federal, state, tribal, library, and stakeholder officials.",
+      "uncertainty": "The report does not estimate how many users are excluded by each barrier, whether alternative sites exist, or how local funding decisions affect other public services.",
+      "subgroup": "People with disabilities, voters, emergency users, community-program participants, library staff, and communities with small or high-poverty tax bases.",
+      "counterinterpretation": "Local funding can reflect community commitment and preserve autonomy; the concern is that reliance on limited local bases may make access uneven, not that local funding is inherently inadequate.",
+      "source_url": "https://www.gao.gov/products/gao-26-107262",
+      "retrieval_hash": "official_source_url:sha256:438641dbbda20dee98b288aa021c7a5ec2085fd261f0c9a55b65aad474dd62be",
+      "status": "reported"
+    },
+    {
+      "period": "2025; civic-infrastructure capacity interpretation",
+      "denominator": {"value": 1, "unit": "public-library facility-to-community-capacity pathway", "value_type": "named_mechanism_frame"},
+      "measures": {
+        "service_expectation": {"value": "libraries are expected to provide programming, technology access, community space, emergency support, and voting infrastructure in addition to books", "unit": "reported institutional expectation", "value_type": "reported_function"},
+        "funding_mismatch": {"value": "federal support generally covers programs and services but not construction or repairs", "unit": "reported funding boundary", "value_type": "reported_policy_boundary"},
+        "capacity_risk": {"value": "aging facilities can constrain libraries' ability to meet expanded community-service expectations", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "GAO synthesis of facility conditions, funding rules, community functions, and stakeholder evidence.",
+      "uncertainty": "The study does not establish that facility condition caused lower civic participation, worse emergency response, reduced digital access, or declining institutional trust.",
+      "subgroup": "Library users, nonusers who rely on public facilities during emergencies, voters, students, job seekers, immigrants, older adults, and local governments.",
+      "counterinterpretation": "Programs, partnerships, mobile services, and digital delivery can partly substitute for buildings; physical public space remains a distinct capacity rather than the only route to service.",
+      "source_url": "https://www.gao.gov/products/gao-26-107262",
+      "retrieval_hash": "official_source_url:sha256:438641dbbda20dee98b288aa021c7a5ec2085fd261f0c9a55b65aad474dd62be",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107262/index.html", "claim": "GAO's full report and accessible materials provide the detailed survey, site-visit, and methodology documentation.", "status": "official_report_artifact"}
+  ],
+  "boundary": "This record adds a civic-infrastructure route linking public-library facility condition, maintenance finance, accessibility, technology and emergency functions, and community capacity. It does not establish user-level exclusion, service interruption, causal civic effects, or the total national capital requirement.",
+  "retrieval_hash": "official_source_url:sha256:438641dbbda20dee98b288aa021c7a5ec2085fd261f0c9a55b65aad474dd62be"
+}

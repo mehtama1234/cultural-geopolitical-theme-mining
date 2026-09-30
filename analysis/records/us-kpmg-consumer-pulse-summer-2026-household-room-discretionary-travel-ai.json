@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-kpmg-consumer-pulse-summer-2026-household-room-discretionary-travel-ai",
+  "title": "U.S. households are protecting essentials and future security by reshaping discretionary spending, travel, food, and planning",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "consumer_power_recourse", "trust_identity_meaning", "platforms_data_attention", "unequal_exposure_status"],
+  "source_unit": "KPMG Consumer Pulse Survey, Summer 2026: U.S. consumer survey and category analysis",
+  "geography": "United States consumers; survey fielded February 27–March 18, 2026, with selected year-over-year comparisons",
+  "observations": [
+    {
+      "period": "2025–2026 income change and 2026 recession expectations",
+      "denominator": {"value": 1544, "unit": "qualified U.S. consumer survey respondents", "value_type": "published_survey_sample"},
+      "measures": {
+        "income_change": {"value": "40% reported increased household income, 40% no change, and 20% decreased income compared with 2025", "unit": "shares of qualified respondents", "value_type": "reported_share"},
+        "recession_expectation": {"value": "63% expected a recession within the next year, down from 71% in the prior-year survey", "unit": "share of qualified respondents", "value_type": "reported_share"},
+        "financial_preparation": {"value": "59% of respondents answering the planning question said they had a plan for recession-related financial challenges", "unit": "share of respondents to planning question", "value_type": "reported_share"},
+        "interpretation": {"value": "Sentiment shows less recession expectation than the prior year but continued precautionary planning", "unit": "survey interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "KPMG survey of a stated representative sample of 1,544 U.S. consumers, with demographic comparisons and a prior-year survey comparison.",
+      "uncertainty": "The public report does not provide full weighting, response rate, fieldwork mode details, or a probability-sample design. The recession measure is an expectation, not a forecast or realized economic outcome; the planning base is smaller than the total sample.",
+      "subgroup": "Income, gender, generation, and region differences are reported; lower-income respondents show different income-change and spending patterns than higher-income respondents.",
+      "counterinterpretation": "Lower recession expectation may reflect adaptation or improved sentiment without restored purchasing power; a financial plan can also indicate vulnerability rather than resilience.",
+      "source_url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2026/consumer-pulse-survey-summe-2026-report.pdf",
+      "retrieval_hash": "sha256:8ef9feb74bca14c14d5775a0f5c17541756beb1b5145bb3e8ce4dfb8d51df312",
+      "status": "reported"
+    },
+    {
+      "period": "Summer 2024–Summer 2026 household spending allocation",
+      "denominator": {"value": 1544, "unit": "qualified U.S. consumer survey respondents estimating household income allocation", "value_type": "published_survey_sample"},
+      "measures": {
+        "regular_expenses": {"value": "The share of monthly household income assigned to regular living expenses rose from 41% in 2024 to 43% in 2026", "unit": "estimated share of monthly household income", "value_type": "reported_comparison"},
+        "discretionary_spending": {"value": "The estimated share assigned to discretionary goods and services declined from 18% in 2024 and 2025 to 17% in 2026", "unit": "estimated share of monthly household income", "value_type": "reported_comparison"},
+        "essential_spending": {"value": "The estimated share assigned to essential goods and services remained about 27% across the three summer readings", "unit": "estimated share of monthly household income", "value_type": "reported_comparison"},
+        "interpretation": {"value": "Household adaptation appears as category reallocation toward recurring costs and away from discretionary room rather than simple cessation of consumption", "unit": "survey interpretation", "value_type": "inferred"}
+      },
+      "method": "The survey asks respondents to estimate the percentage of monthly household income spent on regular living expenses, savings and investments, essential goods and services, and discretionary goods and services, with comparisons to prior survey waves.",
+      "uncertainty": "These are recalled or anticipated budget shares, not linked transaction records. Category definitions are broad, estimates may not sum identically because of rounding, and the report does not establish that inflation caused each allocation change.",
+      "subgroup": "The report compares generations and income groups; life stage and income shape the mix of regular expenses, savings, and discretionary categories.",
+      "counterinterpretation": "Changes may reflect seasonal composition, survey framing, income changes, or different expectations about the summer rather than a durable structural reduction in discretionary consumption.",
+      "source_url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2026/consumer-pulse-survey-summe-2026-report.pdf",
+      "retrieval_hash": "sha256:8ef9feb74bca14c14d5775a0f5c17541756beb1b5145bb3e8ce4dfb8d51df312",
+      "status": "compared"
+    },
+    {
+      "period": "Summer 2025–Summer 2026 travel plans",
+      "denominator": {"value": 1544, "unit": "qualified U.S. consumer survey respondents for travel plans", "value_type": "published_survey_sample"},
+      "measures": {
+        "travel_intention": {"value": "60% planned to travel in summer 2026, compared with 57% who traveled or planned to travel in the comparable 2025 measure", "unit": "share of qualified respondents", "value_type": "reported_comparison"},
+        "travel_constraint": {"value": "Among people who did not travel in summer 2025, 48% cited financial constraints or budget concerns", "unit": "share of non-traveling respondents; multiple responses allowed", "value_type": "reported_share"},
+        "booking_control": {"value": "Among respondents with summer 2026 travel plans, 52% planned to book directly with the provider, compared with 30% using a third-party booking platform", "unit": "share of travel-planning respondents; multiple responses allowed", "value_type": "reported_share"},
+        "interpretation": {"value": "Travel remains a protected aspiration for many households, but affordability and direct-provider relationships shape whether and how it is realized", "unit": "survey interpretation", "value_type": "inferred"}
+      },
+      "method": "The report compares travel intentions and reasons for non-travel across survey waves and asks planned travelers how they expect to book.",
+      "uncertainty": "Travel plans are not completed trips; the comparison mixes planned and realized measures in places, and respondents could select multiple reasons or booking methods. The survey does not estimate actual travel spending or provider conversion.",
+      "subgroup": "Travel intentions and accommodation preferences vary by generation, income, gender, work arrangement, and number of planned trips.",
+      "counterinterpretation": "Higher stated travel intention can coexist with lower realized access if prices, health, work, or geopolitical disruptions intervene; direct booking may reflect brand loyalty or price comparison rather than platform rejection.",
+      "source_url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2026/consumer-pulse-survey-summe-2026-report.pdf",
+      "retrieval_hash": "sha256:8ef9feb74bca14c14d5775a0f5c17541756beb1b5145bb3e8ce4dfb8d51df312",
+      "status": "reported"
+    },
+    {
+      "period": "Summer 2025–Summer 2026 eating and travel-planning behavior",
+      "denominator": {"value": 1544, "unit": "qualified U.S. consumer survey respondents; selected subquestions have smaller bases", "value_type": "published_survey_sample"},
+      "measures": {
+        "home_eating": {"value": "76% of respondents who were eating at home more cited saving money because of budget constraints", "unit": "share of respondents eating at home more", "value_type": "reported_share"},
+        "home_vs_restaurant": {"value": "The report says eating at home remained popular and more consumers chose it over dining out than in the prior-year comparison", "unit": "reported preference comparison", "value_type": "reported_comparison"},
+        "ai_travel_planning": {"value": "12% in a cited companion travel-planning sample said they used AI-powered tools to make travel decisions; among KPMG respondents using AI for travel planning, finding hotels or stays was the leading stage at 39%", "unit": "shares of cited sub-samples", "value_type": "reported_share"},
+        "interpretation": {"value": "Cost pressure is moving some consumption into the home, while AI enters travel planning selectively at high-information stages rather than replacing the whole planning journey", "unit": "cross-section interpretation", "value_type": "inferred"}
+      },
+      "method": "KPMG consumer survey questions on eating behavior and travel planning, supplemented in the AI-adoption chart by a cited CivicScience data source with a separate sample.",
+      "uncertainty": "The eating and AI measures use different bases and question frames; the AI figure is not directly comparable to the KPMG total sample. Stated use does not measure accuracy, trust, spending, or completed travel outcomes.",
+      "subgroup": "Eating patterns differ sharply by generation, with younger consumers more likely to report eating out, ordering, or pickup than older generations; AI use is a smaller, self-selected subset.",
+      "counterinterpretation": "Home eating may reflect health, convenience, household routines, or taste as well as budget. Early AI use may be experimentation rather than durable delegation or consumer dependence.",
+      "source_url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2026/consumer-pulse-survey-summe-2026-report.pdf",
+      "retrieval_hash": "sha256:8ef9feb74bca14c14d5775a0f5c17541756beb1b5145bb3e8ce4dfb8d51df312",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a U.S. household adaptation route linking income expectations, recession preparation, spending allocation, travel access, home eating, and selective AI planning. It does not contain respondent-level data, transaction data, a causal inflation model, realized future behavior, or a population-wide welfare estimate; it is a KPMG-sponsored survey/report with self-reported and forecast measures.",
+  "retrieval_hash": "sha256:8ef9feb74bca14c14d5775a0f5c17541756beb1b5145bb3e8ce4dfb8d51df312"
+}

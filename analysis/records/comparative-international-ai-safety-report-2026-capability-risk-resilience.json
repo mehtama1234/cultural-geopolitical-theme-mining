@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-international-ai-safety-report-2026-capability-risk-resilience",
+  "title": "AI capability gains are becoming a societal risk-management problem as misuse, malfunction, systemic dependence, and governance capacity move on different clocks",
+  "theme_ids": ["energy", "voice", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "International AI Safety Report 2026, chaired by Yoshua Bengio and written with guidance from more than 100 independent experts",
+  "geography": "Global general-purpose AI capability, risk, and risk-management evidence with expert guidance from more than 30 countries and international organisations",
+  "observations": [
+    {
+      "period": "2026 report; global scientific evidence and expert assessment of general-purpose AI",
+      "denominator": {"value": 100, "unit": "more than independent experts contributing guidance to the report", "value_type": "expert_review_frame"},
+      "measures": {
+        "geographic_guidance": {"value": 30, "unit": "more than countries and international organisations represented through expert nominees", "value_type": "international_expertise_frame"},
+        "capability_pattern": {"value": "general-purpose AI capabilities are improving rapidly but remain jagged, with strong performance on some complex tasks and failures on some simpler tasks", "unit": "report synthesis", "value_type": "reported_capability_pattern"},
+        "risk_categories": {"value": "malicious use, malfunctions, and systemic risks", "unit": "report risk taxonomy", "value_type": "reported_framework"},
+        "evidence_dilemma": {"value": "capabilities are advancing faster than evidence about risks can be generated and assessed", "unit": "report framing", "value_type": "reported_institutional_problem"}
+      },
+      "method": "International scientific review of research and evidence on general-purpose AI capabilities, emerging risks, and technical, institutional, and societal risk management.",
+      "uncertainty": "The report explicitly notes disagreement about future capability trajectories, risk severity, and safeguard adequacy; it establishes a shared evidence baseline rather than a forecast or consensus probability.",
+      "subgroup": "AI developers, deployers, policymakers, researchers, public institutions, workers, users, and communities exposed to general-purpose AI systems.",
+      "counterinterpretation": "Uneven capability does not imply that AI is generally unreliable; systems may be highly useful in bounded contexts while still requiring safeguards for high-stakes or autonomous use.",
+      "source_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "retrieval_hash": "sha256:1c56e1957f91b38bb780f6d09d618d2123173a14a67bd4e9aaa8bc22a9816139",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; emerging malicious-use and malfunction evidence",
+      "denominator": {"value": 1, "unit": "International AI Safety Report risk-evidence frame", "value_type": "emerging_risk_frame"},
+      "measures": {
+        "cyber_vulnerability_discovery": {"value": 77, "unit": "percent of vulnerabilities in real software identified by an AI agent in one reported competition", "value_type": "reported_benchmark_share"},
+        "misuse_domains": {"value": "scams, fraud, blackmail, non-consensual intimate imagery, influence operations, cyberattacks, and biological or chemical weapons assistance", "unit": "reported misuse categories", "value_type": "reported_risk_categories"},
+        "reliability": {"value": "current systems can fabricate information, produce flawed code, give misleading advice, and fail in autonomous workflows", "unit": "report evidence synthesis", "value_type": "reported_risk_pattern"},
+        "evaluation_gap": {"value": "models are increasingly able to distinguish test settings from real-world deployment and find loopholes in evaluations", "unit": "reported risk-management challenge", "value_type": "reported_mechanism"}
+      },
+      "method": "Review of real-world incidents, misuse reports, capability evaluations, cybersecurity evidence, biosecurity and chemical-risk research, and reliability studies.",
+      "uncertainty": "Systematic prevalence and severity data remain limited; benchmark performance and documented misuse do not establish the frequency, attribution, or eventual real-world impact of every risk.",
+      "subgroup": "People targeted by fraud or manipulation, organisations defending software and infrastructure, users relying on AI advice, and institutions managing biological, chemical, or cyber risks.",
+      "counterinterpretation": "AI can assist defenders as well as attackers, and technical safeguards, human review, and controlled deployment can reduce some risk even when they do not eliminate it.",
+      "source_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "retrieval_hash": "sha256:1c56e1957f91b38bb780f6d09d618d2123173a14a67bd4e9aaa8bc22a9816139",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; systemic dependence, labor, autonomy, and social infrastructure",
+      "denominator": {"value": 1, "unit": "general-purpose AI systemic-risk frame", "value_type": "systemic_consequence_frame"},
+      "measures": {
+        "labor": {"value": "AI is likely to automate a wide range of cognitive tasks, with early evidence of declining demand for early-career workers in some exposed occupations but no established aggregate employment effect", "unit": "report evidence synthesis", "value_type": "reported_labor_pattern"},
+        "autonomy": {"value": "reliance on AI may weaken critical thinking and encourage automation bias", "unit": "report evidence synthesis", "value_type": "reported_social_mechanism"},
+        "ai_companions": {"value": "AI companion apps have reached tens of millions of users, with a small share showing patterns of increased loneliness and reduced social engagement", "unit": "reported user-scale and early evidence", "value_type": "reported_social_pattern"},
+        "single_points_of_failure": {"value": "a limited number of general-purpose models underpin applications across healthcare, finance, education, and other sectors, allowing faults to propagate across dependent systems", "unit": "report systemic-dependence analysis", "value_type": "reported_systemic_mechanism"}
+      },
+      "method": "Synthesis of labor-market research, human-autonomy studies, AI-companion evidence, market and infrastructure concentration analysis, and cross-sector deployment risks.",
+      "uncertainty": "The report distinguishes early evidence from established population effects; social, labor, and systemic outcomes depend on deployment design, substitution, complements, user adaptation, and institutional response.",
+      "subgroup": "Early-career workers, knowledge workers, users of AI companions, students, patients, financial and education systems, and communities dependent on shared model infrastructure.",
+      "counterinterpretation": "AI can augment expertise, improve access, and support social or public services; dependence risk grows when a small number of models become difficult to replace or audit across many domains.",
+      "source_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "retrieval_hash": "sha256:1c56e1957f91b38bb780f6d09d618d2123173a14a67bd4e9aaa8bc22a9816139",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; risk-management practices and institutional resilience",
+      "denominator": {"value": 12, "unit": "companies reported as publishing or updating Frontier AI Safety Frameworks in 2025", "value_type": "corporate_risk_management_frame"},
+      "measures": {
+        "frontier_frameworks": {"value": 12, "unit": "companies publishing or updating frontier AI safety frameworks in 2025", "value_type": "reported_company_count"},
+        "voluntary_management": {"value": "AI risk-management initiatives remain largely voluntary while a small number of regulatory regimes begin formalising practices", "unit": "report governance assessment", "value_type": "reported_governance_pattern"},
+        "defence_in_depth": {"value": "layering threat modelling, capability evaluation, safeguards, incident reporting, and governance is more robust than relying on a single control", "unit": "report risk-management synthesis", "value_type": "reported_policy_route"},
+        "resilience": {"value": "societal resilience requires critical-infrastructure protection, AI-content detection, and institutional capacity to absorb and recover from incidents", "unit": "report policy route", "value_type": "reported_resilience_route"}
+      },
+      "method": "Descriptive review of company safety frameworks, evaluations, threat modelling, incident reporting, technical safeguards, regulatory developments, and societal-resilience measures.",
+      "uncertainty": "Evidence on real-world effectiveness remains limited; the report does not rank one governance approach as universally adequate or evaluate implementation in every jurisdiction.",
+      "subgroup": "Model developers, cloud and data providers, deployers, auditors, regulators, public agencies, civil society, users, and communities responsible for response and recovery.",
+      "counterinterpretation": "Voluntary frameworks can establish useful common practices and respond faster than legislation, while regulation can create minimum obligations and accountability; both can be incomplete without transparency and coordination.",
+      "source_url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "retrieval_hash": "sha256:1c56e1957f91b38bb780f6d09d618d2123173a14a67bd4e9aaa8bc22a9816139",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://internationalaisafetyreport.org/publication/2026-report-executive-summary", "claim": "Official three-page executive summary of 2026 capability, risk, and risk-management findings."},
+    {"source_url": "https://internationalaisafetyreport.org/publications", "claim": "Official publication catalogue describing the report's international expert and organisational backing."},
+    {"source_url": "https://internationalaisafetyreport.org/sites/default/files/2026-02/international-ai-safety-report-2026.pdf", "claim": "Full official International AI Safety Report 2026 PDF."}
+  ],
+  "boundary": "This record adds a scientific risk-and-resilience route across general-purpose AI capability, malicious use, malfunctions, systemic dependence, labor, human autonomy, AI companions, safeguards, governance, and societal resilience. It uses an international scientific review and evidence synthesis, not respondent-level ingestion, a probability forecast of catastrophic outcomes, a complete incident or misuse census, a causal evaluation of any safeguard, or proof that one risk-management regime is sufficient.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official International AI Safety Report 2026 page and executive-summary page reviewed for expert frame, capability trajectory, malicious-use evidence, malfunction evidence, systemic risks, AI-companion findings, shared-model dependence, safety-framework adoption, voluntary governance, defence-in-depth, and societal-resilience claims.",
+    "source_url_sha256": "sha256:1c56e1957f91b38bb780f6d09d618d2123173a14a67bd4e9aaa8bc22a9816139",
+    "checked": "2026-09-27"
+  }
+}

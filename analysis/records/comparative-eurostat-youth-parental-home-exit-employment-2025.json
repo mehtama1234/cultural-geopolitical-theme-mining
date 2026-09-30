@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-youth-parental-home-exit-employment-2025",
+  "title": "Youth household autonomy arrives at very different ages across Europe and tracks employment conditions",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Eurostat 2025 European Union Labour Force Survey and youth-demography indicators, published 15 September 2026",
+  "geography": "European Union; young people ages 15-34, with employment comparison for ages 20-29",
+  "observations": [
+    {
+      "period": "2025; average age at leaving the parental home",
+      "denominator": {"value": 1, "unit": "EU population ages 15-34 under Eurostat parental-home exit probability method", "value_type": "reported_indicator_frame"},
+      "measures": {
+        "eu_average_exit_age": {"value": 26.3, "unit": "average approximate age at which young people leave the parental home", "value_type": "reported_average_indicator"},
+        "prior_year_exit_age": {"value": 26.2, "unit": "average approximate age in 2024", "value_type": "reported_average_indicator"},
+        "highest_exit_age": {"value": "Croatia 31.5; Greece and Slovakia 30.9; Spain and Italy 30.2", "unit": "reported country average ages", "value_type": "reported_distribution"},
+        "lowest_exit_age": {"value": "Finland 21.4; Denmark 21.8; Estonia and Lithuania 22.7", "unit": "reported country average ages", "value_type": "reported_distribution"},
+        "country_range": {"value": 10.1, "unit": "year difference between Croatia and Finland", "value_type": "calculated_difference_from_published_indicators"},
+        "mechanism": {"value": "Household autonomy is a culturally and materially consequential transition: the age of parental-home exit structures privacy, spending control, mobility, social life, care exchange, and exposure to housing and labor-market constraints", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat approximate indicator based on whether EU Labour Force Survey respondents ages 15-34 live in households with their parents; the exit age is the age at which 50% of the population no longer live with parent(s), calculated separately by sex and then combined.",
+      "uncertainty": "This is an aggregate transition indicator, not a longitudinal household history or a measure of voluntary independence, housing affordability, relationship quality, financial transfers, or cultural/consumer autonomy. Cross-country differences combine labor, housing, family, education, and cultural conditions.",
+      "subgroup": "Young people ages 15-34 across EU Member States.",
+      "counterinterpretation": "Later exit can reflect supportive multigenerational households rather than deprivation, while earlier exit can coexist with high rents, insecurity, debt, or weak family support; the average does not reveal individual trajectories.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260915-1",
+      "retrieval_hash": "sha256:a1d73c75993f8b1d30dc1ed64e099db8957313f36f92f9c0af62c5dee2121894",
+      "status": "reported"
+    },
+    {
+      "period": "2025; youth employment and parental-home exit comparison",
+      "denominator": {"value": 1, "unit": "EU young people ages 20-29 employment-rate and parental-home-exit comparison frame", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "eu_youth_employment_rate": {"value": 65.5, "unit": "percent employment rate among EU young people ages 20-29", "value_type": "reported_share"},
+        "employment_exit_pattern": {"value": "countries with earlier parental-home exit tended generally to have above-average employment among ages 20-29, while countries with later exit tended generally to have below-average employment", "unit": "reported cross-indicator pattern", "value_type": "reported_association"},
+        "earlier_exit_examples": {"value": "Netherlands, Denmark, Germany, and Sweden", "unit": "named country examples associated with earlier exit and higher youth employment", "value_type": "reported_examples"},
+        "later_exit_examples": {"value": "Greece, Croatia, Spain, and Italy", "unit": "named country examples associated with later exit and lower youth employment", "value_type": "reported_examples"},
+        "mechanism": {"value": "Employment and household formation may reinforce each other through income, rent access, mobility, education timing, and family support, but the published comparison does not identify direction or causality", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat juxtaposition of the parental-home exit indicator with the 2025 EU-LFS employment rate for young people ages 20-29.",
+      "uncertainty": "The reported cross-indicator pattern is not a regression, causal estimate, or individual-level linkage. Employment rates, housing markets, education systems, family norms, migration, and household composition may jointly shape both outcomes.",
+      "subgroup": "Young people ages 20-29 for employment and ages 15-34 for household exit, compared across EU countries.",
+      "counterinterpretation": "The association can arise from common national conditions or selection; earlier exit does not prove labor-market success and later exit does not prove labor-market failure.",
+      "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260915-1",
+      "retrieval_hash": "sha256:a1d73c75993f8b1d30dc1ed64e099db8957313f36f92f9c0af62c5dee2121894",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/web/children-and-youth/database", "claim": "Eurostat children-and-youth database route for the yth_demo_030 indicator."},
+    {"source_url": "https://ec.europa.eu/eurostat/web/labour-market/database", "claim": "Eurostat labour-market database route for the lfsa_ergaed employment indicator."}
+  ],
+  "boundary": "This record adds an EU youth household-formation, autonomy, and employment-association layer. It does not establish causal employment effects, housing affordability, family support quality, migration motives, cultural participation, consumer spending, or individual independence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat 15 September 2026 article retrieved; EU average exit age, 2024 comparison, highest and lowest country groups, employment-rate comparison, named examples, and approximate exit-probability method reviewed.",
+    "html_sha256": "sha256:a1d73c75993f8b1d30dc1ed64e099db8957313f36f92f9c0af62c5dee2121894",
+    "checked": "2026-09-30"
+  }
+}

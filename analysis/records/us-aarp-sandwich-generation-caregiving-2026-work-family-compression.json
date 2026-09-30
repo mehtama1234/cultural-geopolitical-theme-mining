@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aarp-sandwich-generation-caregiving-2026-work-family-compression",
+  "title": "Sandwich-generation caregiving compresses complex care, paid work, and family life into the same hours",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "AARP Public Policy Institute and National Alliance for Caregiving, Caught in the Middle: The Crucial Role of Sandwich Generation Caregivers, part of the Caregiving in the US 2025 series",
+  "geography": "United States; family caregivers of adults with complex medical conditions or disabilities who are also raising children",
+  "observations": [
+    {
+      "period": "2025 caregiving survey; sandwich-generation caregivers",
+      "denominator": {"value": 1, "unit": "adult family caregivers caring for an adult while raising children", "value_type": "survey_population"},
+      "measures": {
+        "sandwich_generation_count": {"value": "nearly 17 million people", "unit": "family caregivers", "value_type": "reported_population_estimate"},
+        "share_of_adult_caregivers": {"value": 29, "unit": "percent of caregivers of an adult", "value_type": "reported_share"},
+        "average_age": {"value": 42, "unit": "years", "value_type": "reported_average"}
+      },
+      "method": "AARP/National Alliance for Caregiving Caregiving in the US 2025 survey series, with a dedicated analysis of caregivers simultaneously raising children and caring for an adult with a complex medical condition or disability.",
+      "uncertainty": "The source describes a survey-defined caregiving population and does not establish that sandwich status caused any reported work, health, or financial outcome; counts depend on caregiving and child-rearing definitions.",
+      "subgroup": "Adult family caregivers who are raising children while caring for an adult with complex medical needs or a disability.",
+      "counterinterpretation": "The overlap can reflect life-course timing, family preference, cultural obligation, or available formal care as well as inadequate support; the population estimate does not measure unmet need by itself.",
+      "source_url": "https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-us-sandwich-generation/",
+      "retrieval_hash": "sha256:b69e09c3a93e4c1ce3663c41b4ede7852cf68d6c784d26c2e86ef84fa7f5fbd7",
+      "status": "reported"
+    },
+    {
+      "period": "2025 caregiving survey; weekly care and task intensity",
+      "denominator": {"value": 1, "unit": "sandwich-generation caregivers and other adult caregivers", "value_type": "survey_population"},
+      "measures": {
+        "weekly_care_hours": {"value": 27, "unit": "average hours per week for sandwich-generation caregivers; about the same as other caregivers", "value_type": "reported_average"},
+        "high_intensity_care": {"value": 48, "unit": "percent of sandwich-generation caregivers, versus 36% of other caregivers", "value_type": "reported_share"},
+        "medical_or_nursing_tasks": {"value": 61, "unit": "percent of sandwich-generation caregivers, versus 53% of other caregivers", "value_type": "reported_share"}
+      },
+      "method": "Descriptive subgroup comparisons from the Caregiving in the US 2025 survey series; intensity combines hours and assistance with complex daily or medical tasks as defined by the source.",
+      "uncertainty": "Equal average hours do not mean equal burden: task complexity, scheduling, child needs, paid work, travel, and care-recipient condition are not fully represented by the weekly-hour comparison.",
+      "subgroup": "Sandwich-generation caregivers compared with other caregivers of adults.",
+      "counterinterpretation": "The higher-intensity pattern may partly reflect differences in the conditions of care recipients or in who identifies as a caregiver, rather than a general effect of raising children.",
+      "source_url": "https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-us-sandwich-generation/",
+      "retrieval_hash": "sha256:b69e09c3a93e4c1ce3663c41b4ede7852cf68d6c784d26c2e86ef84fa7f5fbd7",
+      "status": "reported"
+    },
+    {
+      "period": "2025 caregiving survey; health, work, and financial consequences",
+      "denominator": {"value": 1, "unit": "sandwich-generation caregivers", "value_type": "survey_population"},
+      "measures": {
+        "physical_strain_relative_risk": {"value": "50% higher risk of physical strain than other caregivers", "unit": "relative comparison", "value_type": "reported_comparison"},
+        "work_disruption": {"value": 67, "unit": "percent reporting a work disruption due to caregiving", "value_type": "reported_share"},
+        "high_financial_strain": {"value": 22, "unit": "percent, versus 16% of other caregivers", "value_type": "reported_share"},
+        "provider_asked_caregiver_needs": {"value": 16, "unit": "percent who had ever been asked by a health care provider what they needed to care for themselves", "value_type": "reported_share"}
+      },
+      "method": "Subgroup estimates from the Caregiving in the US 2025 survey series covering caregiver-reported physical, employment, financial, and health-system contact experiences.",
+      "uncertainty": "These are self-reported, cross-sectional associations; work disruption and financial strain are not broken into hours, earnings, debt, job exit, or employer support, and provider contact does not measure the adequacy of any help received.",
+      "subgroup": "Sandwich-generation caregivers; comparisons are with other adult caregivers where the source reports them.",
+      "counterinterpretation": "Families may absorb disruption through flexible work, kin support, savings, or reduced consumption; reported strain does not show which coping route was chosen or whether it lasted.",
+      "source_url": "https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-us-sandwich-generation/",
+      "retrieval_hash": "sha256:b69e09c3a93e4c1ce3663c41b4ede7852cf68d6c784d26c2e86ef84fa7f5fbd7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.26419/ppi.00421.001", "claim": "Official DOI citation for the report, published September 15, 2026.", "status": "official-source"}
+  ],
+  "boundary": "This record adds a life-course and household-capacity layer to the care stream: sandwich-generation caregivers are a large population that compresses complex adult care and child-rearing into overlapping time, work, health, and financial obligations. It does not establish causality, care adequacy, household trajectories, or the effects of any specific policy or employer intervention."
+}

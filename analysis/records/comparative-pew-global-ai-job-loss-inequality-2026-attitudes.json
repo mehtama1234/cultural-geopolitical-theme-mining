@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-global-ai-job-loss-inequality-2026-attitudes",
+  "title": "Across 37 countries, people more often expect AI to reduce jobs and widen inequality than to create broad economic opportunity",
+  "theme_ids": ["work", "time", "voice", "cost", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center, Globally, More People Expect AI to Cause Job Loss Than Growth, 17 September 2026",
+  "geography": "Adults in 36 countries surveyed in 2026, with comparisons across high- and middle-income countries and age, gender, income, education, ideology, and AI-awareness groups",
+  "observations": [
+    {
+      "period": "February 8-May 13, 2026; global expectations about AI and jobs",
+      "denominator": {"value": 42151, "unit": "adults surveyed across 36 countries", "value_type": "published_survey_sample"},
+      "measures": {
+        "country_pattern": {"value": 34, "unit": "number of 37 countries in which people tend to expect AI to lead to fewer rather than more jobs", "value_type": "reported_country_count"},
+        "high_income_job_loss": {"value": 55, "unit": "median percent in 18 high-income countries saying AI will lead to fewer jobs in the next 20 years", "value_type": "reported_median_share"},
+        "middle_income_job_loss": {"value": 36, "unit": "median percent in 18 middle-income countries saying AI will lead to fewer jobs", "value_type": "reported_median_share"},
+        "work-route": {"value": "AI is entering public imagination as a labor-market redistribution problem before it is broadly accepted as a growth opportunity", "unit": "reported global attitude mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Pew Research Center international survey of nationally sampled adults across 36 countries, with the report’s 37-country comparisons incorporating U.S. survey data.",
+      "uncertainty": "These are expectations about a 20-year future, not forecasts or observed job losses; country medians conceal occupational, sectoral, and class differences.",
+      "subgroup": "Workers, young adults, older adults, high- and middle-income publics, people with different education and AI awareness, employers, and policymakers.",
+      "counterinterpretation": "Lower job-loss concern in some middle-income settings may reflect uncertainty or lower awareness rather than confidence that AI will create opportunity.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+      "retrieval_hash": "sha256:b2dd578f3ae3c140b531663bba647ddfdd7b305bc1a2e6fd5fbefc5ecbcb88aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI, economic inequality, and development position",
+      "denominator": {"value": 100, "unit": "country-adult attitude percentage reference", "value_type": "reported_attitude_base"},
+      "measures": {
+        "high_income_inequality": {"value": 35, "unit": "median percent in high-income countries saying AI will increase the gap between rich and poor", "value_type": "reported_median_share"},
+        "middle_income_inequality": {"value": 22, "unit": "median percent in middle-income countries saying AI will increase the gap", "value_type": "reported_median_share"},
+        "us_colombia_contrast": {"value": "46 percent in the U.S. versus 13 percent in Colombia say AI will increase the rich-poor gap", "unit": "reported country comparison", "value_type": "reported_comparison"},
+        "distribution_route": {"value": "public expectations about AI’s distributive effects vary with national income, awareness, education, household income, and political ideology", "unit": "reported inequality mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Pew cross-national comparison of perceived AI effects on economic inequality and subgroup differences.",
+      "uncertainty": "Attitudes about inequality do not estimate actual distributional effects or identify whether AI, policy, labor institutions, or market power will determine outcomes.",
+      "subgroup": "Higher- and lower-income households, educated and less-educated adults, left and right ideological groups, and populations in different development contexts.",
+      "counterinterpretation": "Different expectations may reflect different exposure, information, economic structures, or trust rather than disagreement about AI’s underlying capabilities.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+      "retrieval_hash": "sha256:b2dd578f3ae3c140b531663bba647ddfdd7b305bc1a2e6fd5fbefc5ecbcb88aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI concern, excitement, and awareness",
+      "denominator": {"value": 100, "unit": "adult attitude percentage reference across 37 countries", "value_type": "reported_attitude_base"},
+      "measures": {
+        "concern": {"value": 37, "unit": "median percent more concerned than excited about increased AI use in daily life", "value_type": "reported_median_share"},
+        "mixed_feeling": {"value": 41, "unit": "median percent equally concerned and excited", "value_type": "reported_median_share"},
+        "excitement": {"value": 14, "unit": "median percent more excited than concerned in high-income countries", "value_type": "reported_median_share"},
+        "awareness_route": {"value": "AI awareness is associated with more differentiated and sometimes more optimistic views, while low awareness is more often paired with uncertainty or concern", "unit": "reported attitude mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Pew survey comparison of concern, excitement, uncertainty, and AI awareness across countries and demographic groups.",
+      "uncertainty": "The relationship between awareness and optimism is correlational; awareness may reflect education, occupation, access, media, or prior experience.",
+      "subgroup": "Adults with different AI awareness, education, age, household income, and national technology exposure.",
+      "counterinterpretation": "Mixed concern and excitement may indicate active evaluation and openness to governance rather than simple rejection or adoption.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+      "retrieval_hash": "sha256:b2dd578f3ae3c140b531663bba647ddfdd7b305bc1a2e6fd5fbefc5ecbcb88aa",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; age and gender differences in AI expectations",
+      "denominator": {"value": 1, "unit": "Pew subgroup comparison frame", "value_type": "comparative_subgroup_frame"},
+      "measures": {
+        "young_adult_concern": {"value": "in multiple countries, young adults are more likely than older adults to expect AI-related job loss; concern among U.S. adults ages 18-34 rose from 40 percent in 2024 to 55 percent in 2026", "unit": "reported subgroup pattern", "value_type": "reported_comparison"},
+        "gender_gap": {"value": "in 11 mostly high-income countries, women are more likely than men to expect fewer jobs from AI; in France the gap is 10 percentage points", "unit": "reported subgroup pattern", "value_type": "reported_comparison"},
+        "political_gap": {"value": "in the U.S., adults on the left are 31 points more likely than conservatives to say AI will increase inequality", "unit": "reported ideological difference", "value_type": "reported_comparison"},
+        "open_test": {"value": "connect AI attitudes to actual work transitions, bargaining power, training, regulation, and household security without treating expectations as outcomes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Pew subgroup analysis by age, gender, ideology, education, household income, and awareness, including repeated U.S. measures.",
+      "uncertainty": "Subgroup differences describe attitudes and do not show which groups will experience job displacement, benefit from productivity, or gain political influence.",
+      "subgroup": "Young adults, older adults, women and men, ideological groups, workers, students, and households with unequal access to AI knowledge or protection.",
+      "counterinterpretation": "Greater concern can reflect higher awareness and engagement rather than greater vulnerability; younger adults may be more exposed to future labor-market change but not necessarily harmed.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+      "retrieval_hash": "sha256:b2dd578f3ae3c140b531663bba647ddfdd7b305bc1a2e6fd5fbefc5ecbcb88aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/global/2026/09/17/concerns-about-ai-are-especially-widespread-in-high-income-countries/", "claim": "Pew high-income-country analysis provides complementary development-position and AI-concern context."},
+    {"source_url": "https://www.pewresearch.org/global/2026/09/17/what-do-young-people-around-the-world-think-about-ai/", "claim": "Pew youth analysis provides complementary age-specific AI concern and job-expectation context."}
+  ],
+  "boundary": "This record adds a global AI-attitudes route from job-loss expectations and inequality concerns through awareness, age, gender, ideology, and possible labor-market governance. It uses public-opinion evidence, not realized job displacement, firm productivity, causal policy effects, respondent-level data in the corpus, or proof that pessimistic expectations become outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew Research Center report page was reviewed for the 36-country sample, 37-country comparison, job-loss and inequality medians, concern-excitement measures, age and gender patterns, repeated U.S. comparisons, and methodological boundaries.",
+    "source_url_sha256": "sha256:b2dd578f3ae3c140b531663bba647ddfdd7b305bc1a2e6fd5fbefc5ecbcb88aa",
+    "checked": "2026-09-26"
+  }
+}

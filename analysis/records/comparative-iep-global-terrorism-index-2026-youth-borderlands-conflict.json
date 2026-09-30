@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iep-global-terrorism-index-2026-youth-borderlands-conflict",
+  "title": "Terrorism declined globally in 2025 but became more concentrated in conflict zones, borderlands, and youth radicalisation pathways",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Institute for Economics & Peace, Global Terrorism Index 2026",
+  "geography": "163 countries covering 99.7 percent of the world population, with global, regional, borderland, conflict, and youth-radicalisation comparisons",
+  "observations": [
+    {
+      "period": "2025; global terrorism incidents and deaths",
+      "denominator": {"value": 163, "unit": "countries ranked by the Global Terrorism Index", "value_type": "global_terrorism_index_frame"},
+      "measures": {
+        "terrorism_deaths": {"value": 5582, "unit": "people killed in terrorist attacks in 2025", "value_type": "reported_death_count"},
+        "terrorism_incidents": {"value": 2944, "unit": "terrorist incidents in 2025", "value_type": "reported_incident_count"},
+        "deaths_change": {"value": -28, "unit": "percent change in terrorism deaths from the prior year", "value_type": "reported_index_change"},
+        "incidents_change": {"value": -22, "unit": "percent change in terrorism incidents from the prior year", "value_type": "reported_index_change"},
+        "measurement": {"value": "GTI scores combine incidents, fatalities, injuries, and hostages with a five-year weighting", "unit": "IEP index methodology", "value_type": "reported_method"}
+      },
+      "method": "IEP Global Terrorism Index using TerrorismTracker event records and four indicators weighted over five years: incidents, fatalities, injuries, and hostages.",
+      "uncertainty": "Counts depend on event definitions, source coverage, attribution, and reporting; a global decline can coexist with regional escalation and does not imply broad subjective safety.",
+      "subgroup": "Civilians, communities in conflict-affected countries, governments, security institutions, and populations exposed to terrorism or counterterrorism.",
+      "counterinterpretation": "The 2025 decline is a meaningful improvement in aggregate impact even if the report warns that it may be temporary and unevenly distributed.",
+      "source_url": "https://www.economicsandpeace.org/global-terrorism-index/",
+      "retrieval_hash": "sha256:cb3ad1f4c83f5b2818bbd212a4d5372c0e0f795f2c22fddae80d08c03c46d5a0",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional concentration and country exposure",
+      "denominator": {"value": 10, "unit": "countries most impacted by terrorism in the GTI 2026 summary", "value_type": "country_rank_frame"},
+      "measures": {
+        "sub_saharan_africa_share": {"value": "more than half of global terrorism deaths occurred in sub-Saharan Africa in 2025", "unit": "IEP regional synthesis", "value_type": "reported_regional_share"},
+        "sub_saharan_africa_top_ten": {"value": 6, "unit": "countries among the ten most impacted by terrorism located in sub-Saharan Africa", "value_type": "reported_country_count"},
+        "pakistan_deaths": {"value": 1139, "unit": "terrorism deaths in Pakistan in 2025", "value_type": "reported_death_count"},
+        "pakistan_incidents": {"value": 1045, "unit": "terrorism incidents in Pakistan in 2025", "value_type": "reported_incident_count"},
+        "regional_shift": {"value": "the epicentre of terrorism has shifted from the Middle East and North Africa toward the Sahel region of sub-Saharan Africa", "unit": "IEP trend synthesis", "value_type": "reported_geographic_shift"}
+      },
+      "method": "IEP regional and country comparison using GTI scores, incidents, fatalities, and longitudinal terrorism trends.",
+      "uncertainty": "Regional concentration is sensitive to conflict intensity, reporting, and the index's five-year weighting; it does not mean terrorism is absent elsewhere.",
+      "subgroup": "Communities in the Sahel and other conflict-affected regions, border populations, displaced people, local authorities, and humanitarian actors.",
+      "counterinterpretation": "Deaths fell in ten sub-Saharan African countries in 2025 even while the region remained the global epicentre, showing that aggregate concentration and local improvement can coexist.",
+      "source_url": "https://www.economicsandpeace.org/global-terrorism-index/",
+      "retrieval_hash": "sha256:cb3ad1f4c83f5b2818bbd212a4d5372c0e0f795f2c22fddae80d08c03c46d5a0",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; youth and online radicalisation in Western countries",
+      "denominator": {"value": 1, "unit": "terrorism investigations and fatal-attack synthesis for Europe and North America", "value_type": "youth_radicalisation_frame"},
+      "measures": {
+        "youth_investigation_share": {"value": 42, "unit": "percent of terror-related investigations involving children and adolescents in 2025", "value_type": "reported_investigation_share"},
+        "youth_investigation_change": {"value": 3, "unit": "fold increase in youth terrorism investigations since 2021", "value_type": "reported_trend"},
+        "radicalisation_timeline": {"value": "radicalisation timelines have compressed from longer historical periods to a matter of weeks in the report's 2026 assessment", "unit": "IEP terrorism synthesis", "value_type": "reported_mechanism"},
+        "lone_wolf_share": {"value": 93, "unit": "percent of fatal terrorist attacks in the West attributed to lone-wolf actors over the last five years", "value_type": "reported_attack_share"},
+        "platform_route": {"value": "extremist networks use algorithm-driven platforms and encrypted messaging to build bonds and move toward operational planning", "unit": "IEP report synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "IEP analysis of terrorism investigations, attack patterns, radicalisation timelines, and online recruitment pathways.",
+      "uncertainty": "Investigation counts and radicalisation classifications do not identify causal platform effects, individual trajectories, or the prevalence of radical beliefs in the wider youth population.",
+      "subgroup": "Children and adolescents, isolated youth, families, schools, online platforms, law enforcement, community organizations, and victims of terrorism.",
+      "counterinterpretation": "Most young people exposed to harmful content do not become terrorists; prevention, support, digital literacy, and trusted relationships may interrupt risk pathways.",
+      "source_url": "https://www.economicsandpeace.org/global-terrorism-index/",
+      "retrieval_hash": "sha256:cb3ad1f4c83f5b2818bbd212a4d5372c0e0f795f2c22fddae80d08c03c46d5a0",
+      "status": "reported"
+    },
+    {
+      "period": "2007-2025; borderlands, state control, and recruitment conditions",
+      "denominator": {"value": 1, "unit": "global terrorism geography and recruitment synthesis frame", "value_type": "borderlands_terrorism_frame"},
+      "measures": {
+        "within_100km": {"value": 64, "unit": "percent of terrorist attacks occurring within 100 kilometres of an international border in 2025", "value_type": "reported_attack_share"},
+        "borderland_pattern": {"value": "persistent hotspots include the Colombia-Venezuela frontier, Afghanistan-Pakistan borderlands, Central Sahel tri-border, and Lake Chad Basin", "unit": "IEP geographic synthesis", "value_type": "reported_hotspot_set"},
+        "human_rights_abuse_motivation": {"value": 71, "unit": "percent of sub-Saharan African recruits citing human-rights abuses by state security forces as the final catalyst for joining, in the report's synthesis", "value_type": "reported_recruitment_share"},
+        "job_opportunity_motivation": {"value": 25, "unit": "percent of voluntary recruits citing a total lack of job opportunities as their primary motivation in the report's synthesis", "value_type": "reported_recruitment_share"},
+        "state_control": {"value": "weak state control, porous borders, under-governed territory, and connected cross-border communities can create recruitment and operating spaces", "unit": "IEP mechanism framing", "value_type": "reported_mechanism_set"}
+      },
+      "method": "IEP spatial and thematic analysis of terrorism events, border proximity, governance conditions, and reported recruitment motivations.",
+      "uncertainty": "Recruitment-motivation shares depend on available study and reporting frames; they do not establish one universal cause or justify treating all border communities as risky.",
+      "subgroup": "Border communities, young people, people facing abuses or unemployment, local authorities, security forces, and cross-border populations.",
+      "counterinterpretation": "Borderlands can also support trade, family ties, mobility, and peacebuilding; weak state presence is not equivalent to community support for terrorism.",
+      "source_url": "https://www.economicsandpeace.org/global-terrorism-index/",
+      "retrieval_hash": "sha256:cb3ad1f4c83f5b2818bbd212a4d5372c0e0f795f2c22fddae80d08c03c46d5a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.economicsandpeace.org/wp-content/uploads/2026/03/Global-Terrorism-Index-2026-Briefing.pdf", "claim": "IEP GTI 2026 briefing provides global results, borderland, youth-radicalisation, and trend context."},
+    {"source_url": "https://www.economicsandpeace.org/wp-content/uploads/2026/03/GTI-2026-Press-Release.pdf", "claim": "IEP GTI 2026 press release provides headline death, incident, youth, borderland, and regional findings."}
+  ],
+  "boundary": "This record adds a terrorism route across global decline, regional concentration, conflict linkage, borderlands, youth radicalisation, online pathways, governance, and employment conditions. It uses aggregate IEP index measures and report synthesis, not respondent-level radicalisation histories, individual victim files, raw case-management records, causal platform effects, or proof that any correlate is a universal cause of terrorism.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IEP GTI 2026 page, press release, briefing, and index methodology reviewed for scope, indicators, global 2025 totals, regional concentration, Pakistan, youth radicalisation, lone-wolf attacks, border proximity, and recruitment conditions.",
+    "source_url_sha256": "sha256:cb3ad1f4c83f5b2818bbd212a4d5372c0e0f795f2c22fddae80d08c03c46d5a0",
+    "checked": "2026-09-26"
+  }
+}

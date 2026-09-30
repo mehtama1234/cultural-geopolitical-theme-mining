@@ -1,0 +1,112 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyc-universal-school-meals-access-learning-2026",
+  "title": "Universal school meals can convert stigma-free access into participation and learning gains while leaving food quality, waste, and household spillovers contested",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "New York City Public Schools administrative meal system, New York City Comptroller review, and longitudinal student-level evaluation of universal free meals",
+  "geography": "New York City public schools; citywide meal operations and middle-school evaluation",
+  "observations": [
+    {
+      "period": "2010-2013; NYC middle-school universal-free-lunch evaluation",
+      "denominator": {"value": 1, "unit": "longitudinal student-level evaluation of NYC middle schools adopting universal free lunch", "value_type": "evaluation_design"},
+      "measures": {
+        "lunch_participation_nonpoor": {"value": 11, "unit": "percentage-point increase in school-lunch participation among students not previously eligible for free or reduced-price meals", "value_type": "reported_estimate"},
+        "lunch_participation_poor": {"value": 5.4, "unit": "percentage-point increase among students previously eligible for free or reduced-price meals", "value_type": "reported_estimate"},
+        "math_effect_nonpoor": {"value": 0.083, "unit": "standard deviations estimated math test-score increase among non-poor students", "value_type": "reported_estimate"},
+        "ela_effect_nonpoor": {"value": 0.059, "unit": "standard deviations estimated English Language Arts test-score increase among non-poor students", "value_type": "reported_estimate"},
+        "mechanism": {"value": "Universalizing a previously means-tested resource can reduce stigma and administrative sorting while increasing meal use and measured academic outcomes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Difference-in-differences evaluation using longitudinal student-level New York City middle-school data, with additional instrumental-variable analysis of meal participation.",
+      "uncertainty": "The estimates concern historical middle schools and the study design; they do not establish current citywide effects, household food security, health, attendance, or durable cultural belonging.",
+      "subgroup": "Students previously eligible versus not previously eligible for subsidized meals in evaluated middle schools.",
+      "counterinterpretation": "The policy may operate through several channels—food access, stigma reduction, time, school routines, or selection into participating schools—and the study cannot turn the estimated score change into a universal welfare measure.",
+      "source_url": "https://www.maxwell.syr.edu/docs/default-source/research/cpr/working-papers/wp-203-let-them-eat-lunch.pdf",
+      "retrieval_hash": "sha256:abb182e6cefd8e5acfbfc0bbcfcfab700467d33a89e0562c42cdc9bd76c5b152",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2025; current system scale",
+      "denominator": {"value": 1319, "unit": "school buildings in which NYC school food was served", "value_type": "reported_program_universe"},
+      "measures": {
+        "meals_served": {"value": 153283016, "unit": "meals served in FY2025 across participating NYC school-food buildings", "value_type": "reported_count"},
+        "daily_average": {"value": 935055, "unit": "meals served per day on average in FY2025", "value_type": "reported_count"},
+        "food_budget": {"value": 600, "unit": "million US dollars spent on food within a 4.9 billion dollar NYC Public Schools operating budget", "value_type": "reported_amount"},
+        "mechanism": {"value": "Universal access has become a large public food and care infrastructure, not merely a targeted benefit; scale creates both reach and operational accountability obligations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NYC Comptroller review using NYC Public Schools information and FY2025 meal-service data.",
+      "uncertainty": "Meals served are not unique students, consumed meals, nutritional adequacy, or a household-level estimate of food insecurity or grocery savings.",
+      "subgroup": "District, charter, non-public, and specialized school settings included in the reported service totals; the review does not provide a common individual denominator for all meals.",
+      "counterinterpretation": "High volume can coexist with uneven take-up, menu dissatisfaction, missed meals, food waste, or unequal access by schedule, disability, language, school location, or cultural and religious preference.",
+      "source_url": "https://comptroller.nyc.gov/reports/review-of-schools-food-donation-and-composting-efforts/",
+      "retrieval_hash": "sha256:e60b0e9e0ec1b6e31bc9627b0122f4163ad103e68aab563c5e42a8664b140e84",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 school year; public access and feedback route",
+      "denominator": {"value": 1, "unit": "NYC Public Schools universal school-meals policy", "value_type": "reported_policy"},
+      "measures": {
+        "eligibility": {"value": "Breakfast, lunch, and afterschool meals are offered at no cost to all NYC Public Schools students during the school year", "unit": "policy scope", "value_type": "reported_policy"},
+        "feedback": {"value": "NYC Public Schools solicits family and student input through food-service surveys, menus, school contacts, and community meetings", "unit": "reported feedback route", "value_type": "reported_context"},
+        "mechanism": {"value": "Formal universality removes an eligibility gate, but practical legitimacy still depends on whether meals are reachable, acceptable, culturally legible, and responsive to user feedback", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NYC Public Schools public program guidance and food-service feedback materials.",
+      "uncertainty": "The public guidance establishes availability and feedback channels, not response rates, menu changes attributable to feedback, consumption, or student trust.",
+      "subgroup": "All NYC Public Schools students during the school year, with menu and accommodation variation by school and program.",
+      "counterinterpretation": "A nominally universal program can still be uneven in practice because of timing, queueing, cafeteria conditions, accessibility, dietary needs, stigma residues, or family awareness.",
+      "source_url": "https://www.schools.nyc.gov/school-life/food/free-meals-for-all",
+      "retrieval_hash": "sha256:2969629df3e7e6c31480a5e7f637984f8a0385b3814e095bd6ea6cce895c6d7d",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025; operational compliance and waste surface",
+      "denominator": {"value": 2688, "unit": "food-providing programs reported in NYC's 2025 food-standards compliance table", "value_type": "reported_program_universe"},
+      "measures": {
+        "annual_meals_all_reported_programs": {"value": 220587668, "unit": "meals and snacks served annually across reporting programs in the compliance table", "value_type": "reported_count"},
+        "food_share_tables": {"value": 1396, "unit": "school buildings with food-share tables out of 1675 buildings where school food was served, according to the Comptroller review", "value_type": "reported_count"},
+        "mechanism": {"value": "Public provision creates a second accountability problem after access: quality standards, surplus handling, waste, and operational feedback shape whether universal care becomes trusted everyday infrastructure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NYC food-policy compliance reporting and Comptroller review of school food donation and composting operations.",
+      "uncertainty": "Compliance and food-sharing counts do not measure meal quality as experienced by students, actual waste avoided, food insecurity reduction, or educational outcomes.",
+      "subgroup": "School buildings and food programs rather than students or households; operational coverage varies across participating sites.",
+      "counterinterpretation": "Waste-management infrastructure can improve environmental performance without changing student take-up, and high meal volume can increase waste if menus or service conditions are poorly matched.",
+      "source_url": "https://www.nyc.gov/assets/foodpolicy/downloads/pdf/NYC-Food-Standards-Compliance-2025.pdf",
+      "retrieval_hash": "sha256:c082f947d588b65c9c659c78f864fb36609147d46b8bcec61f1c9d54fcbeb4c0",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025 / 2024-2025 school year; current city performance and cultural-fit indicators",
+      "denominator": {"value": 1, "unit": "NYC Public Schools Office of Food and Nutrition Services performance surface", "value_type": "administrative_performance_surface"},
+      "measures": {
+        "average_breakfasts_served_daily": {"value": 221232, "unit": "meals per day", "value_type": "reported_count"},
+        "average_lunches_served_daily": {"value": 549064, "unit": "meals per day", "value_type": "reported_count"},
+        "student_satisfaction": {"value": 74.6, "unit": "percent of students indicating satisfaction with Office of Food and Nutrition Services", "value_type": "reported_percentage"},
+        "schools_certified_halal_kosher": {"value": 119, "unit": "schools", "value_type": "reported_count"},
+        "mechanism": {"value": "A universal meal system's practical legitimacy is observable through use volume, reported student satisfaction, and the availability of culturally or religiously responsive meal certification, while the public indicator remains aggregate", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NYC Mayor's Management Report FY2025 / Office of Food and Nutrition Services performance indicators sourced from NYC Public Schools and NYC School Survey results.",
+      "uncertainty": "Satisfaction is an aggregate survey indicator, not a causal measure of meal quality or a representative student-level outcome; meal counts are served meals rather than unique students or consumed meals; certification counts do not establish actual availability, uptake, or adequacy for every student needing halal or kosher options.",
+      "subgroup": "NYC public-school students and participating school buildings covered by the city performance indicators; subgroup breakdowns by income, race, disability, language, school, and dietary need are not supplied here.",
+      "counterinterpretation": "Higher satisfaction can coexist with missed meals, food waste, queueing, culturally mismatched menus, or household food insecurity; certification capacity can coexist with uneven day-to-day access.",
+      "source_url": "https://www.nyc.gov/assets/operations/downloads/pdf/mmr2025/2025_mmr.pdf",
+      "retrieval_hash": "sha256:77be064f14bb31f4ef99064e16f29c2f9856e3fa45e22aed7cb873ca5dc87b24",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.schools.nyc.gov/school-life/school-meals", "claim": "Current NYC Public Schools guidance describes free school-year meals and routes for menu and community feedback."},
+    {"source_url": "https://www.nyc.gov/html/records/pdf/govpub/2659starting_the_day_hungry.pdf", "claim": "Earlier NYC policy analysis documents the administrative and participation logic behind universal school meals."}
+  ],
+  "boundary": "This record follows New York City's universal school-meals route from historical student-level evaluation through current program scale, access guidance, feedback channels, and operational compliance. It does not establish current causal effects, household food-security change, nutritional adequacy, equal practical access, or durable student trust and belonging across the city.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The Syracuse evaluation, NYC Comptroller review, NYC Public Schools guidance, and NYC food-policy compliance materials were reviewed for the reported historical effects, current scale, access rules, feedback channels, and waste/compliance boundaries.",
+    "checked": "2026-09-28"
+  }
+}

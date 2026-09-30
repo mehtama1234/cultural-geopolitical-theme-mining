@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg12-2026-materials-waste-subsidies-consumption",
+  "title": "Material use, waste, and fossil subsidies are rising faster than sustainable consumption governance can redirect them",
+  "theme_ids": ["cost", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 12: Responsible Consumption and Production",
+  "geography": "Global comparison of material use, waste, energy subsidies, sustainable production policies, and public procurement systems",
+  "observations": [
+    {
+      "period": "2015-2022; global material consumption and inequality",
+      "denominator": {"value": 1, "unit": "global domestic material consumption and population", "value_type": "global_material_frame"},
+      "measures": {
+        "global_dmc_2015": {"value": 92.1, "unit": "billion tons of global domestic material consumption in 2015", "value_type": "reported_quantity"},
+        "global_dmc_2022": {"value": 115.1, "unit": "billion tons of global domestic material consumption in 2022", "value_type": "reported_quantity"},
+        "dmc_growth": {"value": 25, "unit": "percent increase in global domestic material consumption between 2015 and 2022", "value_type": "reported_growth_rate"},
+        "higher_income_material_share": {"value": 80, "unit": "percent of global materials consumed by the half of the world's population living in higher-income countries", "value_type": "reported_share"}
+      },
+      "method": "UN SDG synthesis of domestic material consumption and per-capita use across income groups.",
+      "uncertainty": "Domestic material consumption measures direct material use and excludes some embodied upstream and exported material flows; income-group aggregation conceals large national and household variation.",
+      "subgroup": "Higher- and lower-income populations, material-intensive economies, producers, consumers, extractive sectors, and communities exposed to resource extraction.",
+      "counterinterpretation": "Material use can support housing, infrastructure, energy access, and development; the core issue is distribution, efficiency, durability, substitution, and whether welfare decouples from throughput.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-12/",
+      "retrieval_hash": "sha256:b828c3aeb2688571f1f3fc2203af82e77b48711f423a95a8b6f457dcc15f041f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; food waste and electronic waste",
+      "denominator": {"value": 1, "unit": "global consumer food-waste and electronic-waste streams", "value_type": "global_waste_frame"},
+      "measures": {
+        "consumer_food_waste": {"value": 1.05, "unit": "billion tons of annual consumer food waste", "value_type": "reported_quantity"},
+        "food_waste_emissions": {"value": 10, "unit": "percent of global greenhouse-gas emissions represented by food waste combined with food loss, at most", "value_type": "reported_share_boundary"},
+        "electronic_waste": {"value": 65, "unit": "million tons of electronic waste generated annually", "value_type": "reported_quantity"},
+        "formal_ewaste_recycling": {"value": 25, "unit": "less than percent of electronic waste formally recycled", "value_type": "reported_share_boundary"}
+      },
+      "method": "UN SDG synthesis of food-waste, food-loss, greenhouse-gas, and e-waste indicators.",
+      "uncertainty": "The figures use different accounting boundaries and reference years; formal recycling excludes informal recovery and does not establish safe handling, worker protection, or material recovery quality.",
+      "subgroup": "Households, retailers, food systems, electronics consumers, informal recyclers, waste workers, municipalities, and communities near disposal or extraction sites.",
+      "counterinterpretation": "Waste reduction can improve affordability and resource security, but responsibility cannot be placed only on consumers when product design, storage, pricing, standards, and infrastructure shape waste.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-12/",
+      "retrieval_hash": "sha256:b828c3aeb2688571f1f3fc2203af82e77b48711f423a95a8b6f457dcc15f041f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; fossil-fuel subsidies and market incentives",
+      "denominator": {"value": 1, "unit": "global fossil-fuel subsidy and sustainable-consumption policy frame", "value_type": "global_policy_frame"},
+      "measures": {
+        "fossil_subsidies_2024": {"value": 921, "unit": "billion US dollars in fossil-fuel subsidies in 2024", "value_type": "reported_value"},
+        "subsidy_trend": {"value": "subsidies declined for two consecutive years from the 2022 peak but remain well above pre-pandemic levels", "unit": "report trend synthesis", "value_type": "reported_status"},
+        "market_distortion": {"value": "subsidies can lower the apparent cost of carbon-intensive activity and divert public funds from sustainable development", "unit": "report mechanism", "value_type": "reported_mechanism"},
+        "minamata_reporting": {"value": 115, "unit": "parties out of 151 required parties submitting Minamata Convention reports covering 2021-2024", "value_type": "reported_count"}
+      },
+      "method": "UN SDG compilation of fossil-fuel subsidy estimates, treaty reporting, and sustainable-consumption policy indicators.",
+      "uncertainty": "Subsidy estimates depend on valuation and accounting choices; reducing subsidies can have distributional effects if replacement support, energy access, and affordability are not designed together.",
+      "subgroup": "Households, energy consumers, producers, governments, public budgets, fossil-fuel sectors, and communities facing energy poverty or pollution.",
+      "counterinterpretation": "Some subsidies are intended to cushion vulnerable households, while rapid withdrawal without targeted transfers can worsen cost pressure; the key distinction is incidence and policy design.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-12/",
+      "retrieval_hash": "sha256:b828c3aeb2688571f1f3fc2203af82e77b48711f423a95a8b6f457dcc15f041f",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; public procurement and implementation capacity",
+      "denominator": {"value": 54, "unit": "countries reporting sustainable-public-procurement compliance information", "value_type": "procurement_reporting_frame"},
+      "measures": {
+        "countries_monitoring_sustainable_contracts": {"value": 39, "unit": "countries out of 54 compliant countries reporting monitoring of sustainable-contract value or number", "value_type": "reported_count"},
+        "countries_monitoring_outcomes": {"value": 11, "unit": "countries out of 54 reporting monitoring of sustainable-procurement outcomes", "value_type": "reported_count"},
+        "outcome_monitoring_gap": {"value": 20, "unit": "percent of the 54-country reporting frame monitoring sustainability outcomes", "value_type": "reported_share"},
+        "governance_direction": {"value": "sustainable-consumption frameworks, circular-economy strategies, and public-procurement standards are more widely adopted, but implementation and outcome measurement lag", "unit": "report synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "UN SDG review of sustainable public procurement reporting, circular-economy strategies, and sustainable-consumption policy frameworks.",
+      "uncertainty": "The denominator is a reporting subset and monitoring definitions vary; adoption and contract measurement do not establish actual environmental outcomes or supplier behavior.",
+      "subgroup": "Public authorities, suppliers, workers, consumers, procurement officials, regulators, and communities affected by public purchasing and infrastructure.",
+      "counterinterpretation": "Procurement systems can create demand for better products and supply chains, but outcome measurement may take time and can be constrained by administrative capacity and fragmented standards.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-12/",
+      "retrieval_hash": "sha256:b828c3aeb2688571f1f3fc2203af82e77b48711f423a95a8b6f457dcc15f041f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/resources/global-environment-outlook-7", "claim": "UNEP GEO-7 provides complementary integrated environmental-system and transformation scenarios."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/", "claim": "UN SDG 15 provides complementary land, biodiversity, and ecosystem evidence."}
+  ],
+  "boundary": "This record adds a consumption-to-governance route linking material throughput, unequal use, food and electronic waste, fossil subsidies, procurement, and implementation capacity. It uses aggregate SDG indicators and policy reporting, not household purchase histories, individual waste behavior, causal subsidy effects, or proof that adopted policies deliver sustainable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 12 page was reviewed for material-use, income-distribution, food-waste, e-waste, fossil-subsidy, Minamata-reporting, procurement-monitoring, and implementation-gap claims.",
+    "source_url_sha256": "sha256:b828c3aeb2688571f1f3fc2203af82e77b48711f423a95a8b6f457dcc15f041f",
+    "checked": "2026-09-26"
+  }
+}

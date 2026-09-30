@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-employment-outlook-2026-regional-wages-mobility",
+  "title": "OECD labour markets remain resilient in aggregate while regional job gaps, slowing real-wage recovery, weak mobility, and employment-control practices divide opportunity",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD Employment Outlook 2026: Geographic Disparities in Jobs and Incomes",
+  "geography": "OECD member countries, national and small-region labour markets, wages, income mobility, skills, and employment regulation",
+  "observations": [
+    {
+      "period": "Q1–May 2026; OECD labour-market aggregate",
+      "denominator": {"value": 38, "unit": "OECD countries and labour-market indicators covered by the Outlook's aggregate context", "value_type": "OECD_labour_market_frame"},
+      "measures": {
+        "employment_rate": {"value": 72.1, "unit": "percent average OECD employment rate in Q1 2026", "value_type": "reported_share"},
+        "participation_rate": {"value": 76.7, "unit": "percent average OECD labour-force participation rate in Q1 2026", "value_type": "reported_share"},
+        "unemployment_rate": {"value": 4.9, "unit": "percent average OECD unemployment rate in May 2026", "value_type": "reported_rate"},
+        "weakening": {"value": "Employment and participation remain historically high, but unemployment is rising slightly, employment growth is flattening, and labour-market tightness is easing", "unit": "reported labour-market pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD cross-country labour-market surveillance using national labour-force, wage, employment, and regional data.",
+      "uncertainty": "Aggregate rates conceal sector, age, gender, migrant, regional, and contract differences; short-term movements are affected by economic, energy, trade, and geopolitical conditions.",
+      "subgroup": "Workers, jobseekers, young entrants, employers, regional labour markets, migrants, and people with different skills or employment arrangements.",
+      "counterinterpretation": "High employment and participation can indicate broad resilience, and easing tightness may improve matching or reduce recruitment pressure even if it weakens bargaining power for some workers.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report.html",
+      "retrieval_hash": "sha256:4eadcd1e1d0edd8b7c6bfacf1c2a7cf574491d5fb47c45aac7f2c6411c70defc",
+      "status": "reported"
+    },
+    {
+      "period": "Q1 2026; real wages and purchasing room",
+      "denominator": {"value": 37, "unit": "OECD countries with comparable real-wage data in Q1 2026", "value_type": "country_comparison_frame"},
+      "measures": {
+        "real_wage_growth": {"value": 2.2, "unit": "percent average annual real-wage growth in Q1 2026, compared with 2.7% in Q1 2025", "value_type": "reported_change"},
+        "below_preinflation_wages": {"value": 13, "unit": "OECD countries where real wages remained below Q1 2021 levels", "value_type": "country_count"},
+        "wage_slowdown": {"value": "Real-wage growth in Q1 2026 was lower than a year earlier in two-thirds of the countries analysed", "unit": "reported country share", "value_type": "reported_share"},
+        "room_mechanism": {"value": "Employment resilience does not guarantee recovery of household purchasing room when wages lag prices and energy or geopolitical shocks add pressure", "unit": "cross-source analytical mechanism", "value_type": "derived_mechanism"}
+      },
+      "method": "OECD comparison of real wages, inflation-adjusted earnings, wage recovery, and minimum-wage developments.",
+      "uncertainty": "Real-wage comparisons depend on deflators, reference periods, composition, and country-specific price baskets; they do not measure disposable income, household debt, or living costs directly.",
+      "subgroup": "Employees, low-paid workers, new hires, households exposed to energy and food costs, employers, and workers with different bargaining coverage.",
+      "counterinterpretation": "Positive real-wage growth can still improve conditions even when recovery is incomplete, and minimum-wage increases may protect the lowest paid while creating adjustment pressures for some employers.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-5.html",
+      "retrieval_hash": "sha256:4eadcd1e1d0edd8b7c6bfacf1c2a7cf574491d5fb47c45aac7f2c6411c70defc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regional opportunity and labour mobility",
+      "denominator": {"value": 1, "unit": "OECD small-region employment and income comparison", "value_type": "regional_labour_market_frame"},
+      "measures": {
+        "regional_gap": {"value": 20, "unit": "percentage points or more difference in employment rates across small regions in over half of OECD countries", "value_type": "reported_regional_gap"},
+        "mobility_constraint": {"value": "Few people move from low- to high-employment regions, and those who move are often the most employable", "unit": "reported mobility mechanism", "value_type": "reported_mechanism"},
+        "capital_region_advantage": {"value": "Capital regions generally offer better employment prospects, reflecting unequal distribution of economic opportunity across places", "unit": "reported spatial pattern", "value_type": "reported_pattern"},
+        "place_route": {"value": "Where people live shapes jobs, incomes, mobility options, and chances of moving up the income ladder", "unit": "reported regional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD analysis of small-region employment, income, labour mobility, and regional opportunity indicators.",
+      "uncertainty": "Regional averages do not identify each person's mobility constraints, housing costs, family obligations, discrimination, transport access, or the causal effect of moving.",
+      "subgroup": "Workers in lagging regions, young people, families, commuters, migrants, high- and low-employability movers, and regional employers or public authorities.",
+      "counterinterpretation": "People may rationally remain in lower-employment regions because of family, housing, cultural, or quality-of-life ties; local job creation can be more equitable than requiring mobility.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-3.html",
+      "retrieval_hash": "sha256:4eadcd1e1d0edd8b7c6bfacf1c2a7cf574491d5fb47c45aac7f2c6411c70defc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; job mobility, bargaining, and employment controls",
+      "denominator": {"value": 1, "unit": "OECD employment-regulation and firm labour-market framework", "value_type": "employment_institution_frame"},
+      "measures": {
+        "noncompete_prevalence": {"value": 30, "unit": "percent of employees estimated to be bound by non-compete clauses", "value_type": "reported_share"},
+        "noncompete_effect": {"value": "Non-compete clauses can reduce job mobility, weaken bargaining power, depress wages, and slow productivity or knowledge diffusion", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "skills_return": {"value": "Skills and training pay off, but returns depend on occupation, work practices, local opportunity, and training design", "unit": "reported labour-market mechanism", "value_type": "reported_mechanism"},
+        "policy_route": {"value": "Tailored employment protection, local skills policy, and regional interventions are presented as ways to navigate structural and short-term change", "unit": "reported policy route", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "OECD analysis of employment regulation, non-compete clauses, job mobility, skills returns, employment protection, and regional labour-market policy.",
+      "uncertainty": "Reported prevalence and effects vary by country, occupation, contract, enforcement, and study design; the publication does not imply every non-compete has the same effect.",
+      "subgroup": "Employees, contractors, jobseekers, firms, skilled workers, low-wage workers, innovators, and regulators.",
+      "counterinterpretation": "Some post-employment restrictions can protect legitimate confidential information or investment, and tailored enforcement may be preferable to blanket prohibition.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report.html",
+      "retrieval_hash": "sha256:4eadcd1e1d0edd8b7c6bfacf1c2a7cf574491d5fb47c45aac7f2c6411c70defc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en.html", "claim": "Complementary OECD sector evidence on tourism workforce, affordability, and regional capacity."},
+    {"source_url": "https://www.ilo.org/publications/major-publications/world-employment-and-social-outlook-trends-2026", "claim": "Complementary global employment, informality, youth, and social-protection context."}
+  ],
+  "boundary": "This record adds an OECD labour-market and regional-opportunity lens on employment resilience, real wages, geographic gaps, mobility, skills, non-competes, and bargaining power. It uses aggregate cross-country and regional evidence, not individual job histories, causal wage estimates for every worker, household budgets, or proof that AI caused current youth or regional outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Employment Outlook 2026 publication pages reviewed for aggregate labour-market rates, real-wage recovery, regional employment gaps, labour mobility, non-compete prevalence, skills returns, and employment-protection policy.",
+    "source_url_sha256": "sha256:4eadcd1e1d0edd8b7c6bfacf1c2a7cf574491d5fb47c45aac7f2c6411c70defc",
+    "checked": "2026-09-26"
+  }
+}

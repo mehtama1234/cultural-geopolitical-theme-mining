@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity",
+  "title": "Unpaid carers face a durable time-and-work conversion constraint while service involvement remains limited",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Department of Health and Social Care, Survey of Adult Carers in England 2025 to 2026",
+  "geography": "England; unpaid adult carers aged 18 and over known to local authorities",
+  "observations": [
+    {
+      "period": "2016-17 to 2025-26; carer time, self-care, and social contact",
+      "denominator": {"value": 311660, "unit": "eligible carers known to English councils in 2025-26; 43,460 responses were received", "value_type": "published_eligible_population"},
+      "measures": {
+        "time_for_value": {"value": 16.8, "unit": "percent feeling able to spend their time as they want, doing things they value or enjoy", "value_type": "reported_survey_share"},
+        "adequate_social_contact": {"value": 31.0, "unit": "percent saying they have as much social contact as they want with people they like", "value_type": "reported_survey_share"},
+        "often_always_lonely": {"value": 13.8, "unit": "percent reporting often or always feeling lonely", "value_type": "reported_survey_share"},
+        "self_care": {"value": 46.0, "unit": "percent saying they can look after themselves in terms of sleep or eating well", "value_type": "reported_survey_share"},
+        "mechanism": {"value": "Unpaid care converts household and public-service gaps into lost discretionary time, constrained social contact, and reduced self-maintenance", "unit": "bounded social-reproduction mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the England-level SACE commentary and five-wave time-series tables; the survey is conducted by English councils among unpaid carers known to them.",
+      "uncertainty": "The survey is not a population census of all unpaid carers, and response, local-authority coverage, question wording, and recall can affect comparisons. These are self-reports and do not establish that caring caused loneliness, health change, or lost time relative to a counterfactual.",
+      "subgroup": "Unpaid adult carers known to local authorities; figures include carers supporting people with physical disability, dementia, long-standing illness, ageing-related problems, and mental-health problems.",
+      "counterinterpretation": "Low reported time or social contact may reflect prior health, employment, household structure, or selection into caring as well as care burden. Stable headline rates can hide local, age, intensity, and service-access differences.",
+      "source_url": "https://www.gov.uk/government/statistics/survey-of-adult-carers-in-england-2025-to-2026-report/survey-of-adult-carers-in-england-2025-to-2026-commentary",
+      "retrieval_hash": "sha256:0487265ca6b2be845f8e52a9b49e569474418f912391a0ee1682c192f64438eb",
+      "status": "reported"
+    },
+    {
+      "period": "2016-17 to 2025-26; work, financial difficulty, and high-intensity care",
+      "denominator": {"value": 311660, "unit": "eligible carers known to English councils in 2025-26; employment and caring measures are response distributions within that survey", "value_type": "published_eligible_population"},
+      "measures": {
+        "not_in_paid_work_due_to_care": {"value": 19.5, "unit": "percent saying they are not in paid employment because of caring responsibilities", "value_type": "reported_survey_share"},
+        "a_lot_financial_difficulty": {"value": 9.9, "unit": "percent saying caring caused them a lot of financial difficulties in the last 12 months", "value_type": "reported_survey_share"},
+        "care_100_plus_hours": {"value": 34.7, "unit": "percent spending 100 or more hours per week looking after or helping the person they care for", "value_type": "reported_survey_share"},
+        "health_effects": {"value": "79.4% felt tired, 67.1% reported disturbed sleep, and 64.8% reported general stress", "unit": "reported carer health-impact shares", "value_type": "reported_distribution"},
+        "mechanism": {"value": "High unpaid-care intensity can be converted into employment exit, financial pressure, sleep loss, and stress, making care a household room and labor-market constraint", "unit": "bounded time-work-cost mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from SACE employment, financial-difficulty, weekly-hours, and health-impact measures across published survey years.",
+      "uncertainty": "The survey does not measure earnings lost, benefit receipt, debt, household wealth, or a same-person employment transition. Multiple health impacts can be reported by one carer, and the estimates are not causal or representative of all carers.",
+      "subgroup": "Unpaid carers by caring intensity, employment status, and reported health impact; no linked household-income denominator is supplied in the commentary.",
+      "counterinterpretation": "Some carers may leave work for retirement or other reasons, and high care hours may coexist with unmeasured support, savings, or flexible work. Reported financial difficulty does not quantify material loss.",
+      "source_url": "https://www.gov.uk/government/statistics/survey-of-adult-carers-in-england-2025-to-2026-report/survey-of-adult-carers-in-england-2025-to-2026-commentary",
+      "retrieval_hash": "sha256:0487265ca6b2be845f8e52a9b49e569474418f912391a0ee1682c192f64438eb",
+      "status": "reported"
+    },
+    {
+      "period": "2023-24 to 2025-26; service satisfaction, involvement, and information access",
+      "denominator": {"value": 311660, "unit": "eligible carers known to English councils; service-satisfaction figures exclude carers who had not received local-authority support or services", "value_type": "published_eligible_population"},
+      "measures": {
+        "extremely_satisfied_support": {"value": 14.2, "unit": "percent of carers who received local-authority support or services and were extremely satisfied", "value_type": "reported_conditional_survey_share"},
+        "always_involved_or_consulted": {"value": 26.2, "unit": "percent saying they always felt involved or consulted in discussions about support services", "value_type": "reported_survey_share"},
+        "easy_information": {"value": 43.3, "unit": "percent finding information or advice very or fairly easy to find", "value_type": "reported_survey_share"},
+        "did_not_try_information": {"value": 29.9, "unit": "percent who had not tried to find information or advice about support, services, or benefits", "value_type": "reported_survey_share"},
+        "mechanism": {"value": "Service contact does not automatically become voice or usable support: involvement, information reach, satisfaction, and substantive care adequacy are separate stages", "unit": "bounded public-service feedback mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from SACE support, consultation, satisfaction, and information/advice questions; conditional denominator retained where published.",
+      "uncertainty": "Satisfaction and involvement are subjective reports, while the survey does not verify service quality, unmet need, care outcomes, or whether information led to effective support. The no-contact and no-search groups are not necessarily equivalent to unmet need.",
+      "subgroup": "Unpaid carers known to local authorities, including carers who did and did not receive local-authority support or services.",
+      "counterinterpretation": "Lower satisfaction may reflect expectations, service complexity, or case mix rather than worse service delivery; higher information use may reflect need or awareness rather than successful resolution.",
+      "source_url": "https://www.gov.uk/government/statistics/survey-of-adult-carers-in-england-2025-to-2026-report/survey-of-adult-carers-in-england-2025-to-2026-commentary",
+      "retrieval_hash": "sha256:0487265ca6b2be845f8e52a9b49e569474418f912391a0ee1682c192f64438eb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/collections/survey-of-adult-carers-in-england", "claim": "Official SACE collection page with the 2025-26 report, methodology, data tables, quality report, and record-level data pack.", "status": "official-method-context"},
+    {"source_url": "https://www.gov.uk/government/statistics/survey-of-adult-carers-in-england-2025-to-2026-report", "claim": "Official release hub for SACE 2025-26 supporting datasets and quality materials.", "status": "official-data-route"}
+  ],
+  "boundary": "This record adds a current England unpaid-care route from time and care intensity through work, household financial pressure, social contact, health, information access, and service voice. It does not estimate all-carer prevalence, causal employment loss, household welfare, care-recipient outcomes, or equal local-authority service quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK SACE commentary reviewed for eligible population, response count, time/social contact, health, financial difficulty, employment, weekly care hours, service involvement, satisfaction, and information-access measures.",
+    "html_locator_sha256": "sha256:0487265ca6b2be845f8e52a9b49e569474418f912391a0ee1682c192f64438eb",
+    "checked": "2026-09-30"
+  }
+}

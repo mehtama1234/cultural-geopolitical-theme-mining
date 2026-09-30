@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-assurant-connected-consumer-trends-2026-technology-sentiment-support-ownership",
+  "title": "Connected technology is becoming essential infrastructure, but consumer value now depends on reliability, support, trust, and total ownership cost",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Assurant, 2026 Global Connected Consumer Trends Report",
+  "geography": "Global online consumer sentiment survey across connected-device users, with market snapshots including the United States, United Kingdom, Germany, Japan, India, Mexico, and Australia",
+  "observations": [
+    {
+      "period": "December 2025-January 2026; global Technology Sentiment Index",
+      "denominator": {"value": 1, "unit": "global Technology Sentiment Index frame", "value_type": "reported_index_frame"},
+      "measures": {
+        "technology_sentiment_index": {"value": 66, "unit": "index points on a 0-100 scale", "value_type": "reported_composite_index"},
+        "consumer_orientation": {"value": "consumers are broadly positive about technology but express concerns about cost, complexity, and trust", "unit": "report synthesis", "value_type": "reported_sentiment_pattern"},
+        "expectation_shift": {"value": "expectations increasingly concern performance, simplicity, support, and who is trusted to deliver the experience", "unit": "report synthesis", "value_type": "reported_consumer_pattern"}
+      },
+      "method": "Assurant online quantitative survey of compensated adults aged 18 and older who use smartphones, with country samples quota-balanced across key demographics; composite index built from 34 questions across five dimensions.",
+      "uncertainty": "The source is company-sponsored consumer research, uses an online panel, and measures reported attitudes rather than observed device use, spending, support outcomes, or long-run retention.",
+      "subgroup": "Connected-device users in global and national market frames, with differing device mixes, income, housing, age, employment, trust, and access to repair or support.",
+      "counterinterpretation": "A positive sentiment index can coexist with frustration, unequal access, platform dependence, and dissatisfaction with particular devices or service routes.",
+      "source_url": "https://azure-na-assets.contentstack.com/v3/assets/blt87461b8270f4f92b/blt0de28453a5317c87/6a1d7d93084e9b613cb56ab4/2026_Global_Connected_Consumer_Trends_Report.pdf",
+      "retrieval_hash": "sha256:677e47c166d96e34e5f8a712238ef1b188088b3e89dd34237f7c65281a8ece39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; six shifts in connected-consumer expectations",
+      "denominator": {"value": 1, "unit": "report market-and-support framework", "value_type": "reported_market_frame"},
+      "measures": {
+        "local_relevance": {"value": "global technology strategies require local relevance rather than one-size-fits-all protection", "unit": "report synthesis", "value_type": "reported_market_route"},
+        "ownership_cost": {"value": "protection value is increasingly judged through total cost of ownership and product longevity", "unit": "report synthesis", "value_type": "reported_value_route"},
+        "support_differentiation": {"value": "support is framed as a differentiator when devices become essential and more complex", "unit": "report synthesis", "value_type": "reported_service_route"},
+        "ai_complexity": {"value": "AI is increasing both capability and complexity in connected technology", "unit": "report synthesis", "value_type": "reported_technology_route"}
+      },
+      "method": "Comparative interpretation of global survey results, device frustration, support preferences, protection interest, and market snapshots.",
+      "uncertainty": "The six shifts are an interpretive framework from a commercial provider and do not establish market-wide causal effects or independent evidence that protection improves welfare.",
+      "subgroup": "Consumers managing device purchase, ownership, repair, replacement, protection, privacy, and support decisions; device makers, carriers, retailers, and service providers.",
+      "counterinterpretation": "Consumers may value reliability and support without purchasing an Assurant-linked protection product; preferences can reflect local prices, device quality, warranty rules, or market structure.",
+      "source_url": "https://azure-na-assets.contentstack.com/v3/assets/blt87461b8270f4f92b/blt0de28453a5317c87/6a1d7d93084e9b613cb56ab4/2026_Global_Connected_Consumer_Trends_Report.pdf",
+      "retrieval_hash": "sha256:677e47c166d96e34e5f8a712238ef1b188088b3e89dd34237f7c65281a8ece39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; United States market snapshot",
+      "denominator": {"value": 1, "unit": "United States connected-consumer market snapshot", "value_type": "reported_market_snapshot"},
+      "measures": {
+        "us_technology_sentiment_index": {"value": 64, "unit": "index points on a 0-100 scale", "value_type": "reported_market_index"},
+        "us_ai_trust": {"value": 75, "unit": "percent finding AI somewhat trustworthy", "value_type": "reported_share"},
+        "us_life_improvement": {"value": 56, "unit": "percent saying connected technology has improved their lives", "value_type": "reported_share"},
+        "us_protection_interest_ai_smartphone": {"value": 42, "unit": "percent more likely to consider protection for AI-enabled smartphones", "value_type": "reported_share"},
+        "us_support_route": {"value": "consumers report using self-help, friends and family, manuals, and AI tools to solve device problems", "unit": "reported support routes", "value_type": "reported_behavioral_route"}
+      },
+      "method": "Country market snapshot from the Assurant Technology Sentiment Index survey and reported device-support, AI, and protection measures.",
+      "uncertainty": "The snapshot is descriptive and company-sponsored; shares are not a causal test of AI trust, protection enrollment, device retention, or consumer welfare.",
+      "subgroup": "US smartphone users with different ages, genders, housing, employment, education, device ecosystems, and access to self-help or paid support.",
+      "counterinterpretation": "Reported AI trust and life improvement can coexist with privacy concerns, poor connectivity, storage constraints, support friction, or inability to replace a device.",
+      "source_url": "https://azure-na-assets.contentstack.com/v3/assets/blt87461b8270f4f92b/blt0de28453a5317c87/6a1d7d93084e9b613cb56ab4/2026_Global_Connected_Consumer_Trends_Report.pdf",
+      "retrieval_hash": "sha256:677e47c166d96e34e5f8a712238ef1b188088b3e89dd34237f7c65281a8ece39",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; connected-device ownership and brand relationship",
+      "denominator": {"value": 1, "unit": "global connected-device ownership and support frame", "value_type": "reported_ownership_frame"},
+      "measures": {
+        "support_continuity": {"value": "protection, service, and support shape whether consumers choose, keep, and engage with connected technology over time", "unit": "report synthesis", "value_type": "reported_relationship_route"},
+        "personalization": {"value": "personalized protection and support are framed as more relevant than standardized coverage", "unit": "report synthesis", "value_type": "reported_service_pattern"},
+        "brand_value": {"value": "the report positions relevant, flexible support as a route to stronger brand perception and loyalty", "unit": "report synthesis", "value_type": "reported_commercial_route"}
+      },
+      "method": "Synthesis of survey responses about protection-plan interest, support preferences, device problems, and brand perception across country snapshots.",
+      "uncertainty": "The report is partly an industry strategy document; reported brand effects are not independent measures of actual loyalty, retention, claims resolution, or consumer surplus.",
+      "subgroup": "Connected consumers, households managing repair and replacement risk, brands, carriers, retailers, protection providers, support channels, and platform ecosystems.",
+      "counterinterpretation": "Personalization can increase complexity, data collection, lock-in, and unequal treatment; support that improves brand perception may still shift repair or replacement costs to consumers.",
+      "source_url": "https://azure-na-assets.contentstack.com/v3/assets/blt87461b8270f4f92b/blt0de28453a5317c87/6a1d7d93084e9b613cb56ab4/2026_Global_Connected_Consumer_Trends_Report.pdf",
+      "retrieval_hash": "sha256:677e47c166d96e34e5f8a712238ef1b188088b3e89dd34237f7c65281a8ece39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.assurant.com/news-insight/insights/2026-global-connected-consumer-trends-report", "claim": "Assurant publication context for the 2026 connected-consumer report."},
+    {"source_url": "https://www.assurant.com/", "claim": "Publisher and connected-living business context."}
+  ],
+  "boundary": "This record adds a consumer-technology, ownership, support, trust, AI, and market-infrastructure route. It uses a company-sponsored aggregate survey and report synthesis, not respondent-level ingestion, observed transaction or claims data, a causal estimate of protection or support effects, an independent audit of AI trust, or proof that connected technology produces equal welfare across markets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Assurant 2026 Global Connected Consumer Trends Report PDF reviewed for the global Technology Sentiment Index, six market shifts, US market snapshot, support routes, AI trust, protection interest, and ownership-value conclusions.",
+    "source_url_sha256": "sha256:677e47c166d96e34e5f8a712238ef1b188088b3e89dd34237f7c65281a8ece39",
+    "checked": "2026-09-27"
+  }
+}

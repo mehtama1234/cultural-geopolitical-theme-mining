@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-going-digital-measurement-roadmap-2026-trust-wellbeing-data",
+  "title": "Digital transformation is becoming an economy-wide social system whose trust, well-being, and distributional effects need new measurement",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD, The OECD Going Digital Measurement Roadmap 2026",
+  "geography": "International statistical and policy systems measuring digital economies, societies, technologies, and cross-border data flows",
+  "observations": [
+    {
+      "period": "2026; digital transformation measurement frame",
+      "denominator": {"value": 10, "unit": "OECD roadmap actions for monitoring digital transformation and its impacts", "value_type": "reported_action_set"},
+      "measures": {
+        "action_set": {"value": "the roadmap proposes ten actions spanning economic statistics, data valuation, trade, AI, ICT impacts, well-being, skills, trust, timely data collection, and data infrastructure", "unit": "reported measurement framework", "value_type": "reported_framework"},
+        "silo_boundary": {"value": "digital technologies and data are embedded across the economy and society, making a siloed digital-economy measure inadequate", "unit": "reported measurement problem", "value_type": "reported_boundary"},
+        "policy_need": {"value": "statistical systems need flexible, comparable, and interdisciplinary measures of digital transformation", "unit": "reported policy direction", "value_type": "reported_recommendation"}
+      },
+      "method": "OECD policy paper synthesizing measurement priorities across economic, social, technological, governance, and statistical domains.",
+      "uncertainty": "The roadmap identifies measurement needs and priorities; it does not provide a single estimate of digital transformation’s net effect or guarantee cross-country comparability.",
+      "subgroup": "Individuals, firms, workers, consumers, governments, statistical offices, regulators, researchers, and groups exposed to digital disruption or exclusion.",
+      "counterinterpretation": "Existing economic and social statistics remain useful; new indicators should complement rather than replace established measures and should avoid measuring novelty without policy relevance.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/the-oecd-going-digital-measurement-roadmap-2026_590c5900/b455e132-en.pdf",
+      "retrieval_hash": "sha256:3df0e0714de19fc7a43344340fef592476847d129a14e6e98340ed97e0e6ea81",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform work, free services, and digital value",
+      "denominator": {"value": 1, "unit": "digital economy measurement system", "value_type": "reported_system_frame"},
+      "measures": {
+        "unpriced_consumption": {"value": "online services provided to consumers at zero monetary price can still generate value and involve implicit exchanges related to personal data", "unit": "reported economic measurement issue", "value_type": "reported_mechanism"},
+        "platform_work": {"value": "common definitions and survey questions are needed to measure platform-mediated work and transactions", "unit": "reported statistical need", "value_type": "reported_recommendation"},
+        "cross_border_data": {"value": "cloud services, online platforms, and data flows challenge geographically fixed production and trade measures", "unit": "reported measurement issue", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD economic-statistics and digital-transformation measurement framework covering households, firms, platforms, services, and data flows.",
+      "uncertainty": "The paper does not estimate the value of any specific platform, the number of platform workers, or the welfare effect of exchanging personal data for free services.",
+      "subgroup": "Platform workers, households, online consumers, small firms, data-dependent businesses, and people whose work or consumption is mediated by platforms.",
+      "counterinterpretation": "Free digital services can provide substantial convenience and access; measurement of implicit data exchange should not assume that users experience it as a loss or that all data has equal economic value.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/the-oecd-going-digital-measurement-roadmap-2026_590c5900/b455e132-en.pdf",
+      "retrieval_hash": "sha256:3df0e0714de19fc7a43344340fef592476847d129a14e6e98340ed97e0e6ea81",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital well-being, inclusion, and harm measurement",
+      "denominator": {"value": 1, "unit": "digital-technology impact measurement framework", "value_type": "reported_framework"},
+      "measures": {
+        "wellbeing_scope": {"value": "digital technologies can affect health, aging, environmental resilience, and individual well-being through both opportunities and risks", "unit": "reported impact framework", "value_type": "reported_mechanism"},
+        "priority_groups": {"value": "children, young people, women and girls, and people with disabilities require more specific measures of digital engagement, technology-facilitated violence, and algorithmic risks", "unit": "reported measurement priority", "value_type": "reported_subgroup_frame"},
+        "distributional_need": {"value": "disaggregated data can reveal digital divides and groups most exposed to technological disruption", "unit": "reported statistical application", "value_type": "reported_recommendation"}
+      },
+      "method": "OECD social-statistics and well-being measurement recommendations for digital engagement, harm, opportunity, and distribution.",
+      "uncertainty": "The roadmap calls for better measurement but does not establish causal effects of digital exposure, algorithmic systems, or online harms for every subgroup.",
+      "subgroup": "Children, young people, women and girls, people with disabilities, workers, consumers, and communities with unequal connectivity or digital skills.",
+      "counterinterpretation": "Digital technologies can expand access, participation, care, education, and services; risk measurement should preserve the possibility of positive and context-dependent effects.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/the-oecd-going-digital-measurement-roadmap-2026_590c5900/b455e132-en.pdf",
+      "retrieval_hash": "sha256:3df0e0714de19fc7a43344340fef592476847d129a14e6e98340ed97e0e6ea81",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust, privacy, security, and information integrity online",
+      "denominator": {"value": 1, "unit": "digital-environment trust and governance frame", "value_type": "reported_system_frame"},
+      "measures": {
+        "trust_conditions": {"value": "security, privacy, consumer protection, and confidence in digital environments are increasingly important as daily activity shifts online", "unit": "reported social-governance mechanism", "value_type": "reported_mechanism"},
+        "information_risk": {"value": "manipulated and misleading online content can reduce trust and requires measurement of provenance, dissemination, and policy responses", "unit": "reported information-integrity issue", "value_type": "reported_mechanism"},
+        "infrastructure_need": {"value": "timely data infrastructures, alternative data, private-sector cooperation, and privacy-preserving methods are needed to monitor digital activity", "unit": "reported statistical infrastructure direction", "value_type": "reported_recommendation"}
+      },
+      "method": "OECD digital-governance and official-statistics roadmap connecting trust, privacy, consumer protection, information integrity, and data infrastructure.",
+      "uncertainty": "Measurement of trust or online content circulation does not itself establish the source, intent, or political effect of every information event; privacy and sampling constraints remain material.",
+      "subgroup": "Internet users, consumers, firms, regulators, statistical offices, journalists, civil society, and people vulnerable to fraud, surveillance, or misinformation.",
+      "counterinterpretation": "Security interventions can create centralized control or suppress expression if poorly designed; transparency, targeted safeguards, and freedom of expression must remain part of the measurement and policy frame.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/the-oecd-going-digital-measurement-roadmap-2026_590c5900/b455e132-en.pdf",
+      "retrieval_hash": "sha256:3df0e0714de19fc7a43344340fef592476847d129a14e6e98340ed97e0e6ea81",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/the-oecd-going-digital-integrated-policy-framework-2026_8f2e5d76-en.html", "claim": "OECD Going Digital Integrated Policy Framework provides complementary digital-policy governance context."},
+    {"source_url": "https://www.oecd.org/en/publications/consumer-finance-risk-monitor-2026_61f7dbe0-en.html", "claim": "OECD Consumer Finance Risk Monitor 2026 provides complementary consumer-risk and digital-finance context."}
+  ],
+  "boundary": "This record adds a measurement-and-governance route linking digital economic value, platform work, data flows, AI, well-being, digital divides, privacy, consumer protection, information integrity, trust, and statistical infrastructure. It is a policy roadmap, not respondent-level digital behavior data, a causal impact study, a platform audit, or proof of any specific online harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD Going Digital Measurement Roadmap 2026 PDF and full-report pages were reviewed for the ten actions, digital value and platform measurement, well-being and distribution, trust, privacy, consumer protection, information integrity, and data infrastructure claims.",
+    "source_url_sha256": "sha256:3df0e0714de19fc7a43344340fef592476847d129a14e6e98340ed97e0e6ea81",
+    "checked": "2026-09-26"
+  }
+}

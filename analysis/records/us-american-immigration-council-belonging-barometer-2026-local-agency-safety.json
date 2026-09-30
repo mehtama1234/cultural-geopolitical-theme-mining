@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-american-immigration-council-belonging-barometer-2026-local-agency-safety",
+  "title": "Local belonging is stronger in psychological safety and relationships than in perceived civic influence",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "American Immigration Council Center for Inclusion and Belonging, Belonging Barometer 2026; SSRS probability-based survey waves and qualitative interviews",
+  "geography": "United States; national adults with age, income, partisan, race/ethnicity, education, and local-news comparisons",
+  "observations": [
+    {
+      "period": "November–December 2025; three-wave national belonging study",
+      "denominator": {"value": 3017, "unit": "U.S. adults across three SSRS Opinion Panel survey waves", "value_type": "reported_sample_size"},
+      "measures": {
+        "wave_1_sample": {"value": 1007, "unit": "respondents; November 7–10, 2025", "value_type": "reported_sample_size"},
+        "wave_2_sample": {"value": 1004, "unit": "respondents; November 20–23, 2025", "value_type": "reported_sample_size"},
+        "wave_3_sample": {"value": 1006, "unit": "respondents; December 4–7, 2025", "value_type": "reported_sample_size"},
+        "qualitative_interviews": {"value": 16, "unit": "in-depth interviews with selected survey respondents", "value_type": "reported_sample_size"}
+      },
+      "method": "Three national probability-based SSRS Opinion Panel waves followed by 16 qualitative interviews; the Barometer uses ten items across belonging, psychological safety, agency/efficacy, and social connection.",
+      "uncertainty": "The three waves are repeated cross-sections rather than a single respondent panel; the qualitative sample is purposive and the study measures perceived belonging, not objective inclusion or civic outcomes.",
+      "subgroup": "U.S. adults; the study reports subgroup comparisons by age, income, party identification, race/ethnicity, education, and media use.",
+      "counterinterpretation": "Belonging may reflect local tenure, relationships, health, mobility, safety, housing, or prior community participation; the index does not identify which intervention produced a feeling of belonging.",
+      "source_url": "https://www.americanimmigrationcouncil.org/report/belonging-barometer-2026/",
+      "retrieval_hash": "sha256:f82bf24d09d09c247ce6c0a85ba33fb89b9cd3e9a925b912edda5e6e3a70a2d8",
+      "status": "reported"
+    },
+    {
+      "period": "November–December 2025; dimensions of local belonging",
+      "denominator": {"value": 3017, "unit": "U.S. adults in the three-wave study", "value_type": "reported_sample_size"},
+      "measures": {
+        "psychological_safety": {"value": "over two-thirds feel comfortable expressing opinions in their local community", "unit": "reported survey pattern", "value_type": "reported_share"},
+        "social_connection": {"value": "most report satisfying relationships, while about one-third report feeling valued", "unit": "reported survey pattern", "value_type": "reported_share"},
+        "local_agency": {"value": 25, "unit": "approximately one in four believing they can influence outcomes or local decision-making", "value_type": "reported_share"}
+      },
+      "method": "Additive-index analysis of ten Barometer items covering authenticity, voice, equality, inclusion, emotional connection, relationships, insider status, and influence.",
+      "uncertainty": "The rounded headline shares summarize distributions across separate items and should not be read as a single composite prevalence; agreement does not establish actual voice in institutional decisions.",
+      "subgroup": "U.S. adults in the national survey; dimensions are reported at population level with selected subgroup models.",
+      "counterinterpretation": "People may feel safe and connected without wanting formal influence, or may influence decisions through informal relationships not captured by the item; low agency can also reflect realistic perceptions of institutional scale.",
+      "source_url": "https://www.americanimmigrationcouncil.org/report/belonging-barometer-2026/",
+      "retrieval_hash": "sha256:f82bf24d09d09c247ce6c0a85ba33fb89b9cd3e9a925b912edda5e6e3a70a2d8",
+      "status": "reported"
+    },
+    {
+      "period": "November–December 2025; age and income pattern in strong local belonging",
+      "denominator": {"value": 3017, "unit": "U.S. adults in model-adjusted survey estimates", "value_type": "reported_sample_size"},
+      "measures": {
+        "strong_belonging_by_age": {"value": "34% ages 18–29; 37% ages 30–49; 40% ages 50–64; 48% ages 65+", "unit": "model-adjusted share reporting strong local belonging", "value_type": "reported_group_comparison"},
+        "strong_belonging_by_income": {"value": "35% under $50,000; 39% $50,000–<$75,000; 43% $75,000–<$100,000; 45% $100,000+", "unit": "model-adjusted share reporting strong local belonging", "value_type": "reported_group_comparison"},
+        "predictors": {"value": "age and income are positively associated with local belonging in regression models", "unit": "reported model association", "value_type": "reported_association"}
+      },
+      "method": "Model-adjusted predicted probabilities controlling for demographic and media characteristics; cross-sectional regression analysis.",
+      "uncertainty": "Associations do not establish that age or income causes belonging; life stage, housing stability, health, mobility, family, and local institutional access may mediate the pattern.",
+      "subgroup": "U.S. adults grouped by age and household income.",
+      "counterinterpretation": "Older or wealthier respondents may have longer local tenure, more time, stronger networks, or greater civic access; the pattern should not be reduced to individual attitude.",
+      "source_url": "https://www.americanimmigrationcouncil.org/report/belonging-barometer-2026/",
+      "retrieval_hash": "sha256:f82bf24d09d09c247ce6c0a85ba33fb89b9cd3e9a925b912edda5e6e3a70a2d8",
+      "status": "reported"
+    },
+    {
+      "period": "November–December 2025; local information and belonging",
+      "denominator": {"value": 3017, "unit": "U.S. adults in model-adjusted survey estimates", "value_type": "reported_sample_size"},
+      "measures": {
+        "local_news_belonging_pattern": {"value": "strong local belonging rises with more frequent local-news consumption, reaching 47% among those consuming local news multiple times a day", "unit": "model-adjusted share", "value_type": "reported_association"},
+        "national_news_belonging_pattern": {"value": "national-news frequency was not a significant predictor of local belonging in the reported model", "unit": "reported model result", "value_type": "reported_association"},
+        "interpretation": {"value": "locally relevant information may provide recognition and a sense of participation that national information does not supply", "unit": "source-consistent mechanism hypothesis", "value_type": "reported_interpretation"}
+      },
+      "method": "Regression models of local belonging with media-consumption variables and demographic controls; media use and belonging are measured at the same time.",
+      "uncertainty": "The association may run in either direction or reflect local media markets, community interest, education, political identity, or pre-existing attachment; it is not evidence that local news causes belonging.",
+      "subgroup": "U.S. adults by frequency of local and national media consumption.",
+      "counterinterpretation": "People who already feel connected may seek local news more often; local-news content and quality vary substantially across markets and platforms.",
+      "source_url": "https://www.americanimmigrationcouncil.org/report/belonging-barometer-2026/",
+      "retrieval_hash": "sha256:f82bf24d09d09c247ce6c0a85ba33fb89b9cd3e9a925b912edda5e6e3a70a2d8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.americanimmigrationcouncil.org/wp-content/uploads/2026/07/Belonging-Mixed-Methods-Study-Presentation.pdf", "claim": "Publisher presentation documents the sample, index items, distributions, and model-adjusted relationships.", "status": "primary-publication"},
+    {"source_url": "https://www.americanimmigrationcouncil.org/wp-content/uploads/2026/07/Understanding-Belonging-Research-Brief.pdf", "claim": "Publisher research brief associated with the 2026 Belonging Barometer study.", "status": "primary-publication", "access_boundary": "Publisher PDF returned a 403 during retrieval; the landing page and accessible publisher presentation were used instead."}
+  ],
+  "boundary": "This record identifies a U.S. belonging pattern in which psychological safety and relationships are stronger than perceived local agency, with age, income, and local-news use associated with stronger belonging. It does not establish causal effects, objective political influence, equal treatment, durable participation, or that local news creates belonging.",
+  "retrieval_hash": "sha256:f82bf24d09d09c247ce6c0a85ba33fb89b9cd3e9a925b912edda5e6e3a70a2d8"
+}

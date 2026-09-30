@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-stanford-ceo-activism-consumer-response-2026",
+  "title": "Public support for CEO activism is becoming more issue-specific, while executive speech increasingly enters consumer choice and corporate legitimacy",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Stanford Graduate School of Business, Rock Center for Corporate Governance and Hoover Institution, 2026 CEO Activism Survey, September 2026",
+  "geography": "United States; adults nationally, with demographic, partisan, age and issue comparisons",
+  "observations": [
+    {
+      "period": "Summer 2026; public support for CEO activism across issue domains",
+      "denominator": {"value": 2807, "unit": "U.S. adults in nationwide survey representative by gender, race, age, household income and region", "value_type": "survey_sample"},
+      "measures": {
+        "overall_support": {"value": "public support for CEOs taking public positions declines relative to the 2018 follow-up baseline", "unit": "reported cross-wave direction", "value_type": "reported_comparison"},
+        "issue_specificity": {"value": "support remains stronger for environmental advocacy and weaker for political and contentious social advocacy", "unit": "reported issue comparison", "value_type": "reported_comparison"},
+        "cross_group_direction": {"value": "support falls across age groups and political affiliations and for almost every issue", "unit": "reported cross-subgroup direction", "value_type": "reported_comparison"}
+      },
+      "method": "Nationwide survey conducted in summer 2026 as a follow-up to Stanford's 2018 CEO activism survey; public page reports directional findings but not the full 2026 crosstab tables.",
+      "uncertainty": "The accessible release does not provide all issue-level percentages, question wording or fieldwork vendor details; cross-wave changes may reflect issue context, political events, sample or measurement differences.",
+      "subgroup": "U.S. adults by age, party affiliation, gender, race, household income and region.",
+      "counterinterpretation": "Lower support for CEO speech does not necessarily mean lower concern about the underlying issues; it may reflect skepticism about corporate authority, politicization or perceived competence.",
+      "source_url": "https://www.hoover.org/research/2026-ceo-activism-survey",
+      "retrieval_hash": "sha256:fc82d1e3ff47071ff0d4f8d00ab72d89fb9bc06d806ce6136ad8ee67cc3e59ab",
+      "status": "reported"
+    },
+    {
+      "period": "Summer 2026; age-specific caution around CEO advocacy on artificial intelligence",
+      "denominator": {"value": 2807, "unit": "U.S. adults in nationwide survey", "value_type": "survey_sample"},
+      "measures": {
+        "younger_AI_caution": {"value": "younger Americans are more cautious about CEO advocacy concerning artificial intelligence", "unit": "reported age comparison", "value_type": "reported_comparison"},
+        "corporate_AI_voice": {"value": "CEO speech about AI is treated as an issue of corporate legitimacy rather than automatically trusted expertise", "unit": "analytic interpretation of reported finding", "value_type": "inferred_mechanism"}
+      },
+      "method": "Survey comparison of public responses to CEO activism across environmental, social, political and AI-related issues.",
+      "uncertainty": "The public summary does not show the size of the age gap or distinguish whether caution reflects job risk, privacy, product exposure, political polarization or distrust of corporate motives.",
+      "subgroup": "Younger U.S. adults compared with older adults.",
+      "counterinterpretation": "Caution may coexist with demand for corporate responsibility; rejecting CEO advocacy as a voice does not imply rejecting firm-level AI safeguards or accountability.",
+      "source_url": "https://www.hoover.org/research/2026-ceo-activism-survey",
+      "retrieval_hash": "sha256:fc82d1e3ff47071ff0d4f8d00ab72d89fb9bc06d806ce6136ad8ee67cc3e59ab",
+      "status": "reported"
+    },
+    {
+      "period": "Summer 2026; consumer memory and purchase response to CEO activism",
+      "denominator": {"value": 2807, "unit": "U.S. adults in nationwide survey", "value_type": "survey_sample"},
+      "measures": {
+        "behavior_change": {"value": "consumers report increasingly changing purchasing behavior in response to CEO activism", "unit": "reported directional finding", "value_type": "reported_pattern"},
+        "lasting_recall": {"value": "Americans show hypersensitivity to and lasting recall of CEO activism, with both positive and negative reactions", "unit": "reported behavioral-attitude pattern", "value_type": "reported_pattern"},
+        "market_mechanism": {"value": "executive speech can become a consumer-choice and corporate-reputation signal beyond the firm's products or services", "unit": "analytic mechanism", "value_type": "inferred_mechanism"}
+      },
+      "method": "Survey questions about remembered CEO activism and self-reported changes in purchasing behavior, compared with the 2018 survey.",
+      "uncertainty": "Self-reported purchase change is not verified transaction data; the public summary does not report effect size, persistence, product category or whether negative and positive responses are symmetric.",
+      "subgroup": "U.S. consumers, with differences expected by political identity, age and issue alignment.",
+      "counterinterpretation": "Recall and stated purchase response may be concentrated among politically engaged consumers and may not translate into aggregate sales or durable brand switching.",
+      "source_url": "https://www.hoover.org/research/2026-ceo-activism-survey",
+      "retrieval_hash": "sha256:fc82d1e3ff47071ff0d4f8d00ab72d89fb9bc06d806ce6136ad8ee67cc3e59ab",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2026; corporate voice and public authority",
+      "denominator": {"value": 2, "unit": "Stanford CEO activism survey waves", "value_type": "cross_wave_denominator"},
+      "measures": {
+        "institutional_role": {"value": "the 2026 study revisits whether CEOs should use corporate authority to speak on environmental, social and political issues", "unit": "reported research scope", "value_type": "reported_scope"},
+        "legitimacy_boundary": {"value": "public acceptance of CEO speech is increasingly conditional on issue, identity, generation and perceived corporate role", "unit": "analytic synthesis across reported findings", "value_type": "inferred_mechanism"}
+      },
+      "method": "Follow-up survey design intended to compare public views of CEO activism with the 2018 Stanford survey.",
+      "uncertainty": "The public landing pages do not provide the complete instrument or full cross-wave tables, so this record preserves the direction and mechanism rather than estimating a precise trend magnitude.",
+      "subgroup": "U.S. adults, consumers, corporate leaders and boards as the institutional audience.",
+      "counterinterpretation": "Conditional legitimacy can still permit strong corporate action when advocacy is tied to business operations, employee conditions, product safety or environmental effects rather than symbolic political positioning.",
+      "source_url": "https://www.hoover.org/research/2026-ceo-activism-survey",
+      "retrieval_hash": "sha256:fc82d1e3ff47071ff0d4f8d00ab72d89fb9bc06d806ce6136ad8ee67cc3e59ab",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gsb.stanford.edu/faculty-research/publications/2026-ceo-activism-survey", "claim": "Stanford GSB publication page describing the survey sample, follow-up design and key findings."}
+  ],
+  "boundary": "This record treats CEO activism as a corporate-legitimacy and consumer-response signal. It does not establish that public speech changes actual sales, employee behavior, political outcomes or social conditions; several 2026 findings are preserved directionally because the full tables are not publicly accessible."
+}

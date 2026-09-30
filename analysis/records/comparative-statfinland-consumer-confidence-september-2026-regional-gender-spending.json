@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statfinland-consumer-confidence-september-2026-regional-gender-spending",
+  "title": "Finnish consumer caution is geographically and socially uneven, with weak spending intentions alongside renewed borrowing plans",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Statistics Finland, Consumer confidence 2026, September, released 28 September 2026",
+  "geography": "Finland; monthly Consumer Confidence Survey, 1,157 respondents resident in Finland interviewed 1–17 September 2026",
+  "observations": [
+    {
+      "period": "September 2026; national confidence and household outlook",
+      "denominator": {"value": 1157, "unit": "persons resident in Finland responding to the Consumer Confidence Survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "consumer_confidence": {"value": -4.9, "unit": "balance figure for consumer confidence indicator", "value_type": "published_survey_estimate"},
+        "own_economy": {"value": "Consumers' expectations about their own economy were subdued and assessments of its present state very weak, even while expectations for Finland's economy over 12 months were near the long-term average", "unit": "reported perception pattern", "value_type": "reported_pattern"},
+        "future_present_gap": {"value": "National macro expectations can stabilize before household-level security and present purchasing capacity recover", "unit": "analytic household-confidence mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Statistics Finland monthly Consumer Confidence Survey using a self-filled web questionnaire and telephone interviews; 53% response rate and 83% of responses from the web questionnaire.",
+      "uncertainty": "The survey measures perceptions and intentions, not realized household spending, income, borrowing, or later economic outcomes; the balance index is not a direct welfare measure.",
+      "subgroup": "Consumers resident in Finland, with published breakdowns by region, gender, age, education, and socio-economic status.",
+      "counterinterpretation": "A weak confidence balance can coexist with resilient employment, savings, or specific purchase opportunities; expectations do not map one-for-one onto future consumption.",
+      "source_url": "https://stat.fi/en/publication/cmf5ha5sp3q1t07up1slca4cv",
+      "retrieval_hash": "sha256:27f7f9bddf31baf0ff825dcc8ec08c4cab03624d51af48d01ae9ff1b0dde0f05",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; regional and socio-economic divergence",
+      "denominator": {"value": 1157, "unit": "Consumer Confidence Survey respondents", "value_type": "published_survey_sample"},
+      "measures": {
+        "regional_gap": {"value": {"Greater Helsinki": -2.4, "Eastern Finland": -10.7}, "unit": "consumer confidence balance figure by region", "value_type": "published_subgroup_estimate"},
+        "socioeconomic_gap": {"value": {"upper_level_salaried_employees": 1.1, "unemployed": -13.1, "pensioners": -11.5}, "unit": "consumer confidence balance figure by socio-economic group", "value_type": "published_subgroup_estimate"},
+        "place_status_route": {"value": "National consumer confidence conceals a place-and-status distribution in perceived economic security", "unit": "analytic unequal-exposure mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Published Statistics Finland subgroup breakdowns by area of residence and socio-economic status.",
+      "uncertainty": "Subgroup balance figures describe cross-sectional perceptions and do not identify the independent effects of region, employment, age, income, prices, or composition.",
+      "subgroup": "Residents of Greater Helsinki and Eastern Finland; upper-level salaried employees, unemployed persons, and pensioners.",
+      "counterinterpretation": "Regional and socio-economic differences may reflect different industry exposure, housing costs, age structure, or local expectations rather than a single place-based mechanism.",
+      "source_url": "https://stat.fi/en/publication/cmf5ha5sp3q1t07up1slca4cv",
+      "retrieval_hash": "sha256:27f7f9bddf31baf0ff825dcc8ec08c4cab03624d51af48d01ae9ff1b0dde0f05",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; prices, unemployment threat, and household room",
+      "denominator": {"value": 1157, "unit": "Consumer Confidence Survey respondents", "value_type": "published_survey_sample"},
+      "measures": {
+        "price_pressure": {"value": {"past_year_price_rise": 4.9, "expected_next_year_rise": 4.1, "price_rise_at_least_same": 65}, "unit": "percent estimate / percent expecting prices to rise at least as fast", "value_type": "published_survey_estimate"},
+        "unemployment_threat": {"value": {"employed_saw_increased_risk": 27, "employed_not_threatened": 36}, "unit": "percent of employed respondents", "value_type": "published_survey_estimate"},
+        "room_constraint": {"value": "Inflation expectations and perceived job risk can compress discretionary room before aggregate confidence visibly collapses", "unit": "analytic household mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Statistics Finland survey questions on consumer prices, expected price changes, and personal unemployment or lay-off threat.",
+      "uncertainty": "Price estimates are subjective perceptions, and the survey does not measure actual inflation exposure, household budgets, or the causal effect of perceived job risk on spending.",
+      "subgroup": "Consumers overall, with unemployment-threat items reported for employed respondents.",
+      "counterinterpretation": "Households may adapt through savings, substitution, additional work, or borrowing; perceived pressure does not imply immediate material deprivation.",
+      "source_url": "https://stat.fi/en/publication/cmf5ha5sp3q1t07up1slca4cv",
+      "retrieval_hash": "sha256:27f7f9bddf31baf0ff825dcc8ec08c4cab03624d51af48d01ae9ff1b0dde0f05",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; precautionary consumption and borrowing contradiction",
+      "denominator": {"value": 1157, "unit": "Consumer Confidence Survey respondents", "value_type": "published_survey_sample"},
+      "measures": {
+        "durable_purchase_room": {"value": {"favourable_expensive_purchase": 15, "increase_durable_spending": 13, "reduce_durable_spending": 37}, "unit": "percent of consumers", "value_type": "published_survey_estimate"},
+        "loan_intentions": {"value": 19, "unit": "percent planning to raise a loan within one year", "value_type": "published_survey_estimate"},
+        "car_exception": {"value": 17, "unit": "percent definitely or possibly planning to buy a car within 12 months", "value_type": "published_survey_estimate"},
+        "precautionary_borrowing": {"value": "Weak durable-goods spending intentions can coexist with loan plans and a specific car-purchase exception, suggesting differentiated household strategies rather than uniform retrenchment", "unit": "analytic consumption mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Published Statistics Finland survey estimates on durable-goods purchases, loans, and vehicle intentions.",
+      "uncertainty": "Intentions may not be realized and the survey cannot distinguish productive borrowing, refinancing, emergency borrowing, or credit-constrained households.",
+      "subgroup": "Consumers considering durable goods, cars, housing, renovation, saving, or loans during the coming year.",
+      "counterinterpretation": "A car may be a necessary mobility purchase rather than discretionary consumption; borrowing can smooth timing or reflect investment rather than financial distress.",
+      "source_url": "https://stat.fi/en/publication/cmf5ha5sp3q1t07up1slca4cv",
+      "retrieval_hash": "sha256:27f7f9bddf31baf0ff825dcc8ec08c4cab03624d51af48d01ae9ff1b0dde0f05",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__kbar/statfin_kbar_pxt_11cc.px/", "claim": "Statistics Finland database tables provide time series and subgroup data for consumer confidence."},
+    {"source_url": "https://stat.fi/en/publication/cmf5ha5sp3q1t07up1slca4cv", "claim": "Official Statistics Finland publication page for the September 2026 release."}
+  ],
+  "boundary": "This record adds a household-consumption route from uneven confidence and perceived price or job risk through regional and status divergence, spending restraint, and differentiated borrowing. It does not establish realized expenditure, debt distress, causal regional effects, or household welfare from confidence balances alone.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Finland page reviewed for sample, field dates, confidence balance, regional and socio-economic subgroup figures, price and unemployment perceptions, borrowing, durable purchases, and response mode.",
+    "source_url_sha256": "sha256:27f7f9bddf31baf0ff825dcc8ec08c4cab03624d51af48d01ae9ff1b0dde0f05",
+    "checked": "2026-09-29"
+  }
+}

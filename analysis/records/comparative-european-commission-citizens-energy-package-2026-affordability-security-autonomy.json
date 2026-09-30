@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-european-commission-citizens-energy-package-2026-affordability-security-autonomy",
+  "title": "European energy policy is converging household affordability, clean-energy investment, geopolitical dependence and consumer agency into one state-capacity agenda",
+  "theme_ids": ["energy", "cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "European Commission, Citizens' Energy Package and initiatives to boost EU energy independence and lower costs",
+  "geography": "European Union energy, consumer, industrial and geopolitical policy",
+  "observations": [
+    {
+      "period": "March 2026; EU energy affordability and household protection",
+      "denominator": {"value": 1, "unit": "European Commission Citizens' Energy Package policy framework", "value_type": "policy_frame"},
+      "measures": {
+        "household_route": {"value": "reduce energy bills, empower citizens to produce and share clean energy, and combat energy poverty", "unit": "announced policy route", "value_type": "reported_policy_commitment"},
+        "consumer_tools": {"value": "faster switching between suppliers, lower taxes and levies on electricity bills, and more transparent information on bills and contracts", "unit": "announced consumer measures", "value_type": "reported_policy_commitment"},
+        "legitimacy_frame": {"value": "affordable energy is framed as a condition of quality of life, fairness, inclusion and resilience", "unit": "stated policy rationale", "value_type": "reported_interpretation"}
+      },
+      "method": "European Commission policy communication and Citizens' Energy Package materials.",
+      "uncertainty": "These are announced or proposed measures, not evidence of implementation, bill reductions, switching outcomes, energy-poverty reduction or equal access to self-generation.",
+      "subgroup": "Households, vulnerable consumers, energy-poor households, prosumers, tenants, energy suppliers, regulators and local authorities.",
+      "counterinterpretation": "Consumer protections and targeted support can reduce immediate hardship, but durable affordability also depends on housing efficiency, wholesale prices, network investment, taxation and income.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/boosting-eus-energy-independence-and-lowering-costs-2026-03-10_en",
+      "retrieval_hash": "sha256:35ce634456a284f49e2a72f479caa79361147945e39099a3909352624ade9b6f",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026; EU clean-energy investment and financing",
+      "denominator": {"value": 1, "unit": "European Commission clean-energy investment strategy", "value_type": "policy_frame"},
+      "measures": {
+        "eib_financing": {"value": 75000000000, "unit": "euros of financing the European Investment Bank Group intends to provide over three years for clean-energy transition support", "value_type": "reported_commitment"},
+        "investment_targets": {"value": "grids, innovative clean-energy technologies and energy efficiency", "unit": "announced investment priorities", "value_type": "reported_policy_route_set"},
+        "private_capital_gap": {"value": "strategy aims to bridge the gap between available private capital and clean-energy investment needs", "unit": "stated policy problem", "value_type": "reported_interpretation"}
+      },
+      "method": "European Commission communication on energy independence, affordability and the EIB-supported clean-energy investment strategy.",
+      "uncertainty": "Financing intentions do not establish final approvals, disbursement, project completion, geographic distribution, consumer savings or emissions effects.",
+      "subgroup": "EU households, utilities, grids, clean-energy firms, municipalities, financial institutions, workers and regions seeking investment.",
+      "counterinterpretation": "Public finance can crowd in private investment and accelerate infrastructure, but it can also leave distributional questions unresolved if benefits and costs are unevenly allocated.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/boosting-eus-energy-independence-and-lowering-costs-2026-03-10_en",
+      "retrieval_hash": "sha256:35ce634456a284f49e2a72f479caa79361147945e39099a3909352624ade9b6f",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026; EU energy security, industrial capacity and strategic autonomy",
+      "denominator": {"value": 1, "unit": "EU energy-security and industrial-policy framework", "value_type": "policy_frame"},
+      "measures": {
+        "dependency_route": {"value": "homegrown clean energy and stronger net-zero technology supply chains are presented as ways to reduce fossil-fuel import dependence and strengthen strategic autonomy", "unit": "stated geopolitical route", "value_type": "reported_policy_commitment"},
+        "supply_chain_requirements": {"value": "flexible supply chains, skilled workers, regulatory cooperation and high safety standards", "unit": "announced implementation requirements", "value_type": "reported_policy_route_set"},
+        "nuclear_option": {"value": "Commission will support a strategy for small modular reactors and consider a 200 million euro InvestEU top-up for initial commercial innovative nuclear technologies", "unit": "announced policy option", "value_type": "reported_commitment"}
+      },
+      "method": "European Commission communication linking energy costs, geopolitical reliance, industrial capacity and clean-technology supply chains.",
+      "uncertainty": "Strategic-autonomy claims are policy objectives; they do not establish reduced import dependence, technology competitiveness, safety performance or public acceptance.",
+      "subgroup": "EU member states, energy-intensive industries, clean-technology manufacturers, nuclear-sector firms, workers, partner countries and energy consumers.",
+      "counterinterpretation": "Domestic capacity can improve resilience but may raise near-term costs, duplicate supply chains or create new dependencies in minerals, technologies and finance.",
+      "source_url": "https://commission.europa.eu/news-and-media/news/boosting-eus-energy-independence-and-lowering-costs-2026-03-10_en",
+      "retrieval_hash": "sha256:35ce634456a284f49e2a72f479caa79361147945e39099a3909352624ade9b6f",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026; EU energy governance, infrastructure and consumer trust",
+      "denominator": {"value": 1, "unit": "EU energy governance and infrastructure response", "value_type": "policy_frame"},
+      "measures": {
+        "infrastructure_route": {"value": "investment in grids, electrification, homegrown energy and energy efficiency is presented as a route to lower and more stable prices over time", "unit": "stated policy theory", "value_type": "reported_interpretation"},
+        "consumer_trust": {"value": "transparent bills, supplier switching, consumer empowerment and protection from energy poverty are treated as part of energy-system legitimacy", "unit": "stated governance route", "value_type": "reported_policy_route_set"},
+        "coordination": {"value": "EU coordination is positioned alongside member-state action, EIB finance, industrial policy and regulatory cooperation", "unit": "reported governance architecture", "value_type": "reported_interpretation"}
+      },
+      "method": "Synthesis of the European Commission policy announcement and Citizens' Energy Package materials.",
+      "uncertainty": "The policy architecture remains contingent on member-state implementation, permitting, fiscal choices, market design, infrastructure timing and consumer uptake.",
+      "subgroup": "EU institutions, member states, regulators, municipalities, utilities, households, firms and workers affected by electrification.",
+      "counterinterpretation": "Layered governance can improve coordination, but it can also blur accountability when price outcomes or implementation failures are attributed across institutions.",
+      "source_url": "https://energy.ec.europa.eu/document/download/2d525b1f-5461-4dfe-9f8d-14f8c5259886_en?filename=Communication+-+Citizens+Energy+Package.pdf",
+      "retrieval_hash": "sha256:35ce634456a284f49e2a72f479caa79361147945e39099a3909352624ade9b6f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://energy.ec.europa.eu/document/download/2d525b1f-5461-4dfe-9f8d-14f8c5259886_en?filename=Communication+-+Citizens+Energy+Package.pdf", "claim": "Official Citizens' Energy Package communication PDF."},
+    {"source_url": "https://energy.ec.europa.eu/news/energy-affordability-looking-back-one-year-policy-action-2026-02-26_en", "claim": "European Commission update on affordability actions, grids, taxation, permitting and vulnerable consumers."},
+    {"source_url": "https://commission.europa.eu/news-and-media/news/boosting-eus-energy-independence-and-lowering-costs-2026-03-10_en", "claim": "Official policy announcement on energy independence, affordability and EIB financing."}
+  ],
+  "boundary": "This record adds an institutional-response layer to the EU energy-consumer and global transition findings. It captures policy commitments and stated rationales, not implemented outcomes, causal bill effects, local consent, project delivery, or proof that strategic autonomy reduces all forms of dependence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The European Commission policy announcement, Citizens' Energy Package communication, and affordability update were retrieved and reviewed for household affordability, consumer tools, EIB finance, grids, clean-energy supply chains, strategic autonomy, nuclear options, governance and implementation limits; the announcement page was hashed because the downloaded PDF endpoint returned an empty placeholder response.",
+    "source_url_sha256": "sha256:35ce634456a284f49e2a72f479caa79361147945e39099a3909352624ade9b6f",
+    "checked": "2026-09-27"
+  }
+}

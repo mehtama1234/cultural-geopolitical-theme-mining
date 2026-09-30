@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-cultural-discoverability-platform-curation-ai-2026",
+  "title": "Cultural availability no longer guarantees cultural visibility: platforms, metadata, language, and AI shape who gets discovered",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "European Commission, Study on the Discoverability of Diverse European Cultural Content Online, commissioned under the EU Work Plan for Culture 2023-2026",
+  "geography": "European Union cultural and linguistic markets, with comparative analysis of music and book sectors and implications for digital cultural policy",
+  "observations": [
+    {
+      "period": "2026 study; digital cultural access and discoverability",
+      "denominator": {"value": 1, "unit": "European Commission-commissioned study combining desk research, sector analysis, data mapping, stakeholder engagement, expert review, and a Europe-wide consumer survey", "value_type": "reported_mixed_method_frame"},
+      "measures": {
+        "availability_visibility_gap": {"value": "content being available online is not enough; it must also be surfaced, noticed, accessed, and engaged with", "unit": "reported analytic distinction", "value_type": "reported_mechanism"},
+        "discovery_ecosystem": {"value": "engagements, presentations, facilitators, interpreters, experiences, and ripples jointly shape cultural discovery", "unit": "reported conceptual framework", "value_type": "reported_mechanism_set"},
+        "policy_shift": {"value": "cultural policy is moving from supporting production and availability toward visibility, exposure diversity, and discoverability", "unit": "reported policy pattern", "value_type": "reported_policy_shift"}
+      },
+      "method": "Desk research, sectoral analysis, data mapping, interviews, focus groups, a workshop, a Europe-wide consumer survey of over 400 participants, quantitative analysis of music and book consumption and recommendations, and scientific peer review.",
+      "uncertainty": "The study is primarily a policy and sector analysis; its consumer survey is not a population prevalence estimate, and the framework does not by itself establish that a particular intervention changes exposure diversity or creator outcomes.",
+      "subgroup": "European audiences, creators, publishers, musicians, cultural institutions, platforms, curators, researchers, regulators, and users with different languages and digital skills.",
+      "counterinterpretation": "Recommendation and curation can reduce search costs and help users find relevant or unfamiliar work; greater platform visibility is not automatically more culturally valuable exposure.",
+      "source_url": "https://cultureactioneurope.org/wp-content/uploads/2026/04/study-on-the-discoverability-of-diverse-european-cultural-NC0126060ENN-1-1.pdf",
+      "retrieval_hash": "sha256:5466bf1614c7630213573fcdab347436b34560d14e4dc5442e715acb64885e37",
+      "status": "reported"
+    },
+    {
+      "period": "2023; European music availability, streaming, and cross-border visibility",
+      "denominator": {"value": 184000000, "unit": "tracks available on digital music platforms in 2023, as reported by the study", "value_type": "reported_platform_catalogue_count"},
+      "measures": {
+        "low_play_tracks": {"value": 80000000, "unit": "tracks streamed fewer than ten times", "value_type": "reported_platform_tail_count"},
+        "ai_upload_pressure": {"value": "AI-generated music was reported as approaching one fifth of uploads", "unit": "reported platform-upload pattern", "value_type": "reported_share_pattern"},
+        "discovery_routes": {"value": "streaming platforms were the primary discovery route at 89%, followed by friends and family at 85% and live concerts at 73%", "unit": "reported survey shares", "value_type": "reported_discovery_route_set"},
+        "cross_border_gap": {"value": "38% of songs in top streaming charts were European, but non-national EU works accounted for only 14% of chart entries", "unit": "reported chart shares", "value_type": "reported_cultural_circulation_pattern"}
+      },
+      "method": "Study analysis of European music catalogues, streaming charts, discovery routes, sector data, and platform dynamics.",
+      "uncertainty": "Catalogue size, chart composition, and reported discovery routes do not measure total listening, long-run creator income, or causal effects of recommendation algorithms; the AI-upload estimate may vary by platform and definition.",
+      "subgroup": "European musicians, independent artists, national and non-national EU works, streaming users, playlist curators, and platform operators.",
+      "counterinterpretation": "Large catalogues and platform recommendation can create new opportunities for niche and independent artists even when visibility is uneven; domestic chart concentration may reflect language and local preference rather than only platform bias.",
+      "source_url": "https://cultureactioneurope.org/wp-content/uploads/2026/04/study-on-the-discoverability-of-diverse-european-cultural-NC0126060ENN-1-1.pdf",
+      "retrieval_hash": "sha256:5466bf1614c7630213573fcdab347436b34560d14e4dc5442e715acb64885e37",
+      "status": "reported"
+    },
+    {
+      "period": "2026 study; structural barriers to diverse cultural discovery",
+      "denominator": {"value": 1, "unit": "study-level synthesis of European cultural and linguistic discovery conditions", "value_type": "reported_policy_frame"},
+      "measures": {
+        "language_barrier": {"value": "language silos and translation gaps leave minority- and smaller-language works less visible across borders", "unit": "reported structural mechanism", "value_type": "reported_mechanism"},
+        "popularity_reinforcement": {"value": "personalisation, algorithmic bias, weak metadata, and unequal promotional capacity can reinforce already popular works", "unit": "reported structural mechanism", "value_type": "reported_mechanism_set"},
+        "capacity_gap": {"value": "creators and cultural institutions face uneven digital skills, marketing expertise, data access, and resources", "unit": "reported sector pattern", "value_type": "reported_capacity_pattern"},
+        "default_narrowing": {"value": "low user awareness and reliance on default recommendations can quietly narrow cultural choices", "unit": "reported user-mechanism pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sector synthesis of platform, cultural, linguistic, metadata, user-experience, and institutional evidence in the European study.",
+      "uncertainty": "These are identified mechanisms and barriers rather than a single causal model; their strength may differ by sector, country, language, platform, age, and user behavior.",
+      "subgroup": "Smaller-language communities, minority creators, independent cultural organizations, users with lower digital skills, and large platforms or firms with greater promotion capacity.",
+      "counterinterpretation": "Translation, open metadata, public-interest curation, and platform transparency could reduce some barriers, while users may actively seek familiar or popular works for legitimate reasons.",
+      "source_url": "https://cultureactioneurope.org/wp-content/uploads/2026/04/study-on-the-discoverability-of-diverse-european-cultural-NC0126060ENN-1-1.pdf",
+      "retrieval_hash": "sha256:5466bf1614c7630213573fcdab347436b34560d14e4dc5442e715acb64885e37",
+      "status": "reported"
+    },
+    {
+      "period": "2026 study; policy and infrastructure response to cultural discoverability",
+      "denominator": {"value": 1, "unit": "European digital-cultural policy landscape reviewed by the study", "value_type": "reported_policy_landscape"},
+      "measures": {
+        "regulatory_route": {"value": "the Audiovisual Media Services Directive, Digital Services Act, Digital Markets Act, AI Act, and Accessibility Act create partial conditions for prominence, transparency, user control, accessibility, and AI-content provenance", "unit": "reported policy instrument set", "value_type": "reported_policy_mechanism_set"},
+        "data_transparency_route": {"value": "the study calls for better metadata, access to platform data, transparent curation, and coordinated multi-stakeholder governance", "unit": "reported recommendation set", "value_type": "reported_policy_recommendation"},
+        "ai_risk": {"value": "synthetic content may increase noise and make human-created works harder to distinguish, while raising attribution, copyright, and cultural-value questions", "unit": "reported emerging risk", "value_type": "reported_risk_mechanism"},
+        "cultural_democracy_route": {"value": "exposure diversity is treated as a condition for pluralism, cultural participation, and shared identity rather than merely a market-discovery issue", "unit": "reported policy rationale", "value_type": "reported_governance_mechanism"}
+      },
+      "method": "Policy mapping and recommendations based on the European Commission-commissioned study; the source describes legal and institutional routes but does not evaluate implementation outcomes.",
+      "uncertainty": "Legal coverage and recommendations do not establish enforcement, platform compliance, creator benefit, or improved cultural diversity; measures may interact with competition, privacy, copyright, and national cultural policy.",
+      "subgroup": "European Commission and Member State policymakers, regulators, platforms, creators, cultural organizations, researchers, and audiences.",
+      "counterinterpretation": "Additional prominence or transparency rules could create compliance burdens, distort user choice, or privilege official definitions of diversity if not paired with contestable metrics and user autonomy.",
+      "source_url": "https://cultureactioneurope.org/wp-content/uploads/2026/04/study-on-the-discoverability-of-diverse-european-cultural-NC0126060ENN-1-1.pdf",
+      "retrieval_hash": "sha256:5466bf1614c7630213573fcdab347436b34560d14e4dc5442e715acb64885e37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cultureactioneurope.org/wp-content/uploads/2026/04/study-on-the-discoverability-of-diverse-european-cultural-NC0126060ENN-1-1.pdf", "claim": "European Commission-commissioned 339-page study on discoverability of diverse European cultural content online, platform curation, music and books, metadata, AI, and policy recommendations."},
+    {"source_url": "https://culture.ec.europa.eu/document/a-culture-compass-for-europe", "claim": "European Commission Culture Compass context referenced by the study for cultural diversity, accessibility, and AI strategy."}
+  ],
+  "boundary": "This record adds a cultural-discoverability route from digital abundance through platform ranking, recommendation, metadata, language, skills, AI-generated content, creator visibility, and cultural pluralism. It is a European policy and sector study with mixed evidence and a small consumer survey, not a population-level causal estimate of exposure, platform impact, or cultural participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Officially commissioned European study reviewed for its executive summary, mixed-method frame, discovery ecosystem, music catalogue and chart statistics, structural barriers, AI risks, policy instruments, and recommendations.",
+    "report_pdf_sha256": "sha256:5466bf1614c7630213573fcdab347436b34560d14e4dc5442e715acb64885e37",
+    "checked": "2026-09-28"
+  }
+}

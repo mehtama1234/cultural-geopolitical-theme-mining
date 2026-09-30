@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unv-state-world-volunteerism-2026-give-social-infrastructure",
+  "title": "Volunteer action is being reframed as measurable social infrastructure linking solidarity, trust, development, and public capacity",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations Volunteers, 2026 State of the World’s Volunteerism Report: Volunteerism and its Measurements",
+  "geography": "Global and regional evidence on volunteer work, with measurement and case-study attention to Global South contexts",
+  "observations": [
+    {
+      "period": "2026 report; estimated global volunteer-work engagement",
+      "denominator": {"value": 2100000000, "unit": "working-age people estimated to engage in volunteer work each month", "value_type": "modelled_global_estimate"},
+      "measures": {
+        "monthly_engagement": {"value": 34.5, "unit": "percent of working-age people estimated to engage in volunteer work each month", "value_type": "modelled_share"},
+        "scale": {"value": 2100000000, "unit": "people", "value_type": "modelled_global_count"},
+        "social_infrastructure": {"value": "volunteer action is presented as a large but often invisible contribution to social cohesion, trust, collective problem-solving, and development", "unit": "reported analytical framing", "value_type": "reported_mechanism"}
+      },
+      "method": "UNV report using ILO-led global and regional modelling of volunteer work, country data, research synthesis, qualitative case studies, and a new Global Index of Volunteer Engagement framework.",
+      "uncertainty": "The estimate is modelled from incomplete and uneven country data, uses a narrower statistical definition of volunteer work than the broader UN definition of volunteering, and should not be read as a direct count of all solidarity or civic activity.",
+      "subgroup": "Working-age people across regions, people volunteering directly or through organizations, and communities whose mutual aid is often absent from official statistics.",
+      "counterinterpretation": "A very large aggregate can conceal unequal burdens, unpaid substitution for public services, coercive expectations, and differences in whether volunteering reflects agency or lack of alternatives.",
+      "source_url": "https://www.unv.org/sites/default/files/The%202026%20SWVR%20Web%20Version.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; global measurement capacity",
+      "denominator": {"value": 193, "unit": "UN Member States used as the global country frame", "value_type": "reported_global_country_frame"},
+      "measures": {
+        "measurement_coverage": {"value": 64, "unit": "countries with volunteer-work measurement through national statistics since 2008", "value_type": "reported_country_count"},
+        "coverage_share": {"value": 33, "unit": "approximate percent of UN Member States with such measurement since 2008, reported as less than a third", "value_type": "derived_share"},
+        "measurement_gap": {"value": "measurement is sporadic, with an average of only two recordings per measuring country between 2008 and 2023", "unit": "reported measurement condition", "value_type": "reported_assessment"},
+        "visibility_mechanism": {"value": "what is not measured is less likely to be valued, funded, or integrated into development planning", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UNV review of national statistical measurement, available volunteer-work data, data gaps, and harmonization challenges.",
+      "uncertainty": "Country measurement status does not capture all local, civil-society, administrative, or qualitative evidence; absence of national statistics is not proof of absence of volunteering.",
+      "subgroup": "Countries with stronger statistical systems versus countries where direct, informal, or community-based volunteering is more weakly represented in official data, especially in the Global South.",
+      "counterinterpretation": "Standardization can improve comparison while still privileging forms of organized or economically legible volunteer work over mutual aid, care, spiritual practice, and culturally specific contribution.",
+      "source_url": "https://www.unv.org/sites/default/files/The%202026%20SWVR%20Web%20Version.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; Global Index of Volunteer Engagement (GIVE)",
+      "denominator": {"value": 4, "unit": "GIVE dimensions", "value_type": "reported_framework_dimension_count"},
+      "measures": {
+        "dimensions": {"value": "value to the individual; value to the community; value to the economy; and the enabling environment that sustains volunteering", "unit": "reported multidimensional framework", "value_type": "reported_framework"},
+        "measurement_shift": {"value": "the framework moves beyond counting volunteer hours or assigning monetary value toward outcomes, relationships, community contribution, and institutional conditions", "unit": "reported measurement shift", "value_type": "reported_assessment"},
+        "policy_route": {"value": "volunteer measurement is positioned as an input to planning, budgeting, accountability, inclusion, and civic participation", "unit": "reported policy mechanism", "value_type": "reported_recommendation"}
+      },
+      "method": "UNV conceptual framework developed through research, indicator review, data harmonization, technical consultation, and synthetic-data illustration.",
+      "uncertainty": "GIVE is a proposed and adaptable framework, not a validated causal index or proof that equal-weight scoring captures volunteer value across contexts.",
+      "subgroup": "National statistical offices, civil-society organizations, governments, volunteers, researchers, and communities with different institutional and measurement capacity.",
+      "counterinterpretation": "Turning solidarity into an index may make it more visible but can also narrow its meaning, invite performance management, or shift attention from political rights and public provision to measurable volunteer output.",
+      "source_url": "https://www.unv.org/sites/default/files/The%202026%20SWVR%20Web%20Version.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; volunteering across overlapping crises",
+      "denominator": {"value": 1, "unit": "cross-crisis volunteerism measurement and policy route", "value_type": "reported_framework"},
+      "measures": {
+        "crisis_role": {"value": "volunteers are described as responding to climate emergencies, disasters, inequality, conflict recovery, health, education, and community development", "unit": "reported cross-context contribution", "value_type": "reported_assessment"},
+        "collective_capacity": {"value": "volunteering can connect people across difference, build trust, support resilience, and turn shared values into collective action", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "equity_condition": {"value": "fair volunteer pathways and attention to marginalized voices are necessary if volunteering is to expand inclusion rather than reproduce unequal access to skills, networks, and recognition", "unit": "reported policy condition", "value_type": "reported_recommendation"}
+      },
+      "method": "UNV synthesis of global research, case studies, crisis measurement approaches, and policy recommendations.",
+      "uncertainty": "The report documents mechanisms and measurement approaches but does not establish a universal causal effect of volunteering on trust, resilience, health, or development outcomes.",
+      "subgroup": "Volunteers and communities in climate-affected, conflict-affected, unequal, displaced, and resource-constrained settings; organizations and public systems relying on volunteer contributions.",
+      "counterinterpretation": "Volunteer action may sustain communities while masking service withdrawal, exploiting unpaid labor, or placing disproportionate care and crisis work on women, migrants, youth, or marginalized groups.",
+      "source_url": "https://www.unv.org/sites/default/files/The%202026%20SWVR%20Web%20Version.pdf",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unv.org/sites/default/files/2026%20SWVR%20Overview%20in%20English.pdf", "claim": "Official UNV overview summarizing the report’s measurement gap, social-cohesion framing, and GIVE introduction."},
+    {"source_url": "https://www.unv.org/", "claim": "UN Volunteers institutional source for volunteerism, development, and measurement work."}
+  ],
+  "boundary": "This record adds a global volunteerism and social-infrastructure route linking mutual aid, trust, social cohesion, crisis response, development, measurement, inclusion, and public capacity. It uses UNV’s modelled estimates, research synthesis, case studies, and proposed GIVE framework; it is not a respondent-level atlas dataset, causal evaluation, proof that volunteering substitutes for public services, or universal measure of all solidarity and civic action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official 156-page UNV 2026 State of the World’s Volunteerism Report PDF and 16-page overview PDF reviewed for global volunteer estimates, measurement coverage, crisis and Global South framing, GIVE dimensions, and policy boundaries.",
+    "source_url_sha256": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "checked": "2026-09-28"
+  }
+}

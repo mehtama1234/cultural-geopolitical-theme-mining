@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-consumer-tracker-september-2026-tariffs-price-politics-trust",
+  "title": "Tariffs are becoming a lived consumer signal through visible price increases, product-value judgments, safety trust, and political attribution",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos Consumer Tracker wave released 28 September 2026, including tariff perceptions, clothing-value judgments, food-inspection trust, community safety, and consumer technology use",
+  "geography": "United States adults age 18 and older; recurring Ipsos online Consumer Tracker with current wave focused on tariff and consumer perceptions",
+  "observations": [
+    {
+      "period": "28 September 2026; latest Ipsos Consumer Tracker wave",
+      "denominator": {"value": 1, "unit": "Ipsos recurring national consumer-attitudes wave", "value_type": "reported_tracker_frame"},
+      "measures": {
+        "tariff_price_expectation": {"value": 81, "unit": "percent of Americans agreeing tariffs will raise prices on goods they buy", "value_type": "reported_share"},
+        "tariff_price_exposure": {"value": 71, "unit": "percent saying they have already seen prices rise specifically because of tariffs", "value_type": "reported_share"},
+        "historical_shift": {"value": "the corresponding figures were 66% for expected price increases in January 2025 and 43% for observed tariff-linked price increases in February 2025", "unit": "reported comparison", "value_type": "reported_change"},
+        "consumer_conversion": {"value": "trade policy is being interpreted through household prices rather than remaining an abstract policy instrument", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ipsos recurring Consumer Tracker; the public page summarizes current-wave results and historical comparisons but does not provide a causal tariff-incidence estimate.",
+      "uncertainty": "Perceived tariff-linked price increases are not a product-level price index and do not establish the share of price changes caused by tariffs; the summary does not provide the full sample or weighting details for this wave on the landing page.",
+      "subgroup": "U.S. consumers with different incomes, purchasing baskets, political identities, import exposure, geographic markets, and ability to substitute or delay purchases.",
+      "counterinterpretation": "Consumers can accurately perceive a price increase without identifying its cause, and tariff attribution can coexist with other inflation, supply-chain, exchange-rate, or firm-pricing effects.",
+      "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "retrieval_hash": "sha256:2c262b6e4f2607e01b40bef7e7760db094e40ed7ffbc1363f01c1a1003810716",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; tariffs, product value, and substitution",
+      "denominator": {"value": 1, "unit": "Ipsos current Consumer Tracker thematic module", "value_type": "reported_module_frame"},
+      "measures": {
+        "value_judgment": {"value": "the wave examines clothing-value perceptions, including cost-per-wear as a purchase metric among younger Americans", "unit": "reported consumer theme", "value_type": "reported_theme"},
+        "purchase_mechanism": {"value": "visible price pressure can move consumer judgment from sticker price toward durability, repeat use, and total value", "unit": "bounded consumer mechanism", "value_type": "bounded_mechanism"},
+        "room_route": {"value": "product longevity and substitution may protect household room, but can also require higher up-front spending or exclude consumers with limited liquidity", "unit": "bounded distributional mechanism", "value_type": "bounded_mechanism"},
+        "outcome_boundary": {"value": "the public summary does not establish actual purchase changes, apparel quality, household savings, or reduced consumption", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Ipsos thematic consumer-attitudes module summarized on the tracker page; the landing page does not provide a full cross-tabulation or observed purchase data.",
+      "uncertainty": "The phrase cost per wear describes a reported decision criterion, not a measured lifecycle calculation or causal response to tariffs.",
+      "subgroup": "Younger consumers, low-liquidity households, value-conscious shoppers, apparel firms, resale markets, and consumers facing different price and quality options.",
+      "counterinterpretation": "Value language can support more durable consumption, but it can also rationalize paying more for premium goods or shift responsibility for affordability onto consumers.",
+      "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "retrieval_hash": "sha256:2c262b6e4f2607e01b40bef7e7760db094e40ed7ffbc1363f01c1a1003810716",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; consumer trust in public safety systems",
+      "denominator": {"value": 1, "unit": "Ipsos current Consumer Tracker thematic module", "value_type": "reported_module_frame"},
+      "measures": {
+        "food_inspection": {"value": "the wave examines whether Americans trust food-safety inspections, with the public summary noting a separate finding that most Americans trust food inspections less", "unit": "reported trust theme", "value_type": "reported_theme"},
+        "community_safety": {"value": "the wave also examines community safety and perceptions of armed federal agents", "unit": "reported public-safety theme", "value_type": "reported_theme"},
+        "institutional_route": {"value": "consumer trust in market and public-safety institutions can shape perceived legitimacy of prices, protection, and enforcement", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "evidence_boundary": {"value": "the public page does not provide the full percentages, question wording, subgroup differences, or observed food-safety outcomes in the summary itself", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Ipsos public summary of a recurring online tracker and linked topical releases; no administrative inspection or crime outcome is included in this record.",
+      "uncertainty": "Trust measures may respond to media exposure, political conflict, personal experience, or institutional performance, and the public summary does not separate those pathways.",
+      "subgroup": "Consumers, parents, food purchasers, communities exposed to different safety risks, and people with different trust in federal and local institutions.",
+      "counterinterpretation": "Lower trust does not prove inspection failure; it may reflect generalized institutional skepticism or disagreement about enforcement authority.",
+      "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "retrieval_hash": "sha256:2c262b6e4f2607e01b40bef7e7760db094e40ed7ffbc1363f01c1a1003810716",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; policy perception, attribution, and consumer action",
+      "denominator": {"value": 1, "unit": "Ipsos Consumer Tracker synthesis", "value_type": "reported_tracker_frame"},
+      "measures": {
+        "political_attribution": {"value": "tariff-linked price perceptions create a route through which trade policy can be judged through household purchasing experience", "unit": "bounded political mechanism", "value_type": "bounded_mechanism"},
+        "firm_response": {"value": "firms may face consumer pressure to explain price changes, preserve value, and demonstrate safety or fairness", "unit": "bounded firm mechanism", "value_type": "bounded_mechanism"},
+        "consumer_action": {"value": "the open question is whether perceived price causes translate into substitution, reduced quantity, delayed purchase, brand switching, political preference, or complaint", "unit": "research requirement", "value_type": "research_requirement"},
+        "causal_boundary": {"value": "the tracker provides attitudes and perceptions, not a causal estimate linking tariffs to purchases, votes, or institutional trust", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Bounded synthesis of the Ipsos tracker’s tariff, value, safety, and consumer-behavior modules.",
+      "uncertainty": "The landing page does not identify whether the same respondent changed behavior or political judgment after observing a price increase.",
+      "subgroup": "Consumers, firms, policymakers, trade-exposed workers, and households with different ability to absorb or avoid price changes.",
+      "counterinterpretation": "Consumers can report tariff concern without changing purchases or political behavior, especially when necessities have few substitutes.",
+      "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "retrieval_hash": "sha256:2c262b6e4f2607e01b40bef7e7760db094e40ed7ffbc1363f01c1a1003810716",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19", "claim": "Ipsos Consumer Tracker landing page, current wave, linked modules, and methodology route."}
+  ],
+  "boundary": "This record adds a tariff-to-consumer-politics route: trade policy becomes socially legible through perceived price increases, product value, public safety, institutional trust, and household substitution. It uses Ipsos’s public tracker summary, not product-level price data, causal tariff incidence, observed purchasing, administrative inspection outcomes, or proof of political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Ipsos tracker page reviewed for 28 September 2026 release date, 81% and 71% tariff-price figures, January 2025 and February 2025 comparisons, cost-per-wear, food-inspection trust, community safety, and linked methodology.",
+    "source_url_sha256": "sha256:2c262b6e4f2607e01b40bef7e7760db094e40ed7ffbc1363f01c1a1003810716",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-tides-change-2025-eca-productivity-jobs-firms-skills",
+  "title": "Europe and Central Asia’s jobs problem is a productivity and firm-capability problem, not simply a shortage of capital or workers",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "household_room_consumption"
+  ],
+  "source_unit": "World Bank, TIDES of Change: Igniting Productivity Growth in Europe and Central Asia",
+  "geography": "Europe and Central Asia; 16-country, multi-sector firm-level evidence spanning 2008–2023",
+  "observations": [
+    {
+      "period": "2008–2023; productivity and employment potential",
+      "denominator": {"value": 40000000, "unit": "harmonized firm-level observations assembled from national statistical offices, tax authorities and complementary sources across 16 countries and multiple sectors", "value_type": "reported_observation_count"},
+      "measures": {
+        "productivity_to_jobs": {"value": 2000000, "unit": "additional jobs that a 10% increase in productivity could add in the region", "value_type": "reported_estimate"},
+        "post_2008_productivity_gap": {"value": 62, "unit": "percent higher regional GDP that might have resulted if post-2008 productivity growth had matched its pre-financial-crisis pace", "value_type": "reported_counterfactual"},
+        "productivity_slowdown": {"value": "The region’s post-global-financial-crisis growth slowdown was almost entirely driven by slower productivity", "unit": "reported macroeconomic interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank analysis using harmonized firm-level data and regional productivity, employment and growth comparisons.",
+      "uncertainty": "The job and GDP figures are model-based estimates or counterfactuals, not guaranteed outcomes; the report’s firm data may not capture all informal activity or household-level constraints.",
+      "subgroup": "Firms, workers and sectors across 16 Europe and Central Asia countries.",
+      "counterinterpretation": "Productivity gains can raise jobs and wages when demand, competition and distributional institutions transmit gains; otherwise they may concentrate returns among high-productivity firms and capital owners.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2025/11/24/promoting-productivity-would-boost-gdp-and-create-more-and-better-jobs-for-countries-in-europe-and-central-asia",
+      "retrieval_hash": "sha256:6c5fe76b4a88d06add2d44b4610c4cdc457bd5179bb0f278e58979b6a2b059ce",
+      "status": "reported"
+    },
+    {
+      "period": "2025; firm capability, trade and value-chain integration",
+      "denominator": {"value": null, "unit": "ECA firms and countries analyzed in the World Bank TIDES report; subgroup denominators vary by measure", "value_type": "not_disclosed"},
+      "measures": {
+        "exporter_productivity": {"value": "Exporters are the most productive firms and, although a small minority, disproportionately contribute to jobs, investment and value added", "unit": "reported firm-distribution interpretation", "value_type": "reported_interpretation"},
+        "trade_untapped_potential": {"value": 45, "unit": "percent less trade on average than the region could achieve", "value_type": "reported_gap_estimate"},
+        "nearshoring_opportunity": {"value": "Closer-to-home and more resilient value chains create an opportunity if domestic firms can strengthen capabilities and engage with multinational firms", "unit": "reported strategic interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Firm-level productivity and trade analysis combined with regional value-chain and foreign-investment assessment.",
+      "uncertainty": "The trade gap is an estimate relative to modeled potential and does not ensure that expanded trade produces broad-based wages, local ownership or resilient household outcomes.",
+      "subgroup": "Exporting and domestic firms, multinational firms and workers across ECA countries.",
+      "counterinterpretation": "Export concentration can improve aggregate productivity while increasing regional or sectoral inequality if smaller firms, workers and lagging places cannot enter the value chain.",
+      "source_url": "https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia",
+      "retrieval_hash": "sha256:6c5fe76b4a88d06add2d44b4610c4cdc457bd5179bb0f278e58979b6a2b059ce",
+      "status": "reported"
+    },
+    {
+      "period": "2025; reform bundle for productivity and job quality",
+      "denominator": {"value": null, "unit": "World Bank regional policy analysis; no single respondent or firm denominator for the reform bundle", "value_type": "not_disclosed"},
+      "measures": {
+        "tides_bundle": {"value": "Trade, investment, digitalization, efficiency and skills are identified as mutually reinforcing reform priorities", "unit": "reported policy framework", "value_type": "reported_interpretation"},
+        "firm_constraints": {"value": "Weak firm capabilities, incomplete global-market integration, market distortions and persistent less-efficient state-owned enterprises constrain productivity", "unit": "reported structural diagnosis", "value_type": "reported_interpretation"},
+        "public_governance": {"value": "Governments are urged to mainstream productivity into plans and budgets, enable competition, ensure transparent procurement and measure reform progress", "unit": "reported governance implication", "value_type": "reported_interpretation"},
+        "skills_and_technology": {"value": "Productivity rises when firms can access technology and finance and workers can acquire skills to adopt and adapt", "unit": "reported capability mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative economic analysis and policy synthesis from firm-level and country-level evidence.",
+      "uncertainty": "The report identifies a reform bundle but does not establish that all components have equal marginal effects or that implementation is politically feasible in every country.",
+      "subgroup": "Governments, firms, workers, investors and education/training systems in ECA.",
+      "counterinterpretation": "Productivity reform without worker voice, social protection and regional redistribution can intensify the same legitimacy and middle-class anxieties documented in the World Bank’s qualitative work.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2025/11/24/promoting-productivity-would-boost-gdp-and-create-more-and-better-jobs-for-countries-in-europe-and-central-asia",
+      "retrieval_hash": "sha256:6c5fe76b4a88d06add2d44b4610c4cdc457bd5179bb0f278e58979b6a2b059ce",
+      "status": "reported"
+    },
+    {
+      "period": "2025; demographic and job-quality transition",
+      "denominator": {"value": null, "unit": "ECA labor-market and demographic projections; country-group denominators vary", "value_type": "not_disclosed"},
+      "measures": {
+        "employment_growth": {"value": 12, "unit": "percent increase in ECA employment over the last 15 years", "value_type": "reported_change"},
+        "services_share": {"value": "Services now account for more than half of jobs in the region", "unit": "reported employment composition", "value_type": "reported_interpretation"},
+        "low_skill_opportunity": {"value": "Most recent opportunities have been relatively low-skilled jobs with limited earning potential", "unit": "reported job-quality interpretation", "value_type": "reported_interpretation"},
+        "working_age_decline": {"value": 17000000, "unit": "projected decrease in the working-age population over the coming decades, concentrated in Eastern and Central Europe and the Western Balkans", "value_type": "reported_projection"},
+        "regional_divergence": {"value": "Central Asia and Türkiye are projected to see working-age population growth, creating a different labor-market pressure", "unit": "reported demographic contrast", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank regional labor-market, demographic and sector-composition analysis.",
+      "uncertainty": "Projections depend on fertility, migration, health, retirement, participation and policy assumptions; employment growth does not by itself indicate rising job quality or household security.",
+      "subgroup": "Workers, youth, women and older people across different ECA demographic subregions.",
+      "counterinterpretation": "Population decline can raise worker bargaining power in some sectors, while population growth can create opportunity if job creation and skills investment keep pace.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2025/10/07/europe-and-central-asia-investing-in-jobs-is-key-to-boosting-productivity-and-growth",
+      "retrieval_hash": "sha256:6c5fe76b4a88d06add2d44b4610c4cdc457bd5179bb0f278e58979b6a2b059ce",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia", "claim": "Official World Bank publication page for TIDES of Change."},
+    {"source_url": "https://openknowledge.worldbank.org/bitstreams/b29b7eaa-5b35-4a8a-bc5e-17e97e9ae5f7/download", "claim": "Official World Bank TIDES of Change report PDF used for retrieval verification and hashing."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2025/10/07/europe-and-central-asia-investing-in-jobs-is-key-to-boosting-productivity-and-growth", "claim": "World Bank ECA Economic Update context on job quality, demographics, infrastructure and skills."}
+  ],
+  "boundary": "This record adds a supply-side mobility mechanism: broad job and wage improvement depends on productivity, firm capability, competition, technology access, trade integration and skills—not merely adding capital or workers. It is regional macroeconomic and firm-level analysis with model-based estimates, not a household survey, worker-panel dataset or guarantee that productivity gains will be evenly distributed.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank TIDES press release, publication context, report PDF and ECA Economic Update press release were retrieved and reviewed for productivity, jobs, trade, firm capability, reform priorities, job quality and demographic transition; the report PDF was hashed.",
+    "source_url_sha256": "sha256:6c5fe76b4a88d06add2d44b4610c4cdc457bd5179bb0f278e58979b6a2b059ce",
+    "checked": "2026-09-27"
+  }
+}

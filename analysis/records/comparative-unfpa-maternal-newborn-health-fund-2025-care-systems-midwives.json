@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unfpa-maternal-newborn-health-fund-2025-care-systems-midwives",
+  "title": "Maternal and newborn outcomes depend on care systems, midwifery capacity, emergency continuity, and data accountability",
+  "theme_ids": ["cost", "energy", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNFPA, Maternal and Newborn Health Fund 2025 Impact Report",
+  "geography": "44 UNFPA Maternal and Newborn Health Fund partner countries, including high-burden and humanitarian settings",
+  "observations": [
+    {
+      "period": "2010-2023; maternal mortality in Fund-supported countries",
+      "denominator": {"value": 44, "unit": "Fund-supported partner countries", "value_type": "programme_country_frame"},
+      "measures": {
+        "maternal_death_change": {"value": -37, "unit": "percent change in maternal deaths across Fund-supported countries between 2010 and 2023", "value_type": "reported_change"},
+        "relative_progress": {"value": 1.7, "unit": "times the global rate of decline, approximately", "value_type": "reported_comparison"},
+        "care_reach_2025": {"value": 4700000, "unit": "women receiving safer delivery care with Fund contribution in 2025", "value_type": "reported_service_reach"}
+      },
+      "method": "UNFPA impact reporting connecting country programme support, maternal mortality trends, delivery care, health-system policy, and partner implementation.",
+      "uncertainty": "The reported change is an aggregate comparison across supported countries and cannot by itself attribute mortality decline to the Fund rather than national policy, health-system, demographic, or other partner factors.",
+      "subgroup": "Pregnant people, newborns, midwives, health workers, families, communities, and populations in countries with high preventable maternal and newborn mortality.",
+      "counterinterpretation": "Aggregate progress can coexist with severe within-country, rural-urban, income, ethnic, conflict, or facility-level gaps; a supported service is not a guarantee of universal or high-quality access.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-maternal-and-newborn-health-fund-2025-impact-report",
+      "retrieval_hash": "sha256:3a9612acb74dd97344234afc23011639f55dc3a3d365e6725b6b63ecd9dbdf85",
+      "status": "reported"
+    },
+    {
+      "period": "2008-2025; midwifery and fistula-care capacity",
+      "denominator": {"value": 1, "unit": "UNFPA Maternal and Newborn Health Fund capacity-building portfolio", "value_type": "programme_portfolio_frame"},
+      "measures": {
+        "midwives_supported_total": {"value": 864030, "unit": "midwives trained or supported since 2008", "value_type": "reported_participant_count"},
+        "midwives_supported_2025": {"value": 88030, "unit": "midwives trained or supported in 2025", "value_type": "reported_participant_count"},
+        "fistula_surgeries_total": {"value": 153000, "unit": "fistula surgeries supported since 2008", "value_type": "reported_service_count"}
+      },
+      "method": "UNFPA programme monitoring of midwifery support, reproductive health services, and fistula-care delivery.",
+      "uncertainty": "Training and service counts do not establish retention, competency, geographic distribution, long-term outcomes, or whether services reached the people with greatest barriers.",
+      "subgroup": "Midwives, pregnant people, newborns, fistula survivors, rural and low-income communities, health facilities, and care networks.",
+      "counterinterpretation": "Workforce expansion can improve care but may fail if pay, safety, supervision, supplies, referral systems, and working conditions remain inadequate.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-maternal-and-newborn-health-fund-2025-impact-report",
+      "retrieval_hash": "sha256:3a9612acb74dd97344234afc23011639f55dc3a3d365e6725b6b63ecd9dbdf85",
+      "status": "reported"
+    },
+    {
+      "period": "2025; policy, commodity, and humanitarian continuity",
+      "denominator": {"value": 44, "unit": "Fund partner countries", "value_type": "programme_country_frame"},
+      "measures": {
+        "universal_coverage_plans": {"value": 38, "unit": "countries with universal health coverage policies or plans including maternal health and emergency obstetric/newborn care", "value_type": "reported_country_count"},
+        "new_commodity_scale": {"value": 77, "unit": "percent of Fund countries introducing or beginning to scale lesser-used WHO-recommended commodities", "value_type": "reported_country_share"},
+        "humanitarian_facilities": {"value": 71, "unit": "emergency obstetric and newborn care facilities kept operational in humanitarian settings", "value_type": "reported_facility_count"}
+      },
+      "method": "UNFPA impact report combining policy adoption, commodity uptake, emergency facility continuity, midwife deployment, and infrastructure support.",
+      "uncertainty": "Policies and facility operation do not establish adequate staffing, affordability, quality, referral access, or continuity after external support; reported percentages are programme-country measures.",
+      "subgroup": "Pregnant people and newborns in humanitarian settings, health facilities, midwives, emergency-care teams, displaced communities, and countries with fragile service systems.",
+      "counterinterpretation": "External programme support can sustain services during crisis but may create dependency or leave broader health-system financing and political accountability unresolved.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-maternal-and-newborn-health-fund-2025-impact-report",
+      "retrieval_hash": "sha256:3a9612acb74dd97344234afc23011639f55dc3a3d365e6725b6b63ecd9dbdf85",
+      "status": "reported"
+    },
+    {
+      "period": "2025; community care, reintegration, and health information systems",
+      "denominator": {"value": 44, "unit": "Fund partner countries", "value_type": "programme_country_frame"},
+      "measures": {
+        "community_policy_integration": {"value": 80, "unit": "percent of countries integrating maternal and newborn care into national community-health policies", "value_type": "reported_country_share"},
+        "fistula_survivor_reintegration": {"value": 3258, "unit": "fistula survivors benefiting from social reintegration services", "value_type": "reported_service_reach"},
+        "mortality_surveillance": {"value": 82, "unit": "percent of countries implementing or scaling maternal and perinatal death surveillance and response systems", "value_type": "reported_country_share"}
+      },
+      "method": "UNFPA synthesis of community-health policy, survivor reintegration, sexual and reproductive health information systems, and maternal/perinatal death surveillance.",
+      "uncertainty": "Surveillance and reintegration coverage measure institutional activity and service reach, not the full quality, responsiveness, or equity of care or accountability.",
+      "subgroup": "Women and newborns, fistula survivors, community health workers, local authorities, health managers, families, and communities affected by preventable maternal deaths.",
+      "counterinterpretation": "More data and community policy can improve accountability but may not change practice if findings do not trigger resources, referrals, protection, or corrective action.",
+      "source_url": "https://www.unfpa.org/publications/unfpa-maternal-and-newborn-health-fund-2025-impact-report",
+      "retrieval_hash": "sha256:3a9612acb74dd97344234afc23011639f55dc3a3d365e6725b6b63ecd9dbdf85",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unfpa.org/publications/maternal-and-newborn-health-fund-annual-impact-report-2024", "claim": "UNFPA 2024 Maternal and Newborn Health Fund report provides a prior-phase comparison for mortality, midwifery, emergency care, and surveillance."},
+    {"source_url": "https://www.unicef.org/reports/child-survival-dividend", "claim": "UNICEF Child Survival Dividend provides complementary child-survival, WASH, and health-system investment context."}
+  ],
+  "boundary": "This record adds a reproductive and maternal-health infrastructure route linking mortality, midwives, delivery care, emergency continuity, commodities, community health, survivor reintegration, and data accountability. It is an aggregate programme impact report, not clinical records, patient histories, respondent-level data, or a causal evaluation of every Fund-supported intervention.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNFPA Maternal and Newborn Health Fund 2025 Impact Report page was reviewed for 44-country coverage, mortality change, safer delivery care, midwifery, fistula services, policy, commodities, humanitarian continuity, community health, and surveillance claims.",
+    "source_url_sha256": "sha256:3a9612acb74dd97344234afc23011639f55dc3a3d365e6725b6b63ecd9dbdf85",
+    "checked": "2026-09-26"
+  }
+}

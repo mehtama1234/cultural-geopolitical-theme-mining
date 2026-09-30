@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-imf-weo-update-july-2026-war-technology-growth-inflation",
+  "title": "Technology momentum offsets part of the war drag while growth, inflation, and fiscal room remain uneven across economies",
+  "theme_ids": ["cost", "energy", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "International Monetary Fund, World Economic Outlook Update July 2026: Global Economy in Crosscurrents of War and Technology",
+  "geography": "Global economy with advanced, emerging-market, developing, energy-importing, and technology-integrated economy comparisons",
+  "observations": [
+    {
+      "period": "2026-2027; global growth outlook",
+      "denominator": {"value": 1, "unit": "global economic output projection frame", "value_type": "global_projection_frame"},
+      "measures": {
+        "2026_growth": {"value": 3.0, "unit": "percent projected global growth in 2026", "value_type": "reported_projection"},
+        "2027_growth": {"value": 3.4, "unit": "percent projected global growth in 2027", "value_type": "reported_projection"},
+        "unevenness": {"value": "growth is holding up but remains uneven across countries", "unit": "IMF outlook assessment", "value_type": "reported_finding"},
+        "offsetting_forces": {"value": "AI-driven demand is lifting economies integrated into global technology value chains while war weighs on energy importers and vulnerable economies", "unit": "IMF explanatory framing", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF World Economic Outlook update using macroeconomic projections, country group comparisons, and scenario/risk analysis.",
+      "uncertainty": "These are forecasts, not realized outcomes; conflict, energy prices, financial conditions, trade, technology investment, and policy responses can change the path.",
+      "subgroup": "Energy-importing economies, vulnerable economies, technology-integrated economies, workers, firms, consumers, and public finance authorities.",
+      "counterinterpretation": "Resilient global growth can coexist with severe regional stress; headline expansion does not imply equal household purchasing room or job quality.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+      "retrieval_hash": "sha256:5bf2f5ebfb9fdbc97d00aacb57dae525f04d47c91337e56c42a5990a6fb5d8d8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; war and energy-price exposure",
+      "denominator": {"value": 1, "unit": "global conflict, energy, and macroeconomic risk frame", "value_type": "geopolitical_macro_frame"},
+      "measures": {
+        "war_drag": {"value": "the war shock weighs on energy importers and vulnerable economies", "unit": "IMF outlook finding", "value_type": "reported_mechanism"},
+        "downside_risks": {"value": "renewed conflict, financial-market repricing, and further geopolitical strains remain downside risks", "unit": "IMF risk assessment", "value_type": "reported_risk"},
+        "exposure_difference": {"value": "the same geopolitical shock transmits differently depending on energy dependence, fiscal space, market access, and economic structure", "unit": "IMF comparative framing", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF scenario and risk analysis linking geopolitical developments to energy, finance, trade, and growth channels.",
+      "uncertainty": "The update does not estimate each household's energy bill, firm loss, or political response; transmission depends on policy, buffers, substitution, and market conditions.",
+      "subgroup": "Energy importers, low-income economies, exposed firms, consumers facing higher prices, workers in affected sectors, and governments with limited buffers.",
+      "counterinterpretation": "Diversified supply, energy efficiency, fiscal support, financial regulation, and trade adjustment can reduce—but not eliminate—shock transmission.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+      "retrieval_hash": "sha256:5bf2f5ebfb9fdbc97d00aacb57dae525f04d47c91337e56c42a5990a6fb5d8d8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-driven demand and technology value chains",
+      "denominator": {"value": 1, "unit": "technology investment, demand, and global value-chain frame", "value_type": "technology_macro_frame"},
+      "measures": {
+        "technology_tailwind": {"value": "AI-driven demand is supporting economies integrated into global technology value chains", "unit": "IMF outlook finding", "value_type": "reported_mechanism"},
+        "distributional_exposure": {"value": "technology-linked gains are concentrated in economies and sectors with relevant infrastructure, capital, skills, and market integration", "unit": "IMF comparative framing", "value_type": "reported_mechanism"},
+        "risk_balance": {"value": "technology momentum offsets part of the war drag but does not remove downside risks from repricing or renewed conflict", "unit": "IMF outlook synthesis", "value_type": "reported_finding"}
+      },
+      "method": "IMF macroeconomic outlook combining technology-demand assumptions with country and sector exposure analysis.",
+      "uncertainty": "The update does not provide a causal estimate of AI productivity, employment, or household welfare; value-chain exposure and technology adoption remain heterogeneous.",
+      "subgroup": "Technology-integrated economies, firms, skilled and less-skilled workers, capital owners, suppliers, and places with weak digital infrastructure.",
+      "counterinterpretation": "Technology diffusion can broaden productivity and service access if infrastructure, skills, competition, and public capacity prevent gains from becoming concentrated.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+      "retrieval_hash": "sha256:5bf2f5ebfb9fdbc97d00aacb57dae525f04d47c91337e56c42a5990a6fb5d8d8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; inflation, fiscal space, and policy response",
+      "denominator": {"value": 1, "unit": "global disinflation, fiscal, and macro-policy frame", "value_type": "policy_macro_frame"},
+      "measures": {
+        "disinflation": {"value": "global disinflation has stalled", "unit": "IMF outlook finding", "value_type": "reported_finding"},
+        "policy_priorities": {"value": "policymakers should preserve price stability, rebuild fiscal space, and strengthen adaptability", "unit": "IMF policy recommendation", "value_type": "reported_framework"},
+        "household_channel": {"value": "persistent price pressure can compress household purchasing room and increase political pressure even when output growth remains positive", "unit": "macro-to-household mechanism", "value_type": "reported_mechanism"},
+        "institutional_tradeoff": {"value": "fiscal rebuilding, price stability, resilience investment, and support for exposed groups can pull policy in different directions", "unit": "IMF policy framing", "value_type": "reported_framework"}
+      },
+      "method": "IMF inflation outlook and macro-policy synthesis across monetary, fiscal, and structural adaptation channels.",
+      "uncertainty": "The report-level recommendation does not identify the optimal policy mix for any one country or prove a direct effect on public trust, consumption, or political behavior.",
+      "subgroup": "Households facing price pressure, borrowers, savers, workers, vulnerable groups, taxpayers, central banks, and finance ministries.",
+      "counterinterpretation": "Credible policy, targeted support, stronger competition, and supply-side adaptation can reduce the social cost of disinflation without treating aggregate stability as sufficient.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+      "retrieval_hash": "sha256:5bf2f5ebfb9fdbc97d00aacb57dae525f04d47c91337e56c42a5990a6fb5d8d8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/en/Publications/WEO", "claim": "The IMF World Economic Outlook series provides the broader forecast and historical update context."},
+    {"source_url": "https://www.imf.org/en/Publications/GFSR", "claim": "The IMF Global Financial Stability Report provides complementary financial-repricing and market-risk analysis."}
+  ],
+  "boundary": "This record adds a global macro route across war, energy, technology demand, growth, inflation, fiscal space, and unequal exposure. It uses IMF forecasts and report-level risk synthesis, not respondent-level data, household price diaries, firm microdata, causal AI productivity estimates, or proof that aggregate growth improves welfare evenly.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IMF July 2026 World Economic Outlook Update page reviewed for global growth projections, war and energy-importer exposure, AI-driven technology-value-chain demand, stalled disinflation, downside risks, and policy priorities.",
+    "source_url_sha256": "sha256:5bf2f5ebfb9fdbc97d00aacb57dae525f04d47c91337e56c42a5990a6fb5d8d8",
+    "checked": "2026-09-26"
+  }
+}

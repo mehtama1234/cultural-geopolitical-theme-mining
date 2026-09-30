@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-cted-propaganda-operational-infrastructure-2026-digital-extremism",
+  "title": "Digital propaganda is becoming operational infrastructure for extremist recruitment, finance, coordination, and claims to authority",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UN Security Council Counter-Terrorism Committee Executive Directorate, Beyond Messaging: Terrorist Propaganda as Operational Infrastructure, Trends Report, published 10 September 2026",
+  "geography": "Global digital ecosystems, with analysis of terrorist groups operating in Africa and Central and South Asia",
+  "observations": [
+    {
+      "period": "2026 CTED Trends Report; organizational function of propaganda",
+      "denominator": {"value": 1, "unit": "CTED assessment of terrorist propaganda ecosystems", "value_type": "published_assessment_frame"},
+      "measures": {
+        "functional_shift": {"value": "propaganda increasingly supports recruitment, radicalization, financing, operational planning, and governance rather than communication alone", "unit": "reported operational pattern", "value_type": "reported_pattern"},
+        "platform_ecosystem": {"value": "diverse digital platforms and services are used and adapted in response to countermeasures and moderation", "unit": "reported ecosystem pattern", "value_type": "reported_pattern"},
+        "acceleration_gap": {"value": "actor adaptation is outpacing the ability of states, legal frameworks, and platforms to respond", "unit": "reported institutional gap", "value_type": "reported_assessment"}
+      },
+      "method": "CTED draws on UN reporting, engagement with Member States, and research by the CTED Global Research Network and other experts.",
+      "uncertainty": "The report is an expert and policy assessment, not a census of all extremist content, a platform-level prevalence estimate, or a causal estimate of recruitment effects.",
+      "subgroup": "Terrorist and violent-extremist organizations, platforms, states, civil society, researchers, and populations exposed to targeted recruitment or violence.",
+      "counterinterpretation": "Propaganda can be operationally important without being sufficient for recruitment or violence; offline grievances, organization, opportunity, and state response also shape outcomes.",
+      "source_url": "https://www.un.org/securitycouncil/ctc/news/cted%E2%80%99s-latest-trends-report-examines-evolution-terrorist-propaganda",
+      "retrieval_hash": "sha256:572e0398d17cdd9b811a38d8b9224d2e4760bf28159a92b472730f2a39e6313d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 CTED Trends Report; emerging digital techniques and audiences",
+      "denominator": {"value": 1, "unit": "reported set of emerging propaganda trends", "value_type": "published_assessment_frame"},
+      "measures": {
+        "ai_use": {"value": "AI is being used to enhance recruitment, tailor messages, expand multilingual outreach, and support fundraising", "unit": "reported use pattern", "value_type": "reported_pattern"},
+        "gaming_platforms": {"value": "gaming and gaming-adjacent platforms are identified as spaces for recruitment and community-building", "unit": "reported platform pattern", "value_type": "reported_pattern"},
+        "youth_targeting": {"value": "children and young people are increasingly targeted through peer-to-peer strategies and youth-oriented content", "unit": "reported targeting pattern", "value_type": "reported_pattern"},
+        "nihilistic_subcultures": {"value": "graphic violent content and nihilistic online subcultures are identified as possible pathways into radicalization", "unit": "reported pathway", "value_type": "reported_pattern"}
+      },
+      "method": "The assessment synthesizes observed trends and expert analysis across online ecosystems and counter-terrorism engagement.",
+      "uncertainty": "The cited trends do not quantify exposure, conversion rates, age-specific prevalence, or the relative contribution of each platform or technique.",
+      "subgroup": "Children and youth, online communities, platform users, content moderators, educators, families, and communities targeted by extremist outreach.",
+      "counterinterpretation": "Gaming and youth platforms are not inherently extremist spaces; the risk concerns exploitation of affordances and communities, not ordinary participation in those activities.",
+      "source_url": "https://www.un.org/securitycouncil/ctc/news/cted%E2%80%99s-latest-trends-report-examines-evolution-terrorist-propaganda",
+      "retrieval_hash": "sha256:572e0398d17cdd9b811a38d8b9224d2e4760bf28159a92b472730f2a39e6313d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 CTED Trends Report; propaganda, legitimacy, and governance",
+      "denominator": {"value": 1, "unit": "reported analysis of terrorist groups operating in Africa and Central and South Asia", "value_type": "published_case_scope"},
+      "measures": {
+        "governance_link": {"value": "propaganda is used to reinforce governance activities, exploit local grievances, build legitimacy, facilitate fundraising, and shape perceptions of authority", "unit": "reported organizational pattern", "value_type": "reported_pattern"},
+        "authority_competition": {"value": "digital messaging can support claims to social and political authority beyond simple ideological persuasion", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "local_grievance_use": {"value": "local grievances are incorporated into narratives and operational activity", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "CTED combines regional group analysis with broader reporting on propaganda functions and digital adaptation.",
+      "uncertainty": "The regional cases are illustrative and do not establish a universal model across all groups, countries, or conflict environments.",
+      "subgroup": "Communities in conflict-affected areas, local authorities, civil society, media, displaced people, and populations receiving competing claims of authority.",
+      "counterinterpretation": "Narrative reach does not equal durable legitimacy; governance claims may be coercive, contested, or rejected even when content is widely circulated.",
+      "source_url": "https://www.un.org/securitycouncil/ctc/news/cted%E2%80%99s-latest-trends-report-examines-evolution-terrorist-propaganda",
+      "retrieval_hash": "sha256:572e0398d17cdd9b811a38d8b9224d2e4760bf28159a92b472730f2a39e6313d",
+      "status": "reported"
+    },
+    {
+      "period": "2026 CTED Trends Report; rights-compliant response boundary",
+      "denominator": {"value": 1, "unit": "CTED response framework for countering operational propaganda", "value_type": "published_policy_frame"},
+      "measures": {
+        "response_requirement": {"value": "responses must address propaganda as a core operational enabler, not only as harmful content", "unit": "reported policy direction", "value_type": "reported_framework"},
+        "human_rights_constraint": {"value": "counter-terrorism responses should remain consistent with international human-rights law", "unit": "reported legal boundary", "value_type": "reported_constraint"},
+        "coordination_need": {"value": "states, legal systems, digital platforms, researchers, and civil society need faster and better-coordinated responses", "unit": "reported institutional direction", "value_type": "reported_framework"}
+      },
+      "method": "The report translates trend assessment into a rights-conscious counter-terrorism and platform-governance response frame.",
+      "uncertainty": "A response framework does not show which interventions work, how enforcement affects legitimate speech, or whether institutions have the capacity to implement it.",
+      "subgroup": "Governments, courts, law enforcement, platforms, researchers, civil society, journalists, and users whose speech or privacy may be affected by countermeasures.",
+      "counterinterpretation": "Overbroad moderation or surveillance can reduce civic space, misclassify lawful expression, and undermine trust; rights protection is part of effectiveness rather than an optional add-on.",
+      "source_url": "https://www.un.org/securitycouncil/ctc/news/cted%E2%80%99s-latest-trends-report-examines-evolution-terrorist-propaganda",
+      "retrieval_hash": "sha256:572e0398d17cdd9b811a38d8b9224d2e4760bf28159a92b472730f2a39e6313d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/securitycouncil/ctc/content/knowledge-base", "claim": "UN CTC publication index listing the 2026 Trends Report."},
+    {"source_url": "https://www.oecd.org/en/publications/growing-up-in-the-social-media-age_a1132839-en/full-report.html", "claim": "Complementary evidence on youth digital environments and platform governance."}
+  ],
+  "boundary": "This record adds a political-security and digital-platform route linking propaganda to recruitment, radicalization, financing, operational planning, governance claims, youth targeting, AI, and rights-compliant response. It is an expert policy assessment, not a content census, individual radicalization history, causal effect estimate, platform prevalence measure, or proof that a countermeasure is effective.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN CTED publication announcement and publication index were reviewed for the functional shift, AI and gaming trends, regional governance link, youth targeting, acceleration gap, and human-rights response boundary.",
+    "source_url_sha256": "sha256:572e0398d17cdd9b811a38d8b9224d2e4760bf28159a92b472730f2a39e6313d",
+    "checked": "2026-09-27"
+  }
+}

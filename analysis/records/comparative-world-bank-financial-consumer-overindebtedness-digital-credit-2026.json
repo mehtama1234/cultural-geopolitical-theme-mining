@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-financial-consumer-overindebtedness-digital-credit-2026",
+  "title": "Digital credit turns consumer over-indebtedness into a product-design, data, and recovery-system problem",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Bank, Policy Note: Addressing Financial Consumer Over-Indebtedness, Prosperity Insight Series, July 2026",
+  "geography": "Global policy synthesis, with examples from emerging markets and developing economies and comparative references to Australia, Brazil, Canada, Ethiopia, the European Union, India, Indonesia, the Philippines, South Africa, Tanzania, the United Kingdom, and the United States",
+  "observations": [
+    {
+      "period": "2020-2026; digital consumer credit and household financial stress",
+      "denominator": {"value": 1, "unit": "global policy-synthesis frame covering consumer credit markets and household debt risks", "value_type": "reported_policy_frame"},
+      "measures": {
+        "risk_context": {"value": "the note links over-indebtedness pressures to digital lending expansion, income instability, higher cost of living, rising interest rates, and wider economic disruptions", "unit": "reported risk drivers", "value_type": "reported_policy_synthesis"},
+        "digital_distribution": {"value": "digital credit can be marketed, approved, and disbursed with greater ease and speed, expanding access while creating challenges for responsible provision", "unit": "reported market mechanism", "value_type": "reported_mechanism"},
+        "consumer_harm": {"value": "over-indebtedness can reduce discretionary spending and feed through household stress, social exclusion, poverty traps, homelessness, and weaker demand", "unit": "reported individual, social, and macroeconomic consequences", "value_type": "reported_consequence_set"},
+        "policy_tension": {"value": "tightening credit rules can reduce unaffordable lending but may also push underserved consumers toward riskier informal or illegal credit", "unit": "reported policy trade-off", "value_type": "reported_policy_tradeoff"},
+        "mechanism": {"value": "credit inclusion becomes a household-room and social-protection question when faster access is not matched by affordability, conduct, and recovery safeguards", "unit": "bounded consumer-finance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Global policy review of financial consumer protection, responsible lending, debt advice, collection, enforcement, consumer insolvency, financial literacy, data, supervision, and alternative dispute-resolution measures.",
+      "uncertainty": "This is a policy synthesis rather than a harmonized prevalence estimate or causal evaluation; the note states that research generally concluded in July 2025, examples are jurisdiction-specific, and effects depend on implementation, market structure, and the balance between access and protection.",
+      "subgroup": "Low-income and financially vulnerable consumers, underserved borrowers, digital-credit users, households facing income or price shocks, informal-sector borrowers, creditors, and consumers excluded from formal finance.",
+      "counterinterpretation": "Formal and digital credit can smooth consumption, fund education, housing, health, enterprises, and assets, and help households absorb shocks; regulation that is too blunt can reduce beneficial access.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092126123028499/pdf/P180967-d9584b6e-fd49-4fdc-bcb4-3ce47f5a16d3.pdf",
+      "retrieval_hash": "sha256:ed4adc947dd73adf2caad232294ab3111bb6ca1b0b2eb6c5c4a9e5ee85fb1363",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; digital credit marketing, targeting, and product distribution",
+      "denominator": {"value": 1, "unit": "policy-synthesis frame covering digital credit interfaces, marketing channels, and consumer-data practices", "value_type": "reported_policy_frame"},
+      "measures": {
+        "behavioral_data": {"value": "credit marketing increasingly uses search queries, browsing patterns, online purchases, website or app context, location, and browsing time", "unit": "reported data inputs", "value_type": "reported_market_practice"},
+        "channel_intensity": {"value": "lenders can target consumers across social media, mobile and third-party apps, SMS, calls, websites, super apps, personal-finance apps, and embedded-finance partnerships", "unit": "reported distribution channels", "value_type": "reported_market_practice"},
+        "deceptive_design": {"value": "the note identifies pre-ticked add-ons, default credit payment options, high-pressure sales, and personalized multi-channel offers as risks that can exploit behavioral biases", "unit": "reported consumer-protection risk set", "value_type": "reported_risk_mechanism"},
+        "observed_example": {"value": "transactional-data analysis for digital credit in Tanzania found a nearly 40% default rate for first-time digital microcredit loans, which the note says may warrant investigation of product design and distribution", "unit": "percent default rate in cited example", "value_type": "reported_jurisdiction_specific_example"},
+        "mechanism": {"value": "consumer choice is partly engineered upstream through interface defaults, targeting, incentives, and distribution partnerships before a borrower evaluates affordability", "unit": "bounded digital-credit governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Doctrinal and comparative review of product-design-and-distribution regimes, responsible credit marketing, supervisory approaches, digital channels, behavioral-data use, and cited jurisdictional examples.",
+      "uncertainty": "The Tanzania default figure is a cited jurisdiction-specific example, not a global digital-credit default rate; the note does not estimate the causal contribution of any particular interface, targeting practice, or partnership to borrower default.",
+      "subgroup": "Digital-credit users, first-time borrowers, financially inexperienced consumers, consumers targeted through mobile and social platforms, finfluencer audiences, and borrowers with limited alternatives.",
+      "counterinterpretation": "Personalized distribution and alternative data can improve access, product fit, and credit assessment when governed transparently; some defaults reflect income shocks or other risks rather than deceptive design.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092126123028499/pdf/P180967-d9584b6e-fd49-4fdc-bcb4-3ce47f5a16d3.pdf",
+      "retrieval_hash": "sha256:ed4adc947dd73adf2caad232294ab3111bb6ca1b0b2eb6c5c4a9e5ee85fb1363",
+      "status": "reported"
+    },
+    {
+      "period": "2026; layered response from prevention through resolution",
+      "denominator": {"value": 1, "unit": "policy-synthesis framework for addressing consumer over-indebtedness", "value_type": "reported_policy_framework"},
+      "measures": {
+        "prevention": {"value": "the note recommends appropriate product design, affordability and creditworthiness assessment, responsible marketing, and adequate credit-information frameworks", "unit": "reported preventive policy layer", "value_type": "reported_policy_recommendation"},
+        "mitigation": {"value": "the response includes early detection and outreach, debt advice and management, fair collection, enforcement safeguards, alternative dispute resolution, and supervisory monitoring", "unit": "reported harm-mitigation layer", "value_type": "reported_policy_recommendation"},
+        "resolution": {"value": "consumer insolvency is presented as a last-resort but preventive backstop, with open access, low formalities and costs, broad discharge, and reasonable repayment plans identified as emerging good practices", "unit": "reported resolution layer", "value_type": "reported_policy_framework"},
+        "data_gap": {"value": "the note stresses that supply-side data alone is often insufficient and that reliable demand-side data and consistent measurement are needed to understand scale, distribution, and policy effects", "unit": "reported measurement requirement", "value_type": "reported_data_requirement"},
+        "mechanism": {"value": "consumer protection is a lifecycle system: prevention, distress response, and lawful exit must connect or borrowers may move from formal inclusion into coercive collection, informal credit, or persistent exclusion", "unit": "bounded institutional-response mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative policy synthesis organized around the consumer-credit journey, from product design and underwriting through repayment difficulty, collection, enforcement, insolvency, financial literacy, supervision, and dispute resolution.",
+      "uncertainty": "The note offers policy options rather than an implementation evaluation; effectiveness, distributional consequences, administrative capacity, creditor behavior, and borrower take-up remain open and country-specific.",
+      "subgroup": "Over-indebted borrowers, households with temporary or persistent repayment difficulty, creditors, debt counselors, supervisors, courts, insolvency administrators, consumer organizations, and informal-credit users.",
+      "counterinterpretation": "Consumer insolvency and debt relief can create moral-hazard concerns or creditor losses if poorly designed; financial literacy can support but cannot substitute for responsible products, fair conduct, and adequate income.",
+      "source_url": "https://documents.worldbank.org/curated/en/099092126123028499/pdf/P180967-d9584b6e-fd49-4fdc-bcb4-3ce47f5a16d3.pdf",
+      "retrieval_hash": "sha256:ed4adc947dd73adf2caad232294ab3111bb6ca1b0b2eb6c5c4a9e5ee85fb1363",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099092126123028499", "claim": "Official World Bank record, report number 215003, title, publication metadata, project, and abstract."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099092126123028499", "claim": "World Bank document API record containing the official PDF URL, abstract, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a digital-credit-to-household-room and institutional-recovery mechanism. It is a global policy note, not a harmonized prevalence study, causal evaluation, or universal ranking of regulatory tools; the cited Tanzania default rate and other jurisdictional examples should not be generalized, and the key open test is whether product, data, supervision, debt-advice, and insolvency reforms reduce realized harm without driving vulnerable consumers into more dangerous informal credit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, policy-note abstract, digital-credit and cost-of-living context, over-indebtedness dimensions and harms, Tanzania default example, data and targeting practices, consumer-protection lifecycle, insolvency, supervision, and implementation boundaries were reviewed.",
+    "source_url_sha256": "sha256:ed4adc947dd73adf2caad232294ab3111bb6ca1b0b2eb6c5c4a9e5ee85fb1363",
+    "checked": "2026-09-29"
+  }
+}

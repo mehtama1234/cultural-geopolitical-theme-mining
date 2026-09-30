@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-paid-streaming-subscriptions-2025-cultural-consumer-access",
+  "title": "Paid streaming is the dominant online cultural subscription, but access remains geographically uneven",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Eurostat, ICT usage by households and individuals dataset isoc_ec_ibgs; 2025 online cultural-subscription release published August 27, 2026",
+  "geography": "European Union and member countries; internet users aged 16 to 74 who used the internet in the previous 3 months",
+  "observations": [
+    {
+      "period": "2025; previous 3 months; EU internet users aged 16 to 74",
+      "denominator": {"value": 1, "unit": "Eurostat ICT-survey percentage universe of individuals aged 16 to 74 who used the internet in the previous 3 months", "value_type": "reported_population_frame"},
+      "measures": {
+        "films_series_sports_subscription": {"value": 32.7, "unit": "percent with a paid subscription to a film, series, or sports streaming service", "value_type": "reported_share"},
+        "music_streaming_subscription": {"value": 23.0, "unit": "percent with a paid subscription to a music streaming service", "value_type": "reported_share"},
+        "online_news_subscription": {"value": 7.2, "unit": "percent with a paid subscription to online news sites, newspapers, or magazines", "value_type": "reported_share"},
+        "gaming_streaming_subscription": {"value": 6.1, "unit": "percent with a paid subscription to a gaming streaming service", "value_type": "reported_share"},
+        "mechanism": {"value": "Paid digital culture is not one market: entertainment video and music occupy a much larger subscription surface than news or gaming, shaping which cultural sectors can rely on recurring household payment and platform distribution", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat ICT usage survey indicators for paid subscriptions during the previous three months; categories are non-exclusive, so shares do not sum to 100%.",
+      "uncertainty": "This is a repeated cross-sectional survey of reported subscription status, not a billing ledger, usage measure, revenue allocation, or content-exposure record. A subscription does not establish viewing, listening, satisfaction, affordability, or creator compensation.",
+      "subgroup": "EU internet users aged 16 to 74 who used the internet in the previous three months.",
+      "counterinterpretation": "Different category shares may reflect product bundling, free or public provision, payment habits, platform pricing, sports rights, news norms, or classification rather than cultural value or demand alone.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260827-1",
+      "retrieval_hash": "sha256:327cc531f2bf362edf52f4246263a0de80df1fcb15eecf3cddc8f806a6a0221c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; previous 3 months; EU internet users by degree of urbanisation",
+      "denominator": {"value": 1, "unit": "Eurostat ICT-survey percentage universe of internet users aged 16 to 74 within each degree-of-urbanisation group", "value_type": "reported_population_frame"},
+      "measures": {
+        "cities": {"value": 35.6, "unit": "percent of internet users in cities with a paid film, series, or sports streaming subscription", "value_type": "reported_share"},
+        "towns_and_suburbs": {"value": 31.9, "unit": "percent of internet users in towns and suburbs with a paid film, series, or sports streaming subscription", "value_type": "reported_share"},
+        "rural_areas": {"value": 29.0, "unit": "percent of internet users in rural areas with a paid film, series, or sports streaming subscription", "value_type": "reported_share"},
+        "city_rural_gap": {"value": 6.7, "unit": "percentage-point difference between cities and rural areas", "value_type": "derived_subgroup_difference"},
+        "mechanism": {"value": "Subscription access is digitally mediated but still spatially patterned; urban-rural differences may reflect income, broadband quality, household composition, local cultural supply, payment access, or platform-market exposure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat isoc_ec_ibgs indicator I_BFLMS2 for degree-of-urbanisation groups: IND_DEG1 cities, IND_DEG2 towns and suburbs, and IND_DEG3 rural areas.",
+      "uncertainty": "The cross-sectional urbanisation comparison does not isolate broadband, prices, income, event supply, household structure, or cultural preference, and it measures subscription presence rather than active use.",
+      "subgroup": "Individuals aged 16 to 74 who used the internet in the previous three months, grouped by residence in cities, towns/suburbs, or rural areas.",
+      "counterinterpretation": "A lower rural subscription rate may coexist with shared household accounts, free-to-air or local provision, offline cultural participation, or different platform bundles; it is not automatically a digital-deprivation estimate.",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_ec_ibgs?lang=en&indic_is=I_BFLMS2&ind_type=IND_DEG1&unit=PC_IND_IU3&geo=EU27_2020&time=2025",
+      "retrieval_hash": "sha256:329fa83d9e62cb79893f9d5a4f5335b188f338e7b8ffc1381da0f927ba6ea69a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; previous 3 months; country comparison",
+      "denominator": {"value": 1, "unit": "Country-specific Eurostat ICT-survey percentage universes of internet users aged 16 to 74", "value_type": "reported_population_frame"},
+      "measures": {
+        "highest_country": {"value": "Ireland 63.9%; Denmark 61.1%; Netherlands 59.2%", "unit": "percent of internet users with a paid film, series, or sports streaming subscription", "value_type": "reported_country_comparison"},
+        "lowest_country": {"value": "Bulgaria 9.3%; Slovenia 13.7%; Latvia 16.7%; Lithuania 17.4%", "unit": "percent of internet users with a paid film, series, or sports streaming subscription", "value_type": "reported_country_comparison"},
+        "range_high_low": {"value": 54.6, "unit": "percentage-point difference between Ireland and Bulgaria", "value_type": "derived_country_range"},
+        "mechanism": {"value": "The recurring-payment cultural market is sharply differentiated across countries, leaving open how income, payment infrastructure, local-language supply, sports rights, household sharing, and platform competition shape access and cultural-market power", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat country comparisons from the 2025 ICT usage survey, as reported in the official release and linked data source.",
+      "uncertainty": "Country rates are descriptive and combine different prices, rights markets, broadband conditions, household resources, survey contexts, and platform bundles; they do not estimate a causal country effect or consumer surplus.",
+      "subgroup": "Internet users aged 16 to 74 in selected EU countries.",
+      "counterinterpretation": "A low paid-subscription rate can reflect free public or commercial alternatives, piracy, account sharing, lower sports availability, or different cultural consumption rather than low engagement or weak demand.",
+      "source_url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/44961.pdf?v=6361501254043650",
+      "retrieval_hash": "sha256:f62aad25cf87c3670ef1b0eb68bb6fbe244584cf85877387e0a3de1c793f1dbc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_ec_ibgs?lang=en&indic_is=I_BFLMS2&ind_type=IND_TOTAL&unit=PC_IND_IU3&geo=EU27_2020&time=2025", "claim": "Filtered API extract for the EU total film, series, or sports streaming subscription indicator."},
+    {"source_url": "https://ec.europa.eu/eurostat/en/web/culture", "claim": "Eurostat culture-statistics overview connecting cultural participation, ICT use, household expenditure, prices, and cultural-sector economics."},
+    {"source_url": "https://ec.europa.eu/eurostat/cache/metadata/en/cult_pcs_esms.htm", "claim": "Eurostat metadata for ICT cultural-use and e-commerce indicators."}
+  ],
+  "boundary": "This record adds recurring paid digital-cultural consumption as a platform and household-room layer. It is official Eurostat repeated cross-sectional survey evidence, not a usage, billing, affordability, content-quality, creator-income, market-concentration, or causal wellbeing estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat release, Statistics Explained 2025 cultural e-commerce PDF, and filtered isoc_ec_ibgs API extracts for EU total and degree-of-urbanisation groups reviewed; subscription overlap, internet-user denominator, country contrasts, and usage/revenue limitations preserved.",
+    "release_html_sha256": "sha256:327cc531f2bf362edf52f4246263a0de80df1fcb15eecf3cddc8f806a6a0221c",
+    "api_total_sha256": "sha256:fd2804add49a13aa5eb05d3421d204f59cbbecee7365337a3f0bcf5106d3115d",
+    "api_city_sha256": "sha256:329fa83d9e62cb79893f9d5a4f5335b188f338e7b8ffc1381da0f927ba6ea69a",
+    "statistics_explained_pdf_sha256": "sha256:f62aad25cf87c3670ef1b0eb68bb6fbe244584cf85877387e0a3de1c793f1dbc",
+    "checked": "2026-09-30"
+  }
+}

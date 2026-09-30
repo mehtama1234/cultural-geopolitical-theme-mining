@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs",
+  "title": "AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos Consumer Tracker, September 2026 U.S. wave",
+  "geography": "United States; repeated online consumer-attitudes tracker",
+  "observations": [
+    {
+      "period": "September 2026; latest Ipsos Consumer Tracker wave",
+      "denominator": {"value": null, "unit": "U.S. adults in the latest Ipsos Consumer Tracker wave; current-wave sample size is not headlined on the public summary page", "value_type": "not_disclosed"},
+      "measures": {
+        "data_center_concern": {"value": 69, "unit": "percent of Americans concerned about growth of AI data-center construction in the U.S.", "value_type": "reported_share"},
+        "very_concerned": {"value": 37, "unit": "percent very concerned about AI data-center construction", "value_type": "reported_share"},
+        "water_worry_among_concerned": {"value": 50, "unit": "percent of those concerned naming strain on local water supplies as a top worry", "value_type": "reported_share"},
+        "grid_worry_among_concerned": {"value": 41, "unit": "percent of those concerned naming strain on the electrical grid", "value_type": "reported_share"},
+        "utility_bill_worry_among_concerned": {"value": 35, "unit": "percent of those concerned naming higher residential utility bills", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Consumer Tracker, a recurring online survey of U.S. consumer attitudes on the economy, AI and current events.",
+      "uncertainty": "The infrastructure-worry percentages are conditional on respondents who express concern; the public summary does not provide the current-wave sample size, siting context or local exposure distribution.",
+      "subgroup": "U.S. adults, with concern measures reported for the latest tracker wave.",
+      "counterinterpretation": "Concern may reflect national media attention to data centers rather than direct local exposure, but water, grid and bill worries show the legitimacy problem is materially infrastructural rather than abstractly anti-AI.",
+      "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "retrieval_hash": "sha256:47fe479745bceb0f71b551f93836c606c31b393ce4fba13e7026d4cd0da235ae",
+      "status": "reported"
+    },
+    {
+      "period": "May–September 2026; household spending and consumer compression",
+      "denominator": {"value": null, "unit": "U.S. adults in Ipsos Consumer Tracker waves; wave-specific sample sizes vary and are not consolidated on the public summary", "value_type": "not_disclosed"},
+      "measures": {
+        "necessity_only_spending": {"value": 60, "unit": "percent of Americans saying they are only spending on daily necessities in September 2026", "value_type": "reported_share"},
+        "high_income_necessity_only": {"value": 50, "unit": "percent of Americans with incomes over $100,000 saying they are only spending on daily necessities", "value_type": "reported_share"},
+        "nonessential_cutback": {"value": 53, "unit": "percent reporting they cut back on non-essential spending when gas prices or general living costs rise", "value_type": "reported_share"},
+        "large_expense_postponement": {"value": 39, "unit": "percent reporting postponement of larger expenses under higher gas prices or living costs", "value_type": "reported_share"},
+        "lower_cost_brands": {"value": 38, "unit": "percent reporting purchase of less expensive brands under higher gas prices or living costs", "value_type": "reported_share"}
+      },
+      "method": "Repeated Ipsos Consumer Tracker waves summarized in the September 2026 U.S. insights dispatch.",
+      "uncertainty": "These are self-reported coping responses across different waves and cannot be treated as a single longitudinal panel or a causal estimate of inflation effects.",
+      "subgroup": "U.S. adults, including an income comparison for daily-necessity-only spending.",
+      "counterinterpretation": "Necessity-only spending can be a temporary precaution or a budgeting identity, but its presence among higher-income households indicates that perceived constraint is not confined to the lowest-income segment.",
+      "source_url": "https://www.ipsos.com/en/know-new-america-beyond-september-2026",
+      "retrieval_hash": "sha256:47fe479745bceb0f71b551f93836c606c31b393ce4fba13e7026d4cd0da235ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; private-label substitution and brand flexibility",
+      "denominator": {"value": null, "unit": "U.S. adults in the June 2026 Ipsos Consumer Tracker wave; public summary reports shares but not a consolidated denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "private_label_willingness": {"value": 85, "unit": "percent willing to purchase private-label brands if their usual brand is out of stock", "value_type": "reported_share"},
+        "private_label_quality_parity": {"value": 53, "unit": "percent rating private-label and name brands as about the same quality", "value_type": "reported_share"},
+        "brand_switching_resistance": {"value": 67, "unit": "percent unwilling to switch from their favorite brand in the 2026 measure", "value_type": "reported_share"},
+        "brand_loyalty_change": {"value": 7, "unit": "percentage-point decline from 74% unwilling to switch in 2025 to 67% in 2026", "value_type": "reported_difference"}
+      },
+      "method": "Ipsos Consumer Tracker comparison of substitution willingness, perceived quality and favorite-brand switching.",
+      "uncertainty": "Willingness to substitute is not the same as actual purchase, and stockouts, price differences and category identity may produce different behavior.",
+      "subgroup": "U.S. adults in the comparable 2025–2026 tracker measures.",
+      "counterinterpretation": "Consumers can become more price-flexible while retaining symbolic loyalty to favorite brands; substitution may be a resilience strategy rather than a broad collapse of brand meaning.",
+      "source_url": "https://www.ipsos.com/en-us/latest-us-opinion-polls",
+      "retrieval_hash": "sha256:47fe479745bceb0f71b551f93836c606c31b393ce4fba13e7026d4cd0da235ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; consumer-facing AI and human-service preference",
+      "denominator": {"value": null, "unit": "U.S. adults in Ipsos Consumer Tracker waves; public summary pages do not consolidate wave-specific denominators", "value_type": "not_disclosed"},
+      "measures": {
+        "employer_chatbot_use": {"value": 50, "unit": "percent of employed Americans saying their employer uses ChatGPT or similar chat-based tools in May 2026", "value_type": "reported_share"},
+        "generative_ai_use": {"value": 59, "unit": "percent of Americans familiar with AI reporting use of generative AI at least some of the time in April 2026", "value_type": "reported_share"},
+        "young_adult_generativ_ai_use": {"value": 68, "unit": "percent of 18–34-year-olds familiar with AI reporting generative-AI use at least some of the time", "value_type": "reported_share"},
+        "older_adult_generativ_ai_use": {"value": 43, "unit": "percent of adults 55+ familiar with AI reporting generative-AI use at least some of the time", "value_type": "reported_share"},
+        "human_interaction_preference": {"value": "The September tracker includes findings that Americans want customer interactions to be human rather than AI", "unit": "reported thematic finding; public summary does not headline the percentage", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated Ipsos Consumer Tracker waves covering workplace adoption, consumer AI use and customer-interaction preferences.",
+      "uncertainty": "The measures come from different waves and questions; use does not establish proficiency, productivity, job displacement or a general rejection of AI-mediated service.",
+      "subgroup": "Employed adults, adults familiar with AI, and age groups 18–34 and 55+.",
+      "counterinterpretation": "The combination of high adoption and a preference for human service suggests selective delegation: consumers may accept AI in the background while resisting loss of relational accountability at the point of service.",
+      "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "retrieval_hash": "sha256:47fe479745bceb0f71b551f93836c606c31b393ce4fba13e7026d4cd0da235ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-us/latest-us-opinion-polls", "claim": "Ipsos U.S. opinion-poll index summarizing the September 2026 data-center and household-spending findings."},
+    {"source_url": "https://www.ipsos.com/en/know-new-america-beyond-september-2026", "claim": "Ipsos September 2026 dispatch connecting U.S. consumer pressure to the wider world."}
+  ],
+  "boundary": "This record adds a U.S. infrastructure-legitimacy mechanism: AI expansion is being evaluated through water, grid and utility-bill exposure, while household spending compresses and consumers selectively trade brand loyalty for value. It is a repeated online public-opinion tracker, not a geospatial data-center exposure dataset, utility-rate analysis, transaction panel or causal estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Consumer Tracker page, Ipsos U.S. opinion-poll index and September 2026 America dispatch were retrieved and reviewed for AI data-center concern, resource and bill worries, household spending compression, brand substitution and AI/human-service attitudes; the tracker page was hashed.",
+    "source_url_sha256": "sha256:47fe479745bceb0f71b551f93836c606c31b393ce4fba13e7026d4cd0da235ae",
+    "checked": "2026-09-27"
+  }
+}

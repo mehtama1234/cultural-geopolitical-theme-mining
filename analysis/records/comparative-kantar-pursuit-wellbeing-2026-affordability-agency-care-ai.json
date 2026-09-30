@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kantar-pursuit-wellbeing-2026-affordability-agency-care-ai",
+  "title": "Wellbeing is becoming a consumer-led negotiation over affordability, trust, time, and control",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Kantar MONITOR, The Pursuit of Wellbeing: understanding the rise of consumer-led wellbeing",
+  "geography": "Kantar MONITOR consumer-wellbeing synthesis with emphasis on contemporary consumer choices and institutional contexts",
+  "observations": [
+    {
+      "period": "2026; consumer-led wellbeing and institutional reliability",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR wellbeing trend framework", "value_type": "commercial_forecast_frame"},
+      "measures": {
+        "consumer_led_wellbeing": {"value": "wellbeing is shifting toward a consumer-led model as people seek more control over health, guidance, and everyday support", "unit": "reported trend interpretation", "value_type": "reported_assessment"},
+        "institutional_strain": {"value": "the source links rising costs, weakened trust, and fragmented support systems to more self-directed wellbeing behavior", "unit": "reported cultural mechanism", "value_type": "reported_mechanism"},
+        "responsibility_shift": {"value": "responsibility for staying well is moving toward individuals even when the conditions that shape wellbeing remain structural", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Kantar MONITOR qualitative and trend-synthesis framework connecting consumer attitudes, cultural shifts, institutional conditions, and wellbeing choices.",
+      "uncertainty": "The public article does not provide a single survey denominator, sampling frame, prevalence estimates, or causal test; it is a commercial foresight synthesis rather than a clinical or population-health study.",
+      "subgroup": "Consumers, patients, caregivers, workers, people facing financial strain, and people navigating fragmented health and wellness systems.",
+      "counterinterpretation": "Self-direction can represent empowerment and experimentation, but it can also signal unmet institutional needs, unequal knowledge, and responsibility being shifted onto people with different resources.",
+      "source_url": "https://monitor.kantar.com/the-pursuit-of-wellbeing/",
+      "retrieval_hash": "sha256:66a5a207d1698ea94ab854655d4ae866d511a886dd0d30fa6da1979ae3e06e39",
+      "status": "reported"
+    },
+    {
+      "period": "2026; affordability and health decisions",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR finances-by-health trend frame", "value_type": "commercial_forecast_frame"},
+      "measures": {
+        "finances_health": {"value": "financial security, sleep, stress management, preventive care, and health behavior are treated as interconnected wellbeing conditions", "unit": "reported trend framework", "value_type": "reported_mechanism"},
+        "selective_wellbeing": {"value": "financial pressure is described as making wellbeing choices more selective, self-directed, and open to alternatives rather than eliminating wellbeing demand", "unit": "reported consumer pattern", "value_type": "reported_assessment"},
+        "affordability_filter": {"value": "what people can afford filters which health practices, products, services, and forms of support become actionable", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Kantar MONITOR synthesis of consumer wellbeing, affordability, health behavior, and alternative-support trends.",
+      "uncertainty": "The source does not quantify the share of consumers making each tradeoff or establish whether alternative wellbeing choices improve health, reduce costs, or widen inequality.",
+      "subgroup": "Consumers with different income, health needs, insurance, time, caregiving responsibilities, and access to prevention or professional support.",
+      "counterinterpretation": "Selective spending may reflect ordinary preference rather than financial distress, and consumer alternatives can be complements to formal care rather than substitutes.",
+      "source_url": "https://monitor.kantar.com/the-pursuit-of-wellbeing/",
+      "retrieval_hash": "sha256:66a5a207d1698ea94ab854655d4ae866d511a886dd0d30fa6da1979ae3e06e39",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust, guidance, and navigation of care",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR wellbeing-navigation trend frame", "value_type": "commercial_forecast_frame"},
+      "measures": {
+        "guidance_search": {"value": "consumers are seeking guidance from more varied sources as traditional institutions feel fragmented, difficult to navigate, or misaligned with personal needs", "unit": "reported consumer route", "value_type": "reported_mechanism"},
+        "navigation_burden": {"value": "finding, evaluating, and coordinating wellbeing support becomes part of the wellbeing workload itself", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "trust_personalization": {"value": "people increasingly evaluate support through relevance, humanity, trust, and personal control rather than institutional authority alone", "unit": "reported trust pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Kantar MONITOR trend interpretation of care navigation, health guidance, consumer trust, and personalized support.",
+      "uncertainty": "The article does not distinguish medical advice from wellness content, quantify navigation time, or test whether personalization improves outcomes or trust.",
+      "subgroup": "Patients, caregivers, wellness consumers, people with chronic needs, health professionals, and users relying on digital or community guidance.",
+      "counterinterpretation": "Greater source variety can improve access and peer support, but can also increase misinformation, decision fatigue, and unequal ability to identify reliable guidance.",
+      "source_url": "https://monitor.kantar.com/the-pursuit-of-wellbeing/",
+      "retrieval_hash": "sha256:66a5a207d1698ea94ab854655d4ae866d511a886dd0d30fa6da1979ae3e06e39",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI and consumer agency in wellbeing",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR AI-and-wellbeing trend frame", "value_type": "commercial_forecast_frame"},
+      "measures": {
+        "ai_evolution": {"value": "AI is presented as creating new opportunities and challenges in the wellbeing space", "unit": "reported technology trend", "value_type": "reported_assessment"},
+        "personal_timetable": {"value": "consumers are more receptive to AI guidance when they can use it on their own terms and timetable rather than as a top-down command", "unit": "reported adoption condition", "value_type": "reported_mechanism"},
+        "agency_risk": {"value": "AI can widen access to guidance while shifting health judgment, data exposure, and accountability into systems that may be opaque or commercially motivated", "unit": "bounded analytical risk", "value_type": "bounded_risk"}
+      },
+      "method": "Kantar MONITOR synthesis connecting consumer-led wellbeing, generative AI, personalization, trust, and control.",
+      "uncertainty": "This is not evidence of clinical effectiveness, safe AI use, actual behavior change, or equal access to AI-enabled wellbeing tools.",
+      "subgroup": "AI users, patients, caregivers, wellness consumers, people with limited professional access, and people with different digital literacy and privacy expectations.",
+      "counterinterpretation": "AI may remain a low-stakes information or experimentation tool; human professionals, family, and community networks may remain more important for consequential care decisions.",
+      "source_url": "https://monitor.kantar.com/the-pursuit-of-wellbeing/",
+      "retrieval_hash": "sha256:66a5a207d1698ea94ab854655d4ae866d511a886dd0d30fa6da1979ae3e06e39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://monitor.kantar.com/caught-by-the-tides-the-2026-consumer-trends-and-the-desire-to-opt-out/", "claim": "Complementary Kantar source on agency, transparency, active leisure, local culture, and AI on consumer terms."},
+    {"source_url": "https://monitor.kantar.com/us-monitor/", "claim": "Kantar MONITOR program context and consumer-trend publication framework."}
+  ],
+  "boundary": "This record adds a consumer-wellbeing route across affordability, health behavior, institutional reliability, guidance, navigation burden, personalization, and AI agency. It is a commercial foresight synthesis, not a representative population-health survey, clinical evidence, causal study, or proof that consumer-led wellbeing reduces inequity or improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Kantar MONITOR article reviewed for consumer-led wellbeing, affordability-health interaction, fragmented support, trust, navigation, personalization, and AI-evolution claims.",
+    "source_url_sha256": "sha256:66a5a207d1698ea94ab854655d4ae866d511a886dd0d30fa6da1979ae3e06e39",
+    "checked": "2026-09-28"
+  }
+}

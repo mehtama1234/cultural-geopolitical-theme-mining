@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wfp-central-sahel-2026-food-insecurity-access-resilience",
+  "title": "Central Sahel food insecurity is produced by the convergence of insecurity, displacement, market pressure, climate stress, and shrinking humanitarian access",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Food Programme Central Sahel emergency page, current 2026 operational update",
+  "geography": "Burkina Faso, Mali, and Niger during the 2026 lean season and September 2026–February 2027 response period",
+  "observations": [
+    {
+      "period": "June–August 2026 lean season; Central Sahel",
+      "denominator": {"value": 3, "unit": "countries in WFP Central Sahel emergency scope: Burkina Faso, Mali, and Niger", "value_type": "published_country_frame"},
+      "measures": {
+        "crisis_food_insecurity": {"value": 5600000, "unit": "people projected to face crisis levels of food insecurity across the three countries", "value_type": "reported_projection"},
+        "seasonal_mechanism": {"value": "household food stocks are depleted between harvests and access to adequate food becomes increasingly difficult", "unit": "reported seasonal mechanism", "value_type": "reported_mechanism"},
+        "compound_drivers": {"value": "insecurity, displacement, population growth, climate shocks, limited natural resources, and land degradation", "unit": "reported interacting drivers", "value_type": "reported_framework"}
+      },
+      "method": "WFP combines regional food-security projections with operational analysis of insecurity, displacement, livelihoods, markets, climate, and humanitarian access.",
+      "uncertainty": "The projection is a seasonal and regional estimate, not a household census or individual food-consumption measure; conditions can change with harvests, conflict, prices, and assistance.",
+      "subgroup": "Households in Burkina Faso, Mali, and Niger, especially displaced people, communities in hard-to-reach areas, children, women, farmers, and people with depleted food stocks.",
+      "counterinterpretation": "Crisis-level projections can improve if harvests, markets, assistance, or negotiated access perform better than expected; food insecurity is not uniform across the three countries.",
+      "source_url": "https://www.wfp.org/emergencies/sahel-emergency",
+      "retrieval_hash": "sha256:68bfa97042fee08c8db9c5247c7c6c0eb64c60dc98b6d067054e139f96ec1928",
+      "status": "reported"
+    },
+    {
+      "period": "Up to August 2026; WFP assistance in Central Sahel",
+      "denominator": {"value": 1, "unit": "WFP Central Sahel emergency operation covering Burkina Faso, Mali, and Niger", "value_type": "published_operation_frame"},
+      "measures": {
+        "people_assisted": {"value": 1500000, "unit": "people receiving WFP emergency assistance in 2026 through August, nearly", "value_type": "reported_reach"},
+        "funding_need": {"value": 151000000, "unit": "US dollars needed for crisis-response operations from September 2026 through February 2027", "value_type": "reported_funding_need"},
+        "funding_gap_signal": {"value": "humanitarian needs remain exceptionally high while funding gaps continue to widen", "unit": "reported operational condition", "value_type": "reported_pattern"}
+      },
+      "method": "WFP reports operational reach and forward funding requirements for its regional emergency response.",
+      "uncertainty": "Assistance reach is not total need coverage, and a funding requirement does not establish that funds were received, delivered on time, or sufficient for all affected populations.",
+      "subgroup": "People receiving or missing emergency food, cash, nutrition, school-feeding, and resilience support; humanitarian agencies and donors.",
+      "counterinterpretation": "Operational reach demonstrates that assistance can reduce immediate harm and support resilience, even when aggregate need remains high; the same person may receive different forms of support over time.",
+      "source_url": "https://www.wfp.org/emergencies/sahel-emergency",
+      "retrieval_hash": "sha256:68bfa97042fee08c8db9c5247c7c6c0eb64c60dc98b6d067054e139f96ec1928",
+      "status": "reported"
+    },
+    {
+      "period": "2026 lean season; country-level operational exposure",
+      "denominator": {"value": 3, "unit": "Central Sahel countries with country-level WFP operational descriptions", "value_type": "published_country_frame"},
+      "measures": {
+        "Mali_acute_food_insecurity": {"value": 1500000, "unit": "people estimated to face acute food insecurity in Mali during the 2026 lean season", "value_type": "reported_estimate"},
+        "Niger_acute_food_insecurity": {"value": 2400000, "unit": "people estimated to face acute food insecurity in Niger", "value_type": "reported_estimate"},
+        "Mali_convergence": {"value": "insecurity, displacement, market pressures, and reduced humanitarian access converged", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "Niger_exposure": {"value": "conflict, climate shocks, economic instability, and livelihood pressure", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WFP combines country operational assessments with food-security estimates and descriptions of access and livelihood conditions.",
+      "uncertainty": "The country estimates use different reported scopes and should not be summed without confirming compatible denominators; they do not measure household trajectories.",
+      "subgroup": "Malian and Nigerien populations exposed to conflict, displacement, climate shocks, market pressure, and weak livelihood or service access.",
+      "counterinterpretation": "Country-level estimates conceal substantial local variation, and integrated assistance, school meals, social protection, and resilience investments may prevent worse outcomes.",
+      "source_url": "https://www.wfp.org/emergencies/sahel-emergency",
+      "retrieval_hash": "sha256:68bfa97042fee08c8db9c5247c7c6c0eb64c60dc98b6d067054e139f96ec1928",
+      "status": "reported"
+    },
+    {
+      "period": "2026 response model; humanitarian access and resilience",
+      "denominator": {"value": 1, "unit": "WFP integrated Central Sahel response model", "value_type": "published_program_frame"},
+      "measures": {
+        "response_components": {"value": "food and nutrition assistance, cash, school feeding, local food systems, livelihood assets, resilience, social protection, early warning, and national capacity strengthening", "unit": "reported response portfolio", "value_type": "reported_framework"},
+        "access_tools": {"value": "negotiated-access models, partnerships, and UNHAS operations support delivery in hard-to-reach areas", "unit": "reported access mechanism", "value_type": "reported_mechanism"},
+        "institutional_support": {"value": "digitalized humanitarian processes, food-security analysis, preparedness, and adaptive social protection are part of the longer-term route", "unit": "reported capacity-building direction", "value_type": "reported_framework"}
+      },
+      "method": "WFP presents an operational model that links life-saving assistance with resilience, social cohesion, local food systems, and government capacity.",
+      "uncertainty": "The program description does not establish implementation quality, coverage, causal impact, or whether access arrangements remain stable under changing conflict conditions.",
+      "subgroup": "Humanitarian responders, national institutions, local communities, displaced people, farmers, schoolchildren, and residents of hard-to-reach areas.",
+      "counterinterpretation": "Integrated delivery can reduce future needs, but it can also stretch organizations across emergency and development roles when funding, access, or local institutional capacity is weak.",
+      "source_url": "https://www.wfp.org/emergencies/sahel-emergency",
+      "retrieval_hash": "sha256:68bfa97042fee08c8db9c5247c7c6c0eb64c60dc98b6d067054e139f96ec1928",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wfp.org/publications/global-report-food-crises-grfc", "claim": "Complementary global acute-food-insecurity and food-crisis evidence."},
+    {"source_url": "https://www.unhcr.org/what-we-do/data-and-publications/reports-and-publications", "claim": "Complementary displacement and host-community capacity evidence."}
+  ],
+  "boundary": "This record adds an operational, regional food-security route linking lean-season timing, conflict, displacement, markets, climate, access, assistance, resilience, and national capacity. It is a public WFP operational synthesis, not household consumption data, a causal program evaluation, a complete needs census, proof of funding receipt, or proof that assistance produced durable food security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "WFP Central Sahel emergency page was reviewed for regional need, assistance reach, funding requirement, country-level exposure, access constraints, and integrated response mechanisms.",
+    "source_url_sha256": "sha256:68bfa97042fee08c8db9c5247c7c6c0eb64c60dc98b6d067054e139f96ec1928",
+    "checked": "2026-09-27"
+  }
+}

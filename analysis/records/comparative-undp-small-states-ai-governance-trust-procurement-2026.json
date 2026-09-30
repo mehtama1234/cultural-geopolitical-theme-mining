@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-small-states-ai-governance-trust-procurement-2026",
+  "title": "Small states expose the implementation test for trusted AI: procurement, institutional coordination, data, and public accountability",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "UNDP Trinidad and Tobago, Small States, Big Signals: Why Trinidad and Tobago Matters in the Global AI Conversation, published 8 September 2026",
+  "geography": "Trinidad and Tobago and lessons from 11 countries and territories participating in the UNDP AI Trust & Safety Re-imagination Programme",
+  "observations": [
+    {
+      "period": "2026 UNDP report; comparative participation frame",
+      "denominator": {"value": 11, "unit": "countries and territories whose participation generated the report's concrete AI-governance insights", "value_type": "published_program_frame"},
+      "measures": {
+        "comparative_scope": {"value": 11, "unit": "countries and territories in the AI Trust & Safety Re-imagination Programme contribution set", "value_type": "reported_program_count"},
+        "governance_context": {"value": "resource-constrained governments making real public-service AI decisions under high accountability to citizens", "unit": "reported institutional context", "value_type": "reported_framework"},
+        "core_lesson": {"value": "small-state constraints can surface AI governance problems earlier and make them harder to absorb", "unit": "reported comparative insight", "value_type": "reported_mechanism"}
+      },
+      "method": "UNDP synthesizes country participation, implementation experience, policy work, and practical AI trust-and-safety lessons.",
+      "uncertainty": "The report is a learning-case synthesis, not a representative global survey, causal comparison of state size, or evaluation of AI outcomes.",
+      "subgroup": "Small-state governments, public servants, citizens affected by public-sector AI, technology vendors, regional institutions, and other developing countries.",
+      "counterinterpretation": "Small-state experience may reveal implementation issues early but may not transfer directly to large, federal, or differently resourced systems.",
+      "source_url": "https://www.undp.org/trinidad-and-tobago/publications/small-states-big-signals-why-trinidad-and-tobago-matters-global-ai-conversation",
+      "retrieval_hash": "sha256:5b3328472bb13718574144ee2e6387931bba268f6a53bebd0db3713afb1d733b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Trinidad and Tobago case; procurement as AI governance",
+      "denominator": {"value": 1, "unit": "Trinidad and Tobago public-sector AI-governance case", "value_type": "published_case_frame"},
+      "measures": {
+        "procurement_role": {"value": "procurement can function as a governance tool before regulation is in place", "unit": "reported implementation mechanism", "value_type": "reported_mechanism"},
+        "vendor_contracts": {"value": "clear expectations in technology-vendor contracts can give governments more control over AI adoption", "unit": "reported governance mechanism", "value_type": "reported_framework"},
+        "public_servant_guidance": {"value": "practical guidance for public servants is paired with procurement controls", "unit": "reported implementation mechanism", "value_type": "reported_framework"},
+        "strategic_shift": {"value": "procurement is shifting from a compliance function toward strategic questioning of vendors before systems are embedded", "unit": "reported institutional shift", "value_type": "reported_pattern"}
+      },
+      "method": "The report uses the Trinidad and Tobago case to show how contracts, vendor questions, and public-servant practice can operationalize AI accountability.",
+      "uncertainty": "The case does not establish contract adoption, vendor compliance, enforcement, or downstream effects on algorithmic decisions.",
+      "subgroup": "Procurement officials, public servants, technology vendors, regulators, citizens, and people affected by automated public decisions.",
+      "counterinterpretation": "Procurement can create leverage but cannot substitute for independent oversight, rights, data quality, public participation, or remedies after deployment.",
+      "source_url": "https://www.undp.org/trinidad-and-tobago/publications/small-states-big-signals-why-trinidad-and-tobago-matters-global-ai-conversation",
+      "retrieval_hash": "sha256:5b3328472bb13718574144ee2e6387931bba268f6a53bebd0db3713afb1d733b",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026 Trinidad and Tobago AI-governance work; institutional architecture",
+      "denominator": {"value": 1, "unit": "Trinidad and Tobago national AI-governance and implementation pathway", "value_type": "published_case_frame"},
+      "measures": {
+        "policy_workstreams": {"value": "National AI Framework, AI Trust and Safety approaches, Digital Public Infrastructure, and Open-Source Programme Office collaboration", "unit": "reported national workstreams", "value_type": "reported_framework"},
+        "capacity_building": {"value": "AI policy, digital infrastructure, capacity building, youth engagement, and regional knowledge exchange", "unit": "reported implementation portfolio", "value_type": "reported_framework"},
+        "institutional_challenge": {"value": "AI oversight is distributed across multiple institutions, creating coordination challenges", "unit": "reported institutional condition", "value_type": "reported_constraint"},
+        "adoption_frame": {"value": "AI adoption is treated as a policy and coordination challenge, not purely a technical deployment", "unit": "reported governance frame", "value_type": "reported_framework"}
+      },
+      "method": "UNDP describes linked national workstreams and institutional coordination issues in the Trinidad and Tobago case.",
+      "uncertainty": "The report does not audit implementation maturity, budgets, system inventories, or measurable public-service outcomes for these workstreams.",
+      "subgroup": "Ministries, public servants, youth, technology partners, civil society, regional institutions, and citizens using or contesting digital public infrastructure.",
+      "counterinterpretation": "A broad architecture can create useful coordination, but multiple workstreams can also fragment responsibility unless decision rights, funding, and feedback are explicit.",
+      "source_url": "https://www.undp.org/trinidad-and-tobago/publications/small-states-big-signals-why-trinidad-and-tobago-matters-global-ai-conversation",
+      "retrieval_hash": "sha256:5b3328472bb13718574144ee2e6387931bba268f6a53bebd0db3713afb1d733b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 UNDP implementation principle; trust and public correction",
+      "denominator": {"value": 1, "unit": "UNDP trusted-AI adoption principle", "value_type": "published_framework"},
+      "measures": {
+        "trust_timing": {"value": "trust cannot be retrofitted easily after AI systems are embedded in government decisions", "unit": "reported governance principle", "value_type": "reported_mechanism"},
+        "accountability_preconditions": {"value": "good governance, clear accountability, quality data, and mechanisms for people to question or correct automated decisions are preconditions for responsible adoption", "unit": "reported implementation requirements", "value_type": "reported_framework"},
+        "adoption_goal": {"value": "trusted AI adoption rather than faster AI adoption", "unit": "reported strategic objective", "value_type": "reported_framework"},
+        "inclusion_frame": {"value": "AI discussion should remain grounded in people, trust, and inclusion rather than deployment speed alone", "unit": "reported policy principle", "value_type": "reported_framework"}
+      },
+      "method": "The report connects accountability, data quality, institutional readiness, public trust, and correction mechanisms into a responsible-adoption model.",
+      "uncertainty": "Principles and mechanisms do not establish that affected people can actually challenge decisions or that trust has improved.",
+      "subgroup": "Citizens affected by automated decisions, public servants, oversight bodies, data stewards, vendors, youth, and marginalized groups facing unequal digital access or error burdens.",
+      "counterinterpretation": "Slower adoption can protect rights, but excessive procedural delay can also leave public services under-resourced; the relevant test is usable accountability and public value.",
+      "source_url": "https://www.undp.org/trinidad-and-tobago/publications/small-states-big-signals-why-trinidad-and-tobago-matters-global-ai-conversation",
+      "retrieval_hash": "sha256:5b3328472bb13718574144ee2e6387931bba268f6a53bebd0db3713afb1d733b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/ai-and-citizen-participation_4e2f0b8d-en.html", "claim": "Complementary evidence on AI-mediated civic participation and public accountability."},
+    {"source_url": "https://www.unesco.org/en/articles/unesco-presents-fourth-edition-reshaping-policies-creativity-report", "claim": "Complementary cultural and creative-sector governance evidence for AI and digital transformation."}
+  ],
+  "boundary": "This record adds a small-state public-sector AI-governance route linking procurement, vendor power, institutional coordination, digital public infrastructure, data quality, trust, inclusion, youth engagement, and correction rights. It is a learning-case synthesis, not a global AI-adoption census, causal implementation evaluation, representative citizen survey, or proof that Trinidad and Tobago's workstreams are fully operational.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNDP publication page and report summary were reviewed for the 11-country scope, procurement mechanism, institutional workstreams, small-state implementation signal, and trust/accountability boundaries.",
+    "source_url_sha256": "sha256:5b3328472bb13718574144ee2e6387931bba268f6a53bebd0db3713afb1d733b",
+    "checked": "2026-09-27"
+  }
+}

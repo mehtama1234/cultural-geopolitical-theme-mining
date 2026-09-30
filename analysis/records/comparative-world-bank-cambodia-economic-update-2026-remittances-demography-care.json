@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-cambodia-economic-update-2026-remittances-demography-care",
+  "title": "Cambodia's energy, remittance, and credit shock tests whether returning workers can become a demographic dividend before the care and human-capital window closes",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank, Cambodia Economic Update June 2026: Forever Young? Cambodia's Demographic Transition and the Road to Vision 2050",
+  "geography": "Cambodia; national macroeconomy, households, returning migrant workers, labor market, demographic transition, human capital, care economy, and trade system",
+  "observations": [
+    {
+      "period": "2025–2026; energy, remittance, credit, and household-consumption shock",
+      "denominator": {"value": 1, "unit": "Cambodian economy and household-consumption simulation frame", "value_type": "national_macro_household_frame"},
+      "measures": {
+        "growth_projection": {"value": 3.9, "unit": "percent projected real GDP growth in 2026", "value_type": "published_projection"},
+        "remittance_share": {"value": 3.6, "unit": "percent of GDP in remittances in 2025, down from a 6% average in 2019–2024", "value_type": "reported_macro_indicator"},
+        "fuel_scenario": {"value": 60, "unit": "percent simulated fuel-price increase", "value_type": "modeled_scenario"},
+        "consumption_effect": {"value": 8, "unit": "percent average reduction in household consumption under the fuel-price scenario", "value_type": "modeled_effect"},
+        "poverty_effect": {"value": 6.2, "unit": "percentage-point increase in the modeled poverty rate under the fuel-price scenario; about 1.1 million people could be pushed into poverty", "value_type": "modeled_effect"},
+        "transmission": {"value": "About 80% of modeled welfare losses are transmitted indirectly through higher prices of goods and services", "unit": "modeled transmission channel", "value_type": "modeled_share"}
+      },
+      "method": "World Bank economic update combining macroeconomic indicators, household-consumption simulations, remittance and credit data, and policy analysis; the fuel-price result is a conditional scenario rather than an observed treatment effect.",
+      "uncertainty": "The projected growth rate and fuel scenario depend on conflict duration, prices, exchange rates, income distribution, substitution, and policy response; average consumption effects do not identify which households reduce food, mobility, health, or cultural spending.",
+      "subgroup": "Remittance-receiving households, fuel- and transport-intensive households, poor and near-poor families, domestic firms, and workers returning from Thailand are likely to face different exposure and buffers.",
+      "counterinterpretation": "Foreign direct investment, international reserves, transfers, substitution, and targeted support may cushion the shock; a modeled average is not a realized poverty trajectory.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099060826021523553/pdf/P506814-10b627b2-862d-4011-b5f4-7d13dd9d522b.pdf",
+      "retrieval_hash": "sha256:b6af5a10a513384dc1d476e1c7a588a2d6985c75e09df4c31133cb34a8b0c5f6",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; returning migrant workers and labor-market reintegration",
+      "denominator": {"value": null, "unit": "Cambodian migrant returnees and labor-market reintegration program context; no single respondent denominator is reported", "value_type": "not_disclosed"},
+      "measures": {
+        "returnees": {"value": "Nearly one million migrant workers returned, following a sharp fall in remittance income", "unit": "reported returning-worker count", "value_type": "reported_count_description"},
+        "jobs_added": {"value": 800000, "unit": "jobs added in 2025, including about 401,000 in the formal sector", "value_type": "reported_count"},
+        "placements": {"value": 620000, "unit": "returnees reportedly placed in employment through competency assessments and direct factory referrals", "value_type": "reported_count"},
+        "unemployed_returnees": {"value": 230000, "unit": "returnees reportedly still unemployed", "value_type": "reported_count"},
+        "mismatch": {"value": "Returnees were typically older, male, and rural, while labor demand was concentrated in younger, female-intensive manufacturing near Phnom Penh", "unit": "reported labor-market mismatch", "value_type": "reported_pattern"}
+      },
+      "method": "World Bank labor-market and reintegration assessment using reported employment, placement, demographic, sector, and location patterns.",
+      "uncertainty": "Placement counts do not establish job quality, wages, retention, safety, commuting, household income replacement, or whether returnees chose or could sustain the reported jobs; the source does not follow the same worker over time.",
+      "subgroup": "Returning migrants, older male and rural workers, younger female-intensive manufacturing workers, employers near Phnom Penh, and households previously dependent on remittances.",
+      "counterinterpretation": "Rapid placement can preserve household income and create a bridge to formal employment even if initial jobs are imperfect; informal work or migration may remain rational where local alternatives are weak.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099060826021523553/pdf/P506814-10b627b2-862d-4011-b5f4-7d13dd9d522b.pdf",
+      "retrieval_hash": "sha256:b6af5a10a513384dc1d476e1c7a588a2d6985c75e09df4c31133cb34a8b0c5f6",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2050; demographic dividend and aging transition",
+      "denominator": {"value": 1, "unit": "Cambodian demographic projection frame", "value_type": "modeled_population_frame"},
+      "measures": {
+        "working_age_peak": {"value": 2043, "unit": "projected year when Cambodia's working-age population share peaks", "value_type": "demographic_projection"},
+        "workers_added": {"value": 3.7, "unit": "million additional workers in the labor force by 2050 relative to 2024, under the report's projection", "value_type": "demographic_projection"},
+        "support_ratio": {"value": "10.4 to 5.7", "unit": "workers aged 15–64 per person aged 65+ projected from 2024 to 2050", "value_type": "demographic_projection"},
+        "human_capital_return": {"value": 68, "unit": "percent estimated increase in future earnings potential from closing the human-capital gap", "value_type": "modeled_estimate"},
+        "policy_window": {"value": "Barely about 17 years remain to convert the demographic dividend into higher productivity and better jobs", "unit": "reported policy-window interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank demographic projections, human-capital comparison, and growth decomposition; projections are conditional on fertility, mortality, migration, participation, productivity, and policy assumptions.",
+      "uncertainty": "A demographic window does not automatically produce growth: job creation, education, health, care, migration, productivity, and fiscal capacity determine whether the projected labor supply becomes a dividend or a burden.",
+      "subgroup": "Young workers, future older people, rural and urban populations, women, migrants, employers, caregivers, and public systems that must support a lower old-age support ratio.",
+      "counterinterpretation": "A larger working-age population can support growth even with partial human-capital gaps, and automation, migration, or longer working lives can alter the projected support ratio; the report's urgency is not a guaranteed outcome.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099060826021523553/pdf/P506814-10b627b2-862d-4011-b5f4-7d13dd9d522b.pdf",
+      "retrieval_hash": "sha256:b6af5a10a513384dc1d476e1c7a588a2d6985c75e09df4c31133cb34a8b0c5f6",
+      "status": "reported"
+    },
+    {
+      "period": "2026–2050; care, human capital, and structured mobility as growth infrastructure",
+      "denominator": {"value": 1, "unit": "Cambodian human-capital, care, labor-mobility, and trade-policy system", "value_type": "policy_system_frame"},
+      "measures": {
+        "care_route": {"value": "Formal childcare and eldercare can create decent jobs, unlock female labor productivity, and build the next generation's human capital", "unit": "reported policy mechanism", "value_type": "reported_policy_mechanism"},
+        "mobility_route": {"value": "Structured, higher-return migration pathways and trade diversification are presented as complements to domestic human-capital investment", "unit": "reported policy route", "value_type": "reported_policy_recommendation"},
+        "human_capital_gap": {"value": "Cambodia's HCI+ health, education, and employment components remain below structural, upper-middle-income, and high-income peer benchmarks", "unit": "reported comparative human-capital pattern", "value_type": "reported_comparison"},
+        "capacity_control": {"value": "Education quality, TVET, health, care-economy formalization, labor-market institutions, and fiscal buffers are treated as productivity investments rather than only social spending", "unit": "reported institutional mechanism", "value_type": "reported_policy_frame"}
+      },
+      "method": "World Bank special-focus synthesis linking demographic projections, human-capital indicators, labor-market institutions, care-economy recommendations, structured migration, and trade diversification.",
+      "uncertainty": "Policy recommendations and peer comparisons do not establish implementation, service affordability, care quality, worker bargaining power, gender equality, or durable household outcomes; the estimated earnings return is model-dependent.",
+      "subgroup": "Women and caregivers, children, older people, TVET students, returning migrants, employers, rural provinces, and households relying on formal or informal care.",
+      "counterinterpretation": "Formalizing care may improve quality and employment but can also raise prices or displace trusted informal arrangements; structured migration can expand opportunity while creating origin-community loss or dependence.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099060826021523553/pdf/P506814-10b627b2-862d-4011-b5f4-7d13dd9d522b.pdf",
+      "retrieval_hash": "sha256:b6af5a10a513384dc1d476e1c7a588a2d6985c75e09df4c31133cb34a8b0c5f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/country/cambodia", "claim": "World Bank Cambodia country platform provides the country-program and economic context for the update."},
+    {"source_url": "https://datatopics.worldbank.org/world-development-indicators/", "claim": "World Development Indicators provide complementary demographic, labor, and macroeconomic data used in World Bank analysis."}
+  ],
+  "boundary": "This comparative record adds a shock-to-demography-to-capacity route: energy and remittance disruption, household purchasing power, returning-worker reintegration, demographic timing, human capital, care infrastructure, structured migration, and fiscal or labor-market institutions. It does not infer individual worker trajectories, job quality, benefit receipt, care outcomes, causal effects of a reform, or durable household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Cambodia Economic Update PDF reviewed for the 2026 growth projection, remittance and fuel-price shock, household-consumption simulation, returning-worker placement, demographic projections, human-capital gap, care-economy route, and structured-migration recommendations.",
+    "source_url_sha256": "sha256:b6af5a10a513384dc1d476e1c7a588a2d6985c75e09df4c31133cb34a8b0c5f6",
+    "checked": "2026-09-28"
+  }
+}

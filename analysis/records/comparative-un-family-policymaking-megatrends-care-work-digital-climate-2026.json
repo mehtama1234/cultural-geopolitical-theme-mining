@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-family-policymaking-megatrends-care-work-digital-climate-2026",
+  "title": "Family policy is being repositioned as cross-megatrend infrastructure for care, work, services, and intergenerational resilience",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "United Nations Secretary-General, Family policymaking in response to global megatrends and in support of the 2030 Agenda, A/81/61-E/2026/47, 2026",
+  "geography": "Member State good practices and voluntary national review evidence across global family-policy contexts",
+  "observations": [
+    {
+      "period": "2026; five megatrends shaping family policy",
+      "denominator": {"value": 5, "unit": "megatrends identified in the UN Secretary-General's family-policy report: technological change, demographic change, urbanization, migration, and climate change", "value_type": "published_policy_framework"},
+      "measures": {
+        "megatrends": {"value": "the report treats technological, demographic, urban, migration, and climate changes as cross-cutting challenges and opportunities for family policy", "unit": "reported policy framework", "value_type": "reported_framework_scope"},
+        "policy_route": {"value": "family-oriented responses are positioned as part of social development and 2030 Agenda implementation rather than as a narrow household benefit category", "unit": "reported governance route", "value_type": "reported_policy_route"},
+        "integration": {"value": "the report highlights supportive services, inclusive planning, and participatory governance as recurring ways to protect and empower families", "unit": "reported policy mechanism set", "value_type": "reported_mechanism_set"},
+        "boundary": {"value": "the report compiles good practices and recommendations from Member State reporting; it is not a causal evaluation of family-policy effects", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "UN Secretary-General report drawing on Member State voluntary national reviews from 2020–2024 and reported good practices in family policymaking.",
+      "uncertainty": "Voluntary national reviews are selective and self-reported, and examples of good practice do not establish implementation quality, reach, or outcome effects.",
+      "subgroup": "Children, women, men, older people, persons with disabilities, migrant and displaced families, caregivers, households, local authorities, and service systems.",
+      "counterinterpretation": "A family-policy lens can improve integration while also privileging certain family forms or shifting responsibility from public systems onto households.",
+      "source_url": "https://digitallibrary.un.org/record/4099566/files/A_81_61--E_2026_47-EN.pdf",
+      "retrieval_hash": "sha256:0d891155a868860fa7f647e787ac92565777cd185325a469cce75135745f63dc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; technology, family communication, care, and service access",
+      "denominator": {"value": 1, "unit": "UN family-policy report's technology-and-family policy analysis", "value_type": "published_policy_analysis"},
+      "measures": {
+        "benefits": {"value": "digital technologies can support communication, health, education, telehealth, remote work, social protection, and administrative-service access for families", "unit": "reported family-policy mechanism set", "value_type": "reported_mechanism_set"},
+        "risks": {"value": "the report identifies excessive screen time, privacy loss, misinformation, violence, cyberbullying, and harms to family interaction and child well-being as digital risks", "unit": "reported digital-risk set", "value_type": "reported_risk_set"},
+        "work_boundary": {"value": "remote workers may face longer working hours, blurred work-life boundaries, and weak social protection", "unit": "reported work-family risk", "value_type": "reported_mechanism"},
+        "analytic_signal": {"value": "technology changes family capacity through both service access and new burdens, so digital inclusion cannot be separated from time, privacy, care, and labor protections", "unit": "analytic household-technology mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Policy synthesis of technology's effects on family communication, health, education, work, care, and social-protection access, with reported Member State responses.",
+      "uncertainty": "The report identifies pathways and policy examples but does not estimate the prevalence or causal magnitude of each benefit or harm.",
+      "subgroup": "Children and adolescents, remote workers, caregivers, digitally excluded households, older adults, people with disabilities, and users of telehealth or online public services.",
+      "counterinterpretation": "Digital tools can reduce care and travel burdens or expand access where in-person services are scarce, while the same tools can increase surveillance or unpaid availability demands.",
+      "source_url": "https://digitallibrary.un.org/record/4099566/files/A_81_61--E_2026_47-EN.pdf",
+      "retrieval_hash": "sha256:0d891155a868860fa7f647e787ac92565777cd185325a469cce75135745f63dc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; family support across demographic, urban, migration, and climate change",
+      "denominator": {"value": 4, "unit": "non-technology megatrends addressed in the UN family-policy report: demographic change, urbanization, migration, and climate change", "value_type": "published_policy_framework"},
+      "measures": {
+        "demography": {"value": "demographic change alters household composition, care needs, intergenerational relations, fertility choices, and the distribution of family responsibilities", "unit": "reported policy mechanism set", "value_type": "reported_mechanism_set"},
+        "place": {"value": "urbanization and migration require inclusive planning, housing, transport, services, integration, and support for families across changing places", "unit": "reported place-policy route", "value_type": "reported_policy_route"},
+        "climate": {"value": "climate shocks affect family livelihoods, displacement, care burdens, health, housing, food security, and resilience, with unequal effects by resources and location", "unit": "reported climate-family route", "value_type": "reported_mechanism_set"},
+        "analytic_signal": {"value": "family resilience is partly an institutional and spatial capacity problem, not only a private household attribute", "unit": "analytic public-infrastructure mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UN synthesis of family-policy good practices and recommendations across demographic, urban, migration, and climate contexts.",
+      "uncertainty": "The report does not harmonize country exposure or quantify which policy mix best protects families under each megatrend.",
+      "subgroup": "Multigenerational households, migrants, displaced families, rural and urban households, low-income families, children, older people, and communities exposed to climate hazards.",
+      "counterinterpretation": "Families can adapt through informal networks, mobility, and mutual aid, but those capacities may be uneven and can conceal unpaid or gendered burdens.",
+      "source_url": "https://digitallibrary.un.org/record/4099566/files/A_81_61--E_2026_47-EN.pdf",
+      "retrieval_hash": "sha256:0d891155a868860fa7f647e787ac92565777cd185325a469cce75135745f63dc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; early childhood, parenting, work-family balance, and shared responsibility",
+      "denominator": {"value": 1, "unit": "UN family-policy recommendation and good-practice frame", "value_type": "published_policy_framework"},
+      "measures": {
+        "supports": {"value": "family-oriented approaches emphasize early childhood development, parenting support, integrated service provision, work-family balance, and a fair distribution of household responsibilities", "unit": "reported policy measure set", "value_type": "reported_policy_route"},
+        "life_course": {"value": "the report links family policies to poverty reduction, food security, education, gender equality, and intergenerational well-being", "unit": "reported cross-sdg route", "value_type": "reported_mechanism_set"},
+        "participation": {"value": "participatory governance and inclusive planning are presented as ways to align policy with diverse family needs rather than assuming one household form", "unit": "reported governance route", "value_type": "reported_policy_route"},
+        "open_test": {"value": "join household structure, care and work time, income and housing, digital access, service use, parental leave or childcare, child development, health, mobility, and later political trust without treating family policy as a universal causal solution", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UN recommendations and reported Member State practices on family support, social protection, services, gender equality, and work-family reconciliation.",
+      "uncertainty": "Policy presence and reported good practice do not establish adequacy, affordability, uptake, equitable distribution, or long-run child and family outcomes.",
+      "subgroup": "Children, parents, caregivers, women, men, single-parent and multigenerational families, people with disabilities, and families with insecure work or housing.",
+      "counterinterpretation": "Universal family supports can reduce inequality, while poorly designed policies can reinforce gender roles, exclude non-nuclear families, or increase administrative burdens.",
+      "source_url": "https://digitallibrary.un.org/record/4099566/files/A_81_61--E_2026_47-EN.pdf",
+      "retrieval_hash": "sha256:0d891155a868860fa7f647e787ac92565777cd185325a469cce75135745f63dc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/en/node/69901", "claim": "The UN 2026 International Day of Families page provides complementary family, inequality, child-well-being, care, and integrated social-protection context."},
+    {"source_url": "https://desapublications.un.org/policy-briefs/un-desa-policy-brief-no-176-family-oriented-policies-and-programmes-voluntary", "claim": "UN DESA Policy Brief 176 supplies complementary analysis of 171 voluntary national reviews from 141 countries on family-oriented policies and SDGs."},
+    {"source_url": "https://digitallibrary.un.org/record/4099566/files/A_81_61--E_2026_47-EN.pdf", "claim": "The Secretary-General report is the primary source for the five-megatrend frame and reported family-policy good practices."}
+  ],
+  "boundary": "This record adds a family-policy route from technological, demographic, urban, migration, and climate pressures through care, work-family balance, services, household responsibility, intergenerational support, and public resilience. It uses a UN policy synthesis and reported good practices, not respondent-level data, causal family-outcome estimates, a universal household model, or proof that a reported policy is adequately implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN Secretary-General report record and extracted report text were reviewed for the five megatrends, technology benefits and risks, demographic/urban/migration/climate routes, family supports, participatory governance, and implementation boundaries.",
+    "source_url_sha256": "sha256:0d891155a868860fa7f647e787ac92565777cd185325a469cce75135745f63dc",
+    "checked": "2026-09-26"
+  }
+}

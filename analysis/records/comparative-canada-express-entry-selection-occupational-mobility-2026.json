@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-canada-express-entry-selection-occupational-mobility-2026",
+  "title": "Economic immigration selection is being evaluated as a prediction-and-matching system whose scores shape occupational mobility and migrant household security",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "trust_identity_meaning", "geopolitical_state_consequences", "infrastructure_technology_dependency"],
+  "source_unit": "Immigration, Refugees and Citizenship Canada, Express Entry and Labour Market Outcomes of Economic Immigrants, September 2026",
+  "geography": "Canada; economic immigrants admitted through Express Entry and comparison non-Express Entry streams, linked administrative and census outcomes",
+  "observations": [
+    {
+      "period": "September 2026; Express Entry selection and labour-market outcomes",
+      "denominator": {"value": 1, "unit": "linked IRCC Longitudinal Immigration Database and IMDB-2021 Census research program", "value_type": "reported_administrative_research_frame"},
+      "measures": {"selection_comparison": {"value": "Express Entry immigrants consistently outperform non-Express Entry economic immigrants across employment, employment income, weekly wages, occupational retention, and lower downward occupational mobility", "unit": "reported cross-study outcome pattern", "value_type": "reported_comparative_finding"}, "selection_system": {"value": "Express Entry ranks candidates using language, education, work experience, and other Comprehensive Ranking System factors", "unit": "reported admission mechanism", "value_type": "reported_institutional_mechanism"}, "follow_up": {"value": "outcomes are observed approximately five to six years after admission", "unit": "post-admission observation horizon", "value_type": "reported_measurement_frame"}},
+      "method": "Four linked IRCC studies using administrative immigration and tax data and linked 2021 Census data; comparison is observational and selection is not randomized.",
+      "uncertainty": "Express Entry groups differ in selection, pre-admission experience, and composition; stronger outcomes do not prove that the ranking system alone caused the differences.",
+      "subgroup": "Economic immigrants, Express Entry candidates, non-Express Entry economic immigrants, spouses and families, employers, and provinces using immigration selection.",
+      "counterinterpretation": "Selection may identify people already advantaged by language, education, Canadian experience, or earnings, while people outside the system may contribute through outcomes not captured by the measured labour indicators.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/express-entry-labour-market-outcomes-economic-immigrants.html",
+      "retrieval_hash": "sha256:20e84cfedb4de47ff063202966c254f139581f48da5cdb6d61b4ea853a600c82",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; human-capital signals and occupational matching",
+      "denominator": {"value": 1, "unit": "CRS-factor and labour-market outcome analysis among Express Entry immigrants", "value_type": "reported_predictive_analysis_frame"},
+      "measures": {"language": {"value": "higher first official-language proficiency is associated with higher employment incidence, income, wages, and occupational retention", "unit": "reported association", "value_type": "reported_predictive_association"}, "education": {"value": "higher educational attainment is more consistently associated with income, wages, and occupational retention than with short-run employment incidence", "unit": "reported association", "value_type": "reported_predictive_association"}, "canadian_experience": {"value": "more Canadian work experience is associated with stronger post-admission income, wages, and occupational outcomes", "unit": "reported association", "value_type": "reported_predictive_association"}, "pre_admission_earnings": {"value": "pre-admission employment earnings are among the strongest predictors of post-admission success", "unit": "reported predictive finding", "value_type": "reported_predictive_association"}},
+      "method": "Multivariate analysis of CRS selection factors and short- to medium-term labour-market outcomes.",
+      "uncertainty": "Associations may reflect prior opportunity, occupation, employer networks, credential recognition, discrimination, or selection processes not fully captured by the factors.",
+      "subgroup": "Immigrants with different language proficiency, education, Canadian work experience, prior earnings, occupations, and admission pathways.",
+      "counterinterpretation": "The predictive value of a factor does not mean it should be used as a policy gate; a score can reproduce unequal access to language training, Canadian experience, and recognized credentials.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/express-entry-labour-market-outcomes-economic-immigrants.html",
+      "retrieval_hash": "sha256:20e84cfedb4de47ff063202966c254f139581f48da5cdb6d61b4ea853a600c82",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; ranking-factor governance and migrant mobility",
+      "denominator": {"value": 1, "unit": "Comprehensive Ranking System factor assessment", "value_type": "reported_policy_evaluation_frame"},
+      "measures": {"limited_bonus_factors": {"value": "siblings in Canada, Canadian education bonus points, French-language bonus points, and spouse-related characteristics generally show limited or no positive association after controls", "unit": "reported factor-evaluation finding", "value_type": "reported_predictive_finding"}, "job_offer_signal": {"value": "job offers have a more concentrated association with outcomes, especially for senior-management offers, rather than the broad consistency of core human-capital factors", "unit": "reported factor-evaluation finding", "value_type": "reported_predictive_finding"}, "occupational_retention": {"value": "immigrants who remain in their occupations earn substantially more than those who change occupations, even when moving to equal or higher skill levels", "unit": "reported occupational-mobility finding", "value_type": "reported_comparative_finding"}},
+      "method": "Cross-study evaluation of CRS factors, job offers, occupational retention, wage outcomes, and mobility; available follow-up is limited because Express Entry began in 2015.",
+      "uncertainty": "Longer observation is needed for long-term outcomes; measured associations may not capture family, regional, credential, or employer-level constraints on occupational matching.",
+      "subgroup": "Express Entry applicants with family ties, Canadian education, French-language skills, spouses, job offers, and different occupational trajectories.",
+      "counterinterpretation": "A factor with weak short-term predictive value may have cultural, regional, family, or long-term integration value not visible in wage and employment outcomes.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/research/express-entry-labour-market-outcomes-economic-immigrants.html",
+      "retrieval_hash": "sha256:20e84cfedb4de47ff063202966c254f139581f48da5cdb6d61b4ea853a600c82",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.publications.gc.ca/site/eng/9.965274/publication.html", "claim": "Official Government of Canada catalogue record for the labour-market outcomes study."}, {"source_url": "https://www.publications.gc.ca/site/eng/9.965285/publication.html", "claim": "Official catalogue record for the joint IRCC-Statistics Canada wage-outcomes study."}],
+  "boundary": "This record adds a migration-selection-to-work-mobility route from ranking factors through employment, wages, occupational matching, household security, and the governance of immigrant selection. It does not establish causal effects of Express Entry, measure social belonging or family outcomes, or imply that predictive validity alone makes a selection factor normatively fair.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official IRCC executive-summary page reviewed for Express Entry design, linked administrative data, comparison outcomes, human-capital associations, job-offer nuance, CRS bonus-factor findings, occupational mobility, and follow-up limits.", "source_url_sha256": "sha256:20e84cfedb4de47ff063202966c254f139581f48da5cdb6d61b4ea853a600c82", "checked": "2026-09-29"}
+}

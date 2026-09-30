@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-capgemini-consumer-2026-value-ai-human-touch-fairness",
+  "title": "Consumers are redefining value as a hybrid bargain: fair prices, reliable quality, controlled AI and meaningful human support",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Capgemini Research Institute, What matters to today's consumer 2026",
+  "geography": "Consumers aged 18 and over across Australia, Canada, France, Germany, India, Italy, Japan, the Netherlands, Spain, Sweden, the United Kingdom and the United States",
+  "observations": [
+    {
+      "period": "October 2025 survey, published 2026",
+      "denominator": {"value": 12000, "unit": "consumers aged 18 and over across 12 countries", "value_type": "survey_sample"},
+      "measures": {
+        "fair_value": {"value": "74% would switch brands for a lower regular price, while 71% would switch if pack size or product quality fell without clear communication", "unit": "reported survey shares", "value_type": "reported_share"},
+        "quality_boundary": {"value": "nearly four in five avoid private labels in performance-critical categories, showing that price pressure stops where reliability or health is at stake", "unit": "reported consumer pattern", "value_type": "reported_assessment"},
+        "shrinkflation": {"value": "64% view shrinkflation as an unfair practice", "unit": "reported survey share", "value_type": "reported_share"}
+      },
+      "method": "Capgemini Research Institute global consumer survey supplemented by interviews with consumer-products and retail executives.",
+      "uncertainty": "Switching intentions and fairness perceptions are self-reported; the study does not observe actual switching, category-specific household budgets or whether reliability concerns are objectively warranted.",
+      "subgroup": "Consumers facing inflation fatigue, private-label shoppers, buyers of performance-critical or health-related products, and brands competing on price, quality and transparency.",
+      "counterinterpretation": "Consumers may state that fairness and quality matter while still choosing the cheapest available option when financial room is severely constrained; stated switching can also be aspirational.",
+      "source_url": "https://www.capgemini.com/wp-content/uploads/2026/01/Final-Web-Version-Report-Consumer-Trends-2026.pdf",
+      "retrieval_hash": "sha256:612f362e1bff3c307e4db4aed38414f7b3ac85dd5cba4742ef78625cd225ef3e",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; spending restraint and emotional coping",
+      "denominator": {"value": 12000, "unit": "consumers aged 18 and over across 12 countries", "value_type": "survey_sample"},
+      "measures": {
+        "restraint": {"value": "54% say they are making fewer impulse purchases, down from 71% in the prior year, while 49% are buying smaller pack sizes", "unit": "reported survey shares and year-over-year comparison", "value_type": "reported_change"},
+        "indulgence": {"value": "71% say small treats or indulgences help them manage financial stress", "unit": "reported survey share", "value_type": "reported_share"},
+        "decision_frame": {"value": "the report describes a hybrid mindset: consumers trade down in some categories while retaining spending where health, reliability, durability or emotional value matter", "unit": "reported consumer interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Capgemini longitudinal consumer survey comparison and 2026 questions on spending, pack sizes, impulse behavior and emotional value.",
+      "uncertainty": "The comparison uses different annual waves and self-reported behavior; small indulgence may represent substitution, coping, habit or discretionary resilience rather than aggregate spending growth.",
+      "subgroup": "Consumers cutting nonessential spending, consumers maintaining health or reliability purchases, and households using small treats as emotional relief during financial pressure.",
+      "counterinterpretation": "Intentional indulgence can coexist with severe financial stress and may conceal reductions elsewhere; category-level trade-down does not indicate a uniform consumer culture.",
+      "source_url": "https://www.capgemini.com/wp-content/uploads/2026/01/Final-Web-Version-Report-Consumer-Trends-2026.pdf",
+      "retrieval_hash": "sha256:612f362e1bff3c307e4db4aed38414f7b3ac85dd5cba4742ef78625cd225ef3e",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; AI-enabled shopping and consumer control",
+      "denominator": {"value": 12000, "unit": "consumers aged 18 and over across 12 countries", "value_type": "survey_sample"},
+      "measures": {
+        "adoption": {"value": "25% have used generative-AI shopping tools and a further 31% plan to use them in the future", "unit": "reported survey shares", "value_type": "reported_share"},
+        "agentic_routines": {"value": "52% use virtual assistants that automate reordering or meal planning at least once a week, but only one in five is willing to pay for such a service", "unit": "reported survey shares", "value_type": "reported_share"},
+        "control_and_data": {"value": "76% want clear rules for when an AI assistant acts and 71% are concerned about how generative AI uses their information", "unit": "reported survey shares", "value_type": "reported_share"}
+      },
+      "method": "Capgemini survey questions on generative-AI shopping tools, virtual assistants, permissions, data use, synthetic influencers and disclosure.",
+      "uncertainty": "The survey does not verify tool use, distinguish embedded from standalone systems, measure task quality or establish whether concern reduces adoption over time.",
+      "subgroup": "Current and prospective AI-shopping users, consumers seeking convenience, people prioritizing autonomy and consumers concerned about data use, synthetic content and agentic action.",
+      "counterinterpretation": "Consumers may accept automated assistance when permissions are reversible and visible; concern about data use may be compatible with continued use when convenience or price benefits are high.",
+      "source_url": "https://www.capgemini.com/wp-content/uploads/2026/01/Final-Web-Version-Report-Consumer-Trends-2026.pdf",
+      "retrieval_hash": "sha256:612f362e1bff3c307e4db4aed38414f7b3ac85dd5cba4742ef78625cd225ef3e",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; technology convenience, human support and social commerce",
+      "denominator": {"value": 12000, "unit": "consumers aged 18 and over across 12 countries", "value_type": "survey_sample"},
+      "measures": {
+        "technology_benefit": {"value": "65% feel technology has reduced stress in their shopping routines and 63% want generative AI to provide hyper-personalized content", "unit": "reported survey shares", "value_type": "reported_share"},
+        "human_support": {"value": "74% value in-person assistance during in-store service and 66% during the purchase stage, up from 54% and 40% respectively in the prior year", "unit": "reported survey shares and year-over-year comparison", "value_type": "reported_change"},
+        "social_commerce": {"value": "35% have purchased through platforms such as Instagram or YouTube, while two-thirds expect brands to disclose AI-generated advertising", "unit": "reported survey shares", "value_type": "reported_share"}
+      },
+      "method": "Capgemini survey comparison of shopping stress, personalization, human assistance, social-commerce purchase and synthetic advertising disclosure expectations.",
+      "uncertainty": "The findings are perceptions and reported behavior rather than transaction records; the year-over-year increase in human-support preference may reflect question, channel or sample effects as well as changing consumer needs.",
+      "subgroup": "Consumers making complex purchases, shoppers using social commerce, customers needing service resolution, and consumers balancing digital convenience with interpersonal trust.",
+      "counterinterpretation": "Demand for human assistance may reflect the complexity or failure of current digital journeys rather than rejection of technology; social-commerce adoption does not prove durable loyalty or trust.",
+      "source_url": "https://www.capgemini.com/wp-content/uploads/2026/01/Final-Web-Version-Report-Consumer-Trends-2026.pdf",
+      "retrieval_hash": "sha256:612f362e1bff3c307e4db4aed38414f7b3ac85dd5cba4742ef78625cd225ef3e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.capgemini.com/insights/research-library/what-matters-to-todays-consumer-2026/", "claim": "Capgemini Research Institute publication page with the executive findings, methodology and report download."},
+    {"source_url": "https://www.capgemini.com/wp-content/uploads/2026/01/Consumer-Trends-2026-Infographic.pdf", "claim": "Capgemini infographic summarizing value, AI, trust and human-support findings."}
+  ],
+  "boundary": "This record adds a consumer-value and AI-commerce layer linking inflation fatigue to fairness, quality, switching, emotional indulgence, controlled automation, data concern, human support and social commerce. It is a 12-country survey with executive interviews, not respondent-level ingestion, transaction telemetry, a causal evaluation, a complete global consumer census or proof that stated preferences become realized loyalty.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Capgemini publication page and 82-page PDF were reviewed for the 12,000-consumer methodology, fairness and switching measures, intentional-indulgence findings, AI-shopping adoption and control, data concerns, human-support comparisons and social-commerce disclosure expectations.",
+    "source_url_sha256": "sha256:612f362e1bff3c307e4db4aed38414f7b3ac85dd5cba4742ef78625cd225ef3e",
+    "checked": "2026-09-27"
+  }
+}

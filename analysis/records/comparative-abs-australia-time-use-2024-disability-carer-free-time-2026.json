@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-abs-australia-time-use-2024-disability-carer-free-time-2026",
+  "title": "Diary-based time use shows care and disability as hidden conversion costs for free time and social life",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Australian Bureau of Statistics, How Australians use their time, 2024; supplementary disability, carer, and time-pressure tables released August 5, 2026",
+  "geography": "Australia; people aged 15 years and over in in-scope private households",
+  "observations": [
+    {
+      "period": "2024 Time Use Survey; two diary days per in-scope person; total population averages",
+      "denominator": {"value": 2, "unit": "assigned diary days per person for the main survey design; the published tables provide weighted national estimates", "value_type": "reported_diary_design"},
+      "measures": {
+        "free_time_participation": {"value": 91.0, "unit": "percent participating in free-time activities on a diary day", "value_type": "reported_share"},
+        "in_person_socialising_participation": {"value": 27.1, "unit": "percent talking and socialising in person on a diary day", "value_type": "reported_share"},
+        "free_time_average_total_population": {"value": "5:04", "unit": "hours:minutes average per day across the total population", "value_type": "reported_time_average"},
+        "in_person_socialising_average_total_population": {"value": "2:19", "unit": "hours:minutes average per day among people who participated in the activity", "value_type": "reported_time_average"}
+      },
+      "method": "ABS 2024 Time Use Survey diary estimates; participants recorded activities in five-minute increments for two consecutive days, with weighted national tables reporting participation and average time.",
+      "uncertainty": "The survey is a snapshot, not a longitudinal panel; one activity is recorded as the main activity at a time, seasonal and day-of-week composition matters, and participation prevalence cannot be inferred from two diary days for infrequent activities.",
+      "subgroup": "Australian residents aged 15 years and over in scope private households.",
+      "counterinterpretation": "Free time is a broad category and average time among participants is not the same as time available to every person; socialising can occur simultaneously or outside the diary classification.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC01.xlsx",
+      "retrieval_hash": "sha256:7fe6b35e0a41babb269ba56e4c0f39963b52f823ebba876dd5dd81d7223e0752",
+      "status": "reported"
+    },
+    {
+      "period": "2024 Time Use Survey; disability-status supplementary tables",
+      "denominator": {"value": 1, "unit": "weighted national population frame for people aged 15 years and over, split by ABS disability status; table reports participation and participant-time averages", "value_type": "reported_population_frame"},
+      "measures": {
+        "in_person_socialising_participation_has_disability": {"value": 27.4, "unit": "percent of people with disability participating on a diary day", "value_type": "reported_share"},
+        "in_person_socialising_participation_no_disability": {"value": 27.0, "unit": "percent of people without disability participating on a diary day", "value_type": "reported_share"},
+        "free_time_average_among_participants_has_disability": {"value": "6:26", "unit": "hours:minutes average per day among people with disability who participated in free time", "value_type": "reported_time_average"},
+        "free_time_average_among_participants_no_disability": {"value": "5:31", "unit": "hours:minutes average per day among people without disability who participated in free time", "value_type": "reported_time_average"},
+        "mechanism": {"value": "Disability does not appear as a simple attendance gap in the diary-day socialising measure, but participant time differs: access, energy, health, transport, and available alternatives may shape the duration and composition of free time after participation occurs", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ABS Table 11.1 and Table 11.3, participation and average time by disability status, age group, and sex; averages are among participants unless explicitly identified as total-population averages.",
+      "uncertainty": "Disability is defined as a limitation, restriction, impairment, disease, or disorder lasting or expected to last at least six months and restricting everyday activities; the cross-sectional diary does not identify accessibility barriers or causal effects.",
+      "subgroup": "Australians aged 15 years and over by ABS disability status; selected age and sex cells are also available.",
+      "counterinterpretation": "Longer free-time duration among participants with disability may reflect selection into the activity, different schedules, health-related non-work time, or activity classification rather than greater leisure access or wellbeing.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC11.xlsx",
+      "retrieval_hash": "sha256:eb6b53008edc07db360079a7f31d6de453f5aa259aee8f63f1e44898e77f21bc",
+      "status": "reported"
+    },
+    {
+      "period": "2024 Time Use Survey; carer-status supplementary tables",
+      "denominator": {"value": 1, "unit": "weighted national population frame for people aged 15 years and over, split by whether the person reported providing care to another person", "value_type": "reported_population_frame"},
+      "measures": {
+        "caring_support_participation_carers": {"value": 32.6, "unit": "percent of people who provided care to another person participating in caring and support on a diary day", "value_type": "reported_share"},
+        "caring_support_participation_noncarers": {"value": 7.0, "unit": "percent of people who did not provide care to another person participating in caring and support on a diary day", "value_type": "reported_share"},
+        "caring_support_average_among_participants_carers": {"value": "2:45", "unit": "hours:minutes average per day among carers who participated in caring and support", "value_type": "reported_time_average"},
+        "caring_support_average_among_participants_noncarers": {"value": "1:46", "unit": "hours:minutes average per day among non-carers who participated in caring and support", "value_type": "reported_time_average"},
+        "free_time_average_among_participants_carers": {"value": "5:25", "unit": "hours:minutes average per day among carers who participated in free time", "value_type": "reported_time_average"},
+        "free_time_average_among_participants_noncarers": {"value": "5:36", "unit": "hours:minutes average per day among non-carers who participated in free time", "value_type": "reported_time_average"},
+        "mechanism": {"value": "Care is a hidden time-price route: carers are much more likely to record caring and support on the diary day and spend longer in that activity, while their participant-level free-time average is slightly lower", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ABS Table 12.1 and Table 12.3, participation and average time by carer status, age group, and sex; carer status is based on the survey question about providing care to another person and diary participation is measured separately.",
+      "uncertainty": "The survey is not designed to estimate the prevalence of carers from two diary days; care may not occur on an assigned diary day, and participant averages cannot be summed across categories or interpreted as total-population time without the correct universe.",
+      "subgroup": "Australians aged 15 years and over by reported carer status, with age and sex breakdowns.",
+      "counterinterpretation": "The small free-time difference among participants does not mean carers experience no time burden; carers may have different schedules, employment, health, household support, or opportunities to participate in free time.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC12.xlsx",
+      "retrieval_hash": "sha256:7a66b2258a12df882c659a51b38c096829cdec87f2f88e09ffd5eee4e1d2f107",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/latest-release", "claim": "ABS publication page, release updates, data-cube index, and 2024 Time Use Survey scope."},
+    {"source_url": "https://www.abs.gov.au/methodologies/how-australians-use-their-time-methodology/2024", "claim": "ABS methodology for diary design, activity classification, disability and carer definitions, participation limits, and weighting."},
+    {"source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/how-australians-use-their-time/2024/TUSDC08.xlsx", "claim": "Supplementary time-pressure table released August 5, 2026."}
+  ],
+  "boundary": "This record adds diary-based time allocation as a conversion layer between disability, caring, free time, and social participation. It is descriptive 2024 Australian Time Use Survey evidence, not a longitudinal or causal estimate, not a complete prevalence measure for carers or volunteers, and not proof that a specific care responsibility caused a cultural or social outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ABS 2024 Time Use Survey release, methodology, base time-use table, disability supplementary table, and carer supplementary table retrieved; participation universes, participant-time averages, diary design, and prevalence caveats reviewed.",
+    "html_sha256": "sha256:ea5c17a4200a5b386d2439eada05ffa78ca0b3afe2165c404883d422c54c217d",
+    "methodology_html_sha256": "sha256:541a1508edf6a9ca8f5d164d4d51ed4ec07392a0fc4cf3fe0c3101444fea7d2b",
+    "table_hashes": {
+      "time_by_sex": "sha256:7fe6b35e0a41babb269ba56e4c0f39963b52f823ebba876dd5dd81d7223e0752",
+      "time_pressure": "sha256:1157423b4e9b4cc89c38b8ef1ee75b5fbd590da5f2cd339db8711f38183615f7",
+      "disability": "sha256:eb6b53008edc07db360079a7f31d6de453f5aa259aee8f63f1e44898e77f21bc",
+      "carer": "sha256:7a66b2258a12df882c659a51b38c096829cdec87f2f88e09ffd5eee4e1d2f107"
+    },
+    "checked": "2026-09-30"
+  }
+}

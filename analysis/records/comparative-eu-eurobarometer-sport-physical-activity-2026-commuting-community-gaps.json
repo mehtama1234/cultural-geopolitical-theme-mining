@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-eurobarometer-sport-physical-activity-2026-commuting-community-gaps",
+  "title": "EU physical activity rises modestly while active commuting, fitness use, and country gaps reshape social participation",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "European Commission Special Eurobarometer on sport and physical activity, 2026 release",
+  "geography": "European Union; cross-national population survey with Member State comparisons",
+  "observations": [
+    {
+      "period": "2026 compared with the last comparable 2022 survey; frequency of exercise and sport",
+      "denominator": {"value": null, "unit": "EU population survey; top-line release does not state the 2026 respondent count", "value_type": "not_disclosed"},
+      "measures": {
+        "exercise_almost_daily": {"value": 9, "unit": "percent reporting exercise almost daily", "value_type": "reported_survey_share"},
+        "exercise_several_times_week": {"value": 38, "unit": "percent reporting exercise several times a week", "value_type": "reported_survey_share"},
+        "never_exercise": {"value": 39, "unit": "percent reporting never exercising or playing sport", "value_type": "reported_survey_share"},
+        "change_almost_daily": {"value": 3, "unit": "percentage-point increase in almost-daily exercise from 2022", "value_type": "reported_change"},
+        "change_several_times_week": {"value": 6, "unit": "percentage-point increase in several-times-week exercise from 2022", "value_type": "reported_change"},
+        "change_never": {"value": -6, "unit": "percentage-point change in never exercising from 2022", "value_type": "reported_change"},
+        "mechanism": {"value": "EU activity levels improved modestly, but a large non-participating group remains; aggregate recovery is not equivalent to universal routine change", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "European Commission Special Eurobarometer survey on sport and physical activity, compared with the previous comparable 2022 wave; top-line figures are weighted EU and country survey estimates.",
+      "uncertainty": "The official news release does not provide the 2026 sample size, full questionnaire, or all subgroup denominators. This is self-reported cross-sectional survey data and does not measure activity duration, expenditure, health outcomes, or causal change.",
+      "subgroup": "Residents across EU Member States, with country-level comparisons and EU aggregate estimates.",
+      "counterinterpretation": "Reported frequency may reflect seasonal, recall, or interpretation differences; reduced inactivity does not establish sustained behavior, equal access, or improved wellbeing.",
+      "source_url": "https://sport.ec.europa.eu/whats-new/news/strong-increase-in-active-commuting-and-some-positive-changes-in-sport-and-exercise-habits-latest-special-eurobarometer-shows",
+      "retrieval_hash": "sha256:33fd9a0272058c8b73365b7f3c659c0c166caa2e7c77a33bda88166c2c91d99c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 compared with 2022; settings and routine infrastructures for physical activity",
+      "denominator": {"value": null, "unit": "EU population survey; top-line release does not state the 2026 respondent count", "value_type": "not_disclosed"},
+      "measures": {
+        "fitness_centre_attendance": {"value": 39, "unit": "percent reporting attendance at health and fitness centres", "value_type": "reported_survey_share"},
+        "fitness_centre_change": {"value": 6, "unit": "percentage-point increase in health and fitness-centre attendance from 2022", "value_type": "reported_change"},
+        "active_commuting": {"value": 37, "unit": "percent reporting walking or cycling between home and daily destinations such as work, school, or shops", "value_type": "reported_survey_share"},
+        "active_commuting_change": {"value": 13, "unit": "percentage-point increase in active commuting from 2022", "value_type": "reported_change"},
+        "walking_ten_minutes": {"value": 72, "unit": "percent reporting walking for at least ten minutes at a time", "value_type": "reported_survey_share"},
+        "walking_change": {"value": 56, "unit": "percentage-point increase relative to the last comparable question", "value_type": "reported_change"},
+        "mechanism": {"value": "Physical activity is shifting partly into ordinary mobility and commercial fitness settings, so place design, commuting, time structure, and paid access may matter as much as sport identity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the European Commission top-line Special Eurobarometer release; settings and walking measures are self-reported and may allow multiple activity contexts.",
+      "uncertainty": "The walking comparison is described as a change from the last comparable question and may not have identical wording; attendance is not frequency, spending, or facility availability. The release does not provide individual trajectories or causal explanations.",
+      "subgroup": "EU residents reporting physical activity settings and walking routines.",
+      "counterinterpretation": "Fitness-centre use can be concentrated among higher-income or urban residents, while active commuting may reflect transport necessity rather than voluntary exercise; infrastructure access and price remain unmeasured.",
+      "source_url": "https://sport.ec.europa.eu/whats-new/news/strong-increase-in-active-commuting-and-some-positive-changes-in-sport-and-exercise-habits-latest-special-eurobarometer-shows",
+      "retrieval_hash": "sha256:33fd9a0272058c8b73365b7f3c659c0c166caa2e7c77a33bda88166c2c91d99c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; country and social-meaning gradients in physical activity",
+      "denominator": {"value": null, "unit": "EU population survey; country-level top-line estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "never_exercise_portugal": {"value": 68, "unit": "percent reporting never exercising or playing sport in Portugal", "value_type": "reported_country_share"},
+        "never_exercise_romania": {"value": 66, "unit": "percent reporting never exercising or playing sport in Romania", "value_type": "reported_country_share"},
+        "never_exercise_greece": {"value": 65, "unit": "percent reporting never exercising or playing sport in Greece", "value_type": "reported_country_share"},
+        "mental_health_benefit_agreement": {"value": 93, "unit": "percent agreeing sport or physical activity improves mental health", "value_type": "reported_survey_share"},
+        "community_building_agreement": {"value": 86, "unit": "percent believing sport or physical activity is important for community building", "value_type": "reported_survey_share"},
+        "stress_reduction_motivation": {"value": 26, "unit": "percent citing improving mental health or reducing stress as a factor for exercising", "value_type": "reported_survey_share"},
+        "mechanism": {"value": "Public belief in sport’s mental-health and community value is much broader than actual participation, and country gaps indicate that social meaning does not automatically convert into accessible routine behavior", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the European Commission release, combining country non-participation estimates with EU-level perceived benefits and motivations.",
+      "uncertainty": "Belief, motivation, and behavior use different denominators and constructs; country differences can reflect age, income, climate, transport, facilities, survey mode, and cultural interpretation. No causal path is established.",
+      "subgroup": "EU residents by Member State and reported reasons or perceived benefits of physical activity.",
+      "counterinterpretation": "High agreement that sport builds community may be normatively expressed rather than experienced; low participation can result from work, care, disability, price, safety, or infrastructure rather than lack of interest.",
+      "source_url": "https://sport.ec.europa.eu/whats-new/news/strong-increase-in-active-commuting-and-some-positive-changes-in-sport-and-exercise-habits-latest-special-eurobarometer-shows",
+      "retrieval_hash": "sha256:33fd9a0272058c8b73365b7f3c659c0c166caa2e7c77a33bda88166c2c91d99c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://sport.ec.europa.eu/whats-new/news/strong-increase-in-active-commuting-and-some-positive-changes-in-sport-and-exercise-habits-latest-special-eurobarometer-shows", "claim": "European Commission top-line 2026 sport and physical-activity findings, country gaps, commuting, fitness, walking, mental-health, and community-building measures."},
+    {"source_url": "https://data.europa.eu/data/datasets/s2668_97_3_sp525_eng?locale=en", "claim": "European data catalogue for the prior Special Eurobarometer sport and physical-activity series and trend context."}
+  ],
+  "boundary": "This record adds an EU physical-activity, active-commuting, fitness, and social-meaning layer. It does not establish cultural participation, household spending, facility affordability, health outcomes, causal post-pandemic change, or community cohesion in practice.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission sport page reviewed for 2026 EU exercise frequency, inactivity, fitness-centre use, active commuting, walking, country gaps, perceived mental-health and community benefits, and top-line limitations.",
+    "page_html_sha256": "sha256:33fd9a0272058c8b73365b7f3c659c0c166caa2e7c77a33bda88166c2c91d99c",
+    "checked": "2026-09-30"
+  }
+}

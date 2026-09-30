@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-stanford-ai-index-2026-adoption-capability-trust-transparency",
+  "title": "AI capability and adoption are accelerating faster than transparency, safety measurement, labor adjustment, and public confidence",
+  "theme_ids": ["energy", "work", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Stanford Institute for Human-Centered Artificial Intelligence, 2026 AI Index Report",
+  "geography": "Global AI ecosystem, with country, organization, labor-market, public-opinion, and model comparisons",
+  "observations": [
+    {
+      "period": "2025-2026; AI adoption, investment, consumer value, and organizational use",
+      "denominator": {"value": 1, "unit": "Stanford AI Index global AI economy and adoption frame", "value_type": "global_technology_economy_frame"},
+      "measures": {
+        "organizational_adoption": {"value": 88, "unit": "percent of surveyed organizations using AI in at least one business function", "value_type": "reported_survey_share"},
+        "generative_business_use": {"value": 70, "unit": "percent of organizations using generative AI in at least one business function", "value_type": "reported_survey_share"},
+        "global_genai_adoption": {"value": 53, "unit": "percent of global population reported as having used generative AI tools", "value_type": "reported_adoption_share"},
+        "us_consumer_surplus": {"value": 172, "unit": "billion dollars estimated annual US consumer surplus from generative AI by early 2026", "value_type": "reported_estimate"},
+        "us_adoption": {"value": 28.3, "unit": "percent US generative-AI adoption in the reported country comparison", "value_type": "reported_adoption_share"}
+      },
+      "method": "Stanford AI Index synthesis of investment, organization survey, country adoption, and consumer-value estimates across public and private sources.",
+      "uncertainty": "Adoption, investment, and consumer-surplus measures use different populations, definitions, time windows, and estimation methods; reported use does not establish sustained productive value or equal access.",
+      "subgroup": "Organizations, workers, consumers, countries, and sectors with different income, connectivity, skills, language, infrastructure, and AI access conditions.",
+      "counterinterpretation": "High reported adoption may include light or experimental use, while slower adoption can reflect measurement, access, or sector composition rather than rejection of AI.",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "retrieval_hash": "sha256:cd4d54c88f29ac9058b820a190b34ed592d24f3ad176b580b09e879f40da64e6",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; labor-market exposure and productivity evidence",
+      "denominator": {"value": 1, "unit": "Stanford AI Index labor and productivity evidence base", "value_type": "labor_technology_frame"},
+      "measures": {
+        "young_developer_employment": {"value": -20, "unit": "nearly percent change in employment for software developers ages 22-25 from 2024 as reported by the Index", "value_type": "reported_change"},
+        "expected_workforce_reduction": {"value": 33, "unit": "approximately one-third of surveyed organizations expecting AI to reduce their workforce in the coming year", "value_type": "reported_survey_share"},
+        "customer_support_productivity": {"value": 14, "unit": "percent productivity gain reported in customer-support studies", "value_type": "reported_effect_range"},
+        "software_productivity": {"value": 26, "unit": "percent productivity gain reported in software-development studies", "value_type": "reported_effect_range"},
+        "marketing_output": {"value": 50, "unit": "percent output gain reported in marketing studies", "value_type": "reported_effect_range"}
+      },
+      "method": "Review of labor-market indicators, employer expectations, and published studies of AI-assisted productivity by task and occupation.",
+      "uncertainty": "The employment and productivity estimates come from different designs and populations; they do not establish that AI caused aggregate employment changes or that measured task gains persist without learning costs or quality trade-offs.",
+      "subgroup": "Young workers in exposed occupations, firms adopting AI, workers in structured versus judgment-intensive tasks, managers, and workers with different skills and bargaining power.",
+      "counterinterpretation": "Short-term hiring changes can reflect business cycles, technology-specific demand, or selection; productivity gains may coexist with reskilling, job redesign, quality changes, and new work creation.",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "retrieval_hash": "sha256:cd4d54c88f29ac9058b820a190b34ed592d24f3ad176b580b09e879f40da64e6",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; responsible-AI incidents, transparency, safety, and measurement",
+      "denominator": {"value": 1, "unit": "Stanford responsible-AI benchmark and incident frame", "value_type": "responsible_ai_frame"},
+      "measures": {
+        "documented_incidents": {"value": 362, "unit": "AI incidents recorded in 2025", "value_type": "reported_incident_count"},
+        "prior_incidents": {"value": 233, "unit": "AI incidents recorded in 2024", "value_type": "reported_incident_count"},
+        "transparency_score": {"value": 40, "unit": "average Foundation Model Transparency Index score in 2025", "value_type": "reported_index_score"},
+        "prior_transparency_score": {"value": 58, "unit": "average Foundation Model Transparency Index score in 2024", "value_type": "reported_index_score"},
+        "hallucination_range": {"value": "22% to 94%", "unit": "reported hallucination-rate range across 26 top models in a new accuracy benchmark", "value_type": "reported_range"}
+      },
+      "method": "Stanford synthesis of the AI Incident Database, Foundation Model Transparency Index, model evaluations, safety benchmarks, and responsible-AI literature.",
+      "uncertainty": "Incident counts depend on reporting, inclusion, and database coverage; transparency scores measure disclosed information rather than total model quality or actual harm; benchmark results do not predict every deployment context.",
+      "subgroup": "AI developers, deployers, users, affected communities, auditors, regulators, and people exposed to model errors, opacity, unsafe behavior, or weak redress.",
+      "counterinterpretation": "Rising recorded incidents can reflect better detection and reporting; a lower transparency score can reflect changed measurement or disclosure criteria as well as less disclosure.",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "retrieval_hash": "sha256:cd4d54c88f29ac9058b820a190b34ed592d24f3ad176b580b09e879f40da64e6",
+      "status": "reported"
+    },
+    {
+      "period": "2025; public opinion, linguistic performance, and social interpretation of AI",
+      "denominator": {"value": 1, "unit": "Stanford AI Index public-opinion and model-language comparison frame", "value_type": "public_interpretation_frame"},
+      "measures": {
+        "benefit_belief": {"value": 59, "unit": "percent saying AI products and services offer more benefits than drawbacks in 2025", "value_type": "reported_opinion_share"},
+        "nervousness": {"value": 52, "unit": "percent saying AI products and services make them nervous in 2025", "value_type": "reported_opinion_share"},
+        "dialect_penalty": {"value": "several leading models lost close to half their accuracy on a Slovenian commonsense test in a regional dialect versus the standard dialect", "unit": "reported language-performance comparison", "value_type": "reported_gap"},
+        "tradeoff": {"value": "safety, fairness, privacy, factuality, and transparency improvements can conflict, and the trade-offs remain incompletely understood", "unit": "reported responsible-AI synthesis", "value_type": "reported_relationship"}
+      },
+      "method": "Global public-opinion survey synthesis and model-evaluation comparisons across languages, dialects, safety, fairness, privacy, factuality, and transparency dimensions.",
+      "uncertainty": "Opinion results are aggregate survey measures with country and sample differences; language benchmarks are task-specific and do not establish general cultural competence or deployment-level social impact.",
+      "subgroup": "People with different national, linguistic, cultural, educational, and political contexts; communities whose languages and norms are weakly represented in AI training and evaluation.",
+      "counterinterpretation": "Mixed optimism and anxiety can reflect increasing familiarity and more informed risk perception rather than a stable legitimacy crisis; benchmark gaps can improve as data, evaluation, and local-language systems develop.",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "retrieval_hash": "sha256:cd4d54c88f29ac9058b820a190b34ed592d24f3ad176b580b09e879f40da64e6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy", "claim": "Stanford AI Index economy chapter with investment, adoption, consumer value, labor, productivity, and robotics findings."},
+    {"source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/responsible-ai", "claim": "Stanford AI Index responsible-AI chapter with incidents, transparency, model evaluation, and safety findings."},
+    {"source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/public-opinion", "claim": "Stanford AI Index public-opinion chapter with benefit, anxiety, trust, and social interpretation measures."}
+  ],
+  "boundary": "This record adds a technology-capability and social-consequence route across AI adoption, investment, labor adjustment, productivity, incidents, transparency, language, safety, public opinion, and institutional governance. It uses Stanford AI Index aggregate evidence and published benchmark synthesis, not respondent-level ingestion, a causal estimate of AI's aggregate employment effect, a complete incident census, a universal model-quality measure, or proof that capability gains translate into equitable welfare or trusted institutions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Stanford HAI 2026 AI Index report hub and economy, responsible-AI, and public-opinion chapter pages reviewed for adoption, consumer value, labor, productivity, incident, transparency, benchmark, and public-opinion claims.",
+    "source_url_sha256": "sha256:cd4d54c88f29ac9058b820a190b34ed592d24f3ad176b580b09e879f40da64e6",
+    "checked": "2026-09-27"
+  }
+}

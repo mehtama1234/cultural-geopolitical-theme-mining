@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-cambodia-digital-platform-workers-2026-algorithmic-work-security",
+  "title": "Platform work is expanding opportunity while shifting income volatility, safety risk, and bargaining power onto workers",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "International Labour Organization, Diagnostic review of working conditions and social security coverage of digital platform workers in Cambodia",
+  "geography": "Phnom Penh, Cambodia, with national legal and platform-market context",
+  "observations": [
+    {
+      "period": "2026 publication; Phnom Penh platform-work diagnostic",
+      "denominator": {"value": 1237, "unit": "surveyed platform workers", "value_type": "reported_sample"},
+      "measures": {
+        "workforce_scope": {"value": "delivery riders, tuk-tuk drivers and taxi drivers using location-based digital labour platforms", "unit": "study population", "value_type": "reported_scope"},
+        "qualitative_scope": {"value": "29 in-depth worker interviews and 10 key-informant interviews", "unit": "interviews", "value_type": "reported_sample"},
+        "work_intensity": {"value": "workers averaged roughly 6.7–6.8 days per week and 11–12 hours per day including unpaid waiting time", "unit": "reported work pattern", "value_type": "reported_estimate"}
+      },
+      "method": "Mixed-method diagnostic combining a Phnom Penh worker survey, in-depth interviews, key-informant interviews, desk review and a tripartite consultation.",
+      "uncertainty": "The worker evidence is exploratory and geographically limited to Phnom Penh; it is not representative of Cambodia as a whole or a longitudinal estimate of platform-work growth.",
+      "subgroup": "Delivery riders, tuk-tuk drivers, taxi drivers, platform operators, government, unions and worker associations.",
+      "counterinterpretation": "Platform work can provide flexible income and access to employment, especially where stable alternatives are limited, even as long hours and unpaid waiting expose workers to insecurity.",
+      "source_url": "https://www.ilo.org/publications/diagnostic-review-working-conditions-and-social-security-coverage-digital",
+      "retrieval_hash": "sha256:b6f7a4fc07135a7ab6ef1054628e8fd9732896c8fd952362005c478a83be5c18",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; platform earnings and operating-cost structure",
+      "denominator": {"value": 1, "unit": "reported comparison across three worker categories", "value_type": "published_comparison"},
+      "measures": {
+        "gross_monthly_earnings": {"value": "taxi drivers US$581; delivery riders US$501; tuk-tuk drivers US$477", "unit": "US dollars per month before operating expenses", "value_type": "reported_estimate"},
+        "net_position": {"value": "taxi drivers had the highest gross earnings but retained the least after high operating costs; delivery riders retained more after expenses than the other categories", "unit": "reported comparative finding", "value_type": "reported_interpretation"},
+        "bargaining_pressure": {"value": "workers reported financial instability from competition and limited power to negotiate trip fares and commission fees", "unit": "reported worker concern", "value_type": "reported_finding"}
+      },
+      "method": "Survey estimates and qualitative findings analyzed by service type.",
+      "uncertainty": "Earnings and expense figures are study estimates for the sampled Phnom Penh workers and should not be treated as platform-wide income accounts or household disposable income.",
+      "subgroup": "Taxi drivers, delivery riders and tuk-tuk drivers operating under different vehicle and platform cost structures.",
+      "counterinterpretation": "Higher gross earnings or multi-platform access may still make platform work economically attractive relative to available alternatives, despite cost and fee pressure.",
+      "source_url": "https://www.ilo.org/publications/diagnostic-review-working-conditions-and-social-security-coverage-digital",
+      "retrieval_hash": "sha256:b6f7a4fc07135a7ab6ef1054628e8fd9732896c8fd952362005c478a83be5c18",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; algorithmic management, safety and voice",
+      "denominator": {"value": 1, "unit": "reported platform-management and worker-protection frame", "value_type": "published_assessment"},
+      "measures": {
+        "ratings_control": {"value": "a large majority reported that customer ratings significantly affect earnings and task allocation", "unit": "reported survey finding", "value_type": "reported_estimate"},
+        "penalties": {"value": "nearly half reported penalties such as reduced job allocation or account suspension for refusing or cancelling orders", "unit": "reported survey finding", "value_type": "reported_estimate"},
+        "injury": {"value": "one third of delivery riders reported having been injured while working", "unit": "reported survey finding", "value_type": "reported_estimate"},
+        "representation": {"value": "informal worker networks exist but trade unionization is virtually absent", "unit": "reported institutional finding", "value_type": "reported_assessment"}
+      },
+      "method": "Mixed-method analysis of automated systems, occupational safety and health, dispute resolution, social protection and worker organization.",
+      "uncertainty": "These are self-reported and study-specific findings; they establish a pattern of perceived algorithmic and institutional exposure, not a causal estimate of platform-system effects.",
+      "subgroup": "Workers subject to ratings, task allocation, penalties, account suspension, accident risk and limited collective bargaining.",
+      "counterinterpretation": "Ratings and automated allocation can coordinate demand and create access to work, while penalties may be intended as service-quality controls; the distribution of costs and appeal rights remains the central issue.",
+      "source_url": "https://www.ilo.org/publications/diagnostic-review-working-conditions-and-social-security-coverage-digital",
+      "retrieval_hash": "sha256:b6f7a4fc07135a7ab6ef1054628e8fd9732896c8fd952362005c478a83be5c18",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; legal classification and social-protection boundary",
+      "denominator": {"value": 1, "unit": "Cambodian platform-work legal and protection framework", "value_type": "published_framework"},
+      "measures": {
+        "classification": {"value": "platforms mostly classify workers as independent contractors or partners rather than employees", "unit": "reported legal-institutional pattern", "value_type": "reported_assessment"},
+        "coverage": {"value": "voluntary NSSF healthcare can be available to self-employed workers, while pension and occupational-risk coverage are separate and not included in that voluntary healthcare scheme", "unit": "reported protection pathway", "value_type": "reported_policy_description"},
+        "policy_direction": {"value": "the report calls for clearer employment classification, stronger social protection and occupational safety and health measures", "unit": "reported recommendation", "value_type": "reported_recommendation"}
+      },
+      "method": "Review of Cambodian law and policy combined with worker, platform, government and worker-organization evidence.",
+      "uncertainty": "Legal coverage and implementation may change; this record captures the report’s 2026 description and does not independently adjudicate worker classification or legal compliance.",
+      "subgroup": "Independent contractors, platform workers, social-security institutions, regulators and platform operators.",
+      "counterinterpretation": "Independent status may preserve entry and scheduling flexibility, but without portable protections it can externalize accident, income, retirement and dispute-resolution risks.",
+      "source_url": "https://www.ilo.org/publications/diagnostic-review-working-conditions-and-social-security-coverage-digital",
+      "retrieval_hash": "sha256:b6f7a4fc07135a7ab6ef1054628e8fd9732896c8fd952362005c478a83be5c18",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00034710", "claim": "Official DOI record for the ILO Cambodia platform-work diagnostic."}
+  ],
+  "boundary": "This record adds a platform-work signal linking digital convenience and employment access to unpaid waiting, operating costs, algorithmic management, injury exposure, legal classification, social protection and worker voice. It is a Phnom Penh diagnostic and not a national labor-market estimate, causal evaluation, or basis for generalizing all platform workers globally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page and downloadable report were reviewed for sample scope, work intensity, earnings and expenses, algorithmic management, injuries, representation, legal classification and social-protection findings.",
+    "source_url_sha256": "sha256:b6f7a4fc07135a7ab6ef1054628e8fd9732896c8fd952362005c478a83be5c18",
+    "checked": "2026-09-27"
+  }
+}

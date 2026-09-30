@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-climate-information-integrity-interventions-2026",
+  "title": "Climate and disaster information integrity work remains concentrated on detection and response while prevention, recovery, and community approaches lag",
+  "theme_ids": ["voice", "energy", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UNDP, Frontiers of Information Integrity in Climate Change and Climate-Related Disasters: Information Integrity Interventions Landscape Report, 11 September 2026",
+  "geography": "Global climate-change and climate-related-disaster information ecosystems and intervention landscape",
+  "observations": [
+    {
+      "period": "2026; mapped intervention landscape",
+      "denominator": {"value": 1, "unit": "UNDP landscape mapping of several hundred information-integrity interventions, including almost fifty climate/disaster-focused interventions", "value_type": "published_intervention_landscape"},
+      "measures": {
+        "intervention_scope": {"value": "the report maps several hundred information-integrity interventions across thematic areas, including almost fifty focused on climate change and climate-related disasters", "unit": "reported mapping frame", "value_type": "reported_intervention_frame"},
+        "challenge_scope": {"value": "the landscape examines misinformation, disinformation, and other information pollution affecting climate action and disaster response", "unit": "reported problem frame", "value_type": "reported_mechanism_set"},
+        "actor_scope": {"value": "the mapping identifies patterns in challenges, strategies, approaches, and actors involved", "unit": "reported landscape dimension", "value_type": "reported_framework"},
+        "information_route": {"value": "climate resilience increasingly depends on the integrity of the information environment through which risk, action, and recovery are interpreted", "unit": "analytic public-systems mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP landscape report mapping several hundred information-integrity interventions and comparing climate-specific practice with other policy areas.",
+      "uncertainty": "The report examines intervention design and positioning; it does not assess the effectiveness of individual interventions or explain why some intervention types are more prevalent.",
+      "subgroup": "Climate communicators, disaster responders, governments, platforms, media, civil society, communities, funders, and people exposed to climate hazards.",
+      "counterinterpretation": "A concentration on detection and response may reflect the maturity of available tools rather than an intentional neglect of prevention or recovery.",
+      "source_url": "https://www.undp.org/policy-centre/governance/publications/frontiers-information-integrity-climate-change-and-climate-related-disasters",
+      "retrieval_hash": "sha256:42cfdebc0e5725f6518feb3b6b95c8069af35c490ea261a57dde47617bd485a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; intervention imbalance across the disaster cycle",
+      "denominator": {"value": 1, "unit": "UNDP climate/disaster information-integrity intervention comparison", "value_type": "published_comparative_finding"},
+      "measures": {
+        "detection_response": {"value": "climate-related information-integrity efforts are concentrated largely on detection and response", "unit": "reported intervention pattern", "value_type": "reported_concentration_pattern"},
+        "prevention_gap": {"value": "prevention, recovery, and community-based approaches are less prominent", "unit": "reported intervention gap", "value_type": "reported_gap"},
+        "cycle_route": {"value": "information integrity is being handled more as an incident-response function than as a continuous preparedness, adaptation, and recovery capability", "unit": "analytic disaster-cycle mechanism", "value_type": "analytic_mechanism"},
+        "open_test": {"value": "track whether prevention, recovery, and community-led information practices improve warning, preparedness, action, and post-disaster learning", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UNDP comparative analysis of climate-specific intervention types and approaches.",
+      "uncertainty": "The report does not estimate the effectiveness, funding, reach, or causal contribution of detection, response, prevention, recovery, or community approaches.",
+      "subgroup": "Hazard-exposed communities, emergency managers, local governments, journalists, platforms, fact-checkers, and climate organizations.",
+      "counterinterpretation": "Detection and response may be prerequisites for later prevention and recovery systems, especially where climate misinformation is fast-moving or crisis-driven.",
+      "source_url": "https://www.undp.org/policy-centre/governance/publications/frontiers-information-integrity-climate-change-and-climate-related-disasters",
+      "retrieval_hash": "sha256:42cfdebc0e5725f6518feb3b6b95c8069af35c490ea261a57dde47617bd485a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; structural gaps in climate information ecosystems",
+      "denominator": {"value": 1, "unit": "UNDP landscape diagnosis", "value_type": "published_systems_diagnosis"},
+      "measures": {
+        "platform_gap": {"value": "the report identifies gaps related to platform participation", "unit": "reported structural gap", "value_type": "reported_gap"},
+        "regional_gap": {"value": "regional coordination remains a structural gap", "unit": "reported structural gap", "value_type": "reported_gap"},
+        "funding_gap": {"value": "sustainable funding is insufficiently connected to climate and disaster information-integrity work", "unit": "reported structural gap", "value_type": "reported_gap"},
+        "digital_community_gap": {"value": "digital approaches are not consistently connected to community-based approaches", "unit": "reported structural gap", "value_type": "reported_gap"},
+        "governance_route": {"value": "climate information integrity depends on coordination across platforms, regions, funders, digital systems, and communities", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP intervention-landscape synthesis of actors, strategies, thematic approaches, and ecosystem gaps.",
+      "uncertainty": "The identified gaps are landscape findings, not quantified measures of funding deficits, platform behavior, regional capacity, or community outcomes.",
+      "subgroup": "Local and national governments, platforms, funders, community groups, regional bodies, responders, and vulnerable populations.",
+      "counterinterpretation": "Some coordination and funding may occur outside the mapped interventions or through informal networks not visible in the landscape.",
+      "source_url": "https://www.undp.org/policy-centre/governance/publications/frontiers-information-integrity-climate-change-and-climate-related-disasters",
+      "retrieval_hash": "sha256:42cfdebc0e5725f6518feb3b6b95c8069af35c490ea261a57dde47617bd485a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; implications for climate action and disaster response",
+      "denominator": {"value": 9, "unit": "key conclusions reported by the landscape study", "value_type": "published_conclusion_frame"},
+      "measures": {
+        "policy_translation": {"value": "the report ends with nine conclusions intended to inform future policy, programming, partnerships, and research", "unit": "reported output", "value_type": "reported_policy_output"},
+        "public_action": {"value": "information pollution can affect how people understand climate risk, respond to disaster warnings, and support or resist climate action", "unit": "reported public-action mechanism", "value_type": "reported_mechanism_set"},
+        "trust_route": {"value": "information integrity is part of the social infrastructure required for collective agreement and coordinated climate response", "unit": "analytic trust mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the publication offers a landscape and research agenda rather than evidence that any intervention changed behavior or reduced disaster harm", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "UNDP landscape report conclusions based on intervention mapping and comparative analysis.",
+      "uncertainty": "The conclusions are directional and programmatic; effectiveness and causal pathways remain open research questions.",
+      "subgroup": "Climate-policy publics, disaster-affected communities, information intermediaries, emergency services, researchers, and policymakers.",
+      "counterinterpretation": "Material preparedness, trusted local institutions, and direct experience may sometimes outweigh information pollution in shaping response.",
+      "source_url": "https://www.undp.org/policy-centre/governance/publications/frontiers-information-integrity-climate-change-and-climate-related-disasters",
+      "retrieval_hash": "sha256:42cfdebc0e5725f6518feb3b6b95c8069af35c490ea261a57dde47617bd485a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/policy-centre/governance/our-focus/information-integrity", "claim": "UNDP's information-integrity portfolio provides broader open-public-sphere and institutional-trust context."},
+    {"source_url": "https://unfccc.int/news/new-strategy-for-un-climate-change-s-entertainment-and-culture-for-climate-action-initiative", "claim": "UNFCCC culture-and-climate strategy provides complementary public-engagement and climate-storytelling context."}
+  ],
+  "boundary": "This record adds an information-integrity route from climate and disaster misinformation, disinformation, and information pollution through preparedness, public action, response, recovery, trust, and coordination. It is a mapped intervention landscape, not an effectiveness evaluation, event dataset, behavioral study, or proof of causality between information pollution and climate outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNDP publication page and indexed report summary were reviewed for intervention-map scope, detection/response concentration, prevention/recovery/community gaps, structural ecosystem gaps, nine conclusions, and effectiveness limitations.",
+    "source_url_sha256": "sha256:42cfdebc0e5725f6518feb3b6b95c8069af35c490ea261a57dde47617bd485a0",
+    "checked": "2026-09-26"
+  }
+}

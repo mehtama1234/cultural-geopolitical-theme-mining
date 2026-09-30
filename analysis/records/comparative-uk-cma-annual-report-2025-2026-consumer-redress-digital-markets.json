@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-cma-annual-report-2025-2026-consumer-redress-digital-markets",
+  "title": "UK consumer enforcement is moving from investigation toward direct redress, while remedy reach and household recovery remain open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UK Competition and Markets Authority Annual Report and Accounts 2025 to 2026",
+  "geography": "United Kingdom; CMA consumer-protection, competition, and digital-markets activity, 1 April 2025 to 31 March 2026",
+  "observations": [
+    {
+      "period": "2025-26 financial year; CMA consumer-protection and competition activity",
+      "denominator": {"value": null, "unit": "CMA enforcement and impact portfolio; direct-benefit estimate is a three-year rolling average rather than a person-level denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "direct_consumer_benefits": {"value": 3.3, "unit": "billion pounds annual average direct consumer benefits delivered over the last three years", "value_type": "reported_institutional_impact_estimate"},
+        "benefit_to_spend_ratio": {"value": 24.7, "unit": "pounds of estimated direct consumer benefit per pound of CMA operating spend", "value_type": "reported_institutional_ratio"},
+        "fines": {"value": 78.2, "unit": "million pounds in fines imposed during 2025-26", "value_type": "reported_institutional_output"},
+        "warning_and_advisory_letters": {"value": 209, "unit": "warning and advisory letters issued under competition and consumer-protection law", "value_type": "reported_institutional_output"},
+        "mechanism": {"value": "Consumer protection operates through a mixed route of case enforcement, deterrence, guidance, and estimated avoided harm; institutional output is not the same as household recovery", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the CMA annual report and accounts, including its stated impact framework and three-year rolling direct-benefit estimate.",
+      "uncertainty": "The report's direct-benefit figure is an institutional impact assessment, not a randomized consumer-welfare estimate. It does not identify individual recipients, distribution across households, counterfactual prices, or whether avoided harm was experienced equally by vulnerable consumers.",
+      "subgroup": "Consumers and markets within CMA enforcement and competition activity; no consistent household subgroup denominator is published for the impact estimate.",
+      "counterinterpretation": "A high benefit-to-spend ratio may reflect modelling choices, case selection, avoided-harm assumptions, or large market effects rather than cash received by consumers. Fines can punish conduct without repairing each affected consumer's loss.",
+      "source_url": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2025-to-2026/annual-report-and-accounts-2025-to-2026",
+      "retrieval_hash": "sha256:6b97e28d77cb6d345df8739458d1f3834365749e27ebc00da1ed96002d95b3a1",
+      "status": "reported"
+    },
+    {
+      "period": "2025-26; first year of direct consumer enforcement under the Digital Markets, Competition and Consumers Act regime",
+      "denominator": {"value": 14, "unit": "business investigations launched under the new consumer-protection regime", "value_type": "published_institutional_count"},
+      "measures": {
+        "investigations_launched": {"value": 14, "unit": "new-regime consumer-protection investigations", "value_type": "reported_institutional_output"},
+        "first_direct_redress_case": {"value": "more than 80,000 learner drivers were ordered refunds averaging around £9 each, alongside a £4.2 million fine against AA/BSM Driving Schools for mandatory booking fees not shown upfront", "unit": "named enforcement outcome", "value_type": "official_case_outcome"},
+        "business_behavior_change": {"value": 90, "unit": "percent of businesses changing behavior after advisory letters in the fake-reviews workstream", "value_type": "reported_followup_share"},
+        "mechanism": {"value": "A regulator can move from complaint or intelligence to firm conduct change and ordered redress, but the conversion chain still requires verifying notice, payment receipt, residual loss, and future compliance", "unit": "bounded remedy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the CMA's annual report and its reported first direct-redress enforcement case under the DMCCA regime.",
+      "uncertainty": "The report does not establish that every eligible learner driver received a refund, quantify avoided or remaining harm, or show whether behavior change persisted after advisory letters. The 90% figure is workstream-specific and not a general compliance rate.",
+      "subgroup": "Learner drivers using AA or BSM online booking routes; businesses contacted in the CMA fake-reviews workstream.",
+      "counterinterpretation": "Direct redress may be legally executable without being practically received or adequate; advisory-letter behavior change may reflect short-term compliance, selection, or self-report rather than durable market correction.",
+      "source_url": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2025-to-2026/annual-report-and-accounts-2025-to-2026",
+      "retrieval_hash": "sha256:6b97e28d77cb6d345df8739458d1f3834365749e27ebc00da1ed96002d95b3a1",
+      "status": "reported"
+    },
+    {
+      "period": "1 April 2025-31 March 2026; public correspondence and institutional reach",
+      "denominator": {"value": 7636, "unit": "items of written correspondence from the public, including reports from consumers and businesses", "value_type": "published_institutional_count"},
+      "measures": {
+        "correspondence": {"value": 7636, "unit": "written correspondence items handled", "value_type": "reported_institutional_count"},
+        "year_over_year_change": {"value": 33, "unit": "percent increase compared with 2024-25", "value_type": "reported_change"},
+        "within_10_working_days": {"value": 77, "unit": "percent of correspondence answered within the CMA's internal 10-working-day target", "value_type": "reported_service_share"},
+        "within_20_working_days": {"value": 100, "unit": "percent answered within 20 working days", "value_type": "reported_service_share"},
+        "mechanism": {"value": "Public voice can enter an enforcement pipeline and receive administrative handling without guaranteeing investigation, remedy, or policy change", "unit": "bounded institutional-feedback mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the CMA accountability and performance reporting sections.",
+      "uncertainty": "Correspondence volume is not complaint prevalence, representativeness, or harm incidence. Response-time performance does not show substantive adequacy, escalation, enforcement, remedy, or whether the sender's problem was resolved.",
+      "subgroup": "Members of the public, consumers, and businesses contacting the CMA; no demographic or outcome-linked denominator is published.",
+      "counterinterpretation": "More correspondence can reflect improved awareness, worsening market conditions, or easier reporting rather than increased harm. A timely administrative reply can coexist with no practical change.",
+      "source_url": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2025-to-2026/annual-report-and-accounts-2025-to-2026",
+      "retrieval_hash": "sha256:6b97e28d77cb6d345df8739458d1f3834365749e27ebc00da1ed96002d95b3a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/cma-cases/automobile-association-developments-limited-consumer-protection-enforcement-case", "claim": "CMA case page for the AA and BSM driving-school booking-fee investigation and final infringement notice.", "status": "official-primary"},
+    {"source_url": "https://www.gov.uk/guidance/getting-money-back-if-the-cma-orders-refunds-or-compensation", "claim": "Official guidance on how CMA-ordered refunds or compensation are returned to consumers.", "status": "official-method-context"}
+  ],
+  "boundary": "This record adds a UK regulator-side consumer-recourse and digital-market enforcement layer. It does not establish population-wide harm, individual refund receipt, remedy adequacy, durable compliance, affordability, switching, trust repair, or causal household welfare effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK CMA annual-report HTML reviewed for impact metrics, direct-redress case outcomes, advisory-letter behavior change, and correspondence handling.",
+    "html_locator_sha256": "sha256:6b97e28d77cb6d345df8739458d1f3834365749e27ebc00da1ed96002d95b3a1",
+    "checked": "2026-09-30"
+  }
+}

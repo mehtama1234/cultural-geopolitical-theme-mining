@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-conference-board-consumer-confidence-september-2026-current-expectations-spending",
+  "title": "Consumer pessimism is splitting across current conditions, future expectations and planned spending",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "The Conference Board, US Consumer Confidence Fell in September, September 29, 2026",
+  "geography": "United States; consumers in the monthly Conference Board Consumer Confidence Survey",
+  "observations": [
+    {
+      "period": "September 1–23, 2026 preliminary survey; headline confidence and current/future conditions",
+      "denominator": {"value": 1, "unit": "U.S. online consumer-confidence survey respondents; public release does not state the monthly n", "value_type": "published_survey_frame"},
+      "measures": {
+        "consumer_confidence_index": {"value": 81.9, "unit": "1985=100 index, down 6.7 points from 88.6 in August", "value_type": "reported_index"},
+        "present_situation_index": {"value": 109.3, "unit": "index, down 7.9 points", "value_type": "reported_index"},
+        "expectations_index": {"value": 63.6, "unit": "index, down 5.9 points; third consecutive monthly decline", "value_type": "reported_index"},
+        "mechanism": {"value": "Consumer sentiment contains multiple clocks: lived assessment of present conditions and anticipatory judgment about the next six months can weaken together but need not translate one-for-one into actual spending", "unit": "bounded household-expectations mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "The Conference Board monthly Consumer Confidence Survey; September preliminary results were collected online by Toluna during September 1–23, 2026, with the release reporting index movements and question-level balances but not the monthly sample size on the public page.",
+      "uncertainty": "Confidence indexes are survey measures, not direct household income, consumption, debt, employment or welfare outcomes; the September field window includes contemporaneous rate and geopolitical events, and the public release does not establish causal attribution to any one shock.",
+      "subgroup": "U.S. consumers by age, income, generation and political affiliation; the release reports directional subgroup patterns but not all subgroup sample sizes or microdata.",
+      "counterinterpretation": "A lower confidence index can coexist with continued purchases, precautionary saving, substitution toward necessities, or optimism in selected categories; sentiment should not be treated as a direct demand forecast.",
+      "source_url": "https://www.conference-board.org/topics/consumer-confidence/index.cfm",
+      "retrieval_hash": "sha256:69728a7e5673a654e380012817decdbceceb0f3c1358d038f880354958aee623",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; price, rates, household-finance and labor expectations",
+      "denominator": {"value": 1, "unit": "same published survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "average_inflation_expectations": {"value": 6.1, "unit": "percent average 12-month inflation expectation, up 0.3 percentage points", "value_type": "reported_expectation"},
+        "median_inflation_expectations": {"value": 5.1, "unit": "percent median 12-month inflation expectation, up 0.3 percentage points", "value_type": "reported_expectation"},
+        "higher_interest_rate_expectation": {"value": 68.4, "unit": "percent anticipating higher interest rates over the next 12 months, up 5.2 percentage points", "value_type": "reported_share"},
+        "family_current_finances": {"value": "Net views of families' current financial situations turned negative as the share saying finances were bad overtook the share saying good", "unit": "reported balance direction", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Price and rate expectations can narrow household room before an observed spending collapse, shifting decisions toward precaution, necessity and substitution", "unit": "bounded household-room mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Published Conference Board question-level results from the September 2026 survey, including inflation, rate, family-finance and labor-market expectations.",
+      "uncertainty": "Expected inflation and rates are perceptions, not realized prices or borrowing costs; the release does not identify which households cut consumption, borrow, save, delay or switch providers.",
+      "subgroup": "Households differentiated by income, age, generation, debt, tenure, employment, geography and exposure to fuel or trade prices; the public release provides only partial subgroup detail.",
+      "counterinterpretation": "Higher inflation expectations may reflect salient media or geopolitical news without becoming realized household burden; some households may have buffers that protect spending despite pessimistic expectations.",
+      "source_url": "https://www.conference-board.org/topics/consumer-confidence/index.cfm",
+      "retrieval_hash": "sha256:69728a7e5673a654e380012817decdbceceb0f3c1358d038f880354958aee623",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; intended goods, services, travel and political-economic attribution",
+      "denominator": {"value": 1, "unit": "same published survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "planned_service_spending": {"value": "Planned spending on many discretionary services moderated, while restaurants/take-out, streaming/internet/mobile services, beauty/personal care, utilities and healthcare remained among the top categories", "unit": "reported planned-spending pattern", "value_type": "reported_pattern"},
+        "vacation_plans": {"value": 42.6, "unit": "percent planning a vacation in the next six months, up 0.5 percentage points; increase was limited to domestic travel", "value_type": "reported_share"},
+        "planned_goods": {"value": "Six-month plans to purchase autos and homes declined slightly; furniture and smartphones remained leading durable categories, while refrigerators and TVs saw the largest declines", "unit": "reported planned-purchase pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Households may preserve selected restorative or necessary activities while deferring high-cost, durable or internationally exposed purchases; the resulting basket is a political and firm-level signal as well as a budget response", "unit": "bounded consumption-allocation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Conference Board release summarizing intended purchases, service spending and travel plans in the September survey.",
+      "uncertainty": "Intentions are not realized transactions, and the source does not measure product prices, substitution, credit use, service quality, household stress, firm revenue or political attribution.",
+      "subgroup": "Consumers by income, age, region, travel exposure, household composition and financial buffer; the release does not provide the full cross-tabulation.",
+      "counterinterpretation": "Travel plans and selected services may reflect pre-committed spending or category-specific value rather than general resilience; planned cuts may not occur if conditions change.",
+      "source_url": "https://www.conference-board.org/topics/consumer-confidence/index.cfm",
+      "retrieval_hash": "sha256:69728a7e5673a654e380012817decdbceceb0f3c1358d038f880354958aee623",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.conference-board.org/topics/consumer-confidence/index.cfm", "claim": "Official September 2026 release with confidence indexes, survey window, expectations, inflation/rate measures, planned purchases, services and travel intentions."}
+  ],
+  "boundary": "This record identifies a multi-clock consumer-expectations and household-room subtheme. It does not establish realized spending, causal effects of geopolitics, inflation or interest rates, household-level distribution, firm revenue, debt behavior, welfare, or political accountability; the public release also does not state the monthly sample size.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Conference Board consumer-confidence page was reviewed for the September 29, 2026 update, September 1–23 survey window, confidence and component indexes, inflation and rate expectations, household-finance direction, planned purchases, services and travel plans, and online Toluna methodology.",
+    "source_page_sha256": "sha256:69728a7e5673a654e380012817decdbceceb0f3c1358d038f880354958aee623",
+    "checked": "2026-09-29"
+  }
+}

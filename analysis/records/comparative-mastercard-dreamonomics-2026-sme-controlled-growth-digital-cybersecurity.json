@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mastercard-dreamonomics-2026-sme-controlled-growth-digital-cybersecurity",
+  "title": "Small-business growth is being redefined as controlled momentum under cost, uncertainty, and digital-fragmentation pressure",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "Mastercard-sponsored Hypothesis survey of more than 6,000 small and medium-sized businesses across 18 countries, with regional comparisons and report synthesis",
+  "geography": "United States, Latin America, Europe, Middle East and Africa, and Asia Pacific; small and medium-sized businesses across 18 countries",
+  "observations": [
+    {
+      "period": "2026 survey and report",
+      "denominator": {"value": 6000, "unit": "SMEs surveyed across 18 countries; reported as more than 6,000", "value_type": "reported_lower_bound"},
+      "measures": {
+        "stability_preference": {"value": "68% prioritize stability and predictability over fast growth", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "risk_avoidance": {"value": "54% avoid unnecessary financial risk", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "relationship_depth": {"value": "61% prefer deep customer relationships over maximum reach", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "interpretation": {"value": "The report frames the desired growth model as controlled momentum: resilience, purpose, and durable relationships matter alongside expansion", "unit": "report interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "The report summarizes a cross-country SME survey and interprets responses about growth preferences, risk, customer relationships, and business purpose.",
+      "uncertainty": "The report does not provide the full questionnaire, sampling frame, response rates, weighting, or country-by-country base sizes in the committed extraction. The sponsor's framing may influence question selection and interpretation.",
+      "subgroup": "Results vary by region, firm size, sector, and business model; microbusinesses report greater exposure to revenue volatility and rising costs in the report's comparisons.",
+      "counterinterpretation": "A preference for stability may reflect prudent operational discipline, temporary macroeconomic conditions, or survey wording rather than a durable rejection of ambitious growth.",
+      "source_url": "https://www.mastercard.com/content/mccom/global/en/news-and-trends/featured-topic/small-business-featured-topic.html",
+      "retrieval_hash": "sha256:0d57127f348cb4a4e9d7b46747cd26fc7ade9676083b330c47077bc0e5428578",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey and report",
+      "denominator": {"value": 6000, "unit": "SMEs surveyed across 18 countries; reported as more than 6,000", "value_type": "reported_lower_bound"},
+      "measures": {
+        "rising_costs": {"value": "54% identify rising costs as a business challenge, increasing to 63% among microbusinesses", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "economic_uncertainty": {"value": "49% identify economic uncertainty as a challenge", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "revenue_volatility": {"value": "44% identify revenue volatility as a challenge, increasing to 51% among microbusinesses", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "infrastructure_response": {"value": "Real-time payments, visibility, and integrated financial tools are presented as ways to reduce uncertainty and increase control", "unit": "report interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "The report combines survey responses on business pressures with a descriptive account of payments and financial-management tools that could address those pressures.",
+      "uncertainty": "The survey shows perceived pressures, not audited financial outcomes. The report does not establish that real-time payments or integrated tools cause stronger growth, lower costs, or better survival.",
+      "subgroup": "Microbusinesses report higher cost and revenue-volatility exposure than the overall SME sample; pressures also differ by region and sector.",
+      "counterinterpretation": "Tool adoption may follow from stronger firms' resources and capabilities, so observed interest or use can be a marker of capacity rather than an independent solution.",
+      "source_url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/september/mastercard-s-dreamonomics-report-finds-small-business-owners-are.html",
+      "retrieval_hash": "sha256:0d57127f348cb4a4e9d7b46747cd26fc7ade9676083b330c47077bc0e5428578",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey and report",
+      "denominator": {"value": 6000, "unit": "SMEs surveyed across 18 countries; reported as more than 6,000", "value_type": "reported_lower_bound"},
+      "measures": {
+        "digital_tool_load": {"value": "SMEs use five digital tools on average; 89% want more tools and 78% say integrated tools are critical", "unit": "reported average and shares of surveyed SMEs", "value_type": "reported_share"},
+        "cybersecurity_gap": {"value": "71% prioritize cyber protection, while 37% currently use cybersecurity tools", "unit": "shares of surveyed SMEs", "value_type": "reported_share"},
+        "ai_interest": {"value": "70% are excited about AI potential, with fraud and security among the leading interests", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "interpretation": {"value": "Cybersecurity and integration are framed as growth infrastructure rather than optional back-office enhancements", "unit": "report interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "The report compares current tool use with desired capabilities and asks about priorities and interest in cybersecurity, AI, and integrated business systems.",
+      "uncertainty": "The figures are self-reported and do not specify tool definitions, security maturity, implementation quality, or whether AI interest translates into deployment or measurable business outcomes.",
+      "subgroup": "Digital capability and security adoption likely vary with firm size, sector, region, technical skill, and access to affordable providers; the report gives selected regional contrasts but not a complete causal model.",
+      "counterinterpretation": "More tools can increase complexity and dependency if integration, interoperability, training, or vendor recourse are weak; stated demand does not guarantee that products solve the underlying problem.",
+      "source_url": "https://www.mastercard.com/content/mccom/global/en/news-and-trends/featured-topic/small-business-featured-topic.html",
+      "retrieval_hash": "sha256:0d57127f348cb4a4e9d7b46747cd26fc7ade9676083b330c47077bc0e5428578",
+      "status": "reported"
+    },
+    {
+      "period": "2026 regional comparisons",
+      "denominator": {"value": 6000, "unit": "SMEs surveyed across 18 countries; reported as more than 6,000", "value_type": "reported_lower_bound"},
+      "measures": {
+        "latin_america": {"value": "74% in Latin America prioritize stability over speed; the figure reaches 76% in Brazil and Argentina", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "europe_asia_pacific": {"value": "67% in Europe and 63% in Asia Pacific prioritize work that supports health, relationships, and personal life", "unit": "share of surveyed SMEs", "value_type": "reported_share"},
+        "middle_east_africa": {"value": "43% in the Middle East and Africa use AI or machine-learning automation, 42% use cyber tools, 15% use crypto, and 8% use stablecoins", "unit": "shares of surveyed SMEs", "value_type": "reported_share"},
+        "interpretation": {"value": "The same controlled-growth pattern is locally expressed through different combinations of stability, wellbeing, automation, and financial-infrastructure priorities", "unit": "comparative interpretation", "value_type": "inferred"}
+      },
+      "method": "The report presents regional and selected-country comparisons from the cross-country SME survey.",
+      "uncertainty": "Regional comparisons may reflect different country mixes, sector structures, sample sizes, economic conditions, and response styles. The report does not provide enough detail to infer representative regional prevalence or causal cultural differences.",
+      "subgroup": "The contrasts are especially sensitive to country composition and to differences between microbusinesses, SMEs, and more digitally capable firms.",
+      "counterinterpretation": "Regional variation may be driven more by payment infrastructure, regulation, market structure, or survey access than by broad cultural values; the report's cultural interpretation should therefore remain provisional.",
+      "source_url": "https://www.mastercard.com/content/mccom/global/en/news-and-trends/featured-topic/small-business-featured-topic.html",
+      "retrieval_hash": "sha256:0d57127f348cb4a4e9d7b46747cd26fc7ade9676083b330c47077bc0e5428578",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/insights/2026/dreamonomics-report/Mastercard_Dreamonomics_Report.pdf", "claim": "The official report provides the cross-country SME survey, regional comparisons, tool-use figures, cybersecurity findings, and controlled-momentum framing.", "status": "official-report"}
+  ],
+  "boundary": "This record adds a global firm-side and business-infrastructure pathway linking uncertainty, controlled growth, digital fragmentation, cybersecurity, and regional variation. It does not measure audited SME performance, survival, employment, household incidence, or causal effects of Mastercard or any specific tool.",
+  "retrieval_hash": "sha256:0d57127f348cb4a4e9d7b46747cd26fc7ade9676083b330c47077bc0e5428578"
+}

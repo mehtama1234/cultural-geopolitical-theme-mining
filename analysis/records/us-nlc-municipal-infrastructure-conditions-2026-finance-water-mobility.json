@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility",
+  "title": "Municipal infrastructure pressure is becoming a local-fiscal and workforce-capacity problem",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining"
+  ],
+  "source_unit": "National League of Cities Municipal Infrastructure Conditions 2026 Survey and report",
+  "geography": "United States; cities, towns, and villages responding to the NLC municipal infrastructure survey",
+  "observations": [
+    {
+      "period": "2026; municipal infrastructure finance",
+      "denominator": {"value": 100, "unit": "municipal tax-revenue and city-reliance context", "value_type": "reported_finance_frame"},
+      "measures": {
+        "property_tax_share": {"value": 60, "unit": "percent of municipal tax revenue represented by property taxes", "value_type": "reported_share"},
+        "city_property_tax_reliance": {"value": 90, "unit": "approximate percent of cities relying on property taxes as a foundation of local infrastructure finance", "value_type": "reported_share"},
+        "finance_shift": {"value": "surveyed municipalities increasingly rely on local cash-based funding compared with the more balanced borrowing and own-source mix reported in 2022", "unit": "reported financing trend", "value_type": "reported_pattern"},
+        "fiscal_context": {"value": "infrastructure investments compete with essential daily services amid rising costs, workforce shortages, and shifting funding landscapes", "unit": "reported municipal constraint", "value_type": "reported_context"}
+      },
+      "method": "NLC Municipal Infrastructure Conditions survey comparison and report synthesis of municipal finance strategies.",
+      "uncertainty": "The survey is not a census of all municipalities, property-tax reliance is a broad context measure, and the report does not estimate infrastructure funding gaps or service outcomes for residents.",
+      "subgroup": "Municipal governments, property-tax bases, infrastructure users, local taxpayers, and communities with different fiscal capacity.",
+      "counterinterpretation": "Cash-based financing can reflect fiscal caution, healthy reserves, or a preference to avoid debt; it does not by itself demonstrate underinvestment or deterioration.",
+      "source_url": "https://www.nlc.org/resource/municipal-infrastructure-conditions-report-2026/",
+      "retrieval_hash": "sha256:fa62872bf9843a6ee64f27320f9119bb5e1bb84a1854d0820c1d7c4a5baae2aa",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; conditions and capital priorities",
+      "denominator": {"value": 64, "unit": "municipalities in the 2026 MIC survey source frame for reported asset conditions and priorities", "value_type": "survey_frame"},
+      "measures": {
+        "core_priority_systems": {"value": "streets, water, sewer, stormwater, and water-treatment systems remain leading capital priorities", "unit": "reported municipal priority pattern", "value_type": "reported_pattern"},
+        "lower_priority_systems": {"value": "public buildings, parking facilities, broadband, and public transit remain lower priorities for many surveyed municipalities", "unit": "reported municipal priority pattern", "value_type": "reported_pattern"},
+        "condition_pattern": {"value": "some asset types stabilized or improved slightly while others showed increasing strain", "unit": "reported cross-category condition pattern", "value_type": "reported_pattern"},
+        "federal_investment_effect": {"value": "recent federal investments improved municipalities’ ability to assess and understand system needs but did not eliminate underlying challenges", "unit": "reported institutional effect", "value_type": "reported_assessment"}
+      },
+      "method": "NLC 2026 MIC survey ratings of 11 infrastructure categories and comparison with 2022 priorities and conditions.",
+      "uncertainty": "The survey frame is small and self-reported; the source does not provide a nationally weighted infrastructure-condition score or prove that funding caused condition changes.",
+      "subgroup": "Municipal streets, water, sewer, stormwater, treatment, public buildings, broadband, transit, and parking systems.",
+      "counterinterpretation": "Lower priority does not mean no investment; municipalities may be sequencing projects according to immediate safety, legal, or service risks.",
+      "source_url": "https://www.nlc.org/resource/municipal-infrastructure-conditions-report-2026/",
+      "retrieval_hash": "sha256:fa62872bf9843a6ee64f27320f9119bb5e1bb84a1854d0820c1d7c4a5baae2aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; determinants of municipal capital decisions",
+      "denominator": {"value": 70, "unit": "municipal respondents in the 2026 capital-decision factor comparison", "value_type": "survey_frame"},
+      "measures": {
+        "dominant_factor": {"value": "funding availability remains the single most important reported influence on infrastructure investment", "unit": "reported decision factor", "value_type": "reported_pattern"},
+        "other_factors": {"value": "staff capacity, strategic plans, and elected officials’ priorities also shape which projects move forward and how quickly", "unit": "reported decision factors", "value_type": "reported_pattern"},
+        "year_comparison": {"value": "2026 factor patterns are compared with 2022 municipal conditions data; differences are not statistically significant in the source's figure note because of small sizes", "unit": "comparison limitation", "value_type": "reported_limitation"}
+      },
+      "method": "NLC comparison of 2022 and 2026 municipal survey responses on factors influencing capital decisions.",
+      "uncertainty": "Small survey sizes and non-significant year differences limit trend precision; reported influence does not identify the causal weight of funding, staffing, planning, or politics.",
+      "subgroup": "Municipal finance officials, public-works staff, city managers, engineers, elected officials, and communities awaiting capital projects.",
+      "counterinterpretation": "Staff and elected priorities can improve project selection and democratic accountability; the report identifies constraints and influences, not maladministration.",
+      "source_url": "https://www.nlc.org/resource/municipal-infrastructure-conditions-report-2026/",
+      "retrieval_hash": "sha256:fa62872bf9843a6ee64f27320f9119bb5e1bb84a1854d0820c1d7c4a5baae2aa",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2026; federal infrastructure grants and local implementation capacity",
+      "denominator": {"value": 1600, "unit": "cities reported by NLC as having secured federal infrastructure funding", "value_type": "reported_count_frame"},
+      "measures": {
+        "secured_funding": {"value": 12.7, "unit": "billion dollars in federal infrastructure funding secured by more than 1,600 cities", "value_type": "reported_amount"},
+        "grant_alignment": {"value": "federal grants have been particularly valuable for transportation and water infrastructure", "unit": "reported sector pattern", "value_type": "reported_pattern"},
+        "implementation_requirement": {"value": "local capacity to pursue and administer grants is part of whether federal infrastructure resources can be leveraged", "unit": "reported institutional implication", "value_type": "reported_mechanism"}
+      },
+      "method": "NLC report synthesis referencing its Rebuilding Together analysis of municipal federal infrastructure awards.",
+      "uncertainty": "Secured funding is not completed construction, improved service, or equitable distribution; the count and amount are NLC-reported and do not establish national coverage.",
+      "subgroup": "Cities receiving or pursuing federal transportation and water grants, smaller municipalities, local staff, and residents served by funded systems.",
+      "counterinterpretation": "Federal grants can materially expand local capacity and leverage local investment even when projects take years to complete; implementation delay does not negate eventual benefit.",
+      "source_url": "https://www.nlc.org/resource/municipal-infrastructure-conditions-report-2026/",
+      "retrieval_hash": "sha256:fa62872bf9843a6ee64f27320f9119bb5e1bb84a1854d0820c1d7c4a5baae2aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nlc.org/wp-content/uploads/2025/06/Municipal-Infrastructure-Conditions-Report-2025-Final.pdf", "claim": "NLC's 2025 MIC report supplies an earlier municipal infrastructure comparison frame; it is retained as a separate source because the 2026 survey frame and findings differ.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a municipal infrastructure and finance route linking aging assets, water and mobility priorities, local revenue, workforce capacity, federal grants, and public-service reliability. It is a self-reported municipal survey and report synthesis, not a national engineering audit, resident-outcome study, or causal evaluation of federal infrastructure policy.",
+  "retrieval_hash": "sha256:fa62872bf9843a6ee64f27320f9119bb5e1bb84a1854d0820c1d7c4a5baae2aa"
+}

@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-circle-young-independents-financial-strain-political-efficacy-2026",
+  "title": "Young political independence is often a resource and efficacy gap, not only an ideological position",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "platforms_data_attention"
+  ],
+  "source_unit": "CIRCLE, Young Independents: Diverse, Disaffected, and Doubtful of their Vote's Power, September 24, 2026",
+  "geography": "United States; adults ages 18–29, with analysis of young independents, party identifiers, race/ethnicity, gender and college experience",
+  "observations": [
+    {
+      "period": "2026 pre-election survey; young adults ages 18–29",
+      "denominator": {"value": 5549, "unit": "national U.S. survey respondents ages 18–29", "value_type": "reported_survey_sample"},
+      "measures": {
+        "independent_share": {"value": 43, "unit": "percent of youth saying they do not identify as Democrat or Republican; 22% are described as true independents who do not lean either way", "value_type": "reported_share"},
+        "financial_struggle": {"value": 69, "unit": "percent of young independents saying they are struggling financially", "value_type": "reported_share"},
+        "life_dissatisfaction": {"value": 44, "unit": "percent of young independents saying they are somewhat or very dissatisfied with their lives", "value_type": "reported_share"},
+        "mechanism": {"value": "Political nonalignment can reflect material strain and low institutional efficacy as much as ideological distance from both parties", "unit": "bounded participation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CIRCLE analysis of a joint CIRCLE–When We All Vote 30-question survey fielded by Embold Research to 5,549 U.S. adults ages 18–29 from January 26 to February 12, 2026, with oversamples of Black and Latino Gen Z adults and a modeled margin of error of plus or minus 2.5%.",
+      "uncertainty": "The survey is cross-sectional and observational; reported financial struggle and dissatisfaction are not established as causes of party nonalignment or participation.",
+      "subgroup": "Young independents, including youth of color, young women, LGBTQ youth, youth with and without college experience, and respondents with different party-leaning definitions.",
+      "counterinterpretation": "Some independents may be politically engaged, ideologically autonomous or mobilized outside party structures; low average participation does not describe every independent respondent.",
+      "source_url": "https://circle.tufts.edu/latest-research/young-independents-diverse-disaffected-and-doubtful-their-votes-power",
+      "retrieval_hash": "sha256:82a30f86daab337dcd053ca887417084336deb6d41b01dc706b21344c7ac0755",
+      "status": "reported"
+    },
+    {
+      "period": "2026 midterm intention; young independents compared with party-identified youth",
+      "denominator": {"value": 1, "unit": "young independent respondents in the CIRCLE analysis", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "vote_likelihood": {"value": 38, "unit": "percent of young independents saying they are extremely likely to vote, compared with 56% of all youth", "value_type": "reported_share"},
+        "vote_efficacy": {"value": 37, "unit": "percent of young independents saying they believe their vote matters", "value_type": "reported_share"},
+        "participation_gap": {"value": "Young independents are less likely to translate shared issue concern into electoral action than party-affiliated youth", "unit": "reported comparative pattern", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Issue salience alone does not produce participation when people doubt that institutions, candidates or their own vote can convert concern into change", "unit": "bounded efficacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CIRCLE subgroup comparison of self-reported 2026 voting likelihood, vote efficacy and political participation by party identification.",
+      "uncertainty": "Voting intention is not turnout; the comparison does not identify which institutional, informational or material intervention would change behavior.",
+      "subgroup": "Young independents compared with young Democrats and Republicans, including differences by race/ethnicity, gender and college experience.",
+      "counterinterpretation": "Some nonparticipation may represent deliberate rejection of electoral politics rather than remediable lack of efficacy, and participation may occur through non-electoral civic channels.",
+      "source_url": "https://circle.tufts.edu/latest-research/young-independents-diverse-disaffected-and-doubtful-their-votes-power",
+      "retrieval_hash": "sha256:82a30f86daab337dcd053ca887417084336deb6d41b01dc706b21344c7ac0755",
+      "status": "reported"
+    },
+    {
+      "period": "2026 issue priorities and routes to engagement",
+      "denominator": {"value": 1, "unit": "young independent respondents reporting political concerns and participation barriers", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "top_issue_cluster": {"value": "cost of living/inflation, healthcare, housing and jobs are the four top issues for young independents", "unit": "reported issue ranking", "value_type": "reported_pattern"},
+        "nonparticipation": {"value": 19, "unit": "percent saying they do not participate in politics because they are not interested; 16% say they might participate if politics were different", "value_type": "reported_share"},
+        "information_route": {"value": "Young independents appear less plugged into traditional news and more likely to rely on relationships for political information, with some greater use of YouTube, Facebook and TikTok than party peers", "unit": "reported media pattern", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Effective civic outreach must connect material issues to trusted relational channels and visible local results, not only partisan persuasion or generic voter information", "unit": "bounded engagement mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CIRCLE analysis of reported issue priorities, reasons for nonparticipation, political-information sources and motivators for increased engagement.",
+      "uncertainty": "The source does not test outreach interventions, causal media effects, turnout outcomes or whether relationship-based information is more accurate or trusted.",
+      "subgroup": "Young independents across racial/ethnic, gender and education groups, including AAPI, Black and Latino youth with different issue priorities and engagement barriers.",
+      "counterinterpretation": "Relational information channels can broaden participation but may also be fragmented, politically insulated or uneven in factual quality; the survey does not evaluate content quality.",
+      "source_url": "https://circle.tufts.edu/latest-research/young-independents-diverse-disaffected-and-doubtful-their-votes-power",
+      "retrieval_hash": "sha256:82a30f86daab337dcd053ca887417084336deb6d41b01dc706b21344c7ac0755",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://circle.tufts.edu/latest-research/young-independents-diverse-disaffected-and-doubtful-their-votes-power", "claim": "Official CIRCLE analysis with subgroup definitions, survey method, financial struggle, vote likelihood, efficacy, issue priorities, participation barriers and media-information patterns."},
+    {"source_url": "https://circle.tufts.edu/latest-research/50-million-genzs-power-priorities-and-participation", "claim": "CIRCLE and When We All Vote source survey context and full youth report."}
+  ],
+  "boundary": "This record identifies a young-independent civic participation, material strain, political-efficacy and relational-information subtheme. It does not establish causal effects of financial hardship, party nonalignment, media use or outreach; it does not measure actual turnout, non-electoral participation, institutional responsiveness or intervention effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official CIRCLE analysis page was reviewed for the September 24, 2026 date, subgroup definitions, sample and field dates, financial struggle and dissatisfaction, vote likelihood and efficacy, issue priorities, nonparticipation reasons and information-source patterns.",
+    "source_url_sha256": "sha256:82a30f86daab337dcd053ca887417084336deb6d41b01dc706b21344c7ac0755",
+    "checked": "2026-09-29"
+  }
+}

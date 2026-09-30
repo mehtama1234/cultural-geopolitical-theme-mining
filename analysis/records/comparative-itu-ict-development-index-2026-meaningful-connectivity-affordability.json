@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-ict-development-index-2026-meaningful-connectivity-affordability",
+  "title": "Connectivity is progressing globally, but affordability, usage, and network quality continue to divide digital participation",
+  "theme_ids": ["voice", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Telecommunication Union, Measuring Digital Development: The ICT Development Index 2026",
+  "geography": "159 economies compared on universal and meaningful connectivity, affordability, Internet use, and quality of connectivity",
+  "observations": [
+    {
+      "period": "2026; global ICT Development Index coverage",
+      "denominator": {"value": 159, "unit": "economies covered by the ICT Development Index 2026", "value_type": "economy_comparison_frame"},
+      "measures": {
+        "global_progress": {"value": "the global average ICT Development Index score increased again", "unit": "ITU index assessment", "value_type": "reported_change"},
+        "strongest_improvement": {"value": "the strongest improvements were recorded in low- and lower-middle-income economies", "unit": "ITU comparative assessment", "value_type": "reported_pattern"},
+        "meaningful_connectivity": {"value": "the index tracks progress toward universal and meaningful connectivity rather than access alone", "unit": "ITU index framework", "value_type": "reported_framework"}
+      },
+      "method": "ITU composite-index comparison of connectivity and digital-development indicators across 159 economies.",
+      "uncertainty": "An index average can improve while individual countries, groups, or dimensions stagnate; it does not measure every user's quality of experience, safety, or ability to convert access into welfare.",
+      "subgroup": "Low- and lower-middle-income economies, rural and remote communities, households facing affordability barriers, workers, students, and public-service users.",
+      "counterinterpretation": "Average progress can reflect genuine diffusion of infrastructure and skills, while remaining compatible with persistent local exclusion and unequal service quality.",
+      "source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026",
+      "retrieval_hash": "sha256:4706707185a57ddb6943f6c97465f3ec8482adfc275e794a965045952957545c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; affordability and Internet use divide",
+      "denominator": {"value": 1, "unit": "economy-level affordability, Internet-use, and connectivity-access indicators", "value_type": "digital_affordability_frame"},
+      "measures": {
+        "affordability_gap": {"value": "significant disparities persist in affordability", "unit": "ITU report synthesis", "value_type": "reported_gap"},
+        "internet_use_gap": {"value": "significant disparities persist in Internet use", "unit": "ITU report synthesis", "value_type": "reported_gap"},
+        "conversion_problem": {"value": "nominal coverage does not automatically become meaningful participation when prices, devices, skills, or service conditions restrict use", "unit": "ITU framework and program synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "ITU analysis of digital-development dimensions including access, affordability, usage, and quality.",
+      "uncertainty": "Economy-level disparities do not identify household budgets, individual use motives, or causal effects of price changes on education, work, health, or political participation.",
+      "subgroup": "Low-income households, women and girls, rural residents, persons with disabilities, students, migrants, and small firms.",
+      "counterinterpretation": "Affordability constraints can be offset by public access, shared devices, community networks, competition, subsidies, or falling prices, though those routes may vary in reliability and privacy.",
+      "source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026",
+      "retrieval_hash": "sha256:4706707185a57ddb6943f6c97465f3ec8482adfc275e794a965045952957545c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; quality of connectivity and digital agency",
+      "denominator": {"value": 1, "unit": "economy-level network quality, service reliability, and meaningful-connectivity frame", "value_type": "connectivity_quality_frame"},
+      "measures": {
+        "quality_gap": {"value": "significant disparities persist in the quality of connectivity", "unit": "ITU report synthesis", "value_type": "reported_gap"},
+        "quality_to_agency": {"value": "network quality shapes whether connectivity supports education, work, public services, communication, and cultural participation", "unit": "program mechanism", "value_type": "reported_framework"},
+        "infrastructure_dependence": {"value": "digital participation depends on networks, devices, electricity, affordability, skills, and institutional service design", "unit": "cross-source analytical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ITU composite measurement and comparative interpretation of connectivity quality and meaningful-use conditions.",
+      "uncertainty": "The index does not establish causal effects of network quality on individual outcomes or separate all dimensions of reliability, latency, privacy, safety, and resilience.",
+      "subgroup": "Remote communities, public institutions, digital workers, students, businesses, people dependent on online services, and areas exposed to outages or disaster.",
+      "counterinterpretation": "Lower-quality connections can still provide high-value access for some uses, and local innovation or offline complements can reduce dependence on premium networks.",
+      "source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026",
+      "retrieval_hash": "sha256:4706707185a57ddb6943f6c97465f3ec8482adfc275e794a965045952957545c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital participation and institutional systems",
+      "denominator": {"value": 1, "unit": "digital connectivity, platform participation, public services, work, and cultural-life frame", "value_type": "digital_systems_frame"},
+      "measures": {
+        "participation_surface": {"value": "meaningful connectivity expands the surface through which people work, learn, consume, organize, access services, and maintain social ties", "unit": "program synthesis", "value_type": "reported_framework"},
+        "risk_surface": {"value": "expanded connectivity also increases exposure to platform dependence, data extraction, misinformation, exclusion, and attention competition", "unit": "program synthesis", "value_type": "reported_mechanism"},
+        "policy_question": {"value": "the open policy question is whether digital development produces agency and public capacity rather than access without control", "unit": "program synthesis", "value_type": "open_question"}
+      },
+      "method": "Program-level synthesis connecting ITU connectivity dimensions to platform, work, consumer, cultural, and public-service themes.",
+      "uncertainty": "This is an analytical bridge, not a causal estimate from the ITU index; it does not claim that connectivity automatically improves welfare, trust, or political voice.",
+      "subgroup": "Internet users and non-users, households, workers, firms, platform operators, governments, schools, health systems, and cultural organizations.",
+      "counterinterpretation": "Connectivity can enable mutual aid, public accountability, local enterprise, cultural exchange, and service access when governance and user control are strong.",
+      "source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026",
+      "retrieval_hash": "sha256:4706707185a57ddb6943f6c97465f3ec8482adfc275e794a965045952957545c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/itu-d/reports/statistics/facts-figures-2025/", "claim": "ITU Facts and Figures provides complementary global indicators on Internet use, access, and digital divides."},
+    {"source_url": "https://www.itu.int/itu-d/reports/statistics/world-telecommunication-ict-indicators-database/", "claim": "ITU ICT indicators provide the underlying comparative statistical context for digital-development measurement."}
+  ],
+  "boundary": "This record adds a global digital-infrastructure, affordability, quality, platform-participation, and institutional-capacity route. It uses an economy-level composite index and report synthesis, not respondent-level Internet diaries, individual transaction data, causal welfare estimates, or proof that connectivity automatically creates agency.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ITU ICT Development Index 2026 materials were reviewed for 159-economy coverage, global-average progress, low- and lower-middle-income improvement, and persistent affordability, Internet-use, and connectivity-quality disparities.",
+    "source_url_sha256": "sha256:4706707185a57ddb6943f6c97465f3ec8482adfc275e794a965045952957545c",
+    "checked": "2026-09-26"
+  }
+}

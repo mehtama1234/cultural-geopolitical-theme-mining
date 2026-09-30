@@ -1,0 +1,149 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-la-county-fire-rebuilding-dashboard-2026",
+  "title": "Public rebuilding operations expose conversion from wildfire damage into permits and construction stages, while household recovery remains unobserved",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Los Angeles County 2025 Fire Rebuilding Power BI public dashboard; model schema, aggregate measures, and construction-stage query results",
+  "geography": "Los Angeles County fire-rebuilding dashboard; default public dashboard scope, with unincorporated damaged/destroyed measures and fire-area filters where exposed",
+  "observations": [
+    {
+      "period": "Model refreshed September 29, 2026 at 21:27:25 UTC; queried September 30, 2026 UTC",
+      "denominator": {"value": 1, "unit": "public Power BI semantic model", "value_type": "administrative_dashboard_model"},
+      "measures": {
+        "model_name": {"value": "2025 Fire Permitting Progress Dashboard", "unit": "public model label", "value_type": "reported_metadata"},
+        "last_refresh": {"value": "2026-09-29T21:27:25.553Z", "unit": "UTC timestamp", "value_type": "reported_metadata"},
+        "model_entities": {"value": "Fire Area; Parcels and Units; Applications, Permits and Zoning Review Count; Permit Turnaround; Construction Stages; Applications, Issuance and Completions", "unit": "schema entities", "value_type": "machine_readable_schema"}
+      },
+      "method": "Retrieved the public Power BI semantic-model schema and models/exploration metadata, then queried the published aggregate visuals through the public querydata endpoint. No address, permit number, or respondent-level field was extracted into this record.",
+      "uncertainty": "The dashboard's refresh time, default filters, revision history, geographic scope, and measure definitions control interpretation. A model refresh is not proof that every underlying property has current status or that categories are mutually exclusive.",
+      "subgroup": "Public dashboard model and its published administrative measures.",
+      "counterinterpretation": "A rich public operational dashboard can improve visibility without creating a longitudinal household panel; its counts can reflect workflow status rather than completed recovery.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "dashboard_html:sha256:0de04bcbe5db25d5c7d67e8b03514f117ab0cb80df60353a592962299bcb8575;models:sha256:fe3a8a6bbcb7e4d1d004a8f28627209385e6d0ae394c5369f6ee003bc63f67df;schema:sha256:3f9528146874e38e35eb9d1e9dcc7a26eacde6c4e91b2a7ff2d8f9c410bdff0c",
+      "related_source_url": "https://file.lacounty.gov/SDSInter/dpw/recovery/1203584_2025FireRebuildingMetricDefinitions.pdf",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard refresh September 29, 2026; default aggregate card",
+      "denominator": {"value": 1, "unit": "unincorporated damaged/destroyed-unit estimate in the public dashboard", "value_type": "dashboard_measure"},
+      "measures": {
+        "damaged_destroyed_units_unincorporated": {"value": 7417, "unit": "estimated units", "value_type": "published_dashboard_measure"},
+        "damaged_destroyed_parcels_unincorporated": {"value": 6571, "unit": "estimated parcels", "value_type": "published_dashboard_measure"}
+      },
+      "method": "Power BI aggregate card measures named Damaged/Destroyed Properties (UA) and Damaged/Destroyed Parcels (UA).",
+      "uncertainty": "These are dashboard estimates and do not establish unique households, insurance status, claim filing, loss severity, displacement duration, or rebuild eligibility.",
+      "subgroup": "Unincorporated-area properties and units within the dashboard's published damage universe.",
+      "counterinterpretation": "Units and parcels are not interchangeable: multi-unit properties, accessory structures, and property classification can make counts diverge without implying different household experiences.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "dashboard_html:sha256:0de04bcbe5db25d5c7d67e8b03514f117ab0cb80df60353a592962299bcb8575;models:sha256:fe3a8a6bbcb7e4d1d004a8f28627209385e6d0ae394c5369f6ee003bc63f67df;schema:sha256:3f9528146874e38e35eb9d1e9dcc7a26eacde6c4e91b2a7ff2d8f9c410bdff0c",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard refresh September 29, 2026; construction-stage aggregate",
+      "denominator": {"value": 1752, "unit": "records across published construction stages for Eaton and Palisades dashboard scope", "value_type": "dashboard_stage_total"},
+      "measures": {
+        "pre_construction": {"value": 69, "unit": "stage records", "value_type": "published_dashboard_measure"},
+        "early_inspection_location_setbacks": {"value": 706, "unit": "stage records", "value_type": "published_dashboard_measure"},
+        "framing": {"value": 401, "unit": "stage records", "value_type": "published_dashboard_measure"},
+        "exterior_lath_insulation_drywall": {"value": 329, "unit": "stage records", "value_type": "published_dashboard_measure"},
+        "exterior_utilities_connections": {"value": 19, "unit": "stage records", "value_type": "published_dashboard_measure"},
+        "final_inspection": {"value": 25, "unit": "stage records", "value_type": "published_dashboard_measure"},
+        "permit_finaled_or_ready_for_certificate": {"value": 203, "unit": "stage records", "value_type": "published_dashboard_measure"}
+      },
+      "method": "Power BI Construction Stages table query with the published non-null stage filter; the displayed stage counts sum to 1,752.",
+      "uncertainty": "A stage record is not necessarily a unique property or household, and a finaled/ready stage is not proof of occupancy, affordability, insurance payment, or safe return.",
+      "subgroup": "Published construction-stage records in the dashboard scope.",
+      "counterinterpretation": "The stage distribution may represent the current visible workflow rather than all damaged properties; unobserved repairs, private rebuilding, delayed permits, and properties outside the dashboard can be substantial.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "dashboard_html:sha256:0de04bcbe5db25d5c7d67e8b03514f117ab0cb80df60353a592962299bcb8575;models:sha256:fe3a8a6bbcb7e4d1d004a8f28627209385e6d0ae394c5369f6ee003bc63f67df;schema:sha256:3f9528146874e38e35eb9d1e9dcc7a26eacde6c4e91b2a7ff2d8f9c410bdff0c",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard refresh September 29, 2026; permit-type stage cards",
+      "denominator": {"value": 1, "unit": "published permit-type stage-card set", "value_type": "dashboard_measure_set"},
+      "measures": {
+        "single_family_residence": {"value": "2,229 issued / 1,702 in construction / 161 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "multifamily_residence": {"value": "4 issued / 3 in construction / 0 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "accessory_dwelling_unit_detached": {"value": "347 issued / 223 in construction / 42 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "single_family_with_attached_adu": {"value": "672 issued / 471 in construction / 14 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "non_residential": {"value": "6 issued / 0 in construction / 0 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "accessory_structure": {"value": "449 issued / 298 in construction / 66 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "repair_only": {"value": "77 issued / 41 in construction / 25 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "miscellaneous": {"value": "27 issued / 22 in construction / 3 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"},
+        "mixed_use": {"value": "0 issued / 0 in construction / 0 completed", "unit": "dashboard stage string", "value_type": "published_dashboard_measure"}
+      },
+      "method": "Power BI permit-type measure queries for published issued/in-construction/completed strings.",
+      "uncertainty": "The cards are measure outputs, not a common-denominator property ledger. The record does not infer completion rates by dividing categories because issued, construction, and completed measures may have distinct universes and timing.",
+      "subgroup": "Published permit categories in the dashboard scope.",
+      "counterinterpretation": "A low completed count may reflect construction timing, inspection scheduling, reporting lag, or category definitions rather than failed recovery.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "dashboard_html:sha256:0de04bcbe5db25d5c7d67e8b03514f117ab0cb80df60353a592962299bcb8575;models:sha256:fe3a8a6bbcb7e4d1d004a8f28627209385e6d0ae394c5369f6ee003bc63f67df;schema:sha256:3f9528146874e38e35eb9d1e9dcc7a26eacde6c4e91b2a7ff2d8f9c410bdff0c",
+      "status": "reported"
+    },
+    {
+      "period": "Dashboard refresh September 29, 2026; administrative throughput and waiting measures",
+      "denominator": {"value": 1, "unit": "published dashboard throughput and turnaround measure set", "value_type": "dashboard_measure_set"},
+      "measures": {
+        "applications_received": {"value": 4052, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "zoning_reviews_cleared": {"value": 3786, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "full_building_plans_received": {"value": 3402, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "building_plans_approved": {"value": 4160, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "building_permits_issued": {"value": 3811, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "new_residential_in_construction": {"value": 2396, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "new_residential_construction_completed": {"value": 217, "unit": "dashboard count", "value_type": "published_dashboard_measure"},
+        "average_business_days_with_applicant": {"value": 128.75, "unit": "business days", "value_type": "published_dashboard_measure"},
+        "average_business_days_county_review": {"value": 30.75, "unit": "business days", "value_type": "published_dashboard_measure"},
+        "average_business_days_to_permit_issuance": {"value": 159.5, "unit": "business days", "value_type": "published_dashboard_measure"}
+      },
+      "method": "Power BI category visual 943427878 and turnaround visuals 943427819, 943427851, 943427832, and 943427881; aggregate published measure queries only, with no address or permit-level rows extracted.",
+      "uncertainty": "These categories and stages have distinct universes and timing. The counts cannot be chained as a funnel or used to calculate a completion rate. The waiting measures describe administrative workflow time, not household time burden or displacement duration.",
+      "subgroup": "Published dashboard scope; fire-area filters and default scope must be preserved when reproducing the measures.",
+      "counterinterpretation": "Higher cleared, issued, or completed counts can coexist with unequal access, insurance or payment delays, contractor scarcity, and continued household displacement.",
+      "source_url": "https://recovery.lacounty.gov/rebuilding/permitting-progress-dashboard/",
+      "retrieval_hash": "dashboard_html:sha256:0de04bcbe5db25d5c7d67e8b03514f117ab0cb80df60353a592962299bcb8575;models:sha256:fe3a8a6bbcb7e4d1d004a8f28627209385e6d0ae394c5369f6ee003bc63f67df;schema:sha256:3f9528146874e38e35eb9d1e9dcc7a26eacde6c4e91b2a7ff2d8f9c410bdff0c",
+      "status": "reported"
+    },
+    {
+      "period": "June 8, 2026; Los Angeles County DEO/LAEDC third economic update on the Eaton and Palisades wildfire recovery",
+      "denominator": {"value": 1, "unit": "official county recovery update using rebuilding, occupancy, mobility, labor, vacancy, and local-spending indicators", "value_type": "multi_indicator_recovery_update"},
+      "measures": {
+        "destroyed_structures_with_rebuild_permits": {"value": 26.7, "unit": "percent of destroyed structures", "value_type": "county_reported_share"},
+        "destroyed_structures_completed_and_occupancy_approved": {"value": 0.47, "unit": "percent of destroyed structures", "value_type": "county_reported_share"},
+        "average_days_application_to_permit": {"value": 79, "unit": "days", "value_type": "county_reported_average"},
+        "metro_ridership_change": {"value": -17.7, "unit": "percent versus adjusted pre-fire baseline, first quarter 2026", "value_type": "county_reported_change"},
+        "annual_localized_spending_loss_palisades": {"value": 79000000, "unit": "US dollars estimated annual local spending loss", "value_type": "county_reported_estimate"},
+        "annual_localized_spending_loss_eaton": {"value": 73600000, "unit": "US dollars estimated annual local spending loss", "value_type": "county_reported_estimate"},
+        "survivors_exhausted_or_nearing_displacement_assistance": {"value": 38, "unit": "percent of survivors", "value_type": "county_reported_share"}
+      },
+      "method": "Los Angeles County Department of Economic Opportunity and LAEDC economic update combining USPS vacancy, rebuilding permit and certificate-of-occupancy data, employment and job-posting data, transit ridership, and localized spending and service indicators.",
+      "uncertainty": "The update combines indicators with different denominators, dates, and geographic coverage. Its destroyed-structure and survivor shares are not a linked household panel; the source does not identify insurance payment adequacy, claim status, temporary housing by person, mortgage continuity, or whether a completed/occupancy-approved structure is occupied by the pre-fire household.",
+      "subgroup": "Eaton and Palisades fire-impacted communities in Los Angeles County; measures include destroyed structures, survivors, local transit, and fire-area economic indicators.",
+      "counterinterpretation": "Permit issuance and occupancy approval may reflect meaningful administrative progress, while the very low completion share and assistance exhaustion signal may reflect construction timing, insurance and financing constraints, contractor capacity, or measurement lag; the update alone cannot identify the binding mechanism for each household.",
+      "source_url": "https://lacounty.gov/2026/06/08/la-county-deo-and-laedc-release-latest-economic-update-on-the-2025-wildfire-recovery/",
+      "retrieval_hash": "sha256:fd0ec99af3a7a6cfc216e295da44a4f0e66c313ed93cd14950615232eb6afb75",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://recovery.lacounty.gov/data-recovery-tools/", "claim": "LA County describes the wildfire impact dashboard as covering housing/displacement, workers/businesses, communities, and environmental conditions.", "status": "reported"},
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Wildfire-Claims-Tracker.cfm", "claim": "California DOI provides a separate aggregate claims and payment surface for the Eaton and Palisades fires.", "status": "related-source"},
+    {"source_url": "https://lacounty.gov/2026/06/08/la-county-deo-and-laedc-release-latest-economic-update-on-the-2025-wildfire-recovery/", "claim": "Los Angeles County DEO and LAEDC report rebuilding permits, occupancy approval, displacement-assistance exhaustion, transit, local spending, and labor-market indicators for the Eaton and Palisades recovery.", "status": "official-county-context"}
+  ],
+  "boundary": "This record adds a public administrative and multi-indicator recovery layer from damage estimates through permits, construction stages, occupancy approval, displacement-assistance pressure, mobility, and local economic function. It does not establish insurance payment, claim adequacy, repair completion at a named property, occupancy by the original household, temporary housing, mortgage continuity, household mobility, or durable recovery. Address and permit-number fields are present in the public schema but were intentionally not extracted here; county economic-update indicators remain separate denominators.",
+  "reproduction_audit": {
+    "checked": "2026-09-29",
+    "public_model_id": 839651,
+    "dashboard_model_name": "2025 Fire Permitting Progress Dashboard",
+    "query_timestamp": "2026-09-30T01:05:19Z",
+    "extraction_scope": "Aggregate visual queries plus one official county economic-update observation; no address-level, permit-number, or respondent-level output",
+    "status": "reproduced from public Power BI schema and querydata endpoint"
+  }
+}

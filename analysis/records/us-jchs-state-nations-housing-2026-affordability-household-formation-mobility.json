@@ -1,0 +1,112 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-jchs-state-nations-housing-2026-affordability-household-formation-mobility",
+  "title": "Housing costs are constraining household formation, mobility, and entry into stable place",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Harvard Joint Center for Housing Studies, The State of the Nation’s Housing 2026; national housing-market, Census, ACS, and administrative-source synthesis",
+  "geography": "United States; national and selected metro, income, tenure, age, race, and migration comparisons",
+  "observations": [
+    {
+      "period": "2020–2025; household formation and housing demand",
+      "denominator": {"value": 1.1, "unit": "million additional U.S. households in 2025", "value_type": "reported_count_millions"},
+      "measures": {
+        "household_growth_2020_2021": {"value": 2.0, "unit": "million households annually, average in 2020–2021", "value_type": "reported_average_millions"},
+        "household_growth_2025": {"value": 1.1, "unit": "million households", "value_type": "reported_count_millions"},
+        "young_adult_formation_constraint": {"value": "many young adults are doubling up or living with family rather than forming new households", "unit": "reported market interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "JCHS synthesis of household-growth, labor-market, student-debt, consumer-sentiment, and housing-demand evidence.",
+      "uncertainty": "The report describes population-level housing and household trends; it does not track the same young adults’ decisions or identify the causal contribution of each financial and labor-market factor.",
+      "subgroup": "Young adults and U.S. households; the household-growth figures are national totals.",
+      "counterinterpretation": "Household formation also reflects changing preferences, family support, education, partnership patterns, migration, and local housing supply—not affordability alone.",
+      "source_url": "https://www.jchs.harvard.edu/state-nations-housing-2026",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; residential and interstate mobility",
+      "denominator": {"value": 11.2, "unit": "percent of U.S. households that relocated in 2024", "value_type": "reported_share"},
+      "measures": {
+        "household_relocation_rate": {"value": 11.2, "unit": "percent in 2024, record low", "value_type": "reported_share"},
+        "homeowner_mobility": {"value": 5.1, "unit": "percent of homeowners moving in 2024; 5.5 percent in 2023", "value_type": "reported_comparison"},
+        "renter_mobility": {"value": 22.6, "unit": "percent of renters moving in 2024", "value_type": "reported_share"},
+        "migration_pattern": {"value": "interstate moves and gains in historically fast-growth states slowed; the Midwest recorded net inflows in 2025", "unit": "reported regional pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "JCHS analysis of American Community Survey mobility estimates and domestic-migration patterns.",
+      "uncertainty": "Mobility rates describe whether households moved, not whether they wanted to move, could afford to move, improved their situation, or experienced involuntary displacement.",
+      "subgroup": "U.S. households by tenure, with regional migration patterns reported separately.",
+      "counterinterpretation": "Low mobility can reflect satisfaction, aging, remote work, social ties, mortgage-rate lock-in, job conditions, or high transaction costs in addition to housing unaffordability.",
+      "source_url": "https://www.jchs.harvard.edu/state-nations-housing-2026",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2020–2026; homeownership entry and payment pressure",
+      "denominator": {"value": 100, "unit": "U.S. housing-market comparison base", "value_type": "reported_comparison_base"},
+      "measures": {
+        "home_price_change_since_2020": {"value": 54, "unit": "percent nationwide increase through early 2026", "value_type": "reported_change"},
+        "median_home_price_to_income": {"value": 5, "unit": "approximately five times median household income in 2025, versus 3.2 in the 1990s", "value_type": "reported_ratio"},
+        "median_home_payment": {"value": 2420, "unit": "U.S. dollars monthly for a median-priced home under stated financing assumptions in 2025", "value_type": "reported_payment"},
+        "under_35_homeownership": {"value": "37.0 percent in 2025; 39.0 percent in 2022", "unit": "share of households under age 35 owning a home", "value_type": "reported_comparison"},
+        "affordable_listings_under_75000_income": {"value": "23 percent in March 2026; 49 percent in March 2019", "unit": "listings affordable to a household earning $75,000 or less", "value_type": "reported_comparison"}
+      },
+      "method": "JCHS synthesis of national home prices, mortgage-payment calculations, homeownership rates, and listing affordability estimates.",
+      "uncertainty": "Payment affordability depends on down payment, interest rate, taxes, insurance, debt, household income, and metro location; listing affordability is not the same as successful purchase or access to credit.",
+      "subgroup": "Would-be buyers, especially younger adults and households with moderate incomes; racial homeownership gaps are also reported in the source.",
+      "counterinterpretation": "Home equity, household transfers, local prices, shared ownership, and non-market housing can buffer some households even as national entry conditions worsen.",
+      "source_url": "https://www.jchs.harvard.edu/state-nations-housing-2026",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2024; homeowner cost burden and insurance/energy exposure",
+      "denominator": {"value": 20.7, "unit": "million U.S. homeowner households in 2024", "value_type": "reported_count_millions"},
+      "measures": {
+        "homeowner_cost_burden": {"value": 24, "unit": "percent spending more than 30 percent of income on housing in 2024", "value_type": "reported_share"},
+        "severely_burdened_homeowners": {"value": 9.6, "unit": "million households spending more than half of income on housing", "value_type": "reported_count_millions"},
+        "property_tax_change": {"value": 31, "unit": "percent increase from 2019 to 2025", "value_type": "reported_change"},
+        "monthly_insurance_premium_change": {"value": 72, "unit": "percent increase from 2019 to 2025, reaching $201 average monthly premium", "value_type": "reported_change"},
+        "low_income_homeowner_burden": {"value": 75, "unit": "percent of homeowners earning under $30,000 who were cost burdened in 2024", "value_type": "reported_share"}
+      },
+      "method": "JCHS tabulations of ACS and cited mortgage, property-tax, energy, and insurance sources.",
+      "uncertainty": "Cost burden is a spending threshold, not a direct measure of housing quality, arrears, foreclosure, insurance adequacy, or health; sources are not a same-household longitudinal panel.",
+      "subgroup": "Homeowners overall and by income, age, race, and hazard-exposed market where reported.",
+      "counterinterpretation": "Home equity and fixed-rate debt can improve net wealth for some owners while non-mortgage costs create immediate budget pressure; national averages conceal large local differences.",
+      "source_url": "https://www.jchs.harvard.edu/state-nations-housing-2026",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2024; renter affordability and low-rent stock",
+      "denominator": {"value": 22.7, "unit": "million U.S. renter households in 2024", "value_type": "reported_count_millions"},
+      "measures": {
+        "renter_cost_burden": {"value": 49, "unit": "percent spending more than 30 percent of income on housing in 2024", "value_type": "reported_share"},
+        "severely_burdened_renters": {"value": 12.1, "unit": "million renter households spending more than half of income on housing", "value_type": "reported_count_millions"},
+        "cost_burden_change_since_2019": {"value": 2.3, "unit": "million additional cost-burdened renter households since 2019", "value_type": "reported_change_millions"},
+        "low_rent_units_under_1000": {"value": "down more than 30 percent, or more than 7 million units, from 2014 to 2024 in inflation-adjusted terms", "unit": "reported housing-stock change", "value_type": "reported_change"},
+        "extremely_low_income_supply": {"value": 35, "unit": "affordable and available rental units per 100 extremely low-income households in 2024", "value_type": "reported_ratio"},
+        "rental_assistance_reach": {"value": 1, "unit": "approximately one in four very low-income renter households receiving a housing subsidy", "value_type": "reported_ratio"}
+      },
+      "method": "JCHS tabulations of ACS, NLIHC, rental-market, and federal housing-assistance data.",
+      "uncertainty": "Cost burden and unit counts do not measure eviction, homelessness, skipped meals, delayed care, or whether a household receives informal support; affordability definitions vary by income and location.",
+      "subgroup": "Renter households, with emphasis on low- and extremely-low-income renters and historically disadvantaged racial groups.",
+      "counterinterpretation": "New supply, shared housing, vouchers, local protections, and household income changes can improve conditions for particular renters even while the national low-cost stock shrinks.",
+      "source_url": "https://www.jchs.harvard.edu/state-nations-housing-2026",
+      "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_The_State_of_the_Nations_Housing_2026_0.pdf", "claim": "Direct PDF of the 2026 report and its figures, tables, and methods notes.", "status": "primary-publication"},
+    {"source_url": "https://www.jchs.harvard.edu/press-releases/high-costs-and-slumping-demand-squeeze-housing-affordable-units-remain-short-supply", "claim": "JCHS release summarizing the report’s affordability, household-growth, and mobility findings.", "status": "publisher-summary"}
+  ],
+  "boundary": "This record identifies a national U.S. housing trend in which affordability pressure is constraining household formation, mobility, homeownership entry, and renter security. It does not establish a same-household causal pathway, individual housing histories, eviction or homelessness incidence, or that housing costs alone explain changing family structure or migration.",
+  "retrieval_hash": "sha256:e0f6a1bc85f3ba58d70a72976f2041f3902c943d9a7b65d1821aa1ecae93a201"
+}

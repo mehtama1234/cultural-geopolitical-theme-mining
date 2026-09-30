@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-accenture-consumer-pulse-2026-ai-agent-delegation-trust-16-countries",
+  "title": "Consumers are beginning to delegate shopping labor to AI agents while retaining control over purchases carrying identity, emotion, risk, or personal meaning",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Accenture Consumer Pulse Research 2026",
+  "geography": "Consumers in 16 countries: Australia, Brazil, Canada, Chile, China, France, Germany, India, Italy, Japan, Mexico, Spain, Sweden, United Arab Emirates, United Kingdom, and United States",
+  "observations": [
+    {
+      "period": "2026; Consumer Pulse Research fieldwork across 16 countries",
+      "denominator": {"value": 25590, "unit": "consumers surveyed across 16 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "agent_collaboration": {"value": 85, "unit": "percent of surveyed consumers reported as open to collaboration with an AI agent", "value_type": "reported_consumer_measure"},
+        "genai_discovery_active_users": {"value": "Gen AI is reported as the number-one discovery channel among active users", "unit": "reported discovery ranking", "value_type": "reported_comparison"},
+        "qualitative_interviews": {"value": 50, "unit": "qualitative interviews conducted in Brazil, Hong Kong, India, the United Kingdom, and the United States", "value_type": "reported_qualitative_sample"}
+      },
+      "method": "Accenture's seventh annual Consumer Pulse Research; the report states a representative sample of 25,590 consumers in 16 countries plus 50 qualitative interviews in five markets. Active AI users are defined in the report as people using generative AI tools at least weekly in personal and/or professional life.",
+      "uncertainty": "The report's representativeness is reported by Accenture; country-level weights, field dates, response rates, questionnaire details, and the distinction between personal and professional active use require the report's full methodology. Discovery-channel ranking does not establish purchases or welfare.",
+      "subgroup": "Consumers in 16 named markets, active generative-AI users, and qualitative participants in five markets.",
+      "counterinterpretation": "Openness to collaboration may describe willingness to experiment rather than sustained delegation; a discovery channel can influence consideration without controlling final choice, payment, or fulfillment.",
+      "source_url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy26/q4/Accenture-Consumer-Pulse-2026.pdf",
+      "retrieval_hash": "sha256:32f38802ee0c2035afdfebd1eb1ef0e4873a06bf6abbddcfa496dd4c69db2ac8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; delegation of routine and high-meaning consumer tasks",
+      "denominator": {"value": 25590, "unit": "surveyed consumers across 16 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "task_execution": {"value": 74, "unit": "percent reported as willing to instruct an AI agent to perform tasks such as negotiating deals, resolving complaints, renewing subscriptions, or reordering", "value_type": "reported_consumer_measure"},
+        "bounded_decision": {"value": 32, "unit": "percent reported as willing to ask an agent to make a purchase decision within defined boundaries", "value_type": "reported_consumer_measure"},
+        "autonomous_purchase": {"value": 9, "unit": "percent reported as open to fully autonomous shopping in the report's summary framing", "value_type": "reported_consumer_measure"},
+        "delegation_logic": {"value": "Consumers are described as delegating effort-heavy tasks while retaining choices carrying identity, emotion, risk, joy, or consequence", "unit": "reported behavioral interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Accenture survey measures and report interpretation of the delegation dial, from task execution to bounded decision-making and autonomous purchasing.",
+      "uncertainty": "These are stated intentions in a commercial research survey, not observed agent behavior; the public report's summary percentages may use different question bases or rounding, and willingness can vary by category, price, trust, and safeguards.",
+      "subgroup": "Consumers considering AI help for routine replenishment, services, lifestyle purchases, travel, negotiation, customer service, and payment-related tasks.",
+      "counterinterpretation": "Consumers may value assistance without wanting a persistent agent to infer preferences, transact, or represent them; apparent delegation can shift rather than eliminate consumer labor through verification and correction.",
+      "source_url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy26/q4/Accenture-Consumer-Pulse-2026.pdf",
+      "retrieval_hash": "sha256:32f38802ee0c2035afdfebd1eb1ef0e4873a06bf6abbddcfa496dd4c69db2ac8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust thresholds for consumer-facing AI agents",
+      "denominator": {"value": 25590, "unit": "surveyed consumers across 16 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "personal_agent_trust": {"value": 74, "unit": "percent reported as trusting a personal AI agent more than their best friend to make a purchase on their behalf", "value_type": "reported_consumer_measure"},
+        "daily_activity_delegation": {"value": 80, "unit": "percent reported as considering delegating at least one daily activity to a personal AI agent", "value_type": "reported_consumer_measure"},
+        "payment_autonomy": {"value": 12, "unit": "percent reported as open to agents making purchase decisions autonomously in the report's payment-hurdle discussion", "value_type": "reported_consumer_measure"},
+        "trust_requirements": {"value": "Data safeguards, configurable permissions, instant override, clear recourse, platform reputation, perceived neutrality, reasoning, and reliable personalized outcomes are identified as trust conditions", "unit": "reported trust requirement set", "value_type": "reported_mechanism"}
+      },
+      "method": "Accenture Consumer Pulse survey measures and report analysis of trust and safeguards across the consumer journey.",
+      "uncertainty": "Trust comparisons and autonomous-payment openness depend heavily on wording, context, and category; stated safeguards are requirements identified by the report, not evidence that deployed systems provide them or that consumers can enforce them.",
+      "subgroup": "Consumers evaluating AI agents for purchases, daily activities, payment, negotiation, customer service, subscriptions, and real-life interactions.",
+      "counterinterpretation": "High stated trust can coexist with low recourse, opaque ranking, privacy loss, biased recommendations, fraud exposure, and responsibility gaps when an agent acts on a consumer's behalf.",
+      "source_url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy26/q4/Accenture-Consumer-Pulse-2026.pdf",
+      "retrieval_hash": "sha256:32f38802ee0c2035afdfebd1eb1ef0e4873a06bf6abbddcfa496dd4c69db2ac8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; changing control points in the consumer journey",
+      "denominator": {"value": 1, "unit": "Accenture report's consumer-journey and agentic-ecosystem framework", "value_type": "reported_framework"},
+      "measures": {
+        "control_shift": {"value": "Control is described as moving across consumer intent, discovery, curation, choice, checkout, payment, fulfillment, loyalty, and post-purchase care among consumers, AI assistants, social platforms, search/device platforms, marketplaces, retailers, brands, payment providers, and delivery systems", "unit": "reported market-structure framework", "value_type": "reported_mechanism"},
+        "brand_visibility": {"value": "What agents can verify is framed as more likely to be recommended, while machine-unreadable claims, pricing, availability, policies, or proof points risk invisibility at the moment of choice", "unit": "reported firm-response implication", "value_type": "reported_implication"},
+        "meaning_boundary": {"value": "Consumers are described as staying close to choices carrying identity, emotion, risk, joy, or consequence while delegating complexity", "unit": "reported behavioral principle", "value_type": "reported_principle"}
+      },
+      "method": "Accenture's report framework linking survey findings to an agentic ecosystem and consumer-journey control-point analysis.",
+      "uncertainty": "This is a strategic interpretation, not an independently measured redistribution of market power; the framework does not establish which firms will control agent interfaces, data, payments, or recourse.",
+      "subgroup": "Consumers, AI-agent providers, platforms, retailers, brands, manufacturers, payment and identity providers, fulfillment networks, and regulators.",
+      "counterinterpretation": "Agentic commerce may reduce search friction for some consumers while concentrating gatekeeping, ranking, data access, and liability in intermediaries that consumers cannot readily contest or switch away from.",
+      "source_url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy26/q4/Accenture-Consumer-Pulse-2026.pdf",
+      "retrieval_hash": "sha256:32f38802ee0c2035afdfebd1eb1ef0e4873a06bf6abbddcfa496dd4c69db2ac8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cross-national consumer-AI signal on delegation, trust, safeguards, meaning, and shifting control points in commerce. It is based on Accenture's 2026 survey and strategic interpretation; it is not observed autonomous purchasing, a causal evaluation, a public-use respondent dataset, proof of equal access or recourse, or evidence that agentic commerce improves consumer welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Accenture Consumer Pulse Research 2026 PDF reviewed for sample scope, active-user definitions, delegation measures, trust and safeguards, payment autonomy, and agentic-ecosystem control-point framing.",
+    "source_url_sha256": "sha256:32f38802ee0c2035afdfebd1eb1ef0e4873a06bf6abbddcfa496dd4c69db2ac8",
+    "checked": "2026-09-27"
+  }
+}

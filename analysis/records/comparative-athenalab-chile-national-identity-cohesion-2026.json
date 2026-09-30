@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-athenalab-chile-national-identity-cohesion-2026",
+  "title": "National pride can remain strong while everyday cohesion and institutional legitimacy weaken",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "geopolitical_state_consequences", "public_systems_feedback", "housing_place_mobility", "care_health_reproduction"],
+  "source_unit": "AthenaLab, National Identity and Social Cohesion: Chile in Perspective",
+  "geography": "Chile; nationally representative adult survey fielded 30 July-16 August 2025 across 70 municipalities, plus qualitative interviews and grounded-theory analysis",
+  "observations": [
+    {
+      "period": "August 2025; interpersonal trust and institutional trust",
+      "denominator": {"value": 1000, "unit": "Chilean adults aged 18+ surveyed by CATI in 70 municipalities covering approximately 70% of the national population", "value_type": "published_survey_sample"},
+      "measures": {
+        "interpersonal_carefulness": {"value": 87, "unit": "percent saying one must be very careful when dealing with people", "value_type": "reported_survey_share"},
+        "most_people_trusted": {"value": 12, "unit": "percent saying most people can be trusted", "value_type": "reported_survey_share"},
+        "police_trust": {"value": 58, "unit": "percent reporting a lot or quite a bit of trust in police", "value_type": "reported_survey_share"},
+        "armed_forces_trust": {"value": 51, "unit": "percent reporting a lot or quite a bit of trust in the armed forces", "value_type": "reported_survey_share"},
+        "congress_low_trust": {"value": 93, "unit": "percent reporting little or no trust in Congress", "value_type": "reported_survey_share"},
+        "party_low_trust": {"value": 96, "unit": "percent reporting little or no trust in political parties", "value_type": "reported_survey_share"},
+        "institutional_asymmetry": {"value": "Trust is higher in order-and-security institutions than in representative political institutions", "unit": "reported institutional pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Descriptive weighted CATI survey of 1,000 adults, weighted by sex and age using Chilean statistical projections; the study also includes qualitative research that is not representative.",
+      "uncertainty": "Trust is self-reported and institution-specific; the survey is concentrated in municipalities covering about 70% of the population and does not establish causal sources of distrust.",
+      "subgroup": "Chilean adults, with institution-specific comparisons across police, armed forces, municipalities, executive, courts, Congress, and parties.",
+      "counterinterpretation": "Higher trust in security institutions may reflect different expectations or salience rather than a generalized preference for coercive authority over democracy.",
+      "source_url": "https://www.athenalab.org/wp-content/uploads/2026/09/National-identity-and-social-cohesion-09.2026.pdf",
+      "retrieval_hash": "sha256:aa8ec9e63c476ca515e6f9f0ad22397b4963fa4e03b35aff495f17e1743cf497",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025; national pride, division, and identity-state separation",
+      "denominator": {"value": 1000, "unit": "Chilean adults in the national survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "very_proud": {"value": 68, "unit": "percent rating pride in being Chilean at the maximum level", "value_type": "reported_survey_share"},
+        "more_divided": {"value": 89, "unit": "percent saying Chilean society is more divided than ten years ago", "value_type": "reported_survey_share"},
+        "high_polarisation": {"value": 88, "unit": "percent saying there is a high level of political polarisation", "value_type": "reported_survey_share"},
+        "identity_elements": {"value": 60, "unit": "percent naming culture, traditions, and customs among the two most representative elements of Chilean identity", "value_type": "reported_survey_share"},
+        "belonging_legitimacy_gap": {"value": "National identity retains emotional strength while the institutions organizing political life are viewed as weak or distant", "unit": "reported cross-domain pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "National survey with closed-ended measures of pride, perceived division, polarization, and identity content, supplemented by qualitative interpretation.",
+      "uncertainty": "The measures show coexistence, not a causal relationship between pride and institutional distrust; identity answers are sensitive to wording and current political context.",
+      "subgroup": "Chilean adults across political, territorial, and generational positions.",
+      "counterinterpretation": "High pride may itself be a form of political or cultural positioning, and perceived division may reflect heightened attention rather than greater interpersonal conflict.",
+      "source_url": "https://www.athenalab.org/wp-content/uploads/2026/09/National-identity-and-social-cohesion-09.2026.pdf",
+      "retrieval_hash": "sha256:aa8ec9e63c476ca515e6f9f0ad22397b4963fa4e03b35aff495f17e1743cf497",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025; territorial identity and migration perceptions",
+      "denominator": {"value": 1000, "unit": "Chilean adults in the national survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "regional_identity_distinct": {"value": 45, "unit": "percent saying their regional identity differs from national identity", "value_type": "reported_survey_share"},
+        "immigration_weakened_identity": {"value": 48, "unit": "percent saying foreign arrivals have weakened national identity", "value_type": "reported_survey_share"},
+        "immigration_strengthened_identity": {"value": 20, "unit": "percent saying foreign arrivals have strengthened national identity", "value_type": "reported_survey_share"},
+        "attitude_to_foreigners_divided": {"value": 58, "unit": "percent describing Chilean society as divided between inclusion and rejection of foreigners", "value_type": "reported_survey_share"},
+        "migration_identity_mechanism": {"value": "Migration simultaneously pressures an older national imaginary and creates a route toward plural identity, with everyday acceptance and public threat narratives coexisting", "unit": "reported interpretive mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey questions on regional identity, immigration and perceived effects on national identity, interpreted alongside qualitative interviews on everyday versus political reception.",
+      "uncertainty": "Perceived immigration effects are not measures of actual migration impacts, service use, crime, labor competition, or integration outcomes.",
+      "subgroup": "Residents identifying with regions and the nation; perceptions of Venezuelan, Haitian, Colombian, and other recent migration.",
+      "counterinterpretation": "Migration may be a proxy for broader insecurity, institutional failure, or political messaging rather than the direct cause of identity concern.",
+      "source_url": "https://www.athenalab.org/wp-content/uploads/2026/09/National-identity-and-social-cohesion-09.2026.pdf",
+      "retrieval_hash": "sha256:aa8ec9e63c476ca515e6f9f0ad22397b4963fa4e03b35aff495f17e1743cf497",
+      "status": "reported"
+    },
+    {
+      "period": "Qualitative study; crisis and everyday cohesion mechanisms",
+      "denominator": {"value": null, "unit": "Qualitative interview and grounded-theory material; participant count and sampling frame are not stated in the extracted publication section", "value_type": "not_disclosed"},
+      "measures": {
+        "episodic_cohesion": {"value": "Solidarity intensifies during earthquakes, fires, sporting victories, mass celebrations, and named humanitarian causes, then fades in ordinary life", "unit": "qualitative grounded-theory pattern", "value_type": "reported_mechanism"},
+        "face_and_name": {"value": "Concrete, personalized narratives activate cooperation more readily than abstract structural problems", "unit": "qualitative mechanism", "value_type": "reported_mechanism"},
+        "everyday_fragility": {"value": "Reactive unity does not automatically become durable social capital or continuous cooperation", "unit": "qualitative boundary", "value_type": "reported_pattern"},
+        "institutionalisation_route": {"value": "Civic education, inclusive migration policy, decentralization, and institutional reform are proposed as bridges from symbolic solidarity to everyday cohesion", "unit": "reported policy route", "value_type": "reported_proposal"}
+      },
+      "method": "Qualitative interviews and grounded-theory axial coding across categories including positive cultural traits, reactive unity, threats to cohesion, migration dynamics, and historical evolution.",
+      "uncertainty": "Qualitative findings provide mechanisms and interpretations, not population prevalence or causal effect sizes; participant selection and coding procedures limit generalization.",
+      "subgroup": "Interview participants describing family, territory, crisis solidarity, migration, political conflict, and institutional trust.",
+      "counterinterpretation": "Episodic solidarity may be a normal complement to everyday institutions rather than evidence that cohesion is structurally fragile.",
+      "source_url": "https://www.athenalab.org/wp-content/uploads/2026/09/National-identity-and-social-cohesion-09.2026.pdf",
+      "retrieval_hash": "sha256:aa8ec9e63c476ca515e6f9f0ad22397b4963fa4e03b35aff495f17e1743cf497",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.athenalab.org/noticias/2026/09/09/estudio-identidad-y-cohesion/", "claim": "AthenaLab study landing page describing theoretical, qualitative, interview, and national-survey components.", "status": "official-publication-page"},
+    {"source_url": "https://www.athenalab.org/noticias/2026/09/17/athenalab-presento-estudio-sobre-identidad-nacional-y-cohesion-social/", "claim": "AthenaLab event summary reporting headline findings and study context.", "status": "official-summary-page"}
+  ],
+  "boundary": "This record adds a nation-state cohesion mechanism: emotional national belonging can persist while interpersonal trust, representative-institution legitimacy, and everyday cooperation weaken; migration and crisis solidarity expose the boundary. It does not establish causal effects, actual integration outcomes, violence, service burden, or generalize beyond the Chilean study design.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official English AthenaLab PDF reviewed for methodology, survey denominator, trust measures, pride, division, polarization, regional identity, immigration perceptions, qualitative mechanisms, and study boundaries.",
+    "source_page_sha256": "sha256:aa8ec9e63c476ca515e6f9f0ad22397b4963fa4e03b35aff495f17e1743cf497",
+    "checked": "2026-09-28"
+  }
+}

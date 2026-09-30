@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-economics-health-for-all-2026-cross-sector-policy-finance",
+  "title": "Health is being reframed as an economic and political system outcome, not merely a sectoral cost",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "WHO, Draft strategy on the economics of health for all (2026–2030), A79/5 Add.1",
+  "geography": "Global Member State strategy framework for health, economic, social and environmental policy",
+  "observations": [
+    {
+      "period": "2026 draft strategy; global health and economic conditions",
+      "denominator": {"value": 1, "unit": "WHO global strategy document synthesizing global health, poverty, inequality and economic conditions", "value_type": "publication_unit"},
+      "measures": {
+        "essential_service_gap": {"value": "More than half the global population still lacks access to essential health services.", "unit": "reported global condition", "value_type": "reported_global_estimate"},
+        "out_of_pocket_hardship": {"value": 25, "unit": "approximately one in four people experiencing financial hardship due to out-of-pocket health costs", "value_type": "reported_global_estimate"},
+        "high_inequality_exposure": {"value": 20, "unit": "approximately one fifth of the world’s population living in countries with high inequality", "value_type": "reported_global_estimate"},
+        "structural_pressures": {"value": "Technology, debt and fiscal constraints, demographic change, urbanization, changing work and climate crisis shape health and well-being, especially for poorer and more vulnerable populations.", "unit": "reported systems-level drivers", "value_type": "reported_interpretation"}
+      },
+      "method": "WHO strategy framing drawing on global health, universal-coverage, poverty, inequality and macro-social evidence cited in the draft.",
+      "uncertainty": "The strategy is not a new harmonized dataset or causal estimate; headline global indicators come from cited sources with their own years, definitions and coverage limits.",
+      "subgroup": "People lacking essential services, households exposed to out-of-pocket costs, poorer and marginalized populations, and communities facing debt, climate, demographic or labor-market pressures.",
+      "counterinterpretation": "Global averages and broad structural framing can obscure differences in health systems, price levels, fiscal capacity, informal care and local political agency.",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_5Add1-en.pdf",
+      "retrieval_hash": "sha256:a104ab6eb868551660a62a2e90b9f70441122ca5d68d74bf37cbd2a5519f5155",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2030 draft strategy; health-for-all policy architecture",
+      "denominator": {"value": 1, "unit": "WHO proposed global strategic approach", "value_type": "publication_unit"},
+      "measures": {
+        "interdependence_frame": {"value": "Health and inclusive, sustainable economic development are treated as interdependent dimensions of societal progress rather than separate policy domains.", "unit": "reported strategy principle", "value_type": "reported_framework"},
+        "people_centered_economy": {"value": "The vision is an economy that serves and benefits from health for all; health systems are framed as essential investments for inclusive and resilient economies, not merely costs to contain.", "unit": "reported strategic vision", "value_type": "reported_framework"},
+        "whole_government_mission": {"value": "Economic policy, institutions and investment should be oriented toward joint benefits to health, health equity and prosperity across generations.", "unit": "reported policy objective", "value_type": "reported_policy_option"}
+      },
+      "method": "WHO draft strategy and five-direction framework for Member States, partners and the Secretariat.",
+      "uncertainty": "This is a proposed strategy and menu of indicative options, not an adopted global obligation, implementation record or evidence that reframing changes fiscal priorities.",
+      "subgroup": "Finance, health, labor, trade, industry, social-protection, environmental and central-government actors, plus communities affected by their decisions.",
+      "counterinterpretation": "Cross-sector framing can improve coordination but can also diffuse accountability if health impacts are everyone’s concern without a clear budget owner or enforceable standard.",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_5Add1-en.pdf",
+      "retrieval_hash": "sha256:a104ab6eb868551660a62a2e90b9f70441122ca5d68d74bf37cbd2a5519f5155",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2030 draft strategy; economic, commercial, labor and social-protection levers",
+      "denominator": {"value": 1, "unit": "WHO strategic direction and indicative Member State actions", "value_type": "publication_unit"},
+      "measures": {
+        "policy_levers": {"value": "The strategy identifies tax, trade, industrial, labor and social-protection policies as interconnected levers affecting health and health equity.", "unit": "reported policy-lever set", "value_type": "reported_framework"},
+        "commercial_practice_governance": {"value": "It calls for guidance on harmful commercial practices, conflicts of interest, private investment and financialization of healthcare delivery.", "unit": "reported governance option", "value_type": "reported_policy_option"},
+        "care_and_work": {"value": "It calls for decent work, protection of workers’ health, attention to mental-health hazards, health-workforce capacity, and recognition of unpaid family care work predominantly performed by women.", "unit": "reported labor and care policy route", "value_type": "reported_policy_option"},
+        "financial_protection": {"value": "Universal social protection and protection against health-related financial hardship are framed as central to social justice and inclusive growth.", "unit": "reported social-protection principle", "value_type": "reported_framework"}
+      },
+      "method": "WHO strategic directions and indicative policy actions covering economic policy, health investment, labor, commercial determinants and social protection.",
+      "uncertainty": "The document proposes policy directions without estimating effects by country, sector or household; commercial and financialization risks require specific implementation evidence.",
+      "subgroup": "Workers, unpaid carers, people experiencing poverty or exclusion, households facing medical costs, and populations exposed to harmful commercial practices.",
+      "counterinterpretation": "Health impact assessments, taxes or social protection can create trade-offs or unintended burdens if designed without distributional, behavioral and political feasibility analysis.",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_5Add1-en.pdf",
+      "retrieval_hash": "sha256:a104ab6eb868551660a62a2e90b9f70441122ca5d68d74bf37cbd2a5519f5155",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2030 draft strategy; participation, measurement, finance and implementation capacity",
+      "denominator": {"value": 1, "unit": "WHO proposed governance, financing, capacity and evidence framework", "value_type": "publication_unit"},
+      "measures": {
+        "social_participation": {"value": "People should actively participate in policy and investment decisions affecting their lives; inclusive and meaningful participation is linked to trust and responsiveness, especially for excluded communities.", "unit": "reported governance principle", "value_type": "reported_framework"},
+        "health_in_dashboards": {"value": "The strategy calls for health to be included in multidimensional progress dashboards and for health impact to enter strategic planning, expenditure frameworks and investment appraisal.", "unit": "reported measurement and budgeting option", "value_type": "reported_policy_option"},
+        "capacity_needs": {"value": "Implementation requires health economics, systems thinking, cross-sector collaboration, observatories, civil-service capability and dynamic institutions that can adapt, learn and coordinate.", "unit": "reported institutional-capacity need", "value_type": "reported_data_gap"},
+        "evidence_infrastructure": {"value": "The strategy proposes stronger data and digital infrastructure, secure and inclusive dashboards, cross-sector research, health-equity metrics and evidence on how economic policies affect health distribution.", "unit": "reported evidence agenda", "value_type": "reported_policy_option"}
+      },
+      "method": "WHO draft implementation, monitoring and reporting framework, including proposed 2028 and 2030 review points.",
+      "uncertainty": "Proposed dashboards, linked data and capacity-building do not guarantee privacy, local control, public accountability, policy uptake or improved health outcomes.",
+      "subgroup": "Communities, civil society, public institutions, researchers, finance and central-bank actors, and groups at higher risk or structural disadvantage.",
+      "counterinterpretation": "More integrated data can improve visibility while also increasing surveillance, bureaucratic burden or technocratic control if participation, privacy and remedy are weak.",
+      "source_url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_5Add1-en.pdf",
+      "retrieval_hash": "sha256:a104ab6eb868551660a62a2e90b9f70441122ca5d68d74bf37cbd2a5519f5155",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/health-topics/social-determinants-of-health", "claim": "WHO social-determinants context for the relationship between conditions of daily life, power, resources and health equity."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240074279", "claim": "WHO Council on the Economics of Health for All report context behind the draft strategy."}
+  ],
+  "boundary": "This record adds a health-as-economic-system layer: health outcomes and equity are connected to fiscal, tax, trade, industrial, labor, care, social-protection, commercial and environmental decisions, with participation and dashboards proposed as implementation infrastructure. It is a draft WHO strategy and global policy framework, not a causal evaluation, country implementation record, household panel or proof that cross-sector coordination improves health.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO World Health Assembly draft strategy was reviewed for global conditions, vision, principles, five strategic directions, economic and commercial levers, social protection, participation, dashboard and capacity proposals, and monitoring boundaries.",
+    "source_url_sha256": "sha256:a104ab6eb868551660a62a2e90b9f70441122ca5d68d74bf37cbd2a5519f5155",
+    "checked": "2026-09-27"
+  }
+}

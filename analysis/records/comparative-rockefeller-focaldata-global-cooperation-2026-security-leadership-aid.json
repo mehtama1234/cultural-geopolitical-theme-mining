@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-rockefeller-focaldata-global-cooperation-2026-security-leadership-aid",
+  "title": "Global publics feel the world worsening but still want cooperation that delivers security, aid and results",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Rockefeller Foundation and Focaldata, Seeking Security and Opportunity in a Stormy World: A 34-Country Survey",
+  "geography": "34 countries across wealthier and developing economies, with regional and country comparisons",
+  "observations": [
+    {
+      "period": "July 21-August 5, 2026 fieldwork; second annual wave reported September 2026",
+      "denominator": {"value": 35399, "unit": "adults surveyed across 34 countries; country samples 754-1338", "value_type": "survey_respondents"},
+      "measures": {
+        "world_pessimism": {"value": 69, "unit": "per cent saying the world has gotten worse over the past year", "value_type": "published_survey_estimate"},
+        "cooperation_support": {"value": 57, "unit": "per cent saying their country should cooperate on global challenges even if it means compromising some national interests, up from 55 per cent in 2025", "value_type": "published_change"},
+        "wealthier_developing_split": {"value": "Support rose from 55% to 61% in wealthier economies and fell from 55% to 53% in developing economies.", "unit": "country-group medians", "value_type": "published_group_comparison"},
+        "proof_requirement": {"value": "Around eight in ten would support international cooperation more if it proved it could solve problems at home or abroad.", "unit": "reported support condition", "value_type": "published_survey_estimate"}
+      },
+      "method": "Second-wave Focaldata nationally representative polls in 34 countries, weighted by age, gender, region, education, ethnicity and recent political vote where standard; country margins of error approximately plus or minus 2-4 percentage points.",
+      "uncertainty": "Global and economic-group figures are medians of country percentages, not pooled individual estimates; the survey measures attitudes toward cooperation and perceived effectiveness rather than actual international outcomes.",
+      "subgroup": "Publics in 17 wealthier and 17 developing economies, with country, regional and wave comparisons.",
+      "counterinterpretation": "Support for cooperation may be conditional or symbolic; pessimism about the world can coexist with a belief that national governments, not multilateral bodies, should deliver solutions.",
+      "source_url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/09/Seeking-Security-and-Opportunity-in-a-Stormy-World-34-Country-Survey-Report-Final.pdf",
+      "retrieval_hash": "sha256:9c470092365c70e86e4b624495829218ba132fe6ff5e29e45edeef1bb356c97e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; priorities for international cooperation",
+      "denominator": {"value": 35399, "unit": "adults surveyed across 34 countries", "value_type": "survey_respondents"},
+      "measures": {
+        "security_priority": {"value": "Preventing wars and conflicts ranks first in 21 of 34 countries and among the top two priorities in 33.", "unit": "country ranking distribution", "value_type": "published_survey_estimate"},
+        "wealthier_developing_priority": {"value": "A fair global economy ranks alongside security in developing economies but well behind in wealthier economies; wealthier publics place more weight on migration, while developing publics place more weight on humanitarian aid and reducing poverty.", "unit": "reported group priority comparison", "value_type": "published_group_comparison"},
+        "shared_issue_level": {"value": "Climate change, food and clean water, and democracy and human rights are each a top global issue for about a quarter of respondents across both groups.", "unit": "reported priority estimate", "value_type": "published_survey_estimate"},
+        "national_interest_condition": {"value": "In several countries where headline support fell, more respondents shifted toward viewing cooperation as important but not overriding national interests rather than rejecting cooperation outright.", "unit": "reported attitude shift", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-national priority-ranking and attitude questions in the Focaldata survey, with country-group and regional medians.",
+      "uncertainty": "Rankings compress multiple concerns and do not reveal how respondents would trade security against climate, migration, aid, poverty or economic interests in real policy decisions.",
+      "subgroup": "Respondents across wealthier and developing economies, with regional differences in security, migration, aid, poverty and economic priorities.",
+      "counterinterpretation": "Security-first preferences may create openings for cooperation, but they can also support militarization, border restriction or national protection rather than multilateral problem-solving.",
+      "source_url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/09/Seeking-Security-and-Opportunity-in-a-Stormy-World-34-Country-Survey-Report-Final.pdf",
+      "retrieval_hash": "sha256:9c470092365c70e86e4b624495829218ba132fe6ff5e29e45edeef1bb356c97e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; preferred global leadership architecture",
+      "denominator": {"value": 35399, "unit": "adults surveyed across 34 countries", "value_type": "survey_respondents"},
+      "measures": {
+        "us_leadership_comfort": {"value": 39, "unit": "per cent comfortable with the United States playing a leading role on the world stage", "value_type": "published_survey_estimate"},
+        "china_leadership_comfort": {"value": 37, "unit": "per cent comfortable with China playing a leading role on the world stage", "value_type": "published_survey_estimate"},
+        "middle_power_leadership": {"value": "Comfort is higher for Canada (60%), Japan (58%) and several European and Pacific countries scoring between 51% and 55%.", "unit": "reported country comparison", "value_type": "published_survey_estimate"},
+        "coalition_without_superpowers": {"value": 61, "unit": "per cent supporting a group of countries taking on global problems together even if it left out both the United States and China, versus 12 per cent opposed", "value_type": "published_survey_estimate"}
+      },
+      "method": "Cross-national questions on comfort with national leadership and support for a coalition architecture.",
+      "uncertainty": "Comfort with leadership is not a measure of influence, capability, alliance commitment or willingness to accept policy costs; country comparisons may reflect favorability and current geopolitics.",
+      "subgroup": "Publics across wealthier and developing countries, including views of the United States, China, Canada, Japan, Europe and coalitional leadership.",
+      "counterinterpretation": "A preference for coalitions without either superpower may reflect strategic hedging rather than a durable post-hegemonic order; publics may still rely on U.S. or Chinese capacity during crises.",
+      "source_url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/09/Seeking-Security-and-Opportunity-in-a-Stormy-World-34-Country-Survey-Report-Final.pdf",
+      "retrieval_hash": "sha256:9c470092365c70e86e4b624495829218ba132fe6ff5e29e45edeef1bb356c97e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; aid cuts and trust in international institutions",
+      "denominator": {"value": 35399, "unit": "adults surveyed across 34 countries", "value_type": "survey_respondents"},
+      "measures": {
+        "aid_reversal_support": {"value": "After being told that continued aid cuts could cause more than nine million additional deaths by 2030, majorities in all 34 countries favor reversing cuts or increasing aid; U.S. support is 61%.", "unit": "reported informed-attitude estimate", "value_type": "published_survey_estimate"},
+        "aid_argument": {"value": "Support draws on both moral responsibility and national interest, with national-interest framing more persuasive in nearly every country.", "unit": "reported message-test interpretation", "value_type": "reported_interpretation"},
+        "who_trusts_institutions": {"value": "All six tracked international bodies gained trust since 2025; WHO reached 69% and the UN 62%, while the World Bank, IMF and WTO moved from minority to majority trust.", "unit": "reported institutional-trust estimates", "value_type": "published_change"},
+        "effectiveness_gap": {"value": 50, "unit": "per cent saying global cooperation is working effectively, with 63% in developing economies versus 39% in wealthier economies", "value_type": "published_group_comparison"}
+      },
+      "method": "Survey experiment and institutional-trust questions in the 2026 Focaldata wave, including an information treatment about projected human costs of aid cuts.",
+      "uncertainty": "The aid result is sensitive to the information frame and does not predict actual budget behavior; institutional trust is an attitude measure, and reported increases do not prove improved delivery or legitimacy.",
+      "subgroup": "Publics across 34 countries, with wealthier/developing and country comparisons for aid, cooperation effectiveness and international institutions.",
+      "counterinterpretation": "People may support aid when presented with stark human costs but still oppose particular programs, delivery channels or spending levels; higher trust can be conditional on visible results.",
+      "source_url": "https://www.rockefellerfoundation.org/wp-content/uploads/2026/09/Seeking-Security-and-Opportunity-in-a-Stormy-World-34-Country-Survey-Report-Final.pdf",
+      "retrieval_hash": "sha256:9c470092365c70e86e4b624495829218ba132fe6ff5e29e45edeef1bb356c97e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.rockefellerfoundation.org/reports/seeking-security-and-opportunity-in-a-stormy-world-a-34-country-survey/", "claim": "Official Rockefeller Foundation report page and summary."},
+    {"source_url": "https://www.rockefellerfoundation.org/reports/demanding-results-global-views-on-international-cooperation/", "claim": "First-wave 2025 report used for the study's repeated-wave comparisons."}
+  ],
+  "boundary": "This record adds a public geopolitical-legitimacy layer: worsening world perceptions coexist with demand for cooperation, security, aid and demonstrable results, while leadership preference shifts toward coalitions and middle powers rather than automatic U.S. or Chinese primacy. It is a commissioned cross-national public-opinion survey with country medians and an information treatment, not observed foreign-policy behavior, aid allocation, institutional performance or causal geopolitical change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Rockefeller Foundation/Focaldata 2026 PDF was reviewed for sample design, pessimism, cooperation support and change from 2025, priority rankings, leadership preferences, aid information treatment, institutional trust and cooperation effectiveness comparisons.",
+    "source_url_sha256": "sha256:9c470092365c70e86e4b624495829218ba132fe6ff5e29e45edeef1bb356c97e",
+    "checked": "2026-09-27"
+  }
+}

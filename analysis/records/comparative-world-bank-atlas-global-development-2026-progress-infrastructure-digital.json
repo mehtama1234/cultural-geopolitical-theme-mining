@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-atlas-global-development-2026-progress-infrastructure-digital",
+  "title": "Global development progress is slowing unevenly as work, poverty, infrastructure, and digital access diverge by place",
+  "theme_ids": ["cost", "work", "energy", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Atlas of Global Development 2026",
+  "geography": "Global country comparisons across people, prosperity, planet, infrastructure, and digital transformation",
+  "observations": [
+    {
+      "period": "2026; progress across 26 development indicators",
+      "denominator": {"value": 26, "unit": "development indicators explored in the World Bank Atlas", "value_type": "indicator_set"},
+      "measures": {
+        "slowest_progress": {"value": 15, "unit": "indicators where progress is at its slowest on record", "value_type": "reported_summary"},
+        "progress_frame": {"value": "the Atlas tracks how quickly countries move toward better outcomes from their own starting points", "unit": "World Bank comparative framework", "value_type": "reported_method"},
+        "time_horizon": {"value": 75, "unit": "years of development progress tracked in the new framework", "value_type": "reported_scope"}
+      },
+      "method": "World Bank interactive data storytelling using cross-country indicators and historical development series.",
+      "uncertainty": "Indicator coverage, starting points, missing data, and aggregation affect comparisons; speed of progress does not establish a single cause or imply equal lived experience within countries.",
+      "subgroup": "Countries at different starting points, slower-progress regions, policymakers, households, workers, and communities facing stalled development outcomes.",
+      "counterinterpretation": "A slowdown in aggregate progress can coexist with rapid improvement in particular countries or domains, making differentiated policy and place-sensitive comparison important.",
+      "source_url": "https://data360.worldbank.org/en/atlas",
+      "retrieval_hash": "sha256:e8699ddde0c0e0e3a2d1892f16d17fac1c9c6c0222cf6b86e81e0e3065de2716",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gender, work, skills, and care",
+      "denominator": {"value": 1, "unit": "global working-age population and gender-work comparison frame", "value_type": "global_comparison_frame"},
+      "measures": {
+        "women_income_generating_work": {"value": 50, "unit": "approximate share of women engaged in income-generating work", "value_type": "reported_summary"},
+        "work_barriers": {"value": "women face persistent barriers to work, are more likely to be in vulnerable jobs, and earn lower wages", "unit": "World Bank Atlas synthesis", "value_type": "reported_finding"},
+        "care_burden": {"value": "women shoulder a disproportionate care burden", "unit": "World Bank Atlas synthesis", "value_type": "reported_finding"},
+        "skills_channel": {"value": "schooling and on-the-job learning both contribute to productivity and wages", "unit": "World Bank Atlas work-and-skills story", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-country development indicators and World Bank synthesis of gender, jobs, learning, productivity, and wages.",
+      "uncertainty": "The summary is not a causal estimate of care, education, or labor-market effects and does not identify individual work histories or within-household allocation.",
+      "subgroup": "Women, workers in vulnerable jobs, caregivers, young people, employers, and countries with large gender gaps in labor-market participation.",
+      "counterinterpretation": "Skills investment, care infrastructure, labor protections, and reduced barriers can change both participation and job quality; current gaps are not fixed outcomes.",
+      "source_url": "https://data360.worldbank.org/en/atlas",
+      "retrieval_hash": "sha256:e8699ddde0c0e0e3a2d1892f16d17fac1c9c6c0222cf6b86e81e0e3065de2716",
+      "status": "reported"
+    },
+    {
+      "period": "2026; poverty geography and prosperity divergence",
+      "denominator": {"value": 1, "unit": "global extreme-poverty and country-development comparison frame", "value_type": "poverty_geography_frame"},
+      "measures": {
+        "poor_in_stalled_countries": {"value": 50, "unit": "approximate share of the world's extreme poor living in countries where poverty increased over the past decade", "value_type": "reported_summary"},
+        "regional_gap": {"value": "the prosperity gap in sub-Saharan Africa is at a level comparable to the world in the 1980s, roughly four decades behind the global average", "unit": "World Bank comparative synthesis", "value_type": "reported_finding"},
+        "policy_route": {"value": "combining income growth with inequality reduction benefits everyone", "unit": "World Bank Atlas prosperity framing", "value_type": "reported_framework"}
+      },
+      "method": "World Bank cross-country poverty, prosperity, inequality, and historical development comparisons.",
+      "uncertainty": "Country-level aggregates conceal local mobility, household resources, informal economies, and differences in price levels and distribution; the comparison is not a household panel.",
+      "subgroup": "People in extreme poverty, residents of countries with rising poverty, sub-Saharan African communities, workers, and households with limited economic room.",
+      "counterinterpretation": "Place-based progress, redistribution, human-capital investment, and economic growth can jointly reduce poverty rather than forcing a choice between growth and equity.",
+      "source_url": "https://data360.worldbank.org/en/atlas",
+      "retrieval_hash": "sha256:e8699ddde0c0e0e3a2d1892f16d17fac1c9c6c0222cf6b86e81e0e3065de2716",
+      "status": "reported"
+    },
+    {
+      "period": "2026; water, electricity, and internet infrastructure",
+      "denominator": {"value": 1, "unit": "global infrastructure, service access, and digital inclusion frame", "value_type": "infrastructure_access_frame"},
+      "measures": {
+        "water_quality": {"value": 48, "unit": "countries with data, out of 94, facing water-quality challenges", "value_type": "reported_summary"},
+        "electricity_sub_saharan_africa": {"value": 50, "unit": "approximate share of people in sub-Saharan Africa living without electricity", "value_type": "reported_summary"},
+        "internet_nonuse": {"value": 25, "unit": "approximate share of people worldwide who do not use the Internet", "value_type": "reported_summary"},
+        "digital_divide": {"value": "lower-income countries face infrastructure and skills gaps in access to and exposure to artificial intelligence", "unit": "World Bank Atlas digital story", "value_type": "reported_finding"}
+      },
+      "method": "Cross-country infrastructure and digital-access indicators presented through the World Bank Atlas thematic stories.",
+      "uncertainty": "Access statistics do not fully measure reliability, affordability, quality, use, skills, or household-level control; country averages can hide rural and urban divides.",
+      "subgroup": "Rural communities, low-income countries, households without electricity or safe water, nonusers of the Internet, and workers exposed to digital skill gaps.",
+      "counterinterpretation": "Targeted infrastructure investment, affordability policy, maintenance, skills development, and public accountability can convert access expansion into usable capability.",
+      "source_url": "https://data360.worldbank.org/en/atlas",
+      "retrieval_hash": "sha256:e8699ddde0c0e0e3a2d1892f16d17fac1c9c6c0222cf6b86e81e0e3065de2716",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.worldbank.org/", "claim": "World Development Indicators provide the underlying global development indicator context."},
+    {"source_url": "https://data360.worldbank.org/", "claim": "World Bank Data360 provides the interactive data platform supporting the Atlas."}
+  ],
+  "boundary": "This record adds a cross-domain global-development, gender-work, poverty-geography, infrastructure-access, and digital-divide route. It uses World Bank indicator comparisons and report-level synthesis, not respondent-level records, individual income histories, household time diaries, causal infrastructure estimates, or proof that country-level progress translates evenly into lived experience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Atlas page reviewed for the five-theme framework, 26-indicator progress summary, 75-year comparison frame, gender and work, poverty geography, water quality, electricity, Internet use, and digital-gap findings.",
+    "source_url_sha256": "sha256:e8699ddde0c0e0e3a2d1892f16d17fac1c9c6c0222cf6b86e81e0e3065de2716",
+    "checked": "2026-09-26"
+  }
+}

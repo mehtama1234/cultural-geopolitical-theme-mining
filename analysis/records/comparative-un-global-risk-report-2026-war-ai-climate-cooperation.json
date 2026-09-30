@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-global-risk-report-2026-war-ai-climate-cooperation",
+  "title": "Global risk perception is moving toward imminent war and concentrated AI power while climate inaction remains the leading risk and cooperation remains the preferred response",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "United Nations Global Risk Report 2026",
+  "geography": "Global risk perceptions among 1,300 stakeholders across 155 countries; 28 risks assessed",
+  "observations": [
+    {
+      "period": "2026; global risk perception survey",
+      "denominator": {"value": 28, "unit": "global risks assessed in the UN Global Risk Report", "value_type": "risk_universe"},
+      "measures": {
+        "war_one_year": {"value": 36, "unit": "percent of surveyed stakeholders expecting large-scale war within one year", "value_type": "reported_risk_expectation"},
+        "political_risk_position": {"value": "Political risks moved to the center of the 2026 global risk landscape", "unit": "reported risk-perception shift", "value_type": "reported_pattern"},
+        "survey_frame": {"value": 1300, "unit": "stakeholders across 155 countries participating in the risk-perception survey", "value_type": "reported_survey_frame"}
+      },
+      "method": "United Nations global risk-perception survey and synthesis of stakeholder assessments across 28 risks.",
+      "uncertainty": "Risk perceptions are not forecasts, event probabilities, or measures of realized harm. The stakeholder frame is not representative of all people or countries, and question wording, timing, and geopolitical events can shift results.",
+      "subgroup": "Surveyed global stakeholders, governments, institutions, firms, civil society, communities exposed to conflict, and populations affected by cascading risks.",
+      "counterinterpretation": "Heightened perceived war risk can support earlier prevention, diplomacy, preparedness, and investment in resilience; perception may rise even when near-term conflict probability is uncertain.",
+      "source_url": "https://www.un.org/en/global-risk-report",
+      "retrieval_hash": "sha256:93051f991f6a4dbff2c81aea3eb4ecdf7852fa7a8d33dda17fcff832c994df28",
+      "status": "reported"
+    },
+    {
+      "period": "2026; technology and AI risk perceptions",
+      "denominator": {"value": 28, "unit": "global risks assessed in the UN Global Risk Report", "value_type": "risk_universe"},
+      "measures": {
+        "ai_power_concentration": {"value": "Concern about AI and frontier technologies, including concentration of power, rose sharply", "unit": "reported risk-perception change", "value_type": "reported_pattern"},
+        "technology_route": {"value": "Frontier-technology risk is being interpreted not only as misuse or malfunction but also as a question of who controls capability and decision power", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "dependency_implication": {"value": "AI concentration can become an infrastructure, institutional, and geopolitical dependency concern when access, standards, compute, data, or decision systems are controlled by a small number of actors", "unit": "cross-source analytical implication", "value_type": "derived_mechanism"}
+      },
+      "method": "UN synthesis of stakeholder assessments of AI and frontier-technology risks within the 2026 global risk framework.",
+      "uncertainty": "The report does not quantify concentration by firm, model, country, compute share, or deployment sector, and does not establish that perceived concentration produces a specific economic or political outcome.",
+      "subgroup": "Governments, technology firms, workers, public institutions, users, communities, researchers, and countries with different levels of digital and compute capacity.",
+      "counterinterpretation": "Concentrated capability can sometimes support safety investment, interoperability, and accountability if governed transparently; distributed capability can also create coordination and misuse challenges.",
+      "source_url": "https://www.un.org/en/global-risk-report",
+      "retrieval_hash": "sha256:93051f991f6a4dbff2c81aea3eb4ecdf7852fa7a8d33dda17fcff832c994df28",
+      "status": "reported"
+    },
+    {
+      "period": "2026; environmental risk perceptions",
+      "denominator": {"value": 28, "unit": "global risks assessed in the UN Global Risk Report", "value_type": "risk_universe"},
+      "measures": {
+        "climate_inaction_rank": {"value": 1, "unit": "rank of climate-change inaction among the 28 assessed risks", "value_type": "reported_risk_rank"},
+        "environmental_category": {"value": "Environmental risks remained highly salient even as the environmental category slightly decreased in perceived importance", "unit": "reported category pattern", "value_type": "reported_pattern"},
+        "risk_interaction": {"value": "Climate inaction sits alongside political, technological, and conflict risks rather than operating as an isolated environmental lane", "unit": "cross-risk interpretation", "value_type": "derived_mechanism"}
+      },
+      "method": "UN ranking and synthesis of stakeholder perceptions across environmental and non-environmental risks.",
+      "uncertainty": "Rankings describe perceived importance at the time of the survey; they do not measure emissions, physical exposure, adaptation outcomes, or the causal interaction among risks.",
+      "subgroup": "Climate-exposed communities, governments, firms, infrastructure operators, public systems, future generations, and populations with unequal adaptive capacity.",
+      "counterinterpretation": "A high climate-inaction ranking can help sustain policy attention, while the category-level decline may reflect competing crises rather than reduced climate hazard.",
+      "source_url": "https://www.un.org/en/global-risk-report",
+      "retrieval_hash": "sha256:93051f991f6a4dbff2c81aea3eb4ecdf7852fa7a8d33dda17fcff832c994df28",
+      "status": "reported"
+    },
+    {
+      "period": "2026; preferred response to global risks",
+      "denominator": {"value": 1300, "unit": "stakeholders participating in the UN global risk-perception survey", "value_type": "survey_frame"},
+      "measures": {
+        "joint_action": {"value": "Joint action between governments was perceived as the most effective response to global risks", "unit": "reported response preference", "value_type": "reported_preference"},
+        "cooperation_tension": {"value": "The report combines rising geopolitical risk with continued perceived value of cross-government cooperation", "unit": "reported tension", "value_type": "reported_pattern"},
+        "governance_route": {"value": "Risk management is framed as a coordination problem spanning governments, institutions, technology, climate, and security systems", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN stakeholder survey synthesis of preferred responses to the assessed global risks.",
+      "uncertainty": "Stated preference for joint action does not demonstrate institutional trust, willingness to incur costs, actual cooperation, or agreement on what action should be taken.",
+      "subgroup": "National governments, multilateral institutions, civil society, firms, experts, and publics affected by cross-border risks.",
+      "counterinterpretation": "Cooperation may be most effective for some global risks while local, private, or unilateral action remains necessary for others; coordination can also be slow or contested.",
+      "source_url": "https://www.un.org/en/global-risk-report",
+      "retrieval_hash": "sha256:93051f991f6a4dbff2c81aea3eb4ecdf7852fa7a8d33dda17fcff832c994df28",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-risks-report-2026/", "claim": "Complementary WEF risk analysis on geoeconomic confrontation, misinformation, polarization, and systemic risk."},
+    {"source_url": "https://www.un.org/en/global-issues/climate-change", "claim": "Complementary UN climate context for the environmental-risk lane."}
+  ],
+  "boundary": "This record adds a global risk-perception and governance layer across geopolitical conflict, AI concentration, climate inaction, and international cooperation. It is publication-level stakeholder evidence and analytical synthesis, not a representative public-opinion survey, an event forecast, realized-risk dataset, individual respondent analysis, or causal model of conflict, AI concentration, climate harm, or cooperation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Global Risk Report page reviewed for survey frame, 28-risk universe, large-scale war expectation, AI/frontier-technology power concentration, climate-inaction ranking, and joint-action response findings.",
+    "source_url_sha256": "sha256:93051f991f6a4dbff2c81aea3eb4ecdf7852fa7a8d33dda17fcff832c994df28",
+    "checked": "2026-09-26"
+  }
+}

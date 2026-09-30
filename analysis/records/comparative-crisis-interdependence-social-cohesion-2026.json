@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-crisis-interdependence-social-cohesion-2026",
+  "title": "Crises affect social cohesion through changing dependence, power asymmetries, interests, and the perceived legitimacy of cooperation",
+  "theme_ids": ["voice", "energy", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Koster, Lang, and Van Lange, Interdependence explains how and when crises impact social cohesion, Communications Psychology 2026",
+  "geography": "Theory-guided review drawing on evidence across natural hazards, pandemics, economic crises, and wars in multiple national and community contexts",
+  "observations": [
+    {
+      "period": "2026 conceptual review; definition of social cohesion",
+      "denominator": {"value": 1, "unit": "theory-guided review of social cohesion across crisis contexts", "value_type": "reported_theory_review"},
+      "measures": {
+        "horizontal_cohesion": {"value": "trust, solidarity, shared identity, cooperation, participation, and norm compliance among individuals and groups", "unit": "reported conceptual dimension", "value_type": "reported_construct"},
+        "vertical_cohesion": {"value": "trust in and perceived legitimacy of governing institutions, including whether people view government responses as effective and fair", "unit": "reported conceptual dimension", "value_type": "reported_construct"},
+        "societal_level": {"value": "cohesion is treated as an emergent societal pattern arising from person-person, group-group, and person-institution interactions rather than a single individual attitude", "unit": "reported analytic boundary", "value_type": "reported_mechanism"},
+        "crisis_difference": {"value": "the review argues that crises cannot be assumed to have one general effect on cohesion because their scope, duration, salience, distribution, and collective-action demands differ", "unit": "reported analytic proposition", "value_type": "reported_mechanism"}
+      },
+      "method": "Theory-guided interdisciplinary review grounded in interdependence theory, social exchange theory, game theory, behavioral-science evidence, and studies of four crisis types.",
+      "uncertainty": "The framework organizes heterogeneous evidence and generates testable predictions; it is not a pooled causal estimate or a validated universal crisis-prediction model.",
+      "subgroup": "Individuals, groups, communities, governments, vulnerable populations, and institutions involved in crisis response and cooperation.",
+      "counterinterpretation": "Social cohesion may be defined and measured differently across disciplines and societies; stronger cohesion within a group can coexist with exclusion or conflict across groups.",
+      "source_url": "https://doi.org/10.1038/s44271-026-00471-2",
+      "retrieval_hash": "sha256:5d0b25875e781ebe8c67d74cfcc9904eb9d03d061d08f71ad4210242db5420f0",
+      "status": "reported"
+    },
+    {
+      "period": "2026 conceptual review; interdependence dimensions during crises",
+      "denominator": {"value": 3, "unit": "core interdependence dimensions identified by the review", "value_type": "reported_construct_set"},
+      "measures": {
+        "mutual_dependence": {"value": "the degree to which people influence one another's outcomes can increase cooperation when mutual help is tangible and perceived as necessary", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "asymmetry": {"value": "unequal dependence and vulnerability can make some groups bear greater costs while others retain more capacity and power", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "interests": {"value": "corresponding interests support cooperation, while conflicting interests over safety, resources, freedom, or distribution can undermine cohesion", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "government_route": {"value": "crises often increase citizens' dependence on government and government dependence on compliance, creating either legitimacy or resentment depending on perceived competence and fairness", "unit": "reported vertical-cohesion mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Conceptual synthesis applying interdependence theory to horizontal and vertical social relations during crisis response.",
+      "uncertainty": "The dimensions are analytically separable but interact in practice; the review does not provide a single operational index or estimate of their relative causal importance.",
+      "subgroup": "Groups differently exposed to crisis harms, resource scarcity, government mandates, economic loss, or response burdens.",
+      "counterinterpretation": "Perceived dependence may matter more than objective dependence, and shared identity or ideology can alter whether unequal burdens are interpreted as solidarity or exploitation.",
+      "source_url": "https://www.nature.com/articles/s44271-026-00471-2.pdf",
+      "retrieval_hash": "sha256:5d0b25875e781ebe8c67d74cfcc9904eb9d03d061d08f71ad4210242db5420f0",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; differentiated crisis pathways",
+      "denominator": {"value": 4, "unit": "crisis types reviewed: natural hazards, pandemics, economic crises, and wars", "value_type": "reported_crisis_typology"},
+      "measures": {
+        "natural_hazards": {"value": "short, immediate disasters can increase local cooperation and solidarity, while prolonged or uneven hazards can intensify competition and conflict", "unit": "reported crisis pathway", "value_type": "reported_mechanism"},
+        "pandemics": {"value": "early shared vulnerability can mobilize prosocial behavior, while prolonged restrictions, misinformation, polarization, and unequal costs can weaken cohesion", "unit": "reported crisis pathway", "value_type": "reported_mechanism"},
+        "economic_crises": {"value": "financial strain and unemployment can increase dependence on social networks and government while widening asymmetries and scapegoating risks", "unit": "reported crisis pathway", "value_type": "reported_mechanism"},
+        "wars": {"value": "war can generate immediate within-group solidarity through necessity while undermining broader trust, institutions, and relationships through violence, displacement, and conflicting identities", "unit": "reported crisis pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "Review of empirical and theoretical literature across four crisis types, including surveys, behavioral evidence, field studies, meta-analyses, and historical cases.",
+      "uncertainty": "The review emphasizes context and timing; these pathways are conditional propositions rather than universal predictions for every disaster, pandemic, economic downturn, or war.",
+      "subgroup": "Crisis-affected communities, vulnerable households, marginalized groups, displaced people, public institutions, and groups with different exposure and response capacity.",
+      "counterinterpretation": "The same crisis can produce solidarity and exclusion simultaneously, and observed cohesion may reflect coercion, survival necessity, or suppression rather than durable trust.",
+      "source_url": "https://www.nature.com/articles/s44271-026-00471-2.pdf",
+      "retrieval_hash": "sha256:5d0b25875e781ebe8c67d74cfcc9904eb9d03d061d08f71ad4210242db5420f0",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; policy and measurement implications",
+      "denominator": {"value": 1, "unit": "review-derived framework for crisis research and response", "value_type": "reported_policy_frame"},
+      "measures": {
+        "coordination_mode": {"value": "bottom-up voluntary cooperation is proposed as more likely to strengthen cohesion than top-down enforcement when burdens and legitimacy are contested", "unit": "reported policy proposition", "value_type": "reported_mechanism"},
+        "inequality_route": {"value": "reducing asymmetry in dependence and conflicts of interest is identified as central to preserving cohesion", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "social_infrastructure": {"value": "neighbor contact, community facilities, shared activities, emergency resources, and local organizations can create repeated settings for cooperation and resilience", "unit": "reported policy mechanism set", "value_type": "reported_mechanism_set"},
+        "research_design": {"value": "the authors recommend combining experiments, surveys, interviews, behavioral games, historical, archival, and ethnographic approaches to test crisis-specific predictions", "unit": "reported research recommendation", "value_type": "reported_method_proposition"}
+      },
+      "method": "Authors' synthesis of implications and proposed convergent research strategy.",
+      "uncertainty": "The policy propositions are theory-informed and require crisis-specific evaluation; voluntary coordination is not always feasible and top-down action may sometimes protect vulnerable groups or reduce harm.",
+      "subgroup": "Local governments, emergency managers, community organizations, public-health systems, households, and groups with unequal crisis exposure.",
+      "counterinterpretation": "Community-led response can reproduce local exclusion or shift unpaid burdens onto vulnerable people; infrastructure without fair distribution may deepen rather than reduce asymmetry.",
+      "source_url": "https://doi.org/10.1038/s44271-026-00471-2",
+      "retrieval_hash": "sha256:5d0b25875e781ebe8c67d74cfcc9904eb9d03d061d08f71ad4210242db5420f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1038/s44271-026-00471-2", "claim": "Peer-reviewed Communications Psychology article proposing an interdependence framework for how natural hazards, pandemics, economic crises, and wars affect social cohesion."},
+    {"source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13197431/", "claim": "Open-access full-text repository version with the review's theory, crisis pathways, broader implications, and references."}
+  ],
+  "boundary": "This record adds a crisis-mechanism route from changing mutual dependence, unequal vulnerability, conflicting interests, and coordination mode through horizontal and vertical social cohesion. It is a theory-guided review and hypothesis framework, not a pooled causal estimate, crisis forecast, or claim that any crisis has one uniform social effect.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Publisher and open-access full-text sources reviewed for the cohesion definition, four crisis typology, interdependence dimensions, differentiated pathways, policy implications, and proposed empirical tests.",
+    "report_pdf_sha256": "sha256:5d0b25875e781ebe8c67d74cfcc9904eb9d03d061d08f71ad4210242db5420f0",
+    "checked": "2026-09-28"
+  }
+}

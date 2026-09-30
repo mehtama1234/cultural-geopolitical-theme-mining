@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wir-2026-wealth-climate-gender-finance-political-cleavages",
+  "title": "Inequality is crossing wealth, climate responsibility, unpaid care, global finance, and political representation rather than remaining a single income gap",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Inequality Lab, World Inequality Report 2026",
+  "geography": "Global income, wealth, gender, climate, financial, regional, taxation, and political inequality across countries and regions",
+  "observations": [
+    {
+      "period": "2025-2026; global income and wealth distribution",
+      "denominator": {"value": 1, "unit": "global population income and wealth distribution frame", "value_type": "global_distribution_frame"},
+      "measures": {
+        "top_income_share": {"value": "the global top 10 percent earn more than the remaining 90 percent combined", "unit": "reported global income-distribution pattern", "value_type": "reported_distribution_pattern"},
+        "bottom_income_share": {"value": "the poorest half captures less than 10 percent of global income", "unit": "reported global income share", "value_type": "reported_distribution_share"},
+        "top_wealth_share": {"value": 75, "unit": "percent of global wealth owned by the top 10 percent", "value_type": "reported_distribution_share"},
+        "bottom_wealth_share": {"value": 2, "unit": "percent of global wealth held by the bottom half", "value_type": "reported_distribution_share"},
+        "wealth_concentration": {"value": "wealth concentration has increased as billionaire and centi-millionaire wealth grew faster than the bottom half's wealth", "unit": "reported long-run pattern", "value_type": "reported_trend"}
+      },
+      "method": "World Inequality Database analysis and synthesis drawing on work from more than 200 scholars and distributional estimates across income and wealth.",
+      "uncertainty": "Global distribution estimates combine tax, national-account, survey, and modeling sources with uneven coverage; thresholds, imputation, and purchasing-power adjustments affect comparisons and do not reveal every household's lived condition.",
+      "subgroup": "The global top and bottom income and wealth groups, middle classes, countries with different data coverage, households with different assets and debts, and policymakers considering redistribution.",
+      "counterinterpretation": "Aggregate concentration can coexist with broad absolute gains in living standards; wealth measures differ from disposable income, consumption, security, and political influence in particular settings.",
+      "source_url": "https://wir2026.wid.world/insight/executive-summary/",
+      "retrieval_hash": "sha256:4c367b849dcbbe96cf3c65f17ed3a195a19548d0d175dcb472e169714c45369b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; climate responsibility and capital ownership",
+      "denominator": {"value": 1, "unit": "global emissions associated with private capital ownership", "value_type": "capital_emissions_frame"},
+      "measures": {
+        "top_ten_capital_emissions": {"value": 77, "unit": "percent of emissions associated with private capital ownership attributed to the global top 10 percent", "value_type": "reported_emissions_share"},
+        "top_one_capital_emissions": {"value": 41, "unit": "percent of emissions associated with private capital ownership attributed to the global top 1 percent", "value_type": "reported_emissions_share"},
+        "bottom_half_capital_emissions": {"value": 3, "unit": "percent of emissions associated with private capital ownership attributed to the global bottom half", "value_type": "reported_emissions_share"},
+        "responsibility_exposure": {"value": "those contributing least to capital-ownership emissions are often more exposed to climate shocks and have fewer adaptation resources", "unit": "reported climate-inequality mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WIR synthesis of research allocating emissions associated with privately owned capital to wealth holders, alongside global distributional and climate-exposure analysis.",
+      "uncertainty": "Capital-ownership emissions differ from direct household consumption emissions and exclude emissions from publicly owned assets; attribution, asset ownership, and exposure measures involve methodological assumptions.",
+      "subgroup": "Wealth groups, capital owners, workers and households exposed to climate hazards, low-income countries, investors, public authorities, and communities with unequal adaptation capacity.",
+      "counterinterpretation": "Capital-based attribution can complement rather than replace consumption-based accounting; high emitters may face policy constraints while low-emitting populations can still have important local environmental impacts.",
+      "source_url": "https://wir2026.wid.world/insight/executive-summary/",
+      "retrieval_hash": "sha256:4c367b849dcbbe96cf3c65f17ed3a195a19548d0d175dcb472e169714c45369b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; gendered paid and unpaid work",
+      "denominator": {"value": 1, "unit": "global paid and unpaid labor comparison frame", "value_type": "global_gender_work_frame"},
+      "measures": {
+        "women_labor_income_share": {"value": "women capture just over one-quarter of total global labor income", "unit": "reported global labor-income share", "value_type": "reported_distribution_share"},
+        "weekly_work_hours": {"value": "women work about 53 hours per week versus 43 for men when paid, domestic, and care work are combined", "unit": "reported average weekly hours", "value_type": "reported_time_measure"},
+        "hourly_income_paid_only": {"value": 61, "unit": "percent of men's hourly income earned by women when unpaid work is excluded", "value_type": "reported_gender_ratio"},
+        "hourly_income_including_unpaid": {"value": 32, "unit": "percent of men's hourly income earned by women when unpaid domestic labor is included", "value_type": "reported_gender_ratio"},
+        "care_conversion": {"value": "unpaid domestic and care labor changes the measured distribution of work, income, opportunity, and political participation", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WIR gender analysis combining labor-income distributions with time-use and unpaid domestic and care-work accounting.",
+      "uncertainty": "Cross-country time-use, income, and valuation methods differ; hourly-income comparisons are constructed measures and do not capture bargaining, job quality, wealth, or within-household allocation fully.",
+      "subgroup": "Women and men, unpaid caregivers, parents, households with different care demands, workers in paid and unpaid activities, and policymakers designing care and labor reforms.",
+      "counterinterpretation": "Unpaid work can provide care, autonomy, and household value not fully represented by income metrics; paid and unpaid work may be complementary rather than interchangeable.",
+      "source_url": "https://wir2026.wid.world/insight/executive-summary/",
+      "retrieval_hash": "sha256:4c367b849dcbbe96cf3c65f17ed3a195a19548d0d175dcb472e169714c45369b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; global finance, human capital, and political cleavages",
+      "denominator": {"value": 1, "unit": "global inequality, finance, opportunity, and political-coalition framework", "value_type": "global_political_economy_frame"},
+      "measures": {
+        "net_foreign_income_transfer": {"value": 1, "unit": "percent of global GDP transferred annually from poorer to richer nations through net foreign-income flows, approximately", "value_type": "reported_global_flow_share"},
+        "education_spending_gap": {"value": "average education spending per child is approximately 40 times higher in Europe and North America/Oceania than in Sub-Saharan Africa", "unit": "reported regional opportunity ratio", "value_type": "reported_regional_ratio"},
+        "redistribution_effect": {"value": "tax-and-transfer systems reduce income gaps by more than 30 percent in Europe and North America/Oceania, according to the report's regional comparison", "unit": "reported redistribution effect", "value_type": "reported_policy_association"},
+        "territorial_political_divide": {"value": "political-affiliation gaps between metropolitan centers and smaller towns have reached historically high levels in many advanced democracies", "unit": "reported territorial pattern", "value_type": "reported_political_pattern"},
+        "coalition_route": {"value": "unequal services, job opportunity, trade-shock exposure, and campaign-finance concentration can weaken coalitions for redistribution", "unit": "reported political-economy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WIR comparative synthesis of global financial flows, regional education spending, tax-and-transfer systems, territorial inequality, political affiliation, and campaign-finance evidence.",
+      "uncertainty": "These are aggregate cross-country and regional relationships; the report does not establish a single causal pathway from finance or geography to individual political behavior, and estimates vary with definitions and coverage.",
+      "subgroup": "Borrowing and lending countries, students and families, metropolitan and smaller-town residents, workers exposed to trade shocks, political parties, donors, and redistributive institutions.",
+      "counterinterpretation": "Global financial flows can also reflect risk, investment returns, or productive capital allocation; territorial political divides may arise from culture, identity, or institutions in addition to material inequality.",
+      "source_url": "https://wir2026.wid.world/insight/executive-summary/",
+      "retrieval_hash": "sha256:4c367b849dcbbe96cf3c65f17ed3a195a19548d0d175dcb472e169714c45369b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://wid.world/", "claim": "World Inequality Database provides the underlying distributional data platform and methodology context."},
+    {"source_url": "https://wir2026.wid.world/methodology/", "claim": "Official WIR 2026 methodology and data-construction context."}
+  ],
+  "boundary": "This record adds a cross-domain inequality route across income, wealth, capital-linked climate responsibility, unpaid care, human-capital access, global finance, taxation, territorial divides, and democratic coalitions. It uses World Inequality Lab aggregate distributional estimates and synthesis, not respondent-level income or political histories, household budgets, firm ownership files, individual emissions footprints, causal climate effects, or proof that any single policy produces equal outcomes everywhere.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Inequality Report 2026 executive summary reviewed for global income and wealth concentration, capital-ownership emissions, gendered paid and unpaid work, global financial transfers, regional education spending, redistribution, and territorial political cleavages.",
+    "source_url_sha256": "sha256:4c367b849dcbbe96cf3c65f17ed3a195a19548d0d175dcb472e169714c45369b",
+    "checked": "2026-09-26"
+  }
+}

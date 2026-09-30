@@ -1,6 +1,48 @@
 # US broad program current-status audit v1
 
-**Checked:** 2026-09-24
+The newest platform/data-governance addition is the [ACCC Consumer Data Right data-quality record](records/comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability.json), which adds an Australia-specific route from formal data portability through data accuracy, semantic consistency, comparison usability, issue escalation, and consumer or small-business choice. It records more than 1.3 million CDR users, 16 stakeholder survey respondents, product and consumer data ratings, and resolution friction including tickets open for more than six months. It preserves the small stakeholder sample, administrative-user count, descriptive, and noncausal boundaries.
+
+The newest Brazil demand-side addition is the [Fundação Itaú/Datafolha cultural-habits record](records/comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap.json), which adds current remote-versus-in-person participation and education/class gradients. It preserves the flow-location sample, self-report, overlapping-mode, socioeconomic, and noncausal boundaries.
+
+The newest cultural-production addition is the [Brazil IBGE SIIC 2013-2024 record](records/comparative-brazil-ibge-cultural-indicators-2013-2024-work-formality-trade.json), which adds cultural employment, informality, self-employment, MEI, regional concentration, education-to-work conversion, and cultural trade. It preserves the classification, mixed-denominator, cross-sectional, and noncausal boundaries.
+
+The newest infrastructure/technology addition is the [World Bank Digital Progress and Trends 2025 record](records/comparative-world-bank-digital-progress-trends-2025-infrastructure-speed-data-skills.json), which adds income-group splits for internet use, 5G, speed, affordability, data traffic, digital skills, data-center capacity, and servers. It preserves the mixed-source, aggregate, infrastructure-versus-use, and noncausal boundaries.
+
+The newest platforms/infrastructure addition is the [GSMA Mobile Gender Gap 2026 record](records/comparative-gsma-mobile-gender-gap-2026-access-affordability-safety.json), which adds LMIC gender, regional, affordability, skills, awareness, and safety measures to the digital-access route. It preserves the modelled-estimate, industry-source, survey, binary-gender, and access-versus-outcome boundaries.
+
+The newest time-and-care addition is the [England SACE 2025-26 record](records/comparative-england-dhsc-sace-2025-2026-carer-time-work-social-capacity.json), which adds official measures of unpaid-care intensity, valued time, work exit, health effects, financial difficulty, social contact, and service involvement. It preserves the known-carer sampling, response, self-report, conditional-denominator, and noncausal boundaries.
+
+The newest consumer-recourse addition is the [UK CMA Annual Report 2025-26 record](records/comparative-uk-cma-annual-report-2025-2026-consumer-redress-digital-markets.json), which adds regulator-side enforcement, direct-redress, public-correspondence, and digital-market implementation measures. It preserves the institutional-impact, individual-receipt, remedy-adequacy, and non-causal boundaries.
+
+The newest household-budget addition is the [Spain INE 2025 record](records/comparative-spain-ine-household-budget-2025-recreation-culture-quintile-room.json), which adds €1,772 average recreation/sport/culture spending and strong spending-quintile differences in essential versus discretionary budget room. It preserves the current-price, broad-category, cross-sectional, household-type, and non-causal boundaries.
+
+The newest continuation is the [ABS August 2026 household-spending record](records/comparative-abs-monthly-household-spending-august-2026-culture-reversal-transport.json), which follows July's transaction signal and records flat total spending, a 1.4% recreation-and-culture contraction, and 2.3% transport growth. It preserves the current-price, category-mix, event-timing, undisclosed transaction-frame, and non-causal boundaries.
+
+The newest observed-consumption addition is the [ABS Monthly Household Spending Indicator July 2026 record](records/comparative-abs-monthly-household-spending-july-2026-card-culture-volume.json), which adds bank-card and related transaction evidence beneath survey-based cultural and financial indicators. It preserves the undisclosed transaction-frame, current-price, chain-volume, category-mix, unique-household, and non-causal boundaries.
+
+The newest subgroup cultural-use addition is the [Statistics Norway immigrant-background record](records/comparative-norway-ssb-immigrant-cultural-use-2025-library-museum-concert-gap.json), which adds a 1,331-interview comparison showing stronger library and museum use but lower theatre and concert participation than the total population, alongside high desired additional participation. It preserves the subgroup-definition, response-rate, cross-sectional, self-report, and non-causal boundaries.
+
+The newest UK mobility-consumption addition is the [VisitBritain Domestic Sentiment Tracker September 2026 record](records/comparative-visitbritain-domestic-sentiment-september-2026-travel-intentions-cost-barriers.json), which adds stated overnight-trip intention, trip format, and cost/weather barriers. It preserves the repeated-cross-section, intention-versus-realization, weighted-table, and non-causal boundaries.
+
+The newest England culture-and-community addition is the [DCMS Community and Engagement Survey Quarter 2 record](records/comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift.json), which adds redesigned repeated-cross-section evidence on physical and digital arts, libraries, heritage, museums, volunteering, local-official contact, and loneliness. It preserves the question-specific bases, survey-redesign, self-report, and non-causal boundaries.
+
+The newest ASEAN digital-trust addition is the [GSMA Consumer Scam record](records/comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust.json), which adds scam exposure, financial loss, recovery, unresolved reporting, channel behavior, and provider switching. It preserves the industry-commissioned, inaccessible-primary-page, indexed-summary, conditional-denominator, and non-causal boundaries.
+
+The newest EU routine-and-social-infrastructure addition is the [Special Eurobarometer sport record](records/comparative-eu-eurobarometer-sport-physical-activity-2026-commuting-community-gaps.json), which adds exercise frequency, active commuting, fitness-centre use, country gaps, and perceived mental-health/community value. It preserves the top-line sample, self-report, cross-sectional, country-comparability, and non-causal boundaries.
+
+The newest domestic-access addition is the [MBIE Domestic Visitor Survey record](records/comparative-new-zealand-mbie-dvs-october-2025-domestic-travel-culture-cost-barriers.json), which adds resident trip participation, social motivation, cultural activity, future intention, decision routes, and cost barriers. It preserves the undisclosed top-line sample, weighting, trip-definition, multiple-response, and non-causal boundaries.
+
+The newest mobility-and-place addition is the [MBIE New Zealand IVS record](records/comparative-new-zealand-mbie-ivs-june-2026-tourism-recovery-purpose-cultural-access.json), which adds visitor volume, inflation-adjusted spend, purpose, market recovery, cultural-experience scope, and survey-quality evidence. It preserves the recalibration, national-estimate, sample, margin-of-error, and non-causal boundaries.
+
+The newest material-pressure and care-continuity addition is the [MHRC Poll 29 record](records/comparative-canada-mhrc-poll29-2026-cost-pressure-social-connection-care-exit.json), which adds Canadian evidence on bills, housing, social connection, care adequacy, and early exit. It preserves the online weighted-sample, sponsor, conditional-denominator, self-report, and non-causal boundaries.
+
+The newest social-consequence addition is the [England CES loneliness record](records/comparative-england-ces-2025-26-loneliness-disability-deprivation-local-gap.json), which adds direct and indirect loneliness evidence with disability, deprivation, and local-authority gradients. It preserves the cross-sectional, self-reported, area-level deprivation, rounded-estimate, and non-causal boundaries.
+
+The newest source addition is the [ONS real-time consumer record](records/comparative-ons-realtime-consumer-pressure-august-2026-footfall-spending-failures.json), which adds administrative and card-payment evidence: August retail footfall fell 2% month-on-month, total Revolut debit spending fell 1%, entertainment spending rose 14% year-on-year, and sampled Direct Debit failures rose from 2.3% to 2.4%. It preserves the experimental-indicator, aggregation, sample, and non-causal boundaries.
+
+The newest comparative source addition is the [China NBS August 2026 retail/CPI record](records/comparative-china-nbs-august-2026-retail-cpi-category-pressure.json), which adds current category and price evidence: total retail sales grew 0.4% year-on-year in August, online service retail grew 5.1% year-to-date, telecom equipment grew 27.3%, and motor vehicles fell 18.5%. It preserves the aggregate, nominal-growth, category, base-period, and non-causal boundaries.
+
+**Checked:** 2026-09-30
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
@@ -16,12 +58,284 @@ and shocks move through money, time, access, control, status, culture,
 institutions, political action, firm strategy, infrastructure, and state
 power—and to mark the missing links rather than collapse them into one story.
 
-**Current registry state:** 1013 machine-readable records, 2357 observations,
-The registry contains 1003 `us-trend-observation-record-v1` records plus 2
+The newest source addition is the [Brazil BCB Pix-conversion record](records/comparative-brazil-bcb-pix-2023-payment-diary-digital-barriers.json), which adds observed payment-diary and capability evidence beneath digital access: cash fell from 76.6% to 40.5% of recorded payments, Pix reached 24.9%, and knowledge/connectivity barriers persisted. It adds a Latin American executability constraint while preserving the diary, preference, merchant, mixed-denominator, and non-causal boundaries.
+
+The newest public-capacity addition is the [World Bank government-AI record](records/comparative-world-bank-government-ai-public-service-scale-evaluation-2026.json), which adds a route from public-service shortages through data and infrastructure readiness, real-world evaluation, procurement, auditability, staff capacity, correction, and public trust. It preserves the cross-economy survey, selected implementation examples, framework, and non-causal boundaries.
+
+The newest platform-operational addition is the [Snapchat H2 2025 transparency record](records/comparative-eu-snapchat-child-safety-dsa-proceedings-2026.json), which adds platform-produced report volume, enforcement actions, unique accounts, turnaround, appeals, reinstatements, and EU aggregates to the child-safety episode. It does not convert self-reported operations into independent evidence of safety, discoverability, remedy, or child outcomes.
+
+The newest fiscal-capacity addition is the [World Bank Philippines Public Finance Review record](records/comparative-world-bank-philippines-public-finance-review-fiscal-capacity-targeting-2026.json), which adds a route from procurement and tax administration through fiscal room, targeting, administrative visibility, household protection, burden distribution and trust. It preserves the official-announcement, scenario, projection, measurement-limit and non-causal boundaries.
+
+The newest preparedness-finance addition is the [OECD global-health PPR record](records/comparative-oecd-global-health-ppr-financing-aid-dependence-resilience-2026.json), which adds a route from globally shared health risk through invisible prevention benefits, unequal per-capita capacity, aid dependence, resilience accounting and collective resilience. It preserves the policy-brief, financing-estimate, projection, measurement-limit and non-causal boundaries.
+
+The latest source addition is the [KAS South Africa migration, rule-of-law, and social-cohesion record](records/comparative-kas-south-africa-migration-rule-law-social-cohesion-2026.json), which adds a comparative urban route from unemployment, inequality, housing, services, migration, and weak institutional trust through xenophobic attribution, private claims to authority, rule-of-law pressure, and social fragmentation. It preserves the qualitative-case, cited-statistics, and non-representative boundaries.
+
+The latest consumer-infrastructure addition is the [Stitch South Africa consumer-payments record](records/comparative-stitch-south-africa-consumer-payments-2026-digital-wallets-bnpl-agentic-commerce.json), which adds a route from payment fragmentation through wallet speed, BNPL liquidity, payday timing, checkout friction, trust, and AI-mediated commerce. It preserves the sponsor-produced, digitally active sample, mixed-denominator, proprietary-platform, and non-causal boundaries.
+
+The latest political-ecology addition is the [More in Common Strong Roots record](records/comparative-more-in-common-strong-roots-2026-nature-cross-party-coalitions.json), which adds a route from cross-party nature attachment through place pride, nature/development framing, perceived political neglect, and electoral accountability. It preserves the commissioned-survey, focus-group, conjoint-summary, and non-causal boundaries.
+
+The latest information-environment addition is the [IPIE 2026 expert-survey record](records/comparative-ipie-information-environment-2026-platform-accountability-ai-search-research-pressure.json), which adds a route from platform accountability and AI-mediated search through source visibility, viewpoint diversity, public trust, civic usability, and research-capacity pressure. It preserves the expert-panel, non-probability, forecast, and non-causal boundaries.
+
+The latest place-and-participation addition is the [Pew urban/suburban/rural public-life record](records/us-pew-urban-suburban-rural-public-life-engagement-2026-place-specific-routes.json), which adds a route from community type through social and religious participation, in-person versus online group interaction, protest, signage, and official contact. It preserves the cross-sectional, self-report, cluster-classification, subgroup-denominator, and non-causal boundaries.
+
+The latest citizen-futures addition is the [JRC Our Futures citizen-resilience record](records/comparative-jrc-our-futures-europe-citizen-resilience-narratives-2026.json), which adds a narrative route from imagined shocks and institutional capacity through cross-domain trade-offs, hope, fear, personal agency, and collective resilience. It preserves the self-selected-corpus, interpretive, non-representative, language/coding, and non-causal boundaries.
+
+The latest social-pressure addition is the [St Patrick's Irish mental-health and stigma record](records/comparative-stpatricks-ireland-mental-health-stigma-cost-loneliness-2026.json), which adds a route from economic and social pressure through loneliness, housing, climate concern, digital risk perceptions, stigma, silence, and support-seeking. It preserves the attitudinal, self-report, non-clinical, and non-causal boundaries.
+
+The latest consumer-media addition is the [thinkTV/Ipsos Ad Nation 2026 record](records/comparative-thinktv-ipsos-ad-nation-2026-canada-media-gap-trust.json), which adds a route from professional audience assumptions through public media behavior, advertising trust, AI-content concern, shared attention, and cultural feedback. It preserves the two-sample, descriptive, non-causal boundaries.
+
+The latest youth-cultural addition is the [Pacsun/GlobalData Drawbridge Generation record](records/us-pacsun-globaldata-youth-report-2026-drawbridge-trust-financial-independence.json), which adds a route from public noise through family/friend trust, selective AI delegation, delayed financial independence, and mental-health-centered futures. It preserves the sponsor-reported, repeated-survey, descriptive, and non-causal boundaries.
+
+The latest AI-trust addition is the [Gartner consumer-authenticity record](records/us-gartner-consumer-trust-ai-slop-influencers-2026.json), which adds a route from synthetic content saturation through influencer and brand distrust, reliance on real people, and content-governance pressure. It preserves the publisher-reported, descriptive, non-content-audit, and non-causal boundaries.
+
+The latest multilateral-legitimacy addition is the [UN Foundation/GeoPoll Secretary-General mandate record](records/comparative-un-foundation-geopoll-un-secretary-general-mandate-2026.json), which adds a route from global turbulence through institutional necessity, delivery frustration, outward-facing leadership, selection visibility, representation, and North-South trust differences. It preserves the commissioned public-opinion, small-country-sample, non-performance-evaluation, and non-causal boundaries.
+
+The latest local-consent addition is the [UMass AI data-center poll record](records/us-umass-poll-ai-data-center-local-consent-crosspartisan-2026.json), which adds a route from national AI ambition through local environmental, land-use, utility-cost, and quality-of-life exposure into cross-partisan opposition and political accountability. It preserves the matched-and-weighted survey, publisher-coded open-ended, hypothetical-siting, and non-causal boundaries.
+
+The latest diaspora-cultural addition is the [Frontiers cultural-identity record](records/comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026.json), which adds a route from heritage identity through media exposure, visits to China, language, media mediation, and country-specific context. It preserves the online-panel, association-not-causation, non-representative, and non-political-allegiance boundaries.
+
+The latest consumer-governance addition is the [YouGov financial-services AI record](records/comparative-yougov-consumer-duty-ai-financial-services-2026-human-fallback-trust.json), which adds a route from perceived AI cost/profit motives through reduced human interaction, vulnerable-customer exposure, human fallback, accountable decisions, and data protection. It preserves the weighted-survey, stated-perception, source-defined vulnerability, and non-causal boundaries.
+
+The latest work-and-family meaning addition is the [YouGov values-of-children-and-work record](records/comparative-yougov-values-children-work-2026-success-time-meaning.json), which adds a route from childrearing ideals through work-time preferences, remote-work legitimacy, passion-versus-pay, and age/ideology/education/parenthood differences. It preserves the two-poll, forced-choice, opt-in-panel, stated-preference, and non-causal boundaries.
+
+The latest family-time conversion addition is the [New America National Parent Survey record](records/us-new-america-national-parent-survey-2026-time-care-money-sandwich.json), which adds a route from desired quality time through leave, wages, child-care cost and supply, work schedules, transportation, eldercare, and unequal household option sets. It preserves the mixed-panel, weighted, self-report, single-snapshot, and non-causal boundaries. The newest employment-continuity addition is the [Carers UK work and unpaid-care record](records/comparative-carers-uk-work-unpaid-care-2026-employment-tipping-point.json), which adds reduced hours, stress, and employment exit as care-conversion outcomes while preserving repeated-cross-sectional, advocacy, sponsorship, and non-causal boundaries. The newest election-information addition is the [Catawba College–YouGov Ballots & Bots record](records/comparative-catawba-yougov-election-ai-authenticity-trust-2026.json), which adds conditional legitimacy, authenticity uncertainty, trusted local verification, and safeguard demand while preserving cross-sectional, self-report, commissioned-survey, and non-causal boundaries. The newest local-consumer addition is the [SOCi Local Discovery Index record](records/comparative-soci-local-discovery-ai-verification-loop-2026.json), which adds AI-mediated discovery, cross-channel verification, review-based remedy, category-specific visibility, and unequal discovery access while preserving vendor-sponsored, self-report, directional, and non-causal boundaries. The newest education-legitimacy addition is the [Public First cross-party education record](records/comparative-public-first-education-cross-party-technical-pathways-delivery-2026.json), which adds technical-pathway demand, adult-readiness expectations, delivery skepticism, local-capacity concerns, and transparent explanation while preserving commissioned, mixed-method, purposive-focus-group, and non-causal boundaries. The newest employer-transition addition is the [WorldSkills UK/Public First Ready to Work record](records/comparative-worldskillsuk-public-first-ready-to-work-employer-skills-2026.json), which adds harder youth entry, employability-skill signaling, firm capability, structured demonstrations, and unequal access to credible early-career pathways while preserving commissioned, self-report, non-causal, and measurement boundaries. The newest home-resilience addition is the [IKEA Life at Home 2026 record](records/comparative-ikea-life-at-home-2026-home-resilience-control-sustainability.json), which adds home security, comfort, control, domestic agency, and savings/health-motivated climate action while preserving retailer-commissioned, online-panel, mostly-2025-fieldwork, and non-causal boundaries.
+
+The latest U.S. source addition is the [Urban Institute immigrant-families record](records/us-urban-immigrant-families-enforcement-chilling-effect-2025.json), which adds a route from immigration concern through practical non-use of work, health care, schools, police, community life, and safety-net programs, with sharper exposure in mixed-status families. It preserves the nationally representative survey-round, repeated-cross-sectional, self-report, and non-causal boundaries.
+
+The latest U.S. source addition is the [Census HTOPS AI task/time record](records/us-census-htops-ai-work-task-time-savings-2026.json), which adds a task-level route from workplace AI adoption through reported time savings and unequal access by education, sex, and age. It preserves the weighted cross-sectional, revised-estimate, self-report, and non-causal boundaries.
+
+The latest comparative cultural source addition is the [Canada Arts and Heritage Access survey record](records/comparative-canada-arts-heritage-access-availability-2025-26-belonging-cost.json), which adds a route from arts participation and socializing through cost barriers, perceived welcome, belonging, organizational contribution, and local-economic value. It preserves the survey-summary, access, and non-causal boundaries.
+
+The latest comparative political source addition is the [OECD political voice and trust record](records/comparative-oecd-trust-2026-political-voice-responsiveness-barriers.json), which adds a route from voting, consultation, and material participation barriers through perceived official responsiveness, political voice, and institutional trust. It preserves the country-average, survey, perception, and non-causal boundaries.
+
+The latest comparative household source addition is the [ONS Great Britain cost-of-living and shortages record](records/comparative-ons-great-britain-cost-living-conflict-shortages-may-2026.json), which adds a route from price pressure and international-conflict worry through food and energy substitution, emergency liquidity, goods availability, and reduced mobility. It preserves the short-period weighted survey, self-report, and non-causal boundaries.
+
+The latest comparative economic-security source addition is the [World Bank Indonesia Poverty Assessment record](records/comparative-world-bank-indonesia-economic-security-2023-jobs-care-shocks.json), which adds a route from poverty reduction through economic insecurity, low-productivity work, weak urban mobility, gendered unpaid care, climate shocks, social protection, resilient infrastructure, and fiscal capacity. It preserves the national-assessment, aggregate, policy-synthesis, and non-causal boundaries.
+
+The latest comparative shock-and-demography source addition is the [World Bank Cambodia Economic Update record](records/comparative-world-bank-cambodia-economic-update-2026-remittances-demography-care.json), which adds a route from fuel, remittance, credit, and returning-worker shocks through household purchasing power, labor-market reintegration, the closing demographic window, human capital, formal care, structured migration, and fiscal or labor-market capacity. It preserves the macroeconomic-update, modeled-scenario, projection, and non-causal boundaries.
+
+The latest comparative cultural-mobility source addition is the [OECD International Student Mobility record](records/comparative-oecd-international-student-mobility-2026-cost-housing-work-retention.json), which adds a route from international education through tuition and living costs, housing, public support, work and post-study rights, family admission, integration, labor supply, and cultural belonging. It preserves the cross-country policy-comparison, administrative-data, and non-causal boundaries.
+
+The latest comparative youth-political source addition is the [UNDP Asia-Pacific youth climate-governance record](records/comparative-undp-asia-pacific-youth-climate-governance-2026-agency-institutional-voice.json), which adds a route from youth climate concern through participation position, negotiation and policy co-drafting, gendered access barriers, formalized voice, implementation, and accountability. It preserves the platform-based participant, qualitative pathway, policy-reporting, and non-causal boundaries.
+
+The latest comparative education-to-employment source addition is the [World Bank Gambia Economic Update record](records/comparative-world-bank-gambia-economic-update-2026-womens-education-work-fiscal-capacity.json), which adds a route from growth and girls' educational gains through informal work, youth NEET status, gendered care and asset barriers, earnings, tourism and remittances, fiscal space, targeted protection, and public investment. It preserves the national macroeconomic, gender-labor, fiscal-review, aggregate, and non-causal boundaries.
+
+The latest global consumer-protection source addition is the [OECD Consumer Finance Risk Monitor record](records/comparative-oecd-consumer-finance-risk-monitor-2026-scams-digital-exclusion-remedy.json), which adds a route from macro and digital risk through scams, financial exclusion, product detriment, complaints, supervisory coordination, and consumer remedy. It preserves the authority-assessment, jurisdiction-comparison, and non-causal boundaries.
+
+The latest global social-connection source addition is the [194-state loneliness-policy scoping review](records/comparative-global-loneliness-policy-scoping-review-194-states-2026.json), which adds a route from national recognition through community infrastructure, cross-sector action, funding, and evaluation. It preserves the scoping-review, policy-document, high-income-concentration, and non-causal boundaries.
+
+The latest U.S. housing-security source addition is the [Federal Reserve housing record](records/us-federal-reserve-household-housing-affordability-insurance-2025.json), which adds a route from housing tenure and payment burden through renter arrears, forced mobility, insurance affordability, weather exposure, and household balance-sheet risk. It preserves the Federal Reserve survey, cross-sectional, self-report, and non-causal boundaries.
+
+The preceding comparative household-security source addition is the [UN SDG Goal 1 2026 record](records/comparative-un-sdg1-2026-poverty-protection-spending-aid.json), which adds a route from extreme poverty through social-protection coverage, benefit-type inequality, public-spending incidence, working poverty, aid retrenchment, and state buffering. It preserves the official-indicator, aggregate-estimate, projection, and non-causal boundaries.
+
+The preceding comparative cultural-adaptation source addition is the [Korea Social and Cultural Trends 2026 record](records/comparative-korea-social-cultural-trends-2026-adaptation-consumption-ai-kculture.json), which adds a route from post-crisis adaptation through AI governance attention, hyper-personalization, practical consumption, wellness, K-culture, fandom, emotional value, and coexistence. It preserves the government forecast, online-keyword, comparative, and non-causal boundaries.
+
+The preceding comparative care-infrastructure source addition is the [UN resilient care and support systems record](records/comparative-un-care-support-systems-2026-poverty-dignity-work-family.json), which adds a route from life-course care needs through household time, poverty, gendered unpaid work, social protection, workforce capacity, public services, and dignity. It preserves the UN policy-note, global-synthesis, and non-causal boundaries.
+
+The preceding comparative labor-market source addition is the [ILO Employment and Social Trends 2026 record](records/comparative-ilo-employment-social-trends-2026-job-quality-inequality.json), which adds a route from headline employment stability through the global jobs gap, job quality, informality, working poverty, productivity divergence, gender and youth inequality, trade and AI exposure, and domestic institutional buffering. It preserves the ILO global-synthesis, projection, comparative, and non-causal boundaries.
+
+The preceding U.S. disaster-resilience source addition is the [GAO BRIC resilience-grant record](records/us-gao-bric-resilience-grant-delay-communication-outcomes-2026.json), which adds a route from resilience funding through review delay, reimbursement, policy continuity, communication, local capacity, planning support, and outcome measurement. It preserves the GAO-audit, selected-interview, administrative-status, and non-causal boundaries.
+
+The preceding U.S. local-capacity source addition is the [NLC Municipal Infrastructure Conditions record](records/us-nlc-municipal-infrastructure-conditions-2026-local-capacity-funding.json), which adds a route from infrastructure condition and need through municipal finance, staff capacity, elected priorities, federal grants, and public-system reliability. It preserves the municipal-survey, advocacy-synthesis, project-completion, and non-causal boundaries.
+
+The preceding source addition is the [ILO Platform Economy Convention No. 193 record](records/comparative-ilo-platform-economy-convention-2026-algorithmic-management-rights-remedy.json), which adds a normative platform-governance route from algorithmic management and employment classification through pay, social security, data control, deactivation, dispute resolution, enforcement, and cross-border implementation. It keeps adopted-standard, ratification, compliance, and causal limits explicit.
+
+The preceding source addition is the [UK Government Office for Science global supply chains record](records/comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience.json), which adds a network-resilience route from multi-tier supply-chain concentration, climate, geopolitics, and chokepoints through national exposure, affordability, firm adaptation, and household risk. It keeps foresight, modelling, scenario, and causal limits explicit.
+
+The preceding source addition is the [OECD Inclusive Growth in Cities record](records/comparative-oecd-inclusive-growth-cities-2026-within-city-opportunity-gaps.json), which adds a comparative within-city route from productivity and GDP growth through poverty, opportunity, housing, mobility, public services, climate action, participation, granular data, and cross-department delivery. It keeps comparative-city, selected-intervention, and causal limits explicit.
+
+The preceding source addition is the [World Bank Madagascar Urbanization Review record](records/comparative-worldbank-madagascar-urbanization-growth-poverty-infrastructure-2026.json), which adds a named-country urban-capacity route from economic concentration and rapid urbanization through poverty, informal settlement, water and waste deficits, climate exposure, municipal finance, and service-delivery capacity. It keeps country-review, public-summary, and causal limits explicit.
+
+The preceding source addition is the [World Bank Trade Policy and Natural Shocks Dashboard record](records/comparative-worldbank-trade-natural-shocks-household-income-distribution-2025.json), which adds a modeled household-distribution route from climate yields, conflict-linked food inflation, and trade restrictions through income, food security, unequal exposure, and household responses. It keeps modeled, cross-country, and causal limits explicit.
+
+The preceding source addition is the [European Audiovisual Observatory Key Trends 2026 record](records/comparative-eao-key-trends-2026-cultural-work-streaming-public-media.json), which adds a cultural-economy route from creator work and social protection through streaming investment, market concentration, public-media funding, and cultural access. It keeps sectoral, market-data, and causal limits explicit.
+
+The preceding source addition is the [IMF Annual Report 2026 trade-resilience record](records/comparative-imf-annual-report-2026-trade-resilience-supply-chain-geopolitics.json), which adds a geopolitical trade route from US policy shifts and energy disruption through regional reorientation, supply-chain diversification, efficiency tradeoffs, external imbalances, and household or firm expectations. It keeps institutional-synthesis, macro-aggregation, and causal limits explicit.
+
+The preceding source addition is the [Norway Citizen Survey 2026 record](records/comparative-norway-dfo-citizen-survey-2026-service-voice-ai-trust.json), which adds a comparative public-service route from usable services through administrative trust, political influence, complaint responsiveness, local voice, and confidence in public-sector AI. It keeps official-survey, repeated-cross-section, and causal limits explicit.
+
+The preceding source addition is the [OECD The People and the Budget record](records/comparative-oecd-people-budget-2026-fiscal-understanding-legitimacy.json), which adds a fiscal-legitimacy route from public understanding and perceived voice through communication, citizen engagement, independent fiscal institutions, and the contestability of budget trade-offs. It keeps survey, framework, and causal limits explicit.
+
+The preceding source addition is the [OECD Restoring Public Finances record](records/comparative-oecd-restoring-public-finances-2026-social-protection-tradeoffs.json), which adds a fiscal-capacity route from debt, aging, defence, and crisis legacies through savings in social protection, healthcare, public operations, and workforce design. It keeps fiscal-survey, distributional, and causal limits explicit.
+
+The preceding source addition is the [OECD Serving Citizens 2026 record](records/comparative-oecd-serving-citizens-2026-life-events-feedback-implementation.json), which adds a public-service delivery route from life-event administration through integration, feedback, data use, access, and institutional trust. It keeps government-survey, implementation, and causal limits explicit.
+
+The preceding source addition is the [UN DESA National Inclusion Accounts record](records/comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution.json), which adds a measurement-infrastructure route for decomposing age-specific economic flows by education, income, family type, residence, and migration status. It keeps methodological, implementation, and non-causal limits explicit.
+
+The preceding source addition is the [OECD Finland well-being record](records/comparative-oecd-finland-life-course-wellbeing-2026-intergenerational-loneliness.json), which adds a life-course route from strong aggregate well-being through youth transition, middle-aged employment and unpaid-work divergence, loneliness, mental health, and demographic-fiscal pressure. It keeps working-paper, country-specific, and causal limits explicit.
+
+The preceding source addition is the [OECD Korea well-being record](records/comparative-oecd-korea-wellbeing-2026-growth-life-course-social-capital.json), which adds a multidimensional country route from long-run growth and human-capital gains through youth transition, work-time, mental health, social connection, gender barriers, trust, and environmental costs. It keeps descriptive, country-specific, and causal limits explicit.
+
+The preceding source addition is the [World Bank Kenya refugee-host jobs record](records/comparative-worldbank-kenya-refugee-host-jobs-aid-shrinkage-2026.json), which adds a place-based route from aid contraction and displacement through weak labor markets, work-permit barriers, food insecurity, climate shocks, and shared public-service capacity. It keeps longitudinal-case, setting, and causal limits explicit.
+
+The preceding source addition is the [OECD food social-connectedness record](records/comparative-oecd-food-social-connectedness-2026-community-infrastructure.json), which adds a cross-country route from food access, shared meals, cooking, gardening, cultural meaning, volunteer work, and repurposed spaces through belonging, social infrastructure, and service connection. It keeps case-study, selection, and causal limits explicit.
+
+The preceding source addition is the [OECD youth mental-health record](records/comparative-oecd-youth-mental-health-2026-intersecting-pressure-prevention.json), which adds a cross-country route from cumulative digital, economic, school, housing, climate, conflict, and social pressures through youth distress, unequal exposure, prevention, and low-threshold support. It keeps trend, measurement, and causal limits explicit.
+
+The preceding source addition is the [UNDP Next Great Divergence record](records/comparative-undp-next-great-divergence-2026-ai-capability-inequality.json), which adds a regional human-development route from uneven AI readiness through infrastructure, skills, work, gender, public services, governance, trust, and environmental pressure. It keeps scenario, distributional, and implementation limits explicit.
+
+The preceding source addition is the [World Bank AI social-risk forecasting record](records/comparative-worldbank-ai-social-risk-forecasting-2026-anticipatory-capacity.json), which adds an anticipatory-public-capacity route from AI-assisted sensing of conflict, displacement, crime, and poverty to possible early action, risk finance, and service scaling. It keeps model performance, bias, and prediction-to-delivery limits explicit.
+
+The preceding source addition is the [European Commission future-research record](records/comparative-eu-future-research-migration-integration-2026-policy-capacity.json), which adds a migration-research-to-policy-capacity route across integration, labor sustainability, legal pathways, AI, climate mobility, shared data, and practical implementation.
+
+The preceding source addition is the [WEC Social Impact Report 2026 record](records/comparative-wec-social-impact-2026-borderless-talent-mobility-safeguards.json), which adds a labor-mobility-to-capability route through cross-border matching, recognition, language and skills support, legal pathways, integration, and worker safeguards.
+
+The preceding source addition is the [WorldRiskReport 2026 record](records/comparative-worldriskreport-2026-storms-vulnerability-social-protection.json), which adds a global climate-risk-to-social-capacity route through storm exposure, vulnerability, warning reach, infrastructure, health, social protection, and adaptive capacity.
+
+The latest source addition is the [Gartner government technology trends
+record](records/comparative-gartner-government-technology-trends-2026-agentic-ai-cyber-workforce.json),
+which adds an institution-side AI operating-capacity route alongside the
+citizen-side BCG route.
+
+The latest community-prosperity addition is the [Prosper Global Voices of
+Prosperity record](records/comparative-prosper-global-voices-of-prosperity-2026-shared-planning-community.json),
+which adds a qualitative cross-crisis route from shared definitions of
+prosperity through safety, planning capacity, local assets, and livelihood
+opportunity.
+
+The latest volunteerism addition is the [UNV State of the World’s Volunteerism
+record](records/comparative-unv-state-world-volunteerism-2026-give-social-infrastructure.json),
+which adds global estimates, measurement gaps, the GIVE framework, crisis
+volunteerism, social cohesion, and inclusion conditions.
+
+The latest belonging-and-place addition is the [YMCA Canada Connections
+Snapshot record](records/comparative-ymca-canada-connections-snapshot-2026-third-places-belonging.json),
+which adds survey evidence on third-place supply, affordability, welcome, time,
+and the gap between wanting connection and regularly participating.
+
+**Current registry state:** 1978 machine-readable records, 5941 observations,
+The registry contains 1975 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
 currently has 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
+
+The latest policy-to-price addition is the [World Bank Papua New Guinea food-tax record](records/comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026.json), which follows tax exemptions, formal and informal market pass-through, rural-urban segmentation, retailer and wholesaler capture, household quintile incidence, expert prediction, cash-transfer comparison, and cost-of-living attribution. It preserves the PNG-specific quasi-experimental, product, market, static-comparison, and non-universal boundaries.
+
+The latest cultural-labor geography addition is the [ONS creative-industries jobs record](records/comparative-ons-creative-industries-jobs-london-regional-demographics-2025.json): creative jobs were estimated at 13.7% of London jobs versus 5.9% elsewhere, with distinct self-employment and qualification patterns. The source’s APS response-quality and comparability warnings remain part of the finding; the next audit route is concentration -> earnings/housing/care -> worker power -> local cultural access.
+
+The latest cultural-production/access addition is the [Census HTOPS arts-production and local-opportunity record](records/us-census-htops-arts-production-local-opportunity-2026.json): personal art-making was 26.2% among adults 18–34 versus 13.8% among adults 65+, while perceived plentiful local opportunity was 59.6% below $35,000 household income versus 82.5% at $150,000+. The experimental cross-sectional source does not identify causality or objective supply; the next audit route is practice -> local opportunity -> attendance -> repeat participation.
+
+The latest real-time cultural-economy addition is the [ONS real-time arts-payment-flow record](records/comparative-ons-realtime-arts-payment-flows-edinburgh-festival-2026.json): Scottish arts organisations’ payments to other UK arts organisations rose 73% in August versus July, while equivalent rest-of-UK payments fell 40%. The indicator is administrative and official statistics in development; it excludes ticket sales and visitor spending, so the next audit route is production payments -> festival jobs/income -> footfall/attendance -> audience and organisational value capture.
+
+The latest official AI-adoption addition is the [Eurostat generative-AI use record](records/comparative-eurostat-generative-ai-use-age-purpose-2025.json): use was 65% among EU internet users ages 16–24 versus 14% among ages 55–74, with private use exceeding professional and formal-education use. This is a harmonized adoption baseline, not evidence of capability, trust, productivity, substitution, or cultural change; the next audit route is access -> task completion -> human support/work control -> durable use or exit.
+
+The latest enterprise-platform addition is the [Eurostat enterprise social-media record](records/comparative-eurostat-enterprise-social-media-size-country-2025.json): social-media use was 60.6% among small EU enterprises versus 89.1% among large enterprises, with country shares ranging from 88.2% in Malta to 41.5% in Bulgaria. This is enterprise presence, not consumer reach or conversion; the next audit route is firm size/place -> discovery -> sales and labor burden -> platform concentration.
+
+The latest platform-experience addition is the [Eurostat hostile-online-content record](records/comparative-eurostat-hostile-online-content-age-gender-2025.json): 53.7% of EU internet users ages 16–24 encountered hostile or degrading content, including 57.2% of young women versus 50.4% of young men. This is exposure rather than direct victimization or harm; the next audit route is exposure -> reporting/moderation -> identity safety -> cultural/civic participation or exit.
+
+The latest youth-material-capacity addition is the [Eurostat youth-overcrowding record](records/comparative-eurostat-youth-overcrowding-age-country-2025.json): 26.9% of EU young people ages 15–29 lived in overcrowded households versus 16.8% of the total population, with rates ranging from 60.4% in Romania to 3.5% in Cyprus. This is a room-standard indicator, not subjective privacy or causal cultural behavior; the next audit route is room -> study/work/care capacity -> digital and cultural practice -> consumer autonomy.
+
+The latest youth-autonomy addition is the [Eurostat parental-home exit record](records/comparative-eurostat-youth-parental-home-exit-employment-2025.json): average exit age was 26.3 years in the EU, ranging from 31.5 in Croatia to 21.4 in Finland, with earlier exit generally associated with higher youth employment. This is aggregate transition evidence, not causal independence or affordability; the next audit route is exit -> rent/overcrowding -> work/education/care -> privacy and consumer autonomy.
+
+The latest place-by-category consumption addition is the [Census Monthly State Retail Sales record](records/us-census-monthly-state-retail-sales-experimental-2026.json): June 2026 modeled total retail growth ranged from -7.6% in Alaska to +11.3% in Louisiana, while sporting-goods/books/music ranged from -9.6% in D.C. to +24.8% in Alaska. This is nominal experimental sales dispersion, not real-volume, welfare, or individual-consumer evidence; the next audit route is place/category -> prices/population/tourism -> household budget and repeat behavior.
+
+The latest cultural-social-material tension addition is the [ABS General Social Survey 2025 record](records/comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection.json): cultural attendance was 79% and participation 48%, weekly outside-household face-to-face contact rose from 41.3% in 2020 to 52.2% in 2025, while cash-flow problems rose from 20.7% to 25.3% and dissaving from 22.9% to 25.7%. This is repeated-cross-section evidence, not individual change or causal linkage; the next audit route is participation/contact -> resources, time, place, accessibility -> durable wellbeing.
+
+The latest cultural-production labor addition is the [Statistics Canada National Culture Indicators record](records/comparative-statcan-national-culture-indicators-q1-2026-production-jobs.json): real culture GDP rose 0.6% in Q1 2026 while culture jobs fell 0.3%; broadcasting GDP rose 1.6% while broadcasting jobs fell 1.8%, and film/video jobs fell 2.3%. This is national economic-account evidence, not worker-level security, audience demand, or causal productivity evidence; the next audit route is subdomain output -> job quality/earnings -> platform structure -> cultural access.
+
+The latest real-consumption composition addition is the [Japan Statistics Bureau CTI record](records/comparative-japan-statistics-consumption-trend-index-july-2026-real-category-household.json): July 2026 real household consumption fell 2.4% year-over-year versus a nominal decline of 0.1%, with real education down 11.8%, utilities down 8.7%, and culture/recreation down 0.7%; single-person households fell 1.6% versus 2.2% for multi-person households. This is modeled aggregate-index evidence, not household-level welfare or causal substitution evidence; the next audit route is category pressure -> prices/household structure -> cultural and consumer adaptation.
+
+The latest accessibility-to-consumer addition is the [Statistics Canada disability-accessibility record](records/comparative-statcan-disability-accessibility-digital-consumer-barriers-2022-2024.json): among Canadians with disabilities, online barriers affected government access (13%), booking (11%), and banking/shopping (9%), with Internet-use barriers at 28% for very severe disabilities versus 9% for mild disabilities. This is self-reported cross-sectional barrier evidence, not completed-transaction or remedy evidence; the next audit route is interface friction -> alternate channel/support -> completion, cost, and trust.
+
+The latest culture audience/creator addition is the [New Zealand cultural-participation record](records/comparative-new-zealand-cultural-participation-2025-access-creation-ai-volunteering.json): attendance reached 88% in 2025 while active creation fell from 44% in 2023 to 40%, 72% named accessibility or convenience as an enabler, and 65% of digital-tool-using creators used generative AI. This is commissioned online-panel evidence, not verified output or causal access evidence; the next audit route is audience access -> creator capability/volunteer labor -> cultural value capture.
+
+The latest age/place cultural-behavior addition is the [Statistics Denmark Cultural Habits record](records/comparative-statistics-denmark-cultural-habits-q2-2026-age-urban-games-museums.json): digital-game participation was 93% among ages 16–24 versus 38% among ages 75+, museum participation was 68% versus 56%, and cinema participation was 76% in dense areas versus 64% in thin areas while heritage visits were 70% versus 67%. This is quarterly cross-sectional evidence with a post-2024 questionnaire break, not causal age/place or venue-access evidence; the next audit route is activity -> venue/transport/digital routine -> cultural meaning and repeat use.
+
+The latest digital-access infrastructure addition is the [Malaysia DOSM ICT-access record](records/comparative-malaysia-dosm-ict-access-2025-urban-rural-device-gap.json): household Internet access was 97.1% overall, but 99.0% in urban areas versus 90.7% in rural areas; individual mobile use was 99.6% while computer use was 81.5%. This is a survey-based access/device layer, not evidence of online behavior, affordability, quality, or causal place effects.
+
+The latest household-consumption addition is the [China NBS H1 2026 consumption record](records/comparative-china-nbs-household-consumption-education-culture-recreation-h1-2026.json): rural total consumption grew faster than urban consumption, and rural education/culture/recreation spending also grew faster, but rural per-capita levels remained substantially lower. This is a broad budget category, not direct evidence of cultural participation, preference, or causal urban-rural inequality.
+
+The latest participation-and-trust addition is the [Statistics Korea 2025 Social Survey record](records/comparative-kostat-south-korea-social-survey-2025-leisure-trust-participation.json): leisure and organized participation rose from 2023, but generalized social trust fell to 54.6% and 38.2% reported frequent or occasional loneliness. This is a cross-sectional, self-reported tension rather than an individual-level causal paradox.
+
+The latest local cultural-access addition is the [England DCMS museums-and-galleries record](records/comparative-england-dcms-museums-galleries-2025-26-local-physical-digital-gap.json): physical museum/gallery engagement ranged from 75% to 25% across named local authorities, while digital engagement ranged from 29% to 9%. The report supports a place/modality gap, not a causal venue-supply or affordability claim.
+
+The latest affordability-and-channel addition is the [Statistics Poland culture-participation record](records/comparative-poland-statistics-culture-participation-2024-spending-streaming-access.json): cultural spending rose nominally, but households still reported financial abandonment of cinema, while paid streaming showed large urban-rural and age gradients. It is a linked household-budget and self-report layer, not causal affordability evidence.
+
+The latest Latin American digital-access addition is the [Mexico INEGI ENDUTIH record](records/comparative-mexico-inegi-endutih-2025-internet-age-rural-indigenous-device-gap.json): Internet use reached 86.1% and the rural gap narrowed substantially over time, but computer/tablet use remained far below mobile use and older-age and state gaps remained large. It is an access/device survey, not direct online consumer-behavior evidence.
+
+The latest hybrid-sociality addition is the [Statistics Canada social-connections record](records/comparative-statcan-social-connections-2025-virtual-inperson-friendship-satisfaction.json): hybrid friend contact is dominant, while virtual-only contact is associated with lower satisfaction, support, and higher loneliness, with virtual-only patterns more common among recent immigrants, some racialized groups, and lower-income households. This is a cross-sectional association, not a technology effect.
+
+The latest household-nutrition addition is the [World Bank Bihar food-accounting record](records/comparative-world-bank-bihar-food-accounting-salience-dietary-diversity-2026.json), which follows food tracking, attention, habit formation, dietary diversity, food quantity, child MUAC, frontline-worker delivery, household income, food availability, and unpaid care work. It preserves the cluster-RCT, short-follow-up, delivery-heterogeneity, and non-causal-long-run boundaries.
+
+The latest government-AI addition is the [World Bank 60-economy government-AI record](records/comparative-world-bank-government-ai-adoption-institutional-readiness-60-economies-2026.json), which follows broad-but-shallow adoption, ad hoc public-worker use, income-varying constraints, data and budget capacity, governance lag, institutional-readiness archetypes, public accountability, and citizen exposure. It preserves the survey-reporting, classification, performance, and non-causal-outcome boundaries.
+
+The latest agency-measurement addition is the [World Bank Tunisia women's-agency record](records/comparative-world-bank-tunisia-womens-agency-context-specific-ai-measurement-2026.json), which follows qualitative grounding, context-specific questions, rural-urban and India-Tunisia variation, machine learning, generative AI, measurement validity, and institutional visibility. It preserves the mixed-methods, instrument-performance, sample, AI-version, and non-causal-policy boundaries.
+
+The latest job-search participation addition is the [World Bank Pakistan job-search record](records/comparative-world-bank-pakistan-job-search-initiation-friction-2026.json), which follows application defaults, psychological initiation costs, search participation, marginal returns, matching, and the boundary between applications and realized employment. It preserves the randomized-experiment, platform-specific, search-to-employment, and non-causal-outcome boundaries.
+
+The latest small-firm market-access addition is the [World Bank Georgia digital-market record](records/comparative-world-bank-georgia-digital-market-access-demand-incentive-2026.json), which follows training, credible demand, conditional purchase orders, e-commerce readiness, first transactions, organizational frictions, market participation, supplier diversity, and persistence. It preserves the randomized-experiment, setting-specific, treatment-design, follow-up, and non-causal-outcome boundaries.
+
+The latest digital-fiscal addition is the [IMF Middle East and Central Asia digitalization record](records/comparative-imf-me-central-asia-digitalization-revenue-social-assistance-2026.json), which follows digital identity, connectivity, financial inclusion, interoperable registries, tax administration, revenue, social-assistance targeting, poverty, inequality, trust, exclusion, privacy, and enforcement costs. It preserves the comparative-indicator, case-study, association, time-varying-data, and non-causal boundaries.
+
+The latest comparative consumer addition is the [Bank of Korea September consumer-survey record](records/comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations.json), which follows consumer sentiment through current living standards, income and spending expectations, inflation, housing-price outlook, and interest-rate exposure. It preserves the monthly cross-sectional, index, expectation, and non-causal boundaries.
+
+The latest cultural-institution addition is the [Pew Latter-day Saints community/trust/diversity record](records/us-pew-latter-day-saints-tradition-change-2026-community-trust-diversity.json), which follows religious infrastructure through retention, demographic change, family practice, volunteering, generalized trust, and partisan pluralism. It preserves the survey, historical-mode, subgroup-base, and non-causal boundaries.
+
+The latest comparative wellbeing addition is the [ONS Great Britain wellbeing/loneliness record](records/comparative-ons-opn-personal-wellbeing-loneliness-august-2026.json), which follows broad wellbeing through anxiety, loneliness, hope, material issue salience, and age-specific housing, immigration, NHS, and international-conflict priorities. It preserves the repeated cross-sectional, self-report, correction, and non-causal boundaries.
+
+The latest U.S. energy-infrastructure addition is the [EIA Short-Term Energy Outlook record](records/us-eia-steo-september-2026-electricity-demand-data-centers-household-prices.json), which follows electricity demand through data-center and manufacturing growth, geopolitical energy exposure, generation mix, emissions, and household-price pressure. It preserves the forecast, scenario, and non-causal boundaries.
+
+The latest U.S. institutional-legitimacy addition is the [Weidenbaum Center institutional-trust record](records/us-washu-weidenbaum-institutional-trust-party-place-pocketbooks-2026.json), which follows trust sorting through partisanship, geography, economic security, and institution-specific differences. It preserves the repeated-survey, subgroup-comparison, and non-causal boundaries.
+
+The latest U.S. consumer-infrastructure addition is the [Federal Reserve Diary of Consumer Payment Choice record](records/us-federal-reserve-diary-consumer-payment-choice-2026-cash-digital-rural-income.json), which follows payment modernization through cash persistence, backup and store-of-value behavior, and age-, income-, and rurality-linked differences. It preserves the diary, repeated-cross-section, and non-causal boundaries.
+
+The latest U.S. working-family addition is the [Pew working parents record](records/us-pew-working-parents-2026-work-family-childcare-flexibility.json), which follows family employment arrangements through employer benefits, work-from-home overlap, childcare access, gendered household labor, and flexibility-based allocation of unexpected care. It preserves the survey, conditional-denominator, perception, and non-causal boundaries.
+
+The latest comparative care-and-time addition is the [EIGE CARE Survey
+second-wave record](records/comparative-eige-care-survey-2026-unpaid-care-work-life-digital-tools.json),
+which adds a 27-country route from unpaid care and formal-service access through
+employment, work–life balance, mobility, digital coordination, and gendered
+time. It is a measurement and policy-infrastructure source, not a causal
+individual-outcome study.
+
+The latest digital-trust addition is the [Thales Digital Trust Index 2026
+record](records/comparative-thales-digital-trust-index-2026-access-friction-ai-autonomy.json),
+which adds an access-level route from authentication and data comprehension to
+abandonment, switching, AI-agent concern, and sectoral confidence.
+
+The latest public-sector AI addition is the [BCG Digital Government Citizen
+Survey record](records/comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight.json),
+which adds a 44-country route from AI use and proficiency through human
+oversight, appeals, public reporting, and regional legitimacy.
+
+The latest cultural-consumer addition is the [Ipsos B&A Sign of the Times 2026
+record](records/comparative-ipsos-ba-sign-of-times-2026-irish-consumer-resigned-resilience-identity-ai-housing.json),
+which adds a mixed-method Irish route linking economic fatigue, identity,
+geopolitical alignment, AI, human meaning, housing, and delayed life stages.
+
+The latest mental-load addition is the [YouGov Nordic mental-load record](records/comparative-yougov-nordic-mental-load-2026-gender-wellbeing-help-seeking.json),
+which adds comparative evidence on invisible coordination, gendered wellbeing,
+help-seeking follow-through, and organizational support.
+
+The latest place-based addition is the [Nordregio State of the Nordic Region
+2026 record](records/comparative-nordregio-state-nordic-region-2026-demography-labour-place-capacity.json),
+which adds municipal and regional variation in population, labour, economic
+resilience, critical infrastructure, and green innovation.
+
+The latest regional-well-being addition is the [OECD Regional Well-Being record](records/comparative-oecd-regional-wellbeing-2026-eleven-dimensions-place-trust-policy-targeting.json), which adds an eleven-dimension place-based measurement layer for regional disparity, service access, local capacity, and trust-relevant policy targeting.
+
+The latest information-authority addition is the [AP-NORC/API Media Insight record](records/us-ap-norc-media-insight-2026-influencers-news-trust-generational-authority.json), which adds generational creator use, topic-specific information routes, comparative trust, AI-source boundaries, misinformation attribution, and news avoidance.
+
+The latest cultural-consumption addition is the [DIMA 2026 music-streaming record](records/comparative-dima-music-streaming-2026-discovery-spend-local-culture-ai.json), which adds platform engagement, spending, music discovery, catalogue memory, local-culture, AI, and regulation evidence across the U.S. and selected comparison markets.
+
+The latest youth-culture addition is the [Mastercard Next Growth Generation record](records/comparative-mastercard-youth-culture-2026-genalpha-agency-creators-fandom-ai.json), which adds cross-market evidence on youth agency, creators, fandom, micro-communities, AI co-pilots, household influence, and projected economic capacity.
+
+The latest wellbeing-consumption addition is the [Kantar Pursuit of Wellbeing record](records/comparative-kantar-pursuit-wellbeing-2026-affordability-agency-care-ai.json), which adds affordability, health behavior, care navigation, trust, personalization, and AI-guidance evidence while preserving the foresight and non-causal boundaries.
+
+The latest Nordic consumer-culture addition is the [WPP Media 2026 consumer-trends record](records/comparative-wpp-media-nordic-consumer-trends-2026-mental-scarcity-status-control.json), which adds mental scarcity, generational pressure, guided choice, and status through time and control while preserving the Nordic commercial-foresight and non-causal boundaries.
+
+The latest cultural-AI addition is the [Google Research cultural GenAI record](records/comparative-google-research-cultural-genai-2026-identity-redlines.json), which adds cross-cultural evidence on identity salience, AI familiarity, sacred and historical sensitivity, representation red lines, and participatory governance while preserving the preprint, sampling, and non-causal boundaries.
+
+The latest global workplace-culture addition is the [SHRM Global Workplace Culture record](records/comparative-shrm-global-workplace-culture-2026-organizational-types-decision-making.json), which adds cross-national evidence on organizational culture types, decision structures, work systems, relationships, adaptability, and strategy alignment while preserving the publisher-research and non-causal boundaries.
+
+The latest public-pessimism addition is the [FGS Global Radar 2026 record](records/comparative-fgs-global-radar-2026-pessimism-disruption-affordability.json), which adds cross-country evidence on institutional distrust, reform demand, rule-breaking leadership, elite perceptions, affordability, fairness, and visible results while preserving the publisher-polling and non-causal boundaries.
+
+The latest consumer-institution addition is the [European consumer-policy and trust record](records/comparative-europe-consumer-policy-trust-vulnerability-2026.json), which adds comparative evidence on consumer-policy capacity, market norms, consumer trust, economic vulnerability, and uneven recourse reach while preserving the observational and non-causal boundaries.
+
+The latest identity-and-belonging addition is the [WGS/Strategy& national identity record](records/comparative-wgs-strategyand-national-identity-2026-belonging-trust-resilience.json), which adds a strategic cultural-state framework linking identity markers, civic expression, participation, trust, resilience, competitiveness, and Gulf policy examples while preserving the framework and non-causal boundaries.
+
+The latest Africa social-cohesion addition is the [Afrobarometer Social Cohesion in Africa record](records/comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion.json), which adds pan-African evidence on trust distance, tolerance, immigration, identity, perceived institutional fairness, informal solidarity, and civic action while preserving the survey and non-causal boundaries.
 
 The new [theme balance audit](US-BROAD-THEME-BALANCE-AUDIT_V1.md) shows that
 record density is uneven: platforms/data/attention has 75 records,
@@ -1020,7 +1334,7 @@ non-monetary and monetary response labels, while published narrative presence
 falls. The current index includes an in-progress category and a larger product
 mix; this is a change in the institutional record, not a verified change in
 consumer remedy, trust, or exit. The CFPB's 2025 annual report adds a separate
-intake frame—6.6354 million received, 5.9841 million sent to companies, and
+intake frame—6.6354 million received, 5.9891 million sent to companies, and
 5.4166 million closed after a confirmed commercial relationship—while
 preserving the distinction from the 5.4521 million published API records.
 These stages expose routing and data-integrity filters; they do not create a
@@ -1892,10 +2206,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1013 trend records and 2357 observations pass the
-structural and provenance validators; all 164 source-search packets pass their
-record checks; the source registry represents all 114 registered source
-families; 2,258 local Markdown links and 1,150 published HTML pages pass link
+the current checkpoint: 1978 trend records and 5941 observations pass the
+  structural and provenance validators; all 164 source-search packets pass their
+record checks; the source registry represents all 118 registered source
+families; 2,526 local Markdown links and 1,151 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 229
 connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -3433,6 +3747,175 @@ and its displayed hash synchronized. The publication gate remains the
 authoritative regression check; the latest verified portfolio is 98 ledgers,
 302 events, 454 typed arrows, and 164 explicitly open arrows.
 
+The latest external-source addition is the ITU-UNDRR-Sciences Po digital-
+systems-failure record. It adds a distinct infrastructure-resilience layer:
+cross-border cascade risk, weakened analogue fallback, unequal redundancy,
+essential-service continuity, early warning, trust, and coordination. It is
+explicitly bounded as an expert preparedness/scenario report rather than a
+prediction, incident census, respondent-level dataset, or causal evaluation.
+
+The latest consumer-source addition is the NCA coffee data-trends record. It
+adds routine, specialty differentiation, out-of-home recovery, drive-through,
+app ordering, and channel movement while preserving the trade-association and
+cross-sectional-survey boundary.
+
+The latest poverty-measurement addition is the World Bank global poverty
+update. It adds extreme-poverty prevalence, marginal projected decline,
+regional divergence, and estimate-revision uncertainty while preserving the
+modeled survey-and-nowcast boundary.
+
+The latest commodity-price addition is the World Bank Pink Sheet September
+2026 record. It adds uneven energy, food, fertilizer, and metals benchmark
+movement while preserving the distinction between reference prices and lived
+retail, household, firm, or welfare outcomes.
+
+The latest conflict-health addition is the WHO Middle East situation report.
+It adds a dated operational layer linking conflict, displacement, health-care
+attacks, damaged infrastructure, medicine access, service continuity, and
+underfunded response while preserving country-reporting and data-cutoff limits.
+
+The latest public-health sensing addition is the WHO Weekly Epidemiological
+Record 101(38). It adds raw-signal triage, escalation, respiratory-virus
+surveillance, reporting quality, laboratory participation, vaccination, and
+prevention while preserving the distinction between surveillance workflow and
+underlying disease or realized protection.
+
+The latest education-AI governance addition is the UNESCO common-good
+consultation record. It adds agency, sovereignty, safety, age appropriateness,
+procurement, cost, explainability, equity, and inclusion while preserving the
+discussion-paper and consultation boundary.
+
+The latest education-culture addition is the UNESCO multilateralism think
+piece. It adds classroom cooperation, difference, local-global knowledge,
+intellectual humility, trust, identity, and civic agency while preserving the
+qualitative, authorial, non-causal boundary.
+
+The latest climate-social-protection addition is the ILO-AFD social-insurance
+record. It adds climate risk, lifecycle protection, work transitions, coverage
+gaps, contributory insurance, and just-transition design while preserving the
+report’s 2022 underlying-analysis boundary.
+
+The latest labor/platform addition is the ILO Cambodia digital-platform-workers
+record. It adds app-mediated income access, unpaid waiting, operating costs,
+algorithmic ratings and penalties, injury exposure, contractor classification,
+social-protection gaps, and weak collective voice while preserving the
+Phnom Penh diagnostic boundary.
+
+The latest AI-health governance addition is the WHO AI-health-research ethics
+record. It adds lifecycle oversight, distributed accountability, public trust,
+data power, local capacity and participation, and the risks of data colonialism
+and ethics dumping while preserving the governance-framework boundary.
+
+The latest housing-security addition is the OECD homelessness and housing-
+exclusion record. It adds layered entry and exit pathways, hidden homelessness,
+housing affordability, institutional transitions, relationships, health,
+employment, social support, and measurement visibility while preserving the
+literature-review and cross-national survey boundary.
+
+The latest climate-politics addition is the OECD climate-sentiment and
+just-transition record. It adds the concern/action gap, economic-security
+exposure, sector and demographic differences, perceived social norms,
+transparent compensation and fair burden sharing while preserving the
+descriptive public-attitudes boundary.
+
+The latest digital-identity addition is the W3C Identity & the Web record. It
+adds privacy, access, trust, cultural meaning, human rights, surveillance,
+interoperability, vendor power and standards governance while preserving the
+document’s exploratory, non-consensus boundary.
+
+The latest cultural-AI addition is the Government of Canada AI and Culture
+Summit record. It adds creator rights, copyright, trust, co-design, Indigenous
+and linguistic sovereignty, domestic infrastructure, literacy and institutional
+readiness while preserving the organizer-synthesis boundary.
+
+The latest community-culture addition is the Circle 2026 Community Trends
+record. It adds connection, belonging, trust, retention, intentional design,
+AI-generated-content fatigue and the commercialization of community while
+preserving the commercial-public-summary boundary.
+
+The latest care-finance addition is the PMNCH global health-financing record.
+
+The latest critical-risk governance addition is the [OECD critical-risk governance record](records/comparative-oecd-critical-risk-governance-2026-polycrisis-preparedness.json). It adds a polycrisis-preparedness layer linking compound risks to foresight, preparedness investment, whole-of-government and whole-of-society coordination, critical dependencies, accountability, systematic learning and international cooperation.
+
+The latest trade-infrastructure addition is the [WEF TradeTech Paradox record](records/comparative-wef-tradetech-paradox-2026-connectivity-fragmentation.json). It adds a digital-connectivity layer linking trade fragmentation to technology-enabled visibility, finance, logistics, interoperability, governance, human capacity and unequal dependence across firms and states.
+
+The latest housing-and-migration addition is the [SVR Germany housing and participation record](records/comparative-svr-germany-housing-migration-2026-participation-neighborhoods.json). It adds a place-and-status layer linking housing affordability and tenure to neighbourhood resources, education, labour-market access, discrimination, segregation, participation and legal choice.
+
+The latest intercultural-dialogue addition is the [UNESCO–IEP dialogue record](records/comparative-unesco-iep-intercultural-dialogue-2022-released-2026-peace-inclusion.json). It adds a cultural and civic-capacity layer linking dialogue structures and values to identity, inclusion, human rights, conflict prevention, resilience and peace, while preserving the underlying report’s 2022 vintage.
+
+The latest social-cohesion measurement addition is the [World Bank social-cohesion record](records/comparative-world-bank-social-cohesion-development-outcomes-2023-bonding-bridging-linking.json). It adds a relational-governance layer linking bonding, bridging and linking to trust, participation, citizen-state relations, development interventions and context-dependent implementation.
+
+The latest process-legitimacy addition is the [World Bank process-legitimacy record](records/comparative-world-bank-process-legitimacy-2025-development-contestation.json). It adds a procedural-governance layer linking fairness, representation, negotiation, affected-group losses and multi-level legitimacy contests to cooperation and implementation risk.
+
+The latest AI-diffusion addition is the [World Bank generative-AI use record](records/comparative-world-bank-generative-ai-use-2025-income-digital-divide.json). It adds a technology-capability layer linking GenAI traffic, platform concentration, country income, infrastructure, localization and potential economic participation while preserving the study’s proprietary-data and proxy limits.
+
+The latest creative-work addition is the [UK Creative Industries AI Adoption Plan record](records/comparative-uk-creative-industries-ai-adoption-2026-augmentation-trust-skills.json). It adds a cultural-labour layer linking AI adoption to augmentation, creative control, trust, rights, firm size, skills, entry routes, cost barriers and regional infrastructure.
+
+The latest child-digital-safety addition is the [ITU Protection through Online Participation record](records/comparative-itu-pop-child-online-protection-2026-reporting-support-pathways.json). It adds a child-agency and protection layer linking online risk to reporting, help-seeking, referral, platform responsibility, accessibility and public or community services.
+
+The latest ageing-and-AI addition is the [ITU AI and ageing record](records/comparative-itu-ai-ageing-2026-digital-inclusion-health-security-participation.json). It adds a life-course digital-inclusion layer linking AI to health, economic security, participation, connectivity, age and gender inequality, affordability, skills, trust and human support.
+
+The latest shock-smoothing addition is the [World Bank international risk-sharing record](records/comparative-world-bank-international-risk-sharing-government-private-saving-2026-shock-smoothing.json). It adds a macro-to-household-buffer layer linking international volatility to public saving, private precautionary saving, remittances, transfers, investment income, fiscal space and capital-account openness.
+
+The latest housing-resilience addition is the [World Bank housing robustness record](records/comparative-world-bank-housing-robustness-2026-poverty-disaster-learning.json). It adds a housing-and-disaster layer linking poverty, fragile housing, building systems, governance, repeated hazard experience and institutional learning.
+
+The latest adaptive-protection addition is the [World Bank disaster-poverty record](records/comparative-world-bank-adaptive-social-protection-2026-disaster-poverty-coverage-intensity.json). It adds a social-protection layer linking disaster poverty and well-being losses to coverage, benefit intensity, targeting, country income and delivery capacity.
+
+The latest AI-skills addition is the [OECD AI and skills record](records/comparative-oecd-ai-skills-2026-adoption-training-human-work.json). It adds a work-transition layer linking AI adoption to skills shortages, high-level and human skills, training, algorithmic management, worker voice and job quality.
+
+The latest everyday-health addition is the [PwC Voice of the Consumer record](records/comparative-pwc-voice-consumer-2026-everyday-health-data-trust.json). It adds a consumer-health layer linking daily routines to wellness products, wearables, diagnostics, AI, pharmacies, data sharing, affordability and trusted human guidance.
+
+The latest Generation Equality addition is the [UN Women institutionalized feminist systems-change record](records/comparative-un-women-generation-equality-2026-institutionalized-feminist-systems-change.json). It adds a gender-governance layer linking commitments to financing, public-system integration, accountability, data, feminist and youth leadership, civic space and durable implementation.
+
+The latest Pacific data-system addition is the [UN Women Pacific Gender Data Outlook Index record](records/comparative-un-women-pacific-gender-data-outlook-index-2026-data-capacity-accessibility.json). It adds a regional policy-infrastructure layer linking gender-data systems to institutional financing, production, accessibility, SDG monitoring, investment priorities and accountability while preserving the 11-of-22 jurisdiction and diagnostic-index boundaries.
+
+The latest belonging addition is the [Belonging Forum UK Belonging Barometer record](records/comparative-belonging-forum-uk-belonging-barometer-2026-place-power-purpose.json). It adds a social-infrastructure layer linking belonging to relationships, local places, housing and economic security, time, services, health, representation and participation, while preserving the nationally weighted cross-sectional survey boundary.
+
+The latest digital-systems addition is the [DataReportal Digital 2026 Mid-Year record](records/comparative-datareportal-digital-2026-midyear-ai-social-media-connectivity.json). It adds a global connectivity-and-platform layer linking internet access, mobile use, social identities, AI adoption, information, advice, learning, entertainment and uneven digital dependence while preserving the report's multi-source estimate and non-unique-user boundaries.
+
+The latest AI-attitudes addition is the [Public First AI Global 2026 record](records/comparative-public-first-ai-global-2026-backlash-sovereignty-sophistication.json). It adds a legitimacy-and-power layer linking AI sentiment, shallow versus sophisticated use, income and education, agent privacy, model origin, data sovereignty, data-centre politics and relational use while preserving the survey and model boundaries.
+
+The latest consumer-outlook addition is the [NIQ Consumer Outlook 2026 record](records/comparative-niq-consumer-outlook-2026-financial-caution-trust-commerce.json). It adds a household-consumption layer linking financial caution, cost of living, geopolitical concern, secondary income, essential spending, category inflation, brand trust, localization and omnichannel commerce while preserving the survey and market-measurement boundaries.
+
+The latest hybrid-value addition is the [Capgemini consumer 2026 record](records/comparative-capgemini-consumer-2026-value-ai-human-touch-fairness.json). It adds a consumer-control layer linking fairness, quality, switching, intentional indulgence, AI shopping, permissions, data concern, human assistance, social commerce and disclosure while preserving the 12-country survey boundary.
+
+The latest cultural-identity addition is the [Culturati Cultural Mosaic 5.0 record](records/comparative-culturati-cultural-mosaic-2026-polycultural-identity-creators-ai.json). It adds a cultural-decision layer linking polycultural identity, lifestyle, shopping, media, creators, trusted voices and AI discovery while preserving the public-overview-only boundary.
+
+The latest civic-geopolitical addition is the [CIVICUS 2026 State of Civil Society record](records/comparative-civicus-state-civil-society-2026-resistance-civic-space-geopolitics.json). It adds a global civic layer linking democratic retreat, impunity, technology power, civic-space contraction, funding pressure and distributed resistance while preserving the report's selected-case and advocacy boundary.
+
+The latest labor-market addition is the [ILO Employment and Social Trends 2026 record](records/comparative-ilo-employment-social-trends-2026-fragile-stability-job-quality.json). It adds a work-security layer linking fragile headline stability to the global jobs gap, informality, working poverty, income recovery, productivity divergence, gender and youth exclusion, trade and domestic policy capacity.
+
+The latest food-culture addition is the [Circana Eating Patterns in America 2026 record](records/comparative-circana-eating-patterns-america-2026-food-occasions-channels.json). It adds a consumption-system layer linking eating occasions, in-home and away-from-home contexts, channels, preparation infrastructure, emerging behaviors and commercial measurement while preserving the public-overview boundary.
+
+The latest institutional-confidence addition is the [Gallup Global Confidence in Institutions 20-Year Review record](records/comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust.json). It adds a legitimacy layer distinguishing institution-specific confidence, regime-type differences, election and judicial confidence, and political-extreme subgroup patterns while preserving the country-median and survey-association boundary.
+
+The latest poverty-fragility addition is the [World Bank Fragility at the Core of Global Poverty record](records/comparative-world-bank-poverty-fragility-2026-feedback-data-conflict.json). It adds a development-security layer linking poverty concentration, conflict, fragility, institutional capacity, displacement, data integration and policy fit while preserving the reproducibility-catalog and restricted-input boundary.
+
+The latest climate-mobility addition is the [JRC Climate Security, Migration and Fragility record](records/comparative-jrc-climate-security-migration-fragility-2026-risk-multiplier-resilience.json). It adds a climate-security layer linking climate stress, conflict, displacement, mobility, remittances, social protection, safe pathways and inclusive urbanization while preserving the policy-brief boundary.
+
+The latest humanitarian-capacity addition is the [OCHA Global Humanitarian Overview 2026 record](records/comparative-ocha-global-humanitarian-overview-2026-needs-funding-service-collapse.json). It adds a response-capacity layer linking need, conflict, climate shocks, funding contraction, service continuity, coordination, cash and recovery infrastructure while preserving the planning-estimate boundary.
+
+The latest organizational-AI addition is the [Deloitte Global Human Capital Trends 2026 record](records/comparative-deloitte-human-capital-trends-2026-human-machine-adaptation-trust.json). It adds a work-design layer linking organizational agility, human–machine redesign, AI decision-making, cultural debt, trust and perception gaps while preserving the executive-survey and non-causal boundary.
+
+The latest professional-workforce addition is the [ACCA Global Talent Trends 2026 record](records/comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust.json). It adds a professional adoption-and-legitimacy layer linking AI hiring confidence, regular AI use, skills confidence, agent deployment, hybrid work, promotion visibility, social impact, wellbeing and retention while preserving the accountancy/finance sample and non-causal boundary.
+
+The latest human-purpose addition is the [ITDF Human Purpose in Peril record](records/comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds.json). It adds a public meaning-and-agency layer linking LLM adoption, daily influence, life-decision use, social connection, purpose, critical thinking, verification, dependence and institutional guidance while preserving the nationally representative U.S. survey, LLM-user oversample and non-causal boundary.
+
+The latest civic-conversation addition is the [More in Common/UCL Disagreeing Well record](records/comparative-more-in-common-disagreeing-well-2026-silence-civic-spaces.json). It adds a social-cohesion layer linking reluctance to speak, negative-label anxiety, disagreement norms, political hostility, civic-forum use, informal spaces, party differences and age differences while preserving the incomplete public sample details and non-causal boundary.
+
+The latest geopolitical-public-opinion addition is the [Rockefeller Foundation/Focaldata global cooperation record](records/comparative-rockefeller-focaldata-global-cooperation-2026-security-leadership-aid.json). It adds a public legitimacy layer linking world pessimism, cooperation support, security priorities, aid, national-interest conditions, leadership fragmentation, coalitions and trust in international institutions while preserving the country-median, commissioned-survey and information-treatment boundaries.
+
+The latest climate-consent addition is the [Potential Energy Fixing Climate Communications record](records/comparative-potential-energy-climate-communications-2026-cost-health-energy-independence.json). It adds a climate-meaning layer linking message framing to pollution, health, household costs, fairness, energy independence, political ideology and support for climate action while preserving the commissioned communications-research, short-run message-test and non-causal boundary.
+
+The latest social-connection addition is the [Meta-Gallup Global State of Social Connections record](records/comparative-meta-gallup-global-social-connections-2023-142-countries-loneliness.json). It adds a social-health layer linking emotional connectedness, loneliness, age, gender, country variation, interaction frequency, social capital and policy visibility while preserving the 2022-2023 fieldwork vintage and non-causal boundary.
+
+The latest culture-infrastructure addition is the [4Culture King County Culture and Communities record](records/comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging.json). It adds a local cultural-participation layer linking activity depth, belonging, health, learning, identity, cost, time, caregiving, accessibility and public cultural support while preserving the regional sample and self-reported, non-causal boundary.
+
+The latest well-being-governance addition is the [OECD Slovak Republic well-being record](records/comparative-oecd-slovak-wellbeing-2026-policy-coherence-dashboard.json). It adds measurement as institutional infrastructure: current well-being, distribution, future resources, sustainability, data quality and cross-sector trade-offs can be connected to strategy, appraisal, performance management and budgeting. The source is a technical framework and country assessment, not proof that dashboards change allocations or outcomes.
+It adds funding uncertainty, organizational contraction, service prioritization,
+localization, flexible-finance needs, and affected-group voice while preserving
+the partner-network survey and advocacy boundary.
+
 The latest continuation adds three control refinements. First, the
 counterexample register now has 26 rows and explicitly includes durability
 ruptures: payment without practical return, return followed by dismissal, and
@@ -3444,3 +3927,192 @@ plain-language political route now states the CCES capacity/meaning split:
 earlier job loss was followed by lower local action but not uniformly lower
 Congress approval. These additions sharpen what the atlas can say without
 closing the same-unit recovery, attribution, or exit arrows.
+
+The latest OECD trust addition is the [Slovak institutional-confidence record](records/comparative-oecd-slovak-trust-2026-public-services-voice-ai.json). It adds a legitimacy route from public-service encounters, benefit fairness, data use, evidence, intergenerational balance and political voice to trust and acceptance of government AI. The survey shows low and declining trust, but does not establish causal political behavior or substitute for administrative performance data.
+
+The latest UNESCO culture-and-emergency addition is the [Voices of Courage record](records/comparative-unesco-voices-courage-2026-women-culture-emergencies-resilience.json). It adds a gendered crisis route from emergency exposure through livelihood, safety, displacement, unpaid care, artistic freedom, support and decision-making to cultural continuity, community recovery and resilience. The source uses a global survey with testimonies and cases, so sampling, causal effects and material adequacy remain open.
+
+The latest WHO health-economy addition is the [Economics of Health for All record](records/comparative-who-economics-health-for-all-2026-cross-sector-policy-finance.json). It adds a cross-sector route from economic, commercial, labor, fiscal, climate and social-protection policy to health equity, participation, investment and public accountability. The source is a draft strategy, so country implementation, causal effects and budget influence remain open.
+
+The latest Pew Latino mobility-and-meaning addition is the [American Dream record](records/comparative-pew-latinos-american-dream-2026-mobility-identity-household-security.json). It adds a cultural-economic route from identity, family aspiration, homeownership, financial security, opportunity and perceived structural constraint to intergenerational optimism and legitimacy. The source is representative survey and open-ended coding evidence, so actual mobility, wealth and causal consumption effects remain open.
+
+The latest Pew identity-and-belonging addition is the [Latino identity record](records/comparative-pew-latino-identity-2026-belonging-discrimination-generation-politics.json). It adds a route from identity centrality, discrimination, language, immigrant generation, self-labels and linked fate to belonging, perceived opportunity and collective legitimacy. The source is representative survey evidence, so institutional treatment, longitudinal identity change and causal political action remain open.
+
+The latest US digital-participation addition is the [Purdue mobile-dependent households record](records/us-purdue-mobile-dependent-households-2026-digital-participation.json). It shows that no-internet access fell while mobile-only and smartphone-only access rose, making “connected” an insufficient measure of functional participation. The tract-level comparison identifies disability, income, fixed-broadband quality, housing, and place as associated with the constrained pathway; it is not a same-household panel or service-outcome evaluation.
+
+The latest US financial-resilience addition is the [Financial Health Pulse 2026 record](records/us-finhealth-pulse-2026-financial-vulnerability-insurance-confidence.json). It shows a 2026 reversal in household financial health: vulnerability rose to 17%, bill payment and spending room declined, student-loan borrowers became more exposed, and insurance confidence reached its lowest reported level since 2018. It is a recurring survey-based financial-health measure, not a causal or claims-level evaluation.
+
+The latest US climate-health addition is the [Climate Central heat-illness record](records/us-climate-central-heat-illness-er-visits-2026-climate-health-burden.json). It adds a modeled attribution route from warming to emergency-care demand: climate change accounted for 27% of the US warm-season heat-related emergency-department visit rate in 2018–2025, with especially high regional and event rates. It is not an individual causal estimate or an evaluation of adaptation.
+
+The latest US aging-capacity addition is the [America’s Health Rankings 2026 Senior Report record](records/us-ahr-senior-report-2026-aging-care-workforce-food-behavioral-health.json). It adds a demographic-capacity route connecting population aging, home-health and geriatric workforce distribution, behavioral-health risk, food insecurity, SNAP reach, and home-delivered meals. It is a multi-source status synthesis with mixed denominators, not a causal or service-adequacy evaluation.
+
+The latest US institutional-functioning addition is the [Freedom House United States 2026 record](records/us-freedom-house-2026-institutional-functioning-rights-oversight.json). It adds an institutional route connecting formal democratic status, legislative capacity, executive authority, anticorruption safeguards, political expression, protest, and civic resilience. It is an expert-coded country assessment with cited events, not a causal political-behavior study or legal determination.
+
+The latest US macro-geopolitical addition is the [CBO Budget and Economic Outlook 2026–2036 record](records/us-cbo-outlook-2026-2036-tariffs-immigration-aging-ai-growth.json). It adds a macro-to-household route connecting fiscal policy, tariffs, immigration, aging, AI investment, labor supply, trade, debt, inflation, and purchasing power. It is a baseline forecast under policy assumptions, not an observed or causal distributional estimate.
+
+The latest US civic-infrastructure addition is the [GAO public-library facilities record](records/us-gao-public-library-facilities-2026-deferred-maintenance-civic-infrastructure.json). It adds a physical-capacity route connecting library facilities, accessibility, deferred maintenance, local funding, technology, community programming, voting, emergency response, and public life. It is a nationally representative facility survey and site study, not a user-level access or civic-outcome evaluation.
+
+The latest US municipal-infrastructure addition is the [NLC Municipal Infrastructure Conditions 2026 record](records/us-nlc-municipal-infrastructure-conditions-2026-finance-water-mobility.json). It adds a local-government capacity route connecting water, sewer, stormwater, roads, treatment, local revenue, cash financing, staffing, federal grants, and public-service reliability. It is a small self-reported municipal survey and funding synthesis, not a national engineering audit or resident-outcome evaluation.
+
+The latest US energy-affordability addition is the [Duke Cost of Keeping Cool record](records/us-duke-energy-affordability-extreme-heat-2026-cooling-access.json). It adds a household-safety route connecting modeled county energy burden, electricity-dependent domestic functions, rising cooling demand, extreme-heat compounding, cooling access, and state/federal support design. The source is a bounded report synthesis, not a household-level bill, clinical, take-up, or causal policy evaluation.
+
+The latest US home-environment addition is the [EIA 2024 RECS housing-characteristics record](records/us-eia-recs-2024-home-energy-devices-routines-2026.json). It adds a home-infrastructure route connecting regional housing form, appliances, lighting, streaming devices, smart-speaker control, cooking routines, and energy measurement. The release is preliminary for housing characteristics and does not yet provide final consumption/expenditure estimates or causal household outcomes.
+
+The latest US civic-foresight addition is the [Civic Life in America 2036 record](records/us-civic-futures-civic-life-2036-ai-trust-connection.json). It adds a scenario route connecting participation, trust, social connection, economic precarity, polarization, AI-mediated representation, institutional capacity, and unequal agency. The source is a foresight synthesis, not a forecast or representative outcome study.
+
+The latest US media-politics addition is the [Gallup influencer-audiences record](records/us-gallup-influencer-audiences-democratic-norms-2026.json). It adds a media-to-action route connecting creator-mediated news, protest and voting efficacy, accountability judgments, party divergence, and institutional skepticism. It is an observational analysis of small selected subgroups, not a creator-effect or realized-action study.
+
+The latest US election-legitimacy addition is the [Gallup election-concerns record](records/us-gallup-election-concerns-democratic-legitimacy-2026.json). It adds a public-risk route connecting election administration, political pressure, intimidation, ballot security, social-media intensity, political finance, gerrymandering, and institutional accountability. It is cross-sectional perception evidence, not an election-security or turnout evaluation.
+
+The latest US-anchored geopolitical addition is the [MPI migration-diplomacy record](records/us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage.json). It adds a migration-as-statecraft route connecting displacement, border governance, visas, sanctions, tariffs, aid, labor pathways, technology, security, and partner-country leverage. It is a comparative policy synthesis, not a causal U.S. policy or migrant-outcome evaluation.
+
+The latest US labor-supply addition is the [Business Economics immigration-policy record](records/us-business-economics-immigration-policy-labor-supply-2026.json). It adds a labor-capacity route connecting immigration policy, population growth, immigrant-intensive sectors, education composition, fiscal incidence, and sustainable employment growth. It is abstract-level panel evidence, not a causal wage, price, fiscal, or household-outcome study.
+
+The latest US behavioral-health addition is the [SAMHSA 2025 NSDUH record](records/us-samhsa-nsduh-2025-behavioral-health-youth-adult-treatment-2026.json). It adds a transition route connecting improving youth indicators, persistent adult mental-health burden, age-graded treatment receipt, and mass substance-use reach. It is national survey evidence, not a causal explanation of the trend or an evaluation of treatment quality.
+
+The latest US cultural-health addition is the [UF-UCL arts-engagement record](records/us-ufl-ucl-arts-engagement-time-use-2003-2023-2026.json). It adds a cultural-access route connecting low but stable daily arts participation, home-based and solitary creative activity, public-space loss around the pandemic, and a possible social-health pathway. It is time-use evidence with researcher interpretation, not a causal health evaluation.
+
+The latest US youth-work addition is the [Pew teen summer-employment record](records/us-pew-teen-summer-employment-1948-2026-work-socialization.json). It adds a youth-work route connecting the long decline and partial rebound of summer employment to age and race/ethnicity gaps, sector concentration, first-job exposure, and household opportunity. It is descriptive BLS-based evidence, not a causal job-quality or youth-development evaluation.
+
+The latest US education-capacity addition is the [NCES Condition of Education 2025 record](records/us-nces-condition-education-2025-enrollment-learning-pathways.json). It adds an education-system route connecting public enrollment contraction, more at-home instruction, divergent postsecondary pathways, weaker achievement indicators relative to 2019, and continued attainment-linked labor-market returns. It is indicator evidence, not a causal evaluation of school quality, family welfare, or credential returns.
+
+The latest US mobility-infrastructure addition is the [FHWA Our Nation's Highways 2026 record](records/us-fhwa-our-nations-highways-2026-mobility-dependency.json). It adds a mobility-dependency route connecting car-dominant travel, work/family/social trip purposes, road hierarchy, local access, and freight movement. It is national infrastructure evidence, not a causal estimate of transport cost, safety, emissions, or unequal access.
+
+The latest US grid-capacity addition is the [DOE National Transmission Needs Study record](records/us-doe-national-transmission-needs-2026-ai-manufacturing-electrification.json). It adds an infrastructure-governance route connecting AI and industrial load growth, electrification, congestion, interregional reliability, affordability, and public consultation. It is draft assessment evidence, not a causal or project-level consumer-outcome evaluation.
+
+The latest US climate-governance addition is the [National Academies drought-assessment record](records/us-national-academies-drought-assessment-nonstationarity-2026.json). It adds a resilience route connecting changing drought conditions, nonstationary baselines, impact data, early warning, water management, infrastructure, and long-term adaptation. It is consensus-framework evidence, not a regional forecast, household-loss estimate, or adaptation-effectiveness evaluation.
+
+The latest US shared-institution addition is the [Knight-NORC public-library record](records/us-knight-norc-public-library-value-services-2026.json). It adds a public-infrastructure route connecting library legitimacy to information access, internet and technology help, classes, work-navigation, community space, and perceived funding-cut impact. It is perception evidence, not a usage, service-quality, fiscal-return, or causal institutional-trust evaluation.
+
+The latest US care-and-life-course addition is the [AARP/National Alliance for Caregiving sandwich-generation record](records/us-aarp-sandwich-generation-caregiving-2026-work-family-compression.json). It adds a household-capacity route connecting simultaneous child-rearing and adult care to compressed time, complex medical tasks, work disruption, physical strain, financial strain, and limited caregiver-centered clinical attention. It is subgroup survey evidence, not a causal or longitudinal evaluation.
+
+The latest US national-mood addition is the [Pew 250th-anniversary national-mood record](records/us-pew-national-mood-250th-2026-future-expectations-polarization.json). It adds a legitimacy route connecting present dissatisfaction, future expectations, partisan mood alignment, age differences, perceived political division, and anticipated U.S. global importance. It is repeated cross-sectional opinion evidence, not a causal, behavioral, or predictive evaluation.
+
+The latest US cultural-institution addition is the [AAM Museums & Public Opinion 2026 record](records/us-aam-museums-public-opinion-2026-cultural-civic-economic-legitimacy.json). It adds a legitimacy route connecting museums to education, local economic value, information trust, public funding, elected-official incentives, content boundaries, and cross-group support. It is a public report with limited methodological disclosure, not a usage, access, learning, local economic, or causal trust evaluation.
+
+The latest US public-power addition is the [UMass corruption and economic-attribution record](records/us-umass-corruption-public-power-2026-partisan-double-standard-costs.json). It adds a governance route connecting perceived corruption, shared standards for self-dealing and public abuse, partisan assignment of blame, presidential trust, price pressure, and national direction. It is national opinion evidence, not verified corruption, causal price attribution, enforcement, or behavioral evidence.
+
+The latest US-to-world addition is the [Pew U.S. role in the world record](records/us-pew-role-world-2026-partisan-global-legitimacy-intervention.json). It adds a geopolitical-legitimacy route connecting perceived U.S. influence, respect, peace contribution, interference, attention to other countries, superpower status, and partisan identity. It is public-opinion evidence, not a measure of foreign-policy conduct, partner trust, or geopolitical outcomes.
+
+The latest US cultural-demographic addition is the [Pew Hispanic identity and counting record](records/us-pew-hispanic-identity-counting-2026-population-race-ancestry.json). It adds an identity-and-measurement route connecting population growth, Census classification, racial identity, ancestry, generation, Afro-Latino identity, intermarriage, and institutional counting. It is a demographic and survey synthesis, not a unified market, electorate, or assimilation evaluation.
+
+The latest US AI-infrastructure addition is the [Pew data-center public-opinion record](records/us-pew-data-centers-2026-local-legitimacy-energy-costs-community-consent.json). It adds a local-legitimacy route connecting rising awareness of data centers to environmental concern, home-energy costs, quality of life, jobs, tax revenue, partisan and rural opinion, and hypothetical local consent. It is perception evidence, not a realized-impact, rate, emissions, water-use, or consent evaluation.
+
+The latest US consumer-health addition is the [Pew supplements record](records/us-pew-supplements-2026-wellness-consumer-health-belief-market.json). It adds a wellness-consumption route connecting supplement use to age, income, gender, race/ethnicity, product category, perceived importance, social influence, and household health practice. It is self-reported use and belief evidence, not a clinical efficacy, safety, spending, or care-substitution evaluation.
+
+The latest US cultural-memory addition is the [Pew 9/11 memory and generational-transmission record](records/us-pew-911-memory-generational-transmission-2026-national-trauma-education.json). It adds a memory route connecting vivid direct recollection to school, family, media, inherited narratives, cohort replacement, and potential national meaning. It is survey and historical-attitude evidence, not a memory-accuracy, trauma, policy-attitude, or causal political-effects evaluation.
+
+The latest US work/identity addition is the [Pew working-class identity record](records/us-pew-working-class-identity-2026-politics-income-occupation.json). It adds a class-language route connecting self-identification to income, education, financial comfort, occupation, race/ethnicity, and party. It is identity and association evidence, not a material-class definition, causal explanation, or policy-preference measure.
+
+The latest US workplace-data addition is the [Gallup employee data-use record](records/us-gallup-employee-data-trust-2026-workplace-monitoring-voice.json). It adds a data-governance route connecting perceived monitoring, purpose, transparency, engagement, managerial access, trust, and employee voice. It is a workplace publication summary with undisclosed public sample details, not an audit of actual collection or a causal outcome study.
+
+The latest US women's-health addition is the [Gallup-Pivotal women's health record](records/us-gallup-pivotal-womens-health-2026-care-work-civic-participation.json). It adds a care-to-capacity route connecting dismissal, diagnostic delay, treatment barriers, career limits, caregiving, relationships, civic participation, and menopause. It is self-reported survey evidence, not a clinical causal study, provider-intent finding, or workplace-accommodation evaluation.
+
+The latest US care-affordability addition is the [KFF women's health affordability record](records/us-kff-womens-health-affordability-2026-cost-care-tradeoffs.json). It adds a cost-to-household-room route connecting insurance and care prices to delayed care, skipped tests, prescription changes, coverage gaps, and basic-needs tradeoffs. It is nationally representative survey evidence, not a clinical-outcome, causal insurance, or total-budget evaluation.
+
+The latest US gender-representation addition is the [Pew woman-president skepticism record](records/us-pew-woman-president-skepticism-2026-gender-representation-legitimacy.json). It adds a symbolic-representation route connecting perceived electoral likelihood to gender-neutral leadership frames, party identity, personal importance, and institutional expectation. It is expectation and opinion evidence, not an electoral forecast or causal account of gender bias.
+
+The latest US-anchored comparative addition is the [Pew South Korea-U.S. relationship record](records/comparative-pew-south-korea-us-relationship-2026-alliance-legitimacy-dependence.json). It adds an external-legitimacy route connecting partner favorability, reliability, reciprocity, tariffs, peace contribution, alliance indispensability, and military presence. It is partner-opinion and contextual evidence, not an alliance-performance, military, government-action, or causal evaluation.
+
+The latest US health-information addition is the [Pew race and social-media health-information record](records/us-pew-health-information-race-social-media-2026.json). It adds a mediated-care route connecting race/ethnicity to platform use, perceived accuracy, medical expertise, transparency, influencer use, and sensitive questions. It is platform and opinion evidence, not a misinformation, clinical-substitution, algorithmic, or health-outcome evaluation.
+
+The latest US AI-health addition is the [Pew AI chatbots for health record](records/us-pew-ai-chatbots-health-2026-navigation-privacy-mental-health.json). It adds an AI-navigation route connecting speed, cost, symptom and diagnosis interpretation, sensitive questions, helpfulness, privacy comfort, and mental-health skepticism. It is survey evidence, not a clinical, privacy, mental-health, or outcome evaluation.
+
+The latest US AI/work addition is the [Pew AI concern and young-adult jobs record](records/us-pew-ai-concern-young-adults-jobs-2026.json). It adds a legitimacy-and-work-expectations route connecting age, concern, excitement, expected job loss, human connection, creativity, and technology adoption. It is public-attitude evidence, not a labor-market forecast, adoption measure, or causal explanation.
+
+The latest US family-mobility addition is the [Urban families, core cities and suburbs record](records/us-urban-families-core-suburbs-2026.json). It adds a place-and-life-stage route connecting fertility, child retention, family-sized housing, child care, schools, commute patterns, amenities, and socioeconomic choice constraints. It is correlational multi-metro evidence, not a causal fertility, migration, housing-preference, or policy-impact study.
+
+The latest US care-portfolio addition is the [CSSP family care arrangements record](records/us-cssp-family-care-arrangements-2026.json). It adds a care-sequencing route connecting parental, formal and kin/community care to affordability, trust, cultural fit, paid leave, work design, and the gap between care used and care wanted. It is purposive qualitative interview evidence, not a nationally representative, causal, or child-outcome evaluation.
+
+The latest US corporate-legitimacy addition is the [Stanford CEO activism and consumer response record](records/us-stanford-ceo-activism-consumer-response-2026.json). It adds a firm-voice route connecting CEO advocacy to issue boundaries, age, AI, corporate authority, consumer memory, and reported purchase response. It preserves the incomplete-public-tables limitation and is not a verified sales, employee, or political-outcome evaluation.
+
+The latest US household-literacy addition is the [Capita-Book Harvest home literacy record](records/us-capita-book-harvest-home-literacy-2026.json). It adds a cultural-access route connecting home book supply, income, race, cultural and language fit, cost, reading routines, work schedules, and civic meaning. It is partner-sponsored survey evidence, not a causal education, literacy, or civic-outcome study.
+
+The latest global youth-well-being addition is the [UNU–UN Youth Office youth mental-health record](records/comparative-unu-un-youth-mental-health-2026-ecosystem-wellbeing.json). It adds an ecosystem route connecting mental health to housing, education, decent work, digital technology, climate, peace, culture, sports, governance, care, connection, community, and youth agency. It is a policy framework and evidence synthesis, not a new prevalence survey, causal evaluation, or proof that every domain has equal influence.
+
+The latest US teen-AI addition is the [Google U.S. Future Report record](records/us-google-future-report-2026-teen-ai-learning-judgment.json). It adds a digital-readiness route connecting AI use to learning, creativity, verification, productive friction, school rules, trusted adults, family guidance, and youth agency. It is Google-sponsored survey and qualitative evidence with inconsistent public headline sample descriptions, not an independent behavioral-trace, causal learning, or school-policy evaluation.
+
+The latest US civic-expression addition is the [Freedom Forum First Amendment record](records/us-freedom-forum-first-amendment-2026-expression-knowledge-surveillance.json). It adds a participation-legitimacy route connecting constitutional value, self-censorship, violence and social-tension fears, surveillance, government-platform transparency, online verification, press legitimacy, and practical rights knowledge. It is a proprietary-method online panel survey, not a probability-sample population estimate, legal assessment, behavioral trace, or causal participation study.
+
+The latest US youth-civic-capacity addition is the [Chamber Foundation Civic and Economic Literacy record](records/us-chamber-foundation-civic-economic-literacy-2026-teen-optimism-practice.json). It adds an optimism-to-practice route connecting teen and adult views of division, problem-solving, listening, local business, civic and economic knowledge, formal participation, workplace practice, and low-friction civic pathways. It is Chamber Foundation/RXN survey and program-framing evidence, not a causal civic-education, workplace, or participation evaluation.
+
+The latest UK comparative digital-lives addition is the [Nuffield–Ada Lovelace youth digital-experience record](records/comparative-nuffield-ada-young-people-digital-lives-2026-platform-agency.json). It adds a platform-agency route connecting digital community, essential-service dependence, algorithmic design, online harms, self-safeguarding, surveillance, AI, privacy, regulation, alternative spaces and youth governance. It is peer-led qualitative evidence from 49 young people, not a prevalence estimate, behavioral trace, clinical assessment, legal finding, or causal evaluation.
+
+The latest firm-side/global SME addition is the [Mastercard Dreamonomics record](records/comparative-mastercard-dreamonomics-2026-sme-controlled-growth-digital-cybersecurity.json). It adds a business-infrastructure route connecting controlled growth, cost and revenue volatility, digital-tool integration, cybersecurity, AI interest, real-time payments, regional variation, and the boundary between firm capability and vendor dependence. It is Mastercard-sponsored survey and report evidence, not audited performance, representative regional prevalence, or causal proof.
+
+The latest GenAI-work addition is the [ILO GenAI jobs and work-organization record](records/comparative-ilo-genai-jobs-productivity-work-organization-2026-aggregation-paradox.json). It adds comparative evidence that task-level time savings and productivity gains are not yet translating broadly into measured output, earnings, or employment, while AI reorganizes task bundles, expertise, coordination, and entry-level opportunity. It is an evidence synthesis across seven countries, not a causal evaluation of a specific deployment or proof of household-level benefit.
+
+The latest cooperative-inclusion addition is the [ILO PROSPECTS Jordan cooperative record](records/comparative-ilo-jordan-prospects-cooperatives-refugee-inclusion-2026.json). It adds a named displacement-context intervention connecting cooperative law, institutional capacity, refugee and host-community livelihoods, women’s and youth participation, food and water capability, labor rights, and social cohesion while preserving case-study, contribution, finance, implementation, and durability limits.
+
+The latest legitimacy-and-attribution addition is the [Institute for Government public-understanding record](records/comparative-uk-institute-government-perception-gap-experience-trust-2026.json). It adds evidence that service experience, trust, responsibility mapping, credit/blame, local identity, devolution, and information pathways can diverge, while preserving survey, focus-group, regional-comparison, and causal limits.
+**Latest source addition — renewable-energy jobs:** the IRENA–ILO Annual Review 2025 record adds a global work-and-supply-chain observation. It keeps capacity growth separate from job creation, shows why automation and grid bottlenecks matter, and routes the next test toward domestic value capture, training, women’s advancement and disability inclusion.
+
+**Latest source addition — global climate legitimacy:** the UNDP Peoples' Climate Vote 2024 record adds a cross-country public-meaning observation. It keeps stated demand for faster climate action separate from policy design, household cost, lived exposure, adaptation finance, geopolitical cooperation and realized political behavior.
+
+**Latest source addition — EU energy consumers:** the European Commission energy Eurobarometer record adds a household-control observation. It keeps transition support separate from realized savings and routes the next test through vulnerable-consumer protection, bill transparency, energy data, provider choice and institutional coordination.
+
+**Latest source addition — EU institutional response:** the European Commission Citizens' Energy Package record adds a policy-capacity observation. It keeps announced finance, consumer measures, grids, supply-chain resilience and strategic-autonomy goals separate from implementation and outcomes.
+
+**Latest source addition — gendered economic opportunity:** the World Bank Women, Business and the Law 2026 record adds a law-to-capability observation. It keeps legal equality separate from supportive systems, enforcement, safety, childcare, entrepreneurship and realized economic participation.
+
+**Latest source addition — women’s lived experience:** the World Bank W-LEX record adds a practice-level observation. It keeps a three-country pilot separate from global claims while testing whether formal rights are reflected in perceptions of pay, work, care, safety and economic agency.
+
+**Latest source addition — gendered fiscal systems:** the World Bank fiscal-policy record adds a revenue-and-spending observation. It keeps pilot framework indicators separate from tax incidence and outcomes while routing gender equality through filing rules, thresholds, care spending, budget data and fiscal transparency.
+
+**Latest source addition — youth social connection:** the UK Social Connection Framework adds a belonging-and-infrastructure observation. It keeps government guidance and mixed evidence separate from causal intervention proof while connecting loneliness, stigma, NEET status, in-person spaces, trusted adults, online harms and youth policy.
+
+**Latest source addition — youth loneliness evidence:** the UK NatCen report adds a survey-based observation. It keeps associations separate from causal claims while identifying mental health, bullying, family support, friendship, economic activity and in-person contact as linked risk or protective factors.
+
+**Latest source addition — youth intervention evaluation:** the UK Offload and Movember record adds a place-based programme observation. It keeps encouraging pilot summaries separate from causal proof while connecting sport, trusted adults, mental-health literacy, aspiration, coping and re-engagement.
+
+**Latest source addition — comparative social cohesion:** the UNDP Bosnia and Herzegovina SCORE 2025 record adds a country diagnostic. It keeps local coexistence, civic identity and community cooperation separate from system-level pessimism, institutional trust and causal claims while identifying a resilience-versus-legitimacy gap.
+
+**Latest source addition — structural health equity:** the WHO social determinants report adds a global systems observation. It keeps evidence-synthesis estimates separate from causal intervention claims while routing health inequity through housing, education, work, income, public services, taxation, discrimination, climate and displacement.
+
+**Latest source addition — generational work and life sequencing:** the Deloitte Gen Z and Millennial Survey 2026 adds a cross-country work/culture observation. It keeps sponsor-produced survey associations separate from causal claims while connecting cost, housing, delayed milestones, sustainable workload, purpose, AI adoption, digital fatigue and leadership.
+
+**Latest source addition — democratic information infrastructure:** the Full Fact Report 2026 adds a UK information-system observation. It keeps advocacy, cited polling and case analysis separate from causal electoral claims while connecting AI-mediated search, synthetic media, platform incentives, media literacy, institutional coordination, trust and participation.
+
+**Latest source addition — global cooperation and trust:** the Future of International Cooperation Report 2026 adds a geopolitical-governance observation. It keeps normative proposals separate from implementation and outcome claims while connecting information integrity, AI capacity, diplomacy, trade, security, justice, accountability and shared public goods.
+
+**Latest source addition — social-contract delivery gap:** the Earth for All Survey 2026 adds a comparative public-opinion observation. It keeps weighted survey associations separate from causal political claims while connecting perceived inequality, demand for economic-system change, long-term government trust, social division, democratic legitimacy, and conditional climate-policy consent.
+
+**Latest source addition — information-environment trade-offs:** the IPIE 2026 expert survey adds a global information-system observation. It keeps expert forecasts separate from public prevalence and causal platform claims while connecting platform accountability, source trust, AI search summaries, news sustainability, viewpoint diversity, and research-capacity pressure.
+
+**Latest source addition — community power and usable nature:** the NPC Everyone's Environment report adds a UK place-and-participation observation. It keeps deliberative and qualitative findings separate from prevalence and impact estimates while connecting lived experience, grassroots capacity, evidence standards, policy influence, co-governance, trust, and usable access to green and blue space.
+
+**Latest source addition — financial caution and discretionary life:** the KPMG Consumer Pulse Q3 2026 adds a current UK consumption observation. It keeps sponsor-survey associations separate from transaction and causal claims while connecting financial security, economic pessimism, everyday cutbacks, job stickiness, social and cultural occasions, resale, channels, and big-ticket optionality.
+
+**Latest source addition — culture, place, and belonging:** the HERA En/counter/points impact story adds a European research-to-practice observation. It keeps case-study and institutional-adoption claims separate from population and causal outcomes while connecting community, place, history, museum practice, public-space design, participation, and social inclusion.
+
+**Latest source addition — AI commerce and consumer agency:** the Product.ai Trust in AI Commerce report adds a transparent U.S. platform-consumer observation. It keeps sponsor-survey associations separate from transaction and causal claims while connecting AI discovery, verification, source trust, spending autonomy, age-differentiated exposure, retailer visibility, and public-data reproducibility.
+
+**Latest source addition — agentic commerce and transaction control:** the Visa Earning Consumer Trust in the Age of Agentic Commerce report adds a comparative payment-and-recourse observation. It keeps market survey evidence separate from realized transaction outcomes while connecting delegated shopping, data visibility, customization and deletion, payment-provider recognition, fraud protection, refunds, human support, and the ability to halt or reverse agent behavior.
+
+**Latest source addition — cultural discoverability and platform visibility:** the European Commission-commissioned study adds a European culture-and-platform observation. It keeps mixed-method sector analysis and a small consumer survey separate from population and causal claims while connecting cultural availability, discoverability, platform curation, language, metadata, digital skills, AI-generated content, creator visibility, and cultural pluralism.
+
+**Latest source addition — AI search and direct audience distribution:** the One Further 2026 update adds a repeated UK cultural-organization observation. It keeps Semrush-modeled traffic estimates separate from causal analytics and participation outcomes while connecting AI Overview citation, organic search decline, direct website ownership, content discoverability, platform dependence, and distribution diversification.
+
+**Latest source addition — organizational culture and AI-enabled management:** the Culture Amp 2026 report adds a sponsor-produced organizational observation. It keeps proxy classifications and business associations separate from causal performance claims while connecting engagement, performance confidence, leadership, voice, energy, learning, resource alignment, retention, and AI-supported people analytics.
+
+**Latest source addition — post-pandemic social connection and subgroup exposure:** the Belgian Health Interview Survey study adds peer-reviewed comparative evidence. It keeps repeated cross-sectional population comparisons separate from within-person and causal claims while connecting national recovery, youth social support, living alone, education, social satisfaction, long-run contact trends, and targeted social-infrastructure needs.
+
+**Latest source addition — cross-national relationship quality:** the Global Flourishing Study article adds peer-reviewed 22-country evidence. It keeps subjective cross-cultural scores and sociodemographic associations separate from objective network and causal claims while connecting age, religious participation, partnership, employment, national context, and social-resource infrastructure.
+
+**Latest source addition — childhood antecedents and adult relational capacity:** the Scientific Reports life-course study adds peer-reviewed exploratory evidence. It keeps retrospective cross-sectional associations separate from longitudinal causal claims while connecting childhood family relationships, abuse, belonging, health, financial security, country heterogeneity, and accumulated social-capacity exposure.
+
+**Latest source addition — crisis interdependence and social cohesion:** the Communications Psychology review adds a theory-guided crisis mechanism. It keeps conceptual predictions and heterogeneous empirical examples separate from pooled prevalence and causal claims while connecting mutual dependence, unequal vulnerability, conflicting interests, coordination mode, horizontal cohesion, vertical legitimacy, and crisis-specific social outcomes.
+
+**Latest source addition — SME controlled growth and business infrastructure:** the Mastercard Dreamonomics report adds a sponsor-survey route connecting cost pressure, stability preferences, tool fragmentation, cybersecurity, AI interest, payments, and regional variation. It keeps self-report, sampling, sponsor, and non-causal limits explicit.
+
+**Latest source addition — U.S. household adaptation and discretionary room:** the KPMG Consumer Pulse Summer 2026 report adds a consumer route connecting recession expectations, household budget allocation, savings, travel access, home eating, generation, and selective AI planning. It keeps recalled/anticipated spending shares, mixed sub-samples, sponsor, and causal limits explicit.
+
+**Latest source addition — macro-geopolitical household exposure:** the OECD Economic Outlook March 2026 adds an official scenario route connecting conflict, energy and fertiliser dependence, inflation, growth, household exposure, AI productivity, labour demand, and fiscal cushioning. It keeps forecast, aggregation, scenario, and causal limits explicit.
+
+**Latest source addition — governance performance and institutional trust:** the open-access Trustlab study adds a six-country mechanism connecting perceived reliability, integrity, security and education services, explicit versus implicit trust, political affiliation, and repeated public encounters. It keeps historical fieldwork, measurement, cross-country, and causal limits explicit.
+
+**Latest source addition — social and economic rights fulfillment:** the 2026 International SERF Index adds a rights-based delivery route connecting health, education, food, housing, work, feasible income-level benchmarks, sex disaggregation, data coverage, and state capacity. It keeps benchmark, missingness, standard-comparability, and universal-enjoyment limits explicit.
+
+**Latest source addition — wealth distribution and relative position:** the UBS Global Wealth Report 2026 adds a wealth route connecting aggregate growth, median-versus-average divergence, millionaire expansion, regional currency effects, debt, liquidity, inheritance, and cultural assets. It keeps modeling, market coverage, currency, high-net-worth sampling, and causal limits explicit.
+
+**Latest source addition — wealth measurement and transmission infrastructure:** the Graduate Center Wealth Project warehouse adds a data-resource route connecting balance sheets, housing, debt, wealth percentiles, inheritance and gift taxation, legal source records, metadata, and reproducible aggregate evidence. It keeps harmonization, missingness, definition, access, and non-causal limits explicit.

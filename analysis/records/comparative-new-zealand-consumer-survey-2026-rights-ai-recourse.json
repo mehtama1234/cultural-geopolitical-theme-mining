@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-new-zealand-consumer-survey-2026-rights-ai-recourse",
+  "title": "Consumer protection is shifting from formal legal awareness toward practical rights knowledge, mediated advice, and successful recourse",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning", "household_room_consumption", "infrastructure_technology_dependency"],
+  "source_unit": "New Zealand Ministry of Business, Innovation and Employment and Commerce Commission, New Zealand Consumer Survey 2026",
+  "geography": "New Zealand; nationally weighted adults aged 18 and over, with consumer-protection and dispute-resolution implications",
+  "observations": [
+    {
+      "period": "2026; formal awareness versus usable consumer-rights knowledge",
+      "denominator": {"value": 3600, "unit": "New Zealand consumers aged 18 or older completing the 2026 survey", "value_type": "published_weighted_survey_sample"},
+      "measures": {"law_awareness": {"value": 95, "unit": "percent aware that consumer-protection laws exist", "value_type": "published_survey_estimate"}, "moderate_or_good_knowledge": {"value": 50, "unit": "percent reporting moderate or good understanding of consumer rights", "value_type": "published_survey_estimate"}, "adequate_protection": {"value": 61, "unit": "percent agreeing that New Zealand laws adequately protect against being misled or cheated", "value_type": "published_survey_estimate"}},
+      "method": "Ipsos survey jointly commissioned by MBIE and the Commerce Commission; respondents were weighted to represent the New Zealand population.",
+      "uncertainty": "Awareness and self-reported knowledge do not demonstrate correct legal understanding, successful enforcement, or equal practical access to remedies.",
+      "subgroup": "Adults aged 18 and over, with lower rights awareness and understanding reported among low-income households, Pacific Peoples, and younger adults aged 18 to 24.",
+      "counterinterpretation": "High formal awareness may still provide a useful baseline for seeking help, and self-reported knowledge may understate practical competence in familiar purchasing contexts.",
+      "source_url": "https://www.comcom.govt.nz/about-us/research/2026-business-and-consumer-surveys/",
+      "retrieval_hash": "sha256:edc6e84a7aaf881de9683478eb64ef02dcf2a82eece17440f23d24a4f6e11a50",
+      "status": "reported"
+    },
+    {
+      "period": "2026; consumer problems, action, and redress",
+      "denominator": {"value": 3600, "unit": "weighted New Zealand Consumer Survey 2026 respondents", "value_type": "published_weighted_survey_sample"},
+      "measures": {"problem_experience": {"value": 44, "unit": "percent reporting a problem with a product or service in the previous two years", "value_type": "published_survey_estimate"}, "resolved_after_action": {"value": 75, "unit": "percent of consumers who took action reporting that the issue was resolved", "value_type": "published_survey_estimate"}, "information_behavior": {"value": "consumers continue to rely on independent information sources such as reviews and ratings when making purchases", "unit": "reported purchasing mechanism", "value_type": "reported_behavior"}},
+      "method": "National consumer-experience survey measuring problems, actions, resolution, purchasing information, and confidence; cross-sectional self-report.",
+      "uncertainty": "The survey does not establish the quality, durability, or fairness of reported resolutions, nor whether consumers who took no action were systematically excluded from the success measure.",
+      "subgroup": "Consumers experiencing product or service problems, consumers using reviews and ratings, and groups with lower confidence or knowledge of rights.",
+      "counterinterpretation": "A 75 percent reported resolution rate may indicate that direct business contact and existing protections work reasonably well for many cases, even if unresolved or unreported cases remain consequential.",
+      "source_url": "https://www.mbie.govt.nz/business-and-employment/consumer-protection/consumer-research-and-reports/nz-consumer-surveys",
+      "retrieval_hash": "sha256:edc6e84a7aaf881de9683478eb64ef02dcf2a82eece17440f23d24a4f6e11a50",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI entering consumer-rights guidance",
+      "denominator": {"value": 3600, "unit": "weighted New Zealand Consumer Survey 2026 respondents", "value_type": "published_weighted_survey_sample"},
+      "measures": {"ai_guidance_use": {"value": 16, "unit": "percent reporting use of AI tools to seek guidance on consumer rights or problem resolution", "value_type": "published_survey_estimate"}, "commission_confidence": {"value": 56, "unit": "percent agreeing that the Commerce Commission is respectful and inspires confidence, up from 50 percent in 2024", "value_type": "published_survey_estimate"}, "accessibility": {"value": 62, "unit": "percent viewing the Commerce Commission as accessible; first measured in 2026", "value_type": "published_survey_estimate"}},
+      "method": "Ipsos consumer survey and companion Commerce Commission reporting; AI-guidance use was introduced as a new question in 2026 and has no trend comparison.",
+      "uncertainty": "Reported AI use does not show whether guidance is accurate, whether it leads to action or remedy, or whether it displaces official or human advice.",
+      "subgroup": "Consumers seeking problem-resolution guidance, younger and lower-income consumers, public regulators, businesses, and users relying on automated information.",
+      "counterinterpretation": "AI may lower the time and confidence barrier to seeking help, while official-regulator confidence may rise independently of AI use and reflect broader communication changes.",
+      "source_url": "https://www.comcom.govt.nz/about-us/research/2026-business-and-consumer-surveys/",
+      "retrieval_hash": "sha256:edc6e84a7aaf881de9683478eb64ef02dcf2a82eece17440f23d24a4f6e11a50",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.mbie.govt.nz/business-and-employment/consumer-protection/consumer-research-and-reports/nz-consumer-surveys", "claim": "MBIE survey series, 2026 report context, sample, rights awareness, problem, resolution, and purchasing-information findings."}],
+  "boundary": "This record adds a consumer-rights-to-recourse route from formal legal awareness through usable knowledge, mediated information, problem action, resolution, and regulator trust. It does not establish legal comprehension, causal AI effects, equal remedy access, or the fairness and durability of reported resolutions.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Commerce Commission and MBIE survey pages reviewed for 2026 sample, awareness and knowledge, protection confidence, problem and resolution rates, subgroup differences, AI guidance, and regulator perceptions.", "source_url_sha256": "sha256:edc6e84a7aaf881de9683478eb64ef02dcf2a82eece17440f23d24a4f6e11a50", "checked": "2026-09-29"}
+}

@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-indonesia-bps-socio-culture-2025-informal-formal-participation",
+  "title": "Indonesia shows broad neighborhood social participation but thin formal organizational reach",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "time_hidden_price"
+  ],
+  "source_unit": "BPS-Statistics Indonesia, Statistics of Socio Culture 2025, sourced from Susenas September 2025",
+  "geography": "Indonesia; population aged 5 years and older for cultural measures and aged 10 years and older for social-interaction measures, with sex, age, expenditure, and urban/rural dimensions",
+  "observations": [
+    {
+      "period": "2025; social participation during the previous three months",
+      "denominator": {
+        "value": null,
+        "unit": "Indonesia population aged 10 years and older in Susenas September 2025; publication reports weighted population shares without a pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "community_social_activity_participation": {"value": 88.87, "unit": "percent participating in neighborhood social-community activities", "value_type": "official_population_share"},
+        "rural_participation": {"value": 91.14, "unit": "percent among rural residents", "value_type": "official_subgroup_share"},
+        "urban_participation": {"value": 87.35, "unit": "percent among urban residents", "value_type": "official_subgroup_share"},
+        "most_common_activity_religion": {"value": 71.26, "unit": "percent participating in religious or belief-related community activity", "value_type": "official_activity_share"},
+        "most_common_activity_death": {"value": 67.93, "unit": "percent participating in death-related community activity", "value_type": "official_activity_share"},
+        "most_common_activity_gotong_royong": {"value": 47.40, "unit": "percent participating in mutual-aid/gotong-royong activity", "value_type": "official_activity_share"},
+        "mechanism": {"value": "Local sociality remains a high-reach layer even when formal organizational membership is much thinner; community participation may be carried by recurring, place-based, religious, and life-event institutions rather than standing organizations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from BPS Statistics of Socio Culture 2025 tables and narrative; activity percentages are participation shares and may include participation in more than one activity type.",
+      "uncertainty": "The measure is self-reported, activity-specific, and time-window dependent; it does not measure intensity, quality, reciprocity, social trust, economic value, or whether participation was voluntary or obligatory.",
+      "subgroup": "Residents aged 10 years and older in Indonesia, with urban/rural and activity-type comparisons.",
+      "counterinterpretation": "High participation may reflect broad definitions or periodic life-event and religious obligations rather than durable civic organizing or generalized social cohesion.",
+      "source_url": "https://www.bps.go.id/en/publication/2026/05/29/07e7729b9936b34122db0589/statistics-of-socio-culture-2025.html",
+      "retrieval_hash": "sha256:d7956546a75146e878f6049118f8e990b2c4c918b986e5748a867a1a4aeaa300",
+      "status": "reported"
+    },
+    {
+      "period": "2025; formal meeting participation during the previous year",
+      "denominator": {
+        "value": null,
+        "unit": "Indonesia population aged 10 years and older in Susenas September 2025; publication reports weighted population shares without a pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "meeting_participation": {"value": 34.01, "unit": "percent participating in a neighborhood meeting during the previous year", "value_type": "official_population_share"},
+        "men_meeting_participation": {"value": 43.22, "unit": "percent among men", "value_type": "official_subgroup_share"},
+        "women_meeting_participation": {"value": 24.81, "unit": "percent among women", "value_type": "official_subgroup_share"},
+        "gender_meeting_gap": {"value": 18.41, "unit": "percentage-point difference between men and women, calculated from published subgroup shares", "value_type": "derived_subgroup_gap"},
+        "meeting_participant_voice": {"value": 41.13, "unit": "percent of meeting participants who gave a suggestion or opinion", "value_type": "official_conditional_share"},
+        "mechanism": {"value": "Formal voice is a narrower conversion stage than general local social participation, and access to the meeting channel is sharply gendered before the separate question of speaking within the meeting", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from BPS Table 4.1 and its accompanying discussion; the gender gap is calculated as the difference between published male and female participation shares, while opinion-giving is conditional on meeting participation.",
+      "uncertainty": "The annual recall period, self-reporting, meeting definitions, household roles, scheduling, and local institutional practices may all contribute to the observed gap; the data do not identify a causal mechanism or measure influence after speaking.",
+      "subgroup": "Residents aged 10 years and older in Indonesia, by sex, rural/urban residence, and household expenditure group.",
+      "counterinterpretation": "Men and women may participate through different informal or household channels not captured by the meeting item; attendance is not equivalent to decision power.",
+      "source_url": "https://www.bps.go.id/en/publication/2026/05/29/07e7729b9936b34122db0589/statistics-of-socio-culture-2025.html",
+      "retrieval_hash": "sha256:d7956546a75146e878f6049118f8e990b2c4c918b986e5748a867a1a4aeaa300",
+      "status": "reported"
+    },
+    {
+      "period": "2025; organization membership outside work or school",
+      "denominator": {
+        "value": null,
+        "unit": "Indonesia population aged 10 years and older in Susenas September 2025; publication reports weighted population shares without a pooled respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "formal_organization_membership": {"value": 11.06, "unit": "percent registered in an organization other than at work or school", "value_type": "official_population_share"},
+        "youth_membership": {"value": 11.65, "unit": "percent among youth", "value_type": "official_subgroup_share"},
+        "rural_membership": {"value": 11.10, "unit": "percent among rural residents", "value_type": "official_subgroup_share"},
+        "urban_membership": {"value": 11.00, "unit": "percent among urban residents", "value_type": "official_subgroup_share"},
+        "social_organization_share": {"value": 40.10, "unit": "percent among organization participants whose organization field was social activity", "value_type": "official_conditional_share"},
+        "religious_organization_share": {"value": 37.43, "unit": "percent among organization participants whose organization field was religious activity", "value_type": "official_conditional_share"},
+        "mechanism": {"value": "Standing organizational membership is a low-reach layer relative to episodic or recurring community activity, suggesting that social connection does not automatically convert into durable institutional affiliation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from BPS Statistics of Socio Culture 2025 Table 4.4 and narrative; field shares are conditional on registered organization participation.",
+      "uncertainty": "The item excludes workplace and school organizations and does not capture informal networks, one-off volunteering, online communities, membership intensity, or organizational effectiveness.",
+      "subgroup": "Residents aged 10 years and older in Indonesia, with age, sex, rural/urban, expenditure, and organization-field comparisons.",
+      "counterinterpretation": "Low formal membership may reflect the survey boundary or a preference for informal and event-based participation rather than weak social ties or low collective capacity.",
+      "source_url": "https://www.bps.go.id/en/publication/2026/05/29/07e7729b9936b34122db0589/statistics-of-socio-culture-2025.html",
+      "retrieval_hash": "sha256:d7956546a75146e878f6049118f8e990b2c4c918b986e5748a867a1a4aeaa300",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://web-api.bps.go.id/download.php?f=H8+uBlr0tHJUJZmpWSWUwk9HTGoxYkpWNjltZVVvaXc3ZmJmOWNXK3RJVG1wbjRkSU84U3pqa0c3aGxBMVNMM2pkMGo4dHhtRkZQV1NyckZiTE9KemNlUVhWSWJWRXpBS3A0NkQ1eCt3dHFhVDRrNFlCVWFoWEcrM1BZWkV2bDMvbnliTkFkZStJclROM2dRNTcvUDJmL080aUM0OWR6KzI4NVNnT0dWOHV4MUtLK24vcUVZNWU2STZsZ216ajdOZndTMEl5OUxqZmdwL2NZNU9nckg1ZzZsaVgwR2lTS21WMTV6eWJZSnVyYkVxZmR4VU9obG9DaU9XZ2lldUoxN2pMSmpjT1JnbldnRXRmcUs%3D",
+      "claim": "Official 11.29 MB Statistics of Socio Culture 2025 publication containing the Susenas September 2025 tables for information access, sport, social interaction, and cultural participation.",
+      "status": "official-publication-download"
+    }
+  ],
+  "boundary": "This record adds an Indonesia-wide socio-cultural participation layer distinguishing broad neighborhood activity from formal meetings and standing organization membership. It does not establish causality, social trust, political participation, household spending, cultural meaning, organizational effectiveness, or within-country causal mechanisms.",
+  "retrieval_hash": "sha256:d7956546a75146e878f6049118f8e990b2c4c918b986e5748a867a1a4aeaa300",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "BPS publication page and the linked 206-page official Statistics of Socio Culture 2025 PDF reviewed; summary, social-interaction narrative, Tables 4.1 and 4.4, denominators, subgroup boundaries, and conditional shares checked.",
+    "publication_pdf_sha256": "sha256:ae24f5d56417b114a7af34a8ce93400d0e693e7b16a526945195fbd01b14140e",
+    "checked": "2026-09-30"
+  }
+}

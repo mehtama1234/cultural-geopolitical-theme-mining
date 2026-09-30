@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-philadelphia-fed-household-borrowing-costs-spending-headwinds-july-2026",
+  "title": "Perceived borrowing costs are converting household financing decisions into forgone purchases, cheaper substitutes, and unequal flexibility",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Federal Reserve Bank of Philadelphia Consumer Finance Institute, Are Household Perceptions of Borrowing Costs Creating Spending Headwinds?",
+  "geography": "United States; nationally representative survey of adults fielded July 20-23, 2026",
+  "observations": [
+    {
+      "period": "July 20-23, 2026; six-month large-purchase decisions",
+      "denominator": {"value": 4071, "unit": "survey respondents with complete observations in the borrowing-cost analysis; nationally representative adult survey just over 4,000", "value_type": "representative_survey_sample"},
+      "measures": {
+        "forgone_large_purchase": {"value": 25.8, "unit": "percent reporting considering borrowing for a large purchase but deciding not to make it for financial reasons in the prior six months", "value_type": "reported_share"},
+        "high_financing_cost_reason": {"value": 49.0, "unit": "percent of those forgoing a purchase citing financing cost as the primary reason", "value_type": "conditional_share"},
+        "all_respondents_high_cost_forgone": {"value": 12.6, "unit": "percent of all respondents who chose not to make a large purchase because borrowing costs were too high", "value_type": "reported_share"},
+        "price_reason": {"value": 27.0, "unit": "percent of those forgoing a purchase citing the item price as the primary reason", "value_type": "conditional_share"},
+        "saving_reason": {"value": 14.6, "unit": "percent of those forgoing a purchase saying saving or investing offered better value", "value_type": "conditional_share"},
+        "borrowing_cost_conversion": {"value": "Credit conditions are becoming a direct consumption constraint, not only a background financial variable", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Consumer Finance Institute survey fielded July 20-23, 2026 with a nationally representative sample of just over 4,000 adults; report uses descriptive tables and regression analysis.",
+      "uncertainty": "The outcome is self-reported forgone or altered purchase behavior, not transaction data; the report identifies associations and stated reasons rather than a fully causal estimate of interest-rate effects.",
+      "subgroup": "U.S. adults considering large purchases such as homes, cars, or appliances, with income, age, family composition, employment, homeownership, debt, and asset differences analyzed.",
+      "counterinterpretation": "Some forgone purchases may reflect prudent saving, item-price concerns, or better alternatives rather than harmful credit exclusion; delaying a purchase can be adaptive or costly depending on necessity.",
+      "source_url": "https://www.philadelphiafed.org/consumer-finance/are-household-perceptions-of-borrowing-costs-creating-spending-headwinds",
+      "retrieval_hash": "sha256:2b02278c4ece2168a726c1d43e9f9323958e6c7b898a021146dfc7470ab655ad",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; perceived affordability and financial decision salience",
+      "denominator": {"value": 4071, "unit": "respondents in the interest-rate importance and affordability table", "value_type": "survey_subsample"},
+      "measures": {
+        "rates_important": {"value": 82.4, "unit": "percent rating interest rates extremely or very important in financing a large purchase", "value_type": "reported_share"},
+        "rates_top_two": {"value": 61.4, "unit": "percent ranking interest rates among the top two purchase-financing factors", "value_type": "reported_share"},
+        "rates_unaffordable_typical_borrower": {"value": 58.9, "unit": "percent agreeing current interest rates make most loans unaffordable to the typical borrower", "value_type": "reported_share"},
+        "item_price_top_factor": {"value": 43.5, "unit": "percent ranking item price as the most important financing-decision component", "value_type": "reported_share"},
+        "affordability_perception": {"value": "Consumers evaluate financing through both the loan rate and the price of the item, with perceived unaffordability shaping whether a purchase remains actionable", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey questions comparing interest rate, item price, monthly payment, and loan length, with a general question about affordability for typical borrowers.",
+      "uncertainty": "The typical-borrower framing is not a respondent-specific affordability measure; stated importance does not establish actual credit access or repayment burden.",
+      "subgroup": "U.S. consumers across income ranges and demographic groups, including those with different debt and asset positions.",
+      "counterinterpretation": "Consumers may report rates as important because they are salient in public discussion, while actual decisions may be driven by income, item price, monthly payment, or necessity.",
+      "source_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Consumer-Finance/Reports/are-household-perceptions-of-borrowing-costs-creating-spending-headwinds.pdf",
+      "retrieval_hash": "sha256:2b02278c4ece2168a726c1d43e9f9323958e6c7b898a021146dfc7470ab655ad",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; income, debt, and asset-conditioned flexibility",
+      "denominator": {"value": 4071, "unit": "respondents in the interest-rate analysis; subgroup estimates are descriptive/regression-based", "value_type": "survey_analysis_sample"},
+      "measures": {
+        "income_stability_forgone": {"value": "The share reporting forgone financing was relatively stable across income ranges, with the highest-income group only five percentage points below the lowest-income group", "unit": "reported income comparison", "value_type": "reported_pattern"},
+        "personal_loan_association": {"value": 23.2, "unit": "percentage-point association between personal-loan holding and likelihood of forgoing financing relative to reference conditions in the report's regression", "value_type": "reported_regression_association"},
+        "credit_card_association": {"value": 8.7, "unit": "percentage-point association between credit-card holding and likelihood of forgoing financing relative to reference conditions", "value_type": "reported_regression_association"},
+        "investment_buffer": {"value": "Consumers with potentially higher-return investments were less likely to cite high borrowing costs as the reason for forgoing financing and more likely to cite investment value", "unit": "reported regression association", "value_type": "reported_mechanism"},
+        "unequal_flexibility": {"value": "Borrowing and asset positions shape whether households experience rates as binding, even when headline forgone-purchase shares look similar across income groups", "unit": "reported mechanism; not causal", "value_type": "reported_mechanism"}
+      },
+      "method": "Regression analysis controlling for income, unemployment, age, education, race, family composition, homeownership, debt, and assets; report cautions that results are associations.",
+      "uncertainty": "The reported coefficients do not prove that debt or assets cause forgoing; unobserved liquidity, credit scores, purchase needs, and financial sophistication may influence both debt position and decisions.",
+      "subgroup": "Households differentiated by income, debt composition, investment holdings, age, family composition, employment, education, race, and homeownership.",
+      "counterinterpretation": "Personal-loan holders may be seeking financing for inherently larger or more urgent purchases; investments may proxy for broader financial capacity rather than create a direct buffer.",
+      "source_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Consumer-Finance/Reports/are-household-perceptions-of-borrowing-costs-creating-spending-headwinds.pdf",
+      "retrieval_hash": "sha256:2b02278c4ece2168a726c1d43e9f9323958e6c7b898a021146dfc7470ab655ad",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; cheaper substitution and information framing",
+      "denominator": {"value": 4071, "unit": "main survey respondents for financing-attitude analysis; follow-up framing experiment N=1,417", "value_type": "survey_and_experiment_samples"},
+      "measures": {
+        "cheaper_alternative_purchase": {"value": 5.0, "unit": "percent of respondents choosing an alternative less-expensive purchase primarily because of financing cost", "value_type": "reported_share"},
+        "lender_cost_priming_control": {"value": 43.1, "unit": "percent of control group selecting the lowest affordable-rate category", "value_type": "experiment_share"},
+        "lender_cost_priming_treatment": {"value": 53.3, "unit": "percent of treatment group selecting the lowest affordable-rate category after lender costs were referenced", "value_type": "experiment_share"},
+        "affordable_rate_treatment": {"value": 3.97, "unit": "percent; average lower-bound rate selected by treatment group", "value_type": "experiment_estimate"},
+        "affordable_rate_control": {"value": 4.13, "unit": "percent; average lower-bound rate selected by control group", "value_type": "experiment_estimate"},
+        "framing_route": {"value": "Information about lenders' costs changed perceived affordability thresholds in the survey experiment", "unit": "reported experimental association", "value_type": "reported_mechanism"}
+      },
+      "method": "Main survey plus randomized follow-up survey conducted July 29-30, 2026, varying whether the affordable-rate question referenced lenders' cost of funds.",
+      "uncertainty": "The framing effect is observed in a survey response, not a market transaction; it does not establish durable financial-literacy change or actual borrowing behavior.",
+      "subgroup": "U.S. consumers with varying awareness of current rates, debt, assets, and financial experience.",
+      "counterinterpretation": "The wording may have changed interpretation of the question rather than beliefs about real affordability; a lower stated threshold can coexist with continued borrowing for necessary purchases.",
+      "source_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Consumer-Finance/Reports/are-household-perceptions-of-borrowing-costs-creating-spending-headwinds.pdf",
+      "retrieval_hash": "sha256:2b02278c4ece2168a726c1d43e9f9323958e6c7b898a021146dfc7470ab655ad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.philadelphiafed.org/consumer-finance/surveys-and-data/life-survey", "claim": "Philadelphia Fed LIFE Survey context and quarterly consumer-finance data series.", "status": "official-data-context"}
+  ],
+  "boundary": "This record adds a consumer-credit conversion layer: perceived borrowing costs move households from intended purchases toward forgone purchases, cheaper substitutes, saving/investment, or changed affordability thresholds, with debt and asset positions shaping flexibility. It does not establish actual transactions, causal interest-rate effects, credit denial, long-run welfare, or universal income gradients.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Philadelphia Fed report page and PDF reviewed for survey field dates, sample, forgone purchases, reasons, income/debt/asset associations, cheaper substitution, and randomized framing experiment.",
+    "source_page_sha256": "sha256:2b02278c4ece2168a726c1d43e9f9323958e6c7b898a021146dfc7470ab655ad",
+    "checked": "2026-09-28"
+  }
+}

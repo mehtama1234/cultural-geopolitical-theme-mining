@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-canada-misinformation-2026-exposure-detection-trust",
+  "title": "Canada's information ecosystem is age-stratified and misinformation-saturated, making trust and detection capacity part of civic infrastructure",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Statistics Canada, Canadian Social Survey and Survey Series on People and Their Communities, 2026",
+  "geography": "Canada",
+  "observations": [
+    {
+      "period": "2025 Canadian Social Survey; Canadians aged 15 and older",
+      "denominator": {"value": null, "unit": "Canadian Social Survey respondents aged 15 and older; exact analytic denominator not headlined in article overview", "value_type": "not_disclosed"},
+      "measures": {
+        "monthly_misinformation_exposure": {"value": 80, "unit": "percent seeing suspected misleading, false or inaccurate information online at least monthly", "value_type": "reported_share"},
+        "difficulty_detecting_change": {"value": 47, "unit": "percent saying it is harder to distinguish true from false information than three years earlier", "value_type": "reported_share"},
+        "misinformation_concern": {"value": 61, "unit": "percent very or extremely concerned about online misinformation", "value_type": "reported_share"}
+      },
+      "method": "Canadian Social Survey measures of self-reported online exposure, concern and perceived ability to distinguish true from false information.",
+      "uncertainty": "Exposure and detection are self-reported perceptions; the survey wording cannot establish whether people saw more misinformation, recognized more of it or changed their reporting thresholds.",
+      "subgroup": "Canadians aged 15 and older.",
+      "counterinterpretation": "High reported exposure may partly reflect heightened awareness of misinformation rather than a direct increase in objectively false content encountered.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/75-006-x/2026001/article/00006-eng.htm",
+      "retrieval_hash": "sha256:f5f1533cd3fe105cd032d411c6686c3a09c915ddcf2f71b8a73c5b4d836c09d2",
+      "status": "reported"
+    },
+    {
+      "period": "2025; information sources by age",
+      "denominator": {"value": null, "unit": "Canadian Social Survey respondents by age group; exact subgroup denominators not headlined in article overview", "value_type": "not_disclosed"},
+      "measures": {
+        "social_media_use_age_15_34": {"value": 78, "unit": "percent of Canadians aged 15 to 34 identifying social media as a typical information source", "value_type": "reported_share_approximate"},
+        "social_media_use_age_15_24": {"value": 78.8, "unit": "percent of Canadians aged 15 to 24", "value_type": "reported_share"},
+        "social_media_use_age_75_plus": {"value": 18.9, "unit": "percent of Canadians aged 75 and older", "value_type": "reported_share"},
+        "news_organization_use_age_75_plus": {"value": 78.4, "unit": "percent of Canadians aged 75 and older", "value_type": "reported_share"},
+        "television_use_age_75_plus": {"value": 83.6, "unit": "percent of Canadians aged 75 and older", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional comparison of typical information sources by age group.",
+      "uncertainty": "These are source-use patterns, not measures of source quality, attention time or persuasion; respondents can use multiple sources.",
+      "subgroup": "Canadians aged 15 to 24, 25 to 34 and 75 and older, with source comparisons across the full age distribution.",
+      "counterinterpretation": "Generational differences may reflect life stage, technology access, news habits and cohort effects rather than fixed age traits.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/75-006-x/2026001/article/00006-eng.htm",
+      "retrieval_hash": "sha256:f5f1533cd3fe105cd032d411c6686c3a09c915ddcf2f71b8a73c5b4d836c09d2",
+      "status": "reported"
+    },
+    {
+      "period": "2025; information sources by racialized identity",
+      "denominator": {"value": null, "unit": "Canadian Social Survey respondents by racialized identity; exact subgroup denominators not headlined in article overview", "value_type": "not_disclosed"},
+      "measures": {
+        "social_media_racialized": {"value": 70, "unit": "percent of racialized Canadians identifying social media as a typical information source", "value_type": "reported_share_approximate"},
+        "social_media_non_racialized": {"value": 48, "unit": "percent of non-racialized Canadians", "value_type": "reported_share_approximate"},
+        "news_organizations_racialized": {"value": 60, "unit": "percent of racialized Canadians identifying news organizations as a typical information source", "value_type": "reported_share"},
+        "news_organizations_non_racialized": {"value": 68, "unit": "percent of non-racialized Canadians", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional comparison of typical information sources by racialized identity.",
+      "uncertainty": "The categories aggregate diverse communities and do not identify platform mix, language, socioeconomic position or whether source use produces different misinformation exposure.",
+      "subgroup": "Racialized and non-racialized Canadians.",
+      "counterinterpretation": "Differences may be driven by age composition, language, migration history, community networks or access patterns rather than racialized identity itself.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/75-006-x/2026001/article/00006-eng.htm",
+      "retrieval_hash": "sha256:f5f1533cd3fe105cd032d411c6686c3a09c915ddcf2f71b8a73c5b4d836c09d2",
+      "status": "reported"
+    },
+    {
+      "period": "2025; confidence, trust and misinformation detection",
+      "denominator": {"value": null, "unit": "Canadian Social Survey respondents; exact analytic denominator not headlined in article overview", "value_type": "not_disclosed"},
+      "measures": {
+        "media_confidence_association": {"value": "Higher confidence in media is associated with less reported difficulty distinguishing true from false information", "unit": "reported association", "value_type": "reported_association"},
+        "interpersonal_social_trust_association": {"value": "Higher interpersonal and social trust is also associated with greater confidence in distinguishing true from false information", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "Survey association analysis relating confidence in media and interpersonal/social trust to perceived misinformation-detection difficulty.",
+      "uncertainty": "The relationship is observational and self-reported; trust may shape detection confidence, detection experiences may shape trust, or both may reflect education, media habits and broader institutional conditions.",
+      "subgroup": "Canadian Social Survey respondents, with comparisons by media confidence and social trust.",
+      "counterinterpretation": "Confidence in a trusted source can sometimes increase vulnerability to false information if trust is misplaced or insulated from correction.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/75-006-x/2026001/article/00006-eng.htm",
+      "retrieval_hash": "sha256:f5f1533cd3fe105cd032d411c6686c3a09c915ddcf2f71b8a73c5b4d836c09d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/en/catalogue/75-006-X202600100006", "claim": "Official Statistics Canada catalogue page for the article and downloadable publication."},
+    {"source_url": "https://www150.statcan.gc.ca/pub/75-006-x/2026001/article/00006-eng.pdf", "claim": "Official PDF used for retrieval verification and hash."}
+  ],
+  "boundary": "This record adds a comparative information-ecosystem mechanism: misinformation exposure is widespread, source use is sharply age-stratified and racialized Canadians report a different source mix, while media confidence and social trust correlate with perceived detection ability. It is a Canadian cross-sectional/repeated-survey evidence base, not a causal estimate of misinformation effects, a behavioral trace of content exposure or a direct audit of truthfulness.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Statistics Canada article, catalogue page and downloadable PDF were retrieved and reviewed for exposure, concern, detection difficulty, information-source, age, racialized-identity and trust-association findings; the PDF was hashed.",
+    "source_url_sha256": "sha256:f5f1533cd3fe105cd032d411c6686c3a09c915ddcf2f71b8a73c5b4d836c09d2",
+    "checked": "2026-09-27"
+  }
+}

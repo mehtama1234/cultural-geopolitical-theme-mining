@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-philippines-middle-class-resilience-2026-poverty-jobs-shocks",
+  "title": "Philippines poverty reduction is real but economically fragile as job quality, social insurance, disaster exposure, care, and local service capacity shape middle-class security",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "housing_place_mobility"
+  ],
+  "source_unit": "World Bank, Building the Filipino Middle Class: Towards Resilient Futures and Poverty Eradication",
+  "geography": "Philippines; national and subnational poverty, middle-class security, jobs, resilience, social protection, services, and disaster exposure",
+  "observations": [
+    {
+      "period": "2015–2023; Philippine poverty and inequality",
+      "denominator": {"value": 1, "unit": "Philippine population and national poverty measurement frame", "value_type": "national_poverty_frame"},
+      "measures": {
+        "poverty_rate_2015": {"value": 23.5, "unit": "percent poverty rate in 2015", "value_type": "reported_rate"},
+        "poverty_rate_2023": {"value": 15.5, "unit": "percent poverty rate in 2023", "value_type": "reported_rate"},
+        "inequality": {"value": "Income inequality fell to its lowest level in four decades, with the Gini coefficient below 40", "unit": "reported inequality pattern", "value_type": "reported_pattern"},
+        "progress_boundary": {"value": "Poverty reduction and lower inequality do not by themselves establish secure middle-class purchasing room or shock resilience", "unit": "analytical boundary", "value_type": "derived_boundary"}
+      },
+      "method": "World Bank poverty and equity assessment using national poverty, inequality, labor, fiscal-incidence, service-delivery, and resilience evidence.",
+      "uncertainty": "Poverty and inequality measures depend on survey design, thresholds, prices, and reference periods; national improvement can coexist with localized or subgroup disadvantage.",
+      "subgroup": "Poor households, near-poor families, workers, women, children, rural and urban residents, and households exposed to climate or health shocks.",
+      "counterinterpretation": "A substantial fall in poverty and lower inequality are meaningful gains that can create a stronger platform for durable middle-class expansion.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/04/philippines-can-end-poverty-and-build-a-middle-class-society-by-2040-but-only-with-urgent-reforms",
+      "retrieval_hash": "sha256:4a490e9de3d0f0f69693ec48d962d1bc60b7b971a5735fe0aaafd06443b62ab6",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026; vulnerability and household shock absorption",
+      "denominator": {"value": 1, "unit": "Philippine households and middle-class security assessment", "value_type": "household_resilience_frame"},
+      "measures": {
+        "vulnerable_share": {"value": 28, "unit": "percent of Filipinos vulnerable or at risk of falling back into poverty", "value_type": "reported_share"},
+        "secure_middle_class": {"value": 25, "unit": "percent approximate share of population in the secure middle class, with limited growth since 2018", "value_type": "reported_share"},
+        "shock_set": {"value": "A typhoon, hospital bill, or lost job can push near-poor families back into poverty", "unit": "reported household vulnerability mechanism", "value_type": "reported_mechanism"},
+        "disaster_exposure": {"value": 61, "unit": "percent of population at high risk from climate-related disasters", "value_type": "reported_exposure_share"}
+      },
+      "method": "World Bank assessment combining poverty vulnerability, middle-class thresholds, disaster exposure, household buffers, and economic-risk analysis.",
+      "uncertainty": "Vulnerability and disaster-risk estimates depend on thresholds, hazard models, household assets, insurance, location, and time; a population share does not predict each household's outcome.",
+      "subgroup": "Near-poor households, informal workers, families without savings or insurance, disaster-exposed communities, people facing medical costs, and households with unstable employment.",
+      "counterinterpretation": "Insurance, social protection, remittances, savings, public services, and local adaptation can prevent shocks from becoming persistent poverty even when exposure is high.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/04/philippines-can-end-poverty-and-build-a-middle-class-society-by-2040-but-only-with-urgent-reforms",
+      "retrieval_hash": "sha256:4a490e9de3d0f0f69693ec48d962d1bc60b7b971a5735fe0aaafd06443b62ab6",
+      "status": "reported"
+    },
+    {
+      "period": "2040; modeled poverty and middle-class scenarios",
+      "denominator": {"value": 1, "unit": "World Bank Philippines poverty and middle-class scenario framework", "value_type": "scenario_frame"},
+      "measures": {
+        "business_as_usual": {"value": "A business-as-usual scenario could reduce poverty to 6% by 2040 and grow the secure middle class to 43%", "unit": "modeled scenario outcome", "value_type": "reported_projection"},
+        "comprehensive_reform": {"value": "A comprehensive reform scenario could lower poverty to 2.9% and raise the secure middle class to 55%", "unit": "modeled scenario outcome", "value_type": "reported_projection"},
+        "reform_bundle": {"value": "The higher-outcome scenario combines productivity and job creation with equity, resilience, social protection, and service improvements", "unit": "reported policy package", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "World Bank economic modeling of alternative policy and growth scenarios for Philippine poverty and middle-class trajectories.",
+      "uncertainty": "Scenario outputs are conditional projections, not forecasts or guarantees; they depend on implementation, growth, distribution, shocks, demographic change, and model assumptions.",
+      "subgroup": "Poor and vulnerable households, workers, children, women, firms, local governments, and policymakers shaping job, social-protection, and resilience systems.",
+      "counterinterpretation": "Even comprehensive reforms may fail to reach targets if disasters, weak institutions, political reversals, or macro shocks exceed modeled assumptions.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/04/philippines-can-end-poverty-and-build-a-middle-class-society-by-2040-but-only-with-urgent-reforms",
+      "retrieval_hash": "sha256:4a490e9de3d0f0f69693ec48d962d1bc60b7b971a5735fe0aaafd06443b62ab6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; jobs, social insurance, care, agriculture, and local services",
+      "denominator": {"value": 1, "unit": "Philippine reform and resilience system", "value_type": "policy_system_frame"},
+      "measures": {
+        "social_security_coverage": {"value": 33, "unit": "percent of Filipino workers contributing to social security", "value_type": "reported_share"},
+        "care_route": {"value": "Universalizing early childhood care is identified as a way to build human capital and enable more women to enter and remain in the workforce", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "social_protection_route": {"value": "Indexing 4Ps benefits to inflation and extending coverage to vulnerable households are identified as resilience measures", "unit": "reported policy route", "value_type": "reported_policy_mechanism"},
+        "local_capacity": {"value": "Local governments spend about two-thirds of infrastructure budgets, while poorer municipalities receive less funding per person than wealthier ones", "unit": "reported public-capacity pattern", "value_type": "reported_pattern"}
+      },
+      "method": "World Bank analysis of labor formalization, social insurance, childcare, social protection, agricultural insurance, local public spending, and service delivery.",
+      "uncertainty": "Coverage and spending measures do not establish service quality, benefit adequacy, take-up, or the causal effect of a single reform on poverty or women’s employment.",
+      "subgroup": "Informal and lower-skilled workers, women, children, farmers, poor municipalities, households receiving 4Ps, and residents needing health or education services.",
+      "counterinterpretation": "Informal work and decentralized spending can provide flexibility or reflect local constraints; reform should improve protection and capacity without eliminating useful livelihood options.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/04/philippines-can-end-poverty-and-build-a-middle-class-society-by-2040-but-only-with-urgent-reforms",
+      "retrieval_hash": "sha256:4a490e9de3d0f0f69693ec48d962d1bc60b7b971a5735fe0aaafd06443b62ab6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/event/2026/06/05/building-the-filipino-middle-class-towards-resilient-futures-and-poverty-eradicati", "claim": "World Bank report launch and poverty-equity assessment context."},
+    {"source_url": "https://www.worldbank.org/en/country/philippines/publication/philippines-economic-update", "claim": "Complementary Philippines macroeconomic and household context."}
+  ],
+  "boundary": "This record adds a country-level poverty, middle-class security, jobs, social insurance, disaster resilience, care, agriculture, and local-service lens. It uses aggregate poverty evidence and modeled scenarios, not individual household trajectories, respondent-level motivations, causal evaluation of each reform, or proof that projected 2040 outcomes will occur.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Philippines report release reviewed for poverty and inequality change, vulnerable and secure-middle-class shares, disaster exposure, modeled 2040 scenarios, social security, childcare, 4Ps, agricultural insurance, and local infrastructure spending.",
+    "source_url_sha256": "sha256:4a490e9de3d0f0f69693ec48d962d1bc60b7b971a5735fe0aaafd06443b62ab6",
+    "checked": "2026-09-26"
+  }
+}

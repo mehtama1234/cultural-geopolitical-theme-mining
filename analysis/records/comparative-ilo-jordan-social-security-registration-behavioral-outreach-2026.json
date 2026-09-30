@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-jordan-social-security-registration-behavioral-outreach-2026",
+  "title": "Social-protection formalization requires affordability and human navigation, not information alone",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, What Drives Social Security Registration? Experimental Evidence from Behavioural Interventions in Jordan’s Estidama++ Programme, 2026",
+  "geography": "Jordan; small firms with 1–9 registered workers and eligible Jordanian and non-Jordanian workers in the Estidama++ programme",
+  "observations": [
+    {
+      "period": "2024–2025; randomised evaluation of firm outreach and SMS interventions",
+      "denominator": {"value": 1, "unit": "Jordanian social-security registration system and Estidama++ programme", "value_type": "reported_program_frame"},
+      "measures": {
+        "coverage_gap": {"value": 52, "unit": "percent of workers in Jordan remaining unprotected by social security", "value_type": "reported_program_context"},
+        "firm_visit_effect": {"value": 0.31, "unit": "additional workers per firm registered in SSC 1.5 years after in-person visits", "value_type": "randomized_effect"},
+        "relative_effect": {"value": 9.2, "unit": "percent more registered workers per firm than firms not visited", "value_type": "randomized_effect"},
+        "mechanism": {"value": "human outreach increased registration mainly by making the subsidized programme and its affordability legible, rather than by increasing employment", "unit": "bounded formalization mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Randomized controlled trial: 800 firms received in-person visits and 1,646 firms served as comparison; outcomes were followed for 1.5 years. The brief also reports a separate SMS experiment covering 29,372 treatment firms and 14,685 comparison firms.",
+      "uncertainty": "The experiment concerns eligible small firms and a temporary subsidy in Jordan; registration is an administrative coverage outcome, not proof of benefit adequacy, long-run retention, improved job quality, or household welfare.",
+      "subgroup": "Informal and low-income workers, women, non-Jordanian workers and refugees, small firms, employers, and workers with limited contributory capacity.",
+      "counterinterpretation": "The treatment may have changed take-up of a subsidized programme more than underlying willingness to contribute to ordinary social insurance; results may differ when subsidies expire or for firms outside the eligible small-firm frame.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/59169%20-%20Policy%20brief%20-%20Final%20-%20Web.pdf",
+      "retrieval_hash": "sha256:e541e8181b4cd1de9370da6dd9ab2a70e05d360dcbfb78e65165d5bbe563b3c6",
+      "status": "reported"
+    },
+    {
+      "period": "February 2024–April 2024; information design and institutional engagement",
+      "denominator": {"value": 800, "unit": "firms randomly selected for in-person visits", "value_type": "reported_treatment_frame"},
+      "measures": {
+        "programme_awareness": {"value": "among visited firms, awareness that Estidama++ was a subsidy rose to 49% versus 29% among non-visited comparison firms; knowledge of all eligibility criteria was 17% versus 10%", "unit": "reported knowledge outcomes", "value_type": "randomized_effect"},
+        "portal_engagement": {"value": 14, "unit": "percent higher monthly SSC logins for visited firms in April 2025", "value_type": "randomized_effect"},
+        "process_friction": {"value": "visits did not improve perceived ease of registration or contribution, and firms still reported difficulty managing, updating and uploading worker information", "unit": "reported implementation constraint", "value_type": "reported_evaluation_finding"},
+        "mechanism": {"value": "personalized explanation can create institutional engagement while leaving the administrative interface itself hard to use", "unit": "bounded access-to-usability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Behaviourally informed face-to-face outreach by 50 trained Social Security Corporation officials, using a simplified brochure, step-by-step guidance, reminders, and monitored visits; comparison with eligible firms without visits.",
+      "uncertainty": "Knowledge and login measures are intermediate outcomes; the brief does not establish whether improved engagement translated into sustained contribution payment, claim use, or greater trust after the programme ended.",
+      "subgroup": "Small-firm owners, administrative staff, workers navigating registration, and institutions serving people with low digital or bureaucratic capacity.",
+      "counterinterpretation": "Human contact may partly reflect the authority or credibility of an official visit rather than the content of the behavioural message; simplifying information without simplifying the process may have limited value.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/59169%20-%20Policy%20brief%20-%20Final%20-%20Web.pdf",
+      "retrieval_hash": "sha256:e541e8181b4cd1de9370da6dd9ab2a70e05d360dcbfb78e65165d5bbe563b3c6",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; comparison of scalable digital outreach with intensive human outreach",
+      "denominator": {"value": 29372, "unit": "firms randomly selected for SMS treatment", "value_type": "reported_treatment_frame"},
+      "measures": {
+        "sms_registration": {"value": "SMS produced a small positive effect on Estidama++ uptake but no effect on the number of workers registered into SSC", "unit": "reported randomized comparison", "value_type": "randomized_null_or_small_effect"},
+        "sms_cost": {"value": 0.032, "unit": "JOD per firm for nine SMS messages", "value_type": "reported_cost"},
+        "visit_cost": {"value": 83, "unit": "JOD per additional firm participating in Estidama++ through firm visits", "value_type": "reported_cost"},
+        "channel_tradeoff": {"value": "SMS is substantially cheaper and scalable but weak for worker registration; firm visits are costly but effective, implying a complementary outreach mix", "unit": "reported cost-effectiveness tradeoff", "value_type": "reported_program_design_finding"},
+        "mechanism": {"value": "digital reach can distribute information cheaply, while human assistance is needed when affordability, eligibility, trust, and administrative friction must be resolved together", "unit": "bounded channel-complementarity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Randomized comparison of positively framed and loss-aversion SMS campaigns with a no-SMS comparison group, alongside the randomized in-person visit intervention; reported cost-effectiveness calculations.",
+      "uncertainty": "Costs exclude staff wages and results depend on Jordan’s existing outreach infrastructure; the study does not identify the optimal mix for other programmes, populations, languages, or benefit systems.",
+      "subgroup": "Workers and firms with weak digital access, limited time, low trust, low financial room, or complex administrative needs; public agencies balancing reach and casework capacity.",
+      "counterinterpretation": "SMS may work better when paired with a simpler registration interface or larger benefits; the null worker-registration effect could reflect temporary subsidy design or employer-level rather than worker-level bottlenecks.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/59169%20-%20Policy%20brief%20-%20Final%20-%20Web.pdf",
+      "retrieval_hash": "sha256:e541e8181b4cd1de9370da6dd9ab2a70e05d360dcbfb78e65165d5bbe563b3c6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/what-drives-social-security-registration-experimental-evidence-behavioural", "claim": "Official ILO publication page with brief summary, date, PDF, DOI and project link."},
+    {"source_url": "https://www.ilo.org/projects-and-partnerships/projects/estidama-fund-%E2%80%93-extension-coverage-and-formalization-jordan", "claim": "Official Estidama++ project page with programme design, target groups, project impact and research agenda."},
+    {"source_url": "https://doi.org/10.54394/CYFI1732", "claim": "Official DOI for the ILO brief."}
+  ],
+  "boundary": "This record adds randomized evidence that in-person outreach plus temporary contribution subsidies increased social-security registration among eligible Jordanian small firms, while SMS alone did not increase worker registration. It does not establish benefit adequacy, durable post-subsidy coverage, job quality, household welfare, or generalizability beyond the Jordanian small-firm and Estidama++ context.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO brief and publication/project pages, 52% unprotected-worker context, Estidama++ subsidy design, randomized firm-visit and SMS samples, registration effects, knowledge and login outcomes, process friction, cost comparison, and post-subsidy boundary were reviewed.",
+    "source_url_sha256": "sha256:e541e8181b4cd1de9370da6dd9ab2a70e05d360dcbfb78e65165d5bbe563b3c6",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-global-health-ppr-financing-aid-dependence-resilience-2026",
+  "title": "Preparedness is a global public good with a domestic budget problem",
+  "theme_ids": ["cost", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD, Tracking spending on prevention, preparedness and response to global health threats, 24 September 2026",
+  "geography": "Global; high-income, upper-middle-income, lower-middle-income and low-income country groups; OECD Development Assistance Committee financing",
+  "observations": [
+    {
+      "period": "2023; estimated health-sector prevention, preparedness and response spending by country-income group",
+      "denominator": {"value": 1, "unit": "country-income-group PPR expenditure frame", "value_type": "reported_global_comparison"},
+      "measures": {
+        "high_income_per_capita": {"value": 75, "unit": "USD per person", "value_type": "reported_estimate"},
+        "low_income_per_capita": {"value": 4, "unit": "less than USD per person", "value_type": "reported_estimate"},
+        "health_budget_share": {"value": "less than 2% of health expenditure in high-income countries versus about 10% in low-income countries", "unit": "reported share of health expenditure", "value_type": "reported_estimate"},
+        "post_pandemic_path": {"value": "PPR spending declined from the pandemic peak but remained, on average, 13% above 2019 levels as a share of GDP in 2023", "unit": "reported change from 2019 baseline", "value_type": "reported_trend"},
+        "mechanism": {"value": "Preparedness capacity is distributed through sharply unequal fiscal spaces: poorer countries devote a larger share of constrained health budgets while spending far less per person", "unit": "bounded fiscal-capacity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD estimate mapping System of Health Accounts functions to Prevention, Preparedness and Response technical areas using Joint External Evaluation categories and country-income-group comparisons.",
+      "uncertainty": "The estimates cover recurrent health-sector spending and do not capture all capital expenditure, medical-countermeasure R&D or relevant spending outside health, including animal health and agriculture; income-group averages conceal country variation.",
+      "subgroup": "People in low-income countries, health workers, public-health agencies, households exposed to outbreaks, and populations dependent on thin health budgets for routine and emergency protection.",
+      "counterinterpretation": "Higher PPR shares in low-income countries may reflect urgent exposure and lower denominators rather than stronger preparedness; lower shares in high-income countries may coexist with substantial capabilities outside the measured health budget.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/tracking-spending-on-prevention-preparedness-and-response-to-global-health-threats_9d052101/899eabea-en.pdf",
+      "retrieval_hash": "sha256:70e44db1bb1a8188e996bfea5c6473ce2e9081102a1a380b701be56bb6125b1b",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026; external financing and aid exposure for low-income-country PPR",
+      "denominator": {"value": 1, "unit": "low-income-country PPR expenditure with available data", "value_type": "reported_financing_frame"},
+      "measures": {
+        "external_financing": {"value": "external sources, including aid, financed nearly 75% of total PPR expenditure in low-income countries with available data in 2023", "unit": "reported share of PPR expenditure", "value_type": "reported_estimate"},
+        "health_oda_projection": {"value": "ODA for health from Development Assistance Committee countries is projected to decline by 29–46% between 2024 and 2026, equivalent to USD 5–8 billion", "unit": "projected financing change", "value_type": "reported_projection"},
+        "pandemic_peak_comparison": {"value": "Projected health ODA in 2026 would be approximately 63% below its 2022 pandemic peak", "unit": "projected comparison with 2022", "value_type": "reported_projection"},
+        "mechanism": {"value": "A globally shared protection system becomes fragile when frontline countries rely on external flows whose political priorities and fiscal cycles are set elsewhere", "unit": "bounded aid-dependence mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD comparison of PPR financing sources and projected development-assistance trends, situated within the global-public-good logic of surveillance, infection prevention, emergency response and research.",
+      "uncertainty": "The projection is not a forecast of every donor or country flow and does not estimate the effect of each financing cut on outbreak probability, mortality, service continuity or national preparedness; external financing varies across countries.",
+      "subgroup": "Low-income-country health ministries and public-health workers, aid-dependent communities, regional surveillance networks, donors and populations in neighbouring countries that benefit from cross-border risk reduction.",
+      "counterinterpretation": "External financing can be catalytic and may support capabilities that domestic budgets would not create quickly; reduced aid does not necessarily imply reduced effectiveness if domestic or pooled financing replaces it.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/tracking-spending-on-prevention-preparedness-and-response-to-global-health-threats_9d052101/899eabea-en.pdf",
+      "retrieval_hash": "sha256:70e44db1bb1a8188e996bfea5c6473ce2e9081102a1a380b701be56bb6125b1b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 measurement and governance problem; tracking PPR across health and non-health sectors",
+      "denominator": {"value": 1, "unit": "PPR financing measurement system", "value_type": "reported_methodological_frame"},
+      "measures": {
+        "measurement_gap": {"value": "PPR spending is not systematically tracked in an internationally comparable way because relevant activities are embedded across multiple health and non-health sectors", "unit": "reported evidence-gap finding", "value_type": "reported_methodological_finding"},
+        "scope": {"value": "PPR includes surveillance, infection prevention and control, emergency response, R&D, antimicrobial resistance, chemical, nuclear and radiological events, and biotechnology- and AI-enabled biological risks", "unit": "reported risk-and-capacity scope", "value_type": "reported_framework"},
+        "tracker": {"value": "OECD, WHO, World Bank and partners are developing a Global Health and Resilience Tracker using System of Health Accounts and Creditor Reporting System standards", "unit": "reported coordination instrument", "value_type": "reported_initiative"},
+        "mechanism": {"value": "What is hard to see in a budget is hard to defend politically: delayed and diffuse prevention benefits lose priority to immediate domestic demands unless measurement creates a shared account of resilience", "unit": "bounded visibility-and-priority mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD methodological brief combining health-accounting attribution, international development-finance reporting standards and a policy analysis of global-public-good underinvestment.",
+      "uncertainty": "The tracker and attribution approach are designed to improve comparability but remain estimates; current measures omit several relevant sectors and cannot by themselves establish whether spending is adequate, well allocated or equitably governed.",
+      "subgroup": "Budget officials, public-health agencies, laboratories, animal-health and agricultural systems, technology and research institutions, civil society, donors and communities seeking accountable preparedness.",
+      "counterinterpretation": "More measurement can create administrative burden, encourage metric gaming or narrow preparedness to what fits existing accounting systems; visibility does not guarantee durable political commitment or effective delivery.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/tracking-spending-on-prevention-preparedness-and-response-to-global-health-threats_9d052101/899eabea-en.pdf",
+      "retrieval_hash": "sha256:70e44db1bb1a8188e996bfea5c6473ce2e9081102a1a380b701be56bb6125b1b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/tracking-spending-on-prevention-preparedness-and-response-to-global-health-threats_899eabea-en.html", "claim": "Official OECD publication page: date, DOI, policy-brief metadata and tags."},
+    {"source_url": "https://www.oecd.org/en/publications/tracking-spending-on-prevention-preparedness-and-response-to-global-health-threats_899eabea-en/full-report.html", "claim": "Official OECD full-report HTML with key messages, methodology, financing estimates, global-public-good framing and policy implications."},
+    {"source_url": "https://doi.org/10.1787/899eabea-en", "claim": "OECD DOI record for the publication."}
+  ],
+  "boundary": "This record identifies a global-health-financing, preparedness and measurement subtheme. It does not establish that any particular spending level, aid reduction, tracker or domestic-financing reform will cause an outbreak, prevent one, improve health outcomes, strengthen sovereignty, or distribute protection equitably; those require named country, institution, workforce, household and outbreak episodes with observed budgets, capabilities, delivery, access and political response.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD 8-page policy brief PDF, publication page and full-report HTML were reviewed for PPR definitions, income-group spending estimates, external-financing dependence, ODA projections, global-public-good mechanism, accounting method, limitations and Global Health and Resilience Tracker initiative.",
+    "source_url_sha256": "sha256:70e44db1bb1a8188e996bfea5c6473ce2e9081102a1a380b701be56bb6125b1b",
+    "checked": "2026-09-29"
+  }
+}

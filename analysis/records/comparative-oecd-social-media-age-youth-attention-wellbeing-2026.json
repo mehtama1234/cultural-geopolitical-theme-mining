@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-social-media-age-youth-attention-wellbeing-2026",
+  "title": "Social media has become a central youth environment where attention, learning, identity, inequality, and policy collide",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "unequal_exposure_status", "care_health_reproduction", "public_systems_feedback", "political_judgment_action", "household_room_consumption", "infrastructure_technology_dependency"],
+  "source_unit": "OECD Digital Economy Papers No. 385, Growing up in the social media age",
+  "geography": "OECD countries, primarily 15-year-olds and 2022 PISA-linked digital-leisure, academic, and creative-thinking evidence",
+  "observations": [
+    {
+      "period": "2022 PISA-linked evidence; OECD average for 15-year-olds",
+      "denominator": {"value": 1, "unit": "OECD 15-year-old population represented in the report's cross-country analysis", "value_type": "published_oecd_student_frame"},
+      "measures": {
+        "weekly_social_media_time": {"value": 35, "unit": "approximately hours per week spent on social media on average", "value_type": "reported_oecd_average"},
+        "daily_browsing": {"value": 95, "unit": "percent reporting browsing social media daily", "value_type": "reported_oecd_share"},
+        "daily_communicating_sharing": {"value": 88, "unit": "percent reporting communicating or sharing digital content daily", "value_type": "reported_oecd_share"},
+        "cross_country_range": {"value": "under 26 to over 45 hours per week", "unit": "reported country range", "value_type": "reported_cross_country_range"}
+      },
+      "method": "OECD analysis of PISA 2022 digital-leisure measures and literature on social media use among young people.",
+      "uncertainty": "Reported time is survey-based and does not establish platform-specific exposure, content quality, multitasking, or causal effects on learning or well-being.",
+      "subgroup": "15-year-olds across OECD countries, with differences by country, sex, and socio-economic background.",
+      "counterinterpretation": "High use can include connection, information, play, creativity, and peer support; time alone does not distinguish beneficial from harmful activity.",
+      "source_url": "https://www.oecd.org/en/publications/growing-up-in-the-social-media-age_a1132839-en/full-report.html",
+      "retrieval_hash": "sha256:c31ff04a635d7ac4bb01468d941904487452cec38cb82537606ace3bba63ce67",
+      "status": "reported"
+    },
+    {
+      "period": "2022 PISA-linked evidence; sex and socio-economic differences",
+      "denominator": {"value": 1, "unit": "OECD 15-year-old students with reported digital-leisure patterns", "value_type": "published_subgroup_frame"},
+      "measures": {
+        "girls_social_media_time": {"value": 37.2, "unit": "average hours per week for girls", "value_type": "reported_subgroup_average"},
+        "boys_social_media_time": {"value": 31.8, "unit": "average hours per week for boys", "value_type": "reported_subgroup_average"},
+        "low_ses_difference_girls": {"value": 8, "unit": "additional average weekly hours reported by girls in the lowest socio-economic quartile compared with the highest quartile", "value_type": "reported_subgroup_difference"},
+        "low_ses_difference_boys": {"value": 5, "unit": "additional average weekly hours reported by boys in the lowest socio-economic quartile compared with the highest quartile", "value_type": "reported_subgroup_difference"}
+      },
+      "method": "OECD subgroup comparisons of reported digital leisure by sex and socio-economic background.",
+      "uncertainty": "Subgroup gaps are descriptive associations; they do not establish whether social media causes the differences or whether other time, family, school, or neighborhood conditions explain them.",
+      "subgroup": "Girls and boys, lower- and higher-socio-economic-background students, and students in different OECD education systems.",
+      "counterinterpretation": "Higher use among disadvantaged students may reflect social connection or limited alternatives, while lower use may reflect unequal access or different reporting rather than lower exposure to risk.",
+      "source_url": "https://www.oecd.org/en/publications/growing-up-in-the-social-media-age_a1132839-en/full-report.html",
+      "retrieval_hash": "sha256:c31ff04a635d7ac4bb01468d941904487452cec38cb82537606ace3bba63ce67",
+      "status": "reported"
+    },
+    {
+      "period": "2022 PISA-linked evidence; academic performance and creative thinking",
+      "denominator": {"value": 1, "unit": "OECD student associations analyzed using reported social-media activity and PISA outcomes", "value_type": "published_association_frame"},
+      "measures": {
+        "academic_pattern": {"value": "moderate social-media use is associated with higher test scores, while excessive use is associated with falling academic performance", "unit": "reported association", "value_type": "reported_association"},
+        "creative_thinking_pattern": {"value": "creative-thinking scores peak at moderate levels of browsing, roughly one to three hours per day", "unit": "reported association", "value_type": "reported_association"},
+        "communication_threshold_pattern": {"value": "more than one hour of weekday or weekend communication/sharing is associated with declining measured creative-thinking scores", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "OECD analysis of associations between digital-leisure behavior and PISA academic and creative-thinking outcomes.",
+      "uncertainty": "These are observational associations and may reflect reverse causality, selection, omitted variables, content differences, or reporting error; they are not dose-response causal estimates.",
+      "subgroup": "15-year-old students with different levels and types of browsing, communication, sharing, and gaming activity.",
+      "counterinterpretation": "The relationship may be non-linear and activity-specific: moderate use can support creativity or connection, while intensive or distracting use can coincide with poorer outcomes.",
+      "source_url": "https://www.oecd.org/en/publications/growing-up-in-the-social-media-age_a1132839-en/full-report.html",
+      "retrieval_hash": "sha256:c31ff04a635d7ac4bb01468d941904487452cec38cb82537606ace3bba63ce67",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy review; social-media governance for young people",
+      "denominator": {"value": 1, "unit": "OECD review of policy approaches to young people's social-media use", "value_type": "policy_review_frame"},
+      "measures": {
+        "policy_direction": {"value": "mobile-phone restrictions in schools and dedicated social-media laws or minimum-age rules are gaining policy attention", "unit": "reported policy pattern", "value_type": "reported_policy_pattern"},
+        "implementation_challenge": {"value": "school device restrictions have become more common but implementation is difficult", "unit": "reported implementation condition", "value_type": "reported_boundary"},
+        "policy_balance": {"value": "policy must protect against risks while safeguarding expression, privacy, innovation, and fair competition", "unit": "reported policy-balancing frame", "value_type": "reported_framework"}
+      },
+      "method": "OECD review of research and national/subnational policy approaches to young people's social-media use.",
+      "uncertainty": "Policy adoption does not establish enforcement, compliance, effectiveness, or equal impact; restrictions can shift activity across platforms or into less visible settings.",
+      "subgroup": "Young people, families, educators, schools, platforms, regulators, and communities with different digital access and safety conditions.",
+      "counterinterpretation": "Well-designed digital literacy, platform accountability, safer product design, and supportive school practice may complement or outperform blanket restrictions in some contexts.",
+      "source_url": "https://www.oecd.org/en/publications/growing-up-in-the-social-media-age_a1132839-en/full-report.html",
+      "retrieval_hash": "sha256:c31ff04a635d7ac4bb01468d941904487452cec38cb82537606ace3bba63ce67",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/a1132839-en", "claim": "OECD citation and persistent identifier for Digital Economy Papers No. 385."},
+    {"source_url": "https://www.unicef.org/innocenti/reports/growing-rights", "claim": "UNICEF child-rights and agency evidence provides a complementary youth voice and protection frame."}
+  ],
+  "boundary": "This record adds a youth digital-life route linking social-media time, attention, communication, creativity, academic performance, gender, socio-economic inequality, well-being, school practice, and platform regulation. It is a comparative publication-level synthesis using aggregate and survey-linked evidence, not respondent-level histories, clinical mental-health data, platform telemetry, causal effects, or proof that a specific restriction improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD full report and executive-summary sections were reviewed for youth-use levels, subgroup differences, academic and creative-thinking associations, policy approaches, and causal-boundary language.",
+    "source_url_sha256": "sha256:c31ff04a635d7ac4bb01468d941904487452cec38cb82537606ace3bba63ce67",
+    "checked": "2026-09-27"
+  }
+}

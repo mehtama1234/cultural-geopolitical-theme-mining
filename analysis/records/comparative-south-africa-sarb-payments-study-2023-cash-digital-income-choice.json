@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-africa-sarb-payments-study-2023-cash-digital-income-choice",
+  "title": "South Africa’s payments remain cash-heavy for volume while cards carry higher-value transactions across income groups",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "South African Reserve Bank, Payments Study Report 2023, combining Survey of Consumer Payment Choice and Diary of Consumer Payment Choice",
+  "geography": "South Africa; adults aged 18 years and older, with nationwide payment diaries, income-group, province, demographic, and payment-method dimensions",
+  "observations": [
+    {
+      "period": "2023; payment-method mix and transaction value",
+      "denominator": {
+        "value": 4624,
+        "unit": "Diary of Consumer Payment Choice panellists completing or contributing to the three-month diary programme; 210,207 recorded payments worth R111.2 million",
+        "value_type": "reported_diary_sample"
+      },
+      "measures": {
+        "cash_payment_volume_share": {"value": 56, "unit": "percent of estimated payment volume recorded through cash", "value_type": "official_diary_share"},
+        "cash_payment_value_share": {"value": 21, "unit": "percent of estimated payment value recorded through cash", "value_type": "official_diary_share"},
+        "cash_average_transaction": {"value": 208.44, "unit": "South African rand average cash payment per transaction", "value_type": "official_diary_average"},
+        "debit_payment_volume_share": {"value": 34, "unit": "percent of estimated payment volume recorded through debit cards", "value_type": "official_diary_share"},
+        "debit_payment_value_share": {"value": 55, "unit": "percent of estimated payment value recorded through debit cards", "value_type": "official_diary_share"},
+        "debit_average_transaction": {"value": 768.20, "unit": "South African rand average debit-card payment per transaction", "value_type": "official_diary_average"},
+        "mechanism": {"value": "Cash and cards are not simple substitutes: cash dominates transaction count while debit cards carry much more transaction value, so payment modernization changes the value and visibility of consumption unevenly", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "SARB payment diary estimates from the DCPC, which recorded actual payments over repeated three-day diary cycles; volume and value shares are estimated from weighted diary transactions.",
+      "uncertainty": "The diary captures payment instruments rather than total consumption, merchant acceptance, income effects, or consumer welfare; payment-method categories and weighting may not be directly comparable to administrative transaction totals.",
+      "subgroup": "South African adults aged 18 years and older, with cash and debit-card transaction comparisons.",
+      "counterinterpretation": "Cash can remain preferred for privacy, acceptance, budgeting, or low-value purchases, while card use for higher values may reflect merchant infrastructure or safety rather than preference alone.",
+      "source_url": "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2024/payments/SARB%20Payments%20Study%20Report%202023.pdf",
+      "retrieval_hash": "sha256:be201b1eaf418c3b170c4e33173f9c597db6b6bbad154c666126ee85aea32113",
+      "status": "reported"
+    },
+    {
+      "period": "2023; payment value by personal-income group",
+      "denominator": {
+        "value": 4624,
+        "unit": "Diary of Consumer Payment Choice panellists contributing to the weighted three-month diary; income groups use personal gross monthly income",
+        "value_type": "reported_diary_sample"
+      },
+      "measures": {
+        "low_income_population_share": {"value": 36, "unit": "percent of weighted diary population with personal gross monthly income below R5,000", "value_type": "official_income_group_share"},
+        "low_income_payment_value_share": {"value": 16, "unit": "percent of total payment value represented by the low-income group", "value_type": "official_income_group_value_share"},
+        "low_income_average_payment": {"value": 299, "unit": "South African rand average payment per transaction for the low-income group", "value_type": "official_income_group_average"},
+        "high_income_population_share": {"value": 14, "unit": "percent of weighted diary population with personal gross monthly income above R25,000", "value_type": "official_income_group_share"},
+        "high_income_payment_value_share": {"value": 28, "unit": "percent of total payment value represented by the high-income group", "value_type": "official_income_group_value_share"},
+        "high_income_average_payment": {"value": 1072, "unit": "South African rand average payment per transaction for the high-income group", "value_type": "official_income_group_average"},
+        "mechanism": {"value": "Payment value is concentrated above population share: high-income consumers generate disproportionate payment value while lower-income consumers transact at much smaller average amounts, shaping who is visible to digital commerce and loyalty systems", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "SARB weighted diary analysis using personal gross monthly income bands; payment volume means transaction count and payment value means transaction rand value.",
+      "uncertainty": "Income grouping is self-reported and the diary measures recorded payment flows, not wealth, unmet demand, total household consumption, or causal purchasing power.",
+      "subgroup": "South African adult diary panellists by personal gross monthly income group.",
+      "counterinterpretation": "Higher payment values may reflect recurring bills, business transactions, household composition, or different merchant access rather than greater cultural or consumer wellbeing.",
+      "source_url": "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2024/payments/SARB%20Payments%20Study%20Report%202023.pdf",
+      "retrieval_hash": "sha256:be201b1eaf418c3b170c4e33173f9c597db6b6bbad154c666126ee85aea32113",
+      "status": "reported"
+    },
+    {
+      "period": "2023; stated payment use versus diary-recorded digital methods",
+      "denominator": {
+        "value": null,
+        "unit": "SARB Survey of Consumer Payment Choice (SCPC) recall sample versus Diary of Consumer Payment Choice (DCPC) weighted payment sample; denominators differ and are not interchangeable",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "digital_methods_recall_population_share": {"value": 75.6, "unit": "percent of SCPC consumer population reporting use of the report’s digital-payment-method category", "value_type": "official_recall_share"},
+        "digital_methods_diary_population_share": {"value": 0.2, "unit": "percent of DCPC consumer population represented by recorded digital-payment-method transactions in the three-month diary", "value_type": "official_diary_share"},
+        "cardless_recall_population_share": {"value": 15, "unit": "percent of SCPC consumers reporting cardless-payment use", "value_type": "official_recall_share"},
+        "cardless_diary_population_share": {"value": 8, "unit": "percent of DCPC consumer population represented by cardless-payment transactions", "value_type": "official_diary_share"},
+        "crypto_payment_recall_share": {"value": 2, "unit": "percent of SCPC population reporting crypto assets as a payment method, mainly for investment", "value_type": "official_recall_share"},
+        "crypto_payment_diary_share": {"value": 0, "unit": "percent of recorded DCPC transactions using crypto-asset payments", "value_type": "official_diary_share"},
+        "mechanism": {"value": "Reported annual adoption and observed near-term transactions are different stages: intermittent, niche, or context-specific digital methods can appear widespread in recall but rarely in a short transaction diary", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparison of the SARB SCPC recall instrument, which asks about use in the past year, with the DCPC three-month payment diary; the report explicitly warns that the measures and category definitions differ.",
+      "uncertainty": "The apparent gap is not a prevalence estimate or causal contradiction: recall period, method definitions, intermittent use, sample composition, and diary compliance all differ.",
+      "subgroup": "South African adults in the SCPC and DCPC payment-study samples.",
+      "counterinterpretation": "A method can be important for occasional high-salience payments while absent from a short diary; low observed frequency does not imply low perceived usefulness or future growth.",
+      "source_url": "https://www.resbank.co.za/content/dam/sarb/publications/media-releases/2024/payments/SARB%20Payments%20Study%20Report%202023.pdf",
+      "retrieval_hash": "sha256:be201b1eaf418c3b170c4e33173f9c597db6b6bbad154c666126ee85aea32113",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/media-releases/2024/south-african-reserve-bank-payments-study-report-launch",
+      "claim": "SARB official publication page describing the first national Payments Study and linking its report and executive summary.",
+      "status": "official-report-page"
+    },
+    {
+      "source_url": "https://resbank.co.za/en/home/what-we-do/payments-and-settlements/2023-payments-study",
+      "claim": "SARB payments-study dissemination page describing consumer payment instruments, cash persistence, cards, banking apps, and digital-payment limitations.",
+      "status": "official-dissemination-source"
+    }
+  ],
+  "boundary": "This record adds a South African payment-choice and transaction-diary layer to the cultural, social, and consumer atlas. It does not establish causal payment substitution, cultural spending, merchant behavior, financial welfare, or representativeness beyond the documented survey design.",
+  "retrieval_hash": "sha256:be201b1eaf418c3b170c4e33173f9c597db6b6bbad154c666126ee85aea32113",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "SARB 66-page Payments Study Report reviewed; SCPC/DCPC design, diary sample, 210,207 payments, cash/debit summary tables, income-group payment-value analysis, recall-versus-diary definitions, and method limitations checked.",
+    "report_pdf_sha256": "sha256:b87b2b35745aa939356c86b8c677a6c7d99913e68d7b68ef39b195d8a766362f",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-atscale-assistive-technology-gender-2026",
+  "title": "Assistive technology is being reframed as participation infrastructure, but access remains gendered, social, and structurally unequal",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "UN Women and ATscale, Unlocking HER potential: Gender equality through equitable access to assistive technology",
+  "geography": "Global policy brief drawing on evidence from nearly 50 countries, country consultations, and international literature",
+  "observations": [
+    {
+      "period": "2026; assistive technology and gender equality across the life course",
+      "denominator": {"value": 1, "unit": "UN Women and ATscale global policy framework", "value_type": "global_policy_frame"},
+      "measures": {
+        "participation_role": {"value": "assistive technology is presented as a prerequisite for women’s meaningful participation in education, employment, family life, leadership, public life, and digital spaces", "unit": "UN Women and ATscale policy framing", "value_type": "reported_mechanism"},
+        "rights_route": {"value": "access to assistive technology is treated as an enabler of human rights and gender equality, not a niche or specialized service", "unit": "policy brief finding", "value_type": "reported_reframing"},
+        "access_gap": {"value": "millions of women and girls remain excluded by systems that do not provide gender-responsive, safe, and accessible solutions", "unit": "policy brief assessment", "value_type": "reported_gap"},
+        "life_course": {"value": "the brief uses a life-course perspective to connect assistive technology with autonomy, communication, opportunity, and agency", "unit": "policy brief framework", "value_type": "reported_framework"}
+      },
+      "method": "UN Women and ATscale policy brief synthesis connecting assistive technology, disability, gender equality, human rights, and participation across the life course.",
+      "uncertainty": "The brief is a global policy analysis and evidence synthesis, not a universal prevalence estimate or causal evaluation of assistive-technology provision.",
+      "subgroup": "Women and girls with disabilities, older women, assistive-technology users, caregivers, workers, students, leaders, and people facing intersecting forms of exclusion.",
+      "counterinterpretation": "Assistive technology can expand autonomy and participation, but products alone cannot overcome inaccessible institutions, stigma, poverty, violence, or weak service systems.",
+      "source_url": "https://atscalepartnership.org/atscale-publications/unlocking-her-potential-gender-equality-through-equitable-access-assistive",
+      "retrieval_hash": "sha256:0b34108b88bd19eb14a5c690a2fca636becccd6a125a87b852390aa9a4b5eac2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; evidence base for gendered assistive-technology access",
+      "denominator": {"value": 240, "unit": "more than 240 survey responses from individuals and organizations across nearly 50 countries", "value_type": "mixed_evidence_frame"},
+      "measures": {
+        "evidence_inputs": {"value": "the brief draws on more than 240 survey responses, country-level consultations, literature review, expert input, and more than 80 sources described in related launch materials", "unit": "UN Women/ATscale evidence synthesis", "value_type": "reported_evidence_set"},
+        "barrier_type": {"value": "barriers are social, economic, and structural as well as technical", "unit": "policy brief finding", "value_type": "reported_mechanism"},
+        "intersectionality": {"value": "women and girls with disabilities and those facing intersecting discrimination require explicit attention in system design and provision", "unit": "policy brief framing", "value_type": "reported_subgroup_condition"},
+        "policy_endpoint": {"value": "equitable access requires changes in systems rather than treating assistive technology as an individual purchase alone", "unit": "policy brief synthesis", "value_type": "reported_reframing"}
+      },
+      "method": "Mixed evidence synthesis using surveys of individuals and organizations, country consultations, literature review, and expert input; the brief organizes the evidence through a systems framework.",
+      "uncertainty": "The survey and consultation inputs are not a probability sample of all users or countries, and evidence sources may differ in measurement, representation, and quality.",
+      "subgroup": "Assistive-technology users, women and girls with disabilities, organizations, providers, advocates, policymakers, and communities with different service and financing conditions.",
+      "counterinterpretation": "A broad evidence base can identify recurring barriers without proving their prevalence or relative importance in every setting.",
+      "source_url": "https://atscalepartnership.org/atscale-publications/unlocking-her-potential-gender-equality-through-equitable-access-assistive",
+      "retrieval_hash": "sha256:0b34108b88bd19eb14a5c690a2fca636becccd6a125a87b852390aa9a4b5eac2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; five-part assistive-technology systems framework",
+      "denominator": {"value": 5, "unit": "People, Products, Provision, Personnel, and Policy dimensions", "value_type": "systems_framework"},
+      "measures": {
+        "people": {"value": "systems should center the voices and lived realities of women and girls, especially those with disabilities", "unit": "5Ps framework", "value_type": "reported_design_requirement"},
+        "products": {"value": "assistive products need to be accessible, safe, appropriate, and responsive to diverse needs", "unit": "5Ps framework", "value_type": "reported_design_requirement"},
+        "provision": {"value": "financing, service delivery, continuity, and availability shape whether products become usable access", "unit": "5Ps framework", "value_type": "reported_system_condition"},
+        "personnel_policy": {"value": "trained personnel and enabling policy are necessary complements to products and user demand", "unit": "5Ps framework", "value_type": "reported_system_condition"}
+      },
+      "method": "Policy brief framework analysis of five interconnected dimensions in assistive-technology systems.",
+      "uncertainty": "The framework organizes barriers and routes for action but does not assign a universal causal weight or implementation sequence to each dimension.",
+      "subgroup": "Users, caregivers, service providers, clinicians, educators, employers, designers, procurement authorities, regulators, and funders.",
+      "counterinterpretation": "A systems framework can prevent product-only thinking, but coordination across five dimensions may increase implementation complexity and resource demands.",
+      "source_url": "https://atscalepartnership.org/atscale-publications/unlocking-her-potential-gender-equality-through-equitable-access-assistive",
+      "retrieval_hash": "sha256:0b34108b88bd19eb14a5c690a2fca636becccd6a125a87b852390aa9a4b5eac2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy routes from access to participation and leadership",
+      "denominator": {"value": 1, "unit": "UN Women and ATscale recommendation framework", "value_type": "implementation_framework"},
+      "measures": {
+        "mainstreaming": {"value": "gender-transformative assistive technology should be mainstreamed into national policies and global frameworks", "unit": "policy brief recommendation", "value_type": "reported_policy_route"},
+        "financial_barriers": {"value": "financing and affordability barriers should be reduced, including through subsidies and support for local, women-led production and innovation", "unit": "policy brief recommendation", "value_type": "reported_policy_route"},
+        "workforce_and_design": {"value": "women should participate in product design, governance, and procurement, supported by a gender-balanced workforce and attention to dignity, safety, privacy, and accessibility", "unit": "policy brief recommendation", "value_type": "reported_policy_route"},
+        "service_integration": {"value": "assistive technology should be integrated into health, education, social-protection, and humanitarian systems", "unit": "policy brief recommendation", "value_type": "reported_policy_route"}
+      },
+      "method": "UN Women and ATscale policy recommendations derived from the 5Ps framework and mixed evidence base.",
+      "uncertainty": "These recommendations are not a funding audit or implementation evaluation; effectiveness depends on national law, procurement, service capacity, markets, and user-led accountability.",
+      "subgroup": "Women and girls with disabilities, older people, families, service systems, employers, educators, humanitarian actors, product makers, and public authorities.",
+      "counterinterpretation": "Integration can improve continuity and reach, but poorly designed mainstreaming can erase disability-specific needs or reproduce gender and household power inequalities.",
+      "source_url": "https://atscalepartnership.org/atscale-publications/unlocking-her-potential-gender-equality-through-equitable-access-assistive",
+      "retrieval_hash": "sha256:0b34108b88bd19eb14a5c690a2fca636becccd6a125a87b852390aa9a4b5eac2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://knowledge.unwomen.org/sites/default/files/2026-03/unlocking-her-potential-gender-equality-through-equitable-access-to-assistive-technology-en.pdf", "claim": "UN Women-hosted PDF of the joint policy brief."},
+    {"source_url": "https://atscalepartnership.org/news-stories/unlocking-her-potential-un-women-and-atscale-launch-joint-policy-brief-assistive", "claim": "ATscale launch material describing the brief's evidence, structural barriers, and policy actions."},
+    {"source_url": "https://webtv.un.org/en/asset/k1t/k1tbpkqhes", "claim": "UN Web TV CSW70 launch event describing assistive technology as an enabler of participation, leadership, and decision-making."}
+  ],
+  "boundary": "This record adds an assistive-technology route across disability, gender, autonomy, care, education, employment, leadership, digital access, service delivery, and public participation. It uses a global policy brief and mixed evidence synthesis, not a global product-coverage census, raw user-level disability data, representative prevalence estimate, causal impact evaluation, or proof that mainstreaming works without disability-specific provision and user-led accountability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ATscale publication page, UN Women-hosted PDF listing, ATscale launch material, and UN Web TV event summary reviewed for the participation framing, evidence base, 5Ps framework, barriers, and policy routes.",
+    "source_url_sha256": "sha256:0b34108b88bd19eb14a5c690a2fca636becccd6a125a87b852390aa9a4b5eac2",
+    "checked": "2026-09-27"
+  }
+}

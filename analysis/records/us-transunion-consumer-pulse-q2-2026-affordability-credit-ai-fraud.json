@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-transunion-consumer-pulse-q2-2026-affordability-credit-ai-fraud",
+  "title": "U.S. households remain cautiously optimistic while inflation, generational affordability gaps, credit restraint, AI skepticism and fraud risk reshape financial behavior",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "TransUnion Consumer Pulse Study, U.S. Q2 2026",
+  "geography": "United States; adults aged 18 and older across all states",
+  "observations": [
+    {
+      "period": "April 23–May 11, 2026; U.S. adults",
+      "denominator": {"value": 2996, "unit": "U.S. adults surveyed online by TransUnion and Dynata; quotas balanced to census demographics", "value_type": "reported_sample"},
+      "measures": {
+        "income_increase": {"value": 27, "unit": "percent saying income increased in Q2 2026, down from 30% a year earlier", "value_type": "reported_share"},
+        "income_stable": {"value": 57, "unit": "percent saying income stayed the same, up from 53% a year earlier", "value_type": "reported_share"},
+        "inflation_top_concern": {"value": 50, "unit": "percent naming inflation as a top household financial concern, up from 47% a year earlier", "value_type": "reported_share"},
+        "gas_concern": {"value": 71, "unit": "percent very concerned about rising gas prices", "value_type": "reported_share"}
+      },
+      "method": "Online consumer survey with demographic quotas across age, gender, household income, race and region; reported margins are based on an unweighted panel and calculated error margin.",
+      "uncertainty": "This is a commercial cross-sectional survey of attitudes and self-reported plans, not administrative income or spending data; year-over-year comparisons may reflect sample, timing and wording effects.",
+      "subgroup": "U.S. adults, with additional generational and income-level comparisons.",
+      "counterinterpretation": "Stable or improving reported finances can coexist with greater concern because households may be responding to uncertainty, expected costs or salient gas prices rather than realized budget deterioration.",
+      "source_url": "https://www.transunion.com/consumer-pulse-study",
+      "retrieval_hash": "sha256:68739be60a1262fcf44b65d4d15b786dd8f5b6898d8d78a0013973f1783390f0",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; generational affordability and household outlook",
+      "denominator": {"value": 2996, "unit": "U.S. adults surveyed; generations defined by TransUnion as Gen Z 18–29, Millennials 30–45, Gen X 46–61 and Baby Boomers 62+", "value_type": "reported_sample"},
+      "measures": {
+        "gen_x_finances_planned": {"value": 63, "unit": "percent of Gen X saying household finances were as planned or better", "value_type": "reported_share"},
+        "gen_z_finances_planned": {"value": 74, "unit": "percent of Gen Z saying household finances were as planned or better", "value_type": "reported_share"},
+        "gen_x_outlook": {"value": 52, "unit": "percent of Gen X optimistic about household finances over the next 12 months", "value_type": "reported_share"},
+        "gen_z_outlook": {"value": 68, "unit": "percent of Gen Z optimistic about household finances over the next 12 months", "value_type": "reported_share"}
+      },
+      "method": "Generational subgroup comparisons within the Q2 Consumer Pulse survey; the report also identifies Gen X as reporting every measured spending category as more unaffordable than other generations.",
+      "uncertainty": "Generational categories combine age with life stage, income, caregiving and debt exposure; subgroup differences are descriptive and do not isolate a generation effect.",
+      "subgroup": "Gen Z, Millennials, Gen X and Baby Boomers as defined by the source.",
+      "counterinterpretation": "Gen X’s squeeze may reflect the sandwich-care life stage and accumulated obligations, while younger generations’ optimism may reflect lower current obligations or different expectations rather than greater material security.",
+      "source_url": "https://www.transunion.com/consumer-pulse-study",
+      "retrieval_hash": "sha256:68739be60a1262fcf44b65d4d15b786dd8f5b6898d8d78a0013973f1783390f0",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; planned spending and credit behavior",
+      "denominator": {"value": 2996, "unit": "U.S. adults surveyed", "value_type": "reported_sample"},
+      "measures": {
+        "discretionary_pullback": {"value": 43, "unit": "percent of inflation-concerned consumers planning to cut discretionary spending in the next three months, versus 23% among others", "value_type": "reported_share"},
+        "credit_intent": {"value": 28, "unit": "percent planning to apply for new or refinance existing credit, down from 33% in Q2 2025", "value_type": "reported_share"},
+        "inflation_concerned_credit": {"value": 25, "unit": "percent of inflation-concerned consumers planning to seek new or refinance credit, versus 47% of others", "value_type": "reported_share"},
+        "interest_rate_refinance": {"value": "Among interest-rate-concerned consumers planning credit, refinancing personal loans was 15% versus 9% among others, and home-equity refinancing was 14% versus 8%", "unit": "reported subgroup comparison", "value_type": "reported_difference"}
+      },
+      "method": "Survey of stated spending and credit intentions, with cross-tabulation by inflation and interest-rate concern.",
+      "uncertainty": "Intentions are not observed applications, approvals, refinancing or repayment outcomes; the source cannot establish whether credit restraint reflects prudence, exclusion, or both.",
+      "subgroup": "Inflation-concerned and interest-rate-concerned consumers, with generational and income comparisons.",
+      "counterinterpretation": "Lower credit demand can signal healthier deleveraging or fewer borrowing opportunities; refinancing among interest-rate-concerned households may reduce rather than increase financial strain if completed successfully.",
+      "source_url": "https://www.transunion.com/consumer-pulse-study",
+      "retrieval_hash": "sha256:68739be60a1262fcf44b65d4d15b786dd8f5b6898d8d78a0013973f1783390f0",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; AI trust, fraud exposure and consumer protection",
+      "denominator": {"value": 2996, "unit": "U.S. adults surveyed", "value_type": "reported_sample"},
+      "measures": {
+        "ai_positive_outlook": {"value": 35, "unit": "percent believing AI will have a positive long-term impact on them, down from 39% in Q2 2025", "value_type": "reported_share"},
+        "ai_negative_outlook": {"value": 32, "unit": "percent with a negative long-term AI outlook, up from 25% a year earlier", "value_type": "reported_share"},
+        "credit_monitoring": {"value": 53, "unit": "percent monitoring credit at least monthly", "value_type": "reported_share"},
+        "fraud_targeted": {"value": 47, "unit": "percent saying they were targeted by online, email, phone or text fraud in the prior three months", "value_type": "reported_share"},
+        "breach_action_gap": {"value": "Less than half took protective action after notification of a data breach, and 17% closed the affected account", "unit": "reported protective-response pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Commercial consumer survey covering AI expectations, credit monitoring, fraud targeting, breaches and protective actions.",
+      "uncertainty": "Fraud exposure and protective actions are self-reported; the source does not independently verify incidents, distinguish severity or measure later identity-theft loss and recovery.",
+      "subgroup": "U.S. adults, with younger consumers more likely to monitor credit monthly and older consumers more likely to cite fraud protection as a reason.",
+      "counterinterpretation": "Growing credit monitoring can indicate increased agency and financial vigilance, not only rising risk; low breach response may reflect notification fatigue, uncertainty or effective existing controls.",
+      "source_url": "https://www.transunion.com/consumer-pulse-study",
+      "retrieval_hash": "sha256:68739be60a1262fcf44b65d4d15b786dd8f5b6898d8d78a0013973f1783390f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.transunion.com/consumer-pulse-study", "claim": "Official Consumer Pulse page with Q2 2026 findings, methodology and report library."},
+    {"source_url": "https://www.transunion.com/blog/consumer-credit/consumer-pulse-study-q2-2026", "claim": "TransUnion consumer-credit context for affordability and credit-demand interpretation."}
+  ],
+  "boundary": "This record adds a U.S. household-resilience layer: aggregate optimism and financial stability coexist with generational affordability pressure, discretionary pullback, lower credit intent, AI skepticism, fraud exposure and uneven protective action. It is a TransUnion/Dynata online quota survey, not a longitudinal household panel, credit-bureau outcome dataset, verified fraud ledger, causal study or respondent-level financial trajectory.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official TransUnion Consumer Pulse Q2 2026 page was retrieved and reviewed for sample/methodology, income, inflation, gas, generational affordability, spending, credit intent, AI sentiment, credit monitoring, fraud exposure and breach-response findings; the site blocked direct shell download, so the hash is a canonical source-URL fingerprint rather than a downloaded-file hash.",
+    "source_url_sha256": "sha256:68739be60a1262fcf44b65d4d15b786dd8f5b6898d8d78a0013973f1783390f0",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-national-academies-drought-assessment-nonstationarity-2026",
+  "title": "Drought governance is shifting from historical baselines toward nonstationary risk, aridification, and adaptive decision rules",
+  "theme_ids": ["energy", "cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "National Academies of Sciences, Engineering, and Medicine, Improving Future U.S. Drought Assessment, 2026 consensus study report",
+  "geography": "United States; drought monitoring, water management, infrastructure, agriculture, public health, ecosystems, and climate adaptation",
+  "observations": [
+    {
+      "period": "Early 21st century through 2026; changing U.S. drought conditions",
+      "denominator": {"value": 1, "unit": "National Academies consensus assessment of U.S. drought conditions", "value_type": "consensus_assessment_frame"},
+      "measures": {
+        "southwest_megadrought": {"value": "the U.S. Southwest has experienced the nation's first multidecadal megadrought since the beginning of the 21st century, described as the most severe of many droughts over the past 1,200 years", "unit": "reported historical-climate assessment", "value_type": "reported_assessment"},
+        "drought_direction": {"value": "droughts are becoming more frequent and longer-lasting against long-term regional drying trends in many areas", "unit": "reported climate trend", "value_type": "reported_trend"},
+        "associated_impacts": {"value": "growing Southwest water crisis, groundwater declines across parts of the High Plains, increasing wildfire risk, and more rapidly intensifying flash droughts", "unit": "reported impact set", "value_type": "reported_impact_set"},
+        "resilience_problem": {"value": "changing drought conditions challenge national resilience and the ability to prepare for future drought risk", "unit": "consensus assessment", "value_type": "reported_implication"}
+      },
+      "method": "National Academies consensus study reviewing drought characterization, indicators, data sources, impacts, uncertainty, and decision frameworks.",
+      "uncertainty": "The report synthesizes evidence and recommends a framework; it does not forecast a single national drought trajectory or quantify household, sector, or jurisdiction-specific losses in this record.",
+      "subgroup": "Water managers, agricultural and energy systems, local communities, public-health agencies, ecosystems, and households exposed to changing water conditions.",
+      "counterinterpretation": "Drought severity and trend vary by region, season, drought type, and measurement choice; a national statement does not imply uniform worsening everywhere or the same response need.",
+      "source_url": "https://www.nationalacademies.org/read/29217",
+      "retrieval_hash": "sha256:a8533004000dbcfd3be349e039b26ff29f47f00067c1bfabbf893fe938237033",
+      "status": "reported"
+    },
+    {
+      "period": "2026; drought definition, aridification, and nonstationarity",
+      "denominator": {"value": 1, "unit": "National Academies drought-assessment framework", "value_type": "framework_frame"},
+      "measures": {
+        "continuum": {"value": "the report distinguishes drought, multidecadal drought, and aridification rather than treating them as one condition", "unit": "reported conceptual framework", "value_type": "reported_framework"},
+        "nonstationarity": {"value": "climate variability and change, along with evolving water and land-management practices, are altering drought characteristics over time", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "historical_baseline_limit": {"value": "traditional assessment approaches that rely on historical baselines may become less useful as drought conditions and behaviors shift", "unit": "reported methodological implication", "value_type": "reported_implication"},
+        "decision_scale": {"value": "assessment must work across geographic regions and different spatial and temporal scales", "unit": "reported design requirement", "value_type": "reported_requirement"}
+      },
+      "method": "Consensus review of drought concepts, historical periods, data sources, metrics, indicators, regionality, seasonality, and nonstationarity.",
+      "uncertainty": "The framework does not remove uncertainty or determine a single operational threshold for every region; local implementation and data capacity remain open.",
+      "subgroup": "National, state, Tribal, regional, and local agencies using drought indicators for water, land, emergency, and infrastructure decisions.",
+      "counterinterpretation": "Historical records remain valuable for context and calibration; replacing them entirely could lose useful information, so the report's logic is adaptation of baselines rather than abandonment of history.",
+      "source_url": "https://www.nationalacademies.org/projects/DELS-WSTB-24-02/publication/29217",
+      "retrieval_hash": "sha256:a8533004000dbcfd3be349e039b26ff29f47f00067c1bfabbf893fe938237033",
+      "status": "reported"
+    },
+    {
+      "period": "2026; drought assessment framework and response timing",
+      "denominator": {"value": 1, "unit": "recommended National Academies drought-assessment framework", "value_type": "framework_frame"},
+      "measures": {
+        "two_pronged_approach": {"value": "the report proposes a framework addressing both short-term operational needs and long-term planning", "unit": "reported framework structure", "value_type": "reported_framework"},
+        "short_term_route": {"value": "short-term needs include drought monitoring and early warning", "unit": "reported operational function", "value_type": "reported_function"},
+        "long_term_route": {"value": "long-term needs include water management, infrastructure, and climate adaptation planning", "unit": "reported planning function", "value_type": "reported_function"},
+        "implementation_chain": {"value": "the same assessment system must support emergency action while informing slower capital, land, water, and adaptation decisions", "unit": "analytic institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Consensus study synthesis and recommended framework for monitoring, planning, and decision-making.",
+      "uncertainty": "The report does not evaluate the performance, cost, staffing, or political feasibility of implementing the two-pronged framework in any specific state or watershed.",
+      "subgroup": "Emergency managers, water utilities, agricultural users, infrastructure planners, public-health agencies, and communities.",
+      "counterinterpretation": "Short-term alerts and long-term adaptation can compete for attention and funding; better assessment alone does not guarantee authority, finance, compliance, or equitable response.",
+      "source_url": "https://www.nationalacademies.org/read/29217",
+      "retrieval_hash": "sha256:a8533004000dbcfd3be349e039b26ff29f47f00067c1bfabbf893fe938237033",
+      "status": "reported"
+    },
+    {
+      "period": "2026; drought indicators, impacts, and evidence capacity",
+      "denominator": {"value": 1, "unit": "National Academies recommendations on drought data and indicators", "value_type": "framework_frame"},
+      "measures": {
+        "indicator_need": {"value": "the report identifies opportunities to strengthen drought indicators and incorporate uncertainty or confidence into decision-making", "unit": "reported recommendation", "value_type": "reported_recommendation"},
+        "impact_data_need": {"value": "better impact data on agriculture, water supplies, ecosystems, public health, and local communities would improve assessment and response", "unit": "reported evidence need", "value_type": "reported_recommendation"},
+        "science_need": {"value": "the report highlights the need to strengthen scientific understanding of drought dynamics", "unit": "reported research need", "value_type": "reported_recommendation"},
+        "governance_route": {"value": "drought resilience depends on measurement systems that connect hazard conditions to lived, ecological, infrastructure, and economic impacts", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Consensus assessment of data sources, drought metrics, indicators, impact data, uncertainty, and decision uses.",
+      "uncertainty": "The report identifies data and measurement needs but does not provide a completed national impact database or a tested causal model from any indicator to a specific household or sector outcome.",
+      "subgroup": "Data producers, water managers, public agencies, researchers, communities, agricultural and industrial users, and people affected by drought impacts.",
+      "counterinterpretation": "More indicators can increase complexity and contestation; measurement expansion must preserve interpretability, timeliness, local knowledge, and decision usefulness.",
+      "source_url": "https://www.nationalacademies.org/read/29217",
+      "retrieval_hash": "sha256:a8533004000dbcfd3be349e039b26ff29f47f00067c1bfabbf893fe938237033",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.17226/29217", "claim": "The National Academies Press DOI identifies the 2026 consensus study report and its full chapter structure.", "status": "primary-report"},
+    {"source_url": "https://www.nationalacademies.org/news/2026/06/us-needs-new-drought-assessment-framework-as-droughts-become-more-severe-and-unpredictable", "claim": "National Academies news release summarizes the report's changing-drought rationale and adaptation framework.", "status": "official-news-release"}
+  ],
+  "boundary": "This record adds a climate-governance and resilience mechanism: drought is becoming a nonstationary assessment problem in which historical baselines, indicators, impact data, early warning, water management, infrastructure, and long-term adaptation must be connected. It does not quantify household losses, establish a specific regional forecast, or prove that the recommended framework produces equitable or effective adaptation.",
+  "retrieval_hash": "sha256:a8533004000dbcfd3be349e039b26ff29f47f00067c1bfabbf893fe938237033"
+}

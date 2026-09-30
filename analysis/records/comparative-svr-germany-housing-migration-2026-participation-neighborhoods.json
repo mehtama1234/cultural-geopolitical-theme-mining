@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-svr-germany-housing-migration-2026-participation-neighborhoods",
+  "title": "Housing is becoming an integration and participation infrastructure: affordability, neighbourhoods and legal status shape who can belong and advance",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "Expert Council on Integration and Migration, Room for Development: Housing and Participation in an Immigration Society, Annual Report 2026",
+  "geography": "Germany, with national and urban-neighbourhood comparisons involving people with and without a migration background",
+  "observations": [
+    {
+      "period": "2026 annual report; housing and migration conditions",
+      "denominator": {"value": 1, "unit": "Germany-wide housing and integration analysis", "value_type": "published_scope"},
+      "measures": {
+        "demand_supply": {"value": "housing demand is growing while supply stagnates in many German cities, making affordable access difficult for people entering or moving within the housing market", "unit": "reported structural condition", "value_type": "reported_assessment"},
+        "group_difference": {"value": "people with a migration background are disproportionately represented among low-income individuals and families facing housing difficulty", "unit": "reported distributional pattern", "value_type": "reported_assessment"},
+        "participation_link": {"value": "housing conditions affect integration and participation, including access to labour markets, education and local social infrastructure", "unit": "reported pathway", "value_type": "reported_framework"}
+      },
+      "method": "Scientifically based annual report combining housing, migration, settlement, neighbourhood and participation analysis with policy recommendations.",
+      "uncertainty": "The public summary establishes structural associations and policy pathways; it does not provide a single causal estimate of housing on integration or participation outcomes.",
+      "subgroup": "Immigrants, descendants of immigrants, low-income households, families, international workers, refugees, local residents and municipalities.",
+      "counterinterpretation": "Housing matters for participation, but labour-market access, legal status, discrimination, school quality, transport, language, health and social networks also shape outcomes.",
+      "source_url": "https://www.svr-migration.de/en/annual-report/2026/",
+      "retrieval_hash": "sha256:4e66c85db50f995d15b90382abd408f56f69a31941dfe9fb2ac2ade84dc9e6db",
+      "status": "reported"
+    },
+    {
+      "period": "2026 annual report; regional distribution and tenure",
+      "denominator": {"value": 1, "unit": "Germany-wide population distribution and tenure comparison", "value_type": "published_scope"},
+      "measures": {
+        "regional_distribution": {"value": "people with a migration background are unevenly distributed, with higher population shares in city-states and former western industrial centres and lower shares in eastern federal states", "unit": "reported regional pattern", "value_type": "reported_assessment"},
+        "tenure": {"value": "people with a migration background are more likely to rent and less likely to own than people without one, with movement toward parity associated with longer residence and the second generation", "unit": "reported housing-tenure pattern", "value_type": "reported_assessment"},
+        "context": {"value": "regional differences are linked to reasons for migration, entry period and legal-framework conditions", "unit": "reported explanatory context", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative analysis of settlement patterns, housing tenure and migration-background groups across German regions and generations.",
+      "uncertainty": "The patterns describe population distributions and associations; they do not isolate the effects of migration background from income, age, household composition, discrimination, market timing or legal status.",
+      "subgroup": "First-generation immigrants, second-generation residents, renters, homeowners, city-state residents, western industrial regions and eastern federal states.",
+      "counterinterpretation": "Greater renting can reflect age, arrival timing and life-cycle position rather than a permanent exclusion from ownership or local belonging.",
+      "source_url": "https://www.svr-migration.de/en/annual-report/2026/",
+      "retrieval_hash": "sha256:4e66c85db50f995d15b90382abd408f56f69a31941dfe9fb2ac2ade84dc9e6db",
+      "status": "reported"
+    },
+    {
+      "period": "2026 annual report; neighbourhoods, segregation and social interaction",
+      "denominator": {"value": 1, "unit": "German neighbourhood and urban-cohesion analysis", "value_type": "published_scope"},
+      "measures": {
+        "arrival_places": {"value": "neighbourhoods with many migrants do not automatically hinder integration and can provide important resources for newly arrived people", "unit": "reported neighbourhood finding", "value_type": "reported_assessment"},
+        "poverty_entanglement": {"value": "where poverty and immigration overlap, residents' participation chances and social coexistence can be weakened", "unit": "reported neighbourhood risk pathway", "value_type": "reported_assessment"},
+        "segregation": {"value": "ethnic segregation is low by international comparison and decreasing overall, while income-based social segregation has increased", "unit": "reported urban pattern", "value_type": "reported_comparison"}
+      },
+      "method": "Neighbourhood and urban analysis distinguishing ethnic concentration, income segregation, local social infrastructure and participation conditions.",
+      "uncertainty": "Neighbourhood composition is not itself a causal treatment; the report does not imply that diversity, poverty or migration has one uniform effect across places.",
+      "subgroup": "Newly arrived migrants, long-term residents, low-income households, children and young people, local institutions and residents of arrival neighbourhoods.",
+      "counterinterpretation": "Arrival neighbourhoods can provide social networks and services, but concentrated disadvantage may still reduce opportunity when housing, transport, education and local investment are inadequate.",
+      "source_url": "https://www.svr-migration.de/en/annual-report/2026/",
+      "retrieval_hash": "sha256:4e66c85db50f995d15b90382abd408f56f69a31941dfe9fb2ac2ade84dc9e6db",
+      "status": "reported"
+    },
+    {
+      "period": "2026 annual report; skilled workers and refugee housing constraints",
+      "denominator": {"value": 1, "unit": "report pathways for international skilled workers and refugees", "value_type": "published_scope"},
+      "measures": {
+        "skilled_worker_access": {"value": "lack of affordable housing can hinder recruitment and retention of international skilled workers needed amid demographic change", "unit": "reported labour-market pathway", "value_type": "reported_assessment"},
+        "housing_discrimination": {"value": "half of international skilled workers report experiencing discrimination in the housing market", "unit": "reported skilled-worker survey result", "value_type": "reported_share"},
+        "refugee_choice": {"value": "refugees generally have limited choice over where and how they are housed during asylum processing and may remain subject to residence restrictions after recognition", "unit": "reported legal-administrative condition", "value_type": "reported_policy_condition"}
+      },
+      "method": "Synthesis of housing, labour-market, migration-management and legal-administrative evidence with policy recommendations.",
+      "uncertainty": "The public page does not provide the full survey design or causal estimate behind the skilled-worker discrimination figure; legal rules and local implementation can vary by status and exception.",
+      "subgroup": "International skilled workers, refugees and asylum seekers, employers, housing associations, municipalities and local residents.",
+      "counterinterpretation": "Employer-supported housing and local investment may reduce recruitment barriers, but they can also create dependence on employers or concentrate workers in specific areas.",
+      "source_url": "https://www.svr-migration.de/en/annual-report/2026/",
+      "retrieval_hash": "sha256:4e66c85db50f995d15b90382abd408f56f69a31941dfe9fb2ac2ade84dc9e6db",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.svr-migration.de/en/annual-report/2026/", "claim": "Official English annual-report page with summary, core messages and download links."},
+    {"source_url": "https://www.svr-migration.de/publikation/jahresgutachten-2026/", "claim": "Official German publication page for the full annual report and supporting materials."}
+  ],
+  "boundary": "This record adds a housing-to-participation route in an immigration society, linking affordability, tenure, migration status, neighbourhood resources, poverty, segregation, local infrastructure, labour-market access, discrimination and legal choice. It is a Germany-specific annual report and public summary, not a U.S. housing estimate, respondent-level longitudinal dataset, causal neighbourhood experiment or proof that any recommendation has been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official SVR English annual-report page was reviewed for the housing and migration frame, regional distribution, tenure, neighbourhood participation, segregation, skilled-worker housing and refugee accommodation findings.",
+    "source_url_sha256": "sha256:4e66c85db50f995d15b90382abd408f56f69a31941dfe9fb2ac2ade84dc9e6db",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-desa-national-inclusion-accounts-2026-life-course-distribution",
+  "title": "National averages can be decomposed into age, education, income, and family-specific resource flows",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations Department of Economic and Social Affairs, National Inclusion Accounts Manual: Measuring and Analysing Social Group Differences in the Generational Economy",
+  "geography": "Global methodological framework with pilot and institutional contributions from Colombia, Costa Rica, Jamaica, Lao PDR, Malaysia, Maldives, Uruguay, and Viet Nam",
+  "observations": [
+    {
+      "period": "2026; national inclusion accounting framework",
+      "denominator": {"value": 1, "unit": "UN National Inclusion Accounts methodology", "value_type": "methodological_framework"},
+      "measures": {
+        "accounting_base": {"value": "The framework extends National Transfer Accounts from age profiles to social-group differences in economic flows", "unit": "reported methodological scope", "value_type": "reported_framework"},
+        "distributional_dimensions": {"value": "Age can be analyzed alongside education, income, family and household type, place of residence, migration status, and other nationally relevant characteristics", "unit": "reported disaggregation set", "value_type": "reported_method"},
+        "analytic_value": {"value": "The method is designed to reveal inequalities that national averages conceal", "unit": "reported analytical purpose", "value_type": "reported_purpose"}
+      },
+      "method": "UN DESA methodological manual extending National Transfer Accounts to distributional profiles by educational attainment, income quintile, and family type, with age-specific production, consumption, transfers, and saving as the accounting base.",
+      "uncertainty": "This is a measurement and capacity-development framework, not a cross-country estimate of inequality or evidence that adopting the accounts changes policy outcomes.",
+      "subgroup": "People differentiated by age, education, income, family and household type, place of residence, migration status, and other country-specific characteristics.",
+      "counterinterpretation": "Disaggregation improves visibility but does not by itself establish causality, fairness, welfare, or whether a transfer is adequate for the people receiving or providing it.",
+      "source_url": "https://desapublications.un.org/publications/national-inclusion-accounts-manual-measuring-and-analysing-social-group-differences",
+      "retrieval_hash": "sha256:a6eddf7b13ad77504f7f43640c093830817bffe6c6389a876bd7028d26a34231",
+      "status": "reported"
+    },
+    {
+      "period": "2026; resources and responsibilities across the life course",
+      "denominator": {"value": 1, "unit": "National Inclusion Accounts life-course flow frame", "value_type": "accounting_frame"},
+      "measures": {
+        "resource_flows": {"value": "The accounts track how consumption is financed through labor income, public and private transfers, and assets", "unit": "reported flow categories", "value_type": "reported_accounting_scope"},
+        "social_reproduction": {"value": "The framework makes age-specific production, consumption, sharing, and saving visible alongside intergenerational transfers", "unit": "reported life-course mechanism", "value_type": "reported_mechanism"},
+        "policy_reach": {"value": "It can be used to examine whether education, healthcare, pensions, and other social-protection programs reach intended groups", "unit": "reported policy use", "value_type": "reported_policy_application"}
+      },
+      "method": "Life-cycle accounting linked to public and private transfers, labor income, assets, population structure, household surveys, and administrative records.",
+      "uncertainty": "The manual describes what the accounts can measure; it does not report a completed comparable estimate for each policy or country and cannot alone measure service quality or lived adequacy.",
+      "subgroup": "Children, working-age adults, older adults, families, households by income and education, care providers, and users of public transfers.",
+      "counterinterpretation": "A recorded transfer or resource flow may coexist with barriers, stigma, unmet need, unequal quality, or unpaid work that the accounting totals do not fully capture.",
+      "source_url": "https://desapublications.un.org/publications/national-inclusion-accounts-manual-measuring-and-analysing-social-group-differences",
+      "retrieval_hash": "sha256:a6eddf7b13ad77504f7f43640c093830817bffe6c6389a876bd7028d26a34231",
+      "status": "reported"
+    },
+    {
+      "period": "2026; demographic change, fiscal sustainability, and future capacity",
+      "denominator": {"value": 1, "unit": "National Inclusion Accounts planning application frame", "value_type": "policy_planning_frame"},
+      "measures": {
+        "demographic_change": {"value": "The accounts are intended to show how population age structure and educational attainment affect future labor income, growth, demographic dividends, and fiscal sustainability", "unit": "reported planning application", "value_type": "reported_application"},
+        "policy_feedback": {"value": "They connect investments and policy choices today to future economic capacity and public finances", "unit": "reported intertemporal route", "value_type": "reported_mechanism"},
+        "statistical_capacity": {"value": "The framework brings together national accounts, population data, household surveys, and administrative records", "unit": "reported data-infrastructure requirement", "value_type": "reported_requirement"}
+      },
+      "method": "Integrated demographic and economic accounting design for long-term planning, using existing statistical and administrative systems where available.",
+      "uncertainty": "Projection and fiscal implications depend on data quality, behavioral assumptions, population forecasts, institutional definitions, and country implementation; the manual is not a forecast itself.",
+      "subgroup": "Future generations, taxpayers, transfer recipients, unpaid caregivers, public-service users, and governments planning for aging or demographic dividends.",
+      "counterinterpretation": "Demographic structure does not mechanically determine growth or fiscal stress; policy, productivity, migration, health, education, and institutional choices can change the path.",
+      "source_url": "https://desapublications.un.org/publications/national-inclusion-accounts-manual-measuring-and-analysing-social-group-differences",
+      "retrieval_hash": "sha256:a6eddf7b13ad77504f7f43640c093830817bffe6c6389a876bd7028d26a34231",
+      "status": "reported"
+    },
+    {
+      "period": "2026; pilot capacity and country adaptation",
+      "denominator": {"value": 8, "unit": "countries whose institutions contributed feedback during the pilot phase", "value_type": "reported_pilot_count"},
+      "measures": {
+        "pilot_countries": {"value": "Colombia, Costa Rica, Jamaica, Lao PDR, Malaysia, Maldives, Uruguay, and Viet Nam", "unit": "reported pilot-country set", "value_type": "reported_set"},
+        "institutional_inputs": {"value": "National statistical offices, ministries, central banks, universities, and social-protection or planning bodies contributed across the pilot contexts", "unit": "reported institutional scope", "value_type": "reported_scope"},
+        "implementation_signal": {"value": "The manual is designed for adaptation to national priorities and available data rather than one uniform international dataset", "unit": "reported implementation principle", "value_type": "reported_principle"}
+      },
+      "method": "UN DESA capacity-development project with regional commission collaboration and country-level pilot feedback.",
+      "uncertainty": "Pilot participation demonstrates methodological engagement, not successful nationwide implementation, comparable data quality, or policy adoption in all participating countries.",
+      "subgroup": "National statistical systems, policy ministries, researchers, and populations whose age, socioeconomic, and family differences are otherwise lost in aggregate accounts.",
+      "counterinterpretation": "Country adaptation can improve relevance but can also reduce comparability if definitions, data sources, or institutional capacity differ substantially.",
+      "source_url": "https://desapublications.un.org/publications/national-inclusion-accounts-manual-measuring-and-analysing-social-group-differences",
+      "retrieval_hash": "sha256:a6eddf7b13ad77504f7f43640c093830817bffe6c6389a876bd7028d26a34231",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/file/22654/download", "claim": "Official 119-page UN DESA manual PDF used for the accounting framework, applications, pilot countries, and methodological boundaries."},
+    {"source_url": "https://desapublications.un.org/publications/revealing-generational-economy-essential-system-risk", "claim": "Related UN DESA policy brief on the generational economy and intergenerational resource flows."},
+    {"source_url": "https://www.un.org/development/desa/pd/data/national-transfer-accounts", "claim": "UN DESA National Transfer Accounts context for age-specific production, consumption, transfers, and saving."}
+  ],
+  "boundary": "This record adds a measurement-infrastructure layer to the life-course synthesis. It shows how age and social-group differences can be represented in economic flows, transfers, care, and public-program reach. It is not a population outcome estimate, causal policy evaluation, respondent-level dataset, or proof that national inclusion accounts produce better decisions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA publication page and 119-page National Inclusion Accounts Manual PDF were reviewed for the NTA extension, distributional dimensions, resource flows, policy applications, demographic planning, statistical inputs, and eight-country pilot context.",
+    "source_url_sha256": "sha256:a6eddf7b13ad77504f7f43640c093830817bffe6c6389a876bd7028d26a34231",
+    "checked": "2026-09-28"
+  }
+}

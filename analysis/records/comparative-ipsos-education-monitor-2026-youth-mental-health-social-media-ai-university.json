@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-education-monitor-2026-youth-mental-health-social-media-ai-university",
+  "title": "Education retains mobility legitimacy while publics separate harmful social media from potentially useful AI and confront a youth mental-health crisis",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Ipsos, Education Monitor 2026",
+  "geography": "31-country cross-national public-opinion survey on youth, education, social media and AI",
+  "observations": [
+    {
+      "period": "2026; perceived pressures facing young people",
+      "denominator": {"value": null, "unit": "Ipsos respondents across 31 countries; public summary does not disclose pooled sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "top_youth_concern": {"value": "Mental-health challenges rank as the most commonly cited issue facing young people", "unit": "reported cross-national ranking", "value_type": "reported_interpretation"},
+        "issues_ranked_below": {"value": "Mental health ranks ahead of poverty, the economy, housing and technology", "unit": "reported issue comparison", "value_type": "reported_interpretation"},
+        "context": {"value": "Young people are navigating rapid technological change, economic uncertainty and shifting expectations about success", "unit": "reported social context", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos Education Monitor cross-national survey of attitudes toward young people, education, social media and AI.",
+      "uncertainty": "The public summary does not provide issue percentages, country-level rankings or causal evidence connecting education policy to mental-health outcomes.",
+      "subgroup": "Public respondents across 31 countries considering pressures on young people.",
+      "counterinterpretation": "Mental health may rank first partly because public awareness and language have expanded, not only because all other pressures have become less important.",
+      "source_url": "https://www.ipsos.com/en-us/education-monitor-2026-can-education-still-unlock-opportunity",
+      "retrieval_hash": "sha256:52b1f14194b34ac9b243a3494300077dbee2a6ccbeb8326116b49371ad1f54f7",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; public boundary-setting around youth technology",
+      "denominator": {"value": null, "unit": "Ipsos respondents across the 31-country Education Monitor; public summary does not disclose pooled sample size or item-level shares", "value_type": "not_disclosed"},
+      "measures": {
+        "social_media_ban_support": {"value": "Support for banning social media for children has increased in almost every country since 2024", "unit": "reported cross-wave direction", "value_type": "reported_interpretation"},
+        "ai_school_ban_support": {"value": "A much smaller proportion believe AI should be banned in schools", "unit": "reported technology comparison", "value_type": "reported_interpretation"},
+        "technology_distinction": {"value": "Publics increasingly distinguish technologies viewed as harmful from technologies that may support learning", "unit": "reported governance interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated and comparative public-opinion measures on social media and AI in education.",
+      "uncertainty": "The public summary does not specify age thresholds, proposed regulatory designs, AI use cases or whether support for bans means prohibition, age restriction or school-level limits.",
+      "subgroup": "Public respondents across 31 countries, with country-level variation.",
+      "counterinterpretation": "The distinction may reflect perceived differences in controllability and educational value, but it could shift quickly as generative AI becomes more socially visible or harmful use cases become salient.",
+      "source_url": "https://www.ipsos.com/en-us/education-monitor-2026-can-education-still-unlock-opportunity",
+      "retrieval_hash": "sha256:52b1f14194b34ac9b243a3494300077dbee2a6ccbeb8326116b49371ad1f54f7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; university and mobility expectations",
+      "denominator": {"value": null, "unit": "Ipsos respondents across the 31-country Education Monitor; public summary does not disclose pooled sample size or item-level shares", "value_type": "not_disclosed"},
+      "measures": {
+        "university_preference": {"value": "In almost every country surveyed, people are more likely to recommend university before entering the workforce than going straight into employment", "unit": "reported cross-national preference", "value_type": "reported_interpretation"},
+        "value_for_money_tension": {"value": "University remains preferred despite concerns about value for money", "unit": "reported institutional-legitimacy tension", "value_type": "reported_interpretation"},
+        "education_mobility_role": {"value": "Education retains a default role in how publics imagine success and opportunity", "unit": "analyst interpretation grounded in the reported preference", "value_type": "analyst_inference"}
+      },
+      "method": "Cross-national comparison of recommendations about university versus immediate entry to work.",
+      "uncertainty": "Recommendation is not enrollment behavior, affordability, completion, labor-market return or a judgment that university is equally accessible across groups.",
+      "subgroup": "Public respondents across the 31 participating countries.",
+      "counterinterpretation": "University preference may represent status signaling, delayed labor-market entry or a lack of trusted alternatives rather than confidence in the current higher-education model.",
+      "source_url": "https://www.ipsos.com/en-us/education-monitor-2026-can-education-still-unlock-opportunity",
+      "retrieval_hash": "sha256:52b1f14194b34ac9b243a3494300077dbee2a6ccbeb8326116b49371ad1f54f7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; geographic variation in youth future expectations",
+      "denominator": {"value": null, "unit": "Ipsos respondents across 31 countries; country-group comparison in the public summary", "value_type": "not_disclosed"},
+      "measures": {
+        "emerging_economy_optimism": {"value": "Many emerging economies show strong confidence that today’s young people will have a bright future", "unit": "reported country-group interpretation", "value_type": "reported_interpretation"},
+        "european_optimism": {"value": "In much of Europe, optimism about young people’s future is in shorter supply", "unit": "reported country-group interpretation", "value_type": "reported_interpretation"},
+        "future_geography": {"value": "Future expectations vary widely around the world", "unit": "reported cross-national interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-national comparison of expectations for the next generation.",
+      "uncertainty": "The public summary does not quantify the regional gap or separate economic mobility, demographics, conflict, education quality, climate exposure and cultural expectations.",
+      "subgroup": "Public respondents across emerging economies and European markets in the 31-country study.",
+      "counterinterpretation": "Higher optimism in emerging economies may reflect rising expectations and perceived opportunity, while lower European optimism may reflect strong baselines and disappointment with stagnation rather than objectively worse youth conditions.",
+      "source_url": "https://www.ipsos.com/en-us/education-monitor-2026-can-education-still-unlock-opportunity",
+      "retrieval_hash": "sha256:52b1f14194b34ac9b243a3494300077dbee2a6ccbeb8326116b49371ad1f54f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://resources.ipsos.com/", "claim": "Ipsos resource hub linked from the official page for the full Education Monitor report; report download is hosted behind the resource flow."},
+    {"source_url": "https://www.ipsos.com/en/topic/education", "claim": "Official Ipsos education research topic page contextualizing the monitor."}
+  ],
+  "boundary": "This record adds an education-legitimacy mechanism: publics still treat university as the default route to opportunity, even as they question its value and differentiate between harmful social media and potentially useful AI. Youth mental health is the dominant perceived pressure, while future confidence varies sharply by geography. This is a cross-national attitude study, not an enrollment, learning-outcome, mental-health prevalence or technology-impact dataset.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Education Monitor 2026 summary page and education topic context were retrieved and reviewed for youth concerns, social-media and AI boundaries, university preference and geographic future expectations; the summary page was hashed.",
+    "source_url_sha256": "sha256:52b1f14194b34ac9b243a3494300077dbee2a6ccbeb8326116b49371ad1f54f7",
+    "checked": "2026-09-27"
+  }
+}

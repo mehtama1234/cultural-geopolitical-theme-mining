@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-nigeria-adolescent-girls-safe-spaces-digital-literacy-2026",
+  "title": "For adolescent girls in northern Nigeria, digital-literacy gains depend on safe-space delivery and implementation fidelity rather than technology alone",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": ["unequal_exposure_status", "infrastructure_technology_dependency", "care_health_reproduction", "public_systems_feedback", "work_control_bargaining", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "World Bank Policy Research Working Paper 11445, Safe Spaces to Digital Spaces: Short-Term Impacts of Life Skills and Digital Literacy Training for Adolescent Girls in Nigeria, September 2026",
+  "geography": "Northern Nigeria, including Kaduna, Kano, and Katsina; adolescent girls in senior secondary schools, school delivery systems, families, and local communities",
+  "observations": [
+    {
+      "period": "2023-2026; twelve-month post-intervention assessment",
+      "denominator": {"value": 1, "unit": "school-based evaluation of life-skills and digital-literacy interventions for adolescent girls in northern Nigeria", "value_type": "reported_evaluation_frame"},
+      "measures": {"curriculum_knowledge": {"value": "girls in treated schools show modest improvements in curriculum-related knowledge twelve months after intervention", "unit": "reported short-term evaluation finding", "value_type": "reported_outcome"}, "school_retention": {"value": "the intervention shows no effect on school retention at the reported follow-up", "unit": "reported evaluation outcome", "value_type": "reported_null_finding"}, "social_emotional": {"value": "the intervention shows no effect on socio-emotional skills at the reported follow-up", "unit": "reported evaluation outcome", "value_type": "reported_null_finding"}},
+      "method": "World Bank evaluation of school-based life-skills training delivered in safe spaces, alone or combined with digital-literacy training, with follow-up twelve months after intervention.",
+      "uncertainty": "The results are short-term and context-specific; no effect at twelve months does not establish no longer-term effect, and the evaluation does not show that all implementation components had equal exposure.",
+      "subgroup": "Adolescent girls in northern Nigerian secondary schools, girls facing early marriage or limited schooling, and students with different school, household, and technology access conditions.",
+      "counterinterpretation": "Knowledge gains may be valuable even without immediate retention or socio-emotional changes; retention depends on household costs, distance, safety, school quality, and norms beyond a classroom intervention.",
+      "source_url": "https://documents.worldbank.org/curated/en/099719009092639939/pdf/IDU-0453d35e-86a9-4408-b3f1-fb130f2bbb8e.pdf",
+      "retrieval_hash": "sha256:513f5218df12e576e8db8e56b2ac415111a7b9808d2e9bba601111cce5da3391",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; digital-literacy component and implementation fidelity",
+      "denominator": {"value": 1, "unit": "combined life-skills and digital-literacy intervention evaluation", "value_type": "reported_implementation_frame"},
+      "measures": {"digital_skill_effect": {"value": "adding digital-literacy training improved digital skills in the state where it had been fully implemented by midline", "unit": "reported heterogeneous intervention finding", "value_type": "reported_outcome"}, "fidelity": {"value": "the result underscores implementation fidelity as a condition of technology-based programme impact", "unit": "reported implementation mechanism", "value_type": "reported_mechanism"}, "delivery_capacity": {"value": "school systems in low-resource settings may face delivery constraints that determine whether digital training is actually received", "unit": "reported policy implication", "value_type": "reported_capacity_finding"}},
+      "method": "Comparative evaluation of schools receiving life-skills training alone or combined with digital-literacy training, with attention to state-level implementation timing and completeness.",
+      "uncertainty": "The evidence does not identify which specific delivery constraint drove the heterogeneous result, nor whether digital skills persisted or translated into education, health, or employment outcomes.",
+      "subgroup": "Girls in states with different implementation completeness, schools with different infrastructure and teacher capacity, and students with unequal access to devices, power, and connectivity.",
+      "counterinterpretation": "Technology can be effective when embedded in functioning delivery systems; a weak result may reflect timing or implementation rather than limits of digital literacy itself.",
+      "source_url": "https://documents.worldbank.org/curated/en/099719009092639939/pdf/IDU-0453d35e-86a9-4408-b3f1-fb130f2bbb8e.pdf",
+      "retrieval_hash": "sha256:513f5218df12e576e8db8e56b2ac415111a7b9808d2e9bba601111cce5da3391",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; safe-space-to-digital-space pathway",
+      "denominator": {"value": 1, "unit": "integrated school-based empowerment intervention frame", "value_type": "reported_programme_design_frame"},
+      "measures": {"intervention_sequence": {"value": "the programme links safe-space life skills with digital literacy to address education, health, and economic outcomes", "unit": "reported intervention architecture", "value_type": "reported_mechanism_set"}, "agency_context": {"value": "safe spaces are positioned as a delivery environment for girls' life skills and later digital participation", "unit": "reported programme mechanism", "value_type": "reported_policy_route"}, "scale_condition": {"value": "the study highlights delivery capacity as critical to scaling technology-based programmes in low-resource settings", "unit": "reported scale condition", "value_type": "reported_policy_boundary"}},
+      "method": "World Bank intervention evaluation and implementation interpretation for adolescent-girls education and digital-literacy programming.",
+      "uncertainty": "The study does not establish that safe spaces alone cause digital participation, safety, agency, or labour-market outcomes, and it does not measure every social norm or household constraint.",
+      "subgroup": "Girls with different exposure to safe school environments, early marriage pressure, household responsibilities, social norms, disability, and digital access.",
+      "counterinterpretation": "A safe-space model can create belonging and trusted learning, but it may remain bounded if schools lack power, devices, trained facilitators, teacher support, or pathways into continued education and work.",
+      "source_url": "https://documents.worldbank.org/curated/en/099719009092639939/pdf/IDU-0453d35e-86a9-4408-b3f1-fb130f2bbb8e.pdf",
+      "retrieval_hash": "sha256:513f5218df12e576e8db8e56b2ac415111a7b9808d2e9bba601111cce5da3391",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099719009092639939", "claim": "Official World Bank record for Policy Research Working Paper 11445."}, {"source_url": "https://doi.org/10.1596/1813-9450-11445", "claim": "Official DOI for the World Bank paper."}],
+  "boundary": "This record adds a safe-space-to-digital-participation route for adolescent girls, linking life skills, digital literacy, implementation fidelity, school retention, socio-emotional outcomes, and delivery capacity. It does not establish long-term empowerment, causal employment or health effects, universal digital access, or that technology alone changes social norms.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official World Bank PDF reviewed for intervention design, twelve-month outcomes, digital-literacy heterogeneity, implementation fidelity, safe-space delivery, and low-resource scaling limits.", "source_url_sha256": "sha256:513f5218df12e576e8db8e56b2ac415111a7b9808d2e9bba601111cce5da3391", "checked": "2026-09-29"}
+}

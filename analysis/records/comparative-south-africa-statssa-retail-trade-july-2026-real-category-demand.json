@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-africa-statssa-retail-trade-july-2026-real-category-demand",
+  "title": "South African real retail demand grows with category-specific food, clothing, and general-dealer contribution",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Statistics South Africa P6242.1 Retail Trade Sales, July 2026",
+  "geography": "South Africa",
+  "observations": [
+    {
+      "period": "July 2026; real retail trade sales",
+      "denominator": {"value": 1, "unit": "aggregate South African retail trade sales at constant 2019 prices; not household respondents", "value_type": "aggregate_account"},
+      "measures": {
+        "real_retail_sales_annual_change": {"value": 3.4, "unit": "percent from July 2025 at constant 2019 prices", "value_type": "reported_change"},
+        "seasonally_adjusted_monthly_change": {"value": 2.5, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "three_month_annual_change": {"value": 2.2, "unit": "percent for the three months ended July 2026 versus the three months ended July 2025", "value_type": "reported_change"},
+        "three_month_seasonally_adjusted_change": {"value": 1.0, "unit": "percent versus the preceding three months", "value_type": "reported_change"}
+      },
+      "method": "Statistics South Africa retail trade sales release using constant-2019-price and seasonally adjusted retail-sales estimates; the release reports monthly, three-month, and year-over-year comparisons.",
+      "uncertainty": "This is an establishment-based aggregate series, not household-level real consumption or welfare. Category movements can reflect prices, stock, population, timing, and retailer composition; the public key-finding page does not provide household denominators or individual trajectories.",
+      "subgroup": "South African retail establishments and industry categories; no household-income, age, place, or consumer subgroup in the key findings.",
+      "counterinterpretation": "Positive real retail growth can coexist with unequal access, debt stress, food insecurity, or reduced cultural spending; aggregate sales do not show who purchased or whether quantity, quality, or substitution changed.",
+      "source_url": "https://www.statssa.gov.za/?PPN=P6242.1&SCH=74339&page_id=1856",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; category contributions to real annual growth",
+      "denominator": {"value": 1, "unit": "aggregate South African retail trade category index; contributions are percentage points to total real annual change", "value_type": "aggregate_index"},
+      "measures": {
+        "general_dealers_change": {"value": 3.2, "unit": "percent year over year; contribution 1.3 percentage points", "value_type": "reported_change"},
+        "other_retailers_change": {"value": 6.8, "unit": "percent year over year; contribution 0.8 percentage points", "value_type": "reported_change"},
+        "textiles_clothing_footwear_leather_change": {"value": 2.9, "unit": "percent year over year; contribution 0.5 percentage points", "value_type": "reported_change"},
+        "specialized_food_beverage_tobacco_change": {"value": 4.8, "unit": "percent year over year; contribution 0.4 percentage points", "value_type": "reported_change"}
+      },
+      "method": "Statistics South Africa category-level decomposition of the July 2026 real retail-trade movement; percentage-point contributions are reported by the statistical release.",
+      "uncertainty": "Category contributions are not household budget shares and do not reveal whether growth reflects more units, different product mix, or price deflation. ‘Other retailers’ is broad and not a cultural-consumption category.",
+      "subgroup": "Retail industry categories in South Africa.",
+      "counterinterpretation": "Clothing and food growth may reflect essential replacement, seasonal demand, or distribution changes rather than discretionary consumer confidence; general-dealer growth does not identify lower- or higher-income consumers.",
+      "source_url": "https://www.statssa.gov.za/?PPN=P6242.1&SCH=74339&page_id=1856",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.statssa.gov.za/?PPN=P6242.1&SCH=5024&page_id=1866", "claim": "Statistics South Africa archive identifies the July 2026 release as the latest P6242.1 publication and provides access to prior releases.", "status": "official-release-archive"},
+    {"source_url": "https://www.statssa.gov.za/publications/P62421/P62421July2025.pdf", "claim": "Official P6242.1 publication format and constant-2019-price retail category tables provide methodological context for the series.", "status": "official-series-context"}
+  ],
+  "boundary": "This record adds a South African real retail and category-demand layer to the Japan household contraction, Great Britain channel shift, and U.S. aggregate-spending records. It does not measure household welfare, online behavior, cultural attendance, inequality of access, or causal category demand.",
+  "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+}

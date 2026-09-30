@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-salzburg-global-public-institutions-2026-transactional-order-state-capacity",
+  "title": "A more transactional international order and thinner public capacity are turning trust, foresight, and AI literacy into core state capabilities",
+  "theme_ids": ["voice", "work", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Salzburg Global, Our Key Insights: Public Institutions Responding to a New Era: Strategy in a Transformed Global Landscape, September 11, 2026",
+  "geography": "International public-sector strategy discussion with regional perspectives from Europe, North America, and developing-country contexts",
+  "observations": [
+    {
+      "period": "September 2026; international order and public strategy",
+      "denominator": {"value": 1, "unit": "Salzburg Global Public Sector Strategy Network synthesis", "value_type": "qualitative_institutional_frame"},
+      "measures": {
+        "order_shift": {"value": "the publication describes a movement from a postwar expectation that shared rules create mutual benefit toward more transactional state relationships aimed at extracting advantage", "unit": "reported geopolitical frame", "value_type": "reported_synthesis"},
+        "diversification": {"value": "developing countries are described as diversifying away from Western-centric frameworks and forming new alliances", "unit": "reported geopolitical response", "value_type": "reported_mechanism"},
+        "strategic_implication": {"value": "public institutions are asked to treat strategic adaptation as a capability under constraint rather than as a one-off crisis response", "unit": "reported policy implication", "value_type": "reported_synthesis"}
+      },
+      "method": "Salzburg Global facilitated retreat and editorial synthesis of senior public-sector leaders, strategic advisers, and policy experts.",
+      "uncertainty": "This is a curated expert synthesis, not a systematic measure of state behavior, alliance diversification, or the relative prevalence of transactional diplomacy.",
+      "subgroup": "Public institutions, strategic leaders, developing-country governments, Western governments, and communities affected by geopolitical and institutional change.",
+      "counterinterpretation": "Transactional bargaining can coexist with durable cooperation, and alliance diversification may reflect pragmatic risk management rather than rejection of Western institutions.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-public-institutions-responding-to-a-new-era-strategy-in-a-transformed-global-landscape",
+      "retrieval_hash": "sha256:84fe06421bcdecb9d4842be6c84a9d4f25c85ce5778eac422daf9526d01afc38",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; state capacity and dependence on private actors",
+      "denominator": {"value": 1, "unit": "Salzburg Global public-capacity diagnosis", "value_type": "qualitative_institutional_frame"},
+      "measures": {
+        "capacity_loss": {"value": "the publication argues that decades of disinvestment have eroded core in-house expertise in Western governments", "unit": "reported institutional diagnosis", "value_type": "reported_synthesis"},
+        "private_dependence": {"value": "reduced internal capacity is linked to greater dependence on private actors for strategic and operational capability", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "end_to_end_test": {"value": "the relevant test is whether public institutions retain enough expertise to set direction, evaluate vendors, learn, and remain accountable after outsourcing", "unit": "analytic test", "value_type": "research_queue"}
+      },
+      "method": "Expert discussion and policy synthesis focused on public-sector strategy, institutional capability, and long-term change.",
+      "uncertainty": "The source does not quantify capacity loss, compare outsourcing outcomes, or establish that private provision necessarily reduces public value.",
+      "subgroup": "Civil services, public managers, vendors, contractors, elected leaders, and residents dependent on public systems.",
+      "counterinterpretation": "Private partners can add specialized capability when governments preserve procurement expertise, transparency, public ownership of goals, and effective oversight.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-public-institutions-responding-to-a-new-era-strategy-in-a-transformed-global-landscape",
+      "retrieval_hash": "sha256:84fe06421bcdecb9d4842be6c84a9d4f25c85ce5778eac422daf9526d01afc38",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; AI, foresight, and institutional literacy",
+      "denominator": {"value": 1, "unit": "Salzburg Global seven-insight strategy framework", "value_type": "qualitative_policy_framework"},
+      "measures": {
+        "ai_literacy": {"value": "AI investment is framed as requiring substantive literacy, not only technical deployment or procurement", "unit": "reported capability principle", "value_type": "reported_synthesis"},
+        "foresight": {"value": "strategic foresight is framed as a distributed societal capacity rather than a specialist function held by a central unit", "unit": "reported capability principle", "value_type": "reported_synthesis"},
+        "education": {"value": "education systems are urged to support human flourishing and judgment as technology and geopolitical conditions change", "unit": "reported institutional implication", "value_type": "reported_synthesis"}
+      },
+      "method": "Seven-point synthesis from a cross-regional public-sector strategy retreat.",
+      "uncertainty": "These are strategic recommendations and do not show which literacy or foresight interventions improve decisions, employment, trust, or distributional outcomes.",
+      "subgroup": "Public servants, educators, students, technology users, civic organizations, and communities exposed to AI-mediated decisions.",
+      "counterinterpretation": "Distributed foresight and broad AI literacy can become diffuse responsibilities without time, funding, decision rights, or measurable accountability.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-public-institutions-responding-to-a-new-era-strategy-in-a-transformed-global-landscape",
+      "retrieval_hash": "sha256:84fe06421bcdecb9d4842be6c84a9d4f25c85ce5778eac422daf9526d01afc38",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; institutional trust and durable change",
+      "denominator": {"value": 1, "unit": "Salzburg Global public-trust and change framework", "value_type": "qualitative_governance_frame"},
+      "measures": {
+        "trust_route": {"value": "trust in public institutions is framed as needing actionable inclusion and solid evidence rather than messaging alone", "unit": "reported legitimacy mechanism", "value_type": "reported_mechanism"},
+        "change_horizon": {"value": "sustained change is linked to long-term commitments and leadership character rather than short-cycle announcements", "unit": "reported implementation principle", "value_type": "reported_synthesis"},
+        "open_test": {"value": "follow inclusion from participation into changed decisions, implementation capacity, visible evidence, and durable public legitimacy", "unit": "analytic end-to-end route", "value_type": "research_queue"}
+      },
+      "method": "Expert synthesis of public-sector strategy discussions on trust, leadership, evidence, and durable change.",
+      "uncertainty": "The publication does not evaluate specific participation mechanisms or establish causal effects on trust or implementation.",
+      "subgroup": "Public institutions, affected communities, civil society, elected leaders, public workers, and private partners.",
+      "counterinterpretation": "Participation and evidence can increase procedural burden or slow decisions unless institutions clarify tradeoffs, authority, and feedback loops.",
+      "source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-public-institutions-responding-to-a-new-era-strategy-in-a-transformed-global-landscape",
+      "retrieval_hash": "sha256:84fe06421bcdecb9d4842be6c84a9d4f25c85ce5778eac422daf9526d01afc38",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.salzburgglobal.org/newsroom/latest-news/our-key-insights-creating-futures-rethinking-cultural-institutions-infrastructure-and-investment", "claim": "Related Salzburg Global cultural-infrastructure work provides a complementary route from public meaning and cultural capacity to institutional trust."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/executive-summary_4319a992.html", "claim": "OECD cross-national trust evidence provides a quantitative comparison for voice, service experience, complex decisions, and AI governance."}
+  ],
+  "boundary": "This record adds a comparative geopolitical-institutional route from a more transactional global order and thinner public capacity through state expertise, private dependence, AI literacy, distributed foresight, inclusion, and trust. It is a curated expert synthesis, not representative public opinion, a causal evaluation of state capacity, or proof that any proposed capability improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Salzburg Global September 11, 2026 publication page was reviewed for the transactional-order diagnosis, alliance diversification, public-capacity erosion, private dependence, seven key insights, AI literacy, distributed foresight, long-term change, and trust through inclusion and evidence.",
+    "source_url_sha256": "sha256:84fe06421bcdecb9d4842be6c84a9d4f25c85ce5778eac422daf9526d01afc38",
+    "checked": "2026-09-28"
+  }
+}

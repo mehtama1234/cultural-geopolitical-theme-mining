@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-crypto-ownership-risk-reversal-2026",
+  "title": "Crypto participation is retreating from its speculative peak while risk awareness remains high and unevenly distributed",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup, U.S. Crypto Ownership Falls From 2025 High, September 21, 2026",
+  "geography": "United States; adults and investors, with investors defined as those holding $10,000 or more in investable assets",
+  "observations": [
+    {
+      "period": "June 1-15, 2026 survey; ownership and participation funnel",
+      "denominator": {"value": 2043, "unit": "U.S. adults interviewed by web through Gallup's probability-based panel; more than 1,000 were investors", "value_type": "reported_survey_sample"},
+      "measures": {
+        "adult_ownership": {"value": 9, "unit": "percent of U.S. adults reporting cryptocurrency ownership", "value_type": "published_survey_estimate"},
+        "adult_ownership_2025": {"value": 14, "unit": "percent of U.S. adults reporting ownership in 2025", "value_type": "published_survey_estimate"},
+        "investor_ownership": {"value": 11, "unit": "percent of U.S. investors reporting cryptocurrency ownership", "value_type": "published_survey_estimate"},
+        "investor_ownership_2025": {"value": 17, "unit": "percent of U.S. investors reporting ownership in 2025", "value_type": "published_survey_estimate"},
+        "investor_ownership_decline": {"value": 6, "unit": "percentage-point decline in investor ownership from 2025 to 2026", "value_type": "reported_difference"}
+      },
+      "method": "Gallup June 1-15, 2026 probability-based web panel survey of 2,043 U.S. adults, including more than 1,000 investors defined as adults with at least $10,000 in investable assets.",
+      "uncertainty": "Ownership is self-reported and the investor subgroup has a smaller denominator; the survey does not measure holdings, gains, losses, transaction timing, debt, tax effects or financial suitability.",
+      "subgroup": "U.S. adults overall and U.S. investors.",
+      "counterinterpretation": "The decline may reflect market-price changes, survey timing, portfolio reclassification, reduced salience or selling, rather than a durable rejection of crypto as a financial or cultural asset.",
+      "source_url": "https://news.gallup.com/poll/714590/crypto-ownership-falls-2025-high.aspx",
+      "retrieval_hash": "source_page:sha256:b175f6f378a9c185dbb024648d678781964b43137dc49119c8af819f93fa17e2",
+      "status": "reported"
+    },
+    {
+      "period": "June 1-15, 2026 survey; age, gender and income concentration",
+      "denominator": {"value": 1, "unit": "U.S. investor subgroups; subgroup sample sizes are not disclosed in the article", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "younger_men_ownership": {"value": 24, "unit": "percent of male investors aged 18-49 reporting cryptocurrency ownership", "value_type": "published_subgroup_estimate"},
+        "younger_men_ownership_2025": {"value": 33, "unit": "percent of the same subgroup in 2025", "value_type": "published_subgroup_estimate"},
+        "upper_income_ownership": {"value": 15, "unit": "percent of upper-income investors with household income of $90,000 or more", "value_type": "published_subgroup_estimate"},
+        "middle_income_ownership": {"value": 7, "unit": "percent of middle-income investors", "value_type": "published_subgroup_estimate"},
+        "lower_income_ownership": {"value": 4, "unit": "percent of lower-income investors", "value_type": "published_subgroup_estimate"},
+        "unequal_exposure": {"value": "Crypto participation remains concentrated among younger men and higher-income investors even after broad ownership declines.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup subgroup comparisons among U.S. investors by age, gender and household income.",
+      "uncertainty": "The article does not disclose subgroup bases, weighting details or whether income differences reflect investable assets, risk capacity, access or demographic composition; concentration is not a causal exposure estimate.",
+      "subgroup": "Investors by age, gender and annual household income.",
+      "counterinterpretation": "Higher-income investors may be better able to absorb volatility, while younger men may have greater exposure through social networks, platforms or risk-seeking financial cultures.",
+      "source_url": "https://news.gallup.com/poll/714590/crypto-ownership-falls-2025-high.aspx",
+      "retrieval_hash": "source_page:sha256:b175f6f378a9c185dbb024648d678781964b43137dc49119c8af819f93fa17e2",
+      "status": "reported"
+    },
+    {
+      "period": "June 1-15, 2026 survey; perceived investment risk and participation status",
+      "denominator": {"value": 1, "unit": "U.S. investors; public article does not disclose the exact investor denominator", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "very_risky_overall": {"value": 63, "unit": "percent of investors describing cryptocurrency as very risky", "value_type": "published_survey_estimate"},
+        "somewhat_risky_overall": {"value": 31, "unit": "percent of investors describing it as somewhat risky", "value_type": "published_survey_estimate"},
+        "owner_very_risky": {"value": 47, "unit": "percent of current cryptocurrency owners calling it very risky", "value_type": "published_subgroup_estimate"},
+        "intrigued_nonowner_very_risky": {"value": 37, "unit": "percent of nonowners who are intrigued or plan to buy calling it very risky", "value_type": "published_subgroup_estimate"},
+        "uninterested_very_risky": {"value": 68, "unit": "percent of investors uninterested in cryptocurrency calling it very risky", "value_type": "published_subgroup_estimate"},
+        "risk_participation_tension": {"value": "Owners remain more likely than uninterested investors to describe crypto as risky, suggesting participation can coexist with explicit risk recognition.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup comparison of perceived cryptocurrency risk among owners, intrigued or intending nonowners, and uninterested investors.",
+      "uncertainty": "Risk perception is subjective and does not measure realized volatility, loss probability, financial harm or informed consent; the cross-sectional pattern cannot establish whether ownership changes risk beliefs.",
+      "subgroup": "U.S. investors by ownership and interest status.",
+      "counterinterpretation": "Owners may acknowledge risk because they have learned through exposure, or because they remain committed despite risk; nonowners may use risk language to rationalize nonparticipation.",
+      "source_url": "https://news.gallup.com/poll/714590/crypto-ownership-falls-2025-high.aspx",
+      "retrieval_hash": "source_page:sha256:b175f6f378a9c185dbb024648d678781964b43137dc49119c8af819f93fa17e2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a consumer-financial participation mechanism: crypto ownership has retreated from its 2025 peak while perceived risk remains high and participation stays concentrated among younger men and higher-income investors. It does not establish realized returns, losses, financial harm, suitability, debt, regulation, causal market behavior or durable cultural adoption."
+}

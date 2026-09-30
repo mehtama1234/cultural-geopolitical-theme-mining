@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ey-megatrends-2026-infrastructure-migration-social-trust-resources",
+  "title": "Migration, social trust, and frontier resources are becoming coupled infrastructure questions as demographic and technological pressure rises",
+  "theme_ids": ["work", "voice", "cost", "energy"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "EY, Futures Reimagined: EY Megatrends 2026 and beyond, chapters on migration infrastructure and the global resource rush",
+  "geography": "Global strategic-foresight framing spanning migration, labor markets, technology investment, trust, critical resources, the Arctic, deep earth and sea, and orbit",
+  "observations": [
+    {
+      "period": "2026; migration and integration capacity",
+      "denominator": {"value": 1, "unit": "EY migration-infrastructure foresight frame", "value_type": "published_framework"},
+      "measures": {
+        "infrastructure_reframe": {"value": "migration is framed as infrastructure to build rather than only an emergency to manage", "unit": "EY strategic framing", "value_type": "reported_framework"},
+        "housing_timing": {"value": "housing development can take about two years from planning to occupancy", "unit": "reported timing example", "value_type": "reported_estimate"},
+        "credential_timing": {"value": "credential frameworks can take years to establish", "unit": "reported institutional timing", "value_type": "reported_finding"},
+        "trust_timing": {"value": "the social trust that enables integration can take generations to build", "unit": "reported institutional timing", "value_type": "reported_finding"},
+        "analytic_route": {"value": "mobility policy, housing capacity, credential recognition, and public confidence should be planned as one capacity system", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EY strategic-foresight synthesis linking demographic pressure, migration systems, housing, credentialing, labor markets, and social infrastructure.",
+      "uncertainty": "This is a publisher-authored foresight framework and timing examples are not a harmonized global migration dataset or a causal estimate of integration outcomes.",
+      "subgroup": "Migrants, host communities, governments, employers, credentialing bodies, housing systems, and public-service providers.",
+      "counterinterpretation": "Migration systems differ substantially by legal status, labor market, housing market, and local institutions; some integration bottlenecks may be reduced through targeted capacity or policy redesign.",
+      "source_url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/campaigns/megatrends/documents/ey-gl-megatrends-2026-report-04-2026.pdf",
+      "retrieval_hash": "sha256:6ed8a57adccb26f3d1adedfbb34ca06043e9099dc24d99d10858bb9b9f8da2fe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labor scarcity, technology, and migration policy",
+      "denominator": {"value": 1, "unit": "EY technology and labor-market foresight frame", "value_type": "published_framework"},
+      "measures": {
+        "labor_constraint": {"value": "skilled labor is identified as a constraint on semiconductor and data-center expansion even when capital and demand are available", "unit": "EY sector framing", "value_type": "reported_mechanism"},
+        "skills_alignment": {"value": "predictable skills-aligned visa systems and fast credential recognition are framed as competitive advantages for AI ecosystems and advanced manufacturing", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "firm_operating_route": {"value": "migration policy can shape technology-firm site selection, capital allocation, and competitive advantage", "unit": "reported business mechanism", "value_type": "reported_mechanism"},
+        "consumer_place_route": {"value": "housing capacity and the design of services for migrant consumers become part of the operating response", "unit": "EY strategic implication", "value_type": "reported_framework"}
+      },
+      "method": "EY sector-angle synthesis connecting migration policy to technology infrastructure, talent, investment, and consumer-market capacity.",
+      "uncertainty": "The report presents strategic implications rather than a counterfactual estimate of how much visa or credential reform changes investment, wages, or migration flows.",
+      "subgroup": "Technology firms, advanced manufacturers, skilled migrants, local workers, investors, cities, and households affected by housing and service demand.",
+      "counterinterpretation": "Automation, domestic training, remote work, or distributed investment could ease some labor constraints without relying on migration expansion alone.",
+      "source_url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/campaigns/megatrends/documents/ey-gl-megatrends-2026-report-04-2026.pdf",
+      "retrieval_hash": "sha256:6ed8a57adccb26f3d1adedfbb34ca06043e9099dc24d99d10858bb9b9f8da2fe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust as an organizational and social resource",
+      "denominator": {"value": 1, "unit": "EY Futures Reimagined trust-economy framing", "value_type": "published_framework"},
+      "measures": {
+        "scarcity_claim": {"value": "trust is described as increasingly scarce and valuable in a growing trust economy", "unit": "EY strategic framing", "value_type": "reported_framework"},
+        "management_route": {"value": "organizations are encouraged to treat trust as an asset that can be measured, invested in, grown, and monetized", "unit": "reported management framing", "value_type": "reported_framework"},
+        "integration_link": {"value": "the willingness of communities to welcome change is presented as a fragile form of social infrastructure", "unit": "reported social mechanism", "value_type": "reported_mechanism"},
+        "analytic_route": {"value": "trust links migration capacity, institutional legitimacy, consumer relationships, and the ability to sustain disruptive investment", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EY foresight synthesis treating trust as a cross-cutting organizational, social, and market capability.",
+      "uncertainty": "Trust is used as a broad strategic construct; the report does not provide one standardized trust measure or establish that monetization improves public legitimacy.",
+      "subgroup": "Communities, migrants, consumers, firms, governments, public-service institutions, and leaders managing technology or demographic change.",
+      "counterinterpretation": "Trust may not be fungible across institutions or communities; measurement and investment can increase legitimacy only when paired with credible conduct and accountability.",
+      "source_url": "https://www.ey.com/en_fi/megatrends",
+      "retrieval_hash": "sha256:6ed8a57adccb26f3d1adedfbb34ca06043e9099dc24d99d10858bb9b9f8da2fe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; frontier resources and geopolitical competition",
+      "denominator": {"value": 3, "unit": "EY frontier-resource domains: deep earth and sea, Arctic, and Earth orbit", "value_type": "published_domain_frame"},
+      "measures": {
+        "frontier_set": {"value": "critical minerals, shipping routes, and orbital positions are grouped as resources around which competition is intensifying", "unit": "EY strategic framing", "value_type": "reported_mechanism_set"},
+        "demand_driver": {"value": "digital transformation and the clean-energy transition are identified as increasing demand for critical minerals beyond what existing sources may provide", "unit": "reported demand mechanism", "value_type": "reported_mechanism"},
+        "governance_gap": {"value": "organizations entering these frontiers face incomplete governance frameworks and operational, reputational, and regulatory risk", "unit": "reported risk framing", "value_type": "reported_finding"},
+        "analytic_route": {"value": "technology, geopolitics, and climate change are causing previously separate resource frontiers to converge", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EY strategic-foresight synthesis of resource, technology, geopolitical, climate, and governance developments across three frontier domains.",
+      "uncertainty": "The report is not a reserve estimate, conflict forecast, or environmental impact assessment; it highlights emerging competition and cites external data for selected examples.",
+      "subgroup": "Governments, resource firms, technology and energy companies, workers, affected communities, regulators, and users of satellite or shipping infrastructure.",
+      "counterinterpretation": "Substitution, recycling, diversified supply, international governance, and slower demand growth could change the pace or form of frontier competition.",
+      "source_url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/campaigns/megatrends/documents/ey-gl-megatrends-2026-report-04-2026.pdf",
+      "retrieval_hash": "sha256:6ed8a57adccb26f3d1adedfbb34ca06043e9099dc24d99d10858bb9b9f8da2fe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ey.com/en_fi/megatrends", "claim": "EY's overview describes the Futures Reimagined framework and connects migration, trust, talent, and frontier resources."},
+    {"source_url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/campaigns/megatrends/documents/ey-megatrends-2026-report.pdf", "claim": "An alternate official EY report URL provides the Megatrends report and supporting frontier-resource material."}
+  ],
+  "boundary": "This record adds a publisher-foresight signal about migration as infrastructure, labor and technology constraints, trust as social and organizational infrastructure, and competition across frontier resources. It is not a respondent-level survey, migration-flow estimate, causal evaluation of integration policy, mineral-reserve assessment, conflict forecast, or neutral consensus forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official EY Megatrends 2026 PDF and EY overview page reviewed for migration infrastructure, housing and credential timing, trust framing, technology labor constraints, and the three-domain global resource rush.",
+    "source_url_sha256": "sha256:6ed8a57adccb26f3d1adedfbb34ca06043e9099dc24d99d10858bb9b9f8da2fe",
+    "checked": "2026-09-27"
+  }
+}

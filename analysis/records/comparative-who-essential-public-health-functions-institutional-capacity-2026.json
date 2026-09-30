@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-essential-public-health-functions-institutional-capacity-2026",
+  "title": "Public-health resilience depends on recurrent institutional functions that emergency funding and curative budgets do not reliably sustain",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "infrastructure_technology_dependency", "geopolitical_state_consequences", "unequal_exposure_status"],
+  "source_unit": "WHO departmental update, Countries move to strengthen public health institutions and services amid mounting pressures, published September 14, 2026",
+  "geography": "WHO Member States, with emphasis on low- and middle-income countries and South-South institutional cooperation",
+  "observations": [
+    {
+      "period": "September 2026; country demand for essential public-health-function capacity",
+      "denominator": {"value": 120, "unit": "countries identifying institutional capacity to deliver essential public health functions as a medium-to-high WHO-support priority", "value_type": "reported_country_count_minimum"},
+      "measures": {
+        "priority": {"value": "More than 120 countries have identified building institutional capacity to deliver essential public health functions as a medium-to-high priority for WHO support", "unit": "countries", "value_type": "reported_country_count"},
+        "function_scope": {"value": "The update frames public-health capacity as integrated institutions and services that promote and protect health, prevent illness, and respond to emerging threats", "unit": "institutional function set", "value_type": "reported_definition"},
+        "pressure": {"value": "Fragmented programmes, uneven workforce investment, and reliance on external financing make public-health capacity harder to sustain", "unit": "reported system pressure", "value_type": "reported_system_assessment"}
+      },
+      "method": "WHO departmental update synthesizing Member State support priorities and institutional-financing pressures; it is not a harmonized country-capacity score or causal evaluation.",
+      "uncertainty": "The country count is a reported support-priority signal and does not establish comparable capacity, service performance, workforce adequacy, or population health outcomes across those countries.",
+      "subgroup": "WHO Member States, especially low- and middle-income countries; public-health agencies, health workforces, communities using preventive and primary services, and populations exposed to emerging threats.",
+      "counterinterpretation": "A stated priority can reflect donor or WHO planning categories rather than domestic political commitment; institutional capacity may improve even when it is not named as a priority, or remain weak despite formal prioritization.",
+      "source_url": "https://www.who.int/news/item/14-09-2026-countries-move-to-strengthen-public-health-institutions-and-services-amid-mounting-pressures",
+      "retrieval_hash": "sha256:c8e015bfd5e9f7100491e50425b87e90ae570c97f5d29c5d8f44c6b85cf74620",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; health-budget composition and financing sustainability",
+      "denominator": {"value": 1, "unit": "WHO global institutional-financing assessment", "value_type": "reported_system_frame"},
+      "measures": {
+        "budget_skew": {"value": "Health budgets are described as insufficient and largely skewed toward curative services", "unit": "reported budget pattern", "value_type": "reported_system_assessment"},
+        "donor_dependence": {"value": "Financing for essential public-health functions is described as typically donor-driven and function-specific rather than supporting sector-wide capacity development", "unit": "reported financing pattern", "value_type": "reported_system_assessment"},
+        "capacity_mechanism": {"value": "Sustained financing for institutions, workforce, and systems is presented as a condition for maintaining essential public-health functions", "unit": "institutional-financing mechanism", "value_type": "reported_policy_direction"}
+      },
+      "method": "WHO policy and systems update on public-health financing and institutional capacity; no standardized expenditure dataset or causal estimate is provided in the update.",
+      "uncertainty": "The global characterization does not quantify the size or distribution of curative-preventive budget differences, financing gaps, workforce shortages, or donor dependence by country.",
+      "subgroup": "Health ministries, public-health agencies, primary-health centres, preventive workforces, donors, multilateral development banks, and people relying on everyday prevention and response systems.",
+      "counterinterpretation": "Curative spending can address urgent unmet needs and may strengthen political support; donor-funded functions can also provide vital capacity rather than being inherently unsustainable if integrated into national systems.",
+      "source_url": "https://www.who.int/news/item/14-09-2026-countries-move-to-strengthen-public-health-institutions-and-services-amid-mounting-pressures",
+      "retrieval_hash": "sha256:c8e015bfd5e9f7100491e50425b87e90ae570c97f5d29c5d8f44c6b85cf74620",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; regional and cross-border institutional cooperation",
+      "denominator": {"value": 1, "unit": "WHO policy direction on South-South and multilateral cooperation", "value_type": "reported_policy_frame"},
+      "measures": {
+        "cooperation": {"value": "The update identifies opportunities to expand South-South cooperation and institutional partnerships, including with India, China, and other BRICS members and partners", "unit": "cooperation direction", "value_type": "reported_policy_direction"},
+        "infrastructure_priorities": {"value": "A possible BRICS New Development Bank financing window is described as potentially supporting digital and social determinants of health infrastructure, primary health centres, WASH, and pro-poor housing", "unit": "infrastructure-financing priorities", "value_type": "reported_financing_option"},
+        "geopolitical_route": {"value": "Health-system financing and institutional capacity are linked to South-South cooperation and multilateral development-bank terms", "unit": "bounded geopolitical-infrastructure mechanism", "value_type": "inferred"}
+      },
+      "method": "WHO policy update describing prospective cooperation and financing options; it does not establish that a financing window exists, is funded, or produces health outcomes.",
+      "uncertainty": "The financing prospect, terms, governance, country eligibility, and relationship to domestic systems remain unspecified; geopolitical cooperation does not guarantee pro-poor allocation or institutional autonomy.",
+      "subgroup": "Countries seeking health-system financing, MDBs, BRICS and South-South partners, primary-health and WASH institutions, and communities affected by housing and environmental conditions.",
+      "counterinterpretation": "External financing and geopolitical partnerships can fragment standards, increase debt or dependency, or prioritize visible infrastructure over workforce and maintenance; institutional fit matters more than financing volume alone.",
+      "source_url": "https://www.who.int/news/item/14-09-2026-countries-move-to-strengthen-public-health-institutions-and-services-amid-mounting-pressures",
+      "retrieval_hash": "sha256:c8e015bfd5e9f7100491e50425b87e90ae570c97f5d29c5d8f44c6b85cf74620",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record captures WHO's institutional-capacity and financing framing for essential public-health functions. It does not establish comparable national capacity, spending effects, service access, health outcomes, or the existence and impact of a BRICS financing window.",
+  "retrieval_hash": "sha256:c8e015bfd5e9f7100491e50425b87e90ae570c97f5d29c5d8f44c6b85cf74620"
+}

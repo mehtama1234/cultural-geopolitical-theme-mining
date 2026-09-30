@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-sofia-2026-aquatic-foods-livelihoods-trade-blue-transformation",
+  "title": "Aquatic food production and trade reach new highs while resource health, equity, livelihoods, and value-chain resilience remain contested",
+  "theme_ids": ["cost", "energy", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Food and Agriculture Organization, The State of World Fisheries and Aquaculture 2026: Blue Transformation, Turning Vision into Impact",
+  "geography": "Global marine and inland fisheries, aquaculture, aquatic-food trade, resources, livelihoods, and regional food systems",
+  "observations": [
+    {
+      "period": "2024-2026; aquatic production and aquaculture",
+      "denominator": {"value": 1, "unit": "global fisheries and aquaculture production frame", "value_type": "sector_global_frame"},
+      "measures": {
+        "aquaculture_production": {"value": 100, "unit": "million-plus tonnes of aquatic animal production from aquaculture in 2024", "value_type": "reported_estimate"},
+        "production_direction": {"value": "global fisheries and aquaculture production reached a new high", "unit": "FAO SOFIA assessment", "value_type": "reported_finding"},
+        "transformation_goal": {"value": "Blue Transformation emphasizes sustainable development of aquaculture, fisheries, and aquatic value chains", "unit": "FAO policy framework", "value_type": "reported_framework"},
+        "resource_condition": {"value": "the report assesses the state and health of marine fishery resources", "unit": "FAO assessment scope", "value_type": "reported_scope"}
+      },
+      "method": "FAO global fisheries and aquaculture statistics, resource assessment, sector analysis, and case-based synthesis.",
+      "uncertainty": "Production totals and resource assessments aggregate diverse species, systems, and regions; they do not establish sustainability or livelihood improvement for every fishery or producer.",
+      "subgroup": "Fishers, aquaculture producers, aquatic-food workers, coastal and inland communities, consumers, resource managers, and food-system firms.",
+      "counterinterpretation": "Higher production can improve food availability and livelihoods if resource management, labor conditions, and distribution keep ecological and social costs from rising with output.",
+      "source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture",
+      "retrieval_hash": "sha256:4b22243ff0f7b7596f6affac1a3f51d702e1eaa289ee08383dac3b42072fda3f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; aquatic-food trade and market connection",
+      "denominator": {"value": 1, "unit": "global aquatic animal-product trade frame", "value_type": "trade_global_frame"},
+      "measures": {
+        "trade_value": {"value": 184, "unit": "billion US dollars in aquatic animal product trade", "value_type": "reported_estimate"},
+        "trade_direction": {"value": "trade in aquatic animal products continues to reach record levels", "unit": "FAO SOFIA assessment", "value_type": "reported_finding"},
+        "market_channel": {"value": "processing, storage, transportation, logistics, trade policies, tariffs, non-tariff measures, and export restrictions shape flows from production to consumption", "unit": "FAO value-chain synthesis", "value_type": "reported_mechanism"},
+        "regional_route": {"value": "aquatic-food trade connects production and consumption across regions", "unit": "FAO trade framing", "value_type": "reported_mechanism"}
+      },
+      "method": "FAO trade statistics and analysis of aquatic-food value chains, market access, logistics, and policy conditions.",
+      "uncertainty": "Trade value does not measure who captures margins, local affordability, labor quality, or ecological costs; flows can change with prices, tariffs, and shocks.",
+      "subgroup": "Exporting and importing countries, fishers, processors, retailers, consumers, port communities, and workers in cold-chain and logistics systems.",
+      "counterinterpretation": "Trade diversification and better logistics can widen access and income, while local procurement and social protection can reduce dependence on volatile export markets.",
+      "source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture",
+      "retrieval_hash": "sha256:4b22243ff0f7b7596f6affac1a3f51d702e1eaa289ee08383dac3b42072fda3f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; nutrition and aquatic-food consumption",
+      "denominator": {"value": 1, "unit": "global per-capita animal-protein consumption frame", "value_type": "nutrition_global_frame"},
+      "measures": {
+        "animal_protein_share": {"value": 20, "unit": "percent of per-capita animal-protein consumption supplied by aquatic animal products", "value_type": "reported_estimate"},
+        "food_security_role": {"value": "aquatic food systems contribute to food security and nutrition as well as livelihoods and sustainable development", "unit": "FAO SOFIA framing", "value_type": "reported_framework"},
+        "access_difference": {"value": "the nutrition contribution of aquatic foods varies with affordability, geography, culture, infrastructure, and distribution", "unit": "food-system transmission mechanism", "value_type": "reported_mechanism"},
+        "health_boundary": {"value": "sector production and per-capita averages do not show whether particular households can access, afford, or safely consume nutritious aquatic foods", "unit": "analytic boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "FAO food-balance, production, trade, and aquatic-food system analysis.",
+      "uncertainty": "Per-capita averages conceal within-country inequality, dietary substitution, local prices, preparation, contamination risk, and intra-household allocation.",
+      "subgroup": "Coastal and inland consumers, low-income households, children, fish-dependent communities, producers, and food-insecure populations.",
+      "counterinterpretation": "Local and small-scale aquatic food systems can support nutrition and cultural food practices even where export-oriented growth does not improve local affordability.",
+      "source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture",
+      "retrieval_hash": "sha256:4b22243ff0f7b7596f6affac1a3f51d702e1eaa289ee08383dac3b42072fda3f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; sustainability, equity, and community participation",
+      "denominator": {"value": 1, "unit": "global aquatic-food sustainability and governance frame", "value_type": "blue_transformation_frame"},
+      "measures": {
+        "core_tension": {"value": "sustainable and equitable growth of marine and inland ecosystems remains a key challenge despite production and trade gains", "unit": "FAO SOFIA assessment", "value_type": "reported_finding"},
+        "solution_channels": {"value": "innovation, science, responsible management, and community engagement are identified as pathways for Blue Transformation", "unit": "FAO policy framework", "value_type": "reported_framework"},
+        "resilience": {"value": "resilient and efficient value chains are part of the report's route to more inclusive aquatic food systems", "unit": "FAO value-chain synthesis", "value_type": "reported_mechanism"},
+        "governance_scope": {"value": "resource managers, communities, institutions, industry, producers, and civil society all appear in the transformation frame", "unit": "FAO governance framing", "value_type": "reported_inventory"}
+      },
+      "method": "FAO sustainability, resource-management, value-chain, innovation, and community-governance synthesis.",
+      "uncertainty": "The report identifies pathways and examples rather than a universal causal estimate; implementation capacity and power distribution differ across fisheries and aquaculture systems.",
+      "subgroup": "Small-scale fishers, aquaculture workers, coastal communities, Indigenous and local resource users, regulators, industry, and civil society.",
+      "counterinterpretation": "Community engagement can improve legitimacy and stewardship, but participation without control over access, prices, safety, or resource decisions may not produce equitable outcomes.",
+      "source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture",
+      "retrieval_hash": "sha256:4b22243ff0f7b7596f6affac1a3f51d702e1eaa289ee08383dac3b42072fda3f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/statistics/data-dissemination/fishery-and-aquaculture/", "claim": "FAO FishStat provides complementary global and regional fisheries and aquaculture statistics."},
+    {"source_url": "https://www.fao.org/in-action/globefish/home/the-state-of-world-fisheries-and-aquaculture-2026/en", "claim": "FAO GLOBEFISH provides complementary trade, market, and value-chain context for SOFIA 2026."}
+  ],
+  "boundary": "This record adds an aquatic-food, fisheries, aquaculture, nutrition, trade, livelihoods, ecological-resource, and community-governance route. It uses FAO aggregate sector statistics and report synthesis, not respondent-level data, individual fisher histories, household seafood diaries, causal price estimates, or proof that production and trade growth are automatically sustainable or equitable.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FAO SOFIA 2026 publication and FAO newsroom material reviewed for production highs, aquaculture above 100 million tonnes in 2024, aquatic-food trade value, nutrition contribution, resource-health scope, Blue Transformation, resilient value chains, and equity/community framing.",
+    "source_url_sha256": "sha256:4b22243ff0f7b7596f6affac1a3f51d702e1eaa289ee08383dac3b42072fda3f",
+    "checked": "2026-09-26"
+  }
+}

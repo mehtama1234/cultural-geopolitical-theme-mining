@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iea-key-questions-energy-ai-2026-data-centres-affordability-grid",
+  "title": "AI is becoming an electricity-system and affordability issue: efficiency gains are being overtaken by scale, intensive use cases, grid bottlenecks and concentrated infrastructure",
+  "theme_ids": ["energy", "cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "time_hidden_price",
+    "political_judgment_action"
+  ],
+  "source_unit": "International Energy Agency, Key Questions on Energy and AI",
+  "geography": "Global data-centre and energy-system analysis with regional and United States case evidence on electricity demand, prices, grids and policy",
+  "observations": [
+    {
+      "period": "2025 observed; 2026 investment outlook; AI data-centre expansion",
+      "denominator": {"value": 1, "unit": "global data-centre and AI infrastructure system", "value_type": "global_system_frame"},
+      "measures": {
+        "data_centre_electricity_growth": {"value": 17, "unit": "percent growth in global data-centre electricity demand in 2025", "value_type": "reported_share"},
+        "ai_data_centre_growth": {"value": 50, "unit": "percent growth in electricity consumption from AI-focused data centres in 2025", "value_type": "reported_share"},
+        "hyperscaler_capex_2026": {"value": 715000000000, "unit": "US dollars in announced capital expenditure by leading hyperscalers and neo-clouds for 2026", "value_type": "reported_amount"},
+        "capex_growth": {"value": 75, "unit": "percent increase in announced 2026 capital expenditure relative to 2025", "value_type": "reported_share"}
+      },
+      "method": "IEA analysis combining data-centre demand, investment, satellite tracking, energy-system and technology-market data.",
+      "uncertainty": "Investment announcements and project pipelines do not all become operating load; electricity demand depends on utilization, efficiency, model mix, siting, power procurement and grid connection.",
+      "subgroup": "Households and firms sharing electricity systems, utilities, grid operators, data-centre communities, technology companies, workers and governments planning energy infrastructure.",
+      "counterinterpretation": "Large investment can finance new low-emissions supply, improve grid utilization and enable productivity or public-service gains if connection, cost allocation and environmental conditions are governed well.",
+      "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+      "retrieval_hash": "sha256:a3a47f07b35420e74b243878f631192b04788110db3c75275feb0fbdee7f4858",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; AI efficiency, uptake and energy-intensive use cases",
+      "denominator": {"value": 1, "unit": "AI task and data-centre energy synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "simple_task_efficiency": {"value": "energy use per AI task has declined by at least an order of magnitude annually in recent years", "unit": "reported efficiency direction", "value_type": "reported_interpretation"},
+        "simple_text_comparison": {"value": "a simple AI text query typically consumes less electricity than running a television over the same period", "unit": "reported comparative illustration", "value_type": "reported_interpretation"},
+        "intensive_task_multiplier": {"value": "hundreds to thousands", "unit": "times more energy per query for some video-generation, reasoning and agentic tasks than simple text generation", "value_type": "reported_range"},
+        "rebound_mechanism": {"value": "efficiency gains can be offset by rapid uptake, changing capabilities and new energy-intensive uses", "unit": "reported demand mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "IEA synthesis of software, hardware, AI-use-case and data-centre electricity trends.",
+      "uncertainty": "AI energy use varies by model, hardware, location, workload, data-centre efficiency and accounting boundary; global usage depth is not comprehensively measured.",
+      "subgroup": "AI users, technology providers, utilities, households, businesses, public agencies and communities exposed to new electricity demand.",
+      "counterinterpretation": "Rapid efficiency improvement may materially reduce energy per useful task and can make AI-enabled energy optimization valuable; total demand remains contingent on actual adoption and task substitution.",
+      "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "retrieval_hash": "sha256:a3a47f07b35420e74b243878f631192b04788110db3c75275feb0fbdee7f4858",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2035; data centres, electricity affordability and emissions",
+      "denominator": {"value": 1, "unit": "global electricity-system and affordability analysis", "value_type": "published_synthesis"},
+      "measures": {
+        "data_centre_emissions_2035": {"value": 350000000, "unit": "tonnes of carbon-dioxide equivalent projected from data centres in 2035", "value_type": "modelled_projection"},
+        "global_electricity_emissions_share": {"value": 2, "unit": "percent of global electricity-sector emissions represented by data centres in 2035 under IEA projections", "value_type": "modelled_projection"},
+        "affordability_risk": {"value": "rapid, concentrated data-centre growth can trigger new generation and grid investment and raise electricity prices in some places if system investment and load are misaligned", "unit": "reported risk mechanism", "value_type": "reported_interpretation"},
+        "price_condition": {"value": "price effects depend on spare capacity, grid connectivity, load shape, investment timing, market design and policy choices; they are not mechanically one-way", "unit": "reported qualification", "value_type": "reported_interpretation"}
+      },
+      "method": "IEA analysis of data-centre emissions, electricity demand, generation, grid investment, regional price mechanisms and policy conditions.",
+      "uncertainty": "The 2035 projection is scenario-dependent; observed price changes also reflect fuel prices, taxes, regulation, subsidies, network charges and broader energy shocks, so data-centre causation is location-specific.",
+      "subgroup": "Residential electricity users, energy-intensive firms, data-centre host regions, utilities, regulators, low-income households and communities facing new generation or transmission infrastructure.",
+      "counterinterpretation": "Predictable new demand can improve utilization of existing assets and reduce per-unit costs in systems with spare capacity; transparent cost allocation and proactive planning can reduce distributional risk.",
+      "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "retrieval_hash": "sha256:a3a47f07b35420e74b243878f631192b04788110db3c75275feb0fbdee7f4858",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; data-centre deployment, energy security and public-system response",
+      "denominator": {"value": 1, "unit": "data-centre, grid and policy coordination framework", "value_type": "published_policy_synthesis"},
+      "measures": {
+        "deployment_mismatch": {"value": "data centres can be deployed in one to two years while major transmission or dispatchable generation additions typically take much longer", "unit": "reported infrastructure timing mismatch", "value_type": "reported_interpretation"},
+        "onsite_power_pipeline": {"value": 75, "unit": "gigawatts in the more than 75 GW onsite-power pipeline tracked by IEA satellite analysis, of which 50 GW was represented by 63 trackable plants", "value_type": "reported_estimate"},
+        "policy_principles": {"value": "manage data-centre project pipelines and grid investment proactively, improve connection and permitting processes, and ensure data centres contribute constructively to energy systems", "unit": "reported policy route", "value_type": "reported_policy_route_set"},
+        "energy_system_use": {"value": "AI can improve energy security and sustainability, but barriers include data, skills, organizational capacity, investment and trust", "unit": "reported opportunity and constraint set", "value_type": "reported_interpretation"}
+      },
+      "method": "IEA policy analysis of data-centre siting, grid queues, onsite power, permitting, energy security, affordability and AI applications in energy systems.",
+      "uncertainty": "The onsite-power pipeline is not equivalent to completed generation, and policy effects depend on permitting, fuel mix, local governance, grid rules and actual load realization.",
+      "subgroup": "Grid operators, regulators, local governments, energy workers, data-centre developers, technology firms, host communities and electricity consumers.",
+      "counterinterpretation": "Flexible loads, demand response, storage, clean procurement and AI-enabled grid management can make data centres useful system participants rather than only new demand.",
+      "source_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+      "retrieval_hash": "sha256:a3a47f07b35420e74b243878f631192b04788110db3c75275feb0fbdee7f4858",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf", "claim": "Official IEA 138-page report PDF."},
+    {"source_url": "https://www.iea.org/reports/energy-and-ai", "claim": "IEA 2025 Energy and AI report context."},
+    {"source_url": "https://www.iea.org/reports/state-of-energy-policy-2026", "claim": "IEA policy context on energy affordability, supply chains and government responses."}
+  ],
+  "boundary": "This record adds an AI-to-energy-system route: data-centre investment, electricity demand, efficiency, intensive AI use, grid timing, affordability, emissions, energy security and public policy are analyzed together. It is an IEA global energy and infrastructure synthesis, not household electricity microdata, a full life-cycle AI emissions audit, a local rate case, a causal productivity evaluation or proof that AI benefits are evenly distributed.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official IEA report page, executive summary, online PDF and energy-policy context were retrieved and reviewed for data-centre investment, electricity growth, AI-use intensity, affordability, emissions, grid timing, onsite power and policy principles; the report PDF was hashed.",
+    "source_url_sha256": "sha256:a3a47f07b35420e74b243878f631192b04788110db3c75275feb0fbdee7f4858",
+    "checked": "2026-09-27"
+  }
+}

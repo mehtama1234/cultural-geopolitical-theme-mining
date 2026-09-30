@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-nepal-construction-informality-formalization-social-protection-2026",
+  "title": "Enterprise registration is not worker formalization: construction exposes the portability gap",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Informality in Nepal's Construction Sector: Promoting enterprise formalization and extending social protection to construction workers, 2026",
+  "geography": "Nepal construction sector, with national labor-market, enterprise and stakeholder evidence",
+  "observations": [
+    {
+      "period": "2018–2023; construction-sector employment, enterprise and informality indicators",
+      "denominator": {"value": 1, "unit": "Nepal construction-sector labor and enterprise frame", "value_type": "reported_sector_frame"},
+      "measures": {
+        "sector_weight": {"value": ">6% of GDP and approximately 14% of national employment", "unit": "reported sector contribution", "value_type": "reported_indicator"},
+        "informality": {"value": 98.2, "unit": "percent informal employment in construction in 2023", "value_type": "reported_indicator"},
+        "registered_unit_gap": {"value": 78, "unit": "percent of workers in formally registered construction enterprises who were informal in 2018", "value_type": "reported_indicator"},
+        "precarity": {"value": "99.8% of informal construction jobs were temporary in 2018 and 81.9% of informal workers were paid daily", "unit": "reported employment structure", "value_type": "reported_indicator"},
+        "distribution": {"value": "35.6% of construction workers were below the minimum wage and construction-worker poverty was 27.4% in 2023, versus 25.3% and 20% nationally", "unit": "reported distributional contrast", "value_type": "reported_distributional_finding"},
+        "mechanism": {"value": "enterprise registration can coexist with informal employment when project work, daily pay and subcontracting keep the employment relationship outside durable protection", "unit": "bounded formalization mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO diagnostic brief combining labor-force and enterprise statistics, stakeholder perspectives, legal and policy review, and sector-level evidence from Nepal.",
+      "uncertainty": "Indicators refer to different years, denominators and statistical frames; the brief is diagnostic and does not estimate a causal effect of any single formalization policy.",
+      "subgroup": "Daily-paid, temporary and subcontracted construction workers; workers in small firms; workers in poverty or below minimum wage; and workers whose enterprise is registered but whose employment is not formalized.",
+      "counterinterpretation": "Some temporary work may reflect project-based production rather than unlawful employment, and registration may still provide partial benefits even when worker-level formalization is incomplete; the figures do not by themselves identify employer intent or enforcement failure.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/ILO_Brief_Informality_Construction_3%20Sept%20(2).pdf",
+      "retrieval_hash": "sha256:6d52a04cfc388c169302ed075f27db209313ae6e9941df809e8216ed47144a37",
+      "status": "reported"
+    },
+    {
+      "period": "2018–2023; gender, skills and occupational-risk distribution",
+      "denominator": {"value": 1, "unit": "Nepal construction worker and enterprise-owner frame", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "gender_presence": {"value": "women were 10.5% of the construction workforce and 5.1% of enterprise owners", "unit": "reported participation distribution", "value_type": "reported_indicator"},
+        "gender_pay": {"value": "female building laborers averaged NPR 13,946 versus NPR 16,780 for men, approximately a 17% gap", "unit": "reported average monthly earnings", "value_type": "reported_indicator"},
+        "gender_floor": {"value": 66.4, "unit": "percent of women construction workers below the minimum wage", "value_type": "reported_indicator"},
+        "skills": {"value": 9.2, "unit": "percent of construction employees with vocational training", "value_type": "reported_indicator"},
+        "risk": {"value": "informal workers face weak occupational safety and health protection and limited injury insurance, with women concentrated in lower-paid work", "unit": "reported exposure and protection pattern", "value_type": "reported_distributional_finding"},
+        "mechanism": {"value": "formalization is also a status-and-capability bargain: skills certification, wage floors, safety protection and gender equity determine whether sector growth becomes decent work", "unit": "bounded status-and-capability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO sector diagnostic using reported labor-market indicators, stakeholder evidence and policy analysis of skills, wage, gender and occupational-safety conditions.",
+      "uncertainty": "Gender, training and earnings indicators may be affected by occupational sorting, seasonality, reporting quality and differences in worker or firm composition; the brief does not identify causal wage or training returns.",
+      "subgroup": "Women workers, building laborers, workers without vocational certification, workers exposed to construction hazards, and workers excluded from injury or social-security protection.",
+      "counterinterpretation": "Training alone may not raise earnings where subcontracting and weak enforcement persist; measured gender gaps may partly reflect job type, tenure or hours rather than unequal pay for identical work.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/ILO_Brief_Informality_Construction_3%20Sept%20(2).pdf",
+      "retrieval_hash": "sha256:6d52a04cfc388c169302ed075f27db209313ae6e9941df809e8216ed47144a37",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy diagnosis; temporary, mobile and subcontracted work as a social-protection design problem",
+      "denominator": {"value": 1, "unit": "Nepal construction formalization and social-protection policy frame", "value_type": "reported_policy_frame"},
+      "measures": {
+        "barrier": {"value": "frequent employer and worksite changes, irregular earnings, layered subcontracting, missing employer-of-record clarity, weak inspection and barriers involving citizenship certificates, bank accounts and digital literacy", "unit": "reported implementation barrier set", "value_type": "reported_policy_finding"},
+        "procurement": {"value": "public procurement is identified as a leverage point, while rules allowing up to 25% subcontracting do not clearly require formalization of subcontracted workers", "unit": "reported regulatory design issue", "value_type": "reported_policy_finding"},
+        "adaptation": {"value": "the brief recommends simplified or single-window enrollment, flexible contributions, portable benefits, worker-initiated enrollment, government co-contributions, awareness, foreign-worker access and stronger coordination", "unit": "reported policy direction", "value_type": "reported_policy_recommendation"},
+        "mechanism": {"value": "when work, residence, employer and payment channels move faster than the social-security account, formalization requires portability and continuity infrastructure rather than enterprise registration alone", "unit": "bounded portability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO policy diagnostic drawing on stakeholder consultations, legal and institutional review, sector statistics and recommendations for procurement, inspection, skills, social protection and gender-responsive implementation.",
+      "uncertainty": "Recommendations are a policy agenda rather than tested interventions; the brief does not establish which mix of portability, subsidies, enforcement or digital integration would produce durable registration or better outcomes.",
+      "subgroup": "Mobile and seasonal workers, subcontracted workers, foreign workers, women in low-paid roles, small contractors, workers lacking identity or banking access, and public agencies responsible for procurement and social protection.",
+      "counterinterpretation": "Simplifying enrollment or making benefits portable may not overcome contribution affordability, low trust or weak benefit delivery; stronger procurement conditions could also raise costs or exclude small contractors unless paired with finance and technical support.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/ILO_Brief_Informality_Construction_3%20Sept%20(2).pdf",
+      "retrieval_hash": "sha256:6d52a04cfc388c169302ed075f27db209313ae6e9941df809e8216ed47144a37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/informality-nepal%E2%80%99s-construction-sector-promoting-enterprise-formalization", "claim": "Official ILO publication page with the brief, date, DOI and summary of construction informality and formalization findings."},
+    {"source_url": "https://doi.org/10.54394/00035326", "claim": "Official DOI for the Nepal construction-sector brief."}
+  ],
+  "boundary": "This record identifies construction as a high-informality social-protection and portability problem: enterprise registration, worker formalization, safety, skills, gender equity and procurement are coupled but distinct. It is a diagnostic policy brief, not causal evidence that any individual recommendation improves registration, earnings, safety, poverty, gender equity or social trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO eight-page PDF and publication page, sector weight, informality, temporary and daily-paid work, poverty and minimum-wage contrasts, gender and skills indicators, subcontracting and procurement issues, identity and digital barriers, and portability-oriented recommendations were reviewed.",
+    "source_url_sha256": "sha256:6d52a04cfc388c169302ed075f27db209313ae6e9941df809e8216ed47144a37",
+    "checked": "2026-09-29"
+  }
+}

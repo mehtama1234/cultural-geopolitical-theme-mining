@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-desa-wesp-2026-growth-trade-inflation-fiscal-space",
+  "title": "Slower and more uneven global growth is transmitting through trade, prices, debt, investment, and fiscal space into household and social vulnerability",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UN DESA, World Economic Situation and Prospects 2026",
+  "geography": "Global economy with regional outlooks for major economies and regions; 2026 forecasts and 2025 context",
+  "observations": [
+    {
+      "period": "2025–2026; global growth, investment, and fiscal-space outlook",
+      "denominator": {"value": 1, "unit": "global economy covered by UN DESA World Economic Situation and Prospects", "value_type": "global_macro_outlook_frame"},
+      "measures": {
+        "2026_growth": {"value": 2.7, "unit": "percent forecast global economic growth in 2026", "value_type": "reported_forecast"},
+        "2025_growth_estimate": {"value": 2.8, "unit": "percent estimated global economic growth in 2025", "value_type": "reported_estimate"},
+        "prepandemic_comparison": {"value": 3.2, "unit": "percent average global growth in the pre-pandemic period used for comparison", "value_type": "reported_baseline"},
+        "investment_constraint": {"value": "subdued investment and limited fiscal space raise the risk of a persistently slower growth path", "unit": "reported macroeconomic mechanism", "value_type": "reported_mechanism"},
+        "social_route": {"value": "slower aggregate growth can constrain employment, public spending, household income gains, and the capacity to absorb shocks", "unit": "bounded transmission mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN DESA global and regional macroeconomic forecasting and analysis of growth, investment, fiscal conditions, trade, inflation, and geopolitical risks.",
+      "uncertainty": "Forecasts depend on trade policy, conflict, commodity prices, monetary policy, fiscal responses, climate shocks, and financial conditions; aggregate growth does not establish distributional or household outcomes.",
+      "subgroup": "Households, workers, firms, governments, developing economies, creditors, debtors, and regions with different fiscal and external buffers.",
+      "counterinterpretation": "Slower growth can coexist with improved distribution, public investment, or resilience if policy choices prioritize social protection and productive capacity; growth rates alone are not welfare measures.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026",
+      "retrieval_hash": "sha256:a4d49eafc230ac92691e634c4d4469c4848e1c276e4aeb734b316838188d2cad",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; trade, tariffs, and investment transmission",
+      "denominator": {"value": 1, "unit": "global trade and investment outlook in WESP 2026", "value_type": "global_trade_investment_frame"},
+      "measures": {
+        "2025_trade_growth": {"value": 3.8, "unit": "percent global trade growth in 2025", "value_type": "reported_estimate"},
+        "2026_trade_growth": {"value": 2.2, "unit": "percent projected global trade growth in 2026", "value_type": "reported_forecast"},
+        "frontloading": {"value": "front-loaded shipments and robust services trade helped support 2025 trade despite tariff and policy uncertainty", "unit": "reported trade mechanism", "value_type": "reported_mechanism"},
+        "investment_pattern": {"value": "investment growth remained subdued in most regions, with geopolitical tensions and tight fiscal conditions weighing on capital formation", "unit": "reported investment pattern", "value_type": "reported_mechanism"},
+        "ai_concentration": {"value": "AI advances supported pockets of strong capital spending in a few large markets, while potential gains are expected to be unevenly distributed", "unit": "reported technology-investment mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN DESA analysis of trade flows, tariff uncertainty, services trade, investment, geopolitical risk, and technology-related capital spending.",
+      "uncertainty": "Trade and investment forecasts are sensitive to policy timing, rerouting, inventories, exchange rates, financial conditions, and the uncertain diffusion of AI benefits.",
+      "subgroup": "Exporters, importers, households facing price changes, firms in global value chains, developing economies, workers, and sectors exposed to AI investment concentration.",
+      "counterinterpretation": "Trade rerouting, services trade, domestic investment, and targeted industrial policy can cushion aggregate shocks; lower trade growth does not imply uniform contraction across sectors or regions.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026",
+      "retrieval_hash": "sha256:a4d49eafc230ac92691e634c4d4469c4848e1c276e4aeb734b316838188d2cad",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regional divergence and geopolitical-economic exposure",
+      "denominator": {"value": 1, "unit": "UN DESA regional economic outlook for 2026", "value_type": "regional_macro_outlook_frame"},
+      "measures": {
+        "united_states_growth": {"value": 2.0, "unit": "percent projected growth in 2026", "value_type": "reported_regional_forecast"},
+        "european_union_growth": {"value": 1.3, "unit": "percent projected growth in 2026", "value_type": "reported_regional_forecast"},
+        "east_asia_growth": {"value": 4.4, "unit": "percent projected growth in 2026", "value_type": "reported_regional_forecast"},
+        "south_asia_growth": {"value": 5.6, "unit": "percent projected growth in 2026; India projected at 6.6 percent", "value_type": "reported_regional_forecast"},
+        "africa_growth": {"value": 4.0, "unit": "percent projected growth in 2026", "value_type": "reported_regional_forecast"},
+        "latin_america_caribbean_growth": {"value": 2.3, "unit": "percent projected growth in 2026", "value_type": "reported_regional_forecast"},
+        "divergence_route": {"value": "regional growth differences reflect varying exposure to tariffs, conflict, climate shocks, debt, domestic demand, public investment, and external finance", "unit": "bounded geopolitical-economic mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN DESA regional macroeconomic forecasts and narrative analysis of trade, conflict, debt, climate, consumption, and investment conditions.",
+      "uncertainty": "Regional forecasts are not comparable measures of household welfare or social stability; country outcomes within each region can vary widely.",
+      "subgroup": "Households, workers, firms, governments, exporters, debt-stressed economies, climate-exposed economies, and regions with different demographic and policy buffers.",
+      "counterinterpretation": "Higher regional growth can coexist with inequality or low-quality jobs, while lower growth can coexist with redistribution or improved public provision; regional GDP is a context signal, not a complete social trend.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026",
+      "retrieval_hash": "sha256:a4d49eafc230ac92691e634c4d4469c4848e1c276e4aeb734b316838188d2cad",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; inflation, real incomes, and household cost pressure",
+      "denominator": {"value": 1, "unit": "global inflation and cost-of-living outlook in WESP 2026", "value_type": "global_cost_of_living_frame"},
+      "measures": {
+        "2024_inflation": {"value": 4.0, "unit": "percent global headline inflation in 2024", "value_type": "reported_estimate"},
+        "2025_inflation": {"value": 3.4, "unit": "percent estimated global headline inflation in 2025", "value_type": "reported_estimate"},
+        "2026_inflation": {"value": 3.1, "unit": "percent projected global headline inflation in 2026", "value_type": "reported_forecast"},
+        "real_income_pressure": {"value": "easing headline inflation does not reverse elevated prices, which continue to weigh on real incomes", "unit": "reported cost-of-living mechanism", "value_type": "reported_mechanism"},
+        "policy_route": {"value": "monetary policy needs to work with credible fiscal frameworks, targeted social measures, productive capacity, and resilient food, energy, and logistics supply chains", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "UN DESA global inflation analysis separating the pace of price change from the level of prices and examining supply bottlenecks, geopolitical risks, climate risks, and policy responses.",
+      "uncertainty": "Global inflation averages conceal country, sector, and household differences; the report does not estimate individual purchasing-power loss, consumption substitution, or poverty transitions for each group.",
+      "subgroup": "Lower-income households, consumers of food and energy, workers, firms, governments, vulnerable groups, and economies exposed to supply bottlenecks or imported inflation.",
+      "counterinterpretation": "Disinflation can improve planning and real incomes if wages catch up and essential prices stabilize; targeted support can protect vulnerable households without permanently increasing inflation.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026",
+      "retrieval_hash": "sha256:a4d49eafc230ac92691e634c4d4469c4848e1c276e4aeb734b316838188d2cad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/en/Publications/WEO", "claim": "Complementary IMF macroeconomic outlook and global growth, inflation, and balance-of-payments context."},
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "Complementary ILO labor-market and job-quality context for translating macro conditions into work and income security."}
+  ],
+  "boundary": "This record adds a macroeconomic-to-social-vulnerability route across growth, trade, tariffs, investment, debt, fiscal space, regional divergence, inflation, real incomes, AI concentration, and supply chains. It uses UN DESA aggregate forecasts and analysis, not household survey microdata, individual price exposure, firm-level causal outcomes, wage histories, poverty transitions, or proof that aggregate growth or inflation changes affect every group in the same way.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA WESP 2026 publication page reviewed for global growth, trade, investment, regional forecasts, inflation, real-income pressure, fiscal space, AI concentration, and policy implications.",
+    "source_url_sha256": "sha256:a4d49eafc230ac92691e634c4d4469c4848e1c276e4aeb734b316838188d2cad",
+    "checked": "2026-09-26"
+  }
+}

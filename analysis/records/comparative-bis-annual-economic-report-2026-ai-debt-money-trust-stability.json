@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-bis-annual-economic-report-2026-ai-debt-money-trust-stability",
+  "title": "AI-led resilience is colliding with inflation, public-debt, non-bank, and digital-money risks that test financial stability and trust",
+  "theme_ids": ["cost", "energy", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Bank for International Settlements, Annual Economic Report 2026",
+  "geography": "Global monetary, financial, fiscal, AI-investment, supply-shock, non-bank, and digital-money systems",
+  "observations": [
+    {
+      "period": "2025-2026; resilience and accumulating pressure points",
+      "denominator": {"value": 1, "unit": "global economy, trade, financial conditions, and AI-investment frame", "value_type": "global_macro_stability_frame"},
+      "measures": {
+        "resilience": {"value": "the global economy absorbed tariff and conflict shocks with support from AI-related investment and favourable financial conditions", "unit": "BIS report synthesis", "value_type": "reported_pattern"},
+        "risk_channels": {"value": "persistent inflation risks, sustainability of AI investment, financial vulnerabilities, and weakening fiscal positions are mounting pressure points", "unit": "BIS report synthesis", "value_type": "reported_risk"},
+        "policy_priority": {"value": "price stability, fiscal sustainability, financial stability, and structural reform are mutually reinforcing priorities", "unit": "BIS report framework", "value_type": "reported_framework"}
+      },
+      "method": "BIS global macroeconomic, monetary, financial-market, fiscal, and structural analysis.",
+      "uncertainty": "The report is a policy assessment, not a deterministic forecast; resilience and risk can differ across economies, sectors, borrowers, and households.",
+      "subgroup": "Households exposed to inflation and borrowing costs, workers, firms investing in AI, governments, central banks, and financial institutions.",
+      "counterinterpretation": "AI investment may raise productivity and broaden growth capacity, while credible policy can contain inflation and financial risk without suppressing productive innovation.",
+      "source_url": "https://www.bis.org/publications/aer-2026",
+      "retrieval_hash": "sha256:76adf3c37b0c48b35a0268b80c490bcb52cf9b6980e51121e168e41019a7b2e0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public debt and the fiscal-financial stability nexus",
+      "denominator": {"value": 1, "unit": "public debt, sovereign debt markets, non-bank financial intermediation, and monetary-policy transmission frame", "value_type": "fiscal_financial_frame"},
+      "measures": {
+        "debt_pressure": {"value": "public debt is near record highs in many economies", "unit": "BIS report synthesis", "value_type": "reported_pattern"},
+        "non_bank_role": {"value": "non-banks play a growing role in sovereign debt markets", "unit": "BIS report synthesis", "value_type": "reported_mechanism"},
+        "stress_transmission": {"value": "the fiscal-financial stability nexus can amplify and accelerate market stress and complicate monetary-policy transmission", "unit": "BIS report framework", "value_type": "reported_mechanism"}
+      },
+      "method": "BIS analysis of public debt, sovereign markets, non-bank finance, and central-bank policy transmission.",
+      "uncertainty": "The global framing does not identify which countries or households will bear future adjustment costs, nor does it predict a specific market event.",
+      "subgroup": "Borrowers, savers, pension funds, governments, taxpayers, non-bank financial institutions, banks, and households dependent on public services.",
+      "counterinterpretation": "Non-bank finance can diversify funding and absorb risk when transparency, liquidity management, capital, and macroprudential safeguards are adequate.",
+      "source_url": "https://www.bis.org/publications/aer-2026",
+      "retrieval_hash": "sha256:76adf3c37b0c48b35a0268b80c490bcb52cf9b6980e51121e168e41019a7b2e0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; supply shocks, energy costs, and household room",
+      "denominator": {"value": 1, "unit": "global supply-shock, energy-input, inflation, and household purchasing-power frame", "value_type": "supply_cost_frame"},
+      "measures": {
+        "shock_context": {"value": "major supply shocks and geopolitical conflict remain in motion", "unit": "BIS report synthesis", "value_type": "reported_risk"},
+        "input_cost_channel": {"value": "disruption around critical energy and shipping routes can lift input costs and weigh on growth", "unit": "BIS report context", "value_type": "reported_mechanism"},
+        "household_translation": {"value": "price stability affects real purchasing power, borrowing conditions, employment, and the room households have for discretionary consumption", "unit": "program synthesis", "value_type": "reported_framework"}
+      },
+      "method": "BIS integration of macroeconomic, financial, geopolitical, and supply-shock analysis.",
+      "uncertainty": "Aggregate inflation and input-cost channels do not estimate a household's actual basket, debt service, wage adjustment, or consumption response.",
+      "subgroup": "Low-income households, energy-intensive firms, importers, workers, borrowers, consumers, and economies exposed to maritime or commodity disruption.",
+      "counterinterpretation": "Supply chains can reroute, inventories and substitution can buffer costs, and policy responses can redistribute or reduce short-run exposure.",
+      "source_url": "https://www.bis.org/publications/aer-2026",
+      "retrieval_hash": "sha256:76adf3c37b0c48b35a0268b80c490bcb52cf9b6980e51121e168e41019a7b2e0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital innovation, stablecoins, and trust in money",
+      "denominator": {"value": 1, "unit": "digital-money, programmable-platform, payment, and monetary-trust frame", "value_type": "digital_money_trust_frame"},
+      "measures": {
+        "innovation_channel": {"value": "digital innovation is transforming finance and creating new programmable-platform and money-like instruments", "unit": "BIS report synthesis", "value_type": "reported_mechanism"},
+        "trust_question": {"value": "the policy challenge is preserving trust in money while financial architecture changes", "unit": "BIS report framework", "value_type": "reported_question"},
+        "consumer_surface": {"value": "new payment and financial instruments can alter access, convenience, privacy, fraud exposure, and the boundary between public and private money", "unit": "program synthesis", "value_type": "reported_framework"}
+      },
+      "method": "BIS analysis of monetary architecture, digital innovation, stablecoins, programmable platforms, and trust in money.",
+      "uncertainty": "The report does not establish individual adoption, consumer welfare, or causal effects of any particular digital-money design; implementation and regulation remain open.",
+      "subgroup": "Consumers, payment users, banks, non-banks, technology firms, central banks, public institutions, and people with limited financial or digital access.",
+      "counterinterpretation": "Well-designed digital systems can improve competition, settlement, inclusion, and user control when public safeguards and interoperability are credible.",
+      "source_url": "https://www.bis.org/publications/aer-2026",
+      "retrieval_hash": "sha256:76adf3c37b0c48b35a0268b80c490bcb52cf9b6980e51121e168e41019a7b2e0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bis.org/publ/arpdf/ar2026e.pdf", "claim": "The BIS Annual Economic Report 2026 PDF provides the full chapter and key-takeaway evidence for AI investment, debt, financial stability, supply shocks, and digital money."},
+    {"source_url": "https://www.bis.org/publications/aer-2025.htm", "claim": "The prior BIS Annual Economic Report provides comparative context for the longer-run monetary and financial-policy discussion."}
+  ],
+  "boundary": "This record adds a global central-bank and financial-stability route across AI investment, inflation, public debt, non-bank finance, supply shocks, digital money, and trust. It uses aggregate policy analysis and system-level evidence, not household financial diaries, individual portfolio behavior, causal AI employment estimates, or a forecast of a particular crisis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official BIS Annual Economic Report 2026 materials were reviewed for AI-related resilience, inflation and financial vulnerabilities, public debt and non-bank transmission, supply shocks, and digital-money trust.",
+    "source_url_sha256": "sha256:76adf3c37b0c48b35a0268b80c490bcb52cf9b6980e51121e168e41019a7b2e0",
+    "checked": "2026-09-26"
+  }
+}

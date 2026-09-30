@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-child-safety-online-developmental-social-contract-2026",
+  "title": "Child safety online is becoming a developmental social contract: platforms, families, regulators, and offline institutions share responsibility for digital autonomy",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "public_systems_feedback", "political_judgment_action", "trust_identity_meaning", "care_health_reproduction", "infrastructure_technology_dependency", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "European Commission Special Panel report Child Safety Online: Protecting and Empowering Minors in a Digital World, published July 2026",
+  "geography": "European Union, with comparative references to Australia, Brazil, Canada, the United Kingdom, and other national approaches",
+  "observations": [
+    {
+      "period": "March–June 2026; three meetings of the European Commission Special Panel on child safety online",
+      "denominator": {"value": 1, "unit": "independent co-chair report based on three expert-panel meetings and additional consultations", "value_type": "reported_process_frame"},
+      "measures": {
+        "developmental_model": {"value": "the report recommends age-differentiated online participation: avoid extensive screen exposure for ages 0–2, supervised and age-appropriate use for ages 3–12, and evolving autonomy for adolescents", "unit": "reported developmental framework", "value_type": "reported_policy_framework"},
+        "shared_ecosystem": {"value": "child safety is assigned across minors, parents and caregivers, teachers and educators, regulators, and social-media and other digital-service providers", "unit": "reported actor ecosystem", "value_type": "reported_governance_model"},
+        "political_priority": {"value": "the report cites a European Commission survey finding that 92% of Europeans think strengthening protection of children and young people online should be an EU priority", "unit": "percent of reported survey respondents", "value_type": "reported_attitude_statistic"}
+      },
+      "method": "Independent report by the co-chairs of a European Commission special panel, informed by expert meetings, youth and parent representatives, institutions, civil society, and industry; it is a policy synthesis, not a representative causal evaluation.",
+      "uncertainty": "The report does not establish that a specific age threshold, parental-control model, or platform intervention improves child wellbeing, learning, safety, or offline participation; the cited 92% priority statistic comes from a separate survey whose full design and question wording must be checked for interpretation.",
+      "subgroup": "Children and adolescents by developmental stage, parents and caregivers, teachers, vulnerable and marginalised minors, platform users, and communities with unequal access to offline alternatives.",
+      "counterinterpretation": "A developmental framework can support autonomy and protection, but age-tiered restrictions may become paternalistic, unevenly enforced, or exclusionary if children’s participation, disability, culture, family context, and privacy are not handled carefully.",
+      "source_url": "https://commission.europa.eu/document/download/d833504d-5ec3-4fac-945f-38e7d0bd5326_en?filename=Special-panel-report.pdf",
+      "retrieval_hash": "sha256:81160c74c362a896603be2a2426fcd0d0aeed45875808c9457027c2f93015163",
+      "status": "reported"
+    },
+    {
+      "period": "2026; report recommendations on access restriction and age assurance",
+      "denominator": {"value": 1, "unit": "co-chair recommendation framework for EU child-safety policy", "value_type": "reported_recommendation_frame"},
+      "measures": {
+        "access_rule": {"value": "the report recommends a harmonised EU-wide access restriction for social media and other digital services, including AI companions, for children under 13, with limited parental or educational exceptions", "unit": "reported policy recommendation", "value_type": "reported_recommendation"},
+        "age_assurance": {"value": "age verification or estimation should be proportionate, inclusive, difficult to circumvent, privacy-preserving, and should not require identity documents or biometric data for age estimation", "unit": "reported safeguard principles", "value_type": "reported_design_principles"},
+        "privacy_technology": {"value": "the report points to zero-knowledge-proof approaches so platforms and age-assurance providers do not receive information enabling user tracking or identification", "unit": "reported technical safeguard", "value_type": "reported_technical_option"}
+      },
+      "method": "Normative policy recommendations grounded in the panel report’s legal, developmental, and technical discussion; not an implementation or privacy-impact evaluation.",
+      "uncertainty": "The report does not demonstrate real-world accuracy, equity, adoption cost, interoperability, cybersecurity, or rights impacts of any age-assurance method, nor whether a single EU rule would be enforceable across services and households.",
+      "subgroup": "Minors, adults subject to age checks, families without reliable devices or documents, disabled users, migrants, privacy-sensitive users, platforms, regulators, and age-assurance providers.",
+      "counterinterpretation": "Privacy-preserving age assurance may reduce data collection, but any universal access check can normalize surveillance, misclassify users, create exclusion, and shift identity or security burdens onto households.",
+      "source_url": "https://commission.europa.eu/document/download/d833504d-5ec3-4fac-945f-38e7d0bd5326_en?filename=Special-panel-report.pdf",
+      "retrieval_hash": "sha256:81160c74c362a896603be2a2426fcd0d0aeed45875808c9457027c2f93015163",
+      "status": "reported"
+    },
+    {
+      "period": "2026; platform design, enforcement, and research-access recommendations",
+      "denominator": {"value": 1, "unit": "report framework for social media and other digital services providers", "value_type": "reported_platform-governance_frame"},
+      "measures": {
+        "safety_by_design": {"value": "the report recommends limits or safeguards for infinite scrolling, autoplay, push notifications, personalised recommendation engines, dark patterns, unsolicited contact, and rabbit holes", "unit": "reported design-risk set", "value_type": "reported_risk_and_remedy_set"},
+        "burden_of_proof": {"value": "providers should demonstrate that products and services are safe for minors before receiving access to children, rather than placing the burden on regulators, parents, or children", "unit": "reported accountability principle", "value_type": "reported_accountability_principle"},
+        "data_scrutiny": {"value": "the report calls for stronger enforcement of researcher access to platform data and evaluation of whether the Digital Services Act Article 40 pathway delivers usable, continuous data", "unit": "reported research-governance recommendation", "value_type": "reported_research_access_recommendation"}
+      },
+      "method": "Policy and regulatory synthesis drawing on EU legal frameworks and the panel’s consultation process; it does not audit individual platforms or measure compliance.",
+      "uncertainty": "No platform-level exposure, design-change, complaint, enforcement, or child-outcome series is supplied; the source cannot show whether safety-by-design measures reduce harm or merely relocate engagement and risk.",
+      "subgroup": "Minors exposed to addictive or harmful design, parents, educators, platform firms, researchers, civil-society organisations, regulators, and users of AI companions, games, video-sharing, and messaging services.",
+      "counterinterpretation": "Safety-by-design rules may improve protection, but compliance metrics can be gamed, regulation can entrench large firms that can afford compliance, and reducing engagement features can affect access to connection, learning, or expression for some users.",
+      "source_url": "https://commission.europa.eu/document/download/d833504d-5ec3-4fac-945f-38e7d0bd5326_en?filename=Special-panel-report.pdf",
+      "retrieval_hash": "sha256:81160c74c362a896603be2a2426fcd0d0aeed45875808c9457027c2f93015163",
+      "status": "reported"
+    },
+    {
+      "period": "2026; recommendations on child agency, offline alternatives, and complaint routes",
+      "denominator": {"value": 1, "unit": "report recommendations for empowering minors and supporting families and communities", "value_type": "reported_empowerment_frame"},
+      "measures": {
+        "child_participation": {"value": "children and adolescents should help shape legislation, safety policies, training, evaluations, and guidelines, with clear feedback on how their contributions are used", "unit": "reported participation principle", "value_type": "reported_participation_recommendation"},
+        "complaints": {"value": "complaint mechanisms for minors should be age-appropriate, accessible, privacy-preserving, user-friendly, effective, and prioritised in moderation procedures", "unit": "reported remedy principle", "value_type": "reported_remedy_recommendation"},
+        "offline_infrastructure": {"value": "member states and local authorities should maintain affordable sport, arts, youth clubs, libraries, and community spaces as alternatives to excessive screen use and as places for connection and learning", "unit": "reported community-infrastructure recommendation", "value_type": "reported_offline_infrastructure_recommendation"},
+        "research_horizon": {"value": "the report calls for European longitudinal research over ten years or longer and continued randomised trials to address largely correlational evidence", "unit": "reported evidence recommendation", "value_type": "reported_research_horizon"}
+      },
+      "method": "Normative recommendations from an expert-panel report; the report does not evaluate existing complaint systems, offline facilities, child participation processes, or longitudinal outcomes.",
+      "uncertainty": "The source does not show whether children’s participation changes policy, whether complaints produce remedy, whether offline infrastructure is affordable and reachable, or whether reduced online use improves developmental outcomes.",
+      "subgroup": "Children and adolescents, vulnerable and marginalised minors, parents and educators, local authorities, libraries, youth organisations, civil society, and researchers.",
+      "counterinterpretation": "Offline alternatives and participation mechanisms can support agency, but they may be unevenly funded, inaccessible, or adult-controlled; framing screen time as the central problem can obscure platform design, poverty, family stress, and wider social conditions.",
+      "source_url": "https://commission.europa.eu/document/download/d833504d-5ec3-4fac-945f-38e7d0bd5326_en?filename=Special-panel-report.pdf",
+      "retrieval_hash": "sha256:81160c74c362a896603be2a2426fcd0d0aeed45875808c9457027c2f93015163",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://commission.europa.eu/topics/digital-economy-and-society/special-panel_en", "claim": "European Commission landing page for the Special Panel report, its summary, and child/teen guide."},
+    {"source_url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=COM:2026:680:FIN", "claim": "European Commission policy communication referencing child safety online, the Special Panel report, and related digital-fairness and consumer-protection actions."}
+  ],
+  "boundary": "This record adds a cultural and political subtheme in which online childhood is treated as shared social infrastructure: developmental autonomy, safety by design, privacy-preserving age assurance, platform accountability, child voice, complaint remedy, digital literacy, and offline alternatives. The report is an independent co-chair policy synthesis and explicitly should not be treated as the European Commission's official position; it does not establish causal effects, platform compliance, prevalence of harm, developmental outcomes, or the effectiveness and equity of age restrictions.",
+  "retrieval_hash": "sha256:81160c74c362a896603be2a2426fcd0d0aeed45875808c9457027c2f93015163"
+}

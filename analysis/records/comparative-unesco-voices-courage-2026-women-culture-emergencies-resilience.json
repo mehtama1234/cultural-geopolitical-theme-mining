@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-voices-courage-2026-women-culture-emergencies-resilience",
+  "title": "Emergencies intensify gendered precarity in cultural work while women’s cultural labor sustains heritage, community resilience and recovery",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UNESCO, Voices of Courage: A Global Survey on Women, Culture and Emergencies",
+  "geography": "More than 120 countries; women artists, cultural professionals and heritage professionals",
+  "observations": [
+    {
+      "period": "2026 publication; experiences of 1,470 women across emergency contexts",
+      "denominator": {"value": 1470, "unit": "survey respondents from more than 120 countries", "value_type": "survey_respondents"},
+      "measures": {
+        "insufficient_funding_market_access": {"value": 60, "unit": "per cent reporting insufficient funding and market access", "value_type": "published_survey_estimate"},
+        "unsafe_workspaces": {"value": 37, "unit": "per cent facing unsafe workspaces", "value_type": "published_survey_estimate"},
+        "creative_work_disruption": {"value": 36, "unit": "per cent reporting disruption to cultural and creative work", "value_type": "published_survey_estimate"},
+        "economic_instability_livelihood_loss": {"value": 69, "unit": "per cent reporting economic instability and loss of livelihood", "value_type": "published_survey_estimate"},
+        "trauma_burnout": {"value": 59, "unit": "per cent experiencing trauma and burnout", "value_type": "published_survey_estimate"}
+      },
+      "method": "UNESCO global survey with personal testimonies and case studies examining women’s experiences before, during and after emergencies across culture and heritage work.",
+      "uncertainty": "The survey page does not provide the full sampling frame, response rate, country-by-country weighting or denominator for every subgroup; reported prevalence should not be read as a representative estimate of all women cultural workers globally.",
+      "subgroup": "Women artists, cultural professionals and heritage professionals exposed to armed conflict, civil unrest, natural hazards and health crises.",
+      "counterinterpretation": "High reported precarity may reflect concentration of the survey among affected or connected networks; emergency exposure and sectoral instability may vary substantially by occupation, country and crisis type.",
+      "source_url": "https://www.unesco.org/en/articles/voices-courage",
+      "retrieval_hash": "sha256:8355ab2f7289a54a634852d3339fd6dac130a5c13e799684df006e55599dfbec",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; displacement, continuity and access to support during emergencies",
+      "denominator": {"value": 1470, "unit": "survey respondents from more than 120 countries", "value_type": "survey_respondents"},
+      "measures": {
+        "emergency_displacement": {"value": 35, "unit": "per cent forced to leave their homes because of an emergency", "value_type": "published_survey_estimate"},
+        "continued_cultural_work": {"value": 37, "unit": "per cent able to continue cultural and creative work fully or significantly during crises", "value_type": "published_survey_estimate"},
+        "support_access": {"value": 40, "unit": "approximately 2 in 5 women accessing any form of support during emergencies", "value_type": "published_survey_estimate"},
+        "institutional_recognition": {"value": 25, "unit": "per cent of public institutions and civil society organizations recognizing that emergencies significantly exacerbate gender inequalities", "value_type": "published_survey_estimate"}
+      },
+      "method": "Survey measures of displacement, continuity of creative work, emergency support and institutional recognition, supplemented by testimonies and cases.",
+      "uncertainty": "Support access is not disaggregated here by type, adequacy, timing or local availability; continued work does not mean safe, fairly paid or sustainable work.",
+      "subgroup": "Women cultural and heritage workers navigating emergency displacement, disrupted spaces, livelihood loss and support systems.",
+      "counterinterpretation": "Some cultural continuity may be informal, home-based or digitally mediated and therefore undercounted; institutional recognition is a perception or reported assessment rather than a complete audit of emergency plans.",
+      "source_url": "https://www.unesco.org/en/articles/voices-courage",
+      "retrieval_hash": "sha256:8355ab2f7289a54a634852d3339fd6dac130a5c13e799684df006e55599dfbec",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; gendered mechanisms linking emergency exposure to cultural work and community recovery",
+      "denominator": {"value": 1470, "unit": "survey respondents from more than 120 countries, with testimonies and case studies", "value_type": "survey_respondents"},
+      "measures": {
+        "gendered_barriers": {"value": "Emergencies increase unpaid caregiving, restrictions on freedom of expression including artistic freedom, and gender-based violence alongside resource, protection and decision-making barriers.", "unit": "reported mechanism pattern", "value_type": "published_interpretation"},
+        "cultural_resilience_role": {"value": "Women artists and cultural and heritage professionals safeguard heritage and traditions, sustain cultural expressions, organize solidarity and contribute to recovery and peacebuilding.", "unit": "reported contribution pattern", "value_type": "reported_interpretation"},
+        "recognition_gap": {"value": "Women-led initiatives and networks are described as essential to resilience, while their contributions remain insufficiently recognized in preparedness, response and recovery mechanisms.", "unit": "reported institutional gap", "value_type": "reported_data_gap"}
+      },
+      "method": "Global survey synthesis combined with personal testimony, case studies and UNESCO analysis of the emergency-management cycle from preparedness through recovery.",
+      "uncertainty": "The report documents mechanisms and contributions but does not estimate causal effects of women-led cultural action on peace, recovery or resilience outcomes.",
+      "subgroup": "Women-led cultural initiatives, artists, heritage professionals, cultural networks, communities and emergency-management institutions.",
+      "counterinterpretation": "Culture can support solidarity and recovery without substituting for shelter, safety, income, health or legal protection; framing women as resilient must not shift responsibility away from institutions.",
+      "source_url": "https://www.unesco.org/en/articles/voices-courage",
+      "retrieval_hash": "sha256:8355ab2f7289a54a634852d3339fd6dac130a5c13e799684df006e55599dfbec",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; proposed gender-responsive culture-and-emergency policy response",
+      "denominator": {"value": 1, "unit": "UNESCO report recommendations and Heritage Emergency Fund implementation context", "value_type": "publication_unit"},
+      "measures": {
+        "recommended_support": {"value": "The report calls for financial, psychosocial and legal support, women’s participation in decision-making, protection of rights and safety, artistic freedom and the ability to continue cultural work through the emergency cycle.", "unit": "reported policy recommendations", "value_type": "reported_policy_option"},
+        "heritage_emergency_fund_reach": {"value": 100, "unit": "more than 100 countries equipped through UNESCO Heritage Emergency Fund capacities and means", "value_type": "reported_program_reach"},
+        "professionals_trained": {"value": 4400, "unit": "more than 4,400 professionals trained in emergency preparedness and response; nearly half women", "value_type": "reported_program_reach"},
+        "gender_responsive_design": {"value": "The Heritage Emergency Fund integrates gender-specific needs and meaningful participation of women and women’s organizations throughout the emergency cycle.", "unit": "reported program design", "value_type": "reported_institutional_status"}
+      },
+      "method": "UNESCO recommendations and description of Heritage Emergency Fund implementation, not an independent impact evaluation.",
+      "uncertainty": "Program reach and training counts do not establish adequacy, safety, local control, durable livelihood recovery or cultural outcomes for recipients.",
+      "subgroup": "Women artists and cultural and heritage professionals, women’s organizations, cultural institutions, emergency responders and communities affected by crises.",
+      "counterinterpretation": "Gender-responsive design can remain procedural if women lack decision power, flexible funding, protection and remedy; training alone cannot offset destroyed infrastructure or displacement.",
+      "source_url": "https://www.unesco.org/en/articles/voices-courage",
+      "retrieval_hash": "sha256:8355ab2f7289a54a634852d3339fd6dac130a5c13e799684df006e55599dfbec",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000398519_eng", "claim": "UNESCO publication record for Voices of Courage, the global survey on women, culture and emergencies."},
+    {"source_url": "https://www.unesco.org/en/themes/culture-emergencies", "claim": "UNESCO culture-in-emergencies context and policy field."}
+  ],
+  "boundary": "This record adds a gendered cultural-emergency layer: crisis exposure moves through safety, displacement, unpaid care, funding, market access, artistic freedom and institutional recognition, while women’s cultural work helps sustain heritage, solidarity and recovery. It is a UNESCO global survey page with testimonies and case studies, not a fully documented probability sample, administrative crisis census, causal resilience evaluation or proof that cultural work replaces material protection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO Voices of Courage publication page was reviewed for publication date, sample scope, prevalence findings, emergency mechanisms, women’s resilience contributions, recommendations and Heritage Emergency Fund context; the UNESCO publication record was also checked.",
+    "source_url_sha256": "sha256:8355ab2f7289a54a634852d3339fd6dac130a5c13e799684df006e55599dfbec",
+    "checked": "2026-09-27"
+  }
+}

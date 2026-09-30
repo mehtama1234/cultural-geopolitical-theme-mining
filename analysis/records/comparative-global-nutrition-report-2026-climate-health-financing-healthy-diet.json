@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-global-nutrition-report-2026-climate-health-financing-healthy-diet",
+  "title": "Nutrition is becoming a converging climate, health, and financing problem as healthy diets remain unaffordable and delivery systems stay fragmented",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "2026 Global Nutrition Report: Integrating food and health systems for climate-resilient nutrition, Global Nutrition Report",
+  "geography": "Global nutrition, food-system, health-system, climate, financing, and equity evidence, with particular attention to low- and middle-income countries",
+  "observations": [
+    {
+      "period": "2026 report; global healthy-diet affordability and nutrition progress",
+      "denominator": {"value": 1, "unit": "global nutrition and healthy-diet evidence frame", "value_type": "global_report_frame"},
+      "measures": {
+        "healthy_diet_affordability": {"value": 2.6, "unit": "billion people unable to afford a healthy diet", "value_type": "reported_global_estimate"},
+        "target_progress": {"value": "progress towards global nutrition targets and SDGs 2 and 3 remains off track", "unit": "report assessment", "value_type": "reported_progress_assessment"},
+        "malnutrition_pattern": {"value": "undernutrition persists while overweight, obesity, and diet-related non-communicable diseases rise", "unit": "report synthesis", "value_type": "reported_global_pattern"}
+      },
+      "method": "Synthesis of global nutrition, diet-affordability, food-system, health-system, and commitment-accountability evidence presented in the report.",
+      "uncertainty": "The estimate and progress assessment are reported at global scale; they do not by themselves identify local causal pathways, household-level change, or the effect of a particular intervention.",
+      "subgroup": "People unable to afford healthy diets, with burdens concentrated in low- and middle-income countries and overlapping risks across life stages.",
+      "counterinterpretation": "Global off-track progress can coexist with improvement in particular countries, population groups, or nutrition outcomes; the report is a global synthesis rather than a uniform country ranking.",
+      "source_url": "https://globalnutritionreport.org/reports/2026-global-nutrition-report/executive-summary/",
+      "retrieval_hash": "sha256:711e39dce8b3f1bc9234002de2fddc578f1b9440c06dbd53f15c3a5190336941",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; climate shocks and nutrition pathways",
+      "denominator": {"value": 1, "unit": "climate-food-health systems pathway frame", "value_type": "reported_systems_frame"},
+      "measures": {
+        "climate_effects": {"value": "long-term climate shifts and more frequent extreme weather can lower agricultural productivity, reduce the nutritional value of some staple crops, and raise food prices", "unit": "report synthesis", "value_type": "reported_climate_food_pathway"},
+        "health_infrastructure": {"value": "climate pressures can damage health and sanitation infrastructure and increase climate-sensitive disease burdens", "unit": "report synthesis", "value_type": "reported_health_pathway"},
+        "compound_shocks": {"value": "climate effects interact with conflict, pandemics, and economic crises to disrupt food value chains and health services", "unit": "report synthesis", "value_type": "reported_polycrisis_pathway"}
+      },
+      "method": "Review and integration of evidence on climate, food systems, health systems, conflict, pandemic, and economic-crisis interactions.",
+      "uncertainty": "The report identifies linked mechanisms and system pressures; the magnitude and timing of effects vary by location, crop, infrastructure, income, governance, and response capacity.",
+      "subgroup": "Food producers, households facing food-price shocks, people dependent on disrupted health or sanitation services, and communities exposed to climate-sensitive disease.",
+      "counterinterpretation": "Climate-resilient production, social protection, service adaptation, and targeted nutrition action can reduce exposure and protect diets; disruption is not an inevitable outcome of every shock.",
+      "source_url": "https://globalnutritionreport.org/reports/2026-global-nutrition-report/introduction/",
+      "retrieval_hash": "sha256:711e39dce8b3f1bc9234002de2fddc578f1b9440c06dbd53f15c3a5190336941",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; integrated food-health-social protection response",
+      "denominator": {"value": 1, "unit": "report framework for achieving healthy diets under climate change", "value_type": "reported_framework_frame"},
+      "measures": {
+        "system_integration": {"value": "healthy diets depend on food systems, health systems, and social protection working together rather than advancing in parallel", "unit": "report framework", "value_type": "reported_system_interdependence"},
+        "enabling_functions": {"value": "leadership and governance, financing, operational capacity, and research, monitoring, and data", "unit": "four framework functions", "value_type": "reported_framework_components"},
+        "delivery_route": {"value": "nutrition can be anchored in universal health coverage and primary healthcare while linking to social protection and climate policy", "unit": "report policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "Analytical framework synthesis connecting food, health, social protection, climate, finance, governance, delivery, and data functions.",
+      "uncertainty": "The framework is a practical organizing model, not a causal impact estimate; implementation feasibility depends on national institutions, fiscal space, coordination, and local priorities.",
+      "subgroup": "Governments, donors, development banks, climate-finance providers, health and food-system implementers, civil society, women’s organisations, and frontline providers.",
+      "counterinterpretation": "Integration can create coordination costs or obscure sector-specific accountability if roles, indicators, financing, and trade-offs are not explicit.",
+      "source_url": "https://globalnutritionreport.org/reports/2026-global-nutrition-report/",
+      "retrieval_hash": "sha256:711e39dce8b3f1bc9234002de2fddc578f1b9440c06dbd53f15c3a5190336941",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; nutrition commitments and financing accountability",
+      "denominator": {"value": 1, "unit": "N4G Tokyo 2021 and Paris 2025 commitment analysis", "value_type": "reported_commitment_frame"},
+      "measures": {
+        "smart_commitments": {"value": "more than half of government commitments at the N4G Paris Summit achieved high or upper-moderate SMART scores", "unit": "report commitment analysis", "value_type": "reported_commitment_pattern"},
+        "food_system_indicators": {"value": 8, "unit": "percent of analysed commitments using monitoring indicators aligned with specific food-systems frameworks", "value_type": "reported_commitment_share"},
+        "resilience_integration": {"value": "resilience considerations appeared in nearly three-quarters of commitments explicitly linking food and health systems, while they were largely absent from single-system commitments", "unit": "report commitment analysis", "value_type": "reported_integration_pattern"},
+        "financing_gap": {"value": "few commitments included secured financing", "unit": "report commitment analysis", "value_type": "reported_accountability_gap"}
+      },
+      "method": "Comparative analysis of nutrition commitments for procedural SMART quality, financing, monitoring indicators, resilience, and cross-system alignment.",
+      "uncertainty": "Commitment quality and stated alignment do not establish implementation, spending, service delivery, or nutrition impact; the denominators and coding rules are defined in the report’s commitment analysis.",
+      "subgroup": "Governments and commitment-makers, donors, accountability bodies, implementing institutions, and populations relying on nutrition and health services.",
+      "counterinterpretation": "Procedural commitments can still be useful as a coordination and accountability base, and missing indicators or financing in a commitment does not prove that no related action or funding exists elsewhere.",
+      "source_url": "https://globalnutritionreport.org/reports/2026-global-nutrition-report/executive-summary/",
+      "retrieval_hash": "sha256:711e39dce8b3f1bc9234002de2fddc578f1b9440c06dbd53f15c3a5190336941",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://media.globalnutritionreport.org/documents/GNR26_ThematicReport_v7.pdf", "claim": "Full official 2026 Global Nutrition Report PDF."},
+    {"source_url": "https://globalnutritionreport.org/reports/2026-global-nutrition-report/foreword/", "claim": "Official foreword describing the integrated food-health framework and four enabling functions."},
+    {"source_url": "https://globalnutritionreport.org/reports/2026-global-nutrition-report/conclusion-delivering-healthy-diets-under-complexity-and-interconnectedness/", "claim": "Official conclusion with priority routes for governments, donors, development banks, and climate-finance providers."}
+  ],
+  "boundary": "This record adds a global nutrition, climate-resilience, food-health systems, social protection, financing, gender-equity, and accountability route. It uses public report-level evidence, not respondent-level ingestion, household microdata, a causal estimate of climate effects, a forecast of future nutrition outcomes, or proof that integrated policy will succeed in every setting.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Global Nutrition Report landing page, executive summary, introduction, foreword, conclusion, and full-report link reviewed for healthy-diet affordability, off-track nutrition progress, climate-food-health pathways, system integration, framework functions, and commitment-accountability findings.",
+    "source_url_sha256": "sha256:711e39dce8b3f1bc9234002de2fddc578f1b9440c06dbd53f15c3a5190336941",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg8-2026-decent-work-youth-informality-rights",
+  "title": "Low unemployment masks persistent informality, youth exclusion, weak productivity, child labour, and deteriorating worker rights",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 8: Decent Work and Economic Growth",
+  "geography": "Global comparison of economic growth, unemployment, productivity, informality, youth transitions, child labour, and labour rights",
+  "observations": [
+    {
+      "period": "2025; unemployment, growth, and job quality",
+      "denominator": {"value": 1, "unit": "global labour force and economic-output frame", "value_type": "global_work_frame"},
+      "measures": {
+        "global_unemployment": {"value": 4.9, "unit": "percent global unemployment rate in 2025", "value_type": "reported_rate"},
+        "secure_work": {"value": "secure work remains out of reach for many despite historically low unemployment", "unit": "report synthesis", "value_type": "reported_pattern"},
+        "informal_employment": {"value": "informal employment remains widespread and largely unchanged since 2015", "unit": "report synthesis", "value_type": "reported_status"},
+        "macro_pressures": {"value": "geopolitical tensions, supply-chain disruptions, energy-price volatility, and reduced trade flows weigh on the outlook", "unit": "report economic context", "value_type": "reported_mechanism"}
+      },
+      "method": "UN SDG synthesis of global labour-market, economic-growth, employment-status, and macroeconomic indicators.",
+      "uncertainty": "Unemployment is an incomplete measure of job quality, security, hours, pay, informality, bargaining power, or household welfare; global aggregates conceal regional and subgroup differences.",
+      "subgroup": "Formal and informal workers, unemployed people, low-income countries, workers exposed to geopolitical and energy shocks, and households dependent on labour income.",
+      "counterinterpretation": "Low unemployment can provide a platform for wage growth and mobility, while informality may provide income where formal jobs are scarce; neither pattern guarantees decent work or rights.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-08/",
+      "retrieval_hash": "sha256:946963c27ad87e7ad78fc973ea7b6a8d4238bdaa60baff7792ac8266dbeac285",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; youth transition and labour productivity",
+      "denominator": {"value": 1, "unit": "global young people and labour-productivity frame", "value_type": "youth_productivity_frame"},
+      "measures": {
+        "youth_neet": {"value": 20, "unit": "approximately one in five young people globally not in employment, education, or training", "value_type": "reported_share_boundary"},
+        "productivity_growth": {"value": "labour productivity growth remains below the pre-pandemic 2015-2019 average of 1.8 percent", "unit": "report productivity comparison", "value_type": "reported_comparison"},
+        "real_wage_channel": {"value": "insufficient productivity gains constrain the ability to raise real wages and reduce poverty", "unit": "report mechanism", "value_type": "reported_mechanism"},
+        "transition_pressure": {"value": "green, digital, demographic, and geopolitical transitions are changing pathways into work", "unit": "report analytical frame", "value_type": "reported_framework"}
+      },
+      "method": "UN SDG compilation of youth NEET, labour-productivity, wage, and transition indicators.",
+      "uncertainty": "NEET is a broad status measure and does not distinguish caregiving, searching, disability, informal activity, or voluntary choices; productivity is an economy-wide ratio, not an individual wage estimate.",
+      "subgroup": "Young people, students, caregivers, people with disabilities, new labour-market entrants, low-productivity economies, and workers facing green or digital transition.",
+      "counterinterpretation": "Some youth outside employment or education engage in unpaid care, informal work, or community activity; transition investments can create new opportunities if access to skills and finance is broad.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-08/",
+      "retrieval_hash": "sha256:946963c27ad87e7ad78fc973ea7b6a8d4238bdaa60baff7792ac8266dbeac285",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2024; child labour and capability",
+      "denominator": {"value": 1, "unit": "global children of working age and child-labour indicators", "value_type": "child_labour_frame"},
+      "measures": {
+        "child_labour_2024": {"value": 138, "unit": "millions of children affected by child labour", "value_type": "reported_estimate"},
+        "child_labour_change_since_2020": {"value": 20, "unit": "more than millions fewer children affected by child labour since 2020", "value_type": "reported_change"},
+        "decent_work_gap": {"value": "progress in reducing child labour coexists with persistent deficits in income security, schooling, protection, and family livelihoods", "unit": "report synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "UN SDG synthesis of child-labour estimates and decent-work indicators.",
+      "uncertainty": "Child-labour estimates depend on survey coverage, definitions, age thresholds, and hidden work; a decline in prevalence does not identify causes or eliminate hazardous conditions.",
+      "subgroup": "Children, households under income pressure, informal and agricultural workers, schools, employers, and labour-inspection systems.",
+      "counterinterpretation": "Falling child labour can reflect real progress in schooling, protection, and household security, but shocks and weak enforcement can reverse gains.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-08/",
+      "retrieval_hash": "sha256:946963c27ad87e7ad78fc973ea7b6a8d4238bdaa60baff7792ac8266dbeac285",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2024; freedom of association and collective bargaining",
+      "denominator": {"value": 1, "unit": "global labour-rights compliance score, where 0 indicates higher compliance and 10 lower compliance", "value_type": "labour_rights_frame"},
+      "measures": {
+        "global_rights_score_2024": {"value": 4.83, "unit": "global score for freedom of association and collective-bargaining rights in 2024", "value_type": "reported_index"},
+        "rights_score_change_since_2015": {"value": -6.4, "unit": "percent change in the global rights score since 2015, as reported by the assessment", "value_type": "reported_change"},
+        "regional_deterioration": {"value": "national compliance with freedom of association and collective-bargaining rights deteriorated in most regions since 2015", "unit": "report synthesis", "value_type": "reported_pattern"},
+        "institutional_consequence": {"value": "weaker worker rights reduce protection during economic and technological transitions", "unit": "report mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN SDG review of the labour-rights compliance indicator and regional trends in freedom of association and collective bargaining.",
+      "uncertainty": "The score is an aggregate rights-compliance measure with a specialized scale; it does not capture every workplace, union, worker, or enforcement experience and does not identify causal drivers.",
+      "subgroup": "Workers, unions, employers, labour inspectors, informal workers, migrants, and groups facing weaker collective voice.",
+      "counterinterpretation": "Formal rights may remain usable in some sectors or countries despite global deterioration; collective bargaining can also improve through local organization before national indicators move.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-08/",
+      "retrieval_hash": "sha256:946963c27ad87e7ad78fc973ea7b6a8d4238bdaa60baff7792ac8266dbeac285",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "ILO Employment and Social Trends 2026 provides complementary labour-market and job-quality estimates."},
+    {"source_url": "https://www.ilo.org/research-and-publications/state-social-justice-2025", "claim": "ILO State of Social Justice 2025 provides complementary rights, informality, and fair-transition analysis."}
+  ],
+  "boundary": "This record adds a global decent-work and youth-transition route linking unemployment, informality, productivity, NEET status, child labour, collective bargaining, macro shocks, and transition capacity. It uses aggregate SDG indicators and report synthesis, not individual employment histories, respondent-level attitudes, causal wage estimates, or proof that low unemployment means secure work.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 8 page was reviewed for unemployment, informality, macro pressures, youth NEET, productivity, child labour, and freedom-of-association and collective-bargaining indicators.",
+    "source_url_sha256": "sha256:946963c27ad87e7ad78fc973ea7b6a8d4238bdaa60baff7792ac8266dbeac285",
+    "checked": "2026-09-26"
+  }
+}

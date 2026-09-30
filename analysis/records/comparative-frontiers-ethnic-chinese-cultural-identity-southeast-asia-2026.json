@@ -1,0 +1,107 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-frontiers-ethnic-chinese-cultural-identity-southeast-asia-2026",
+  "title": "Diaspora cultural identity is reproduced through media exposure and direct cultural contact, but national context changes the pathway",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Frontiers in Psychology, Factors influencing Chinese cultural identity among new generations of ethnic Chinese in Singapore, Malaysia, and Thailand",
+  "geography": "Singapore, Malaysia, and Thailand; second-generation or beyond ethnic Chinese respondents",
+  "observations": [
+    {
+      "period": "March 2026 survey; comparative cultural identity levels",
+      "denominator": {"value": 1298, "unit": "valid online-panel responses from second-generation or beyond ethnic Chinese respondents across Singapore, Malaysia, and Thailand", "value_type": "reported_survey_sample"},
+      "measures": {
+        "overall_cci": {"value": 2.56, "unit": "mean Chinese cultural identity score on the study's scale", "value_type": "published_sample_estimate"},
+        "malaysia_cci": {"value": 2.99, "unit": "mean Chinese cultural identity score among Malaysian respondents", "value_type": "published_subgroup_estimate"},
+        "singapore_cci": {"value": 2.68, "unit": "mean Chinese cultural identity score among Singaporean respondents", "value_type": "published_subgroup_estimate"},
+        "thailand_cci": {"value": 2.02, "unit": "mean Chinese cultural identity score among Thai respondents", "value_type": "published_subgroup_estimate"},
+        "context_variation": {"value": "The same broad heritage category is expressed differently across national histories, language environments, and institutional contexts.", "unit": "reported comparative mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Self-report questionnaire survey conducted through an online panel, analyzed with one-way ANOVA, hierarchical regression, and mediation models; country samples were Singapore n=424, Malaysia n=432, and Thailand n=442.",
+      "uncertainty": "The proprietary online panel is not a probability sample, older groups may be underrepresented, and cultural-identity scores are scale-dependent self-reports rather than behavioral or administrative measures.",
+      "subgroup": "Second-generation or later ethnic Chinese respondents in three Southeast Asian national contexts.",
+      "counterinterpretation": "Mean differences may reflect panel composition, age, education, class, language, urbanity, or item interpretation rather than national culture alone.",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1908594/full",
+      "retrieval_hash": "sha256:36468ac74c3af1a3c468b3968c5b4262a7c09c0a4a70cf285354dc242b61c7e0",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 survey; media exposure and heritage identity",
+      "denominator": {"value": 1298, "unit": "valid respondents across Singapore, Malaysia, and Thailand", "value_type": "reported_survey_sample"},
+      "measures": {
+        "content_exposure_overall": {"value": 0.551, "unit": "reported standardized regression coefficient for Chinese content exposure and cultural identity in the overall sample", "value_type": "published_association_estimate"},
+        "content_exposure_singapore": {"value": 0.681, "unit": "reported regression coefficient in Singapore", "value_type": "published_subgroup_association"},
+        "content_exposure_malaysia": {"value": 0.611, "unit": "reported regression coefficient in Malaysia", "value_type": "published_subgroup_association"},
+        "content_exposure_thailand": {"value": 0.208, "unit": "reported regression coefficient in Thailand", "value_type": "published_subgroup_association"},
+        "media_identity_route": {"value": "Exposure to Chinese cultural content is positively associated with cultural identity in all three country samples, with different strength by context.", "unit": "reported association", "value_type": "reported_mechanism"}
+      },
+      "method": "Hierarchical regression using self-reported Chinese content exposure and cultural-identity measures; coefficients are associations adjusted within the study model.",
+      "uncertainty": "Cross-sectional self-report data cannot establish whether content exposure strengthens identity, identity drives content selection, or both reflect unmeasured family and social factors.",
+      "subgroup": "Singapore, Malaysia, and Thailand samples; the study reports country-specific coefficients.",
+      "counterinterpretation": "Content exposure may be an indicator of existing family, language, class, or community access rather than an independent identity-forming cause.",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1908594/full",
+      "retrieval_hash": "sha256:36468ac74c3af1a3c468b3968c5b4262a7c09c0a4a70cf285354dc242b61c7e0",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 survey; visits to China, language, and mediated cultural transmission",
+      "denominator": {"value": 1298, "unit": "valid respondents across Singapore, Malaysia, and Thailand", "value_type": "reported_survey_sample"},
+      "measures": {
+        "visits_identity_association": {"value": "Visits to China were positively associated with Chinese cultural identity across the overall sample and all three country samples.", "unit": "reported association", "value_type": "published_association_estimate"},
+        "language_identity_variation": {"value": "Chinese language proficiency was significantly associated with cultural identity in Malaysia but not consistently in Singapore and Thailand.", "unit": "reported cross-country comparison", "value_type": "published_subgroup_association"},
+        "media_mediation_visits": {"value": "Chinese content exposure mediated the relationship between visits to China and cultural identity across all three countries.", "unit": "reported mediation result", "value_type": "published_mediation_estimate"},
+        "media_mediation_language": {"value": "Chinese content exposure also mediated the relationship between language proficiency and cultural identity across all three countries.", "unit": "reported mediation result", "value_type": "published_mediation_estimate"},
+        "translation_route": {"value": "Direct contact and language do not operate as isolated heritage assets; media exposure can translate them into an ongoing identity practice.", "unit": "analytical synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "PROCESS mediation analysis with 5,000 bootstrap resamples, alongside regression and country comparisons.",
+      "uncertainty": "Mediation in cross-sectional observational data is a statistical pathway, not proof of temporal or causal mediation; travel and language may be jointly selected by prior identity.",
+      "subgroup": "Three country samples of new-generation ethnic Chinese respondents.",
+      "counterinterpretation": "The media pathway may reflect access to content, translation, social networks, or family resources rather than a universal process of cultural reproduction.",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1908594/full",
+      "retrieval_hash": "sha256:36468ac74c3af1a3c468b3968c5b4262a7c09c0a4a70cf285354dc242b61c7e0",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026 survey; limits of material media preference as an identity explanation",
+      "denominator": {"value": 1298, "unit": "valid respondents across Singapore, Malaysia, and Thailand", "value_type": "reported_survey_sample"},
+      "measures": {
+        "large_screen_inconsistency": {"value": "Large-screen preference was associated with cultural identity in the overall sample but not consistently across the three countries.", "unit": "reported cross-country association", "value_type": "published_subgroup_association"},
+        "large_screen_mediation": {"value": "The indirect pathway from large-screen preference through Chinese content exposure was significant in the overall sample and Singapore/Malaysia but not Thailand.", "unit": "reported mediation comparison", "value_type": "published_mediation_estimate"},
+        "country_explanatory_power": {"value": "The full model explained 39.9% of variance in the overall sample, with adjusted R-squared ranging from 17.8% in Thailand to 34.8% in Malaysia.", "unit": "reported model fit", "value_type": "published_model_estimate"},
+        "materiality_boundary": {"value": "The physical screen interface is less stable as an identity mechanism than content exposure and direct cultural contact.", "unit": "analytical synthesis from inconsistent associations", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparative regression and mediation analyses reported in the peer-reviewed study.",
+      "uncertainty": "Model fit is not causal explanatory power; inconsistent large-screen results may reflect measurement, device access, content type, or national differences.",
+      "subgroup": "Singapore, Malaysia, and Thailand; online-panel respondents target new-generation ethnic Chinese populations.",
+      "counterinterpretation": "The screen preference measure may be too broad to capture platform, genre, language, or social-viewing differences that matter for cultural identity.",
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1908594/full",
+      "retrieval_hash": "sha256:36468ac74c3af1a3c468b3968c5b4262a7c09c0a4a70cf285354dc242b61c7e0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1908594/full",
+      "claim": "The peer-reviewed Frontiers in Psychology article provides the comparative sample, measures, statistical methods, country results, mediation analyses, and limitations.",
+      "status": "peer-reviewed-publication"
+    },
+    {
+      "source_url": "https://doi.org/10.3389/fpsyg.2026.1908594",
+      "claim": "DOI landing record for the published cultural-psychology article.",
+      "status": "doi-record"
+    }
+  ],
+  "boundary": "This record adds a diaspora cultural-reproduction route: media content exposure and direct heritage contact are consistently associated with cultural identity, while language and device preference vary by national context. It does not establish causal effects, representative prevalence for all ethnic Chinese populations, political allegiance to China, or a universal diaspora identity model.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The full Frontiers in Psychology article was reviewed for its abstract, sample, panel limitations, comparative means, regression coefficients, mediation results, model fit, and country-specific boundary conditions.",
+    "source_page_sha256": "sha256:36468ac74c3af1a3c468b3968c5b4262a7c09c0a4a70cf285354dc242b61c7e0",
+    "checked": "2026-09-28"
+  }
+}

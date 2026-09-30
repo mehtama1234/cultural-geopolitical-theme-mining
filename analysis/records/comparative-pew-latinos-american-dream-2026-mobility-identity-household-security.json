@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-latinos-american-dream-2026-mobility-identity-household-security",
+  "title": "Latino optimism about intergenerational progress coexists with a cultural narrative that the American Dream is harder to reach",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center, Latinos Are Split on Whether the American Dream Is Achievable",
+  "geography": "United States; Latino adults, with comparisons by nativity and generation",
+  "observations": [
+    {
+      "period": "October 6-16, 2025 survey; American Dream attainability among U.S. Latinos",
+      "denominator": {"value": 4923, "unit": "U.S. Latino adults in Pew National Survey of Latinos", "value_type": "survey_respondents"},
+      "measures": {
+        "achieved_dream": {"value": 20, "unit": "per cent saying they have achieved the American dream", "value_type": "published_survey_estimate"},
+        "on_way": {"value": 33, "unit": "per cent saying they are on their way to achieving the American dream", "value_type": "published_survey_estimate"},
+        "out_of_reach": {"value": 18, "unit": "per cent saying the American dream is out of reach", "value_type": "published_survey_estimate"},
+        "dream_nonexistent": {"value": 27, "unit": "per cent saying the American dream does not exist", "value_type": "published_survey_estimate"},
+        "harder_than_parents": {"value": "Among Latinos who believe the American dream exists, respondents are more likely to say it has become harder rather than easier to achieve than it was for their parents.", "unit": "reported generational-attainment pattern", "value_type": "published_survey_estimate"}
+      },
+      "method": "Nationally representative bilingual survey conducted online and by live telephone interview, recruited through address-based sampling and weighted to U.S. adult population benchmarks.",
+      "uncertainty": "The report notes that the 2016 and 2025 survey modes differ, so long-term comparisons are not directly equivalent; attainability is a perception and does not measure actual mobility or household wealth.",
+      "subgroup": "U.S. Latino adults, including immigrants, U.S.-born adults and respondents who say the dream is achieved, attainable, out of reach or nonexistent.",
+      "counterinterpretation": "A divided symbolic judgment can coexist with practical improvement; saying the dream is out of reach may express structural diagnosis rather than personal immobility.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/08/RE_2026.09.01_Latinos-American-Dream_REPORT.pdf",
+      "retrieval_hash": "sha256:e734bc7c58d73878e7f1d5fe8d2063593378ceb78ed1f528db2ed5f92f5c06a4",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; intergenerational living-standard outlook and nativity differences",
+      "denominator": {"value": 4923, "unit": "U.S. Latino adults in Pew National Survey of Latinos", "value_type": "survey_respondents"},
+      "measures": {
+        "own_standard_better": {"value": 57, "unit": "per cent saying their standard of living is better than their parents’ at the same age", "value_type": "published_survey_estimate"},
+        "children_standard_better": {"value": 53, "unit": "per cent saying their children’s standard of living will be better than their own", "value_type": "published_survey_estimate"},
+        "immigrant_own_progress": {"value": 70, "unit": "per cent of Latino immigrants saying their standard of living is better than their parents’", "value_type": "published_subgroup_comparison"},
+        "us_born_own_progress": {"value": 49, "unit": "per cent of U.S.-born Latinos saying their standard of living is better than their parents’", "value_type": "published_subgroup_comparison"},
+        "immigrant_children_progress": {"value": 63, "unit": "per cent of Latino immigrants expecting children’s standard of living to be better", "value_type": "published_subgroup_comparison"},
+        "us_born_children_progress": {"value": 48, "unit": "per cent of U.S.-born Latinos expecting children’s standard of living to be better", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Weighted survey comparison of retrospective and prospective standard-of-living assessments by nativity and U.S.-born generation.",
+      "uncertainty": "These are perceived and expected living standards, not longitudinal income, wealth, housing or consumption records; nativity differences may reflect age, selection, time in the U.S. and other composition effects.",
+      "subgroup": "Latino immigrants, U.S.-born Latinos, second-generation and third-or-higher-generation adults, and their children’s expected futures.",
+      "counterinterpretation": "Immigrant optimism may reflect migration selection or reference-point effects; optimism about children does not guarantee belief that institutions will deliver mobility.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/how-immigrant-and-u-s-born-latinos-see-economic-mobility-and-the-american-dream/",
+      "retrieval_hash": "sha256:e734bc7c58d73878e7f1d5fe8d2063593378ceb78ed1f528db2ed5f92f5c06a4",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; cultural meaning of the American Dream",
+      "denominator": {"value": 4923, "unit": "U.S. Latino adults; open-ended response coding in Pew National Survey of Latinos", "value_type": "survey_respondents"},
+      "measures": {
+        "economic_meaning": {"value": 60, "unit": "approximately per cent tying the American dream to financial or economic factors; the report separately identifies 36% financial security, 31% economic opportunity and 14% homeownership", "value_type": "published_open_end_coding"},
+        "good_life_family_community": {"value": 40, "unit": "approximately per cent describing a good life for themselves, family or community", "value_type": "published_open_end_coding"},
+        "freedom": {"value": 18, "unit": "per cent mentioning freedom or being free", "value_type": "published_open_end_coding"},
+        "equal_treatment_acceptance": {"value": 11, "unit": "per cent mentioning equal treatment, acceptance or freedom from discrimination", "value_type": "published_open_end_coding"},
+        "immigrant_economic_frame": {"value": 68, "unit": "per cent of Latino immigrants mentioning finances, economic opportunity or homeownership, versus 55% of U.S.-born Latinos", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Open-ended survey question asking respondents in their own words what the American Dream means; responses were AI-assisted initially and reviewed/categorized into overlapping themes.",
+      "uncertainty": "Open-ended coding involves interpretive categories and responses can receive multiple codes; thematic prevalence does not measure the relative importance of each value in actual decisions.",
+      "subgroup": "Latino adults by nativity, language, national-origin background and meanings involving money, family, community, freedom, safety and equal treatment.",
+      "counterinterpretation": "Economic security and homeownership may be symbolic shorthand for autonomy, safety and family care rather than purely consumer aspiration; cultural meanings should not be reduced to market demand.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/what-the-american-dream-means-to-u-s-latinos-in-their-own-words/",
+      "retrieval_hash": "sha256:e734bc7c58d73878e7f1d5fe8d2063593378ceb78ed1f528db2ed5f92f5c06a4",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025 survey; perceived pathways to mobility and attribution of success",
+      "denominator": {"value": 4923, "unit": "U.S. Latino adults who believe the American dream exists, for pathway questions", "value_type": "survey_respondents"},
+      "measures": {
+        "hard_work_motivation": {"value": 81, "unit": "per cent saying hard work and motivation are major factors in achieving the American dream", "value_type": "published_survey_estimate"},
+        "right_opportunities": {"value": 76, "unit": "per cent saying access to the right opportunities is a major factor", "value_type": "published_survey_estimate"},
+        "luck_chance": {"value": 35, "unit": "per cent saying luck and chance are major factors", "value_type": "published_survey_estimate"},
+        "luck_among_out_of_reach": {"value": 43, "unit": "per cent among those saying the dream is out of reach who view luck and chance as major factors, versus 25% among those who achieved it or are on the way", "value_type": "published_subgroup_comparison"},
+        "agency_structure_tension": {"value": "Belief in individual effort remains widespread, but perceived inaccessibility is associated with greater recognition of chance and structural constraint.", "unit": "reported interpretation", "value_type": "published_association"}
+      },
+      "method": "Survey comparison of pathway beliefs by perceived position relative to the American Dream.",
+      "uncertainty": "Pathway beliefs are not causal explanations of mobility; the cross-sectional design cannot determine whether experiences shape beliefs or beliefs shape interpretation of experience.",
+      "subgroup": "Latinos who say the dream is achieved, attainable, out of reach or nonexistent, with attention to hard work, opportunity and luck.",
+      "counterinterpretation": "Belief in effort and opportunity can be complementary rather than contradictory; respondents may use luck to describe unequal starting conditions without rejecting agency.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/",
+      "retrieval_hash": "sha256:e734bc7c58d73878e7f1d5fe8d2063593378ceb78ed1f528db2ed5f92f5c06a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/", "claim": "Official Pew report landing page with survey scope, key findings and report materials."},
+    {"source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-american-dream-methodology/", "claim": "Pew methodology page for sampling, weighting, bilingual fieldwork and open-ended coding."}
+  ],
+  "boundary": "This record adds a cultural-economic mobility layer: the American Dream is simultaneously a narrative of financial security, opportunity, homeownership, family and community life, freedom and equal treatment; Latino optimism about intergenerational progress coexists with a sense that attainment is harder and structurally constrained. It is nationally representative survey and open-ended coding evidence, not household income or wealth data, longitudinal mobility, causal consumer behavior, or proof of actual future living standards.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew report PDF, report pages on meanings and nativity, and methodology were reviewed for survey fieldwork, sample, attainability, intergenerational outlook, open-ended cultural meanings, pathway beliefs and sampling boundaries.",
+    "source_url_sha256": "sha256:e734bc7c58d73878e7f1d5fe8d2063593378ceb78ed1f528db2ed5f92f5c06a4",
+    "checked": "2026-09-27"
+  }
+}

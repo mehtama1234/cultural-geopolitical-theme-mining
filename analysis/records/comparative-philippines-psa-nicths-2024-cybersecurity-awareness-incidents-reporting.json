@@ -1,0 +1,107 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-philippines-psa-nicths-2024-cybersecurity-awareness-incidents-reporting",
+  "title": "Philippine digital participation is exposed to widespread cyber incidents while awareness and reporting remain low",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption"
+  ],
+  "source_unit": "Philippine Statistics Authority, 2024 National Information and Communications Technology Household Survey: cybersecurity and data privacy awareness, incidents, and reporting",
+  "geography": "Philippines; individuals aged 10 years and over and ICT-device users across regions",
+  "observations": [
+    {
+      "period": "2024; cybersecurity and data privacy awareness",
+      "denominator": {
+        "value": 91380000,
+        "unit": "estimated individuals aged 10 years and over represented by the NICTHS",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "cybersecurity_data_privacy_awareness": {"value": 33.4, "unit": "percent of individuals aged 10 years and over aware of cybersecurity and data privacy", "value_type": "official_population_share"},
+        "urban_awareness": {"value": 42.9, "unit": "percent of urban individuals aged 10 years and over aware", "value_type": "official_subgroup_share"},
+        "rural_awareness": {"value": 22.7, "unit": "percent of rural individuals aged 10 years and over aware", "value_type": "official_subgroup_share"},
+        "tertiary_education_awareness": {"value": 62.6, "unit": "percent of individuals with tertiary education aware", "value_type": "official_subgroup_share"},
+        "primary_or_lower_awareness": {"value": 9.6, "unit": "percent of individuals with primary education or lower aware", "value_type": "official_subgroup_share"},
+        "ncr_awareness": {"value": 53.6, "unit": "percent of individuals in the National Capital Region aware", "value_type": "official_region_share"},
+        "barmm_awareness": {"value": 6.5, "unit": "percent of individuals in Bangsamoro Autonomous Region in Muslim Mindanao aware", "value_type": "official_region_share"},
+        "mechanism": {"value": "Digital participation can expand faster than the ability to recognize privacy and cyber risk, with awareness sharply stratified by education and place", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS 2024 cybersecurity and data privacy module measuring self-reported awareness among individuals aged 10 years and over, with education, urban-rural, and regional breakdowns.",
+      "uncertainty": "Awareness is self-reported and does not test knowledge, protective behavior, causal risk reduction, or whether respondents interpret cybersecurity and data privacy consistently.",
+      "subgroup": "Philippine individuals aged 10 years and over, with subgroup definitions specified by the source.",
+      "counterinterpretation": "Higher awareness may reflect education, occupation, institutional exposure, or survey response differences rather than greater objective protection; lower awareness does not prove higher incident risk.",
+      "source_url": "https://psa.gov.ph/statistics/nicths/household",
+      "retrieval_hash": "sha256:68d46023d06c45ae9fac3b6ce859b3699897e851bd8b0fb4989df038786d4756",
+      "status": "reported"
+    },
+    {
+      "period": "2024; incident exposure and official reporting",
+      "denominator": {
+        "value": 38860000,
+        "unit": "estimated individuals aged 10 years and over who used an ICT device",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "any_cybersecurity_incident": {"value": 62.5, "unit": "percent of ICT-device users experiencing at least one cybersecurity incident", "value_type": "official_user_share"},
+        "approximate_incident_affected": {"value": 24280000, "unit": "estimated individuals experiencing at least one cybersecurity incident", "value_type": "derived_population_estimate"},
+        "urban_incident": {"value": 62.7, "unit": "percent of urban ICT-device users experiencing an incident", "value_type": "official_subgroup_share"},
+        "rural_incident": {"value": 62.1, "unit": "percent of rural ICT-device users experiencing an incident", "value_type": "official_subgroup_share"},
+        "tertiary_education_incident": {"value": 68.0, "unit": "percent of ICT-device users with tertiary education experiencing an incident", "value_type": "official_subgroup_share"},
+        "primary_or_lower_incident": {"value": 46.4, "unit": "percent of ICT-device users with primary education or lower experiencing an incident", "value_type": "official_subgroup_share"},
+        "reported_to_authorities": {"value": 1.9, "unit": "percent of incident victims reporting incidents to authorities", "value_type": "official_victim_share"},
+        "mechanism": {"value": "Cyber incident exposure is widespread among ICT-device users, but formal recourse is thin, leaving digital participation with a large unaddressed trust and protection burden", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS 2024 cybersecurity module measuring self-reported technology-enabled incidents among ICT-device users and reporting behavior among incident victims.",
+      "uncertainty": "The incident category is survey-defined and self-reported rather than forensic; the approximate affected count is derived from the source's reported denominator and share, and the reporting share uses the source's victim denominator.",
+      "subgroup": "Philippine ICT-device users aged 10 years and over and their reported incident experiences.",
+      "counterinterpretation": "A reported incident need not imply financial loss, persistent harm, or failed platform security, while low reporting may reflect informal resolution, uncertainty about where to report, or low perceived benefit rather than absence of concern.",
+      "source_url": "https://psa.gov.ph/statistics/nicths/household",
+      "retrieval_hash": "sha256:68d46023d06c45ae9fac3b6ce859b3699897e851bd8b0fb4989df038786d4756",
+      "status": "reported"
+    },
+    {
+      "period": "2024; incident modality and regional risk",
+      "denominator": {
+        "value": 24280000,
+        "unit": "estimated individuals experiencing at least one cybersecurity incident; source estimate",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "sms_fraud_among_victims": {"value": 57.1, "unit": "percent of incident victims experiencing SMS fraud", "value_type": "official_victim_share"},
+        "hacking_among_victims": {"value": 7.8, "unit": "percent of incident victims experiencing hacking", "value_type": "official_victim_share"},
+        "phishing_among_victims": {"value": 6.1, "unit": "percent of incident victims experiencing phishing", "value_type": "official_victim_share"},
+        "cyberbullying_libel_among_victims": {"value": 1.1, "unit": "percent of incident victims experiencing cyberbullying or libel", "value_type": "official_victim_share"},
+        "barmm_sms_fraud": {"value": 87.7, "unit": "percent of incident victims in Bangsamoro Autonomous Region in Muslim Mindanao experiencing SMS fraud", "value_type": "official_region_share"},
+        "ilocos_sms_fraud": {"value": 85.0, "unit": "percent of incident victims in Ilocos experiencing SMS fraud", "value_type": "official_region_share"},
+        "barmm_phishing": {"value": 17.3, "unit": "percent of incident victims in Bangsamoro Autonomous Region in Muslim Mindanao experiencing phishing", "value_type": "official_region_share"},
+        "mechanism": {"value": "SMS fraud dominates the mobile-first risk surface, while regional patterns differ enough that a single national digital-risk profile obscures localized exposure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS 2024 cybersecurity module measuring reported incident types among victims, including regional breakdowns.",
+      "uncertainty": "The source's incident-type percentages may reflect multiple experiences or source-specific response rules; they are not verified case counts, monetary-loss shares, or estimates of platform liability.",
+      "subgroup": "Philippine cybersecurity-incident victims aged 10 years and over, with regional subgroup definitions specified by the source.",
+      "counterinterpretation": "SMS fraud prevalence may reflect higher recognition or reporting of familiar messages rather than greater underlying incidence; regional differences may partly reflect device, language, network, or survey-context differences.",
+      "source_url": "https://psa.gov.ph/statistics/nicths/household",
+      "retrieval_hash": "sha256:68d46023d06c45ae9fac3b6ce859b3699897e851bd8b0fb4989df038786d4756",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://psa.gov.ph/statistics/nicths/household",
+      "claim": "Official PSA NICTHS release page reports cybersecurity and data privacy awareness, incident exposure, incident types, regional differences, and reporting to authorities.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://psa.gov.ph/statistics/nicths/statistical-tables",
+      "claim": "PSA statistical-tables page identifies the NICTHS data products and related ICT household tables.",
+      "status": "official-data-archive"
+    }
+  ],
+  "boundary": "This record adds Philippine evidence on cybersecurity and data privacy awareness, incident exposure, fraud modality, regional variation, and reporting behavior. It does not measure forensic incident counts, financial loss, causal risk, platform liability, institutional response quality, or the welfare effect of digital participation.",
+  "retrieval_hash": "sha256:68d46023d06c45ae9fac3b6ce859b3699897e851bd8b0fb4989df038786d4756"
+}

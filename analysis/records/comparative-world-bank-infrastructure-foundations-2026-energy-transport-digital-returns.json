@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-infrastructure-foundations-2026-energy-transport-digital-returns",
+  "title": "Infrastructure gaps and investment quality shape access to work, services, markets, and resilience across places",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Infrastructure Foundations: From Current Assets to Future Growth",
+  "geography": "Global infrastructure assets and investment opportunities across more than 150 countries; energy, transport, and digital infrastructure",
+  "observations": [
+    {
+      "period": "2026; global infrastructure asset and gap assessment",
+      "denominator": {"value": 150, "unit": "countries covered by the World Bank infrastructure asset database and analysis", "value_type": "global_country_coverage"},
+      "measures": {
+        "sectors": {"value": "Energy, transportation, and digital infrastructure are mapped in one comparable global dataset", "unit": "reported infrastructure scope", "value_type": "reported_scope"},
+        "asset_mapping": {"value": "Assets are geolocated and in many cases disaggregated to subnational levels", "unit": "reported data capability", "value_type": "reported_method"},
+        "gap_pattern": {"value": "Infrastructure stocks per capita rise with income, but major gaps persist in low- and middle-income countries and are often masked by national averages", "unit": "reported distributional pattern", "value_type": "reported_pattern"}
+      },
+      "method": "World Bank global infrastructure database and comparative analysis of physical assets, costs, financing conditions, social returns, and subnational disparities.",
+      "uncertainty": "Asset inventories, quality, service reliability, valuation, and subnational coverage vary by sector and country; physical presence does not guarantee affordable or reliable service.",
+      "subgroup": "Households, firms, workers, public services, cities, rural communities, infrastructure operators, and governments with different fiscal and geographic constraints.",
+      "counterinterpretation": "Existing assets can deliver large gains through maintenance, better management, and targeted upgrades without requiring maximal new construction.",
+      "source_url": "https://www.worldbank.org/en/topic/infrastructure/publication/infrastructure-foundations-from-current-assets-to-future-growth",
+      "retrieval_hash": "sha256:68aff2627f3ad74ea0d1c2fb1db5b543bc071b652e85f58684884f23ec0a4b09",
+      "status": "reported"
+    },
+    {
+      "period": "2026; sector-specific social returns and complementarities",
+      "denominator": {"value": 1, "unit": "World Bank infrastructure investment prioritization framework", "value_type": "investment_framework"},
+      "measures": {
+        "transport_returns": {"value": "Transportation investments yield especially high returns in lower-income countries where connectivity gaps are severe", "unit": "reported sector pattern", "value_type": "reported_pattern"},
+        "energy_returns": {"value": "Energy investments deliver relatively stable returns across income levels while supporting access expansion and quality upgrades", "unit": "reported sector pattern", "value_type": "reported_pattern"},
+        "digital_network_effects": {"value": "Digital infrastructure returns are stronger where complementary systems are already in place", "unit": "reported network mechanism", "value_type": "reported_mechanism"},
+        "multisector": {"value": "Coordinated investment across energy, transport, and digital infrastructure yields higher returns than isolated single-sector strategies", "unit": "reported complementarity mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank social-rate-of-return analysis and infrastructure-efficiency comparisons across sectors and country contexts.",
+      "uncertainty": "Estimated returns depend on model assumptions, baseline assets, financing costs, maintenance, complementary institutions, demand, and implementation quality; they are not guaranteed project outcomes.",
+      "subgroup": "Infrastructure users, firms, workers, public agencies, digital users, energy-poor households, transport-dependent communities, and investors.",
+      "counterinterpretation": "A high modeled return may not be politically or environmentally feasible, and integrated systems can create coordination or lock-in risks if governance is weak.",
+      "source_url": "https://www.worldbank.org/en/topic/infrastructure/publication/infrastructure-foundations-from-current-assets-to-future-growth",
+      "retrieval_hash": "sha256:68aff2627f3ad74ea0d1c2fb1db5b543bc071b652e85f58684884f23ec0a4b09",
+      "status": "reported"
+    },
+    {
+      "period": "2026; investment adequacy, efficiency, and financing constraints",
+      "denominator": {"value": 1, "unit": "global infrastructure financing and investment-efficiency framework", "value_type": "investment_framework"},
+      "measures": {
+        "underinvestment": {"value": "In the vast majority of countries, potential social benefits of additional infrastructure investment exceed current financing costs", "unit": "reported investment-efficiency pattern", "value_type": "reported_pattern"},
+        "spending_quality": {"value": "Existing capital stocks and investment efficiency matter more for outcomes than spending volume alone", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "cost_constraints": {"value": "High construction costs, weak procurement, and market concentration are identified as remediable constraints", "unit": "reported constraint set", "value_type": "reported_constraint_set"},
+        "fiscal_context": {"value": "Fiscal space, concessional finance, and private capital are constrained while infrastructure needs continue to grow", "unit": "reported financing context", "value_type": "reported_pattern"}
+      },
+      "method": "World Bank Infrastructure Efficiency Ratio comparing estimated social returns with financing and maintenance costs, alongside asset and investment diagnostics.",
+      "uncertainty": "Efficiency ratios are model-based comparisons and do not capture every distributional, ecological, political, or resilience cost; financing availability can change rapidly.",
+      "subgroup": "Public budgets, development-finance institutions, taxpayers, infrastructure firms, communities awaiting services, and users facing high access costs.",
+      "counterinterpretation": "Spending less can be efficient when projects are poorly selected, but austerity or delayed investment can also impose large hidden costs through lost time, productivity, health, and resilience.",
+      "source_url": "https://www.worldbank.org/en/topic/infrastructure/publication/infrastructure-foundations-from-current-assets-to-future-growth",
+      "retrieval_hash": "sha256:68aff2627f3ad74ea0d1c2fb1db5b543bc071b652e85f58684884f23ec0a4b09",
+      "status": "reported"
+    },
+    {
+      "period": "2026; infrastructure, jobs, services, and spatial opportunity",
+      "denominator": {"value": 1, "unit": "infrastructure-to-development transmission framework", "value_type": "development_mechanism_frame"},
+      "measures": {
+        "access_route": {"value": "Infrastructure connects people to jobs and markets and enables delivery of health, education, water, and sanitation at scale", "unit": "reported development mechanism", "value_type": "reported_mechanism"},
+        "employment_route": {"value": "Well-chosen investments can support output, productivity, employment, structural transformation, trade integration, and urban agglomeration", "unit": "reported economic mechanism", "value_type": "reported_mechanism"},
+        "prioritization": {"value": "Targeted investments generate substantially higher growth dividends than untargeted expansion", "unit": "reported investment mechanism", "value_type": "reported_mechanism"},
+        "spatial_equity": {"value": "Subnational infrastructure disparities can determine unequal access to opportunity even when national averages improve", "unit": "reported spatial mechanism", "value_type": "reported_pattern"}
+      },
+      "method": "World Bank synthesis linking infrastructure stocks and investment choices to jobs, productivity, service access, markets, trade, and spatial development.",
+      "uncertainty": "The transmission mechanisms are not a universal causal estimate for each place; outcomes depend on land use, institutions, skills, affordability, maintenance, and complementary policy.",
+      "subgroup": "Workers, households, firms, cities, rural communities, commuters, students, patients, service providers, and local governments.",
+      "counterinterpretation": "Infrastructure can create displacement, congestion, environmental burdens, or unequal capture of benefits if planning and participation are weak.",
+      "source_url": "https://www.worldbank.org/en/topic/infrastructure/publication/infrastructure-foundations-from-current-assets-to-future-growth",
+      "retrieval_hash": "sha256:68aff2627f3ad74ea0d1c2fb1db5b543bc071b652e85f58684884f23ec0a4b09",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/536", "claim": "Open reproducibility package and global data resources for the infrastructure analysis."},
+    {"source_url": "https://www.undp.org/africa/publications/2026-africa-sustainable-development-report", "claim": "Complementary regional evidence on infrastructure, energy access, cities, and financing constraints in Africa."}
+  ],
+  "boundary": "This record adds a global infrastructure asset, investment-efficiency, and access-to-opportunity lens across energy, transport, and digital systems. It uses aggregate and modeled infrastructure evidence, not individual travel times, household service reliability, project-level causal evaluation, local consent, environmental impact assessment, or proof that high modeled returns produce inclusive outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Infrastructure Foundations publication page and reproducibility description reviewed for asset coverage, subnational mapping, gaps, sector returns, infrastructure complementarity, efficiency ratios, financing constraints, jobs, services, and spatial opportunity.",
+    "source_url_sha256": "sha256:68aff2627f3ad74ea0d1c2fb1db5b543bc071b652e85f58684884f23ec0a4b09",
+    "checked": "2026-09-26"
+  }
+}

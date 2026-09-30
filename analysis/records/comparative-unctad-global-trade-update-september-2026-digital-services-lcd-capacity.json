@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-global-trade-update-september-2026-digital-services-lcd-capacity",
+  "title": "Services are expanding global trade while connectivity, payments, skills, and rule-making capacity leave least developed countries behind",
+  "theme_ids": ["cost", "work", "voice", "energy", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "UN Trade and Development, Global Trade Update (September 2026): Services are reshaping global trade, but least developed countries lag in digital exports",
+  "geography": "Global services trade, developed and developing economies, and least developed countries",
+  "observations": [
+    {
+      "period": "2022-2025; services embedded in production and global exports",
+      "denominator": {"value": 100, "unit": "global trade and intermediate-input percentage reference", "value_type": "global_trade_share_base"},
+      "measures": {
+        "services_intermediate_inputs": {"value": 71, "unit": "percent of global intermediate inputs accounted for by services in 2022", "value_type": "reported_trade_share"},
+        "services_global_exports": {"value": 27, "unit": "percent of global exports represented by services in 2025", "value_type": "reported_trade_share"},
+        "services_export_growth": {"value": 8.3, "unit": "percent growth in global services exports in 2025", "value_type": "reported_growth_rate"},
+        "production_route": {"value": "services increasingly underpin manufacturing, agriculture, and participation in global value chains", "unit": "reported structural pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development synthesis of trade statistics, intermediate-input data, services exports, and value-chain participation.",
+      "uncertainty": "Aggregate services shares do not show local value capture, wages, job quality, bargaining power, tax incidence, or whether growth reaches households and smaller firms.",
+      "subgroup": "Services firms, manufacturers, agricultural producers, digital-platform and logistics providers, workers, consumers, and economies diversifying into services.",
+      "counterinterpretation": "Services growth can create new entry points for firms and workers, but it can also increase dependence on concentrated platforms, infrastructure, and standards.",
+      "source_url": "https://unctad.org/publication/global-trade-update-september-2026-services-are-reshaping-global-trade",
+      "retrieval_hash": "sha256:e02b854da6d5bdff8e5653c787357420675c06ab5265ef986ec8f5aed68ac16c",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; digitally deliverable services and country-group divergence",
+      "denominator": {"value": 100, "unit": "global services exports percentage reference", "value_type": "services_export_share_base"},
+      "measures": {
+        "digital_services_growth": {"value": 7.1, "unit": "percent average annual growth in digitally deliverable services over the past decade", "value_type": "reported_growth_rate"},
+        "digital_services_global_share": {"value": 56, "unit": "percent of global services exports represented by digitally deliverable services", "value_type": "reported_trade_share"},
+        "ldc_services_export_share": {"value": 0.6, "unit": "percent of global services exports accounted for by least developed countries in 2025", "value_type": "reported_trade_share"},
+        "ldc_digital_export_share": {"value": 16, "unit": "percent of least developed countries’ services exports that are digitally deliverable", "value_type": "reported_trade_share"}
+      },
+      "method": "UN Trade and Development comparison of global and country-group services exports and digitally deliverable services.",
+      "uncertainty": "Country-group shares hide substantial variation among least developed countries and do not measure domestic employment, profitability, inclusion, or the quality and affordability of connectivity.",
+      "subgroup": "Least developed countries, developing-country exporters, digital-service workers, firms, governments, and consumers dependent on cross-border digital access.",
+      "counterinterpretation": "Low current participation can leave room for rapid catch-up where infrastructure, skills, finance, regulatory capacity, and market access improve; digital exports are not the only development pathway.",
+      "source_url": "https://unctad.org/publication/global-trade-update-september-2026-services-are-reshaping-global-trade",
+      "retrieval_hash": "sha256:e02b854da6d5bdff8e5653c787357420675c06ab5265ef986ec8f5aed68ac16c",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; infrastructure, payment, skill, and AI-readiness constraints",
+      "denominator": {"value": 1, "unit": "UNCTAD structural assessment of digital-services trade participation", "value_type": "development_capacity_frame"},
+      "measures": {
+        "participation_constraints": {"value": "connectivity gaps, costly international payments, and skills shortages constrain participation in digitally deliverable services", "unit": "reported constraint set", "value_type": "reported_mechanism"},
+        "ai_strategy_adoption": {"value": "less than one third of developing countries have adopted national AI strategies", "unit": "reported policy-adoption pattern", "value_type": "reported_lower_bound_pattern"},
+        "concentration_risk": {"value": "computing capacity, data, finance, and expertise remain concentrated in a small number of economies and firms", "unit": "reported structural risk", "value_type": "reported_market_pattern"},
+        "policy_route": {"value": "digital infrastructure, skills, payment systems, and AI readiness are joint conditions for inclusive services trade", "unit": "reported policy set", "value_type": "reported_policy_options"}
+      },
+      "method": "UN Trade and Development synthesis of digital-trade participation barriers, payment costs, skills, computing concentration, and national AI-policy readiness.",
+      "uncertainty": "The update identifies structural constraints but does not estimate the causal contribution of each barrier, the cost of closing gaps, or which policy mix will generate durable local capabilities.",
+      "subgroup": "Digital-service exporters, small firms, workers and learners, payment providers, network operators, regulators, and countries with limited computing and financing capacity.",
+      "counterinterpretation": "Concentrated infrastructure and expertise can lower entry costs or improve reliability in some settings, while targeted partnerships may transfer capability if governance and bargaining power are credible.",
+      "source_url": "https://unctad.org/publication/global-trade-update-september-2026-services-are-reshaping-global-trade",
+      "retrieval_hash": "sha256:e02b854da6d5bdff8e5653c787357420675c06ab5265ef986ec8f5aed68ac16c",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2025; digital trade rules and participation in rule-making",
+      "denominator": {"value": 100, "unit": "preferential trade agreements percentage reference", "value_type": "digital_trade_agreement_base"},
+      "measures": {
+        "pta_digital_provisions_2000_2025": {"value": 55, "unit": "percent of preferential trade agreements signed between 2000 and 2025 containing e-commerce or digital-trade provisions", "value_type": "reported_agreement_share"},
+        "developed_country_recent_participation": {"value": 90, "unit": "percent of developed countries participating since 2020 in agreements containing digital-trade provisions", "value_type": "reported_country_share"},
+        "developing_country_recent_participation": {"value": 62, "unit": "percent of developing countries participating since 2020 in agreements containing digital-trade provisions", "value_type": "reported_country_share"},
+        "ldc_recent_participation": {"value": 66, "unit": "percent of least developed countries participating since 2020 in agreements containing digital-trade provisions", "value_type": "reported_country_share"},
+        "governance_route": {"value": "fragmented digital-trade rules can make transparency, regulatory cooperation, and negotiating capacity consequential for who benefits", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development inventory and comparison of preferential trade agreements and digital-trade provisions since 2000 and 2020.",
+      "uncertainty": "Agreement participation does not establish implementation, market access, enforcement, firm use, consumer benefit, or meaningful negotiating influence for any country.",
+      "subgroup": "Trade negotiators, regulators, developing and least developed countries, digital firms, workers, and consumers subject to emerging digital rules.",
+      "counterinterpretation": "New digital provisions can improve predictability and access when capacity-building and interoperability accompany them; rule fragmentation may sometimes reflect legitimate local policy choices.",
+      "source_url": "https://unctad.org/publication/global-trade-update-september-2026-services-are-reshaping-global-trade",
+      "retrieval_hash": "sha256:e02b854da6d5bdff8e5653c787357420675c06ab5265ef986ec8f5aed68ac16c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026", "claim": "Earlier UNCTAD trade update provides complementary geopolitics, value-chain, food-security, and regulation context."},
+    {"source_url": "https://unctad.org/publication/digital-economy-report-2024", "claim": "UNCTAD digital-economy work provides complementary data, infrastructure, and development context."}
+  ],
+  "boundary": "This record adds a services-trade route from digital growth through connectivity, payment, skills, AI capacity, and fragmented rule-making. It is aggregate publication evidence, not firm-level causal analysis, worker outcomes, household welfare, infrastructure quality measurement, or proof that digital trade produces inclusive development.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNCTAD September 2026 Global Trade Update page was reviewed for services shares and growth, least developed country participation, digital constraints, AI strategy adoption, and digital-trade agreement patterns.",
+    "source_url_sha256": "sha256:e02b854da6d5bdff8e5653c787357420675c06ab5265ef986ec8f5aed68ac16c",
+    "checked": "2026-09-26"
+  }
+}

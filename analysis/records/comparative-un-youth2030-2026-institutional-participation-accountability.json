@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-youth2030-2026-institutional-participation-accountability",
+  "title": "Youth participation is moving from consultation toward institutional influence, but implementation still lags the commitment",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "United Nations Youth Office, Youth2030 Global Progress Report 2026 and official launch reflection",
+  "geography": "UN system-wide implementation, covering UN entities and UN Country Teams in the Youth2030 Phase 2 frame",
+  "observations": [
+    {
+      "period": "2025-2030; Youth2030 Phase 2 implementation frame",
+      "denominator": {"value": 1, "unit": "UN system-wide Youth2030 strategy frame", "value_type": "published_strategy_frame"},
+      "measures": {
+        "phase": {"value": "Phase 2", "unit": "2025-2030 implementation phase", "value_type": "reported_strategy_phase"},
+        "orientation": {"value": "accelerating implementation and demonstrating measurable results", "unit": "reported implementation orientation", "value_type": "reported_framework"},
+        "priority": {"value": "meaningful youth engagement and stronger accountability systems", "unit": "Phase 2 strategic priorities", "value_type": "reported_priority"}
+      },
+      "method": "The Youth Office's sixth progress-report edition compares implementation of the UN system-wide Youth Strategy across its Phase 2 framework and key performance areas.",
+      "uncertainty": "A strategy phase and reporting frame describe institutional intent and monitored implementation; they do not establish effects on young people's lives or equal implementation across settings.",
+      "subgroup": "Young people, UN entities, UN Country Teams, youth networks, public institutions, and organizations responsible for planning, funding, services, and accountability.",
+      "counterinterpretation": "A stronger institutional framework can improve coordination while still leaving practical influence, resources, and accountability uneven at country and programme levels.",
+      "source_url": "https://www.un.org/youthaffairs/en/news/participation-power-reflections-2026-youth2030-progress-report",
+      "retrieval_hash": "sha256:6f8b14ae0f752be3b5569693fe2f036fe131c22bfa6af6a4df500c8816904e61",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; UN entities strengthening meaningful-youth-participation policies and processes",
+      "denominator": {"value": 100, "unit": "share of reporting UN entities in the cited comparison", "value_type": "reported_percentage_denominator"},
+      "measures": {
+        "institutional_myp": {"value": 14, "unit": "percent of UN entities in 2021 that had strengthened institutional policies and processes for meaningful youth participation", "value_type": "reported_share"},
+        "institutional_myp_2025": {"value": 42, "unit": "percent of UN entities in 2025 that had strengthened institutional policies and processes for meaningful youth participation", "value_type": "reported_share"},
+        "change": {"value": 28, "unit": "percentage-point increase between 2021 and 2025", "value_type": "derived_percentage_point_change"}
+      },
+      "method": "The official Youth Office reflection reports the comparison from the 2026 Youth2030 progress-report results for UN entities.",
+      "uncertainty": "The comparison depends on reporting definitions, entity coverage, scoring, and self-reported or administratively reviewed implementation evidence; it is not a measure of youth influence outside the UN system.",
+      "subgroup": "UN entities and their organizational policies, processes, staff, youth partners, and programmes.",
+      "counterinterpretation": "Policy adoption may precede practice; a higher share of entities with processes does not prove that youth shaped priorities, budgets, or final decisions.",
+      "source_url": "https://www.un.org/youthaffairs/en/news/participation-power-reflections-2026-youth2030-progress-report",
+      "retrieval_hash": "sha256:6f8b14ae0f752be3b5569693fe2f036fe131c22bfa6af6a4df500c8816904e61",
+      "status": "reported"
+    },
+    {
+      "period": "2025; UN Country Team meaningful-participation processes",
+      "denominator": {"value": 1, "unit": "UN Country Team process comparison reported by the Youth Office", "value_type": "institutional_process_denominator"},
+      "measures": {
+        "country_team_change": {"value": 20, "unit": "percentage-point improvement in meaningful-youth-participation processes within UN Country Teams", "value_type": "reported_percentage_point_change"},
+        "implementation_gap": {"value": "global commitments still need stronger implementation across UN Country Teams and greater national-level awareness", "unit": "reported implementation challenge", "value_type": "reported_assessment"}
+      },
+      "method": "The progress report uses country-team key performance areas and process reporting to track how system-wide commitments translate into national implementation.",
+      "uncertainty": "The reported change is an institutional process indicator; it does not measure the quality, reach, representativeness, or policy consequences of individual participation opportunities.",
+      "subgroup": "UN Country Teams, national partners, local youth organizations, marginalized young people, and public systems where participation processes are implemented.",
+      "counterinterpretation": "Process improvement can coexist with tokenism, unequal access, weak feedback loops, or limited authority over resources and decisions.",
+      "source_url": "https://www.un.org/youthaffairs/en/youth2030/dashboard",
+      "retrieval_hash": "sha256:a01ea63c3df2b4eb4119c74689e918ac58aaf91c51dd8981619c5bacff24b58d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; meaningful-participation interpretation and accountability test",
+      "denominator": {"value": 1, "unit": "Youth2030 participation-and-accountability framework", "value_type": "published_framework"},
+      "measures": {
+        "influence_test": {"value": "young people should be able to shape priorities, influence decisions, access resources, and see contributions translated into accountable action", "unit": "reported participation standard", "value_type": "reported_framework"},
+        "institutional_scope": {"value": "planning, funding, services, organizational culture, knowledge, and accountability", "unit": "Phase 2 implementation domains", "value_type": "reported_framework"},
+        "decision_gap": {"value": "presence or consultation alone is insufficient evidence of co-ownership", "unit": "reported interpretation", "value_type": "reported_assessment"}
+      },
+      "method": "The Youth Office combines progress reporting, key performance areas, and the 2026 launch reflection to distinguish presence from influence and consultation from co-ownership.",
+      "uncertainty": "This is a normative and monitoring framework rather than a causal estimate or representative measure of youth political attitudes.",
+      "subgroup": "Young people with different social positions and access to civic space, along with institutions that allocate priorities, resources, and authority.",
+      "counterinterpretation": "Formal influence mechanisms may improve legitimacy while also creating new gatekeeping, reporting burdens, or uneven representation unless marginalized youth can enter and shape them.",
+      "source_url": "https://www.un.org/youthaffairs/en/youth2030",
+      "retrieval_hash": "sha256:669872ec23f9b9b6aa1b01d4adfdd3674a1fa051feb36b49e2bc3e266953ab1d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/youthaffairs/en/youth2030/dashboard", "claim": "Youth2030 Phase 2 dashboard and key performance-area reporting frame."},
+    {"source_url": "https://www.un.org/youthaffairs/en/youth2030/about", "claim": "Youth2030 Phase 2 priorities and system-wide strategy context."}
+  ],
+  "boundary": "This record adds an institutional youth-voice and accountability route. It measures UN-system implementation and participation frameworks, not respondent-level youth attitudes, individual civic behavior, representative public opinion, causal effects on policy outcomes, or proof that consultation becomes shared decision power.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Youth Office launch reflection, Youth2030 dashboard, and strategy pages were reviewed for the Phase 2 frame, 14%-to-42% entity comparison, 20-percentage-point Country Team process improvement, and influence-versus-consultation interpretation.",
+    "source_url_sha256": "sha256:6f8b14ae0f752be3b5569693fe2f036fe131c22bfa6af6a4df500c8816904e61",
+    "checked": "2026-09-27"
+  }
+}

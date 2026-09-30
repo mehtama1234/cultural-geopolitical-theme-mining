@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-living-wage-public-private-partnerships-2026",
+  "title": "Living-wage policy is moving from voluntary corporate promise toward shared public-private wage infrastructure",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "work_control_bargaining", "firm_sector_market_power", "public_systems_feedback", "unequal_exposure_status", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "ILO news report on the first public-private partnerships under the Living Wage Programme, published 24 September 2026",
+  "geography": "ILO member states and global supply chains; partnerships involve the Responsible Business Alliance, Unilever, and amfori across multiple countries and sourcing markets",
+  "observations": [
+    {
+      "period": "April 2025–September 2026; ILO Living Wage Programme partnership architecture",
+      "denominator": {"value": 3, "unit": "first public-private partnership agreements signed under the ILO Living Wage Programme", "value_type": "reported_agreement_count"},
+      "measures": {
+        "agreements": {"value": 3, "unit": "agreements", "value_type": "reported_agreement_count"},
+        "partners": {"value": "Responsible Business Alliance, Unilever, and amfori", "unit": "private-sector partner set", "value_type": "reported_partner_set"},
+        "policy_translation": {"value": "the agreements translate a 2024 tripartite agreement on wage policies, including living wages, into country, sector, and company action", "unit": "reported governance route", "value_type": "reported_policy_translation"},
+        "programme_launch": {"value": "the agreements are the first of their kind since the Living Wage Programme launched in April 2025", "unit": "reported programme milestone", "value_type": "reported_milestone"}
+      },
+      "method": "Official ILO account of partnership agreements and their stated objectives; it is a programme announcement, not evidence of wage changes or worker outcomes.",
+      "uncertainty": "The source does not specify countries, covered workers, wage baselines, implementation budgets, enforcement arrangements, or the time required to convert agreements into pay changes.",
+      "subgroup": "Workers and families in multinational supply chains, national wage-setting institutions, employers, worker organizations, governments, and consumers exposed to supply-chain labour conditions.",
+      "counterinterpretation": "Public-private agreements can harmonize methods without changing purchasing practices, prices, contracting power, or worker bargaining power; voluntary participation may leave the lowest-wage firms outside the architecture.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-signs-first-public-private-partnership-agreements-advance-inclusive",
+      "retrieval_hash": "sha256:44bf0307ea28027b0e811216f5169b3be8a360d3e0d26a42a1f3a2d12f14c69b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; living-wage estimation and family-needs evidence",
+      "denominator": {"value": 1, "unit": "ILO methodology and national-data route for living-wage estimation", "value_type": "reported_methodological_frame"},
+      "measures": {
+        "needs_basis": {"value": "estimates are intended to account for the needs of workers and their families, including the cost of a decent standard of living", "unit": "reported estimation principle", "value_type": "reported_methodological_principle"},
+        "economic_factors": {"value": "relevant economic factors and national data are to inform estimates", "unit": "reported data basis", "value_type": "reported_data_route"},
+        "institutional_alignment": {"value": "initiatives are to align with ILO principles, the Minimum Wage Fixing Convention No. 131, and national wage-setting institutions", "unit": "reported standards alignment", "value_type": "reported_governance_alignment"}
+      },
+      "method": "ILO description of its living-wage estimation and operationalization approach.",
+      "uncertainty": "A common methodology does not settle local household baskets, care costs, housing, taxes, benefits, regional variation, inflation, or bargaining over who pays for wage increases.",
+      "subgroup": "Low-wage workers, dependents, households with care and housing costs, national statistical offices, wage boards, employers, unions, and sourcing communities.",
+      "counterinterpretation": "A quantified living-wage reference can improve comparability but can also become a technocratic ceiling, obscure household diversity, or be used by firms without corresponding collective bargaining and enforcement.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-signs-first-public-private-partnership-agreements-advance-inclusive",
+      "retrieval_hash": "sha256:44bf0307ea28027b0e811216f5169b3be8a360d3e0d26a42a1f3a2d12f14c69b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; supply-chain scale and company-level roadmaps",
+      "denominator": {"value": 2400, "unit": "amfori member companies across more than 50 countries and sourcing markets", "value_type": "reported_member_count"},
+      "measures": {
+        "amfori_members": {"value": 2400, "unit": "companies", "value_type": "reported_member_count"},
+        "countries": {"value": 50, "unit": "countries and sourcing markets, more than", "value_type": "reported_geographic_count"},
+        "unilever_route": {"value": "ILO-convened roundtables and jointly developed roadmaps are intended to advance living wages at national, sectoral, and company levels in countries where Unilever operates", "unit": "reported implementation route", "value_type": "reported_roadmap_mechanism"},
+        "rba_route": {"value": "RBA member companies will use ILO-grounded estimates and guidance to inform living-wage efforts in operations and supply chains", "unit": "reported implementation route", "value_type": "reported_supply_chain_mechanism"}
+      },
+      "method": "ILO report of partner reach and intended supply-chain implementation mechanisms.",
+      "uncertainty": "Membership and roadmap reach do not establish worker coverage, wage increases, supplier compliance, purchasing-price changes, or whether benefits reach subcontracted and informal workers.",
+      "subgroup": "Workers in global supply chains, suppliers, subcontractors, multinational firms, sourcing communities, employers, unions, and consumers of branded goods.",
+      "counterinterpretation": "Large networks can spread a common method while concentrating agenda-setting in lead firms and associations; supplier cost pressure may be passed downward unless purchasing and bargaining conditions change.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-signs-first-public-private-partnership-agreements-advance-inclusive",
+      "retrieval_hash": "sha256:44bf0307ea28027b0e811216f5169b3be8a360d3e0d26a42a1f3a2d12f14c69b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; tripartite and data-governance route",
+      "denominator": {"value": 1, "unit": "living-wage governance architecture connecting public, worker, employer, statistical, academic, and supply-chain actors", "value_type": "reported_governance_frame"},
+      "measures": {
+        "social_dialogue": {"value": "governments, employers' organizations, and workers' organizations are named as primary drivers of change", "unit": "reported governance principle", "value_type": "reported_tripartite_route"},
+        "data_partners": {"value": "national statistical offices, academia, and research institutions are engaged to generate wage and economic data", "unit": "reported data-partner set", "value_type": "reported_data_governance"},
+        "collective_bargaining": {"value": "operationalization is stated to respect national wage-setting institutions and collective bargaining autonomy", "unit": "reported institutional safeguard", "value_type": "reported_institutional_safeguard"},
+        "consumer_firm_link": {"value": "wage-setting is linked to enterprise and economy sustainability and resilient supply chains", "unit": "reported political-economy linkage", "value_type": "reported_political_economy_route"}
+      },
+      "method": "ILO account of the programme's multi-actor architecture and stated safeguards.",
+      "uncertainty": "The architecture describes roles and principles but not actual bargaining power, representation quality, enforcement, dispute resolution, or consumer price and firm-profit effects.",
+      "subgroup": "Workers and families, trade unions, employers, public agencies, statistical institutions, firms, supply-chain actors, consumers, and communities producing traded goods.",
+      "counterinterpretation": "Stakeholder inclusion can remain consultative; collective-bargaining autonomy may be formally respected while lead-firm purchasing power and subcontracting still constrain negotiated outcomes.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-signs-first-public-private-partnership-agreements-advance-inclusive",
+      "retrieval_hash": "sha256:44bf0307ea28027b0e811216f5169b3be8a360d3e0d26a42a1f3a2d12f14c69b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/operationalizing-living-wages-unilever-sourcing-countries", "claim": "ILO project page for operationalizing living wages in Unilever sourcing countries."},
+    {"source_url": "https://www.ilo.org/resource/project/estimating-living-wages-amfori-member-sourcing-countries", "claim": "ILO project page for estimating living wages in amfori member sourcing countries."},
+    {"source_url": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID:312277", "claim": "ILO Minimum Wage Fixing Convention, 1970 (No. 131)."}
+  ],
+  "boundary": "This record adds a wage-governance route linking household living costs, worker and family needs, national data, tripartite institutions, multinational supply chains, consumer-facing firms, and public-private standards. It is an announcement of agreements and intended mechanisms, not evidence of wage increases, worker welfare, bargaining power, price effects, or supply-chain compliance.",
+  "retrieval_hash": "sha256:44bf0307ea28027b0e811216f5169b3be8a360d3e0d26a42a1f3a2d12f14c69b"
+}

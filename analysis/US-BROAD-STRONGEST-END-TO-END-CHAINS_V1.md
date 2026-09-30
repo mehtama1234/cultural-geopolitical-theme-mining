@@ -1,6 +1,6 @@
 # US broad atlas: strongest end-to-end chains v1
 
-**Checked:** 2026-09-25  
+**Checked:** 2026-09-29
 **Purpose:** identify the strongest currently retained routes toward the broad
 end-to-end goal without pretending that separate sources form one causal chain.
 
@@ -128,6 +128,130 @@ judgment about institutions. It is deliberately not promoted into the ranked
 same-unit chains: the sources do not follow one dated bill or care episode
 through credit correction, attribution, trust, action, and recovery.
 
+### New infrastructure-legitimacy corridor — not ranked as a same-unit chain
+
+The new [UK digital-identity sector record](records/comparative-uk-digital-identity-sector-2026-trust-access-market.json)
+adds a cross-theme route from identity infrastructure and verification markets
+through public-service, employment, health, finance, and age-assurance access;
+income-linked understanding and use; physical-versus-digital preference;
+privacy and data-control expectations; and the need for non-digital fallback
+and correction. The [OECD digital-government record](records/comparative-oecd-digital-government-outlook-2026-service-fragmentation-ai-capacity.json)
+and the [UN Women gender-inclusive DPI record](records/comparative-un-women-gender-inclusive-digital-public-infrastructure-2026.json)
+provide comparative system-design and inclusion controls, while U.S. administrative
+records supply the practical non-use, data-trust, and remedy questions. The
+shared pattern is that identity systems can become operationally necessary
+before they become legitimate: adoption is not access, access is not control,
+and control is not remedy. This corridor is not promoted into a completed
+end-to-end chain because the sources do not follow the same person from a
+failed verification through appeal, correction, service receipt, durable
+capability, and trust or exit.
+
+### New demographic-care corridor — not ranked as a same-unit chain
+
+The [European Commission JRC demographic record](records/comparative-eu-jrc-demographic-transformation-2026-ageing-work-care-housing-migration.json)
+can now be joined conceptually to the [World Bank human-capital settings
+record](records/comparative-worldbank-human-capital-settings-2026-homes-neighborhoods-workplaces.json),
+the [GAO unpaid-household-work record](records/us-gao-unpaid-household-work-time-value-care-2026.json),
+the [BLS time-allocation record](records/us-bls-atus-2025-time-allocation-work-care-leisure.json),
+and the Federal Reserve care/living-arrangements route. Together they form a
+cross-source corridor from population aging and spatial decline through care
+demand, unpaid household time, women’s and older-worker participation, youth
+transitions, housing, skilled migration, and public-finance or
+intergenerational legitimacy. The central control is that “more workers” or
+“more migration” is not a complete adaptation if care, housing, transport,
+service reach, and household time remain constrained. This is not promoted as
+a same-unit chain: the sources use different countries, periods, units, and
+projection or survey designs, and do not follow one household through care,
+work, housing, policy receipt, and durable recovery.
+
+### New displacement-to-capacity corridor — not ranked as a same-unit chain
+
+The [MPI Europe control-signalling record](records/comparative-mpi-europe-migration-control-signalling-integration-trust-2026.json)
+can be read alongside the [IDMC GRID 2026 record](records/comparative-idmc-grid-2026-internal-displacement-conflict-disaster-data-systems.json),
+the [UN-Habitat World Cities Report record](records/comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery.json),
+the [WHO climate/migration health-priorities record](records/comparative-who-health-migration-displacement-climate-research-priorities-2026.json),
+and the [UNICEF child-climate-hazard record](records/comparative-unicef-child-climate-hazard-service-exposure-2026.json).
+Together they establish a cross-source route from conflict, climate, and
+demographic movement through housing, health, education, livelihoods, public
+services, data, rights, and community voice. The central control is that
+displacement is not resolved when movement stops or shelter is delivered:
+durable outcomes require usable services, work and income, family stability,
+participation, and institutional capacity in the receiving or return setting.
+This is not promoted as a same-unit chain because the sources combine global
+stocks, policy syntheses, child exposure models, health research priorities,
+and urban case evidence rather than following one displaced household through
+movement, assistance, settlement, service receipt, and durable recovery.
+
+### New education-to-employment corridor — not ranked as a same-unit chain
+
+The [World Bank Gambia education-to-employment record](records/comparative-world-bank-gambia-economic-update-2026-womens-education-work-fiscal-capacity.json)
+connects growth and educational gains to informal work, youth exclusion,
+gendered care and asset barriers, earnings, fiscal space, targeted protection,
+and public investment. It strengthens the atlas's learning-to-agency route by
+showing that schooling is not a durable outcome until people can cross the
+care, property, finance, hiring, pay, and public-capacity bridges. This is not
+promoted as a same-unit chain because the source combines national indicators,
+gender comparisons, fiscal estimates, and policy recommendations rather than
+following one student from education through care, job entry, earnings,
+formalization, service receipt, and durable household security.
+
+### New youth-climate voice corridor — not ranked as a same-unit chain
+
+The [UNDP youth climate-governance record](records/comparative-undp-asia-pacific-youth-climate-governance-2026-agency-institutional-voice.json)
+connects youth concern and leadership to decision-space access, policy
+co-drafting, gendered and resource barriers, institutionalized voice,
+implementation, monitoring, and accountability. It strengthens the atlas's
+political-agency route by making the missing middle explicit: representation
+is not influence, influence is not adoption, and adoption is not funded or
+durable implementation. This is not promoted as a same-unit chain because the
+source combines participant voices, qualitative pathways, policy reporting,
+and practice examples rather than following one young person's proposal from
+climate concern through institutional decision, resources, implementation,
+remedy, and trust.
+
+### New cultural-mobility corridor — not ranked as a same-unit chain
+
+The [OECD international student-mobility record](records/comparative-oecd-international-student-mobility-2026-cost-housing-work-retention.json)
+connects international education to affordability, housing, public support, work
+rights, post-study pathways, family continuity, integration, and cultural
+belonging. It strengthens the atlas's mobility and cultural-infrastructure
+routes by showing that admission is only an early exposure: the durable outcome
+depends on whether a student can live, study, work, form relationships, and
+remain or return under conditions that preserve agency. This is not promoted as
+a same-unit chain because the OECD combines country policy settings,
+administrative flows, and comparative synthesis rather than following one
+student from recruitment through arrival, housing, academic progression,
+completion, employment, and retention.
+
+### New shock-to-demographic-capacity corridor — not ranked as a same-unit chain
+
+The [World Bank Cambodia economic-update record](records/comparative-world-bank-cambodia-economic-update-2026-remittances-demography-care.json)
+connects external price, remittance, credit, and migrant-return shocks to
+household consumption, labor-market reintegration, demographic timing, human
+capital, formal care, structured migration, and fiscal or labor-market
+capacity. It strengthens the economic-security corridor by showing how a
+macro shock becomes a household and life-course problem: placement is not job
+quality, youth is not productivity, and care infrastructure is not an optional
+social add-on. This is not promoted as a same-unit chain because the source
+combines simulations, projections, labor-market aggregates, and policy
+recommendations rather than following one returning worker or household from
+shock through placement, care, income replacement, and durable recovery.
+
+### New intergenerational-security corridor — not ranked as a same-unit chain
+
+The [Social Security information, family-mobility, and legitimacy synthesis](projects/cross-domain/us-social-security-information-family-mobility-legitimacy-2026-09-29.md)
+connects a projected fiscal deadline, personalized benefit information,
+application behavior, historical parental support, children's later mobility,
+earnings, neighborhoods, and institutional legitimacy. It strengthens the
+retirement-security route by adding observed information-to-application and
+estimated historical intergenerational mechanisms beside the CBO projection.
+It is not promoted as a same-unit contemporary chain because the sources do
+not jointly follow a person from policy information through award, payment,
+care or work choice, mobility, and durable household security. Application is
+not receipt; historical mobility effects are not a current national estimate;
+and the 2032 deadline is a conditional projection rather than a specified
+policy outcome.
+
 ### Recent comparative remedy counterexamples
 
 Two recent comparative cases sharpen the ranking without displacing its top
@@ -149,6 +273,21 @@ Together they add two controls to the ranking: a hearing is not a remedy, and
 a process defect is not by itself proof that the underlying decision should be
 reversed. Both cases remain open on payment, later access, durable work,
 trust, and exit.
+
+### New economic-security corridor — not ranked as a same-unit chain
+
+The [World Bank Indonesia economic-security record](records/comparative-world-bank-indonesia-economic-security-2023-jobs-care-shocks.json)
+adds a comparative route from poverty reduction through low-productivity work,
+weak urban mobility, gendered unpaid care, climate shocks, social protection,
+resilient infrastructure, and fiscal capacity. Read alongside the existing
+U.S. household-room, care, housing, and disaster records, it clarifies that
+economic security is a conversion problem: work must produce sufficient room,
+care must be supported rather than silently absorbed, and protection must
+arrive before a shock reverses poverty gains. This is not promoted as a
+same-unit chain because the assessment combines national poverty trends,
+sectoral labor analysis, disaster history, and policy synthesis rather than
+following one household from work and care constraints through shock, benefit
+receipt, service quality, and durable recovery.
 
 ### Geopolitical realization comparator
 

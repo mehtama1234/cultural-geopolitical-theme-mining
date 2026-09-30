@@ -1,0 +1,148 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift",
+  "title": "England’s cultural participation is shifting by mode and institution while community action rises modestly",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Department for Culture, Media and Sport Community and Engagement Survey 2025/26 Quarter 2 statistical release and data tables",
+  "geography": "England; adults aged 16 and over, with national, ITL2, and Combined Authority coverage",
+  "observations": [
+    {
+      "period": "January–March 2025 versus January–March 2026; cultural and library engagement",
+      "denominator": {
+        "value": 110848,
+        "unit": "valid CES Quarter 2 respondents across the Community and Engagement pathways; individual question bases vary",
+        "value_type": "survey_valid_case_count"
+      },
+      "measures": {
+        "physical_arts_engagement": {
+          "value": "83% in 2026 versus 90% in 2025",
+          "unit": "percent of adults aged 16+ engaging with the arts in person in the prior 12 months",
+          "value_type": "official_survey_comparison"
+        },
+        "digital_arts_engagement": {
+          "value": "36% in 2026 versus 34% in 2025",
+          "unit": "percent of adults aged 16+ engaging with the art sector online at least once",
+          "value_type": "official_survey_comparison"
+        },
+        "physical_library_engagement": {
+          "value": "31% in 2026 versus 27% in 2025",
+          "unit": "percent using a public library building, mobile library, home service, or outreach in person at least once",
+          "value_type": "official_survey_comparison"
+        },
+        "digital_library_engagement": {
+          "value": "18% in 2026 versus 16% in 2025",
+          "unit": "percent using public library services digitally or online",
+          "value_type": "official_survey_comparison"
+        },
+        "mechanism": {
+          "value": "Cultural participation is not moving as one block: arts engagement is more physical-to-digital layered, while library use grows in both modes",
+          "unit": "bounded cultural-conversion mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "DCMS CES Quarter 2 data tables comparing January–March 2025 with January–March 2026. The survey combines a Community pathway and an Engagement pathway; tables use question-specific unweighted bases, counts, weights, and 95% confidence intervals.",
+      "uncertainty": "The period comparison spans a new survey design that replaced separate Participation and Community Life surveys; question bases differ and the results are repeated cross-sections, not a panel. The figures do not establish why arts and library modes changed or whether digital use substituted for physical attendance.",
+      "subgroup": "Adults aged 16 and over in England; national estimates with additional ITL2 and Combined Authority tables.",
+      "counterinterpretation": "A fall in the annual physical-arts measure may reflect questionnaire redesign, sector mix, recall, timing, or sampling alongside real behavior; digital engagement can complement rather than replace in-person activity.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/6a6b53a60ddb7e4831c62a56/Community_and_Engagement_Survey_January_to_March_2025-26_Quarter_2_Tables.ods",
+      "retrieval_hash": "sha256:475cc804534030acbb7f9a9f74afe00cb574983bdb67f8d6a5bfd202d76b50e7",
+      "status": "reported"
+    },
+    {
+      "period": "January–March 2025 versus January–March 2026; heritage, museum, and archive engagement",
+      "denominator": {
+        "value": 110848,
+        "unit": "valid CES Quarter 2 respondents; individual cultural-sector question bases vary",
+        "value_type": "survey_valid_case_count"
+      },
+      "measures": {
+        "physical_heritage_engagement": {
+          "value": "62% in 2026 versus 65% in 2025",
+          "unit": "percent visiting a heritage site in person at least once in the prior 12 months",
+          "value_type": "official_survey_comparison"
+        },
+        "digital_heritage_engagement": {
+          "value": "25% in 2026 versus 25% in 2025",
+          "unit": "percent using heritage services digitally or online",
+          "value_type": "official_survey_comparison"
+        },
+        "physical_museum_engagement": {
+          "value": "42% in 2026 versus 43% in 2025",
+          "unit": "percent visiting a museum or gallery in person at least once",
+          "value_type": "official_survey_comparison"
+        },
+        "digital_museum_engagement": {
+          "value": "16% in 2026 versus 14% in 2025",
+          "unit": "percent using museum services digitally or online",
+          "value_type": "official_survey_comparison"
+        },
+        "mechanism": {
+          "value": "Digital cultural service use can rise while physical heritage and museum attendance is flat or lower, producing sector-specific rather than universal substitution",
+          "unit": "bounded institution-and-mode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "DCMS CES Quarter 2 heritage, museum, and archive tables; estimates retain the release’s question-specific bases and confidence intervals.",
+      "uncertainty": "These are annual-recall participation measures across repeated cross-sections and do not identify frequency, spending, travel, venue capacity, or audience composition. The survey redesign limits direct comparison with prior standalone releases.",
+      "subgroup": "Adults aged 16 and over in England; sector-specific valid bases vary by table.",
+      "counterinterpretation": "Small percentage changes may be sampling variation or design effects; digital service use may be an additional touchpoint for people who also attend physically rather than a replacement route.",
+      "source_url": "https://assets.publishing.service.gov.uk/media/6a6b53a60ddb7e4831c62a56/Community_and_Engagement_Survey_January_to_March_2025-26_Quarter_2_Tables.ods",
+      "retrieval_hash": "sha256:475cc804534030acbb7f9a9f74afe00cb574983bdb67f8d6a5bfd202d76b50e7",
+      "status": "reported"
+    },
+    {
+      "period": "January–March 2025 versus January–March 2026; local action and social connection",
+      "denominator": {
+        "value": 110848,
+        "unit": "valid CES Quarter 2 respondents; question-specific unweighted bases range around 104,000–111,000",
+        "value_type": "survey_valid_case_count"
+      },
+      "measures": {
+        "monthly_formal_volunteering": {
+          "value": "18% in 2026 versus 16% in 2025",
+          "unit": "percent formally volunteering at least once a month",
+          "value_type": "official_survey_comparison"
+        },
+        "contacted_local_official": {
+          "value": "15% in 2026 versus 13% in 2025",
+          "unit": "percent contacting a local official such as a councillor or MP in the prior 12 months",
+          "value_type": "official_survey_comparison"
+        },
+        "often_always_lonely": {
+          "value": "7% in both 2025 and 2026",
+          "unit": "percent often or always feeling lonely",
+          "value_type": "official_survey_comparison"
+        },
+        "mechanism": {
+          "value": "Formal local action can rise modestly without a change in the national loneliness headline, so civic participation and social connection should not be collapsed into one outcome",
+          "unit": "bounded civic-social mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "DCMS CES Quarter 2 community and civic-engagement tables comparing January–March 2025 with January–March 2026; the release uses separate Community and Engagement pathways and question-specific bases.",
+      "uncertainty": "Self-reported volunteering and contact do not establish intensity, influence, institutional response, or durable local power. Stable loneliness is a national average and does not rule out subgroup or local change; survey redesign and response composition may affect comparisons.",
+      "subgroup": "Adults aged 16 and over in England; local and demographic breakdowns are available in the release tables.",
+      "counterinterpretation": "More reported formal action may reflect issue salience, easier contact routes, or reporting changes rather than stronger civic capacity; loneliness can remain stable while informal support, belonging, or local trust moves differently.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-january-to-march-2026",
+      "retrieval_hash": "sha256:475cc804534030acbb7f9a9f74afe00cb574983bdb67f8d6a5bfd202d76b50e7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-january-to-march-2026/community-and-engagement-survey-january-to-march-2026-technical-report",
+      "claim": "The technical report documents the merged CES design, 110,848 valid Quarter 2 respondents, paper-mode inclusion for offline or less confident online adults, and question-specific pathways and bases.",
+      "status": "official-method-resource"
+    }
+  ],
+  "boundary": "This record adds a current England cultural-and-community participation layer that separates physical and digital cultural modes, sector-specific change, volunteering, local-official contact, and loneliness. It does not establish causal substitution, cultural welfare, institutional responsiveness, attendance frequency, or durable social cohesion.",
+  "retrieval_hash": "sha256:475cc804534030acbb7f9a9f74afe00cb574983bdb67f8d6a5bfd202d76b50e7"
+}

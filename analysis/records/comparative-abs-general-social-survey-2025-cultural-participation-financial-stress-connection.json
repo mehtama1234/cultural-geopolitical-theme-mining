@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-abs-general-social-survey-2025-cultural-participation-financial-stress-connection",
+  "title": "Cultural and social reconnection coexists with worsening household financial pressure in Australia",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Australian Bureau of Statistics General Social Survey: Summary Results, Australia, 2025",
+  "geography": "Australia; people aged 15 years and over for cultural participation and people aged 18 years and over for social experiences, with all-household financial-stress measures",
+  "observations": [
+    {
+      "period": "2025; cultural attendance and participation during the previous 12 months",
+      "denominator": {"value": null, "unit": "Australian persons aged 15 years and over in the ABS General Social Survey; weighted survey estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "cultural_attendance_total": {"value": 79, "unit": "percent attending a cultural venue or event in the previous 12 months", "value_type": "reported_survey_share"},
+        "cultural_participation_total": {"value": 48, "unit": "percent participating in a cultural activity in the previous 12 months", "value_type": "reported_survey_share"},
+        "attendance_age_gap": {"value": 22, "unit": "percentage-point difference: ages 15-24 at 89% versus ages 65+ at 67%", "value_type": "calculated_difference_from_published_table"},
+        "participation_age_gap": {"value": 21, "unit": "percentage-point difference: ages 15-24 at 63% versus ages 65+ at 42%", "value_type": "calculated_difference_from_published_table"},
+        "gender_participation_gap": {"value": 15, "unit": "percentage-point difference: women at 55% versus men at 40%", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Cultural engagement is widespread but patterned by life stage and gender; attendance and active participation are distinct conversion stages rather than one measure of cultural life", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from ABS General Social Survey 2025 Table 17.3 proportions; attendance covers selected cultural venues/events and participation covers selected cultural activities during the previous 12 months.",
+      "uncertainty": "This is a cross-sectional weighted survey estimate. The venue and activity lists are selected rather than exhaustive; the age and gender differences do not identify causal effects of age, income, time, health, transport, price, caregiving, or cultural preference.",
+      "subgroup": "Australian persons aged 15 years and over, by age and gender.",
+      "counterinterpretation": "Higher youth participation may reflect life stage, education, digital or informal activity, and survey interpretation; lower older-age participation does not establish exclusion, and attendance does not establish repeat participation, affordability, belonging, or creator income.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-summary-results-australia/2025",
+      "retrieval_hash": "sha256:6e1dacb3fc43bf3c65137c0d9e504ebfce0c1b1cae8d3038ef1c312e16cb66f6",
+      "status": "reported"
+    },
+    {
+      "period": "2025 compared with 2020; household financial stress and weekly outside-household contact",
+      "denominator": {"value": null, "unit": "Australian households for financial-stress measures and persons aged 18 years and over for social-experience measures; ABS General Social Survey weighted estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "cash_flow_problem_2025": {"value": 25.3, "unit": "percent of households reporting at least one cash-flow problem in the previous 12 months", "value_type": "reported_survey_share"},
+        "cash_flow_problem_2020": {"value": 20.7, "unit": "percent of households reporting at least one cash-flow problem in the previous 12 months", "value_type": "reported_survey_share"},
+        "cash_flow_change": {"value": 4.6, "unit": "percentage-point increase from 2020 to 2025", "value_type": "calculated_difference_from_published_table"},
+        "dissaving_2025": {"value": 25.7, "unit": "percent of households reporting at least one dissaving action in the previous 12 months", "value_type": "reported_survey_share"},
+        "dissaving_2020": {"value": 22.9, "unit": "percent of households reporting at least one dissaving action in the previous 12 months", "value_type": "reported_survey_share"},
+        "outside_household_weekly_contact_2025": {"value": 52.2, "unit": "percent of adults with weekly face-to-face contact with family or friends outside the household in the previous three months", "value_type": "reported_survey_share"},
+        "outside_household_weekly_contact_2020": {"value": 41.3, "unit": "percent of adults with weekly face-to-face contact with family or friends outside the household in the previous three months", "value_type": "reported_survey_share"},
+        "contact_change": {"value": 10.9, "unit": "percentage-point increase from 2020 to 2025", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Social reconnection can recover while household financial room deteriorates: cultural and social participation should not be treated as a proxy for material security", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive comparison of ABS General Social Survey 2025 Tables 19.1 and 20.1 with the corresponding 2020 published proportions. The source reports randomly adjusted data for confidentiality and warns that questionnaire wording and methodology changes require care in cycle comparisons.",
+      "uncertainty": "The 2020 and 2025 surveys are repeated cross-sections, not a panel. The change is not causal and may reflect economic conditions, population composition, survey redesign, wording, recall, pandemic context, or measurement adjustments; financial-stress and social-contact denominators are not identical.",
+      "subgroup": "Australian households for financial stress and Australian adults aged 18 years and over for social contact.",
+      "counterinterpretation": "More weekly contact does not prove stronger belonging or cultural access, while higher reported financial stress does not identify which costs, incomes, debts, transfers, or households drove the movement.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-summary-results-australia/2025",
+      "retrieval_hash": "sha256:6b8bcbee1c1e1e84e53a0a866f54ffce80d204ec81df0cd2cb2e16cb5cca296a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; migrant social contact and discrimination exposure",
+      "denominator": {"value": null, "unit": "Australian adults in the ABS General Social Survey 2025; migrant and Australian-born subgroup estimates are weighted survey proportions", "value_type": "not_disclosed"},
+      "measures": {
+        "migrant_weekly_face_to_face_contact": {"value": 46, "unit": "percent of migrants with face-to-face contact with family or friends outside the household at least once a week in the previous three months", "value_type": "reported_subgroup_share"},
+        "total_weekly_face_to_face_contact": {"value": 53, "unit": "percent of Australian adults with face-to-face contact with family or friends outside the household at least once a week in the previous three months", "value_type": "reported_subgroup_share"},
+        "migrant_contact_gap": {"value": -7, "unit": "percentage-point difference between migrants and the total adult estimate, calculated from published rounded proportions", "value_type": "calculated_difference_from_published_table"},
+        "migrant_discrimination": {"value": 20, "unit": "percent of migrants experiencing discrimination in the previous 12 months", "value_type": "reported_subgroup_share"},
+        "australian_born_discrimination": {"value": 17, "unit": "percent of people born in Australia experiencing discrimination in the previous 12 months", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Migrant social connection is lower than the national adult estimate while reported discrimination is slightly higher, adding a social-friction layer to the economic and housing constraints in the migrant-settlement record", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the ABS General Social Survey 2025 summary results for subgroup comparisons on weekly face-to-face contact and discrimination.",
+      "uncertainty": "These are cross-sectional weighted survey estimates and the migrant category is broad; the contact difference does not establish isolation, weak belonging, language causality, or a cultural-participation effect, while discrimination is self-reported and does not measure institutional remedy or repeated exposure.",
+      "subgroup": "Migrants, people born in Australia, and the total adult survey population; subgroup denominators and overlap with cultural-attendance respondents are not disclosed in the summary page.",
+      "counterinterpretation": "Lower weekly face-to-face contact may reflect distance from family, household composition, work, age, urban settlement, or different contact patterns rather than lower social connection; the 3-point discrimination difference may be within sampling or rounding uncertainty.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-summary-results-australia/2025",
+      "retrieval_hash": "sha256:cd02c135f6d0d45ed8ed3ad0c83c92acf611656c76dd52e1801d96dbdbcc27d7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-summary-results-australia/2025/GSSDC17.xlsx", "claim": "ABS Table 17 cultural attendance and participation proportions by gender and age."},
+    {"source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-summary-results-australia/2025/GSSDC19.xlsx", "claim": "ABS Table 19 financial-stress proportions across survey cycles."},
+    {"source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-summary-results-australia/2025/GSSDC20.xlsx", "claim": "ABS Table 20 social-experience proportions across survey cycles and 2025 gender groups."},
+    {"source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/general-social-survey-methodology/2025", "claim": "ABS General Social Survey 2025 methodology, sample, weighting, questionnaire, and comparison cautions."}
+  ],
+  "boundary": "This record adds a same-instrument Australian bridge between cultural engagement, social contact, and household financial stress. It does not establish causal relationships, individual longitudinal change, affordability, cultural quality, belonging, mental-health outcomes, or the mechanisms behind cycle differences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ABS 2025 General Social Survey landing page and Tables 17, 19, and 20 workbooks retrieved; total, age, gender, cycle-comparison, and confidentiality/methodology notes reviewed.",
+    "html_sha256": "sha256:28b3d56521ed0322fec4384ca21553386f514c269104c07c2f375739a954fc58",
+    "table_hashes": {
+      "cultural_attendance_participation": "sha256:6e1dacb3fc43bf3c65137c0d9e504ebfce0c1b1cae8d3038ef1c312e16cb66f6",
+      "financial_stress": "sha256:6b8bcbee1c1e1e84e53a0a866f54ffce80d204ec81df0cd2cb2e16cb5cca296a",
+      "social_experiences": "sha256:369cf41c2bd38812d518d3a43d786c4229f8173965eaa9e1f39b57b9b4496df5"
+    },
+    "checked": "2026-09-30"
+  }
+}

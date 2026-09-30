@@ -1,0 +1,127 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-afrobarometer-african-insights-2026-global-order-agency-trade-migration-climate",
+  "title": "African publics seek integration and multi-partner agency while separating openness from practical exposure",
+  "theme_ids": ["voice", "cost", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption"
+  ],
+  "source_unit": "Afrobarometer, African Insights 2026: Beyond borders: Citizen perspectives on a shifting global order",
+  "geography": "38 African countries surveyed in Afrobarometer Round 10, 2024–2025",
+  "observations": [
+    {
+      "period": "2024–2025; trade liberalisation and continental economic integration",
+      "denominator": {"value": 38, "unit": "African countries in Afrobarometer Round 10 special modules", "value_type": "country_survey_frame"},
+      "measures": {
+        "free_trade_support": {"value": 62, "unit": "percent of citizens saying trade with other countries will benefit their economy", "value_type": "reported_survey_share"},
+        "country_majorities": {"value": 32, "unit": "number of surveyed countries with majorities endorsing free trade", "value_type": "reported_country_count"},
+        "afcfta_awareness": {"value": 13, "unit": "percent saying they have heard of the African Continental Free Trade Area", "value_type": "reported_survey_share"},
+        "material_openness": {"value": "People reporting worse personal living conditions were more likely to support liberalising trade", "unit": "reported association", "value_type": "analytic_mechanism"}
+      },
+      "method": "Afrobarometer Round 10 nationally representative public-opinion surveys with special modules on trade, migration, international relations, citizen voice, and climate change.",
+      "uncertainty": "The report presents cross-sectional associations and country comparisons; support for trade does not measure actual trade gains, household prices, employment, or distributional incidence.",
+      "subgroup": "Citizens across 38 African countries, with attitudes varying by country, reported living conditions, education, wealth, and development context.",
+      "counterinterpretation": "Support for trade may express aspiration for opportunity or dissatisfaction with current conditions rather than a settled preference for liberalisation under concrete policy trade-offs.",
+      "source_url": "https://www.afrobarometer.org/feature/african-insights-2026-beyond-borders-citizen-perspectives-on-a-shifting-global-order/",
+      "retrieval_hash": "sha256:67df9f65f4503ad89cea337f799478d946070f40dbc6fe9a8e9c2e0c5b4fec15",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; cross-border movement, migration, and emigration intention",
+      "denominator": {"value": 38, "unit": "African countries in the comparative survey frame", "value_type": "country_survey_frame"},
+      "measures": {
+        "free_movement_support": {"value": 56, "unit": "percent saying people in their subregion should be free to move across borders to live and work", "value_type": "reported_survey_share"},
+        "border_difficulty": {"value": 63, "unit": "percent saying it is difficult to cross borders to work or trade", "value_type": "reported_survey_share"},
+        "emigration_consideration": {"value": 45, "unit": "percent saying they have thought at least a little about moving to another country", "value_type": "reported_survey_share"},
+        "youth_emigration": {"value": 32, "unit": "percent of young respondents reported as having thought a lot about emigrating", "value_type": "reported_subgroup_share"},
+        "migration_tension": {"value": "Three-quarters would like or would not mind immigrants as neighbors, while economic competition produces much greater opposition to admitting foreign job seekers", "unit": "reported attitudinal contrast", "value_type": "analytic_mechanism"}
+      },
+      "method": "Comparative survey questions on free movement, ease of crossing borders, emigration intentions, attitudes toward immigrants and refugees, and admission of foreign job seekers.",
+      "uncertainty": "Intentions are not migration flows; neighbor acceptance, perceived economic effects, and policy preferences measure different objects and should not be collapsed into a single openness score.",
+      "subgroup": "Young people, highly educated respondents, people considering emigration, residents of different countries and subregions, and communities facing job scarcity.",
+      "counterinterpretation": "Support for open movement can coexist with demands for labor-market protection because respondents distinguish personal mobility, cultural contact, and competition for scarce work.",
+      "source_url": "https://www.afrobarometer.org/feature/african-insights-2026-beyond-borders-citizen-perspectives-on-a-shifting-global-order/",
+      "retrieval_hash": "sha256:67df9f65f4503ad89cea337f799478d946070f40dbc6fe9a8e9c2e0c5b4fec15",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; external powers, African voice, and multipolar strategy",
+      "denominator": {"value": 38, "unit": "African countries in the comparative international-relations survey module", "value_type": "country_survey_frame"},
+      "measures": {
+        "china_influence_positive": {"value": 62, "unit": "percent viewing China’s economic and political influence positively", "value_type": "reported_survey_share"},
+        "us_influence_positive": {"value": 52, "unit": "percent viewing U.S. influence positively", "value_type": "reported_survey_share"},
+        "eu_influence_positive": {"value": 50, "unit": "percent viewing EU influence positively", "value_type": "reported_survey_share"},
+        "neutrality_preference": {"value": 72, "unit": "percent preferring neutrality in the Russia–Ukraine war among those aware of the conflict", "value_type": "reported_subgroup_share"},
+        "global_voice": {"value": 71, "unit": "percent saying African countries should have greater influence in international decision-making bodies", "value_type": "reported_survey_share"},
+        "multi_partner_agency": {"value": "Attitudes toward external powers were often positively correlated, suggesting many publics seek benefits from multiple partnerships rather than treating relationships as a zero-sum choice", "unit": "reported comparative pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Cross-national survey module on perceived influence of major powers, war neutrality, AU/REC influence, and African representation in global institutions.",
+      "uncertainty": "Perceived influence and favorability are not measures of aid, investment, military dependence, diplomatic alignment, or policy outcomes; neutrality responses depend on conflict awareness and question context.",
+      "subgroup": "Citizens across African countries with different colonial histories, economic ties, media environments, and regional institutions.",
+      "counterinterpretation": "Positive views of multiple powers may reflect generalized openness or pragmatic diversification rather than durable strategic autonomy or equal bargaining power.",
+      "source_url": "https://www.afrobarometer.org/feature/african-insights-2026-beyond-borders-citizen-perspectives-on-a-shifting-global-order/",
+      "retrieval_hash": "sha256:67df9f65f4503ad89cea337f799478d946070f40dbc6fe9a8e9c2e0c5b4fec15",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; climate exposure, adaptation, and climate justice",
+      "denominator": {"value": 35, "unit": "African countries used for the comparable climate-responsibility trend measure", "value_type": "country_survey_frame"},
+      "measures": {
+        "climate_literacy": {"value": 43, "unit": "percent identified as climate-change-literate in the report’s definition", "value_type": "reported_survey_share"},
+        "worsening_life": {"value": 80, "unit": "percent of climate-literate respondents saying climate change is making life worse in their country", "value_type": "reported_subgroup_share"},
+        "drought_crop_exposure": {"value": "About 51 percent reported that droughts and crop failures had become more severe in their area over the past decade", "unit": "reported survey share", "value_type": "reported_pattern"},
+        "daily_adjustment": {"value": 60, "unit": "percent reporting at least one significant adjustment to daily life in response to changing weather patterns", "value_type": "reported_survey_share"},
+        "relocation": {"value": 19, "unit": "percent saying they or a family member had to relocate in response to changing weather patterns", "value_type": "reported_survey_share"},
+        "responsibility_shift": {"value": "The share assigning primary responsibility for limiting climate change to rich/developed countries rose 14 percentage points since 2021/2023", "unit": "reported trend change", "value_type": "reported_change"}
+      },
+      "method": "Survey module on climate knowledge, perceived impacts, household adaptation, relocation, responsibility, and support for mitigation and resilient infrastructure.",
+      "uncertainty": "Self-reported exposure and adaptation are not physical climate measurements or verified relocation records; the climate-literate subgroup excludes respondents who did not meet the report’s knowledge definition.",
+      "subgroup": "Climate-literate respondents, households experiencing drought or crop failure, people adapting daily practices, and communities facing relocation or cost exposure.",
+      "counterinterpretation": "Support for renewable energy and resilient infrastructure may weaken when policies are perceived to raise immediate household costs, so climate concern does not imply unconditional policy support.",
+      "source_url": "https://www.afrobarometer.org/feature/african-insights-2026-beyond-borders-citizen-perspectives-on-a-shifting-global-order/",
+      "retrieval_hash": "sha256:67df9f65f4503ad89cea337f799478d946070f40dbc6fe9a8e9c2e0c5b4fec15",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; social tolerance, interpersonal trust, and the immigration boundary",
+      "denominator": {"value": 50961, "unit": "Afrobarometer Round 10 interviews across 38 African countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "trust_relatives": {"value": 81, "unit": "percent saying they trust relatives somewhat or a lot", "value_type": "reported_survey_share"},
+        "trust_neighbours": {"value": 58, "unit": "percent saying they trust neighbours somewhat or a lot", "value_type": "reported_survey_share"},
+        "trust_different_ethnicity": {"value": 49, "unit": "percent saying they trust people of a different ethnicity somewhat or a lot", "value_type": "reported_survey_share"},
+        "trust_different_religion": {"value": 48, "unit": "percent saying they trust people of a different religion somewhat or a lot", "value_type": "reported_survey_share"},
+        "accept_different_ethnicity_neighbour": {"value": 87, "unit": "percent who would welcome or accept a neighbour of a different ethnicity", "value_type": "reported_survey_share"},
+        "accept_different_religion_neighbour": {"value": 84, "unit": "percent who would welcome or accept a neighbour of a different religion", "value_type": "reported_survey_share"},
+        "accept_different_nationality_neighbour": {"value": 77, "unit": "percent who would welcome or accept a neighbour of a different nationality", "value_type": "reported_survey_share"},
+        "fewer_or_no_foreign_job_seekers": {"value": 64, "unit": "percent favouring admission of fewer or no foreign job seekers", "value_type": "reported_survey_share"},
+        "fewer_or_no_refugees": {"value": 70, "unit": "percent favouring admission of fewer or no refugees", "value_type": "reported_survey_share"},
+        "immigrant_economic_contribution_split": {"value": "45% say immigrants contribute positively to the economy versus 44% negatively", "unit": "reported attitudinal split", "value_type": "reported_survey_pattern"},
+        "social_cohesion_mechanism": {"value": "tolerance toward neighbours is higher than interpersonal trust across social distance, while immigration activates a more restrictive boundary of inclusion", "unit": "reported comparative mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Afrobarometer Round 10 Pan-Africa Profile using 50,961 interviews in 38 African countries in 2024/2025; reported tolerance, trust, migration and refugee items are separate measures, not a pooled cohesion index.",
+      "uncertainty": "Country distributions, item-specific bases, weighting details and subgroup estimates should be consulted in the full profile; stated tolerance and admission preferences are not observed neighbour relations, migration flows, institutional performance or realized exclusion.",
+      "subgroup": "Citizens across 38 African countries, with social distance, country, identity, institutional and migration-attitude variation retained by the source.",
+      "counterinterpretation": "High acceptance of a hypothetical neighbour can reflect a broad norm of coexistence without implying close trust, equal treatment, willingness to share scarce jobs, or support for refugee admission; restrictive migration preferences can also reflect capacity concerns rather than generalized hostility.",
+      "source_url": "https://www.afrobarometer.org/publication/ad1227-social-cohesion-in-africa-bonds-belonging-and-the-common-good/",
+      "retrieval_hash": "sha256:02e97cfa9cb823a48ac01ea89430496b3b07be5a07592e9eb8fb685cfc0740a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.afrobarometer.org/topics/regional-global-relations/", "claim": "Afrobarometer topic page with country dispatches and related regional/global-relations findings."},
+    {"source_url": "https://www.afrobarometer.org/event/launch-of-african-insights-2026-flagship-report/", "claim": "Launch page describing the Round 10 nationally representative survey basis and report scope."}
+  ],
+  "boundary": "This record adds African public-opinion evidence on trade integration, mobility, migration, external powers, global voice, and climate justice. It preserves attitudes, reported exposure, and intentions as distinct from realized trade, migration, geopolitical leverage, climate damage, policy implementation, or household welfare; country comparisons and associations are not causal estimates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Afrobarometer flagship report page reviewed for 38-country survey frame, trade and AfCFTA awareness, mobility and emigration, immigration attitudes, external-power influence, neutrality, African global voice, climate exposure, adaptation, relocation, and responsibility findings.",
+    "source_url_sha256": "sha256:67df9f65f4503ad89cea337f799478d946070f40dbc6fe9a8e9c2e0c5b4fec15",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-government-science-global-supply-chains-foresight-2026-network-risk-resilience",
+  "title": "Supply-chain resilience is a network, climate, geopolitical, and household-affordability problem rather than a bilateral trade problem",
+  "theme_ids": ["cost", "energy", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Government Office for Science, Global supply chains: a foresight report on risk and resilience",
+  "geography": "Global supply networks with a UK exposure lens and comparisons to other large advanced economies, including the United States, China, Japan, France, and Italy",
+  "observations": [
+    {
+      "period": "2026 report; current supply-network vulnerability",
+      "denominator": {"value": 1, "unit": "global supply-network system relevant to the United Kingdom", "value_type": "system_foresight_frame"},
+      "measures": {
+        "risk_structure": {"value": "supply chains are multi-tier networks in which risk is concentrated in a small number of firms, routes, and chokepoints", "unit": "reported network finding", "value_type": "reported_mechanism"},
+        "shared_risk": {"value": "shared suppliers, regions, infrastructure, and routes can cause well-prepared firms to fail together", "unit": "reported systemic finding", "value_type": "reported_mechanism"},
+        "visibility_gap": {"value": "risk often sits several production steps upstream and is not visible in traditional bilateral trade statistics", "unit": "reported measurement boundary", "value_type": "reported_boundary"},
+        "policy_implication": {"value": "targeted and system-level coordination can be more effective than broad, undifferentiated interventions", "unit": "reported policy implication", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UK Government Office for Science foresight study combining literature and evidence review, supply-chain network modelling, and scenario development.",
+      "uncertainty": "The report is a foresight study rather than a disruption forecast; modelled network vulnerability and scenarios identify plausible structural risks but do not predict a specific event, price, shortage, or household outcome.",
+      "subgroup": "Households, firms, workers, governments, logistics and infrastructure operators, and communities dependent on globally sourced food, energy, medicine, technology, and other essential inputs.",
+      "counterinterpretation": "Decentralized sourcing, inventory, substitution, demand adjustment, and firm-level adaptation can reduce realized disruption; network centrality is not identical to inevitable failure.",
+      "source_url": "https://www.gov.uk/government/publications/global-supply-chains-a-foresight-report-on-risk-and-resilience/global-supply-chains-a-foresight-report-on-risk-and-resilience",
+      "retrieval_hash": "sha256:6fb91020c3ebb2e0500dced99ff981765e4f724341443c29d01cec069fe3b26b",
+      "status": "reported"
+    },
+    {
+      "period": "2024 trade exposure; UK and advanced-economy comparison",
+      "denominator": {"value": 100, "unit": "percent of GDP in the comparison of 2024 goods and services trade flows", "value_type": "national_trade_exposure_frame"},
+      "measures": {
+        "uk_trade_to_gdp": {"value": 63, "unit": "percent; UK goods and services trade flows relative to GDP in 2024", "value_type": "reported_ratio"},
+        "us_trade_to_gdp": {"value": 25, "unit": "percent; United States comparison in the report", "value_type": "reported_ratio"},
+        "china_trade_to_gdp": {"value": 37, "unit": "percent; China comparison in the report", "value_type": "reported_ratio"},
+        "foreign_intermediate_inputs": {"value": 50, "unit": "percent or around; share of total UK production depending on intermediate inputs produced abroad", "value_type": "reported_estimate"}
+      },
+      "method": "Report synthesis using national trade and input-dependence statistics to frame how exposure differs across advanced economies.",
+      "uncertainty": "Trade-to-GDP ratios measure openness and flows, not vulnerability by themselves; they do not reveal sectoral substitutability, stockpiles, domestic capacity, price incidence, or distribution across households.",
+      "subgroup": "Trade-exposed households, import-dependent firms, workers in globally linked sectors, and public systems relying on foreign intermediate inputs.",
+      "counterinterpretation": "High openness can diversify suppliers and create resilience through access to multiple markets; lower trade exposure can conceal domestic bottlenecks or reduce substitution options.",
+      "source_url": "https://www.gov.uk/government/publications/global-supply-chains-a-foresight-report-on-risk-and-resilience/global-supply-chains-a-foresight-report-on-risk-and-resilience",
+      "retrieval_hash": "sha256:6fb91020c3ebb2e0500dced99ff981765e4f724341443c29d01cec069fe3b26b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; 2040 scenarios and critical uncertainties",
+      "denominator": {"value": 4, "unit": "plausible 2040 supply-chain scenarios", "value_type": "scenario_set"},
+      "measures": {
+        "critical_uncertainties": {"value": "the scenarios vary the degree of geopolitical fragmentation or cooperation and the degree of proactive climate-adaptation investment", "unit": "reported scenario axes", "value_type": "scenario_framework"},
+        "scenario_use": {"value": "similar climate hazards can produce very different outcomes depending on governance, cooperation, and resilience choices", "unit": "reported scenario implication", "value_type": "reported_mechanism"},
+        "resilience_tradeoff": {"value": "resilience involves trade-offs and is an ongoing, context-specific process rather than a one-off fix", "unit": "reported analytical conclusion", "value_type": "reported_interpretation"}
+      },
+      "method": "Structured UK Government Futures Toolkit process using evidence review, agent-based supply-chain modelling, and four evidence-anchored scenarios to 2040.",
+      "uncertainty": "Scenarios are deliberately stretching thinking tools, not forecasts or probability-weighted predictions; their value is in stress-testing assumptions and interventions.",
+      "subgroup": "National policymakers, firms, infrastructure operators, communities, consumers, and allied or non-aligned states whose choices shape supply-chain cooperation and adaptation.",
+      "counterinterpretation": "Scenario divergence may overstate the separability of geopolitical and climate pathways; actual institutions may create mixed or intermediate outcomes not represented by the four narratives.",
+      "source_url": "https://www.gov.uk/government/publications/global-supply-chains-a-foresight-report-on-risk-and-resilience/global-supply-chains-a-foresight-report-on-risk-and-resilience",
+      "retrieval_hash": "sha256:6fb91020c3ebb2e0500dced99ff981765e4f724341443c29d01cec069fe3b26b",
+      "status": "estimated"
+    },
+    {
+      "period": "2021-2024 examples; disruption, prices, and chokepoints",
+      "denominator": {"value": 1, "unit": "named disruption-example set in the report", "value_type": "case_example_frame"},
+      "measures": {
+        "suez_trade_delay": {"value": 9600000000, "unit": "US dollars of estimated trade delayed per day by the 2021 Suez Canal blockage", "value_type": "reported_estimate"},
+        "uk_cpi_peak": {"value": 11.1, "unit": "percent UK CPI inflation in October 2022, associated in the report with energy-market disruption after Russia's invasion of Ukraine", "value_type": "reported_macro_observation"},
+        "chokepoint_route": {"value": "Suez blockage, Panama Canal drought, and Middle East maritime risks show how physical and geopolitical chokepoints can raise shipping, energy, and consumer-goods costs", "unit": "reported transmission pathway", "value_type": "reported_mechanism"},
+        "household_boundary": {"value": "the report identifies affordability and availability risks but does not estimate the distribution of realized household burden", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Foresight report synthesis of recent disruption episodes and their supply-chain, price, energy, and transport implications.",
+      "uncertainty": "The examples illustrate transmission mechanisms but do not isolate causal effects, establish a common effect size, or show how quickly different households, firms, or governments recovered.",
+      "subgroup": "Consumers, energy users, import-dependent firms, logistics workers, and communities exposed to price or availability changes after chokepoint disruption.",
+      "counterinterpretation": "Substitution, rerouting, inventories, demand reduction, public support, and temporary disruption can limit longer-run effects; headline trade delay is not household welfare loss.",
+      "source_url": "https://www.gov.uk/government/publications/global-supply-chains-a-foresight-report-on-risk-and-resilience/global-supply-chains-a-foresight-report-on-risk-and-resilience",
+      "retrieval_hash": "sha256:6fb91020c3ebb2e0500dced99ff981765e4f724341443c29d01cec069fe3b26b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/global-supply-chains-a-foresight-report-on-risk-and-resilience", "claim": "Official GOV.UK publication page with the web report, PDF, and modelling annexes."},
+    {"source_url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts", "claim": "UK Government Futures Toolkit used as the report's foresight-method reference."}
+  ],
+  "boundary": "This record adds a UK-centered but globally relevant network-resilience layer to the geopolitical and household-cost map. It is a foresight study using evidence, modelling, and scenarios; it is not a disruption forecast, a realized price or shortage panel, a firm-level causal study, a household survey, or proof of strategic success.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK web report was reviewed for network concentration, shared risk, UK trade exposure, foreign intermediate inputs, scenario axes, modelling approach, disruption examples, and household-affordability boundaries.",
+    "source_url_sha256": "sha256:6fb91020c3ebb2e0500dced99ff981765e4f724341443c29d01cec069fe3b26b",
+    "checked": "2026-09-28"
+  }
+}

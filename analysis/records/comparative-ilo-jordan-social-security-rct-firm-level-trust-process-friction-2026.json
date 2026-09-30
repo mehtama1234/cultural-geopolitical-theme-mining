@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-jordan-social-security-rct-firm-level-trust-process-friction-2026",
+  "title": "Formalization is a trust-and-implementation bargain: digital awareness cannot cross process friction alone",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Impact evaluation of behaviourally informed awareness campaigns to expand social security coverage in Jordan: Findings from firm-level data, 2026 publication of preliminary RCT findings",
+  "geography": "Jordan; small firms with up to nine registered employees, using Social Security Corporation administrative data and firm-level surveys",
+  "observations": [
+    {
+      "period": "2023–2025; firm-level administrative and survey evidence from the first randomized trial",
+      "denominator": {"value": 45748, "unit": "firms in the face-to-face administrative-data sample", "value_type": "reported_observation_frame"},
+      "measures": {
+        "panel_recontact": {"value": 91, "unit": "percent of baseline firms re-surveyed at endline", "value_type": "reported_survey_quality_indicator"},
+        "worker_profile": {"value": "the average firm had roughly two registered workers and the median firm had one; workers, firms and administrative records were observed across 2023–2024", "unit": "reported firm-level composition", "value_type": "reported_sample_description"},
+        "heterogeneous_effect": {"value": "face-to-face outreach was strongest among firms with 6–9 workers and among employees earning JOD 500 per month or less; evidence for Syrian-worker registration was more encouraging in smaller 2–5-worker firms", "unit": "reported subgroup pattern", "value_type": "reported_heterogeneity_finding"},
+        "mechanism": {"value": "formalization incentives are not uniform: firm scale, worker eligibility, wage threshold, nationality, and prior institutional contact shape whether outreach becomes registration", "unit": "bounded heterogeneous-take-up mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Preliminary first-RCT analysis combining Social Security Corporation administrative data with baseline and endline firm surveys; randomized in-person and SMS interventions with subgroup analysis.",
+      "uncertainty": "The sample consists of firms already registered with SSC and maintaining an official online account, so the results do not directly identify firms with no prior institutional contact or fully hidden informal employment; results are preliminary.",
+      "subgroup": "Small firms, low-wage workers, Syrian workers, women and other workers with weak social-protection access, and firms with differing administrative capacity.",
+      "counterinterpretation": "Observed subgroup differences may reflect eligibility, baseline registration, firm composition, or power to implement the intervention rather than a stable preference for formalization across groups.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/59169%20-%20RCT%201%20-%20Final%20-%20Web.pdf",
+      "retrieval_hash": "sha256:a6c7090501dfcb07772c9a533852fb28c55cbd7d74b63a6c7879a08eabd04022",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; firm interaction with Social Security Corporation digital services",
+      "denominator": {"value": 1, "unit": "firm-level WhatsApp survey and SSC e-service experience", "value_type": "reported_process-evidence_frame"},
+      "measures": {
+        "employee_update_friction": {"value": 981, "unit": "reported mentions of difficulty updating employee information", "value_type": "reported_process_friction"},
+        "document_upload_friction": {"value": 492, "unit": "reported mentions of difficulty uploading required documents", "value_type": "reported_process_friction"},
+        "other_friction": {"value": "firms also reported difficulty with forms, documentation, payments, balances, instalments, employee status changes, injuries, maternity and unemployment claims, slow websites, logins and verification codes", "unit": "reported administrative-friction set", "value_type": "reported_process_friction"},
+        "mechanism": {"value": "awareness does not become compliance when the state-facing interface transfers data-management, document, payment and troubleshooting work onto small firms", "unit": "bounded administrative-burden mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Firm-level WhatsApp survey and administrative-process feedback collected alongside the randomized interventions.",
+      "uncertainty": "Mention counts are not prevalence estimates for all firms and may overrepresent the problems users chose to report; the study does not experimentally isolate which interface repair would increase registration.",
+      "subgroup": "Small employers and workers with limited administrative staff, weak digital capacity, irregular employment, complex documents, or constrained ability to absorb compliance time.",
+      "counterinterpretation": "Some reported problems may arise from unfamiliarity or temporary technical conditions rather than permanent system design; simplifying interfaces may not overcome affordability or benefit-attractiveness concerns.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/59169%20-%20RCT%201%20-%20Final%20-%20Web.pdf",
+      "retrieval_hash": "sha256:a6c7090501dfcb07772c9a533852fb28c55cbd7d74b63a6c7879a08eabd04022",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; implementation, public meaning and next-stage hybrid outreach design",
+      "denominator": {"value": 1, "unit": "first-RCT implementation and policy-learning frame", "value_type": "reported_implementation_frame"},
+      "measures": {
+        "trust_signal": {"value": "some firms interpreted visits as inspection-related rather than supportive, while social-media discussion generated interest but also reported opportunistic registration of ineligible workers or relatives; the scale of opportunism remains unclear", "unit": "reported institutional-trust and integrity signal", "value_type": "reported_implementation_finding"},
+        "data_freshness": {"value": "eligibility mismatches arose when firm data were stale relative to visits, because employment status, wages, or prior participation had changed", "unit": "reported data-to-service mismatch", "value_type": "reported_implementation_finding"},
+        "hybrid_design": {"value": "the next trial tests live information sessions with phone invitations and SMS follow-up, alongside child benefits intended to increase the perceived attractiveness of registration", "unit": "reported next-stage design", "value_type": "reported_program_design"},
+        "mechanism": {"value": "formalization requires an institution to be legible, trustworthy, current, and administratively usable; poorly timed data or enforcement-like contact can undermine the same outreach intended to build compliance", "unit": "bounded trust-and-implementation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Implementation learning from outreach officers, firm feedback, administrative-data checks, and policy implications linking RCT 1 to a subsequent RCT 2.",
+      "uncertainty": "Implementation reports include qualitative feedback and unclear prevalence of opportunistic behavior; the second RCT was underway and its outcomes are not established in this publication.",
+      "subgroup": "Firms with changing workforces, overdue contributions, seasonal or irregular operations, workers with uncertain eligibility, and administrative staff interacting with public systems.",
+      "counterinterpretation": "Perceived inspection may reflect necessary enforcement rather than harmful mistrust; hybrid outreach can increase coordination burden or still fail if benefits remain inadequate or contributions unaffordable.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/59169%20-%20RCT%201%20-%20Final%20-%20Web.pdf",
+      "retrieval_hash": "sha256:a6c7090501dfcb07772c9a533852fb28c55cbd7d74b63a6c7879a08eabd04022",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/impact-evaluation-behaviourally-informed-awareness-campaigns-expand-social", "claim": "Official ILO publication page with study scope, date, administrative and survey evidence, PDF, DOI and ISBN."},
+    {"source_url": "https://www.ilo.org/projects-and-partnerships/projects/estidama-fund-%E2%80%93-extension-coverage-and-formalization-jordan", "claim": "Official Estidama++ project page with programme context, target groups and implementation impact."},
+    {"source_url": "https://doi.org/10.54394/BWOO9132", "claim": "Official DOI for the firm-level impact evaluation."}
+  ],
+  "boundary": "This record extends the Jordan social-security experiment with firm-level heterogeneity, administrative-interface friction, data freshness, perceived inspection, and implementation integrity. It is preliminary evidence from firms already connected to SSC, not a causal estimate of long-run formalization, benefit adequacy, trust, job quality, household welfare, or outcomes among firms and workers entirely outside the administrative system.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO 60-page firm-level RCT report and publication/project pages, study frame, subgroup heterogeneity, digital-process friction, implementation challenges, trust signals, data freshness, hybrid RCT2 design and preliminary boundary were reviewed.",
+    "source_url_sha256": "sha256:a6c7090501dfcb07772c9a533852fb28c55cbd7d74b63a6c7879a08eabd04022",
+    "checked": "2026-09-29"
+  }
+}

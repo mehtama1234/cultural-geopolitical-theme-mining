@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eit-food-trust-report-2026-consumer-information-confidence",
+  "title": "European consumers report growing confidence in their own food choices while trust in the surrounding information environment remains fragile",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "EIT Food Consumer Observatory, Trust Report 2026: Who do consumers believe?",
+  "geography": "Consumers across 18 European countries; nearly 20,000 respondents in the TrustTracker study",
+  "observations": [
+    {
+      "period": "2024–2025; confidence in making food choices",
+      "denominator": {"value": 20000, "unit": "approximately European consumers surveyed across 18 countries in TrustTracker; exact sample varies by analysis", "value_type": "survey_sample_approximate"},
+      "measures": {
+        "good_food_choice_confidence": {"value": "Increased from 60% in 2024 to 66% in 2025", "unit": "reported share change", "value_type": "reported_share_change"},
+        "healthy_diet_knowledge": {"value": "Around 72% felt their knowledge of the healthiness of food was sufficient in 2025, according to the report summary", "unit": "reported European consumer share", "value_type": "reported_share"},
+        "choice_confidence_information_trust": {"value": "Confidence in personal choices rose while fewer than half considered food information itself reliable", "unit": "reported divergence", "value_type": "reported_pattern"}
+      },
+      "method": "EIT Food TrustTracker cross-national consumer research reported in the fourth 2026 Trust Report chapter; repeated survey comparison across 2024 and 2025.",
+      "uncertainty": "The report page provides headline findings rather than a full public table of question wording, weights, country samples, or uncertainty intervals; confidence is self-reported and does not establish diet quality or realized sustainability.",
+      "subgroup": "European consumers across 18 countries, with differences potentially shaped by country, age, income, education, diet, and food-system experience.",
+      "counterinterpretation": "Growing confidence can reflect improved self-efficacy or decision heuristics even when information quality is contested; it does not necessarily mean consumers are misinformed or making worse choices.",
+      "source_url": "https://www.eitfood.eu/reports/trust-report-2026-fourth-issue-who-do-consumers-believe",
+      "retrieval_hash": "sha256:ee9ae288a208ca4eabc15f3aa4cd7e9506e31f1ba3672a784bb18721cc396eee",
+      "status": "reported"
+    },
+    {
+      "period": "2025; reliability and source discovery",
+      "denominator": {"value": 20000, "unit": "approximately European consumers across 18 countries; multiple source and confidence responses", "value_type": "survey_sample_approximate"},
+      "measures": {
+        "food_information_reliability": {"value": "Fewer than half considered food information reliable", "unit": "reported European consumer pattern", "value_type": "reported_pattern"},
+        "trusted_source_discovery": {"value": 53, "unit": "percent saying they know where to find sources they can trust", "value_type": "reported_share"},
+        "self_assessed_discrimination": {"value": "Consumers reported growing confidence in separating reliable from unreliable information", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "information_gap": {"value": "Personal confidence and source-environment confidence moved in different directions", "unit": "reported cross-domain pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Cross-national TrustTracker measures of perceived information reliability, source discovery, and self-assessed ability to distinguish reliable information.",
+      "uncertainty": "The source does not provide an objective accuracy test, source-specific causal attribution, or a behavioral measure of whether respondents actually use trusted sources.",
+      "subgroup": "Consumers using food labels, health and sustainability information, media, expert sources, retailers, manufacturers, public authorities, and informal networks.",
+      "counterinterpretation": "Knowing where to find trusted sources may be a meaningful information capability even if trust in the broader information environment remains low.",
+      "source_url": "https://www.eitfood.eu/reports/trust-report-2026-fourth-issue-who-do-consumers-believe",
+      "retrieval_hash": "sha256:ee9ae288a208ca4eabc15f3aa4cd7e9506e31f1ba3672a784bb18721cc396eee",
+      "status": "reported"
+    },
+    {
+      "period": "2025; food-information legitimacy and communication",
+      "denominator": {"value": 1, "unit": "EIT Food report recommendations derived from the 18-country consumer study", "value_type": "report_recommendation_frame"},
+      "measures": {
+        "needed_information": {"value": "Accessible, understandable, clearly sourced, transparent, third-party validated, concise, evidence-based information", "unit": "reported recommendation set", "value_type": "reported_pattern"},
+        "trust_problem": {"value": "Consumers need information they can understand, assess, and trust rather than simply more information", "unit": "reported interpretation", "value_type": "reported_pattern"},
+        "stakeholder_route": {"value": "The report addresses policymakers, researchers, food businesses, and communicators", "unit": "reported intervention audience", "value_type": "reported_pattern"}
+      },
+      "method": "Synthesis and recommendations from a consumer-observatory report series linking trust, knowledge, and behavior.",
+      "uncertainty": "Recommendations are not an evaluated intervention; the study cannot show which communication or validation mechanism changes purchasing, diet, health, or sustainability outcomes.",
+      "subgroup": "Food consumers, businesses, public authorities, researchers, educators, communicators, and third-party validators.",
+      "counterinterpretation": "Information design may improve usability without resolving affordability, habit, time, access, or cultural meaning constraints that shape food choices.",
+      "source_url": "https://www.eitfood.eu/reports/trust-report-2026-fourth-issue-who-do-consumers-believe",
+      "retrieval_hash": "sha256:ee9ae288a208ca4eabc15f3aa4cd7e9506e31f1ba3672a784bb18721cc396eee",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust–knowledge–behavior system",
+      "denominator": {"value": 20000, "unit": "approximately consumers surveyed across 18 European countries in the Trust Report series", "value_type": "survey_series_frame"},
+      "measures": {
+        "series_scope": {"value": "The 2026 series covers intention and diet, food-system trust, innovation trust, and who consumers believe", "unit": "four report chapters", "value_type": "reported_scope"},
+        "behavior_link": {"value": "The series frames trust, knowledge, and behavior as interacting influences on food choices", "unit": "reported conceptual frame", "value_type": "reported_pattern"},
+        "innovation_context": {"value": "Food-technology openness is treated as connected to familiarity and cultural perceptions", "unit": "related report context", "value_type": "reported_pattern"}
+      },
+      "method": "Consumer-observatory series using repeated cross-national survey evidence and thematic chapters.",
+      "uncertainty": "The conceptual relationship among trust, knowledge, and behavior is not a causal model; chapter-level measures may differ in samples, timing, and operational definitions.",
+      "subgroup": "Consumers facing health, affordability, sustainability, innovation, and cultural-choice tradeoffs in European food systems.",
+      "counterinterpretation": "Trust can be a condition for adoption but not a substitute for price, availability, taste, convenience, household time, or institutional regulation.",
+      "source_url": "https://www.eitfood.eu/reports/trust-report-2026-fourth-issue-who-do-consumers-believe",
+      "retrieval_hash": "sha256:ee9ae288a208ca4eabc15f3aa4cd7e9506e31f1ba3672a784bb18721cc396eee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.eitfood.eu/projects/consumerobservatory/consumer-observatory-reports", "claim": "EIT Food report library and chapter context."},
+    {"source_url": "https://www.eitfood.eu/reports/trust-report-2026-second-issue-the-state-of-trust-in-europes-food-system", "claim": "Related food-system trust chapter covering trust in farmers, retailers, manufacturers, restaurants, and authorities."}
+  ],
+  "boundary": "This record adds a European food-information and consumer-trust layer. It uses self-reported, cross-national TrustTracker survey findings summarized on the EIT Food report page; it does not provide a public respondent-level file, objective accuracy test, causal model, realized diet or sustainability outcomes, or intervention evaluation. The report is produced by an agrifood consumer-observatory organization and should be read with its sponsorship and disclosure context.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "EIT Food report page reviewed for publication date, 18-country scope, approximately 20,000 respondents, confidence change, information reliability, trusted-source discovery, and recommendations.",
+    "source_url_sha256": "sha256:ee9ae288a208ca4eabc15f3aa4cd7e9506e31f1ba3672a784bb18721cc396eee",
+    "checked": "2026-09-28"
+  }
+}

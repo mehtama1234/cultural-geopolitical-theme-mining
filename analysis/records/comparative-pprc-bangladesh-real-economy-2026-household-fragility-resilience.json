@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pprc-bangladesh-real-economy-2026-household-fragility-resilience",
+  "title": "Bangladeshi households are resilient through work and networks, but cumulative shocks are converting near-poverty into a fragile middle",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Power and Participation Research Centre, State of the Real Economy 2026: Dynamics of Reversals and Resilience in Bangladesh",
+  "geography": "Bangladesh; nationally representative household survey conducted in 2025 with analysis of household economy, work, health, social protection, digital participation, and governance",
+  "observations": [
+    {
+      "period": "2025 survey; household financial room, poverty, and vulnerable non-poor status",
+      "denominator": {"value": 8067, "unit": "households surveyed nationwide in Bangladesh", "value_type": "reported_nationally_representative_sample"},
+      "measures": {
+        "upper_poverty_line": {"value": 27.9, "unit": "percent of surveyed households below the report's upper poverty line", "value_type": "reported_share"},
+        "vulnerable_nonpoor": {"value": 18.0, "unit": "percent identified as vulnerable non-poor", "value_type": "reported_share"},
+        "budget_room": {"value": "For many households, income is absorbed by essentials, leaving little room to save or absorb illness, price shocks, or income loss", "unit": "reported household pattern", "value_type": "reported_pattern"},
+        "fragile_middle": {"value": "Poverty is only part of the story: households above the poverty line can remain near it and exposed to downward mobility", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "PPRC nationally representative household survey and multidimensional analysis of income, expenditure, poverty, vulnerability, and household security.",
+      "uncertainty": "The report's poverty thresholds and vulnerability classification are survey- and methodology-dependent; cross-sectional status does not establish mobility, duration, or causal pathways into or out of poverty.",
+      "subgroup": "Poor households, vulnerable non-poor households, rural and urban households, workers, households with illness, and families with different income and asset positions.",
+      "counterinterpretation": "Limited budget room can coexist with adaptive strategies and informal support; vulnerable non-poor status identifies exposure to shocks, not inevitable impoverishment.",
+      "source_url": "https://www.pprc-bd.org/state-of-the-real-economy-2026/",
+      "retrieval_hash": "sha256:65215803327e20e686009b3b10d0bd407fe1d4f0ee2ec293ac108a0ebb1097d5",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; accumulation of household pressures",
+      "denominator": {"value": 8067, "unit": "households surveyed nationwide in Bangladesh", "value_type": "reported_nationally_representative_sample"},
+      "measures": {
+        "risk_stack": {"value": "Informal work, debt, food insecurity, chronic illness, limited savings, inadequate protection, and governance frictions reinforce one another", "unit": "reported household risk pattern", "value_type": "reported_pattern"},
+        "recovery_difficulty": {"value": "The accumulation of risks, rather than a single shock alone, makes household recovery difficult", "unit": "reported analytical mechanism", "value_type": "bounded_mechanism"},
+        "health_finance": {"value": "Health-related expenditure is identified as part of the economic-security problem alongside employment, debt, food, and social protection", "unit": "reported cross-domain linkage", "value_type": "reported_mechanism"},
+        "governance_friction": {"value": "Institutional harassment and governance frictions are included as household-economic pressures rather than treated as external political context", "unit": "reported analytical framing", "value_type": "reported_mechanism"}
+      },
+      "method": "PPRC survey analysis across employment, income, expenditure, savings, debt, food insecurity, chronic illness, social protection, institutional experience, and governance.",
+      "uncertainty": "The report identifies multidimensional co-occurrence and household perceptions; it does not by itself estimate causal interaction effects or compare the relative contribution of each pressure.",
+      "subgroup": "Households with informal or under-employed workers, debt exposure, food insecurity, chronic illness, weak savings, or limited access to protection and fair institutions.",
+      "counterinterpretation": "Multiple pressures can prompt effective diversification, migration, or mutual aid; correlation among risks does not prove that one domain causes the others.",
+      "source_url": "https://www.pprc-bd.org/state-of-the-real-economy-2026/",
+      "retrieval_hash": "sha256:65215803327e20e686009b3b10d0bd407fe1d4f0ee2ec293ac108a0ebb1097d5",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; household resilience, coping, and limits",
+      "denominator": {"value": 8067, "unit": "households surveyed nationwide in Bangladesh", "value_type": "reported_nationally_representative_sample"},
+      "measures": {
+        "coping_routes": {"value": "Households adapt through work, migration, social networks, asset use, and other forms of adjustment", "unit": "reported coping pattern", "value_type": "reported_pattern"},
+        "resilience_fragility": {"value": "Persistent household resilience coexists with growing economic fragility and reversals in poverty reduction", "unit": "reported synthesis", "value_type": "reported_mechanism"},
+        "institutional_limit": {"value": "Coping mechanisms cannot substitute indefinitely for reliable institutions, productive work, social protection, health financing, and accountable governance", "unit": "reported policy mechanism", "value_type": "bounded_mechanism"},
+        "resilience_meaning": {"value": "Resilience is treated as an active household practice with material costs, not proof that households are secure or that institutions are functioning well", "unit": "bounded analytical interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "PPRC household survey synthesis and interpretation of work, migration, networks, assets, adaptation, and institutional support.",
+      "uncertainty": "Self-reported coping and cross-sectional resilience measures do not quantify depletion of assets, unpaid time, mental load, or the durability of adaptation after repeated shocks.",
+      "subgroup": "Households relying on labor diversification, migration, kin and community networks, assets, informal finance, or digital participation to manage shocks.",
+      "counterinterpretation": "Networks and migration may create durable mobility and opportunity rather than only emergency coping; institutional support can be effective even when household strategies remain necessary.",
+      "source_url": "https://www.pprc-bd.org/state-of-the-real-economy-2026/",
+      "retrieval_hash": "sha256:65215803327e20e686009b3b10d0bd407fe1d4f0ee2ec293ac108a0ebb1097d5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; transition compact and policy translation",
+      "denominator": {"value": 1, "unit": "Bangladesh household-centered policy framework proposed by the report", "value_type": "reported_policy_framework"},
+      "measures": {
+        "policy_compact": {"value": "The report proposes a transition compact linking productive employment, social protection, health financing, human-capital investment, digital capability, and accountable economic governance", "unit": "reported policy framework", "value_type": "reported_framework"},
+        "peoples_lens": {"value": "It asks whether major economic decisions reduce household risk, expand productive capability, protect dignity, and strengthen citizen voice", "unit": "reported evaluative framework", "value_type": "reported_framework"},
+        "growth_security_gap": {"value": "The report shifts evaluation from aggregate growth toward whether households gain security, capability, dignity, and voice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "digital_inclusion": {"value": "Digital participation and capability are treated as part of the household transition rather than as a separate technology sector", "unit": "reported policy linkage", "value_type": "reported_mechanism"}
+      },
+      "method": "PPRC synthesis of survey findings into a household-centered policy agenda and sequenced transition compact.",
+      "uncertainty": "The compact is a policy proposal, not evidence that implementation has occurred or that its components will produce the stated outcomes; priorities may not resolve trade-offs among fiscal cost, speed, coverage, and accountability.",
+      "subgroup": "Bangladeshi households, workers, social-protection recipients, health users, students, digitally excluded groups, citizens, and public institutions.",
+      "counterinterpretation": "Household-centered criteria can improve policy relevance but may underweight macroeconomic, ecological, or collective outcomes that are not immediately visible at household level.",
+      "source_url": "https://www.pprc-bd.org/state-of-the-real-economy-2026/",
+      "retrieval_hash": "sha256:65215803327e20e686009b3b10d0bd407fe1d4f0ee2ec293ac108a0ebb1097d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.5281/zenodo.22775422", "claim": "Permanent DOI and citation record for the PPRC State of the Real Economy 2026 report."},
+    {"source_url": "https://www.pprc-bd.org/state-of-the-real-economy-2026/", "claim": "Official PPRC report page with overview, findings, methodology links, and policy agenda."},
+    {"source_url": "https://www.worldbank.org/en/country/bangladesh/overview", "claim": "Complementary World Bank country context for Bangladesh's development and household economy."}
+  ],
+  "boundary": "This record adds a comparative household-security route from poverty and near-poverty through budget room, cumulative shocks, informal work, debt, food insecurity, health costs, social protection, coping networks, digital participation, and accountable governance. It is based on a nationally representative Bangladesh household survey and policy synthesis; it does not establish causal effects, long-term mobility, cross-country equivalence, or that resilience means material security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official PPRC State of the Real Economy 2026 page was reviewed for the 8,067-household nationally representative survey frame, poverty and vulnerable-non-poor shares, household budget room, cumulative risk stack, coping routes, institutional limits, and transition-compact policy framework.",
+    "source_url_sha256": "sha256:65215803327e20e686009b3b10d0bd407fe1d4f0ee2ec293ac108a0ebb1097d5",
+    "checked": "2026-09-28"
+  }
+}

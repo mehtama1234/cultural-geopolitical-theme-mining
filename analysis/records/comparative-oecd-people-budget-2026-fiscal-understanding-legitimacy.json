@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-people-budget-2026-fiscal-understanding-legitimacy",
+  "title": "Fiscal repair increasingly depends on whether people can understand, contest, and shape budget trade-offs",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "OECD, The People and the Budget: Empowering Public Understanding of Public Finances",
+  "geography": "OECD countries and public-finance institutions, drawing on 2024-2025 OECD surveys and comparative institutional analysis",
+  "observations": [
+    {
+      "period": "2026; fiscal legitimacy and public-understanding framework",
+      "denominator": {"value": 1, "unit": "OECD fiscal-communication and engagement framework", "value_type": "institutional_framework"},
+      "measures": {
+        "four_pillars": {"value": "The report organizes reform capacity around demystifying budgets for decision makers, communicating public finances clearly, fostering genuine citizen engagement, and making independent fiscal institutions proactive public advocates", "unit": "reported framework", "value_type": "reported_framework"},
+        "pressure_context": {"value": "Record debt and spending pressures from cost of living, defence, extreme weather, and ageing make public buy-in more important for difficult trade-offs", "unit": "reported policy context", "value_type": "reported_context"}
+      },
+      "method": "OECD policy synthesis using the 2025 Survey of Government Communicators, 2025 Survey on Parliamentary Budget Oversight, 2024 OECD Trust Survey, and 2024 Fiscal Advocacy Index.",
+      "uncertainty": "The four pillars are an institutional diagnosis and reform framework, not evidence that any one communication or participation intervention increases fiscal consent or improves budget outcomes.",
+      "subgroup": "Citizens, legislators, government communicators, parliamentary budget actors, independent fiscal councils, public budget offices, and audit institutions.",
+      "counterinterpretation": "Clearer communication and engagement can improve understanding without resolving distributive conflict; disagreement may reflect real trade-offs rather than an information deficit.",
+      "source_url": "https://www.oecd.org/en/publications/the-people-and-the-budget_81674d37-en.html",
+      "retrieval_hash": "sha256:e5646567e39de301ae940b5a2daa8575d50fdb09a600f9e1018d1261af513b3b",
+      "status": "reported"
+    },
+    {
+      "period": "2024; trust, political voice, and fiscal legitimacy",
+      "denominator": {"value": 1, "unit": "2024 OECD Trust Survey cross-country public-opinion frame", "value_type": "survey_frame"},
+      "measures": {
+        "low_trust": {"value": 44, "unit": "percent reporting low or no trust in national government", "value_type": "reported_share"},
+        "political_voice": {"value": 30, "unit": "percent who feel the political system lets people like them have a say", "value_type": "reported_share"},
+        "trust_voice_gap": {"value": 47, "unit": "percentage-point trust gap between people who feel people like them have a say and those who do not", "value_type": "reported_gap"}
+      },
+      "method": "OECD interpretation of the 2024 OECD Trust Survey as used in the report's discussion of public buy-in and fiscal communication.",
+      "uncertainty": "The figures are descriptive survey associations; the reported trust gap should not be read as a causal estimate that voice alone produces trust or fiscal consent.",
+      "subgroup": "Adults across the OECD Trust Survey countries, differentiated by perceived political voice.",
+      "counterinterpretation": "Perceived voice may reflect broader institutional performance, identity, material security, or political alignment rather than a separable communication effect.",
+      "source_url": "https://www.oecd.org/en/publications/the-people-and-the-budget_81674d37-en.html",
+      "retrieval_hash": "sha256:e5646567e39de301ae940b5a2daa8575d50fdb09a600f9e1018d1261af513b3b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; budget communication in fragmented information environments",
+      "denominator": {"value": 1, "unit": "OECD public-finance communication recommendations", "value_type": "recommendation_frame"},
+      "measures": {
+        "communication_route": {"value": "The report recommends plain-language explanations, visual presentation, distribution through media and social platforms, and tracking whether communication reaches and informs intended audiences", "unit": "reported recommendation", "value_type": "reported_recommendation"},
+        "information_pressure": {"value": "Fragmented media and polarized online debate make long-term fiscal communication more difficult", "unit": "reported institutional condition", "value_type": "reported_condition"}
+      },
+      "method": "OECD synthesis of government-communicator survey evidence and comparative public-finance communication practice.",
+      "uncertainty": "The report does not establish which channels change beliefs, reduce polarization, or alter support for specific budget measures.",
+      "subgroup": "People with different levels of fiscal knowledge, media access, language access, digital access, and political trust.",
+      "counterinterpretation": "More communication can increase contestation or selective interpretation when distributive stakes are high; reach is not the same as comprehension or influence.",
+      "source_url": "https://www.oecd.org/en/publications/the-people-and-the-budget_81674d37-en.html",
+      "retrieval_hash": "sha256:e5646567e39de301ae940b5a2daa8575d50fdb09a600f9e1018d1261af513b3b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; participation and independent fiscal advocacy",
+      "denominator": {"value": 1, "unit": "OECD fiscal-governance reform framework", "value_type": "institutional_framework"},
+      "measures": {
+        "engagement_scope": {"value": "Genuine citizen engagement is framed as extending beyond elections into budget understanding, deliberation, and opportunities to shape trade-offs", "unit": "reported framework", "value_type": "reported_framework"},
+        "institutional_advocacy": {"value": "Fiscal councils, parliamentary budget offices, and audit institutions are encouraged to use communication platforms and public advocacy to explain fiscal choices", "unit": "reported framework", "value_type": "reported_framework"}
+      },
+      "method": "OECD comparative fiscal-governance synthesis and institutional recommendations.",
+      "uncertainty": "The proposed participation and advocacy roles are not an evaluation of whether independent fiscal institutions can remain trusted, neutral, or effective when they become more publicly active.",
+      "subgroup": "Citizens affected by budget trade-offs, civil-society organizations, legislators, fiscal institutions, and public managers.",
+      "counterinterpretation": "Participation can be dominated by organized or high-capacity groups, while institutional advocacy may be interpreted as political advocacy and weaken perceived independence.",
+      "source_url": "https://www.oecd.org/en/publications/the-people-and-the-budget_81674d37-en.html",
+      "retrieval_hash": "sha256:e5646567e39de301ae940b5a2daa8575d50fdb09a600f9e1018d1261af513b3b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/81674d37-en", "claim": "Official OECD DOI and publication citation."},
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/05/the-people-and-the-budget_d96abe5b/81674d37-en.pdf", "claim": "Official 107-page OECD report PDF."}
+  ],
+  "boundary": "This record captures an OECD fiscal-communication and democratic-engagement framework plus descriptive trust evidence. It is not a household-incidence analysis, a causal test of communication, or proof that participation resolves distributive conflict or improves fiscal sustainability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page and report PDF were reviewed for the four-pillar framework, trust and voice figures, communication environment, citizen engagement, and independent fiscal-institution advocacy.",
+    "source_url_sha256": "sha256:e5646567e39de301ae940b5a2daa8575d50fdb09a600f9e1018d1261af513b3b",
+    "checked": "2026-09-28"
+  }
+}

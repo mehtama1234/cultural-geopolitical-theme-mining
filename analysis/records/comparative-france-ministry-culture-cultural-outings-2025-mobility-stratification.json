@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-france-ministry-culture-cultural-outings-2025-mobility-stratification",
+  "title": "France's cultural outings remain near pre-pandemic levels, but place, education, income, and mobility still sort access",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "French Ministry of Culture, Baromètre des sorties culturelles 2025, DEPS and Crédoc",
+  "geography": "France; residents aged 15 and above, France-wide",
+  "observations": [
+    {
+      "period": "2025 reference year; survey fielded January 2026",
+      "denominator": {
+        "value": 3000,
+        "unit": "France residents aged 15 and above surveyed in the Crédoc Conditions de vie et aspirations online survey",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "cinema_attendance": {"value": 57, "unit": "percent attending cinema in the previous 12 months", "value_type": "official_survey_share"},
+        "live_show_attendance": {"value": 47, "unit": "percent attending a professional live show in the previous 12 months", "value_type": "official_survey_share"},
+        "monument_visit": {"value": 61, "unit": "percent visiting a monument in the previous 12 months", "value_type": "official_survey_share"},
+        "museum_exhibition_visit": {"value": 33, "unit": "percent visiting a museum or exhibition in the previous 12 months", "value_type": "official_survey_share"},
+        "library_visit": {"value": 33, "unit": "percent visiting a library or media library in the previous 12 months", "value_type": "official_survey_share"},
+        "festival_attendance": {"value": 20, "unit": "percent attending a festival in the previous 12 months", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Physical cultural outings remain a routine mass activity, but participation is venue-specific: monuments and cinema reach much more of the population than museums, libraries, or festivals", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Annual cultural-outings barometer conducted with Crédoc within the Conditions de vie et aspirations survey; online fieldwork in January 2026 with retrospective questions on 2025 attendance.",
+      "uncertainty": "The estimates are self-reported annual recall measures and do not establish frequency-adjusted spending, causal recovery, or whether attendance was discretionary, educational, or work-related.",
+      "subgroup": "Residents of France aged 15 and above.",
+      "counterinterpretation": "Near-2019 rates can coexist with changed audience composition, prices, venue mix, or intensity; a one-year aggregate rate does not show individual continuity.",
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/394537/pdf_file/CC-2026-4-Barom%C3%A8tre%20des%20sorties%20culturelles%202025.pdf?inLanguage=fre-FR&version=4",
+      "retrieval_hash": "sha256:f12dd8cb3c4ba5a88320439d0978d6d3e36a2bb8e32d335ffd790cc8adae6006",
+      "status": "reported"
+    },
+    {
+      "period": "2025 reference year; demographic and place gradients",
+      "denominator": {
+        "value": 3000,
+        "unit": "France residents aged 15 and above surveyed in the Crédoc Conditions de vie et aspirations online survey",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "cinema_age_15_24": {"value": 76, "unit": "percent of ages 15-24 attending cinema", "value_type": "official_subgroup_share"},
+        "cinema_age_70_plus": {"value": 45, "unit": "percent of ages 70 and above attending cinema", "value_type": "official_subgroup_share"},
+        "museum_bac_plus_3": {"value": 55, "unit": "percent of people with three or more years of higher education visiting a museum or exhibition", "value_type": "official_subgroup_share"},
+        "museum_below_secondary": {"value": 28, "unit": "percent of people with no diploma or lower secondary certification visiting a museum or exhibition", "value_type": "official_subgroup_share"},
+        "cinema_high_income": {"value": 71, "unit": "percent of high-income respondents attending cinema", "value_type": "official_subgroup_share"},
+        "cinema_low_income": {"value": 46, "unit": "percent of low-income respondents attending cinema", "value_type": "official_subgroup_share"},
+        "cinema_large_urban_centres": {"value": 64, "unit": "percent of residents of large urban centres attending cinema", "value_type": "official_subgroup_share"},
+        "cinema_rural_dispersed": {"value": 48, "unit": "percent of residents in dispersed rural areas attending cinema", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Cultural optionality is stratified by age, education, income, and settlement type: the same national attendance rate hides sharply unequal access to different cultural places", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-tabulation from the barometer's 2025 attendance table by age, diploma, income class, and commune-density category.",
+      "uncertainty": "These are descriptive gradients, not causal effects of education, income, urbanity, or age; the online survey and subgroup definitions may affect comparability.",
+      "subgroup": "France residents aged 15 and above, disaggregated by age, education, income class, and settlement density.",
+      "counterinterpretation": "Urban and higher-education groups may differ simultaneously in transport, employment, household composition, school exposure, cultural supply, and reporting norms.",
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/394537/pdf_file/CC-2026-4-Barom%C3%A8tre%20des%20sorties%20culturelles%202025.pdf?inLanguage=fre-FR&version=4",
+      "retrieval_hash": "sha256:f12dd8cb3c4ba5a88320439d0978d6d3e36a2bb8e32d335ffd790cc8adae6006",
+      "status": "reported"
+    },
+    {
+      "period": "2025 reference year; cultural outings and tourism mobility",
+      "denominator": {
+        "value": 3000,
+        "unit": "France residents aged 15 and above surveyed in the Crédoc Conditions de vie et aspirations online survey",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "museum_visitors_with_overnight_stay": {"value": 44, "unit": "percent of museum visitors associating the outing with a stay including at least one overnight", "value_type": "official_subgroup_share"},
+        "festival_goers_with_overnight_stay": {"value": 40, "unit": "percent of festival attendees associating the outing with a stay including at least one overnight", "value_type": "official_subgroup_share"},
+        "fete_de_la_musique_participation": {"value": 26, "unit": "percent participating in Fête de la musique", "value_type": "official_survey_share"},
+        "european_heritage_days_visit": {"value": 16, "unit": "percent visiting as part of European Heritage Days", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Some cultural demand is a mobility bundle rather than a local venue visit: museums and festivals can generate overnight travel, while national events widen access through lower-threshold public programming", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey questions link museum and festival attendance to overnight stays and measure participation in two national cultural events; the report also identifies lack of availability, lack of interest, and fear of crowding as leading barriers.",
+      "uncertainty": "The overnight-stay measure is an association reported by visitors, not a causal tourism multiplier; the event participation measures do not identify spending, travel distance, or repeat attendance.",
+      "subgroup": "France residents aged 15 and above who attended museums or festivals, plus the full survey population for national events.",
+      "counterinterpretation": "A cultural outing may be incidental to a trip rather than its purpose, and national events may attract different publics because of timing, free access, or local programming.",
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/394537/pdf_file/CC-2026-4-Barom%C3%A8tre%20des%20sorties%20culturelles%202025.pdf?inLanguage=fre-FR&version=4",
+      "retrieval_hash": "sha256:f12dd8cb3c4ba5a88320439d0978d6d3e36a2bb8e32d335ffd790cc8adae6006",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.culture.gouv.fr/espace-documentation/service-statistique-ministeriel-deps/publications/barometre-des-sorties-culturelles-2025",
+      "claim": "French Ministry of Culture publication page provides the release date, headline results, scope, and survey partnership.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/394537/pdf_file/CC-2026-4-Barom%C3%A8tre%20des%20sorties%20culturelles%202025.pdf?inLanguage=fre-FR&version=4",
+      "claim": "Official 24-page barometer contains attendance trends, demographic and settlement gradients, cultural-tourism mobility, event participation, and barriers.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds French evidence on physical cultural attendance, socioeconomic and settlement stratification, cultural-tourism mobility, and barriers. It is a commissioned online self-report survey and does not establish causal recovery, actual spending, venue supply effects, or individual-level cultural trajectories.",
+  "retrieval_hash": "sha256:f12dd8cb3c4ba5a88320439d0978d6d3e36a2bb8e32d335ffd790cc8adae6006"
+}

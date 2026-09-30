@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-retail-sales-august-2026-online-channel-fuel-culture",
+  "title": "Great Britain retail recovery is channel-shifting and price-conditioned rather than uniform",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Office for National Statistics Retail Sales, Great Britain: August 2026, Monthly Business Survey Retail Sales Inquiry",
+  "geography": "Great Britain",
+  "observations": [
+    {
+      "period": "August 2026; retail quantity and rolling three-month volume",
+      "denominator": {"value": 1, "unit": "aggregate Great Britain retail-sales index; not household respondents", "value_type": "aggregate_index"},
+      "measures": {
+        "monthly_retail_sales_volume_change": {"value": 0.5, "unit": "percent from July 2026, seasonally adjusted", "value_type": "reported_change"},
+        "three_month_retail_sales_volume_change": {"value": 0.9, "unit": "percent from the three months to May 2026, seasonally adjusted", "value_type": "reported_change"},
+        "annual_retail_sales_volume_change": {"value": 2.4, "unit": "percent from August 2025", "value_type": "reported_change"},
+        "nonfood_three_month_change": {"value": 0.2, "unit": "percent from the three months to May 2026; department, clothing, household, and other non-food stores", "value_type": "reported_change"}
+      },
+      "method": "ONS seasonally adjusted Retail Sales Index estimates from the Monthly Business Survey, Retail Sales Inquiry. The release recommends using rolling three-month movement alongside volatile monthly movement.",
+      "uncertainty": "This is an establishment-based aggregate index, not household-level spending or welfare. August response was 56.7% by returned forms but represented 92.3% of sample-population turnover coverage; estimates are subject to revision and seasonal-adjustment uncertainty.",
+      "subgroup": "Great Britain retail establishments and retail categories; no household-income, age, disability, or individual-consumer subgroup.",
+      "counterinterpretation": "Positive volume growth can reflect weather, promotions, stock availability, population, or category composition rather than broad discretionary recovery; the three-month figure includes a strong June period.",
+      "source_url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026",
+      "retrieval_hash": "sha256:645b931a16fbc6397ea2e18ec50abb609df6f957e0bbc3eec163cd4b93f448c4",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; online retail channel",
+      "denominator": {"value": 1, "unit": "aggregate Great Britain retail sales value and channel share", "value_type": "aggregate_index"},
+      "measures": {
+        "online_sales_value_monthly_change": {"value": 2.5, "unit": "percent from July 2026", "value_type": "reported_change"},
+        "online_sales_value_annual_change": {"value": 8.9, "unit": "percent from August 2025", "value_type": "reported_change"},
+        "online_sales_value_three_month_change": {"value": 1.9, "unit": "percent from the three months to May 2026", "value_type": "reported_change"},
+        "online_share_of_sales": {"value": 28.8, "unit": "percent of total retail sales value in August 2026; 28.4% in July", "value_type": "reported_share"}
+      },
+      "method": "ONS internet-sales value series from the Retail Sales Inquiry; non-store retailing is mostly online but also includes street stalls and markets.",
+      "uncertainty": "Online sales are values rather than deflated quantities and the non-store category is not exclusively e-commerce. Channel share does not identify whether the same consumers moved channels or whether online purchases replaced or added to store purchases.",
+      "subgroup": "Great Britain retail channel aggregate; no household or product-income subgroup.",
+      "counterinterpretation": "Online growth may reflect promotions, retailer mix, delivery convenience, or temporary weather and stock effects rather than a durable cultural shift to digital shopping; total spend also rose 1.3% over the month.",
+      "source_url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026",
+      "retrieval_hash": "sha256:645b931a16fbc6397ea2e18ec50abb609df6f957e0bbc3eec163cd4b93f448c4",
+      "status": "reported"
+    },
+    {
+      "period": "June–August 2026; category and mobility-cost signals",
+      "denominator": {"value": 1, "unit": "aggregate Great Britain retail category movements and retailer-reported explanations", "value_type": "aggregate_index"},
+      "measures": {
+        "art_dealer_sales": {"value": "rose in June within the three-month non-food movement", "unit": "ONS category description; no standalone percentage reported in release text", "value_type": "reported_direction"},
+        "fuel_sales_volume": {"value": "fell over the three months to August and again in August", "unit": "reported retail-volume direction", "value_type": "reported_direction"},
+        "partial_fill_behavior": {"value": "retailers suggested some motorists were only partially filling tanks as prices rose", "unit": "retailer-reported behavioral explanation", "value_type": "reported_observation"},
+        "sports_merchandise_and_clothing": {"value": "benefited from warm weather and strong June non-store activity", "unit": "retailer-reported category explanation", "value_type": "reported_observation"}
+      },
+      "method": "ONS release synthesis of category movements and retailer comments; these are not individual-level survey responses and the cited explanations are not causal estimates.",
+      "uncertainty": "Retailer comments are qualitative contextual evidence and may not represent all consumers or establishments. Category timing, weather, promotions, conflict-related fuel stockpiling, and stock availability complicate cultural or mobility interpretations.",
+      "subgroup": "Retail categories and retailer-reported consumer conditions in Great Britain.",
+      "counterinterpretation": "Art, sports, and clothing activity can rise alongside mobility retrenchment because different occasions, prices, and channels serve different households; no common consumer trajectory is observed.",
+      "source_url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026",
+      "retrieval_hash": "sha256:645b931a16fbc6397ea2e18ec50abb609df6f957e0bbc3eec163cd4b93f448c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsales", "claim": "Official ONS Retail Sales Index datasets provide value and volume series by category and month.", "status": "official-dataset"},
+    {"source_url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/august2026", "claim": "Official ONS bulletin reports August retail volume, online channel, category, response, and quality information.", "status": "official-release"}
+  ],
+  "boundary": "This record adds an observed establishment-level retail and channel layer to household surveys, national accounts, and card/footfall indicators. It does not measure household welfare, individual purchase identity, cultural meaning, retailer profitability, causal price response, or equal access to online and physical retail.",
+  "retrieval_hash": "sha256:645b931a16fbc6397ea2e18ec50abb609df6f957e0bbc3eec163cd4b93f448c4"
+}

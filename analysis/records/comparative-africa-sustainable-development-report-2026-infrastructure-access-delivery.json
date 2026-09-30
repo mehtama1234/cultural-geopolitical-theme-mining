@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-africa-sustainable-development-report-2026-infrastructure-access-delivery",
+  "title": "Africa’s development gains are broad but infrastructure quality, financing, and delivery gaps keep access uneven",
+  "theme_ids": ["cost", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "African Union Commission, African Development Bank, UNDP, and UN Economic Commission for Africa, 2026 Africa Sustainable Development Report",
+  "geography": "African countries and subregions, with comparisons across urban-rural settings and the 2030 Agenda and Agenda 2063 implementation system",
+  "observations": [
+    {
+      "period": "2015-2023; water and sanitation access",
+      "denominator": {"value": 100, "unit": "percent of Africa’s population", "value_type": "regional_population_share"},
+      "measures": {
+        "basic_drinking_water": {"value": 81, "unit": "percent of population using at least basic drinking-water services in 2023", "value_type": "reported_share"},
+        "safely_managed_water": {"value": 36, "unit": "percent of population using safely managed drinking-water services in 2023", "value_type": "reported_share"},
+        "sanitation_gap": {"value": 650000000, "unit": "people without basic sanitation services", "value_type": "reported_population_estimate"}
+      },
+      "method": "Joint regional SDG and Agenda 2063 assessment using UN Global SDG Indicators, ECA statistics, and related country and continental sources.",
+      "uncertainty": "Regional averages conceal major subregional, urban-rural, and country differences; annual indicator updates and data availability affect comparability.",
+      "subgroup": "Urban and rural households, women and children, informal settlements, people in water-stressed areas, and communities without safely managed services.",
+      "counterinterpretation": "Basic access is a meaningful gain and targeted infrastructure, governance, and financing can accelerate quality improvements; the gap does not imply no progress.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/2026_africa_sdg_report-2.pdf",
+      "retrieval_hash": "sha256:5f42d5f6d58244f86e74fba117e141c8f475f218fa8ce37b8e78ce4030178551",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2023; electricity, connectivity, and clean cooking",
+      "denominator": {"value": 100, "unit": "percent of Africa’s population", "value_type": "regional_population_share"},
+      "measures": {
+        "electricity_access": {"value": 53, "unit": "percent of population with electricity access in 2023, up from approximately 46 percent in 2015", "value_type": "reported_share"},
+        "mobile_network_coverage": {"value": 93, "unit": "approximately percent of population covered by mobile networks", "value_type": "reported_share"},
+        "polluting_cooking_fuels": {"value": 970000000, "unit": "people still cooking with polluting fuels", "value_type": "reported_population_estimate"}
+      },
+      "method": "Regional assessment of SDG 7 energy indicators and related digital and household-service conditions.",
+      "uncertainty": "Connectivity or electricity coverage does not establish reliable service, affordability, productive use, or equal household access; clean-cooking estimates depend on available survey and modeled data.",
+      "subgroup": "Rural households, women and children exposed to household air pollution, low-income consumers, small firms, and communities outside reliable grids.",
+      "counterinterpretation": "Rapid growth in mobile and electricity access can support services, markets, and state capacity when reliability, affordability, skills, and local institutions improve alongside coverage.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/2026_africa_sdg_report-2.pdf",
+      "retrieval_hash": "sha256:5f42d5f6d58244f86e74fba117e141c8f475f218fa8ce37b8e78ce4030178551",
+      "status": "reported"
+    },
+    {
+      "period": "2026; development trajectory and implementation gap",
+      "denominator": {"value": 17, "unit": "Sustainable Development Goals assessed in the regional progress frame", "value_type": "sdg_goal_set"},
+      "measures": {
+        "goals_with_progress": {"value": 12, "unit": "SDGs showing measurable progress in the assessment", "value_type": "reported_goal_count"},
+        "trajectory": {"value": "overall progress remains insufficient for achieving the 2030 Agenda under current trajectories", "unit": "reported regional assessment", "value_type": "reported_boundary"},
+        "constraint_set": {"value": "financing shortfalls, limited institutional capacity, climate and economic shocks, poverty, inequality, informality, and skills mismatches", "unit": "reported structural constraints", "value_type": "reported_mechanism"}
+      },
+      "method": "Regional dashboard and goal-level assessment of selected SDGs and related Agenda 2063 objectives.",
+      "uncertainty": "The report focuses on selected goals and available indicators; progress scores do not identify a single cause or predict country-level implementation outcomes.",
+      "subgroup": "National and local governments, service users, businesses, civil society, youth, informal workers, and communities affected by climate or fiscal shocks.",
+      "counterinterpretation": "Policy coherence, regional integration, domestic capacity, innovation, and coordinated finance can change trajectories; current pace is not a fixed ceiling.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/2026_africa_sdg_report-2.pdf",
+      "retrieval_hash": "sha256:5f42d5f6d58244f86e74fba117e141c8f475f218fa8ce37b8e78ce4030178551",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; coordinated delivery and regional integration",
+      "denominator": {"value": 5, "unit": "SDGs prioritized in the 2026 regional report", "value_type": "regional_policy_set"},
+      "measures": {
+        "priority_goals": {"value": "water and sanitation, affordable and clean energy, industry and infrastructure, sustainable cities, and partnerships", "unit": "selected SDG set", "value_type": "reported_framework"},
+        "delivery_route": {"value": "accelerated progress requires stronger policy coherence, adequate financing, coordinated implementation, and alignment between global commitments and national realities", "unit": "reported policy direction", "value_type": "reported_recommendation"},
+        "regional_route": {"value": "regional integration, infrastructure, and policy alignment are positioned as ways to improve resilience and competitiveness amid trade fragmentation", "unit": "reported geopolitical-development pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "Joint AU, AfDB, UNDP, and ECA synthesis connecting SDG monitoring to Agenda 2063, financing, trade, urbanization, infrastructure, and implementation capacity.",
+      "uncertainty": "The report identifies coordination and finance priorities but does not evaluate a single delivery package, estimate all costs, or establish that coordination alone produces equitable outcomes.",
+      "subgroup": "Regional institutions, national governments, cities, utilities, investors, development partners, civil society, households, and firms.",
+      "counterinterpretation": "Regional coordination can improve scale and bargaining power but may also leave local accountability, affordability, and community voice unresolved if implementation remains centralized.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/2026_africa_sdg_report-2.pdf",
+      "retrieval_hash": "sha256:5f42d5f6d58244f86e74fba117e141c8f475f218fa8ce37b8e78ce4030178551",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.afdb.org/en/news-and-events/africas-2026-sustainable-development-report-sets-priorities-fast-track-progress-2030-96091", "claim": "African Development Bank publication note provides complementary implementation and financing context."},
+    {"source_url": "https://www.worldbank.org/en/research/publication/global-jobs-challenge", "claim": "World Bank Global Jobs Challenge provides complementary youth-demography and job-creation context."}
+  ],
+  "boundary": "This record adds a regional implementation route linking water, sanitation, energy, clean cooking, mobile connectivity, infrastructure, cities, financing, trade, regional integration, and SDG delivery. It is an aggregate publication-level assessment, not household service histories, respondent-level data, a country forecast, or proof that coverage equals reliable or affordable access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official abridged 2026 Africa Sustainable Development Report was reviewed for water, sanitation, electricity, mobile coverage, clean cooking, SDG progress, structural constraints, and coordinated delivery claims.",
+    "source_url_sha256": "sha256:5f42d5f6d58244f86e74fba117e141c8f475f218fa8ce37b8e78ce4030178551",
+    "checked": "2026-09-26"
+  }
+}

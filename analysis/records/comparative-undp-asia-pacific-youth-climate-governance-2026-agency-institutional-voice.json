@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-asia-pacific-youth-climate-governance-2026-agency-institutional-voice",
+  "title": "Asia-Pacific youth climate participation is moving from peripheral consultation toward policy co-drafting, but durable influence depends on institutional access and power",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UNDP Asia-Pacific, Navigating Climate Governance: Insights from Young Leaders in the Asia-Pacific Region, published February 13, 2026",
+  "geography": "Asia-Pacific; more than 1,000 young people across 35 countries participating through the Youth Empowerment in Climate Action Platform and Regional Youth Parliament on Climate Action",
+  "observations": [
+    {
+      "period": "2026; youth climate-governance participation across Asia-Pacific",
+      "denominator": {"value": 1000, "unit": "young people across 35 Asia-Pacific countries represented in the report, more than", "value_type": "reported_participant_count"},
+      "measures": {
+        "youth_population_context": {"value": 60, "unit": "percent of the world's youth population living in Asia-Pacific, as stated by UNDP", "value_type": "reported_population_share"},
+        "governance_roles": {"value": "Young people are described as driving negotiations, co-drafting national climate policies, and making strategic political alignments", "unit": "reported participation route", "value_type": "reported_mechanism"},
+        "agency_shift": {"value": "The report frames youth as moving away from peripheral roles and becoming active agents of climate change", "unit": "reported governance pattern", "value_type": "reported_interpretation"},
+        "evidence_base": {"value": "Voices, strategies, and lived experiences are gathered through a regional youth climate platform and youth parliament process", "unit": "reported evidence design", "value_type": "qualitative_mixed_evidence"}
+      },
+      "method": "UNDP regional report based on youth voices, strategies, and lived experiences gathered through YECAP and the Regional Youth Parliament on Climate Action; the public landing page does not provide a probability sample or a common survey denominator beyond the reported participation scope.",
+      "uncertainty": "The participant pool is organized through a youth-engagement platform and should not be treated as representative of all Asia-Pacific youth; reported influence does not by itself establish adopted policy, budget allocation, implementation, or climate outcomes.",
+      "subgroup": "Young climate leaders, youth from 35 Asia-Pacific countries, women, Indigenous and marginalized youth, community organizers, policy participants, and youth outside formal decision spaces.",
+      "counterinterpretation": "A platform-based leadership sample may intentionally overrepresent active and connected youth, but that is useful for studying pathways into governance that broad public surveys often miss.",
+      "source_url": "https://www.undp.org/asia-pacific/publications/navigating-climate-governance-insights-young-leaders-asia-pacific-region",
+      "retrieval_hash": "sha256:5bc7fdda6b265b5d163379111c72bcfb4ac39dbd350a625d8c8d06a37eebb9a4",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; participation position and access to decision-making",
+      "denominator": {"value": 1, "unit": "Asia-Pacific youth climate-governance pathway frame; positions are qualitative rather than prevalence categories", "value_type": "qualitative_pathway_frame"},
+      "measures": {
+        "pathway_positions": {"value": "Youth participation is analyzed through proximity to decision-making: in the room, around the room, and outside the room", "unit": "reported analytical pathway", "value_type": "qualitative_typology"},
+        "institutional_entry": {"value": "Routes include negotiations, policy co-drafting, political alignment, community mobilization, and youth-led climate initiatives", "unit": "reported participation routes", "value_type": "reported_set"},
+        "barrier_type": {"value": "The associated YECAP evidence emphasizes structural, financial, logistical, and political barriers that can keep youth from formal decision spaces", "unit": "reported barrier mechanism", "value_type": "reported_mechanism"},
+        "voice_control": {"value": "Meaningful participation requires more than being heard: it requires influence, resources, protection, and institutionalized decision-making power", "unit": "reported governance principle", "value_type": "reported_principle"}
+      },
+      "method": "Qualitative pathway synthesis across youth experiences and regional engagement practice, supplemented by YECAP's official compendium of meaningful youth-engagement principles and best practices.",
+      "uncertainty": "The positions are analytical categories, not measured shares of all youth; examples of participation do not demonstrate equal influence, policy adoption, or the absence of tokenism in every forum.",
+      "subgroup": "Youth inside formal negotiations, youth advising from outside institutions, youth-led community and advocacy groups, Indigenous youth, women, and young people lacking travel, funding, data, or institutional sponsors.",
+      "counterinterpretation": "Informal and community-led action can create real climate capacity even without formal seats; institutional access is one route to power, not the sole measure of youth agency.",
+      "source_url": "https://www.yecap-ap.org/compendium",
+      "retrieval_hash": "sha256:5bc7fdda6b265b5d163379111c72bcfb4ac39dbd350a625d8c8d06a37eebb9a4",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026; formalization of youth engagement in climate governance",
+      "denominator": {"value": 1, "unit": "Nationally Determined Contributions and youth-engagement practice across Asia-Pacific; country reporting frame", "value_type": "policy_reporting_frame"},
+      "measures": {
+        "youth_in_ndcs": {"value": "Around 80% of Nationally Determined Contributions include broad consideration of youth and children, compared with about 40% in first-generation NDCs", "unit": "reported NDC comparison", "value_type": "reported_policy_share"},
+        "best_practices": {"value": 15, "unit": "youth-climate-governance best practices documented by YECAP across international, national, subnational, and local levels", "value_type": "reported_practice_count"},
+        "engagement_principles": {"value": "Six principles emphasize inclusivity; preparation and protection; voice and equality; visibility and genuine participation; influence and positive change; and formalized youth engagement", "unit": "reported governance framework", "value_type": "reported_principle_set"},
+        "institutional_route": {"value": "Designated seats, equal partnership, capacity building, resources, protection, and monitoring are identified as controls against tokenistic participation", "unit": "reported institutional route", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "Comparison of NDC references to youth and a practice compendium assembled by YECAP with UNFCCC and regional partners; this record treats the evidence as policy and practice documentation, not as an impact evaluation.",
+      "uncertainty": "Broad consideration in an NDC does not show whether youth influenced targets, finance, implementation, monitoring, or remedy; practice counts reflect documented examples and may miss unreported initiatives.",
+      "subgroup": "Youth and children, Indigenous and marginalized communities, national climate-policy institutions, local governments, civil-society organizations, and regional youth platforms.",
+      "counterinterpretation": "Even nonbinding references can create administrative openings and political visibility that later support stronger participation; formal seats can also be ineffective without resources and decision authority.",
+      "source_url": "https://www.yecap-ap.org/compendium",
+      "retrieval_hash": "sha256:5bc7fdda6b265b5d163379111c72bcfb4ac39dbd350a625d8c8d06a37eebb9a4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gendered and unequal access to climate-policy voice",
+      "denominator": {"value": 1, "unit": "Young women and youth climate-leadership access context in Asia-Pacific; source reports a structural-position estimate", "value_type": "reported_access_frame"},
+      "measures": {
+        "women_outside_room": {"value": 58, "unit": "percent of women positioned outside formal decision-making spaces in associated UNDP reporting", "value_type": "reported_structural_share"},
+        "gendered_agency": {"value": "Young women leaders are described as building networks, influencing policy, and advancing rights and climate justice despite structural barriers", "unit": "reported agency pattern", "value_type": "reported_mechanism"},
+        "access_barriers": {"value": "Financial, logistical, political, cultural, and institutional barriers shape who can enter, remain in, and influence climate-governance spaces", "unit": "reported barrier set", "value_type": "reported_set"},
+        "remedy_boundary": {"value": "Youth participation must be connected to implementation, resources, monitoring, and accountability for representation to become durable climate capacity", "unit": "analytical boundary", "value_type": "derived_boundary"}
+      },
+      "method": "UNDP and partner reporting on youth climate leadership and gendered access, read alongside the regional climate-governance report and YECAP participation principles.",
+      "uncertainty": "The 58% figure is a reported structural estimate in associated UNDP material rather than a respondent-level estimate for the report's full participant pool; leadership visibility does not establish equal policy power or climate outcomes.",
+      "subgroup": "Young women, Indigenous youth, youth with disabilities, rural and low-income youth, and leaders navigating formal institutions from outside established power networks.",
+      "counterinterpretation": "Community, digital, and informal networks can create influence outside formal rooms; formal inclusion should not erase other forms of political agency or cultural leadership.",
+      "source_url": "https://www.undp.org/asia-pacific/stories/when-young-women-step-policymaking-space",
+      "retrieval_hash": "sha256:5bc7fdda6b265b5d163379111c72bcfb4ac39dbd350a625d8c8d06a37eebb9a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.yecap-ap.org/compendium", "claim": "YECAP's official compendium documents six principles and 15 best practices for meaningful youth engagement in climate governance."},
+    {"source_url": "https://unfccc.int/event/strengthening-youth-participation-and-impact-in-national-adaptation-plans-and-climate-governance", "claim": "UNFCCC regional session provides complementary examples of youth participation in adaptation planning, monitoring, learning, and resource mobilization."}
+  ],
+  "boundary": "This comparative record adds a youth political-agency route from climate exposure and concern through participation position, institutional access, gendered barriers, co-drafting, policy influence, and accountability. It does not treat organized youth voices as representative of all young people, nor infer adopted policy, financed implementation, climate outcomes, durable trust, or individual wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP Asia-Pacific report page, associated UNDP youth-women story, YECAP compendium, and UNFCCC partner page reviewed for participant scope, youth governance roles, participation positions, NDC comparison, six principles, best-practice count, gendered access, and implementation boundaries.",
+    "source_url_sha256": "sha256:5bc7fdda6b265b5d163379111c72bcfb4ac39dbd350a625d8c8d06a37eebb9a4",
+    "checked": "2026-09-28"
+  }
+}

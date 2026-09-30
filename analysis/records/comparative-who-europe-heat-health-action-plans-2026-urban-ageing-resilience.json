@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-europe-heat-health-action-plans-2026-urban-ageing-resilience",
+  "title": "Extreme heat is becoming a public-system resilience problem shaped by urbanization, ageing, communication, and unequal exposure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "WHO Regional Office for Europe, Heat–health action plans: guidance, second edition",
+  "geography": "WHO European Region guidance adaptable to national, regional, and local heat-health planning in other contexts",
+  "observations": [
+    {
+      "period": "June 2026 guidance; heat-health threat",
+      "denominator": {"value": 1, "unit": "heat-health risk and public-health planning frame", "value_type": "heat_health_system_frame"},
+      "measures": {
+        "risk_driver": {"value": "Extreme heat is an urgent and growing public-health threat driven by climate change and exacerbated by urbanization and population ageing", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "system_load": {"value": "Heat increases morbidity and mortality and strains health and social-care systems", "unit": "reported system consequence", "value_type": "reported_systemic_consequence"},
+        "unequal_exposure": {"value": "Populations at increased risk are disproportionately affected", "unit": "reported distributional pattern", "value_type": "reported_pattern"}
+      },
+      "method": "WHO Regional Office for Europe guidance synthesizing evidence and implementation experience on heat-health risk prevention, preparedness, response, and learning.",
+      "uncertainty": "The guidance identifies system risks and actions rather than estimating a universal heat-attributable burden or the effect of any single plan; exposure and vulnerability vary by place and population.",
+      "subgroup": "Older people, people with chronic illness or disability, outdoor and heat-exposed workers, low-income households, people living alone, urban residents, and people with limited access to cooling or care.",
+      "counterinterpretation": "Urban and ageing populations can be protected through planning, social connection, cooling, accessible services, and early warning; risk is not determined by age or place alone.",
+      "source_url": "https://www.who.int/europe/publications/i/item/9789289062930",
+      "retrieval_hash": "sha256:2f161c41a774830bcc9cc1e838453919662cfecd591c01fd6849dfeef5c00f81",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 guidance; eight-element implementation framework",
+      "denominator": {"value": 8, "unit": "core elements of WHO heat-health action-plan guidance", "value_type": "implementation_framework"},
+      "measures": {
+        "governance": {"value": "Governance is one of eight core elements for heat-health action plans", "unit": "reported framework element", "value_type": "reported_framework_element"},
+        "warning_and_surveillance": {"value": "Heat-health warning systems and heat-health surveillance are core elements", "unit": "reported framework elements", "value_type": "reported_framework_element"},
+        "resilience_and_exposure": {"value": "Health-system resilience and reducing heat exposure are core elements", "unit": "reported framework elements", "value_type": "reported_framework_element"},
+        "learning": {"value": "Monitoring, evaluation, and learning are core elements", "unit": "reported framework element", "value_type": "reported_framework_element"}
+      },
+      "method": "WHO implementation framework organized around governance, warnings, at-risk populations, communication, health-system resilience, exposure reduction, surveillance, and monitoring and learning.",
+      "uncertainty": "The presence of a plan or element does not establish implementation quality, reach, public comprehension, reduced exposure, or lower mortality.",
+      "subgroup": "National, regional, and local authorities; health and social-care systems; emergency services; schools; employers; housing and urban-planning agencies; and communities.",
+      "counterinterpretation": "A smaller set of well-funded actions may outperform a comprehensive plan that lacks authority, maintenance, staffing, or coordination; formal completeness is not operational readiness.",
+      "source_url": "https://www.who.int/europe/publications/i/item/9789289062930",
+      "retrieval_hash": "sha256:2f161c41a774830bcc9cc1e838453919662cfecd591c01fd6849dfeef5c00f81",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 guidance; public communication and agency",
+      "denominator": {"value": 1, "unit": "heat-risk communication and public-action frame", "value_type": "risk_communication_frame"},
+      "measures": {
+        "communication": {"value": "Communication is a core element of heat-health action planning", "unit": "reported framework element", "value_type": "reported_framework_element"},
+        "action_briefs": {"value": "The guidance includes user action briefs for key sectors", "unit": "reported implementation tool", "value_type": "reported_tool"},
+        "message_bank": {"value": "A public-health message bank is provided to support risk communication", "unit": "reported implementation tool", "value_type": "reported_tool"}
+      },
+      "method": "WHO practical guidance translating heat-health evidence into communication tools, sector-specific actions, and public decision support.",
+      "uncertainty": "Messages and tools do not guarantee trust, access, behavior change, or protection, especially where housing, work, mobility, language, or care constraints limit feasible action.",
+      "subgroup": "Residents, caregivers, older people, workers, employers, schools, clinicians, social-care staff, local officials, and people with different languages or communication access.",
+      "counterinterpretation": "Public messaging can shift responsibility onto individuals when structural conditions—housing quality, energy cost, workplace rules, or service capacity—make recommended actions difficult.",
+      "source_url": "https://www.who.int/europe/publications/i/item/9789289062930",
+      "retrieval_hash": "sha256:2f161c41a774830bcc9cc1e838453919662cfecd591c01fd6849dfeef5c00f81",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 guidance; cross-context adaptation",
+      "denominator": {"value": 1, "unit": "heat-health planning transfer and adaptation frame", "value_type": "policy_adaptation_frame"},
+      "measures": {
+        "implementation_levels": {"value": "The updated guidance supports action at national, regional, and local levels", "unit": "reported governance levels", "value_type": "reported_governance_scope"},
+        "adaptability": {"value": "Although tailored to the WHO European Region, the guidance is adaptable to other contexts", "unit": "reported transfer claim", "value_type": "reported_adaptability"},
+        "coordination": {"value": "Effective heat-health prevention and response require coordinated public-health, social-care, urban, infrastructure, and communication action", "unit": "reported cross-sector mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WHO regional guidance with local, regional, and national decision points and cross-sector implementation tools.",
+      "uncertainty": "Adaptation across contexts requires local hazard data, institutional authority, funding, cultural fit, and evaluation; transferability is not proof of effectiveness elsewhere.",
+      "subgroup": "Governments, municipalities, health systems, social-care providers, urban planners, infrastructure operators, employers, civil society, and residents.",
+      "counterinterpretation": "Central coordination can improve speed and consistency, while local knowledge can improve fit; either level can fail if responsibilities, funding, and accountability are unclear.",
+      "source_url": "https://www.who.int/europe/publications/i/item/9789289062930",
+      "retrieval_hash": "sha256:2f161c41a774830bcc9cc1e838453919662cfecd591c01fd6849dfeef5c00f81",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/i/item/9789240122925", "claim": "Complementary WHO 2026 health-workforce evidence on ageing, distribution, and planning capacity."},
+    {"source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook", "claim": "Complementary child-centred climate, service, and resilience outlook."}
+  ],
+  "boundary": "This record adds a heat-health preparedness, urbanization, ageing, care, communication, and cross-sector resilience route. It uses WHO guidance, not a heat-attributable mortality estimate, local plan inventory, individual exposure history, household energy data, causal evaluation, or proof that communication or action plans reduce harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO Europe publication page reviewed for the 2026 date, climate/urbanization/ageing risk, health and social-care strain, eight core elements, communication tools, implementation levels, and cross-context adaptability.",
+    "source_url_sha256": "sha256:2f161c41a774830bcc9cc1e838453919662cfecd591c01fd6849dfeef5c00f81",
+    "checked": "2026-09-27"
+  }
+}

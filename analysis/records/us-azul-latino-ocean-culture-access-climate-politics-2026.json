@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-azul-latino-ocean-culture-access-climate-politics-2026",
+  "title": "Latino ocean politics joins cultural inheritance, public access, household cost and cross-partisan climate action",
+  "theme_ids": ["voice", "cost", "energy", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "2026 National Azul Poll: Latinos and the Ocean",
+  "geography": "United States; Latino voters",
+  "observations": [
+    {
+      "period": "August 7–September 8, 2026; national poll of Latino voters",
+      "denominator": {"value": 2102, "unit": "Latino voters in the United States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "ocean_candidate_vote_lift": {"value": 80, "unit": "percent saying a candidate supporting stronger coastline and ocean policies would make them more likely to vote for that candidate", "value_type": "published_survey_estimate"},
+        "republican_latino_ocean_candidate_vote_lift": {"value": 75, "unit": "percent of Republican Latino voters reporting the same", "value_type": "published_subgroup_estimate"},
+        "democratic_latino_ocean_candidate_vote_lift": {"value": 87, "unit": "percent of Democratic Latino voters reporting the same", "value_type": "published_subgroup_estimate"},
+        "climate_serious_problem": {"value": 82, "unit": "percent agreeing climate change is a serious problem that will affect people’s lives", "value_type": "published_survey_estimate"}
+      },
+      "method": "BSP Research poll commissioned by Azul; interviews in English or Spanish, with national Latino-voter sample and regional oversamples; reported overall margin of error +/-2.1 percentage points.",
+      "uncertainty": "This is a commissioned poll by an ocean-justice advocacy organization; the public release does not provide a full weighting or questionnaire audit here, and vote-likelihood responses are not validated vote behavior.",
+      "subgroup": "Latino voters overall, with Republican and Democratic subgroup comparisons.",
+      "counterinterpretation": "Environmental issue salience may be activated by the poll framing or advocacy context; cross-partisan agreement does not imply agreement on implementation, regulation, or party choice overall.",
+      "source_url": "https://azul.org/en/single-media/",
+      "retrieval_hash": "sha256:cf26800525e12188a8602ae43829dc0e163f5c861f7a4640cadf051a74a157a2",
+      "status": "reported"
+    },
+    {
+      "period": "August 7–September 8, 2026; climate, ocean and pollution priorities",
+      "denominator": {"value": 2102, "unit": "Latino voters in the United States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "environment_personally_important": {"value": 94, "unit": "percent saying environmental issues such as pollution and global warming are personally important", "value_type": "published_survey_estimate"},
+        "water_pollution_concern": {"value": 92, "unit": "percent concerned about water pollution", "value_type": "published_survey_estimate"},
+        "plastic_pollution_action": {"value": 86, "unit": "percent supporting doing more to prevent plastic pollution", "value_type": "published_survey_estimate"},
+        "plastic_treaty_support": {"value": 76, "unit": "percent supporting a legally binding international treaty to end plastic pollution", "value_type": "published_survey_estimate"}
+      },
+      "method": "BSP Research poll commissioned by Azul; national Latino-voter sample with English/Spanish interviewing.",
+      "uncertainty": "These are stated concerns and policy preferences, not measures of exposure, behavior, willingness to pay, or implementation feasibility.",
+      "subgroup": "Latino voters overall.",
+      "counterinterpretation": "High environmental salience may coexist with competing economic priorities; stated treaty support does not establish knowledge of treaty design or international enforcement.",
+      "source_url": "https://azul.org/en/single-media/",
+      "retrieval_hash": "sha256:cf26800525e12188a8602ae43829dc0e163f5c861f7a4640cadf051a74a157a2",
+      "status": "reported"
+    },
+    {
+      "period": "August 7–September 8, 2026; energy transition and household-cost tradeoff",
+      "denominator": {"value": 2102, "unit": "Latino voters in the United States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "offshore_drilling_ban_renewables": {"value": 76, "unit": "percent supporting banning offshore drilling and replacing it with renewable fuels such as solar and wind", "value_type": "published_survey_estimate"},
+        "offshore_ban_despite_cost": {"value": 64, "unit": "percent supporting an offshore-drilling ban even if it meant paying more per month for gasoline and household gas", "value_type": "published_survey_estimate"},
+        "clean_ocean_economy_quality": {"value": 90, "unit": "percent saying clean beaches and oceans are essential to the economy and quality of life", "value_type": "published_survey_estimate"}
+      },
+      "method": "BSP Research poll commissioned by Azul; policy preference question includes a stated monthly fuel-cost tradeoff.",
+      "uncertainty": "The hypothetical cost premium is not quantified; responses cannot estimate actual energy-burden tolerance, distributional incidence, or support after a real price change.",
+      "subgroup": "Latino voters overall.",
+      "counterinterpretation": "Respondents may support conservation in principle while opposing specific projects, taxes, siting decisions, or regressive costs; the tradeoff item is a commitment signal, not a revealed preference.",
+      "source_url": "https://azul.org/en/single-media/",
+      "retrieval_hash": "sha256:cf26800525e12188a8602ae43829dc0e163f5c861f7a4640cadf051a74a157a2",
+      "status": "reported"
+    },
+    {
+      "period": "August 7–September 8, 2026; cultural inheritance, public access and ocean labor rights",
+      "denominator": {"value": 2102, "unit": "Latino voters in the United States", "value_type": "reported_survey_sample"},
+      "measures": {
+        "ocean_family_traditions": {"value": 76, "unit": "percent saying the ocean is important to maintaining family traditions and culture", "value_type": "published_survey_estimate"},
+        "beaches_parks_open_everyone": {"value": 85, "unit": "percent agreeing government should maintain beaches and parks open to everyone", "value_type": "published_survey_estimate"},
+        "all_beaches_public": {"value": 78, "unit": "percent agreeing all beaches should be open to the public", "value_type": "published_survey_estimate"},
+        "forced_labor_fishing_body": {"value": 79, "unit": "percent supporting an international body to identify forced labor in fishing and sanction noncompliant countries", "value_type": "published_survey_estimate"},
+        "illegal_fishing_enforcement": {"value": 81, "unit": "percent supporting stronger enforcement against illegal fishing", "value_type": "published_survey_estimate"}
+      },
+      "method": "BSP Research poll commissioned by Azul; public-access, cultural, fisheries-enforcement and labor-rights questions reported in the release and issue briefs.",
+      "uncertainty": "The poll combines domestic access, cultural meaning and international labor-governance preferences; it does not measure actual beach access, seafood purchasing, worker conditions, or knowledge of enforcement institutions.",
+      "subgroup": "Latino voters overall.",
+      "counterinterpretation": "Support for public access and labor protection may be broad civic principle rather than an organized constituency preference; actual implementation can produce local tradeoffs among conservation, recreation, extraction and working waterfronts.",
+      "source_url": "https://azul.org/en/single-media/",
+      "retrieval_hash": "sha256:cf26800525e12188a8602ae43829dc0e163f5c861f7a4640cadf051a74a157a2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://azul.org/en/single-media/", "claim": "Azul publication page containing the poll release, issue briefs, sample, field dates, and policy findings.", "status": "commissioner-publication"}
+  ],
+  "boundary": "This record adds a Latino cultural-environmental politics route: environmental concern becomes candidate preference, stated willingness to absorb an unspecified energy cost, public-access claims, family tradition, and transnational labor-rights governance. The poll is commissioned by an advocacy organization and measures stated attitudes, not validated voting, observed behavior, actual costs, or realized ocean protection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Azul publication page was reviewed for the national sample, field dates, language, subgroup, margin-of-error, environmental, energy, public-access, cultural, fisheries and labor-rights findings.",
+    "source_page_sha256": "sha256:cf26800525e12188a8602ae43829dc0e163f5c861f7a4640cadf051a74a157a2",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-tasc-ireland-ai-inequality-2026-work-distribution-voice",
+  "title": "Ireland’s AI opportunity is distributed through existing differences in work exposure, gender, skills, ownership and worker voice",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "TASC, AI and Inequality: Spotlight on the Key Issues Affecting Ireland, part of The State We Are In: Inequality in Ireland 2026",
+  "geography": "Ireland; workers, firms, communities and public institutions in a highly digitalised economy",
+  "observations": [
+    {
+      "period": "2025-2026; Ireland’s digital economy and broad AI exposure",
+      "denominator": {"value": 1, "unit": "TASC issue brief and cited Irish, EU and international sources", "value_type": "source_document"},
+      "measures": {
+        "job_exposure": {"value": 63, "unit": "per cent of Irish jobs estimated to be exposed to AI to some degree", "value_type": "published_estimate"},
+        "digital_skills": {"value": 82.8, "unit": "per cent of people ages 16-74 with at least basic digital skills in 2025", "value_type": "published_estimate"},
+        "business_adoption": {"value": 19.6, "unit": "per cent of Irish businesses reporting AI use in 2025, compared with 8.0% in 2023", "value_type": "published_estimate"},
+        "distribution_question": {"value": "The brief argues that adoption and skills are insufficient measures of inclusion unless ownership, control, distribution of productivity gains and worker/community voice are also addressed.", "unit": "reported analytical interpretation", "value_type": "reported_framework"}
+      },
+      "method": "Think-tank issue brief synthesising Irish government, EU, academic and international evidence; it is not a new representative survey or administrative dataset.",
+      "uncertainty": "Job exposure is not job loss, business adoption is not effective use, and digital skills do not establish equal access to AI benefits, bargaining power or public-service outcomes.",
+      "subgroup": "Irish workers, businesses and communities with different digital skills, occupations, resources and institutional access.",
+      "counterinterpretation": "High digital skills and technology-sector concentration may give Ireland stronger capacity to capture AI gains than many countries, even if distribution remains unequal.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_ai_inequality_2026.pdf",
+      "retrieval_hash": "sha256:be04b963626d79da1b5aa260e5a99e4ebc97b5dba06d54b6e4e331041f1c0a77",
+      "status": "reported"
+    },
+    {
+      "period": "2026; occupational exposure, complementarity and gendered distribution of AI risk",
+      "denominator": {"value": 1, "unit": "TASC brief drawing on Department of Finance and labour-market analysis", "value_type": "source_document"},
+      "measures": {
+        "benefit_position": {"value": 33, "unit": "per cent of Irish roles described as positioned to benefit from AI-enabled productivity improvements", "value_type": "published_estimate"},
+        "displacement_risk": {"value": 30, "unit": "per cent of Irish jobs described as facing comparatively higher displacement risk", "value_type": "published_estimate"},
+        "sector_exposure": {"value": "Financial services and insurance were reported at 97% exposure and information and communication technology at 94% exposure.", "unit": "occupational exposure estimate", "value_type": "published_estimate"},
+        "gender_gap": {"value": "76% of women versus 51% of men were described as working in high-AI-exposure occupations; 38% of women versus 23% of men were in high-exposure, low-complementarity roles.", "unit": "gendered occupational exposure comparison", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Secondary analysis of occupational exposure and complementarity estimates cited by TASC, with sector, geography, gender, education and age comparisons.",
+      "uncertainty": "Exposure and complementarity classifications are model-based and do not directly observe adoption, layoffs, wage change, productivity, worker control or realized gender inequality.",
+      "subgroup": "Women and men, high- and low-complementarity occupations, financial/insurance and ICT workers, urban and rural labour markets.",
+      "counterinterpretation": "High exposure can mean augmentation rather than displacement; some high-exposure professional workers may gain productivity and time even while facing new performance or surveillance pressures.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_ai_inequality_2026.pdf",
+      "retrieval_hash": "sha256:be04b963626d79da1b5aa260e5a99e4ebc97b5dba06d54b6e4e331041f1c0a77",
+      "status": "reported"
+    },
+    {
+      "period": "2026; algorithmic management, recruitment, digital access and unequal participation",
+      "denominator": {"value": 1, "unit": "TASC issue brief and cited labour, digital-inclusion and equality research", "value_type": "source_document"},
+      "measures": {
+        "algorithmic_management": {"value": "The brief cites EU evidence that about one in four workers report algorithmic management and about one-third use AI-powered tools; in Ireland, reported assignment of working time was 30% and assignment of tasks 26%.", "unit": "reported worker-exposure estimates", "value_type": "published_estimate"},
+        "digital_exclusion": {"value": "Older adults, people with lower education and disadvantaged communities are described as less likely to have the skills, devices or connectivity needed to use AI safely and effectively.", "unit": "reported inclusion pattern", "value_type": "reported_pattern"},
+        "automated_bias": {"value": "The brief identifies risks from biased recruitment, facial recognition, inaccessible design, privacy loss, stereotype reproduction and synthetic sexual abuse, with disproportionate effects for women, darker-skinned people, LGBTQ+ people, children and disabled people.", "unit": "reported risk synthesis", "value_type": "reported_risk"},
+        "voice_endpoint": {"value": "Digital literacy, worker participation, collective bargaining, enforcement and accountability are presented as necessary complements to training and adoption.", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "Literature and policy synthesis across labour, equality, accessibility, privacy and digital-governance sources; not an Irish longitudinal worker panel.",
+      "uncertainty": "The cited estimates use different populations, definitions and field periods; the brief does not estimate a single causal effect of AI on participation, safety or employment.",
+      "subgroup": "Older adults, lower-education and disadvantaged communities, women, disabled people, LGBTQ+ people, children, darker-skinned people and workers under algorithmic management.",
+      "counterinterpretation": "AI can improve accessibility, translation, communication and independence for some people with disabilities and can support higher-value work; inclusion depends on design, access, privacy and remedy.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_ai_inequality_2026.pdf",
+      "retrieval_hash": "sha256:be04b963626d79da1b5aa260e5a99e4ebc97b5dba06d54b6e4e331041f1c0a77",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI governance, infrastructure dependency and distribution of social/environmental costs",
+      "denominator": {"value": 1, "unit": "TASC issue brief and cited Irish, European and global policy sources", "value_type": "source_document"},
+      "measures": {
+        "governance_orientation": {"value": "The brief characterises Irish AI policy as strongly oriented toward adoption, investment, competitiveness and regulatory compliance, with less attention to redistribution of wealth, power and opportunity.", "unit": "reported policy interpretation", "value_type": "reported_framework"},
+        "institutional_model": {"value": "Ireland’s 2026 AI governance framework is described as distributed across 15 existing public bodies, overseen by an AI Office, rather than concentrated in a single regulator.", "unit": "reported governance structure", "value_type": "reported_institutional_fact"},
+        "global_externalisation": {"value": "The brief links AI value capture in advanced economies to critical-mineral extraction, data-labelling and content-moderation labour, and electronic-waste burdens in the Global South.", "unit": "reported global supply-chain mechanism", "value_type": "reported_mechanism"},
+        "success_test": {"value": "It argues AI success should be judged by fairness, inclusion, democratic participation and sustainability as well as technical performance, productivity and adoption.", "unit": "reported evaluation principle", "value_type": "reported_policy_route"}
+      },
+      "method": "Normative and empirical policy analysis by an independent Irish think tank, using cited government, academic, civil-society and international sources.",
+      "uncertainty": "The governance critique is an interpretive assessment, and the brief does not measure the future distribution of AI gains or quantify Ireland’s causal contribution to global supply-chain harms.",
+      "subgroup": "Irish workers, communities, regulators and firms, plus workers and communities in global AI supply chains.",
+      "counterinterpretation": "Competitiveness-led AI investment can expand public revenue, jobs and service capacity; the distributional question is whether governance and bargaining mechanisms convert those gains into broadly shared outcomes.",
+      "source_url": "https://www.tasc.ie/assets/files/pdf/tasc_ai_inequality_2026.pdf",
+      "retrieval_hash": "sha256:be04b963626d79da1b5aa260e5a99e4ebc97b5dba06d54b6e4e331041f1c0a77",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.tasc.ie/publications/ai-and-inequaity/", "claim": "TASC landing page for the issue brief and publication context."},
+    {"source_url": "https://www.tasc.ie/publications/list/tasc-annual-inequality-report-2026/", "claim": "TASC’s 2026 annual inequality report, from which the AI issue brief was drawn."},
+    {"source_url": "https://www.esri.ie/publications/artificial-intelligence-and-income-inequality-in-ireland", "claim": "Related Irish economic modelling of AI adoption, income distribution and public finances."}
+  ],
+  "boundary": "This record adds an Ireland-specific AI-and-inequality lens: exposure, complementarity, gender, skills, algorithmic management, ownership, worker voice and global externalisation are linked as a distributional system. It is an independent think-tank synthesis and issue brief, not a representative worker panel, causal forecast, administrative inequality series or proof that the cited exposure estimates will become realized displacement or wage outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 21-page TASC PDF and publication page were reviewed for Ireland’s digital economy, AI exposure and complementarity estimates, gender and digital-skill differences, algorithmic management, bias, environmental/global supply-chain costs, governance and worker-voice recommendations.",
+    "source_url_sha256": "sha256:be04b963626d79da1b5aa260e5a99e4ebc97b5dba06d54b6e4e331041f1c0a77",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-digital-decade-2026-sovereignty-ai-safety-rights",
+  "title": "Europeans want digital sovereignty and infrastructure while demanding stronger AI governance, child protection, and democratic safeguards",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "European Commission, Digital Decade 2026: Special Eurobarometer, survey conducted February-March 2026 and published 17 June 2026",
+  "geography": "European Union citizens across the 27 Member States",
+  "observations": [
+    {
+      "period": "2026; digital policy, sovereignty, and infrastructure",
+      "denominator": {"value": 1, "unit": "Special Eurobarometer on the Digital Decade 2026 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "digital_policy_priority": {"value": 79, "unit": "percent considering digital policy a priority for the EU's future", "value_type": "reported_survey_share"},
+        "third_country_dependence": {"value": 82, "unit": "percent believing the EU should reduce dependencies on digital technologies from third countries", "value_type": "reported_survey_share"},
+        "european_controlled_services": {"value": 85, "unit": "percent supporting priority investment in digital services developed and controlled in Europe", "value_type": "reported_survey_share"},
+        "infrastructure_leadership": {"value": 80, "unit": "percent saying it is important for Europe to become a global leader in technological infrastructures", "value_type": "reported_survey_share"},
+        "sovereignty_route": {"value": "digital sovereignty is being expressed as public demand for control, infrastructure capacity, and reduced external dependency rather than only as industrial policy", "unit": "reported public-opinion mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "European Commission Special Eurobarometer survey on the Digital Decade 2026, conducted across EU Member States in February-March 2026.",
+      "uncertainty": "The measures capture public preferences, not technical dependency levels, procurement feasibility, cost incidence, or the effect of European control on service quality.",
+      "subgroup": "EU citizens, digital-service users, firms, public authorities, European technology providers, third-country suppliers, and infrastructure policymakers.",
+      "counterinterpretation": "Support for sovereignty may coexist with continued use of global services and willingness to trade control for lower cost, convenience, or performance.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-special-eurobarometer",
+      "retrieval_hash": "sha256:96204ce51ebf745bcfd435e46270f4ce7e6e2d6f27af458cbb3aba0778417fae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI adoption, regulation, and digital rights",
+      "denominator": {"value": 1, "unit": "Special Eurobarometer on the Digital Decade 2026 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "generative_ai_use": {"value": 59, "unit": "percent of EU citizens reported as using generative-AI tools in the Commission's related digital-rights summary", "value_type": "reported_survey_share"},
+        "careful_ai_regulation": {"value": 80, "unit": "percent saying AI development must be carefully regulated for safety even if this slows developers", "value_type": "reported_survey_share"},
+        "privacy_security_priority": {"value": 92, "unit": "percent considering protection of privacy and security a digital objective", "value_type": "reported_survey_share"},
+        "digital_rights_protection": {"value": 51, "unit": "percent thinking the EU protects their rights in the digital environment well", "value_type": "reported_survey_share"},
+        "governance_gap": {"value": "high demand for digital rights and careful AI regulation coexists with only about half saying digital rights are well protected", "unit": "reported legitimacy pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Commission Special Eurobarometer results summarized in the Digital Decade 2026 report and related digital-rights factsheet.",
+      "uncertainty": "Use, regulation preferences, and perceived rights protection are self-reported attitudes; they do not measure actual AI capability, compliance, or rights violations.",
+      "subgroup": "AI users and nonusers, citizens concerned with privacy and safety, digital-rights holders, regulators, developers, and public-service users.",
+      "counterinterpretation": "Perceived rights protection may lag legal or technical improvements, while careful regulation may differ across risk domains and not necessarily slow useful innovation.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-special-eurobarometer",
+      "retrieval_hash": "sha256:96204ce51ebf745bcfd435e46270f4ce7e6e2d6f27af458cbb3aba0778417fae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; children, democracy, and online manipulation",
+      "denominator": {"value": 1, "unit": "Special Eurobarometer on the Digital Decade 2026 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "children_online_priority": {"value": 92, "unit": "percent saying strengthening protection of children and young people online should be an EU priority", "value_type": "reported_survey_share"},
+        "democratic_manipulation_threat": {"value": 87, "unit": "percent agreeing online manipulation, disinformation, foreign interference, AI-generated content, and deepfakes threaten democratic processes", "value_type": "reported_survey_share"},
+        "fake_news_exposure": {"value": 53, "unit": "percent reporting being affected by fake news and disinformation online", "value_type": "reported_survey_share"},
+        "minor_protection_gap": {"value": 41, "unit": "percent reporting insufficient protection for minors online", "value_type": "reported_survey_share"},
+        "safety_route": {"value": "online child protection and democratic information integrity are perceived as linked public responsibilities of the digital environment", "unit": "reported societal-risk mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EU27 Special Eurobarometer survey with digital-rights and online-safety measures summarized by the European Commission.",
+      "uncertainty": "Threat perception and reported exposure are not incident or harm rates; the combined category of manipulation, disinformation, foreign interference, AI content, and deepfakes does not isolate mechanisms.",
+      "subgroup": "Children and young people, parents, educators, digital users, platforms, regulators, election institutions, and online-safety organizations.",
+      "counterinterpretation": "High concern may encourage support for safeguards without agreement on age assurance, platform liability, privacy, or content moderation design.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-special-eurobarometer",
+      "retrieval_hash": "sha256:96204ce51ebf745bcfd435e46270f4ce7e6e2d6f27af458cbb3aba0778417fae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; consumer cost tradeoffs and digital transition",
+      "denominator": {"value": 1, "unit": "Special Eurobarometer on the Digital Decade 2026 EU27 public-opinion survey frame", "value_type": "published_survey_frame"},
+      "measures": {
+        "provider_switching": {"value": 58, "unit": "percent willing to switch to an EU-based digital-service provider even if it means slightly higher costs", "value_type": "reported_survey_share"},
+        "digital_objectives": {"value": "privacy and security, accessibility, and simplifying life for people and businesses are identified as leading digital objectives", "unit": "reported priority set", "value_type": "reported_theme_set"},
+        "digital_transition_tradeoff": {"value": "a majority express willingness to pay somewhat more for European control, but the tradeoff is not universal", "unit": "reported consumer-governance mechanism", "value_type": "analytic_mechanism"},
+        "implementation_route": {"value": "public support for sovereignty depends on whether digital services deliver accessibility, security, and practical usefulness rather than control alone", "unit": "analytic adoption mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "EU27 public-opinion survey on digital-service preferences, objectives, emerging technology, and sovereignty.",
+      "uncertainty": "Stated willingness to pay more does not predict actual switching, price tolerance, or service adoption when quality and network effects are present.",
+      "subgroup": "Digital consumers, households under cost pressure, businesses, public administrations, EU providers, and global platform users.",
+      "counterinterpretation": "Convenience, interoperability, price, and existing digital habits may outweigh sovereignty preferences in actual purchasing and platform use.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-special-eurobarometer",
+      "retrieval_hash": "sha256:96204ce51ebf745bcfd435e46270f4ce7e6e2d6f27af458cbb3aba0778417fae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/policies/2026-state-digital-decade-package", "claim": "The 2026 State of the Digital Decade package combines public-opinion findings with infrastructure, enterprise adoption, skills, and funding context."},
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/factpages/digital-rights-and-principles", "claim": "The Commission's digital-rights factsheet reports privacy, child protection, AI use, online harm, and perceived rights-protection measures from the same survey."}
+  ],
+  "boundary": "This record adds EU public-opinion evidence on digital sovereignty, AI use and regulation, digital rights, child online safety, democratic manipulation, and willingness to pay for EU-based services. It is aggregate survey evidence, not respondent-level ingestion, a technical dependency inventory, an AI safety evaluation, a child-harm estimate, or proof that sovereignty policies improve outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission Digital Strategy page and related 2026 State of the Digital Decade summaries reviewed for field period, sovereignty preferences, EU service switching, AI use and regulation, digital rights, child protection, online manipulation, and democratic-risk measures.",
+    "source_url_sha256": "sha256:96204ce51ebf745bcfd435e46270f4ce7e6e2d6f27af458cbb3aba0778417fae",
+    "checked": "2026-09-27"
+  }
+}

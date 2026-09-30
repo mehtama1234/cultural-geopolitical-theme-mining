@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-governance-climate-ebmo-capacity-2026-institutional-durability",
+  "title": "Governance quality is persistent but vulnerable, and intermediary organizational capacity determines whether reform becomes durable social dialogue",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "International Labour Organization, Governance: hard to build, easy to erode: Global trends, business implications and the role of employer and business membership organizations",
+  "geography": "208 economies over 1996-2024, with a 2025 organizational-governance sample of employer and business membership organizations",
+  "observations": [
+    {
+      "period": "1996-2024; global governance climate and 2024 snapshot",
+      "denominator": {"value": 208, "unit": "economies included in the ILO long-run governance analysis", "value_type": "reported_economy_frame"},
+      "measures": {
+        "unsatisfactory_or_unsound": {"value": 53, "unit": "percent of countries in unsatisfactory or unsound governance categories in 2024", "value_type": "reported_country_share"},
+        "sound_governance": {"value": 7.2, "unit": "percent of countries offering consistently sound governance in 2024", "value_type": "reported_country_share"},
+        "global_average_change": {"value": "global average governance barely changed since the mid-1990s", "unit": "reported long-run pattern", "value_type": "reported_trend"},
+        "governance_dimensions": {"value": "political, economic, and institutional governance are combined to assess predictability, stability, rules, and institutional quality", "unit": "reported index framework", "value_type": "reported_method_set"}
+      },
+      "method": "ILO Governance Climate Index analysis using country-level governance indicators, long-run trajectories, category transitions, and a 2024 cross-sectional snapshot across 208 economies.",
+      "uncertainty": "The index aggregates governance dimensions and is not a direct measure of lived experience, legal compliance, worker voice, or business outcomes; category thresholds and indicator choices shape the classification.",
+      "subgroup": "Workers, employers, governments, investors, public institutions, social-partner organizations, countries with different institutional histories, and communities exposed to governance volatility.",
+      "counterinterpretation": "A stable aggregate index can conceal meaningful reforms or deterioration in specific institutions; weak index performance does not mean every public agency or firm operates poorly.",
+      "source_url": "https://www.ilo.org/publications/governance-hard-build-easy-erode-global-trends-business-implications-and",
+      "retrieval_hash": "sha256:57170e52e714db00a714e41b2d4bf5e388fc250788f9632e40fc0548012b9e46",
+      "status": "reported"
+    },
+    {
+      "period": "1996-2024; persistence, improvement, and backsliding",
+      "denominator": {"value": 208, "unit": "economies in the ILO governance-transition analysis", "value_type": "reported_economy_frame"},
+      "measures": {
+        "low_band_persistence": {"value": 80, "unit": "percent of countries classified as unsatisfactory in 1996 that remained in that band in 2024, approximately more than", "value_type": "reported_transition_share"},
+        "top_band_persistence": {"value": 68.8, "unit": "percent of countries classified as sound in 1996 that remained in the top tier in 2024", "value_type": "reported_transition_share"},
+        "unsatisfactory_to_satisfactory": {"value": 12.4, "unit": "percent of unsatisfactory countries that improved to satisfactory by 2024", "value_type": "reported_transition_share"},
+        "backsliding_pattern": {"value": "governance decline is more frequent and concentrated among stronger performers, making gains fragile", "unit": "reported longitudinal pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO transition-matrix and long-run trajectory analysis of governance categories between 1996 and 2024.",
+      "uncertainty": "Category persistence and transition are descriptive; they do not identify which reforms caused improvement or decline, and changes in data quality or indicator construction can affect transitions.",
+      "subgroup": "Countries at different governance levels, reform coalitions, workers and employers relying on predictable institutions, and populations affected by political or administrative backsliding.",
+      "counterinterpretation": "Slow category change may reflect the appropriate time horizon for institutional development; short-term reform gains can occur within a stable category and may not be visible in a broad index.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-05/Governance%20Hard%20to%20build,%20easy%20to%20erode_Web_ENG.pdf",
+      "retrieval_hash": "sha256:57170e52e714db00a714e41b2d4bf5e388fc250788f9632e40fc0548012b9e46",
+      "status": "reported"
+    },
+    {
+      "period": "1996-2024; governance and foreign direct investment",
+      "denominator": {"value": 208, "unit": "economies in the ILO governance and investment analysis", "value_type": "reported_economy_frame"},
+      "measures": {
+        "investment_association": {"value": "countries with stronger governance climates tend to receive higher levels of foreign direct investment after accounting for broader global and regional conditions", "unit": "reported statistical association", "value_type": "reported_association"},
+        "institutional_channel": {"value": "predictable rules, credible institutions, and stable policies reduce risk for investment and enterprise decisions", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "work_channel": {"value": "governance conditions shape policy stability, contract enforcement, dispute resolution, enterprise growth, and the environment for job creation", "unit": "reported mechanism set", "value_type": "reported_mechanism_set"},
+        "causal_boundary": {"value": "governance is one of multiple factors influencing investment and the report's evidence does not establish a single causal effect", "unit": "reported limitation", "value_type": "reported_limitation"}
+      },
+      "method": "ILO cross-country governance and FDI analysis with regression evidence and interpretation of institutional channels.",
+      "uncertainty": "The relationship is observational and aggregate; reverse causality, omitted factors, country selection, capital composition, and differences in investment quality remain possible.",
+      "subgroup": "Workers, enterprises, domestic and foreign investors, governments competing for investment, communities affected by job creation or capital mobility, and social-dialogue institutions.",
+      "counterinterpretation": "Investment can also reinforce weak governance or concentrate benefits; higher FDI does not establish decent work, inclusive growth, bargaining power, or public legitimacy.",
+      "source_url": "https://www.ilo.org/publications/governance-hard-build-easy-erode-global-trends-business-implications-and",
+      "retrieval_hash": "sha256:57170e52e714db00a714e41b2d4bf5e388fc250788f9632e40fc0548012b9e46",
+      "status": "reported"
+    },
+    {
+      "period": "2025; employer and business membership organization governance",
+      "denominator": {"value": 166, "unit": "employer and business membership organizations in the ILO EBMO Governance Index", "value_type": "reported_organization_frame"},
+      "measures": {
+        "established": {"value": 51.2, "unit": "percent of sampled EBMOs classified as established", "value_type": "reported_organization_share"},
+        "developing": {"value": 27.7, "unit": "percent of sampled EBMOs classified as developing", "value_type": "reported_organization_share"},
+        "weak": {"value": 13.3, "unit": "percent of sampled EBMOs classified as weak", "value_type": "reported_organization_share"},
+        "robust": {"value": 7.8, "unit": "percent of sampled EBMOs classified as robust", "value_type": "reported_organization_share"},
+        "autonomy_capacity_gap": {"value": 88.5, "unit": "percent of EBMOs scoring highly on autonomy while most of those organizations still had low organizational capacity", "value_type": "reported_organization_pattern"},
+        "intermediary_route": {"value": "formal independence does not automatically translate into effective advocacy, sustained policy engagement, or durable reform", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO ACT/EMP 2025 organizational data and EBMO Governance Index assessing autonomy, internal governance, and operational capacity.",
+      "uncertainty": "The organization sample is not the universe of all employer or business organizations; index ratings do not measure representativeness, worker outcomes, policy capture, or actual reform influence.",
+      "subgroup": "Employer and business membership organizations, workers, governments, firms, social-dialogue partners, developing and emerging-market institutions, and reform coalitions.",
+      "counterinterpretation": "Organizations with modest formal capacity can still exercise meaningful influence through networks or context-specific legitimacy; stronger organizational capacity can also amplify narrow interests rather than broad social dialogue.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-05/Governance%20Hard%20to%20build,%20easy%20to%20erode_Web_ENG.pdf",
+      "retrieval_hash": "sha256:57170e52e714db00a714e41b2d4bf5e388fc250788f9632e40fc0548012b9e46",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00033792", "claim": "Official DOI for the ILO governance report."},
+    {"source_url": "https://www.ilo.org/research-and-publications/state-social-justice-2025", "claim": "Complementary ILO social-justice and institutional-trust context."}
+  ],
+  "boundary": "This record adds an institutional transmission route from national governance quality through employer and business membership organizations, social dialogue, investment conditions, decent work, and reform durability. It uses ILO aggregate country trajectories, index classifications, regression evidence, and organizational analysis, not individual worker experiences, firm-level causal investment histories, political-event forecasting, respondent-level trust measures, or proof that institutional capacity produces inclusive outcomes everywhere.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO publication page and 2026 report PDF reviewed for the 208-economy governance frame, 1996-2024 trajectories, 2024 governance categories, governance-FDI association, 166-organization EBMO index, and autonomy-capacity gap.",
+    "source_url_sha256": "sha256:57170e52e714db00a714e41b2d4bf5e388fc250788f9632e40fc0548012b9e46",
+    "checked": "2026-09-26"
+  }
+}

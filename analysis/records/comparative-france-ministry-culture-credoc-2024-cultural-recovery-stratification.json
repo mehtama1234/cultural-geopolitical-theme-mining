@@ -1,0 +1,196 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-france-ministry-culture-credoc-2024-cultural-recovery-stratification",
+  "title": "France's cultural recovery returned to pre-pandemic levels while education, income, age, and place still stratify access",
+  "theme_ids": [
+    "cost",
+    "time",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "platforms_data_attention"
+  ],
+  "source_unit": "France Ministry of Culture DEPS and CREDOC Conditions de vie et aspirations cultural outings barometer 2024",
+  "geography": "France; population aged 15 years and above",
+  "observations": [
+    {
+      "period": "2024 cultural-outings barometer; previous 12 months, compared with 2019 and 2023",
+      "denominator": {
+        "value": 3000,
+        "unit": "online survey respondents aged 15 years and above living in France",
+        "value_type": "official_survey_sample"
+      },
+      "measures": {
+        "cinema_2024": {
+          "value": 60.0,
+          "unit": "percent going to the cinema in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "cinema_2019": {
+          "value": 59.0,
+          "unit": "percent going to the cinema in the previous 12 months",
+          "value_type": "official_survey_time_series"
+        },
+        "live_performance_2024": {
+          "value": 49.0,
+          "unit": "percent attending a professional live performance in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "live_performance_2019": {
+          "value": 47.0,
+          "unit": "percent attending a professional live performance in the previous 12 months",
+          "value_type": "official_survey_time_series"
+        },
+        "library_2024": {
+          "value": 37.0,
+          "unit": "percent visiting a library or media library in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "monument_2024": {
+          "value": 64.0,
+          "unit": "percent visiting a monument in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Aggregate cultural outings recovered to approximately pre-pandemic levels across cinema and live performance, with libraries reaching their highest reported rate in the available comparison series",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CREDOC Conditions de vie et aspirations survey module commissioned by the Ministry of Culture; online administration to 3,000 people aged 15 and above, with 2024 results based on the January 2025 wave and comparisons to earlier waves.",
+      "uncertainty": "These are retrospective self-reports in a repeated survey module; the comparison does not identify causal recovery drivers, spending, frequency distribution beyond selected measures, or whether all population groups recovered equally.",
+      "subgroup": "Population aged 15 years and above in France.",
+      "counterinterpretation": "Headline return to 2019 rates can mask compositional change, one-time attendance, different intensity, and persistent exclusion among lower-access groups.",
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/375724/file/Statistiques%20culturelles%20-%20Barom%C3%A8tre%20Credoc%20-%20DEPS.pdf?inLanguage=fre-FR&version=1",
+      "retrieval_hash": "sha256:257739637a2b1db4a3a595df92d6a2591dd668a8509572c75390714cb82662a4",
+      "status": "reported"
+    },
+    {
+      "period": "2024 cultural-outings barometer; age, education, and gender gradients",
+      "denominator": {
+        "value": 3000,
+        "unit": "online survey respondents aged 15 years and above living in France",
+        "value_type": "official_survey_sample"
+      },
+      "measures": {
+        "cinema_age_15_24": {
+          "value": 77.0,
+          "unit": "percent of 15-24 year-olds going to the cinema",
+          "value_type": "official_subgroup_share"
+        },
+        "cinema_age_70_plus": {
+          "value": 47.0,
+          "unit": "percent of people aged 70 and above going to the cinema",
+          "value_type": "official_subgroup_share"
+        },
+        "museum_under_bac": {
+          "value": 25.0,
+          "unit": "percent of people below the baccalaureate visiting a museum or exhibition",
+          "value_type": "official_subgroup_share"
+        },
+        "museum_bac_plus_3": {
+          "value": 62.0,
+          "unit": "percent of people with at least three years of higher education visiting a museum or exhibition",
+          "value_type": "official_subgroup_share"
+        },
+        "library_age_15_24": {
+          "value": 50.0,
+          "unit": "percent of 15-24 year-olds visiting a library or media library",
+          "value_type": "official_subgroup_share"
+        },
+        "library_age_70_plus": {
+          "value": 31.0,
+          "unit": "percent of people aged 70 and above visiting a library or media library",
+          "value_type": "official_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Cultural recovery is strongly life-course- and education-stratified; the aggregate return to pre-pandemic levels does not imply equal access or equal cultural optionality",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Descriptive cross-tabulations from the 2024 CREDOC cultural-outings module, using age and educational-attainment groups.",
+      "uncertainty": "The cross-tabs do not establish whether education, age, income, school exposure, location, health, transport, or cultural preference drives the observed differences; some youth attendance may be school-related.",
+      "subgroup": "Age groups and education groups among people aged 15 years and above in France.",
+      "counterinterpretation": "The age gradient may partly reflect life-cycle, schooling, mobility, or survey recall effects rather than a stable generational cultural divide.",
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/375724/file/Statistiques%20culturelles%20-%20Barom%C3%A8tre%20Credoc%20-%20DEPS.pdf?inLanguage=fre-FR&version=1",
+      "retrieval_hash": "sha256:257739637a2b1db4a3a595df92d6a2591dd668a8509572c75390714cb82662a4",
+      "status": "reported"
+    },
+    {
+      "period": "2024 cultural-outings barometer; income and territorial gradients",
+      "denominator": {
+        "value": 3000,
+        "unit": "online survey respondents aged 15 years and above living in France",
+        "value_type": "official_survey_sample"
+      },
+      "measures": {
+        "museum_low_income": {
+          "value": 30.0,
+          "unit": "percent of low-income people visiting a museum or exhibition",
+          "value_type": "official_subgroup_share"
+        },
+        "museum_high_income": {
+          "value": 54.0,
+          "unit": "percent of high-income people visiting a museum or exhibition",
+          "value_type": "official_subgroup_share"
+        },
+        "theatre_low_income": {
+          "value": 14.0,
+          "unit": "percent of low-income people attending theatre",
+          "value_type": "official_subgroup_share"
+        },
+        "theatre_high_income": {
+          "value": 38.0,
+          "unit": "percent of high-income people attending theatre",
+          "value_type": "official_subgroup_share"
+        },
+        "cinema_large_urban": {
+          "value": 68.0,
+          "unit": "percent of residents of large urban centres going to the cinema",
+          "value_type": "official_subgroup_share"
+        },
+        "cinema_rural": {
+          "value": 50.0,
+          "unit": "percent of residents of rural areas with dispersed or very dispersed housing going to the cinema",
+          "value_type": "official_subgroup_share"
+        },
+        "library_income_gap": {
+          "value": 7.0,
+          "unit": "percentage-point difference between high-income and low-income library participation",
+          "value_type": "official_subgroup_difference"
+        },
+        "mechanism": {
+          "value": "Free or lower-cost institutions such as libraries show narrower income gradients than museums and theatre, while urban concentration remains visible for cinema and other outings",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Descriptive income and commune-density cross-tabulations from the 2024 CREDOC cultural-outings module; income categories and territorial categories are defined by the source publication.",
+      "uncertainty": "The evidence does not isolate ticket price, travel time, local supply, household composition, or cultural preference; income associations are not causal estimates.",
+      "subgroup": "Income groups and commune-density categories among people aged 15 years and above in France.",
+      "counterinterpretation": "The narrower library gap may reflect different use cases and school or work access rather than proof that price is the dominant mechanism for all cultural outings.",
+      "source_url": "https://www.culture.gouv.fr/mc/content/download/375724/file/Statistiques%20culturelles%20-%20Barom%C3%A8tre%20Credoc%20-%20DEPS.pdf?inLanguage=fre-FR&version=1",
+      "retrieval_hash": "sha256:257739637a2b1db4a3a595df92d6a2591dd668a8509572c75390714cb82662a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.culture.gouv.fr/espace-documentation/service-statistique-ministeriel-deps/statistiques-culturelles/les-sorties-culturelles-des-francais-en-2024-resultats-du-barometre-du-credoc",
+      "claim": "The Ministry of Culture publication page documents the 2024 cultural-outings barometer, its 3,000-person sample, and its relationship to the CREDOC Conditions de vie et aspirations survey.",
+      "status": "official-methodology"
+    },
+    {
+      "source_url": "https://www.culture.gouv.fr/espace-documentation/service-statistique-ministeriel-deps/publications/chiffres-cles-2025-de-la-culture-et-de-la-communication",
+      "claim": "The Ministry's 2025 culture statistics page provides the detailed 2024 cultural-outings summary and subgroup tables used for the education, income, age, and territorial comparisons.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds France's official 2024 cultural-recovery evidence with persistent education, income, age, gender, and territorial gradients. It does not estimate causal price or time effects, online participation, individual welfare, or equal recovery across all groups; the underlying survey is an online self-report of 3,000 people.",
+  "retrieval_hash": "sha256:257739637a2b1db4a3a595df92d6a2591dd668a8509572c75390714cb82662a4"
+}

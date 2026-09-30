@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unu-un-youth-mental-health-2026-ecosystem-wellbeing",
+  "title": "Youth mental health is being reframed as an ecosystem problem spanning housing, work, digital life, climate and belonging",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "United Nations Youth Office, Youth Mental Health and Well-being Flagship Initiative; produced with the United Nations University International Institute for Global Health and launched in 2026",
+  "geography": "Global youth framing; the initiative describes approximately 2.6 billion people aged 15–35 worldwide and emphasizes local cultural adaptation rather than a single universal program model",
+  "observations": [
+    {
+      "period": "2026 flagship initiative; global youth population frame",
+      "denominator": {"value": 2600000000, "unit": "people aged 15–35, approximately", "value_type": "source_reported_global_estimate"},
+      "measures": {
+        "share_of_global_population": {"value": 32, "unit": "percent of global population aged 15–35", "value_type": "source_reported_global_estimate"},
+        "adolescent_mental_health_condition": {"value": 14, "unit": "approximately one in seven people aged 10–19 living with a mental health condition", "value_type": "source_reported_global_estimate"},
+        "age_of_onset": {"value": "Most mental health disorders emerge by age 24", "unit": "reported age-of-onset pattern", "value_type": "source_reported_summary"}
+      },
+      "method": "UN Youth Office flagship framing that compiles cited WHO, UN and research evidence; it is a policy and action framework, not a new population survey.",
+      "uncertainty": "The headline population and prevalence figures are inherited from cited sources with different definitions, age bands and reference periods; they should not be treated as a single harmonized 2026 prevalence estimate.",
+      "subgroup": "Young people globally, with a specific adolescent estimate for ages 10–19 and a broader initiative population of ages 15–35.",
+      "counterinterpretation": "A large burden and broad age range establish policy salience but do not show that every young person experiences clinical distress or that the same intervention works across cultures and contexts.",
+      "source_url": "https://www.un.org/youthaffairs/sites/default/files/2026-04/Youth%20Mental%20Health%20And%20Well-being%20Flagship_UN%20Youth%20Office_March%202026.pdf",
+      "retrieval_hash": "sha256:2eee416d5258350f8243880e3c303d3ccf015ec96751324caede88536048edbe",
+      "status": "reported"
+    },
+    {
+      "period": "2026 flagship initiative; global mental-health financing frame",
+      "denominator": {"value": null, "unit": "countries and global mental-health financing context cited by the initiative", "value_type": "not_disclosed"},
+      "measures": {
+        "health_budget_share": {"value": "Most countries allocate less than 2% of health budgets to mental health", "unit": "reported global policy estimate", "value_type": "source_reported_estimate"},
+        "annual_financing_gap": {"value": 200000000000, "unit": "US dollars; annual mental-health financing gap cited by the initiative", "value_type": "source_reported_estimate"},
+        "policy_shift": {"value": "The initiative calls for moving from symptoms to systems, treatment to prevention, isolation to inclusion, and stigma to empowerment", "unit": "reported strategic framework", "value_type": "reported_interpretation"}
+      },
+      "method": "Synthesis in the UN Youth Office flagship document drawing on WHO and other cited sources; no new country-by-country budget collection is presented.",
+      "uncertainty": "The budget share and financing-gap figures depend on the cited source definitions of mental-health spending, country coverage and costing assumptions; the document does not estimate causal returns from additional spending.",
+      "subgroup": "National health systems, young people seeking support, and communities with limited access to youth-responsive mental-health care.",
+      "counterinterpretation": "More funding is necessary but may not improve access without rights protection, culturally attuned services, workforce capacity, referral pathways and youth control over design.",
+      "source_url": "https://www.un.org/youthaffairs/sites/default/files/2026-04/Youth%20Mental%20Health%20And%20Well-being%20Flagship_UN%20Youth%20Office_March%202026.pdf",
+      "retrieval_hash": "sha256:2eee416d5258350f8243880e3c303d3ccf015ec96751324caede88536048edbe",
+      "status": "reported"
+    },
+    {
+      "period": "2026 flagship initiative; Youth Mental Health and Well-being Ecosystem Model",
+      "denominator": {"value": 10, "unit": "interconnected ecosystem dimensions proposed by the initiative", "value_type": "source_defined_framework"},
+      "measures": {
+        "dimensions": {"value": "governance; peace; spirituality; housing; climate; education; decent work; digital technology; arts and creative expression; sports and physical activity", "unit": "policy-entry dimensions", "value_type": "source_defined_framework"},
+        "foundations": {"value": "universal health coverage, human rights and the Sustainable Development Goals", "unit": "framework foundations", "value_type": "source_defined_framework"},
+        "relational_core": {"value": "care, connection and community", "unit": "cross-cutting ecosystem principles", "value_type": "source_defined_framework"}
+      },
+      "method": "Conceptual model presented in the flagship initiative, intended to be flexible, locally adaptable and culturally relevant.",
+      "uncertainty": "The model identifies intervention domains and mechanisms but does not rank them, estimate their relative effect sizes or provide a validated causal index of youth well-being.",
+      "subgroup": "Young people in varied cultural, economic, political, environmental and digital settings; governments, communities, schools, employers, platforms and cultural institutions are treated as potential actors.",
+      "counterinterpretation": "A comprehensive ecosystem map can prevent clinical tunnel vision, but its breadth may diffuse accountability unless a named place, institution, budget and measurable delivery pathway are attached.",
+      "source_url": "https://www.un.org/youthaffairs/sites/default/files/2026-04/Youth%20Mental%20Health%20And%20Well-being%20Flagship_UN%20Youth%20Office_March%202026.pdf",
+      "retrieval_hash": "sha256:2eee416d5258350f8243880e3c303d3ccf015ec96751324caede88536048edbe",
+      "status": "reported"
+    },
+    {
+      "period": "2026 flagship initiative; implementation and youth-agency infrastructure",
+      "denominator": {"value": null, "unit": "UN Youth Office initiative partnerships and coordination network", "value_type": "not_disclosed"},
+      "measures": {
+        "un_system_coordination": {"value": "Youth2030 connects action across more than 60 UN entities and over 130 UN Country Teams", "unit": "reported coordination reach", "value_type": "source_reported_program_reach"},
+        "youth_led_organizations": {"value": "700+ youth-led organizations worldwide", "unit": "reported partner count", "value_type": "source_reported_program_reach"},
+        "people_impacted": {"value": "over 13 million people, 81% of whom are youth", "unit": "reported collective reach of partner organizations", "value_type": "source_reported_program_reach"},
+        "action_modes": {"value": "convene, advocate and act through evidence mapping, arts, sports and digital-space initiatives", "unit": "reported implementation approach", "value_type": "reported_interpretation"}
+      },
+      "method": "Program description in the flagship initiative; partnership counts and reach are reported by the UN Youth Office and are not an independent impact evaluation.",
+      "uncertainty": "Reach is not equivalent to service intensity, quality, mental-health improvement or durable systems change; the public document does not provide a common denominator or outcome audit across partner organizations.",
+      "subgroup": "Youth-led organizations, young people, UN entities, governments, civil society, academia, mental-health networks and private-sector actors.",
+      "counterinterpretation": "Youth participation and network scale can improve fit and legitimacy, but formal inclusion may still leave agenda-setting, funding and evaluation power with institutions.",
+      "source_url": "https://www.un.org/youthaffairs/sites/default/files/2026-04/Youth%20Mental%20Health%20And%20Well-being%20Flagship_UN%20Youth%20Office_March%202026.pdf",
+      "retrieval_hash": "sha256:2eee416d5258350f8243880e3c303d3ccf015ec96751324caede88536048edbe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unu.edu/publication/youth-mental-health-well-being-uncertain-world", "claim": "Official UNU publication page describing the September 2026 report and its ecosystem model."},
+    {"source_url": "https://www.un.org/youthaffairs/en/press-releases/new-un-report-calls-global-shift-towards-ecosystem-based-approaches-youth-mental", "claim": "UN Youth Office launch release describing the shift from individual treatment toward interconnected social, economic and environmental conditions."}
+  ],
+  "boundary": "This record captures a global policy and narrative shift: youth mental health is being positioned as a systems and ecosystem issue involving housing, education, work, digital life, climate, peace, culture and youth agency. It is not a new prevalence survey, a causal evaluation of the ecosystem model, proof that every listed domain has equal influence, or evidence that reported partnership reach produces durable mental-health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN Youth Office flagship PDF was retrieved and hashed; the UNU publication page and UN Youth Office launch release were reviewed for publication date, authorship, ecosystem framing, ten dimensions, cited scale estimates, financing frame, partnership reach and evidence limits.",
+    "source_url_sha256": "sha256:2eee416d5258350f8243880e3c303d3ccf015ec96751324caede88536048edbe",
+    "checked": "2026-09-27"
+  }
+}

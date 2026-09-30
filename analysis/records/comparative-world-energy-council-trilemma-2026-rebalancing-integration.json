@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-energy-council-trilemma-2026-rebalancing-integration",
+  "title": "Energy transition is shifting from deployment to integration as AI demand, geopolitical disruption, affordability, and access collide",
+  "theme_ids": ["energy", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Energy Council, Rebalancing World Energy: Trade-Offs and Transformations, 2026 World Energy Trilemma Report, 21 September 2026",
+  "geography": "Global energy systems; dialogue with senior energy leaders from 65 countries and regional examples",
+  "observations": [
+    {
+      "period": "September 2026; energy rebalancing and system integration",
+      "denominator": {"value": 275, "unit": "senior energy leaders engaged from 65 countries", "value_type": "published_leadership_frame"},
+      "measures": {
+        "demand_disruption": {"value": "AI, data centers, and industrial electrification are increasing electricity demand while geopolitical disruption and infrastructure constraints intensify", "unit": "reported global energy pattern", "value_type": "reported_mechanism"},
+        "deployment_to_integration": {"value": "the central challenge is shifting from deployment alone toward integration and interoperability across generation, grids, storage, flexible demand, markets, and institutions", "unit": "reported transition diagnosis", "value_type": "reported_mechanism"},
+        "constraint": {"value": "leaders identify grids, storage, and system integration as the most common constraints on progress", "unit": "reported leadership pattern", "value_type": "reported_constraint"},
+        "system_route": {"value": "energy transition outcomes increasingly depend on coordination across physical infrastructure, markets, institutions, and geopolitical pathways", "unit": "analytic infrastructure mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Energy Council report drawing on dialogue with more than 275 senior energy leaders from 65 countries and regional system examples.",
+      "uncertainty": "The leadership dialogue is not a probability sample and the report does not provide a single forecast of global energy demand, prices, emissions, or access.",
+      "subgroup": "Energy leaders, utilities, governments, industrial users, communities, investors, workers, and regions with different infrastructure and access conditions.",
+      "counterinterpretation": "Integration bottlenecks may ease through technology, investment, and institutional reform; current constraints do not establish a permanent transition slowdown.",
+      "source_url": "https://www.worldenergy.org/news-views/entry/world-energy-being-rebalanced-in-real-time-as-demand-disruption-and-system-constraints-converge-2026-world-energy-trilemma-report-finds",
+      "retrieval_hash": "sha256:0012036a2bb126f1cf25f5dd109794ea4426cd44708d2ceb8e0ff33b73842e37",
+      "status": "reported"
+    },
+    {
+      "period": "2026; energy trilemma tensions",
+      "denominator": {"value": 5, "unit": "recurring tensions identified by the report", "value_type": "published_framework"},
+      "measures": {
+        "tension_one": {"value": "investing for tomorrow while managing today's costs", "unit": "reported transition tension", "value_type": "reported_tradeoff"},
+        "tension_two": {"value": "redesigning markets while operating within current realities", "unit": "reported transition tension", "value_type": "reported_tradeoff"},
+        "tension_three": {"value": "strengthening national competitiveness while preserving cross-border interdependence", "unit": "reported transition tension", "value_type": "reported_tradeoff"},
+        "tension_four_five": {"value": "maintaining transition speed while earning social legitimacy, and matching institutional ambition to available capacity", "unit": "reported transition tensions", "value_type": "reported_tradeoff"},
+        "legitimacy_route": {"value": "energy policy is simultaneously an affordability, sovereignty, interdependence, legitimacy, and state-capacity problem", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Energy Council synthesis of recurring tensions across the 2026 Trilemma report.",
+      "uncertainty": "The tensions are an interpretive framework and do not rank their importance across countries or specify a universal policy solution.",
+      "subgroup": "Energy consumers, national governments, utilities, industrial sectors, communities, investors, and transition workers.",
+      "counterinterpretation": "Some systems may resolve trade-offs through complementary investments, demand reduction, or new institutional arrangements rather than choosing one side.",
+      "source_url": "https://www.worldenergy.org/news-views/entry/world-energy-being-rebalanced-in-real-time-as-demand-disruption-and-system-constraints-converge-2026-world-energy-trilemma-report-finds",
+      "retrieval_hash": "sha256:0012036a2bb126f1cf25f5dd109794ea4426cd44708d2ceb8e0ff33b73842e37",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regional energy-development contrasts",
+      "denominator": {"value": 4, "unit": "regional examples highlighted by the report: Africa, Saudi Arabia, China, and Brazil", "value_type": "published_case_frame"},
+      "measures": {
+        "africa_access": {"value": 600000000, "unit": "approximately 600 million people in Africa remaining without electricity access", "value_type": "reported_population_estimate"},
+        "saudi_mix": {"value": 50, "unit": "percent renewable power mix target for Saudi Arabia by 2030", "value_type": "reported_target"},
+        "china_capacity": {"value": 420, "unit": "GW of capacity delivered by nearly 50 ultra-high-voltage transmission projects in China", "value_type": "reported_infrastructure_scale"},
+        "brazil_curtailment": {"value": "Brazil's approximately 90% renewable power system is facing rising curtailment", "unit": "reported system condition", "value_type": "reported_constraint"},
+        "unequal_route": {"value": "the same transition vocabulary hides sharply different problems of access, flexibility, transmission, finance, and surplus management", "unit": "analytic inequality mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "World Energy Council regional examples in the 2026 Trilemma report announcement.",
+      "uncertainty": "The examples illustrate system differences but do not constitute a comprehensive regional comparison or establish causal effects of a particular energy policy.",
+      "subgroup": "Energy-poor households, utilities, industrial and population centers, governments, renewable developers, and communities near infrastructure.",
+      "counterinterpretation": "Regional contrasts can also indicate different stages of successful transition rather than a single global failure pattern.",
+      "source_url": "https://www.worldenergy.org/news-views/entry/world-energy-being-rebalanced-in-real-time-as-demand-disruption-and-system-constraints-converge-2026-world-energy-trilemma-report-finds",
+      "retrieval_hash": "sha256:0012036a2bb126f1cf25f5dd109794ea4426cd44708d2ceb8e0ff33b73842e37",
+      "status": "reported"
+    },
+    {
+      "period": "2026; open implementation test",
+      "denominator": {"value": 1, "unit": "cross-source energy-system route", "value_type": "research_queue"},
+      "measures": {
+        "open_test": {"value": "test whether energy integration can improve security, affordability, sustainability, access, and social legitimacy at the same time", "unit": "open analytic route", "value_type": "research_queue"},
+        "measurement_chain": {"value": "join AI and industrial load growth to grid connection time, storage, curtailment, utility finance, household bills, access, jobs, and public acceptance", "unit": "proposed cross-source chain", "value_type": "analytic_measurement_chain"},
+        "institutional_question": {"value": "track whether governments and markets can coordinate across national pathways and cross-border interdependence under geopolitical disruption", "unit": "open governance question", "value_type": "research_queue"}
+      },
+      "method": "Program synthesis of the World Energy Council report with existing energy, data-center, infrastructure, and geopolitical records.",
+      "uncertainty": "The proposed measurement chain is not a finding from the report and requires operational, financial, and public-outcome data.",
+      "subgroup": "Households, firms, utilities, governments, energy workers, communities, and countries at different points in the transition.",
+      "counterinterpretation": "Technical integration may be feasible while affordability or political legitimacy remains unresolved, so system success should not be reduced to capacity growth.",
+      "source_url": "https://www.worldenergy.org/news-views/entry/world-energy-being-rebalanced-in-real-time-as-demand-disruption-and-system-constraints-converge-2026-world-energy-trilemma-report-finds",
+      "retrieval_hash": "sha256:0012036a2bb126f1cf25f5dd109794ea4426cd44708d2ceb8e0ff33b73842e37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.iea.org/reports/world-energy-investment-2026", "claim": "IEA World Energy Investment 2026 provides complementary capital, grid, and investment context."},
+    {"source_url": "https://www.weforum.org/publications/chief-economists-outlook-september-2026/", "claim": "WEF Chief Economists' Outlook provides complementary macroeconomic, AI, cost, and geopolitical expectations."}
+  ],
+  "boundary": "This record adds a global energy-systems route from AI and industrial demand, geopolitical disruption, and energy access through integration, affordability, legitimacy, and infrastructure coordination. It is a leadership-informed report, not a probability-sample public-opinion study, a demand forecast, an emissions inventory, or proof that any regional pathway is replicable.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Energy Council publication announcement was reviewed for date, report title, leadership frame, demand and disruption diagnosis, integration constraints, five tensions, regional examples, and implementation implications.",
+    "source_url_sha256": "sha256:0012036a2bb126f1cf25f5dd109794ea4426cd44708d2ceb8e0ff33b73842e37",
+    "checked": "2026-09-26"
+  }
+}

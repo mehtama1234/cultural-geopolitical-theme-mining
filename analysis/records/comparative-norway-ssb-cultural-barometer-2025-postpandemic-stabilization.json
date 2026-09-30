@@ -1,0 +1,161 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-norway-ssb-cultural-barometer-2025-postpandemic-stabilization",
+  "title": "Norwegian cultural participation is stabilizing unevenly: libraries recover while cinema and theatre remain below earlier levels",
+  "theme_ids": [
+    "time",
+    "cost",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Statistics Norway Cultural Barometer 2025",
+  "geography": "Norway; representative population survey of physical and digital cultural participation",
+  "observations": [
+    {
+      "period": "2025 Cultural Barometer; comparison with 2016, 2021, and 2023 waves",
+      "denominator": {
+        "value": 3038,
+        "unit": "individuals interviewed in the 2025 representative survey; published percentages refer to the survey population",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "cinema_2016": {
+          "value": 72,
+          "unit": "percent attending cinema at least once a year in 2016",
+          "value_type": "official_survey_share"
+        },
+        "cinema_2025": {
+          "value": 62,
+          "unit": "percent attending cinema at least once a year in 2025",
+          "value_type": "official_survey_share"
+        },
+        "library_2025": {
+          "value": "stabilized at levels similar to before the pandemic",
+          "unit": "reported trend interpretation",
+          "value_type": "official_trend_statement"
+        },
+        "mechanism": {
+          "value": "Post-pandemic cultural recovery is venue-specific: repeated public-service use can stabilize while cinema attendance remains below its earlier baseline",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway repeated Cultural Barometer survey; the 2025 wave interviewed a representative sample and compares participation with prior survey years.",
+      "uncertainty": "The article does not provide the full instrument, subgroup estimates, ticket prices, venue supply, digital substitution, or individual-level panel transitions; cross-wave differences are descriptive and may reflect changing survey conditions as well as behavior.",
+      "subgroup": "Norwegian population represented by the 2025 survey; children and young people are separately identified as high users of cultural activities.",
+      "counterinterpretation": "A lower annual cinema rate may reflect changing film access or release patterns rather than a general decline in cultural engagement; library stabilization may coexist with changes in intensity or purpose of use.",
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/norwegian-cultural-barometer-2025",
+      "retrieval_hash": "sha256:267450cd75ae0bf3764cd3c51acd682dab490f17ee4a522efbdc210ba22852f7",
+      "status": "reported"
+    },
+    {
+      "period": "2025 Cultural Barometer; venue and age patterns",
+      "denominator": {
+        "value": 3038,
+        "unit": "individuals interviewed in the 2025 representative survey; activity percentages refer to the survey population",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "children_library": {
+          "value": 80,
+          "unit": "approximately percent of children aged 9-15 visiting a library within a year",
+          "value_type": "official_survey_share"
+        },
+        "theatre_2016": {
+          "value": 50,
+          "unit": "percent attending theatre in 2016",
+          "value_type": "official_survey_share"
+        },
+        "theatre_2025": {
+          "value": 37,
+          "unit": "percent attending theatre in 2025",
+          "value_type": "official_survey_share"
+        },
+        "museum_2025": {
+          "value": 46,
+          "unit": "percent visiting a museum in 2025",
+          "value_type": "official_survey_share"
+        },
+        "festival_2025": {
+          "value": 32,
+          "unit": "percent attending a festival in 2025",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Age and venue structure matter: children sustain high library use while adult theatre attendance falls and festivals remain a substantial participatory route",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway survey estimates for cultural attendance, with the article's reported cross-year and age comparisons.",
+      "uncertainty": "The public article does not provide all age-by-venue cells, frequency distributions, socioeconomic gradients, or reasons for change; the children’s estimate is rounded in the narrative.",
+      "subgroup": "Children aged 9-15 compared with the wider population; adults and children may have different survey instruments and activity opportunities.",
+      "counterinterpretation": "Institutional access through schools, families, or local libraries may explain child library use without implying equivalent independent cultural agency or later adult continuity.",
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/norwegian-cultural-barometer-2025",
+      "retrieval_hash": "sha256:267450cd75ae0bf3764cd3c51acd682dab490f17ee4a522efbdc210ba22852f7",
+      "status": "reported"
+    },
+    {
+      "period": "2025 Cultural Barometer; desired participation and barriers",
+      "denominator": {
+        "value": 3038,
+        "unit": "individuals interviewed in the 2025 representative survey; desire shares refer to respondents reporting the relevant cultural offer",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "wish_more_concerts": {
+          "value": 64,
+          "unit": "percent wishing to attend concerts more often",
+          "value_type": "official_survey_share"
+        },
+        "wish_more_cinema": {
+          "value": 62,
+          "unit": "percent wishing to attend cinema more often",
+          "value_type": "official_survey_share"
+        },
+        "wish_more_libraries": {
+          "value": 32,
+          "unit": "percent wishing to visit libraries more often",
+          "value_type": "official_survey_share"
+        },
+        "barriers": {
+          "value": "financial reasons, lack of time, and more interesting alternatives were the most common barriers among people wanting more cultural participation",
+          "unit": "reported barrier categories",
+          "value_type": "official_survey_finding"
+        },
+        "mechanism": {
+          "value": "Unmet cultural demand is jointly constrained by money, time, and competing attention rather than by simple lack of interest",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Statistics Norway survey question on desired additional attendance and reported barriers.",
+      "uncertainty": "The article does not publish the full barrier percentages, causal ordering, event prices, travel time, or whether people later converted desire into attendance.",
+      "subgroup": "Respondents expressing a desire to attend cultural offerings more frequently; no causal subgroup model is reported.",
+      "counterinterpretation": "Stated desire may reflect aspirational preferences or social norms; competing options can be another form of cultural participation rather than a barrier to culture overall.",
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/norwegian-cultural-barometer-2025",
+      "retrieval_hash": "sha256:267450cd75ae0bf3764cd3c51acd682dab490f17ee4a522efbdc210ba22852f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur/artikler/norwegian-cultural-barometer-2025",
+      "claim": "Statistics Norway publication page provides the sample, response rate, repeated-wave framing, activity estimates, and barriers summary.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.ssb.no/en/kultur-og-fritid/kultur",
+      "claim": "Statistics Norway culture and recreation statistics landing page provides the source-family context for the Cultural Barometer.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds repeated, representative cultural-participation evidence from Norway. It supports venue-specific post-pandemic stabilization, age differences, and unmet-demand barriers, not a causal pandemic effect, universal cultural recovery, price elasticity, digital substitution, or individual-level persistence.",
+  "retrieval_hash": "sha256:267450cd75ae0bf3764cd3c51acd682dab490f17ee4a522efbdc210ba22852f7"
+}

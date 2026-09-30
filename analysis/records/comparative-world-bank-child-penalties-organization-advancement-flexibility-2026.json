@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-child-penalties-organization-advancement-flexibility-2026",
+  "title": "Motherhood shifts career advancement into a flexibility trade-off inside a global organization",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11459, What Drives Child Penalties? Evidence from a Global Organization",
+  "geography": "Headquarters-based professional staff at the World Bank Group, spanning employees from more than 190 countries; analysis period 1988-2024",
+  "observations": [
+    {
+      "period": "First six years after first childbirth; headquarters professional staff observed before and after childbirth",
+      "denominator": {"value": 3327, "unit": "final longitudinal sample: 1,617 mothers and 1,710 fathers", "value_type": "reported_sample"},
+      "measures": {
+        "motherhood_earnings_penalty": {"value": "mothers earn 3.1% below their counterfactual trajectory on average in the first six years after childbirth", "unit": "percent", "value_type": "reported_event_study_estimate"},
+        "promotion_gap": {"value": "by year six, mothers have missed roughly one-quarter of a grade promotion relative to their counterfactual trajectory", "unit": "grade promotions", "value_type": "reported_event_study_estimate"},
+        "performance_ratings": {"value": "declines in performance ratings affecting annual salary increases are temporary and largely disappear within a few years", "unit": "reported trajectory", "value_type": "reported_result"},
+        "mechanism": {"value": "the observed penalty is primarily an advancement penalty rather than a persistent measured-performance penalty", "unit": "bounded organizational mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Heterogeneity-robust staggered event-study difference-in-differences using variation in the timing of first childbirth among eventual parents, linked to administrative earnings, grades, performance, responsibilities, travel, work arrangements, and outputs.",
+      "uncertainty": "The study concerns highly skilled full-time professional staff in one global organization and estimates within-organization career trajectories; it does not establish population-wide earnings effects or identify every household-care mechanism.",
+      "subgroup": "Mothers, fathers, caregivers, professional employees, managers, organizations with promotion ladders, and households negotiating time and career investment.",
+      "counterinterpretation": "Observed sorting may reflect employee preferences, organizational constraints, caregiving needs, or job matching rather than an imposed penalty alone; the design estimates the post-birth trajectory, not a single causal actor’s intent.",
+      "source_url": "https://documents.worldbank.org/curated/en/099348209212613828/pdf/IDU-76f0588f-3de5-4654-a126-0e52f5b9cf72.pdf",
+      "retrieval_hash": "sha256:9fd02e1251ca9577a5d5a4d7f8eee907397ac411a3d332e2c8e78499c9a75f04",
+      "status": "reported"
+    },
+    {
+      "period": "Post-childbirth allocation of responsibilities and outputs within the World Bank Group",
+      "denominator": {"value": 2212, "unit": "parents with linked project-responsibility observations for project initiation and supervision", "value_type": "reported_outcome_sample"},
+      "measures": {
+        "leadership": {"value": "mothers become substantially less likely to initiate new development projects and take on leadership responsibilities after childbirth; fathers show no comparable change", "unit": "reported organizational outcome", "value_type": "reported_result"},
+        "consultant_supervision": {"value": "mothers are 32.5% less likely to supervise external consultants after childbirth in the reported estimate", "unit": "percent relative change", "value_type": "reported_event_study_estimate"},
+        "output_quality": {"value": "the study finds little robust evidence of changes in ex post project success, implementation speed, or research impact among realized outputs", "unit": "reported output-quality result", "value_type": "reported_result"},
+        "allocation_mechanism": {"value": "career penalties can arise because access to visible, promotion-enhancing responsibilities changes even when the quality of completed work does not materially fall", "unit": "bounded responsibility-allocation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Event-study estimates linked to project initiation, active project supervision, external-consultant supervision, ex-post project ratings, implementation delay, working-paper authorship, downloads, and research impact.",
+      "uncertainty": "Responsibility and output datasets cover different subsets and periods; quality measures capture realized outputs and do not observe every dimension of mentoring, relationship-building, or unrecorded work.",
+      "subgroup": "Women returning after childbirth, fathers, project leaders, consultants, teams, supervisors, and organizations that reward visibility and responsibility accumulation.",
+      "counterinterpretation": "Reducing travel or leadership assignments may be a rational response to caregiving constraints or a mutually agreed accommodation; the finding does not show that every assignment reduction is discriminatory or welfare-reducing.",
+      "source_url": "https://documents.worldbank.org/curated/en/099348209212613828/pdf/IDU-76f0588f-3de5-4654-a126-0e52f5b9cf72.pdf",
+      "retrieval_hash": "sha256:9fd02e1251ca9577a5d5a4d7f8eee907397ac411a3d332e2c8e78499c9a75f04",
+      "status": "reported"
+    },
+    {
+      "period": "Post-childbirth job movement, travel intensity, and home-based-work sorting",
+      "denominator": {"value": 1615, "unit": "parents with information on the probability of work-related travel; other linked samples vary", "value_type": "reported_outcome_sample"},
+      "measures": {
+        "travel": {"value": "mothers reduce work-related travel more sharply than fathers after childbirth", "unit": "reported trajectory", "value_type": "reported_result"},
+        "internal_sorting": {"value": "mothers become less likely to switch jobs and increasingly sort into positions with lower promotion potential, lower travel demands, and greater opportunities for home-based work", "unit": "reported within-organization sorting pattern", "value_type": "reported_result"},
+        "flexibility_tradeoff": {"value": "motherhood penalties are larger in travel-intensive jobs and tend to be smaller in jobs that can be performed from home", "unit": "heterogeneous effect pattern", "value_type": "reported_heterogeneity"},
+        "work_control_mechanism": {"value": "flexibility can reduce the immediate career penalty while also concentrating mothers in roles with weaker advancement prospects", "unit": "bounded advancement-flexibility mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Event-study estimates combined with job-characteristic measures for promotion potential, travel intensity, home-based work, job switching, leave, schedules, and employee work arrangements.",
+      "uncertainty": "Conditional travel duration is available for 931 parents and home-based-work measures for 1,393; observed sorting does not establish whether organizations, employees, managers, or household constraints initiate each move.",
+      "subgroup": "Caregivers in travel-intensive and flexible jobs, dual-earner households, managers allocating assignments, remote-capable teams, and employees with different cultural and family contexts.",
+      "counterinterpretation": "Flexible or home-based roles may preserve employment, autonomy, and family stability even if they have lower promotion potential; advancement is not the only welfare-relevant outcome.",
+      "source_url": "https://documents.worldbank.org/curated/en/099348209212613828/pdf/IDU-76f0588f-3de5-4654-a126-0e52f5b9cf72.pdf",
+      "retrieval_hash": "sha256:9fd02e1251ca9577a5d5a4d7f8eee907397ac411a3d332e2c8e78499c9a75f04",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099348209212613828", "claim": "Official World Bank record, WPS number, authors, date, abstract, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099348209212613828", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a within-organization mechanism linking parenthood to advancement, responsibility allocation, travel, job sorting, and flexibility. It is causal evidence for the studied World Bank professional-staff setting, not proof of a universal motherhood penalty, discriminatory intent, household welfare loss, or long-run labor-market effects across populations.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, abstract, longitudinal sample, event-study design, earnings and grade progression, performance ratings, project responsibilities, output quality, travel, job switching, home-based work, heterogeneity, and single-organization boundary were reviewed.",
+    "source_url_sha256": "sha256:9fd02e1251ca9577a5d5a4d7f8eee907397ac411a3d332e2c8e78499c9a75f04",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kenya-knbs-ict-2023-24-mobile-internet-household-gap",
+  "title": "Kenya’s mobile reach exceeds internet and household connectivity, with sharp rural and county gaps",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Kenya National Bureau of Statistics, Analytical Report on ICT based on the 2023/24 Kenya Housing Survey",
+  "geography": "Kenya; individuals and households across all 47 counties, with rural/urban, sex, age, education, income, employment, disability, and county dimensions",
+  "observations": [
+    {
+      "period": "March–May 2024; individual ICT ownership and use",
+      "denominator": {
+        "value": 25000,
+        "unit": "over 25,000 households in the 2023/24 Kenya Housing Survey; individual indicators cover persons aged 3 years and older unless otherwise specified",
+        "value_type": "reported_household_sample_approximation"
+      },
+      "measures": {
+        "mobile_phone_ownership": {"value": 53.7, "unit": "percent of individuals owning a mobile phone nationally", "value_type": "official_individual_share"},
+        "mobile_phone_usage": {"value": 64.9, "unit": "percent of individuals using a mobile phone nationally", "value_type": "official_individual_share"},
+        "mobile_sharing": {"value": 11.3, "unit": "percent of individuals using a mobile phone without owning one", "value_type": "official_individual_share"},
+        "internet_usage": {"value": 35.0, "unit": "percent of individuals using the internet nationally", "value_type": "official_individual_share"},
+        "computer_usage": {"value": 11.6, "unit": "percent of individuals using a computer nationally", "value_type": "official_individual_share"},
+        "urban_rural_internet_gap": {"value": 31.6, "unit": "percentage-point difference between urban internet use (56.6%) and rural internet use (25.0%), calculated from published shares", "value_type": "derived_residence_gap"},
+        "female_male_internet_gap": {"value": 5.6, "unit": "percentage-point difference between male internet use (37.8%) and female internet use (32.2%), calculated from published shares", "value_type": "derived_gender_gap"},
+        "mechanism": {"value": "Mobile use is a wider reach layer than internet or computer use, and shared-device use means access may be mediated by ownership, household control, data affordability, and privacy rather than simple connectivity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KNBS 2023/24 Kenya Housing Survey ICT module, nationally representative individual indicators with rural/urban and sex cross-tabulations; gaps are calculated from published shares.",
+      "uncertainty": "Mobile phone use, internet use, and computer use are distinct indicators and do not measure quality, frequency, data affordability, content, consumer transactions, cultural participation, or effective autonomy over a shared device.",
+      "subgroup": "Kenyan individuals aged 3 years and older, with residence and sex comparisons.",
+      "counterinterpretation": "Mobile sharing can be a functional household access strategy rather than pure exclusion; lower internet or computer use may reflect preference, age, schooling, power supply, or cost as well as infrastructure.",
+      "source_url": "https://www.knbs.or.ke/wp-content/uploads/2025/08/Analytical-Report-on-ICT-based-on-the-2023-24-Kenya-Housing-Survey.pdf",
+      "retrieval_hash": "sha256:992aaff8b62d4cfab52e7466edec9ff382f626503c8ee82b43c9c082c1a61243",
+      "status": "reported"
+    },
+    {
+      "period": "March–May 2024; county-level internet usage",
+      "denominator": {
+        "value": 25000,
+        "unit": "over 25,000 households in the 2023/24 Kenya Housing Survey; county indicators are projected population shares across all 47 counties",
+        "value_type": "reported_household_sample_approximation"
+      },
+      "measures": {
+        "nairobi_internet_usage": {"value": 64.7, "unit": "percent of individuals using the internet in Nairobi City County", "value_type": "official_county_share"},
+        "west_pokot_internet_usage": {"value": 9.1, "unit": "percent of individuals using the internet in West Pokot County", "value_type": "official_county_share"},
+        "turkana_internet_usage": {"value": 12.7, "unit": "percent of individuals using the internet in Turkana County", "value_type": "official_county_share"},
+        "nairobi_west_pokot_gap": {"value": 55.6, "unit": "percentage-point difference between Nairobi City and West Pokot internet use, calculated from published shares", "value_type": "derived_county_gap"},
+        "nairobi_turkana_gap": {"value": 52.0, "unit": "percentage-point difference between Nairobi City and Turkana internet use, calculated from published shares", "value_type": "derived_county_gap"},
+        "mechanism": {"value": "A national digital-consumer headline conceals county-level opportunity structures: platform access, online commerce, media discovery, and digital public services are likely to be encountered under very different local connectivity conditions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KNBS 2023/24 KHS county-level internet-use estimates; county gaps are calculated from published percentages.",
+      "uncertainty": "County comparisons are descriptive and combine infrastructure, electricity, income, education, age structure, geography, language, and survey conditions; they do not identify a single cause or measure actual platform behavior.",
+      "subgroup": "Individuals across Kenya’s 47 counties, with selected highest/lowest county examples reported by KNBS.",
+      "counterinterpretation": "Low individual internet use can coexist with shared access, offline social infrastructure, or unmeasured public access; high use does not imply equal quality, safety, affordability, or benefit.",
+      "source_url": "https://www.knbs.or.ke/wp-content/uploads/2025/08/Analytical-Report-on-ICT-based-on-the-2023-24-Kenya-Housing-Survey.pdf",
+      "retrieval_hash": "sha256:992aaff8b62d4cfab52e7466edec9ff382f626503c8ee82b43c9c082c1a61243",
+      "status": "reported"
+    },
+    {
+      "period": "March–May 2024; household connectivity and fixed/mobile ecology",
+      "denominator": {
+        "value": 25000,
+        "unit": "over 25,000 households in the 2023/24 Kenya Housing Survey; household indicators are projected shares of Kenyan households",
+        "value_type": "reported_household_sample_approximation"
+      },
+      "measures": {
+        "households_any_internet": {"value": 36.3, "unit": "percent of households with either fixed or mobile internet connection", "value_type": "official_household_share"},
+        "households_mobile_internet": {"value": 34.9, "unit": "percent of households with mobile internet", "value_type": "official_household_share"},
+        "households_fixed_internet": {"value": 7.0, "unit": "percent of households with fixed internet", "value_type": "official_household_share"},
+        "rural_urban_any_internet_gap": {"value": 29.0, "unit": "percentage-point difference between urban household internet connection (54.1%) and rural connection (25.1%), calculated from published shares", "value_type": "derived_residence_gap"},
+        "rural_urban_fixed_internet_gap": {"value": 16.7, "unit": "percentage-point difference between urban fixed-internet connection (17.3%) and rural fixed-internet connection (0.6%), calculated from published shares", "value_type": "derived_residence_gap"},
+        "households_computer": {"value": 8.8, "unit": "percent of households owning a computer, tablet, or laptop", "value_type": "official_household_share"},
+        "mechanism": {"value": "Kenya’s household digital ecology is mobile-led but not equivalent to stable household connectivity: fixed access, computer ownership, privacy, and reliability may be missing even when a household has some mobile internet route", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "KNBS 2023/24 KHS household ICT indicators by residence and connection type; gaps are calculated from published shares.",
+      "uncertainty": "Household connection is not individual use or quality; the report does not establish speed, affordability, data limits, device adequacy, privacy, outages, or downstream consumer and cultural outcomes.",
+      "subgroup": "Kenyan households, with rural/urban and fixed/mobile connection comparisons.",
+      "counterinterpretation": "Mobile connectivity can be sufficient for many use cases and may be more flexible than fixed access; fixed-internet absence is not itself proof of digital deprivation.",
+      "source_url": "https://www.knbs.or.ke/wp-content/uploads/2025/08/Analytical-Report-on-ICT-based-on-the-2023-24-Kenya-Housing-Survey.pdf",
+      "retrieval_hash": "sha256:992aaff8b62d4cfab52e7466edec9ff382f626503c8ee82b43c9c082c1a61243",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.knbs.or.ke/reports/analytical-report-on-ict-based-on-the-2023-24-kenya-housing-survey/",
+      "claim": "KNBS report landing page describing the 2023/24 KHS ICT report, its national and county scope, and headline indicators.",
+      "status": "official-report-page"
+    },
+    {
+      "source_url": "https://www.knbs.or.ke/",
+      "claim": "Kenya National Bureau of Statistics official institutional source.",
+      "status": "official-institutional-source"
+    }
+  ],
+  "boundary": "This record adds a Kenya digital-access and household-connectivity layer to the cultural, social, and consumer atlas. It does not establish cultural use, online purchasing, platform effects, digital welfare, quality of service, or causal explanations for county and residence gaps.",
+  "retrieval_hash": "sha256:992aaff8b62d4cfab52e7466edec9ff382f626503c8ee82b43c9c082c1a61243",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "KNBS 110-page 2023/24 KHS ICT analytical report reviewed; sample coverage, individual mobile/internet/computer indicators, county examples, household fixed/mobile/any-internet indicators, residence comparisons, definitions, and limitations checked.",
+    "report_pdf_sha256": "sha256:8a4cf07fc593feb9525a26f37500e5d7ee857083adc42e87a93864c461070e14",
+    "checked": "2026-09-30"
+  }
+}

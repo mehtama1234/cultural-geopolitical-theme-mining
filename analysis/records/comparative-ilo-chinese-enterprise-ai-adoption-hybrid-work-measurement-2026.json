@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-chinese-enterprise-ai-adoption-hybrid-work-measurement-2026",
+  "title": "AI adoption is an organizational bargain, not an automation switch",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Artificial Intelligence Adoption in Chinese Enterprises: Productivity Effects, Workforce Implications, and Policy Challenges, September 2026",
+  "geography": "China; enterprises across manufacturing, finance, business services, construction, education, media and travel, plus a survey of Chinese professionals",
+  "observations": [
+    {
+      "period": "2026; enterprise AI adoption and organizational models",
+      "denominator": {"value": 21, "unit": "Chinese enterprises interviewed across sectors and ownership types", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "adoption": {"value": "all 21 interviewed firms reported active AI deployment or concrete plans for imminent adoption", "unit": "reported enterprise sample condition", "value_type": "reported_sample_finding"},
+        "organizational_models": {"value": "three models were identified: centralized specialist teams, business-embedded integration, and organic bottom-up diffusion", "unit": "reported organizational typology", "value_type": "reported_typology"},
+        "impact_depth": {"value": "AI use ranges from tool-assisted efficiency through process-embedded optimization to business-model innovation; most firms remain in the first two stages", "unit": "reported adoption-maturity pattern", "value_type": "reported_organizational_finding"},
+        "applications": {"value": "reported uses include customer service, recruitment and talent matching, document and knowledge work, coding, supply-chain optimization, content moderation, robotics and sensors", "unit": "reported application domains", "value_type": "reported_application_set"},
+        "mechanism": {"value": "the organizational location of AI capability determines who controls adoption, how workflows are redesigned, and whether benefits appear as time savings, quality gains, cost reduction or new business models", "unit": "bounded organizational-technology mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO research brief synthesizing structured interviews with 21 enterprises and a complementary survey of 1,591 professionals; the enterprise sample was purposively selected to capture sector, size, ownership and AI-maturity variation.",
+      "uncertainty": "The 21 firms are not a probability sample and the typology is an analytic synthesis; it does not estimate prevalence across Chinese enterprises or establish that any model causes higher productivity or better job quality.",
+      "subgroup": "Small firms, state-owned, private and foreign-invested enterprises, customer-facing firms, manufacturing firms, technology teams, business units and workers in routine or data-intensive roles.",
+      "counterinterpretation": "Organizational model may reflect sector, capital, leadership, regulation or prior capability rather than independently producing adoption outcomes; widespread reported adoption may also reflect selection into the study.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/Research%20Brief_Artificial%20Intelligence%20Adoption%20in%20Chinese%20Enterprises.pdf",
+      "retrieval_hash": "sha256:a1ee25469498b8c988ab0b3aa5e6b4ec75a47dbd0fc1d0f2fdef8ac44b933aac",
+      "status": "reported"
+    },
+    {
+      "period": "2026; measured productivity gains and the evidence gap around work quality",
+      "denominator": {"value": 21, "unit": "interviewed enterprise cases; firms may appear in multiple application categories", "value_type": "reported_case_frame"},
+      "measures": {
+        "reported_gains": {"value": "examples include customer-service throughput rising from 6,000 to 15,000 issues per day for 300 employees, recruitment cycle time falling from 30 to 13 days, and smart-manufacturing production efficiency gains of 20–30%", "unit": "self-reported firm-level examples", "value_type": "reported_case_measure"},
+        "task_reduction": {"value": "one manufacturer reduced a specification-reading team from more than 10 employees to 2–3 in a cited production case; other firms reported reductions in repetitive work or labor-equivalent capacity", "unit": "reported task and labor-input change", "value_type": "reported_case_measure"},
+        "measurement_gap": {"value": "most firms lacked systematic frameworks for evaluating AI effects beyond selected output metrics, including job quality, task composition and working conditions", "unit": "reported measurement condition", "value_type": "reported_institutional_gap"},
+        "mechanism": {"value": "productivity can be visible before distribution is: output, speed and cost are measured more readily than autonomy, workload, job quality, redeployment or who captures the time released", "unit": "bounded productivity-distribution mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Qualitative firm interviews and reported case metrics summarized by the ILO brief; all quantified firm impacts are self-reported by firm representatives and not independently verified.",
+      "uncertainty": "Reported figures are selected examples rather than harmonized estimates, may reflect baseline differences or concurrent changes, and do not identify whether time savings became shorter hours, higher output expectations, lower staffing, higher wages or better work.",
+      "subgroup": "Routine clerical, administrative, customer-service and data-intensive workers; managers deciding how to allocate productivity gains; SMEs with limited measurement capacity; and workers whose tasks are redesigned.",
+      "counterinterpretation": "Incomplete measurement may reflect early adoption rather than concealment; productivity gains can coexist with improved work if firms redeploy staff, but the brief does not observe those downstream outcomes systematically.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/Research%20Brief_Artificial%20Intelligence%20Adoption%20in%20Chinese%20Enterprises.pdf",
+      "retrieval_hash": "sha256:a1ee25469498b8c988ab0b3aa5e6b4ec75a47dbd0fc1d0f2fdef8ac44b933aac",
+      "status": "reported"
+    },
+    {
+      "period": "2026; workforce expectations, capability divides, governance and transition needs",
+      "denominator": {"value": 1591, "unit": "Chinese professionals surveyed across industries, ownership types and career levels", "value_type": "reported_survey_frame"},
+      "measures": {
+        "inevitability": {"value": 56, "unit": "percent viewing AI adoption as an inevitable trend", "value_type": "reported_survey_indicator"},
+        "net_jobs": {"value": 47, "unit": "percent believing AI creates more jobs than it displaces", "value_type": "reported_survey_indicator"},
+        "income_anxiety": {"value": 39, "unit": "percent anticipating income declines due to AI", "value_type": "reported_survey_indicator"},
+        "unease": {"value": "approximately one-third expressed concern about social stability or human uniqueness; firms also reported employee resistance, weaker AI capability among many workers over 40, and headquarters–branch divides", "unit": "reported workforce concern and capability pattern", "value_type": "reported_survey_and_interview_finding"},
+        "governance": {"value": "human review remains central in hybrid workflows because of output-quality limits, hallucinations, privacy and data-security constraints, legacy-system integration, and sectoral or multinational rules", "unit": "reported governance condition", "value_type": "reported_implementation_finding"},
+        "mechanism": {"value": "AI transition legitimacy depends on whether workers can learn, challenge, verify and move toward higher-value tasks while firms and regulators measure distributional effects rather than output alone", "unit": "bounded transition-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive survey of 1,591 professionals combined with multi-perspective enterprise interviews; the brief reports associations, perceptions and implementation observations rather than causal effects.",
+      "uncertainty": "Survey attitudes are self-reported and cross-sectional; the brief does not provide a probability-sample design, realized job displacement, income trajectories, gender-by-occupation estimates, or evidence that lifelong learning or human oversight changes outcomes.",
+      "subgroup": "Mid-career and older workers, routine-task workers, branch-level staff, lower-skilled workers, AI and domain specialists, SMEs, workers exposed to income loss, and employees subject to data or algorithmic governance.",
+      "counterinterpretation": "Income anxiety may reflect general labor-market uncertainty rather than AI alone; hybrid oversight can protect quality but can also intensify monitoring or preserve unequal control if workers lack voice in deployment decisions.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/Research%20Brief_Artificial%20Intelligence%20Adoption%20in%20Chinese%20Enterprises.pdf",
+      "retrieval_hash": "sha256:a1ee25469498b8c988ab0b3aa5e6b4ec75a47dbd0fc1d0f2fdef8ac44b933aac",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/artificial-intelligence-adoption-chinese-enterprises-productivity-effects", "claim": "Official ILO publication page with date, authors, sample summary, reported productivity examples, organizational models and workforce findings."},
+    {"source_url": "https://www.ilo.org/resource/news/ai-adoption-chinese-enterprises-boosts-productivity-raises-concerns-about", "claim": "Official ILO news summary of the study's hybrid-workflow, productivity, workforce and measurement boundaries."},
+    {"source_url": "https://doi.org/10.54394/00035342", "claim": "Official DOI for the ILO research brief."}
+  ],
+  "boundary": "This record adds an enterprise-level AI transition route from organizational adoption model through measured productivity, task redesign, worker expectations, skills, governance and distributional legitimacy. The qualitative enterprise sample is purposive, firm productivity figures are self-reported, the professional survey is descriptive, and the publication does not establish causal effects on employment, wages, hours, job quality, inequality, innovation or social trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO 12-page PDF and publication/news pages, enterprise and professional sample frames, organizational adoption models, application domains, reported productivity examples, measurement gap, workforce perceptions, age and branch capability divides, hybrid human-AI workflows, regulatory/data-security constraints and transition recommendations were reviewed.",
+    "source_url_sha256": "sha256:a1ee25469498b8c988ab0b3aa5e6b4ec75a47dbd0fc1d0f2fdef8ac44b933aac",
+    "checked": "2026-09-29"
+  }
+}

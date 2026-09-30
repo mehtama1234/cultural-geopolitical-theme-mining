@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-bok-korea-consumer-survey-september-2026-sentiment-housing-expectations",
+  "title": "Consumer confidence rebounds on income hopes while living standards remain flat and housing, inflation, and rates keep shaping perceived room",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "housing_place_mobility", "time_hidden_price", "unequal_exposure_status", "political_judgment_action", "public_systems_feedback"],
+  "source_unit": "Bank of Korea, Consumer Survey Index for September 2026; official release indexed by Korea Development Institute Economic Information and Education Center",
+  "geography": "South Korea; urban household consumer survey",
+  "observations": [
+    {
+      "period": "September 2026; consumer sentiment and component movement",
+      "denominator": {"value": 2226, "unit": "responding Korean urban households from 2,500 sampled households", "value_type": "published_survey_sample"},
+      "measures": {
+        "ccsi": {"value": 106.6, "unit": "composite consumer sentiment index", "value_type": "reported_survey_index"},
+        "ccsi_month_change": {"value": 2.1, "unit": "index points from August 2026", "value_type": "reported_change"},
+        "current_living_standards_change": {"value": 0, "unit": "index-point change from August; unchanged", "value_type": "reported_change"},
+        "prospective_living_standards_change": {"value": 1, "unit": "index points", "value_type": "reported_change"},
+        "prospective_household_income_change": {"value": 2, "unit": "index points", "value_type": "reported_change"},
+        "prospective_household_spending_change": {"value": 1, "unit": "index points", "value_type": "reported_change"},
+        "current_economy_change": {"value": 4, "unit": "index points", "value_type": "reported_change"},
+        "sentiment_room_split": {"value": "Macro and income expectations improved more than current living-standards assessment, separating confidence about direction from present household room", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Bank of Korea monthly Consumer Survey Index, with the CCSI constructed from six standardized consumer-attitude components; survey conducted September 9-16, 2026.",
+      "uncertainty": "The index is a subjective expectation measure and is not a transaction, retail-sales, income, or household-panel measure. Monthly movement can reflect market news, policy expectations, seasonality, and geopolitical events.",
+      "subgroup": "Urban Korean households; component estimates and detailed subgroup tables are in the linked release attachment.",
+      "counterinterpretation": "A rebound above the long-run benchmark may indicate improved expectations without current material improvement; unchanged living-standards assessment is a counterweight to the composite headline.",
+      "source_url": "https://eiec.kdi.re.kr/policy/materialView.do?num=287364&pg=1&pp=20&topic=P",
+      "retrieval_hash": "sha256:c66bdd3fd51af5368fb1f4b0834f7684e824f7a0158b61936d662c6736fb9e04",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; inflation perception and expectations",
+      "denominator": {"value": 2226, "unit": "responding Korean urban households", "value_type": "published_survey_sample"},
+      "measures": {
+        "past_year_inflation_perception": {"value": 3.0, "unit": "percent perceived consumer-price increase over the past year", "value_type": "reported_survey_estimate"},
+        "one_year_expected_inflation": {"value": 2.7, "unit": "percent", "value_type": "reported_expectation"},
+        "three_year_expected_inflation": {"value": 2.6, "unit": "percent", "value_type": "reported_expectation"},
+        "five_year_expected_inflation": {"value": 2.6, "unit": "percent", "value_type": "reported_expectation"},
+        "inflation_expectations_change": {"value": "All listed expected-inflation horizons were unchanged from August", "unit": "reported monthly comparison", "value_type": "reported_pattern"},
+        "price_meaning": {"value": "Stable inflation expectations can coexist with a high perceived price level and continued household sensitivity to cost", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Monthly household survey measures of perceived past inflation and expected inflation over one-, three-, and five-year horizons.",
+      "uncertainty": "Perceived and expected inflation are not estimates of individual household inflation or future realized CPI; question framing, salient prices, and recent purchase experience can affect responses.",
+      "subgroup": "Korean urban households; release-level aggregate estimates.",
+      "counterinterpretation": "Stable expectations may reflect anchored beliefs, limited information, or adaptation to higher prices rather than restored purchasing power.",
+      "source_url": "https://eiec.kdi.re.kr/policy/materialView.do?num=287364&pg=1&pp=20&topic=P",
+      "retrieval_hash": "sha256:c66bdd3fd51af5368fb1f4b0834f7684e824f7a0158b61936d662c6736fb9e04",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; housing and financial-cost expectations",
+      "denominator": {"value": 2226, "unit": "responding Korean urban households", "value_type": "published_survey_sample"},
+      "measures": {
+        "housing_price_outlook_change": {"value": 0, "unit": "index-point change from August; unchanged", "value_type": "reported_change"},
+        "housing_price_outlook_index": {"value": 125, "unit": "housing-price outlook CSI reported for September", "value_type": "reported_survey_index"},
+        "interest_rate_outlook_change": {"value": 3, "unit": "index points from August", "value_type": "reported_change"},
+        "interest_rate_outlook_index": {"value": 128, "unit": "interest-rate outlook CSI reported for September", "value_type": "reported_survey_index"},
+        "wage_outlook_change": {"value": 1, "unit": "index points", "value_type": "reported_change"},
+        "housing_cost_meaning": {"value": "Improved general sentiment can coexist with persistent housing-price expectations and stronger concern about interest-rate conditions", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Consumer Survey Index subcomponents for housing-price, interest-rate, and wage-level expectations.",
+      "uncertainty": "These are expectations, not transaction prices, mortgage approvals, debt-service burdens, or realized housing mobility. Aggregate housing expectations can diverge sharply by tenure, region, age, and wealth.",
+      "subgroup": "Korean urban households; release-level aggregate estimates.",
+      "counterinterpretation": "High housing-price expectations may express fear of being priced out or a desire to preserve asset value, not optimism about household affordability.",
+      "source_url": "https://eiec.kdi.re.kr/policy/materialView.do?num=287364&pg=1&pp=20&topic=P",
+      "retrieval_hash": "sha256:c66bdd3fd51af5368fb1f4b0834f7684e824f7a0158b61936d662c6736fb9e04",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; survey design and interpretation boundary",
+      "denominator": {"value": 2500, "unit": "urban Korean households sampled; 2,226 responded", "value_type": "published_survey_sample"},
+      "measures": {
+        "response_rate": {"value": 89.04, "unit": "percent of sampled households responding", "value_type": "derived_from_published_counts"},
+        "survey_window": {"value": "9 to 16 September 2026", "unit": "field period", "value_type": "reported_metadata"},
+        "composite_components": {"value": "Current living standards, prospective living standards, prospective household income, prospective household spending, current domestic economic conditions, and prospective domestic economic conditions", "unit": "six CCSI components", "value_type": "reported_metadata"},
+        "consumer_sentiment_boundary": {"value": "The release is a leading-expectations layer that must be paired with realized spending, prices, credit, employment, and housing transactions", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Monthly cross-sectional urban household survey conducted by the Bank of Korea; sample and response counts reported in the release materials.",
+      "uncertainty": "Nonresponse, sampling, index construction, and short field window limit interpretation. The release does not follow the same household through later purchases or financial outcomes.",
+      "subgroup": "Urban households in South Korea.",
+      "counterinterpretation": "A high response rate does not eliminate coverage or measurement limits, and a composite index can conceal offsetting component movements.",
+      "source_url": "https://www.bok.or.kr/eng/stats/statsPublictSchdul/listCldr.do?date=54549-10&menuNo=400359",
+      "retrieval_hash": "sha256:c66bdd3fd51af5368fb1f4b0834f7684e824f7a0158b61936d662c6736fb9e04",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bok.or.kr/eng/stats/statsPublictSchdul/listCldr.do?date=54549-10&menuNo=400359", "claim": "Bank of Korea statistical calendar identifies the September 2026 Consumer Survey Index release.", "status": "official-calendar-context"},
+    {"source_url": "https://kosis.kr/visual/economyBoard/economyDash.do?lang=en", "claim": "KOSIS dashboard describes the Consumer Survey Index as a measure of perceptions and future consumption outlook.", "status": "method-context"}
+  ],
+  "boundary": "This record adds a non-U.S. consumer-expectations route: composite sentiment, household living-standard perceptions, inflation expectations, housing-price expectations, and interest-rate concern can move on different margins. It does not establish realized consumption, affordability, household debt stress, housing transactions, or causal effects of policy or markets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "KDI official policy-material page indexing the Bank of Korea September 2026 Consumer Survey release, plus the Bank of Korea statistical calendar and corroborating published summary for sample, index, expectation, and field-period details.",
+    "source_page_sha256": "sha256:c66bdd3fd51af5368fb1f4b0834f7684e824f7a0158b61936d662c6736fb9e04",
+    "checked": "2026-09-28",
+    "version_note": "The linked KDI page is an official Korean-language index page; the underlying ten-page Bank of Korea attachment is identified as D26090163.pdf. Detailed component values should be rechecked against that attachment if the download endpoint becomes available."
+  }
+}

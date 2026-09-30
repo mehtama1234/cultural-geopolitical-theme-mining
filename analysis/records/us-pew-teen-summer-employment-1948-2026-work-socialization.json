@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-teen-summer-employment-1948-2026-work-socialization",
+  "title": "Teen summer work has partly rebounded but remains far below its historical role as a routine entry into paid work",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center analysis of U.S. Bureau of Labor Statistics employment data, published August 19, 2026",
+  "geography": "United States; teens ages 16 to 19, with summer employment, age, race/ethnicity, industry, and occupation comparisons",
+  "observations": [
+    {
+      "period": "1948-2026; summer employment among teens ages 16 to 19",
+      "denominator": {"value": 1, "unit": "U.S. 16- to 19-year-olds in nonseasonally adjusted federal employment data", "value_type": "population_frame"},
+      "measures": {
+        "summer_2026": {"value": 35.5, "unit": "percent employed for at least part of summer, averaging June and July 2026", "value_type": "reported_share"},
+        "summer_2025": {"value": 33.8, "unit": "percent employed for at least part of summer, June through August 2025", "value_type": "reported_share"},
+        "historical_peak": {"value": 58.0, "unit": "percent employed during summer 1978", "value_type": "reported_share"},
+        "long_run_context": {"value": "more than half of 16- to 19-year-olds worked for at least part of the summer in most years through 2000, but the rate has remained well below that historical norm since the early 2000s", "unit": "reported long-run employment pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Pew analysis of BLS monthly employment-population ratios; summer averages use June-July-August except 2026, which uses June-July because August data were not yet available.",
+      "uncertainty": "The 2026 summer comparison is incomplete relative to prior three-month summer averages, and the employment-population ratio does not identify hours, earnings, job quality, or whether work displaced school, care, or leisure.",
+      "subgroup": "U.S. teens ages 16 to 19.",
+      "counterinterpretation": "Lower teen employment may reflect schooling, family resources, changing employer demand, legal constraints, transportation, competition from older workers, or different youth preferences rather than a single loss of work opportunity.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/19/after-a-long-fade-is-teen-summer-employment-in-the-us-rebounding/",
+      "retrieval_hash": "sha256:7a4f1430685ef81912591c24790d23527f16ec6241c9e2c4932457b6bf110b5c",
+      "status": "reported"
+    },
+    {
+      "period": "June-July 2026; summer employment by race and ethnicity",
+      "denominator": {"value": 1, "unit": "U.S. 16- to 19-year-olds in the published race/ethnicity comparison", "value_type": "population_frame"},
+      "measures": {
+        "white_teens": {"value": 39, "unit": "percent employed in June-July 2026", "value_type": "reported_share"},
+        "hispanic_teens": {"value": 28, "unit": "percent employed in June-July 2026", "value_type": "reported_share"},
+        "black_teens": {"value": 27, "unit": "percent employed in June-July 2026", "value_type": "reported_share"},
+        "asian_teens": {"value": 21, "unit": "percent employed in June-July 2026", "value_type": "reported_share"},
+        "exposure_gap": {"value": "the published summer employment range spans 18 percentage points between White and Asian teens", "unit": "reported subgroup difference", "value_type": "reported_comparison"}
+      },
+      "method": "Pew descriptive analysis of BLS employment data with race and ethnicity categories as published; the source notes that White, Black, and Asian categories include those who are Hispanic, while Hispanic is of any race.",
+      "uncertainty": "These are descriptive employment-population differences and do not identify the role of household income, local labor demand, transportation, school schedules, discrimination, immigration status, or job-search behavior.",
+      "subgroup": "White, Hispanic, Black, and Asian teens ages 16 to 19 as defined in the source tables.",
+      "counterinterpretation": "Group employment differences may reflect different combinations of school, family, geographic, legal, cultural, and labor-market conditions; the percentages do not measure willingness or job quality.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/19/after-a-long-fade-is-teen-summer-employment-in-the-us-rebounding/",
+      "retrieval_hash": "sha256:7a4f1430685ef81912591c24790d23527f16ec6241c9e2c4932457b6bf110b5c",
+      "status": "reported"
+    },
+    {
+      "period": "June-July 2026; summer employment by age",
+      "denominator": {"value": 1, "unit": "U.S. 16- to 19-year-olds in the published age comparison", "value_type": "population_frame"},
+      "measures": {
+        "ages_18_19": {"value": 48, "unit": "percent employed during the first two summer months of 2026", "value_type": "reported_share"},
+        "ages_16_17": {"value": 24, "unit": "percent employed during the first two summer months of 2026", "value_type": "reported_share"},
+        "age_gradient": {"value": "18- and 19-year-olds were about twice as likely as 16- and 17-year-olds to be employed", "unit": "reported age comparison", "value_type": "reported_comparison"},
+        "life_stage_route": {"value": "access to paid work appears to expand sharply across the transition from younger to older adolescence", "unit": "analytic life-stage implication", "value_type": "analytic_implication"}
+      },
+      "method": "Descriptive comparison of BLS employment-population ratios for two teen age bands.",
+      "uncertainty": "The comparison does not separate legal eligibility, transportation, school obligations, employer preferences, prior experience, or local labor-market differences.",
+      "subgroup": "Teens ages 16 to 17 versus 18 to 19.",
+      "counterinterpretation": "Older teens may have more legal autonomy, credentials, transportation, and availability; the age gradient does not show that younger teens face a single access barrier.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/19/after-a-long-fade-is-teen-summer-employment-in-the-us-rebounding/",
+      "retrieval_hash": "sha256:7a4f1430685ef81912591c24790d23527f16ec6241c9e2c4932457b6bf110b5c",
+      "status": "reported"
+    },
+    {
+      "period": "2014-2026; industries employing teens during summer",
+      "denominator": {"value": 1, "unit": "employed U.S. 16- to 19-year-olds in the published summer industry comparison", "value_type": "employed_subpopulation"},
+      "measures": {
+        "accommodation_food": {"value": 32, "unit": "percent of employed teens in accommodation and food services in summer 2026", "value_type": "reported_share"},
+        "retail": {"value": 21, "unit": "percent of employed teens in retail trade in summer 2026", "value_type": "reported_share"},
+        "transportation_material_moving": {"value": 11, "unit": "percent of employed teens in transportation and material-moving jobs in summer 2026, up from 9% in 2025", "value_type": "reported_share"},
+        "office_admin": {"value": 7, "unit": "percent of employed teens in office and administrative jobs in summer 2026, down from 9% in 2025", "value_type": "reported_share"},
+        "first_job_sector": {"value": "hospitality, food service, retail, and logistics remain major institutional entry points into paid work for teenagers", "unit": "analytic sector interpretation", "value_type": "analytic_implication"}
+      },
+      "method": "Pew analysis of BLS industry and occupation data; industry classifications are directly comparable for the published 2014-2026 window.",
+      "uncertainty": "Sector shares do not measure wages, scheduling, safety, retention, training, advancement, or the quality of the work experience; 2026 values use only June-July.",
+      "subgroup": "Employed teens ages 16 to 19 during summer months.",
+      "counterinterpretation": "Industry concentration may reflect seasonal demand and age eligibility rather than a durable narrowing of youth opportunity; sector movement does not prove a change in work socialization.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/19/after-a-long-fade-is-teen-summer-employment-in-the-us-rebounding/",
+      "retrieval_hash": "sha256:7a4f1430685ef81912591c24790d23527f16ec6241c9e2c4932457b6bf110b5c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/cps/", "claim": "The Bureau of Labor Statistics Current Population Survey is the federal employment-data source analyzed by Pew.", "status": "official-data-source"}
+  ],
+  "boundary": "This record adds a youth-work and socialization layer: teen summer employment has partly rebounded in 2026 but remains far below historical levels, varies sharply by age and race/ethnicity, and is concentrated in hospitality, retail, and logistics. It does not establish causes, earnings, job quality, school tradeoffs, household necessity, discrimination, or the long-term effect of early work exposure.",
+  "retrieval_hash": "sha256:7a4f1430685ef81912591c24790d23527f16ec6241c9e2c4932457b6bf110b5c"
+}

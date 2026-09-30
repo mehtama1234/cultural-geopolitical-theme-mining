@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-malta-ai-cultural-audience-development-2025",
+  "title": "AI-informed audience development converted surrounding footfall into modestly higher cultural visitation at a Maltese arts centre",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "Peer-reviewed study of AI-powered footfall monitoring, non-visitor surveys, and audience-development intervention at Spazju Kreattiv, Malta's National Centre for Creativity",
+  "geography": "Valletta, Malta; Spazju Kreattiv and surrounding public spaces",
+  "observations": [
+    {
+      "period": "2025 study; visitor and non-visitor measurement frame",
+      "denominator": {"value": 280, "unit": "valid survey respondents combined with continuous anonymized external and internal footfall monitoring", "value_type": "reported_mixed_method_sample"},
+      "measures": {
+        "survey_sample": {"value": 280, "unit": "valid survey responses", "value_type": "reported_count"},
+        "local_residents": {"value": 161, "unit": "survey respondents reporting residence in Malta", "value_type": "reported_count"},
+        "nonresident_or_temporary": {"value": 118, "unit": "survey respondents not residing in Malta", "value_type": "reported_count"},
+        "measurement_route": {"value": "GDPR-compliant computer-vision sensors measured anonymized pedestrian movement outside the venue and internal visits, while surveys captured awareness, motivations, barriers, and participation context", "unit": "reported mixed-method design", "value_type": "reported_method"},
+        "mechanism": {"value": "Measuring non-visitors alongside visitors makes the conversion problem visible: public proximity is not equivalent to cultural access or participation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Peer-reviewed mixed-method case study combining anonymized FlowHint computer-vision monitoring, machine-learning footfall forecasting, survey research, and venue benchmarks.",
+      "uncertainty": "This is a single-venue case with a non-probability survey and site-specific spatial and social conditions; awareness and footfall are not population estimates or measures of sustained cultural participation.",
+      "subgroup": "Pedestrians and visitors around Spazju Kreattiv, including Malta residents and international or temporary visitors.",
+      "counterinterpretation": "Central location and tourism patterns, programming, weather, seasonality, and prior venue changes may shape both awareness and visitation independently of the AI system.",
+      "source_url": "https://doi.org/10.1177/27018466251370644",
+      "retrieval_hash": "sha256:6018dee5eaa3cef7202fe01c534d66c9c3ab2381aeacb831475b29b8faa7323c",
+      "status": "reported"
+    },
+    {
+      "period": "2025 study; AI-informed outreach intervention",
+      "denominator": {"value": 1, "unit": "Spazju Kreattiv venue intervention using forecasted surrounding footfall", "value_type": "reported_case_intervention"},
+      "measures": {
+        "site_selection": {"value": "Castille Square was identified as the highest-potential nearby location for outreach because of higher pedestrian flow", "unit": "reported site-selection result", "value_type": "reported_finding"},
+        "staffing_route": {"value": "Guest Relations Officers were deployed at forecasted high-footfall times to inform, direct, and assist passersby with programming, accessibility, and ticketing information", "unit": "reported audience-development intervention", "value_type": "reported_action"},
+        "privacy_route": {"value": "The sensors processed video locally and retained anonymized counts and movement patterns without facial recognition or personal-data storage, according to the study", "unit": "reported data-governance design", "value_type": "reported_safeguard"},
+        "mechanism": {"value": "AI operated as an allocation tool for human cultural mediation: it located likely non-visitors, while staff supplied context and a social invitation that the sensor could not provide", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Study-reported implementation of AI-recommended staffing shifts informed by continuous footfall monitoring, forecasts, and survey findings.",
+      "uncertainty": "Only some recommended shifts could be staffed; the case does not provide randomized assignment, a matched control venue, or a complete cost-effectiveness estimate.",
+      "subgroup": "People passing through Castille Square who were potentially unaware of or uncertain about Spazju Kreattiv's programming and accessibility.",
+      "counterinterpretation": "Human outreach, special programming, staff availability, and ordinary day-level variation may account for part of the observed change; the AI forecast is not separately identified from the intervention package.",
+      "source_url": "https://doi.org/10.1177/27018466251370644",
+      "retrieval_hash": "sha256:6018dee5eaa3cef7202fe01c534d66c9c3ab2381aeacb831475b29b8faa7323c",
+      "status": "reported"
+    },
+    {
+      "period": "2025 study; reported visitation outcome",
+      "denominator": {"value": 1, "unit": "venue-level comparison of average daily visitors on days with AI-informed staffing recommendations", "value_type": "reported_comparison"},
+      "measures": {
+        "baseline_visitors": {"value": 55, "unit": "average daily visitors on the study's reference days", "value_type": "reported_count"},
+        "intervention_days_visitors": {"value": 61, "unit": "average daily visitors on days when AI-informed staffing recommendations were applied", "value_type": "reported_count"},
+        "visitation_change": {"value": 11, "unit": "approximate percent increase in average daily visitation from 55 to 61", "value_type": "reported_change"},
+        "outcome_boundary": {"value": "The increase is a venue-footfall outcome, not evidence of repeat attendance, belonging, learning, revenue, demographic diversification, or durable cultural participation", "unit": "reported analytical boundary", "value_type": "bounded_boundary"},
+        "mechanism": {"value": "The case supplies a measurable bridge from data-informed discoverability to physical entry, while leaving the deeper audience relationship open", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Study comparison of venue benchmarks on days when AI-informed Guest Relations Officer staffing recommendations were implemented; authors call for randomized follow-up.",
+      "uncertainty": "The comparison is observational, venue-specific, and bundled: it cannot isolate algorithmic forecasting, staff presence, outreach content, timing, programming, or other day-level factors; the article reports footfall rather than long-run participation.",
+      "subgroup": "Visitors to Spazju Kreattiv during the reported staffing-shift comparison period.",
+      "counterinterpretation": "The 11% difference may reflect selection of favorable days or concurrent venue conditions; a larger short-term footfall count could coexist with unequal access, superficial visits, or no durable relationship.",
+      "source_url": "https://doi.org/10.1177/27018466251370644",
+      "retrieval_hash": "sha256:6018dee5eaa3cef7202fe01c534d66c9c3ab2381aeacb831475b29b8faa7323c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cultureventure.org/wp-content/uploads/2025/10/visanich-et-al-2025-ai-and-audience-development-from-footfall-to-forecasting-cultural-participation.pdf", "claim": "Open-access article version describing FlowHint sensors, survey methods, AI-informed staffing, and the reported 11% visitation increase."}
+  ],
+  "boundary": "This record adds a named cultural-venue episode connecting AI-assisted measurement of non-visitors to human outreach and a venue-level visitation change. It does not establish causal algorithmic impact, equitable participation, revenue, repeat engagement, belonging, or generalizability beyond Spazju Kreattiv.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Peer-reviewed article page and linked open-access version reviewed for the sample, sensor design, survey frame, intervention, reported visitation comparison, privacy claims, and limitations.",
+    "checked": "2026-09-28"
+  }
+}

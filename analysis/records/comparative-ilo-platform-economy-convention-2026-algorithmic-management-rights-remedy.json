@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-platform-economy-convention-2026-algorithmic-management-rights-remedy",
+  "title": "The first global platform-work convention turns algorithmic management, classification, pay, data, deactivation, and remedy into international labor-governance questions",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Convention concerning decent work in the platform economy, 2026 (No. 193), adopted 12 June 2026",
+  "geography": "ILO Member States, digital labour platforms, platform workers, intermediaries, and cross-border platform arrangements",
+  "observations": [
+    {
+      "period": "12 June 2026; scope and platform-work definition",
+      "denominator": {"value": 1, "unit": "international labor standard for digital platform work", "value_type": "normative_instrument_frame"},
+      "measures": {
+        "coverage": {"value": "the Convention applies to all digital labour platforms and digital platform workers, whether in the formal or informal economy, subject to limited possible exclusions with reporting and progressive-extension duties", "unit": "reported normative scope", "value_type": "normative_scope"},
+        "definition": {"value": "digital labour platforms organize or facilitate remunerated work through digital technologies and automated decision-making systems, whether work is online or location-based", "unit": "reported legal definition", "value_type": "normative_definition"},
+        "cross_border": {"value": "clients, workers, and platforms may be located in different countries", "unit": "reported governance condition", "value_type": "reported_condition"},
+        "formalization": {"value": "the Convention recognizes platform work as generating work and income opportunities while also containing decent-work deficits and a need to facilitate formalization", "unit": "reported normative framing", "value_type": "reported_framing"}
+      },
+      "method": "International Labour Conference convention adopted through ILO tripartite standard-setting; this record extracts normative scope and definitions from the adopted text.",
+      "uncertainty": "A convention creates an international standard but does not by itself show ratification, domestic implementation, enforcement, platform compliance, worker awareness, or improved outcomes in any country.",
+      "subgroup": "Platform workers in formal and informal work, online and location-based workers, migrants and refugees, platform firms, intermediaries, clients, and national labor authorities.",
+      "counterinterpretation": "National exclusions, different platform business models, and existing labor regimes may produce heterogeneous implementation; formal coverage can coexist with practical gaps.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/ILC114-Instrument%20C.193-EN.pdf",
+      "retrieval_hash": "sha256:edb4cdd9b31a86afae15d742ce0d51b2b69ea20f3b4c3e2c457f55e46068722d",
+      "status": "reported"
+    },
+    {
+      "period": "12 June 2026; work rights, classification, pay, and protection",
+      "denominator": {"value": 1, "unit": "Convention No. 193 rights-and-protection framework", "value_type": "normative_instrument_frame"},
+      "measures": {
+        "fundamental_rights": {"value": "the standard covers freedom of association and collective bargaining, forced and child labor, discrimination, and safe and healthy work", "unit": "reported rights framework", "value_type": "normative_rights_set"},
+        "classification": {"value": "Members are to take measures for correct classification of platform workers based mainly on facts about work performance and remuneration, not only labels", "unit": "reported classification rule", "value_type": "normative_rule"},
+        "payment": {"value": "Members are to require timely and full payment, understandable information on remuneration and deductions, and minimum-wage and expense protections for workers in employment relationships", "unit": "reported payment protections", "value_type": "normative_protection"},
+        "social_security": {"value": "platform workers should have access to social-security protection on terms no less favourable than those applicable to comparable workers with the same employment classification", "unit": "reported protection rule", "value_type": "normative_rule"}
+      },
+      "method": "Textual analysis of Articles 3, 8, 9, 10, 11, and 12 of the adopted ILO Convention.",
+      "uncertainty": "The provisions leave substantial implementation choices to national law, practice, classification, collective agreements, and enforcement institutions; the text does not estimate coverage or compliance.",
+      "subgroup": "Workers whose status, pay, costs, social insurance, bargaining rights, or safety are affected by platform-mediated work, including self-employed and formally employed workers.",
+      "counterinterpretation": "National legal systems may already provide stronger protections, while a minimum international floor may be difficult to apply across diverse platform models and may increase compliance costs or reduce some forms of access.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/ILC114-Instrument%20C.193-EN.pdf",
+      "retrieval_hash": "sha256:edb4cdd9b31a86afae15d742ce0d51b2b69ea20f3b4c3e2c457f55e46068722d",
+      "status": "reported"
+    },
+    {
+      "period": "12 June 2026; automated systems, data, and deactivation",
+      "denominator": {"value": 1, "unit": "Convention algorithmic-management and data-governance framework", "value_type": "normative_instrument_frame"},
+      "measures": {
+        "algorithmic_transparency": {"value": "platforms must inform workers and representatives about automated systems used to monitor, evaluate, or make work-related decisions and their effect on working conditions or access to work", "unit": "reported transparency rule", "value_type": "normative_rule"},
+        "adverse_decision_review": {"value": "workers must have access to written explanations and review, with appropriate human involvement, for significant adverse automated decisions including non-payment, suspension, deactivation, or termination", "unit": "reported contestability rule", "value_type": "normative_rule"},
+        "data_control": {"value": "Members are to safeguard worker data and provide rights to request access, rectification, and erasure subject to retention laws", "unit": "reported data-rights framework", "value_type": "normative_rights_set"},
+        "lawful_deactivation": {"value": "suspension, deactivation, or termination cannot be based on discriminatory or otherwise unlawful grounds", "unit": "reported protection rule", "value_type": "normative_rule"}
+      },
+      "method": "Textual analysis of Articles 13 through 17 of the adopted ILO Convention.",
+      "uncertainty": "The standard does not specify a universal technical audit method, response deadline, burden of proof, or success rate for review and redress; practical control remains an implementation question.",
+      "subgroup": "Workers subject to algorithmic monitoring, automated allocation, ratings, payment decisions, account suspension, deactivation, termination, or platform data collection.",
+      "counterinterpretation": "Human review and explanation requirements can be formal without producing meaningful reversal or restored earnings; privacy erasure may also conflict with legal retention, fraud prevention, or safety obligations.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/ILC114-Instrument%20C.193-EN.pdf",
+      "retrieval_hash": "sha256:edb4cdd9b31a86afae15d742ce0d51b2b69ea20f3b4c3e2c457f55e46068722d",
+      "status": "reported"
+    },
+    {
+      "period": "12 June 2026; remedy, enforcement, and territorial implementation",
+      "denominator": {"value": 1, "unit": "Convention implementation and remedy framework", "value_type": "normative_instrument_frame"},
+      "measures": {
+        "dispute_resolution": {"value": "Members are to ensure easy access to safe, fair, and effective dispute-resolution mechanisms and appropriate and effective remedies", "unit": "reported remedy rule", "value_type": "normative_rule"},
+        "enforcement": {"value": "Members are to establish mechanisms for compliance and enforcement of relevant laws, regulations, and collective agreements", "unit": "reported enforcement rule", "value_type": "normative_rule"},
+        "territorial_rule": {"value": "implementation applies to platforms and intermediaries operating, and platform workers working, in a Member's territory", "unit": "reported territorial rule", "value_type": "normative_rule"},
+        "entry_into_force": {"value": "the Convention becomes binding only for Members whose ratifications are registered and enters into force twelve months after two ratifications are registered", "unit": "reported legal condition", "value_type": "normative_condition"}
+      },
+      "method": "Textual analysis of Articles 21, 22, 24, and 27 of the adopted ILO Convention.",
+      "uncertainty": "At adoption, the text does not establish which states will ratify, when domestic measures will be enacted, how cross-border conflicts will be resolved, or whether workers can practically reach the promised remedy.",
+      "subgroup": "Platform workers seeking review or compensation, national labor inspectors and courts, unions, platform firms, intermediaries, and workers operating across borders.",
+      "counterinterpretation": "Ratification and implementation may be slow, uneven, or narrowed by exclusions; domestic courts, collective bargaining, and existing administrative remedies may carry much of the practical burden.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/ILC114-Instrument%20C.193-EN.pdf",
+      "retrieval_hash": "sha256:edb4cdd9b31a86afae15d742ce0d51b2b69ea20f3b4c3e2c457f55e46068722d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/record-decisions/convention-concerning-decent-work-platform-economy-2026", "claim": "Official ILO publication record for Convention No. 193, published 15 June 2026."},
+    {"source_url": "https://www.ilo.org/international-labour-conference/114th-session-international-labour-conference/texts-adopted-international-labour-conference-its-114th-session", "claim": "Official ILO list of texts adopted at the 114th International Labour Conference."}
+  ],
+  "boundary": "This record adds an international normative layer to the platform-work control and remedy map. It records an adopted Convention, not ratification, domestic implementation, platform compliance, worker-level outcomes, causal effects, or proof that formal rights produce restored earnings, durable bargaining power, or practical exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO Convention No. 193 PDF was reviewed for scope, definitions, worker rights, classification, pay, social security, algorithmic transparency and review, data rights, deactivation, dispute resolution, enforcement, territorial application, and entry-into-force conditions.",
+    "pdf_sha256": "sha256:edb4cdd9b31a86afae15d742ce0d51b2b69ea20f3b4c3e2c457f55e46068722d",
+    "checked": "2026-09-28"
+  }
+}

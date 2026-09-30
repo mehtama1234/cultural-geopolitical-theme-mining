@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ufl-ucl-arts-engagement-time-use-2003-2023-2026",
+  "title": "Arts participation is stable but increasingly home-based and solitary, weakening its social-health pathway",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "University of Florida and University College London EpiArts Lab analysis of American Time Use Survey data, published in Annals of the New York Academy of Sciences and summarized by UF News in July 2026",
+  "geography": "United States; American Time Use Survey participants and reported arts/cultural activities",
+  "observations": [
+    {
+      "period": "2003-2023; previous-day arts and cultural participation",
+      "denominator": {"value": 236000, "unit": "American Time Use Survey participants in the study period", "value_type": "survey_participant_count"},
+      "measures": {
+        "any_arts_daily": {"value": "about 1 in 20 Americans reported taking part in an arts or cultural activity on a given day", "unit": "previous-day activity report", "value_type": "reported_share"},
+        "arts_and_crafts": {"value": "about 1 in 60 reported doing arts and crafts on a given day", "unit": "previous-day activity report", "value_type": "reported_share"},
+        "creative_writing": {"value": "about 1 in 200 reported creative writing on a given day", "unit": "previous-day activity report", "value_type": "reported_share"},
+        "museum_visit": {"value": "about 1 in 400 reported visiting a museum on a given day", "unit": "previous-day activity report", "value_type": "reported_share"}
+      },
+      "method": "Analysis of more than 236,000 American Time Use Survey diaries covering 2003 through 2023; participants reported how they spent the previous day.",
+      "uncertainty": "A previous-day diary estimate is not a weekly or annual participation rate and does not measure intensity, quality, access barriers, or benefits for a particular participant.",
+      "subgroup": "U.S. civilian population represented by the American Time Use Survey, age 15 and over.",
+      "counterinterpretation": "Low daily participation can coexist with substantial weekly, seasonal, digital, informal, or occasional arts engagement that the one-day measure does not capture.",
+      "source_url": "https://news.ufl.edu/2026/07/arts-engagement-study/",
+      "retrieval_hash": "sha256:41b8fd6a3b9b19d7c97cc8228d3498a749b14f6686a3116bba889f3c319125b0",
+      "status": "reported"
+    },
+    {
+      "period": "2003-2023; long-run arts participation level",
+      "denominator": {"value": 1, "unit": "twenty-year American Time Use Survey trend comparison", "value_type": "publication_frame"},
+      "measures": {
+        "long_run_level": {"value": "overall arts participation remained low but stable across the two-decade period", "unit": "reported trend interpretation", "value_type": "reported_assessment"},
+        "contrast_with_reading": {"value": "the study did not find the same long-run decline in arts participation reported in the team’s separate reading-for-pleasure study", "unit": "cross-study comparison reported by researchers", "value_type": "reported_comparison"},
+        "cultural_continuity": {"value": "arts participation appears more resilient as a recurring cultural behavior than its low daily prevalence alone would suggest", "unit": "analytic implication", "value_type": "analytic_implication"}
+      },
+      "method": "Longitudinal trend comparison of repeated annual American Time Use Survey samples; this is a population-level time-use trend, not a panel of the same individuals.",
+      "uncertainty": "The reported stability does not identify which activities, populations, locations, or delivery channels drove the aggregate pattern, nor whether participation shifted into unmeasured formats.",
+      "subgroup": "U.S. time-use respondents across the 2003-2023 period.",
+      "counterinterpretation": "Stable aggregate participation can conceal replacement of in-person activities by digital or home-based activities, unequal participation by income and place, or changing meanings of what counts as arts engagement.",
+      "source_url": "https://news.ufl.edu/2026/07/arts-engagement-study/",
+      "retrieval_hash": "sha256:41b8fd6a3b9b19d7c97cc8228d3498a749b14f6686a3116bba889f3c319125b0",
+      "status": "reported"
+    },
+    {
+      "period": "2003-2023, with changes accelerating around the COVID-19 pandemic; location and social context of arts activity",
+      "denominator": {"value": 1, "unit": "arts activities reported in American Time Use Survey diaries", "value_type": "activity_frame"},
+      "measures": {
+        "home_shift": {"value": "Americans became increasingly likely to engage in creative activities at home rather than outside the home", "unit": "reported time-use direction", "value_type": "reported_trend"},
+        "solitary_shift": {"value": "Americans became more likely to engage in creative activities alone rather than socially", "unit": "reported time-use direction", "value_type": "reported_trend"},
+        "pandemic_rebound": {"value": "the declines in outside-the-home and social participation accelerated around the pandemic and only partially rebounded afterward", "unit": "reported period comparison", "value_type": "reported_trend"},
+        "social_pathway": {"value": "researchers interpret reduced going out and seeing other people as a possible loss of added social and health benefits", "unit": "researcher interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Study analysis of activity location and social context within American Time Use Survey diaries, with period comparisons around the pandemic.",
+      "uncertainty": "The summary does not provide the activity-specific estimates, subgroup breakdowns, causal design, or direct health outcomes needed to quantify the loss of social or health benefit.",
+      "subgroup": "Americans reporting arts and creative activities, with in-home/out-of-home and alone/social contexts compared over time.",
+      "counterinterpretation": "Home-based or solitary creation can be meaningful, accessible, safer, and socially connected through digital or household routes; less public participation is not automatically less valuable.",
+      "source_url": "https://news.ufl.edu/2026/07/arts-engagement-study/",
+      "retrieval_hash": "sha256:41b8fd6a3b9b19d7c97cc8228d3498a749b14f6686a3116bba889f3c319125b0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; arts as a public-health and community-access question",
+      "denominator": {"value": 1, "unit": "research and policy interpretation accompanying the study", "value_type": "publication_frame"},
+      "measures": {
+        "health_behavior_frame": {"value": "researchers argue that arts participation should be treated as a health behavior alongside exercise and nutrition", "unit": "reported researcher framing", "value_type": "reported_framework"},
+        "access_route": {"value": "the proposed intervention route is to remove barriers and make creative opportunities more welcoming and affordable", "unit": "reported policy implication", "value_type": "reported_implication"},
+        "unmeasured_outcome": {"value": "the study summary does not itself estimate changes in depression, chronic pain, social connection, biological aging, or longevity from arts participation", "unit": "missing outcome link", "value_type": "unmeasured"}
+      },
+      "method": "Researcher interpretation and policy implications attached to a descriptive time-use analysis; cited health benefits come from the broader literature rather than this record’s causal estimate.",
+      "uncertainty": "The source does not establish that raising participation produces a specified health outcome, identify which barriers matter most, or compare the cost-effectiveness of arts access with other interventions.",
+      "subgroup": "Communities, health systems, policymakers, arts organizations, and people facing financial, geographic, social, or confidence barriers to participation.",
+      "counterinterpretation": "Arts access may be a useful complement to clinical or community supports, but it should not be treated as a substitute for medical care, income, housing, safety, or other material determinants of health.",
+      "source_url": "https://doi.org/10.1111/nyas.70284",
+      "retrieval_hash": "sha256:41b8fd6a3b9b19d7c97cc8228d3498a749b14f6686a3116bba889f3c319125b0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1111/nyas.70284", "claim": "The Annals of the New York Academy of Sciences paper is the underlying study of arts engagement in American Time Use Survey diaries.", "status": "primary-study"},
+    {"source_url": "https://www.bls.gov/tus/", "claim": "The Bureau of Labor Statistics provides the American Time Use Survey program and documentation context.", "status": "official-data-source"}
+  ],
+  "boundary": "This record adds a cultural-health mechanism: daily arts participation is low but stable, while participation has shifted toward home and solitary settings, potentially weakening the social and public-space pathway through which creative activity may support well-being. It does not establish annual participation, causal health effects, unequal access mechanisms, or the value of public versus private creation.",
+  "retrieval_hash": "sha256:41b8fd6a3b9b19d7c97cc8228d3498a749b14f6686a3116bba889f3c319125b0"
+}

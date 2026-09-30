@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-employment-social-trends-2026-job-quality-inequality",
+  "title": "Stable headline employment is masking a global deficit of job quality, security, and productive convergence",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "International Labour Organization, Employment and Social Trends 2026",
+  "geography": "Global, with comparisons across country income groups, regions, women, youth, informal workers, and workers linked to foreign demand",
+  "observations": [
+    {
+      "period": "2026 projection; global labor-market headline indicators",
+      "denominator": {"value": 1, "unit": "global labor market projection", "value_type": "reported_projection"},
+      "measures": {
+        "unemployment_rate": {"value": 4.9, "unit": "percent projected global unemployment rate", "value_type": "reported_projection"},
+        "stability_boundary": {"value": "Headline employment stability remains fragile and should not be read as a return to healthy labor-market conditions", "unit": "reported analytical boundary", "value_type": "reported_boundary"},
+        "job_quality": {"value": "Progress in job quality has stalled while inequalities remain entrenched", "unit": "reported global pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "A stable unemployment rate can coexist with insecure, low-quality, or insufficient work and therefore understate household and social pressure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO global labor-market projections and analysis of employment, job quality, productivity, inequality, and social-protection indicators.",
+      "uncertainty": "The headline projection is an aggregate estimate; it does not identify the causal contribution of any single shock or policy and may conceal large country and subgroup differences.",
+      "subgroup": "Workers and jobseekers across country income groups, sectors, age groups, genders, and formal or informal employment statuses.",
+      "counterinterpretation": "Stable unemployment can still represent meaningful resilience if earnings, hours, and protections are improving in particular countries even when global averages lag.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projection; unmet demand and work security",
+      "denominator": {"value": 1, "unit": "global working-age population and employment system", "value_type": "reported_global_estimate"},
+      "measures": {
+        "global_jobs_gap": {"value": 408, "unit": "million people projected in the broader global jobs gap", "value_type": "reported_projection"},
+        "extreme_working_poverty": {"value": 300, "unit": "million workers living in extreme working poverty", "value_type": "reported_estimate"},
+        "informal_employment": {"value": 2.1, "unit": "billion workers in informal employment", "value_type": "reported_estimate"},
+        "income_recovery": {"value": "Real wage and labor-income growth had not fully recovered from recent inflation shocks", "unit": "reported global pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Employment can exist without dependable income, rights, social protection, or household room", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO estimates and projections using labor-force, employment, working-poverty, informality, and income indicators.",
+      "uncertainty": "The jobs-gap, poverty, and informality concepts are distinct measures and should not be added together; global estimates depend on modeled and reported data with uneven country coverage.",
+      "subgroup": "People wanting paid work, workers in informal employment, working-poor households, and workers exposed to incomplete wage recovery.",
+      "counterinterpretation": "Informal work can provide entry, flexibility, and survival income where formal employment is scarce, even while lacking durable protection and bargaining power.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projection; income-group and life-course divergence",
+      "denominator": {"value": 2, "unit": "higher-income versus low-income labor-market groupings", "value_type": "reported_comparison"},
+      "measures": {
+        "low_income_employment_growth": {"value": 3.1, "unit": "percent projected employment growth in low-income countries in 2026", "value_type": "reported_projection"},
+        "structural_transformation": {"value": "Structural transformation into higher-productivity and more formal sectors has slowed markedly over the past two decades", "unit": "reported long-run pattern", "value_type": "reported_pattern"},
+        "youth_not_in_employment_education_training": {"value": 260, "unit": "million young people, approximately 20 percent of youth, not in employment, education, or training", "value_type": "reported_estimate"},
+        "youth_unemployment": {"value": 12.4, "unit": "percent global youth unemployment", "value_type": "reported_estimate"},
+        "mechanism": {"value": "Demographic expansion without productive transformation can turn potential demographic dividends into persistent transition insecurity and lifetime scarring", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO comparison of labor-market projections and structural-transformation indicators by country income group and age.",
+      "uncertainty": "The report identifies risk and association at global scale; it does not estimate individual lifetime scarring or prove that structural transformation alone determines youth outcomes.",
+      "subgroup": "Young people, workers in low-income countries, economies with rapidly expanding labor forces, and people entering work without formal-sector pathways.",
+      "counterinterpretation": "Rapid employment growth may create valuable opportunity if skills, infrastructure, social protection, and worker institutions improve even before formalization catches up.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projection; gender, trade, technology, and domestic-policy exposure",
+      "denominator": {"value": 1, "unit": "global labor market with gender, trade-linked, technology, and fiscal-risk dimensions", "value_type": "reported_global_estimate"},
+      "measures": {
+        "women_employment_share": {"value": 40, "unit": "percent of global employment accounted for by women", "value_type": "reported_estimate"},
+        "women_participation_gap": {"value": 24.2, "unit": "percent lower likelihood of labor-force participation for women than men", "value_type": "reported_estimate"},
+        "foreign_demand_jobs": {"value": 465, "unit": "million jobs linked to foreign demand worldwide", "value_type": "reported_estimate"},
+        "risk_channels": {"value": "Trade-policy uncertainty, AI adoption, demographic change, and sovereign debt can reshape job quantity and quality", "unit": "reported risk pattern", "value_type": "reported_pattern"},
+        "policy_route": {"value": "The ILO points to domestic action on job creation, productivity, skills, social protection, and labor-market institutions as increasingly important as external financing weakens", "unit": "reported policy route", "value_type": "reported_recommendation"},
+        "mechanism": {"value": "Global exposure is converted into household security through domestic institutions, worker bargaining, social protection, and the distribution of productivity gains", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO synthesis of global employment, gender, trade-linked employment, productivity, technology, debt, and social-protection evidence.",
+      "uncertainty": "The report presents projections and policy analysis rather than a causal decomposition of future employment changes or a household-level incidence model.",
+      "subgroup": "Women, young workers, trade-exposed workers, workers facing AI-related change, small and medium enterprises, and countries with limited fiscal space.",
+      "counterinterpretation": "Trade and AI can raise productivity and job quality when governance, skills, competition, and worker protections distribute gains; exposure is not equivalent to harm.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://researchrepository.ilo.org/view/delivery/41ILO_INST/13147301370002676", "claim": "ILO research-repository landing route for the report PDF and executive summary."},
+    {"source_url": "https://ilostat.ilo.org/data/", "claim": "ILO data portal for exploring comparable labor-market indicators."}
+  ],
+  "boundary": "This record adds a global labor-market route from headline employment through unmet labor demand, job quality, informality, income recovery, demographic and gender inequality, trade and technology exposure, and domestic institutional buffering. It is an ILO global synthesis with projections and modeled indicators, not a respondent-level panel, a U.S.-specific estimate, or a causal evaluation of any policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page was reviewed for key messages, projections, jobs-gap, informality, working-poverty, gender, youth, trade-linked employment, risk, and policy-route findings.",
+    "source_url_sha256": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+    "checked": "2026-09-28"
+  }
+}

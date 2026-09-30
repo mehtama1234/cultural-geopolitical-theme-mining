@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-global-wellness-summit-future-of-wellness-2026-overoptimization-collective-care-crisis",
+  "title": "Wellness forecasting is moving from quantified self-optimization toward embodied connection, collective ritual, and preparedness for human and environmental crises",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Global Wellness Summit, The Future of Wellness: 2026 Trends, public trend summaries and annual industry forecast",
+  "geography": "Global wellness economy and consumer-culture forecast",
+  "observations": [
+    {
+      "period": "2026 forecast; over-optimization backlash and revenge of the human",
+      "denominator": {"value": 1, "unit": "Global Wellness Summit wellness-trend forecast frame", "value_type": "industry_forecast_frame"},
+      "measures": {
+        "market_polarity": {"value": "The forecast identifies a simultaneous rise of high-tech, medical, hyper-optimizing wellness and no-tech, deeply human, social, and emotional wellness", "unit": "reported market polarity", "value_type": "reported_market_pattern"},
+        "optimization_backlash": {"value": "A 2026 trend is a backlash against stressful, high-tech, performative wellness, with a pivot from measurement and self-surveillance toward meaning, sensation, emotional repair, and embodied care", "unit": "reported consumer-culture forecast", "value_type": "reported_trend"},
+        "wellness_economy": {"value": 6.8, "unit": "trillion US dollars, reported current size of the global wellness market", "value_type": "reported_market_estimate"}
+      },
+      "method": "Global Wellness Summit annual trend forecast drawing on summit experts, trend research, interviews, and market analysis.",
+      "uncertainty": "This is an industry forecast and market narrative, not a representative consumer survey, causal estimate, or independently audited market forecast; the reported market size is source-defined.",
+      "subgroup": "Wellness consumers, people using wearables or diagnostics, health and beauty brands, hospitality and real-estate operators, and people seeking lower-tech or more relational forms of care.",
+      "counterinterpretation": "Optimization tools may remain valuable for some health needs, and a backlash narrative can reflect marketing repositioning rather than a broad consumer exit from tracking or quantified care.",
+      "source_url": "https://www.globalwellnesssummit.com/2026trends/",
+      "retrieval_hash": "sha256:9d18fb27426838b4ab0b772ebd89019f6ac2ea161d2f5256039df378df423b16",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; wellness as collective ritual and social release",
+      "denominator": {"value": 1, "unit": "Global Wellness Summit social-wellness trend frame", "value_type": "industry_forecast_frame"},
+      "measures": {
+        "festivalization": {"value": "The forecast identifies a wave of cathartic wellness raves and gatherings, including sober morning dance events and multiday festivals", "unit": "reported experience trend", "value_type": "reported_trend"},
+        "social_route": {"value": "Music, dance, creative expression, ritual, joy, and emotional release are framed as forms of wellness rather than merely adjacent entertainment", "unit": "reported cultural mechanism", "value_type": "reported_mechanism"},
+        "postpandemic_signal": {"value": "The report extends the post-pandemic movement toward in-person social wellness from connection toward collective energy and catharsis", "unit": "reported cultural shift", "value_type": "reported_shift"}
+      },
+      "method": "Global Wellness Summit cultural and consumer trend forecasting based on expert synthesis and examples of emerging wellness offerings.",
+      "uncertainty": "The forecast does not estimate attendance, market penetration, demographic representativeness, or whether these experiences improve wellbeing over time.",
+      "subgroup": "Young adults and other experience-seeking consumers, sober communities, event and hospitality operators, artists, music communities, and people seeking social belonging.",
+      "counterinterpretation": "Festivalized wellness can be expensive, commercialized, or exclusionary, and collective intensity is not equivalent to durable social support or clinical care.",
+      "source_url": "https://www.globalwellnesssummit.com/2026trends/",
+      "retrieval_hash": "sha256:9d18fb27426838b4ab0b772ebd89019f6ac2ea161d2f5256039df378df423b16",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; nervous-system regulation and healthspan environments",
+      "denominator": {"value": 1, "unit": "Global Wellness Summit body-mind and longevity trend frame", "value_type": "industry_forecast_frame"},
+      "measures": {
+        "neurowellness": {"value": "Nervous-system regulation is forecast as a frontier spanning neuroscience, behavioral science, somatic practice, sensory design, and consumer neurotechnology", "unit": "reported wellness-market direction", "value_type": "reported_trend"},
+        "upstream_care": {"value": "The trend moves care upstream toward regulation, recovery, and resilience before breakdown rather than only treating disease after it appears", "unit": "reported care orientation", "value_type": "reported_policy_and_market_orientation"},
+        "healthspan_home": {"value": "Future homes are forecast to be evaluated partly by how well they support healthspan across decades, turning housing into an active health environment", "unit": "reported built-environment direction", "value_type": "reported_trend"}
+      },
+      "method": "Global Wellness Summit forecast combining wellness-market analysis with expert trend interpretation across health, technology, real estate, and longevity.",
+      "uncertainty": "The source presents emerging-market directions and does not establish clinical efficacy, affordability, access, or the boundary between wellness products and regulated healthcare.",
+      "subgroup": "People experiencing stress and digital overload, older adults, caregivers, health and hospitality providers, housing developers, and consumers with access to neurotechnology or longevity services.",
+      "counterinterpretation": "Neurowellness and healthspan housing can medicalize ordinary distress, shift responsibility to individuals, or deepen inequality if services are premium-priced or weakly evidenced.",
+      "source_url": "https://www.globalwellnesssummit.com/2026trends/",
+      "retrieval_hash": "sha256:9d18fb27426838b4ab0b772ebd89019f6ac2ea161d2f5256039df378df423b16",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; wellness as preparedness for environmental and human crises",
+      "denominator": {"value": 1, "unit": "Global Wellness Summit crisis-and-wellness trend frame", "value_type": "industry_forecast_frame"},
+      "measures": {
+        "preparedness": {"value": "The forecast frames disaster preparedness as a new preventive-wellness category, with being ready for survival treated as part of being well", "unit": "reported crisis-preparedness trend", "value_type": "reported_trend"},
+        "microplastics": {"value": "Microplastics are forecast to move from awareness toward public-health and wellness-market action", "unit": "reported environmental-health trend", "value_type": "reported_trend"},
+        "crisis_scope": {"value": "The report connects climate events, environmental exposure, bad-news saturation, and nervous-system exhaustion to a broader crisis-management role for wellness", "unit": "reported risk-and-consumer connection", "value_type": "reported_mechanism"}
+      },
+      "method": "Global Wellness Summit forecast of consumer, hospitality, health, and environmental wellness responses to major crises.",
+      "uncertainty": "The trend forecast does not establish the magnitude of microplastic health effects, the effectiveness of consumer preparedness products, or whether private wellness markets can substitute for public resilience systems.",
+      "subgroup": "Climate- and pollution-exposed households, consumers seeking preparedness, public-health systems, wellness brands, hospitality providers, and communities facing disasters.",
+      "counterinterpretation": "Crisis-oriented wellness can increase practical resilience, but it can also privatize risk, monetize fear, and obscure the need for regulation, infrastructure, and collective protection.",
+      "source_url": "https://www.globalwellnesssummit.com/2026trends/",
+      "retrieval_hash": "sha256:9d18fb27426838b4ab0b772ebd89019f6ac2ea161d2f5256039df378df423b16",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.globalwellnesssummit.com/press/press-releases/global-wellness-summit-releases-10-wellness-trends-for-2026/", "claim": "The official release summarizes the 2026 forecast's over-optimization, collective wellness, longevity, and environmental-crisis themes."},
+    {"source_url": "https://www.globalwellnesssummit.com/trendium/trendium-archives/", "claim": "The public trend archive shows 2026 follow-up coverage on over-optimization, neurowellness, climate preparedness, and festivalization."}
+  ],
+  "boundary": "This record adds a commercial wellness-industry forecast as a cultural and consumer signal: quantified-self fatigue, embodied and social wellness, neurowellness, healthspan environments, and crisis preparedness. It is not respondent-level data, clinical evidence, a representative consumer forecast, or proof that the predicted offerings will scale or improve health.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Global Wellness Summit public 2026 trend-summary page reviewed for the 10-trend forecast, over-optimization backlash, festivalization, neurowellness, healthspan environments, crisis preparedness, microplastics, and market framing.",
+    "source_url_sha256": "sha256:9d18fb27426838b4ab0b772ebd89019f6ac2ea161d2f5256039df378df423b16",
+    "checked": "2026-09-27"
+  }
+}

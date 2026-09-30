@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-goodwall-energy-talent-youth-pathways-2026",
+  "title": "Youth interest in clean-energy work is high, but the pathway from learning to paid participation remains fragmented",
+  "theme_ids": ["work", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNDP / Goodwall, Powering the future: Sparking the next generation of energy talent, September 2026, with partner publication context from Goodwall and UNDP contributors",
+  "geography": "Global youth and sustainable-energy workforce pathways, with engagement spanning more than 100 countries",
+  "observations": [
+    {
+      "period": "2025-2026; NextGen Energy Champions engagement",
+      "denominator": {"value": 58000, "unit": "young people reached across more than 100 countries through a free mobile-first sustainable-energy learning and engagement program, approximate", "value_type": "program_reach"},
+      "measures": {
+        "reach": {"value": "more than 58,000 young people were reached; 55,314 completed the learning journey", "unit": "program participants", "value_type": "reported_program_count"},
+        "geographic_scope": {"value": "engagement spanned more than 100 countries, with examples including Kenya, the Philippines, India, Costa Rica, Haiti, and Papua New Guinea", "unit": "country coverage", "value_type": "reported_geographic_scope"},
+        "participation_route": {"value": "the program combined sustainable-energy learning, a knowledge check, and an invitation to connect the topic to participants' communities", "unit": "program design", "value_type": "reported_program_design"},
+        "analytic_signal": {"value": "energy-transition workforce formation is being treated as a participation and opportunity problem, not only a technology or investment problem", "unit": "analytic workforce mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP and Goodwall learning and engagement program with public reporting on reach and completion; this is a program frame, not a probability sample.",
+      "uncertainty": "Reach and completion counts describe program participation and cannot be generalized to all young people or interpreted as representative labor-market demand.",
+      "subgroup": "Young people engaging with a mobile-first sustainable-energy learning program across multiple countries.",
+      "counterinterpretation": "A large digital reach may reflect platform distribution and motivated participation rather than a broad shift in youth attitudes or workforce supply.",
+      "source_url": "https://www.undp.org/publications",
+      "retrieval_hash": "sha256:c86b23ac83cba3c37d4a3848f1fda4a96592a9ad2743fcff4e32e663130a2e6a",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; post-program survey",
+      "denominator": {"value": 1, "unit": "post-program participant survey reported in the UNDP/Goodwall energy-talent publication", "value_type": "published_program_survey_frame"},
+      "measures": {
+        "career_interest": {"value": 93, "unit": "percent of post-program survey respondents expressing interest in a clean-energy career", "value_type": "reported_program_survey_share"},
+        "concrete_next_step": {"value": 92, "unit": "percent choosing at least one concrete next step", "value_type": "reported_program_survey_share"},
+        "opportunity_gap": {"value": "interest and stated next steps were stronger than participants' visibility into training, practical experience, mentors, credentials, and entry-level opportunities", "unit": "reported pathway gap", "value_type": "reported_gap"},
+        "analytic_signal": {"value": "the emerging demand signal is not simply awareness of green energy; it is a desire for a legible route from learning to earning", "unit": "analytic work-and-identity mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Post-program survey associated with the UNDP/Goodwall initiative; the publication does not establish a representative youth sample or a causal effect of the course.",
+      "uncertainty": "The survey denominator, recruitment process, question wording, nonresponse, and pre-program baseline limit population inference and before-after causal interpretation.",
+      "subgroup": "Post-program participants who completed or responded to the program survey.",
+      "counterinterpretation": "Participants may have entered with unusually high interest in sustainability, so the percentages may overstate interest in the wider youth population.",
+      "source_url": "https://www.undp.org/publications",
+      "retrieval_hash": "sha256:c86b23ac83cba3c37d4a3848f1fda4a96592a9ad2743fcff4e32e663130a2e6a",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; program knowledge assessment",
+      "denominator": {"value": 5078, "unit": "participants completing the reported program quiz", "value_type": "published_program_assessment_denominator"},
+      "measures": {
+        "role_breadth": {"value": 48, "unit": "percent answering that most clean-energy jobs are not engineering roles, as reported", "value_type": "reported_program_quiz_share"},
+        "job-growth_knowledge": {"value": 57, "unit": "percent correctly answering a question about projected clean-energy job creation by 2050, as reported", "value_type": "reported_program_quiz_share"},
+        "pathway_constraint": {"value": "career and employment knowledge were among the weakest measured areas", "unit": "reported knowledge pattern", "value_type": "reported_gap"},
+        "analytic_signal": {"value": "the skills bottleneck includes occupational information and career navigation, not only technical training capacity", "unit": "analytic workforce mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Program quiz results reported in a public UNDP/Goodwall partner account; quiz completion is not an independent measure of labor-market skill or employment readiness.",
+      "uncertainty": "The item wording, scoring, country mix, prior knowledge, and relation between quiz performance and later employment are not sufficient for causal or population claims.",
+      "subgroup": "5,078 participants who completed the program quiz.",
+      "counterinterpretation": "A short course quiz may capture unfamiliarity with terminology rather than a durable lack of occupational knowledge or capability.",
+      "source_url": "https://www.undp.org/publications",
+      "retrieval_hash": "sha256:c86b23ac83cba3c37d4a3848f1fda4a96592a9ad2743fcff4e32e663130a2e6a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proposed response to the youth energy-talent gap",
+      "denominator": {"value": 1, "unit": "UNDP/Goodwall program-development agenda", "value_type": "published_program_agenda"},
+      "measures": {
+        "proposed_connectors": {"value": "the partners describe or propose an energy-innovation incubator, links between online learning and offline experience, national energy dialogues, continued learning, work-based learning, and support for youth-led enterprises", "unit": "reported program proposal set", "value_type": "reported_policy_output"},
+        "institutional_roles": {"value": "governments, employers, education providers, finance, and energy institutions each have a role in making the pathway visible and usable", "unit": "reported coordination frame", "value_type": "reported_mechanism_set"},
+        "implementation_boundary": {"value": "the proposed connectors are not evidence of completed placements, employment, earnings, retention, or influence on energy decisions", "unit": "scope boundary", "value_type": "analytic_boundary"},
+        "open_test": {"value": "join course completion to credential recognition, apprenticeship or placement access, first job, retention, earnings, entrepreneurship, and meaningful participation in energy planning", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Public policy and program synthesis based on the UNDP/Goodwall energy-talent publication and partner commentary.",
+      "uncertainty": "The publication sets out a pathway agenda but does not report a longitudinal employment evaluation or implementation results for the proposed connectors.",
+      "subgroup": "Young people, energy employers, training institutions, public energy agencies, finance providers, and youth-led enterprises.",
+      "counterinterpretation": "Formal pathways may not be necessary for every participant; informal networks, local enterprise, or self-directed learning may produce opportunity outside the proposed program architecture.",
+      "source_url": "https://www.undp.org/publications",
+      "retrieval_hash": "sha256:c86b23ac83cba3c37d4a3848f1fda4a96592a9ad2743fcff4e32e663130a2e6a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.esgtoday.com/the-green-skills-gap-is-the-missing-link-in-the-energy-transition/", "claim": "Goodwall and UNDP contributors publicly describe the program reach, interest, quiz, and pathway findings that contextualize the UNDP publication."},
+    {"source_url": "https://www.undp.org/energy", "claim": "UNDP's energy hub supplies the broader energy-access, transition, finance, youth, and inclusive-development context."}
+  ],
+  "boundary": "This record adds a youth-to-workforce pathway from clean-energy interest and program learning through occupational information, practical experience, credentials, employment, entrepreneurship, and energy-governance participation. It uses aggregate program and published survey/quiz reporting, not respondent-level data, a representative youth survey, a labor-market forecast, or proof that the proposed pathways produced jobs or policy influence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The UNDP publications and energy pages were reviewed for the publication title, program framing, and energy-transition context; the public Goodwall/UNDP contributor account was reviewed for reach, completion, survey, quiz, and proposed-pathway figures.",
+    "source_url_sha256": "sha256:c86b23ac83cba3c37d4a3848f1fda4a96592a9ad2743fcff4e32e663130a2e6a",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-africa-health-workforce-2026-shortage-migration-absorption",
+  "title": "Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "WHO Regional Office for Africa, State of the Health Workforce in Africa 2026",
+  "geography": "47 countries in the WHO African Region",
+  "observations": [
+    {
+      "period": "2024 actual; 2030 and 2035 projections",
+      "denominator": {"value": 47, "unit": "countries in the WHO African Region covered by the needs-based health-workforce model", "value_type": "country_count"},
+      "measures": {
+        "shortage_2030": {"value": 5850000, "unit": "health workers; projected needs-based shortage by 2030 under the report's base scenario", "value_type": "reported_projection"},
+        "shortage_2035": {"value": 6280000, "unit": "health workers; projected needs-based shortage by 2035 under the report's base scenario", "value_type": "reported_projection"},
+        "need_availability": {"value": 46, "unit": "percent of estimated health-workforce need available in 2024, projected to reach 51% by 2030 and 53% by 2035", "value_type": "reported_ratio"},
+        "nursing_gap": {"value": 4430000, "unit": "health workers; projected nursing-personnel shortage by 2035", "value_type": "reported_projection"}
+      },
+      "method": "WHO AFRO needs-based modelling using workforce stock, graduates, emigration, retirement, population growth, ageing, epidemiological transition, and humanitarian situations across 47 countries and 21 major occupational groups.",
+      "uncertainty": "These are modelled projections rather than observed future outcomes; requirements depend on the needs-based framework, demographic and epidemiological assumptions, workforce definitions, data quality, and policy response.",
+      "subgroup": "Health workers, patients, rural and underserved communities, ministries of health, education and finance, training institutions, employers, and populations affected by health-system shortages.",
+      "counterinterpretation": "Increasing workforce stock can coexist with poor distribution, low competence, absenteeism, weak equipment, medicine shortages, or unaffordable services; headline density does not equal effective care access.",
+      "source_url": "https://www.afro.who.int/sites/default/files/2026-05/State%20of%20the%20Health%20Workforce%20in%20Africa%202026.pdf",
+      "retrieval_hash": "sha256:5b3fb17cbe05398a8903a46c67a3bbd352dbebabeef5e78ada2bb3a0aaefd3f0",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; health-workforce education and employment pipeline",
+      "denominator": {"value": 1, "unit": "WHO AFRO health-workforce pipeline assessment", "value_type": "reported_framework"},
+      "measures": {
+        "graduate_growth": {"value": "Annual graduates increased from approximately 255,000 in 2022 to over 325,000 in 2024", "unit": "reported annual graduate output", "value_type": "reported_change"},
+        "unemployment": {"value": 27, "unit": "percent to 30 percent; estimated share of trained health workers unemployed in the report's structural assessment", "value_type": "reported_range"},
+        "potentially_unemployed": {"value": 943000, "unit": "health workers; estimated potentially unemployed workforce cited by the report", "value_type": "reported_estimate"},
+        "public_absorption": {"value": 70, "unit": "percent; approximate average public-sector absorption of trained health workers", "value_type": "reported_average"}
+      },
+      "method": "WHO AFRO synthesis of education output, labor-market absorption, fiscal constraints, wage-bill ceilings, recruitment processes, and workforce data.",
+      "uncertainty": "The unemployment and absorption estimates aggregate heterogeneous national labor markets and may be affected by reporting gaps, definitions of unemployment and employment, informal work, and differences in public/private absorption.",
+      "subgroup": "Health-profession graduates, unemployed and underemployed workers, public employers, training institutions, finance ministries, patients, and communities lacking staffed services.",
+      "counterinterpretation": "More graduates without jobs can indicate fiscal and recruitment bottlenecks rather than excessive training; rapid absorption without quality, supervision, pay, or geographic planning may not improve health outcomes.",
+      "source_url": "https://www.afro.who.int/sites/default/files/2026-05/State%20of%20the%20Health%20Workforce%20in%20Africa%202026.pdf",
+      "retrieval_hash": "sha256:5b3fb17cbe05398a8903a46c67a3bbd352dbebabeef5e78ada2bb3a0aaefd3f0",
+      "status": "reported"
+    },
+    {
+      "period": "2024; workforce distribution, migration intent, gender, and competence",
+      "denominator": {"value": 1, "unit": "WHO AFRO workforce-conditions synthesis", "value_type": "reported_framework"},
+      "measures": {
+        "migration_intent": {"value": 46, "unit": "percent of health workers reported as intending to migrate", "value_type": "reported_share"},
+        "absenteeism": {"value": 30, "unit": "percent; estimated absenteeism in some settings", "value_type": "reported_estimate"},
+        "gender_leadership": {"value": "Women comprise approximately two thirds of the workforce but about one third of senior leadership roles", "unit": "reported gender distribution pattern", "value_type": "reported_inequality_pattern"},
+        "diagnosis_management": {"value": "Health workers correctly diagnose approximately 62% of cases but correctly manage about 40%, with performance declining in complex cases", "unit": "reported competence measures", "value_type": "reported_estimate"}
+      },
+      "method": "WHO AFRO report synthesis of retention, migration, working conditions, gender, absenteeism, competence, and health-labor-market evidence.",
+      "uncertainty": "The reported measures may draw from different sources and settings; migration intention is not realized migration, and competence estimates depend on assessment design, cadre, case mix, and context.",
+      "subgroup": "Health workers, women leaders, rural and underserved staff, patients, employers, destination health systems, and communities affected by workforce mobility.",
+      "counterinterpretation": "Migration can provide remittances, skills, professional development, and circulation, while absenteeism and competence gaps have multiple causes beyond individual effort, including unsafe work, poor supervision, weak supplies, and institutional design.",
+      "source_url": "https://www.afro.who.int/sites/default/files/2026-05/State%20of%20the%20Health%20Workforce%20in%20Africa%202026.pdf",
+      "retrieval_hash": "sha256:5b3fb17cbe05398a8903a46c67a3bbd352dbebabeef5e78ada2bb3a0aaefd3f0",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; modelled investment and absorption scenarios to 2030 and 2035",
+      "denominator": {"value": 1, "unit": "WHO AFRO health-workforce investment model", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "investment_return": {"value": "Each dollar invested in the health workforce is modelled to generate roughly 9-10 times in GDP returns across scenarios", "unit": "reported modelled financial return", "value_type": "reported_model_output"},
+        "balanced_scenario": {"value": "A scenario combining 90% graduate absorption with a 20% increase in training output is modelled to reduce the shortage by 933,681 workers from business as usual and raise the need-availability ratio to 58% by 2030 and 65% by 2035", "unit": "reported policy scenario", "value_type": "reported_model_output"},
+        "social_return": {"value": "Modelled social returns exceed 30-fold by 2035 when health and economic co-benefits are included", "unit": "reported modelled social return", "value_type": "reported_model_output"},
+        "policy_route": {"value": "The report recommends a Plan-Train-Retain approach linking workforce planning, education quality, employment, performance, retention, mobility governance, and costed budgets", "unit": "reported policy framework", "value_type": "reported_recommendation"}
+      },
+      "method": "WHO AFRO scenario modelling of workforce training output, graduate absorption, employment, stock, needs-based requirements, GDP, health gains, and social value.",
+      "uncertainty": "Returns and shortage reductions are modelled scenarios, not guaranteed causal effects; they depend on absorption, training quality, retention, pay, distribution, fiscal space, migration agreements, and implementation capacity.",
+      "subgroup": "Governments, health and finance ministries, training institutions, health workers, donors, destination countries, patients, and rural or underserved populations.",
+      "counterinterpretation": "High modelled returns may not translate into budget priority without fiscal space, governance, and political bargaining; investments can improve aggregate capacity while leaving local shortages or gender and geographic inequities unresolved.",
+      "source_url": "https://www.afro.who.int/sites/default/files/2026-05/State%20of%20the%20Health%20Workforce%20in%20Africa%202026.pdf",
+      "retrieval_hash": "sha256:5b3fb17cbe05398a8903a46c67a3bbd352dbebabeef5e78ada2bb3a0aaefd3f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a WHO African Region health-workforce signal on needs-based shortages, education-to-employment absorption, migration intent, gendered leadership, competence, fiscal capacity, and modelled investment returns. It is not a complete census of effective care, a respondent-level dataset, a causal evaluation of the scenarios, or proof that training expansion alone will improve equitable health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO AFRO State of the Health Workforce in Africa 2026 PDF reviewed for projected shortage, need-availability ratio, nursing gap, graduate output, unemployment and absorption, migration intent, absenteeism, gender leadership, competence, investment returns, and Plan-Train-Retain recommendations.",
+    "source_url_sha256": "sha256:5b3fb17cbe05398a8903a46c67a3bbd352dbebabeef5e78ada2bb3a0aaefd3f0",
+    "checked": "2026-09-27"
+  }
+}

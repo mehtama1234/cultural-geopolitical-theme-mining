@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-press-freedom-limits-censorship-legitimacy-2026",
+  "title": "Press freedom remains broadly valued while Americans divide over accuracy, censorship, and who should police the information environment",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center and the Pew-Knight Initiative, Americans Value Press Freedom but Differ on Its Limits, 15 September 2026",
+  "geography": "U.S. adults; national public opinion with focus-group context",
+  "observations": [
+    {
+      "period": "March-June 2026; importance of press freedom and accuracy tradeoff",
+      "denominator": {"value": 3507, "unit": "U.S. adults surveyed March 23-29, 2026; companion survey of 3,488 adults June 22-28, 2026", "value_type": "published_survey_sample"},
+      "measures": {
+        "importance": {"value": 73, "unit": "percent saying press freedom is extremely or very important to society", "value_type": "reported_survey_share"},
+        "free_reporting_priority": {"value": 45, "unit": "percent prioritizing free reporting even if some reporting is inaccurate", "value_type": "reported_survey_share"},
+        "accuracy_priority": {"value": 53, "unit": "percent prioritizing prevention of inaccurate reporting even if it limits press freedom", "value_type": "reported_survey_share"},
+        "boundary_route": {"value": "press freedom is a high-value civic principle, but public support is conditional when accuracy and social harm are foregrounded", "unit": "reported public-value tradeoff", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew nationally representative surveys of U.S. adults, supplemented by 10 online focus groups with 74 adults; focus groups are illustrative rather than representative.",
+      "uncertainty": "The surveys capture stated priorities and perceptions, not actual exposure to news, causal effects of misinformation, or a settled standard for defining inaccurate reporting.",
+      "subgroup": "Republicans, Democrats, independents, adults with different news and political habits, and focus-group participants with varied views of press freedom.",
+      "counterinterpretation": "A preference for accuracy limits may reflect a demand for better journalism or corrections rather than support for government censorship.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:ff3cb22e1c7d254bc124c1a068333b45c3345ced6b2a0efb8495374640849ba5",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; perceived freedom and possible restrictions on the press",
+      "denominator": {"value": 3507, "unit": "U.S. adults surveyed in 2026 public-opinion series", "value_type": "published_survey_sample"},
+      "measures": {
+        "completely_free": {"value": 28, "unit": "percent saying news media in the U.S. are completely free in 2026, down from 33% in 2025 and 2024", "value_type": "reported_survey_share"},
+        "restriction_concern": {"value": 46, "unit": "percent concerned about possible restrictions on press freedom", "value_type": "reported_survey_share"},
+        "party_gap": {"value": "29% of Republicans versus 64% of Democrats are concerned about possible restrictions", "unit": "reported partisan difference", "value_type": "reported_subgroup_pattern"},
+        "less_free": {"value": 44, "unit": "percent saying the press became less free during the second Trump administration", "value_type": "reported_survey_share"},
+        "legitimacy_route": {"value": "press freedom is being interpreted through current executive power, partisan threat perception, and institutional confidence", "unit": "reported legitimacy pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew repeated cross-sectional public-opinion surveys of U.S. adults.",
+      "uncertainty": "Perceived freedom is not a direct legal or institutional measure; partisan differences may reflect different media environments and different interpretations of government-media conflict.",
+      "subgroup": "Republicans, Democrats, independents, and adults comparing current press conditions with prior years.",
+      "counterinterpretation": "The fall in perceived freedom could be driven by political polarization and salience of news conflicts rather than a uniform change in newsroom autonomy.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:ff3cb22e1c7d254bc124c1a068333b45c3345ced6b2a0efb8495374640849ba5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; acceptable consequences for false information",
+      "denominator": {"value": 3507, "unit": "U.S. adults surveyed in 2026", "value_type": "published_survey_sample"},
+      "measures": {
+        "public_correction": {"value": "83% of Republicans and 81% of Democrats say a public correction is acceptable", "unit": "reported partisan survey comparison", "value_type": "reported_subgroup_pattern"},
+        "government_takedown": {"value": "49% of Republicans and 39% of Democrats say government removal of false reporting is acceptable", "unit": "reported partisan survey comparison", "value_type": "reported_subgroup_pattern"},
+        "government_fine": {"value": "40% of Republicans and 25% of Democrats say a government fine is acceptable", "unit": "reported partisan survey comparison", "value_type": "reported_subgroup_pattern"},
+        "fire_journalist": {"value": "37% of Republicans and 23% of Democrats say firing a journalist is acceptable", "unit": "reported partisan survey comparison", "value_type": "reported_subgroup_pattern"},
+        "control_route": {"value": "partisan disagreement grows as correction moves from newsroom accountability toward coercive government or employment sanctions", "unit": "reported boundary pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew survey asking U.S. adults about consequences for news organizations or journalists that publish false information.",
+      "uncertainty": "Hypothetical acceptability does not reveal how respondents would define false information, assign responsibility, or apply sanctions in a real case.",
+      "subgroup": "Republicans, Democrats, independents, and adults with different levels of concern about misinformation and government power.",
+      "counterinterpretation": "Support for sanctions may represent demand for institutional accountability, while opposition may represent fear that enforcement will be politicized.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:ff3cb22e1c7d254bc124c1a068333b45c3345ced6b2a0efb8495374640849ba5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived suppression of important news",
+      "denominator": {"value": 3507, "unit": "U.S. adults surveyed in 2026", "value_type": "published_survey_sample"},
+      "measures": {
+        "government_suppression": {"value": 83, "unit": "percent saying government suppresses important news at least sometimes", "value_type": "reported_survey_share"},
+        "newsroom_suppression": {"value": 79, "unit": "percent saying news organizations suppress important news at least sometimes", "value_type": "reported_survey_share"},
+        "platform_suppression": {"value": 76, "unit": "percent saying social media companies suppress important news at least sometimes", "value_type": "reported_survey_share"},
+        "frequency_split": {"value": "59% say government suppresses important news often or extremely often, compared with 28% saying individual journalists do so", "unit": "reported survey pattern", "value_type": "reported_frequency_pattern"},
+        "trust_route": {"value": "information legitimacy is distributed across government, newsrooms, platforms, and individual journalists, creating competing claims about who filters public reality", "unit": "analytic institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew survey of U.S. adults on perceived censorship and suppression across government, news organizations, social media companies, and journalists.",
+      "uncertainty": "Suppression is a respondent-defined perception and does not distinguish editorial selection, moderation, legal secrecy, state censorship, or deliberate concealment.",
+      "subgroup": "Republicans, Democrats, independents, news consumers, and adults with different levels of trust in government, news organizations, and social platforms.",
+      "counterinterpretation": "High perceived suppression across multiple institutions may reflect generalized distrust or information abundance rather than coordinated censorship.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:ff3cb22e1c7d254bc124c1a068333b45c3345ced6b2a0efb8495374640849ba5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/journalism/2026/09/15/where-americans-view-the-limits-of-press-freedom/", "claim": "Pew companion analysis provides the detailed boundary cases for censoring news stories."},
+    {"source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/", "claim": "Pew companion analysis provides complementary views of government-media relations."}
+  ],
+  "boundary": "This record adds a public-information legitimacy route linking press freedom, accuracy, censorship, partisan threat perception, and institutional trust. It uses aggregate public-opinion and illustrative focus-group reporting, not respondent-level data, causal media-effects evidence, a legal judgment about censorship, or proof that perceived suppression is coordinated.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew Research Center report page was reviewed for survey samples, press-freedom importance, accuracy tradeoffs, perceived restrictions, partisan differences, sanctions, suppression perceptions, and methodological limitations.",
+    "source_url_sha256": "sha256:ff3cb22e1c7d254bc124c1a068333b45c3345ced6b2a0efb8495374640849ba5",
+    "checked": "2026-09-26"
+  }
+}

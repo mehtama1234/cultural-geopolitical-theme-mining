@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-more-in-common-disagreeing-well-2026-silence-civic-spaces",
+  "title": "Britons want open disagreement but lack trusted spaces and confidence to practice it",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "platforms_data_attention"
+  ],
+  "source_unit": "More in Common and University College London, Disagreeing Well research",
+  "geography": "Britain, with polling and focus-group evidence on political disagreement, identity conflict and civic forums",
+  "observations": [
+    {
+      "period": "2026 report; current British attitudes toward expressing disagreement",
+      "denominator": {"value": null, "unit": "British public poll respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "reluctance_to_speak": {"value": 69, "unit": "per cent saying they are at least sometimes reluctant to say what they really think; 21 per cent say often", "value_type": "published_survey_estimate"},
+        "negative_label_anxiety": {"value": 44, "unit": "per cent at least sometimes worrying about being labelled negatively when expressing an opinion", "value_type": "published_survey_estimate"},
+        "silence_reasons": {"value": "The most common reasons for holding back are avoiding an argument (34%), fear of being misrepresented or misunderstood (32%), discomfort (27%) and concern about appearing prejudiced (25%).", "unit": "reported reasons for withholding opinion", "value_type": "published_survey_estimate"},
+        "youth_label_anxiety": {"value": "Negative-label concern reaches 55% among 18-24 year olds and 54% among 25-34 year olds.", "unit": "reported age subgroup estimate", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "More in Common polling combined with focus-group research conducted for the UCL Disagreeing Well campaign; public page does not disclose the full poll sample frame or weighting details.",
+      "uncertainty": "Reluctance to speak is a self-report and does not measure actual silence, moderation, harassment or political exclusion; focus-group narratives illustrate mechanisms but do not establish prevalence.",
+      "subgroup": "British adults, with age and party-voter differences in perceived difficulty and fear of negative labels.",
+      "counterinterpretation": "Holding back can sometimes be a norm of civility or self-protection rather than democratic withdrawal; people may express views in private, at home or through voting instead of public debate.",
+      "source_url": "https://www.moreincommon.org.uk/research/disagreeing-well/",
+      "retrieval_hash": "sha256:9f26b32283bd45aaf615ec467f0aabb324c3469f27bbd181a1888cce27f92684",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; desired norms for political disagreement",
+      "denominator": {"value": null, "unit": "British public poll respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "debate_every_topic": {"value": 63, "unit": "per cent saying it is important to discuss every topic no matter how strongly people disagree", "value_type": "published_survey_estimate"},
+        "hostile_disagreement": {"value": 64, "unit": "per cent saying political disagreement in Britain usually ends up hostile or unpleasant", "value_type": "published_survey_estimate"},
+        "understanding_over_conversion": {"value": "32 per cent say the most important goal in a political argument is understanding the other person's point of view, compared with 4 per cent who prioritize changing the person's mind.", "unit": "reported argument-goal distribution", "value_type": "published_survey_estimate"},
+        "agree_to_disagree": {"value": 91, "unit": "per cent saying it is often good to agree to disagree if it ends the argument", "value_type": "published_survey_estimate"}
+      },
+      "method": "Public polling and focus groups on disagreement norms, goals and skills.",
+      "uncertainty": "Normative support for listening and open debate does not show that people behave that way in conflict or that respectful disagreement changes political beliefs or policy outcomes.",
+      "subgroup": "British adults across political parties and generations, with disagreement framed as a learnable civic and interpersonal skill.",
+      "counterinterpretation": "A preference for understanding may coexist with strong identity boundaries; ‘agree to disagree’ can preserve relationships but also leave unequal power or misinformation unchallenged.",
+      "source_url": "https://www.moreincommon.org.uk/research/disagreeing-well/",
+      "retrieval_hash": "sha256:9f26b32283bd45aaf615ec467f0aabb324c3469f27bbd181a1888cce27f92684",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; civic forums and everyday locations for disagreement",
+      "denominator": {"value": null, "unit": "British public poll respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "politician_disrespect": {"value": 57, "unit": "per cent saying politicians tend to be rude and disrespectful when debating each other", "value_type": "published_survey_estimate"},
+        "political_social_media_nonuse": {"value": 63, "unit": "per cent saying they never argue about politics on social media", "value_type": "published_survey_estimate"},
+        "formal_forum_nonuse": {"value": "70 per cent never debate politics at college, university or school, and 69 per cent never do so at a local community group or town-hall meeting.", "unit": "reported civic-forum participation distribution", "value_type": "published_survey_estimate"},
+        "pub_as_space": {"value": 23, "unit": "per cent arguing about politics at the pub at least sometimes, higher than college/school (18%), community or town-hall groups (17%) or in public with strangers (15%)", "value_type": "published_comparison"}
+      },
+      "method": "Polling and focus-group research comparing perceived quality and use of Parliament, social media, education, civic groups, town halls and informal social spaces.",
+      "uncertainty": "Reported venue use is not a complete measure of civic participation; pub participation may be socially selective, and perceptions of politicians may reflect media exposure more than direct observation.",
+      "subgroup": "British adults using or avoiding online, institutional and informal settings for political discussion.",
+      "counterinterpretation": "Low use of formal forums may reflect limited opportunity or scheduling rather than rejection; online avoidance can coexist with political learning, private group discussion and other forms of action.",
+      "source_url": "https://www.moreincommon.org.uk/research/disagreeing-well/",
+      "retrieval_hash": "sha256:9f26b32283bd45aaf615ec467f0aabb324c3469f27bbd181a1888cce27f92684",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; perceived social division and political variation",
+      "denominator": {"value": null, "unit": "British public poll respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "division_perception": {"value": 67, "unit": "per cent saying the UK feels divided, compared with 15 per cent saying it feels united", "value_type": "published_survey_estimate"},
+        "difficulty_trend": {"value": 58, "unit": "per cent saying it is becoming harder to disagree about difficult topics, compared with 6 per cent saying easier", "value_type": "published_survey_estimate"},
+        "party_range": {"value": "The view that disagreement is becoming harder spans party groups: 69% among Reform voters, 67% Conservative, 56% Labour, 55% Liberal Democrat and 52% Green voters.", "unit": "reported party-voter comparison", "value_type": "published_subgroup_estimate"},
+        "generational_range": {"value": "74% of 65-74 year olds say disagreement is becoming harder, compared with 45% of 25-34 year olds.", "unit": "reported age subgroup comparison", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "More in Common polling and focus groups, with political-voter and age comparisons reported on the public research page.",
+      "uncertainty": "Perceived division and trend judgments are not measures of objective polarization, social-network segregation or actual cross-group contact; party and age differences may reflect different media environments and issue priorities.",
+      "subgroup": "British adults by party vote and age, including voters across government and insurgent parties.",
+      "counterinterpretation": "Recognizing conflict can coexist with resilient pluralism; disagreement may become more visible because more groups and identities are publicly contesting norms.",
+      "source_url": "https://www.moreincommon.org.uk/research/disagreeing-well/",
+      "retrieval_hash": "sha256:9f26b32283bd45aaf615ec467f0aabb324c3469f27bbd181a1888cce27f92684",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ucl.ac.uk/about/case-studies/disagreeing-well-fostering-respectful-debates-ucl", "claim": "UCL public description of the Disagreeing Well campaign and its focus on constructive debate and listening."},
+    {"source_url": "https://www.moreincommon.org.uk/", "claim": "More in Common public research organization and social-cohesion research context."}
+  ],
+  "boundary": "This record adds a civic-culture layer: people may value disagreement and understanding while withholding views, avoiding difficult topics and lacking trusted spaces in which to practice political conversation. It is a Britain-focused polling and focus-group synthesis with incomplete public sample details, not a representative longitudinal panel, behavioral trace, causal polarization study or proof that new forums would improve democratic outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official More in Common Disagreeing Well research page was reviewed for public polling and focus-group findings on reluctance to speak, negative labeling, disagreement norms, argument goals, venue use, perceived division, party-voter differences and age differences.",
+    "source_url_sha256": "sha256:9f26b32283bd45aaf615ec467f0aabb324c3469f27bbd181a1888cce27f92684",
+    "checked": "2026-09-27"
+  }
+}

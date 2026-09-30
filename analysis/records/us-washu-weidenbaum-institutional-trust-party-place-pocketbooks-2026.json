@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-washu-weidenbaum-institutional-trust-party-place-pocketbooks-2026",
+  "title": "U.S. institutional trust is being sorted by party, place, and economic security rather than disappearing uniformly",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status", "housing_place_mobility", "household_room_consumption"],
+  "source_unit": "Washington University in St. Louis Weidenbaum Center Survey Waves 6-8, 2025-2026; report analysis of institutional trust by partisanship, geography, and economic security",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 2025-March 2026; institutional trust across Weidenbaum Center Survey Waves 6-8",
+      "denominator": {"value": 2000, "unit": "nationally representative U.S. adults per WCS wave, with an additional Black-American sample of approximately 1,000; wave-specific analytic bases vary", "value_type": "survey_sample"},
+      "measures": {
+        "federal_government_trust_direction": {"value": 0, "unit": "qualitative report finding: relatively low yet stable across May 2025 to March 2026", "value_type": "reported_pattern"},
+        "trust_sorted_by_partisanship_geography_economic_security": {"value": 3, "unit": "three cleavages identified by the report: partisanship, geography, and personal economic security", "value_type": "reported_dimensions"}
+      },
+      "method": "WCS repeated survey waves fielded by YouGov; the report synthesizes institutional-trust responses across waves rather than treating all respondents as one pooled cross-section.",
+      "uncertainty": "The report describes associations and cross-wave patterns; it does not establish that party, place, or economic security caused trust differences or that low trust produces political instability.",
+      "subgroup": "U.S. adults across WCS Waves 6-8, with partisan, urban/rural, and economic-security comparisons.",
+      "counterinterpretation": "Trust may be institution-specific, responsive to events, or rationally differentiated by perceived performance; sorting is not equivalent to universal distrust or democratic breakdown.",
+      "source_url": "https://wc.washu.edu/party-place-and-pocketbooks-what-shapes-americans-trust-political-institutions",
+      "retrieval_hash": "sha256:091fc2eb14e1a8b402daa7f619103463b9b7b6321366d12e4ec6a81e41b70856",
+      "status": "reported"
+    },
+    {
+      "period": "WCS Wave 8; partisan differences in high institutional trust",
+      "denominator": {"value": 100, "unit": "percent within partisan subgroup reporting some or a great deal of trust; institution-specific survey bases", "value_type": "subgroup_population"},
+      "measures": {
+        "presidency_trust_republicans": {"value": 75, "unit": "percent of Republicans reporting high trust", "value_type": "subgroup_share"},
+        "presidency_trust_democrats": {"value": 9, "unit": "percent of Democrats reporting high trust", "value_type": "subgroup_share"},
+        "news_media_trust_democrats": {"value": 55, "unit": "percent of Democrats reporting high trust", "value_type": "subgroup_share"},
+        "news_media_trust_republicans": {"value": 23, "unit": "percent of Republicans reporting high trust", "value_type": "subgroup_share"},
+        "military_trust_republicans": {"value": 87, "unit": "percent of Republicans reporting high trust", "value_type": "subgroup_share"},
+        "military_trust_democrats": {"value": 54, "unit": "percent of Democrats reporting high trust", "value_type": "subgroup_share"}
+      },
+      "method": "WCS Wave 8 cross-sectional comparisons using the report's high-trust definition: some or a great deal of trust.",
+      "uncertainty": "Partisan identity, institution evaluations, current events, and question order may be intertwined; the snapshot does not show individual change, institutional performance, or whether trust predicts action.",
+      "subgroup": "Republican and Democratic respondents in WCS Wave 8; independents are described as generally intermediate or low but are not represented in every statistic here.",
+      "counterinterpretation": "Partisan differentiation can reflect active institutional accountability or contestation rather than mere tribalism; high trust may coexist with divergent expectations of institutional behavior.",
+      "source_url": "https://wc.washu.edu/party-place-and-pocketbooks-what-shapes-americans-trust-political-institutions",
+      "retrieval_hash": "sha256:091fc2eb14e1a8b402daa7f619103463b9b7b6321366d12e4ec6a81e41b70856",
+      "status": "reported"
+    },
+    {
+      "period": "WCS Wave 8; urban-rural differences in institutional trust",
+      "denominator": {"value": 100, "unit": "percent within urban or rural subgroup reporting some or a great deal of trust; institution-specific survey bases", "value_type": "subgroup_population"},
+      "measures": {
+        "military_trust_rural": {"value": 73, "unit": "percent of rural residents reporting high trust", "value_type": "subgroup_share"},
+        "military_trust_urban": {"value": 64, "unit": "percent of urban residents reporting high trust", "value_type": "subgroup_share"},
+        "presidency_trust_rural": {"value": 42, "unit": "percent of rural residents reporting high trust", "value_type": "subgroup_share"},
+        "presidency_trust_urban": {"value": 37, "unit": "percent of urban residents reporting high trust", "value_type": "subgroup_share"},
+        "news_media_trust_urban": {"value": 42, "unit": "percent of urban residents reporting high trust", "value_type": "subgroup_share"},
+        "news_media_trust_rural": {"value": 34, "unit": "percent of rural residents reporting high trust", "value_type": "subgroup_share"}
+      },
+      "method": "WCS Wave 8 urban-rural comparisons; the report notes that comparable gaps were not found for Congress and local government.",
+      "uncertainty": "Residence is a broad place category and may stand in for media environment, race, party, economic structure, institutional contact, or local experience; these are not causal place effects.",
+      "subgroup": "Urban and rural U.S. residents in WCS Wave 8.",
+      "counterinterpretation": "The absence of a gap for Congress and local government suggests trust sorting is institution-specific rather than a single urban-rural worldview.",
+      "source_url": "https://wc.washu.edu/party-place-and-pocketbooks-what-shapes-americans-trust-political-institutions",
+      "retrieval_hash": "sha256:091fc2eb14e1a8b402daa7f619103463b9b7b6321366d12e4ec6a81e41b70856",
+      "status": "reported"
+    },
+    {
+      "period": "2026; report-level institutional-legitimacy interpretation",
+      "denominator": {"value": 1, "unit": "analytic report synthesis, not a respondent-level estimate", "value_type": "report_synthesis"},
+      "measures": {
+        "institutional_trust_fragmentation": {"value": 1, "unit": "report conclusion: trust is unevenly distributed across party, place, and economic security", "value_type": "qualitative_conclusion"},
+        "democratic_stability_challenge": {"value": 1, "unit": "report identifies fragmentation as a potential challenge to democratic stability", "value_type": "qualitative_conclusion"}
+      },
+      "method": "Author synthesis of WCS Waves 6-8 and institution-specific trust comparisons.",
+      "uncertainty": "A potential challenge is not an observed democratic outcome; the report does not trace trust differences into turnout, protest, compliance, policy feedback, or institutional reform.",
+      "subgroup": "U.S. public as represented by the WCS survey series.",
+      "counterinterpretation": "Differentiated trust can make citizens more discerning about institutions and preserve legitimacy where performance or representation is perceived as credible.",
+      "source_url": "https://wc.washu.edu/party-place-and-pocketbooks-what-shapes-americans-trust-political-institutions",
+      "retrieval_hash": "sha256:091fc2eb14e1a8b402daa7f619103463b9b7b6321366d12e4ec6a81e41b70856",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://openscholarship.wustl.edu/wcs/", "claim": "The Weidenbaum Center WCS series uses repeated YouGov waves with a nationally representative U.S. adult sample and an additional Black-American sample.", "status": "related", "access_boundary": "Wave sample design and report-specific analytic bases must be checked separately for each estimate."},
+    {"source_url": "https://www.pewresearch.org/politics/2025/06/12/public-trust-in-government-1958-2025/", "claim": "Pew supplies a longer historical U.S. public-trust series for comparison.", "status": "related", "access_boundary": "The WCS report's institution-specific, partisan, and geographic estimates are not interchangeable with the long-run federal-trust series."}
+  ],
+  "boundary": "This record establishes U.S. survey associations between institutional trust and partisanship, geography, and economic security, including institution-specific partisan and urban-rural differences. It does not establish causal effects, individual-level change, institutional performance, democratic stability, political action, or the mechanism by which household economic security shapes trust."
+}

@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cbo-household-income-distribution-2023-transfers-taxes-inequality",
+  "title": "Market income, transfers and taxes tell different stories about household security",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Congressional Budget Office, The Distribution of Household Income, 2023, September 2026",
+  "geography": "United States; approximately 134 million households, income quintiles and top 1 percent, 1979–2023",
+  "observations": [
+    {
+      "period": "2023; household income before and after means-tested transfers and federal taxes",
+      "denominator": {"value": 134, "unit": "approximately million U.S. households", "value_type": "reported_household_frame"},
+      "measures": {
+        "total_income": {"value": 20, "unit": "approximately trillion dollars in household income", "value_type": "reported_total"},
+        "bottom_quintile_before_transfers_taxes": {"value": 5, "unit": "percent change in average income before transfers and taxes from 2022 to 2023, inflation-adjusted", "value_type": "reported_change"},
+        "top_one_percent_before_transfers_taxes": {"value": -9, "unit": "percent change in average income before transfers and taxes from 2022 to 2023, inflation-adjusted", "value_type": "reported_change"},
+        "after_transfers_taxes": {"value": "income was more equally distributed after transfers and taxes than before them; in 2023 average income after transfers and taxes rose 4% for the lowest quintile and fell 5% for the highest quintile", "unit": "reported distributional comparison", "value_type": "reported_comparison"},
+        "mechanism": {"value": "Household security depends on the interaction of earnings, capital income, transfers and taxes rather than on market income alone", "unit": "bounded distributional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CBO distributional analysis using tax-return data, survey data and administrative information to estimate income before and after means-tested transfers and federal taxes; all dollar amounts are inflation-adjusted to 2023 dollars.",
+      "uncertainty": "The report estimates average group outcomes and does not identify within-quintile variation, individual transitions, material consumption, wealth, debt, regional costs or causal effects of any single transfer or tax policy.",
+      "subgroup": "U.S. households in five income quintiles and the top 1 percent, including households whose income includes labor, business, capital, social-insurance and means-tested-transfer components.",
+      "counterinterpretation": "A one-year decline at the top driven largely by realized capital gains may not indicate lasting deterioration; average quintile changes can conceal substantial heterogeneity and household mobility.",
+      "source_url": "https://www.cbo.gov/publication/62761",
+      "retrieval_hash": "cbo-official-report-page:sha256:df6f86a6f6ca7bd9df8bfb98e91442c53bfe1de628693904917620dd8e112dae",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2023; means-tested transfers and federal taxes at the bottom of the distribution",
+      "denominator": {"value": 1, "unit": "lowest-income-quintile average-income distribution", "value_type": "reported_quintile_frame"},
+      "measures": {
+        "means_tested_transfer_rate": {"value": -2, "unit": "percentage-point change in means-tested transfers as a share of income before transfers and taxes for the lowest quintile", "value_type": "reported_change"},
+        "federal_tax_rate": {"value": -1, "unit": "percentage-point change in the federal tax rate for the lowest quintile", "value_type": "reported_change"},
+        "offset": {"value": "the 1 percentage-point decrease in the federal tax rate partially offset the 2 percentage-point decrease in means-tested transfers", "unit": "reported distributional relationship", "value_type": "reported_comparison"},
+        "inequality_effect": {"value": "transfers and taxes made household income more equally distributed, while the extent of their inequality reduction was similar in 2023 and 2022", "unit": "reported distributional effect", "value_type": "reported_effect"},
+        "mechanism": {"value": "The same household can experience income security through a changing package of market earnings, public transfers and tax liability; policy withdrawal and tax changes are not interchangeable forms of relief", "unit": "bounded transfer-tax mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CBO comparison of income before transfers and taxes, means-tested transfer rates, federal tax rates and income after transfers and taxes by income group.",
+      "uncertainty": "Average transfer and tax rates do not measure eligibility take-up, benefit adequacy, administrative access, service use, tax incidence across households or the reasons for year-over-year changes.",
+      "subgroup": "Lower-income households receiving or eligible for Medicaid, CHIP, SNAP, SSI and other means-tested assistance, as well as households affected by federal income, payroll, corporate and excise taxes.",
+      "counterinterpretation": "A lower transfer rate can reflect changing income, eligibility, program rules or utilization rather than a simple withdrawal of support; lower tax rates can coexist with reduced public benefits or higher nonfederal costs.",
+      "source_url": "https://www.cbo.gov/publication/62792",
+      "retrieval_hash": "cbo-official-report-page:sha256:df6f86a6f6ca7bd9df8bfb98e91442c53bfe1de628693904917620dd8e112dae",
+      "status": "reported"
+    },
+    {
+      "period": "1979–2023; long-run income growth, inequality and redistribution",
+      "denominator": {"value": 1, "unit": "CBO long-run household income distribution series", "value_type": "reported_longitudinal_frame"},
+      "measures": {
+        "lowest_quintile_average_income": {"value": "average annual income rose from $19,000 in 1979 to $28,500 in 2023, in 2023 dollars", "unit": "inflation-adjusted dollars", "value_type": "reported_long_run_change"},
+        "highest_quintile_average_income": {"value": "average annual income rose from $179,700 in 1979 to $409,300 in 2023, in 2023 dollars", "unit": "inflation-adjusted dollars", "value_type": "reported_long_run_change"},
+        "inequality": {"value": "income inequality rose from 1979 to 2023 both before and after transfers and taxes", "unit": "reported long-run distributional finding", "value_type": "reported_trend"},
+        "redistribution": {"value": "the degree to which transfers and taxes reduced inequality increased over time, with means-tested transfers growing especially for the lowest quintile and driven primarily by Medicaid spending", "unit": "reported long-run distributional finding", "value_type": "reported_trend"},
+        "mechanism": {"value": "Long-run income growth can coexist with widening relative distance, making public redistribution part of the social contract that determines whether growth is experienced as shared security", "unit": "bounded growth-and-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CBO historical distributional series from 1979 through 2023, separating market and social-insurance income, means-tested transfers, federal taxes and income after transfers and taxes.",
+      "uncertainty": "The long-run series are average group estimates and do not establish intergenerational mobility, lifetime income, household wealth, consumption, health, political response or the causal effect of Medicaid or other programs.",
+      "subgroup": "Households across the income distribution, workers, beneficiaries of social insurance and means-tested programs, taxpayers, and communities evaluating whether economic growth is broadly shared.",
+      "counterinterpretation": "Rising inequality measures do not by themselves establish declining absolute welfare; the lowest quintile experienced real average income growth, and transfers and taxes can reduce inequality without eliminating other forms of insecurity.",
+      "source_url": "https://www.cbo.gov/publication/62792",
+      "retrieval_hash": "cbo-official-report-page:sha256:df6f86a6f6ca7bd9df8bfb98e91442c53bfe1de628693904917620dd8e112dae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cbo.gov/publication/62761", "claim": "Official CBO report home page with date, summary, data links and report scope."},
+    {"source_url": "https://www.cbo.gov/publication/62792", "claim": "Official CBO rendered report page with definitions, 2023 findings, long-run findings and methodological notes."},
+    {"source_url": "https://www.cbo.gov/system/files/2026-09/62761-Household-Income-2023.pdf", "claim": "Official CBO report PDF linked from the report page."}
+  ],
+  "boundary": "This record identifies a U.S. distributional, transfer-tax, household-security and fiscal-legitimacy subtheme. It does not establish individual mobility, consumption, wealth, debt, material hardship, benefit adequacy, administrative access, political response or the causal effect of a specific tax or transfer; those require linked household, program, state, service and political episodes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official CBO report home page, rendered report page and linked report PDF were reviewed for 1979–2023 scope, 2023 income changes, transfer and tax rates, income-after-transfer comparisons, long-run quintile growth, inequality and redistribution findings.",
+    "source_url_sha256": "cbo-official-report-page:sha256:df6f86a6f6ca7bd9df8bfb98e91442c53bfe1de628693904917620dd8e112dae",
+    "checked": "2026-09-29"
+  }
+}

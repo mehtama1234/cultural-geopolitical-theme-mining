@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ifs-resources-justice-system-2026-capacity-access-legitimacy",
+  "title": "Justice capacity depends on infrastructure, management, geography, and adjacent services as much as headline spending",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Institute for Fiscal Studies, Transforming Justice programme, Resources and the justice system",
+  "geography": "England and Wales justice system, with local-authority and service-distribution analysis",
+  "observations": [
+    {
+      "period": "2002–03 to 2028–29; justice-system public spending and capacity",
+      "denominator": {"value": 1, "unit": "IFS mid-grant synthesis report covering the Ministry of Justice and associated justice-system resources", "value_type": "report_frame"},
+      "measures": {
+        "current_budget": {"value": 11.8, "unit": "£ billions of Ministry of Justice day-to-day spending in 2025–26", "value_type": "reported_budget"},
+        "early_cut": {"value": 33, "unit": "percent real-terms reduction in Ministry of Justice day-to-day budget between 2007–08 and 2016–17", "value_type": "reported_change"},
+        "per_person_gap": {"value": 17, "unit": "percent below 2002–03 spending per person in 2025–26", "value_type": "reported_comparison"},
+        "resource_mechanism": {"value": "Funding interacts with infrastructure, management, staff, buildings, providers, demand, and coordination; spending alone does not determine performance", "unit": "reported synthesis mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Synthesis of IFS economic and administrative studies across justice spending, tribunals, courts, policing, legal aid, and prevention.",
+      "uncertainty": "The report combines studies at different stages and does not provide one causal estimate of spending on overall justice outcomes; aggregate budgets conceal allocation and productivity differences.",
+      "subgroup": "People using courts, tribunals, legal aid, policing, prisons, probation, and related public services, with unequal exposure by place and legal problem.",
+      "counterinterpretation": "Higher spending may not improve outcomes if additional inputs are poorly allocated or bottlenecked by staff, buildings, case preparation, management, or demand growth.",
+      "source_url": "https://ifs.org.uk/publications/resources-and-justice-system",
+      "retrieval_hash": "sha256:4c969d655f28a8eab4eaeff98579f4777a4240a743e256c8a301040050d9417a",
+      "status": "reported"
+    },
+    {
+      "period": "2013–early 2026; administrative tribunals and appeals",
+      "denominator": {"value": 330000, "unit": "open cases in party-to-state tribunals in early 2026", "value_type": "administrative_case_stock"},
+      "measures": {
+        "asylum_immigration_wait": {"value": 61, "unit": "average weeks from receipt to disposal for asylum and immigration appeals in early 2026", "value_type": "reported_wait"},
+        "social_security_wait": {"value": 35, "unit": "average weeks from receipt to disposal for social-security appeals in early 2026", "value_type": "reported_wait"},
+        "historical_comparison": {"value": "Asylum and immigration waits rose from 23 weeks in 2013; social-security waits rose from 18 weeks", "unit": "reported time comparison", "value_type": "reported_change"},
+        "demand_capacity": {"value": "Backlogs appear driven mainly by case inflows rising faster than resolution capacity, rather than a recent collapse in productivity", "unit": "reported administrative interpretation", "value_type": "analytic_mechanism"}
+      },
+      "method": "Analysis of administrative tribunal receipts, disposals, outstanding caseloads, and waiting-time statistics.",
+      "uncertainty": "Waits describe resolved cases and may not represent the experience of cases still open; the report does not identify the causal contribution of each policy or staffing change.",
+      "subgroup": "People appealing immigration, asylum, disability-benefit, and other state decisions, often during high-stakes income or status transitions.",
+      "counterinterpretation": "Improved appeal access or more accurate first-instance decisions could increase receipts while improving substantive justice, so rising caseload is not itself proof of system failure.",
+      "source_url": "https://ifs.org.uk/publications/resources-and-justice-system",
+      "retrieval_hash": "sha256:4c969d655f28a8eab4eaeff98579f4777a4240a743e256c8a301040050d9417a",
+      "status": "reported"
+    },
+    {
+      "period": "2013–2024; civil legal aid and geographic availability",
+      "denominator": {"value": 1, "unit": "England and Wales civil legal-aid system and local-authority distribution", "value_type": "administrative_system_frame"},
+      "measures": {
+        "case_volume_change": {"value": 57, "unit": "percent decline in civil legal-aid case volumes by 2024 compared with pre-reform levels", "value_type": "reported_change"},
+        "real_expenditure_change": {"value": 15, "unit": "percent decline in real civil legal-aid expenditure by 2024 compared with pre-reform levels", "value_type": "reported_change"},
+        "deprivation_pattern": {"value": "Activity fell by roughly 40–65% across the deprivation distribution, with larger absolute losses in places that started with higher likely legal need", "unit": "reported geographic pattern", "value_type": "reported_pattern"},
+        "need_supply_boundary": {"value": "Lower completed legal-aid cases cannot be read as lower legal need because eligibility, provider viability, fees, and capacity also determine observed activity", "unit": "reported measurement boundary", "value_type": "analytic_mechanism"}
+      },
+      "method": "Analysis of civil legal-aid case volumes, expenditure, provider numbers, local-authority deprivation, and geographic distribution before and after LASPO.",
+      "uncertainty": "The report does not isolate LASPO causally from other changes or observe all unmet legal need; provider activity is an imperfect measure of effective access.",
+      "subgroup": "People with housing, welfare, immigration, asylum, debt, family, and public-authority legal problems, especially in deprived local authorities.",
+      "counterinterpretation": "Some decline in completed cases could reflect changed case mix, earlier settlement, or fewer eligible matters rather than only unmet demand, although the available indicators do not resolve the distinction.",
+      "source_url": "https://ifs.org.uk/publications/resources-and-justice-system",
+      "retrieval_hash": "sha256:4c969d655f28a8eab4eaeff98579f4777a4240a743e256c8a301040050d9417a",
+      "status": "reported"
+    },
+    {
+      "period": "2010–2019 and longer-run policy spillovers; courts, police, youth services, and prevention",
+      "denominator": {"value": 1, "unit": "IFS synthesis of linked justice and adjacent-service studies", "value_type": "study_frame"},
+      "measures": {
+        "court_closures": {"value": 178, "unit": "magistrates’ court sites closed in England and Wales between 2010 and 2019", "value_type": "reported_count"},
+        "police_station_route": {"value": "The geographic allocation and closure of police infrastructure can shape police performance and crime outcomes", "unit": "reported research route", "value_type": "analytic_mechanism"},
+        "adjacent_services": {"value": "Sure Start and youth-club studies indicate that non-justice services can alter later justice demand and wider outcomes", "unit": "reported spillover pattern", "value_type": "reported_pattern"},
+        "system_interdependence": {"value": "Justice capacity is a cross-service system: prevention, schools, youth provision, police, courts, legal aid, prisons, and probation can shift pressure across one another", "unit": "reported synthesis mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Synthesis of administrative, geographic, quasi-experimental, and linked-service studies cited by the IFS Transforming Justice programme.",
+      "uncertainty": "The examples are specific studies and do not establish that every non-justice spending change has the same effect; several pathways remain open or indirect.",
+      "subgroup": "Residents of areas with different court, police, youth-service, early-years, and legal-aid access; children and young people exposed to preventive services.",
+      "counterinterpretation": "Service closure or spending changes may coincide with urban restructuring, changing demand, or other reforms, and observed justice effects may not be attributable to one service alone.",
+      "source_url": "https://ifs.org.uk/publications/resources-and-justice-system",
+      "retrieval_hash": "sha256:4c969d655f28a8eab4eaeff98579f4777a4240a743e256c8a301040050d9417a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ifs.org.uk/transforming-justice-interplay-social-change-and-policy-reforms", "claim": "IFS Transforming Justice programme page and linked component studies."},
+    {"source_url": "https://ifs.org.uk/publications/what-driving-increases-tribunal-backlogs", "claim": "Component analysis of tribunal-backlog growth."},
+    {"source_url": "https://ifs.org.uk/publications/changes-provision-civil-legal-aid-england-and-wales", "claim": "Component analysis of civil legal-aid provision and geography."}
+  ],
+  "boundary": "This record adds justice as public capacity and household-access infrastructure. It covers England and Wales and combines budget, administrative, geographic, and linked-service evidence; it does not produce one causal spending estimate, measure all unmet legal need, equate case volume with justice quality, or generalize UK justice findings to other jurisdictions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "IFS report reviewed for executive resource findings, tribunal backlogs and waits, legal-aid volume/expenditure/geography, court closures, and cross-service prevention spillovers.",
+    "source_url_sha256": "sha256:4c969d655f28a8eab4eaeff98579f4777a4240a743e256c8a301040050d9417a",
+    "checked": "2026-09-28"
+  }
+}

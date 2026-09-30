@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-business-owner-local-climate-retention-2026",
+  "title": "Local business retention depends more on relational ecosystem and usable support than on headline cost ratings alone",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "Gallup Pathways to Wealth, Half of U.S. Business Owners See Local Area as Good for Business, September 8, 2026",
+  "geography": "United States; business owners, primarily recruited from the probability-based Gallup Panel",
+  "observations": [
+    {
+      "period": "September 26-November 3, 2025 survey; local business-climate satisfaction",
+      "denominator": {"value": 1, "unit": "Gallup Pathways to Wealth Year 3 business-owner survey; public article does not disclose the respondent count", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "positive_local_view": {"value": 48, "unit": "percent holding a positive view of their city or local area as a place to run a business", "value_type": "published_survey_estimate"},
+        "negative_local_view": {"value": 13, "unit": "percent holding a negative overall view", "value_type": "published_survey_estimate"},
+        "neutral_local_view": {"value": 39, "unit": "percent neutral about the local area", "value_type": "published_survey_estimate"},
+        "likely_to_leave_overall": {"value": 5, "unit": "percent likely to leave their current area within 12 months for a business-related reason", "value_type": "published_survey_estimate"}
+      },
+      "method": "Gallup Pathways to Wealth Year 3 survey conducted September 26-November 3, 2025, with business owners recruited primarily from the probability-based Gallup Panel; publication released September 2026.",
+      "uncertainty": "The public article does not report the business-owner sample size, full weighting details, sector composition or exact analytic denominators; satisfaction and relocation intention are self-reported and not observed moves or firm exits.",
+      "subgroup": "U.S. business owners, with comparisons by overall local-climate view and expected revenue growth.",
+      "counterinterpretation": "Owners may rate a place through the lens of their own firm performance, and positive local sentiment may reflect selection into places already favorable to their business rather than local conditions causing success.",
+      "source_url": "https://news.gallup.com/poll/713852/half-business-owners-local-area-good-business.aspx",
+      "retrieval_hash": "source_page:sha256:fe3447e94472f90d6895094eef39ff59e3343eb29c736c2464d5ce7882b6c5fc",
+      "status": "reported"
+    },
+    {
+      "period": "September 26-November 3, 2025 survey; local cost and market conditions",
+      "denominator": {"value": 1, "unit": "Gallup business-owner survey; public article does not disclose the respondent count", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "real_estate_deterrent": {"value": 42, "unit": "percent agreeing commercial and residential real estate costs deter business development", "value_type": "published_survey_estimate"},
+        "taxes_too_high": {"value": 35, "unit": "percent agreeing state and local tax rates are too high to support business growth", "value_type": "published_survey_estimate"},
+        "access_to_customers": {"value": 43, "unit": "percent agreeing their area provides good access to customers and markets", "value_type": "published_survey_estimate"},
+        "business_to_business_support": {"value": 34, "unit": "percent agreeing their area provides helpful business-to-business support services", "value_type": "published_survey_estimate"},
+        "professional_suppliers": {"value": 31, "unit": "percent agreeing their area offers good access to professional service suppliers", "value_type": "published_survey_estimate"}
+      },
+      "method": "Business owners rated 11 local business-climate conditions; the publication compares item prevalence with overall satisfaction and relocation intentions.",
+      "uncertainty": "Item agreement does not measure actual prices, tax incidence, network use, customer volume or service quality; the study does not establish causal rankings among local conditions.",
+      "subgroup": "U.S. business owners across local markets.",
+      "counterinterpretation": "High cost ratings may be salient but not decisive: owners may tolerate costs when customer access, networks, regulation and public services make the business viable.",
+      "source_url": "https://news.gallup.com/poll/713852/half-business-owners-local-area-good-business.aspx",
+      "retrieval_hash": "source_page:sha256:fe3447e94472f90d6895094eef39ff59e3343eb29c736c2464d5ce7882b6c5fc",
+      "status": "reported"
+    },
+    {
+      "period": "September 26-November 3, 2025 survey; dissatisfaction and relocation intention",
+      "denominator": {"value": 1, "unit": "Gallup business-owner survey; subgroup sample sizes not disclosed in the public article", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "negative_view_likely_to_leave": {"value": 11, "unit": "percent of owners with a negative overall local-climate view likely to leave within 12 months for a business reason", "value_type": "published_subgroup_estimate"},
+        "nonnegative_view_likely_to_leave": {"value": 5, "unit": "percent among owners without a negative overall view", "value_type": "published_subgroup_estimate"},
+        "relocation_difference": {"value": 6, "unit": "percentage-point descriptive difference in relocation intention", "value_type": "reported_difference"},
+        "retention_mechanism": {"value": "Local dissatisfaction is associated with owner exit intention, but the association is stronger where business growth raises the value of finding a better ecosystem.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup comparison of self-reported likelihood of leaving the local area within 12 months by overall business-climate satisfaction.",
+      "uncertainty": "The relationship is correlational and could reflect firm performance, owner mobility, sector composition, local shocks or unmeasured opportunity differences; stated intention is not relocation.",
+      "subgroup": "Business owners with negative versus neutral or positive local-climate views.",
+      "counterinterpretation": "Owners considering relocation may retrospectively rate the local climate negatively, so intention can shape satisfaction rather than only result from it.",
+      "source_url": "https://news.gallup.com/poll/713852/half-business-owners-local-area-good-business.aspx",
+      "retrieval_hash": "source_page:sha256:fe3447e94472f90d6895094eef39ff59e3343eb29c736c2464d5ce7882b6c5fc",
+      "status": "reported"
+    },
+    {
+      "period": "September 26-November 3, 2025 survey; growth expectations and local dissatisfaction",
+      "denominator": {"value": 1, "unit": "Gallup business-owner survey; subgroup sample sizes not disclosed in the public article", "value_type": "publication_summary_unreported_n"},
+      "measures": {
+        "growth_and_dissatisfied_likely_to_leave": {"value": 19, "unit": "percent of owners expecting annual revenue growth and dissatisfied with the local area who were likely to relocate", "value_type": "published_subgroup_estimate"},
+        "growth_and_satisfied_or_neutral_likely_to_leave": {"value": 5, "unit": "percent of owners expecting growth but satisfied or neutral about the local area", "value_type": "published_subgroup_estimate"},
+        "nongrowth_and_dissatisfied_likely_to_leave": {"value": 9, "unit": "percent of owners not expecting growth and dissatisfied with the local area", "value_type": "published_subgroup_estimate"},
+        "growth_mobility_interaction": {"value": 14, "unit": "percentage-point descriptive difference between growth-expecting dissatisfied owners and growth-expecting satisfied or neutral owners", "value_type": "derived_difference"}
+      },
+      "method": "Gallup cross-tabulation of local-climate satisfaction, expected revenue growth and relocation intention.",
+      "uncertainty": "The interaction is descriptive, uses expectations rather than verified revenue, and does not show whether relocation would improve firm outcomes or local economic stability.",
+      "subgroup": "Business owners by expected revenue growth and local-climate satisfaction.",
+      "counterinterpretation": "Growth-oriented owners may have more mobility options and higher standards, making the same local friction more consequential than for firms prioritizing stability or survival.",
+      "source_url": "https://news.gallup.com/poll/713852/half-business-owners-local-area-good-business.aspx",
+      "retrieval_hash": "source_page:sha256:fe3447e94472f90d6895094eef39ff59e3343eb29c736c2464d5ce7882b6c5fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a place-and-firm retention mechanism: local business ecosystems are judged through customer access, support networks, regulation and public services, while dissatisfaction is associated with owner relocation intention, especially among growth-expecting firms. It does not establish causal local-policy effects, actual moves, firm survival, employment, revenue, tax base or community welfare outcomes."
+}

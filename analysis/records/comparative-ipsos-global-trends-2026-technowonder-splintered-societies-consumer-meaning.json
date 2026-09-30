@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-trends-2026-technowonder-splintered-societies-consumer-meaning",
+  "title": "Technology unease, social fracture, nostalgia, individualism, and uncertainty are reshaping cultural and consumer meaning",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Ipsos, Global Trends 10th Edition 2026: In Search of a New Consensus",
+  "geography": "Global social, technology, cultural, and consumer trend synthesis based on 38-market survey and macro-force analysis",
+  "observations": [
+    {
+      "period": "May-June 2026; technology promise and concern",
+      "denominator": {"value": 38, "unit": "markets in the Ipsos Global Trends 2026 online survey frame", "value_type": "published_global_trends_frame"},
+      "measures": {
+        "technology_balance": {"value": "the balance between technology's promise and its risks is beginning to tip toward greater concern as change accelerates", "unit": "Ipsos trend synthesis", "value_type": "reported_pattern"},
+        "ai_sentiment_change": {"value": "positivity toward AI declined between 2025 and 2026 in several AI-leading markets, including Singapore, South Korea, Hong Kong SAR, and Great Britain", "unit": "Ipsos comparative trend finding", "value_type": "reported_change"},
+        "youth_concern": {"value": "younger citizens' support for technology is being tested by perceived threats to climate and jobs", "unit": "Ipsos trend synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos Global Trends 2026 38-market online survey, macro-force analysis, and published cultural-signal synthesis.",
+      "uncertainty": "The trend report is a comparative survey and foresight product, not a causal technology-impact study or a representative estimate of every country's population.",
+      "subgroup": "Technology users, younger citizens, workers, consumers, AI-leading markets, creators, and people exposed to automation or climate risk.",
+      "counterinterpretation": "Concern can coexist with adoption and may prompt better safeguards, more selective use, or demand for technology that demonstrates concrete social value.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition",
+      "retrieval_hash": "sha256:17ae958a956e10c4029e3bf6ea5f04d6e3aba1def32a5ed06e9ba2a333619f7e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; splintered societies and social boundaries",
+      "denominator": {"value": 1, "unit": "Ipsos global cultural-trend framework on communities, families, immigration, and inequality", "value_type": "social_fragmentation_frame"},
+      "measures": {
+        "splintering": {"value": "global fractures are appearing in communities and families as tensions rise around immigration and inequality", "unit": "Ipsos trend synthesis", "value_type": "reported_pattern"},
+        "belonging_problem": {"value": "organizations and institutions face pressure to create spaces, experiences, and narratives that bring people together rather than intensify division", "unit": "Ipsos trend framing", "value_type": "reported_mechanism"},
+        "identity_channel": {"value": "social identity, belonging, and cultural conflict are becoming part of how people interpret markets, institutions, and political choices", "unit": "program synthesis", "value_type": "reported_framework"}
+      },
+      "method": "Ipsos macro-force analysis and published cross-market cultural trend interpretation.",
+      "uncertainty": "The trend label identifies a pattern rather than estimating the prevalence, causes, or durability of social fragmentation in any specific community.",
+      "subgroup": "Immigrant and host communities, families, consumers, employers, cultural institutions, civic organizations, and people experiencing inequality.",
+      "counterinterpretation": "Conflict can make previously hidden differences visible and can motivate new forms of solidarity, coalition-building, and institutional repair.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition",
+      "retrieval_hash": "sha256:17ae958a956e10c4029e3bf6ea5f04d6e3aba1def32a5ed06e9ba2a333619f7e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; retreat to old systems and escape to individualism",
+      "denominator": {"value": 1, "unit": "Ipsos cultural and consumer trend framework on nostalgia, identity, and personal control", "value_type": "consumer_identity_frame"},
+      "measures": {
+        "retreat_to_old_systems": {"value": "when progress fuels restlessness, people may look back toward values and feelings associated with greater control", "unit": "Ipsos trend synthesis", "value_type": "reported_pattern"},
+        "escape_to_individualism": {"value": "people increasingly use identity and material purchases as a domain of control and self-expression", "unit": "Ipsos trend synthesis", "value_type": "reported_mechanism"},
+        "consumer_translation": {"value": "consumers are drawn to organizations that help them pursue personal goals, celebrate achievement, and navigate complexity", "unit": "Ipsos trend framing", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos global trend analysis linking cultural attitudes, identity, consumer behavior, and macro social forces.",
+      "uncertainty": "These are cultural signals, not individual purchase histories, causal effects of nostalgia, or a claim that all consumers respond through material identity.",
+      "subgroup": "Consumers, younger adults, brands, cultural producers, people facing low institutional control, and communities negotiating tradition and change.",
+      "counterinterpretation": "Nostalgia can be a resource for continuity and belonging, while individualism can coexist with mutual aid, collective identity, and civic participation.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition",
+      "retrieval_hash": "sha256:17ae958a956e10c4029e3bf6ea5f04d6e3aba1def32a5ed06e9ba2a333619f7e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; nouveau nihilism and live-for-the-moment consumption",
+      "denominator": {"value": 1, "unit": "Ipsos trend framework on uncertainty, personal finances, geopolitics, and consumption", "value_type": "uncertainty_consumption_frame"},
+      "measures": {
+        "uncertainty": {"value": "geopolitical and personal-financial uncertainty is reshaping how people imagine the future", "unit": "Ipsos trend synthesis", "value_type": "reported_mechanism"},
+        "live_for_moment": {"value": "a more care-free, live-for-the-moment orientation is identified as one response to uncertainty", "unit": "Ipsos trend synthesis", "value_type": "reported_pattern"},
+        "meaning_question": {"value": "products and services may be evaluated for immediate emotional relief as well as longer-term value", "unit": "Ipsos trend framing", "value_type": "reported_framework"}
+      },
+      "method": "Ipsos macro-force and consumer-trend synthesis across global markets.",
+      "uncertainty": "The trend does not measure individual impulsivity, debt, wellbeing, or actual spending; it is not a forecast of consumer demand or a clinical claim.",
+      "subgroup": "Consumers facing economic insecurity, younger adults, households under stress, brands, cultural institutions, and people seeking meaning or relief.",
+      "counterinterpretation": "Living in the moment can support joy, social connection, and resilience; it need not imply nihilism, irresponsibility, or withdrawal from long-term goals.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition",
+      "retrieval_hash": "sha256:17ae958a956e10c4029e3bf6ea5f04d6e3aba1def32a5ed06e9ba2a333619f7e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.edelman.com/trust/2026/trust-barometer", "claim": "Edelman Trust Barometer 2026 provides complementary published evidence on insularity, intergroup trust, and institutional collaboration."},
+    {"source_url": "https://www.dentsu.com/tw/en/reports/n2026_creative_report_generative_realities", "claim": "Dentsu Generative Realities 2026 provides complementary commercial-cultural evidence on technology, craft, fandom, and reconnection."}
+  ],
+  "boundary": "This record adds a commercial-cultural route across technology sentiment, social fragmentation, nostalgia, individualism, uncertainty, and meaning. It uses Ipsos published aggregate survey and macro-force synthesis, not raw respondent-level records, individual purchase histories, causal attitude models, clinical outcomes, or a universal forecast of consumer behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Ipsos Global Trends 2026 materials were reviewed for the 38-market survey frame, Technowonder, Splintered Societies, Retreat to Old Systems, Escape to Individualism, and Nouveau Nihilism trend descriptions.",
+    "source_url_sha256": "sha256:17ae958a956e10c4029e3bf6ea5f04d6e3aba1def32a5ed06e9ba2a333619f7e",
+    "checked": "2026-09-26"
+  }
+}

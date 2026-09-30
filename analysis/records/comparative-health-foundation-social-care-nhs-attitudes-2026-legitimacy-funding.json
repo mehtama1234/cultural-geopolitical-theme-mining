@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-health-foundation-social-care-nhs-attitudes-2026-legitimacy-funding",
+  "title": "Public support for state-funded care coexists with weak system understanding and unresolved funding trade-offs",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "time_hidden_price"
+  ],
+  "source_unit": "Health Foundation, We need to talk: Public attitudes to social care and the NHS, with Ipsos",
+  "geography": "United Kingdom; detailed funding and service-organisation questions include England",
+  "observations": [
+    {
+      "period": "21–27 May 2026; public perceptions of social-care standards and policy",
+      "denominator": {"value": 2238, "unit": "UK adults aged 16 and over completing the Ipsos KnowledgePanel survey", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "care_worsening": {"value": 40, "unit": "percent thinking the general standard of social care worsened over the previous 12 months", "value_type": "reported_survey_share"},
+        "care_improvement": {"value": 4, "unit": "percent thinking the general standard improved over the previous 12 months", "value_type": "reported_survey_share"},
+        "policy_disagreement": {"value": 51, "unit": "percent disagreeing that government has the right social-care policies", "value_type": "reported_survey_share"},
+        "experienced_scepticism": {"value": "People who had used social care or had friends/family who had used it were more likely to disagree that local services were good", "unit": "reported subgroup pattern", "value_type": "reported_association"}
+      },
+      "method": "Ipsos UK KnowledgePanel repeated public-perceptions survey, weighted for region, age/gender, education, ethnicity, deprivation, and household composition.",
+      "uncertainty": "This is a cross-sectional perception survey conducted before later political events; reported pessimism is not a direct quality or outcome measure.",
+      "subgroup": "UK adults, older people, people with health problems or disabilities, and people with direct or family experience of social care.",
+      "counterinterpretation": "People with experience may have more negative views because they encounter difficult cases, but their experience may also make perceptions better informed than those of non-users.",
+      "source_url": "https://www.health.org.uk/reports-and-analysis/briefings/we-need-to-talk-public-attitudes-to-social-care-and-the-NHS",
+      "retrieval_hash": "sha256:7be03d5e02698530d5a0df9e3c2b03976205f37b6f2503ae9f3c123b3ae2ff7a",
+      "status": "reported"
+    },
+    {
+      "period": "May 2026; understanding and household preparation for social-care costs",
+      "denominator": {"value": 2238, "unit": "UK adults aged 16 and over in the Ipsos KnowledgePanel survey", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "england_free_care_misperception": {"value": 39, "unit": "percent of England respondents incorrectly believing social care is generally free at the point of need", "value_type": "reported_survey_share"},
+        "nhs_provider_misperception": {"value": 34, "unit": "percent incorrectly believing the NHS provides most social care for older people", "value_type": "reported_survey_share"},
+        "not_preparing": {"value": 55, "unit": "percent saying they had not thought about preparing financially for possible future social-care needs", "value_type": "reported_survey_share"},
+        "already_preparing": {"value": 35, "unit": "percent saying they were already preparing financially for possible future social-care needs", "value_type": "reported_survey_share"},
+        "knowledge_risk": {"value": "A public can support reform while misunderstanding the current entitlement and cost structure, weakening the basis for informed consent over funding and responsibility", "unit": "reported policy mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Weighted public survey with questions on social-care funding, organisation, personal responsibility, and financial preparation.",
+      "uncertainty": "Knowledge questions depend on wording and may not measure practical ability to plan; stated preparation is not verified savings, insurance, or future care affordability.",
+      "subgroup": "England respondents, younger and older adults, people in deprived and less deprived areas, and people with prior care experience.",
+      "counterinterpretation": "Some respondents may not prepare because they expect family, local authority, or state support rather than because they lack knowledge; planning may also be financially impossible.",
+      "source_url": "https://www.health.org.uk/reports-and-analysis/briefings/we-need-to-talk-public-attitudes-to-social-care-and-the-NHS",
+      "retrieval_hash": "sha256:7be03d5e02698530d5a0df9e3c2b03976205f37b6f2503ae9f3c123b3ae2ff7a",
+      "status": "reported"
+    },
+    {
+      "period": "May 2026, with provider-market context; ownership and funding preferences",
+      "denominator": {"value": 2238, "unit": "UK adults aged 16 and over in the current survey; selected funding preferences draw on the Health Foundation’s prior England polling", "value_type": "mixed_survey_frame"},
+      "measures": {
+        "for_profit_actual": {"value": 63, "unit": "percent correctly identifying that most care providers are privately owned for-profit companies", "value_type": "reported_survey_share"},
+        "for_profit_preferred": {"value": 5, "unit": "percent saying care providers should be private for-profit companies", "value_type": "reported_survey_share"},
+        "state_or_nonprofit_preference": {"value": "Just under a third preferred NHS, non-profit/charity, or local-authority ownership respectively", "unit": "reported provider-model preference pattern", "value_type": "reported_pattern"},
+        "greater_state_role": {"value": 77, "unit": "percent in the prior England polling preferring the state to have a bigger role in paying for care than under the current system", "value_type": "reported_prior_wave_share"},
+        "ownership_legitimacy_gap": {"value": "The public recognises the dominant private model but largely does not prefer it", "unit": "reported legitimacy contrast", "value_type": "analytic_mechanism"}
+      },
+      "method": "Current weighted public-perceptions survey combined with clearly identified prior Health Foundation polling on social-care funding preferences and provider ownership context.",
+      "uncertainty": "Actual provider ownership and public preferences come from different questions and waves; stated ownership preferences do not establish service quality or reform feasibility.",
+      "subgroup": "UK adults, voters with different party intentions, older people, and respondents with social-care experience.",
+      "counterinterpretation": "Opposition to for-profit ownership may reflect a symbolic preference for public stewardship rather than a tested view about all private provision or the cost of changing the market.",
+      "source_url": "https://www.health.org.uk/reports-and-analysis/briefings/we-need-to-talk-public-attitudes-to-social-care-and-the-NHS",
+      "retrieval_hash": "sha256:7be03d5e02698530d5a0df9e3c2b03976205f37b6f2503ae9f3c123b3ae2ff7a",
+      "status": "reported"
+    },
+    {
+      "period": "May 2026; NHS legitimacy, access priorities, and founding principles",
+      "denominator": {"value": 2238, "unit": "UK adults aged 16 and over in the Ipsos KnowledgePanel survey", "value_type": "weighted_survey_sample"},
+      "measures": {
+        "nhs_worsening": {"value": 34, "unit": "percent thinking the general standard of NHS care worsened over the previous 12 months", "value_type": "reported_survey_share"},
+        "local_nhs_good": {"value": 50, "unit": "percent agreeing their local NHS provides a good service", "value_type": "reported_survey_share"},
+        "free_at_delivery": {"value": 90, "unit": "percent saying the NHS should remain free at the point of delivery", "value_type": "reported_survey_share"},
+        "tax_funded": {"value": 84, "unit": "percent saying the NHS should be primarily funded through taxation", "value_type": "reported_survey_share"},
+        "access_priority": {"value": "Improving A&E waiting times and easier GP access were the leading NHS priorities, while routine hospital waiting-time improvement ranked lower", "unit": "reported priority pattern", "value_type": "reported_pattern"},
+        "universal_model_legitimacy": {"value": "Support for universal, tax-funded, free-at-delivery principles remains strong even while confidence in performance and government policy is fragile", "unit": "reported legitimacy pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Repeated UK public-attitudes survey with trend comparison to prior Health Foundation waves and subgroup analysis by use, age, deprivation, and voting intention.",
+      "uncertainty": "Perceptions of service quality and founding principles are not measures of actual performance, treatment outcomes, or future policy support under concrete tax and rationing choices.",
+      "subgroup": "UK adults, NHS service users, high-intensity users, voters, age groups, and residents of different UK nations.",
+      "counterinterpretation": "Universal-principle support may persist because it is symbolic and historically embedded, while practical support could change if costs, waiting, or eligibility rules become more salient.",
+      "source_url": "https://www.health.org.uk/reports-and-analysis/briefings/we-need-to-talk-public-attitudes-to-social-care-and-the-NHS",
+      "retrieval_hash": "sha256:7be03d5e02698530d5a0df9e3c2b03976205f37b6f2503ae9f3c123b3ae2ff7a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.health.org.uk/reports-and-analysis/surveys/public-perceptions-of-health-and-social-care", "claim": "Health Foundation repeated public-perceptions polling programme and prior waves."},
+    {"source_url": "https://caseycommission.co.uk/", "claim": "Casey Commission public-engagement and social-care reform context referenced by the briefing."}
+  ],
+  "boundary": "This record adds UK public-opinion evidence on social-care performance, funding knowledge, household preparation, provider ownership, NHS principles, and access priorities. It keeps current and prior survey waves distinct and does not establish actual care quality, future affordability, causal effects of ownership, or public consent for a specific reform package.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Health Foundation briefing reviewed for current May 2026 sample/method, social-care performance, funding misconceptions, financial preparation, provider ownership, state funding preference, NHS legitimacy, and service priorities.",
+    "source_url_sha256": "sha256:7be03d5e02698530d5a0df9e3c2b03976205f37b6f2503ae9f3c123b3ae2ff7a",
+    "checked": "2026-09-28"
+  }
+}

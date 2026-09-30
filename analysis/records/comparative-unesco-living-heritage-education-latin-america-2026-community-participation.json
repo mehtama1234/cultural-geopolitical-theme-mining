@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-living-heritage-education-latin-america-2026-community-participation",
+  "title": "Living heritage is being used as a locally grounded education, participation, and cultural-continuity resource",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "care_health_reproduction", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "political_judgment_action", "housing_place_mobility"],
+  "source_unit": "UNESCO, Educación y patrimonio cultural inmaterial en América Latina y el Caribe, published 7 May 2026",
+  "geography": "Latin America and the Caribbean, with educational and living-heritage practices from 15 countries",
+  "observations": [
+    {
+      "period": "2026 regional study; documented practice corpus",
+      "denominator": {"value": 200, "unit": "educational practices systematized in the UNESCO study", "value_type": "reported_practice_count"},
+      "measures": {"country_coverage": {"value": 15, "unit": "countries represented", "value_type": "reported_country_count"}, "practice_scope": {"value": "formal and non-formal educational processes incorporating oral traditions, nature knowledge, craft techniques, rituals, festivities, performing arts, and community knowledge", "unit": "reported practice domains", "value_type": "reported_practice_mix"}, "policy_relevance": {"value": "the study identifies implications for public policy, educational institutions, communities, and cultural actors", "unit": "reported policy relevance", "value_type": "reported_framework"}},
+      "method": "UNESCO systematizes a regional collection of documented educational practices that connect living intangible heritage with formal and non-formal learning.",
+      "uncertainty": "The corpus is a documented practice collection, not a probability sample of all educational activity or a comparative evaluation of practice effectiveness.",
+      "subgroup": "Students, teachers, culture bearers, Indigenous and local communities, cultural actors, educational institutions, and policymakers.",
+      "counterinterpretation": "Documented examples can reveal innovation and local agency while overrepresenting visible, fundable, or institutionally connected initiatives.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-publishes-study-200-educational-practices-latin-america-and-caribbean-integrate-living",
+      "retrieval_hash": "sha256:b562416a0c6b3b3e7f3b2f8ba260976ff1904bd17115d91c72580487b6cc2aaa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 regional study; cultural relevance and participation",
+      "denominator": {"value": 1, "unit": "UNESCO living-heritage and education practice synthesis", "value_type": "published_framework"},
+      "measures": {"learning_shift": {"value": "living knowledge of territories is brought into dialogue with teaching and learning processes", "unit": "reported educational approach", "value_type": "reported_framework"}, "reported_effects": {"value": "the study associates the approach with stronger cultural relevance of education, inclusion, creativity, and community participation", "unit": "reported synthesis finding", "value_type": "reported_association"}, "actors": {"value": "communities, teachers, culture bearers, and institutions participate in the practices", "unit": "reported actor mix", "value_type": "reported_framework"}},
+      "method": "UNESCO synthesizes how living heritage is incorporated into learning and how local actors participate in educational practice.",
+      "uncertainty": "The publication's reported effects are a synthesis of practices and observations, not a causal estimate of learning, inclusion, creativity, or participation gains.",
+      "subgroup": "Learners and educators in culturally diverse settings, community knowledge holders, Indigenous peoples, and local cultural organizations.",
+      "counterinterpretation": "Heritage integration can strengthen relevance and belonging, but it can also become tokenistic, romanticize tradition, or exclude internal disagreement if power and consent are not addressed.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-publishes-study-200-educational-practices-latin-america-and-caribbean-integrate-living",
+      "retrieval_hash": "sha256:b562416a0c6b3b3e7f3b2f8ba260976ff1904bd17115d91c72580487b6cc2aaa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 regional study; local orientation of practices",
+      "denominator": {"value": 200, "unit": "educational practices in the documented regional corpus", "value_type": "reported_practice_count"},
+      "measures": {"local_focus": {"value": 65.5, "unit": "percent of practices with a primarily local focus", "value_type": "reported_share"}, "territorial_connection": {"value": "the practices connect learning to the knowledge, expressions, and histories of particular territories", "unit": "reported practice characteristic", "value_type": "reported_framework"}, "policy_signal": {"value": "the local focus confirms a role for communities in safeguarding intangible cultural heritage", "unit": "reported policy implication", "value_type": "reported_assessment"}},
+      "method": "The study classifies and reports the geographic orientation of the documented practices.",
+      "uncertainty": "The 65.5 percent share describes the study corpus and does not represent all practices in the region or prove that local orientation produces better outcomes.",
+      "subgroup": "Local communities, rural and urban schools, cultural practitioners, youth, language communities, and regional education authorities.",
+      "counterinterpretation": "Local focus can support continuity and participation, but it may limit transferability, create uneven access, or compete with wider curricula and mobility needs.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-publishes-study-200-educational-practices-latin-america-and-caribbean-integrate-living",
+      "retrieval_hash": "sha256:b562416a0c6b3b3e7f3b2f8ba260976ff1904bd17115d91c72580487b6cc2aaa",
+      "status": "reported"
+    },
+    {
+      "period": "2026 education and heritage policy route; future use",
+      "denominator": {"value": 1, "unit": "regional UNESCO study and policy-learning route", "value_type": "published_framework"},
+      "measures": {"transfer_potential": {"value": "the documented practices are presented as opening opportunities for public policy, educational institutions, communities, and cultural actors", "unit": "reported policy opportunity", "value_type": "reported_framework"}, "continuity": {"value": "living heritage is treated as a resource for cultural continuity while adapting learning to local contexts", "unit": "reported cultural-development direction", "value_type": "reported_framework"}, "participation_principle": {"value": "community participation is part of the educational and safeguarding model", "unit": "reported participation principle", "value_type": "reported_framework"}},
+      "method": "UNESCO turns a regional practice inventory into a policy-learning resource for education and cultural-heritage systems.",
+      "uncertainty": "Policy opportunity and transfer potential do not establish funding, institutional adoption, safeguarding quality, or long-term cultural transmission.",
+      "subgroup": "Education ministries, schools, cultural institutions, communities, artists, heritage bearers, and learners whose knowledge and identity are represented.",
+      "counterinterpretation": "Scaling local practice can weaken community ownership or remove context; locally grounded work may require sustained resources and consent rather than simple replication.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-publishes-study-200-educational-practices-latin-america-and-caribbean-integrate-living",
+      "retrieval_hash": "sha256:b562416a0c6b3b3e7f3b2f8ba260976ff1904bd17115d91c72580487b6cc2aaa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.unesco.org/en/culture/global-report", "claim": "Complementary UNESCO global cultural-policy evidence on participation, education, digital transformation, and resilience."}, {"source_url": "https://www.uis.unesco.org/en/methods-and-tools/framework-cultural-statistics", "claim": "Complementary UNESCO statistical framework for cultural practices and participation."}],
+  "boundary": "This record adds a cultural-education route linking living heritage, local knowledge, community participation, cultural relevance, inclusion, creativity, and policy learning. It uses a documented regional practice synthesis, not a representative census of schools or cultural practices, respondent-level learning data, causal impact evaluation, universal transferability claim, or proof of durable heritage transmission.",
+  "reproduction_audit": {"retrieval_hash_scope": "UNESCO's official study announcement was reviewed for the 200-practice and 15-country corpus, practice domains, reported educational and community effects, local-focus share, and policy implications.", "source_url_sha256": "sha256:b562416a0c6b3b3e7f3b2f8ba260976ff1904bd17115d91c72580487b6cc2aaa", "checked": "2026-09-27"}
+}

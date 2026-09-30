@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ho-chi-minh-thu-duc-spatial-underperformance-flood-2026",
+  "title": "Flood exposure and weak urban coordination can turn location advantage into spatial underperformance",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback", "geopolitical_state_consequences", "work_control_bargaining", "trust_identity_meaning"],
+  "source_unit": "World Bank Policy Research Working Paper 11444, Evaluating Spatial Underperformance: A Spatial Computable General Equilibrium Model Applied to Ho Chi Minh City, September 2026",
+  "geography": "Greater Ho Chi Minh City metropolitan area, 116 spatial cells across Ho Chi Minh City and neighboring provinces; Thu Duc households, firms, commuters, land markets, and flood-exposed communities",
+  "observations": [
+    {
+      "period": "2026-2040; spatial underperformance and flood exposure",
+      "denominator": {"value": 116, "unit": "spatial cells in the Greater Ho Chi Minh City metropolitan model", "value_type": "reported_model_scope"},
+      "measures": {"thu_duc_productivity": {"value": "Thu Duc's calibrated productivity is roughly one-third of the metropolitan average", "unit": "relative calibrated productivity", "value_type": "estimated_spatial_parameter"}, "frontier_gap": {"value": "frontier output is more than five times the business-as-usual level in the model", "unit": "modeled output comparison", "value_type": "estimated_spatial_gap"}, "flood_channel": {"value": "the model evaluates flood risk as a determinant of productivity and residential amenity alongside transport and land use", "unit": "reported model mechanism", "value_type": "reported_mechanism_set"}},
+      "method": "Spatial computable general equilibrium model with endogenous firm location, household residence and commuting, land-use intensity, agglomeration externalities, and cell-level productivity and amenity calibration.",
+      "uncertainty": "Calibrated productivity and frontier comparisons are model-based and depend on spatial equilibrium, flood, transport, land-use, and agglomeration assumptions; they are not observed causal output gaps.",
+      "subgroup": "Flood-exposed households, commuters, firms, renters and landowners, workers choosing residence and jobs, and neighborhoods with different access to transport and amenities.",
+      "counterinterpretation": "Apparent underperformance may reflect measurement, transitional urbanization, land-market constraints, or institutional fragmentation rather than flood exposure alone.",
+      "source_url": "https://documents.worldbank.org/curated/en/099312209092621341/pdf/IDU-f39c43a8-4b94-478e-86e0-149963644910.pdf",
+      "retrieval_hash": "sha256:82665d25fb761bb81782bdcff55ad6db60e1cee57f8875b2f8b97e392f17387d",
+      "status": "estimated"
+    },
+    {
+      "period": "2026-2040; intervention scenarios",
+      "denominator": {"value": 116, "unit": "spatial cells in the Greater Ho Chi Minh City model", "value_type": "reported_scenario_frame"},
+      "measures": {"flood_mitigation": {"value": "flood mitigation raises sectoral total factor productivity by 12% to 21% and residential amenity by 10% to 13% in the model", "unit": "modeled percentage changes", "value_type": "estimated_scenario_effect"}, "employment_base": {"value": "flood mitigation broadens the sectoral employment base more than the other interventions examined", "unit": "modeled comparative result", "value_type": "estimated_scenario_effect"}, "intervention_set": {"value": "the model compares innovation zones, flood mitigation, transport, and a cumulative package", "unit": "reported policy scenarios", "value_type": "reported_policy_scenario"}},
+      "method": "Counterfactual spatial general-equilibrium scenarios through 2040, with endogenous responses in firms, households, commuting, land use, and agglomeration.",
+      "uncertainty": "Scenario effects are conditional on model structure and implementation; they do not estimate construction costs, distributional incidence, displacement, or realized adaptation quality.",
+      "subgroup": "Workers and firms in exposed cells, residents choosing homes, commuters using transport networks, low-income households, and sectors with different location and flood sensitivity.",
+      "counterinterpretation": "Flood protection can raise amenity and productivity but may increase land values, displacement, or unequal access if housing and land governance do not distribute the gains.",
+      "source_url": "https://documents.worldbank.org/curated/en/099312209092621341/pdf/IDU-f39c43a8-4b94-478e-86e0-149963644910.pdf",
+      "retrieval_hash": "sha256:82665d25fb761bb81782bdcff55ad6db60e1cee57f8875b2f8b97e392f17387d",
+      "status": "estimated"
+    },
+    {
+      "period": "2026-2040; metropolitan redistribution versus net new growth",
+      "denominator": {"value": 116, "unit": "Greater Ho Chi Minh City metropolitan model cells", "value_type": "reported_metropolitan_scenario_frame"},
+      "measures": {"cumulative_package": {"value": "innovation zones, flood mitigation, and transport reach about 31% of the modeled frontier", "unit": "percent of modeled frontier", "value_type": "estimated_scenario_effect"}, "output_change": {"value": "the cumulative package raises output roughly two-thirds above business as usual", "unit": "modeled metropolitan output change", "value_type": "estimated_scenario_effect"}, "net_new_share": {"value": "about 56% of the package's output gain is net new metropolitan output rather than activity reallocated from elsewhere", "unit": "share of modeled output gain", "value_type": "estimated_metropolitan_effect"}},
+      "method": "Metropolitan spatial equilibrium simulation distinguishing net new output from activity reallocated across locations.",
+      "uncertainty": "The modeled net-new share depends on assumptions about agglomeration, land, commuting, firm mobility, and other regions; it is not a realized regional multiplier.",
+      "subgroup": "Residents and firms in Thu Duc and neighboring cells, commuters, municipal governments, landowners, renters, and communities facing flood or displacement risk.",
+      "counterinterpretation": "A package that benefits the metropolitan economy can still create local losers or unequal access; aggregate net-new output does not guarantee equitable household welfare.",
+      "source_url": "https://documents.worldbank.org/curated/en/099312209092621341/pdf/IDU-f39c43a8-4b94-478e-86e0-149963644910.pdf",
+      "retrieval_hash": "sha256:82665d25fb761bb81782bdcff55ad6db60e1cee57f8875b2f8b97e392f17387d",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099312209092621341", "claim": "Official World Bank record for Policy Research Working Paper 11444."}, {"source_url": "https://doi.org/10.1596/1813-9450-11444", "claim": "Official DOI for the World Bank paper."}],
+  "boundary": "This record adds a place-and-climate route linking flood exposure, productivity, amenity, transport, land use, commuting, agglomeration, and metropolitan redistribution. It is a spatial general-equilibrium simulation, not a causal estimate of completed infrastructure, and does not establish equitable household welfare, displacement outcomes, or realized net-new growth.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official World Bank paper PDF reviewed for model scope, Thu Duc productivity gap, flood and amenity mechanisms, scenario effects, cumulative package, and net-new versus reallocated output distinction.", "source_url_sha256": "sha256:82665d25fb761bb81782bdcff55ad6db60e1cee57f8875b2f8b97e392f17387d", "checked": "2026-09-29"}
+}

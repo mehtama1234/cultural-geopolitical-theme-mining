@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-shrm-global-workplace-culture-2026-organizational-types-decision-making",
+  "title": "Workplace culture is becoming a measurable operating system of strategy, decision rights, and relationships",
+  "theme_ids": ["work", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "SHRM 2026 Global Workplace Culture Report and Workplace Culture Navigator framework",
+  "geography": "25 countries across six continents, including the United States, United Kingdom, Argentina, Australia, Brazil, Canada, China, Colombia, Egypt, France, Germany, India, Indonesia, Italy, Japan, Mexico, Nigeria, Saudi Arabia, Singapore, South Africa, South Korea, Spain, Thailand, Turkey, and United Arab Emirates",
+  "observations": [
+    {
+      "period": "2026 report; global workplace-culture assessment",
+      "denominator": {"value": 27159, "unit": "workers surveyed across 25 countries", "value_type": "cross_country_worker_sample"},
+      "measures": {
+        "culture_types": {"value": 8, "unit": "distinct organizational culture types identified by the SHRM framework", "value_type": "reported_framework_count"},
+        "navigator_dimensions": {"value": "Strategic Orientation, Work Processes and Systems, and Interactions and Relationships", "unit": "three core framework dimensions", "value_type": "reported_framework"},
+        "assessment": {"value": 46, "unit": "items in the validated workplace-culture assessment described by SHRM", "value_type": "reported_measurement_count"}
+      },
+      "method": "SHRM cross-national worker research using a 46-item culture assessment and a framework that combines six paired subdimensions within three core dimensions; the public release provides the framework and aggregate type distribution, not the full report tables.",
+      "uncertainty": "The report is publisher-produced organizational research; the public materials do not fully disclose sampling, weighting, response rates, or all outcome models. Culture types are analytic classifications, not fixed properties of every worker or organization.",
+      "subgroup": "Workers and organizations across countries, industries, organization sizes, and operating models with different levels of autonomy, hierarchy, collaboration, growth pressure, and stability preference.",
+      "counterinterpretation": "A culture framework can make organizational differences visible without proving that a type causes performance, retention, inclusion, or worker wellbeing; self-report and employer interpretation may diverge.",
+      "source_url": "https://www.shrm.org/about/press-room/shrm-unveils-landmark-global-workplace-culture-framework",
+      "retrieval_hash": "sha256:0fe7ca307e1011dad12498901de260967dbd116235c46a01692d9a990639025a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; culture-type distribution",
+      "denominator": {"value": 1, "unit": "organizations represented in the SHRM culture-type distribution", "value_type": "reported_organization_distribution"},
+      "measures": {
+        "growth_collaborator": {"value": 37.2, "unit": "percent of organizations classified as Growth Collaborator", "value_type": "reported_share"},
+        "strategic_architect": {"value": 16.8, "unit": "percent of organizations classified as Strategic Architect", "value_type": "reported_share"},
+        "resolute_maverick": {"value": 3.3, "unit": "percent of organizations classified as Resolute Maverick", "value_type": "reported_share"},
+        "ambitious_maverick": {"value": 4.5, "unit": "percent of organizations classified as Ambitious Maverick", "value_type": "reported_share"}
+      },
+      "method": "SHRM public release summarizing the distribution of eight culture types derived from the Workplace Culture Navigator.",
+      "uncertainty": "The public release does not provide the complete denominator construction, country-level distributions, confidence intervals, or the full classification algorithm; percentages should not be read as global prevalence outside the study frame.",
+      "subgroup": "Organizations with different strategic horizons, decision structures, relationship norms, and operational systems.",
+      "counterinterpretation": "The most common type is not necessarily the most effective type; fit may depend on sector, task uncertainty, regulation, workforce composition, or organizational stage.",
+      "source_url": "https://www.shrm.org/about/press-room/shrm-unveils-landmark-global-workplace-culture-framework",
+      "retrieval_hash": "sha256:0fe7ca307e1011dad12498901de260967dbd116235c46a01692d9a990639025a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; organizational culture and geography",
+      "denominator": {"value": 25, "unit": "countries included in the workplace-culture framework", "value_type": "country_comparison_frame"},
+      "measures": {
+        "cross_context_presence": {"value": "All eight culture types are reported across regions, industries, and organization sizes", "unit": "reported cross-context pattern", "value_type": "reported_pattern"},
+        "geography_boundary": {"value": "The release frames culture as shaped by strategy and values rather than determined by geography or sector alone", "unit": "reported analytical conclusion", "value_type": "reported_conclusion"},
+        "operating_system": {"value": "Decision centralization, openness, collaboration, time horizon, and adaptability are treated as organizational choices that shape daily work", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-national framework comparison across workers and organizations in 25 countries and six continents.",
+      "uncertainty": "A culture type appearing across contexts does not mean national institutions, labor law, class, race, gender, or local labor-market conditions are unimportant; the public release does not identify the relative explanatory contribution of each factor.",
+      "subgroup": "Multinational and domestic organizations operating across different institutional environments, with workers experiencing the same nominal culture type under unequal material and legal conditions.",
+      "counterinterpretation": "The framework may understate how geography and power shape which organizational choices are feasible, especially for frontline workers and workers with limited bargaining power.",
+      "source_url": "https://www.shrm.org/about/press-room/shrm-unveils-landmark-global-workplace-culture-framework",
+      "retrieval_hash": "sha256:0fe7ca307e1011dad12498901de260967dbd116235c46a01692d9a990639025a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; culture-to-work outcomes route",
+      "denominator": {"value": 8, "unit": "culture types used for comparison of associated outcome patterns", "value_type": "reported_framework_count"},
+      "measures": {
+        "outcome_route": {"value": "The report links culture-type differences to distinct patterns in organizational performance-related outcomes", "unit": "reported association route", "value_type": "reported_association"},
+        "alignment": {"value": "SHRM recommends aligning cultural practices with strategic goals, operational needs, and workforce dynamics rather than treating one culture as universally correct", "unit": "reported recommendation", "value_type": "reported_recommendation"},
+        "worker_experience": {"value": "Culture operates through how work is organized, how decisions are made, and how relationships and feedback function in daily practice", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "SHRM framework synthesis and reported comparisons among culture types; public materials do not expose the full outcome model or identify causal estimates.",
+      "uncertainty": "Associations between culture classifications and outcomes may reflect selection, leadership, resources, sector, worker composition, or reverse causality; the report does not establish that reclassifying culture will improve results.",
+      "subgroup": "Workers, managers, leaders, HR systems, frontline teams, and organizations attempting to translate stated values into decision rights, coordination, inclusion, and retention.",
+      "counterinterpretation": "Culture measurement can become a managerial label that individualizes structural problems such as low pay, workload, insecurity, discrimination, or weak worker voice.",
+      "source_url": "https://www.shrm.org/about/press-room/shrm-unveils-landmark-global-workplace-culture-framework",
+      "retrieval_hash": "sha256:0fe7ca307e1011dad12498901de260967dbd116235c46a01692d9a990639025a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.shrm.org/in/topics-tools/research/2026-global-workplace-culture-report", "claim": "SHRM report landing page with sample size, countries, eight-type framework, and access boundary for the full report.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a global organizational-culture and work-control layer. It is a publisher-produced cross-national worker study with limited public methodological detail, not respondent-level ingestion, an independent audit, a causal evaluation of culture types, proof that culture overrides labor institutions or geography, or evidence that organizational culture alone determines worker wellbeing or performance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official SHRM report page and public press release reviewed for the 27,159-worker, 25-country frame, eight culture types, three framework dimensions, 46-item assessment, type distribution, and strategy/values-versus-geography conclusion.",
+    "source_url_sha256": "sha256:0fe7ca307e1011dad12498901de260967dbd116235c46a01692d9a990639025a",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-spotify-culture-next-2026-fan-edit-fandom-audio-identity",
+  "title": "Gen Z audio culture is being organized through fandom, life-stage rituals, cross-format participation, and identity practices that turn listening into belonging",
+  "theme_ids": ["voice", "time", "work", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Spotify Advertising, Culture Next 2026: The Fan Edit",
+  "geography": "Global Gen Z Spotify audience and audio, podcast, gaming, video, and fandom culture",
+  "observations": [
+    {
+      "period": "2026; Gen Z streaming, rituals, and cultural participation",
+      "denominator": {"value": 1, "unit": "Spotify Gen Z audience and Culture Next platform frame", "value_type": "platform_audience_frame"},
+      "measures": {
+        "audience_share": {"value": 35, "unit": "percent of Spotify audience identified as Gen Z on the public Culture Next page", "value_type": "reported_platform_share"},
+        "daily_streaming": {"value": 2, "unit": "hours per day of streaming reported for Gen Z in the Culture Next public summary", "value_type": "reported_platform_usage"},
+        "culture_route": {"value": "Streaming is framed as a site where Gen Z builds rituals and shapes culture in real time, with fandom forming through repeated media participation", "unit": "reported cultural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Spotify Culture Next platform summary combining Spotify audience and streaming signals with Gen Z cultural trend interpretation; the full report methodology is not publicly detailed on the landing page.",
+      "uncertainty": "Platform audience composition and streaming time are company-reported and do not represent all Gen Z people, all listening, or causal effects of Spotify use on identity or culture.",
+      "subgroup": "Gen Z listeners, podcast audiences, music fans, gamers, creators, advertisers, and people using audio to organize routines and belonging.",
+      "counterinterpretation": "Streaming may reflect existing identity and fandom rather than create it; heavy platform use can also indicate attention capture, commercial dependence, or unequal access to cultural participation.",
+      "source_url": "https://ads.spotify.com/en-US/culture-next/",
+      "retrieval_hash": "sha256:5400fb5d22e638bd535036bc8e05759c55c699544b1c9cafe75e52c4d92c7115",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Power Up and identity through fitness and gaming",
+      "denominator": {"value": 1, "unit": "Spotify Culture Next 2026 Power Up trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "power_up": {"value": "Fitness and gaming are positioned as identity expressions for Gen Z rather than only activities or entertainment categories", "unit": "reported Gen Z culture trend", "value_type": "reported_trend"},
+        "ritualization": {"value": "Audio is used to structure workouts, gaming sessions, social creation, and other recurring moments where identity is practiced and shared", "unit": "reported activity route", "value_type": "reported_mechanism"},
+        "cross_category_identity": {"value": "Music, gaming, movement, and creator culture increasingly overlap in the same identity and fandom ecosystems", "unit": "reported cross-category pattern", "value_type": "reported_connection"}
+      },
+      "method": "Spotify Culture Next trend interpretation linking platform listening behavior to Gen Z fitness, gaming, creator, and identity practices.",
+      "uncertainty": "The public summary does not provide the prevalence of these overlaps, country differences, or evidence that audio participation changes fitness, gaming, or social outcomes.",
+      "subgroup": "Gen Z gamers, fitness participants, creators, fans, listeners, and communities organized around shared routines and media rituals.",
+      "counterinterpretation": "Cross-category identity may describe advertiser segmentation more than lived identity, and commercial platform design can turn community practices into monetizable attention packages.",
+      "source_url": "https://ads.spotify.com/de-DE/culture-next/culture-next-2026/",
+      "retrieval_hash": "sha256:5400fb5d22e638bd535036bc8e05759c55c699544b1c9cafe75e52c4d92c7115",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Eye Pods and cross-format audio-visual culture",
+      "denominator": {"value": 1, "unit": "Spotify Culture Next 2026 Eye Pods trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "eye_pods": {"value": "Gen Z is described as thinking across formats and wanting to hear and see, extending audio culture into video and visual participation", "unit": "reported media-format trend", "value_type": "reported_trend"},
+        "format_flexibility": {"value": "Attention moves between music, podcasts, video, social clips, and creator formats rather than staying within one media container", "unit": "reported consumption pattern", "value_type": "reported_mechanism"},
+        "creator_opportunity": {"value": "The cross-format shift increases the importance of adaptable creators, visual context, and moments where fandom can move from listening into seeing and sharing", "unit": "reported creative route", "value_type": "reported_strategy"}
+      },
+      "method": "Spotify Culture Next 2026 platform trend framing across audio, podcasts, video, creator content, and Gen Z media rituals.",
+      "uncertainty": "The public summary does not quantify time spent by format, substitution between audio and video, or whether cross-format use improves discovery, attention, or creator income.",
+      "subgroup": "Gen Z listeners and viewers, podcasters, musicians, video creators, fandom communities, and advertisers designing across audio-visual contexts.",
+      "counterinterpretation": "Cross-format consumption can increase creative reach but also fragment attention, intensify platform dependency, and expand unpaid demands on creators to produce everywhere.",
+      "source_url": "https://ads.spotify.com/de-DE/culture-next/culture-next-2026/",
+      "retrieval_hash": "sha256:5400fb5d22e638bd535036bc8e05759c55c699544b1c9cafe75e52c4d92c7115",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Dark Side (But Fun) and Fandemonium",
+      "denominator": {"value": 1, "unit": "Spotify Culture Next 2026 fandom and emotional-media trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "dark_side": {"value": "Grusel and other dark-but-playful content are framed as ways Gen Z processes real feelings through shared entertainment and controlled intensity", "unit": "reported emotional-media trend", "value_type": "reported_mechanism"},
+        "fandemonium": {"value": "Fandom is presented as more than a moment: it becomes a repeated identity, community, and participation system", "unit": "reported fandom trend", "value_type": "reported_trend"},
+        "belonging_route": {"value": "Shared listening, creator attachment, collective interpretation, and fan rituals turn media preference into social belonging and self-description", "unit": "reported identity mechanism", "value_type": "reported_connection"}
+      },
+      "method": "Spotify Culture Next 2026 Gen Z trend interpretation connecting content genres, emotional processing, fandom, creators, and community.",
+      "uncertainty": "These are platform trend categories rather than clinical or population-level measures of emotion, mental health, fandom intensity, or social connection.",
+      "subgroup": "Gen Z fans, podcast and music communities, creators, listeners using entertainment to process emotion, and advertisers seeking durable fandom rather than one-off reach.",
+      "counterinterpretation": "Fandom can offer belonging but can also produce harassment, identity policing, parasocial dependence, and commercial extraction from emotional attachment.",
+      "source_url": "https://ads.spotify.com/de-DE/culture-next/culture-next-2026/",
+      "retrieval_hash": "sha256:5400fb5d22e638bd535036bc8e05759c55c699544b1c9cafe75e52c4d92c7115",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ads.spotify.com/en-US/news-and-insights/advertising-to-gen-z-2026/", "claim": "Spotify's 2026 Gen Z advertising guide summarizes the report's life-stage, format, and high-attention-moment framing."},
+    {"source_url": "https://newsroom.spotify.com/2026-05-21/investor-day-recap/", "claim": "Spotify's 2026 investor-day materials provide a related platform strategy signal on interactive, generative, fan-driven media."}
+  ],
+  "boundary": "This record adds Spotify's audio-and-fandom platform signal on Gen Z rituals, fitness and gaming identity, cross-format participation, emotional media, and durable fandom. It is a platform-owned cultural synthesis, not respondent-level data, a representative Gen Z study, a clinical finding, or proof that streaming creates the identities or outcomes described.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Spotify Culture Next 2026 materials reviewed for The Fan Edit framing, audience and streaming summary, Power Up, Eye Pods, Dark Side (But Fun), Fandemonium, and life-stage/fandom context.",
+    "source_url_sha256": "sha256:5400fb5d22e638bd535036bc8e05759c55c699544b1c9cafe75e52c4d92c7115",
+    "checked": "2026-09-27"
+  }
+}

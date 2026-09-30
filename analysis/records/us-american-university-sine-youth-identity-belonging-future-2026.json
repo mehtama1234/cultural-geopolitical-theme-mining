@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-american-university-sine-youth-identity-belonging-future-2026",
+  "title": "Young Americans retain symbolic pride while separating national identity from present performance, belonging and future confidence",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "American University Sine Institute of Policy & Politics, The American Promise at 250: Young Americans on Identity, Values and the Future",
+  "geography": "United States; adults ages 18–34",
+  "observations": [
+    {
+      "period": "July 23–August 1, 2026 survey; identity labels and national pride",
+      "denominator": {"value": 1031, "unit": "U.S. adults ages 18–34 interviewed online by Generation Lab", "value_type": "reported_online_sample"},
+      "measures": {
+        "proud_american": {"value": 57, "unit": "percent very or somewhat proud to be American", "value_type": "reported_share"},
+        "patriotic": {"value": 53, "unit": "percent describing themselves as very or somewhat patriotic", "value_type": "reported_share"},
+        "identity_priority": {"value": "family/friends and values/beliefs rank above being American as components of personal identity", "unit": "reported identity ordering", "value_type": "reported_comparison"},
+        "symbolic_identity_boundary": {"value": "national identity remains available as a positive symbol without being the dominant component of personal identity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Online survey of 1,031 adults ages 18–34 conducted July 23–August 1, 2026 by Generation Lab for the Sine Institute, Future Caucus, and Close Up Foundation; an American University student advisory group helped design and review the study.",
+      "uncertainty": "The study uses a proprietary online research panel and self-reported attitudes; it is not a longitudinal cohort or behavioral measure of identity practice.",
+      "subgroup": "Young adults ages 18–34, with reported differences by gender, race, party, education pathway, sexual orientation and place type.",
+      "counterinterpretation": "Words such as patriotic and proud have different meanings across groups; lower label use does not necessarily imply weaker attachment or lower civic action.",
+      "source_url": "https://www.american.edu/sine-institute/upload/Final-Slides-2026-Sine-Survey-Full-Results-PDF.pdf",
+      "retrieval_hash": "sha256:88d9ac3a74698069bb3b79d3243813c91527355c18a7348f19d78902cc19189a",
+      "status": "reported"
+    },
+    {
+      "period": "July 23–August 1, 2026 survey; retrospective pride versus present and future evaluation",
+      "denominator": {"value": 1031, "unit": "U.S. adults ages 18–34 interviewed online by Generation Lab", "value_type": "reported_online_sample"},
+      "measures": {
+        "past_pride": {"value": 59, "unit": "percent proud of what America has been in the past", "value_type": "reported_share"},
+        "present_pride": {"value": 29, "unit": "percent proud of America as it is today", "value_type": "reported_share"},
+        "future_pride": {"value": 30, "unit": "percent proud of where America is heading as a nation", "value_type": "reported_share"},
+        "temporal_legitimacy_gap": {"value": "historical attachment is much stronger than present-performance or future-direction approval", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey comparison asking respondents whether they feel proud about America’s past, present, and direction; percentages come from the full Sine Institute results and toplines.",
+      "uncertainty": "The temporal comparison measures evaluation and affect, not historical knowledge, objective national performance, or a causal account of declining confidence.",
+      "subgroup": "Young adults ages 18–34, with especially large differences reported by gender, party, race and education pathway.",
+      "counterinterpretation": "Present dissatisfaction may be cyclical or tied to current political conditions; retrospective pride can coexist with support for institutional change rather than simple nostalgia.",
+      "source_url": "https://www.american.edu/sine-institute/upload/Final-Slides-2026-Sine-Survey-Full-Results-PDF.pdf",
+      "retrieval_hash": "sha256:88d9ac3a74698069bb3b79d3243813c91527355c18a7348f19d78902cc19189a",
+      "status": "reported"
+    },
+    {
+      "period": "July 23–August 1, 2026 survey; belonging and civic-connection capacity",
+      "denominator": {"value": 1031, "unit": "U.S. adults ages 18–34 interviewed online by Generation Lab", "value_type": "reported_online_sample"},
+      "measures": {
+        "belonging_agreement": {"value": 58, "unit": "percent agreeing that they belong to a community or group that cares about them", "value_type": "reported_share"},
+        "belonging_education_gap": {"value": {"non_college_track": 35, "college_track": 58}, "unit": "percent agreeing with the belonging statement by education pathway", "value_type": "reported_subgroup_comparison"},
+        "belonging_identity_gap": {"value": {"hetero_cis": 55, "LGBTQ_plus": 41}, "unit": "percent agreeing with the belonging statement by sexual-orientation/gender-identity grouping", "value_type": "reported_subgroup_comparison"},
+        "connection_demand": {"value": "young adults express a desire for more ways to get involved and interact with people in their communities", "unit": "reported directional finding", "value_type": "reported_pattern"},
+        "belonging_capacity_gap": {"value": "desire for community connection exceeds the security of belonging for some groups", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-sectional online survey with subgroup comparisons by education pathway and sexual-orientation/gender-identity grouping.",
+      "uncertainty": "Belonging and desired involvement are subjective reports; the survey does not observe group membership, local opportunity supply, participation frequency, or downstream wellbeing.",
+      "subgroup": "Young adults ages 18–34, including college/non-college pathway and hetero/cis versus LGBTQ+ comparisons.",
+      "counterinterpretation": "Lower belonging may reflect different community definitions, life stage, place, or reporting norms rather than a uniform shortage of social infrastructure.",
+      "source_url": "https://www.american.edu/sine-institute/upload/Final-Slides-2026-Sine-Survey-Full-Results-PDF.pdf",
+      "retrieval_hash": "sha256:88d9ac3a74698069bb3b79d3243813c91527355c18a7348f19d78902cc19189a",
+      "status": "reported"
+    },
+    {
+      "period": "July 23–August 1, 2026 survey; future confidence and national cohesion",
+      "denominator": {"value": 1031, "unit": "U.S. adults ages 18–34 interviewed online by Generation Lab", "value_type": "reported_online_sample"},
+      "measures": {
+        "best_years_behind": {"value": 54, "unit": "percent saying America’s best years may already be behind it", "value_type": "reported_share"},
+        "splitting_apart": {"value": 47, "unit": "percent saying Americans are becoming more divided and splitting apart as a country", "value_type": "reported_share"},
+        "core_principle_delivery": {"value": {"pursuit_of_happiness": 53, "opportunity": 50, "liberty": 48, "self_determination": 46, "equality": 40}, "unit": "percent saying America is living up to each named principle", "value_type": "reported_shares"},
+        "future_legitimacy_route": {"value": "future pessimism is paired with a value consensus around freedom, diversity, fairness and respect amid disagreement", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-sectional survey with forced-choice future and cohesion questions, principle-evaluation items, and open-ended responses coded by the research team.",
+      "uncertainty": "The findings describe expectations and evaluations, not forecasts or causal drivers of political behavior; open-ended coding and question framing shape the observed categories.",
+      "subgroup": "Young adults ages 18–34, with reported variation by gender, race, party and education pathway.",
+      "counterinterpretation": "Skepticism about current institutions may coexist with a high willingness to reform or participate; future pessimism does not equal political withdrawal.",
+      "source_url": "https://www.american.edu/sine-institute/upload/Final-Slides-2026-Sine-Survey-Full-Results-PDF.pdf",
+      "retrieval_hash": "sha256:88d9ac3a74698069bb3b79d3243813c91527355c18a7348f19d78902cc19189a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.american.edu/sine-institute/americanpromise250-poll.cfm", "claim": "American University project page documents partners, fieldwork, full-results materials and methodology links.", "status": "official-project-page"},
+    {"source_url": "https://www.american.edu/sine-institute/upload/Looking-Toward-The-2026-Midterm-Elections.pdf", "claim": "Companion results report young-adult voting likelihood and election-confidence measures.", "status": "official-companion-pdf"}
+  ],
+  "boundary": "This record adds a youth identity-and-civic-capacity mechanism: young adults can retain pride in a national past while judging the present and future negatively, reporting uneven belonging, and retaining shared values around freedom, diversity, fairness and respect. It does not establish generational causality, objective social isolation, turnout, national performance, or a forecast of democratic decline.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official American University Sine Institute full-results PDF and project page were reviewed for field dates, sample, identity, pride, belonging, future confidence, national cohesion and principle-evaluation measures.",
+    "source_url_sha256": "sha256:88d9ac3a74698069bb3b79d3243813c91527355c18a7348f19d78902cc19189a",
+    "checked": "2026-09-28"
+  }
+}

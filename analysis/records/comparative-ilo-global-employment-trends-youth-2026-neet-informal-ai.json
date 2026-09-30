@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-global-employment-trends-youth-2026-neet-informal-ai",
+  "title": "Youth labor-market recovery is stalling as unemployment, NEET status, informality, and technology transitions narrow routes into decent work",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "political_judgment_action"
+  ],
+  "source_unit": "International Labour Organization, Global Employment Trends for Youth 2026: Back to the future",
+  "geography": "Global and regional youth labor-market trends for people aged 15-24, with country data and comparisons by gender, income, education, and technology exposure",
+  "observations": [
+    {
+      "period": "2025; global youth unemployment and NEET",
+      "denominator": {"value": 1, "unit": "young people aged 15-24 in the global labor-market and school-to-work frame", "value_type": "youth_transition_frame"},
+      "measures": {
+        "youth_unemployment": {"value": 12.4, "unit": "percent global youth unemployment rate in 2025", "value_type": "reported_rate"},
+        "unemployed_youth": {"value": 67, "unit": "million unemployed young people aged 15-24", "value_type": "reported_count"},
+        "neet": {"value": 20, "unit": "percent of youth not in employment, education, or training, affecting more than 257 million young people", "value_type": "reported_share"}
+      },
+      "method": "ILO global and regional labor-market estimates and analysis of youth unemployment, NEET status, education, work, and school-to-work transitions.",
+      "uncertainty": "Youth unemployment and NEET are distinct measures with different denominators and pathways; global estimates conceal large regional, gender, education, and household differences.",
+      "subgroup": "Young people aged 15-24, young women, youth outside formal education or work, first-time jobseekers, and youth in countries with weak job creation.",
+      "counterinterpretation": "A youth can be NEET while doing unpaid care, informal work, searching, or preparing outside formal systems; not all NEET status implies the same degree or duration of exclusion.",
+      "source_url": "https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2026",
+      "retrieval_hash": "sha256:8894018cd7e40bb6da8f3928451f22bfec4f526ae65b885eeedd500e5c844030",
+      "status": "reported"
+    },
+    {
+      "period": "2026; youth informal employment and job quality",
+      "denominator": {"value": 1, "unit": "global youth employment population in the ILO modeled-estimate frame", "value_type": "youth_job_quality_frame"},
+      "measures": {
+        "informal_employment": {"value": 57.9, "unit": "percent global youth informal employment rate in 2026", "value_type": "reported_rate"},
+        "job_quality": {"value": "many young workers enter employment without stable contracts, adequate income, social protection, or enforceable labor rights", "unit": "reported job-quality pattern", "value_type": "reported_mechanism"},
+        "transition_risk": {"value": "stagnant growth and weak job creation can push young people toward insecure work or prolonged inactivity", "unit": "reported labor-market mechanism", "value_type": "reported_risk"}
+      },
+      "method": "ILO modeled estimates and comparative analysis of youth employment status, informality, contract conditions, and decent-work pathways.",
+      "uncertainty": "Informality definitions and data coverage vary by country; employment status does not directly measure earnings adequacy, autonomy, safety, or future mobility.",
+      "subgroup": "Young workers in low- and middle-income countries, young migrants, rural youth, women, low-skilled youth, and people entering self-employment or temporary work.",
+      "counterinterpretation": "Informal work can provide entry, income, and skills where formal opportunities are scarce, although it may still leave workers exposed to insecurity and weak protection.",
+      "source_url": "https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2026",
+      "retrieval_hash": "sha256:8894018cd7e40bb6da8f3928451f22bfec4f526ae65b885eeedd500e5c844030",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; gender and regional divergence in youth transitions",
+      "denominator": {"value": 1, "unit": "young people compared by gender, region, income group, and education status", "value_type": "youth_inequality_frame"},
+      "measures": {
+        "young_women_neet": {"value": 2, "unit": "approximate times young women are more likely than young men to be NEET globally", "value_type": "reported_ratio"},
+        "regional_divergence": {"value": "youth unemployment and inactivity trends are worsening in some regions and income groups even where aggregate labor markets appear resilient", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "barrier_set": {"value": "care responsibilities, unequal education and skills access, weak job creation, discrimination, and labor-market segmentation shape youth transitions", "unit": "reported mechanism set", "value_type": "reported_framework"}
+      },
+      "method": "ILO comparison of youth labor indicators by sex, region, income group, education, and employment status.",
+      "uncertainty": "A gender ratio does not identify the contribution of care, social norms, education, household resources, or labor demand; regional averages conceal within-country differences.",
+      "subgroup": "Young women, caregivers, youth with disabilities, rural and marginalized youth, and young people in regions with high unemployment or inactivity.",
+      "counterinterpretation": "Education, childcare, transport, social protection, and targeted employment policies can alter observed gaps, while higher participation does not guarantee decent or safe work.",
+      "source_url": "https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2026",
+      "retrieval_hash": "sha256:8894018cd7e40bb6da8f3928451f22bfec4f526ae65b885eeedd500e5c844030",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; technology, skills, and social-protection response",
+      "denominator": {"value": 1, "unit": "policy framework for youth employment under technological and geopolitical change", "value_type": "future_of_work_youth_frame"},
+      "measures": {
+        "technology_pressure": {"value": "stagnant growth, geopolitical tensions, and technological disruption are identified as pressures on youth employment prospects", "unit": "reported risk framework", "value_type": "reported_risk"},
+        "policy_set": {"value": "human-centered AI governance, technical and social skills, lifelong learning, modern employment services, and broader social protection are identified as responses", "unit": "reported policy framework", "value_type": "reported_recommendation"},
+        "cooperation": {"value": "international cooperation is needed to reduce widening inequalities in opportunities across countries", "unit": "reported policy direction", "value_type": "reported_framework"}
+      },
+      "method": "ILO synthesis of youth labor-market trends, technology exposure, education and skills, employment services, social protection, and international policy options.",
+      "uncertainty": "The framework identifies policy priorities but does not estimate the employment effects of a specific AI rule, skill, service, or social-protection expansion.",
+      "subgroup": "Young workers exposed to generative AI or platform-mediated work, students, jobseekers, employers, educators, employment services, and social-protection institutions.",
+      "counterinterpretation": "Technology can augment youth productivity and create new opportunities when access, skills, rights, and bargaining institutions keep pace; regulation can also create adjustment costs.",
+      "source_url": "https://www.ilo.org/publications/major-publications/global-employment-trends-youth-2026",
+      "retrieval_hash": "sha256:8894018cd7e40bb6da8f3928451f22bfec4f526ae65b885eeedd500e5c844030",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ilostat.ilo.org/dataviz/getyouth/", "claim": "ILO youth labor-market dataviz provides complementary indicators and metadata for unemployment, NEET, informality, education, and AI exposure."},
+    {"source_url": "https://www.ilo.org/publications/impact-active-labour-market-programmes-youth", "claim": "ILO-World Bank youth ALMP review provides complementary intervention-effect evidence."}
+  ],
+  "boundary": "This record adds current youth labor-market conditions and policy pressures linking unemployment, NEET, informality, gender, care, skills, AI, employment services, and social protection. It uses publication-level aggregate estimates, not individual school-to-work histories, respondent-level aspirations, household care diaries, or causal estimates of a specific technology or policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO Global Employment Trends for Youth 2026 page, ILO press summary, and youth dataviz description were reviewed for unemployment, NEET, informality, gender, regional divergence, technology, skills, and policy claims.",
+    "source_url_sha256": "sha256:8894018cd7e40bb6da8f3928451f22bfec4f526ae65b885eeedd500e5c844030",
+    "checked": "2026-09-26"
+  }
+}

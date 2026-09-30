@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-israel-palestine-coexistence-legitimacy-2026",
+  "title": "Israeli and Palestinian publics describe peaceful coexistence as blocked by incompatible territorial claims, fear, violence, control, and accumulated distrust",
+  "theme_ids": ["voice", "time", "cost", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Pew Research Center, Many Israelis and Palestinians Say They Cannot Coexist Peacefully – and Explain Why, 15 September 2026",
+  "geography": "Adults in Israel and in the West Bank and East Jerusalem surveyed during spring 2026 conflict conditions",
+  "observations": [
+    {
+      "period": "March 30-May 6, 2026; perceived possibility of peaceful coexistence",
+      "denominator": {"value": 2039, "unit": "adults surveyed: 1,001 in Israel and 1,038 in the West Bank and East Jerusalem", "value_type": "published_survey_sample"},
+      "measures": {
+        "israel_possible": {"value": 17, "unit": "percent in Israel saying Israel and an independent Palestinian state can coexist peacefully", "value_type": "reported_survey_share"},
+        "palestinian_possible": {"value": 21, "unit": "percent in the West Bank and East Jerusalem saying peaceful coexistence is possible", "value_type": "reported_survey_share"},
+        "israel_not_possible": {"value": 56, "unit": "percent in Israel saying peaceful coexistence is not possible", "value_type": "reported_survey_share"},
+        "palestinian_not_possible": {"value": 68, "unit": "percent in the West Bank and East Jerusalem saying peaceful coexistence is not possible", "value_type": "reported_survey_share"},
+        "legitimacy_route": {"value": "public legitimacy for a two-state future is weak on both sides during wartime conditions", "unit": "reported conflict-legitimacy pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Pew nationally representative face-to-face surveys in Israel and the West Bank and East Jerusalem, conducted in Hebrew and Arabic during the Iran war and after an initial ceasefire.",
+      "uncertainty": "The field period was shaped by active conflict; Gaza was not surveyed, and the results do not predict future negotiations or represent all Palestinians.",
+      "subgroup": "Israeli Jews, Arab Israelis, Palestinians in the West Bank and East Jerusalem, younger and older adults, and supporters or non-supporters of the Israeli governing coalition.",
+      "counterinterpretation": "Wartime fear and uncertainty can suppress optimism temporarily; a low current belief in coexistence does not prove permanent rejection of every future settlement.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/15/many-israelis-and-palestinians-say-they-cannot-coexist-peacefully-and-explain-why/",
+      "retrieval_hash": "sha256:f1fdc3b23d7fa460c0d42b283c1bfaaad6b34a6946055f17384f7416613c8613",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2026; reasons for rejecting coexistence",
+      "denominator": {"value": 1, "unit": "Pew open-ended response coding frame", "value_type": "qualitative_response_frame"},
+      "measures": {
+        "shared_reasons": {"value": "respondents on both sides cite land, violence, fear, distrust, competing identities, and the belief that the other side does not want peace", "unit": "reported open-ended theme set", "value_type": "reported_mechanism_set"},
+        "israeli_frame": {"value": "Israeli respondents commonly frame an independent Palestinian state as a security or existential threat", "unit": "reported group-specific frame", "value_type": "reported_mechanism"},
+        "palestinian_frame": {"value": "Palestinian respondents commonly identify Israeli control and occupation in the West Bank and East Jerusalem as the central obstacle", "unit": "reported group-specific frame", "value_type": "reported_mechanism"},
+        "trust_route": {"value": "shared historical violence produces parallel but asymmetric threat and injustice narratives that make trust a precondition for political agreement", "unit": "analytic conflict mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Pew open-ended follow-up questions with qualitative coding of respondents’ own explanations.",
+      "uncertainty": "Coded themes summarize reported explanations and do not establish the relative causal importance of each reason or eliminate within-group disagreement.",
+      "subgroup": "Israeli Jews, Arab Israelis, Palestinians, conflict-affected families, workers, communities divided by checkpoints or control, and political constituencies.",
+      "counterinterpretation": "Shared reasons such as violence and fear can provide a starting point for mutual recognition, even when the political meanings assigned to them differ.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/15/many-israelis-and-palestinians-say-they-cannot-coexist-peacefully-and-explain-why/",
+      "retrieval_hash": "sha256:f1fdc3b23d7fa460c0d42b283c1bfaaad6b34a6946055f17384f7416613c8613",
+      "status": "reported"
+    },
+    {
+      "period": "Spring 2026; conditions named by people who see coexistence as possible",
+      "denominator": {"value": 1, "unit": "Pew open-ended response coding frame among respondents expressing possibility or conditionality", "value_type": "qualitative_response_frame"},
+      "measures": {
+        "conditions": {"value": "respondents who see coexistence as possible mention rebuilding trust, concessions, political will, diplomacy, clear borders, and independence", "unit": "reported condition set", "value_type": "reported_policy_set"},
+        "interdependence": {"value": "some Palestinians point to economic interdependence, shared work, trade, and security as reasons peace could be beneficial", "unit": "reported social-economic frame", "value_type": "reported_mechanism"},
+        "interpersonal_route": {"value": "some respondents cite friendships, past cooperation, and everyday coexistence as evidence that political peace is imaginable", "unit": "reported social mechanism", "value_type": "reported_mechanism"},
+        "agency_test": {"value": "peace legitimacy depends not only on elite agreements but also on whether publics can imagine security, dignity, and viable everyday relations", "unit": "analytic peace mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Qualitative coding of open-ended responses from respondents who said coexistence was possible or conditional.",
+      "uncertainty": "These responses are from a minority and cannot establish a shared program, negotiation mandate, or policy feasibility.",
+      "subgroup": "Israeli and Palestinian respondents expressing conditional optimism, communities with cross-group relationships, workers, families, and local civic actors.",
+      "counterinterpretation": "Interdependence and interpersonal contact may sustain daily life without resolving sovereignty, security, justice, or political authority.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/15/many-israelis-and-palestinians-say-they-cannot-coexist-peacefully-and-explain-why/",
+      "retrieval_hash": "sha256:f1fdc3b23d7fa460c0d42b283c1bfaaad6b34a6946055f17384f7416613c8613",
+      "status": "reported"
+    },
+    {
+      "period": "2013-2026; Israeli opinion on two-state coexistence",
+      "denominator": {"value": 1, "unit": "Pew repeated Israeli public-opinion series", "value_type": "longitudinal_survey_frame"},
+      "measures": {
+        "lowest_possible": {"value": "the share of Israelis saying coexistence is possible has remained at its lowest level in the series in 2026", "unit": "reported longitudinal pattern", "value_type": "reported_persistence"},
+        "majority_not_possible": {"value": 56, "unit": "percent of Israelis saying coexistence is not possible in 2026, the first time above half in this polling series", "value_type": "reported_survey_share"},
+        "arab_israeli_nonresponse": {"value": 46, "unit": "percent of Arab Israelis who did not give a substantive answer in 2026", "value_type": "reported_nonresponse_share"},
+        "open_test": {"value": "track whether public legitimacy, leadership, security conditions, economic interdependence, and everyday contact can move attitudes after conflict changes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Pew comparison of repeated Israeli surveys on whether peaceful coexistence with an independent Palestinian state is possible.",
+      "uncertainty": "Longitudinal comparisons remain sensitive to wartime context, question wording, nonresponse, and changing political conditions.",
+      "subgroup": "Israeli Jews, Arab Israelis, coalition supporters, opposition or nonaligned respondents, and adults across age and ideological groups.",
+      "counterinterpretation": "Opinion may shift with security, leadership, diplomacy, or economic change; current pessimism should not be treated as a permanent social equilibrium.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/15/many-israelis-and-palestinians-say-they-cannot-coexist-peacefully-and-explain-why/",
+      "retrieval_hash": "sha256:f1fdc3b23d7fa460c0d42b283c1bfaaad6b34a6946055f17384f7416613c8613",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict?lang=en", "claim": "International IDEA democracy-conflict analysis provides complementary institutional and peace-security context."},
+    {"source_url": "https://www.pewresearch.org/global/2026/09/15/views-of-the-u-s-providing-military-assistance-to-israel-and-humanitarian-aid-to-gaza/", "claim": "Pew companion analysis provides complementary public views on military and humanitarian assistance during the conflict."}
+  ],
+  "boundary": "This record adds an Israel-Palestine public-legitimacy route from territorial claims, security, occupation, violence, trust, work, and economic interdependence through perceived viability of coexistence. It uses conflict-period survey and open-ended evidence, not a negotiation forecast, Gaza public opinion, individual trauma histories, causal conflict analysis, or proof that current attitudes are permanent.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Pew Research Center report page was reviewed for survey samples, field dates, coexistence shares, open-ended reasons, group-specific frames, Israeli longitudinal comparison, and conflict-period limitations.",
+    "source_url_sha256": "sha256:f1fdc3b23d7fa460c0d42b283c1bfaaad6b34a6946055f17384f7416613c8613",
+    "checked": "2026-09-26"
+  }
+}

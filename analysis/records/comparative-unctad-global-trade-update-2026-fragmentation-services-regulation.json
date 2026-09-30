@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-global-trade-update-2026-fragmentation-services-regulation",
+  "title": "Trade is being reorganised by geopolitics, services, green rules, and food-security dependence, with smaller economies bearing more adaptation costs",
+  "theme_ids": ["cost", "voice", "work", "time", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "United Nations Trade and Development, Global Trade Update (January 2026): Top trends redefining global trade in 2026",
+  "geography": "Global trade, developing economies excluding China, least developed countries, global value chains, services, food and fertilizer markets, and trade regulation",
+  "observations": [
+    {
+      "period": "2025-2026 projected; global growth, trade demand, and developing-economy exposure",
+      "denominator": {"value": 1, "unit": "global and developing-economy trade outlook", "value_type": "global_trade_outlook_frame"},
+      "measures": {
+        "global_growth_2026": {"value": 2.6, "unit": "percent projected global economic growth in 2026, approximately", "value_type": "reported_forecast"},
+        "developing_growth_excluding_china_2026": {"value": 4.2, "unit": "percent projected growth for developing economies excluding China in 2026, approximately", "value_type": "reported_forecast"},
+        "trade_environment": {"value": "slower growth, geopolitical fragmentation, digital and green transitions, and tighter national regulations are reshaping trade flows and value chains", "unit": "reported structural pattern", "value_type": "reported_mechanism"},
+        "development_constraint": {"value": "slower demand and tighter financial conditions can limit infrastructure and industrialisation investment in developing economies", "unit": "reported transmission channel", "value_type": "reported_constraint_set"}
+      },
+      "method": "UN Trade and Development synthesis of global trade, growth, policy, sector, value-chain, and developing-economy trends for 2026.",
+      "uncertainty": "Forecasts are scenario-sensitive and do not establish country-specific welfare, employment, firm survival, household prices, or realized trade-policy effects.",
+      "subgroup": "Developing and developed economies, exporters and importers, small firms, workers, households exposed to food and manufactured-goods prices, and governments managing trade and industrial policy.",
+      "counterinterpretation": "Slower global demand can still create openings through regional diversification, South–South trade, services, and targeted industrial upgrading; exposure varies sharply by sector and country.",
+      "source_url": "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026",
+      "retrieval_hash": "sha256:c816b460336f599489a65069484d0999fa03a9c1da63718bb2b235c6e9fc77a0",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; value-chain reconfiguration and services-led trade",
+      "denominator": {"value": 1, "unit": "global trade in goods, services, and value-chain-linked flows", "value_type": "global_trade_structure_frame"},
+      "measures": {
+        "value_chain_trade_share": {"value": 66.6666666667, "unit": "percent of global trade occurring within value chains being reshaped by geopolitics, industrial policy, and new technologies, approximately", "value_type": "reported_trade_share"},
+        "services_share_global_trade": {"value": 27, "unit": "percent of global trade represented by services", "value_type": "reported_trade_share"},
+        "services_export_growth_2025": {"value": 9, "unit": "percent growth in services exports in 2025, approximately", "value_type": "reported_growth_rate"},
+        "digitally_deliverable_constraint": {"value": "digitally deliverable services are growing rapidly but remain limited in least developed countries", "unit": "reported participation gap", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development comparison of value-chain flows, goods and services trade, digitally deliverable services, and country-group participation.",
+      "uncertainty": "Trade shares and growth rates do not show who captures value, the quality of jobs, local tax revenue, labor bargaining power, or whether digital access is affordable and reliable.",
+      "subgroup": "Manufacturing and service firms, logistics and digital-infrastructure providers, workers, consumers of traded services, least developed countries, and governments seeking diversification.",
+      "counterinterpretation": "Services growth can widen participation and reduce dependence on physical trade routes, while relocation and supplier diversification may create new entry points for peripheral economies.",
+      "source_url": "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026",
+      "retrieval_hash": "sha256:c816b460336f599489a65069484d0999fa03a9c1da63718bb2b235c6e9fc77a0",
+      "status": "reported"
+    },
+    {
+      "period": "1995-2025; South–South trade and changing development pathways",
+      "denominator": {"value": 1, "unit": "developing-country merchandise exports and destination markets", "value_type": "south_south_trade_frame"},
+      "measures": {
+        "south_south_exports_2025": {"value": 6800000000000, "unit": "US dollars of South–South merchandise exports in 2025, approximately", "value_type": "reported_trade_total"},
+        "south_south_exports_1995": {"value": 500000000000, "unit": "US dollars of South–South merchandise exports in 1995, approximately", "value_type": "reported_trade_total"},
+        "developing_exports_to_developing_markets": {"value": 57, "unit": "percent of developing-country exports going to other developing markets", "value_type": "reported_trade_share"},
+        "regional_value_chain_signal": {"value": "Asia leads South–South trade growth, while Africa and Latin America are strengthening interregional links", "unit": "reported geographic pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development historical and current comparison of developing-country merchandise exports and destination composition.",
+      "uncertainty": "Trade growth does not automatically imply inclusive development, local value capture, improved labor conditions, or reduced geopolitical dependence; commodity and manufacturing composition differ across regions.",
+      "subgroup": "Developing-country exporters, regional producers, logistics systems, workers, consumers, and governments negotiating market access and industrial upgrading.",
+      "counterinterpretation": "South–South trade can diversify demand and strengthen bargaining options, but it can also reproduce asymmetries if value chains, finance, technology, or standards remain concentrated.",
+      "source_url": "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026",
+      "retrieval_hash": "sha256:c816b460336f599489a65069484d0999fa03a9c1da63718bb2b235c6e9fc77a0",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2026; regulation, food security, and resource-transition pressure",
+      "denominator": {"value": 1, "unit": "global trade measures, commodity exports, and trade-regulation exposure", "value_type": "trade_regulation_food_security_frame"},
+      "measures": {
+        "new_discriminatory_trade_measures_since_2020": {"value": 18000, "unit": "new discriminatory trade measures introduced globally since 2020, approximately", "value_type": "reported_policy_count"},
+        "technical_regulation_trade_share": {"value": 66.6666666667, "unit": "percent of global trade affected by technical regulations, approximately", "value_type": "reported_trade_share"},
+        "food_products_commodity_exports": {"value": 87, "unit": "percent of commodity exports represented by food products, approximately", "value_type": "reported_trade_share"},
+        "food_security_pressures": {"value": "high fertilizer prices and climate shocks threaten supplies while many developing countries depend on imports for basic needs", "unit": "reported food-system vulnerability", "value_type": "reported_constraint_set"},
+        "rules_expanding": {"value": "environmental, social, and security-driven trade rules are expected to expand in 2026", "unit": "reported policy direction", "value_type": "reported_policy_change"}
+      },
+      "method": "UN Trade and Development synthesis of trade-policy inventories, technical regulations, agricultural trade dependence, fertilizer conditions, climate risks, and sustainability-related rules.",
+      "uncertainty": "Counts of measures do not identify implementation, sector-specific incidence, compliance cost per firm, consumer pass-through, or whether a rule improves environmental or social outcomes.",
+      "subgroup": "Small exporters, agricultural producers, food-importing households and states, firms facing standards, regulators, workers, and communities exposed to climate and fertilizer shocks.",
+      "counterinterpretation": "Trade and environmental rules can improve safety, climate resilience, labor conditions, and transparency when designed with technical support and transition assistance; open trade alone does not guarantee food security.",
+      "source_url": "https://unctad.org/publication/global-trade-update-january-2026-top-trends-redefining-global-trade-2026",
+      "retrieval_hash": "sha256:c816b460336f599489a65069484d0999fa03a9c1da63718bb2b235c6e9fc77a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/system/files/official-document/ditcinf2025d11_en.pdf", "claim": "Official UNCTAD PDF with the ten-trend trade update, services, South–South trade, food security, critical minerals, and regulation findings."},
+    {"source_url": "https://unctad.org/news/10-trends-shaping-global-trade-2026", "claim": "UNCTAD public summary of the ten trends and their geopolitical, digital, green, and regulatory framing."}
+  ],
+  "boundary": "This record adds a trade-system route from geopolitical fragmentation and regulation through value-chain relocation, services, South–South trade, food security, and compliance exposure. It is publication-level aggregate evidence, not firm-level causal analysis, household-price evidence, respondent data, or proof that trade openness or regulation produces inclusive welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD publication page, public ten-trend summary, and official PDF were reviewed; growth forecasts, value-chain share, services, South–South trade, discriminatory measures, technical regulations, food-export dependence, fertilizer, climate, and policy-direction claims were cross-checked.",
+    "source_url_sha256": "sha256:c816b460336f599489a65069484d0999fa03a9c1da63718bb2b235c6e9fc77a0",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-cma-ticketmaster-oasis-2024-2025-dynamic-pricing-undertakings",
+  "title": "The Ticketmaster Oasis case shows live-event pricing harm being converted into prospective disclosure and monitoring controls",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UK Competition and Markets Authority Ticketmaster consumer-protection case concerning Oasis Live '25 ticket sales",
+  "geography": "United Kingdom; Ticketmaster UK live-event ticket buyers and prospective buyers",
+  "observations": [
+    {
+      "period": "5 September 2024-25 September 2025; CMA case lifecycle",
+      "denominator": {
+        "value": null,
+        "unit": "Ticketmaster/Oasis consumers and prospective buyers; case page does not disclose a single affected-customer count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "case_opened": {
+          "value": "5 September 2024",
+          "unit": "date CMA opened investigation into Ticketmaster's Oasis ticket sale",
+          "value_type": "official_case_date"
+        },
+        "concern_surface": {
+          "value": "dynamic pricing, unclear price information, misleading ticket labels, and purchase pressure during online sales",
+          "unit": "documented CMA consumer-protection concerns",
+          "value_type": "official_case_scope"
+        },
+        "case_closed": {
+          "value": "25 September 2025",
+          "unit": "date CMA case was recorded as closed after undertakings",
+          "value_type": "official_case_date"
+        },
+        "mechanism": {
+          "value": "Scarcity and queue pressure can make price information a decision-control surface: consumers may commit before understanding the final or variable price",
+          "unit": "bounded episode mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CMA published case page documenting the opening, concerns, consultation, undertakings, and closure of the consumer-protection investigation.",
+      "uncertainty": "The case page records regulatory concerns and outcome but does not quantify consumer overpayment, abandoned purchases, attendance loss, or individual financial harm.",
+      "subgroup": "Consumers attempting to buy Oasis Live '25 tickets through Ticketmaster UK and the investigated firm.",
+      "counterinterpretation": "Dynamic pricing can reflect genuine scarcity or demand management; the case does not establish that every price change was unlawful or that every buyer was misled.",
+      "source_url": "https://www.gov.uk/cma-cases/ticketmaster-consumer-protection-case",
+      "retrieval_hash": "sha256:8fdbeead9180e227ca7a74fca0f77f7103cfb0b0818b05fcf91e36d0bb84ce86",
+      "status": "reported"
+    },
+    {
+      "period": "15 September 2025 undertakings; prospective Ticketmaster controls",
+      "denominator": {
+        "value": null,
+        "unit": "Ticketmaster UK sales process; no affected-customer denominator disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "advance_notice": {
+          "value": "24 hours",
+          "unit": "advance notice required if a tiered pricing system is used",
+          "value_type": "official_undertaking_requirement"
+        },
+        "queue_price_information": {
+          "value": "Ticketmaster must provide more information about ticket prices during online queues",
+          "unit": "prospective transparency control",
+          "value_type": "official_undertaking_requirement"
+        },
+        "misleading_labels": {
+          "value": "Ticketmaster must not use misleading ticket labels",
+          "unit": "prospective interface control",
+          "value_type": "official_undertaking_requirement"
+        },
+        "reporting_duration": {
+          "value": 2.0,
+          "unit": "years of regular reporting to the CMA",
+          "value_type": "official_monitoring_requirement"
+        },
+        "mechanism": {
+          "value": "When individual financial loss is difficult to identify or restore, regulators can target information asymmetry and interface pressure prospectively through conduct undertakings and monitoring",
+          "unit": "bounded remedy mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "CMA case outcome describing undertakings signed by Ticketmaster and the associated reporting obligation.",
+      "uncertainty": "The undertaking page does not report compliance observations, future price levels, customer comprehension, or whether the controls changed access for lower-income fans.",
+      "subgroup": "Ticketmaster UK customers and prospective customers exposed to tiered pricing, online queues, and ticket labels.",
+      "counterinterpretation": "Disclosure may not neutralize scarcity, affordability, or behavioral pressure; consumers can understand a price and still be unable to purchase at it.",
+      "source_url": "https://www.gov.uk/cma-cases/ticketmaster-consumer-protection-case",
+      "retrieval_hash": "sha256:8fdbeead9180e227ca7a74fca0f77f7103cfb0b0818b05fcf91e36d0bb84ce86",
+      "status": "reported"
+    },
+    {
+      "period": "StubHub versus Ticketmaster comparison; remedy-stage distinction",
+      "denominator": {
+        "value": null,
+        "unit": "Two separate CMA live-event consumer-protection cases; no harmonized affected-consumer denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "stubhub_remedy": {
+          "value": "automatic refunds exceeding £590,000 to 51,350 customers plus an £889,200 fine",
+          "unit": "retrospective monetary redress and penalty in the comparator case",
+          "value_type": "official_comparator"
+        },
+        "ticketmaster_remedy": {
+          "value": "prospective undertakings on notice, queue information, labels, and two-year reporting; no direct refund total stated on the case page",
+          "unit": "forward-looking conduct and monitoring remedy",
+          "value_type": "official_case_outcome"
+        },
+        "mechanism": {
+          "value": "Consumer protection has at least two distinct conversion paths: recover money after an executable fee violation, or reduce future information asymmetry when harm is prospective and harder to individualize",
+          "unit": "bounded cross-case mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Cross-case comparison of two official CMA live-event enforcement records; the cases are not treated as statistically comparable populations.",
+      "uncertainty": "The comparison cannot estimate relative harm, remedy effectiveness, deterrence, or consumer welfare because the cases involve different conduct, firms, affected populations, and remedy designs.",
+      "subgroup": "Consumers purchasing or attempting to purchase live-event tickets in the two CMA cases.",
+      "counterinterpretation": "Different remedies may reflect legal findings, evidence availability, firm cooperation, or case posture rather than a general hierarchy of consumer-protection effectiveness.",
+      "source_url": "https://www.gov.uk/cma-cases/ticketmaster-consumer-protection-case",
+      "retrieval_hash": "sha256:8fdbeead9180e227ca7a74fca0f77f7103cfb0b0818b05fcf91e36d0bb84ce86",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.uk/government/news/cma-orders-stubhub-uk-to-refund-customers-over-hidden-fees",
+      "claim": "The StubHub case provides the retrospective-redress comparator: more than £590,000 in automatic refunds to 51,350 customers and an £889,200 fine.",
+      "status": "official-comparator"
+    },
+    {
+      "source_url": "https://www.gov.uk/government/news/cma-secures-changes-from-ticketmaster-following-oasis-tickets-investigation",
+      "claim": "The CMA's outcome notice describes the Ticketmaster undertakings and the consumer-information changes following the Oasis investigation.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds a named UK live-event pricing episode and contrasts prospective transparency/reporting controls with retrospective automatic refund remedy. It does not establish unlawful conduct for every dynamic price, quantify consumer losses, verify future compliance, estimate attendance exclusion, or prove that disclosure restores affordability.",
+  "retrieval_hash": "sha256:8fdbeead9180e227ca7a74fca0f77f7103cfb0b0818b05fcf91e36d0bb84ce86"
+}

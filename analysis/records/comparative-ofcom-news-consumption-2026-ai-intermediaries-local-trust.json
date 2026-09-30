@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ofcom-news-consumption-2026-ai-intermediaries-local-trust",
+  "title": "News discovery is becoming intermediary-led while trust and civic seriousness still pull audiences back to established providers",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "public_systems_feedback", "unequal_exposure_status", "consumer_power_recourse"],
+  "source_unit": "Ofcom, News Consumption Survey 2025-2026 / News Report 2026",
+  "geography": "United Kingdom adults aged 16 and over, with children aged 12-15 and age, socioeconomic, platform, and local-news comparisons",
+  "observations": [
+    {
+      "period": "November 2025-March 2026 fieldwork, published September 15, 2026; adult news discovery and AI intermediation",
+      "denominator": {"value": 5397, "unit": "UK adults aged 16+ in Ofcom's 2025-2026 News Consumption Survey; 3,718 online-panel and 1,679 face-to-face interviews", "value_type": "survey_frame"},
+      "measures": {
+        "online_news": {"value": 82, "unit": "percent accessing news through online platforms in the past month", "value_type": "reported_share"},
+        "online_intermediaries": {"value": 73, "unit": "percent accessing news through online intermediaries including social/video platforms, search or AI tools, and aggregators", "value_type": "reported_share"},
+        "direct_publishers": {"value": 57, "unit": "percent accessing news directly through news publishers' websites or apps", "value_type": "reported_share"},
+        "ai_news": {"value": 21, "unit": "percent using an AI app or service for news in the past month; ChatGPT was used by 13%", "value_type": "reported_share"},
+        "intermediary_exclusivity": {"value": 5, "unit": "percent accessing news only through online intermediaries; 2% used only social media", "value_type": "reported_share"}
+      },
+      "method": "Ofcom mixed-mode survey conducted continuously with monthly targets; adults were interviewed 70% online-panel and 30% face-to-face, then weighted by gender, age, nation/region, urbanity, social class, working status, ethnicity, and internet use.",
+      "uncertainty": "The 2025-2026 redesign broadened news to include passive or incidental exposure, changed the recall window to the past month, and moved from two waves to continuous fieldwork; Ofcom warns that direct year-on-year comparisons are not valid. Reported access is not attention quality, comprehension, or downstream action.",
+      "subgroup": "UK adults by age, socioeconomic group, platform route, and direct versus intermediary access.",
+      "counterinterpretation": "Intermediaries may extend the reach of established journalism rather than replace it: Ofcom reports that only a small minority rely on intermediaries exclusively.",
+      "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/online-research/adult-and-childrens-news-consumption-survey-2026/news-consumption-in-the-uk-2026_research-findings.pdf?v=425341",
+      "retrieval_hash": "sha256:8c6b06ff3524ef5e16478f24f1f76354fd6976ec74ffc730bf59207cfbf01574",
+      "status": "reported"
+    },
+    {
+      "period": "November 2025-March 2026 fieldwork, published September 15, 2026; platform reach versus source legitimacy",
+      "denominator": {"value": 5397, "unit": "UK adults aged 16+ in the News Consumption Survey, with a separate post-election snapshot for people aware of the May 2026 elections", "value_type": "survey_frame"},
+      "measures": {
+        "social_video_intermediary": {"value": 60, "unit": "percent of adults using social media or video-sharing platforms for news in the past month", "value_type": "reported_share"},
+        "facebook_news": {"value": 39, "unit": "percent encountering news on Facebook", "value_type": "reported_share"},
+        "youtube_news": {"value": 33, "unit": "percent encountering news on YouTube; the gap with Facebook has halved since 2025", "value_type": "reported_share"},
+        "ai_story_trust_penalty": {"value": 56, "unit": "percent less trusting of an AI-written news story than one written by a person", "value_type": "reported_share"},
+        "election_tv_reach": {"value": 62, "unit": "percent of people aware of the May 2026 elections using television for election news, versus 33% using online sources", "value_type": "reported_share"},
+        "election_long_form": {"value": 64, "unit": "percent preferring longer-form election coverage such as articles or news bulletins, versus 18% preferring shorter formats", "value_type": "reported_share"}
+      },
+      "method": "Ofcom News Consumption Survey and a separate election-period survey in areas with May 2026 local, mayoral, Scottish Parliament, or Senedd elections; attitudes are self-reported and platform reach includes content from established providers encountered off-platform.",
+      "uncertainty": "The data show a reach-legitimacy split, not causal effects of platform design or proof that television changes electoral judgment. Election findings are a time-specific snapshot and should not be generalized to all political information behavior.",
+      "subgroup": "Adults overall, younger users, platform users, and people aware of the May 2026 elections.",
+      "counterinterpretation": "Digital intermediaries can distribute trusted broadcaster content at scale; the apparent platform-versus-broadcaster conflict may be a distribution-layer shift rather than a source-authority collapse.",
+      "source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/attitudes-to-news/one-in-five-brits-using-ai-to-keep-up-with-news",
+      "retrieval_hash": "sha256:8c6b06ff3524ef5e16478f24f1f76354fd6976ec74ffc730bf59207cfbf01574",
+      "status": "reported"
+    },
+    {
+      "period": "2026 News Consumption Survey, published September 15, 2026; local information and youth cultural discovery",
+      "denominator": {"value": 5397, "unit": "UK adults aged 16+ for local-news measures, with a separate online survey of children aged 12-15", "value_type": "mixed_survey_frame"},
+      "measures": {
+        "local_news_value": {"value": 71, "unit": "percent of adults rating local news among the most important forms of news", "value_type": "reported_share"},
+        "local_news_use": {"value": 95, "unit": "percent of adults using local news or information", "value_type": "reported_share"},
+        "local_online_access": {"value": 81, "unit": "percent of adults using online ways to access local news", "value_type": "reported_share"},
+        "local_word_of_mouth": {"value": 54, "unit": "percent using word of mouth to access local news or information", "value_type": "reported_share"},
+        "children_social_news": {"value": 78, "unit": "percent of children aged 12-15 accessing news through social media", "value_type": "reported_share"},
+        "children_tiktok_creator_mix": {"value": 46, "unit": "percent of children seeing news from influencers, independent commentators, or online-native creators on TikTok, versus 42% seeing UK broadcasters", "value_type": "reported_share"}
+      },
+      "method": "Ofcom adult News Consumption Survey, Local Media Survey context, and separate online Children’s News Consumption Survey; local-news measures combine online, word-of-mouth, television, and provider routes.",
+      "uncertainty": "Local news use is not the same as local civic participation, local institutional trust, or verified knowledge. Child platform exposure and source recognition are self-reported, and the adult and child surveys have different designs and denominators.",
+      "subgroup": "UK adults and children aged 12-15, with local-news, platform, age, and source-type comparisons.",
+      "counterinterpretation": "High local-news use alongside strong online access suggests local information remains socially valuable even as its distribution becomes more digital and intermediary-dependent.",
+      "source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/attitudes-to-news/more-trends-from-our-latest-research-how-people-in-the-uk-find-and-feel-about-news",
+      "retrieval_hash": "sha256:79534dda3d49e2bb6e72f4ec3513aed1b01413946c7c0233398347b7524ff93f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/attitudes-to-news/news-consumption", "claim": "Official Ofcom landing page for the 2026 News Consumption Survey, technical report, data tables, nation reports, Local Media Survey, and election survey materials.", "status": "official-research-index"},
+    {"source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/online-research/adult-and-childrens-news-consumption-survey-2026/adult-news-consumption-survey-technical-report.pdf?v=417648", "claim": "Technical report documenting the 5,397-adult mixed-mode sample, monthly fieldwork, sampling, weighting, and effective sample sizes.", "status": "official-methodology"},
+    {"source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/attitudes-to-news/one-in-five-brits-using-ai-to-keep-up-with-news", "claim": "Ofcom summary of AI, intermediary, broadcaster reach, trust, and election-period findings.", "status": "official-summary"}
+  ],
+  "boundary": "This record adds a UK media-distribution and cultural-legitimacy route: AI, social, video, search, and local-information intermediaries increasingly shape discovery, while established broadcasters retain trust and election relevance. It does not establish source accuracy, political persuasion, civic participation, publisher revenue, creator income, or causal effects of AI or platform algorithms. The 2026 survey redesign means prior-year trend comparisons require caution.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ofcom News Report 2026 PDF, news-consumption landing page, technical report, AI summary, and local-news summary were reviewed for publication date, fieldwork, sample composition, weighting, intermediary definitions, AI use, platform reach, trust, election, local-news, and child measures.",
+    "source_page_sha256": "sha256:8c6b06ff3524ef5e16478f24f1f76354fd6976ec74ffc730bf59207cfbf01574",
+    "checked": "2026-09-30"
+  }
+}

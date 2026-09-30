@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-peoples-climate-vote-2024-global-action-fairness-geopolitics",
+  "title": "Global climate concern is translating into demand for faster action, protection and cooperation, but the political meaning of that demand is shaped by lived exposure, fairness and trust in delivery",
+  "theme_ids": ["voice", "cost", "energy", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "United Nations Development Programme, University of Oxford and GeoPoll, Peoples' Climate Vote 2024",
+  "geography": "Public attitudes across 77 countries representing 87 percent of the world's population, with regional and demographic comparisons",
+  "observations": [
+    {
+      "period": "2023–2024; global climate concern and government action",
+      "denominator": {"value": 73000, "unit": "people surveyed across 77 countries in the Peoples' Climate Vote 2024", "value_type": "reported_sample"},
+      "measures": {
+        "stronger_action": {"value": 80, "unit": "percent of people globally wanting their country to take stronger action on climate change", "value_type": "reported_share"},
+        "more_worried": {"value": 53, "unit": "percent of people globally saying they are more worried about climate change than the previous year", "value_type": "reported_share"},
+        "action_signal": {"value": "climate concern is broad and is accompanied by demand for stronger government action", "unit": "reported public-attitudes pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "GeoPoll computer-assisted telephone interviews conducted from September 2023 to May 2024 for UNDP, with analysis by the University of Oxford; the survey covered 15 climate questions across 77 countries.",
+      "uncertainty": "The survey measures reported attitudes rather than policy compliance, emissions reduction, willingness to pay, or realized political behavior; country and regional precision varies with sample size and weighting.",
+      "subgroup": "Adults across surveyed countries, voters, households, workers and communities experiencing climate impacts or evaluating government response.",
+      "counterinterpretation": "Demand for stronger action may coexist with disagreement over policy instruments, timing, distributional costs and which institutions should act.",
+      "source_url": "https://www.undp.org/publications/peoples-climate-vote-2024",
+      "retrieval_hash": "sha256:3202f2b075665da54d09125aad2fcd1ca7637a08d825f4eaa053cd8ed5ed61c5",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2024; fossil-fuel transition and climate-policy direction",
+      "denominator": {"value": 73000, "unit": "Peoples' Climate Vote 2024 respondents across 77 countries", "value_type": "reported_sample"},
+      "measures": {
+        "fossil_fuel_exit": {"value": 72, "unit": "percent of people globally wanting their country to move away from fossil fuels to clean energy quickly", "value_type": "reported_share"},
+        "nature_protection": {"value": 78, "unit": "percent of people globally wanting more protection for people at risk from extreme weather", "value_type": "reported_share"},
+        "policy_direction": {"value": "support extends beyond abstract concern to faster clean-energy transition and protection from climate harms", "unit": "reported public-attitudes pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country descriptive analysis of the Peoples' Climate Vote 2024 responses on fossil-fuel transition and protection from extreme weather.",
+      "uncertainty": "Support for a direction of travel does not identify preferred policy design, acceptable household cost, local siting preference, or willingness to change personal behavior.",
+      "subgroup": "Households, energy consumers, workers in fossil and clean-energy sectors, climate-exposed people and governments setting energy policy.",
+      "counterinterpretation": "A rapid transition can be broadly popular while particular taxes, bans, infrastructure projects or job losses remain politically contested.",
+      "source_url": "https://peoplesclimate.vote/",
+      "retrieval_hash": "sha256:3202f2b075665da54d09125aad2fcd1ca7637a08d825f4eaa053cd8ed5ed61c5",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2024; climate exposure, daily life and unequal vulnerability",
+      "denominator": {"value": 73000, "unit": "Peoples' Climate Vote 2024 respondents across 77 countries", "value_type": "reported_sample"},
+      "measures": {
+        "life_decisions": {"value": 69, "unit": "percent of people globally saying climate change has impacted major life decisions such as where they work or live", "value_type": "reported_share"},
+        "worsening_extreme_weather": {"value": 43, "unit": "percent of people globally thinking extreme weather events have gotten worse", "value_type": "reported_share"},
+        "unequal_exposure": {"value": "people in least developed countries and small island developing states report especially high salience and worry about climate change", "unit": "reported subgroup pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Descriptive comparison of reported climate experience, life decisions, extreme-weather perceptions and country-group patterns.",
+      "uncertainty": "Reported experience and perception are not equivalent to meteorological exposure or causal relocation, employment or migration effects; country-group differences may reflect sampling, context and question interpretation.",
+      "subgroup": "People in least developed countries, small island developing states, climate-exposed households, workers and communities making place or livelihood decisions.",
+      "counterinterpretation": "Climate salience can reflect media, local events and political communication as well as direct exposure, and high concern does not prove that climate change is the dominant driver of a life decision.",
+      "source_url": "https://climatepromise.undp.org/news-and-stories/worlds-largest-survey-climate-change-out-heres-what-results-show",
+      "retrieval_hash": "sha256:3202f2b075665da54d09125aad2fcd1ca7637a08d825f4eaa053cd8ed5ed61c5",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2024; international cooperation and climate legitimacy",
+      "denominator": {"value": 73000, "unit": "Peoples' Climate Vote 2024 respondents across 77 countries", "value_type": "reported_sample"},
+      "measures": {
+        "cooperation": {"value": 86, "unit": "percent of people globally wanting countries to set aside geopolitical differences and work together on climate change", "value_type": "reported_share"},
+        "rich_country_adaptation": {"value": 79, "unit": "percent of people globally wanting richer countries to help poorer countries adapt", "value_type": "reported_share"},
+        "legitimacy_route": {"value": "climate cooperation is linked in public demand to fairness between countries and support for vulnerable populations", "unit": "reported public-attitudes pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country descriptive analysis of responses on geopolitical cooperation, adaptation responsibility and climate action.",
+      "uncertainty": "Stated support for cooperation and adaptation finance does not establish fiscal willingness, diplomatic behavior, aid delivery, or agreement over burden-sharing formulas.",
+      "subgroup": "People in climate-vulnerable countries, citizens of higher-income countries, governments, international institutions and communities seeking adaptation finance.",
+      "counterinterpretation": "Global cooperation can be publicly desirable while domestic political incentives, budget constraints and geopolitical conflict obstruct implementation.",
+      "source_url": "https://www.un.org/en/climatechange/people-vote-climate",
+      "retrieval_hash": "sha256:3202f2b075665da54d09125aad2fcd1ca7637a08d825f4eaa053cd8ed5ed61c5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://climatepromise.undp.org/sites/default/files/research_report_document/FINAL%20Peoples_Climate_Vote_Report_2024.pdf", "claim": "Official full report PDF."},
+    {"source_url": "https://peoplesclimate.vote/methodology", "claim": "Official methodology, fieldwork dates, weighting and country-level margin-of-error notes."}
+  ],
+  "boundary": "This record adds a global public-meaning and legitimacy layer to the energy and just-transition sequence. It is a cross-country attitude survey, not respondent-level causal evidence, a measure of policy compliance, a local siting referendum, a climate-exposure dataset, or proof that stated support becomes durable political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNDP publication page, full report PDF, UNDP explainer, UN results page and methodology page were reviewed for sample frame, action demand, fossil-fuel transition, life decisions, extreme-weather perception, adaptation responsibility and geopolitical cooperation; the full report PDF was hashed.",
+    "source_url_sha256": "sha256:3202f2b075665da54d09125aad2fcd1ca7637a08d825f4eaa053cd8ed5ed61c5",
+    "checked": "2026-09-27"
+  }
+}

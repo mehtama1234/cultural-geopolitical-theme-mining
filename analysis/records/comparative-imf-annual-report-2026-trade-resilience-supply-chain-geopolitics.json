@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-imf-annual-report-2026-trade-resilience-supply-chain-geopolitics",
+  "title": "Trade resilience is becoming a geopolitical bargain between efficiency, diversification, fiscal room, and household price stability",
+  "theme_ids": ["cost", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "International Monetary Fund, Annual Report 2026, In Focus: Trade and Growth: Strained Resilience",
+  "geography": "IMF member economies and global trade, with discussion of US trade policy, Asia, China, ASEAN, the European Union, energy routes, and supply chains",
+  "observations": [
+    {
+      "period": "2025-2026; trade reorientation after policy and geopolitical shocks",
+      "denominator": {"value": 1, "unit": "IMF global trade and growth assessment", "value_type": "institutional_assessment"},
+      "measures": {
+        "trade_volume": {"value": 5, "unit": "approximately percent increase in global trade volumes in 2025 according to the IMF annual-report discussion", "value_type": "reported_approximate_share"},
+        "technology_goods": {"value": "Trade in technology-related goods continued to grow briskly", "unit": "reported global trade pattern", "value_type": "reported_pattern"},
+        "reorientation": {"value": "The structural shift in US trade policy accelerated trade reorientation, especially in Asia, while bilateral and regional understandings kept trade flowing", "unit": "reported geopolitical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IMF annual-report synthesis of global trade developments, policy shifts, regional trade responses, and related country and multilateral advice.",
+      "uncertainty": "The report is a high-level institutional synthesis; it does not estimate household price incidence, firm-level relocation, or the causal effect of any single trade-policy change.",
+      "subgroup": "Trade-dependent economies, firms, workers, consumers, and regions exposed to changing trade routes and technology-goods supply chains.",
+      "counterinterpretation": "Trade volumes can remain strong while particular sectors, places, or households experience losses; bilateral understandings may preserve flows without restoring predictability or broad welfare.",
+      "source_url": "https://www.imf.org/annual-report/2026/in-focus/trade-and-growth-strained-resilience/",
+      "retrieval_hash": "sha256:706dfeef41e978e1b06ea6e52aa66d2cf6e20d25a5ec9e9c249e9394a7ae13df",
+      "status": "reported"
+    },
+    {
+      "period": "2026; energy-route shock and commodity spillovers",
+      "denominator": {"value": 1, "unit": "IMF annual-report energy and supply-chain shock narrative", "value_type": "institutional_assessment"},
+      "measures": {
+        "energy_supply_cut": {"value": "The IMF reports that the war in the Middle East and subsequent closure of the Strait of Hormuz caused the largest-ever cut to global energy supplies, citing IEA analysis", "unit": "reported geopolitical shock", "value_type": "reported_event"},
+        "spillovers": {"value": "Energy disruption propagated into commodities, food supplies, and broader supply chains", "unit": "reported transmission route", "value_type": "reported_mechanism"},
+        "infrastructure_persistence": {"value": "Enduring damage to energy-export infrastructure could continue to limit supply", "unit": "reported risk condition", "value_type": "reported_risk"}
+      },
+      "method": "IMF annual-report synthesis drawing on IEA-linked energy analysis and macroeconomic implications for commodities, food, and supply chains.",
+      "uncertainty": "The page does not quantify duration, country-specific exposure, price pass-through, or distributional incidence; the event narrative should not be treated as a forecast of every future shock.",
+      "subgroup": "Energy-importing economies, food producers and consumers, logistics networks, energy-intensive firms, and households with limited budget room.",
+      "counterinterpretation": "Diversified supply, inventories, substitution, and policy support can buffer the shock; aggregate supply disruption does not imply uniform household hardship.",
+      "source_url": "https://www.imf.org/annual-report/2026/in-focus/trade-and-growth-strained-resilience/",
+      "retrieval_hash": "sha256:706dfeef41e978e1b06ea6e52aa66d2cf6e20d25a5ec9e9c249e9394a7ae13df",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; resilience versus efficiency and external imbalance",
+      "denominator": {"value": 1, "unit": "IMF trade-resilience policy assessment", "value_type": "institutional_assessment"},
+      "measures": {
+        "resilience_tradeoff": {"value": "Countries are pursuing more resilient supply chains that are less efficient, while trade barriers remain much higher than they were for decades", "unit": "reported structural tradeoff", "value_type": "reported_tradeoff"},
+        "imbalance_risk": {"value": "Excessive external and domestic imbalances increase vulnerability to economic shocks and financial instability and raise the risk of sudden sharp corrections", "unit": "reported macroeconomic mechanism", "value_type": "reported_mechanism"},
+        "diversification": {"value": "Diversifying and deepening trade and sources of supply is presented as a resilience response", "unit": "reported policy direction", "value_type": "reported_direction"}
+      },
+      "method": "IMF multilateral policy synthesis connecting trade barriers, supply-chain diversification, external imbalances, financial stability, and growth.",
+      "uncertainty": "The report does not specify the welfare cost of redundancy, identify which actors pay for resilience, or show that diversification is always more resilient than concentrated efficiency.",
+      "subgroup": "Governments, firms, workers, consumers, and regions whose prices, jobs, investment, or public revenues depend on trade and financial stability.",
+      "counterinterpretation": "Some redundancy can protect essential goods and infrastructure even when it raises near-term costs; efficiency can also provide affordability and access that resilience policies may weaken.",
+      "source_url": "https://www.imf.org/annual-report/2026/in-focus/trade-and-growth-strained-resilience/",
+      "retrieval_hash": "sha256:706dfeef41e978e1b06ea6e52aa66d2cf6e20d25a5ec9e9c249e9394a7ae13df",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trade-policy predictability and household or firm expectations",
+      "denominator": {"value": 1, "unit": "IMF trade-policy guidance frame", "value_type": "policy_guidance_frame"},
+      "measures": {
+        "predictability": {"value": "Predictable, transparent, and well-communicated trade-policy frameworks are described as reducing uncertainty and anchoring business and consumer expectations", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "regional_options": {"value": "The IMF points to regional integration in ASEAN and the EU, consumption-led growth in China, and credible fiscal consolidation in the US as different routes to more resilient and sustainable growth", "unit": "reported policy options", "value_type": "reported_options"}
+      },
+      "method": "IMF annual-report policy discussion covering multilateral, regional, and country-level responses to trade and growth stress.",
+      "uncertainty": "These are policy recommendations and mechanisms, not evaluations showing that communication, regional integration, consumption rebalancing, or fiscal consolidation produces realized household resilience.",
+      "subgroup": "Consumers, businesses, investors, governments, and trading partners making decisions under policy and geopolitical uncertainty.",
+      "counterinterpretation": "Clear policy communication cannot remove real distributional conflict, and fiscal consolidation may reduce external demand while imposing domestic costs that affect trust and political feasibility.",
+      "source_url": "https://www.imf.org/annual-report/2026/in-focus/trade-and-growth-strained-resilience/",
+      "retrieval_hash": "sha256:706dfeef41e978e1b06ea6e52aa66d2cf6e20d25a5ec9e9c249e9394a7ae13df",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.imf.org/annual-report/2026/", "claim": "IMF Annual Report 2026 hub and companion sections on fiscal pressure, AI, and digital finance."},
+    {"source_url": "https://www.imf.org/annual-report/2026/in-focus/fiscal-growing-pressures-on-the-public-purse/", "claim": "Companion IMF 2026 fiscal-pressure discussion for the public-finance side of the trade-resilience route."}
+  ],
+  "boundary": "This record adds a geopolitical trade-and-supply-chain layer connecting US policy shifts, regional reorientation, energy-route disruption, diversification, imbalances, and policy predictability. It is an IMF annual-report synthesis, not a causal trade evaluation, household-incidence study, or forecast of a specific future energy or food price path.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official IMF Annual Report 2026 Trade and Growth page was reviewed for trade-volume context, US policy reorientation, Middle East and Strait of Hormuz spillovers, supply-chain efficiency tradeoffs, external imbalance risk, and predictability guidance.",
+    "source_url_sha256": "sha256:706dfeef41e978e1b06ea6e52aa66d2cf6e20d25a5ec9e9c249e9394a7ae13df",
+    "checked": "2026-09-28"
+  }
+}

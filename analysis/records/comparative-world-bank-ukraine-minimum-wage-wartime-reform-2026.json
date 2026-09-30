@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ukraine-minimum-wage-wartime-reform-2026",
+  "title": "Ukraine's proposed post-martial-law minimum-wage path is a formal-recovery bargain between earnings, jobs, and social-contribution capacity",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "geopolitical_state_consequences", "public_systems_feedback", "unequal_exposure_status", "political_judgment_action", "firm_sector_market_power"],
+  "source_unit": "World Bank Policy Research Working Paper 11443, Minimum Wage Reform in a Wartime Economy: Simulating Impacts from Ukraine's Proposed Reform, September 2026",
+  "geography": "Ukraine; formal private-sector and nonmilitary public-sector workers, employers, low-wage workers, social-insurance institutions, and post-martial-law reconstruction policy",
+  "observations": [
+    {
+      "period": "2023 data; proposed post-martial-law minimum-wage path",
+      "denominator": {"value": 1, "unit": "10 percent random sample of 2023 Pension Fund of Ukraine worker-level data covering jobs with pension contributions", "value_type": "reported_administrative_data_frame"},
+      "measures": {"proposal": {"value": "the simulated proposal sets the minimum wage at 40% of the previous year's average wage after martial law and raises it by two percentage points annually until 50%", "unit": "reported policy scenario", "value_type": "reported_policy_scenario"}, "data_scope": {"value": "the sample covers private-sector and nonmilitary public-sector jobs with pension contributions", "unit": "reported administrative-data coverage", "value_type": "reported_data_scope"}, "counterfactual": {"value": "the reform is compared with a path adjusted only for wage inflation", "unit": "reported simulation counterfactual", "value_type": "reported_method"}},
+      "method": "Forward-looking microsimulation using a 10% random sample of Pension Fund administrative worker-level data and a proposed five-year transition path.",
+      "uncertainty": "The proposal is simulated rather than implemented; results depend on wage, employment, compliance, and transition assumptions and exclude workers outside the covered formal-sector data.",
+      "subgroup": "Low-wage formal workers, employers, private and nonmilitary public sectors, workers outside pension-contribution systems, and social-insurance institutions.",
+      "counterinterpretation": "A wage floor can strengthen household purchasing power and formal contribution bases, while even modest job losses may be concentrated among younger, lower-skilled, smaller-firm, or conflict-exposed workers.",
+      "source_url": "https://documents.worldbank.org/curated/en/099747509082628890/pdf/IDU-24caf348-29f9-4d17-aff0-48532becd223.pdf",
+      "retrieval_hash": "sha256:f5d4038b4feb9e2841d1859773a28352d4fd1ba6e59d394e7b8c26b368b1c083",
+      "status": "estimated"
+    },
+    {
+      "period": "Five-year simulated transition; earnings and employment",
+      "denominator": {"value": 1, "unit": "World Bank simulation of Ukraine's proposed minimum-wage reform", "value_type": "reported_simulation_frame"},
+      "measures": {"wage_path": {"value": "by the end of the five-year transition, the simulated minimum wage is 45% above the level reached under wage-inflation-only adjustment", "unit": "percent above counterfactual simulated level", "value_type": "estimated_policy_effect"}, "job_losses": {"value": "projected job losses are 0.51% to 1.03% under the simulated proposal", "unit": "percent of covered formal-sector jobs, modeled range", "value_type": "estimated_employment_effect"}, "total_earnings": {"value": "total earnings increase by up to 3.24% in the simulation", "unit": "percent modeled change", "value_type": "estimated_earnings_effect"}},
+      "method": "Administrative-data-based simulation of direct and indirect wage, employment, and earnings effects across the transition period.",
+      "uncertainty": "These are model outputs, not observed effects; they do not account for all post-war labour reallocation, informal work, employer adjustment, migration, inflation, or enforcement responses.",
+      "subgroup": "Workers near the wage floor, employers with different wage structures, sectors with different labour demand, and workers moving between formal and informal employment.",
+      "counterinterpretation": "Aggregate earnings gains can coexist with concentrated job loss or reduced hiring, making distribution and transition support as important as the average result.",
+      "source_url": "https://documents.worldbank.org/curated/en/099747509082628890/pdf/IDU-24caf348-29f9-4d17-aff0-48532becd223.pdf",
+      "retrieval_hash": "sha256:f5d4038b4feb9e2841d1859773a28352d4fd1ba6e59d394e7b8c26b368b1c083",
+      "status": "estimated"
+    },
+    {
+      "period": "Five-year simulated transition; fiscal and social-contract channel",
+      "denominator": {"value": 1, "unit": "World Bank formal-sector minimum-wage simulation", "value_type": "reported_fiscal_simulation_frame"},
+      "measures": {"contribution_channel": {"value": "social contributions and taxes change in the same direction as earnings because they are fixed percentages of earnings in Ukraine", "unit": "reported fiscal mechanism", "value_type": "estimated_fiscal_mechanism"}, "recovery_bargain": {"value": "the proposed wage path links household earnings, employer costs, employment, and social-insurance financing during post-war recovery", "unit": "analytical mechanism", "value_type": "reported_policy_intersection"}, "policy_tool": {"value": "the methodology is presented as a tool for anticipating likely effects of wage reform on formal workers and public finances", "unit": "reported policy-use route", "value_type": "reported_policy_route"}},
+      "method": "World Bank microsimulation linking worker earnings, employment, social contributions, and taxes under a formal-sector wage-floor scenario.",
+      "uncertainty": "The model does not establish political acceptance, compliance, informal-sector spillovers, realized tax collection, or whether higher wages improve household welfare after prices and war-related costs.",
+      "subgroup": "Formal workers, employers, taxpayers, social-insurance beneficiaries, informal workers, and households exposed to wartime inflation and displacement.",
+      "counterinterpretation": "A formal wage floor can improve state capacity and household room, but if enforcement is weak or firms exit formality, the contribution channel may not materialize.",
+      "source_url": "https://documents.worldbank.org/curated/en/099747509082628890/pdf/IDU-24caf348-29f9-4d17-aff0-48532becd223.pdf",
+      "retrieval_hash": "sha256:f5d4038b4feb9e2841d1859773a28352d4fd1ba6e59d394e7b8c26b368b1c083",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099747509082628890", "claim": "Official World Bank document record for Policy Research Working Paper 11443."}, {"source_url": "https://reproducibility.worldbank.org/catalog/564", "claim": "World Bank reproducibility package for Ukraine minimum-wage simulations."}, {"source_url": "https://doi.org/10.1596/1813-9450-11443", "claim": "Official DOI for the World Bank paper."}],
+  "boundary": "This record adds a post-war wage-floor route linking formal earnings, modeled employment, social contributions, taxes, household room, and reconstruction legitimacy. It is a simulation of a proposed reform, not an observed policy effect, and does not establish informal-sector impacts, political acceptance, compliance, inflation-adjusted welfare, or universal job quality.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official World Bank paper PDF reviewed for proposed wage path, administrative-data sample, counterfactual, modeled wage, job-loss and earnings effects, social-contribution mechanism, and formal-sector boundary.", "source_url_sha256": "sha256:f5d4038b4feb9e2841d1859773a28352d4fd1ba6e59d394e7b8c26b368b1c083", "checked": "2026-09-29"}
+}

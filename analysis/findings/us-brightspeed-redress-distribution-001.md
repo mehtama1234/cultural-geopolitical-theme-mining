@@ -1,6 +1,6 @@
 # A named consumer distribution route still does not prove recovery
 
-**Status:** provisional named consumer-recourse finding · **Checked:** 2026-09-17
+**Status:** provisional named consumer-recourse finding · **Checked:** 2026-09-29
 
 The CFPB BrightSpeed case makes a useful distinction inside consumer
 protection: an enforcement record can identify an eligible population, a
@@ -20,7 +20,9 @@ technical-support fraud payment
 
 The CFPB identifies 122,507 eligible consumers and $53,885,244 in compensable
 harm in the BrightSpeed case, names Epiq Systems as administrator, and lists
-distribution as ongoing from July 23, 2024. These observations advance the
+distribution as ongoing from July 23, 2024. The payments-by-case index was
+modified September 28, 2026 and still lists BrightSpeed as a Civil Penalty Fund
+case. These observations advance the
 consumer power and public-systems routes because they show a concrete bridge
 from a documented fraud-processing practice to an administrative compensation
 channel. They do not establish a recovery rate, equal payment, successful
@@ -39,6 +41,13 @@ The aggregate harm figure must not be divided by the eligible-consumer count
 and described as an average recovery. The public record does not establish
 equal eligibility, equal payment amounts, successful receipt, or full
 compensation for any individual.
+
+The CFPB's FY2024 financial report adds that $53,885,244 was distributed and
+122,507 initial checks were mailed in FY2024 Q4. A separate CFPB distribution
+map reports $53,335,244.07 to the same 122,507 consumers, leaving a
+$549,999.93 official-amount discrepancy that requires reconciliation. Checks
+mailed and a map total still do not prove checks cashed, retained funds, or
+recovered household room.
 
 ## Contribution to the broad program
 
@@ -62,6 +71,9 @@ record rather than a consumer recovery estimate.
 
 - [CFPB v. BrightSpeed Solutions, Inc., and Kevin Howard](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/brightspeed/)
 - [CFPB payments-by-case index](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/)
+- [CFPB FY2024 financial report](https://files.consumerfinance.gov/f/documents/cfpb_financial-report-fy-2024.pdf)
+- [CFPB July 2024 distribution announcement and map](https://www.consumerfinance.gov/archive/blog/cfpb-to-distribute-more-than-53-million-to-consumers-harmed-by-brightspeed-solutions/)
+- [Machine-readable current-status record](../records/us-cfpb-brightspeed-redress-distribution-2026.json)
 - [Local BrightSpeed distribution record](../projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md)
 
 **Evidence status:** official aggregate compensation and distribution record;

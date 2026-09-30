@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-self-employed-social-insurance-design-portability-2026",
+  "title": "Social insurance must adapt to the self-employed worker’s income, status and life-course volatility",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization Working Paper 176, Inclusive social insurance: Exploring real solutions to reach the self-employed, July 2026",
+  "geography": "Comparative evidence from ten country case-study settings, with eight detailed country examples spanning Algeria, Brazil, Cabo Verde, Costa Rica, Mongolia, Portugal, Tunisia, Uruguay and Zambia pilots, plus Thailand",
+  "observations": [
+    {
+      "period": "Global and comparative labor-market structure; latest available country estimates reviewed in the 2026 paper",
+      "denominator": {"value": 1, "unit": "global informal-employment and selected-country comparison frame", "value_type": "reported_comparative_frame"},
+      "measures": {
+        "global_informality": {"value": 58, "unit": "percent of global employment estimated to be informal, nearly two billion workers", "value_type": "reported_global_indicator"},
+        "self_employed_share": {"value": 64, "unit": "percent of workers in the global informal economy who are self-employed; rising to 79% in some low-income countries", "value_type": "reported_global_indicator"},
+        "status_gap": {"value": "self-employed workers are markedly more likely to be informally employed than employees across the selected countries; in Mongolia, nearly 83% of self-employed workers were informal versus 13% of employees", "unit": "reported comparative status pattern", "value_type": "reported_distributional_finding"},
+        "mechanism": {"value": "self-employment shifts the employer-side work of registration, bookkeeping, contributions and risk management onto workers whose earnings and status may be unstable", "unit": "bounded self-employment protection mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO comparative review of country case studies, ILOSTAT modeled estimates and policy literature; the paper combines secondary case evidence with original qualitative research in Thailand and Uruguay.",
+      "uncertainty": "Global and country indicators come from different years and definitions, and the selected cases are not representative of all social-insurance extension efforts; the paper does not estimate a universal self-employed coverage rate.",
+      "subgroup": "Own-account workers, contributing family workers, dependent or disguised self-employed workers, micro-entrepreneurs, rural workers and self-employed people in low-income settings.",
+      "counterinterpretation": "Self-employment includes heterogeneous groups with different autonomy, earnings and assets; higher informality may reflect sector or country composition rather than the legal status alone.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-07/FINAL%20WP176.pdf",
+      "retrieval_hash": "sha256:cd59ae7e1a930ccc4bb1a091c8ca139a13e39aa7cebe0ab38a800bb4ae27495e",
+      "status": "reported"
+    },
+    {
+      "period": "Comparative policy experience; participation, scheme architecture, benefits and financing",
+      "denominator": {"value": 10, "unit": "country case-study settings reviewed by the paper", "value_type": "reported_case_frame"},
+      "measures": {
+        "scheme_choices": {"value": "cases combine general schemes with tailored mechanisms, special schemes, unified tax-social-security payments, voluntary participation, mandatory participation, subsidies and flexible contribution paths", "unit": "reported policy-design set", "value_type": "reported_policy_typology"},
+        "voluntary_route": {"value": "voluntary participation experiences in Mongolia and Thailand generally did not meet expectations for coverage expansion, despite learning and innovation such as one-stop shops", "unit": "reported comparative policy finding", "value_type": "reported_policy_finding"},
+        "mandatory_route": {"value": "most selected examples of noteworthy expansion involved mandatory schemes, although enforcement evidence was limited and the comparison is not causal", "unit": "reported case-selection pattern", "value_type": "reported_policy_finding"},
+        "affordability": {"value": "self-employed workers often shoulder a higher contribution share because there is no employer to share costs; reported statutory rates ranged from around 10% in Costa Rica to nearly 30% in Portugal, with important comparability limits", "unit": "reported financing contrast", "value_type": "reported_financing_finding"},
+        "mechanism": {"value": "coverage is a design bargain: lower and flexible contributions can increase entry, but benefits that are too thin reduce attractiveness and adequacy; subsidies, tax-financed floors and coordinated benefits can stabilize the bargain", "unit": "bounded coverage-adequacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative synthesis of legal frameworks, participation rules, benefit design, financing mechanisms and implementation experience across the case studies.",
+      "uncertainty": "The cases do not allow a controlled comparison of voluntary and mandatory schemes; contribution rates differ in bases, branches, dates and income assumptions, and reported expansion does not establish durable benefit adequacy or worker welfare.",
+      "subgroup": "Low-income self-employed workers, informal workers, microenterprises, workers transitioning from informal to formal status, and people whose contribution capacity varies seasonally or across the life course.",
+      "counterinterpretation": "Mandatory participation can produce formal registration without meaningful compliance or adequate benefits; voluntary systems may be appropriate where trust, affordability and benefit value are high, but the paper finds those conditions difficult to sustain.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-07/FINAL%20WP176.pdf",
+      "retrieval_hash": "sha256:cd59ae7e1a930ccc4bb1a091c8ca139a13e39aa7cebe0ab38a800bb4ae27495e",
+      "status": "reported"
+    },
+    {
+      "period": "Case-study implementation and beneficiary experience; policy lessons on access, trust and portability",
+      "denominator": {"value": 8, "unit": "detailed country examples with varying beneficiary and implementation evidence", "value_type": "reported_case_frame"},
+      "measures": {
+        "administrative_access": {"value": "simplified documentation, one-stop shops, digital access, flexible filing and payment dates, and unified tax-social-security mechanisms are repeatedly identified as access levers", "unit": "reported implementation route", "value_type": "reported_policy_finding"},
+        "arrears_and_continuity": {"value": "gradual contribution scaling, matching subsidies, payment plans, moratoria and arrears settlement were used in some cases to preserve or restore participation", "unit": "reported financing and continuity tools", "value_type": "reported_policy_finding"},
+        "beneficiary_fit": {"value": "the paper reports weak evidence on beneficiary perspectives and outcomes; examples include low perceived benefit value in Uruguay, 60% of surveyed informal-economy respondents in a Zambia case holding a negative view of ECIS, and gendered risk of lower pensions for women with lower contributory capacity", "unit": "reported beneficiary and adequacy signals", "value_type": "reported_case_finding"},
+        "voice_and_trust": {"value": "successful extension is presented as requiring trust-based collaboration with workers’ organizations, while digital barriers, weak representation, low awareness and fear of job loss can undermine take-up", "unit": "reported institutional-trust condition", "value_type": "reported_implementation_finding"},
+        "mechanism": {"value": "social insurance becomes usable when workers can understand, afford, reach, trust and carry the scheme across changing work and status; formal enrollment without benefit fit or voice can remain nominal", "unit": "bounded usability-and-portability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Case-study synthesis with documented beneficiary perspectives where available, original qualitative research in Thailand and Uruguay, and review of enabling and hindering institutional factors.",
+      "uncertainty": "Beneficiary evidence is sparse across the cases, several initiatives are pilots, and the paper explicitly reports limited evidence on income, wellbeing and long-run impacts; no causal effect of one administrative or financing tool is estimated.",
+      "subgroup": "Rural women, small-scale farmers, self-employed people with low digital literacy or no internet, platform and dependent self-employed workers, informal worker organizations and people with irregular earnings.",
+      "counterinterpretation": "Low take-up can reflect temporary macroeconomic stress or low immediate benefit need rather than institutional distrust; worker organizations may not represent all self-employed groups, and digital one-stop shops can lower friction for some while excluding others.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-07/FINAL%20WP176.pdf",
+      "retrieval_hash": "sha256:cd59ae7e1a930ccc4bb1a091c8ca139a13e39aa7cebe0ab38a800bb4ae27495e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/inclusive-social-insurance-exploring-real-solutions-reach-self-employed", "claim": "Official ILO publication page with abstract, date, authors, case-study scope and DOI."},
+    {"source_url": "https://doi.org/10.54394/00034536", "claim": "Official DOI for ILO Working Paper 176."}
+  ],
+  "boundary": "This record adds a comparative design and usability layer to the formalization and portability theme: self-employed workers face status ambiguity, irregular earnings, administrative burden, affordability constraints, benefit-fit problems and weak voice. The selected cases are not globally representative, evidence on beneficiary outcomes is sparse, and the paper does not establish causal effects of voluntary versus mandatory participation, subsidies, one-stop shops, scheme integration, formalization, income, wellbeing or durable coverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO 82-page PDF and publication page, global self-employment and informality context, selected-country status differences, general versus special schemes, voluntary versus mandatory participation, financing and subsidy approaches, administrative barriers, beneficiary perspectives, gender, trust, worker organizations and portability challenges were reviewed.",
+    "source_url_sha256": "sha256:cd59ae7e1a930ccc4bb1a091c8ca139a13e39aa7cebe0ab38a800bb4ae27495e",
+    "checked": "2026-09-29"
+  }
+}

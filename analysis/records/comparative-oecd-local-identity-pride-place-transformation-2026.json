@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-local-identity-pride-place-transformation-2026",
+  "title": "Place identity is being operationalised as soft infrastructure for economic renewal, belonging, and local legitimacy",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "OECD, Local Identity, Pride and Branding in Place Transformation: Stories that Shape Places",
+  "geography": "OECD comparative report drawing on place-transformation research, policy practice, and cases across member and partner places",
+  "observations": [
+    {
+      "period": "2026 report; place identity as a development condition",
+      "denominator": {"value": null, "unit": "comparative policy report and case-study evidence; no single population denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "identity_as_soft_infrastructure": {"value": "Place identity, pride, social capital, and leadership are treated as soft infrastructure alongside industries, institutions, and physical infrastructure", "unit": "reported conceptual framework", "value_type": "reported_mechanism"},
+        "decline_or_renewal_story": {"value": "Narratives of loss can make transformation harder to imagine, while credible forward-looking narratives can support renewal", "unit": "reported comparative mechanism", "value_type": "reported_pattern"},
+        "place_identity_route": {"value": "How a place is perceived and narrated can affect whether people stay, move in, leave, invest, or visit", "unit": "reported mechanism across cases", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD synthesis of academic literature, policy experience, interviews, seminars, and practical case studies; the report explicitly notes that the quantitative evidence base remains limited.",
+      "uncertainty": "The report is not a causal evaluation or representative survey. Case evidence supports mechanisms and implementation lessons, but does not estimate a general effect of branding on migration, investment, social cohesion, or prosperity.",
+      "subgroup": "Long-term residents, newcomers, young people, local entrepreneurs, firms, visitors, public officials, and communities undergoing industrial or environmental transition.",
+      "counterinterpretation": "A positive place narrative can become promotional cover for material decline, displacement, or unequal benefit unless residents shape it and outcomes are evaluated beyond visibility or investment.",
+      "source_url": "https://www.oecd.org/en/publications/local-identity-pride-and-branding-in-place-transformation_9ccee12a-en.html",
+      "retrieval_hash": "sha256:7bb4a81b57713902a53e2ab8c2915978feb5fb041bcf6a9d0b796c77afc3bdeb",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; mapping identity and co-producing narratives",
+      "denominator": {"value": null, "unit": "policy and case-study evidence across places; no common sample denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "identity_mapping": {"value": "Policymakers are encouraged to map how different actors describe a place, including residents, newcomers, younger and older generations, and business communities", "unit": "reported practice", "value_type": "reported_mechanism"},
+        "mixed_methods": {"value": "Interviews, listening exercises, participatory workshops, economic data, media coverage, and social-media analysis can be combined to surface competing narratives", "unit": "reported methodological recommendation", "value_type": "reported_method"},
+        "co_creation": {"value": "Wide consultation and ongoing dialogue can make place narratives more legitimate than top-down slogans", "unit": "reported case pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparative qualitative and practice-oriented synthesis with cases including Paisley, Pori, Tasmania, Silesia, Durham, and other places.",
+      "uncertainty": "The publication does not provide standardized measures of whose voices were included, how conflicts were resolved, or whether participation changed policy outcomes in a comparable way.",
+      "subgroup": "Residents and local narrators with potentially different tenure, generation, migration, sector, and institutional positions.",
+      "counterinterpretation": "Participation can be consultative rather than decision-making; a shared story may smooth over real distributional conflicts about land, jobs, heritage, tourism, or public resources.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/05/local-identity-pride-and-branding-in-place-transformation_820d497c/9ccee12a-en.pdf",
+      "retrieval_hash": "sha256:7bb4a81b57713902a53e2ab8c2915978feb5fb041bcf6a9d0b796c77afc3bdeb",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; narrative-to-material-development conversion",
+      "denominator": {"value": null, "unit": "selected place cases; no common outcome denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "talent_and_investment": {"value": "Place narratives are presented as potential tools for talent attraction, investment, local production upgrading, tourism strategy, and sector positioning", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "cultural_physical_projects": {"value": "Cultural and physical regeneration projects can embody a narrative and provide visible signals of change", "unit": "reported case pattern", "value_type": "reported_mechanism"},
+        "shared_prosperity_guardrail": {"value": "Community engagement and displacement-risk management are necessary if narrative-led regeneration is to support broadly shared prosperity", "unit": "reported governance condition", "value_type": "reported_condition"}
+      },
+      "method": "Cross-case review of place branding, local economic development, cultural regeneration, tourism, enterprise, and social-policy examples.",
+      "uncertainty": "Examples show plausible contribution pathways, not counterfactual impacts; the report does not establish that branding caused investment, retention, visitor growth, or reduced displacement.",
+      "subgroup": "Local producers, entrepreneurs, creative workers, young people, visitors, investors, long-term residents, and households exposed to regeneration costs.",
+      "counterinterpretation": "Place branding may redistribute attention and land value toward already advantaged actors, or attract visitors and investment without improving resident security or voice.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/05/local-identity-pride-and-branding-in-place-transformation_820d497c/9ccee12a-en.pdf",
+      "retrieval_hash": "sha256:7bb4a81b57713902a53e2ab8c2915978feb5fb041bcf6a9d0b796c77afc3bdeb",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; institutional embedding and evaluation",
+      "denominator": {"value": null, "unit": "comparative governance recommendations; no common administrative denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "policy_cycle_embedding": {"value": "The report recommends embedding place identity upstream in strategy and decision-making rather than treating branding as a communications silo", "unit": "reported governance recommendation", "value_type": "reported_mechanism"},
+        "institutional_capacity": {"value": "Implementation requires strategic foresight, participatory design, policy literacy, cultural competence, political acuity, and data capability", "unit": "reported capacity requirement", "value_type": "reported_condition"},
+        "longitudinal_evaluation": {"value": "Evaluation should use mixed methods and longer horizons, assessing contribution rather than claiming direct causation", "unit": "reported evaluation principle", "value_type": "reported_method"}
+      },
+      "method": "OECD policy synthesis of institutional arrangements, implementation cases, and evaluation approaches.",
+      "uncertainty": "The framework does not supply a common outcome metric or prove that embedding branding in government improves legitimacy, wellbeing, or economic distribution.",
+      "subgroup": "Local and regional governments, community organizations, residents, firms, and external evaluators.",
+      "counterinterpretation": "Institutionalizing place branding can increase narrative management without increasing public power; the critical test is whether residents can contest the story and influence material decisions.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/05/local-identity-pride-and-branding-in-place-transformation_820d497c/9ccee12a-en.pdf",
+      "retrieval_hash": "sha256:7bb4a81b57713902a53e2ab8c2915978feb5fb041bcf6a9d0b796c77afc3bdeb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/9ccee12a-en", "claim": "OECD DOI and citation record for the report.", "status": "official-publication-record"},
+    {"source_url": "https://www.oecd.org/en/publications/local-identity-pride-and-branding-in-place-transformation_9ccee12a-en/full-report.html", "claim": "OECD full-report HTML edition.", "status": "official-full-report"}
+  ],
+  "boundary": "This record adds a place-identity and cultural-governance layer: stories, pride, belonging, and local participation can function as soft infrastructure linking economic transformation, mobility, investment, social cohesion, and institutional legitimacy. It is a comparative policy synthesis with qualitative cases, not a representative population estimate, causal evaluation, or proof that branding produces shared prosperity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD PDF reviewed for publication metadata, executive summary, methods, case examples, place-identity mechanisms, participation conditions, institutional capacity, and evaluation limits.",
+    "source_page_sha256": "sha256:7bb4a81b57713902a53e2ab8c2915978feb5fb041bcf6a9d0b796c77afc3bdeb",
+    "checked": "2026-09-28"
+  }
+}

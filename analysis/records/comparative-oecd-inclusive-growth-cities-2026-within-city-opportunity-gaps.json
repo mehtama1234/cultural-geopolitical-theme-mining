@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-inclusive-growth-cities-2026-within-city-opportunity-gaps",
+  "title": "City growth can coexist with concentrated opportunity gaps, making inclusion a productivity, mobility, and legitimacy problem",
+  "theme_ids": ["cost", "time", "voice", "work", "energy"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "OECD, What Works for Inclusive Growth in Cities, OECD Urban Studies, 2026",
+  "geography": "More than 600 European Union cities, OECD/EC city policy survey, and selected city interventions including Barcelona, Tromsø, Lisbon, Madrid, Milan, Düsseldorf, Cluj-Napoca, and Stockholm",
+  "observations": [
+    {
+      "period": "2026 report; more than 600 EU cities and inclusive-growth outcomes",
+      "denominator": {"value": 600, "unit": "European Union cities analysed by the OECD, approximately more than", "value_type": "city_comparative_frame"},
+      "measures": {
+        "growth_inclusion_gap": {"value": "higher productivity and GDP growth are not always associated with lower poverty, reduced inequality, or improved access to opportunity; poverty reduction has stalled or reversed in many large cities", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "urban_poverty_social_exclusion": {"value": 37000000, "unit": "urban residents at risk of poverty or social exclusion across the European Union", "value_type": "reported_population_estimate"},
+        "childhood_disadvantage_cost": {"value": 3.4, "unit": "percent of GDP annually; estimated cost across EU OECD countries through lost employment, earnings, and health outcomes", "value_type": "reported_estimate"},
+        "inequality_growth_association": {"value": 0.35, "unit": "percentage-point reduction in annual GDP-per-capita growth associated with a 3-point increase in the Gini coefficient", "value_type": "reported_association"}
+      },
+      "method": "OECD comparative analysis of city-level economic, poverty, inequality, opportunity, and spatial indicators, supplemented by policy and intervention evidence.",
+      "uncertainty": "The report combines descriptive cross-city associations, estimates, and selected intervention evidence; these measures do not establish that city growth or inequality alone caused the reported outcomes.",
+      "subgroup": "Urban residents facing barriers in education, employment, housing, mobility, health, public services, and climate protection, with attention to young people, low-income households, and people with migrant backgrounds.",
+      "counterinterpretation": "High productivity can create fiscal and employment capacity for later redistribution or service improvement; a growth-inclusion gap does not mean growth is harmful or that every city follows the same trajectory.",
+      "source_url": "https://www.oecd.org/en/publications/what-works-for-inclusive-growth-in-cities_680809c3-en/full-report/executive-summary_a21ae386.html",
+      "retrieval_hash": "sha256:48df10e75795d6bf2477526bc63f08909603c37de59b26981cc7f8b6feebbaa5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; intra-urban access to mobility and green space",
+      "denominator": {"value": 100, "unit": "urban residents in large and mid-sized EU cities", "value_type": "urban_access_frame"},
+      "measures": {
+        "transit_access_gap": {"value": 33.3, "unit": "approximately one in three residents unable to reach public transport within a ten-minute walk", "value_type": "reported_share_approximation"},
+        "green_space_gap": {"value": 25, "unit": "approximately one in four residents lacking access to green space", "value_type": "reported_share_approximation"},
+        "life_chance_route": {"value": "transport and green-space gaps limit access to jobs, services, and quality of life and disproportionately affect young people, low-income households, and people with migrant backgrounds", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "spatial_concentration": {"value": "income, employment, health, and service disadvantages often overlap within the same neighbourhoods", "unit": "reported spatial pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD city-level analysis of access, neighbourhood conditions, and multidimensional inequality within and across cities.",
+      "uncertainty": "The summary reports approximate access shares and does not measure trip reliability, affordability, safety, actual use, or household-level mobility outcomes for every city.",
+      "subgroup": "Young people, low-income households, residents of underserved neighbourhoods, people with migrant backgrounds, and people dependent on public transport or public green space.",
+      "counterinterpretation": "Car access, cycling, local services, remote work, and other forms of mobility or amenity can partly offset measured ten-minute access gaps; proximity is not the same as usable access.",
+      "source_url": "https://www.oecd.org/en/publications/what-works-for-inclusive-growth-in-cities_680809c3-en/full-report/executive-summary_a21ae386.html",
+      "retrieval_hash": "sha256:48df10e75795d6bf2477526bc63f08909603c37de59b26981cc7f8b6feebbaa5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; selected intervention examples",
+      "denominator": {"value": 1, "unit": "selected city intervention evidence set", "value_type": "selected_case_frame"},
+      "measures": {
+        "refugee_language_employment": {"value": 70, "unit": "percent of refugees entering employment within six months in the Tromsø language-introduction example", "value_type": "reported_program_result"},
+        "housing_first_sustainment": {"value": 90, "unit": "percent housing sustainment in the Lisbon Housing First example", "value_type": "reported_program_result"},
+        "youth_transport_employment": {"value": 23, "unit": "percentage-point increase in probability of finding employment after job loss associated with the Madrid youth transport pass example", "value_type": "reported_program_association"},
+        "desegregation": {"value": "Barcelona school desegregation narrowed the educational achievement gap by nearly three points for disadvantaged students in standardised tests", "unit": "reported program result", "value_type": "reported_program_result"}
+      },
+      "method": "OECD synthesis of selected city practices and reported evaluations or impact evidence across education, language, housing, and mobility interventions.",
+      "uncertainty": "These are selected examples with different designs, populations, outcomes, and comparison strategies; they should not be treated as a common effect size or universal city-policy estimate.",
+      "subgroup": "Disadvantaged students, refugees, people experiencing homelessness or substance-use challenges, and workers who lost employment and need mobility access.",
+      "counterinterpretation": "Program effects may depend on local institutional capacity, selection, complementary services, and funding; replication without those conditions may not produce the same results.",
+      "source_url": "https://www.oecd.org/en/publications/what-works-for-inclusive-growth-in-cities_680809c3-en/full-report/executive-summary_a21ae386.html",
+      "retrieval_hash": "sha256:48df10e75795d6bf2477526bc63f08909603c37de59b26981cc7f8b6feebbaa5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; implementation and governance conditions",
+      "denominator": {"value": 100, "unit": "cities responding to the OECD/EC survey", "value_type": "city_policy_survey_frame"},
+      "measures": {
+        "inclusive_education_priority": {"value": 77, "unit": "percent of surveyed cities prioritising inclusive education", "value_type": "reported_city_share"},
+        "inequality_inclusion_priority": {"value": 75, "unit": "percent of surveyed cities prioritising reducing inequality and fostering inclusion", "value_type": "reported_city_share"},
+        "departmental_silos": {"value": 60, "unit": "percent or approximately of cities still implementing inclusive growth through departmental silos", "value_type": "reported_city_share_approximation"},
+        "enablers": {"value": "the report identifies long-term cross-government strategy, participatory design, granular neighbourhood data, sustainable finance, dedicated teams, monitoring and adaptation, and sustained communication as enabling factors", "unit": "reported implementation framework", "value_type": "reported_framework"}
+      },
+      "method": "OECD/European Commission city-policy survey and synthesis of implementation, participation, financing, data, delivery-capacity, monitoring, and political-support conditions.",
+      "uncertainty": "Reported priorities and organisational arrangements do not prove implementation quality, resident influence, funding adequacy, or improved outcomes; survey coverage and self-reporting may limit comparability.",
+      "subgroup": "City administrations, neighbourhood residents, community organisations, service users, local employers, and groups affected by cross-departmental policy gaps.",
+      "counterinterpretation": "Departmental structures can provide accountability and expertise; integration may create coordination costs or dilute responsibility if roles and resources are unclear.",
+      "source_url": "https://www.oecd.org/en/publications/what-works-for-inclusive-growth-in-cities_680809c3-en/full-report/executive-summary_a21ae386.html",
+      "retrieval_hash": "sha256:48df10e75795d6bf2477526bc63f08909603c37de59b26981cc7f8b6feebbaa5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/680809c3-en", "claim": "Official OECD DOI and publication record for the 163-page report."},
+    {"source_url": "https://www.oecd.org/en/data/tools/oecd-local-data-portal.html", "claim": "OECD local-data context for city and neighbourhood measurement."}
+  ],
+  "boundary": "This record adds a comparative within-city opportunity and implementation layer to the urban-capacity route. It combines OECD city analysis, survey evidence, and selected intervention examples; it is not respondent-level longitudinal data, not a universal causal estimate, and not evidence that all listed policies have the same effect outside their local settings.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD executive-summary page was reviewed for the 600-plus-city comparison, poverty and inequality findings, mobility and green-space access, five policy pillars, selected intervention examples, city survey priorities, departmental silos, and enabling factors.",
+    "source_url_sha256": "sha256:48df10e75795d6bf2477526bc63f08909603c37de59b26981cc7f8b6feebbaa5",
+    "checked": "2026-09-28"
+  }
+}

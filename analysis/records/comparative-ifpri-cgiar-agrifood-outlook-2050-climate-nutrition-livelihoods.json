@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods",
+  "title": "Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes",
+  "theme_ids": ["cost", "energy", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "IFPRI/CGIAR, Global Agrifood Systems Outlook to 2050",
+  "geography": "Global and regional agrifood systems, with particular attention to low- and middle-income countries",
+  "observations": [
+    {
+      "period": "2026 publication; projections through 2050",
+      "denominator": {"value": 1, "unit": "global agrifood-systems projection framework", "value_type": "reported_model_framework"},
+      "measures": {
+        "driver_set": {"value": "Population, incomes, technology, climate, and other global trends are modeled as drivers of food production, consumption, markets, resource use, and nutrition", "unit": "reported projection driver set", "value_type": "reported_scope"},
+        "system_scope": {"value": "The outlook links food, agriculture, nutrition, natural resources, economic development, and climate change", "unit": "reported systems frame", "value_type": "reported_mechanism"},
+        "time_horizon": {"value": 2050, "unit": "projection horizon year", "value_type": "reported_horizon"}
+      },
+      "method": "Peer-reviewed IFPRI volume using advanced modeling tools and multiple scenarios to examine global and regional agrifood-system pathways through 2050.",
+      "uncertainty": "The authors explicitly state that results are projections based on assumptions, not predictions; outcomes depend on scenario choices, model structure, data, policy, technology, climate, and behavioral change.",
+      "subgroup": "Consumers, farmers, food-system workers, low- and middle-income countries, governments, firms, communities dependent on land and water, and populations vulnerable to hunger or malnutrition.",
+      "counterinterpretation": "Long-horizon models can illuminate trade-offs while missing political shocks, local institutions, cultural food practices, distributional conflict, and nonmarket values; aggregate gains can coexist with regional or subgroup losses.",
+      "source_url": "https://www.cgiar.org/news-events/news/new-ifpricgiar-report-explores-future-global-agrifood-systems-through-2050",
+      "retrieval_hash": "sha256:466814afca71143f8f8d2beff988ff5784335560b121c704a9301a1b510b4a89",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; regional and population divergence in agrifood pathways",
+      "denominator": {"value": 1, "unit": "IFPRI/CGIAR global and regional scenario comparison", "value_type": "reported_model_framework"},
+      "measures": {
+        "progress_pattern": {"value": "Many agrifood-system indicators are projected to continue improving under economic growth and technological advances", "unit": "reported projection pattern", "value_type": "reported_outlook"},
+        "persistent_challenges": {"value": "Hunger, malnutrition, environmental sustainability, and climate resilience remain persistent challenges across the outlook", "unit": "reported challenge set", "value_type": "reported_outlook"},
+        "divergence": {"value": "Projected outcomes differ significantly across regions, commodities, and populations", "unit": "reported distributional pattern", "value_type": "reported_heterogeneity"}
+      },
+      "method": "IFPRI/CGIAR scenario analysis emphasizing global and regional differences and low- and middle-income-country conditions.",
+      "uncertainty": "The public announcement does not provide the full scenario tables, regional estimates, or distributional thresholds; the direction and magnitude of divergence depend on model assumptions and policy choices.",
+      "subgroup": "Regions with different income levels, food systems, commodities, climate exposures, rural livelihoods, urban consumers, and populations experiencing hunger or malnutrition.",
+      "counterinterpretation": "Technological and economic progress can improve production while worsening affordability, biodiversity, labor conditions, land access, water stress, or dietary quality for particular groups.",
+      "source_url": "https://www.cgiar.org/news-events/news/new-ifpricgiar-report-explores-future-global-agrifood-systems-through-2050",
+      "retrieval_hash": "sha256:466814afca71143f8f8d2beff988ff5784335560b121c704a9301a1b510b4a89",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; policy, investment, and international-cooperation route",
+      "denominator": {"value": 1, "unit": "IFPRI/CGIAR agrifood-systems policy frame", "value_type": "reported_framework"},
+      "measures": {
+        "policy_role": {"value": "Policy, innovation, investment, and international cooperation are identified as critical determinants of future agrifood-system outcomes", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "decision_use": {"value": "The outlook is intended to guide investments and policy choices for resilient, sustainable, and inclusive agrifood systems", "unit": "reported use case", "value_type": "reported_use"},
+        "whole_system_route": {"value": "Changes in demand or production in one place can ripple across regions through trade, livelihoods, nutrition, land, and water use", "unit": "reported cross-system mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IFPRI/CGIAR synthesis of scenario modeling and policy implications for governments, researchers, development practitioners, and private-sector leaders.",
+      "uncertainty": "Policy relevance does not establish that recommended investments are politically feasible, financeable, locally legitimate, or sufficient to manage cross-border spillovers.",
+      "subgroup": "Governments, investors, farmers, food firms, traders, consumers, development institutions, local communities, and countries exposed to transboundary food and resource effects.",
+      "counterinterpretation": "International coordination can distribute benefits and manage spillovers, but it can also centralize decision-making, reinforce unequal bargaining power, or prioritize export and productivity goals over local food sovereignty.",
+      "source_url": "https://www.cgiar.org/news-events/news/new-ifpricgiar-report-explores-future-global-agrifood-systems-through-2050",
+      "retrieval_hash": "sha256:466814afca71143f8f8d2beff988ff5784335560b121c704a9301a1b510b4a89",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; agrifood transformation and resilience",
+      "denominator": {"value": 1, "unit": "IFPRI/CGIAR long-horizon agrifood transformation frame", "value_type": "reported_framework"},
+      "measures": {
+        "transformation": {"value": "Agrifood systems are described as undergoing rapid transformation with both opportunities and significant risks", "unit": "reported structural trend", "value_type": "reported_interpretation"},
+        "resilience_requirement": {"value": "Resilient, sustainable, and inclusive outcomes require choices across production, consumption, markets, resource use, nutrition, climate, and livelihoods rather than isolated technology interventions", "unit": "reported policy principle", "value_type": "reported_principle"},
+        "research_need": {"value": "The publication identifies areas requiring additional research and scenario analysis", "unit": "reported evidence limitation", "value_type": "reported_boundary"}
+      },
+      "method": "IFPRI peer-reviewed outlook and CGIAR summary of its scenario-based long-term analysis.",
+      "uncertainty": "The public summary does not specify all research gaps or quantify resilience, inclusiveness, or sustainability across pathways; scenario analysis cannot replace monitoring of realized outcomes.",
+      "subgroup": "Food-system researchers, public agencies, private firms, civil society, farmers, consumers, and communities managing climate, land, water, and nutrition pressures.",
+      "counterinterpretation": "A whole-system frame can reveal interdependence but may obscure conflict between objectives, making it necessary to track who gains, who pays, whose knowledge counts, and which outcomes are non-negotiable.",
+      "source_url": "https://www.cgiar.org/news-events/news/new-ifpricgiar-report-explores-future-global-agrifood-systems-through-2050",
+      "retrieval_hash": "sha256:466814afca71143f8f8d2beff988ff5784335560b121c704a9301a1b510b4a89",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hdl.handle.net/10568/185223", "claim": "CGIAR page links the freely available IFPRI Global Agrifood Systems Outlook to 2050 volume."}
+  ],
+  "boundary": "This record adds a long-horizon agrifood-systems signal linking population, income, technology, climate, food production, consumption, markets, nutrition, livelihoods, and natural resources. It is based on the official CGIAR summary of a peer-reviewed scenario volume, not a prediction, a realized-outcome evaluation, a household food-consumption dataset, or proof that projected progress will be equitable or climate-resilient.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official CGIAR publication announcement reviewed for report date, peer-reviewed status, 2050 horizon, driver set, system scope, projected progress and persistent challenges, regional divergence, policy/investment role, spillover mechanism, and scenario limitations.",
+    "source_url_sha256": "sha256:466814afca71143f8f8d2beff988ff5784335560b121c704a9301a1b510b4a89",
+    "checked": "2026-09-27"
+  }
+}

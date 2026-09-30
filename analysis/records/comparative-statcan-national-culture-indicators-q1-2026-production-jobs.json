@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-national-culture-indicators-q1-2026-production-jobs",
+  "title": "Canadian cultural output grows while cultural jobs contract, with broadcasting up and film/video down",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Statistics Canada National Culture Indicators, fourth quarter 2025 and first quarter 2026, Table 36-10-0652-01",
+  "geography": "Canada; national culture and sport sectors and selected subdomains",
+  "observations": [
+    {
+      "period": "Fourth quarter 2025 to first quarter 2026; culture and sport production",
+      "denominator": {"value": null, "unit": "Canadian national culture and sport economic-account series; GDP measured in thousands of dollars and jobs measured as jobs", "value_type": "not_disclosed"},
+      "measures": {
+        "culture_real_gdp_qoq": {"value": 0.6, "unit": "percent quarter-over-quarter change in real GDP at 2017 constant prices", "value_type": "calculated_growth_from_published_table"},
+        "culture_jobs_qoq": {"value": -0.3, "unit": "percent quarter-over-quarter change in culture-sector jobs", "value_type": "calculated_growth_from_published_table"},
+        "culture_jobs_q1_2026": {"value": 687824, "unit": "jobs in the culture sector", "value_type": "reported_level"},
+        "sport_real_gdp_qoq": {"value": -1.4, "unit": "percent quarter-over-quarter change in real sport-sector GDP", "value_type": "reported_growth"},
+        "sport_jobs_qoq": {"value": -0.3, "unit": "percent quarter-over-quarter change in sport-sector jobs", "value_type": "reported_growth"},
+        "output_jobs_tension": {"value": "real culture GDP +0.6% while culture-sector jobs -0.3%", "unit": "cross-indicator divergence", "value_type": "calculated_cross_indicator_pattern"},
+        "mechanism": {"value": "Cultural economic growth does not automatically convert into employment growth; production, pricing, productivity, subdomain mix, and worker bargaining can move differently", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Canada Table 36-10-0652-01, using real GDP at 2017 constant prices and jobs for the culture and sport totals; quarter-over-quarter changes were calculated where not directly stated.",
+      "uncertainty": "These are national economic-account estimates, not worker-level earnings, job quality, hours, contracts, firm survival, or household welfare. GDP and jobs use different accounting concepts and the divergence is not a causal productivity estimate.",
+      "subgroup": "Canadian culture and sport sectors at the national level.",
+      "counterinterpretation": "A small job decline can coexist with seasonal adjustment, occupational composition changes, productivity, multiple-job counting, or revisions; GDP growth does not prove improved worker security or cultural supply.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260707/dq260707d-eng.htm",
+      "retrieval_hash": "sha256:b45133e6532f06e19a619346f6b686831a7ec4e82edb45098246e6194d34eef4",
+      "status": "reported"
+    },
+    {
+      "period": "Fourth quarter 2025 to first quarter 2026; selected culture subdomains",
+      "denominator": {"value": null, "unit": "Canadian national culture subdomain economic-account series; real GDP at 2017 constant prices and jobs", "value_type": "not_disclosed"},
+      "measures": {
+        "broadcasting_real_gdp_qoq": {"value": 1.6, "unit": "percent quarter-over-quarter change in real broadcasting GDP", "value_type": "calculated_growth_from_published_table"},
+        "broadcasting_jobs_qoq": {"value": -1.8, "unit": "percent quarter-over-quarter change in broadcasting jobs", "value_type": "calculated_growth_from_published_table"},
+        "film_video_real_gdp_qoq": {"value": -1.1, "unit": "percent quarter-over-quarter change in real film-and-video GDP", "value_type": "calculated_growth_from_published_table"},
+        "film_video_jobs_qoq": {"value": -2.3, "unit": "percent quarter-over-quarter change in film-and-video jobs", "value_type": "calculated_growth_from_published_table"},
+        "organized_sport_real_gdp_qoq": {"value": -5.0, "unit": "percent quarter-over-quarter change in real organized-sport GDP", "value_type": "calculated_growth_from_published_table"},
+        "subdomain_mechanism": {"value": "The culture sector is internally heterogeneous: broadcasting GDP rose around major sports-media events while film/video jobs and organized-sport GDP fell, so 'the cultural economy' is not one consumer or labor market", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction and quarter-over-quarter calculation from Statistics Canada Table 36-10-0652-01 for broadcasting, film and video, and organized sport subdomains.",
+      "uncertainty": "Subdomain estimates are product-perspective economic-account indicators and are seasonally adjusted. The release notes revisions, price effects, event timing, and methodology boundaries; they do not identify audience behavior, platform concentration, worker transitions, or causal effects of major events.",
+      "subgroup": "Canadian culture subdomains: broadcasting, film and video, and organized sport.",
+      "counterinterpretation": "Broadcasting growth may reflect event rights, advertising, pricing, or accounting allocation rather than broad cultural demand; film/video job loss may reflect project timing rather than durable decline.",
+      "source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610065201",
+      "retrieval_hash": "sha256:b45133e6532f06e19a619346f6b686831a7ec4e82edb45098246e6194d34eef4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/tbl/csv/36100652-eng.zip", "claim": "Statistics Canada downloadable Table 36-10-0652-01 data and metadata used for Q4 2025 and Q1 2026 values."},
+    {"source_url": "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5364", "claim": "Provincial and Territorial Culture Indicators methodology, administrative/account sources, definitions, product and industry perspectives, revisions, and accuracy limits."},
+    {"source_url": "https://www150.statcan.gc.ca/n1/tbl1/en/tv.action?pid=3610065201", "claim": "Official table metadata, quarterly frequency, Canada geography, release date, and data-access route."}
+  ],
+  "boundary": "This record adds a national cultural-production and labor-market layer beneath consumer participation. It does not establish worker income, job quality, cultural access, audience demand, firm profitability, platform power, or causal effects of sporting events; the series remains revision-sensitive.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Canada release page, Table 36-10-0652-01 table page, full CSV download, and PTCI methodology page reviewed; Q4 2025 and Q1 2026 culture/sport totals and selected subdomain values checked.",
+    "html_sha256": "sha256:afdd3f1f1d2b729a0e662e1da31675f3d89209ee2830541ad9bedbef7b4996cb",
+    "table_zip_sha256": "sha256:b45133e6532f06e19a619346f6b686831a7ec4e82edb45098246e6194d34eef4",
+    "checked": "2026-09-30"
+  }
+}

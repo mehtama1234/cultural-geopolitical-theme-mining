@@ -1,6 +1,6 @@
 # CFPB BrightSpeed redress distribution record v1
 
-**Checked:** 2026-09-18 (official page rechecked)
+**Checked:** 2026-09-29 (official case page and payments index rechecked)
 **Status:** official aggregate compensation and distribution record; individual recovery remains unobserved
 
 ## Why this is a useful comparison
@@ -29,14 +29,32 @@ repeat effort, or later trust and service use.
 The official CFPB page still lists BrightSpeed under ongoing cases in the
 payments-by-case index. Its case page still records **July 23, 2024 –
 Ongoing: Distribution**, and the case page reports that it was last modified
-July 23, 2024. The index was last modified August 24, 2026. This is a current
+July 23, 2024. The index page was modified September 28, 2026 and still
+classifies BrightSpeed as a Civil Penalty Fund case. This is a current
 administrative status observation, not evidence that every eligible consumer
 was paid or that distribution is progressing uniformly.
 
 The recheck therefore records “ongoing distribution still reported as of
-2026-09-18,” while leaving payment issuance, successful receipt, amount,
+2026-09-29,” while leaving payment issuance, successful receipt, amount,
 residual loss, and later behavior unobserved. No administrator file or
 respondent data was downloaded.
+
+## Distribution evidence beyond the case-status page
+
+The CFPB's FY2024 financial report supplies a stronger administrative middle
+stage than the case page alone: it reports **$54,000,000 allocated**,
+**$53,885,244 distributed**, and **122,507 initial checks mailed** in FY2024
+Q4. The CFPB's July 2024 distribution announcement also embeds a geographic
+map whose accessible description reports **$53,335,244.07** distributed to the
+same 122,507 consumers. The two official amount labels differ by **$549,999.93**.
+The record preserves that discrepancy without assigning a cause; it may reflect
+different accounting or distribution stages, but the public materials checked
+here do not reconcile it.
+
+This materially advances the route from formal remedy to observable
+administrative reach. It still does not establish that checks were cashed,
+that consumers retained the funds, or that residual loss, trust, switching,
+or practical exit changed.
 
 ## End-to-end stage map
 
@@ -45,7 +63,8 @@ fraudulent technical-support payment
   -> payment-processing and enforcement record
   -> eligible-victim class and compensable-harm amount
   -> administrator and ongoing distribution
-  -> individual receipt, remaining loss, trust, switching, or exit
+  -> checks mailed and geographic distribution surface
+  -> [open] check cashing, retained amount, remaining loss, trust, switching, or exit
 ```
 
 The first four stages are directly documented by the official case page. The
@@ -68,11 +87,15 @@ require individual or privacy-approved linked follow-up.
 
 ## Next verification target
 
-Recheck the official distribution page and administrator notice for payment
-counts, issuance dates, returned or unclaimed payments, and per-class rules.
+Reconcile the CFPB financial-report amount with the distribution-map amount,
+then seek official evidence on checks cashed, returned or unclaimed payments,
+reissues, and per-consumer rules.
 Do not divide the aggregate harm amount by eligible consumers and call that an
 average recovery: the page does not establish equal eligibility, payment
 amounts, successful receipt, or full compensation.
+
+The [machine-readable current-status record](../../records/us-cfpb-brightspeed-redress-distribution-2026.json)
+preserves the case-page and index hashes, status, and freshness check.
 
 ## Source
 
@@ -81,7 +104,13 @@ The [CFPB payments-by-case index](https://www.consumerfinance.gov/enforcement/pa
 places BrightSpeed among ongoing Civil Penalty Fund cases and explains the
 different compensation routes.
 
-No data file was downloaded for this record.
+The [CFPB FY2024 financial report](https://files.consumerfinance.gov/f/documents/cfpb_financial-report-fy-2024.pdf)
+reports the initial checks mailed and amount distributed. The [CFPB July 2024
+distribution announcement](https://www.consumerfinance.gov/archive/blog/cfpb-to-distribute-more-than-53-million-to-consumers-harmed-by-brightspeed-solutions/)
+provides the geographic map and its distinct total.
+
+No administrator or respondent-level data was downloaded; only the official
+CFPB case page and payments index were retrieved and hashed.
 
 The paired [named-redress route recheck](cfpb-named-redress-route-recheck-2026-09-18.md)
 preserves the current page hash and status alongside Navient.

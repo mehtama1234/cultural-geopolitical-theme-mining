@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-jppi-israel-society-index-september-2026-election-security-social-cohesion",
+  "title": "Israeli election salience fuses security, judicial relations, unity and identity while social confidence deteriorates",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Jewish People Policy Institute, Israeli Society Index, September 2026",
+  "geography": "Israel; Jewish-sector and Arab-sector adult respondents as described by JPPI",
+  "observations": [
+    {
+      "period": "September 2026; assessments of Israel and the world",
+      "denominator": {"value": 869, "unit": "JPPI September Israeli Society Index respondents: 663 Jewish-sector and 206 Arab-sector respondents", "value_type": "reported_survey_sample"},
+      "measures": {
+        "israel_improving_continue": {"value": 35, "unit": "percent of all Israelis saying Israel is improving and will continue to improve; 43% among Jewish Israelis", "value_type": "reported_share"},
+        "israel_deteriorating_continue": {"value": 30, "unit": "percent of all Israelis saying Israel is deteriorating and will continue to deteriorate; 54% among Arab Israelis", "value_type": "reported_share"},
+        "world_deteriorating_continue": {"value": 49, "unit": "percent saying the world is deteriorating and will continue to deteriorate", "value_type": "reported_share"},
+        "domestic_world_gap": {"value": "Israelis express more confidence in Israel's ability to improve than in the world's ability, while Jewish-Arab disagreement is much larger on Israel than on the world", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "JPPI monthly society index using Madad.com Jewish-sector panel and Afkar Research Arab-sector online/telephone sample; weighted according to voting patterns and religiosity.",
+      "uncertainty": "The public report does not provide a full probability-sample design, response rate or item-level confidence intervals; cross-sector estimates should not be treated as directly interchangeable without the source weighting context.",
+      "subgroup": "Israeli adults represented by Jewish-sector and Arab-sector survey frames, with ideology and religiosity breakdowns.",
+      "counterinterpretation": "Improvement and deterioration categories can coexist with uncertainty, political mobilization or conditional optimism; these perceptions do not measure objective security, economic output or social cohesion.",
+      "source_url": "https://jppi.org.il/en/34481-2/",
+      "retrieval_hash": "sha256:bfd8b3ca9215e8a7673b2541d85ee8949578869e04490a95c50c65d43c18020a",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; past-year social, economic and security evaluation",
+      "denominator": {"value": 869, "unit": "JPPI Israeli Society Index respondents", "value_type": "reported_survey_sample"},
+      "measures": {
+        "social_year_poor": {"value": 52, "unit": "percent describing the past year as poor socially; 4% described it as good", "value_type": "reported_share"},
+        "economic_year_poor": {"value": 30, "unit": "percent describing the past year as poor economically; down from 35%", "value_type": "reported_share"},
+        "security_year_poor": {"value": 37, "unit": "percent describing the past year as poor in security terms", "value_type": "reported_share"},
+        "social_crisis_ideological_gap": {"value": "social deterioration was concentrated among center and left Jewish respondents, with poor assessments rising to 86% in the center-left and 70% in the center", "unit": "reported subgroup pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "JPPI repeated monthly item comparison for social, economic and security assessments.",
+      "uncertainty": "These are retrospective judgments, not harmonized objective measures of social, economic or security conditions; subgroup comparisons depend on the source sample and weighting.",
+      "subgroup": "All Israeli respondents with Jewish ideological breakdowns reported by JPPI.",
+      "counterinterpretation": "A negative social assessment can reflect polarization, salient conflict or institutional disagreement without indicating uniform decline in social interactions or services.",
+      "source_url": "https://jppi.org.il/en/34481-2/",
+      "retrieval_hash": "sha256:bfd8b3ca9215e8a7673b2541d85ee8949578869e04490a95c50c65d43c18020a",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; election salience and decisive issues",
+      "denominator": {"value": 869, "unit": "JPPI Israeli Society Index respondents", "value_type": "reported_survey_sample"},
+      "measures": {
+        "most_important_elections": {"value": 40, "unit": "percent saying the coming elections will be the most important in the country's history", "value_type": "reported_share"},
+        "especially_important": {"value": 41, "unit": "percent saying the coming elections will be especially important", "value_type": "reported_share"},
+        "security_decisive": {"value": 31, "unit": "percent saying who can most effectively maintain security will be decisive in their vote", "value_type": "reported_share"},
+        "judicial_relations_unity": {"value": "relations between government and judiciary and unity follow security among decisive issues, with issue priorities diverging by ideology and Jewish/Arab identity", "unit": "reported issue structure", "value_type": "reported_mechanism"}
+      },
+      "method": "JPPI election-attitudes module fielded in the September 1–3, 2026 index wave.",
+      "uncertainty": "Election importance and decisive issues are stated intentions, not turnout, vote choice, policy delivery or post-election legitimacy outcomes.",
+      "subgroup": "Israeli adults with reported Jewish ideological and Arab-sector comparisons.",
+      "counterinterpretation": "High election salience can reflect perceived stakes without increasing participation, and issue ranking does not establish which policy would satisfy voters.",
+      "source_url": "https://jppi.org.il/en/34481-2/",
+      "retrieval_hash": "sha256:bfd8b3ca9215e8a7673b2541d85ee8949578869e04490a95c50c65d43c18020a",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; identity, conflict attribution and education legitimacy",
+      "denominator": {"value": 869, "unit": "JPPI Israeli Society Index respondents, with item-specific Jewish and Arab bases", "value_type": "reported_survey_sample"},
+      "measures": {
+        "gaza_perimeter_rejected_jewish": {"value": 72, "unit": "percent of Jewish Israelis rejecting withdrawal from a Gaza security perimeter under any circumstances", "value_type": "reported_share"},
+        "full_occupation_support_jewish": {"value": 36, "unit": "percent of Jewish Israelis generally agreeing with full occupation and IDF administration of Gaza for several years", "value_type": "reported_share"},
+        "antisemitism_policy_connection": {"value": "34% of Israelis said the rise in antisemitism is to a great extent because of Israeli policy, while 36% said not at all", "unit": "reported attribution split", "value_type": "reported_share"},
+        "education_not_good": {"value": 35, "unit": "percent describing Israel's education system as not good, up from 32% in 2024", "value_type": "reported_share"},
+        "education_curriculum_contest": {"value": "Jewish studies and civics divide curriculum priorities across religiosity and Jewish-Arab identity", "unit": "reported legitimacy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "JPPI conflict, identity, antisemitism-attribution and education modules; items are separate and should not be pooled as one attitude scale.",
+      "uncertainty": "The report measures perceptions and normative preferences; it does not establish conflict conduct, antisemitism prevalence, educational quality, causal polarization or future policy behavior.",
+      "subgroup": "Israeli adults, with Jewish/Arab, ideological and religiosity breakdowns.",
+      "counterinterpretation": "Strong security preferences can coexist with concern about social decline or education; disagreement over attribution does not imply absence of shared institutions or future compromise.",
+      "source_url": "https://jppi.org.il/en/34481-2/",
+      "retrieval_hash": "sha256:bfd8b3ca9215e8a7673b2541d85ee8949578869e04490a95c50c65d43c18020a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://jppi.org.il/en/", "claim": "JPPI Israeli Society Index programme and institutional context.", "status": "institutional-source"}
+  ],
+  "boundary": "This record adds a geopolitical-cultural legitimacy route: security, judicial relations, unity, identity, conflict attribution and education are interpreted together as election stakes, while Jewish-Arab, ideological and religiosity differences remain central. It uses a weighted monthly panel and mixed Jewish/Arab survey frames, not a probability sample with fully disclosed uncertainty; it does not establish objective conditions, causality, turnout, policy delivery, conflict outcomes or durable cohesion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The JPPI September 2026 Israeli Society Index page was reviewed for field dates, sample frames, domestic/world outlook, social/economic/security assessments, election salience, decisive issues, Gaza preferences, antisemitism attribution and education-system judgments.",
+    "source_page_sha256": "sha256:bfd8b3ca9215e8a7673b2541d85ee89490a95c50c65d43c18020a",
+    "checked": "2026-09-29"
+  }
+}

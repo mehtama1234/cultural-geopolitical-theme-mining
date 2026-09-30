@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eia-steo-september-2026-electricity-demand-data-centers-household-prices",
+  "title": "U.S. electricity demand is being pulled by data centers and manufacturing while households remain exposed to energy-price and grid-capacity pressures",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "infrastructure_technology_dependency", "firm_sector_market_power", "geopolitical_state_consequences", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "U.S. Energy Information Administration September 2026 Short-Term Energy Outlook; model forecast completed September 3, 2026",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026-2027; U.S. electricity sales forecast",
+      "denominator": {"value": 1, "unit": "EIA national energy-market forecast; billion kilowatthours", "value_type": "model_forecast"},
+      "measures": {
+        "us_electricity_sales_2026": {"value": 4135, "unit": "billion kilowatthours", "value_type": "forecast_level"},
+        "us_electricity_sales_2027": {"value": 4211, "unit": "billion kilowatthours", "value_type": "forecast_level"},
+        "commercial_industrial_demand_driver": {"value": 1, "unit": "data centers and increased manufacturing activity identified as major drivers of forecast growth", "value_type": "reported_driver"},
+        "west_south_central_growth_position": {"value": 1, "unit": "West South Central region accounts for the largest share of forecast U.S. electricity-sales growth", "value_type": "regional_pattern"}
+      },
+      "method": "EIA Short-Term Energy Outlook model forecast released September 9, 2026; forecast inputs finalized September 3 and include sector and regional electricity sales.",
+      "uncertainty": "This is a conditional forecast, not an observed demand outcome; it depends on macroeconomic, weather, fuel-price, facility-connection, and geopolitical assumptions and excludes events after the model cutoff.",
+      "subgroup": "U.S. electricity market overall, with commercial, industrial, residential, and regional components.",
+      "counterinterpretation": "Higher electricity sales can reflect productive investment or electrification rather than household harm; demand growth does not by itself show who pays, who benefits, or whether reliability improves.",
+      "source_url": "https://www.eia.gov/outlooks/steo/report/",
+      "retrieval_hash": "sha256:30bf18e11308d022915aeecbeb191770cc9e244b4aa0f4282e401d2176632e91",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2027; sectoral electricity-demand rebalancing",
+      "denominator": {"value": 100, "unit": "U.S. electricity sales by sector in the EIA forecast; sector levels are not household shares", "value_type": "model_forecast"},
+      "measures": {
+        "residential_sales_growth_2026": {"value": 0, "unit": "qualitative September forecast: residential demand grows more slowly than commercial and industrial demand", "value_type": "reported_pattern"},
+        "commercial_industrial_growth_link": {"value": 1, "unit": "commercial and industrial demand growth linked to data centers and manufacturing", "value_type": "reported_driver"},
+        "commercial_demand_surpass_residential": {"value": 1, "unit": "EIA forecast condition: commercial demand is expected to surpass residential demand in 2027", "value_type": "forecast_condition"},
+        "texas_manufacturing_data_center_exposure": {"value": 1, "unit": "West South Central demand growth is strongest, driven by data-center and manufacturing growth in Texas", "value_type": "regional_pattern"}
+      },
+      "method": "EIA sector-level electricity-sales forecast; commercial includes data centers and industrial demand includes manufacturing activity.",
+      "uncertainty": "Sector demand forecasts do not identify local transmission constraints, utility rate design, household bill impacts, employment quality, or the distribution of tax and land-use benefits.",
+      "subgroup": "Residential, commercial, and industrial electricity sectors, with regional emphasis on West South Central states.",
+      "counterinterpretation": "Commercial demand growth can finance grid investment and local economic activity; a sectoral crossover is not itself evidence of household crowd-out or political conflict.",
+      "source_url": "https://www.eia.gov/outlooks/steo/report/",
+      "retrieval_hash": "sha256:30bf18e11308d022915aeecbeb191770cc9e244b4aa0f4282e401d2176632e91",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; U.S. energy-price and geopolitical assumptions",
+      "denominator": {"value": 1, "unit": "EIA short-term energy-market scenario and forecast assumptions", "value_type": "model_scenario"},
+      "measures": {
+        "global_oil_price_august_2026": {"value": 91, "unit": "dollars per barrel average global oil price in August 2026", "value_type": "reported_market_value"},
+        "global_oil_inventory_change_2026": {"value": -400, "unit": "million barrels estimated decline in global oil inventories year to date", "value_type": "reported_market_value"},
+        "middle_east_production_assumption": {"value": 1, "unit": "production remains below pre-conflict averages until the second quarter of 2027 under the forecast assumptions", "value_type": "scenario_assumption"},
+        "regional_energy_price_exposure": {"value": 1, "unit": "EIA identifies fuel prices, transmission-grid reinforcement for extreme weather, and rising power demand as rate pressures in affected regions", "value_type": "reported_mechanism"}
+      },
+      "method": "EIA scenario and market assumptions used in the September 2026 STEO; global conflict and energy-flow conditions are inputs to the U.S. forecast rather than a causal estimate of household exposure.",
+      "uncertainty": "Geopolitical flows, inventories, weather, production, and policy can change rapidly; scenario assumptions are not observed outcomes or probability statements about a single future.",
+      "subgroup": "U.S. energy consumers and energy-producing, importing, exporting, and grid-constrained regions.",
+      "counterinterpretation": "Domestic production, storage, substitution, and infrastructure investment can buffer external shocks; global price exposure does not imply uniform U.S. vulnerability.",
+      "source_url": "https://www.eia.gov/outlooks/steo/report/",
+      "retrieval_hash": "sha256:30bf18e11308d022915aeecbeb191770cc9e244b4aa0f4282e401d2176632e91",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2027; energy-related emissions and generation mix forecast",
+      "denominator": {"value": 1, "unit": "U.S. energy-related emissions forecast; million metric tons and percentage changes", "value_type": "model_forecast"},
+      "measures": {
+        "energy_related_co2_change_2026": {"value": -1.7, "unit": "percent change from 2025", "value_type": "forecast_change"},
+        "energy_related_co2_change_2027": {"value": -0.1, "unit": "percent change from 2026", "value_type": "forecast_change"},
+        "natural_gas_generation_change_2026": {"value": 2, "unit": "percent increase in U.S. natural-gas electricity generation", "value_type": "forecast_change"},
+        "coal_generation_change_2026": {"value": -8, "unit": "percent change in U.S. coal generation", "value_type": "forecast_change"},
+        "coal_generation_change_2027": {"value": -6, "unit": "percent change in U.S. coal generation", "value_type": "forecast_change"}
+      },
+      "method": "EIA forecast of U.S. electricity generation by fuel and energy-related carbon dioxide emissions.",
+      "uncertainty": "Emissions and generation outcomes depend on fuel prices, weather, demand, plant availability, policy, and facility timing; the forecast does not measure local pollution, health effects, or household energy burden.",
+      "subgroup": "U.S. electric-power sector and energy-related emissions overall.",
+      "counterinterpretation": "Lower aggregate emissions can coexist with local exposure, higher household prices, or unequal access to clean-energy benefits; generation mix is not a complete climate-justice measure.",
+      "source_url": "https://www.eia.gov/outlooks/steo/report/",
+      "retrieval_hash": "sha256:30bf18e11308d022915aeecbeb191770cc9e244b4aa0f4282e401d2176632e91",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.eia.gov/consumption/residential/", "claim": "EIA RECS supplies observed U.S. household energy-use, housing-characteristic, and energy-insecurity context.", "status": "related", "access_boundary": "STEO is a macro forecast and does not replace household-level RECS observations."},
+    {"source_url": "https://www.eia.gov/outlooks/steo/data/browser/", "claim": "The STEO data browser provides historical and forecast series underlying the outlook.", "status": "related", "access_boundary": "Forecast series remain model outputs and should not be treated as observed prices, bills, or welfare."}
+  ],
+  "boundary": "This record establishes EIA's September 2026 U.S. energy-market forecasts and assumptions around electricity demand, sectoral drivers, geopolitical energy exposure, generation mix, and emissions. It does not establish realized household bills, energy insecurity, local reliability, health effects, political response, or causal effects of data centers, manufacturing, fuel prices, or grid investment."
+}

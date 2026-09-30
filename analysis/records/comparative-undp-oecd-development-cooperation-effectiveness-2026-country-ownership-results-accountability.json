@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-oecd-development-cooperation-effectiveness-2026-country-ownership-results-accountability",
+  "title": "Development cooperation is being judged by country ownership, results, inclusion, transparency, and mutual accountability rather than financial volume alone",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD-UNDP, Making Development Co-operation More Effective: Progress Report 2026",
+  "geography": "Global development-cooperation partnerships reporting across partner-country governments, development partners, civil society, trade unions, and private-sector representatives",
+  "observations": [
+    {
+      "period": "2023–2026 Global Partnership monitoring round",
+      "denominator": {"value": 44, "unit": "partner-country governments reporting in the monitoring round", "value_type": "reported_participant_count"},
+      "measures": {
+        "partner_count": {"value": 93, "unit": "development partners reporting in the monitoring round", "value_type": "reported_participant_count"},
+        "stakeholder_scope": {"value": "Civil-society organizations, trade unions, and private-sector representatives also contributed to the monitoring round", "unit": "reported stakeholder scope", "value_type": "reported_framework"},
+        "monitoring_period": {"value": "2023–2026", "unit": "reported monitoring cycle", "value_type": "reported_period"}
+      },
+      "method": "Global Partnership monitoring round summarized by OECD and UNDP using reporting from partner-country governments, development partners, civil society, trade unions, and private-sector representatives.",
+      "uncertainty": "The public summary establishes reporting participation and the monitoring scope but does not by itself show response completeness, indicator-level results, causal effects, or representativeness of all development cooperation.",
+      "subgroup": "Partner-country governments, ministries, local institutions, development partners, civil society, trade unions, private firms, and communities affected by development programs.",
+      "counterinterpretation": "Broad reporting participation can improve accountability while still favoring institutions with data capacity and leaving informal, marginalized, or politically weaker actors underrepresented.",
+      "source_url": "https://www.undp.org/publications/making-development-co-operation-more-effective-progress-report-2026",
+      "retrieval_hash": "sha256:4d3ef4cee847e5ff0f1887d68978c976d5e89489aeebff8524dc649f572ce220",
+      "status": "reported"
+    },
+    {
+      "period": "2026 progress-report framework",
+      "denominator": {"value": 1, "unit": "Global Partnership development-cooperation effectiveness agenda", "value_type": "reported_framework"},
+      "measures": {
+        "ownership": {"value": "Country ownership is treated as a core condition of more effective development cooperation", "unit": "reported effectiveness principle", "value_type": "reported_principle"},
+        "results": {"value": "The agenda emphasizes focus on results rather than inputs or announcements alone", "unit": "reported effectiveness principle", "value_type": "reported_principle"},
+        "partnership_quality": {"value": "Inclusive partnerships, transparency, and mutual accountability are presented as central dimensions of cooperation quality", "unit": "reported governance principle", "value_type": "reported_framework"}
+      },
+      "method": "OECD-UNDP progress synthesis of the Global Partnership monitoring round and its aid-effectiveness agenda.",
+      "uncertainty": "Normative principles do not demonstrate that country ownership is real, that results are attributable to cooperation, or that transparency and accountability are distributed equally across partners.",
+      "subgroup": "Government ministries, local authorities, civil society, workers, firms, donors, implementing agencies, and intended program beneficiaries.",
+      "counterinterpretation": "Country ownership can improve fit and legitimacy, but governments themselves may not represent all affected groups; strong results frameworks can also privilege measurable outputs over cultural, political, or relational value.",
+      "source_url": "https://www.undp.org/publications/making-development-co-operation-more-effective-progress-report-2026",
+      "retrieval_hash": "sha256:4d3ef4cee847e5ff0f1887d68978c976d5e89489aeebff8524dc649f572ce220",
+      "status": "reported"
+    },
+    {
+      "period": "2026; evidence-to-action transition",
+      "denominator": {"value": 1, "unit": "2026 progress-report use case", "value_type": "reported_use_case"},
+      "measures": {
+        "diagnostic_function": {"value": "The report provides a snapshot of progress, challenges, and emerging opportunities in making development cooperation more effective", "unit": "reported publication function", "value_type": "reported_use"},
+        "action_route": {"value": "It aims to move from evidence to jointly agreed action among partner-country governments and their partners", "unit": "reported implementation route", "value_type": "reported_recommendation"},
+        "development_link": {"value": "The stated purpose is to strengthen partnership quality and accelerate progress toward the 2030 Agenda and SDGs", "unit": "reported policy objective", "value_type": "reported_objective"}
+      },
+      "method": "Progress report translating monitoring evidence into a shared action agenda for development-cooperation actors.",
+      "uncertainty": "A shared action agenda does not establish agreement on priorities, financing, implementation authority, or whether changes will improve outcomes for affected populations.",
+      "subgroup": "Governments, development partners, civil society, trade unions, private-sector actors, implementing organizations, and communities seeking influence over development choices.",
+      "counterinterpretation": "Joint action can reduce fragmentation, but consensus-oriented processes can also smooth over power asymmetries, conflict, and disagreement about whose definition of results should prevail.",
+      "source_url": "https://www.undp.org/publications/making-development-co-operation-more-effective-progress-report-2026",
+      "retrieval_hash": "sha256:4d3ef4cee847e5ff0f1887d68978c976d5e89489aeebff8524dc649f572ce220",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-sector development-cooperation governance",
+      "denominator": {"value": 1, "unit": "Global Partnership cooperation-governance frame", "value_type": "reported_framework"},
+      "measures": {
+        "institutional_route": {"value": "Development cooperation is framed as a relationship among national institutions, external partners, civil society, workers, and firms rather than a one-way donor transfer", "unit": "reported governance model", "value_type": "reported_interpretation"},
+        "accountability_route": {"value": "Transparency and mutual accountability are intended to make commitments, implementation, and results visible across partners", "unit": "reported accountability route", "value_type": "reported_mechanism"},
+        "system_condition": {"value": "The report treats partnership quality and institutional coordination as conditions for accelerating sustainable development", "unit": "reported systems condition", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD-UNDP institutional synthesis of development-cooperation monitoring and partnership practices.",
+      "uncertainty": "The cooperation frame does not measure bargaining power, resource control, local implementation capacity, or downstream changes in household, worker, or community outcomes.",
+      "subgroup": "National and local governments, donors, multilateral institutions, workers, civil society, private firms, and populations receiving or affected by development investments.",
+      "counterinterpretation": "Multi-actor governance can surface knowledge and improve coordination, but it may also increase transaction costs and create accountability gaps when responsibility is distributed across many organizations.",
+      "source_url": "https://www.undp.org/publications/making-development-co-operation-more-effective-progress-report-2026",
+      "retrieval_hash": "sha256:4d3ef4cee847e5ff0f1887d68978c976d5e89489aeebff8524dc649f572ce220",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a development-cooperation governance signal linking country ownership, results, inclusive partnerships, transparency, mutual accountability, institutional coordination, and implementation. It is a progress-monitoring and policy report, not a respondent-level dataset, causal impact evaluation, complete aid inventory, or proof that shared action improves realized outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP publication page reviewed for publication date, 2023–2026 monitoring round, 44 partner-country governments, 93 development partners, stakeholder scope, country ownership, results, inclusive partnerships, transparency, mutual accountability, and evidence-to-action framing.",
+    "source_url_sha256": "sha256:4d3ef4cee847e5ff0f1887d68978c976d5e89489aeebff8524dc649f572ce220",
+    "checked": "2026-09-27"
+  }
+}

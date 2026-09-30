@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ifrc-world-disasters-report-2026-harmful-information-trust-aid",
+  "title": "In crises, harmful information is becoming an operational hazard that can determine aid access, safety, dignity, trust, and recovery",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "IFRC World Disasters Report 2026: Truth, Trust and Humanitarian Action in the Age of Harmful Information",
+  "geography": "Global humanitarian operations and communities affected by disasters, public-health emergencies, migration, and conflict",
+  "observations": [
+    {
+      "period": "2026 report; global humanitarian information environments",
+      "denominator": {"value": 60, "unit": "organizations contributing written insights to the report, including more than 30 National Red Cross and Red Crescent Societies", "value_type": "reported_contributor_frame"},
+      "measures": {
+        "harmful_information_status": {"value": "Harmful information is framed as a de facto humanitarian crisis that undermines aid access, erodes trust, misleads communities, deepens vulnerability, and destabilizes social cohesion", "unit": "reported humanitarian risk frame", "value_type": "reported_interpretation"},
+        "scope": {"value": "Misinformation, disinformation, dehumanizing narratives, rumours, myths, and propaganda moving across online and offline channels", "unit": "reported information-harm scope", "value_type": "reported_scope"},
+        "operational_effect": {"value": "Information reliability is treated as part of preparedness, response, recovery, acceptance, safety, and principled humanitarian action", "unit": "reported operational mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IFRC flagship report synthesis drawing on nearly 100 written contributions from more than 60 practitioners and researchers across humanitarian organizations, governments, academia, civil society, and related fields.",
+      "uncertainty": "This is a sector synthesis and operational risk assessment, not a global prevalence estimate or a single causal study; the term harmful information is intentionally impact-focused and context-dependent rather than a universally standardized classification.",
+      "subgroup": "People affected by disasters, public-health emergencies, migration, and conflict; humanitarian staff and volunteers; local leaders; governments; media; technology companies; and civil-society organizations.",
+      "counterinterpretation": "Information can also guide people to safety, connect families, support community voice, and improve accountability; harmful effects vary by trust, channel, context, access, language, and institutional conduct.",
+      "source_url": "https://www.ifrc.org/sites/default/files/2026-02/WDR2026_Synthesis_EN.pdf",
+      "retrieval_hash": "sha256:2460c264ced449ba35f4aa743a1dcd77bbc549e15e8a863026f2e1d2d647a018",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; community intelligence study for the World Disasters Report",
+      "denominator": {"value": 132, "unit": "volunteers and community members affected by humanitarian crises interviewed in the report's rapid community intelligence study", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "researchers": {"value": 40, "unit": "volunteers and staff from 10 National Societies acting as community researchers", "value_type": "reported_research_frame"},
+        "community_input": {"value": "Local perspectives were collected and synthesized to preserve community nuance in the report's analysis of harmful information and trust", "unit": "reported qualitative mechanism", "value_type": "reported_method"},
+        "localization_signal": {"value": "Trust, feedback, local voices, and community participation are treated as operational capacities rather than merely communication outputs", "unit": "reported institutional implication", "value_type": "reported_implication"}
+      },
+      "method": "Two-month rapid community intelligence study led by the IFRC Solferino Academy; 40 volunteers and staff from 10 National Societies interviewed 132 affected volunteers and community members, with synthesis by volunteer academics from three universities.",
+      "uncertainty": "The study is purposive and qualitative, not representative of all affected populations or crises; its value is contextual insight and local nuance, not prevalence or population-level effect estimation.",
+      "subgroup": "Volunteers, staff, community members affected by humanitarian crises, National Societies, local leaders, and researchers supporting community-informed response.",
+      "counterinterpretation": "Community participation can be uneven or risky in polarized environments; local voices may be excluded, co-opted, exposed to retaliation, or treated as symbolic without decision power and feedback loops.",
+      "source_url": "https://www.ifrc.org/sites/default/files/2026-02/WDR2026_Synthesis_EN.pdf",
+      "retrieval_hash": "sha256:2460c264ced449ba35f4aa743a1dcd77bbc549e15e8a863026f2e1d2d647a018",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; Red Cross and Red Crescent duty-of-care context reported in the 2026 foreword",
+      "denominator": {"value": 1, "unit": "IFRC report foreword's staff and volunteer safety account", "value_type": "reported_safety_frame"},
+      "measures": {
+        "2024_deaths": {"value": 32, "unit": "Red Cross and Red Crescent volunteers and staff reported killed while on duty in 2024", "value_type": "reported_count"},
+        "2025_deaths": {"value": 27, "unit": "additional volunteers and staff reported killed while on duty in 2025", "value_type": "reported_count"},
+        "information_security_link": {"value": "The report links mistrust, hostility, inflammatory narratives, and attacks on the protective emblem to the operational space needed by humanitarian personnel", "unit": "reported safety mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Counts and interpretation reproduced from the IFRC Secretary General's foreword in the official report synthesis.",
+      "uncertainty": "The foreword's counts are not a complete global accounting of all humanitarian-worker deaths or a causal attribution to harmful information; the report uses them to illustrate duty-of-care and trust risks.",
+      "subgroup": "Humanitarian volunteers and staff, affected communities, local partners, armed and political actors, media, and institutions responsible for protecting humanitarian access.",
+      "counterinterpretation": "Worker deaths arise from multiple hazards including conflict, crime, accidents, and unsafe environments; information harm may compound risk without being the primary cause in each case.",
+      "source_url": "https://www.ifrc.org/sites/default/files/2026-02/WDR2026_Synthesis_EN.pdf",
+      "retrieval_hash": "sha256:2460c264ced449ba35f4aa743a1dcd77bbc549e15e8a863026f2e1d2d647a018",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; resilience roadmap for humanitarian information environments",
+      "denominator": {"value": 8, "unit": "core pillars in the IFRC roadmap for resilience against harmful information", "value_type": "reported_framework_count"},
+      "measures": {
+        "trust_as_asset": {"value": "Trust is identified as a strategic asset supporting access, operational effectiveness, delivery, and legitimacy", "unit": "reported roadmap pillar", "value_type": "reported_principle"},
+        "resilience_actions": {"value": "The roadmap embeds trust, community engagement and accountability, safer access, programme design, preparedness, risk management, communication, data transparency, local voices, and feedback", "unit": "reported action set", "value_type": "reported_action_framework"},
+        "trust_continuum": {"value": "Trust is described as something that must be repeatedly earned and demonstrated: tell me, show me, prove it, keep proving it", "unit": "reported trust mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IFRC synthesis of eight roadmap pillars and cross-cutting prerequisites for short-, medium-, and longer-term humanitarian resilience.",
+      "uncertainty": "The roadmap is a normative and operational framework; it does not by itself demonstrate implementation, resource sufficiency, or improved outcomes across humanitarian contexts.",
+      "subgroup": "States, humanitarian organizations, technology companies, media, communities, local leaders, donors, and data and accountability teams.",
+      "counterinterpretation": "Trust-building can become a messaging exercise if organizations do not change conduct, share control, address grievances, protect data, and demonstrate visible accountability.",
+      "source_url": "https://www.ifrc.org/sites/default/files/2026-02/WDR2026_Synthesis_EN.pdf",
+      "retrieval_hash": "sha256:2460c264ced449ba35f4aa743a1dcd77bbc549e15e8a863026f2e1d2d647a018",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ifrc.org/document/world-disasters-report-2026", "claim": "Official IFRC landing page describes the report's scope, contributors, crisis settings, and downloadable synthesis and chapters."}
+  ],
+  "boundary": "This record adds a humanitarian information-resilience signal linking misinformation, disinformation, dehumanizing narratives, trust, aid access, safety, social cohesion, local participation, and data systems. It is a sector synthesis and operational roadmap, not a global prevalence study, a causal estimate of information effects, a representative community survey, or proof that the recommended pillars are implemented or effective everywhere.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IFRC World Disasters Report 2026 synthesis PDF reviewed for contributor scope, community intelligence study, harmful-information definition and crisis framing, staff-safety context, data transparency, and eight-pillar resilience roadmap.",
+    "source_url_sha256": "sha256:2460c264ced449ba35f4aa743a1dcd77bbc549e15e8a863026f2e1d2d647a018",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-spate-global-culture-shifts-2026-search-social-wellness",
+  "title": "Consumer culture is translating ambient pressure, nostalgia, self-optimization, and spirituality into searchable and social product demand",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Spate, 2026 Global Culture Shifts Report",
+  "geography": "Global consumer-culture signals observed through Google Search, TikTok, and Instagram, with emphasis on beauty, wellness, and pop culture",
+  "observations": [
+    {
+      "period": "2026 report; global cultural-theme and demand-signal frame",
+      "denominator": {"value": 3, "unit": "search and social platforms used as cultural-signal inputs: Google Search, TikTok, and Instagram", "value_type": "reported_signal_frame"},
+      "measures": {
+        "cultural_themes": {"value": 6, "unit": "global cultural movements identified by the report", "value_type": "reported_theme_count"},
+        "categories": {"value": "beauty, wellness, and pop culture", "unit": "report category frame", "value_type": "reported_market_scope"},
+        "signal_arc": {"value": "TikTok is framed as discovery and spread, Google Search as intent, and Instagram as aesthetic identity", "unit": "report platform interpretation", "value_type": "reported_platform_route"}
+      },
+      "method": "Spate commercial trend-forecasting synthesis of cultural signals across Google Search, TikTok, and Instagram, translated into consumer-demand themes.",
+      "uncertainty": "The landing page does not provide the underlying query volumes, sampling frame, platform coverage, coding rules, or causal validation; platform signals are not population prevalence or purchase records.",
+      "subgroup": "Consumers, creators, beauty and wellness audiences, pop-culture communities, brands, agencies, and platform users whose attention and identity are mediated through search and social discovery.",
+      "counterinterpretation": "A visible or growing signal may reflect platform recommendation, media amplification, seasonal language, or commercial interest rather than durable cultural change or broad consumer adoption.",
+      "source_url": "https://www.spate.nyc/reports/2026-global-culture-shifts-report",
+      "retrieval_hash": "sha256:bba30b44778d8468d73077a8b9c7a09795c937c74446130aae073155403350fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; six cultural movements",
+      "denominator": {"value": 6, "unit": "cultural movements identified in the report", "value_type": "reported_theme_frame"},
+      "measures": {
+        "nervous_system_maxxing": {"value": "consumer interest organized around nervous-system regulation and the management of felt stress", "unit": "report theme label and interpretation", "value_type": "reported_cultural_theme"},
+        "optimization_mindset": {"value": "consumer interest organized around self-improvement and optimization", "unit": "report theme label and interpretation", "value_type": "reported_cultural_theme"},
+        "topical_wearable_wellness": {"value": "wellness expressed through topical and wearable products", "unit": "report theme label and interpretation", "value_type": "reported_cultural_theme"},
+        "nostalgia_mania": {"value": "nostalgia and Y2K references used as cultural and commercial signals", "unit": "report theme label and interpretation", "value_type": "reported_cultural_theme"},
+        "analog_obsession": {"value": "renewed interest in analog hobbies and offline practices", "unit": "report theme label and interpretation", "value_type": "reported_cultural_theme"},
+        "mystic_momentum": {"value": "growing cultural interest in mystical or spiritual meaning-making", "unit": "report theme label and interpretation", "value_type": "reported_cultural_theme"}
+      },
+      "method": "Commercial trend-forecasting classification of search and social cultural movements with category implications for beauty, wellness, and pop culture.",
+      "uncertainty": "Theme labels are interpretive and market-facing; they do not establish psychological prevalence, demographic representativeness, clinical efficacy, or a shared meaning across markets.",
+      "subgroup": "People seeking stress regulation, self-improvement, wellness products, nostalgic identity, offline practices, spiritual meaning, and community through consumer or cultural participation.",
+      "counterinterpretation": "These themes can coexist with skepticism, non-purchase, parody, unequal access, or temporary trend cycles; a cultural label does not imply a unified movement or need.",
+      "source_url": "https://www.spate.nyc/reports/2026-global-culture-shifts-report",
+      "retrieval_hash": "sha256:bba30b44778d8468d73077a8b9c7a09795c937c74446130aae073155403350fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; cultural pressure and product innovation",
+      "denominator": {"value": 1, "unit": "commercial cultural-demand interpretation", "value_type": "reported_market_interpretation_frame"},
+      "measures": {
+        "pressure_to_demand": {"value": "modern-life pressures are interpreted as reshaping what consumers seek from brands", "unit": "report synthesis", "value_type": "reported_cultural_mechanism"},
+        "product_innovation": {"value": "cultural shifts are framed as influencing product innovation, positioning, and content strategy", "unit": "report synthesis", "value_type": "reported_commercial_mechanism"},
+        "identity_and_purchase": {"value": "search intent, social discovery, and aesthetic identity are presented as connected stages from inspiration to purchase", "unit": "report platform interpretation", "value_type": "reported_consumer_route"}
+      },
+      "method": "Publisher interpretation connecting cultural movements to brand strategy, category innovation, content, and consumer demand.",
+      "uncertainty": "The commercial route is a hypothesis for brand strategy, not an independent causal model linking cultural pressure to product purchase or wellbeing.",
+      "subgroup": "Consumers encountering cultural content, brands and agencies translating signals into offers, creators shaping discovery, and platforms ranking attention.",
+      "counterinterpretation": "Brands can manufacture or amplify a cultural frame after it appears; apparent consumer demand may be partly an effect of marketing and platform distribution rather than an upstream social cause.",
+      "source_url": "https://www.spate.nyc/reports/2026-global-culture-shifts-report",
+      "retrieval_hash": "sha256:bba30b44778d8468d73077a8b9c7a09795c937c74446130aae073155403350fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; platform-mediated cultural discovery",
+      "denominator": {"value": 3, "unit": "platform roles in the report’s cultural-discovery arc", "value_type": "reported_platform_frame"},
+      "measures": {
+        "discovery": {"value": "TikTok is identified as the primary engine of cultural discovery and spread", "unit": "report platform interpretation", "value_type": "reported_platform_role"},
+        "intent": {"value": "Google Search is identified as a capture point for consumer intent", "unit": "report platform interpretation", "value_type": "reported_platform_role"},
+        "aesthetic_identity": {"value": "Instagram is identified as reinforcing aesthetic identity", "unit": "report platform interpretation", "value_type": "reported_platform_role"},
+        "conversion_arc": {"value": "the combined platforms are framed as mapping an arc from inspiration to purchase", "unit": "report platform interpretation", "value_type": "reported_consumer_conversion_route"}
+      },
+      "method": "Platform-role synthesis in a commercial trend-forecasting report.",
+      "uncertainty": "Platform roles are not mutually exclusive and vary by user, market, algorithm, category, and time; the report does not establish attribution or conversion rates.",
+      "subgroup": "Creators, consumers, brands, agencies, platform operators, and communities whose cultural visibility depends on recommendation, search ranking, and aesthetic circulation.",
+      "counterinterpretation": "Discovery, intent, identity, and purchase can occur outside these platforms; platform visibility can also suppress minority, local, or non-commercial cultural practices.",
+      "source_url": "https://www.spate.nyc/reports/2026-global-culture-shifts-report",
+      "retrieval_hash": "sha256:bba30b44778d8468d73077a8b9c7a09795c937c74446130aae073155403350fd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.spate.nyc/", "claim": "Spate publisher context as an AI-powered trend-forecasting platform for consumer brands."},
+    {"source_url": "https://www.spate.nyc/reports/2026-global-culture-shifts-report", "claim": "Official report landing page with six themes and platform-signal framing."}
+  ],
+  "boundary": "This record adds a culture, wellness, identity, platform-attention, and consumer-demand route. It uses a commercial trend-forecasting landing page, not respondent-level ingestion, raw search or social data, a representative cultural survey, clinical evidence, a causal purchase model, or proof that the six movements are durable or globally prevalent.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Spate 2026 Global Culture Shifts Report page reviewed for six cultural movements, category scope, platform roles, and the inspiration-to-purchase interpretation.",
+    "source_url_sha256": "sha256:bba30b44778d8468d73077a8b9c7a09795c937c74446130aae073155403350fd",
+    "checked": "2026-09-27"
+  }
+}

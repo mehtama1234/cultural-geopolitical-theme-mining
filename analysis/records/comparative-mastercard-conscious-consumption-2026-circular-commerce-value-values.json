@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mastercard-conscious-consumption-2026-circular-commerce-value-values",
+  "title": "Conscious consumption is moving from stated intention toward circular commerce when affordability, durability, trust, and access make the lower-impact choice practical",
+  "theme_ids": ["cost", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Mastercard Economics Institute, The Next Era of Conscious Consumption, 2026, with Global Financial Sentiment Study and GlobeScan Healthy and Sustainable Living inputs",
+  "geography": "Global consumer and spending frame, with comparisons across markets, generations, categories, and the United States",
+  "observations": [
+    {
+      "period": "2025-2026; reported purchasing priorities and value-versus-values trade-off",
+      "denominator": {"value": 1, "unit": "global consumer-sentiment frame assembled by Mastercard and partners", "value_type": "consumer_research_frame"},
+      "measures": {
+        "cost_priority": {"value": 63, "unit": "percent identifying cost as an important purchasing factor", "value_type": "reported_share"},
+        "longevity_priority": {"value": 52, "unit": "percent identifying product longevity as an important purchasing factor", "value_type": "reported_share"},
+        "brand_trust_priority": {"value": 45, "unit": "percent identifying brand trust as an important purchasing factor", "value_type": "reported_share"},
+        "values_over_price": {"value": 54, "unit": "percent saying they choose brands or products aligned with their values even when they cost more", "value_type": "reported_share"},
+        "cost_barrier": {"value": 50, "unit": "percent saying healthier and more sustainable lifestyle changes are too expensive", "value_type": "reported_share"}
+      },
+      "method": "Synthesis of Mastercard financial-sentiment research, Mastercard Economics Institute spending analysis, and GlobeScan sustainability research, with reported comparisons of purchase factors and trade-offs.",
+      "uncertainty": "The source combines survey responses, partner research, and Mastercard network spending signals with different samples, definitions, and coverage; stated preference is not observed purchase behavior for the same people.",
+      "subgroup": "Consumers facing different prices, product lifetimes, trust conditions, values, income constraints, and access to lower-impact purchase options.",
+      "counterinterpretation": "Values can influence purchases even under cost pressure, but a stated willingness to pay more does not establish ability to pay, repeat behavior, or broad sustainability impact.",
+      "source_url": "https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/insights/2026/the-new-era-of-conscious-consumption/Mastercard_The%20next%20era%20of%20conscious%20consumption.pdf",
+      "retrieval_hash": "sha256:159942a80cf60309463ac88ff0949457a79113433cf7e0f20bfa00912af72619",
+      "status": "reported"
+    },
+    {
+      "period": "2025; circular-shopping spending and consumer motivation",
+      "denominator": {"value": 20, "unit": "top circular-shopping economies in Mastercard Economics Institute comparison", "value_type": "spending_market_frame"},
+      "measures": {
+        "secondhand_clothing_growth": {"value": 28, "unit": "percent year-over-year growth in secondhand clothing sales in the top 20 circular-shopping economies", "value_type": "reported_spending_growth"},
+        "clothing_store_growth": {"value": 8, "unit": "percent year-over-year growth in clothing-store sales in the same comparison", "value_type": "reported_spending_growth"},
+        "used_purchase_price_motivation": {"value": 78, "unit": "percent saying buying used is motivated by price", "value_type": "reported_share"},
+        "circular_route": {"value": "resale, rental, repair, and reuse can combine affordability, durability, access, and environmental value", "unit": "reported synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Mastercard Economics Institute analysis of aggregated and anonymized spending patterns paired with GlobeScan reported motivations for healthy and sustainable behaviors.",
+      "uncertainty": "The market comparison is not a randomized estimate of circular-commerce effects; category definitions, market composition, inflation, platform coverage, and product mix can affect growth comparisons.",
+      "subgroup": "Consumers choosing secondhand, rental, repair, or reuse routes; retailers, resale platforms, repair providers, brands, and households managing product and budget constraints.",
+      "counterinterpretation": "Faster secondhand growth may reflect a small or recovering base, product-category composition, or platform expansion rather than a complete displacement of new-product consumption.",
+      "source_url": "https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/insights/2026/the-new-era-of-conscious-consumption/Mastercard_The%20next%20era%20of%20conscious%20consumption.pdf",
+      "retrieval_hash": "sha256:159942a80cf60309463ac88ff0949457a79113433cf7e0f20bfa00912af72619",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; generational willingness to pay, rental, and repair preferences",
+      "denominator": {"value": 1, "unit": "consumer-generation comparison frame", "value_type": "generation_comparison_frame"},
+      "measures": {
+        "younger_premium": {"value": "more than 60% of Gen Z and Millennials report increased willingness to pay a premium for more sustainable products", "unit": "reported generational comparison", "value_type": "reported_share"},
+        "under_30_preference": {"value": 61, "unit": "percent of consumers under 30 preferring environmentally friendly products over reducing the number of products bought", "value_type": "reported_share"},
+        "rental_generation_gap": {"value": "Gen Z and Millennials are more than four times as likely as Boomers to say they rent products instead of buying new ones: 30% versus 7%", "unit": "reported generation comparison", "value_type": "reported_share"},
+        "repair_preference": {"value": 71, "unit": "percent saying they would prefer repairing products already owned over replacing them", "value_type": "reported_share"}
+      },
+      "method": "Partner survey comparisons by age cohort and reported preferences for sustainable premiums, rental, repair, and product replacement.",
+      "uncertainty": "Age comparisons may reflect life stage, income, housing, product ownership, survey framing, or market availability; preferences do not establish actual rental, repair, or replacement rates.",
+      "subgroup": "Gen Z, Millennials, Gen X, Boomers, consumers under 30, and households with different access to rental, repair, resale, and durable-product infrastructure.",
+      "counterinterpretation": "Younger consumers may express stronger preferences while having less purchasing power or less access to reliable circular services; older consumers may repair or reuse through informal routes not captured by the same question.",
+      "source_url": "https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/insights/2026/the-new-era-of-conscious-consumption/Mastercard_The%20next%20era%20of%20conscious%20consumption.pdf",
+      "retrieval_hash": "sha256:159942a80cf60309463ac88ff0949457a79113433cf7e0f20bfa00912af72619",
+      "status": "reported"
+    },
+    {
+      "period": "2025; United States circular-consumption route and enabling infrastructure",
+      "denominator": {"value": 1, "unit": "United States clothing-rental spending frame", "value_type": "us_spending_frame"},
+      "measures": {
+        "us_clothing_rental_growth": {"value": 17.6, "unit": "percent year-over-year growth in US clothing-rental spending", "value_type": "reported_spending_growth"},
+        "infrastructure_route": {"value": "payments, digital platforms, resale and return systems, repair services, and product information can reduce friction in circular choices", "unit": "reported commercial mechanism", "value_type": "reported_mechanism"},
+        "value_redefinition": {"value": "consumer value is increasingly framed through affordability, durability, trust, access, and personal well-being alongside environmental impact", "unit": "report synthesis", "value_type": "reported_interpretation"},
+        "adoption_boundary": {"value": "infrastructure can make lower-impact choices easier, but access and trust determine whether intention becomes a transaction", "unit": "report synthesis", "value_type": "reported_policy_route"}
+      },
+      "method": "US spending-growth signal from Mastercard Economics Institute combined with the report's infrastructure and access analysis of circular commerce.",
+      "uncertainty": "A category spending increase does not identify the consumers, motivations, emissions effects, product lifetimes, or household welfare behind the change; Mastercard's commercial perspective may emphasize infrastructure routes aligned with its business role.",
+      "subgroup": "US consumers, renters and owners of clothing, resale and rental providers, payment networks, digital marketplaces, repair and return systems, and brands adapting to circular demand.",
+      "counterinterpretation": "Rental growth can coexist with rebound, logistics, quality, hygiene, or affordability problems; digital enablement is not equivalent to equitable access or lower total environmental impact.",
+      "source_url": "https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/insights/2026/the-new-era-of-conscious-consumption/Mastercard_The%20next%20era%20of%20conscious%20consumption.pdf",
+      "retrieval_hash": "sha256:159942a80cf60309463ac88ff0949457a79113433cf7e0f20bfa00912af72619",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mastercard.com/us/en/news-and-trends/Insights/2026/next-era-of-conscious-consumption-report.html", "claim": "Mastercard report landing page describing affordability, durability, trust, access, and circular commerce."},
+    {"source_url": "https://www.mastercard.com/hk/zh/news-and-trends/press/2026/june/the-next-era-of-conscious-consumption.html", "claim": "Mastercard press summary with reported cost, longevity, trust, secondhand, rental, repair, and US clothing-rental figures."},
+    {"source_url": "https://globescan.com/2026/06/24/the-next-era-of-conscious-consumption/", "claim": "GlobeScan partner summary of value, sustainability, circular behavior, affordability, and enabling infrastructure."}
+  ],
+  "boundary": "This record adds a consumer-culture and circular-commerce route across affordability, durability, trust, values, resale, rental, repair, reuse, digital access, and spending behavior. It combines Mastercard aggregated and anonymized spending analysis with partner survey and sustainability research, not respondent-level ingestion, a representative global consumer panel, a causal sustainability estimate, a complete lifecycle analysis, or proof that circular adoption improves welfare or environmental outcomes uniformly.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Mastercard report PDF reviewed for purchase priorities, cost and values trade-offs, secondhand growth, price motivation, generational rental and sustainability preferences, repair preference, and US clothing-rental growth; official Mastercard and GlobeScan pages used as related-source context.",
+    "source_url_sha256": "sha256:159942a80cf60309463ac88ff0949457a79113433cf7e0f20bfa00912af72619",
+    "checked": "2026-09-27"
+  }
+}

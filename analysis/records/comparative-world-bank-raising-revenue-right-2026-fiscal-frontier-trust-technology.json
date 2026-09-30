@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-raising-revenue-right-2026-fiscal-frontier-trust-technology",
+  "title": "Domestic revenue mobilization is becoming a test of fiscal fairness, administrative capability, and public trust as aid and debt conditions tighten",
+  "theme_ids": ["cost", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Raising Revenue Right: A Roadmap for Domestic Resource Mobilization, 2026",
+  "geography": "Emerging markets and developing economies, with cross-country fiscal-system comparisons and country-specific reform pathways",
+  "observations": [
+    {
+      "period": "2026 report; fiscal conditions in emerging markets and developing economies",
+      "denominator": {"value": 1, "unit": "World Bank cross-country domestic-resource-mobilization frame", "value_type": "global_public_finance_frame"},
+      "measures": {
+        "fiscal_pressure": {"value": "rising debt burdens, higher interest costs, and less certain external assistance are increasing the need for domestic revenue", "unit": "reported macro-fiscal context", "value_type": "reported_context"},
+        "revenue_stagnation": {"value": "tax revenues as a share of GDP have remained broadly unchanged while fiscal pressures intensify", "unit": "reported cross-country pattern", "value_type": "reported_trend"},
+        "system_quality": {"value": "many tax systems combine inefficiency, narrow bases, exemptions or loopholes, and unequal incidence", "unit": "reported fiscal-system diagnosis", "value_type": "reported_diagnosis"}
+      },
+      "method": "World Bank policy research report synthesizing cross-country fiscal evidence, tax-system analysis, reform research, and country-comparator frameworks for domestic resource mobilization.",
+      "uncertainty": "The report provides a framework and comparative diagnosis rather than a single causal estimate; tax incidence, administrative quality, informality, and political feasibility differ across countries.",
+      "subgroup": "Governments, taxpayers, firms, public-service users, vulnerable households, informal workers, and communities affected by tax-and-transfer choices in EMDEs.",
+      "counterinterpretation": "Weak revenue performance may reflect structural constraints, conflict, informality, commodity cycles, or deliberate policy choices; increasing revenue is not automatically equitable or growth-enhancing.",
+      "source_url": "https://www.worldbank.org/en/publication/raising-revenue-right",
+      "retrieval_hash": "sha256:a75a37e1dfbab434fecedb46e828e1ceddebdf90bf266f23e8950987f5b25df6",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; fiscal-frontier framework",
+      "denominator": {"value": 1, "unit": "World Bank fiscal-frontier analytical framework", "value_type": "comparative_efficiency_equity_frame"},
+      "measures": {
+        "frontier_definition": {"value": "the best attainable combination of efficiency and fairness for a given level of revenue and structural constraints", "unit": "World Bank analytical concept", "value_type": "reported_framework"},
+        "tradeoff_diagnosis": {"value": "many countries operate below the fiscal frontier and may improve efficiency, equity, and revenue performance together", "unit": "reported cross-country interpretation", "value_type": "reported_relationship"},
+        "reform_principle": {"value": "simplifying rules and reducing poorly targeted exemptions can improve both efficiency and fairness while raising the same amount of revenue", "unit": "reported policy route", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparative frontier framework that evaluates tax-system performance relative to structural fundamentals and peer economies rather than using a single tax-to-GDP target.",
+      "uncertainty": "Frontier positions depend on model specification, peer selection, measures of fairness and efficiency, data quality, and assumptions about structural constraints; proximity to a frontier does not prove reform causality.",
+      "subgroup": "Countries with different institutional, economic, demographic, administrative, and political conditions; taxpayers receiving different public-service and transfer returns from revenue systems.",
+      "counterinterpretation": "Efficiency gains can still impose distributional costs if transfers, exemptions, enforcement, or public-service allocation do not protect vulnerable households.",
+      "source_url": "https://www.worldbank.org/en/publication/raising-revenue-right",
+      "retrieval_hash": "sha256:a75a37e1dfbab434fecedb46e828e1ceddebdf90bf266f23e8950987f5b25df6",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; technology, transparency, and trust route",
+      "denominator": {"value": 1, "unit": "World Bank 3T fiscal-transformation framework", "value_type": "institutional_capacity_frame"},
+      "measures": {
+        "technology": {"value": "digital systems, information, analytics, and electronic tools can strengthen tax administration and enforcement", "unit": "reported institutional route", "value_type": "reported_mechanism"},
+        "transparency": {"value": "transparency and international cooperation can limit avoidance and evasion and clarify who pays and benefits", "unit": "reported institutional route", "value_type": "reported_mechanism"},
+        "trust": {"value": "trust in government and tax administration can strengthen voluntary compliance", "unit": "reported institutional route", "value_type": "reported_mechanism"},
+        "three_t_link": {"value": "technology, transparency, and trust together expand what tax systems can achieve", "unit": "reported synthesis", "value_type": "reported_framework"}
+      },
+      "method": "Policy framework connecting administrative technology, public transparency, international information exchange, taxpayer trust, and voluntary compliance.",
+      "uncertainty": "The 3T route is a policy theory supported by comparative evidence and research synthesis, not a common experimental estimate of the independent effect of each component.",
+      "subgroup": "Tax administrations, firms, individuals, public officials, data-system operators, civil society, and people whose willingness to comply depends on perceived fairness and public return.",
+      "counterinterpretation": "Digitization can widen surveillance, exclusion, or error if identity, appeals, privacy, connectivity, and administrative remedy are weak; transparency can reveal inequity without correcting it.",
+      "source_url": "https://www.worldbank.org/en/publication/raising-revenue-right",
+      "retrieval_hash": "sha256:a75a37e1dfbab434fecedb46e828e1ceddebdf90bf266f23e8950987f5b25df6",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; country-specific reform pathways",
+      "denominator": {"value": 4, "unit": "broad reform pathways in the World Bank roadmap", "value_type": "reform_pathway_frame"},
+      "measures": {
+        "build_foundations": {"value": "weaker fundamentals and distance from the frontier call for core administration, registration, filing, simpler compliance, and basic digital systems", "unit": "reported pathway", "value_type": "reported_policy_route"},
+        "expand_coverage": {"value": "countries with weaker fundamentals but nearer the frontier should broaden the tax base and invest in information, property, and taxpayer coverage", "unit": "reported pathway", "value_type": "reported_policy_route"},
+        "simplify_build_trust": {"value": "countries with stronger fundamentals but weaker frontier performance should simplify rules, reduce ineffective exemptions, strengthen enforcement, and improve transparency", "unit": "reported pathway", "value_type": "reported_policy_route"},
+        "deepen_coordination": {"value": "stronger performers can deepen international tax cooperation, beneficial-ownership transparency, data analytics, and contributions from top earners", "unit": "reported pathway", "value_type": "reported_policy_route"}
+      },
+      "method": "Two-step roadmap: assess structural fundamentals, then compare tax performance with peers sharing similar conditions to identify the relevant reform pathway.",
+      "uncertainty": "Pathway classification is diagnostic, not a guarantee of implementation or outcome; political coalitions, administrative capacity, taxpayer response, and public-service credibility can alter results.",
+      "subgroup": "Finance ministries, tax administrations, legislators, firms, households, informal-sector participants, donors, and citizens evaluating the legitimacy of revenue reform.",
+      "counterinterpretation": "A technically appropriate pathway may fail if it lacks political legitimacy, coordination, protection for low-income households, or credible evidence that new revenue will fund valued public goods.",
+      "source_url": "https://www.worldbank.org/en/publication/raising-revenue-right",
+      "retrieval_hash": "sha256:a75a37e1dfbab434fecedb46e828e1ceddebdf90bf266f23e8950987f5b25df6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/633", "claim": "World Bank reproducibility package and report metadata for Raising Revenue Right."},
+    {"source_url": "https://www.worldbank.org/en/publication/raising-revenue-right", "claim": "Official report overview, main messages, fiscal-frontier framework, 3T route, and four reform pathways."}
+  ],
+  "boundary": "This record adds a domestic-resource-mobilization and public-finance route across fiscal pressure, tax efficiency, equity, administrative technology, transparency, trust, taxpayer compliance, and public-service capacity. It uses a World Bank policy research framework and comparative evidence, not respondent-level ingestion, a complete tax-incidence database, a causal estimate of reform effects, a country-specific implementation evaluation, or proof that more revenue becomes better services or greater legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank report page reviewed for fiscal pressures, stagnant revenue share, fiscal-frontier framework, efficiency-equity claims, technology-transparency-trust route, and four reform pathways; the World Bank reproducibility package reviewed for report metadata and data-access context.",
+    "source_url_sha256": "sha256:a75a37e1dfbab434fecedb46e828e1ceddebdf90bf266f23e8950987f5b25df6",
+    "checked": "2026-09-27"
+  }
+}

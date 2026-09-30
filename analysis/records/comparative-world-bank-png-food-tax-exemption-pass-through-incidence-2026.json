@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-png-food-tax-exemption-pass-through-incidence-2026",
+  "title": "Food-tax relief can fail to reach poorer households when informality and market segmentation block price pass-through",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11453, Who Benefits from Food Tax Exemptions in Lower-Income Settings? Evidence on Pass-Through and Incidence",
+  "geography": "Papua New Guinea; selected food items, formal supermarkets and informal stores across central urban and rural markets, with administrative data and a nationally representative household phone panel",
+  "observations": [
+    {
+      "period": "2026 paper; unanticipated consumption-tax removal and price pass-through",
+      "denominator": {"value": 1, "unit": "Papua New Guinea food-tax reform and multi-source price-incidence study", "value_type": "reported_quasi_experimental_frame"},
+      "measures": {
+        "formal_urban_pass_through": {"value": "complete pass-through in formal supermarkets in central urban districts", "unit": "reported difference-in-differences and price-census result", "value_type": "reported_effect"},
+        "informal_rural_pass_through": {"value": "no pass-through in informal stores or rural areas where poorer households mainly shop", "unit": "reported difference-in-differences and price-census result", "value_type": "reported_null_effect"},
+        "data_stack": {"value": "administrative data, supermarket price census, web-scraped online prices, and a nationally representative household phone survey panel", "unit": "reported evidence sources", "value_type": "reported_method_set"},
+        "mechanism": {"value": "competition, informality, and market segmentation determine whether tax policy becomes a lower shelf price", "unit": "bounded market mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Difference-in-differences analysis triangulated with administrative data, supermarket price observations, web-scraped prices, and a nationally representative household phone-survey panel.",
+      "uncertainty": "The pass-through estimates are specific to the selected PNG tax reform, products, markets, price measures, and time period; they do not establish identical incidence for every food tax or country.",
+      "subgroup": "Poorer rural households, informal-store shoppers, formal urban consumers, retailers, wholesalers, producers, and firms facing different degrees of competition and tax compliance.",
+      "counterinterpretation": "Observed price differences may reflect product composition, supply chains, quality, timing, or measurement coverage in addition to tax pass-through and market power.",
+      "source_url": "https://documents.worldbank.org/curated/en/099313309162610657/pdf/IDU-b2df37cb-9882-477f-b0f3-0fcffbd74f18.pdf",
+      "retrieval_hash": "sha256:13f84a5dba526fa54a63a9acb3640a6f2a6a139deff8f7456ccc052c4139556a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; fiscal-benefit incidence by household and market actors",
+      "denominator": {"value": 1, "unit": "foregone-revenue incidence distribution across Papua New Guinea household quintiles and stores/wholesalers", "value_type": "reported_incidence_frame"},
+      "measures": {
+        "poorest_two_quintiles": {"value": 16, "unit": "percent of foregone revenue accruing to the poorest two household quintiles", "value_type": "reported_incidence_share"},
+        "richest_two_quintiles": {"value": "almost 40 percent", "unit": "share of foregone revenue accruing to the richest two household quintiles", "value_type": "reported_incidence_share"},
+        "stores_wholesalers": {"value": "almost 40 percent", "unit": "share of foregone revenue captured by stores and wholesalers", "value_type": "reported_incidence_share"},
+        "distributional_pattern": {"value": "the exemption was highly regressive in the studied lower-income setting", "unit": "reported incidence conclusion", "value_type": "reported_distributional_result"}
+      },
+      "method": "Incidence analysis combining household expenditure patterns, observed price responses, and market-level pass-through evidence.",
+      "uncertainty": "The incidence shares depend on the study's product basket, household consumption patterns, market coverage, and modeling assumptions; they do not measure every indirect welfare or producer effect.",
+      "subgroup": "Poor and richer households, informal and formal consumers, stores, wholesalers, and supply-chain actors receiving or losing fiscal benefits.",
+      "counterinterpretation": "Universal food-tax relief can still have non-distributional aims such as simplicity or broad political acceptability; regressive incidence does not mean every poor household receives no benefit.",
+      "source_url": "https://documents.worldbank.org/curated/en/099313309162610657/pdf/IDU-b2df37cb-9882-477f-b0f3-0fcffbd74f18.pdf",
+      "retrieval_hash": "sha256:13f84a5dba526fa54a63a9acb3640a6f2a6a139deff8f7456ccc052c4139556a",
+      "status": "reported"
+    },
+    {
+      "period": "2026 paper; policy comparison and expert expectations",
+      "denominator": {"value": 237, "unit": "experts participating in the study's prediction survey", "value_type": "reported_expert_sample"},
+      "measures": {
+        "prediction_gap": {"value": "the degree of regressivity and pass-through variation was not anticipated by the participating experts", "unit": "reported prediction-survey result", "value_type": "reported_prediction_gap"},
+        "cash_transfer_comparison": {"value": "universal cash transfers would generate roughly two and a half times as much quintile-weighted value per fiscal dollar as the tax exemption under the study's static marginal-value-of-public-funds comparison", "unit": "reported policy simulation", "value_type": "reported_policy_comparison"},
+        "structural_explanation": {"value": "high informality, market segmentation, and positive income elasticity of demand for basic food help make tax exemptions regressive", "unit": "reported mechanism set", "value_type": "reported_mechanism_set"},
+        "political_route": {"value": "visible tax relief can be politically attractive while its realized incidence remains difficult for households and policymakers to observe", "unit": "bounded political-economy interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "Expert prediction survey and static marginal-value-of-public-funds-style comparison of tax exemption versus universal cash transfers.",
+      "uncertainty": "The cash-transfer comparison is static and depends on the assumed value weights, delivery capacity, targeting, and fiscal context; it is not a full general-equilibrium welfare evaluation.",
+      "subgroup": "Policy experts, households facing food prices, tax administrators, retailers, transfer systems, and political actors choosing visible cost-of-living relief.",
+      "counterinterpretation": "Cash transfers may be difficult to deliver reliably where registries, payment systems, or trust are weak; tax relief may be chosen because it is faster or more feasible despite lower distributional efficiency.",
+      "source_url": "https://documents.worldbank.org/curated/en/099313309162610657/pdf/IDU-b2df37cb-9882-477f-b0f3-0fcffbd74f18.pdf",
+      "retrieval_hash": "sha256:13f84a5dba526fa54a63a9acb3640a6f2a6a139deff8f7456ccc052c4139556a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11453.html", "claim": "Abstract and bibliographic record for World Bank Policy Research Working Paper 11453."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/612", "claim": "World Bank reproducibility package for the PNG food-tax pass-through and incidence study."},
+    {"source_url": "https://ifs.org.uk/system/files/2026-09/WP202655-Who-benefits-from-food-tax-exemptions-in-lower-income-settings.pdf", "claim": "Institute for Fiscal Studies working-paper version of the study."}
+  ],
+  "boundary": "This record adds a policy-to-price pass-through and incidence route linking tax exemptions, formal and informal markets, rural-urban segmentation, competition, stores and wholesalers, household quintiles, expert prediction, cash-transfer comparison, and consumer cost-of-living politics. It is not a universal tax-incidence law, a full welfare or general-equilibrium model, or evidence that cash transfers are always administratively feasible or politically acceptable.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank working-paper PDF, abstract, reproducibility package, and IFS version were reviewed for the PNG tax reform, difference-in-differences design, price-data stack, formal/informal and urban/rural pass-through, quintile incidence, 237-expert prediction survey, cash-transfer comparison, and market-segmentation mechanism.",
+    "source_url_sha256": "sha256:13f84a5dba526fa54a63a9acb3640a6f2a6a139deff8f7456ccc052c4139556a",
+    "checked": "2026-09-29"
+  }
+}

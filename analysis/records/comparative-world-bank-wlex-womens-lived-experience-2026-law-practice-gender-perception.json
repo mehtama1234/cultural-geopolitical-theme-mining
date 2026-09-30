@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-wlex-womens-lived-experience-2026-law-practice-gender-perception",
+  "title": "Women’s lived economic opportunity can lag formal legal equality, with gendered perception gaps revealing where rights are not felt in everyday work and care",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Women, Business and the Law and Gallup, Women's Lived Experience (W-LEX) Data",
+  "geography": "Bangladesh, Brazil and Nigeria; nationally representative adult surveys collected in 2024",
+  "observations": [
+    {
+      "period": "July–December 2024; W-LEX pilot coverage and lived-opportunity measurement",
+      "denominator": {"value": 3000, "unit": "nationally representative adult respondents across Bangladesh, Brazil and Nigeria, approximately 1,000 per country", "value_type": "reported_sample"},
+      "measures": {
+        "country_coverage": {"value": 3, "unit": "countries included in the W-LEX pilot", "value_type": "reported_count"},
+        "survey_mode": {"value": "face-to-face household interviews in local languages through the Gallup World Poll", "unit": "reported survey design", "value_type": "reported_method"},
+        "topic_coverage": {"value": "safety, mobility, work, pay, marriage, parenthood, childcare, entrepreneurship, assets and pension", "unit": "10 WBL topics", "value_type": "reported_topic_set"},
+        "measurement_purpose": {"value": "measure how women's economic rights are experienced and perceived in everyday life", "unit": "reported measurement purpose", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank WBL-Gallup supplemental survey modules integrated into the Gallup World Poll, with nationally representative adult samples in three countries.",
+      "uncertainty": "The pilot covers three countries and one collection period; nationally representative samples do not support global prevalence claims or causal attribution to specific laws.",
+      "subgroup": "Women and men in Bangladesh, Brazil and Nigeria, with comparisons across demographic and socioeconomic groups.",
+      "counterinterpretation": "A focused pilot can reveal implementation gaps that broad legal indices miss, while still requiring expansion across countries and repeated waves for trend inference.",
+      "source_url": "https://wbl.worldbank.org/en/publications/thematic-topics/w-lex",
+      "retrieval_hash": "sha256:ab883fcfde0c2664b0240156c09bf01098becca7d09e3a10ac148f2b4ea011a3",
+      "status": "reported"
+    },
+    {
+      "period": "2024; formal legal framework versus lived economic opportunity",
+      "denominator": {"value": 1000, "unit": "approximately 1,000 nationally representative respondents in each pilot country", "value_type": "reported_sample_per_country"},
+      "measures": {
+        "brazil_legal_score": {"value": 82, "unit": "Brazil WBL 2026 Legal Frameworks score out of 100", "value_type": "reported_index"},
+        "brazil_women_equal_pay": {"value": 31.8, "unit": "percent of women in Brazil saying they receive equal pay", "value_type": "reported_share"},
+        "brazil_men_equal_pay": {"value": 45.7, "unit": "percent of men in Brazil saying women receive equal pay", "value_type": "reported_share"},
+        "perception_gap": {"value": "strong formal legal performance can coexist with large gendered gaps in perceived economic equality", "unit": "reported comparison", "value_type": "reported_interpretation"}
+      },
+      "method": "W-LEX comparison of Brazil's formal legal-framework score with first-person and third-person perceptions of equal pay.",
+      "uncertainty": "Perceptions of equal pay do not establish audited wage gaps, employer intent, legal violations or the causal role of Brazil's legal framework; the comparison is diagnostic.",
+      "subgroup": "Women and men in Brazil, workers, employers, policymakers and institutions responsible for pay transparency and enforcement.",
+      "counterinterpretation": "The perception gap may reflect different reference groups, information, norms or interpretation of equal pay rather than only enforcement failure.",
+      "source_url": "https://wbl.worldbank.org/en/publications/thematic-topics/w-lex",
+      "retrieval_hash": "sha256:ab883fcfde0c2664b0240156c09bf01098becca7d09e3a10ac148f2b4ea011a3",
+      "status": "reported"
+    },
+    {
+      "period": "2024; first-person and third-person experience architecture",
+      "denominator": {"value": 10, "unit": "WBL topics combined in the W-LEX index", "value_type": "reported_topic_frame"},
+      "measures": {
+        "first_person_topics": {"value": "work, mobility, entrepreneurship and pension", "unit": "topics measuring women's own reported experience or perception", "value_type": "reported_topic_set"},
+        "third_person_topics": {"value": "pay, parenthood, childcare, assets, marriage and safety", "unit": "topics measuring perceptions of broader societal conditions affecting women", "value_type": "reported_topic_set"},
+        "index_scale": {"value": 100, "unit": "maximum W-LEX country-level index score, with higher scores indicating more favorable perceived economic opportunity", "value_type": "reported_index_scale"}
+      },
+      "method": "W-LEX index construction combining first-person perceptions of individual opportunity with third-person perceptions of social conditions and norms.",
+      "uncertainty": "The index combines distinct constructs and perceptions; it is not a direct measure of income, employment, violence, childcare use or legal compliance.",
+      "subgroup": "Women, men, households, workers, entrepreneurs and communities whose norms shape economic opportunity.",
+      "counterinterpretation": "Including perceived norms can reveal barriers that legal or administrative data miss, but norms and perceptions may change more slowly or differently than formal law.",
+      "source_url": "https://wbl.worldbank.org/en/publications/thematic-topics/w-lex",
+      "retrieval_hash": "sha256:ab883fcfde0c2664b0240156c09bf01098becca7d09e3a10ac148f2b4ea011a3",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; law-to-practice monitoring route",
+      "denominator": {"value": 1, "unit": "W-LEX monitoring framework", "value_type": "published_framework"},
+      "measures": {
+        "implementation_signal": {"value": "laws alone do not guarantee compliance or implementation; lived experience data can show where formal rights are not reflected in practice", "unit": "reported finding", "value_type": "reported_interpretation"},
+        "norms_signal": {"value": "perceived social norms can influence behavior and economic outcomes independently of formal laws", "unit": "reported mechanism", "value_type": "reported_interpretation"},
+        "tracking_route": {"value": "W-LEX is designed to expand to more countries and monitor whether legal reforms translate into real improvements over time", "unit": "reported future-use route", "value_type": "reported_policy_route"}
+      },
+      "method": "World Bank policy-brief synthesis of W-LEX pilot data and intended complementarity with WBL legal, supportive-framework and enforcement-perception indicators.",
+      "uncertainty": "The expansion and longitudinal use are future plans; the pilot does not establish that W-LEX changes policy, predicts behavior or identifies causal mechanisms.",
+      "subgroup": "Women, policymakers, legal institutions, researchers, employers, civil society and data systems tracking gender equality.",
+      "counterinterpretation": "Better measurement can expose gaps, but measurement alone does not supply enforcement capacity, childcare, finance, safety or norm change.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099626009102632781",
+      "retrieval_hash": "sha256:ab883fcfde0c2664b0240156c09bf01098becca7d09e3a10ac148f2b4ea011a3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099626009102632781", "claim": "Official W-LEX policy indicators brief and document record."},
+    {"source_url": "https://wbl.worldbank.org/en/wbl", "claim": "World Bank WBL framework and related 2026 legal, supportive and enforcement indicators."},
+    {"source_url": "https://wbl.worldbank.org/en/data/download-data", "claim": "W-LEX dataset, codebook and data access page."}
+  ],
+  "boundary": "This record is the lived-experience complement to the WBL 2026 legal benchmark. It uses nationally representative survey evidence from three countries, not a global survey, administrative wage records, a legal compliance audit, a causal evaluation or a measure of all women's economic experiences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank W-LEX thematic page and policy-brief document record were reviewed for country coverage, sampling, survey mode, 10-topic index construction, Brazil equal-pay perception gaps and the law-to-practice monitoring purpose; the retrieved document page was hashed.",
+    "source_url_sha256": "sha256:ab883fcfde0c2664b0240156c09bf01098becca7d09e3a10ac148f2b4ea011a3",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-southern-glazers-beverage-alcohol-occasions-moderation-2026",
+  "title": "Beverage-alcohol consumption is fragmenting across occasions, formats, price points, and moderation choices",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Southern Glazer's Wine & Spirits Commercial Intelligence, Raise the Bar: H2 2026 Edition, released 8 September 2026",
+  "geography": "U.S. beverage-alcohol markets and legal-drinking-age consumers across Southern Glazer's reported commercial footprint",
+  "observations": [
+    {
+      "period": "H2 2026; beverage-alcohol category reset",
+      "denominator": {"value": 1, "unit": "Southern Glazer's Commercial Intelligence category synthesis", "value_type": "commercial_trend_framework"},
+      "measures": {
+        "category_direction": {"value": "consumers are described as continuing to engage with beverage alcohol while changing how, when, and where they use it", "unit": "reported consumer-direction pattern", "value_type": "reported_mechanism_set"},
+        "growth_surfaces": {"value": "reported growth opportunities span ready-to-drink cocktails, wine cocktails, non-alcoholic beverages, tequila, smaller formats, and premium offerings", "unit": "reported category set", "value_type": "reported_market_pattern"},
+        "choice_route": {"value": "choice, value, convenience, moderation, and lower-risk trial are treated as simultaneous market pressures", "unit": "analytic consumption mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the publication is a distributor's commercial-intelligence report, not a representative public-health survey or causal estimate of alcohol consumption", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Southern Glazer's combines third-party industry data with its own depletion, distribution, execution, transaction, and image data.",
+      "uncertainty": "The report's commercial vantage point and proprietary data do not provide a transparent population sample, complete category denominator, or independent causal test.",
+      "subgroup": "Legal-drinking-age consumers, beverage brands, retailers, bars, restaurants, and suppliers in the reported market footprint.",
+      "counterinterpretation": "Observed category growth may reflect channel mix, product substitution, promotion, distribution, or reporting choices rather than a broad increase in drinking occasions.",
+      "source_url": "https://newsroom.southernglazers.com/press-releases/press-release-details/2026/Southern-Glazers-New-Report-Identifies-Five-Growth-Opportunities-as-Beverage-Alcohol-Resets/default.aspx",
+      "retrieval_hash": "sha256:26a37a496a771f38f7f922c52d4611aa098f7464073d1146057b2f9734fcf44d",
+      "status": "reported"
+    },
+    {
+      "period": "H2 2026; younger legal-drinking-age consumers",
+      "denominator": {"value": 1, "unit": "Southern Glazer's reported Gen Z category comparison", "value_type": "commercial_subgroup_frame"},
+      "measures": {
+        "category_entry": {"value": "Gen Z is described as over-indexing in spirits and RTDs while also increasing wine spend", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_comparison"},
+        "trial_route": {"value": "flavor, convenient formats, variety packs, and lower-risk trial are described as pathways into categories", "unit": "reported consumer route", "value_type": "reported_mechanism_set"},
+        "menu_signal": {"value": "Gen Z is reported to show a stronger preference than drinkers overall for berry-flavored beer on menus", "unit": "reported preference comparison", "value_type": "reported_subgroup_comparison"},
+        "analytic_signal": {"value": "younger legal-drinking-age consumers are being approached through format flexibility and trial design rather than one fixed category identity", "unit": "analytic cultural-consumption mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Commercial trend analysis using Southern Glazer's proprietary and third-party category data; the public release provides directional subgroup findings rather than a full survey design.",
+      "uncertainty": "The release does not disclose the Gen Z sample, age boundaries, weighting, product denominators, or whether over-indexing refers to volume, incidence, spend, or distribution.",
+      "subgroup": "Gen Z consumers of legal drinking age compared with drinkers overall.",
+      "counterinterpretation": "The subgroup framing may reflect brand opportunity identification and not a stable generational preference across regions, income, or drinking patterns.",
+      "source_url": "https://newsroom.southernglazers.com/press-releases/press-release-details/2026/Southern-Glazers-New-Report-Identifies-Five-Growth-Opportunities-as-Beverage-Alcohol-Resets/default.aspx",
+      "retrieval_hash": "sha256:26a37a496a771f38f7f922c52d4611aa098f7464073d1146057b2f9734fcf44d",
+      "status": "reported"
+    },
+    {
+      "period": "H2 2026; category and format growth",
+      "denominator": {"value": 1, "unit": "reported spirits and wine growth decomposition", "value_type": "commercial_growth_frame"},
+      "measures": {
+        "spirits_rtd_growth": {"value": 94, "unit": "percent of total spirits volume growth attributed to spirits RTDs", "value_type": "reported_market_share_of_growth"},
+        "wine_cocktail_growth": {"value": 92, "unit": "percent of total wine growth attributed to cocktails", "value_type": "reported_market_share_of_growth"},
+        "smaller_formats": {"value": "smaller formats are gaining ground as consumers seek convenience, affordability, and easier category exploration", "unit": "reported format pattern", "value_type": "reported_mechanism_set"},
+        "analytic_signal": {"value": "growth is being redistributed toward formats that lower commitment, simplify occasion fit, or make trial easier", "unit": "analytic market-and-consumption mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Southern Glazer's commercial category analysis using proprietary and third-party data; figures are reported as shares of category growth, not shares of total consumption.",
+      "uncertainty": "The public release does not provide the underlying period, category universe, absolute volumes, or independent replication of the growth decomposition.",
+      "subgroup": "Beverage-alcohol categories, formats, suppliers, retailers, and adult consumers.",
+      "counterinterpretation": "A high share of growth can coexist with a small or declining base and does not prove that RTDs or cocktails are displacing total alcohol use.",
+      "source_url": "https://newsroom.southernglazers.com/press-releases/press-release-details/2026/Southern-Glazers-New-Report-Identifies-Five-Growth-Opportunities-as-Beverage-Alcohol-Resets/default.aspx",
+      "retrieval_hash": "sha256:26a37a496a771f38f7f922c52d4611aa098f7464073d1146057b2f9734fcf44d",
+      "status": "reported"
+    },
+    {
+      "period": "H2 2026; social occasions and moderation",
+      "denominator": {"value": 1, "unit": "Southern Glazer's occasion and moderation analysis", "value_type": "commercial_consumer_frame"},
+      "measures": {
+        "discovery_gateway": {"value": "nearly half of consumers are reported to say bars and restaurants are the best place to try a new brand", "unit": "reported consumer share, approximate", "value_type": "reported_share"},
+        "occasion_shift": {"value": "consumers are changing when and where they drink across everyday consumption, social gatherings, cultural moments, and on-premise discovery", "unit": "reported occasion pattern", "value_type": "reported_mechanism_set"},
+        "moderation_mix": {"value": "no-, low-, and functional beverages are described as complementing traditional alcohol and expanding occasions rather than simply replacing alcohol", "unit": "reported category relationship", "value_type": "reported_mechanism"},
+        "open_test": {"value": "join occasion, venue, product format, price, moderation choice, social participation, repeat purchase, and health or wellbeing outcomes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Commercial trend synthesis based on Southern Glazer's category, channel, transaction, and execution intelligence.",
+      "uncertainty": "The public release does not establish whether venue discovery causes brand adoption, whether moderation products reduce alcohol intake, or how patterns vary by health, income, age, or culture.",
+      "subgroup": "Adult consumers, bars, restaurants, retailers, brands, and social or cultural occasions.",
+      "counterinterpretation": "No- and low-alcohol products may expand total beverage occasions rather than moderate alcohol exposure, and on-premise discovery may be selective by geography and income.",
+      "source_url": "https://newsroom.southernglazers.com/press-releases/press-release-details/2026/Southern-Glazers-New-Report-Identifies-Five-Growth-Opportunities-as-Beverage-Alcohol-Resets/default.aspx",
+      "retrieval_hash": "sha256:26a37a496a771f38f7f922c52d4611aa098f7464073d1146057b2f9734fcf44d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-tw/ipsos-update-september-2026", "claim": "Ipsos provides complementary public consumer-trend context on alcohol occasions and moderation."},
+    {"source_url": "https://www.cdc.gov/alcohol/data-research/facts-stats/index.html", "claim": "CDC public-health data provide a needed outcome and exposure boundary for interpreting commercial beverage trends."}
+  ],
+  "boundary": "This record adds a commercial-consumption route from category reset through format, price, venue, social occasion, younger legal-drinking-age trial, and moderation choices. It is a distributor's public commercial-intelligence synthesis, not a population alcohol-use estimate, public-health evaluation, representative survey, or proof that no/low products reduce alcohol exposure.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Southern Glazer's newsroom release was reviewed for report title, data sources, five opportunity areas, category-growth figures, occasion, Gen Z, format, and moderation claims.",
+    "source_url_sha256": "sha256:26a37a496a771f38f7f922c52d4611aa098f7464073d1146057b2f9734fcf44d",
+    "checked": "2026-09-26"
+  }
+}

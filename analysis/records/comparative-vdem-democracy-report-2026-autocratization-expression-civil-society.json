@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-vdem-democracy-report-2026-autocratization-expression-civil-society",
+  "title": "Democratic backsliding is broadening across regime types as expression, elections, civil society, and opposition protections deteriorate together",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "V-Dem Institute, Democracy Report 2026: Unraveling the Democratic Era?, 10th edition, using V-Dem Dataset v16",
+  "geography": "Global country-year democracy assessment, with regional analysis of Europe, North America, and autocratizing countries",
+  "observations": [
+    {
+      "period": "2025; global regime distribution and population exposure",
+      "denominator": {"value": 179, "unit": "countries assessed in the V-Dem global democracy framework, summarized as 92 autocracies and 87 democracies at end-2025", "value_type": "published_country_frame"},
+      "measures": {
+        "autocracies": {"value": 92, "unit": "countries classified as autocracies at the end of 2025", "value_type": "reported_country_count"},
+        "democracies": {"value": 87, "unit": "countries classified as democracies at the end of 2025", "value_type": "reported_country_count"},
+        "autocratic_population": {"value": 74, "unit": "percent of the world population living in autocracies, approximately 6 billion people", "value_type": "reported_population_share"},
+        "liberal_democratic_population": {"value": 7, "unit": "percent of the world population living in liberal democracies, approximately 0.6 billion people", "value_type": "reported_population_share"},
+        "democratic_level": {"value": "the report assesses democracy for the average global citizen as returning to approximately 1978 levels", "unit": "reported index comparison", "value_type": "reported_comparison"}
+      },
+      "method": "V-Dem multidimensional democracy measurement using Dataset v16, country-year indicators, high-level indices, and regime-transformation analysis.",
+      "uncertainty": "Regime classifications and indices depend on coding, expert judgments, aggregation choices, and model definitions; population exposure is a weighted summary rather than an individual-level measure.",
+      "subgroup": "Citizens in democratic and autocratic regimes, political opposition, civil society, media, election institutions, and populations exposed to varying levels of rights and accountability.",
+      "counterinterpretation": "A global average or regime count can hide meaningful institutional variation, subnational resilience, protest capacity, and differences among electoral, liberal, and autocratic forms.",
+      "source_url": "https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf",
+      "retrieval_hash": "sha256:d2102c68df273437f1decb7a9ef098242742f6f9fb6f927e2abf3b967552293a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; autocratization episodes and regional spread",
+      "denominator": {"value": 44, "unit": "countries in episodes of autocratization in 2025", "value_type": "published_country_frame"},
+      "measures": {
+        "autocratizers": {"value": 44, "unit": "countries in autocratization episodes, nearly one quarter of the world's nations", "value_type": "reported_country_count"},
+        "population_in_autocratizing_countries": {"value": 41, "unit": "percent of the world population, approximately 3.4 billion people, residing in autocratizing countries", "value_type": "reported_population_share"},
+        "episode_types": {"value": "24 stand-alone autocratization processes and 20 Bell-turns, where decline follows a recent period of democratization", "unit": "reported episode classification", "value_type": "reported_framework"},
+        "new_cases": {"value": 10, "unit": "new autocratizers identified in 2025", "value_type": "reported_country_count"},
+        "regional_route": {"value": "autocratization is not confined to one regime region; the report identifies effects in the European Union, the UK, and the USA as well as other world regions", "unit": "reported geographic pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "V-Dem Episodes of Regime Transformation methodology and regional analysis of autocratization episodes.",
+      "uncertainty": "An episode identifies a modeled pattern of regime transformation rather than a fixed endpoint or inevitable transition; timing and classification may change with later data revisions.",
+      "subgroup": "Citizens in autocratizing countries, opposition parties, civil society, journalists, courts, election officials, and international partners.",
+      "counterinterpretation": "Autocratization episodes can pause, reverse, or coexist with resilient institutions and civic mobilization; aggregate counts do not predict country-specific outcomes.",
+      "source_url": "https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf",
+      "retrieval_hash": "sha256:d2102c68df273437f1decb7a9ef098242742f6f9fb6f927e2abf3b967552293a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; expression, elections, media, and civil-society deterioration",
+      "denominator": {"value": 44, "unit": "countries identified as autocratizing in 2025", "value_type": "published_country_frame"},
+      "measures": {
+        "expression_decline": {"value": 44, "unit": "countries where freedom of expression is declining in 2025", "value_type": "reported_country_count"},
+        "election_quality_decline": {"value": 22, "unit": "countries where quality of elections is deteriorating in 2025", "value_type": "reported_country_count"},
+        "media_censorship": {"value": 32, "unit": "autocratizing countries, or 73%, using media censorship as a reported tactic", "value_type": "reported_country_count"},
+        "civil_society_repression": {"value": 30, "unit": "autocratizing countries, or 68%, where repression of civil society has surged", "value_type": "reported_country_count"},
+        "institutional_route": {"value": "backsliding is expressed through a connected control surface spanning information, electoral competition, media, and organized civic opposition", "unit": "reported governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "V-Dem indicator-level trends and tactic analysis within autocratizing countries.",
+      "uncertainty": "Country counts do not measure severity, duration, or causal order; tactics can be coded differently across contexts and may be underreported where information is restricted.",
+      "subgroup": "Journalists, media organizations, opposition parties, civic groups, activists, voters, courts, and populations relying on independent information.",
+      "counterinterpretation": "Censorship or civic repression may coexist with alternative information channels and protest; declining indicators do not show whether domestic or international action will reverse the pattern.",
+      "source_url": "https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf",
+      "retrieval_hash": "sha256:d2102c68df273437f1decb7a9ef098242742f6f9fb6f927e2abf3b967552293a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; opposition suppression and Western democracy exposure",
+      "denominator": {"value": 1, "unit": "V-Dem global and regional democracy assessment", "value_type": "published_assessment_frame"},
+      "measures": {
+        "torture_decline": {"value": 33, "unit": "countries substantially degenerating in torture-related indicators in 2025", "value_type": "reported_country_count"},
+        "western_democracy_level": {"value": "the level of democracy for the average citizen in Western Europe and North America is reported at its lowest level in over 50 years", "unit": "reported regional comparison", "value_type": "reported_comparison"},
+        "usa_status": {"value": "the report classifies the USA as losing its long-term status as a liberal democracy for the first time in over 50 years", "unit": "reported regime classification", "value_type": "reported_finding"},
+        "opposition_route": {"value": "suppression of opposition and civic freedoms can erode democratic quality even where elections and formal institutions remain in place", "unit": "analytic democratic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "V-Dem multidimensional indices and indicator-level assessment of liberal, electoral, expressive, and coercive dimensions of democracy.",
+      "uncertainty": "These are V-Dem's operationalizations and classifications, not a universal legal determination; country status and historical comparisons should be read with the report's coding and uncertainty framework.",
+      "subgroup": "Citizens in Western democracies, political opponents, journalists, civil society, minority groups, courts, and international democratic institutions.",
+      "counterinterpretation": "Formal electoral competition, courts, federalism, civil society, and public mobilization can provide countervailing resilience even during measured liberal-democratic decline.",
+      "source_url": "https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf",
+      "retrieval_hash": "sha256:d2102c68df273437f1decb7a9ef098242742f6f9fb6f927e2abf3b967552293a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.v-dem.net/data/dataset-archive/", "claim": "V-Dem Dataset version 16 provides the underlying high-level indices, sub-indices, and indicators used by the report."},
+    {"source_url": "https://www.v-dem.net/news/press-release-democratic-backsliding-reaches-western-democracies-with-us-decline-unprecedented/", "claim": "V-Dem's official release summarizes the 2026 report's global autocratization and Western-democracy findings."}
+  ],
+  "boundary": "This record adds V-Dem's global democracy measurement and regime-transformation signal on autocratization, expression, elections, media censorship, civil-society repression, torture, and Western-democracy decline. It is an index-based comparative assessment, not respondent-level data, an event-by-event incident census, a causal forecast, a legal judgment, or proof that every measured decline is irreversible.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official V-Dem Democracy Report 2026 PDF and release materials reviewed for global regime counts, population exposure, autocratization episodes, expression and election declines, censorship, civil-society repression, torture, and Western-democracy findings.",
+    "source_url_sha256": "sha256:d2102c68df273437f1decb7a9ef098242742f6f9fb6f927e2abf3b967552293a",
+    "checked": "2026-09-27"
+  }
+}

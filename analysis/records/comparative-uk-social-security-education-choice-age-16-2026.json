@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-social-security-education-choice-age-16-2026",
+  "title": "Social-security design can steer young people and households toward or away from culturally valued education and vocational pathways",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Social Security Advisory Committee, The influence of the social security system on educational and vocational decision-making at age 16, Occasional Paper 27",
+  "geography": "England, with UK and international comparison of post-16 participation, benefits, apprenticeships, and monitoring systems",
+  "observations": [
+    {
+      "period": "2026; post-16 participation and household pathway choice",
+      "denominator": {"value": 1, "unit": "England policy and evidence review of young people aged 16 to 18", "value_type": "reported_policy_review_frame"},
+      "measures": {
+        "participation_requirement": {"value": "16 to 18-year-olds must remain in education or recognised training until their 18th birthday", "unit": "statutory participation frame", "value_type": "reported_policy_fact"},
+        "pathway_effect": {"value": "benefit rules can create substantial household losses when a young person takes an apprenticeship", "unit": "reported household mechanism", "value_type": "reported_mechanism"},
+        "choice_pressure": {"value": "families may have to choose between a young person’s best-fit pathway and an affordable pathway", "unit": "reported lived-experience synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Social Security Advisory Committee review drawing on policy analysis, stakeholder evidence, interviews and roundtables with young people, families, practitioners, and officials; it is not a population-representative survey or causal evaluation.",
+      "uncertainty": "The report documents mechanisms and reported experiences but does not estimate how often every household changes pathway because of benefit interactions.",
+      "subgroup": "Young people aged 16 to 18, parents, households receiving Universal Credit, apprentices, young carers, disabled young people, care leavers, and estranged young people.",
+      "counterinterpretation": "Benefit distinctions may reflect legitimate differences in household dependency or administrative feasibility, although the report argues that current categories no longer fit mandatory post-16 participation.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:278b1f6b65157625493788ac7c2c0046246ff4cf77eaa803b407a4dc0a27ca65",
+      "status": "reported"
+    },
+    {
+      "period": "2026; financial cliff edges and vocational participation",
+      "denominator": {"value": 1, "unit": "SSAC case and policy analysis of post-16 benefit interactions", "value_type": "reported_case_analysis_frame"},
+      "measures": {
+        "weekly_loss": {"value": "reported household losses range from £70 to £339 per week depending on household composition", "unit": "pounds per week", "value_type": "reported_case_estimate"},
+        "awareness": {"value": 61, "unit": "percent of apprentices reported as having no prior understanding of benefit consequences in the report’s evidence", "value_type": "reported_evidence_statistic"},
+        "vulnerable_interaction": {"value": "disabled young people, young adult carers, care leavers, and estranged youth face compounded pathway and benefit interactions", "unit": "reported subgroup mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Report synthesis of modeled household scenarios, qualitative evidence, and stakeholder testimony; figures are source-specific and should not be read as a prevalence estimate for all apprentices.",
+      "uncertainty": "The size of losses depends on household composition, benefit status, earnings, caring, disability, and local support; the report does not establish a uniform effect.",
+      "subgroup": "Apprentices and prospective apprentices in low-income or otherwise financially exposed households, especially young carers and disabled young people.",
+      "counterinterpretation": "Some households may receive other income or support not captured in a simple scenario, and apprenticeship earnings and benefit eligibility can vary over time.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:278b1f6b65157625493788ac7c2c0046246ff4cf77eaa803b407a4dc0a27ca65",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy coherence, departmental silos, and pathway legitimacy",
+      "denominator": {"value": 1, "unit": "UK policy architecture reviewed by SSAC", "value_type": "reported_governance_frame"},
+      "measures": {
+        "policy_drift": {"value": "education policy redefined apprenticeships as approved educational pathways while benefits rules continued to treat employment-linked training differently", "unit": "reported policy-history mechanism", "value_type": "reported_mechanism"},
+        "siloed_departments": {"value": "DfE, DWP, and HMRC operated without a mechanism ensuring that changes to participation policy triggered corresponding benefit-rule review", "unit": "reported governance mechanism", "value_type": "reported_institutional_finding"},
+        "parity_test": {"value": "pathway neutrality requires financial circumstances not to determine which approved route a young person can afford", "unit": "reported policy benchmark", "value_type": "reported_policy_principle"}
+      },
+      "method": "Institutional and comparative policy analysis of participation law, benefit categories, departmental responsibilities, and international examples.",
+      "uncertainty": "The committee’s interpretation of policy drift is an independent analytical conclusion; it does not prove intent or quantify the full effect of every departmental process.",
+      "subgroup": "Young people, households, education providers, careers advisers, welfare agencies, and departments responsible for education, work, and taxation.",
+      "counterinterpretation": "Administrative specialization can be efficient when policy domains are stable; the problem arises when cross-domain transitions are not jointly reviewed.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:278b1f6b65157625493788ac7c2c0046246ff4cf77eaa803b407a4dc0a27ca65",
+      "status": "reported"
+    },
+    {
+      "period": "2026; participation tracking and early intervention capacity",
+      "denominator": {"value": 1, "unit": "UK local and national post-16 participation monitoring systems", "value_type": "reported_data_infrastructure_frame"},
+      "measures": {
+        "tracking_gap": {"value": "England may rely on delayed or incomplete school, college, and local-authority data sharing, while Scotland uses more proactive follow-up", "unit": "reported monitoring comparison", "value_type": "reported_system_comparison"},
+        "missed_groups": {"value": "young adult carers and estranged young people are not consistently identified and tracked, particularly in vocational pathways", "unit": "reported visibility gap", "value_type": "reported_subgroup_finding"},
+        "intervention_route": {"value": "real-time participation data could support earlier contact with young people at risk of becoming NEET", "unit": "reported policy route", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "Review of participation-monitoring arrangements, stakeholder testimony, prior evaluation evidence, and comparative UK practice.",
+      "uncertainty": "Better tracking may improve visibility without guaranteeing adequate staff, trusted outreach, suitable local provision, or successful re-engagement.",
+      "subgroup": "Young people who drop out or change activity, young carers, estranged youth, local authorities, schools, colleges, careers services, and support providers.",
+      "counterinterpretation": "More data sharing can create privacy, labeling, and surveillance concerns if young people lack control over how records are used or if contact is experienced as enforcement rather than support.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:278b1f6b65157625493788ac7c2c0046246ff4cf77eaa803b407a4dc0a27ca65",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16", "claim": "Official publication metadata, date, authorship, and document context."},
+    {"source_url": "https://www.gov.uk/government/publications/post-16-pathways-implementation-plan/post-16-pathways-implementation-plan", "claim": "Related official implementation context for post-16 pathway reform and careers support."}
+  ],
+  "boundary": "This record adds a social-security-to-education-choice route from household financial exposure through pathway selection, vocational participation, policy coherence, subgroup visibility, and early intervention. It does not establish a population-wide causal estimate, prove that every apprenticeship is deterred, or imply that real-time tracking alone improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK HTML report reviewed for participation mandates, benefit interactions, household pathway pressure, policy drift, subgroup effects, comparative pathway-neutral designs, and participation tracking.",
+    "source_url_sha256": "sha256:278b1f6b65157625493788ac7c2c0046246ff4cf77eaa803b407a4dc0a27ca65",
+    "checked": "2026-09-29"
+  }
+}

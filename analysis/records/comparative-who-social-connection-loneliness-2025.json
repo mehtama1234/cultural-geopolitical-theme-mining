@@ -56,6 +56,22 @@
       "source_url": "https://www.who.int/groups/commission-on-social-connection/report/",
       "retrieval_hash": "sha256:8e0fd60cb3edf617b75810c4325e69608a4a8074090b37e796d5f4d4a264f255",
       "status": "reported"
+    },
+    {
+      "period": "June 2026; national policy adoption for social connection and loneliness",
+      "denominator": {"value": 194, "unit": "WHO Member States global policy landscape, with eight states identified as having adopted policies on social connection, social isolation or loneliness", "value_type": "reported_policy_landscape"},
+      "measures": {
+        "member_states_with_policy": {"value": 8, "unit": "WHO Member States reported as having adopted policies on social connection, social isolation or loneliness", "value_type": "reported_policy_count"},
+        "policy_conversion": {"value": "national policy adoption remains an early and limited conversion of social-connection evidence into formal state response", "unit": "reported implementation pattern", "value_type": "analytic_mechanism"},
+        "knowledge_exchange": {"value": "WHO says the policy review will support engagement with country representatives to exchange information and lessons learned", "unit": "reported implementation-support route", "value_type": "reported_policy_route"}
+      },
+      "method": "WHO Commission on Social Connection policy-landscape review as described on the Commission's June 2026 webpage; the page identifies adopted-policy count but does not provide a harmonized inventory of policy content, funding, implementation, reach, or outcomes in this observation.",
+      "uncertainty": "The eight-country count is a policy-adoption measure, not a measure of policy quality, enforcement, coverage, funding, service use, or reduced loneliness. The denominator and definition of adopted policy may vary across jurisdictions and should be verified against the underlying review before country comparison.",
+      "subgroup": "WHO Member States, public-health and social-care systems, local governments, schools, workplaces, community organizations, digital platforms, and people experiencing loneliness or isolation.",
+      "counterinterpretation": "A small number of named national policies may reflect deliberate early-stage learning rather than neglect, while countries without a dedicated policy may address social connection through health, housing, education, labor, transport, or community programmes under other labels.",
+      "source_url": "https://www.who.int/groups/commission-on-social-connection",
+      "retrieval_hash": "sha256:a8c4a99eda618600fb4de725aa569f182812c9f52656da8b3c29c5034378e34a",
+      "status": "reported"
     }
   ],
   "related_sources": [

@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wipo-innovation-capabilities-outlook-2026-ecosystem-complexity-diffusion",
+  "title": "Innovation advantage depends on connected capability ecosystems, while most economies leave substantial scientific and technological potential unused",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Intellectual Property Organization, Innovation Capabilities Outlook 2026",
+  "geography": "193-country global innovation ecosystem comparison across science, technology, entrepreneurship, and production capabilities, using data spanning 2001-2023",
+  "observations": [
+    {
+      "period": "2001-2023; global innovation-capability measurement frame",
+      "denominator": {"value": 193, "unit": "countries and economies analyzed in the Innovation Capabilities Outlook", "value_type": "global_economy_frame"},
+      "measures": {
+        "capabilities_mapped": {"value": 2508, "unit": "innovation capabilities mapped across science, technology, entrepreneurship, and production", "value_type": "reported_capability_count"},
+        "data_dimensions": {"value": 4, "unit": "capability dimensions: science, technology, entrepreneurship, and production", "value_type": "reported_dimension_count"},
+        "data_sources": {"value": "patents, trademarks, scientific publications, and exports", "unit": "reported evidence domains", "value_type": "reported_method_set"},
+        "ecosystem_mechanism": {"value": "innovation emergence depends on connections among capabilities rather than isolated strengths", "unit": "WIPO analytical finding", "value_type": "reported_mechanism"}
+      },
+      "method": "WIPO and Harvard Growth Lab capability-network analysis using cross-country indicators from patents, trademarks, publications, and exports over 2001-2023.",
+      "uncertainty": "Capability indicators measure observable outputs and networks, not every informal, public-sector, subsistence, or locally embedded innovation activity; cross-country comparability depends on source coverage.",
+      "subgroup": "Researchers, firms, entrepreneurs, production workers, universities, governments, investors, and regions building or translating knowledge into economic and social outputs.",
+      "counterinterpretation": "Connected capability profiles can support innovation, but they do not guarantee inclusive distribution, good jobs, public value, or successful implementation of every technology.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4827",
+      "retrieval_hash": "sha256:396dcc2546651e28bfa5900496c6a47d891c0097ba5cee424961fb658640a6d3",
+      "status": "reported"
+    },
+    {
+      "period": "2026; global concentration and capability underuse",
+      "denominator": {"value": 193, "unit": "economies analyzed in the global innovation-capability comparison", "value_type": "global_economy_frame"},
+      "measures": {
+        "technological_potential_fulfillment": {"value": 10, "unit": "percent of countries reported as fulfilling their technological potential", "value_type": "reported_country_share"},
+        "technology_underuse": {"value": 26, "unit": "percent potential annual increase in technologies from better leveraging existing capabilities", "value_type": "reported_potential_estimate"},
+        "entrepreneurial_underuse": {"value": 15, "unit": "percent potential annual increase in entrepreneurial innovations from better leveraging existing capabilities", "value_type": "reported_potential_estimate"},
+        "scientific_underuse": {"value": 12, "unit": "percent potential annual increase in scientific discoveries from better leveraging existing capabilities", "value_type": "reported_potential_estimate"}
+      },
+      "method": "WIPO capability-network estimates of unrealized output associated with stronger connections and more effective use of existing national capability portfolios.",
+      "uncertainty": "Potential gains are model-based counterfactual estimates, not guaranteed output increases; they depend on institutions, finance, skills, demand, governance, and implementation.",
+      "subgroup": "Economies with fragmented innovation systems, firms and researchers facing translation gaps, entrepreneurs, public funders, and workers affected by technological development pathways.",
+      "counterinterpretation": "Capability underuse may reflect deliberate specialization, measurement limits, market size, political choices, or constraints that cannot be removed by connection alone.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4827",
+      "retrieval_hash": "sha256:396dcc2546651e28bfa5900496c6a47d891c0097ba5cee424961fb658640a6d3",
+      "status": "reported"
+    },
+    {
+      "period": "2026; diversification, complexity, and regional innovation pathways",
+      "denominator": {"value": 193, "unit": "global innovation ecosystems analyzed by WIPO", "value_type": "ecosystem_comparison_frame"},
+      "measures": {
+        "not_meaningfully_diversified": {"value": 46, "unit": "percent of ecosystems reported as not meaningfully diversified", "value_type": "reported_ecosystem_share"},
+        "complexity_gains_elusive": {"value": 70, "unit": "percent of economies for which complexity gains remain elusive", "value_type": "reported_economy_share"},
+        "asia_pathway": {"value": "China, India, and Viet Nam are described as using smart diversification and capability management strategies", "unit": "WIPO regional synthesis", "value_type": "reported_regional_pattern"},
+        "regional_mismatch": {"value": "Europe has strong foundations but translation challenges; Asia has balanced capabilities but commercialization challenges; Africa is advised to build foundations while gradually targeting complexity", "unit": "WIPO regional synthesis", "value_type": "reported_regional_comparison"}
+      },
+      "method": "WIPO comparison of capability diversity, complexity, and connected innovation pathways across regional and national ecosystems.",
+      "uncertainty": "Regional descriptions summarize heterogeneous economies and should not be treated as universal regional characteristics or causal development prescriptions.",
+      "subgroup": "Countries at different development levels, regional innovation systems, universities, firms, entrepreneurs, workers, and policymakers choosing diversification strategies.",
+      "counterinterpretation": "Complexity and diversification are not the only measures of social value; resilience, public goods, cultural production, and local appropriateness may not rank highly on these metrics.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4827",
+      "retrieval_hash": "sha256:396dcc2546651e28bfa5900496c6a47d891c0097ba5cee424961fb658640a6d3",
+      "status": "reported"
+    },
+    {
+      "period": "2026; complex capabilities, upgrading, and development options",
+      "denominator": {"value": 193, "unit": "economies in the WIPO innovation-capability pathway analysis", "value_type": "capability_pathway_frame"},
+      "measures": {
+        "technological_capability_rarity": {"value": 5, "unit": "percent-plus of countries reported as developing the rarest and most demanding technological capabilities", "value_type": "reported_country_share_lower_bound"},
+        "annual_upgrading": {"value": 33, "unit": "approximate percent of countries that upgrade toward rarer and more rewarding innovation fields each year", "value_type": "reported_country_share"},
+        "pathway_principle": {"value": "strategic diversification from existing strengths is presented as more useful than copying universal solutions", "unit": "WIPO policy framing", "value_type": "reported_policy_framework"},
+        "implementation_boundary": {"value": "innovation capability does not by itself establish distributional outcomes, employment quality, environmental effects, or public legitimacy", "unit": "bounded interpretation", "value_type": "reported_boundary"}
+      },
+      "method": "WIPO capability complexity and relatedness analysis identifying accessible diversification pathways and rare capability development.",
+      "uncertainty": "Pathway opportunity estimates are strategic diagnostics rather than causal forecasts; upgrading depends on political economy, institutions, skills, finance, infrastructure, and external conditions.",
+      "subgroup": "Policymakers, firms, universities, technical workers, entrepreneurs, investors, regions seeking new capabilities, and communities affected by industrial transformation.",
+      "counterinterpretation": "Targeting complexity can increase concentration or lock in an elite innovation agenda if local needs, worker voice, environmental limits, and public accountability are not included.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4827",
+      "retrieval_hash": "sha256:396dcc2546651e28bfa5900496c6a47d891c0097ba5cee424961fb658640a6d3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wipo.int/web-publications/innovation-capabilities-outlook-2026/en/executive-summary.html", "claim": "WIPO's executive summary provides the capability, concentration, and strategic-pathway findings."},
+    {"source_url": "https://www.wipo.int/en/web/economics/innovation-capabilities", "claim": "WIPO's innovation-capabilities program provides the navigator, datasets, and methodological context."}
+  ],
+  "boundary": "This record adds an innovation-ecosystem route across science, technology, entrepreneurship, production, complexity, diversification, regional development, and capability power. It uses aggregate WIPO and Harvard Growth Lab analysis, not respondent-level worker histories, firm case files, individual patent attribution, causal technology forecasts, or proof that capability concentration produces identical social outcomes everywhere.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WIPO publication page, executive summary, and launch materials reviewed for the capability dimensions, 193-economy frame, 2,508 capabilities, potential output gains, concentration, diversification, complexity, regional pathways, and policy boundaries.",
+    "source_url_sha256": "sha256:396dcc2546651e28bfa5900496c6a47d891c0097ba5cee424961fb658640a6d3",
+    "checked": "2026-09-26"
+  }
+}

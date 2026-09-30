@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-disability-employment-services-digital-inclusion-2026",
+  "title": "Disability-inclusive employment is shifting from job placement to a supported pathway of accommodation, retention, progression, and digital access",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "public_systems_feedback", "infrastructure_technology_dependency", "unequal_exposure_status", "firm_sector_market_power", "care_health_reproduction", "trust_identity_meaning"],
+  "source_unit": "ILO report on the Disability Employment Package Mutual Learning Seminar and digital employment pathways, published 9 September 2026",
+  "geography": "European employment-service examples with wider ILO and PROSPECTS implications for disability-inclusive and refugee-host employment pathways",
+  "observations": [
+    {
+      "period": "1–2 September 2026; European Public Employment Services mutual-learning seminar",
+      "denominator": {"value": 1, "unit": "mutual-learning seminar on disability employment services involving employment services, disability organizations, and practitioners", "value_type": "reported_event_frame"},
+      "measures": {
+        "employment_pathway": {"value": "support is described across preparation, matching, reasonable accommodation, retention, skills development, and progression", "unit": "reported pathway stages", "value_type": "reported_service_pathway"},
+        "success_definition": {"value": "successful employment can include autonomy, adaptation, placement, sustained employment, and progression rather than placement alone", "unit": "reported outcome framework", "value_type": "reported_outcome_framework"},
+        "participants": {"value": "public employment services, organizations of persons with disabilities, and practitioners", "unit": "reported participant set", "value_type": "reported_participant_frame"}
+      },
+      "method": "ILO report of a European mutual-learning seminar and examples from employment services; it is practice exchange, not comparative outcome evaluation.",
+      "uncertainty": "The seminar does not establish which models improve employment rates, retention, earnings, or progression, or whether examples are transferable across institutions and labour markets.",
+      "subgroup": "Persons with disabilities, young people with unrecognized support needs, jobseekers, employers, public employment services, disability organizations, and training providers.",
+      "counterinterpretation": "Expanding the pathway can improve support but also increase administrative demands, assessment burdens, or paternalistic gatekeeping if people are defined by support needs rather than agency and choice.",
+      "source_url": "https://www.ilo.org/resource/news/digital-innovation-can-support-more-inclusive-employment-pathways",
+      "retrieval_hash": "sha256:6efb2e35a9ee232220a7edbf31d523320a6907aa286e21edc354e0b2fde15757",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital employment-service evidence and frontier gap",
+      "denominator": {"value": 1, "unit": "ILO mapping of digital tools across disability-inclusive employment pathways", "value_type": "reported_mapping_frame"},
+      "measures": {
+        "current_concentration": {"value": "digital tools are concentrated mainly on access to services, job search, skills development, and matching", "unit": "reported digital-use pattern", "value_type": "reported_pattern"},
+        "evidence_gap": {"value": "there is much less evidence on digital tools supporting reasonable accommodation, retention, workplace inclusion, and career progression", "unit": "reported evidence gap", "value_type": "reported_evidence_gap"},
+        "examples": {"value": "Greece is experimenting with AI-supported skills-based matching, while Germany has explored AI assistance systems such as smart glasses and digital work instructions", "unit": "reported practice examples", "value_type": "reported_practice_set"},
+        "accessibility_risk": {"value": "digitalization can create new barriers if accessibility, assistive technologies, captioning, and inclusive design are overlooked", "unit": "reported risk mechanism", "value_type": "reported_digital_risk"}
+      },
+      "method": "ILO synthesis of emerging digital practices and European examples; it is a practice mapping, not an impact or algorithmic fairness audit.",
+      "uncertainty": "The source does not provide adoption rates, accessibility compliance, algorithmic accuracy, user outcomes, or evidence that AI-supported matching improves retention or progression.",
+      "subgroup": "Jobseekers with disabilities, deaf and hard-of-hearing people, employers, digital-service users, people with low connectivity, and workers requiring assistive technology.",
+      "counterinterpretation": "Automation can widen matching and workplace support, but inaccessible interfaces, biased training data, surveillance, or employer overreliance on automated recommendations can deepen exclusion.",
+      "source_url": "https://www.ilo.org/resource/news/digital-innovation-can-support-more-inclusive-employment-pathways",
+      "retrieval_hash": "sha256:6efb2e35a9ee232220a7edbf31d523320a6907aa286e21edc354e0b2fde15757",
+      "status": "reported"
+    },
+    {
+      "period": "2026; person-centred and ecosystem support model",
+      "denominator": {"value": 1, "unit": "multi-actor employment-support ecosystem", "value_type": "reported_service_ecosystem"},
+      "measures": {
+        "person_centre": {"value": "mainstream employment services can be complemented by individualized or specialist support according to a person's needs", "unit": "reported service principle", "value_type": "reported_service_principle"},
+        "capability_frame": {"value": "support should identify capabilities, development potential, and conditions needed to succeed rather than treating disability as a fixed limit", "unit": "reported practice principle", "value_type": "reported_capability_frame"},
+        "support_actors": {"value": "employers, disability organizations, social and health services, training providers, and specialist actors bring complementary expertise", "unit": "reported actor set", "value_type": "reported_support_ecosystem"},
+        "workplace_tools": {"value": "automated captioning, assistive technologies, flexible hours, and accessible onboarding are cited as practical workplace solutions", "unit": "reported accommodation set", "value_type": "reported_accommodation_set"}
+      },
+      "method": "ILO report of seminar lessons and examples of coordinated employment support.",
+      "uncertainty": "The ecosystem model does not establish coordination quality, service continuity, employer compliance, or whether individualized support is available equitably.",
+      "subgroup": "Persons with disabilities, employers, public and specialist services, health and social-care systems, trainers, families, and workplace colleagues.",
+      "counterinterpretation": "Person-centred support can become individualized responsibility for structural barriers if employers, public agencies, and technology providers are not held accountable for accessible systems.",
+      "source_url": "https://www.ilo.org/resource/news/digital-innovation-can-support-more-inclusive-employment-pathways",
+      "retrieval_hash": "sha256:6efb2e35a9ee232220a7edbf31d523320a6907aa286e21edc354e0b2fde15757",
+      "status": "reported"
+    },
+    {
+      "period": "2026; employer-side inclusion and labour-market retention",
+      "denominator": {"value": 1, "unit": "dual-sided public employment service model supporting jobseekers and employers", "value_type": "reported_service_model"},
+      "measures": {
+        "employer_engagement": {"value": "employment services can support employers with accessible and inclusive workplaces, recruitment, retention, and reasonable accommodation", "unit": "reported employer route", "value_type": "reported_employer_service"},
+        "policy_examples": {"value": "Actiris combines employer engagement with diversity plans, incentives, and accommodation support; France's Handimatch connects disabled jobseekers with inclusive recruiters", "unit": "reported institutional examples", "value_type": "reported_policy_examples"},
+        "regulatory_finance": {"value": "Germany's compensatory levy on employers not meeting statutory disability-employment requirements supports labour-market participation", "unit": "reported policy mechanism", "value_type": "reported_regulatory_mechanism"},
+        "goal": {"value": "the objective is increased employment of persons with disabilities, not levy collection alone", "unit": "reported policy objective", "value_type": "reported_policy_objective"}
+      },
+      "method": "ILO account of European employment-service and employer-side examples.",
+      "uncertainty": "Examples do not provide comparable participation, compliance, retention, earnings, or progression outcomes across countries.",
+      "subgroup": "Employers, disabled workers, jobseekers, public employment services, regulators, disability organizations, and firms adapting workplaces.",
+      "counterinterpretation": "Quotas, levies, incentives, and recruitment platforms can improve visibility while still producing low-quality, segregated, temporary, or underpaid work if workplace power remains unchanged.",
+      "source_url": "https://www.ilo.org/resource/news/digital-innovation-can-support-more-inclusive-employment-pathways",
+      "retrieval_hash": "sha256:6efb2e35a9ee232220a7edbf31d523320a6907aa286e21edc354e0b2fde15757",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/prospects-digital-opportunity-accelerator", "claim": "ILO PROSPECTS Digital Opportunity Accelerator context for refugees and host communities facing employment barriers."},
+    {"source_url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/disability-employment-package_en", "claim": "European Network of Public Employment Services and Disability Employment Package context."}
+  ],
+  "boundary": "This record adds a disability-inclusive employment-service route linking placement, accommodation, retention, progression, employer adaptation, assistive technology, public services, and digital accessibility. It is a practice-exchange report and mapping of examples, not causal evidence of employment gains, algorithmic fairness, sustained retention, wage equality, or universal service access.",
+  "retrieval_hash": "sha256:6efb2e35a9ee232220a7edbf31d523320a6907aa286e21edc354e0b2fde15757"
+}

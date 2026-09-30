@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-household-panel-text-consent-access-stratification-2026",
+  "title": "Text-first survey access expands response speed while making voice and consent more visibly stratified",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "care_health_reproduction"
+  ],
+  "source_unit": "U.S. Census Bureau, Evaluating Text Messaging as a Contact Strategy and Predictors of Text Message Consent: Evidence from the Census Household Panel, September 2026",
+  "geography": "United States; probability-based Census Household Panel and approximately 10,000 respondents to the May 2024 Topical 7 survey",
+  "observations": [
+    {
+      "period": "May 2024 topical survey; response timing",
+      "denominator": {"value": 10000, "unit": "approximately 10,000 Census Household Panel Topical 7 respondents", "value_type": "published_panel_sample"},
+      "measures": {
+        "text_response": {"value": "Text-message invitations appear to bolster initial survey response in the hours immediately after receipt", "unit": "reported response-timing effect", "value_type": "reported_association"},
+        "contact_speed": {"value": "Text is described as a faster and potentially less expensive contact route than mail, in-person visits, or telephone for repeated longitudinal surveys", "unit": "reported operational comparison", "value_type": "reported_pattern"},
+        "time_to_voice": {"value": "The contact channel changes how quickly some panelists can enter a public measurement process, but not equally for everyone", "unit": "analytic access mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Census Household Panel paradata and survey responses from May 2024 Topical 7; the panel is probability-based nationwide, but the study analyzes enrolled panel members who supplied a mobile number and consented to text invitations.",
+      "uncertainty": "The abstract reports an apparent response benefit but does not provide the full effect size, experimental assignment details, or whether faster initial response improves final representativeness or substantive data quality.",
+      "subgroup": "Census Household Panel members invited by email and text, with differences examined by age, race/ethnicity, education, income, and respondent type.",
+      "counterinterpretation": "Faster response may reflect who is already reachable by mobile phone or attentive to text rather than a universal advantage of text messaging; speed can coexist with selective coverage.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html",
+      "retrieval_hash": "sha256:fed064151cfbbd773e97175bb26729c0cb04c012c855e302432abd04b246ab00",
+      "status": "reported"
+    },
+    {
+      "period": "May 2024 topical survey; channel-specific access",
+      "denominator": {"value": 10000, "unit": "approximately 10,000 Topical 7 respondents; enrolled panel frame", "value_type": "published_panel_sample"},
+      "measures": {
+        "access_difference": {"value": "The propensity to click into the survey through a text invitation rather than an email invitation differs by age, race/ethnicity, education, family income, and respondent type", "unit": "reported demographic difference", "value_type": "reported_pattern"},
+        "channel_selection": {"value": "Digital contact is not a neutral pipe: the invitation route filters who reaches the questionnaire and when", "unit": "analytic measurement mechanism", "value_type": "analytic_mechanism"},
+        "voice_gate": {"value": "A public voice captured through a panel is partly shaped by device access, contact consent, channel familiarity, and response timing before any substantive question is answered", "unit": "analytic participation route", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Comparative analysis of paradata for text versus email invitations in the Census Household Panel.",
+      "uncertainty": "The publication identifies demographic differences but does not establish that channel differences produce bias in estimates after weighting, nor that one channel is more accessible in every subgroup.",
+      "subgroup": "Panelists differentiated by age, race/ethnicity, education, family income, and respondent type.",
+      "counterinterpretation": "Observed channel differences may be corrected through multi-mode contact, weighting, or targeted follow-up; difference in access is not by itself evidence of invalid survey estimates.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html",
+      "retrieval_hash": "sha256:fed064151cfbbd773e97175bb26729c0cb04c012c855e302432abd04b246ab00",
+      "status": "reported"
+    },
+    {
+      "period": "May 2024 topical survey; text-message consent",
+      "denominator": {"value": 10000, "unit": "approximately 10,000 Topical 7 respondents; text-consent analysis", "value_type": "published_panel_sample"},
+      "measures": {
+        "consent_rate": {"value": 50, "unit": "approximately percent; text-message consent rate described as comparable to existing literature", "value_type": "published_approximate_estimate"},
+        "consent_gate": {"value": "A mobile invitation strategy requires panelists to provide a mobile number and consent to receive text invitations before text can accelerate participation", "unit": "reported participation condition", "value_type": "reported_mechanism"},
+        "reach_tradeoff": {"value": "The channel that may reduce recruitment and follow-up cost also creates a pre-survey consent gate that can sort who is reachable by text", "unit": "analytic cost-access tradeoff", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Census Household Panel analysis of text-message consent for the May 2024 Topical 7 survey.",
+      "uncertainty": "The accessible abstract reports an approximate rate and subgroup differences but not the full denominator construction, confidence intervals, or whether non-consent reflects privacy preference, device access, distrust, or other constraints.",
+      "subgroup": "Panelists eligible for text invitations, with consent differences examined across demographic and respondent categories.",
+      "counterinterpretation": "Non-consent can be an exercise of privacy and agency rather than exclusion; email, mail, telephone, or in-person modes may provide legitimate alternatives.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html",
+      "retrieval_hash": "sha256:fed064151cfbbd773e97175bb26729c0cb04c012c855e302432abd04b246ab00",
+      "status": "reported"
+    },
+    {
+      "period": "May 2024 topical survey; unequal consent and institutional feedback",
+      "denominator": {"value": 10000, "unit": "approximately 10,000 Topical 7 respondents; consent-behavior analysis", "value_type": "published_panel_sample"},
+      "measures": {
+        "consent_differences": {"value": "Text-message consent behavior differs by race/ethnicity, age, family income, educational attainment, marital status, region, and respondent type", "unit": "reported demographic difference", "value_type": "reported_pattern"},
+        "measurement_exposure": {"value": "Administrative choices about contact mode can distribute opportunities to be measured unevenly across social groups", "unit": "analytic public-feedback mechanism", "value_type": "analytic_mechanism"},
+        "open_test": {"value": "Survey modernization should be evaluated not only by response volume and cost, but by who receives an invitation, who can consent, who responds, and whose conditions are visible in resulting decisions", "unit": "research and governance route", "value_type": "research_queue"}
+      },
+      "method": "Census working-paper analysis of panel paradata and survey responses, with demographic comparisons of text consent behavior.",
+      "uncertainty": "This is evidence about survey participation infrastructure, not direct evidence of unequal policy voice, public-service allocation, or downstream decision error.",
+      "subgroup": "U.S. household-panel members across demographic, household, geographic, and respondent-type categories.",
+      "counterinterpretation": "A multi-mode system may preserve representative coverage even when one mode is selective; privacy-respecting nonparticipation can be normatively valuable.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html",
+      "retrieval_hash": "sha256:fed064151cfbbd773e97175bb26729c0cb04c012c855e302432abd04b246ab00",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/household-panel/technical-documentation/", "claim": "Census Household Panel technical documentation provides complementary survey-frame and mode context."},
+    {"source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html", "claim": "Official Census publication page for the working paper and PDF."}
+  ],
+  "boundary": "This record adds a measurement-infrastructure route from text-first contact and consent through response timing, demographic access differences, and the distribution of public voice. It does not establish that text contact causes substantive response bias, that non-consent is deprivation, or that channel modernization changes policy outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census working-paper page reviewed for panel frame, approximately 10,000 Topical 7 respondents, text/email response timing, demographic access differences, approximately 50% consent, and consent subgroup differences.",
+    "source_url_sha256": "sha256:fed064151cfbbd773e97175bb26729c0cb04c012c855e302432abd04b246ab00",
+    "checked": "2026-09-29"
+  }
+}

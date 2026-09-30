@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-financial-ombudsman-2025-26-complaints-routing-uphold-recourse",
+  "title": "A sharp fall in UK financial complaints partly reflects changed access to the ombudsman, not necessarily less consumer harm",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "UK Financial Ombudsman Service, Annual complaints data and insight 2025/26",
+  "geography": "United Kingdom; complaints referred to the Financial Ombudsman Service and Financial Ombudsman Service for Small Businesses",
+  "observations": [
+    {
+      "period": "2024/25-2025/26; overall complaint demand and uphold",
+      "denominator": {
+        "value": 214600,
+        "unit": "new complaints received by the Financial Ombudsman Service in 2025/26",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "new_complaints_2025_26": {"value": 214600, "unit": "new complaints", "value_type": "official_count"},
+        "new_complaints_2024_25": {"value": 305700, "unit": "new complaints", "value_type": "official_count"},
+        "complaint_change_percent": {"value": -29.8, "unit": "percent change in new complaints received", "value_type": "derived_percentage_change"},
+        "overall_uphold_rate": {"value": 30.0, "unit": "percent of complaints resolved in consumers' favour across financial products", "value_type": "official_resolved_case_share"},
+        "mechanism": {"value": "A fall in complaints is an ambiguous consumer signal: it can reflect less harm, less referral capacity, changed redress rules, or altered willingness and ability to pursue a case", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Annual administrative complaint totals and overall uphold rate reported by the Financial Ombudsman Service for financial year 2025/26, compared with 2024/25.",
+      "uncertainty": "Complaint volume is a routed administrative outcome, not a population incidence rate; uphold rates apply to cases resolved and do not measure unreported harm, firm-level prevention, compensation adequacy, or consumer welfare.",
+      "subgroup": "Complaints about financial products and services received by the Financial Ombudsman Service and its small-business service.",
+      "counterinterpretation": "Lower volume could reflect resolution by firms, reduced problematic activity, a backlog cycle, or changes in the mix and readiness of referrals rather than weakened consumer voice.",
+      "source_url": "https://www.financial-ombudsman.org.uk/businesses/resolving-complaint/our-insight/annual-complaints-data-and-insight-2025-26",
+      "retrieval_hash": "sha256:9d3ae739be960d507e9d33354d0ebaac9dbb45ed7f95319b17fa0f9e1727bf5a",
+      "status": "reported"
+    },
+    {
+      "period": "2024/25-2025/26; professional representation and abandonment",
+      "denominator": {
+        "value": 214600,
+        "unit": "new complaints received by the Financial Ombudsman Service in 2025/26",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "professional_representative_share_2024_25": {"value": 50.0, "unit": "percent of caseload brought by professional representatives", "value_type": "official_caseload_share"},
+        "professional_representative_share_2025_26": {"value": 18.0, "unit": "percent of caseload brought by professional representatives", "value_type": "official_caseload_share"},
+        "professional_representative_cases_2025_26": {"value": 38600, "unit": "cases referred by professional representatives", "value_type": "official_count"},
+        "withdrawn_abandoned_share_2024_25": {"value": 35.0, "unit": "percent of complaints withdrawn or abandoned after coming to the service", "value_type": "official_case_share"},
+        "withdrawn_abandoned_share_2025_26": {"value": 18.0, "unit": "percent of complaints withdrawn or abandoned after coming to the service", "value_type": "official_case_share"},
+        "mechanism": {"value": "Changing the cost and quality threshold for professional representation can alter who reaches formal redress and which cases survive the process, making access design part of consumer power", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Financial Ombudsman Service comparison of caseload share and case withdrawal/abandonment before and after charges for professional representatives were introduced.",
+      "uncertainty": "The source reports changes contemporaneous with the fee policy but does not identify a causal effect, applicant composition, direct consumer costs, cases diverted elsewhere, or whether better-evidenced referrals improved outcomes.",
+      "subgroup": "Complaints brought by professional representatives versus other routes; cases withdrawn or abandoned after referral.",
+      "counterinterpretation": "The lower representative share may indicate filtering of weak or unready cases rather than reduced access; lower abandonment may indicate better preparation or a changed case mix.",
+      "source_url": "https://www.financial-ombudsman.org.uk/businesses/resolving-complaint/our-insight/annual-complaints-data-and-insight-2025-26",
+      "retrieval_hash": "sha256:9d3ae739be960d507e9d33354d0ebaac9dbb45ed7f95319b17fa0f9e1727bf5a",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26; product-level financial friction",
+      "denominator": {
+        "value": 214600,
+        "unit": "new complaints received by the Financial Ombudsman Service in 2025/26; product counts are subsets",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "hire_purchase_motor_complaints": {"value": 37700, "unit": "new complaints about hire purchase motor finance", "value_type": "official_count"},
+        "hire_purchase_motor_complaints_2024_25": {"value": 76200, "unit": "new complaints about hire purchase motor finance in prior year", "value_type": "official_count"},
+        "current_account_complaints": {"value": 32900, "unit": "new complaints about current accounts", "value_type": "official_count"},
+        "current_account_fraud_scams_complaints": {"value": 18900, "unit": "current-account complaints involving fraud and scams", "value_type": "official_count"},
+        "credit_card_complaints": {"value": 22800, "unit": "new complaints about credit cards", "value_type": "official_count"},
+        "credit_card_irresponsible_lending_complaints": {"value": 8800, "unit": "credit-card complaints about perceived irresponsible or unaffordable lending", "value_type": "official_count"},
+        "mechanism": {"value": "Consumer recourse is concentrated in mobility finance, payment accounts, fraud, and affordability—domains where financial products can reshape household room and everyday access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Financial Ombudsman Service product-level administrative complaint counts and categories for financial year 2025/26.",
+      "uncertainty": "Product complaint counts are not prevalence estimates and do not show monetary loss, remedy amount, repeat complaints, or whether complaints were resolved by firms before referral.",
+      "subgroup": "Consumers using motor finance, current accounts, credit cards, and related financial products.",
+      "counterinterpretation": "High complaint volume can reflect product scale, awareness of the ombudsman, concentrated redress campaigns, or easier referral rather than worse product quality alone.",
+      "source_url": "https://www.financial-ombudsman.org.uk/businesses/resolving-complaint/our-insight/annual-complaints-data-and-insight-2025-26",
+      "retrieval_hash": "sha256:9d3ae739be960d507e9d33354d0ebaac9dbb45ed7f95319b17fa0f9e1727bf5a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.financial-ombudsman.org.uk/businesses/resolving-complaint/our-insight?tag=Complaints+data",
+      "claim": "The Financial Ombudsman Service publishes quarterly, half-yearly, and annual complaint data for ongoing follow-up.",
+      "status": "official-data-index"
+    },
+    {
+      "source_url": "https://www.financial-ombudsman.org.uk/files/324740/Financial-Ombudsman-Service-Plans-Budget-2026-27.pdf",
+      "claim": "The service's 2026/27 plans describe expected complaint demand, fraud/scam cases, and redress-system modernization context.",
+      "status": "official-planning-document"
+    }
+  ],
+  "boundary": "This record adds UK administrative evidence on financial complaints, uphold outcomes, professional representation, abandonment, product-level harm signals, and redress routing. It does not establish population-level financial harm, causal effects of representative fees, compensation adequacy, firm compliance, or durable consumer trust.",
+  "retrieval_hash": "sha256:9d3ae739be960d507e9d33354d0ebaac9dbb45ed7f95319b17fa0f9e1727bf5a"
+}

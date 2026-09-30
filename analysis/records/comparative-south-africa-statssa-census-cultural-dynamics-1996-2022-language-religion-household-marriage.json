@@ -1,0 +1,196 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-south-africa-statssa-census-cultural-dynamics-1996-2022-language-religion-household-marriage",
+  "title": "South Africa's cultural and household structure is becoming more multilingual, multiracial, religiously diverse, and less formally married",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "time"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Statistics South Africa, Cultural Dynamics in South Africa, Census 2022 thematic report 03-01-84",
+  "geography": "South Africa",
+  "observations": [
+    {
+      "period": "1996-2022; household racial composition",
+      "denominator": {
+        "value": null,
+        "unit": "South African households in Census 1996, 2001, 2011, and 2022; percentages are census household classifications",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "multiracial_households_2001": {
+          "value": 1.3,
+          "unit": "percent of households",
+          "value_type": "reported_share"
+        },
+        "multiracial_households_2022": {
+          "value": 11.4,
+          "unit": "percent of households",
+          "value_type": "reported_share"
+        },
+        "multiracial_households_western_cape_2022": {
+          "value": 17,
+          "unit": "percent of households in Western Cape",
+          "value_type": "reported_subgroup_share"
+        },
+        "multiracial_households_gauteng_2022": {
+          "value": 14.6,
+          "unit": "percent of households in Gauteng",
+          "value_type": "reported_subgroup_share"
+        },
+        "female_headed_multiracial_households_2022": {
+          "value": 63.3,
+          "unit": "percent of multiracial households",
+          "value_type": "reported_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Household composition is becoming a more visible site of racial and cultural mixing, concentrated in urban provinces and intersecting with female household headship",
+          "unit": "bounded household-culture mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Stats SA Census thematic analysis of household population-group composition across the 1996-2022 census series, with provincial and headship breakdowns.",
+      "uncertainty": "The classification does not establish the quality of intergroup relationships, household power, income, residence duration, or whether mixing reflects partnership, extended-family structure, migration, or reporting change.",
+      "subgroup": "South African households, with provincial and female-headed multiracial-household comparisons.",
+      "counterinterpretation": "A rise in multiracial classification can reflect changing self-identification and census reporting as well as actual household formation; household mixing does not automatically imply broader social cohesion.",
+      "source_url": "https://www.statssa.gov.za/publications/03-01-84/03-01-84.pdf",
+      "retrieval_hash": "sha256:4219482248a63b09454df763f8a54f39fe34ea9de5750116580f39be584c08ca",
+      "status": "reported"
+    },
+    {
+      "period": "1996-2022; religious affiliation and cultural identity",
+      "denominator": {
+        "value": null,
+        "unit": "South African census population reporting religious affiliation; percentages are population distributions",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "christian_affiliation_1996": {
+          "value": 75.9,
+          "unit": "percent of population",
+          "value_type": "reported_share"
+        },
+        "christian_affiliation_2022": {
+          "value": 84.5,
+          "unit": "percent of population",
+          "value_type": "reported_share"
+        },
+        "no_religious_affiliation_2022": {
+          "value": 2.9,
+          "unit": "percent of population",
+          "value_type": "reported_share"
+        },
+        "traditional_african_religion_2022": {
+          "value": 9.5,
+          "unit": "percent of population; report describes this as less than one percent in 1996 and 2001",
+          "value_type": "reported_share"
+        },
+        "white_no_affiliation_relative_to_black_african": {
+          "value": 1.78,
+          "unit": "multivariate relative likelihood reported for white versus Black African respondents",
+          "value_type": "reported_association"
+        },
+        "mechanism": {
+          "value": "Religious identity remains widely shared while specific traditional affiliation has become more visible and non-affiliation differs across population groups",
+          "unit": "bounded identity-structure mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Stats SA Census 1996-2022 analysis of religious affiliation, population group, sex, province, and related sociodemographic patterns.",
+      "uncertainty": "Census affiliation is not religious practice, belief intensity, social participation, or tolerance; category meaning and reporting can change across censuses, and the relative-likelihood statistic is associational.",
+      "subgroup": "South African population by religious affiliation, population group, sex, and province.",
+      "counterinterpretation": "Higher reported affiliation can coexist with declining institutional participation or plural practice; traditional-religion growth may reflect improved reporting or category recognition as well as actual change.",
+      "source_url": "https://www.statssa.gov.za/publications/03-01-84/03-01-84.pdf",
+      "retrieval_hash": "sha256:4219482248a63b09454df763f8a54f39fe34ea9de5750116580f39be584c08ca",
+      "status": "reported"
+    },
+    {
+      "period": "1996-2022; formal marriage and language diversity",
+      "denominator": {
+        "value": null,
+        "unit": "South African census population aged 15 years and older for marital status; language measures use census population or households as specified by the report",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "legally_married_1996": {
+          "value": 35.6,
+          "unit": "percent of population aged 15+ legally married",
+          "value_type": "reported_share"
+        },
+        "legally_married_2022": {
+          "value": 23.8,
+          "unit": "percent of population aged 15+ legally married",
+          "value_type": "reported_share"
+        },
+        "never_married_1996": {
+          "value": 52.8,
+          "unit": "percent of population aged 15+",
+          "value_type": "reported_share"
+        },
+        "never_married_2022": {
+          "value": 61.7,
+          "unit": "percent of population aged 15+",
+          "value_type": "reported_share"
+        },
+        "multilingual_households_1996": {
+          "value": 3.5,
+          "unit": "percent of households reported as multilingual",
+          "value_type": "reported_share"
+        },
+        "multilingual_households_2022": {
+          "value": 9.4,
+          "unit": "percent of households reported as multilingual",
+          "value_type": "reported_share"
+        },
+        "isiZulu_2022": {
+          "value": 24.4,
+          "unit": "percent reporting isiZulu as most spoken language",
+          "value_type": "reported_share"
+        },
+        "isiXhosa_2022": {
+          "value": 16.3,
+          "unit": "percent reporting isiXhosa as most spoken language",
+          "value_type": "reported_share"
+        },
+        "mechanism": {
+          "value": "Formal marriage is less common while multilingual household life is more visible, indicating that family and cultural coordination routes are changing together but not in one direction",
+          "unit": "bounded family-language mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Stats SA Census thematic analysis of marital-status, household-language, and most-spoken-language trends from 1996 through 2022.",
+      "uncertainty": "The report does not identify causes such as income, housing, migration, law, education, or changing preferences; marital status is not partnership quality or household support, and multilingual classification is not proof of equal language power.",
+      "subgroup": "South African population aged 15+ for marital status and households/population for language measures.",
+      "counterinterpretation": "Lower legal marriage may reflect delayed marriage, cohabitation, economic barriers, or classification changes; multilingual households can still contain language hierarchy or unequal access to services.",
+      "source_url": "https://www.statssa.gov.za/publications/03-01-84/03-01-84.pdf",
+      "retrieval_hash": "sha256:4219482248a63b09454df763f8a54f39fe34ea9de5750116580f39be584c08ca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.statssa.gov.za/?PPN=03-01-84&SCH=74247&page_id=1861",
+      "claim": "Stats SA publication description identifies this as a Census 2022 thematic report on language, population group, religion, and marriage from 1996 to 2022.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://www.statssa.gov.za/?p=18173",
+      "claim": "Stats SA public summary describes headline findings on multiracial households, religious affiliation, and marriage.",
+      "status": "official-summary"
+    }
+  ],
+  "boundary": "This record adds South African census evidence on cultural identity, language, household composition, religion, and marriage structure. It does not measure interpersonal trust, discrimination, cultural attendance, consumer behavior, household welfare, or causal social cohesion; census categories and comparability across waves require care.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Stats SA official publication page and official Cultural Dynamics in South Africa report source reviewed for Census 1996-2022 language, multiracial-household, religious-affiliation, and marital-status findings; the downloaded publication page was hashed because the report PDF endpoint served an access-control page in the local retrieval environment.",
+    "source_url_sha256": "sha256:4219482248a63b09454df763f8a54f39fe34ea9de5750116580f39be584c08ca",
+    "checked": "2026-09-30"
+  }
+}

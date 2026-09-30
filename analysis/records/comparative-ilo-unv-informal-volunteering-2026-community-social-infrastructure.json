@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-unv-informal-volunteering-2026-community-social-infrastructure",
+  "title": "Informal volunteering is a major but undercounted layer of social infrastructure, shaped by care, resources, and place",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "ILO-UNV, Informal volunteering: Trends and characteristics",
+  "geography": "Comparative country contexts covered by the ILO-UNV global analysis of informal volunteering",
+  "observations": [
+    {
+      "period": "2026 publication; global volunteering composition",
+      "denominator": {"value": 1, "unit": "global volunteering activity frame in the ILO-UNV report", "value_type": "global_volunteering_frame"},
+      "measures": {
+        "informal_share": {"value": 70, "unit": "approximately percent of all volunteering accounted for by informal volunteering", "value_type": "reported_global_share"},
+        "definition": {"value": "Unpaid services provided to non-family members person-to-person, outside formal organizational structures, sometimes through registered or unregistered groups", "unit": "reported definition", "value_type": "reported_definition"},
+        "recognition_gap": {"value": "Many people doing informal volunteering do not self-identify as volunteers", "unit": "reported measurement and recognition pattern", "value_type": "reported_pattern"}
+      },
+      "method": "ILO-UNV comparative analysis of informal volunteering patterns and characteristics across diverse country contexts, with attention to who participates, how, and under what conditions.",
+      "uncertainty": "The approximately 70 percent figure is a report-level global composition estimate; definitions, instruments, recall, and country coverage can differ, and unrecognized activity is especially vulnerable to measurement error.",
+      "subgroup": "People providing unpaid help outside their household, community groups, formal volunteer organizations, public agencies, and recipients of person-to-person support.",
+      "counterinterpretation": "Formal volunteering remains important and may provide training, safeguards, and durable coordination; informal activity can supplement rather than replace public or organizational provision.",
+      "source_url": "https://www.ilo.org/publications/informal-volunteering-trends-and-characteristics",
+      "retrieval_hash": "sha256:3e095fb96cdaee8abaf09044b88861ba383d92d815fb33b6d2d0d15bf3c41d58",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; demographic and socioeconomic variation",
+      "denominator": {"value": 1, "unit": "comparative informal-volunteering population frame", "value_type": "comparative_population_frame"},
+      "measures": {
+        "variation_axes": {"value": "Engagement varies by age, gender, education, income, disability status, urban or rural location, and country", "unit": "reported heterogeneity set", "value_type": "reported_pattern"},
+        "gender_main_effect": {"value": "Gender alone does not greatly determine engagement in volunteer work in the report's comparisons", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "intersectionality": {"value": "Intersections among gender and other demographic characteristics materially shape volunteering patterns", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparative subgroup analysis that keeps demographic and socioeconomic characteristics distinct and examines their intersections rather than treating one average participation rate as universal.",
+      "uncertainty": "The report identifies patterned differences but does not make every subgroup comparison a causal estimate or establish that one characteristic produces participation differences independent of care, resources, health, safety, or local opportunity.",
+      "subgroup": "Women and men, different age and education groups, people with different incomes or disabilities, and urban and rural residents.",
+      "counterinterpretation": "Observed differences can reflect measurement, opportunity, social norms, household composition, or the kinds of activity counted; higher participation is not automatically lower burden or greater agency.",
+      "source_url": "https://www.ilo.org/publications/informal-volunteering-trends-and-characteristics",
+      "retrieval_hash": "sha256:3e095fb96cdaee8abaf09044b88861ba383d92d815fb33b6d2d0d15bf3c41d58",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; unpaid care and gendered time",
+      "denominator": {"value": 1, "unit": "informal-volunteering participation comparisons involving unpaid care", "value_type": "care_participation_comparison"},
+      "measures": {
+        "care_constraint": {"value": "Engagement in unpaid care in the home strongly reduces women's engagement in informal volunteering", "unit": "reported participation mechanism", "value_type": "reported_mechanism"},
+        "time_competition": {"value": "Informal volunteering competes with care and other unpaid or paid obligations for available time", "unit": "analytic transmission route", "value_type": "reported_mechanism"},
+        "visibility": {"value": "Counting informal volunteering alongside unpaid care can reveal hidden civic and social infrastructure burdens", "unit": "measurement implication", "value_type": "reported_policy_implication"}
+      },
+      "method": "ILO-UNV interpretation of subgroup patterns linking informal volunteering to unpaid care, household conditions, and the availability of time.",
+      "uncertainty": "The report does not estimate a universal causal effect of care on volunteering or the reverse; time competition can coexist with reciprocity, necessity, social norms, and different definitions of care and volunteering.",
+      "subgroup": "People with substantial unpaid care responsibilities, especially women, households relying on informal support, and communities with limited formal services.",
+      "counterinterpretation": "Care networks can enable volunteering by creating reciprocal support, and volunteering may sometimes provide respite or resources; reduced participation is not itself proof of exclusion.",
+      "source_url": "https://www.ilo.org/publications/informal-volunteering-trends-and-characteristics",
+      "retrieval_hash": "sha256:3e095fb96cdaee8abaf09044b88861ba383d92d815fb33b6d2d0d15bf3c41d58",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; policy and civic-capacity implications",
+      "denominator": {"value": 1, "unit": "informal-volunteering measurement and support policy frame", "value_type": "policy_frame"},
+      "measures": {
+        "policy_use": {"value": "Better recognition and measurement can guide more inclusive volunteer strategies, data collection, and community-based interventions", "unit": "reported policy route", "value_type": "reported_policy_pathway"},
+        "social_protection_link": {"value": "Informal volunteering evidence is relevant to inclusion, social protection, and community-based development", "unit": "reported policy linkage", "value_type": "reported_policy_linkage"},
+        "institutional_boundary": {"value": "Recognition should support informal networks without treating unpaid community effort as a substitute for decent work or public provision", "unit": "analytic safeguard", "value_type": "reported_policy_safeguard"}
+      },
+      "method": "ILO-UNV synthesis translating comparative evidence into measurement, inclusion, social-protection, and community-development implications.",
+      "uncertainty": "The publication identifies policy and research routes but does not demonstrate that recognition, funding, or formalization will improve participation, trust, service quality, or wellbeing in every context.",
+      "subgroup": "Volunteer-involving organizations, public authorities, social-protection systems, community groups, unpaid helpers, and people receiving informal support.",
+      "counterinterpretation": "Formal recognition can bring resources and protection but may also add reporting burdens, bureaucratic control, or eligibility rules that weaken flexible reciprocal support.",
+      "source_url": "https://www.ilo.org/publications/informal-volunteering-trends-and-characteristics",
+      "retrieval_hash": "sha256:3e095fb96cdaee8abaf09044b88861ba383d92d815fb33b6d2d0d15bf3c41d58",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/HMOM2673", "claim": "Persistent DOI and publication metadata for the ILO-UNV report."},
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate", "claim": "Complementary ILO social-protection context for the boundary between unpaid support, public provision, and climate-transition protection."}
+  ],
+  "boundary": "This record adds an informal-volunteering, civic-capacity, unpaid-care, and social-infrastructure route. It uses comparative published evidence, not respondent-level volunteering histories, causal estimates of care or volunteering, individual service outcomes, or proof that formal recognition improves community wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO publication page reviewed for report definition, approximately 70 percent composition, subgroup variation, gender intersections, unpaid-care constraint, policy audience, and measurement implications.",
+    "source_url_sha256": "sha256:3e095fb96cdaee8abaf09044b88861ba383d92d815fb33b6d2d0d15bf3c41d58",
+    "checked": "2026-09-26"
+  }
+}

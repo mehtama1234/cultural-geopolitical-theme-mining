@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-unpaid-household-work-time-value-care-2026",
+  "title": "Unpaid household work is a large economic system that converts time into care, household maintenance, and labor-market capacity",
+  "theme_ids": ["time", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "time_hidden_price",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Government Accountability Office, Unpaid Household Work: Estimated Value and Time Spent on Domestic Tasks and Caregiving, GAO-26-107871",
+  "geography": "United States; analysis of 2021–2024 American Time Use Survey data for individuals age 15 and older, with 2024 national valuation estimates",
+  "observations": [
+    {
+      "period": "2021–2024 ATUS; typical diary day",
+      "denominator": {"value": 1, "unit": "U.S. civilian noninstitutionalized population age 15 and older; four years of ATUS diary data pooled", "value_type": "reported_population_frame"},
+      "measures": {
+        "any_unpaid_work": {"value": 87.3, "unit": "percent performing at least one type of unpaid household work on a typical day, excluding secondary child care", "value_type": "reported_share"},
+        "hours_unpaid_work": {"value": 3.72, "unit": "average hours per day among the full population, excluding secondary child care", "value_type": "reported_average"},
+        "including_secondary_childcare": {"value": 4.74, "unit": "average hours per day when secondary child care is included", "value_type": "reported_average"},
+        "mechanism": {"value": "Household functioning depends on a large daily time system that is mostly outside national income and standard employment measures", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO analysis of pooled 2021–2024 American Time Use Survey diary data, with estimates and stated margins of error.",
+      "uncertainty": "ATUS records a selected diary day rather than a full longitudinal care history; pooled estimates are descriptive and secondary child care can overlap with other activities.",
+      "subgroup": "U.S. individuals age 15 and older, with separate analysis by sex, age, employment, marital status, family income, and caregiving type.",
+      "counterinterpretation": "Some unpaid household work is discretionary, reciprocal, or personally meaningful rather than a pure burden; monetary replacement values do not measure subjective welfare or relationship quality.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107871/index.html",
+      "retrieval_hash": "sha256:0c24f417b67698e7111a0eb06a44feef1e06b6147c7c0b9bba52d15281713b89",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2024 ATUS; caregiving and sandwich-care exposure",
+      "denominator": {"value": 1, "unit": "U.S. individuals age 15 and older on a typical diary day; caregiving estimates are conditional among people performing each activity", "value_type": "reported_population_frame"},
+      "measures": {
+        "childcare": {"value": 26.3, "unit": "percent providing primary or secondary child care on a typical day", "value_type": "reported_share"},
+        "childcare_hours": {"value": 6.99, "unit": "average hours per day among people providing child care", "value_type": "reported_conditional_average"},
+        "adult_care": {"value": 6.2, "unit": "percent caring for adults on a typical day", "value_type": "reported_share"},
+        "sandwich_care": {"value": 1.3, "unit": "percent caring for adults and children on the same day when secondary child care is included", "value_type": "reported_share"},
+        "sandwich_care_hours": {"value": 7.87, "unit": "average hours per day among people providing sandwich care when secondary child care is included", "value_type": "reported_conditional_average"},
+        "mechanism": {"value": "Care intensity is concentrated in overlapping life-course roles, creating a time constraint that cannot be inferred from employment status alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO analysis of pooled ATUS diary data, with primary and secondary child care, adult care, and same-day sandwich care distinguished.",
+      "uncertainty": "Care categories overlap; conditional hours among caregivers should not be multiplied by the population share without preserving the denominator distinction, and the sandwich-care estimate has a wider margin of error.",
+      "subgroup": "People caring for children, adults, or both; age, employment, marital status, sex, and income comparisons are reported where statistically supported.",
+      "counterinterpretation": "Secondary child care may occur alongside other activities and does not always represent continuous intensive supervision; the same care can provide relational value as well as constraint.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107871/index.html",
+      "retrieval_hash": "sha256:0c24f417b67698e7111a0eb06a44feef1e06b6147c7c0b9bba52d15281713b89",
+      "status": "reported"
+    },
+    {
+      "period": "2024 valuation; national market value of unpaid household work",
+      "denominator": {"value": 1, "unit": "United States annual national estimate in 2024 dollars", "value_type": "reported_national_valuation_frame"},
+      "measures": {
+        "value_excluding_secondary_childcare_low": {"value": 5.6, "unit": "trillion US dollars estimated annual market value, excluding secondary child care", "value_type": "reported_lower_bound"},
+        "value_excluding_secondary_childcare_high": {"value": 6.0, "unit": "trillion US dollars estimated annual market value, excluding secondary child care", "value_type": "reported_upper_bound"},
+        "gdp_share_excluding_secondary_childcare": {"value": "19.2–20.6", "unit": "percent of 2024 GDP", "value_type": "reported_range"},
+        "value_including_secondary_childcare": {"value": "6.7–7.4", "unit": "trillion US dollars estimated annual market value when secondary child care is included", "value_type": "reported_range"},
+        "mechanism": {"value": "The economic system relies on a large unpriced production sector whose visibility changes how policy, taxes, employment, and gender inequality are interpreted", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO replacement-wage valuation using ATUS time estimates and low/high wage assumptions; the report distinguishes replacement-wage and opportunity-cost approaches.",
+      "uncertainty": "The value is an imputed market-equivalent estimate, not income received or welfare created; results vary with wage assumptions, quality adjustments, and inclusion of secondary child care.",
+      "subgroup": "National U.S. household-work system, with components separately valued for domestic tasks, caregiving, helping adults, and sandwich care.",
+      "counterinterpretation": "Market replacement cost can overstate what households would purchase externally and understate relational, cultural, or autonomy value that is not priced in labor markets.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107871/index.html",
+      "retrieval_hash": "sha256:0c24f417b67698e7111a0eb06a44feef1e06b6147c7c0b9bba52d15281713b89",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2024 ATUS; distribution of unpaid-work time",
+      "denominator": {"value": 1, "unit": "U.S. individuals age 15 and older analyzed by demographic and employment groups", "value_type": "reported_subgroup_comparison_frame"},
+      "measures": {
+        "women_share_unpaid_work": {"value": 53.9, "unit": "percent of people engaged in unpaid household work, compared with 51.2 percent of the U.S. population", "value_type": "reported_subgroup_share"},
+        "nonemployed_domestic_time_gap": {"value": 1, "unit": "approximately additional hour per day spent on domestic tasks by nonemployed versus employed people", "value_type": "reported_group_difference"},
+        "lowest_highest_income_domestic_gap": {"value": 0.34, "unit": "additional hours per day, or about 20 minutes, among lowest-income versus highest-income groups for domestic tasks", "value_type": "reported_group_difference"},
+        "adult_care_gender_pattern": {"value": "Women and men who cared for adults spent similar amounts of time, while nonemployed, older, and lower-income caregivers generally spent more", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Unpaid work is broadly distributed, but the ability to absorb it through paid work, money, or services is unequally distributed", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GAO subgroup comparisons using pooled ATUS diary estimates, statistical significance tests, and minimum practical-difference thresholds.",
+      "uncertainty": "The report describes time allocation differences rather than causal effects of income, employment, gender, or marital status; subgroup estimates have stated margins of error.",
+      "subgroup": "Women and men, married and unmarried people, employed and nonemployed people, age groups, and family-income groups.",
+      "counterinterpretation": "Similar average time in a category can hide differences in intensity, flexibility, task quality, control, or whether the care is shared or supported by others.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107871/index.html",
+      "retrieval_hash": "sha256:0c24f417b67698e7111a0eb06a44feef1e06b6147c7c0b9bba52d15281713b89",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/news.release/atus.htm", "claim": "Underlying Bureau of Labor Statistics American Time Use Survey 2025 release and definitions."},
+    {"source_url": "https://www.bea.gov/products/national-economic-accounts/satellite-accounts", "claim": "Related national-accounting context for household production and satellite-account valuation."}
+  ],
+  "boundary": "This record adds a U.S. route from unpaid domestic work and caregiving through time scarcity, household production, gender and employment exposure, economic valuation, and policy visibility. It is a secondary analysis of pooled ATUS diary data and imputed market values, not respondent-level longitudinal analysis, causal evidence, a measure of money received, or proof that paid substitution would reproduce household welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO-26-107871 report page reviewed for pooled 2021–2024 ATUS methods, unpaid-work prevalence and hours, caregiving and sandwich-care estimates, subgroup comparisons, valuation assumptions, and 2024 national value ranges.",
+    "source_url_sha256": "sha256:0c24f417b67698e7111a0eb06a44feef1e06b6147c7c0b9bba52d15281713b89",
+    "checked": "2026-09-28"
+  }
+}

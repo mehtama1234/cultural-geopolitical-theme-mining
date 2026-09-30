@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-unemployment-measurement-narrative-slack-2026",
+  "title": "Headline unemployment can coexist with a broader public experience of work slack and unmet job fit",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup Chairman's Blog, Unemployment: A National Misunderstanding, September 21, 2026",
+  "geography": "United States; national labor-market measurement and public interpretation",
+  "observations": [
+    {
+      "period": "September 2026 commentary; headline unemployment versus broader U-6 measure",
+      "denominator": {"value": 1, "unit": "Gallup Chairman's Blog argument drawing on published U.S. labor statistics; no new survey sample", "value_type": "analytical_publication_no_new_sample"},
+      "measures": {
+        "headline_unemployment": {"value": "about 4%", "unit": "headline unemployment rate discussed by the article", "value_type": "reported_external_statistic"},
+        "headline_unemployed_count": {"value": 6500000, "unit": "approximately unemployed people counted by the headline measure", "value_type": "reported_external_estimate"},
+        "u6_broader_measure": {"value": "about 8%", "unit": "U-6 measure including unemployed, marginally attached and part-time workers who want full-time work", "value_type": "reported_external_statistic"},
+        "measurement_narrative_gap": {"value": "A low headline rate can coexist with a broader lived experience of incomplete work, weak fit and constrained opportunity.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Public analytical essay by Gallup chairman comparing the headline unemployment measure with BLS U-6 and discussing how labor statistics are interpreted; it is not a new Gallup survey or independent re-estimation.",
+      "uncertainty": "The article is an argument, not a peer-reviewed estimate. It does not reproduce the underlying BLS tables, define a new estimator, or establish that U-6 is the single best measure of lived unemployment.",
+      "subgroup": "U.S. labor force, unemployed, marginally attached and involuntary part-time workers as represented in official labor statistics.",
+      "counterinterpretation": "The headline rate answers a deliberately narrow question about active job search, while U-6 answers a broader slack question; the measures are complementary rather than one being inherently deceptive.",
+      "source_url": "https://news.gallup.com/opinion/chairman/714722/unemployment-national-misunderstanding.aspx",
+      "retrieval_hash": "source_page:sha256:27f9eddcc34d615e36f44cf52d07fbaf0d7fc0b66cd6b43b9abdcbf9558cd2fd",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 commentary; prime-age nonparticipation and fit",
+      "denominator": {"value": 1, "unit": "Author's synthesis of U.S. labor-market statistics and prior Gallup research; no new survey sample", "value_type": "analytical_publication_no_new_sample"},
+      "measures": {
+        "prime_age_nonworking_estimate": {"value": 10000000, "unit": "author's minimum estimate of prime-working-age adults outside the labor force, excluding child care and caretaking cases", "value_type": "reported_author_estimate"},
+        "real_unemployment_estimate": {"value": "about 12%", "unit": "author's proposed broader measure combining unemployed, discouraged, involuntary part-time and selected prime-age nonworkers", "value_type": "author_proposed_measure"},
+        "good_job_fit": {"value": "The author states that a majority of people at home not working would like a good job fitting their education, training, strengths and interests.", "unit": "reported prior Gallup research claim", "value_type": "reported_claim"},
+        "fit_and_dignity_mechanism": {"value": "Work measurement affects whether people see their contribution, dignity and national economic narrative reflected in public data.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"}
+      },
+      "method": "Interpretive essay combining official labor categories with an author-proposed broader concept of real unemployment and reference to prior Gallup research.",
+      "uncertainty": "The 12% and 22-million framing is not an official BLS measure and the article does not provide a fully reproducible denominator, exclusions, data table or causal analysis; prime-age nonwork has heterogeneous causes.",
+      "subgroup": "Prime-working-age adults not working or looking for work, excluding at least some caregiving and child-rearing cases in the author's discussion.",
+      "counterinterpretation": "Nonparticipation can reflect education, health, disability, care, retirement transitions, household choice or discouraged search; treating all nonwork as unemployment could overstate labor-market slack or erase valued unpaid work.",
+      "source_url": "https://news.gallup.com/opinion/chairman/714722/unemployment-national-misunderstanding.aspx",
+      "retrieval_hash": "source_page:sha256:27f9eddcc34d615e36f44cf52d07fbaf0d7fc0b66cd6b43b9abdcbf9558cd2fd",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 commentary; measurement and public decision-making",
+      "denominator": {"value": 1, "unit": "Gallup Chairman's Blog argument; no new survey sample", "value_type": "analytical_publication_no_new_sample"},
+      "measures": {
+        "measurement_claim": {"value": "Leaders and media may make mistaken decisions when they treat a narrow unemployment measure as equivalent to full employment and broad job security.", "unit": "author's argument", "value_type": "reported_claim"},
+        "good_job_as_social_contract": {"value": "The essay links meaningful work, dignity, household security, national optimism and political response as connected outcomes of labor-market interpretation.", "unit": "analytical synthesis", "value_type": "analytical_synthesis"},
+        "policy_test": {"value": "A stronger measurement system would track job search, involuntary part-time work, discouragement, prime-age nonparticipation, job fit and realized transitions separately rather than collapse them into one headline.", "unit": "next-test recommendation", "value_type": "analytical_synthesis"}
+      },
+      "method": "Normative and interpretive argument about how labor-market indicators enter public narratives and policy decisions.",
+      "uncertainty": "This observation captures the publication's framing, not validated evidence that a particular alternative statistic improves decisions; the essay does not test policy or media effects.",
+      "subgroup": "U.S. workers, job seekers, nonparticipants, policymakers and public audiences interpreting labor-market data.",
+      "counterinterpretation": "Clear statistical definitions can be more useful than a single composite measure; expanding the headline may create confusion or politicized comparisons if categories are not kept distinct.",
+      "source_url": "https://news.gallup.com/opinion/chairman/714722/unemployment-national-misunderstanding.aspx",
+      "retrieval_hash": "source_page:sha256:27f9eddcc34d615e36f44cf52d07fbaf0d7fc0b66cd6b43b9abdcbf9558cd2fd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record captures a measurement-and-legitimacy argument, not a new labor-market estimate. It preserves the distinction between official unemployment, U-6, nonparticipation, caregiving, disability, job fit and meaningful work. It does not establish a replacement unemployment rate, causal policy error, the number of people who want work, or a verified 12% real-unemployment prevalence."
+}

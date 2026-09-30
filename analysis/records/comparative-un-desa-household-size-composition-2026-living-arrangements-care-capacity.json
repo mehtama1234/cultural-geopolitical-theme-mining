@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-desa-household-size-composition-2026-living-arrangements-care-capacity",
+  "title": "Household size and living arrangements reveal how demographic change is redistributed through intergenerational care, co-residence, and social infrastructure",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UN DESA Population Division, Database on Household Size and Composition 2026 and Database on Households and Living Arrangements of Older Persons 2026",
+  "geography": "200 countries and areas representing approximately 98 percent of the world population, with estimates based on sources dated 1959–2025 and processing through 30 June 2026",
+  "observations": [
+    {
+      "period": "2026 database release; global household size and composition coverage",
+      "denominator": {"value": 200, "unit": "countries and areas covered by the UN DESA household size and composition database", "value_type": "global_household_database_country_count"},
+      "measures": {
+        "data_sources": {"value": 1129, "unit": "unique data sources used across the database", "value_type": "reported_source_count"},
+        "population_coverage": {"value": 98, "unit": "approximately percent of the world population represented", "value_type": "reported_population_coverage"},
+        "reference_period": {"value": "source reference dates range from 1959 to 2025", "unit": "data reference-period range", "value_type": "reported_time_coverage"},
+        "comparability_route": {"value": "standard estimation procedures are used across sources to improve comparability between countries and over time", "unit": "reported methodology route", "value_type": "reported_methodological_route"}
+      },
+      "method": "UN DESA compilation and standardized estimation of household size, membership composition, and living-arrangement indicators from censuses, surveys, tabulated data, and household-roster sources.",
+      "uncertainty": "The database combines sources with different years, designs, definitions, and levels of detail; standardized estimation improves comparability but does not eliminate measurement gaps or make all country estimates contemporaneous.",
+      "subgroup": "Households, children, older persons, women, men, multigenerational families, people living alone, people in skipped-generation households, and populations across countries with different census and survey systems.",
+      "counterinterpretation": "Broad population coverage does not guarantee equal quality for every country or subgroup; household categories can miss informal, mobile, institutional, or culturally specific living arrangements.",
+      "source_url": "https://www.un.org/development/desa/pd/data/living-arrangements",
+      "retrieval_hash": "sha256:2da3eb9de4bf6d4ea1dba35a122db328bdce235321eafebe8d723e0d4c483e42",
+      "status": "reported"
+    },
+    {
+      "period": "2026 database release; household size and membership composition indicators",
+      "denominator": {"value": 1, "unit": "UN DESA household composition indicator framework", "value_type": "household_composition_indicator_frame"},
+      "measures": {
+        "household_size": {"value": "average household size is reported as the number of usual residents per household", "unit": "published household indicator", "value_type": "reported_indicator_definition"},
+        "under_20_presence": {"value": "the database reports the percentage of households with at least one member aged 0–19", "unit": "published household indicator", "value_type": "reported_indicator_definition"},
+        "older_member_presence": {"value": "the database reports the percentage of households with at least one member aged 65 or over", "unit": "published household indicator", "value_type": "reported_indicator_definition"},
+        "composition_route": {"value": "age composition within households indicates where care, dependence, resources, and intergenerational contact may be organized", "unit": "bounded household mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN DESA household indicators built from the most recent available country source and harmonized definitions; source reference years vary by country.",
+      "uncertainty": "Presence of an age group in a household does not measure caregiving, co-residence quality, economic support, health status, dependency, or who performs unpaid work.",
+      "subgroup": "Households with children, households with older members, single-person households, caregivers, dependent adults, and people living in different household-size contexts.",
+      "counterinterpretation": "Co-residence can provide support or impose care and housing strain; living separately can reflect autonomy, migration, institutional care, or economic constraint rather than weak family ties.",
+      "source_url": "https://www.un.org/development/desa/pd/data/living-arrangements",
+      "retrieval_hash": "sha256:2da3eb9de4bf6d4ea1dba35a122db328bdce235321eafebe8d723e0d4c483e42",
+      "status": "reported"
+    },
+    {
+      "period": "2026 database release; multigenerational and older-person living arrangements",
+      "denominator": {"value": 1, "unit": "UN DESA database on households and living arrangements of older persons", "value_type": "older_person_living_arrangement_frame"},
+      "measures": {
+        "multi_generation": {"value": "the database identifies households with two or more generations of related members aged 20 or over", "unit": "published household indicator definition", "value_type": "reported_indicator_definition"},
+        "three_generation": {"value": "the database identifies households with three or more generations of related members, irrespective of age", "unit": "published household indicator definition", "value_type": "reported_indicator_definition"},
+        "skip_generation": {"value": "the database identifies households consisting of grandparents and grandchildren without the parents of the grandchildren", "unit": "published household indicator definition", "value_type": "reported_indicator_definition"},
+        "care_capacity_route": {"value": "household generation structure can redistribute care, housing use, supervision, income pooling, and exposure to isolation across family and public systems", "unit": "bounded household mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN DESA classification of older-person living arrangements using tabulated data and household-roster micro-data from censuses and household surveys, reported as harmonized aggregate indicators.",
+      "uncertainty": "The categories describe household membership, not actual care flows, emotional support, conflict, safety, material transfers, or individual well-being; the database is not a longitudinal respondent panel.",
+      "subgroup": "Older persons, grandparents, grandchildren, parents, skipped-generation households, multigenerational families, people living alone, and households affected by migration or displacement.",
+      "counterinterpretation": "Multigenerational living can be a source of solidarity and resource sharing, while living alone can be chosen and secure; household form does not determine care quality or family relations.",
+      "source_url": "https://www.un.org/development/desa/pd/data/living-arrangements",
+      "retrieval_hash": "sha256:2da3eb9de4bf6d4ea1dba35a122db328bdce235321eafebe8d723e0d4c483e42",
+      "status": "reported"
+    },
+    {
+      "period": "2026; household data and demographic-policy interpretation",
+      "denominator": {"value": 1, "unit": "UN DESA household and living-arrangements evidence system", "value_type": "household_policy_evidence_frame"},
+      "measures": {
+        "social_infrastructure_signal": {"value": "household composition provides a baseline for understanding how demographic aging, fertility change, migration, housing, and care systems meet in daily life", "unit": "bounded analytical route", "value_type": "bounded_mechanism"},
+        "policy_use": {"value": "comparable household indicators can support planning for housing, social protection, health, care, education, and age-friendly services", "unit": "bounded policy route", "value_type": "bounded_policy_route"},
+        "data_boundary": {"value": "the database improves visibility of household structure but cannot by itself identify unmet care, household bargaining, resource distribution, or causal adaptation", "unit": "reported limitation", "value_type": "reported_limitation"},
+        "linkage_route": {"value": "household structure can be linked in later analysis to demographic projections, labor, health, housing, migration, and public-service data while preserving the distinction between composition and lived outcomes", "unit": "bounded cross-source route", "value_type": "bounded_methodological_route"}
+      },
+      "method": "Bounded synthesis of the UN DESA database scope, definitions, source coverage, and potential policy uses.",
+      "uncertainty": "Policy relevance depends on current country data, consistent definitions, local context, and complementary evidence on income, time, health, care, housing, and social protection.",
+      "subgroup": "National statistical offices, planners, health and care systems, housing authorities, households, older persons, children, migrants, and communities with different family and living arrangements.",
+      "counterinterpretation": "Household data may be misused to shift care responsibility back onto families; public provision and individual rights remain necessary regardless of household form.",
+      "source_url": "https://www.un.org/development/desa/pd/data/living-arrangements",
+      "retrieval_hash": "sha256:2da3eb9de4bf6d4ea1dba35a122db328bdce235321eafebe8d723e0d4c483e42",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/development/desa/pd/content/World-Population-Prospects-2024", "claim": "Complementary UN demographic projections on fertility, mortality, migration, population size, and age structure."},
+    {"source_url": "https://cdn.www.census.gov/library/publications/2026/demo/P95-26-1.html", "claim": "Complementary U.S. Census Bureau global aging synthesis on fertility decline, longevity, communities, work, and disasters."}
+  ],
+  "boundary": "This record adds a household-structure and care-capacity route across household size, age composition, multigenerational living, skipped-generation households, older-person living arrangements, housing, care, migration, and public services. It uses UN DESA published aggregate estimates standardized across 1,129 sources, not raw respondent-level data, individual household histories, care-time diaries, household budgets, causal welfare estimates, or proof that household form determines support or well-being.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA Population Division page reviewed for the 2026 household database coverage, source count, population coverage, reference-period range, household indicators, older-person living-arrangement categories, and estimation boundary.",
+    "source_url_sha256": "sha256:2da3eb9de4bf6d4ea1dba35a122db328bdce235321eafebe8d723e0d4c483e42",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-global-programme-framework-children-on-move-2026-protection-integration",
+  "title": "Children on the move are being framed as a long-term inclusion and social-infrastructure challenge, not only a border or emergency issue",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["housing_place_mobility", "care_health_reproduction", "trust_identity_meaning", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action", "household_room_consumption"],
+  "source_unit": "UNICEF Global Programme Framework for Children on the Move, published June 2026",
+  "geography": "Global child migration and displacement policy and programming, with implementation across regions and country offices",
+  "observations": [
+    {
+      "period": "2026 global programme framework; organizational policy update",
+      "denominator": {"value": 1, "unit": "UNICEF global programme framework for children on the move", "value_type": "published_framework"},
+      "measures": {"policy_purpose": {"value": "protect, include, and empower children affected by migration and displacement worldwide", "unit": "reported programme purpose", "value_type": "reported_framework"}, "guidance_update": {"value": "the framework updates UNICEF's 2017 guidance to reflect current global realities", "unit": "reported policy update", "value_type": "reported_framework"}, "implementation_scope": {"value": "global priorities are intended to guide regions and country offices", "unit": "reported implementation scope", "value_type": "reported_framework"}},
+      "method": "UNICEF presents a rights-based global framework grounded in field experience and intended to guide programmes and policy influence across regions.",
+      "uncertainty": "A global framework does not establish the level, quality, or results of implementation in any country or programme.",
+      "subgroup": "Children and adolescents affected by migration, displacement, irregular movement, separation, exclusion, or lack of durable solutions.",
+      "counterinterpretation": "Global guidance can create common priorities while still requiring substantial local adaptation for legal status, culture, language, services, and safeguarding.",
+      "source_url": "https://www.unicef.org/reports/global-programme-framework",
+      "retrieval_hash": "sha256:26499a89a79b29f512c80276bb863018f18a28d0c58e91b0bfcaff53e2f6c7e5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 framework; prevention and protection continuum",
+      "denominator": {"value": 1, "unit": "framework action-area architecture", "value_type": "published_framework"},
+      "measures": {"root_causes": {"value": "addressing root causes and minimizing risks related to irregular migration and displacement is a first action area", "unit": "reported action area", "value_type": "reported_framework"}, "protection_continuum": {"value": "providing a continuum of protection and care is a distinct action area", "unit": "reported action area", "value_type": "reported_framework"}, "rights_orientation": {"value": "the framework is grounded in child rights and aims to protect, include, and empower", "unit": "reported design principle", "value_type": "reported_framework"}},
+      "method": "UNICEF organizes movement-related policy around prevention, protection, care, inclusion, and empowerment rather than a single emergency intervention.",
+      "uncertainty": "The action-area architecture does not estimate how much each driver contributes to movement or which intervention is most effective.",
+      "subgroup": "Children at risk of unsafe movement, children already displaced or migrating, separated children, and children needing protection and care across transit and destination settings.",
+      "counterinterpretation": "A continuum can reduce fragmentation, but it may blur responsibility if referral pathways, legal protections, and financing are not defined.",
+      "source_url": "https://www.unicef.org/reports/global-programme-framework",
+      "retrieval_hash": "sha256:26499a89a79b29f512c80276bb863018f18a28d0c58e91b0bfcaff53e2f6c7e5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 framework; access, non-discrimination, and social cohesion",
+      "denominator": {"value": 1, "unit": "framework inclusion and service-access route", "value_type": "published_framework"},
+      "measures": {"basic_services": {"value": "ensuring access to learning and basic services is a named action area", "unit": "reported action area", "value_type": "reported_framework"}, "anti_discrimination": {"value": "ending discrimination and strengthening social cohesion is a named action area", "unit": "reported action area", "value_type": "reported_framework"}, "systems_focus": {"value": "the framework calls for inclusive systems so children on the move are not left behind", "unit": "reported systems direction", "value_type": "reported_framework"}},
+      "method": "The framework links child mobility to education, basic services, anti-discrimination, and social-cohesion systems in host and origin contexts.",
+      "uncertainty": "Naming service access and cohesion priorities does not provide a global service-coverage baseline, integration outcome, or causal estimate of social tension.",
+      "subgroup": "Migrant and displaced children, host communities, schools, health and social-service providers, and groups facing discrimination or exclusion.",
+      "counterinterpretation": "Inclusive services may support cohesion, but pressure on local capacity, legal uncertainty, and unequal resources can still produce conflict or exclusion.",
+      "source_url": "https://www.unicef.org/reports/global-programme-framework",
+      "retrieval_hash": "sha256:26499a89a79b29f512c80276bb863018f18a28d0c58e91b0bfcaff53e2f6c7e5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 framework; integration and durable solutions",
+      "denominator": {"value": 1, "unit": "framework long-term-solutions route", "value_type": "published_framework"},
+      "measures": {"integration": {"value": "promoting children's integration and long-term solutions is a named action area", "unit": "reported action area", "value_type": "reported_framework"}, "participation": {"value": "the framework aims to empower children affected by migration and displacement", "unit": "reported participation and agency direction", "value_type": "reported_framework"}, "policy_to_programme": {"value": "the framework is intended to turn global commitments into practical action", "unit": "reported implementation direction", "value_type": "reported_framework"}},
+      "method": "UNICEF connects immediate protection with integration, empowerment, and longer-term solutions in programme and policy design.",
+      "uncertainty": "The framework does not define a universal integration endpoint, measure child participation rates, or demonstrate durable outcomes.",
+      "subgroup": "Children on the move, families, host communities, local authorities, schools, protection actors, and children participating in decisions affecting their lives.",
+      "counterinterpretation": "Integration may improve stability and belonging, but durable solutions depend on legal status, safety, return conditions, housing, education, and local political acceptance.",
+      "source_url": "https://www.unicef.org/reports/global-programme-framework",
+      "retrieval_hash": "sha256:26499a89a79b29f512c80276bb863018f18a28d0c58e91b0bfcaff53e2f6c7e5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.unicef.org/reports/children-displaced-changing-climate", "claim": "Complementary UNICEF evidence on child displacement triggered by weather-related events."}, {"source_url": "https://www.unhcr.org/globaltrends", "claim": "Complementary UNHCR aggregate forced-displacement trends."}],
+  "boundary": "This record adds a child-mobility governance route linking root causes, protection, learning, basic services, discrimination, social cohesion, participation, integration, and durable solutions. It uses a global rights-based programme framework, not child-level migration histories, a complete needs or service-coverage census, representative attitudes of host communities, causal programme evaluation, or proof of successful integration.",
+  "reproduction_audit": {"retrieval_hash_scope": "UNICEF's official framework landing page was reviewed for its purpose, updated guidance, five action areas, rights orientation, service-access route, social-cohesion emphasis, and integration direction.", "source_url_sha256": "sha256:26499a89a79b29f512c80276bb863018f18a28d0c58e91b0bfcaff53e2f6c7e5", "checked": "2026-09-27"}
+}

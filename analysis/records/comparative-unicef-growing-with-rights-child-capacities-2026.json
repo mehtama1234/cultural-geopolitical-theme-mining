@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-growing-with-rights-child-capacities-2026",
+  "title": "Children’s changing capacities require rights-respecting support that combines development, protection, and participation",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "household_room_consumption"
+  ],
+  "source_unit": "UNICEF Innocenti, Growing with Rights: Understanding and supporting the evolving capacities of the child",
+  "geography": "Global child-rights and childhood-development framework under changing social, climate, fragile-context, and digital conditions",
+  "observations": [
+    {
+      "period": "February 2026 publication; child-rights standard",
+      "denominator": {"value": 1, "unit": "Convention on the Rights of the Child rights framework", "value_type": "child_rights_framework"},
+      "measures": {
+        "rights_set": {"value": "Children hold inherent rights to survival, development, and participation in society", "unit": "reported rights standard", "value_type": "reported_rights_framework"},
+        "protection_set": {"value": "Children have rights to freedom from violence, abuse, exploitation, and discrimination", "unit": "reported protection standard", "value_type": "reported_rights_framework"},
+        "international_adoption": {"value": "The Convention on the Rights of the Child has been adopted by almost all countries", "unit": "reported international legal context", "value_type": "reported_context"}
+      },
+      "method": "UNICEF Innocenti synthesis of evidence from multiple fields within the Convention on the Rights of the Child and an evolving-capacities framework.",
+      "uncertainty": "Formal rights recognition does not establish implementation, child access to remedy, or equal protection across places and groups; the framework is not a prevalence estimate or causal child-outcome model.",
+      "subgroup": "Children, adolescents, parents, caregivers, families, schools, communities, service providers, policymakers, and rights institutions.",
+      "counterinterpretation": "Universal rights can coexist with age- and context-sensitive responsibilities; recognizing participation does not mean every decision can be delegated to children or that adult support is unnecessary.",
+      "source_url": "https://www.unicef.org/innocenti/reports/growing-rights",
+      "retrieval_hash": "sha256:7c5b5abdf28c9b42d9c2215dfab719d6a535b2d40508ecba75572fe7116fab3e",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 publication; changing conditions of childhood",
+      "denominator": {"value": 1, "unit": "global childhood change and pressure frame", "value_type": "childhood_change_frame"},
+      "measures": {
+        "pressure_set": {"value": "Fragile contexts, climate change, and digital transformation are identified as factors rapidly changing childhood", "unit": "reported pressure set", "value_type": "reported_structural_pressure"},
+        "developmental_change": {"value": "New cross-disciplinary understanding of child development requires updated interpretation of evolving capacities", "unit": "reported knowledge implication", "value_type": "reported_implication"},
+        "support_question": {"value": "Policymakers, practitioners, parents, and caregivers need context-specific ways to respect and support children’s capacities", "unit": "reported decision requirement", "value_type": "reported_policy_requirement"}
+      },
+      "method": "Interdisciplinary UNICEF Innocenti framework linking child development, protection, participation, and changing environmental, social, and digital contexts.",
+      "uncertainty": "The pressure set is broad and does not quantify the relative effect of climate, fragility, or digital change for every child; exposure, vulnerability, and support capacity vary substantially.",
+      "subgroup": "Children in fragile or conflict-affected settings, climate-exposed communities, digitally connected and disconnected children, and children with different care and service environments.",
+      "counterinterpretation": "Digital transformation and other pressures can also expand learning, connection, expression, and access to support when rights and safeguards are in place.",
+      "source_url": "https://www.unicef.org/innocenti/reports/growing-rights",
+      "retrieval_hash": "sha256:7c5b5abdf28c9b42d9c2215dfab719d6a535b2d40508ecba75572fe7116fab3e",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 publication; three-dimensional evolving-capacities framework",
+      "denominator": {"value": 3, "unit": "developmental, protective, and emancipatory dimensions of children’s evolving capacities", "value_type": "three_dimension_framework"},
+      "measures": {
+        "developmental": {"value": "Developmental capacity concerns growth, learning, and changing ability to understand and act", "unit": "reported framework dimension", "value_type": "framework_dimension"},
+        "protective": {"value": "Protective capacity concerns support and safeguards against harm while capacities develop", "unit": "reported framework dimension", "value_type": "framework_dimension"},
+        "emancipatory": {"value": "Emancipatory capacity concerns children’s agency, participation, and recognition as rights-holders", "unit": "reported framework dimension", "value_type": "framework_dimension"}
+      },
+      "method": "UNICEF Innocenti conceptual framework for understanding and supporting children’s evolving capacities across three linked dimensions.",
+      "uncertainty": "The dimensions are complementary analytic categories, not scores or developmental thresholds; they do not replace child-specific assessment, safeguarding, or local legal and cultural context.",
+      "subgroup": "Children at different ages and developmental stages, children with disabilities, children facing discrimination or violence, and children with different family, school, and community supports.",
+      "counterinterpretation": "Emphasizing agency without protection can expose children to avoidable risk, while emphasizing protection without participation can silence children and reproduce adult control.",
+      "source_url": "https://www.unicef.org/innocenti/reports/growing-rights",
+      "retrieval_hash": "sha256:7c5b5abdf28c9b42d9c2215dfab719d6a535b2d40508ecba75572fe7116fab3e",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 publication; context-specific institutional response",
+      "denominator": {"value": 1, "unit": "child-rights decision and support system", "value_type": "institutional_support_frame"},
+      "measures": {
+        "decision_users": {"value": "Policymakers, practitioners, parents, and caregivers are given questions for context-specific decisions about children’s rights", "unit": "reported intended use", "value_type": "reported_institutional_use"},
+        "support_chain": {"value": "Respecting evolving capacities requires coordination across family, care, education, protection, digital, and public systems", "unit": "analytic support chain", "value_type": "program_mechanism"},
+        "voice_route": {"value": "Child participation is treated as a rights-bearing dimension rather than only a future outcome or adult preference", "unit": "analytic participation route", "value_type": "program_mechanism"}
+      },
+      "method": "UNICEF framework translation into questions for policy, practice, caregiving, and context-sensitive institutional support.",
+      "uncertainty": "The report does not measure institutional adoption, child participation rates, service quality, trust, or outcomes after applying the framework.",
+      "subgroup": "Children and adolescents, families, schools, child-protection services, health and social services, digital platforms, courts, and public authorities.",
+      "counterinterpretation": "Adding participation requirements can increase administrative burden or symbolic consultation unless institutions provide time, accessibility, safety, feedback, and actual influence.",
+      "source_url": "https://www.unicef.org/innocenti/reports/growing-rights",
+      "retrieval_hash": "sha256:7c5b5abdf28c9b42d9c2215dfab719d6a535b2d40508ecba75572fe7116fab3e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/innocenti/prospects-children-2026-global-outlook", "claim": "Complementary UNICEF outlook on geopolitical, funding, climate, and environmental volatility shaping children’s futures."},
+    {"source_url": "https://www.unicef.org/reports/childrens-climate-risk-report-2026", "claim": "Complementary UNICEF evidence on compound climate hazard and child-service exposure."}
+  ],
+  "boundary": "This record adds a child-rights, evolving-capacities, agency, protection, and context-sensitive institutional-support route. It uses a global conceptual synthesis, not child-level developmental histories, representative participation rates, causal effects of digital or climate exposure, or proof that institutions respect or act on children’s views.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNICEF Innocenti publication page reviewed for the February 2026 date, Convention rights framing, changing childhood pressures, developmental/protective/emancipatory dimensions, and context-specific questions for policymakers, practitioners, parents, and caregivers.",
+    "source_url_sha256": "sha256:7c5b5abdf28c9b42d9c2215dfab719d6a535b2d40508ecba75572fe7116fab3e",
+    "checked": "2026-09-26"
+  }
+}

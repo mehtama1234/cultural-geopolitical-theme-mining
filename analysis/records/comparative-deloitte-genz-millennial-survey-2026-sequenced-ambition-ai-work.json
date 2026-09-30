@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work",
+  "title": "Gen Z and millennials are sequencing ambition around stability, sustainable work, purpose and AI readiness rather than rejecting advancement",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "time_hidden_price",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Deloitte Global 2026 Gen Z and Millennial Survey, Progress on Their Own Terms",
+  "geography": "44 countries; global survey of Gen Z and millennial adults with supplementary qualitative insights from business leaders",
+  "observations": [
+    {
+      "period": "2026 survey; more than 22,500 Gen Z and millennial respondents across 44 countries",
+      "denominator": {"value": 22500, "unit": "more than 22,500 Gen Z and millennial respondents; exact total reported by Deloitte as more than 22,500", "value_type": "reported_sample"},
+      "measures": {
+        "cost_of_living_priority": {"value": "Cost of living remains the top concern for Gen Zs and millennials for the fifth consecutive year", "unit": "reported rank", "value_type": "reported_finding"},
+        "paycheck_to_paycheck": {"value": "Nearly half report living paycheck to paycheck", "unit": "reported survey finding", "value_type": "reported_share_approximate"},
+        "housing_career_link": {"value": "Housing availability or affordability directly affects where 69% of Gen Zs and 64% of millennials can work and their career decisions", "unit": "percent", "value_type": "reported_share"},
+        "life_decision_delay": {"value": "55% of Gen Zs and 52% of millennials say finances are delaying major decisions such as marriage, family, business or further education", "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Deloitte global survey of Gen Z and millennial adults across 44 countries, supplemented by qualitative interviews with business leaders.",
+      "uncertainty": "The public report is a Deloitte-sponsored cross-sectional survey and does not establish causal effects of housing or inflation on decisions; reported percentages may reflect country-composition and self-report differences.",
+      "subgroup": "Gen Z respondents born 1995–2007 and millennial respondents born 1983–1994, compared across 44 countries.",
+      "counterinterpretation": "Financial caution may coexist with optimism and strategic planning; delayed milestones do not necessarily imply disengagement or lower long-run aspiration.",
+      "source_url": "https://www.deloitte.com/content/dam/assets-shared/docs/campaigns/2026/2026-genz-millennial-survey.pdf",
+      "retrieval_hash": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; career-path preferences",
+      "denominator": {"value": 22500, "unit": "more than 22,500 Gen Z and millennial respondents across 44 countries", "value_type": "reported_sample"},
+      "measures": {
+        "rapid_promotion_preference": {"value": "25% of Gen Zs and 21% of millennials prefer rapid promotions and title changes", "unit": "percent", "value_type": "reported_share"},
+        "leadership_primary_goal": {"value": "Only 6% of Gen Zs and millennials identify achieving a leadership position as their primary career goal", "unit": "percent", "value_type": "reported_share"},
+        "leadership_interest": {"value": "76% of Gen Zs and 67% of millennials remain interested in pursuing senior or executive leadership roles over their careers", "unit": "percent", "value_type": "reported_share"},
+        "organizational_change_agency": {"value": "69% believe they have power to drive change within their organization", "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional survey questions on ideal career path, leadership interest, barriers and perceived organizational agency.",
+      "uncertainty": "Career preferences and perceived agency are not observed promotion, retention or performance outcomes; the survey cannot identify whether organizational conditions later change.",
+      "subgroup": "Gen Z and millennial employees or workers across the 44-country sample.",
+      "counterinterpretation": "Lower preference for rapid promotion can reflect a shift toward sustainable progression and skill accumulation, not reduced ambition; high long-run leadership interest supports that reading.",
+      "source_url": "https://www.deloitte.com/content/dam/assets-shared/docs/campaigns/2026/2026-genz-millennial-survey.pdf",
+      "retrieval_hash": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; AI use and organizational readiness",
+      "denominator": {"value": 22500, "unit": "more than 22,500 Gen Z and millennial respondents across 44 countries", "value_type": "reported_sample"},
+      "measures": {
+        "work_ai_use": {"value": "74% of both Gen Zs and millennials report using AI to some extent in day-to-day work", "unit": "percent", "value_type": "reported_share"},
+        "ai_growth_support": {"value": "79% use AI to identify learning and development opportunities; 72% of Gen Zs and 69% of millennials seek career advice with it", "unit": "percent", "value_type": "reported_share"},
+        "ai_stress_support": {"value": "67% of Gen Zs and 65% of millennials use AI to cope with work-related stress", "unit": "percent", "value_type": "reported_share"},
+        "organizational_readiness": {"value": "Around one-third do not believe employers sufficiently train employees on AI, and around 30% say employers are not prepared for AI-driven changes", "unit": "reported survey finding", "value_type": "reported_share_approximate"}
+      },
+      "method": "Survey of self-reported workplace AI use, use cases, training and employer readiness, with year-over-year comparisons in the report.",
+      "uncertainty": "Self-reported AI use does not measure task quality, productivity, displacement, verification or employer implementation; the report is not a workplace field experiment.",
+      "subgroup": "Gen Z and millennial workers, with separate generational percentages where reported.",
+      "counterinterpretation": "AI use can represent experimentation or low-stakes assistance rather than deep adoption; the readiness gap may reflect changing expectations as much as actual organizational failure.",
+      "source_url": "https://www.deloitte.com/content/dam/assets-shared/docs/campaigns/2026/2026-genz-millennial-survey.pdf",
+      "retrieval_hash": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; well-being, digital fatigue and purpose",
+      "denominator": {"value": 22500, "unit": "more than 22,500 Gen Z and millennial respondents across 44 countries", "value_type": "reported_sample"},
+      "measures": {
+        "mental_health_good": {"value": "63% of Gen Zs and 66% of millennials rate their mental health as good or extremely good, up from 52% and 58% respectively in 2025", "unit": "percent", "value_type": "reported_share"},
+        "frequent_stress": {"value": "Roughly one-third report feeling anxious or stressed most or all of the time", "unit": "reported survey finding", "value_type": "reported_share_approximate"},
+        "digital_fatigue": {"value": "58% of Gen Zs and 54% of millennials report digital fatigue from constant alerts and navigating multiple tools and platforms", "unit": "percent", "value_type": "reported_share"},
+        "purpose_at_work": {"value": "96% of Gen Zs and 97% of millennials say having a sense of purpose at work is important to job satisfaction", "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Repeated annual survey measures combined with questions on work stress, digital fatigue, purpose and workplace support.",
+      "uncertainty": "Mental-health and fatigue measures are self-assessments and should not be read as clinical prevalence; year-over-year changes may reflect sample, wording or composition effects.",
+      "subgroup": "Gen Z and millennial workers across 44 countries.",
+      "counterinterpretation": "Improved self-rated mental health can coexist with persistent stress because people may adapt expectations, support systems or coping practices without removing structural pressure.",
+      "source_url": "https://www.deloitte.com/content/dam/assets-shared/docs/campaigns/2026/2026-genz-millennial-survey.pdf",
+      "retrieval_hash": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html", "claim": "Official Deloitte landing page with report framing, headline findings and 44-country scope."},
+    {"source_url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html#press-release", "claim": "Deloitte press-release context for the 15th anniversary edition and qualitative business-leader component."}
+  ],
+  "boundary": "This record adds a global work-and-life sequencing layer: financial and housing constraints are changing the timing and conditions of ambition, while AI adoption is outpacing organizational readiness and purpose remains central to job satisfaction. It is a Deloitte-sponsored cross-sectional survey with qualitative leader insight, not a representative longitudinal labor panel, causal evaluation, clinical assessment, employer performance audit or proof of actual AI productivity or displacement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Deloitte landing page and 53-page 2026 PDF were retrieved and reviewed for sample scope, financial pressure, housing, milestone timing, career progression, leadership, AI use/readiness, mental health, digital fatigue and purpose findings; the PDF was hashed.",
+    "source_url_sha256": "sha256:c0a9975c6c1b082b1d5d5152bb9d15d4bbc889ceeebbefc9f92840adf8e02448",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-indonesia-economic-security-2023-jobs-care-shocks",
+  "title": "Indonesia's poverty reduction leaves a large economic-security layer exposed to low-productivity work, care constraints, weak mobility, and climate shocks",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Indonesia Poverty Assessment: Pathways Towards Economic Security, released May 2023",
+  "geography": "Indonesia; national poverty, labor, care, urbanization, human-capital, climate-shock, and fiscal-capacity systems",
+  "observations": [
+    {
+      "period": "2002–2022; poverty reduction and economic security",
+      "denominator": {"value": 1, "unit": "Indonesian population under the report's poverty and economic-security framework", "value_type": "national_population_frame"},
+      "measures": {
+        "extreme_poverty": {"value": 1.5, "unit": "percent of the population below the report's 2011 PPP extreme-poverty line in 2022", "value_type": "reported_rate"},
+        "economic_insecurity": {"value": "about one-third of Indonesians remain susceptible to falling into poverty after a shock", "unit": "reported vulnerability pattern", "value_type": "reported_share_description"},
+        "shock_set": {"value": "COVID-19, natural disasters, and climate-related events can push economically insecure households into poverty", "unit": "reported household-risk mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank poverty assessment using poverty and inequality trends, household and labor evidence, sector analysis, fiscal-incidence work, and policy synthesis.",
+      "uncertainty": "The economic-insecurity share depends on thresholds, survey data, prices, and the report's vulnerability framework; it does not predict which particular household will fall after a given shock or measure multidimensional deprivation.",
+      "subgroup": "Poor and economically insecure households, with differences by rural and urban location, region, work type, gender, human capital, and disaster exposure.",
+      "counterinterpretation": "The large decline in extreme poverty is a substantive achievement; exposure above the extreme-poverty line identifies a policy frontier rather than negating earlier gains.",
+      "source_url": "https://www.worldbank.org/en/country/indonesia/publication/indonesia-poverty-assessment",
+      "retrieval_hash": "sha256:8b3c3bde4f1d2a1996d5ddc1be4f10d0b8b0af13a6bcbb35d4d52bb0d6e1f3ef",
+      "status": "reported"
+    },
+    {
+      "period": "2000–2019; work structure, productivity, and mobility",
+      "denominator": {"value": 1, "unit": "Indonesian workers and sectoral employment structure described by the assessment", "value_type": "sectoral_labor_frame"},
+      "measures": {
+        "low_value_work": {"value": "Agriculture and low-value-added services drove much poverty reduction, but work was often informal, low-productivity, or insufficient to reach economic security", "unit": "reported labor-market pattern", "value_type": "reported_pattern"},
+        "high_skill_jobs": {"value": "High-skilled jobs remained scarce, limiting pathways to higher earnings", "unit": "reported labor-market constraint", "value_type": "reported_constraint"},
+        "urban_migration": {"value": "Low urban migration limited the number of workers able to benefit from agglomeration and higher-productivity urban opportunities", "unit": "reported mobility mechanism", "value_type": "reported_mechanism"},
+        "service_productivity": {"value": "Average service-productivity growth fell from 4.0% in 2000–2013 to 1.7% in 2014–2019 as low-value services expanded faster than high-value services", "unit": "average annual productivity-growth comparison", "value_type": "reported_rate_comparison"}
+      },
+      "method": "World Bank sectoral, labor-market, urbanization, and productivity analysis; the report distinguishes employment presence from sufficient earnings and productivity.",
+      "uncertainty": "Sector averages and migration patterns do not identify each worker's feasible alternative, travel or housing cost, skill acquisition, bargaining power, or realized income trajectory; reported associations are not a causal estimate of one mobility policy.",
+      "subgroup": "Agricultural workers, low-value service workers, urban and rural households, workers without high skills, and people facing housing, congestion, or air-pollution barriers to urban opportunity.",
+      "counterinterpretation": "Low-value services can provide accessible entry and income during structural transition, and staying in a rural area can reflect valued ties or rational choices rather than a simple failure of mobility.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099041923101015385/pdf/P17567409bd69f01809b940840b40608e56.pdf",
+      "retrieval_hash": "sha256:8b3c3bde4f1d2a1996d5ddc1be4f10d0b8b0af13a6bcbb35d4d52bb0d6e1f3ef",
+      "status": "reported"
+    },
+    {
+      "period": "2000–2022; gendered work and unpaid care",
+      "denominator": {"value": 1, "unit": "Indonesian working-age population and household care system", "value_type": "national_labor_care_frame"},
+      "measures": {
+        "female_labor_force": {"value": "about 50% of women were employed or looking for work, compared with more than 80% of men", "unit": "reported labor-force participation contrast", "value_type": "reported_comparison"},
+        "care_constraint": {"value": "Home-care responsibilities and cultural norms constrained women's labor-force participation and household livelihood options", "unit": "reported care and norm mechanism", "value_type": "reported_mechanism"},
+        "gender_pay": {"value": "Women earned less than men, with the report identifying a specific female effect beyond observable characteristics", "unit": "reported earnings pattern", "value_type": "reported_pattern"},
+        "policy_route": {"value": "Improved quality and affordability of childcare, skills, digital opportunities, and labor-market policy could widen household economic pathways", "unit": "reported policy route", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "World Bank gender, labor, household-care, and poverty analysis within the national assessment.",
+      "uncertainty": "The report identifies linked constraints but does not provide an individual care episode, childcare take-up, employer response, wage offer, or causal estimate for a particular childcare or digital intervention.",
+      "subgroup": "Women, mothers and other caregivers, households with dependents, workers facing gender discrimination, and households near poverty or economic-security thresholds.",
+      "counterinterpretation": "Care work can be a valued household choice and labor-force participation is not the sole measure of welfare; expanding paid work without care quality, autonomy, or safety could shift rather than solve burdens.",
+      "source_url": "https://www.worldbank.org/en/country/indonesia/publication/indonesia-poverty-assessment",
+      "retrieval_hash": "sha256:8b3c3bde4f1d2a1996d5ddc1be4f10d0b8b0af13a6bcbb35d4d52bb0d6e1f3ef",
+      "status": "reported"
+    },
+    {
+      "period": "1990–2021; climate and disaster exposure as economic-security risk",
+      "denominator": {"value": 1, "unit": "Indonesia disaster and household-resilience context", "value_type": "national_risk_frame"},
+      "measures": {
+        "climate_share": {"value": 70, "unit": "approximate share of disasters attributed to climate-related events in the report's 1990–2021 context", "value_type": "reported_share"},
+        "people_affected": {"value": "more than 11 million people affected across more than 300 recorded natural disasters", "unit": "reported disaster exposure", "value_type": "reported_count_description"},
+        "protection_bundle": {"value": "Social assistance, social insurance, financial inclusion, and resilient infrastructure are presented as complementary buffers against poverty and shocks", "unit": "reported policy bundle", "value_type": "reported_policy_mechanism"},
+        "fiscal_capacity": {"value": "Higher tax revenue, removal of inefficient subsidies, and stronger subnational administrative capacity are identified as ways to finance pro-poor investment and improve services", "unit": "reported fiscal and administrative route", "value_type": "reported_policy_route"}
+      },
+      "method": "World Bank disaster, household-resilience, social-protection, financial-inclusion, infrastructure, and fiscal-policy synthesis.",
+      "uncertainty": "Historical disaster counts and affected-person totals do not establish household loss, aid receipt, rebuilding, displacement, or recovery; recommended protection bundles are not implementation evidence.",
+      "subgroup": "Disaster-exposed households, poor and near-poor communities, rural and coastal areas, women and caregivers, local governments, and users of social protection and public infrastructure.",
+      "counterinterpretation": "Informal support, remittances, private adaptation, and local institutions may buffer shocks even where formal protection is thin; resilient infrastructure can also create costs or unequal benefits if allocation is not participatory.",
+      "source_url": "https://www.worldbank.org/en/country/indonesia/publication/indonesia-poverty-assessment",
+      "retrieval_hash": "sha256:8b3c3bde4f1d2a1996d5ddc1be4f10d0b8b0af13a6bcbb35d4d52bb0d6e1f3ef",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://blogs.worldbank.org/en/eastasiapacific/pathways-towards-economic-security-indonesia", "claim": "World Bank summary explains the report's economic-security threshold, work, shock, and policy pathways."},
+    {"source_url": "https://documents1.worldbank.org/curated/en/099050123031525009/pdf/P17567403dbd0904f09f1e07010a89fb9cf.pdf", "claim": "Official executive summary provides the report's methods, sector, gender, and economic-security findings."}
+  ],
+  "boundary": "This comparative record adds a country-level route from poverty reduction through job quality, urban mobility, unpaid care, gendered labor, climate shocks, social protection, infrastructure, and fiscal capacity. It does not infer individual household trajectories, causal effects of a named intervention, service receipt, political response, or durable recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank publication page, executive summary, full report, and summary article reviewed for poverty reduction, economic insecurity, work structure, urban migration, female labor-force participation, care constraints, disaster exposure, protection, and fiscal-capacity pathways.",
+    "source_url_sha256": "sha256:8b3c3bde4f1d2a1996d5ddc1be4f10d0b8b0af13a6bcbb35d4d52bb0d6e1f3ef",
+    "checked": "2026-09-28"
+  }
+}

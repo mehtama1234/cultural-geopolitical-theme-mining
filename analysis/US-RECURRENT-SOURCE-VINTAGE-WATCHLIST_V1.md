@@ -1,6 +1,6 @@
 # US recurrent-source vintage watchlist v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-30
 **Status:** active refresh control; not a claim that any source closes an
 end-to-end arrow
 
@@ -13,6 +13,8 @@ October 2, September CPI for October 14, September PPI for October 15, and
 September import/export prices for October 16.
 These are scheduled checkpoints, not guarantees that the resulting vintage
 will be comparable or that a new causal claim will be warranted.
+
+**Culture-and-community calendar recheck (2026-09-30):** the [DCMS Community and Engagement Survey calendar](https://www.gov.uk/government/statistics/announcements/community-and-engagement-survey-may-to-june-2026) confirms that the May–June 2026 quarter is scheduled for 14 October 2026. The January–March 2026 quarter is therefore the latest usable CES vintage in the atlas; no continuation claim is inferred before the scheduled release.
 
 ## Purpose
 
@@ -56,6 +58,8 @@ longitudinal-to-2026 cross-sectional design break remains a required boundary.
 | LBNL data-center energy analysis | 2025 national estimate and 2030 reference/sensitivity scenarios | Next annual or major scenario update; date not fixed | Preserve historical versus modeled status, scenario assumptions, equipment/utilization/cooling boundary, and report hash | Modeled load is not observed demand, approved interconnection, household bills, local incidence, or geopolitical capacity |
 | New York Fed household debt and credit | 2026 Q2 aggregate dashboard | Q3 release; date to be confirmed | Snapshot balances, delinquency, dashboard notes, and any methodology change | Aggregate credit cannot identify which households bear stress |
 | Census HTOPS/HPS | July 2026; March and May PUFs corrected September 10, 2026; linked April–June 2025 panels | Next public-use release; monitor weekly | Preserve correction note, design-break, replicate-weight, and linked-sample notes; do not interpolate an unlisted August wave | Repeated snapshots are not automatically same-person panels |
+| DCMS Community and Engagement Survey | January–March 2026 Quarter 2; [record](records/comparative-england-dcms-community-engagement-q2-2025-26-cultural-civic-hybrid-shift.json) | October 14, 2026 expected May–June 2026 release | Compare the redesigned CES quarter by pathway, physical/digital mode, sector, community action, and question-specific bases; preserve the pre/post redesign boundary | Repeated cross-sections and changing pathways are not same-person cultural or civic trajectories |
+| VisitBritain Domestic Sentiment Tracker | September 2026; [record](records/comparative-visitbritain-domestic-sentiment-september-2026-travel-intentions-cost-barriers.json) | October 22, 2026 expected October tracker | Preserve monthly sample, weighted intention tables, trip-format and barrier denominators, and the intention-versus-realization boundary | Stated travel intention is not a completed trip, booking, spend, cultural visit, or household welfare |
 | GSS / NORC | 1972–2024 historical comparison and 2024 financial-position/trust layer | Next annual or public-use release; date not fixed | Preserve question availability, mode, weights, wording, and changing sample/design coverage before comparing years | Repeated cross-sections are not same-person exposure-to-action panels |
 | CFPB Consumer Complaint Database | 2025 annual; live recheck 2026-09-14 returned 5,452,107 records and index total 17,737,752 | Ongoing API refresh | Capture index timestamp, query universe, fields, raw-response hash, and snapshot hash | Complaint visibility and response labels are not verified remedy rates |
 | SIPP | 2024 reference-year analysis from 2025 file | Next public-use annual file; date to be confirmed | Re-run field/universe and Fay-BRR checks when a new file appears | Person records, household fields, and monthly/reference-period measures differ |

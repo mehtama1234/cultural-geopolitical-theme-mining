@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-pacific-gender-data-outlook-index-2026-data-capacity-accessibility",
+  "title": "Gender-equality policy capacity depends on whether Pacific data systems are institutionally financed, produced, accessible and usable",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "UN Women and Pacific Community, Pacific Gender Data Outlook Index 2026",
+  "geography": "Pacific Island countries and territories; index evidence from 11 of 22 jurisdictions with national statistical system data available",
+  "observations": [
+    {
+      "period": "2026; Pacific Gender Data Outlook Index assessment",
+      "denominator": {"value": 22, "unit": "Pacific Island countries and territories in the regional frame", "value_type": "published_region_frame"},
+      "measures": {
+        "coverage": {"value": "the Index includes evidence for 11 of 22 Pacific Island countries and territories", "unit": "jurisdictions represented in the assessment", "value_type": "reported_coverage"},
+        "policy_infrastructure": {"value": "gender data make inequality visible, help set policy priorities, inform resource allocation and support accountability", "unit": "reported institutional function", "value_type": "reported_interpretation"},
+        "boundary": {"value": "the assessment is not comprehensive because data were not available for all jurisdictions, including some populous Pacific countries", "unit": "reported coverage limitation", "value_type": "reported_boundary"}
+      },
+      "method": "UN Women and Pacific Community regional assessment adapted to small populations, geographic dispersion, capacity constraints and climate and economic shocks, using national statistical system responses and desk evidence.",
+      "uncertainty": "The regional frame and assessed subset should not be treated as a representative estimate for all Pacific jurisdictions or as a measure of gender-equality outcomes.",
+      "subgroup": "National statistical offices, national statistical systems, policy institutions, women and girls facing intersecting disadvantage, and communities exposed to geographic, climate and economic vulnerability.",
+      "counterinterpretation": "A stronger data system can improve visibility and accountability without guaranteeing political action, adequate resources or better lived outcomes.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/Pacific-Gender-Data-Outlook-Index_2026.pdf",
+      "retrieval_hash": "sha256:14347f2eef7fae38daec4b318dc867011fd78d3b117626e1bf8441af3df039ba",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gender-data system capacity framework",
+      "denominator": {"value": 1, "unit": "regional gender-data system framework", "value_type": "published_framework"},
+      "measures": {
+        "enabling_environment": {"value": "laws, policies, institutional mandates, gender-statistics focal points or entities, collaboration and national budget financing form the enabling environment for gender data", "unit": "reported system dimension", "value_type": "reported_assessment"},
+        "production": {"value": "data production covers the ability to collect, process, integrate and produce gender statistics through surveys, censuses and administrative systems", "unit": "reported system dimension", "value_type": "reported_assessment"},
+        "accessibility": {"value": "open data, dissemination and partnerships determine whether produced data can be found and used beyond the producing institution", "unit": "reported system dimension", "value_type": "reported_assessment"}
+      },
+      "method": "Index framework organized around enabling environment, data production and data accessibility, with a broader conceptual data-use dimension.",
+      "uncertainty": "The framework identifies institutional capacity and bottlenecks; it does not by itself establish how effectively each system changes policy or services.",
+      "subgroup": "Statistical offices, line ministries, data users, civil society, researchers, development partners and policy decision-makers.",
+      "counterinterpretation": "Formal laws, focal points or open-data mechanisms can exist without sufficient staff, financing, interoperability, political independence or sustained use.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/Pacific-Gender-Data-Outlook-Index_2026.pdf",
+      "retrieval_hash": "sha256:14347f2eef7fae38daec4b318dc867011fd78d3b117626e1bf8441af3df039ba",
+      "status": "reported"
+    },
+    {
+      "period": "2026; monitoring gender-specific Sustainable Development Goal indicators",
+      "denominator": {"value": 1, "unit": "gender-specific SDG data availability frame cited by the report", "value_type": "published_monitoring_frame"},
+      "measures": {
+        "availability_gap": {"value": "around 4 in 10 data points required to monitor gender-specific SDG indicators remain unavailable", "unit": "reported share of required data points", "value_type": "reported_estimate"},
+        "production_access_gap": {"value": "production capacity is relatively stronger than some institutional, financing and accessibility conditions, so collecting data does not ensure that it is available for policy use", "unit": "reported comparative pattern", "value_type": "reported_assessment"},
+        "investment_signal": {"value": "lower Index scores are intended to identify where targeted investment and strategic planning are needed", "unit": "reported policy use", "value_type": "reported_interpretation"}
+      },
+      "method": "Regional Index scoring and review of gender-data system dimensions, linked to the report's discussion of SDG monitoring gaps.",
+      "uncertainty": "The availability estimate is a regional reporting signal, not a causal decomposition of whether missingness comes from financing, institutional design, collection difficulty, access restrictions or political incentives.",
+      "subgroup": "People whose experiences are missed by weakly disaggregated data, especially across sex, age, disability, location, ethnicity, socioeconomic status and other intersecting conditions.",
+      "counterinterpretation": "More data are not automatically better policy; collection can impose burdens or create privacy risks, and prioritization still requires political judgment and local knowledge.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/Pacific-Gender-Data-Outlook-Index_2026.pdf",
+      "retrieval_hash": "sha256:14347f2eef7fae38daec4b318dc867011fd78d3b117626e1bf8441af3df039ba",
+      "status": "reported"
+    },
+    {
+      "period": "2026; measurement design and interpretation boundary",
+      "denominator": {"value": 16, "unit": "global gender-data system indicators considered in the adapted methodology", "value_type": "published_indicator_frame"},
+      "measures": {
+        "adaptation": {"value": "the methodology was adapted for Pacific small-population, dispersion and capacity conditions and uses 15 of 16 global indicators where comparable evidence was available", "unit": "reported methodology coverage", "value_type": "reported_boundary"},
+        "data_use": {"value": "data use is part of the conceptual framework but its indicators were omitted from the final Index because comparable evidence was limited", "unit": "reported framework boundary", "value_type": "reported_boundary"},
+        "interpretation": {"value": "Index scores are diagnostic signals for system-strength and investment priorities, not causal estimates or a ranking of gender equality outcomes", "unit": "reported interpretation rule", "value_type": "reported_boundary"}
+      },
+      "method": "Adapted UN Women and Pacific Community Gender Data Outlook methodology combining direct national statistical system responses with desk review and comparable indicator scoring.",
+      "uncertainty": "Omitted data-use indicators, missing jurisdictions and uneven evidence limit cross-country comparability and prevent the Index from capturing the full pathway from data production to policy change.",
+      "subgroup": "National statistical systems and their data users, including governments, civil society, researchers, regional organizations and development partners.",
+      "counterinterpretation": "A transparent diagnostic can still improve coordination and investment even when it cannot measure downstream policy impact; conversely, a high score can conceal informal exclusion or weak political uptake.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/Pacific-Gender-Data-Outlook-Index_2026.pdf",
+      "retrieval_hash": "sha256:14347f2eef7fae38daec4b318dc867011fd78d3b117626e1bf8441af3df039ba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.unwomen.org/publications/pacific-gender-data-outlook-index-2026", "claim": "UN Women publication page describing the first systematic region-wide assessment of gender-data capacity in the Pacific."},
+    {"source_url": "https://data.unwomen.org/", "claim": "UN Women data portal providing the publication context for gender statistics, data systems and evidence use."}
+  ],
+  "boundary": "This record adds a Pacific institutional-data layer linking gender-data capacity to policy visibility, prioritization, resource allocation, accountability and investment decisions. It covers 11 of 22 Pacific jurisdictions with available evidence, is diagnostic rather than causal, and is not a respondent-level dataset, a complete regional census or a measure of gender-equality outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN Women PDF and publication page were reviewed for the 11-of-22 coverage frame, enabling-environment, production and accessibility dimensions, SDG data availability gap, adapted indicator methodology and data-use limitation.",
+    "source_url_sha256": "sha256:14347f2eef7fae38daec4b318dc867011fd78d3b117626e1bf8441af3df039ba",
+    "checked": "2026-09-27"
+  }
+}

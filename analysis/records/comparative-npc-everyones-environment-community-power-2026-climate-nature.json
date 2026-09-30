@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-npc-everyones-environment-community-power-2026-climate-nature",
+  "title": "Community knowledge is frequently gathered without gaining policy power, creating capacity and evidence loops that weaken climate, nature, and social-justice delivery",
+  "theme_ids": ["voice", "energy", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "time_hidden_price"
+  ],
+  "source_unit": "New Philanthropy Capital, Green Alliance, and ACEVO, Together for a fairer, greener future: Collective leadership in a time of crisis",
+  "geography": "United Kingdom, with a focus on communities experiencing inequality, civil-society organizations, environmental and social-justice leaders, funders, policymakers, and access to nature",
+  "observations": [
+    {
+      "period": "2025-2026; deliberative research on community power and cross-sector collaboration",
+      "denominator": {"value": 1, "unit": "year-long Everyone's Environment Leaders deliberative programme involving senior civil-society leaders, grassroots activists, policy professionals, and people with lived experience", "value_type": "reported_deliberative_frame"},
+      "measures": {
+        "knowledge_to_influence_gap": {"value": "community knowledge is often gathered, quoted, or consulted without consistently shaping policy, funding, governance, or delivery", "unit": "reported institutional pattern", "value_type": "reported_mechanism"},
+        "power_problem": {"value": "exclusion of lived experience is framed as a power problem, not only a representation problem", "unit": "reported analytic frame", "value_type": "reported_mechanism"},
+        "collaboration_route": {"value": "lasting change requires infrastructure that connects community trust, knowledge, and legitimacy with institutional resources, access, and decision-making power", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Deliberative and qualitative work through the Everyone's Environment Leaders programme, workshops with grassroots activists, policy professionals, and people with lived experience, and cross-sector partner reflection; not a probability survey or impact evaluation.",
+      "uncertainty": "The report synthesizes participant experience and organizational analysis; it does not estimate prevalence, compare intervention effects, or establish that every policy system excludes community knowledge in the same way.",
+      "subgroup": "People experiencing inequality, grassroots and community organizations, environmental and social-justice groups, funders, policymakers, and civil-society leaders.",
+      "counterinterpretation": "Consultation can sometimes influence decisions even when formal co-governance is absent; technical evidence and administrative standards may protect accountability when combined with meaningful community input.",
+      "source_url": "https://www.thinknpc.org/resource-hub/together-for-a-fairer-greener-future/",
+      "retrieval_hash": "sha256:f8d38db74049fb2bfb5557cad635c88312145d0d5f47120c67ef531cd333f585",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; self-reinforcing barriers to community participation in policymaking",
+      "denominator": {"value": 2, "unit": "reported reinforcing loops identified by the report", "value_type": "reported_mechanism_set"},
+      "measures": {
+        "grassroots_capacity_loop": {"value": "community organizations often lack time, funding, and administrative capacity to participate, leaving better-resourced organizations more visible to policymakers", "unit": "reported institutional loop", "value_type": "reported_mechanism"},
+        "evidence_influence_loop": {"value": "policy and funding systems favor technical, written, and quantitative evidence, downgrading lived experience to supporting testimony rather than problem definition", "unit": "reported institutional loop", "value_type": "reported_mechanism"},
+        "missed_capacities": {"value": "policymaking can miss richer problem analysis, narratives connected to everyday life, and community trust and legitimacy", "unit": "reported consequence set", "value_type": "reported_mechanism_set"},
+        "accountability_gap": {"value": "communities may be asked for experiences or ideas without learning what changed as a result", "unit": "reported accountability pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Report synthesis of participant workshops, leadership deliberation, and case reflection on environmental and social-justice policymaking.",
+      "uncertainty": "The loops are an interpretive framework rather than a quantified causal model; capacity, evidence, and accountability barriers may interact differently across places and policy domains.",
+      "subgroup": "Smaller grassroots organizations, communities with less institutional access, technical policy systems, funders, national and local authorities, and communities facing climate and nature inequities.",
+      "counterinterpretation": "Technical evidence preferences can reflect legitimate needs for comparability and public accountability; the remedy may be hybrid evidence standards rather than replacing quantitative analysis with lived experience.",
+      "source_url": "https://npproduction.wpenginepowered.com/wp-content/uploads/2026/09/Together-for-a-fairer-greener-future-Final-1.pdf",
+      "retrieval_hash": "sha256:f8d38db74049fb2bfb5557cad635c88312145d0d5f47120c67ef531cd333f585",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; unequal access to nature as a test of usable public benefit",
+      "denominator": {"value": 1, "unit": "report case and community deliberation on access to nature", "value_type": "reported_case_frame"},
+      "measures": {
+        "access_beyond_proximity": {"value": "usable access to green and blue space depends on safety, accessibility, quality, belonging, and having a say in design and management, not only geographic proximity", "unit": "reported mechanism set", "value_type": "reported_mechanism_set"},
+        "technical_target_risk": {"value": "policies focused on measurable proximity can meet technical targets while missing the barriers faced by communities most excluded from nature", "unit": "reported implementation risk", "value_type": "reported_mechanism"},
+        "place_power_route": {"value": "community influence over design and management is part of whether environmental infrastructure becomes a lived benefit", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Community-informed case analysis within a wider deliberative report on access to nature and just environmental transition.",
+      "uncertainty": "The case is illustrative and does not estimate access gaps or identify a causal effect of participation on use, health, biodiversity, or trust outcomes.",
+      "subgroup": "Disadvantaged communities, people facing safety or accessibility barriers, local organizations, public-space managers, and policymakers responsible for green and blue infrastructure.",
+      "counterinterpretation": "Proximity measures can be an important first-stage equity indicator; quality, safety, belonging, and voice may be addressed through subsequent design and management rather than replacing spatial metrics.",
+      "source_url": "https://www.thinknpc.org/resource-hub/together-for-a-fairer-greener-future/",
+      "retrieval_hash": "sha256:f8d38db74049fb2bfb5557cad635c88312145d0d5f47120c67ef531cd333f585",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proposed pathways from community insight to shared governance",
+      "denominator": {"value": 5, "unit": "report priorities for civil society organizations, funders, and policymakers", "value_type": "reported_policy_priority_set"},
+      "measures": {
+        "priority_set": {"value": "two-way community-to-policy pathways; trusted local infrastructure; co-owned narrative and governance; funded relationships and participation; and community-powered devolution", "unit": "reported policy priorities", "value_type": "reported_policy_set"},
+        "implementation_test": {"value": "community power becomes meaningful only if organizations have time, resources, access, feedback, and decision rights rather than invitations to provide testimony", "unit": "analytic implementation test", "value_type": "analytic_mechanism"},
+        "trust_route": {"value": "shared ownership and visible feedback are proposed as routes to rebuilding trust while linking environmental action to housing, health, transport, economic opportunity, and inequality reduction", "unit": "reported mechanism set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "Normative recommendations grounded in the report's deliberative process, participant experience, and case analysis.",
+      "uncertainty": "The priorities are recommendations, not funded implementation plans or evidence that devolution, co-governance, or local infrastructure will produce durable environmental or social outcomes.",
+      "subgroup": "Civil-society organizations, grassroots groups, funders, local and national government, environmental actors, and communities exposed to unequal climate and nature impacts.",
+      "counterinterpretation": "Shared governance can create decision delays, unclear accountability, or capture by well-connected groups unless roles, representation, resources, and evaluation are explicit.",
+      "source_url": "https://www.thinknpc.org/resource-hub/together-for-a-fairer-greener-future/",
+      "retrieval_hash": "sha256:f8d38db74049fb2bfb5557cad635c88312145d0d5f47120c67ef531cd333f585",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.thinknpc.org/resource-hub/together-for-a-fairer-greener-future/", "claim": "Official NPC report page with executive findings, methodology, and recommendations."},
+    {"source_url": "https://npproduction.wpenginepowered.com/wp-content/uploads/2026/09/Together-for-a-fairer-greener-future-Final-1.pdf", "claim": "Official 39-page report PDF produced through the Everyone's Environment Leaders programme with Green Alliance and ACEVO."}
+  ],
+  "boundary": "This record adds a community-power route from lived experience, local legitimacy, and unequal environmental exposure through organizational capacity, evidence standards, policy influence, shared governance, usable access to nature, and trust. It is a UK deliberative and qualitative report, not a prevalence survey, comparative causal evaluation, community-representative sample, or proof that its proposed collaboration model improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NPC report page and 39-page PDF reviewed for methodology, knowledge-to-power framing, grassroots-capacity and evidence-influence loops, access-to-nature case, accountability gap, and five proposed priorities.",
+    "report_pdf_sha256": "sha256:f8d38db74049fb2bfb5557cad635c88312145d0d5f47120c67ef531cd333f585",
+    "checked": "2026-09-28"
+  }
+}

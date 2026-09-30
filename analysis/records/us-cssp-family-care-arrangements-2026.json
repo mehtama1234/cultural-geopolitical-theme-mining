@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cssp-family-care-arrangements-2026",
+  "title": "Families assemble changing care portfolios, but affordability, trust and work design separate the care they use from the care they want",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Center for the Study of Social Policy, The Care Families Use, The Care Families Want: How Policy Can Better Support the Care of Young Children, September 2026",
+  "geography": "United States; qualitative research in Massachusetts, North Carolina and New Mexico, with parents and primary caregivers across rural, small-city and metropolitan settings",
+  "observations": [
+    {
+      "period": "May-November 2024 interviews; how families actually organize young-child care",
+      "denominator": {"value": 51, "unit": "parents and primary caregivers interviewed", "value_type": "qualitative_interview_universe"},
+      "measures": {
+        "portfolio_care": {"value": "most interviewed parents relied on multiple care arrangements simultaneously or sequentially as needs and circumstances changed", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "care_types": {"value": "care portfolios combined parental care, formal early care and education, and family, friend or neighbor care", "unit": "reported care-arrangement set", "value_type": "reported_pattern"},
+        "use_want_gap": {"value": "the care arrangements and sequencing families wanted often differed from what they could achieve in practice", "unit": "reported qualitative contrast", "value_type": "reported_pattern"}
+      },
+      "method": "More than 70 qualitative interviews with parents, primary caregivers, family members, friends and early-childhood educators; 51 parent or primary-caregiver interviews are central to the report.",
+      "uncertainty": "The purposive qualitative sample is designed to reveal mechanisms and lived sequences, not estimate national prevalence or represent all U.S. families.",
+      "subgroup": "Parents and primary caregivers of young children, including low-income, Black, Latine, Indigenous, immigrant, rural and urban families in three states.",
+      "counterinterpretation": "Using multiple arrangements may reflect preference and relational richness as well as constraint; the report does not treat portfolio care as inherently deficient or formal care as inherently superior.",
+      "source_url": "https://cssp.org/wp-content/uploads/2026/09/CSSP-Family-Care-Report.pdf",
+      "retrieval_hash": "sha256:cf7d45c47a2a44fb79a858d5b7f14369678530b2427151922b1f88cada2249e4",
+      "status": "reported"
+    },
+    {
+      "period": "May-November 2024 interviews; constraints shaping care choices",
+      "denominator": {"value": 51, "unit": "parents and primary caregivers interviewed", "value_type": "qualitative_interview_universe"},
+      "measures": {
+        "affordability": {"value": "cost was a primary factor for every parent interviewed and circumscribed both the type and frequency of care used", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "trust": {"value": "most parents described trust as a driving factor, including whether care reinforced family language and culture", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "practical_constraints": {"value": "location, hours and availability also shaped choices for some families", "unit": "reported qualitative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Semi-structured interviews about care decisions, experiences, supports, desired arrangements and policy needs.",
+      "uncertainty": "The report does not assign relative causal weights to cost, trust, availability, location, hours, language or culture, and themes are not prevalence estimates.",
+      "subgroup": "Families with limited resources and varied formal, informal, cultural and geographic care networks.",
+      "counterinterpretation": "Affordability and trust can reinforce each other: a lower-cost arrangement may be chosen because it is trusted, while an expensive arrangement may still be rejected if relational or cultural fit is weak.",
+      "source_url": "https://cssp.org/wp-content/uploads/2026/09/CSSP-Family-Care-Report.pdf",
+      "retrieval_hash": "sha256:cf7d45c47a2a44fb79a858d5b7f14369678530b2427151922b1f88cada2249e4",
+      "status": "reported"
+    },
+    {
+      "period": "May-November 2024 interviews; paid leave and return-to-work pressure",
+      "denominator": {"value": 51, "unit": "parents and primary caregivers interviewed", "value_type": "qualitative_interview_universe"},
+      "measures": {
+        "paid_leave_use": {"value": 10, "unit": "parents reporting any paid leave after a child’s birth; only 8 reported using paid leave for a birth in the United States", "value_type": "reported_count"},
+        "early_return": {"value": "many parents returned to work earlier than they wanted because they lacked paid leave or financial support", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "parental_time_want": {"value": "most interviewed parents wanted substantially more time with their children after birth and later in the early years", "unit": "reported qualitative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Interview reconstruction of care arrangements, parental work changes, leave, financial support and desired alternatives.",
+      "uncertainty": "Counts describe this purposive interview sample and cannot estimate the national rate of paid-leave access or early return to work.",
+      "subgroup": "Parents and primary caregivers, including workers in child care, home health and other low-wage or care-intensive occupations.",
+      "counterinterpretation": "Some parents may prefer earlier work or shared care; the report's mechanism is that policy and income constraints narrowed the set of feasible choices for many interviewed families.",
+      "source_url": "https://cssp.org/wp-content/uploads/2026/09/CSSP-Family-Care-Report.pdf",
+      "retrieval_hash": "sha256:cf7d45c47a2a44fb79a858d5b7f14369678530b2427151922b1f88cada2249e4",
+      "status": "reported"
+    },
+    {
+      "period": "May-November 2024 interviews; formal and informal care in families' actual and desired portfolios",
+      "denominator": {"value": 51, "unit": "parents and primary caregivers interviewed", "value_type": "qualitative_interview_universe"},
+      "measures": {
+        "formal_care_use": {"value": 42, "unit": "parents reporting use of early care and education at some point before kindergarten", "value_type": "reported_count"},
+        "family_friend_neighbor_use": {"value": 33, "unit": "parents reporting use of family, friend or neighbor care at some point", "value_type": "reported_count"},
+        "formal_care_want": {"value": 39, "unit": "parents indicating they would ideally use formal early care and education before kindergarten; most wanted full-time care, while 11 preferred less than full-time", "value_type": "reported_count"}
+      },
+      "method": "Interview-based inventory of actual arrangements and unconstrained ideal arrangements; categories can overlap because families combined forms of care.",
+      "uncertainty": "The counts are not mutually exclusive, are based on a purposive sample, and describe reported experience rather than quality or developmental outcomes.",
+      "subgroup": "Families using or considering parental care, formal early education, and family, friend or neighbor care.",
+      "counterinterpretation": "The gap between use and ideal does not imply that formal care is unwanted; families often want all three forms, but with more parental time and better-supported quality and sequencing.",
+      "source_url": "https://cssp.org/wp-content/uploads/2026/09/CSSP-Family-Care-Report.pdf",
+      "retrieval_hash": "sha256:cf7d45c47a2a44fb79a858d5b7f14369678530b2427151922b1f88cada2249e4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cssp.org/resource/care-families-use-report-2026/", "claim": "CSSP report page describing the qualitative research scope, publication date and report purpose."}
+  ],
+  "boundary": "This record captures a qualitative mechanism: families combine and sequence care arrangements, and affordability, trust, cultural fit, availability, work design and leave shape the gap between care used and care desired. It is not a nationally representative survey, prevalence estimate, causal evaluation, child-outcome study or universal preference model."
+}

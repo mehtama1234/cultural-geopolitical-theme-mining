@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-small-acts-kindness-older-people-winter-energy-loneliness-2026",
+  "title": "Targeted winter kindness meets older residents at the intersection of energy hardship, food trade-offs, loneliness and information access",
+  "theme_ids": ["energy", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Ipsos for Small Acts of Kindness, Warm in Winter and Bags of Kindness recipient feedback, September 2026 release",
+  "geography": "Hertfordshire and Bedfordshire, England; nominated older and vulnerable residents receiving charity gift bags",
+  "observations": [
+    {
+      "period": "October–December 2025; recipient feedback on cost and energy pressure",
+      "denominator": {"value": 618, "unit": "opt-in recipients who returned complete or partially completed questionnaires after receiving a Warm in Winter or Bag of Kindness gift", "value_type": "self_selected_recipient_sample"},
+      "measures": {
+        "cost_of_living_negative": {"value": 80, "unit": "percent saying the rising cost of living negatively affected them; 12% described the impact as large", "value_type": "published_survey_estimate"},
+        "energy_cost_negative": {"value": 80, "unit": "percent saying rising energy costs negatively affected them; 24% described the impact as large", "value_type": "published_survey_estimate"},
+        "heating_affected": {"value": 74, "unit": "percent saying cost-of-living increases affected their heating", "value_type": "published_survey_estimate"},
+        "food_purchase_affected": {"value": 68, "unit": "percent saying cost-of-living increases affected the food they buy", "value_type": "published_survey_estimate"},
+        "household_tradeoff": {"value": "energy and food choices are reported as linked consequences of cost pressure among recipients", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Paper questionnaires placed in charity gift bags and returned by recipients through prepaid post; participants were nominated by community members and were not sampled from the general population.",
+      "uncertainty": "The opt-in recipient sample is selected for vulnerability and receipt of support; results do not estimate prevalence among older people, identify a counterfactual, or establish that the gift bags caused any change.",
+      "subgroup": "Older and vulnerable residents in Hertfordshire and Bedfordshire who received one of the charity bags and chose to return a questionnaire.",
+      "counterinterpretation": "Reported cost pressure may predate the intervention, be concentrated among people nominated for support, or reflect seasonal recall rather than a general winter trend.",
+      "source_url": "https://www.ipsos.com/en-uk/data-continues-show-impact-winter-energy-costs-and-rising-cost-living",
+      "retrieval_hash": "sha256:ec168474ed09ec57bcc545498dace95f108b3b899b65d7c9059fc395b98e8cd9",
+      "status": "reported"
+    },
+    {
+      "period": "October–December 2025; isolation and mediated companionship",
+      "denominator": {"value": 618, "unit": "opt-in recipients who returned complete or partially completed questionnaires after receiving a charity gift bag", "value_type": "self_selected_recipient_sample"},
+      "measures": {
+        "isolation_any": {"value": 64, "unit": "percent reporting feelings of isolation at least some of the time", "value_type": "published_survey_estimate"},
+        "isolation_some_time": {"value": 50, "unit": "percent feeling isolated some of the time", "value_type": "published_survey_estimate"},
+        "isolation_most_or_all": {"value": 14, "unit": "percent feeling isolated most or all of the time", "value_type": "published_survey_estimate"},
+        "television_radio_company": {"value": 61, "unit": "percent agreeing that television or radio is their main source of company", "value_type": "published_survey_estimate"},
+        "social_connection_route": {"value": "loneliness, energy insecurity and media-mediated companionship appear together in the support-recipient experience", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Self-completed paper feedback questionnaire with an open support-recipient frame; percentages are source-reported and item completion may vary.",
+      "uncertainty": "The survey does not measure network size, contact frequency, mental-health diagnosis, media use duration, or whether the gift changed isolation or companionship.",
+      "subgroup": "Opt-in charity-bag recipients in Hertfordshire and Bedfordshire.",
+      "counterinterpretation": "Television or radio may provide routine and comfort without indicating absence of other relationships; isolation reports may also be influenced by nomination and receipt context.",
+      "source_url": "https://www.ipsos.com/en-uk/data-continues-show-impact-winter-energy-costs-and-rising-cost-living",
+      "retrieval_hash": "sha256:ec168474ed09ec57bcc545498dace95f108b3b899b65d7c9059fc395b98e8cd9",
+      "status": "reported"
+    },
+    {
+      "period": "October–December 2025; material aid, printed information and perceived care",
+      "denominator": {"value": 618, "unit": "opt-in recipients who returned complete or partially completed questionnaires after receiving a charity gift bag", "value_type": "self_selected_recipient_sample"},
+      "measures": {
+        "everything_almost_everything_useful": {"value": 51, "unit": "percent spontaneously saying everything or almost everything in the bag was useful", "value_type": "published_survey_estimate"},
+        "warm_clothing_useful": {"value": 67, "unit": "percent highlighting warm clothing as useful", "value_type": "published_survey_estimate"},
+        "printed_information_useful": {"value": 88, "unit": "percent finding the Purple Pages information pack useful", "value_type": "published_survey_estimate"},
+        "printed_information_important": {"value": 95, "unit": "percent saying it is important for organisations and charities to produce printed information", "value_type": "published_survey_estimate"},
+        "felt_good_or_cheered": {"value": 60, "unit": "percent whose open-ended response described feeling good, happy, delighted or cheered up", "value_type": "published_coded_response"},
+        "felt_cared_for": {"value": 15, "unit": "percent whose open-ended response expressed feeling loved, thought of or cared for", "value_type": "published_coded_response"}
+      },
+      "method": "Ipsos coding of recipient feedback, including open-ended responses, combined with structured usefulness and information questions.",
+      "uncertainty": "Usefulness, emotion and information preferences are recipient reports; the survey does not measure warmth, bill reduction, service take-up, health, or sustained connection after the gift.",
+      "subgroup": "Opt-in charity-bag recipients in Hertfordshire and Bedfordshire.",
+      "counterinterpretation": "Positive responses may reflect gratitude, novelty, social desirability or relief at recognition and should not be interpreted as evidence that small material gifts substitute for structural support.",
+      "source_url": "https://www.ipsos.com/en-uk/data-continues-show-impact-winter-energy-costs-and-rising-cost-living",
+      "retrieval_hash": "sha256:ec168474ed09ec57bcc545498dace95f108b3b899b65d7c9059fc395b98e8cd9",
+      "status": "reported"
+    },
+    {
+      "period": "Winter 2024–25 compared with winter 2023–24; repeated recipient feedback route",
+      "denominator": {"value": 546, "unit": "prior-wave recipients under the same charity-feedback methodology", "value_type": "historical_comparison_sample"},
+      "measures": {
+        "information_pack_useful_prior_wave": {"value": 89, "unit": "percent finding the Purple Pages information pack useful in the prior wave", "value_type": "published_comparison_estimate"},
+        "comparison_scope": {"value": "the source compares 618 current-wave responses with 546 prior-wave responses using the same broad method", "unit": "reported repeated-wave context", "value_type": "reported_method_context"},
+        "intervention_learning": {"value": "the charity can use repeated recipient feedback to tune material and information support, but the design does not identify counterfactual effect or population change", "unit": "reported learning boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Repeated cross-sectional feedback among recipients of the charity's bags, with questionnaires returned voluntarily in both waves.",
+      "uncertainty": "The waves are not a matched panel, recipients may differ, item completion is optional, and repeated usefulness does not establish improved outcomes over time.",
+      "subgroup": "Charity-bag recipients in the two local counties across the 2024 and 2025 winter waves.",
+      "counterinterpretation": "Stable usefulness ratings could indicate consistent design quality, stable unmet need, or recurring gratitude rather than intervention effectiveness.",
+      "source_url": "https://www.ipsos.com/en-uk/data-continues-show-impact-winter-energy-costs-and-rising-cost-living",
+      "retrieval_hash": "sha256:ec168474ed09ec57bcc545498dace95f108b3b899b65d7c9059fc395b98e8cd9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-uk/data-continues-show-impact-winter-energy-costs-and-rising-cost-living", "claim": "Ipsos primary release with recipient sample, cost, energy, heating, food, loneliness, usefulness, information and emotional-response results.", "status": "primary-recipient-feedback-release"},
+    {"source_url": "https://www.smallactsofkindness.co.uk/", "claim": "Charity context for Warm in Winter, Bags of Kindness and the local support model.", "status": "program-context"}
+  ],
+  "boundary": "This record adds an intervention-encounter route: targeted material warmth, printed information and recognition meet energy hardship, food trade-offs, isolation and mediated companionship among nominated older and vulnerable residents. It is an opt-in recipient feedback sample from Hertfordshire and Bedfordshire, not population prevalence, a randomized evaluation, a matched panel, or evidence that the bags caused changes in bills, food security, health, loneliness or service take-up.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Ipsos primary release reviewed for recipient frame, field/wave timing, sample sizes, cost and energy impacts, heating and food trade-offs, isolation, media companionship, usefulness, printed information, emotional coding and prior-wave comparison.",
+    "source_url_sha256": "sha256:ec168474ed09ec57bcc545498dace95f108b3b899b65d7c9059fc395b98e8cd9",
+    "checked": "2026-09-28"
+  }
+}

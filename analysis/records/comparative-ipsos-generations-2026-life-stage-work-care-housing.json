@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-generations-2026-life-stage-work-care-housing",
+  "title": "Generational differences are often life-stage effects: work moves from optimism through pressure toward selective stability while housing and care reshape milestones",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos Generations Report 2026",
+  "geography": "Global; Ipsos Global Advisor survey across 30 countries and Ipsos Global Employee Experience Benchmark Database across industries, roles and regions",
+  "observations": [
+    {
+      "period": "2026; global adults under 75 across 30 countries",
+      "denominator": {"value": 22693, "unit": "adults under age 75 across 30 countries interviewed February 20–March 6, 2026", "value_type": "reported_sample"},
+      "measures": {
+        "gen_z_home_expectation": {"value": 60, "unit": "percent of Gen Z respondents saying home ownership is certain or likely during their lifetime", "value_type": "reported_share"},
+        "gen_z_marriage_expectation": {"value": "More than one in two Gen Z respondents expect to marry", "unit": "reported survey finding", "value_type": "reported_share_approximate"},
+        "gen_z_parenthood_expectation": {"value": 50, "unit": "percent of Gen Z respondents expecting to become a parent", "value_type": "reported_share"},
+        "housing_difficulty": {"value": 71, "unit": "percent across 29 countries agreeing young people will struggle to get suitable housing even if they work hard and get good jobs", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor survey with cross-country generational comparisons; report also draws on Ipsos Housing Monitor data.",
+      "uncertainty": "These are expectations and attitudes, not observed homeownership, marriage or parenthood outcomes; country composition, wording and cohort definitions shape comparisons.",
+      "subgroup": "Gen Z, millennials, Gen X and boomers, with a specific housing comparison across age groups and 29 countries.",
+      "counterinterpretation": "Traditional aspirations remain culturally durable even when timing and affordability are constrained; expectation should not be treated as a forecast of realized milestones.",
+      "source_url": "https://resources.ipsos.com/rs/297-CXJ-795/images/Ipsos-Generations-Report-2026.pdf",
+      "retrieval_hash": "sha256:d1d4dfd8bd104b6ad1dbc1e9eede744dbc4e0c640c6a102782da59150ed81fa4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; family and care across life stages",
+      "denominator": {"value": 30, "unit": "countries covered by Ipsos Global Advisor comparisons; report includes qualitative and secondary demographic context", "value_type": "reported_population"},
+      "measures": {
+        "sandwiched_life_stage": {"value": "Middle-aged adults are increasingly described as balancing care for children or adult children with care for ageing parents", "unit": "reported life-stage pattern", "value_type": "reported_theme"},
+        "elder_dependence": {"value": "In the UK, elderly dependents are expected to outnumber child dependents", "unit": "reported demographic projection cited by Ipsos", "value_type": "reported_projection"},
+        "care_purchase_decision": {"value": "The report notes that adult children may make purchase decisions for senior products and services", "unit": "reported consumer mechanism", "value_type": "reported_interpretation"},
+        "care_support_need": {"value": "The ‘sandwiched’ group is framed as needing support that addresses time, emotional strain and eldercare navigation alongside employment", "unit": "reported consumer/service implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Generational synthesis combining demographic sources, Ipsos research and market examples; the report is not a dedicated caregiver prevalence survey.",
+      "uncertainty": "The sandwiched-care framing identifies a life-stage mechanism but does not estimate the number of caregivers, hours of care, financial burden or causal employment effects.",
+      "subgroup": "Middle-aged adults caring across generations, including employees with child and elder dependents.",
+      "counterinterpretation": "Multigenerational care can also provide reciprocity, shared resources and meaning; burden depends on household structure, public services, income and geography.",
+      "source_url": "https://resources.ipsos.com/rs/297-CXJ-795/images/Ipsos-Generations-Report-2026.pdf",
+      "retrieval_hash": "sha256:d1d4dfd8bd104b6ad1dbc1e9eede744dbc4e0c640c6a102782da59150ed81fa4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; global employee experience benchmark across age bands",
+      "denominator": {"value": 3600000, "unit": "more than 3.6 million employee-experience responses from workers aged 16 to 66+ across industries, roles and regions", "value_type": "reported_sample"},
+      "measures": {
+        "lifecycle_pattern": {"value": "Work experience is described as a recurring lifecycle: early optimism gives way to realism, pressure and eventually a more grounded, selective relationship with work", "unit": "reported longitudinal-style age-pattern interpretation", "value_type": "reported_interpretation"},
+        "midcareer_strain": {"value": "Ages 36–45 are characterized by high strain, workload and process barriers while job enjoyment is 77% and pride is 76%", "unit": "percent and reported pattern", "value_type": "reported_share"},
+        "early_career_trust": {"value": "Ages 26–35 show a dip in positivity and trust in change as the early-career ‘honeymoon’ ends, while intent to stay rises", "unit": "reported age-pattern interpretation", "value_type": "reported_interpretation"},
+        "later_career_stability": {"value": "Ages 46–55 show peaks in intent to stay and belonging, suggesting greater embeddedness despite continuing strain", "unit": "reported age-pattern interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Analysis of Ipsos Global Employee Experience Benchmark Database, with age-band comparisons across workplace perceptions; report presents patterns as progression rather than a single generational divide.",
+      "uncertainty": "The database is observational and may contain differences in employer, industry, country, role and survey participation by age; age-band patterns do not identify within-person change over time.",
+      "subgroup": "Employees aged 16–25, 26–35, 36–45, 46–55, 56–65 and 65+.",
+      "counterinterpretation": "The apparent lifecycle may partly reflect cohort, occupation, selection and macroeconomic differences rather than aging itself; the report explicitly says context, culture and leadership still shape experience.",
+      "source_url": "https://resources.ipsos.com/rs/297-CXJ-795/images/Ipsos-Generations-Report-2026.pdf",
+      "retrieval_hash": "sha256:d1d4dfd8bd104b6ad1dbc1e9eede744dbc4e0c640c6a102782da59150ed81fa4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; work strain, respect and organizational communication",
+      "denominator": {"value": 3600000, "unit": "more than 3.6 million employee-experience responses in the global benchmark database", "value_type": "reported_sample"},
+      "measures": {
+        "squeezed_middle": {"value": "Ages 36–45 are described as absorbing inefficiencies and process barriers rather than escalating them, with downstream effects on workplace culture", "unit": "reported organizational mechanism", "value_type": "reported_theme"},
+        "respect_perception": {"value": "Across 30 countries, 40% of employed 16–25-year-olds often feel different age groups do not respect them, compared with 21% among 56–65-year-olds", "unit": "percent", "value_type": "reported_share"},
+        "older_communication_gap": {"value": "Ages 56–65 lag most on timely, relevant, open and honest communication, leader response to suggestions and trust in executives", "unit": "reported workplace pattern", "value_type": "reported_interpretation"},
+        "selective_engagement": {"value": "The report describes later-career employees as more discerning and intentional, investing energy where work feels worthwhile and authentic", "unit": "reported workplace pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Employee-experience benchmark analysis combined with a separate 30-country public perception survey of workplace age groups.",
+      "uncertainty": "Perceptions of respect and communication are self-reported; the report does not observe manager behavior, turnover, productivity or the organizational consequences it hypothesizes.",
+      "subgroup": "Employees across age bands, with emphasis on early-career, mid-career and later-career experiences.",
+      "counterinterpretation": "Age-group stereotypes may shape both expectations and responses; the same behavior can reflect role, hierarchy or tenure rather than age.",
+      "source_url": "https://resources.ipsos.com/rs/297-CXJ-795/images/Ipsos-Generations-Report-2026.pdf",
+      "retrieval_hash": "sha256:d1d4dfd8bd104b6ad1dbc1e9eede744dbc4e0c640c6a102782da59150ed81fa4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/ipsos-generations-report-2026", "claim": "Ipsos publication context for the Generations Report 2026 and its demographic and workplace sections."},
+    {"source_url": "https://www.ipsos.com/en/ipsos-housing-monitor-2025", "claim": "Housing Monitor context for the cross-country housing concern cited in the report."}
+  ],
+  "boundary": "This record adds a comparative life-stage mechanism: generational behavior should not be read only as cohort difference because care responsibilities, housing constraints, career stage, workplace friction and institutional communication evolve across the life course. The report combines a 30-country attitude survey, secondary demographic sources and a very large employee-experience benchmark; it is not a single probability sample, person-level panel, causal aging study, caregiver prevalence estimate or verified workplace outcome dataset.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 73-page Ipsos PDF was retrieved and reviewed for Global Advisor sample scope, housing and milestone expectations, sandwich-care framing, employee-experience database size, age-band lifecycle interpretation, midcareer strain, belonging, communication and respect findings; the PDF was hashed.",
+    "source_url_sha256": "sha256:d1d4dfd8bd104b6ad1dbc1e9eede744dbc4e0c640c6a102782da59150ed81fa4",
+    "checked": "2026-09-27"
+  }
+}

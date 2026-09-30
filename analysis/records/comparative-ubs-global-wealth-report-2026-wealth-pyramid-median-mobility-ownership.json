@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ubs-global-wealth-report-2026-wealth-pyramid-median-mobility-ownership",
+  "title": "Global wealth expanded rapidly while median experience, regional position, and ownership remained sharply uneven",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": ["unequal_exposure_status", "household_room_consumption", "firm_sector_market_power", "trust_identity_meaning", "political_judgment_action", "housing_place_mobility"],
+  "source_unit": "UBS Global Wealth Report 2026, seventeenth edition, using estimated personal wealth across 56 key markets",
+  "geography": "56 markets estimated by UBS to represent over 92% of global wealth, with regional, country, wealth-band, and high-net-worth comparisons",
+  "observations": [
+    {
+      "period": "2025; global wealth levels and distribution",
+      "denominator": {"value": 56, "unit": "markets covered by UBS wealth estimates, representing over 92% of global wealth", "value_type": "published_market_frame"},
+      "measures": {
+        "total_wealth_growth": {"value": "Total personal wealth rose 10.8% in 2025 in U.S.-dollar terms", "unit": "annual percentage change in estimated personal wealth", "value_type": "reported_estimate"},
+        "median_average_divergence": {"value": "Average wealth rose while median wealth declined in most markets", "unit": "cross-market wealth distribution pattern", "value_type": "reported_pattern"},
+        "millionaire_growth": {"value": "The global millionaire population expanded by 1.5%, nearly one million people, or more than 2,680 per day", "unit": "estimated number and share change", "value_type": "reported_estimate"},
+        "interpretation": {"value": "Aggregate wealth growth can coexist with a weaker typical household position, making distribution—not only growth—the politically salient signal", "unit": "distributional interpretation", "value_type": "inferred"}
+      },
+      "method": "UBS models personal wealth using OECD, IMF, UN, World Bank, national-statistics, and market data across 56 markets; wealth includes financial and non-financial assets net of debt.",
+      "uncertainty": "The report is UBS analysis and marketing material, not a household panel or official wealth census. Currency conversion, asset-price movements, modelling, market selection, and methodology changes affect the estimates; comparisons across editions are not always possible.",
+      "subgroup": "Adults by wealth band, country, region, median versus average position, and high-net-worth status; the sample is not a representative survey of lived financial security.",
+      "counterinterpretation": "Median wealth can fall because of exchange rates, population composition, debt normalization, or asset-price concentration without a universal decline in living standards; millionaire counts do not measure wellbeing or social power directly.",
+      "source_url": "https://www.ubs.com/global/en/wealthmanagement/insights/global-wealth-report.html",
+      "retrieval_hash": "sha256:ec21285f339ce509a896bf97aad7f62b7aa5e952bb9b9b911903439e21bd2b9b",
+      "status": "reported"
+    },
+    {
+      "period": "2020–2025; real wealth per adult and regional divergence",
+      "denominator": {"value": 56, "unit": "markets in the UBS longitudinal wealth sample", "value_type": "published_market_frame"},
+      "measures": {
+        "average_wealth_range": {"value": "Real average wealth per adult rose more than 55% in South Korea since 2020, while it declined in 15 markets, including the United Kingdom by 23.2%", "unit": "cumulative real local-currency percentage change", "value_type": "reported_comparison"},
+        "median_wealth_range": {"value": "Fewer than half of the markets had higher median wealth per adult in 2025 than in 2020, while median wealth declined by more than 10% in 20 markets", "unit": "market-count and cumulative change pattern", "value_type": "reported_comparison"},
+        "regional_share": {"value": "The Americas held about 40.6% of sample wealth, EMEA 26.6%, and Asia-Pacific 32.8% in 2025", "unit": "share of estimated wealth in UBS sample", "value_type": "reported_share"},
+        "interpretation": {"value": "Wealth mobility is geographically uneven and the median-versus-average split is a better signal of broad-based security than headline asset appreciation", "unit": "mobility interpretation", "value_type": "inferred"}
+      },
+      "method": "UBS compares inflation-adjusted wealth per adult in local currency over 2020–2025 and reports regional shares in U.S.-dollar terms.",
+      "uncertainty": "The measures use different currencies and metrics; local-real and U.S.-dollar comparisons answer different questions. Exchange rates, inflation, population change, and asset composition can substantially alter rankings.",
+      "subgroup": "Markets and regions with different currencies, asset ownership, housing markets, debt structures, and demographic trends.",
+      "counterinterpretation": "Regional wealth-share changes may reflect currency appreciation rather than real redistribution of assets, and national averages conceal within-country inequality.",
+      "source_url": "https://www.ubs.com/global/en/wealthmanagement/insights/global-wealth-report.html",
+      "retrieval_hash": "sha256:ec21285f339ce509a896bf97aad7f62b7aa5e952bb9b9b911903439e21bd2b9b",
+      "status": "compared"
+    },
+    {
+      "period": "2000–2025; global wealth-pyramid movement",
+      "denominator": {"value": 56, "unit": "markets in the UBS wealth-pyramid model", "value_type": "published_market_frame"},
+      "measures": {
+        "lowest_band": {"value": "The share of the global population with net assets below USD 10,000 fell from almost three-quarters in 2000 to just over 41% at the end of 2025", "unit": "share of modeled global adult population", "value_type": "reported_estimate"},
+        "middle_bands": {"value": "The USD 10,000–100,000 wealth band expanded substantially, while the two highest bands more than doubled their membership", "unit": "wealth-band membership pattern", "value_type": "reported_pattern"},
+        "debt_normalization": {"value": "Household debt rose in 2025 after shrinking in 2024, returning toward more normal historical levels", "unit": "reported household-balance-sheet trend", "value_type": "reported_change"},
+        "interpretation": {"value": "A larger middle wealth population can coexist with stronger concentration and rising debt, creating a layered rather than simply upward mobility story", "unit": "wealth-pyramid interpretation", "value_type": "inferred"}
+      },
+      "method": "The report models movement across net-wealth bands over time and separates financial and non-financial assets from household debt.",
+      "uncertainty": "Wealth-band thresholds are nominal and modelled; inflation adjustment changes the interpretation, and the report notes that methodological updates and exchange rates complicate historical comparisons.",
+      "subgroup": "Adults below USD 10,000, middle wealth bands, millionaires, billionaires, debt holders, and markets with different asset and liability structures.",
+      "counterinterpretation": "Movement into a higher nominal wealth band may not mean increased real security if housing, education, health, or debt costs rise faster than assets; a shrinking lowest band does not establish equal opportunity.",
+      "source_url": "https://www.ubs.com/global/en/wealthmanagement/insights/global-wealth-report.html",
+      "retrieval_hash": "sha256:ec21285f339ce509a896bf97aad7f62b7aa5e952bb9b9b911903439e21bd2b9b",
+      "status": "reported"
+    },
+    {
+      "period": "2011–2025; wealth composition and cultural assets",
+      "denominator": {"value": 56, "unit": "markets in the UBS wealth-composition analysis; art sub-analysis draws on 3,100 HNWIs in 10 markets", "value_type": "published_market_and_subsample_frame"},
+      "measures": {
+        "liquid_wealth": {"value": "Liquid assets rose as a share of total net wealth over the past 10–15 years; the United States was reported at roughly 47% liquid wealth in 2025", "unit": "share of total personal net wealth", "value_type": "reported_estimate"},
+        "art_allocation": {"value": "HNWIs in the cited Art Basel and UBS survey held an average 20% of wealth in art in 2025", "unit": "share of wealth among surveyed HNWIs", "value_type": "reported_survey_share"},
+        "meaning_and_value": {"value": "The report presents art as simultaneously a personal, social, philanthropic, identity-bearing, and wealth-preservation asset", "unit": "wealth-culture interpretation", "value_type": "reported_interpretation"},
+        "interpretation": {"value": "Wealth is not only purchasing power: it structures liquidity, inheritance, cultural identity, and the ability to preserve meaning-bearing assets", "unit": "cross-source interpretation", "value_type": "inferred"}
+      },
+      "method": "UBS combines modeled wealth composition with a cited Art Basel and UBS survey of 3,100 HNWIs across 10 markets.",
+      "uncertainty": "The HNWI art survey is not representative of the general population, and the wealth-composition estimates depend on asset classification, valuation, ownership structures, and country data.",
+      "subgroup": "High-net-worth individuals, direct equity holders, homeowners, pension savers, art collectors, and adults with different access to liquid and illiquid assets.",
+      "counterinterpretation": "Art holdings may be concentrated and illiquid, so their cultural meaning does not imply broad economic resilience; rising liquid wealth shares can also reflect financialization rather than more usable household security.",
+      "source_url": "https://www.ubs.com/global/en/wealthmanagement/insights/global-wealth-report.html",
+      "retrieval_hash": "sha256:ec21285f339ce509a896bf97aad7f62b7aa5e952bb9b9b911903439e21bd2b9b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ubs.com/content/dam/assets/wm/static/noindex/gwr-2026-digital.pdf", "claim": "Official 46-page Global Wealth Report 2026 PDF containing the global-level, distribution, wealth-dynamics, and wealth-snapshot findings.", "status": "official-report-pdf"}
+  ],
+  "boundary": "This record adds a global wealth, ownership, mobility, debt, liquidity, and cultural-asset layer. It does not provide respondent-level data, a representative household panel, a causal inequality estimate, or a complete account of public wealth, informal assets, unpaid care, or lived financial security; UBS estimates and high-net-worth survey evidence carry institutional and sampling limits.",
+  "retrieval_hash": "sha256:ec21285f339ce509a896bf97aad7f62b7aa5e952bb9b9b911903439e21bd2b9b"
+}

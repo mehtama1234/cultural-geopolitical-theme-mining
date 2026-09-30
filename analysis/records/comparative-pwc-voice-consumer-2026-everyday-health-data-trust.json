@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pwc-voice-consumer-2026-everyday-health-data-trust",
+  "title": "Health is becoming a continuous consumer practice spanning food, routines, data, devices, services and trusted human guidance",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "PwC Voice of the Consumer 2026, The rise of everyday health",
+  "geography": "21,808 adults across 27 countries and territories, surveyed February-March 2026",
+  "observations": [
+    {
+      "period": "February-March 2026; global consumer health and wellness survey",
+      "denominator": {"value": 21808, "unit": "adult consumers surveyed across 27 countries and territories", "value_type": "published_multi_country_consumer_survey"},
+      "measures": {
+        "continuous_practice": {"value": "consumers report regularly buying for, tracking and adjusting health behaviors across food, sleep, stress, weight, appearance, performance and longevity", "unit": "reported consumer pattern", "value_type": "reported_assessment"},
+        "digital_use": {"value": "80% use an app or wearable for at least one health and wellness activity", "unit": "reported respondent share", "value_type": "reported_share"},
+        "market_shift": {"value": "health is described as less episodic and institution-led and more continuous, personalized and woven into daily routines", "unit": "reported consumer-market interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "PwC global consumer survey, executive interviews and proprietary consumer-market analysis.",
+      "uncertainty": "The survey measures reported behavior and purchase interest, not verified health behavior, clinical outcomes, spending receipts or causal effects of digital tools.",
+      "subgroup": "Adult consumers across 27 markets, health-and-wellness shoppers, app and wearable users, older and younger consumers, providers, retailers and consumer brands.",
+      "counterinterpretation": "Health tracking may reflect experimentation or aspiration rather than sustained behavior; reported digital use does not establish effective or safe self-management.",
+      "source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html",
+      "retrieval_hash": "sha256:9053dc648b868065b6e70fac05fc644f9f962cc127872afb8ad54859097f2b3c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; consumer interest in health products, services and data-enabled support",
+      "denominator": {"value": 21808, "unit": "adult consumers surveyed across 27 countries and territories", "value_type": "published_multi_country_consumer_survey"},
+      "measures": {
+        "interest": {"value": "consumer interest reaches 63% for health insights and diagnostics, 60% for coaching and behavior change, 54% for devices/equipment/smart environments, and 48% for lifestyle, environment and sensory tools", "unit": "reported respondent interest shares", "value_type": "reported_share_set"},
+        "value_constraint": {"value": "value for money is the leading attribute when consumers consider health-supporting products and services, with ease of use and clear information also important", "unit": "reported purchase criterion", "value_type": "reported_assessment"},
+        "platformization": {"value": "products are increasingly wrapped in monitoring, guidance, subscriptions, diagnostics and personalized prompts", "unit": "reported market pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Survey questions on future purchase interest and product/service categories, combined with PwC market interpretation.",
+      "uncertainty": "Interest and intended purchase are not realized adoption; category definitions and commercial framing may influence how respondents interpret the options.",
+      "subgroup": "Consumers with different budgets and health goals, retail and consumer-packaged-goods firms, digital-health providers, pharmacies and data-enabled service platforms.",
+      "counterinterpretation": "High interest can coexist with affordability barriers, privacy concerns, low trust or limited clinical usefulness; platform bundles may increase recurring costs and dependence.",
+      "source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html",
+      "retrieval_hash": "sha256:9053dc648b868065b6e70fac05fc644f9f962cc127872afb8ad54859097f2b3c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI, wearables and first-contact health information",
+      "denominator": {"value": 21808, "unit": "adult consumers surveyed across 27 countries and territories", "value_type": "published_multi_country_consumer_survey"},
+      "measures": {
+        "regional_ai_use": {"value": "roughly one-third of respondents in the United States, United Kingdom and Germany use AI at the start of a health or wellness question; this rises to 61% or more in Asia, 68% in Latin America and 75% in the Middle East", "unit": "reported regional respondent shares", "value_type": "reported_share_set"},
+        "human_influence": {"value": "57% cite healthcare professionals among the strongest influences on health actions, compared with 18% naming AI or conversational AI among their top five influences", "unit": "reported respondent shares", "value_type": "reported_share_set"},
+        "data_trust": {"value": "consumers are most comfortable sharing detailed health data for personalization with pharmacies, followed by insurers and fitness or training companies", "unit": "reported trust ranking", "value_type": "reported_assessment"}
+      },
+      "method": "Cross-market survey of health-information behavior, technology use, influence and data-sharing comfort.",
+      "uncertainty": "Regional comparisons may reflect sample composition, question interpretation, access, health systems and cultural norms; reported comfort is not actual consent or data-sharing behavior.",
+      "subgroup": "Younger and older consumers, AI users, wearable users, patients, carers, healthcare professionals, pharmacies, insurers and consumer technology firms.",
+      "counterinterpretation": "AI may be used for exploration while people still rely on human experts for action; this does not imply that trust in professionals is stable or evenly accessible.",
+      "source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html",
+      "retrieval_hash": "sha256:9053dc648b868065b6e70fac05fc644f9f962cc127872afb8ad54859097f2b3c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; consumer archetypes and unequal participation in the health market",
+      "denominator": {"value": 5, "unit": "PwC proprietary consumer archetypes", "value_type": "published_segment_frame"},
+      "measures": {
+        "segments": {"value": "the five segments are data-driven optimisers (20%), value-seeking optimisers (17%), social wellness seekers (14%), holistic harmonisers (13%) and low-engagement consumers (35%)", "unit": "reported segment shares", "value_type": "reported_segment_set"},
+        "access_gradient": {"value": "the first four groups tend to be younger, more financially secure, more engaged with health technology and more willing to share health data; the low-engagement group skews older and responds to simplicity, affordability and trust", "unit": "reported segment pattern", "value_type": "reported_heterogeneity"},
+        "cultural_signal": {"value": "wellness is simultaneously an individual optimization project, a value-and-budget calculation, a social belonging practice and a platform-mediated data relationship", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "PwC cluster analysis of survey responses on product interest, behavior, attitudes, motivations and influences.",
+      "uncertainty": "These are proprietary analytical segments rather than fixed social identities; they describe survey patterns and do not establish stable populations or causal consumer types.",
+      "subgroup": "Younger and older consumers, financially secure and budget-constrained households, social wellness participants, data-oriented users and low-engagement consumers.",
+      "counterinterpretation": "Segment labels can encourage commercial targeting that overstates differences, obscures structural healthcare access and turns unequal resources into individualized lifestyle categories.",
+      "source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html",
+      "retrieval_hash": "sha256:9053dc648b868065b6e70fac05fc644f9f962cc127872afb8ad54859097f2b3c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html", "claim": "PwC publication page with the survey frame, consumer health findings, archetype analysis and methodology."},
+    {"source_url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey.html#survey-methodology", "claim": "PwC survey methodology identifies the February-March 2026 field period, 21,808 adults, 27 markets and health/wellness question domains."}
+  ],
+  "boundary": "This record adds a consumer-health and platformization route linking daily routines to wellness spending, data, devices, AI, diagnostics, coaching, pharmacies, trust and affordability. It is a commercial survey and market-insight publication, not clinical evidence, verified purchasing data, a representative population-health study, a causal evaluation or proof that consumerized health improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official PwC publication page was reviewed for the 21,808-person/27-market survey frame, continuous health routines, app and wearable use, category interest, regional AI use, human influence, data-sharing comfort and five proprietary archetypes.",
+    "source_url_sha256": "sha256:9053dc648b868065b6e70fac05fc644f9f962cc127872afb8ad54859097f2b3c",
+    "checked": "2026-09-27"
+  }
+}

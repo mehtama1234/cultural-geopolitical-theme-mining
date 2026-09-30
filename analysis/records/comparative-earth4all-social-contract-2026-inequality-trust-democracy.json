@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-earth4all-social-contract-2026-inequality-trust-democracy",
+  "title": "Public demand for economic-system change is broad, but the social contract is weakened by distrust that governments can deliver long-term benefits",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Earth4All, Rebuild Trust: Rigged economies, fractured societies and the case for change, Earth for All Survey 2026, conducted by Ipsos",
+  "geography": "17 countries representing 58% of global GDP, 38% of world population, and 37% of fossil-fuel and industrial CO2 emissions; G20 countries surveyed except China, Russia, and Saudi Arabia, plus Sweden",
+  "observations": [
+    {
+      "period": "February-March 2026; perceived economic fairness and demand for system change",
+      "denominator": {"value": 13516, "unit": "adults surveyed across 17 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "too_much_inequality": {"value": 70, "unit": "percent agreeing there is too much economic inequality in their country", "value_type": "reported_survey_share"},
+        "rigged_system": {"value": 65, "unit": "percent agreeing the economic system is rigged to benefit the rich and powerful", "value_type": "reported_survey_share"},
+        "major_change": {"value": 69, "unit": "percent wanting major changes to the economic system", "value_type": "reported_survey_share"},
+        "opposition_to_change": {"value": 8, "unit": "percent disagreeing that major economic change is needed", "value_type": "reported_survey_share"}
+      },
+      "method": "Ipsos survey conducted for Earth4All between 20 February and 6 March 2026, with national data weighted by age, gender, region, and working status; countries excluded for political sensitivities are documented in the report.",
+      "uncertainty": "These are cross-national perceptions and stated preferences, not measures of objective inequality, a representative global population, policy feasibility, or support for one specific reform package.",
+      "subgroup": "Adults across 17 large economies, with country, income, status, political, and demographic differences analyzed in the report.",
+      "counterinterpretation": "Broad agreement that the system is unfair can support different and conflicting reforms; demand for change does not establish a shared diagnosis of causes or remedies.",
+      "source_url": "https://www.clubofrome.org/earth4all/earth4all-survey-2026/",
+      "retrieval_hash": "sha256:c10068f1ee38c999908f4ab870d9c21b1aa75882f28f05de1c01b5655d48826f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; long-term government trust and perceived social division",
+      "denominator": {"value": 13516, "unit": "adults surveyed across 17 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "long_term_government_trust": {"value": 31, "unit": "percent believing their government will make decisions benefiting the majority 20 or 30 years from now", "value_type": "reported_survey_share"},
+        "greater_division": {"value": 67, "unit": "percent saying their country is more divided than a decade ago", "value_type": "reported_survey_share"},
+        "political_tension": {"value": 71, "unit": "percent perceiving serious tension between supporters of different political parties", "value_type": "reported_survey_share"},
+        "income_tension": {"value": 63, "unit": "percent perceiving serious tension between high- and low-income people", "value_type": "reported_survey_share"},
+        "social_contract_route": {"value": "public support for transformation is separated from confidence that institutions can deliver it over time", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-national survey comparison of perceived division, group tension, and long-term confidence in government; the report frames these as components of the social contract.",
+      "uncertainty": "Perceived division and long-term trust are not direct measures of institutional performance, social interaction, policy delivery, or future political behavior.",
+      "subgroup": "Adults across political, income, immigrant/native-born, climate-attitude, and national contexts represented in the survey.",
+      "counterinterpretation": "Low long-term confidence can coexist with effective short-term government action, local trust, civic cooperation, or future institutional repair.",
+      "source_url": "https://earth4all.life/wp-content/uploads/2026/08/Rebuild-Trust-Earth-for-All-Survey-2026.pdf",
+      "retrieval_hash": "sha256:c10068f1ee38c999908f4ab870d9c21b1aa75882f28f05de1c01b5655d48826f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; democratic support and leader preference",
+      "denominator": {"value": 13516, "unit": "adults surveyed across 17 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "democracy_best": {"value": 68, "unit": "percent saying democracy is the best way to govern their country", "value_type": "reported_survey_share"},
+        "unconstrained_strong_leader": {"value": 40, "unit": "percent saying their country would be better off with a strong leader unconstrained by parliament and elections", "value_type": "reported_survey_share"},
+        "legitimacy_tension": {"value": "support for democracy in principle coexists with willingness to trade institutional constraints for decisive leadership", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Ipsos cross-national survey with direct questions on preferred governing system and unconstrained-leader alternatives.",
+      "uncertainty": "Abstract regime preferences do not predict voting, authoritarian behavior, policy outcomes, or willingness to abandon democratic safeguards in a concrete political crisis.",
+      "subgroup": "Adults across 17 countries, with stronger unconstrained-leader preference reported in several upper-middle-income countries.",
+      "counterinterpretation": "Preference for decisive leadership may express frustration with institutional deadlock rather than rejection of elections, rights, or accountability.",
+      "source_url": "https://www.clubofrome.org/earth4all/earth4all-survey-2026/",
+      "retrieval_hash": "sha256:c10068f1ee38c999908f4ab870d9c21b1aa75882f28f05de1c01b5655d48826f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; climate-policy consent and distributional conditions",
+      "denominator": {"value": 13516, "unit": "adults surveyed across 17 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "strong_climate_action": {"value": 54, "unit": "percent accepting strong government emissions action even at the cost of higher prices", "value_type": "reported_survey_share"},
+        "conditional_support": {"value": "support falls among lower-income, lower-status, and right-leaning respondents and is higher in lower- and upper-middle-income countries than in high-income countries", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_pattern"},
+        "delivery_condition": {"value": "public consent for long-horizon transformation depends on whether near-term costs are seen as fairly distributed and institutions as acting for the majority", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey questions on emissions policy, price trade-offs, and social-position differences, interpreted alongside the report's social-contract framework.",
+      "uncertainty": "Stated climate-policy support is not a forecast of actual consumption, voting, protest, compliance, or emissions outcomes; subgroup differences may reflect multiple correlated factors.",
+      "subgroup": "Respondents differentiated by income, perceived social status, political orientation, and national income context.",
+      "counterinterpretation": "Support may increase when policy design provides visible benefits, compensation, participation, or credible enforcement even if price effects remain.",
+      "source_url": "https://earth4all.life/wp-content/uploads/2026/08/Rebuild-Trust-Earth-for-All-Survey-2026.pdf",
+      "retrieval_hash": "sha256:c10068f1ee38c999908f4ab870d9c21b1aa75882f28f05de1c01b5655d48826f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.clubofrome.org/earth4all/earth4all-survey-2026/", "claim": "Club of Rome publication page summarizing the Earth for All Survey 2026."},
+    {"source_url": "https://earth4all.life/wp-content/uploads/2026/08/Rebuild-Trust-Earth-for-All-Survey-2026.pdf", "claim": "Official 61-page Earth for All Survey 2026 report with methodology and country summaries."}
+  ],
+  "boundary": "This record adds a social-contract route from perceived inequality and demand for economic-system change through long-term government trust, perceived social division, democratic legitimacy, and consent for climate transformation. It is a weighted cross-national public-opinion study, not an objective inequality estimate, causal test of trust, forecast of political regime change, or respondent-level life-history dataset.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Club of Rome publication page and Earth4All PDF reviewed for sample frame, field dates, economic-system perceptions, long-term government trust, social division, democratic preferences, and climate-policy cost trade-offs.",
+    "report_pdf_sha256": "sha256:c10068f1ee38c999908f4ab870d9c21b1aa75882f28f05de1c01b5655d48826f",
+    "checked": "2026-09-28"
+  }
+}

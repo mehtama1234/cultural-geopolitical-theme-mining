@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-philippines-psa-nicths-2024-ecommerce-cod-social-selling-trust",
+  "title": "The Philippines' mobile internet expansion is becoming a social-commerce economy, but cash and trust still structure the transaction",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Philippine Statistics Authority, 2024 National Information and Communications Technology Household Survey: ICT ecosystem / digital economy and e-commerce preliminary results",
+  "geography": "Philippines; individuals aged 10 years and over and internet users across regions",
+  "observations": [
+    {
+      "period": "2019-2024; online purchasing and buyer transaction ecology",
+      "denominator": {
+        "value": 61460000,
+        "unit": "estimated internet users aged 10 years and over; official NICTHS population estimate",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "online_buying_selling_account_2024": {"value": 29.8, "unit": "percent of individuals aged 10 years and over with an online buying or selling account", "value_type": "official_population_share"},
+        "online_buying_selling_account_2019": {"value": 5.5, "unit": "percent of individuals aged 10 years and over with an online buying or selling account", "value_type": "official_population_share"},
+        "online_purchase_among_internet_users_2024": {"value": 36.7, "unit": "percent of internet users purchasing goods or services online", "value_type": "official_user_share"},
+        "online_purchase_among_internet_users_2019": {"value": 23.7, "unit": "percent of internet users purchasing goods or services online", "value_type": "official_user_share"},
+        "smartphone_used_by_online_buyers": {"value": 66.6, "unit": "percent of online buyers using smartphones for online purchases", "value_type": "official_buyer_device_share"},
+        "delivery_preferred_by_online_buyers": {"value": 69.4, "unit": "percent of online buyers preferring delivery", "value_type": "official_buyer_preference_share"},
+        "cash_on_delivery_preferred": {"value": 97.6, "unit": "percent of online buyers preferring cash on delivery", "value_type": "official_buyer_payment_share"},
+        "mechanism": {"value": "Digital access is converting into routine online purchasing, but the transaction remains handset-led, delivery-dependent, and cash-mediated rather than fully digitized end to end", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Preliminary NICTHS 2024 e-commerce module measuring accounts, purchasing, devices, delivery, and payment preferences among individuals aged 10 years and over and internet users.",
+      "uncertainty": "The measures are self-reported participation and preferences, not transaction value, frequency, merchant quality, repeat use, or household welfare; some denominators differ across measures.",
+      "subgroup": "Philippine individuals aged 10 years and over, internet users, and online buyers as specified by each indicator.",
+      "counterinterpretation": "Cash on delivery may reflect convenience, logistics, or local norms rather than distrust alone; delivery preference does not establish platform dependence or reduced in-person shopping.",
+      "source_url": "https://rsso02.psa.gov.ph/content/highlights-2024-national-information-and-communications-technology-household-survey-2024-2",
+      "retrieval_hash": "sha256:193ab913a22c649f2f492de42810ed267eb6c8e951e9b7d06048debff67a8c45",
+      "status": "reported"
+    },
+    {
+      "period": "2024; social selling and digital livelihood activity",
+      "denominator": {
+        "value": 61460000,
+        "unit": "estimated internet users aged 10 years and over; seller measures use the source's specified internet-user denominator",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "internet_users_selling_goods_services_for_income": {"value": 15.4, "unit": "percent of internet users selling goods or services online to earn money", "value_type": "official_user_share"},
+        "social_media_used_by_online_goods_sellers": {"value": 94.4, "unit": "percent of online goods sellers using social media sites to sell", "value_type": "official_seller_platform_share"},
+        "cash_on_delivery_accepted_by_sellers": {"value": 87.9, "unit": "percent of online sellers accepting cash on delivery", "value_type": "official_seller_payment_share"},
+        "mobile_wallet_accepted_by_sellers": {"value": 56.5, "unit": "percent of online sellers accepting electronic or mobile wallets", "value_type": "official_seller_payment_share"},
+        "electronic_mobile_money_account_among_device_sim_users": {"value": 36.7, "unit": "percent of individuals with an ICT device and active SIM holding an electronic or mobile money account", "value_type": "official_population_share"},
+        "mechanism": {"value": "Social platforms are not only attention channels but low-barrier storefronts and livelihood infrastructure, with commerce embedded in existing networks and cash logistics rather than separated into formal e-commerce firms", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS e-commerce module measures online selling for income, sales platforms, accepted payments, and electronic/mobile-money account ownership.",
+      "uncertainty": "The survey does not measure seller revenue, profitability, repeat customers, platform fees, labor time, or whether online selling is primary or supplemental income.",
+      "subgroup": "Philippine internet users, online sellers, and individuals with an ICT device and active SIM, according to each source denominator.",
+      "counterinterpretation": "Social selling may be occasional household resale or informal activity, and high social-media use may reflect audience reach without stable business formation.",
+      "source_url": "https://rsso02.psa.gov.ph/content/highlights-2024-national-information-and-communications-technology-household-survey-2024-2",
+      "retrieval_hash": "sha256:193ab913a22c649f2f492de42810ed267eb6c8e951e9b7d06048debff67a8c45",
+      "status": "reported"
+    },
+    {
+      "period": "2024; non-use and payment trust barriers",
+      "denominator": {
+        "value": 61460000,
+        "unit": "internet users aged 10 years and over; source-specific denominators vary for payment and non-purchase questions",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "security_concern_reason_for_not_using_electronic_payment": {"value": 42.9, "unit": "percent of buyers not using electronic payments identifying security concerns as the reason", "value_type": "official_buyer_barrier_share"},
+        "prefer_in_person_shopping_reason_not_buying_online": {"value": 71.7, "unit": "percent of internet users not purchasing online citing preference for in-person shopping", "value_type": "official_user_barrier_share"},
+        "not_interested_reason_not_buying_online": {"value": 51.1, "unit": "percent of internet users not purchasing online citing lack of interest", "value_type": "official_user_barrier_share"},
+        "mechanism": {"value": "Digital commerce growth coexists with a strong in-person preference and security-based payment hesitation, so platform adoption is bounded by trust, habit, and transaction assurance rather than connectivity alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS e-commerce questions on reasons for not purchasing online and reasons for avoiding electronic payment; responses are self-reported and may be multiple response.",
+      "uncertainty": "The barriers do not identify actual fraud, platform design, price, delivery failure, or demographic differences, and the survey cannot establish whether attitudes change after experience.",
+      "subgroup": "Internet users who did not purchase online and online buyers who did not use electronic payment, as specified by each question.",
+      "counterinterpretation": "In-person preference can coexist with online purchasing for selected categories, and security concerns may be rational responses to payment infrastructure rather than generalized distrust of digital commerce.",
+      "source_url": "https://rsso02.psa.gov.ph/content/highlights-2024-national-information-and-communications-technology-household-survey-2024-2",
+      "retrieval_hash": "sha256:193ab913a22c649f2f492de42810ed267eb6c8e951e9b7d06048debff67a8c45",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://rsso02.psa.gov.ph/content/highlights-2024-national-information-and-communications-technology-household-survey-2024-2",
+      "claim": "Official PSA NICTHS e-commerce release reports online purchase/sale participation, social selling, devices, delivery, payment, mobile money, and barriers.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://psa.gov.ph/statistics/nicths/statistical-tables",
+      "claim": "PSA statistical-tables page identifies the NICTHS e-commerce data products and related ICT household tables.",
+      "status": "official-data-archive"
+    }
+  ],
+  "boundary": "This record adds Philippine evidence on e-commerce adoption, social selling, delivery and cash-payment preferences, mobile money, and trust barriers. It does not measure transaction value, income, platform power, fraud incidence, cultural consumption, or causal welfare effects.",
+  "retrieval_hash": "sha256:193ab913a22c649f2f492de42810ed267eb6c8e951e9b7d06048debff67a8c45"
+}

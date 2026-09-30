@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-pacific-regional-labour-governance-mobility-skills-2026",
+  "title": "Pacific labour governance is becoming a regional institutional layer linking mobility, skills, social protection, workforce resilience, and economic strategy",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "geopolitical_state_consequences", "public_systems_feedback", "housing_place_mobility", "unequal_exposure_status", "firm_sector_market_power", "infrastructure_technology_dependency"],
+  "source_unit": "ILO report on Pacific leaders endorsing a regional Labour Ministers Meeting within the Pacific Islands Forum governance architecture, published 11 September 2026",
+  "geography": "Pacific Islands Forum region, with regional labour governance linked to the Blue Pacific 2050 Strategy",
+  "observations": [
+    {
+      "period": "31 August–3 September 2026; 55th Pacific Islands Forum Leaders Meeting",
+      "denominator": {"value": 1, "unit": "Pacific Islands Forum leaders’ communiqué and ILO report on regional labour governance", "value_type": "reported_regional_decision"},
+      "measures": {
+        "institutional_decision": {"value": "leaders endorsed establishment of a Pacific Labour Ministers Meeting within the Pacific Islands Forum regional governance architecture", "unit": "reported institutional decision", "value_type": "reported_governance_change"},
+        "policy_scope": {"value": "the proposed forum will address labour mobility, skills, employment, social protection, workforce sustainability, and inclusive growth", "unit": "reported policy scope", "value_type": "reported_policy_scope"},
+        "strategic_alignment": {"value": "the meeting advances implementation of the 2050 Strategy for the Blue Pacific Continent", "unit": "reported regional strategy link", "value_type": "reported_strategy_link"}
+      },
+      "method": "ILO report of a regional political decision and institutional-development process; it documents an endorsed architecture, not implemented meeting performance or labour outcomes.",
+      "uncertainty": "The source does not establish the meeting’s final mandate, membership, budget, frequency, decision rights, or whether endorsement will produce coordinated policy or improved worker outcomes.",
+      "subgroup": "Pacific governments, migrant and mobile workers, employers, workers’ organizations, labour ministries, skills institutions, island communities, and people exposed to climate and labour-market shocks.",
+      "counterinterpretation": "A new regional forum may add coordination without changing national labour policy, and could compete with existing economic, trade, or migration mechanisms if responsibilities are not clear.",
+      "source_url": "https://www.ilo.org/resource/news/pacific-leaders-endorse-regional-labour-ministers-meeting-0",
+      "retrieval_hash": "sha256:ddcb38304816a786e3ed04e7b484d7006b9964b2ad55d63783151770689237e7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regional labour governance and economic strategy",
+      "denominator": {"value": 1, "unit": "proposed Pacific Labour Ministers Meeting complementing existing regional ministerial mechanisms", "value_type": "reported_institutional_design"},
+      "measures": {
+        "coordination": {"value": "the labour ministers mechanism is intended to complement the Forum Economic Ministers Meeting and Forum Trade Ministers Meeting", "unit": "reported coordination design", "value_type": "reported_institutional_relationship"},
+        "policy_coherence": {"value": "labour and workforce priorities are framed as connected to economic resilience, inclusive growth, workforce sustainability, and implementation of regional strategy", "unit": "reported policy-coherence frame", "value_type": "reported_policy_interpretation"},
+        "tripartism": {"value": "the regional architecture is intended to maintain social dialogue with employers’ and workers’ organizations", "unit": "reported governance principle", "value_type": "reported_social_dialogue_principle"}
+      },
+      "method": "Institutional announcement and ILO description of intended regional coordination; no decisions or worker representation outcomes are measured.",
+      "uncertainty": "Complementarity can remain rhetorical if labour ministries lack authority, finance, data, or leverage over trade, migration, skills, and economic ministries; the source does not evaluate power distribution among actors.",
+      "subgroup": "Labour, economic, trade, and migration ministries; employers; unions; regional secretariats; workers moving across islands and external labour markets; and firms dependent on mobile skills.",
+      "counterinterpretation": "Embedding labour in regional economic strategy may strengthen worker voice, but it can also subordinate labour rights to competitiveness, labour supply, or investment priorities.",
+      "source_url": "https://www.ilo.org/resource/news/pacific-leaders-endorse-regional-labour-ministers-meeting-0",
+      "retrieval_hash": "sha256:ddcb38304816a786e3ed04e7b484d7006b9964b2ad55d63783151770689237e7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labour mobility, skills, and workforce resilience in the Pacific",
+      "denominator": {"value": 1, "unit": "regional labour-policy priority set identified in the leaders’ decision and ILO account", "value_type": "reported_priority_set"},
+      "measures": {
+        "mobility": {"value": "labour mobility is treated as a shared regional challenge and policy priority", "unit": "reported regional priority", "value_type": "reported_policy_priority"},
+        "skills": {"value": "skills development and workforce sustainability are included alongside employment and economic resilience", "unit": "reported policy priority", "value_type": "reported_policy_priority"},
+        "shock_exposure": {"value": "the governance case connects labour policy to economic resilience and shared regional challenges rather than only national employment rates", "unit": "reported resilience frame", "value_type": "reported_policy_frame"}
+      },
+      "method": "Regional political and policy synthesis in an ILO news report; it does not quantify mobility flows, skills shortages, wage gains, or climate-related labour displacement.",
+      "uncertainty": "The source provides no harmonized baseline on labour mobility, social-protection coverage, skills mismatch, worker recruitment costs, or outcomes by island, gender, sector, or migration status.",
+      "subgroup": "Seasonal and circular workers, young people, women, people with disabilities, workers in small island economies, employers, training providers, and communities affected by outward migration.",
+      "counterinterpretation": "Regional coordination may facilitate mobility for employers while increasing worker departure, family separation, skills loss, or dependence on external labour markets if protection and return pathways are weak.",
+      "source_url": "https://www.ilo.org/resource/news/pacific-leaders-endorse-regional-labour-ministers-meeting-0",
+      "retrieval_hash": "sha256:ddcb38304816a786e3ed04e7b484d7006b9964b2ad55d63783151770689237e7",
+      "status": "reported"
+    },
+    {
+      "period": "2026; institutional durability and implementation follow-up",
+      "denominator": {"value": 1, "unit": "regional labour-governance establishment process", "value_type": "reported_implementation_stage"},
+      "measures": {
+        "institutional_status": {"value": "leaders endorsed establishment, while the ILO describes the meeting as an architecture still being advanced rather than an evaluated operating institution", "unit": "reported implementation status", "value_type": "reported_status"},
+        "follow_up": {"value": "the proposed meeting is expected to provide sustained political attention and complement existing regional ministerial mechanisms", "unit": "reported institutional purpose", "value_type": "reported_purpose"},
+        "technical_support": {"value": "the ILO stated readiness to provide technical assistance within its mandate and existing cooperation framework", "unit": "reported support offer", "value_type": "reported_support_offer"}
+      },
+      "method": "Announcement-stage institutional reporting; it does not establish operational continuity, financing, compliance, or policy implementation.",
+      "uncertainty": "A political endorsement may not survive leadership turnover, competing priorities, limited capacity, or lack of worker and employer ownership; no later implementation milestone is supplied in the source.",
+      "subgroup": "Pacific regional institutions, labour ministries, employer and worker organizations, technical partners, funders, and communities awaiting policy delivery.",
+      "counterinterpretation": "Institution-building can create a valuable coordination node even before measurable labour outcomes exist, but visibility and meetings are not equivalent to enforceable rights or improved work.",
+      "source_url": "https://www.ilo.org/resource/news/pacific-leaders-endorse-regional-labour-ministers-meeting-0",
+      "retrieval_hash": "sha256:ddcb38304816a786e3ed04e7b484d7006b9964b2ad55d63783151770689237e7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/news/pacific-leaders-endorse-regional-labour-ministers-meeting-0", "claim": "ILO account of the Pacific leaders’ endorsement and intended labour-governance architecture."},
+    {"source_url": "https://forumsec.org/publications/communique-55th-pacific-islands-forum-leaders-meeting", "claim": "Pacific Islands Forum communiqué context for regional strategy and institutional priorities."}
+  ],
+  "boundary": "This record adds a geopolitical and institutional labour-governance route: Pacific regional cooperation is creating a possible ministerial layer connecting labour mobility, skills, social protection, workforce resilience, economic strategy, and tripartite dialogue. It is an announcement-stage institutional account, not evidence of operational performance, worker outcomes, policy harmonization, labour-rights enforcement, or durable regional power.",
+  "retrieval_hash": "sha256:ddcb38304816a786e3ed04e7b484d7006b9964b2ad55d63783151770689237e7"
+}

@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dsit-informal-proxy-digital-support-2026-social-infrastructure",
+  "title": "Informal digital help is a hidden social infrastructure: proxy access solves immediate tasks while risking dependence and credential insecurity",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "UK Department for Science, Innovation and Technology commissioned mixed-method research on informal and proxy digital support, delivered by The Social Agency",
+  "geography": "United Kingdom; adults providing or receiving informal digital support",
+  "observations": [
+    {
+      "period": "2026 publication; support provided in the previous 12 months",
+      "denominator": {"value": 2261, "unit": "UK adults in the nationally representative survey who had helped another adult access or use the internet in the previous year", "value_type": "published_survey_sample"},
+      "measures": {
+        "informal_support_provider": {"value": 35, "unit": "percent of UK adults reported as having provided informal digital support in the past year", "value_type": "published_survey_estimate"},
+        "proxy_support": {"value": 53, "unit": "percent of informal supporters who provided proxy support, completing an online task for someone else", "value_type": "published_survey_estimate"},
+        "credential_sharing": {"value": 31, "unit": "percent of supporters who had used someone else's login details to manage online banking or financial accounts", "value_type": "published_survey_estimate"},
+        "social_infrastructure_mechanism": {"value": "Family, friends, neighbours, and colleagues act as an informal access layer when digital services are difficult or unsafe to navigate", "unit": "bounded social-infrastructure mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Four-stage mixed-method research: 24 expert interviews and evidence assessment; qualitative interviews with 36 people receiving support and 36 supporters across all four UK nations; a nationally representative online survey of 2,261 supporters; and a co-creation workshop.",
+      "uncertainty": "The nationally representative survey is of supporters, not a probability sample of all digitally excluded people; supporters reported some characteristics and experiences of the people they helped. The report combines survey, qualitative, expert, and workshop evidence, which must not be pooled as one prevalence estimate.",
+      "subgroup": "Supporters and the adults they help, including older adults, people with disabilities or health conditions, women, family members, friends, neighbours, and colleagues.",
+      "counterinterpretation": "Credential sharing may be a rare workaround within a particular task or relationship, and informal help can be reciprocal and beneficial; neither proxy support nor digital exclusion automatically implies harm, dependency, or service failure.",
+      "source_url": "https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support",
+      "retrieval_hash": "sha256:f84513c388001e4f04d922c57e4ac05bad43b94ef478aff5215a7294a80191c9",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; types of tasks supported in the previous 12 months",
+      "denominator": {"value": 2261, "unit": "UK survey respondents who had helped another adult use or access the internet in the previous year; task responses may have item-specific bases", "value_type": "published_survey_sample"},
+      "measures": {
+        "financial_transaction_support": {"value": 65, "unit": "percent reporting help with at least one of online purchases, online banking, or bill payment", "value_type": "published_survey_estimate"},
+        "administrative_or_public_service_support": {"value": 44, "unit": "percent reporting help with applications or accessing public services", "value_type": "published_survey_estimate"},
+        "communication_support": {"value": 44, "unit": "percent reporting help with online communication tasks", "value_type": "published_survey_estimate"},
+        "health_task_support": {"value": 27, "unit": "percent reporting help with health appointments or prescriptions", "value_type": "published_survey_estimate"},
+        "task_route": {"value": "Digital access is most visibly tied to money, administrative entitlement, communication, and health navigation rather than entertainment alone", "unit": "reported task-distribution mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey estimates from the DSIT-commissioned study; task categories are not mutually exclusive.",
+      "uncertainty": "The figures describe supporters' reported assistance, not unique recipients, completed task outcomes, time burden, financial loss, or whether formal service alternatives were available.",
+      "subgroup": "UK informal digital supporters and the people they assist across financial, public-service, communication, entertainment, device, and health tasks.",
+      "counterinterpretation": "High assistance rates can reflect strong reciprocal relationships and successful access, not necessarily exclusion or service breakdown; the same supporter may assist multiple people or tasks.",
+      "source_url": "https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support/informal-and-proxy-support-for-digital-inclusion-final-report",
+      "retrieval_hash": "sha256:078dc72558f2f5137d85a2077f37252dd6af95bc9fc5590212c1b3b71e9c29d5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; mode of support and longer-term independence",
+      "denominator": {"value": 2261, "unit": "UK survey respondents who provided informal digital support, interpreted alongside 36 supporter and 36 supported-person interviews", "value_type": "mixed_method_denominator"},
+      "measures": {
+        "repetitive_support": {"value": 57, "unit": "percent of supporters reporting that they repeatedly do the same tasks despite having demonstrated them before", "value_type": "published_survey_estimate"},
+        "support_modes": {"value": ["teaching or doing with", "proxy or doing for", "advisory or second pair of eyes"], "unit": "qualitatively identified non-mutually-exclusive support modes", "value_type": "reported_typology"},
+        "independence_tension": {"value": "Teaching support is associated with growing independence but costs time and patience; proxy support enables immediate access for complex or high-stakes tasks but can reinforce dependence", "unit": "bounded conversion mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Mixed-method interpretation combining survey responses, observed qualitative interviews, typology analysis, and expert/co-creation input; this is not a causal evaluation of support modes.",
+      "uncertainty": "The report does not estimate the causal effect of teaching versus proxy support on later independence, task completion, confidence, safety, or service outcomes; relationships and modes can change by task urgency and emotional context.",
+      "subgroup": "Informal supporters and supported adults, with variation by age, health, disability, relationship, task stakes, motivation, and reliance.",
+      "counterinterpretation": "Proxy support may be the safest or most accessible choice for a high-stakes task, and repeated assistance may indicate reliable social care rather than failed learning or unhealthy dependency.",
+      "source_url": "https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support/informal-and-proxy-support-for-digital-inclusion-final-report",
+      "retrieval_hash": "sha256:078dc72558f2f5137d85a2077f37252dd6af95bc9fc5590212c1b3b71e9c29d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/digital-inclusion-action-plan-first-steps", "claim": "The UK Digital Inclusion Action Plan provides the policy frame for access, skills, support, and confidence as dimensions of digital inclusion."},
+    {"source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/online-habits", "claim": "Ofcom supplies related evidence on offline adults' reliance on others for online tasks and digital access."},
+    {"source_url": "https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support/informal-and-proxy-support-for-digital-inclusion-final-report", "claim": "Full final report documents the mixed-method design, task distribution, support modes, typologies, and policy considerations."}
+  ],
+  "boundary": "This record adds a UK digital-inclusion route from service complexity and confidence or skills barriers through informal help, proxy access, financial and administrative tasks, credential risk, time burden, and possible independence. It does not establish national digital-exclusion prevalence, causal effects of service design, actual financial loss, completed service outcomes, or a representative burden on supporters.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GOV.UK landing page and full final report were reviewed for publication date, sample design, mixed-method stages, informal and proxy support definitions, task estimates, credential-sharing estimate, support modes, typology boundaries, and digital-inclusion mechanisms.",
+    "source_url_sha256": "sha256:f84513c388001e4f04d922c57e4ac05bad43b94ef478aff5215a7294a80191c9",
+    "checked": "2026-09-30"
+  }
+}

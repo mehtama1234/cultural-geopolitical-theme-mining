@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-youtube-in-search-of-mainstream-2026-fandom-niche-participation",
+  "title": "The mainstream is not disappearing; it is being rebuilt from niche communities through visibility, shared comprehension, and active participation",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "political_judgment_action",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "YouTube Culture & Trends, In Search of Mainstream, 2026 report summary produced with NRG",
+  "geography": "Online people aged 14-44, with published U.S. NRG survey figures and global analysis of entertainment, media, and video trends",
+  "observations": [
+    {
+      "period": "2026; fragmentation and the redefinition of mainstream",
+      "denominator": {"value": 1, "unit": "YouTube Culture & Trends and NRG modern-mainstream research frame", "value_type": "platform_research_frame"},
+      "measures": {
+        "fragmentation": {"value": "Audiences have access to more content, communities, and creators than before, producing a culture that is more personalized and less synchronous", "unit": "reported cultural condition", "value_type": "reported_trend"},
+        "shared_moments": {"value": "Shared cultural moments still break through, but culture increasingly begins within digital communities before reaching wider audiences", "unit": "reported cultural route", "value_type": "reported_mechanism"},
+        "modern_mainstream": {"value": "The report defines the modern mainstream through the overlap of visibility, comprehension, and participation rather than exposure alone", "unit": "reported measurement framework", "value_type": "reported_framework"}
+      },
+      "method": "YouTube Culture & Trends and NRG review of recent research, global entertainment/media/video trends, and surveys of active online people aged 14-44.",
+      "uncertainty": "The public summary does not provide the full global sample, country weighting, or detailed methodology; YouTube's platform position shapes both the evidence and the framing.",
+      "subgroup": "Online audiences, creators, fandoms, niche communities, media platforms, entertainment industries, and people moving between local, niche, and mass cultural spaces.",
+      "counterinterpretation": "The mainstream may be more fragmented in power and access than the report suggests; visibility across a platform does not guarantee social recognition, material influence, or equal participation.",
+      "source_url": "https://blog.youtube/culture-and-trends/youtube-culture-trends-modern-mainstream-research/",
+      "retrieval_hash": "sha256:c2aa53a2f6dba5957f35afefa04cdc7dd9dfc9c5d8da865947a2a2b3e6e03d52",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026 U.S. survey; shared identity and niche participation",
+      "denominator": {"value": 496, "unit": "U.S. online people aged 14-29 surveyed by NRG for YouTube, published base", "value_type": "published_survey_base"},
+      "measures": {
+        "belonging": {"value": 63, "unit": "percent agreeing that being into the same things as other people makes them feel part of something bigger", "value_type": "reported_aggregate_share"},
+        "niche_content": {"value": 69, "unit": "percent who have watched content from a community they consider niche", "value_type": "reported_aggregate_share"},
+        "fandom_explainer": {"value": 71, "unit": "percent who have watched videos unpacking stories within a specific fandom or community", "value_type": "reported_aggregate_share"}
+      },
+      "method": "NRG YouTube Trends Survey, U.S., April 2026, online people aged 14-29, N=496 as reported in YouTube's public summary.",
+      "uncertainty": "These are published U.S. aggregate shares with no public questionnaire, weighting, response rate, or subgroup confidence intervals in the summary; they cannot be treated as global Gen Z estimates.",
+      "subgroup": "Young online audiences, fandom participants, niche communities, creators, explainers, and people using video to understand cultural references.",
+      "counterinterpretation": "Watching niche or fandom content may reflect curiosity or recommendation exposure rather than community membership, identity commitment, or active participation.",
+      "source_url": "https://blog.youtube/culture-and-trends/youtube-culture-trends-modern-mainstream-research/",
+      "retrieval_hash": "sha256:c2aa53a2f6dba5957f35afefa04cdc7dd9dfc9c5d8da865947a2a2b3e6e03d52",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026 U.S. survey; creators, memes, and cultural legitimacy",
+      "denominator": {"value": 496, "unit": "U.S. online people aged 14-29 surveyed by NRG for YouTube, published base", "value_type": "published_survey_base"},
+      "measures": {
+        "creator_recognition": {"value": 77, "unit": "percent who perceive YouTube creators as something lots of people seem to be into", "value_type": "reported_aggregate_share"},
+        "meme_recognition": {"value": 78, "unit": "percent who perceive memes as something lots of people seem to be into", "value_type": "reported_aggregate_share"},
+        "celebrity_comparison": {"value": "The reported perception levels for creators and memes are near those for Hollywood celebrities (79%) and the Super Bowl (83%)", "unit": "reported comparison", "value_type": "reported_comparison"},
+        "youtube_legitimacy": {"value": 65, "unit": "percent of the broader published NRG sample agreeing something feels more real or legitimate when they see it on YouTube", "value_type": "reported_aggregate_share"}
+      },
+      "method": "NRG YouTube Trends Survey, U.S., April 2026; the public summary reports comparison items for online people aged 14-29 and a separate broader base for legitimacy.",
+      "uncertainty": "The denominator for the legitimacy item is a separate N=939 sample of online people aged 14-44; platform legitimacy is a stated perception, not independent verification of content accuracy or cultural importance.",
+      "subgroup": "Young online audiences, creator and meme communities, entertainment audiences, brands, journalists, and people using YouTube as a cultural reference or validation layer.",
+      "counterinterpretation": "Perceived familiarity and platform visibility can be generated by recommendation and commercial amplification; recognition does not equal trust, quality, or broad offline relevance.",
+      "source_url": "https://blog.youtube/culture-and-trends/youtube-culture-trends-modern-mainstream-research/",
+      "retrieval_hash": "sha256:c2aa53a2f6dba5957f35afefa04cdc7dd9dfc9c5d8da865947a2a2b3e6e03d52",
+      "status": "reported"
+    },
+    {
+      "period": "April 2026 U.S. survey; fandom as shared achievement",
+      "denominator": {"value": 939, "unit": "U.S. online people aged 14-44 surveyed by NRG for YouTube, published base", "value_type": "published_survey_base"},
+      "measures": {
+        "fan_success": {"value": 63, "unit": "percent of fans agreeing they feel successful when the person or thing they are a fan of experiences success", "value_type": "reported_subgroup_share"},
+        "fan_pride": {"value": 60, "unit": "percent of fans feeling proud because they believe they actively helped build that success", "value_type": "reported_subgroup_share"},
+        "participatory_mainstream": {"value": "Cultural breakthroughs are framed as shared achievements because audiences create, share, and amplify what they love", "unit": "reported fandom mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "NRG YouTube Trends Survey, U.S., April 2026, online people aged 14-44, N=939 as reported in the public summary, with a fan subgroup.",
+      "uncertainty": "The public summary does not define the fan subgroup, quantify behaviors behind ‘helped build’, or show whether participatory pride produces durable community, creator income, or healthier social connection.",
+      "subgroup": "Fans, creators, community organizers, entertainment audiences, and people whose identities or social rewards are tied to collective cultural success.",
+      "counterinterpretation": "Participatory fandom can generate solidarity but also unpaid labor, harassment, status competition, parasocial dependence, and concentrated platform power.",
+      "source_url": "https://blog.youtube/culture-and-trends/youtube-culture-trends-modern-mainstream-research/",
+      "retrieval_hash": "sha256:c2aa53a2f6dba5957f35afefa04cdc7dd9dfc9c5d8da865947a2a2b3e6e03d52",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://blog.youtube/culture-and-trends/next-gen-creativity/", "claim": "YouTube's adjacent 2025 Culture & Trends research describes creator-audience co-creation, global references, and creative maximalism."},
+    {"source_url": "https://blog.youtube/culture-and-trends/kpop-fandom-evolution-youtube/", "claim": "YouTube's 2026 K-pop fandom material provides a concrete global case of fan communities building culture through video."}
+  ],
+  "boundary": "This record adds YouTube's public 2026 mainstream/fandom signal: fragmentation, niche discovery, creator and meme recognition, platform legitimacy, and fandom as participatory shared achievement. It uses published aggregate survey shares and platform analysis, not raw respondent-level data, a global representative sample, independent validation of cultural importance, or proof that participation is uniformly beneficial.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official YouTube Culture & Trends 2026 summary reviewed for In Search of Mainstream, visibility/comprehension/participation, published NRG bases and percentages, niche and fandom viewing, creator/meme recognition, legitimacy, and fan-success findings.",
+    "source_url_sha256": "sha256:c2aa53a2f6dba5957f35afefa04cdc7dd9dfc9c5d8da865947a2a2b3e6e03d52",
+    "checked": "2026-09-27"
+  }
+}

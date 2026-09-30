@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ofcom-telecom-switching-retention-harm-remedy-2026",
+  "title": "UK telecom switching is becoming an affordability response, but exit friction can convert competition into a consumer-retention problem",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ofcom, Around 3.5 million Brits hit switch amidst cost-of-living concerns and Ofcom fines Virgin Media £28m for repeatedly preventing customers from cancelling contracts",
+  "geography": "United Kingdom; residential telecoms customers using broadband, landline, pay-TV, and related services",
+  "observations": [
+    {
+      "period": "2024-2026; switching and household affordability response",
+      "denominator": {
+        "value": 3431195,
+        "unit": "people who had started the One Touch Switch process as of 3 September 2026",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "one_touch_switch_started": {"value": 3431195, "unit": "people starting the landline or broadband One Touch Switch process", "value_type": "official_count"},
+        "potential_annual_saving": {"value": 100, "unit": "British pounds per year; many out-of-contract customers could save over this amount by switching", "value_type": "reported_threshold"},
+        "triple_play_out_of_contract": {"value": 33.3, "unit": "percent of triple-play customers out of contract in the cited analysis", "value_type": "reported_share"},
+        "missed_telecom_payment": {"value": 4.0, "unit": "percent of telecoms customers missing a payment in the latest quarter cited", "value_type": "reported_customer_share"},
+        "changed_service": {"value": 12.0, "unit": "percent reporting a change to a telecoms service amid cost pressure", "value_type": "reported_customer_share"},
+        "reduced_other_spending": {"value": 10.0, "unit": "percent reducing spending elsewhere amid cost pressure", "value_type": "reported_customer_share"},
+        "cancelled_service": {"value": 7.0, "unit": "percent cancelling a telecoms service amid cost pressure", "value_type": "reported_customer_share"},
+        "mechanism": {"value": "Essential communications become an active household-budget decision: consumers search, switch, downgrade, cancel, or cut elsewhere, making exit simplicity part of real purchasing power", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ofcom switching analysis using One Touch Switch process data, pricing analysis, and Affordability Tracker indicators.",
+      "uncertainty": "Switch-process counts are administrative starts rather than completed long-run savings; the affordability shares are survey indicators with distinct denominators and do not establish causal effects of switching rules or cost pressure.",
+      "subgroup": "UK broadband, landline, pay-TV, and telecoms customers, including out-of-contract and financially pressured households.",
+      "counterinterpretation": "Switching may reflect service dissatisfaction, promotional cycles, or contract expiry rather than cost pressure alone; potential savings may not be realized after fees, quality differences, or new price changes.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/around-3.5-million-brits-hit-switch-amidst-cost-of-living-concerns",
+      "retrieval_hash": "sha256:2daaf16b44c540c6df91b7085fc44495874eb38ebd5c5ced5583e758dc4a77c1",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; Virgin Media cancellation and retention episode",
+      "denominator": {
+        "value": null,
+        "unit": "Virgin Media customer calls about cancellation between 1 January 2022 and 11 September 2024; Ofcom reports the denominator as millions of calls rather than a single exact count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "calls_likely_mishandled": {"value": "millions", "unit": "customer calls likely affected by delay or prevention tactics", "value_type": "official_qualitative_count"},
+        "callers_repeating_request": {"value": 1000000, "unit": "over one million callers made to repeat a cancellation request to another agent", "value_type": "official_lower_bound_count"},
+        "cancellation_difficulty_complaints": {"value": 1881, "unit": "Ofcom complaints from customers reporting difficulty cancelling", "value_type": "official_count"},
+        "complaints_linked_to_two_tier_or_behaviour": {"value": 649, "unit": "complaints Ofcom established related to the two-tier system or identified behaviours", "value_type": "official_count"},
+        "mechanism": {"value": "Firm retention incentives can turn nominal consumer choice into costly time, hassle, repeated contact, missed payments, and delayed exit, weakening competition even when alternative providers exist", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ofcom enforcement investigation into Virgin Media contract-termination procedures, call handling, retention-team structure, incentives, complaints, and third-party call-centre oversight.",
+      "uncertainty": "Ofcom describes likely affected calls and systemic behaviours; the episode does not quantify every customer's financial loss, completed switch, or the causal contribution of each call-centre practice.",
+      "subgroup": "Virgin Media customers attempting to cancel or switch, including customers who reported missed payments or credit-score consequences after cancellation difficulties.",
+      "counterinterpretation": "Some repeated contacts may reflect ordinary verification or complex account issues, although Ofcom concluded the two-tier process and behaviours caused unreasonable effort and acted as a switching disincentive.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/ofcom-fines-virgin-media-28m-for-repeatedly-preventing-customers-from-cancelling-contracts",
+      "retrieval_hash": "sha256:2daaf16b44c540c6df91b7085fc44495874eb38ebd5c5ced5583e758dc4a77c1",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; enforcement and remedy",
+      "denominator": {
+        "value": 28000000,
+        "unit": "UK pounds Ofcom fined Virgin Media for consumer-protection failures",
+        "value_type": "reported_amount"
+      },
+      "measures": {
+        "ofcom_fine": {"value": 28000000, "unit": "UK pounds; financial penalty passed to HM Treasury", "value_type": "official_amount"},
+        "settlement_reduction": {"value": 30.0, "unit": "percent reduction in the penalty because Virgin Media admitted the failing and agreed to settle", "value_type": "official_penalty_adjustment"},
+        "affected_customer_remedy_check": {"value": "Virgin Media required to check that every affected customer who complained received compensation or other entitled remedies within six months", "unit": "regulatory remedy requirement", "value_type": "official_remedy_requirement"},
+        "process_safeguard": {"value": "One Touch Switch means customers contact the new provider rather than the existing provider to switch", "unit": "consumer-exit safeguard", "value_type": "official_process_change"},
+        "mechanism": {"value": "Consumer power is realized only when exit can be completed and remedy can reach affected customers; enforcement, process redesign, and individual compensation checks are separate stages", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ofcom enforcement decision and stated remediation requirements following the Virgin Media investigation.",
+      "uncertainty": "The fine is a regulatory sanction, not a direct estimate of all consumer harm; the publication does not yet prove every eligible customer received compensation or that the new process prevents recurrence.",
+      "subgroup": "Affected Virgin Media customers who complained and customers using the UK switching process after the enforcement episode.",
+      "counterinterpretation": "A large fine and process change may deter future conduct, but deterrence, compliance, and individual remedy receipt require follow-up evidence.",
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/ofcom-fines-virgin-media-28m-for-repeatedly-preventing-customers-from-cancelling-contracts",
+      "retrieval_hash": "sha256:2daaf16b44c540c6df91b7085fc44495874eb38ebd5c5ced5583e758dc4a77c1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider",
+      "claim": "Ofcom's switching hub provides the wider One Touch Switch, mobile switching, and contract-exit policy context.",
+      "status": "official-policy-index"
+    },
+    {
+      "source_url": "https://www.ofcom.org.uk/phones-and-broadband/switching-provider/around-3.5-million-brits-hit-switch-amidst-cost-of-living-concerns",
+      "claim": "Ofcom reports switching volume, potential savings, missed payments, and cost-of-living adaptations among telecoms customers.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds UK evidence on telecom affordability adaptation, switching, exit friction, retention incentives, regulatory enforcement, and remedy implementation requirements. It does not establish completed savings, population-wide prevalence of cancellation harm, individual compensation receipt, long-run compliance, or general consumer welfare.",
+  "retrieval_hash": "sha256:2daaf16b44c540c6df91b7085fc44495874eb38ebd5c5ced5583e758dc4a77c1"
+}

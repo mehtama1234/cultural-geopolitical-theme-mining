@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-yougov-nordic-mental-load-2026-gender-wellbeing-help-seeking",
+  "title": "Mental load is an invisible household-and-work infrastructure problem: awareness, gendered strain, and help-seeking do not automatically convert into support",
+  "theme_ids": ["time", "work", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "YouGov, Empowering Minds: Closing the mental load gap across the Nordics",
+  "geography": "Finland, Sweden, Norway, and Denmark; nationally representative online samples of adults aged 18 and older, approximately 1,000 interviews per country; fieldwork September and November 2025",
+  "observations": [
+    {
+      "period": "2026 publication; awareness of mental load across four Nordic countries",
+      "denominator": {"value": 4000, "unit": "approximately total interviews across Finland, Sweden, Norway, and Denmark", "value_type": "reported_multi_country_sample"},
+      "measures": {
+        "finland_awareness": {"value": 68, "unit": "percent recognizing the term mental load and what it means in practice in Finland", "value_type": "reported_share"},
+        "sweden_awareness": {"value": 20, "unit": "percent reporting awareness in Sweden", "value_type": "reported_share"},
+        "awareness_gap": {"value": 48, "unit": "percentage-point difference between Finland and Sweden awareness figures", "value_type": "derived_difference"},
+        "visibility_route": {"value": "a household burden can be unevenly distributed while remaining unevenly named and recognized across national contexts", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "YouGov online-panel survey with national quotas by gender, age, and region; the public summary reports country comparisons and describes mental load as cognitive and emotional coordination of everyday life.",
+      "uncertainty": "The public article provides rounded country figures and does not show the full questionnaire, weighting details, subgroup confidence intervals, or whether awareness reflects language and cultural framing rather than lived burden.",
+      "subgroup": "Adults in Finland, Sweden, Norway, and Denmark; women and men; parents, young mothers, people with tighter finances, workers, and household coordinators.",
+      "counterinterpretation": "Lower awareness may reflect terminology rather than lower mental load, while high awareness may reflect public discourse without corresponding institutional support.",
+      "source_url": "https://yougov.com/articles/54327-new-nordic-report-exposes-the-hidden-mental-load-behind-everyday-life",
+      "retrieval_hash": "sha256:0a8729ccaac7ae5c2bf2bd733b9d58cf7a9bd2ef8b83083e26085464e1fbe3a5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; gendered wellbeing and everyday pressure",
+      "denominator": {"value": 4000, "unit": "approximately total interviews across four Nordic countries", "value_type": "reported_multi_country_sample"},
+      "measures": {
+        "gendered_wellbeing": {"value": "women across the Nordics report lower mental wellbeing than men, with stress-related physical symptoms including tension, sleep problems, and fatigue", "unit": "reported comparative finding", "value_type": "reported_assessment"},
+        "high_pressure_groups": {"value": "young mothers and people managing tighter financial circumstances report particularly pronounced pressure and emotional overload", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_pattern"},
+        "rest_conflict": {"value": "many respondents struggle to reconcile daily obligations with rest and leisure", "unit": "reported wellbeing mechanism", "value_type": "reported_assessment"},
+        "mental_load_route": {"value": "planning and coordination obligations can transmit household organization into sleep, fatigue, wellbeing, and work capacity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-national self-report survey comparing mental load, wellbeing, physical symptoms, financial pressure, and life responsibilities.",
+      "uncertainty": "The publication reports associations and descriptions rather than clinical diagnoses, time-use diaries, work-hour effects, or causal estimates of household responsibility on mental health.",
+      "subgroup": "Women and men, young mothers, financially constrained adults, workers, parents, and people with different household and employment responsibilities.",
+      "counterinterpretation": "Gender differences in reported wellbeing can reflect reporting norms, work conditions, care access, social support, or other exposures not isolated by the public summary.",
+      "source_url": "https://yougov.com/articles/54327-new-nordic-report-exposes-the-hidden-mental-load-behind-everyday-life",
+      "retrieval_hash": "sha256:0a8729ccaac7ae5c2bf2bd733b9d58cf7a9bd2ef8b83083e26085464e1fbe3a5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; intention-to-action gap in seeking professional help",
+      "denominator": {"value": 4000, "unit": "approximately total interviews across four Nordic countries", "value_type": "reported_multi_country_sample"},
+      "measures": {
+        "sweden_intention": {"value": 40, "unit": "percent in Sweden saying they would likely seek professional support", "value_type": "reported_share"},
+        "sweden_action": {"value": 33, "unit": "percent in Sweden reporting they already had sought professional support", "value_type": "reported_share"},
+        "finland_intention": {"value": "nearly half", "unit": "reported share likely to seek professional help in Finland", "value_type": "reported_qualitative_share"},
+        "finland_action": {"value": "less than a third", "unit": "reported share having sought professional help in Finland", "value_type": "reported_qualitative_share"},
+        "support_conversion": {"value": "openness to help does not automatically become help-seeking, making confidence, access, stigma, service design, and follow-through part of the wellbeing pathway", "unit": "bounded service-conversion mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Survey comparison of stated willingness to seek professional support and reported prior support-seeking behavior.",
+      "uncertainty": "Intentions and retrospective reports are not service records; country comparisons may reflect different service availability, definitions, recall, and social norms.",
+      "subgroup": "Adults experiencing mental load, people open to professional support, people who have already sought help, and households with different financial and workplace resources.",
+      "counterinterpretation": "A gap between intention and action can indicate low need among some respondents, not only access barriers; the report does not identify the dominant cause.",
+      "source_url": "https://yougov.com/articles/54327-new-nordic-report-exposes-the-hidden-mental-load-behind-everyday-life",
+      "retrieval_hash": "sha256:0a8729ccaac7ae5c2bf2bd733b9d58cf7a9bd2ef8b83083e26085464e1fbe3a5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; mental load as organizational and structural condition",
+      "denominator": {"value": 4000, "unit": "approximately total interviews across four Nordic countries", "value_type": "reported_multi_country_sample"},
+      "measures": {
+        "structural_framing": {"value": "the report frames mental load as a structural problem affecting both men and women, with women disproportionately internalizing pressure and finding boundaries harder to set", "unit": "reported interpretation", "value_type": "reported_assessment"},
+        "institutional_targets": {"value": "employers, health systems, and public institutions are identified as relevant actors for targeted, proactive, and accessible support", "unit": "reported policy target set", "value_type": "reported_policy_scope"},
+        "workplace_route": {"value": "workplace wellbeing efforts can fail if they promote awareness without changing workload, boundaries, flexibility, or access to support", "unit": "bounded organizational mechanism", "value_type": "bounded_mechanism"},
+        "social_infrastructure": {"value": "mental load links household coordination, work organization, health services, and gender norms into one social-infrastructure problem", "unit": "bounded synthesis route", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bounded synthesis of YouGov’s cross-country findings and stated implications for employers, health systems, and public institutions.",
+      "uncertainty": "The report does not evaluate an intervention, measure employer behavior, observe household task allocation, or show whether targeted support improves durable wellbeing or work outcomes.",
+      "subgroup": "Employees, employers, caregivers, parents, public and occupational health systems, and people with different capacity to set boundaries or access support.",
+      "counterinterpretation": "Organizational support can help while also individualizing a problem generated by workload, housing, care systems, and gendered expectations; personal resilience should not substitute for structural change.",
+      "source_url": "https://yougov.com/reports/54170-empowering-minds-closing-the-mental-load-gap-across-the-nordics",
+      "retrieval_hash": "sha256:0a8729ccaac7ae5c2bf2bd733b9d58cf7a9bd2ef8b83083e26085464e1fbe3a5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://yougov.com/reports/54170-empowering-minds-closing-the-mental-load-gap-across-the-nordics", "claim": "Official YouGov report page with scope and methodology."},
+    {"source_url": "https://data.unwomen.org/publications/time-use-and-social-inequality-gendered-perspective", "claim": "Complementary UN Women time-use route on time poverty, multitasking, task segregation, mobility, and wellbeing."}
+  ],
+  "boundary": "This record adds a Nordic mental-load route across invisible planning, gendered wellbeing, financial pressure, rest, work capacity, help-seeking, service access, workplace boundaries, and public support. It uses YouGov’s public survey summary, not time-use diaries, clinical records, longitudinal couples data, observed care tasks, causal service effects, or proof that Nordic patterns generalize to the United States or other regions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official YouGov article and report page reviewed for country coverage, awareness differences, gendered wellbeing, pressure subgroups, intention-to-action help-seeking comparisons, sample design, and fieldwork timing.",
+    "source_url_sha256": "sha256:0a8729ccaac7ae5c2bf2bd733b9d58cf7a9bd2ef8b83083e26085464e1fbe3a5",
+    "checked": "2026-09-28"
+  }
+}

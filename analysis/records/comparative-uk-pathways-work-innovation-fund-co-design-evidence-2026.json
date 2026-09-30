@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-pathways-work-innovation-fund-co-design-evidence-2026",
+  "title": "Employment support is being redesigned as a portfolio of user-informed experiments whose legitimacy depends on learning, accessibility, and scale",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "public_systems_feedback", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "infrastructure_technology_dependency"],
+  "source_unit": "UK Department for Work and Pensions, Pathways to Work Innovation Fund applicant bid pack",
+  "geography": "United Kingdom; UK-wide employment, health, skills, disability, and long-term-condition support innovation fund",
+  "observations": [
+    {
+      "period": "September 2026; employment support as an innovation portfolio",
+      "denominator": {"value": 1, "unit": "UK Pathways to Work Innovation Fund design", "value_type": "published_program_frame"},
+      "measures": {"fund_size": {"value": 60, "unit": "million pounds available over two years", "value_type": "published_program_allocation"}, "target_outcomes": {"value": "move towards work, enter work, stay in work, and progress in work", "unit": "four eligible outcome directions", "value_type": "published_outcome_frame"}, "learning_goal": {"value": "projects must build evidence about what works and for whom, with potential for adoption, replication, or scale", "unit": "published program objective", "value_type": "published_learning_route"}},
+      "method": "Official DWP grant-programme design and applicant guidance; this is a funding architecture, not evidence that funded interventions have yet produced outcomes.",
+      "uncertainty": "The eventual portfolio, participant mix, intervention quality, evaluation designs, and scale decisions are not yet known.",
+      "subgroup": "Disabled people and people with long-term health conditions, employers, charities, social enterprises, public bodies, researchers, and delivery partnerships.",
+      "counterinterpretation": "A portfolio can diversify experimentation, but fragmented short projects may create evidence that is difficult to compare, sustain, or transfer into mainstream provision.",
+      "source_url": "https://www.gov.uk/government/publications/pathways-to-work-innovation-fund-applicant-bid-pack/applicant-bid-pack",
+      "retrieval_hash": "sha256:10650722b373a8bb2baa9b0138a3b5d368e9ebe062c91d7f92914b6cc183db4d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; lived experience and user-informed service design",
+      "denominator": {"value": 1, "unit": "Pathways to Work Innovation Fund application criteria", "value_type": "published_design_frame"},
+      "measures": {"design_requirement": {"value": "applicants must show how lived experience of disability or long-term health conditions, user needs, and stakeholder insight informed design", "unit": "published assessment criterion", "value_type": "published_participation_requirement"}, "accessibility_route": {"value": "online, PDF, large print, easy read, British Sign Language, audio, Braille, Welsh, and reasonable-adjustment routes are specified", "unit": "published application-access route", "value_type": "published_accessibility_route"}, "co_design": {"value": "user research and co-design activities are eligible project costs", "unit": "published eligible activity", "value_type": "published_design_route"}},
+      "method": "Review of the fund’s applicant requirements, eligible costs, accessibility provisions, and assessment criteria.",
+      "uncertainty": "A requirement to describe lived-experience input does not prove that participants control decisions, are compensated fairly, or influence funded delivery.",
+      "subgroup": "Disabled applicants and participants, people with long-term conditions, user researchers, community organisations, and people needing accessible public-funding processes.",
+      "counterinterpretation": "Formal accessibility and co-design requirements may improve fit, but they can also become compliance language if commissioners privilege deliverability or scale over participant agency.",
+      "source_url": "https://www.gov.uk/government/publications/pathways-to-work-innovation-fund-applicant-bid-pack/applicant-bid-pack",
+      "retrieval_hash": "sha256:10650722b373a8bb2baa9b0138a3b5d368e9ebe062c91d7f92914b6cc183db4d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; partnership and system-joining capacity",
+      "denominator": {"value": 1, "unit": "eligible-organisation and partnership model in the fund guidance", "value_type": "published_partnership_frame"},
+      "measures": {"eligible_sector_set": {"value": "charities, social enterprises, businesses, researchers, public-sector organisations, local and mayoral authorities, and consortia can apply", "unit": "published applicant universe", "value_type": "published_eligibility_frame"}, "system_joining": {"value": "new partnerships or ways of working that join employment, health, and skills support are explicitly in scope", "unit": "published innovation category", "value_type": "published_system_route"}, "partnership_directory": {"value": "a directory is intended to connect organisations with complementary lived experience, expertise, local knowledge, and delivery capability", "unit": "published coordination mechanism", "value_type": "published_partnership_route"}},
+      "method": "Analysis of official fund architecture, eligibility rules, partnership directory, and stated system objectives.",
+      "uncertainty": "Partnership formation, power-sharing, local coverage, and the durability of cross-sector coordination remain prospective.",
+      "subgroup": "Local authorities, employers, health and skills providers, voluntary organisations, researchers, disabled people, and communities with limited access to joined-up support.",
+      "counterinterpretation": "Broad eligibility can widen innovation, but it can also advantage organisations with grant-writing capacity and create accountability gaps across consortia.",
+      "source_url": "https://www.gov.uk/government/publications/pathways-to-work-innovation-fund-applicant-bid-pack/applicant-bid-pack",
+      "retrieval_hash": "sha256:10650722b373a8bb2baa9b0138a3b5d368e9ebe062c91d7f92914b6cc183db4d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.gov.uk/government/publications/pathways-to-work-innovation-fund-applicant-bid-pack", "claim": "Official landing page and fund publication context."}],
+  "boundary": "This record adds an institutional-learning route from disability and health-related employment barriers through lived-experience design, accessible participation, cross-sector partnerships, evidence generation, and potential scale. It does not establish funded-project outcomes, causal employment effects, participant control, or successful adoption.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GOV.UK applicant bid pack reviewed for fund size, objectives, eligible outcomes, lived-experience and co-design criteria, accessibility routes, partnership architecture, learning requirements, and implementation timetable.", "source_url_sha256": "sha256:10650722b373a8bb2baa9b0138a3b5d368e9ebe062c91d7f92914b6cc183db4d", "checked": "2026-09-29"}
+}

@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-home-child-care-capacity-flexibility-2026",
+  "title": "Home-based child care is a constrained care infrastructure: capacity, flexibility and provider capability limit household time",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "time_hidden_price",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Statistics Canada, Characteristics of home-based child cares serving children aged 0 to 5 years in Canada, 2024",
+  "geography": "Canada; nationally representative cross-sectional survey of licensed and unlicensed home-based child-care services, April 2024",
+  "observations": [
+    {
+      "period": "April 2024; national home-based child-care scale",
+      "denominator": {"value": 3779, "unit": "final survey sample: 1,680 licensed and 2,099 unlicensed home-based child-care homes; national estimates represent approximately 17,200 licensed and 11,700 unlicensed services", "value_type": "survey_units_and_weighted_estimates"},
+      "measures": {
+        "children_served": {"value": 151300, "unit": "approximately children aged 5 and younger not attending school served by licensed and unlicensed home-based care", "value_type": "weighted_estimate"},
+        "licensed_children": {"value": 102100, "unit": "children served by licensed home-based care", "value_type": "weighted_estimate"},
+        "unlicensed_children": {"value": 49200, "unit": "children served by unlicensed home-based care", "value_type": "weighted_estimate"},
+        "infrastructure_frame": {"value": "home-based care is a substantial but mixed formal-care infrastructure, not merely an informal household workaround", "unit": "reported analytic interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Nationally representative 2024 Canadian Survey on the Provision of Child Care Services; survey weights and G-estimation macros used for domain and variance estimation.",
+      "uncertainty": "The survey is cross-sectional and provider-based; it describes service supply and capacity, not parent-level affordability, unmet demand, child outcomes, or causal effects of the Canada-wide early learning and child-care agreements.",
+      "subgroup": "Licensed and unlicensed home-based child-care providers serving children aged 0 to 5, with provincial and urban/non-urban estimates.",
+      "counterinterpretation": "The distinction between licensed and unlicensed care may reflect jurisdiction, provider preferences, regulation, and reporting frames; national service counts do not equal accessible places for every family.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00004-eng.htm",
+      "retrieval_hash": "sha256:c99f26d3220ac3260da5a1b63fc31eabcdda8da32a4bdb08da54aafe88e9a5d7",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024; capacity and waitlist pressure",
+      "denominator": {"value": 3779, "unit": "final survey sample of home-based child-care homes: 1,680 licensed and 2,099 unlicensed", "value_type": "survey_units"},
+      "measures": {
+        "licensed_at_capacity": {"value": 81.8, "unit": "percent of licensed homes operating at maximum capacity", "value_type": "reported_share"},
+        "unlicensed_at_capacity": {"value": 74.7, "unit": "percent of unlicensed homes operating at maximum capacity", "value_type": "reported_share"},
+        "licensed_waitlist": {"value": 61.8, "unit": "percent of licensed homes reporting a waitlist", "value_type": "reported_share"},
+        "unlicensed_waitlist": {"value": 44.3, "unit": "percent of unlicensed homes reporting a waitlist", "value_type": "reported_share"},
+        "capacity_route": {"value": "care affordability or fee reduction cannot by itself create usable access when provider capacity and waitlists remain binding constraints", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted descriptive estimates from the national provider survey; capacity means the service's reported maximum on April 8, 2024.",
+      "uncertainty": "Maximum capacity is provider-reported and a snapshot; waitlist status does not quantify wait time, family eligibility, geographic mismatch, or whether a listed child eventually receives care.",
+      "subgroup": "Licensed and unlicensed home-based child-care homes, by service type and province or territory.",
+      "counterinterpretation": "A waitlist can reflect local demand, provider choice, or temporary enrollment timing rather than a national shortage; homes below maximum capacity may still be inaccessible because of schedule, age, location or fee mismatch.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00004-eng.htm",
+      "retrieval_hash": "sha256:c99f26d3220ac3260da5a1b63fc31eabcdda8da32a4bdb08da54aafe88e9a5d7",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024; schedule flexibility and disability accommodation",
+      "denominator": {"value": 3779, "unit": "final survey sample of home-based child-care homes; percentages reported separately for licensed and unlicensed homes", "value_type": "survey_units"},
+      "measures": {
+        "licensed_nonstandard_hours": {"value": 3, "unit": "percent of licensed homes offering evening, weekend or overnight care", "value_type": "reported_share"},
+        "unlicensed_nonstandard_hours": {"value": 7, "unit": "percent of unlicensed homes offering evening, weekend or overnight care", "value_type": "reported_share"},
+        "licensed_flexible_drop_in": {"value": 8, "unit": "percent of licensed homes offering drop-in or flexible care", "value_type": "reported_share"},
+        "unlicensed_flexible_drop_in": {"value": 18, "unit": "percent of unlicensed homes offering drop-in or flexible care", "value_type": "reported_share"},
+        "licensed_disability_accommodation": {"value": 33, "unit": "percent of licensed homes with accommodations for children with disabilities", "value_type": "reported_share"},
+        "unlicensed_disability_accommodation": {"value": 16, "unit": "percent of unlicensed homes with accommodations for children with disabilities", "value_type": "reported_share"},
+        "time_conversion": {"value": "formal availability does not equal schedule-compatible, disability-accessible care; nonstandard hours and accommodations are limited and differ by licensing status", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted descriptive provider estimates of care options and accommodations.",
+      "uncertainty": "The study does not measure parent schedules, transportation, actual use of nonstandard care, quality of accommodation, or whether providers declined to offer services because of cost or staffing.",
+      "subgroup": "Children and families requiring evening, weekend, overnight, drop-in, flexible or disability-responsive care.",
+      "counterinterpretation": "Low reported availability may reflect the survey's service definitions or provincial regulation; a home may accommodate needs informally without reporting a formal accommodation.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00004-eng.htm",
+      "retrieval_hash": "sha256:c99f26d3220ac3260da5a1b63fc31eabcdda8da32a4bdb08da54aafe88e9a5d7",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024; provider capability, licensing and institutional design",
+      "denominator": {"value": 3779, "unit": "final survey sample of home-based child-care homes; licensed and unlicensed groups reported separately", "value_type": "survey_units"},
+      "measures": {
+        "women_plus": {"value": 99, "unit": "approximately percent of licensed and unlicensed providers who are women+", "value_type": "reported_share"},
+        "no_ece_training_licensed": {"value": 11.4, "unit": "percent of licensed providers with no ECE-related training", "value_type": "reported_share"},
+        "no_ece_training_unlicensed": {"value": 50, "unit": "percent of unlicensed providers with no ECE-related training", "value_type": "reported_share"},
+        "agency_model": {"value": 72, "unit": "percent of licensed homes approved or registered through a child-care agency or coordinating office rather than directly by a province or territory", "value_type": "reported_share"},
+        "institutional_route": {"value": "care-system legitimacy depends on how regulation, training, agency monitoring, provider autonomy and financial support combine—not only on nominal fee targets", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted descriptive provider profiles and licensing-system estimates from the 2024 CSPCCS.",
+      "uncertainty": "Training is not a complete measure of care quality, licensing does not guarantee higher quality, and the cross-sectional report cannot identify how reform changes provider entry, exit, wages or household outcomes.",
+      "subgroup": "Licensed and unlicensed providers, women+ providers, recent immigrants, Indigenous providers, urban/non-urban homes and providers with employees.",
+      "counterinterpretation": "Unlicensed providers may have informal experience or reasons for remaining outside formal systems; credential differences should not be treated as direct child-outcome differences without quality measurement.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00004-eng.htm",
+      "retrieval_hash": "sha256:c99f26d3220ac3260da5a1b63fc31eabcdda8da32a4bdb08da54aafe88e9a5d7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923c-eng.htm", "claim": "Statistics Canada release page situates the article in the September 2026 Economic and Social Reports issue."},
+    {"source_url": "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5338", "claim": "Official survey-program context for the Canadian Survey on the Provision of Child Care Services."},
+    {"source_url": "https://www.publications.gc.ca/site/eng/9.966150/publication.html", "claim": "Government of Canada catalogue record for the report."}
+  ],
+  "boundary": "This record adds a care-infrastructure route from provider capacity, licensing, training and schedule design through usable child-care access, household time, work continuity and institutional legitimacy. It is a nationally representative provider survey and descriptive 2024 snapshot, not a parent-level demand estimate, causal evaluation of CWELCC reforms, child-outcome study, or proof that licensing status alone determines quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada article reviewed for survey frame, sample, national service counts, capacity, waitlists, flexibility, disability accommodation, provider training, licensing model, methods and explicit non-evaluation boundary.",
+    "source_url_sha256": "sha256:c99f26d3220ac3260da5a1b63fc31eabcdda8da32a4bdb08da54aafe88e9a5d7",
+    "checked": "2026-09-28"
+  }
+}

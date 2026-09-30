@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-time-use-2022-time-pressure-friendship-social-connection",
+  "title": "Canadian time pressure and shrinking everyday friendship contact make social connection a scarce household resource",
+  "theme_ids": ["time", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Statistics Canada, Time Use Survey: time pressure and time spent with friends over the last 30 years",
+  "geography": "Canada; non-institutionalized persons aged 15 years and older living in the provinces",
+  "observations": [
+    {
+      "period": "1992-2022; reported time pressure",
+      "denominator": {
+        "value": null,
+        "unit": "Canadian non-institutionalized persons aged 15 years and older in the Time Use Survey target population",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "high_time_pressure_1992": {"value": 15.0, "unit": "percent reporting high time pressure", "value_type": "official_survey_share"},
+        "high_time_pressure_2022": {"value": 24.2, "unit": "percent reporting high time pressure", "value_type": "official_survey_share"},
+        "high_time_pressure_change_percentage_points": {"value": 9.2, "unit": "percentage-point increase from 1992 to 2022", "value_type": "derived_percentage_point_change"},
+        "women_high_time_pressure_2022": {"value": 26.5, "unit": "percent of women+ reporting high time pressure", "value_type": "official_subgroup_share"},
+        "men_high_time_pressure_2022": {"value": 21.8, "unit": "percent of men+ reporting high time pressure", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Time pressure operates as a hidden price on leisure, care, friendship, and cultural participation, with women reporting a higher burden than men", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Statistics Canada Time Use Survey cross-sectional waves from 1992 through 2022; high time pressure is defined as agreement with at least seven of ten time-pressure statements.",
+      "uncertainty": "The series compares repeated cross-sectional surveys rather than tracking the same people; the measure is self-reported and combines several dimensions of perceived time scarcity.",
+      "subgroup": "Canadian women+ and men+ categories as defined by Statistics Canada; historical sex/gender category construction is not identical across waves.",
+      "counterinterpretation": "The increase may reflect changing expectations, reporting norms, age structure, work and care composition, or survey context rather than a uniform increase in objectively constrained hours.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250617/dq250617d-eng.htm",
+      "retrieval_hash": "sha256:9fb9810532c3e1f7f17afc7c6de2d0bad34adaed6dbc6a7962a58c31dc902f4e",
+      "status": "reported"
+    },
+    {
+      "period": "1986-2022; everyday friendship contact",
+      "denominator": {
+        "value": null,
+        "unit": "Canadian non-institutionalized persons aged 15 years and older in the Time Use Survey target population",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "saw_friends_average_day_1986": {"value": 47.9, "unit": "percent seeing friends on an average day", "value_type": "official_survey_share"},
+        "saw_friends_average_day_2022": {"value": 19.3, "unit": "percent seeing friends on an average day", "value_type": "official_survey_share"},
+        "saw_friends_change_percentage_points": {"value": -28.6, "unit": "percentage-point change from 1986 to 2022", "value_type": "derived_percentage_point_change"},
+        "mechanism": {"value": "Everyday social connection is becoming less frequent in the time diary, suggesting that friendship and belonging compete with work, care, commuting, digital activity, and household demands for scarce time", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Statistics Canada 24-hour time-diary measures of who was present during activities, compared across Time Use Survey waves from 1986 through 2022.",
+      "uncertainty": "Seeing a friend on the diary day is not the same as friendship quality, total monthly contact, online contact, loneliness, or social support; survey mode and life-cycle composition may affect comparisons.",
+      "subgroup": "Canadian persons aged 15 years and older in the survey target population; age-specific patterns are reported separately by the source.",
+      "counterinterpretation": "A decline in same-day in-person contact may coexist with stronger digital, household, workplace, or less frequent but more meaningful relationships; the measure cannot identify substitution.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250617/dq250617d-eng.htm",
+      "retrieval_hash": "sha256:9fb9810532c3e1f7f17afc7c6de2d0bad34adaed6dbc6a7962a58c31dc902f4e",
+      "status": "reported"
+    },
+    {
+      "period": "1986-2022; duration and unmet social time",
+      "denominator": {
+        "value": null,
+        "unit": "Canadian respondents who saw friends on the diary day, plus all survey respondents for unmet-time concern",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "average_hours_with_friends_1986": {"value": 5.0, "unit": "hours per day among people who saw friends on the diary day", "value_type": "official_diary_average"},
+        "average_hours_with_friends_2022": {"value": 3.8, "unit": "hours per day among people who saw friends on the diary day", "value_type": "official_diary_average"},
+        "average_hours_change": {"value": -1.2, "unit": "hours per day change among people who saw friends on the diary day", "value_type": "derived_diary_change"},
+        "worry_insufficient_family_friend_time_1992": {"value": 33.7, "unit": "percent reporting worry that they did not spend enough time with family and friends", "value_type": "official_survey_share"},
+        "worry_insufficient_family_friend_time_2022": {"value": 46.3, "unit": "percent reporting worry that they did not spend enough time with family and friends", "value_type": "official_survey_share"},
+        "mechanism": {"value": "The social-time constraint appears at both margins: fewer people encounter friends on a given day, and those who do spend less time together, while concern about insufficient family and friendship time rises", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Statistics Canada combines diary-based duration among people who saw friends with survey responses on perceived insufficiency of family and friendship time.",
+      "uncertainty": "The duration statistic is conditional on seeing friends that day, while the worry measure has a different denominator; neither establishes loneliness, causal time displacement, or a mental-health outcome.",
+      "subgroup": "Canadian respondents in the Time Use Survey, with the source-specific conditional denominator for average hours.",
+      "counterinterpretation": "Lower average duration may reflect a shift toward shorter, more distributed, or more digitally mediated contacts rather than a simple collapse in social connection.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250617/dq250617d-eng.htm",
+      "retrieval_hash": "sha256:9fb9810532c3e1f7f17afc7c6de2d0bad34adaed6dbc6a7962a58c31dc902f4e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www150.statcan.gc.ca/n1/en/type/data?HPA=1&sourcecode=4503",
+      "claim": "Statistics Canada provides the underlying time-use tables for time pressure, time spent alone and with others, and related sociodemographic breakdowns.",
+      "status": "official-data-archive"
+    },
+    {
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2025002-eng.htm",
+      "claim": "Statistics Canada provides an interactive time-use visualization based on the 2022 Time Use Survey.",
+      "status": "official-data-product"
+    }
+  ],
+  "boundary": "This record adds Canadian time-diary and perceived-time-pressure evidence on social connection, friendship contact, gendered time burden, and unmet family/friendship time. It does not measure cultural participation directly, online contact, loneliness, causal time displacement, or individual mental-health outcomes.",
+  "retrieval_hash": "sha256:9fb9810532c3e1f7f17afc7c6de2d0bad34adaed6dbc6a7962a58c31dc902f4e"
+}

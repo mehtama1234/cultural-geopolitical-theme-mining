@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-brazil-ibge-retail-july-2026-category-and-regional-divergence",
+  "title": "Brazilian retail volume contracts monthly while essential, technology, cultural-goods, and regional paths diverge",
+  "theme_ids": ["cost", "time", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "IBGE Monthly Survey of Trade, July 2026",
+  "geography": "Brazil",
+  "observations": [
+    {
+      "period": "July 2026; seasonally adjusted Brazilian retail-trade volume",
+      "denominator": {"value": 1, "unit": "aggregate Brazilian retail-trade volume index; enterprise-based, not household respondents", "value_type": "aggregate_index"},
+      "measures": {
+        "retail_trade_volume_monthly_change": {"value": -0.8, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "retail_trade_volume_annual_change": {"value": 1.2, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "retail_trade_volume_january_to_july_change": {"value": 1.8, "unit": "percent from January-July 2025", "value_type": "reported_change"},
+        "retail_trade_volume_last_twelve_months_change": {"value": 1.6, "unit": "percent from preceding twelve-month period", "value_type": "reported_change"},
+        "extended_retail_trade_volume_monthly_change": {"value": 0.4, "unit": "percent from June 2026; includes vehicles and construction materials", "value_type": "reported_change"}
+      },
+      "method": "IBGE Monthly Survey of Trade indicators, using seasonally adjusted month-over-month volume and unadjusted monthly, year-to-date, and trailing-twelve-month comparisons. The survey investigates enterprises and reports national and selected state indicators.",
+      "uncertainty": "An enterprise-based sales-volume index is not household expenditure, unique-consumer behavior, welfare, or cultural attendance. Revisions, seasonal adjustment, product mix, and changes in establishments can affect interpretation.",
+      "subgroup": "Brazilian retail trade and extended retail trade; the source reports activity groups and federation-unit indicators.",
+      "counterinterpretation": "The positive year-over-year and year-to-date rates can indicate continuing underlying retail expansion despite a monthly pause; the extended-retail increase also shows that the headline retail contraction is not uniform across the broader trade basket.",
+      "source_url": "https://ftp.ibge.gov.br/Comercio_e_Servicos/Pesquisa_Mensal_de_Comercio/Fasciculo_Indicadores_IBGE/pmc_202607caderno.pdf",
+      "retrieval_hash": "sha256:7333998a4abcbe8ab5899eea70b32edab5be6a50e9b65cdb667f13afb6026cd8",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; Brazilian retail activity groups",
+      "denominator": {"value": 1, "unit": "activity-group retail sales-volume index; monthly and year-over-year comparisons", "value_type": "aggregate_index"},
+      "measures": {
+        "food_beverage_tobacco_retail_monthly_change": {"value": -0.2, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "food_beverage_tobacco_retail_annual_change": {"value": 2.9, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "clothing_fabrics_footwear_monthly_change": {"value": -2.7, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "clothing_fabrics_footwear_annual_change": {"value": -4.7, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "furniture_appliances_monthly_change": {"value": -4.9, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "pharmaceuticals_cosmetics_annual_change": {"value": 4.7, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "books_newspapers_magazines_stationery_monthly_change": {"value": -4.2, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "office_computer_communications_equipment_monthly_change": {"value": 0.6, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "office_computer_communications_equipment_annual_change": {"value": 2.5, "unit": "percent from July 2025", "value_type": "reported_change"}
+      },
+      "method": "IBGE Table 1 activity-group volume indicators; month-over-month figures are seasonally adjusted and monthly figures compare with the same month of the prior year.",
+      "uncertainty": "Activity groups combine diverse products and do not distinguish prices, units, basket size, household budgets, or whether purchases shifted to services or other channels. Books/stationery are a retail category, not a direct measure of reading or cultural participation.",
+      "subgroup": "Brazilian retail activity groups, including food, clothing, furniture/appliances, pharmaceuticals/cosmetics, books/stationery, and office/computer/communications equipment.",
+      "counterinterpretation": "The category split is consistent with selective adaptation rather than uniform contraction: food and health-related retail remain positive year over year while apparel, household durables, and cultural-goods retail weaken monthly; technology equipment grows on both monthly and annual comparisons.",
+      "source_url": "https://ftp.ibge.gov.br/Comercio_e_Servicos/Pesquisa_Mensal_de_Comercio/Tabelas/2026/pmc_202607_01.xlsx",
+      "retrieval_hash": "sha256:9582b36ab82e11149626d1ebb717cb9b2770e547f7c62db222c7c3485aa436a7",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; Brazilian federation-unit retail volume",
+      "denominator": {"value": 27, "unit": "Brazilian federation units; seasonally adjusted month-over-month retail volume indicators", "value_type": "geographic_universe"},
+      "measures": {
+        "federation_units_with_monthly_decline": {"value": 17, "unit": "of 27 federation units", "value_type": "reported_count"},
+        "sao_paulo_retail_volume_monthly_change": {"value": -1.5, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "pernambuco_retail_volume_annual_change": {"value": 7.1, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "santa_catarina_retail_volume_annual_change": {"value": 3.2, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "mato_grosso_retail_volume_annual_change": {"value": -3.1, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "distrito_federal_retail_volume_annual_change": {"value": 6.6, "unit": "percent from July 2025", "value_type": "reported_change"}
+      },
+      "method": "IBGE Table 2 federation-unit retail volume indicators; monthly figures use seasonally adjusted series and annual figures compare with July 2025.",
+      "uncertainty": "Federation-unit retail volume differences are not direct measures of regional income, sentiment, cost of living, or cultural preference. Industry composition, local price patterns, and sampling/coverage can produce divergence.",
+      "subgroup": "All 27 Brazilian federation units, with selected examples used to show regional spread.",
+      "counterinterpretation": "Regional divergence can reflect sector mix rather than a simple north-south, urban-rural, or high- versus low-consumption divide; the release's enterprise indicators should not be converted into household-level regional welfare claims.",
+      "source_url": "https://ftp.ibge.gov.br/Comercio_e_Servicos/Pesquisa_Mensal_de_Comercio/Tabelas/2026/pmc_202607_02.xlsx",
+      "retrieval_hash": "sha256:8e02f08e366f37b74cbbb22ef54cc7ab37977f3bdbc7807ad8c5fec2c4fe23d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ibge.gov.br/en/statistics/economic/trade/18159-monthly-survey-of-trade.html", "claim": "IBGE's official Monthly Survey of Trade page documents the July 2026 release, coverage, concepts, methods, and publication calendar.", "status": "official-release-page"},
+    {"source_url": "https://ftp.ibge.gov.br/Comercio_e_Servicos/Pesquisa_Mensal_de_Comercio/Tabelas/2026/", "claim": "IBGE's official public FTP directory provides the July 2026 activity-group and federation-unit spreadsheet tables.", "status": "official-data-directory"}
+  ],
+  "boundary": "This record adds a Brazil retail-volume, category, and regional layer to the cross-country consumer comparison. It does not measure online commerce, unique consumers, household affordability, cultural attendance, causal substitution, or merchant margins. Books and stationery are treated as a retail category rather than a proxy for cultural meaning.",
+  "retrieval_hash": "sha256:7333998a4abcbe8ab5899eea70b32edab5be6a50e9b65cdb667f13afb6026cd8"
+}

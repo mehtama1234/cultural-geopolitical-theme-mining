@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-helen-clark-nz-social-cohesion-2026-belonging-financial-stress",
+  "title": "Belonging remains widespread but local cohesion slips as financial stress, housing, isolation, and unequal safety sort social connection",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "political_judgment_action", "care_health_reproduction", "public_systems_feedback"],
+  "source_unit": "Helen Clark Foundation, Social Cohesion in New Zealand 2026",
+  "geography": "New Zealand; population-weighted 2025 survey of adults, with Māori, Pacific, and Asian booster samples",
+  "observations": [
+    {
+      "period": "2025; national and local belonging, trust, and isolation",
+      "denominator": {"value": 2882, "unit": "New Zealand adults surveyed in November-December 2025; population-weighted estimates", "value_type": "published_survey_sample"},
+      "measures": {
+        "national_belonging": {"value": 84, "unit": "percent feeling a sense of belonging to New Zealand", "value_type": "reported_survey_share"},
+        "local_community_strong": {"value": 50, "unit": "percent feeling a strong sense of community in their local area", "value_type": "reported_survey_share"},
+        "government_trust": {"value": 40, "unit": "percent trusting the government to do the right thing", "value_type": "reported_survey_share"},
+        "young_isolation": {"value": 67, "unit": "approximately percent of under-30s feeling isolated at least sometimes", "value_type": "reported_survey_share"},
+        "cohesion_gradient": {"value": "National belonging remains high while local belonging, institutional trust, and everyday connection are weaker", "unit": "reported cross-level pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Annual national social-cohesion survey modeled on the Scanlon Foundation Social Cohesion Monitor, with population weighting and booster samples for Māori, Pacific, and Asian communities.",
+      "uncertainty": "The report is a repeated cross-sectional survey; belonging and isolation are self-reported and do not establish causal direction between trust, local connection, and material conditions.",
+      "subgroup": "New Zealand adults, under-30s, Māori, Pacific, Asian, and other population groups.",
+      "counterinterpretation": "High national belonging may reflect a broad symbolic identity that does not require strong local participation or government trust.",
+      "source_url": "https://www.helenclark.foundation/social-cohesion",
+      "retrieval_hash": "sha256:1a0bdb867d76073adfbecd597c31868f7ca719181c71da84e8245a75d4d7cc62",
+      "status": "reported"
+    },
+    {
+      "period": "2025; financial stress and social connection",
+      "denominator": {"value": 2882, "unit": "New Zealand adults in the population-weighted social-cohesion survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "food_insecurity": {"value": 25, "unit": "approximately percent sometimes going without meals because food is unaffordable", "value_type": "reported_survey_share"},
+        "young_food_insecurity": {"value": 40, "unit": "approximately percent of under-30s sometimes going without meals because of cost", "value_type": "reported_subgroup_share"},
+        "financial_stress_prediction": {"value": "Financial stress predicts low belonging, low trust, high isolation, and more negative attitudes to immigration more strongly than most measured variables", "unit": "reported multivariate/associational finding", "value_type": "analytic_mechanism"},
+        "belonging_buffer": {"value": "People under financial pressure who retain strong belonging remain involved in their communities at rates similar to financially comfortable people", "unit": "reported association", "value_type": "reported_pattern"}
+      },
+      "method": "Population-weighted survey associations comparing financial stress, belonging, community involvement, trust, isolation, and immigration attitudes.",
+      "uncertainty": "The public summary does not disclose full model specifications, effect sizes, or temporal ordering; belonging may buffer stress, be produced by resources, or reflect common causes.",
+      "subgroup": "Financially stressed adults, under-30s, and respondents with strong or weak belonging.",
+      "counterinterpretation": "Community involvement may be differently reported by people with different social norms, and the apparent protective role of belonging may not imply material relief.",
+      "source_url": "https://www.helenclark.foundation/social-cohesion",
+      "retrieval_hash": "sha256:1a0bdb867d76073adfbecd597c31868f7ca719181c71da84e8245a75d4d7cc62",
+      "status": "reported"
+    },
+    {
+      "period": "2025; housing, cross-cultural friendship, and local civic connection",
+      "denominator": {"value": 2882, "unit": "New Zealand adults in the population-weighted social-cohesion survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "homeowner_participation_gap": {"value": 7.4, "unit": "percentage-point higher civic participation among homeowners than renters", "value_type": "reported_association"},
+        "homeowner_belonging_gap": {"value": 14, "unit": "percentage-point higher neighbourhood belonging among homeowners than renters", "value_type": "reported_association"},
+        "cross_cultural_friendship": {"value": 83, "unit": "percent with at least one close friend from a different ethnic or religious background", "value_type": "reported_survey_share"},
+        "friendship_belonging": {"value": "People with close cross-cultural friends consistently report stronger belonging", "unit": "reported association", "value_type": "analytic_mechanism"},
+        "housing_as_cohesion": {"value": "Housing tenure appears as a social-cohesion condition, not only a financial or shelter condition", "unit": "reported interpretation", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey comparisons of housing tenure, civic participation, neighbourhood belonging, friendship networks, and social connection.",
+      "uncertainty": "Homeownership is correlated with age, income, stability, neighbourhood duration, and wealth; the reported gaps are not causal tenure effects.",
+      "subgroup": "Homeowners and renters; respondents with and without cross-cultural or cross-religious friendships.",
+      "counterinterpretation": "Stable residence or socioeconomic position may generate both homeownership and belonging, while friendship may be an outcome rather than a driver of cohesion.",
+      "source_url": "https://www.helenclark.foundation/social-cohesion",
+      "retrieval_hash": "sha256:1a0bdb867d76073adfbecd597c31868f7ca719181c71da84e8245a75d4d7cc62",
+      "status": "reported"
+    },
+    {
+      "period": "2025; unequal safety, media habits, and political meaning",
+      "denominator": {"value": 2882, "unit": "New Zealand adults in the population-weighted social-cohesion survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "women_night_safety": {"value": 45, "unit": "percent of women feeling safe walking alone at night", "value_type": "reported_subgroup_share"},
+        "men_night_safety": {"value": 69, "unit": "percent of men feeling safe walking alone at night", "value_type": "reported_subgroup_share"},
+        "social_media_bad": {"value": 55, "unit": "percent saying social media is bad for society", "value_type": "reported_survey_share"},
+        "social_media_frequency": {"value": 58, "unit": "percent using social media several times a day", "value_type": "reported_survey_share"},
+        "strong_leader_young": {"value": 38, "unit": "percent of under-30s supporting a strong leader who bypasses Parliament", "value_type": "reported_subgroup_share"},
+        "hope_gap": {"value": "Young people are highly aspirational but report the weakest lived cohesion, creating a gap between imagined and experienced futures", "unit": "reported subgroup pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Population-weighted survey comparisons across gender, age, social-media use, political attitudes, and perceived safety.",
+      "uncertainty": "The public page does not provide full question wording, subgroup bases, or causal models for safety, media use, political preference, and cohesion.",
+      "subgroup": "Women and men, under-30s and over-65s, social-media users, and respondents with different political attitudes.",
+      "counterinterpretation": "Support for a strong leader may express frustration with institutional performance rather than a settled anti-democratic commitment; safety perceptions may reflect different routines and exposure.",
+      "source_url": "https://www.helenclark.foundation/social-cohesion",
+      "retrieval_hash": "sha256:1a0bdb867d76073adfbecd597c31868f7ca719181c71da84e8245a75d4d7cc62",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.helenclark.foundation/", "claim": "Helen Clark Foundation research program context.", "status": "organization-context"},
+    {"source_url": "https://scanloninstitute.org.au/report2025", "claim": "Scanlon Foundation Social Cohesion Monitor model referenced as the comparative survey basis.", "status": "comparative-method-context"}
+  ],
+  "boundary": "This record adds a belonging-and-material-stress route: national belonging can remain high while local cohesion, trust, safety, and hope weaken; financial stress, housing tenure, cross-cultural friendship, age, gender, and media habits sort exposure. It does not establish causal effects, clinical loneliness, actual civic behavior, or policy impact.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Helen Clark Foundation publication page reviewed for survey sample, weighting, belonging, trust, isolation, financial stress, food insecurity, housing, friendship, safety, media, youth, and limitations available in the public summary.",
+    "source_page_sha256": "sha256:1a0bdb867d76073adfbecd597c31868f7ca719181c71da84e8245a75d4d7cc62",
+    "checked": "2026-09-28"
+  }
+}

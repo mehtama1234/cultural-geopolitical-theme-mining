@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-interprovincial-labour-mobility-estimates-2026",
+  "title": "Interprovincial labour mobility is a small, institutionally constrained adjustment channel whose timely measurement remains uncertain",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Statistics Canada, Producing timely experimental estimates of interprovincial labour mobility",
+  "geography": "Canada; workers classified by National Occupational Classification groups and province of residence",
+  "observations": [
+    {
+      "period": "Annual context; working-age population mobility",
+      "denominator": {"value": 1, "unit": "Canadian working-age population; public article reports annual share rather than one single analytic denominator", "value_type": "reported_population_context"},
+      "measures": {
+        "annual_mobility": {"value": "about 1% to 2% of the working-age population moves between provinces each year", "unit": "reported annual mobility range", "value_type": "reported_rate_context"},
+        "adjustment_role": {"value": "interprovincial mobility can connect workers to regional labor demand and relieve hiring pressure, but remains relatively uncommon", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "barriers": {"value": "residency requirements, occupational licensing and certificate recognition remain institutional barriers", "unit": "reported policy context", "value_type": "reported_barrier_pattern"}
+      },
+      "method": "Article synthesis of Statistics Canada mobility sources and prior research; the paper's new estimates are occupation-specific experimental predictions.",
+      "uncertainty": "The 1%–2% range is contextual rather than a single new estimate, and mobility can reflect housing, family, job quality, licensing, regional demand and selection.",
+      "subgroup": "Canadian working-age population and workers across occupational groups.",
+      "counterinterpretation": "Low movement may reflect preferred rootedness or adequate local employment rather than only institutional blockage; movement itself can impose household and care costs.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00001-eng.htm",
+      "retrieval_hash": "sha256:03275e4cde681e61069c77ab608850db92223f358b69051638e92de6c7ec39b2",
+      "status": "reported"
+    },
+    {
+      "period": "Reference 2021 Census and 2022 tax data; estimated 2022–2026 mobility series",
+      "denominator": {"value": 133, "unit": "three-digit NOC 2016 occupational groups used in the validation comparison", "value_type": "occupational_groups"},
+      "measures": {
+        "reference_observation": {"value": "observed mobility compares province of residence in the 2021 Census with province in the 2022 T1 tax file", "unit": "linked administrative comparison", "value_type": "observed_measurement"},
+        "prediction_update": {"value": "predicted mobility estimates update reference-year logit parameters with current annual demographic controls from the Labour Force Survey", "unit": "two-step estimation method", "value_type": "modeled_estimate"},
+        "future_series": {"value": "the method produces estimated occupational mobility for 2022–2023, 2023–2024, 2024–2025 and 2025–2026", "unit": "annual experimental series", "value_type": "modeled_projection"},
+        "data_infrastructure_route": {"value": "labor-mobility policy requires recurring occupation-level measurement between census years, but timeliness depends on a stability assumption", "unit": "reported method mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Two-step logit model: estimate occupation-specific migration response parameters from linked Census and T1 data, then update demographic controls using the Labour Force Survey.",
+      "uncertainty": "The core assumption is that migration behavior and response parameters remain stable after the reference period; policy or macroeconomic shifts can make predictions diverge from actual mobility.",
+      "subgroup": "Workers classified by four-digit NOC 2021 in the production approach, with validation shown for 133 three-digit NOC 2016 groups.",
+      "counterinterpretation": "Timely predicted estimates can improve surveillance without being accurate enough for occupation-specific policy allocation; the method may encode pandemic-era reference conditions.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00001-eng.htm",
+      "retrieval_hash": "sha256:03275e4cde681e61069c77ab608850db92223f358b69051638e92de6c7ec39b2",
+      "status": "reported"
+    },
+    {
+      "period": "Validation comparison; predicted versus observed mobility from 2021 to 2022",
+      "denominator": {"value": 133, "unit": "three-digit NOC 2016 occupational groups analyzed in validation", "value_type": "occupational_groups"},
+      "measures": {
+        "close_match": {"value": 16, "unit": "occupational groups with predicted-versus-observed percentage differences of 5% or less", "value_type": "reported_validation_count"},
+        "moderate_difference": {"value": 56, "unit": "occupational groups with percentage differences larger than 5% and up to 25%", "value_type": "reported_validation_count"},
+        "large_difference": {"value": 53, "unit": "occupational groups with percentage differences larger than 25% and up to 50%", "value_type": "reported_validation_count"},
+        "very_large_difference": {"value": 8, "unit": "occupational groups with percentage differences exceeding 50%", "value_type": "reported_validation_count"},
+        "prediction_boundary": {"value": "predicted rates are generally somewhat lower than observed rates, with accuracy varying sharply by occupation", "unit": "reported validation pattern", "value_type": "reported_uncertainty"}
+      },
+      "method": "Validation of the prediction approach against directly observed 2021 Census to 2022 T1 mobility rates.",
+      "uncertainty": "The comparison uses a prior-reference setup and does not establish how well predictions perform in later years or under changed policy and economic conditions.",
+      "subgroup": "133 occupational groups in the validation release.",
+      "counterinterpretation": "Large prediction errors do not invalidate the approach for descriptive monitoring, but they make occupation-specific causal inference or resource allocation unsafe without updated observed data.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00001-eng.htm",
+      "retrieval_hash": "sha256:03275e4cde681e61069c77ab608850db92223f358b69051638e92de6c7ec39b2",
+      "status": "reported"
+    },
+    {
+      "period": "Policy and labor-market interpretation; regional adjustment and worker mobility",
+      "denominator": {"value": 1, "unit": "Canadian labor-market policy framework; occupation-specific mobility route", "value_type": "policy_synthesis"},
+      "measures": {
+        "policy_problem": {"value": "regional shortages and unemployment coexist while only a small share of workers move across provincial borders", "unit": "reported labor-market problem", "value_type": "reported_mechanism"},
+        "recognition_route": {"value": "occupational authorization recognition and removal of federal barriers are framed as conditions for mobility", "unit": "reported policy route", "value_type": "policy_proposition"},
+        "household_cost": {"value": "relocation decisions interact with housing, family, care, transport, social ties and employment security", "unit": "program-level analytic extension", "value_type": "open_mechanism"},
+        "institutional_route": {"value": "mobility policy must combine legal recognition, usable information, housing and care capacity, and worker voice rather than treating movement as frictionless adjustment", "unit": "analytic interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Policy interpretation grounded in the article's institutional-barrier review and experimental measurement design.",
+      "uncertainty": "The article does not estimate the causal effect of Bill C-5, occupational-recognition reforms, housing policy or relocation supports on actual worker movement or household welfare.",
+      "subgroup": "Workers in occupations with regional shortages or unemployment, including those facing licensing and certificate-recognition barriers.",
+      "counterinterpretation": "Removing formal barriers may increase movement without improving wages, care continuity, local capacity or worker bargaining power; mobility can redistribute rather than solve regional inequality.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00001-eng.htm",
+      "retrieval_hash": "sha256:03275e4cde681e61069c77ab608850db92223f358b69051638e92de6c7ec39b2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923c-eng.htm", "claim": "Statistics Canada September 2026 Economic and Social Reports release context."},
+    {"source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=14100452", "claim": "Official Common Output Database Repository table referenced for predicted mobility rates."},
+    {"source_url": "https://doi.org/10.25318/36280001202600900001-eng", "claim": "DOI record for the article."}
+  ],
+  "boundary": "This record adds a mobility-capacity and measurement-infrastructure route from regional labor imbalance through occupational recognition, relocation barriers, household costs, predicted mobility and institutional response. The rates are partly experimental model outputs based on a reference-period stability assumption; this is not a causal policy evaluation, realized migration census, household-welfare estimate, or proof that mobility resolves regional inequality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada article reviewed for annual mobility context, institutional barriers, linked Census/T1 reference data, Labour Force Survey update method, 2022–2026 estimate horizon, validation counts, assumptions and policy boundaries.",
+    "source_url_sha256": "sha256:03275e4cde681e61069c77ab608850db92223f358b69051638e92de6c7ec39b2",
+    "checked": "2026-09-28"
+  }
+}

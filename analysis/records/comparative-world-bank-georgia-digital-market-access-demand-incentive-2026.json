@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-georgia-digital-market-access-demand-incentive-2026",
+  "title": "Demand signals can unlock small-firm digital market participation more reliably than training alone",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11460, Barriers to Market Access: Experimental Tests of Supply- and Demand-Side Strategies",
+  "geography": "Small enterprises in Georgia participating in randomized training and demand-incentive experiments, with surveys conducted between 2018 and 2025",
+  "observations": [
+    {
+      "period": "2018-2025; randomized supply-side training experiment",
+      "denominator": {"value": 1, "unit": "Georgia small-enterprise digital-market participation experiment", "value_type": "reported_randomized_experiment"},
+      "measures": {
+        "training_effect": {"value": "supply-side training did not increase digital participation", "unit": "reported experimental effect", "value_type": "reported_null_effect"},
+        "initial_interest": {"value": "the null participation effect occurred despite high initial interest in the training intervention", "unit": "reported experiment condition", "value_type": "reported_experiment_condition"},
+        "barrier_interpretation": {"value": "the result is consistent with barriers beyond simple awareness or skill provision", "unit": "bounded mechanism interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "Randomized experiment comparing a supply-side training intervention with control firms; data and code are documented in the World Bank reproducibility package.",
+      "uncertainty": "The result is specific to the training design, participating Georgian enterprises, digital-market context, and study period; it does not show that all training is ineffective or that skills never matter.",
+      "subgroup": "Small firms with different baseline digital readiness, organizational capacity, confidence, products, networks, and ability to absorb a new sales channel.",
+      "counterinterpretation": "Training quality, timing, content, or implementation may have been insufficient; a different curriculum or paired demand might produce different results.",
+      "source_url": "https://documents.worldbank.org/curated/en/099454009212638019/pdf/IDU-d149bbd7-26c0-46cd-abba-656da752a172.pdf",
+      "retrieval_hash": "sha256:a823e14f60264eccb71aaa97eb85e90d9019ee5977ba8b795407bfb9a41b343d",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2025; randomized demand-side purchase-order experiment",
+      "denominator": {"value": 1, "unit": "Georgia small-enterprise digital-market demand experiment", "value_type": "reported_randomized_experiment"},
+      "measures": {
+        "market_access_effect": {"value": 26, "unit": "percentage-point increase in market access from a conditional purchase order", "value_type": "reported_causal_effect"},
+        "larger_payment": {"value": "a payment six times larger produced only a modest additional increase", "unit": "reported treatment-intensity comparison", "value_type": "reported_heterogeneous_effect"},
+        "complementarity": {"value": "the study found no complementarity between training and demand incentives", "unit": "reported interaction result", "value_type": "reported_null_interaction"},
+        "mechanism": {"value": "a credible buyer and first transaction can lower behavioral and organizational barriers to digital-market entry", "unit": "bounded mechanism interpretation", "value_type": "bounded_mechanism"}
+      },
+      "method": "Randomized demand-side experiment using conditional purchase orders and payment-intensity variation among Georgian small enterprises.",
+      "uncertainty": "The effect concerns the study's market-access measure and treatment design; it does not establish durable revenue, profitability, employment, productivity, or consumer-welfare effects.",
+      "subgroup": "Small firms with different readiness for e-commerce, products, administrative capacity, and ability to fulfill a conditional order; buyers and intermediaries also shape the treatment environment.",
+      "counterinterpretation": "A purchase order may operate as temporary subsidy, validation, or working-capital relief rather than a pure demand signal; larger payments may have weak marginal effects because the main constraint is not cash alone.",
+      "source_url": "https://documents.worldbank.org/curated/en/099454009212638019/pdf/IDU-d149bbd7-26c0-46cd-abba-656da752a172.pdf",
+      "retrieval_hash": "sha256:a823e14f60264eccb71aaa97eb85e90d9019ee5977ba8b795407bfb9a41b343d",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2025; longer-run follow-up",
+      "denominator": {"value": 1, "unit": "Georgia small-enterprise follow-up comparison after demand shock", "value_type": "reported_longitudinal_followup"},
+      "measures": {
+        "persistence": {"value": "the treatment effects largely dissipated as control firms caught up", "unit": "reported follow-up pattern", "value_type": "reported_persistence_pattern"},
+        "readiness_selection": {"value": "firms with higher baseline e-commerce readiness remained more likely to engage in digital markets several years later", "unit": "reported heterogeneous follow-up pattern", "value_type": "reported_heterogeneous_followup"},
+        "acceleration": {"value": "there is suggestive evidence that the demand shock accelerated adoption among higher-readiness firms", "unit": "reported suggestive mechanism", "value_type": "reported_suggestive_effect"},
+        "growth_barrier": {"value": "remaining barriers appear more behavioral and organizational than simple skill or capital deficits", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Follow-up surveys and longer-run comparison of firms exposed to the randomized interventions, with the paper's reproducibility package documenting the analysis workflow.",
+      "uncertainty": "The longer-run pattern is not a universal adoption forecast; persistence varies with readiness, market conditions, treatment intensity, firm survival, and later access to buyers or platforms.",
+      "subgroup": "Digitally ready and less-ready small firms, firms that survive and remain observable, platform participants, buyers, and local business ecosystems.",
+      "counterinterpretation": "Control firms catching up may reflect diffusion or broader market change rather than a failure of demand incentives; persistent readiness differences may partly reflect unmeasured firm quality.",
+      "source_url": "https://documents.worldbank.org/curated/en/099454009212638019/pdf/IDU-d149bbd7-26c0-46cd-abba-656da752a172.pdf",
+      "retrieval_hash": "sha256:a823e14f60264eccb71aaa97eb85e90d9019ee5977ba8b795407bfb9a41b343d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/curated/en/099454009212638019", "claim": "Official World Bank record for Policy Research Working Paper 11460."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/582", "claim": "World Bank reproducibility package, abstract, data description, and verified reproduction metadata."},
+    {"source_url": "https://doi.org/10.1596/1813-9450-11460", "claim": "Official DOI for the World Bank working paper."}
+  ],
+  "boundary": "This record adds a causal demand-signal-to-digital-market-participation route for small enterprises, with null training, conditional purchase-order, payment-intensity, longer-run catch-up, and baseline-readiness evidence. It does not establish durable profits, employment, productivity, firm survival, broad consumer welfare, universal training failure, or generalization beyond the Georgian experiments.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank working-paper PDF and reproducibility package were reviewed for the randomized training and demand experiments, 26-percentage-point purchase-order effect, payment-intensity comparison, no training-demand complementarity, follow-up persistence, baseline readiness, and behavioral/organizational barrier interpretation.",
+    "source_url_sha256": "sha256:a823e14f60264eccb71aaa97eb85e90d9019ee5977ba8b795407bfb9a41b343d",
+    "checked": "2026-09-29"
+  }
+}

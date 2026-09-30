@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-product-ai-trust-commerce-2026-ai-recommendation-verification-agency",
+  "title": "AI is entering product discovery without replacing consumer judgment: shoppers use recommendations as a curation layer but preserve verification and spending control",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Product.ai Research, The 2026 Trust in AI Commerce Report",
+  "geography": "United States online shoppers aged 18 and over who reported recent online shopping",
+  "observations": [
+    {
+      "period": "April 27, 2026; AI use and verification before purchase",
+      "denominator": {"value": 1463, "unit": "complete U.S. online-shopper survey responses", "value_type": "reported_survey_sample"},
+      "measures": {
+        "recent_ai_research": {"value": 43, "unit": "percent using an AI assistant for product research in the previous 90 days", "value_type": "reported_survey_share"},
+        "ai_user_verification": {"value": 86, "unit": "percent of AI product-research users who always or sometimes verified the recommendation through another source before buying", "value_type": "reported_subsample_share"},
+        "always_verify": {"value": 45, "unit": "percent of AI product-research users always verifying the recommendation", "value_type": "reported_subsample_share"},
+        "no_verification": {"value": 14, "unit": "percent of AI product-research users trusting the recommendation without another-source verification", "value_type": "reported_subsample_share"},
+        "verification_route": {"value": "AI is used as an accelerated discovery or curation layer, while purchase judgment remains distributed across reviews, retailers, brands, friends, and other sources", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional Product.ai survey fielded April 27, 2026 through an Alchemer general-population panel; 1,463 complete responses from U.S. adults who shop online, with AI-verification questions asked only of 623 respondents who used AI for product research in the prior 90 days.",
+      "uncertainty": "The sample was not weighted to U.S. Census distributions, the design is cross-sectional, verification is self-reported, and the sponsor's commercial position may shape question framing; the result generalizes to surveyed online shoppers rather than all U.S. consumers.",
+      "subgroup": "U.S. online shoppers, with AI-user behavior analyzed separately from the full online-shopper sample and age, income, gender, and ethnicity patterns reported.",
+      "counterinterpretation": "Verification may reflect low-stakes browsing or habit rather than durable skepticism; repeated use could reduce verification over time, and outside sources can also be inaccurate or commercially influenced.",
+      "source_url": "https://product.ai/research/trust-in-ai-commerce-report/",
+      "retrieval_hash": "sha256:212719ecdbc3d22d15c53ef3038fd13fc33b5074a9b6fa4d053c766bba64c36f",
+      "status": "reported"
+    },
+    {
+      "period": "April 27, 2026; spending autonomy threshold for AI recommendations",
+      "denominator": {"value": 1463, "unit": "complete U.S. online-shopper survey responses", "value_type": "reported_survey_sample"},
+      "measures": {
+        "no_trust_above_25": {"value": 42, "unit": "percent saying they would not trust an AI recommendation for any purchase over $25 without checking another source", "value_type": "reported_survey_share"},
+        "autonomy_cap_50": {"value": 61, "unit": "percent whose maximum unverified trust threshold was $50 or less", "value_type": "reported_survey_share"},
+        "high_autonomy": {"value": 5, "unit": "percent willing to trust AI for a purchase over $500 without the described additional check", "value_type": "reported_survey_share"},
+        "delegation_boundary": {"value": "consumer willingness to use AI for research is materially broader than willingness to delegate high-value purchase judgment", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey item measuring the dollar value above which respondents would require an additional source check before trusting an AI product recommendation.",
+      "uncertainty": "The threshold is hypothetical and does not measure actual spending, financial capacity, purchase reversals, or agentic checkout behavior; dollar thresholds may be interpreted differently across categories and incomes.",
+      "subgroup": "U.S. online shoppers across income, age, gender, and product-category contexts.",
+      "counterinterpretation": "Consumers may delegate routine or low-cost purchases while retaining control over expensive, identity-laden, or risky purchases; a low threshold can coexist with meaningful AI adoption.",
+      "source_url": "https://product.ai/research/trust-in-ai-commerce-report/",
+      "retrieval_hash": "sha256:212719ecdbc3d22d15c53ef3038fd13fc33b5074a9b6fa4d053c766bba64c36f",
+      "status": "reported"
+    },
+    {
+      "period": "April 27, 2026; information-source hierarchy in online purchase research",
+      "denominator": {"value": 1463, "unit": "complete U.S. online-shopper survey responses", "value_type": "reported_survey_sample"},
+      "measures": {
+        "customer_reviews_use": {"value": 50, "unit": "percent consulting online customer reviews for the most recent online purchase of $50 or more", "value_type": "reported_survey_share"},
+        "retailer_site_use": {"value": 31, "unit": "percent consulting a brand or retailer website", "value_type": "reported_survey_share"},
+        "friends_family_use": {"value": 26, "unit": "percent consulting friends or family", "value_type": "reported_survey_share"},
+        "ai_purchase_research": {"value": 20, "unit": "percent using an AI assistant for the most recent online purchase of $50 or more", "value_type": "reported_survey_share"},
+        "ai_trust_rank": {"value": 4.51, "unit": "mean trust score out of 10 for AI tools among seven product-research sources, ranking sixth", "value_type": "reported_index"},
+        "source_layer": {"value": "AI discovery is entering a pre-purchase source ecology rather than displacing reviews, brands, retailers, and personal networks", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Multiple-select product-research and source-trust questions about respondents' most recent online purchase of $50 or more; the report publishes a CSV and codebook for reproduction.",
+      "uncertainty": "Source use and trust scores are self-reported and do not reveal which source caused a purchase, how sources were sequenced, or whether AI recommendations changed price, brand choice, or retailer power.",
+      "subgroup": "U.S. online shoppers making a recent $50-plus online purchase, across 18 product categories.",
+      "counterinterpretation": "AI may become more influential as interfaces improve; low current trust can coexist with high strategic importance because discovery position affects which options consumers see.",
+      "source_url": "https://product.ai/research/trust-in-ai-commerce-report/assets/Product.ai-Trust-in-AI-Commerce-Report.csv",
+      "retrieval_hash": "sha256:54b3504aef9f694abbfe84badd56ca372dbe5b6df9570660086814e505bb49dd",
+      "status": "reported"
+    },
+    {
+      "period": "April 27, 2026; age gradient in AI product-research adoption",
+      "denominator": {"value": 1463, "unit": "complete U.S. online-shopper survey responses", "value_type": "reported_survey_sample"},
+      "measures": {
+        "age_18_24": {"value": 56, "unit": "percent of 18-24-year-old online shoppers using AI for product research in the previous 90 days", "value_type": "reported_subgroup_share"},
+        "age_25_34": {"value": 58, "unit": "percent of 25-34-year-old online shoppers using AI for product research", "value_type": "reported_subgroup_share"},
+        "age_35_44": {"value": 58, "unit": "percent of 35-44-year-old online shoppers using AI for product research", "value_type": "reported_subgroup_share"},
+        "age_45_54": {"value": 44, "unit": "percent of 45-54-year-old online shoppers using AI for product research", "value_type": "reported_subgroup_share"},
+        "age_55_64": {"value": 30, "unit": "percent of 55-64-year-old online shoppers using AI for product research", "value_type": "reported_subgroup_share"},
+        "age_65_plus": {"value": 21, "unit": "percent of 65-plus online shoppers using AI for product research", "value_type": "reported_subgroup_share"},
+        "access_agency_gradient": {"value": "AI-mediated commerce is entering the shopping journey unevenly by age, creating different levels of exposure to recommendation systems and verification demands", "unit": "reported subgroup mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional age-group comparison within the Product.ai online-shopper sample; sample quotas balanced age, gender, and region but the achieved sample was not Census-weighted.",
+      "uncertainty": "Age differences may reflect cohort, device, income, product, digital-skill, or survey-selection differences; they do not establish unequal consumer harm, capability, or future adoption trajectories.",
+      "subgroup": "U.S. online shoppers aged 18-24, 25-34, 35-44, 45-54, 55-64, and 65-plus.",
+      "counterinterpretation": "Lower current adoption among older shoppers may reflect lower need or preference rather than exclusion; adoption can change as interfaces and assisted-shopping services mature.",
+      "source_url": "https://product.ai/research/trust-in-ai-commerce-report/",
+      "retrieval_hash": "sha256:212719ecdbc3d22d15c53ef3038fd13fc33b5074a9b6fa4d053c766bba64c36f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://product.ai/research/trust-in-ai-commerce-report/", "claim": "Official Product.ai report page with findings, methodology, limitations, downloadable report, CSV, and codebook."},
+    {"source_url": "https://product.ai/research/trust-in-ai-commerce-report/assets/Product.ai-Trust-in-AI-Commerce-Report.pdf", "claim": "Official full report PDF."},
+    {"source_url": "https://product.ai/research/trust-in-ai-commerce-report/assets/Product.ai-Trust-in-AI-Commerce-Report.csv", "claim": "Official public CSV survey dataset released under CC BY 4.0."},
+    {"source_url": "https://product.ai/research/trust-in-ai-commerce-report/codebook/", "claim": "Official codebook and column dictionary."}
+  ],
+  "boundary": "This record adds a platform-to-consumer-agency route from AI product discovery through verification, trust-source ecology, spending autonomy, age-differentiated exposure, retailer visibility, and purchase judgment. It uses a transparent but sponsor-produced cross-sectional online-shopper survey with public data artifacts, not all-consumer prevalence, observed transactions, causal recommendation effects, or proof that verification persists over time.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Product.ai report page, PDF, CSV, and codebook reviewed for sample frame, AI-use and verification denominators, autonomy threshold, source hierarchy, age gradient, public-data release, and methodological limitations.",
+    "report_pdf_sha256": "sha256:212719ecdbc3d22d15c53ef3038fd13fc33b5074a9b6fa4d053c766bba64c36f",
+    "dataset_csv_sha256": "sha256:54b3504aef9f694abbfe84badd56ca372dbe5b6df9570660086814e505bb49dd",
+    "checked": "2026-09-28"
+  }
+}

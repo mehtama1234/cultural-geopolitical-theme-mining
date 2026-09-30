@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-urban-agrifood-systems-framework-2026-city-food-governance",
+  "title": "Cities are becoming governing sites for food access, health, livelihoods, and environmental transition across the rural–urban continuum",
+  "theme_ids": ["cost", "time", "voice", "work", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "care_health_reproduction"
+  ],
+  "source_unit": "FAO, Framework for Transforming Urban Agrifood Systems: Local action, national impact, global goals, 2026",
+  "geography": "Urban and peri-urban agrifood systems, rural–urban continuums, cities, local governments, and food-system actors",
+  "observations": [
+    {
+      "period": "June-September 2026; framework scope and urban agrifood systems",
+      "denominator": {"value": 1, "unit": "FAO urban agrifood systems framework", "value_type": "policy_framework"},
+      "measures": {
+        "system_scope": {"value": "food is grown, harvested, processed, packaged, transported, distributed, traded, bought, prepared, eaten, and disposed of across connected systems", "unit": "reported systems definition", "value_type": "reported_system_frame"},
+        "urban_role": {"value": "cities and urban regions are treated as active sites of agrifood transformation rather than passive consumption endpoints", "unit": "reported governance framing", "value_type": "reported_mechanism"},
+        "continuum_route": {"value": "urban, peri-urban, and rural decisions interact through food flows, livelihoods, land, logistics, markets, and public policy", "unit": "reported cross-scale mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "FAO policy framework providing a common reference point for urban agrifood systems and a systems approach across local, national, and global scales.",
+      "uncertainty": "This is a normative and operational framework, not a city-level comparative dataset, causal evaluation, or estimate of food-access outcomes.",
+      "subgroup": "Urban and peri-urban households, farmers, food workers, traders, processors, retailers, local governments, planners, and communities with unequal access to healthy food.",
+      "counterinterpretation": "Urban systems can coordinate access and innovation, but cities cannot solve food insecurity alone when land, trade, climate, finance, and national policy remain binding constraints.",
+      "source_url": "https://www.fao.org/food-systems/en",
+      "retrieval_hash": "sha256:1ff4086bbe63d134dbf4b3c84448104f47335a03d5c189b6d79ba8e6c3ed488f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; framework goals and multiple benefits",
+      "denominator": {"value": 3, "unit": "shared goals identified in the FAO urban agrifood systems framework summary", "value_type": "reported_framework_goal_count"},
+      "measures": {
+        "shared_goals": {"value": "the framework promotes three shared goals and a systems approach intended to generate multiple benefits", "unit": "reported policy structure", "value_type": "reported_framework"},
+        "benefit_set": {"value": "food security and nutrition, environmental sustainability, inclusive development, livelihoods, and public health are treated as connected outcomes", "unit": "reported cross-domain goal set", "value_type": "reported_mechanism_set"},
+        "tradeoff_route": {"value": "food affordability, farmer income, worker conditions, emissions, land use, transport, and biodiversity can move together or conflict", "unit": "analytic tradeoff set", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "FAO framework summary describing shared goals, multiple benefits, and systems-oriented urban agrifood transformation.",
+      "uncertainty": "Shared goals do not specify how benefits are measured, who bears transition costs, or which policy combinations work in different cities.",
+      "subgroup": "Consumers, food producers and workers, vulnerable households, environmental systems, local authorities, and private and civil-society partners.",
+      "counterinterpretation": "A systems approach can reveal interdependence, but broad goal sets may dilute accountability unless cities assign budgets, responsibilities, timelines, and distributional tests.",
+      "source_url": "https://doi.org/10.4060/cd9925en",
+      "retrieval_hash": "sha256:1ff4086bbe63d134dbf4b3c84448104f47335a03d5c189b6d79ba8e6c3ed488f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; governance, partnerships, investment, and implementation",
+      "denominator": {"value": 1, "unit": "FAO urban agrifood systems implementation framework", "value_type": "local_governance_frame"},
+      "measures": {
+        "implementation_links": {"value": "technical expertise, governance support, partnerships, investment, and implementation need to be connected across divisions, regions, and country offices", "unit": "reported implementation architecture", "value_type": "reported_policy_set"},
+        "local_action": {"value": "local action is positioned as a route to national impact and global goals", "unit": "reported scale pathway", "value_type": "reported_mechanism"},
+        "participation_route": {"value": "multi-actor food governance requires cities to coordinate public agencies, producers, businesses, communities, and civil society", "unit": "analytic governance route", "value_type": "analytic_mechanism_set"},
+        "open_test": {"value": "connect city plans to food prices, healthy-diet access, transport, land, waste, farmer income, worker conditions, and later health or climate outcomes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "FAO operational framing of urban agrifood transformation across technical, governance, partnership, investment, and implementation capacities.",
+      "uncertainty": "Coordination language does not establish institutional authority, funding, participation quality, or delivery of any specific city plan.",
+      "subgroup": "Municipal governments, national agencies, producers, food businesses, investors, community organizations, and residents.",
+      "counterinterpretation": "Partnerships can improve coordination and learning, but they can also privilege well-resourced actors unless representation, transparency, and accountability are explicit.",
+      "source_url": "https://www.fao.org/food-systems/en",
+      "retrieval_hash": "sha256:1ff4086bbe63d134dbf4b3c84448104f47335a03d5c189b6d79ba8e6c3ed488f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; urban food systems and household lived capacity",
+      "denominator": {"value": 1, "unit": "FAO urban agrifood systems cross-domain interpretation", "value_type": "household_system_frame"},
+      "measures": {
+        "consumer_route": {"value": "food access is shaped by physical proximity, price, time, transport, retail, preparation, cultural fit, and environmental conditions", "unit": "analytic household route", "value_type": "analytic_mechanism_set"},
+        "livelihood_route": {"value": "urban agrifood systems connect household consumption to producer, vendor, logistics, processing, and care work", "unit": "analytic labor route", "value_type": "analytic_mechanism_set"},
+        "boundary": {"value": "the framework does not measure individual diets, household budgets, employment, health, or city-level implementation outcomes", "unit": "interpretation boundary", "value_type": "boundary"},
+        "next_step": {"value": "test whether integrated city action changes usable access and resilience rather than only producing plans or coordination structures", "unit": "open analytic question", "value_type": "research_queue"}
+      },
+      "method": "Cross-source interpretation of FAO’s urban agrifood systems definition, governance framing, and multiple-benefit approach.",
+      "uncertainty": "These are analytic mechanisms for linking the framework to household and labor evidence, not findings that the framework has caused any observed change.",
+      "subgroup": "Households, food workers, caregivers, small producers, urban residents facing food-access barriers, and local food-system institutions.",
+      "counterinterpretation": "Local food initiatives may improve resilience and agency for some groups while remaining too small, costly, or unevenly distributed to shift citywide access.",
+      "source_url": "https://doi.org/10.4060/cd9925en",
+      "retrieval_hash": "sha256:1ff4086bbe63d134dbf4b3c84448104f47335a03d5c189b6d79ba8e6c3ed488f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-agricultural-commodity-markets", "claim": "FAO SOCO 2026 provides complementary trade-shock and food-market resilience context."},
+    {"source_url": "https://www.fao.org/global-soil-partnership/Scientific-and-technical-support/itps/status-of-the-worlds-soil-resources/en", "claim": "FAO soil assessment provides complementary land, biodiversity, and agrifood production context."}
+  ],
+  "boundary": "This record adds an urban-to-rural agrifood governance route linking food access, health, livelihoods, environmental sustainability, markets, investment, and multi-level implementation. It is a policy framework, not a city-level outcome study, household diet dataset, food-price estimate, or proof of equitable transformation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FAO’s official Agrifood Systems page and the linked Framework for Transforming Urban Agrifood Systems publication reference were reviewed for system scope, three shared goals, rural–urban continuum, governance, partnerships, investment, and implementation framing.",
+    "source_url_sha256": "sha256:1ff4086bbe63d134dbf4b3c84448104f47335a03d5c189b6d79ba8e6c3ed488f",
+    "checked": "2026-09-26"
+  }
+}

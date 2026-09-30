@@ -1,0 +1,186 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-spain-ministry-culture-cultural-habits-2024-2025-digital-active-gender",
+  "title": "Spain's cultural life combines high digital reach, substantial place-based participation, and gendered active practice",
+  "theme_ids": [
+    "time",
+    "cost",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Spanish Ministry of Culture Survey of Cultural Habits and Practices 2024-2025, provisional 2024 advance results",
+  "geography": "Spain; people aged 15 years and above",
+  "observations": [
+    {
+      "period": "2024 provisional advance; monthly and annual cultural participation",
+      "denominator": {
+        "value": 6500,
+        "unit": "approximately 6,500 sample units in the first provisional 2024 tranche; the complete biennial sample was planned at approximately 16,000 second-stage units",
+        "value_type": "reported_provisional_sample"
+      },
+      "measures": {
+        "audiovisual_content_month": {
+          "value": 80.4,
+          "unit": "percent viewing audiovisual content in the previous month",
+          "value_type": "official_survey_share"
+        },
+        "music_month": {
+          "value": 77.3,
+          "unit": "percent listening to music in the previous month",
+          "value_type": "official_survey_share"
+        },
+        "book_annual": {
+          "value": 66.3,
+          "unit": "percent reading at least one book in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "leisure_book_reading_annual": {
+          "value": 60.2,
+          "unit": "percent reading a book for nonprofessional, nonstudy reasons in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "digital_book_annual": {
+          "value": 31.0,
+          "unit": "percent reading at least one book in digital format in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Digital and audiovisual cultural reach is routine, while reading still has a substantial leisure base and a distinct digital-format minority",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official Spanish Ministry of Culture biennial sample survey; provisional advance results from the first 2024 sample tranche, with monthly and annual reference periods separated.",
+      "uncertainty": "The advance is provisional and based on the first part of the biennial sample; the source warns that comparison with 2021-2022 is affected by COVID, and the measures do not establish platform, price, quality, or causal substitution effects.",
+      "subgroup": "People aged 15 years and above in Spain; the advance includes principal sex breakdowns but not the full final disaggregation.",
+      "counterinterpretation": "High monthly audiovisual and music use may represent passive exposure or multiple activities rather than deep cultural engagement; digital reading can supplement rather than replace paper reading.",
+      "source_url": "https://servicios.mpr.es/VisorPublicaciones/visordocumentosicopo.aspx?IDPUBLICACION=033219024&NIPO=190242078&SUBNIPO=0001",
+      "retrieval_hash": "sha256:148581460300ea622e923da82b7073152992ef3c955991e965ecd672e9068244",
+      "status": "reported"
+    },
+    {
+      "period": "2024 provisional advance; annual place-based and live participation",
+      "denominator": {
+        "value": 6500,
+        "unit": "approximately 6,500 sample units in the first provisional 2024 tranche",
+        "value_type": "reported_provisional_sample"
+      },
+      "measures": {
+        "monument_or_site": {
+          "value": 54.3,
+          "unit": "percent visiting a monument or archaeological site in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "museum_exhibition_gallery": {
+          "value": 49.2,
+          "unit": "percent visiting a museum, exhibition, or art gallery in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "live_cultural_event": {
+          "value": 48.3,
+          "unit": "percent attending a live cultural performance in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "cinema": {
+          "value": 48.8,
+          "unit": "percent attending cinema in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "library": {
+          "value": 29.2,
+          "unit": "percent visiting or accessing a library, including virtual access, in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Place-based cultural participation remains broad alongside digital reach; heritage, museums, live events, and cinema form a dense but nonuniversal cultural gateway",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official survey estimates for annual visits or attendance, with venue categories kept separate and nonexclusive.",
+      "uncertainty": "The release does not establish frequency, ticket price, travel burden, venue supply, accessibility, or whether virtual library access substitutes for in-person use.",
+      "subgroup": "People aged 15 years and above in Spain; full regional, age, income, and education gradients are not represented in this provisional record.",
+      "counterinterpretation": "Annual attendance can be concentrated in one-off visits and may overstate regular cultural practice; different venues have different social, educational, and tourism functions.",
+      "source_url": "https://servicios.mpr.es/VisorPublicaciones/visordocumentosicopo.aspx?IDPUBLICACION=033219024&NIPO=190242078&SUBNIPO=0001",
+      "retrieval_hash": "sha256:148581460300ea622e923da82b7073152992ef3c955991e965ecd672e9068244",
+      "status": "reported"
+    },
+    {
+      "period": "2024 provisional advance; active practice and sex differences",
+      "denominator": {
+        "value": 6500,
+        "unit": "approximately 6,500 sample units in the first provisional 2024 tranche",
+        "value_type": "reported_provisional_sample"
+      },
+      "measures": {
+        "photography": {
+          "value": 21.6,
+          "unit": "percent doing photography in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "painting_or_drawing": {
+          "value": 15.9,
+          "unit": "percent painting or drawing in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "video_creation": {
+          "value": 11.3,
+          "unit": "percent making videos in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "women_book_reading": {
+          "value": 69.5,
+          "unit": "percent of women reading at least one book in the previous year",
+          "value_type": "official_subgroup_share"
+        },
+        "men_book_reading": {
+          "value": 63.0,
+          "unit": "percent of men reading at least one book in the previous year",
+          "value_type": "official_subgroup_share"
+        },
+        "men_video_games_month": {
+          "value": 27.3,
+          "unit": "percent of men usually playing videogames at least monthly",
+          "value_type": "official_subgroup_share"
+        },
+        "women_video_games_month": {
+          "value": 11.7,
+          "unit": "percent of women usually playing videogames at least monthly",
+          "value_type": "official_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Cultural participation includes active creation, and gender differences vary by practice: women report more reading while men report more monthly videogame use",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official provisional survey estimates with sex-specific descriptive comparisons.",
+      "uncertainty": "The sex differences are descriptive, not causal; the release does not model age, education, work, household time, access, or platform exposure jointly.",
+      "subgroup": "Women and men aged 15 years and above in the provisional 2024 sample; the published categories may not capture all gender identities.",
+      "counterinterpretation": "Differences may reflect age composition, genre and device preferences, reporting norms, or unequal leisure time rather than gendered cultural preference alone.",
+      "source_url": "https://servicios.mpr.es/VisorPublicaciones/visordocumentosicopo.aspx?IDPUBLICACION=033219024&NIPO=190242078&SUBNIPO=0001",
+      "retrieval_hash": "sha256:148581460300ea622e923da82b7073152992ef3c955991e965ecd672e9068244",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://cpage.mpr.gob.es/publicacion/encuesta-de-habitos-y-practicas-culturales-en-espana-estadistica-avance-de-resultados-2025-190242078-0001/",
+      "claim": "Spanish government catalog record identifies the Ministry of Culture publication, biennial frequency, year, and official publication identity.",
+      "status": "official-catalog"
+    },
+    {
+      "source_url": "https://www.cultura.gob.es/en/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/encuesta-de-habitos/resultados-habitos/2024-2025.html",
+      "claim": "Ministry culture statistics landing page provides the broader 2024-2025 Cultural Habits and Practices results route.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds provisional but official Spanish evidence spanning digital culture, place-based attendance, active creation, reading, and sex differences. It does not establish a final 2024-2025 estimate, causal post-COVID recovery, price elasticity, cultural quality, or durable identity effects; the advance is based on the first portion of a biennial sample.",
+  "retrieval_hash": "sha256:148581460300ea622e923da82b7073152992ef3c955991e965ecd672e9068244"
+}

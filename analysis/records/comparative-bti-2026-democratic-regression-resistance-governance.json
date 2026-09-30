@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-bti-2026-democratic-regression-resistance-governance",
+  "title": "Democratic and market institutions are eroding across many countries while civic resistance and selective reform remain active counterforces",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Bertelsmann Stiftung, Bertelsmann Transformation Index 2026 Global Trends: Repression meets resistance",
+  "geography": "137 developing and transition countries assessed across political transformation, economic transformation, and governance",
+  "observations": [
+    {
+      "period": "2026; global political-regime balance and transformation trajectory",
+      "denominator": {"value": 137, "unit": "countries assessed by BTI 2026", "value_type": "published_expert_index_coverage"},
+      "measures": {
+        "regime_balance": {"value": "56% of countries assessed are now ruled autocratically, reversing the BTI 2006 balance in which democracies were 55%", "unit": "countries by reported regime classification", "value_type": "reported_index_finding"},
+        "hard_line": {"value": "hard-line autocracies account for 38% of all countries assessed, and two-thirds of autocracies are highly repressive dictatorships or failing states", "unit": "countries by reported regime classification", "value_type": "reported_index_finding"},
+        "long_run": {"value": "two-thirds of countries surveyed since 2006 score lower in political transformation than 20 years ago", "unit": "countries with long-run BTI comparison", "value_type": "reported_index_finding"},
+        "boundary": {"value": "BTI scores and classifications summarize expert assessments of transformation conditions; they are not direct measures of every resident's political experience or a causal model of regime change", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Bertelsmann Transformation Index comparative expert assessment of political transformation, economic transformation, and governance, with review period from February 1, 2023 to January 31, 2025.",
+      "uncertainty": "Expert-coded indices involve judgment, country comparability limits, review-period lag, and possible visibility differences across regimes.",
+      "subgroup": "Citizens, opposition groups, journalists, civil-society organizations, businesses, public institutions, and populations under democratic or authoritarian rule.",
+      "counterinterpretation": "A regime classification can hide important variation within countries, and formal institutional decline can coexist with local reform, social autonomy, or strong civic organization.",
+      "source_url": "https://bti-project.org/en/reports/global-report",
+      "retrieval_hash": "sha256:305c17b9e21977e1ed0d74cdc3afcdb88b06ccbf633d1695cf2136199940baa2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; elections, participation rights, and rule of law",
+      "denominator": {"value": 137, "unit": "countries assessed by BTI 2026 political-transformation indicators", "value_type": "published_expert_index_coverage"},
+      "measures": {
+        "elections": {"value": "in 80 countries, national elections were held in 2023 or 2024, but 54% of all countries assessed had elections that failed minimum democratic standards", "unit": "countries and share by election-quality assessment", "value_type": "reported_index_finding"},
+        "participation": {"value": "countries denying fundamental political participation rights rose from about one-quarter in 2016 to around 40% in BTI 2026", "unit": "countries with participation-rights restriction", "value_type": "reported_index_finding"},
+        "rule_of_law": {"value": "the decline is tied to weaker separation of powers, judicial independence, protection of civil rights, and prosecution of abuse of office", "unit": "reported institutional mechanism set", "value_type": "reported_mechanism"},
+        "analytic_signal": {"value": "elections can persist as formal events while voice, contestability, oversight, and legal recourse lose practical force", "unit": "analytic political-institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "BTI political-transformation assessment of election quality, political participation, expression, association, assembly, rule of law, and civil rights.",
+      "uncertainty": "Election-quality thresholds and expert assessments do not fully capture informal power, local participation, or political agency outside formal institutions.",
+      "subgroup": "Voters, opposition candidates, journalists, civil society, courts, minority groups, and people affected by restrictions on assembly, association, expression, or press freedom.",
+      "counterinterpretation": "Elections that fail minimum standards can still create openings for mobilization, elite turnover, institutional resistance, or later reform.",
+      "source_url": "https://bti-project.org/en/reports/global-report",
+      "retrieval_hash": "sha256:305c17b9e21977e1ed0d74cdc3afcdb88b06ccbf633d1695cf2136199940baa2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; governance capacity, economic transformation, and inequality",
+      "denominator": {"value": 137, "unit": "countries assessed by BTI 2026 economic-transformation and governance indicators", "value_type": "published_expert_index_coverage"},
+      "measures": {
+        "recovery": {"value": "the report finds no comprehensive economic recovery after the pandemic and inflation surge", "unit": "reported global transformation finding", "value_type": "reported_index_finding"},
+        "patronage": {"value": "in autocracies, state-economy entanglement in patronage networks undermines fair competition, property rights, and social equality", "unit": "reported political-economy mechanism", "value_type": "reported_mechanism"},
+        "governance": {"value": "concentration of power is associated with efficiency deficits, weakened consensus orientation, and less capable policy responses to structural and environmental pressures", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "analytic_signal": {"value": "political concentration can redistribute economic opportunity and institutional capacity at the same time, linking regime form to market access and public problem-solving", "unit": "analytic political-economy mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "BTI comparative assessment of market economy principles, social justice, governance capacity, consensus building, and management of transformation.",
+      "uncertainty": "The index reports cross-country institutional patterns but does not identify the causal contribution of regime form to economic performance or inequality in each case.",
+      "subgroup": "Workers, firms, entrepreneurs, politically connected groups, excluded populations, public agencies, and communities facing environmental or economic pressure.",
+      "counterinterpretation": "Some concentrated states can deliver selected policies quickly, while some democracies can experience gridlock, capture, or unequal competition.",
+      "source_url": "https://bti-project.org/en/reports/global-report",
+      "retrieval_hash": "sha256:305c17b9e21977e1ed0d74cdc3afcdb88b06ccbf633d1695cf2136199940baa2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; repression, resistance, and reform openings",
+      "denominator": {"value": 137, "unit": "countries assessed by BTI 2026 political and governance indicators", "value_type": "published_expert_index_coverage"},
+      "measures": {
+        "decline": {"value": "28 of 137 countries declined by at least 0.25 points during the review period, while only about one in twelve governments achieved measurable progress", "unit": "countries with reported BTI score change", "value_type": "reported_index_finding"},
+        "resistance": {"value": "protests, civil-society engagement, institutional resistance, and peaceful transfers in selected cases continue to challenge authoritarian overreach, corruption, and abuse of power", "unit": "reported counterforce set", "value_type": "reported_mechanism_set"},
+        "examples": {"value": "BTI highlights cases including Brazil, Latvia, Taiwan, Moldova, Botswana, India, South Africa, Senegal, Sri Lanka, Poland, and Georgia as examples of electoral integrity efforts, institutional resistance, reform, or mobilization", "unit": "reported illustrative cases", "value_type": "reported_case_set"},
+        "open_test": {"value": "join participation restrictions, information control, local service performance, economic inequality, civic organization, protest, repression, institutional checks, election quality, and later reform or exit without treating resistance as guaranteed democratization", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "BTI global trend synthesis and country expert assessments of political, economic, and governance transformation.",
+      "uncertainty": "Documented resistance indicates openings and counterforces, not durable reform, reduced repression, or equal access to political change.",
+      "subgroup": "Civil society, opposition movements, institutional reformers, journalists, voters, courts, workers, firms, and people exposed to state repression.",
+      "counterinterpretation": "Protest can be suppressed, co-opted, or fragmented; institutional resistance can preserve formal checks without changing deeper power relations.",
+      "source_url": "https://bti-project.org/en/reports/global-report",
+      "retrieval_hash": "sha256:305c17b9e21977e1ed0d74cdc3afcdb88b06ccbf633d1695cf2136199940baa2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bertelsmann-stiftung.de/en/publications/publication/did/bti-2026-global-trends-repression-meets-resistance", "claim": "The Bertelsmann Stiftung publication page supplies the publication date, scope, description, and report metadata."},
+    {"source_url": "https://bti-project.org/en/reports/global-dashboard", "claim": "The BTI global dashboard supplies the comparative 137-country findings, regime balance, election quality, participation-rights, and resistance summaries."},
+    {"source_url": "https://bti-project.org/en/", "claim": "The BTI project page documents the three transformation dimensions and the expert-assessment basis of the index."}
+  ],
+  "boundary": "This record adds a comparative political-institutional route from elections, participation rights, rule of law, governance capacity, market competition, and civic resistance through legitimacy, economic opportunity, public problem-solving, and geopolitical resilience. It uses expert-coded country comparisons and review-period synthesis, not respondent-level data, a causal regime model, a prediction of democratic transition, or proof that any one protest produces durable reform.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official BTI global report and global findings pages were reviewed for 137-country coverage, autocratic-democratic balance, election quality, participation rights, rule of law, economic transformation, governance capacity, score changes, and resistance examples.",
+    "source_url_sha256": "sha256:305c17b9e21977e1ed0d74cdc3afcdb88b06ccbf633d1695cf2136199940baa2",
+    "checked": "2026-09-26"
+  }
+}

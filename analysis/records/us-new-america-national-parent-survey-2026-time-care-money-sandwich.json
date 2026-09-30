@@ -1,0 +1,118 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-new-america-national-parent-survey-2026-time-care-money-sandwich",
+  "title": "Parents broadly want more time with young children, but money, care supply, work schedules, and eldercare determine whether that ideal is reachable",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "New America New Practice Lab, 2026 National Parent Survey",
+  "geography": "United States; parents and primary caregivers of children ages zero through five in all 50 states and the District of Columbia",
+  "observations": [
+    {
+      "period": "January 16-February 2, 2026; desired time with young children and parental leave",
+      "denominator": {"value": 5472, "unit": "U.S. parents and primary caregivers of children ages zero through five", "value_type": "reported_survey_sample"},
+      "measures": {
+        "want_more_quality_time": {"value": 72, "unit": "percent wanting more quality time with their children", "value_type": "published_survey_estimate"},
+        "less_than_wanted_leave_time": {"value": 55, "unit": "percent saying the time they had with children after birth was less than wanted", "value_type": "published_survey_estimate"},
+        "want_eleven_plus_leave": {"value": 56, "unit": "percent wanting 11 or more weeks of leave or not returning to work if money were not a concern", "value_type": "published_survey_estimate"},
+        "no_leave": {"value": 15, "unit": "percent of parents employed when their youngest child was born reporting no time off", "value_type": "published_subgroup_estimate"},
+        "leave_gender_gap": {"value": "Among parents who returned to work, median leave was two weeks for dads and 10 weeks for moms; 70% of dads took four weeks or less.", "unit": "reported gender comparison", "value_type": "published_subgroup_estimate"},
+        "time_conversion_gap": {"value": "A broad family-time aspiration coexists with short leave and insufficient time, making time control a material institution-and-work problem rather than only a preference.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "National Parent Survey conducted by New Practice Lab with NORC; primarily online with a small telephone component, in English and Spanish; weighted national estimates and an oversample of lower-income households.",
+      "uncertainty": "Leave and time measures are self-reported and retrospective for some respondents; the survey does not establish effects of leave policy or actual child-development outcomes.",
+      "subgroup": "Parents and primary caregivers of children ages zero through five, with gender and income comparisons.",
+      "counterinterpretation": "Stated desired leave may change when wage replacement, job security, employer norms, or care alternatives are made concrete.",
+      "source_url": "https://www.newamerica.org/insights/2026-national-parent-survey/findings/",
+      "retrieval_hash": "sha256:9648d9d49ddaa32dd49fc9d9b2fccf52e71eb8a67d03033322256958b9bbaac7",
+      "status": "reported"
+    },
+    {
+      "period": "January 16-February 2, 2026; financial barriers to ideal time and care",
+      "denominator": {"value": 5472, "unit": "U.S. parents and primary caregivers of children ages zero through five; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "any_financial_time_barrier": {"value": 52, "unit": "percent citing at least one financial barrier to spending time as desired", "value_type": "published_survey_estimate"},
+        "cannot_afford_activities": {"value": 37, "unit": "percent saying they cannot afford activities they would like to do with more time", "value_type": "published_survey_estimate"},
+        "need_more_work_hours": {"value": 27, "unit": "percent saying they need to work more hours to support the household", "value_type": "published_survey_estimate"},
+        "childcare_cost_barrier": {"value": 54, "unit": "percent of parents whose current child care falls short of their ideal arrangement citing cost as a barrier", "value_type": "published_subgroup_estimate"},
+        "lower_income_additional_jobs": {"value": "31% of parents below 200% FPL reported taking on one or more additional jobs after having young children, compared with 19% at or above 200% FPL.", "unit": "reported income comparison", "value_type": "published_subgroup_estimate"},
+        "money_to_time_mechanism": {"value": "Money converts directly into usable family time through work hours, child-care choice, and the ability to afford activities.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted survey estimates on barriers to desired time use and ideal child-care arrangements; child-care barrier items apply to respondents reporting a mismatch between current and ideal care.",
+      "uncertainty": "The report measures perceived barriers and does not independently verify child-care prices, job hours, activity spending, or the causal effect of income on family time.",
+      "subgroup": "Parents with young children, including households below and above 200 percent of the federal poverty level.",
+      "counterinterpretation": "Financial responses may include broad household pressure not specific to child care or time allocation; multiple barriers can coexist.",
+      "source_url": "https://www.newamerica.org/insights/2026-national-parent-survey/findings/",
+      "retrieval_hash": "sha256:9648d9d49ddaa32dd49fc9d9b2fccf52e71eb8a67d03033322256958b9bbaac7",
+      "status": "reported"
+    },
+    {
+      "period": "January 16-February 2, 2026; plural work and care arrangements",
+      "denominator": {"value": 5472, "unit": "U.S. parents and primary caregivers of children ages zero through five; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "current_work_mismatch": {"value": 75, "unit": "percent saying their current work arrangement does not fully match their ideal scenario", "value_type": "published_survey_estimate"},
+        "want_some_work": {"value": 88, "unit": "percent wanting to work some amount", "value_type": "published_survey_estimate"},
+        "higher_wages_help": {"value": 66, "unit": "percent saying higher wages would help a lot in realizing their ideal work life", "value_type": "published_survey_estimate"},
+        "remote_or_other_location": {"value": 51, "unit": "percent saying ability to work from home or another location would help a lot", "value_type": "published_survey_estimate"},
+        "flexibility_help": {"value": 49, "unit": "percent saying more flexibility for sick children or appointments would help a lot", "value_type": "published_survey_estimate"},
+        "plurality_of_paths": {"value": "No single preferred work schedule exceeded 46%, child-care arrangement 31%, or leave duration 38%; parents' preferred paths are genuinely plural.", "unit": "reported preference distribution", "value_type": "reported_mechanism"},
+        "schedule_gender_age_route": {"value": "Preferred work arrangements vary by gender, current schedule predictability, income, and youngest child's age; 64% of dads versus 30% of moms with children under six preferred full-time work.", "unit": "reported subgroup comparison", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Cross-sectional survey of current and ideal work, leave, and child-care arrangements, with demographic and income subgroup analysis.",
+      "uncertainty": "The survey does not measure job performance, employer feasibility, actual schedule changes, or whether a preferred arrangement is affordable or available locally.",
+      "subgroup": "Parents with young children by gender, current schedule, income, geography, race/ethnicity, and child age.",
+      "counterinterpretation": "A mismatch between actual and ideal work may reflect temporary life stage, employer choice, or household preference rather than a general labor-market failure.",
+      "source_url": "https://www.newamerica.org/insights/2026-national-parent-survey/findings/",
+      "retrieval_hash": "sha256:9648d9d49ddaa32dd49fc9d9b2fccf52e71eb8a67d03033322256958b9bbaac7",
+      "status": "reported"
+    },
+    {
+      "period": "January 16-February 2, 2026; sandwich care and unequal exposure",
+      "denominator": {"value": 5472, "unit": "U.S. parents and primary caregivers of children ages zero through five; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "sandwich_care": {"value": 28, "unit": "percent of parents with children under six regularly providing care for an older adult family member", "value_type": "published_survey_estimate"},
+        "lower_income_sandwich": {"value": 36, "unit": "percent of lower-income parents regularly caring for at least one older adult", "value_type": "published_subgroup_estimate"},
+        "higher_income_sandwich": {"value": 25, "unit": "percent of higher-income parents regularly caring for at least one older adult", "value_type": "published_subgroup_estimate"},
+        "urban_sandwich": {"value": 39, "unit": "percent of urban parents with young children regularly caring for an older adult", "value_type": "published_subgroup_estimate"},
+        "basic_needs_strain": {"value": "39% of parents reported often or sometimes struggling to meet basic needs; the figure was 66% below 100% FPL versus 16% at or above 400% FPL.", "unit": "reported income comparison", "value_type": "published_subgroup_estimate"},
+        "care_stack_mechanism": {"value": "Young-child care, eldercare, income pressure, transportation, and work fragility stack unevenly, narrowing the real option set for lower-income, urban, and some racialized families.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted national survey with lower-income oversample; sandwich-care, basic-needs, transportation, and employment measures are self-reported subgroup estimates.",
+      "uncertainty": "The survey cannot establish the amount or intensity of eldercare, administrative records of hardship, or causal effects of race, place, income, or family structure.",
+      "subgroup": "Parents with young children by income, race/ethnicity, urbanicity, gender, and household structure.",
+      "counterinterpretation": "Differences may reflect age, family composition, health, household size, or reporting patterns in addition to income or place.",
+      "source_url": "https://www.newamerica.org/insights/2026-national-parent-survey/findings/",
+      "retrieval_hash": "sha256:9648d9d49ddaa32dd49fc9d9b2fccf52e71eb8a67d03033322256958b9bbaac7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.newamerica.org/insights/2026-national-parent-survey/introducing-the-2026-national-parent-survey/",
+      "claim": "The introduction provides the survey population, field dates, sample size, weighting, language, geography, and scope.",
+      "status": "official-methodology-page"
+    },
+    {
+      "source_url": "https://www.newamerica.org/insights/2026-national-parent-survey/appendix/",
+      "claim": "The appendix provides the mixed probability/nonprobability panel design, lower-income oversample, margin of error, self-report limitations, and non-longitudinal boundary.",
+      "status": "official-methodology-page"
+    },
+    {
+      "source_url": "https://parent-survey-public-use-materials.s3.us-east-2.amazonaws.com/",
+      "claim": "New America links public-use materials for the survey instrument and data files.",
+      "status": "linked-public-use-resource"
+    }
+  ],
+  "boundary": "This record adds a family-time conversion route: parents broadly want more quality time with young children, but wages, child-care cost and supply, leave, transportation, work schedules, and eldercare determine whether that ideal is reachable. It does not establish causal policy effects, independently verified hardship, child outcomes, employer behavior, or a single preferred care model.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official New America findings, introduction, and appendix pages were reviewed for the survey population, field dates, sample design, weights, desired time, leave, financial barriers, work/care preferences, sandwich care, subgroup inequalities, and methodological limitations.",
+    "source_page_sha256": "sha256:9648d9d49ddaa32dd49fc9d9b2fccf52e71eb8a67d03033322256958b9bbaac7",
+    "checked": "2026-09-28"
+  }
+}

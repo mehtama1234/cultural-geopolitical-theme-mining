@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-ai-chatbots-health-2026-navigation-privacy-mental-health",
+  "title": "AI chatbots are becoming a low-cost health-navigation layer while usefulness, privacy, and mental-health legitimacy remain unsettled",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center, From Diagnoses to Treatments, Why Americans Use AI Chatbots for Health, and companion analysis on loneliness, depression, and stress, August 25, 2026",
+  "geography": "United States; adults nationally with health-chatbot use, age, race/ethnicity, income, education, AI-attitude, helpfulness, privacy, and mental-health judgments",
+  "observations": [
+    {
+      "period": "June 22-28, 2026; reasons for using AI chatbots for health",
+      "denominator": {"value": 3488, "unit": "U.S. adults in Pew American Trends Panel survey", "value_type": "survey_sample"},
+      "measures": {
+        "any_health_chatbot_use": {"value": 34, "unit": "percent ever using AI chatbots for at least one of eight health or medical reasons", "value_type": "reported_share"},
+        "quick_information": {"value": 28, "unit": "percent using chatbots to get health information quickly", "value_type": "reported_share"},
+        "figure_out_symptoms": {"value": 25, "unit": "percent using chatbots to figure out what is causing symptoms", "value_type": "reported_share"},
+        "low_or_no_cost": {"value": 22, "unit": "percent using chatbots to get health information at little or no cost", "value_type": "reported_share"},
+        "understand_doctor_diagnosis": {"value": 22, "unit": "percent using chatbots to learn more about a diagnosis from a doctor", "value_type": "reported_share"},
+        "understand_lab_results": {"value": 20, "unit": "percent using chatbots to help understand lab results", "value_type": "reported_share"},
+        "uncomfortable_topics": {"value": 18, "unit": "percent using chatbots for health information they are uncomfortable talking about", "value_type": "reported_share"},
+        "decide_whether_to_see_doctor": {"value": 15, "unit": "percent using chatbots to help decide whether to go to a doctor", "value_type": "reported_share"}
+      },
+      "method": "Pew survey of 3,488 U.S. adults conducted June 22-28, 2026; respondents were members of the American Trends Panel and the survey represents U.S. adults.",
+      "uncertainty": "The survey measures ever-use and stated reasons, not frequency, clinical accuracy, actual cost savings, medical urgency, or whether chatbot use replaced or complemented a clinician.",
+      "subgroup": "U.S. adults nationally, with reason-specific measures.",
+      "counterinterpretation": "Chatbots may be serving as a translation, preparation, and question-formulation layer around clinical care rather than a wholesale substitute for it; low cost and discomfort may still indicate unmet access.",
+      "source_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "retrieval_hash": "sha256:5d0b5fcb56554f8818fb1a1314d67356ce0df81d56c57b69df8db8439db75f38",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; demographic and attitudinal concentration of chatbot health use",
+      "denominator": {"value": 3488, "unit": "U.S. adults in Pew survey; subgroup estimates use weighted universes", "value_type": "survey_sample"},
+      "measures": {
+        "asian_chatbot_health_users": {"value": 56, "unit": "percent of Asian adults; English-speaker estimate", "value_type": "reported_share"},
+        "hispanic_chatbot_health_users": {"value": 39, "unit": "percent of Hispanic adults", "value_type": "reported_share"},
+        "white_chatbot_health_users": {"value": 29, "unit": "percent of White adults", "value_type": "reported_share"},
+        "age_18_29_users": {"value": 44, "unit": "percent of adults ages 18-29", "value_type": "reported_share"},
+        "age_65_plus_users": {"value": 17, "unit": "percent of adults ages 65 and older", "value_type": "reported_share"},
+        "upper_income_users": {"value": 48, "unit": "percent of upper-income adults", "value_type": "reported_share"},
+        "lower_income_users": {"value": 28, "unit": "percent of lower-income adults", "value_type": "reported_share"},
+        "excited_about_ai_users": {"value": 60, "unit": "percent among adults who say increased AI use makes them more excited", "value_type": "reported_share"},
+        "concerned_about_ai_users": {"value": 21, "unit": "percent among adults who say increased AI use makes them more concerned", "value_type": "reported_share"}
+      },
+      "method": "Pew weighted demographic and AI-attitude comparisons for the health-chatbot-user measure.",
+      "uncertainty": "These are associations and do not show whether income, age, education, race/ethnicity, optimism, or access caused the different use rates; Asian estimates represent English speakers.",
+      "subgroup": "Adults by race/ethnicity, age, education, family income, and attitude toward AI.",
+      "counterinterpretation": "Higher use among younger, wealthier, and more AI-positive groups may reflect overall chatbot familiarity and resources, while lower use may represent trust, access, language, or digital-skill barriers.",
+      "source_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "retrieval_hash": "sha256:5d0b5fcb56554f8818fb1a1314d67356ce0df81d56c57b69df8db8439db75f38",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; perceived usefulness and health-data privacy",
+      "denominator": {"value": 1, "unit": "U.S. adults who ever use AI chatbots for at least one health or medical reason; conditional denominator", "value_type": "conditional_survey_population"},
+      "measures": {
+        "extremely_very_helpful": {"value": 47, "unit": "percent of chatbot health users finding information extremely or very helpful", "value_type": "reported_share"},
+        "somewhat_helpful": {"value": 48, "unit": "percent of chatbot health users", "value_type": "reported_share"},
+        "not_helpful": {"value": 5, "unit": "percent of chatbot health users finding information not too or not at all helpful", "value_type": "reported_share"},
+        "very_extremely_comfortable_sharing_health_data": {"value": 29, "unit": "percent of chatbot health users very or extremely comfortable sharing personal health information", "value_type": "reported_share"},
+        "somewhat_comfortable": {"value": 42, "unit": "percent of chatbot health users somewhat comfortable", "value_type": "reported_share"},
+        "not_comfortable": {"value": 26, "unit": "percent of chatbot health users not too or not at all comfortable", "value_type": "reported_share"}
+      },
+      "method": "Pew conditional measures among adults who use chatbots for health, asking separately about perceived helpfulness and comfort sharing personal health information.",
+      "uncertainty": "Perceived helpfulness is not clinical benefit, and comfort is not informed consent, actual disclosure, privacy protection, or data-governance compliance.",
+      "subgroup": "Adults who use AI chatbots for health or medical reasons.",
+      "counterinterpretation": "A useful tool can remain privacy-sensitive: the middle-heavy comfort distribution suggests adoption may depend on bounded disclosure, platform trust, and clarity about storage and secondary use.",
+      "source_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "retrieval_hash": "sha256:5d0b5fcb56554f8818fb1a1314d67356ce0df81d56c57b69df8db8439db75f38",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; public judgments of chatbots for loneliness, depression, and stress",
+      "denominator": {"value": 3488, "unit": "U.S. adults in Pew survey; companion analysis uses same survey", "value_type": "survey_sample"},
+      "measures": {
+        "loneliness_hurt": {"value": 39, "unit": "percent saying chatbots do more to hurt people using them for loneliness support", "value_type": "reported_share"},
+        "loneliness_help": {"value": 19, "unit": "percent saying chatbots do more to help", "value_type": "reported_share"},
+        "depression_hurt": {"value": 36, "unit": "percent saying chatbots do more to hurt people using them for depression support", "value_type": "reported_share"},
+        "depression_help": {"value": 17, "unit": "percent saying chatbots do more to help", "value_type": "reported_share"},
+        "stress_hurt": {"value": 29, "unit": "percent saying chatbots do more to hurt people using them for stress support", "value_type": "reported_share"},
+        "stress_help": {"value": 22, "unit": "percent saying chatbots do more to help", "value_type": "reported_share"},
+        "older_adults_unsure_loneliness": {"value": 40, "unit": "percent of adults 65+ unsure whether chatbots help or hurt for loneliness support", "value_type": "reported_share"}
+      },
+      "method": "Pew companion analysis using the same June 22-28, 2026 survey, with age and race/ethnicity comparisons for perceived effects of chatbots on social and mental health support.",
+      "uncertainty": "These are public judgments about possible effects, not clinical evaluations or reports of users' outcomes; uncertainty is substantial and varies by age and race/ethnicity.",
+      "subgroup": "U.S. adults nationally, with age and race/ethnicity comparisons.",
+      "counterinterpretation": "The public may distinguish information/navigation uses from relational or mental-health support uses: utility is easier to accept when the tool supplements care, while social substitution triggers more concern.",
+      "source_url": "https://www.pewresearch.org/science/2026/08/25/do-americans-think-chatbots-help-or-hurt-people-using-them-for-loneliness-depression-or-stress/",
+      "retrieval_hash": "sha256:d4a99d145f7e196e3a95d645499edeb745101255d2676538dbe7d8f231263d89",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "title": "From Diagnoses to Treatments, Why Americans Use AI Chatbots for Health",
+      "url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "retrieval_hash": "sha256:5d0b5fcb56554f8818fb1a1314d67356ce0df81d56c57b69df8db8439db75f38"
+    }
+  ],
+  "boundary": "This record adds an AI-mediated health-navigation and social-support layer: speed, cost, privacy, diagnostic interpretation, sensitive questions, and emotional support create different legitimacy conditions. It does not establish clinical accuracy, treatment efficacy, data protection, mental-health outcomes, or whether chatbot use replaces professional care."
+}

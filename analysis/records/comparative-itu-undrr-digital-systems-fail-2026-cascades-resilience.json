@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-undrr-digital-systems-fail-2026-cascades-resilience",
+  "title": "Digital-system failure is being reframed as a cross-border cascade risk requiring analogue fallback, shared warning, and coordinated resilience",
+  "theme_ids": ["energy", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Telecommunication Union, United Nations Office for Disaster Risk Reduction, and Sciences Po Paris School of International Affairs, When digital systems fail: An expert report on the hidden risks of our digital world",
+  "geography": "Global digital infrastructure and the cross-border systems that depend on communications, energy, finance, transport, healthcare, emergency response, and government services",
+  "observations": [
+    {
+      "period": "2026; critical digital-system risk frame",
+      "denominator": {"value": 1, "unit": "expert risk report", "value_type": "published_framework"},
+      "measures": {
+        "risk_frame": {"value": "large-scale digital disruption is a plausible systemic-risk scenario rather than only an isolated technical incident", "unit": "reported risk assessment", "value_type": "reported_assessment"},
+        "dependency_scope": {"value": "electricity, finance, transport, healthcare, communications, and government services depend on deeply connected digital systems", "unit": "reported dependency scope", "value_type": "reported_framework"},
+        "governance_gap": {"value": "critical disruptions can spill across sectors, institutions, and borders faster than existing governance frameworks are designed to manage", "unit": "reported governance assessment", "value_type": "reported_assessment"}
+      },
+      "method": "Expert co-creation process convened by ITU, UNDRR, and Sciences Po, combining technical, policy, disaster-risk, and academic expertise to make hidden dependencies and knock-on effects visible.",
+      "uncertainty": "The report is a preparedness and risk-framing exercise; it does not predict that a particular failure will occur, estimate a universal probability, or provide a causal evaluation of resilience interventions.",
+      "subgroup": "People and organizations dependent on digital communications and essential services, with distinct exposure for countries and communities with limited infrastructure redundancy or fallback capacity.",
+      "counterinterpretation": "A systemic-risk frame can improve preparation, but it may also prioritize infrastructure continuity over privacy, access, affordability, or democratic control of essential digital systems.",
+      "source_url": "https://www.itu.int/pub/S-REP-WTISD-2026",
+      "retrieval_hash": "sha256:d93c2da54d688ec8b2bcecf8db42d7f9a244e3ed17643b491015ce25691aaf76",
+      "status": "reported"
+    },
+    {
+      "period": "2026; modeled cascade magnitude from natural-hazard disruptions",
+      "denominator": {"value": 1, "unit": "reported cross-source estimate frame", "value_type": "reported_estimate"},
+      "measures": {
+        "secondary_spillover_share": {"value": "up to 89%", "unit": "share of digital disruptions from natural hazards attributed to secondary spillover effects", "value_type": "reported_estimate"},
+        "affected_population_multiplier": {"value": "up to 10x", "unit": "ratio of people ultimately affected to those initially exposed in the cited risk frame", "value_type": "reported_estimate"},
+        "cascade_logic": {"value": "local infrastructure damage can propagate through tightly coupled digital and essential-service systems", "unit": "reported system mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The report synthesizes cited research and expert scenarios to illustrate how secondary failures can dominate the eventual reach of a disruption.",
+      "uncertainty": "The figures are cited estimates with source-specific definitions and contexts; they should not be treated as a universal multiplier for every digital incident or geography.",
+      "subgroup": "Users of essential services, infrastructure operators, governments, firms, hospitals, financial institutions, and communities exposed to cascading service loss.",
+      "counterinterpretation": "Cascade estimates can clarify hidden exposure, but headline multipliers may obscure variation in network architecture, redundancy, response speed, and local preparedness.",
+      "source_url": "https://www.itu.int/dms_pub/itu-s/opb/rep/S-REP-WTISD-2026-PDF-E.pdf",
+      "retrieval_hash": "sha256:d93c2da54d688ec8b2bcecf8db42d7f9a244e3ed17643b491015ce25691aaf76",
+      "status": "reported"
+    },
+    {
+      "period": "2026; fallback and inequality implications",
+      "denominator": {"value": 1, "unit": "reported resilience assessment", "value_type": "published_framework"},
+      "measures": {
+        "fallback_erosion": {"value": "analogue skills and fallback options have disappeared, weakened, or are no longer tested across sectors", "unit": "reported preparedness assessment", "value_type": "reported_assessment"},
+        "unequal_redundancy": {"value": "small island developing states and least developed countries can face more acute vulnerability where infrastructure redundancy is limited", "unit": "reported distributional assessment", "value_type": "reported_assessment"},
+        "service_consequence": {"value": "digital disruption can turn a physical hazard into a humanitarian crisis when healthcare, emergency alerts, payments, or communications fail", "unit": "reported consequence pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "The report compares cross-sector dependency and resilience conditions through documented hazards, expert knowledge, and illustrative scenarios.",
+      "uncertainty": "The report does not provide a complete country ranking, household-level impact distribution, or assessment of how affordability and digital exclusion affect recovery capacity.",
+      "subgroup": "Low-redundancy countries, remote and island communities, people reliant on digital payments or alerts, patients, older adults, disabled people, and households with limited offline alternatives.",
+      "counterinterpretation": "Investment in analogue fallback and redundancy may improve resilience but can be costly, unevenly maintained, or inaccessible if it is not designed around actual community needs.",
+      "source_url": "https://www.itu.int/dms_pub/itu-s/opb/rep/S-REP-WTISD-2026-PDF-E.pdf",
+      "retrieval_hash": "sha256:d93c2da54d688ec8b2bcecf8db42d7f9a244e3ed17643b491015ce25691aaf76",
+      "status": "reported"
+    },
+    {
+      "period": "2026; six preparedness priorities",
+      "denominator": {"value": 6, "unit": "priorities identified through the expert co-creation process", "value_type": "reported_priority_denominator"},
+      "measures": {
+        "priorities": {"value": "build the knowledge base; update risk frameworks; strengthen standards and analogue fallback; coordinate on acute vectors and societal recovery; build trust and shared situational awareness; deepen global collaboration", "unit": "reported preparedness priorities", "value_type": "reported_framework"},
+        "operating_shift": {"value": "preparedness requires mapping dependencies and chain reactions before disruption rather than focusing only on incident response", "unit": "reported governance shift", "value_type": "reported_interpretation"},
+        "coordination_requirement": {"value": "early warnings need trust, shared awareness, and cross-border collective action to become useful", "unit": "reported coordination condition", "value_type": "reported_mechanism"}
+      },
+      "method": "The recommendations synthesize the report’s scenario analysis and expert co-creation process into a preparedness agenda.",
+      "uncertainty": "The priorities are recommendations, not an implementation audit or evidence that each measure reduces disruption at a known rate.",
+      "subgroup": "Telecommunications and infrastructure operators, public agencies, disaster-risk authorities, international organizations, firms, researchers, and communities responsible for continuity of essential services.",
+      "counterinterpretation": "Coordination and shared standards can reduce fragmentation, but they can also create new dependencies or centralize decisions without guaranteeing local voice or remedy.",
+      "source_url": "https://www.itu.int/dms_pub/itu-s/opb/rep/S-REP-WTISD-2026-PDF-E.pdf",
+      "retrieval_hash": "sha256:d93c2da54d688ec8b2bcecf8db42d7f9a244e3ed17643b491015ce25691aaf76",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undrr.org/publication/global-assessment-report-disaster-risk-reduction-2025", "claim": "Related UNDRR disaster-risk context for systemic risk, resilience, and cascading impacts."},
+    {"source_url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/GDC-26.aspx", "claim": "Related ITU publication on digital-sector emissions, energy, and sustainability commitments."}
+  ],
+  "boundary": "This record adds a digital-infrastructure and public-systems trend linking interdependence, cascade risk, service continuity, analogue fallback, unequal redundancy, early warning, trust, and international coordination. It is an expert report and scenario-based preparedness framework, not a forecast, incident census, respondent-level dataset, household impact estimate, causal evaluation, or proof that the proposed priorities produce equitable resilience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ITU publication page and downloadable PDF were reviewed for the cross-sector risk frame, cascade estimates, fallback and unequal-vulnerability claims, illustrative-scenario boundary, and six preparedness priorities.",
+    "source_url_sha256": "sha256:d93c2da54d688ec8b2bcecf8db42d7f9a244e3ed17643b491015ce25691aaf76",
+    "checked": "2026-09-27"
+  }
+}

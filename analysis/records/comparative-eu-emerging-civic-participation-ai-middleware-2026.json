@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-emerging-civic-participation-ai-middleware-2026",
+  "title": "Civic participation is becoming an AI-mediated public-service layer, shifting legitimacy toward listening, translation, moderation, and feedback capacity",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "European Commission Reform and Investment Task Force, Improving Civic Participation with Emerging Technologies, published 3 September 2026, with OECD companion analysis",
+  "geography": "European Union project involving Portugal, Spain, and the Netherlands; ecosystem evidence involving 21 EU member states",
+  "observations": [
+    {
+      "period": "2023-2026; project scope and ecosystem reach",
+      "denominator": {"value": 1, "unit": "European Commission-supported project", "value_type": "published_project_frame"},
+      "measures": {
+        "lead_countries": {"value": 3, "unit": "participating lead countries: Portugal, Spain, and the Netherlands", "value_type": "published_project_count"},
+        "ecosystem_actors": {"value": 600, "unit": "more than 600 public-sector, private, civil-society, academic, and innovation-ecosystem actors engaged", "value_type": "published_project_count_lower_bound"},
+        "member_states": {"value": 21, "unit": "EU member states represented in ecosystem engagement", "value_type": "published_project_count"},
+        "institutional_route": {"value": "Participation technology is being organized as a public-sector capability and innovation ecosystem, not only as a standalone consultation website", "unit": "analytic institutional mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "European Commission project description and results summary; the publication reports project activities and ecosystem engagement rather than a representative population survey or causal evaluation.",
+      "uncertainty": "Actor counts describe participation in the project ecosystem, not citizen participation rates, public legitimacy, or successful policy adoption.",
+      "subgroup": "Public administrations, civic-technology actors, civil society, academia, private-sector innovators, and participating countries.",
+      "counterinterpretation": "Large ecosystem engagement can reflect institutional and funding priorities rather than broad public demand; projects may remain pilot-scale.",
+      "source_url": "https://reforms-investments.ec.europa.eu/technical-support-instrument-0/digital-transition/improving-civic-participation-emerging-technologies_en",
+      "retrieval_hash": "sha256:c31f0ae9c69ed4339f37efb5b6a491ba5365925199537741e2ee28d8ce6ae2c4",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; prototype co-creation and deployment path",
+      "denominator": {"value": 1, "unit": "three-country project and three prototype cases", "value_type": "published_project_frame"},
+      "measures": {
+        "prototypes": {"value": 3, "unit": "AI-enabled prototypes: ConsultationAI in the Netherlands, OnRecord in Portugal, and ParticipApp in Spain", "value_type": "published_project_count"},
+        "bootcamp_participants": {"value": 90, "unit": "more than 90 participants in the February 2025 Lisbon co-creation bootcamp", "value_type": "published_count_lower_bound"},
+        "prototype_functions": {"value": "The prototypes aim to improve citizens' participation experience while expanding government capacity to listen to and analyze needs and contributions", "unit": "reported technology-institution mechanism", "value_type": "reported_mechanism_set"},
+        "deployment_stage": {"value": "Prototypes were being tested and refined before deployment; Portugal's prototype was described as being embedded in Participa.gov", "unit": "reported implementation stage", "value_type": "reported_status"}
+      },
+      "method": "OECD project analysis and European Commission implementation summary; prototypes are described as pilots and development pathways, not completed outcome evaluations.",
+      "uncertainty": "The sources do not establish adoption scale, user satisfaction, representativeness of input, policy influence, or whether AI improves deliberative quality.",
+      "subgroup": "Participants in public consultations, public servants, civil-society organizations, designers, researchers, and civic technologists.",
+      "counterinterpretation": "AI may reduce administrative burden while also creating opaque filtering, translation loss, vendor dependence, or a false appearance of listening.",
+      "source_url": "https://www.oecd.org/en/publications/artificial-intelligence-and-the-future-of-citizen-participation_a1ee2e0a-en/full-report/what-can-governments-do-the-road-to-fit-for-purpose-ai-tools-for-citizen-participation_06b838ee.html",
+      "retrieval_hash": "sha256:cdf1753c5383ec53126725916f4b968a0e6857c042565d7bee78396623d11187",
+      "status": "reported"
+    },
+    {
+      "period": "2025; diagnosed participation bottlenecks and technology opportunities",
+      "denominator": {"value": 1, "unit": "OECD policy analysis of case studies, desk research, and stakeholder interviews", "value_type": "published_research_frame"},
+      "measures": {
+        "trust_barrier": {"value": 44, "unit": "percent of citizens on average across the OECD reported as tending not to trust their governments in the cited evidence", "value_type": "published_cross_national_estimate"},
+        "consultation_adoption_doubt": {"value": 44.6, "unit": "percent OECD average cited as tending not to trust that government would adopt opinions expressed in a public consultation", "value_type": "published_cross_national_estimate"},
+        "participation_bottlenecks": {"value": "Feedback and accountability gaps, weak connection to decision-making, exclusion, poor process design, isolation from wider society, undue influence, and limited public-authority capacity are identified as barriers", "unit": "reported challenge set", "value_type": "reported_mechanism_set"},
+        "technology_opportunities": {"value": "AI can analyze large input volumes, moderate large conversations, translate or explain complex material, connect small-group deliberation to broader publics, and support immersive scenario work", "unit": "reported opportunity set", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD synthesis drawing on analysis, case studies, and interviews; the cited percentages are cross-national averages from underlying evidence and are not a current causal estimate of the pilots.",
+      "uncertainty": "Technology opportunities are prospective; the report does not show that AI moderation, synthesis, translation, or immersive tools improve trust, inclusion, or policy outcomes in practice.",
+      "subgroup": "OECD populations and institutions covered by the underlying participation and trust evidence; no single common respondent sample is asserted for all findings.",
+      "counterinterpretation": "The same tools can amplify misinformation, unequal access, toxic online environments, privacy threats, and environmental costs; more input processing may not equal more democratic power.",
+      "source_url": "https://www.oecd.org/en/publications/tackling-civic-participation-challenges-with-emerging-technologies_ec2ca9a2-en/full-report/component-3.html",
+      "retrieval_hash": "sha256:beb56e21d5779f359c324405174d6a6c306f1fc12937375bd973ec94e5b99adf",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; governance and inclusion conditions",
+      "denominator": {"value": 1, "unit": "OECD recommendations and European Commission project guardrails", "value_type": "policy_analysis_frame"},
+      "measures": {
+        "guardrails": {"value": "Transparency, accountability, contestability, complaint and redress mechanisms, human rights, civic freedoms, open documentation, and public involvement in design and governance are recommended", "unit": "reported governance requirements", "value_type": "reported_policy_route"},
+        "analogue_alternative": {"value": "Governments are advised to provide in-person or low-tech alternatives and invest in digital and AI skills so emerging technology does not become a participation prerequisite", "unit": "reported inclusion safeguard", "value_type": "reported_policy_route"},
+        "capacity_dependency": {"value": "AI-enabled participation requires public-sector skills, sustainable funding, interoperability, and safeguards against vendor and data lock-in", "unit": "analytic implementation dependency", "value_type": "analytic_mechanism_set"},
+        "legitimacy_test": {"value": "The democratic value of the system depends on whether public input remains traceable, contestable, inclusive, and visibly connected to decisions", "unit": "analytic legitimacy mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "OECD policy recommendations and European Commission project results; these are governance prescriptions, not measured impacts.",
+      "uncertainty": "The sources do not establish which safeguards will be adopted, enforced, or sufficient across participating administrations.",
+      "subgroup": "People with limited digital access or skills, public servants, civic organizations, participants in consultations, and communities exposed to automated filtering or classification.",
+      "counterinterpretation": "Analog alternatives and human oversight may preserve inclusion but also raise cost and staffing requirements, slowing scale or limiting geographic reach.",
+      "source_url": "https://www.oecd.org/en/publications/artificial-intelligence-and-the-future-of-citizen-participation_a1ee2e0a-en/full-report/what-can-governments-do-the-road-to-fit-for-purpose-ai-tools-for-citizen-participation_06b838ee.html",
+      "retrieval_hash": "sha256:cdf1753c5383ec53126725916f4b968a0e6857c042565d7bee78396623d11187",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reforms-investments.ec.europa.eu/technical-support-instrument-0/digital-transition/improving-civic-participation-emerging-technologies_en", "claim": "European Commission project scope, countries, prototype work, ecosystem engagement, and results."},
+    {"source_url": "https://www.oecd.org/en/publications/tackling-civic-participation-challenges-with-emerging-technologies_ec2ca9a2-en/full-report/component-3.html", "claim": "OECD evidence framing participation bottlenecks, technology opportunities, risks, and recommendations."},
+    {"source_url": "https://www.oecd.org/en/publications/artificial-intelligence-and-the-future-of-citizen-participation_a1ee2e0a-en/full-report/what-can-governments-do-the-road-to-fit-for-purpose-ai-tools-for-citizen-participation_06b838ee.html", "claim": "OECD account of prototypes, AI-mediated participation functions, inclusion, redress, capacity, and interoperability conditions."}
+  ],
+  "boundary": "This record adds a civic-participation infrastructure route from AI-mediated listening and input processing through public-sector capacity, inclusion, transparency, contestability, feedback, and democratic legitimacy. It does not establish that the prototypes improve participation, trust, policy quality, representation, or outcomes; reported actor and prototype counts are project outputs, not population-level adoption.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official European Commission and OECD pages reviewed for project scope, actor reach, prototypes, participation bottlenecks, prospective technology functions, risks, and governance safeguards.",
+    "source_url_sha256": "sha256:c31f0ae9c69ed4339f37efb5b6a491ba5365925199537741e2ee28d8ce6ae2c4; sha256:beb56e21d5779f359c324405174d6a6c306f1fc12937375bd973ec94e5b99adf; sha256:cdf1753c5383ec53126725916f4b968a0e6857c042565d7bee78396623d11187",
+    "checked": "2026-09-29"
+  }
+}

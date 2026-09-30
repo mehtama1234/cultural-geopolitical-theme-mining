@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-trade-biodiversity-statistics-2026-value-chain-social-gap",
+  "title": "Trade statistics can identify biodiversity-linked products while still missing ecosystem provenance, social sustainability, and who captures value across the chain",
+  "theme_ids": ["cost", "voice", "work", "time", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "United Nations Trade and Development, Towards a framework for enhanced trade and biodiversity statistics",
+  "geography": "193 economies in the TraBio trade-data scope; biodiversity-based supply chains, rural livelihoods, firms, communities, regulators, and global biodiversity-policy monitoring",
+  "observations": [
+    {
+      "period": "2010-2026; biodiversity-linked trade measurement and policy scope",
+      "denominator": {"value": 193, "unit": "economies covered by UNCTAD's Trade and Biodiversity statistical tool scope", "value_type": "trade_biodiversity_data_frame"},
+      "measures": {
+        "biodiversity_product_subheadings": {"value": 1814, "unit": "distinct biodiversity-based products covered by the TraBio classification, measured through HS subheadings", "value_type": "reported_product_count"},
+        "population_dependence": {"value": 50, "unit": "percent-plus of the world's population estimated to depend on biodiversity for livelihoods", "value_type": "reported_population_share_lower_bound"},
+        "rural_poor_vulnerable_dependence": {"value": 70, "unit": "percent of the world's poor and vulnerable people living in rural areas and depending on biodiversity for livelihoods, approximately", "value_type": "reported_population_share"},
+        "statistical_limit": {"value": "trade statistics do not show whether products are sustainably produced or how trade affects biodiversity and livelihoods", "unit": "reported measurement boundary", "value_type": "reported_constraint_set"}
+      },
+      "method": "UN Trade and Development framework combining trade classifications, biodiversity-linked product data, value-chain concepts, and policy-monitoring needs.",
+      "uncertainty": "Product classification and trade flows do not establish extraction practices, ecosystem condition, labor conditions, benefit sharing, or causal livelihood effects; population-dependence estimates are broad contextual measures.",
+      "subgroup": "Rural households, small producers, Indigenous and local communities, biodiversity-based firms, exporters, consumers, regulators, and conservation institutions.",
+      "counterinterpretation": "Trade can create incentives for conservation, rural diversification, employment, and resilient livelihoods when social and environmental safeguards and benefit-sharing are credible.",
+      "source_url": "https://unctad.org/es/publication/hacia-un-marco-para-mejorar-las-estadisticas-de-comercio-y-biodiversidad",
+      "retrieval_hash": "sha256:62f09f1f9f5717b1ed16ae47008c6fe7e9af29de9a674bfe695ef7bd9ff1d425",
+      "status": "reported"
+    },
+    {
+      "period": "2026; expert framework and supply-chain traceability priorities",
+      "denominator": {"value": 50, "unit": "institutions represented in the informal UNCTAD working group on trade and biodiversity statistics, more than", "value_type": "expert_framework_frame"},
+      "measures": {
+        "institution_count": {"value": 50, "unit": "institutions represented in the informal working group, more than", "value_type": "reported_institution_count_lower_bound"},
+        "value_chain_stages": {"value": "ecosystems, collection, cultivation, production, processing, trade, and where relevant consumption", "unit": "proposed statistical coverage stages", "value_type": "reported_framework"},
+        "data_system_priorities": {"value": "standardized definitions, linked databases, data sharing, and stronger capacity in developing countries", "unit": "reported statistical priorities", "value_type": "reported_policy_set"},
+        "future_traceability": {"value": "greater supply-chain transparency and a unified open biodiversity-trade database are proposed as longer-term directions", "unit": "reported future architecture", "value_type": "reported_policy_direction"}
+      },
+      "method": "UNCTAD synthesis of expert working-group discussions and proposed statistical architecture for connecting trade records to ecological and production contexts.",
+      "uncertainty": "A proposed framework is not an operational traceability system, complete database, verified chain of custody, or evidence that participating institutions agree on implementation details.",
+      "subgroup": "National statistical offices, customs agencies, biodiversity authorities, firms, producers, communities, researchers, and international organizations.",
+      "counterinterpretation": "Incremental linkage of existing datasets may produce useful monitoring before a unified database exists; traceability can also impose costs and privacy or sovereignty concerns.",
+      "source_url": "https://unctad.org/es/publication/hacia-un-marco-para-mejorar-las-estadisticas-de-comercio-y-biodiversidad",
+      "retrieval_hash": "sha256:62f09f1f9f5717b1ed16ae47008c6fe7e9af29de9a674bfe695ef7bd9ff1d425",
+      "status": "reported"
+    },
+    {
+      "period": "2026; priority indicators for trade-biodiversity monitoring",
+      "denominator": {"value": 49, "unit": "existing indicators preselected for the proposed trade and biodiversity statistical framework", "value_type": "indicator_prioritisation_frame"},
+      "measures": {
+        "environmental_indicators": {"value": 19, "unit": "preselected indicators relating to environmental sustainability", "value_type": "reported_indicator_count"},
+        "economic_indicators": {"value": 17, "unit": "preselected indicators relating to economic sustainability and trade", "value_type": "reported_indicator_count"},
+        "policy_indicators": {"value": 12, "unit": "preselected indicators relating to policy and governance", "value_type": "reported_indicator_count"},
+        "social_indicators": {"value": 1, "unit": "preselected indicator relating directly to social sustainability", "value_type": "reported_indicator_count"},
+        "social_measurement_gap": {"value": "decent work and wages, gender equality, land use and rights, food equity, and Indigenous peoples are identified as future data needs", "unit": "reported social-data gap", "value_type": "reported_constraint_set"}
+      },
+      "method": "UNCTAD prioritisation of existing indicators using criteria including data availability and interoperability, with separate accounting of environmental, economic, policy, and social dimensions.",
+      "uncertainty": "Indicator counts reflect a proposed selection, not the full universe of possible measures or their quality; one social indicator does not prove that social harms are absent or that environmental metrics are complete.",
+      "subgroup": "Workers, women, Indigenous peoples, land-dependent communities, food-insecure households, firms, regulators, and conservation and development organizations.",
+      "counterinterpretation": "Prioritising available and interoperable indicators can make a framework usable now; social dimensions may require new surveys, administrative data, geospatial methods, and locally governed data systems.",
+      "source_url": "https://unctad.org/es/publication/hacia-un-marco-para-mejorar-las-estadisticas-de-comercio-y-biodiversidad",
+      "retrieval_hash": "sha256:62f09f1f9f5717b1ed16ae47008c6fe7e9af29de9a674bfe695ef7bd9ff1d425",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trade, biodiversity, and livelihood governance",
+      "denominator": {"value": 1, "unit": "trade-biodiversity policy and value-chain framework", "value_type": "biodiversity_governance_frame"},
+      "measures": {
+        "biodiversity_services": {"value": "food, medicines, materials, climate regulation, and water filtration", "unit": "reported ecosystem contribution set", "value_type": "reported_ecosystem_functions"},
+        "trade_risk_set": {"value": "overexploitation, habitat destruction, and invasive-species spread can accompany trade", "unit": "reported trade-related ecological risks", "value_type": "reported_risk_set"},
+        "biotrade_implementation_scope": {"value": 80, "unit": "countries where UNCTAD BioTrade Principles and Criteria are reported as implemented or fostered, more than", "value_type": "reported_country_count_lower_bound"},
+        "governance_tradeoff": {"value": "trade can support jobs and resilient livelihoods or intensify ecological and distributional pressure depending on production and benefit-sharing rules", "unit": "reported governance tradeoff", "value_type": "reported_mechanism"}
+      },
+      "method": "UNCTAD policy framework linking biodiversity-based trade, ecosystem services, rural livelihoods, conservation, and BioTrade principles.",
+      "uncertainty": "The framework and implementation count do not establish compliance, ecological recovery, fair benefit distribution, job quality, or household resilience in participating countries.",
+      "subgroup": "Rural and Indigenous communities, small producers, women and youth, biodiversity-based enterprises, consumers, governments, NGOs, and conservation actors.",
+      "counterinterpretation": "Local value addition and transparent benefit-sharing can align trade with conservation and livelihoods; restrictions without viable alternatives can shift extraction or worsen rural insecurity.",
+      "source_url": "https://unctad.org/es/publication/hacia-un-marco-para-mejorar-las-estadisticas-de-comercio-y-biodiversidad",
+      "retrieval_hash": "sha256:62f09f1f9f5717b1ed16ae47008c6fe7e9af29de9a674bfe695ef7bd9ff1d425",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctadstat.unctad.org/EN/Biotrade.html", "claim": "UNCTAD TraBio data hub and biodiversity-based product trade-data context."},
+    {"source_url": "https://unctad.org/topic/trade-and-environment/biotrade", "claim": "UNCTAD BioTrade principles, livelihood, conservation, and policy context."}
+  ],
+  "boundary": "This record adds a biodiversity-trade route from product flows through ecosystem provenance, value-chain traceability, rural livelihoods, social sustainability, and governance. It is a statistical-framework publication, not ecological monitoring, respondent data, verified sustainability, household causal evidence, or proof that BioTrade implementation produces equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD trade-biodiversity publication page, BioTrade topic page, and TraBio data-hub context were reviewed; economy and product coverage, population dependence, working-group scope, proposed value-chain stages, indicator composition, social-data gap, ecosystem functions, and BioTrade implementation claims were cross-checked.",
+    "source_url_sha256": "sha256:62f09f1f9f5717b1ed16ae47008c6fe7e9af29de9a674bfe695ef7bd9ff1d425",
+    "checked": "2026-09-26"
+  }
+}

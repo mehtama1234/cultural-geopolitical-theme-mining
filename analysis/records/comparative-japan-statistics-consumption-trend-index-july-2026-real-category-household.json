@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-statistics-consumption-trend-index-july-2026-real-category-household",
+  "title": "Japan’s modeled household consumption falls in real terms while category and household-type exposure diverge",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Statistics Bureau of Japan Consumer Trend Index (CTI), July 2026, 2025-base revision",
+  "geography": "Japan; all households, single-person households, two-or-more-person households, and ten major expenditure categories",
+  "observations": [
+    {
+      "period": "July 2026 compared with July 2025; household consumption trend index",
+      "denominator": {"value": null, "unit": "Japanese household consumption index; CTI combines Family Income and Expenditure Survey, Family Income and Expenditure Survey for One-person Households, and related household-consumption survey inputs", "value_type": "not_disclosed"},
+      "measures": {
+        "all_households_nominal_yoy": {"value": -0.1, "unit": "percent year-over-year change in nominal household consumption trend index", "value_type": "reported_index_change"},
+        "all_households_real_yoy": {"value": -2.4, "unit": "percent year-over-year change in real household consumption trend index", "value_type": "reported_index_change"},
+        "nominal_real_gap": {"value": 2.3, "unit": "percentage-point difference between nominal and real year-over-year changes", "value_type": "calculated_difference_from_published_index"},
+        "seasonally_adjusted_real_mom": {"value": -0.4, "unit": "percent month-over-month change in seasonally adjusted real household consumption trend index", "value_type": "reported_index_change"},
+        "mechanism": {"value": "Near-flat nominal consumption can conceal a real contraction when prices absorb household spending; the signal is about purchasing-power-adjusted consumption movement, not only cash outlays", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Statistics Bureau of Japan CTI July 2026 result overview, 2025=100 base. The household CTI estimates average household consumption by combining Family Income and Expenditure Survey results with household-consumption and single-person-monitor inputs; real values are the published inflation-adjusted index series.",
+      "uncertainty": "CTI is an estimated index rather than a household panel or direct expenditure total. The Statistics Bureau revises historical values, uses seasonal adjustment, and changed to a 2025 base; nominal-real differences do not identify household-specific inflation, quantities, debt, income, or welfare.",
+      "subgroup": "Japanese households, including single-person households in the combined total.",
+      "counterinterpretation": "A real index decline may reflect price deflation treatment, composition, timing, or model revision; it does not mean every household reduced every category or experienced financial hardship.",
+      "source_url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000040499068",
+      "retrieval_hash": "sha256:9397b9c78181f1178b06d5f2a871484f094b01612e43f665ebe37af890b63c56",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026 compared with July 2025; real consumption by category and household type",
+      "denominator": {"value": null, "unit": "Japanese household consumption trend index category and household-type frames; published index estimates, not disclosed respondent counts", "value_type": "not_disclosed"},
+      "measures": {
+        "real_category_changes": {"value": "food -2.6%; housing -2.6%; utilities -8.7%; furniture/household goods -5.2%; clothing +2.4%; health/medical -2.0%; transport/communications -1.4%; education -11.8%; culture/recreation -0.7%", "unit": "percent year-over-year change in real CTI category indices", "value_type": "reported_index_distribution"},
+        "single_person_real_yoy": {"value": -1.6, "unit": "percent year-over-year change in real CTI for single-person households", "value_type": "reported_index_change"},
+        "multi_person_real_yoy": {"value": -2.2, "unit": "percent year-over-year change in real CTI for two-or-more-person households", "value_type": "reported_index_change"},
+        "household_type_gap": {"value": 0.6, "unit": "percentage-point difference: multi-person minus single-person real year-over-year decline", "value_type": "calculated_difference_from_published_index"},
+        "category_mechanism": {"value": "Consumption contraction is composition-specific rather than uniform: education and utilities fall much more than culture/recreation, while clothing rises, creating different lived trade-offs across household types and spending baskets", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the CTI July 2026 result overview, Table 2 and Table 4; category and household-type real year-over-year changes are the published 2025-base index changes.",
+      "uncertainty": "Category indices are not household budget shares or direct quantities and cannot identify substitution, necessity, price elasticity, access, or cultural meaning. Single-person and multi-person comparisons remain aggregate index differences and inherit CTI revisions and seasonal/model boundaries.",
+      "subgroup": "Japanese households by household type and ten major consumption categories, including education, utilities, and culture/recreation.",
+      "counterinterpretation": "A category-level index movement can combine prices, volumes, product quality, timing, and household composition; the 0.6-point household-type gap does not establish unequal hardship or a causal demographic effect.",
+      "source_url": "https://www.stat.go.jp/data/cti/index2.html",
+      "retrieval_hash": "sha256:eff3dc6329dfaa068da5ab7d688594a3a8430fcb267e960751a3a6245daa1953",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.stat.go.jp/data/cti/index.htm", "claim": "Statistics Bureau of Japan CTI landing page, July 2026 release timing, 2025-base revision notices, and official CTI definition."},
+    {"source_url": "https://www.stat.go.jp/data/cti/index2.html", "claim": "CTI micro/macro construction, household-type tables, category tables, seasonal adjustment, and historical-revision notes."},
+    {"source_url": "https://www.stat.go.jp/data/cti/pdf/2025kijun_micro.pdf", "claim": "2025-base CTI micro estimation method and source-combination documentation."},
+    {"source_url": "https://www.stat.go.jp/data/cti/pdf/2025kijun_macro.pdf", "claim": "2025-base CTI macro estimation method and time-series regression documentation."}
+  ],
+  "boundary": "This record adds a Japanese modeled consumption, price-pressure, category, and household-type layer. It does not establish household-specific spending, quantities, affordability, debt, income, cultural preference, or causal welfare effects; July 2026 values are revision-sensitive.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Bureau of Japan CTI landing page, CTI results/methodology page, and July 2026 official result PDF reviewed; all-household nominal and real movements, category changes, household-type comparisons, 2025-base definition, seasonal adjustment, and revision notices checked.",
+    "landing_html_sha256": "sha256:b90239910975fb563b2af4557e61d3c8496fb1fced99ddc6376af83cea6aee02",
+    "results_html_sha256": "sha256:eff3dc6329dfaa068da5ab7d688594a3a8430fcb267e960751a3a6245daa1953",
+    "results_pdf_sha256": "sha256:9397b9c78181f1178b06d5f2a871484f094b01612e43f665ebe37af890b63c56",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-generation-equality-2026-institutionalized-feminist-systems-change",
+  "title": "Gender-equality commitments become durable when financing, accountability, shared leadership and data are embedded in institutions",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN Women, Generation Equality Compendium of Lessons Learned 2026",
+  "geography": "Global Generation Equality Action Coalitions and Women, Peace and Security and Humanitarian Action Compact, 2021-2026",
+  "observations": [
+    {
+      "period": "2021-2026; Generation Equality implementation portfolio",
+      "denominator": {"value": 2500, "unit": "more than commitments across the Generation Equality architecture", "value_type": "published_commitment_frame"},
+      "measures": {
+        "pledged_finance": {"value": "more than USD 50.3 billion in pledged financing", "unit": "reported pledged U.S. dollars", "value_type": "reported_total"},
+        "reported_expenditure": {"value": "over USD 21 billion in reported expenditures", "unit": "reported U.S. dollars", "value_type": "reported_total"},
+        "portfolio": {"value": "the portfolio spans gender-based violence, economic justice, feminist and youth leadership, climate justice, technology and innovation, bodily autonomy, peace and humanitarian action, financing and accountability", "unit": "reported program scope", "value_type": "reported_scope"}
+      },
+      "method": "Compendium synthesis of implementation data, accountability reporting, financial analysis, thematic case examples and institutional learning across six Action Coalitions and the WPS-HA Compact.",
+      "uncertainty": "Commitment and expenditure totals do not establish comparable outputs, outcomes, geographic reach, causal effects or whether pledged resources reached feminist and youth-led organizations.",
+      "subgroup": "Governments, civil society, feminist movements, youth-led organizations, philanthropies, private firms, UN entities and people affected by gender inequality.",
+      "counterinterpretation": "Large financial totals can coexist with weak local control, fragmented delivery, underfunding of rights organizations and limited transformation of power relations.",
+      "source_url": "https://commitments.generationequality.org/sites/default/files/2026-08/260810%20BLS25841%20UNW%20Generation%20Equality%20Compendium%20of%20Lessons%20Learned%20v10.pdf",
+      "retrieval_hash": "sha256:6fbda74f5458315054f5c71201a4996ba3fe4d6984e9393ea4b851e8deafdd77",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2026; cross-cutting lessons from implementation",
+      "denominator": {"value": 1, "unit": "institutional change framework synthesized by the compendium", "value_type": "published_framework"},
+      "measures": {
+        "durability_conditions": {"value": "progress is strongest when convening power is paired with institutionalized accountability, financing is predictable and embedded in public systems, feminist movements and youth share leadership, and data informs learning and decisions", "unit": "reported implementation lesson", "value_type": "reported_interpretation"},
+        "system_integration": {"value": "durable impact depends on system-level integration rather than isolated interventions", "unit": "reported institutional lesson", "value_type": "reported_interpretation"},
+        "governance_signal": {"value": "partnerships require explicit ownership, stewardship, decision rights and follow-up; goodwill alone does not sustain coordination", "unit": "reported governance lesson", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative institutional-learning synthesis across action coalitions, compact mechanisms and good-practice cases.",
+      "uncertainty": "The compendium is a reflective synthesis from a program architecture and does not provide a counterfactual test of each institutional condition.",
+      "subgroup": "Program conveners, public finance institutions, funders, feminist and youth leaders, data and accountability teams, national and subnational coordinating bodies.",
+      "counterinterpretation": "Institutionalization can preserve formal participation while muting dissent or absorbing movement actors into bureaucratic routines; shared leadership needs independent power and resources.",
+      "source_url": "https://commitments.generationequality.org/sites/default/files/2026-08/260810%20BLS25841%20UNW%20Generation%20Equality%20Compendium%20of%20Lessons%20Learned%20v10.pdf",
+      "retrieval_hash": "sha256:6fbda74f5458315054f5c71201a4996ba3fe4d6984e9393ea4b851e8deafdd77",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2026; power, financing and reporting constraints",
+      "denominator": {"value": 1, "unit": "cross-cutting barrier pattern identified in the compendium", "value_type": "published_barrier_frame"},
+      "measures": {
+        "power": {"value": "power asymmetries continue to constrain sustainability and lasting systems change", "unit": "reported institutional barrier", "value_type": "reported_assessment"},
+        "resource_constraints": {"value": "underfinancing of feminist and youth-led organizations, bureaucratic disbursement constraints and time-bound partnership arrangements limit translation of commitments into durable change", "unit": "reported barrier set", "value_type": "reported_assessment"},
+        "reporting_capacity": {"value": "uneven reporting capacity limits what can be learned from aggregate commitments and expenditures", "unit": "reported measurement barrier", "value_type": "reported_boundary"}
+      },
+      "method": "Synthesis of accountability, financing and implementation reporting across the Generation Equality architecture.",
+      "uncertainty": "Reported barriers are not a standardized global census of all participating organizations or local implementation contexts.",
+      "subgroup": "Grass-roots organizations, youth-led groups, feminist movements, local implementers, small grantees and actors with limited reporting or administrative capacity.",
+      "counterinterpretation": "Flexible and direct funding can improve local agency but may also require safeguards, coordination and accountability systems that are difficult to sustain.",
+      "source_url": "https://commitments.generationequality.org/sites/default/files/2026-08/260810%20BLS25841%20UNW%20Generation%20Equality%20Compendium%20of%20Lessons%20Learned%20v10.pdf",
+      "retrieval_hash": "sha256:6fbda74f5458315054f5c71201a4996ba3fe4d6984e9393ea4b851e8deafdd77",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2026; selected good-practice cases",
+      "denominator": {"value": 1, "unit": "Generation Equality multi-stakeholder partnership model", "value_type": "published_program_model"},
+      "measures": {
+        "coalition_action": {"value": "cross-coalition feminist and youth-led coordination helped defend The Gambia's 2015 ban on FGM when repeal threats emerged", "unit": "reported case example", "value_type": "reported_case"},
+        "youth_governance": {"value": "in Finland, a Generation Equality Youth Group was formally linked to government action and advised decision-makers", "unit": "reported case example", "value_type": "reported_case"},
+        "local_alignment": {"value": "national and subnational steering committees in Kenya, Tanzania and Rwanda aligned global commitments with local planning and shared decision-making", "unit": "reported case pattern", "value_type": "reported_case_set"}
+      },
+      "method": "Illustrative case studies in the compendium documenting partnership, advocacy and governance practices.",
+      "uncertainty": "These are selected good practices, not representative evidence that the model works uniformly across countries or issue areas.",
+      "subgroup": "Feminist movements, youth groups, local and national governments, coalition conveners, legal advocates and communities affected by gender-equality policy.",
+      "counterinterpretation": "Cases of successful coordination may be unusually visible or supported; formal linkage to government does not guarantee youth decision power or durable implementation.",
+      "source_url": "https://commitments.generationequality.org/sites/default/files/2026-08/260810%20BLS25841%20UNW%20Generation%20Equality%20Compendium%20of%20Lessons%20Learned%20v10.pdf",
+      "retrieval_hash": "sha256:6fbda74f5458315054f5c71201a4996ba3fe4d6984e9393ea4b851e8deafdd77",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://commitments.generationequality.org/2026-publications/2026-compendium-lessons-learned", "claim": "UN Women Generation Equality publication page with the executive summary, findings, recommendations and good-practice cases."},
+    {"source_url": "https://doi.org/10.18356/9789211576443", "claim": "United Nations iLibrary bibliographic record for the Generation Equality Compendium of Lessons Learned 2026."}
+  ],
+  "boundary": "This record adds an institutional gender-equality route linking commitments to financing, public-system integration, accountability, data, feminist and youth leadership, civic space and durable implementation. It is a program learning synthesis with selected cases, not a representative implementation census, causal evaluation, beneficiary-level dataset or proof that reported expenditures produced equal outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN Women Generation Equality PDF and publication page were reviewed for the 2021-2026 implementation frame, commitment and finance totals, durability conditions, barriers, accountability lessons and selected cases from The Gambia, Finland, Kenya, Tanzania and Rwanda.",
+    "source_url_sha256": "sha256:6fbda74f5458315054f5c71201a4996ba3fe4d6984e9393ea4b851e8deafdd77",
+    "checked": "2026-09-27"
+  }
+}

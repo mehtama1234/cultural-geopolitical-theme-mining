@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-restoring-public-finances-2026-social-protection-tradeoffs",
+  "title": "Fiscal repair is becoming a distributional and legitimacy problem as governments seek savings in social protection, health, and public operations",
+  "theme_ids": ["cost", "voice", "time", "work", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "OECD, Restoring Public Finances: Enabling Effective Government",
+  "geography": "OECD Member and accession candidate countries plus one non-Member economy; the 2026 government survey covers 35 OECD countries, three accession candidates, and one non-Member economy",
+  "observations": [
+    {
+      "period": "2023-2027; public-finance pressure and fiscal room",
+      "denominator": {"value": 1, "unit": "OECD public-finance outlook and savings-measure assessment", "value_type": "fiscal_system_frame"},
+      "measures": {
+        "debt": {"value": 110, "unit": "approximate percent of GDP average public debt in OECD countries", "value_type": "reported_share"},
+        "primary_balance": {"value": "The primary budget balance is projected to worsen in nearly half of OECD Member countries during 2023-2027", "unit": "reported fiscal pattern", "value_type": "reported_pattern"},
+        "pressure_set": {"value": "Slow growth, crisis support, debt servicing, aging, health, pensions, defence, and other spending demands are narrowing fiscal room", "unit": "reported structural context", "value_type": "reported_context"}
+      },
+      "method": "OECD synthesis of macro-fiscal conditions and a government survey on savings measures implemented in 2025-2026.",
+      "uncertainty": "The report describes aggregate fiscal pressure and projected balances; it does not forecast a specific country’s default, quantify household incidence, or establish the effect of any consolidation package on welfare or trust.",
+      "subgroup": "Households using social protection and health services, taxpayers, public employees, local governments, firms receiving support, and future cohorts affected by debt and spending choices.",
+      "counterinterpretation": "Fiscal repair can preserve future service capacity and protect vulnerable groups if savings are selective, revenue-supported, and paired with service redesign; debt pressure does not imply that cuts are the only option.",
+      "source_url": "https://www.oecd.org/en/publications/restoring-public-finances_fbcf9161-en.html",
+      "retrieval_hash": "sha256:d57c6ed50acfba022c5c6dbb44f729be8155061550cf05dbea91ae6b4e31d551",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; social protection and healthcare savings",
+      "denominator": {"value": 39, "unit": "countries responding to the OECD 2026 Restoring Public Finances Survey", "value_type": "reported_country_count"},
+      "measures": {
+        "social_health_savings": {"value": 89, "unit": "percent of surveyed countries taking savings measures in social protection and/or healthcare", "value_type": "reported_share"},
+        "largest_spending_areas": {"value": "Pensions, unemployment, disability, family benefits, healthcare, and long-term care are among the main areas under savings pressure", "unit": "reported policy area set", "value_type": "reported_set"},
+        "spending_share": {"value": "Social protection and health together account for around half of public spending in OECD countries", "unit": "reported public-spending share", "value_type": "reported_approximate_share"},
+        "distributional_route": {"value": "Fiscal consolidation can reach household room through benefit rules, service access, care availability, health costs, and timing of support", "unit": "analytical transmission route", "value_type": "inferred_mechanism"}
+      },
+      "method": "Government-reported survey of savings initiatives, supplemented by OECD spending and policy analysis across pensions, benefits, health, and long-term care.",
+      "uncertainty": "The survey records measures and policy areas, not realized savings, service quality, beneficiary losses, or distributional incidence; countries may classify similar reforms differently.",
+      "subgroup": "Older adults, people with disabilities, unemployed workers, families with children, caregivers, patients, and households with limited private buffers.",
+      "counterinterpretation": "Savings can come from efficiency, targeting, fraud reduction, better procurement, or prevention rather than reduced entitlement; the report does not equate every savings measure with welfare loss.",
+      "source_url": "https://www.oecd.org/en/publications/restoring-public-finances_fbcf9161-en.html",
+      "retrieval_hash": "sha256:d57c6ed50acfba022c5c6dbb44f729be8155061550cf05dbea91ae6b4e31d551",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; government operations, technology, and public capacity",
+      "denominator": {"value": 39, "unit": "countries responding to the OECD 2026 Restoring Public Finances Survey", "value_type": "reported_country_count"},
+      "measures": {
+        "operations_savings": {"value": 77, "unit": "percent of surveyed countries taking savings measures in government operations", "value_type": "reported_share"},
+        "efficiency_route": {"value": "Countries report digital and AI tools, institutional restructuring, mergers, shared procurement and HR services, and public-employment reforms as routes to savings", "unit": "reported reform set", "value_type": "reported_set"},
+        "workforce_pressure": {"value": "More than half of OECD countries are undertaking public-employment reforms, including restraints on public-worker pay or benefits", "unit": "reported policy pattern", "value_type": "reported_pattern"},
+        "service_risk": {"value": "Efficiency reforms can change frontline capacity, administrative burden, and the reliability of the public-service interface", "unit": "analytical risk route", "value_type": "inferred_mechanism"}
+      },
+      "method": "OECD survey and policy review of government operations, digitalisation, AI, shared services, institutional restructuring, and public employment.",
+      "uncertainty": "The report does not establish whether technology or restructuring produces net savings, better services, lower burden, or fairer access in specific settings.",
+      "subgroup": "Public employees, frontline service users, contractors, local governments, and people with low digital access or complex administrative needs.",
+      "counterinterpretation": "Shared platforms and automation may improve continuity, reduce duplication, and release capacity when implemented with skills, safeguards, and service-quality monitoring.",
+      "source_url": "https://www.oecd.org/en/publications/restoring-public-finances_fbcf9161-en.html",
+      "retrieval_hash": "sha256:d57c6ed50acfba022c5c6dbb44f729be8155061550cf05dbea91ae6b4e31d551",
+      "status": "reported"
+    },
+    {
+      "period": "2026; fiscal legitimacy and public understanding",
+      "denominator": {"value": 1, "unit": "OECD fiscal-reform governance assessment", "value_type": "governance_frame"},
+      "measures": {
+        "public_ownership": {"value": "The report identifies public understanding and ownership of fiscal trade-offs as important for support for reforms", "unit": "reported governance principle", "value_type": "reported_principle"},
+        "communication": {"value": "Governments are encouraged to explain budgets, spending and revenue choices clearly and engage citizens", "unit": "reported policy direction", "value_type": "reported_direction"},
+        "institutional_tools": {"value": "Medium-term and top-down budgeting, spending reviews, and independent fiscal institutions are presented as tools for allocation and credibility", "unit": "reported institutional tool set", "value_type": "reported_set"}
+      },
+      "method": "OECD fiscal-governance synthesis combining survey findings, public-finance analysis, and recommendations on budget institutions and public communication.",
+      "uncertainty": "The report identifies conditions for fiscal legitimacy but does not estimate public support, causal effects of transparency, or whether communication can offset materially adverse reforms.",
+      "subgroup": "Citizens, taxpayers, benefit recipients, public-sector workers, fiscal institutions, elected officials, and civil-society organizations.",
+      "counterinterpretation": "Clear communication can improve understanding without resolving distributional conflict; fiscal legitimacy also depends on who pays, who benefits, and whether services remain usable.",
+      "source_url": "https://www.oecd.org/en/publications/restoring-public-finances_fbcf9161-en.html",
+      "retrieval_hash": "sha256:d57c6ed50acfba022c5c6dbb44f729be8155061550cf05dbea91ae6b4e31d551",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/05/restoring-public-finances_0c1f7ce5/fbcf9161-en.pdf", "claim": "Official 266-page OECD report PDF used for fiscal pressure, savings, public operations, and legitimacy claims."},
+    {"source_url": "https://doi.org/10.1787/fbcf9161-en", "claim": "Official OECD DOI and publication citation."},
+    {"source_url": "https://www.oecd.org/en/publications/serving-citizens-2026_ecaa9c7e-en.html", "claim": "Complementary OECD public-administrative-service delivery source for the service-capacity interface."}
+  ],
+  "boundary": "This record adds the fiscal-capacity and distributional-tradeoff layer beneath public-service delivery. It is an OECD country survey and fiscal synthesis, not a household incidence study, causal evaluation of austerity or efficiency reforms, or proof that any specific savings package improves or harms welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page, executive summary, and 266-page PDF were reviewed for debt and fiscal pressure, 2025-2026 savings measures, social protection and health, government operations and technology, public employment, and fiscal-legitimacy recommendations.",
+    "source_url_sha256": "sha256:d57c6ed50acfba022c5c6dbb44f729be8155061550cf05dbea91ae6b4e31d551",
+    "checked": "2026-09-28"
+  }
+}

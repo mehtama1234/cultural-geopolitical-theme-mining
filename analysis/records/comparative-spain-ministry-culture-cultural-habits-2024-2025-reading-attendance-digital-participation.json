@@ -1,0 +1,206 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-spain-ministry-culture-cultural-habits-2024-2025-reading-attendance-digital-participation",
+  "title": "Spain's cultural participation has recovered broadly, but access is now a hybrid physical-platform system",
+  "theme_ids": [
+    "cost",
+    "time",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "Spain Ministry of Culture Survey of Cultural Habits and Practices 2024-2025",
+  "geography": "Spain; population aged 15 years and above",
+  "observations": [
+    {
+      "period": "2024-2025 survey; annual and monthly cultural participation",
+      "denominator": {
+        "value": 42193,
+        "unit": "thousand people aged 15 years and above",
+        "value_type": "official_survey_population"
+      },
+      "measures": {
+        "read_any_book": {
+          "value": 64.9,
+          "unit": "percent reading at least one book in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "read_for_nonprofessional_reasons": {
+          "value": 58.8,
+          "unit": "percent reading for reasons unrelated to profession or study in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "museum_exhibition_gallery_visit": {
+          "value": 47.6,
+          "unit": "percent visiting a museum, exhibition, or art gallery in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "live_cultural_event": {
+          "value": 47.1,
+          "unit": "percent attending a live cultural performance in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "cinema": {
+          "value": 48.5,
+          "unit": "percent attending cinema in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Cultural participation is broad across reading, institutional visits, live events, and cinema rather than concentrated in one channel",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Ministry of Culture survey estimates for the population aged 15 and above; annual measures refer to the preceding year and monthly measures to the preceding month.",
+      "uncertainty": "The descriptive rates do not identify household spending, frequency beyond the reported period, causal drivers, or whether recovery reflects pent-up demand, cohort change, supply, or post-COVID normalization.",
+      "subgroup": "Total population aged 15 years and above in Spain.",
+      "counterinterpretation": "Annual participation can include one-off activity and therefore should not be treated as a measure of sustained cultural intensity or recurring willingness to pay.",
+      "source_url": "https://www.cultura.gob.es/dam/jcr%3Af6d9b66a-ac72-4d89-8986-7f6c6e94aaa5/encuesta-de-habitos-y-practicas-cultures-en-espana-2024-2025.pdf",
+      "retrieval_hash": "sha256:3ece00446c72d528edc755f1ab9d8e62829b2d0f7534a2998309b4a4d15e32d6",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 survey; physical and digital reading/library access",
+      "denominator": {
+        "value": 42193,
+        "unit": "thousand people aged 15 years and above",
+        "value_type": "official_survey_population"
+      },
+      "measures": {
+        "paper_book": {
+          "value": 60.8,
+          "unit": "percent reading at least one book in paper format in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "digital_or_audiobook": {
+          "value": 29.8,
+          "unit": "percent reading at least one book in digital format or audiobook in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "direct_internet_reading": {
+          "value": 14.0,
+          "unit": "percent reading books directly on the Internet in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "library_any_access": {
+          "value": 28.6,
+          "unit": "percent visiting or accessing a library virtually in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "physical_library": {
+          "value": 22.4,
+          "unit": "percent visiting a library in person in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "online_library": {
+          "value": 14.7,
+          "unit": "percent accessing a library through the Internet in the previous year",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Digital access is layered onto, rather than replacing, physical cultural infrastructure; the measures are not mutually exclusive",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Survey indicators distinguish paper, digital or audiobook reading, direct Internet reading, in-person library visits, and Internet library access; categories can overlap.",
+      "uncertainty": "The survey does not establish paid versus free access, subscription duration, device constraints, title availability, or whether digital and physical users are the same people.",
+      "subgroup": "Total population aged 15 years and above in Spain.",
+      "counterinterpretation": "Digital formats may expand access for some users while increasing costs, platform dependence, or discoverability barriers for others; overlap prevents a substitution claim.",
+      "source_url": "https://www.cultura.gob.es/dam/jcr%3Af6d9b66a-ac72-4d89-8986-7f6c6e94aaa5/encuesta-de-habitos-y-practicas-cultures-en-espana-2024-2025.pdf",
+      "retrieval_hash": "sha256:3ece00446c72d528edc755f1ab9d8e62829b2d0f7534a2998309b4a4d15e32d6",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 survey; platform subscriptions and participation gaps by sex",
+      "denominator": {
+        "value": 42193,
+        "unit": "thousand people aged 15 years and above",
+        "value_type": "official_survey_population"
+      },
+      "measures": {
+        "any_digital_platform_subscription": {
+          "value": 74.1,
+          "unit": "percent with a household subscription to at least one digital platform",
+          "value_type": "official_survey_share"
+        },
+        "film_or_series_platform": {
+          "value": 64.5,
+          "unit": "percent with a household subscription to film or series platforms",
+          "value_type": "official_survey_share"
+        },
+        "music_platform": {
+          "value": 42.3,
+          "unit": "percent with a household subscription to music platforms",
+          "value_type": "official_survey_share"
+        },
+        "book_or_audiobook_platform": {
+          "value": 12.0,
+          "unit": "percent with a household subscription to book or audiobook platforms",
+          "value_type": "official_survey_share"
+        },
+        "monthly_audiovisual": {
+          "value": 81.0,
+          "unit": "percent viewing audiovisual content in the previous month",
+          "value_type": "official_survey_share"
+        },
+        "monthly_music": {
+          "value": 77.8,
+          "unit": "percent listening to music in the previous month",
+          "value_type": "official_survey_share"
+        },
+        "women_book_reading": {
+          "value": 68.2,
+          "unit": "percent of women reading a book in the previous year",
+          "value_type": "official_subgroup_share"
+        },
+        "men_book_reading": {
+          "value": 61.4,
+          "unit": "percent of men reading a book in the previous year",
+          "value_type": "official_subgroup_share"
+        },
+        "women_video_games": {
+          "value": 11.8,
+          "unit": "percent of women playing video games in the previous month",
+          "value_type": "official_subgroup_share"
+        },
+        "men_video_games": {
+          "value": 27.3,
+          "unit": "percent of men playing video games in the previous month",
+          "value_type": "official_subgroup_share"
+        },
+        "mechanism": {
+          "value": "Household cultural access is increasingly platform-mediated, but platform uptake and cultural practice remain differentiated by content type and gender",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Survey estimates combine household subscription indicators with individual cultural-practice measures; subscription categories and practice categories are not direct conversion measures.",
+      "uncertainty": "A household subscription does not reveal individual use, payment burden, account sharing, catalog quality, or whether the platform displaced physical consumption; sex differences are descriptive.",
+      "subgroup": "Total population aged 15 years and above, with sex-specific estimates for reading and video-game use.",
+      "counterinterpretation": "Platform subscriptions may coexist with free, pirated, public, or in-person access, and the gender differences may reflect age, life stage, social norms, or content preferences rather than platform exclusion.",
+      "source_url": "https://www.cultura.gob.es/dam/jcr%3Af6d9b66a-ac72-4d89-8986-7f6c6e94aaa5/encuesta-de-habitos-y-practicas-cultures-en-espana-2024-2025.pdf",
+      "retrieval_hash": "sha256:3ece00446c72d528edc755f1ab9d8e62829b2d0f7534a2998309b4a4d15e32d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.cultura.gob.es/servicios-a-la-ciudadania/estadisticas/cultura/mc/culturabase/encuesta-de-habitos/resultados-habitos.html",
+      "claim": "The Ministry of Culture's official results hub identifies the survey as a national cultural-statistics operation and provides the 2024-2025 results.",
+      "status": "official-methodology"
+    },
+    {
+      "source_url": "https://www.ine.es/dyngs/IOE/fichaInventario.htm?cid=1259930860538&inv=92025",
+      "claim": "Spain's National Statistics Institute inventory confirms the survey population aged 15 and above and its biennial statistical-program status.",
+      "status": "official-methodology"
+    }
+  ],
+  "boundary": "This record adds Spain's official cultural-participation evidence with recovery, physical-digital overlap, platform subscription, and sex-differentiated practice signals. It does not estimate causal effects of platformization, household affordability, frequency intensity beyond the reported windows, or equivalence with Mexico's redesigned MODECULT population and instrument.",
+  "retrieval_hash": "sha256:3ece00446c72d528edc755f1ab9d8e62829b2d0f7534a2998309b4a4d15e32d6"
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-penguin-random-house-moments-fall-2026-reality-ritual-consumer",
+  "title": "Consumers are using human credibility, active preservation, personal rituals, and slower comparison to navigate an AI-saturated cultural environment",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "time_hidden_price",
+    "political_judgment_action"
+  ],
+  "source_unit": "Penguin Random House Consumer Insights, Moments Fall 2026 / Fall 2026 Publishing Trends: Grappling with Reality, September 2026",
+  "geography": "Consumer and cultural trends discussed for the U.S. fall 2026 publishing and holiday-marketing environment",
+  "observations": [
+    {
+      "period": "Fall 2026; cultural sense-making",
+      "denominator": {"value": 1, "unit": "Penguin Random House Consumer Insights quarterly trend synthesis", "value_type": "published_trend_framework"},
+      "measures": {
+        "reality_pressure": {"value": "AI, rage bait, shifting norms, and post-truth politics are described as making reality harder to parse despite information abundance", "unit": "reported cultural condition", "value_type": "reported_mechanism_set"},
+        "human_anchors": {"value": "real voices, visible imperfections, trusted experts, personal taste, firsthand experience, and things clearly made or explained by people are presented as consumer anchors", "unit": "reported meaning and trust route", "value_type": "reported_mechanism_set"},
+        "analytic_signal": {"value": "cultural credibility is shifting toward provenance, embodiment, and recognizable human judgment rather than sheer information volume", "unit": "analytic trust mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the report is a publisher's consumer-trend synthesis, not a representative public-opinion estimate or causal media-effects study", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Penguin Random House Consumer Insights quarterly trend report drawing on diverse trend sources, sales analysis, and internal backlist and metadata expertise.",
+      "uncertainty": "The publication does not provide a single probability sample, harmonized survey instrument, or causal estimate for the described cultural shifts.",
+      "subgroup": "Readers, book consumers, cultural audiences, and shoppers in the publisher's fall 2026 market context.",
+      "counterinterpretation": "Human-authenticity language may partly reflect publisher positioning and marketing strategy rather than a broad change in consumer behavior.",
+      "source_url": "https://authornews.penguinrandomhouse.com/fall-2026-publishing-trends-grappling-with-reality/",
+      "retrieval_hash": "sha256:e985d253a2f04f618bd1022319eb79cf1a1776b87fe2753fec2579b998c565c4",
+      "status": "reported"
+    },
+    {
+      "period": "Fall 2026; memory and digital archives",
+      "denominator": {"value": 1, "unit": "Moments Fall 2026 trend theme", "value_type": "published_trend_theme"},
+      "measures": {
+        "archive_condition": {"value": "more of life is digitally captured while feeling both overdocumented and strangely disposable", "unit": "reported cultural condition", "value_type": "reported_mechanism"},
+        "preservation_response": {"value": "consumers are described as shifting toward more active and intentional preservation of what gets saved, remembered, and passed forward", "unit": "reported consumer practice", "value_type": "reported_behavioral_direction"},
+        "identity_route": {"value": "preservation becomes a choice about memory, inheritance, and who controls the record of everyday life", "unit": "analytic cultural mechanism", "value_type": "analytic_mechanism"},
+        "open_test": {"value": "join digital capture, deletion or retention choice, household archive practice, platform dependence, intergenerational transfer, and later identity or belonging", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Qualitative trend framing in the publisher's quarterly consumer-insights synthesis.",
+      "uncertainty": "The report does not quantify how widespread active preservation is, which technologies or social groups drive it, or whether it produces durable wellbeing or belonging.",
+      "subgroup": "Digitally documenting consumers, families, readers, collectors, and people making choices about personal or intergenerational archives.",
+      "counterinterpretation": "The apparent move toward preservation may be concentrated among consumers with sufficient time, storage, money, or cultural interest to curate archives.",
+      "source_url": "https://authornews.penguinrandomhouse.com/fall-2026-publishing-trends-grappling-with-reality/",
+      "retrieval_hash": "sha256:e985d253a2f04f618bd1022319eb79cf1a1776b87fe2753fec2579b998c565c4",
+      "status": "reported"
+    },
+    {
+      "period": "Fall 2026; milestones, rituals, and identity",
+      "denominator": {"value": 1, "unit": "Moments Fall 2026 trend theme", "value_type": "published_trend_theme"},
+      "measures": {
+        "milestone_change": {"value": "traditional milestones are described as more delayed, nonlinear, or less universal", "unit": "reported life-course condition", "value_type": "reported_mechanism"},
+        "minorstone_culture": {"value": "smaller thresholds, everyday wins, personal firsts, seasonal rituals, and identity-defining progress points take on greater emotional weight", "unit": "reported cultural practice", "value_type": "reported_mechanism_set"},
+        "meaning_route": {"value": "people are increasingly described as marking growth and life transitions on their own timelines rather than relying only on inherited milestones", "unit": "analytic meaning mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the report identifies a cultural vocabulary and market opportunity, not a demographic explanation of delayed milestones or proof that rituals improve wellbeing", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Qualitative cultural trend synthesis informed by consumer-insights and publishing-market analysis.",
+      "uncertainty": "The report does not separate age, income, family status, cultural background, or economic constraint as explanations for nonlinear milestones.",
+      "subgroup": "Readers and consumers navigating life-course transitions, personal identity, and seasonal or household rituals.",
+      "counterinterpretation": "Personalized milestone language may commercialize structural delay or turn material constraint into an individual lifestyle narrative.",
+      "source_url": "https://authornews.penguinrandomhouse.com/fall-2026-publishing-trends-grappling-with-reality/",
+      "retrieval_hash": "sha256:e985d253a2f04f618bd1022319eb79cf1a1776b87fe2753fec2579b998c565c4",
+      "status": "reported"
+    },
+    {
+      "period": "Fall 2026; holiday shopping and discovery",
+      "denominator": {"value": 1, "unit": "Moments Fall 2026 shopping-trend synthesis", "value_type": "published_market_framework"},
+      "measures": {
+        "spending_stability": {"value": 51, "unit": "percent of shoppers cited as planning to spend about the same this year", "value_type": "secondary_reported_share"},
+        "research_behavior": {"value": "lower customer confidence is associated in the report with longer shopping timelines, more comparison, earlier planning, and waiting for key sales moments", "unit": "reported consumer route", "value_type": "reported_mechanism_set"},
+        "deal_orientation": {"value": 73, "unit": "percent of shoppers cited as planning to shop on Black Friday", "value_type": "secondary_reported_share"},
+        "ai_discovery": {"value": "the report says roughly 19% of consumers used AI for holiday shopping in the prior year, especially to compare products, find prices, and get gift ideas", "unit": "reported AI-shopping use", "value_type": "secondary_reported_share"}
+      },
+      "method": "Publisher consumer-insights synthesis using cited third-party shopping, sales, and marketing sources; figures retain their secondary-source status.",
+      "uncertainty": "The cited estimates use different samples, dates, definitions, and source methods; they should not be combined into one consumer panel or interpreted as a causal effect of confidence on shopping time.",
+      "subgroup": "Holiday shoppers and gift buyers in the publisher's market context.",
+      "counterinterpretation": "Longer research and deal-seeking may reflect normal seasonal shopping or retailer promotion rather than a durable shift in consumer confidence or values.",
+      "source_url": "https://authornews.penguinrandomhouse.com/fall-2026-publishing-trends-grappling-with-reality/",
+      "retrieval_hash": "sha256:e985d253a2f04f618bd1022319eb79cf1a1776b87fe2753fec2579b998c565c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-22-gartner-marketing-survuey-finds-35-percent-of-consumers-rely-on-influencers-less-due-to-ai", "claim": "Gartner provides a complementary quantitative AI-content trust signal about consumers relying less on influencers and more on real people."},
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026", "claim": "Ipsos supplies complementary cross-market evidence on local, familiar, and values-aligned trust in consumer choices."}
+  ],
+  "boundary": "This record adds a cultural-consumer route from AI saturation and fragmented reality through human credibility, preservation, personal rituals, shopping research, deals, and AI-assisted discovery. It is a publisher's aggregate trend synthesis with cited secondary figures, not representative public opinion, individual purchase histories, causal media evidence, or proof that the described practices are universal or durable.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Penguin Random House News for Authors publication was reviewed for the Moments Fall 2026 trend themes, shopping figures, cited source boundaries, and methodology statement.",
+    "source_url_sha256": "sha256:e985d253a2f04f618bd1022319eb79cf1a1776b87fe2753fec2579b998c565c4",
+    "checked": "2026-09-26"
+  }
+}

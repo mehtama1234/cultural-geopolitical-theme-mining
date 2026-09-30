@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-south-asia-formalization-child-labour-voice-2026",
+  "title": "Formalization, worker voice, social protection, and child-labour prevention are being built as one connected governance system in South Asia",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "public_systems_feedback", "unequal_exposure_status", "care_health_reproduction", "household_room_consumption", "geopolitical_state_consequences"],
+  "source_unit": "ILO news report on Japan-supported PRS Phase 2 and PPLL initiatives in South Asia, published 21 September 2026",
+  "geography": "India, Nepal, and Pakistan, with regional South Asia and Japan-ILO partnership implications",
+  "observations": [
+    {
+      "period": "2022–2026; PRS Phase 2 formalization and social-inclusion work",
+      "denominator": {"value": 23208, "unit": "informal-economy workers across India, Nepal, and Pakistan reached by the reported project", "value_type": "reported_beneficiary_count"},
+      "measures": {
+        "formal_employment": {"value": "enhanced access to formal employment", "unit": "reported programme result", "value_type": "reported_outcome"},
+        "social_protection": {"value": "enhanced access to social protection", "unit": "reported programme result", "value_type": "reported_outcome"},
+        "voice": {"value": "greater voice and representation", "unit": "reported programme result", "value_type": "reported_outcome"},
+        "workers_reached": {"value": 23208, "unit": "workers", "value_type": "reported_beneficiary_count"}
+      },
+      "method": "ILO closeout report summarizing project results and a multi-actor workshop; it is not an independent impact evaluation or representative survey.",
+      "uncertainty": "The report does not provide a counterfactual, worker-level distribution of results, persistence after project close, or independent verification of every reported outcome.",
+      "subgroup": "Informal workers, domestic workers, construction workers, sanitation workers, women, vulnerable workers, employers, and workers' organizations in the three countries.",
+      "counterinterpretation": "Formalization can improve rights and protection, but registration costs, employer resistance, documentation barriers, or poorly designed enforcement can exclude workers or reduce livelihood flexibility.",
+      "source_url": "https://www.ilo.org/resource/news/japan-supported-ilo-initiatives-strengthen-protections-workers-and-children",
+      "retrieval_hash": "sha256:420edf8f6cb88907f9770b2f5e5b58a30ced67dc236097223754d4f62302d954",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2026; policy and legislative implementation in targeted sectors",
+      "denominator": {"value": 13, "unit": "policy and legislative measures the PRS project contributed to adopting and implementing", "value_type": "reported_measure_count"},
+      "measures": {
+        "policy_measures": {"value": 13, "unit": "measures", "value_type": "reported_measure_count"},
+        "wage_reform": {"value": "wage reforms for domestic and sanitation workers in Bihar, India, and domestic workers in Punjab, Pakistan", "unit": "reported policy examples", "value_type": "reported_policy_change"},
+        "sectoral_policy": {"value": "policies promoting formal, decent, safe, and inclusive workplaces in Nepal's waste-management sector", "unit": "reported policy example", "value_type": "reported_policy_change"}
+      },
+      "method": "ILO project closeout account linking formalization work to named policy and legislative measures.",
+      "uncertainty": "Adoption and implementation of measures do not by themselves establish enforcement quality, coverage, wage gains, or improved working conditions for all workers in the sectors.",
+      "subgroup": "Domestic workers, sanitation workers, waste-management workers, employers, labour ministries, inspectors, unions, and local implementers.",
+      "counterinterpretation": "Policy change may remain uneven across jurisdictions and workplaces; sectoral rules can be difficult to enforce where employment is informal or fragmented.",
+      "source_url": "https://www.ilo.org/resource/news/japan-supported-ilo-initiatives-strengthen-protections-workers-and-children",
+      "retrieval_hash": "sha256:420edf8f6cb88907f9770b2f5e5b58a30ced67dc236097223754d4f62302d954",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; child-labour prevention in supply-chain and mining communities",
+      "denominator": {"value": 4, "unit": "named vulnerable supply-chain or sector contexts: mica, natural stone, carpet, and brick", "value_type": "reported_context_count"},
+      "measures": {
+        "supply_chain_contexts": {"value": "mica and natural stone sectors in India; carpet and brick supply chains in Nepal", "unit": "named supply-chain contexts", "value_type": "reported_context_set"},
+        "institutional_tools": {"value": "stronger policies and enforcement, research, community action, child-labour legislative reform, a hazardous-work list, labour-force-survey integration, and referral mechanisms", "unit": "reported intervention set", "value_type": "reported_governance_mechanism"},
+        "community_route": {"value": "Child Labour Free Zone approaches and community-level identification of underlying causes were used alongside formal institutions", "unit": "reported implementation route", "value_type": "reported_community_mechanism"}
+      },
+      "method": "ILO description of the PPLL project in India and Nepal, including supply-chain, legislative, survey, referral, and community mechanisms.",
+      "uncertainty": "The report does not establish the prevalence of child labour before and after intervention, the full supply-chain coverage, or causal effects on household income and schooling.",
+      "subgroup": "Children, families connected to supply chains, mining communities, employers, local governments, schools, protection services, and community organizations.",
+      "counterinterpretation": "Enforcement without household income support can displace child labour into less visible work; referral systems may exist formally without sufficient service capacity.",
+      "source_url": "https://www.ilo.org/resource/news/japan-supported-ilo-initiatives-strengthen-protections-workers-and-children",
+      "retrieval_hash": "sha256:420edf8f6cb88907f9770b2f5e5b58a30ced67dc236097223754d4f62302d954",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; Japan-South Asia development and labour-governance partnership",
+      "denominator": {"value": 1, "unit": "ILO-Japan partnership programme connecting governments, employers, workers, development partners, and Japanese public actors", "value_type": "reported_partnership_frame"},
+      "measures": {
+        "multi_actor_route": {"value": "governments, employers' and workers' organizations, development partners, communities, workers, and children were connected through the initiatives and closing workshop", "unit": "reported governance coalition", "value_type": "reported_participation_frame"},
+        "regional_learning": {"value": "project knowledge, partnerships, and lessons are positioned for continued efforts across Asia and the Pacific", "unit": "reported cooperation direction", "value_type": "reported_policy_direction"},
+        "geopolitical_mechanism": {"value": "Japanese development support is translated through ILO institutions into formalization, social protection, worker voice, gender, and child-labour governance in South Asia", "unit": "bounded development-governance mechanism", "value_type": "reported_partnership_mechanism"}
+      },
+      "method": "Official ILO account of a Japan-funded partnership and regional closeout workshop.",
+      "uncertainty": "The source does not establish donor additionality, long-term financing, regional diffusion, or how local actors contest or reshape the partnership agenda.",
+      "subgroup": "South Asian workers and children, local communities, national governments, social partners, Japanese public actors, and ILO institutions.",
+      "counterinterpretation": "External partnership funding can strengthen local systems, but it can also privilege donor-defined priorities or produce project dependence if domestic institutions and financing do not persist.",
+      "source_url": "https://www.ilo.org/resource/news/japan-supported-ilo-initiatives-strengthen-protections-workers-and-children",
+      "retrieval_hash": "sha256:420edf8f6cb88907f9770b2f5e5b58a30ced67dc236097223754d4f62302d954",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/policies-partnerships-learning-local-empowerment-ppll-regional-child-labour-project-south", "claim": "ILO project page for the regional child-labour project in South Asia."},
+    {"source_url": "https://www.ilo.org/resource/project/promoting-rights-and-social-inclusion-through-organization-and-formalization-prs-phase-2-nepal-component", "claim": "ILO project page for the formalization and social-inclusion component."}
+  ],
+  "boundary": "This record identifies a connected governance route from informality and child-labour risk to formalization, social protection, worker voice, gender equality, community action, and international partnership. It uses an official programme closeout account, not an independent causal evaluation, representative survey, complete beneficiary census, or proof of durable post-project outcomes.",
+  "retrieval_hash": "sha256:420edf8f6cb88907f9770b2f5e5b58a30ced67dc236097223754d4f62302d954"
+}

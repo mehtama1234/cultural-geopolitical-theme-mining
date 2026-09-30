@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-child-care-industry-cwelcc-consolidation-2026",
+  "title": "Publicly supported childcare is expanding economically while consolidating into fewer larger providers, leaving the space, quality, and family-stability route open",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Statistics Canada, The early learning and child care industry in Canada: An update to the 2021 report",
+  "geography": "Canada; administrative and government-ledger analysis through 2022, with provincial and territorial comparisons",
+  "observations": [
+    {
+      "period": "2013-2022; child-care industry structure and consolidation",
+      "denominator": {"value": null, "unit": "Canadian child-care businesses identified through administrative tax and business-register data; industry counts include incorporated and unincorporated businesses", "value_type": "not_disclosed"},
+      "measures": {
+        "business_count_2013": {"value": 114254, "unit": "child-care businesses", "value_type": "reported_count"},
+        "business_count_2022": {"value": 78465, "unit": "child-care businesses", "value_type": "reported_count"},
+        "incorporated_share_2022": {"value": 13.6, "unit": "percent of child-care businesses that were incorporated in 2022", "value_type": "reported_share"},
+        "incorporated_gdp_position": {"value": "Incorporated businesses, typically associated with centres, generated a much larger share of GDP than their business count share", "unit": "reported industry structure", "value_type": "reported_pattern"},
+        "consolidation": {"value": "The number of unincorporated, often home-based businesses fell while incorporated businesses increased, indicating consolidation into larger providers", "unit": "reported structural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Statistics Canada administrative Business Register, tax-filing data, and Canadian Employer–Employee Dynamics Database analysis; unincorporated businesses often represent home-based care without employees, while incorporated businesses more often represent centres.",
+      "uncertainty": "Business type is not a direct measure of licensed status, child-care spaces, quality, family experience, or market concentration in local markets; the report cautions that many dimensions cannot be observed in the data.",
+      "subgroup": "Incorporated and unincorporated child-care businesses, centre-based and home-based providers, female-owned businesses, employees, families, and children aged 0 to 5.",
+      "counterinterpretation": "The decline in business counts may partly reflect classification, incorporation, reporting, or pandemic exit dynamics rather than a simple loss of care capacity; GDP concentration does not prove reduced choice for families.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026006/article/00001-eng.pdf",
+      "retrieval_hash": "sha256:1f27c58aed6a9579517383ffc1feaf6e2fe08467e86ed55aefbd26328e720c6e",
+      "status": "reported"
+    },
+    {
+      "period": "2016-2022; economic scale and public funding",
+      "denominator": {"value": null, "unit": "Canadian early learning and child-care industry GDP and government transfer/expenditure estimates; not a household sample", "value_type": "not_disclosed"},
+      "measures": {
+        "industry_gdp_2016": {"value": 15.2, "unit": "billion Canadian dollars of child-care businesses and child care in the education system GDP", "value_type": "reported_industry_gdp"},
+        "industry_gdp_2022": {"value": 23.2, "unit": "billion Canadian dollars of child-care businesses and child care in the education system GDP", "value_type": "reported_industry_gdp"},
+        "government_transfers_2013": {"value": 5.4, "unit": "billion Canadian dollars in government transfers and expenditures on early learning and child care", "value_type": "reported_public_spending"},
+        "government_transfers_2022": {"value": 9.0, "unit": "billion Canadian dollars in government transfers and expenditures on early learning and child care", "value_type": "reported_public_spending"},
+        "cwelcc_timing": {"value": "GDP and government spending increased substantially after the Canada-wide Early Learning and Child Care system began in 2021", "unit": "reported temporal association", "value_type": "reported_association"},
+        "care_as_consumption": {"value": "GDP is interpreted as the final value of child-care consumption, linking public investment, provider economics, and family care access", "unit": "reported accounting interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Combined business administrative data, government ledger files, education-system estimates, and provincial/territorial expenditure information to create comparable GDP estimates.",
+      "uncertainty": "Nominal GDP growth does not separate quantity from price or wage growth; temporal association with CWELCC is not a causal evaluation of fees, spaces, quality, parent employment, or child outcomes.",
+      "subgroup": "Families using or needing care, child-care providers, provincial/territorial governments, education systems, and the early-childhood workforce.",
+      "counterinterpretation": "Higher GDP and public expenditure can coexist with shortages, unequal access, fee pressure, or quality constraints; aggregate economic expansion is not equivalent to usable care.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026006/article/00001-eng.pdf",
+      "retrieval_hash": "sha256:1f27c58aed6a9579517383ffc1feaf6e2fe08467e86ed55aefbd26328e720c6e",
+      "status": "reported"
+    },
+    {
+      "period": "2013-2022; provider entry, exit, and family continuity",
+      "denominator": {"value": null, "unit": "Canadian early learning and child-care employer businesses with at least one employee; home-based businesses without employees are excluded from business-dynamics estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "elcc_exit_relative": {"value": "Early learning and child-care employer businesses had higher exit rates than the broader business sector for much of the study period", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "small_provider_exit": {"value": "Higher exit rates were driven by businesses with one to five employees, while larger businesses had lower exit rates", "unit": "reported business-dynamics pattern", "value_type": "reported_mechanism"},
+        "pandemic_exit_all_employers": {"value": 17.5, "unit": "percent exit rate for all employer businesses in 2020", "value_type": "reported_exit_rate"},
+        "pandemic_exit_elcc": {"value": 13.1, "unit": "percent exit rate for early learning and child-care employer businesses in 2020", "value_type": "reported_exit_rate"},
+        "family_disruption": {"value": "Provider exit implies that families must search for new arrangements, making business instability a care-continuity risk", "unit": "reported policy interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Business-dynamics measures based on employer businesses, with definitions of entry, exit, temporary exit, and survival cohorts.",
+      "uncertainty": "Exit is not the same as a lost child-care space or family disruption in every case; the report cannot observe local substitution, waiting lists, quality, or whether a provider reopens.",
+      "subgroup": "Small and larger providers, families and children relying on arrangements, employees, and local care markets.",
+      "counterinterpretation": "Provider turnover can reflect healthy reallocation or incorporation rather than reduced service; a lower aggregate exit rate does not ensure stable care for a particular family.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026006/article/00001-eng.pdf",
+      "retrieval_hash": "sha256:1f27c58aed6a9579517383ffc1feaf6e2fe08467e86ed55aefbd26328e720c6e",
+      "status": "reported"
+    },
+    {
+      "period": "2022; regional provision and measurement boundaries",
+      "denominator": {"value": null, "unit": "Canadian provinces and territories; GDP estimates standardized using government spending and kindergarten/education information", "value_type": "not_disclosed"},
+      "measures": {
+        "regional_gdp_variation": {"value": "GDP per child aged 0 to 5 varied across provinces and territories, reflecting differences in provision, public spending, and formal schooling", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "quebec_context": {"value": "Quebec's universal child-care programme was associated with higher child-care use and higher GDP per child in the report's contextual discussion", "unit": "reported context; not causal estimate", "value_type": "reported_association"},
+        "northern_price_context": {"value": "Higher northern costs and service-delivery costs complicate comparisons of GDP per child", "unit": "reported caveat", "value_type": "reported_condition"},
+        "missing_space_quality": {"value": "The administrative data do not identify the number of spaces, full- versus part-time care, or quality of care", "unit": "explicit data boundary", "value_type": "not_measured"},
+        "measurement_gap": {"value": "Economic scale and public expenditure cannot substitute for direct measurement of usable care, continuity, quality, or family outcomes", "unit": "reported limitation", "value_type": "reported_boundary"}
+      },
+      "method": "Provincial and territorial comparison using administrative business, government ledger, education, and population data, with imputation where direct measurement was unavailable.",
+      "uncertainty": "Regional GDP per child is affected by prices, wages, population, schooling structures, subsidies, and informal care; it should not be read as a direct measure of service adequacy.",
+      "subgroup": "Families and providers in provinces, territories, northern communities, formal care, home-based care, kindergarten, and informal family arrangements.",
+      "counterinterpretation": "Lower measured GDP per child may reflect lower prices, different institutional arrangements, informal care, or under-measurement rather than worse family access.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026006/article/00001-eng.pdf",
+      "retrieval_hash": "sha256:1f27c58aed6a9579517383ffc1feaf6e2fe08467e86ed55aefbd26328e720c6e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026006/article/00001-eng.htm", "claim": "Statistics Canada HTML edition and publication metadata.", "status": "official-publication-page"},
+    {"source_url": "https://www.canada.ca/en/employment-social-development/programs/early-learning-child-care/progress-impact.html", "claim": "Government of Canada context on CWELCC implementation, workforce, spaces, and fees.", "status": "official-policy-context"}
+  ],
+  "boundary": "This record adds a care-economy and family-continuity layer: public funding and the CWELCC system coincide with industry GDP growth, provider consolidation, changing entry/exit dynamics, and a shift from smaller home-based businesses toward larger incorporated providers. It does not establish fee reduction, space creation, quality, family access, parent employment, child outcomes, market power, or causal policy effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada PDF reviewed for administrative sources, 2013-2022 industry counts, GDP, government transfers, CWELCC timing, business dynamics, regional caveats, and missing space/quality measures.",
+    "source_page_sha256": "sha256:1f27c58aed6a9579517383ffc1feaf6e2fe08467e86ed55aefbd26328e720c6e",
+    "checked": "2026-09-28"
+  }
+}

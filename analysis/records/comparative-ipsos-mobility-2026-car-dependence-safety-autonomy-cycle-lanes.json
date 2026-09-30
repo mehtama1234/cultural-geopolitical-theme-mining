@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-mobility-2026-car-dependence-safety-autonomy-cycle-lanes",
+  "title": "Mobility remains car-dependent and safety-constrained even as people support shared, active and lower-carbon alternatives",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Ipsos, Mobility Report 2026 / Global Advisor",
+  "geography": "31 countries and markets; global, regional and country comparisons",
+  "observations": [
+    {
+      "period": "2026; 31-country Ipsos Mobility Report",
+      "denominator": {"value": 23722, "unit": "adults surveyed across 31 countries and markets; country age frames vary", "value_type": "reported_sample_approximate"},
+      "measures": {
+        "car_free_impossibility": {"value": 43, "unit": "percent saying living without a car would be impossible", "value_type": "reported_share"},
+        "car_preference": {"value": 33, "unit": "percent saying the car is the transport mode they enjoy most", "value_type": "reported_share"},
+        "car_preference_country_count": {"value": 22, "unit": "countries out of 31 where the car is the most preferred transport mode", "value_type": "reported_count"},
+        "walking_enjoyment": {"value": 22, "unit": "percent saying walking is the transport mode they enjoy most", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor survey of mobility choices, enjoyment and perceived necessity across 31 countries and markets.",
+      "uncertainty": "Self-reported car dependence reflects built environment, work and care geography, income, disability, safety and preference; it is not a trip diary or causal estimate of infrastructure constraint.",
+      "subgroup": "Adults across 31 countries and markets, with country and regional variation.",
+      "counterinterpretation": "People may describe car ownership as impossible because it is convenient or socially expected rather than because no viable alternative exists.",
+      "source_url": "https://www.ipsos.com/en/ipsos-mobility-report-2026",
+      "retrieval_hash": "sha256:17df30056ab605082c68726638ad83fee5be7ce94c6c7397d21f73dfc37324ec",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived access, affordability and safety of public transport",
+      "denominator": {"value": 31, "unit": "countries and markets in the Ipsos Mobility Report", "value_type": "reported_population"},
+      "measures": {
+        "public_transport_accessible": {"value": 62, "unit": "average percent viewing public transport as accessible", "value_type": "reported_share"},
+        "public_transport_safe": {"value": 62, "unit": "average percent viewing public transport as safe", "value_type": "reported_share"},
+        "rural_access_affordability_boundary": {"value": "Affordability and access lag in rural areas", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"},
+        "public_transport_and_care": {"value": "Mobility determines who can reach jobs, schools and care", "unit": "reported program framing", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-national public-attitude comparison of transport access, safety and affordability, interpreted in relation to inclusion and daily destinations.",
+      "uncertainty": "Perceived access and safety do not establish service frequency, reliability, travel time, fare burden or actual ability to reach essential destinations.",
+      "subgroup": "Residents across 31 countries and markets, with rural/urban and age differences noted in the report.",
+      "counterinterpretation": "A transport mode can be perceived as accessible and safe while remaining unusable for people with irregular schedules, disabilities, care burdens or long-distance commutes.",
+      "source_url": "https://www.ipsos.com/en/ipsos-mobility-report-2026",
+      "retrieval_hash": "sha256:17df30056ab605082c68726638ad83fee5be7ce94c6c7397d21f73dfc37324ec",
+      "status": "reported"
+    },
+    {
+      "period": "2026; road safety and traffic-policy preferences",
+      "denominator": {"value": 31, "unit": "countries and markets in the Ipsos Mobility Report", "value_type": "reported_population"},
+      "measures": {
+        "road_safety_concern": {"value": 55, "unit": "percent worried about road safety in their area", "value_type": "reported_share"},
+        "residential_speed_limit_support": {"value": 70, "unit": "percent supporting lower speed limits in residential areas", "value_type": "reported_share"},
+        "motorway_speed_limit_support": {"value": 56, "unit": "percent supporting lower speed limits on motorways or freeways", "value_type": "reported_share"},
+        "g7_motorway_support": {"value": 45, "unit": "percent support for lower motorway speed limits among G7 countries", "value_type": "reported_share"}
+      },
+      "method": "Cross-national survey of perceived road danger and support for traffic-law and speed-limit interventions.",
+      "uncertainty": "Support for rules is an attitude measure; it does not estimate compliance, enforcement, travel-time trade-offs or crash reduction.",
+      "subgroup": "Adults across 31 countries and markets, with comparisons across residential and motorway settings and the G7.",
+      "counterinterpretation": "People may support safety interventions where they see direct local risk while resisting changes that threaten speed, freight or long-distance mobility.",
+      "source_url": "https://www.ipsos.com/en/ipsos-mobility-report-2026",
+      "retrieval_hash": "sha256:17df30056ab605082c68726638ad83fee5be7ce94c6c7397d21f73dfc37324ec",
+      "status": "reported"
+    },
+    {
+      "period": "2026; autonomy, cycling and electrification",
+      "denominator": {"value": 31, "unit": "countries and markets in the Ipsos Mobility Report", "value_type": "reported_population"},
+      "measures": {
+        "self_driving_safe": {"value": 36, "unit": "percent who would feel safe riding in a self-driving car", "value_type": "reported_share"},
+        "self_driving_unsafe": {"value": 36, "unit": "percent who would feel unsafe riding in a self-driving car", "value_type": "reported_share"},
+        "dedicated_cycle_lane_support": {"value": 67, "unit": "percent supporting dedicated cycle lanes on roads", "value_type": "reported_share"},
+        "cycle_lane_opposition": {"value": 12, "unit": "percent opposed to dedicated cycle lanes", "value_type": "reported_share"},
+        "ev_appeal": {"value": 47, "unit": "percent finding driving an electric vehicle appealing", "value_type": "reported_share"},
+        "ev_adoption_expectation": {"value": 53, "unit": "percent expecting many consumers to adopt EVs by 2030", "value_type": "reported_share"}
+      },
+      "method": "Cross-national comparison of trust in autonomous vehicles, support for active-mobility infrastructure and expectations about EV adoption.",
+      "uncertainty": "Stated safety and appeal do not predict purchase, use or local consent; autonomous-vehicle and EV views depend on infrastructure, price, privacy, reliability and policy context.",
+      "subgroup": "Adults across 31 countries and markets; Ipsos reports higher self-driving confidence in Asia-Pacific and Latin America and greater unease in Europe and North America.",
+      "counterinterpretation": "Public support for cycle lanes and EVs can coexist with continued car dependence because people may support alternatives without having a feasible substitute for daily travel.",
+      "source_url": "https://www.ipsos.com/en/ipsos-mobility-report-2026",
+      "retrieval_hash": "sha256:17df30056ab605082c68726638ad83fee5be7ce94c6c7397d21f73dfc37324ec",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/sites/default/files/ct/publication/documents/2026-04/Ipsos-Update-April-2026_0.pdf", "claim": "Official Ipsos April 2026 publication PDF containing the Mobility Report summary and headline figures."},
+    {"source_url": "https://www.ipsos.com/fr-fr/ipsos-mobility-report-2026-letat-des-lieux-inedit-de-la-mobilite-mondiale", "claim": "Official Ipsos country-language report page with additional autonomy, car-dependence and road-safety comparisons."}
+  ],
+  "boundary": "This record adds a mobility-dependency mechanism: people remain attached to cars because access, time and daily destinations are structured around them, while broad support exists for safer streets, cycle lanes, public transport and lower-carbon vehicles. It is a cross-national public-attitude survey, not a travel diary, service-quality audit, crash dataset, engineering assessment or proof that stated support produces modal shift.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Mobility Report page, April 2026 publication PDF and French report page were retrieved and reviewed for car dependence, mode enjoyment, public-transport access and safety, rural boundary, road-safety concern, speed-limit support, autonomous-vehicle trust, cycle-lane support and EV expectations; the official summary PDF was hashed.",
+    "source_url_sha256": "sha256:17df30056ab605082c68726638ad83fee5be7ce94c6c7397d21f73dfc37324ec",
+    "checked": "2026-09-27"
+  }
+}

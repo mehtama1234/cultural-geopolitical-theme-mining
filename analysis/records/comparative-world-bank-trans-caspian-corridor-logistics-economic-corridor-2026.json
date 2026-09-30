@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-trans-caspian-corridor-logistics-economic-corridor-2026",
+  "title": "A transport route becomes a regional economic corridor only when operations, institutions and local links work",
+  "theme_ids": ["cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank, Integration: World-Class Trade Logistics Along the Trans-Caspian Transport Corridor, September 2026",
+  "geography": "Trans-Caspian Transport Corridor / Middle Corridor: Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyz Republic, Tajikistan, Türkiye, Turkmenistan and Uzbekistan; Europe–Asia trade route",
+  "observations": [
+    {
+      "period": "2023–2040; World Bank scenario for corridor trade and economic effects",
+      "denominator": {"value": 9, "unit": "countries along the Trans-Caspian Transport Corridor", "value_type": "reported_corridor_scenario_frame"},
+      "measures": {
+        "population": {"value": 200, "unit": "approximately million people living in the nine corridor countries", "value_type": "reported_population_frame"},
+        "trade_volume": {"value": "targeted investments could more than triple trade volumes; infrastructure paired with trade and transport reforms could quadruple corridor volumes compared with 2023", "unit": "World Bank scenario", "value_type": "reported_projection"},
+        "travel_time": {"value": "travel times could be halved, or fall by two-thirds when infrastructure is paired with efficiency reforms", "unit": "World Bank scenario relative to 2023", "value_type": "reported_projection"},
+        "growth_jobs": {"value": "GDP could rise by 3.3% and 2 million additional jobs could be created across host countries", "unit": "World Bank scenario through 2040", "value_type": "reported_projection"},
+        "mechanism": {"value": "A corridor creates broad social value only when lower logistics time and cost convert into local market access, firm growth, jobs and reliable routing choices rather than merely faster transit", "unit": "bounded corridor-conversion mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank corridor report combining trade, logistics, infrastructure, operational, institutional and scenario analysis across the 2023–2040 horizon.",
+      "uncertainty": "All trade, travel-time, GDP and jobs figures are modelled or reported scenarios, not observed effects; gains differ by country and depend on infrastructure, reforms, demand, geopolitical conditions and implementation.",
+      "subgroup": "Nearly 200 million residents of corridor countries, landlocked economies, shippers, logistics firms, port and rail workers, producers, consumers, local communities and firms seeking access to Eurasian markets.",
+      "counterinterpretation": "Large corridors can concentrate investment around hubs, displace local routes, create uneven bargaining power, increase environmental exposure or make smaller economies dependent on a single strategic network.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/c992e1a4-aec3-4847-920e-9da63ac2c777/download",
+      "retrieval_hash": "sha256:48dbac9f4a2f2d45ff62ba87ac71cd49f0aa0fa6876df2de7ce78060a3ad3a45",
+      "status": "reported"
+    },
+    {
+      "period": "2026; corridor performance, bottlenecks and operational governance",
+      "denominator": {"value": 16, "unit": "most critical infrastructure investments identified by the World Bank for the corridor", "value_type": "reported_investment_frame"},
+      "measures": {
+        "investment_status": {"value": "75% of the 16 most critical infrastructure investments are ongoing, while the remainder are embedded in government plans and expected to proceed", "unit": "reported share of identified investments", "value_type": "reported_status"},
+        "capital_needs": {"value": "at least $25 billion is needed through 2040 for physical infrastructure, plus about $30.5 billion for enabling investments that connect local economies, logistics hubs and terminals", "unit": "reported investment estimate", "value_type": "reported_estimate"},
+        "primary_challenge": {"value": "the report identifies operational and non-infrastructure improvements as the likely primary challenge: border delays, fragmented governance, uneven implementation, weak service delivery and poor coordination", "unit": "reported constraint set", "value_type": "reported_diagnostic"},
+        "mechanism": {"value": "Infrastructure completion is not corridor usability: predictable movement depends on shared documents, coordinated hubs, reliable operators, performance monitoring and cross-border decisions", "unit": "bounded infrastructure-to-usability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank assessment of physical bottlenecks, corridor performance, state-owned enterprise governance, trade facilitation, digitalisation and enabling investment needs.",
+      "uncertainty": "Investment status and needs are report estimates and plans; the source does not establish procurement completion, construction quality, operational reliability, worker outcomes, user costs or equitable local access.",
+      "subgroup": "Rail, port and shipping state-owned enterprises, transport operators, border agencies, customs users, logistics workers, small firms, local governments and communities near hubs and feeder links.",
+      "counterinterpretation": "A single digital corridor system or integrated operator could simplify movement but also centralise data, reduce institutional redundancy, weaken local discretion, or increase dependence on a dominant operator or state-owned network.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/c992e1a4-aec3-4847-920e-9da63ac2c777/download",
+      "retrieval_hash": "sha256:48dbac9f4a2f2d45ff62ba87ac71cd49f0aa0fa6876df2de7ce78060a3ad3a45",
+      "status": "reported"
+    },
+    {
+      "period": "2026; strategic resilience, routing choice and corridor-to-economic-platform transition",
+      "denominator": {"value": 1, "unit": "Trans-Caspian regional logistics and economic-corridor system", "value_type": "reported_geopolitical_frame"},
+      "measures": {
+        "external_shocks": {"value": "the report situates the corridor amid supply-chain disruption, protectionism, climate impacts and weather shocks including floods and droughts", "unit": "reported risk context", "value_type": "reported_risk_set"},
+        "strategic_assets": {"value": "corridor countries include major producers of energy, critical minerals, raw materials and food products; a functioning route could reduce vulnerability to external shocks and create routing choice", "unit": "reported strategic-resource context", "value_type": "reported_geopolitical_finding"},
+        "digital_operating_model": {"value": "the recommended single digital corridor system would provide one entry point for transport, transit and trade data, alongside a joint rail-freight and trans-Caspian shipping operator", "unit": "reported operating proposal", "value_type": "reported_policy_proposal"},
+        "mechanism": {"value": "Geopolitical resilience is being built through mundane interoperability: routing choice, data standards, commercial coordination and local economic links can turn a strategic bypass into a legitimate regional platform", "unit": "bounded geopolitical-infrastructure mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank synthesis of corridor strategy, trade logistics, regional integration, climate and supply-chain risk, operator governance and digital trade facilitation.",
+      "uncertainty": "A second route may diversify options but does not guarantee resilience, peace, domestic value capture or lower prices; the report does not evaluate security externalities, political contestation, environmental impacts or distributional outcomes.",
+      "subgroup": "Corridor governments, energy and commodity producers, shippers, consumers dependent on imported goods, firms seeking alternative routes, border communities and workers in logistics and related industries.",
+      "counterinterpretation": "Strategic corridor investment can intensify great-power competition, deepen resource dependence, expose communities to land and environmental costs, or shift route power toward ports, operators and states with greater capital.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/c992e1a4-aec3-4847-920e-9da63ac2c777/download",
+      "retrieval_hash": "sha256:48dbac9f4a2f2d45ff62ba87ac71cd49f0aa0fa6876df2de7ce78060a3ad3a45",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/region/eca/publication/world-class-trade-logistics-along-trans-caspian-transport-corridor", "claim": "Official World Bank publication page with overview, key messages, investment needs, operational constraints, chapter summaries and report links."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/09/28/trans-caspian-transport-corridor-investments-spur-growth-and-create-millions-jobs", "claim": "Official World Bank release summarising the 2040 trade, travel-time, GDP, jobs, infrastructure and enabling-investment scenarios."}
+  ],
+  "boundary": "This record identifies a corridor-operational, regional-economic and geopolitical-resilience subtheme. It does not establish that the Trans-Caspian Transport Corridor will achieve the reported trade, travel-time, GDP or jobs scenarios, lower consumer prices, improve worker welfare, diversify geopolitical risk, or distribute gains equitably; those require named corridor projects and operating episodes with observed construction, clearance, reliability, cost, employment, local value capture, environmental exposure, remedy and political response.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank 2026 report PDF, publication page and press release were reviewed for corridor geography, scenario estimates, physical and enabling investment needs, bottlenecks, state-owned-enterprise governance, digital T3 proposal, routing choice, climate and supply-chain risk, and corridor-to-economic-platform framing.",
+    "source_url_sha256": "sha256:48dbac9f4a2f2d45ff62ba87ac71cd49f0aa0fa6876df2de7ce78060a3ad3a45",
+    "checked": "2026-09-29"
+  }
+}

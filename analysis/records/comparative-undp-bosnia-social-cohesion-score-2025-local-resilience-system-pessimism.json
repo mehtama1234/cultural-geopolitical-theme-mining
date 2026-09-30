@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-bosnia-social-cohesion-score-2025-local-resilience-system-pessimism",
+  "title": "Local coexistence can remain resilient while system-level pessimism and institutional distrust weaken civic capacity",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status", "geopolitical_state_consequences"],
+  "source_unit": "UNDP Bosnia and Herzegovina, Social Cohesion in Bosnia and Herzegovina: Key Trends Based on SCORE BiH 2025",
+  "geography": "Bosnia and Herzegovina; nationally representative and boosted locality survey coverage across all 16 regional-territorial units",
+  "observations": [
+    {
+      "period": "November 2025-February 2026; SCORE BiH 2025 social-cohesion assessment",
+      "denominator": {"value": 3170, "unit": "weighted nationally representative respondents, within an approximately 3,800-person total sample including locality boosters", "value_type": "national_survey_sample"},
+      "measures": {
+        "intergroup_harmony": {"value": 6.3, "unit": "score out of 10", "value_type": "reported_index"},
+        "inclusive_civic_identity": {"value": 6.6, "unit": "score out of 10", "value_type": "reported_index"},
+        "state_identification": {"value": 7.8, "unit": "score out of 10", "value_type": "reported_index"},
+        "intergroup_trust": {"value": 4.2, "unit": "score out of 10", "value_type": "reported_index"},
+        "local_community_cooperation": {"value": 6.7, "unit": "score out of 10", "value_type": "reported_index"}
+      },
+      "method": "UNDP SCORE BiH 2025 face-to-face CAPI survey using stratified sampling across all 16 regional-territorial units, with weighting for entity and ethnicity and locality boosters.",
+      "uncertainty": "The assessment is descriptive and diagnostic; it does not establish that local cooperation causes institutional trust, or that pessimism causes disengagement or susceptibility to divisive narratives. The 2020 comparison coincided with COVID-19 and is therefore an unusual baseline.",
+      "subgroup": "Residents across the Federation of Bosnia and Herzegovina, Republika Srpska, Brčko District, ethnic and geographic groups, and boosted localities.",
+      "counterinterpretation": "Moderate or improving cohesion scores do not mean reconciliation is deep: low intergroup trust and lukewarm positive feelings indicate that coexistence can be functional without being emotionally close.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/score_2025-executive_summary.pdf",
+      "retrieval_hash": "sha256:a6749214148d86d050d7192caacd7adb593b9f748d42d2422953b360b6668c27",
+      "status": "reported"
+    },
+    {
+      "period": "2025; system-level expectations, institutional legitimacy, and constructive citizenship",
+      "denominator": {"value": 1, "unit": "SCORE BiH 2025 national diagnostic", "value_type": "comparative_social_cohesion_frame"},
+      "measures": {
+        "sense_of_progress": {"value": "weakest social-cohesion dimension", "unit": "reported national pattern", "value_type": "reported_pattern"},
+        "institutional_legitimacy": {"value": 6.9, "unit": "score out of 10", "value_type": "reported_index"},
+        "state_institution_trust": {"value": 4.3, "unit": "score out of 10", "value_type": "reported_index"},
+        "civic_awareness": {"value": 4.5, "unit": "score out of 10", "value_type": "reported_index"},
+        "civic_duty": {"value": 5.8, "unit": "score out of 10, up from 4.9 in 2020", "value_type": "reported_index"}
+      },
+      "method": "SCORE composite dimensions covering intergroup harmony, inclusive belonging, sense of progress, support for institutions, and constructive citizenship.",
+      "uncertainty": "Composite dimensions are context-specific measures of Bosnia and Herzegovina's social-cohesion concept and should not be treated as a universal cross-national scale without harmonization.",
+      "subgroup": "Citizens evaluating political stability, economic hardship, future expectations, institutions, civic knowledge, and local participation.",
+      "counterinterpretation": "Low civic awareness alongside relatively high community cooperation may reflect weak institutional pathways and information access rather than apathy or unwillingness to contribute.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/score_2025-executive_summary.pdf",
+      "retrieval_hash": "sha256:a6749214148d86d050d7192caacd7adb593b9f748d42d2422953b360b6668c27",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/governance", "claim": "UNDP governance programming context for social cohesion, institutional trust, and civic participation."}
+  ],
+  "boundary": "This record captures a country-specific social-cohesion diagnostic and its local-resilience/system-pessimism pattern. It is not respondent-level raw-data ingestion, a causal model of polarization, a forecast of political stability, or proof that proposed civic-participation interventions will work.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official nine-page UNDP executive summary was reviewed, including sample design, composite dimensions, scores, 2020 comparison caveat, and policy implications.",
+    "source_url_sha256": "sha256:a6749214148d86d050d7192caacd7adb593b9f748d42d2422953b360b6668c27",
+    "checked": "2026-09-28"
+  }
+}

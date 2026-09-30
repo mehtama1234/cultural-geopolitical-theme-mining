@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-jordan-prospects-cooperatives-refugee-inclusion-2026",
+  "title": "Jordan’s cooperative reforms show how shared ownership can connect refugee livelihoods, women’s agency, food production, and social cohesion—without removing legal or financial fragility",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "International Labour Organization, Cooperatives as pathways to advancing decent work and economic inclusion: Lessons learned from the PROSPECTS Jordan experience, 2026",
+  "geography": "Jordan, with refugees and vulnerable host-community members in displacement-affected agricultural and cooperative settings",
+  "observations": [
+    {
+      "period": "2019-2024 programme phase; displacement, labor-market and household pressure",
+      "denominator": {"value": 1, "unit": "PROSPECTS Jordan cooperative-development case context", "value_type": "published_case_context"},
+      "measures": {
+        "refugee_scale": {"value": "Jordan hosted approximately 710,000 refugees registered with UNHCR in early 2024, while a government estimate placed the total refugee population around 1.3 million", "unit": "reported population context", "value_type": "reported_estimate"},
+        "refugee_poverty": {"value": "reported refugee poverty rose from 57% to 67% over the prior two years", "unit": "percent of refugees in cited UNHCR socioeconomic survey context", "value_type": "reported_share"},
+        "work_permit_cost": {"value": "the report describes a 425 Jordanian dinar annual work-permit fee for Syrian workers plus approximately 113 dinars in social-security contributions after fee reinstatement", "unit": "annual reported administrative and social-security cost", "value_type": "reported_cost"},
+        "youth_unemployment": {"value": "unemployment among people aged 15-24 in Jordan was reported at 39.8% in 2024", "unit": "percent of youth labor force in cited ILO context", "value_type": "reported_share"}
+      },
+      "method": "ILO case-study and lessons-learned report based on Phase I PROSPECTS Jordan programme documentation, stakeholder contributions, focus groups, and implementation evidence from 2019-2024.",
+      "uncertainty": "The context figures come from cited external sources and the programme report is not a representative population evaluation; refugee counts, poverty, fees, and unemployment use different denominators and should not be combined into one causal estimate.",
+      "subgroup": "Syrian and other refugees, vulnerable Jordanian host-community members, women, youth, agricultural workers, cooperative members, and people facing work-permit or childcare barriers.",
+      "counterinterpretation": "Cooperatives cannot by themselves overcome national labor restrictions, high fees, weak demand, childcare shortages, transport costs, or broader macroeconomic pressure; informal participation may still leave workers exposed.",
+      "source_url": "https://researchrepository.ilo.org/esploro/outputs/report/Cooperatives-as-pathways-to-advancing-decent/995703566402676",
+      "retrieval_hash": "sha256:9ab6f17173b05ffa9a66d2967cddaf8bdbdbe6b034a1c8d8b2ac1117cf4f5297",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024 programme phase; policy and institutional conversion",
+      "denominator": {"value": 1, "unit": "PROSPECTS Jordan cooperative-policy and institutional intervention", "value_type": "published_case_intervention"},
+      "measures": {
+        "legal_reform": {"value": "PROSPECTS contributed to the National Cooperative Strategy 2021-2025 and the adoption of Jordan’s Cooperative Law 2025", "unit": "reported policy milestones", "value_type": "reported_milestone"},
+        "institutional_capacity": {"value": "support strengthened the Jordan Cooperative Corporation through training tools, new institutional capacity, and integration of decent-work dimensions including occupational safety and health and child-labor elimination", "unit": "reported institutional change", "value_type": "reported_intervention_effect"},
+        "inclusion_route": {"value": "the reforms opened space for women’s representation in governance and dialogue around refugee participation and labor-market inclusion", "unit": "reported governance route", "value_type": "reported_intervention_effect"},
+        "implementation_gap": {"value": "the report identifies continuing needs for implementation plans, monitoring, coordination, financing, and clearer refugee participation rules", "unit": "reported unresolved implementation condition", "value_type": "reported_gap"}
+      },
+      "method": "Documented programme reconstruction of macro policy reform, meso-level institutional strengthening, and cooperative-level support, interpreted against ILO cooperative and decent-work standards.",
+      "uncertainty": "The report documents contribution and lessons learned rather than a counterfactual impact estimate; formal law and training do not establish enforcement, durable financing, or equal access across cooperatives.",
+      "subgroup": "Jordanian policymakers, Jordan Cooperative Corporation staff, cooperative unions and members, refugee workers, women, youth, and vulnerable host communities.",
+      "counterinterpretation": "Institutional reform can create a more enabling platform without changing the bargaining position of small cooperatives or the everyday rights of workers unless implementation and monitoring are resourced.",
+      "source_url": "https://researchrepository.ilo.org/esploro/outputs/report/Cooperatives-as-pathways-to-advancing-decent/995703566402676",
+      "retrieval_hash": "sha256:9ab6f17173b05ffa9a66d2967cddaf8bdbdbe6b034a1c8d8b2ac1117cf4f5297",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024 programme phase; cooperative livelihood, food and community examples",
+      "denominator": {"value": 1, "unit": "documented cooperative examples in PROSPECTS Jordan report", "value_type": "published_case_examples"},
+      "measures": {
+        "value_addition": {"value": "in the report’s Kufrsoum pomegranate example, fresh pomegranates rose from about 0.40 Jordanian dinars per kilogram to up to 3 dinars after improved processing and market development; molasses rose from 2 dinars per kilogram to as much as 10 dinars and reached international markets", "unit": "reported product-price examples", "value_type": "reported_case_result"},
+        "water_and_food": {"value": "the same cooperative reportedly secured funding for 215 rainwater-harvesting wells, distributed 600,000 vegetable seedlings during the pandemic, and provided 500 non-repayable grants to local entrepreneurs and small businesses", "unit": "reported cooperative outputs", "value_type": "reported_case_output"},
+        "social_cohesion": {"value": "joint agricultural and entrepreneurial programming brought Jordanian and refugee workers together through training, standardized work agreements, and shared economic activity", "unit": "reported social-cohesion mechanism", "value_type": "reported_mechanism"},
+        "rights_and_safety": {"value": "cooperatives raised awareness of labor rights and social protection, distributed protective gear, organized safety training, and in one case connected a mother to support so her children could return to school", "unit": "reported decent-work and care-support routes", "value_type": "reported_intervention_effect"}
+      },
+      "method": "Narrative and case evidence compiled by the ILO from programme documentation and focus-group or key-informant material; examples are not presented as a controlled impact evaluation.",
+      "uncertainty": "Reported prices, outputs, grants, wells, seedlings, and social effects are case-specific and may reflect multiple funders, market changes, selection into successful cooperatives, or unobserved support; the report does not establish net income or population-wide food-security effects.",
+      "subgroup": "Agricultural cooperative members, refugee and Jordanian workers, women entrepreneurs, families facing childcare constraints, farmers, local entrepreneurs, and communities exposed to water scarcity.",
+      "counterinterpretation": "A successful value-chain example can coexist with weak performance among smaller cooperatives, donor dependence, limited finance, taxation, transport barriers, and precarious or short-term refugee employment.",
+      "source_url": "https://researchrepository.ilo.org/esploro/outputs/report/Cooperatives-as-pathways-to-advancing-decent/995703566402676",
+      "retrieval_hash": "sha256:9ab6f17173b05ffa9a66d2967cddaf8bdbdbe6b034a1c8d8b2ac1117cf4f5297",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026 report and post-programme outlook; participation limits and durability",
+      "denominator": {"value": 1, "unit": "PROSPECTS Jordan cooperative sustainability assessment", "value_type": "published_lessons_frame"},
+      "measures": {
+        "women_and_youth": {"value": "women’s leadership and participation improved in some cooperatives, while childcare, household responsibilities, transport, and social norms continued to limit access; youth participation remained limited but targeted initiatives created some work and leadership entry points", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "financial_fragility": {"value": "many cooperatives continued to face limited capital, donor dependence, weak financial literacy, pricing and marketing problems, and unequal access to training", "unit": "reported organizational constraint", "value_type": "reported_constraint"},
+        "refugee_durability": {"value": "work-permit restrictions, changing fee waivers, short employment periods, and bureaucratic barriers continued to limit stable formal livelihoods for refugees", "unit": "reported institutional constraint", "value_type": "reported_constraint"},
+        "monitoring_need": {"value": "the report recommends stronger implementation and monitoring, inclusive financing, representative member-based structures, refugee economic inclusion, youth engagement, and institutionalized decent-work training", "unit": "reported sustainability recommendations", "value_type": "reported_recommendation"}
+      },
+      "method": "Lessons-learned synthesis of programme achievements, persistent constraints, participant and stakeholder accounts, and recommendations for Phase II.",
+      "uncertainty": "The report does not provide a long-term follow-up establishing whether cooperative membership, earnings, safety, social cohesion, or women’s agency persisted after programme support.",
+      "subgroup": "Small and newer cooperatives, refugee workers, women with care responsibilities, youth, agricultural workers, and host-community members with limited transport or finance.",
+      "counterinterpretation": "Cooperative governance may build voice and mutual support even when financial performance is modest, but symbolic participation should not be treated as durable economic security or formal labor protection.",
+      "source_url": "https://researchrepository.ilo.org/esploro/outputs/report/Cooperatives-as-pathways-to-advancing-decent/995703566402676",
+      "retrieval_hash": "sha256:9ab6f17173b05ffa9a66d2967cddaf8bdbdbe6b034a1c8d8b2ac1117cf4f5297",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00033958", "claim": "Official DOI for the ILO report."},
+    {"source_url": "https://www.ilo.org/social-and-solidarity-economy-and-crisis-situations", "claim": "ILO background on cooperatives and the social and solidarity economy in crisis and post-crisis settings."}
+  ],
+  "boundary": "This record adds a concrete cooperative-development intervention route connecting displacement, labor-market access, shared ownership, gender and youth participation, food and water capability, and social cohesion. It is a programme lessons-learned case, not a randomized evaluation, representative refugee survey, verified household-income panel, or proof that legal reform and cooperative outputs produced durable security after programme support.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO repository record and the 30-page open-access PDF were reviewed for the PROSPECTS Jordan context, policy and institutional reforms, cooperative examples, reported outputs, refugee and host-community inclusion, gender and youth participation, and persistent implementation constraints.",
+    "pdf_sha256": "sha256:9ab6f17173b05ffa9a66d2967cddaf8bdbdbe6b034a1c8d8b2ac1117cf4f5297",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-retail-trade-july-2026-food-nonfood-consumer-demand",
+  "title": "EU retail volume softened in July as non-food demand fell while food sales rose",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Eurostat Euro indicators, Volume of retail trade, July 2026",
+  "geography": "European Union and euro area; seasonally adjusted retail-trade volume and calendar-adjusted annual comparisons by sector and Member State",
+  "observations": [
+    {
+      "period": "July 2026 compared with June 2026; seasonally adjusted retail-trade volume",
+      "denominator": {"value": null, "unit": "EU and euro-area retail trade volume indices, base year 2021, by retail sector", "value_type": "not_disclosed"},
+      "measures": {
+        "euro_area_total_monthly": {"value": -0.6, "unit": "percent change in total retail-trade volume from June 2026", "value_type": "reported_change"},
+        "eu_total_monthly": {"value": -0.4, "unit": "percent change in total retail-trade volume from June 2026", "value_type": "reported_change"},
+        "euro_area_food_monthly": {"value": 0.4, "unit": "percent change in food, drinks, and tobacco retail volume", "value_type": "reported_change"},
+        "euro_area_nonfood_monthly": {"value": -1.4, "unit": "percent change in non-food retail volume excluding automotive fuel", "value_type": "reported_change"},
+        "euro_area_fuel_monthly": {"value": -0.8, "unit": "percent change in automotive-fuel retail volume", "value_type": "reported_change"},
+        "eu_food_monthly": {"value": 0.3, "unit": "percent change in food, drinks, and tobacco retail volume", "value_type": "reported_change"},
+        "eu_nonfood_monthly": {"value": -1.1, "unit": "percent change in non-food retail volume excluding automotive fuel", "value_type": "reported_change"},
+        "eu_fuel_monthly": {"value": -1.1, "unit": "percent change in automotive-fuel retail volume", "value_type": "reported_change"},
+        "mechanism": {"value": "The July demand pattern is category-selective: food volume grew while non-food and fuel volume declined, consistent with households protecting essential consumption while delaying or reducing more discretionary purchases", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Eurostat first estimates using seasonally adjusted retail-trade volume indices; categories exclude automotive fuel where specified.",
+      "uncertainty": "The release is an aggregate monthly index and does not identify households, prices, product quantities, cultural goods, income, debt, or causal effects of confidence or inflation; first estimates can be revised.",
+      "subgroup": "EU and euro-area retail sectors: total, food/drinks/tobacco, non-food excluding automotive fuel, and automotive fuel.",
+      "counterinterpretation": "Category movements may reflect tourism, weather, promotions, supply, fuel prices, calendar effects, or substitution across channels rather than household financial stress; food volume growth does not prove unchanged food affordability.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-04092026-ap",
+      "retrieval_hash": "sha256:8079d5e179613733355d4c258d7cedbc7d0c0e5b82c0c1259d9e8b7aa0532cb3",
+      "status": "observed"
+    },
+    {
+      "period": "July 2026 compared with July 2025; calendar-adjusted annual retail-trade volume",
+      "denominator": {"value": null, "unit": "EU and euro-area retail trade volume indices, with Member State comparisons where data are available", "value_type": "not_disclosed"},
+      "measures": {
+        "euro_area_total_annual": {"value": 0.6, "unit": "percent change in total retail-trade volume from July 2025", "value_type": "reported_change"},
+        "eu_total_annual": {"value": 1.0, "unit": "percent change in total retail-trade volume from July 2025", "value_type": "reported_change"},
+        "euro_area_food_annual": {"value": 1.6, "unit": "percent change in food, drinks, and tobacco retail volume", "value_type": "reported_change"},
+        "euro_area_nonfood_annual": {"value": 0.2, "unit": "percent change in non-food retail volume excluding automotive fuel", "value_type": "reported_change"},
+        "euro_area_fuel_annual": {"value": -3.1, "unit": "percent change in automotive-fuel retail volume", "value_type": "reported_change"},
+        "eu_food_annual": {"value": 1.3, "unit": "percent change in food, drinks, and tobacco retail volume", "value_type": "reported_change"},
+        "eu_nonfood_annual": {"value": 0.9, "unit": "percent change in non-food retail volume excluding automotive fuel", "value_type": "reported_change"},
+        "eu_fuel_annual": {"value": -2.0, "unit": "percent change in automotive-fuel retail volume", "value_type": "reported_change"},
+        "largest_country_increases": {"value": "Cyprus +8.6%, Latvia +7.1%, and Sweden +6.4% in total retail volume", "unit": "reported country changes", "value_type": "reported_distribution"},
+        "largest_country_decreases": {"value": "Romania -5.7%, Germany -2.5%, Italy -1.0%, and Spain -0.7% in total retail volume", "unit": "reported country changes", "value_type": "reported_distribution"},
+        "mechanism": {"value": "A positive annual aggregate masks a wide country and category dispersion: essential volume is stronger than fuel and non-food, while national consumer demand diverges sharply", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Eurostat annual retail-volume comparisons; Member State rankings apply only to countries with available data and use calendar-adjusted indices.",
+      "uncertainty": "Annual volume indices do not measure household welfare, affordability, retail margins, cultural spending, or within-country inequality; country composition and revision status require caution.",
+      "subgroup": "EU, euro-area, and Member State retail-trade aggregates by sector.",
+      "counterinterpretation": "Country variation can arise from tourism, exchange rates, weather, fuel-price exposure, population, promotions, and statistical coverage rather than distinct consumer cultures or confidence effects.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/4-04092026-ap",
+      "retrieval_hash": "sha256:8079d5e179613733355d4c258d7cedbc7d0c0e5b82c0c1259d9e8b7aa0532cb3",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/databrowser/view/teiis250/default/table?lang=en", "claim": "Eurostat retail-trade food, beverages, and tobacco volume dataset route."},
+    {"source_url": "https://ec.europa.eu/eurostat/databrowser/view/teina021/default/table?lang=en", "claim": "Eurostat quarterly household consumption volume dataset route."}
+  ],
+  "boundary": "This record adds observed EU retail-volume behavior to the confidence and household-expectations layers. It does not establish household-level substitution, discretionary cultural spending, affordability, causal sentiment effects, or durable consumer welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat July 2026 Euro-indicator release reviewed for monthly and annual EU/euro-area total, food, non-food, fuel, and Member State retail-volume comparisons, index adjustments, first-estimate status, and sector definitions.",
+    "html_sha256": "sha256:8079d5e179613733355d4c258d7cedbc7d0c0e5b82c0c1259d9e8b7aa0532cb3",
+    "checked": "2026-09-30"
+  }
+}

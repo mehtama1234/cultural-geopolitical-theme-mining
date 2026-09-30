@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-asean-gsma-consumer-scam-2026-resolution-recovery-digital-trust",
+  "title": "ASEAN scam prevention is not converting into resolution, recovery, or durable digital trust",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GSMA ASEAN Consumer Scam Report 2026, covering Indonesia, Malaysia, the Philippines, Singapore, Thailand, and Vietnam",
+  "geography": "Six ASEAN countries; consumer survey estimates reported by the GSM Association",
+  "observations": [
+    {
+      "period": "2026 report; previous 12 months; scam exposure and financial recovery",
+      "denominator": {"value": null, "unit": "GSMA consumer survey across Indonesia, Malaysia, Philippines, Singapore, Thailand, and Vietnam; report sample size not available in the accessible indexed release", "value_type": "not_disclosed"},
+      "measures": {
+        "scammed_previous_twelve_months": {"value": 8, "unit": "percent of surveyed consumers reporting being scammed in the previous 12 months", "value_type": "reported_survey_share"},
+        "victims_lost_money": {"value": 68, "unit": "percent of scam victims reporting financial loss", "value_type": "conditional_survey_share"},
+        "money_losing_victims_recovered_none": {"value": 82, "unit": "percent of money-losing victims recovering none of their losses", "value_type": "conditional_survey_share"},
+        "money_losing_victims_recovered_all": {"value": 10, "unit": "percent of money-losing victims recovering all losses", "value_type": "conditional_survey_share"},
+        "mechanism": {"value": "Digital-finance exposure becomes a trust problem when financial loss is not followed by visible recovery; victimization, loss, recovery, and future digital participation are separate stages", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "GSMA-commissioned consumer survey reported in the 2026 ASEAN Consumer Scam Report; figures are descriptive survey estimates across six Southeast Asian markets.",
+      "uncertainty": "The accessible official release is an industry-association summary and does not expose the full questionnaire, sample allocation, weights, or administrative validation. Conditional denominators differ across all consumers, victims, and money-losing victims.",
+      "subgroup": "Consumers in Indonesia, Malaysia, the Philippines, Singapore, Thailand, and Vietnam who reported scam experience and financial loss.",
+      "counterinterpretation": "Self-reported scam and recovery status may omit unrecognized incidents, informal recovery, delayed reimbursement, or cases not reported to the survey; non-recovery does not identify which institution was responsible.",
+      "source_url": "https://www.gsma.com/solutions-and-impact/technologies/security/scams/gsma_resources/asean-consumer-scam-report-2026/",
+      "retrieval_hash": "sha256:f53cc065982a280ceb8b45e5be704ef9bab8a197f85a924deffa4bcadbd1a4c8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; reported scam cases and institutional resolution",
+      "denominator": {"value": null, "unit": "Survey respondents reporting a scam and reporting behavior; report sample size not available in accessible indexed release", "value_type": "not_disclosed"},
+      "measures": {
+        "victims_reporting": {"value": 69, "unit": "percent of scam victims reporting the incident", "value_type": "conditional_survey_share"},
+        "reported_cases_unresolved": {"value": 45, "unit": "percent of reported scam cases remaining unresolved", "value_type": "conditional_survey_share"},
+        "channel_trust_effect": {"value": "Consumers with unresolved cases report lower trust in communications channels, digital platforms, and data sharing", "unit": "reported association", "value_type": "reported_association"},
+        "mechanism": {"value": "Reporting without visible resolution can weaken the legitimacy of the reporting route itself, creating a recourse deficit beyond the original fraud", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the GSMA 2026 report summary and GSMA-distributed announcement; the report treats resolution as the outcome of reported scam cases.",
+      "uncertainty": "The public summary does not define unresolved status, adjudication, time-to-resolution, or whether cases were still open at survey date. Reported-case percentages are not population rates and may reflect selection into reporting.",
+      "subgroup": "Surveyed scam victims who reported incidents across the six ASEAN markets.",
+      "counterinterpretation": "Unresolved cases may be complex, recent, cross-border, or awaiting institutional action; lower trust may predate the incident or reflect broader digital insecurity rather than the resolution experience alone.",
+      "source_url": "https://www.gsma.com/solutions-and-impact/technologies/security/scams/gsma_resources/asean-consumer-scam-report-2026/",
+      "retrieval_hash": "sha256:f53cc065982a280ceb8b45e5be704ef9bab8a197f85a924deffa4bcadbd1a4c8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; scam channels, worry, and consumer switching",
+      "denominator": {"value": null, "unit": "GSMA consumer survey across six ASEAN markets; channel and switching denominators vary by question", "value_type": "not_disclosed"},
+      "measures": {
+        "worry_scam_or_hacked": {"value": 96, "unit": "percent of consumers worried about being scammed or hacked", "value_type": "reported_survey_share"},
+        "messaging_app_channel": {"value": 41, "unit": "percent of reported scam experiences involving messaging apps", "value_type": "reported_channel_share"},
+        "social_media_channel": {"value": 36, "unit": "percent of reported scam experiences involving social media", "value_type": "reported_channel_share"},
+        "voice_channel": {"value": 35, "unit": "percent of reported scam experiences involving voice calls", "value_type": "reported_channel_share"},
+        "sms_channel": {"value": 30, "unit": "percent of reported scam experiences involving SMS", "value_type": "reported_channel_share"},
+        "provider_switching": {"value": "Consumers who experienced scams were more than twice as likely to switch accounts or service providers than consumers who had not been affected", "unit": "reported relative association", "value_type": "reported_association"},
+        "mechanism": {"value": "Scam exposure is changing communication-channel behavior and provider loyalty, making digital trust a consumer-choice and market-exit variable rather than only a security attitude", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the GSMA 2026 report summary; channel percentages may reflect multi-channel scam experiences and therefore need not sum to 100%.",
+      "uncertainty": "The public summary does not disclose channel question wording, sampling weights, provider-switching base, or whether switching was completed. Report is industry-commissioned and should not be treated as independent fraud prevalence or market-share data.",
+      "subgroup": "ASEAN consumers and reported scam victims across Indonesia, Malaysia, the Philippines, Singapore, Thailand, and Vietnam.",
+      "counterinterpretation": "Worry can coexist with continued use, switching can reflect ordinary price or service changes, and channel prevalence may reflect exposure or reporting patterns rather than channel-specific risk.",
+      "source_url": "https://www.gsma.com/solutions-and-impact/technologies/security/scams/gsma_resources/asean-consumer-scam-report-2026/",
+      "retrieval_hash": "sha256:f53cc065982a280ceb8b45e5be704ef9bab8a197f85a924deffa4bcadbd1a4c8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gsma.com/solutions-and-impact/technologies/security/scams/gsma_resources/asean-consumer-scam-report-2026/", "claim": "Official GSMA report page and indexed 2026 findings on victimization, unresolved cases, recovery, trust, channels, and switching."},
+    {"source_url": "https://www.gsma.com/solutions-and-impact/technologies/security/scams/latest-news/nearly-half-of-reported-scam-incidents-go-unresolved-across-southeast-asia-undermining-digital-trust/", "claim": "GSMA-distributed announcement describing the report’s unresolved-case, recovery, trust, and digital-participation findings."},
+    {"source_url": "https://www.publicnow.com/view/314CEC4F3915B572EF171EB747434123DF72DFD5", "claim": "Publicly syndicated GSMA announcement used to cross-check the accessible headline figures."}
+  ],
+  "boundary": "This record adds an ASEAN digital-consumer trust, scam-harm, resolution, recovery, and switching layer. It does not establish independently verified fraud prevalence, administrative case outcomes, causal trust loss, provider liability, or representative market-level switching.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Source URL hash and indexed GSMA/distributed announcement reviewed because direct GSMA page retrieval was blocked by the environment; headline figures, six-country scope, conditional denominators, industry-commissioned status, and non-causal limits were preserved.",
+    "source_url_sha256": "sha256:f53cc065982a280ceb8b45e5be704ef9bab8a197f85a924deffa4bcadbd1a4c8",
+    "access_note": "Direct GSMA page returned HTTP 403 in this environment; figures were cross-checked against GSMA-indexed search content and a GSMA-distributed announcement.",
+    "checked": "2026-09-30"
+  }
+}

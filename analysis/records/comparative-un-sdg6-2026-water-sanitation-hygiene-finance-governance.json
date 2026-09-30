@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg6-2026-water-sanitation-hygiene-finance-governance",
+  "title": "Water and sanitation access is expanding while stress, inequality, data gaps, and local financing constrain service security",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 6: Clean Water and Sanitation",
+  "geography": "Global comparison of drinking water, sanitation, hygiene, water stress, quality monitoring, and water-governance systems",
+  "observations": [
+    {
+      "period": "2015-2024; drinking water, sanitation, and hygiene coverage",
+      "denominator": {"value": 1, "unit": "global population and household service coverage", "value_type": "global_service_frame"},
+      "measures": {
+        "safely_managed_drinking_water_2024": {"value": 74, "unit": "percent of the world's population with safely managed drinking water in 2024", "value_type": "reported_share"},
+        "safely_managed_sanitation_2024": {"value": 58, "unit": "percent of the world's population with safely managed sanitation in 2024", "value_type": "reported_share"},
+        "basic_hygiene_2024": {"value": 80, "unit": "percent of the world's population with basic hygiene services in 2024", "value_type": "reported_share"},
+        "gains_since_2015": {"value": "961 million people gained safely managed drinking water, 1.2 billion gained safely managed sanitation, and 1.6 billion gained basic hygiene services between 2015 and 2024", "unit": "reported global gains", "value_type": "reported_change"}
+      },
+      "method": "UN SDG compilation of household water, sanitation, and hygiene coverage indicators.",
+      "uncertainty": "Coverage definitions, reporting quality, service continuity, affordability, and within-country inequality affect comparability; access does not establish safety at every moment or equal household control.",
+      "subgroup": "Urban and rural populations, least developed countries, low-income countries, conflict-affected populations, women, children, and households lacking safely managed services.",
+      "counterinterpretation": "Aggregate coverage gains can represent meaningful improvements in health, time, dignity, and security even when service quality, affordability, and conflict-related interruptions remain unresolved.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-06/",
+      "retrieval_hash": "sha256:648bdeecfcc4e55d63135652e69f135c611724594dcd3535f989308f9dcccaad",
+      "status": "reported"
+    },
+    {
+      "period": "2024; inequality by development and stability context",
+      "denominator": {"value": 1, "unit": "global service-coverage comparison across country-development and conflict contexts", "value_type": "comparative_service_frame"},
+      "measures": {
+        "ldc_service_gap": {"value": "people in least developed countries were roughly two to three times more likely to lack essential water, sanitation, and hygiene services than the global average", "unit": "reported relative comparison", "value_type": "reported_comparison"},
+        "conflict_service_gap": {"value": "countries affected by conflict and instability lagged stable countries by 33 to 38 percentage points across the three service measures", "unit": "reported coverage gap", "value_type": "reported_difference"},
+        "rural_drinking_water": {"value": 60, "unit": "percent safely managed drinking-water coverage in rural areas in 2024", "value_type": "reported_share"},
+        "rural_sanitation": {"value": 49, "unit": "percent safely managed sanitation coverage in rural areas in 2024", "value_type": "reported_share"}
+      },
+      "method": "UN SDG disaggregation of water, sanitation, and hygiene access by rurality, country development status, and conflict or stability context.",
+      "uncertainty": "Relative gaps combine different country groups and may reflect infrastructure, conflict, income, geography, reporting, and institutional factors; they do not identify a single causal mechanism.",
+      "subgroup": "Least developed countries, conflict-affected populations, rural households, children, women and girls, and communities with weak service infrastructure.",
+      "counterinterpretation": "Rural gains show that targeted infrastructure and service expansion can work, but local maintenance, climate shocks, affordability, and political stability determine durability.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-06/",
+      "retrieval_hash": "sha256:648bdeecfcc4e55d63135652e69f135c611724594dcd3535f989308f9dcccaad",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2023; water-use efficiency and stress",
+      "denominator": {"value": 1, "unit": "global water-use efficiency and freshwater stress indicators", "value_type": "water_resource_frame"},
+      "measures": {
+        "water_use_efficiency_growth": {"value": 24, "unit": "percent improvement in global water-use efficiency between 2015 and 2023", "value_type": "reported_change"},
+        "water_use_efficiency_2023": {"value": 21.5, "unit": "US dollars of economic output per cubic metre of water in 2023", "value_type": "reported_measure"},
+        "high_or_critical_stress_population": {"value": 10, "unit": "percent of global population living in countries with high or critical water stress", "value_type": "reported_share"},
+        "global_average_water_stress": {"value": 18, "unit": "percent global average water stress in 2023", "value_type": "reported_share"}
+      },
+      "method": "UN SDG synthesis of water-use efficiency, freshwater withdrawal, and water-stress indicators.",
+      "uncertainty": "Water-use efficiency can rise through economic growth without reducing withdrawals or improving ecosystem conditions; national averages hide seasonal, basin-level, and household stress.",
+      "subgroup": "Water-stressed regions, agriculture, industry, cities, households, ecosystems, and communities dependent on shared or declining freshwater sources.",
+      "counterinterpretation": "Efficiency improvements can create room for development and adaptation, but rebound effects, allocation choices, and unequal access can offset system-level gains.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-06/",
+      "retrieval_hash": "sha256:648bdeecfcc4e55d63135652e69f135c611724594dcd3535f989308f9dcccaad",
+      "status": "reported"
+    },
+    {
+      "period": "2017-2026; monitoring, cooperation, and financing capacity",
+      "denominator": {"value": 183, "unit": "countries surveyed for integrated water-resources management and governance conditions", "value_type": "water_governance_frame"},
+      "measures": {
+        "water_quality_reporting_2023": {"value": 124, "unit": "countries reporting water-quality data in 2023, up from 72 in 2017", "value_type": "reported_count_change"},
+        "integrated_water_management_score": {"value": 57, "unit": "global average score out of 100 for integrated water-resources management in 2023", "value_type": "reported_index"},
+        "countries_significantly_behind": {"value": 73, "unit": "countries significantly behind in implementing water-management frameworks", "value_type": "reported_count"},
+        "countries_insufficient_revenue": {"value": 85, "unit": "percent of countries reporting insufficient revenue to implement water-management plans", "value_type": "reported_share"},
+        "local_basin_funding_gap": {"value": 70, "unit": "approximate percent of countries lacking adequate funding at local and basin levels", "value_type": "reported_share"}
+      },
+      "method": "UN SDG review of water-quality monitoring, integrated water-resources management, transboundary cooperation, community participation, and financing.",
+      "uncertainty": "Reporting counts and governance scores measure formal capacity and self-reported conditions, not service reliability or pollution reduction; financing gaps vary by basin and institutional level.",
+      "subgroup": "Water agencies, local and basin authorities, transboundary communities, citizen scientists, Indigenous and local communities, and households dependent on public or shared water systems.",
+      "counterinterpretation": "Expanded monitoring and cooperation can strengthen accountability and conflict prevention even before service outcomes improve; citizen data can partly close official information gaps.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-06/",
+      "retrieval_hash": "sha256:648bdeecfcc4e55d63135652e69f135c611724594dcd3535f989308f9dcccaad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unwater.org/publications/un-world-water-development-report-2026-water-and-gender", "claim": "UN-Water World Water Development Report 2026 provides complementary gendered-time and water-governance evidence."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-14/", "claim": "UN SDG 14 provides complementary marine and coastal water-system evidence."}
+  ],
+  "boundary": "This record adds a global water-service and governance route linking drinking water, sanitation, hygiene, rural and conflict inequality, water stress, monitoring, basin cooperation, community participation, and finance. It uses aggregate SDG indicators and country-level governance reporting, not individual health outcomes, household service histories, causal infrastructure estimates, or proof that formal plans deliver reliable services.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 6 page was reviewed for global coverage, gains since 2015, rural and conflict gaps, water-use efficiency, stress, water-quality reporting, integrated management, participation, cooperation, and financing figures.",
+    "source_url_sha256": "sha256:648bdeecfcc4e55d63135652e69f135c611724594dcd3535f989308f9dcccaad",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-undp-development-cooperation-2026-civic-inclusion-implementation",
+  "title": "Whole-of-society development plans often include stakeholders formally while leaving consultation quality, civic capacity, and marginalized-group visibility uneven",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "OECD and United Nations Development Programme, Making Development Co-operation More Effective Progress Report 2026",
+  "geography": "Global Partnership partner countries and development partners participating in the 2023-2026 monitoring round; civil-society, government, private-sector, subnational, parliamentary, and development-cooperation actors",
+  "observations": [
+    {
+      "period": "2023-2026 monitoring round; stakeholder participation in national development planning",
+      "denominator": {"value": 1, "unit": "partner-country governments with national development plans in the Global Partnership monitoring frame", "value_type": "partner_country_governance_frame"},
+      "measures": {
+        "broad_stakeholder_engagement": {"value": 90, "unit": "percent of partner-country governments, on average, engaging private sector, civil society, subnational governments, parliaments, and development partners when preparing national development plans, approximately", "value_type": "reported_country_share"},
+        "follow_up_dialogue_rate": {"value": 91, "unit": "percent of partner-country governments conducting dialogues on priorities and results in follow-up processes", "value_type": "reported_country_share"},
+        "follow_up_gap": {"value": "stakeholders engaged during plan preparation were not consistently engaged in subsequent priority and results dialogues", "unit": "reported implementation pattern", "value_type": "reported_mechanism"},
+        "participatory_process_rate": {"value": 46, "unit": "percent of partner-country governments engaging private sector, subnational governments, development partners, and civil-society organisations through a participatory process rather than consultation alone, approximately", "value_type": "reported_country_share"}
+      },
+      "method": "OECD-UNDP synthesis of the Global Partnership 2023-2026 monitoring exercise, including country reporting on planning, follow-up dialogues, and forms of stakeholder engagement.",
+      "uncertainty": "Country-level monitoring percentages do not show the intensity, representativeness, policy influence, or durability of any individual consultation; formal participation is not evidence of shared decision power.",
+      "subgroup": "Partner-country governments, civil-society organisations, private firms, subnational governments, parliaments, trade unions, development partners, and communities affected by development plans.",
+      "counterinterpretation": "Consultation can still reveal information and create accountability even without co-decision authority; participatory methods may also be slower, more costly, or difficult in fragile settings.",
+      "source_url": "https://doi.org/10.1787/3a427ab2-en",
+      "retrieval_hash": "sha256:ac88c6ec3545f87370266bf0e17161830825d9a68c5db92f32b6945f7e81323d",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026 monitoring round; civil-society consultation quality and enabling environment",
+      "denominator": {"value": 1, "unit": "partner countries with civil-society organisation assessments in the monitoring exercise", "value_type": "civic_space_assessment_frame"},
+      "measures": {
+        "poor_development_partner_consultation": {"value": 75, "unit": "percent of partner countries where civil-society organisations indicate development-partner consultations were non-existent, occasional, or selective, approximately", "value_type": "reported_country_share"},
+        "poor_government_consultation": {"value": 70, "unit": "percent of partner countries where civil-society organisations indicate government consultations were absent or occasional and of limited quality, more than", "value_type": "reported_country_share"},
+        "cso_input_influence": {"value": 54, "unit": "percent of partner countries where civil-society organisations say their inputs occasionally or consistently informed national development-policy design, implementation, or monitoring, approximately", "value_type": "reported_country_share"},
+        "stakeholder_perception_gap": {"value": "governments generally assess the civil-society enabling environment more positively than civil-society organisations and development partners", "unit": "reported perception divergence", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD-UNDP comparison of assessments from partner-country governments, development partners, and civil-society organisations across dialogue, legal-regulatory environment, and development-cooperation partnership modules.",
+      "uncertainty": "The assessment is not a comprehensive civil-liberties index, does not measure every organization or excluded group, and perception divergence does not by itself identify which actor is correct or establish causality.",
+      "subgroup": "Civil-society organisations, government officials, development partners, advocacy groups, and populations whose representation depends on civic-space and consultation conditions.",
+      "counterinterpretation": "Differences in assessments can reflect distinct roles, information sets, or expectations rather than deliberate exclusion; some governments may have improved formal access while quality remains difficult to observe.",
+      "source_url": "https://doi.org/10.1787/3a427ab2-en",
+      "retrieval_hash": "sha256:ac88c6ec3545f87370266bf0e17161830825d9a68c5db92f32b6945f7e81323d",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026 monitoring round; inclusion and representation of groups at risk of being left behind",
+      "denominator": {"value": 1, "unit": "partner-country and development-partner prioritisation frame for vulnerable and marginalised groups", "value_type": "inclusion_monitoring_frame"},
+      "measures": {
+        "prioritised_groups": {"value": "women and girls, youth and children, the poorest, and people with disabilities are commonly prioritised", "unit": "reported priority-group pattern", "value_type": "reported_mechanism"},
+        "underrepresented_groups": {"value": "older people, internally displaced people, and LGBTIQ+ people receive more limited engagement", "unit": "reported representation gap", "value_type": "reported_mechanism"},
+        "high_data_availability": {"value": 12, "unit": "percent of partner countries reporting high or very high data availability for identifying and tracking vulnerable groups", "value_type": "reported_country_share"},
+        "missing_disaggregation": {"value": "migration, ethnicity, and Indigenous status are among the dimensions most often unavailable in disaggregated data", "unit": "reported data-capacity gap", "value_type": "reported_constraint_set"}
+      },
+      "method": "OECD-UNDP monitoring of group prioritisation, stakeholder engagement, and the data systems used to identify, define, and track people at risk of being left behind.",
+      "uncertainty": "Priority labels do not establish resource allocation, service reach, outcomes, or the lived experience of excluded groups; data availability is self-reported and varies by country and indicator.",
+      "subgroup": "Women and girls, children and youth, people in poverty, people with disabilities, older people, internally displaced people, LGBTIQ+ people, migrants, ethnic and Indigenous populations.",
+      "counterinterpretation": "A group may be supported through universal systems without being separately named; disaggregation can improve visibility but can also raise privacy, safety, and administrative-burden concerns.",
+      "source_url": "https://doi.org/10.1787/3a427ab2-en",
+      "retrieval_hash": "sha256:ac88c6ec3545f87370266bf0e17161830825d9a68c5db92f32b6945f7e81323d",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026 monitoring round; civil-society funding, advocacy, and institutional capacity",
+      "denominator": {"value": 1, "unit": "partner countries assessed for the quality and predictability of civil-society support", "value_type": "cso_capacity_frame"},
+      "measures": {
+        "cso_partnership_moderate_or_extensive": {"value": 26, "unit": "percent of partner countries where civil-society organisations assess development-cooperation partnerships as moderate or extensive", "value_type": "reported_country_share"},
+        "development_partner_assessment": {"value": 62, "unit": "percent of partner countries where development partners assess civil-society partnerships as moderate or extensive", "value_type": "reported_country_share"},
+        "restricted_or_limited_funding": {"value": 80, "unit": "percent of partner countries where civil-society organisations assess development-partner funding as restricted or limited, more than", "value_type": "reported_country_share"},
+        "systematic_advocacy_share": {"value": 33, "unit": "percent of partner countries where civil-society organisations report that development partners actively promote an inclusive and independent civil society in government dialogue, approximately", "value_type": "reported_country_share"}
+      },
+      "method": "OECD-UNDP comparison of civil-society, government, and development-partner assessments of funding predictability, partnership quality, advocacy, coordination, and enabling conditions.",
+      "uncertainty": "These are country-level assessments rather than audited grant flows or organizational survival rates; they do not show whether funding produces policy change, service delivery, political representation, or durable civic power.",
+      "subgroup": "Local and international civil-society organisations, development partners, governments, community advocates, and populations relying on civic intermediaries for voice and services.",
+      "counterinterpretation": "Restricted funding can reflect accountability, safeguarding, or donor constraints rather than only political exclusion; flexible funding can also create oversight and legitimacy challenges.",
+      "source_url": "https://doi.org/10.1787/3a427ab2-en",
+      "retrieval_hash": "sha256:ac88c6ec3545f87370266bf0e17161830825d9a68c5db92f32b6945f7e81323d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/making-development-co-operation-more-effective-progress-report-2026_3a427ab2-en/full-report/taking-a-whole-of-society-approach-leaving-no-one-behind_3335c0df.html", "claim": "Official chapter on stakeholder engagement, civil-society enabling conditions, vulnerable groups, and data availability."},
+    {"source_url": "https://doi.org/10.1787/3a427ab2-en", "claim": "Official OECD-UNDP report landing page, publication date, scope, and full report citation."}
+  ],
+  "boundary": "This record adds a development-governance route from formal stakeholder inclusion through consultation quality, civil-society capacity, representation, data visibility, and implementation feedback. It uses publication-level monitoring aggregates and stakeholder assessments, not individual respondent histories, causal political participation effects, proof of policy influence, or a comprehensive civil-liberties measure.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD-UNDP report page and the whole-of-society chapter were reviewed; stakeholder-engagement, consultation-quality, civil-society enabling-environment, vulnerable-group, data-availability, funding, and advocacy claims were cross-checked.",
+    "source_url_sha256": "sha256:ac88c6ec3545f87370266bf0e17161830825d9a68c5db92f32b6945f7e81323d",
+    "checked": "2026-09-26"
+  }
+}

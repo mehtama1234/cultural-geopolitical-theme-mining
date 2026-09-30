@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-hlpe-food-systems-issues-2026-agency-governance",
+  "title": "Food-system risk is being reframed as a governance problem spanning affordability, power, technology, health, and agency",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "geopolitical_state_consequences", "public_systems_feedback", "platforms_data_attention", "trust_identity_meaning", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "FAO Committee on World Food Security HLPE-FSN Note on Critical, Emerging and Enduring Issues for Food Security and Nutrition, launched 14 September 2026",
+  "geography": "Global food-security and nutrition system foresight for the CFS strategic and multiyear policy agenda",
+  "observations": [
+    {
+      "period": "September 2026; critical, emerging, and enduring issue map",
+      "denominator": {"value": 10, "unit": "critical, emerging, and enduring issues identified in the HLPE-FSN note", "value_type": "reported_issue_count"},
+      "measures": {"issue_frame": {"value": "the note maps interconnections among food-system transformation, climate crises, geopolitical uncertainty and polycrises, international trade, corporate concentration, digital innovation and AI, One Health, healthy-diet affordability, and agency", "unit": "reported issue architecture", "value_type": "reported_framework"}, "policy_use": {"value": "the note is intended to provide an evidence base for strategic discussions and the CFS multiyear programme of work", "unit": "reported policy use", "value_type": "reported_framework"}, "governance_context": {"value": "persistent power imbalances and fragmented governance continue to shape food-security and nutrition outcomes", "unit": "reported governance assessment", "value_type": "reported_assessment"}},
+      "method": "The HLPE-FSN note provides a global foresight and issue-mapping synthesis for the Committee on World Food Security.",
+      "uncertainty": "An issue map identifies domains and interconnections but does not quantify the relative contribution of each issue or establish a common causal model.",
+      "subgroup": "Food producers, workers, consumers, communities, governments, international institutions, firms, civil society, and populations facing food insecurity or nutrition inequity.",
+      "counterinterpretation": "A broad systems map can support coordination while making prioritization and accountability harder if the links are not translated into specific decisions.",
+      "source_url": "https://www.fao.org/cfs/cfs-hlpe/insights/news-insights/news-detail/ten-issues--one-food-system--new-hlpe-fsn-note-to-chart-the-road-ahead/en",
+      "retrieval_hash": "sha256:a16c0da866efb0e901725557babb2c97bb45c4d8f9d54325b9fcc3505cffd3b3",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; affordability and diet-quality route",
+      "denominator": {"value": 1, "unit": "HLPE-FSN food-system performance and nutrition frame", "value_type": "published_framework"},
+      "measures": {"healthy_diet_cost": {"value": "the cost of a healthy diet is positioned as a central food-system performance issue", "unit": "reported policy direction", "value_type": "reported_framework"}, "hunger_context": {"value": "global hunger is declining too slowly and healthy diets remain out of reach for billions", "unit": "reported global condition", "value_type": "reported_assessment"}, "measurement_signal": {"value": "the cost of a healthy diet is proposed as one of the clearest measures of whether food systems deliver what people need, not only calories", "unit": "reported measurement direction", "value_type": "reported_framework"}},
+      "method": "The note connects food-system performance to affordability and dietary quality rather than aggregate calorie availability alone.",
+      "uncertainty": "The note's framing does not provide a new household-level affordability estimate, local price pass-through, or causal diet transition analysis.",
+      "subgroup": "Low-income households, children, women, older people, people with health conditions, food workers, and communities with limited access to diverse foods.",
+      "counterinterpretation": "Healthy-diet cost is important but cannot alone capture cultural preference, time, cooking infrastructure, food safety, or household agency.",
+      "source_url": "https://www.fao.org/cfs/cfs-hlpe/insights/news-insights/news-detail/ten-issues--one-food-system--new-hlpe-fsn-note-to-chart-the-road-ahead/en",
+      "retrieval_hash": "sha256:a16c0da866efb0e901725557babb2c97bb45c4d8f9d54325b9fcc3505cffd3b3",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; power, market, and technology route",
+      "denominator": {"value": 1, "unit": "HLPE-FSN structural food-system risk frame", "value_type": "published_framework"},
+      "measures": {"power": {"value": "persistent power imbalances and corporate concentration are included among the food-system issues requiring attention", "unit": "reported structural issue", "value_type": "reported_framework"}, "technology": {"value": "digital innovation and artificial intelligence are included as forces reshaping food systems", "unit": "reported structural issue", "value_type": "reported_framework"}, "trade": {"value": "international trade and geopolitical uncertainty are treated as linked food-system pressures", "unit": "reported structural issue", "value_type": "reported_framework"}},
+      "method": "The note places markets, concentration, technology, trade, and geopolitics inside one food-system governance analysis.",
+      "uncertainty": "The framework does not measure market concentration, AI adoption, trade exposure, or bargaining power for every commodity or region.",
+      "subgroup": "Small producers, agricultural workers, food firms, retailers, consumers, regulators, digitally mediated food actors, and import-dependent economies.",
+      "counterinterpretation": "Technology and scale can improve efficiency or access, while concentration and digitalization can also deepen dependency, opacity, and unequal bargaining power.",
+      "source_url": "https://www.fao.org/cfs/cfs-hlpe/insights/news-insights/news-detail/ten-issues--one-food-system--new-hlpe-fsn-note-to-chart-the-road-ahead/en",
+      "retrieval_hash": "sha256:a16c0da866efb0e901725557babb2c97bb45c4d8f9d54325b9fcc3505cffd3b3",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; health, resilience, and agency route",
+      "denominator": {"value": 1, "unit": "HLPE-FSN integrated food-system governance frame", "value_type": "published_framework"},
+      "measures": {"one_health": {"value": "One Health is identified as a critical food-system issue", "unit": "reported issue", "value_type": "reported_framework"}, "agency": {"value": "agency is identified as an issue shaping food-security and nutrition futures", "unit": "reported issue", "value_type": "reported_framework"}, "resilience": {"value": "the note is intended to support strategic choices under climate, geopolitical, technological, and governance uncertainty", "unit": "reported policy purpose", "value_type": "reported_framework"}},
+      "method": "The note integrates human, animal, environmental, institutional, and agency dimensions into a food-security and nutrition foresight frame.",
+      "uncertainty": "Including agency and One Health in the issue map does not measure participation, behavior, health outcomes, or resilience in specific populations.",
+      "subgroup": "Households, farmers, consumers, communities, health and environmental systems, food authorities, and groups with limited voice in food-system decisions.",
+      "counterinterpretation": "An integrated frame may reveal connections, but it can also dilute the visibility of concrete household choices, cultural food practices, and local accountability.",
+      "source_url": "https://www.fao.org/cfs/cfs-hlpe/insights/news-insights/news-detail/ten-issues--one-food-system--new-hlpe-fsn-note-to-chart-the-road-ahead/en",
+      "retrieval_hash": "sha256:a16c0da866efb0e901725557babb2c97bb45c4d8f9d54325b9fcc3505cffd3b3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world", "claim": "Complementary FAO flagship evidence on the high cost of healthy diets and global nutrition."}, {"source_url": "https://www.fao.org/giews/reports/food-outlook/en/", "claim": "Complementary FAO commodity-market and food-supply monitoring."}],
+  "boundary": "This record adds a food-governance and agency route linking healthy-diet affordability, power, corporate concentration, trade, geopolitical uncertainty, digital and AI change, One Health, and participation. It uses a global foresight issue map, not household purchase histories, dietary intake records, market-concentration estimates for every commodity, causal nutrition effects, representative agency measures, or proof of policy implementation.",
+  "reproduction_audit": {"retrieval_hash_scope": "FAO's official HLPE-FSN note announcement was reviewed for the ten-issue architecture, healthy-diet affordability framing, power and concentration, trade and geopolitical uncertainty, digital and AI change, One Health, agency, and CFS policy use.", "source_url_sha256": "sha256:a16c0da866efb0e901725557babb2c97bb45c4d8f9d54325b9fcc3505cffd3b3", "checked": "2026-09-27"}
+}

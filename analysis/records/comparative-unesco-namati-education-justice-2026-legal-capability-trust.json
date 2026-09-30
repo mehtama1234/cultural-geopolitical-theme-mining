@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-namati-education-justice-2026-legal-capability-trust",
+  "title": "Education can become a form of civic and legal capability when people need to navigate justice systems that are increasingly hard to access",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "UNESCO Global Education Monitoring Report and Namati, Education and justice: Learning to build just societies",
+  "geography": "Global justice systems, education systems, disadvantaged populations, communities, and institutions concerned with rights, peace, democracy, and social cohesion",
+  "observations": [
+    {
+      "period": "2026; global access-to-justice burden",
+      "denominator": {"value": 1, "unit": "global legal-needs and access-to-justice synthesis frame", "value_type": "global_justice_frame"},
+      "measures": {
+        "people_without_meaningful_access": {"value": 1400000000, "unit": "people estimated to lack meaningful access to justice because they cannot resolve everyday legal problems", "value_type": "reported_global_estimate"},
+        "pressure_pattern": {"value": "inequality, discrimination, conflict, and climate-related pressures intensify justice challenges", "unit": "UNESCO/Namati report synthesis", "value_type": "reported_mechanism_set"},
+        "institutional_trust": {"value": "low trust in justice-system institutions and actors is identified alongside declining rule-of-law conditions in many countries", "unit": "report framing", "value_type": "reported_institutional_assessment"}
+      },
+      "method": "UNESCO GEM and Namati synthesis of justice needs, rule-of-law conditions, education, human rights, and people-centred justice pathways.",
+      "uncertainty": "The global estimate is a report-level synthesis rather than a single harmonized respondent file; it does not identify every legal problem, jurisdiction, or resolution pathway.",
+      "subgroup": "Disadvantaged populations, people facing discrimination or conflict, children and families, communities exposed to climate pressure, and users of justice systems.",
+      "counterinterpretation": "Justice challenges are not uniform and legal capability, community-based support, public services, and institutional reform can improve access without assuming courts alone are the solution.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/education-and-justice",
+      "retrieval_hash": "sha256:73a2ef6c917dfe155b159d1fcd51a765bde3de9873adf826c95c42d8e783b316",
+      "status": "reported"
+    },
+    {
+      "period": "2026; education as legal empowerment",
+      "denominator": {"value": 1, "unit": "UNESCO/Namati education-and-justice conceptual framework", "value_type": "institutional_capability_frame"},
+      "measures": {
+        "rights_understanding": {"value": "education can help people understand their rights, navigate justice systems, and shape fairer societies", "unit": "report finding and policy framing", "value_type": "reported_mechanism"},
+        "citizen_capability": {"value": "people-centred justice requires a legally empowered citizenry", "unit": "report framework", "value_type": "reported_framework"},
+        "education_role": {"value": "formal and non-formal education are treated as routes to rights awareness, participation, and social cohesion", "unit": "report synthesis", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "UNESCO/Namati analysis connecting education's moral, civic, and practical purposes with legal empowerment and people-centred justice.",
+      "uncertainty": "Rights literacy does not guarantee representation, remedy, institutional responsiveness, or equal treatment; the report does not claim education alone resolves legal exclusion.",
+      "subgroup": "Students, adults outside formal schooling, educators, community organizations, legal-aid users, and groups with limited institutional access.",
+      "counterinterpretation": "Legal capability can be built through community organizations, public legal services, accessible information, and collective action as well as through schools.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/education-and-justice",
+      "retrieval_hash": "sha256:73a2ef6c917dfe155b159d1fcd51a765bde3de9873adf826c95c42d8e783b316",
+      "status": "reported"
+    },
+    {
+      "period": "2026; justice-system professional capacity",
+      "denominator": {"value": 1, "unit": "UNESCO/Namati education and justice-system capacity frame", "value_type": "justice_capacity_frame"},
+      "measures": {
+        "professional_formation": {"value": "education has a role in developing the professional capacity of justice-system actors", "unit": "report finding", "value_type": "reported_mechanism"},
+        "system_link": {"value": "education, legal institutions, human-rights protection, and trusted public systems are treated as interdependent", "unit": "report synthesis", "value_type": "reported_system_relationship"},
+        "implementation_boundary": {"value": "knowledge and training must connect to accessible, accountable, and trusted institutions to affect everyday justice", "unit": "report implication", "value_type": "reported_boundary"}
+      },
+      "method": "UNESCO/Namati synthesis of formal and non-formal education, justice-system actors, legal empowerment, and people-centred institutional design.",
+      "uncertainty": "The report does not provide a universal causal estimate for training effects on case outcomes or institutional trust across jurisdictions.",
+      "subgroup": "Justice professionals, educators, legal-aid providers, community advocates, courts, administrative agencies, and people seeking remedies.",
+      "counterinterpretation": "Institutional reform, funding, independence, translation, accessibility, and community support may matter as much as professional education.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/education-and-justice",
+      "retrieval_hash": "sha256:73a2ef6c917dfe155b159d1fcd51a765bde3de9873adf826c95c42d8e783b316",
+      "status": "reported"
+    },
+    {
+      "period": "2026; education, democracy, peace, crime reduction, and social cohesion",
+      "denominator": {"value": 1, "unit": "UNESCO GEM justice-outcomes pathway frame", "value_type": "social_outcomes_frame"},
+      "measures": {
+        "pathways": {"value": "the report examines links between education and democracy, peace, and crime reduction", "unit": "report thematic pathway inventory", "value_type": "reported_pathway_set"},
+        "social_cohesion": {"value": "education is positioned as one contributor to fairer societies and stronger social cohesion", "unit": "report framing", "value_type": "reported_mechanism"},
+        "causal_limit": {"value": "education is not presented as a sufficient condition for justice, peace, democracy, or crime reduction", "unit": "interpretive boundary", "value_type": "reported_boundary"}
+      },
+      "method": "UNESCO/Namati thematic synthesis of education's relationship to justice, democracy, peace, crime reduction, rights, and social cohesion.",
+      "uncertainty": "These are interconnected pathways and policy questions, not a single cross-national causal effect or forecast of political behaviour.",
+      "subgroup": "Learners, communities, justice institutions, civic organizations, policymakers, and populations affected by conflict or discrimination.",
+      "counterinterpretation": "Education can also reproduce exclusion or official narratives unless curricula, institutions, and participation are inclusive and accountable.",
+      "source_url": "https://www.unesco.org/gem-report/en/publication/education-and-justice",
+      "retrieval_hash": "sha256:73a2ef6c917dfe155b159d1fcd51a765bde3de9873adf826c95c42d8e783b316",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.namati.org/", "claim": "Namati is the justice-sector partner identified by UNESCO for the publication."},
+    {"source_url": "https://www.unesco.org/gem-report/en/2026", "claim": "UNESCO GEM 2026 provides complementary access, equity, and education-system context."}
+  ],
+  "boundary": "This record adds an education-to-justice route across legal capability, rights literacy, institutional trust, professional capacity, democracy, peace, crime reduction, and social cohesion. It uses UNESCO/Namati report synthesis, not respondent-level legal histories, individual case files, courtroom outcomes, causal education estimates, or proof that schooling alone produces justice.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNESCO GEM and Namati Education and justice page reviewed for the publication title, global access-to-justice estimate, rule-of-law and trust framing, legal empowerment, professional capacity, and democracy/peace/crime pathways.",
+    "source_url_sha256": "sha256:73a2ef6c917dfe155b159d1fcd51a765bde3de9873adf826c95c42d8e783b316",
+    "checked": "2026-09-26"
+  }
+}

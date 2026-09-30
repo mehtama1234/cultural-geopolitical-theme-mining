@@ -44,6 +44,40 @@
       "source_url": "https://www.nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents",
       "retrieval_hash": "sha256:879c2144007a2b4de1172662086d9e5a8ed1044b2ac6ab347827401c701ac494",
       "status": "reported"
+    },
+    {
+      "period": "June 1, 2026; Eastern Sentry operational support",
+      "denominator": {"value": 2, "unit": "NATO host locations used for NISRF support during the reported activity: Norway and Finland", "value_type": "reported_operating_locations"},
+      "measures": {
+        "asset": {"value": "NATO RQ-4D Phoenix aircraft operated from Ørland, Norway, and Pirkkala, Finland", "unit": "reported ISR operating arrangement", "value_type": "reported_operation"},
+        "alliance_integration": {"value": "NISRF worked with host-nation partners and integrated dispersed NATO-owned capabilities into Eastern Sentry", "unit": "reported operational integration", "value_type": "reported_response"},
+        "capability_effect": {"value": "The activity provided persistent intelligence, surveillance, and reconnaissance support and demonstrated dispersed employment and coordination", "unit": "reported operational effect", "value_type": "reported_capability"},
+        "mechanism": {"value": "A response becomes more than an announcement when named assets operate from named partner locations, but operational persistence still does not establish deterrence or public consent", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NATO Intelligence, Surveillance and Reconnaissance Force public operational account.",
+      "uncertainty": "The account does not report sortie counts, cost, coverage, incident prevention, local burden, or an external actor's response; operational value is described by NATO and is not independently evaluated here.",
+      "subgroup": "NATO ISR units, Norwegian and Finnish host-nation partners, eastern-flank defense institutions, and nearby communities not individually measured.",
+      "counterinterpretation": "Dispersed operation can demonstrate flexibility and interoperability without changing the strategic balance or producing durable local legitimacy.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-supports-eastern-sentry-from-norway-and-finland",
+      "retrieval_hash": "sha256:7473afe504c3105ff2e009255bf20610afc8b108329272d0e80c9babc5e34176",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; information contest after a Polish airspace uncertainty event",
+      "denominator": {"value": 1, "unit": "G7 RRM statement about an initially unidentifiable aerial object over Polish airspace after Russian military activity over western Ukraine", "value_type": "reported_information_incident"},
+      "measures": {
+        "information_operation": {"value": "The G7 RRM reported online information operations that used fabricated insider-leak claims and a network identified as Pravda Network/Portal Kombat", "unit": "reported information-operation account", "value_type": "reported_attribution"},
+        "targeted_meaning": {"value": "The reported narratives sought to weaken trust in Polish institutions and NATO, deflect responsibility, and reduce public support for Ukraine", "unit": "reported influence objective", "value_type": "reported_mechanism"},
+        "later_attribution": {"value": "Polish investigations later confirmed the object was a cruise missile manufactured near Moscow, according to the G7 statement", "unit": "reported follow-up attribution", "value_type": "reported_followup"},
+        "mechanism": {"value": "Security capability and legitimacy operate on different clocks: uncertainty creates an opening in which information operations can contest attribution before institutional clarification arrives", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "G7 Rapid Response Mechanism statement issued by Poland's Ministry of Foreign Affairs; this records the official account and does not independently audit the information network or measure audience effects.",
+      "uncertainty": "The statement reports limited effectiveness but provides no population survey, exposure denominator, causal effect on trust, or counterfactual absent the information operation.",
+      "subgroup": "Polish publics, NATO-supporting audiences, online information users, and institutions targeted by the reported narratives.",
+      "counterinterpretation": "Official attribution of an information operation can itself be part of a contested strategic-information environment; audience effects require independent exposure and belief measurement.",
+      "source_url": "https://www.gov.pl/web/diplomacy/g7-rapid-response-mechanism-rrm-statement-on-foreign-information-operations-following-the-violation-of-polish-airspace",
+      "retrieval_hash": "sha256:fe3e275fb13eba319660942555eb5932b19dcf8f065654938850b120f7bcec4f",
+      "status": "reported"
     }
   ],
   "related_sources": [

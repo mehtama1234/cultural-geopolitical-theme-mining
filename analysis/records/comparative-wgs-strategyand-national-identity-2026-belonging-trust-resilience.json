@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wgs-strategyand-national-identity-2026-belonging-trust-resilience",
+  "title": "National identity is being recast as governable infrastructure for belonging, trust, resilience, and international standing",
+  "theme_ids": ["voice", "energy", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Governments Summit and Strategy& Middle East, Being and Belonging: Sustaining National Identity in a Changing World",
+  "geography": "Global strategic framework with Gulf examples including the United Arab Emirates and Saudi Arabia",
+  "observations": [
+    {
+      "period": "2026 report; national identity under globalization, migration, and digital connectivity",
+      "denominator": {"value": 1, "unit": "strategic framework for government assessment of national identity", "value_type": "reported_framework"},
+      "measures": {
+        "identity_pressure": {"value": "Globalization, migration, diverse cultural exposure, and digital communities are described as reshaping how citizens perceive and express national identity", "unit": "reported social condition", "value_type": "reported_pattern"},
+        "identity_asset": {"value": "National identity is framed as a potential strategic asset for social cohesion, trust, resilience, competitiveness, and global reputation", "unit": "reported governance frame", "value_type": "reported_mechanism"},
+        "passive_active_tension": {"value": "Identity that is deliberately shaped may strengthen cohesion, while identity allowed to evolve passively may undermine stability, credibility, and reform", "unit": "reported strategic tension", "value_type": "reported_tension"}
+      },
+      "method": "Government-and-consulting strategic framework summarized in an official World Governments Summit publication announcement; the public announcement does not provide a representative survey or causal evaluation.",
+      "uncertainty": "The report’s identity-to-trust and identity-to-competitiveness links are strategic propositions, not estimates of public effects. Identity policy can be inclusive or exclusionary, and the public announcement does not define outcome measurement or contestation procedures.",
+      "subgroup": "Citizens, migrants, minority communities, governments, cultural institutions, schools, media systems, and international audiences whose belonging or reputation is affected by national identity narratives.",
+      "counterinterpretation": "Deliberate identity policy can produce cohesion but can also police belonging, marginalize minorities, suppress dissent, or substitute symbolic unity for material inclusion and effective governance.",
+      "source_url": "https://www.worldgovernmentssummit.org/media-hub/news/detail/wgs-issues-report-on-national-identity-as-strategic-asset-for-trust-resilience-competitiveness",
+      "retrieval_hash": "sha256:ea58f5c92f9200d763278c29499cb7a48f75f713dc3d9e952219d5bde76bb18f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; identity-marker diagnostic",
+      "denominator": {"value": 4, "unit": "broad categories of identity markers in the framework", "value_type": "reported_framework_count"},
+      "measures": {
+        "demographic_markers": {"value": "ancestry, religion, and shared heritage", "unit": "identity-marker category", "value_type": "reported_framework"},
+        "cultural_markers": {"value": "language, traditions, symbols, and creative expression", "unit": "identity-marker category", "value_type": "reported_framework"},
+        "economic_markers": {"value": "accessibility to economic opportunities and natural resources", "unit": "identity-marker category", "value_type": "reported_framework"},
+        "civic_markers": {"value": "civic rights, sovereignty, and government effectiveness", "unit": "identity-marker category", "value_type": "reported_framework"}
+      },
+      "method": "Framework decomposition of national identity into demographic, cultural, economic, and civic markers, with a case-by-case diagnostic rather than a universal model.",
+      "uncertainty": "The categories are analytic and normative; the announcement does not show how markers are weighted, who decides their relevance, or how internal disagreement and unequal power are represented.",
+      "subgroup": "Different communities within states that attach unequal meaning to ancestry, religion, language, economic opportunity, rights, sovereignty, and government performance.",
+      "counterinterpretation": "Breaking identity into categories can aid policy diagnosis, but it may also turn fluid and contested identities into administrative checklists or strategic branding.",
+      "source_url": "https://www.worldgovernmentssummit.org/media-hub/news/detail/wgs-issues-report-on-national-identity-as-strategic-asset-for-trust-resilience-competitiveness",
+      "retrieval_hash": "sha256:ea58f5c92f9200d763278c29499cb7a48f75f713dc3d9e952219d5bde76bb18f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; identity expression and measurable civic life",
+      "denominator": {"value": 1, "unit": "identity-to-behavior translation route", "value_type": "reported_framework"},
+      "measures": {
+        "foundational_markers": {"value": "The framework distinguishes identity markers that serve as continuity anchors from the ways identity is expressed and adapted", "unit": "reported framework distinction", "value_type": "reported_distinction"},
+        "everyday_expression": {"value": "Identity is linked to everyday behavior, participation, trust, and engagement rather than being treated as an abstract sentiment alone", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "policy_embedding": {"value": "Education, culture, media, and wider public policy are identified as arenas in which identity is sustained and adapted", "unit": "reported governance route", "value_type": "reported_route"},
+        "measurement": {"value": "The report calls for indicators that track identity-related progress over time", "unit": "reported recommendation", "value_type": "reported_recommendation"}
+      },
+      "method": "Strategic policy framework connecting identity markers to behavioral expression, institutions, public policy, and indicators.",
+      "uncertainty": "The framework does not specify validated indicators, show public baseline levels, or demonstrate that embedding identity across institutions causes trust or participation.",
+      "subgroup": "People whose identity is expressed through civic rituals, language, education, media, participation, and relationships with public institutions.",
+      "counterinterpretation": "Measuring identity can make belonging visible, but metrics can reward official conformity and miss informal, hybrid, diasporic, or oppositional forms of belonging.",
+      "source_url": "https://www.worldgovernmentssummit.org/media-hub/news/detail/wgs-issues-report-on-national-identity-as-strategic-asset-for-trust-resilience-competitiveness",
+      "retrieval_hash": "sha256:ea58f5c92f9200d763278c29499cb7a48f75f713dc3d9e952219d5bde76bb18f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; Gulf examples of coordinated identity policy",
+      "denominator": {"value": 2, "unit": "Gulf country examples highlighted in the public announcement", "value_type": "reported_case_count"},
+      "measures": {
+        "uae_route": {"value": "The UAE examples include Arabic-language preservation, mandatory Arabic education, Emirati dialect use in official media, national celebrations, and civic rituals", "unit": "reported policy examples", "value_type": "reported_case"},
+        "saudi_route": {"value": "Saudi Arabia examples include cultural programmes, historical projects, and integrating identity into tourism, media, and economic development", "unit": "reported policy examples", "value_type": "reported_case"},
+        "cross_sector_embedding": {"value": "Identity is treated as cross-sector infrastructure spanning culture, education, media, tourism, economic development, and civic practice", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Illustrative case examples from the report announcement; examples are not comparative evaluations of policy effectiveness or public consent.",
+      "uncertainty": "The examples are selected by the report authors and publicized by its institutional partners; no counterfactual, independent outcome data, or within-country distribution of benefits and burdens is provided.",
+      "subgroup": "Citizens, migrant populations, language communities, cultural producers, tourists, educators, and institutions operating in highly globalized Gulf societies.",
+      "counterinterpretation": "Coordinated cultural policy may support continuity and participation, but it can also privilege official narratives and leave migrant or minority belonging conditional.",
+      "source_url": "https://www.worldgovernmentssummit.org/media-hub/news/detail/wgs-issues-report-on-national-identity-as-strategic-asset-for-trust-resilience-competitiveness",
+      "retrieval_hash": "sha256:ea58f5c92f9200d763278c29499cb7a48f75f713dc3d9e952219d5bde76bb18f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldgovernmentssummit.org/", "claim": "World Governments Summit institutional context and knowledge-partnership program.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a strategic cultural-state layer on national identity, belonging, participation, trust, resilience, competitiveness, and international reputation. It is a government-and-consulting framework with illustrative Gulf examples, not a representative public-opinion study, a causal policy evaluation, proof of inclusive belonging, or evidence that identity management improves material outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Governments Summit publication announcement reviewed for the identity-as-strategic-asset frame, four identity-marker categories, identity-to-behavior distinction, policy-embedding recommendation, and UAE/Saudi Arabia examples.",
+    "source_url_sha256": "sha256:ea58f5c92f9200d763278c29499cb7a48f75f713dc3d9e952219d5bde76bb18f",
+    "checked": "2026-09-28"
+  }
+}

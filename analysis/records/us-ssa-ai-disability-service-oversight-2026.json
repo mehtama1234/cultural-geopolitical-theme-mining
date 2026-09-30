@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ssa-ai-disability-service-oversight-2026",
+  "title": "SSA is adding AI-assisted contact and disability-evidence processing while outcome and oversight evidence remain open",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Social Security Administration FY 2025-2026 Annual Performance Plan, SSA Open Data disability-denial review documentation, and SSA Office of Inspector General ongoing-audit register",
+  "geography": "United States Social Security Administration; national disability programs and customer-service channels",
+  "observations": [
+    {
+      "period": "FY 2025-2026 plan; implementation and performance targets",
+      "denominator": {
+        "value": 1,
+        "unit": "SSA agency performance plan",
+        "value_type": "reported_agency_plan"
+      },
+      "measures": {
+        "ai_customer_contact": {"value": "AI is being used to enhance Interactive Voice Response tools and promote an SSA chatbot", "unit": "reported agency service initiative", "value_type": "reported_implementation"},
+        "automated_calls": {"value": 4, "unit": "million automated calls projected in each of FY 2025 and FY 2026", "value_type": "reported_projection"},
+        "ai_evidence_processing": {"value": "IMAGEN transforms evidence in electronic disability folders into machine-readable text with search and intelligent-analysis capabilities", "unit": "reported disability-processing capability", "value_type": "reported_implementation"},
+        "initial_disability_processing_time": {"value": 220, "unit": "days; FY 2026 planned average processing time for initial disability claims", "value_type": "reported_target"},
+        "initial_disability_decisional_accuracy": {"value": 97, "unit": "percent; FY 2026 planned State Disability Determination Services decisional accuracy rate", "value_type": "reported_target"},
+        "claimant_outcome": {"value": "not observed", "unit": "no claimant-level AI exposure, decision, explanation, appeal, correction, payment, or later health/work outcome in the plan", "value_type": "unmeasured"}
+      },
+      "method": "Review of SSA's official FY 2025-2026 Annual Performance Plan; agency initiatives, projected automated-call volume, processing targets, and decisional-accuracy targets are retained separately from realized system performance and claimant outcomes.",
+      "uncertainty": "The plan does not identify which calls or claims receive AI assistance, whether AI changes wait time or accuracy relative to a counterfactual, how errors are detected and corrected, whether users receive explanations, or whether service changes alter benefit receipt, household income, health, work, or trust.",
+      "subgroup": "SSA customers, disability claimants, beneficiaries, medical providers submitting evidence, teleservice users, State DDS staff, federal examiners, and people with limited digital access or communication accommodations.",
+      "counterinterpretation": "Automation may reduce routine work and waiting for some users while creating new authentication, escalation, accessibility, or error-correction burdens for others; a target is not evidence of realized improvement.",
+      "source_url": "https://www.ssa.gov/budget/assets/materials/2026/2026APP.pdf",
+      "retrieval_hash": "sha256:16c5d84227060364f35de6f0998e311b2d0093d6361eac2e972133fad2fe9a49",
+      "status": "reported"
+    },
+    {
+      "period": "2026; current oversight and denial-review infrastructure",
+      "denominator": {
+        "value": 52,
+        "unit": "DDS jurisdictions included in SSA's targeted review of denied disability cases; all 50 States, DC, and Puerto Rico",
+        "value_type": "reported_review_scope"
+      },
+      "measures": {
+        "ssa_ai_audit": {"value": "SSA OIG lists an audit of SSA's Use of Artificial Intelligence, started 2026-03-30, with planned completion in FY 2027 Q2", "unit": "reported oversight status", "value_type": "reported_status"},
+        "denial_review_sampling": {"value": "statistical model identifies denied cases matching a profile for highly error-prone medically denied applications", "unit": "reported review-selection method", "value_type": "reported_method"},
+        "review_outputs": {"value": "cases reviewed, cases returned for substantive error, and decisions reversed are defined as public fields", "unit": "available aggregate outcome fields", "value_type": "reported_data_asset"},
+        "data_freshness": {"value": "2023-06-02", "unit": "last update shown on the SSA disability-denial review documentation page", "value_type": "reported_metadata"},
+        "correction_and_benefit_receipt": {"value": "not linked", "unit": "public materials do not connect AI use, a named claimant, appeal effort, corrected determination, payment timing, or later outcome", "value_type": "unmeasured"}
+      },
+      "method": "Review of the official SSA OIG ongoing-audit register and SSA Open Data disability-denial review documentation; agency oversight status, review scope, selection method, and available fields are kept separate from a population-wide error rate or individual remedy.",
+      "uncertainty": "The public register does not report the AI audit's findings before completion. The targeted denial-review dataset is a selected review universe rather than all denials, and the documentation does not establish that a returned or reversed case was caused by AI, that a claimant received timely benefits, or that later harm was repaired.",
+      "subgroup": "Disability claimants whose cases enter DDS review, claimants in high-error-risk review profiles, State DDSs, SSA reviewers, OIG oversight staff, and people affected by automated or AI-assisted evidence and workflow tools.",
+      "counterinterpretation": "A targeted review can improve quality assurance without representing ordinary claims; an open AI audit may reflect routine oversight rather than known failure, while an older public data asset can still be useful for historical monitoring without proving current performance.",
+      "source_url": "https://oig.ssa.gov/audit-reports/ongoing-audits/",
+      "retrieval_hash": "sha256:80c3085bd62e829d2f4f7b3c98fff7d07a24b89721399d88a427ac215a2f911d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ssa.gov/data/targeted-denial-review.html", "claim": "SSA describes the national disability-denial review scope, selected-case method, return and reversal fields, and the displayed 2023 documentation update.", "status": "official-context"},
+    {"source_url": "https://oig.ssa.gov/assets/uploads/2026-spring-sar.pdf", "claim": "SSA OIG's Spring 2026 semiannual report describes AI-assisted vocational analysis and document-viewer tools while identifying controls needed before denying disability claims.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes named SSA AI-assisted service and disability-processing initiatives alongside an open OIG AI audit and selected denial-review infrastructure. It does not establish claimant-level AI exposure, discrimination, inaccurate denial, appeal success, benefit receipt, timely correction, household income, health, work, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "SSA OIG ongoing-audit register and a retained local evidence extract of the official SSA performance-plan PDF were hashed on 2026-09-29; SSA denial-review documentation was reviewed through its official page.",
+    "checked": "2026-09-29"
+  }
+}

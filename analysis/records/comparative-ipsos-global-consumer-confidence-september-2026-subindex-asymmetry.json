@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-consumer-confidence-september-2026-subindex-asymmetry",
+  "title": "Stable global consumer confidence masks a present-purchase and investment shortfall beneath stronger expectations and job sentiment",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "geopolitical_state_consequences", "unequal_exposure_status", "political_judgment_action", "firm_sector_market_power"],
+  "source_unit": "Ipsos Global Consumer Confidence Index, September 2026 monthly survey",
+  "geography": "30 countries; more than 21,000 adults under age 75 surveyed August 21-September 4, 2026",
+  "observations": [
+    {
+      "period": "September 2026; global consumer-confidence index and four sub-indices",
+      "denominator": {"value": 30, "unit": "countries in Ipsos Global Advisor monthly survey", "value_type": "published_country_coverage"},
+      "measures": {
+        "overall_index": {"value": "Global Consumer Confidence Index is 48.4 and unchanged from August", "unit": "index points", "value_type": "published_index"},
+        "current": {"value": "Current sub-index is 39.0", "unit": "index points", "value_type": "published_index"},
+        "investment": {"value": "Investment sub-index is 41.7, up 0.2 points", "unit": "index points", "value_type": "published_index"},
+        "expectations_jobs": {"value": "Expectations is 56.6 and Jobs is 57.7", "unit": "index points", "value_type": "published_index"}
+      },
+      "method": "Ipsos monthly online Global Advisor survey of more than 21,000 adults under 75 in 30 countries; the overall index is the average of surveyed countries' National indices and is not a population-weighted global respondent estimate.",
+      "uncertainty": "Country online samples, index construction, country composition, field timing, and the distinction between perceptions and realized purchasing or employment conditions limit causal or global-welfare interpretation.",
+      "subgroup": "Country markets, current-purchase perceptions, investment perceptions, future expectations, and job-security perceptions; no single same-household longitudinal pathway is reported here.",
+      "counterinterpretation": "The gap between sub-indices may reflect question wording or seasonal and country-composition effects rather than a stable psychological split between future hope and present constraint; jobs sentiment is not realized employment security.",
+      "source_url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "retrieval_hash": "sha256:98b0405f03bc6afa1d14d9f0439b149a695eb38b8b4426649875cc7c187142c4",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; country dispersion and geopolitical aftereffect",
+      "denominator": {"value": 30, "unit": "countries surveyed", "value_type": "published_country_coverage"},
+      "measures": {
+        "high_low_range": {"value": "India has the highest National Index at 66.9, while Türkiye is lowest at 35.3; Japan is 39.4 and Argentina 37.8", "unit": "index points", "value_type": "published_country_comparison"},
+        "thresholds": {"value": "India and Sweden are at or above 60; twelve additional countries are at or above 50; three are below 40", "unit": "country counts and index points", "value_type": "published_distribution"},
+        "geopolitical_persistence": {"value": "Sentiment remains significantly below its pre-war level in 13 countries and more than one point below its level before the start of the Iran war", "unit": "reported comparison", "value_type": "published_comparison"},
+        "monthly_movement": {"value": "Four countries show significant gains, while Malaysia is the only country with a notable decline", "unit": "country count", "value_type": "published_movement"}
+      },
+      "method": "Ipsos cross-country index comparison using the September 2026 monthly wave and its historical country series.",
+      "uncertainty": "The release does not identify the causal contribution of war, inflation, domestic politics, or other shocks to country movements; cross-country index levels are not directly comparable measures of household material welfare.",
+      "subgroup": "30 national markets, with regional contrasts across Europe and Asia-Pacific and country-specific movements.",
+      "counterinterpretation": "A lower index can reflect expectations, political mood, or survey response style rather than actual consumption decline; a national average can hide large income, age, and place differences.",
+      "source_url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "retrieval_hash": "sha256:98b0405f03bc6afa1d14d9f0439b149a695eb38b8b4426649875cc7c187142c4",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; country-level multidimensional movement",
+      "denominator": {"value": 30, "unit": "countries with four tracked sub-indices", "value_type": "published_country_coverage"},
+      "measures": {
+        "broad_loss_absence": {"value": "No country shows significant losses of at least two points across all four sub-indices", "unit": "country count", "value_type": "published_pattern"},
+        "broad_gain": {"value": "Chile and Israel show significant month-over-month gains across all four sub-indices", "unit": "country count", "value_type": "published_pattern"},
+        "interpretation": {"value": "Aggregate stability coexists with distinct combinations of current constraint, investment caution, future expectation, and job sentiment", "unit": "consumer-sentiment pattern", "value_type": "bounded_interpretation"}
+      },
+      "method": "Comparison of month-over-month changes in Ipsos Current, Investment, Expectations, and Jobs sub-indices.",
+      "uncertainty": "The source reports index movement rather than household spending, investment, employment, or welfare outcomes; the causal meaning of a multi-index movement remains open.",
+      "subgroup": "Countries and four sentiment dimensions; it does not identify individual-level transitions among consumers.",
+      "counterinterpretation": "Multi-index stability or gains may be temporary and may not translate into behavior; country-specific conflict or policy context can make the same index movement mean different things.",
+      "source_url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "retrieval_hash": "sha256:98b0405f03bc6afa1d14d9f0439b149a695eb38b8b4426649875cc7c187142c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/august-2026-global-consumer-confidence-declines-first-time-four-months", "claim": "Prior Ipsos wave referenced by the September release for month-over-month context."}
+  ],
+  "boundary": "This record identifies a cross-country consumer-sentiment and sub-index asymmetry. It does not establish realized spending, investment, jobs, household welfare, causal geopolitical effects, or a population-weighted global confidence level.",
+  "retrieval_hash": "sha256:98b0405f03bc6afa1d14d9f0439b149a695eb38b8b4426649875cc7c187142c4"
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-w3c-identity-web-2026-privacy-governance-trust",
+  "title": "Digital identity is becoming social infrastructure where privacy, access, trust, human rights and governance are negotiated through Web standards",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Wide Web Consortium, Identity & the Web",
+  "geography": "Global Web and digital-identity ecosystem; governments, standards bodies, organizations, workers, users and service providers",
+  "observations": [
+    {
+      "period": "2026 document; digital identity as systemic infrastructure",
+      "denominator": {"value": 1, "unit": "W3C Team exploratory impact analysis", "value_type": "published_framework"},
+      "measures": {
+        "system_scope": {"value": "digital identity is analyzed across market-side and human-side impacts, including privacy, security, human rights, access and governance", "unit": "reported impact scope", "value_type": "reported_framework"},
+        "government_role": {"value": "governments are increasingly considering themselves providers and consumers of digital-identity technologies", "unit": "reported institutional trend", "value_type": "reported_assessment"},
+        "balance_shift": {"value": "digital identity can alter privacy assumptions and the balance that has shaped the Web ecosystem", "unit": "reported systemic implication", "value_type": "reported_interpretation"}
+      },
+      "method": "W3C Team exploratory analysis of digital-identity models, use cases, threats and possible roles for standards, guidelines and interoperability.",
+      "uncertainty": "The document states that it is incomplete, may be wrong in places, and does not represent W3C Membership consensus or a standardization decision.",
+      "subgroup": "Web users, governments, identity providers, organizations, workers, service providers, standards bodies and people affected by identity verification or exclusion.",
+      "counterinterpretation": "Digital identity can reduce repetitive verification and improve access, but centralizing or expanding credentials can also increase surveillance, data exposure, exclusion and dependence on issuers or vendors.",
+      "source_url": "https://www.w3.org/reports/identity-web-impact/",
+      "retrieval_hash": "sha256:937ce515d2bfe89209303126197b94b935e7a11947cbae6097704f09ad102f52",
+      "status": "reported"
+    },
+    {
+      "period": "2026 document; identity models and control over credentials",
+      "denominator": {"value": 3, "unit": "digital-identity management models discussed by W3C", "value_type": "published_framework"},
+      "measures": {
+        "models": {"value": "centralized, federated and decentralized identity models are compared", "unit": "reported architecture categories", "value_type": "reported_framework"},
+        "user_control": {"value": "decentralized models can place credentials in the user’s wallet and decouple presentation from direct issuer contact, potentially increasing privacy and user control", "unit": "reported architecture implication", "value_type": "reported_interpretation"},
+        "traceability": {"value": "decentralization does not automatically guarantee untraceability; implementation, verification and issuer contact can preserve tracking", "unit": "reported privacy caveat", "value_type": "reported_limitation"}
+      },
+      "method": "Comparative conceptual analysis of centralized, federated and decentralized digital-identity architectures, data flow and security/privacy properties.",
+      "uncertainty": "The document describes possible properties and trade-offs rather than measuring how deployed systems perform in practice.",
+      "subgroup": "Credential holders, issuers, verifiers, identity providers, employers, financial institutions, governments and Web users.",
+      "counterinterpretation": "User-held credentials can reduce issuer visibility, but wallets, hardware requirements, revocation systems and verifier policies may create new technical or socioeconomic barriers.",
+      "source_url": "https://www.w3.org/reports/identity-web-impact/",
+      "retrieval_hash": "sha256:937ce515d2bfe89209303126197b94b935e7a11947cbae6097704f09ad102f52",
+      "status": "reported"
+    },
+    {
+      "period": "2026 document; identity as governance and cultural meaning",
+      "denominator": {"value": 1, "unit": "W3C social and governance framing", "value_type": "published_framework"},
+      "measures": {
+        "identity_scope": {"value": "identity is presented as more than a technical attribute: it is connected to social relationships, culture, rights, recognition and the parties that issue or verify claims", "unit": "reported conceptual framing", "value_type": "reported_framework"},
+        "governance_claim": {"value": "people, standards organizations and governments need to collaborate so digital identities solve more problems than they create", "unit": "reported governance principle", "value_type": "reported_recommendation"},
+        "trust_status": {"value": "trust is treated as contextual and chosen rather than a binary property of a credential or system", "unit": "reported conceptual framing", "value_type": "reported_interpretation"}
+      },
+      "method": "Interdisciplinary conceptual discussion connecting identity technology to social, ethical, cultural and governance impacts.",
+      "uncertainty": "This is a framing document rather than an empirical study of cultural identity, trust or public attitudes.",
+      "subgroup": "People whose identities are represented, recognized or denied by institutions, platforms and digital services, including culturally diverse users and marginalized groups.",
+      "counterinterpretation": "Cultural and social meanings cannot be fully resolved by technical standards; local institutions, law, practice and power still determine whose identity claims are accepted and on what terms.",
+      "source_url": "https://www.w3.org/reports/identity-web-impact/",
+      "retrieval_hash": "sha256:937ce515d2bfe89209303126197b94b935e7a11947cbae6097704f09ad102f52",
+      "status": "reported"
+    },
+    {
+      "period": "2026 document; minimization, interoperability and exclusion risks",
+      "denominator": {"value": 1, "unit": "W3C threat and standards analysis", "value_type": "published_framework"},
+      "measures": {
+        "threats": {"value": "surveillance, censorship, intrusion, discrimination, data breaches and vendor lock-in are identified as risks requiring technical and governance responses", "unit": "reported threat domains", "value_type": "reported_risk_set"},
+        "data_minimization": {"value": "credential systems should disclose only the information needed for a particular verification rather than entire identity documents", "unit": "reported privacy principle", "value_type": "reported_recommendation"},
+        "interoperability": {"value": "coordination among standards organizations and interoperable credential components is presented as necessary for a manageable ecosystem", "unit": "reported standards direction", "value_type": "reported_framework"}
+      },
+      "method": "Threat-modeling and standards-oriented analysis of credential presentation, verification, privacy and interoperability.",
+      "uncertainty": "The report identifies design principles and risks but does not establish that interoperability or selective disclosure will be implemented consistently or eliminate exclusion.",
+      "subgroup": "Users presenting credentials, verifiers, platform operators, standards bodies, governments and people with limited devices, connectivity, documentation or technical capacity.",
+      "counterinterpretation": "More interoperable identity infrastructure may lower friction across services, while expanding credential requirements can make basic participation conditional on devices, biometrics, documentation or platform access.",
+      "source_url": "https://www.w3.org/reports/identity-web-impact/",
+      "retrieval_hash": "sha256:937ce515d2bfe89209303126197b94b935e7a11947cbae6097704f09ad102f52",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://github.com/w3c/identity-web-impact", "claim": "W3C issue-tracking and feedback repository for the exploratory document."},
+    {"source_url": "https://www.w3.org/TR/vc-data-model-2.0/", "claim": "W3C Verifiable Credentials Data Model referenced as part of the identity ecosystem."}
+  ],
+  "boundary": "This record adds a digital-identity and Web-governance signal linking credentials to privacy, access, trust, cultural meaning, human rights, surveillance, interoperability, vendor power and exclusion. It is an exploratory W3C Team report that explicitly does not represent W3C Membership consensus or a standardization document, and it is not a deployment audit, public-opinion study or causal evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official W3C Identity & the Web document was reviewed for its status caveat, identity-system scope, centralized/federated/decentralized models, social and governance framing, threat domains, data minimization and interoperability analysis.",
+    "source_url_sha256": "sha256:937ce515d2bfe89209303126197b94b935e7a11947cbae6097704f09ad102f52",
+    "checked": "2026-09-27"
+  }
+}

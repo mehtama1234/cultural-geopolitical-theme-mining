@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-southeast-asia-uhc-climate-health-monitoring-2026",
+  "title": "Universal health coverage is being reframed as a climate-and-data resilience problem, not only a service-availability target",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "WHO South-East Asia Regional Office, Monitoring progress on universal health coverage and the health-related Sustainable Development Goals in the South-East Asia Region, 2026",
+  "geography": "All 10 WHO South-East Asia Region Member States",
+  "observations": [
+    {
+      "period": "September 2026; regional UHC and health-related SDG monitoring",
+      "denominator": {"value": 10, "unit": "WHO South-East Asia Region Member States tracked in the report", "value_type": "regional_country_frame"},
+      "measures": {
+        "monitoring_scope": {"value": "country-level and regional trends in health-related SDG indicators and universal-health-coverage progress", "unit": "reported monitoring scope", "value_type": "reported_system_measure"},
+        "comparison_route": {"value": "country profiles compare progress against global targets and identify advancement alongside critical gaps", "unit": "reported accountability mechanism", "value_type": "reported_mechanism"},
+        "equity_route": {"value": "data are positioned to draw attention to persistent gaps and action for scaling equitable coverage of priority interventions", "unit": "reported policy purpose", "value_type": "reported_policy_endpoint"}
+      },
+      "method": "WHO compilation of recent scientific evidence, health-related SDG indicators, a revised UHC monitoring framework, and country profiles across 10 Member States.",
+      "uncertainty": "Regional monitoring indicators do not by themselves measure every person’s access, quality, affordability, trust, or health outcome, and country comparisons depend on data completeness and definitions.",
+      "subgroup": "Member-state health systems, populations needing priority interventions, underserved communities, health workers, planners, and public-health data institutions.",
+      "counterinterpretation": "Better monitoring can improve visibility and accountability, but it may not change coverage without financing, workforce, supply, political commitment, and implementation capacity.",
+      "source_url": "https://www.who.int/publications/i/item/9789292800208",
+      "retrieval_hash": "sha256:0e2cceea0cf02f02cd4de5a0f18501078d75ef1390bd1110a08564417397fb10",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; climate change monitoring for public-health action",
+      "denominator": {"value": 1, "unit": "WHO report thematic focus", "value_type": "climate_health_monitoring_frame"},
+      "measures": {
+        "thematic_focus": {"value": "leveraging climate-change monitoring for public-health action", "unit": "reported report focus", "value_type": "reported_theme"},
+        "health_system_route": {"value": "climate impacts require climate-informed surveillance, adaptation, preparedness, resilience, and mitigation through climate-smart health systems", "unit": "reported response set", "value_type": "reported_mechanism_set"},
+        "cross_domain_link": {"value": "climate exposure becomes a health-system capacity issue through surveillance, service continuity, infrastructure, and public decision-making", "unit": "program mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "WHO thematic chapter connecting climate and health indicators with health-system adaptation, preparedness, resilience, and mitigation.",
+      "uncertainty": "The report establishes a monitoring and policy framework, not a causal estimate of climate exposure on individual health or proof that climate-smart systems have delivered outcomes.",
+      "subgroup": "Climate-exposed communities, health facilities, public-health agencies, emergency planners, health workers, and populations facing unequal environmental risk.",
+      "counterinterpretation": "Climate-health monitoring may be most useful when integrated with local knowledge and service planning rather than treated as a separate technical dashboard.",
+      "source_url": "https://www.who.int/publications/i/item/9789292800208",
+      "retrieval_hash": "sha256:0e2cceea0cf02f02cd4de5a0f18501078d75ef1390bd1110a08564417397fb10",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; four thematic domains of climate-and-health data",
+      "denominator": {"value": 4, "unit": "climate-and-health data domains presented in the report", "value_type": "reported_data_framework_size"},
+      "measures": {
+        "indicator_framework": {"value": "an enhanced set of climate and health indicators supports evidence-based decision-making", "unit": "reported data-system feature", "value_type": "reported_framework"},
+        "data_use": {"value": "climate-health data are intended to support adaptation, preparedness, resilience, mitigation, and health-system planning", "unit": "reported use case", "value_type": "reported_policy_use"},
+        "implementation_test": {"value": "the next test is whether indicators change budgets, surveillance, facility preparation, intervention reach, and equitable service continuity", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "WHO report framework combining country profiles with four thematic domains of climate and health data.",
+      "uncertainty": "A data framework does not establish indicator validity in every local setting, data timeliness, institutional uptake, or downstream health effects.",
+      "subgroup": "Health-information systems, climate-observation agencies, ministries, facilities, local governments, researchers, and communities using or affected by public-health information.",
+      "counterinterpretation": "Standardized domains can improve comparability, while local adaptation may require additional indicators and qualitative evidence not captured in a regional framework.",
+      "source_url": "https://www.who.int/publications/i/item/9789292800208",
+      "retrieval_hash": "sha256:0e2cceea0cf02f02cd4de5a0f18501078d75ef1390bd1110a08564417397fb10",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; public accountability and resilient coverage",
+      "denominator": {"value": 1, "unit": "WHO regional monitoring and governance framework", "value_type": "public_system_resilience_frame"},
+      "measures": {
+        "accountability_mechanism": {"value": "country profiles and SDG/UHC indicators can make persistent gaps visible to decision-makers and the public", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "resilience_definition": {"value": "resilient coverage requires linking routine services, climate surveillance, preparedness, financing, data, and equitable intervention reach", "unit": "cross-source interpretation", "value_type": "analytic_mechanism_set"},
+        "boundary": {"value": "monitoring progress is not the same as proving service access, affordability, quality, or political follow-through", "unit": "interpretation boundary", "value_type": "boundary"}
+      },
+      "method": "Cross-domain interpretation of WHO UHC, SDG, climate-health, country-profile, and accountability framing.",
+      "uncertainty": "The report does not identify which institutions will act on each gap or estimate how climate shocks and health-system constraints distribute across households.",
+      "subgroup": "Health ministries, local authorities, patients, households, providers, data systems, and communities with unequal exposure to climate and service gaps.",
+      "counterinterpretation": "Visible indicators can support political and administrative action, but public reporting can also be performative if budgets, authority, and community participation remain disconnected.",
+      "source_url": "https://www.who.int/publications/i/item/9789292800208",
+      "retrieval_hash": "sha256:0e2cceea0cf02f02cd4de5a0f18501078d75ef1390bd1110a08564417397fb10",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/i/item/9789240122482", "claim": "WHO World Health Statistics 2026 provides complementary global SDG health and inequality indicators."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240122925", "claim": "WHO health-workforce accounts provide complementary workforce distribution, aging, and planning context."}
+  ],
+  "boundary": "This record adds a regional route from universal health coverage and SDG monitoring through climate exposure, surveillance, public-system resilience, accountability, and equitable intervention reach. It is not patient-level data, a causal climate-health estimate, a service-quality evaluation, or proof that monitoring produced coverage gains.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO South-East Asia publication page was reviewed for the 10-Member-State scope, UHC and SDG monitoring, climate-health thematic focus, four data domains, country profiles, resilience, adaptation, and accountability framing.",
+    "source_url_sha256": "sha256:0e2cceea0cf02f02cd4de5a0f18501078d75ef1390bd1110a08564417397fb10",
+    "checked": "2026-09-26"
+  }
+}

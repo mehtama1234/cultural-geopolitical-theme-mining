@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-refed-households-2026-grocery-price-behavior-food-waste",
+  "title": "Grocery price pressure is reorganizing household food routines, with unequal budget impact and waste responses",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "public_systems_feedback"
+  ],
+  "source_unit": "ReFED, American Households in 2026: Grocery Spending, Behavior Change, and Food Waste Reduction; nationally representative YouGov survey of 1,000 U.S. households conducted January 2026",
+  "geography": "United States; household income and self-reported financial-situation comparisons",
+  "observations": [
+    {
+      "period": "January 2026; grocery spending and financial pressure",
+      "denominator": {"value": 1000, "unit": "U.S. households in nationally representative YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "grocery_spending_increased": {"value": 58, "unit": "percent reporting higher grocery spending than a year earlier", "value_type": "reported_share"},
+        "grocery_spending_decreased": {"value": 11, "unit": "percent reporting lower grocery spending", "value_type": "reported_share"},
+        "grocery_spending_same": {"value": 31, "unit": "percent reporting roughly unchanged grocery spending", "value_type": "reported_share"},
+        "increased_spending_attributed_to_prices": {"value": 93, "unit": "percent of households reporting increased spending that attributed it to food prices", "value_type": "reported_conditional_share"},
+        "median_weekly_grocery_spend": {"value": 150, "unit": "U.S. dollars per week across respondents", "value_type": "reported_median"},
+        "median_weekly_increase": {"value": 50, "unit": "U.S. dollars per week among households reporting increased spending", "value_type": "reported_median"}
+      },
+      "method": "Nationally representative YouGov survey of 1,000 U.S. households; questions covered financial situation, grocery spending, shopping, preparation, management, and self-reported waste over the prior year.",
+      "uncertainty": "Spending is self-reported and retrospective; respondents may define groceries differently and the estimate is an indicator of perceived change rather than a diary-based expenditure measure.",
+      "subgroup": "U.S. households; income and self-reported financial groups are analyzed separately.",
+      "counterinterpretation": "Stable reported spending can result from cutting quantities, switching stores or brands, using discounts, or not noticing incremental changes; higher spending can reflect household composition or food choices as well as inflation.",
+      "source_url": "https://refed.org/downloads/american-households-in-2026-grocery-spending-behavior-change-and-food-waste-reduction/",
+      "retrieval_hash": "sha256:2afa58bbc6430ec0fe53e5488d3980ff0a831754a8599d2a5d39e28e132c8eca",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; unequal burden of the same grocery-price increase",
+      "denominator": {"value": 1000, "unit": "U.S. households in the ReFED/YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "increase_as_income_share_under_40000": {"value": 10.4, "unit": "percent of annual income represented by the reported median increase for households earning under $40,000", "value_type": "reported_ratio"},
+        "increase_as_income_share_150000_plus": {"value": 1.5, "unit": "percent of annual income represented by the reported median increase for households earning $150,000 or more", "value_type": "reported_ratio"},
+        "relative_burden": {"value": "the same reported dollar increase hits lower-income households nearly seven times harder", "unit": "source-derived comparison", "value_type": "reported_comparison"},
+        "lower_income_household_count_context": {"value": 32, "unit": "million U.S. households earning under $40,000, approximately one in four households", "value_type": "reported_context_count_millions"}
+      },
+      "method": "ReFED calculation using reported household income and self-reported grocery-spending changes.",
+      "uncertainty": "The income-share comparison depends on reported medians, income categories, household composition, and a survey measure of spending change; it is not a full food-at-home budget or food-insecurity estimate.",
+      "subgroup": "U.S. households by annual income, especially under $40,000 and $150,000 or more.",
+      "counterinterpretation": "Households can respond through SNAP, food banks, family support, savings, substitution, or lower food quality; the burden comparison does not measure nutrition, hunger, or health outcomes.",
+      "source_url": "https://refed.org/downloads/american-households-in-2026-grocery-spending-behavior-change-and-food-waste-reduction/",
+      "retrieval_hash": "sha256:2afa58bbc6430ec0fe53e5488d3980ff0a831754a8599d2a5d39e28e132c8eca",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; shopping, preparation, and management adaptations",
+      "denominator": {"value": 632, "unit": "survey respondents reporting changed grocery spending and attributing the change to food prices", "value_type": "reported_conditional_sample"},
+      "measures": {
+        "look_for_sales_deals": {"value": 84, "unit": "percent reporting doing more often", "value_type": "reported_share"},
+        "cut_back_nonessentials_or_food_brought_home": {"value": 75, "unit": "percent", "value_type": "reported_share"},
+        "switch_to_less_premium_brands": {"value": 63, "unit": "percent", "value_type": "reported_share"},
+        "buy_larger_or_bulk_packages": {"value": 61, "unit": "percent", "value_type": "reported_share"},
+        "reported_waste_less": {"value": 56, "unit": "percent reporting less food waste over the prior year", "value_type": "reported_share"}
+      },
+      "method": "Conditional survey questions about food shopping, preparation, management, and perceived waste change among respondents whose grocery spending changed because of food prices.",
+      "uncertainty": "Responses are self-reported, overlapping, and not validated by household waste audits; bulk buying and promotions can reduce unit price while also increasing spoilage risk.",
+      "subgroup": "Households reporting food-price-related changes in grocery spending.",
+      "counterinterpretation": "Reported waste reduction may reflect buying less, discarding less, or changing recall rather than improved food management; cutting food purchases can reduce waste while increasing hardship.",
+      "source_url": "https://refed.org/downloads/american-households-in-2026-grocery-spending-behavior-change-and-food-waste-reduction/",
+      "retrieval_hash": "sha256:2afa58bbc6430ec0fe53e5488d3980ff0a831754a8599d2a5d39e28e132c8eca",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; behavior stacking and practical capacity",
+      "denominator": {"value": 1000, "unit": "U.S. households in the ReFED/YouGov survey; conditional behavior models vary by spending direction", "value_type": "reported_sample_size"},
+      "measures": {
+        "waste_reduction_association_spending_more": {"value": 29, "unit": "percent greater likelihood of reporting reduced waste among households spending more versus no spending change", "value_type": "reported_association"},
+        "waste_reduction_association_spending_less": {"value": 40, "unit": "percent greater likelihood among households spending less versus no spending change", "value_type": "reported_association"},
+        "price_attribution_association": {"value": 17, "unit": "percent greater likelihood of reporting less waste among households attributing change to food prices versus other reasons", "value_type": "reported_association"},
+        "per_behavior_probability_change": {"value": "about 8% for households spending more and 11% for households spending less per additional reported behavior", "unit": "reported model association", "value_type": "reported_association"},
+        "highest_value_behaviors": {"value": "meal planning and using leftovers showed the strongest relationship with reported waste reduction", "unit": "reported model interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Weighted multivariate analysis of reported food-management behaviors and reported waste direction; the report explicitly treats associations as noncausal.",
+      "uncertainty": "The snapshot cannot determine whether price pressure caused behavior change, whether lower waste reduced spending, or whether unmeasured time, storage, knowledge, household composition, or food access drove both.",
+      "subgroup": "Households with different grocery-spending trajectories and financial pressure.",
+      "counterinterpretation": "Lower-income households reported fewer total changes but may already have efficient routines; interventions requiring time, storage, equipment, or planning can be difficult to sustain.",
+      "source_url": "https://refed.org/downloads/american-households-in-2026-grocery-spending-behavior-change-and-food-waste-reduction/",
+      "retrieval_hash": "sha256:2afa58bbc6430ec0fe53e5488d3980ff0a831754a8599d2a5d39e28e132c8eca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://refed.org/food-waste/the-problem/", "claim": "ReFED context on the scale and system implications of U.S. food loss and waste.", "status": "publisher-context"},
+    {"source_url": "https://www.bls.gov/cex/", "claim": "BLS Consumer Expenditure Survey provides separate expenditure-diary context; it is not pooled with this self-reported survey.", "status": "official-context"}
+  ],
+  "boundary": "This record identifies a U.S. household-consumption mechanism in which grocery price pressure changes shopping, preparation, storage, leftover use, brand choice, and reported food waste, with sharply unequal income burden. It does not establish actual waste volumes, food insecurity, nutritional quality, health outcomes, causal effects, or that reduced waste always indicates improved household welfare.",
+  "retrieval_hash": "sha256:2afa58bbc6430ec0fe53e5488d3980ff0a831754a8599d2a5d39e28e132c8eca"
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nuffield-ada-young-people-digital-lives-2026-platform-agency",
+  "title": "Young people experience digital life as both community infrastructure and an inescapable system of platform control, surveillance and harm",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Nuffield Foundation and Ada Lovelace Institute, I love it, but I hate it: Young people's experiences and expectations of growing up digital",
+  "geography": "United Kingdom; peer research across Dundee, Shetland, Islington and Sandwell, spanning rural, urban and suburban contexts",
+  "observations": [
+    {
+      "period": "2025–2026 research; young people aged 14–24 in four UK locations",
+      "denominator": {"value": 49, "unit": "young people participating in peer research; purposive qualitative cohort", "value_type": "reported_sample"},
+      "measures": {
+        "digital_connection": {"value": "Participants described digital connection as an important route to information, advice, entertainment, community and relationships", "unit": "qualitative finding", "value_type": "reported_theme"},
+        "marginalised_support": {"value": "For some marginalised young people, online spaces provide comfort and support not readily available in their immediate offline environment", "unit": "qualitative finding", "value_type": "reported_theme"},
+        "online_harm": {"value": "Participants also described exposure to sexual, violent, hateful, discriminatory and misinformation content, including experiences that felt inescapable and difficult to challenge", "unit": "qualitative finding", "value_type": "reported_theme"}
+      },
+      "method": "Peer research co-designed and facilitated by young people with youth-worker support; participants included people experiencing poverty, homelessness or social care, school exclusion, and health challenges.",
+      "uncertainty": "The cohort was purposive and qualitative; shared themes indicate lived experience and perceived mechanisms, not prevalence, representative population exposure or causal mental-health effects.",
+      "subgroup": "Young people aged 14–24 across four UK locations, with attention to gender, trans identity, care experience, exclusion and marginalization.",
+      "counterinterpretation": "Digital communities can reduce isolation and expand support while still exposing people to harm; a single overall judgment that technology is beneficial or harmful would erase this context dependence.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/05/I-love-it-but-I-hate-it-1779289338.pdf",
+      "retrieval_hash": "sha256:4098279013c365d3aad02509166ac6afb582e2c3f19f218d4bb5f38d6f0ff03c",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026 research; digital-first everyday life and platform control",
+      "denominator": {"value": 49, "unit": "young people participating in peer research; purposive qualitative cohort", "value_type": "reported_sample"},
+      "measures": {
+        "digital_first_dependency": {"value": "Participants said smartphones and digital technologies are integrated into essential tasks including schoolwork, paid-work applications and public services", "unit": "qualitative finding", "value_type": "reported_theme"},
+        "control_constraint": {"value": "They described being advised to reduce use while simultaneously being required to participate in a digital-first society, limiting control over when and how they go online", "unit": "qualitative mechanism", "value_type": "reported_theme"},
+        "platform_design": {"value": "Algorithmic nudges, gamification and dark patterns were understood as shaping attention and promoting commercial or ideological content", "unit": "qualitative mechanism", "value_type": "reported_theme"}
+      },
+      "method": "Peer-led workshops and co-analysis focused on participants' own experiences of social media, messaging, search, schoolwork, work applications and AI.",
+      "uncertainty": "Participants' accounts identify perceived dependence and design mechanisms but do not measure screen time, algorithmic exposure, platform revenue effects or the prevalence of particular design experiences.",
+      "subgroup": "Young people navigating school, work, public services and relationships through digital systems, including those with limited offline support.",
+      "counterinterpretation": "Digital dependence may reflect useful access and convenience as well as coercive infrastructure; reducing use without providing offline alternatives could increase exclusion.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/05/I-love-it-but-I-hate-it-1779289338.pdf",
+      "retrieval_hash": "sha256:4098279013c365d3aad02509166ac6afb582e2c3f19f218d4bb5f38d6f0ff03c",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026 research; safety, surveillance and responsibility",
+      "denominator": {"value": 49, "unit": "young people participating in peer research; purposive qualitative cohort", "value_type": "reported_sample"},
+      "measures": {
+        "self_safeguarding": {"value": "Participants described having to independently manage online safety, with young women and trans participants especially reporting responsibility for themselves and younger people", "unit": "qualitative finding", "value_type": "reported_theme"},
+        "structural_accountability": {"value": "The perceived absence of structural accountability for harmful content and negative outcomes intensified isolation and resignation", "unit": "qualitative mechanism", "value_type": "reported_theme"},
+        "surveillance_anxiety": {"value": "Participants associated constant digital surveillance with anxiety and warned that safety measures could increase data collection and privacy loss", "unit": "qualitative finding", "value_type": "reported_theme"}
+      },
+      "method": "Youth-led discussion and reflection, including attention to gendered experiences, past exposure and changing interpretation over time.",
+      "uncertainty": "The report records participant perceptions and narratives; it does not independently verify platform practices, legal harms, clinical diagnoses or differential exposure rates.",
+      "subgroup": "Young women, trans participants, younger children reflected on by older participants, and young people with varied care, health and exclusion experiences.",
+      "counterinterpretation": "Individual safety strategies and critical awareness can provide agency, but placing the burden on young people may conceal the responsibilities of platforms, regulators, schools, families and public services.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/05/I-love-it-but-I-hate-it-1779289338.pdf",
+      "retrieval_hash": "sha256:4098279013c365d3aad02509166ac6afb582e2c3f19f218d4bb5f38d6f0ff03c",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026 research; AI, future work and youth governance preferences",
+      "denominator": {"value": 49, "unit": "young people participating in peer research; purposive qualitative cohort", "value_type": "reported_sample"},
+      "measures": {
+        "ai_systemic_concerns": {"value": "Participants raised concerns about AI's effects on arts, environment, sex and relationships, mental health, jobs, deskilling and public services", "unit": "qualitative finding", "value_type": "reported_theme"},
+        "future_protection": {"value": "Participants broadly wanted future young people to have stronger protections and not access technology in the same way they had, while preserving beneficial community access", "unit": "qualitative policy preference", "value_type": "reported_theme"},
+        "youth_governance": {"value": "The report recommends a standing, diverse Young People's Board on Digital Futures with representation, scrutiny, monitoring, deliberation and accountability functions", "unit": "reported policy proposal", "value_type": "reported_interpretation"},
+        "regulatory_balance": {"value": "Age-specific protections should be combined with safety-by-design, privacy safeguards, broader platform regulation and investment in alternative digital and physical spaces", "unit": "reported policy framework", "value_type": "reported_framework"}
+      },
+      "method": "Peer research synthesis and policy implications developed by the Ada Lovelace Institute from participants' lived experiences and reflections.",
+      "uncertainty": "The recommendations are normative and grounded in a small qualitative cohort; the report does not evaluate a youth board, regulation, safety-by-design intervention or alternative-space investment.",
+      "subgroup": "Young people affected by platform design, AI, public-service digitization, school technology and online/offline community access.",
+      "counterinterpretation": "Youth participation can improve policy fit and legitimacy, but a standing board requires clear power, representation, resources, feedback and accountability or it may become symbolic consultation.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/05/I-love-it-but-I-hate-it-1779289338.pdf",
+      "retrieval_hash": "sha256:4098279013c365d3aad02509166ac6afb582e2c3f19f218d4bb5f38d6f0ff03c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nuffieldfoundation.org/evidence-and-impact/our-programmes/grown-up/i-love-it-but-i-hate-it", "claim": "Official Nuffield Foundation landing page with executive summary, participant context and policy implications."},
+    {"source_url": "https://www.nuffieldfoundation.org/evidence-and-impact/our-programmes/grown-up/deep-dive-workshop-digital-lives", "claim": "Programme context for the Youth Insight Group, youth-worker partnership and broader journeys-to-adulthood research."}
+  ],
+  "boundary": "This record adds a UK comparative lived-experience layer: digital connection is simultaneously community infrastructure and an inescapable system of platform control, surveillance, harm and unequal exposure. It is peer-led qualitative research with 49 young people, not a prevalence survey, representative estimate, behavioral trace, clinical assessment, legal finding or causal evaluation of regulation, platform design or youth governance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 116-page Nuffield Foundation/Ada Lovelace Institute PDF and publication page were retrieved and reviewed for participant count, locations, peer-research design, digital benefits and harms, platform dependence, surveillance, AI concerns, subgroup context and policy implications; the PDF was hashed.",
+    "source_url_sha256": "sha256:4098279013c365d3aad02509166ac6afb582e2c3f19f218d4bb5f38d6f0ff03c",
+    "checked": "2026-09-27"
+  }
+}

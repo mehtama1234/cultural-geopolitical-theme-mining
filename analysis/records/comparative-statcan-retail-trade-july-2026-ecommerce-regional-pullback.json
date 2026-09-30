@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-retail-trade-july-2026-ecommerce-regional-pullback",
+  "title": "Canadian retail sales remain above year-ago levels while July volume, e-commerce, and major regional markets pull back",
+  "theme_ids": ["cost", "time", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Statistics Canada Retail trade, July 2026",
+  "geography": "Canada",
+  "observations": [
+    {
+      "period": "July 2026; seasonally adjusted Canadian retail trade",
+      "denominator": {"value": 1, "unit": "aggregate Canadian retail trade; not household respondents", "value_type": "aggregate_account"},
+      "measures": {
+        "retail_sales": {"value": 73.7, "unit": "billion Canadian dollars", "value_type": "reported_level"},
+        "retail_sales_monthly_change": {"value": -0.7, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "retail_sales_annual_change": {"value": 5.1, "unit": "percent from July 2025", "value_type": "reported_change"},
+        "retail_sales_volume_monthly_change": {"value": -1.1, "unit": "percent from June 2026 at 2017 constant prices", "value_type": "reported_change"}
+      },
+      "method": "Statistics Canada seasonally adjusted retail-trade estimates in current dollars, supplemented by the release's constant-price volume measure.",
+      "uncertainty": "Current-dollar growth can reflect prices and mix rather than quantities or household welfare. The aggregate is retail trade, not a panel of unique consumers, and the volume measure is an aggregate constant-price estimate.",
+      "subgroup": "Canadian retail trade aggregate; the release covers provinces, territories, census metropolitan areas, and industry subsectors but does not identify individual consumers.",
+      "counterinterpretation": "The positive year-over-year level may indicate continued nominal demand resilience even as the monthly and volume declines signal short-run cooling; a single month should not be treated as a durable consumer retrenchment.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm?indgeo=5&indid=3660-1",
+      "retrieval_hash": "sha256:368ce0c846c6d76198544bbfafa8ecca1b14ae3afb7a2dc36416b8826fa1d1bc",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; Canadian retail e-commerce and core subsectors",
+      "denominator": {"value": 1, "unit": "aggregate Canadian retail sales and e-commerce transaction value; seasonally adjusted", "value_type": "aggregate_index"},
+      "measures": {
+        "retail_ecommerce_sales": {"value": 5.5, "unit": "billion Canadian dollars", "value_type": "reported_level"},
+        "retail_ecommerce_monthly_change": {"value": -3.5, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "retail_ecommerce_share": {"value": 7.5, "unit": "percent of total retail trade; 7.7% in June", "value_type": "reported_share"},
+        "general_merchandise_monthly_change": {"value": -1.9, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "clothing_accessories_shoes_jewelry_luggage_leather_monthly_change": {"value": -1.2, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "building_material_garden_equipment_monthly_change": {"value": 0.8, "unit": "percent from June 2026; fourth consecutive monthly increase", "value_type": "reported_change"}
+      },
+      "method": "Official seasonally adjusted retail-industry estimates; e-commerce is reported as a share of total retail trade and category changes are nominal unless the release explicitly identifies volume.",
+      "uncertainty": "E-commerce and category changes do not separate orders, basket size, prices, or substitution between online and offline channels. The subsector pattern may include seasonal and promotional effects.",
+      "subgroup": "Canadian e-commerce and retail-industry subsectors.",
+      "counterinterpretation": "The e-commerce share remains substantial despite its monthly decline, while building-material demand rises; this could indicate channel normalization and category-specific spending rather than broad-based disengagement.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm?indgeo=5&indid=3660-1",
+      "retrieval_hash": "sha256:368ce0c846c6d76198544bbfafa8ecca1b14ae3afb7a2dc36416b8826fa1d1bc",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; selected Canadian provincial retail markets",
+      "denominator": {"value": 1, "unit": "seasonally adjusted provincial retail sales; current-dollar monthly changes", "value_type": "aggregate_index"},
+      "measures": {
+        "ontario_retail_sales_monthly_change": {"value": -2.0, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "british_columbia_retail_sales_monthly_change": {"value": -1.4, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "alberta_retail_sales_monthly_change": {"value": 1.4, "unit": "percent from June 2026", "value_type": "reported_change"},
+        "quebec_retail_sales_monthly_change": {"value": 0.0, "unit": "percent from June 2026, reported as -0.0", "value_type": "reported_change"}
+      },
+      "method": "Statistics Canada provincial and territorial seasonally adjusted retail-sales estimates from the same release.",
+      "uncertainty": "Provincial retail changes are not direct measures of disposable income, sentiment, or cultural preference. Regional industry mix, vehicle sales, prices, and timing can drive divergence.",
+      "subgroup": "Selected Canadian provinces: Ontario, British Columbia, Alberta, and Quebec.",
+      "counterinterpretation": "The regional split may reflect sector composition rather than a uniform geographic consumer divide: the release attributes Ontario's decline to general merchandise and Alberta's increase to general merchandise, while British Columbia's decline is led by motor-vehicle and parts dealers.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm?indgeo=5&indid=3660-1",
+      "retrieval_hash": "sha256:368ce0c846c6d76198544bbfafa8ecca1b14ae3afb7a2dc36416b8826fa1d1bc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/t001a-eng.htm", "claim": "Official Statistics Canada table provides provincial, territorial, and census metropolitan area retail-sales detail for July 2026.", "status": "official-table"},
+    {"source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010006701&request_locale=en", "claim": "Official Statistics Canada table provides retail sales at 2017 constant prices by industry for volume comparisons.", "status": "official-table"},
+    {"source_url": "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=2406", "claim": "Official survey page documents the retail-trade statistical program and methodology.", "status": "official-methodology"}
+  ],
+  "boundary": "This record adds a Canadian retail, e-commerce, category, and regional-demand layer to the cross-country consumer-channel comparison. It does not measure unique consumers, household financial stress, cultural attendance, causal substitution, or merchant margins. The August 2026 advance estimate is excluded from the main observation because Statistics Canada labels it unofficial and subject to revision.",
+  "retrieval_hash": "sha256:368ce0c846c6d76198544bbfafa8ecca1b14ae3afb7a2dc36416b8826fa1d1bc"
+}

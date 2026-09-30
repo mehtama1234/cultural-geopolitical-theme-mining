@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-towards-2026-human-development-report-planetary-human-futures",
+  "title": "Human-development strategy is shifting from managing crises toward rebuilding mutually beneficial relationships between people and planetary systems",
+  "theme_ids": ["cost", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNDP Human Development Reports, Towards 2026 Human Development Report: An Aspirational Approach to Planetary and Human Futures",
+  "geography": "Global human-development and planetary-systems outlook",
+  "observations": [
+    {
+      "period": "2026 report development; planetary pressures and human development",
+      "denominator": {"value": 1, "unit": "global human-development outlook frame", "value_type": "global_outlook_frame"},
+      "measures": {
+        "central_relationship": {"value": "Changes in planetary systems shape the future of human development, while advances in human development can address threats to those systems", "unit": "reported framing", "value_type": "reported_system_relationship"},
+        "intersecting_domains": {"value": "Planetary pressures are examined in relation to health, education, livelihoods, and well-being", "unit": "reported domain set", "value_type": "reported_intersection"},
+        "strategic_shift": {"value": "The report asks societies to cultivate more constructive, mutually beneficial relationships between people and nature", "unit": "reported strategic orientation", "value_type": "reported_policy_orientation"}
+      },
+      "method": "UNDP Human Development Report synthesis and conceptual framing for the 2026 report, supported by global human-development and planetary-systems evidence.",
+      "uncertainty": "This is a report-development framing and agenda, not a completed global estimate, causal model, or forecast of planetary and human outcomes.",
+      "subgroup": "People and communities exposed to planetary pressures, households dependent on health and livelihood systems, public institutions, and natural systems.",
+      "counterinterpretation": "Human development and planetary protection can conflict in particular places or time horizons; a mutually beneficial relationship requires institutional choices and distributional safeguards.",
+      "source_url": "https://hdr.undp.org/reports-and-publications/towards-2026-human-development-report",
+      "retrieval_hash": "sha256:61ad5c74d1663ec4fb1b18020a92a43c90bce99453f11f38b30ae5f0e36c5a89",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report development; measurement and progress",
+      "denominator": {"value": 1, "unit": "proposed human-development measurement framework", "value_type": "proposed_measurement_frame"},
+      "measures": {
+        "measurement_gap": {"value": "The report proposes new metrics to better capture progress in a context where human and planetary futures are linked", "unit": "reported measurement proposal", "value_type": "reported_innovation"},
+        "human_nature_relationships": {"value": "The report seeks to introduce a framework for measuring human-nature relationships", "unit": "reported framework proposal", "value_type": "reported_measurement_framework"},
+        "progress_question": {"value": "Progress is being reframed beyond defensive or retreating responses toward conditions in which people and planet can thrive together", "unit": "reported progress orientation", "value_type": "reported_policy_orientation"}
+      },
+      "method": "UNDP conceptual and measurement-design work for the 2026 Human Development Report.",
+      "uncertainty": "The proposed metrics are not yet an established cross-country time series; validity, comparability, and policy use remain to be demonstrated.",
+      "subgroup": "Statistical systems, policymakers, communities, households, researchers, and populations whose well-being is poorly represented by conventional development measures.",
+      "counterinterpretation": "New composite or relational metrics can add insight but can also obscure local meanings, tradeoffs, or power differences if used without disaggregation and participation.",
+      "source_url": "https://hdr.undp.org/reports-and-publications/towards-2026-human-development-report",
+      "retrieval_hash": "sha256:61ad5c74d1663ec4fb1b18020a92a43c90bce99453f11f38b30ae5f0e36c5a89",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026 trilogy; uncertainty, polarization, AI, and planetary futures",
+      "denominator": {"value": 3, "unit": "UNDP Human Development Report trilogy on development through uncertainty", "value_type": "published_trilogy_frame"},
+      "measures": {
+        "sequence": {"value": "The 2026 report is presented as the final installment in a trilogy following the 2023-24 report on political polarization and the 2025 report on AI-driven transformations", "unit": "reported publication sequence", "value_type": "reported_sequence"},
+        "uncertainty_route": {"value": "The trilogy links political meaning, technological transformation, and planetary-human futures as connected development questions", "unit": "reported thematic route", "value_type": "analytic_connection"},
+        "digital_public_goods": {"value": "The cycle draws on and expands HDRO digital public goods, including the Human Climate Horizons platform", "unit": "reported knowledge infrastructure", "value_type": "reported_infrastructure"}
+      },
+      "method": "Comparison of the stated scope and continuity of UNDP Human Development Reports across the trilogy.",
+      "uncertainty": "A publication sequence establishes a framing connection, not evidence that the three domains share one causal mechanism or equal policy weight.",
+      "subgroup": "People navigating political polarization, AI-mediated change, climate and planetary pressures, and institutions using public data for decision-making.",
+      "counterinterpretation": "The trilogy may reflect editorial continuity more than a settled empirical synthesis; separate domain evidence should remain separately assessed.",
+      "source_url": "https://hdr.undp.org/reports-and-publications/towards-2026-human-development-report",
+      "retrieval_hash": "sha256:61ad5c74d1663ec4fb1b18020a92a43c90bce99453f11f38b30ae5f0e36c5a89",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report development; aspiration, agency, and collective action",
+      "denominator": {"value": 1, "unit": "global human-and-planetary futures agenda", "value_type": "global_agenda_frame"},
+      "measures": {
+        "aspiration": {"value": "The report shifts the narrative from crisis alone toward reconnection and the possibility of thriving together", "unit": "reported narrative orientation", "value_type": "reported_orientation"},
+        "action_route": {"value": "It identifies actionable strategies intended to mobilize people's aspirations for a better future", "unit": "reported action orientation", "value_type": "reported_policy_pathway"},
+        "agency_signal": {"value": "Human aspirations are treated as an input to planetary transition, not merely as outcomes constrained by environmental decline", "unit": "analytic interpretation grounded in source framing", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP aspirational and policy-oriented framing for the 2026 Human Development Report.",
+      "uncertainty": "The page describes an intended approach and report agenda; it does not establish that aspiration produces collective action or equitable outcomes.",
+      "subgroup": "Communities, households, policymakers, civil-society actors, educators, and institutions shaping human-nature relationships.",
+      "counterinterpretation": "Aspirational framing can motivate action, but without resources, accountability, and political inclusion it can remain symbolic or shift responsibility onto individuals.",
+      "source_url": "https://hdr.undp.org/reports-and-publications/towards-2026-human-development-report",
+      "retrieval_hash": "sha256:61ad5c74d1663ec4fb1b18020a92a43c90bce99453f11f38b30ae5f0e36c5a89",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://horizons.hdr.undp.org/", "claim": "UNDP's Human Climate Horizons platform is identified as a digital public good supporting the report cycle."},
+    {"source_url": "https://hdr.undp.org/content/human-development-report-2025", "claim": "The 2025 Human Development Report provides the adjacent AI-driven human-development frame in the trilogy."}
+  ],
+  "boundary": "This record adds UNDP's emerging human-development and planetary-futures framing, including the proposed measurement turn, human-nature relationships, trilogy continuity, and aspiration-to-action route. It is a public report-development agenda and conceptual synthesis, not respondent-level data, a completed index, a causal estimate, a forecast, or proof that proposed strategies have been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP Human Development Reports page reviewed for the 2026 report's planetary-human framing, proposed metrics, human-nature relationship framework, trilogy context, digital public goods, and action orientation.",
+    "source_url_sha256": "sha256:61ad5c74d1663ec4fb1b18020a92a43c90bce99453f11f38b30ae5f0e36c5a89",
+    "checked": "2026-09-27"
+  }
+}

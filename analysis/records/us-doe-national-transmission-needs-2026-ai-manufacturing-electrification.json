@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doe-national-transmission-needs-2026-ai-manufacturing-electrification",
+  "title": "AI, manufacturing, and electrification are turning transmission capacity into a national growth and affordability constraint",
+  "theme_ids": ["energy", "cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Department of Energy Office of Electricity, Draft 2026 National Transmission Needs Study and official study summary, released July 2026",
+  "geography": "United States; national and interregional electric transmission, congestion, reliability, load growth, and public consultation",
+  "observations": [
+    {
+      "period": "2026; national electricity-demand and transmission planning frame",
+      "denominator": {"value": 1, "unit": "DOE national transmission needs assessment", "value_type": "policy_assessment_frame"},
+      "measures": {
+        "demand_regime": {"value": "DOE describes a shift from decades of stagnant demand toward unprecedented and exponential load growth", "unit": "official system assessment", "value_type": "reported_assessment"},
+        "named_load_drivers": {"value": "hyperscale AI data centers, expanding domestic manufacturing, large industrial loads, building electrification, and transportation electrification", "unit": "officially named demand drivers", "value_type": "reported_driver_set"},
+        "reliability_context": {"value": "the grid must expand while remaining reliable and secure during severe storms", "unit": "official planning requirement", "value_type": "reported_requirement"},
+        "consumer_frame": {"value": "DOE frames transmission expansion as necessary to support affordable, reliable, and secure electricity for Americans", "unit": "official policy frame", "value_type": "reported_policy_frame"}
+      },
+      "method": "DOE assessment of publicly available information and more than 120 recently published reports under the statutory national transmission-needs study process.",
+      "uncertainty": "The draft is an assessment of needs rather than a demand forecast with one central scenario; it does not establish which projects will be built, how costs will be allocated, or how household rates and reliability will change.",
+      "subgroup": "Households, utilities, data centers, manufacturers, electrifying buildings and vehicles, grid operators, states, tribes, and communities hosting generation or transmission.",
+      "counterinterpretation": "Load growth may be slower, more distributed, or more flexible than current planning assumptions; efficiency, demand response, local generation, storage, and other technologies could reduce some transmission needs.",
+      "source_url": "https://www.energy.gov/oe/national-transmission-needs-study",
+      "retrieval_hash": "sha256:de36cbe4a6b69b068662716780254b52a8e91ad5a02781e9b300dd65d32e3ae0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; congestion, reliability, and new interconnection needs",
+      "denominator": {"value": 1, "unit": "DOE identified national transmission-need categories", "value_type": "policy_assessment_frame"},
+      "measures": {
+        "need_categories": {"value": "additional transmission is identified as needed for new generation interconnection, new load interconnection, and congestion relief", "unit": "official need categories", "value_type": "reported_need_set"},
+        "congestion_concentration": {"value": "the majority of transmission congestion is concentrated in about 5% of hours", "unit": "reported system pattern", "value_type": "reported_assessment"},
+        "high_congestion_conditions": {"value": "the concentrated hours are associated particularly with day-ahead/real-time price variance, high net load, cold weather, and high intermittent generation", "unit": "reported operating conditions", "value_type": "reported_condition_set"},
+        "regional_exposure": {"value": "DOE identifies NYISO, NorthernGrid South, and MISO as regions with high potential for new within-region transmission to relieve high congestion costs", "unit": "reported regional assessment", "value_type": "reported_regional_pattern"}
+      },
+      "method": "DOE synthesis of historical and anticipated capacity constraints and transmission congestion; regional findings are retained as study conclusions, not independently modeled here.",
+      "uncertainty": "The study summary does not provide a household or ratepayer denominator, project-level cost, counterfactual, congestion-cost pass-through, or realized reliability outcome for the named regions.",
+      "subgroup": "Grid operators, utilities, generators, large loads, ratepayers, and regions exposed to congestion and reliability constraints.",
+      "counterinterpretation": "Congestion concentrated in a small number of hours can make targeted flexibility, storage, market redesign, or operational changes more effective than broad transmission construction in some locations.",
+      "source_url": "https://www.energy.gov/oe/national-transmission-needs-study",
+      "retrieval_hash": "sha256:de36cbe4a6b69b068662716780254b52a8e91ad5a02781e9b300dd65d32e3ae0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; interregional transmission and consumer/system benefits",
+      "denominator": {"value": 1, "unit": "DOE interregional transmission assessment", "value_type": "policy_assessment_frame"},
+      "measures": {
+        "benefit_set": {"value": "DOE identifies reliability, grid resilience, and demand-growth support as benefits of increasing interregional transmission", "unit": "official benefit categories", "value_type": "reported_benefit_set"},
+        "high_value_links": {"value": "cross-interconnection and interregional links including WestConnect-SPP, NorthernGrid-WestConnect, and ISO-NE-NYISO show high potential for transmission congestion value in the study", "unit": "reported network assessment", "value_type": "reported_network_pattern"},
+        "consumer_translation": {"value": "the study frames interregional capacity as potentially improving consumer outcomes through reliability, resilience, and congestion relief", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "realized_household_outcome": {"value": "not observed in the study summary", "unit": "missing retail-rate, outage, and affordability endpoint", "value_type": "unmeasured"}
+      },
+      "method": "DOE study summary using historical locational marginal prices and interconnection-level comparisons to identify potential congestion value.",
+      "uncertainty": "Potential value is not realized savings; the summary does not establish project approval, construction, cost allocation, market-price effects, retail pass-through, or equal benefit across regions and customer classes.",
+      "subgroup": "Consumers, utilities, regional transmission organizations, states, generators, and communities connected through interregional power flows.",
+      "counterinterpretation": "Interregional transmission can create permitting, cost-allocation, governance, land-use, and reliability tradeoffs; a modeled congestion value does not settle local acceptance or distributional effects.",
+      "source_url": "https://www.energy.gov/oe/national-transmission-needs-study",
+      "retrieval_hash": "sha256:de36cbe4a6b69b068662716780254b52a8e91ad5a02781e9b300dd65d32e3ae0",
+      "status": "reported"
+    },
+    {
+      "period": "July-September 2026; study governance and consultation",
+      "denominator": {"value": 1, "unit": "draft national transmission-needs study process", "value_type": "administrative_process_frame"},
+      "measures": {
+        "source_base": {"value": "more than 120 recently published reports and publicly available information", "unit": "study evidence base", "value_type": "reported_method_scope"},
+        "study_status": {"value": "draft study released July 9, 2026 for public comment; comment period closed September 8, 2026", "unit": "administrative status", "value_type": "reported_process_status"},
+        "consulted_groups": {"value": "states, Tribal Nations, regional entities, and the general public were included in consultation or comment routes", "unit": "named participation scope", "value_type": "reported_participation_scope"},
+        "authority_boundary": {"value": "the study informs investment and planning decisions but is not intended to displace existing transmission planning or identify specific solutions", "unit": "official scope limitation", "value_type": "reported_boundary"}
+      },
+      "method": "Review of DOE study overview, public-comment process, and stated statutory purpose.",
+      "uncertainty": "Participation opportunity does not establish who submitted comments, how input changes the study, whose interests prevail, or whether identified needs produce binding projects or protections.",
+      "subgroup": "States, Tribal Nations, regional reliability entities, utilities, communities, industry, consumer representatives, and the general public.",
+      "counterinterpretation": "A national needs assessment can coordinate fragmented regional planning while still leaving local permitting, rate design, land use, and project selection contested.",
+      "source_url": "https://www.energy.gov/oe/national-transmission-needs-study",
+      "retrieval_hash": "sha256:de36cbe4a6b69b068662716780254b52a8e91ad5a02781e9b300dd65d32e3ae0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study", "claim": "DOE's release announcement describes the draft's load-growth rationale and public consultation period.", "status": "official-announcement"},
+    {"source_url": "https://www.energy.gov/oe/national-transmission-needs-study", "claim": "DOE study page provides key findings, methodology scope, participation routes, and the study's non-displacement boundary.", "status": "official-study-page"}
+  ],
+  "boundary": "This record adds a national infrastructure-governance mechanism: AI data centers, manufacturing, electrification, storms, congestion, and interregional reliability are converting transmission capacity into a growth and affordability planning problem. It does not establish a specific project, household rate effect, outage reduction, local consent, emissions outcome, or realized consumer benefit.",
+  "retrieval_hash": "sha256:de36cbe4a6b69b068662716780254b52a8e91ad5a02781e9b300dd65d32e3ae0"
+}

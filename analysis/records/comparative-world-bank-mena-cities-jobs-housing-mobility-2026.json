@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-mena-cities-jobs-housing-mobility-2026",
+  "title": "Urban policy is becoming a labor-market and social-access system as MENA cities absorb youth employment pressure",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["housing_place_mobility", "infrastructure_technology_dependency", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "World Bank, Cities that Work: Realizing the Jobs Potential of MENA's Cities",
+  "geography": "Middle East and North Africa cities, with comparison to more than 8,000 cities worldwide",
+  "observations": [
+    {
+      "period": "2026; MENA urban and employment outlook",
+      "denominator": {"value": 1, "unit": "MENA urban population and city economies covered by the World Bank report", "value_type": "regional_city_frame"},
+      "measures": {
+        "urban_population_share": {"value": 60, "unit": "percent of the MENA population living in cities", "value_type": "reported_regional_share"},
+        "young_people_seeking_work_by_2050": {"value": 300, "unit": "million young people expected to seek employment in MENA by 2050", "value_type": "reported_projection"},
+        "urban_role": {"value": "cities are central to addressing the region's jobs challenge and long-term growth", "unit": "reported policy interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of demographic, urban, labor-market, infrastructure, and private-sector conditions in MENA cities.",
+      "uncertainty": "The 2050 employment-seeking figure is a regional projection and does not specify future labor-force participation, migration, job quality, or city-level distribution.",
+      "subgroup": "Young people, women, lower-skilled workers, firms, urban households, and cities with different service and labor-market conditions.",
+      "counterinterpretation": "Urban growth can expand opportunity, but it can also intensify congestion, exclusion, housing pressure, and unequal access when infrastructure and institutions lag.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/25/mena-cities-can-become-powerful-engines-of-jobs-and-growth",
+      "retrieval_hash": "sha256:70f782f0ccd1f39116ff4568392032fbc0428195f4146c89ca854f8ae65584b9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; productivity comparison",
+      "denominator": {"value": 615, "unit": "MENA cities benchmarked against more than 8,000 cities worldwide", "value_type": "comparative_city_sample"},
+      "measures": {
+        "median_productivity_gap": {"value": 17.6, "unit": "percent below the productivity level of the world's best-performing cities of similar size", "value_type": "reported_comparative_gap"},
+        "analysis_frame": {"value": "city productivity, infrastructure, market access, firm conditions, quality of life, and governance", "unit": "reported analytical frame", "value_type": "reported_framework"}
+      },
+      "method": "World Bank comparative analysis of 615 MENA cities benchmarked against a global city dataset.",
+      "uncertainty": "The productivity comparison is a cross-city benchmark, not a causal estimate of which policy or infrastructure change would close the gap; city boundaries and data quality vary.",
+      "subgroup": "Large, primary, small, and medium cities; firms; workers; investors; and residents affected by urban productivity and service conditions.",
+      "counterinterpretation": "Lower measured productivity may reflect sector mix, city specialization, measurement limits, or social and environmental tradeoffs rather than an unambiguous welfare deficit.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/25/mena-cities-can-become-powerful-engines-of-jobs-and-growth",
+      "retrieval_hash": "sha256:70f782f0ccd1f39116ff4568392032fbc0428195f4146c89ca854f8ae65584b9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; reported urban constraints on access to work",
+      "denominator": {"value": 1, "unit": "MENA city labor-market and urban-service conditions summarized by the report", "value_type": "urban_access_frame"},
+      "measures": {
+        "firm_constraints": {"value": "land, electricity, water, and transport access constrain many urban firms", "unit": "reported constraint set", "value_type": "reported_mechanism"},
+        "women_job_access_constraints": {"value": "transport, childcare, and safety affect women's access to jobs", "unit": "reported access pathway", "value_type": "reported_mechanism"},
+        "housing_mobility_link": {"value": "housing constraints affect labor mobility, particularly for youth and lower-skilled workers", "unit": "reported access pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank policy synthesis connecting land, utility, transport, housing, childcare, safety, and labor-market access.",
+      "uncertainty": "The report identifies linked constraints but does not estimate each factor's independent effect on employment, wages, mobility, or gender gaps.",
+      "subgroup": "Women, youth, lower-skilled workers, renters, firms, caregivers, and residents of poorly connected neighborhoods.",
+      "counterinterpretation": "Improving transport or housing alone may not create jobs if firm demand, skills, safety, care provision, and market connectivity remain weak.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/25/mena-cities-can-become-powerful-engines-of-jobs-and-growth",
+      "retrieval_hash": "sha256:70f782f0ccd1f39116ff4568392032fbc0428195f4146c89ca854f8ae65584b9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; proposed city transformation pathways",
+      "denominator": {"value": 1, "unit": "World Bank framework for MENA urban job creation", "value_type": "policy_pathway_frame"},
+      "measures": {
+        "four_pathways": {"value": "productive density, market connectivity, attractiveness to investment and talent, and public-private coalitions", "unit": "reported policy pathway set", "value_type": "reported_framework"},
+        "large_city_priorities": {"value": "manage congestion, regenerate underused land, improve liveability, attract diversified investment and innovation, and compete in global markets", "unit": "reported priority set", "value_type": "reported_policy_recommendation"},
+        "small_medium_city_priorities": {"value": "improve basic services, nearby-market links, digital connectivity, and locally relevant sectors", "unit": "reported priority set", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "World Bank synthesis of differentiated policy pathways by city scale, market position, infrastructure, and local economic base.",
+      "uncertainty": "These are policy recommendations and implementation hypotheses, not evidence that the pathways have been funded, adopted, or shown to produce inclusive employment.",
+      "subgroup": "Large and smaller cities, local governments, firms, investors, workers, residents, and public-private delivery coalitions.",
+      "counterinterpretation": "Public-private collaboration and investment attraction can improve services and jobs, but may also concentrate benefits, raise land costs, or weaken accountability without safeguards.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/25/mena-cities-can-become-powerful-engines-of-jobs-and-growth",
+      "retrieval_hash": "sha256:70f782f0ccd1f39116ff4568392032fbc0428195f4146c89ca854f8ae65584b9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/region/mena/publication/cities-that-work-realizing-the-jobs-potential-of-mena-s-cities", "claim": "World Bank publication page for Cities that Work and its regional urban-jobs analysis."},
+    {"source_url": "https://unhabitat.org/world-cities-report-2026", "claim": "UN-Habitat housing and urban-system evidence provides a complementary global place-and-access frame."}
+  ],
+  "boundary": "This record adds an urban labor-market and access route linking youth employment pressure, productivity, housing, transport, childcare, safety, utilities, digital connectivity, and city governance. It is a publication-level regional synthesis, not respondent-level employment data, individual mobility histories, a city rent series, or causal proof that any recommended reform creates inclusive jobs.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank press release and linked Cities that Work report materials were reviewed for regional urban, productivity, access-constraint, and policy-pathway claims.",
+    "source_url_sha256": "sha256:70f782f0ccd1f39116ff4568392032fbc0428195f4146c89ca854f8ae65584b9",
+    "checked": "2026-09-27"
+  }
+}

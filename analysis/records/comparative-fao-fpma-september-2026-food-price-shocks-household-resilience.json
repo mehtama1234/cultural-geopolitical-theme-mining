@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-fpma-september-2026-food-price-shocks-household-resilience",
+  "title": "Food-price pressure is being rebuilt by weather, conflict, trade logistics, and input risk even when global supply remains historically large",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "housing_place_mobility"
+  ],
+  "source_unit": "FAO Food Price Monitoring and Analysis Bulletin #7, 14 September 2026",
+  "geography": "Global food commodity markets and domestic staple-food prices, with emphasis on developing-country early warning",
+  "observations": [
+    {
+      "period": "August 2026 international food-price index release",
+      "denominator": {"value": 100, "unit": "FAO Food Price Index base period and basket index reference", "value_type": "published_index_base"},
+      "measures": {
+        "food_price_index": {"value": 133.3, "unit": "FAO Food Price Index points in August 2026", "value_type": "reported_index"},
+        "monthly_change": {"value": 1.9, "unit": "percent increase from revised July 2026", "value_type": "reported_change"},
+        "annual_change": {"value": 2.5, "unit": "percent increase from August 2025", "value_type": "reported_change"},
+        "risk_mechanism": {"value": "weather risks, geopolitical tensions, and disrupted trade logistics tightened supply expectations", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "FAO tracks monthly international quotation changes for a basket of globally traded food commodities and complements the index with market and domestic-price monitoring.",
+      "uncertainty": "An international quotation index is not a household cost-of-living measure; exchange rates, taxes, margins, transport, substitution, and local policy mediate domestic prices.",
+      "subgroup": "Food-importing and food-exporting countries, low-income consumers, farmers, traders, processors, retailers, and households with different food-budget shares.",
+      "counterinterpretation": "The increase is modest relative to some historical shocks and does not by itself establish worsening food security everywhere; local harvests, stocks, subsidies, and substitution can offset global movements.",
+      "source_url": "https://openknowledge.fao.org/handle/20.500.14283/ce1640en",
+      "retrieval_hash": "sha256:d102ba1a0062c66ffefc2cd70df40d23e0509a590b73107af6ae75d49b6406dc",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 cereal and staple-market conditions",
+      "denominator": {"value": 1, "unit": "FAO global cereal and staple-price monitoring frame", "value_type": "published_market_frame"},
+      "measures": {
+        "cereal_price_change": {"value": 2.2, "unit": "percent increase in FAO Cereal Price Index from July 2026", "value_type": "reported_change"},
+        "wheat_price_change": {"value": 2.6, "unit": "percent increase in global wheat prices from July 2026", "value_type": "reported_change"},
+        "wheat_year_change": {"value": 15.0, "unit": "percent above August 2025 wheat price level", "value_type": "reported_change"},
+        "domestic_condition": {"value": "domestic staple-food prices remained high in many countries", "unit": "reported cross-country condition", "value_type": "reported_pattern"}
+      },
+      "method": "FAO combines international commodity quotations with domestic staple-price monitoring and early-warning analysis.",
+      "uncertainty": "The bulletin does not provide a single comparable domestic-price change for every country or identify the pass-through timing to each household.",
+      "subgroup": "Consumers dependent on wheat, maize, rice, and other staples; food-importing countries; producers facing input and weather risks; and urban and rural markets.",
+      "counterinterpretation": "High staple prices can coexist with adequate availability where stocks, income, safety nets, or local production cushion purchasing-power effects.",
+      "source_url": "https://openknowledge.fao.org/handle/20.500.14283/ce1640en",
+      "retrieval_hash": "sha256:d102ba1a0062c66ffefc2cd70df40d23e0509a590b73107af6ae75d49b6406dc",
+      "status": "reported"
+    },
+    {
+      "period": "2026/27 cereal production and utilization forecast",
+      "denominator": {"value": 1, "unit": "FAO global cereal supply-and-demand forecast", "value_type": "published_forecast_frame"},
+      "measures": {
+        "cereal_production": {"value": 2980, "unit": "million tonnes forecast for 2026, down 2.0% from 2025 but the second-largest harvest on record", "value_type": "reported_forecast"},
+        "wheat_production": {"value": 810.7, "unit": "million tonnes forecast for 2026, 3.8% below 2025", "value_type": "reported_forecast"},
+        "rice_production": {"value": 553.1, "unit": "million tonnes forecast for 2026/27, 1.9% below the prior-season record", "value_type": "reported_forecast"},
+        "stocks_to_use": {"value": 31.6, "unit": "percent projected world cereal stocks-to-use ratio at the end of 2026/27", "value_type": "reported_forecast"}
+      },
+      "method": "FAO updates global cereal production, utilization, stocks, and trade forecasts using market, production, and policy information.",
+      "uncertainty": "Forecasts can change with weather, conflict, trade policy, logistics, yields, exchange rates, and reporting revisions; global supply indicators do not determine local affordability.",
+      "subgroup": "Producers, food-importing governments, traders, processors, humanitarian agencies, and consumers exposed to regional supply or price shocks.",
+      "counterinterpretation": "A second-largest harvest and a historically comfortable stocks-to-use ratio suggest that scarcity is not the only route to price pressure; distribution, logistics, market power, and risk premiums matter.",
+      "source_url": "https://openknowledge.fao.org/handle/20.500.14283/ce1640en",
+      "retrieval_hash": "sha256:d102ba1a0062c66ffefc2cd70df40d23e0509a590b73107af6ae75d49b6406dc",
+      "status": "reported"
+    },
+    {
+      "period": "August–September 2026 early-warning mechanism",
+      "denominator": {"value": 1, "unit": "FAO market-risk assessment covering global and domestic food-price monitoring", "value_type": "published_assessment_frame"},
+      "measures": {
+        "weather_risk": {"value": "high temperatures and El Niño-related conditions threaten production in several regions", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "geopolitical_logistics": {"value": "Middle East conflict, Black Sea export disruption, and trade-flow uncertainty raise risk premiums", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "early_warning_function": {"value": "FPMA combines domestic prices and international markets to flag high food prices that may negatively affect food security", "unit": "reported monitoring purpose", "value_type": "reported_framework"},
+        "policy_signal": {"value": "resilience, open trade, and secure input flows are central to food-price stability", "unit": "reported policy direction", "value_type": "reported_framework"}
+      },
+      "method": "FAO's FPMA tool and bulletin connect market prices, supply conditions, weather, conflict, trade logistics, and early-warning use.",
+      "uncertainty": "The monitoring system identifies risk and price conditions but does not estimate each household's food insecurity, diet change, or welfare response.",
+      "subgroup": "Food-insecure households, importing countries, farmers, food-system workers, humanitarian responders, and policymakers managing reserves, trade, and social protection.",
+      "counterinterpretation": "Open trade and input security can reduce volatility, but greater trade integration can also transmit shocks faster and leave countries exposed to concentrated suppliers.",
+      "source_url": "https://www.fao.org/markets-and-trade/do-not-touch/all-widgets/food-price-monitoring-and-analysis-%28fpma%29-bulletin--7--14-september-2026---monthly-report-on-food-price-trends/en",
+      "retrieval_hash": "sha256:d102ba1a0062c66ffefc2cd70df40d23e0509a590b73107af6ae75d49b6406dc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/worldfoodsituation/foodpricesindex", "claim": "FAO Food Price Index data and release schedule."},
+    {"source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-agricultural-commodity-markets", "claim": "Complementary FAO 2026 analysis of trade, resilience, and food security."}
+  ],
+  "boundary": "This record adds a current food-price and early-warning route linking household food costs to weather, El Niño, conflict, trade logistics, supply expectations, stocks, production, and market resilience. It uses aggregate market indicators and forecasts, not household purchase histories, diet records, local retail pass-through, causal welfare estimates, or proof that food security improved or worsened for every group.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FAO FPMA Bulletin #7, the FAO Food Price Index release, and the FPMA September update were reviewed for index levels, commodity changes, production and stock forecasts, domestic-price conditions, risk mechanisms, and early-warning boundaries.",
+    "source_url_sha256": "sha256:d102ba1a0062c66ffefc2cd70df40d23e0509a590b73107af6ae75d49b6406dc",
+    "checked": "2026-09-27"
+  }
+}

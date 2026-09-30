@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "bsa43-welfare-deservingness-polarization-2026",
+  "title": "Welfare opinion is not one bloc: disability support remains resilient while deservingness and political identity polarize the boundary",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "care_health_reproduction", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "National Centre for Social Research, British Social Attitudes 43, Attitudes to welfare",
+  "geography": "Great Britain; adult BSA respondents, excluding Northern Ireland and respondents under 18 in the chapter's analyses",
+  "observations": [
+    {
+      "period": "2025; support for spending on welfare groups",
+      "denominator": {"value": 2918, "unit": "unweighted BSA respondents in the claimant-group spending item", "value_type": "unweighted_base"},
+      "measures": {
+        "disabled_more_spending": {"value": 49, "unit": "percent supporting more spending on benefits for disabled people who cannot work", "value_type": "reported_share"},
+        "disabled_less_spending": {"value": 7, "unit": "percent supporting less spending on those benefits", "value_type": "reported_share"},
+        "disabled_priority": {"value": 63, "unit": "percent naming benefits for disabled people among top two priorities for extra spending", "value_type": "reported_share"},
+        "retirement_priority": {"value": 53, "unit": "percent naming retirement pensions among top two priorities", "value_type": "reported_share"},
+        "welfare_abstraction": {"value": "Overall support for more welfare spending is comparatively low, but disability benefits remain broadly defended", "unit": "reported contrast", "value_type": "reported_pattern"}
+      },
+      "method": "British Social Attitudes survey trend analysis using weighted opinion estimates and unweighted bases reported in the chapter appendix.",
+      "uncertainty": "The items measure stated spending preferences, not actual claimant behavior, policy effects, benefit adequacy, or a unified public view of welfare.",
+      "subgroup": "Adults in Great Britain; disabled people who cannot work, pensioners, unemployed people, carers, parents, and other claimant groups.",
+      "counterinterpretation": "High support may reflect category-specific framing or sympathy with prototypical claimants rather than support for every disability-benefit rule or claimant group.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA-Welfare-43-Final.pdf",
+      "retrieval_hash": "sha256:46a987489ede3a5d72adecc1fa364ea852483aff9b2b60b6975aa32976483860",
+      "status": "reported"
+    },
+    {
+      "period": "2025; deservingness boundary among people opposing more welfare spending",
+      "denominator": {"value": 1246, "unit": "unweighted BSA respondents who opposed more welfare spending in the claimant-group comparison", "value_type": "unweighted_base"},
+      "measures": {
+        "anti_welfare_group_disability_cuts": {"value": 11, "unit": "percent of this group supporting less spending on disabled people", "value_type": "reported_share"},
+        "anti_welfare_group_unemployed_cuts": {"value": 67, "unit": "percent of this group supporting less spending on unemployed people", "value_type": "reported_share"},
+        "deservingness_gradient": {"value": "Opposition to welfare expansion is concentrated much more strongly on unemployed claimants than on disabled people", "unit": "reported contrast", "value_type": "reported_pattern"},
+        "recipient_prototype": {"value": "Public judgment varies with perceived need, blame, gratitude, group membership, and the imagined type of claimant affected", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Conditional subgroup analysis of BSA respondents who disagreed with more spending on welfare benefits for the poor.",
+      "uncertainty": "The survey does not identify every mental model behind deservingness judgments and cannot establish whether media narratives caused the difference.",
+      "subgroup": "Respondents opposing overall welfare expansion, contrasted across unemployed and disabled claimant categories.",
+      "counterinterpretation": "Respondents may distinguish benefits by perceived work capacity, fiscal cost, or policy design rather than by a stable general deservingness ideology.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA-Welfare-43-Final.pdf",
+      "retrieval_hash": "sha256:46a987489ede3a5d72adecc1fa364ea852483aff9b2b60b6975aa32976483860",
+      "status": "reported"
+    },
+    {
+      "period": "1998-2025; political polarization in welfare and disability-benefit attitudes",
+      "denominator": {"value": 4444, "unit": "unweighted BSA respondents in the 2025 voting-bloc comparison; historical bases vary by year", "value_type": "unweighted_base"},
+      "measures": {
+        "welfare_left_right_gap_1998": {"value": 35, "unit": "percentage-point difference in net support between left- and right-leaning voters", "value_type": "reported_gap"},
+        "welfare_left_right_gap_2025": {"value": 49, "unit": "percentage-point difference in net support between left- and right-leaning voters", "value_type": "reported_gap"},
+        "disability_gap_2011": {"value": 18, "unit": "percentage-point left-right gap in net support for more disability spending", "value_type": "reported_gap"},
+        "disability_gap_2021": {"value": 33, "unit": "percentage-point left-right gap", "value_type": "reported_gap"},
+        "disability_gap_2025": {"value": 25, "unit": "percentage-point left-right gap", "value_type": "reported_gap"},
+        "right_support_floor": {"value": "Even among Reform supporters, only 11% favored less spending on disabled people, and the comparable Conservative figure was 7%", "unit": "reported party-group shares", "value_type": "reported_pattern"}
+      },
+      "method": "Four-decade BSA trend analysis comparing left- and right-leaning voting blocs and recent party groups.",
+      "uncertainty": "Party-bloc composition, question wording, political context, and sample bases vary over time; polarization does not prove that party identity caused each attitude.",
+      "subgroup": "Left- and right-leaning voters, Labour/Conservative/Reform supporters, and the wider Great Britain adult population.",
+      "counterinterpretation": "The 2025 narrowing from the 2021 disability gap may reflect declining support among left voters, changing issue salience, or survey context rather than depolarization of underlying values.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA-Welfare-43-Final.pdf",
+      "retrieval_hash": "sha256:46a987489ede3a5d72adecc1fa364ea852483aff9b2b60b6975aa32976483860",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; fiscal context, reform salience, and question discontinuity",
+      "denominator": {"value": 2918, "unit": "unweighted BSA respondents in 2025 claimant-group analysis; 2024 wording differs materially", "value_type": "unweighted_base"},
+      "measures": {
+        "support_more_disability_2024": {"value": 33, "unit": "percent net support estimate in 2024", "value_type": "reported_share"},
+        "support_more_disability_2025": {"value": 43, "unit": "percent net support estimate in 2025", "value_type": "reported_share"},
+        "wording_break": {"value": "The chapter identifies a strong discontinuity in 2024 question wording and format, so the apparent 2024-2025 increase should be treated cautiously", "unit": "measurement boundary", "value_type": "reported_boundary"},
+        "thermostatic_context": {"value": "Attitudes respond partly to perceived spending, fiscal pressure, political rhetoric, media framing, and salient reform episodes rather than automatically to actual spending alone", "unit": "reported theoretical mechanism", "value_type": "reported_mechanism"},
+        "2025_welfare_net_support": {"value": -15, "unit": "percentage-point net support for more welfare spending overall", "value_type": "reported_net_support"}
+      },
+      "method": "Trend comparison of BSA survey measures with welfare-spending context and explicit review of question wording changes.",
+      "uncertainty": "The study is observational and cannot isolate spending, fiscal pressure, media rhetoric, reform salience, or wording as independent causes; 2024 is not directly comparable to adjacent years.",
+      "subgroup": "Great Britain adults across survey years, with attention to welfare attitudes after the 2025 disability-benefit reform episode.",
+      "counterinterpretation": "The 2025 result may reflect short-term sympathy after the failed PIP cuts rather than a durable shift in public welfare culture.",
+      "source_url": "https://natcen.ac.uk/sites/default/files/2026-09/BSA-Welfare-43-Final.pdf",
+      "retrieval_hash": "sha256:46a987489ede3a5d72adecc1fa364ea852483aff9b2b60b6975aa32976483860",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://natcen.ac.uk/publications/bsa-43-attitudes-welfare", "claim": "Official publication landing page and summary.", "status": "official-publication-page"},
+    {"source_url": "https://natcen.ac.uk/british-social-attitudes", "claim": "BSA survey program context and representative random-probability design description.", "status": "official-survey-context"}
+  ],
+  "boundary": "This record identifies welfare deservingness as a cultural-political boundary: abstract anti-welfare sentiment can coexist with strong support for disability benefits, while claimant prototypes, fiscal context, political identity, media framing, and reform salience shape which forms of care remain legitimate. It does not measure policy effectiveness, claimant outcomes, disability prevalence, benefit adequacy, or causality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official BSA 43 welfare PDF reviewed for summary claims, appendix bases, 1998-2025 trends, deservingness comparisons, political gaps, question discontinuity, and methodological boundaries.",
+    "source_page_sha256": "sha256:46a987489ede3a5d72adecc1fa364ea852483aff9b2b60b6975aa32976483860",
+    "checked": "2026-09-28"
+  }
+}

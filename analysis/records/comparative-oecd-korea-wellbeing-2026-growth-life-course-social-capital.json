@@ -1,0 +1,115 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-korea-wellbeing-2026-growth-life-course-social-capital",
+  "title": "Rapid economic and human-capital gains can coexist with fragile youth transition, high work pressure, loneliness, gender barriers, and declining trust",
+  "theme_ids": ["work", "cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD, Inclusive and Sustainable Well-being in Korea: 30 Years of OECD Membership and Future Policy Opportunities",
+  "geography": "Republic of Korea, benchmarked against OECD countries and tracked from Korea’s 1996 OECD membership where data allow, with breakdowns by gender, age, and education",
+  "observations": [
+    {
+      "period": "1996-2022; Korea’s three decades of OECD membership",
+      "denominator": {
+        "value": 1,
+        "unit": "Korea’s national well-being trajectory benchmarked against OECD peers",
+        "value_type": "country_longitudinal_frame"
+      },
+      "measures": {
+        "life_expectancy": {"value": "nearly 83 years in 2022, over 8 years higher than in 1996 and almost 2 years above the OECD average", "unit": "reported life-expectancy change", "value_type": "reported_change"},
+        "road_safety": {"value": 80, "unit": "percent reduction in road deaths since 1996", "value_type": "reported_change"},
+        "education": {"value": "25-34 year-olds have the highest secondary and tertiary completion rates in the OECD", "unit": "reported comparative position", "value_type": "reported_position"},
+        "material_progress": {"value": "the household-income gap with the OECD average halved between 2004 and 2022, while child poverty fell from well above to among the lowest OECD rates", "unit": "reported material-well-being trajectory", "value_type": "reported_change"}
+      },
+      "method": "OECD multidimensional well-being framework combining aggregate trends, peer benchmarking, population-group inequalities, and Korea-specific quality-of-life data.",
+      "uncertainty": "The report is descriptive and policy-oriented; trends across well-being dimensions do not establish that economic growth caused each improvement or that Korea’s trajectory transfers to other countries.",
+      "subgroup": "Korean households, children, young adults, older people, women and men, and groups differentiated by age and education.",
+      "counterinterpretation": "Aggregate progress is substantial and should not be obscured by current problems; the central analytical question is distribution, sustainability, and whether gains persist across generations.",
+      "source_url": "https://www.oecd.org/en/publications/inclusive-and-sustainable-well-being-in-korea_a8940343-en.html",
+      "retrieval_hash": "sha256:5431e476729e342b26ed305a7d8c526d1b61fd1e7245c14494b175f970c81860",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2022; transition from education to economic independence",
+      "denominator": {
+        "value": 1,
+        "unit": "Korean young-adult transition context compared with OECD peers",
+        "value_type": "life_course_frame"
+      },
+      "measures": {
+        "parental_co_residence": {"value": 81, "unit": "percent of 20-29 year-olds living with parents in Korea in 2020", "value_type": "reported_share"},
+        "oecd_comparison": {"value": 50, "unit": "percent of 20-29 year-olds living with parents across the OECD in 2022", "value_type": "reported_comparison"},
+        "transition_pressure": {"value": "young people face difficulty accessing secure, skill-matched work and wages that keep pace with high living costs", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "policy_bundle": {"value": "youth support needs to integrate skills and employability with financial stability, housing, mental health, social connection, and civic participation", "unit": "reported policy direction", "value_type": "reported_policy_set"}
+      },
+      "method": "Life-course and age-group analysis within the OECD well-being framework, connected to labor, housing, income, mental-health, and civic-participation policy evidence.",
+      "uncertainty": "Living with parents is not inherently a welfare deficit and may reflect cultural preferences, housing costs, family support, or life-stage timing; the report does not identify one causal driver.",
+      "subgroup": "Young Korean adults, students, job-seekers, young workers, parents, households facing housing and cost pressure, and people transitioning into independent adulthood.",
+      "counterinterpretation": "Intergenerational co-residence can provide material and care support; the policy concern is constrained choice when secure work, housing, and social participation are difficult to access.",
+      "source_url": "https://www.oecd.org/en/publications/inclusive-and-sustainable-well-being-in-korea_a8940343-en.html",
+      "retrieval_hash": "sha256:5431e476729e342b26ed305a7d8c526d1b61fd1e7245c14494b175f970c81860",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social capital, mental health, and life-course connection",
+      "denominator": {
+        "value": 1,
+        "unit": "Korean population life-course and OECD comparison frame",
+        "value_type": "life_course_frame"
+      },
+      "measures": {
+        "government_trust": {"value": "lower than the OECD average and declining in recent years", "unit": "reported institutional-trust direction", "value_type": "reported_pattern"},
+        "suicide_position": {"value": "Korea has the highest suicide rate in the OECD, with rising child and adolescent suicide trends highlighted as a continuing concern", "unit": "reported comparative position", "value_type": "reported_position"},
+        "older_support": {"value": "61% of Korean men and 65% of Korean women aged 70 and over report having someone to count on in a time of need, compared with OECD averages of 89% and 87%", "unit": "reported social-support share", "value_type": "reported_share"},
+        "youth_connection": {"value": "youth loneliness is rising alongside broader mental-health and transition pressures", "unit": "reported life-course pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD analysis of social connections, mental health, institutional trust, and age-group outcomes using international and national indicators.",
+      "uncertainty": "The indicators are not a single measure of social capital or mental health, and the report does not establish a causal pathway from trust or loneliness to suicide or other outcomes.",
+      "subgroup": "Young people, older adults, Korean men and women, job-seekers, workers, and people with limited social support or access to mental-health care.",
+      "counterinterpretation": "Strong family and community relationships may be under-measured by standardized support questions; high recorded need can also reflect improved detection and help-seeking.",
+      "source_url": "https://www.oecd.org/en/publications/inclusive-and-sustainable-well-being-in-korea_a8940343-en.html",
+      "retrieval_hash": "sha256:5431e476729e342b26ed305a7d8c526d1b61fd1e7245c14494b175f970c81860",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gender, work-time, and sustainability constraints",
+      "denominator": {
+        "value": 1,
+        "unit": "Korea well-being and structural-inequality assessment",
+        "value_type": "structural_assessment_frame"
+      },
+      "measures": {
+        "work_time": {"value": 200, "unit": "hours more worked per year by Korean workers than the OECD average", "value_type": "reported_comparison"},
+        "gender_barrier": {"value": "persistent gender wage, employment, leadership, unpaid-work, and gender-role gaps", "unit": "reported structural pattern", "value_type": "reported_pattern"},
+        "gender_based_violence": {"value": 9, "unit": "percent of Korean women aged 15 and over reporting intimate-partner violence in 2018, compared with an OECD average of 4%", "value_type": "reported_share"},
+        "natural_capital": {"value": "per-capita greenhouse-gas emissions and carbon footprint are among the highest across OECD countries", "unit": "reported environmental position", "value_type": "reported_position"},
+        "policy_implication": {"value": "well-being policy requires cross-sector coordination, equity, inclusion, and long-term prevention rather than sector reforms alone", "unit": "reported policy principle", "value_type": "reported_policy_direction"}
+      },
+      "method": "OECD structural analysis linking labor, unpaid care, gender, violence, environment, and policy-practice principles.",
+      "uncertainty": "The report identifies coexisting pressures and policy opportunities; it does not estimate the causal effect of work hours, gender norms, or carbon intensity on each well-being outcome.",
+      "subgroup": "Korean women and men, caregivers, workers, young and older adults, survivors of gender-based violence, and future generations exposed to environmental costs.",
+      "counterinterpretation": "Rapid growth and long work hours may have supported past material gains, while gender and environmental reforms could improve well-being without reversing economic capability if designed with transition support.",
+      "source_url": "https://www.oecd.org/en/publications/inclusive-and-sustainable-well-being-in-korea_a8940343-en.html",
+      "retrieval_hash": "sha256:5431e476729e342b26ed305a7d8c526d1b61fd1e7245c14494b175f970c81860",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/inclusive-and-sustainable-well-being-in-korea_8fd4712b/a8940343-en.pdf", "claim": "Official 209-page OECD report PDF with aggregate, life-course, gender, social-capital, environmental, and policy chapters."},
+    {"source_url": "https://doi.org/10.1787/a8940343-en", "claim": "Official OECD DOI and publication citation."}
+  ],
+  "boundary": "This record adds a growth-to-lived-well-being and life-course-distribution route. It is not a causal evaluation of Korea’s growth model, a universal theory of Asian development, a respondent-level mental-health study, or proof that any recommended policy package will improve trust, connection, gender equality, or youth independence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page and 209-page report PDF were reviewed for long-run human-capital and material gains, youth transition, trust, suicide and social-support patterns, work-time, gender barriers, violence, carbon intensity, and cross-sector policy principles.",
+    "source_url_sha256": "sha256:5431e476729e342b26ed305a7d8c526d1b61fd1e7245c14494b175f970c81860",
+    "checked": "2026-09-28"
+  }
+}

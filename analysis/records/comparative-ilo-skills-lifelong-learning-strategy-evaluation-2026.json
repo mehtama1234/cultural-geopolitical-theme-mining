@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-skills-lifelong-learning-strategy-evaluation-2026",
+  "title": "Lifelong-learning systems face an institutionalization gap between policy ambition and everyday implementation",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Independent High-Level Evaluation of the ILO’s strategies and actions under the ILO strategy on skills and lifelong learning, 2022–2026, 2026",
+  "geography": "Comparative evaluation covering six country case studies: Colombia, Panama, Kenya, Ethiopia, Republic of Moldova, and Bangladesh; broader ILO portfolio evidence",
+  "observations": [
+    {
+      "period": "2022–2026; evaluation of the ILO Skills and Lifelong Learning 2030 strategy and action plan",
+      "denominator": {"value": 95, "unit": "relevant evaluation reports synthesized", "value_type": "reported_evaluation_base"},
+      "measures": {
+        "strategic_relevance": {"value": "the strategy remains highly relevant as a framework linking skills and lifelong learning to decent work, productive employment, social inclusion, and just transitions", "unit": "reported overall assessment", "value_type": "reported_evaluation_finding"},
+        "strongest_contribution": {"value": "the strongest contributions were in governance, evidence-informed policy, institutional capacity, qualifications systems, recognition of prior learning, quality apprenticeships, social dialogue, and skills-needs intelligence", "unit": "reported contribution domains", "value_type": "reported_contribution_set"},
+        "institutionalization_gap": {"value": "progress was more limited in operational implementation, routine use of intelligence, sustainable financing, and scaling reforms in national systems", "unit": "reported implementation gap", "value_type": "reported_evaluation_finding"},
+        "mechanism": {"value": "skills policy becomes durable when strategic frameworks are translated into funded institutions, implementation capacity, domestic ownership, and routine use beyond externally supported projects", "unit": "bounded institutionalization mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Independent high-level evaluation using ILO document review, six country case studies, interviews and surveys with staff, constituents, donors, UN and other partners, and synthesis of 95 relevant evaluation reports.",
+      "uncertainty": "The evaluation is a strategy-level assessment rather than a causal estimate of labor-market effects; country contexts and implementation readiness vary, and large-scale employment, productivity, and inclusion impacts remain difficult to attribute to ILO support.",
+      "subgroup": "Workers needing upskilling or reskilling, women, youth, migrants, refugees, persons with disabilities, informal-economy workers, employers, training providers, worker and employer organizations, and public skills authorities.",
+      "counterinterpretation": "Slow implementation may reflect weak labor demand, macroeconomic conditions, political discontinuity, or underfunding outside the ILO’s control rather than a failure of skills policy design alone.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/HLE%20Skills%20and%20LLL%20Strategy_Final%20for%20publication-temporary.pdf",
+      "retrieval_hash": "sha256:bbfb56756ed881b3745ace6f2b61e1d37dd3821df7de9d9612058faed3b81908",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2026; distribution of participation and institutional voice in skills governance",
+      "denominator": {"value": 6, "unit": "country case studies", "value_type": "reported_case_study_frame"},
+      "measures": {
+        "tripartite_asymmetry": {"value": "government led TVET and lifelong-learning activity; employers contributed to identifying skills priorities; workers’ organizations had formal governance roles but more limited influence", "unit": "reported participation pattern", "value_type": "reported_governance_finding"},
+        "participation_mode": {"value": "constituent participation was predominantly consultative rather than strategic and operational", "unit": "reported participation mode", "value_type": "reported_evaluation_finding"},
+        "lifelong_learning_shift": {"value": "implementation remained concentrated on initial skills development and TVET reform, with comparatively less emphasis on upskilling and reskilling throughout working life", "unit": "reported portfolio emphasis", "value_type": "reported_portfolio_finding"},
+        "mechanism": {"value": "the social legitimacy of lifelong learning depends on moving worker voice from consultation into the design, implementation, and accountability of transition systems", "unit": "bounded voice-to-institution mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-case evaluation of ILO interventions, constituent interviews and surveys, portfolio review, and assessment against relevance and coherence criteria.",
+      "uncertainty": "The finding describes the ILO portfolio and reported stakeholder participation; it does not measure the full distribution of worker voice across national skills systems or establish which participation model produces better outcomes.",
+      "subgroup": "Workers in changing occupations, informal workers, women, youth, migrants, employers, worker organizations, training institutions, and governments.",
+      "counterinterpretation": "Employer-led priority setting can improve labor-market relevance, while worker organizations may face capacity or resource constraints; formal participation alone may not guarantee substantive influence.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/HLE%20Skills%20and%20LLL%20Strategy_Final%20for%20publication-temporary.pdf",
+      "retrieval_hash": "sha256:bbfb56756ed881b3745ace6f2b61e1d37dd3821df7de9d9612058faed3b81908",
+      "status": "reported"
+    },
+    {
+      "period": "2026; recommendations for the next implementation cycle through 2030",
+      "denominator": {"value": 5, "unit": "evaluation recommendations", "value_type": "reported_recommendation_frame"},
+      "measures": {
+        "implementation_priority": {"value": "the evaluation recommends measurable milestones, beneficiary and outcome tracking, systemic-leverage prioritization, institutional change management, sustainable financing, scale-up, and stronger tripartite engagement", "unit": "reported reform priorities", "value_type": "reported_recommendation_set"},
+        "programmatic_solution": {"value": "the Global Skills Programme’s coordination, technical backstopping, common methods, peer learning, and system-oriented reform functions are recommended for institutionalization across regions", "unit": "reported programmatic model", "value_type": "reported_programmatic_finding"},
+        "sustainability_condition": {"value": "domestic financing, institutional capacity, national ownership, implementation incentives, and political continuity determine whether reforms survive beyond externally funded projects", "unit": "reported sustainability conditions", "value_type": "reported_sustainability_finding"},
+        "mechanism": {"value": "policy pilots become social infrastructure only when evidence, financing, institutional mandates, and adaptive learning are connected to a repeatable implementation system", "unit": "bounded scale-up mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Evaluation synthesis of implementation, effectiveness, efficiency, impact orientation, sustainability, and recommendations for the 2026–2030 period.",
+      "uncertainty": "Recommendations are forward-looking institutional guidance, not evidence that the proposed reforms will produce specific employment, wage, or inclusion effects; financing and political continuity remain external risks.",
+      "subgroup": "National skills authorities, training providers, workers and employers, sector institutions, donors, development partners, and people navigating technological or environmental work transitions.",
+      "counterinterpretation": "More monitoring and institutional machinery can increase reporting burdens or centralize control; system-level coordination must preserve local adaptation and avoid reducing learning to employer-demand metrics.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/HLE%20Skills%20and%20LLL%20Strategy_Final%20for%20publication-temporary.pdf",
+      "retrieval_hash": "sha256:bbfb56756ed881b3745ace6f2b61e1d37dd3821df7de9d9612058faed3b81908",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/independent-high-level-evaluation-ilo%E2%80%99s-strategies-and-actions-under-ilo", "claim": "Official ILO publication page with date, evaluation scope, PDF, DOI, and ISBN metadata."},
+    {"source_url": "https://doi.org/10.54394/00035222", "claim": "Official DOI for the independent high-level evaluation."}
+  ],
+  "boundary": "This record identifies an institutionalization gap in lifelong-learning systems: policy and governance reforms are advancing faster than routine implementation, domestic financing, worker influence, and scale. It is an independent strategy-level evaluation, not causal proof that skills reforms improve wages, employment, productivity, or inclusion; the next test is whether national systems convert policy frameworks into durable, accessible, worker-legitimate learning and transition institutions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO evaluation PDF and publication page, executive assessment, 95-report evidence base, six country cases, key findings on relevance, tripartite participation, lifelong-learning emphasis, implementation, financing, sustainability, and recommendations were reviewed.",
+    "source_url_sha256": "sha256:bbfb56756ed881b3745ace6f2b61e1d37dd3821df7de9d9612058faed3b81908",
+    "checked": "2026-09-29"
+  }
+}

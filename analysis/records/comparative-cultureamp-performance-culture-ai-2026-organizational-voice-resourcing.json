@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-cultureamp-performance-culture-ai-2026-organizational-voice-resourcing",
+  "title": "Sustained organizational performance is framed as a collective culture system linking engagement, confidence, leadership, voice, energy, and resource alignment rather than individual heroics",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Culture Amp, Find your 47% advantage: Turning culture into strategy in the age of AI",
+  "geography": "Global organizations represented in Culture Amp benchmark and research data; organization size and industry comparisons reported",
+  "observations": [
+    {
+      "period": "2026 report; organizational performance culture classification",
+      "denominator": {"value": 1800, "unit": "organizations included in Culture Amp's proxy analysis of workplace engagement and performance confidence", "value_type": "reported_organization_analysis"},
+      "measures": {
+        "peak_performance_share": {"value": 44, "unit": "percent of organizations classified as Peak Performance in the report's four-quadrant model", "value_type": "reported_organization_share"},
+        "dual_outcome": {"value": "Peak Performance combines high workplace engagement with high confidence in the organization's ability to perform", "unit": "reported organizational construct", "value_type": "reported_construct"},
+        "individual_sustainability": {"value": 2, "unit": "percent of employees reported as sustaining high performance across two consecutive high-performance ratings", "value_type": "reported_employee_pattern"},
+        "system_claim": {"value": "the report argues that sustained performance is better understood as a collective organizational condition than as individual heroics", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Culture Amp proxy analysis drawing on internal benchmark data, prospective studies, product-impact research, literature review, and a performance-culture diagnostic model; the report does not provide a fully independent public replication file.",
+      "uncertainty": "The 1,800-organization frame, classification thresholds, selection process, and comparability across organizations are not fully documented in the public report; the construct is sponsor-defined and should not be treated as a universal organizational-performance measure.",
+      "subgroup": "Organizations, leaders, HR functions, employees, and industries with different size, operating conditions, leadership practices, and work arrangements.",
+      "counterinterpretation": "Engagement and performance confidence may reflect already-successful organizations rather than cause success; organizations may also report confidence strategically or interpret survey constructs differently.",
+      "source_url": "https://www.cultureamp.com/resources/reports/performance-culture-research",
+      "retrieval_hash": "sha256:1b0677f35768d0e0023f59dccd41e4b5fa9c66cf807dfe35efac6324f762386f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 transition; organizational culture durability and business outcomes",
+      "denominator": {"value": 1800, "unit": "organizations in the Culture Amp analysis; external stock-price comparison applies to public companies within the analyzed groups", "value_type": "reported_organization_analysis"},
+      "measures": {
+        "stock_price_difference": {"value": "Peak organizations showed a median 36% stock-price increase over two years versus a median 11% decline for other quadrants, described as a 47-percentage-point difference", "unit": "reported non-market-adjusted median stock-price comparison", "value_type": "reported_external_outcome_comparison"},
+        "retention": {"value": 88, "unit": "percent retention reported for Peak Performance organizations", "value_type": "reported_organization_outcome"},
+        "high_performers": {"value": 21, "unit": "percent higher concentration of high performers reported in Peak organizations", "value_type": "reported_organization_comparison"},
+        "durability": {"value": 76, "unit": "percent of organizations in Peak Performance reported as remaining there one year later", "value_type": "reported_transition_share"}
+      },
+      "method": "Culture Amp triangulation of its culture classification with retention, employee-performance, and external stock-price data; the public report presents associations and descriptive comparisons rather than a causal design.",
+      "uncertainty": "The report does not establish that culture caused stock-price or retention outcomes, does not fully expose matching and controls, and may contain survivorship, selection, industry, size, and reverse-causality effects.",
+      "subgroup": "Public and private organizations classified by culture quadrant, with reported variation by industry and enterprise size.",
+      "counterinterpretation": "Financially strong or well-managed organizations may be more able to sustain engagement, retention, and resource alignment; stock-price movements can be driven by many factors unrelated to workplace culture.",
+      "source_url": "https://cultureampcom-production-488117387746-files.s3.amazonaws.com/uploads/35c8c720f15536708a490b23/2026-47Pct-Advantage-Ebook-v4-032226.pdf",
+      "retrieval_hash": "sha256:1b0677f35768d0e0023f59dccd41e4b5fa9c66cf807dfe35efac6324f762386f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; organizational levers associated with Peak Performance",
+      "denominator": {"value": 6, "unit": "culture factors identified in the report's Performance Culture Quadrant model", "value_type": "reported_construct_set"},
+      "measures": {
+        "factors": {"value": "excellence, vision, ownership, learning, voice, and energy", "unit": "reported organizational culture factors", "value_type": "reported_factor_set"},
+        "voice": {"value": "employees can speak up and take risks without being shut down, allowing ideas and risks to surface through two-way communication", "unit": "reported organizational mechanism", "value_type": "reported_mechanism"},
+        "energy": {"value": "roles and operating practices should make room for recharge rather than depending on indefinite individual sprinting", "unit": "reported organizational mechanism", "value_type": "reported_mechanism"},
+        "resource_alignment": {"value": "organizations moving toward Peak improved their direction of resources toward goals and made cultural change visible", "unit": "reported transition mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Internal research synthesis and quadrant-factor modeling reported by Culture Amp, combined with analysis of organizations' movement between culture states.",
+      "uncertainty": "The factors are a sponsor-defined diagnostic framework; reported transition patterns do not establish that each factor independently causes organizational improvement or that they transfer across institutional settings.",
+      "subgroup": "Employees, managers, leaders, HR practitioners, teams, and organizations attempting to change culture while maintaining performance.",
+      "counterinterpretation": "Voice can increase conflict or slow decisions if decision rights are unclear; visible culture initiatives can become symbolic without changing workloads, pay, staffing, or power.",
+      "source_url": "https://cultureampcom-production-488117387746-files.s3.amazonaws.com/uploads/35c8c720f15536708a490b23/2026-47Pct-Advantage-Ebook-v4-032226.pdf",
+      "retrieval_hash": "sha256:1b0677f35768d0e0023f59dccd41e4b5fa9c66cf807dfe35efac6324f762386f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; AI and the organizational culture operating system",
+      "denominator": {"value": 1, "unit": "Culture Amp strategic framework for HR leaders in an AI-disrupted work environment", "value_type": "reported_strategy_frame"},
+      "measures": {
+        "ai_role": {"value": "AI is framed as a force multiplier for leaders interpreting complex people signals and choosing practical interventions", "unit": "reported implementation proposition", "value_type": "reported_ai_proposition"},
+        "data_integration": {"value": "the report recommends connecting engagement, performance, feedback, service interactions, and organizational signals into a shared intelligence layer", "unit": "reported management mechanism", "value_type": "reported_data_governance_mechanism"},
+        "human_boundary": {"value": "the framework treats AI as support for leadership judgment while keeping organizational voice, visible action, and resource decisions as human governance responsibilities", "unit": "reported governance boundary", "value_type": "reported_mechanism"},
+        "strategy_route": {"value": "culture measurement is being repositioned from an HR scorecard to a strategic operating system for resilience and performance", "unit": "reported institutional shift", "value_type": "reported_strategy_shift"}
+      },
+      "method": "Culture Amp interpretation of its people-science research and product-linked AI Coach framework; recommendations are sponsor-authored and not an independent evaluation of AI-enabled management.",
+      "uncertainty": "The report does not measure AI Coach causal effects, worker acceptance, surveillance risks, data quality, or whether integrated people data improves decisions across organizations.",
+      "subgroup": "HR leaders, managers, employees, AI-enabled people-analytics teams, and organizations governing employee data and feedback.",
+      "counterinterpretation": "A unified intelligence layer can improve visibility but can also intensify monitoring, managerial standardization, privacy risk, and pressure to optimize culture metrics rather than working conditions.",
+      "source_url": "https://www.cultureamp.com/resources/reports/performance-culture-research",
+      "retrieval_hash": "sha256:1b0677f35768d0e0023f59dccd41e4b5fa9c66cf807dfe35efac6324f762386f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cultureamp.com/resources/reports/performance-culture-research", "claim": "Official Culture Amp report page describing the 2026 research and its people-science framing."},
+    {"source_url": "https://cultureampcom-production-488117387746-files.s3.amazonaws.com/uploads/35c8c720f15536708a490b23/2026-47Pct-Advantage-Ebook-v4-032226.pdf", "claim": "Official 21-page report with the 1,800-organization proxy analysis, culture quadrants, business comparisons, factors, transitions, and AI-enabled management recommendations."}
+  ],
+  "boundary": "This record adds an organizational-culture route from engagement, confidence, leadership, voice, energy, and resource alignment through retention, performance, strategic execution, and AI-enabled people management. It relies on sponsor-produced benchmark and proxy analysis, with incomplete public methodology and no causal identification; the stock-price comparison is not proof that culture causes market performance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Culture Amp report page and PDF reviewed for the organization frame, Performance Culture Quadrant, reported stock-price and retention comparisons, culture factors, transition patterns, AI Coach framing, and methodological boundaries.",
+    "report_pdf_sha256": "sha256:1b0677f35768d0e0023f59dccd41e4b5fa9c66cf807dfe35efac6324f762386f",
+    "checked": "2026-09-28"
+  }
+}

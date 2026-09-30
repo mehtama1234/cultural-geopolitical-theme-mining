@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-eiip-formalization-project-afterlife-public-investment-2026",
+  "title": "Public investment can be a formalization gateway only if the project outlives itself",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, Promoting formalization outcomes in Employment-Intensive Investment Programme, ILO Brief, August 2026",
+  "geography": "Employment-Intensive Investment Programme contexts in low- and middle-income countries, with illustrative cases from the Philippines and Central African Republic",
+  "observations": [
+    {
+      "period": "2019–2026; informality and employment-intensive public-investment context",
+      "denominator": {"value": 1, "unit": "global and low-income-country informality frame used by the guidance brief", "value_type": "reported_context_frame"},
+      "measures": {
+        "global_scale": {"value": "nearly 2 billion workers make their living in the informal economy", "unit": "reported global employment context", "value_type": "reported_global_indicator"},
+        "low_income": {"value": 89, "unit": "percent of total employment informal in low-income countries, with rural informal employment at 93.7% in the cited 2019 frame", "value_type": "reported_indicator"},
+        "construction": {"value": 80, "unit": "approximately percent of construction workers informal in low- and middle-income countries in the cited 2019 comparison", "value_type": "reported_sector_indicator"},
+        "project_afterlife": {"value": "EIIP projects commonly improve working and living conditions during infrastructure and rural-work interventions, but workers and economic units often remain informal or revert to informality when projects conclude", "unit": "reported implementation pattern", "value_type": "reported_program_finding"},
+        "mechanism": {"value": "temporary public investment can create a formalization gateway, but project duration, labor-market conditions, weak data and limited institutional capacity determine whether the gateway remains open after completion", "unit": "bounded project-afterlife mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO guidance brief synthesizing global informality indicators, EIIP programme experience, formalization meta-analyses, and illustrative project evidence.",
+      "uncertainty": "The brief is a practice and policy synthesis rather than a harmonized impact evaluation; cited informality figures use different years and frames, and reversion to informality is described as a recurring challenge rather than estimated as a universal rate.",
+      "subgroup": "Informal workers and economic units in construction, rural works, low-income countries, public employment programmes, and communities receiving infrastructure investment.",
+      "counterinterpretation": "Temporary employment can still produce valuable income, skills, assets and social-protection contact even if formal status is not sustained; reversion may reflect the surrounding labor market rather than project failure alone.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-08/Promoting%20formalization%20outcomes%20in%20EIIP_v2.pdf",
+      "retrieval_hash": "sha256:6050280e762e7a3c1051541c747e526e71407dcac5e0b149cc46c15b2fa5e889",
+      "status": "reported"
+    },
+    {
+      "period": "2020–2026; formalization pathways and illustrative public-employment cases",
+      "denominator": {"value": 1, "unit": "ILO EIIP formalization intervention and case-study frame", "value_type": "reported_program_frame"},
+      "measures": {
+        "intervention_set": {"value": "effective pathways combine information and training, simplified administration, social-security and tax incentives, compliance, enforcement and financial incentives rather than relying on one tool", "unit": "reported formalization pathway", "value_type": "reported_policy_typology"},
+        "employment_nexus": {"value": "worker registration tends to produce more substantial formalization outcomes than enterprise registration alone; social security and labor protections should be integrated with enterprise compliance", "unit": "reported comparative policy finding", "value_type": "reported_policy_finding"},
+        "philippines_case": {"value": "a Philippines community emergency employment programme provided 15 days of employment to informal workers in conflict-affected communities; more than 1,800 workers and nearly 12,000 households benefited, with social security, health, accident and third-party liability insurance linked to the work", "unit": "reported illustrative programme case", "value_type": "reported_case_measure"},
+        "car_case": {"value": "a Central African Republic project built skills for about 100 young people, 28% women, and supported three construction cooperatives to access equipment, regulatory compliance and procurement pathways; follow-up funding and municipal capacity constrained scale-up", "unit": "reported illustrative programme case", "value_type": "reported_case_measure"},
+        "mechanism": {"value": "formalization is more plausible when public employment bundles immediate income with worker registration, skills, collective organization, procurement access and a route into the next contract", "unit": "bounded bundled-formalization mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ILO synthesis of formalization meta-analyses and illustrative EIIP project cases; the cases are used to identify pathways and implementation conditions, not as comparable treatment effects.",
+      "uncertainty": "Case figures describe programme reach and design, not durable formal status, income, welfare or causal impact; the Philippines and Central African Republic examples differ in context, duration and outcome measurement.",
+      "subgroup": "Informal workers, conflict-affected communities, young men and women, community contractors, small construction cooperatives, local governments and public procurement actors.",
+      "counterinterpretation": "Insurance or registration attached to a short programme may protect workers during participation without creating lasting employment; cooperatives can improve access while remaining dependent on external procurement and follow-up finance.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-08/Promoting%20formalization%20outcomes%20in%20EIIP_v2.pdf",
+      "retrieval_hash": "sha256:6050280e762e7a3c1051541c747e526e71407dcac5e0b149cc46c15b2fa5e889",
+      "status": "reported"
+    },
+    {
+      "period": "2026 project-design guidance; measurement, procurement and institutional follow-through",
+      "denominator": {"value": 1, "unit": "EIIP project design and monitoring framework", "value_type": "reported_guidance_frame"},
+      "measures": {
+        "sustainability_constraints": {"value": "weak governance, limited formal job demand, short project duration, overcrowded objectives, fiscal constraints, weak local capacity and insufficient informality data can prevent durable formalization", "unit": "reported constraint set", "value_type": "reported_program_constraint"},
+        "formalization_indicators": {"value": "recommended indicators include enterprise and worker registration, contracts and social-security contributions, workdays of formal employment, wages, leave, revenue, assets, finance access and procurement contracts", "unit": "reported monitoring framework", "value_type": "reported_measurement_recommendation"},
+        "procurement_route": {"value": "projects can support informal entities through cooperative organization, tender information, bid preparation, business services and certification, while requiring formalization by project end where feasible", "unit": "reported procurement pathway", "value_type": "reported_policy_recommendation"},
+        "governance": {"value": "formalization should be a core project objective, targeted by diagnosis and social dialogue, with indicators in monitoring and evaluation systems to trigger adaptive management", "unit": "reported governance recommendation", "value_type": "reported_policy_recommendation"},
+        "mechanism": {"value": "infrastructure becomes a social contract only when the project records and funds the transition from temporary participation to durable rights, enterprise capability and market access", "unit": "bounded infrastructure-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Practice guidance based on formalization literature, EIIP theory of change, project cases and recommendations for project design, procurement and monitoring.",
+      "uncertainty": "The recommendations are not a tested package; achievable outcomes depend on national legislation, fiscal space, procurement rules, labor demand, local capacity and implementation duration.",
+      "subgroup": "Project designers, local governments, contractors, worker organizations, informal enterprises, public buyers, social-protection agencies and communities receiving public infrastructure.",
+      "counterinterpretation": "Adding formalization indicators can overload already complex infrastructure projects, and procurement requirements can exclude small informal units if support, finance and realistic sequencing are absent.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-08/Promoting%20formalization%20outcomes%20in%20EIIP_v2.pdf",
+      "retrieval_hash": "sha256:6050280e762e7a3c1051541c747e526e71407dcac5e0b149cc46c15b2fa5e889",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/promoting-formalization-outcomes-employment-intensive-investment-programme", "claim": "Official ILO publication page with brief scope, date and formalization guidance purpose."},
+    {"source_url": "https://doi.org/10.54394/00034952", "claim": "Official DOI for the EIIP formalization brief."},
+    {"source_url": "https://www.ilo.org/international-labour-organization/topics/employment-intensive-investments", "claim": "Official ILO EIIP topic page describing employment-intensive investment, inclusive infrastructure, local employment and cross-cutting decent-work aims."}
+  ],
+  "boundary": "This record adds a project-afterlife and public-investment gateway layer to the formalization atlas. The brief is practice guidance and evidence synthesis, not a causal evaluation of EIIP, a universal reversion rate, or proof that social-protection linkage, cooperative organization, procurement access or indicators produce durable formal employment, wages, business growth, poverty reduction or worker wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO 12-page PDF and publication/topic pages, informality context, EIIP project-afterlife problem, intervention typology, worker-registration nexus, Philippines and Central African Republic examples, constraints, procurement pathway, indicators and recommendations were reviewed.",
+    "source_url_sha256": "sha256:6050280e762e7a3c1051541c747e526e71407dcac5e0b149cc46c15b2fa5e889",
+    "checked": "2026-09-29"
+  }
+}

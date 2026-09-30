@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-women-business-law-2026-law-policy-enforcement-gender-economy",
+  "title": "Women’s economic opportunity is constrained less by laws alone than by the weak institutions, policies and enforcement that make formal rights usable",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank, Women, Business and the Law 2026: Benchmarking Laws for Jobs and Inclusive Growth",
+  "geography": "190 economies, assessed across legal frameworks, supportive frameworks and enforcement perceptions",
+  "observations": [
+    {
+      "period": "2026 report; global legal and institutional framework for women’s economic opportunity",
+      "denominator": {"value": 190, "unit": "economies assessed across 10 topics shaping women's access to jobs and entrepreneurship", "value_type": "reported_economy_frame"},
+      "measures": {
+        "legal_framework_score": {"value": 67, "unit": "global average score out of 100 for legal rights supporting women's economic equality", "value_type": "reported_index"},
+        "supportive_framework_score": {"value": 47, "unit": "global average score out of 100 for policies and institutions needed to make rights effective", "value_type": "reported_index"},
+        "enforcement_perception_score": {"value": 53, "unit": "global average score out of 100 based on legal experts' perceptions of enforcement", "value_type": "reported_index"},
+        "full_equality": {"value": 0, "unit": "economies granting women the full set of measured legal economic rights", "value_type": "reported_count"}
+      },
+      "method": "World Bank Women, Business and the Law 2026 index using three pillars—legal frameworks, supportive frameworks and enforcement perceptions—across 10 topics.",
+      "uncertainty": "Index scores summarize coded legal and institutional indicators and expert perceptions; they do not directly measure individual experience, compliance, labor-market outcomes or causal effects of reform.",
+      "subgroup": "Women seeking paid work, entrepreneurship, assets, childcare, safety, retirement security and equal treatment across 190 economies.",
+      "counterinterpretation": "Formal legal change can still matter by establishing claims, standards and institutional direction even when implementation is incomplete.",
+      "source_url": "https://wbl.worldbank.org/en/publications/flagship-report",
+      "retrieval_hash": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; distribution of legal equality and economic opportunity",
+      "denominator": {"value": 190, "unit": "economies assessed in Women, Business and the Law 2026", "value_type": "reported_economy_frame"},
+      "measures": {
+        "women_near_full_equality": {"value": 4, "unit": "percent of women living in economies close to full legal equality", "value_type": "reported_share"},
+        "rights_gap": {"value": "women globally enjoy about two-thirds of the legal rights of men", "unit": "reported global comparison", "value_type": "reported_interpretation"},
+        "economic_potential": {"value": 20, "unit": "percent potential increase in global GDP from closing the gender gap in employment and entrepreneurship", "value_type": "reported_estimate"}
+      },
+      "method": "World Bank global comparison of legal equality and modeled economic implications of closing gender gaps in employment and entrepreneurship.",
+      "uncertainty": "The GDP estimate is a modeled potential, not a forecast or guaranteed return; cross-economy legal scores do not capture within-country differences, informal institutions or household constraints.",
+      "subgroup": "Women and men participating in labor markets, firms, entrepreneurs, households and policymakers assessing inclusive growth.",
+      "counterinterpretation": "Removing legal barriers is necessary but not sufficient; care burdens, norms, capital access, safety, discrimination and labor demand can still constrain participation.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099042126155135711/pdf/P179153-156eebab-c7a8-46ea-aefa-ab7ca80708a0.pdf",
+      "retrieval_hash": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+      "status": "estimated"
+    },
+    {
+      "period": "2023–2025; legal reform and implementation movement",
+      "denominator": {"value": 190, "unit": "economies monitored for legal reforms strengthening women's economic opportunities", "value_type": "reported_economy_frame"},
+      "measures": {
+        "reforming_economies": {"value": 68, "unit": "economies enacting reforms strengthening women's economic opportunities between 2023 and 2025", "value_type": "reported_count"},
+        "legal_reforms": {"value": 113, "unit": "legal reforms enacted across the 68 economies between 2023 and 2025", "value_type": "reported_count"},
+        "implementation_gap": {"value": "legal reform is not equivalent to supportive institutions or effective enforcement", "unit": "reported institutional distinction", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank tracking of reforms and comparison across legal, supportive and enforcement-perception pillars.",
+      "uncertainty": "Reform counts do not measure the substantive effect, implementation quality, enforcement consistency, public awareness or women's actual economic outcomes.",
+      "subgroup": "Women in reforming and non-reforming economies, public authorities, courts, regulators, employers and civil-society organizations.",
+      "counterinterpretation": "Incremental reform can create institutional learning and improve opportunity over time even when aggregate scores remain low.",
+      "source_url": "https://wbl.worldbank.org/en/wbl",
+      "retrieval_hash": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; safety, care and enterprise as economic infrastructure",
+      "denominator": {"value": 190, "unit": "economies assessed across the working-life topics in Women, Business and the Law 2026", "value_type": "reported_economy_frame"},
+      "measures": {
+        "weakest_topics": {"value": "safety, entrepreneurship and childcare are among the weakest areas of measured support for women's economic participation", "unit": "reported topic pattern", "value_type": "reported_interpretation"},
+        "life_cycle_scope": {"value": "safety, mobility, work, pay, marriage, parenthood, childcare, entrepreneurship, assets and pension", "unit": "10-topic working-life framework", "value_type": "reported_topic_set"},
+        "economic_infrastructure": {"value": "legal rights require courts, regulatory bodies, administrative systems, childcare and other supportive institutions to become usable opportunities", "unit": "reported mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank topic-level analysis and expanded WBL 2.0 framework combining formal rights with supportive systems and enforcement perceptions.",
+      "uncertainty": "Topic-level scores are comparative diagnostics and do not reveal the full causal chain from law to safety, care access, entrepreneurship, employment or income.",
+      "subgroup": "Women balancing paid work, care, mobility, safety, entrepreneurship, asset ownership and retirement security.",
+      "counterinterpretation": "Supportive systems may expand opportunity, but their effects depend on financing, social norms, employer practice, labor demand and access for informal or marginalized workers.",
+      "source_url": "https://wbl.worldbank.org/en/publications/flagship-report",
+      "retrieval_hash": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://wbl.worldbank.org/en/data/download-data", "claim": "World Bank WBL 2026 datasets and reproducibility packages."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/459", "claim": "Official WBL 2026 reproducibility package."},
+    {"source_url": "https://documents.worldbank.org/curated/en/099042126155135711", "claim": "World Bank document metadata and official report record."}
+  ],
+  "boundary": "This record adds a law-to-capability and gendered economic-opportunity route. It is a global legal and institutional benchmark, not respondent-level data, a measure of lived discrimination, a causal evaluation of reforms, or proof that legal equality automatically produces equal employment, income or entrepreneurial outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank WBL 2026 report page, flagship report page, data page, reproducibility package and full report PDF were reviewed for the three-pillar framework, global scores, reform counts, topic gaps and modeled economic potential; the full report PDF was hashed.",
+    "source_url_sha256": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+    "checked": "2026-09-27"
+  }
+}

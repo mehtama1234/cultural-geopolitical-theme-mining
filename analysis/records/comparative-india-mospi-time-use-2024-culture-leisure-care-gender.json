@@ -1,0 +1,181 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-india-mospi-time-use-2024-culture-leisure-care-gender",
+  "title": "India's cultural and leisure time is widespread, but gendered unpaid work changes who can actually use it",
+  "theme_ids": [
+    "time",
+    "cost",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "housing_place_mobility"
+  ],
+  "source_unit": "National Statistics Office India Time Use Survey 2024",
+  "geography": "India; persons aged 6 years and above, with national, gender, age, and rural-urban estimates",
+  "observations": [
+    {
+      "period": "January-December 2024; 24-hour time-use reference period",
+      "denominator": {
+        "value": 454192,
+        "unit": "surveyed persons aged 6 years and above; 228,576 male and 225,565 female respondents",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "culture_leisure_media_sports_participation": {
+          "value": 93.0,
+          "unit": "percent participating in culture, leisure, mass-media, or sports activities during the reference day",
+          "value_type": "official_time_use_share"
+        },
+        "culture_leisure_media_sports_time_per_participant": {
+          "value": 171,
+          "unit": "minutes per day among participants in culture, leisure, mass-media, or sports activities",
+          "value_type": "official_time_use_duration"
+        },
+        "culture_leisure_media_sports_time_per_person": {
+          "value": 159,
+          "unit": "minutes per day averaged across all persons aged 6 years and above",
+          "value_type": "official_time_use_duration"
+        },
+        "mechanism": {
+          "value": "Cultural, leisure, media, and sports time is nearly universal as a daily category, but the available duration still competes with work, care, learning, and self-maintenance",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "India TUS 2024 diary-style time-use collection in 30-minute slots, coding activities under ICATUS 2016; estimates distinguish participation rate, time per participant, and time per person.",
+      "uncertainty": "The category combines culture, leisure, mass media, and sports, so it cannot be interpreted as formal cultural participation or a single consumer activity; the one-day reference period does not establish habitual or seasonal behavior.",
+      "subgroup": "Persons aged 6 years and above represented by the national TUS sample; age, sex, and rural-urban breakdowns are available in the fact sheet.",
+      "counterinterpretation": "High participation may reflect brief or passive media use, while lower time per person may reflect nonparticipation or multiple simultaneous activities; the category is intentionally broad.",
+      "source_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "retrieval_hash": "sha256:43b262ab6c8f82d5c4e180192a6fecfbdce1eef402a31653a1c948c25a9a5119",
+      "status": "reported"
+    },
+    {
+      "period": "January-December 2024; gendered time allocation",
+      "denominator": {
+        "value": 454192,
+        "unit": "surveyed persons aged 6 years and above; gender-specific estimates are based on the reported male and female respondent counts",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "female_unpaid_domestic_participation": {
+          "value": 81.5,
+          "unit": "percent of females participating in unpaid domestic services for household members during the reference day",
+          "value_type": "official_time_use_share"
+        },
+        "male_unpaid_domestic_participation": {
+          "value": 27.1,
+          "unit": "percent of males participating in unpaid domestic services for household members during the reference day",
+          "value_type": "official_time_use_share"
+        },
+        "female_domestic_time_per_participant": {
+          "value": 289,
+          "unit": "minutes per day among female participants in unpaid domestic services",
+          "value_type": "official_time_use_duration"
+        },
+        "male_domestic_time_per_participant": {
+          "value": 88,
+          "unit": "minutes per day among male participants in unpaid domestic services",
+          "value_type": "official_time_use_duration"
+        },
+        "female_care_time_per_participant": {
+          "value": 137,
+          "unit": "minutes per day among female participants in unpaid caregiving",
+          "value_type": "official_time_use_duration"
+        },
+        "male_care_time_per_participant": {
+          "value": 75,
+          "unit": "minutes per day among male participants in unpaid caregiving",
+          "value_type": "official_time_use_duration"
+        },
+        "culture_time_female_vs_male": {
+          "value": "164 versus 177 minutes per day among female versus male participants in culture, leisure, mass media, and sports",
+          "unit": "reported gender comparison",
+          "value_type": "official_time_use_duration"
+        },
+        "mechanism": {
+          "value": "The same survey category shows near-universal leisure participation while unpaid domestic and care work is strongly gendered, making cultural time an unequal conversion resource rather than a neutral preference",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "India TUS 2024 gender estimates using the same 24-hour diary framework; durations are per participant, not per entire population.",
+      "uncertainty": "The estimates are descriptive and do not identify bargaining, household structure, simultaneous activities, income, employment quality, or whether reduced cultural time is caused by unpaid work.",
+      "subgroup": "Male and female participants aged 6 years and above; the fact sheet includes transgender persons in the person category but does not provide a separate duration estimate here.",
+      "counterinterpretation": "Different participation rates and activity reporting may reflect age composition, social norms, or measurement conventions; culture/leisure/media/sports includes activities with different degrees of agency and social value.",
+      "source_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "retrieval_hash": "sha256:43b262ab6c8f82d5c4e180192a6fecfbdce1eef402a31653a1c948c25a9a5119",
+      "status": "reported"
+    },
+    {
+      "period": "January-December 2024; rural-urban and age differences",
+      "denominator": {
+        "value": 454192,
+        "unit": "surveyed persons aged 6 years and above; rural and urban estimates are reported by sector",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "rural_culture_leisure_media_sports_participation": {
+          "value": 91.8,
+          "unit": "percent of rural persons participating in culture, leisure, mass-media, or sports activities",
+          "value_type": "official_subgroup_share"
+        },
+        "urban_culture_leisure_media_sports_participation": {
+          "value": 95.8,
+          "unit": "percent of urban persons participating in culture, leisure, mass-media, or sports activities",
+          "value_type": "official_subgroup_share"
+        },
+        "rural_culture_time_per_participant": {
+          "value": 165,
+          "unit": "minutes per day among rural participants",
+          "value_type": "official_subgroup_duration"
+        },
+        "urban_culture_time_per_participant": {
+          "value": 183,
+          "unit": "minutes per day among urban participants",
+          "value_type": "official_subgroup_duration"
+        },
+        "age_6_14_culture_time_per_person": {
+          "value": 230,
+          "unit": "minutes per day among persons aged 6-14, averaged across all persons in the group",
+          "value_type": "official_subgroup_duration"
+        },
+        "age_15_59_culture_time_per_person": {
+          "value": 139,
+          "unit": "minutes per day among persons aged 15-59, averaged across all persons in the group",
+          "value_type": "official_subgroup_duration"
+        },
+        "mechanism": {
+          "value": "Urban residence is associated with slightly broader and longer culture/leisure/media/sports time, while children have substantially more daily time in the broad category than working-age adults",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "India TUS 2024 rural-urban and age-group estimates using the same 24-hour activity diary and ICATUS classification.",
+      "uncertainty": "These comparisons do not identify venue supply, commuting, household income, school schedules, digital access, or causal effects of urban residence and age.",
+      "subgroup": "Rural versus urban persons, and persons aged 6-14 versus 15-59 years.",
+      "counterinterpretation": "The higher child time may reflect school-age media and play categories, while adult time may be shifted into work, care, or socializing that is not coded as culture; urban differences are modest relative to within-household gender differences.",
+      "source_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "retrieval_hash": "sha256:43b262ab6c8f82d5c4e180192a6fecfbdce1eef402a31653a1c948c25a9a5119",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Report_2024_28.03.2025F.pdf",
+      "claim": "Full Time Use in India 2024 report provides the detailed tables and methodology behind the factsheet.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "claim": "Official factsheet documents the survey sample, diary reference period, ICATUS classification, participation rates, and time durations.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds observed time-allocation evidence linking cultural/leisure/media time to unpaid domestic work, caregiving, gender, age, and rural-urban context. The category is broad and combines culture, leisure, mass media, and sports; the one-day diary does not establish habitual cultural consumption, quality, preference, or causality.",
+  "retrieval_hash": "sha256:43b262ab6c8f82d5c4e180192a6fecfbdce1eef402a31653a1c948c25a9a5119"
+}

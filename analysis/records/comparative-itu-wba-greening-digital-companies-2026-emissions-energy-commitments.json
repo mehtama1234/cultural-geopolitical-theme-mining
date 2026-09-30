@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-wba-greening-digital-companies-2026-emissions-energy-commitments",
+  "title": "Digital companies are expanding connectivity and AI capacity while emissions, electricity demand, and climate-accountability gaps remain material",
+  "theme_ids": ["energy", "cost", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "platforms_data_attention"
+  ],
+  "source_unit": "International Telecommunication Union and World Benchmarking Alliance, Greening Digital Companies 2026: Monitoring Emissions and Climate Commitments",
+  "geography": "200 digital companies worldwide assessed on greenhouse-gas emissions, energy consumption, climate commitments, and transition plans",
+  "observations": [
+    {
+      "period": "2026; digital-company environmental accountability",
+      "denominator": {"value": 200, "unit": "digital companies assessed worldwide", "value_type": "company_comparison_frame"},
+      "measures": {
+        "companies_assessed": {"value": 200, "unit": "digital companies covered by the report", "value_type": "reported_coverage"},
+        "scope_coverage": {"value": "the assessment examines Scope 1, Scope 2, and Scope 3 greenhouse-gas emissions", "unit": "report framework", "value_type": "reported_framework"},
+        "commitment_question": {"value": "climate commitments and transition plans are assessed alongside reported emissions and energy use", "unit": "report framework", "value_type": "reported_mechanism"}
+      },
+      "method": "ITU and World Benchmarking Alliance comparative assessment of digital companies' emissions, energy, climate targets, and transition-plan disclosures.",
+      "uncertainty": "Company disclosures and benchmarking criteria do not capture all supply-chain effects, hidden energy use, local impacts, or whether commitments are implemented and additional.",
+      "subgroup": "Digital firms, data-center operators, network providers, workers, investors, regulators, communities near infrastructure, and users dependent on digital services.",
+      "counterinterpretation": "Transparent measurement and credible transition plans can accelerate clean-energy procurement, efficiency, innovation, and accountability across digital value chains.",
+      "source_url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/GDC-26.aspx",
+      "retrieval_hash": "sha256:e89164349031422e17c9d4842c427997b7e26112b2a081f8b1e063767d376ec8",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; electricity demand and digital infrastructure",
+      "denominator": {"value": 163, "unit": "reporting digital companies with disclosed electricity consumption data", "value_type": "electricity_reporting_frame"},
+      "measures": {
+        "reporting_companies": {"value": 163, "unit": "companies reporting electricity consumption in the assessment", "value_type": "reported_coverage"},
+        "electricity_consumption": {"value": 494, "unit": "terawatt-hours of electricity consumed in 2024 by reporting companies", "value_type": "reported_energy_total"},
+        "global_share": {"value": 1.7, "unit": "approximately percent of global electricity consumption represented by the reported 2024 total", "value_type": "reported_share"},
+        "growth_pressure": {"value": "AI and digital expansion can increase electricity demand even as firms pursue renewable electricity and efficiency", "unit": "report and cross-source synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "ITU and WBA aggregation of company-reported electricity consumption and comparison with global electricity use.",
+      "uncertainty": "The total covers reporting companies, not the whole digital sector; accounting boundaries, estimates, procurement contracts, and operational versus embodied energy differ across firms.",
+      "subgroup": "Data-center communities, electricity systems, utilities, digital workers, users, investors, and regions hosting high-load infrastructure.",
+      "counterinterpretation": "Digital services can reduce travel, improve energy management, and support climate monitoring, while demand growth and rebound effects may offset efficiency gains.",
+      "source_url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/GDC-26.aspx",
+      "retrieval_hash": "sha256:e89164349031422e17c9d4842c427997b7e26112b2a081f8b1e063767d376ec8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI, climate action, and environmental costs",
+      "denominator": {"value": 1, "unit": "digital-sector AI, energy, emissions, and climate-transition frame", "value_type": "digital_climate_transition_frame"},
+      "measures": {
+        "benefit_channel": {"value": "AI can support climate action through energy optimization, renewable forecasting, and efficiency gains", "unit": "report synthesis", "value_type": "reported_mechanism"},
+        "cost_channel": {"value": "AI also carries environmental costs through growing computation, electricity demand, hardware, and supply chains", "unit": "report synthesis", "value_type": "reported_mechanism"},
+        "net_effect_question": {"value": "the net climate effect depends on deployment scale, rebound, energy sources, hardware lifecycles, and credible measurement", "unit": "cross-source analytical mechanism", "value_type": "open_question"}
+      },
+      "method": "ITU and WBA synthesis of digital-company environmental metrics and transition commitments.",
+      "uncertainty": "The report does not estimate a single global net effect of AI on emissions or prove that any company's AI use creates additional climate benefits.",
+      "subgroup": "AI developers, cloud and data-center firms, utilities, technology users, climate agencies, workers, and communities exposed to energy or material demand.",
+      "counterinterpretation": "AI applications may produce substantial avoided emissions in some sectors, but avoided-emissions claims require transparent baselines and cannot substitute for direct reductions.",
+      "source_url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/GDC-26.aspx",
+      "retrieval_hash": "sha256:e89164349031422e17c9d4842c427997b7e26112b2a081f8b1e063767d376ec8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital transition, public capacity, and distributed exposure",
+      "denominator": {"value": 1, "unit": "digital-company governance, infrastructure, climate, market, and public-accountability frame", "value_type": "digital_governance_frame"},
+      "measures": {
+        "infrastructure_tradeoff": {"value": "digital infrastructure is simultaneously a service platform, an energy load, a material system, and a source of market power", "unit": "program synthesis", "value_type": "reported_framework"},
+        "accountability_surface": {"value": "disclosure, transition planning, procurement, regulation, and community participation determine who bears digital growth costs and who receives benefits", "unit": "program synthesis", "value_type": "reported_mechanism"},
+        "policy_question": {"value": "the open question is whether digital expansion aligns private growth with public climate and infrastructure capacity", "unit": "program synthesis", "value_type": "open_question"}
+      },
+      "method": "Program-level synthesis linking the ITU/WBA company assessment to energy, infrastructure, market power, and public-systems themes.",
+      "uncertainty": "This is an analytical bridge, not a causal estimate from the report; company-level disclosure cannot establish community-level distribution or political legitimacy.",
+      "subgroup": "Digital firms, communities, regulators, utilities, consumers, workers, investors, and public infrastructure systems.",
+      "counterinterpretation": "Strong public standards and competition can make digital growth compatible with decarbonization, affordability, resilience, and shared value.",
+      "source_url": "https://www.itu.int/en/ITU-D/Environment/Pages/Publications/GDC-26.aspx",
+      "retrieval_hash": "sha256:e89164349031422e17c9d4842c427997b7e26112b2a081f8b1e063767d376ec8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026", "claim": "ITU ICT Development Index 2026 provides complementary evidence on the expansion and uneven quality of digital connectivity."},
+    {"source_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/2026-environmental-report/", "claim": "Google's 2026 Environmental Report provides a company-level comparator for clean-energy procurement, electricity demand, and operational emissions."}
+  ],
+  "boundary": "This record adds a digital-company climate, energy, emissions, transition-plan, and public-accountability route. It uses company comparisons and disclosed aggregates, not user-level behavior, causal AI climate effects, complete lifecycle accounting, or proof that renewable procurement eliminates local environmental burdens.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ITU/WBA Greening Digital Companies 2026 materials were reviewed for 200-company coverage, Scope 1-3 emissions, 163-company electricity reporting, 494 TWh of 2024 consumption, the approximate global share, and AI climate benefits and costs.",
+    "source_url_sha256": "sha256:e89164349031422e17c9d4842c427997b7e26112b2a081f8b1e063767d376ec8",
+    "checked": "2026-09-26"
+  }
+}

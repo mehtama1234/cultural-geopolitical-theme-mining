@@ -76,6 +76,22 @@
       "source_url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
       "retrieval_hash": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
       "status": "reported"
+    },
+    {
+      "period": "2026; consumer confidence, fuel-budget reallocation, and household-buffer pressure",
+      "denominator": {"value": 3, "unit": "countries with cited available credit-card data: United States, Germany, and United Kingdom", "value_type": "reported_country_scope"},
+      "measures": {
+        "fuel_spending_share": {"value": "a higher proportion of credit-card spending is directed to fuel in the United States, Germany, and United Kingdom", "unit": "reported credit-card spending pattern", "value_type": "reported_behavioral_pattern"},
+        "consumer_confidence": {"value": "consumer confidence improved since May in advanced economies despite conflict-related disruptions", "unit": "OECD reported confidence pattern", "value_type": "reported_pattern"},
+        "household_buffer_risk": {"value": "savings buffers and household purchasing power are expected to be strained over time", "unit": "OECD transmission assessment", "value_type": "reported_risk"}
+      },
+      "method": "Transcribed OECD full-report passages describing available credit-card data for the United States, Germany, and United Kingdom and the advanced-economy consumer-confidence pattern; no raw card panel or country-level effect sizes are supplied in this observation.",
+      "uncertainty": "The report does not publish card sample sizes, denominator definitions, fuel price-versus-volume decomposition, household subgroup incidence, or causal effect. Confidence improvement is aggregate and can coexist with fuel-budget compression and declining real room.",
+      "subgroup": "Households and consumers in the United States, Germany, and United Kingdom for the card pattern; advanced-economy consumers for the confidence statement.",
+      "counterinterpretation": "A higher fuel share can reflect commuting, price inflation, travel, fleet mix, or substitution elsewhere; improved confidence can coexist with falling purchasing power or can reflect expectations rather than realized household welfare.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+      "retrieval_hash": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
+      "status": "reported"
     }
   ],
   "related_sources": [

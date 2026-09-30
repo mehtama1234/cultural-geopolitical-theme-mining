@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-uis-cultural-creative-ecosystem-indicators-2026-measurement-governance",
+  "title": "Culture is being measured as a multidimensional ecosystem linking creative work, participation, equity, infrastructure, environment, and governance",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNESCO Institute for Statistics, Cultural and Creative Ecosystem Indicators Framework, Draft Report for Global Consultation",
+  "geography": "Globally applicable framework for UNESCO Member States, national statistical offices, ministries of culture, researchers, practitioners, and civil society",
+  "observations": [
+    {
+      "period": "September 2026; draft framework released for global consultation",
+      "denominator": {"value": 1, "unit": "UNESCO UIS draft indicator framework; consultation open 23 September-16 October 2026", "value_type": "published_framework_consultation"},
+      "measures": {
+        "measurement_unit": {"value": "Cultural and Creative Ecosystem rather than cultural industries alone", "unit": "proposed statistical unit", "value_type": "proposed_framework_design"},
+        "ecosystem_scope": {"value": "formal and informal, market and non-market, professional and community, physical and digital creation, circulation, engagement, preservation, and transmission", "unit": "proposed scope", "value_type": "proposed_framework_scope"},
+        "policy_stage": {"value": "draft report ahead of a full methodological manual expected in 2027", "unit": "implementation stage", "value_type": "reported_status"}
+      },
+      "method": "UNESCO UIS framework development through conceptual review, comparative review of international and regional measurement systems, stakeholder consultation, expert conversations, and technical review by the Cultural and Creative Industries Advisory Group.",
+      "uncertainty": "This is a draft measurement architecture, not an established dataset or validated cross-country estimate; proposed indicators, classifications, and implementation tiers remain subject to consultation and methodological refinement.",
+      "subgroup": "Member States, ministries of culture, national statistical offices, researchers, cultural and creative practitioners, NGOs, associations, audiences, and communities.",
+      "counterinterpretation": "Expanding the statistical universe can make hidden cultural work and participation visible, but it can also increase reporting burden, classification disputes, and dependence on uneven national data capacity.",
+      "source_url": "https://www.uis.unesco.org/en/news/shape-future-cultural-and-creative-statistics-global-consultation-now-open",
+      "retrieval_hash": "sha256:d5e24fc264a303833602a6e9f3ca0d716f2a36f93fcc633f818127540d8d1f88",
+      "status": "reported"
+    },
+    {
+      "period": "2026; six proposed dimensions of cultural and creative value",
+      "denominator": {"value": 6, "unit": "co-equal proposed measurement dimensions", "value_type": "published_framework_architecture"},
+      "measures": {
+        "dimensions": {"value": "creative production dynamics; cultural engagement; economic value; capabilities, equity and social value; environment, territories and infrastructure; governance and policy", "unit": "proposed dimension set", "value_type": "proposed_framework_architecture"},
+        "non_substitutability": {"value": "economic results, human capabilities, social relations, cultural meaning, environmental conditions, and institutions are connected but cannot substitute for one another", "unit": "proposed interpretation principle", "value_type": "proposed_framework_principle"},
+        "profile_output": {"value": "results should be presented as a multidimensional profile rather than collapsed into one composite score", "unit": "proposed reporting rule", "value_type": "proposed_framework_rule"}
+      },
+      "method": "Conceptual and measurement foundations in the UNESCO UIS draft CCE Indicators Framework.",
+      "uncertainty": "The dimensions describe intended analytical coverage; feasibility, comparability, indicator quality, and policy uptake will vary across national statistical systems.",
+      "subgroup": "Cultural workers, audiences, communities, enterprises, public institutions, territories, and groups whose participation or cultural rights are not captured by economic output alone.",
+      "counterinterpretation": "A multidimensional profile can resist simplistic rankings, but it may be harder for policymakers and the public to communicate than a single headline measure.",
+      "source_url": "https://www.uis.unesco.org/sites/default/files/medias/fichiers/2026/09/UIS_CCEIF_DRAFT%20FOR%20CONSULTATION_2026_1.pdf",
+      "retrieval_hash": "sha256:d5e24fc264a303833602a6e9f3ca0d716f2a36f93fcc633f818127540d8d1f88",
+      "status": "reported"
+    },
+    {
+      "period": "2026; creative economy scale and distribution context cited by the framework",
+      "denominator": {"value": 1, "unit": "UNESCO UIS framework synthesis citing UNCTAD and UNESCO sources", "value_type": "published_context_synthesis"},
+      "measures": {
+        "creative_services_exports": {"value": 1.4, "unit": "trillion US dollars in global creative-services exports in 2022; 29% increase since 2017", "value_type": "reported_context_estimate"},
+        "creative_goods_exports": {"value": 713, "unit": "billion US dollars in global creative-goods exports in 2022", "value_type": "reported_context_estimate"},
+        "developing_country_share": {"value": "10% in 2010 to 20% in 2022", "unit": "share of global creative-services exports attributed to developing countries in cited context", "value_type": "reported_change"},
+        "creative_work_range": {"value": "0.5%-12.5%", "unit": "range of national workforce employed by the creative economy across 36 surveyed developing economies in cited context", "value_type": "reported_range"}
+      },
+      "method": "Framework context drawing on cited UNCTAD 2024 and UNESCO 2025 sources; figures are retained as contextual claims rather than independently reconstructed estimates.",
+      "uncertainty": "Definitions of creative industries, services, goods, employment, and developing economies differ across sources; aggregate trade and workforce measures do not capture informal activity, distribution of income, cultural rights, or working conditions.",
+      "subgroup": "Creative workers, cultural enterprises, informal practitioners, developing economies, export sectors, and communities affected by creative-economy investment.",
+      "counterinterpretation": "Growth in creative exports can coexist with concentrated platform power, precarious work, cultural extraction, unequal public support, and low local capture of value.",
+      "source_url": "https://www.uis.unesco.org/sites/default/files/medias/fichiers/2026/09/UIS_CCEIF_DRAFT%20FOR%20CONSULTATION_2026_1.pdf",
+      "retrieval_hash": "sha256:d5e24fc264a303833602a6e9f3ca0d716f2a36f93fcc633f818127540d8d1f88",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital, AI, and cultural value-chain measurement needs",
+      "denominator": {"value": 1, "unit": "UNESCO UIS framework discussion of digital and AI transformation", "value_type": "published_framework_synthesis"},
+      "measures": {
+        "recorded_music_streaming": {"value": "67.3% of global recorded-music revenue in 2023 and 69.6% in 2025", "unit": "reported share of recorded-music revenue", "value_type": "reported_context_estimate"},
+        "new_measurement_needs": {"value": "platform structures, AI-generated outputs, labour-market effects, and governance", "unit": "reported measurement gap set", "value_type": "reported_measurement_need"},
+        "proposed_indicators": {"value": "digital platform concentration, AI-generated cultural content, creative-employment exposure to AI, and AI governance in the cultural and creative ecosystem", "unit": "proposed indicator routes", "value_type": "proposed_framework_indicator_set"},
+        "creative_diffusion": {"value": "around 40% of workers in creative occupations are employed outside cultural and creative sectors in cited OECD context", "unit": "reported cross-sector pattern", "value_type": "reported_context_estimate"}
+      },
+      "method": "UNESCO UIS synthesis of cited music-industry, OECD, and cultural-statistics evidence within the draft framework.",
+      "uncertainty": "The reported context figures use different years and source definitions; proposed AI and platform indicators are not yet standardized or operationally validated.",
+      "subgroup": "Creators, cultural workers, platforms, audiences, rights-holders, creative-intensive workers outside cultural sectors, and regulators.",
+      "counterinterpretation": "Digitisation and AI may widen access and creative diffusion while shifting bargaining power, attribution, income, visibility, and cultural gatekeeping toward platforms and model owners.",
+      "source_url": "https://www.uis.unesco.org/sites/default/files/medias/fichiers/2026/09/UIS_CCEIF_DRAFT%20FOR%20CONSULTATION_2026_1.pdf",
+      "retrieval_hash": "sha256:d5e24fc264a303833602a6e9f3ca0d716f2a36f93fcc633f818127540d8d1f88",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/culture", "claim": "UNESCO culture policy materials provide complementary cultural-rights, heritage, and sustainable-development context."},
+    {"source_url": "https://unctad.org/topic/trade-analysis/creative-economy-programme", "claim": "UNCTAD creative-economy work provides complementary trade, production, and development context."},
+    {"source_url": "https://www.wipo.int/publications/en/details.jsp?id=4685", "claim": "WIPO creative-economy and intellectual-property evidence provides complementary value-chain and rights context."}
+  ],
+  "boundary": "This record adds a cultural-measurement and governance route linking creative work, participation, economic value, equity, infrastructure, environment, territory, digital platforms, AI, and public statistical capacity. It records a draft framework and contextual figures, not completed indicators, a public-opinion study, causal cultural impact evidence, or proof that countries can implement comparable measures immediately.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO UIS consultation announcement and linked 76-page draft CCE Indicators Framework were reviewed for status, scope, six dimensions, measurement principles, cited creative-economy context, digital/AI measurement needs, consultation dates, and implementation boundaries.",
+    "source_url_sha256": "sha256:d5e24fc264a303833602a6e9f3ca0d716f2a36f93fcc633f818127540d8d1f88",
+    "checked": "2026-09-26"
+  }
+}

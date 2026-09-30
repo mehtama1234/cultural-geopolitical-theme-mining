@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-european-commission-consumer-confidence-september-2026-economic-sentiment-recovery-reversal",
+  "title": "European consumer confidence and employment expectations turned away from a four-month recovery as household outlooks remained below long-term norms",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "European Commission Directorate-General for Economic and Financial Affairs harmonised business and consumer surveys, September 2026 release",
+  "geography": "European Union and euro area; harmonised sentiment indicators with sectoral and employment-expectation components",
+  "observations": [
+    {
+      "period": "September 2026; Economic Sentiment Indicator",
+      "denominator": {"value": 1, "unit": "European Commission harmonised ESI index for the EU and euro area", "value_type": "reported_index_frame"},
+      "measures": {
+        "eu_change": {"value": -0.4, "unit": "index points from August to 97.9", "value_type": "reported_monthly_change"},
+        "euro_area_change": {"value": -0.5, "unit": "index points from August to 97.9", "value_type": "reported_monthly_change"},
+        "long_run_position": {"value": "both indicators remained below the long-term average of 100 after drifting upward since May", "unit": "reported index position", "value_type": "reported_assessment"},
+        "interpretive_boundary": {"value": "economic sentiment is a forward-looking perception measure, not realized household income, consumption, employment, or business output", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "European Commission harmonised business and consumer survey indicators; index movement is compared with the prior month and long-term average.",
+      "uncertainty": "The index does not identify which households or firms changed sentiment, which prices or shocks drove the movement, or whether expectations will translate into later spending or hiring.",
+      "subgroup": "EU households, consumers, firms, and sectoral respondents represented in the harmonised survey system; country and income variation is not captured by the headline movement alone.",
+      "counterinterpretation": "A mild aggregate decline can coexist with improving sentiment for some households, sectors, or countries and does not establish a generalized downturn.",
+      "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en",
+      "retrieval_hash": "sha256:773e4cbecdc0d21cc63bd2c67adce1011f0e597db3331350a16f0afdac6c9d08",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; Employment Expectations Indicator",
+      "denominator": {"value": 1, "unit": "European Commission harmonised EEI index for the EU and euro area", "value_type": "reported_index_frame"},
+      "measures": {
+        "eu_change": {"value": -0.6, "unit": "index points to 98.3", "value_type": "reported_monthly_change"},
+        "euro_area_change": {"value": -1.3, "unit": "index points to 97.5", "value_type": "reported_monthly_change"},
+        "employment_signal": {"value": "employment expectations receded more markedly than the headline economic sentiment indicator", "unit": "reported comparative signal", "value_type": "reported_assessment"},
+        "household_mechanism": {"value": "employment expectations can shape precautionary saving, purchase timing, mobility, and willingness to take on durable commitments, but the release does not estimate those effects", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "European Commission employment-expectations component of the harmonised survey release.",
+      "uncertainty": "Expectations are not layoffs, vacancies, hours, wages, or realized employment; the aggregate index does not show exposure by industry, contract, age, or income.",
+      "subgroup": "Workers, jobseekers, employers, and households with different labour-market security, debt, care, and housing commitments.",
+      "counterinterpretation": "A lower expectation index can reflect temporary geopolitical or financial uncertainty without producing a corresponding employment contraction.",
+      "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en",
+      "retrieval_hash": "sha256:773e4cbecdc0d21cc63bd2c67adce1011f0e597db3331350a16f0afdac6c9d08",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; Flash Consumer Confidence Indicator",
+      "denominator": {"value": 1, "unit": "European Commission flash consumer-confidence indicator for the EU and euro area", "value_type": "reported_index_frame"},
+      "measures": {
+        "eu_level": {"value": -15.8, "unit": "consumer-confidence balance points", "value_type": "reported_index_level"},
+        "euro_area_level": {"value": -16.5, "unit": "consumer-confidence balance points", "value_type": "reported_index_level"},
+        "monthly_change": {"value": "down 0.8 percentage points in the EU and 1.0 point in the euro area", "unit": "reported monthly change", "value_type": "reported_change"},
+        "recovery_reversal": {"value": "confidence moved away from its long-term average again after four months of recovery", "unit": "reported trajectory", "value_type": "reported_assessment"}
+      },
+      "method": "European Commission flash consumer-confidence survey indicator; the release provides a timely directional signal rather than a household spending panel.",
+      "uncertainty": "The headline balance does not reveal changes in necessities, debt service, rent, energy, food, transport, cultural spending, or actual consumption quantities.",
+      "subgroup": "Consumers in the EU and euro area, including households with unequal inflation exposure, employment security, savings, housing costs, and access to credit.",
+      "counterinterpretation": "Confidence can fall while households continue spending on essentials, or recover while households cut quality, quantity, savings, or social and cultural participation.",
+      "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en",
+      "retrieval_hash": "sha256:773e4cbecdc0d21cc63bd2c67adce1011f0e597db3331350a16f0afdac6c9d08",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; perception-to-behaviour conversion test",
+      "denominator": {"value": 1, "unit": "European Commission harmonised survey release and statistical annex", "value_type": "reported_measurement_frame"},
+      "measures": {
+        "open_middle": {"value": "the release establishes a renewed weakening in expectations but leaves the conversion into prices, purchases, hiring, saving, debt, and political attribution open", "unit": "analytical boundary", "value_type": "measurement_limit"},
+        "consumer_room": {"value": "the relevant household question is whether pessimism changes timing, substitution, quality, borrowing, or participation rather than whether confidence alone is positive or negative", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"},
+        "policy_signal": {"value": "aggregate sentiment can signal pressure on public and political narratives of recovery, but cannot identify which policy, market, or geopolitical cause households attribute the pressure to", "unit": "bounded political mechanism", "value_type": "bounded_mechanism"},
+        "next_measure": {"value": "a named country or household panel should link confidence to realized income, prices, employment, spending, debt, housing, and political judgment", "unit": "next-test design", "value_type": "research_requirement"}
+      },
+      "method": "Analytical synthesis of the European Commission’s harmonised sentiment indicators; no causal or individual-level inference is claimed.",
+      "uncertainty": "The release does not provide a common panel linking the same respondent’s expectations to later economic behaviour or political action.",
+      "subgroup": "Households, workers, firms, policymakers, and political actors interpreting a shared but uneven economic mood.",
+      "counterinterpretation": "Sentiment may be noisy, media-sensitive, or temporarily decoupled from material conditions; treating it as a direct welfare measure would overstate the evidence.",
+      "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en",
+      "retrieval_hash": "sha256:773e4cbecdc0d21cc63bd2c67adce1011f0e597db3331350a16f0afdac6c9d08",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/latest-business-and-consumer-surveys_en", "claim": "Official European Commission latest business and consumer survey release and statistical-annex route."}
+  ],
+  "boundary": "This record adds a sentiment-to-room conversion route: economic and employment expectations can shape purchase timing, precaution, household narratives, and political attribution, but the September 2026 indicators do not establish realized income, employment, consumption, debt, cultural participation, or welfare. The aggregate EU and euro-area movement must not be treated as a uniform household experience or causal forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "European Commission page reviewed for September 2026 ESI, EEI, and flash consumer-confidence levels, monthly changes, long-term-average comparison, and release dates.",
+    "source_url_sha256": "sha256:773e4cbecdc0d21cc63bd2c67adce1011f0e597db3331350a16f0afdac6c9d08",
+    "checked": "2026-09-29"
+  }
+}

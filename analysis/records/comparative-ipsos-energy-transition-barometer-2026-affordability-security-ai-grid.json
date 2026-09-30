@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-energy-transition-barometer-2026-affordability-security-ai-grid",
+  "title": "Energy-transition legitimacy is being renegotiated through affordability, geopolitical dependence and confidence in the grid",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Ipsos, Energy Transition Barometer 2026 / Global Advisor study",
+  "geography": "31 countries; global, regional and country comparisons",
+  "observations": [
+    {
+      "period": "January–February 2026 baseline; 31 countries; adults under 75",
+      "denominator": {"value": 23704, "unit": "adults under age 75 across 31 countries", "value_type": "reported_sample"},
+      "measures": {
+        "energy_cost_worry": {"value": 76, "unit": "percent worried about rising energy costs", "value_type": "reported_share"},
+        "spending_cutbacks": {"value": 49, "unit": "percent who have cut other spending to cover rising energy costs", "value_type": "reported_share"},
+        "foreign_energy_dependency_baseline": {"value": 63, "unit": "percent worried their country relies too heavily on foreign energy sources before the Iran conflict", "value_type": "reported_share"},
+        "energy_independence_preference": {"value": 55, "unit": "percent saying their country should prioritize energy independence even at higher costs", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor survey on energy affordability, dependence, independence and household trade-offs, with baseline fieldwork in January and February 2026.",
+      "uncertainty": "The estimates are public attitudes and reported household behavior; they do not measure actual bills, energy use, policy effectiveness or whether cost worry produces durable political change.",
+      "subgroup": "Adults under 75 across 31 countries, with regional and country variation.",
+      "counterinterpretation": "Respondents may support energy independence in principle while opposing specific infrastructure, taxes or local projects needed to deliver it.",
+      "source_url": "https://www.ipsos.com/en-us/ipsos-energy-transition-barometer",
+      "retrieval_hash": "sha256:25bb164f4078fb11db9769c25c11b5960286b8f970282e9e8deacf50dd022a5d",
+      "status": "reported"
+    },
+    {
+      "period": "February–May 2026; follow-up fieldwork after the Iran conflict",
+      "denominator": {"value": null, "unit": "Ipsos Global Advisor follow-up respondents across the 31-country study; follow-up analytic denominator not separately headlined", "value_type": "not_disclosed"},
+      "measures": {
+        "foreign_energy_dependency_followup": {"value": 70, "unit": "percent concerned their country relies too much on foreign energy sources", "value_type": "reported_share"},
+        "dependency_anxiety_change": {"value": 7, "unit": "percentage-point increase between February and May 2026", "value_type": "reported_difference"},
+        "largest_country_increases": {"value": "Australia +16 points, Singapore +13, India +13 and Great Britain +12", "unit": "percentage-point changes reported by Ipsos", "value_type": "reported_distribution"}
+      },
+      "method": "Ipsos before-and-after public-attitude comparison using baseline and follow-up fieldwork around the Iran conflict.",
+      "uncertainty": "The comparison captures a temporal shift around a geopolitical shock but is not a randomized causal design; other news, prices, seasonal conditions and domestic politics may contribute.",
+      "subgroup": "Adults across 31 countries, with especially large reported shifts in Australia, Singapore, India and Great Britain.",
+      "counterinterpretation": "The shift may reflect general conflict salience or media attention rather than a durable reassessment of energy policy and dependence.",
+      "source_url": "https://www.ipsos.com/en-us/ipsos-energy-transition-barometer",
+      "retrieval_hash": "sha256:25bb164f4078fb11db9769c25c11b5960286b8f970282e9e8deacf50dd022a5d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; electricity reliability and AI data-centre capacity",
+      "denominator": {"value": 23704, "unit": "adults under age 75 across 31 countries in the Global Advisor study", "value_type": "reported_sample"},
+      "measures": {
+        "future_electricity_confidence": {"value": 46, "unit": "percent confident their region can meet future electricity demand", "value_type": "reported_share"},
+        "ai_data_centre_grid_readiness": {"value": 35, "unit": "percent believing local grids are ready for the energy needs of AI data centres", "value_type": "reported_share"},
+        "blackout_worry": {"value": 39, "unit": "percent worried about unplanned outages in the coming year", "value_type": "reported_share"}
+      },
+      "method": "Cross-national survey of perceived electricity-system capacity, reliability and AI data-centre readiness.",
+      "uncertainty": "Perceptions of grid readiness are not engineering assessments or forecasts of actual outages; the question may be interpreted differently across countries and levels of public knowledge.",
+      "subgroup": "Adults under 75 across 31 countries; Ipsos notes advanced economies are notably more skeptical about AI data-centre readiness than emerging markets.",
+      "counterinterpretation": "Low confidence may represent precaution or unfamiliarity with data-centre load growth rather than a measured local capacity shortfall.",
+      "source_url": "https://www.ipsos.com/en-us/ipsos-energy-transition-barometer",
+      "retrieval_hash": "sha256:25bb164f4078fb11db9769c25c11b5960286b8f970282e9e8deacf50dd022a5d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; energy-transition preferences and technology trust",
+      "denominator": {"value": 23704, "unit": "adults under age 75 across 31 countries in the Global Advisor study", "value_type": "reported_sample"},
+      "measures": {
+        "renewables_storage_support": {"value": 67, "unit": "percent supporting investment in renewable energy and storage", "value_type": "reported_share"},
+        "low_price_priority": {"value": 53, "unit": "percent wanting governments to prioritize low energy prices even if emissions rise", "value_type": "reported_share"},
+        "solar_support": {"value": 77, "unit": "percent supporting solar power", "value_type": "reported_share"},
+        "nuclear_support": {"value": 41, "unit": "percent supporting increased nuclear development", "value_type": "reported_share"},
+        "nuclear_opposition": {"value": 25, "unit": "percent opposed to increased nuclear development", "value_type": "reported_share"}
+      },
+      "method": "Ipsos comparison of public support for transition investment, price prioritization and energy technologies across 31 countries.",
+      "uncertainty": "Support for broad transition categories does not predict support for specific facilities, siting decisions, rate structures or permitting trade-offs.",
+      "subgroup": "Adults under 75 across 31 countries, with country and regional variation.",
+      "counterinterpretation": "The apparent contradiction between transition support and low-price priority may reflect a demand for clean energy that is also reliable and affordable, not rejection of climate action.",
+      "source_url": "https://www.ipsos.com/en-us/ipsos-energy-transition-barometer",
+      "retrieval_hash": "sha256:25bb164f4078fb11db9769c25c11b5960286b8f970282e9e8deacf50dd022a5d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://resources.ipsos.com/rs/297-CXJ-795/images/PeopleClimateChange2026.pdf?version=0", "claim": "Official Ipsos report PDF with fieldwork, energy-cost, independence, reliability and transition-preference findings."},
+    {"source_url": "https://www.ipsos.com/en/topic/energy", "claim": "Official Ipsos energy topic page contextualizing the 2026 Energy Transition Barometer."}
+  ],
+  "boundary": "This record adds a geopolitical-energy legitimacy mechanism: a conflict shock makes foreign dependence more salient, while affordability pressure, household cutbacks, grid reliability and AI load concerns condition support for the energy transition. It is a cross-national public-opinion study with a before-and-after comparison, not a causal conflict experiment, engineering reliability assessment, household billing panel or proof that broad transition support translates into local project consent.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Energy Transition Barometer page and downloadable People and Climate Change 2026 PDF were retrieved and reviewed for sample, energy-cost worry, spending cutbacks, foreign dependence, conflict-period change, grid readiness, AI data-centre reliability, transition support, solar and nuclear preferences; the PDF was hashed.",
+    "source_url_sha256": "sha256:25bb164f4078fb11db9769c25c11b5960286b8f970282e9e8deacf50dd022a5d",
+    "checked": "2026-09-27"
+  }
+}

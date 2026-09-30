@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-data-to-ai-value-chain-language-culture-inclusive-ai-2026",
+  "title": "Language-inclusive AI depends on a locally governed data-to-impact chain, not only on model capability",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "UNDP, Introducing the Data to AI Value Chain: Promoting Linguistic and Cultural Diversity for AI Diffusion / Every Language Matters framework, 2026",
+  "geography": "Local Language Accelerator implementations across 11 countries and the global-to-local AI ecosystem",
+  "observations": [
+    {
+      "period": "2026; five-stage data-to-AI value chain",
+      "denominator": {"value": 5, "unit": "interdependent stages in the UNDP framework", "value_type": "published_framework"},
+      "measures": {
+        "stage_one": {"value": "Data Collection: collect, record, and secure consent", "unit": "framework stage", "value_type": "reported_framework_stage"},
+        "stage_two_three": {"value": "Data Curation: annotate, license, and govern; Model Training: fine-tune, compute, and evaluate", "unit": "framework stages", "value_type": "reported_framework_stage"},
+        "stage_four_five": {"value": "Deployment: build, integrate, and serve; Impact and Reuse: benefit, return, and sustain", "unit": "framework stages", "value_type": "reported_framework_stage"},
+        "governance_route": {"value": "AI that creates public value requires technical, institutional, financial, and governance activity across the full chain", "unit": "reported framework mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP framework and implementation synthesis for Every Language Matters and Local Language Accelerators.",
+      "uncertainty": "The framework organizes implementation problems and interventions; it is not a causal evaluation of AI outcomes or a universal sequence for every AI system.",
+      "subgroup": "Language communities, governments, researchers, funders, technology partners, local AI teams, public-service users, and data contributors.",
+      "counterinterpretation": "Some AI applications may produce useful benefits with smaller or different value chains, especially where data and deployment are already mature.",
+      "source_url": "https://www.undp.org/digital-innovation/elm-data-to-ai-value-chain",
+      "retrieval_hash": "sha256:7187782ae2219ba25554910ef45eb1e76266623c5ce58cc0cb77dd20cffbdf77",
+      "status": "reported"
+    },
+    {
+      "period": "2026; local data and cultural representation breakpoints",
+      "denominator": {"value": 1, "unit": "UNDP implementation synthesis of local-language AI programmes", "value_type": "implementation_evidence_frame"},
+      "measures": {
+        "consent_break": {"value": "free, prior, and informed consent is not always adhered to, while compensation and provenance tracking remain inconsistent", "unit": "reported implementation failure", "value_type": "reported_breakpoint"},
+        "visibility_break": {"value": "communities may lack visibility into downstream data use or who benefits", "unit": "reported governance failure", "value_type": "reported_breakpoint"},
+        "exclusion_break": {"value": "women, older people, rural communities, and dialect speakers are systematically excluded from some recording and design processes", "unit": "reported inclusion risk", "value_type": "reported_mechanism"},
+        "representation_route": {"value": "language and cultural inclusion is an upstream data-governance and power question, not only a translation-quality question", "unit": "analytic cultural mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP synthesis of ground-level experience from Local Language Accelerator implementations.",
+      "uncertainty": "The page reports recurring implementation problems but does not provide a harmonized prevalence estimate across all 11 countries or languages.",
+      "subgroup": "Women, older people, rural communities, dialect speakers, Indigenous or minority language communities, data contributors, and local researchers.",
+      "counterinterpretation": "Community-led collection, enforceable consent, compensation, and provenance systems can improve representation even where initial data is sparse.",
+      "source_url": "https://www.undp.org/digital-innovation/elm-data-to-ai-value-chain",
+      "retrieval_hash": "sha256:7187782ae2219ba25554910ef45eb1e76266623c5ce58cc0cb77dd20cffbdf77",
+      "status": "reported"
+    },
+    {
+      "period": "2026; local compute, deployment, and public-service adoption",
+      "denominator": {"value": 1, "unit": "UNDP implementation synthesis of local-language AI deployment", "value_type": "implementation_evidence_frame"},
+      "measures": {
+        "compute_break": {"value": "local teams often have credits rather than durable local compute infrastructure, while hardware capability and operational skills are rarely built in-country", "unit": "reported infrastructure constraint", "value_type": "reported_breakpoint"},
+        "deployment_break": {"value": "grants can end before products reach citizens, and governments may not fund local-language AI in public services", "unit": "reported implementation constraint", "value_type": "reported_breakpoint"},
+        "co_design_break": {"value": "communities excluded as co-designers can produce low adoption", "unit": "reported adoption mechanism", "value_type": "reported_mechanism"},
+        "public_value_route": {"value": "local AI diffusion depends on operational budgets, shared infrastructure, local skills, public-service integration, and community feedback", "unit": "analytic deployment mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP Data-to-AI Value Chain implementation analysis.",
+      "uncertainty": "The framework identifies recurring bottlenecks but does not measure adoption, service quality, or public value after deployment.",
+      "subgroup": "Local AI teams, public agencies, language communities, governments, funders, infrastructure providers, and public-service users.",
+      "counterinterpretation": "Cloud access, open-source models, shared compute, and regional partnerships can lower infrastructure barriers, though they may introduce new dependencies.",
+      "source_url": "https://www.undp.org/digital-innovation/elm-data-to-ai-value-chain",
+      "retrieval_hash": "sha256:7187782ae2219ba25554910ef45eb1e76266623c5ce58cc0cb77dd20cffbdf77",
+      "status": "reported"
+    },
+    {
+      "period": "2026; impact, value return, and feedback loops",
+      "denominator": {"value": 1, "unit": "UNDP impact-and-reuse stage assessment", "value_type": "implementation_evidence_frame"},
+      "measures": {
+        "value_return_break": {"value": "communities that contribute data may have no value-return mechanism", "unit": "reported governance failure", "value_type": "reported_breakpoint"},
+        "impact_measurement_break": {"value": "the framework reports that community satisfaction measurement and dedicated impact-tracking funding are largely absent in current Local Language Accelerator contexts", "unit": "reported measurement constraint", "value_type": "reported_breakpoint"},
+        "feedback_loop": {"value": "deployment experience should feed back into curation, community responses should shape what is built, and impact assessments should influence funding", "unit": "reported feedback design", "value_type": "reported_mechanism"},
+        "accountability_route": {"value": "inclusive AI requires benefit sharing, public value-return reporting, community satisfaction, and durable feedback loops after deployment", "unit": "analytic accountability mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP impact-and-reuse stage of the Data-to-AI Value Chain framework.",
+      "uncertainty": "The framework proposes accountability mechanisms but does not show that value return, satisfaction, or sustained impact has been achieved across current programmes.",
+      "subgroup": "Data-contributing communities, AI users, public agencies, local teams, funders, governments, and technology partners.",
+      "counterinterpretation": "Some benefits may be public or collective rather than directly monetized, so value return requires context-specific definitions and measurement.",
+      "source_url": "https://www.undp.org/digital-innovation/elm-data-to-ai-value-chain",
+      "retrieval_hash": "sha256:7187782ae2219ba25554910ef45eb1e76266623c5ce58cc0cb77dd20cffbdf77",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/digital-innovation/every-language-matters", "claim": "Every Language Matters provides the broader initiative, public pledges, local-language accelerator, and shared-norm context."},
+    {"source_url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics", "claim": "UNESCO AI ethics guidance provides complementary rights, cultural, and governance context."}
+  ],
+  "boundary": "This record adds a language-and-culture route from consent, representation, local data, compute, deployment, and impact measurement through inclusive AI diffusion and public value. It is a UNDP framework and implementation synthesis, not respondent-level data, a model benchmark, a causal impact evaluation, or proof that local-language AI has achieved equitable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNDP Data-to-AI Value Chain page was reviewed for the five stages, governance layer, implementation breakpoints, excluded groups, local compute and deployment constraints, value return, and feedback-loop design.",
+    "source_url_sha256": "sha256:7187782ae2219ba25554910ef45eb1e76266623c5ce58cc0cb77dd20cffbdf77",
+    "checked": "2026-09-26"
+  }
+}

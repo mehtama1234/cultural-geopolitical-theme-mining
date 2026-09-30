@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-youth-mental-health-2026-intersecting-pressure-prevention",
+  "title": "Youth mental health decline is being framed as cumulative social pressure requiring prevention across school, family, work, housing, and digital life",
+  "theme_ids": ["time", "voice", "cost", "work", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "housing_place_mobility"
+  ],
+  "source_unit": "OECD, Child, Adolescent and Youth Mental Health in the 21st Century",
+  "geography": "OECD countries, with comparable time-series, national data, expert interviews, and country examples including Canada, Korea, the Netherlands, Norway, Sweden, and the United States",
+  "observations": [
+    {
+      "period": "2012-2022; comparable time-series across 11 OECD countries",
+      "denominator": {
+        "value": 11,
+        "unit": "OECD countries with comparable youth mental-health time series",
+        "value_type": "country_comparison_frame"
+      },
+      "measures": {
+        "decline_pattern": {"value": "in 9 of 11 countries, youth mental-health indicators declined by an annual average of 3% to 16%", "unit": "reported annual average change", "value_type": "reported_trend"},
+        "pandemic_boundary": {"value": "COVID-19 intensified pressures, but the underlying decline was already visible from the mid-2010s", "unit": "reported temporal pattern", "value_type": "reported_pattern"},
+        "international_signal": {"value": "between 2014 and 2022, the share of adolescents reporting frequent low mood and multiple health complaints increased in every HBSC-participating OECD country", "unit": "reported cross-country pattern", "value_type": "reported_pattern"},
+        "recovery_uncertainty": {"value": "some countries show early stabilization or partial recovery in 2023-2024, but durability is not yet established", "unit": "reported uncertainty", "value_type": "reported_uncertainty"}
+      },
+      "method": "OECD cross-country synthesis of national surveys, international data series, administrative indicators, scientific evidence, and semi-structured interviews with clinical and policy experts.",
+      "uncertainty": "Measures and time coverage vary across countries; reported trends do not establish a single cause or prove that the same intervention would work across settings.",
+      "subgroup": "Children, adolescents, and young adults under 25, with attention to age, sex, socioeconomic status, school context, housing, digital exposure, and access to support.",
+      "counterinterpretation": "Some changes may reflect improved recognition, reporting, or service contact rather than only worsening underlying mental health; the report treats measurement improvement as necessary for interpretation.",
+      "source_url": "https://www.oecd.org/en/publications/child-adolescent-and-youth-mental-health-in-the-21st-century_1092c3cb-en/full-report/executive-summary_4ebd1724.html",
+      "retrieval_hash": "sha256:48ad3399e0714bb07bce739417b16499bb56ae456062a92ee60ef5d90555c176",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2023; selected OECD administrative indicators",
+      "denominator": {
+        "value": 13,
+        "unit": "countries included in the reported self-harm hospitalisation comparison for girls aged 0-17",
+        "value_type": "country_comparison_frame"
+      },
+      "measures": {
+        "girl_outcome": {"value": 29, "unit": "percent increase in self-harm hospitalisations among girls aged 0-17", "value_type": "reported_change"},
+        "age_sex_pattern": {"value": "girls and older adolescents show particularly poor mental-health outcomes", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "suicide_boundary": {"value": "suicide rates among young people remained relatively stable in most countries despite worsening distress indicators", "unit": "reported outcome boundary", "value_type": "reported_boundary"},
+        "driver_interaction": {"value": "digitalisation, economic insecurity, school pressure, bullying, climate anxiety, conflict, and information exposure can accumulate rather than operate in isolation", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Synthesis of administrative and survey indicators with scientific evidence and expert interpretation; selected indicators are not a universal measure of all youth mental-health outcomes.",
+      "uncertainty": "Hospitalisations capture severe or service-contact events and are affected by access, coding, care-seeking, and system capacity; they do not measure all self-harm or distress.",
+      "subgroup": "Girls and young women, older adolescents, youth exposed to poverty, unstable housing, academic pressure, bullying, harmful online content, climate anxiety, or conflict information.",
+      "counterinterpretation": "Higher recorded hospitalisation can reflect improved detection or access to care as well as greater incidence; the pattern should not be read as a single digital-media effect.",
+      "source_url": "https://www.oecd.org/en/publications/child-adolescent-and-youth-mental-health-in-the-21st-century_1092c3cb-en/full-report/executive-summary_4ebd1724.html",
+      "retrieval_hash": "sha256:48ad3399e0714bb07bce739417b16499bb56ae456062a92ee60ef5d90555c176",
+      "status": "reported"
+    },
+    {
+      "period": "2026; expert evidence and policy-response assessment",
+      "denominator": {
+        "value": 29,
+        "unit": "clinical and policy experts interviewed for the report",
+        "value_type": "reported_expert_frame"
+      },
+      "measures": {
+        "causal_frame": {"value": "experts and scientific evidence do not identify one factor; youth face multiple intersecting pressures that accumulate across domains", "unit": "reported analytical conclusion", "value_type": "reported_framework"},
+        "protective_environments": {"value": "positive family relationships, supportive schools, secure housing, social connection, social-emotional learning, and mental-health literacy are identified as protective conditions", "unit": "reported protective set", "value_type": "reported_policy_set"},
+        "service_gap": {"value": "existing support often relies too heavily on high-threshold clinical responses after difficulties escalate", "unit": "reported system gap", "value_type": "reported_gap"},
+        "preferred_response": {"value": "low-threshold, holistic, community-based, and peer-supported services are prioritized for early assistance", "unit": "reported policy direction", "value_type": "reported_direction"}
+      },
+      "method": "Expert interviews combined with literature review and comparative policy analysis; expert judgment is used to identify interacting risks and promising response directions.",
+      "uncertainty": "Expert consensus and promising models do not establish comparative causal effectiveness; implementation quality, reach, and subgroup fit remain open questions.",
+      "subgroup": "Young people who disengage from traditional services, youth facing multiple stressors, families with limited time or resources, schools, community organizations, and peer-support networks.",
+      "counterinterpretation": "Expanding services without addressing poverty, housing, school pressure, discrimination, and digital environments may medicalize structural distress without reducing its sources.",
+      "source_url": "https://www.oecd.org/en/publications/child-adolescent-and-youth-mental-health-in-the-21st-century_1092c3cb-en/full-report/executive-summary_4ebd1724.html",
+      "retrieval_hash": "sha256:48ad3399e0714bb07bce739417b16499bb56ae456062a92ee60ef5d90555c176",
+      "status": "reported"
+    },
+    {
+      "period": "2026; OECD monitoring and policy-evaluation capacity",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD-country monitoring assessment",
+        "value_type": "system_capacity_frame"
+      },
+      "measures": {
+        "data_coverage": {"value": "fewer than one-third of OECD countries collect regular, nationally representative time-series data on youth mental health", "unit": "reported country share", "value_type": "reported_coverage_gap"},
+        "measurement_gap": {"value": "digital-use measures remain coarse and many countries lack detailed data on socioeconomic vulnerability, school environments, and service access", "unit": "reported evidence gap", "value_type": "reported_gap"},
+        "policy_testing": {"value": "school phone bans, age verification, and social-media restrictions are expanding while their mental-health effects remain mixed or unclear", "unit": "reported policy-evaluation gap", "value_type": "reported_gap"},
+        "accountability_route": {"value": "better monitoring is needed to track trends, evaluate policies, and understand young people’s lived experience", "unit": "reported governance requirement", "value_type": "reported_requirement"}
+      },
+      "method": "OECD assessment of national monitoring systems and emerging digital-policy interventions.",
+      "uncertainty": "The country-coverage estimate concerns regular nationally representative time series and does not mean that other data sources do not exist; data availability is not itself proof of policy failure.",
+      "subgroup": "Young people, parents, educators, health and social-service providers, policymakers, and groups whose experiences are missed by coarse digital, socioeconomic, or administrative measures.",
+      "counterinterpretation": "Rapid policy experimentation may generate useful learning if interventions are proportionate, transparent, youth-informed, and evaluated for unintended effects rather than treated as settled solutions.",
+      "source_url": "https://www.oecd.org/en/publications/child-adolescent-and-youth-mental-health-in-the-21st-century_1092c3cb-en/full-report/executive-summary_4ebd1724.html",
+      "retrieval_hash": "sha256:48ad3399e0714bb07bce739417b16499bb56ae456062a92ee60ef5d90555c176",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/05/child-adolescent-and-youth-mental-health-in-the-21st-century_81743169/1092c3cb-en.pdf", "claim": "Official OECD 88-page report PDF with trends, drivers, responses, country comparisons, and data limitations."},
+    {"source_url": "https://doi.org/10.1787/1092c3cb-en", "claim": "Official OECD DOI and publication citation."}
+  ],
+  "boundary": "This record adds a youth mental-health-to-social-capacity route. It is not a respondent-level pooled dataset, a universal prevalence estimate, a causal attribution to digital media or COVID-19, or an evaluation proving that low-threshold services, school policies, or platform restrictions improve outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD executive summary and report PDF were reviewed for the decade trend, 11-country time-series frame, 13-country self-harm comparison, 29 expert interviews, intersecting risk framework, prevention recommendations, digital-policy uncertainty, and monitoring gap.",
+    "source_url_sha256": "sha256:48ad3399e0714bb07bce739417b16499bb56ae456062a92ee60ef5d90555c176",
+    "checked": "2026-09-28"
+  }
+}

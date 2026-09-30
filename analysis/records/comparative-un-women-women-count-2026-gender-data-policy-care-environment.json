@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-women-count-2026-gender-data-policy-care-environment",
+  "title": "Gender data is becoming policy infrastructure for care, safety, climate, governance, and economic agency",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN Women, Women Count Final Phase II Annual Report: Women Count: A Proven Pathway for Change",
+  "geography": "Global gender-statistics systems, with Phase II country and regional support across Bangladesh, Cameroon, Colombia, Kenya, Morocco, Senegal, Tanzania, Uganda, and six regions",
+  "observations": [
+    {
+      "period": "2019-2026; SDG 5 data availability and measurement gap",
+      "denominator": {"value": 17, "unit": "Sustainable Development Goals and associated gender-equality monitoring system", "value_type": "global_monitoring_frame"},
+      "measures": {
+        "sdg5_status": {"value": "none of the SDG 5 indicators had been fully met; one was close to target, 10 were within reach at a moderate distance, and three were far or very far", "unit": "reported gender-equality progress assessment", "value_type": "reported_status"},
+        "data_financing_share": {"value": 13, "unit": "percent of total statistics funding allocated to gender data in 2023", "value_type": "reported_funding_share"},
+        "measurement_gap": {"value": "four SDG 5 indicators lacked sufficient data for reliable monitoring", "unit": "reported data gap", "value_type": "reported_gap"}
+      },
+      "method": "UN Women synthesis using SDG data archives, gender-statistics system assessments, programme monitoring, and national and regional implementation evidence.",
+      "uncertainty": "Indicator availability and target status depend on definitions, revisions, reporting cycles, and whether data exist at the required frequency and disaggregation; data availability is not outcome progress.",
+      "subgroup": "Women and girls, national statistical offices, ministries, civil society, policymakers, and groups whose experiences are missing from official statistics.",
+      "counterinterpretation": "Improved data can reveal problems rather than immediately solve them; policy, financing, political will, safety, and institutional capacity remain necessary for change.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/annual_report_2025.pdf",
+      "retrieval_hash": "sha256:60b5b6f447f3213813b8e492c482ccb01a390cde7fbcb082a0fe8a255aff13a7",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; scale and institutional reach of Women Count Phase II",
+      "denominator": {"value": 1, "unit": "Women Count Phase II programme", "value_type": "programme_frame"},
+      "measures": {
+        "country_support": {"value": 91, "unit": "countries supported to strengthen gender-data systems, production, policy uptake, or innovative data use", "value_type": "reported_country_count"},
+        "coordination_mechanisms": {"value": 64, "unit": "national gender-data coordination mechanisms supported", "value_type": "reported_institution_count"},
+        "trained_users": {"value": 18734, "unit": "data producers and users whose skills were strengthened through training", "value_type": "reported_participant_count"}
+      },
+      "method": "UN Women programme monitoring and final Phase II reporting across national, regional, and global partnerships.",
+      "uncertainty": "Programme reach and training counts do not establish sustained institutional capacity, equal participation, data quality, or causal policy improvement in every supported country.",
+      "subgroup": "Statisticians, policymakers, gender ministries, civil society, researchers, data users, and women and girls represented by gender-data systems.",
+      "counterinterpretation": "Coordination structures can improve continuity and accountability but may also add administrative layers or remain weak if domestic financing and political ownership decline.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/annual_report_2025.pdf",
+      "retrieval_hash": "sha256:60b5b6f447f3213813b8e492c482ccb01a390cde7fbcb082a0fe8a255aff13a7",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; care, violence, and gender-environment evidence",
+      "denominator": {"value": 1, "unit": "Women Count Phase II data-production portfolio", "value_type": "programme_portfolio_frame"},
+      "measures": {
+        "time_use_surveys": {"value": 20, "unit": "time-use surveys supported", "value_type": "reported_activity_count"},
+        "violence_surveys": {"value": 17, "unit": "dedicated violence-against-women surveys supported", "value_type": "reported_activity_count"},
+        "gender_environment_surveys": {"value": 8, "unit": "gender-environment surveys supported", "value_type": "reported_activity_count"}
+      },
+      "method": "UN Women programme reporting on gender data production for unpaid care, violence against women, climate and disasters, and environmental policy.",
+      "uncertainty": "Survey support and new standards improve measurement capacity but do not by themselves reveal prevalence in all populations, eliminate violence, or change care burdens and climate exposure.",
+      "subgroup": "Women and girls, unpaid caregivers, survivors, people exposed to climate and disaster risks, migrants, and persons with disabilities.",
+      "counterinterpretation": "Specialized surveys can improve visibility but may increase respondent burden, omit hard-to-reach groups, or fail to translate into budgets, services, protection, or accountability.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/annual_report_2025.pdf",
+      "retrieval_hash": "sha256:60b5b6f447f3213813b8e492c482ccb01a390cde7fbcb082a0fe8a255aff13a7",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; evidence-to-policy conversion",
+      "denominator": {"value": 1, "unit": "Women Count policy-use and institutional uptake frame", "value_type": "policy_conversion_frame"},
+      "measures": {
+        "policies_informed": {"value": 23, "unit": "countries where policies or laws were informed by gender data", "value_type": "reported_country_count"},
+        "national_plans_informed": {"value": 40, "unit": "countries using gender data to inform or update national development, gender-equality, social-protection, or other plans and policies", "value_type": "reported_country_count"},
+        "data_to_action_route": {"value": "gender data were used in policy, planning, budgeting, legal reform, survivor services, disaster-risk reduction, and national climate contributions in reported examples", "unit": "reported policy pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Women final-report synthesis of policy uptake, country stories, gender-responsive budgeting, national planning, and data-user/data-producer dialogue.",
+      "uncertainty": "Being informed by data does not establish that data caused a policy change, that implementation followed, or that outcomes were equitable or durable.",
+      "subgroup": "Women’s organizations, government planners, budget officials, local authorities, service providers, survivors, caregivers, and communities affected by climate or conflict.",
+      "counterinterpretation": "Policy uptake can be selective or symbolic; data may be available and cited while resource allocation, enforcement, and lived conditions remain unchanged.",
+      "source_url": "https://data.unwomen.org/sites/default/files/documents/Publications/2026/annual_report_2025.pdf",
+      "retrieval_hash": "sha256:60b5b6f447f3213813b8e492c482ccb01a390cde7fbcb082a0fe8a255aff13a7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.unwomen.org/publications/women-count-final-phase-ii-annual-report", "claim": "UN Women Data Hub landing page provides publication metadata, regional briefs, and programme overview."},
+    {"source_url": "https://www.unwomen.org/en/digital-library/publications/2025/09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2025", "claim": "UN Women Gender Snapshot provides complementary global gender-equality and SDG progress context."}
+  ],
+  "boundary": "This record adds a gender-data-to-policy route linking measurement, unpaid care, violence, environment, governance, crisis response, national statistical capacity, and accountability. It is a programme and aggregate policy-evidence synthesis, not respondent-level gender histories, prevalence estimates for every population, or proof that data-informed policy produces equal outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN Women Women Count Phase II final annual report and Data Hub page were reviewed for SDG 5 data gaps, programme reach, coordination, training, time-use, violence, gender-environment, and policy-uptake claims.",
+    "source_url_sha256": "sha256:60b5b6f447f3213813b8e492c482ccb01a390cde7fbcb082a0fe8a255aff13a7",
+    "checked": "2026-09-26"
+  }
+}

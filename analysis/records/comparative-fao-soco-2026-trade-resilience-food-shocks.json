@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-soco-2026-trade-resilience-food-shocks",
+  "title": "Food trade is more interconnected and often resilient to shocks, but conflict, weather, export restrictions, and price spikes transmit instability into food security",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "FAO, The State of Agricultural Commodity Markets 2026: Trade, resilience and food security",
+  "geography": "Global food and agricultural trade networks, commodity markets, and food-security consequences of shocks",
+  "observations": [
+    {
+      "period": "2000–2024; global food and agricultural trade",
+      "denominator": {"value": 1, "unit": "global food and agricultural trade system", "value_type": "global_trade_system_frame"},
+      "measures": {
+        "trade_growth": {"value": 5, "unit": "fold increase in food and agricultural trade between 2000 and 2024", "value_type": "reported_change"},
+        "trade_value": {"value": 2000000000000, "unit": "approximately USD 2 trillion in global food and agricultural trade", "value_type": "reported_trade_value"},
+        "integration": {"value": "Low- and middle-income countries became more integrated into global food and agricultural markets", "unit": "reported structural pattern", "value_type": "reported_pattern"}
+      },
+      "method": "FAO flagship report analysis of global commodity trade networks, shocks, policy environments, and food-security transmission mechanisms.",
+      "uncertainty": "Trade value and network integration do not show whether gains are shared, whether food is affordable to every household, or whether connectivity reduces vulnerability in every country or commodity.",
+      "subgroup": "Food-importing and exporting countries, producers, traders, processors, consumers, low-income households, and communities exposed to food-price shocks.",
+      "counterinterpretation": "Greater trade connectivity can diversify supply, lower costs, and move food to locations affected by local shocks, while also increasing exposure to cross-border disruption.",
+      "source_url": "https://www.fao.org/markets-and-trade/home/the-state-of-agricultural-commodity-markets-%28soco%29-2026---trade--resilience-and-food-security/en",
+      "retrieval_hash": "sha256:790b9dc5b65d60b564831e304ee5e0a40226dd0fc7303796fc44c8608dc26823",
+      "status": "reported"
+    },
+    {
+      "period": "2026; systemic shock exposure and trade-network resilience",
+      "denominator": {"value": 1, "unit": "global food-market shock system", "value_type": "global_risk_system_frame"},
+      "measures": {
+        "shock_set": {"value": "Food markets face exposure to extreme weather, conflict, pandemics, macroeconomic and financial disturbances, energy-price changes, and biological or technological events", "unit": "reported shock set", "value_type": "reported_risk_set"},
+        "network_buffer": {"value": "Countries able to source food from more trade partners are generally more resilient to shocks", "unit": "reported network mechanism", "value_type": "reported_mechanism"},
+        "adjustment": {"value": "Global food trade typically adjusts to shocks within months, although the path and distribution of adjustment vary", "unit": "reported adjustment pattern", "value_type": "reported_pattern"}
+      },
+      "method": "FAO analysis of trade-network structure, shock propagation, bilateral trade links, and market adjustment dynamics.",
+      "uncertainty": "General network patterns do not establish resilience for every commodity, country, or household; adjustment speed does not imply unchanged prices, nutrition, or welfare.",
+      "subgroup": "Food-import-dependent countries, trade partners, producers, consumers, logistics systems, governments, and people with limited ability to absorb price changes.",
+      "counterinterpretation": "Diversification can reduce dependence on one supplier but may also increase coordination complexity, environmental costs, and exposure to synchronized shocks.",
+      "source_url": "https://www.fao.org/markets-and-trade/home/the-state-of-agricultural-commodity-markets-%28soco%29-2026---trade--resilience-and-food-security/en",
+      "retrieval_hash": "sha256:790b9dc5b65d60b564831e304ee5e0a40226dd0fc7303796fc44c8608dc26823",
+      "status": "reported"
+    },
+    {
+      "period": "2026; export restrictions, price spikes, and food insecurity",
+      "denominator": {"value": 1, "unit": "global food-trade policy and price-transmission system", "value_type": "global_policy_market_frame"},
+      "measures": {
+        "export_restriction_transmission": {"value": "When major producers restrict exports to protect domestic markets, instability is transferred to global markets and food insecurity can increase", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "pandemic_comparison": {"value": 8, "unit": "percent of globally traded calories affected by export restrictions during the COVID-19 period, compared with 16% during the 2007–08 shock period", "value_type": "reported_comparison"},
+        "price_asymmetry": {"value": "Shock-triggered food commodity price spikes can persist and are not matched by equally strong downward price movements", "unit": "reported price mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "FAO research on export policies, bilateral trade disruption, commodity-price dynamics, and food-security consequences of shocks.",
+      "uncertainty": "The reported comparisons are period-specific and system-level; they do not estimate the household incidence of food inflation or isolate every policy and conflict channel.",
+      "subgroup": "Food-insecure households, net food-importing countries, producers, exporters, retailers, governments, and populations with low purchasing-power buffers.",
+      "counterinterpretation": "Temporary export controls can be politically attractive or protective for domestic consumers, and price persistence can reflect adjustment costs, inventories, transport, or market power rather than restriction alone.",
+      "source_url": "https://www.fao.org/markets-and-trade/home/the-state-of-agricultural-commodity-markets-%28soco%29-2026---trade--resilience-and-food-security/en",
+      "retrieval_hash": "sha256:790b9dc5b65d60b564831e304ee5e0a40226dd0fc7303796fc44c8608dc26823",
+      "status": "reported"
+    },
+    {
+      "period": "2026; food-market policy and social protection",
+      "denominator": {"value": 1, "unit": "global food-security resilience policy options", "value_type": "global_policy_option_frame"},
+      "measures": {
+        "food_stocks": {"value": "Food stocks are an important resilience tool, but large buffer stocks can be costly and fiscally unsustainable", "unit": "reported policy trade-off", "value_type": "reported_tradeoff"},
+        "targeted_reserves": {"value": "Smaller emergency reserves integrated with targeted social-protection safety nets can address food insecurity without distorting markets as much as large generalized stocks", "unit": "reported policy route", "value_type": "reported_policy_mechanism"},
+        "cooperation": {"value": "International cooperation, integrated trade networks, and supportive policy frameworks can reduce price and hunger consequences of shocks", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "FAO synthesis of trade policy, food stocks, social protection, market resilience, and international cooperation evidence.",
+      "uncertainty": "Policy options involve fiscal, distributional, political, and implementation trade-offs; the report does not show that one reserve or safety-net model works uniformly.",
+      "subgroup": "Food-insecure households, social-protection systems, food ministries, humanitarian agencies, taxpayers, producers, and market participants.",
+      "counterinterpretation": "Targeted systems may miss people, while universal stocks or subsidies can provide faster protection during crisis even if they cost more or distort incentives.",
+      "source_url": "https://www.fao.org/markets-and-trade/home/the-state-of-agricultural-commodity-markets-%28soco%29-2026---trade--resilience-and-food-security/en",
+      "retrieval_hash": "sha256:790b9dc5b65d60b564831e304ee5e0a40226dd0fc7303796fc44c8608dc26823",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026", "claim": "Complementary SOFI 2026 evidence on hunger, food insecurity, diet affordability, and nutrition disparities."},
+    {"source_url": "https://www.worldbank.org/en/research/commodity-markets", "claim": "Complementary commodity-price and market-shock monitoring context."}
+  ],
+  "boundary": "This record adds a global food-trade and shock-transmission layer linking markets, geopolitics, climate, infrastructure, prices, and social protection. It uses aggregate trade-network and policy evidence, not household food diaries, individual nutrition, causal welfare estimates, or proof that trade connectivity guarantees food security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FAO SOCO 2026 publication and FAO launch summary reviewed for trade growth, market integration, shock exposure, network diversification, export restrictions, price spikes, food stocks, social protection, and international cooperation.",
+    "source_url_sha256": "sha256:790b9dc5b65d60b564831e304ee5e0a40226dd0fc7303796fc44c8608dc26823",
+    "checked": "2026-09-26"
+  }
+}

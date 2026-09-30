@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-sustainable-finance-policy-monitor-2026-disclosure-carbon-capacity",
+  "title": "Sustainable-finance rules are expanding faster than implementation capacity, creating divergent disclosure, carbon-pricing, and compliance pathways",
+  "theme_ids": ["cost", "voice", "work", "energy"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining"
+  ],
+  "source_unit": "United Nations Trade and Development, Sustainable Finance Policy Monitor 2026: Expansion and divergence",
+  "geography": "35 economies representing 93% of global GDP; Europe, Asia-Pacific, Africa, developing economies, financial markets, firms, regulators, and carbon-intensive sectors",
+  "observations": [
+    {
+      "period": "2024-2025; global sustainable-finance policy expansion",
+      "denominator": {"value": 35, "unit": "economies tracked by UNCTAD, representing about 93% of global GDP", "value_type": "policy_monitoring_frame"},
+      "measures": {
+        "new_policies_2025": {"value": 143, "unit": "new sustainable-finance policies adopted in 2025", "value_type": "reported_policy_count"},
+        "new_policies_2024": {"value": 99, "unit": "new sustainable-finance policies adopted in 2024", "value_type": "reported_policy_count"},
+        "total_tracked_policies": {"value": 804, "unit": "sustainable-finance policies in the UNCTAD tracked database after the 2025 additions", "value_type": "reported_policy_count"},
+        "policy_direction": {"value": "the policy focus is shifting from rule-setting toward implementation, enforcement, and market-based tools", "unit": "reported policy-stage transition", "value_type": "reported_mechanism"}
+      },
+      "method": "UNCTAD inventory and comparison of sustainable-finance policies across 35 economies, including disclosure, taxonomy, carbon-market, transition-finance, and implementation measures.",
+      "uncertainty": "Policy counts do not establish enforcement, firm compliance, capital allocation, emissions reduction, consumer prices, or investor outcomes.",
+      "subgroup": "Governments, financial regulators, firms, investors, workers in carbon-intensive sectors, SMEs, households exposed to energy and transition costs, and developing economies.",
+      "counterinterpretation": "More policies can create clearer signals and mobilize capital, while policy consolidation or simplification can reduce duplication without weakening substantive goals.",
+      "source_url": "https://unctad.org/publication/sustainable-finance-policy-monitor-2026-expansion-and-divergence",
+      "retrieval_hash": "sha256:900b1586225f14bc0dadf8ef1d1bacc0a535aa7d6b57f627f7b57f947de37fe7",
+      "status": "reported"
+    },
+    {
+      "period": "2025; sustainability disclosure and information infrastructure",
+      "denominator": {"value": 143, "unit": "new sustainable-finance policies adopted across the tracked economies in 2025", "value_type": "new_policy_frame"},
+      "measures": {
+        "disclosure_measures": {"value": 63, "unit": "new sustainability-disclosure measures adopted in 2025", "value_type": "reported_policy_count"},
+        "disclosure_share": {"value": 44, "unit": "percent of new sustainable-finance policies represented by disclosure measures, approximately", "value_type": "reported_policy_share"},
+        "disclosure_vs_2024": {"value": 2, "unit": "times the number of disclosure measures introduced in 2025 compared with 2024, more than", "value_type": "reported_change"},
+        "implementation_constraints": {"value": "high compliance costs, sustainability-data gaps, and limited technical capacity can hinder implementation, particularly in developing economies", "unit": "reported constraint set", "value_type": "reported_constraint_set"}
+      },
+      "method": "UNCTAD analysis of policy types, sustainability-reporting standards, data requirements, and implementation conditions across the monitored economies.",
+      "uncertainty": "Disclosure rules improve information availability only if firms can measure, report, and verify data; reporting volume does not prove comparability, credibility, financing access, or real-world sustainability improvement.",
+      "subgroup": "Large firms, SMEs, auditors, regulators, investors, supply-chain partners, workers, and developing-country enterprises with limited reporting infrastructure.",
+      "counterinterpretation": "Standardized disclosure can reduce information asymmetry, support market access, and reward better performers; phased or proportional requirements may limit burdens on smaller firms.",
+      "source_url": "https://unctad.org/publication/sustainable-finance-policy-monitor-2026-expansion-and-divergence",
+      "retrieval_hash": "sha256:900b1586225f14bc0dadf8ef1d1bacc0a535aa7d6b57f627f7b57f947de37fe7",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional divergence in sustainable-finance policy",
+      "denominator": {"value": 143, "unit": "new sustainable-finance policies across the tracked economies in 2025", "value_type": "regional_policy_frame"},
+      "measures": {
+        "europe_new_measures": {"value": 52, "unit": "new sustainable-finance measures introduced by European jurisdictions in 2025", "value_type": "reported_policy_count"},
+        "asia_pacific_new_measures": {"value": 40, "unit": "new sustainable-finance measures introduced by Asia-Pacific economies in 2025", "value_type": "reported_policy_count"},
+        "africa_tracked_new_measures": {"value": 20, "unit": "new measures introduced by the four African economies tracked in 2025", "value_type": "reported_policy_count"},
+        "regional_divergence": {"value": "regions are combining disclosure frameworks, taxonomies, carbon markets, implementation, and regulatory simplification in different sequences", "unit": "reported policy divergence", "value_type": "reported_mechanism"}
+      },
+      "method": "UNCTAD regional comparison of new policy measures and implementation orientation across Europe, Asia-Pacific, and selected African economies.",
+      "uncertainty": "The number of measures is not a measure of ambition, stringency, enforcement, capital mobilization, or climate performance; regional counts are not directly comparable in institutional scope.",
+      "subgroup": "Regional regulators, firms operating across borders, investors, SMEs, workers, governments, and countries seeking compatible access to sustainable-finance markets.",
+      "counterinterpretation": "Regulatory diversity can reflect legitimate national priorities and experimentation; compatibility does not require identical rules if equivalence and transition support are credible.",
+      "source_url": "https://unctad.org/publication/sustainable-finance-policy-monitor-2026-expansion-and-divergence",
+      "retrieval_hash": "sha256:900b1586225f14bc0dadf8ef1d1bacc0a535aa7d6b57f627f7b57f947de37fe7",
+      "status": "reported"
+    },
+    {
+      "period": "2025; carbon pricing and transition-finance implementation",
+      "denominator": {"value": 143, "unit": "new sustainable-finance policies across the tracked economies in 2025", "value_type": "carbon_policy_frame"},
+      "measures": {
+        "carbon_pricing_policies": {"value": 18, "unit": "new carbon-pricing policies adopted in 2025", "value_type": "reported_policy_count"},
+        "carbon_pricing_share": {"value": 12.5, "unit": "percent of new sustainable-finance policies represented by carbon-pricing measures, more than one in eight", "value_type": "reported_policy_share"},
+        "china_ets_expansion_entities": {"value": 1500, "unit": "entities added to China's emissions-trading system through cement, steel, and aluminium coverage, approximately", "value_type": "reported_coverage_count"},
+        "china_ets_expansion_emissions": {"value": 3000000000, "unit": "tonnes of additional emissions covered by China's expanded emissions-trading system, approximately", "value_type": "reported_coverage_total"},
+        "implementation_challenge": {"value": "developing economies face high compliance costs, data and finance gaps, regulatory fragmentation, and limited implementation capacity", "unit": "reported transition constraint set", "value_type": "reported_constraint_set"}
+      },
+      "method": "UNCTAD analysis of carbon-pricing measures, emissions-trading expansion, transition-finance policy, and implementation barriers.",
+      "uncertainty": "Policy adoption and covered emissions do not establish actual allowance prices, emissions reductions, firm adaptation, worker transition, household incidence, or additional finance.",
+      "subgroup": "Carbon-intensive firms, utilities, workers, regulators, investors, SMEs in supply chains, households exposed to energy prices, and developing economies seeking transition finance.",
+      "counterinterpretation": "Carbon pricing can stimulate innovation and revenue for transition support, while transitional exemptions or assistance may prevent abrupt hardship; design determines distributional effects.",
+      "source_url": "https://unctad.org/publication/sustainable-finance-policy-monitor-2026-expansion-and-divergence",
+      "retrieval_hash": "sha256:900b1586225f14bc0dadf8ef1d1bacc0a535aa7d6b57f627f7b57f947de37fe7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/topic/enterprise-development/international-standards-of-accounting-and-reporting", "claim": "UNCTAD ISAR context on sustainability reporting, comparability, corporate transparency, and capacity-building."},
+    {"source_url": "https://unctad.org/publication/sustainable-finance-policy-monitor-2026-expansion-and-divergence", "claim": "Official publication page with key points, date, policy counts, regional divergence, and implementation constraints."}
+  ],
+  "boundary": "This record adds a sustainable-finance route from policy expansion through disclosure infrastructure, regional divergence, carbon pricing, firm compliance, and developing-country implementation capacity. It is publication-level policy evidence, not firm-level causal analysis, respondent data, verified emissions reductions, household incidence, or proof that disclosure produces sustainable investment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD Sustainable Finance Policy Monitor 2026 publication page and ISAR context page were reviewed; policy counts, disclosure share, regional measures, carbon-pricing measures, emissions-trading expansion, and implementation constraints were cross-checked.",
+    "source_url_sha256": "sha256:900b1586225f14bc0dadf8ef1d1bacc0a535aa7d6b57f627f7b57f947de37fe7",
+    "checked": "2026-09-26"
+  }
+}

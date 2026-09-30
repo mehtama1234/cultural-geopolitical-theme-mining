@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy",
+  "title": "Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Ipsos, LGBT+ Pride Report 2026 / Global Advisor",
+  "geography": "26 countries and markets; 23-country trend comparisons for selected questions",
+  "observations": [
+    {
+      "period": "April 24–May 8, 2026; 26 countries and markets",
+      "denominator": {"value": 19019, "unit": "adults surveyed through Ipsos Global Advisor; age ranges vary by country", "value_type": "reported_sample"},
+      "measures": {
+        "brand_lgbt_equality_support": {"value": 42, "unit": "percent across 23 markets supporting companies and brands actively promoting LGBT equality", "value_type": "reported_share"},
+        "brand_support_2025": {"value": 41, "unit": "percent in the prior year across the comparable 23-country average", "value_type": "reported_share"},
+        "brand_support_2021": {"value": 49, "unit": "percent in 2021 across the comparable 23-country average", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor online survey with comparable 23-market trend series for support for corporate and brand promotion of LGBT equality.",
+      "uncertainty": "The average is not population-weighted and brand advocacy support may reflect country, political, product-category and wording differences; it is not a direct measure of purchase behavior.",
+      "subgroup": "Adults aged 16–74 or older depending on country, including the United States, Canada, Ireland, South Africa, Türkiye, Thailand and Singapore with country-specific age frames.",
+      "counterinterpretation": "The decline from 2021 may reflect lower appetite for corporate political messaging rather than lower support for LGBT rights themselves.",
+      "source_url": "https://www.ipsos.com/en/ipsos-pride-report-2026",
+      "retrieval_hash": "sha256:00b6590d2df04214458df6db636e66b055a65ee9927e4ea220675f8783b6f62e",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2026; support for transgender athletes in 23 comparable countries",
+      "denominator": {"value": 23, "unit": "countries and markets in the comparable trend average", "value_type": "reported_population"},
+      "measures": {
+        "trans_athlete_support_2026": {"value": 22, "unit": "percent supporting transgender athletes competing based on gender identity", "value_type": "reported_share"},
+        "trans_athlete_support_2021": {"value": 32, "unit": "percent in 2021", "value_type": "reported_share"},
+        "support_change": {"value": -10, "unit": "percentage-point change from 2021 to 2026", "value_type": "reported_difference"},
+        "policy_divergence": {"value": "Opposition is the dominant view in almost all countries, including historically supportive ones, while most respondents still agree transgender people face discrimination", "unit": "reported comparative pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated cross-national public-opinion question on transgender athletic participation and related discrimination perceptions.",
+      "uncertainty": "The measure captures policy attitudes, not actual participation rules, athletic outcomes or lived discrimination; trend comparisons can be affected by political salience and question context.",
+      "subgroup": "Adults in 23 comparable countries and markets, with variation by country and demographic group.",
+      "counterinterpretation": "A decline in support for one contested policy can coexist with stable or improving acceptance in other domains; it should not be treated as a complete measure of LGBT inclusion.",
+      "source_url": "https://www.ipsos.com/en/ipsos-pride-report-2026",
+      "retrieval_hash": "sha256:00b6590d2df04214458df6db636e66b055a65ee9927e4ea220675f8783b6f62e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; support for LGBT representation in television, film and advertising",
+      "denominator": {"value": 23, "unit": "countries and markets in the comparable representation average", "value_type": "reported_population"},
+      "measures": {
+        "more_lgbt_media_representation_support": {"value": 30, "unit": "percent supporting more LGBT representation in TV, films and advertising", "value_type": "reported_share"},
+        "more_lgbt_media_representation_opposition": {"value": 29, "unit": "percent opposing more LGBT representation", "value_type": "reported_share"},
+        "country_range": {"value": "Support ranges from 59% in Thailand to 14% in South Korea", "unit": "reported country range", "value_type": "reported_distribution"}
+      },
+      "method": "Cross-national survey comparison of cultural and commercial representation preferences.",
+      "uncertainty": "Support for more representation is not equivalent to representation quality, audience reach, commercial response or institutional inclusion; country averages conceal within-country polarization.",
+      "subgroup": "Adults in 23 comparable countries and markets.",
+      "counterinterpretation": "The near-even global split may indicate contested visibility norms rather than a simple global backlash or consensus.",
+      "source_url": "https://www.ipsos.com/en/ipsos-pride-report-2026",
+      "retrieval_hash": "sha256:00b6590d2df04214458df6db636e66b055a65ee9927e4ea220675f8783b6f62e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; same-sex marriage or legal recognition across 26 countries and markets",
+      "denominator": {"value": 26, "unit": "countries and markets in the Ipsos Pride 2026 survey", "value_type": "reported_population"},
+      "measures": {
+        "same_sex_marriage_support": {"value": 66, "unit": "percent supporting same-sex marriage or legal recognition across the 26-country survey", "value_type": "reported_share"},
+        "highest_country_support": {"value": "Netherlands and Spain 85%", "unit": "reported country examples", "value_type": "reported_distribution"},
+        "lowest_country_support": {"value": "Türkiye 32%", "unit": "reported country example", "value_type": "reported_distribution"},
+        "institutional_acceptance_pattern": {"value": "Marriage recognition retains broader support than several contested policy and representation questions", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-national survey of support for same-sex marriage or legal recognition, with country comparisons.",
+      "uncertainty": "Legal-recognition attitudes do not directly measure implementation, private acceptance, safety or support for other LGBT policy domains; averages are not population-weighted.",
+      "subgroup": "Adults surveyed in 26 countries and markets with country-specific age frames.",
+      "counterinterpretation": "Stable support for legal recognition may coexist with resistance to visibility, corporate advocacy or gender-policy changes because these activate different cultural and institutional judgments.",
+      "source_url": "https://www.ipsos.com/en/ipsos-pride-report-2026",
+      "retrieval_hash": "sha256:00b6590d2df04214458df6db636e66b055a65ee9927e4ea220675f8783b6f62e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/global-opinion-polls/pride", "claim": "Ipsos Pride 2026 topic page with same-sex marriage, media representation and policy findings."},
+    {"source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/ipsos-lgbt-plus-pride-surey-report-2026.pdf", "claim": "Official Ipsos Pride 2026 report PDF used for retrieval verification and hash."}
+  ],
+  "boundary": "This record adds a cultural-legitimacy mechanism: broad legal recognition remains supported while corporate advocacy, media visibility and contested gender-policy questions show weaker or more polarized support. It is a cross-national public-opinion survey, not a behavioral purchase dataset, legal implementation audit, population-weighted global estimate or measure of lived safety and discrimination.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Pride 2026 report page, topic page and downloadable survey PDF were retrieved and reviewed for sample, brand advocacy, trans-athlete policy, media representation and same-sex marriage findings; the PDF was hashed.",
+    "source_url_sha256": "sha256:00b6590d2df04214458df6db636e66b055a65ee9927e4ea220675f8783b6f62e",
+    "checked": "2026-09-27"
+  }
+}

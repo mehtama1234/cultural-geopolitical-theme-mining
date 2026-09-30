@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg14-2026-ocean-governance-fisheries-coastal-livelihoods",
+  "title": "Ocean governance is advancing while heat, acidification, fishing pressure, and coastal livelihood dependence intensify",
+  "theme_ids": ["cost", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 14: Life Below Water",
+  "geography": "Global ocean, marine ecosystems, fisheries, coastal economies, and ocean-governance systems",
+  "observations": [
+    {
+      "period": "2025-2026; ocean governance and protection",
+      "denominator": {"value": 1, "unit": "global ocean governance and marine protection frame", "value_type": "global_ocean_frame"},
+      "measures": {
+        "ocean_protection": {"value": 10.01, "unit": "percent of the ocean designated as protected or conserved in April 2026", "value_type": "reported_share"},
+        "bbnj_coverage": {"value": 67, "unit": "percent of the ocean outside national jurisdiction covered by the BBNJ Agreement framework", "value_type": "reported_share"},
+        "bbnj_parties_june_2026": {"value": 89, "unit": "countries party to the BBNJ Agreement as of 1 June 2026", "value_type": "reported_count"},
+        "high_seas_protection": {"value": 1.66, "unit": "percent of areas beyond national jurisdiction covered by protection", "value_type": "reported_share"}
+      },
+      "method": "UN SDG indicator and policy synthesis covering marine protected areas, the BBNJ Agreement, global ocean coverage, and international governance.",
+      "uncertainty": "Protected-area designation does not establish effective management, ecological recovery, enforcement, or community consent; treaty participation and coverage measures describe legal architecture rather than realized outcomes.",
+      "subgroup": "Coastal and small-island states, Indigenous and local communities, marine ecosystems, fisheries, shipping, tourism, and ocean-governance institutions.",
+      "counterinterpretation": "Recent treaties and protection milestones can create durable coordination and benefit-sharing infrastructure even when implementation is delayed or uneven.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-14/",
+      "retrieval_hash": "sha256:1509b15a9198ac392f5d10e7927d642ad25763ca7492bdd7a8f9aed6dc9ecb3f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; ocean heat, carbon buffering, and acidification",
+      "denominator": {"value": 1, "unit": "global ocean climate and chemistry indicators", "value_type": "ocean_climate_frame"},
+      "measures": {
+        "record_ocean_heat": {"value": 9, "unit": "consecutive years through 2025 in which ocean heat content reached a record high", "value_type": "reported_count"},
+        "ocean_co2_absorption": {"value": 29, "unit": "percent of global CO2 emissions absorbed by the ocean", "value_type": "reported_share"},
+        "surface_ph_change": {"value": 8.04, "unit": "global average surface ocean pH in the recent assessment, down from 8.11 four decades earlier", "value_type": "reported_measure"},
+        "monitoring_countries": {"value": 45, "unit": "countries reporting ocean-acidity data in the 2026 assessment", "value_type": "reported_count"}
+      },
+      "method": "UN SDG synthesis of ocean heat, carbon uptake, marine acidity, and national monitoring data.",
+      "uncertainty": "Global averages conceal strong regional variation and sparse time series; monitoring expansion improves visibility but does not itself establish ecosystem or livelihood effects.",
+      "subgroup": "Marine ecosystems, coastal populations, fisheries, tourism, climate-vulnerable communities, and countries with different observation capacity.",
+      "counterinterpretation": "The ocean’s carbon-buffering function remains essential, and improved observation can support adaptation and mitigation even as heat and acidification create escalating risks.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-14/",
+      "retrieval_hash": "sha256:1509b15a9198ac392f5d10e7927d642ad25763ca7492bdd7a8f9aed6dc9ecb3f",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2025; fisheries sustainability and food security",
+      "denominator": {"value": 1, "unit": "assessed global marine fish stocks and ocean catch", "value_type": "fisheries_frame"},
+      "measures": {
+        "overfished_stocks": {"value": 35.5, "unit": "percent of assessed fish stocks classified as overfished in the latest 2021 global assessment", "value_type": "reported_share"},
+        "biologically_sustainable_stocks": {"value": 64.5, "unit": "percent of assessed fish stocks within biologically sustainable levels in 2021", "value_type": "reported_share"},
+        "sustainable_catch_share": {"value": 77.2, "unit": "percent of world ocean catch coming from biologically sustainable stocks in 2021", "value_type": "reported_share"},
+        "sustainable_stock_decline": {"value": 2, "unit": "percentage-point slowing in the decline of sustainable fish stocks over the six years to the latest assessment", "value_type": "reported_change"}
+      },
+      "method": "UN SDG synthesis of global fish-stock assessments, catch composition, and fisheries-management trends.",
+      "uncertainty": "Only assessed stocks are included, with uneven monitoring; stock sustainability does not directly measure food access, fisher income, labor conditions, or distribution of catch benefits.",
+      "subgroup": "Fishers, aquaculture and fisheries workers, coastal communities, consumers, food systems, and countries with different management capacity.",
+      "counterinterpretation": "Science-based management and stock rebuilding can work, but regional gaps, illegal fishing, pollution, climate variability, and harmful subsidies can reverse gains.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-14/",
+      "retrieval_hash": "sha256:1509b15a9198ac392f5d10e7927d642ad25763ca7492bdd7a8f9aed6dc9ecb3f",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2023; fisheries-dependent economies and value",
+      "denominator": {"value": 58500000, "unit": "global fisheries and aquaculture workers referenced by the assessment", "value_type": "livelihood_frame"},
+      "measures": {
+        "fisheries_workers": {"value": 58.5, "unit": "millions of fisheries and aquaculture workers", "value_type": "reported_estimate"},
+        "fisheries_aquaculture_value": {"value": 175, "unit": "billion US dollars in combined fisheries and aquaculture value", "value_type": "reported_value"},
+        "sustainable_fisheries_gdp_2023": {"value": 0.08, "unit": "percent of global GDP represented by sustainable fisheries in 2023", "value_type": "reported_share"},
+        "sustainable_fisheries_gdp_change": {"value": -7, "unit": "percent decline in sustainable fisheries' GDP share since 2021", "value_type": "reported_change"}
+      },
+      "method": "UN SDG comparison of fisheries employment, sector value, sustainable-fisheries GDP share, and regional economic dependence.",
+      "uncertainty": "GDP share can decline because other sectors grow even if fisheries value rises; aggregate value does not describe fisher earnings, informal work, food affordability, or distributional effects.",
+      "subgroup": "Fisheries and aquaculture workers, small-scale fishers, small-island developing states, least developed countries, coastal households, and seafood consumers.",
+      "counterinterpretation": "A falling GDP share does not necessarily mean fisheries are shrinking in absolute terms, but it can signal vulnerability where the sector remains a critical livelihood and food source.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-14/",
+      "retrieval_hash": "sha256:1509b15a9198ac392f5d10e7927d642ad25763ca7492bdd7a8f9aed6dc9ecb3f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/", "claim": "UN SDG 15 provides complementary land-biodiversity and forest evidence."},
+    {"source_url": "https://www.unep.org/resources/global-environment-outlook-7", "claim": "UNEP GEO-7 provides complementary integrated planetary-health and scenario analysis."}
+  ],
+  "boundary": "This record adds an ocean-governance-to-coastal-livelihoods route linking marine treaties, protection, heat, acidification, fisheries sustainability, food security, and dependent work. It uses global SDG indicators and aggregate sector evidence, not individual fisher histories, local coastal sentiment, causal treaty effects, or proof that protected-area designation produces recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 14 page was reviewed for BBNJ and WTO fisheries-governance milestones, marine protection, ocean heat and pH, monitoring coverage, fish stocks, fisheries value, and livelihood figures.",
+    "source_url_sha256": "sha256:1509b15a9198ac392f5d10e7927d642ad25763ca7492bdd7a8f9aed6dc9ecb3f",
+    "checked": "2026-09-26"
+  }
+}

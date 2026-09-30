@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-disability-accessibility-digital-consumer-barriers-2022-2024",
+  "title": "Digital access is a practical consumer and civic bottleneck for Canadians with disabilities",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Statistics Canada Barriers to Accessibility in Canada: Communication and Internet Use, 2022, with 2024 Survey Series on Accessibility technology measures",
+  "geography": "Canada; persons aged 15 years and older with disabilities or long-term conditions",
+  "observations": [
+    {
+      "period": "2022; communication and Internet-use accessibility barriers",
+      "denominator": {"value": 8000000, "unit": "Canadians aged 15 years and older with one or more disabilities, approximate published population frame", "value_type": "published_population_estimate"},
+      "measures": {
+        "communication_barriers": {"value": 48, "unit": "percent experiencing communication barriers at least sometimes in the previous 12 months", "value_type": "reported_survey_share"},
+        "internet_use_barriers": {"value": 17, "unit": "percent experiencing Internet-use barriers at least sometimes in the previous 12 months", "value_type": "reported_survey_share"},
+        "government_online_barrier": {"value": 13, "unit": "percent experiencing barriers accessing government information, services, or supports online", "value_type": "reported_survey_share"},
+        "booking_online_barrier": {"value": 11, "unit": "percent experiencing barriers booking appointments, services, or reservations online", "value_type": "reported_survey_share"},
+        "banking_shopping_online_barrier": {"value": 9, "unit": "percent experiencing barriers while banking or shopping online", "value_type": "reported_survey_share"},
+        "severity_gradient": {"value": "Internet-use barriers: 28% among people with very severe disabilities versus 9% among people with mild disabilities; 47% among people with four or more disability types versus 8% with one", "unit": "reported subgroup shares", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Digital access is not only a communications issue: it is a gate into public services, appointments, banking, shopping, consumer remedy, and civic participation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Canada’s 2022 Canadian Survey on Disability release; respondents reporting barriers sometimes, often, or always are classified as experiencing a barrier at least sometimes.",
+      "uncertainty": "The barriers are self-reported and cover selected situations rather than all accessibility barriers. This is cross-sectional evidence and does not establish service failure, financial loss, consumer exit, or causal effects of disability severity.",
+      "subgroup": "Canadians aged 15 years and older with one or more disabilities, compared across severity, number of disability types, income, age, and selected identity groups.",
+      "counterinterpretation": "A reported barrier may be intermittent or overcome through assistance, alternate channels, or adaptation; a low percentage does not mean an accessible or equitable service system.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250324/dq250324b-eng.htm",
+      "retrieval_hash": "sha256:b9edaa16f8f42b7bddc4f313bf0a0e9be7c7c13d2d911e0dae288252c958d903",
+      "status": "reported"
+    },
+    {
+      "period": "2024; technology-device and online communication barriers among persons with disabilities or long-term conditions",
+      "denominator": {"value": null, "unit": "Canadian persons with disabilities or long-term conditions participating in the 2024 Survey Series on Accessibility – Experiences with Accessibility and Information and Communication Technology", "value_type": "not_disclosed"},
+      "measures": {
+        "device_difficulty": {"value": 46, "unit": "percent experiencing difficulty using a technological device such as a smartphone or laptop during the preceding three months", "value_type": "reported_survey_share"},
+        "cellphone_barrier": {"value": 29, "unit": "percent experiencing a cellphone-use barrier during the preceding three months", "value_type": "reported_survey_share"},
+        "online_communication_barrier": {"value": 25, "unit": "percent experiencing a barrier while performing communication-related activities online", "value_type": "reported_survey_share"},
+        "online_support_barrier": {"value": 10, "unit": "percent reporting difficulty accessing support services through communication-related tools", "value_type": "reported_survey_share"},
+        "online_time_limit_barrier": {"value": 9, "unit": "percent reporting time limits to complete actions on communication-related tools", "value_type": "reported_survey_share"},
+        "mechanism": {"value": "The practical bottleneck can occur inside ordinary interfaces—installation, touchscreens, adjustable settings, support access, and time limits—so nominal digital availability is not equivalent to usable access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Canada’s 2024 Survey Series on Accessibility – Experiences with Accessibility and Information and Communication Technology measures as summarized in the official release.",
+      "uncertainty": "The SSA-EAICT is a cross-sectional probability-panel survey of people identified through the 2022 CSD, with low cumulative response rate and possible non-response bias. Measures refer to barriers experienced because of a condition and do not quantify unsuccessful transactions, costs, complaint outcomes, or remedy.",
+      "subgroup": "Canadian persons with disabilities or long-term conditions identified under the 2024 survey’s condition framework.",
+      "counterinterpretation": "Technology barriers may be mitigated by assistive devices, help from others, alternate channels, or provider accommodation; the measures do not show whether a person completed a task or exited a service.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250324/dq250324b-eng.htm",
+      "retrieval_hash": "sha256:b9edaa16f8f42b7bddc4f313bf0a0e9be7c7c13d2d911e0dae288252c958d903",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/pub/89-654-x/89-654-x2025003-eng.htm", "claim": "Statistics Canada detailed communication-barrier report from the 2022 Canadian Survey on Disability."},
+    {"source_url": "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3251", "claim": "Canadian Survey on Disability program and methodological route."},
+    {"source_url": "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5347", "claim": "Survey Series on Accessibility – Experiences with Accessibility and Information and Communication Technology program and cross-sectional probability-panel caveats."},
+    {"source_url": "https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2025011-eng.htm", "claim": "Statistics Canada infographic route for technology-related barriers faced by persons with disabilities or long-term conditions in 2024."}
+  ],
+  "boundary": "This record adds an accessibility-to-consumer/civic-access layer. It does not establish digital exclusion as a universal condition, transaction failure, lost income, service-remedy performance, cultural participation, or causal effects; 2022 CSD and 2024 SSA-EAICT are distinct cross-sectional frames.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada release reviewed for 2022 communication and Internet-use barriers, severity and income gradients, online government/booking/banking/shopping situations, and 2024 device and online-communication barriers; survey design and non-response cautions retained.",
+    "html_sha256": "sha256:b9edaa16f8f42b7bddc4f313bf0a0e9be7c7c13d2d911e0dae288252c958d903",
+    "checked": "2026-09-30"
+  }
+}

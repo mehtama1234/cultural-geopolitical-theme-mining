@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-ageing-migrant-workers-gulf-social-protection-portability-2026",
+  "title": "Migration systems built around return are confronting ageing, multigenerational settlement, and cross-border social-protection gaps",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": ["housing_place_mobility", "care_health_reproduction", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback", "work_control_bargaining", "geopolitical_state_consequences"],
+  "source_unit": "ILO STREAM, Old-age security in the South Asia–Gulf migration corridor: policy challenges and opportunities, and accompanying ILO article",
+  "geography": "South Asia–Gulf Cooperation Council migration corridor, focused on lower- and middle-income Indian migrant families with long residence in the United Arab Emirates",
+  "observations": [
+    {
+      "period": "2026; long-term migrant ageing and the end of temporary-migration assumptions",
+      "denominator": {"value": 1, "unit": "ILO STREAM research paper focused on long-term Indian migrant families in the UAE", "value_type": "reported_case_frame"},
+      "measures": {
+        "migration_duration": {"value": "many migrant workers spend decades in the Gulf and some families have children and grandchildren born and raised there", "unit": "reported life-course pattern", "value_type": "reported_demographic_pattern"},
+        "policy_mismatch": {"value": "migration and social-protection systems built around eventual return increasingly struggle to fit long-term and multigenerational lives in the destination", "unit": "reported institutional mismatch", "value_type": "reported_policy_diagnosis"},
+        "life_course": {"value": "retirement, care, housing, residency and family continuity become part of migration policy rather than a separate post-migration issue", "unit": "reported policy reframing", "value_type": "reported_policy_reframing"}
+      },
+      "method": "Independent research paper invited within the ILO STREAM Voices and Insights series, drawing on more than a decade of research with migrant families; it is a focused qualitative and policy analysis, not a population prevalence study.",
+      "uncertainty": "The paper focuses on Indian families in the UAE and does not establish how common the same arrangements are across all nationalities, occupations, Gulf states, or income groups.",
+      "subgroup": "Long-term and lower- or middle-income migrant workers, retirees, adult children, multigenerational families, women and dependants, employers, origin-country communities, and destination-country institutions.",
+      "counterinterpretation": "Some workers may prefer return migration or maintain viable transnational family strategies; long residence does not by itself imply a right or desire to settle permanently in the destination.",
+      "source_url": "https://www.ilo.org/resource/article/ageing-migrant-populations-require-new-approaches-social-protection",
+      "retrieval_hash": "sha256:940b763b67f86ec434c3c45e9e480005a7041d9f17b48fbd17b06a9eeccd0b7b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; retirement income security for long-term migrant workers",
+      "denominator": {"value": 1, "unit": "ILO paper’s retirement-security analysis for lower- and middle-income Indian migrant families in the UAE", "value_type": "reported_policy_case"},
+      "measures": {
+        "income_sources": {"value": "many workers rely on end-of-service indemnity, personal savings and family support rather than comprehensive pension systems", "unit": "reported retirement-income pattern", "value_type": "reported_household_strategy"},
+        "adequacy_risk": {"value": "the paper describes these sources as limited, unpredictable, or inadequate for long-term retirement security", "unit": "reported adequacy diagnosis", "value_type": "reported_security_gap"},
+        "cross_border_gap": {"value": "protection gaps arise across destination and origin systems when contributions, employment histories, or benefits do not travel with the worker", "unit": "reported portability mechanism", "value_type": "reported_portability_gap"}
+      },
+      "method": "Research and policy synthesis centered on migrant-family experiences and institutional arrangements; no representative income-replacement estimate is claimed here.",
+      "uncertainty": "The source does not produce a harmonized national measure of retirement adequacy, contribution histories, household wealth, or the relative importance of savings, indemnity, pensions, remittances, and family support.",
+      "subgroup": "Lower-paid and less-protected workers, workers with interrupted employment, women and dependants, older migrants, families supporting retirees, and workers outside bilateral social-security agreements.",
+      "counterinterpretation": "End-of-service payments and private savings may provide meaningful security for some households, and family support can function as a chosen social institution rather than only a failed public pension substitute.",
+      "source_url": "https://www.ilo.org/resource/article/ageing-migrant-populations-require-new-approaches-social-protection",
+      "retrieval_hash": "sha256:940b763b67f86ec434c3c45e9e480005a7041d9f17b48fbd17b06a9eeccd0b7b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; retirement healthcare, housing, and residency security",
+      "denominator": {"value": 1, "unit": "ILO paper’s later-life security analysis for long-term migrant residents in the Gulf", "value_type": "reported_life_course_case"},
+      "measures": {
+        "healthcare": {"value": "affordable and comprehensive healthcare becomes harder to access after retirement, especially when employer-provided coverage ends", "unit": "reported access risk", "value_type": "reported_healthcare_gap"},
+        "housing": {"value": "housing and care costs can make ageing in the Gulf financially difficult for lower-income retirees", "unit": "reported later-life cost pressure", "value_type": "reported_housing_cost_risk"},
+        "residency": {"value": "visa extensions and residence pathways may depend on income, savings, property, or family sponsorship, making residential security conditional", "unit": "reported residence constraint", "value_type": "reported_residency_constraint"},
+        "family_continuity": {"value": "return-oriented systems become less viable when families and adult children have established long-term lives in the Gulf", "unit": "reported family-mobility mechanism", "value_type": "reported_family_continuity_issue"}
+      },
+      "method": "Focused policy and family-life-course analysis; the source does not estimate post-retirement healthcare use, eviction, visa denial, or return rates at population scale.",
+      "uncertainty": "Healthcare, housing and residence rules vary by country, visa category, employer, income, family composition and individual health; the source does not offer a uniform Gulf-wide outcome estimate.",
+      "subgroup": "Older migrant workers, spouses, adult children born or raised in the Gulf, lower-income retirees, people with chronic illness, renters, and families without secure residence status.",
+      "counterinterpretation": "Some retirees may have sufficient savings, property, family sponsorship, or return options; staying in the Gulf is not necessarily the preferred or safest outcome for every household.",
+      "source_url": "https://www.ilo.org/resource/article/ageing-migrant-populations-require-new-approaches-social-protection",
+      "retrieval_hash": "sha256:940b763b67f86ec434c3c45e9e480005a7041d9f17b48fbd17b06a9eeccd0b7b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy responses to long-term migration and ageing",
+      "denominator": {"value": 1, "unit": "ILO STREAM policy-response set for the South Asia–GCC corridor", "value_type": "reported_policy_option_set"},
+      "measures": {
+        "proposed_protection": {"value": "the paper calls for approaches that move beyond return-oriented models toward income security, affordable healthcare, housing, secure residence, and portable social protection", "unit": "reported reform direction", "value_type": "reported_policy_direction"},
+        "financing": {"value": "a contributory social-protection fund is identified as one possible route to strengthen later-life security", "unit": "reported policy option", "value_type": "reported_financing_option"},
+        "coordination": {"value": "destination and origin countries need stronger coordination because workers’ lives, contributions, families, care needs, and retirement decisions cross borders", "unit": "reported governance requirement", "value_type": "reported_cross_border_governance"},
+        "programme_scope": {"value": "the STREAM programme aims to expand inclusive, gender-responsive, rights-based social protection for migrant workers and families across the corridor", "unit": "reported programme mandate", "value_type": "reported_programme_scope"}
+      },
+      "method": "Policy recommendations from an independent research paper within an ILO-supported programme; they are not adopted reforms or impact findings.",
+      "uncertainty": "The source does not establish fiscal feasibility, political adoption, contribution rates, benefit adequacy, portability administration, or whether the proposed reforms would change later-life outcomes.",
+      "subgroup": "Origin and destination governments, migrant workers, employers, social-protection agencies, health and housing providers, families, trade unions, and cross-border administrative institutions.",
+      "counterinterpretation": "A new cross-border fund or residence route could create contribution burdens, new eligibility exclusions, administrative complexity, or political resistance while leaving informal and undocumented workers outside coverage.",
+      "source_url": "https://www.ilo.org/resource/article/ageing-migrant-populations-require-new-approaches-social-protection",
+      "retrieval_hash": "sha256:940b763b67f86ec434c3c45e9e480005a7041d9f17b48fbd17b06a9eeccd0b7b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Old-age-security-in-the-South-AsiaGulf/995712606502676?institution=41ILO_INST&recordUsage=false&skipUsageReporting=true", "claim": "Official ILO research-repository record for the 2026 paper and abstract."},
+    {"source_url": "https://india.un.org/en/322053-ageing-migrant-populations-require-new-approaches-social-protection", "claim": "UN India republication of the ILO article summarizing the retirement-income, healthcare, housing, residence and portability gaps."}
+  ],
+  "boundary": "This record adds a migration life-course and social-protection portability route: temporary labour migration can become long-term residence and multigenerational family life, exposing gaps in retirement income, healthcare, housing, residency and cross-border benefit continuity. It is a focused qualitative research and policy synthesis centred on Indian families in the UAE, not representative Gulf-wide prevalence, causal evidence, a complete pension account, or proof that proposed reforms have been adopted or would work.",
+  "retrieval_hash": "sha256:940b763b67f86ec434c3c45e9e480005a7041d9f17b48fbd17b06a9eeccd0b7b"
+}

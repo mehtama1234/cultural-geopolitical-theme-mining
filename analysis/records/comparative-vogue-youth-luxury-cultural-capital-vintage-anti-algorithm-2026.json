@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-vogue-youth-luxury-cultural-capital-vintage-anti-algorithm-2026",
+  "title": "Youth cultural capital is moving from polished luxury ownership toward imperfect, subcultural and anti-algorithm distinction",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Vogue Business, Has Luxury Lost its Hold on Youth Culture?, September 29, 2026",
+  "geography": "Global fashion and luxury culture with discussion of Gen Z, U.S. luxury purchasing forecasts, and examples from Milan, London and major luxury brands",
+  "observations": [
+    {
+      "period": "September 2026; youth fashion and luxury cultural codes",
+      "denominator": {"value": 1, "unit": "Vogue Business industry-journalism synthesis of runway, brand and cultural commentary", "value_type": "published_qualitative_frame"},
+      "measures": {
+        "aesthetic_shift": {"value": "The article describes a move from luxury polish and quiet luxury toward messy, imperfect, subcultural, ironic and visibly worn or mismatched aesthetics", "unit": "reported cultural synthesis", "value_type": "reported_pattern"},
+        "alternative_value": {"value": "Vintage-market and IYKYK finds are described as providing cultural capital that can exceed the meaning of a pricey new luxury purchase for some Gen Z consumers", "unit": "reported cultural interpretation", "value_type": "reported_interpretation"},
+        "mechanism": {"value": "Status is shifting from owning an obvious premium object toward demonstrating taste, discovery, irony, scene membership and distance from mass-coded aspiration", "unit": "bounded cultural-consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Vogue Business reported analysis drawing on runway observation, interviews with fashion and youth-culture strategists, cited industry research and brand examples; it is not a representative consumer survey.",
+      "uncertainty": "The article does not estimate the prevalence of the described aesthetic, distinguish global subcultures, or establish whether cultural rejection of new luxury produces durable changes in spending or ownership.",
+      "subgroup": "Gen Z consumers, online and offline youth subcultures, vintage shoppers, luxury brands, fashion editors, creators and cultural intermediaries.",
+      "counterinterpretation": "Messy or anti-polished styling can be rapidly absorbed by luxury houses and sold back at high prices; rejecting one status code does not necessarily reject status consumption.",
+      "source_url": "https://www.vogue.com/article/has-luxury-lost-its-hold-on-youth-culture",
+      "retrieval_hash": "sha256:5b494863524a19b14c2fabb5e227f0d4ab1a49228d1196632c7cc5454ad961bd",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2036; source-attributed luxury spending forecasts and brand examples",
+      "denominator": {"value": 1, "unit": "industry forecasts and cited brand sales example reported by Vogue Business", "value_type": "published_forecast_frame"},
+      "measures": {
+        "gen_z_luxury_share": {"value": "WGSN is cited as forecasting Gen Z to account for 25–30% of U.S. luxury purchases by 2030", "unit": "source-attributed forecast", "value_type": "reported_forecast"},
+        "diesel_youth_sales": {"value": 36, "unit": "percent of Diesel sales represented by 16–25-year-olds in 2025, as cited by Vogue Business", "value_type": "source_attributed_reported_share"},
+        "brand_cultural_problem": {"value": "Young consumers may hold future spending power while remaining disloyal to established brand codes, forcing luxury brands to translate subcultural relevance into trust before high-price conversion", "unit": "bounded firm-market mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Vogue Business report citing WGSN, NielsenIQ, GWI and Vogue UK/brand reporting; cited underlying studies and forecasts are not independently reproduced in this record.",
+      "uncertainty": "Forecast horizons, definitions of luxury purchases and spending power, source methods and the Diesel denominator are not fully described in the article; none establish future realized sales.",
+      "subgroup": "Gen Z and younger consumers, luxury and accessible fashion brands, resale and vintage marketplaces, creators and youth-culture scenes.",
+      "counterinterpretation": "Forecast spending power may coexist with affordability constraints, brand switching, resale, counterfeit or imitation consumption and unequal access to luxury markets.",
+      "source_url": "https://www.vogue.com/article/has-luxury-lost-its-hold-on-youth-culture",
+      "retrieval_hash": "sha256:5b494863524a19b14c2fabb5e227f0d4ab1a49228d1196632c7cc5454ad961bd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; brand/platform relationship to youth subcultures",
+      "denominator": {"value": 1, "unit": "bounded fashion-industry cultural pathway", "value_type": "interpretive_frame"},
+      "measures": {
+        "cultural_authority": {"value": "The article argues that young consumers, scenes and online culture now sit closer to the center of fashion meaning-making than brands alone", "unit": "reported cultural interpretation", "value_type": "reported_interpretation"},
+        "anti_algorithm_code": {"value": "The described 'anti-algorithm' and imperfect codes signal a desire for distinction from rapidly copied, optimized and visibly marketed aesthetics", "unit": "bounded platform-culture mechanism", "value_type": "bounded_mechanism"},
+        "soft_power": {"value": "Luxury brands require cultural relevance and organic trust to exercise soft power and sustain premium pricing", "unit": "reported strategic interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Interpretive synthesis of Vogue Business interviews and examples, explicitly separated from representative behavioral measurement.",
+      "uncertainty": "The source does not measure platform algorithms, cultural participation, brand trust, purchase conversion, creator compensation or the durability of subcultural influence.",
+      "subgroup": "Youth scenes, creators, musicians, luxury houses, accessible brands, resale platforms, fashion media and audiences negotiating authenticity and commercialization.",
+      "counterinterpretation": "Once brands adopt subcultural cues, the distinction between lived culture and marketing can become harder to observe rather than disappearing; novelty may simply accelerate the luxury cycle.",
+      "source_url": "https://www.vogue.com/article/has-luxury-lost-its-hold-on-youth-culture",
+      "retrieval_hash": "sha256:5b494863524a19b14c2fabb5e227f0d4ab1a49228d1196632c7cc5454ad961bd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.vogue.com/article/has-luxury-lost-its-hold-on-youth-culture", "claim": "Vogue Business article with runway examples, youth-culture interviews, cited forecasts, Diesel sales example and cultural-strategy interpretation."}
+  ],
+  "boundary": "This record identifies a fashion and youth-consumer cultural-capital subtheme from industry journalism. It does not establish representative youth attitudes, causal effects of aesthetics, realized spending, luxury-market contraction, platform algorithm behavior or global cultural prevalence; cited forecasts and third-party figures require independent source verification before quantitative use.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Vogue Business article was reviewed for the September 29, 2026 date, aesthetic and youth-culture claims, vintage and IYKYK framing, cited Gen Z luxury forecast, Diesel sales example, anti-algorithm language and brand soft-power interpretation.",
+    "source_url_sha256": "sha256:5b494863524a19b14c2fabb5e227f0d4ab1a49228d1196632c7cc5454ad961bd",
+    "checked": "2026-09-29"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-trustworthiness-index-2026-professions-ai-citizens",
+  "title": "Trust remains concentrated in competence-bearing professions and ordinary people while politicians, influencers, and AI chatbots face a credibility deficit",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ipsos Global Trustworthiness Index 2026, 31-Country Global Advisor Survey",
+  "geography": "31 countries; 23,537 online adults under age 75 surveyed 19 June-3 July 2026",
+  "observations": [
+    {
+      "period": "June-July 2026; global profession trust rankings",
+      "denominator": {"value": 23537, "unit": "online adults under 75 across 31 countries", "value_type": "published_multi_country_opinion_survey"},
+      "measures": {
+        "doctors": {"value": 58, "unit": "percent finding doctors trustworthy on average across 31 countries", "value_type": "reported_share"},
+        "scientists": {"value": 57, "unit": "percent finding scientists trustworthy", "value_type": "reported_share"},
+        "teachers": {"value": 53, "unit": "percent finding teachers trustworthy", "value_type": "reported_share"},
+        "cross_country_convergence": {"value": "doctors, scientists, and teachers are the three most trusted professions in all but four countries", "unit": "reported cross-country pattern", "value_type": "reported_synthesis"}
+      },
+      "method": "Ipsos global online survey asking respondents to rate professions on a five-point trustworthy-to-untrustworthy scale; global percentages are averages across 31 countries.",
+      "uncertainty": "Online samples, country weighting, translation, profession familiarity, and cultural interpretations of trust affect cross-country comparability; trust ratings are perceptions rather than verified competence or conduct.",
+      "subgroup": "Adults under 75 across 31 countries, with profession and country comparisons.",
+      "counterinterpretation": "High trust in doctors, scientists, and teachers may reflect role expectations and expertise, but it does not guarantee institutional satisfaction, policy agreement, or trust in every individual.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trustworthiness-index-2026?trk=public_post_comment-text",
+      "retrieval_hash": "sha256:02d0fe5b3bb3db370db2d7f55bf3eda0b789d2d898a9074a9d4d917982b2e38a",
+      "status": "reported"
+    },
+    {
+      "period": "June-July 2026; low-trust professions and intermediaries",
+      "denominator": {"value": 23537, "unit": "online adults under 75 across 31 countries", "value_type": "published_multi_country_opinion_survey"},
+      "measures": {
+        "politicians": {"value": 13, "unit": "percent finding politicians generally trustworthy on average", "value_type": "reported_share"},
+        "social_media_influencers": {"value": 14, "unit": "percent finding social media influencers trustworthy", "value_type": "reported_share"},
+        "advertising_executives": {"value": 15, "unit": "percent finding advertising executives trustworthy", "value_type": "reported_share"},
+        "low_trust_pattern": {"value": "politicians, influencers, and advertising executives are the three least trusted professions on average", "unit": "reported ranking pattern", "value_type": "reported_synthesis"}
+      },
+      "method": "Ipsos five-point profession trustworthiness ratings aggregated across 31 countries.",
+      "uncertainty": "Low trust may reflect political conflict, role stereotypes, media exposure, or recent events; the index does not identify causes or distinguish different politicians, influencers, or advertising contexts.",
+      "subgroup": "Adults across 31 countries evaluating political, media, commercial, and social intermediaries.",
+      "counterinterpretation": "Low aggregate trust can coexist with strong trust in particular local leaders, creators, or campaigns; broad distrust may also motivate scrutiny rather than disengagement.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Ipsos-Global-Trustworthiness-Index-2026.pdf",
+      "retrieval_hash": "sha256:02d0fe5b3bb3db370db2d7f55bf3eda0b789d2d898a9074a9d4d917982b2e38a",
+      "status": "reported"
+    },
+    {
+      "period": "June-July 2026; AI chatbot and tech-entrepreneur trust",
+      "denominator": {"value": 23537, "unit": "online adults under 75 across 31 countries", "value_type": "published_multi_country_opinion_survey"},
+      "measures": {
+        "ai_chatbot_trust": {"value": 23, "unit": "percent finding AI chatbots trustworthy", "value_type": "reported_share"},
+        "ai_chatbot_untrust": {"value": 40, "unit": "percent finding AI chatbots untrustworthy", "value_type": "reported_share"},
+        "tech_entrepreneur_trust": {"value": "31% trustworthy versus 25% untrustworthy on average; ninth of 22 professions", "unit": "reported trust balance", "value_type": "reported_share_set"},
+        "us_tech_entrepreneur_gap": {"value": "22% trustworthy versus 38% untrustworthy in the United States", "unit": "reported country contrast", "value_type": "reported_share_set"}
+      },
+      "method": "New 2026 profession items added AI chatbots, tech entrepreneurs, and personal trainers to the Ipsos index; responses use the same five-point trustworthiness scale.",
+      "uncertainty": "AI familiarity, national technology culture, media narratives, and question novelty may affect results; trust ratings do not measure actual chatbot reliability or use.",
+      "subgroup": "Adults across 31 countries, with country contrast for the United States and regional patterns in AI skepticism.",
+      "counterinterpretation": "Low trust in chatbots may be a healthy demand for accountability and human oversight, but it may also limit useful adoption where AI can supplement scarce expertise.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Ipsos-Global-Trustworthiness-Index-2026.pdf",
+      "retrieval_hash": "sha256:02d0fe5b3bb3db370db2d7f55bf3eda0b789d2d898a9074a9d4d917982b2e38a",
+      "status": "reported"
+    },
+    {
+      "period": "June-July 2026; ordinary-person and country trust geography",
+      "denominator": {"value": 23537, "unit": "online adults under 75 across 31 countries", "value_type": "published_multi_country_opinion_survey"},
+      "measures": {
+        "ordinary_person_trust": {"value": 34, "unit": "percent saying the average man or woman in their country is trustworthy", "value_type": "reported_share"},
+        "ordinary_person_untrust": {"value": 18, "unit": "percent saying the average man or woman is untrustworthy", "value_type": "reported_share"},
+        "country_index_leaders": {"value": "India +20, Malaysia +16, Thailand +15, Singapore +12, Indonesia +9 on Ipsos net trustworthiness index", "unit": "reported country-index results", "value_type": "reported_index_set"},
+        "country_index_low": {"value": "Poland and Romania -17; Argentina -12; Peru and Chile -13 on the Ipsos net trustworthiness index", "unit": "reported country-index results", "value_type": "reported_index_set"}
+      },
+      "method": "Ipsos country index subtracting untrustworthy scores from trustworthy scores across professions; ordinary-person results are reported separately from profession rankings.",
+      "uncertainty": "The country index is a constructed perception measure, not institutional performance or social-capital measurement; online coverage and country context limit direct causal interpretation.",
+      "subgroup": "Adults across 31 countries, including national and regional contrasts.",
+      "counterinterpretation": "Country-level profession distrust can coexist with interpersonal trust, as the LATAM results illustrate; institutional and everyday social trust should not be collapsed into one condition.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trustworthiness-index-2026?trk=public_post_comment-text",
+      "retrieval_hash": "sha256:02d0fe5b3bb3db370db2d7f55bf3eda0b789d2d898a9074a9d4d917982b2e38a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/what-worries-world?trk=article-ssr-frontend-pulse_little-text-block", "claim": "Ipsos What Worries the World provides complementary recurring public-concern and direction-of-travel evidence."},
+    {"source_url": "https://www.edelman.com/trust/2026/trust-barometer", "claim": "Edelman Trust Barometer provides complementary institutional, intergroup, and brand-trust evidence."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en.html", "claim": "OECD trust survey provides complementary policy-performance and public-institution trust measures."}
+  ],
+  "boundary": "This record adds a profession, AI, intermediary, ordinary-person, and country-trust route. It uses Ipsos perception data, not verified competence, institutional performance, chatbot accuracy, interpersonal behavior, or causal explanation of regional trust differences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Global Trustworthiness Index 2026 page and 13-page PDF were reviewed for field dates, sample, question scale, profession rankings, AI chatbot and tech entrepreneur items, ordinary-person trust, country index, and interpretation boundaries.",
+    "source_url_sha256": "sha256:02d0fe5b3bb3db370db2d7f55bf3eda0b789d2d898a9074a9d4d917982b2e38a",
+    "checked": "2026-09-26"
+  }
+}

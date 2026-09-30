@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-council-europe-democratic-pact-2026-trust-social-rights-civic-space",
+  "title": "European democratic resilience is being reframed as a whole-society security problem spanning rights, trust, participation, and technology",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "trust_identity_meaning", "unequal_exposure_status", "public_systems_feedback", "platforms_data_attention", "geopolitical_state_consequences", "care_health_reproduction", "household_room_consumption"],
+  "source_unit": "Council of Europe, Report of the Secretary General 2026: The New Democratic Pact for Europe in Times of Rupture",
+  "geography": "Council of Europe member states and broader European democratic-security context, with a focus on institutional, civic, social-rights, information, election, and technology resilience",
+  "observations": [
+    {
+      "period": "2025-2026; New Democratic Pact consultation process",
+      "denominator": {"value": 46, "unit": "Council of Europe member states engaged by the Pact process", "value_type": "institutional_process_frame"},
+      "measures": {
+        "dedicated_initiatives": {"value": 85, "unit": "Council of Europe entity initiatives mobilised during the first year", "value_type": "reported_process_count"},
+        "contributions": {"value": 200, "unit": "more than 200 contributions from more than 100 contributors", "value_type": "reported_process_count_lower_bound"},
+        "participant_set": {"value": "governments, parliamentarians, local and regional authorities, international partners, civil society, academia, private sector, and citizens", "unit": "reported participant set", "value_type": "reported_process_description"}
+      },
+      "method": "Council of Europe account of a multi-actor consultation process launched in 2025 and structured around learning, protection, and innovation for democratic resilience.",
+      "uncertainty": "Consultation participation and contribution counts measure institutional engagement, not public opinion, representative citizen preferences, policy adoption, or democratic improvement.",
+      "subgroup": "Member states, public institutions, civil society, experts, private actors, citizens, young people, minorities, and groups with different access to civic space.",
+      "counterinterpretation": "A broad consultation can surface diverse priorities, but participation may still be uneven and organized actors may be overrepresented relative to less-engaged citizens.",
+      "source_url": "https://rm.coe.int/prems-099126-gbr-1270-rapport-sg-2026-web-a4-2756-4240-7700-1/48802bb756",
+      "retrieval_hash": "sha256:11206f8b8f14f86f5907fe88b565b3b3f088e51acd92ad5f5403a91adc5cc2ed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; emerging orientations for democratic resilience",
+      "denominator": {"value": 1, "unit": "Council of Europe synthesis of Pact consultation contributions", "value_type": "reported_orientation_frame"},
+      "measures": {
+        "participation_orientation": {"value": "democratic participation is framed as a whole-of-society effort requiring civic space, democratic and digital citizenship education, and forms of engagement beyond traditional processes", "unit": "reported orientation", "value_type": "reported_framework"},
+        "trust_orientation": {"value": "contributors emphasize professional and integrity-based public administration, independent judiciaries and media, civil-society space, academic freedom, and freedom of expression", "unit": "reported orientation", "value_type": "reported_framework"},
+        "technology_orientation": {"value": "AI-enabled democratic practices, algorithmic-bias safeguards, deliberative processes, multilevel governance, and peer exchange are identified as resilience instruments", "unit": "reported orientation", "value_type": "reported_framework"}
+      },
+      "method": "Council of Europe synthesis of consultation themes and emerging policy directions.",
+      "uncertainty": "The orientations are normative and strategic; they do not establish that institutions currently meet these standards or that any single instrument causes trust or resilience.",
+      "subgroup": "Citizens, public administrations, courts, media, schools, civil society, academics, technology providers, and local and national governments.",
+      "counterinterpretation": "New participation and digital tools can widen voice, but without access, privacy, moderation, and accountability they may reproduce exclusion or intensify manipulation.",
+      "source_url": "https://rm.coe.int/prems-099126-gbr-1270-rapport-sg-2026-web-a4-2756-4240-7700-1/48802bb756",
+      "retrieval_hash": "sha256:11206f8b8f14f86f5907fe88b565b3b3f088e51acd92ad5f5403a91adc5cc2ed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Reykjavik Parameters for democratic life",
+      "denominator": {"value": 5, "unit": "interconnected pillars in the Council of Europe's democratic-parameters framework", "value_type": "democratic_framework"},
+      "measures": {
+        "pillars": {"value": "democratic participation; independent and effective democratic institutions; democratic governance and integrity; democratic freedoms, inclusion and civil society; democratic future", "unit": "five framework pillars", "value_type": "reported_framework"},
+        "vital_areas": {"value": 16, "unit": "vital areas of democratic life covered by the framework", "value_type": "reported_framework_count"},
+        "future_focus": {"value": "empowering young people and children, education for democracy, and sustainable and innovative democratic life", "unit": "reported future-oriented areas", "value_type": "reported_framework"}
+      },
+      "method": "Council of Europe translation of Reykjavik Principles into a structured reference framework for voluntary self-assessment and mutual learning.",
+      "uncertainty": "The Parameters are standards and assessment tools, not a comparative scorecard or evidence that member states have implemented every area.",
+      "subgroup": "Member states, democratic institutions, civil society, young people, children, political parties, courts, and local authorities.",
+      "counterinterpretation": "Common standards can support accountability and learning, but voluntary self-assessment may produce uneven reporting and cannot replace independent monitoring or remedy.",
+      "source_url": "https://rm.coe.int/prems-099126-gbr-1270-rapport-sg-2026-web-a4-2756-4240-7700-1/48802bb756",
+      "retrieval_hash": "sha256:11206f8b8f14f86f5907fe88b565b3b3f088e51acd92ad5f5403a91adc5cc2ed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; democratic security under rupture",
+      "denominator": {"value": 1, "unit": "Council of Europe strategic security framing", "value_type": "democratic_security_frame"},
+      "measures": {
+        "threat_pathways": {"value": "foreign information manipulation, disinformation, war, social vulnerability, scapegoating, shrinking civic space, and technology moving faster than democratic safeguards", "unit": "reported interacting threat set", "value_type": "reported_mechanism"},
+        "security_reframe": {"value": "human rights, democracy, rule of law, social rights, health, education, and institutional trust are treated as foundations of democratic security rather than soft security", "unit": "reported strategic frame", "value_type": "reported_framework"},
+        "implementation_horizon": {"value": "final Pact outcomes and commitments are expected in 2027 after consultation and targeted initiatives", "unit": "reported timeline", "value_type": "reported_process_timeline"}
+      },
+      "method": "Council of Europe strategic synthesis connecting geopolitical rupture, social vulnerability, technology, institutional trust, rights, and democratic resilience.",
+      "uncertainty": "The framing identifies pathways and proposed responses but does not quantify threat prevalence, estimate causal effects, or establish implementation outcomes.",
+      "subgroup": "European populations, minority groups, people at risk of poverty or exclusion, displaced populations, institutions, media, schools, and civic organizations.",
+      "counterinterpretation": "Security framing can elevate social rights and trust, but it can also justify overbroad restrictions unless legality, proportionality, rights, and democratic accountability remain explicit.",
+      "source_url": "https://rm.coe.int/prems-099126-gbr-1270-rapport-sg-2026-web-a4-2756-4240-7700-1/48802bb756",
+      "retrieval_hash": "sha256:11206f8b8f14f86f5907fe88b565b3b3f088e51acd92ad5f5403a91adc5cc2ed",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.coe.int/en/web/secretary-general/report-2026", "claim": "Council of Europe report landing page and chapter structure for the New Democratic Pact for Europe."},
+    {"source_url": "https://www.coe.int/en/web/commissioner/thematic-work/democracy-and-human-rights", "claim": "Complementary Council of Europe human-rights and democratic-resilience work."}
+  ],
+  "boundary": "This record adds a European democratic-security and institutional-trust route linking war and geopolitical rupture, information manipulation, social rights, civic space, elections, inclusion, digital technology, AI, and democratic participation. It is a strategic report and consultation synthesis, not a representative public-opinion survey, democracy score, causal security model, or proof that proposed Pact actions have been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Council of Europe Secretary-General 2026 report PDF and official landing page were reviewed for consultation scale, emerging orientations, Reykjavik Parameters, democratic-security framing, and implementation horizon.",
+    "source_url_sha256": "sha256:11206f8b8f14f86f5907fe88b565b3b3f088e51acd92ad5f5403a91adc5cc2ed",
+    "checked": "2026-09-27"
+  }
+}

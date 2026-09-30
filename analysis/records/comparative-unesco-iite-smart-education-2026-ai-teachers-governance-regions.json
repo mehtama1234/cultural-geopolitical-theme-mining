@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-iite-smart-education-2026-ai-teachers-governance-regions",
+  "title": "AI in education is becoming a governance and human-capability question, not merely a technology-adoption question",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["care_health_reproduction", "platforms_data_attention", "infrastructure_technology_dependency", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "work_control_bargaining", "political_judgment_action"],
+  "source_unit": "UNESCO Institute for Information Technologies in Education, 2026 GSE Annual Report: Smart Education Around the World",
+  "geography": "Seven world regions and diverse national education systems integrating AI and digital technologies across differing social, economic, and institutional contexts",
+  "observations": [
+    {
+      "period": "2026; UNESCO IITE Smart Education framework",
+      "denominator": {"value": 1, "unit": "UNESCO IITE Smart Education approach", "value_type": "education_framework"},
+      "measures": {
+        "core_integration": {"value": "pedagogy, governance, and technology are integrated to make learning systems more responsive to learners, teachers, and societies", "unit": "reported framework", "value_type": "reported_framework"},
+        "purpose_priority": {"value": "educational purpose is placed at the centre so technology serves learning, strengthens human capabilities, and supports sustainable development", "unit": "reported principle", "value_type": "reported_framework"},
+        "scope_boundary": {"value": "Smart Education goes beyond adopting digital technologies or AI tools alone", "unit": "reported distinction", "value_type": "reported_boundary"}
+      },
+      "method": "UNESCO IITE synthesis of seven regional reports and partner perspectives on integrating AI and digital technologies in education.",
+      "uncertainty": "The framework is normative and comparative; it does not estimate learning effects, define a single implementation score, or establish that integrated systems improve outcomes.",
+      "subgroup": "Learners, teachers, schools, education ministries, technology providers, families, and societies with different infrastructure and governance conditions.",
+      "counterinterpretation": "Technology can support learning and teacher work, but expanding tools without pedagogy, support, accessibility, privacy, and accountability may deepen inequity or add workload.",
+      "source_url": "https://iite.unesco.org/publications/2026-gse-annual-report-smart-education-around-the-world-partners-perspectives-from-seven-regional-reports/",
+      "retrieval_hash": "sha256:48fca1c5124e2796b286f5e799fb68d320c3f2983a5d322100c03583b4b6b56b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regional variation in AI and digital education integration",
+      "denominator": {"value": 7, "unit": "world regions examined through partner regional reports", "value_type": "regional_comparison_frame"},
+      "measures": {
+        "regional_pathways": {"value": "there is no single pathway to Smart Education", "unit": "reported comparative conclusion", "value_type": "reported_interpretation"},
+        "national_platforms": {"value": "some systems use national digital platforms serving millions of learners", "unit": "reported implementation example", "value_type": "reported_example"},
+        "fragile_contexts": {"value": "in other contexts Smart Education includes maintaining learning in fragile environments", "unit": "reported implementation example", "value_type": "reported_example"},
+        "teacher_support": {"value": "some systems focus on supporting teachers with new tools", "unit": "reported implementation example", "value_type": "reported_example"}
+      },
+      "method": "Cross-regional synthesis of partner perspectives and regional reports rather than a uniform country scorecard.",
+      "uncertainty": "Examples illustrate variation but do not establish prevalence, comparative effectiveness, or the number of countries using each pathway.",
+      "subgroup": "Education systems with different levels of connectivity, conflict exposure, public capacity, language, financing, and teacher workforce support.",
+      "counterinterpretation": "Different pathways may reflect adaptation to context rather than unequal ambition; large platforms can scale access while also creating dependency, privacy, or governance risks.",
+      "source_url": "https://iite.unesco.org/publications/2026-gse-annual-report-smart-education-around-the-world-partners-perspectives-from-seven-regional-reports/",
+      "retrieval_hash": "sha256:48fca1c5124e2796b286f5e799fb68d320c3f2983a5d322100c03583b4b6b56b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI education opportunity and responsibility frame",
+      "denominator": {"value": 1, "unit": "UNESCO IITE assessment of AI's role in education systems", "value_type": "technology_governance_frame"},
+      "measures": {
+        "opportunity": {"value": "AI can expand learning opportunities and support more responsive education systems", "unit": "reported opportunity pathway", "value_type": "reported_mechanism"},
+        "responsibility": {"value": "AI adoption creates new responsibilities for education systems to preserve human values", "unit": "reported governance pathway", "value_type": "reported_mechanism"},
+        "human_capabilities": {"value": "technology should strengthen human capabilities rather than displace educational purpose", "unit": "reported governance principle", "value_type": "reported_framework"}
+      },
+      "method": "UNESCO IITE policy synthesis connecting AI opportunity, human values, learning purpose, and institutional responsibility.",
+      "uncertainty": "The report does not provide a causal model for AI and learning or a common definition of human-value preservation across systems.",
+      "subgroup": "Students, teachers, administrators, education policymakers, parents, technology designers, and communities affected by AI-mediated learning.",
+      "counterinterpretation": "Human-centred AI can still reproduce bias or surveillance through data, procurement, language, or assessment systems unless governance is operational and contestable.",
+      "source_url": "https://iite.unesco.org/publications/2026-gse-annual-report-smart-education-around-the-world-partners-perspectives-from-seven-regional-reports/",
+      "retrieval_hash": "sha256:48fca1c5124e2796b286f5e799fb68d320c3f2983a5d322100c03583b4b6b56b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-system shared lessons",
+      "denominator": {"value": 7, "unit": "regional perspectives synthesized in the annual report", "value_type": "shared_lessons_frame"},
+      "measures": {
+        "shared_aspiration": {"value": "education systems seek to use digital technology to expand opportunity while preserving human values", "unit": "reported shared aspiration", "value_type": "reported_framework"},
+        "shared_lesson": {"value": "technology integration must be read through pedagogy, governance, teacher capacity, social context, and sustainability", "unit": "reported cross-system lesson", "value_type": "reported_interpretation"},
+        "institutional_question": {"value": "the central question is how AI can be harnessed responsibly rather than whether AI will influence education", "unit": "reported framing", "value_type": "reported_interpretation"}
+      },
+      "method": "UNESCO IITE cross-regional comparison of partner findings and policy experiences.",
+      "uncertainty": "Shared lessons are a synthesis across selected regional materials and do not represent all education systems or prove policy transferability.",
+      "subgroup": "National and local education authorities, teachers, learners, families, technology partners, and vulnerable or disconnected communities.",
+      "counterinterpretation": "Common principles may mask real conflicts over curriculum, data ownership, language, teacher autonomy, commercial influence, and the distribution of benefits.",
+      "source_url": "https://iite.unesco.org/publications/2026-gse-annual-report-smart-education-around-the-world-partners-perspectives-from-seven-regional-reports/",
+      "retrieval_hash": "sha256:48fca1c5124e2796b286f5e799fb68d320c3f2983a5d322100c03583b4b6b56b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/reports/gem-report/en/2026", "claim": "UNESCO GEM 2026 provides complementary global education access and equity trends."},
+    {"source_url": "https://iite.unesco.org/publications/", "claim": "UNESCO IITE publication catalog for digital education and information-technology research."}
+  ],
+  "boundary": "This record adds an education-technology governance route linking AI, pedagogy, teacher capacity, infrastructure, fragile contexts, equity, human values, sustainability, and institutional responsibility. It is a cross-regional policy synthesis, not student-level learning data, a technology-adoption census, a causal effect estimate, a school implementation audit, or proof that Smart Education improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNESCO IITE official publication page was reviewed for the Smart Education definition, seven-region scope, examples of national platforms and fragile-context learning, AI opportunity and responsibility, and shared lessons.",
+    "source_url_sha256": "sha256:48fca1c5124e2796b286f5e799fb68d320c3f2983a5d322100c03583b4b6b56b",
+    "checked": "2026-09-27"
+  }
+}

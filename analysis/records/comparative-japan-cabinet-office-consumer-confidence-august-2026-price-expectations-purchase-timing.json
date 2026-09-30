@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-cabinet-office-consumer-confidence-august-2026-price-expectations-purchase-timing",
+  "title": "Japan's household confidence recovered modestly in August while durable-purchase timing improved beneath persistent price expectations",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Japan Cabinet Office Economic and Social Research Institute, monthly Consumer Confidence Survey, August 2026",
+  "geography": "Japan; national household consumer-confidence survey",
+  "observations": [
+    {
+      "period": "August 2026; household confidence and purchase timing",
+      "denominator": {"value": 6674, "unit": "valid responding households in the August 2026 survey; 4,347 two-or-more-person and 2,327 one-person households", "value_type": "published_survey_sample"},
+      "measures": {
+        "consumer_confidence_index": {"value": 35.5, "unit": "seasonally adjusted consumer confidence index", "value_type": "published_survey_estimate"},
+        "monthly_change": {"value": 0.6, "unit": "index points from July 2026", "value_type": "published_change"},
+        "durable_goods_purchase_timing": {"value": 27.5, "unit": "seasonally adjusted consumer perception index", "value_type": "published_survey_estimate"},
+        "durable_goods_purchase_timing_change": {"value": 1.9, "unit": "index points from July 2026", "value_type": "published_change"}
+      },
+      "method": "Japan Cabinet Office monthly Consumer Confidence Survey using a three-stage sample of households and mail-plus-online collection; the August survey covered 8,400 selected households, with 6,674 valid responses and a 79.5 percent response rate. The confidence index is the simple average of livelihood, income-growth, employment, and durable-goods purchase-timing indicators for two-or-more-person households.",
+      "uncertainty": "The confidence and purchase-timing indexes measure reported perceptions, not realized purchases, income, employment, or household welfare; the published summary's headline index is for two-or-more-person households even though the valid-response frame includes one-person households.",
+      "subgroup": "Japanese households, with separate two-or-more-person and one-person sampling frames; headline component indexes reported for two-or-more-person households.",
+      "counterinterpretation": "A modest confidence recovery and stronger durable-purchase timing can reflect seasonal timing, price changes, credit access, or compositional movement rather than broad improvement in material security or realized consumption.",
+      "source_url": "https://www.esri.cao.go.jp/en/stat/shouhi/shouhi-e.html",
+      "retrieval_hash": "sha256:94b1913eed651cbeebb6db690e0f91cfd517275568d8e694a2d7593f9e86f5ce",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; component divergence beneath the confidence recovery",
+      "denominator": {"value": 4347, "unit": "valid responding two-or-more-person households used for the published component indexes", "value_type": "published_survey_sample"},
+      "measures": {
+        "livelihood_index": {"value": 34.1, "unit": "seasonally adjusted index; up 1.0 point from July", "value_type": "published_survey_estimate"},
+        "income_growth_index": {"value": 40.4, "unit": "seasonally adjusted index; down 0.5 points from July", "value_type": "published_survey_estimate"},
+        "employment_index": {"value": 39.9, "unit": "seasonally adjusted index; down 0.2 points from July", "value_type": "published_survey_estimate"},
+        "component_divergence": {"value": "Perceived livelihood and durable-purchase timing improved while income-growth and employment perceptions softened", "unit": "reported component pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Published Cabinet Office component indexes from the same monthly survey and seasonal-adjustment series.",
+      "uncertainty": "The components are cross-sectional monthly perception measures and do not identify whether the same households changed across items or whether actual income, jobs, and purchases changed.",
+      "subgroup": "Two-or-more-person households represented in the headline seasonally adjusted consumer-perception series.",
+      "counterinterpretation": "The component pattern may reflect survey timing, seasonal adjustment, expectations about future conditions, or different respondents rather than a household-level trade-off between livelihood and employment security.",
+      "source_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/gaiyou.pdf",
+      "retrieval_hash": "sha256:b68ce5d1f5c35e7e6bf9e6e2b29b5b38e563af8a80e9b1bbe105546ce264c900",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; one-year price expectations",
+      "denominator": {"value": 4347, "unit": "valid responding two-or-more-person households used for the published price-expectations distribution; item-specific response counts may differ", "value_type": "published_survey_sample"},
+      "measures": {
+        "expect_prices_to_rise": {"value": 89.0, "unit": "percent expecting prices to rise one year ahead", "value_type": "published_survey_estimate"},
+        "expect_prices_unchanged": {"value": 4.6, "unit": "percent expecting prices to remain about unchanged one year ahead", "value_type": "published_survey_estimate"},
+        "expect_prices_to_fall": {"value": 4.6, "unit": "percent expecting prices to fall one year ahead", "value_type": "published_survey_estimate"},
+        "five_percent_plus_expectation": {"value": 46.1, "unit": "percent expecting prices to rise 5 percent or more one year ahead", "value_type": "published_survey_estimate"}
+      },
+      "method": "Cabinet Office price-expectations question about frequently purchased items, collected in the August 15, 2026 survey and reported as an original-series distribution.",
+      "uncertainty": "Price expectations are subjective and are not a forecast of the official price index or a measure of realized household inflation exposure; the published report notes that item-level response counts can differ.",
+      "subgroup": "Two-or-more-person households in the published price-expectations series.",
+      "counterinterpretation": "High expected inflation can coexist with durable-purchase timing improvements if households advance purchases, substitute categories, draw on savings, or face different price exposure.",
+      "source_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf",
+      "retrieval_hash": "sha256:0b0b2b6cd265ce25c2210fc5bcffc54998813fa1845d1429cd65c554d244b3e9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/shouhi.html", "claim": "Japanese-language official release index and links to August 2026 summary, full report, and e-Stat tables."},
+    {"source_url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00100405&tstat=000001014549", "claim": "Japan's government statistics portal provides household-type and long-run tables for the Consumer Confidence Survey."},
+    {"source_url": "https://www.esri.cao.go.jp/en/stat/shouhi/shouhi-e.html", "claim": "English Cabinet Office summary provides the August 2026 sample, response rate, confidence index, components, and price-expectations headline figures."}
+  ],
+  "boundary": "This record adds a Japan-specific household-perception and purchase-timing surface to the comparative consumer atlas. It does not establish realized purchases, household income or employment change, price-index inflation, financial stress, cultural preference, or causal effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Cabinet Office English summary and August 2026 Japanese summary/full report were reviewed for sample design, response counts, confidence and component indexes, price-expectations distribution, field date, collection mode, and rotating-panel structure.",
+    "source_url_sha256": "sha256:94b1913eed651cbeebb6db690e0f91cfd517275568d8e694a2d7593f9e86f5ce",
+    "checked": "2026-09-30"
+  }
+}

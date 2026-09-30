@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "uk-ssac-post16-benefit-cliff-edge-2026",
+  "title": "Benefit design can make officially equal post-16 pathways financially unequal",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "time_hidden_price"
+  ],
+  "source_unit": "UK Department for Work and Pensions, Social Security Advisory Committee, Occasional Paper 27",
+  "geography": "United Kingdom, with detailed evidence on England and comparisons across the UK and selected countries",
+  "observations": [
+    {
+      "period": "2025–2026; post-16 education, training, and apprenticeship transition",
+      "denominator": {"value": 7, "unit": "worked household scenarios modelling benefit and apprenticeship-income interactions", "value_type": "scenario_frame"},
+      "measures": {
+        "household_loss_range": {"value": "£17.25 to £339.92 per week", "unit": "modelled household benefit loss when a resident young person begins an apprenticeship", "value_type": "scenario_range"},
+        "pathway_asymmetry": {"value": "Staying in education preserves parental benefit income, while an apprenticeship can remove child-related entitlements", "unit": "reported policy mechanism", "value_type": "reported_pattern"},
+        "cliff_edge": {"value": "In the most extreme example, the apprenticeship wage could not offset the household loss even if the parent received all of it", "unit": "worked scenario result", "value_type": "scenario_result"}
+      },
+      "method": "Policy analysis, seven worked household scenarios, interviews with young people and families, stakeholder discussions, and conversations with relevant departments.",
+      "uncertainty": "Scenario values illustrate how rules interact and are not prevalence estimates; actual effects depend on household composition, benefit status, wages, costs, and intra-household transfers.",
+      "subgroup": "Low-income households with young people choosing full-time education, apprenticeships, or other recognised post-16 pathways.",
+      "counterinterpretation": "In many scenarios the apprentice wage could theoretically offset the parental benefit loss, so the deterrent may depend on household bargaining, timing, and immediate costs as well as formal entitlement rules.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:adb50caf7826ad2ebab8dd4050fbaa0a92c08560036fdec8c2adbafb72f4a7b2",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; young people facing caring, disability, care-leaving, or estrangement transitions",
+      "denominator": {"value": 11, "unit": "young people interviewed or consulted directly: 9 aged 14–15 and 2 care-experienced young adults", "value_type": "qualitative_sample"},
+      "measures": {
+        "choice_constraint": {"value": "Some young carers were reported to choose part-time or unsuitable courses to retain support, while disabled young people faced reassessment and payment delays during transition", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "care_leaver_trap": {"value": "Supported-accommodation interactions between Universal Credit, Housing Benefit, and earnings were reported to weaken the reward to work or apprenticeships", "unit": "reported policy mechanism", "value_type": "reported_pattern"},
+        "tracking_gap": {"value": "Young adult carers and estranged young people were not consistently identified in participation monitoring, especially in vocational pathways", "unit": "reported administrative gap", "value_type": "reported_pattern"}
+      },
+      "method": "Interviews, stakeholder roundtables, policy and operational discussions, literature review, and comparative analysis.",
+      "uncertainty": "The qualitative sample is small and purposive; the report identifies mechanisms and lived experiences rather than estimating their frequency across all vulnerable young people.",
+      "subgroup": "Young adult carers, disabled young people, care leavers, estranged young people, and households receiving benefits.",
+      "counterinterpretation": "Some groups may receive compensating support through bursaries, maintenance allowances, grants, or exceptional benefit rules, but access and adequacy vary by nation and pathway.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:adb50caf7826ad2ebab8dd4050fbaa0a92c08560036fdec8c2adbafb72f4a7b2",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; information, monitoring, and policy-alignment infrastructure",
+      "denominator": {"value": 1, "unit": "SSAC independent policy investigation", "value_type": "study_frame"},
+      "measures": {
+        "information_failure": {"value": "The financial consequences of post-16 choices were difficult to understand and tailored guidance was limited", "unit": "reported system finding", "value_type": "reported_pattern"},
+        "policy_misalignment": {"value": "The benefits system was described as not having been adequately updated for the increased participation age and as conflicting with equal-value pathway ambitions", "unit": "reported institutional finding", "value_type": "reported_pattern"},
+        "comparative_options": {"value": "International examples included training-status tests, adjusted earnings thresholds, age-based transitions, mixed funding, and youth allowance models", "unit": "comparative policy options identified", "value_type": "reported_catalogue"}
+      },
+      "method": "Independent committee investigation combining policy analysis, evidence from young people and stakeholders, administrative and operational discussions, worked scenarios, and international comparison.",
+      "uncertainty": "The committee's conclusions and recommendations are its own; comparative examples show possible designs but do not establish transferability to the UK context.",
+      "subgroup": "Young people making post-16 decisions, families, education providers, youth hubs, local authorities, and benefit administrators.",
+      "counterinterpretation": "The policy conflict may be repairable through information, transitional payments, monitoring, and cross-departmental redesign rather than requiring a wholesale replacement of the benefits architecture.",
+      "source_url": "https://www.gov.uk/government/publications/ssac-occasional-paper-27-the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16/the-influence-of-the-social-security-system-on-educational-and-vocational-decision-making-at-age-16",
+      "retrieval_hash": "sha256:adb50caf7826ad2ebab8dd4050fbaa0a92c08560036fdec8c2adbafb72f4a7b2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/raising-the-participation-age", "claim": "Policy context for the participation-age framework."},
+    {"source_url": "https://www.gov.uk/government/publications/young-futures-hubs-early-adopters-pilot-evaluation-interim-report/young-futures-hubs-early-adopters-pilot-evaluation-interim-report", "claim": "Related youth-hub evidence on trusted access, referral infrastructure, and tailored support."}
+  ],
+  "boundary": "This record captures an institutional-incentive mechanism: benefit rules, information gaps, and weak tracking can shape post-16 choices and distribute transition costs unevenly. It does not estimate how common each mechanism is, prove that benefit rules alone cause NEET outcomes or apprenticeship dropout, or treat recommendations and international examples as evaluated interventions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Full report reviewed for executive findings, apprenticeship cliff-edge scenarios, vulnerable-group mechanisms, information and monitoring gaps, and international comparisons.",
+    "source_url_sha256": "sha256:adb50caf7826ad2ebab8dd4050fbaa0a92c08560036fdec8c2adbafb72f4a7b2",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-horizon-scanning-2026-science-technology-anticipatory-governance",
+  "title": "Scientific and technological change is being treated as a structural driver of global risk, power, and institutional preparedness",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "political_judgment_action", "geopolitical_state_consequences", "public_systems_feedback", "trust_identity_meaning", "platforms_data_attention", "care_health_reproduction"],
+  "source_unit": "UN Secretary-General's Scientific Advisory Board, Horizon Scanning 2026 Executive Report",
+  "geography": "Global horizon-scanning assessment of science and technology intersections with UN priorities",
+  "observations": [
+    {
+      "period": "2026 horizon scan; expert input frame",
+      "denominator": {"value": 192, "unit": "scientists and technologists contributing across regions and disciplines", "value_type": "reported_expert_count"},
+      "measures": {"network_coverage": {"value": 11, "unit": "scientific networks affiliated with the Advisory Board contributing input", "value_type": "reported_network_count"}, "assessment_purpose": {"value": "support strategic awareness, institutional preparedness, and anticipatory governance", "unit": "reported policy purpose", "value_type": "reported_framework"}, "scope": {"value": "science and technology intersections with peace and security, sustainable development, and human rights", "unit": "reported assessment scope", "value_type": "reported_framework"}},
+      "method": "The UN Scientific Advisory Board synthesizes expert input from affiliated scientific networks into a horizon-scanning executive assessment.",
+      "uncertainty": "The expert network and horizon scan are not a probability forecast, a consensus survey, or an estimate of the likelihood of each risk.",
+      "subgroup": "Scientists, technologists, governments, international institutions, communities affected by technological change, and groups with limited voice in technology governance.",
+      "counterinterpretation": "Broad expert input can expand institutional awareness while still underrepresenting local knowledge, public values, or communities outside scientific and policy networks.",
+      "source_url": "https://www.un.org/scientific-advisory-board/en/horizon-scanning-2026",
+      "retrieval_hash": "sha256:f9a08825856fc491f1f1a55d48dabcbc1ec18b51779fa8ab3bf3a02931f755c8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 horizon scan; cross-sector technology effects",
+      "denominator": {"value": 1, "unit": "UN horizon-scanning structural-change frame", "value_type": "published_framework"},
+      "measures": {"structural_driver": {"value": "scientific and technological change is assessed as a structural driver of global risk, opportunity, and power", "unit": "reported assessment", "value_type": "reported_framework"}, "embedded_systems": {"value": "AI, data systems, biotechnology, energy, and environmental science are increasingly embedded across sectors", "unit": "reported cross-sector pattern", "value_type": "reported_assessment"}, "institutional_relevance": {"value": "these changes directly affect peace and security, sustainable development, and human rights priorities", "unit": "reported impact domain", "value_type": "reported_framework"}},
+      "method": "The report uses a cross-sector lens to connect scientific and technological change with institutional mandates and social outcomes.",
+      "uncertainty": "The structural framing does not measure adoption, distribution, or realized effects of each technology in specific populations or sectors.",
+      "subgroup": "Public institutions, firms, researchers, workers, patients, communities, rights holders, and populations exposed to uneven access or technology-related harms.",
+      "counterinterpretation": "Embedding technology can create efficiencies and new capabilities while also increasing dependency, concentration, surveillance, or unequal exposure.",
+      "source_url": "https://www.un.org/scientific-advisory-board/en/horizon-scanning-2026",
+      "retrieval_hash": "sha256:f9a08825856fc491f1f1a55d48dabcbc1ec18b51779fa8ab3bf3a02931f755c8",
+      "status": "reported"
+    },
+    {
+      "period": "Next 12 months and five years from 2026; anticipatory governance horizon",
+      "denominator": {"value": 2, "unit": "time horizons used for the Board's strategic awareness assessment", "value_type": "reported_horizon_count"},
+      "measures": {"near_term": {"value": "the scan considers where science and technology are likely to intersect with UN priorities over the next 12 months", "unit": "reported horizon", "value_type": "reported_framework"}, "medium_term": {"value": "the scan also considers intersections over the next five years", "unit": "reported horizon", "value_type": "reported_framework"}, "governance_use": {"value": "the output is designed to support preparedness before consequences are fully realized", "unit": "reported governance use", "value_type": "reported_framework"}},
+      "method": "The horizon scan separates near-term and five-year strategic awareness rather than presenting a single long-range prediction.",
+      "uncertainty": "Time horizons organize attention but do not specify event timing, policy effectiveness, or the scale of future effects.",
+      "subgroup": "Strategic planners, regulators, public agencies, researchers, technology developers, civil society, and communities making decisions under uncertainty.",
+      "counterinterpretation": "Anticipatory governance can reduce surprise, but long horizons can encourage speculative action or distract from existing and measurable harms.",
+      "source_url": "https://www.un.org/scientific-advisory-board/en/horizon-scanning-2026",
+      "retrieval_hash": "sha256:f9a08825856fc491f1f1a55d48dabcbc1ec18b51779fa8ab3bf3a02931f755c8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 strategic assessment; non-predictive governance boundary",
+      "denominator": {"value": 1, "unit": "UN Horizon Scanning 2026 assessment design", "value_type": "published_framework"},
+      "measures": {"non_predictive_design": {"value": "the horizon scan is explicitly designed to support awareness and preparedness rather than make predictions", "unit": "reported methodological boundary", "value_type": "reported_framework"}, "accountability_need": {"value": "technology governance must address accountability, transparency, and institutional capacity as systems become embedded across sectors", "unit": "reported governance direction", "value_type": "reported_framework"}, "power_question": {"value": "scientific and technological change is assessed through its effects on power as well as opportunity and risk", "unit": "reported analytical lens", "value_type": "reported_framework"}},
+      "method": "The Board frames horizon scanning as anticipatory institutional work with explicit limits on prediction.",
+      "uncertainty": "A non-predictive assessment cannot establish which governance response will work, who will control emerging systems, or how benefits and harms will be distributed.",
+      "subgroup": "Governance institutions, technology users, rights advocates, workers, researchers, communities, and people affected by opaque or high-impact systems.",
+      "counterinterpretation": "Preparedness language can improve accountability, but it can also remain symbolic without decision rights, resources, monitoring, and public participation.",
+      "source_url": "https://www.un.org/scientific-advisory-board/en/horizon-scanning-2026",
+      "retrieval_hash": "sha256:f9a08825856fc491f1f1a55d48dabcbc1ec18b51779fa8ab3bf3a02931f755c8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.un.org/en/information-integrity", "claim": "Complementary UN framework on information and technology governance, trust, and human rights."}, {"source_url": "https://www.un.org/en/tech-for-development", "claim": "Complementary UN technology and development policy context."}],
+  "boundary": "This record adds a cross-sector foresight route linking science, technology, risk, opportunity, power, accountability, preparedness, and anticipatory governance. It uses an expert horizon-scanning assessment, not a technology-adoption census, public-opinion survey, causal impact estimate, probability forecast, implementation audit, or proof that governance responses will distribute benefits equitably.",
+  "reproduction_audit": {"retrieval_hash_scope": "The UN Scientific Advisory Board's official Horizon Scanning 2026 page and executive-report description were reviewed for the 192-expert and 11-network input frame, cross-sector scope, 12-month and five-year horizons, and non-predictive governance boundary.", "source_url_sha256": "sha256:f9a08825856fc491f1f1a55d48dabcbc1ec18b51779fa8ab3bf3a02931f755c8", "checked": "2026-09-27"}
+}

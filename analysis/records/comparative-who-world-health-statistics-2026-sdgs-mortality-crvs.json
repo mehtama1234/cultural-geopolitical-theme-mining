@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-world-health-statistics-2026-sdgs-mortality-crvs",
+  "title": "Global health progress is moving in the right direction but remains off track, with pandemic scars and weak mortality information limiting public capacity to see and respond",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Health Organization, World health statistics 2026: monitoring health for the SDGs",
+  "geography": "WHO Member States, regions, and global health indicators associated with the Sustainable Development Goals",
+  "observations": [
+    {
+      "period": "2026; progress toward 2030 health-related SDG targets",
+      "denominator": {"value": 52, "unit": "health-related SDG indicators with a numeric SDG or other global target", "value_type": "global_indicator_frame"},
+      "measures": {
+        "indicators_on_track": {"value": 0, "unit": "health-related indicators judged on track globally for their 2030 target", "value_type": "reported_global_assessment"},
+        "direction_of_change": {"value": "many indicators continue to improve, including universal health coverage, key infectious diseases, safe water, sanitation, hygiene, and clean cooking", "unit": "WHO global synthesis", "value_type": "reported_trend"},
+        "tobacco_alcohol": {"value": "tobacco use and alcohol consumption have declined since 2010 but not fast enough to fully meet global targets", "unit": "WHO global synthesis", "value_type": "reported_trend"}
+      },
+      "method": "WHO annual compilation of the latest available health and health-related indicators and progress toward health-related SDG targets.",
+      "uncertainty": "The global assessment aggregates indicators with different reference years, coverage, definitions, and target structures; no single score represents population health or service quality.",
+      "subgroup": "Populations, health systems, governments, and communities across WHO regions and income settings.",
+      "counterinterpretation": "A zero-indicator on-track assessment does not mean every health outcome is worsening; it identifies insufficient aggregate pace relative to 2030 ambitions.",
+      "source_url": "https://www.who.int/data/stories/world-health-statistics-2026--a-visual-summary",
+      "retrieval_hash": "sha256:17e44860b7870b4d211bc71bea57aaa9bca9912ec7aacbcf106a3a19e9748f48",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2023; global excess mortality associated with the COVID-19 pandemic",
+      "denominator": {"value": 1, "unit": "global excess-mortality estimation frame", "value_type": "global_mortality_frame"},
+      "measures": {
+        "global_excess_deaths": {"value": 22100000, "unit": "estimated excess deaths globally from 2020 through 2023", "value_type": "modelled_population_estimate"},
+        "reported_covid_deaths": {"value": 7000000, "unit": "reported COVID-19 deaths used for comparison", "value_type": "reported_population_count"},
+        "peak_excess_deaths": {"value": 10400000, "unit": "estimated excess deaths in 2021", "value_type": "modelled_population_estimate"},
+        "2023_excess_deaths": {"value": 3300000, "unit": "estimated excess deaths in 2023", "value_type": "modelled_population_estimate"}
+      },
+      "method": "WHO modelled excess mortality compares all-cause deaths with expected historical mortality and captures direct and indirect pandemic effects.",
+      "uncertainty": "Excess mortality is modelled where registration is incomplete and is not a clinical classification of each death or a causal decomposition of all indirect effects.",
+      "subgroup": "Populations affected by infection, care disruption, delayed treatment, reporting gaps, and health-system strain.",
+      "counterinterpretation": "Declining excess mortality after 2021 indicates recovery from the peak even though cumulative mortality remains far above reported COVID-19 deaths.",
+      "source_url": "https://www.who.int/data/stories/world-health-statistics-2026--a-visual-summary",
+      "retrieval_hash": "sha256:17e44860b7870b4d211bc71bea57aaa9bca9912ec7aacbcf106a3a19e9748f48",
+      "status": "estimated"
+    },
+    {
+      "period": "2019-2023; life expectancy and healthy life expectancy recovery",
+      "denominator": {"value": 1, "unit": "global and WHO-region life-expectancy comparison frame", "value_type": "population_health_frame"},
+      "measures": {
+        "recovery_pattern": {"value": "overall life expectancy and healthy life expectancy remained slightly below 2019 levels in the latest comparison", "unit": "WHO global health estimates synthesis", "value_type": "reported_recovery_assessment"},
+        "female_recovery": {"value": "female life expectancy fully rebounded by 2023", "unit": "WHO global health estimates synthesis", "value_type": "reported_recovery_assessment"},
+        "uneven_recovery": {"value": "recovery is uneven across regions, with overlapping pandemic, disaster, and armed-conflict shocks straining systems", "unit": "WHO regional synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "WHO global health estimates and regional comparison of life expectancy and healthy life expectancy before and after the pandemic period.",
+      "uncertainty": "Life expectancy and HALE are population averages; they do not measure disability, care access, lived well-being, or the distribution of recovery within a country.",
+      "subgroup": "Women and men, WHO regions, lower-income and higher-income populations, and communities exposed to overlapping shocks.",
+      "counterinterpretation": "Long-run gains in prevention, diagnosis, and treatment remain substantial; a modest aggregate shortfall from 2019 does not erase those gains.",
+      "source_url": "https://www.who.int/data/stories/world-health-statistics-2026--a-visual-summary",
+      "retrieval_hash": "sha256:17e44860b7870b4d211bc71bea57aaa9bca9912ec7aacbcf106a3a19e9748f48",
+      "status": "reported"
+    },
+    {
+      "period": "2023; civil registration and cause-of-death information",
+      "denominator": {"value": 61000000, "unit": "estimated global deaths in 2023", "value_type": "global_death_estimate"},
+      "measures": {
+        "deaths_reported_with_cause": {"value": 21000000, "unit": "deaths reported to WHO with cause-of-death information", "value_type": "reported_death_count"},
+        "detailed_icd_coded_deaths": {"value": 15000000, "unit": "deaths reported with detailed three- or four-digit ICD coding", "value_type": "reported_death_count"},
+        "meaningful_cause_information": {"value": 12000000, "unit": "deaths with meaningful cause-of-death information after ill-defined or unspecified causes are accounted for", "value_type": "reported_death_count"},
+        "information_share": {"value": 20, "unit": "approximate share of estimated global deaths with meaningful cause-of-death information", "value_type": "reported_global_share"},
+        "institutional_role": {"value": "civil registration and vital statistics support legal identity, emergency detection, inequality measurement, resource allocation, and health planning", "unit": "WHO governance framing", "value_type": "reported_institutional_mechanism"}
+      },
+      "method": "WHO comparison of estimated global deaths with deaths reported through civil registration and vital-statistics systems and medically certified, ICD-coded causes.",
+      "uncertainty": "The figures reflect reporting and coding coverage as well as mortality; they do not identify which populations are missing from registration or establish why reporting capacity differs.",
+      "subgroup": "Countries with incomplete civil registration, families needing legal identity, public-health authorities, and communities whose mortality patterns are undercounted.",
+      "counterinterpretation": "Improved registration may initially reveal more deaths or causes without indicating a worsening health situation; visibility is a prerequisite for better response, not evidence of response by itself.",
+      "source_url": "https://www.who.int/data/stories/world-health-statistics-2026--a-visual-summary",
+      "retrieval_hash": "sha256:17e44860b7870b4d211bc71bea57aaa9bca9912ec7aacbcf106a3a19e9748f48",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/publications/b/82976", "claim": "Official WHO publication page for World health statistics 2026 and its publication metadata."},
+    {"source_url": "https://www.who.int/data/gho/publications/world-health-statistics/2022", "claim": "WHO annual World Health Statistics index with 2026 tables and visual-summary links."}
+  ],
+  "boundary": "This record adds an aggregate health-progress, pandemic-mortality, life-expectancy-recovery, and mortality-information route. It uses WHO indicators, modelled estimates, and health-system reporting synthesis, not respondent-level medical histories, patient records, individual treatment effects, household health diaries, or proof that better measurement automatically improves care.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO World health statistics 2026 publication page, WHO annual-report index, and visual summary reviewed for SDG progress, excess mortality, life-expectancy recovery, and civil-registration findings.",
+    "source_url_sha256": "sha256:b9916a6ae57938c828b7e94ebed2ae83e96e056e75276b03805782b78d0e6339",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-soci-local-discovery-ai-verification-loop-2026",
+  "title": "AI becomes a local-business discovery gateway, but consumer trust moves the decision into a cross-channel verification loop",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "SOCi, 2026 Local Discovery Index",
+  "geography": "United States; consumers researching local businesses",
+  "observations": [
+    {
+      "period": "2024-2026 annual Local Discovery Index editions; local-business discovery channels",
+      "denominator": {"value": 1000, "unit": "more than 1,000 U.S. consumers per 2026 survey; weighted by age, gender, and household income", "value_type": "reported_survey_sample"},
+      "measures": {
+        "ai_local_search_2026": {"value": 52, "unit": "percent using an AI tool to find a local business in the last 30 days", "value_type": "published_survey_estimate"},
+        "ai_local_search_2025": {"value": 19, "unit": "percent using AI search in the early-2025 comparison cited by SOCi", "value_type": "published_survey_estimate"},
+        "search_local_discovery": {"value": 83, "unit": "percent using search for local discovery", "value_type": "published_survey_estimate"},
+        "social_local_discovery": {"value": 55, "unit": "percent using social media for local discovery in 2026", "value_type": "published_survey_estimate"},
+        "multi_surface_discovery": {"value": "Local discovery is becoming multi-surface rather than search-only: AI, search, social, maps, and reviews coexist in the same decision path.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "SOCi annual consumer survey, reported as the third edition of the Local Discovery Index; more than 1,000 U.S. consumers in 2026, weighted to mirror the U.S. population on age, gender, and household income; figures rounded.",
+      "uncertainty": "This is vendor-sponsored, self-reported consumer research; annual comparisons are not a panel, and survey wording, recruitment, and channel definitions limit causal or population-trend interpretation.",
+      "subgroup": "U.S. consumers by income, generation, local-business category, and discovery channel.",
+      "counterinterpretation": "Reported AI use may include embedded search summaries or broad AI-assisted research rather than a discrete replacement for search; industry marketing may emphasize adoption growth.",
+      "source_url": "https://www.soci.ai/blog/ai-local-search-verification-loop/",
+      "retrieval_hash": "sha256:b3eb69855bee1c28c55d2bed2874ed94db4dc345f6214a2b264c2ac9dc403df8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Local Discovery Index; verification after an AI recommendation",
+      "denominator": {"value": 1000, "unit": "more than 1,000 U.S. consumers; AI-user and item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "wrong_local_business_information": {"value": 67, "unit": "percent of AI users saying an AI tool gave them wrong information about a local business at least once", "value_type": "published_subgroup_estimate"},
+        "real_inconvenience": {"value": 30, "unit": "percent reporting a real inconvenience from wrong local-business AI information", "value_type": "published_subgroup_estimate"},
+        "verify_before_contact": {"value": 81, "unit": "percent taking a verification step before contacting a business after an AI recommendation", "value_type": "published_subgroup_estimate"},
+        "direct_contact_without_verification": {"value": 19, "unit": "percent going straight from an AI recommendation to contacting the business", "value_type": "published_subgroup_estimate"},
+        "verification_loop": {"value": "AI discovery does not end evaluation; inaccurate or incomplete answers push consumers into reviews, social media, independent search, or multiple-source checking before action.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Self-reported survey of local-business discovery and post-recommendation verification behavior; SOCi reports the 2026 channel and trust estimates.",
+      "uncertainty": "The survey does not observe clickstream sequences, verify whether information was actually wrong, or identify whether verification improved purchase outcomes.",
+      "subgroup": "Consumers using AI for local-business discovery, with income and generational comparisons.",
+      "counterinterpretation": "Verification may be habitual rather than a response to distrust; respondents may overreport checking behavior.",
+      "source_url": "https://www.soci.ai/blog/ai-local-search-verification-loop/",
+      "retrieval_hash": "sha256:b3eb69855bee1c28c55d2bed2874ed94db4dc345f6214a2b264c2ac9dc403df8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Local Discovery Index; reviews, responsiveness, and local conversion",
+      "denominator": {"value": 1000, "unit": "more than 1,000 U.S. consumers; item-specific bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "read_reviews": {"value": 99, "unit": "percent reading reviews before a first visit at least some of the time", "value_type": "published_survey_estimate"},
+        "choose_business_responding_reviews": {"value": 72, "unit": "percent more likely to choose a business that responds to reviews", "value_type": "published_survey_estimate"},
+        "helpful_response_revisit": {"value": 65, "unit": "percent more likely to revisit after a helpful response to a negative review", "value_type": "published_survey_estimate"},
+        "negative_review_revise_after_response": {"value": 87, "unit": "percent more likely to revise a negative review positively if the business responds helpfully", "value_type": "published_survey_estimate"},
+        "reputation_as_conversion_layer": {"value": "Reviews and business responses function as a conversion and remedy layer between algorithmic visibility and local action, not merely as a ranking signal.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Consumer survey estimates on review reading, business responsiveness, revisit intention, and review revision.",
+      "uncertainty": "Intentions and stated likelihood are not observed purchases, repeat visits, or review changes; the vendor's commercial position may shape emphasis on reputation management.",
+      "subgroup": "U.S. consumers by income, local-business category, and discovery pathway.",
+      "counterinterpretation": "People who value reviews may also be more conscientious evaluators and more likely to respond positively to any credible business information.",
+      "source_url": "https://www.soci.ai/blog/ai-local-search-verification-loop/",
+      "retrieval_hash": "sha256:b3eb69855bee1c28c55d2bed2874ed94db4dc345f6214a2b264c2ac9dc403df8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Local Discovery Index; unequal adoption and category-specific discovery",
+      "denominator": {"value": 1000, "unit": "more than 1,000 U.S. consumers; subgroup bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "regular_ai_use_income_gap": {"value": "Regular AI use rises from 47% among consumers earning under $50,000 to 76% among consumers earning $100,000 or more.", "unit": "reported income comparison", "value_type": "published_subgroup_estimate"},
+        "regular_ai_use_generation": {"value": "Regular use is reported at 63% for Millennials, 49% for Gen Z, 48% for Gen X, and 11% for Baby Boomers.", "unit": "reported generational comparison", "value_type": "published_subgroup_estimate"},
+        "category_path_difference": {"value": "AI-first journeys are most common in healthcare and grocery, social is a notable starting point for financial services, and maps lead fuel and auto searches.", "unit": "reported category comparison", "value_type": "published_subgroup_estimate"},
+        "stratified_visibility": {"value": "The AI-mediated local marketplace is not one uniform consumer shift: access, discovery route, and verification burden vary by income, generation, and category.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "SOCi subgroup and category analysis from the 2026 Local Discovery Index; descriptive comparisons are retained as reported rather than causal effects.",
+      "uncertainty": "Subgroup estimates may have larger uncertainty than the overall survey; category comparisons may reflect different search needs and respondent composition.",
+      "subgroup": "U.S. consumers by household income, generation, and local-business category.",
+      "counterinterpretation": "Observed differences may reflect age, income, device access, local business mix, or familiarity with AI rather than unequal platform power alone.",
+      "source_url": "https://www.soci.ai/blog/ai-local-search-verification-loop/",
+      "retrieval_hash": "sha256:b3eb69855bee1c28c55d2bed2874ed94db4dc345f6214a2b264c2ac9dc403df8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.soci.ai/blog/ai-local-search-verification-loop/", "claim": "Official SOCi publication containing the 2026 Local Discovery Index findings, trend comparisons, methodology, channel use, verification behavior, review response, and subgroup estimates.", "status": "official-company-research-page"}
+  ],
+  "boundary": "This record adds a local consumer-discovery route: AI increases discovery reach but shifts trust and conversion into a cross-channel verification loop involving search, reviews, social media, maps, and direct business information. It does not establish causal effects on sales, verify AI errors, observe individual journeys, or represent a probability sample; the research is vendor-sponsored and directional.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official SOCi publication was reviewed for the Local Discovery Index sample description, annual comparison, AI and social discovery rates, incorrect-information and verification measures, review-response measures, income/generation differences, category variation, and limitations.",
+    "source_page_sha256": "sha256:b3eb69855bee1c28c55d2bed2874ed94db4dc345f6214a2b264c2ac9dc403df8",
+    "checked": "2026-09-28"
+  }
+}

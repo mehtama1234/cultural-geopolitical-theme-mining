@@ -1,0 +1,116 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-next-great-divergence-2026-ai-capability-inequality",
+  "title": "AI may widen global and internal divergence when infrastructure, skills, institutions, and voice arrive unevenly",
+  "theme_ids": ["work", "voice", "cost", "energy", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "United Nations Development Programme Regional Bureau for Asia and the Pacific, The Next Great Divergence: Why AI May Widen Inequality Between Countries",
+  "geography": "Asia-Pacific, with country and within-country comparisons across different levels of income, digital readiness, institutional capacity, connectivity, skills, and gender equality; recommendations are presented as globally relevant",
+  "observations": [
+    {
+      "period": "2026; Asia-Pacific AI and human-development assessment",
+      "denominator": {
+        "value": 1,
+        "unit": "regional human-development report covering Asia-Pacific countries and internal capability differences",
+        "value_type": "regional_report_frame"
+      },
+      "measures": {
+        "central_risk": {"value": "AI can produce a new divergence if gains concentrate among countries, cities, large firms, and highly skilled workers while lower-capacity places face weaker infrastructure, skills, and governance", "unit": "reported analytical framing", "value_type": "reported_framework"},
+        "transmission_channels": {"value": "the report analyzes unequal AI effects through people, economy, and governance", "unit": "reported analytical channels", "value_type": "reported_taxonomy"},
+        "starting_point_gap": {"value": "countries and communities differ sharply in power, connectivity, skills, data, institutional capacity, and ability to absorb shocks", "unit": "reported structural condition", "value_type": "reported_pattern"},
+        "decision_window": {"value": "current choices and safeguards are presented as shaping development trajectories for decades", "unit": "reported policy horizon", "value_type": "reported_horizon"}
+      },
+      "method": "UNDP synthesis drawing on nine background papers, regional evidence, country comparisons, sector analysis, and policy roadmaps; it is a forward-looking human-development assessment rather than a causal forecast of AI effects.",
+      "uncertainty": "The report emphasizes substantial uncertainty about the scale and distribution of AI gains; regional diversity makes sweeping country-level conclusions inappropriate, and many impacts remain scenario-based or conditional.",
+      "subgroup": "Lower-capacity and remote communities, rural residents, women, informal and care workers, minorities, displaced people, small firms, routine workers, and countries with weak power, connectivity, data, or institutional systems.",
+      "counterinterpretation": "AI could allow latecomers to leapfrog through local-language education, health support, agricultural advice, disaster warning, and public-service access if foundational systems and safeguards are built inclusively.",
+      "source_url": "https://www.undp.org/cambodia/publications/next-great-divergence",
+      "retrieval_hash": "sha256:cc09dca6ccf34bd006fe0686e3d4791aedcb72718975def5e7c53f190ed81eed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; people, capability, security, and environmental pressure",
+      "denominator": {
+        "value": 1,
+        "unit": "human-development channel in the report",
+        "value_type": "analytical_channel"
+      },
+      "measures": {
+        "capability_promise": {"value": "AI could support local-language tutoring, clinical triage, social-protection targeting, disaster prediction, and environmental monitoring", "unit": "reported use-case set", "value_type": "reported_opportunity"},
+        "exclusion_route": {"value": "people and communities missing from data can become invisible to AI systems, while opaque or biased systems can deny credit, benefits, or rights", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "gender_exposure": {"value": "women may face heightened exposure to algorithmic bias and online harm because of gender divides in digital access, informal work, and care economies", "unit": "reported distributional risk", "value_type": "reported_risk"},
+        "resource_cost": {"value": "large AI systems consume energy and water, creating environmental and infrastructure burdens alongside potential benefits", "unit": "reported externality", "value_type": "reported_externality"}
+      },
+      "method": "Human-development synthesis connecting AI applications to capability, security, rights, gender, data visibility, and environmental conditions.",
+      "uncertainty": "The report identifies plausible pathways and policy risks; it does not estimate a uniform effect of AI on health, education, benefits access, gender equality, or environmental outcomes.",
+      "subgroup": "Women and girls, rural and remote communities, elderly people, minorities, displaced people, people with weak digital access, and people dependent on public benefits or local services.",
+      "counterinterpretation": "The same systems that can exclude can also reduce distance and administrative burden when local data, human review, consent, and usable access are present.",
+      "source_url": "https://www.undp.org/cambodia/publications/next-great-divergence",
+      "retrieval_hash": "sha256:cc09dca6ccf34bd006fe0686e3d4791aedcb72718975def5e7c53f190ed81eed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; economy, jobs, and livelihoods channel",
+      "denominator": {
+        "value": 1,
+        "unit": "economic channel in the report",
+        "value_type": "analytical_channel"
+      },
+      "measures": {
+        "concentration_pattern": {"value": "early gains are expected to reach urban hubs, large firms, and highly skilled workers first, while rural communities, small businesses, and routine roles face greater disruption risk", "unit": "reported distributional pattern", "value_type": "reported_pattern"},
+        "sector_timing": {"value": "finance and pharmaceuticals may experience effects sooner than agriculture and construction, with productivity gains lagging adoption as firms retool workflows and skills", "unit": "reported sectoral mechanism", "value_type": "reported_mechanism"},
+        "gig_economy_tension": {"value": "AI can connect freelancers to global clients while allowing one worker to perform the work of many, potentially compressing rates and raising insecurity", "unit": "reported labor-market tension", "value_type": "reported_tension"},
+        "new_roles": {"value": "data work, model safety, and data-center maintenance are identified as emerging areas alongside shrinking clerical and content tasks", "unit": "reported occupational direction", "value_type": "reported_direction"}
+      },
+      "method": "Regional economic and labor-market synthesis using country starting points, sector differences, AI-readiness comparisons, and gig-economy analysis.",
+      "uncertainty": "The report does not provide a single employment forecast or causal estimate; outcomes depend on adoption speed, skills, firm reorganization, competition, labor institutions, and public policy.",
+      "subgroup": "Routine workers, gig workers, informal workers, women in care and informal economies, rural workers, small firms, urban high-skill workers, and workers in sectors with different adoption lead times.",
+      "counterinterpretation": "AI may raise productivity and create new work, and late adopters may benefit if public infrastructure, skills, competition, and worker protections prevent gains from being captured by incumbents.",
+      "source_url": "https://www.undp.org/cambodia/publications/next-great-divergence",
+      "retrieval_hash": "sha256:cc09dca6ccf34bd006fe0686e3d4791aedcb72718975def5e7c53f190ed81eed",
+      "status": "reported"
+    },
+    {
+      "period": "2026; governance and policy-roadmap framework",
+      "denominator": {
+        "value": 3,
+        "unit": "reported policy pillars: put people first, govern innovation responsibly, and build future-ready systems",
+        "value_type": "reported_policy_set"
+      },
+      "measures": {
+        "hard_levers": {"value": "connectivity, devices, compute, data centers, power, and other physical foundations", "unit": "reported policy lever family", "value_type": "reported_policy_set"},
+        "soft_levers": {"value": "skills, institutions, rules, competition, participation, and accountability", "unit": "reported policy lever family", "value_type": "reported_policy_set"},
+        "implementation_horizons": {"value": "immediate 0-12 months, medium 1-2 years, and longer 3-5 years", "unit": "reported sequencing horizons", "value_type": "reported_timeline"},
+        "governance_risks": {"value": "bias, opacity, privacy, cybersecurity, surveillance, imported-model dependency, and weak public capacity can erode trust and rights", "unit": "reported risk set", "value_type": "reported_risk"},
+        "inclusion_measurement": {"value": "the report calls for inclusion metrics, minimum standards, guardrails, and roadmaps tailored to different starting capacities", "unit": "reported implementation requirement", "value_type": "reported_requirement"}
+      },
+      "method": "Policy framework with capacity-tiered roadmaps and sector playbooks for health, education, finance, agriculture, cities, climate, public services, security, and justice.",
+      "uncertainty": "A roadmap or minimum standard does not establish implementation, financing, institutional ownership, or improved outcomes; capacity tiers can also simplify political and cultural differences within countries.",
+      "subgroup": "National and local governments, public-service users, civil society, firms, workers, communities with weak representation in data, and countries dependent on imported models or donor projects.",
+      "counterinterpretation": "Sequenced, locally adapted policy can turn AI into shared capability, but only if infrastructure investment is paired with public voice, rights protection, competition, and mechanisms for correction.",
+      "source_url": "https://www.undp.org/cambodia/publications/next-great-divergence",
+      "retrieval_hash": "sha256:cc09dca6ccf34bd006fe0686e3d4791aedcb72718975def5e7c53f190ed81eed",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-08/undp-kh-the-next-great-divergence.pdf", "claim": "Official 130-page UNDP report PDF, including the people, economy, governance, and policy-roadmap chapters."},
+    {"source_url": "https://hdr.undp.org/content/human-development-report-2025", "claim": "UNDP global Human Development Report 2025 context on AI, human choice, and development."}
+  ],
+  "boundary": "This record adds an AI-capability-to-divergence route across infrastructure, work, household security, public services, culture, gender, environment, and state capacity. It is not a causal country ranking, a respondent-level AI-use dataset, a forecast of aggregate inequality, or proof that any recommended safeguard has been implemented successfully.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP publication page and 130-page report PDF were reviewed for the Asia-Pacific frame, three transmission channels, distributional mechanisms, gender and environmental risks, nine background-paper foundation, and capacity-tiered policy recommendations.",
+    "source_url_sha256": "sha256:cc09dca6ccf34bd006fe0686e3d4791aedcb72718975def5e7c53f190ed81eed",
+    "checked": "2026-09-28"
+  }
+}

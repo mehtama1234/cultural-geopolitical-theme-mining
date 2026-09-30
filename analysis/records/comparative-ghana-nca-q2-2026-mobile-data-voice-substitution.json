@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ghana-nca-q2-2026-mobile-data-voice-substitution",
+  "title": "Ghana's mobile data reach is expanding faster than voice intensity, while fixed broadband remains a small layer",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ghana National Communications Authority, Telecom Industry Trends Dashboard, Q2 2026",
+  "geography": "Ghana; national telecommunications subscriptions and usage indicators",
+  "observations": [
+    {
+      "period": "Q4 2023-Q2 2026; mobile internet subscriptions",
+      "denominator": {
+        "value": 30500000,
+        "unit": "mobile internet subscriptions in Q2 2026; administrative subscription count, not unique individuals",
+        "value_type": "administrative_subscription_count"
+      },
+      "measures": {
+        "mobile_internet_subscriptions_q4_2023": {"value": 23200000, "unit": "subscriptions", "value_type": "administrative_count"},
+        "mobile_internet_subscriptions_q2_2026": {"value": 30500000, "unit": "subscriptions", "value_type": "administrative_count"},
+        "mobile_internet_penetration_q4_2023": {"value": 71.6, "unit": "percent penetration rate", "value_type": "administrative_penetration"},
+        "mobile_internet_penetration_q2_2026": {"value": 89.5, "unit": "percent penetration rate", "value_type": "administrative_penetration"},
+        "mechanism": {"value": "Mobile data reach is expanding rapidly, creating a larger infrastructure surface for digital culture, commerce, and social connection, but subscription penetration is not equivalent to unique-person access or meaningful use", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NCA administrative telecom-industry dashboard using reported operator subscription counts and a published penetration-rate series.",
+      "uncertainty": "Subscriptions can include multiple SIMs, inactive lines, shared devices, or machine connections; the dashboard does not measure household affordability, data volume, quality, or cultural use.",
+      "subgroup": "Ghana national mobile telecommunications market.",
+      "counterinterpretation": "Subscription growth may reflect multi-SIM behavior, promotions, and operator switching rather than equivalent growth in people connected or digital welfare.",
+      "source_url": "https://statisticaldashboard.nca.org.gh/",
+      "retrieval_hash": "sha256:03755ad8f371ffd7f1967886532c98380ed362dd1bf1d537b1df84cdc9385f55",
+      "status": "reported"
+    },
+    {
+      "period": "Q4 2023-Q2 2026; mobile voice subscriptions and voice intensity",
+      "denominator": {
+        "value": 44200000,
+        "unit": "mobile voice subscriptions in Q2 2026; administrative subscription count, not unique individuals",
+        "value_type": "administrative_subscription_count"
+      },
+      "measures": {
+        "mobile_voice_subscriptions_q4_2023": {"value": 33400000, "unit": "subscriptions", "value_type": "administrative_count"},
+        "mobile_voice_subscriptions_q2_2026": {"value": 44200000, "unit": "subscriptions", "value_type": "administrative_count"},
+        "mobile_voice_minutes_per_subscription_q4_2023": {"value": 794, "unit": "minutes per subscription", "value_type": "administrative_usage_rate"},
+        "mobile_voice_minutes_per_subscription_q2_2026": {"value": 701, "unit": "minutes per subscription", "value_type": "administrative_usage_rate"},
+        "mobile_voice_minutes_change": {"value": -11.7, "unit": "percent change in minutes per subscription from Q4 2023 to Q2 2026", "value_type": "calculated_administrative_change"},
+        "mechanism": {"value": "The market is adding more voice subscriptions while average voice minutes per subscription decline, consistent with communication shifting toward data-mediated messaging and services, though the dashboard cannot identify the substitution directly", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NCA quarterly administrative indicators for mobile voice subscription counts and minutes of use per subscription.",
+      "uncertainty": "Minutes per subscription are not person-level behavior and are affected by multi-SIMs, tariff design, business lines, network effects, and measurement changes; data use is not directly observed here.",
+      "subgroup": "Ghana mobile voice market and its subscription base.",
+      "counterinterpretation": "Voice minutes can fall because of pricing or app-mediated calling without a broad cultural shift; subscription growth and use intensity may belong to different user populations.",
+      "source_url": "https://statisticaldashboard.nca.org.gh/",
+      "retrieval_hash": "sha256:03755ad8f371ffd7f1967886532c98380ed362dd1bf1d537b1df84cdc9385f55",
+      "status": "reported"
+    },
+    {
+      "period": "Q1-Q2 2026; fixed broadband infrastructure",
+      "denominator": {
+        "value": 294626,
+        "unit": "fibre broadband subscriptions in Q2 2026; administrative subscription count",
+        "value_type": "administrative_subscription_count"
+      },
+      "measures": {
+        "fibre_broadband_subscriptions_q1_2026": {"value": 273095, "unit": "subscriptions", "value_type": "administrative_count"},
+        "fibre_broadband_subscriptions_q2_2026": {"value": 294626, "unit": "subscriptions", "value_type": "administrative_count"},
+        "fibre_broadband_quarterly_growth": {"value": 7.9, "unit": "percent quarter-over-quarter growth", "value_type": "administrative_growth_rate"},
+        "mobile_internet_subscriptions_to_fibre_ratio": {"value": 103.5, "unit": "mobile internet subscriptions per fibre broadband subscription in Q2 2026; calculated ratio", "value_type": "calculated_administrative_ratio"},
+        "mechanism": {"value": "Ghana's digital-consumer infrastructure remains overwhelmingly mobile relative to fixed fibre, so platform and cultural access may be mediated by handset data, network congestion, and prepaid affordability rather than stable home broadband", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NCA Q1-Q2 2026 administrative subscription indicators; the mobile-to-fibre ratio is calculated from the dashboard counts.",
+      "uncertainty": "Subscription counts do not reveal geography, household sharing, speed, reliability, price, or actual use; the calculated ratio is a market-structure indicator, not a household access ratio.",
+      "subgroup": "Ghana mobile internet and fibre broadband markets.",
+      "counterinterpretation": "Mobile networks may provide adequate access for many users, while fibre subscriptions can serve multiple people or businesses; fixed broadband is not inherently a better cultural or consumer experience for every activity.",
+      "source_url": "https://statisticaldashboard.nca.org.gh/",
+      "retrieval_hash": "sha256:03755ad8f371ffd7f1967886532c98380ed362dd1bf1d537b1df84cdc9385f55",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://statisticaldashboard.nca.org.gh/",
+      "claim": "Official NCA dashboard reports Q2 2026 mobile voice, mobile internet, voice-use, and fibre subscription series.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds Ghana administrative telecommunications evidence on mobile data reach, voice intensity, and fixed broadband structure. Subscription counts are not unique-person access, household connectivity, consumer spending, cultural participation, or proof of data-mediated substitution.",
+  "retrieval_hash": "sha256:03755ad8f371ffd7f1967886532c98380ed362dd1bf1d537b1df84cdc9385f55"
+}

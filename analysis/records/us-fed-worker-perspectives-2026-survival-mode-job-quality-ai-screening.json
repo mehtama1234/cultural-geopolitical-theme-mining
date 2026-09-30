@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fed-worker-perspectives-2026-survival-mode-job-quality-ai-screening",
+  "title": "When costs outrun wages, work shifts from mobility strategy to survival strategy",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Federal Reserve Worker Perspectives Project, When Every Dollar Counts: Inside the Economic Struggles of Workers Who Earn Low to Moderate Incomes, 2026; 11 focus groups conducted with Ipsos in late 2025",
+  "geography": "United States; low- to moderate-income households with annual household income of $85,000 or less",
+  "observations": [
+    {
+      "period": "October–December 2025; scope and economic context",
+      "denominator": {"value": 63, "unit": "participants in 11 U.S. focus groups, including Spanish-language sessions", "value_type": "reported_qualitative_sample"},
+      "measures": {
+        "income_threshold": {"value": 85000, "unit": "annual household income threshold for inclusion, approximately half of U.S. households", "value_type": "reported_threshold"},
+        "survival_vs_success": {"value": "participants described a stronger focus on survival, cost pressure, and financial stress in 2025 than in the 2022 research", "unit": "reported qualitative pattern", "value_type": "reported_comparison"},
+        "four_report_themes": {"value": "survival mode; constrained upward mobility; job search and job-quality tradeoffs; perseverance amid low macro confidence", "unit": "author-synthesized themes", "value_type": "reported_thematic_synthesis"}
+      },
+      "method": "Qualitative focus-group research recruited across the United States; the report is designed to explain the why, what, and how behind aggregate labor-market and household trends.",
+      "uncertainty": "The 63 participants are not a probability sample and their comments cannot estimate national prevalence, average income effects, or causal labor-market outcomes.",
+      "subgroup": "Workers and job seekers in low- to moderate-income households; household sizes and employment situations vary.",
+      "counterinterpretation": "Focus-group language may emphasize hardship, and changes from 2022 may reflect different participants, economic context, question framing, or recall rather than a population-wide shift.",
+      "source_url": "https://fedcommunities.org/research/2026-report-when-every-dollar-counts/",
+      "retrieval_hash": "sha256:98ff673689b1829b87e56e945cb84a2e87750a5c4cf722e05968c0f0f8ddffbd",
+      "status": "reported"
+    },
+    {
+      "period": "2025 compared with 2022; economic mobility and employment risk",
+      "denominator": {"value": 1, "unit": "author-reported qualitative comparison across Worker Perspectives focus-group rounds", "value_type": "source_defined_comparison_universe"},
+      "measures": {
+        "mobility_strategy_shift": {"value": "in 2022 many participants were more willing to leave jobs, pursue credentials, or consider self-employment; in 2025 many were less willing to risk a change and focused on maintaining income", "unit": "reported qualitative comparison", "value_type": "reported_comparison"},
+        "education_and_skill_barrier": {"value": "few participants pursued education; cost, childcare, work-school balance, and uncertainty about returns were recurring barriers", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "job_hugging": {"value": "employed participants often stayed in imperfect jobs because equivalent or better opportunities felt difficult to find", "unit": "reported qualitative pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative qualitative synthesis of Worker Perspectives focus groups conducted in 2022 and 2025.",
+      "uncertainty": "The comparison is not a longitudinal panel of the same participants and cannot quantify the share of workers changing behavior or identify a single cause.",
+      "subgroup": "LMI workers and job seekers represented in the two focus-group rounds.",
+      "counterinterpretation": "Staying in a job can reflect satisfaction, caregiving, geographic limits, benefits, or risk preferences as well as weakened mobility; pursuing education may be delayed rather than abandoned.",
+      "source_url": "https://fedcommunities.org/research/2026-report-when-every-dollar-counts/",
+      "retrieval_hash": "sha256:98ff673689b1829b87e56e945cb84a2e87750a5c4cf722e05968c0f0f8ddffbd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; household coping and side work",
+      "denominator": {"value": 1, "unit": "qualitative focus-group discussion universe", "value_type": "source_defined_qualitative_universe"},
+      "measures": {
+        "side_hustle_function": {"value": "formal gig work and informal side work were described primarily as ways to cover costs or bridge unemployment, not as durable self-employment pathways", "unit": "reported qualitative pattern", "value_type": "reported_interpretation"},
+        "survival_coping": {"value": "participants described changing consumption, extending credit, and relying on formal or informal safety nets to make ends meet", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "long_term_tradeoff": {"value": "month-to-month necessities crowded out savings, education, skill-building, and longer-arc career investment", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative coding and synthesis of participant accounts of household budgets, employment changes, side work, credit, and support networks.",
+      "uncertainty": "The report captures perceived strategies and experiences, not verified income, spending, debt, hours, or later household outcomes.",
+      "subgroup": "LMI participants experiencing employment or cost pressure; coping routes differ by household and work situation.",
+      "counterinterpretation": "Side work can provide agency, networking, or future business opportunities for some participants; informal support can be protective rather than evidence of failure.",
+      "source_url": "https://fedcommunities.org/research/2026-report-when-every-dollar-counts/",
+      "retrieval_hash": "sha256:98ff673689b1829b87e56e945cb84a2e87750a5c4cf722e05968c0f0f8ddffbd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; job quality and work-life tradeoffs",
+      "denominator": {"value": 1, "unit": "qualitative focus-group discussion universe", "value_type": "source_defined_qualitative_universe"},
+      "measures": {
+        "compensation_priority": {"value": "adequate compensation was foundational because participants needed income to meet household necessities", "unit": "reported qualitative priority", "value_type": "reported_pattern"},
+        "flexibility_and_care": {"value": "flexibility, work-life balance, and time for caregiving, family, and self-care remained important", "unit": "reported qualitative priority", "value_type": "reported_pattern"},
+        "quality_as_aspiration": {"value": "in 2025 job-quality features were more often described as aspirational or nice to have than as conditions that would determine whether participants accepted or left a job", "unit": "reported comparison with 2022", "value_type": "reported_comparison"}
+      },
+      "method": "Qualitative comparison of how participants described compensation, benefits, flexibility, advancement, culture, meaning, and work-life balance in job decisions.",
+      "uncertainty": "The report does not rank job-quality attributes with a representative choice experiment or observe actual offers, schedules, wages, or turnover.",
+      "subgroup": "LMI workers and job seekers, including caregivers and people in unstable employment.",
+      "counterinterpretation": "Some workers may reject jobs for nonfinancial reasons or value flexibility over pay; the reported shift may reflect labor-market scarcity rather than a permanent change in preferences.",
+      "source_url": "https://fedcommunities.org/research/2026-report-when-every-dollar-counts/",
+      "retrieval_hash": "sha256:98ff673689b1829b87e56e945cb84a2e87750a5c4cf722e05968c0f0f8ddffbd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; technology-mediated job search",
+      "denominator": {"value": 1, "unit": "qualitative job-search discussion universe", "value_type": "source_defined_qualitative_universe"},
+      "measures": {
+        "ai_screening_barrier": {"value": "many active job seekers perceived AI screening and automated interviews as making it harder to reach human consideration", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "job_scam_exposure": {"value": "some participants described suspected or experienced job scams that sought information or money", "unit": "reported qualitative pattern", "value_type": "reported_pattern"},
+        "confidence_effect": {"value": "technology-mediated screening and nonresponse compounded uncertainty and reduced confidence in navigating the labor market", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative accounts of applications, employer response, AI interaction, automated screening, and suspected job scams.",
+      "uncertainty": "Participants’ perceptions do not establish how often AI actually screened them out, whether screening was accurate, or the prevalence of job scams nationally.",
+      "subgroup": "Participants actively or passively searching for jobs in LMI households.",
+      "counterinterpretation": "Automated tools can improve matching, reduce employer burden, or detect fraud; lack of response can also reflect labor-market volume or employer practices unrelated to AI.",
+      "source_url": "https://fedcommunities.org/research/2026-report-when-every-dollar-counts/",
+      "retrieval_hash": "sha256:98ff673689b1829b87e56e945cb84a2e87750a5c4cf722e05968c0f0f8ddffbd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.59695/20260624", "claim": "DOI and citation record for the Federal Reserve Worker Perspectives report.", "status": "primary-publication"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm", "claim": "Federal Reserve SHED employment and job-quality statistics provide quantitative context but are not pooled with this qualitative study.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a U.S. lived-experience mechanism behind labor-market and household-security trends: cost pressure can shift workers from mobility and long-term investment toward survival, job retention, side work, and defensive search behavior. It is a qualitative focus-group study, not a nationally representative prevalence estimate, longitudinal panel, or causal evaluation of AI, wages, or employment policy.",
+  "retrieval_hash": "sha256:98ff673689b1829b87e56e945cb84a2e87750a5c4cf722e05968c0f0f8ddffbd"
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itdf-human-purpose-peril-2026-ai-meaning-agency-social-bonds",
+  "title": "Americans are using AI as a practical life infrastructure while fearing losses of purpose, agency and human connection",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Imagining the Digital Future Center at Elon University, Human Purpose in Peril national public-opinion poll",
+  "geography": "United States adults, including large language model users and demographic subgroups",
+  "observations": [
+    {
+      "period": "May 14-18, 2026 fieldwork; report September 2026",
+      "denominator": {"value": 1505, "unit": "U.S. adults in nationally representative survey, including 1163 LLM users and an oversample of 501 LLM users", "value_type": "survey_respondents"},
+      "measures": {
+        "human_connection_concern": {"value": 69, "unit": "per cent saying AI will weaken human-to-human bonds a lot or somewhat", "value_type": "published_survey_estimate"},
+        "purpose_concern": {"value": 64, "unit": "per cent agreeing AI replacing humans in most tasks will undermine purpose and meaning, versus 36 per cent choosing the purpose-enhancing alternative", "value_type": "published_survey_estimate"},
+        "agency_confidence": {"value": "55 per cent are not confident people will retain critical-thinking and information-evaluation ability; 46 per cent are not confident people will maintain motivation and purpose.", "unit": "reported public confidence distribution", "value_type": "published_survey_estimate"},
+        "institution_first_frame": {"value": "The report argues that individual resilience is insufficient and that institutions must help people preserve agency during AI transition.", "unit": "reported analytical frame", "value_type": "reported_interpretation"}
+      },
+      "method": "National public-opinion survey conducted May 14-18, 2026, with an LLM-user oversample; overall margin of error reported as plus or minus 3.1 percentage points.",
+      "uncertainty": "These are expectations and confidence judgments, not observed changes in social connection, cognition, purpose or institutional performance; the oversample makes LLM-user estimates analytically useful but requires attention to weighting and subgroup precision.",
+      "subgroup": "U.S. adults and LLM users by age, race and ethnicity, gender, employment, education, parental status and party identification.",
+      "counterinterpretation": "AI may alter the form of social connection and meaning without reducing them; fears of dehumanization may coexist with new learning, creativity and communication capabilities.",
+      "source_url": "https://imaginingthedigitalfuture.org/wp-content/uploads/2026/09/ITDF-AI-resilience-report-9-15-26.pdf",
+      "retrieval_hash": "sha256:7d2c7d61943500dd81d0174dcf89699d50b6f8c749e460dd3aea0aa634abb1c9",
+      "status": "reported"
+    },
+    {
+      "period": "May 14-18, 2026 fieldwork; weekly LLM use and personal-agent adoption",
+      "denominator": {"value": 1505, "unit": "U.S. adults in the national survey", "value_type": "survey_respondents"},
+      "measures": {
+        "weekly_llm_use": {"value": 65, "unit": "per cent saying they used an LLM in the past week, up from 52 per cent in early 2025", "value_type": "published_survey_estimate"},
+        "personal_agent_adoption": {"value": 20, "unit": "per cent of LLM users who have built a custom AI agent; 36 per cent among adults ages 18-29", "value_type": "published_subgroup_estimate"},
+        "everyday_influence": {"value": 63, "unit": "per cent saying AI already heavily influences daily routine or will do so within five years", "value_type": "published_survey_estimate"},
+        "nonuse_boundary": {"value": 16, "unit": "per cent expecting AI will never significantly affect them", "value_type": "published_survey_estimate"}
+      },
+      "method": "National survey of U.S. adults with questions about recent LLM use, custom agents and expected everyday influence.",
+      "uncertainty": "Weekly use does not establish intensity, quality, dependency, economic benefit or control over models; custom-agent construction may range from experimentation to sustained delegation.",
+      "subgroup": "U.S. adults by age, race and ethnicity, gender, work status and parental status; LLM users are analyzed separately.",
+      "counterinterpretation": "Rapid adoption can reflect low-cost experimentation and useful assistance rather than deep social displacement; reported nonuse may change as access and awareness spread.",
+      "source_url": "https://imaginingthedigitalfuture.org/wp-content/uploads/2026/09/ITDF-AI-resilience-report-9-15-26.pdf",
+      "retrieval_hash": "sha256:7d2c7d61943500dd81d0174dcf89699d50b6f8c749e460dd3aea0aa634abb1c9",
+      "status": "reported"
+    },
+    {
+      "period": "May 14-18, 2026 fieldwork; AI as personal advisor and decision infrastructure",
+      "denominator": {"value": 1163, "unit": "LLM users in the survey, with reported use of bots for personal and business needs", "value_type": "survey_subsample"},
+      "measures": {
+        "informal_learning": {"value": 77, "unit": "per cent of LLM users using chatbots for self-directed informal learning", "value_type": "published_survey_estimate"},
+        "product_research": {"value": 76, "unit": "per cent of LLM users using chatbots for product research", "value_type": "published_survey_estimate"},
+        "life_decision_use": {"value": "LLMs played a role for users in managing a medical condition (49%), upgrading job skills (44%), navigating a career change (34%), major financial decisions (29%) and selecting a place to live (17%).", "unit": "reported user-use distribution", "value_type": "published_survey_estimate"},
+        "social_rehearsal": {"value": 24, "unit": "per cent of LLM users using chatbots to roleplay or practice personal encounters", "value_type": "published_survey_estimate"}
+      },
+      "method": "Survey questions about LLM applications among respondents who used an LLM in the prior week.",
+      "uncertainty": "Reported assistance is not verified advice quality, clinical safety, financial suitability, housing outcome or durable behavior change; the cross-sectional design cannot show whether bots replace or supplement human institutions.",
+      "subgroup": "Recent LLM users, including people using bots for health, work, finance, housing, shopping, learning and interpersonal preparation.",
+      "counterinterpretation": "LLMs may extend access to information and rehearsal for people who lack time, money or trusted human guidance, even while introducing accuracy and overreliance risks.",
+      "source_url": "https://imaginingthedigitalfuture.org/wp-content/uploads/2026/09/ITDF-AI-resilience-report-9-15-26.pdf",
+      "retrieval_hash": "sha256:7d2c7d61943500dd81d0174dcf89699d50b6f8c749e460dd3aea0aa634abb1c9",
+      "status": "reported"
+    },
+    {
+      "period": "May 14-18, 2026 fieldwork; benefits, dependence and institutional guidance",
+      "denominator": {"value": 1163, "unit": "LLM users for user-experience measures; 1505 U.S. adults for institutional-confidence measures", "value_type": "mixed_survey_denominators"},
+      "measures": {
+        "benefit_learning": {"value": 88, "unit": "per cent of LLM users saying they routinely learn something new and valuable from AI", "value_type": "published_survey_estimate"},
+        "shortcut_risk": {"value": 51, "unit": "per cent of LLM users saying they felt lazy or took an easy shortcut at least some of the time", "value_type": "published_survey_estimate"},
+        "verification_behavior": {"value": 66, "unit": "per cent of LLM users actively cross-checking AI accuracy against non-LLM sources", "value_type": "published_survey_estimate"},
+        "institutional_confidence": {"value": "39 per cent of all adults rate AI companies extremely or very effective in helping people adapt; comparable high-confidence shares are 34 per cent for higher education, 26 per cent for K-12 education and 27 per cent for employers, while confidence is lower for legal systems and governments.", "unit": "reported institutional effectiveness expectations", "value_type": "published_survey_estimate"}
+      },
+      "method": "Survey of LLM-user experiences and U.S. adult expectations about institutions' ability to guide adaptation.",
+      "uncertainty": "Self-reported benefits, harms and verification do not establish actual accuracy or dependency; institutional ratings measure expectations and may reflect prior trust, ideology or familiarity.",
+      "subgroup": "LLM users and U.S. adults evaluating technology firms, education, employers, law, government and religious institutions.",
+      "counterinterpretation": "Users may develop practical verification norms and institutions may build new forms of guidance; low confidence in governments does not necessarily mean low demand for public regulation.",
+      "source_url": "https://imaginingthedigitalfuture.org/wp-content/uploads/2026/09/ITDF-AI-resilience-report-9-15-26.pdf",
+      "retrieval_hash": "sha256:7d2c7d61943500dd81d0174dcf89699d50b6f8c749e460dd3aea0aa634abb1c9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://imaginingthedigitalfuture.org/reports-and-publications/human-purpose-in-peril/", "claim": "Official report landing page, key findings and survey framing."},
+    {"source_url": "https://imaginingthedigitalfuture.org/wp-content/uploads/2026/09/ITDF-AI-Resilience-topline-methodology.pdf", "claim": "Official survey topline and methodology document."}
+  ],
+  "boundary": "This record adds a public meaning-and-agency layer to the broader AI trend stream: Americans are adopting LLMs for learning, shopping, health, work, finance, housing and social rehearsal while worrying about purpose, connection, critical thinking, dependence and institutional guidance. It is a nationally representative U.S. adult survey with an LLM-user oversample, not a longitudinal behavioral study, clinical or economic outcome evaluation, or proof that AI causes social fragmentation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ITDF Human Purpose in Peril report PDF was reviewed for sample design, LLM adoption, human-connection and purpose concerns, agency confidence, user benefits and harms, personal-agent use, life-decision use, verification behavior and institutional effectiveness expectations.",
+    "source_url_sha256": "sha256:7d2c7d61943500dd81d0174dcf89699d50b6f8c749e460dd3aea0aa634abb1c9",
+    "checked": "2026-09-27"
+  }
+}

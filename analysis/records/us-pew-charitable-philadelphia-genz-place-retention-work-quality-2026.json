@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-charitable-philadelphia-genz-place-retention-work-quality-2026",
+  "title": "Young-adult place retention is a work-quality, mobility and belonging bargain",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "The Pew Charitable Trusts, Gen Z Likes Philadelphia but Feels Frustrated by Low Pay, Limited Jobs, August 12, 2026",
+  "geography": "Philadelphia and Greater Philadelphia; residents ages 18–29, with contextual Census comparisons",
+  "observations": [
+    {
+      "period": "Fall 2025 focus groups, published August 2026; perceived high-quality work",
+      "denominator": {"value": 54, "unit": "Philadelphia residents ages 18–29 in 10 SSRS focus-group sessions conducted for Pew; roughly half ages 18–24 and half 25–29", "value_type": "reported_focus_group_sample"},
+      "measures": {
+        "job_quality_attributes": {"value": "Participants most consistently named competitive pay, work-life balance and boundaries, employer-sponsored health benefits, and skill-building/career advancement as core attributes of a high-quality job", "unit": "qualitative priority pattern", "value_type": "reported_pattern"},
+        "meaning_and_room": {"value": "Pay was often treated as a means to financial security and a meaningful personal life, while time boundaries protected family, hobbies and nonwork identity", "unit": "bounded work-life mechanism", "value_type": "bounded_mechanism"},
+        "mechanism": {"value": "Job quality is evaluated as the ability to convert work into both household room and a life outside work, not only wage or career status", "unit": "bounded labor-life mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Ten professionally facilitated 90-minute focus groups conducted by SSRS in August and September 2025 with 54 Philadelphia residents ages 18–29; participants were offered an honorarium and the study is qualitative, not representative.",
+      "uncertainty": "Focus groups show reasons and language, not prevalence; the report cannot estimate how many young adults share each priority or how attributes affect job acceptance, retention, wages or wellbeing.",
+      "subgroup": "Young Philadelphia residents by age, education, gender, race/ethnicity, occupation, family situation, desired field and work status; the public report provides participant composition but not population estimates.",
+      "counterinterpretation": "Participants may articulate aspirational job standards that are constrained or revised by labor-market scarcity; high pay, flexibility, benefits and meaning can conflict rather than combine.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/reports/2026/08/gen-z-likes-philadelphia-but-feels-frustrated-by-low-pay-limited-jobs",
+      "retrieval_hash": "sha256:68fb3120b9bedcc6fb303dbc3052456047ba2b189dddf465ee140714047e0fc9",
+      "status": "reported"
+    },
+    {
+      "period": "2020–2024 Census context, reported by Pew; young-adult migration and sector opportunity",
+      "denominator": {"value": 1, "unit": "Philadelphia and Greater Philadelphia Census context analyzed by Pew; not the focus-group denominator", "value_type": "published_context_frame"},
+      "measures": {
+        "young_adult_net_inflow": {"value": "On average, 16,000 more 18–29-year-olds moved into Philadelphia than out each year during 2020–2024, or about 1.6 arrivals per departure", "unit": "reported migration comparison", "value_type": "reported_pattern"},
+        "post_30_reversal": {"value": "After around age 30, the reported migration pattern reverses to about 1.3 people moving out for each person moving in", "unit": "reported migration comparison", "value_type": "reported_pattern"},
+        "sector_concentration": {"value": "Healthcare and social assistance supplied around 20% of jobs for 18–29-year-old Philadelphia residents in 2024; educational services and accommodation/food were also major sectors", "unit": "reported employment distribution", "value_type": "reported_share"},
+        "mechanism": {"value": "A city can attract young adults through culture, education and affordability while losing them later if career pathways, pay, safety, commute and family-stage needs do not remain usable", "unit": "bounded place-retention mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Pew analysis of Census and migration context cited in the report; figures are contextual population and employment evidence, distinct from the 54-person focus-group sample.",
+      "uncertainty": "Migration patterns are descriptive and do not identify why each person moved; sector shares do not measure job quality, wages, retention, causality or whether the same individuals remain in the region.",
+      "subgroup": "Young adults by age, career field, household and family stage, education, income and geography within the metro area.",
+      "counterinterpretation": "Out-migration after age 30 may reflect family preference, housing, taxes or normal life-course mobility rather than failure of city labor markets; return, suburban retention and regional commuting complicate a simple city-versus-exit story.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/reports/2026/08/gen-z-likes-philadelphia-but-feels-frustrated-by-low-pay-limited-jobs",
+      "retrieval_hash": "sha256:68fb3120b9bedcc6fb303dbc3052456047ba2b189dddf465ee140714047e0fc9",
+      "status": "reported"
+    },
+    {
+      "period": "2025 focus groups and 2020–2024 commuting context; infrastructure and social capital",
+      "denominator": {"value": 54, "unit": "Philadelphia focus-group participants, with contextual Census commuting and work-from-home comparisons", "value_type": "mixed_evidence_frame"},
+      "measures": {
+        "networking_and_learning": {"value": "Participants valued mentors, training, on-the-job learning, self-guided or AI-enhanced learning and professional networks; connections were often described as a route into high-quality jobs", "unit": "qualitative mechanism", "value_type": "reported_mechanism"},
+        "commute_and_safety": {"value": "Unreliable transit, unsafe areas, long commutes and expensive parking could undermine the pay and work-life balance equation, while safe commuting benefits could improve job acceptability", "unit": "qualitative place constraint", "value_type": "reported_pattern"},
+        "hybrid_mentorship_tradeoff": {"value": "Participants often preferred flexible or hybrid work over fully remote work because in-person contact supported learning, networking and career advancement", "unit": "qualitative work-design tradeoff", "value_type": "reported_mechanism"},
+        "mechanism": {"value": "Place retention depends on a linked infrastructure of transit, safety, mentorship, networks, skills and workplace flexibility rather than wages alone", "unit": "bounded place-work infrastructure mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Qualitative focus-group themes paired with descriptive Census commuting and work-from-home context in the Pew report.",
+      "uncertainty": "The report does not estimate causal effects of transit, safety, hybrid work, mentorship or employer benefits, and qualitative preferences may not predict realized decisions.",
+      "subgroup": "Young adults with different transport modes, disabilities, work schedules, neighborhoods, safety experiences, career fields and access to mentors or professional networks.",
+      "counterinterpretation": "Remote work may improve access for some workers and hybrid work may create its own coordination costs; in-person networking is not equally safe, accessible or valuable for everyone.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/reports/2026/08/gen-z-likes-philadelphia-but-feels-frustrated-by-low-pay-limited-jobs",
+      "retrieval_hash": "sha256:68fb3120b9bedcc6fb303dbc3052456047ba2b189dddf465ee140714047e0fc9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pew.org/en/research-and-analysis/reports/2026/08/gen-z-likes-philadelphia-but-feels-frustrated-by-low-pay-limited-jobs", "claim": "Official Pew Charitable Trusts report with focus-group design, job-quality priorities, sector and migration context, commuting/safety, networking, hybrid-work and retention themes."}
+  ],
+  "boundary": "This record identifies a place-retention, work-quality, social-capital and infrastructure subtheme. It does not establish representative Gen Z preferences, causal effects of jobs or transit, realized migration, wages, job retention, employer behavior, housing outcomes, family formation or generalization beyond Philadelphia and the report's qualitative/contextual evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew Charitable Trusts report was reviewed for its August 12, 2026 date, 54-person focus-group sample, high-quality job attributes, migration and sector context, skill/networking, transit/safety, hybrid-work and place-retention findings.",
+    "source_page_sha256": "sha256:68fb3120b9bedcc6fb303dbc3052456047ba2b189dddf465ee140714047e0fc9",
+    "checked": "2026-09-29"
+  }
+}

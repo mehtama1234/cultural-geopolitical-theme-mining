@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-beyond-gdp-national-wellbeing-september-2026-lived-capacity",
+  "title": "UK headline progress remains uneven: output and low-carbon energy improve while lived capacity and institutional trust lag",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UK Office for National Statistics, Beyond GDP insights, UK headline measures of National Well-being: September 2026",
+  "geography": "United Kingdom headline well-being measures, with Great Britain, England, Wales, or other geographies for individual indicators; 59 annual and 7 quarterly measures",
+  "observations": [
+    {
+      "period": "Q1–Q2 2026; individual well-being",
+      "denominator": {"value": 1, "unit": "UK individual well-being headline-measure frame", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "low_life_satisfaction": {"value": 5.0, "unit": "percent of adults reporting low life satisfaction in Q1 2026", "value_type": "reported_share"},
+        "mean_life_satisfaction": {"value": 7.5, "unit": "out of 10 in Q1 2026, versus 7.7 in Q1 2019", "value_type": "reported_mean"},
+        "neet": {"value": 13.0, "unit": "percent of 16–24 year-olds not in education, employment or training in Q2 2026", "value_type": "reported_share"},
+        "good_health": {"value": 70.5, "unit": "percent reporting good or very good health in Q2 2026, versus 74.5% five years earlier", "value_type": "reported_share"}
+      },
+      "method": "ONS synthesis of quarterly headline measures and related official statistics, comparing latest values with one-year and five-year reference periods.",
+      "uncertainty": "Measures have different populations, collection periods, and definitions; the comparison is descriptive and the five-year baseline includes pandemic-affected quarters.",
+      "subgroup": "UK adults, young people aged 16–24, people reporting health status, and people experiencing different access to education, work, and care.",
+      "counterinterpretation": "Lower low-life-satisfaction prevalence than the pandemic period can coexist with life satisfaction below the pre-pandemic level and weaker health or youth participation.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/september2026",
+      "retrieval_hash": "sha256:babfee97c83782c37eb3bb09375646e948fd9e800941d7aefd67b464ddf45bb0",
+      "status": "reported"
+    },
+    {
+      "period": "March–June 2026; community and institutional trust",
+      "denominator": {"value": 1, "unit": "UK community and national well-being measures", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "trust_others": {"value": 65.3, "unit": "percent of adults saying they trusted most people in June 2026", "value_type": "reported_share"},
+        "trust_government": {"value": 25.1, "unit": "percent reporting trust in the UK government in June 2026", "value_type": "reported_share"},
+        "neighborhood_belonging": {"value": 63.6, "unit": "percent reporting belonging to their neighbourhood in April 2026", "value_type": "reported_share"},
+        "local_cohesion": {"value": 60.5, "unit": "percent agreeing different backgrounds get along in their local area in April 2026", "value_type": "reported_share"}
+      },
+      "method": "ONS compilation of survey measures of interpersonal trust, government trust, local belonging, and perceived intergroup relations.",
+      "uncertainty": "Indicators are not collected at one common time or from one common sample, and stable trust measures do not establish whether local belonging causes or buffers institutional distrust.",
+      "subgroup": "UK adults, neighbourhood residents, local communities, public institutions, and people with different experiences of political access and local cohesion.",
+      "counterinterpretation": "Strong local belonging and interpersonal trust can persist alongside low government trust, indicating differentiated rather than generalized social withdrawal.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/september2026",
+      "retrieval_hash": "sha256:babfee97c83782c37eb3bb09375646e948fd9e800941d7aefd67b464ddf45bb0",
+      "status": "reported"
+    },
+    {
+      "period": "Q1–Q2 2026; national resources and environmental progress",
+      "denominator": {"value": 1, "unit": "UK national well-being headline measures", "value_type": "national_wellbeing_frame"},
+      "measures": {
+        "gdp_per_head": {"value": 2.2, "unit": "percent above pre-pandemic level in Q2 2026; 1.0% above a year earlier", "value_type": "reported_change"},
+        "low_carbon_energy": {"value": 21.2, "unit": "percent of UK energy consumption from low-carbon sources in Q1 2026, versus 19.6% a year earlier", "value_type": "reported_share"},
+        "progress_pattern": {"value": "Economic output and low-carbon energy improved while trust and several individual well-being measures did not show matching progress", "unit": "reported cross-domain pattern", "value_type": "reported_pattern"}
+      },
+      "method": "ONS cross-domain comparison of economic, environmental, individual, community, and national headline measures.",
+      "uncertainty": "GDP per head is an output measure, not a direct measure of distribution or household welfare; low-carbon share does not cover all environmental conditions; cross-domain divergence is not causal evidence.",
+      "subgroup": "UK households, workers, young people, public institutions, energy users, and communities with unequal exposure to economic and environmental change.",
+      "counterinterpretation": "Aggregate progress may expand future capacity even when its distribution, institutional translation, or near-term lived effects remain weak or uneven.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringprogresswellbeingandbeyondgdpintheuk/september2026",
+      "retrieval_hash": "sha256:babfee97c83782c37eb3bb09375646e948fd9e800941d7aefd67b464ddf45bb0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainaugust2026", "claim": "Companion ONS release covering cost of living, social mobility, loneliness, household finances, shortages, and working arrangements."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing", "claim": "ONS national well-being framework and dashboard context."}
+  ],
+  "boundary": "This record adds an official beyond-GDP measurement layer linking aggregate output and environmental progress to health, youth participation, life satisfaction, social trust, neighbourhood belonging, and institutional trust. It combines measures from different samples, geographies, periods, and definitions; it is not a respondent-level dataset, causal model, distributional welfare estimate, or claim that GDP or low-carbon energy caused the social outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ONS September 2026 bulletin reviewed for the 59-measure framework, individual well-being, community trust and belonging, government trust, GDP per head, and low-carbon energy share.",
+    "source_url_sha256": "sha256:babfee97c83782c37eb3bb09375646e948fd9e800941d7aefd67b464ddf45bb0",
+    "checked": "2026-09-28"
+  }
+}

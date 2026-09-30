@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-global-flourishing-social-relationship-quality-22-countries-2026",
+  "title": "Relationship quality varies across cultures and life situations, with age, religious participation, partnership status, and employment shaping social well-being differently across countries",
+  "theme_ids": ["voice", "time", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Wilkinson et al., Strangers, Friends, and Everything Between: Sociodemographic Variation in Social Relationship Quality Across 22 Countries, Social Indicators Research 2026",
+  "geography": "22 countries in Wave 1 of the Global Flourishing Study, including non-Western and Western national contexts",
+  "observations": [
+    {
+      "period": "Global Flourishing Study Wave 1; cross-national social relationship quality",
+      "denominator": {"value": 202898, "unit": "adults in nationally representative samples across 22 countries", "value_type": "reported_cross_national_sample"},
+      "measures": {
+        "relationship_quality_scale": {"value": "global subjective relationship-quality score based on contentment with friendships and relationships and satisfaction with relationships, measured 0-10", "unit": "reported composite measure", "value_type": "reported_measure"},
+        "country_range": {"value": "country averages were mostly between 7 and 8, with observed high-low difference of 8.68 versus 5.96", "unit": "reported 0-10 country means", "value_type": "reported_cross_country_pattern"},
+        "higher_average_contexts": {"value": "Indonesia, the Philippines, and Mexico showed higher average relationship-quality scores, while Japan, Turkey, and Australia showed lower averages", "unit": "reported country pattern", "value_type": "reported_country_comparison"},
+        "cultural_variation": {"value": "country differences did not reduce to a simple individualism-collectivism rule; important exceptions and within-country variation remained", "unit": "reported analytic boundary", "value_type": "reported_mechanism"}
+      },
+      "method": "Nationally representative Wave 1 Global Flourishing Study samples with post-stratification and nonresponse adjustments; country-specific estimates were combined using random-effects meta-analysis and analyzed across sociodemographic groups.",
+      "uncertainty": "The measure is subjective and broad, cross-cultural translation and response-style differences may affect country comparisons, and the 22-country sample should not be generalized to countries outside the study.",
+      "subgroup": "Adults across 22 countries, with variation by age, religious-service attendance, marital status, employment, gender, education, and immigration status.",
+      "counterinterpretation": "Higher scores may reflect cultural response styles, expectations, relationship norms, or sample composition rather than objectively stronger social networks or universally better social conditions.",
+      "source_url": "https://doi.org/10.1007/s11205-025-03743-2",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    },
+    {
+      "period": "Global Flourishing Study Wave 1; age and religious participation",
+      "denominator": {"value": 202898, "unit": "adults across 22 countries", "value_type": "reported_cross_national_sample"},
+      "measures": {
+        "age_pattern": {"value": "older adults reported higher social relationship quality on average, with the pattern relatively consistent across countries", "unit": "reported sociodemographic association", "value_type": "reported_association"},
+        "religious_service_pattern": {"value": "more frequent religious-service attendance was associated with higher relationship quality across countries", "unit": "reported sociodemographic association", "value_type": "reported_association"},
+        "community_route": {"value": "religious participation may provide repeated opportunities for shared values, social contact, care, and relationship maintenance", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"},
+        "life_course_route": {"value": "age-related selectivity and investment in close, meaningful relationships may help explain higher reported quality among older adults", "unit": "reported interpretive mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Country-specific analyses and pooled random-effects meta-analysis of relationship-quality scores by age and religious-service attendance.",
+      "uncertainty": "The data are cross-sectional and do not establish that religious attendance or age causes better relationships; health, selection, community access, cultural norms, and survivorship may contribute.",
+      "subgroup": "Older and younger adults, and adults with different frequencies of religious-service attendance across the 22 countries.",
+      "counterinterpretation": "People with stronger relationships or better health may be more able and willing to attend religious services; religious participation can also exclude or burden some groups.",
+      "source_url": "https://doi.org/10.1007/s11205-025-03743-2",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    },
+    {
+      "period": "Global Flourishing Study Wave 1; partnership and employment status",
+      "denominator": {"value": 202898, "unit": "adults across 22 countries", "value_type": "reported_cross_national_sample"},
+      "measures": {
+        "partnership_pattern": {"value": "married and widowed adults reported higher relationship quality than separated and divorced adults", "unit": "reported sociodemographic association", "value_type": "reported_association"},
+        "employment_pattern": {"value": "retired adults reported the highest relationship quality and unemployed adults the lowest", "unit": "reported sociodemographic association", "value_type": "reported_association"},
+        "work_social_route": {"value": "unemployment may reduce relationship quality through stigma, withdrawal, job-search strain, or shared causes such as depression or addiction", "unit": "reported interpretive mechanism set", "value_type": "reported_mechanism_set"},
+        "country_variation": {"value": "patterns varied across nations, showing that marital and employment categories do not carry identical social meaning everywhere", "unit": "reported cross-national boundary", "value_type": "reported_mechanism"}
+      },
+      "method": "Country-specific nationally representative analyses and pooled meta-analytic comparisons by marital and employment status.",
+      "uncertainty": "The study cannot distinguish causal pathways between employment, partnership, health, and relationship quality; categories such as widowed, retired, unemployed, and separated contain heterogeneous life situations.",
+      "subgroup": "Married, widowed, separated, divorced, unemployed, employed, and retired adults across diverse national contexts.",
+      "counterinterpretation": "Relationship quality may influence employment and partnership stability as much as those statuses influence relationship quality; cultural and welfare-state differences may alter the meaning of each category.",
+      "source_url": "https://doi.org/10.1007/s11205-025-03743-2",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    },
+    {
+      "period": "Global Flourishing Study Wave 1; implications for social infrastructure and policy",
+      "denominator": {"value": 22, "unit": "countries in the study's cross-national comparison", "value_type": "reported_cross_national_frame"},
+      "measures": {
+        "social_resource": {"value": "relationship quality is treated as a social resource associated with health and well-being across the life course", "unit": "reported policy-relevant construct", "value_type": "reported_mechanism"},
+        "targeting_route": {"value": "social-connection strategies should be tailored to national and sociodemographic distributions rather than assuming one universal intervention", "unit": "reported policy implication", "value_type": "reported_policy_proposition"},
+        "community_infrastructure": {"value": "employment settings, family and partnership systems, religious communities, and other repeated social institutions may shape access to meaningful relationships", "unit": "reported interpretive mechanism set", "value_type": "reported_mechanism_set"},
+        "measurement_boundary": {"value": "global relationship quality is distinct from network size, contact frequency, social support, loneliness, and the quality of a specific relationship", "unit": "reported measurement boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Authors' cross-national synthesis of descriptive and meta-analytic findings from the Global Flourishing Study.",
+      "uncertainty": "The study does not evaluate interventions, establish causal effects on health, or measure the institutional mechanisms that generate relationship quality; policy implications remain hypotheses for future research.",
+      "subgroup": "Policymakers, community organizations, employers, religious institutions, families, and adults in different life-course and socioeconomic positions.",
+      "counterinterpretation": "Formal institutions can provide connection but can also reproduce exclusion, stigma, coercion, or unequal access; higher reported relationship quality should not be equated with social equality.",
+      "source_url": "https://doi.org/10.1007/s11205-025-03743-2",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1007/s11205-025-03743-2", "claim": "Peer-reviewed open-access Social Indicators Research article using 202,898 adults in 22 countries from the Global Flourishing Study."},
+    {"source_url": "https://link.springer.com/article/10.1007/s11205-025-03743-2", "claim": "Publisher article page with abstract, methods, cross-national findings, sociodemographic results, discussion, and limitations."}
+  ],
+  "boundary": "This record adds a global relationship-quality route from culture and life situation through age, religious participation, partnership, employment, social resources, and targeted social infrastructure. It is cross-sectional subjective survey evidence with country-comparative and meta-analytic estimates, not longitudinal causal evidence, an objective social-network measure, or a universal cultural typology.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Publisher article and indexed full-text source reviewed for sample size, measure construction, country patterns, age and religious-attendance associations, marital and employment differences, cross-national exceptions, and methodological limitations.",
+    "source_page_sha256": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "checked": "2026-09-28"
+  }
+}

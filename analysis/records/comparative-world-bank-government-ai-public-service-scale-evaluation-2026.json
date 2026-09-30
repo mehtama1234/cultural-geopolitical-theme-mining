@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-government-ai-public-service-scale-evaluation-2026",
+  "title": "Government AI is shifting from isolated pilots toward institutional capacity for evaluation, procurement, accountability, and sustained public-service delivery",
+  "theme_ids": ["time", "voice", "work", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank World Development Report 2026 public-service AI analysis and Policy Research Working Paper WPS11466, How Is Government Using Artificial Intelligence?",
+  "geography": "World Bank evidence across 60 economies and developing-country public-service examples including Ghana, Bangladesh, Brazil, and Thailand",
+  "observations": [
+    {
+      "period": "2026; AI and Data for Better Governance Survey across 60 economies",
+      "denominator": {"value": 60, "unit": "economies covered by the World Bank survey of central digital agencies, sector ministries, and management-information leads", "value_type": "reported_cross_economy_sample"},
+      "measures": {
+        "adoption_pattern": {"value": "government AI adoption is broad but shallow and uneven", "unit": "reported cross-economy finding", "value_type": "reported_assessment"},
+        "readiness": {"value": "public-sector AI readiness depends on data, skills, organizational arrangements, and governance rather than model access alone", "unit": "reported institutional conditions", "value_type": "reported_mechanism"},
+        "sector_scope": {"value": "the survey covers tax, public finance, procurement, education, health, and civil service functions", "unit": "government sectors", "value_type": "reported_sector_scope"},
+        "policy_shift": {"value": "the evidence supports shifting policy from narrow adoption toward institutional readiness, responsible use, and sector-specific problem solving", "unit": "bounded policy implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank AI and Data for Better Governance Survey and accompanying policy research; survey responses are institutional reports, not citizen-level service outcomes or causal estimates.",
+      "uncertainty": "The public summary does not establish comparable implementation quality across economies, actual citizen benefit, error rates, or whether reported readiness produces durable service improvements.",
+      "subgroup": "Public servants, ministries, digital agencies, frontline workers, citizens using health, education, tax, procurement, and administrative services, and communities with unequal connectivity or data representation.",
+      "counterinterpretation": "A government may report AI activity while deployment remains experimental, concentrated in higher-capacity agencies, or disconnected from the services people experience.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099754209232619673",
+      "retrieval_hash": "sha256:ffcd4aee89c680fb7b226c0898972643a0e88f538239b08bfdf02c46f1e41ea1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public-service AI pilots and evidence quality",
+      "denominator": {"value": 10000, "unit": "published studies of AI-based health interventions described in the World Bank analysis", "value_type": "reported_evidence_universe"},
+      "measures": {
+        "real_world_testing": {"value": 57, "unit": "studies tested with real patients and providers in low-resource settings", "value_type": "reported_count"},
+        "causal_evidence": {"value": 17, "unit": "studies measuring causal effects on health, quality of care, or efficiency", "value_type": "reported_count"},
+        "model_context_failure": {"value": "a Thailand diabetic-retinopathy screening tool rejected more than 20% of nurse-taken images when clinic lighting and image quality differed from training conditions", "unit": "reported implementation example", "value_type": "reported_failure_case"},
+        "evaluation_capacity": {"value": 80, "unit": "percent of surveyed governments in low- and lower-middle-income economies reporting no or only basic mechanisms to evaluate AI performance", "value_type": "reported_share"}
+      },
+      "method": "World Bank synthesis of published health-AI studies, country implementation evidence, and government-capacity survey findings.",
+      "uncertainty": "The counts depend on the review universe and definitions of testing and causal evidence; the examples do not estimate the prevalence of failure across all public-sector AI systems.",
+      "subgroup": "Patients, nurses, teachers, frontline officials, rural and low-resource communities, and people whose records or environments differ from model-development data.",
+      "counterinterpretation": "Weak evaluation capacity does not prove that every AI application is harmful, but it makes claims of public value difficult to distinguish from demonstration effects or vendor claims.",
+      "source_url": "https://blogs.worldbank.org/en/developmenttalk/from-ai-pilots-to-scale--improving-the-delivery-of-public-servic",
+      "retrieval_hash": "sha256:ffcd4aee89c680fb7b226c0898972643a0e88f538239b08bfdf02c46f1e41ea1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; data and complementary infrastructure for public-service AI",
+      "denominator": {"value": 1, "unit": "World Bank public-service scaling framework", "value_type": "reported_framework"},
+      "measures": {
+        "data_foundation": {"value": "AI-ready public data requires digitizing and connecting records such as censuses, tax files, civil registries, land records, and social programmes", "unit": "reported implementation requirement", "value_type": "reported_system_requirement"},
+        "local_adaptation": {"value": "AI tools need adaptation to local languages, institutions, data, and development needs", "unit": "reported adaptation requirement", "value_type": "reported_system_requirement"},
+        "analog_complements": {"value": "electricity, connectivity, education, organizational redesign, and skilled staff remain complements to AI", "unit": "reported infrastructure and capability conditions", "value_type": "reported_system_requirement"},
+        "access_risk": {"value": "the same data and connectivity foundations that make services scalable can also reproduce exclusion when records, language, devices, or infrastructure are missing", "unit": "bounded risk mechanism", "value_type": "bounded_risk"}
+      },
+      "method": "World Bank development-report framework and public-service case synthesis; the source identifies prerequisites and risks rather than measuring household-level access for each prerequisite.",
+      "uncertainty": "Digitization and interoperability can improve administrative reach without guaranteeing data quality, privacy, explainability, equitable service access, or successful correction.",
+      "subgroup": "People without stable identity records, electricity, internet, local-language interfaces, or the ability to challenge inaccurate administrative data; agencies sharing data across systems.",
+      "counterinterpretation": "More connected data can reduce duplication and waiting, but it can also expand surveillance, propagate an error across agencies, or make exclusion harder to notice.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:ffcd4aee89c680fb7b226c0898972643a0e88f538239b08bfdf02c46f1e41ea1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; procurement, accountability, and transition from pilot to durable public product",
+      "denominator": {"value": 1, "unit": "World Bank five-step public-service AI scaling framework", "value_type": "reported_framework"},
+      "measures": {
+        "procurement_model": {"value": "governments should move from one-off technology projects toward products with continuing monitoring, maintenance, testing, and improvement", "unit": "reported procurement recommendation", "value_type": "reported_governance_recommendation"},
+        "vendor_independence": {"value": "data portability and interoperability are identified as safeguards against dependence on a single vendor", "unit": "reported procurement safeguard", "value_type": "reported_safeguard"},
+        "auditability": {"value": "contracts should preserve the ability to review how decisions are made and correct errors over time", "unit": "reported accountability requirement", "value_type": "reported_accountability_requirement"},
+        "public_legitimacy": {"value": "public value requires moving from pilots to evidence, institutions, and sustained service capability", "unit": "bounded legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank policy framework and implementation guidance; recommendations are not evidence that procurement reforms have already changed service outcomes.",
+      "uncertainty": "The source does not show whether agencies have budget authority, staff capacity, legal powers, or accessible appeal routes to sustain monitoring and correct an automated decision.",
+      "subgroup": "Citizens subject to automated or AI-assisted decisions, public employees responsible for review, vendors, procurement officials, auditors, courts, and oversight institutions.",
+      "counterinterpretation": "A product model can preserve maintenance and auditability, but it may also lock public institutions into long-term vendor relationships unless exit, portability, and public accountability are real rather than contractual language.",
+      "source_url": "https://blogs.worldbank.org/en/developmenttalk/from-ai-pilots-to-scale--improving-the-delivery-of-public-servic",
+      "retrieval_hash": "sha256:ffcd4aee89c680fb7b226c0898972643a0e88f538239b08bfdf02c46f1e41ea1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/wdr2026", "claim": "World Development Report 2026 framework for AI adoption, adaptation, public-service delivery, and power risks."},
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099754209232619673", "claim": "World Bank Policy Research Working Paper WPS11466 and 60-economy government AI survey."}
+  ],
+  "boundary": "This record adds an institutional-conversion route: government AI moves from pilot visibility to public value only through data and infrastructure readiness, credible evaluation, local adaptation, procurement, staff capacity, auditability, portability, and correction. It does not treat adoption, model performance in demonstrations, or announced frameworks as proof of equitable service delivery, reduced waiting, improved health or education, or democratic legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank public pages reviewed for the 60-economy survey, public-service AI evidence counts, infrastructure conditions, procurement safeguards, evaluation gaps, and scaling framework.",
+    "source_url_sha256": "sha256:ffcd4aee89c680fb7b226c0898972643a0e88f538239b08bfdf02c46f1e41ea1",
+    "checked": "2026-09-29"
+  }
+}

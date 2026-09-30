@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kearney-future-consumer-2026-trust-time-synthetic-connection",
+  "title": "Consumer life is becoming a verification and attention-management problem as choice, convenience, personalization, and AI compound",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Kearney Consumer Institute, The Tyranny of Too Much: Global Future Consumer Study 2026",
+  "geography": "Consumers across 20 countries spanning the Americas, Europe, Middle East and Africa, and Asia Pacific",
+  "observations": [
+    {
+      "period": "May 2026 survey; future consumer study frame",
+      "denominator": {"value": 21500, "unit": "consumers surveyed across 20 countries; gender and income census representation, with younger consumers in the majority", "value_type": "published_global_consumer_survey"},
+      "measures": {
+        "study_focus": {"value": "trust, time, social connection, product discovery, social media, financial security, and technology", "unit": "reported survey scope", "value_type": "reported_scope"},
+        "compounding_effect": {"value": "choice, convenience, personalization, inputs, tasks, and interactions can transfer more verification and coordination work onto consumers", "unit": "reported consumer mechanism", "value_type": "reported_mechanism"},
+        "future_horizon": {"value": 2036, "unit": "year used for the report's forward-looking consumer scenario", "value_type": "reported_scenario_horizon"}
+      },
+      "method": "Kearney Consumer Institute global consumer survey across 20 countries, with forward-looking interpretation and scenario framing; the release reports a younger-skewed sample and census-appropriate gender and income representation.",
+      "uncertainty": "The study is a commercial foresight exercise with a younger-skewed sample; its 2036 claims are scenarios and strategic interpretations, not forecasts or observed population change.",
+      "subgroup": "Consumers across 20 countries, especially Gen Z and Millennials, plus consumers navigating financial security, digital discovery, social media, and AI-mediated decisions.",
+      "counterinterpretation": "More choice and personalization can increase agency and convenience for some consumers; the burden may be reduced by good interfaces, trusted intermediaries, regulation, or shared household and community support.",
+      "source_url": "https://www.prnewswire.com/news-releases/landmark-kearney-report-spotlights-the-future-consumer-21-500-weigh-in-on-20t-in-spending-up-for-grabs-and-more-302880652.html",
+      "retrieval_hash": "sha256:4e852c8aecf7c847d25c14f92dd9e3ddac22d690c3eb6ef2d13368ad6eee0f09",
+      "status": "reported"
+    },
+    {
+      "period": "2036 scenario; trust and brand switching",
+      "denominator": {"value": 21500, "unit": "consumers surveyed across 20 countries", "value_type": "published_global_consumer_survey"},
+      "measures": {
+        "contestable_spending": {"value": 20, "unit": "trillion US dollars of consumer spending the report estimates could become contestable through trust failures and brand switching by 2036", "value_type": "reported_scenario_estimate"},
+        "outcome_over_brand": {"value": 86, "unit": "percent agreeing they care more about whether something works than about the brand", "value_type": "reported_share"},
+        "trust_shift": {"value": "trust is described as shifting from source-based trust in institutions, experts, media, and brands toward outcome- and performance-based trust", "unit": "reported consumer-trust mechanism", "value_type": "reported_synthesis"},
+        "verification_load": {"value": "consumers must increasingly assess which claims are real, which products work, and which agents can help decide", "unit": "reported decision burden", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey evidence and Kearney scenario interpretation; the $20 trillion figure is a forward-looking estimate rather than measured switching or lost sales.",
+      "uncertainty": "Brand switching, trust failure, and contestable-spending estimates depend on assumptions about behavior, category boundaries, income, and future information environments.",
+      "subgroup": "Consumers evaluating brands, platforms, product claims, influencers, agents, and sources in high-information environments.",
+      "counterinterpretation": "Performance-based trust can reward better products and accountability, but it may also privilege short-term measurable outcomes over provenance, ethics, identity, or long-term reliability.",
+      "source_url": "https://www.prnewswire.com/news-releases/landmark-kearney-report-spotlights-the-future-consumer-21-500-weigh-in-on-20t-in-spending-up-for-grabs-and-more-302880652.html",
+      "retrieval_hash": "sha256:4e852c8aecf7c847d25c14f92dd9e3ddac22d690c3eb6ef2d13368ad6eee0f09",
+      "status": "reported"
+    },
+    {
+      "period": "2036 scenario; AI, time, and attention",
+      "denominator": {"value": 21500, "unit": "consumers surveyed across 20 countries", "value_type": "published_global_consumer_survey"},
+      "measures": {
+        "free_time_change": {"value": 80, "unit": "minutes of additional free time the report projects consumers may get from AI and automation", "value_type": "reported_scenario_estimate"},
+        "time_reabsorption": {"value": "freed time may be reabsorbed or redirected into more tasks, monitoring, comparison, and interaction", "unit": "reported scenario mechanism", "value_type": "reported_mechanism"},
+        "time_model": {"value": "time shifts from chronological scarcity toward contextual allocation across multitasking, discovery, media, rest, and connection", "unit": "reported conceptual shift", "value_type": "reported_synthesis"}
+      },
+      "method": "Forward-looking Kearney consumer scenario based on survey responses and strategic interpretation; no time-use diary or longitudinal automation measurement is reported in the release.",
+      "uncertainty": "The projected minutes are not a causal estimate of AI productivity or household time; automation may redistribute tasks rather than reduce total cognitive load.",
+      "subgroup": "Consumers with different levels of digital access, care work, employment flexibility, financial security, and ability to delegate tasks to technology.",
+      "counterinterpretation": "Automation can create genuine room for rest, care, creativity, or sociality when institutions and interfaces protect that room instead of filling it with new demands.",
+      "source_url": "https://www.prnewswire.com/news-releases/landmark-kearney-report-spotlights-the-future-consumer-21-500-weigh-in-on-20t-in-spending-up-for-grabs-and-more-302880652.html",
+      "retrieval_hash": "sha256:4e852c8aecf7c847d25c14f92dd9e3ddac22d690c3eb6ef2d13368ad6eee0f09",
+      "status": "reported"
+    },
+    {
+      "period": "2036 scenario; synthetic social connection and human empathy",
+      "denominator": {"value": 21500, "unit": "consumers surveyed across 20 countries", "value_type": "published_global_consumer_survey"},
+      "measures": {
+        "human_empathy_preference": {"value": 80, "unit": "percent believing only people, not technology, can provide genuine empathy and belonging", "value_type": "reported_share"},
+        "ai_accuracy_ceiling": {"value": 60, "unit": "percent reported as the peak accuracy in synthetic testing within the study's discussion", "value_type": "reported_context_estimate"},
+        "synthetic_connection": {"value": "greater AI use may change how people allocate attention and seek connection, including emotionally charged interactions", "unit": "reported scenario mechanism", "value_type": "reported_mechanism"},
+        "social_tradeoff": {"value": "consumers may delegate emotional questions to AI while still expecting human connection to remain non-replicable", "unit": "reported social-technology tension", "value_type": "reported_synthesis"}
+      },
+      "method": "Kearney survey and qualitative/scenario interpretation as reported in the public release; the accuracy figure is retained as source context without independent reconstruction of the synthetic test.",
+      "uncertainty": "The study does not establish how AI emotional use changes wellbeing, relationships, loneliness, trust, or social inequality; stated preference may not predict future behavior.",
+      "subgroup": "Consumers using AI for advice, discovery, emotional interaction, companionship, or social coordination, with unequal access to human support.",
+      "counterinterpretation": "AI-mediated interaction may supplement human connection for some people, especially where human support is scarce, while creating risks of misdirection, dependency, or reduced accountability.",
+      "source_url": "https://www.prnewswire.com/news-releases/landmark-kearney-report-spotlights-the-future-consumer-21-500-weigh-in-on-20t-in-spending-up-for-grabs-and-more-302880652.html",
+      "retrieval_hash": "sha256:4e852c8aecf7c847d25c14f92dd9e3ddac22d690c3eb6ef2d13368ad6eee0f09",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/", "claim": "IKEA Life at Home 2026 provides complementary evidence on household control, comfort, security, and climate action."},
+    {"source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/in-full/the-emerging-landscape/", "claim": "WEF technology foresight provides complementary evidence on AI, trust, access, and distributed systems."},
+    {"source_url": "https://www.edelman.com/trust/2026/trust-barometer", "claim": "Edelman Trust Barometer provides complementary institutional, intergroup, and consumer trust evidence."}
+  ],
+  "boundary": "This record adds a forward-looking consumer route linking choice overload, verification work, performance-based trust, AI-mediated time, attention, and synthetic social connection. It is a Kearney commercial survey and foresight scenario, not a causal experiment, longitudinal time-use study, representative age distribution, clinical assessment, or realized 2036 forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The public Kearney release on PR Newswire was reviewed for sample, countries, study timing, demographic framing, trust, time, AI, social-connection, spending, and scenario claims; the full report was not publicly downloadable from the release.",
+    "source_url_sha256": "sha256:4e852c8aecf7c847d25c14f92dd9e3ddac22d690c3eb6ef2d13368ad6eee0f09",
+    "checked": "2026-09-26"
+  }
+}

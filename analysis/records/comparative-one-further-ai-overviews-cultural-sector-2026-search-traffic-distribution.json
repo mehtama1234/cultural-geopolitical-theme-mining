@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-one-further-ai-overviews-cultural-sector-2026-search-traffic-distribution",
+  "title": "AI answer interfaces can increase cultural-organization visibility while reducing the organic traffic that previously carried audiences to their own sites",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "One Further, The Impact of AI Overviews in the Cultural Sector: 2026 Update, UK edition",
+  "geography": "United Kingdom cultural organizations including museums, theatres, heritage sites, galleries, orchestras, and arts venues",
+  "observations": [
+    {
+      "period": "January-July 2026 compared with January-July 2025",
+      "denominator": {"value": 100, "unit": "UK cultural organizations in the repeated One Further dataset", "value_type": "reported_organization_panel"},
+      "measures": {
+        "organic_search_change": {"value": -18, "unit": "percent year-on-year change in estimated organic search traffic", "value_type": "reported_traffic_change"},
+        "organizations_with_decline": {"value": 79, "unit": "organizations with lower estimated organic traffic than the prior year", "value_type": "reported_organization_count"},
+        "sector_pattern": {"value": "the decline was broad across the dataset rather than concentrated in a few organizations", "unit": "reported distribution pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Repeated comparison of Semrush-estimated monthly organic search traffic for the same 100 UK cultural organizations, comparing January-July 2026 with the same period in 2025.",
+      "uncertainty": "Semrush provides modelled estimates rather than each organization’s analytics data; attribution is complex and the sample is a selected set of prominent cultural organizations, not the entire UK cultural sector.",
+      "subgroup": "Museums, theatres, heritage sites, galleries, arts venues, orchestras, and other UK cultural organizations with significant organic search profiles.",
+      "counterinterpretation": "Traffic declines may reflect changes in search demand, site changes, seasonality, competition, or other Google changes in addition to AI Overviews; lower traffic is not automatically lower cultural reach or revenue.",
+      "source_url": "https://whale-caper-tzm3.squarespace.com/blog/2026-update-ai-overviews-in-the-cultural-sector",
+      "retrieval_hash": "sha256:a021977b66a2b5d493c5e178955f6e57b2b7e034eb894aa0dfd4ea82f7f868a1",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 comparison; AI Overview source visibility",
+      "denominator": {"value": 100, "unit": "UK cultural organizations whose domains were checked against relevant Google AI Overviews", "value_type": "reported_organization_panel"},
+      "measures": {
+        "ai_overview_visibility_2025": {"value": 5.8, "unit": "average percent of relevant AI Overviews in which an organization appeared as a source in 2025", "value_type": "reported_visibility_share"},
+        "ai_overview_visibility_2026": {"value": 15.6, "unit": "average percent of relevant AI Overviews in which an organization appeared as a source in 2026", "value_type": "reported_visibility_share"},
+        "visibility_traffic_divergence": {"value": "source visibility in AI Overviews rose substantially without producing a corresponding increase in website traffic", "unit": "reported platform-outcome divergence", "value_type": "reported_mechanism"},
+        "top_performer": {"value": "the strongest organization appeared in nearly 28% of relevant AI Overviews", "unit": "reported upper-tail visibility share", "value_type": "reported_visibility_share"}
+      },
+      "method": "One Further comparison of the share of relevant keywords triggering Google AI Overviews where an organization’s domain appeared as a source, using Semrush data and the same organization set across years.",
+      "uncertainty": "The report cautions that the AI Overview visibility dataset may not be fully reliable; appearing as a cited source does not establish click-through, comprehension, attribution, or cultural participation.",
+      "subgroup": "UK cultural organizations competing for inclusion in AI-generated search summaries and audiences seeking cultural information online.",
+      "counterinterpretation": "Being cited in an AI Overview may still support reputation, discovery, or offline attendance even if it does not generate measurable website sessions; traffic is only one distribution channel.",
+      "source_url": "https://static1.squarespace.com/static/654eb94e077be97b75e8a2ab/t/6aab066c04048c5ea8b5ddae/1789593196974/One+Further+-+Impact+of+AI+overviews+on+the+Cultural+Sector+-+2026+Update.pdf",
+      "retrieval_hash": "sha256:a021977b66a2b5d493c5e178955f6e57b2b7e034eb894aa0dfd4ea82f7f868a1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cultural distribution and organizational strategy implications",
+      "denominator": {"value": 1, "unit": "One Further sector strategy synthesis based on the 100-organization comparison", "value_type": "reported_strategy_frame"},
+      "measures": {
+        "distribution_shift": {"value": "cultural organizations cannot assume Google will continue sending users to their own websites; visibility must be diversified across search, video, social platforms, LLMs, email, partnerships, and owned channels", "unit": "reported strategic implication", "value_type": "reported_strategy_mechanism"},
+        "content_quality_route": {"value": "the report emphasizes crawlable, technically sound, human-readable, original, expert, and non-commodity content as more valuable in AI-mediated discovery", "unit": "reported content strategy route", "value_type": "reported_mechanism_set"},
+        "mission_boundary": {"value": "the importance of lost traffic depends on whether traffic supports donations, revenue, signups, affiliate activity, or other organizational goals", "unit": "reported organizational decision rule", "value_type": "reported_boundary"},
+        "platform_dependency": {"value": "AI-mediated discovery changes the relationship between cultural institutions, search intermediaries, and audiences by separating citation or visibility from direct audience ownership", "unit": "reported structural implication", "value_type": "reported_mechanism"}
+      },
+      "method": "Consultancy interpretation and recommendations grounded in the repeated traffic and AI Overview comparison; no independent outcome evaluation of the recommended strategies is provided.",
+      "uncertainty": "Recommendations are sector guidance rather than causal evidence; the value of traffic varies by mission, conversion pathway, audience, platform, and offline behavior.",
+      "subgroup": "Cultural leaders, digital teams, funders, donors, audiences, search platforms, AI systems, and cultural organizations with different revenue and participation models.",
+      "counterinterpretation": "Reduced direct traffic may be acceptable if AI summaries efficiently answer low-value queries while higher-intent audiences still convert through other routes; diversification also creates new labor and platform dependencies.",
+      "source_url": "https://whale-caper-tzm3.squarespace.com/blog/2026-update-ai-overviews-in-the-cultural-sector",
+      "retrieval_hash": "sha256:a021977b66a2b5d493c5e178955f6e57b2b7e034eb894aa0dfd4ea82f7f868a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://whale-caper-tzm3.squarespace.com/blog/2026-update-ai-overviews-in-the-cultural-sector", "claim": "Official One Further summary of the repeated 100-organization UK cultural-sector comparison and headline findings."},
+    {"source_url": "https://static1.squarespace.com/static/654eb94e077be97b75e8a2ab/t/6aab066c04048c5ea8b5ddae/1789593196974/One+Further+-+Impact+of+AI+overviews+on+the+Cultural+Sector+-+2026+Update.pdf", "claim": "Official 14-page report with traffic comparison, AI Overview visibility data, organization list, methodology, limitations, and recommendations."}
+  ],
+  "boundary": "This record adds a measured distribution route from AI-generated search summaries through organic traffic, source visibility, direct audience ownership, and cultural-organization strategy. It uses modelled search estimates for a selected UK organization panel and does not establish causal attribution, actual analytics for every organization, audience comprehension, attendance, donations, or cultural participation outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official One Further 2026 update and PDF reviewed for the repeated 100-organization panel, January-July traffic comparison, AI Overview visibility comparison, dataset limitations, and strategic recommendations.",
+    "report_pdf_sha256": "sha256:a021977b66a2b5d493c5e178955f6e57b2b7e034eb894aa0dfd4ea82f7f868a1",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-madagascar-urbanization-growth-poverty-infrastructure-2026",
+  "title": "Urban economic concentration can coexist with rising poverty when housing, services, finance, and climate resilience fail to scale",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Madagascar Urbanization Review: Leveraging Cities as Drivers of Growth and Structural Transformation",
+  "geography": "Madagascar, with national, capital-city, secondary-city, and urban-service comparisons",
+  "observations": [
+    {
+      "period": "2026 review; urban economic concentration and poverty",
+      "denominator": {"value": 1, "unit": "Madagascar urban economy and population frame", "value_type": "country_urbanization_frame"},
+      "measures": {
+        "urban_gdp_share": {"value": 75, "unit": "percent of national GDP attributed to cities", "value_type": "reported_share"},
+        "capital_gdp_share": {"value": 44, "unit": "percent of national GDP attributed to Antananarivo", "value_type": "reported_share"},
+        "secondary_city_poverty_change": {"value": "poverty in secondary cities increased from 46 percent to 61 percent over the past decade", "unit": "reported change in urban poverty share", "value_type": "reported_trend"},
+        "growth_poverty_gap": {"value": "urban economic weight is not translating into effective poverty reduction or inclusive growth", "unit": "reported analytical interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank country urbanization review using urban economic, poverty, infrastructure, service, fiscal, and climate-risk analysis.",
+      "uncertainty": "The public summary reports national and city-level aggregates and does not identify individual household trajectories, causal effects of particular urban policies, or the full timing of the poverty increase.",
+      "subgroup": "Urban residents, especially people in secondary cities, low-income households, informal workers, and residents of underserved settlements.",
+      "counterinterpretation": "Urban concentration can still create a platform for productivity and poverty reduction if land, services, fiscal authority, and investment are coordinated; the observed gap is not proof that urbanization itself causes poverty.",
+      "source_url": "https://www.worldbank.org/en/country/madagascar/publication/madagascar-afe-urbanization-review",
+      "retrieval_hash": "sha256:06851895addedf023537deae65e1019f35c75cdef7aea447fb4ec7894ba4eae8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; urban housing, services, and hazard exposure",
+      "denominator": {"value": 100, "unit": "percent of urban residents in Madagascar", "value_type": "urban_population_share"},
+      "measures": {
+        "informal_unplanned_settlements": {"value": 60, "unit": "percent or more of urban citizens living in informal and unplanned settlements", "value_type": "reported_share_lower_bound"},
+        "direct_drinking_water_medium_small_cities": {"value": 20, "unit": "percent or less of residents in medium and small cities with direct drinking-water supply", "value_type": "reported_share_upper_bound"},
+        "waste_drainage": {"value": "more than half of solid waste generated in cities is dumped in drainage canals", "unit": "reported urban-service condition", "value_type": "reported_condition"},
+        "risk": {"value": "informal and underserved settlements are often located in hazard-prone and high-risk areas, amplifying flood and public-health exposure", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of urban settlement, water, sanitation, waste, drainage, and hazard conditions.",
+      "uncertainty": "The summary uses threshold and directional statistics rather than a complete city-by-city service dataset; access, quality, reliability, and household coping are not interchangeable.",
+      "subgroup": "Residents of informal settlements, households without direct water access, people exposed to flooding, and communities relying on informal service arrangements.",
+      "counterinterpretation": "Service deficits can be reduced through upgrading, land administration, municipal coordination, and targeted investment; informal settlement does not imply identical conditions across neighborhoods.",
+      "source_url": "https://www.worldbank.org/en/country/madagascar/publication/madagascar-afe-urbanization-review",
+      "retrieval_hash": "sha256:06851895addedf023537deae65e1019f35c75cdef7aea447fb4ec7894ba4eae8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; climate and disaster exposure",
+      "denominator": {"value": 1, "unit": "Madagascar urban climate-risk frame", "value_type": "urban_climate_risk_frame"},
+      "measures": {
+        "hazards": {"value": "floods, cyclones, sea-level rise, and coastal erosion affect Malagasy cities", "unit": "reported hazard set", "value_type": "reported_hazard_scope"},
+        "disaster_event_change": {"value": 3, "unit": "fold increase in disaster-related events impacting Madagascar over the last 20 years", "value_type": "reported_multiplier"},
+        "development_reversal": {"value": "recurring climate-driven disasters can produce economic and physical losses and reverse development gains", "unit": "reported risk pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank urban climate-risk and disaster-resilience synthesis linked to housing, infrastructure, and development conditions.",
+      "uncertainty": "The reported event multiplier does not estimate city-specific damage, household recovery, attribution of every event to climate change, or the effect of a particular resilience investment.",
+      "subgroup": "Urban poor households, residents in hazard-prone settlements, coastal communities, municipal responders, and service users dependent on fragile infrastructure.",
+      "counterinterpretation": "Risk-informed land use, drainage, resilient infrastructure, early warning, and social protection can reduce realized losses even where hazard exposure continues to rise.",
+      "source_url": "https://www.worldbank.org/en/country/madagascar/publication/madagascar-afe-urbanization-review",
+      "retrieval_hash": "sha256:06851895addedf023537deae65e1019f35c75cdef7aea447fb4ec7894ba4eae8",
+      "status": "reported"
+    },
+    {
+      "period": "2026 review; city finance and implementation capacity",
+      "denominator": {"value": 100, "unit": "percent of city revenue and budget in the World Bank fiscal-capacity summary", "value_type": "municipal_finance_frame"},
+      "measures": {
+        "central_transfers": {"value": 10, "unit": "percent or less of city revenues coming from central-government fiscal transfers", "value_type": "reported_share_upper_bound"},
+        "capital_investment": {"value": 10, "unit": "percent or less of city budgets spent on capital investment", "value_type": "reported_share_upper_bound"},
+        "capacity_route": {"value": "weak mandates, limited fiscal resources, low own-source revenue, and weak data systems constrain municipal service delivery and resilient urban investment", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "proposed_response": {"value": "the review proposes integrated national-regional-municipal policy, coordinated land and service reform, resilient infrastructure finance, and stronger city institutions and data", "unit": "reported policy pathway", "value_type": "reported_policy_pathway"}
+      },
+      "method": "World Bank institutional and municipal-finance assessment with a four-pillar urbanization roadmap.",
+      "uncertainty": "The recommendations are a policy roadmap, not an evaluation of implementation or proof that any one financing or decentralization reform will improve household outcomes.",
+      "subgroup": "Municipal governments, residents dependent on public services, taxpayers, informal-settlement communities, and national agencies responsible for urban policy and transfers.",
+      "counterinterpretation": "Central coordination can sometimes produce scale and equalization; greater municipal autonomy without reliable revenue, skills, accountability, and data could reproduce uneven capacity.",
+      "source_url": "https://www.worldbank.org/en/country/madagascar/publication/madagascar-afe-urbanization-review",
+      "retrieval_hash": "sha256:06851895addedf023537deae65e1019f35c75cdef7aea447fb4ec7894ba4eae8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://openknowledge.worldbank.org/bitstreams/6bb6e03c-1e62-4202-a179-7b7ad8308d0b/download", "claim": "World Bank report PDF linked from the official publication page; the document server was not directly retrievable during acquisition."},
+    {"source_url": "https://www.worldbank.org/en/topic/urbandevelopment", "claim": "World Bank urban development context for cities, services, resilience, and inclusive growth."}
+  ],
+  "boundary": "This record adds a named-country urban realization layer to the broader urban housing and infrastructure theme. It is a World Bank country review and public summary, not respondent-level data, a longitudinal household panel, a city-by-city causal evaluation, or proof that a proposed reform has been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank Madagascar publication page was reviewed for urban economic concentration, poverty, informal settlement, water, waste, climate hazards, municipal finance, and the four-pillar response roadmap. The linked report PDF was retained as a related source but was not claimed as directly retrieved.",
+    "source_url_sha256": "sha256:06851895addedf023537deae65e1019f35c75cdef7aea447fb4ec7894ba4eae8",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nuffield-higgledy-mental-health-support-2026-system-fragmentation",
+  "title": "Young people face a fragmented mental-health support system whose age thresholds, service silos and geography leave need ahead of access",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Nuffield Foundation, ‘Higgledy piggledy’: Systems of support for young people aged 14–24 with poor mental health",
+  "geography": "United Kingdom, with prevalence and service-access analysis focused on England and youth insights from England, Scotland and Northern Ireland",
+  "observations": [
+    {
+      "period": "2023/24; young people aged 16–24 in England",
+      "denominator": {"value": 4, "unit": "young people in 10 with a common mental-health condition; prevalence estimate from cited Adult Psychiatric Morbidity Survey", "value_type": "reported_rate"},
+      "measures": {
+        "common_condition": {"value": "One in four young people aged 16–24 had a common mental-health condition in 2023/24, compared with one in six in 2007", "unit": "reported prevalence comparison", "value_type": "reported_rate"},
+        "severe_need": {"value": "Around one in seven young people aged 16–24 had symptoms corresponding to a severe level of need", "unit": "reported prevalence estimate", "value_type": "reported_rate"},
+        "need_support_gap": {"value": "The report frames the level of mental-health need as outpacing available provision", "unit": "synthesis of survey and administrative evidence", "value_type": "reported_interpretation"}
+      },
+      "method": "Curated review of published research and grey literature, alongside publicly available prevalence surveys, administrative data and youth/practitioner insight.",
+      "uncertainty": "The report is a data commentary rather than a systematic review; prevalence definitions and survey methods come from the underlying sources and should not be treated as a single causal time series.",
+      "subgroup": "Young people aged 16–24, with attention to age, gender/sex, poverty, care experience, NEET status and other vulnerabilities.",
+      "counterinterpretation": "Higher reported prevalence may reflect some combination of changing underlying conditions, social pressures, awareness, help-seeking and measurement; the report does not establish one cause.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/06/Higgledy-Piggledy.pdf",
+      "retrieval_hash": "sha256:1518debd9a01efebdc9172ecdc616d0fd21ce0455391cd71697f52b54be12917",
+      "status": "reported"
+    },
+    {
+      "period": "Recent service-use data; young people aged 16–24",
+      "denominator": {"value": 10, "unit": "young people in 100 with at least one contact with mental-health services; approximately 1 in 25 had two or more contacts", "value_type": "reported_rate"},
+      "measures": {
+        "service_contact": {"value": "Around one in ten young people aged 16–24 had been in contact with mental-health services", "unit": "reported service-use rate", "value_type": "reported_rate"},
+        "repeat_contact": {"value": "Only around one in 25 had two contacts or more", "unit": "reported service-use rate", "value_type": "reported_rate"},
+        "medication": {"value": "More than 840,000 young people aged 15–24 were prescribed some medicine for their mental health", "unit": "reported administrative count", "value_type": "reported_count"}
+      },
+      "method": "Synthesis of administrative data and published surveys, interpreted alongside interviews, workshops and a map of formal and informal support systems.",
+      "uncertainty": "Contacts and prescriptions are not equivalent to treatment quality, clinical need or recovery; service-use data may miss unmet need and support outside formal health services.",
+      "subgroup": "Young people aged 14–24 using or seeking formal services, including those facing waits, barriers and limited treatment continuity.",
+      "counterinterpretation": "Low repeat contact could indicate brief effective support for some people, not only access failure; the report argues it is an indicator of limited access when read against the wider need gap.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/06/Higgledy-Piggledy.pdf",
+      "retrieval_hash": "sha256:1518debd9a01efebdc9172ecdc616d0fd21ce0455391cd71697f52b54be12917",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; transition from childhood to adulthood",
+      "denominator": {"value": 14, "unit": "young people aged 14–24 covered by the system map; qualitative youth and practitioner insight across UK settings", "value_type": "reported_population"},
+      "measures": {
+        "cliff_edge": {"value": "Turning 18 can remove access to child-specific scaffolding across health, education and social care, creating a ‘cliff edge’ into adult services", "unit": "reported system mechanism", "value_type": "reported_theme"},
+        "postcode_lottery": {"value": "Uneven funding and policy implementation create a postcode lottery in available support, including pilots that are not consistently available", "unit": "reported system mechanism", "value_type": "reported_theme"},
+        "siloed_support": {"value": "Narrowly defined services and professional silos often fail to match young people’s overlapping needs during transitions", "unit": "reported system mechanism", "value_type": "reported_theme"}
+      },
+      "method": "Mapping of formal and informal support across health, education, employment, community, family/friends and digital systems, informed by youth insight and practitioner engagement.",
+      "uncertainty": "The map is a policy and service-system synthesis, not a quasi-experimental evaluation of age thresholds, local funding or transition outcomes.",
+      "subgroup": "Young people moving between child and adult services, especially those with poverty, care, NEET, disability or multiple vulnerability experiences.",
+      "counterinterpretation": "Age thresholds can provide administrative clarity and specialist tailoring; the concern is that hard discontinuities and weak handoffs do not align with developmental or lived transitions.",
+      "source_url": "https://www.nuffieldfoundation.org/evidence-and-impact/our-programmes/grown-up/higgledy-piggledy-systems-of-support-for-young-people-aged-14-24-with-poor-mental-health",
+      "retrieval_hash": "sha256:1518debd9a01efebdc9172ecdc616d0fd21ce0455391cd71697f52b54be12917",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; formal, informal and digital support pathways",
+      "denominator": {"value": 6, "unit": "support systems mapped: family and friends, education, employment, community, digital and health services", "value_type": "reported_framework"},
+      "measures": {
+        "informal_support": {"value": "Young people often turn to family, friends, education, employment, community and digital systems when formal services are difficult to access", "unit": "reported system finding", "value_type": "reported_theme"},
+        "digital_front_door": {"value": "Digital support is expanding and can act as a more accessible front door for people who struggle to reach formal services", "unit": "reported system finding", "value_type": "reported_theme"},
+        "access_barriers": {"value": "Long waits, forms, referral requirements and narrow eligibility push some young people toward informal or online help", "unit": "reported mechanism", "value_type": "reported_theme"}
+      },
+      "method": "Conceptual system mapping plus published evidence and youth/practitioner accounts; the report distinguishes formal clinical support from everyday informal support.",
+      "uncertainty": "The report does not estimate the reach, safety, effectiveness or substitution effects of digital and informal support, and does not evaluate a specific digital intervention.",
+      "subgroup": "Young people seeking support outside conventional health settings, including those affected by waiting lists, geography, poverty and institutional transitions.",
+      "counterinterpretation": "Distributed support can improve resilience and early help, but shifting responsibility to informal networks or digital tools may deepen inequality where trusted people, devices, privacy or safe services are absent.",
+      "source_url": "https://www.nuffieldfoundation.org/wp-content/uploads/2026/06/Higgledy-Piggledy.pdf",
+      "retrieval_hash": "sha256:1518debd9a01efebdc9172ecdc616d0fd21ce0455391cd71697f52b54be12917",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nuffieldfoundation.org/news/young-people-struggling-navigate-higgledy-piggedly-mental-health-services", "claim": "Official publication summary with headline prevalence, service-contact and access-gap findings."},
+    {"source_url": "https://www.nuffieldfoundation.org/evidence-and-impact/our-programmes/grown-up/i-love-it-but-i-hate-it", "claim": "Related Nuffield/Ada Lovelace qualitative work on young people’s digital lives and platform dependence."}
+  ],
+  "boundary": "This record adds a UK comparative system-level layer: rising reported need is not matched by seamless support, and young people navigate age thresholds, professional silos, geography, informal networks and digital front doors. It combines secondary prevalence and administrative data with youth/practitioner insight; it is not a respondent-level dataset, systematic review, clinical evaluation, representative causal study or proof that any single factor caused the prevalence trend.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 94-page Nuffield Foundation PDF and publication page were retrieved and reviewed for prevalence, service contact, medication, methodology, six-system map, age-transition, postcode-lottery, access-barrier and digital-support findings; the PDF was hashed.",
+    "source_url_sha256": "sha256:1518debd9a01efebdc9172ecdc616d0fd21ce0455391cd71697f52b54be12917",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-state-finance-nature-2026-harmful-flows-transition",
+  "title": "Nature finance is dwarfed by harmful financial flows, making the ecological transition a capital-allocation and political-economy problem",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNEP, State of Finance for Nature 2026: Nature in the Red: Powering the Trillion Dollar Nature Transition Economy",
+  "geography": "Global finance flows to Nature-based Solutions, nature-negative activities, climate, biodiversity, and land-restoration targets",
+  "observations": [
+    {
+      "period": "2023 finance flows, reported in 2026",
+      "denominator": {"value": 1, "unit": "global annual nature-related finance flow comparison", "value_type": "global_finance_flow_frame"},
+      "measures": {
+        "nature_negative_finance": {"value": 7300000000000, "unit": "US dollars flowing into nature-negative activities in 2023", "value_type": "reported_global_flow"},
+        "nature_based_solutions_finance": {"value": 220000000000, "unit": "US dollars supporting Nature-based Solutions in 2023", "value_type": "reported_global_flow"},
+        "negative_to_positive_ratio": {"value": 30, "unit": "approximately dollars spent on nature-negative activities for every dollar invested in nature protection", "value_type": "reported_ratio"},
+        "private_nbs_finance": {"value": 23000000000, "unit": "US dollars of private finance supporting Nature-based Solutions in 2023", "value_type": "reported_global_flow"}
+      },
+      "method": "UNEP fourth-edition tracking of global finance flows to Nature-based Solutions using improved data and methods, alongside estimates of nature-negative finance.",
+      "uncertainty": "The flows aggregate different instruments, sectors, and definitions; they do not measure project quality, local ecological outcomes, distribution of costs, or whether every dollar is additional to existing public spending.",
+      "subgroup": "Governments, investors, firms, financial institutions, communities, workers, households, ecosystems, and people exposed to climate, pollution, and biodiversity loss.",
+      "counterinterpretation": "Nature-negative finance can include activities that supply energy, materials, jobs, or public revenue; the comparison identifies a system-level direction of capital, not the full welfare balance of each activity.",
+      "source_url": "https://www.unep.org/resources/state-finance-nature-2026",
+      "retrieval_hash": "sha256:70711fc6b18ffc549fbe1e373d89b79ed833b14da6e0575425ddc765e3120be4",
+      "status": "reported"
+    },
+    {
+      "period": "2030 target horizon; nature-based investment need",
+      "denominator": {"value": 1, "unit": "global Nature-based Solutions investment requirement to 2030", "value_type": "global_investment_need_frame"},
+      "measures": {
+        "annual_nbs_need_2030": {"value": 571000000000, "unit": "US dollars of annual Nature-based Solutions investment needed by 2030", "value_type": "reported_investment_need"},
+        "increase_multiple": {"value": 2.5, "unit": "times current Nature-based Solutions investment required to meet 2030 targets", "value_type": "reported_multiple"},
+        "gdp_share": {"value": 0.5, "unit": "percent of global GDP represented by the reported 2030 annual investment need", "value_type": "reported_global_share"}
+      },
+      "method": "UNEP comparison of current Nature-based Solutions finance with investment needs for global biodiversity, climate, and land-restoration targets through 2030.",
+      "uncertainty": "Investment needs are scenario- and target-dependent; meeting a financial target does not guarantee ecological integrity, local consent, equitable benefit-sharing, or effective implementation.",
+      "subgroup": "Public budgets, development-finance institutions, private investors, local governments, landholders, Indigenous and local communities, and workers in nature-transition sectors.",
+      "counterinterpretation": "Large investment can create new market and employment opportunities, but redirecting capital may impose transition costs or displace existing livelihoods without protection and participation.",
+      "source_url": "https://www.unep.org/resources/state-finance-nature-2026",
+      "retrieval_hash": "sha256:70711fc6b18ffc549fbe1e373d89b79ed833b14da6e0575425ddc765e3120be4",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2050; nature-transition and finance-reallocation route",
+      "denominator": {"value": 1, "unit": "global nature-transition finance framework", "value_type": "transition_policy_frame"},
+      "measures": {
+        "transition_economy": {"value": "Redirecting a fraction of harmful financial flows could help close the nature-finance gap and unlock a trillion-dollar nature-transition economy", "unit": "reported transition proposition", "value_type": "reported_policy_proposition"},
+        "harmful_subsidies": {"value": "Phasing out or repurposing harmful subsidies and destructive investment is identified as a major transition lever", "unit": "reported policy mechanism", "value_type": "reported_policy_pathway"},
+        "time_horizon": {"value": "The report tracks investment needs and opportunities to 2030 and 2050", "unit": "reported planning horizon", "value_type": "reported_time_horizon"}
+      },
+      "method": "UNEP finance-flow analysis and the Nature Transition X-Curve framework for sequencing reforms, reducing harmful flows, and scaling high-integrity Nature-based Solutions.",
+      "uncertainty": "The transition framework does not establish political feasibility, financing access, sector-specific employment effects, price pass-through, or the distribution of gains and losses.",
+      "subgroup": "Energy, agriculture, water, transport, construction, utilities, industrials, basic materials, investors, workers, consumers, and public authorities.",
+      "counterinterpretation": "Subsidy reform can improve environmental incentives but may raise prices or reduce access for households and firms unless accompanied by targeted protection, alternatives, and accountable sequencing.",
+      "source_url": "https://www.unep.org/resources/state-finance-nature-2026",
+      "retrieval_hash": "sha256:70711fc6b18ffc549fbe1e373d89b79ed833b14da6e0575425ddc765e3120be4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; finance, exposure, and public legitimacy",
+      "denominator": {"value": 1, "unit": "nature-finance transition and social-protection frame", "value_type": "political_economy_transition_frame"},
+      "measures": {
+        "allocation_problem": {"value": "Nature finance is an allocation problem across public subsidies, private capital, strategic sectors, and environmental risk", "unit": "reported political-economy frame", "value_type": "reported_framework"},
+        "resilience_route": {"value": "Nature-based investment is framed as a way to address climate change, biodiversity loss, land degradation, and resilience", "unit": "reported policy route", "value_type": "reported_policy_pathway"},
+        "governance_requirement": {"value": "High-integrity nature finance requires sequencing, monitoring, and safeguards rather than capital volume alone", "unit": "analytic implementation requirement", "value_type": "program_mechanism"}
+      },
+      "method": "UNEP synthesis linking finance flows, nature-transition policy, climate and biodiversity targets, and governance requirements.",
+      "uncertainty": "The record does not estimate household exposure, local ecological change, employment transitions, or causal political response to subsidy and investment reform.",
+      "subgroup": "Communities exposed to environmental harm, workers and firms in affected sectors, taxpayers, consumers, regulators, investors, and local rights-holders.",
+      "counterinterpretation": "A transition can deepen concentration or exclusion if finance flows to large firms and projects without local participation, transparent benefit-sharing, and protections for affected workers and households.",
+      "source_url": "https://www.unep.org/resources/state-finance-nature-2026",
+      "retrieval_hash": "sha256:70711fc6b18ffc549fbe1e373d89b79ed833b14da6e0575425ddc765e3120be4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://wedocs.unep.org/handle/20.500.11822/47270", "claim": "UNEP full report and downloadable publication record for State of Finance for Nature 2026."},
+    {"source_url": "https://www.unep.org/resources/report/data-impact-measuring-progress-through-disaggregated-sdg-indicators", "claim": "Complementary UNEP measurement-to-local-policy route for environmental disaggregation and accountability."}
+  ],
+  "boundary": "This record adds a global nature-finance, subsidy, capital-allocation, transition, and environmental-political-economy route. It uses UNEP aggregate finance-flow estimates and policy frameworks, not project-level ecological outcomes, household exposure, worker transitions, local consent, financial additionality, or proof that redirected finance produces equitable protection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNEP State of Finance for Nature 2026 page reviewed for 2023 finance flows, nature-negative finance, Nature-based Solutions finance, private finance, 2030 investment need, transition framing, and Nature Transition X-Curve claims.",
+    "source_url_sha256": "sha256:70711fc6b18ffc549fbe1e373d89b79ed833b14da6e0575425ddc765e3120be4",
+    "checked": "2026-09-26"
+  }
+}

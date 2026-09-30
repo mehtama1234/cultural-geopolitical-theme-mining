@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-bangladesh-growth-employment-elasticity-sector-shift-2026",
+  "title": "Economic growth is becoming less reliably job-creating as Bangladesh’s sectoral employment elasticities shift",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 111458, Structural Shift in Job Creation: Evidence from Bangladesh",
+  "geography": "Bangladesh, with comparative Okun’s-law analysis involving six other Asian countries and sectoral employment-elasticity estimates for 2003-2024",
+  "observations": [
+    {
+      "period": "Bangladesh and six other Asian countries; growth–employment relationship",
+      "denominator": {"value": 7, "unit": "Asian countries in the comparative Okun's-law analysis", "value_type": "reported_country_comparison_frame"},
+      "measures": {
+        "okun_evidence": {"value": "evidence supporting a conventional Okun's-law relationship is weaker for Bangladesh than for the other selected countries", "unit": "reported macro-labor result", "value_type": "reported_comparative_result"},
+        "modeling": {"value": "three autoregressive distributed-lag specifications are used: dynamic difference, Hodrick-Prescott gap, and Baxter-King gap models", "unit": "reported methods", "value_type": "reported_method_set"},
+        "growth_job_gap": {"value": "aggregate growth is a less reliable proxy for employment creation in Bangladesh", "unit": "bounded macro-labor mechanism", "value_type": "bounded_mechanism"},
+        "household_route": {"value": "when growth and job creation decouple, household room depends more on sector, job quality, participation, and wage conversion than on headline GDP growth", "unit": "bounded household-work mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Time-series autoregressive distributed-lag estimates using three specifications to test the growth–employment relationship across Bangladesh and six Asian comparison countries.",
+      "uncertainty": "Macro time-series results depend on sample period, filters, specification, structural breaks, data quality, and employment measurement; they do not identify a single causal mechanism or worker-level distribution.",
+      "subgroup": "Bangladesh workers and sectors, comparison-country labor markets, formal and informal workers, women and men, rural and urban households, and workers moving across sectors.",
+      "counterinterpretation": "A weak aggregate Okun relationship can reflect labor-force participation, productivity, hours, migration, informality, measurement, or sectoral composition rather than a complete absence of job creation.",
+      "source_url": "https://documents.worldbank.org/curated/en/099534409172617455/pdf/IDU-b3064df3-cffd-4077-b8a8-67310519227c.pdf",
+      "retrieval_hash": "sha256:8b93747f5a035949cd8a36bac0c373cd88854740a9de4d0f6b969961634c368c",
+      "status": "reported"
+    },
+    {
+      "period": "Bangladesh; employment elasticity of growth across 2003-2010 and 2016-2024",
+      "denominator": {"value": 3, "unit": "Bangladesh employment-elasticity periods analyzed in the paper", "value_type": "reported_period_frame"},
+      "measures": {
+        "agriculture": {"value": "employment elasticity in agriculture increased from 0.29 in 2003-2010 to 0.98 in 2016-2024", "unit": "reported employment elasticity", "value_type": "reported_sectoral_estimate"},
+        "industry": {"value": "employment elasticity in industry declined from 0.84 to -0.04 over the compared periods", "unit": "reported employment elasticity", "value_type": "reported_sectoral_estimate"},
+        "structural_shift": {"value": "growth has not moved uniformly toward increasingly job-rich industrialization; the sectoral employment response has changed direction", "unit": "bounded structural-transformation mechanism", "value_type": "bounded_mechanism"},
+        "quality_boundary": {"value": "elasticity measures the employment response to growth, not job quality, wage adequacy, stability, bargaining power, or household security", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Sectoral employment-elasticity estimates across three Bangladesh periods, with comparisons of agriculture, industry, and services.",
+      "uncertainty": "The reported period comparisons are sensitive to sector definitions, employment data, macro shocks, productivity, labor substitution, and the choice of subperiods; they do not establish that growth caused the sectoral movements.",
+      "subgroup": "Agricultural workers, industrial workers, manufacturing workers, rural-to-urban migrants, women entering or leaving sectors, and households dependent on sectoral earnings.",
+      "counterinterpretation": "A lower industry elasticity can coexist with productivity or wage gains, and a higher agricultural elasticity can reflect low-quality or seasonal work rather than inclusive structural transformation.",
+      "source_url": "https://documents.worldbank.org/curated/en/099534409172617455/pdf/IDU-b3064df3-cffd-4077-b8a8-67310519227c.pdf",
+      "retrieval_hash": "sha256:8b93747f5a035949cd8a36bac0c373cd88854740a9de4d0f6b969961634c368c",
+      "status": "reported"
+    },
+    {
+      "period": "Bangladesh; industry and service subcategories",
+      "denominator": {"value": 1, "unit": "sector-subcategory employment-elasticity comparison", "value_type": "reported_subsector_frame"},
+      "measures": {
+        "strongest_subsectors": {"value": "accommodation and food services and transportation and storage show the strongest employment elasticity", "unit": "reported subsector pattern", "value_type": "reported_subsector_result"},
+        "manufacturing": {"value": "manufacturing employment elasticity turns negative and performs worst among the analyzed sectors", "unit": "reported subsector pattern", "value_type": "reported_subsector_result"},
+        "consumer_route": {"value": "growth may create jobs in service activities tied to movement and consumption while reducing the employment response in manufacturing", "unit": "bounded sector-consumer mechanism", "value_type": "bounded_mechanism"},
+        "policy_question": {"value": "employment-enhancing growth requires sector choice and job-quality attention, not only aggregate growth targets", "unit": "reported policy implication", "value_type": "reported_policy_implication"}
+      },
+      "method": "Granular sector and subsector analysis of employment elasticity within Bangladesh's industry and service categories.",
+      "uncertainty": "Subsector elasticities are descriptive macro estimates and do not reveal whether new jobs are formal, durable, adequately paid, safe, geographically accessible, or equally available to women and disadvantaged groups.",
+      "subgroup": "Manufacturing workers, accommodation and food-service workers, transport and storage workers, consumers, migrants, firms, and households exposed to changing sectoral demand.",
+      "counterinterpretation": "Service-sector job creation may be lower-productivity or precarious, while manufacturing's negative elasticity may reflect capital deepening, trade exposure, automation, or reclassification rather than net welfare loss.",
+      "source_url": "https://documents.worldbank.org/curated/en/099534409172617455/pdf/IDU-b3064df3-cffd-4077-b8a8-67310519227c.pdf",
+      "retrieval_hash": "sha256:8b93747f5a035949cd8a36bac0c373cd88854740a9de4d0f6b969961634c368c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099534409172617455", "claim": "Official World Bank record and metadata for the Bangladesh growth and jobs study."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/111458.html", "claim": "Bibliographic record and abstract for the Okun-law comparison, period elasticities, sector results, and subsector findings."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/615", "claim": "World Bank reproducibility package and study metadata."}
+  ],
+  "boundary": "This record adds a growth-to-job-quality and sectoral-conversion mechanism. It is macro time-series evidence, not a causal worker-level evaluation, a measure of realized household welfare, or proof that services are better than manufacturing or that aggregate growth has no employment benefit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document page, abstract record, and reproducibility metadata were reviewed for the seven-country Okun-law comparison, three model specifications, Bangladesh employment elasticities, agriculture/industry changes, service and manufacturing subsectors, 2003-2024 periods, and quality and causal boundaries.",
+    "source_url_sha256": "sha256:8b93747f5a035949cd8a36bac0c373cd88854740a9de4d0f6b969961634c368c",
+    "checked": "2026-09-29"
+  }
+}

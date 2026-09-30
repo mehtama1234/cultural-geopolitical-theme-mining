@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-hispanic-identity-counting-2026-population-race-ancestry",
+  "title": "Hispanic America is growing while population counts, racial categories, ancestry, and self-identification diverge",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center, Who is Hispanic?, September 2026, using Census Bureau data, ACS/IPUMS analysis, and the National Survey of Latinos",
+  "geography": "United States; Hispanic adults and the broader U.S. Hispanic population across generations, origins, race, and family formation",
+  "observations": [
+    {
+      "period": "1970-2025; U.S. Hispanic population growth",
+      "denominator": {"value": 1, "unit": "U.S. Hispanic population; Hispanics may be of any race", "value_type": "population_frame"},
+      "measures": {
+        "hispanic_population_2025": {"value": 70.1, "unit": "million people in 2025", "value_type": "reported_population_estimate"},
+        "hispanic_population_2020": {"value": 62.1, "unit": "million people in 2020", "value_type": "reported_population_estimate"},
+        "hispanic_population_1970": {"value": 9.6, "unit": "million people in 1970", "value_type": "reported_population_estimate"},
+        "hispanic_population_2000": {"value": 35.3, "unit": "million people in 2000", "value_type": "reported_population_estimate"}
+      },
+      "method": "Pew analysis of decennial census data, P.L. 94-171 files, and Vintage 2025 Census Bureau population estimates; population totals use stated April 1 or July 1 reference dates.",
+      "uncertainty": "Population totals depend on census definitions, coverage, estimation, and Hispanic self-identification; they do not by themselves describe cultural homogeneity, political behavior, purchasing power, or service need.",
+      "subgroup": "People identified as Hispanic or Latino in U.S. population estimates, regardless of race.",
+      "counterinterpretation": "Rapid population growth can coexist with wide differences in origin, generation, language, class, race, citizenship, region, and identity labels; the aggregate count is not a single market or political bloc.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/15/who-is-hispanic/",
+      "retrieval_hash": "sha256:cf2ccfef4a9b76a0e480a9e7038f0a670f81bcaa7a04277e53eabf4cb8efb16a",
+      "status": "reported"
+    },
+    {
+      "period": "2024 ACS; Hispanic racial identification",
+      "denominator": {"value": 70.1, "unit": "million U.S. Hispanics in the 2025 population frame; race distribution reported for 2024 ACS", "value_type": "population_frame"},
+      "measures": {
+        "multiple_races": {"value": 29.4, "unit": "million Hispanics selecting more than one race in 2024 ACS", "value_type": "reported_population_estimate"},
+        "some_other_race": {"value": 23.4, "unit": "million single-race Hispanics selecting some other race", "value_type": "reported_population_estimate"},
+        "white_single_race": {"value": 11.9, "unit": "million single-race Hispanics selecting White", "value_type": "reported_population_estimate"},
+        "american_indian_alaska_native": {"value": 1.7, "unit": "million Hispanics selecting American Indian or Alaska Native", "value_type": "reported_population_estimate"}
+      },
+      "method": "Pew analysis of 2024 American Community Survey data accessed through IPUMS USA; Hispanic origin is treated separately from race under federal standards.",
+      "uncertainty": "The 2020 Census introduced response and coding changes that likely contributed to the rise in multiracial and ‘some other race’ responses; categories are measurement constructs and do not exhaust lived racial identity.",
+      "subgroup": "U.S. adults and children identified as Hispanic in the 2024 ACS, by self-reported or coded race response.",
+      "counterinterpretation": "The distribution may reflect improved opportunity to write detailed origins and coding rules rather than a sudden underlying change in ancestry or identity; racial classification should not be treated as a stable consumer or political segment.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/15/who-is-hispanic/",
+      "retrieval_hash": "sha256:cf2ccfef4a9b76a0e480a9e7038f0a670f81bcaa7a04277e53eabf4cb8efb16a",
+      "status": "reported"
+    },
+    {
+      "period": "2025 National Survey of Latinos; identity and ancestry",
+      "denominator": {"value": 4923, "unit": "Hispanic adults in Pew's National Survey of Latinos conducted October 6-16, 2025, including 1,125 ATP and 3,798 SSRS Opinion Panel respondents", "value_type": "survey_sample"},
+      "measures": {
+        "ancestry_not_identify_hispanic": {"value": 11, "unit": "percent of U.S. adults with Hispanic ancestry who did not identify as Hispanic or Latino in 2015-16; approximately 5 million people", "value_type": "reported_share"},
+        "fourth_generation_identify": {"value": 50, "unit": "approximate percent of adults with Hispanic ancestry identifying as Hispanic by the fourth generation in 2015-16", "value_type": "reported_share"},
+        "afro_latino_identity": {"value": 13, "unit": "percent of Hispanic adults saying they consider themselves Afro-Latino in the 2025 survey", "value_type": "reported_share"}
+      },
+      "method": "Pew National Survey of Latinos conducted in English and Spanish with national random address recruitment, supplemented by earlier Pew survey analysis of ancestry and self-identification across generations.",
+      "uncertainty": "The ancestry-to-identity generation estimates come from 2015-16 data and are not a current population projection; identity terms are self-reported and can vary with question wording, language, context, and family history.",
+      "subgroup": "U.S. Hispanic adults and adults with Hispanic ancestry across immigrant and later generations.",
+      "counterinterpretation": "Declining pan-ethnic identification across generations does not necessarily mean loss of cultural connection; people may use country-of-origin, racial, regional, or family labels instead.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/15/who-is-hispanic/",
+      "retrieval_hash": "sha256:cf2ccfef4a9b76a0e480a9e7038f0a670f81bcaa7a04277e53eabf4cb8efb16a",
+      "status": "reported"
+    },
+    {
+      "period": "2024; Hispanic family formation and intermarriage",
+      "denominator": {"value": 1, "unit": "U.S. Hispanic married people and newlyweds in the relevant ACS universes", "value_type": "survey_population"},
+      "measures": {
+        "married_hispanic_nonhispanic_spouse": {"value": 23, "unit": "percent of married Hispanics living with a spouse who was not Hispanic in 2024", "value_type": "reported_share"},
+        "hispanic_newlyweds_nonhispanic_spouse": {"value": 32, "unit": "percent of Hispanic newlyweds marrying someone who was not Hispanic in 2024", "value_type": "reported_share"},
+        "us_born_newlywed_intermarriage": {"value": 44, "unit": "percent among U.S.-born Hispanic newlyweds marrying a non-Hispanic person", "value_type": "reported_share"},
+        "immigrant_newlywed_intermarriage": {"value": 15, "unit": "percent among immigrant Hispanic newlyweds marrying a non-Hispanic person", "value_type": "reported_share"}
+      },
+      "method": "Pew analysis of 2024 American Community Survey marriage and newlywed data, separated by U.S.-born and immigrant status where reported.",
+      "uncertainty": "The measures describe marriage patterns, not broader friendship, language, neighborhood, cultural practice, or identity transmission; cross-sectional intermarriage differences may reflect generation, age, place, opportunity, and selection.",
+      "subgroup": "Married Hispanic adults and Hispanic newlyweds, by nativity.",
+      "counterinterpretation": "Intermarriage can coexist with strong ethnic identity, bilingual family life, cultural continuity, or new hybrid identities; it does not automatically imply assimilation or cultural loss.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/15/who-is-hispanic/",
+      "retrieval_hash": "sha256:cf2ccfef4a9b76a0e480a9e7038f0a670f81bcaa7a04277e53eabf4cb8efb16a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cultural-demographic measurement layer: the U.S. Hispanic population is growing rapidly, but race coding, ancestry, self-identification, generation, Afro-Latino identity, and intermarriage produce multiple overlapping versions of who is counted and how identity is lived. It does not establish a unified Hispanic market, electorate, culture, or causal assimilation trajectory."
+}

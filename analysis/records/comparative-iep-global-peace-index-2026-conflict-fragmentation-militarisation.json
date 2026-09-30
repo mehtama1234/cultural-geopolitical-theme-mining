@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iep-global-peace-index-2026-conflict-fragmentation-militarisation",
+  "title": "Global peacefulness is deteriorating as conflicts diffuse across borders, militarization rises, and a fragmented power system weakens the conditions for peace",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Institute for Economics & Peace, Global Peace Index 2026: Measuring Peace in a Complex World",
+  "geography": "163 independent states and territories covering 99.7 percent of the world population, with comparisons across regions and three peace domains",
+  "observations": [
+    {
+      "period": "2025-2026; global peacefulness and country movement",
+      "denominator": {"value": 163, "unit": "countries and territories ranked in the Global Peace Index 2026", "value_type": "global_index_frame"},
+      "measures": {
+        "peacefulness_change": {"value": -0.7, "unit": "percent change in average global peacefulness over the past year", "value_type": "reported_index_change"},
+        "deteriorated_countries": {"value": 99, "unit": "countries whose peacefulness score deteriorated", "value_type": "reported_country_count"},
+        "improved_countries": {"value": 62, "unit": "countries whose peacefulness score improved", "value_type": "reported_country_count"},
+        "long_run_pattern": {"value": "2026 marks the 12th consecutive year of global peacefulness deterioration and the 15th deterioration in the last 18 years", "unit": "IEP index trend", "value_type": "reported_trend"}
+      },
+      "method": "IEP Global Peace Index using 23 qualitative and quantitative indicators across societal safety and security, ongoing domestic and international conflict, and militarisation.",
+      "uncertainty": "The index is a composite ranking rather than a direct measure of lived safety, justice, or peace within every community; indicator selection and weighting shape the result.",
+      "subgroup": "Countries, regions, populations exposed to conflict or insecurity, governments, civil society, and institutions managing peace and security.",
+      "counterinterpretation": "Sixty-two countries improved and peacefulness can rise in particular regions or countries even during a global deterioration.",
+      "source_url": "https://www.economicsandpeace.org/global-peace-index/",
+      "retrieval_hash": "sha256:e9aeaf2e0255282f1fa16928d9edd1c8acc09685fa11242e73345ce135ee78d0",
+      "status": "reported"
+    },
+    {
+      "period": "2008-2026; state-based conflict and conflict deaths",
+      "denominator": {"value": 1, "unit": "global state-based conflict and conflict-death comparison frame", "value_type": "global_conflict_frame"},
+      "measures": {
+        "active_state_conflicts": {"value": 61, "unit": "active state-based conflicts in the 2026 index assessment", "value_type": "reported_global_count"},
+        "external_conflict_countries_2008": {"value": 59, "unit": "countries involved in at least one external conflict in the previous five years in 2008", "value_type": "reported_country_count"},
+        "external_conflict_countries_2026": {"value": 103, "unit": "countries involved in at least one external conflict in the previous five years in the 2026 index", "value_type": "reported_country_count"},
+        "conflict_deaths_2024": {"value": 181000, "unit": "more than conflict deaths in 2024, the highest annual total in a generation according to the index summary", "value_type": "reported_death_count"},
+        "internal_conflict_change": {"value": "global deaths from internal conflict rose more than sixfold from around 29,000 in 2008 to over 181,000 in the latest year reported", "unit": "IEP conflict synthesis", "value_type": "reported_trend"}
+      },
+      "method": "IEP comparison of conflict, deaths, external involvement, and the ongoing-conflict domain within the Global Peace Index.",
+      "uncertainty": "Conflict counts and deaths depend on source coverage, definitions, attribution, and reporting; index figures should not be treated as complete event-level mortality records.",
+      "subgroup": "Civilians, combatants, countries involved in external conflicts, displaced populations, humanitarian actors, and communities exposed to internal violence.",
+      "counterinterpretation": "Conflict intensity and deaths can fall in individual theaters even while the number of conflicts or countries involved rises globally.",
+      "source_url": "https://www.economicsandpeace.org/global-peace-index/",
+      "retrieval_hash": "sha256:e9aeaf2e0255282f1fa16928d9edd1c8acc09685fa11242e73345ce135ee78d0",
+      "status": "reported"
+    },
+    {
+      "period": "1991-2026; redistribution of power and geopolitical fragmentation",
+      "denominator": {"value": 1, "unit": "IEP geopolitical-order and peace-system synthesis frame", "value_type": "geopolitical_fragmentation_frame"},
+      "measures": {
+        "structural_period": {"value": "IEP identifies a Great Fragmentation beginning in the late 2000s after the Cold War and post-1990 globalisation periods", "unit": "IEP geopolitical framing", "value_type": "reported_framework"},
+        "middle_powers_1991": {"value": 9, "unit": "middle-power countries identified in 1991", "value_type": "reported_country_count"},
+        "middle_powers_2026": {"value": 16, "unit": "middle-power countries identified in the 2026 analysis", "value_type": "reported_country_count"},
+        "emerging_power_change": {"value": "the number of emerging powers has tripled since 1991", "unit": "IEP geopolitical synthesis", "value_type": "reported_trend"},
+        "capacity_shift": {"value": "the combined material capacity of middle powers now exceeds that of the great powers in the report's framing", "unit": "IEP geopolitical analysis", "value_type": "reported_framework"}
+      },
+      "method": "IEP analysis connecting GPI trends with global power redistribution, middle powers, external conflict, militarisation, and international order.",
+      "uncertainty": "Terms such as great power, middle power, and material capacity depend on the report's analytical definitions and do not constitute a universal geopolitical taxonomy.",
+      "subgroup": "States, regional organizations, middle powers, great powers, smaller states, populations affected by external intervention, and diplomatic institutions.",
+      "counterinterpretation": "A more plural distribution of power can create bargaining space and regional agency as well as fragmentation and escalation risk.",
+      "source_url": "https://www.economicsandpeace.org/global-peace-index/",
+      "retrieval_hash": "sha256:e9aeaf2e0255282f1fa16928d9edd1c8acc09685fa11242e73345ce135ee78d0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; measurement domains, economic cost, and positive peace",
+      "denominator": {"value": 3, "unit": "Global Peace Index domains", "value_type": "peace_measurement_frame"},
+      "measures": {
+        "domains": {"value": "societal safety and security, ongoing domestic and international conflict, and militarisation", "unit": "GPI measurement framework", "value_type": "reported_domain_set"},
+        "indicator_count": {"value": 23, "unit": "qualitative and quantitative indicators used by the index", "value_type": "reported_indicator_count"},
+        "economic_route": {"value": "the report analyses the economic impact and value of peace alongside conflict and militarisation", "unit": "IEP report scope", "value_type": "reported_analysis_route"},
+        "positive_peace": {"value": "attitudes, institutions, and structures that create and sustain peaceful societies are treated as a resilience pathway", "unit": "IEP Positive Peace framing", "value_type": "reported_framework"}
+      },
+      "method": "Composite index methodology and IEP analysis of peace, economic value, conflict spread, escalation hotspots, risk, and Positive Peace.",
+      "uncertainty": "Composite indicators identify patterns and associations; they do not establish that a single institution or attitude causes peace or that economic costs are identical across settings.",
+      "subgroup": "Public institutions, firms, households, communities, peacebuilders, security actors, and populations living with insecurity or militarisation.",
+      "counterinterpretation": "Index-based measurement can make peace capacity visible and support comparison, but local qualitative knowledge and community-level institutions may not be captured fully.",
+      "source_url": "https://www.economicsandpeace.org/global-peace-index/",
+      "retrieval_hash": "sha256:e9aeaf2e0255282f1fa16928d9edd1c8acc09685fa11242e73345ce135ee78d0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://gpi.economicsandpeace.org/", "claim": "IEP interactive Global Peace Index 2026 site provides rankings, indicators, trends, and open-data context."},
+    {"source_url": "https://www.visionofhumanity.org/wp-content/uploads/2026/06/Global-Peace-Index-2026-Report.pdf", "claim": "Official IEP Global Peace Index 2026 report PDF provides the detailed conflict, fragmentation, economic-impact, and methodology analysis."}
+  ],
+  "boundary": "This record adds a geopolitical peace route across peacefulness, conflict diffusion, conflict deaths, militarisation, power fragmentation, economic costs, and Positive Peace. It uses an aggregate IEP composite index and report synthesis, not respondent-level safety histories, event-level conflict microdata, individual victim records, causal geopolitical forecasts, or proof that index movement directly describes every community.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IEP Global Peace Index 2026 landing page, interactive index page, report PDF, and methodology framing reviewed for rankings, 163-country scope, 23 indicators, three domains, peacefulness movement, conflict counts and deaths, power fragmentation, economic impact, and Positive Peace.",
+    "source_url_sha256": "sha256:e9aeaf2e0255282f1fa16928d9edd1c8acc09685fa11242e73345ce135ee78d0",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg11-2026-urban-housing-slums-public-space-transport",
+  "title": "Urban growth is not yet producing adequate housing, public space, transport access, or resilient services at scale",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 11: Sustainable Cities and Communities",
+  "geography": "Global urban settlements, housing, informal settlements, land use, public space, transport, disaster resilience, and urban governance",
+  "observations": [
+    {
+      "period": "2024; urban housing and informal settlements",
+      "denominator": {"value": 1, "unit": "global urban population and housing-condition frame", "value_type": "urban_housing_frame"},
+      "measures": {
+        "slum_population": {"value": 1160, "unit": "millions of urban residents living in slums or informal settlements in 2024", "value_type": "reported_population_estimate"},
+        "slum_share": {"value": "almost one in four urban residents", "unit": "reported global share", "value_type": "reported_share_boundary"},
+        "service_deficit": {"value": "many residents lack safe water, sanitation, secure housing, or adequate living space", "unit": "UN SDG synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "UN SDG compilation of global urban housing, informal-settlement, service, and living-condition indicators.",
+      "uncertainty": "Global slum and informal-settlement estimates depend on definitions, enumeration, and country reporting; the aggregate does not measure individual housing histories, tenure security, or resident preferences.",
+      "subgroup": "Urban residents in informal settlements, renters, displaced people, low-income households, women, children, migrants, and people exposed to environmental hazards.",
+      "counterinterpretation": "Informal settlements can provide access to jobs, social networks, and affordable urban entry even while residents face serious service, legal, and safety deficits.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/",
+      "retrieval_hash": "sha256:5812cad434fb6562059181cba5ab28f0daa71f985ef22e84e11875f09ae85468",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; public space and urban land allocation",
+      "denominator": {"value": 414, "unit": "cities in 126 countries with comparable public-space and urban-land data", "value_type": "city_comparison_frame"},
+      "measures": {
+        "cities_observed": {"value": 414, "unit": "cities across 126 countries", "value_type": "reported_coverage"},
+        "streets_open_space_2020": {"value": 16.6, "unit": "percent of urban land allocated to streets and open spaces in 2020", "value_type": "reported_share"},
+        "streets_open_space_2025": {"value": 17, "unit": "percent of urban land allocated to streets and open spaces in 2025", "value_type": "reported_share"},
+        "target_gap": {"value": "the increase remains far below the recommended 30 to 45 percent range", "unit": "UN SDG comparison", "value_type": "reported_gap"}
+      },
+      "method": "UN SDG analysis of city-level land allocation, public space, and urban form indicators.",
+      "uncertainty": "The city sample is not all cities and land-allocation measures do not establish accessibility, safety, quality, or equitable use of public space.",
+      "subgroup": "Pedestrians, children, older adults, people with disabilities, low-income residents, street vendors, commuters, and communities lacking accessible public space.",
+      "counterinterpretation": "A small aggregate land-share change can coexist with meaningful local improvements, while a higher share can still be poorly located, inaccessible, or unsafe.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/",
+      "retrieval_hash": "sha256:5812cad434fb6562059181cba5ab28f0daa71f985ef22e84e11875f09ae85468",
+      "status": "reported"
+    },
+    {
+      "period": "2026; transport, opportunity, and urban resilience",
+      "denominator": {"value": 1, "unit": "urban transport, public-service access, disaster-risk, and opportunity frame", "value_type": "urban_access_resilience_frame"},
+      "measures": {
+        "transport_channel": {"value": "access to public transport shapes economic prospects and quality of life for city residents", "unit": "UN SDG synthesis", "value_type": "reported_mechanism"},
+        "service_resilience": {"value": "cities face risks from disasters, critical-infrastructure disruption, and basic-service interruption", "unit": "UN SDG synthesis", "value_type": "reported_risk"},
+        "opportunity_link": {"value": "housing location, transport, services, and public space jointly condition access to work, health, education, and social life", "unit": "program synthesis", "value_type": "reported_framework"}
+      },
+      "method": "UN SDG comparative review of transport, resilience, infrastructure, public-space, and urban-service indicators.",
+      "uncertainty": "The report identifies system linkages but does not estimate individual commute effects, causal housing-to-opportunity pathways, or city-specific resilience outcomes.",
+      "subgroup": "Transit-dependent residents, workers, students, caregivers, people with disabilities, peripheral neighborhoods, and communities exposed to disasters or service outages.",
+      "counterinterpretation": "Walking, cycling, informal transport, remote work, and local service provision can offset some formal transport deficits, though they may not be safe, reliable, or equally available.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/",
+      "retrieval_hash": "sha256:5812cad434fb6562059181cba5ab28f0daa71f985ef22e84e11875f09ae85468",
+      "status": "reported"
+    },
+    {
+      "period": "2026; urban data, participation, and local implementation",
+      "denominator": {"value": 1, "unit": "city and neighborhood data, local governance, participation, and SDG implementation frame", "value_type": "urban_governance_frame"},
+      "measures": {
+        "data_gap": {"value": "urban data remain insufficiently disaggregated to understand inequalities affecting vulnerable people and neighborhoods", "unit": "UN SDG report synthesis", "value_type": "reported_gap"},
+        "local_delivery": {"value": "housing, transport, public space, climate resilience, and services depend on local planning, finance, maintenance, and participation", "unit": "program synthesis", "value_type": "reported_mechanism"},
+        "policy_question": {"value": "the open question is whether urban growth creates shared access and voice or reproduces spatial exclusion", "unit": "program synthesis", "value_type": "open_question"}
+      },
+      "method": "UN SDG synthesis of urban indicators and data limitations connected to local implementation and governance.",
+      "uncertainty": "This is a cross-source analytical bridge, not a causal estimate from the SDG report; data gaps may conceal both progress and exclusion.",
+      "subgroup": "Municipal governments, neighborhood organizations, informal-settlement residents, planners, service providers, developers, and groups underrepresented in city data.",
+      "counterinterpretation": "Participatory upgrading, better local data, and community-led planning can improve delivery without requiring uniform national policy or formal tenure first.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/",
+      "retrieval_hash": "sha256:5812cad434fb6562059181cba5ab28f0daa71f985ef22e84e11875f09ae85468",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unhabitat.org/world-cities-report-2026", "claim": "UN-Habitat World Cities Report 2026 provides complementary narrative analysis of the global housing crisis, displacement, and urban resilience."},
+    {"source_url": "https://www.un.org/development/desa/pd/node/4443", "claim": "UN DESA World Urbanization Prospects 2025 provides complementary population distribution and urbanization projections."}
+  ],
+  "boundary": "This record adds a global urban housing, informal-settlement, public-space, transport, resilience, data, and local-governance route. It uses aggregate SDG indicators and city comparisons, not individual housing histories, respondent-level resident sentiment, causal commute or health estimates, or proof that urban investment produces equitable access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 11 materials were reviewed for urban informal settlements, public-space land allocation, transport and opportunity, service resilience, and urban data gaps.",
+    "source_url_sha256": "sha256:5812cad434fb6562059181cba5ab28f0daa71f985ef22e84e11875f09ae85468",
+    "checked": "2026-09-26"
+  }
+}

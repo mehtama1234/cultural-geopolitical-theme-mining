@@ -1,0 +1,123 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-equimundo-state-american-men-2026-economic-insecurity-ai-manhood-democracy",
+  "title": "Young men combine economic insecurity and nostalgia with AI adoption, online influence, contested manhood, and conditional democratic commitment",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Equimundo, Young Men Research Project, and YouGov State of American Men 2026; nationally representative survey of 1,000 young men and 500 young women ages 18–29, four focus groups, social listening across 10 subreddits, and seven podcast transcripts",
+  "geography": "United States; young adults ages 18–29 with primary findings on young men",
+  "observations": [
+    {
+      "period": "2026; young U.S. men ages 18–29",
+      "denominator": {"value": 1000, "unit": "young men ages 18–29 in the YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "financial_security_harder_than_fathers": {"value": 74, "unit": "percent saying financial security is much harder for their generation than for their fathers' generation", "value_type": "reported_share"},
+        "constant_financial_worry": {"value": 69, "unit": "percent constantly worried about their own and family's financial future", "value_type": "reported_share"},
+        "american_dream_personally_attainable": {"value": 54, "unit": "percent believing the American Dream is attainable for them personally", "value_type": "reported_share"},
+        "housing_was_better_fifty_years_ago": {"value": 69, "unit": "percent saying housing affordability was better 50 years ago", "value_type": "reported_share"}
+      },
+      "method": "YouGov survey with Equimundo and Young Men Research Project, supplemented by focus groups and qualitative analysis.",
+      "uncertainty": "The survey is cross-sectional and self-reported; nostalgia is not an objective comparison of past conditions, and economic concern does not establish causes, future behavior, or a single shared experience among young men.",
+      "subgroup": "Young U.S. men ages 18–29, with differences reported by college attainment, employment, and other background characteristics.",
+      "counterinterpretation": "A majority can believe the American Dream is attainable while also reporting severe financial worry; nostalgia may express desired community and security rather than support for all institutions or norms of the past.",
+      "source_url": "https://www.equimundo.org/resources/state-of-american-men-2026/",
+      "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; young U.S. men ages 18–29 and speculative digital economies",
+      "denominator": {"value": 1000, "unit": "young men ages 18–29 in the YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "prediction_market_use": {"value": 35, "unit": "percent who have placed money on prediction markets such as Kalshi or Polymarket", "value_type": "reported_share"},
+        "influencer_product_purchase": {"value": "just under half", "unit": "young men who purchased a product from someone they follow online, including supplements, financial advice, cryptocurrency, courses, or coaching", "value_type": "reported_share"},
+        "speculative_economy_frame": {"value": "gambling, influencer commerce, and financial aspiration overlap", "unit": "report synthesis across survey and qualitative evidence", "value_type": "reported_interpretation"}
+      },
+      "method": "YouGov survey combined with focus groups, social listening, and podcast analysis; the report interprets prediction markets and influencer commerce as related speculative-economy routes.",
+      "uncertainty": "Reported use does not measure spending amounts, losses, frequency, platform legality, financial literacy, or whether purchases were harmful, useful, or ordinary commerce.",
+      "subgroup": "Young U.S. men ages 18–29, including men exposed to online influencers and prediction-market platforms.",
+      "counterinterpretation": "Prediction-market use can reflect experimentation or political interest rather than financial desperation; influencer purchases are not necessarily scams or evidence of dependency.",
+      "source_url": "https://www.equimundo.org/resources/state-of-american-men-2026/",
+      "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; young U.S. men ages 18–29 and AI use",
+      "denominator": {"value": 1000, "unit": "young men ages 18–29 in the YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "any_ai_use": {"value": 78, "unit": "percent using AI", "value_type": "reported_share"},
+        "daily_ai_use": {"value": 43, "unit": "percent using AI daily", "value_type": "reported_share"},
+        "college_educated_positive_career_effect": {"value": 51, "unit": "percent of college-educated young men saying AI has positively affected career prospects", "value_type": "reported_share"},
+        "noncollege_positive_career_effect": {"value": 27, "unit": "percent of young men without a college degree saying AI has positively affected career prospects", "value_type": "reported_share"}
+      },
+      "method": "YouGov survey and qualitative report analysis of AI in work, schooling, entertainment, and relationships.",
+      "uncertainty": "AI use and perceived career effect are self-reported and cross-sectional; they do not measure task exposure, wage change, productivity, skill acquisition, privacy harm, or causal career benefit.",
+      "subgroup": "Young U.S. men ages 18–29 by college attainment.",
+      "counterinterpretation": "Higher perceived benefit among college-educated men may reflect occupation, access, confidence, or prior opportunity rather than an intrinsic education effect; frequent use does not mean positive evaluation.",
+      "source_url": "https://www.equimundo.org/resources/state-of-american-men-2026/",
+      "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; young U.S. men ages 18–29 and social connection",
+      "denominator": {"value": 1000, "unit": "young men ages 18–29 in the YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "close_friend_met_online": {"value": 58, "unit": "percent who have become close friends with someone first met online", "value_type": "reported_share"},
+        "purpose_and_in_person_spaces": {"value": "stronger sense of purpose is associated with more close friends and more time in gyms, parks, restaurants, and nightlife venues", "unit": "reported association", "value_type": "reported_association"},
+        "economic_geographic_position": {"value": "shapes purpose more than digital presence alone", "unit": "report synthesis", "value_type": "reported_interpretation"}
+      },
+      "method": "YouGov survey, focus groups, and qualitative analysis of online communities and podcasts.",
+      "uncertainty": "The associations are descriptive and do not establish whether purpose causes friendship or place-based activity, or whether economic position causes digital and in-person patterns.",
+      "subgroup": "Young U.S. men ages 18–29 by purpose, friendship, economic position, and geography.",
+      "counterinterpretation": "Online relationships can support rather than replace in-person connection; time in public venues may reflect income, transportation, health, or local availability rather than purpose alone.",
+      "source_url": "https://www.equimundo.org/resources/state-of-american-men-2026/",
+      "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2026; young U.S. men ages 18–29 and restrictive masculinity norms",
+      "denominator": {"value": 1000, "unit": "young men ages 18–29 in the 2026 YouGov survey; trend comparison with earlier State of American Men surveys", "value_type": "reported_sample_size"},
+      "measures": {
+        "man_final_say_relationship": {"value": "42; 34 in 2017", "unit": "percent agreeing a man should always have the final say in relationship or marriage", "value_type": "reported_change"},
+        "gay_man_real_man": {"value": "40; 29 in 2017", "unit": "percent agreeing a gay man is not a real man", "value_type": "reported_change"},
+        "manhood_success_definition": {"value": "fatherhood is most associated with manhood while financial stability most defines success", "unit": "reported comparison", "value_type": "reported_assessment"}
+      },
+      "method": "Equimundo/YMRP survey comparison across State of American Men waves, with qualitative focus groups and media analysis.",
+      "uncertainty": "Trend comparisons depend on question wording, sampling, field periods, and comparable measurement; agreement does not establish behavior, violence, or stable identity.",
+      "subgroup": "Young U.S. men ages 18–29, with comparisons to earlier report waves.",
+      "counterinterpretation": "Restrictive-norm agreement can coexist with care, friendship, equality, or ambivalence; the report’s “Man Box” frame is an interpretive construct, not a clinical or administrative classification.",
+      "source_url": "https://www.equimundo.org/resources/state-of-american-men-2026/",
+      "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; young U.S. men ages 18–29 and democracy",
+      "denominator": {"value": 1000, "unit": "young men ages 18–29 in the YouGov survey", "value_type": "reported_sample_size"},
+      "measures": {
+        "elections_important": {"value": 77, "unit": "percent saying elections are important to the country's wellbeing", "value_type": "reported_share"},
+        "elected_officials_do_not_care": {"value": 72, "unit": "percent saying most elected officials do not care what people like them think", "value_type": "reported_share"},
+        "tear_it_all_down_president": {"value": "about one in three", "unit": "percent agreeing a president who tears it all down is the only way forward", "value_type": "reported_share"},
+        "reform_preferences": {"value": "77 universal health care; 73 higher taxes on billionaires; 68 universal paid paternity leave; 64 ban private equity purchases of single-family homes", "unit": "percent support across selected policy items", "value_type": "reported_share_set"}
+      },
+      "method": "YouGov survey with report analysis of online voices, podcasts, focus groups, and civic attitudes.",
+      "uncertainty": "Support for elections, anti-establishment rhetoric, and policy reforms are separate measures; they do not predict voting, party affiliation, protest, democratic breakdown, or policy implementation.",
+      "subgroup": "Young U.S. men ages 18–29 across political, economic, educational, and racial/ethnic backgrounds.",
+      "counterinterpretation": "Democratic commitment can coexist with institutional distrust and appetite for disruptive leadership; policy support may reflect broad principles rather than agreement with a specific legislative design.",
+      "source_url": "https://www.equimundo.org/resources/state-of-american-men-2026/",
+      "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.equimundo.org/wp-content/uploads/2026/09/State-of-American-Men-2026.pdf", "claim": "Full report, methodology, survey, focus groups, social listening, and podcast-analysis source.", "status": "primary-report"}
+  ],
+  "boundary": "This record captures a mixed-method 2026 study of young men in the United States across economic security, speculative digital economies, AI, social connection, masculinity, and democracy. It does not establish causal mechanisms, objective economic mobility, representative effects for all young men, platform-level influence, future political behavior, or population-wide masculinity trends.",
+  "retrieval_hash": "sha256:255cb1bb46516ef541a700c57bd3da2cde9ae7abb1cae2aa623c12a5e8fd9ff6"
+}

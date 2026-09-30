@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-india-mospi-hces-2023-24-consumption-room-inequality",
+  "title": "India’s consumption room is expanding, but cultural and discretionary access remains sharply stratified",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Ministry of Statistics and Programme Implementation (MoSPI), Household Consumption Expenditure Survey 2023–24 press note and report",
+  "geography": "India; 261,953 sampled households across States and Union Territories, with rural/urban, State/UT, and MPCE-fractile dimensions",
+  "observations": [
+    {
+      "period": "August 2023–July 2024; monthly per capita consumption expenditure",
+      "denominator": {
+        "value": 261953,
+        "unit": "households in the central HCES 2023–24 sample: 154,357 rural and 107,596 urban households",
+        "value_type": "reported_household_sample"
+      },
+      "measures": {
+        "rural_mpce_without_imputation": {"value": 4122, "unit": "Indian rupees per person per month, rural average without imputing free welfare items", "value_type": "official_average"},
+        "urban_mpce_without_imputation": {"value": 6996, "unit": "Indian rupees per person per month, urban average without imputing free welfare items", "value_type": "official_average"},
+        "urban_rural_gap_reported": {"value": 70, "unit": "percent urban-rural gap reported by MoSPI for 2023–24, using its published convention", "value_type": "official_gap_measure"},
+        "rural_mpce_with_imputation": {"value": 4247, "unit": "Indian rupees per person per month, rural average including imputed free welfare items", "value_type": "official_average"},
+        "urban_mpce_with_imputation": {"value": 7078, "unit": "Indian rupees per person per month, urban average including imputed free welfare items", "value_type": "official_average"},
+        "mechanism": {"value": "Household consumption room is a conversion constraint beneath cultural and consumer trends: the same national supply reaches households through very different monthly resource envelopes", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MoSPI HCES 2023–24 household consumption estimates at current prices, reported both without and with imputed values for selected free welfare items.",
+      "uncertainty": "MPCE is an average, not disposable income or discretionary spending; the urban-rural gap follows MoSPI’s published convention and does not identify prices, household size, needs, regional costs, or cultural preferences.",
+      "subgroup": "Indian rural and urban households, with State/UT and MPCE-fractile comparisons.",
+      "counterinterpretation": "Higher MPCE does not guarantee higher wellbeing or cultural participation; rural consumption can reflect different prices, production, transfers, household composition, or local forms of leisure.",
+      "source_url": "https://mospi.gov.in/sites/default/files/press_release/HCES_Press_Note_2023-24_27122024_rev.pdf",
+      "retrieval_hash": "sha256:1274bb40418421c0181aba4790fa0e5547b1a535b601f5536e3faea30bceac42",
+      "status": "reported"
+    },
+    {
+      "period": "August 2023–July 2024; non-food and entertainment consumption composition",
+      "denominator": {
+        "value": 261953,
+        "unit": "households in the central HCES 2023–24 sample: 154,357 rural and 107,596 urban households",
+        "value_type": "reported_household_sample"
+      },
+      "measures": {
+        "rural_nonfood_share": {"value": 53, "unit": "percent share of average rural MPCE spent on non-food items", "value_type": "official_composition_share"},
+        "urban_nonfood_share": {"value": 60, "unit": "percent share of average urban MPCE spent on non-food items", "value_type": "official_composition_share"},
+        "nonfood_share_gap": {"value": 7, "unit": "percentage-point difference between urban and rural non-food shares, calculated from published shares", "value_type": "derived_composition_gap"},
+        "major_nonfood_categories": {"value": "conveyance; clothing, bedding and footwear; miscellaneous goods and entertainment; durable goods", "unit": "MoSPI-listed major contributors to non-food expenditure", "value_type": "official_category_description"},
+        "urban_rent_share": {"value": 7, "unit": "approximately percent share of urban non-food expenditure attributed to rent, according to MoSPI", "value_type": "official_approximate_composition_share"},
+        "mechanism": {"value": "Non-food spending is the household route through which mobility, entertainment, durables, and cultural consumption compete with housing and other recurring claims; composition matters, not only total expenditure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MoSPI HCES 2023–24 composition summary; the source identifies entertainment within a group of major non-food contributors but does not provide a standalone entertainment percentage in the press note.",
+      "uncertainty": "The broad non-food share should not be interpreted as cultural spending; the listed categories are heterogeneous and the press note’s chart labels and grouping do not isolate entertainment, subscriptions, or event attendance.",
+      "subgroup": "Indian rural and urban households, with category-composition comparisons.",
+      "counterinterpretation": "A high non-food share may reflect transport, clothing, durable purchases, or rent rather than discretionary cultural consumption; category mix is not a preference measure.",
+      "source_url": "https://mospi.gov.in/sites/default/files/press_release/HCES_Press_Note_2023-24_27122024_rev.pdf",
+      "retrieval_hash": "sha256:1274bb40418421c0181aba4790fa0e5547b1a535b601f5536e3faea30bceac42",
+      "status": "reported"
+    },
+    {
+      "period": "August 2023–July 2024; MPCE-fractile inequality",
+      "denominator": {
+        "value": 261953,
+        "unit": "households in the central HCES 2023–24 sample: 154,357 rural and 107,596 urban households",
+        "value_type": "reported_household_sample"
+      },
+      "measures": {
+        "rural_bottom_5_mpce": {"value": 1677, "unit": "Indian rupees per person per month for the bottom 5 percent of rural population ranked by MPCE", "value_type": "official_fractile_average"},
+        "rural_top_5_mpce": {"value": 10137, "unit": "Indian rupees per person per month for the top 5 percent of rural population ranked by MPCE", "value_type": "official_fractile_average"},
+        "urban_bottom_5_mpce": {"value": 2376, "unit": "Indian rupees per person per month for the bottom 5 percent of urban population ranked by MPCE", "value_type": "official_fractile_average"},
+        "urban_top_5_mpce": {"value": 20310, "unit": "Indian rupees per person per month for the top 5 percent of urban population ranked by MPCE", "value_type": "official_fractile_average"},
+        "rural_top_bottom_ratio": {"value": 6.04, "unit": "ratio of rural top-5-percent average MPCE to rural bottom-5-percent average MPCE, calculated from published values", "value_type": "derived_fractile_ratio"},
+        "urban_top_bottom_ratio": {"value": 8.55, "unit": "ratio of urban top-5-percent average MPCE to urban bottom-5-percent average MPCE, calculated from published values", "value_type": "derived_fractile_ratio"},
+        "rural_gini": {"value": 0.237, "unit": "Gini coefficient for rural consumption in 2023–24", "value_type": "official_inequality_index"},
+        "urban_gini": {"value": 0.284, "unit": "Gini coefficient for urban consumption in 2023–24", "value_type": "official_inequality_index"},
+        "mechanism": {"value": "Aggregate consumption growth can coexist with sharply unequal household room, so national cultural or consumer growth should be tested against distributional access rather than treated as a common experience", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MoSPI HCES 2023–24 MPCE-fractile and Gini summaries; top-bottom ratios are calculated from published average MPCE values.",
+      "uncertainty": "Fractile averages describe distributional groups, not identifiable households or individual cultural behavior; the Gini is consumption inequality, not wealth, income, opportunity, or cultural-access inequality.",
+      "subgroup": "Bottom and top 5 percent of Indian rural and urban populations ranked by household MPCE.",
+      "counterinterpretation": "Lower consumption may coexist with non-market production, subsidized goods, local social support, or low-cost cultural forms; expenditure inequality does not map one-to-one onto lived cultural value.",
+      "source_url": "https://mospi.gov.in/sites/default/files/press_release/HCES_Press_Note_2023-24_27122024_rev.pdf",
+      "retrieval_hash": "sha256:1274bb40418421c0181aba4790fa0e5547b1a535b601f5536e3faea30bceac42",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://mospi.gov.in/sites/default/files/publication_reports/Final_Report_HCES_2023-24L.pdf",
+      "claim": "Official HCES 2023–24 final report with detailed tables and methodology.",
+      "status": "official-final-report"
+    },
+    {
+      "source_url": "https://mospi.gov.in/",
+      "claim": "MoSPI official statistical release and publication portal.",
+      "status": "official-institutional-source"
+    }
+  ],
+  "boundary": "This record adds an India-wide household-consumption and distribution layer beneath cultural and consumer trends. It does not isolate entertainment spending, measure cultural attendance, establish causal welfare effects, or treat MPCE as disposable income or equal opportunity.",
+  "retrieval_hash": "sha256:1274bb40418421c0181aba4790fa0e5547b1a535b601f5536e3faea30bceac42",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "MoSPI HCES 2023–24 press note reviewed for sample, MPCE, rural/urban composition, non-food and entertainment category description, fractile values, Gini coefficients, and imputation conventions; final report retained as related source.",
+    "press_note_pdf_sha256": "sha256:9a67df191fac044f1c3b45fdfe3d40bbb43ff2865789fc3a1f7d35875be60bc7",
+    "final_report_pdf_sha256": "sha256:368deb9c858dcc71c3bf0e6cad096a31b5b337a724cf92a113637f3302ea268e",
+    "checked": "2026-09-30"
+  }
+}

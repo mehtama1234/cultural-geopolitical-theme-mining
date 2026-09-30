@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-hilton-travel-trends-2027-flexibility-trust-wellness-microtravel",
+  "title": "Travel is being recalibrated around flexibility, trusted human guidance, wellbeing and shorter meaningful escapes",
+  "theme_ids": ["time", "cost", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Hilton, The Great Rebalance: Hilton's 2027 Trends Report, September 29, 2026; Morning Consult survey commissioned by Hilton",
+  "geography": "Travelers ages 18 and older in 14 countries: United States, Mexico, Brazil, Colombia, United Kingdom, Germany, Türkiye, United Arab Emirates, Saudi Arabia, Australia, China, India, Japan and Korea",
+  "observations": [
+    {
+      "period": "2026 survey; next-12-month travelers across 14 countries",
+      "denominator": {"value": 14744, "unit": "surveyed travelers ages 18 and older", "value_type": "reported_survey_sample"},
+      "measures": {
+        "perfect_trip_pressure": {"value": 54, "unit": "percent reporting some pressure to have the perfect trip", "value_type": "reported_share"},
+        "solo_connection": {"value": 31, "unit": "percent who have traveled solo to meet friends or family at the destination", "value_type": "reported_share"},
+        "mechanism": {"value": "Travel aspiration is being loosened from perfection and reworked as an individualized balance between autonomy, connection, flexibility and social expectation", "unit": "bounded cultural-consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Morning Consult survey conducted on behalf of Hilton from May 18 to June 1, 2026 among 14,744 next-12-month travelers in 14 countries; overall margin of error reported as approximately 1% and about 3% per individual market.",
+      "uncertainty": "The survey is commissioned by a hospitality company, measures self-reported attitudes and behaviors, and does not establish representative travel demand, realized bookings, affordability, causal effects or durable cultural change.",
+      "subgroup": "Travelers across 14 national markets, generations, solo and group travelers, parents and non-parents; detailed subgroup estimates are not reproduced here unless stated in the release.",
+      "counterinterpretation": "Pressure around the perfect trip may coexist with continued demand for luxury, status and highly curated experiences; flexibility language does not necessarily mean lower spending or less brand influence.",
+      "source_url": "https://stories.hilton.com/releases/2027-trends-release",
+      "retrieval_hash": "sha256:4e69c0e09ff7efe1929f6de3f7a85c9b1c07f8a41d4d0176f520eb5ec33948de",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; trust, AI planning and human expertise",
+      "denominator": {"value": 14744, "unit": "surveyed travelers across 14 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "hotel_staff_trust": {"value": 70, "unit": "percent trusting hotel staff as a travel-planning resource", "value_type": "reported_share"},
+        "loyalty_status_trust": {"value": 50, "unit": "percent more likely to trust recommendations from someone with loyalty status than someone without it", "value_type": "reported_share"},
+        "ai_human_boundary": {"value": "The report frames human expertise and touch as a differentiator in an era of AI-powered travel planning", "unit": "reported commercial-cultural frame", "value_type": "reported_interpretation"},
+        "mechanism": {"value": "As algorithmic planning expands, trust is redistributed toward people, institutional service workers and visible status signals rather than eliminated", "unit": "bounded trust mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Hilton/Morning Consult survey measures and Hilton's public interpretation of the Travel Trust Equation trend.",
+      "uncertainty": "Trust responses are not experimental comparisons of AI and humans; the release does not establish whether trust produces bookings, satisfaction, loyalty or equitable service.",
+      "subgroup": "Travelers using AI planning, hotel staff, family advisors, loyalty-program members and travelers with different levels of status access.",
+      "counterinterpretation": "Trust in staff or status holders may reflect familiarity, brand framing or social desirability; it may also reinforce hierarchy and unequal access to recommendations.",
+      "source_url": "https://stories.hilton.com/releases/2027-trends-release",
+      "retrieval_hash": "sha256:4e69c0e09ff7efe1929f6de3f7a85c9b1c07f8a41d4d0176f520eb5ec33948de",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; wellbeing, nature, personal growth and micro-travel",
+      "denominator": {"value": 14744, "unit": "surveyed travelers across 14 countries", "value_type": "reported_survey_sample"},
+      "measures": {
+        "purpose_calendar": {"value": 76, "unit": "percent saying having a trip on the calendar gives them a purpose to work toward", "value_type": "reported_share"},
+        "skillcation_growth": {"value": 42, "unit": "percent saying travel helped them discover new interests or passions", "value_type": "reported_share"},
+        "nervous_system_reset": {"value": 65, "unit": "percent actively seeking experiences that calm the body and reset the nervous system", "value_type": "reported_share"},
+        "nature_relaxation": {"value": 79, "unit": "percent saying fresh air and outdoors are essential to how they relax while traveling", "value_type": "reported_share"},
+        "short_trip_preference": {"value": 67, "unit": "percent liking to plan travel that allows them to experience a lot in a short amount of time", "value_type": "reported_share"},
+        "mechanism": {"value": "Travel is being positioned as a time-and-wellbeing technology: shorter, flexible experiences promise restoration, personal growth and meaning that can be carried back into ordinary life", "unit": "bounded cultural-consumer mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Hilton/Morning Consult survey and public release summary of Growth Getaways, Wellness Rewired and the Micro-Travel Mindset.",
+      "uncertainty": "The reported shares combine attitudes and self-reports; the release does not measure mental-health outcomes, time constraints, household budgets, travel emissions, local community effects or post-trip behavior.",
+      "subgroup": "Travelers seeking wellness, nature, personal growth, hobbies, cultural connection and shorter trips, with differences by country and generation only partly described in the release.",
+      "counterinterpretation": "Wellness and meaningful travel may be commercial narratives layered onto ordinary leisure; the survey does not show whether these motives displace cost, status, convenience or family obligations.",
+      "source_url": "https://stories.hilton.com/releases/2027-trends-release",
+      "retrieval_hash": "sha256:4e69c0e09ff7efe1929f6de3f7a85c9b1c07f8a41d4d0176f520eb5ec33948de",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://stories.hilton.com/releases/2027-trends-release", "claim": "Official Hilton release with five trends, survey sample, country list, reported percentages, methodology and commercial framing."},
+    {"source_url": "https://stories.hilton.com/2027trends", "claim": "Hilton full 2027 Trends Report destination linked from the public release."}
+  ],
+  "boundary": "This record identifies a commissioned travel-culture and consumer subtheme around flexibility, human trust, wellness, personal growth and shorter travel. It does not establish representative global travel demand, booking behavior, affordability, wellbeing outcomes, local cultural effects, emissions, causal AI-human trust differences or durable trend persistence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Hilton release was reviewed for publication date, five trend headings, 14,744-person sample, country list, reported percentages, survey field dates, margins of error and commissioned-source limitations.",
+    "source_url_sha256": "sha256:4e69c0e09ff7efe1929f6de3f7a85c9b1c07f8a41d4d0176f520eb5ec33948de",
+    "checked": "2026-09-29"
+  }
+}

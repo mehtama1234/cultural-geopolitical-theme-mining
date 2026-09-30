@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-life-aspirations-2026-stability-home-family-genz-access",
+  "title": "Young people still want stable work and homes, but the widening cultural shift is confidence in access rather than abandonment of traditional milestones",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Ipsos, Life Aspirations 2026 / Global Advisor",
+  "geography": "30 countries; global, generational, income and Western-country comparisons",
+  "observations": [
+    {
+      "period": "February 20–March 6, 2026; 30 countries",
+      "denominator": {"value": 22693, "unit": "adults aged 16–74 across 30 countries, with country-specific age-frame variation", "value_type": "reported_sample"},
+      "measures": {
+        "stable_full_time_job_marker": {"value": 65, "unit": "percent viewing a stable full-time job as an important sign of a successful life", "value_type": "reported_share"},
+        "home_ownership_marker": {"value": 58, "unit": "percent viewing owning a home as an important sign of a successful life", "value_type": "reported_share"},
+        "independent_living_marker": {"value": 35, "unit": "percent viewing becoming independent and living on their own as important", "value_type": "reported_share"},
+        "parenthood_marker": {"value": 31, "unit": "percent viewing becoming a parent as important", "value_type": "reported_share"},
+        "marriage_marker": {"value": 25, "unit": "percent viewing marriage or civil partnership as important", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor survey asking respondents which milestones define a successful life.",
+      "uncertainty": "The global average is a simple country average, not population-weighted; aspiration importance is not the same as intended behavior, achievement or policy preference.",
+      "subgroup": "Adults aged 16–74 across 30 countries including the United States, Canada, Europe, Asia and Latin America.",
+      "counterinterpretation": "Stable work and home ownership may be selected as symbols of security rather than literal personal goals, especially where access is visibly constrained.",
+      "source_url": "https://www.ipsos.com/en-uk/more-gen-z-say-theyll-own-pet-have-child-despite-valuing-parenthood-more",
+      "retrieval_hash": "sha256:90d54d7b28a4d10cbe1de32299cf583dd8490e0337b9b67602b766eaead18285",
+      "status": "reported"
+    },
+    {
+      "period": "2026; confidence in reaching milestones by generation and income",
+      "denominator": {"value": 22693, "unit": "adults aged 16–74 across 30 countries; subgroup denominators are source-specific", "value_type": "reported_sample"},
+      "measures": {
+        "generational_alignment": {"value": "Under-35s, 35–49-year-olds and 50–74-year-olds place nearly the same importance on stable jobs and home ownership", "unit": "reported generational pattern", "value_type": "reported_interpretation"},
+        "income_opportunity_gradient": {"value": "Higher-income households are more likely to regard milestones as important, have achieved them and feel confident achieving those outstanding", "unit": "reported income gradient", "value_type": "reported_association"},
+        "access_not_values_shift": {"value": "Delayed adulthood appears more related to barriers to access and reduced confidence than to abandonment of traditional aspirations", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative subgroup analysis of milestone importance, achievement and perceived attainability by generation and household income.",
+      "uncertainty": "The survey is cross-sectional and cannot separate age, cohort and life-stage effects or establish that income causes confidence in future attainment.",
+      "subgroup": "Gen Z, Millennials, Gen X and Baby Boomers, with higher- and lower-income household comparisons.",
+      "counterinterpretation": "Generational similarity in stated values may coexist with substantial differences in actual opportunity, debt, housing markets, family support and labor-market entry.",
+      "source_url": "https://www.ipsos.com/en-uk/more-gen-z-say-theyll-own-pet-have-child-despite-valuing-parenthood-more",
+      "retrieval_hash": "sha256:90d54d7b28a4d10cbe1de32299cf583dd8490e0337b9b67602b766eaead18285",
+      "status": "reported"
+    },
+    {
+      "period": "2026; emotional cost of unmet milestones",
+      "denominator": {"value": 22693, "unit": "adults aged 16–74 across 30 countries; source reports global average", "value_type": "reported_sample"},
+      "measures": {
+        "sad_if_no_home_ownership": {"value": 40, "unit": "percent saying they would feel sad if they never owned their own home", "value_type": "reported_share"},
+        "sad_if_no_stable_job": {"value": 40, "unit": "percent saying they would feel sad if they never achieved a stable job", "value_type": "reported_share"},
+        "sad_if_no_own_living_space": {"value": 37, "unit": "percent saying they would feel sad if they never lived in their own home, rented or owned", "value_type": "reported_share"},
+        "family_milestone_divergence": {"value": "Parenthood and marriage produce more divided responses and are increasingly treated as personal choices rather than universal expectations", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos survey of emotional response to never achieving major work, housing, independence and family milestones.",
+      "uncertainty": "Hypothetical emotional responses do not measure distress, mental-health outcomes or actual life-course decisions.",
+      "subgroup": "Adults aged 16–74 across 30 countries.",
+      "counterinterpretation": "Sadness about an unmet milestone may reflect social status, security or lost optionality rather than a desire for the traditional institution itself.",
+      "source_url": "https://www.ipsosisay.com/en-us/article/life-aspirations-2026-successful-life-global",
+      "retrieval_hash": "sha256:90d54d7b28a4d10cbe1de32299cf583dd8490e0337b9b67602b766eaead18285",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Western-country Gen Z expectations for pets and parenthood",
+      "denominator": {"value": null, "unit": "Gen Z respondents in Western countries; exact subgroup denominator not headlined on the public page", "value_type": "not_disclosed"},
+      "measures": {
+        "gen_z_pet_lifetime_expectation": {"value": 58, "unit": "percent of Gen Z in Western countries who have owned an adult pet or expect to do so", "value_type": "reported_share"},
+        "gen_z_parenthood_lifetime_expectation": {"value": 44, "unit": "percent of Gen Z in Western countries who have become or expect to become a parent", "value_type": "reported_share"},
+        "pet_parenthood_gap": {"value": 14, "unit": "percentage-point difference between pet and parenthood expectation", "value_type": "reported_difference"},
+        "consumer_life_stage_signal": {"value": "Pet ownership can become a more attainable form of care, companionship and adult identity when parenthood and housing feel less accessible", "unit": "analytical inference from reported pattern", "value_type": "inference"}
+      },
+      "method": "Ipsos comparison of Gen Z expectations for pet ownership and parenthood in Western countries.",
+      "uncertainty": "The comparison does not establish why expectations differ or whether pet ownership substitutes for parenthood; country, relationship, fertility, housing and income contexts matter.",
+      "subgroup": "Gen Z respondents in Western countries.",
+      "counterinterpretation": "Pet and parenthood expectations may be additive rather than substitutive, with the gap reflecting timing and uncertainty rather than a changed value hierarchy.",
+      "source_url": "https://www.ipsos.com/en-uk/more-gen-z-say-theyll-own-pet-have-child-despite-valuing-parenthood-more",
+      "retrieval_hash": "sha256:90d54d7b28a4d10cbe1de32299cf583dd8490e0337b9b67602b766eaead18285",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsosisay.com/en-us/article/life-aspirations-2026-successful-life-global", "claim": "Ipsos iSay public explainer with global milestone rankings, sample and income-confidence interpretation."},
+    {"source_url": "https://resources.ipsos.com/DownloadLifeAspirations2026.html", "claim": "Official Ipsos report-access page for the Life Aspirations 2026 study."}
+  ],
+  "boundary": "This record adds a life-course and consumer-culture mechanism: stable work and housing remain widely shared definitions of success, while income and access shape confidence, emotional stakes and the timing or substitution of family and care milestones. It is a cross-national public-opinion study, not a fertility forecast, housing-demand model, longitudinal life-course panel or proof that pet ownership replaces parenthood.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos UK article, Ipsos iSay explainer and report-access page were retrieved and reviewed for sample, milestone rankings, generational alignment, income opportunity gradient, emotional cost of unmet milestones and Gen Z pet/parenthood expectations; the accessible official article page was hashed because the full report download is gated behind registration.",
+    "source_url_sha256": "sha256:90d54d7b28a4d10cbe1de32299cf583dd8490e0337b9b67602b766eaead18285",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-education-multilateralism-classroom-cooperation-2026",
+  "title": "Education is being imagined as everyday infrastructure for cooperation across difference, local-global knowledge exchange, and non-consensus civic life",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "UNESCO IdeasLAB think piece, Education as a culture of multilateralism, by Nastassja Pugliese and Renato Matoso",
+  "geography": "Global higher-education and classroom contexts, with local-global and non-WEIRD knowledge-production examples",
+  "observations": [
+    {
+      "period": "2026; classroom as multilateral forum",
+      "denominator": {"value": 1, "unit": "UNESCO IdeasLAB conceptual frame", "value_type": "published_think_piece"},
+      "measures": {
+        "institutional_frame": {"value": "the classroom is presented as a multilateral forum where international cooperation, local communities, academic diplomacy, and diverse visions of the future meet", "unit": "reported conceptual frame", "value_type": "reported_interpretation"},
+        "social_problem": {"value": "education is asked to help people with different histories, values, and imagined futures inhabit and build a world in common", "unit": "reported social problem frame", "value_type": "reported_assessment"},
+        "cooperation_condition": {"value": "cooperation is framed as possible without requiring consensus", "unit": "reported civic principle", "value_type": "reported_principle"}
+      },
+      "method": "UNESCO IdeasLAB qualitative think piece drawing on philosophy, education, academic diplomacy, multicultural classroom practice, and cited initiatives.",
+      "uncertainty": "The essay is a conceptual argument and does not measure classroom effects, institutional prevalence, student attitudes, or causal changes in trust or democratic behavior.",
+      "subgroup": "Students, teachers, university communities, local schools, civic organizations, researchers, and communities negotiating difference within educational institutions.",
+      "counterinterpretation": "Classrooms can support encounter and cooperation, but they can also reproduce hierarchy, exclusion, canon conflicts, language barriers, and unequal authority over what counts as knowledge.",
+      "source_url": "https://www.unesco.org/en/articles/education-culture-multilateralism",
+      "retrieval_hash": "sha256:0853b720ac4adc1ef1e0362a612b62a34ae0b310191a9dbc34730bfd0a9f0230",
+      "status": "reported"
+    },
+    {
+      "period": "2026; curriculum, history, and knowledge authority",
+      "denominator": {"value": 1, "unit": "UNESCO think-piece education and knowledge frame", "value_type": "published_think_piece"},
+      "measures": {
+        "curriculum_choice": {"value": "syllabi, authors, problems, histories, and authoritative knowledge are described as sites where educational institutions negotiate difference", "unit": "reported institutional process", "value_type": "reported_interpretation"},
+        "historical_futures_link": {"value": "historical knowledge and scientific foresight are treated as resources for relating past and future across difference", "unit": "reported pedagogical route", "value_type": "reported_mechanism"},
+        "identity_formation": {"value": "educational settings are described as shaping the worlds students see and the lives and futures they regard as possible", "unit": "reported formative pathway", "value_type": "reported_interpretation"}
+      },
+      "method": "Qualitative synthesis of the essay’s argument about curriculum, intellectual humility, history, foresight, identity, and knowledge authority.",
+      "uncertainty": "The claims are interpretive and do not establish a common curriculum effect, a measurable identity outcome, or a universal route from knowledge exposure to civic action.",
+      "subgroup": "Learners and educators with different histories, languages, intellectual traditions, identities, and relationships to institutional authority.",
+      "counterinterpretation": "Expanding whose histories and knowledge count can deepen participation, while curriculum pluralization can produce conflict or remain symbolic if institutional power and resources do not change.",
+      "source_url": "https://www.unesco.org/en/articles/education-culture-multilateralism",
+      "retrieval_hash": "sha256:0853b720ac4adc1ef1e0362a612b62a34ae0b310191a9dbc34730bfd0a9f0230",
+      "status": "reported"
+    },
+    {
+      "period": "2026; local-global knowledge and research cooperation",
+      "denominator": {"value": 1, "unit": "UNESCO local-global cooperation frame", "value_type": "published_think_piece"},
+      "measures": {
+        "double_task": {"value": "universities are asked to strengthen both global cooperation and relationships with local cultures and surrounding communities", "unit": "reported institutional responsibility", "value_type": "reported_principle"},
+        "non_weird_bias": {"value": "the essay identifies disproportionate reliance on Western, educated, industrialized, rich, and democratic populations as a research generalizability problem", "unit": "reported epistemic concern", "value_type": "reported_assessment"},
+        "co_creation_route": {"value": "local schools, civic organizations, and nearby communities are framed as partners whose questions can shape research agendas", "unit": "reported participation route", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative argument using local-global institutional examples and the essay’s discussion of non-WEIRD research contexts.",
+      "uncertainty": "The essay does not evaluate the cited initiatives or quantify how local co-creation changes research quality, legitimacy, or distribution of institutional power.",
+      "subgroup": "Researchers, local communities, schools, civic organizations, universities, and populations historically underrepresented in knowledge production.",
+      "counterinterpretation": "International collaboration can widen evidence and challenge blind spots, but global partnerships can reproduce asymmetry if agendas, funding, methods, and recognition remain externally controlled.",
+      "source_url": "https://www.unesco.org/en/articles/education-culture-multilateralism",
+      "retrieval_hash": "sha256:0853b720ac4adc1ef1e0362a612b62a34ae0b310191a9dbc34730bfd0a9f0230",
+      "status": "reported"
+    },
+    {
+      "period": "2026; education, trust, and democratic pluralism",
+      "denominator": {"value": 1, "unit": "UNESCO multilateralism and education argument", "value_type": "published_think_piece"},
+      "measures": {
+        "intellectual_humility": {"value": "intellectual humility, respect, trust, and empathy are presented as conditions for acknowledging limits without defensiveness", "unit": "reported civic disposition", "value_type": "reported_principle"},
+        "border_crossing_problems": {"value": "technological disruption, forced migration, historical knowledge, and democratic erosion are framed as problems not solvable through inward-looking national perspectives alone", "unit": "reported transnational problem set", "value_type": "reported_framework"},
+        "civic_capability": {"value": "education is described as enabling people to act as agents of citizenship and science, carrying local questions into global conversations and cooperation back into local life", "unit": "reported civic pathway", "value_type": "reported_interpretation"}
+      },
+      "method": "Normative and qualitative synthesis of the essay’s account of classroom practice, academic diplomacy, trust, identity, and multilateral cooperation.",
+      "uncertainty": "The argument does not establish that classroom exposure produces trust, tolerance, multilateral cooperation, or democratic resilience, and UNESCO notes the views are those of the authors rather than an official organizational position.",
+      "subgroup": "Students, teachers, universities, local communities, researchers, citizens, and institutions navigating geopolitical distrust and democratic disagreement.",
+      "counterinterpretation": "Education can rehearse cooperation without consensus, but it can also become a site of ideological contest, politicized knowledge control, or coercive conformity.",
+      "source_url": "https://www.unesco.org/en/articles/education-culture-multilateralism",
+      "retrieval_hash": "sha256:0853b720ac4adc1ef1e0362a612b62a34ae0b310191a9dbc34730bfd0a9f0230",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/futures-education", "claim": "UNESCO Futures of Education context for education, cooperation, and future-oriented institutional work."},
+    {"source_url": "https://www.unesco.org/en/education", "claim": "UNESCO education program context for inclusive, equitable, and lifelong learning."}
+  ],
+  "boundary": "This record adds a qualitative cultural-institutional signal linking classrooms, multilateral habits, difference, curriculum, local-global knowledge, non-WEIRD research, intellectual humility, trust, identity, and civic capability. It is an IdeasLAB think piece whose authors’ views are not necessarily UNESCO’s official position, not a survey, classroom observation, learning-outcome study, causal evaluation, or proof that education produces multilateral or democratic behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO IdeasLAB page was reviewed for the classroom-as-forum frame, curriculum and knowledge authority, local-global co-creation, non-WEIRD research concern, intellectual humility, transnational problems, civic capability, and the authorial/non-official-position caveat.",
+    "source_url_sha256": "sha256:0853b720ac4adc1ef1e0362a612b62a34ae0b310191a9dbc34730bfd0a9f0230",
+    "checked": "2026-09-27"
+  }
+}

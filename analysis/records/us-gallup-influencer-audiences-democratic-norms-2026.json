@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-influencer-audiences-democratic-norms-2026",
+  "title": "Political influencer audiences do not simply mirror their parties: they combine stronger protest support with sharper doubts about institutional accountability",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup and Charles F. Kettering Foundation analysis, What Podcaster Audiences Want From U.S. Democracy, June 15, 2026",
+  "geography": "United States; adults in the 2025 Democracy for All / Kettering-Gallup study",
+  "observations": [
+    {
+      "period": "2025 study; political news-source and audience frame",
+      "denominator": {"value": 20000, "unit": "more than 20,000 U.S. adults in the underlying Kettering-Gallup study; approximately 1,000 named a podcaster or influencer as a top news source", "value_type": "published_study_and_subgroup_frame"},
+      "measures": {
+        "influencer_news_use": {"value": "a small subgroup reported podcasters or online influencers among their core news sources", "unit": "reported audience frame", "value_type": "reported_subgroup"},
+        "audience_grouping": {"value": "audiences were grouped by the partisan identity of content creators' followers because most individual show samples were too small for separate reporting", "unit": "reported classification method", "value_type": "reported_method"},
+        "party_nonidentity": {"value": "influencer audiences diverged from broader partisan groups on several democratic-norm measures", "unit": "reported comparative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Secondary analysis of a large Kettering Foundation-Gallup U.S. adult study, with influencer audiences grouped by creator orientation and compared with party-affiliated respondents.",
+      "uncertainty": "The analysis is observational and the influencer subgroup is much smaller than the full sample; audience selection, creator exposure, political interest, and other differences are not causal estimates.",
+      "subgroup": "Adults naming left-leaning or right-leaning podcasters/influencers among top news sources, compared with Democrats or Republicans overall.",
+      "counterinterpretation": "Audience differences may reflect self-selection, age, education, political engagement, or content choice rather than influence by creators; creator-orientation grouping also compresses heterogeneous shows.",
+      "source_url": "https://news.gallup.com/poll/711047/podcaster-audiences-want-us-democracy.aspx",
+      "retrieval_hash": "sha256:cf6caf71401a297cf7e0ed98a0686d19bc051694f2e6a3ab320e6f2399155a66",
+      "status": "reported"
+    },
+    {
+      "period": "2025 study; support for peaceful protest and voting rights",
+      "denominator": {"value": 1000, "unit": "approximate U.S. adults in the underlying study naming a podcaster or influencer as a top news source; subgroup denominators vary by item", "value_type": "published_subgroup_frame"},
+      "measures": {
+        "peaceful_protest_left_audience": {"value": 71, "unit": "percent of left-leaning influencer audiences strongly agreeing that people with radical views should be able to protest peacefully, compared with 49 percent of Democrats overall", "value_type": "reported_comparison"},
+        "peaceful_protest_right_audience": {"value": 40, "unit": "percent of right-leaning influencer audiences strongly agreeing, compared with 28 percent of Republicans overall", "value_type": "reported_comparison"},
+        "voting_rights": {"value": "left-leaning influencer audiences were more supportive than their party peers of the right to vote for citizens with radical or uninformed views; the right-leaning audience showed little difference from Republicans overall", "unit": "reported comparative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Gallup comparison of democratic-principle responses across influencer-audience groups and party-affiliated respondents.",
+      "uncertainty": "The report does not establish why the groups differ, whether exposure preceded the attitude, or whether these attitudes translated into protest, voting, or other action.",
+      "subgroup": "Left-leaning and right-leaning influencer audiences, Democrats, Republicans, and respondents with differing views of political dissent.",
+      "counterinterpretation": "Influencer audiences may be more politically attentive or self-select into creators that match pre-existing commitments; stronger protest support can coexist with distrust of institutions.",
+      "source_url": "https://news.gallup.com/poll/711047/podcaster-audiences-want-us-democracy.aspx",
+      "retrieval_hash": "sha256:cf6caf71401a297cf7e0ed98a0686d19bc051694f2e6a3ab320e6f2399155a66",
+      "status": "reported"
+    },
+    {
+      "period": "2025 study; perceived accountability and civic efficacy",
+      "denominator": {"value": 1000, "unit": "approximate influencer-audience subgroup in the underlying Kettering-Gallup study; item-specific valid samples vary", "value_type": "published_subgroup_frame"},
+      "measures": {
+        "leaders_accountability_left": {"value": 8, "unit": "percent of left-leaning influencer audiences agreeing or strongly agreeing that political leaders will be held accountable, compared with 26 percent of Democrats", "value_type": "reported_comparison"},
+        "leaders_accountability_right": {"value": 33, "unit": "percent of right-leaning influencer audiences agreeing or strongly agreeing, compared with 48 percent of Republicans", "value_type": "reported_comparison"},
+        "voting_effectiveness": {"value": "54 percent of left-leaning influencer audiences called voting very effective versus 49 percent of Democrats; 41 percent of right-leaning audiences did so versus 51 percent of Republicans", "unit": "reported comparison", "value_type": "reported_comparison"},
+        "institutional_skepticism": {"value": "both influencer-audience groups were more skeptical than their partisan peers that political leaders are held accountable", "unit": "reported mechanism", "value_type": "reported_pattern"}
+      },
+      "method": "Comparative descriptive analysis of accountability and voting-efficacy items in the Kettering-Gallup study.",
+      "uncertainty": "Perceived accountability and efficacy are judgments, not audited institutional performance or realized political influence; small subgroup differences may be imprecise.",
+      "subgroup": "Political influencer audiences and partisan comparison groups with different media environments and political identities.",
+      "counterinterpretation": "Skepticism may reflect greater attention to political conflict or a critical democratic stance rather than disengagement; confidence in voting is not turnout.",
+      "source_url": "https://news.gallup.com/poll/711047/podcaster-audiences-want-us-democracy.aspx",
+      "retrieval_hash": "sha256:cf6caf71401a297cf7e0ed98a0686d19bc051694f2e6a3ab320e6f2399155a66",
+      "status": "reported"
+    },
+    {
+      "period": "2025 study; protest efficacy and creator-specific contrasts",
+      "denominator": {"value": 1000, "unit": "approximate influencer-audience subgroup in the underlying study; named-show estimates are smaller", "value_type": "published_subgroup_frame"},
+      "measures": {
+        "nonviolent_protest_left_audience": {"value": 31, "unit": "percent of left-leaning influencer audiences saying nonviolent protest is very effective, compared with 22 percent of Democrats", "value_type": "reported_comparison"},
+        "named_show_contrast": {"value": "39 percent of MeidasTouch listeners called nonviolent protest very effective versus 10 percent of Joe Rogan listeners", "unit": "reported named-audience comparison", "value_type": "reported_comparison"},
+        "political_route": {"value": "creator-mediated news audiences may connect attention to a more action-oriented but institutionally skeptical political stance", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Gallup analysis of political-action efficacy items by influencer-audience orientation and selected named shows.",
+      "uncertainty": "Named-show comparisons have small samples and are not representative of all listeners; the analysis cannot separate creator content from audience selection or broader media ecosystems.",
+      "subgroup": "Listeners identifying selected political podcasters/influencers and broader left-leaning or right-leaning influencer audiences.",
+      "counterinterpretation": "A critical view of government accountability can motivate protest rather than withdrawal; stated efficacy does not establish event participation or policy change.",
+      "source_url": "https://news.gallup.com/poll/711047/podcaster-audiences-want-us-democracy.aspx",
+      "retrieval_hash": "sha256:cf6caf71401a297cf7e0ed98a0686d19bc051694f2e6a3ab320e6f2399155a66",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/", "claim": "Pew-Knight supplies a separate public-life engagement typology linking news, civic activity, religion, and political participation.", "status": "official_comparator"},
+    {"source_url": "https://www.pewresearch.org/2026/09/15/how-americans-think-about-corporate-and-political-influence-on-the-news/", "claim": "Pew-Knight supplies a separate press-freedom and perceived media-influence route.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a U.S. media-to-politics route connecting influencer news use, democratic norms, protest and voting efficacy, accountability judgments, and institutional skepticism. It is a secondary analysis of a survey with small, selected influencer-audience subgroups; it does not establish creator causality, media exposure effects, actual political participation, persuasion, or institutional performance.",
+  "retrieval_hash": "sha256:cf6caf71401a297cf7e0ed98a0686d19bc051694f2e6a3ab320e6f2399155a66"
+}

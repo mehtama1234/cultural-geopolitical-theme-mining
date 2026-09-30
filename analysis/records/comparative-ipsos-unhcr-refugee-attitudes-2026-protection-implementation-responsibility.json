@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-unhcr-refugee-attitudes-2026-protection-implementation-responsibility",
+  "title": "Support for refugee protection remains broad while confidence depends on eligibility, integration, permanence and responsibility-sharing",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Ipsos and UNHCR, Global Attitudes Towards Refugees 2026",
+  "geography": "Global multi-country survey; country, generation and crisis-scenario comparisons",
+  "observations": [
+    {
+      "period": "2026; global refugee-attitude survey",
+      "denominator": {"value": null, "unit": "Ipsos survey respondents across the report's participating countries; pooled respondent denominator not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "right_to_seek_refuge": {"value": 66, "unit": "percent agreeing people should be able to take refuge in another country to escape war or persecution", "value_type": "reported_share"},
+        "claims_not_genuine": {"value": 61, "unit": "percent believing many people claiming refugee status are not genuinely in need of protection", "value_type": "reported_share"},
+        "close_borders": {"value": 49, "unit": "percent supporting closing borders to refugees entirely", "value_type": "reported_share"},
+        "integration_success": {"value": 44, "unit": "percent believing refugees will integrate successfully into society", "value_type": "reported_share"}
+      },
+      "method": "Ipsos public-opinion survey conducted with UNHCR on refugee protection, claims, borders and integration.",
+      "uncertainty": "The pooled public article does not headline one respondent denominator; attitudes are not measures of refugee flows, asylum decisions, integration outcomes or public-service capacity.",
+      "subgroup": "Adults across participating countries, with country and generational comparisons.",
+      "counterinterpretation": "Support for protection and suspicion about claims may reflect a desire for credible, rule-bound systems rather than opposition to refugees as a group.",
+      "source_url": "https://www.ipsos.com/en/global-attitudes-towards-refugees-2026",
+      "retrieval_hash": "sha256:959c7a840d378276c15be0906ab6f911923510da449e153bec7015fc25991c41",
+      "status": "reported"
+    },
+    {
+      "period": "2026; generation and country variation in integration expectations",
+      "denominator": {"value": null, "unit": "Ipsos respondents in participating countries; subgroup analytic denominators not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "gen_z_integration_confidence": {"value": 49, "unit": "percent of Gen Z expressing confidence refugees will integrate successfully", "value_type": "reported_share"},
+        "baby_boomer_integration_confidence": {"value": 39, "unit": "percent of Baby Boomers expressing confidence in successful integration", "value_type": "reported_share"},
+        "integration_generation_gap": {"value": 10, "unit": "percentage-point difference between Gen Z and Baby Boomer confidence", "value_type": "reported_difference"},
+        "refuge_protection_country_range": {"value": "Support for offering refuge ranges from 78% in Sweden and the Netherlands to 44% in South Korea", "unit": "reported country range", "value_type": "reported_distribution"}
+      },
+      "method": "Cross-national and generational comparison of perceived integration and support for offering refuge.",
+      "uncertainty": "Generational differences may reflect age, cohort, political context, media exposure and national experience rather than a single age effect.",
+      "subgroup": "Gen Z and Baby Boomer respondents, with country comparisons across the participating markets.",
+      "counterinterpretation": "Younger optimism may coexist with limited practical experience of settlement systems, while older skepticism may reflect perceived pressure on existing institutions.",
+      "source_url": "https://www.ipsos.com/en/global-attitudes-towards-refugees-2026",
+      "retrieval_hash": "sha256:959c7a840d378276c15be0906ab6f911923510da449e153bec7015fc25991c41",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public response to displacement from conflict in Iran and Lebanon",
+      "denominator": {"value": null, "unit": "Ipsos respondents considering conflict-displacement scenarios; scenario denominator not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "humanitarian_aid_preference": {"value": 28, "unit": "percent most likely to favour humanitarian aid", "value_type": "reported_share"},
+        "diplomatic_action_preference": {"value": 24, "unit": "percent most likely to favour diplomatic action", "value_type": "reported_share"},
+        "temporary_asylum_preference": {"value": 19, "unit": "percent favouring temporary asylum", "value_type": "reported_share"},
+        "permanent_acceptance_preference": {"value": 6, "unit": "percent favouring permanently accepting additional refugees", "value_type": "reported_share"}
+      },
+      "method": "Ipsos scenario question comparing humanitarian, diplomatic, temporary-asylum and permanent-admission responses to conflict displacement.",
+      "uncertainty": "Scenario preferences may not predict behavior under actual arrivals, fiscal pressure, security concerns or local service constraints; conflict framing can affect answers.",
+      "subgroup": "Adults in participating countries considering displacement linked to Iran and Lebanon conflicts.",
+      "counterinterpretation": "Preference for aid or diplomacy may express support for protection while favoring responsibility at a distance, or may reflect perceived limits of domestic reception capacity.",
+      "source_url": "https://www.ipsos.com/en/global-attitudes-towards-refugees-2026",
+      "retrieval_hash": "sha256:959c7a840d378276c15be0906ab6f911923510da449e153bec7015fc25991c41",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; perceived responsibility for supporting refugees",
+      "denominator": {"value": null, "unit": "Ipsos respondents in the comparable refugee-attitudes survey; pooled respondent denominator not headlined on the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "ngo_responsibility": {"value": 28, "unit": "percent naming NGOs as a group that should do more, up from 23%", "value_type": "reported_share"},
+        "own_government_responsibility": {"value": 20, "unit": "percent naming their own government, up from 16%", "value_type": "reported_share"},
+        "wealthier_countries_responsibility": {"value": 21, "unit": "percent prioritizing wealthier countries alone, down from 30%", "value_type": "reported_share"},
+        "shared_responsibility_shift": {"value": "Responsibility is increasingly seen as distributed across international organizations, NGOs and national governments rather than assigned only to wealthy countries", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated public-opinion comparison of which actors should do more to support refugees.",
+      "uncertainty": "Actor attribution is not willingness to pay, volunteer, host or accept policy costs; changes may reflect current conflicts and political messaging.",
+      "subgroup": "Adults across the participating countries in the 2025–2026 comparison.",
+      "counterinterpretation": "Shared responsibility language may diffuse accountability if no actor is trusted or empowered to deliver protection and integration.",
+      "source_url": "https://www.ipsos.com/en/global-attitudes-towards-refugees-2026",
+      "retrieval_hash": "sha256:959c7a840d378276c15be0906ab6f911923510da449e153bec7015fc25991c41",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-07/ipsos-global-attitudes-towards-refugees-report-2026.pdf", "claim": "Official Ipsos-UNHCR Global Attitudes Towards Refugees 2026 report PDF used for retrieval verification and hash."},
+    {"source_url": "https://www.ipsos.com/en/topic/refugees", "claim": "Official Ipsos refugee research topic page contextualizing the 2026 survey and prior trend series."}
+  ],
+  "boundary": "This record adds a migration-legitimacy mechanism: support for the right to seek refuge remains broad, but public confidence is conditional on credible eligibility, integration, permanence and responsibility-sharing arrangements. It is a cross-national public-opinion survey, not an asylum adjudication dataset, refugee-integration outcome study, public-service capacity audit or forecast of migration behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos article, Ipsos refugee topic page and Ipsos-UNHCR 2026 report PDF were retrieved and reviewed for refugee-protection support, claim skepticism, border closure, integration, generation and country differences, conflict scenarios and responsibility attribution; the PDF was hashed.",
+    "source_url_sha256": "sha256:959c7a840d378276c15be0906ab6f911923510da449e153bec7015fc25991c41",
+    "checked": "2026-09-27"
+  }
+}

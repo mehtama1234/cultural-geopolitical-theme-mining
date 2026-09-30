@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-productive-aging-older-workers-developing-countries-2026",
+  "title": "Older work in developing countries is both an economic capacity and a signal of unequal retirement security",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "household_room_consumption", "care_health_reproduction", "public_systems_feedback", "trust_identity_meaning", "infrastructure_technology_dependency"],
+  "source_unit": "World Bank, Productive Aging: Supporting Older Workers in Developing Countries, September 2026",
+  "geography": "Developing countries; older workers, households, firms, informal and formal labour markets, social-protection systems, and skills and health institutions",
+  "observations": [
+    {
+      "period": "September 2026; work and ageing across developing countries",
+      "denominator": {"value": 1, "unit": "World Bank comparative report using harmonized household surveys from a large set of developing countries", "value_type": "reported_cross_country_analysis_frame"},
+      "measures": {"work_access": {"value": "the report measures older adults' access to market and non-market work in the context of population ageing", "unit": "reported analytical dimension", "value_type": "reported_measurement_frame"}, "productivity": {"value": "the report examines productivity among older workers and policies intended to support productive ageing", "unit": "reported analytical dimension", "value_type": "reported_productivity_frame"}, "wellbeing_growth": {"value": "productive ageing is linked to improved well-being and overall economic growth, while recognizing limits to working in old age", "unit": "reported policy objective with stated boundary", "value_type": "reported_policy_frame"}},
+      "method": "World Bank comparative analysis based on harmonized household surveys and a policy assessment of work, productivity, health, skills, and social-protection conditions.",
+      "uncertainty": "Cross-country patterns do not imply that older work has the same meaning, quality, or necessity across economies, households, genders, occupations, or health conditions.",
+      "subgroup": "Older women and men, workers with different education and health, formal and informal workers, rural and urban households, caregivers, and people with or without pensions.",
+      "counterinterpretation": "Higher later-life work can represent autonomy, social participation, and valued contribution; it can also reflect inadequate pensions, savings, health support, or limited alternatives to earning.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099091426131024482",
+      "retrieval_hash": "sha256:d4ca03993f36876e53ebdc608e0602bdf8c243a90956cedd2c06cc037cd04741",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; productivity and capability conditions",
+      "denominator": {"value": 1, "unit": "World Bank productive-ageing policy framework", "value_type": "reported_policy_analysis_frame"},
+      "measures": {"capability_set": {"value": "the report links productive ageing to skills, health, work conditions, and the type of work performed", "unit": "reported capability mechanism", "value_type": "reported_mechanism_set"}, "policy_set": {"value": "the report proposes policies to enhance productive ageing rather than treating age alone as a productivity determinant", "unit": "reported policy route", "value_type": "reported_policy_route"}, "limits": {"value": "the report explicitly recognizes limits to working in old age", "unit": "reported boundary condition", "value_type": "reported_policy_boundary"}},
+      "method": "Comparative household-survey analysis and policy synthesis focused on older adults' work patterns and productivity conditions.",
+      "uncertainty": "The report does not establish which single intervention improves productivity, whether employers will adopt age-friendly practices, or how health constraints alter feasible work across groups.",
+      "subgroup": "Older workers with different skills, health, occupation, employment status, gender, care responsibilities, and access to lifelong learning.",
+      "counterinterpretation": "Investing in older workers can widen opportunity, but a productivity frame can become coercive if it treats continued employment as the default solution to weak social protection.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099091426131024482",
+      "retrieval_hash": "sha256:d4ca03993f36876e53ebdc608e0602bdf8c243a90956cedd2c06cc037cd04741",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; household security and social contract",
+      "denominator": {"value": 1, "unit": "World Bank ageing, labour-market, and social-protection policy frame", "value_type": "reported_social_contract_frame"},
+      "measures": {"security_condition": {"value": "the report places older work alongside social protection, health, and skills policy rather than treating employment as a standalone outcome", "unit": "reported integrated policy frame", "value_type": "reported_mechanism_set"}, "choice_tension": {"value": "productive ageing requires distinguishing desired participation from work undertaken because income alternatives are inadequate", "unit": "analytical interpretation grounded in report boundary", "value_type": "open_social_question"}, "care_endpoint": {"value": "older-worker policy intersects with household care, health, pensions, and intergenerational resource allocation", "unit": "reported policy intersection", "value_type": "reported_system_route"}},
+      "method": "World Bank report synthesis of harmonized household survey evidence and policy options for productive ageing in developing economies.",
+      "uncertainty": "The report does not measure subjective autonomy, household bargaining, care substitution, or the causal effect of pensions and health services on retirement decisions in every setting.",
+      "subgroup": "Older adults, working-age household members, women carrying care work, pension recipients, informal households, employers, and public-service providers.",
+      "counterinterpretation": "Longer working lives can support household resilience and social participation, but extending work without safer conditions, skills, healthcare, and income protection may deepen inequality.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099091426131024482",
+      "retrieval_hash": "sha256:d4ca03993f36876e53ebdc608e0602bdf8c243a90956cedd2c06cc037cd04741",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099091126103023261", "claim": "Official World Bank annexes describe the harmonized household and labour-force survey sources and supplementary methods for the report."}],
+  "boundary": "This record adds a productive-ageing route from older adults' market and non-market work through skills, health, work conditions, social protection, household security, and intergenerational meaning. It does not establish that working longer is desirable or voluntary, causal productivity effects, equal employer access, or a universal retirement policy.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official World Bank report record reviewed for harmonized household-survey basis, market and non-market work, productivity, well-being and growth objectives, limits to working in old age, and integrated skills-health-social-protection framing.", "source_url_sha256": "sha256:d4ca03993f36876e53ebdc608e0602bdf8c243a90956cedd2c06cc037cd04741", "checked": "2026-09-29"}
+}

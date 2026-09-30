@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-higher-education-global-trends-2026-mobility-ai-equity",
+  "title": "Higher education is expanding faster than completion, equitable mobility, leadership access, and institutional AI readiness",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UNESCO IESALC, Higher education global trends report 2026: Towards inclusive, equitable and quality higher education in an internationally mobile landscape",
+  "geography": "Global higher-education systems across 146 countries, with comparative enrollment, completion, financing, gender, mobility, refugee access, digitalization, and AI-policy evidence",
+  "observations": [
+    {
+      "period": "2000-2024; global higher-education expansion and completion",
+      "denominator": {"value": 146, "unit": "countries mapped through UNESCO Higher Education Policy Observatory and complementary resources", "value_type": "comparative_country_frame"},
+      "measures": {
+        "enrollment": {"value": 269, "unit": "million students enrolled in higher education in 2024", "value_type": "reported_global_count"},
+        "enrollment_ratio": {"value": 44, "unit": "percent global higher-education enrollment ratio in 2024", "value_type": "reported_global_share"},
+        "completion": {"value": 27, "unit": "percent graduation ratio from bachelor’s and master’s programmes in 2024", "value_type": "reported_global_share"},
+        "completion_gap": {"value": "completion has not kept pace with enrollment expansion", "unit": "report synthesis", "value_type": "reported_system_pattern"}
+      },
+      "method": "Comparative analysis using the UNESCO Higher Education Policy Observatory, UNESCO Institute for Statistics, and literature across ten interconnected dimensions of higher education.",
+      "uncertainty": "Enrollment, graduation, and ratio measures have different denominators and timing; global aggregates can conceal large differences by country income, gender, field, institution, and student background.",
+      "subgroup": "Students and prospective students, institutions, academic staff, households financing participation, and countries with sharply different enrollment and completion capacity.",
+      "counterinterpretation": "Expansion can still improve opportunity even when completion lags; a low global graduation ratio does not establish that enrollment expansion caused lower completion or poor learning.",
+      "source_url": "https://www.iesalc.unesco.org/en/publication/higher-education-global-trends-report",
+      "retrieval_hash": "sha256:231c02e6178010afcf9dcb66b566519450a8e8434da3cd5449e45b90fc6e7562",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2025; international student mobility and refugee access",
+      "denominator": {"value": 1, "unit": "global internationally mobile student and refugee-access frame", "value_type": "reported_mobility_frame"},
+      "measures": {
+        "mobile_students": {"value": 7.3, "unit": "million internationally mobile students in 2023", "value_type": "reported_global_count"},
+        "mobility_growth": {"value": "international student mobility more than tripled since 2000", "unit": "report comparison", "value_type": "reported_growth_pattern"},
+        "mobility_reach": {"value": 3, "unit": "percent or fewer of students globally benefiting from international mobility", "value_type": "reported_global_share"},
+        "refugee_enrollment": {"value": 9, "unit": "percent refugee enrollment in higher education in 2025", "value_type": "reported_refugee_share"},
+        "recognition_barrier": {"value": "recognition of qualifications remains a key barrier for refugee access", "unit": "report synthesis", "value_type": "reported_access_barrier"}
+      },
+      "method": "Comparative reporting on international mobility, refugee participation, qualification recognition, and access across global higher-education systems.",
+      "uncertainty": "Mobility counts and refugee enrollment measures depend on definitions, country reporting, legal status, destination coverage, and the ability to recognize prior study; they do not measure student outcomes after access.",
+      "subgroup": "International students, refugees, displaced learners, origin and destination institutions, credential evaluators, families, and labor markets receiving graduates.",
+      "counterinterpretation": "Mobility is not the only route to quality or opportunity; domestic institutions, online learning, regional cooperation, and recognition reforms can widen access without physical international movement.",
+      "source_url": "https://www.iesalc.unesco.org/en/publication/higher-education-global-trends-report",
+      "retrieval_hash": "sha256:231c02e6178010afcf9dcb66b566519450a8e8434da3cd5449e45b90fc6e7562",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; gender, academic leadership, and AI readiness",
+      "denominator": {"value": 1, "unit": "global higher-education equity and institutional-policy frame", "value_type": "reported_equity_frame"},
+      "measures": {
+        "gender_enrollment": {"value": "women outnumber men in higher education overall but remain underrepresented at doctoral level and in STEM fields", "unit": "report synthesis", "value_type": "reported_gender_pattern"},
+        "senior_leadership": {"value": 25, "unit": "approximately percent of senior academic leadership roles held by women", "value_type": "reported_leadership_share"},
+        "national_ai_policies": {"value": 33, "unit": "approximately percent of countries with national AI policies by 2024", "value_type": "reported_policy_share"},
+        "institutional_ai_strategy": {"value": 20, "unit": "percent or fewer of higher-education institutions with an AI strategy or formal AI policy in the report frame", "value_type": "reported_institutional_share"}
+      },
+      "method": "Comparative synthesis of higher-education participation, gender and leadership indicators, national AI policies, and institutional strategy reporting.",
+      "uncertainty": "Gender and AI-policy measures use different populations, years, and definitions; representation is not equivalent to authority, policy implementation, or educational quality.",
+      "subgroup": "Women students, doctoral candidates, STEM learners, academic leaders, faculty, institutions, national ministries, and communities affected by university AI deployment.",
+      "counterinterpretation": "A formal AI strategy is only one indicator of readiness; institutions may have active practices without a standalone policy, while a policy may exist without resources or effective implementation.",
+      "source_url": "https://www.iesalc.unesco.org/en/publication/higher-education-global-trends-report",
+      "retrieval_hash": "sha256:231c02e6178010afcf9dcb66b566519450a8e8434da3cd5449e45b90fc6e7562",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; higher-education finance and institutional capacity",
+      "denominator": {"value": 1, "unit": "global tertiary-finance frame", "value_type": "reported_finance_frame"},
+      "measures": {
+        "public_investment": {"value": 0.8, "unit": "percent of global GDP invested in tertiary education", "value_type": "reported_global_share"},
+        "income_gradient": {"value": "tertiary-education investment ranges from 0.3% of GDP in low-income countries to 1.5% in high-income countries", "unit": "reported income-group comparison", "value_type": "reported_finance_gradient"},
+        "tuition_free_mandate": {"value": 31, "unit": "percent of countries with a tuition-free mandate", "value_type": "reported_policy_share"},
+        "public_scholarships": {"value": 63, "unit": "percent of countries offering publicly funded scholarships", "value_type": "reported_policy_share"}
+      },
+      "method": "Comparative analysis of public expenditure, tuition policy, scholarship provision, and system resources across higher-education systems.",
+      "uncertainty": "Spending and policy indicators do not establish per-student adequacy, distribution, quality, household costs, debt, or whether tuition-free mandates are fully implemented.",
+      "subgroup": "Students and households facing tuition, housing, transport, and textbook costs; public universities, governments, donors, and labor markets depending on tertiary skills.",
+      "counterinterpretation": "Higher spending does not guarantee access or quality; targeted scholarships, student supports, institutional efficiency, and labor-market alignment may matter as much as aggregate expenditure.",
+      "source_url": "https://www.iesalc.unesco.org/en/publication/higher-education-global-trends-report",
+      "retrieval_hash": "sha256:231c02e6178010afcf9dcb66b566519450a8e8434da3cd5449e45b90fc6e7562",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hepo.iesalc.unesco.org/pc/page/content/202606_HEPO_New/", "claim": "UNESCO Higher Education Policy Observatory launch note with country coverage, completion, mobility, gender, refugee, finance, and AI-policy findings."},
+    {"source_url": "https://www.iesalc.unesco.org/en/publication/higher-education-global-trends-report", "claim": "Official UNESCO IESALC publication page and report downloads."}
+  ],
+  "boundary": "This record adds a higher-education, mobility, equity, finance, labor-market, and institutional-AI-readiness route. It uses aggregate comparative public data and report synthesis, not respondent-level ingestion, student transcripts, causal estimates of higher-education returns, a ranking of institutions, or proof that enrollment expansion translates into completion, quality, or mobility for every group.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNESCO IESALC report page and Higher Education Policy Observatory launch note reviewed for global enrollment, completion, mobility, refugee access, gender and leadership, finance, and AI-policy indicators.",
+    "source_url_sha256": "sha256:231c02e6178010afcf9dcb66b566519450a8e8434da3cd5449e45b90fc6e7562",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-private-finance-mobilisation-2026-risk-sector-climate-development",
+  "title": "Public development-finance interventions mobilise private capital, but flows remain concentrated in middle-income markets, infrastructure, and climate mitigation",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction"
+  ],
+  "source_unit": "OECD, Private Finance Mobilisation Report 2026",
+  "geography": "Global official development finance reported through the OECD DAC framework, with focus on mobilisation from 2012 to 2024 and the 2021–2024 period",
+  "observations": [
+    {
+      "period": "2012–2024; official development-finance interventions and private-resource mobilisation",
+      "denominator": {"value": 1, "unit": "OECD-tracked official development-finance mobilisation framework", "value_type": "global_development_finance_frame"},
+      "measures": {
+        "cumulative_mobilisation": {"value": "more than USD 600 billion in private resources were mobilised by official development-finance interventions", "unit": "USD cumulative private resources", "value_type": "reported_aggregate"},
+        "guarantees_share": {"value": 30, "unit": "percent of mobilised private finance", "value_type": "reported_share"},
+        "direct_investment_share": {"value": 25, "unit": "percent of mobilised private finance", "value_type": "reported_share"},
+        "syndicated_loan_share": {"value": 16, "unit": "percent of mobilised private finance", "value_type": "reported_share"}
+      },
+      "method": "OECD compilation and analysis of official development-finance interventions and the private resources they mobilised under the OECD DAC statistical framework.",
+      "uncertainty": "Mobilisation is a reported statistical concept, not proof that all private capital was additional, that the public intervention caused the full investment, or that the financed activity produced inclusive development outcomes.",
+      "subgroup": "Official development-finance providers, multilateral development banks, bilateral development agencies, private investors, firms, governments, and recipient countries.",
+      "counterinterpretation": "Mobilisation can expand the financing available for projects that would otherwise face risk or coordination barriers; concentration in a few instruments does not by itself show that those instruments are ineffective or exclusionary.",
+      "source_url": "https://doi.org/10.1787/a871a032-en",
+      "retrieval_hash": "sha256:0159b2aa6e3016a1204e00042ab8b8d8cb99ef8cd41d6b0b3fa5140a22f1b46d",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2024; recent mobilisation and geographic/risk distribution",
+      "denominator": {"value": 1, "unit": "OECD-reported private-finance mobilisation in the 2021–2024 period", "value_type": "recent_mobilisation_frame"},
+      "measures": {
+        "2024_peak": {"value": 77, "unit": "USD billion mobilised in 2024", "value_type": "reported_annual_total"},
+        "africa_share": {"value": 30, "unit": "percent of mobilised private finance; approximately USD 19.7 billion per year", "value_type": "reported_regional_share"},
+        "latin_america_caribbean_share": {"value": 28, "unit": "percent of mobilised private finance; approximately USD 18 billion per year", "value_type": "reported_regional_share"},
+        "low_income_country_share": {"value": 8, "unit": "percent of mobilised private finance", "value_type": "reported_country_income_group_share"},
+        "middle_income_not_least_developed_share": {"value": 70, "unit": "approximately percent of mobilised private finance", "value_type": "reported_country_income_group_share"}
+      },
+      "method": "OECD descriptive analysis of mobilisation totals by year, region, and recipient-country income/development grouping.",
+      "uncertainty": "Regional and income-group shares describe the distribution of reported mobilisation; they do not identify a causal reason for concentration or establish whether the resulting projects improved welfare, resilience, or productive capacity.",
+      "subgroup": "Low-income countries, least-developed countries, middle-income countries, African countries, Latin American and Caribbean countries, development-finance providers, and private investors.",
+      "counterinterpretation": "Middle-income recipients may offer larger investable markets and stronger project pipelines, while concessional grants and public finance may be more appropriate than mobilisation for some low-income or fragile contexts.",
+      "source_url": "https://doi.org/10.1787/a871a032-en",
+      "retrieval_hash": "sha256:0159b2aa6e3016a1204e00042ab8b8d8cb99ef8cd41d6b0b3fa5140a22f1b46d",
+      "status": "reported"
+    },
+    {
+      "period": "2012–2024; sectoral allocation of mobilised private finance",
+      "denominator": {"value": 1, "unit": "OECD-reported mobilised private finance by sector", "value_type": "sector_allocation_frame"},
+      "measures": {
+        "economic_infrastructure_business_share": {"value": 70, "unit": "percent of mobilised private finance", "value_type": "reported_sector_share"},
+        "social_sector_share": {"value": 6, "unit": "percent of mobilised private finance", "value_type": "reported_sector_share"},
+        "allocation_mechanism": {"value": "public risk-sharing can make infrastructure and business projects more investable, while social sectors attract a smaller share of mobilised private finance", "unit": "bounded transmission mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD sectoral classification and synthesis of official development-finance mobilisation records.",
+      "uncertainty": "Sector shares depend on project classification and the investability of activities; they do not measure unmet social-sector needs, project quality, service access, jobs, productivity, or distribution within recipient countries.",
+      "subgroup": "Infrastructure users, firms, public utilities, social-service providers, communities, workers, governments, and private financiers.",
+      "counterinterpretation": "Infrastructure and business investment can support employment, connectivity, fiscal capacity, and later social provision; a low social-sector share is not equivalent to no social benefit.",
+      "source_url": "https://doi.org/10.1787/a871a032-en",
+      "retrieval_hash": "sha256:0159b2aa6e3016a1204e00042ab8b8d8cb99ef8cd41d6b0b3fa5140a22f1b46d",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2024; climate and institutional channels of mobilisation",
+      "denominator": {"value": 1, "unit": "OECD-reported annual average of mobilised private finance in the 2021–2024 period", "value_type": "climate_mobilisation_frame"},
+      "measures": {
+        "climate_share": {"value": 40, "unit": "approximately percent of mobilised private finance; approximately USD 26.2 billion per year", "value_type": "reported_climate_share"},
+        "mitigation_share_of_climate": {"value": 70, "unit": "approximately percent of climate-related mobilisation", "value_type": "reported_climate_composition"},
+        "mitigation_adaptation_share_of_climate": {"value": 22, "unit": "approximately percent of climate-related mobilisation", "value_type": "reported_climate_composition"},
+        "adaptation_only_share_of_climate": {"value": 8, "unit": "approximately percent of climate-related mobilisation", "value_type": "reported_climate_composition"},
+        "multilateral_development_bank_share": {"value": 71, "unit": "percent of mobilised private finance attributed to multilateral development banks", "value_type": "reported_provider_share"},
+        "governance_route": {"value": "the report recommends stronger data transparency and consistency, standardised blended-finance instruments, country platforms, and multi-stakeholder coordination", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD synthesis of climate-related mobilisation, provider type, and recommendations for blended-finance data and coordination.",
+      "uncertainty": "Climate labels and mitigation/adaptation categories do not establish emissions reductions, physical resilience, local distribution, or additionality; recommendations are not evidence that implementation will produce those outcomes.",
+      "subgroup": "Climate-vulnerable countries and communities, development banks, public agencies, private investors, infrastructure providers, firms, and civil-society or local stakeholders.",
+      "counterinterpretation": "Mitigation projects may be easier to finance because revenue and asset models are clearer; public grants, guarantees, or country platforms may still complement private capital for adaptation and social infrastructure.",
+      "source_url": "https://doi.org/10.1787/a871a032-en",
+      "retrieval_hash": "sha256:0159b2aa6e3016a1204e00042ab8b8d8cb99ef8cd41d6b0b3fa5140a22f1b46d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/private-finance-mobilisation-report-2026_a871a032-en/full-report.html", "claim": "Official OECD full-report page and methodological context for mobilisation statistics."},
+    {"source_url": "https://desapublications.un.org/publications/financing-sustainable-development-report-2026", "claim": "Complementary UN financing-for-development context on public and private capital for sustainable development."}
+  ],
+  "boundary": "This record adds a development-finance and geopolitical-economy route across public risk-sharing, private capital, recipient-country risk, sector allocation, climate finance, multilateral development banks, and data/coordination capacity. It uses aggregate OECD DAC statistics and report synthesis, not individual investments, firm-level causal outcomes, household welfare, jobs or skills effects, technology transfer, project additionality, or proof that mobilisation is inclusive or reaches the most fragile and social sectors.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Private Finance Mobilisation Report 2026 publication and executive summary reviewed for cumulative mobilisation, instruments, recent totals, geography, income-group concentration, sectors, climate composition, provider shares, and recommendations.",
+    "source_url_sha256": "sha256:0159b2aa6e3016a1204e00042ab8b8d8cb99ef8cd41d6b0b3fa5140a22f1b46d",
+    "checked": "2026-09-26"
+  }
+}

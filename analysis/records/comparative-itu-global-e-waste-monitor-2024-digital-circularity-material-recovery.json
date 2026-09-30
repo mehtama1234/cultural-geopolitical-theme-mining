@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-global-e-waste-monitor-2024-digital-circularity-material-recovery",
+  "title": "Digital expansion is creating a material-recovery and environmental-health gap: e-waste grows faster than formal collection, while regulation strongly differentiates outcomes",
+  "theme_ids": ["cost", "energy", "work", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Global E-waste Monitor 2024, summarized by the International Telecommunication Union backgrounder on electronic waste and the circular economy",
+  "geography": "Global e-waste generation, collection, recycling, materials and policy comparison",
+  "observations": [
+    {
+      "period": "2022; global electronic and electrical waste generation and formal recovery",
+      "denominator": {"value": 1, "unit": "global e-waste system", "value_type": "global_system_frame"},
+      "measures": {
+        "ewaste_generation": {"value": 62000000000, "unit": "kilograms of e-waste generated worldwide in 2022", "value_type": "reported_estimate"},
+        "formal_recovery": {"value": 22.3, "unit": "percent of global e-waste properly collected and recycled", "value_type": "reported_share"},
+        "recovery_gap": {"value": "most e-waste is not formally collected and recycled", "unit": "reported global service gap", "value_type": "reported_interpretation"},
+        "digital_material_pathway": {"value": "expanding device use increases the need for repair, reuse, recycling, remanufacturing and responsible end-of-life systems", "unit": "reported circular-economy mechanism", "value_type": "reported_policy_route_set"}
+      },
+      "method": "Global E-waste Monitor 2024 data and ITU synthesis of e-waste generation, collection and recycling indicators.",
+      "uncertainty": "Global e-waste estimates depend on equipment classification, product lifetimes, trade and disposal assumptions; formal collection and recycling do not capture all informal recovery or environmentally sound processing.",
+      "subgroup": "Device users, households, firms, repair and recycling workers, communities near disposal sites, producers, municipalities and countries with limited e-waste infrastructure.",
+      "counterinterpretation": "Devices can deliver substantial educational, health, communication and economic benefits; durable design, repairability, take-back and safe recycling can reduce material and health burdens without reducing digital access.",
+      "source_url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/e-waste.aspx",
+      "retrieval_hash": "sha256:7644422e05d8d0b7c7dcd14e57a52b4f6755eadea218f53303c2314ef07a4464",
+      "status": "reported"
+    },
+    {
+      "period": "2022; material value and environmental benefits of formal e-waste recovery",
+      "denominator": {"value": 62000000000, "unit": "kilograms of global e-waste generated in 2022", "value_type": "reported_ewaste_frame"},
+      "measures": {
+        "valuable_metals": {"value": 31000000000, "unit": "kilograms of valuable metals embedded in 2022 e-waste", "value_type": "reported_estimate"},
+        "metal_value": {"value": 91000000000, "unit": "US dollars estimated value of valuable metals embedded in 2022 e-waste", "value_type": "reported_estimate"},
+        "secondary_material_value": {"value": 28000000000, "unit": "US dollars in value of secondary raw materials reclaimed through urban mining in 2022", "value_type": "reported_estimate"},
+        "avoided_ore": {"value": 900000000, "unit": "tonnes of primary ore extraction avoided through formal recycling efforts in 2022", "value_type": "reported_estimate"},
+        "avoided_emissions": {"value": 93000000, "unit": "tonnes of carbon-dioxide equivalent emissions avoided through formal recycling in 2022", "value_type": "reported_estimate"}
+      },
+      "method": "Global E-waste Monitor 2024 material-flow and environmental-benefit estimates as summarized by ITU.",
+      "uncertainty": "Material and avoided-impact valuations depend on commodity prices, recovery rates, system boundaries and counterfactual mining and emissions assumptions; economic value is not automatically captured by workers or communities.",
+      "subgroup": "Recyclers, repair and recovery workers, manufacturers, consumers, mining regions, environmental agencies and communities exposed to extraction or unsafe disposal.",
+      "counterinterpretation": "Material recovery should complement product longevity and source reduction; a high-value recycling market can still reward premature replacement or expose informal workers to hazardous processing.",
+      "source_url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/e-waste.aspx",
+      "retrieval_hash": "sha256:7644422e05d8d0b7c7dcd14e57a52b4f6755eadea218f53303c2314ef07a4464",
+      "status": "reported"
+    },
+    {
+      "period": "2022; e-waste legislation and collection/recycling outcomes",
+      "denominator": {"value": 1, "unit": "country-policy comparison in Global E-waste Monitor 2024 summary", "value_type": "comparative_policy_frame"},
+      "measures": {
+        "without_legal_instrument": {"value": "collection and recycling rates close to zero in countries without an e-waste policy, legislative or regulatory instrument", "unit": "reported policy-outcome relationship", "value_type": "reported_interpretation"},
+        "with_legislation": {"value": 25, "unit": "percent collection and recycling rate reported for countries with e-waste legislation", "value_type": "reported_share"},
+        "institutional_requirements": {"value": "better data, policy, legislation, extended producer responsibility, recycling infrastructure and public participation are needed for circular electronics", "unit": "reported system requirements", "value_type": "reported_policy_route_set"},
+        "worker_and_health_link": {"value": "safe recycling standards are needed to connect material recovery to decent work and health rather than merely diverting waste", "unit": "reported public-interest mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative policy and collection/recycling relationship reported in the Global E-waste Monitor 2024 summary.",
+      "uncertainty": "The comparison is not a randomized policy evaluation; legislation may proxy for income, infrastructure, enforcement, reporting capacity and producer responsibility systems.",
+      "subgroup": "Countries without formal e-waste regulation, governments, producers, municipalities, informal and formal recyclers, consumers and communities near disposal or processing sites.",
+      "counterinterpretation": "Legislation alone is insufficient if enforcement, financing, accessible drop-off systems, repair markets and safe labor conditions are absent; informal systems may continue to carry much of the recovery burden.",
+      "source_url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/e-waste.aspx",
+      "retrieval_hash": "sha256:7644422e05d8d0b7c7dcd14e57a52b4f6755eadea218f53303c2314ef07a4464",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ewastemonitor.info/", "claim": "Global E-waste Monitor and SCYCLE/ITU public source hub."},
+    {"source_url": "https://api.globalewaste.org/publications/file/297/Global-E-waste-Monitor-2024.pdf", "claim": "Global E-waste Monitor 2024 full report PDF."},
+    {"source_url": "https://www.itu.int/en/ITU-D/Environment/Documents/Publications/2025/d-gen-e_waste.01-2024-pdf-e.pdf", "claim": "ITU/Global E-waste Statistics Partnership context and measurement framework."}
+  ],
+  "boundary": "This record adds a digital-consumption-to-materials-and-health route: device expansion, e-waste, recovery, critical materials, emissions, regulation, worker safety and circularity are connected. It is a global aggregate monitor and policy synthesis, not device-level replacement behavior, household disposal data, a worker-health study, a causal regulatory evaluation or proof that formal recycling is environmentally sound in every case.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ITU e-waste backgrounder, Global E-waste Monitor hub, Global E-waste Monitor 2024 report link and ITU measurement context were reviewed for e-waste generation, formal recovery, material value, avoided impacts and legislation comparisons; the official ITU backgrounder was hashed.",
+    "source_url_sha256": "sha256:7644422e05d8d0b7c7dcd14e57a52b4f6755eadea218f53303c2314ef07a4464",
+    "checked": "2026-09-27"
+  }
+}

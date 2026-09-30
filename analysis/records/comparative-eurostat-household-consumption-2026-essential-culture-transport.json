@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-household-consumption-2026-essential-culture-transport",
+  "title": "EU household budgets remain concentrated in essentials while cultural, hospitality, education, transport, and communication spending move differently",
+  "theme_ids": ["cost", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Eurostat, What are the main expenses in EU households?, Key figures on Europe 2026, September 2, 2026",
+  "geography": "European Union aggregate household consumption expenditure, January 2026 compared with January 2025",
+  "observations": [
+    {
+      "period": "January 2026; EU household consumption expenditure",
+      "denominator": {"value": 27, "unit": "EU Member States represented in the EU aggregate; expenditure categories measured as shares of total household consumption expenditure", "value_type": "reported_aggregate_frame"},
+      "measures": {
+        "essential_categories": {"value": 46.0, "unit": "percent of total EU household consumption expenditure spent on food and non-alcoholic beverages, housing/water/energy, and transport", "value_type": "reported_share"},
+        "categories": {"value": "food and non-alcoholic beverages; housing, water and energy; and transport", "unit": "reported expenditure-category composition", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Household room is structurally pre-allocated to food, shelter, energy, and mobility before discretionary cultural or social choices occur", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat Key figures on Europe data synthesis using household consumption expenditure and price-index data.",
+      "uncertainty": "The EU aggregate masks income, household, age, rural/urban, and national differences; expenditure share is not the same as affordability, quantity consumed, or welfare.",
+      "subgroup": "EU households and expenditure categories; no respondent-level subgroup analysis in the release.",
+      "counterinterpretation": "A high expenditure share can reflect necessity, higher quality, or price changes; it does not by itself establish deprivation or that households are cutting other activities.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260902-1",
+      "retrieval_hash": "sha256:85b7a72413ec6b5b8a0122f552150c7282a2e833727ff5a689db92ca2f7d5f8c",
+      "status": "reported"
+    },
+    {
+      "period": "January 2025 to January 2026; change in EU household expenditure shares",
+      "denominator": {"value": 27, "unit": "EU Member States represented in the aggregate; percentage-point change in category shares", "value_type": "reported_aggregate_frame"},
+      "measures": {
+        "recreation_sport_culture": {"value": 1.2, "unit": "percentage-point increase in share of total household consumption expenditure", "value_type": "reported_change"},
+        "restaurants_accommodation": {"value": 0.3, "unit": "percentage-point increase in share", "value_type": "reported_change"},
+        "education": {"value": 0.1, "unit": "percentage-point increase in share", "value_type": "reported_change"},
+        "transport": {"value": -0.4, "unit": "percentage-point decrease in share", "value_type": "reported_change"},
+        "information_communication": {"value": -0.3, "unit": "percentage-point decrease in share", "value_type": "reported_change"},
+        "mechanism": {"value": "The composition of household spending can shift toward cultural and social activity even while transport and information/communication shares fall, so aggregate cost pressure does not produce one uniform austerity response", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat comparison of category shares in EU household consumption expenditure between January 2025 and January 2026.",
+      "uncertainty": "Percentage-point share changes can reflect relative price movements, quantity changes, substitution, or category reclassification; they do not reveal which households changed behavior.",
+      "subgroup": "EU household consumption categories.",
+      "counterinterpretation": "A rising share can result from prices increasing faster rather than households consuming more; culture and hospitality may also be protected or unevenly concentrated expenditures.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260902-1",
+      "retrieval_hash": "sha256:85b7a72413ec6b5b8a0122f552150c7282a2e833727ff5a689db92ca2f7d5f8c",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; household exposure to price-sensitive categories",
+      "denominator": {"value": 27, "unit": "EU Member States represented in aggregate price and expenditure indicators", "value_type": "reported_aggregate_frame"},
+      "measures": {
+        "price_sensitive_essentials": {"value": "food, housing/water/energy, and transport each registered substantial price increases in at least one recent year", "unit": "reported category price pattern", "value_type": "reported_pattern"},
+        "cultural_and_social_categories": {"value": "recreation, sport and culture; restaurants and accommodation; and education increased their expenditure shares between January 2025 and January 2026", "unit": "reported category pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Consumer adaptation must be read through both essential-price exposure and protected social/cultural occasions; spending shares alone cannot tell whether households gained room or paid more for less", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat price and consumption-share synthesis based on the Key figures on Europe 2026 release.",
+      "uncertainty": "The release is a high-level aggregate and does not provide household-level substitution, income distribution, quality, debt, time, or participation outcomes.",
+      "subgroup": "EU households by broad consumption category; detailed subgroup incidence is not available in this news release.",
+      "counterinterpretation": "Rising culture or hospitality shares may reflect tourism, seasonality, or price inflation rather than stronger cultural participation or social wellbeing.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260902-1",
+      "retrieval_hash": "sha256:85b7a72413ec6b5b8a0122f552150c7282a2e833727ff5a689db92ca2f7d5f8c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf/d56858bc-5927-a31f-3936-9fc3ed0a83a2?t=1782299555515&version=1.0", "claim": "Eurostat 2026 guide to culture statistics and household cultural expenditure measurement."},
+    {"source_url": "https://ec.europa.eu/eurostat/cache/metadata/en/cult_exp_esms.htm", "claim": "Eurostat metadata for private household expenditure on culture."}
+  ],
+  "boundary": "This record adds an EU aggregate consumption route from essential household expenditure through relative movement in cultural, hospitality, education, transport, and information/communication shares. It is a macro expenditure and price synthesis, not household-level consumption behavior, welfare, affordability, cultural participation, or causal substitution evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat release reviewed for category shares, January 2025–January 2026 changes, price-sensitive essentials, cultural and social categories, geographic scope, and aggregate-data limits.",
+    "source_url_sha256": "sha256:85b7a72413ec6b5b8a0122f552150c7282a2e833727ff5a689db92ca2f7d5f8c",
+    "checked": "2026-09-28"
+  }
+}

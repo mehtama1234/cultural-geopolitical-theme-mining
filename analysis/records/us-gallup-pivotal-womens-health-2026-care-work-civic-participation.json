@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-pivotal-womens-health-2026-care-work-civic-participation",
+  "title": "Women’s healthcare barriers spill into work, care, relationships, and civic participation",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Gallup-Pivotal Women's Health Survey, Women's Healthcare Barriers Extend Into Work and Family Life, September 18, 2026",
+  "geography": "United States; adults surveyed nationally with women-specific, men-comparison, workforce, life-stage, and menopause/perimenopause measures",
+  "observations": [
+    {
+      "period": "July 14-22, 2026; healthcare access and diagnostic experience",
+      "denominator": {"value": 5141, "unit": "U.S. adults surveyed online via Gallup Panel: 3,845 women and 1,296 men", "value_type": "survey_sample"},
+      "measures": {
+        "women_any_access_problem": {"value": 51, "unit": "percent of women reporting at least one problem accessing care", "value_type": "reported_share"},
+        "men_any_access_problem": {"value": 39, "unit": "percent of men reporting at least one problem", "value_type": "reported_share"},
+        "women_symptoms_minimized_or_dismissed": {"value": 34, "unit": "percent of women saying a provider minimized or dismissed symptoms in the past five years", "value_type": "reported_share"},
+        "women_misdiagnosed_or_no_diagnosis": {"value": 33, "unit": "percent of women reporting misdiagnosis or inability to get a diagnosis", "value_type": "reported_share"},
+        "women_needed_to_advocate": {"value": 42, "unit": "percent of women saying they had to speak up or advocate for their health", "value_type": "reported_share"},
+        "men_needed_to_advocate": {"value": 26, "unit": "percent of men", "value_type": "reported_share"}
+      },
+      "method": "Gallup-Pivotal Women's Health Survey conducted online July 14-22, 2026, among 3,845 women and 1,296 men via the Gallup Panel.",
+      "uncertainty": "These are self-reported experiences over a five-year recall period; they do not establish provider intent, clinical appropriateness, health-system causality, or whether gender alone explains the difference.",
+      "subgroup": "U.S. women and men, with later comparisons by diagnosis, workforce status, and life stage.",
+      "counterinterpretation": "Differences may reflect condition mix, care-seeking, age, insurance, income, provider availability, communication, or cumulative institutional experience as well as gendered treatment.",
+      "source_url": "https://news.gallup.com/poll/714221/women-healthcare-barriers-extend-work-family-life.aspx",
+      "retrieval_hash": "sha256:f5bece99293c4519c9681fae2d1489a5d8138b342e39a7c06ba40e3017209dd7",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; diagnostic delay and participation in work and life",
+      "denominator": {"value": 5141, "unit": "Gallup-Pivotal Women's Health Survey population; subgroup denominators vary by diagnosis and workforce status", "value_type": "survey_sample"},
+      "measures": {
+        "women_diagnosis_wait_three_months": {"value": 47, "unit": "percent of women diagnosed with their most recent condition who waited at least three months", "value_type": "reported_share"},
+        "women_diagnosis_wait_one_year": {"value": 22, "unit": "percent of diagnosed women who waited a year or more", "value_type": "reported_share"},
+        "women_health_limited_life": {"value": 42, "unit": "percent of women saying health kept them from doing everything they wanted in life during the past five years", "value_type": "reported_share"},
+        "women_workforce_career_limited": {"value": 42, "unit": "percent of women in the workforce saying health limited their career in some way", "value_type": "reported_share"},
+        "women_less_civic_involvement": {"value": 24, "unit": "percent of women saying health made them less involved in community or civic activities", "value_type": "reported_share"}
+      },
+      "method": "Gallup descriptive comparisons of diagnosis timing and self-reported effects on work, family, relationships, and community participation.",
+      "uncertainty": "The findings do not establish that diagnostic delay caused career or civic limits, and the five-year period allows multiple health and life events to overlap.",
+      "subgroup": "Women with a recent diagnosis, women in the workforce, and women reporting health-related changes in participation.",
+      "counterinterpretation": "Health limitation may reflect severity, chronicity, care burden, workplace accommodation, economic resources, or family support rather than diagnostic experience alone.",
+      "source_url": "https://news.gallup.com/poll/714221/women-healthcare-barriers-extend-work-family-life.aspx",
+      "retrieval_hash": "sha256:f5bece99293c4519c9681fae2d1489a5d8138b342e39a7c06ba40e3017209dd7",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; spillover into self-care, family care, and relationships",
+      "denominator": {"value": 5141, "unit": "Gallup-Pivotal Women's Health Survey population; women-specific subgroup measures", "value_type": "survey_sample"},
+      "measures": {
+        "harder_self_care": {"value": 32, "unit": "percent of women saying health made it harder to care for themselves", "value_type": "reported_share"},
+        "harder_family_care": {"value": 27, "unit": "percent of women saying health made caring for family harder", "value_type": "reported_share"},
+        "missed_family_or_friend_events": {"value": 26, "unit": "percent of women saying health caused them to miss events with family or friends", "value_type": "reported_share"},
+        "dismissed_symptoms_life_limit": {"value": 59, "unit": "percent of women whose symptoms were minimized or dismissed who say health kept them from doing everything they wanted", "value_type": "reported_share"},
+        "not_dismissed_life_limit": {"value": 36, "unit": "percent of women without that experience", "value_type": "reported_share"}
+      },
+      "method": "Gallup comparison of health-related role limitations, including a descriptive comparison by whether women reported dismissed symptoms.",
+      "uncertainty": "The comparison is observational and may reflect underlying condition severity, repeated care failure, or other factors associated with both dismissal and life limitation.",
+      "subgroup": "U.S. women by health-related self-care, family-care, relationship, and symptom-dismissal experience.",
+      "counterinterpretation": "The pattern may indicate a broader loss of usable time and role capacity rather than a single medical-access problem; the survey does not measure actual hours, missed work, caregiving substitution, or relationship outcomes.",
+      "source_url": "https://news.gallup.com/poll/714221/women-healthcare-barriers-extend-work-family-life.aspx",
+      "retrieval_hash": "sha256:f5bece99293c4519c9681fae2d1489a5d8138b342e39a7c06ba40e3017209dd7",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; menopause and perimenopause as a life-stage capacity signal",
+      "denominator": {"value": 5141, "unit": "Gallup-Pivotal Women's Health Survey population; life-stage denominators vary", "value_type": "survey_sample"},
+      "measures": {
+        "age_45_54_current_or_past_symptoms": {"value": 74, "unit": "percent of women ages 45-54 reporting current or past perimenopause or menopause symptoms", "value_type": "reported_share"},
+        "menopause_push_to_be_taken_seriously": {"value": 24, "unit": "percent of women seeking treatment for menopause/perimenopause symptoms", "value_type": "reported_share"},
+        "menopause_multiple_providers": {"value": 23, "unit": "percent of women seeking treatment who saw multiple providers before symptoms were addressed or diagnosed", "value_type": "reported_share"},
+        "menopause_could_not_get_care": {"value": 20, "unit": "percent of women seeking treatment who could not get needed care despite trying", "value_type": "reported_share"},
+        "menopause_negative_life_or_work": {"value": 40, "unit": "percent of women who experienced menopause/perimenopause saying it negatively affected life or work in at least one measured way", "value_type": "reported_share"}
+      },
+      "method": "Gallup-Pivotal life-stage analysis of menopause and perimenopause symptoms, care-seeking, and effects on daily life and work.",
+      "uncertainty": "The measures are self-reported, life-stage definitions and symptom experiences vary, and the article does not identify specific clinical treatments, employer accommodations, or longitudinal outcomes.",
+      "subgroup": "Women ages 45-54 and women who have experienced menopause or perimenopause.",
+      "counterinterpretation": "Menopause may be a visible case of a wider pattern in which health systems and workplaces fail to convert recurring bodily needs into usable support, time, and participation.",
+      "source_url": "https://news.gallup.com/poll/714221/women-healthcare-barriers-extend-work-family-life.aspx",
+      "retrieval_hash": "sha256:f5bece99293c4519c9681fae2d1489a5d8138b342e39a7c06ba40e3017209dd7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a gendered care-to-capacity route: dismissal, diagnostic delay, and treatment barriers can be read alongside work, caregiving, relationships, and civic participation. It does not establish clinical causality, provider discrimination as a sole mechanism, unmet-care prevalence for every condition, workplace accommodation, or durable participation and economic outcomes."
+}

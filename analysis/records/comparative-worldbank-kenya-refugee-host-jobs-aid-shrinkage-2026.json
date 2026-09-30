@@ -1,0 +1,116 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-kenya-refugee-host-jobs-aid-shrinkage-2026",
+  "title": "Aid contraction turns refugee integration into a shared jobs, food-security, and local-capacity problem",
+  "theme_ids": ["work", "cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank, As Aid Shrinks, Jobs Become Central to Self-reliance for Host Communities and Refugees in Kenya; based on the Kenya Longitudinal Socioeconomic Study under KAP-FD",
+  "geography": "Kenya, with evidence from refugee and host communities in Kakuma, Kalobeyei, Dadaab, Turkana, Garissa, and urban settings; national refugee and asylum-seeker context",
+  "observations": [
+    {
+      "period": "2022-2024; two-wave panel evidence summarized by the World Bank",
+      "denominator": {
+        "value": 2,
+        "unit": "survey waves following the same refugee and host households over time",
+        "value_type": "longitudinal_panel_frame"
+      },
+      "measures": {
+        "population_context": {"value": 847780, "unit": "refugees and asylum seekers hosted by Kenya as of April 2026", "value_type": "reported_population_context"},
+        "multidimensional_poverty": {"value": "more than four out of five refugees in Kakuma, Kalobeyei, and Dadaab are multidimensionally poor across education, employment, housing, water, and nutrition", "unit": "reported deprivation pattern", "value_type": "reported_pattern"},
+        "aid_revenue_dependence": {"value": 75, "unit": "percent approximate share of total revenue accounted for by aid among camp-based refugees in 2024", "value_type": "reported_share"},
+        "local_market_transmission": {"value": "ration cuts and suspended vouchers reduced refugee incomes and demand in camp economies, affecting host livelihoods tied to trade, services, and casual work", "unit": "reported transmission mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank feature synthesis of two waves of a longitudinal socioeconomic panel produced with UNHCR and the Center for Effective Global Action, supplemented by program and administrative context.",
+      "uncertainty": "The feature reports selected panel findings and contextual interpretation; the survey predates the deepest aid cuts described after late 2024, and results from these settings should not be generalized to all refugee-hosting economies.",
+      "subgroup": "Refugees in camps and urban areas, host communities in Turkana and Garissa, children, women with care responsibilities, and households dependent on aid or thin local labor markets.",
+      "counterinterpretation": "Aid contraction can create pressure for self-reliance, but without legal work access, mobility, investment, and local public capacity, it may deepen poverty rather than produce independent livelihoods.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/05/18/as-aid-shrinks-jobs-become-central-to-self-reliance-for-host-communities-and-refugees-in-kenya",
+      "retrieval_hash": "sha256:3e60eccebe71e8f77aadd33134775d0942722a16609f625d9bab7ea2e6be8f03",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; refugee and host labor-market changes between panel waves",
+      "denominator": {
+        "value": 2,
+        "unit": "panel waves used for employment and inactivity comparison",
+        "value_type": "longitudinal_panel_frame"
+      },
+      "measures": {
+        "camp_refugee_employment": {"value": "13% to 7%", "unit": "reported employment share change among camp-based refugees", "value_type": "reported_change"},
+        "urban_refugee_employment": {"value": "50% to 37%", "unit": "reported employment share change among urban refugees", "value_type": "reported_change"},
+        "camp_inactivity": {"value": 89, "unit": "percent inactivity among camp-based refugees in the later wave", "value_type": "reported_share"},
+        "job_availability_constraint": {"value": 64, "unit": "percent of camp-based refugees citing lack of available jobs, up from 41%", "value_type": "reported_share_change"},
+        "host_employment": {"value": "35% to 33% in camp-adjacent areas", "unit": "reported host employment share change", "value_type": "reported_change"}
+      },
+      "method": "Longitudinal comparison of refugee and host labor-market indicators as summarized in the World Bank feature.",
+      "uncertainty": "Employment shares and inactivity are setting-specific and do not by themselves distinguish legal restrictions, demand collapse, seasonality, skills mismatch, health, care, or measurement changes.",
+      "subgroup": "Camp-based refugees, urban refugees, camp-adjacent host communities, women facing care and mobility constraints, and workers in local trade, services, agriculture, and casual work.",
+      "counterinterpretation": "A fall in measured employment may conceal informal, intermittent, or unreported work; nevertheless the reported job-availability response and high inactivity indicate weak absorptive capacity rather than simple unwillingness to work.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/05/18/as-aid-shrinks-jobs-become-central-to-self-reliance-for-host-communities-and-refugees-in-kenya",
+      "retrieval_hash": "sha256:3e60eccebe71e8f77aadd33134775d0942722a16609f625d9bab7ea2e6be8f03",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2024; formal labor-market access and gendered constraints",
+      "denominator": {
+        "value": 1,
+        "unit": "Kenya refugee labor-market access context described in the panel study summary",
+        "value_type": "institutional_context_frame"
+      },
+      "measures": {
+        "work_permit_access": {"value": 1, "unit": "percent approximate share of refugees holding a work permit in the first survey wave", "value_type": "reported_share"},
+        "mobility_barrier": {"value": "administrative hurdles and mobility restrictions constrain formal labor-market entry", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "women_constraints": {"value": "care responsibilities, limited mobility, weak job availability, and lack of childcare or safe work opportunities compound women’s exclusion", "unit": "reported gendered mechanism", "value_type": "reported_mechanism"},
+        "integration_boundary": {"value": "integrated settlements cannot produce self-reliance without actual work and mobility access", "unit": "reported policy condition", "value_type": "reported_condition"}
+      },
+      "method": "Policy and labor-market interpretation of panel evidence within Kenya’s shift from encampment toward integrated settlements under the Shirika Plan.",
+      "uncertainty": "The feature does not estimate the causal contribution of each legal, mobility, childcare, or investment barrier or evaluate the Shirika Plan’s implementation outcomes.",
+      "subgroup": "Refugees seeking formal work, women and caregivers, host-community workers in lagging regions, employers, local governments, and services dependent on aid-supported economies.",
+      "counterinterpretation": "Legal work authorization is necessary but not sufficient: thin local demand, transport, skills, safety, care infrastructure, capital, and employer willingness also shape realized opportunity.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/05/18/as-aid-shrinks-jobs-become-central-to-self-reliance-for-host-communities-and-refugees-in-kenya",
+      "retrieval_hash": "sha256:3e60eccebe71e8f77aadd33134775d0942722a16609f625d9bab7ea2e6be8f03",
+      "status": "reported"
+    },
+    {
+      "period": "2024; household coping under aid, price, and climate pressure",
+      "denominator": {
+        "value": 1,
+        "unit": "later panel-wave camp-household coping context reported by the World Bank",
+        "value_type": "household_coping_frame"
+      },
+      "measures": {
+        "food_reduction": {"value": 64, "unit": "percent of camp households reporting reduced food consumption", "value_type": "reported_share"},
+        "food_credit": {"value": 44, "unit": "percent of camp households relying on credit to buy food", "value_type": "reported_share"},
+        "shock_exposure": {"value": "food-price pressure, excessive rainfall, flooding, damaged infrastructure, and weak agricultural or livestock livelihoods", "unit": "reported shock set", "value_type": "reported_shock_set"},
+        "wellbeing_pressure": {"value": "rising stress and anxiety undermine coping and the ability to invest in future livelihoods", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "service_gap": {"value": "nutrition-service coverage gaps compound sustained nutritional stress", "unit": "reported public-system gap", "value_type": "reported_gap"}
+      },
+      "method": "Panel-based household coping indicators and contextual reporting on food prices, climate shocks, nutrition, and mental-health pressure.",
+      "uncertainty": "The feature reports coping prevalence without establishing which shock or policy lever caused each household response; negative coping is an indicator of stress, not a complete measure of welfare.",
+      "subgroup": "Camp households, children, host communities reliant on agriculture and livestock, households with food insecurity, and people exposed to climate and aid shocks.",
+      "counterinterpretation": "Credit, ration changes, migration, informal work, remittances, and community support may buffer some households, but the source does not estimate their relative protective effects.",
+      "source_url": "https://www.worldbank.org/en/news/feature/2026/05/18/as-aid-shrinks-jobs-become-central-to-self-reliance-for-host-communities-and-refugees-in-kenya",
+      "retrieval_hash": "sha256:3e60eccebe71e8f77aadd33134775d0942722a16609f625d9bab7ea2e6be8f03",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://openknowledge.worldbank.org/entities/publication/75199b84-9734-4b75-a06b-fc3788c29cdc", "claim": "Associated World Bank, UNHCR, and CEGA report: Building Evidence to Enhance the Welfare of Refugees and Host Communities in Kenya: Insights from Two Waves of the Kenya Longitudinal Socioeconomic Study."},
+    {"source_url": "https://data.unhcr.org/en/situations/kenya", "claim": "UNHCR Kenya operational data context for refugees and asylum seekers."}
+  ],
+  "boundary": "This record adds a place-based displacement-to-work-and-household-security route. It is not a universal refugee-outcome estimate, a causal evaluation of the Shirika Plan, a complete labor-market census, or proof that jobs alone resolve poverty, social cohesion, gendered care constraints, food insecurity, or public-service capacity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank feature reviewed for two-wave panel design, refugee population context, multidimensional poverty, aid dependence, employment changes, work-permit access, gendered constraints, food coping, climate shocks, and the integration-to-jobs implementation condition.",
+    "source_url_sha256": "sha256:3e60eccebe71e8f77aadd33134775d0942722a16609f625d9bab7ea2e6be8f03",
+    "checked": "2026-09-28"
+  }
+}

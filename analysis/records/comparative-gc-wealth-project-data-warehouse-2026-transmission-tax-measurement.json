@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gc-wealth-project-data-warehouse-2026-transmission-tax-measurement",
+  "title": "Wealth, inheritance, housing, debt, and tax measurement require harmonized evidence before mobility and power can be compared across countries",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": ["unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "public_systems_feedback", "political_judgment_action", "firm_sector_market_power"],
+  "source_unit": "Longmuir et al., Scientific Data 2026, Wealth Composition, Distribution, and Transmission: The Graduate Center Wealth Project Data Warehouse",
+  "geography": "Multiple countries and time periods; international wealth, household-balance-sheet, inequality, and wealth-transfer-tax evidence",
+  "observations": [
+    {
+      "period": "2026 data warehouse release; multiple countries and time periods",
+      "denominator": {"value": 1, "unit": "open data warehouse integrating cross-country wealth evidence", "value_type": "data_resource_unit"},
+      "measures": {
+        "database_components": {"value": "The warehouse combines Wealth Topography, Wealth Inequality Trends, and Estate, Inheritance and Gift Taxes databases", "unit": "integrated databases", "value_type": "reported_resource_structure"},
+        "wealth_composition": {"value": "The framework separates financial wealth, housing wealth, business wealth, other assets, and debt in household balance sheets", "unit": "wealth-component taxonomy", "value_type": "reported_framework"},
+        "transmission": {"value": "The resource links private wealth distribution to intergenerational transmission and wealth-transfer taxation", "unit": "research pathway", "value_type": "reported_resource_scope"},
+        "interpretation": {"value": "Ownership and mobility cannot be understood from income alone; asset composition, liabilities, inheritance, and tax rules shape the reproduction of advantage", "unit": "cross-source interpretation", "value_type": "inferred"}
+      },
+      "method": "The data descriptor harmonizes existing wealth, balance-sheet, distributional, tax, and legal-policy sources and attaches metadata describing methods and source provenance.",
+      "uncertainty": "This is a data resource and methodology paper, not a single new causal estimate. Underlying sources differ in coverage, definitions, valuation, population, and survey or administrative design.",
+      "subgroup": "Countries, years, wealth percentiles, households or individuals, asset classes, debt holders, heirs, and taxpayers across different legal regimes.",
+      "counterinterpretation": "More harmonized data can expose uncertainty rather than eliminate it; wealth concepts that include or exclude pensions, human capital, informal assets, or public benefits can produce materially different mobility conclusions.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13199452/",
+      "retrieval_hash": "sha256:2d3609e46f3c6b929846ae657e98b3cda99017633466abff349110e34df45965",
+      "status": "reported"
+    },
+    {
+      "period": "Historical and contemporary wealth-transfer-tax evidence",
+      "denominator": {"value": 160, "unit": "countries covered by systematic comparison of estate, inheritance, and gift taxation", "value_type": "reported_country_coverage"},
+      "measures": {
+        "tax_comparison": {"value": "The project enables systematic comparison of wealth-transfer taxation across more than 160 countries", "unit": "countries with wealth-transfer-tax evidence", "value_type": "reported_coverage"},
+        "policy_features": {"value": "The tax database includes revenues, rates, exemption thresholds, tax schedules, and introduction or repeal dates", "unit": "policy variables", "value_type": "reported_resource_scope"},
+        "historical_depth": {"value": "Some wealth-transfer-tax information extends back to the eighteenth century", "unit": "historical coverage", "value_type": "reported_time_span"},
+        "interpretation": {"value": "Intergenerational mobility is partly institutionalized through tax design, not only determined by family assets or individual effort", "unit": "policy interpretation", "value_type": "inferred"}
+      },
+      "method": "Researchers extract and harmonize tax features from legal documents, administrative and research sources, and historical policy records, with source and methodological metadata.",
+      "uncertainty": "Tax-law presence, rates, and exemptions do not directly reveal effective incidence, compliance, avoidance, valuation, or actual transfers. Historical legal records may be uneven across countries and periods.",
+      "subgroup": "Heirs, donors, estates, asset classes, family structures, tax jurisdictions, and households with different access to legal and financial planning.",
+      "counterinterpretation": "A formal inheritance tax can coexist with low revenue or limited redistribution; low taxation can reflect broad exemptions, administrative constraints, or other public systems rather than a simple policy preference.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13199452/",
+      "retrieval_hash": "sha256:2d3609e46f3c6b929846ae657e98b3cda99017633466abff349110e34df45965",
+      "status": "reported"
+    },
+    {
+      "period": "Cross-country wealth inequality time series",
+      "denominator": {"value": 1, "unit": "warehouse of country-year-percentile wealth-distribution observations assembled from heterogeneous sources", "value_type": "data_resource_unit"},
+      "measures": {
+        "distribution_statistics": {"value": "The warehouse includes Gini indices, wealth shares held by distributional groups, and average net wealth along the distribution", "unit": "wealth-distribution statistic families", "value_type": "reported_resource_scope"},
+        "source_heterogeneity": {"value": "The underlying evidence includes academic studies, government and corporate research, cross-national datasets, and official statistics", "unit": "source classes", "value_type": "reported_source_mix"},
+        "metadata": {"value": "Rows include geography, year, percentile, source, variable codes, long descriptions, and methodological metadata", "unit": "data-resource metadata fields", "value_type": "reported_data_structure"},
+        "interpretation": {"value": "Comparative wealth claims should be treated as source-conditional estimates with visible provenance, not as one frictionless global ranking", "unit": "measurement interpretation", "value_type": "inferred"}
+      },
+      "method": "The project stores harmonized long-format observations and metadata, draws on multiple source datasets, and documents conceptual grids, conversions, and reproducibility code.",
+      "uncertainty": "Harmonization cannot fully remove differences in survey frames, wealth definitions, valuation dates, top-tail coverage, debt treatment, or missing data. The authors note that estimates can be heterogeneous and contested.",
+      "subgroup": "Wealth percentiles, country-years, source families, asset categories, and populations measured by household or individual units.",
+      "counterinterpretation": "A single standardized statistic can be useful for monitoring if its construction is transparent; multiple estimates may reflect genuine alternative concepts rather than mere noise.",
+      "source_url": "https://www.nature.com/articles/s41597-026-07105-6",
+      "retrieval_hash": "sha256:2d3609e46f3c6b929846ae657e98b3cda99017633466abff349110e34df45965",
+      "status": "reported"
+    },
+    {
+      "period": "2026 release; research access and reproduction boundary",
+      "denominator": {"value": 1, "unit": "open data descriptor and downloadable warehouse resource", "value_type": "data_resource_unit"},
+      "measures": {
+        "open_access": {"value": "The warehouse is released under a Creative Commons Attribution 4.0 license through a public repository", "unit": "data-access condition", "value_type": "reported_access"},
+        "microdata_boundary": {"value": "The project provides aggregated secondary data from legally obtained sources and cannot provide some underlying HFCS and Luxembourg Wealth Study microdata", "unit": "data-access limitation", "value_type": "reported_boundary"},
+        "reproducibility": {"value": "Replication code, source tables, conversion tables, and metadata are provided to reconstruct or audit the harmonized warehouse", "unit": "reproducibility resource", "value_type": "reported_resource_scope"},
+        "interpretation": {"value": "Public trend mining benefits from separating reusable aggregate evidence from inaccessible respondent-level microdata and documenting where each inference stops", "unit": "workflow interpretation", "value_type": "inferred"}
+      },
+      "method": "The paper documents data files, source tables, code, metadata, legal access conditions, and limitations on underlying microdata availability.",
+      "uncertainty": "Reproduction depends on access to original source data, legal permissions, changing source vintages, and the authors' classification and conversion choices; open access to the warehouse does not mean all underlying inputs are open.",
+      "subgroup": "Researchers, policymakers, data users, and populations represented in aggregated wealth and tax indicators rather than directly observed in this atlas.",
+      "counterinterpretation": "A strong documentation layer improves auditability but cannot make aggregate wealth statistics equivalent to respondent-level lived experience or guarantee that every original estimate is comparable.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13199452/",
+      "retrieval_hash": "sha256:2d3609e46f3c6b929846ae657e98b3cda99017633466abff349110e34df45965",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1038/s41597-026-07105-6", "claim": "Canonical open-access Scientific Data article describing the Graduate Center Wealth Project data warehouse.", "status": "official-doi"},
+    {"source_url": "https://doi.org/10.5281/zenodo.18601154", "claim": "Public repository for the warehouse files and supplementary source tables.", "status": "public-data-repository"}
+  ],
+  "boundary": "This record adds a measurement and policy-infrastructure layer for wealth composition, distribution, inheritance, and tax transmission. It does not ingest respondent-level microdata, estimate causal mobility effects, provide a single global wealth truth, or make every underlying source comparable; it is a documented aggregate data warehouse and data descriptor.",
+  "retrieval_hash": "sha256:2d3609e46f3c6b929846ae657e98b3cda99017633466abff349110e34df45965"
+}

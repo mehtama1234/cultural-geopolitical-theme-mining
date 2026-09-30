@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-cultural-employment-2025-workforce-education-country-gap",
+  "title": "Europe’s cultural economy employs 8.9 million people but remains a highly educated and place-concentrated production system",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Eurostat, EU cultural sector employment in 2025 and Guide to Eurostat culture statistics",
+  "geography": "European Union; cultural employment across EU Member States",
+  "observations": [
+    {
+      "period": "2025; size and demographic composition of cultural employment",
+      "denominator": {
+        "value": 8900000,
+        "unit": "people employed in culture in the EU",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "cultural_employment": {"value": 8900000, "unit": "people employed in culture", "value_type": "official_count"},
+        "cultural_share_total_employment": {"value": 4.3, "unit": "percent of total EU employment", "value_type": "official_employment_share"},
+        "age_30_49_share": {"value": 48.5, "unit": "percent of cultural employment aged 30-49", "value_type": "official_subgroup_share"},
+        "women_share": {"value": 49.6, "unit": "percent of cultural employment who are women", "value_type": "official_subgroup_share"},
+        "men_share": {"value": 50.4, "unit": "percent of cultural employment who are men", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Cultural consumption and participation are supported by a substantial labor market, so downstream cultural access depends on the size, stability, demographic composition, and bargaining conditions of cultural work", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat harmonized cultural-employment statistics using culture-related occupations in and outside the cultural sector, and non-cultural occupations within the cultural sector.",
+      "uncertainty": "The aggregate count includes diverse occupations and employment forms; it does not measure cultural output, wages, job quality, self-employment precarity, hours, or consumer access.",
+      "subgroup": "People employed in culture in the EU, including culture-related occupations in the cultural sector, non-cultural occupations in that sector, and culture-related jobs elsewhere.",
+      "counterinterpretation": "A large cultural workforce can coexist with weak cultural wages, unequal access, platform concentration, or low household participation; employment is not a direct welfare measure.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-2",
+      "retrieval_hash": "sha256:50a7079d9fff39850c1c68c215e0ea783a231588373d5cca2e39c5edfcf65bdd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; education composition of cultural employment",
+      "denominator": {
+        "value": 8900000,
+        "unit": "people employed in culture in the EU",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "tertiary_education_share": {"value": 61.9, "unit": "percent of cultural employment with tertiary education", "value_type": "official_subgroup_share"},
+        "upper_secondary_postsecondary_share": {"value": 31.3, "unit": "percent of cultural employment with upper secondary or post-secondary non-tertiary education", "value_type": "official_subgroup_share"},
+        "lower_secondary_or_less_share": {"value": 6.7, "unit": "percent of cultural employment with lower secondary education or less", "value_type": "official_subgroup_share"},
+        "mechanism": {"value": "Cultural production is credential-intensive relative to the wider workforce, which may shape entry, representation, occupational status, and whose meanings become professionally funded and visible", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat cultural-employment education breakdown using harmonized labor-force and culture-statistics definitions.",
+      "uncertainty": "The education distribution does not establish credential requirements, selection mechanisms, social origin, income, debt, unpaid cultural work, or causal effects on cultural content.",
+      "subgroup": "People employed in culture by highest educational attainment.",
+      "counterinterpretation": "Higher education may reflect the occupational mix of cultural work rather than exclusion; some culturally important production occurs outside measured employment or without formal credentials.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-2",
+      "retrieval_hash": "sha256:50a7079d9fff39850c1c68c215e0ea783a231588373d5cca2e39c5edfcf65bdd",
+      "status": "reported"
+    },
+    {
+      "period": "2025; country variation in cultural employment",
+      "denominator": {
+        "value": null,
+        "unit": "EU Member State total employment; source reports country shares without pooled employment denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "netherlands_cultural_employment_share": {"value": 5.7, "unit": "percent of total employment in culture in the Netherlands", "value_type": "official_country_share"},
+        "estonia_cultural_employment_share": {"value": 5.3, "unit": "percent of total employment in culture in Estonia", "value_type": "official_country_share"},
+        "malta_cultural_employment_share": {"value": 5.1, "unit": "percent of total employment in culture in Malta", "value_type": "official_country_share"},
+        "romania_cultural_employment_share": {"value": 1.8, "unit": "percent of total employment in culture in Romania", "value_type": "official_country_share"},
+        "slovakia_cultural_employment_share": {"value": 3.3, "unit": "percent of total employment in culture in Slovakia", "value_type": "official_country_share"},
+        "ireland_cultural_employment_share": {"value": 3.4, "unit": "percent of total employment in culture in Ireland", "value_type": "official_country_share"},
+        "high_low_country_gap": {"value": 3.9, "unit": "percentage-point difference between the Netherlands and Romania", "value_type": "derived_country_gap"},
+        "mechanism": {"value": "Cultural production capacity is place-stratified: labor-market specialization, sector definitions, public support, tourism, media industries, and urban concentration shape the supply available to households and audiences", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat country comparison of cultural employment as a share of total employment.",
+      "uncertainty": "Country differences are descriptive and can reflect industrial structure, classification, labor-market organization, population composition, and cultural-sector institutions; they do not measure cultural quality or access.",
+      "subgroup": "Workers and total employment in selected EU Member States.",
+      "counterinterpretation": "A lower cultural-employment share may reflect more efficient production, informal or unpaid work, classification differences, or cultural activity outside measured occupations rather than weaker cultural life.",
+      "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-2",
+      "retrieval_hash": "sha256:50a7079d9fff39850c1c68c215e0ea783a231588373d5cca2e39c5edfcf65bdd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://ec.europa.eu/eurostat/databrowser/view/cult_emp_sex/default/table",
+      "claim": "Eurostat's cultural-employment dataset provides the underlying country and gender indicators.",
+      "status": "official-data-archive"
+    },
+    {
+      "source_url": "https://ec.europa.eu/eurostat/documents/3859598/23919420/KS-01-26-001-EN-N.pdf",
+      "claim": "The Guide to Eurostat culture statistics documents the harmonized coverage of cultural employment, enterprises, participation, and household expenditure.",
+      "status": "official-methodology-context"
+    }
+  ],
+  "boundary": "This record adds EU evidence on the size, demographic, education, and country distribution of cultural employment. It does not measure cultural output, wages, job quality, precarity, consumer access, participation, cultural meaning, or causal effects of cultural-sector employment.",
+  "retrieval_hash": "sha256:50a7079d9fff39850c1c68c215e0ea783a231588373d5cca2e39c5edfcf65bdd"
+}

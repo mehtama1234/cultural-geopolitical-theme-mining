@@ -4,86 +4,90 @@
 
 This is a routing control, not an evidence-quality, importance, or omission score. A record not directly named here can still be represented indirectly by a project finding or cross-source bridge. Direct promotion means its exact trend ID appears in the [central synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [societal subtheme register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md), [broad theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md), or one of the [source-led subtheme maps](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md).
 
-The current corpus has **1013 records**; **801** are directly named in at least one of those reader documents.
+The current corpus has **1978 records**; **1599** are directly named in at least one of those reader documents.
 
 ## Direct-ID promotion by theme
 
 | Theme | Corpus records | Directly named | Not directly named |
 |---|---:|---:|---:|
-| Unequal exposure and status | 805 | 640 | 165 |
-| Household room and consumption | 557 | 419 | 138 |
-| Public systems and policy feedback | 696 | 585 | 111 |
-| Firm, sector, and market power | 429 | 335 | 94 |
-| Trust, identity, and cultural meaning | 550 | 462 | 88 |
-| Work, control, and bargaining | 308 | 228 | 80 |
-| Political judgment and collective action | 378 | 302 | 76 |
-| Care, health, and social reproduction | 295 | 228 | 67 |
-| Infrastructure, technology, and dependency | 315 | 253 | 62 |
-| Housing, place, and mobility | 225 | 177 | 48 |
-| Geopolitical and state consequences | 261 | 221 | 40 |
-| Time as a hidden price | 172 | 138 | 34 |
-| Consumer power and recourse | 185 | 166 | 19 |
-| Platforms, data, and attention | 123 | 115 | 8 |
+| Unequal exposure and status | 1721 | 1401 | 320 |
+| Household room and consumption | 1215 | 964 | 251 |
+| Public systems and policy feedback | 1456 | 1221 | 235 |
+| Trust, identity, and cultural meaning | 1219 | 1008 | 211 |
+| Political judgment and collective action | 777 | 625 | 152 |
+| Infrastructure, technology, and dependency | 781 | 632 | 149 |
+| Work, control, and bargaining | 684 | 549 | 135 |
+| Firm, sector, and market power | 710 | 579 | 131 |
+| Care, health, and social reproduction | 639 | 509 | 130 |
+| Geopolitical and state consequences | 589 | 501 | 88 |
+| Consumer power and recourse | 359 | 276 | 83 |
+| Housing, place, and mobility | 454 | 376 | 78 |
+| Time as a hidden price | 364 | 299 | 65 |
+| Platforms, data, and attention | 367 | 303 | 64 |
 
 ## Candidate pool for the four lowest-density theme surfaces
 
 These are alphabetized direct-ID candidates, not ranked recommendations. The next pass should choose one only if it advances a genuinely different unit or stage and preserves the source boundary.
 
-### Platforms, data, and attention
+### Consumer power and recourse
 
+- [A named consumer redress route identifies eligible victims and ongoing distribution, while successful recovery remains unobserved](records/us-cfpb-brightspeed-redress-distribution-2026.json)
+- [A ‘dysoptimist’ cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience](records/comparative-vml-future-100-2026-dysoptimism-ai-human-connection.json)
+- [AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns](records/comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment.json)
 - [AI adoption is broadening while perceived control and regulatory confidence remain weak](records/us-pew-ai-use-concern-regulation-2026.json)
-- [Business AI adoption is concentrated by firm size and sector rather than spreading evenly](records/us-census-btos-ai-firm-size-sector-2025-2026.json)
-- [Digital consumer exposure can become a recovery and recourse problem without a common harm rate](records/us-digital-consumer-loss-recourse-crosssource-2024-2025.json)
-- [Government AI adoption is widespread, but operational accountability, procurement, evaluation, and user feedback lag](records/comparative-oecd-digital-government-ai-governance-2026.json)
-- [High average human development does not settle the question of who can exercise new choices](records/us-undp-human-development-ai-choice-2023-2025.json)
-- [Platform safety is becoming a time-bounded removal and complaint-governance obligation](records/us-ftc-take-it-down-platform-removal-governance-2026.json)
-- [Public participation divides into mobilization, connection, spectatorship, and outsider patterns](records/us-pew-public-life-engagement-groups-2025-2026.json)
-- [Trust in who should regulate AI is internationally distributed rather than aligned with one Western model](records/us-pew-global-ai-regulation-trust-2026.json)
+- [AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service](records/us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs.json)
+- [AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating](records/comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust.json)
+- [AI-enabled employment support is being designed to move minimum-income beneficiaries from unstable entry jobs toward sustainable career progression](records/comparative-oecd-ai-employment-support-minimum-income-belgium-greece-2026.json)
+- [Africa's health-workforce crisis is an education-to-employment and retention failure as much as a training shortage, with migration and fiscal absorption shaping service access](records/comparative-who-africa-health-workforce-2026-shortage-migration-absorption.json)
+- [Agrifood futures are being modeled as an interconnected system where population, income, technology, climate, demand, production, nutrition, livelihoods, and natural resources co-determine long-term outcomes](records/comparative-ifpri-cgiar-agrifood-outlook-2050-climate-nutrition-livelihoods.json)
+- [An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order](records/au-hotak-reactivation-continued-work-2025.json)
+- [August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open](records/us-census-retail-food-services-sales-2026-august.json)
+- [Broad LGBT acceptance is holding while support for brand advocacy, media visibility and contested policy issues diverges](records/comparative-ipsos-pride-2026-lgbt-acceptance-brand-media-policy.json)
 
 ### Time as a hidden price
 
 - [An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order](records/au-hotak-reactivation-continued-work-2025.json)
 - [CFPB case-route labels and API fields change across complaint vintages](records/us-cfpb-case-route-vintage-comparison-2024-2025.json)
+- [Climate concern is being filtered through affordability, health and credibility, making sustainability an everyday-value problem rather than a duty-only problem](records/comparative-ipsos-sustainability-reality-check-2026-affordability-health-trust-action.json)
+- [Consumer culture is reframing care, attention, and surprise: postpartum support, phone-free time, and whimsy become responses to optimized everyday life](records/comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy.json)
+- [Consumer value is being recalculated through AI-mediated discovery, measurable wellness, experiences, and resourceful low-waste spending](records/comparative-mckinsey-state-consumer-2026-ai-health-experience-resourceful-value.json)
 - [Explicit household selection changes SIPP material-pressure diagnostics](records/us-sipp-reference-household-selection-2024.json)
-- [Hours remain more stable than earnings, but the direction pattern changes across children and SNAP contexts](records/us-sipp-resource-work-direction-subgroups-2024.json)
-- [Monthly earnings and hours changes have different directions across resource and work-limitation cells](records/us-sipp-resource-worklimitation-direction-2024.json)
-- [Monthly income-to-poverty position and job count move on different clocks](records/us-sipp-monthly-resource-job-transition-2024.json)
-- [Monthly resource position is followed by distinct earnings and hours movement across work-limiting status](records/us-sipp-resource-worklimitation-hours-earnings-crosslag-2024.json)
-- [Monthly resource-band changes and job-count changes are distinct adjacent-month pathways](records/us-sipp-resource-job-crosslag-2024.json)
-- [National ACS household vehicle scarcity and long commute exposure changed modestly across 2023–2024](records/us-acs-transport-annual-national-2023-2024.json)
-- [PSID 2023 documents a viable material, work, time, care, health, and household-room backbone](records/us-psid-2023-material-time-care-field-audit.json)
-- [Party identity shifts at the edges while gender, race, and education keep the coalition lines uneven](records/us-pew-party-affiliation-npor-2026.json)
-- [Personal financial well-being, local economic judgment, and national economic judgment move on different tracks](records/us-fed-shed-economic-wellbeing-2025.json)
+- [Food access remains materially constrained while inflation-adjusted nutrition-assistance spending recedes](records/usda-food-security-assistance-spending-2024-2025-2026.json)
+- [Gen Z and millennials are sequencing ambition around stability, sustainable work, purpose and AI readiness rather than rejecting advancement](records/comparative-deloitte-genz-millennial-survey-2026-sequenced-ambition-ai-work.json)
+- [Generational differences are often life-stage effects: work moves from optimism through pressure toward selective stability while housing and care reshape milestones](records/comparative-ipsos-generations-2026-life-stage-work-care-housing.json)
+- [Ghana’s mobile-money system is scaling rapidly while active-agent capacity and oversight remain critical constraints](records/comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk.json)
+- [Global publics are retreating toward local trust, personal control and present-focused coping as technology, institutions and climate feel less governable](records/comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate.json)
+- [Global work remains low-engagement and emotionally costly, while work location and regional context redistribute both agency and wellbeing](records/comparative-gallup-state-global-workplace-2026-engagement-wellbeing-work-location.json)
 
-### Consumer power and recourse
+### Platforms, data, and attention
 
+- [A distant conflict is reorganizing domestic safety judgments, identity boundaries, speech restraint, and interfaith cohesion even as most Britons reject a simple partisan side](records/comparative-more-in-common-caught-between-sides-2026-conflict-cohesion-safety.json)
+- [A ‘dysoptimist’ cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience](records/comparative-vml-future-100-2026-dysoptimism-ai-human-connection.json)
+- [AI adoption is becoming a negotiated bargain: time savings and future usefulness coexist with labor, environmental and commercial-trust concerns](records/comparative-ipsos-global-ai-attitudes-2026-wonder-worry-time-trust-environment.json)
 - [AI adoption is broadening while perceived control and regulatory confidence remain weak](records/us-pew-ai-use-concern-regulation-2026.json)
-- [An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order](records/au-hotak-reactivation-continued-work-2025.json)
-- [August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open](records/us-census-retail-food-services-sales-2026-august.json)
-- [CFPB case-route labels and API fields change across complaint vintages](records/us-cfpb-case-route-vintage-comparison-2024-2025.json)
-- [Consumer redress is shifting from claims and capped payments toward automatic expansion](records/us-ftc-amazon-prime-redress-expansion-2026.json)
-- [Digital consumer exposure can become a recovery and recourse problem without a common harm rate](records/us-digital-consumer-loss-recourse-crosssource-2024-2025.json)
-- [Health costs connect care choices, household adaptation, institutional response, and contested legitimacy](records/us-health-cost-household-choice-end-to-end-2024-2026.json)
-- [Health-cost burden, credit response, and confidence form linked evidence surfaces but not a same-episode causal chain](records/us-health-cost-institutional-legitimacy-bridge-2022-2026.json)
-- [Medical debt becomes a visible CFPB complaint category](records/us-cfpb-2025-medical-debt-visibility.json)
-- [Microenterprise credit can create customer surplus beyond the borrowing firm](records/comparative-nber-microenterprise-credit-consumer-surplus-2026.json)
-- [Network feasibility may require removing a constrained node rather than relaxing one link](records/comparative-nber-spectrum-repacking-network-feasibility-2026.json)
-- [Platform safety is becoming a time-bounded removal and complaint-governance obligation](records/us-ftc-take-it-down-platform-removal-governance-2026.json)
+- [AI infrastructure is becoming a household-cost and local-consent issue while consumers compress spending and protect human service](records/us-ipsos-consumer-tracker-2026-ai-data-centers-household-costs.json)
+- [AI is becoming an entertainment-discovery interface for younger audiences faster than trust in its answers is consolidating](records/comparative-nielsen-gracenote-ai-entertainment-discovery-2026-gen-alpha-trust.json)
+- [AI-informed audience development converted surrounding footfall into modestly higher cultural visitation at a Maltese arts centre](records/comparative-malta-ai-cultural-audience-development-2025.json)
+- [Britons value open disagreement but experience a shrinking, socially costly public space for expressing it](records/comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space.json)
+- [Business AI adoption is concentrated by firm size and sector rather than spreading evenly](records/us-census-btos-ai-firm-size-sector-2025-2026.json)
+- [Canada's information ecosystem is age-stratified and misinformation-saturated, making trust and detection capacity part of civic infrastructure](records/comparative-statcan-canada-misinformation-2026-exposure-detection-trust.json)
+- [Civic participation is becoming an AI-mediated public-service layer, shifting legitimacy toward listening, translation, moderation, and feedback capacity](records/comparative-eu-emerging-civic-participation-ai-middleware-2026.json)
+- [Consumer culture is reframing care, attention, and surprise: postpartum support, phone-free time, and whimsy become responses to optimized everyday life](records/comparative-foresight-factory-september-2026-cultural-consumer-trends-postpartum-phone-free-whimsy.json)
 
 ### Housing, place, and mobility
 
 - [A gasoline shock reverses some US household inflation and spending gaps](records/us-nyfed-economic-heterogeneity-april-2026.json)
+- [Americans retain commitment to democracy while national performance and accountability decline, producing a local-national legitimacy split](records/us-gallup-kettering-democracy-for-all-2026-local-national-legitimacy-frustration.json)
 - [August 2026 consumer prices rose with a gasoline-led energy contribution](records/us-bls-cpi-2026-august.json)
 - [August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open](records/us-census-retail-food-services-sales-2026-august.json)
+- [Australian household security is being stretched across housing, food, work fit, and life-course timing while intimate relationships remain a resilient resource](records/comparative-hilda-australia-household-security-2026.json)
+- [Britons value open disagreement but experience a shrinking, socially costly public space for expressing it](records/comparative-ucl-more-in-common-disagreeing-well-2026-speech-restraint-civic-space.json)
 - [Business applications and employer-firm formation are different local economic stages](records/us-nber-local-business-application-transition-employer-firm-2026.json)
 - [Business formation signals diverge from realized establishment and job capacity by sector](records/us-bfs-bds-sector-dynamics-2023.json)
 - [CDC PLACES county vintages move across distinct health and social-need surfaces](records/us-cdc-places-vintage-comparison-2024-2025.json)
 - [California ZIP codes with greater FAIR Plan share also show higher voluntary-market nonrenewal among renewal decisions](records/us-california-fair-private-market-crosswalk-2020-2023.json)
 - [California ZIP nonrenewal and FAIR-share differences vary with place income and housing structure](records/us-california-fair-market-acs-context-2022.json)
 - [California joint insurance gradients are sensitive to income and wildfire-risk cut points](records/us-california-fair-joint-sensitivity-2022.json)
-- [Capacity-cell political context varies sharply by party identity as well as place](records/us-cces-local-capacity-trust-action-party-2024.json)
-- [Climate and disaster risk can move homeowner losses into household and federal exposure](records/us-cbo-climate-disaster-homeowners-insurance-2024.json)
-- [Counties with greater modeled wildfire exposure show somewhat higher voluntary-market nonrenewal in a 2022 California screen](records/us-california-doi-wildfire-county-context-2022.json)
 
 The machine-readable counterpart is [the promotion audit JSON](US-BROAD-SOURCE-PROMOTION-AUDIT_V1.json).
 

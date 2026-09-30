@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-urban-suburban-rural-public-life-engagement-2026-place-specific-routes",
+  "title": "Place changes the route into public life more than the overall level of engagement",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["housing_place_mobility", "political_judgment_action", "public_systems_feedback", "platforms_data_attention", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center and Pew-Knight Initiative, How urban, suburban and rural Americans engage in society",
+  "geography": "United States; urban, suburban, and rural adults",
+  "observations": [
+    {
+      "period": "September 8–14, 2025; publication September 28, 2026; engagement groups by community type",
+      "denominator": {"value": 5195, "unit": "U.S. adults in Wave 179 of the American Trends Panel; group shares exclude adults not assigned to a group", "value_type": "national_survey_sample"},
+      "measures": {
+        "urban_groups": {"value": "Mobilizers 9%; Connectors 23%; Spectators 33%; Outsiders 35%", "unit": "percent of urban adults assigned to each engagement group", "value_type": "reported_group_comparison"},
+        "suburban_groups": {"value": "Mobilizers 9%; Connectors 34%; Spectators 27%; Outsiders 30%", "unit": "percent of suburban adults assigned to each engagement group", "value_type": "reported_group_comparison"},
+        "rural_groups": {"value": "Mobilizers 10%; Connectors 30%; Spectators 25%; Outsiders 35%", "unit": "percent of rural adults assigned to each engagement group", "value_type": "reported_group_comparison"},
+        "place_route_mechanism": {"value": "Urban, suburban, and rural settings show broadly similar overall engagement distributions but different mixes of civic, religious, news, and political practice", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew Wave 179 of the American Trends Panel, surveyed by web and phone September 8–14, 2025; engagement groups were assigned using a separate Cross-Sectional Engagement Survey cluster analysis based on 19 measures.",
+      "uncertainty": "The source is cross-sectional and group assignment is analytical rather than an enduring identity. Adults not assigned to a group are not shown in the displayed percentages; community type may proxy composition, access, age, income, or local institutions.",
+      "subgroup": "Urban, suburban, and rural U.S. adults classified as Mobilizers, Connectors, Spectators, or Outsiders.",
+      "counterinterpretation": "Small differences in group distributions should not be read as a meaningful urban-rural civic divide; the source explicitly notes that age, income, race, ethnicity, and party often predict behavior better than community type.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/28/how-urban-suburban-and-rural-americans-engage-in-society/",
+      "retrieval_hash": "sha256:3ad9a2067597b7b2c460edebf364bce8ca81c9514209bdf3d174d658c1b50269",
+      "status": "reported"
+    },
+    {
+      "period": "September 8–14, 2025; publication September 28, 2026; social, religious, and group participation",
+      "denominator": {"value": 5195, "unit": "U.S. adults in Wave 179 of the American Trends Panel", "value_type": "national_survey_sample"},
+      "measures": {
+        "volunteered": {"value": "Urban 26%; suburban 31%; rural 26%", "unit": "percent volunteering in the past year", "value_type": "reported_group_comparison"},
+        "group_membership": {"value": "Urban 30%; suburban 37%; rural 33%", "unit": "percent part of a group or organization in the past year", "value_type": "reported_group_comparison"},
+        "monthly_religious_attendance": {"value": "Urban 33%; suburban 37%; rural 42%", "unit": "percent attending religious services in person or online at least monthly", "value_type": "reported_group_comparison"},
+        "participation_route": {"value": "Place-specific differences appear more clearly in social and religious participation than in the broad engagement-group distribution", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew Wave 179 self-reported activity measures; activities refer to the past 12 months.",
+      "uncertainty": "The reference period includes much of the 2024 presidential-election cycle; self-reports do not establish frequency, intensity, access conditions, or causal effects of place.",
+      "subgroup": "Urban, suburban, and rural adults; online religious attendance is included with in-person attendance in the published measure.",
+      "counterinterpretation": "Higher rural religious attendance or suburban group membership may reflect population composition, institutional supply, or reporting differences rather than stronger generalized social connection.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/28/how-urban-suburban-and-rural-americans-engage-in-society/",
+      "retrieval_hash": "sha256:3ad9a2067597b7b2c460edebf364bce8ca81c9514209bdf3d174d658c1b50269",
+      "status": "reported"
+    },
+    {
+      "period": "September 8–14, 2025; publication September 28, 2026; in-person versus online group interaction",
+      "denominator": {"value": null, "unit": "U.S. adults who belong to a group, organization, or association; subgroup base not stated on the article summary", "value_type": "not_disclosed"},
+      "measures": {
+        "group_mostly_in_person": {"value": "Urban 47%; suburban 57%; rural 63%", "unit": "percent saying group members mostly interact in person", "value_type": "reported_group_comparison"},
+        "group_mixed_mode": {"value": "Urban 30%; suburban 23%; rural 23%", "unit": "percent saying interaction is an equal mix of in-person and online", "value_type": "reported_group_comparison"},
+        "group_mostly_online": {"value": "Urban 22%; suburban 20%; rural 14%", "unit": "percent saying group members mostly interact online", "value_type": "reported_group_comparison"},
+        "social_infrastructure_mechanism": {"value": "Community type is associated with the medium through which organized social life is experienced, even where overall engagement levels are similar", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew Wave 179 question among group members about whether their group mostly interacts in person, online, or through an equal mix.",
+      "uncertainty": "The subgroup denominator is not headlined in the accessible summary; interaction mode is not the same as relationship quality, inclusion, accessibility, or durable belonging.",
+      "subgroup": "Adults belonging to a group, organization, or association, compared by urban, suburban, and rural residence.",
+      "counterinterpretation": "More in-person interaction may reflect fewer alternatives or local organizational norms rather than greater cohesion; online interaction can be meaningful and accessible for people otherwise excluded.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/28/how-urban-suburban-and-rural-americans-engage-in-society/",
+      "retrieval_hash": "sha256:3ad9a2067597b7b2c460edebf364bce8ca81c9514209bdf3d174d658c1b50269",
+      "status": "reported"
+    },
+    {
+      "period": "September 8–14, 2025; publication September 28, 2026; place-specific political expression",
+      "denominator": {"value": 5195, "unit": "U.S. adults in Wave 179 of the American Trends Panel", "value_type": "national_survey_sample"},
+      "measures": {
+        "contacted_official": {"value": "Urban 16%; suburban 17%; rural 17%", "unit": "percent contacting an elected official in the past year", "value_type": "reported_group_comparison"},
+        "displayed_sign_or_bumper": {"value": "Urban 14%; suburban 15%; rural 19%", "unit": "percent displaying a sign/bumper sticker or wearing something for a candidate or cause", "value_type": "reported_group_comparison"},
+        "social_media_political_identity": {"value": "Urban 13%; suburban 14%; rural 16%", "unit": "percent using a social-media bio or profile picture to support a candidate or cause", "value_type": "reported_group_comparison"},
+        "protest_participation": {"value": "Urban 12%; suburban 8%; rural 6%", "unit": "percent participating in a protest, march, or demonstration", "value_type": "reported_group_comparison"},
+        "political_style_mechanism": {"value": "Place is more visible in the form of political expression—signage, online identity, protest, or official contact—than in a single overall engagement score", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew Wave 179 reported political-activity measures for urban, suburban, and rural adults.",
+      "uncertainty": "These are self-reported activities over the prior year and do not establish political influence, issue content, persistence, or why different forms are chosen.",
+      "subgroup": "Urban, suburban, and rural adults; differences may reflect local political competition, organizational opportunity, social visibility, or demographic composition.",
+      "counterinterpretation": "Similar rates of contacting officials alongside different protest or signage rates show that visible political style is not equivalent to political efficacy or civic commitment.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/28/how-urban-suburban-and-rural-americans-engage-in-society/",
+      "retrieval_hash": "sha256:3ad9a2067597b7b2c460edebf364bce8ca81c9514209bdf3d174d658c1b50269",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/chart/americans-in-urban-suburban-and-rural-communities-engage-in-society-in-slightly-different-ways/", "claim": "Pew chart data provide the engagement-group percentages by community type.", "status": "official-chart-data"},
+    {"source_url": "https://www.pewresearch.org/chart/the-groups-and-clubs-rural-americans-are-in-are-more-likely-to-meet-in-person/", "claim": "Pew chart data provide the in-person, mixed, and online interaction comparison for group members.", "status": "official-chart-data"}
+  ],
+  "boundary": "This record adds a place-specific route into the existing public-life engagement typology. It does not establish an urban-rural civic divide, causality, durable belonging, institutional trust, political efficacy, or that in-person interaction is intrinsically better than online participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew Research Center article HTML reviewed for publication metadata, survey samples, engagement-group composition, activity comparisons, interaction medium, and stated place/composition limitations.",
+    "source_page_sha256": "sha256:3ad9a2067597b7b2c460edebf364bce8ca81c9514209bdf3d174d658c1b50269",
+    "checked": "2026-09-28",
+    "version_note": "The article draws on Wave 179 and the Cross-Sectional Engagement Survey; those sources and chart CSVs should be used for exact subgroup reproduction."
+  }
+}

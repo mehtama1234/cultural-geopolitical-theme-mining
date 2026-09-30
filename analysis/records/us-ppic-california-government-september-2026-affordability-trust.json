@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ppic-california-government-september-2026-affordability-trust",
+  "title": "California voters translate affordability pressure into electoral judgment while trust in government remains thin",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Public Policy Institute of California, PPIC Statewide Survey: Californians and Their Government, September 2026",
+  "geography": "California adults and likely voters surveyed September 4-10, 2026",
+  "observations": [
+    {
+      "period": "September 2026; affordability as electoral judgment",
+      "denominator": {"value": 1745, "unit": "California adult residents surveyed; likely-voter subgroup used for election questions", "value_type": "published_survey_sample"},
+      "measures": {
+        "affordability_importance": {"value": 65, "unit": "percent of likely voters saying gubernatorial candidates' affordability positions are very important to their vote", "value_type": "reported_survey_share"},
+        "somewhat_important": {"value": 30, "unit": "percent of likely voters saying affordability positions are somewhat important", "value_type": "reported_survey_share"},
+        "cross_party": {"value": "69% of Democrats, 65% of Republicans, and 59% of independents call affordability positions very important", "unit": "reported partisan comparison", "value_type": "reported_subgroup_pattern"},
+        "political_route": {"value": "cost-of-living judgment is a cross-party electoral filter even amid strong partisan candidate preferences", "unit": "reported political mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "PPIC statewide survey conducted by Ipsos through the probability-based KnowledgePanel in English and Spanish.",
+      "uncertainty": "Electoral preference and issue importance are stated intentions before the election and do not establish which policy or economic change caused a vote.",
+      "subgroup": "Likely voters by party, income, region, homeownership, age, gender, and household children.",
+      "counterinterpretation": "Affordability salience may reflect general economic anxiety rather than a specific assessment of candidates' proposed policies.",
+      "source_url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "retrieval_hash": "sha256:7e32de56aa9cdbe96ca60f8bc2fcaf02263cb0ec3f724188179be986a3c6374b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; price and housing pressure",
+      "denominator": {"value": 1745, "unit": "California adult residents surveyed", "value_type": "published_survey_sample"},
+      "measures": {
+        "price_hardship": {"value": 58, "unit": "percent saying recent price increases caused financial hardship in their household: 21% serious and 37% not serious", "value_type": "reported_survey_share"},
+        "housing_strain": {"value": 44, "unit": "percent saying housing costs place a lot or a little financial strain on their family: 24% a lot and 20% a little", "value_type": "reported_survey_share"},
+        "income_gradient": {"value": "housing strain falls from 67% below $40,000 income to 57% at $40,000-$99,999 and 32% at $100,000 or more", "unit": "reported income pattern", "value_type": "reported_subgroup_pattern"},
+        "household_route": {"value": "cost pressure is distributed through both current prices and housing exposure, with a strong income gradient", "unit": "reported household mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "PPIC survey questions on recent price hardship and housing-cost financial strain.",
+      "uncertainty": "These are self-reported financial perceptions and do not measure budgets, expenditure records, rent arrears, or causal effects of inflation.",
+      "subgroup": "Adults by income, race and ethnicity, party, region, renters and homeowners, and households with children.",
+      "counterinterpretation": "Perceived hardship can be shaped by expectations and local price visibility as well as by realized income loss or spending changes.",
+      "source_url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "retrieval_hash": "sha256:7e32de56aa9cdbe96ca60f8bc2fcaf02263cb0ec3f724188179be986a3c6374b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; direction, economic expectations, and government trust",
+      "denominator": {"value": 1745, "unit": "California adult residents surveyed", "value_type": "published_survey_sample"},
+      "measures": {
+        "state_wrong_direction": {"value": 54, "unit": "percent of adults saying California is headed in the wrong direction", "value_type": "reported_survey_share"},
+        "bad_state_economy": {"value": 71, "unit": "percent of adults expecting bad financial times for California in the next 12 months", "value_type": "reported_survey_share"},
+        "limited_state_trust": {"value": 59, "unit": "percent saying state government in Sacramento can be trusted to do what is right only some of the time", "value_type": "reported_survey_share"},
+        "legitimacy_route": {"value": "economic pessimism and perceived government underperformance reinforce one another as a state-legitimacy signal", "unit": "reported institutional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "PPIC statewide survey with repeated time-trend comparisons for direction, economic expectations, and trust.",
+      "uncertainty": "Direction and trust measures are broad evaluations; they do not identify which public-service experience or policy produced the judgment.",
+      "subgroup": "Adults and likely voters by party, region, income, race and ethnicity, and education.",
+      "counterinterpretation": "Negative evaluations can coexist with support for particular programs, ballot measures, or local institutions.",
+      "source_url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "retrieval_hash": "sha256:7e32de56aa9cdbe96ca60f8bc2fcaf02263cb0ec3f724188179be986a3c6374b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; health-care affordability and responsibility",
+      "denominator": {"value": 1745, "unit": "California adult residents surveyed", "value_type": "published_survey_sample"},
+      "measures": {
+        "healthcare_dissatisfaction": {"value": 70, "unit": "percent very or somewhat dissatisfied with the availability of affordable health care in the country", "value_type": "reported_survey_share"},
+        "federal_responsibility": {"value": "about seven in ten say the federal government is responsible for ensuring access to health care", "unit": "reported survey pattern", "value_type": "reported_mechanism"},
+        "party_split": {"value": "nine in ten Democrats and seven in ten independents assign responsibility to the federal government, while seven in ten Republicans assign responsibility to individuals", "unit": "reported partisan comparison", "value_type": "reported_subgroup_pattern"},
+        "public_system_route": {"value": "shared affordability concern can coexist with sharply different views of who owes the remedy", "unit": "reported policy-legitimacy mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "PPIC survey questions on affordable health care and responsibility for access.",
+      "uncertainty": "Responsibility judgments do not measure actual coverage, care access, health outcomes, or support for a specific financing design.",
+      "subgroup": "Adults by party, income, region, race and ethnicity, and health-care attitudes.",
+      "counterinterpretation": "A public role can be supported in principle while disagreement remains over federalism, eligibility, financing, or delivery.",
+      "source_url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2026/",
+      "retrieval_hash": "sha256:7e32de56aa9cdbe96ca60f8bc2fcaf02263cb0ec3f724188179be986a3c6374b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-june-2026/", "claim": "PPIC prior survey provides time-trend context for affordability and public judgment."},
+    {"source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/august2026", "claim": "ONS public-opinion evidence provides a complementary cross-national cost, climate, and public-services comparison."}
+  ],
+  "boundary": "This record adds a California state-level route from affordability, housing, health-care access, and economic expectations through electoral judgment and trust in government. It uses aggregate survey findings, not respondent-level data, causal policy effects, a forecast of election outcomes, or a universal U.S. estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official PPIC publication page was reviewed for field dates, sample, affordability importance, price hardship, housing strain, state and federal trust, economic expectations, health-care affordability, subgroup patterns, and methods.",
+    "source_url_sha256": "sha256:7e32de56aa9cdbe96ca60f8bc2fcaf02263cb0ec3f724188179be986a3c6374b",
+    "checked": "2026-09-26"
+  }
+}

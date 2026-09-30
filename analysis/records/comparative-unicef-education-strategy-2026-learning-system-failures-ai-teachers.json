@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-education-strategy-2026-learning-system-failures-ai-teachers",
+  "title": "Education policy is being reframed as a whole-system infrastructure problem linking learning, teachers, AI, crisis continuity, and future work",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "infrastructure_technology_dependency", "unequal_exposure_status", "care_health_reproduction", "work_control_bargaining", "political_judgment_action", "trust_identity_meaning"],
+  "source_unit": "UNICEF Education Strategy 2026: Shaping the Future of Learning, published September 2026",
+  "geography": "Global UNICEF education strategy for support to governments, with country, humanitarian, and development-system implementation contexts",
+  "observations": [
+    {
+      "period": "2026–2029; UNICEF education strategy targets",
+      "denominator": {"value": 350000000, "unit": "children and young people targeted to be learning and acquiring skills by 2030", "value_type": "reported_strategy_target"},
+      "measures": {
+        "learning_and_skills_target": {"value": 350000000, "unit": "children and young people", "value_type": "reported_strategy_target"},
+        "school_target": {"value": 200000000, "unit": "additional children and adolescents targeted to be in school, including 100 million girls and 15 million children with disabilities", "value_type": "reported_strategy_target"},
+        "proficiency_target": {"value": 120000000, "unit": "additional children targeted to achieve minimum learning proficiency, including 60 million girls", "value_type": "reported_strategy_target"},
+        "skills_target": {"value": 160000000, "unit": "additional young people targeted to acquire skills for work and life, including 80 million adolescent girls and young women", "value_type": "reported_strategy_target"}
+      },
+      "method": "UNICEF global strategy and Strategic Plan 2026–2029 target framework; targets are organizational intentions, not achieved outcomes or a population evaluation.",
+      "uncertainty": "The strategy does not establish baseline comparability, country-level financing, implementation capacity, attribution, or whether targets will be met with equivalent learning quality and equity.",
+      "subgroup": "Children and adolescents, girls, children with disabilities, young women, children in crisis, governments, teachers, families, and education partners.",
+      "counterinterpretation": "Large numerical targets can prioritize measurable reach while obscuring learning quality, teacher burden, unequal implementation, or the lived experience of children who are nominally enrolled.",
+      "source_url": "https://www.unicef.org/reports/education-strategy",
+      "retrieval_hash": "sha256:9b757ae39248447c50e2d0f7aef562167dd3bda143dbb8a3011c233a04a4be48",
+      "status": "reported"
+    },
+    {
+      "period": "2026; global learning-system failure frame",
+      "denominator": {"value": 100, "unit": "percent of children or relevant child population in UNICEF's global strategy framing", "value_type": "reported_global_frame"},
+      "measures": {
+        "early_development": {"value": 75, "unit": "percent of children described as developmentally on track at age 5", "value_type": "reported_global_share"},
+        "life_and_work_skills": {"value": 25, "unit": "percent of 18-year-olds described as having required skills for life and work", "value_type": "reported_global_share"},
+        "out_of_school": {"value": 273000000, "unit": "primary and secondary school-age children described as out of school", "value_type": "reported_global_count"},
+        "early_learning_exclusion": {"value": 29000000, "unit": "5-year-olds described as excluded from organized early learning", "value_type": "reported_global_count"}
+      },
+      "method": "UNICEF strategy synthesis of global learning-crisis evidence and three interrelated failures: learning denied, delayed, and disrupted.",
+      "uncertainty": "The strategy's global figures draw on cited sources and broad definitions; they do not form a single harmonized dataset or establish causal effects of specific education systems.",
+      "subgroup": "Children by age, gender, disability, poverty, language, migration, displacement, climate exposure, and conflict context; teachers and households supporting learning.",
+      "counterinterpretation": "Global aggregates can conceal countries and communities with strong learning outcomes, and “skills for life and work” is broader and less standardized than a single assessment measure.",
+      "source_url": "https://www.unicef.org/media/184236/file/Education-Strategy_2026_DIGITAL%20(final).pdf.pdf",
+      "retrieval_hash": "sha256:9b757ae39248447c50e2d0f7aef562167dd3bda143dbb8a3011c233a04a4be48",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; disruption, crisis, and compounding inequality route",
+      "denominator": {"value": 1, "unit": "UNICEF learning-disruption and exclusion pathway", "value_type": "reported_system_pathway"},
+      "measures": {
+        "climate_disruption": {"value": 250000000, "unit": "school-age children and adolescents whose education was described as upended by climate impacts in 2024, approximately", "value_type": "reported_global_count"},
+        "crisis_need": {"value": 234000000, "unit": "school-age children and adolescents in crisis settings described as requiring urgent education support", "value_type": "reported_global_count"},
+        "compounding_risk": {"value": "poverty, gender norms, ethnolinguistic disadvantage, migration, refugee movement, climate and environmental degradation, and humanitarian crises combine with learning gaps", "unit": "reported risk mechanism", "value_type": "reported_compounding_mechanism"},
+        "downstream_risk": {"value": "learning disruption and delay can increase risks of dropout, early marriage, unsafe migration, child labour, and unprotected informal work", "unit": "reported downstream pathway", "value_type": "reported_downstream_mechanism"}
+      },
+      "method": "UNICEF strategy's systems analysis of learning denied, delayed, and disrupted, with equity and life-course implications.",
+      "uncertainty": "The strategy describes plausible and evidence-informed pathways but does not estimate a single causal effect from disruption to each downstream outcome or distinguish all overlapping populations.",
+      "subgroup": "Girls, children with disabilities, displaced children, children in climate hotspots or conflict settings, poor households, migrant families, and adolescents at transition points.",
+      "counterinterpretation": "Education continuity can be protective, but schooling alone may not prevent early marriage, unsafe migration, child labour, or informal work where household income, safety, legal status, and care systems remain constrained.",
+      "source_url": "https://www.unicef.org/media/184236/file/Education-Strategy_2026_DIGITAL%20(final).pdf.pdf",
+      "retrieval_hash": "sha256:9b757ae39248447c50e2d0f7aef562167dd3bda143dbb8a3011c233a04a4be48",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; teacher-system and responsible technology route",
+      "denominator": {"value": 1, "unit": "UNICEF proposed reform architecture for teachers, AI, and education technology", "value_type": "reported_strategy_architecture"},
+      "measures": {
+        "teacher_condition": {"value": "teacher status and working conditions have eroded, deployment is inequitable, and accountability systems are weak or absent", "unit": "reported system condition", "value_type": "reported_teacher_condition"},
+        "teacher_reform": {"value": "continuous professional development, professionalization, equitable data-driven deployment, meaningful accountability, and crisis support are proposed as connected dimensions", "unit": "reported reform set", "value_type": "reported_reform_architecture"},
+        "technology_promise": {"value": "AI and EdTech could support teachers, personalize learning, monitor progress, and expand access when adapted to context", "unit": "reported potential mechanism", "value_type": "reported_technology_potential"},
+        "technology_risk": {"value": "models trained on limited languages and contexts may reinforce inequality where connectivity, electricity, and digital infrastructure are weak", "unit": "reported risk mechanism", "value_type": "reported_technology_risk"}
+      },
+      "method": "UNICEF strategy proposal linking teacher workforce reform, responsible AI/EdTech, system data, and equity.",
+      "uncertainty": "These are strategic proposals and risk assessments, not evidence that UNICEF's reforms or AI/EdTech interventions improve learning at scale.",
+      "subgroup": "Teachers, community and volunteer educators, children in low-resource or crisis settings, learners with disabilities, language minorities, education ministries, technology providers, and families.",
+      "counterinterpretation": "Digital tools can widen access and reduce teacher workload in some contexts, but they can also intensify surveillance, deskill teachers, shift costs to families, or fail where electricity and maintenance are unreliable.",
+      "source_url": "https://www.unicef.org/media/184236/file/Education-Strategy_2026_DIGITAL%20(final).pdf.pdf",
+      "retrieval_hash": "sha256:9b757ae39248447c50e2d0f7aef562167dd3bda143dbb8a3011c233a04a4be48",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/reports/learning-interrupted", "claim": "UNICEF global snapshot on climate-related school disruptions in 2025."},
+    {"source_url": "https://www.unicef.org/reports/unicef-strategic-plan-2026-2029", "claim": "UNICEF Strategic Plan 2026–2029 context for the education strategy."}
+  ],
+  "boundary": "This record adds a whole-system education route linking learning outcomes, teacher conditions, AI and EdTech, crisis continuity, disability, gender, climate, migration, household vulnerability, and future work. It records UNICEF's strategy, targets, and global evidence frame, not achieved target results, causal effects, harmonized country data, or proof that technology improves learning.",
+  "retrieval_hash": "sha256:9b757ae39248447c50e2d0f7aef562167dd3bda143dbb8a3011c233a04a4be48"
+}

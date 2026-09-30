@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-household-environmental-practices-dwelling-context-2026",
+  "title": "Household environmental behavior is shaped by dwelling, tenure, proximity, nature contact, and region—not only environmental attitudes or income",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Statistics Canada, Understanding factors shaping household environmental practices and behaviours in Canada",
+  "geography": "Canada; analysis of the 2021 Households and the Environment Survey",
+  "observations": [
+    {
+      "period": "2021 survey data; publication September 23, 2026; kitchen-waste composting",
+      "denominator": {"value": null, "unit": "Canadian households in the 2021 Households and the Environment Survey; article summary does not state an analytic sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "overall_composting": {"value": 65, "unit": "percent of households reporting composting kitchen waste", "value_type": "reported_share"},
+        "apartment_composting": {"value": 48.5, "unit": "percent of households in apartments or flats reporting kitchen-waste composting", "value_type": "reported_share"},
+        "single_detached_composting": {"value": 71.9, "unit": "percent of households in single-detached dwellings reporting kitchen-waste composting", "value_type": "reported_share"},
+        "renter_composting": {"value": 50.8, "unit": "percent of renter households reporting kitchen-waste composting", "value_type": "reported_share"},
+        "owner_composting": {"value": 70.2, "unit": "percent of owner households reporting kitchen-waste composting", "value_type": "reported_share"},
+        "dwelling_conversion": {"value": "Residential context was more strongly associated with composting than sociodemographic characteristics alone in adjusted models", "unit": "reported multivariate pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Statistics Canada analysis of 2021 Households and the Environment Survey data, comparing dwelling, tenure, sociodemographic, nature-interaction, and geographic characteristics with multivariate adjustment.",
+      "uncertainty": "The article reports associations from cross-sectional survey data and does not establish whether dwelling form, service availability, household selection, or local norms causes composting differences.",
+      "subgroup": "Canadian households by dwelling type, tenure, length of residence, household characteristics, province, and population-area size.",
+      "counterinterpretation": "Dwelling type may proxy for municipal collection service, storage space, household composition, income, or neighbourhood selection rather than directly causing behavior.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00003-eng.htm",
+      "retrieval_hash": "sha256:ae85cc920ac9c97da201237a0a6d52385f14aebd47eb74c0657bef111b58082f",
+      "status": "reported"
+    },
+    {
+      "period": "2021 survey data; kitchen-waste composting and proximity to nature",
+      "denominator": {"value": null, "unit": "Canadian households in the 2021 Households and the Environment Survey; analytic sample not disclosed in article summary", "value_type": "not_disclosed"},
+      "measures": {
+        "nearby_green_space_visit": {"value": 67.6, "unit": "percent composting among households with access to nearby parks or greenspaces who visited them", "value_type": "reported_share"},
+        "no_nearby_green_space_access": {"value": 55.9, "unit": "percent composting among households reporting no access to nearby parks or greenspaces", "value_type": "reported_share"},
+        "plant_growing": {"value": 72.6, "unit": "percent composting among households growing vegetables, herbs, fruits, flowers, or plants for personal use", "value_type": "reported_share"},
+        "no_plant_growing": {"value": 53.0, "unit": "percent composting among households not growing plants for personal use", "value_type": "reported_share"},
+        "nature_practice_link": {"value": "Interaction with nearby nature and household cultivation are associated with higher composting participation", "unit": "reported adjusted pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional comparison and adjusted models linking household environmental practices with parks, greenspaces, outdoor activity, and personal cultivation.",
+      "uncertainty": "Nature interaction may reflect housing, community, values, service access, or self-selection; the study does not identify a causal pathway from parks to composting.",
+      "subgroup": "Canadian households with differing access to nearby greenspace, outdoor activity, gardening, dwelling conditions, and regional context.",
+      "counterinterpretation": "Composting and nature contact may be jointly produced by local infrastructure or household environmental orientation rather than one causing the other.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00003-eng.htm",
+      "retrieval_hash": "sha256:ae85cc920ac9c97da201237a0a6d52385f14aebd47eb74c0657bef111b58082f",
+      "status": "reported"
+    },
+    {
+      "period": "2021 survey data; controlled hazardous-waste disposal",
+      "denominator": {"value": null, "unit": "Canadian households reporting hazardous waste in the prior 12 months; article summary does not state analytic sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "households_with_hazardous_waste": {"value": 80, "unit": "percent of households with hazardous waste to dispose of in the prior 12 months", "value_type": "reported_share"},
+        "controlled_disposal_general": {"value": 75, "unit": "approximately percent of households using controlled disposal methods across hazardous-waste categories", "value_type": "reported_share"},
+        "e_waste_adults_only": {"value": 54.1, "unit": "percent of adults-only households using controlled e-waste disposal", "value_type": "reported_share"},
+        "e_waste_seniors_only": {"value": 66.8, "unit": "percent of senior-only households using controlled e-waste disposal", "value_type": "reported_share"},
+        "e_waste_single_detached": {"value": 61.6, "unit": "percent of single-detached households using controlled e-waste disposal", "value_type": "reported_share"},
+        "e_waste_apartment": {"value": 48.9, "unit": "percent of apartment or flat households using controlled e-waste disposal", "value_type": "reported_share"},
+        "disposal_infrastructure": {"value": "Controlled disposal varies with household composition and dwelling context, indicating that environmental behavior depends on usable disposal routes", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Statistics Canada analysis of reported hazardous materials and controlled disposal, including return-to-supplier, depot, drop-off, pharmacy, or medical-sharps programs.",
+      "uncertainty": "The study measures self-reported disposal practices and does not audit waste streams, municipal capacity, contamination, or environmental outcomes.",
+      "subgroup": "Households by composition, education, dwelling type, tenure duration, region, and census-metropolitan-area size.",
+      "counterinterpretation": "Household composition and dwelling differences may reflect age, health, waste types, service access, or knowledge rather than willingness or environmental values alone.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00003-eng.htm",
+      "retrieval_hash": "sha256:ae85cc920ac9c97da201237a0a6d52385f14aebd47eb74c0657bef111b58082f",
+      "status": "reported"
+    },
+    {
+      "period": "2021 survey data; geographic and settlement-scale variation",
+      "denominator": {"value": null, "unit": "Canadian households in the 2021 Households and the Environment Survey; provincial and census-area comparisons", "value_type": "not_disclosed"},
+      "measures": {
+        "prince_edward_island_composting": {"value": 95.7, "unit": "percent of households reporting kitchen-waste composting", "value_type": "reported_share"},
+        "nova_scotia_composting": {"value": 91.5, "unit": "percent of households reporting kitchen-waste composting", "value_type": "reported_share"},
+        "newfoundland_labrador_composting": {"value": 28.3, "unit": "percent of households reporting kitchen-waste composting", "value_type": "reported_share"},
+        "large_cma_composting": {"value": 75.4, "unit": "percent of households in large census metropolitan areas reporting kitchen-waste composting", "value_type": "reported_share"},
+        "small_urban_composting": {"value": 53.2, "unit": "percent of households in small urban areas reporting kitchen-waste composting", "value_type": "reported_share"},
+        "place_behavior_gap": {"value": "Environmental household practices vary sharply by province and settlement scale, beyond a simple individual-attitude explanation", "unit": "reported geographic pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive and adjusted geographic comparisons across Canadian provinces and census-metropolitan-area categories.",
+      "uncertainty": "Geographic differences combine service infrastructure, policy, housing, climate, culture, household composition, and selection; the report does not decompose these causes into a single estimate.",
+      "subgroup": "Canadian households in provinces, large/medium/small CMAs, small urban areas, and non-urban areas.",
+      "counterinterpretation": "High or low provincial rates may reflect waste-collection systems or survey reporting differences rather than durable cultural norms.",
+      "source_url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026009/article/00003-eng.htm",
+      "retrieval_hash": "sha256:ae85cc920ac9c97da201237a0a6d52385f14aebd47eb74c0657bef111b58082f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/en/catalogue/36280001", "claim": "Statistics Canada Economic and Social Reports series and September 2026 issue context.", "status": "official-series"},
+    {"source_url": "https://www.statcan.gc.ca/en/survey/household/3881", "claim": "Households and the Environment Survey programme context.", "status": "official-survey-context"}
+  ],
+  "boundary": "This record adds a household-environmental behavior layer: housing form, tenure, residence duration, nearby nature, settlement scale, and disposal infrastructure condition composting and hazardous-waste practices. It uses 2021 Canadian survey data published in 2026; it is not a current causal experiment, a measure of environmental attitudes alone, an audited waste-flow estimate, or proof that household behavior produces environmental outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Statistics Canada article reviewed for release date, 2021 HES frame, composting, dwelling/tenure, nature interaction, hazardous-waste disposal, and geographic estimates.",
+    "source_page_sha256": "sha256:ae85cc920ac9c97da201237a0a6d52385f14aebd47eb74c0657bef111b58082f",
+    "checked": "2026-09-28"
+  }
+}

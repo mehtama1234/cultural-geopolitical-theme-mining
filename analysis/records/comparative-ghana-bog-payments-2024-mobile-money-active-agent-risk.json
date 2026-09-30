@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ghana-bog-payments-2024-mobile-money-active-agent-risk",
+  "title": "Ghana’s mobile-money system is scaling rapidly while active-agent capacity and oversight remain critical constraints",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "Bank of Ghana, Payment Systems Oversight Annual Report 2024",
+  "geography": "Ghana; national payment-system and fintech administrative indicators, with mobile-money, banking-channel, agent, licensing, financial-inclusion, and oversight dimensions",
+  "observations": [
+    {
+      "period": "2023–2024; mobile-money transaction scale",
+      "denominator": {
+        "value": null,
+        "unit": "Bank of Ghana administrative payment-system reporting; transaction counts and values are system totals, not unique-person consumer observations",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "mobile_money_transaction_value_2024": {"value": 3010, "unit": "Ghana cedi billions in mobile-money transaction value in 2024", "value_type": "official_system_total"},
+        "mobile_money_transaction_value_2023": {"value": 1920, "unit": "Ghana cedi billions in mobile-money transaction value in 2023", "value_type": "official_system_total"},
+        "mobile_money_transaction_value_growth": {"value": 56.8, "unit": "percent growth in mobile-money transaction value from 2023 to 2024", "value_type": "official_system_growth"},
+        "mobile_money_transaction_volume_2024": {"value": 8.1, "unit": "billion mobile-money transactions in 2024", "value_type": "official_system_total"},
+        "mobile_money_transaction_volume_growth": {"value": 18.9, "unit": "percent growth in mobile-money transaction volume from 2023 to 2024", "value_type": "official_system_growth"},
+        "internet_banking_value_growth": {"value": 114.9, "unit": "percent growth in internet-banking transaction value from 2023 to 2024", "value_type": "official_system_growth"},
+        "mobile_banking_value_growth": {"value": 104.7, "unit": "percent growth in mobile-banking transaction value from 2023 to 2024", "value_type": "official_system_growth"},
+        "mechanism": {"value": "Ghana’s payment infrastructure is becoming a high-frequency consumer and household-service layer, with mobile money carrying many low-value transactions while bank and instant-payment channels grow in value faster", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bank of Ghana administrative system totals and year-on-year comparisons for mobile money, internet banking, and mobile banking transactions.",
+      "uncertainty": "Administrative transactions are not unique users, household purchases, cultural consumption, or welfare; values may include transfers, cash-in/cash-out, business activity, and repeated transactions.",
+      "subgroup": "Ghanaian payment-system users and institutions represented in national administrative reporting.",
+      "counterinterpretation": "Transaction growth may reflect inflation, repeat use, transfers, business flows, or system reclassification rather than equivalent growth in consumer purchasing power or inclusion.",
+      "source_url": "https://www.bog.gov.gh/wp-content/uploads/2025/12/Payment-Systems-Annual-Report-2024-1.pdf",
+      "retrieval_hash": "sha256:8e8af257508726ea54b239c2b37ba99037120ea9c34832a6c4d48f2b952aced3",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2024; mobile-money customer and agent activity",
+      "denominator": {
+        "value": null,
+        "unit": "Bank of Ghana mobile-money ecosystem indicators; registered customers are cumulative accounts, active customers transacted within the prior 90 days, and active agents transacted within the prior 30 days",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "registered_mobile_money_customers_2024": {"value": 72.981, "unit": "million cumulative registered mobile-money customers at end-2024", "value_type": "official_system_count"},
+        "active_mobile_money_customers_2024": {"value": 23.486, "unit": "million mobile-money customers active under the report’s 90-day definition at end-2024", "value_type": "official_system_count"},
+        "active_customer_share_of_registered": {"value": 32.2, "unit": "percent, calculated as active customers divided by registered customers; not a unique-person activation rate", "value_type": "derived_system_ratio"},
+        "registered_agents_2023": {"value": 817, "unit": "thousand cumulative registered mobile-money agents at end-2023", "value_type": "official_system_count"},
+        "active_agents_2023": {"value": 609, "unit": "thousand active mobile-money agents at end-2023", "value_type": "official_system_count"},
+        "active_agents_2024": {"value": 404, "unit": "thousand active mobile-money agents at end-2024", "value_type": "official_system_count"},
+        "active_agent_change": {"value": -33.6, "unit": "percent change in active agents from 2023 to 2024, associated by the report with platform clean-up of fraudulent agents", "value_type": "official_system_change"},
+        "mechanism": {"value": "The payment network’s usable capacity depends on active customers and active cash-in/cash-out agents, not registered accounts alone; fraud clean-up can improve integrity while temporarily reducing local transaction access", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bank of Ghana DEMI/mobile-money administrative indicators; active-customer and active-agent definitions are the report’s 90-day and 30-day activity windows, respectively.",
+      "uncertainty": "Registered accounts and agents can include duplicates, dormant entities, or multiple accounts; the active-agent decline is associated with a clean-up exercise but does not identify local service effects or customer harm.",
+      "subgroup": "Ghanaian mobile-money customers and agents in the regulated ecosystem.",
+      "counterinterpretation": "Removing fraudulent agents may improve trust and security even if the short-term active-agent count falls; low active/registered ratios do not directly measure dissatisfaction or exclusion.",
+      "source_url": "https://www.bog.gov.gh/wp-content/uploads/2025/12/Payment-Systems-Annual-Report-2024-1.pdf",
+      "retrieval_hash": "sha256:8e8af257508726ea54b239c2b37ba99037120ea9c34832a6c4d48f2b952aced3",
+      "status": "reported"
+    },
+    {
+      "period": "2024; financial inclusion and oversight response",
+      "denominator": {
+        "value": null,
+        "unit": "Bank of Ghana annual-report policy and oversight indicators; financial-access figure is a reported population access estimate, while licences and sanctions are institutional counts",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "financial_access_2021": {"value": 96, "unit": "percent of the population reported as having access to financial services in the Bank’s 2021 milestone statement", "value_type": "official_population_access_estimate"},
+        "licensed_fintechs_2023": {"value": 53, "unit": "licensed fintech companies at end-2023", "value_type": "official_institution_count"},
+        "licensed_fintechs_2024": {"value": 57, "unit": "licensed fintech companies at end-2024", "value_type": "official_institution_count"},
+        "fintech_license_growth": {"value": 7.5, "unit": "percent growth in licensed fintech companies from 2023 to 2024", "value_type": "official_institution_growth"},
+        "licensed_psps_fined": {"value": 5, "unit": "licensed payment service providers fined during 2024 investigations", "value_type": "official_oversight_count"},
+        "approved_digital_microloan_products": {"value": 8, "unit": "digital micro-loan applications/products approved in 2024, compared with 1 in 2023", "value_type": "official_authorization_count"},
+        "mechanism": {"value": "Financial inclusion is jointly produced by access, active use, product authorization, agent integrity, consumer education, and enforcement; high headline access can coexist with an expanding risk-and-remedy workload", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Bank of Ghana annual-report administrative and policy indicators; the access estimate, licensing counts, approvals, and sanctions are not a single survey denominator and are intentionally kept distinct.",
+      "uncertainty": "The report’s access milestone is not equivalent to active usage, quality, affordability, consumer protection, or financial health; institutional counts do not measure outcomes for end users.",
+      "subgroup": "Ghanaian financial-service users, fintechs, PSPs, agents, and underserved populations addressed by the Bank’s inclusion interventions.",
+      "counterinterpretation": "More licences and sanctions can indicate stronger regulatory capacity rather than more underlying harm; digital lending approvals may expand useful access or increase future consumer risk depending on product conduct.",
+      "source_url": "https://www.bog.gov.gh/wp-content/uploads/2025/12/Payment-Systems-Annual-Report-2024-1.pdf",
+      "retrieval_hash": "sha256:8e8af257508726ea54b239c2b37ba99037120ea9c34832a6c4d48f2b952aced3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bog.gov.gh/news/payment-systems-oversight-annual-report-2024/",
+      "claim": "Bank of Ghana official landing page for the Payment Systems Oversight Annual Report 2024.",
+      "status": "official-report-page"
+    },
+    {
+      "source_url": "https://www.bog.gov.gh/wp-content/uploads/2026/08/Payment-Systems-Annual-Report-2025-1.pdf",
+      "claim": "Bank of Ghana 2025 annual report retained as a future continuity source, not used for the 2024 observations in this record.",
+      "status": "official-follow-up-source"
+    }
+  ],
+  "boundary": "This record adds a Ghana administrative payment-system, agent-integrity, fintech-oversight, and financial-inclusion layer to the cultural, social, and consumer atlas. It does not establish unique-person use, household welfare, causal inclusion, consumer harm, cultural consumption, or the effect of sanctions and licensing on outcomes.",
+  "retrieval_hash": "sha256:8e8af257508726ea54b239c2b37ba99037120ea9c34832a6c4d48f2b952aced3",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Bank of Ghana 45-page Payment Systems Oversight Annual Report 2024 reviewed; mobile-money system totals, registered/active customer and agent definitions, banking-channel growth, licensed fintechs, sanctions, financial-access milestone, and financial-inclusion caveats checked.",
+    "report_pdf_sha256": "sha256:77e9d3827e98959d1d9b83ef759572379b44fd2925025add2d093d4861b65630",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-arts-production-local-opportunity-2026",
+  "title": "Recent personal art-making is age-patterned while perceived local cultural opportunity is income-patterned",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Census Bureau Household Trends and Outlook Pulse Survey, July 2026 topical tables 2607; arts production and local opportunity tables",
+  "geography": "United States; adults age 18 and older living in housing units",
+  "observations": [
+    {
+      "period": "July 15-August 3, 2026; personal art creation, practice, or performance during the prior four weeks",
+      "denominator": {"value": 261534494, "unit": "estimated U.S. civilian population age 18 and older in the published weighted-count table; total row", "value_type": "weighted_population_estimate"},
+      "measures": {
+        "personal_art_total": {"value": 17.9, "unit": "percent creating, practicing, or performing personal art in the last four weeks, calculated among reported responses", "value_type": "calculated_share_from_published_counts"},
+        "personal_art_age_18_34": {"value": 26.2, "unit": "percent among adults ages 18-34, calculated among reported responses", "value_type": "calculated_share_from_published_counts"},
+        "personal_art_age_65_plus": {"value": 13.8, "unit": "percent among adults age 65 and older, calculated among reported responses", "value_type": "calculated_share_from_published_counts"},
+        "age_gradient": {"value": 12.4, "unit": "percentage-point gap between ages 18-34 and 65+, calculated from published weighted counts", "value_type": "calculated_difference_from_published_counts"},
+        "mechanism": {"value": "Personal cultural production is not distributed like recent attendance alone: the four-week practice/creation measure is higher among younger adults, leaving an open route through time, life stage, work, care, venue, digital tools, and informal cultural production", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 Arts Table 2. Percentages are calculated from published weighted counts, excluding the did-not-report category from each denominator.",
+      "uncertainty": "HTOPS is an experimental cross-sectional product. Personal art includes creation, practice, or performance in a four-week recall window; the age difference is descriptive and does not identify causal effects of age, time, work, care, health, technology, or cultural preference.",
+      "subgroup": "U.S. adults age 18 and older by age group.",
+      "counterinterpretation": "The result may reflect life stage, available time, survey interpretation, health, household composition, or different forms of cultural practice; it is not a measure of artistic quality, professional creative work, or total annual participation.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts2.xlsx",
+      "retrieval_hash": "sha256:9749dc922f17a5c2e8ca1e7a847bdf76390022b34dd57fd84b642199c4261cc4",
+      "status": "reported"
+    },
+    {
+      "period": "July 15-August 3, 2026; perceived neighborhood or community arts and cultural opportunities",
+      "denominator": {"value": 261534494, "unit": "estimated U.S. civilian population age 18 and older in the published weighted-count table; total row", "value_type": "weighted_population_estimate"},
+      "measures": {
+        "plenty_local_arts_opportunities_total": {"value": 71.3, "unit": "percent agreeing or strongly agreeing that there are plenty of opportunities to take part in arts and cultural activities locally, calculated among reported responses", "value_type": "calculated_share_from_published_counts"},
+        "plenty_local_arts_opportunities_under_35000": {"value": 59.6, "unit": "percent among adults in households with income below $35,000, calculated among reported responses", "value_type": "calculated_share_from_published_counts"},
+        "plenty_local_arts_opportunities_150000_plus": {"value": 82.5, "unit": "percent among adults in households with income of $150,000 or more, calculated among reported responses", "value_type": "calculated_share_from_published_counts"},
+        "income_gradient": {"value": 22.9, "unit": "percentage-point gap between the highest and lowest published household-income groups", "value_type": "calculated_difference_from_published_counts"},
+        "mechanism": {"value": "Local cultural supply is experienced through unequal conversion capacity: the income gradient may reflect geography, transport, price, time, information, safety, disability access, household resources, or differences in expectations and recognition of what counts as an opportunity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 Arts Table 3. The positive share combines strongly agree and agree; percentages are calculated from published weighted counts after excluding did-not-report responses.",
+      "uncertainty": "This is perceived local opportunity, not a venue census, attendance measure, or objective supply estimate. The income gradient is cross-sectional and cannot identify whether price, transport, supply, information, safety, accessibility, preference, or selection explains the difference.",
+      "subgroup": "U.S. adults age 18 and older by household-income category.",
+      "counterinterpretation": "Higher-income respondents may live in places with different cultural supply or may define opportunities differently; lower reported opportunity does not prove cultural absence, and local opportunity does not establish affordability, welcome, or actual participation.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts3.xlsx",
+      "retrieval_hash": "sha256:eb66b4442d432f1c2d0433301147b14b582a863ada14a3f37932164ea81d8eb2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cdn.www.census.gov/data/tables/2026/demo/hhp/2607.html", "claim": "Official July 2026 HTOPS table index, release date, arts-table links, and topical scope."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_2607_Source_and_Accuracy.pdf", "claim": "HTOPS July 2026 sample design, 12,755 respondents, weighting, cross-sectional design, response rates, and experimental-data caveats."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts2.xlsx", "claim": "Personal art creation, practice, or performance by age and other characteristics."},
+    {"source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts3.xlsx", "claim": "Perceived neighborhood or community arts and cultural opportunities by household income and other characteristics."}
+  ],
+  "boundary": "This record adds a same-instrument descriptive bridge between cultural production, perceived local cultural supply, age, and household income. It uses experimental cross-sectional HTOPS weighted counts and does not establish causal age or income effects, objective venue supply, affordability, cultural quality, belonging, or longitudinal change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census HTOPS July 2026 table index, source-and-accuracy statement, Arts Table 2, and Arts Table 3 retrieved; weighted total rows, age and income rows, category definitions, and missing-report treatment reviewed.",
+    "html_sha256": "sha256:83a43a5bfb8b3b2db803740172126758576792a4c719e145e6e3f9627e109290",
+    "source_accuracy_pdf_sha256": "sha256:5b17eb1e2b01fe59eb434366a257da979be01c651be14b23f55d83747c644360",
+    "table_hashes": {
+      "arts2": "sha256:9749dc922f17a5c2e8ca1e7a847bdf76390022b34dd57fd84b642199c4261cc4",
+      "arts3": "sha256:eb66b4442d432f1c2d0433301147b14b582a863ada14a3f37932164ea81d8eb2"
+    },
+    "checked": "2026-09-30"
+  }
+}

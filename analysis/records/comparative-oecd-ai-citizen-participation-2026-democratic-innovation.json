@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-ai-citizen-participation-2026-democratic-innovation",
+  "title": "AI can widen the scale and accessibility of citizen participation while introducing new exclusion, civic-space, trust, and vendor-dependence risks",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD, Artificial Intelligence and the Future of Citizen Participation: Typology of Applications, Opportunities and Challenges for Democratic Innovation",
+  "geography": "OECD member and partner countries; desk research and 50 AI citizen-participation use cases across 22 countries",
+  "observations": [
+    {
+      "period": "2026; AI applications in citizen-participation processes",
+      "denominator": {"value": 50, "unit": "AI use cases in citizen-participation processes reviewed by OECD across 22 OECD member and partner countries", "value_type": "comparative_case_review_count"},
+      "measures": {
+        "application_types": {"value": 9, "unit": "typology categories: information development, sense-making, translation, transcription, virtual assistance, moderation, facilitation, simulation, and architecture", "value_type": "reported_typology_count"},
+        "dominant_experiments": {"value": "AI-powered sense-making, virtual assistance, and translation are the most widespread application types in the reviewed cases", "unit": "reported pattern across use cases", "value_type": "reported_pattern"},
+        "deliberative_experiment": {"value": "deliberative processes are a prominent field of experimentation, including live facilitation and attempts to enable deliberation at scale", "unit": "reported use-case pattern", "value_type": "reported_pattern"},
+        "participation_route": {"value": "AI can improve process design and accessibility, support implementation and interpretation at scale, communicate participation more broadly, and reduce process costs", "unit": "reported opportunity set", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD desk research and comparative analysis of 50 real-world AI use cases in citizen participation, organized into a nine-part application typology.",
+      "uncertainty": "The use-case review describes emerging practice rather than population prevalence, causal effects on participation, or proof that AI-generated summaries or assistance improve policy quality or representativeness.",
+      "subgroup": "Citizens, civil-society organizations, public officials, deliberative-process facilitators, local governments, national governments, language minorities, and people with different digital access and literacy.",
+      "counterinterpretation": "Digital or AI tools may reduce friction for some participants but can add complexity, depersonalize deliberation, or shift attention toward what systems can classify rather than what communities value.",
+      "source_url": "https://doi.org/10.1787/a1ee2e0a-en",
+      "retrieval_hash": "sha256:f12944108df85efdbdd14b36add50a198af62b1ca90b4842757dc6a20cd32a78",
+      "status": "reported"
+    },
+    {
+      "period": "2026; government adoption and institutional scaling",
+      "denominator": {"value": 1, "unit": "OECD synthesis of AI adoption in citizen participation and open government", "value_type": "institutional_adoption_frame"},
+      "measures": {
+        "adoption_stage": {"value": "government use is mostly ad hoc or organized through pilots rather than systematised practice", "unit": "reported adoption pattern", "value_type": "reported_pattern"},
+        "local_lead": {"value": "local government is driving the emerging trend, while more national governments are developing coordinated strategies or tools", "unit": "reported institutional pattern", "value_type": "reported_pattern"},
+        "institutional_gap": {"value": "AI cannot by itself resolve the disconnection between participation processes and actual policy decision-making", "unit": "reported limitation", "value_type": "reported_limitation"},
+        "trust_route": {"value": "meaningful participation requires accountability for how input reaches decisions, not only more channels for submitting or processing input", "unit": "bounded democratic mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD synthesis of use-case evidence, prior government-AI research, and institutional conditions for meaningful participation.",
+      "uncertainty": "The report does not provide a comparable adoption rate for all governments or establish whether pilots scale, persist, or change final policy decisions.",
+      "subgroup": "Local and national administrations, elected officials, public managers, civil servants, participants in consultations or deliberative processes, and communities affected by policy decisions.",
+      "counterinterpretation": "Pilot status can reflect responsible experimentation in a fast-changing technology rather than failure; small-scale trials may generate learning before institutionalization.",
+      "source_url": "https://doi.org/10.1787/a1ee2e0a-en",
+      "retrieval_hash": "sha256:f12944108df85efdbdd14b36add50a198af62b1ca90b4842757dc6a20cd32a78",
+      "status": "reported"
+    },
+    {
+      "period": "2026; risks and implementation challenges of AI-enabled participation",
+      "denominator": {"value": 1, "unit": "OECD risk and implementation framework for AI in citizen participation", "value_type": "risk_framework"},
+      "measures": {
+        "ethical_risks": {"value": "skewed data, limited transparency or explainability, misuse that undermines civic space, and degradation of participation or deliberation quality", "unit": "reported risk set", "value_type": "reported_risk_set"},
+        "operational_risks": {"value": "overreliance, hallucinations, privacy and data concerns, and cyber threats can reduce participation quality and erode trust", "unit": "reported risk set", "value_type": "reported_risk_set"},
+        "exclusion_risks": {"value": "digital, language, and societal divides can widen when participation relies on AI or digital tools", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "implementation_challenges": {"value": "skills and literacy gaps, inadequate investment, scaling problems, and vendor or data lock-in constrain responsible adoption", "unit": "reported challenge set", "value_type": "reported_challenge_set"}
+      },
+      "method": "OECD classification of ethical, operational, exclusion, public-resistance, inaction, organizational, and institutional risks based on the reviewed cases and government-AI framework.",
+      "uncertainty": "The categories identify plausible risks and observed implementation problems; they do not estimate the probability, severity, or distribution of each risk across countries or participant groups.",
+      "subgroup": "People with limited internet access, older people, isolated communities, language minorities, people with low AI literacy, civil-society groups, public officials, and vendors.",
+      "counterinterpretation": "Well-designed tools, human oversight, accessible interfaces, alternative participation channels, and strong privacy and procurement rules may reduce risks; risk is not an inevitable property of every AI use.",
+      "source_url": "https://doi.org/10.1787/a1ee2e0a-en",
+      "retrieval_hash": "sha256:f12944108df85efdbdd14b36add50a198af62b1ca90b4842757dc6a20cd32a78",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trustworthy adoption and democratic safeguards",
+      "denominator": {"value": 1, "unit": "OECD recommendations for fit-for-purpose AI tools in citizen participation", "value_type": "policy_safeguard_frame"},
+      "measures": {
+        "guardrails": {"value": "governments should use fair and transparent systems, protect democratic values and civic space, close data divides, and disclose AI use in participation", "unit": "reported safeguard route", "value_type": "reported_policy_route"},
+        "low_tech_alternatives": {"value": "low-tech or non-digital alternatives should remain available for people with limited digital access, alongside stronger AI literacy", "unit": "reported inclusion route", "value_type": "reported_policy_route"},
+        "citizen_governance": {"value": "citizens and stakeholders should help shape, evaluate, and govern AI systems used for participation", "unit": "reported democratic-governance route", "value_type": "reported_policy_route"},
+        "procurement_control": {"value": "interoperability, opt-out provisions, data ownership, and avoidance of vendor lock-in are recommended for public procurement", "unit": "reported implementation route", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD recommendations aligned with its Framework for Trustworthy AI in Government and the report's analysis of participation use cases and implementation barriers.",
+      "uncertainty": "Recommendations do not demonstrate implementation, compliance, or improved democratic outcomes; the appropriate balance between automation, human facilitation, privacy, and scale remains context-dependent.",
+      "subgroup": "Citizens, community organizations, civil servants, procurement officials, elected representatives, AI developers, civic-tech providers, and oversight bodies.",
+      "counterinterpretation": "Additional safeguards, alternative channels, and procurement constraints can raise cost or slow experimentation; the trade-off may be justified where participation legitimacy and civic rights are at stake.",
+      "source_url": "https://doi.org/10.1787/a1ee2e0a-en",
+      "retrieval_hash": "sha256:f12944108df85efdbdd14b36add50a198af62b1ca90b4842757dc6a20cd32a78",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en/full-report.html", "claim": "Complementary OECD digital-government context for AI adoption, institutional capability, and public-sector transformation."},
+    {"source_url": "https://www.oecd.org/en/publications/governing-with-artificial-intelligence_795de142-en.html", "claim": "Complementary OECD framework for trustworthy AI in government and cross-function risk management."}
+  ],
+  "boundary": "This record adds a technology-to-democracy route across AI-assisted participation design, interpretation, translation, facilitation, scale, civic space, exclusion, trust, skills, procurement, and vendor dependence. It uses OECD desk research and 50 public use cases, not respondent-level records, representative participation estimates, individual political histories, causal estimates of AI on turnout or trust, proof of policy influence, or evidence that every AI deployment has the same effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication and executive-summary material reviewed for the 50 use cases across 22 countries, nine application types, adoption stage, opportunity set, risk categories, implementation challenges, and recommended safeguards.",
+    "source_url_sha256": "sha256:f12944108df85efdbdd14b36add50a198af62b1ca90b4842757dc6a20cd32a78",
+    "checked": "2026-09-26"
+  }
+}

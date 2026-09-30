@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-philippines-forced-labour-trade-remedy-responsible-business-2026",
+  "title": "Forced-labour prevention is becoming a cross-border trade and remedy chain linking worker protection, institutions, firms, and import-market accountability",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "geopolitical_state_consequences", "public_systems_feedback", "consumer_power_recourse", "unequal_exposure_status", "infrastructure_technology_dependency"],
+  "source_unit": "ILO and Canada launch of Promoting responsive institutions and mechanisms to eliminate forced labour in the Philippines (PRIME PH), published 15 September 2026",
+  "geography": "Philippines, with trade and supply-chain links to Canada and ASEAN markets; agriculture, manufacturing, and mining are targeted sectors",
+  "observations": [
+    {
+      "period": "15 September 2026; launch of the four-year PRIME PH project",
+      "denominator": {"value": 1, "unit": "ILO–Canada project launch and institutional partnership", "value_type": "reported_project_launch"},
+      "measures": {
+        "project_duration": {"value": "PRIME PH is scheduled to run from February 2026 through February 2030", "unit": "reported project period", "value_type": "reported_project_status"},
+        "institutional_targets": {"value": "the project will work with the Philippine Government, workers’ and employers’ organizations, civil society, development partners, and other actors", "unit": "reported partner set", "value_type": "reported_partnership_frame"},
+        "targeted_sectors": {"value": "agriculture, manufacturing, and mining are identified as tradeable sectors relevant to forced-labour risk and export relationships", "unit": "reported sector set", "value_type": "reported_sector_scope"}
+      },
+      "method": "ILO news report of an official project launch and intended institutional activities; it documents programme architecture, not implementation or impact.",
+      "uncertainty": "The source does not establish project reach, case identification, enforcement results, victim protection, remedy, or changes in forced-labour incidence.",
+      "subgroup": "Workers in informal and export-linked sectors, migrants and vulnerable workers, employers, supply-chain firms, public labour institutions, civil society, and communities dependent on agriculture, manufacturing, and mining.",
+      "counterinterpretation": "A multi-actor project can strengthen coordination, but institutional partnership and launch commitments may not reach hidden worksites, subcontractors, informal workers, or workers afraid to report.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-and-canada-advance-action-against-forced-labour-philippines",
+      "retrieval_hash": "sha256:b595c17e17d42012012e27185df9bcecebb7fb229353808e89f0fe20ff89e2cd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; hidden forced-labour risk, informality, and tradeable sectors",
+      "denominator": {"value": 1, "unit": "ILO diagnosis of forced-labour risk in the Philippines", "value_type": "reported_problem_frame"},
+      "measures": {
+        "measurement_problem": {"value": "forced labour is often hidden, making it difficult to measure its true scale and identify workers needing protection", "unit": "reported detection gap", "value_type": "reported_measurement_gap"},
+        "risk_conditions": {"value": "informality, gaps in labour protection, and economic pressures heighten forced-labour risk", "unit": "reported risk mechanism set", "value_type": "reported_risk_diagnosis"},
+        "trade_link": {"value": "forced-labour risk in tradeable sectors has implications for businesses, supply chains, and market access", "unit": "reported trade mechanism", "value_type": "reported_supply_chain_mechanism"}
+      },
+      "method": "Institutional diagnosis in an ILO project-launch report; no prevalence survey, administrative case series, or worker-level sample is supplied.",
+      "uncertainty": "The source cannot estimate the scale, distribution, severity, or sectoral concentration of forced labour, nor distinguish detected cases from hidden exploitation.",
+      "subgroup": "Informal workers, subcontracted and migrant workers, workers in agriculture, manufacturing and mining, firms with complex supply chains, inspectors, and buyers in regulated markets.",
+      "counterinterpretation": "Trade scrutiny may improve incentives for due diligence, but it can also push risky production into less visible suppliers or exclude vulnerable workers and countries without improving their conditions.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-and-canada-advance-action-against-forced-labour-philippines",
+      "retrieval_hash": "sha256:b595c17e17d42012012e27185df9bcecebb7fb229353808e89f0fe20ff89e2cd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; responsive institutions, worker protection, access to justice, and remedy",
+      "denominator": {"value": 1, "unit": "PRIME PH intended results architecture", "value_type": "reported_project_framework"},
+      "measures": {
+        "institutional_strengthening": {"value": "the project aims to strengthen policies and institutions that prevent and address forced labour", "unit": "reported intervention route", "value_type": "reported_project_objective"},
+        "worker_protection": {"value": "the project aims to protect workers and improve access to justice and remedies", "unit": "reported intervention route", "value_type": "reported_remedy_objective"},
+        "standards_compliance": {"value": "the project aims to enhance compliance with international labour standards and promote responsible business conduct", "unit": "reported governance objective", "value_type": "reported_compliance_objective"},
+        "social_dialogue": {"value": "the initiative frames government, worker, employer, civil-society, and business cooperation as part of prevention and response", "unit": "reported governance model", "value_type": "reported_social_dialogue_model"}
+      },
+      "method": "Project design and public statements at launch; intended activities are not evidence of delivered services, cases resolved, or worker outcomes.",
+      "uncertainty": "The report does not specify complaint volumes, investigation standards, victim-centred protocols, compensation, legal aid reach, or institutional performance indicators.",
+      "subgroup": "Forced-labour victims and survivors, workers at risk, labour inspectors, prosecutors, courts, unions, employers, civil society, and local institutions.",
+      "counterinterpretation": "Stronger formal institutions can coexist with inaccessible remedy, retaliation risk, slow enforcement, or employer-led compliance that documents procedures without changing worker power.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-and-canada-advance-action-against-forced-labour-philippines",
+      "retrieval_hash": "sha256:b595c17e17d42012012e27185df9bcecebb7fb229353808e89f0fe20ff89e2cd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; forced-labour governance at the trade and import-market boundary",
+      "denominator": {"value": 1, "unit": "Philippines–Canada trade and labour-rights partnership frame", "value_type": "reported_trade_governance_frame"},
+      "measures": {
+        "canadian_import_rule": {"value": "Canada has prohibited since 2020 the import of goods mined, manufactured, or produced wholly or partly with forced labour and has introduced a new legislative framework to strengthen the import ban", "unit": "reported market-governance rule", "value_type": "reported_trade_rule"},
+        "trade_relationship": {"value": "the initiative is linked to strong Philippines–Canada trade relations and potential free-trade-agreement negotiations with Canada and ASEAN", "unit": "reported geopolitical context", "value_type": "reported_trade_context"},
+        "responsible_business": {"value": "worker rights are framed as relevant to fair competition, responsible business conduct, and lasting benefits for communities", "unit": "reported legitimacy frame", "value_type": "reported_business_legitimacy_frame"}
+      },
+      "method": "ILO account of a bilateral development and labour-rights initiative situated in trade relationships and import controls; it does not evaluate trade effects or compliance with Canadian law.",
+      "uncertainty": "The source does not establish whether import rules change Philippine firm behaviour, consumer prices, market access, worker conditions, or the distribution of compliance costs.",
+      "subgroup": "Philippine exporters and suppliers, Canadian importers and consumers, workers, public authorities, firms in agriculture/manufacturing/mining, and communities affected by trade.",
+      "counterinterpretation": "Import restrictions and due diligence can create leverage for rights, but they can also transfer costs to suppliers, reduce orders, or exclude small firms and workers from formal supply chains.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-and-canada-advance-action-against-forced-labour-philippines",
+      "retrieval_hash": "sha256:b595c17e17d42012012e27185df9bcecebb7fb229353808e89f0fe20ff89e2cd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/promoting-responsive-institutions-and-mechanisms-eliminate-forced-labour-philippines", "claim": "Official ILO PRIME PH project page and intended results context."},
+    {"source_url": "https://www.canada.ca/en/employment-social-development/news/2026/09/canada-and-ilo-advance-action-against-forced-labour-in-the-philippines.html", "claim": "Canadian labour-program context for the bilateral initiative and responsible supply chains."}
+  ],
+  "boundary": "This record adds a forced-labour, trade, and remedy route linking hidden exploitation risk, informality, labour institutions, worker voice, access to justice, responsible business conduct, import controls, and geopolitical economic partnership. It is an announcement-stage project account, not prevalence evidence, a forced-labour case audit, causal impact evaluation, proof of enforcement, or evidence that trade rules improve worker conditions.",
+  "retrieval_hash": "sha256:b595c17e17d42012012e27185df9bcecebb7fb229353808e89f0fe20ff89e2cd"
+}

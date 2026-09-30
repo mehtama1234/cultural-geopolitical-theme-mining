@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-freedom-house-2026-institutional-functioning-rights-oversight",
+  "title": "Formal US democratic protections persist while institutional functioning and oversight weaken",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Freedom House Freedom in the World 2026 United States country assessment of political rights and civil liberties during 2025",
+  "geography": "United States; federal political institutions, elections, civil liberties, media, courts, and affected population groups",
+  "observations": [
+    {
+      "period": "2025 assessment published 2026; aggregate political-rights and civil-liberties score",
+      "denominator": {"value": 100, "unit": "Freedom House aggregate country score", "value_type": "index_denominator"},
+      "measures": {
+        "overall_score": {"value": 81, "unit": "Freedom House score", "value_type": "reported_index_score"},
+        "prior_score": {"value": 84, "unit": "prior-year Freedom House score", "value_type": "reported_index_score"},
+        "political_rights": {"value": 32, "unit": "score out of 40", "value_type": "reported_index_score"},
+        "civil_liberties": {"value": 49, "unit": "score out of 60", "value_type": "reported_index_score"},
+        "status": {"value": "Free", "unit": "Freedom House country status", "value_type": "reported_status"}
+      },
+      "method": "Expert-coded Freedom House assessment using political-rights and civil-liberties indicators aggregated into a 100-point country score.",
+      "uncertainty": "An expert-coded index compresses heterogeneous legal and institutional developments; a score change does not measure every person's lived rights or establish a single cause.",
+      "subgroup": "US voters, political opposition, media, civil society, universities, immigrants, racial and ethnic minorities, and other groups whose rights or access may differ from the national assessment.",
+      "counterinterpretation": "The country remained classified Free, elections were generally competitive, courts blocked some executive actions, and formal speech and religious protections remained strong; decline is not equivalent to democratic collapse.",
+      "source_url": "https://freedomhouse.org/country/united-states/freedom-world/2026",
+      "retrieval_hash": "sha256:1bda696b1fd9d64ebc1b30bb0462041963df0b50a9cb085054625187106178db",
+      "status": "reported"
+    },
+    {
+      "period": "2025; functioning of government and legislative-executive balance",
+      "denominator": {"value": 4, "unit": "Freedom House C1 score range", "value_type": "index_denominator"},
+      "measures": {
+        "functioning_score": {"value": 2, "unit": "Freedom House C1 score out of 4", "value_type": "reported_index_score"},
+        "prior_functioning_score": {"value": 3, "unit": "prior-year Freedom House C1 score out of 4", "value_type": "reported_index_score"},
+        "government_shutdown": {"value": 43, "unit": "days in the longest federal shutdown in US history, as reported by Freedom House", "value_type": "reported_duration"},
+        "executive_orders": {"value": "more than 220 issued during 2025", "unit": "executive orders", "value_type": "reported_count"},
+        "house_votes": {"value": 362, "unit": "House votes during 2025", "value_type": "reported_count"}
+      },
+      "method": "Freedom House country narrative and indicator scoring on legislative capacity, appropriations, executive authority, and institutional checks.",
+      "uncertainty": "The score and narrative combine legal interpretation, political events, and institutional assessment; counts of orders or votes do not alone measure policy quality, implementation, or constitutional validity.",
+      "subgroup": "Congress, executive agencies, courts, states, public-service users, and communities affected by funding interruptions or administrative changes.",
+      "counterinterpretation": "The separation of powers and judicial review remained active, and some executive actions were blocked; institutional conflict can be a sign of contestation as well as dysfunction.",
+      "source_url": "https://freedomhouse.org/country/united-states/freedom-world/2026",
+      "retrieval_hash": "sha256:1bda696b1fd9d64ebc1b30bb0462041963df0b50a9cb085054625187106178db",
+      "status": "reported"
+    },
+    {
+      "period": "2025; anticorruption safeguards and oversight institutions",
+      "denominator": {"value": 4, "unit": "Freedom House C2 score range", "value_type": "index_denominator"},
+      "measures": {
+        "anticorruption_score": {"value": 2, "unit": "Freedom House C2 score out of 4", "value_type": "reported_index_score"},
+        "prior_anticorruption_score": {"value": 3, "unit": "prior-year Freedom House C2 score out of 4", "value_type": "reported_index_score"},
+        "inspectors_general_removed": {"value": 18, "unit": "inspectors general removed in January 2025 according to the report", "value_type": "reported_count"},
+        "specialized_corruption_prosecutors": {"value": "career lawyers in the Department of Justice specialized political-corruption unit fell from 36 to 2", "unit": "career lawyers", "value_type": "reported_count"}
+      },
+      "method": "Freedom House country assessment of ethics rules, oversight bodies, enforcement, conflicts of interest, and anticorruption safeguards.",
+      "uncertainty": "The report records institutional actions and assessment judgments but does not establish that any named action caused corruption, financial loss, or a particular enforcement outcome.",
+      "subgroup": "Inspectors general, whistleblowers, public-integrity investigators, agencies, contractors, political donors, and members of the public relying on oversight.",
+      "counterinterpretation": "Formal safeguards, courts, Congress, journalism, and civil society continued to create avenues for challenge; staffing or leadership changes do not by themselves prove oversight failure.",
+      "source_url": "https://freedomhouse.org/country/united-states/freedom-world/2026",
+      "retrieval_hash": "sha256:1bda696b1fd9d64ebc1b30bb0462041963df0b50a9cb085054625187106178db",
+      "status": "reported"
+    },
+    {
+      "period": "2025; political expression and civic participation",
+      "denominator": {"value": 4, "unit": "Freedom House D4 score range for freedom of expression", "value_type": "index_denominator"},
+      "measures": {
+        "expression_score": {"value": 3, "unit": "Freedom House D4 score out of 4", "value_type": "reported_index_score"},
+        "prior_expression_score": {"value": 4, "unit": "prior-year Freedom House D4 score out of 4", "value_type": "reported_index_score"},
+        "protest_scale": {"value": "No Kings protests occurred in more than 2,000 locations in June, with an estimated five million participants", "unit": "reported protest scale", "value_type": "reported_event_scale"},
+        "press_violence": {"value": "35 journalists arrested and 188 assaulted in 2025 according to the US Press Freedom Tracker figures cited by the report", "unit": "reported incidents", "value_type": "reported_count"}
+      },
+      "method": "Freedom House assessment of speech, protest, media pressure, surveillance, reprisals, and civic participation, supplemented by cited event and press-freedom data.",
+      "uncertainty": "Event counts and country scoring do not measure the prevalence of self-censorship, the legality of every incident, or the causal effect of government action on civic participation.",
+      "subgroup": "Journalists, protesters, citizens, noncitizens, immigrants, political opponents, and communities exposed to surveillance, intimidation, or political violence.",
+      "counterinterpretation": "Large peaceful protests and continued media pluralism demonstrate civic capacity and resilience even while the report identifies chilling effects and institutional pressure.",
+      "source_url": "https://freedomhouse.org/country/united-states/freedom-world/2026",
+      "retrieval_hash": "sha256:1bda696b1fd9d64ebc1b30bb0462041963df0b50a9cb085054625187106178db",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20%281%29.pdf", "claim": "The country page links the full Freedom in the World 2026 report and methodology context.", "status": "official_report_artifact"}
+  ],
+  "boundary": "This record adds a US institutional-functioning route linking democratic status, legislative capacity, executive oversight, anticorruption safeguards, expression, protest, and civic resilience. It is an expert-coded country assessment with cited event evidence, not a causal political-behavior study, legal ruling, or complete measure of lived rights.",
+  "retrieval_hash": "sha256:1bda696b1fd9d64ebc1b30bb0462041963df0b50a9cb085054625187106178db"
+}

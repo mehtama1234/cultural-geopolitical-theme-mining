@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-philippines-psa-nicths-2024-mobile-digital-intensity-cost",
+  "title": "The Philippines' home internet access expanded sharply, but use remains cellphone-led and regionally uneven",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "time_hidden_price",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Philippine Statistics Authority and Department of Information and Communications Technology, 2024 National Information and Communications Technology Household Survey",
+  "geography": "Philippines; households and individuals aged 10 years and over across regions",
+  "observations": [
+    {
+      "period": "2019-2024; household internet access at home",
+      "denominator": {
+        "value": 13560000,
+        "unit": "households with home internet access in 2024; official estimate",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "home_internet_access_2019": {"value": 17.7, "unit": "percent of households with internet access at home", "value_type": "official_household_share"},
+        "home_internet_access_2024": {"value": 48.8, "unit": "percent of households with internet access at home", "value_type": "official_household_share"},
+        "fixed_wired_broadband_among_connected": {"value": 58.8, "unit": "percent of connected households with fixed wired broadband available", "value_type": "official_connection_share"},
+        "mobile_broadband_among_connected": {"value": 39.3, "unit": "percent of connected households with mobile broadband available", "value_type": "official_connection_share"},
+        "mechanism": {"value": "Home internet access is expanding rapidly, but connection types remain mixed and mobile broadband is a major access layer; a rising access rate does not by itself establish reliable or equal digital cultural and consumer capacity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National ICT Household Survey conducted by the Philippine Statistics Authority with the Department of Information and Communications Technology; household access means internet generally available for use by household members at home.",
+      "uncertainty": "The release reports availability, not bandwidth, quality, affordability, individual use intensity, or the cultural and consumer purposes of access; 2024 results are reported as preliminary in the source tables.",
+      "subgroup": "Philippine households nationwide, with regional estimates.",
+      "counterinterpretation": "Expansion of home access may materially improve digital optionality even if mobile and fixed access remain uneven; mixed connection shares can reflect multiple responses.",
+      "source_url": "https://psa.gov.ph/content/percentage-households-internet-connection-increased-488-percent-2024-two-every-three",
+      "retrieval_hash": "sha256:cb1c64cc1fa7e7fb72530fb7e189f90e9ba7b05599c57dffd13ae1049a5204b7",
+      "status": "reported"
+    },
+    {
+      "period": "2024; individual internet use, device, frequency, and time",
+      "denominator": {
+        "value": 61460000,
+        "unit": "individuals aged 10 years and over using the internet in 2024; official estimate",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "individual_internet_use_any_location": {"value": 67.3, "unit": "percent of individuals aged 10 years and over using the internet at any location", "value_type": "official_population_share"},
+        "cellphone_among_internet_users": {"value": 98.8, "unit": "percent of internet users using a cellphone to connect", "value_type": "official_device_share"},
+        "daily_internet_use_among_users": {"value": 76.9, "unit": "percent of internet users using the internet daily", "value_type": "official_frequency_share"},
+        "average_daily_internet_time": {"value": 4.6, "unit": "hours per day among internet users", "value_type": "official_time_estimate"},
+        "mechanism": {"value": "Once connected, use is high-frequency and overwhelmingly cellphone-mediated, making the Philippines a strong mobile attention environment even though household access remains incomplete", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS individual-use module for persons aged 10 years and over; measures cover any-location use, device type, frequency, and average daily time.",
+      "uncertainty": "The time measure is self-reported and does not separate work, education, social media, entertainment, commerce, or cultural use; it does not identify simultaneous or passive use.",
+      "subgroup": "Individuals aged 10 years and over who used the internet, with regional estimates.",
+      "counterinterpretation": "High cellphone use may indicate convenience and broad inclusion rather than constrained access; four-plus hours can combine productive and harmful or low-attention activities.",
+      "source_url": "https://psa.gov.ph/content/percentage-households-internet-connection-increased-488-percent-2024-two-every-three",
+      "retrieval_hash": "sha256:cb1c64cc1fa7e7fb72530fb7e189f90e9ba7b05599c57dffd13ae1049a5204b7",
+      "status": "reported"
+    },
+    {
+      "period": "2024; regional and household cost gradients",
+      "denominator": {
+        "value": 13560000,
+        "unit": "households with home internet access in 2024 and individuals aged 10 years and over in the NICTHS regional estimates",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "ncr_home_internet_access": {"value": 68.7, "unit": "percent of households in National Capital Region with home internet access", "value_type": "official_subgroup_share"},
+        "barmm_home_internet_access": {"value": 27.7, "unit": "percent of households in Bangsamoro Autonomous Region in Muslim Mindanao with home internet access", "value_type": "official_subgroup_share"},
+        "ncr_individual_internet_use": {"value": 79.3, "unit": "percent of individuals aged 10 years and over in NCR using the internet", "value_type": "official_subgroup_share"},
+        "barmm_individual_internet_use": {"value": 40.0, "unit": "percent of individuals aged 10 years and over in BARMM using the internet", "value_type": "official_subgroup_share"},
+        "average_monthly_internet_spend_2019": {"value": 1280.59, "unit": "Philippine pesos per household per month", "value_type": "official_household_spend"},
+        "average_monthly_internet_spend_2024": {"value": 1069.10, "unit": "Philippine pesos per household per month", "value_type": "official_household_spend"},
+        "mechanism": {"value": "Digital inclusion is highly regional: capital-region households have much greater home access and individual use than BARMM, while average reported internet spending fell as access expanded; affordability and access can improve together without equalizing reach", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NICTHS regional estimates and reported average monthly household internet spending; the release compares 2019 and 2024 household connectivity expenditure.",
+      "uncertainty": "Regional differences combine infrastructure, income, geography, conflict exposure, household composition, and measurement factors; lower average spending may reflect price changes, plan mix, or lower usage rather than improved affordability.",
+      "subgroup": "Households and individuals in NCR, BARMM, and other Philippine regions.",
+      "counterinterpretation": "A lower national average bill can coexist with increased data consumption, and regional access gaps may narrow over time even while remaining large in 2024.",
+      "source_url": "https://psa.gov.ph/content/percentage-households-internet-connection-increased-488-percent-2024-two-every-three",
+      "retrieval_hash": "sha256:cb1c64cc1fa7e7fb72530fb7e189f90e9ba7b05599c57dffd13ae1049a5204b7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://psa.gov.ph/content/percentage-households-internet-connection-increased-488-percent-2024-two-every-three",
+      "claim": "PSA release reports household access, connection types, regional access, individual use, devices, frequency, time, and internet spending.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://psada.psa.gov.ph/catalog/NICTHS/about",
+      "claim": "PSA data catalog documents NICTHS as the official nationwide survey of household and individual ICT access, use, digital services, and e-commerce.",
+      "status": "official-data-archive"
+    }
+  ],
+  "boundary": "This record adds Philippine evidence on home internet access, mobile device dependence, usage intensity, regional disparity, and reported connection spending. It does not measure cultural participation, platform content, quality of experience, digital welfare, or causal effects of connectivity.",
+  "retrieval_hash": "sha256:cb1c64cc1fa7e7fb72530fb7e189f90e9ba7b05599c57dffd13ae1049a5204b7"
+}

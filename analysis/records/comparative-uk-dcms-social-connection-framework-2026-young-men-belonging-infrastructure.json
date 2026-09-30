@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dcms-social-connection-framework-2026-young-men-belonging-infrastructure",
+  "title": "Young men’s loneliness is being reframed as a social-infrastructure and participation problem, linking belonging, work, school, online risk and accessible places to connect",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport, Social Connection Framework",
+  "geography": "England and UK policy context, focused on boys and young men aged 10–25, with implications for youth, education, local government and community provision",
+  "observations": [
+    {
+      "period": "June 2026; youth loneliness and social-connection policy frame",
+      "denominator": {"value": 1, "unit": "UK government social-connection framework for boys and young men aged 10–25", "value_type": "policy_frame"},
+      "measures": {
+        "age_gradient": {"value": 5, "unit": "times more likely young people are described as experiencing chronic loneliness than older people", "value_type": "reported_comparison"},
+        "young_men_suicide": {"value": 2, "unit": "times more likely young men are to take their own lives than young women in the framework's cited evidence", "value_type": "reported_comparison"},
+        "policy_reframe": {"value": "social connection is treated as a consideration for policy and programme design, not only an individual mental-health issue", "unit": "stated governance frame", "value_type": "reported_interpretation"}
+      },
+      "method": "UK government evidence and guidance synthesis drawing on academic experts, practitioners, existing surveys and direct engagement with boys and young men.",
+      "uncertainty": "The framework combines evidence from different studies and uses a policy-guidance purpose; the cited comparisons do not establish causal effects of social connection interventions.",
+      "subgroup": "Boys and young men aged 10–25, especially those facing socioeconomic deprivation, SEND, unemployment or limited access to local social infrastructure.",
+      "counterinterpretation": "A targeted focus on boys and young men can reveal distinct stigma and service barriers, but should complement rather than displace support for other groups experiencing loneliness.",
+      "source_url": "https://www.gov.uk/government/publications/social-connection-framework/social-connection-framework",
+      "retrieval_hash": "sha256:3d5d8f8751e8cef71ce2becb17383809fbbbbb1bdc1e149d06f4fc0f8d9446e3",
+      "status": "reported"
+    },
+    {
+      "period": "2026; direct youth engagement and meanings of loneliness",
+      "denominator": {"value": 58, "unit": "written responses from boys and young men aged 11–23 informing the framework", "value_type": "reported_engagement_sample"},
+      "measures": {
+        "engagement_scope": {"value": "young people described loneliness through sadness, having no one to talk to, exclusion and an empty-room experience; isolation was more often described as separation or being trapped", "unit": "reported qualitative themes", "value_type": "reported_interpretation"},
+        "belonging_definition": {"value": "social connection includes belonging, sufficient support, and meaningful relationships with peers and trusted adults", "unit": "framework definition", "value_type": "reported_framework"},
+        "help_seeking_barrier": {"value": "stigma around vulnerability and pressure to appear strong can inhibit acknowledgement of loneliness and help-seeking among young men", "unit": "reported mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "Direct written engagement with boys and young men aged 11–23, supplemented by collaboration with youth organizations, practitioners and academic experts.",
+      "uncertainty": "The 58 responses are purposive engagement evidence, not a prevalence sample; participant language illustrates meaning and barriers but cannot represent all boys and young men.",
+      "subgroup": "Boys and young men aged 11–23, youth workers, educators, coaches, creative practitioners, families and trusted adults.",
+      "counterinterpretation": "Stigma is not uniform; some young men may prefer solitude or online connection, and in-person programmes must be voluntary, safe and culturally credible.",
+      "source_url": "https://www.gov.uk/government/publications/social-connection-framework/social-connection-framework",
+      "retrieval_hash": "sha256:3d5d8f8751e8cef71ce2becb17383809fbbbbb1bdc1e149d06f4fc0f8d9446e3",
+      "status": "reported"
+    },
+    {
+      "period": "2026; risk and protective factors for boys and young men",
+      "denominator": {"value": 1, "unit": "UK evidence synthesis on boys and young men's loneliness risk and protection", "value_type": "published_synthesis"},
+      "measures": {
+        "close_friend_gap": {"value": 3, "unit": "times higher chronic-loneliness levels among boys and young men reporting no close friends", "value_type": "reported_comparison"},
+        "neat_risk": {"value": "not being in employment, education or training remains a key loneliness risk factor for some young men even after accounting for poor mental health", "unit": "reported associated factor", "value_type": "reported_interpretation"},
+        "organized_activity_protection": {"value": "participation in clubs, groups, societies and community organizations is associated with lower chronic loneliness", "unit": "reported protective association", "value_type": "reported_interpretation"},
+        "in_person_contact": {"value": "more frequent in-person contact with friends is associated with lower chronic loneliness among 16–25-year-olds", "unit": "reported protective association", "value_type": "reported_interpretation"}
+      },
+      "method": "Framework synthesis drawing on Understanding Society, Mental Health of Children and Young People surveys and cited research on boys and young men in England.",
+      "uncertainty": "These are associations and risk indicators, not causal estimates; unmeasured mental health, family, school, neighborhood and selection factors may shape both connection and outcomes.",
+      "subgroup": "Young men who are NEET, have no close friends, experience poor mental health, face bullying or lack accessible clubs and transport.",
+      "counterinterpretation": "Clubs and in-person contact may be markers of prior resources, confidence or family support rather than independent causes of lower loneliness.",
+      "source_url": "https://www.gov.uk/government/publications/social-connection-framework/social-connection-framework",
+      "retrieval_hash": "sha256:3d5d8f8751e8cef71ce2becb17383809fbbbbb1bdc1e149d06f4fc0f8d9446e3",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social infrastructure, online risk and programme design",
+      "denominator": {"value": 1, "unit": "UK youth social-connection programme-design framework", "value_type": "policy_frame"},
+      "measures": {
+        "place_route": {"value": "safe in-person spaces, clubs, sports, creative activity, libraries, public transport and subsidized access are identified as practical connection infrastructure", "unit": "reported programme route set", "value_type": "reported_policy_route_set"},
+        "system_route": {"value": "schools, youth services, Jobcentre support, local authorities and community organizations should connect support rather than operate in isolation", "unit": "reported governance route", "value_type": "reported_policy_route_set"},
+        "online_route": {"value": "media literacy, safeguarding and positive in-person belonging are presented as ways to reduce vulnerability to harmful online content and ideologies", "unit": "reported programme route set", "value_type": "reported_policy_route_set"},
+        "investment_context": {"value": 500000000, "unit": "pounds of UK government investment referenced in the National Youth Strategy for youth priorities", "value_type": "reported_commitment_context"}
+      },
+      "method": "Government guidance synthesizing evidence, practitioner advice, youth engagement and case studies for policy and programme design.",
+      "uncertainty": "The framework recommends routes and illustrates case studies but does not evaluate their comparative effectiveness, cost, reach or durability.",
+      "subgroup": "Youth services, schools, local authorities, libraries, sports and arts providers, community groups, employers, Jobcentres, families and young men at risk of isolation.",
+      "counterinterpretation": "Place-based provision can fail if it is inaccessible, stigmatizing, poorly funded or disconnected from transport, safeguarding, mental-health and employment systems.",
+      "source_url": "https://www.gov.uk/government/publications/social-connection-framework/social-connection-framework",
+      "retrieval_hash": "sha256:3d5d8f8751e8cef71ce2becb17383809fbbbbb1bdc1e149d06f4fc0f8d9446e3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/social-connection-framework", "claim": "Official publication landing page for the framework."},
+    {"source_url": "https://www.gov.uk/government/publications/youth-matters-your-national-youth-strategy", "claim": "UK National Youth Strategy context referenced by the framework."},
+    {"source_url": "https://www.gov.uk/government/publications/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england", "claim": "Evidence report cited by the framework on boys and young men's loneliness."}
+  ],
+  "boundary": "This record adds a UK comparative social-infrastructure and youth-belonging route. It is government guidance informed by mixed evidence and a small direct-engagement sample, not a representative prevalence survey, clinical evaluation, causal intervention study or proof that the referenced investment produces durable connection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK Social Connection Framework was retrieved and reviewed for its policy scope, youth engagement, loneliness and suicide comparisons, risk/protective factors, social-infrastructure routes, online harms and implementation guidance; the HTML page was hashed.",
+    "source_url_sha256": "sha256:3d5d8f8751e8cef71ce2becb17383809fbbbbb1bdc1e149d06f4fc0f8d9446e3",
+    "checked": "2026-09-27"
+  }
+}

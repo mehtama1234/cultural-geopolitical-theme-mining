@@ -1,0 +1,298 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-snapchat-child-safety-dsa-proceedings-2026",
+  "title": "EU proceedings turn child-safety concern into a named platform-control episode, while user protection and remedy remain unverified",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "European Commission formal proceedings against Snapchat under the Digital Services Act, published March 26, 2026",
+  "geography": "European Union; Snapchat users and minors exposed to the service",
+  "observations": [
+    {
+      "period": "March 26, 2026; formal proceedings opened against Snapchat",
+      "denominator": {"value": 1, "unit": "named very large online platform proceeding", "value_type": "administrative_proceeding"},
+      "measures": {
+        "platform": {"value": "Snapchat", "unit": "named online platform", "value_type": "identified_platform"},
+        "regulatory_action": {"value": "European Commission opened formal proceedings under the Digital Services Act to investigate child-safety compliance", "unit": "reported regulatory action", "value_type": "reported_enforcement_action"},
+        "risk_frame": {"value": "The Commission stated that the proceeding concerns safety, privacy, and security of children online", "unit": "reported regulatory scope", "value_type": "reported_scope"}
+      },
+      "method": "European Commission press release describing a formal DSA proceeding; the proceeding is an investigative step and not a final finding or causal evaluation.",
+      "uncertainty": "The source does not establish whether Snapchat breached the DSA, the prevalence or severity of harms, which users were affected, or whether any later platform changes reduce exposure or improve outcomes.",
+      "subgroup": "Children and teenagers using or encountered by Snapchat, including users potentially exposed to harmful contact, content, or commercial information.",
+      "counterinterpretation": "Opening proceedings can reflect precautionary supervision and does not by itself prove platform non-compliance, user harm, or that enforcement will produce durable safety or trust.",
+      "source_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_723/IP_26_723_EN.pdf",
+      "retrieval_hash": "sha256:0c06e826f5c34903ace406d18a4b4cef1dc66028ce22a054b74da885af5f8446",
+      "status": "reported"
+    },
+    {
+      "period": "March 26, 2026; five investigation areas named by the Commission",
+      "denominator": {"value": 1, "unit": "Snapchat DSA proceeding", "value_type": "administrative_proceeding"},
+      "measures": {
+        "control_points": {"value": "age assurance; protection from grooming or criminal recruitment; default account settings; dissemination of illegal or age-restricted product information; and reporting of illegal content", "unit": "five reported investigation areas", "value_type": "reported_control_surface"},
+        "age_assurance_concern": {"value": "The Commission suspects that self-declaration does not prevent under-13 access or adequately assess whether users are younger than 17 for an age-appropriate experience", "unit": "reported regulatory suspicion", "value_type": "reported_allegation"},
+        "default_design_concerns": {"value": "The release identifies automatic friend recommendations, default push notifications, and insufficient guidance on privacy and safety settings as areas under investigation", "unit": "reported design concerns", "value_type": "reported_design_concern"}
+      },
+      "method": "Commission description of the factual and design questions within the formal proceeding; the allegations are not adjudicated findings.",
+      "uncertainty": "The release does not provide platform telemetry, exposure denominators, age-assurance accuracy, complaint rates, subgroup effects, or evidence that any listed design feature caused harm or prevented safety.",
+      "subgroup": "Users under 13, users under 17, teens receiving recommendations or notifications, and users who rely on platform settings or age-assurance controls.",
+      "counterinterpretation": "The same design features can support discovery and connection for some users; changing them may shift participation, safety, privacy, or social access in different directions across age groups and contexts.",
+      "source_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_723/IP_26_723_EN.pdf",
+      "retrieval_hash": "sha256:0c06e826f5c34903ace406d18a4b4cef1dc66028ce22a054b74da885af5f8446",
+      "status": "reported"
+    },
+    {
+      "period": "March 26, 2026; reporting, redress, and platform-response pathway",
+      "denominator": {"value": 1, "unit": "Snapchat DSA proceeding", "value_type": "administrative_proceeding"},
+      "measures": {
+        "reporting_concern": {"value": "The Commission suspects that mechanisms for notifying illegal content may be difficult to access, not user-friendly, or use dark patterns", "unit": "reported regulatory suspicion", "value_type": "reported_allegation"},
+        "redress_information_concern": {"value": "The Commission suspects Snapchat may fail to inform users about available redress, including its internal complaint-handling system", "unit": "reported regulatory suspicion", "value_type": "reported_allegation"},
+        "next_observable_stage": {"value": "Commission information gathering and any later platform commitments, remedial measures, findings, or sanctions", "unit": "open institutional pathway", "value_type": "open_follow_up_stage"}
+      },
+      "method": "Commission press release read as a dated enforcement-stage observation; no platform response, complaint file, user-level remedy, or final decision was added.",
+      "uncertainty": "The public notice does not show whether users filed reports, received explanations, obtained correction or protection, or experienced changed trust, participation, or exit after the proceeding.",
+      "subgroup": "Users attempting to report illegal content or seek platform redress, including minors and caregivers navigating safety controls.",
+      "counterinterpretation": "A formal redress requirement may improve user agency, but a visible reporting channel can still fail if access, comprehension, response time, correction, and outcome transparency remain weak.",
+      "source_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_723/IP_26_723_EN.pdf",
+      "retrieval_hash": "sha256:0c06e826f5c34903ace406d18a4b4cef1dc66028ce22a054b74da885af5f8446",
+      "status": "reported"
+    },
+    {
+      "period": "April 3, 2026; Snapchat's adjacent public child-safety and privacy position",
+      "denominator": {"value": 1, "unit": "Snap statement signed with other technology companies", "value_type": "corporate_statement"},
+      "measures": {
+        "public_position": {"value": "Snap joined Google, Meta, and Microsoft in calling for an immediate interim solution after the EU ePrivacy derogation for voluntary CSAM detection expired", "unit": "reported corporate position", "value_type": "reported_position"},
+        "claimed_protection_method": {"value": "The statement describes voluntary detection, removal, and reporting of known CSAM, including hash matching where appropriate", "unit": "reported safety practice", "value_type": "reported_practice"},
+        "privacy_safety_tension": {"value": "The statement frames legal certainty for child-safety detection and preservation of privacy as simultaneous policy requirements", "unit": "reported governance tension", "value_type": "reported_tradeoff"}
+      },
+      "method": "Snap's dated public statement, read as an adjacent platform-response and governance-position observation; it is not presented as a direct answer to the Commission's Snapchat DSA proceeding.",
+      "uncertainty": "The statement does not disclose detection volume, false positives, reporting outcomes, platform-wide coverage, effects on minors, or whether the claimed practices address the Commission's age-assurance, default-setting, illegal-product, or redress concerns.",
+      "subgroup": "Children and survivors potentially affected by CSAM, users of interpersonal communication services, privacy-sensitive users, regulators, and technology companies.",
+      "counterinterpretation": "A public commitment to voluntary detection may represent a real safety practice, strategic advocacy for legal certainty, or both; the statement cannot establish effectiveness or resolve the privacy and governance tradeoff.",
+      "source_url": "https://values.snap.com/joint-statement-eu-eprivacy-derogation-expiration?lang=en-GB",
+      "retrieval_hash": "sha256:d11e120c40f035ad295f3e56d62d286e645f04bb60d1032895b824beebcdacf1",
+      "status": "reported"
+    },
+    {
+      "period": "March 26, 2026; Dutch ACM investigation incorporated into Commission-led Snapchat investigation",
+      "denominator": {"value": 1, "unit": "national regulator investigation incorporated into EU platform proceeding", "value_type": "administrative_investigation"},
+      "measures": {
+        "national_regulator": {"value": "Netherlands Authority for Consumers and Markets (ACM)", "unit": "named national digital-services coordinator", "value_type": "identified_regulator"},
+        "originating_request": {"value": "ACM's investigation followed a late-August 2025 enforcement request from the Youth Smoking Prevention Foundation concerning vape sales to minors on Snapchat", "unit": "reported enforcement-request pathway", "value_type": "reported_civic_trigger"},
+        "institutional_conversion": {"value": "ACM became part of the European Commission-led investigation team; the Dutch case on vaping was incorporated into the broader DSA investigation", "unit": "reported institutional arrangement", "value_type": "reported_institutional_response"},
+        "possible_tools": {"value": "If non-compliance is found, ACM describes possible binding instructions, fines, or orders subject to periodic penalty payments", "unit": "reported enforcement tools", "value_type": "reported_remedy_pathway"}
+      },
+      "method": "Dutch ACM public notice describing the originating enforcement request, national investigation, and incorporation into the Commission-led DSA investigation; no final finding or sanction is reported.",
+      "uncertainty": "The notice does not establish whether vape listings were present at a measured prevalence, whether minors purchased or received products, whether Snapchat changed its systems, or whether any enforcement tool was used.",
+      "subgroup": "Dutch minors and Snapchat users, the Youth Smoking Prevention Foundation as an enforcement requester, and users exposed to illegal-product listings or reporting systems.",
+      "counterinterpretation": "Joining a Commission-led investigation can improve jurisdictional coordination, but it can also lengthen the path from local complaint to user-visible remedy; the public notice gives no completion date or outcome.",
+      "source_url": "https://www.acm.nl/nl/publicaties/europese-commissie-en-acm-bundelen-krachten-bij-onderzoek-naar-snapchat",
+      "retrieval_hash": "sha256:db6a7db4884a2f7f877455ed2c5873b5f681f08d038688c250c6f7175bba5bcb",
+      "status": "reported"
+    },
+    {
+      "period": "August 2025; Youth Smoking Prevention Foundation youth-panel check before and after Snap's claimed measures",
+      "denominator": {"value": 15, "unit": "youth-panel participants aged 13-18", "value_type": "reported_small_panel"},
+      "measures": {
+        "search_terms": {"value": 16, "unit": "nicotine-product terms and youth-supplied slang terms used in systematic searches", "value_type": "reported_search_design"},
+        "dealer_discoverability_before": {"value": 55, "unit": "average dealer accounts recognized per participant before August 8 measures", "value_type": "reported_panel_measure"},
+        "dealer_discoverability_after": {"value": 56, "unit": "average dealer accounts recognized per participant after August 8 measures", "value_type": "reported_panel_measure"},
+        "account_contact_check": {"value": "four of five contacted accounts offered nicotine products; the source also reports one account offering cannabis products", "unit": "reported contact check", "value_type": "reported_panel_observation"},
+        "platform_measure_claim": {"value": "Snap said it had added slang and emoji detection, account blocking, teen filters, and extra parental controls", "unit": "reported company claim", "value_type": "reported_platform_claim"}
+      },
+      "method": "Youth Smoking Prevention Foundation account of a youth-panel reality check conducted by physicians associated with LUMC and Antoni van Leeuwenhoek; participants conducted repeated searches and a small direct-contact check. This is advocacy-originated, nonprobability, and not an independent platform audit.",
+      "uncertainty": "The source does not provide a sampling frame, platform-wide denominator, search-result algorithm, account verification protocol, geographic coverage, statistical uncertainty, or independent access to Snapchat's internal data. Similar dealer counts before and after do not establish causal non-effect or exposure for all minors.",
+      "subgroup": "The 15 participating Dutch young people aged 13-18 and the accounts surfaced by their search terms; results cannot be generalized to all Snapchat users or Dutch minors.",
+      "counterinterpretation": "Search persistence may reflect changing slang, recommendation dynamics, account turnover, or panel procedure; a small before/after panel can identify a practical access problem without estimating prevalence or proving that Snap's measures had zero effect platform-wide.",
+      "source_url": "https://rookpreventiejeugd.nl/actueel/item/328-artsen-vragen-optreden-acm-tegen-vape-dealers",
+      "retrieval_hash": "sha256:5fa12d5d6d9e878f6947c6761af2bff6f0ecc9c91a3ab894e885709c3eb449bf",
+      "status": "reported"
+    },
+    {
+      "period": "June 9, 2026; SOMI collective procedure filed in the Netherlands",
+      "denominator": {"value": 1, "unit": "claimant-reported collective legal action against Snapchat", "value_type": "reported_legal_action"},
+      "measures": {
+        "filing": {"value": "SOMI reports that it initiated a collective procedure against Snapchat at the Amsterdam District Court", "unit": "reported litigation stage", "value_type": "reported_filing"},
+        "claim_scope": {"value": "The claimant describes claims concerning exposure of minors to harmful content and illegal products, addictive design, targeted advertising, and personal-data use", "unit": "reported claim scope", "value_type": "reported_claim_allegations"},
+        "requested_response": {"value": "The claimant seeks stronger protection and possible compensation for affected users", "unit": "reported requested remedy", "value_type": "reported_claimed_remedy"}
+      },
+      "method": "SOMI's own public case notice; it is a claimant account of a filed collective action, not an independent court record or adjudication.",
+      "uncertainty": "The notice does not establish admissibility, liability, causal injury, class membership, damages, or whether any requested protection or compensation will be ordered.",
+      "subgroup": "SOMI's proposed represented Snapchat users and minors in the Netherlands, as described by the claimant; the scope of the legally recognized group remains open.",
+      "counterinterpretation": "A collective action can convert diffuse user concerns into legal voice and evidence collection, but its filing may also reflect strategic advocacy before a court determines whether claims are procedurally or substantively valid.",
+      "source_url": "https://somi.nl/somi-stuurt-snapchat-in-duitsland",
+      "retrieval_hash": "sha256:35248995993c75654b9af1fe48b8c46c59d995f498f18c5319f9d8a600907077",
+      "status": "reported"
+    },
+    {
+      "period": "September 8, 2026; second writ and opt-in expansion to other European countries",
+      "denominator": {"value": 1, "unit": "claimant-reported cross-border collective action expansion", "value_type": "reported_legal_action"},
+      "measures": {
+        "cross_border_expansion": {"value": "SOMI reports serving a second writ of summons to extend the proceedings to victims from other European countries on an opt-in basis", "unit": "reported procedural development", "value_type": "reported_cross_border_step"},
+        "eligibility_route": {"value": "The public claim site says residents of EU countries may join, with proof of Snapchat use after May 25, 2018 requested for participation", "unit": "reported participation rule", "value_type": "reported_claim_participation_rule"},
+        "case_status": {"value": "Claim site labels the action active and continues recruiting participants", "unit": "claimant-reported case status", "value_type": "reported_status"}
+      },
+      "method": "SOMI's public claim site and September 2026 case update; this records claimant-reported procedural status and participation architecture, not court validation or a measured participant count.",
+      "uncertainty": "The public materials do not establish the number of enrolled participants, legal admissibility, cross-border jurisdiction, user-level harm, or whether the opt-in route will produce compensation or platform change.",
+      "subgroup": "EU Snapchat users and legal representatives of minors invited to opt into the collective action; actual enrolled participants are not published in the source checked.",
+      "counterinterpretation": "Cross-border recruitment can broaden collective voice and evidence, but participant recruitment is not evidence that the alleged harms occurred at a particular prevalence or that the legal claims will succeed.",
+      "source_url": "https://snapchatclaim.nl/en/",
+      "retrieval_hash": "sha256:5cd26a336873fd48d95a0289ba05926e0127e9f1974df72e98f995b72b736b94",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Dutch judiciary-hosted extract of SOMI's Snapchat summons",
+      "denominator": {"value": 1, "unit": "publicly posted extract of collective summons", "value_type": "official_filing_artifact"},
+      "measures": {
+        "represented_group": {"value": "SOMI states it acts for natural persons ordinarily resident in the Netherlands who used Snapchat after May 25, 2018", "unit": "pleading-defined proposed group", "value_type": "reported_pleading_group"},
+        "claim_category_one": {"value": "The summons alleges addictive design through features including Snapstreak, Snapscore, personalization, and infinite scrolling", "unit": "pleading allegation", "value_type": "reported_pleading_allegation"},
+        "claim_category_two": {"value": "The summons alleges a structural role in illegal activity, including grooming, child sexual-abuse material, drugs, illegal vapes, and criminal recruitment, linked in the pleading to weak age verification and re-registration controls", "unit": "pleading allegation", "value_type": "reported_pleading_allegation"},
+        "claim_category_three": {"value": "The summons alleges large-scale personal-data processing for targeted advertising, including processing of minors' data until August 25, 2023 as described in the pleading", "unit": "pleading allegation", "value_type": "reported_pleading_allegation"}
+      },
+      "method": "Extract of summons hosted by the Dutch judiciary under the collective-action (WAMCA) materials; the document is an official filing artifact that reproduces the claimant's allegations and proposed represented group, not a court ruling.",
+      "uncertainty": "The extract does not establish admissibility, commonality, liability, causation, actual exposure, damages, or the accuracy of the allegations. The proposed group is not equivalent to a court-certified class or verified harmed population.",
+      "subgroup": "The proposed Dutch-resident Snapchat-user group defined in the summons; minors and adults are described through the claimant's legal theory, not a measured sample.",
+      "counterinterpretation": "A court-hosted filing makes the litigation route verifiable and legally specific, but pleadings are adversarial claims and must be separated from evidence accepted or tested by the court.",
+      "source_url": "https://www.rechtspraak.nl/binaries/_rts_1781017884315/content/assets/wamca/2026/uittreksel-dagvaarding-somi-vs-snap.pdf",
+      "retrieval_hash": "sha256:5af8f36fc32ba9a68d6558f6d4838788a43e032be726409c3c00123dfa976d5c",
+      "status": "reported"
+    },
+    {
+      "period": "September 29, 2026; Dutch Central Register for Collective Actions status check",
+      "denominator": {"value": 1, "unit": "official collective-action register entry for Stichting Onderzoek Marktinformatie against Snap", "value_type": "official_register_entry"},
+      "measures": {
+        "register_listing": {"value": "Stichting Onderzoek Marktinformatie tegen Snap", "unit": "official WAMCA register entry", "value_type": "reported_register_entry"},
+        "filed_dates": {"value": "June 9, 2026; September 8, 2026 expansion; the register also lists a September 7, 2026 summons by Stichting Massaschade & Consument", "unit": "official filing dates", "value_type": "reported_filing_dates"},
+        "public_procedural_stage": {"value": "The register publicly lists summons documents and extracts; no admissibility decision, interim ruling, settlement, or final judgment for the Snapchat entry was located in the checked register", "unit": "public procedural status boundary", "value_type": "reported_open_stage"}
+      },
+      "method": "Current Dutch judiciary Central Register for Collective Actions retrieval; the register is an official filing-status surface, not a decision on the merits.",
+      "uncertainty": "A register listing and summons dates do not establish the court's jurisdiction, admissibility, recognized group, liability, damages, or future procedural outcome. Absence of a listed decision is only a public-status observation, not proof that no non-public procedural activity occurred.",
+      "subgroup": "The collective-action entry and its proposed represented users; no verified participant count is published in the register entry.",
+      "counterinterpretation": "Public registration makes the litigation route auditable and may enable competing claimant organizations to coordinate, but a filing register intentionally does not resolve the underlying allegations.",
+      "source_url": "https://www.rechtspraak.nl/registers/centraal-register-voor-collectieve-vorderingen",
+      "retrieval_hash": "sha256:a93eddbd32753c69f13fce5772dfdb27b7211505103b8974f76ad73d9c3ca6db",
+      "status": "reported"
+    },
+    {
+      "period": "September 7, 2026; Stichting Massaschade & Consument summons against Snap",
+      "denominator": {"value": 1, "unit": "official judiciary-hosted extract of second collective summons", "value_type": "official_filing_artifact"},
+      "measures": {
+        "represented_group": {"value": "SMC proposes to represent all Snapchat users ordinarily resident in the Netherlands who used Snapchat after May 25, 2018, divided by age at first relevant use", "unit": "pleading-defined proposed groups", "value_type": "reported_pleading_group"},
+        "convergent_mechanisms": {"value": "The summons alleges addictive design, inadequate protection against illegal or harmful activities, profiling and targeted advertising, and hidden commercial communication", "unit": "four pleaded mechanism categories", "value_type": "reported_pleading_allegations"},
+        "requested_protective_measures": {"value": "The pleading requests age assurance, limits on engagement and social-pressure features, protective defaults, controls over My AI, privacy and profiling changes, and clear advertising labels", "unit": "reported requested injunction and design remedies", "value_type": "reported_claimed_remedy"},
+        "first_procedural_dates": {"value": "The extract identifies a first roll date of October 7, 2026 and an additional roll date of December 9, 2026", "unit": "reported court dates", "value_type": "reported_procedural_date"}
+      },
+      "method": "Extract of summons hosted by the Dutch judiciary; it is an official filing artifact containing SMC's allegations and requested relief, not a court ruling.",
+      "uncertainty": "The extract does not establish admissibility, liability, causal injury, recognized class, effectiveness of proposed measures, or whether any requested injunction or damages will be granted.",
+      "subgroup": "The proposed Dutch-resident Snapchat-user groups defined by age at first relevant use; no verified harm or participant count is established.",
+      "counterinterpretation": "The second claimant's broader remedy design may reflect a genuine attempt to convert platform governance concerns into measurable controls, but it remains adversarial pleading and may overlap or compete with SOMI's case.",
+      "source_url": "https://www.rechtspraak.nl/binaries/_rts_1788874729211/content/assets/wamca/2026/uittreksel-dagvaarding-stichting-massaschade-consument-snap.pdf",
+      "retrieval_hash": "sha256:cbbcb1ffc2988baef609b9e3844a8965423a6f800052a4f6de4b15a70b2b6f54",
+      "status": "reported"
+    },
+    {
+      "period": "September 7, 2026; SMC interim evidence-preservation request",
+      "denominator": {"value": 1, "unit": "official summons request for preservation of platform evidence", "value_type": "official_filing_artifact"},
+      "measures": {
+        "requested_evidence_domains": {"value": "The pleading asks Snap to preserve Dutch user counts by age, screen time and frequency, feature-level engagement, Snapscore effects, push notifications, recommendation and personalization systems, internal research, age assurance, illegal-content measures, personal-data processing, advertising, revenue, and engagement monetization", "unit": "reported evidence-preservation domains", "value_type": "reported_evidence_request"},
+        "requested_confirmation": {"value": "The pleading requests written confirmation within 14 days of preservation steps", "unit": "reported procedural demand", "value_type": "reported_procedural_demand"},
+        "requested_penalty": {"value": "The pleading requests a possible penalty of €1 million per violation plus €250,000 per day, up to €800 million, or an amount set by the court", "unit": "euros; claimant-requested penalty", "value_type": "reported_claimed_penalty"}
+      },
+      "method": "SMC's official judiciary-hosted summons extract, treated as a request in a pleading rather than an issued preservation order.",
+      "uncertainty": "The source does not establish whether the court granted the preservation request, whether Snap complied, whether the data exists in the requested form, or whether later evidence will substantiate the allegations.",
+      "subgroup": "Dutch Snapchat users and platform systems relevant to the proposed collective action; no user-level data are disclosed.",
+      "counterinterpretation": "The preservation request is itself a signal that collective litigation is trying to move the debate from public claims toward auditable platform telemetry, but a request is not evidence that the underlying mechanisms caused harm.",
+      "source_url": "https://www.rechtspraak.nl/binaries/_rts_1788874729211/content/assets/wamca/2026/uittreksel-dagvaarding-stichting-massaschade-consument-snap.pdf",
+      "retrieval_hash": "sha256:cbbcb1ffc2988baef609b9e3844a8965423a6f800052a4f6de4b15a70b2b6f54",
+      "status": "reported"
+    },
+    {
+      "period": "September 29, 2026; Snapchat's published EU out-of-court dispute-settlement route",
+      "denominator": {"value": 1, "unit": "Snapchat official Article 21 DSA support route", "value_type": "official_platform_process"},
+      "measures": {
+        "eligible_dispute_scope": {"value": "EU users may use a certified independent out-of-court body to challenge certain moderation decisions involving public profiles, Snap Map, Spotlight, or Public Stories", "unit": "reported process scope", "value_type": "reported_redress_scope"},
+        "excluded_scope": {"value": "The route excludes private Stories, direct Snaps, group chats, general account access, data-privacy requests, intellectual-property reports, and law-enforcement requests", "unit": "reported exclusions", "value_type": "reported_redress_exclusions"},
+        "decision_force": {"value": "The independent body's decision is not binding on Snap or the user; Snap states it will engage in good faith", "unit": "reported process consequence", "value_type": "reported_nonbinding_remedy"},
+        "practical_requirement": {"value": "Users must select a certified body whose scope and language cover the dispute and submit directly; bodies may have their own procedures, timelines, and fees", "unit": "reported access condition", "value_type": "reported_access_condition"}
+      },
+      "method": "Snapchat's current official support documentation for EU Digital Services Act Article 21 out-of-court dispute settlement; it describes the platform's published process, not observed user uptake or remedy effectiveness.",
+      "uncertainty": "The page does not report complaint volume, response time, acceptance rate, decisions, restoration rate, user cost, subgroup access, or whether users can obtain remedy for the broader safety, privacy, and design claims in the collective summons.",
+      "subgroup": "EU users challenging eligible public-content or profile moderation decisions; private-message users and people raising privacy, account-access, or systemic-design claims fall outside the described route.",
+      "counterinterpretation": "A certified independent route may make some moderation decisions more contestable, but its narrow scope and nonbinding outcome leave a large gap between individual content appeal and collective claims about platform design, safety, privacy, and monetization.",
+      "source_url": "https://help.snapchat.com/hc/en-us/articles/52335309194516-Out-of-Court-Dispute-Settlement-Under-the-EU-Digital-Services-Act",
+      "retrieval_hash": "sha256:435132160870c9445fd5960b2b07c53adbcbf61231dae7efd6f571721aecbf8b",
+      "status": "reported"
+    },
+    {
+      "period": "July 1-December 31, 2025; Snapchat H2 2025 transparency report",
+      "denominator": {"value": 1, "unit": "Snapchat global transparency-report cycle", "value_type": "platform_report_cycle"},
+      "measures": {
+        "global_in_app_reports": {"value": 22125467, "unit": "in-app reports of Community Guidelines violations", "value_type": "platform_reported_count"},
+        "global_report_response_enforcements": {"value": 6858386, "unit": "enforcement actions in response to in-app reports", "value_type": "platform_reported_count"},
+        "global_unique_accounts_enforced": {"value": 4548479, "unit": "unique accounts enforced in response to in-app reports", "value_type": "platform_reported_count"},
+        "reported_median_turnaround": {"value": 1, "unit": "minute median from detection/report to enforcement action", "value_type": "platform_reported_median"},
+        "drug_enforcements": {"value": 1146275, "unit": "global enforcement actions categorized as Drugs", "value_type": "platform_reported_count"},
+        "child_exploitation_enforcements": {"value": 1316936, "unit": "global enforcement actions categorized as Child Sexual Exploitation & Abuse", "value_type": "platform_reported_count"},
+        "appeals": {"value": 471892, "unit": "global account-lock appeals", "value_type": "platform_reported_count"},
+        "appeal_reinstatements": {"value": 31951, "unit": "global appeal reinstatements", "value_type": "platform_reported_count"},
+        "eu_content_account_reports": {"value": 6754777, "unit": "Europe content and account reports", "value_type": "platform_reported_regional_count"},
+        "eu_total_enforcements": {"value": 2354873, "unit": "Europe total enforcements", "value_type": "platform_reported_regional_count"},
+        "eu_unique_accounts_enforced": {"value": 1629057, "unit": "Europe unique accounts enforced", "value_type": "platform_reported_regional_count"}
+      },
+      "method": "Snapchat's official H2 2025 transparency report, which combines user reports, proactive detection, policy-category enforcement, appeal outcomes, and regional summaries. The report is platform-produced and uses operational definitions that are not an independent audit.",
+      "uncertainty": "Report counts are not unique users or unique harmful exposures; enforcement actions are not equivalent to removed content, protected minors, or resolved harm. The global in-app report and enforcement figures exclude some support-site/email and proactive categories, while the report notes methodological changes across reporting cycles. Regional accounts can change region and cannot be summed straightforwardly.",
+      "subgroup": "Global Snapchat users and accounts, with a Europe regional aggregate; category measures include Drugs, Child Sexual Exploitation & Abuse, and other Community Guidelines reasons but do not identify the Dutch youth-panel population or vape-dealer accounts.",
+      "counterinterpretation": "High reported enforcement volume and short median turnaround may indicate substantial operational capacity, but may also reflect platform-scale reporting, automated actions, repeat reports, policy classification, or uneven detection; they do not resolve whether illicit sellers remain discoverable or whether users receive meaningful remedy.",
+      "source_url": "https://values.snap.com/privacy/transparency-h2-2025?lang=en-GB",
+      "retrieval_hash": "sha256:d56c56d681a61bf4eeb5e565a6d97c3ff9848294917c5155e65bf1df0c9d43c4",
+      "status": "reported"
+    },
+    {
+      "period": "September 17, 2026; EU KIDS Act proposal and burden-of-proof shift",
+      "denominator": {"value": 1, "unit": "European Commission proposal for a European approach to online child safety", "value_type": "legislative_policy_proposal"},
+      "measures": {
+        "under_13_access": {"value": "the proposal prohibits social media platforms from accessing children under age 13", "unit": "reported proposed rule", "value_type": "reported_policy_proposal"},
+        "minimum_account_age": {"value": 15, "unit": "proposed EU-wide minimum age for minors to open an account of their own", "value_type": "reported_policy_proposal"},
+        "safety_by_design": {"value": "service providers would have to show that their services are age-appropriate and safe by design", "unit": "reported proposed accountability standard", "value_type": "reported_policy_proposal"},
+        "burden_shift": {"value": "the proposal shifts the burden from parents and children navigating risky services toward providers demonstrating age-appropriateness and safety", "unit": "reported governance mechanism", "value_type": "analytic_mechanism"},
+        "episode_conversion": {"value": "the policy proposal widens the Snapchat episode from an investigation of current controls toward a prospective safety-by-design and age-assurance regime", "unit": "open institutional conversion route", "value_type": "open_follow_up_stage"}
+      },
+      "method": "European Commission press release on the proposed EU KIDS Act, linked to the broader child-safety and DSA policy context; proposal status is separated from adopted law, platform implementation, enforcement, and child outcomes.",
+      "uncertainty": "A proposal does not establish final legal text, adoption, implementation timetable, age-assurance accuracy, privacy effects, access consequences, platform compliance, or improved safety. Minimum-age rules can also shift young people toward other services or reduce access to beneficial connection and information.",
+      "subgroup": "Children under 13, minors under 15, parents, platforms, app ecosystems, age-assurance providers, educators, and regulators in the European Union.",
+      "counterinterpretation": "Reversing the burden of proof may improve provider accountability, but age thresholds and safety-by-design evidence can create privacy, exclusion, verification, and enforcement tradeoffs; the policy may change formal access without resolving harmful discovery, reporting, or remedy.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu",
+      "retrieval_hash": "sha256:c6db46ff53847a03b24d97168a23deaf4071ededb316f413dd6dc921061e47fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-impact-platforms", "claim": "The Commission describes DSA obligations for platforms accessible to minors and related protection-of-minors guidance."},
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/news/press-statement-european-board-digital-services", "claim": "The European Board for Digital Services describes the Article 28 protection-of-minors implementation and enforcement context."},
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu", "claim": "The Commission's September 2026 KIDS Act proposal shows the wider policy movement toward safety by design, age assurance, and platform accountability."}
+    ,{"source_url": "https://values.snap.com/joint-statement-eu-eprivacy-derogation-expiration?lang=en-GB", "claim": "Snap's April 3, 2026 joint statement describes its adjacent public position on voluntary CSAM detection, privacy, and legal certainty."}
+    ,{"source_url": "https://www.acm.nl/en/publications/acm-launces-dsa-investigation-snapchat-connection-illegal-sale-vaping-products-minors", "claim": "The ACM's September 2025 notice documents the original Dutch investigation and enforcement request concerning vaping products and minors."}
+    ,{"source_url": "https://rookpreventiejeugd.nl/actueel/item/328-artsen-vragen-optreden-acm-tegen-vape-dealers", "claim": "Youth Smoking Prevention Foundation reports a 15-person youth-panel search and contact check used to support its enforcement request; this is advocacy-originated evidence, not a population estimate."}
+    ,{"source_url": "https://somi.nl/somi-stuurt-snapchat-in-duitsland", "claim": "SOMI reports its June 2026 collective procedure against Snapchat and a September 2026 warning/complaint expansion; claimant-reported legal status only."}
+    ,{"source_url": "https://snapchatclaim.nl/en/", "claim": "SOMI's public claim site reports active status, EU opt-in participation, claimed remedies, and the September 8, 2026 second writ; it does not establish court findings or participant prevalence."}
+    ,{"source_url": "https://www.rechtspraak.nl/binaries/_rts_1781017884315/content/assets/wamca/2026/uittreksel-dagvaarding-somi-vs-snap.pdf", "claim": "Dutch judiciary-hosted summons extract makes the proposed group and three categories of allegations public; it is a filing artifact, not a ruling."}
+    ,{"source_url": "https://www.rechtspraak.nl/registers/centraal-register-voor-collectieve-vorderingen", "claim": "Dutch Central Register lists the June 9 and September 8, 2026 Snap collective-action filings and publicly shows the case's filing stage."}
+    ,{"source_url": "https://www.rechtspraak.nl/binaries/_rts_1788874729211/content/assets/wamca/2026/uittreksel-dagvaarding-stichting-massaschade-consument-snap.pdf", "claim": "SMC's judiciary-hosted summons extract adds a second claimant, proposed protective measures, procedural dates, and an evidence-preservation request; all remain pleaded requests."}
+    ,{"source_url": "https://help.snapchat.com/hc/en-us/articles/52335309194516-Out-of-Court-Dispute-Settlement-Under-the-EU-Digital-Services-Act", "claim": "Snapchat's official support documentation defines the EU Article 21 out-of-court dispute route, its public-content scope, exclusions, nonbinding outcome, and access conditions."}
+    ,{"source_url": "https://values.snap.com/privacy/transparency/european-union-audit", "claim": "Snap's EU audit page links its DSA risk assessments and independent audit/implementation reports, providing the broader compliance-document context for the H2 2025 transparency data."}
+  ],
+  "boundary": "This record establishes a named Commission proceeding and its five control surfaces: age assurance, harmful contact, defaults, illegal-product information, and reporting/redress. It also records Snap's adjacent public position on voluntary CSAM detection after the ePrivacy derogation expired, the Dutch ACM's incorporation of a vaping-related investigation into the Commission-led case, a small advocacy-originated youth-panel observation about dealer discoverability, claimant-reported collective litigation and cross-border recruitment, a Dutch judiciary-hosted SOMI summons extract, a separate SMC summons with proposed platform remedies and evidence preservation, Snapchat's published Article 21 DSA dispute route, and Snap's H2 2025 platform-produced transparency telemetry. The youth-panel observation is not a prevalence estimate or independent platform audit; the litigation observations and summons categories are allegations, requests, and proposed group definitions, not court findings, proof of harm, proof of compensation eligibility, or issued preservation orders; the support page is a published process description, not evidence of user uptake or remedy success; the transparency metrics are not an independent audit, unique-user exposure measure, remedy measure, or child-outcome measure. None of these observations establishes a final violation, prevalence or severity of child harm, platform response to the DSA proceeding, user-level exposure, complaint resolution, correction, safety improvement, trust repair, or exit.",
+  "reproduction_audit": {
+    "checked": "2026-09-29",
+    "source_hash_scope": "European Commission press-release PDF IP/26/723, Snap April 3, 2026 public statement HTML, Dutch ACM March 26, 2026 investigation-coordination HTML, Youth Smoking Prevention Foundation August 2025 youth-panel report HTML, SOMI June/September 2026 case notice HTML, SnapchatClaim public case site HTML, Dutch judiciary-hosted SOMI and SMC summons extracts PDF, Dutch Central Register for Collective Actions HTML, Snapchat Article 21 support HTML, Snap H2 2025 transparency HTML, and Snap EU audit-context HTML",
+    "extraction_scope": "Dated enforcement action, investigation areas, national complaint-to-investigation conversion, advocacy-originated small-panel observation, court-hosted summons allegations and proposed groups, competing claimant remedies and evidence-preservation request, official filing-register status, platform-published redress scope and exclusions, claimant-reported litigation and cross-border participation, adjacent corporate position, platform-produced report/enforcement/appeal telemetry, and open follow-up stages only; no respondent-level linkage or independent audit",
+    "status": "reproduced from official European Commission, Snap, Dutch ACM, and advocacy sources"
+  }
+}

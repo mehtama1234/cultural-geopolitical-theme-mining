@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-education-at-a-glance-2026-teacher-shortage-status-place",
+  "title": "Teacher shortages expose education as a social-infrastructure and status bargain",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD, Education at a Glance 2026: OECD Indicators, 2026",
+  "geography": "OECD countries and partner economies, with detailed teacher-shortage indicators for participating education systems",
+  "observations": [
+    {
+      "period": "2024/25 school year; teacher supply and shortage conditions across OECD education systems",
+      "denominator": {"value": 1, "unit": "OECD comparative education-system frame", "value_type": "reported_comparative_frame"},
+      "measures": {
+        "qualification_gap": {"value": 9.1, "unit": "percent of primary and secondary teachers not fully qualified", "value_type": "reported_indicator"},
+        "attrition": {"value": 6.4, "unit": "percent of fully qualified primary and secondary teachers who left during the school year", "value_type": "reported_indicator"},
+        "distribution": {"value": "shortages are more acute in rural, remote and disadvantaged communities and concentrated in mathematics and natural sciences", "unit": "reported spatial and subject pattern", "value_type": "reported_distributional_finding"},
+        "mechanism": {"value": "education quality becomes geographically and socially unequal when a common system relies on unequal access to qualified teachers", "unit": "bounded education-infrastructure mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Internationally comparable OECD education indicators, teacher-shortage data collection, and Teaching and Learning International Survey evidence, supplemented by country-level administrative reporting.",
+      "uncertainty": "Vacancy, qualification, absence, attrition and satisfaction measures are not identical across countries; unfilled positions are only one manifestation of shortage and cross-country comparisons require methodological caution.",
+      "subgroup": "Students and families in remote, rural and disadvantaged communities; learners needing mathematics and science instruction; non-fully-qualified teachers; and schools competing for scarce specialist staff.",
+      "counterinterpretation": "Higher non-qualification shares can reflect alternative certification or entry pathways rather than uniformly lower teaching quality; observed shortages may also reflect local labor-market, demographic or reporting differences.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/education-at-a-glance-2026_3bce4131/b4968bbc-en.pdf",
+      "retrieval_hash": "sha256:ecca09446b9d60b65ba4988c30cba4f3867cf9dc74b1951d658050d7fa89fac5",
+      "status": "reported"
+    },
+    {
+      "period": "2024; teacher work experience, recognition and recruitment conditions",
+      "denominator": {"value": 1, "unit": "OECD lower-secondary teacher survey frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "job_satisfaction": {"value": 85, "unit": "percent of teachers reporting job satisfaction", "value_type": "reported_survey_indicator"},
+        "social_recognition": {"value": 22, "unit": "percent of teachers who believe teaching is valued by society", "value_type": "reported_survey_indicator"},
+        "terms_and_pay": {"value": "68% of lower-secondary teachers report satisfaction with employment terms excluding salary, while 39% report salary satisfaction", "unit": "reported survey contrast", "value_type": "reported_survey_finding"},
+        "mechanism": {"value": "retention and recruitment depend not only on pay but also on workload, autonomy, school climate, relationships, leadership, career development and public status", "unit": "bounded occupational-attractiveness mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD teacher-shortage indicators and TALIS 2024 survey evidence on lower-secondary teachers’ working conditions, satisfaction and perceptions of social value.",
+      "uncertainty": "These are self-reported cross-sectional associations and do not establish which condition causes entry, retention or exit; satisfaction and public recognition may be shaped by country-specific institutional and cultural context.",
+      "subgroup": "Teachers, prospective entrants, students and parents, school leaders, mid-career professionals, and communities that depend on stable school relationships.",
+      "counterinterpretation": "Public recognition may be an outcome of broader working conditions or media narratives rather than an independent retention lever; raising status without reducing workload or improving pay may not change supply.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/education-at-a-glance-2026_3bce4131/b4968bbc-en.pdf",
+      "retrieval_hash": "sha256:ecca09446b9d60b65ba4988c30cba4f3867cf9dc74b1951d658050d7fa89fac5",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2033; demographic change, teacher careers and qualification value",
+      "denominator": {"value": 1, "unit": "OECD projection and comparative labor-market frame", "value_type": "reported_projection_frame"},
+      "measures": {
+        "demographic_shift": {"value": -9, "unit": "percent projected change in the OECD population aged 5–14 between 2024 and 2033", "value_type": "reported_projection"},
+        "ageing_workforce": {"value": 25, "unit": "percent of OECD secondary teachers aged 55 or older", "value_type": "reported_indicator"},
+        "second_career": {"value": 8.4, "unit": "percent of lower-secondary teachers who are second-career entrants", "value_type": "reported_indicator"},
+        "qualification_uncertainty": {"value": "between 2023 and 2025, unemployment among tertiary-educated 25–34 year-olds rose 0.4 percentage points while it fell 0.2 points among those with upper-secondary attainment", "unit": "reported labor-market change", "value_type": "reported_indicator"},
+        "mechanism": {"value": "declining student numbers do not automatically relieve shortages because demographic change, retirement, regional allocation, career mobility and changing returns to qualifications must be coordinated", "unit": "bounded demographic-allocation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD demographic projections, education workforce indicators, second-career teacher measures and labor-market indicators by educational attainment.",
+      "uncertainty": "The qualification-employment divergence is a short recent period and the report says it is too early to determine whether it is temporary or a lasting shift; projections are conditional and do not predict local school closures or staffing outcomes.",
+      "subgroup": "Older teachers approaching retirement, mid-career entrants, young tertiary graduates, students in shrinking or growing regions, and communities affected by teacher reallocation.",
+      "counterinterpretation": "Lower enrolment could create fiscal and staffing room if systems reallocate effectively; a short-term rise in tertiary-educated unemployment does not demonstrate a structural collapse in the value of higher education or an AI-driven shift.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/education-at-a-glance-2026_3bce4131/b4968bbc-en.pdf",
+      "retrieval_hash": "sha256:ecca09446b9d60b65ba4988c30cba4f3867cf9dc74b1951d658050d7fa89fac5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en.html", "claim": "Official OECD publication page with key figures, teacher-shortage findings, metadata and country coverage."},
+    {"source_url": "https://doi.org/10.1787/b4968bbc-en", "claim": "Official DOI for Education at a Glance 2026."}
+  ],
+  "boundary": "This record identifies teacher supply as a social-infrastructure and status problem: unequal staffing, working conditions, public recognition, demographic change and labor-market competition shape the stability of education access. It is comparative indicator and survey evidence, not causal proof that any single salary, AI, second-career or reallocation policy improves learning, retention, equity or social trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD PDF and publication page, teacher-shortage key figures, spatial and subject distribution, qualification and attrition measures, satisfaction and recognition contrasts, second-career pathways, demographic projections, and recent qualification-employment divergence were reviewed.",
+    "source_url_sha256": "sha256:ecca09446b9d60b65ba4988c30cba4f3867cf9dc74b1951d658050d7fa89fac5",
+    "checked": "2026-09-29"
+  }
+}

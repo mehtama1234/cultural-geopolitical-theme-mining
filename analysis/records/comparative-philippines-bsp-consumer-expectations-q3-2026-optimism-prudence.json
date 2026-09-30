@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-philippines-bsp-consumer-expectations-q3-2026-optimism-prudence",
+  "title": "Philippine households become more optimistic about the year ahead while remaining prudent about daily spending and borrowing",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Bangko Sentral ng Pilipinas Consumer Expectations Survey Q3 2026, summarized by the Philippine Information Agency, released 28 September 2026",
+  "geography": "Philippines; nationwide household survey of 5,476 households, including 2,457 in the National Capital Region and 3,019 outside NCR",
+  "observations": [
+    {
+      "period": "Q3 2026; present, near-term, and one-year consumer outlook",
+      "denominator": {"value": 5476, "unit": "households surveyed nationwide; 98.9% response rate; margin of sampling error ±1.3 percentage points", "value_type": "published_survey_sample"},
+      "measures": {
+        "current_outlook": {"value": -29.8, "unit": "percent consumer confidence index for current quarter", "value_type": "published_survey_estimate"},
+        "next_quarter_outlook": {"value": -0.8, "unit": "percent consumer confidence index for next quarter", "value_type": "published_survey_estimate"},
+        "one_year_outlook": {"value": 9.1, "unit": "percent consumer confidence index for next 12 months", "value_type": "published_survey_estimate"},
+        "expectation_horizon_gap": {"value": "Current and next-quarter sentiment remained negative while the one-year outlook became positive, indicating a temporal split between present strain and anticipated recovery", "unit": "analytic household-expectation mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "BSP Consumer Expectations Survey conducted 1–13 July 2026 using a nationwide household sample drawn from the Philippine Statistics Authority's 2023 Geo-Enabled Master Sample.",
+      "uncertainty": "Confidence indices measure household expectations and perceptions, not realized income, employment, spending, or economic recovery; the release does not establish why horizons diverge for each household.",
+      "subgroup": "Households nationwide, divided in the release between National Capital Region and areas outside NCR.",
+      "counterinterpretation": "Positive year-ahead confidence may reflect expected earnings or employment improvements that do not materialize; negative current sentiment can coexist with rational investment or recovery expectations.",
+      "source_url": "https://pia.gov.ph/press-release/consumer-confidence-improves-in-q3-20261/",
+      "retrieval_hash": "sha256:057889446a6c08dc91468569bb03e3cc210017630524c903df1ef2b17dedfed7",
+      "status": "reported"
+    },
+    {
+      "period": "Q3 2026; saving, daily spending, borrowing, and big-ticket plans",
+      "denominator": {"value": 5476, "unit": "households surveyed nationwide", "value_type": "published_survey_sample"},
+      "measures": {
+        "saving_prospects": {"value": "Households reported stronger saving prospects", "unit": "reported household-expectation pattern", "value_type": "reported_pattern"},
+        "daily_spending": {"value": "Plans for day-to-day household spending weakened", "unit": "reported household-intention pattern", "value_type": "reported_pattern"},
+        "borrowing": {"value": "Borrowing intentions were lower", "unit": "reported household-intention pattern", "value_type": "reported_pattern"},
+        "big_ticket": {"value": "More households indicated likely purchases of big-ticket items such as real estate and motor vehicles over the next 12 months", "unit": "reported purchase-intention pattern", "value_type": "reported_pattern"},
+        "prudent_optimism": {"value": "Optimism is expressed through future asset or mobility plans while everyday spending and borrowing remain cautious", "unit": "analytic consumption mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "BSP CES questions on saving, day-to-day expenditures, borrowing, and intended big-ticket purchases.",
+      "uncertainty": "The release summary does not provide all subgroup percentages or distinguish replacement, investment, necessity, and discretionary purchases; intentions may not become transactions.",
+      "subgroup": "Philippine households with differing income, location, family obligations, and access to saving or credit.",
+      "counterinterpretation": "Reduced borrowing can reflect healthier balance-sheet behavior rather than constraint, while big-ticket intentions can represent deferred purchases or expected price changes.",
+      "source_url": "https://pia.gov.ph/press-release/consumer-confidence-improves-in-q3-20261/",
+      "retrieval_hash": "sha256:057889446a6c08dc91468569bb03e3cc210017630524c903df1ef2b17dedfed7",
+      "status": "reported"
+    },
+    {
+      "period": "Q3 2026; inflation expectations and household price exposure",
+      "denominator": {"value": 5476, "unit": "households surveyed nationwide", "value_type": "published_survey_sample"},
+      "measures": {
+        "inflation_target": {"value": 3.0, "unit": "percent BSP 2026 inflation target", "value_type": "published_policy_reference"},
+        "inflation_tolerance": {"value": 4.0, "unit": "percent upper tolerance ceiling referenced in the release", "value_type": "published_policy_reference"},
+        "inflation_expectations": {"value": "Year-ahead household inflation expectations exceeded the 3.0% target but remained within the 4.0% tolerance ceiling", "unit": "reported expectation pattern", "value_type": "reported_pattern"},
+        "price_sources": {"value": "Respondents citing accelerating inflation pointed to higher food and utility prices and limited measures to mitigate price pressure", "unit": "reported attribution pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "BSP CES household questions on inflation expectations and reasons for expected acceleration, as summarized in the government release.",
+      "uncertainty": "The accessible summary does not give the exact inflation-expectation mean or subgroup distributions; attributed causes are respondent perceptions, not decomposition of measured inflation.",
+      "subgroup": "Households exposed differently to food, utilities, and policy responses.",
+      "counterinterpretation": "Expectations within the tolerance ceiling can still reduce household room unevenly; stable aggregate inflation does not imply stable lived costs across baskets.",
+      "source_url": "https://pia.gov.ph/press-release/consumer-confidence-improves-in-q3-20261/",
+      "retrieval_hash": "sha256:057889446a6c08dc91468569bb03e3cc210017630524c903df1ef2b17dedfed7",
+      "status": "reported"
+    },
+    {
+      "period": "Q3 2026; geographic coverage and policy use",
+      "denominator": {"value": 5476, "unit": "households surveyed nationwide; 2,457 NCR and 3,019 outside NCR", "value_type": "published_survey_sample"},
+      "measures": {
+        "ncr_share": {"value": 2457, "unit": "households sampled in the National Capital Region", "value_type": "published_sample_subgroup"},
+        "outside_ncr": {"value": 3019, "unit": "households sampled outside the National Capital Region", "value_type": "published_sample_subgroup"},
+        "policy_signal": {"value": "BSP identifies consumer sentiment, spending, and investment expectations as inputs into monetary-policy monitoring, while noting possible Middle East effects", "unit": "reported policy-use route", "value_type": "reported_policy_route"},
+        "geographic_visibility": {"value": "A national optimism signal requires attention to how capital-region and non-capital households experience prices, income, employment, and big-ticket access", "unit": "analytic geographic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Published survey design and policy-use description from the BSP CES release summary.",
+      "uncertainty": "The summary provides sample allocation but not a full NCR/non-NCR outcome table; the policy-use statement does not show how survey signals changed a decision.",
+      "subgroup": "National Capital Region and areas outside NCR, with different labor, remittance, infrastructure, and price exposures.",
+      "counterinterpretation": "Geographic sample allocation improves national coverage but does not by itself establish regional representativeness for every outcome or household type.",
+      "source_url": "https://pia.gov.ph/press-release/consumer-confidence-improves-in-q3-20261/",
+      "retrieval_hash": "sha256:057889446a6c08dc91468569bb03e3cc210017630524c903df1ef2b17dedfed7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bsp.gov.ph/SitePages/MediaAndResearch/PublicationsAndReports.aspx", "claim": "BSP publications and Consumer Expectations Survey context."},
+    {"source_url": "https://pia.gov.ph/press-release/consumer-confidence-improves-in-q3-20261/", "claim": "Government press release summarizing the Q3 2026 CES and linking the full report, tables, and infographic."}
+  ],
+  "boundary": "This record adds a comparative household route from present strain and price exposure through future optimism, saving, daily spending restraint, borrowing, big-ticket intentions, and geographic coverage. It does not establish realized recovery, asset purchases, debt outcomes, causal monetary-policy effects, or uniform household behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Philippine government press release reviewed for sample design, response rate, confidence indices, saving/spending/borrowing and big-ticket patterns, inflation expectations, geographic allocation, and policy-use framing.",
+    "source_url_sha256": "sha256:057889446a6c08dc91468569bb03e3cc210017630524c903df1ef2b17dedfed7",
+    "checked": "2026-09-29"
+  }
+}

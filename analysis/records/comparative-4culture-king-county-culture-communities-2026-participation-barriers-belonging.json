@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-4culture-king-county-culture-communities-2026-participation-barriers-belonging",
+  "title": "Culture functions as everyday social infrastructure, but cost, time and accessibility still shape who can participate",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "4Culture and Wilkening Consulting, Doors Open Culture and Communities Study",
+  "geography": "King County, Washington; representative resident sample and supplementary cultural-audience sample",
+  "observations": [
+    {
+      "period": "Winter 2026 fieldwork; report June-July 2026; cultural participation and community value",
+      "denominator": {"value": 963, "unit": "demographically representative King County residents; supplementary cultural-audience sample n=1787", "value_type": "survey_respondents"},
+      "measures": {
+        "cultural_participation": {"value": 93, "unit": "per cent of King County residents participating in at least one defined cultural activity recently", "value_type": "published_survey_estimate"},
+        "community_value": {"value": 97, "unit": "per cent saying cultural organizations positively impact their community", "value_type": "published_survey_estimate"},
+        "participation_depth": {"value": 58, "unit": "per cent participating in at least three cultural activities in the prior year", "value_type": "published_survey_estimate"},
+        "cultural_infrastructure_frame": {"value": "Residents associate cultural organizations with bringing people together, honoring diversity, education, quality of life, community engagement and economic vitality.", "unit": "reported community-impact interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Representative online survey of King County residents purchased through an online panel, supplemented with a cultural-audience sample recruited through nine cultural organizations; participation is defined through 4Culture-funded activity categories.",
+      "uncertainty": "The study is regional and partly commissioned by a cultural-funding agency; self-reported participation and perceived impact do not establish attendance records, causal community outcomes or equal benefit across neighborhoods.",
+      "subgroup": "King County residents, cultural audiences, families, younger adults, older adults and residents participating across arts, heritage, preservation, science and technology activities.",
+      "counterinterpretation": "High participation may reflect a broad definition that includes occasional or informal activities; positive views of cultural organizations may reflect local civic identity or survey framing rather than measured public value.",
+      "source_url": "https://www.4culture.org/wp-content/uploads/2026/07/King-County-Culture-Communities-Study-%E2%80%93-Findings-Brief_a11y.pdf",
+      "retrieval_hash": "sha256:0bdebb7c2c5e73dda223398a5580dd70091ec36807f849a8332f10f575cc258f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 fieldwork; perceived health, connection, identity and learning outcomes",
+      "denominator": {"value": 963, "unit": "King County resident survey respondents", "value_type": "survey_respondents"},
+      "measures": {
+        "positive_health_wellbeing": {"value": 95, "unit": "per cent reporting positive health and wellbeing outcomes from cultural participation", "value_type": "published_survey_estimate"},
+        "positive_education_emotion": {"value": 93, "unit": "per cent reporting positive educational and emotional outcomes", "value_type": "published_survey_estimate"},
+        "connection_outcome": {"value": 45, "unit": "per cent identifying feeling more connected to others or less alone as a health/wellbeing outcome", "value_type": "published_survey_estimate"},
+        "identity_representation": {"value": 29, "unit": "per cent identifying feeling seen through perspectives or histories like their own as an outcome", "value_type": "published_survey_estimate"}
+      },
+      "method": "Resident survey questions on perceived individual outcomes from participation; outcomes are self-attributed rather than measured before and after an activity.",
+      "uncertainty": "These are perceived associations and may reflect self-selection, retrospective attribution, existing wellbeing or the type of activity attended; the study does not estimate causal health, learning or belonging effects.",
+      "subgroup": "King County residents participating in cultural activities, including family/friend connection, joy, intellectual stimulation, mental health, cultural identity and reduced loneliness.",
+      "counterinterpretation": "People who already feel connected or well may be more likely to participate and report benefits; cultural participation may be one component of a larger leisure and support system.",
+      "source_url": "https://www.4culture.org/wp-content/uploads/2026/07/King-County-Culture-Communities-Study-%E2%80%93-Findings-Brief_a11y.pdf",
+      "retrieval_hash": "sha256:0bdebb7c2c5e73dda223398a5580dd70091ec36807f849a8332f10f575cc258f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 fieldwork; participation depth and unequal leisure room",
+      "denominator": {"value": 963, "unit": "King County resident survey respondents", "value_type": "survey_respondents"},
+      "measures": {
+        "no_participation": {"value": 7, "unit": "per cent reporting no defined cultural participation", "value_type": "published_survey_estimate"},
+        "moderate_participation": {"value": 34, "unit": "per cent in the moderate participation category based on frequency and breadth score", "value_type": "published_survey_estimate"},
+        "high_participation": {"value": 31, "unit": "per cent in high or extremely high participation categories", "value_type": "published_survey_estimate"},
+        "constraint_pattern": {"value": "Lower-participation residents report less frequent non-cultural leisure activity and greater external constraints on leisure time, including financial constraints; older adults are more represented among lower-participation groups.", "unit": "reported participation and constraint pattern", "value_type": "published_association"}
+      },
+      "method": "Participation score combining frequency of museum and live-performance attendance with breadth across additional cultural activities; resident survey comparisons by life stage and constraints.",
+      "uncertainty": "The participation score is a study-specific measure and does not capture all informal, digital or culturally specific practices; associations with age and constraints do not identify causal exclusion mechanisms.",
+      "subgroup": "King County residents by participation depth, age, parental status, leisure constraints and socioeconomic conditions.",
+      "counterinterpretation": "Lower formal participation may reflect different cultural preferences rather than deprivation; broadening access should not assume institutions are the only or preferred cultural spaces.",
+      "source_url": "https://www.4culture.org/wp-content/uploads/2026/07/King-County-Culture-Communities-Study-%E2%80%93-Findings-Brief_a11y.pdf",
+      "retrieval_hash": "sha256:0bdebb7c2c5e73dda223398a5580dd70091ec36807f849a8332f10f575cc258f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 fieldwork; cost, time and accessibility barriers",
+      "denominator": {"value": 963, "unit": "King County resident survey respondents", "value_type": "survey_respondents"},
+      "measures": {
+        "barriers": {"value": "Residents identify cost, time and competing priorities as primary barriers to participating more often.", "unit": "reported barrier pattern", "value_type": "published_survey_estimate"},
+        "cost_exposure": {"value": "Cost barriers are greatest for adults under 40 without children, families with young children and lower-income households.", "unit": "reported subgroup association", "value_type": "published_subgroup_comparison"},
+        "accessibility_need": {"value": 60, "unit": "per cent of households naming an accessibility need related to attending cultural activities", "value_type": "published_survey_estimate"},
+        "public_support": {"value": 92, "unit": "per cent agreeing the King County Council should support county cultural organizations", "value_type": "published_survey_estimate"}
+      },
+      "method": "Resident survey questions on participation barriers, household accessibility needs and expectations of public cultural support.",
+      "uncertainty": "The public brief does not provide every barrier denominator or detailed overlap across cost, time, disability, caregiving and transportation; stated support for public funding is not a budget-behavior or distributional-impact estimate.",
+      "subgroup": "Young adults, families with children, lower-income households and households managing social, emotional or physical accessibility needs.",
+      "counterinterpretation": "Free or reduced-cost admission may not resolve time, transport, caregiving, welcome or program-relevance barriers; public support may favor cultural infrastructure without agreeing on which institutions or activities receive funds.",
+      "source_url": "https://www.4culture.org/wp-content/uploads/2026/07/King-County-Culture-Communities-Study-%E2%80%93-Findings-Brief_a11y.pdf",
+      "retrieval_hash": "sha256:0bdebb7c2c5e73dda223398a5580dd70091ec36807f849a8332f10f575cc258f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.4culture.org/culture-and-communities-study/", "claim": "Official 4Culture study page with full graphic report, findings brief, presentations, companion analyses and methodology context."},
+    {"source_url": "https://www.4culture.org/", "claim": "4Culture public agency context for King County cultural funding and Doors Open program."}
+  ],
+  "boundary": "This record adds a local cultural-infrastructure layer: culture is widely experienced and valued as connection, identity, learning, wellbeing and community quality of life, while cost, time, competing priorities and accessibility shape depth and equity of participation. It is a King County survey and program-baseline study with self-reported outcomes, not a national cultural census, attendance register, causal impact evaluation or economic-impact estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official 4Culture Culture and Communities Study page and accessible Findings Brief were reviewed for resident and cultural-audience samples, participation, community value, self-reported individual outcomes, participation depth, barriers, accessibility needs, public support and study boundaries.",
+    "source_url_sha256": "sha256:0bdebb7c2c5e73dda223398a5580dd70091ec36807f849a8332f10f575cc258f",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ikea-life-at-home-report-2026-home-resilience-needs-climate-action",
+  "title": "Home is becoming a resilience and control infrastructure as financial, health, climate, and technological pressures enter everyday life",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "IKEA Life at Home Report 2026, with quantitative research by YouGov",
+  "geography": "Adults aged 18+ in 31 countries; global results weight each country equally",
+  "observations": [
+    {
+      "period": "2025 survey, published September 2026; everyday concerns and climate exposure",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ interviewed across 31 countries; national samples weighted by gender, age, and geography; countries equally weighted globally", "value_type": "published_representative_online_survey"},
+      "measures": {
+        "top_concerns": {"value": "household finances/disposable income 37%; physical health 37%; state of economy 31%", "unit": "percent selecting concern", "value_type": "reported_share"},
+        "climate_worry": {"value": 64, "unit": "percent worried about climate change", "value_type": "reported_share"},
+        "personal_climate_impact": {"value": 45, "unit": "percent feeling personally impacted by climate change", "value_type": "reported_share"},
+        "climate_action": {"value": "83% already taking climate action; 81% willing to do more", "unit": "reported shares", "value_type": "reported_share_set"}
+      },
+      "method": "IKEA Life at Home quantitative study conducted online by YouGov in July 2025; each country weighted to its target population and each country given equal weight in global results.",
+      "uncertainty": "The source is commissioned corporate research and reports self-described concerns and actions; online survey responses do not establish observed behavior, causal effects, or representative weighting of the world's population.",
+      "subgroup": "Adults in 31 countries, with additional life-stage, age, and living-situation comparisons reported by the study.",
+      "counterinterpretation": "High stated climate concern and willingness may coexist with limited capacity to act; financial pressure can motivate lower-resource choices while also blocking upfront sustainable purchases.",
+      "source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/",
+      "retrieval_hash": "sha256:c2d47fad70a7b2f4551b481431abbf19391a0f3ab4e0a0f0a7e6d81de9a803f3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; home needs and experience gaps",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ interviewed across 31 countries", "value_type": "published_representative_online_survey"},
+      "measures": {
+        "security_gap": {"value": "82% say security is important at home, while 68% experience it regularly", "unit": "reported importance and experience shares", "value_type": "reported_gap"},
+        "comfort_gap": {"value": "86% say comfort is important, while 66% experience it regularly", "unit": "reported importance and experience shares", "value_type": "reported_gap"},
+        "control_gap": {"value": "74% say control is important, while 59% experience it regularly", "unit": "reported importance and experience shares", "value_type": "reported_gap"},
+        "optimism_association": {"value": "65% of people happy with life at home are positive about the future versus 48% global average", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "Cross-sectional self-report survey with reported importance-versus-regular-experience comparisons; the optimism comparison is associational.",
+      "uncertainty": "The gaps measure perceptions rather than objective housing quality, affordability, safety, or neighborhood conditions; the association does not show that home satisfaction causes optimism.",
+      "subgroup": "People living in different household arrangements, generations, life stages, and transition situations.",
+      "counterinterpretation": "Home can provide emotional and practical stability without compensating for unaffordable housing, insecure work, health costs, climate exposure, or social isolation outside the household.",
+      "source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/",
+      "retrieval_hash": "sha256:c2d47fad70a7b2f4551b481431abbf19391a0f3ab4e0a0f0a7e6d81de9a803f3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; age-patterned concerns",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ across 31 countries; selected comparison shown for Gen Z ages 18-29 and Baby Boomers ages 61-79", "value_type": "published_representative_online_survey"},
+      "measures": {
+        "gen_z_concerns": {"value": "mental health 36%; screen time 32%; physical health 28%; country economy 27%; relationships 21%; societal division 14%", "unit": "reported shares among Gen Z comparison", "value_type": "reported_share_set"},
+        "boomer_concerns": {"value": "physical health 48%; country economy 35%; societal division 27%; mental health 20%; screen time 15%; relationships 15%", "unit": "reported shares among Baby Boomer comparison", "value_type": "reported_share_set"},
+        "life_stage_signal": {"value": "concerns differ by age and life situation, with younger adults more focused on screen time, mental health, and relationships and older adults more focused on economy, physical health, and societal division", "unit": "reported subgroup pattern", "value_type": "reported_synthesis"}
+      },
+      "method": "Age-group comparison from the Life at Home survey; values are reported self-selected concerns, not clinical or behavioral measures.",
+      "uncertainty": "Differences may reflect age, cohort, living arrangements, economic position, survey interpretation, or unequal exposure to household and social pressures; they do not identify causes.",
+      "subgroup": "Gen Z adults aged 18-29 and Baby Boomers aged 61-79 in the 31-country survey frame.",
+      "counterinterpretation": "Shared concerns can be more important than age differences: financial and health pressures cut across generations even when their most salient household worries differ.",
+      "source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/",
+      "retrieval_hash": "sha256:c2d47fad70a7b2f4551b481431abbf19391a0f3ab4e0a0f0a7e6d81de9a803f3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey; affordability and everyday climate-action conversion",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ across 31 countries", "value_type": "published_representative_online_survey"},
+      "measures": {
+        "money_motivation": {"value": 54, "unit": "percent saying saving money would motivate more climate action", "value_type": "reported_share"},
+        "health_motivation": {"value": 41, "unit": "percent saying health benefits would motivate more climate action", "value_type": "reported_share"},
+        "impact_knowledge": {"value": 42, "unit": "percent identifying knowing the impact of efforts as a climate-action motivator", "value_type": "reported_share"},
+        "action_ease": {"value": 39, "unit": "percent identifying ease of action as a climate-action motivator", "value_type": "reported_share"},
+        "information_need": {"value": 37, "unit": "percent identifying more information or advice as a climate-action motivator", "value_type": "reported_share"}
+      },
+      "method": "Survey question on motivators for taking more climate action; responses are self-reported preferences rather than tested interventions.",
+      "uncertainty": "Stated motivators may not predict actual purchases, repairs, energy use, or emissions; the commercial sponsor's framing may influence what actions are made salient.",
+      "subgroup": "Households balancing disposable income, health, convenience, information, and sustainability choices.",
+      "counterinterpretation": "Making sustainable action cheaper and easier may broaden participation, but household-level action cannot substitute for infrastructure, regulation, product standards, or supply-chain change.",
+      "source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/",
+      "retrieval_hash": "sha256:c2d47fad70a7b2f4551b481431abbf19391a0f3ab4e0a0f0a7e6d81de9a803f3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2025/", "claim": "Prior Life at Home editions provide a longitudinal comparison frame for household needs and experience gaps."},
+    {"source_url": "https://www.weforum.org/publications/top-10-emerging-technologies-of-2026/in-full/the-emerging-landscape/", "claim": "Complementary technology foresight on distributed infrastructure, point-of-use production, trust, and access."},
+    {"source_url": "https://www.weforum.org/publications/chief-sustainability-officers-outlook-september-2026/", "claim": "Complementary executive evidence on climate transition, adaptation, and the business case for sustainability."}
+  ],
+  "boundary": "This record adds a consumer-and-household route linking financial and health pressure, climate concern, technology stress, life-stage differences, security, comfort, control, and the practical conversion of sustainability motivation. It uses a commissioned YouGov survey and IKEA interpretive framing, not observed household behavior, objective housing conditions, representative global-population inference, causal wellbeing evidence, or proof that products or services close the reported gaps.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official IKEA Life at Home Report 2026 page and associated methodology description were reviewed for sample, weighting, concern, need-gap, age-pattern, optimism, and climate-action measures.",
+    "source_url_sha256": "sha256:c2d47fad70a7b2f4551b481431abbf19391a0f3ab4e0a0f0a7e6d81de9a803f3",
+    "checked": "2026-09-26"
+  }
+}

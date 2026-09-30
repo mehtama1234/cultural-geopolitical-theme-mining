@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-sweden-internet-foundation-2026-ai-detox-digital-services-social-norms",
+  "title": "Sweden's digital life expands and contracts at once: AI adoption rises while people seek detox, social boundaries, and safer public-service access",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Internet Foundation Sweden, Swedes and the Internet 2026 annual internet-use study",
+  "geography": "Sweden; residents surveyed about internet use, AI, digital public services, social media, mobile etiquette, and digital detox",
+  "observations": [
+    {
+      "period": "2026; AI use, search substitution, and verification",
+      "denominator": {"value": 3776, "unit": "respondents in Study 1 of the Novus randomly recruited Swedish panel; major share of report data", "value_type": "published_survey_sample"},
+      "measures": {
+        "ai_service_use": {"value": 62, "unit": "percent of Swedes using AI services in 2026", "value_type": "published_survey_estimate"},
+        "google_ai_overview_use": {"value": 71, "unit": "percent reporting use of Google's AI overviews", "value_type": "published_survey_estimate"},
+        "any_ai_use": {"value": 81, "unit": "percent using either AI services or Google's AI overviews", "value_type": "published_survey_estimate"},
+        "reduced_google_use": {"value": 14, "unit": "percent saying they Google less often than one year earlier", "value_type": "published_survey_estimate"},
+        "ai_answer_verification": {"value": 76, "unit": "percent of AI users who usually double-check whether an AI answer is correct", "value_type": "published_survey_estimate"},
+        "ai_adoption_mechanism": {"value": "AI is moving from a distinct tool into ordinary search and service routines, while verification remains a user-side repair behavior", "unit": "bounded digital-use mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Internet Foundation annual study using several sub-studies; most data came from Study 1, collected mainly in January 2026 through the Novus randomly recruited Sweden panel, with a 59 percent participation rate and weighting to Statistics Sweden on gender, age, education, and geography.",
+      "uncertainty": "The study is a weighted survey of reported use and perceptions, not passive device measurement, verified search logs, or a causal evaluation of AI on work, learning, or information quality; question bases vary across sub-studies.",
+      "subgroup": "Swedish residents aged 16 or older for core population estimates, with age, gender, work, study, and internet-user breakdowns in selected modules.",
+      "counterinterpretation": "AI use may include light or incidental exposure through search interfaces and does not establish delegation, purchase, productivity, trust, or durable substitution away from search.",
+      "source_url": "https://svenskarnaochinternet.se/rapporter/svenskarna-och-internet-2026/",
+      "retrieval_hash": "sha256:d3288f0b8fbed794100def165b8c993154e869d4a13cb6754a2ccc27f40b60ee",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital mailbox adoption and age-conditioned usability",
+      "denominator": {"value": 3776, "unit": "Study 1 respondents, with item-specific bases for digital-mailbox users and age groups", "value_type": "published_survey_sample"},
+      "measures": {
+        "digital_mailbox_use": {"value": 77, "unit": "percent of Swedes using a digital mailbox in 2026", "value_type": "published_survey_estimate"},
+        "older_users_find_mailbox_harder": {"value": 25, "unit": "percent of digital-mailbox users aged 76 or older who report that the service makes things harder", "value_type": "published_subgroup_estimate"},
+        "internet_nonuse": {"value": 4, "unit": "percent of the population aged 16 or older not using the internet", "value_type": "published_survey_estimate"},
+        "digital_service_conversion": {"value": "High digital-service adoption can coexist with age-specific friction, notification uncertainty, fragmented inboxes, and fear of missing a bill or official message", "unit": "bounded public-service usability mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Weighted Internet Foundation survey estimates with qualitative open-text responses about why digital mailboxes help or hinder; digital-mailbox usability estimates use the relevant user and age subgroup bases.",
+      "uncertainty": "Reported difficulty is not a measured missed-payment rate, administrative error, or causal effect of digital mailbox design; the study does not link a respondent to actual notices, bills, or remedy outcomes.",
+      "subgroup": "Swedish digital-mailbox users, especially users aged 76 or older and older women.",
+      "counterinterpretation": "Some older users may prefer paper for familiarity or overview even when digital services function technically; perceived difficulty does not imply universal exclusion or failed delivery.",
+      "source_url": "https://svenskarnaochinternet.se/app/uploads/2026/09/svenskarna-och-internet-2026-sammanfattning.pdf",
+      "retrieval_hash": "sha256:1c1b707f12c7af002ab854f5a603ebfd9c47f576421b792082c0500f7c8df9c0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; passive scrolling, digital detox, and mobile social norms",
+      "denominator": {"value": 3776, "unit": "Study 1 respondents with item-specific bases for scrolling, detox, and relationship questions", "value_type": "published_survey_sample"},
+      "measures": {
+        "passive_scrolling_too_long": {"value": 80, "unit": "percent saying they get stuck passive-scrolling on the phone for too long", "value_type": "published_survey_estimate"},
+        "feel_worse_from_scrolling": {"value": 40, "unit": "percent saying passive scrolling makes them feel worse or more than 40 percent as reported in the release", "value_type": "published_survey_estimate"},
+        "completed_digital_detox": {"value": 30, "unit": "percent who have completed a digital detox", "value_type": "published_survey_estimate"},
+        "interested_in_detox": {"value": 50, "unit": "approximately percent interested in taking a break from digital life", "value_type": "published_survey_estimate"},
+        "detox_benefit": {"value": 66, "unit": "approximately percent of people who took a digital pause reporting mainly benefits", "value_type": "published_subgroup_estimate"},
+        "mobile_social_deprioritization": {"value": 70, "unit": "percent feeling deprioritized when someone they are with looks at their phone instead of them", "value_type": "published_survey_estimate"},
+        "digital_rebalancing_mechanism": {"value": "Digital adoption is accompanied by emerging norms that treat attention, presence, sleep, and social reciprocity as scarce resources worth protecting", "unit": "bounded cultural-consumer mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Internet Foundation survey questions on passive scrolling, digital-detox behavior, perceived effects, and mobile etiquette, supplemented by open-ended responses; the items are self-reported and cross-sectional.",
+      "uncertainty": "The estimates do not measure screen-time logs, clinical wellbeing, actual sleep, relationship quality, or whether a detox persists; the release uses rounded language for some figures and different item bases may apply.",
+      "subgroup": "Swedish internet users and mobile users, with selected gender, age, relationship, and young-adult comparisons.",
+      "counterinterpretation": "Reported interest in detox may be a cultural ideal or temporary response rather than durable behavior; scrolling can be entertainment or social contact as well as unwanted time loss, and phone use may coexist with in-person connection.",
+      "source_url": "https://internetstiftelsen.se/om-oss/press/pressmeddelanden/ny-rapport-ai-anvandningen-rusar-samtidigt-som-digital-detox-lockar/",
+      "retrieval_hash": "sha256:42fc73bec2602a5789273bb10968587731db101d38a4bce51b9398b7b6fed316",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://svenskarnaochinternet.se/rapporter/svenskarna-och-internet-2026/english/", "claim": "English report navigation and summaries for internet use, AI, social media, digital detox, and mobile etiquette."},
+    {"source_url": "https://svenskarnaochinternet.se/app/uploads/2026/09/svenskarna-och-internet-2026-sammanfattning.pdf", "claim": "Official 2026 summary with study design, sample, weighting, headline estimates, and chapter-level caveats."},
+    {"source_url": "https://internetstiftelsen.se/om-oss/press/pressmeddelanden/ny-rapport-ai-anvandningen-rusar-samtidigt-som-digital-detox-lockar/", "claim": "Internet Foundation release provides the September 28 publication date and headline AI, digital-mailbox, scrolling, detox, and mobile-etiquette findings."}
+  ],
+  "boundary": "This record adds a Sweden-specific cultural and digital-life layer connecting AI diffusion, search substitution, verification, digital public-service usability, passive attention, detox, and mobile social norms. It does not establish actual AI performance, passive behavioral logs, clinical effects, service failure, household welfare, or causal cultural change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Internet Foundation press release, 2026 report page, English navigation, and official summary PDF were reviewed for fieldwork, sample, weighting, AI and search measures, digital-mailbox use and age differences, passive scrolling, detox, mobile etiquette, and subgroup boundaries.",
+    "source_url_sha256": "sha256:42fc73bec2602a5789273bb10968587731db101d38a4bce51b9398b7b6fed316",
+    "checked": "2026-09-30"
+  }
+}

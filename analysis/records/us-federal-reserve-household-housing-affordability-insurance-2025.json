@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-household-housing-affordability-insurance-2025",
+  "title": "Housing insecurity is splitting along income, age, race, disability, mobility, and insurance lines",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Federal Reserve Board, Report on the Economic Well-Being of U.S. Households in 2025, Housing section",
+  "geography": "United States; nationally administered household survey with income, age, race/ethnicity, disability, region, renter, and homeowner comparisons",
+  "observations": [
+    {
+      "period": "2025; tenure and homeownership by income and demographic group",
+      "denominator": {"value": 1, "unit": "U.S. adults in the Federal Reserve household economic well-being survey", "value_type": "reported_survey_population"},
+      "measures": {
+        "overall_homeownership": {"value": 63, "unit": "percent of adults who owned their home", "value_type": "reported_share"},
+        "overall_renting": {"value": 27, "unit": "percent of adults who rented", "value_type": "reported_share"},
+        "low_income_homeownership": {"value": 33, "unit": "percent of adults with family income below $50,000 who owned their home", "value_type": "reported_share"},
+        "high_income_homeownership": {"value": 86, "unit": "percent of adults with family income of $100,000 or more who owned their home", "value_type": "reported_share"},
+        "mechanism": {"value": "Housing tenure is a balance-sheet and place resource that is distributed with income, age, race, disability, and accumulated opportunity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Federal Reserve Survey of Household Economics and Decisionmaking analysis of housing tenure and demographic characteristics.",
+      "uncertainty": "The survey is cross-sectional and self-reported; tenure differences do not isolate the effects of income, age, inheritance, local prices, credit, or prior mobility.",
+      "subgroup": "Adults by family income, age, race/ethnicity, disability status, renters, homeowners, and adults living rent-free or with family.",
+      "counterinterpretation": "Lower-income homeownership may rise with age, paid-off homes, family transfers, public programs, or lower-cost geographies; current income alone is not a complete affordability measure.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:bfbfdc80c81078b817c9773ab8f3a2a661d8858a5aa304bea2d8d36bc147ad21",
+      "status": "reported"
+    },
+    {
+      "period": "2025; current housing payments and recent movers",
+      "denominator": {"value": 1, "unit": "U.S. homeowners with a mortgage and renters reporting positive monthly payments", "value_type": "reported_survey_population"},
+      "measures": {
+        "median_mortgage": {"value": 1600, "unit": "dollars median monthly mortgage payment among homeowners with a mortgage", "value_type": "reported_median"},
+        "median_rent": {"value": 1200, "unit": "dollars median monthly rent among renters reporting positive rent", "value_type": "reported_median"},
+        "recent_mover_mortgage": {"value": 2300, "unit": "dollars median monthly mortgage among homeowners who moved in 2024 or 2025", "value_type": "reported_median"},
+        "recent_mover_rent": {"value": 1300, "unit": "dollars median monthly rent among renters who moved in 2024 or 2025", "value_type": "reported_median"},
+        "regional_spread": {"value": "Recent-mover mortgage and rent payments were highest in the West and Northeast and lower in the Midwest and South", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Moving can reset housing costs upward, turning mobility into a financial exposure rather than a route to opportunity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Federal Reserve survey estimates of monthly mortgage and rent payments, stratified by recent move and Census region.",
+      "uncertainty": "Payments are reported medians and do not measure housing quality, income burden, utilities, household sharing, or whether moves were voluntary.",
+      "subgroup": "Recent movers, renters, mortgaged homeowners, households in the West and Northeast, and people relocating under constrained housing supply.",
+      "counterinterpretation": "Recent movers may choose higher-cost homes or regions in exchange for better jobs, schools, safety, or amenities; higher payment is not necessarily worse welfare.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:bfbfdc80c81078b817c9773ab8f3a2a661d8858a5aa304bea2d8d36bc147ad21",
+      "status": "reported"
+    },
+    {
+      "period": "2025; renter arrears and eviction-related mobility",
+      "denominator": {"value": 1, "unit": "U.S. renters in the Federal Reserve household economic well-being survey", "value_type": "reported_survey_population"},
+      "measures": {
+        "behind_on_rent": {"value": 23, "unit": "percent of renters behind on rent at some point in the prior year", "value_type": "reported_share"},
+        "low_income_arrears": {"value": 33, "unit": "percent of renters with family income below $25,000 behind on rent", "value_type": "reported_share"},
+        "high_income_arrears": {"value": 5, "unit": "percent of renters with family income of $100,000 or more behind on rent", "value_type": "reported_share"},
+        "eviction_or_threat_move": {"value": 2, "unit": "percent of renters who moved in the prior year because of eviction or threat of eviction", "value_type": "reported_share"},
+        "mechanism": {"value": "Rent arrears convert income volatility into housing instability, forced mobility, and possible loss of place-based social and work connections", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Federal Reserve survey questions on rent arrears, income, and reasons for moving.",
+      "uncertainty": "Self-reported arrears and eviction threats are not administrative eviction records; the survey does not establish duration, repayment, displacement distance, or downstream outcomes.",
+      "subgroup": "Renters, especially those with family income below $25,000, renters facing income shocks, and households relying on local housing and employment networks.",
+      "counterinterpretation": "Some renters recover arrears without moving, and some moves following eviction threats may lead to safer or more affordable housing; the measure captures exposure, not total welfare effect.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:bfbfdc80c81078b817c9773ab8f3a2a661d8858a5aa304bea2d8d36bc147ad21",
+      "status": "reported"
+    },
+    {
+      "period": "2025; homeowners insurance, weather exposure, and underinsurance",
+      "denominator": {"value": 1, "unit": "U.S. homeowners and adults reporting financial effects from natural disasters or severe weather", "value_type": "reported_survey_population"},
+      "measures": {
+        "uninsured_homeowners": {"value": 6, "unit": "percent of homeowners without homeowners insurance", "value_type": "reported_share"},
+        "weather_affected_adults": {"value": 14, "unit": "percent of adults financially affected by a natural disaster or severe weather event in the prior year", "value_type": "reported_share"},
+        "low_moderate_neighborhood_uninsured": {"value": 12, "unit": "percent of homeowners in low- or moderate-income neighborhoods without homeowners insurance", "value_type": "reported_share"},
+        "cost_reason": {"value": 43, "unit": "percent of uninsured homeowners citing inability to afford insurance as the main reason", "value_type": "reported_share"},
+        "underinsurance_preference": {"value": 20, "unit": "percent of insured homeowners preferring more coverage but unable to afford it", "value_type": "reported_share"},
+        "mechanism": {"value": "Climate and insurance costs can turn homeownership from a buffer into an uncovered exposure, especially where household assets are concentrated in the home", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Federal Reserve survey analysis of homeowners insurance status, premium affordability, neighborhood income, and recent weather-related financial effects.",
+      "uncertainty": "The survey does not verify policy terms, replacement values, claims, hazard probabilities, insurer availability, or future losses; weather exposure is self-reported.",
+      "subgroup": "Lower-income homeowners, homeowners in low- and moderate-income neighborhoods, owners with limited assets, and households in severe-weather regions.",
+      "counterinterpretation": "Some uninsured homeowners may face low perceived risk or own homes free and clear; insurance coverage is not the same as full recovery after a disaster.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:bfbfdc80c81078b817c9773ab8f3a2a661d8858a5aa304bea2d8d36bc147ad21",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025.htm", "claim": "Full Federal Reserve Report on the Economic Well-Being of U.S. Households in 2025."},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-description-of-the-survey.htm", "claim": "Federal Reserve survey description and methodology."}
+  ],
+  "boundary": "This record adds a U.S. housing route from tenure and payment burdens through renter arrears, forced mobility, insurance affordability, weather exposure, and household balance-sheet risk. It is a cross-sectional Federal Reserve survey, not an administrative eviction or insurance-claims dataset, a causal housing-market evaluation, or proof of long-term displacement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Federal Reserve housing page was reviewed for tenure, income, demographic, regional payment, renter-arrears, eviction-mobility, homeowners-insurance, and weather-exposure findings.",
+    "source_url_sha256": "sha256:bfbfdc80c81078b817c9773ab8f3a2a661d8858a5aa304bea2d8d36bc147ad21",
+    "checked": "2026-09-28"
+  }
+}

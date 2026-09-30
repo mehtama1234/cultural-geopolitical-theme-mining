@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-bcg-digital-government-citizen-survey-2026-ai-services-human-oversight",
+  "title": "Citizens are increasingly open to AI-enabled government services, but legitimacy depends on visible human oversight, appeals, and public reporting",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Boston Consulting Group, 2026 Digital Government Citizen Survey",
+  "geography": "44 countries and 48,500 respondents; regional comparisons include the Americas, Europe, Asia-Pacific, and the Middle East and Africa",
+  "observations": [
+    {
+      "period": "2026 survey; public use and government digital-service expectations",
+      "denominator": {"value": 48500, "unit": "survey respondents across 44 countries", "value_type": "reported_global_sample"},
+      "measures": {
+        "weekly_ai_use": {"value": 64, "unit": "percent using AI weekly", "value_type": "reported_share"},
+        "two_year_change": {"value": 26, "unit": "percentage-point increase in weekly AI use over two years", "value_type": "reported_change"},
+        "digital_service_context": {"value": "government digital services are described as increasingly essential while usage, adoption, and quality have risen alongside falling citizen satisfaction", "unit": "reported service context", "value_type": "reported_assessment"},
+        "mandate_route": {"value": "citizen AI use raises expectations that public services should become more capable, personalized, and responsive", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BCG biennial Digital Government Citizen Survey across 44 countries, using self-reported citizen experience and attitudes toward government digital services and AI.",
+      "uncertainty": "The public summary does not provide the full sampling frame, country-by-country weighting, service-use logs, or causal evidence that AI adoption improves satisfaction or outcomes.",
+      "subgroup": "Citizens with different AI proficiency, service needs, regional contexts, government digital-service exposure, and levels of comfort with generative or agentic AI.",
+      "counterinterpretation": "High AI use can coexist with low trust, unequal access, or poor public-service experience; adoption does not establish capability, fairness, or democratic legitimacy.",
+      "source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption",
+      "retrieval_hash": "sha256:eeb6f8360928e7c31306858047a55b05f5c2bf791d1ec054834665b5026573fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; AI proficiency, optimism, and delegated action",
+      "denominator": {"value": 48500, "unit": "survey respondents across 44 countries", "value_type": "reported_global_sample"},
+      "measures": {
+        "proficient_user_comfort": {"value": 60, "unit": "percent of intermediate-and-above AI users comfortable letting AI agents act on their behalf", "value_type": "reported_share"},
+        "proficiency_optimism": {"value": 7, "unit": "times more optimistic about AI benefits versus risks among more proficient users than less proficient users, as summarized by BCG", "value_type": "reported_relative_difference"},
+        "human_oversight": {"value": "nearly two-thirds still want human oversight embedded in digital services", "unit": "reported public preference", "value_type": "reported_assessment"},
+        "delegation_boundary": {"value": "comfort with agents rises with proficiency but does not remove demand for human control and escalation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative survey analysis differentiating AI proficiency, comfort with agentic action, perceived benefits and risks, and demand for human oversight.",
+      "uncertainty": "The public page summarizes relationships rather than publishing the full cross-tabulation; comfort is not observed delegation, and the reported sevenfold comparison is not a causal effect of proficiency.",
+      "subgroup": "Intermediate and advanced AI users, less-proficient users, people receiving public services, and citizens facing decisions that require explanation or appeal.",
+      "counterinterpretation": "Human oversight can be nominal or inaccessible; an appeal channel may exist formally without timely correction, understandable reasons, or effective remedy.",
+      "source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption",
+      "retrieval_hash": "sha256:eeb6f8360928e7c31306858047a55b05f5c2bf791d1ec054834665b5026573fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; regional variation in AI comfort and perceived value",
+      "denominator": {"value": 4, "unit": "regional comparison groups identified in the public summary", "value_type": "reported_region_group_count"},
+      "measures": {
+        "middle_east_africa": {"value": "the Middle East and Africa continued to show the greatest comfort with AI, although views shifted 9 percentage points toward neutral", "unit": "reported regional comparison", "value_type": "reported_assessment"},
+        "americas": {"value": 5, "unit": "percentage-point increase in citizens saying AI benefits outweigh risks", "value_type": "reported_change"},
+        "europe": {"value": -9, "unit": "percentage points below the global average in AI comfort", "value_type": "reported_difference"},
+        "regional_legitimacy": {"value": "the same government AI service can carry different expectations depending on regional exposure, institutional trust, and perceived risk", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BCG regional comparison of citizen attitudes toward AI benefits, risks, and comfort in government digital services.",
+      "uncertainty": "Regional averages can hide country, class, age, education, language, access, and service-quality differences; they should not be read as cultural essences or universal preferences.",
+      "subgroup": "Citizens across the Americas, Europe, Asia-Pacific, and the Middle East and Africa, with different digital infrastructure, public-service histories, and AI exposure.",
+      "counterinterpretation": "Higher stated comfort may reflect optimism, lower familiarity with harms, or greater need for public-service improvement rather than stronger safeguards or actual willingness to delegate decisions.",
+      "source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption",
+      "retrieval_hash": "sha256:eeb6f8360928e7c31306858047a55b05f5c2bf791d1ec054834665b5026573fc",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; trust conditions for public-sector AI",
+      "denominator": {"value": 1, "unit": "public-sector AI legitimacy framework", "value_type": "reported_governance_frame"},
+      "measures": {
+        "concern_shift": {"value": "citizen concerns are shifting from abstract AI ethics toward operational realities", "unit": "reported concern framing", "value_type": "reported_assessment"},
+        "visible_safeguards": {"value": "trust increasingly hinges on visible safeguards such as appeals and public reporting rather than back-office assurances", "unit": "reported trust mechanism", "value_type": "reported_mechanism"},
+        "service_legitimacy": {"value": "public AI legitimacy depends on whether people can understand, contest, and escalate decisions", "unit": "bounded governance mechanism", "value_type": "bounded_mechanism"},
+        "implementation_boundary": {"value": "accelerating AI without accessible human review can improve speed while weakening accountability", "unit": "bounded policy risk", "value_type": "bounded_risk"}
+      },
+      "method": "Synthesis of the BCG survey’s citizen-attitude findings and its public-service governance implications.",
+      "uncertainty": "The source identifies perceived trust levers but does not test whether appeals, reporting, or oversight actually improve trust, accuracy, equity, or remedy.",
+      "subgroup": "People applying for or receiving public benefits and services, public employees, administrators, digital-service designers, oversight bodies, and citizens with different capacity to contest decisions.",
+      "counterinterpretation": "Visible safeguards can become performative if they are under-resourced, difficult to use, or unable to change an automated outcome; institutional capacity remains a separate stage.",
+      "source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption",
+      "retrieval_hash": "sha256:eeb6f8360928e7c31306858047a55b05f5c2bf791d1ec054834665b5026573fc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bcg.com/publications/2026/why-citizens-want-governments-to-accelerate-ai-adoption", "claim": "Official BCG public summary and survey description."},
+    {"source_url": "https://cpl.thalesgroup.com/about-us/newsroom/digital-trust-index-2026-ai-skepticism-identity-access-friction", "claim": "Complementary digital-trust source on access friction, authentication, data comprehension, and AI autonomy."}
+  ],
+  "boundary": "This record adds a public-sector AI legitimacy route across digital-service use, AI proficiency, agentic delegation, human oversight, appeals, public reporting, regional variation, and operational trust. It uses BCG’s public survey summary, not administrative service logs, representative country microdata, observed appeals, algorithmic error rates, causal implementation evidence, or proof that citizen openness equals safe or equitable deployment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official BCG publication page reviewed for survey scope, 44-country and 48,500-respondent coverage, weekly AI use, agentic comfort, human-oversight preference, regional comparisons, and visible-safeguard claims.",
+    "source_url_sha256": "sha256:eeb6f8360928e7c31306858047a55b05f5c2bf791d1ec054834665b5026573fc",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-external-debt-2026-fiscal-space-development-finance",
+  "title": "Debt service is absorbing development capacity unevenly as external finance becomes costlier, less sufficient, and more dependent on domestic borrowing",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "United Nations Secretary-General, External debt sustainability and development (2026), prepared by UN Trade and Development",
+  "geography": "Developing countries, least developed countries, small island developing states, external and domestic public debt, development finance, and global financial conditions",
+  "observations": [
+    {
+      "period": "2024-2025; developing-country external debt and financing needs",
+      "denominator": {"value": 1, "unit": "developing-country external debt stock and development-finance frame", "value_type": "developing_debt_frame"},
+      "measures": {
+        "external_debt_2025": {"value": 12300000000000, "unit": "US dollars of developing countries' external debt in 2025", "value_type": "reported_debt_stock"},
+        "external_debt_change": {"value": 508000000000, "unit": "US dollars added to developing countries' external debt stock between 2024 and 2025", "value_type": "reported_debt_change"},
+        "debt_accumulation_rate_2021_2025": {"value": 2.1, "unit": "percent average annual external-debt accumulation between 2021 and 2025", "value_type": "reported_growth_rate"},
+        "debt_accumulation_rate_2015_2021": {"value": 7.2, "unit": "percent average annual external-debt accumulation between 2015 and 2021", "value_type": "reported_growth_rate"},
+        "development_finance_signal": {"value": "borrowing growth remains weak relative to development-financing needs while external finance is costly, volatile, and insufficient", "unit": "reported financing condition", "value_type": "reported_constraint_set"}
+      },
+      "method": "UN Secretary-General report prepared by UN Trade and Development using external-debt, debt-service, capital-flow, and country-group indicators.",
+      "uncertainty": "Aggregate debt stocks do not establish country-specific solvency, public-service cuts, household incidence, creditor exposure, or whether borrowing finances productive investment.",
+      "subgroup": "Developing-country governments, households, workers, firms, public-service users, creditors, development-finance institutions, and populations exposed to fiscal adjustment.",
+      "counterinterpretation": "Debt can finance infrastructure, resilience, and productive capacity when terms, governance, returns, and restructuring options are favorable; a lower accumulation rate is not itself a welfare improvement.",
+      "source_url": "https://unctad.org/publication/external-debt-sustainability-and-development-2026",
+      "retrieval_hash": "sha256:05e86281d1202c3c77c983be417395de7e9e8544b2708fdc6f3d98c3da04503a",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; debt service, interest costs, and fiscal pressure",
+      "denominator": {"value": 1, "unit": "developing-country external debt service and long-term external debt interest-cost frame", "value_type": "debt_service_frame"},
+      "measures": {
+        "total_debt_service_2025": {"value": 1600000000000, "unit": "US dollars of total developing-country external debt service in 2025", "value_type": "reported_debt_service_total"},
+        "interest_cost_change_2025": {"value": 14, "unit": "percent increase in interest costs on long-term external debt in 2025, almost", "value_type": "reported_change"},
+        "debt_service_change_2015_2025": {"value": 81, "unit": "percent increase in developing-country debt service between 2015 and 2025", "value_type": "reported_change"},
+        "debt_stock_change_2015_2025": {"value": 65, "unit": "percent increase in developing-country debt stocks between 2015 and 2025", "value_type": "reported_change"},
+        "interpretive_boundary": {"value": "the 2025 fall in total debt service was driven mainly by lower principal repayments in a few large economies and does not represent the experience of most countries", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Trade and Development comparison of external debt service, principal repayments, interest costs, and debt stocks across years and developing-country groups.",
+      "uncertainty": "Debt-service totals do not reveal which budget items adjust, how creditors are distributed, the maturity profile, or how debt service affects public services and household welfare in individual countries.",
+      "subgroup": "Public budgets, households using health and education services, workers, firms dependent on public infrastructure, sovereign borrowers, and external creditors.",
+      "counterinterpretation": "Lower principal repayments can temporarily ease liquidity pressure, and refinancing or growth can improve sustainability; high interest costs can also reflect access to capital during urgent investment needs.",
+      "source_url": "https://unctad.org/publication/external-debt-sustainability-and-development-2026",
+      "retrieval_hash": "sha256:05e86281d1202c3c77c983be417395de7e9e8544b2708fdc6f3d98c3da04503a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; least developed countries and unequal debt burden",
+      "denominator": {"value": 1, "unit": "least developed countries' external debt service and external public/publicly guaranteed debt service", "value_type": "least_developed_debt_frame"},
+      "measures": {
+        "ldc_export_earnings_debt_service": {"value": 18.2, "unit": "percent of least developed countries' export earnings spent on external debt service in 2025", "value_type": "reported_debt_service_share"},
+        "ldc_government_revenue_debt_service": {"value": 17.6, "unit": "percent of least developed countries' government revenue spent servicing external public and publicly guaranteed debt in 2025", "value_type": "reported_debt_service_share"},
+        "unequal_burden": {"value": "least developed countries and small island developing states face particularly high debt-service burdens that reduce room for development spending", "unit": "reported distributional pattern", "value_type": "reported_mechanism"},
+        "policy_response_set": {"value": "concessional finance, improved restructuring, and reversal of declining official development assistance are identified as priorities", "unit": "reported policy pathway", "value_type": "reported_policy_set"}
+      },
+      "method": "UN Trade and Development country-group analysis of export earnings, government revenue, and external public/publicly guaranteed debt service.",
+      "uncertainty": "Ratios do not show actual cuts, service quality, household coping, public investment composition, or whether concessional finance reaches affected populations.",
+      "subgroup": "Least developed and small island developing states, public-service users, households, workers, exporters, governments, and development-finance providers.",
+      "counterinterpretation": "High ratios may coexist with protected social spending or successful restructuring; fiscal pressure can also prompt institutional reform and stronger debt-management capacity.",
+      "source_url": "https://unctad.org/publication/external-debt-sustainability-and-development-2026",
+      "retrieval_hash": "sha256:05e86281d1202c3c77c983be417395de7e9e8544b2708fdc6f3d98c3da04503a",
+      "status": "reported"
+    },
+    {
+      "period": "2014-2024; external flows, domestic borrowing, and policy autonomy",
+      "denominator": {"value": 1, "unit": "developing-country gross capital formation, public debt composition, and financing-cost frame", "value_type": "domestic_external_finance_frame"},
+      "measures": {
+        "nonresident_inflows_share_2014": {"value": 20, "unit": "percent of gross capital formation funded by non-resident financial inflows in 2014", "value_type": "reported_finance_share"},
+        "nonresident_inflows_share_2024": {"value": 11, "unit": "percent of gross capital formation funded by non-resident financial inflows in 2024", "value_type": "reported_finance_share"},
+        "domestic_financing_change": {"value": 60, "unit": "percent increase in domestic financing between 2014 and 2024", "value_type": "reported_change"},
+        "domestic_debt_share_2024": {"value": 81, "unit": "percent of total general-government debt represented by domestic debt in 2024", "value_type": "reported_debt_share"},
+        "domestic_cost_premium": {"value": 2.8, "unit": "percentage-point average cost premium for domestic borrowing over external borrowing between 2014 and 2024", "value_type": "reported_cost_premium"}
+      },
+      "method": "UN Trade and Development comparison of non-resident financial inflows, domestic financing, public-debt composition, and borrowing costs.",
+      "uncertainty": "Financing aggregates do not establish private-credit crowd-out in every market, policy autonomy, bank stability, or whether domestic borrowing improves or worsens distributional outcomes.",
+      "subgroup": "Developing-country treasuries and central banks, domestic financial institutions, private firms seeking credit, households, public-service users, and international lenders.",
+      "counterinterpretation": "Domestic borrowing can reduce exposure to external shocks and increase policy autonomy; the higher average cost may be justified by lower currency or rollover risk in some settings.",
+      "source_url": "https://unctad.org/publication/external-debt-sustainability-and-development-2026",
+      "retrieval_hash": "sha256:05e86281d1202c3c77c983be417395de7e9e8544b2708fdc6f3d98c3da04503a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/topic/debt-and-finance", "claim": "UNCTAD debt-and-finance context, report series, Borrowers' Platform, and development-finance framing."},
+    {"source_url": "https://unctad.org/publication/external-debt-sustainability-and-development-2026", "claim": "Official publication page with debt stock, service, least-developed-country, domestic-finance, and policy findings."}
+  ],
+  "boundary": "This record adds a sovereign-debt route from borrowing costs and debt service through fiscal space, domestic credit, development investment, public services, and geopolitical financial dependence. It is publication-level aggregate evidence, not a country-specific causal budget analysis, household incidence estimate, respondent data, or proof that debt service caused particular service cuts.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD publication page and debt-and-finance context page were reviewed; debt stock, accumulation, debt service, interest, least-developed-country burden, external-flow, domestic-debt, and borrowing-cost claims were cross-checked.",
+    "source_url_sha256": "sha256:05e86281d1202c3c77c983be417395de7e9e8544b2708fdc6f3d98c3da04503a",
+    "checked": "2026-09-26"
+  }
+}

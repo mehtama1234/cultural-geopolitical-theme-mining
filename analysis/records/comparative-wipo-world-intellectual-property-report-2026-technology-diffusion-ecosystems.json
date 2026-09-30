@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wipo-world-intellectual-property-report-2026-technology-diffusion-ecosystems",
+  "title": "Technological progress creates broad productivity only when innovation diffuses across economies through capable ecosystems",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Intellectual Property Organization, World Intellectual Property Report 2026: Technology on the Move",
+  "geography": "Global technology invention, adoption, diffusion across economies, and innovation ecosystems",
+  "observations": [
+    {
+      "period": "2026; technology diffusion and productivity",
+      "denominator": {"value": 1, "unit": "global technology invention, adoption, and productivity frame", "value_type": "technology_diffusion_frame"},
+      "measures": {
+        "frontier_condition": {"value": "pushing the technological frontier by inventing better technologies is necessary but not sufficient for long-term growth", "unit": "WIPO report framing", "value_type": "reported_framework"},
+        "adoption_condition": {"value": "new technologies need to be widely adopted and used in the economy to raise productivity", "unit": "WIPO report framing", "value_type": "reported_mechanism"},
+        "diffusion_role": {"value": "technology diffusion is a central part of the innovation journey", "unit": "WIPO report framing", "value_type": "reported_mechanism"}
+      },
+      "method": "WIPO global report analysis of technology development, adoption, diffusion, and innovation ecosystems.",
+      "uncertainty": "The report's framing does not establish the causal productivity effect of a specific technology, country, firm, or adoption program.",
+      "subgroup": "Technology inventors, adopters, firms, workers, public agencies, universities, consumers, and economies with different innovation capacities.",
+      "counterinterpretation": "Some frontier technologies create value through narrow applications before broad diffusion; slow adoption may reflect appropriate caution, not only institutional failure.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4833",
+      "retrieval_hash": "sha256:e47476bb43e65c48d5f2e31b07c981367668c6d9e3288c1c3776fcbeb1ea875f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-economy diffusion and uneven opportunity",
+      "denominator": {"value": 1, "unit": "economy-to-economy technology diffusion and innovation-capacity frame", "value_type": "cross_economy_diffusion_frame"},
+      "measures": {
+        "cross_economy_scope": {"value": "the report examines how different technologies diffuse within and across economies globally", "unit": "WIPO report scope", "value_type": "reported_framework"},
+        "opportunity_gap": {"value": "the ability to benefit from technology depends on adoption capacity, infrastructure, skills, finance, institutions, and links to innovation networks", "unit": "cross-source analytical mechanism", "value_type": "reported_mechanism"},
+        "distribution_question": {"value": "frontier invention and broad adoption can be separated by persistent economic and institutional gaps", "unit": "program synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "WIPO comparative analysis of technology diffusion across economies and the ecosystems that support adoption.",
+      "uncertainty": "Cross-economy comparisons can conceal within-country divides and do not measure individual access, use, or labor-market outcomes.",
+      "subgroup": "Lower-capacity economies, small firms, rural communities, workers needing new skills, public institutions, and populations with limited digital or financial access.",
+      "counterinterpretation": "Late adopters can leapfrog legacy systems, adapt technologies locally, and avoid some early costs or risks faced by frontier economies.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4833",
+      "retrieval_hash": "sha256:e47476bb43e65c48d5f2e31b07c981367668c6d9e3288c1c3776fcbeb1ea875f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; innovation ecosystems and institutional capacity",
+      "denominator": {"value": 1, "unit": "innovation ecosystem, technology transfer, adoption, and public-capacity frame", "value_type": "innovation_ecosystem_frame"},
+      "measures": {
+        "ecosystem_role": {"value": "innovation ecosystems help technologies move from invention into wider use", "unit": "WIPO report framing", "value_type": "reported_mechanism"},
+        "ecosystem_components": {"value": "firms, universities, finance, skills, infrastructure, intellectual-property systems, and public policy shape diffusion capacity", "unit": "program synthesis", "value_type": "reported_framework"},
+        "institutional_feedback": {"value": "policy can either broaden adoption and competition or reinforce concentration around firms and places already closest to the frontier", "unit": "cross-source analytical mechanism", "value_type": "inferred_mechanism"}
+      },
+      "method": "WIPO report synthesis connecting technology diffusion to innovation ecosystems and enabling institutions.",
+      "uncertainty": "The report does not prove that any specific ecosystem intervention produces inclusive adoption, productivity, wages, or cultural benefit.",
+      "subgroup": "Universities, startups, incumbent firms, investors, workers, intellectual-property offices, regulators, and local innovation communities.",
+      "counterinterpretation": "Concentrated ecosystems can generate spillovers, supplier networks, and knowledge diffusion beyond the original firms or regions.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4833",
+      "retrieval_hash": "sha256:e47476bb43e65c48d5f2e31b07c981367668c6d9e3288c1c3776fcbeb1ea875f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; technology diffusion, work, culture, and public choice",
+      "denominator": {"value": 1, "unit": "technology adoption, work, consumption, culture, and governance frame", "value_type": "technology_society_frame"},
+      "measures": {
+        "work_channel": {"value": "diffused technology can alter productivity, tasks, skills, bargaining, and job quality across sectors", "unit": "program synthesis", "value_type": "reported_framework"},
+        "consumer_cultural_channel": {"value": "adoption changes how people create, communicate, consume, and participate in cultural and economic life", "unit": "program synthesis", "value_type": "reported_framework"},
+        "governance_question": {"value": "the open question is who controls diffusion, bears transition costs, and captures the gains from technological change", "unit": "program synthesis", "value_type": "open_question"}
+      },
+      "method": "Program-level synthesis linking WIPO's diffusion frame to work, consumer, cultural, infrastructure, and public-governance themes.",
+      "uncertainty": "These are analytical bridges rather than causal estimates from the WIPO report; they do not establish individual employment, consumption, or political effects.",
+      "subgroup": "Workers, consumers, creators, firms, governments, communities, and people excluded from innovation or adoption networks.",
+      "counterinterpretation": "Technology diffusion can widen agency and participation when users, workers, and communities have voice in design, access, skills, and governance.",
+      "source_url": "https://www.wipo.int/publications/en/details.jsp?id=4833",
+      "retrieval_hash": "sha256:e47476bb43e65c48d5f2e31b07c981367668c6d9e3288c1c3776fcbeb1ea875f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wipo.int/global_innovation_index/en/2025/", "claim": "WIPO Global Innovation Index provides complementary comparative context on innovation ecosystems and uneven capacity."},
+    {"source_url": "https://www.itu.int/pub/D-IND-ICT_MDD-2026", "claim": "ITU ICT Development Index 2026 provides complementary evidence on connectivity and digital-adoption conditions."}
+  ],
+  "boundary": "This record adds a global technology-diffusion, adoption, innovation-ecosystem, work, consumer, and governance route. It uses report-level comparative analysis, not respondent-level technology diaries, individual employment histories, causal productivity estimates, or proof that frontier invention automatically diffuses or improves welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WIPO World Intellectual Property Report 2026 materials were reviewed for the frontier-versus-adoption distinction, within- and across-economy technology diffusion, and the role of innovation ecosystems.",
+    "source_url_sha256": "sha256:e47476bb43e65c48d5f2e31b07c981367668c6d9e3288c1c3776fcbeb1ea875f",
+    "checked": "2026-09-26"
+  }
+}

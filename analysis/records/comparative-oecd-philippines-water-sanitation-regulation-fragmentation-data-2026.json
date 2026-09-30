@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-philippines-water-sanitation-regulation-fragmentation-data-2026",
+  "title": "Water security is a governance and information problem before it is only an investment problem",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD and Asia Water Council, Strengthening Economic Regulation of Water and Sanitation Services in the Philippines: Highlights of a National Dialogue on Water, September 2026",
+  "geography": "Philippines, including Metro Manila, local government units, water districts, private and community-based providers, rural and remote island communities",
+  "observations": [
+    {
+      "period": "2020–2040; Philippine water and sanitation access, demand and provider fragmentation",
+      "denominator": {"value": 1, "unit": "Philippine national water and sanitation service system", "value_type": "reported_sector_frame"},
+      "measures": {
+        "investment_need": {"value": 18, "unit": "billion USD approximately required between 2020 and 2030 to achieve universal access by 2030 under the Philippine Water Supply and Sanitation Master Plan", "value_type": "reported_investment_estimate"},
+        "provider_distribution": {"value": "Metro Manila's system serves about 17 percent of the country's population, while four times as many providers serve more than one-third of the population outside that system; many providers are small, community-based or unregulated", "unit": "reported provider and population distribution", "value_type": "reported_service_structure"},
+        "service_area_coverage": {"value": 27, "unit": "average percentage of a provider's service area reported covered in the Listahang Tubig database", "value_type": "reported_coverage_indicator"},
+        "pressure": {"value": "Population growth, urbanisation, recurrent floods, typhoons and El Niño-related droughts are increasing water and sanitation pressures", "unit": "reported risk and demand context", "value_type": "reported_exposure_context"},
+        "mechanism": {"value": "Large investment needs do not translate automatically into universal service when fragmented providers, small scale, weak financial viability and uneven regulatory reach prevent assets from becoming reliable, accountable service", "unit": "bounded infrastructure-realisation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD/AWC national dialogue synthesising literature, government questionnaires, workshops, stakeholder interviews and sector/provider information.",
+      "uncertainty": "The investment estimate and service-coverage figures are planning and administrative indicators with limitations in provider data and comparability; the report does not estimate causal effects of fragmentation or aggregation on household outcomes.",
+      "subgroup": "Households in underserved urban, rural and remote-island areas; users of LGU-run, water-district, private, community-based and tanker-supplied services.",
+      "counterinterpretation": "Small and locally embedded providers may be more adaptable or culturally proximate than large utilities; consolidation can improve scale while creating distance from communities or excluding remote areas.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/08/strengthening-economic-regulation-of-water-and-sanitation-services-in-the-philippines_9aeaae51/3030ba36-en.pdf",
+      "retrieval_hash": "sha256:8de60e8b81d889d38730c4ee9b459b98c1f686206ab0233c907827e069be9524",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; tariff governance, affordability and service-provider accountability",
+      "denominator": {"value": 1, "unit": "Philippine water and sanitation economic-regulation landscape", "value_type": "reported_regulatory_frame"},
+      "measures": {
+        "regulatory_fragmentation": {"value": "Multiple regulators operate with overlapping mandates, inconsistent tariff methodologies and varying levels of autonomy; many LGU-operated utilities are effectively self-regulated", "unit": "reported governance condition", "value_type": "reported_institutional_finding"},
+        "tariff_tradeoff": {"value": "Economic regulation must balance financial sustainability, affordability, service quality and investment, while tariff decisions for some providers are exposed to ownership and political considerations", "unit": "reported regulatory objective set", "value_type": "reported_policy_tradeoff"},
+        "sanitation_gap": {"value": "Sanitation services remain particularly underdeveloped, with limited institutional ownership outside Metro Manila", "unit": "reported service-governance finding", "value_type": "reported_service_gap"},
+        "reform": {"value": "The proposed Water Regulatory Commission would consolidate economic regulation, harmonise tariff-setting, establish comparable performance information and support gradual tariff alignment; pending legislation, coordination among existing regulators can pursue similar objectives", "unit": "reported reform proposal", "value_type": "reported_policy_recommendation"},
+        "mechanism": {"value": "Affordability is politically negotiated through tariff rules and provider accountability; a low tariff without financial sustainability can undermine continuity, while cost recovery without affordability can turn universal access into exclusion", "unit": "bounded tariff-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD/AWC regulatory assessment of tariff methodologies, provider governance, institutional mandates, financial sustainability, affordability and international regulatory approaches.",
+      "uncertainty": "The report recommends regulatory options rather than evaluating a completed reform; it does not identify household-level willingness to pay, tariff incidence, disconnections, service reliability or political response under alternative models.",
+      "subgroup": "Low-income households, local-government users, water districts, small providers, sanitation users, regulators, elected local officials and investors.",
+      "counterinterpretation": "Local political influence over tariffs can protect households from unaffordable increases; independent regulation may improve consistency but can reduce local discretion or make distributional choices less visible.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/08/strengthening-economic-regulation-of-water-and-sanitation-services-in-the-philippines_9aeaae51/3030ba36-en.pdf",
+      "retrieval_hash": "sha256:8de60e8b81d889d38730c4ee9b459b98c1f686206ab0233c907827e069be9524",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; national water information infrastructure, interoperability and public feedback",
+      "denominator": {"value": 1, "unit": "Philippine water-sector information and regulatory system", "value_type": "reported_data-governance_frame"},
+      "measures": {
+        "agency_fragmentation": {"value": "More than 30 government agencies are involved in the water sector, with weak coordination across policy planning, infrastructure, regulation and data management", "unit": "reported institutional landscape", "value_type": "reported_institutional_indicator"},
+        "data_problem": {"value": "Reporting standards, definitions, performance indicators and data formats are fragmented, making provider comparison, tariff design, compliance monitoring and investment planning difficult", "unit": "reported information-system condition", "value_type": "reported_data_governance_finding"},
+        "information_system": {"value": "A Centralised National Integrated Water Information System is proposed as core public infrastructure for tariff setting, investment planning, service rationalisation, regulatory oversight, climate-risk preparedness and public transparency", "unit": "reported digital-public-infrastructure proposal", "value_type": "reported_policy_recommendation"},
+        "aggregation": {"value": "Service aggregation should be gradual and adaptive—beginning with shared infrastructure, bulk water or sanitation services where appropriate—because full consolidation is not feasible for every remote or island community", "unit": "reported institutional-design recommendation", "value_type": "reported_policy_recommendation"},
+        "mechanism": {"value": "Comparable public data can turn scattered providers into a contestable service system by making performance, tariffs, investment needs and compliance visible; without governance and mandatory data sharing, digitalisation reproduces fragmentation", "unit": "bounded information-to-accountability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD/AWC assessment of sector data, institutional coordination, digital-government conditions, international information systems and staged aggregation options.",
+      "uncertainty": "The information system and aggregation recommendations are proposed reforms, not evidence of realized transparency, lower costs, better quality or improved climate resilience; the report does not test user access to the proposed data.",
+      "subgroup": "Water users, regulators, local governments, providers, infrastructure planners, investors, sanitation agencies and communities facing climate and service gaps.",
+      "counterinterpretation": "Centralized data can improve benchmarking but may create privacy, political-control or exclusion risks if local knowledge, community providers and public participation are not represented in data governance.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/08/strengthening-economic-regulation-of-water-and-sanitation-services-in-the-philippines_9aeaae51/3030ba36-en.pdf",
+      "retrieval_hash": "sha256:8de60e8b81d889d38730c4ee9b459b98c1f686206ab0233c907827e069be9524",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/strengthening-economic-regulation-of-water-and-sanitation-services-in-the-philippines_3030ba36-en/full-report.html", "claim": "Official OECD/AWC publication page with report date, scope, dialogue method and three reform areas."},
+    {"source_url": "https://www.oecd.org/en/publications/strengthening-economic-regulation-of-water-and-sanitation-services-in-the-philippines_3030ba36-en/full-report/executive-summary_91e150e3.html", "claim": "Official executive summary with investment need, regulatory, aggregation and national information-system findings."},
+    {"source_url": "https://doi.org/10.1787/3030ba36-en", "claim": "Official DOI for the OECD/AWC Philippines water-regulation report."}
+  ],
+  "boundary": "This record identifies a water-security, tariff-legitimacy, provider-fragmentation and public-information subtheme. It does not establish that a Water Regulatory Commission, aggregation, cost-recovery tariffs or a central information system will improve affordability, continuity, quality, sanitation, household health, climate resilience or trust; those require follow-up data on prices, outages, quality, coverage, complaints, disconnections, investments, provider performance and community participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD/AWC 135-page PDF and HTML publication/executive-summary pages, investment need, provider fragmentation, service coverage, tariff and regulatory tradeoffs, sanitation gaps, agency/data fragmentation, information-system proposal and staged aggregation recommendations were reviewed.",
+    "source_url_sha256": "sha256:8de60e8b81d889d38730c4ee9b459b98c1f686206ab0233c907827e069be9524",
+    "checked": "2026-09-29"
+  }
+}

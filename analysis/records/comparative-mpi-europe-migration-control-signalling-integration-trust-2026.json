@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-mpi-europe-migration-control-signalling-integration-trust-2026",
+  "title": "Migration control signalling can improve the appearance of state control while weakening integration, service capacity, and public trust",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Migration Policy Institute Europe, Beyond Control Signalling: Designing integration policies for better outcomes and public trust, July 2026",
+  "geography": "High-income immigrant-destination countries, with European examples and comparative evidence on migration, integration, housing, education, labor markets, and public trust",
+  "observations": [
+    {
+      "period": "2026 MPI Europe policy synthesis; control-signalling measures and integration outcomes",
+      "denominator": {"value": null, "unit": "comparative policy and evidence synthesis across high-income immigrant-destination countries; no single pooled country denominator disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "control_theatre": {"value": "high-visibility measures such as seizing asylum seekers’ assets and tightening family reunification can signal toughness without necessarily improving outcomes", "unit": "reported policy mechanism", "value_type": "reported_pattern"},
+        "integration_support": {"value": "cutting language training and housing support can delay employment and prolong welfare dependence", "unit": "reported evidence-based mechanism", "value_type": "reported_pattern"},
+        "public_pressure": {"value": "rising rents, crowded classrooms, cost-of-living shocks, and stretched services can be attributed to newcomers", "unit": "reported political mechanism", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Policies optimized for visible control can undermine the service and integration capacity needed to produce the outcomes that would support durable public trust", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Policy report synthesizing comparative research, country cases, polling evidence, and policy analysis; not a single causal evaluation.",
+      "uncertainty": "The report draws on heterogeneous country policies and evidence; effects depend on implementation, local capacity, migration composition, timing, and broader housing and labor conditions.",
+      "subgroup": "Refugees, migrants, host communities, local residents facing service pressure, and governments managing integration and migration policy.",
+      "counterinterpretation": "Some restrictive measures may respond to genuine capacity constraints or have deterrent effects, but signaling intent does not prove that they improve integration or trust.",
+      "source_url": "https://www.migrationpolicy.org/mpi-europe/publication/control-signalling-integration-policies",
+      "retrieval_hash": "sha256:04de51e4f0ecbc565bf5ee86308f255bc8c7285f3446880cea313bf66fbd3846",
+      "status": "reported"
+    },
+    {
+      "period": "2025 polling cited in 2026 MPI report; public preference for control and compassion",
+      "denominator": {"value": null, "unit": "five-country More in Common study cited by MPI; aggregate sample size not disclosed on the report page", "value_type": "not_disclosed"},
+      "measures": {
+        "control_compassion_middle": {"value": "45%–60% across five countries preferred combining control and compassion rather than enforcement-only approaches", "unit": "reported cross-country range cited by MPI", "value_type": "reported_range"},
+        "public_nuance": {"value": "public opinion is described as more nuanced than polarized political debate, with a moveable middle holding mixed views", "unit": "reported political pattern", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Political actors can overfit policy to a highly visible enforcement demand even when many residents want both order and humane, competent integration", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Secondary synthesis of state-of-the-art polling cited by the MPI report, including More in Common cross-country evidence.",
+      "uncertainty": "The report page does not disclose the full five-country sample, question wording, field dates, or subgroup distributions; the range should not be treated as a pooled representative estimate.",
+      "subgroup": "Residents across five countries in the cited polling, with public attitudes toward migration and integration.",
+      "counterinterpretation": "A preference for both control and compassion can still conceal disagreement about who bears costs, which rights are conditional, and what counts as successful integration.",
+      "source_url": "https://www.migrationpolicy.org/mpi-europe/publication/control-signalling-integration-policies",
+      "retrieval_hash": "sha256:04de51e4f0ecbc565bf5ee86308f255bc8c7285f3446880cea313bf66fbd3846",
+      "status": "reported"
+    },
+    {
+      "period": "Comparative evidence cited in MPI report; rights, family, and integration capacity",
+      "denominator": {"value": null, "unit": "country-case and research evidence; no common pooled denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "family_separation": {"value": "a cited Danish cohort study found refugee fathers waiting for family members to arrive faced twice the risk of psychiatric diagnosis", "unit": "reported study estimate cited by MPI", "value_type": "reported_association"},
+        "rights_and_support": {"value": "shifting housing and integration costs onto migrants, watering down family reunification, and tightening permanent-residency routes can worsen longer-term integration outcomes", "unit": "reported policy mechanism", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Administrative and legal uncertainty can transmit through family separation, mental health, housing, language acquisition, work entry, and community belonging", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Comparative policy synthesis using cited cohort research and country policy cases.",
+      "uncertainty": "The Danish estimate is cited secondarily and should not be generalized to all refugees or policy contexts; the report does not provide a unified causal design across the policy cases.",
+      "subgroup": "Refugee fathers and families, migrants subject to integration conditions, and communities receiving newcomers.",
+      "counterinterpretation": "Family reunification rules and integration conditions may be defended as capacity or fairness measures; the relevant question is whether enabling supports and proportionate obligations are simultaneously available.",
+      "source_url": "https://www.migrationpolicy.org/mpi-europe/publication/control-signalling-integration-policies",
+      "retrieval_hash": "sha256:04de51e4f0ecbc565bf5ee86308f255bc8c7285f3446880cea313bf66fbd3846",
+      "status": "reported"
+    },
+    {
+      "period": "2026 MPI policy recommendations; integration mainstreaming and capacity planning",
+      "denominator": {"value": null, "unit": "policy recommendations for high-income immigrant-destination governments; no implementation denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "planning_route": {"value": "multi-year migration-levels plans should be tied to investments in reception, housing, education, health, and employment services", "unit": "reported policy recommendation", "value_type": "reported_policy_route"},
+        "enabling_obligations": {"value": "integration requirements should pair clear, proportionate obligations with subsidized language training, flexible schedules, and job-readiness programs", "unit": "reported policy recommendation", "value_type": "reported_policy_route"},
+        "community_voice": {"value": "citizen panels or participatory budgeting linked to defined funding are proposed to give communities a say in resource and integration decisions", "unit": "reported policy recommendation", "value_type": "reported_policy_route"},
+        "mainstreaming": {"value": "schools, healthcare, social protection, housing, and labor-market systems should be mobility- and diversity-proofed rather than treating integration as a standalone newcomer program", "unit": "reported policy recommendation", "value_type": "reported_policy_route"},
+        "mechanism": {"value": "Trust is more likely to improve when migration governance makes capacity, trade-offs, rights, obligations, and resource allocation visible and contestable", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Normative and implementation-oriented policy synthesis grounded in comparative cases and research literature.",
+      "uncertainty": "Recommendations are not evidence of implementation, take-up, cost-effectiveness, or improved trust; local political and administrative capacity remains decisive.",
+      "subgroup": "National and local governments, migrants, host communities, schools, health systems, employers, and integration-service providers.",
+      "counterinterpretation": "Mainstreaming can diffuse accountability if no agency owns delivery, while participation mechanisms can become symbolic without defined funding and response commitments.",
+      "source_url": "https://www.migrationpolicy.org/mpi-europe/publication/control-signalling-integration-policies",
+      "retrieval_hash": "sha256:04de51e4f0ecbc565bf5ee86308f255bc8c7285f3446880cea313bf66fbd3846",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/demographic-transformation-eu-challenges-and-opportunities-2026-07-14_en", "claim": "Comparative demographic-pressure companion source on aging, labor shortages, care, housing, and migration."},
+    {"source_url": "https://www.migrationpolicy.org/mpi-europe/publication/migration-diplomacy-age-transactionalism", "claim": "Related MPI Europe report on migration diplomacy and transactional governance."}
+  ],
+  "boundary": "This record adds a comparative migration-governance route from public anxiety and control signalling through housing, language, family, labor, service capacity, community voice, integration, and trust. It is a policy synthesis using heterogeneous country cases and cited studies, not a pooled causal estimate, a representative global opinion survey, an implementation evaluation, or proof that any recommended policy improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official MPI Europe report page reviewed for control-theatre claims, integration-support mechanisms, public-attitude evidence, family-separation example, policy recommendations, and implementation boundaries.",
+    "source_url_sha256": "sha256:04de51e4f0ecbc565bf5ee86308f255bc8c7285f3446880cea313bf66fbd3846",
+    "checked": "2026-09-28"
+  }
+}

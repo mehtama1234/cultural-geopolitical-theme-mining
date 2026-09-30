@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eurostat-cultural-participation-disability-age-2022-refresh-2026",
+  "title": "Cultural participation is strongly age- and disability-stratified across Europe",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Eurostat, ilc_scp37 cultural or sport participation dataset, 2022 EU-SILC quality-of-life module; 2026 culture-statistics refresh",
+  "geography": "European countries in the Eurostat dataset; selected comparative cells and Sweden subgroup cells",
+  "observations": [
+    {
+      "period": "2022; people aged 16 or over; at least once in the prior 12 months",
+      "denominator": {"value": 1, "unit": "Eurostat percentage universe for each country; national population aged 16 or over, not a reported respondent count", "value_type": "reported_population_frame"},
+      "measures": {
+        "cultural_activity_any": {"value": "Sweden 62.9%; Netherlands 68.9%; Ireland 61.9%; Belgium 59.2%; Spain 58.5%; France 54.4%; Italy 36.9%; Bulgaria 19.7%; Türkiye 19.4%", "unit": "percent participating at least once in cinema, live performances, or cultural sites", "value_type": "reported_share"},
+        "mechanism": {"value": "Cultural participation is not a single European consumer norm; country-level access, supply, income, transport, institutions, and measurement context produce wide participation gradients", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU-SILC quality-of-life cultural-participation indicator; harmonized country percentages by activity, frequency, disability limitation, sex, and age.",
+      "uncertainty": "The dataset reports percentages rather than a common pooled respondent denominator in the API extract; national fieldwork and cultural supply contexts differ, and cross-country gaps are descriptive rather than causal.",
+      "subgroup": "People aged 16 or over, total sex and disability category; selected countries.",
+      "counterinterpretation": "A lower reported participation rate can reflect different cultural definitions, supply, survey mode, recall, or frequency thresholds rather than lower cultural value or social connection.",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_scp37?lang=en&format=JSON",
+      "retrieval_hash": "sha256:c1c45d05a9405df3e8e5989c380e80fb21b14e80acf014554ea21adbdb499f6f",
+      "status": "reported"
+    },
+    {
+      "period": "2022; Sweden; people aged 16 or over; at least once in the prior 12 months",
+      "denominator": {"value": 1, "unit": "Swedish population aged 16 or over in the Eurostat percentage universe", "value_type": "reported_population_frame"},
+      "measures": {
+        "cultural_activity_any_total": {"value": 62.9, "unit": "percent participating at least once in cinema, live performances, or cultural sites", "value_type": "reported_share"},
+        "cultural_activity_any_no_limitation": {"value": 66.8, "unit": "percent among people reporting no activity limitation", "value_type": "reported_share"},
+        "cultural_activity_any_some_limitation": {"value": 52.8, "unit": "percent among people reporting some activity limitation", "value_type": "reported_share"},
+        "cultural_activity_any_severe_limitation": {"value": 34.8, "unit": "percent among people reporting severe activity limitation", "value_type": "reported_share"},
+        "mechanism": {"value": "Disability limitation is associated with a large cultural-participation gradient even in a high-participation country, making accessibility, transport, venue design, health, and support capacity central conversion conditions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU-SILC quality-of-life cultural-participation indicator for Sweden, cross-tabulated by activity limitation severity.",
+      "uncertainty": "These are cross-sectional descriptive percentages; disability limitation is self-reported and the cells do not identify whether barriers arise from cost, transport, venue access, health, caregiving, preference, or supply.",
+      "subgroup": "Swedish residents aged 16 or over by self-reported activity limitation.",
+      "counterinterpretation": "The gradient may reflect health, age, income, transport, household support, and selection jointly; it is not an estimated causal disability effect.",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_scp37?lang=en&format=JSON",
+      "retrieval_hash": "sha256:c1c45d05a9405df3e8e5989c380e80fb21b14e80acf014554ea21adbdb499f6f",
+      "status": "reported"
+    },
+    {
+      "period": "2022; Sweden; people aged 16 or over; at least once in the prior 12 months",
+      "denominator": {"value": 1, "unit": "Swedish population aged 16 or over in the Eurostat percentage universe", "value_type": "reported_population_frame"},
+      "measures": {
+        "cultural_activity_any_age_16_24": {"value": 79.9, "unit": "percent among ages 16-24", "value_type": "reported_share"},
+        "cultural_activity_any_age_16_44": {"value": 73.0, "unit": "percent among ages 16-44", "value_type": "reported_share"},
+        "cultural_activity_any_age_45_64": {"value": 61.1, "unit": "percent among ages 45-64", "value_type": "reported_share"},
+        "cultural_activity_any_age_65_plus": {"value": 47.2, "unit": "percent among ages 65 and over", "value_type": "reported_share"},
+        "mechanism": {"value": "Cultural participation falls across age bands, so cultural demand and social infrastructure should be read through life stage, health, mobility, digital access, and venue design rather than treated as a stable population trait", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Eurostat EU-SILC quality-of-life cultural-participation indicator for Sweden, cross-tabulated by age.",
+      "uncertainty": "The age gradient is descriptive and may combine cohort, health, income, transport, household composition, and cultural-supply differences; the 2022 module is not a longitudinal panel.",
+      "subgroup": "Swedish residents aged 16 or over by age band.",
+      "counterinterpretation": "Older adults may participate in activities not captured by this combined indicator or may face different frequency and access patterns; lower attendance is not equivalent to lower cultural engagement.",
+      "source_url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_scp37?lang=en&format=JSON",
+      "retrieval_hash": "sha256:c1c45d05a9405df3e8e5989c380e80fb21b14e80acf014554ea21adbdb499f6f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ec.europa.eu/eurostat/en/web/culture/information-data", "claim": "Eurostat culture-statistics data architecture and cultural-participation definitions."},
+    {"source_url": "https://ec.europa.eu/eurostat/en/web/products-manuals-and-guidelines/w/ks-01-26-001", "claim": "Eurostat 2026 methodological guide covering cultural participation, household expenditure, and harmonized source families."},
+    {"source_url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_scp37__custom_17264005/default/table", "claim": "Interactive Eurostat table for cultural or sport participation by disability, age, sex, frequency, and country."}
+  ],
+  "boundary": "This record adds harmonized cultural-participation evidence connecting country context, disability limitation, and age to reported participation in cinema, live performances, or cultural sites. It is a 2022 cross-sectional percentage dataset refreshed and documented in 2026, not a causal accessibility estimate, a longitudinal participation record, a spending measure, or proof of cultural belonging or wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Eurostat API extract reviewed for dataset dimensions, labels, 2022 values, Sweden disability and age cells, selected-country comparison cells, and percentage-universe limitations.",
+    "source_url_sha256": "sha256:c1c45d05a9405df3e8e5989c380e80fb21b14e80acf014554ea21adbdb499f6f",
+    "checked": "2026-09-30"
+  }
+}

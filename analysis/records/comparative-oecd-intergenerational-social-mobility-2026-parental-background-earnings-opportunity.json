@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-intergenerational-social-mobility-2026-parental-background-earnings-opportunity",
+  "title": "Opportunity remains patterned by family background, education, gender, and place, making mobility a cumulative systems outcome",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "OECD Economics Department Working Paper No. 1858, Intergenerational social mobility across OECD countries: Does the apple fall far from the tree?",
+  "geography": "29 mainly advanced economies covered by the OECD Survey of Adult Skills, with country and subgroup comparisons",
+  "observations": [
+    {
+      "period": "2023 Survey of Adult Skills; earnings and parental education across OECD countries",
+      "denominator": {"value": 29, "unit": "mainly advanced economies in the OECD comparative analysis", "value_type": "country_analysis_frame"},
+      "measures": {
+        "parental_education_earnings_gradient": {"value": "in most countries, adults with highly educated parents earn more than those with low-educated parents", "unit": "OECD comparative finding", "value_type": "reported_association"},
+        "high_low_earnings_gap": {"value": 30, "unit": "approximately percent higher average earnings for individuals with highly educated parents than those with low-educated parents", "value_type": "reported_average_difference"},
+        "middle_low_earnings_gap": {"value": 13, "unit": "approximately percent higher average earnings for individuals with middle-educated parents than those with low-educated parents", "value_type": "reported_average_difference"},
+        "country_variation": {"value": "the gap tends to be larger in Latvia and Central European countries such as Hungary and smaller in the Nordic countries", "unit": "OECD country comparison", "value_type": "reported_distribution"}
+      },
+      "method": "OECD comparative analysis of the 2023 Survey of Adult Skills, combining descriptive cross-country comparisons with econometric estimates of parental education and adult earnings.",
+      "uncertainty": "The paper measures patterned associations and controls for selected individual and local characteristics; inherited traits, norms, policy, selection, and other conditions cannot be fully separated into one causal estimate.",
+      "subgroup": "Adults with low-, middle-, and high-educated parents, workers, households, and countries with different education and labor-market institutions.",
+      "counterinterpretation": "Family-background gradients do not mean mobility is absent: education, skills, institutions, and local opportunity can weaken transmission and produce substantial country differences.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/intergenerational-social-mobility-across-oecd-countries_c45c6be5/6d76ec2a-en.pdf",
+      "retrieval_hash": "sha256:e2634ae0f3820da474143ea829e0fb76f460d1a90e8ec17e3ccb4695fa843564",
+      "status": "reported"
+    },
+    {
+      "period": "2023 Survey of Adult Skills; earnings-distribution tails and gendered labor-market participation",
+      "denominator": {"value": 1, "unit": "OECD earnings and participation comparison frame", "value_type": "comparative_outcome_frame"},
+      "measures": {
+        "bottom_quintile_risk": {"value": "adults with low-educated parents are more likely to end up in the bottom earnings quintile", "unit": "OECD comparative finding", "value_type": "reported_association"},
+        "bottom_quintile_relative_risk": {"value": "the relative risk ranges from almost 1.5 times higher in Japan to about 4 times higher in Portugal", "unit": "selected OECD country comparison", "value_type": "reported_range"},
+        "maternal_education_participation": {"value": "women's labor-market participation is lower when parents, especially mothers, have low education", "unit": "OECD comparative finding", "value_type": "reported_association"},
+        "selected_women_participation_gap": {"value": 17, "unit": "approximately percentage points lower participation for daughters of low- relative to middle-educated mothers in Germany and the United States", "value_type": "reported_estimate"}
+      },
+      "method": "OECD descriptive and econometric analysis of earnings-distribution persistence and women’s labor-market participation by parental education.",
+      "uncertainty": "The estimates vary by country, sex, education, and model specification; they do not establish that parental education alone causes a particular employment or earnings outcome.",
+      "subgroup": "Women and men, daughters with different maternal-education backgrounds, adults at the bottom and top of the earnings distribution, and migrants examined in the wider paper.",
+      "counterinterpretation": "Gender gaps and bottom-tail persistence can be reduced by changing care, education, labor-market, housing, and mobility conditions; the observed gradients are not fixed social destinies.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/intergenerational-social-mobility-across-oecd-countries_c45c6be5/6d76ec2a-en.pdf",
+      "retrieval_hash": "sha256:e2634ae0f3820da474143ea829e0fb76f460d1a90e8ec17e3ccb4695fa843564",
+      "status": "reported"
+    },
+    {
+      "period": "2023 Survey of Adult Skills; educational attainment and human-capital transmission",
+      "denominator": {"value": 1, "unit": "OECD educational-mobility comparison frame", "value_type": "education_outcome_frame"},
+      "measures": {
+        "tertiary_education_persistence": {"value": "tertiary attainment is positively associated with growing up in a highly educated family and negatively associated with a less-educated family", "unit": "OECD comparative finding", "value_type": "reported_association"},
+        "country_pattern": {"value": "the Nordic countries appear more mobile on educational outcomes, while Poland, Portugal, and Italy appear less mobile in the paper's comparative classification", "unit": "OECD country comparison", "value_type": "reported_classification"},
+        "education_channel": {"value": "parental-background effects often diminish after accounting for an individual's own education, but in several countries background still matters among people with similar education", "unit": "OECD analytical finding", "value_type": "reported_mechanism_and_boundary"},
+        "skills_and_future_change": {"value": "education and information-processing skills are treated as important channels for adapting to digitalization, automation, and AI", "unit": "OECD analytical framing", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD comparative educational-attainment and earnings analysis using harmonized adult-skills data, with controls and cross-country heterogeneity analysis.",
+      "uncertainty": "The analysis identifies education and skills as important transmission channels but does not prove that equalizing education alone removes all background effects or guarantees mobility.",
+      "subgroup": "Adults with different parental education levels, tertiary students and graduates, STEM participants, young people entering work, and countries with different school systems.",
+      "counterinterpretation": "Education can be a powerful mobility route while still requiring complementary changes in school quality, networks, labor markets, care, housing, and discrimination.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/intergenerational-social-mobility-across-oecd-countries_c45c6be5/6d76ec2a-en.pdf",
+      "retrieval_hash": "sha256:e2634ae0f3820da474143ea829e0fb76f460d1a90e8ec17e3ccb4695fa843564",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy implications synthesized from the OECD mobility evidence",
+      "denominator": {"value": 1, "unit": "OECD policy-synthesis frame", "value_type": "policy_framework"},
+      "measures": {
+        "early_life_support": {"value": "the paper points to targeted cash and in-kind support, quality childcare, and early childhood education for disadvantaged families and places", "unit": "OECD policy framing", "value_type": "reported_policy_route"},
+        "education_to_work": {"value": "school resources, youth transitions, training, quality VET, and apprenticeships are identified as routes to broaden opportunity", "unit": "OECD policy framing", "value_type": "reported_policy_route"},
+        "opportunity_and_firms": {"value": "competition and lower barriers to entry are presented as complements to education and training because they can widen access to productive opportunities", "unit": "OECD policy framing", "value_type": "reported_policy_route"},
+        "place_mobility": {"value": "housing, transport, social-benefit design, local amenities, and support for both movers and stayers are identified as relevant to geographic opportunity", "unit": "OECD policy framing", "value_type": "reported_policy_route"}
+      },
+      "method": "OECD working-paper synthesis connecting the paper's comparative evidence with policy literature and broad reform considerations.",
+      "uncertainty": "These are policy directions and not a causal evaluation of a single intervention; effectiveness depends on design, implementation, local institutions, and country context.",
+      "subgroup": "Disadvantaged families and places, children, students, workers changing jobs, firms, movers, stayers, and local public-service systems.",
+      "counterinterpretation": "A multi-domain policy mix may be necessary, but expanding every intervention at once is not proof of value; prioritization and local evaluation remain necessary.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/intergenerational-social-mobility-across-oecd-countries_c45c6be5/6d76ec2a-en.pdf",
+      "retrieval_hash": "sha256:e2634ae0f3820da474143ea829e0fb76f460d1a90e8ec17e3ccb4695fa843564",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/6d76ec2a-en", "claim": "OECD DOI landing identity for Working Paper No. 1858."},
+    {"source_url": "https://www.oecd.org/en/topics/sub-issues/social-mobility-and-equal-opportunity.html", "claim": "OECD social-mobility and equal-opportunity research context."}
+  ],
+  "boundary": "This record adds a cross-country opportunity route across parental education, earnings, earnings-distribution tails, women’s participation, educational persistence, skills, and policy channels. It uses published OECD comparisons and estimates from the 2023 Survey of Adult Skills, not raw respondent-level ingestion, individual life histories, causal evaluation of a specific reform, a complete account of migration or place effects, or proof that any policy works uniformly across countries.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD PDF reviewed for the abstract, executive summary, country frame, earnings gradients, bottom-quintile persistence, gendered participation, educational mobility, and policy considerations.",
+    "source_url_sha256": "sha256:e2634ae0f3820da474143ea829e0fb76f460d1a90e8ec17e3ccb4695fa843564",
+    "checked": "2026-09-27"
+  }
+}

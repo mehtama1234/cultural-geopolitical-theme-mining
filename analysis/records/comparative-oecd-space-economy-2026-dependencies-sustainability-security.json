@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-space-economy-2026-dependencies-sustainability-security",
+  "title": "Space infrastructure is becoming a public-service dependency while orbital congestion, concentrated supply, cyber risk, and environmental externalities grow",
+  "theme_ids": ["energy", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "platforms_data_attention"
+  ],
+  "source_unit": "OECD, The Space Economy at a Glance 2026, chapter on managing vulnerabilities, dependencies and sustainability risks, 9 September 2026",
+  "geography": "Global space economy, infrastructure, supply chains, operators, governments, and users",
+  "observations": [
+    {
+      "period": "2026; space systems as critical public and economic infrastructure",
+      "denominator": {"value": 1, "unit": "OECD Space Economy at a Glance 2026 systems assessment", "value_type": "published_systems_framework"},
+      "measures": {
+        "dependency_scope": {"value": "space systems support communications, positioning, navigation and timing, weather forecasting, disaster response, transport, agriculture, finance, and defence", "unit": "reported public-infrastructure dependency set", "value_type": "reported_mechanism_set"},
+        "systemic_vulnerability": {"value": "disruptions to space infrastructure can create wider economic and societal impacts as reliance grows", "unit": "reported risk mechanism", "value_type": "reported_mechanism"},
+        "risk_types": {"value": "the report distinguishes safety and sustainability, market, industrial supply-chain, security and resilience, and externality risks", "unit": "five-part risk framework", "value_type": "reported_framework"},
+        "dependency_route": {"value": "space is moving from a specialized sector to a distributed dependency layer for public services and everyday coordination", "unit": "analytic infrastructure mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "OECD analytical report using space-economy indicators, policy analysis, industry and infrastructure evidence, and country profiles.",
+      "uncertainty": "The report maps vulnerability categories and dependencies but does not estimate one aggregate probability or economic loss from space-system disruption.",
+      "subgroup": "Governments, firms, public-service operators, farmers, transport users, financial institutions, emergency responders, defence organizations, and households dependent on downstream services.",
+      "counterinterpretation": "Redundancy, interoperability, alternative terrestrial systems, and improved preparedness can reduce the societal effect of some disruptions.",
+      "source_url": "https://www.oecd.org/en/publications/the-space-economy-at-a-glance-2026_cbf9b240-en/full-report/managing-vulnerabilities-dependencies-and-sustainability-risks-of-the-space-economy_4d97ef6d.html",
+      "retrieval_hash": "sha256:e99bc68f249279be62f3a342d53358d4e19b77e1dd81df1a2d8dc0debabafc29",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; launch concentration and assured access",
+      "denominator": {"value": 325, "unit": "orbital launch attempts in 2025, compared with 114 in 2020", "value_type": "published_activity_measure"},
+      "measures": {
+        "launch_growth": {"value": "orbital launch attempts rose from 114 in 2020 to around 325 in 2025", "unit": "reported activity change", "value_type": "reported_change"},
+        "provider_count": {"value": "active launch providers rose from 16 in 2020 to 25 in 2025", "unit": "reported provider count", "value_type": "reported_change"},
+        "concentration": {"value": 82, "unit": "approximate share of 2025 launches accounted for by the four largest providers, versus about 71% in 2020", "value_type": "reported_concentration_share"},
+        "competition_route": {"value": "broader participation has not produced equivalent diversification of high-cadence launch supply, leaving assured access strategically exposed", "unit": "reported market mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "OECD analysis of launch attempts, active providers, and provider concentration.",
+      "uncertainty": "Launch counts depend on treatment of failed attempts and test flights; provider concentration does not alone establish abuse of market power or future scarcity.",
+      "subgroup": "Satellite operators, governments, commercial launch firms, public-service users, insurers, and countries seeking independent or diversified access to orbit.",
+      "counterinterpretation": "Rising provider counts, rideshare, and CubeSats may continue to lower entry barriers even while high-cadence capacity remains concentrated.",
+      "source_url": "https://www.oecd.org/en/publications/the-space-economy-at-a-glance-2026_cbf9b240-en/full-report/managing-vulnerabilities-dependencies-and-sustainability-risks-of-the-space-economy_4d97ef6d.html",
+      "retrieval_hash": "sha256:e99bc68f249279be62f3a342d53358d4e19b77e1dd81df1a2d8dc0debabafc29",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; orbital congestion and debris sustainability",
+      "denominator": {"value": 45860, "unit": "objects regularly tracked in orbit; model estimates include about 54,000 objects larger than 10 cm, 1.2 million between 1 and 10 cm, and 140 million between 1 mm and 1 cm", "value_type": "published_environmental_estimate"},
+      "measures": {
+        "orbit_concentration": {"value": "active satellites are concentrated in a limited number of orbital bands, especially around 400-600 km", "unit": "reported orbital pattern", "value_type": "reported_concentration_pattern"},
+        "debris_dynamics": {"value": "simulations indicate debris can become self-generating in some orbital regions through collisions among existing objects", "unit": "reported environmental risk", "value_type": "reported_mechanism"},
+        "avoidance_burden": {"value": "SpaceX reported more than 300,000 collision-avoidance manoeuvres by Starlink satellites in 2025, up roughly 50% from 2024", "unit": "reported operator example", "value_type": "reported_activity_measure"},
+        "sustainability_route": {"value": "orbital expansion creates a shared-resource governance problem where private growth can increase costs and risks for all operators and public users", "unit": "analytic sustainability mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "OECD synthesis using ESA space-environment evidence, operator reporting, and orbital-activity analysis.",
+      "uncertainty": "Public reporting remains incomplete across operators; modeled debris populations and future collision dynamics are uncertain and region-specific.",
+      "subgroup": "Satellite operators, astronomers, telecommunications users, navigation-dependent sectors, regulators, and future space users.",
+      "counterinterpretation": "Improved tracking, maneuverability, disposal, active debris removal, and international norms could reduce future congestion and collision risk.",
+      "source_url": "https://www.oecd.org/en/publications/the-space-economy-at-a-glance-2026_cbf9b240-en/full-report/managing-vulnerabilities-dependencies-and-sustainability-risks-of-the-space-economy_4d97ef6d.html",
+      "retrieval_hash": "sha256:e99bc68f249279be62f3a342d53358d4e19b77e1dd81df1a2d8dc0debabafc29",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; critical materials, signals, and geopolitical resilience",
+      "denominator": {"value": 29, "unit": "selected critical materials assessed for space manufacturing", "value_type": "published_supply_chain_frame"},
+      "measures": {
+        "material_concentration": {"value": "for 14 of 29 selected materials, one economy—mostly China—accounts for at least two-thirds of global production in 2025", "unit": "reported production-concentration pattern", "value_type": "reported_concentration_pattern"},
+        "three_supplier_concentration": {"value": "for 16 materials, three producers account for 85% or more of production", "unit": "reported production-concentration pattern", "value_type": "reported_concentration_pattern"},
+        "signal_threat": {"value": "jamming, spoofing, cyberattacks, and physical anti-satellite capabilities can disrupt space infrastructure, signals, and data", "unit": "reported security-risk set", "value_type": "reported_mechanism_set"},
+        "geopolitical_route": {"value": "space resilience depends on critical-mineral diversification, signal continuity, cyber preparedness, interoperability, and international coordination", "unit": "analytic geopolitical mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "OECD space-economy vulnerability analysis using material, supply-chain, signal, and security evidence.",
+      "uncertainty": "Production concentration does not equal immediate supply failure, and the report does not attribute specific disruptions to a single actor or forecast conflict.",
+      "subgroup": "Space manufacturers, satellite operators, governments, critical-mineral suppliers, telecommunications, transport, agriculture, finance, and defence users.",
+      "counterinterpretation": "Stockpiling, substitution, diversified suppliers, redundancy, and cooperative security arrangements can reduce dependence even when production remains concentrated.",
+      "source_url": "https://www.oecd.org/en/publications/the-space-economy-at-a-glance-2026_cbf9b240-en/full-report/managing-vulnerabilities-dependencies-and-sustainability-risks-of-the-space-economy_4d97ef6d.html",
+      "retrieval_hash": "sha256:e99bc68f249279be62f3a342d53358d4e19b77e1dd81df1a2d8dc0debabafc29",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/the-space-economy-at-a-glance-2026_cbf9b240-en/", "claim": "The OECD landing page provides the full report, executive summary, indicators, country profiles, and methods."},
+    {"source_url": "https://www.worldenergy.org/news-views/entry/world-energy-being-rebalanced-in-real-time-as-demand-disruption-and-system-constraints-converge-2026-world-energy-trilemma-report-finds", "claim": "World Energy Council evidence provides complementary infrastructure, energy, and geopolitical-dependency context."}
+  ],
+  "boundary": "This record adds a space-infrastructure route from public-service dependence, orbital congestion, launch and material concentration, cyber and signal threats, and environmental externalities through strategic resilience and governance. It is an OECD systems and policy analysis, not an incident forecast, household-impact estimate, military assessment, or proof that any specific provider is unsafe.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD chapter was reviewed for report date, public-service dependence, five vulnerability types, launch concentration, orbital debris estimates, critical-material concentration, and malicious signal or cyber-risk discussion.",
+    "source_url_sha256": "sha256:e99bc68f249279be62f3a342d53358d4e19b77e1dd81df1a2d8dc0debabafc29",
+    "checked": "2026-09-26"
+  }
+}

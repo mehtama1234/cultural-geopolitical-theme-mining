@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-worldbank-trade-natural-shocks-household-income-distribution-2025",
+  "title": "Trade, climate, and conflict shocks reach households through income, food, and unequal exposure channels",
+  "theme_ids": ["cost", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Bank, Trade Policy and Natural Shocks Dashboard, with methodology reference to Crops, Conflict, and Climate Change",
+  "geography": "Low- and middle-income countries and more than 50 countries represented in the World Bank interactive household-shock dashboard",
+  "observations": [
+    {
+      "period": "2025 dashboard; climate-yield shock scenario",
+      "denominator": {"value": 1, "unit": "World Bank modeled household-income shock scenario", "value_type": "modeled_scenario"},
+      "measures": {
+        "real_income_loss": {"value": 11.99, "unit": "percent forecast reduction in real incomes associated with changes in yields due to climate change", "value_type": "modeled_percent"},
+        "transmission": {"value": "The dashboard traces natural and policy-driven shocks through household income, food security, and other economic channels", "unit": "reported analytical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank interactive dashboard using modeled natural-shock and household-distribution channels; the page points to a Policy Research Working Paper for methodology.",
+      "uncertainty": "The 11.99% estimate is a model-based scenario, not a realized national income change or a causal estimate for every household; shock definitions, elasticities, and time horizons determine the result.",
+      "subgroup": "Households in countries exposed to climate-related yield changes, differentiated by income and economic channel in the dashboard.",
+      "counterinterpretation": "Adaptation, trade substitution, irrigation, crop changes, transfers, and local resilience can reduce realized losses; modeled exposure is not realized hardship.",
+      "source_url": "https://www.worldbank.org/en/data/interactive/2025/04/29/trade-policy-and-natural-shocks-dashboard",
+      "retrieval_hash": "sha256:913d751025e721bd40b15a3d31010100798dbaac82ee37abdcd48614fd4545d2",
+      "status": "estimated"
+    },
+    {
+      "period": "2025 dashboard; war-induced food-inflation shock",
+      "denominator": {"value": 1, "unit": "World Bank modeled low- and middle-income-country household-income shock scenario", "value_type": "modeled_scenario"},
+      "measures": {
+        "real_income_loss": {"value": 2.9, "unit": "percent average reduction in real household incomes associated with war-induced food inflation from restrictive grain and fertilizer export policies", "value_type": "modeled_percent"},
+        "food_security_route": {"value": "Export restrictions transmit conflict through food prices and household purchasing power", "unit": "reported analytical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank dashboard summary of modeled household welfare impacts from war-induced food inflation and restrictive trade policies.",
+      "uncertainty": "The 2.90% figure is an average modeled effect across low- and middle-income countries, not a direct observation of household income or a uniform country estimate; the dashboard does not establish one policy’s causal contribution in every setting.",
+      "subgroup": "Households in low- and middle-income countries exposed to food-price increases, especially food-insecure and lower-income households.",
+      "counterinterpretation": "Domestic production, targeted transfers, food substitution, inventories, and alternative suppliers can buffer food-price transmission; export restrictions may also be adopted for domestic political or food-security reasons.",
+      "source_url": "https://www.worldbank.org/en/data/interactive/2025/04/29/trade-policy-and-natural-shocks-dashboard",
+      "retrieval_hash": "sha256:913d751025e721bd40b15a3d31010100798dbaac82ee37abdcd48614fd4545d2",
+      "status": "estimated"
+    },
+    {
+      "period": "2025 dashboard; unequal exposure and household response",
+      "denominator": {"value": 50, "unit": "countries represented in the dashboard visualization and household-shock comparisons", "value_type": "country_count"},
+      "measures": {
+        "distributional_heterogeneity": {"value": "Welfare impacts vary enormously across the income distribution, with already vulnerable households bearing the brunt of the costs", "unit": "reported distributional pattern", "value_type": "reported_pattern"},
+        "dashboard_scope": {"value": "The dashboard visualizes variation across households, economic channels, and household responses in more than 50 countries", "unit": "reported analytical scope", "value_type": "reported_scope"}
+      },
+      "method": "World Bank interactive visualization of modeled household exposure and response pathways across countries and income distributions.",
+      "uncertainty": "The dashboard’s cross-household comparisons depend on model inputs, survey or distributional data, and scenario assumptions; it does not provide a longitudinal record of the same households’ adaptations or recovery.",
+      "subgroup": "Lower-income and otherwise vulnerable households, compared with households at different positions in the income distribution and across countries.",
+      "counterinterpretation": "Vulnerability can be offset by public transfers, informal support, asset ownership, local production, or substitution, so income position alone does not determine realized welfare loss.",
+      "source_url": "https://www.worldbank.org/en/data/interactive/2025/04/29/trade-policy-and-natural-shocks-dashboard",
+      "retrieval_hash": "sha256:913d751025e721bd40b15a3d31010100798dbaac82ee37abdcd48614fd4545d2",
+      "status": "reported"
+    },
+    {
+      "period": "2025 dashboard; policy and natural shocks as one household-risk system",
+      "denominator": {"value": 1, "unit": "World Bank household-shock analytical framework", "value_type": "analytical_framework"},
+      "measures": {
+        "shock_set": {"value": "The dashboard combines natural, anthropogenic, and policy-driven shocks, including climate-yield changes, conflict-linked food inflation, and restrictive trade policies", "unit": "reported shock framework", "value_type": "reported_framework"},
+        "policy_relevance": {"value": "The same shock can operate through income, food security, prices, production, trade, and household response channels", "unit": "reported analytical framework", "value_type": "reported_framework"}
+      },
+      "method": "World Bank policy visualization linking trade policy, climate and conflict shocks, household distribution, and response channels.",
+      "uncertainty": "The framework identifies plausible transmission routes but does not prove that every channel activates in every country or that a specific policy intervention improves welfare.",
+      "subgroup": "Households, food systems, farmers, consumers, governments, and trade-policy institutions in shock-exposed countries.",
+      "counterinterpretation": "A policy that raises short-term prices can protect longer-term supply or domestic production; welfare evaluation requires timing, incidence, substitution, and recovery rather than a single immediate loss estimate.",
+      "source_url": "https://www.worldbank.org/en/data/interactive/2025/04/29/trade-policy-and-natural-shocks-dashboard",
+      "retrieval_hash": "sha256:913d751025e721bd40b15a3d31010100798dbaac82ee37abdcd48614fd4545d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099006401072518853/null", "claim": "World Bank methodology reference linked from the dashboard for Crops, Conflict, and Climate Change; access is subject to the document server’s delivery behavior."},
+    {"source_url": "https://www.worldbank.org/en/topic/poverty/brief/poverty-and-climate-change", "claim": "World Bank poverty and climate context for household vulnerability and shock transmission."}
+  ],
+  "boundary": "This record adds a modeled household-distribution layer to the trade, climate, food, and geopolitical-shock map. It is an interactive World Bank analytical dashboard, not respondent-level longitudinal data, a realized household-income panel, a universal causal estimate, or proof that any specific trade restriction caused a measured welfare loss in a named country.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank dashboard page was reviewed for climate-yield income loss, war-induced food-inflation income loss, distributional heterogeneity, country coverage, channels, and household responses. The dashboard page and its linked methodology reference were retained; the underlying interactive data are not claimed as a local respondent-level extract.",
+    "source_url_sha256": "sha256:913d751025e721bd40b15a3d31010100798dbaac82ee37abdcd48614fd4545d2",
+    "checked": "2026-09-28"
+  }
+}

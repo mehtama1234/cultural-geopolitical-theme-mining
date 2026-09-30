@@ -1,0 +1,16 @@
+Source: https://www.efsurvivors.net/s/080226-EFSN-Insurance-Survey-Data-Handling-and-Management-Policy.pdf
+Policy date: August 2, 2026
+Retrieved and reviewed: September 29, 2026
+Source PDF SHA-256: 6537d1842a385bc0a2fd33067329149a250bb459a3eff310b0279c0db1fae8d6
+
+Retained evidence summary:
+
+- The survey is intended to produce de-identified, aggregate, insurer-by-insurer information about coverage, claims handling, payments, delays, displacement costs, contamination issues, and recovery barriers after the Eaton and Palisades fires.
+- The invitation states approximately 15 minutes and one response per household; it does not publish a probability sample, response count, weighting plan, or respondent file.
+- Raw survey, primary analytic, public-use, contact/advocacy, and qualitative-response files are separated.
+- Exact addresses may be collected for validation, deduplication, eligibility review, and geographic classification, but the public-use dataset excludes exact addresses, parcel-level geography, and direct identifiers.
+- Public-use fields may include fire event, recoded geography, housing type, owner/renter status, insurance type, carrier category, claim status, coverage sufficiency, delay/payment categories, service ratings, demographic categories, and recoded recovery barriers/outcomes.
+- Small cells and unusual combinations are subject to suppression, combination, rounding, or removal; a disclosure review is required before any public dataset, dashboard, map, or report.
+- Contact/advocacy information is kept separate and participation in advocacy, media, or survivor stories is voluntary and permission-based.
+
+Boundary: this artifact establishes a data-governance and future-publication route, not survey results, representativeness, claim adequacy, household recovery, or lawful permission for the atlas to obtain raw respondent data.

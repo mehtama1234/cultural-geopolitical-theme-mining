@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-desa-gender-snapshot-2026-institutional-power-leadership",
+  "title": "Gender equality institutions and leadership remain formally present but materially underpowered, weakening the route from rights commitments to implementation",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN Women and United Nations Department of Economic and Social Affairs, Progress on the Sustainable Development Goals: The Gender Snapshot 2026",
+  "geography": "Global gender-equality and Sustainable Development Goal monitoring across 17 Goals, with institutional-power and leadership indicators for countries and gender-equality mechanisms",
+  "observations": [
+    {
+      "period": "2026; global gender equality and SDG monitoring framework",
+      "denominator": {"value": 17, "unit": "Sustainable Development Goals covered by the Gender Snapshot", "value_type": "global_sdg_monitoring_frame"},
+      "measures": {
+        "data_scope": {"value": "the report tracks gender equality across all 17 SDGs using the latest available data and evidence", "unit": "reported monitoring scope", "value_type": "reported_framework_scope"},
+        "leadership_finding": {"value": "gender parity in leadership and decision-making remains a distant goal, with power and institutional capacity identified as central constraints", "unit": "reported global finding", "value_type": "reported_pattern"},
+        "institutional_route": {"value": "gender-equality institutions connect formal commitments to implementation, accountability, funding, and policy across sectors", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "cross_goal_route": {"value": "the report links women's power and gender-responsive institutions to progress across education, poverty, peace, climate, and other SDG domains", "unit": "reported cross-domain mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Women and UN DESA synthesis of official statistics, SDG indicators, leadership measures, institutional survey evidence, and gender-equality reporting across the 2030 Agenda.",
+      "uncertainty": "The snapshot combines indicators with different years, coverage, definitions, and data quality; cross-domain associations do not establish that women's leadership alone caused progress in any SDG outcome.",
+      "subgroup": "Women and girls, gender-equality mechanisms, national governments, parliaments, courts, civil-society organizations, women’s rights organizations, and populations affected by gender-responsive policy.",
+      "counterinterpretation": "Formal institutions can retain influence despite resource or authority constraints, and progress can come from social movements, courts, local governments, or other actors not captured by a single institutional measure.",
+      "source_url": "https://unstats.un.org/sdgs/gender-snapshot/2026/",
+      "retrieval_hash": "sha256:f76f984a039b1ef7fe54033bc5c1f13968d775548a0c9ff5302c51b6751f9ad9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; political and judicial leadership representation",
+      "denominator": {"value": 1, "unit": "global leadership and decision-making monitoring frame reported in the Gender Snapshot", "value_type": "global_leadership_frame"},
+      "measures": {
+        "parliamentary_parity_horizon": {"value": 63, "unit": "years until projected parity in national parliaments at the current pace", "value_type": "reported_projection"},
+        "chief_justices_total": {"value": 175, "unit": "chief justices included in the global comparison", "value_type": "reported_leadership_count"},
+        "male_chief_justices": {"value": 144, "unit": "men among the 175 chief justices", "value_type": "reported_leadership_count"},
+        "female_chief_justices": {"value": 31, "unit": "women among the 175 chief justices", "value_type": "reported_leadership_count"},
+        "power_route": {"value": "slow representation gains leave major agenda-setting, legal, and accountability institutions disproportionately led by men", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN Women and UN DESA compilation of parliamentary parity projections and global judicial-leadership counts.",
+      "uncertainty": "The parity horizon is a projection conditional on past trends, not a fixed forecast; leadership counts do not measure decision quality, policy preferences, or the influence of women outside formal office.",
+      "subgroup": "Women candidates, legislators, judges, chief justices, political parties, justice institutions, and communities affected by representation and legal decision-making.",
+      "counterinterpretation": "Formal representation is not identical to substantive representation; male-led institutions can adopt gender-responsive policies, while women leaders face structural constraints and do not form a single policy bloc.",
+      "source_url": "https://unstats.un.org/sdgs/gender-snapshot/2026/",
+      "retrieval_hash": "sha256:f76f984a039b1ef7fe54033bc5c1f13968d775548a0c9ff5302c51b6751f9ad9",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; institutional mechanisms for gender equality",
+      "denominator": {"value": 1, "unit": "2026 survey of national gender-equality mechanisms", "value_type": "institutional_mechanism_survey_frame"},
+      "measures": {
+        "power_erosion_share": {"value": 32, "unit": "percent of surveyed gender-equality mechanisms reporting erosion of institutional power over the prior two years", "value_type": "reported_survey_share"},
+        "institutional_consequence": {"value": "weakened institutional power is associated in the report's synthesis with less funding for gender-equality priorities, weaker accountability, and weaker implementation of existing commitments", "unit": "reported institutional consequence", "value_type": "reported_mechanism"},
+        "architecture_gap": {"value": "gender-equality architecture can remain visible on paper while losing practical authority, resources, or reach", "unit": "reported governance pattern", "value_type": "reported_pattern"},
+        "civic_space_route": {"value": "protecting women's rights organizations and civic space is identified as part of restoring equal power and accountability", "unit": "reported policy route", "value_type": "reported_policy_route"}
+      },
+      "method": "UN Women and UN DESA survey and synthesis of national gender-equality mechanisms, institutional power, funding, accountability, and implementation conditions.",
+      "uncertainty": "The reported share is survey-based and does not measure the magnitude of power loss or establish a universal causal link between institutional erosion and each policy outcome.",
+      "subgroup": "National gender-equality mechanisms, ministries, women’s rights organizations, civil-society groups, public servants, funders, and people relying on gender-equality policy implementation.",
+      "counterinterpretation": "Institutional restructuring can sometimes improve coordination or authority even when a mechanism reports change or reduced resources; the direction and effect of reform require country-specific review.",
+      "source_url": "https://unstats.un.org/sdgs/gender-snapshot/2026/",
+      "retrieval_hash": "sha256:f76f984a039b1ef7fe54033bc5c1f13968d775548a0c9ff5302c51b6751f9ad9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; women’s power and gender-responsive policy implementation",
+      "denominator": {"value": 1, "unit": "Gender Snapshot synthesis of leadership, institutional accountability, and SDG implementation", "value_type": "gender_power_policy_frame"},
+      "measures": {
+        "leadership_policy_route": {"value": "the report finds that where women hold real power, gender-responsive policies are prioritized and institutions are held more accountable", "unit": "reported synthesis", "value_type": "reported_mechanism"},
+        "outcome_domains": {"value": "education, environmental protection, poverty reduction, peace, and other SDG domains are identified as affected by gender-responsive leadership and institutions", "unit": "reported cross-domain outcome set", "value_type": "reported_domain_set"},
+        "reform_direction": {"value": "the report calls for reversing institutional dismantling, combating discriminatory social norms, and investing in inclusive leadership and women's rights organizations", "unit": "reported policy route", "value_type": "reported_policy_route"},
+        "accountability_conversion": {"value": "formal commitments become more consequential when institutions have authority, funding, civic-space protection, and leadership capable of enforcing or revising policy", "unit": "bounded governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UN Women and UN DESA cross-SDG synthesis connecting representation, institutional power, gender norms, civic space, and policy implementation.",
+      "uncertainty": "This is a cross-source synthesis rather than a randomized or country-comparable causal estimate; leadership effects vary by institution, political coalition, policy domain, and broader state capacity.",
+      "subgroup": "Women leaders, gender-equality advocates, public institutions, civil society, marginalized women and girls, and communities affected by education, climate, poverty, peace, and social policy.",
+      "counterinterpretation": "Leadership diversity can improve attention and accountability without guaranteeing progressive policy; institutions, parties, resources, and social movements mediate what leaders can achieve.",
+      "source_url": "https://unstats.un.org/sdgs/gender-snapshot/2026/",
+      "retrieval_hash": "sha256:f76f984a039b1ef7fe54033bc5c1f13968d775548a0c9ff5302c51b6751f9ad9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://wbl.worldbank.org/en/publications/flagship-report", "claim": "Complementary World Bank evidence on legal frameworks, supportive systems, and enforcement perceptions shaping women's economic opportunity."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/goal-05/", "claim": "Complementary UN SDG 5 indicator context on leadership, legal barriers, violence, autonomy, and gender-responsive financing."}
+  ],
+  "boundary": "This record adds an institutional-power and gender-equality route across leadership, courts, parliaments, gender mechanisms, civic space, funding, accountability, social norms, and cross-SDG implementation. It uses UN Women and UN DESA aggregate indicators and institutional reporting, not respondent-level data, individual leadership histories, household time-use or income records, causal estimates of women leaders, or proof that representation alone produces equal outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Women and UN DESA Gender Snapshot 2026 page reviewed for SDG scope, parliamentary parity horizon, chief-justice representation, institutional-power erosion, and the report's leadership-to-policy synthesis.",
+    "source_url_sha256": "sha256:f76f984a039b1ef7fe54033bc5c1f13968d775548a0c9ff5302c51b6751f9ad9",
+    "checked": "2026-09-26"
+  }
+}

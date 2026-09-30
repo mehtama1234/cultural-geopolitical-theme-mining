@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-sofi-2026-hunger-nutrition-regional-disparities",
+  "title": "Modest global food-security gains coexist with high healthy-diet costs, regional disparities, and unequal nutrition exposure",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "FAO, IFAD, UNICEF, WFP, and WHO, The State of Food Security and Nutrition in the World 2026",
+  "geography": "Global and regional food insecurity, diet quality, nutrition, and healthy-diet affordability estimates",
+  "observations": [
+    {
+      "period": "2025; global hunger and food insecurity estimates",
+      "denominator": {"value": 1, "unit": "world population and global food-insecurity estimation frame", "value_type": "global_estimate_frame"},
+      "measures": {
+        "hunger_prevalence": {"value": 7.8, "unit": "percent of the world population affected by hunger", "value_type": "reported_estimate"},
+        "moderate_or_severe_food_insecurity": {"value": 2.1, "unit": "billion people experiencing moderate or severe food insecurity", "value_type": "reported_estimate"},
+        "direction": {"value": "global food security and nutrition improved modestly in 2025", "unit": "SOFI global assessment", "value_type": "reported_finding"},
+        "target_gap": {"value": "progress remains uneven and insufficient to meet 2030 targets", "unit": "SDG 2 assessment", "value_type": "reported_finding"}
+      },
+      "method": "UN system global and regional estimates of hunger, food insecurity, diet quality, and nutrition indicators.",
+      "uncertainty": "These are modeled and harmonized population estimates, not respondent-level nutrition histories or household food diaries; definitions, survey coverage, and revisions affect comparability.",
+      "subgroup": "People experiencing hunger or food insecurity, low-income households, children, women, rural communities, and populations in regions with slower progress.",
+      "counterinterpretation": "A modest global improvement can reflect meaningful policy and food-system gains even while the level of unmet need remains exceptionally high.",
+      "source_url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026",
+      "retrieval_hash": "sha256:251b5775ea4e852e2ba4a8868eb983e7aa47eb5eef5c9abd90c55d4b621a83bc",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; regional divergence",
+      "denominator": {"value": 1, "unit": "global and regional SDG 2 progress frame", "value_type": "regional_comparison_frame"},
+      "measures": {
+        "africa_direction": {"value": "first signs of improvement in Africa since adoption of the 2030 Agenda", "unit": "SOFI regional assessment", "value_type": "reported_finding"},
+        "regional_disparity": {"value": "global progress remains uneven, with persistent regional differences in hunger and nutrition outcomes", "unit": "SOFI comparative assessment", "value_type": "reported_finding"},
+        "policy_signal": {"value": "regional improvement does not remove the need for coordinated food-system, social-protection, and nutrition policy", "unit": "SOFI policy synthesis", "value_type": "reported_framework"}
+      },
+      "method": "Comparative regional estimates and cross-country synthesis across food security, diet quality, and nutrition targets.",
+      "uncertainty": "Regional aggregates conceal within-country, rural-urban, gender, age, conflict, and income differences; they do not identify individual causal pathways.",
+      "subgroup": "Residents of Africa and other slower-progress regions, rural communities, women, young children, and households exposed to conflict or high food costs.",
+      "counterinterpretation": "Regional improvement can provide a platform for scaling effective interventions, infrastructure, and public investment rather than implying that disparities are fixed.",
+      "source_url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026",
+      "retrieval_hash": "sha256:251b5775ea4e852e2ba4a8868eb983e7aa47eb5eef5c9abd90c55d4b621a83bc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; healthy-diet affordability",
+      "denominator": {"value": 1, "unit": "global healthy-diet affordability and food-cost assessment frame", "value_type": "diet_cost_frame"},
+      "measures": {
+        "access_constraint": {"value": "healthy diets remain out of reach for billions", "unit": "SOFI global assessment", "value_type": "reported_finding"},
+        "africa_unaffordability": {"value": 66.7, "unit": "approximate share of people in Africa unable to afford a healthy diet", "value_type": "reported_estimate"},
+        "structural_drivers": {"value": "food prices, incomes, food-system structure, and economic conditions shape healthy-diet access", "unit": "SOFI explanatory synthesis", "value_type": "reported_mechanism"},
+        "consumer_tradeoff": {"value": "limited affordability can push households toward less nutritious foods even when aggregate food availability improves", "unit": "SOFI policy and nutrition framing", "value_type": "reported_mechanism"}
+      },
+      "method": "Healthy-diet cost and affordability analysis linked to food-security and nutrition estimates.",
+      "uncertainty": "Affordability thresholds are constructed estimates and do not measure each household's actual purchases, preferences, preparation time, or intra-household allocation.",
+      "subgroup": "Low-income consumers, food-insecure households, women, children, rural communities, and people facing high local food prices.",
+      "counterinterpretation": "Income growth, lower structural costs, better distribution, social protection, and nutrition-sensitive policy can expand healthy-diet access without requiring identical diets everywhere.",
+      "source_url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026",
+      "retrieval_hash": "sha256:251b5775ea4e852e2ba4a8868eb983e7aa47eb5eef5c9abd90c55d4b621a83bc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; unequal nutrition exposure and policy response",
+      "denominator": {"value": 1, "unit": "global nutrition-disparity and multisector policy frame", "value_type": "nutrition_equity_frame"},
+      "measures": {
+        "persistent_disparities": {"value": "disparities remain particularly important for women, young children, and rural communities", "unit": "SOFI subgroup assessment", "value_type": "reported_finding"},
+        "diet_quality": {"value": "diet quality continues to lag worldwide", "unit": "SOFI global assessment", "value_type": "reported_finding"},
+        "response": {"value": "coordinated, multisectoral action is needed to reduce structural costs, strengthen food systems, and improve equitable access", "unit": "SOFI policy recommendation", "value_type": "reported_framework"},
+        "system_link": {"value": "nutrition outcomes connect household purchasing room with agriculture, markets, health, social protection, and public investment", "unit": "SOFI food-system framing", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sector synthesis of food insecurity, diet quality, nutrition targets, affordability, and policy levers.",
+      "uncertainty": "The report identifies population-level patterns and policy levers; it does not establish a single causal effect for any specific intervention or household.",
+      "subgroup": "Women, young children, rural communities, food-insecure households, farmers, food-system workers, health systems, and public agencies.",
+      "counterinterpretation": "Targeted public action and local adaptation can reduce unequal exposure even where global food prices and supply conditions remain volatile.",
+      "source_url": "https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2026",
+      "retrieval_hash": "sha256:251b5775ea4e852e2ba4a8868eb983e7aa47eb5eef5c9abd90c55d4b621a83bc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world/en", "claim": "FAO provides the joint SOFI publication and related food-security evidence."},
+    {"source_url": "https://www.who.int/health-topics/malnutrition", "claim": "WHO provides complementary nutrition and malnutrition context."}
+  ],
+  "boundary": "This record adds a global hunger, food-insecurity, healthy-diet affordability, nutrition-disparity, and public-response route. It uses aggregate UN estimates and report synthesis, not respondent-level nutrition data, household food diaries, individual medical histories, causal food-price estimates, or proof that global hunger improvement means secure or healthy diets for every subgroup.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO SOFI 2026 publication page reviewed for the title, date, joint UN production, global hunger and food-insecurity estimates, regional divergence, healthy-diet affordability, subgroup disparities, and policy framing.",
+    "source_url_sha256": "sha256:251b5775ea4e852e2ba4a8868eb983e7aa47eb5eef5c9abd90c55d4b621a83bc",
+    "checked": "2026-09-26"
+  }
+}

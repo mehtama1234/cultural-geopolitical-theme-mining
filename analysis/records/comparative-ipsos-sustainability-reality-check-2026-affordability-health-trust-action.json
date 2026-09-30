@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-sustainability-reality-check-2026-affordability-health-trust-action",
+  "title": "Climate concern is being filtered through affordability, health and credibility, making sustainability an everyday-value problem rather than a duty-only problem",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "time_hidden_price"
+  ],
+  "source_unit": "Ipsos, The Sustainability Reality Check / Market Essentials Sustainability Report 2026",
+  "geography": "15-market comparative consumer research; public analysis synthesizes the Market Essentials Sustainability Report 2026",
+  "observations": [
+    {
+      "period": "2026; climate concern and action distance",
+      "denominator": {"value": null, "unit": "Consumers in the 15-market Ipsos Market Essentials Sustainability research; public analysis does not disclose pooled sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "climate_concern": {"value": "Concern about climate change remains high", "unit": "reported cross-market interpretation", "value_type": "reported_interpretation"},
+        "action_urgency": {"value": "The number believing environmental action is needed now has recently increased after a period of decline", "unit": "reported trend interpretation", "value_type": "reported_interpretation"},
+        "global_personal_distance": {"value": "Many still view climate change primarily as a global problem rather than a personal one", "unit": "reported attitude interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos Market Essentials Sustainability Report 2026 and public analysis of its 15-market findings.",
+      "uncertainty": "The public article does not provide item-level percentages, country distributions or a causal test of the awareness-to-action gap.",
+      "subgroup": "Consumers across 15 markets in the underlying Market Essentials research.",
+      "counterinterpretation": "Seeing climate as global may reflect recognition of collective responsibility rather than personal indifference, especially where individual action has limited material effect.",
+      "source_url": "https://www.ipsos.com/en/sustainability-reality-check-why-consumers-are-rethinking-sustainability-2026",
+      "retrieval_hash": "sha256:53c0bf509df479dc2d3bb2f9ce02af61388037d119aed076980982898a639c65",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cost-of-living filter on sustainable behavior",
+      "denominator": {"value": null, "unit": "Consumers in the 15-market Ipsos Market Essentials Sustainability research; behavior-specific denominator not disclosed on the public analysis", "value_type": "not_disclosed"},
+      "measures": {
+        "selective_sustainability": {"value": "Consumers are not abandoning sustainability but are becoming more selective", "unit": "reported consumer-behavior interpretation", "value_type": "reported_interpretation"},
+        "money_saving_actions": {"value": "Reducing energy use and cutting waste continue to resonate because they can also save money", "unit": "reported behavior interpretation", "value_type": "reported_interpretation"},
+        "costly_actions": {"value": "More expensive or demanding sustainable actions are harder to maintain under current economic pressure", "unit": "reported behavior interpretation", "value_type": "reported_interpretation"},
+        "immediate_value": {"value": "Sustainability initiatives increasingly need to deliver immediate, tangible value", "unit": "reported strategic implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-market synthesis connecting sustainability attitudes to household affordability and behavior.",
+      "uncertainty": "The article does not specify which behaviors are classified as expensive or demanding, nor how effects differ by income, energy prices, housing or access to alternatives.",
+      "subgroup": "Consumers across the 15 markets, with likely household-resource variation.",
+      "counterinterpretation": "Cost-sensitive sustainability can be a durable adoption route if savings are real, but it may leave high-cost structural emissions untouched and shift responsibility onto households.",
+      "source_url": "https://www.ipsos.com/en/sustainability-reality-check-why-consumers-are-rethinking-sustainability-2026",
+      "retrieval_hash": "sha256:53c0bf509df479dc2d3bb2f9ce02af61388037d119aed076980982898a639c65",
+      "status": "reported"
+    },
+    {
+      "period": "2026; responsibility and organizational legitimacy",
+      "denominator": {"value": null, "unit": "Consumers in the 15-market Ipsos Market Essentials Sustainability research; responsibility-item denominator not disclosed on the public analysis", "value_type": "not_disclosed"},
+      "measures": {
+        "organizational_responsibility": {"value": "Many consumers believe governments and businesses hold greater responsibility than individuals for environmental and social challenges", "unit": "reported responsibility interpretation", "value_type": "reported_interpretation"},
+        "evidence_over_promises": {"value": "Consumers want evidence of meaningful action rather than promises", "unit": "reported credibility expectation", "value_type": "reported_interpretation"},
+        "credibility_requirement": {"value": "Credibility is becoming as important as commitment", "unit": "reported organizational implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-market consumer-attitude analysis of institutional responsibility and sustainability credibility.",
+      "uncertainty": "Attribution of responsibility does not establish willingness to pay, vote, switch brands or support regulation; the public page does not quantify the responsibility gap.",
+      "subgroup": "Consumers across the 15 markets.",
+      "counterinterpretation": "Calling for organizational leadership may be a demand for coordination and infrastructure rather than an attempt to avoid personal responsibility.",
+      "source_url": "https://www.ipsos.com/en/sustainability-reality-check-why-consumers-are-rethinking-sustainability-2026",
+      "retrieval_hash": "sha256:53c0bf509df479dc2d3bb2f9ce02af61388037d119aed076980982898a639c65",
+      "status": "reported"
+    },
+    {
+      "period": "2026; health and trust as sustainability translation mechanisms",
+      "denominator": {"value": null, "unit": "Consumers in the 15-market Ipsos Market Essentials Sustainability research; health and trust item denominators not disclosed on the public analysis", "value_type": "not_disclosed"},
+      "measures": {
+        "health_sustainability_link": {"value": "Consumers increasingly connect environmental choices with healthier products, safer ingredients and improved quality of life", "unit": "reported consumer interpretation", "value_type": "reported_interpretation"},
+        "present_day_relevance": {"value": "Sustainability is shifting from future planetary benefits toward present-day benefits for people and families", "unit": "reported meaning shift", "value_type": "reported_interpretation"},
+        "trust_barriers": {"value": "Confusion, lack of transparency and concerns about value make it difficult to identify genuinely sustainable products and services", "unit": "reported engagement barrier set", "value_type": "reported_interpretation"},
+        "choice_design": {"value": "Sustainable choices need to become easier, more accessible and more relevant to affordability, health, resilience, convenience and security", "unit": "reported strategic implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-market sustainability analysis linking consumer health meaning, transparency and choice conditions.",
+      "uncertainty": "Health associations may be partly shaped by marketing and do not establish that products are safer or environmentally superior; the public analysis does not test actual purchasing or health outcomes.",
+      "subgroup": "Consumers across the 15 markets.",
+      "counterinterpretation": "Health can make sustainability more personally actionable, but it can also narrow climate politics into individual consumption and obscure infrastructure or regulatory remedies.",
+      "source_url": "https://www.ipsos.com/en/sustainability-reality-check-why-consumers-are-rethinking-sustainability-2026",
+      "retrieval_hash": "sha256:53c0bf509df479dc2d3bb2f9ce02af61388037d119aed076980982898a639c65",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://resources.ipsos.com/", "claim": "Ipsos resource hub linked from the analysis for the full Market Essentials Sustainability Report 2026; the report is offered through an order flow."},
+    {"source_url": "https://www.ipsos.com/en/topic/sustainability", "claim": "Official Ipsos sustainability topic page contextualizing the report among current climate and energy research."}
+  ],
+  "boundary": "This record adds a climate-to-household translation mechanism: concern remains high, but action is filtered through affordability, health relevance, convenience, organizational responsibility and trust. It is a public synthesis of comparative consumer research, not a transaction dataset, emissions inventory, product lifecycle assessment or causal evaluation of sustainability interventions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Sustainability Reality Check analysis, its linked Market Essentials Sustainability Report context and Ipsos sustainability topic page were retrieved and reviewed for climate concern, cost pressure, organizational responsibility, health meaning and trust barriers; the analysis page was hashed.",
+    "source_url_sha256": "sha256:53c0bf509df479dc2d3bb2f9ce02af61388037d119aed076980982898a639c65",
+    "checked": "2026-09-27"
+  }
+}

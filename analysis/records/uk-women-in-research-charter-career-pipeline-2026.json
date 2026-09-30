@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "uk-women-in-research-charter-career-pipeline-2026",
+  "title": "Research careers lose women after entry as caring infrastructure, work norms, assessment rules, and institutional culture compound into a pipeline penalty",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "UK Department for Science, Innovation and Technology, Women in Research Charter",
+  "geography": "United Kingdom research system; research funders, universities, public-sector research organisations, and research businesses",
+  "observations": [
+    {
+      "period": "2026; entry-to-senior research pipeline",
+      "denominator": {"value": 1, "unit": "UK Women in Research Charter evidence frame; component education and workforce denominators vary", "value_type": "policy_evidence_frame"},
+      "measures": {
+        "stem_gcse": {"value": 48, "unit": "percent of STEM GCSE entries accounted for by girls", "value_type": "reported_share"},
+        "science_undergraduate": {"value": 53, "unit": "percent of students in science-related undergraduate subjects who are women", "value_type": "reported_share"},
+        "junior_mid_researchers": {"value": 51, "unit": "percent of junior and mid-level researchers who are women", "value_type": "reported_share"},
+        "senior_leadership": {"value": 44, "unit": "percent of senior academic leadership represented by women", "value_type": "reported_share"},
+        "professors": {"value": 31, "unit": "percent of professors who are women", "value_type": "reported_share"},
+        "women_of_colour_professors": {"value": 6, "unit": "percent of professors who are women of colour, compared with around 16% at junior grades", "value_type": "reported_share"},
+        "pipeline_mechanism": {"value": "Representation is close to parity at entry and early career but falls at senior levels, with the charter locating a major drop around age 35 alongside caring responsibilities and increasing part-time work", "unit": "reported institutional pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "Government policy synthesis drawing on HESA, WISE/IET, OECD, and research-sector evidence cited in the charter; component measures have different populations and are not a single longitudinal cohort.",
+      "uncertainty": "The charter's pipeline percentages are not a causal panel and do not by themselves separate discipline, cohort, selection, contract, discrimination, caring, or labour-market effects.",
+      "subgroup": "Women researchers, women of colour, doctoral researchers, early- and mid-career researchers, senior academics, and research-sector leaders.",
+      "counterinterpretation": "Different subject composition, career preferences, institutional sorting, and cohort change may contribute to the observed representation gradient; the charter presents structural barriers as a policy diagnosis rather than a causal estimate.",
+      "source_url": "https://www.gov.uk/government/publications/women-in-research-charter/women-in-research-charter",
+      "retrieval_hash": "sha256:0fc1516248a292ba2660771e7cbbcd9a57297ad9aded6987411dc4630c7665c4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; care, time, contracts, and career assessment",
+      "denominator": {"value": 1, "unit": "UK research-sector institutional diagnosis in the charter", "value_type": "policy_evidence_frame"},
+      "measures": {
+        "work_norms": {"value": "Short-term contracts, long working days, travel, evening or weekend networking, and time-bound funding collide with childcare and other caring responsibilities", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "policy_inconsistency": {"value": "Family-leave and childcare policies are uneven and often poorly communicated across funders and research organisations", "unit": "reported institutional pattern", "value_type": "reported_pattern"},
+        "assessment_penalty": {"value": "Time away or part-time work is often not fairly accounted for in workloads, publication metrics, promotion, grant, and job assessment", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "enactment_gap": {"value": "Flexibility may exist in principle but fail in practice because of grant conditions, fixed deadlines, risk aversion, and dependence on individual line managers", "unit": "reported implementation gap", "value_type": "analytic_mechanism"},
+        "career_route": {"value": "The motherhood penalty is produced through the interaction of time norms, insecure contracts, caring load, and institutional valuation of uninterrupted productivity", "unit": "charter synthesis", "value_type": "analytic_mechanism"}
+      },
+      "method": "Charter synthesis of sector evidence and institutional practices, distinguishing formal policy availability from practical access and career consequences.",
+      "uncertainty": "The charter documents a sector diagnosis and cites supporting evidence but does not quantify the relative contribution of each mechanism or estimate the effect of any single reform.",
+      "subgroup": "Researchers with childcare, eldercare, disability, health, menopause-related, or other dependent-care responsibilities; doctoral, early-career, and mid-career researchers.",
+      "counterinterpretation": "Some institutions may already provide effective flexibility and family support, and individual managers can mitigate or intensify the gap; implementation varies by funder, discipline, contract, and institution.",
+      "source_url": "https://www.gov.uk/government/publications/women-in-research-charter/women-in-research-charter",
+      "retrieval_hash": "sha256:0fc1516248a292ba2660771e7cbbcd9a57297ad9aded6987411dc4630c7665c4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; voluntary charter and institutional accountability architecture",
+      "denominator": {"value": 1, "unit": "voluntary UK research-sector charter", "value_type": "policy_frame"},
+      "measures": {
+        "charter_status": {"value": "Voluntary commitment for research funders and research-performing organisations, including universities", "unit": "official policy status", "value_type": "reported_policy_status"},
+        "doctoral_leave": {"value": "Minimum commitment includes 52 weeks maternity leave, 26 weeks retaining the full stipend, a further 13 weeks of support, at least two weeks partner leave, and funded extensions", "unit": "doctoral family-leave standard", "value_type": "reported_policy_commitment"},
+        "care_support": {"value": "Signatories are expected to review support for conference travel, childcare, and dependent-care costs and remove discretionary access barriers", "unit": "reported policy commitment", "value_type": "reported_policy_commitment"},
+        "transparency": {"value": "Signatories are expected to publish comparable data on staffing, contracts, recruitment, grants, and promotion by sex and report progress after 12 months", "unit": "reported accountability architecture", "value_type": "reported_policy_commitment"},
+        "implementation_boundary": {"value": "The charter sets shared expectations and measurement routes, but signing does not establish that commitments have been implemented or changed career outcomes", "unit": "evidence boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Official charter text read as a voluntary policy and accountability design, with commitments separated from observed implementation.",
+      "uncertainty": "The charter is newly updated in 2026; signatory coverage, baseline compliance, annual reporting quality, and outcome effects remain to be observed.",
+      "subgroup": "Research funders, universities, public-sector research organisations, research businesses, doctoral researchers, and staff navigating family leave or promotion.",
+      "counterinterpretation": "Voluntary coordination can spread better practice faster than uniform regulation, but weak enforcement, fragmented data, or symbolic signing could limit delivery.",
+      "source_url": "https://www.gov.uk/government/publications/women-in-research-charter/women-in-research-charter",
+      "retrieval_hash": "sha256:0fc1516248a292ba2660771e7cbbcd9a57297ad9aded6987411dc4630c7665c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/women-in-research-charter", "claim": "Official publication landing page and update history."},
+    {"source_url": "https://www.hesa.ac.uk/data-and-analysis", "claim": "Higher Education Statistics Agency data context cited by the charter."},
+    {"source_url": "https://www.oecd.org/en/topics/sub-issues/science-and-technology-policy.html", "claim": "OECD science-policy context cited by the charter for research-career progression."}
+  ],
+  "boundary": "This record adds a UK institutional-career mechanism: near-parity at entry does not persist when caring responsibilities, insecure contracts, time-intensive norms, biased productivity metrics, and inconsistent flexibility interact. The charter is a policy diagnosis and voluntary reform architecture, not evidence that signatories have implemented the commitments or that the reforms caused improved retention, promotion, or research outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK Women in Research Charter reviewed for the representation gradient, caring and work-norm diagnosis, enactment gap, doctoral leave commitments, six themes, voluntary status, data transparency, and annual progress expectations.",
+    "source_url_sha256": "sha256:0fc1516248a292ba2660771e7cbbcd9a57297ad9aded6987411dc4630c7665c4",
+    "checked": "2026-09-28"
+  }
+}

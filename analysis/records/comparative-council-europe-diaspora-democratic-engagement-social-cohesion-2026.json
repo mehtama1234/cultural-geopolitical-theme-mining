@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-council-europe-diaspora-democratic-engagement-social-cohesion-2026",
+  "title": "Diaspora communities are being reframed as democratic and social-cohesion infrastructure rather than only integration populations",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status", "work_control_bargaining", "geopolitical_state_consequences"],
+  "source_unit": "Council of Europe Parliamentary Assembly, The role of diasporas and migrants in developing social cohesion and democratic engagement, Doc. 16476",
+  "geography": "Council of Europe member states and European diaspora communities; report and draft recommendations for national and European institutions",
+  "observations": [
+    {
+      "period": "September 2026; diasporas as cohesion and mediation capacity",
+      "denominator": {"value": 1, "unit": "Council of Europe Parliamentary Assembly report frame", "value_type": "reported_policy_frame"},
+      "measures": {"diaspora_role": {"value": "diasporas can contribute to economic development, more cohesive societies, democratic engagement, and integration of newly arrived migrants", "unit": "reported institutional assessment", "value_type": "reported_mechanism_set"}, "youth_capacity": {"value": "young diaspora members are described as multilingual, multicultural potential contributors to innovation, democratic renewal, and intercultural mediation", "unit": "reported subgroup mechanism", "value_type": "reported_policy_assessment"}, "identity_condition": {"value": "people increasingly identify as both from here and from elsewhere amid rapid diversity and migration change", "unit": "reported social context", "value_type": "reported_social_frame"}},
+      "method": "Parliamentary Assembly report based on policy analysis, Council of Europe standards, explanatory memorandum, and engagement recommendations; it is not a representative survey or causal evaluation.",
+      "uncertainty": "The report’s positive capacity framing does not establish that diaspora organizations are equally resourced, representative, trusted, or able to influence host-state decisions.",
+      "subgroup": "Diaspora communities, migrant and diaspora youth, newly arrived migrants, host communities, elected representatives, and civil-society organizations.",
+      "counterinterpretation": "Diaspora institutions can bridge communities, but can also reproduce internal hierarchy, homeland political conflict, or exclusion within and between groups.",
+      "source_url": "https://pace.coe.int/en/files/36278/html",
+      "retrieval_hash": "sha256:c9f79d603dd8f4754b558cac66434ff0e857b30b20cf9ffc02b148d5041fea3d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; participation and democratic legitimacy",
+      "denominator": {"value": 1, "unit": "Council of Europe Assembly recommendations to member states", "value_type": "reported_recommendation_frame"},
+      "measures": {"policy_consultation": {"value": "states are invited to systematically consult diaspora groups, involve them as equal partners, and act on their perspectives in monitoring and evaluation", "unit": "reported governance route", "value_type": "reported_recommendation"}, "formal_participation": {"value": "states are invited to promote eligibility to vote and stand for election and explore expansion of participation rights for some diaspora members", "unit": "reported democratic route", "value_type": "reported_recommendation"}, "participatory_route": {"value": "civic education, mentorship, representative consultative councils, and stable funding for diaspora organizations are recommended", "unit": "reported participation infrastructure", "value_type": "reported_recommendation_set"}},
+      "method": "Analysis of draft resolution recommendations concerning formal political rights, deliberative participation, consultation, civic literacy, mentorship, and organizational capacity.",
+      "uncertainty": "Recommendations are not implementation evidence; legal eligibility, institutional uptake, representativeness, and actual influence remain open.",
+      "subgroup": "Non-citizen residents, diaspora members eligible for political rights, diaspora youth, consultative bodies, migrant organizations, and public institutions.",
+      "counterinterpretation": "Consultative mechanisms can broaden voice, but tokenistic participation or selective representation may legitimize decisions without transferring meaningful power.",
+      "source_url": "https://pace.coe.int/en/files/36278/html",
+      "retrieval_hash": "sha256:c9f79d603dd8f4754b558cac66434ff0e857b30b20cf9ffc02b148d5041fea3d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; diaspora voice and European democratic resilience",
+      "denominator": {"value": 1, "unit": "Council of Europe democratic-legitimacy argument", "value_type": "reported_legitimacy_frame"},
+      "measures": {"legitimacy": {"value": "the report links full participation and representation of diasporic groups to the future legitimacy of European democracy", "unit": "reported democratic principle", "value_type": "reported_legitimacy_claim"}, "institutional_gap": {"value": "engagement with diaspora groups and youth is described as piecemeal rather than systematic within the Assembly", "unit": "reported institutional gap", "value_type": "reported_governance_finding"}, "proposed_feedback": {"value": "the Assembly is invited to exchange views with diaspora representatives when preparing reports affecting integration and political, social, or cultural rights", "unit": "reported feedback mechanism", "value_type": "reported_recommendation"}},
+      "method": "Institutional self-assessment and normative analysis of democratic representation, policy feedback, and Council of Europe practice.",
+      "uncertainty": "The report does not measure whether systematic exchanges change policy, reduce exclusion, or improve trust across diaspora and host populations.",
+      "subgroup": "Diaspora representatives, youth, elected institutions, European lawmakers, and communities affected by integration and rights policy.",
+      "counterinterpretation": "Institutional exchanges may improve agenda visibility without changing resource allocation, electoral access, or the distribution of decision power.",
+      "source_url": "https://pace.coe.int/en/files/36278/html",
+      "retrieval_hash": "sha256:c9f79d603dd8f4754b558cac66434ff0e857b30b20cf9ffc02b148d5041fea3d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://pace.coe.int/en/files/36278", "claim": "Official Council of Europe report metadata and document details."}],
+  "boundary": "This record adds a diaspora-to-democratic-legitimacy route from multilingual and multicultural social capacity through consultation, civic education, formal and deliberative participation, organizational funding, and institutional feedback. It does not establish representative diaspora voice, implementation, causal cohesion effects, or electoral outcomes.",
+  "reproduction_audit": {"retrieval_hash_scope": "Council of Europe Parliamentary Assembly HTML report reviewed for diaspora and youth roles, consultation, equal partnership, political participation, deliberative mechanisms, civic education, consultative councils, funding, and institutional feedback recommendations.", "source_url_sha256": "sha256:c9f79d603dd8f4754b558cac66434ff0e857b30b20cf9ffc02b148d5041fea3d", "checked": "2026-09-29"}
+}

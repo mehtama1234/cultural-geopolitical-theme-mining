@@ -1,0 +1,116 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-youth-pulse-2026-cost-ai-community-trust-purpose",
+  "title": "Young people are converting economic and technological uncertainty into local trust, purposeful work, and demand for co-authorship",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Economic Forum, Youth Pulse 2026: Insights from the Next Generation for a Changing World",
+  "geography": "Global youth perspectives from nearly 4,600 people ages 18–30 across 144 countries and territories and 489 locations",
+  "observations": [
+    {
+      "period": "2026; youth economic outlook and personal stress",
+      "denominator": {"value": 4600, "unit": "nearly 4,600 young people ages 18–30 in the Youth Pulse study", "value_type": "reported_global_survey_sample"},
+      "measures": {
+        "inequality_concern": {"value": "Nearly half identify deepening inequality as the leading economic trend shaping the future", "unit": "reported survey pattern", "value_type": "reported_pattern"},
+        "financial_stress": {"value": "Financial strain is identified as the foremost source of stress, and about half view inflation and instability as the greatest threats to their lives", "unit": "reported survey pattern", "value_type": "reported_pattern"},
+        "resilience_response": {"value": "Young people describe diversifying income, upskilling, entrepreneurship, and creative paths as responses to economic pressure", "unit": "reported behavioral and aspiration pattern", "value_type": "reported_pattern"},
+        "economic_meaning": {"value": "Economic insecurity is shaping not only spending and work choices but also the kinds of institutions and futures young people consider credible", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Economic Forum survey synthesis combining quantitative youth perspectives, qualitative reflections, and selected youth-led initiative examples across five dimensions.",
+      "uncertainty": "The publisher describes a global youth perspective sample rather than a probability sample of all young people; reported priorities and self-descriptions do not estimate population prevalence or causal effects of inflation, inequality, or entrepreneurship.",
+      "subgroup": "Young adults ages 18–30 across regions, with differences by geography, gender, socioeconomic position, education, and access to work, capital, and digital tools.",
+      "counterinterpretation": "Entrepreneurship and upskilling may reflect agency and opportunity as well as adaptation to weak formal pathways; they do not prove that young people prefer precarious or individualized solutions.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:4501d794fa1c5c6c25964dabde85948c2761e04d86b963b371f5fe5bce8bde12",
+      "status": "reported"
+    },
+    {
+      "period": "2026; purpose, flexibility, balance, and youth work expectations",
+      "denominator": {"value": 4600, "unit": "nearly 4,600 Youth Pulse participants", "value_type": "reported_global_survey_sample"},
+      "measures": {
+        "career_values": {"value": "Purpose, flexibility, and balance are prioritized ahead of traditional measures of career success across the report's youth-perspective synthesis", "unit": "reported aspiration pattern", "value_type": "reported_pattern"},
+        "education_work_mismatch": {"value": 46, "unit": "percent viewing education as a critical enabler while identifying a persistent mismatch between classroom learning and labor-market needs", "value_type": "reported_share"},
+        "pathway_demand": {"value": "Young people call for practical, modular, employer-validated learning connected to emerging job markets", "unit": "reported policy preference", "value_type": "reported_preference"},
+        "work_identity": {"value": "Work is being evaluated through alignment among livelihood, well-being, purpose, and societal impact rather than pay or status alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Economic Forum synthesis of survey responses and qualitative reflections on economic opportunity, education, work, and purpose.",
+      "uncertainty": "The reported preference pattern does not establish actual job choice, earnings, retention, or whether education reform would improve transitions; the 46% measure is a self-reported perception within the study sample.",
+      "subgroup": "Young students, workers, job seekers, entrepreneurs, and participants with different education-to-work pathways and labor-market conditions.",
+      "counterinterpretation": "Purpose and flexibility may be complements to secure pay and stable work rather than substitutes; respondents may express ideals that constraints prevent them from realizing.",
+      "source_url": "https://www.weforum.org/stories/2026/01/why-world-leaders-need-to-heed-youth-voices-at-davos/",
+      "retrieval_hash": "sha256:4501d794fa1c5c6c25964dabde85948c2761e04d86b963b371f5fe5bce8bde12",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI adoption, entry-level work, and skills conversion",
+      "denominator": {"value": 4600, "unit": "nearly 4,600 Youth Pulse participants", "value_type": "reported_global_survey_sample"},
+      "measures": {
+        "regular_ai_use": {"value": 60, "unit": "approximately percent using AI tools regularly, with another roughly one-third experimenting occasionally", "value_type": "reported_approximate_share"},
+        "entry_level_job_concern": {"value": 67, "unit": "approximately percent fearing AI will reduce entry-level roles over the next three years", "value_type": "reported_approximate_share"},
+        "ai_education_gap": {"value": "AI adoption is running ahead of formal training and meaningful work pathways", "unit": "reported technology-to-opportunity gap", "value_type": "bounded_mechanism"},
+        "ai_inequality_risk": {"value": "Young people describe a risk of a two-tier society in which routine junior tasks are automated while senior workers capture more of the gains", "unit": "reported perceived risk", "value_type": "reported_perception"}
+      },
+      "method": "World Economic Forum survey synthesis and youth-perspective reporting on AI use, education, work, and entry-level opportunity.",
+      "uncertainty": "Self-reported AI use and perceived job risk are not measures of actual automation, employment displacement, productivity, or skill proficiency; the report's global comparisons may reflect unequal access and wording across contexts.",
+      "subgroup": "Young AI users, students, early-career workers, job seekers, employers, educators, and youth with unequal access to devices, connectivity, networks, and training.",
+      "counterinterpretation": "AI may create new entry pathways, augment junior work, and lower barriers to learning; perceived displacement can exceed realized labor-market effects.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:4501d794fa1c5c6c25964dabde85948c2761e04d86b963b371f5fe5bce8bde12",
+      "status": "reported"
+    },
+    {
+      "period": "2026; political trust, community leadership, and youth participation",
+      "denominator": {"value": 4600, "unit": "nearly 4,600 Youth Pulse participants", "value_type": "reported_global_survey_sample"},
+      "measures": {
+        "local_trust": {"value": "Trust is highest in community-level leaders and substantially lower for national political figures", "unit": "reported comparative trust pattern", "value_type": "reported_pattern"},
+        "trusted_leadership": {"value": "Transparency and accountability are the most valued leadership traits", "unit": "reported leadership preference", "value_type": "reported_preference"},
+        "political_entry": {"value": "More than one in three say they are likely to run for political office", "unit": "reported survey pattern", "value_type": "reported_pattern"},
+        "proximity_legitimacy": {"value": "For this youth perspective sample, legitimacy is associated more with proximity, accountability, and tangible delivery than with national status alone", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Economic Forum comparative youth survey synthesis across political, social, and leadership questions.",
+      "uncertainty": "Trust comparisons depend on question wording, local political context, and self-reported perceptions; willingness to run for office is not actual participation or evidence that local leaders deliver better outcomes.",
+      "subgroup": "Young adults across local and national political contexts, including participants with different civic access, institutional experiences, and community roles.",
+      "counterinterpretation": "Community proximity may make leaders more visible rather than inherently more effective; low national trust can coexist with support for national institutions or policy action.",
+      "source_url": "https://www.weforum.org/stories/2026/01/why-world-leaders-need-to-heed-youth-voices-at-davos/",
+      "retrieval_hash": "sha256:4501d794fa1c5c6c25964dabde85948c2761e04d86b963b371f5fe5bce8bde12",
+      "status": "reported"
+    },
+    {
+      "period": "2026; climate concern and youth-led action",
+      "denominator": {"value": 4600, "unit": "nearly 4,600 Youth Pulse participants", "value_type": "reported_global_survey_sample"},
+      "measures": {
+        "global_threat": {"value": "Climate change ranks as the top global threat in the report's youth perspective synthesis", "unit": "reported threat ranking", "value_type": "reported_ranking"},
+        "personal_threat": {"value": "Climate change is viewed as the second greatest threat to young people's own lives after economic instability", "unit": "reported threat ranking", "value_type": "reported_ranking"},
+        "youth_projects": {"value": 120, "unit": "more than 120 youth-led climate projects catalogued as examples of action", "value_type": "reported_count"},
+        "climate_meaning": {"value": "Climate action is framed as a precondition for prosperity rather than only a trade-off against affordability", "unit": "reported youth framing", "value_type": "reported_perception"}
+      },
+      "method": "World Economic Forum survey synthesis combined with a catalogue of selected youth-led climate initiatives.",
+      "uncertainty": "The project examples are selected cases, not a representative inventory or causal evaluation; threat rankings measure perceived importance and do not predict future behavior or policy support.",
+      "subgroup": "Young people concerned about climate, youth-led organizations, community initiatives, educators, employers, and policy institutions.",
+      "counterinterpretation": "Climate concern can coexist with affordability constraints and political disagreement over policy instruments; catalogued projects may have unusual resources or visibility.",
+      "source_url": "https://www.weforum.org/publications/youth-pulse-2026/",
+      "retrieval_hash": "sha256:4501d794fa1c5c6c25964dabde85948c2761e04d86b963b371f5fe5bce8bde12",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cisp.cachefly.net/assets/articles/attachments/95993_wef_youth_pulse_2026.pdf", "claim": "Public copy of the Youth Pulse 2026 report containing the methodology and key findings."},
+    {"source_url": "https://www.weforum.org/stories/2026/01/why-world-leaders-need-to-heed-youth-voices-at-davos/", "claim": "World Economic Forum summary of youth priorities, AI, education, climate, and community-level trust."},
+    {"source_url": "https://www.weforum.org/publications/youth-pulse-2026/", "claim": "Official report landing page and publisher description."}
+  ],
+  "boundary": "This record adds a global youth-to-future route from cost pressure and inequality through work expectations, education mismatch, AI adoption, local trust, political participation, climate concern, and youth-led action. It preserves the World Economic Forum's publisher-survey and selected-case boundaries: these are youth perspectives and examples, not respondent-level behavioral traces, probability estimates for all young people, causal effects, or realized policy outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The public Youth Pulse 2026 report copy and World Economic Forum report summary were reviewed for sample frame, economic stress, purpose and work, AI adoption and entry-level job concern, local trust, political participation, climate rankings, and youth-led projects.",
+    "source_url_sha256": "sha256:4501d794fa1c5c6c25964dabde85948c2761e04d86b963b371f5fe5bce8bde12",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wec-social-impact-2026-borderless-talent-mobility-safeguards",
+  "title": "International talent mobility is a labor-market matching system whose gains depend on recognition, integration, and worker safeguards",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Employment Confederation, Social Impact Report 2026: Borderless Talent",
+  "geography": "Global labor-market and international-talent-mobility cases, with examples from Egypt, Luxembourg, Germany, Italy, and the European Union",
+  "observations": [
+    {
+      "period": "2026; global labor-market framing",
+      "denominator": {
+        "value": 1,
+        "unit": "global report framing of labor-market imbalance",
+        "value_type": "qualitative_global_frame"
+      },
+      "measures": {
+        "imbalance": {"value": "high unemployment and underused skills coexist with persistent shortages, ageing, declining workforce participation, and changing demand", "unit": "reported labor-market pattern", "value_type": "reported_pattern"},
+        "priority_sectors": {"value": "healthcare, care, construction, and parts of the digital economy", "unit": "sectors identified as especially exposed to talent imbalance", "value_type": "reported_sector_pattern"},
+        "mobility_proposition": {"value": "international talent mobility can connect people and jobs only when the surrounding matching, legal, and integration system works", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Industry association report combining global labor-market framing with policy analysis and country or program examples; it does not present a harmonized probability sample or causal labor-market evaluation.",
+      "uncertainty": "The report is partly advocacy and practice-oriented evidence from the private employment-services sector; it does not estimate the net employment, wage, welfare, or migration effect of international recruitment across countries.",
+      "subgroup": "Young workers, workers in high-unemployment origin countries, employers facing shortages, migrant workers, origin-country institutions, destination-country public services, and private employment intermediaries.",
+      "counterinterpretation": "Training, domestic retention, better job quality, automation, childcare, and labor-force participation policies may address shortages without increasing cross-border recruitment; mobility can also produce brain-drain or dependency risks.",
+      "source_url": "https://wecglobal.org/publication-post/social-impact-report-2026/",
+      "retrieval_hash": "sha256:fdfa5e4df8936cbb545dc707cb44329be451675fd60276b9b96edb66fb279a12",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; Egypt and regional labor mobility",
+      "denominator": {
+        "value": 11100000,
+        "unit": "Egyptians reported as working abroad",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "regional_concentration": {"value": 62, "unit": "percent of Egyptians working abroad who remain within the Arab region, approximately 7.1 million people", "value_type": "reported_share"},
+        "domestic_retention_policy": {"value": "Egypt's New Labor Law, in force since September 2025, introduced flexible and part-time arrangements and was paired in the report with a private-sector minimum-wage increase", "unit": "reported policy example", "value_type": "reported_policy_example"},
+        "regular_pathway": {"value": "EU-Egypt THAMM Plus is described as building regular migration pathways to Germany and Italy", "unit": "reported mobility-program example", "value_type": "reported_program_example"}
+      },
+      "method": "Case example reported by WEC using cited national and program figures; the report does not provide a causal before-and-after evaluation of the law or pathway.",
+      "uncertainty": "The population estimate, regional share, policy description, and program status are reported case facts; they do not establish whether mobility improved worker welfare, remittances, domestic retention, or origin-country capacity.",
+      "subgroup": "Egyptian workers abroad, workers in the Arab region, Egyptian employers and policymakers, and participants in regular migration pathways to Europe.",
+      "counterinterpretation": "Regional mobility can be a form of networked opportunity and resilience rather than simple talent loss; domestic labor-law reform and mobility pathways may operate together, but their separate effects are not identified.",
+      "source_url": "https://wecglobal.org/publication-post/social-impact-report-2026/",
+      "retrieval_hash": "sha256:fdfa5e4df8936cbb545dc707cb44329be451675fd60276b9b96edb66fb279a12",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Luxembourg integration and international workforce",
+      "denominator": {
+        "value": 1,
+        "unit": "Luxembourg country case",
+        "value_type": "country_case_frame"
+      },
+      "measures": {
+        "international_workforce": {"value": "nearly three-quarters of the workforce has an international background", "unit": "reported workforce share", "value_type": "reported_share"},
+        "integration_support": {"value": "information, training, language courses, upskilling, and integration programs are described as supports for international talent", "unit": "reported support bundle", "value_type": "reported_policy_set"},
+        "intermediary_role": {"value": "government and private employment services are presented as partners in matching, preparation, and integration", "unit": "reported institutional arrangement", "value_type": "reported_governance_pattern"}
+      },
+      "method": "Country practice example in an industry association report; no comparison group, administrative outcome series, or independent evaluation is supplied in the public article.",
+      "uncertainty": "The example demonstrates an institutional model rather than proving that these supports cause better retention, wages, integration, or public acceptance.",
+      "subgroup": "International workers, employers, language learners, public employment institutions, and private recruitment or workforce-service providers.",
+      "counterinterpretation": "A large international workforce may also increase housing, service, social-cohesion, and distributional pressures if settlement and public-capacity systems do not scale with recruitment.",
+      "source_url": "https://wecglobal.org/publication-post/social-impact-report-2026/",
+      "retrieval_hash": "sha256:fdfa5e4df8936cbb545dc707cb44329be451675fd60276b9b96edb66fb279a12",
+      "status": "reported"
+    },
+    {
+      "period": "2026; EU Talent Pool and safeguards for international recruitment",
+      "denominator": {
+        "value": 1,
+        "unit": "European Union policy example",
+        "value_type": "regional_policy_frame"
+      },
+      "measures": {
+        "policy_status": {"value": "the EU Talent Pool is described as formally adopted in early 2026", "unit": "reported policy status", "value_type": "reported_policy_status"},
+        "matching_goal": {"value": "connect employers with jobseekers from outside the EU and improve international recruitment and job matching", "unit": "reported policy objective", "value_type": "reported_policy_objective"},
+        "required_safeguards": {"value": "worker protection, qualification recognition, functioning immigration processes, and transparent and fair recruitment", "unit": "reported safeguard set", "value_type": "reported_policy_condition"}
+      },
+      "method": "Policy example and implementation framing in the WEC report; this record does not evaluate the operational performance of the EU Talent Pool.",
+      "uncertainty": "Adoption of a matching platform or pathway does not demonstrate completed recruitment, legal compliance, worker power, job quality, or equal access.",
+      "subgroup": "Non-EU jobseekers, employers, private employment agencies, immigration and labor authorities, qualification bodies, and workers vulnerable to recruitment abuse.",
+      "counterinterpretation": "A formal mobility pathway can improve transparency and reduce irregular routes, but it can also institutionalize employer dependence on migrant labor unless worker voice, portability, enforcement, and remedy are built in.",
+      "source_url": "https://wecglobal.org/publication-post/social-impact-report-2026/",
+      "retrieval_hash": "sha256:fdfa5e4df8936cbb545dc707cb44329be451675fd60276b9b96edb66fb279a12",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://wecglobal.org/uploads/2026/09/Social-Impact-Report-2026.pdf", "claim": "Official Social Impact Report 2026 PDF."},
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "Related official labor-market source on job-quality deficits, demographic pressure, youth transitions, and inequality."}
+  ],
+  "boundary": "This record adds a labor-shortage-to-mobility-and-institutional-safeguards route. It is not an independent migration-flow dataset, worker-level panel, causal evaluation of recruitment or integration, or proof that international mobility improves outcomes for origin and destination communities equally.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WEC publication page and linked 2026 PDF were reviewed; global labor imbalance, Egypt, Luxembourg, EU Talent Pool, matching, qualification recognition, integration, and worker-safeguard claims were cross-checked.",
+    "source_url_sha256": "sha256:fdfa5e4df8936cbb545dc707cb44329be451675fd60276b9b96edb66fb279a12",
+    "checked": "2026-09-28"
+  }
+}

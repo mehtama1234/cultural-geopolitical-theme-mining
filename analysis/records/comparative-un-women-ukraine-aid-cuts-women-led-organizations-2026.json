@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-ukraine-aid-cuts-women-led-organizations-2026",
+  "title": "Foreign-aid contraction is becoming a direct stress test of women-led civic infrastructure, gender-responsive services, and local crisis capacity",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UN Women and Gender in Humanitarian Action Working Group in Ukraine, The impact of foreign assistance cuts on women’s rights and women-led organizations in Ukraine",
+  "geography": "Ukraine; women-led and women’s-rights organizations operating in a conflict and humanitarian-response setting",
+  "observations": [
+    {
+      "period": "January 2026 assessment of 2025 impacts; second round of organizational survey",
+      "denominator": {"value": 108, "unit": "women-led and women’s-rights organizations participating in the second survey round", "value_type": "organization_survey_frame"},
+      "measures": {
+        "impact_direction": {"value": "foreign-assistance cuts had substantial and widespread effects on surveyed organizations", "unit": "UN Women assessment", "value_type": "reported_assessment"},
+        "service_continuity": {"value": "cuts affected the continuity of lifesaving and gender-responsive services", "unit": "organizational survey finding", "value_type": "reported_mechanism"},
+        "sustainability": {"value": "cuts affected longer-term organizational sustainability", "unit": "organizational survey finding", "value_type": "reported_mechanism"},
+        "comparison_route": {"value": "the assessment compares the January 2026 findings with a rapid impact assessment conducted in February 2025", "unit": "UN Women comparative design", "value_type": "reported_method"}
+      },
+      "method": "Comparative rapid impact assessments of women-led and women’s-rights organizations in Ukraine, with a January 2026 survey building on the February 2025 round and examining risks, coping, and programme implications.",
+      "uncertainty": "The 108 participating organizations are not a complete census of Ukraine’s civil-society sector, and reported effects do not by themselves isolate aid cuts from war, inflation, displacement, or other shocks.",
+      "subgroup": "Women-led organizations, women’s-rights groups, gender-responsive service providers, local civil society, staff, and communities relying on lifesaving or protection services.",
+      "counterinterpretation": "Organizations can adapt through local funding, partnerships, prioritization, and volunteer capacity, but adaptation may conceal reduced service breadth, staff strain, or deferred needs.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/02/the-impact-of-foreign-assistance-cuts-on-womens-rights-and-women-led-organizations-in-ukraine",
+      "retrieval_hash": "sha256:549448f88c9f67a3f366655abcaec1b836e0db35b618571cc27ff9721c85a6e6",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; organizational operations and workforce capacity",
+      "denominator": {"value": 1, "unit": "surveyed-organization operational-capacity frame", "value_type": "organizational_capacity_frame"},
+      "measures": {
+        "planning": {"value": "reduced funding shaped organizations’ ability to plan", "unit": "UN Women assessment", "value_type": "reported_mechanism"},
+        "staff_retention": {"value": "reduced funding affected the ability to retain staff", "unit": "UN Women assessment", "value_type": "reported_mechanism"},
+        "operations": {"value": "cuts affected the ability to maintain organizational operations", "unit": "UN Women assessment", "value_type": "reported_mechanism"},
+        "changing_needs": {"value": "funding reductions constrained responses to changing needs in a continuing crisis", "unit": "UN Women assessment", "value_type": "reported_mechanism"}
+      },
+      "method": "Organizational survey assessment of funding effects on planning, staffing, operations, and responsiveness.",
+      "uncertainty": "The source reports organizational perceptions and coping conditions rather than audited financial statements, staffing panels, or service-output counterfactuals.",
+      "subgroup": "Paid staff, volunteers, organizational leaders, local service teams, advocates, and communities whose support depends on organizational continuity.",
+      "counterinterpretation": "Short-term flexibility and staff commitment can preserve critical functions, though reliance on extraordinary effort is not a durable substitute for predictable financing.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/02/the-impact-of-foreign-assistance-cuts-on-womens-rights-and-women-led-organizations-in-ukraine",
+      "retrieval_hash": "sha256:549448f88c9f67a3f366655abcaec1b836e0db35b618571cc27ff9721c85a6e6",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; gender-responsive humanitarian and rights services",
+      "denominator": {"value": 1, "unit": "Ukraine gender-in-humanitarian-action service-capacity frame", "value_type": "humanitarian_service_frame"},
+      "measures": {
+        "service_type": {"value": "the assessment focuses on whether organizations can continue lifesaving and gender-responsive services", "unit": "UN Women publication scope", "value_type": "reported_scope"},
+        "localization": {"value": "women-led and women’s-rights organizations function as local crisis-response and rights infrastructure", "unit": "assessment implication", "value_type": "reported_system_link"},
+        "funding_to_access": {"value": "financial contraction can translate into reduced service continuity, reach, or responsiveness even when headline humanitarian needs remain high", "unit": "synthesis of reported pathway", "value_type": "reported_mechanism"},
+        "gendered_exposure": {"value": "women’s rights and gender-responsive needs can become less visible or less served when local organizations lose capacity", "unit": "assessment implication", "value_type": "reported_risk"}
+      },
+      "method": "Gender-in-humanitarian-action assessment connecting organizational funding, programme delivery, and service sustainability in Ukraine.",
+      "uncertainty": "The assessment does not quantify every service gap or establish that all reductions in organizational capacity produce identical effects across regions or populations.",
+      "subgroup": "Women and girls needing protection or gender-responsive services, survivors, displaced people, local communities, and organizations delivering rights-based assistance.",
+      "counterinterpretation": "National authorities, local networks, and other providers may partially compensate, but substitution is not automatic and may change trust, access, specialization, or accountability.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/02/the-impact-of-foreign-assistance-cuts-on-womens-rights-and-women-led-organizations-in-ukraine",
+      "retrieval_hash": "sha256:549448f88c9f67a3f366655abcaec1b836e0db35b618571cc27ff9721c85a6e6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; organizational coping, sustainability, and aid-system design",
+      "denominator": {"value": 1, "unit": "UN Women organizational coping and sustainability synthesis", "value_type": "aid_system_frame"},
+      "measures": {
+        "risk_focus": {"value": "the assessment examines emerging risks, organizational coping strategies, and programme implications rather than funding totals alone", "unit": "UN Women publication design", "value_type": "reported_method"},
+        "sustainability_requirement": {"value": "maintaining women-led civic infrastructure requires attention to predictable funding, staffing, operations, and the ability to adapt to changing needs", "unit": "assessment implication", "value_type": "reported_policy_route"},
+        "local_capacity": {"value": "aid effectiveness depends partly on whether local organizations retain the capacity to act, not only on the volume of announced assistance", "unit": "cross-source synthesis", "value_type": "reported_mechanism"},
+        "accountability_boundary": {"value": "the report identifies stress and coping patterns but does not audit donor allocation decisions or prove which financing model is optimal", "unit": "source boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Comparative organizational assessment with attention to risks, coping, sustainability, service continuity, and programme implications.",
+      "uncertainty": "Policy implications are inferred from reported organizational conditions and are not a randomized funding experiment or complete donor-effectiveness evaluation.",
+      "subgroup": "Donors, humanitarian coordinators, local women’s organizations, staff, communities, service users, and public authorities.",
+      "counterinterpretation": "Flexible and locally led funding may improve resilience, but flexibility without adequate scale or continuity can shift risk onto organizations and communities.",
+      "source_url": "https://www.unwomen.org/en/digital-library/publications/2026/02/the-impact-of-foreign-assistance-cuts-on-womens-rights-and-women-led-organizations-in-ukraine",
+      "retrieval_hash": "sha256:549448f88c9f67a3f366655abcaec1b836e0db35b618571cc27ff9721c85a6e6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://eca.unwomen.org/en/digital-library/publications/2026/02/the-impact-of-foreign-assistance-cuts-on-womens-rights-and-women-led-organizations-in-ukraine-0", "claim": "UN Women Europe and Central Asia publication mirror with geographic coverage and bibliographic details."},
+    {"source_url": "https://www.unwomen.org/en/resources", "claim": "UN Women publication catalogue context for the 2026 assessment."}
+  ],
+  "boundary": "This record adds a conflict-finance and local-civic-capacity route across foreign-assistance contraction, women-led organizations, service continuity, staffing, planning, gender-responsive humanitarian action, and local accountability. It uses a comparative survey of 108 participating organizations and report synthesis, not a complete civil-society census, audited funding database, individual service-user histories, causal aid-effectiveness estimate, or proof that every organization or region experienced the same effect.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Women publication page and Europe/Central Asia mirror reviewed for the January 2026 assessment, 108-organization survey frame, 2025 comparison, service continuity, staffing, planning, operations, changing needs, and sustainability claims.",
+    "source_url_sha256": "sha256:549448f88c9f67a3f366655abcaec1b836e0db35b618571cc27ff9721c85a6e6",
+    "checked": "2026-09-27"
+  }
+}

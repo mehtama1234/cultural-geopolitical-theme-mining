@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-vml-future-100-2026-dysoptimism-ai-human-connection",
+  "title": "A ‘dysoptimist’ cultural mood is turning disruption into renewal, pairing AI experimentation with stronger demand for human connection and meaningful experience",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "VML Intelligence, The Future 100: 2026, SONAR global cultural and consumer forecast",
+  "geography": "Adults across 16 markets: Argentina, Brazil, China, Colombia, France, Greece, India, Italy, Japan, Mexico, Portugal, Saudi Arabia, Thailand, United Arab Emirates, United Kingdom, and United States",
+  "observations": [
+    {
+      "period": "September-November 2025 fieldwork; 2026 cultural mood",
+      "denominator": {"value": 15639, "unit": "adults surveyed across 16 markets by VML SONAR, approximately 1,000 per market", "value_type": "published_multimarket_survey"},
+      "measures": {
+        "dysoptimism": {"value": "A cultural ethos that acknowledges darkness without surrendering to it, finding possibility in renewal", "unit": "reported cultural concept", "value_type": "reported_cultural_frame"},
+        "renewal_route": {"value": "People are described as embracing disruption as a catalyst for fundamental changes in how they live, spend, and connect", "unit": "reported behavioral orientation", "value_type": "reported_trend"},
+        "awe_and_worldview": {"value": 86, "unit": "percent of respondents drawn to encounters that inspire awe or a renewed worldview", "value_type": "reported_aggregate_share"}
+      },
+      "method": "VML SONAR survey of 15,639 adults across 16 markets, representative within each market by age, gender, and income, combined with insights from more than 60 global experts.",
+      "uncertainty": "The source is an agency-produced cultural forecast; public reporting does not provide full questionnaires, country-level estimates, weighting details, or causal evidence that the named mood drives subsequent behavior.",
+      "subgroup": "Consumers navigating economic, political, technological, and cultural disruption across 16 markets, with differences by age, income, gender, and local context.",
+      "counterinterpretation": "Dysoptimism may be a useful branding concept rather than a stable population-wide cultural condition; hope, resignation, anger, and optimism may coexist without one dominant mood.",
+      "source_url": "https://www.vml.com/news/the-future-100-2026",
+      "retrieval_hash": "sha256:468b36e6f318dadee914162f4881330c590b9b5418c48740fc061f92f1afdea5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; AI as collaborator and negotiated intimacy",
+      "denominator": {"value": 15639, "unit": "VML SONAR multimarket survey frame with expert trend interpretation", "value_type": "published_multimarket_survey"},
+      "measures": {
+        "ai_role": {"value": "AI is forecast to move from tool toward collaborator, reshaping entertainment, commerce, customer experiences, and everyday realities", "unit": "reported technology-cultural direction", "value_type": "reported_trend"},
+        "meaningful_ai_relationship": {"value": 49, "unit": "percent of Gen Z respondents reported as having formed a meaningful relationship with AI", "value_type": "reported_subgroup_share"},
+        "trust_response": {"value": "Truth literacy, transparency, accountability, and human distinctiveness are identified as counterweights to synthetic generation, surveillance, and intimate AI use", "unit": "reported governance and culture response", "value_type": "reported_mechanism_set"}
+      },
+      "method": "VML SONAR multimarket survey and VML Intelligence trend synthesis across technology, culture, brands, and consumer experience.",
+      "uncertainty": "The public release does not define meaningful relationship, provide the Gen Z denominator or country split, or establish whether reported relationships are beneficial, durable, or representative of all AI use.",
+      "subgroup": "Gen Z and other AI users, consumers in entertainment and commerce, platform users, workers, designers, brands, and institutions responsible for transparency and accountability.",
+      "counterinterpretation": "AI may remain mostly instrumental for many people; reported relational language can include playful or experimental use and does not necessarily imply emotional dependence or substitution for human relationships.",
+      "source_url": "https://www.vml.com/news/the-future-100-2026",
+      "retrieval_hash": "sha256:468b36e6f318dadee914162f4881330c590b9b5418c48740fc061f92f1afdea5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; human connection and third places",
+      "denominator": {"value": 1, "unit": "VML Future 100 cultural and consumer trend synthesis", "value_type": "industry_forecast_frame"},
+      "measures": {
+        "human_contact": {"value": "Human connection remains vital even as digital and physical realities blend, especially when people make decisions that matter", "unit": "reported cultural preference", "value_type": "reported_orientation"},
+        "social_health": {"value": "Social health, social wellness clubs, sober raves, and neighbourhood third places are identified as community-driven spaces prioritizing belonging over transactions", "unit": "reported experience trend", "value_type": "reported_trend"},
+        "hybrid_culture": {"value": "Online and offline culture are forecast to intertwine, with digital language, memes, and virtual circulation becoming physical products and experiences", "unit": "reported cultural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "VML Intelligence synthesis of 100 trends across culture, technology, travel, brands, food, beauty, retail, luxury, health, and innovation.",
+      "uncertainty": "The trend forecast does not measure the supply, affordability, safety, or durability of third places, nor does it show that digital-physical hybridity increases social cohesion.",
+      "subgroup": "Young people, community-seeking consumers, sober and wellness communities, neighbourhood residents, cultural producers, retailers, and experience designers.",
+      "counterinterpretation": "Commercial third places can reproduce exclusion or convert belonging into a purchasable experience; digital-physical blending can also intensify attention capture rather than connection.",
+      "source_url": "https://www.vml.com/news/the-future-100-2026",
+      "retrieval_hash": "sha256:468b36e6f318dadee914162f4881330c590b9b5418c48740fc061f92f1afdea5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 forecast; resilience, micro-escapes, and everyday indulgence",
+      "denominator": {"value": 1, "unit": "VML Future 100 lifestyle and consumption trend synthesis", "value_type": "industry_forecast_frame"},
+      "measures": {
+        "resilience_wellness": {"value": "Resilience is forecast as a learnable practice combining emotional, physical, and spiritual tools for adapting to turbulent times", "unit": "reported wellness orientation", "value_type": "reported_trend"},
+        "nano_trips": {"value": "Short, high-impact getaways are framed as cost-effective punctuation marks for perspective and identity experimentation", "unit": "reported travel trend", "value_type": "reported_trend"},
+        "treatonomics": {"value": "Small, regular indulgences are framed as survival strategies even when consumers cut spending elsewhere", "unit": "reported consumption trend", "value_type": "reported_trend"}
+      },
+      "method": "VML Intelligence cultural and consumer forecast across travel, wellness, retail, and lifestyle categories.",
+      "uncertainty": "These are forecast categories, not measured spending elasticities or evidence that short travel and small indulgences improve resilience across income groups.",
+      "subgroup": "Consumers managing economic pressure, time scarcity, travel choices, wellness spending, and identity or perspective-seeking experiences.",
+      "counterinterpretation": "Treats and micro-travel can provide relief but may deepen financial strain or become substitutes for structural security, paid leave, community infrastructure, and public support.",
+      "source_url": "https://www.vml.com/news/the-future-100-2026",
+      "retrieval_hash": "sha256:468b36e6f318dadee914162f4881330c590b9b5418c48740fc061f92f1afdea5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.vml.com/insight/the-future-100-2026", "claim": "VML's full Future 100: 2026 report route contains the 100 trends across 10 sectors referenced by the public release."},
+    {"source_url": "https://www.vml.com/news/the-future-100-2025", "claim": "The prior Future 100 release provides a vintage comparison for VML's annual cultural forecasting series."}
+  ],
+  "boundary": "This record adds VML's multimarket cultural forecast on dysoptimism, awe-seeking, AI collaboration, human connection, third places, resilience wellness, short travel, and small indulgences. It uses published aggregate survey claims and industry interpretation, not raw respondent-level data, a causal model, a universal cultural diagnosis, or proof that the predicted trends will scale.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official VML Future 100: 2026 release reviewed for the dysoptimism concept, 16-market survey scope, 86% awe statistic, AI collaborator and Gen Z relationship claim, human connection and third-place themes, and resilience/lifestyle trends.",
+    "source_url_sha256": "sha256:468b36e6f318dadee914162f4881330c590b9b5418c48740fc061f92f1afdea5",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-sdg16-global-progress-report-2026-peace-justice-inclusion-institutions",
+  "title": "Peaceful, just, and inclusive institutions are under pressure as conflict, polarization, distrust, and weak representation make development gains more fragile",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "care_health_reproduction"
+  ],
+  "source_unit": "OHCHR, UNDP, UNICEF, and UNODC, SDG 16 Global Progress Report 2026",
+  "geography": "Global SDG 16 indicator and country case-study frame, with examples from countries including Panama, Ghana, and Benin",
+  "observations": [
+    {
+      "period": "2026 report framing; more than a decade after adoption of the 2030 Agenda",
+      "denominator": {"value": 1, "unit": "global SDG 16 report and indicator framework", "value_type": "global_publication_frame"},
+      "measures": {
+        "pressure_stack": {"value": "growing insecurity, deepening polarization, declining trust, violent conflict, economic uncertainty, and geopolitical fragmentation", "unit": "report framing", "value_type": "reported_context"},
+        "institutional_requirement": {"value": "institutions need sufficient capability and resilience to turn solutions into life-changing results", "unit": "report interpretation", "value_type": "reported_system_requirement"},
+        "development_boundary": {"value": "peace, justice, and inclusive institutions are presented as foundations for progress across the wider 2030 Agenda", "unit": "SDG 16 framing", "value_type": "reported_framework"}
+      },
+      "method": "Global synthesis of SDG 16 indicators covering peace, justice, inclusion, legal identity, violence, representation, discrimination, and institutional capacity, supplemented by country data-to-impact stories.",
+      "uncertainty": "The framing is a cross-domain synthesis rather than a causal estimate; indicator coverage, reporting quality, timing, and country comparability vary across SDG 16 measures.",
+      "subgroup": "People exposed to conflict, violence, discrimination, weak legal identity, exclusion from decision-making, and unequal access to justice and public institutions.",
+      "counterinterpretation": "Institutional pressure is not uniform: the report also documents cases where measurement, partnerships, and reform translate evidence into improved policy or representation.",
+      "source_url": "https://www.sdg16progress.org/",
+      "retrieval_hash": "sha256:e7232e5f83966ae2e223d79ae145da4de2561747b582ab5eeeca608b58542357",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report key findings; current global SDG 16 indicator frame",
+      "denominator": {"value": 1, "unit": "global population and SDG 16 indicator frame", "value_type": "global_indicator_frame"},
+      "measures": {
+        "conflict_deaths": {"value": "a civilian death is recorded in armed conflict about every 14 minutes", "unit": "reported global estimate", "value_type": "reported_rate"},
+        "unsentenced_detention": {"value": "one in three prisoners globally is held without having been sentenced", "unit": "share of prisoners", "value_type": "reported_share"},
+        "homicide": {"value": "more than 400,000 people die from intentional homicide worldwide every year", "unit": "people per year", "value_type": "reported_count"},
+        "violence_against_children": {"value": "1.6 billion children experience violent discipline at home", "unit": "children", "value_type": "reported_count"}
+      },
+      "method": "Report presentation of SDG 16.1 and 16.2 peace and justice indicators, combining conflict, homicide, detention, trafficking, and violence-against-children measures.",
+      "uncertainty": "These headline indicators use different sources, definitions, reporting systems, and reference periods; they should not be treated as one harmonized risk index or as evidence of a single cause.",
+      "subgroup": "Civilians in armed conflict, people in detention, children exposed to violence, and populations facing lethal insecurity or weak justice safeguards.",
+      "counterinterpretation": "The measures identify severe global exposure but do not imply identical trends in every country, nor that justice or prevention systems are ineffective everywhere.",
+      "source_url": "https://www.sdg16progress.org/",
+      "retrieval_hash": "sha256:e7232e5f83966ae2e223d79ae145da4de2561747b582ab5eeeca608b58542357",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report inclusion findings; current representation and legal-identity frame",
+      "denominator": {"value": 1, "unit": "global inclusion and representation indicator frame", "value_type": "inclusion_indicator_frame"},
+      "measures": {
+        "legal_identity": {"value": 150000000, "unit": "children without legal identity", "value_type": "reported_count"},
+        "discrimination": {"value": 1, "unit": "in 5 people worldwide reporting personal experience of discrimination", "value_type": "reported_share"},
+        "women_legislature": {"value": 1, "unit": "in 4 parliamentary seats worldwide held by women", "value_type": "reported_share"},
+        "representation_gap": {"value": "women's representation is 20% short of parity in the public service and 12% short in the judiciary", "unit": "reported parity gap", "value_type": "reported_gap"}
+      },
+      "method": "Report synthesis of SDG 16.7 and 16.9 inclusion indicators covering legal identity, discrimination, and representation in legislatures, public service, and the judiciary.",
+      "uncertainty": "Global estimates depend on administrative records, survey coverage, country reporting, definitions of representation, and uneven data availability; they do not describe within-country distributions in full.",
+      "subgroup": "Children without birth registration or other legal identity, people experiencing discrimination, women seeking equal voice in public institutions, and communities excluded from decision-making.",
+      "counterinterpretation": "Representation and legal identity can improve through policy reform and administrative expansion; global gaps coexist with country-level progress and reform examples.",
+      "source_url": "https://www.sdg16progress.org/",
+      "retrieval_hash": "sha256:e7232e5f83966ae2e223d79ae145da4de2561747b582ab5eeeca608b58542357",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report data-to-impact stories; country examples from recent reform and measurement activity",
+      "denominator": {"value": 1, "unit": "country case-study set presented by the report", "value_type": "case_study_frame"},
+      "measures": {
+        "panama": {"value": "victimization-survey evidence informed citizen-security strategy discussions and broadened attention beyond reported street crime to bribery, corruption, and perceptions of insecurity", "unit": "country data-to-policy example", "value_type": "reported_case"},
+        "ghana": {"value": "the report describes a documented 78% reduction in illicit financial flows from 2019 to 2023 alongside stronger transfer-pricing enforcement and customs valuation controls", "unit": "reported change in case study", "value_type": "reported_case"},
+        "benin": {"value": "women's parliamentary representation rose from 7.2% in 2015 to 25.7% in 2026 after evidence, advocacy, and reforms reserving 24 seats for women", "unit": "reported representation change", "value_type": "reported_case"},
+        "institutional_route": {"value": "official statistics, partnerships, legal reform, and public reporting can convert measurement into institutional action", "unit": "report synthesis", "value_type": "reported_policy_route"}
+      },
+      "method": "Selected SDG 16 country stories tracing how official measurement, institutional partnerships, and reform processes connect data to policy action.",
+      "uncertainty": "Case studies are illustrative rather than representative evaluations; reported changes may reflect multiple reforms and contextual factors, and they do not establish a universal policy effect.",
+      "subgroup": "National statistical offices, justice and security institutions, legislators, civil society, women candidates, public authorities, and communities affected by policy decisions.",
+      "counterinterpretation": "Data can be collected without being acted upon, and a documented reform success in one country may not transfer without local institutional capacity, political support, and accountability.",
+      "source_url": "https://www.sdg16progress.org/",
+      "retrieval_hash": "sha256:e7232e5f83966ae2e223d79ae145da4de2561747b582ab5eeeca608b58542357",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.sdg16progress.org/", "claim": "Official SDG 16 Global Progress Report 2026 landing page, key findings, chapter structure, and data-to-impact stories."}
+  ],
+  "boundary": "This record adds a global public-institutions route across conflict, justice, legal identity, violence, discrimination, representation, institutional resilience, official statistics, and reform pathways. It uses a UN-produced publication synthesis and selected country case studies, not respondent-level ingestion, a causal institutional-performance model, a complete country panel, or proof that the highlighted reforms generalize everywhere.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official SDG 16 Global Progress Report 2026 landing page reviewed for its producing agencies, global framing, key peace and justice indicators, legal identity, discrimination, representation gaps, and Panama, Ghana, and Benin data-to-impact stories.",
+    "source_url_sha256": "sha256:e7232e5f83966ae2e223d79ae145da4de2561747b582ab5eeeca608b58542357",
+    "checked": "2026-09-27"
+  }
+}

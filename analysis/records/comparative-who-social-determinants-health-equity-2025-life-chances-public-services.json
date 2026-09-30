@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-social-determinants-health-equity-2025-life-chances-public-services",
+  "title": "Health inequality is produced through the distribution of housing, work, money, power, public services, and protection",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "World Health Organization, World report on social determinants of health equity",
+  "geography": "Global; comparative evidence and country examples across high-, middle-, and low-income settings",
+  "observations": [
+    {
+      "period": "2025 global health-equity assessment; social determinants and life expectancy",
+      "denominator": {"value": 1, "unit": "global population and cross-country health-equity evidence base", "value_type": "global_evidence_synthesis"},
+      "measures": {
+        "life_expectancy_gap": {"value": 33, "unit": "years between the average life expectancy in the highest- and lowest-life-expectancy countries", "value_type": "reported_gap"},
+        "low_income_child_mortality_multiplier": {"value": 13, "unit": "times higher likelihood of dying before age five for children born in low-income versus high-income countries", "value_type": "reported_ratio"},
+        "wealth_inequality_earnings_ratio": {"value": 15, "unit": "times: top 10% versus bottom 50% of individual earners across 201 countries", "value_type": "reported_ratio"},
+        "children_saved_if_wealth_inequality_eliminated": {"value": 1800000, "unit": "potential annual child lives saved by eliminating wealth-related inequality within low- and middle-income countries", "value_type": "reported_modelled_potential"}
+      },
+      "method": "WHO global report synthesizing evidence reviews, commissioned papers, scientific and policy advisory input, country examples, and Member State consultation; it organizes 14 recommendations across four action areas.",
+      "uncertainty": "The report synthesizes heterogeneous evidence and policy examples; reported gaps and modeled potentials do not imply that any single intervention will produce the stated change everywhere or that social determinants operate independently.",
+      "subgroup": "Populations differentiated by place, income and wealth, education, race and ethnicity, gender, disability, Indigenous status, migration and access to power, money and resources.",
+      "counterinterpretation": "Health-care access, genetics, personal behavior and local adaptation still matter; the report’s argument is that these do not explain away the larger structural distribution of opportunity and exposure.",
+      "source_url": "https://www.who.int/publications/i/item/9789240107588",
+      "retrieval_hash": "sha256:a859cc83d11508435744f1ce4fb6f39396083c22e60bea3f872887eb2dd1863f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; fiscal capacity, social protection, discrimination, climate, conflict, and displacement",
+      "denominator": {"value": 1, "unit": "global structural-determinants assessment", "value_type": "global_policy_frame"},
+      "measures": {
+        "social_protection_gap": {"value": 3800000000, "unit": "people worldwide described as lacking social-protection coverage", "value_type": "reported_population_count"},
+        "women_without_equal_economic_opportunity": {"value": 2400000000, "unit": "women of working age described as lacking equal economic opportunities", "value_type": "reported_population_count"},
+        "air_pollution_early_deaths": {"value": 7000000, "unit": "early deaths each year attributed to air pollution", "value_type": "reported_annual_estimate"},
+        "climate_extreme_poverty_risk": {"value": "68-135 million", "unit": "additional people potentially pushed into extreme poverty by climate change by 2030", "value_type": "reported_projection"},
+        "forcibly_displaced": {"value": 122000000, "unit": "people forcibly displaced in 2024", "value_type": "reported_population_count"}
+      },
+      "method": "WHO synthesis of social, economic, environmental, political and health evidence, with policy recommendations on taxation, universal public services, anti-discrimination, climate action, digital transformation, local government and community engagement.",
+      "uncertainty": "Counts and projections have different years, definitions and source methods; displacement, social-protection coverage and climate-poverty estimates are not interchangeable measures of individual health loss.",
+      "subgroup": "People lacking income security, women facing structural discrimination, migrants and displaced people, Indigenous populations, communities exposed to pollution and climate hazards, and residents of under-resourced localities.",
+      "counterinterpretation": "Universal services and progressive taxation are policy prescriptions, not evidence that implementation is politically feasible, fiscally sufficient, or equally effective across settings.",
+      "source_url": "https://www.who.int/teams/social-determinants-of-health/equity-and-health/world-report-on-social-determinants-of-health-equity",
+      "retrieval_hash": "sha256:a859cc83d11508435744f1ce4fb6f39396083c22e60bea3f872887eb2dd1863f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://iris.who.int/bitstream/handle/10665/381152/9789240107588-eng.pdf", "claim": "Official WHO report PDF."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240107588", "claim": "Canonical WHO publication page with date, scope, recommendations and evidence basis."}
+  ],
+  "boundary": "This record adds a global structural-health-equity route connecting material conditions, social protection, discrimination, climate, conflict, displacement and public-service capacity to health and life chances. It is an evidence synthesis, not respondent-level ingestion, a single-country causal estimate, a clinical study, or proof that any recommendation has been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO publication page, thematic page, and report PDF were reviewed; publication date, global gaps, structural determinants, social-protection and climate/displacement figures, and policy action areas were cross-checked.",
+    "report_pdf_sha256": "sha256:a859cc83d11508435744f1ce4fb6f39396083c22e60bea3f872887eb2dd1863f",
+    "checked": "2026-09-28"
+  }
+}

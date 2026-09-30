@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-world-bank-youth-almp-2026-skills-earnings-inclusion",
+  "title": "Youth employment programmes improve labor-market outcomes on average, with effects shaped by design, context, and disadvantage",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "political_judgment_action"
+  ],
+  "source_unit": "International Labour Organization and World Bank, The Impact of Active Labour Market Programmes on Youth: A Systematic Review and Meta-Analysis of Impact Evaluations, 1990-2022",
+  "geography": "Comparative systematic review of youth active labour-market programmes across 62 countries and low-, middle-, and high-income settings",
+  "observations": [
+    {
+      "period": "1990-2022; evidence base and intervention scope",
+      "denominator": {"value": 228, "unit": "impact evaluations included in the systematic review", "value_type": "systematic_review_frame"},
+      "measures": {
+        "countries": {"value": 62, "unit": "countries represented in the evidence base", "value_type": "reported_count"},
+        "interventions": {"value": 220, "unit": "youth-focused interventions assessed within 171 active labour-market programmes", "value_type": "reported_count"},
+        "treatment_effects": {"value": 5000, "unit": "treatment-effect estimates synthesized across skills, entrepreneurship, employment services, wage subsidies, and public works", "value_type": "reported_count_approximate"}
+      },
+      "method": "ILO-World Bank systematic search and meta-analysis of counterfactual impact evaluations published between 1990 and 2022, using standardized mean differences and moderator analysis.",
+      "uncertainty": "The evidence base reflects available evaluations and may underrepresent low-capacity settings, null results, informal outcomes, or longer-run social effects; estimates are not a forecast for every programme.",
+      "subgroup": "Young people, programme participants, young women, disadvantaged youth, low-skilled youth, employers, training providers, and public employment services.",
+      "counterinterpretation": "A large evidence base does not make all programmes interchangeable; selection into programmes, implementation quality, local labor demand, and outcome definitions still shape results.",
+      "source_url": "https://www.ilo.org/publications/impact-active-labour-market-programmes-youth",
+      "retrieval_hash": "sha256:91430f936a842feb0e81dbd0b3017b15ef4b5898b8b3c5a2b27a31f2e520685e",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2022; average employment and earnings effects",
+      "denominator": {"value": 228, "unit": "youth active labour-market programme impact evaluations in the review", "value_type": "programme_evaluation_frame"},
+      "measures": {
+        "employment": {"value": "well-designed youth active labour-market programmes have a measurable positive average impact on employment", "unit": "meta-analysis finding", "value_type": "reported_effect_direction"},
+        "earnings": {"value": "well-designed programmes have a measurable positive average impact on earnings", "unit": "meta-analysis finding", "value_type": "reported_effect_direction"},
+        "income_group_pattern": {"value": "average impacts are stronger in low- and middle-income countries than in high-income countries", "unit": "reported comparative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Meta-analysis of standardized treatment effects with comparisons by country income group, participant characteristics, programme type, and implementation context.",
+      "uncertainty": "Average effects do not establish that every participant gains, that gains persist, or that employment quality, bargaining power, or household security improve alongside employment or earnings.",
+      "subgroup": "Youth in low- and middle-income countries, young people facing labor-market exclusion, and participants entering work from unemployment or inactivity.",
+      "counterinterpretation": "Higher average impacts in lower-income settings may reflect larger unmet needs or lower baseline access, not a universal advantage of one programme model.",
+      "source_url": "https://www.ilo.org/publications/impact-active-labour-market-programmes-youth",
+      "retrieval_hash": "sha256:91430f936a842feb0e81dbd0b3017b15ef4b5898b8b3c5a2b27a31f2e520685e",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2022; programme design and participant heterogeneity",
+      "denominator": {"value": 1, "unit": "youth ALMP design and subgroup comparison frame", "value_type": "programme_design_frame"},
+      "measures": {
+        "stronger_types": {"value": "entrepreneurship promotion and skills training report larger average impacts than employment services and subsidized employment programmes", "unit": "reported comparative finding", "value_type": "reported_pattern"},
+        "priority_groups": {"value": "effects are stronger for young women, disadvantaged youth, and participants under 25", "unit": "reported subgroup pattern", "value_type": "reported_pattern"},
+        "design_features": {"value": "soft-skills training, certification, combined interventions, and attention to multiple barriers are associated with stronger results", "unit": "reported design pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Meta-regression and moderator analysis across intervention type, participant characteristics, country income group, design, and implementation features.",
+      "uncertainty": "Comparative effect sizes are not a simple ranking for policy adoption; programme costs, scale, implementation fidelity, selection, labor demand, and unmeasured outcomes can change practical value.",
+      "subgroup": "Young women, marginalized and low-skilled youth, participants under 25, youth with care or mobility barriers, and employers receiving trained workers.",
+      "counterinterpretation": "Skills or entrepreneurship programmes may perform well partly because they are targeted or paired with complementary supports; employment services or wage subsidies can be essential in other contexts.",
+      "source_url": "https://www.ilo.org/publications/impact-active-labour-market-programmes-youth",
+      "retrieval_hash": "sha256:91430f936a842feb0e81dbd0b3017b15ef4b5898b8b3c5a2b27a31f2e520685e",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2022; implementation partnerships and cost-effectiveness",
+      "denominator": {"value": 1, "unit": "programme implementation and cost-effectiveness evidence frame", "value_type": "implementation_frame"},
+      "measures": {
+        "local_delivery": {"value": "local and regional programmes often report better results than national programmes", "unit": "reported implementation pattern", "value_type": "reported_pattern"},
+        "partnerships": {"value": "partnerships between public and non-public actors are on average more impactful in low- and middle-income countries", "unit": "reported implementation pattern", "value_type": "reported_mechanism"},
+        "benefit_cost": {"value": "three in four cost-effectiveness studies find benefits outweigh costs over the longer run", "unit": "reported share of cost-effectiveness studies", "value_type": "reported_share"}
+      },
+      "method": "Review-level comparison of programme scale, delivery partnerships, implementation features, and available cost-effectiveness studies.",
+      "uncertainty": "Cost-effectiveness evidence is available for a subset of programmes and varies in time horizon, costing conventions, outcome valuation, and transferability; local delivery can also vary in capacity and accountability.",
+      "subgroup": "Young participants, local governments, public employment services, training providers, employers, community organizations, and taxpayers funding programmes.",
+      "counterinterpretation": "Local delivery can improve fit and reach but may fragment standards or create unequal access; national programmes can provide scale, portability, and more consistent rights.",
+      "source_url": "https://www.ilo.org/publications/impact-active-labour-market-programmes-youth",
+      "retrieval_hash": "sha256:91430f936a842feb0e81dbd0b3017b15ef4b5898b8b3c5a2b27a31f2e520685e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "ILO Employment and Social Trends 2026 provides complementary global youth, jobs-gap, informality, and job-quality context."},
+    {"source_url": "https://www.worldbank.org/en/topic/jobs/publication", "claim": "World Bank jobs research provides complementary labor-market policy and youth-employment context."}
+  ],
+  "boundary": "This record adds a youth-transition route linking active labor-market programmes to employment, earnings, skills, entrepreneurship, certification, gender, disadvantage, local delivery, partnerships, and cost-effectiveness. It summarizes evaluation evidence rather than respondent-level histories; it does not establish universal programme effects, job quality, household welfare, durable mobility, or causal effects outside the evaluated interventions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page and report summary were reviewed for the 228-study, 62-country frame, intervention types, average effects, subgroup patterns, design features, partnerships, and cost-effectiveness claims.",
+    "source_url_sha256": "sha256:91430f936a842feb0e81dbd0b3017b15ef4b5898b8b3c5a2b27a31f2e520685e",
+    "checked": "2026-09-26"
+  }
+}

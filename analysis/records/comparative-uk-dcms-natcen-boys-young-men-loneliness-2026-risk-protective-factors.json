@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dcms-natcen-boys-young-men-loneliness-2026-risk-protective-factors",
+  "title": "Among boys and young men, loneliness is widespread but usually intermittent; family support, friendships, mental health, bullying and work or education status structure who becomes persistently disconnected",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport and National Centre for Social Research, Loneliness, isolation and social connection among boys and young men in England",
+  "geography": "England; boys and young men aged 10–25 using Understanding Society and Mental Health of Children and Young People survey data",
+  "observations": [
+    {
+      "period": "2022–2025; levels of loneliness among boys and young men",
+      "denominator": {"value": 1, "unit": "two national survey frames: Understanding Society waves 14–15 and MHCYP wave 4", "value_type": "published_survey_frame"},
+      "measures": {
+        "understanding_society_often": {"value": 13, "unit": "percent of young men aged 16–25 reporting feeling lonely often in Understanding Society", "value_type": "reported_share"},
+        "understanding_society_some": {"value": 36, "unit": "percent of boys and young men reporting feeling lonely some of the time in Understanding Society", "value_type": "reported_share"},
+        "mhcyp_often_always": {"value": 8, "unit": "percent of boys and young men aged 11–25 reporting feeling lonely often or always in MHCYP", "value_type": "reported_share"},
+        "mhcyp_occasionally_some": {"value": 45, "unit": "percent of boys and young men aged 11–25 reporting feeling lonely occasionally or some of the time in MHCYP", "value_type": "reported_share"}
+      },
+      "method": "Secondary analysis of Understanding Society waves 14 and 15 collected 2022–2025 and MHCYP wave 4 collected in 2023; survey questions differ and are comparable only at a broad level.",
+      "uncertainty": "The surveys use different age bands, wording and response options; percentages should not be treated as a single pooled prevalence estimate.",
+      "subgroup": "Boys aged 10–15 and young men aged 16–25 in England.",
+      "counterinterpretation": "Most respondents do not report chronic loneliness, but intermittent loneliness can still affect wellbeing, participation and help-seeking, especially when stigma suppresses disclosure.",
+      "source_url": "https://www.gov.uk/government/publications/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england",
+      "retrieval_hash": "sha256:1985f132d9e9cbf0bafb051095fee2771a60a7e47b5f7caaf946a083f46ced45",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2025; isolation, support and friendship among young men",
+      "denominator": {"value": 1011, "unit": "young men aged 16–21 in England in the Understanding Society Wave 15 analysis of loneliness, isolation and friendship", "value_type": "reported_analysis_sample"},
+      "measures": {
+        "isolation_often": {"value": 12, "unit": "percent of young men aged 16–25 reporting feeling isolated often", "value_type": "reported_share"},
+        "isolation_some": {"value": 37, "unit": "percent reporting feeling isolated some of the time", "value_type": "reported_share"},
+        "loneliness_small_friend_group": {"value": 31, "unit": "percent of young men with no close friends reporting feeling lonely often, compared with approximately 9–11% among those with three or more friends", "value_type": "reported_comparison"},
+        "family_support_gap": {"value": 26, "unit": "percent of young men with lower family support reporting loneliness often, compared with 10% among those with stronger family support", "value_type": "reported_comparison"}
+      },
+      "method": "Understanding Society Wave 15 descriptive and multivariable analysis of close friends, family support, loneliness and isolation.",
+      "uncertainty": "Associations may reflect mental health, bullying, socioeconomic conditions, family relationships and selection; friendship count is an imperfect proxy for meaningful connection.",
+      "subgroup": "Young men aged 16–21, with comparisons by close-friend group and perceived family support.",
+      "counterinterpretation": "More friends or family support may be outcomes of wellbeing and opportunity rather than independent interventions; quality and safety of relationships matter more than counts alone.",
+      "source_url": "https://www.gov.uk/government/publications/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england",
+      "retrieval_hash": "sha256:1985f132d9e9cbf0bafb051095fee2771a60a7e47b5f7caaf946a083f46ced45",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2025; mental health, bullying and economic inactivity",
+      "denominator": {"value": 1, "unit": "NatCen analysis of boys and young men aged 10–25 across two national surveys", "value_type": "published_analysis_frame"},
+      "measures": {
+        "mental_health": {"value": "lower wellbeing, emotional difficulties and peer-relationship problems were the strongest and most consistent factors associated with loneliness and isolation", "unit": "reported association", "value_type": "reported_interpretation"},
+        "bullying": {"value": "online or school bullying was closely associated with higher loneliness", "unit": "reported association", "value_type": "reported_interpretation"},
+        "economic_inactivity": {"value": "unemployment or being economically inactive was associated with greater loneliness or isolation among young men, though some patterns weakened after accounting for wellbeing and bullying", "unit": "reported association", "value_type": "reported_interpretation"},
+        "causal_boundary": {"value": "the report explicitly states that these associations should not be interpreted as causal relationships", "unit": "reported methodological boundary", "value_type": "reported_limitation"}
+      },
+      "method": "Secondary analysis of Understanding Society and MHCYP with descriptive and regression-based associations across personal, social, mental-health and socioeconomic factors.",
+      "uncertainty": "Cross-sectional or observational associations cannot establish directionality; loneliness may both result from and contribute to mental-health, education, employment and relationship difficulties.",
+      "subgroup": "Boys and young men with poor wellbeing, peer difficulties, bullying exposure, unemployment or limited education and work connection.",
+      "counterinterpretation": "Employment or education may provide social connection for some young people, but can also be stressful or exclusionary; programme design must address quality and belonging, not only attendance.",
+      "source_url": "https://www.gov.uk/government/publications/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england",
+      "retrieval_hash": "sha256:1985f132d9e9cbf0bafb051095fee2771a60a7e47b5f7caaf946a083f46ced45",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2025; in-person contact and organised activity",
+      "denominator": {"value": 1011, "unit": "young men aged 16–21 in the Understanding Society Wave 15 analysis of in-person contact and social connection", "value_type": "reported_analysis_sample"},
+      "measures": {
+        "daily_contact": {"value": 9, "unit": "percent reporting chronic loneliness among young men meeting friends daily or several times a week", "value_type": "reported_share"},
+        "less_than_weekly_contact": {"value": 21, "unit": "percent reporting chronic loneliness among young men meeting friends less often than once a week", "value_type": "reported_share"},
+        "isolation_daily_contact": {"value": 4, "unit": "percent reporting frequent isolation among young men meeting friends almost every day", "value_type": "reported_share"},
+        "isolation_less_contact": {"value": 21, "unit": "percent reporting frequent isolation among young men meeting friends less than once a week", "value_type": "reported_share"},
+        "organized_activity": {"value": "participation in clubs, societies and community groups was associated with lower loneliness among some young men", "unit": "reported association", "value_type": "reported_interpretation"}
+      },
+      "method": "Understanding Society Wave 15 analysis of friendship-meeting frequency and MHCYP analysis of organised activity.",
+      "uncertainty": "Contact frequency is not equivalent to meaningful connection and may be confounded by mental health, transport, money, family support, school and work schedules; the evidence is associational.",
+      "subgroup": "Young men aged 16–21 and boys and young men participating or not participating in organized activities.",
+      "counterinterpretation": "More in-person contact may be a marker of existing wellbeing and resources; forced or low-quality contact may not reduce loneliness.",
+      "source_url": "https://www.gov.uk/government/publications/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england",
+      "retrieval_hash": "sha256:1985f132d9e9cbf0bafb051095fee2771a60a7e47b5f7caaf946a083f46ced45",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england/technical-appendix-investigating-factors-associated-with-loneliness-isolation-and-social-connection-among-boys-and-young-men-in-england", "claim": "Official technical appendix and model details."},
+    {"source_url": "https://www.gov.uk/government/publications/social-connection-framework/social-connection-framework", "claim": "Policy framework that uses this empirical report."}
+  ],
+  "boundary": "This record is the empirical companion to the UK Social Connection Framework. It uses observational national survey data, with different measures across Understanding Society and MHCYP; it is not a causal intervention evaluation, clinical diagnosis, global estimate or proof that friendship counts alone create wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official DCMS/NatCen report and its linked methodology were retrieved and reviewed for prevalence, isolation, family support, close friends, mental health, bullying, economic inactivity, in-person contact, organised activity and explicit non-causal limits; the report HTML page was hashed.",
+    "source_url_sha256": "sha256:1985f132d9e9cbf0bafb051095fee2771a60a7e47b5f7caaf946a083f46ced45",
+    "checked": "2026-09-27"
+  }
+}

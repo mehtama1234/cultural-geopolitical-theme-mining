@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-luminate-midyear-2026-music-tv-film-consumption-diversity-ai",
+  "title": "U.S. entertainment consumption is expanding through multilingual discovery, nostalgia, physical media, and hybrid digital culture",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Luminate 2026 Midyear Report: Trends in Music, Television & Film; commercial consumption and streaming data synthesis for the first half of 2026",
+  "geography": "United States for consumer and platform comparisons, with global music-streaming context",
+  "observations": [
+    {
+      "period": "First half of 2026; U.S. audio consumption and language diversity",
+      "denominator": {"value": 732700000000, "unit": "U.S. on-demand audio streams in H1 2026", "value_type": "reported_count"},
+      "measures": {
+        "us_audio_stream_growth": {"value": 4.8, "unit": "percent growth in U.S. on-demand audio streams", "value_type": "reported_change"},
+        "spanish_language_share": {"value": 9.4, "unit": "percent of U.S. total on-demand audio and video streams in Spanish", "value_type": "reported_share"},
+        "latin_casual_listenership": {"value": 54, "unit": "percent of U.S. consumers casually listening to Latin genre monthly in Q1 2026", "value_type": "reported_share"},
+        "english_language_share": {"value": 87.1, "unit": "percent of U.S. streaming in English, a reported new low", "value_type": "reported_share"},
+        "r_and_b_hip_hop_share": {"value": "approximately one in four U.S. audio streams", "unit": "reported genre share", "value_type": "reported_share"}
+      },
+      "method": "Luminate analysis of streaming and entertainment data drawn from verified sources and industry measurement systems; the report combines music with film and television analysis.",
+      "uncertainty": "Commercial measurement definitions, platform coverage, genre classification, and stream counting rules shape the estimates; streaming share is not the same as cultural importance, revenue, or individual listener preference.",
+      "subgroup": "U.S. music listeners and audio/video streaming activity; genre and language categories are source-defined.",
+      "counterinterpretation": "Language diversification may reflect catalog availability, platform discovery, diaspora demand, major releases, and sampling rather than a uniform shift in identity or social integration.",
+      "source_url": "https://luminatedata.com/blog/luminate-2026-midyear-report-trends-in-music-television-film/",
+      "retrieval_hash": "sha256:1de6b1974594498bc6e4b312ae1301e0ff8c211c8bf4910d2800226838664b91",
+      "status": "reported"
+    },
+    {
+      "period": "First half of 2026; physical media, fandom, and nostalgia",
+      "denominator": {"value": 16300000, "unit": "U.S. CDs sold in H1 2026", "value_type": "reported_count"},
+      "measures": {
+        "cd_sales_growth": {"value": 16, "unit": "percent increase in U.S. CD sales", "value_type": "reported_change"},
+        "cd_sales_excluding_kpop": {"value": 6.7, "unit": "percent growth after removing K-pop sales", "value_type": "reported_change"},
+        "vinyl_growth": {"value": 2.4, "unit": "percent growth in U.S. vinyl sales", "value_type": "reported_change"},
+        "music_superfans": {"value": 20, "unit": "percent of U.S. music listeners engaging with artists or music in five or more ways", "value_type": "reported_share"},
+        "nostalgia_pattern": {"value": "songs from 2015–2017 experienced a streaming spike alongside current genre growth", "unit": "reported consumption pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Luminate sales, streaming, and audience-engagement analysis, including purchase-based and engagement-based superfandom categories.",
+      "uncertainty": "Physical-sales growth may be concentrated among particular fandoms, formats, releases, and collectibles; superfandom is a source-defined engagement construct and does not measure household spending burden or durable loyalty.",
+      "subgroup": "U.S. music listeners, purchasers, and fans; Gen Z and Millennials overindex in engagement-based superfandom.",
+      "counterinterpretation": "CD growth can coexist with streaming dominance and may reflect collectible editions, K-pop fandom, gifting, or artist-specific releases rather than a broad return to older listening infrastructure.",
+      "source_url": "https://luminatedata.com/blog/luminate-2026-midyear-report-trends-in-music-television-film/",
+      "retrieval_hash": "sha256:1de6b1974594498bc6e4b312ae1301e0ff8c211c8bf4910d2800226838664b91",
+      "status": "reported"
+    },
+    {
+      "period": "First half of 2026; film and television attention allocation",
+      "denominator": {"value": 100, "unit": "U.S. viewing-time and platform comparison base", "value_type": "reported_comparison_base"},
+      "measures": {
+        "netflix_original_viewing_share": {"value": 57, "unit": "percent of U.S. original-content viewing time among major SVOD platforms", "value_type": "reported_share"},
+        "library_viewing": {"value": 60, "unit": "approximately percent of estimated TV viewing time spent on content more than one year old", "value_type": "reported_share"},
+        "library_titles_vs_originals": {"value": "nearly 19,000 library titles versus about 7,000 originals on major U.S. services", "unit": "reported catalog comparison", "value_type": "reported_comparison"},
+        "us_tv_premieres": {"value": 517, "unit": "U.S. TV premieres in H1 2026, down from 930 in H1 2022", "value_type": "reported_comparison"},
+        "younger_theater_attendance": {"value": "nearly 70 percent of Gen Z and Millennial movie watchers reported seeing at least two films in theaters within three months", "unit": "reported audience pattern", "value_type": "reported_share"}
+      },
+      "method": "Luminate platform, catalog, viewing-time, premiere-volume, and audience survey analysis.",
+      "uncertainty": "Viewing-time estimates and platform comparisons depend on measurement coverage and source definitions; reported theater behavior applies to movie watchers in the specified generations, not all adults.",
+      "subgroup": "U.S. streaming viewers, movie watchers, and younger generational cohorts where specified.",
+      "counterinterpretation": "Library viewing can reflect catalog size, repeat viewing, convenience, and platform recommendation rather than nostalgia; reduced premieres do not by themselves indicate reduced cultural production or audience choice.",
+      "source_url": "https://luminatedata.com/blog/luminate-2026-midyear-report-trends-in-music-television-film/",
+      "retrieval_hash": "sha256:1de6b1974594498bc6e4b312ae1301e0ff8c211c8bf4910d2800226838664b91",
+      "status": "reported"
+    },
+    {
+      "period": "First half of 2026; AI and creator-consumer boundary",
+      "denominator": {"value": 100, "unit": "U.S. musician and non-musician comparison bases", "value_type": "reported_comparison_base"},
+      "measures": {
+        "musician_positive_ai_feelings": {"value": 54, "unit": "percent of U.S. musicians showing positive feelings or acceptance toward generative-AI tools", "value_type": "reported_share"},
+        "nonmusician_positive_ai_feelings": {"value": 35, "unit": "percent of U.S. non-musicians", "value_type": "reported_share"},
+        "musician_ai_editing_use": {"value": 18, "unit": "percent of U.S. musicians reporting AI use to edit or remix existing music", "value_type": "reported_share"},
+        "nonmusician_ai_editing_use": {"value": 6, "unit": "percent of U.S. non-musicians", "value_type": "reported_share"},
+        "ai_consumption_boundary": {"value": "AI tools are transforming creative and production workflows, while individual AI-generated tracks have not yet produced a profound long-term consumption shift", "unit": "reported industry interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Luminate survey and analysis comparing musicians and non-musicians, alongside streaming observations of AI-assisted tracks.",
+      "uncertainty": "The report does not define all AI-use categories, establish representative sampling of musicians, or show whether reported adoption improves income, discovery, or creative control.",
+      "subgroup": "U.S. musicians and non-musicians as defined by Luminate’s source data.",
+      "counterinterpretation": "Positive attitudes may reflect experimentation rather than durable adoption; AI tools can lower production barriers while also raising ownership, attribution, labor, and authenticity concerns.",
+      "source_url": "https://luminatedata.com/blog/luminate-2026-midyear-report-trends-in-music-television-film/",
+      "retrieval_hash": "sha256:1de6b1974594498bc6e4b312ae1301e0ff8c211c8bf4910d2800226838664b91",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://luminatedata.com/reports/midyear-music-ftv-report-2026/", "claim": "Luminate report landing page and full-report access point.", "status": "primary-publication"},
+    {"source_url": "https://apnews.com/article/4516213bc46fdafb557ffe645c086edf", "claim": "AP contextual coverage of the Luminate midyear music, film, and television findings.", "status": "publisher-context"}
+  ],
+  "boundary": "This record identifies a U.S. cultural-consumption pattern in which entertainment expands across streaming, languages, genres, physical formats, library content, theaters, fandom, and selective AI use. It does not establish representative individual media histories, household affordability, causal identity change, or that commercial engagement metrics equal cultural or social value.",
+  "retrieval_hash": "sha256:1de6b1974594498bc6e4b312ae1301e0ff8c211c8bf4910d2800226838664b91"
+}

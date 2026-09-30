@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-travel-tourism-development-index-2026-cultural-openness-affordability",
+  "title": "Travel and tourism conditions are recovering and becoming more culturally and digitally enabled, while affordability, workforce, investment, and sustainability pressures constrain who benefits",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "World Economic Forum, Travel & Tourism Development Index 2026",
+  "geography": "110 economies ranked on the conditions enabling sustainable and resilient travel and tourism development; 2024–2026 comparison with global 2025 context",
+  "observations": [
+    {
+      "period": "2024–2026; global Travel & Tourism Development Index conditions",
+      "denominator": {"value": 110, "unit": "economies ranked in the WEF Travel & Tourism Development Index", "value_type": "global_index_economy_count"},
+      "measures": {
+        "pillars_improved": {"value": 14, "unit": "of 17 TTDI pillars improved between 2024 and 2026", "value_type": "reported_index_change"},
+        "average_score_change": {"value": 2, "unit": "percent approximate average increase in TTDI scores", "value_type": "reported_index_change"},
+        "economies_improved": {"value": 92, "unit": "percent of ranked economies with higher overall TTDI scores", "value_type": "reported_index_share"},
+        "recovery_comparison": {"value": "the 2024–2026 improvement was the fastest pace since 2019 and stronger than the prior reporting cycle", "unit": "reported comparative pattern", "value_type": "reported_pattern"}
+      },
+      "method": "WEF composite index of the enabling conditions for sustainable and resilient travel and tourism development, using cross-economy indicators across 17 pillars.",
+      "uncertainty": "The TTDI measures enabling conditions rather than visitor volumes, traveler welfare, resident wellbeing, or distribution of tourism benefits; score changes can reflect data revisions, indicator movement, and differences in national capacity.",
+      "subgroup": "Tourism-dependent economies, destinations, residents, workers, visitors, firms, governments, transport providers, hospitality providers, and cultural or natural-resource managers.",
+      "counterinterpretation": "Improved enabling conditions can support recovery and resilience without causing higher visitor welfare or inclusive local outcomes; some destinations may intentionally limit growth despite strong capacity.",
+      "source_url": "https://www.weforum.org/publications/travel-tourism-development-index-2026/",
+      "retrieval_hash": "sha256:bd5839dd70fa09ac12cc735bbbaa4858696e989eeeca37b04dbe8b02a7de0ddb",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; cultural resources, experience demand, and digital access",
+      "denominator": {"value": 110, "unit": "economies ranked in the TTDI cultural, natural, non-leisure, and digital-enablement pillars", "value_type": "global_tourism_capability_frame"},
+      "measures": {
+        "cultural_resources_change": {"value": 9.6, "unit": "percent average increase in the Cultural Resources pillar", "value_type": "reported_index_change"},
+        "economies_with_cultural_improvement": {"value": 95, "unit": "percent or more of economies recording higher Cultural Resources scores", "value_type": "reported_index_share"},
+        "experience_search_demand": {"value": 15, "unit": "percent increase in online demand for cultural and entertainment attractions between 2024 and 2026", "value_type": "reported_digital_demand_change"},
+        "ict_readiness": {"value": 91, "unit": "percent of economies recording higher ICT Readiness scores", "value_type": "reported_index_share"},
+        "cultural_route": {"value": "gastronomy, heritage sites, museums, festivals, local traditions, and performing arts are becoming more visible in travel discovery and experience demand", "unit": "reported cultural-consumption mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WEF TTDI pillar analysis combined with an online-search indicator for cultural and entertainment attractions and digital-readiness measures.",
+      "uncertainty": "Search activity and index scores are proxies for cultural demand and destination capability; they do not establish actual visitation, local cultural ownership, resident consent, or equitable revenue distribution.",
+      "subgroup": "Cultural organizations, heritage communities, local residents, visitors, tourism workers, digital platforms, destination managers, and rural or less-visible destinations.",
+      "counterinterpretation": "Increased cultural visibility can support preservation, local enterprise, and cross-cultural exchange, but it can also intensify crowding, commodification, displacement, or pressure on fragile heritage.",
+      "source_url": "https://www.weforum.org/publications/travel-tourism-development-index-2026/",
+      "retrieval_hash": "sha256:bd5839dd70fa09ac12cc735bbbaa4858696e989eeeca37b04dbe8b02a7de0ddb",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; openness, affordability, investment, and workforce constraints",
+      "denominator": {"value": 110, "unit": "economies ranked in the TTDI openness, price competitiveness, investment, and tourism workforce indicators", "value_type": "tourism_access_constraint_frame"},
+      "measures": {
+        "openness_change": {"value": 1.8, "unit": "percent increase in the Openness to Travel & Tourism pillar", "value_type": "reported_index_change"},
+        "hospitality_reputation_change": {"value": 7.2, "unit": "percent increase in the reputation for hospitality indicator", "value_type": "reported_index_change"},
+        "price_competitiveness_decline": {"value": 75, "unit": "approximately percent of ranked economies with declining Price Competitiveness", "value_type": "reported_index_share"},
+        "constraint_route": {"value": "travel costs, investment gaps, workforce shortages, and skills gaps can limit service quality, destination access, and the sector's ability to grow and adapt", "unit": "reported constraint mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WEF comparison of TTDI openness, price competitiveness, investment, labor-market, skills, and hospitality-reputation indicators.",
+      "uncertainty": "Composite indicators do not identify the incidence of travel exclusion for specific households, the cause of price changes, or whether workforce shortages reflect pay, migration, training, working conditions, or demand volatility.",
+      "subgroup": "Lower-income travelers, tourism workers, destination residents, small tourism firms, transport and hospitality providers, and economies dependent on international visitors.",
+      "counterinterpretation": "Higher prices can reflect quality, congestion management, or internalized environmental costs; improved wages and skills could raise service costs while improving worker conditions.",
+      "source_url": "https://www.weforum.org/publications/travel-tourism-development-index-2026/",
+      "retrieval_hash": "sha256:bd5839dd70fa09ac12cc735bbbaa4858696e989eeeca37b04dbe8b02a7de0ddb",
+      "status": "reported"
+    },
+    {
+      "period": "2025; global tourism scale, jobs, and distributional pressure",
+      "denominator": {"value": 1, "unit": "global travel and tourism economy measured in WEF 2026 context", "value_type": "global_tourism_economy_frame"},
+      "measures": {
+        "international_arrivals": {"value": 1500000000, "unit": "international tourist arrivals in 2025", "value_type": "reported_global_arrivals"},
+        "economic_contribution": {"value": 11.6, "unit": "USD trillion total direct, indirect, and induced travel-and-tourism contribution in 2025", "value_type": "reported_global_economic_contribution"},
+        "jobs_supported": {"value": 366000000, "unit": "jobs supported worldwide in 2025, approximately one in nine jobs", "value_type": "reported_global_jobs"},
+        "distribution_pressure": {"value": "tourism benefits weakened between 2024 and 2026 while crowding and concentrated visitor demand remained above pre-pandemic levels", "unit": "reported distributional and sustainability pressure", "value_type": "reported_limitation"},
+        "management_route": {"value": "the sector's central challenge is shifting from recovery toward managed growth that balances economic, social, cultural, and environmental outcomes", "unit": "reported policy mechanism", "value_type": "reported_policy_route"}
+      },
+      "method": "WEF global tourism context and TTDI analysis of the scale, enabling conditions, and sustainability pressures surrounding travel and tourism.",
+      "uncertainty": "Economic contribution and jobs include direct, indirect, and induced effects and do not show job quality, local retention, resident costs, carbon intensity, or who captures tourism income.",
+      "subgroup": "Tourism workers, destination residents, visitors, small businesses, major tourism firms, cultural institutions, public authorities, and communities exposed to crowding or environmental stress.",
+      "counterinterpretation": "Tourism can diversify local economies, support cultural preservation, and create jobs; crowding and unequal benefits are management problems that vary sharply by place and season.",
+      "source_url": "https://www.weforum.org/publications/travel-tourism-development-index-2026/",
+      "retrieval_hash": "sha256:bd5839dd70fa09ac12cc735bbbaa4858696e989eeeca37b04dbe8b02a7de0ddb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en.html", "claim": "Complementary OECD tourism policy and country-profile evidence on resilience, social benefits, climate adaptation, and governance."},
+    {"source_url": "https://www.unesco.org/en/culture/global-report", "claim": "Complementary UNESCO cultural-policy context for heritage, cultural participation, and creative-sector governance."}
+  ],
+  "boundary": "This record adds a travel-and-tourism route across cultural attraction, mobility openness, digital readiness, affordability, infrastructure, workforce capacity, tourism jobs, crowding, and distribution of benefits. It uses WEF composite indicators and aggregate sector estimates, not individual travel histories, household affordability calculations, resident displacement records, worker wage or job-quality data, visitor-level cultural preferences, causal tourism impacts, or proof that higher index scores produce inclusive development.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WEF Travel & Tourism Development Index 2026 publication pages reviewed for overall score changes, cultural resources, digital readiness, openness, hospitality reputation, affordability, tourism scale, jobs, and distributional/sustainability pressures.",
+    "source_url_sha256": "sha256:bd5839dd70fa09ac12cc735bbbaa4858696e989eeeca37b04dbe8b02a7de0ddb",
+    "checked": "2026-09-26"
+  }
+}

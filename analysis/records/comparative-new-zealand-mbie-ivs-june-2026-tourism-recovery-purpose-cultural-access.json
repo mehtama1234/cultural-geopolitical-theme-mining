@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-new-zealand-mbie-ivs-june-2026-tourism-recovery-purpose-cultural-access",
+  "title": "New Zealand visitor recovery reaches near-pre-pandemic spend while travel purpose and market composition shift",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "New Zealand Ministry of Business, Innovation and Employment International Visitor Survey, year ending June 2026 release",
+  "geography": "New Zealand; international visitors aged 15+ excluding foreign-fee-paying students, with market and travel-purpose breakdowns",
+  "observations": [
+    {
+      "period": "Year ending June 2026 compared with year ending June 2019; international visitor recovery",
+      "denominator": {"value": 9071, "unit": "International Visitor Survey achieved sample for the 2025/26 financial year; annual target 8,900", "value_type": "survey_sample_frame"},
+      "measures": {
+        "visitor_arrivals_vs_2019": {"value": 94, "unit": "percent of year-ending-June-2019 international visitor arrivals", "value_type": "reported_recovery_index"},
+        "real_visitor_spend_vs_2019": {"value": 98, "unit": "percent of year-ending-June-2019 international visitor expenditure after inflation adjustment", "value_type": "reported_recovery_index"},
+        "visitor_count": {"value": 3.67, "unit": "million international visitors in the year ending June 2026", "value_type": "reported_total"},
+        "mechanism": {"value": "Visitor volumes and real spend can recover at different speeds; near-recovery of spend does not imply equal regional dispersal, local benefit, or cultural-sector value capture", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MBIE International Visitor Survey rolling annual estimates, with visitor expenditure adjusted for inflation when compared with 2019; the survey measures expenditure, characteristics, behaviours, activities, satisfaction, transport, accommodation, and cultural experiences.",
+      "uncertainty": "The survey is designed for national estimates; regional expenditure breakdowns are not produced. Annual market estimates have different relative margins of error, and the 2024 series was recalibrated using a revised weighting approach affecting comparability, especially for China and Rest of Asia.",
+      "subgroup": "International visitors aged 15+ to New Zealand, excluding foreign-fee-paying students; market-level annual estimates include Australia, UK, USA, Rest of Europe, Asia, Germany, Canada, Rest of World, and China.",
+      "counterinterpretation": "Real spend near 2019 can reflect prices, visitor composition, length of stay, and high-spending segments rather than broad-based recovery in visitor access or local cultural economies.",
+      "source_url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/international-visitor-survey-ivs/international-visitor-survey-data-release-materials",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "Year ending June 2026 compared with 2019; stated purpose of international visit",
+      "denominator": {"value": 9071, "unit": "International Visitor Survey annual sample frame; purpose shares are visitor-level weighted estimates", "value_type": "survey_sample_frame"},
+      "measures": {
+        "holiday_vacation_purpose": {"value": 53, "unit": "percent of international visitors whose purpose was holiday/vacation", "value_type": "weighted_survey_share"},
+        "holiday_vacation_2019": {"value": 51, "unit": "percent of international visitors whose purpose was holiday/vacation in 2019", "value_type": "reported_comparison"},
+        "visiting_friends_relatives_change": {"value": 2, "unit": "percentage-point increase in visiting-friends-and-relatives share from 2019", "value_type": "reported_change"},
+        "market_recovery": {"value": "Australia and USA visitor volumes each reached 105% of their 2019 levels; China and Rest of Asia estimates were affected by recalibration of earlier published expenditure attribution", "unit": "reported market pattern", "value_type": "reported_distribution"},
+        "mechanism": {"value": "Tourism recovery is not a single demand type: holiday, visiting-friends/relatives, and market-specific flows imply different accommodation, mobility, cultural, and local-spending pathways", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from MBIE IVS year-ending-June-2026 release materials, using weighted visitor purpose and market estimates.",
+      "uncertainty": "Purpose is self-reported and visitor-level; it does not measure trip quality, cultural attendance, local spending distribution, or whether purpose changes are permanent. Comparisons inherit survey redesign, post-pandemic travel-pattern, and weighting limitations.",
+      "subgroup": "International visitors by stated travel purpose and country/region of residence.",
+      "counterinterpretation": "A higher holiday share can coexist with shorter stays, concentrated itineraries, high prices, or lower regional dispersal; visiting friends and relatives may shift expenditure toward households rather than formal tourism providers.",
+      "source_url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/international-visitor-survey-ivs/international-visitor-survey-data-release-materials",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 quarter and year ending June 2026; survey quality and cultural/visitor-experience scope",
+      "denominator": {"value": 1893, "unit": "June 2026 quarter achieved sample; annual and quarterly estimates have separate precision", "value_type": "survey_sample_frame"},
+      "measures": {
+        "annual_relative_margin_of_error_total": {"value": 3.9, "unit": "percent relative margin of error for total year-ending-June-2026 estimate", "value_type": "reported_quality_metric"},
+        "quarterly_response_rate": {"value": 24, "unit": "percent response rate for the June 2026 quarter", "value_type": "reported_quality_metric"},
+        "quarterly_total_relative_margin_of_error": {"value": 7.7, "unit": "percent relative margin of error for total June 2026 quarter estimate", "value_type": "reported_quality_metric"},
+        "cultural_experience_scope": {"value": "The release includes measures for Māori cultural experiences, visitor satisfaction, environment perceptions, activities, transport, accommodation, and product spend", "unit": "reported measurement scope", "value_type": "reported_scope"},
+        "mechanism": {"value": "Visitor recovery can be evaluated through spending, cultural experience, satisfaction, environment, and mobility measures rather than arrivals alone, but quarterly precision limits fine-grained inference", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MBIE IVS quality and release-material documentation for annual and June-quarter 2026 estimates.",
+      "uncertainty": "Quarterly estimates have materially higher error than annual estimates; cultural-experience measures are survey responses and do not establish provider revenue, Māori community benefit, cultural authenticity, or durable learning.",
+      "subgroup": "International visitors surveyed in the June 2026 quarter and year-ending annual sample.",
+      "counterinterpretation": "A high satisfaction or cultural-experience response can coexist with uneven access, environmental pressure, or concentrated tourism benefits; survey quality metrics do not resolve those distributional questions.",
+      "source_url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/international-visitor-survey-ivs/survey-quality",
+      "retrieval_hash": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/international-visitor-survey-ivs", "claim": "MBIE IVS purpose, scope, methodology, recalibration, and release navigation."},
+    {"source_url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/international-visitor-survey-ivs/international-visitor-survey-data-release-materials", "claim": "Year-ending June 2026 recovery, visitor purpose, market, cultural-experience, and spend findings."},
+    {"source_url": "https://www.mbie.govt.nz/immigration-and-tourism/tourism-research-and-data/tourism-data-releases/international-visitor-survey-ivs/survey-quality", "claim": "Annual and quarterly sample sizes, response rates, relative margins of error, and quality cautions."}
+  ],
+  "boundary": "This record adds an international mobility, visitor-spend, purpose, and cultural-experience layer. It does not establish household consumer trends, regional distribution of tourism benefits, local cultural-sector income, visitor causality, environmental impact, or Māori community outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "MBIE IVS release materials and survey-quality pages reviewed for year-ending June 2026 arrivals, inflation-adjusted spend recovery, purpose mix, market recovery, cultural-experience scope, sample size, response rate, margins of error, and recalibration limits.",
+    "materials_html_sha256": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "quality_html_sha256": "sha256:d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-unitar-plastic-flow-statistics-2026-circular-economy",
+  "title": "Plastic consumption and waste require a common life-cycle accounting system before circular-economy policy can be compared",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNEP and UNITAR, Statistical Guideline for Measuring Flows of Plastic throughout the Life Cycle",
+  "geography": "National, regional, and global plastic production, trade, consumption, and waste statistics",
+  "observations": [
+    {
+      "period": "2026 publication; plastic-flow measurement gap",
+      "denominator": {"value": 1, "unit": "global, regional, and national plastic-flow statistical system", "value_type": "statistical_system_frame"},
+      "measures": {
+        "measurement_gap": {"value": "A detailed, globally agreed methodology for measuring plastic flows has been lacking", "unit": "reported statistical gap", "value_type": "reported_gap"},
+        "life_cycle_scope": {"value": "The guideline covers production, trade, consumption, and waste across the plastic life cycle", "unit": "reported accounting scope", "value_type": "reported_scope"},
+        "policy_relevance": {"value": "Comparable plastic statistics are intended to support circular-economy, source-inventory, waste-management, and SDG policymaking", "unit": "reported policy use set", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UNEP-UNITAR statistical guidance developed with international organizations, national statistical offices, ministries, academia, research institutes, and other Member State experts, aligned to international standards and available data sources.",
+      "uncertainty": "The guideline is a first step and states that some aspects require further discussion and refinement; availability, quality, and comparability of national data remain open.",
+      "subgroup": "Statistical offices, environmental agencies, producers, traders, consumers, waste managers, workers, communities, and policymakers.",
+      "counterinterpretation": "Existing national data may support useful action before full global comparability, and a common methodology can still miss informal, illegal, or poorly documented flows.",
+      "source_url": "https://www.unep.org/resources/report/statistical-guideline-measuring-flows-plastic-throughout-life-cycle",
+      "retrieval_hash": "sha256:162194a0a6a89c5bbb0bdc4e024fc0b1dbd7dabd37f8c4dfa3a132b4f2271cc4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; production-to-waste accounting chain",
+      "denominator": {"value": 1, "unit": "plastic life-cycle accounting framework", "value_type": "material_flow_frame"},
+      "measures": {
+        "boundary_definition": {"value": "The guideline defines boundaries, key terms, concepts, and main accounting elements for plastic flows", "unit": "reported methodological function", "value_type": "reported_method"},
+        "flow_stages": {"value": "Production, international and domestic trade, consumption, use, collection, treatment, and waste are connected as a life-cycle system", "unit": "reported analytical chain", "value_type": "reported_framework"},
+        "linear_economy": {"value": "Plastic production and consumption continue to operate in a predominantly linear economy with insufficient waste management", "unit": "reported structural pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Life-cycle statistical framework intended to make material boundaries and flow stages explicit and comparable across national, regional, and global accounts.",
+      "uncertainty": "Accounting for a flow does not establish environmental harm, exposure, recycling quality, worker conditions, or consumer welfare at each stage; definitions and loss estimates can still vary.",
+      "subgroup": "Plastic-producing sectors, importers and exporters, retailers, households, waste workers, municipalities, recyclers, and communities near production or disposal sites.",
+      "counterinterpretation": "A linear flow can include products with long service lives or technically recoverable materials; the statistical pattern is not itself a complete measure of circularity or harm.",
+      "source_url": "https://www.unep.org/resources/report/statistical-guideline-measuring-flows-plastic-throughout-life-cycle",
+      "retrieval_hash": "sha256:162194a0a6a89c5bbb0bdc4e024fc0b1dbd7dabd37f8c4dfa3a132b4f2271cc4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; consumer and producer accountability",
+      "denominator": {"value": 1, "unit": "plastic-flow policy and market-information frame", "value_type": "policy_accounting_frame"},
+      "measures": {
+        "consumer_visibility": {"value": "Life-cycle statistics can make the material consequences of consumption more visible beyond point-of-sale demand", "unit": "analytic transmission route", "value_type": "program_mechanism"},
+        "producer_visibility": {"value": "Comparable flow accounting can clarify sector and supply-chain responsibility for production, trade, and waste", "unit": "analytic accountability route", "value_type": "program_mechanism"},
+        "policy_choice": {"value": "Better flow data can support decisions on source reduction, product design, reuse, recycling, waste infrastructure, and regulation", "unit": "reported policy route", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UNEP-UNITAR translation of statistical definitions into national and regional policy use for circular economy and plastic-waste management.",
+      "uncertainty": "Information visibility does not guarantee behavior change, producer responsibility, affordable alternatives, enforcement, or reduced plastic pollution.",
+      "subgroup": "Consumers, firms, regulators, public-procurement bodies, waste authorities, informal waste workers, and communities affected by plastic leakage.",
+      "counterinterpretation": "Data-driven regulation can shift costs to consumers or small firms and can privilege formal actors if informal recycling and repair work are not counted.",
+      "source_url": "https://www.unep.org/resources/report/statistical-guideline-measuring-flows-plastic-throughout-life-cycle",
+      "retrieval_hash": "sha256:162194a0a6a89c5bbb0bdc4e024fc0b1dbd7dabd37f8c4dfa3a132b4f2271cc4",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; evidence infrastructure and governance",
+      "denominator": {"value": 1, "unit": "plastic statistics production and governance capacity frame", "value_type": "data_governance_frame"},
+      "measures": {
+        "institutional_users": {"value": "Statistical offices and other organizations responsible for producing official plastics statistics are primary intended users", "unit": "reported user set", "value_type": "reported_institutional_scope"},
+        "comparability": {"value": "The guideline aims to produce high-quality statistics comparable across countries, regions, and the global level", "unit": "reported statistical objective", "value_type": "reported_objective"},
+        "future_revision": {"value": "Application is expected to generate learning and future refinement of the methodology", "unit": "reported implementation expectation", "value_type": "reported_implementation_boundary"}
+      },
+      "method": "International statistical standard-setting and methodological guidance, with national application expected to test definitions, data sources, and accounting practice.",
+      "uncertainty": "The publication does not provide a global implementation rate, country-by-country data quality score, causal effect of adoption, or proof that comparable statistics are already available.",
+      "subgroup": "National statistical systems, environmental ministries, customs and trade agencies, local governments, researchers, civil society, and affected communities.",
+      "counterinterpretation": "Standardization can improve accountability but can also create reporting burdens, reduce attention to local knowledge, or delay action while methods are being harmonized.",
+      "source_url": "https://www.unep.org/resources/report/statistical-guideline-measuring-flows-plastic-throughout-life-cycle",
+      "retrieval_hash": "sha256:162194a0a6a89c5bbb0bdc4e024fc0b1dbd7dabd37f8c4dfa3a132b4f2271cc4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/resources/state-finance-nature-2026", "claim": "Complementary UNEP finance-flow evidence on nature-negative capital and environmental transition."},
+    {"source_url": "https://www.unep.org/resources/report/data-impact-measuring-progress-through-disaggregated-sdg-indicators", "claim": "Complementary UNEP guidance on disaggregated environmental indicators and localized action."}
+  ],
+  "boundary": "This record adds a plastic life-cycle accounting, consumer-production, waste-infrastructure, and circular-economy governance route. It uses a statistical guideline, not a completed global dataset, individual purchase histories, household exposure records, project-level pollution outcomes, causal behavior effects, or proof that standardization produces lower plastic waste.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNEP publication page reviewed for the 2026 date, measurement gap, life-cycle boundaries, production-trade-consumption-waste accounting, international statistical alignment, national comparability, policy uses, and first-step/refinement caveat.",
+    "source_url_sha256": "sha256:162194a0a6a89c5bbb0bdc4e024fc0b1dbd7dabd37f8c4dfa3a132b4f2271cc4",
+    "checked": "2026-09-26"
+  }
+}

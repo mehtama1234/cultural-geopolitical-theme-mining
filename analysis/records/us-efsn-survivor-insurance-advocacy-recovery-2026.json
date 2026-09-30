@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-efsn-survivor-insurance-advocacy-recovery-2026",
+  "title": "Survivor-organized insurance evidence is converting delayed recovery into collective legal and political power while household representativeness remains open",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["housing_place_mobility", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "Every Fire Survivor's Network public advocacy and survey pages; survivor-account aggregation, network claims, and recovery assertions are retained as separate source-defined units",
+  "geography": "Los Angeles County Eaton and Palisades fire-survivor network; California insurance accountability and recovery",
+  "observations": [
+    {
+      "period": "September 2026; EFSN public account of State Farm evidence",
+      "denominator": {"value": 1600, "unit": "survivor accounts about State Farm delays, denials, and underpayments reported by EFSN as evidence brought to Los Angeles County", "value_type": "source_claimed_account_count"},
+      "measures": {
+        "institutional_conversion": {"value": "accounts were used to help power a Los Angeles County lawsuit seeking restitution", "unit": "reported advocacy-to-litigation route", "value_type": "reported_institutional_response"},
+        "intended_outcomes": {"value": "underinsurance, claims misconduct, delays, denials, customer satisfaction, trust, and insurer-by-insurer performance", "unit": "planned survey outcome domains", "value_type": "reported_research_scope"},
+        "household_recovery": {"value": "not identified for the 1,600 accounts", "unit": "no public respondent-level payment, repair, occupancy, debt, or mobility linkage", "value_type": "unmeasured"}
+      },
+      "method": "EFSN public advocacy page reporting on survivor accounts and their use in legal and policy action; the account count is retained as an organization-reported advocacy universe, not a probability sample or verified administrative file.",
+      "uncertainty": "The public page does not provide the account-level dataset, recruitment frame, duplicate handling, response rate, weighting, insurer denominators, claim-document verification, or the share whose outcomes improved after advocacy.",
+      "subgroup": "Eaton and Palisades survivors contributing accounts, including homeowners, renters, FAIR Plan policyholders, smoke-damage survivors, underinsured households, and uninsured households; composition is not publicly quantified.",
+      "counterinterpretation": "A survivor-led account collection may surface harms missed by official data and create collective power, but people with the time, trust, language access, or motivation to contribute may differ from the full survivor population.",
+      "source_url": "https://www.efsurvivors.net/blog/tonight-at-7p-lets-talk-insurance-utility-accountability",
+      "retrieval_hash": "sha256:6212a0c1da6d178e9bf7c54b34a32dfe6276cc6f45f9ee4331bdd90536045512",
+      "status": "reported"
+    },
+    {
+      "period": "Current EFSN homepage; rechecked September 29, 2026",
+      "denominator": {"value": null, "unit": "EFSN survivor and ally network; homepage reports network and recovery claims without a published survey denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "survivors_not_home": {"value": 70, "unit": "percent; EFSN homepage statement that 7 in 10 Los Angeles fire survivors are still not home", "value_type": "source_claimed_share"},
+        "new_debt_waiting_for_recovery": {"value": 50, "unit": "approximate percent; EFSN homepage statement that survivors have taken on new debt while waiting for recovery funds", "value_type": "source_claimed_share"},
+        "delayed_payments_moved": {"value": 100000000, "unit": "dollars-plus; EFSN claim of previously stalled insurance payments moved to families", "value_type": "source_claimed_aggregate"},
+        "network_capacity": {"value": 10000, "unit": "survivors and allies reported connected to EFSN", "value_type": "source_claimed_network_count"},
+        "verified_household_recovery": {"value": "not established", "unit": "homepage claims are not a public microdata file or independently verified longitudinal household panel", "value_type": "unmeasured"}
+      },
+      "method": "EFSN homepage statements rechecked September 29, 2026; network-capacity, debt, return-home, and payment-movement claims are retained as advocacy-source claims and are not pooled with California Department of Insurance claims or LA County permit denominators.",
+      "uncertainty": "The homepage does not state the sampling frame, field dates, denominator, question wording, weighting, verification method, or whether the 7-in-10 and debt figures refer to survey respondents, network members, or a broader survivor estimate.",
+      "subgroup": "Los Angeles fire survivors and EFSN-connected survivors/allies; the public page does not establish population coverage or subgroup comparability.",
+      "counterinterpretation": "Advocacy estimates can make hidden household burdens politically visible and may reflect real unmet recovery, while their uncertainty and selection limits prevent treating them as prevalence estimates.",
+      "source_url": "https://www.efsurvivors.net/",
+      "retrieval_hash": "sha256:e3d2e5d17a3b3f6988d55170545ec544928b74186ae01f6d0c01c7b00e744f5a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.efsurvivors.net/firesurvey", "claim": "EFSN describes the survey's planned public-use insurer comparisons and one-response-per-household invitation.", "status": "official-context"},
+    {"source_url": "https://www.efsurvivors.net/s/080226-EFSN-Insurance-Survey-Data-Handling-and-Management-Policy.pdf", "claim": "EFSN data-handling policy separates raw, analytic, public-use, contact/advocacy, and qualitative files and requires disclosure review.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes survivor-organized evidence production, reported collective recovery claims, and a conversion route from lived insurance problems to litigation, legislation, and regulatory pressure. It does not establish representative survivor prevalence, verified claim adequacy, payment timing, safe occupancy, debt causation, household mobility, or that advocacy claims equal administrative outcomes.",
+  "reproduction_audit": {"retrieval_hash_scope": "EFSN public advocacy page and homepage retrieved and hashed September 29, 2026; source-defined claims are preserved without pooling across denominators.", "checked": "2026-09-29"}
+}

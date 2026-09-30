@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-kettering-democracy-for-all-2026-local-national-legitimacy-frustration",
+  "title": "Americans retain commitment to democracy while national performance and accountability decline, producing a local-national legitimacy split",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Gallup and Charles F. Kettering Foundation, Democracy for All Project: Frustration Rises, Commitment Endures",
+  "geography": "United States adults, with national and local democratic assessments and subgroup analysis in a large 2026 survey",
+  "observations": [
+    {
+      "period": "April 24-June 10, 2026; national democratic performance and commitment",
+      "denominator": {"value": 23683, "unit": "U.S. adults surveyed by Gallup for the Democracy for All Project", "value_type": "reported_survey_sample"},
+      "measures": {
+        "national_democracy_poor": {"value": 56, "unit": "percent saying U.S. democracy is doing very or moderately poorly", "value_type": "published_survey_estimate"},
+        "national_democracy_well": {"value": 19, "unit": "percent saying U.S. democracy is doing very or moderately well", "value_type": "published_survey_estimate"},
+        "local_democracy_well": {"value": 34, "unit": "percent saying democracy in their own city or town is doing very or moderately well", "value_type": "published_survey_estimate"},
+        "local_democracy_poor": {"value": 21, "unit": "percent saying democracy in their own city or town is doing very or moderately poorly", "value_type": "published_survey_estimate"},
+        "local_national_gap": {"value": "Local democratic experience is evaluated more positively than national democratic performance.", "unit": "reported comparative pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Gallup survey of 23,683 U.S. adults fielded April 24-June 10, 2026; reported margin of sampling error is plus or minus one percentage point at the 95 percent confidence level.",
+      "uncertainty": "The cross-sectional survey measures perceptions, not institutional performance audits, local policy outcomes, causal effects, or actual participation. The local-national difference may reflect scale, information, partisan evaluation, or direct experience.",
+      "subgroup": "U.S. adults, with national and local comparisons; the public page does not provide every subgroup denominator in the summary.",
+      "counterinterpretation": "Local positivity can coexist with national distrust because residents know local actors more directly or use different standards; it does not prove that local institutions are more accountable or effective.",
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "retrieval_hash": "sha256:58b642150a652a6f80c6dec138e903614acd8520ecb4c87d573977ac76a89085",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; democratic trajectory and institutional accountability",
+      "denominator": {"value": 23683, "unit": "U.S. adults surveyed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "democracy_weaker_50_years": {"value": 60, "unit": "percent saying U.S. democracy was much or somewhat stronger 50 years ago than today", "value_type": "published_survey_estimate"},
+        "future_weaker": {"value": 45, "unit": "percent expecting U.S. democracy to become much or somewhat weaker over the next 50 years", "value_type": "published_survey_estimate"},
+        "future_stronger": {"value": 31, "unit": "percent expecting U.S. democracy to become much or somewhat stronger over the next 50 years", "value_type": "published_survey_estimate"},
+        "leaders_held_accountable": {"value": 28, "unit": "percent trusting that political leaders will be held accountable to the nation's laws and Constitution", "value_type": "published_survey_estimate"},
+        "trajectory_mechanism": {"value": "Democratic commitment persists alongside pessimistic historical and future trajectory judgments and weak confidence in constitutional accountability.", "unit": "reported synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive survey estimates from the Democracy for All Project summary.",
+      "uncertainty": "Expectations and retrospective comparisons are not forecasts or historical institutional measures; trust in accountability does not identify which actors, cases, or mechanisms drive the judgment.",
+      "subgroup": "U.S. adults across political and demographic groups; detailed subgroup patterns require the full report or dataset.",
+      "counterinterpretation": "Pessimistic trajectory judgments may coexist with democratic commitment because people distinguish democratic ideals from current officeholders or institutional performance.",
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "retrieval_hash": "sha256:58b642150a652a6f80c6dec138e903614acd8520ecb4c87d573977ac76a89085",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; rule-of-law and branch-power judgments",
+      "denominator": {"value": 23683, "unit": "U.S. adults surveyed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "rule_of_law_weaker": {"value": 56, "unit": "percent saying the rule of law is weaker than 10 years ago, compared with 14 percent saying stronger", "value_type": "published_survey_estimate"},
+        "executive_power_too_high": {"value": 59, "unit": "percent saying the executive branch has too much power", "value_type": "published_survey_estimate"},
+        "judicial_power_too_high": {"value": 38, "unit": "percent saying the judicial branch has too much power", "value_type": "published_survey_estimate"},
+        "legislative_power_too_high": {"value": 34, "unit": "percent saying the legislative branch has too much power", "value_type": "published_survey_estimate"},
+        "equal_treatment_poor": {"value": 60, "unit": "percent rating how well all people are treated equally under the law as very or moderately poorly, up from 55 percent", "value_type": "published_survey_estimate"}
+      },
+      "method": "Large-sample Gallup/Kettering survey summary of institutional and rule-of-law perceptions.",
+      "uncertainty": "These are public judgments, not constitutional adjudications or branch-level power measurements; perceptions can be partisan, issue-specific, and event-sensitive.",
+      "subgroup": "U.S. adults; summary page does not provide full subgroup denominators for each institutional measure.",
+      "counterinterpretation": "Concern about executive power can reflect checks-and-balances preferences rather than generalized democratic collapse; equal-treatment ratings may be driven by salient cases or media environments.",
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "retrieval_hash": "sha256:58b642150a652a6f80c6dec138e903614acd8520ecb4c87d573977ac76a89085",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; local trust as a democratic buffer",
+      "denominator": {"value": 23683, "unit": "U.S. adults surveyed", "value_type": "reported_survey_sample"},
+      "measures": {
+        "local_trust_mechanism": {"value": "Americans who trust local leaders and neighbors view democracy more positively at both local and national levels.", "unit": "reported association in project summary", "value_type": "reported_association"},
+        "inclusion_fairness_opportunity": {"value": "The project frames democratic experience through inclusion, fairness, opportunity, ordinary people's ability to create positive change, and sensitivity of elected leaders to local needs.", "unit": "reported conceptual framework", "value_type": "reported_framework"},
+        "participation_boundary": {"value": "The summary identifies commitment and participation as necessary to democratic realization but does not report observed participation, organized action, policy influence, or remedy.", "unit": "analytical boundary", "value_type": "analytical_boundary"}
+      },
+      "method": "Review of the Gallup/Kettering project description and 2026 report summary; association is retained separately from causal or behavioral evidence.",
+      "uncertainty": "The public summary does not establish whether local trust causes better national democratic evaluations, whether neighbors and leaders are trusted for the same reasons, or which interventions build trust.",
+      "subgroup": "U.S. adults with variation in local experience, place, political identity, and social connection; detailed estimates require the full data release.",
+      "counterinterpretation": "People who are generally more trusting may rate both local and national democracy more positively, producing a common-attitude association rather than a local institutional buffer.",
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "retrieval_hash": "sha256:58b642150a652a6f80c6dec138e903614acd8520ecb4c87d573977ac76a89085",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "claim": "Gallup and the Kettering Foundation's September 2026 Democracy for All publication reports the survey sample, national/local democratic evaluations, institutional accountability judgments, and local-trust framing.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://kettering.org/what-we-do/democracy-for-all/",
+      "claim": "The Kettering Foundation context for the Democracy for All project emphasizes citizens' experience, inclusion, fairness, opportunity, and democratic participation.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a local-national democratic-legitimacy route: commitment to democratic ideals can coexist with declining national performance judgments, weak accountability confidence, rule-of-law concern, and stronger local evaluations. It does not establish institutional failure, causal local buffering, actual participation, policy influence, or durable democratic recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup Democracy for All publication page was reviewed for the 2026 sample and field dates, national and local performance assessments, trajectory judgments, accountability, branch-power, equal-treatment, and local-trust findings.",
+    "source_page_sha256": "sha256:58b642150a652a6f80c6dec138e903614acd8520ecb4c87d573977ac76a89085",
+    "checked": "2026-09-28"
+  }
+}

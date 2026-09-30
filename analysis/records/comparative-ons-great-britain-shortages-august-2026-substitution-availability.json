@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-great-britain-shortages-august-2026-substitution-availability",
+  "title": "Great Britain household shopping absorbs shortages through extra cost, substitution and search effort",
+  "theme_ids": ["cost", "time", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UK Office for National Statistics, Public opinions and social trends, Great Britain: personal experiences of shortages of goods, 5 to 30 August 2026",
+  "geography": "Great Britain; adults aged 16 years and over living in private households",
+  "observations": [
+    {
+      "period": "5 to 30 August 2026; food-shopping experience in the prior two weeks",
+      "denominator": {"value": 3540, "unit": "responding adults aged 16+ in the ONS Opinions and Lifestyle Survey item", "value_type": "reported_survey_sample"},
+      "measures": {
+        "spent_more": {"value": 45, "unit": "percent saying they had to spend more than usual to get what they normally buy", "value_type": "reported_share"},
+        "less_variety": {"value": 23, "unit": "percent reporting less variety in shops than usual", "value_type": "reported_share"},
+        "more_shops": {"value": 18, "unit": "percent saying they had to go to more shops than usual", "value_type": "reported_share"},
+        "online_substitution": {"value": 5, "unit": "percent saying they had to shop online to get what they normally buy", "value_type": "reported_share"}
+      },
+      "method": "ONS Opinions and Lifestyle Survey, weighted estimates with published 95% confidence intervals; multiple responses were permitted.",
+      "uncertainty": "The survey measures self-reported experiences in a two-week window; it does not identify causes, price amounts, food quality, household income, transaction records or duration beyond the question period.",
+      "subgroup": "Great Britain adults aged 16 years and over; the workbook also provides age, sex and other breakdowns.",
+      "counterinterpretation": "Spending more can reflect price changes, product choice, quality substitution or one-off shopping conditions; more shopping can be voluntary as well as scarcity-driven.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalexperiencesofshortagesofgoods",
+      "retrieval_hash": "sha256:f579bd74e4c744373c2a6795ba20bdbe502b7cac45f6991d87b5e3bac93a8691",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; food-shopping behaviour in the prior two weeks",
+      "denominator": {"value": 3540, "unit": "responding adults aged 16+ in the ONS Opinions and Lifestyle Survey item", "value_type": "reported_survey_sample"},
+      "measures": {
+        "buying_less": {"value": 37, "unit": "percent saying they were buying less", "value_type": "reported_share"},
+        "buying_more": {"value": 4, "unit": "percent saying they were buying more", "value_type": "reported_share"},
+        "habits_unchanged": {"value": 60, "unit": "percent saying shopping habits had not changed", "value_type": "reported_share"},
+        "room_conversion": {"value": "shortage and price pressure coexist with unchanged habits for many and reduced purchasing for a substantial minority", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ONS weighted survey estimates; responses were collected over 5 to 30 August 2026.",
+      "uncertainty": "Buying less is not separated into lower quantity, cheaper products, healthier or less healthy substitution, reduced waste, or unmet need; the estimates are not causal.",
+      "subgroup": "Great Britain adults aged 16 years and over.",
+      "counterinterpretation": "Unchanged shopping habits may reflect stable access, successful adaptation, or inability to reduce essential purchases; it should not be treated as unchanged household welfare.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalexperiencesofshortagesofgoods",
+      "retrieval_hash": "sha256:f579bd74e4c744373c2a6795ba20bdbe502b7cac45f6991d87b5e3bac93a8691",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; products unavailable or inaccessible",
+      "denominator": {"value": 3560, "unit": "responding adults aged 16+ in the ONS Opinions and Lifestyle Survey item", "value_type": "reported_survey_sample"},
+      "measures": {
+        "essential_food_unavailable": {"value": 11, "unit": "percent reporting essential food items they needed regularly were unavailable or inaccessible", "value_type": "reported_share"},
+        "other_food_unavailable": {"value": 17, "unit": "percent reporting other food items were unavailable or inaccessible", "value_type": "reported_share"},
+        "medicine_unavailable": {"value": 4, "unit": "percent reporting medicine was unavailable or inaccessible", "value_type": "reported_share"},
+        "fuel_unavailable": {"value": 3, "unit": "percent reporting fuel was unavailable or inaccessible", "value_type": "reported_share"},
+        "everything_available": {"value": 62, "unit": "percent saying everything they needed had been available", "value_type": "reported_share"}
+      },
+      "method": "ONS weighted survey estimates from the personal-experiences-of-shortages workbook; question wording includes goods that respondents could not buy or access because they were not available.",
+      "uncertainty": "The measure does not establish whether an item was unavailable at all stores, unaffordable, medically substitutable, delayed, or ultimately obtained; the wording changed from May 2026 to include access and new response options.",
+      "subgroup": "Great Britain adults aged 16 years and over.",
+      "counterinterpretation": "Reported unavailability may reflect local stock, timing, choice, transport or affordability, not only a national supply shortage.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalexperiencesofshortagesofgoods",
+      "retrieval_hash": "sha256:f579bd74e4c744373c2a6795ba20bdbe502b7cac45f6991d87b5e3bac93a8691",
+      "status": "reported"
+    },
+    {
+      "period": "5 to 30 August 2026; source and comparability boundary",
+      "denominator": {"value": 1, "unit": "ONS dataset publication and time-series frame", "value_type": "official_dataset_frame"},
+      "measures": {
+        "survey_period": {"value": "5 to 30 August 2026", "unit": "data-collection period", "value_type": "reported_period"},
+        "data_publication": {"value": "18 September 2026", "unit": "ONS dataset publication date", "value_type": "reported_metadata"},
+        "comparison_boundary": {"value": "the ONS warns that question wording and response options changed from 6 to 31 May 2026, limiting comparison with earlier availability estimates", "unit": "measurement boundary", "value_type": "reported_boundary"}
+      },
+      "method": "ONS spreadsheet with current cross-sectional tables, time-series tables, weighted counts, sample sizes and 95% confidence intervals.",
+      "uncertainty": "Comparisons across the wording break should not be interpreted as a single uninterrupted trend; different item bases and response structures also matter.",
+      "subgroup": "Great Britain adults aged 16 years and over.",
+      "counterinterpretation": "The current estimates remain useful for exposure and adaptation at the August 2026 window even when historical comparability is limited.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainpersonalexperiencesofshortagesofgoods",
+      "retrieval_hash": "sha256:f579bd74e4c744373c2a6795ba20bdbe502b7cac45f6991d87b5e3bac93a8691",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fwellbeing%2Fdatasets%2Fpublicopinionsandsocialtrendsgreatbritainpersonalexperiencesofshortagesofgoods%2F5to30august2026%2Fpersonalexperiencesofshortagesofgoods5to30august2026.xlsx", "claim": "ONS Excel workbook containing current tables, subgroup estimates, time series, weighted counts, sample sizes and confidence intervals.", "status": "primary-data-download"}
+  ],
+  "boundary": "This record adds a household-material conversion route: goods availability and food-shopping friction become extra spending, more search, online substitution, buying less and possible unmet need. It is a weighted ONS survey window, not transaction data, a price index, a supply-chain diagnosis, a food-security measure, or a causal estimate. Question wording changed in May 2026 for the availability item, limiting historical comparisons.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The ONS dataset landing page, August 2026 workbook, cover sheet, notes, current tables and time-series tables were reviewed for sample frame, food-shopping friction, purchasing behaviour, unavailable goods, confidence intervals and the May 2026 wording break.",
+    "source_page_sha256": "sha256:f579bd74e4c744373c2a6795ba20bdbe502b7cac45f6991d87b5e3bac93a8691",
+    "source_workbook_sha256": "sha256:b1a03dc11cef89b543b36378e4552c61b73714747dfd5c0a68569a03fd2dd25b",
+    "checked": "2026-09-29"
+  }
+}

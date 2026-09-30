@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fgs-global-radar-2026-pessimism-disruption-affordability",
+  "title": "Persistent public pessimism is converting institutional distrust into demand for disruption, visible results, and affordability",
+  "theme_ids": ["voice", "cost", "energy", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "FGS Global Radar 2026 public-pessimism report and public findings overview",
+  "geography": "27 countries described as major democracies; polling of 20,000 people plus 175 in-depth interviews with global leaders",
+  "observations": [
+    {
+      "period": "2026; public mood and institutional confidence",
+      "denominator": {"value": 27, "unit": "countries polled in the FGS Global Radar 2026 frame", "value_type": "country_comparison_frame"},
+      "measures": {
+        "pessimism": {"value": "Pessimism is described as the dominant public mood in every country polled", "unit": "reported cross-country pattern", "value_type": "reported_pattern"},
+        "system_failure": {"value": 68, "unit": "percent saying their political system is failing people and requires fundamental reform", "value_type": "reported_share"},
+        "elite_gap": {"value": 74, "unit": "percent saying the political system serves rich and powerful elites rather than ordinary working people", "value_type": "reported_share"},
+        "legitimacy_route": {"value": "Institutional legitimacy is increasingly judged through lived results, fairness, and visible capacity rather than authority or long-term promises alone", "unit": "reported analytical implication", "value_type": "reported_mechanism"}
+      },
+      "method": "FGS Global public overview of polling of 20,000 people across major democracies and 175 in-depth interviews with global leaders; full report methodology is not reproduced on the public findings page.",
+      "uncertainty": "This is a publisher-produced public-affairs report; the public overview does not provide full country samples, field dates, weighting, question wording, or causal identification. The findings describe sentiment and interpretation, not institutional performance directly.",
+      "subgroup": "Voters and publics in advanced democracies, leaders and experts, people facing affordability pressure, and groups evaluating whether democratic institutions deliver meaningful change.",
+      "counterinterpretation": "Pessimism may motivate reform, participation, or accountability rather than only anti-system politics; perceived system failure can also reflect high expectations rather than uniformly worsening outcomes.",
+      "source_url": "https://fgsglobal.com/insights/insights-from-fgs-global-radar-2026-how-public-pessimism-is-reshaping-politics-business-and-leadership",
+      "retrieval_hash": "sha256:dafb72e0954865cc37701a351af33de7f66a5baa74179fed73be335c4edd2f0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; impatience, disruption, and rule-breaking leadership",
+      "denominator": {"value": 20000, "unit": "people included in the FGS Global Radar polling frame", "value_type": "reported_polling_frame"},
+      "measures": {
+        "strong_leader_rule_breaking": {"value": 40, "unit": "percent saying strong leaders should be willing to break rules to get things done", "value_type": "reported_share"},
+        "disruptor_support": {"value": "The report interprets admiration for disruptors as a belief that disruption may be the only way to force change", "unit": "reported political mechanism", "value_type": "reported_mechanism"},
+        "populism_route": {"value": "Populism is framed as a structural condition sustained by impatience with conventional institutions, not merely a temporary protest vote", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Descriptive polling summary and qualitative interpretation from the FGS Global Radar 2026 overview, supplemented by leader interviews.",
+      "uncertainty": "The association between pessimism and support for rule-breaking leaders is not a causal estimate; the public page does not show subgroup models, country variation, or whether respondents mean legal exceptions, procedural speed, or authoritarian power.",
+      "subgroup": "People frustrated with slow or unresponsive institutions, voters attracted to outsider candidates, and publics weighing procedural safeguards against immediate results.",
+      "counterinterpretation": "Demand for disruption may mean administrative reform, anti-corruption action, or faster implementation within democratic rules rather than rejection of democracy itself.",
+      "source_url": "https://fgsglobal.com/insights/insights-from-fgs-global-radar-2026-how-public-pessimism-is-reshaping-politics-business-and-leadership",
+      "retrieval_hash": "sha256:dafb72e0954865cc37701a351af33de7f66a5baa74179fed73be335c4edd2f0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; elite expectations, taxation, and policy trade-offs",
+      "denominator": {"value": 20000, "unit": "people included in the FGS Global Radar polling frame", "value_type": "reported_polling_frame"},
+      "measures": {
+        "competent_government_without_tax_increase": {"value": 66, "unit": "percent believing a competent government could meet public expectations without raising taxes", "value_type": "reported_share"},
+        "expert_public_gap": {"value": "Policies experts describe as necessary or inevitable are often rejected by publics who expect better outcomes without accepting visible trade-offs", "unit": "reported political-economy tension", "value_type": "reported_pattern"},
+        "complexity_penalty": {"value": "In a distrustful environment, technical complexity can be interpreted as deflection and caution as unwillingness to act", "unit": "reported communication mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "FGS Global polling and expert-interview synthesis concerning public expectations, government competence, taxes, spending, AI, and economic reform.",
+      "uncertainty": "The result does not measure fiscal literacy, policy alternatives, actual tax incidence, or whether respondents would accept specific trade-offs when described concretely.",
+      "subgroup": "Taxpayers, voters, policymakers, consumers facing cost pressure, and publics judging whether economic policy distributes burdens fairly.",
+      "counterinterpretation": "The finding may reflect distrust in current spending or tax administration rather than an impossible belief that public services have no resource constraints.",
+      "source_url": "https://fgsglobal.com/insights/insights-from-fgs-global-radar-2026-how-public-pessimism-is-reshaping-politics-business-and-leadership",
+      "retrieval_hash": "sha256:dafb72e0954865cc37701a351af33de7f66a5baa74179fed73be335c4edd2f0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; affordability and fairness as legitimacy signals",
+      "denominator": {"value": 1, "unit": "FGS Global Radar 2026 cross-domain synthesis", "value_type": "reported_synthesis_frame"},
+      "measures": {
+        "affordability": {"value": "Affordability is identified as central to regulatory decisions, political strategy, and consumer behavior", "unit": "reported cross-domain finding", "value_type": "reported_mechanism"},
+        "fairness": {"value": "Fairness is treated as a legitimacy condition rather than a peripheral policy preference", "unit": "reported political-economy finding", "value_type": "reported_orientation"},
+        "near_term_results": {"value": "Messages relying on institutional authority, technical expertise, or long-term promises struggle unless they address lived experience and near-term impact", "unit": "reported communication implication", "value_type": "reported_implication"}
+      },
+      "method": "Publisher synthesis of public polling and leader interviews across politics, business, technology, and society.",
+      "uncertainty": "This is a strategic synthesis rather than an independently specified causal model; affordability and fairness may be causes, outcomes, or interpretive lenses for broader distrust.",
+      "subgroup": "Households and consumers under cost pressure, voters evaluating economic policy, regulators, firms, and institutions seeking legitimacy across polarized publics.",
+      "counterinterpretation": "Near-term delivery can build trust but may also reward short-termism, weaken investment in long-horizon public goods, or encourage symbolic action over durable capacity.",
+      "source_url": "https://fgsglobal.com/insights/insights-from-fgs-global-radar-2026-how-public-pessimism-is-reshaping-politics-business-and-leadership",
+      "retrieval_hash": "sha256:dafb72e0954865cc37701a351af33de7f66a5baa74179fed73be335c4edd2f0d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://fgsglobal.com/insights/insights-from-fgs-global-radar-2026-how-public-pessimism-is-reshaping-politics-business-and-leadership", "claim": "Official public findings overview for sample frame, public pessimism, institutional reform, disruptor support, elite perceptions, and affordability/fairness interpretation.", "status": "official-overview"}
+  ],
+  "boundary": "This record adds a global public-pessimism and legitimacy layer connecting institutional distrust to disruption, political impatience, affordability, fairness, and consumer behavior. It is a publisher-produced polling and interview synthesis, not respondent-level ingestion, a representative global census, a causal model of populism, proof that institutions are objectively failing, or evidence that rule-breaking leadership improves outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FGS Global Radar 2026 public findings page reviewed for the 27-country frame, 20,000-person polling description, 175 leader interviews, pessimism, reform, rule-breaking leadership, elite-service perceptions, competent-government expectations, and affordability/fairness findings.",
+    "source_url_sha256": "sha256:dafb72e0954865cc37701a351af33de7f66a5baa74179fed73be335c4edd2f0d",
+    "checked": "2026-09-28"
+  }
+}

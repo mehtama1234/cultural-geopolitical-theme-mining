@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-deloitte-digital-media-trends-2026-fandom-ai-streaming-social",
+  "title": "Media consumption is reorganizing around persistent fandom, fragmented platforms, creator connection, and AI-enabled continuity between releases",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "time_hidden_price"
+  ],
+  "source_unit": "Deloitte Center for Technology, Media & Telecommunications, 2026 Digital Media Trends: Capturing always-on fandom between releases and seasons, 25 March 2026",
+  "geography": "United States consumer media and entertainment behavior across streaming, social media, music, gaming, live events, creators, and fandom communities",
+  "observations": [
+    {
+      "period": "2025-2026; US media consumption and subscription context",
+      "denominator": {"value": 3575, "unit": "US consumers age 14 and older surveyed online in October-November 2025, weighted to the Census", "value_type": "reported_survey_sample"},
+      "measures": {
+        "media_time": {"value": 6, "unit": "hours per day spent on media and entertainment activities by the average consumer", "value_type": "reported_survey_estimate"},
+        "svod_households": {"value": 90, "unit": "percent of US households with a paid subscription video-on-demand service; subscribing households average four services", "value_type": "reported_survey_share"},
+        "svod_churn": {"value": 41, "unit": "percent of consumers who cancelled an SVOD service in the last six months", "value_type": "reported_survey_share"},
+        "return_churn": {"value": 22, "unit": "percent of consumers who churned and returned to the same SVOD service in the last six months", "value_type": "reported_survey_share"},
+        "analytic_route": {"value": "more choice and subscription fragmentation are pushing media companies toward retention, cross-format engagement, and deeper fan relationships", "unit": "reported market mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Deloitte Digital Media Trends online survey of 3,575 US consumers, supplemented by longitudinal media and entertainment analysis.",
+      "uncertainty": "Subscription and churn measures are survey-based and period-specific; they do not establish household-level expenditure causes, platform profitability, or whether a given retention strategy works.",
+      "subgroup": "US media consumers, SVOD households, streamers, social-video users, music and gaming audiences, content providers, advertisers, and creators.",
+      "counterinterpretation": "Subscription churn can reflect seasonal timing, price changes, content availability, or household sharing; fragmentation may coexist with stable total media time.",
+      "source_url": "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey.html",
+      "retrieval_hash": "sha256:e6c8f3d991904597f45785de329776bce05b8528ebd9d33eec17901e0e1e0dee",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; fandom as a cross-platform consumer segment",
+      "denominator": {"value": 3575, "unit": "US consumers surveyed; fan status is self-identification with at least one entertainment or cultural category", "value_type": "reported_survey_sample"},
+      "measures": {
+        "fan_prevalence": {"value": 80, "unit": "approximate percent of consumers who identify as fans of at least one entertainment category", "value_type": "reported_survey_share"},
+        "fan_media_time": {"value": 51, "unit": "additional minutes of daily media and entertainment time for fans relative to nonfans, approximately 16 percent more", "value_type": "reported_survey_difference"},
+        "fan_svod": {"value": "92 percent of fans versus 77 percent of nonfans use SVOD; subscribing fans spend $71 per month across an average of four services versus $56 across three services for nonfans", "unit": "reported survey comparison", "value_type": "reported_survey_comparison"},
+        "cross_platform_fandom": {"value": 55, "unit": "percent of fans who say being a fan often leads them to engage across multiple platforms, rising to about 70% among Gen Z and millennial fans", "value_type": "reported_survey_share"},
+        "analytic_route": {"value": "fandom behaves as a continuous, multichannel relationship rather than a release-date event", "unit": "analytic consumer mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Weighted Deloitte survey with self-identified fan segmentation across music, film and TV, sports, gaming, creators, genres, brands, and hobbies.",
+      "uncertainty": "The fan definition is self-selected and differs from earlier Deloitte reports; higher spending and time among fans are descriptive associations, not causal effects of fandom.",
+      "subgroup": "Fans and nonfans, Gen Z, millennials, older generations, creators, franchise owners, streamers, music and gaming services, and live-event providers.",
+      "counterinterpretation": "Fans may be more likely to have high media engagement before identifying as fans; cross-platform activity may increase exposure without translating into durable loyalty or value.",
+      "source_url": "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey.html",
+      "retrieval_hash": "sha256:e6c8f3d991904597f45785de329776bce05b8528ebd9d33eec17901e0e1e0dee",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; social discovery and creator-mediated attention",
+      "denominator": {"value": 3575, "unit": "US consumers surveyed, with fan and generational subgroup comparisons", "value_type": "reported_survey_sample"},
+      "measures": {
+        "social_relevance": {"value": 32, "unit": "percent of consumers who say social media content is more relevant to them than traditional media content", "value_type": "reported_survey_share"},
+        "creator_connection": {"value": 33, "unit": "percent of consumers who feel a stronger personal connection to social media creators than to TV personalities or actors", "value_type": "reported_survey_share"},
+        "fan_discovery": {"value": 52, "unit": "percent of fans who say social media is their primary way to discover new content, rising to 73% among Gen Z fans", "value_type": "reported_survey_share"},
+        "off_platform_path": {"value": 44, "unit": "percent of fans who discover content on social media and then go elsewhere to watch, listen to, or buy the full version; the share approaches 60% among Gen Z fans", "value_type": "reported_survey_share"},
+        "attention_route": {"value": "social platforms and creator communities increasingly mediate discovery while monetization and behavioral visibility may remain split across platforms", "unit": "reported platform mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Deloitte survey comparisons among all consumers, fans, and generational fan groups, with analysis of the discovery-to-consumption path.",
+      "uncertainty": "The measures are stated preferences and self-reports; they do not quantify attribution, conversion, creator income, or the distributional effects of platform algorithms.",
+      "subgroup": "Gen Z fans, older fans, creators, social-video platforms, studios, streamers, advertisers, and audiences moving between social and owned media environments.",
+      "counterinterpretation": "Social discovery can complement rather than displace traditional media, and reported personal connection need not imply trust, civic influence, or long-term creator loyalty.",
+      "source_url": "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey.html",
+      "retrieval_hash": "sha256:e6c8f3d991904597f45785de329776bce05b8528ebd9d33eec17901e0e1e0dee",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; generative AI and always-on fan engagement",
+      "denominator": {"value": 3575, "unit": "US consumers surveyed, including self-identified fans", "value_type": "reported_survey_sample"},
+      "measures": {
+        "labeled_ai_content": {"value": 40, "unit": "approximate percent of fans who would accept AI-created content on SVOD, social media, music services, and video games if clearly labeled", "value_type": "reported_survey_share"},
+        "personalized_digest": {"value": 30, "unit": "approximate percent of fans interested in AI-created personalized digests of streaming, social, podcast, and actor updates", "value_type": "reported_survey_share"},
+        "sports_highlights": {"value": 32, "unit": "percent of sports fans interested in personalized highlight reels and commentary based on favorite teams and athletes", "value_type": "reported_survey_share"},
+        "cocreation": {"value": 24, "unit": "approximate percent of fans interested in cocreating content with generative AI, such as alternative endings", "value_type": "reported_survey_share"},
+        "infrastructure_route": {"value": "generative AI is framed as connective infrastructure for recommendations, summaries, cross-platform identity, and year-round fan engagement", "unit": "reported technology mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Deloitte survey of US consumers and fans, combined with strategic analysis of generative-AI applications in media and entertainment.",
+      "uncertainty": "Interest in labeled AI content is not adoption or willingness to pay; the report does not resolve copyright, labor, privacy, authenticity, or recommendation-quality risks.",
+      "subgroup": "Fans, sports fans, Gen Z and millennial audiences, media companies, rights holders, creators, advertisers, AI providers, and platform operators.",
+      "counterinterpretation": "AI-generated summaries and personalized content may increase convenience while weakening provenance, creator control, cultural serendipity, or human editorial judgment.",
+      "source_url": "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey.html",
+      "retrieval_hash": "sha256:e6c8f3d991904597f45785de329776bce05b8528ebd9d33eec17901e0e1e0dee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey/digital-media-monitor-dashboard.html", "claim": "Deloitte's Digital Media Monitor provides longitudinal subscription, churn, social-video, and consumer-media measures."},
+    {"source_url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/media-entertainment-industry-outlook.html", "claim": "Deloitte's 2026 Media and Entertainment Industry Outlook provides complementary industry and AI-generated-content context."}
+  ],
+  "boundary": "This record adds a Deloitte consumer-media signal about fandom, streaming fragmentation, creator-mediated discovery, and labeled generative-AI engagement. It is aggregate survey and industry analysis, not respondent-level ingestion, a causal panel, a global cultural census, a measure of creator welfare, or proof that platform aggregation benefits audiences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Deloitte Digital Media Trends 2026 page reviewed for survey size and weighting, media and subscription metrics, fan segmentation, cross-platform discovery, creator connection, and generative-AI interest measures.",
+    "source_url_sha256": "sha256:e6c8f3d991904597f45785de329776bce05b8528ebd9d33eec17901e0e1e0dee",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-food-security-update-june-2026-inflation-fertilizer-el-nino",
+  "title": "Food security remains fragile as fertilizer costs, El Niño risk, and unequal domestic food inflation transmit shocks unevenly across income groups",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Bank Food Security Update, latest update June 2026 with data as of 22 June 2026",
+  "geography": "Global food and nutrition security, domestic food inflation across 169 countries, and income-group and regional exposure",
+  "observations": [
+    {
+      "period": "First five months of 2026; global fertilizer market",
+      "denominator": {"value": 100, "unit": "same-period 2025 fertilizer-price reference", "value_type": "published_comparison_base"},
+      "measures": {
+        "fertilizer_price_change": {"value": 35, "unit": "percent increase in fertilizer prices compared with the first five months of 2025", "value_type": "reported_change"},
+        "market_condition": {"value": "fertilizer markets had not fully stabilized by June 2026", "unit": "reported market condition", "value_type": "reported_pattern"},
+        "lagged_yield_risk": {"value": "reduced applications earlier in the season may become visible later in harvest outcomes", "unit": "reported transmission mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The World Bank synthesizes market-monitoring data and food-security analysis, drawing on fertilizer, cereal, food-price, and macro indicators.",
+      "uncertainty": "Fertilizer prices are not equivalent to farm-gate costs or consumer prices; pass-through depends on crops, subsidies, currency, inventories, and farmer decisions.",
+      "subgroup": "Fertilizer-importing countries, farmers, food producers, food-importing households, and low-income consumers vulnerable to delayed supply effects.",
+      "counterinterpretation": "Price pressure can ease before harvest effects appear, and improved efficiency, substitution, stocks, or public support can reduce the impact of expensive inputs.",
+      "source_url": "https://www.worldbank.org/en/brief/2023/06/09/food-security-update",
+      "retrieval_hash": "sha256:302d0d1276a78889cc025f261b744ac36832c3d5fe5f2d10e7b94610ad82c452",
+      "status": "reported"
+    },
+    {
+      "period": "Mid-2026 risk assessment; El Niño probability and cereal exposure",
+      "denominator": {"value": 100, "unit": "probability percentage frame for El Niño emergence by mid-2026 and persistence into 2027", "value_type": "published_probability_frame"},
+      "measures": {
+        "el_nino_probability": {"value": "61–87", "unit": "percent probability of El Niño emerging by mid-2026 and persisting into 2027", "value_type": "reported_probability_range"},
+        "rice_output_risk": {"value": "20–50", "unit": "percent potential decline in rice output in affected regions if the scenario is realized", "value_type": "conditional_scenario_range"},
+        "exposed_regions": {"value": "South Asia, Southern Africa, and parts of East Asia", "unit": "reported high-exposure regions", "value_type": "reported_geographic_pattern"}
+      },
+      "method": "The update combines climate-risk probabilities with agricultural and food-security scenario analysis.",
+      "uncertainty": "These are conditional risk estimates, not observed output losses; El Niño strength, timing, adaptation, and regional weather determine realized effects.",
+      "subgroup": "Rice-producing and rice-consuming regions, food-importing governments, smallholder farmers, and already vulnerable households.",
+      "counterinterpretation": "Climate signals can also produce favorable conditions in some locations, and reserves, trade, irrigation, crop switching, and safety nets can buffer regional effects.",
+      "source_url": "https://www.worldbank.org/en/brief/2023/06/09/food-security-update",
+      "retrieval_hash": "sha256:302d0d1276a78889cc025f261b744ac36832c3d5fe5f2d10e7b94610ad82c452",
+      "status": "reported"
+    },
+    {
+      "period": "April–May 2026; domestic food-price inflation",
+      "denominator": {"value": 169, "unit": "countries analyzed in the latest quarterly food-price data", "value_type": "published_country_frame"},
+      "measures": {
+        "low_income_above_5pct": {"value": 45.0, "unit": "percent of low-income countries with food inflation above 5%, up from 40.0%", "value_type": "reported_share"},
+        "lower_middle_income_above_5pct": {"value": 36.7, "unit": "percent of lower-middle-income countries with food inflation above 5%, down from 40.8%", "value_type": "reported_share"},
+        "upper_middle_income_above_5pct": {"value": 29.8, "unit": "percent of upper-middle-income countries with food inflation above 5%, down from 34.0%", "value_type": "reported_share"},
+        "high_income_above_5pct": {"value": 5.1, "unit": "percent of high-income countries with food inflation above 5%, down from 6.8%", "value_type": "reported_share"}
+      },
+      "method": "The World Bank compares domestic food inflation across income groups and regions using available country price data.",
+      "uncertainty": "Country coverage, price baskets, reference periods, exchange rates, and measurement quality vary; country-level inflation does not reveal household diet, income, or coping behavior.",
+      "subgroup": "Low-income, lower-middle-income, upper-middle-income, and high-income country populations, with especially unequal exposure within countries.",
+      "counterinterpretation": "The decline in higher-income groups and some middle-income groups shows that food-price pressure is not globally uniform and can improve even while low-income-country conditions deteriorate.",
+      "source_url": "https://www.worldbank.org/en/brief/2023/06/09/food-security-update",
+      "retrieval_hash": "sha256:302d0d1276a78889cc025f261b744ac36832c3d5fe5f2d10e7b94610ad82c452",
+      "status": "reported"
+    },
+    {
+      "period": "Latest quarterly data through mid-2026; real food-price pressure",
+      "denominator": {"value": 169, "unit": "countries analyzed in the latest quarterly food-price data", "value_type": "published_country_frame"},
+      "measures": {
+        "real_food_inflation_countries": {"value": 14, "unit": "percent of analyzed countries where real food prices outpaced headline inflation", "value_type": "reported_share"},
+        "lower_middle_income_real_food_inflation": {"value": "roughly 1 in 6", "unit": "lower-middle-income countries recording positive real food inflation", "value_type": "reported_share"},
+        "regional_pressure": {"value": "food-inflation pressure increased in Latin America and the Caribbean and South Asia, eased in Europe and Central Asia, and remained uneven across Africa", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "long_run_price_comparison": {"value": "maize, wheat, and rice prices were 6%, 4%, and 3% above January 2020 levels", "unit": "reported commodity comparison", "value_type": "reported_change"}
+      },
+      "method": "The update compares food-price inflation with headline inflation to identify real food-price pressure, alongside commodity and regional comparisons.",
+      "uncertainty": "The share of countries is not a share of people or households, and real-price pressure does not identify affordability, nutrition, or food insecurity without income and consumption data.",
+      "subgroup": "Households with high food-budget shares, lower-middle-income populations, food-importing regions, and countries with limited fiscal space for protection.",
+      "counterinterpretation": "A country with real food inflation may still protect vulnerable households through transfers, wage growth, local production, or targeted price measures; the aggregate signal identifies exposure, not welfare outcome.",
+      "source_url": "https://www.worldbank.org/en/brief/2023/06/09/food-security-update",
+      "retrieval_hash": "sha256:302d0d1276a78889cc025f261b744ac36832c3d5fe5f2d10e7b94610ad82c452",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/markets-and-trade/do-not-touch/all-widgets/food-price-monitoring-and-analysis-%28fpma%29-bulletin--7--14-september-2026---monthly-report-on-food-price-trends/en", "claim": "Complementary FAO monthly market-price and early-warning evidence."},
+    {"source_url": "https://www.worldbank.org/en/topic/agriculture/brief/food-security-update", "claim": "World Bank agriculture and food-security program context."}
+  ],
+  "boundary": "This record adds an income-group and household-risk layer to the food-price route, linking domestic food inflation and real price pressure to fertilizer costs, El Niño scenarios, cereal production, and regional inequality. It uses country-level aggregate and conditional scenario evidence, not household purchase histories, diet records, individual food-security transitions, causal welfare estimates, or proof that food insecurity changed for every group.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Food Security Update page and linked June 2026 brief were reviewed for fertilizer prices, El Niño probabilities, rice-output scenarios, income-group food inflation, real food prices, commodity comparisons, and data boundaries.",
+    "source_url_sha256": "sha256:302d0d1276a78889cc025f261b744ac36832c3d5fe2f10e7b94610ad82c452",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-what-a-waste-3-0-circularity-2026",
+  "title": "Waste is becoming a visible test of consumption growth, municipal capacity, public health, climate resilience and circular-economy opportunity",
+  "theme_ids": ["cost", "time", "work", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank Group, What a Waste 3.0: Global Snapshot of Solid Waste Management toward Circularity until 2050",
+  "geography": "Global municipal solid-waste system analysis using publicly accessible data from 217 countries and economies and 262 cities",
+  "observations": [
+    {
+      "period": "2022 observed baseline; 2050 business-as-usual projection",
+      "denominator": {"value": 1, "unit": "global municipal solid-waste system", "value_type": "global_system_frame"},
+      "measures": {
+        "waste_2022": {"value": 2560000000, "unit": "metric tonnes of municipal solid waste generated globally in 2022", "value_type": "reported_estimate"},
+        "waste_2050_bau": {"value": 3860000000, "unit": "metric tonnes projected under business as usual in 2050", "value_type": "modelled_projection"},
+        "growth": {"value": 50, "unit": "percent increase in global municipal waste between 2022 and 2050 under business as usual", "value_type": "modelled_projection"},
+        "driver": {"value": "population growth, urbanization, rising incomes and increased consumption are driving waste faster than local systems can absorb", "unit": "reported structural mechanism", "value_type": "reported_interpretation"}
+      },
+      "method": "World Bank global reference dataset and scenario analysis covering waste generation, composition, collection, treatment and disposal.",
+      "uncertainty": "The 2050 figure is a scenario projection dependent on population, income, consumption, policy and waste-intensity assumptions; country and city data quality and definitions vary.",
+      "subgroup": "Households, consumers, cities, municipal systems, producers, waste workers and communities exposed to waste pollution, flooding, health risks or service gaps.",
+      "counterinterpretation": "Waste prevention, source reduction, reuse, repair, recycling and circular production can decouple waste volumes from population and income growth; the business-as-usual path is not inevitable.",
+      "source_url": "https://www.worldbank.org/en/publication/what-a-waste",
+      "retrieval_hash": "sha256:297cfbe9ad2ac639368585c29d6eb760ba44f9118c6ac1849d4441d71dd3f5a9",
+      "status": "estimated"
+    },
+    {
+      "period": "2022; global and income-group waste-service coverage",
+      "denominator": {"value": 217, "unit": "countries and economies in the What a Waste 3.0 reference dataset", "value_type": "country_economy_frame"},
+      "measures": {
+        "low_income_collection": {"value": 28, "unit": "percent of waste collected in low-income countries, as reported in the World Bank global snapshot", "value_type": "reported_share"},
+        "high_income_collection": {"value": 100, "unit": "approximately percent collection rate reported for high-income regions", "value_type": "reported_approximate_share"},
+        "mismanaged_waste": {"value": "approximately one-third of global municipal waste is not properly collected or treated", "unit": "reported global service-gap pattern", "value_type": "reported_interpretation"},
+        "regional_gap": {"value": "Sub-Saharan Africa and South Asia face rapidly growing waste volumes alongside weaker infrastructure and more constrained municipal budgets", "unit": "reported regional divergence", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative World Bank estimates of collection, treatment and disposal across income groups, countries and cities.",
+      "uncertainty": "Collection and proper-treatment measures are not interchangeable; national averages conceal city, neighborhood and informal-sector variation, and some underlying data are estimated or incomplete.",
+      "subgroup": "Low-income and rapidly growing urban populations, informal-settlement residents, waste workers, neighborhoods near dumping or burning, and households lacking reliable municipal services.",
+      "counterinterpretation": "Informal recovery networks can provide important collection and material-recovery functions where formal systems are weak, though workers may face severe health, income and recognition risks.",
+      "source_url": "https://www.worldbank.org/ext/en/topic/urban-development/solid-waste-management",
+      "retrieval_hash": "sha256:297cfbe9ad2ac639368585c29d6eb760ba44f9118c6ac1849d4441d71dd3f5a9",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2050; fiscal, economic and employment dimensions of waste systems",
+      "denominator": {"value": 1, "unit": "global municipal waste-management cost and employment synthesis", "value_type": "published_synthesis"},
+      "measures": {
+        "current_cost": {"value": 250000000000, "unit": "US dollars in annual global municipal waste-management costs, approximately", "value_type": "reported_estimate"},
+        "2050_cost": {"value": 426000000000, "unit": "US dollars in projected annual global municipal waste-management costs by 2050", "value_type": "reported_projection"},
+        "waste_workers": {"value": 18000000, "unit": "urban waste workers estimated globally", "value_type": "reported_estimate"},
+        "low_middle_income_investment": {"value": 556000000000, "unit": "US dollars in estimated waste-system investment needed across low- and lower-middle-income countries between 2022 and 2050", "value_type": "reported_estimate"}
+      },
+      "method": "World Bank synthesis of municipal waste costs, employment, public expenditure, infrastructure needs and circular-economy opportunities.",
+      "uncertainty": "Cost and investment figures depend on service standards, technology, financing, wage, disposal and scenario assumptions; the worker estimate includes formal and informal activities and is not a measure of decent-work quality.",
+      "subgroup": "Municipal governments, taxpayers, service providers, formal and informal waste workers, recyclers, manufacturers, households and firms dependent on functioning urban infrastructure.",
+      "counterinterpretation": "Higher investment can reduce long-run costs and create jobs, but without cost recovery, worker protections, producer responsibility and accountable contracting, spending may not improve service quality or inclusion.",
+      "source_url": "https://www.worldbank.org/en/publication/what-a-waste",
+      "retrieval_hash": "sha256:297cfbe9ad2ac639368585c29d6eb760ba44f9118c6ac1849d4441d71dd3f5a9",
+      "status": "estimated"
+    },
+    {
+      "period": "2050 scenarios; circularity, climate and public-system ambition",
+      "denominator": {"value": 1, "unit": "global waste-scenario comparison", "value_type": "modelled_scenario_frame"},
+      "measures": {
+        "low_ambition_waste": {"value": 3120000000, "unit": "metric tonnes projected global waste in 2050 under the low-ambition scenario", "value_type": "modelled_projection"},
+        "high_ambition_emissions": {"value": 910000000, "unit": "metric tonnes of carbon-dioxide equivalent projected from the waste sector in 2050 under the high-ambition scenario", "value_type": "modelled_projection"},
+        "bau_emissions": {"value": 1840000000, "unit": "metric tonnes of carbon-dioxide equivalent projected from the waste sector in 2050 under business as usual", "value_type": "modelled_projection"},
+        "intervention_set": {"value": "waste prevention, source reduction, collection, recycling, composting, sanitary landfilling and stronger regulation can bend the waste curve", "unit": "reported scenario mechanism", "value_type": "reported_policy_route_set"}
+      },
+      "method": "World Bank alternative-scenario modeling of waste generation, service expansion, treatment, disposal and waste-sector emissions.",
+      "uncertainty": "Scenario outcomes are not forecasts and depend on coordinated policy, finance, infrastructure, behavior, markets and regulatory implementation; emissions accounting and circularity benefits vary by technology and context.",
+      "subgroup": "Cities, households, producers, waste workers, recyclers, climate and environmental agencies, local communities and investors in circular systems.",
+      "counterinterpretation": "Circularity can be oversold if it substitutes downstream recycling for upstream reduction, shifts pollution to poorer places or leaves informal workers without recognition, safety or bargaining power.",
+      "source_url": "https://www.worldbank.org/en/publication/what-a-waste",
+      "retrieval_hash": "sha256:297cfbe9ad2ac639368585c29d6eb760ba44f9118c6ac1849d4441d71dd3f5a9",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://datacatalog.worldbank.org/search/dataset/0039597/what-a-waste-global-database", "claim": "World Bank open country and city waste database accompanying What a Waste 3.0."},
+    {"source_url": "https://www.worldbank.org/en/programs/tokyo-development-learning-center/brief/what_a_waste_3", "claim": "World Bank summary of report launch, global data frame and policy relevance."},
+    {"source_url": "https://www.worldbank.org/en/topic/urban-development/solid-waste-management", "claim": "World Bank solid-waste management overview and key findings."}
+  ],
+  "boundary": "This record adds a consumption-to-public-infrastructure route: waste volumes, collection, treatment, municipal finance, public health, flooding, jobs, emissions and circularity are analyzed as one system. It is a global technical reference and scenario dataset, not household consumption microdata, a behavior-change evaluation, a city service audit or proof that circular-economy jobs are decent or equitably distributed.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank What a Waste 3.0 page, solid-waste overview, launch brief, open-data catalog and full report PDF were reviewed for global waste generation, collection gaps, costs, employment, investment needs and alternative scenarios; the full report PDF was hashed.",
+    "source_url_sha256": "sha256:297cfbe9ad2ac639368585c29d6eb760ba44f9118c6ac1849d4441d71dd3f5a9",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-netflix-what-we-watched-h1-2026-global-viewing-local-culture-franchise",
+  "title": "Global streaming is making local-language stories, cross-border discovery, recurring franchises, and broad genre choice part of one increasingly connected entertainment system",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Netflix, What We Watched: The First Half of 2026, Netflix Engagement Report",
+  "geography": "Global Netflix viewing from January through June 2026 across Netflix members and available titles",
+  "observations": [
+    {
+      "period": "January-June 2026; global engagement scale",
+      "denominator": {"value": 97000000000, "unit": "hours watched on Netflix globally in the first half of 2026, approximately", "value_type": "reported_platform_engagement"},
+      "measures": {
+        "viewing_scale": {"value": 97, "unit": "billion hours watched across Netflix in the first half of 2026", "value_type": "reported_aggregate_volume"},
+        "coverage": {"value": "The report covers viewing for all titles available on Netflix during the period rather than only a top-ten subset", "unit": "reported measurement scope", "value_type": "reported_method"},
+        "engagement_logic": {"value": "Netflix frames engagement as the moment when members discover a title, press play, and stay to watch", "unit": "reported platform mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Netflix proprietary engagement report covering title-level viewing for the first half of 2026; Netflix reports views and hours using its published engagement definitions.",
+      "uncertainty": "Platform viewing volume measures attention within Netflix, not audience satisfaction, cultural value, completion, repeat viewing outside the service, or causal influence on broader culture.",
+      "subgroup": "Netflix members, households sharing accounts, viewers of different genres and languages, creators, rights holders, and entertainment markets connected through global distribution.",
+      "counterinterpretation": "High hours can reflect long runtimes, autoplay, limited alternatives, or concentrated heavy users; aggregate viewing can hide unequal access and major differences in title availability by country.",
+      "source_url": "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2026",
+      "retrieval_hash": "sha256:9f888b08e9013b05d0b719c8db4ab0983879222811cdee85d5d3eb46115449da",
+      "status": "reported"
+    },
+    {
+      "period": "January-June 2026; local-language production and cross-border discovery",
+      "denominator": {"value": 1, "unit": "Netflix global title-viewing and country-market comparison frame", "value_type": "platform_comparison_frame"},
+      "measures": {
+        "india_viewing": {"value": "India reached its highest viewing for a half-year in the report, with Indian titles including Dhurandhar, Accused, Made in Korea, and Taskaree among notable performers", "unit": "reported market pattern", "value_type": "reported_market_signal"},
+        "non_english_breakthrough": {"value": "Dhurandhar is identified as the most-watched non-English film in this report at 37 million views", "unit": "reported title-level views", "value_type": "reported_title_metric"},
+        "cross_border_route": {"value": "Local-language titles can become globally visible through the same platform infrastructure that also serves English-language franchises", "unit": "reported distribution mechanism", "value_type": "analytic_connection"}
+      },
+      "method": "Netflix title-level engagement report and company comparison of market, language, and format performance.",
+      "uncertainty": "The public report does not show all country availability, marketing spend, translation access, title-level completion, or whether cross-border viewing translates into durable cultural exchange.",
+      "subgroup": "Viewers of Indian and other non-English content, local production industries, global audiences, translators, creators, and markets seeking cultural export routes.",
+      "counterinterpretation": "Platform success can still be concentrated in a small set of titles and may privilege formats, languages, and production systems that fit Netflix's global distribution and recommendation model.",
+      "source_url": "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2026",
+      "retrieval_hash": "sha256:9f888b08e9013b05d0b719c8db4ab0983879222811cdee85d5d3eb46115449da",
+      "status": "reported"
+    },
+    {
+      "period": "January-June 2026; franchises, catalog depth, and rewatching",
+      "denominator": {"value": 1, "unit": "Netflix franchise and catalog engagement comparison", "value_type": "platform_engagement_frame"},
+      "measures": {
+        "bridgerton_return": {"value": 100, "unit": "million views for Bridgerton Season 4 in the reported period", "value_type": "reported_title_metric"},
+        "catalog_reactivation": {"value": "The return of Bridgerton Season 4 nearly tripled viewing of earlier seasons and Queen Charlotte compared with the second half of 2025", "unit": "reported franchise effect", "value_type": "reported_comparison"},
+        "long_tail_value": {"value": "New releases can reactivate older seasons and related titles, making franchises and catalogs mutually reinforcing rather than disposable release events", "unit": "analytic platform mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Netflix comparison of title views across the first half of 2026 and the second half of 2025, using the company's engagement reporting.",
+      "uncertainty": "The report does not establish whether reactivated viewing represents new audiences, repeat viewing, marketing effects, or a sustained franchise habit after the release window.",
+      "subgroup": "Franchise fans, repeat viewers, households exploring back catalogs, rights holders, writers, actors, and streaming services managing release cadence.",
+      "counterinterpretation": "Franchise concentration can narrow cultural risk-taking, crowd out new work, and turn discovery into dependence on known intellectual property.",
+      "source_url": "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2026",
+      "retrieval_hash": "sha256:9f888b08e9013b05d0b719c8db4ab0983879222811cdee85d5d3eb46115449da",
+      "status": "reported"
+    },
+    {
+      "period": "January-June 2026; genre, language, and format variety",
+      "denominator": {"value": 1, "unit": "Netflix global title-viewing distribution frame", "value_type": "platform_distribution_frame"},
+      "measures": {
+        "variety": {"value": "The report highlights viewing across action, gangster drama, romance, animation, documentaries, series, films, and multiple language markets", "unit": "reported genre-and-format pattern", "value_type": "reported_diversity_pattern"},
+        "format_mix": {"value": "Streaming attention is distributed across episodic series, films, animation, documentaries, and other formats rather than one dominant entertainment form", "unit": "reported format pattern", "value_type": "reported_cross_format_pattern"},
+        "cultural_system": {"value": "Netflix operates as both a global distribution channel and a selective cultural filter, determining which local stories receive measurable international visibility", "unit": "analytic platform implication", "value_type": "analytic_mechanism"}
+      },
+      "method": "Netflix title-level engagement aggregation by genre, language, country, and format.",
+      "uncertainty": "The report is descriptive of Netflix viewing and does not measure the full entertainment market, titles excluded from Netflix, viewer quality judgments, or cultural influence outside the platform.",
+      "subgroup": "Viewers seeking different genres and languages, local producers, global distributors, cultural policymakers, and households choosing between streaming services.",
+      "counterinterpretation": "Apparent variety can coexist with concentrated recommendation power, uneven licensing, and reduced visibility for titles that do not fit platform metrics or release strategies.",
+      "source_url": "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2026",
+      "retrieval_hash": "sha256:9f888b08e9013b05d0b719c8db4ab0983879222811cdee85d5d3eb46115449da",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.netflix.com/tudum/articles/most-watched-movies-h1-2026", "claim": "Netflix Tudum provides a public title-level view of the most-watched movies in the first half of 2026 and reports 97 billion hours in the underlying report."},
+    {"source_url": "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025", "claim": "The prior half-year report provides a comparison vintage for Netflix's engagement reporting and title/language breadth."}
+  ],
+  "boundary": "This record adds Netflix's platform-engagement signal on global viewing scale, local-language breakout, franchise reactivation, and genre/format breadth. It uses company-reported aggregate viewing data, not respondent-level data, a quality or satisfaction measure, a complete entertainment-market census, or proof that platform visibility equals cultural influence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Netflix What We Watched H1 2026 release reviewed for reporting scope, 97 billion hours, India and non-English viewing, Dhurandhar, Bridgerton franchise reactivation, and title/genre/language engagement framing.",
+    "source_url_sha256": "sha256:9f888b08e9013b05d0b719c8db4ab0983879222811cdee85d5d3eb46115449da",
+    "checked": "2026-09-27"
+  }
+}

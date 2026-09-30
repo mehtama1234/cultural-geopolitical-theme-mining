@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-africa-integration-interoperability-regional-public-goods-2026",
+  "title": "Regional integration becomes real when systems interoperate: the hidden politics of making African markets work together",
+  "theme_ids": ["cost", "energy", "voice", "work"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank, Integrating Africa: From Threads to Hubs, September 2026",
+  "geography": "Sub-Saharan Africa, the African Continental Free Trade Area, African Union, Regional Economic Communities, corridors and cross-border production networks",
+  "observations": [
+    {
+      "period": "2026 regional integration baseline; intra-African trade and production structure",
+      "denominator": {"value": 1, "unit": "African trade, production and regional-integration system", "value_type": "reported_regional_frame"},
+      "measures": {
+        "intra_african_trade": {"value": "15–20 percent of Africa's total trade is with Africa itself, and this trade is more diversified and manufacturing-intensive than exports to the rest of the world", "unit": "reported regional trade composition", "value_type": "reported_trade_indicator"},
+        "manufactured_share": {"value": "More than 60 percent of intra-African trade flows are manufactured products, particularly medium-tech manufactures and processed goods, while more than half of exports to the rest of the world are primary commodities", "unit": "reported trade-composition comparison", "value_type": "reported_trade_structure"},
+        "trade_costs": {"value": "African intra-regional trade costs are estimated at 1.5 to 2 times the global average for similar income levels; the average ad valorem equivalent is estimated at 234–270 percent compared with 70–100 percent in East Asia", "unit": "reported trade-cost estimate", "value_type": "reported_cost_estimate"},
+        "mechanism": {"value": "Regional markets can provide the scale for specialization, learning and value addition, but high internal and cross-border frictions keep geographically close economies economically distant", "unit": "bounded regional-scale mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank report combining regional and global value-chain evidence, trade-cost decomposition, services restrictions, agreement benchmarking, consultations and sector/corridor analysis.",
+      "uncertainty": "Trade-cost estimates are model-based and depend on data, specification and comparison group; trade composition does not establish that deeper integration will cause inclusive growth, jobs or reduced inequality.",
+      "subgroup": "African firms, small and informal traders, manufacturers, agricultural producers, logistics providers, workers and consumers dependent on regional supply and market access.",
+      "counterinterpretation": "Regional trade can be more diversified without being broad-based or inclusive; larger regional markets may also intensify competition, concentrate gains in corridor hubs or expose local producers to stronger firms.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090426104539144/pdf/P502145-efcf3cf6-caff-49a1-9995-af1839871622.pdf",
+      "retrieval_hash": "sha256:6638da4cffac75e7a59926bacb6041e703d5410b5659a38879f9d2134cd10a85",
+      "status": "reported"
+    },
+    {
+      "period": "2026; behind-the-border frictions, interoperability and everyday market access",
+      "denominator": {"value": 1, "unit": "World Bank decomposition of African trade-cost sources", "value_type": "reported_cost-decomposition_frame"},
+      "measures": {
+        "unilateral_share": {"value": 60, "unit": "approximately percent of total African trade costs arising from unilateral or behind-the-border sources", "value_type": "reported_cost_decomposition"},
+        "domestic_sources": {"value": "Customs clearance inefficiency, unaligned regulation, suboptimal logistics, transit fragmentation and poor infrastructure are identified as major domestic sources of friction", "unit": "reported constraint set", "value_type": "reported_constraint_set"},
+        "bilateral_sources": {"value": "Divergent product standards, non-mutual recognition of licences and permits, weak transit regimes, opaque procedures and non-tariff barriers compound cross-border separation", "unit": "reported cross-border constraint set", "value_type": "reported_constraint_set"},
+        "interoperability": {"value": "The report defines integration readiness through whether data, goods, finance, regulation, logistics and institutions can operate seamlessly across borders—not merely whether a border is legally open", "unit": "reported analytical principle", "value_type": "reported_principle"},
+        "mechanism": {"value": "Market access becomes usable commerce only when interfaces between systems work: customs can exchange data, standards are recognised, payments settle, transport moves and firms can comply predictably", "unit": "bounded interoperability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank analytical decomposition of unilateral/internal and bilateral trade costs, combined with policy and corridor evidence on customs, transport, standards, digital systems, payments and services.",
+      "uncertainty": "The report identifies mechanisms and policy levers but does not provide a single intervention evaluation or establish that interoperability reforms will produce equal benefits across countries, firms, sectors or informal traders.",
+      "subgroup": "Small firms and informal cross-border traders, firms lacking trade finance or logistics capacity, transport operators, customs users, service exporters and consumers facing higher prices or narrower choice.",
+      "counterinterpretation": "Interoperability can lower costs but may also require standards, data disclosure and compliance capacity that smaller firms lack; harmonisation can reduce local regulatory discretion or privilege dominant corridors.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090426104539144/pdf/P502145-efcf3cf6-caff-49a1-9995-af1839871622.pdf",
+      "retrieval_hash": "sha256:6638da4cffac75e7a59926bacb6041e703d5410b5659a38879f9d2134cd10a85",
+      "status": "reported"
+    },
+    {
+      "period": "2026 implementation agenda; regional public goods, institutions and multi-level legitimacy",
+      "denominator": {"value": 1, "unit": "World Bank framework for African regional integration delivery", "value_type": "reported_policy_frame"},
+      "measures": {
+        "four_pillars": {"value": "The framework links regional production networks, lower trade frictions and interoperable systems, deeper and enforceable agreements, and regional public goods", "unit": "reported implementation framework", "value_type": "reported_framework"},
+        "regional_public_goods": {"value": "Transport corridors, power pools, digital networks, payment systems, disease surveillance and climate resilience create cross-border benefits but are systematically underprovided when left to individual states", "unit": "reported regional-public-goods set", "value_type": "reported_institutional_finding"},
+        "delivery_scale": {"value": "The report assigns national reforms to domestic governments, regional coordination to Regional Economic Communities and corridor institutions, and continental coherence and standards to the African Union and AfCFTA", "unit": "reported subsidiarity framework", "value_type": "reported_governance_recommendation"},
+        "examples": {"value": "The report cites gender-sensitive one-stop border posts, COMESA electronic cargo tracking that reduced transit theft by more than 90 percent along the EAC Corridor, and ECOWAS Brown Card cross-border motor-vehicle insurance covering more than 200 million citizens and processing more than 500,000 claims", "unit": "reported illustrative regional-public-good examples", "value_type": "reported_case_measures"},
+        "mechanism": {"value": "Regional legitimacy depends on visible delivery at the scale where spillovers occur: agreements gain trust when corridors, power, payments, insurance, health surveillance and data systems produce usable benefits and accountable remedy", "unit": "bounded geopolitical-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "World Bank synthesis of regional public-goods theory, African institutional arrangements, corridor cases, consultations and recommendations based on subsidiarity and variable geometry.",
+      "uncertainty": "Illustrative regional initiatives are not comparable impact evaluations; reported reductions, coverage and claims do not establish universal effectiveness, equitable distribution, institutional legitimacy or durable political support.",
+      "subgroup": "Governments, Regional Economic Communities, African Union and AfCFTA institutions, corridor communities, traders, transport workers, insurers, energy users and firms operating across borders.",
+      "counterinterpretation": "Regional institutions can be perceived as remote or hegemonic, and sanctions or shared systems can provoke resistance if smaller states, civil society and local users lack representation, transparency and remedy.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090426104539144/pdf/P502145-efcf3cf6-caff-49a1-9995-af1839871622.pdf",
+      "retrieval_hash": "sha256:6638da4cffac75e7a59926bacb6041e703d5410b5659a38879f9d2134cd10a85",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/brief/2026/08/25/integrating-africa-from-threads-to-hubs", "claim": "Official World Bank report brief with four-pillar framework, key findings and policy agenda."},
+    {"source_url": "https://www.worldbank.org/en/events/2026/08/28/integrating-africa-from-threads-to-hubs", "claim": "Official World Bank launch page describing the report's evidence, implementation challenge and national/regional/continental delivery roles."},
+    {"source_url": "https://documents.worldbank.org/curated/en/099090426104539144/text/P502145-efcf3cf6-caff-49a1-9995-af1839871622.txt", "claim": "Official World Bank text version used to review the full report's methods, decomposition, regional public-goods analysis and policy recommendations."}
+  ],
+  "boundary": "This record identifies a geopolitical-economic interoperability and regional-public-goods subtheme. It does not establish that AfCFTA implementation, interoperable systems, deeper agreements, corridors, power pools, digital networks or regional institutions will increase trade, lower prices, create jobs, reduce conflict, improve consumer welfare or distribute gains equitably; those require named corridor, firm, trader, household and institutional episodes with observed delivery, cost, access, remedy and political response.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank 214-page report PDF/text, report brief and launch page, intra-African trade composition, modelled trade costs, behind-the-border and bilateral frictions, interoperability principle, four pillars, regional public goods, subsidiarity and illustrative corridor, insurance and tracking cases were reviewed.",
+    "source_url_sha256": "sha256:6638da4cffac75e7a59926bacb6041e703d5410b5659a38879f9d2134cd10a85",
+    "checked": "2026-09-29"
+  }
+}

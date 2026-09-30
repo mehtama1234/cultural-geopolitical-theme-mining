@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-public-first-education-cross-party-technical-pathways-delivery-2026",
+  "title": "Cross-party support is consolidating around technical and life-readiness education, but delivery skepticism limits political conversion",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "Public First, The Cross-Party Consensus for Andy Burnham's Education Policy",
+  "geography": "United Kingdom; national adults and West Midlands focus groups",
+  "observations": [
+    {
+      "period": "July-August 2026; education purpose and school-to-work pathway",
+      "denominator": {"value": 4025, "unit": "UK adults across two polls; six West Midlands focus groups supplement the polling", "value_type": "reported_mixed_method_sample"},
+      "measures": {
+        "technical_and_apprenticeship_preference": {"value": "Voters overwhelmingly want more technical education and apprenticeships, less emphasis on university, and better preparation for adult life.", "unit": "reported national polling and focus-group finding", "value_type": "reported_mixed_method_finding"},
+        "system_failure": {"value": "Respondents say the education system is failing to deliver the technical routes, life skills, and adult readiness they want.", "unit": "reported mixed-method finding", "value_type": "reported_mixed_method_finding"},
+        "education_as_adult_readiness": {"value": "Education is being judged less as credential accumulation alone and more as a route to independence, work readiness, resilience, money management, relationships, and functioning in adult life.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Public First mixed-method research: two weighted online polls of 2,021 and 2,004 UK adults, plus six 75-minute West Midlands focus groups organized by voting intention, including non-voters; fieldwork July-August 2026.",
+      "uncertainty": "The focus groups are purposive and regional rather than representative; the report is commissioned political research and the qualitative interpretation is not a causal estimate.",
+      "subgroup": "UK adults by voting intention, region, socioeconomic group, and six West Midlands focus-group constituencies.",
+      "counterinterpretation": "Preference for technical routes may reflect student-debt, labour-market, or cost-of-living frustration rather than a settled rejection of university or academic education.",
+      "source_url": "https://www.publicfirst.co.uk/the_cross_party_consensus_for_andy_burnham_s_education_policy",
+      "retrieval_hash": "sha256:07e32e6225abdc4c7621dd387040a9b5a4925b2cc2dcec24edf9fd5e965c2826",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; education issues and electoral salience",
+      "denominator": {"value": 4025, "unit": "UK adults across two weighted polls; question bases vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "apprenticeships_technical_skills_vote_issue": {"value": 20, "unit": "percent naming apprenticeships and technical skills among education issues that could influence their vote", "value_type": "published_survey_estimate"},
+        "university_top_two_funding_priority": {"value": 14, "unit": "percent placing university among their top two education-funding priorities", "value_type": "published_survey_estimate"},
+        "apprenticeship_top_two_funding_priority": {"value": 37, "unit": "percent placing apprenticeships among their top two education-funding priorities", "value_type": "published_survey_estimate"},
+        "adult_training_top_two_funding_priority": {"value": 27, "unit": "percent placing adult training and skills among their top two education-funding priorities", "value_type": "published_survey_estimate"},
+        "pathway_revaluation": {"value": "Technical and vocational routes are becoming a cross-party status and resource question, not only a niche labour-market policy.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Weighted online polling with question-specific bases; Public First reports cross-party and demographic comparisons in the insights note and polling tables.",
+      "uncertainty": "These are stated priorities and potential vote influences, not observed enrollment, funding choices, attainment, or employment outcomes.",
+      "subgroup": "UK adults by voting intention, age, region, and socioeconomic group.",
+      "counterinterpretation": "Respondents may support expanding technical routes without wanting university funding or academic routes reduced; top-two choices compress multiple preferences.",
+      "source_url": "https://assets.nationbuilder.com/stonehaven/pages/6463/attachments/original/1790236886/Cross_Party_Consensus_on_Education_-_Public_First_-_Insights_Note_-_240926.pdf?1790236886=",
+      "retrieval_hash": "sha256:07e32e6225abdc4c7621dd387040a9b5a4925b2cc2dcec24edf9fd5e965c2826",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; cross-party policy reception and trust",
+      "denominator": {"value": 4025, "unit": "UK adults across two weighted polls; focus groups supplement", "value_type": "reported_mixed_method_sample"},
+      "measures": {
+        "trust_on_education": {"value": 55, "unit": "percent trusting Andy Burnham a great deal or fair amount on education", "value_type": "published_survey_estimate"},
+        "confidence_policy_delivery": {"value": 47, "unit": "percent very or fairly confident the tested policies could be delivered", "value_type": "published_survey_estimate"},
+        "low_confidence_policy_delivery": {"value": 42, "unit": "percent not very or not at all confident the tested policies could be delivered", "value_type": "published_survey_estimate"},
+        "cross_party_reception": {"value": "Technical and vocational policies, work placements from age 14, and parity of esteem between academic and technical routes receive positive responses across voting groups, but attribution to a politician reactivates distrust.", "unit": "reported mixed-method mechanism", "value_type": "reported_mechanism"},
+        "delivery_gap": {"value": "Policy agreement does not automatically become political legitimacy; implementation credibility and explanation are part of the policy itself.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Mixed-method comparison of blind and attributed policy responses in focus groups, alongside two weighted national polls.",
+      "uncertainty": "The report tests perceptions of a named political platform at one moment; it does not measure implementation capacity or later delivery.",
+      "subgroup": "UK adults by voting intention, including Labour, Conservative, Liberal Democrat, Reform, Green, and non-voter focus groups.",
+      "counterinterpretation": "The confidence split may reflect general political distrust rather than education-specific skepticism; stated trust may not translate into vote choice.",
+      "source_url": "https://www.publicfirst.co.uk/the_cross_party_consensus_for_andy_burnham_s_education_policy",
+      "retrieval_hash": "sha256:07e32e6225abdc4c7621dd387040a9b5a4925b2cc2dcec24edf9fd5e965c2826",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; local devolution and postcode-risk response",
+      "denominator": {"value": 6, "unit": "West Midlands focus groups of six to eight participants each; qualitative evidence", "value_type": "qualitative_group_count"},
+      "measures": {
+        "local_devolution_appeal": {"value": "Some participants saw devolved education and skills power as a route to local pride, ownership, and place-specific opportunity.", "unit": "reported focus-group finding", "value_type": "qualitative_finding"},
+        "postcode_lottery_concern": {"value": "Others feared local devolution would create a postcode lottery or amplify unequal local capacity, and some distrusted local authorities.", "unit": "reported focus-group finding", "value_type": "qualitative_finding"},
+        "transparency_condition": {"value": "Participants described honesty, transparency, and clear explanations for changed promises as conditions for rebuilding confidence when perfect delivery is impossible.", "unit": "reported focus-group finding", "value_type": "qualitative_finding"},
+        "place_delivery_tradeoff": {"value": "Local control can increase ownership and fit while simultaneously raising concerns about uneven capacity, making devolution a delivery-legitimacy tradeoff.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Six 75-minute moderated West Midlands focus groups, one each for Labour, Conservative, Liberal Democrat, Reform, Green, and would-not-vote participants; sessions were recorded and transcribed with consent.",
+      "uncertainty": "Qualitative statements show reasoning and concerns within the groups, not prevalence across the UK or even the West Midlands.",
+      "subgroup": "West Midlands participants organized by voting intention and non-voting status.",
+      "counterinterpretation": "Postcode-lottery concern may reflect local-government performance memories or general institutional distrust rather than a stable objection to devolution.",
+      "source_url": "https://assets.nationbuilder.com/stonehaven/pages/6463/attachments/original/1790236886/Cross_Party_Consensus_on_Education_-_Public_First_-_Insights_Note_-_240926.pdf?1790236886=",
+      "retrieval_hash": "sha256:07e32e6225abdc4c7621dd387040a9b5a4925b2cc2dcec24edf9fd5e965c2826",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.publicfirst.co.uk/the_cross_party_consensus_for_andy_burnham_s_education_policy", "claim": "Public First publication page describing the two national polls, six focus groups, core findings, and links to the report and polling tables.", "status": "official-publication-page"},
+    {"source_url": "https://assets.nationbuilder.com/stonehaven/pages/6463/attachments/original/1790236886/Cross_Party_Consensus_on_Education_-_Public_First_-_Insights_Note_-_240926.pdf?1790236886=", "claim": "Official insights note containing question-level estimates, focus-group findings, methodological details, and delivery/trust analysis.", "status": "official-report-pdf"}
+  ],
+  "boundary": "This record adds a cultural-political education route: voters are revaluing technical, vocational, life-skills, and work-readiness pathways across party lines, while delivery skepticism and postcode-lottery concerns limit conversion from agreement into trust. It does not establish that university is broadly rejected, that technical education improves employment, that preferences are stable, or that the named policies can be implemented. The research is commissioned political polling and qualitative focus-group evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Public First insights note and publication page were reviewed for polling sample sizes, dates, weighting, focus-group structure, technical-education and apprenticeship preferences, education-purpose findings, trust, delivery confidence, devolution concerns, transparency conditions, and limitations.",
+    "source_page_sha256": "sha256:07e32e6225abdc4c7621dd387040a9b5a4925b2cc2dcec24edf9fd5e965c2826",
+    "checked": "2026-09-28"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ssrs-cnn-ai-fear-regulation-public-legitimacy-2026",
+  "title": "Public fear of AI is converging with cross-partisan demand for stronger regulation, creating a legitimacy gap between use, benefit, and control",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "CNN poll conducted by SSRS and released 24 September 2026",
+  "geography": "United States adults age 18 and older; nationally representative SSRS Opinion Panel",
+  "observations": [
+    {
+      "period": "16-17 September 2026 survey; released 24 September 2026",
+      "denominator": {"value": 1206, "unit": "U.S. adults", "value_type": "reported_sample"},
+      "measures": {
+        "ai_attitude": {"value": "Americans expressed far more fear and concern than hope and excitement about the growth and development of AI", "unit": "reported public-attitude finding", "value_type": "reported_direction"},
+        "sample_design": {"value": "nationally representative probability-based SSRS Opinion Panel; web and telephone", "unit": "survey design", "value_type": "reported_method"},
+        "sampling_error": {"value": 3.5, "unit": "percentage points at 95% confidence", "value_type": "reported_margin"}
+      },
+      "method": "CNN poll conducted by SSRS using web and telephone interviews with the probability-recruited SSRS Opinion Panel.",
+      "uncertainty": "This is a cross-sectional opinion measure; it does not identify which AI experiences produced concern, distinguish specific applications, or measure subsequent behavior.",
+      "subgroup": "U.S. adults with different work exposure, income, age, education, political identities, AI familiarity, and exposure to automated decisions.",
+      "counterinterpretation": "Fear and concern can coexist with experimentation, workplace use, consumer convenience, or support for carefully bounded rather than broad regulation.",
+      "source_url": "https://ssrs.com/news/majority-of-americans-express-fear-and-concern-about-ai/",
+      "retrieval_hash": "sha256:7cf15961d7732d63861c9d19b8c41e176932902a82858f04aee2f60a872a2311",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; federal AI regulation",
+      "denominator": {"value": 1206, "unit": "U.S. adults in the CNN/SSRS poll", "value_type": "reported_sample"},
+      "measures": {
+        "regulatory_demand": {"value": "broad partisan agreement that the federal government should do more to regulate AI", "unit": "reported public-attitude finding", "value_type": "reported_direction"},
+        "control_expectation": {"value": "public concern is being translated into a demand for a stronger institutional control role", "unit": "bounded political mechanism", "value_type": "bounded_mechanism"},
+        "partisan_boundary": {"value": "the official summary reports broad partisan agreement but does not provide the full party cross-tab in the landing-page summary", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Public summary of a nationally representative mixed-mode opinion poll; the source reports direction and partisan breadth rather than a full policy-preference table.",
+      "uncertainty": "Support for more regulation does not specify the preferred regulator, policy instrument, enforcement capacity, or trade-off with innovation and privacy.",
+      "subgroup": "People divided by party, occupation, sector, region, age, digital access, and exposure to algorithmic decisions.",
+      "counterinterpretation": "A desire for regulation may reflect general anxiety or symbolic politics rather than a stable, detailed regulatory preference.",
+      "source_url": "https://ssrs.com/news/majority-of-americans-express-fear-and-concern-about-ai/",
+      "retrieval_hash": "sha256:7cf15961d7732d63861c9d19b8c41e176932902a82858f04aee2f60a872a2311",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI use, benefit, and legitimacy",
+      "denominator": {"value": 1, "unit": "bounded analytical synthesis from the CNN/SSRS findings", "value_type": "analytical_frame"},
+      "measures": {
+        "legitimacy_gap": {"value": "AI can spread through work, services, and consumption while public confidence in its direction and governance remains weak", "unit": "bounded cross-domain mechanism", "value_type": "bounded_mechanism"},
+        "recourse_route": {"value": "the missing institutional test is whether people can understand, contest, correct, and obtain remedy for AI-mediated decisions", "unit": "research requirement", "value_type": "research_requirement"},
+        "outcome_boundary": {"value": "the poll does not measure adoption, productivity, discrimination, job loss, service quality, or actual regulatory compliance", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Bounded synthesis connecting the reported attitude and regulation findings to the program's control, trust, work, and recourse pathways.",
+      "uncertainty": "The survey cannot establish whether concern reflects direct experience, media narratives, anticipated risk, or generalized institutional distrust.",
+      "subgroup": "Workers, consumers, public-service users, firms, regulators, and people subject to high- or low-stakes automated decisions.",
+      "counterinterpretation": "Public concern may recede if visible benefits grow, or intensify if failures, opacity, or unequal exposure become more salient.",
+      "source_url": "https://ssrs.com/news/majority-of-americans-express-fear-and-concern-about-ai/",
+      "retrieval_hash": "sha256:7cf15961d7732d63861c9d19b8c41e176932902a82858f04aee2f60a872a2311",
+      "status": "reported"
+    },
+    {
+      "period": "Next evidence test",
+      "denominator": {"value": 1, "unit": "program research requirement", "value_type": "research_frame"},
+      "measures": {
+        "policy_conversion": {"value": "test whether fear and regulatory demand convert into enforceable transparency, safety, rights, human review, complaint handling, and remedy", "unit": "research requirement", "value_type": "research_requirement"},
+        "institutional_signal": {"value": "track whether regulation improves perceived control and trust, not merely whether rules are announced", "unit": "research requirement", "value_type": "research_requirement"},
+        "causal_boundary": {"value": "this source identifies a legitimacy and policy-demand signal, not a causal effect of regulation on public welfare", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "Program-level next-test specification grounded in the CNN/SSRS public-opinion finding.",
+      "uncertainty": "The public source does not reveal which safeguards respondents value most or how preferences vary by concrete AI use case.",
+      "subgroup": "People affected by hiring, credit, education, health, policing, benefits, customer service, and generative-AI systems.",
+      "counterinterpretation": "Regulatory activity can increase formal compliance without increasing practical contestability or public trust.",
+      "source_url": "https://ssrs.com/news/majority-of-americans-express-fear-and-concern-about-ai/",
+      "retrieval_hash": "sha256:7cf15961d7732d63861c9d19b8c41e176932902a82858f04aee2f60a872a2311",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ssrs.com/news/majority-of-americans-express-fear-and-concern-about-ai/", "claim": "SSRS public summary of the CNN poll, sample design, field dates, and AI-attitude/regulation findings."}
+  ],
+  "boundary": "This record adds a public-legitimacy route from AI concern through demand for federal regulation, institutional control, contestability, remedy, and trust. It does not establish AI adoption, job displacement, bias, service outcomes, regulatory effectiveness, or causal political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "SSRS page reviewed for the 24 September 2026 release, CNN poll attribution, fear/concern versus hope/excitement direction, broad partisan regulation agreement, sample, field dates, mixed-mode design, probability-based panel, and margin of error.",
+    "source_url_sha256": "sha256:7cf15961d7732d63861c9d19b8c41e176932902a82858f04aee2f60a872a2311",
+    "checked": "2026-09-29"
+  }
+}

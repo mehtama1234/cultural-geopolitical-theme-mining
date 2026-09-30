@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-brazil-fundacao-itau-datafolha-cultural-habits-2025-remote-presence-class-gap",
+  "title": "Brazil’s cultural reach is broad digitally but physical participation remains sharply stratified by education and economic class",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Observatório Fundação Itaú, Hábitos Culturais 6ª edição, with technical support from Datafolha",
+  "geography": "Brazil; people aged 16 to 65, with national socioeconomic and education comparisons",
+  "observations": [
+    {
+      "period": "August 11-26, 2025; cultural participation in the previous 12 months",
+      "denominator": {"value": 2432, "unit": "people aged 16 to 65 interviewed in person at population-flow locations in Brazil", "value_type": "reported_sample"},
+      "measures": {
+        "virtual_participation": {"value": 90, "unit": "percent reporting cultural activities virtually in the previous 12 months", "value_type": "reported_survey_share"},
+        "in_person_participation": {"value": 84, "unit": "percent reporting in-person cultural activities in the previous 12 months", "value_type": "reported_survey_share"},
+        "basic_education_in_person": {"value": 70, "unit": "percent of respondents with elementary-level education reporting in-person cultural participation", "value_type": "reported_subgroup_share"},
+        "higher_education_in_person": {"value": 96, "unit": "percent of respondents with higher education reporting in-person cultural participation", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Digital cultural reach can be broad while physical attendance remains education-stratified, separating cultural exposure from venue access and social participation", "unit": "bounded hybrid-access mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Fundação Itaú quantitative survey with technical support from Datafolha; in-person structured interviews at population-flow locations, with a reported maximum margin of error of 2 percentage points at 95% confidence for the total sample.",
+      "uncertainty": "The survey is self-reported and the in-person flow-location design is not equivalent to a household probability sample. Remote and in-person categories can overlap and do not measure frequency, spending, quality, accessibility, or causal effects of education.",
+      "subgroup": "People aged 16-65, compared by education and socioeconomic class; the published summary does not provide a full joint education-by-income-by-region table.",
+      "counterinterpretation": "Higher physical participation among highly educated respondents may reflect age, urban residence, income, transport, cultural interest, or survey-location composition rather than education alone. Virtual participation may also require devices, data, privacy, and skills.",
+      "source_url": "https://fundacaoitau.org.br/observatorio/biblioteca/habitos-culturais",
+      "retrieval_hash": "sha256:6af5e716aa81d2822fe6e033b1f0c22d20c198c91f635119648809b036b50d6a",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; socioeconomic class and selected in-person cultural activities",
+      "denominator": {"value": 100, "unit": "respondent share within the survey's socioeconomic-class comparisons", "value_type": "reported_percentage_denominator"},
+      "measures": {
+        "class_d_e_in_person": {"value": 71, "unit": "percent of respondents in economic classes D/E reporting in-person cultural participation", "value_type": "reported_subgroup_share"},
+        "class_a_b_in_person": {"value": 93, "unit": "percent of respondents in economic classes A/B reporting in-person cultural participation", "value_type": "reported_subgroup_share"},
+        "cinema_gap": {"value": "approximately 40 percentage points between classes A/B and D/E, stable across the 2022-2025 series", "unit": "reported socioeconomic access gap", "value_type": "reported_comparative_gap"},
+        "museum_gap": {"value": "approximately 20 percentage points between classes A/B and D/E, stable across the series", "unit": "reported socioeconomic access gap", "value_type": "reported_comparative_gap"},
+        "theater_gap_change": {"value": "the class gap in theatre access increased from 17 percentage points in 2022 to 28 percentage points in 2025", "unit": "reported change in socioeconomic access gap", "value_type": "reported_change"},
+        "mechanism": {"value": "Hybrid cultural access does not erase class inequality: remote participation is more widespread, but physical venues and selected high-cost or place-dependent activities remain unequal", "unit": "bounded class-conversion mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive comparison of the 2022-2025 Fundação Itaú/Datafolha cultural-habits waves as summarized by the 2025 release.",
+      "uncertainty": "The source reports class comparisons and margins but does not identify whether prices, transport, safety, supply, time, education, or preferences account for the gaps. The series is not a panel of the same respondents.",
+      "subgroup": "Economic classes A/B and D/E, with activity-specific comparisons for cinema, museums, and theatre.",
+      "counterinterpretation": "Persistent gaps can reflect unequal urban supply, different age structures, social networks, or willingness to report rather than direct price exclusion; rising gaps in one activity do not establish a general cultural retreat.",
+      "source_url": "https://fundacaoitau.org.br/observatorio/biblioteca/habitos-culturais",
+      "retrieval_hash": "sha256:6af5e716aa81d2822fe6e033b1f0c22d20c198c91f635119648809b036b50d6a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fundacaoitau.org.br/noticias/cultura/acesso-a-cultura-nas-capitais-e-tema-de-pesquisa-inedita-da-fundacao-itau", "claim": "Complementary 2024 Cultura nas Capitais survey with 19,500 in-person interviews across all Brazilian capitals and the Federal District.", "status": "institutional-comparator"},
+    {"source_url": "https://www.ibge.gov.br/estatisticas/multidominio/cultura-recreacao-e-esporte/9388-indicadores-culturais.html%7C", "claim": "IBGE cultural-indicators context for cultural production, access, labor, prices, and regional infrastructure.", "status": "official-comparator"}
+  ],
+  "boundary": "This record adds a current Brazilian demand-side hybrid-access and socioeconomic-gap layer. It does not establish causal class effects, venue supply, household spending, device or data affordability, cultural quality, or durable participation trajectories.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Fundação Itaú 2025 page reviewed for survey design, sample, virtual and in-person participation, education/class splits, historical activity gaps, and margin-of-error context.",
+    "html_locator_sha256": "sha256:6af5e716aa81d2822fe6e033b1f0c22d20c198c91f635119648809b036b50d6a",
+    "checked": "2026-09-30"
+  }
+}

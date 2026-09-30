@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wmo-air-quality-climate-bulletin-2026-wildfire-ozone-aerosol-health",
+  "title": "Air pollution and climate risk are converging through wildfire smoke, heat-driven ozone, aerosols, and monitoring gaps",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Meteorological Organization Air Quality and Climate Bulletin No. 6, September 2026",
+  "geography": "Global air-quality and climate linkages, with 2025 atmospheric evidence and regional examples",
+  "observations": [
+    {
+      "period": "2025; fine particulate matter and regional exposure",
+      "denominator": {"value": 1, "unit": "global PM2.5 atmospheric assessment and regional model comparisons", "value_type": "published_assessment_frame"},
+      "measures": {
+        "above_average_regions": {"value": "northern Canada, parts of the Russian Federation, western-central Africa, and north-western Spain had PM2.5 concentrations above the long-term average in 2025", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "china_pattern": {"value": "PM2.5 levels continued below the long-term average in China in 2025, reflecting lower emissions from human activities", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "india_pattern": {"value": "India continued to have above-average PM2.5 levels associated with biomass burning and other pollution", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "model_robustness": {"value": "results from four model sources were comparable and mostly consistent", "unit": "reported methodological comparison", "value_type": "reported_method_check"}
+      },
+      "method": "WMO synthesizes Global Atmosphere Watch information and multiple atmospheric models to assess pollutant distributions and climate linkages.",
+      "uncertainty": "Regional model comparisons do not provide individual exposure histories, local monitoring coverage, or causal health estimates for each population.",
+      "subgroup": "Urban and rural populations, people near wildfire or biomass-burning sources, children, older adults, people with respiratory conditions, and ecosystems.",
+      "counterinterpretation": "A regional average can improve while local hotspots worsen; model agreement supports atmospheric understanding but does not eliminate uncertainty about exposure or health response.",
+      "source_url": "https://wmo.int/resources/publication-series/wmo-air-quality-and-climate-bulletin/wmo-air-quality-and-climate-bulletin-no-6-september-2026",
+      "retrieval_hash": "sha256:007e147524cc7c195d711c0eefe34c957e9dbe0bc84f9a53c05d3c34edd3acc5",
+      "status": "reported"
+    },
+    {
+      "period": "1990s–2025; wildfire smoke and particulate exposure",
+      "denominator": {"value": 1, "unit": "global extreme wildfire-smoke event trend summarized in the WMO bulletin", "value_type": "published_trend_frame"},
+      "measures": {
+        "smoke_event_change": {"value": 3, "unit": "approximate multiple by which extreme fire-smoke events have increased since the 1990s, according to a cited study", "value_type": "reported_trend"},
+        "estimated_deaths": {"value": 100000, "unit": "additional deaths per year estimated for 2010–2018 associated with extreme fire-smoke events, nearly", "value_type": "cited_estimate"},
+        "model_underestimate": {"value": 93, "unit": "percent by which conventional PM2.5 risk models may underestimate wildfire-attributable mortality in a cited epidemiological study", "value_type": "cited_estimate"},
+        "toxicity_boundary": {"value": "wildfire smoke contains a toxic mixture that is not fully represented by total PM2.5 concentration alone", "unit": "reported health mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The bulletin synthesizes scientific articles and cited epidemiological and atmospheric studies on wildfire emissions and health.",
+      "uncertainty": "The estimates are cited study findings with their own assumptions and uncertainty; they do not establish a universal mortality effect or attribution for every fire event.",
+      "subgroup": "People exposed to wildfire smoke, emergency responders, outdoor workers, communities downwind of fires, and populations with unequal access to warnings and clean indoor air.",
+      "counterinterpretation": "Smoke effects vary with duration, composition, ventilation, behavior, medical vulnerability, and access to protection; a global trend does not imply identical local exposure.",
+      "source_url": "https://wmo.int/media/news/wmo-bulletin-shows-air-quality-and-climate-interlinkages",
+      "retrieval_hash": "sha256:007e147524cc7c195d711c0eefe34c957e9dbe0bc84f9a53c05d3c34edd3acc5",
+      "status": "reported"
+    },
+    {
+      "period": "2025 and forward-looking climate conditions; heatwaves and ground-level ozone",
+      "denominator": {"value": 1, "unit": "WMO assessment of climate–ozone interaction during heatwaves", "value_type": "published_assessment_frame"},
+      "measures": {
+        "ozone_drivers": {"value": "rising temperatures, stagnant atmospheric conditions, and intense solar radiation promote ground-level ozone formation", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "health_and_ecosystem_effects": {"value": "ground-level ozone affects human health, agriculture, and ecosystems and is associated with respiratory mortality", "unit": "reported impact pathway", "value_type": "reported_mechanism"},
+        "future_risk": {"value": "ozone-related health risks are expected to intensify as heatwave conditions increase", "unit": "reported forward-looking assessment", "value_type": "reported_assessment"},
+        "premature_death_signal": {"value": "heatwave-related ozone exposure has potential to cause tens of thousands of additional premature deaths", "unit": "reported order-of-magnitude signal", "value_type": "reported_estimate"}
+      },
+      "method": "WMO links atmospheric chemistry, heatwave conditions, health literature, agriculture, and ecosystem impacts.",
+      "uncertainty": "The bulletin does not provide a single global causal estimate; ozone formation and health effects vary by place, pollutant mix, weather, and population vulnerability.",
+      "subgroup": "People in hot urban or polluted regions, outdoor workers, agricultural communities, children, older people, and people with respiratory disease.",
+      "counterinterpretation": "Emissions controls and heat-health action can reduce exposure even as climate conditions worsen; local ozone trends need not track temperature one-for-one.",
+      "source_url": "https://wmo.int/media/news/wmo-bulletin-shows-air-quality-and-climate-interlinkages",
+      "retrieval_hash": "sha256:007e147524cc7c195d711c0eefe34c957e9dbe0bc84f9a53c05d3c34edd3acc5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 monitoring and policy assessment; aerosols and data gaps",
+      "denominator": {"value": 1, "unit": "WMO air-quality and climate monitoring framework", "value_type": "published_framework"},
+      "measures": {
+        "pollutants_needing_better_observation": {"value": "fine particulate matter, ground-level ozone, black carbon, and atmospheric microplastics", "unit": "reported measurement priorities", "value_type": "reported_framework"},
+        "cross_scale_problem": {"value": "air pollution operates over days to weeks and local-to-regional scales, while climate change unfolds over decades to centuries", "unit": "reported temporal and spatial contrast", "value_type": "reported_framework"},
+        "policy_need": {"value": "air-quality and climate policies must be coordinated rather than handled in isolation", "unit": "reported governance direction", "value_type": "reported_framework"},
+        "microplastic_model_signal": {"value": "one Earth-system-model estimate cited 51 million tonnes of microplastics on land and 22 million tonnes in the ocean as atmospheric sources", "unit": "cited model estimate", "value_type": "cited_estimate"}
+      },
+      "method": "The bulletin combines WMO network data, scientific contributions, model outputs, and policy synthesis across pollutants and climate processes.",
+      "uncertainty": "Monitoring gaps and large variation among microplastic estimates limit comparability; measurement priorities are not evidence that policy coordination has occurred.",
+      "subgroup": "National monitoring agencies, cities, health systems, climate policymakers, communities near sources, and populations lacking clean-air information or protection.",
+      "counterinterpretation": "Better monitoring can reveal previously hidden exposure without worsening conditions; coordinated policy may create co-benefits but also involve sectoral trade-offs.",
+      "source_url": "https://wmo.int/resources/publication-series/wmo-air-quality-and-climate-bulletin/wmo-air-quality-and-climate-bulletin-no-6-september-2026",
+      "retrieval_hash": "sha256:007e147524cc7c195d711c0eefe34c957e9dbe0bc84f9a53c05d3c34edd3acc5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wmo.int/resources/publication-series/state-of-global-water-resources/2025", "claim": "Complementary WMO water-cycle and hydrological-exposure evidence."},
+    {"source_url": "https://www.who.int/publications/i/item/9789240094710", "claim": "Complementary climate-health and health-system evidence."}
+  ],
+  "boundary": "This record adds an air-quality and climate-health route linking wildfire smoke, PM2.5, ground-level ozone, aerosols, black carbon, microplastics, atmospheric observations, and coordinated policy. It uses global and regional scientific synthesis, not personal exposure histories, clinical records, local sensor coverage, causal mortality estimates for every population, or proof that air-quality policy improved outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "WMO Air Quality and Climate Bulletin No. 6 landing page and official news story were reviewed for 2025 pollutant patterns, wildfire smoke trends, ozone mechanisms, aerosol effects, cited health estimates, monitoring gaps, and policy boundaries.",
+    "source_url_sha256": "sha256:007e147524cc7c195d711c0eefe34c957e9dbe0bc84f9a53c05d3c34edd3acc5",
+    "checked": "2026-09-27"
+  }
+}

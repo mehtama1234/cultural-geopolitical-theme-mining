@@ -1,0 +1,171 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-abs-migrant-settlement-outcomes-2026-visa-stream-income-rent-language",
+  "title": "Australian migrant settlement outcomes diverge by visa stream across income, rent pressure, language, and service access",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "Australian Bureau of Statistics, Migrant Settlement Outcomes, 2026",
+  "geography": "Australia; permanent migrants with linked administrative, Census, and settlement-outcome data",
+  "observations": [
+    {
+      "period": "2023-24 income and 2021 employment; permanent migrants by visa stream",
+      "denominator": {
+        "value": null,
+        "unit": "ABS linked administrative and Census migrant-outcome populations; publication does not disclose one simple respondent denominator for the displayed outcome estimates",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "employment_permanent_migrants": {
+          "value": 74,
+          "unit": "percent of permanent migrants aged 15+ employed in 2021",
+          "value_type": "official_linked_data_estimate"
+        },
+        "employment_skilled_stream": {
+          "value": 82,
+          "unit": "percent employed among skilled-stream permanent migrants in 2021",
+          "value_type": "official_linked_data_estimate"
+        },
+        "employment_humanitarian_stream": {
+          "value": 46,
+          "unit": "percent employed among humanitarian-stream permanent migrants in 2021",
+          "value_type": "official_linked_data_estimate"
+        },
+        "median_income_permanent_migrants": {
+          "value": 70762,
+          "unit": "Australian dollars median total income in 2023-24",
+          "value_type": "official_linked_data_estimate"
+        },
+        "median_income_skilled_stream": {
+          "value": 83466,
+          "unit": "Australian dollars median total income in 2023-24",
+          "value_type": "official_linked_data_estimate"
+        },
+        "median_income_humanitarian_stream": {
+          "value": 43910,
+          "unit": "Australian dollars median total income in 2023-24",
+          "value_type": "official_linked_data_estimate"
+        },
+        "mechanism": {
+          "value": "Settlement does not produce one common economic pathway: visa-stream differences remain visible in employment and income, which changes practical household room for discretionary, cultural, and consumer choices",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS linked-data release combining the Permanent Migration Program, Census, Australian Census and Migrants Integrated Dataset, and settlement data sources; estimates are rounded in the publication where indicated.",
+      "uncertainty": "The release is observational and linked-data based; displayed outcomes do not establish that visa stream itself causes the differences, and the source does not directly measure cultural participation, discretionary spending, wealth, or household consumption choices.",
+      "subgroup": "Permanent migrants overall and skilled- and humanitarian-stream migrants; stream composition, arrival cohort, age, family structure, recognition of qualifications, and location may differ.",
+      "counterinterpretation": "The gaps may reflect selection into visa streams, time since arrival, age, education, English proficiency, labor-market recognition, health, discrimination, or place-specific conditions rather than a single settlement effect.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/migrant-settlement-outcomes/2026",
+      "retrieval_hash": "sha256:87c2b587e4a73390b837b4637e37ef417b56336b900989481c4347438600f23c",
+      "status": "reported"
+    },
+    {
+      "period": "Housing affordability by time since arrival; permanent migrants",
+      "denominator": {
+        "value": null,
+        "unit": "permanent-migrant households in the ABS linked settlement-outcomes housing measure; publication does not disclose one simple household-count denominator in the summary display",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "rent_over_30_percent_under_5_years_all_migrants": {
+          "value": 27,
+          "unit": "percent of migrant households paying more than 30% of household income in rent, among migrants in Australia less than 5 years",
+          "value_type": "official_linked_data_estimate"
+        },
+        "rent_over_30_percent_over_10_years_all_migrants": {
+          "value": 30,
+          "unit": "percent of migrant households paying more than 30% of household income in rent, among migrants in Australia more than 10 years",
+          "value_type": "official_linked_data_estimate"
+        },
+        "rent_over_30_percent_under_5_years_humanitarian": {
+          "value": 55,
+          "unit": "percent of humanitarian-stream migrant households paying more than 30% of household income in rent, among migrants in Australia less than 5 years",
+          "value_type": "official_linked_data_estimate"
+        },
+        "rent_over_30_percent_over_10_years_humanitarian": {
+          "value": 40,
+          "unit": "percent of humanitarian-stream migrant households paying more than 30% of household income in rent, among migrants in Australia more than 10 years",
+          "value_type": "official_linked_data_estimate"
+        },
+        "mechanism": {
+          "value": "Housing cost pressure is both stream-specific and time-dependent: the humanitarian pathway shows high early rent stress and later improvement, while the overall migrant pattern does not imply universal convergence",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS migrant-settlement housing outcome measure comparing rent burden above 30% of household income by visa stream and time since arrival.",
+      "uncertainty": "This is a cross-sectional comparison of linked outcome groups rather than a causal panel of the same households; the measure does not show housing quality, crowding, tenure security, location, transport access, or cultural participation.",
+      "subgroup": "Permanent-migrant households overall and humanitarian-stream households, split by less than 5 years versus more than 10 years since arrival.",
+      "counterinterpretation": "The apparent improvement for humanitarian migrants over time may reflect cohort composition, income growth, household formation, selection, location changes, or mortality and emigration, not only settlement adaptation.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/migrant-settlement-outcomes/2026",
+      "retrieval_hash": "sha256:87c2b587e4a73390b837b4637e37ef417b56336b900989481c4347438600f23c",
+      "status": "reported"
+    },
+    {
+      "period": "2021 English proficiency and 2024 GP attendance by visa stream and arrival cohort",
+      "denominator": {
+        "value": null,
+        "unit": "ABS linked migrant outcome populations; the release presents rounded outcome estimates and does not publish one common denominator across the displayed measures",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "english_proficiency_all_migrants": {
+          "value": 89,
+          "unit": "percent of permanent migrants proficient in English in 2021",
+          "value_type": "official_linked_data_estimate"
+        },
+        "english_proficiency_recent_humanitarian": {
+          "value": 55.8,
+          "unit": "percent proficient in English among humanitarian-stream migrants arriving 2017-2021 in the displayed stream table",
+          "value_type": "official_linked_data_estimate"
+        },
+        "english_proficiency_pre_2012_humanitarian": {
+          "value": 77.2,
+          "unit": "percent proficient in English among humanitarian-stream migrants arriving before 2012 in the displayed stream table",
+          "value_type": "official_linked_data_estimate"
+        },
+        "gp_attendance_skilled_stream": {
+          "value": 79.5,
+          "unit": "percent attending a GP in 2024 among skilled-stream permanent migrants in the displayed stream table",
+          "value_type": "official_linked_data_estimate"
+        },
+        "gp_attendance_humanitarian_stream": {
+          "value": 85.7,
+          "unit": "percent attending a GP in 2024 among humanitarian-stream permanent migrants in the displayed stream table",
+          "value_type": "official_linked_data_estimate"
+        },
+        "mechanism": {
+          "value": "Language access and service contact are not interchangeable: English proficiency varies sharply by stream and arrival cohort while GP attendance is relatively high, suggesting that institutional contact can coexist with uneven communicative and broader participation capacity",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "ABS linked administrative and Census measures of English proficiency and Medicare/health-service contact, shown by visa stream and arrival cohort.",
+      "uncertainty": "English proficiency is a Census self-report measure and GP attendance is service-use contact, not quality, continuity, affordability, trust, effective treatment, or cultural participation; the displayed estimates have source-defined rounding and coverage limits.",
+      "subgroup": "Permanent migrants overall, skilled, family, and humanitarian streams, with arrival-cohort comparisons; recent and earlier cohorts are not the same individuals followed longitudinally here.",
+      "counterinterpretation": "High GP attendance may reflect greater health need or eligibility and does not demonstrate equal access, satisfaction, institutional trust, or conversion into broader social and cultural participation.",
+      "source_url": "https://www.abs.gov.au/statistics/people/people-and-communities/migrant-settlement-outcomes/2026",
+      "retrieval_hash": "sha256:87c2b587e4a73390b837b4637e37ef417b56336b900989481c4347438600f23c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.abs.gov.au/methodologies/migrant-settlement-outcomes-methodology/2026",
+      "claim": "ABS documents the linked-data sources, scope, coverage, measures, rounding, and methodological boundaries for the 2026 release.",
+      "status": "official-methodology"
+    }
+  ],
+  "boundary": "This record adds migration-linked household-room, housing-pressure, language, and service-contact evidence beneath cultural and consumer conversion. It does not establish cultural participation, discretionary spending, causal visa-stream effects, equal service quality, or a single universal integration trajectory.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ABS Migrant Settlement Outcomes 2026 release and methodology were reviewed for employment, income, rent burden, English proficiency, GP attendance, visa-stream, arrival-cohort, linked-data, rounding, and coverage claims.",
+    "checked": "2026-09-30"
+  }
+}

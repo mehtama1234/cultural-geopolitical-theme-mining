@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-asean-trade-labour-rights-supply-chain-competitiveness-2026",
+  "title": "Labour rights are becoming a condition of trade and supply-chain competitiveness in ASEAN, but market requirements still have to reach workplace remedy",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "ILO report on the ASEAN regional seminar on trade, labour rights, and sustainable competitiveness, including the ASEAN Regional Study on labour provisions in free trade agreements",
+  "geography": "ASEAN member-state governments, workers’ and employers’ organizations, and export-oriented sectors across South-East Asia",
+  "observations": [
+    {
+      "period": "9–10 September 2026; ASEAN tripartite regional seminar in Bali",
+      "denominator": {"value": 1, "unit": "regional seminar endorsed by the ASEAN Senior Labour Officials Meeting", "value_type": "reported_governance_event"},
+      "measures": {
+        "institutional_participants": {"value": "governments, workers’ organizations, employers’ organizations, ASEAN labour officials, and the ILO discussed trade, labour, and sustainable competitiveness together", "unit": "reported institutional participation", "value_type": "reported_participation"},
+        "policy_link": {"value": "the seminar treated fundamental labour-rights implementation as relevant to changing trade and supply-chain requirements", "unit": "reported policy framing", "value_type": "reported_policy_frame"},
+        "regional_route": {"value": "regional dialogue is being used to connect labour, trade, commerce, and supply-chain policy", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "outcome_boundary": {"value": "the event establishes a policy and evidence-building route, not improved working conditions or export performance", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "ILO institutional account of a tripartite regional seminar and related ASEAN study; no worker panel, firm audit, or causal trade estimate is provided.",
+      "uncertainty": "The report does not show whether the dialogue changed law, inspections, buyer behaviour, wages, safety, export orders, or worker bargaining power.",
+      "subgroup": "Workers in export-oriented sectors, employers and MSMEs, labour and trade ministries, unions, suppliers, buyers, and communities exposed to trade restructuring.",
+      "counterinterpretation": "Tripartite dialogue can improve coordination, but it can also remain consultative if workers lack enforcement access, bargaining leverage, or influence over trade implementation.",
+      "source_url": "https://www.ilo.org/resource/news/asean-seminar-highlights-growing-links-between-trade-labour-rights-and",
+      "retrieval_hash": "sha256:91a7d47ee857425c1ff5c1cd0a90ac9662fbda757a8b9e9aaa51a1aabe4ae5cc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labour provisions, due diligence, and ESG requirements in regional trade",
+      "denominator": {"value": 1, "unit": "ASEAN Regional Study on implications of labour provisions in free trade agreements", "value_type": "reported_study_frame"},
+      "measures": {
+        "trade_instruments": {"value": "labour provisions in FTAs, responsible business conduct, supply-chain due diligence, and ESG requirements are increasingly shaping regional trade and labour policy", "unit": "reported policy instruments", "value_type": "reported_policy_shift"},
+        "study_scope": {"value": "the ASEAN study maps how labour provisions are structured in FTAs and the cooperation mechanisms they establish", "unit": "reported study scope", "value_type": "reported_scope"},
+        "market_mechanism": {"value": "buyer and market requirements can make labour compliance part of continued supply-chain participation", "unit": "bounded market mechanism", "value_type": "bounded_mechanism"},
+        "rights_boundary": {"value": "a contractual or trade requirement does not itself establish worker awareness, voice, inspection, remedy, or safe reporting", "unit": "measurement boundary", "value_type": "measurement_limit"}
+      },
+      "method": "ILO summary of the ASEAN regional study and seminar discussions; the study is mapped policy architecture rather than observed implementation impact.",
+      "uncertainty": "The public account does not report clause enforcement, buyer compliance, worker outcomes, or how disputes are resolved across borders.",
+      "subgroup": "Export workers, migrant and subcontracted workers, unions, MSME suppliers, multinational buyers, customs and labour authorities, and consumers of trade-linked goods.",
+      "counterinterpretation": "Trade-linked standards may improve visibility and leverage, but compliance costs can be shifted to small suppliers or workers, or production can move to less visible channels.",
+      "source_url": "https://www.ilo.org/resource/news/asean-seminar-highlights-growing-links-between-trade-labour-rights-and",
+      "retrieval_hash": "sha256:91a7d47ee857425c1ff5c1cd0a90ac9662fbda757a8b9e9aaa51a1aabe4ae5cc",
+      "status": "reported"
+    },
+    {
+      "period": "2026; export-oriented sectors and uneven adaptation capacity",
+      "denominator": {"value": 1, "unit": "ILO account of ASEAN trade-exposed sectors", "value_type": "reported_sector_frame"},
+      "measures": {
+        "adaptation_pressure": {"value": "export-oriented businesses face growing pressure to meet changing regulatory and supply-chain requirements", "unit": "reported business pressure", "value_type": "reported_assessment"},
+        "msme_constraint": {"value": "micro, small, and medium-sized enterprises may face particular constraints in adapting to new trade, labour, and supply-chain requirements", "unit": "reported subgroup risk", "value_type": "reported_subgroup_risk"},
+        "cost_distribution": {"value": "the costs of documentation, audits, remediation, skills, and formalization may be distributed unevenly across firms and workers", "unit": "bounded distributional mechanism", "value_type": "bounded_mechanism"},
+        "competitiveness_claim": {"value": "the source frames labour rights as compatible with sustainable competitiveness rather than inherently opposed to it", "unit": "reported policy frame", "value_type": "reported_policy_frame"}
+      },
+      "method": "Regional policy dialogue and ILO programme framing; no firm-level cost or competitive-performance dataset is supplied.",
+      "uncertainty": "The report does not identify which firms can absorb compliance costs, whether buyers pay for improvements, or whether stronger standards protect or exclude vulnerable suppliers.",
+      "subgroup": "MSMEs, subcontractors, informal and migrant workers, women workers, export-sector communities, buyers, regulators, and labour-inspection systems.",
+      "counterinterpretation": "A sustainability requirement can raise labour standards, but it can also create paperwork without workplace change or exclude smaller firms from formal supply chains.",
+      "source_url": "https://www.ilo.org/resource/news/asean-seminar-highlights-growing-links-between-trade-labour-rights-and",
+      "retrieval_hash": "sha256:91a7d47ee857425c1ff5c1cd0a90ac9662fbda757a8b9e9aaa51a1aabe4ae5cc",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; implementation and enforcement gap assessment",
+      "denominator": {"value": 1, "unit": "forthcoming ASEAN/ILO regional Fundamental Principles and Rights at Work Gap Assessment", "value_type": "reported_followup_frame"},
+      "measures": {
+        "gap_dimensions": {"value": "the forthcoming assessment is intended to examine legal, institutional, enforcement, and social-dialogue gaps", "unit": "reported assessment scope", "value_type": "reported_scope"},
+        "coordination": {"value": "the dialogue identifies coordination among labour, trade, and commerce institutions as necessary to translate commitments into practice", "unit": "reported governance requirement", "value_type": "reported_requirement"},
+        "worker_voice": {"value": "worker voice and social dialogue are treated as part of the implementation problem, not only consultation language", "unit": "reported governance dimension", "value_type": "reported_dimension"},
+        "next_test": {"value": "the decisive test is whether a trade-linked labour concern moves from clause or audit to inspection, safe complaint, remedy, continued listing, and improved work", "unit": "bounded research requirement", "value_type": "research_requirement"}
+      },
+      "method": "ILO description of a planned regional gap assessment and follow-on dialogue; no assessment results are yet available in the source.",
+      "uncertainty": "The future assessment may clarify gaps without demonstrating that regional cooperation closes them or changes workplace outcomes.",
+      "subgroup": "Workers, unions, employers, labour inspectors, trade officials, buyers, civil-society monitors, and communities affected by export production.",
+      "counterinterpretation": "Regional coordination can identify implementation gaps while leaving enforcement fragmented or politically constrained.",
+      "source_url": "https://www.ilo.org/resource/news/asean-seminar-highlights-growing-links-between-trade-labour-rights-and",
+      "retrieval_hash": "sha256:91a7d47ee857425c1ff5c1cd0a90ac9662fbda757a8b9e9aaa51a1aabe4ae5cc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/trade-labour-and-fundamental-principles-and-rights-work-southeast-asia", "claim": "ILO regional project context for trade, labour, and fundamental rights in South-East Asia."}
+  ],
+  "boundary": "This record adds a trade-to-work conversion route: labour rights, FTA provisions, due diligence, ESG requirements, and tripartite dialogue are becoming part of sustainable supply-chain competitiveness in ASEAN. It documents regional policy architecture and planned evidence-building, not worker-level implementation, firm performance, export gains, improved safety, wage change, or effective remedy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ILO article reviewed for the Bali seminar date, ASEAN tripartite participants, FTA labour-provision study, MSME adaptation pressure, legal/institutional/enforcement gaps, worker voice, and planned gap assessment.",
+    "source_url_sha256": "sha256:91a7d47ee857425c1ff5c1cd0a90ac9662fbda757a8b9e9aaa51a1aabe4ae5cc",
+    "checked": "2026-09-29"
+  }
+}

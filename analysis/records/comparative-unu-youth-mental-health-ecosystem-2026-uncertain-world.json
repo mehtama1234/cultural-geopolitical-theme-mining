@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unu-youth-mental-health-ecosystem-2026-uncertain-world",
+  "title": "Youth mental health is being reframed as an ecosystem condition shaped by work, housing, digital life, climate, culture, and agency",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "United Nations University Global Health and United Nations Youth Office, Youth Mental Health & Well-Being in an Uncertain World: A Global Call to Action, published 23 September 2026",
+  "geography": "Global youth mental-health and well-being ecosystem, with attention to young people aged 15–35 and culturally adaptable local systems",
+  "observations": [
+    {
+      "period": "2026 flagship report; global youth population frame",
+      "denominator": {"value": 2600000000, "unit": "young people aged 15–35 coming of age amid intersecting uncertainty, approximately", "value_type": "reported_population_estimate"},
+      "measures": {
+        "youth_population_frame": {"value": 2600000000, "unit": "young people aged 15–35", "value_type": "reported_population_estimate"},
+        "primary_stressors": {"value": "economic insecurity, climate change, armed conflict, inequality, and rapidly evolving digital environments", "unit": "reported interacting conditions", "value_type": "reported_framework"},
+        "policy_shift": {"value": "from individual diagnosis and treatment alone toward interconnected social, economic, and environmental conditions", "unit": "reported policy direction", "value_type": "reported_framework"}
+      },
+      "method": "UNU Global Health and the UN Youth Office synthesize global evidence, youth perspectives, and a systems-oriented call to action into a flexible ecosystem model.",
+      "uncertainty": "The report is a global framework and call to action, not a prevalence survey or causal model of how each stressor affects every young person.",
+      "subgroup": "Young people aged 15–35, with local variation by culture, age, gender, income, disability, geography, conflict exposure, and access to support.",
+      "counterinterpretation": "Clinical care remains essential for people experiencing mental-health conditions; an ecosystem approach complements rather than replaces treatment, safeguarding, and specialist services.",
+      "source_url": "https://unu.edu/publication/youth-mental-health-well-being-uncertain-world",
+      "retrieval_hash": "sha256:2bfbb5e77f52df1ad633848ea3001e71ced6afd0406344690796b5b7a38d0261",
+      "status": "reported"
+    },
+    {
+      "period": "2026 ecosystem model; domains of youth life",
+      "denominator": {"value": 1, "unit": "proposed ecosystem model for organizing youth mental-health action", "value_type": "published_framework"},
+      "measures": {
+        "entry_points": {"value": "governance, education, decent work, secure housing, peace and security, intergenerational relationships, digital spaces, climate, community life, sports, arts, culture, and spirituality", "unit": "interconnected policy and lived-environment domains", "value_type": "reported_framework"},
+        "model_design": {"value": "flexible and adaptable to different cultural, social, and economic contexts", "unit": "reported design principle", "value_type": "reported_framework"},
+        "coordination_need": {"value": "governments and institutions should map gaps and connect action across sectors", "unit": "reported implementation direction", "value_type": "reported_framework"}
+      },
+      "method": "The publication organizes youth well-being around a cross-sector ecosystem model rather than a single-service pathway.",
+      "uncertainty": "Listing domains does not establish that coordination exists, that all domains matter equally in every context, or that the model improves outcomes.",
+      "subgroup": "Public agencies, schools, employers, housing and community institutions, digital platforms, cultural organizations, families, and youth-led groups.",
+      "counterinterpretation": "A broad model can improve coordination, but without prioritization it may diffuse accountability or obscure the need for well-funded specialist services.",
+      "source_url": "https://unu.edu/publication/youth-mental-health-well-being-uncertain-world",
+      "retrieval_hash": "sha256:2bfbb5e77f52df1ad633848ea3001e71ced6afd0406344690796b5b7a38d0261",
+      "status": "reported"
+    },
+    {
+      "period": "2026 flagship report; burden and access context",
+      "denominator": {"value": 7, "unit": "global adolescents aged 10–19, for the report's cited mental-health-condition estimate", "value_type": "reported_ratio_denominator"},
+      "measures": {
+        "adolescent_mental_health_condition": {"value": 1, "unit": "in 7 people aged 10–19 living with a mental-health condition", "value_type": "reported_ratio"},
+        "disorder_onset_context": {"value": "most mental-health disorders emerge by age 24", "unit": "reported developmental pattern", "value_type": "reported_pattern"},
+        "access_inequality": {"value": "support access is often more limited in low- and middle-income countries", "unit": "reported global inequity", "value_type": "reported_pattern"}
+      },
+      "method": "The flagship report draws on established global health evidence and situates youth mental health within prevention, care, rights, and social conditions.",
+      "uncertainty": "The cited estimates vary by definition, age range, country data quality, and measurement period; they do not diagnose individuals or estimate local service capacity.",
+      "subgroup": "Adolescents and young adults, especially those facing poverty, conflict, climate emergencies, discrimination, digital harms, or weak access to care.",
+      "counterinterpretation": "High burden does not imply that every young person is in crisis; protective relationships, meaningful activity, culture, and community resources can support well-being amid adversity.",
+      "source_url": "https://www.un.org/youthaffairs/sites/default/files/2026-04/Youth%20Mental%20Health%20And%20Well-being%20Flagship_UN%20Youth%20Office_March%202026.pdf",
+      "retrieval_hash": "sha256:2bfbb5e77f52df1ad633848ea3001e71ced6afd0406344690796b5b7a38d0261",
+      "status": "reported"
+    },
+    {
+      "period": "2026 call to action; youth agency and implementation",
+      "denominator": {"value": 1, "unit": "global call to action and proposed ecosystem implementation approach", "value_type": "published_framework"},
+      "measures": {
+        "youth_role": {"value": "young people should be treated as partners and co-creators, not only beneficiaries", "unit": "reported participation principle", "value_type": "reported_framework"},
+        "implementation_level": {"value": "national and local governments, UN entities, civil society, education, private sector, and communities are called to work across sectors", "unit": "reported governance direction", "value_type": "reported_framework"},
+        "local_adaptation": {"value": "solutions should respond to local cultural, social, and economic realities", "unit": "reported implementation principle", "value_type": "reported_framework"}
+      },
+      "method": "The report combines a global synthesis with a participatory, locally adaptable model for policy and program design.",
+      "uncertainty": "The call to action does not provide a global implementation inventory, representative participation rate, or causal evaluation of youth co-creation.",
+      "subgroup": "Youth contributors, local communities, governments, schools, health and social-care systems, employers, platforms, arts and cultural organizations, and civil society.",
+      "counterinterpretation": "Participation can become symbolic if institutions lack resources, decision rights, feedback loops, safeguarding, or accountability for acting on youth input.",
+      "source_url": "https://www.un.org/youthaffairs/en/press-releases/new-un-report-calls-global-shift-towards-ecosystem-based-approaches-youth-mental",
+      "retrieval_hash": "sha256:2bfbb5e77f52df1ad633848ea3001e71ced6afd0406344690796b5b7a38d0261",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/youthaffairs/en/youth-mental-health-and-well-being", "claim": "UN Youth Office program context and related youth mental-health materials."},
+    {"source_url": "https://www.oecd.org/en/publications/growing-up-in-the-social-media-age_a1132839-en/full-report.html", "claim": "Complementary comparative evidence on youth digital environments, attention, and well-being."}
+  ],
+  "boundary": "This record adds an ecosystem and youth-agency route linking mental health to education, work, housing, peace, climate, digital spaces, community, culture, and spirituality. It uses a global framework and cited aggregate health evidence, not respondent-level mental-health histories, clinical diagnoses, representative youth participation rates, causal effects, or proof that the proposed model has been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNU publication page, UN Youth Office launch material, and official report summary were reviewed for the youth population frame, burden context, ecosystem domains, participation principles, and implementation boundaries.",
+    "source_url_sha256": "sha256:2bfbb5e77f52df1ad633848ea3001e71ced6afd0406344690796b5b7a38d0261",
+    "checked": "2026-09-27"
+  }
+}

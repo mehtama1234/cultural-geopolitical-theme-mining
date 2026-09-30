@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-pivotal-menopause-information-care-work-2026",
+  "title": "Menopause is an information and care-navigation gap with consequences for work and community participation",
+  "theme_ids": ["time", "work", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup-Pivotal Women's Health Survey, menopause and perimenopause findings",
+  "geography": "United States; women and men surveyed online July 14-22, 2026",
+  "observations": [
+    {
+      "period": "July 14-22, 2026; knowledge and information sources around menopause",
+      "denominator": {"value": 3845, "unit": "U.S. women surveyed by Gallup-Pivotal; overall study also surveyed 1,296 men", "value_type": "reported_survey_sample"},
+      "measures": {
+        "symptom_understanding": {"value": 37, "unit": "percent of women saying they have a good understanding of menopause symptoms", "value_type": "published_survey_estimate"},
+        "treatment_understanding": {"value": 25, "unit": "percent saying they have a good understanding of treatment options", "value_type": "published_survey_estimate"},
+        "firsthand_learning": {"value": 37, "unit": "percent of women who experienced menopause saying they learned about it only when they had symptoms", "value_type": "published_subgroup_estimate"},
+        "distributed_authority": {"value": "Menopause knowledge is often acquired through lived experience and personal networks before formal clinical discussion, creating an information and navigation gap at a predictable life stage.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup-Pivotal Women's Health Survey conducted online July 14-22, 2026 among 3,845 women and 1,296 men via the Gallup Panel; public article reports self-assessed knowledge and information-source estimates.",
+      "uncertainty": "The public release does not provide all subgroup denominators, the full questionnaire, objective knowledge testing, information quality, treatment access, clinical outcomes or causal effects of information source.",
+      "subgroup": "U.S. women across age groups, including women who have and have not experienced menopause or perimenopause.",
+      "counterinterpretation": "Personal networks may provide useful experiential knowledge and complement clinicians; low reported understanding may reflect the complexity of treatment choices rather than absence of information.",
+      "source_url": "https://news.gallup.com/poll/714596/women-enter-menopause-without-clear-information.aspx",
+      "retrieval_hash": "source_page:sha256:bafb096c4e382c03effab5dadba5404203be1b29d58a89e829527e964f3781d9",
+      "status": "reported"
+    },
+    {
+      "period": "July 14-22, 2026; information and care-source mix",
+      "denominator": {"value": 3845, "unit": "U.S. women surveyed by Gallup-Pivotal; source-use subgroup denominators vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "family_source": {"value": 61, "unit": "percent who have encountered menopause information from family members", "value_type": "published_survey_estimate"},
+        "friend_source": {"value": 59, "unit": "percent who have encountered information from friends", "value_type": "published_survey_estimate"},
+        "social_media_source": {"value": 54, "unit": "percent who have encountered information on social media", "value_type": "published_survey_estimate"},
+        "medical_source": {"value": 51, "unit": "percent who have encountered information from doctors or other medical professionals", "value_type": "published_survey_estimate"},
+        "ai_source": {"value": 13, "unit": "percent who have used AI tools such as ChatGPT or chatbots for menopause information", "value_type": "published_survey_estimate"},
+        "provider_conversation": {"value": 44, "unit": "percent of women who have ever discussed menopause with a healthcare provider", "value_type": "published_survey_estimate"}
+      },
+      "method": "Descriptive source-use and provider-conversation estimates from the Gallup-Pivotal survey.",
+      "uncertainty": "Source exposure is not source trust, accuracy, comprehension or care completion; multiple responses can overlap and the release does not establish why provider conversations are absent.",
+      "subgroup": "U.S. women; provider discussion rises substantially with age, from 5% among women age 18-34 to 63% among women age 45-54 and 73% among women age 55-64.",
+      "counterinterpretation": "Family, friends and social media may widen early awareness, while clinical conversations may occur later when symptoms become salient; the pattern does not prove that informal information displaces professional care.",
+      "source_url": "https://news.gallup.com/poll/714596/women-enter-menopause-without-clear-information.aspx",
+      "retrieval_hash": "source_page:sha256:bafb096c4e382c03effab5dadba5404203be1b29d58a89e829527e964f3781d9",
+      "status": "reported"
+    },
+    {
+      "period": "July 14-22, 2026; menopause-related care navigation and work/community effects",
+      "denominator": {"value": 3845, "unit": "U.S. women surveyed by Gallup-Pivotal; treatment and experienced-menopause subgroups vary", "value_type": "reported_survey_sample"},
+      "measures": {
+        "push_to_be_taken_seriously": {"value": 24, "unit": "percent of women seeking or receiving treatment who had to push to be taken seriously or to receive treatment", "value_type": "published_subgroup_estimate"},
+        "multiple_providers": {"value": 23, "unit": "percent who had to see multiple providers before symptoms were addressed or diagnosed", "value_type": "published_subgroup_estimate"},
+        "unable_to_get_care": {"value": 20, "unit": "percent unable to get the care they felt they needed despite trying", "value_type": "published_subgroup_estimate"},
+        "work_life_effect": {"value": "Among women who experienced menopause, 28% reported being limited in work effort, 22% stepped back from community involvement, 15% did not pursue a promotion, 12% reduced hours and 10% changed jobs.", "unit": "reported impact estimates", "value_type": "published_subgroup_estimate"},
+        "care_to_participation_route": {"value": "Recognition and continuity of care can determine whether a life-stage health transition remains manageable or becomes a work, self-care and civic-participation constraint.", "unit": "reported mechanism", "value_type": "analytical_synthesis"}
+      },
+      "method": "Descriptive treatment-experience and self-reported life-impact estimates from the Gallup-Pivotal Women's Health Survey.",
+      "uncertainty": "The associations are retrospective and self-reported; the study does not establish clinical severity, treatment effectiveness, employer accommodation, income loss, promotion causation or the counterfactual without menopause symptoms.",
+      "subgroup": "Women who have experienced menopause or perimenopause, and women age 35 and older seeking or receiving treatment.",
+      "counterinterpretation": "Work and community effects may reflect symptoms, caregiving, workplace conditions, discrimination, family obligations or other midlife transitions; care difficulty may be one contributing pathway among several.",
+      "source_url": "https://news.gallup.com/poll/714596/women-enter-menopause-without-clear-information.aspx",
+      "retrieval_hash": "source_page:sha256:bafb096c4e382c03effab5dadba5404203be1b29d58a89e829527e964f3781d9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/714596/women-enter-menopause-without-clear-information.aspx", "claim": "Official Gallup article reports study sample, field dates, menopause knowledge, information sources, provider discussion, treatment barriers and work/community impacts."}
+  ],
+  "boundary": "This record adds a life-stage health-information and care-navigation route from distributed knowledge and provider access through recognition, treatment continuity, work, self-care and community participation. It does not measure objective knowledge, clinical severity, treatment effectiveness, employer response, causal career effects or universal menopause experience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup article was reviewed for the Gallup-Pivotal sample and field dates, symptom and treatment understanding, source mix, provider discussion, treatment barriers, work/community impacts and priority framing.",
+    "source_page_sha256": "sha256:bafb096c4e382c03effab5dadba5404203be1b29d58a89e829527e964f3781d9",
+    "checked": "2026-09-29"
+  }
+}

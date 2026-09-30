@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ocha-global-humanitarian-overview-2026-needs-funding-service-collapse",
+  "title": "Humanitarian need is becoming a system-capacity problem as conflict and climate shocks expand while funding cuts close essential services",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "United Nations Office for the Coordination of Humanitarian Affairs, Global Humanitarian Overview 2026",
+  "geography": "Global humanitarian needs and response capacity across major regions, conflict-affected communities and populations exposed to climate and disaster shocks",
+  "observations": [
+    {
+      "period": "End-2025 need frame reported in the 2026 Global Humanitarian Overview",
+      "denominator": {"value": 239000000, "unit": "people reported in need of humanitarian assistance by the end of 2025", "value_type": "published_needs_estimate"},
+      "measures": {
+        "global_need": {"value": 239000000, "unit": "people in need of humanitarian assistance", "value_type": "published_needs_estimate"},
+        "primary_driver": {"value": "Conflict is identified as the main cause of death, displacement and hunger in the UN overview of humanitarian affairs.", "unit": "reported driver", "value_type": "reported_interpretation"},
+        "climate_amplification": {"value": "Climate change is worsening disasters and geological events are affecting communities already in crisis.", "unit": "reported driver interaction", "value_type": "reported_interpretation"}
+      },
+      "method": "OCHA annual global assessment of humanitarian needs and response requirements, referenced through official UN Geneva humanitarian-affairs materials and the OCHA Global Humanitarian Overview 2026.",
+      "uncertainty": "People-in-need estimates depend on crisis definitions, access, reporting and aggregation choices; the figure is not a census of all harm or a forecast of individual service receipt.",
+      "subgroup": "Conflict-affected people, displaced populations, communities exposed to disasters, people facing hunger or service disruption, and populations in protracted crises.",
+      "counterinterpretation": "Need estimates can grow because monitoring improves or thresholds change, not only because underlying harm worsens; local coping and informal support may be undercounted.",
+      "source_url": "https://www.unocha.org/publications/report/world/global-humanitarian-overview-2026-enaresfr",
+      "retrieval_hash": "sha256:6af006a33fc30757a3a6e6577d70f57476ef7623ce16f641c640ec71c67ca308",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 humanitarian financing and operational capacity",
+      "denominator": {"value": 1, "unit": "OCHA global humanitarian system assessment", "value_type": "published_synthesis"},
+      "measures": {
+        "funding_contraction": {"value": "The 2026 overview describes humanitarian funding as falling below levels seen in 2016.", "unit": "reported system condition", "value_type": "reported_interpretation"},
+        "service_cascade": {"value": "Funding pressure is described as closing, suspending or reducing health centres, food rations, nutrition outreach, protection services, cash payments, water delivery and shelter repair.", "unit": "reported operational consequence", "value_type": "reported_case_synthesis"},
+        "capacity_gap": {"value": "Need is therefore not only a volume problem; the response system's capacity to maintain basic service continuity becomes part of the humanitarian outcome.", "unit": "analytical implication", "value_type": "inference_from_source"}
+      },
+      "method": "OCHA Global Humanitarian Overview narrative on needs, funding and response, supported by UN materials describing humanitarian coordination and financing dependence.",
+      "uncertainty": "The public overview does not establish a causal estimate for each funding cut, separate donor withdrawal from access or security constraints, or measure which closures were temporary versus durable.",
+      "subgroup": "People dependent on humanitarian health, food, nutrition, protection, cash, water and shelter services; local responders and agencies operating under funding constraints.",
+      "counterinterpretation": "Service reductions can sometimes reflect transition to government or development systems, improved targeting or changing needs, although the overview emphasizes harmful discontinuity and unmet need.",
+      "source_url": "https://www.unocha.org/publications/report/world/global-humanitarian-overview-2026-enaresfr",
+      "retrieval_hash": "sha256:6af006a33fc30757a3a6e6577d70f57476ef7623ce16f641c640ec71c67ca308",
+      "status": "reported"
+    },
+    {
+      "period": "End-2025 regional humanitarian need frame",
+      "denominator": {"value": 239000000, "unit": "people in need distributed across regions in the UN overview", "value_type": "published_needs_estimate"},
+      "measures": {
+        "middle_east_north_africa": {"value": 58200000, "unit": "people in need in Middle East and North Africa", "value_type": "published_needs_estimate"},
+        "southern_eastern_africa": {"value": 56600000, "unit": "people in need in Southern and Eastern Africa", "value_type": "published_needs_estimate"},
+        "west_central_africa": {"value": 42100000, "unit": "people in need in West and Central Africa", "value_type": "published_needs_estimate"},
+        "asia_pacific": {"value": 43700000, "unit": "people in need in Asia and the Pacific", "value_type": "published_needs_estimate"},
+        "latin_america_caribbean": {"value": 28100000, "unit": "people in need in Latin America and the Caribbean", "value_type": "published_needs_estimate"},
+        "europe": {"value": 10800000, "unit": "people in need in Europe", "value_type": "published_needs_estimate"}
+      },
+      "method": "Regional breakdown presented by the United Nations Office at Geneva in connection with the OCHA Global Humanitarian Overview 2026.",
+      "uncertainty": "Regional totals are planning estimates and may use different crisis-level sources and coverage; the listed figures should not be interpreted as equivalent individual experiences or as a ranking of severity alone.",
+      "subgroup": "Populations in each region affected by conflict, disaster, displacement, hunger, service disruption and protection risks.",
+      "counterinterpretation": "Large regional totals can obscure small but severe crises, host-community burdens and needs that fall outside formal humanitarian planning categories.",
+      "source_url": "https://www.ungeneva.org/en/about/topics/humanitarian-affairs",
+      "retrieval_hash": "sha256:6af006a33fc30757a3a6e6577d70f57476ef7623ce16f641c640ec71c67ca308",
+      "status": "reported"
+    },
+    {
+      "period": "2026 response model; coordination, cash, infrastructure and local capacity",
+      "denominator": {"value": 1, "unit": "UN inter-agency humanitarian response system", "value_type": "published_system_frame"},
+      "measures": {
+        "coordination": {"value": "OCHA coordinates humanitarian actors through the Inter-Agency Standing Committee and country-level clusters spanning nutrition, logistics, health, education and other sectors.", "unit": "reported institutional arrangement", "value_type": "reported_method"},
+        "cash_and_choice": {"value": "UN humanitarian materials describe direct cash as a way to give affected families control over what they need, when and in what quantities.", "unit": "reported response mechanism", "value_type": "reported_mechanism"},
+        "recovery_infrastructure": {"value": "Roads, electricity, airports, water and sanitation are treated as humanitarian delivery and recovery infrastructure, not merely post-crisis reconstruction.", "unit": "reported system frame", "value_type": "reported_interpretation"},
+        "funding_dependency": {"value": 95, "unit": "per cent of OCHA operational funds described as coming from voluntary contributions rather than the regular UN budget", "value_type": "published_financing_estimate"}
+      },
+      "method": "UN/OCHA humanitarian coordination and response description, including cluster coordination, cash assistance and infrastructure continuity.",
+      "uncertainty": "Coordination structures and response mechanisms do not prove timely delivery, adequacy, local ownership or durable recovery; the funding-dependence figure describes OCHA operational financing, not the entire humanitarian system.",
+      "subgroup": "Affected households, local governments, humanitarian agencies, host communities, frontline workers and infrastructure users.",
+      "counterinterpretation": "Central coordination can improve complementarity but can also impose administrative overhead, weaken local agency or prioritize donor-visible sectors over less visible needs.",
+      "source_url": "https://www.ungeneva.org/en/about/topics/humanitarian-affairs",
+      "retrieval_hash": "sha256:6af006a33fc30757a3a6e6577d70f57476ef7623ce16f641c640ec71c67ca308",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://humanitarianaction.info/", "claim": "OCHA humanitarian-action interactive platform associated with the Global Humanitarian Overview."},
+    {"source_url": "https://www.ungeneva.org/en/about/topics/humanitarian-affairs", "claim": "Official UN Geneva overview with 2026 people-in-need, regional needs, coordination and funding context."},
+    {"source_url": "https://www.unocha.org/publications/report/world/global-humanitarian-overview-2026-enaresfr", "claim": "Official OCHA Global Humanitarian Overview 2026 publication endpoint."}
+  ],
+  "boundary": "This record adds a humanitarian-system capacity layer: conflict and climate shocks create needs, but funding and delivery capacity determine whether health, food, protection, cash, water and shelter lifelines continue. It combines OCHA/UN planning estimates and system descriptions; it does not establish individual receipt, service adequacy, causal funding effects or durable recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OCHA endpoint and UN Geneva humanitarian-affairs page were reviewed for the 239 million people-in-need estimate, drivers, regional totals, funding/service-continuity narrative, coordination model, cash and infrastructure mechanisms, and 95% voluntary-financing statement for OCHA operations.",
+    "source_url_sha256": "sha256:6af006a33fc30757a3a6e6577d70f57476ef7623ce16f641c640ec71c67ca308",
+    "checked": "2026-09-27"
+  }
+}

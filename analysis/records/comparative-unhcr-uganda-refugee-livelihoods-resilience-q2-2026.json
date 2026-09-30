@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unhcr-uganda-refugee-livelihoods-resilience-q2-2026",
+  "title": "Refugee self-reliance is constrained by the conversion gap between productive inputs, land, formal finance, documentation, and downstream markets",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "work_control_bargaining", "geopolitical_state_consequences"],
+  "source_unit": "UNHCR Uganda Refugee Response: Livelihoods and Resilience Dashboard, Quarter 2 2026, published September 2026",
+  "geography": "Uganda refugee-hosting areas, including South Sudanese, Congolese, Sudanese, other refugee, and host-community populations",
+  "observations": [
+    {
+      "period": "January–June 2026; Uganda Refugee Response Plan livelihoods and resilience sector",
+      "denominator": {"value": 153000000, "unit": "US dollars total 2026 funding requirement reported for the livelihoods and resilience sector", "value_type": "reported_funding_requirement"},
+      "measures": {
+        "funding_received": {"value": 27800000, "unit": "US dollars reported as received", "value_type": "reported_funding_received"},
+        "funding_coverage": {"value": 18, "unit": "percent of reported 2026 funding requirement", "value_type": "reported_funding_share"},
+        "sector_pathway": {"value": "productive assets and land, agricultural knowledge, producer organizations, markets, decent work, business services, financial inclusion, and market-aligned vocational training", "unit": "reported livelihood pathway", "value_type": "reported_programme_scope"},
+        "operational_presence": {"value": 50, "unit": "partners reporting in Q2 2026", "value_type": "reported_partner_count"}
+      },
+      "method": "UNHCR operational dashboard compiled from partner ActivityInfo reporting; funding figures are preliminary and subject to validation.",
+      "uncertainty": "The dashboard reports programme outputs and funding status, not a complete response census, causal effect, beneficiary welfare trajectory, or final funding total.",
+      "subgroup": "Refugees and host communities in Uganda, humanitarian and development partners, agricultural households, workers, firms, and local authorities.",
+      "counterinterpretation": "A broad livelihood pathway can increase coordination while remaining too underfunded or fragmented to deliver durable self-reliance; partner reporting can overrepresent active locations and measurable activities.",
+      "source_url": "https://data.unhcr.org/en/documents/details/124095",
+      "retrieval_hash": "sha256:b9c379dff8d346d9bc52f414911c15e0b5c0a7b8e1e8b3c1a79ac0e8312fb22b",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; productive-capacity and market-facing outputs",
+      "denominator": {"value": 1, "unit": "quarterly livelihood-output portfolio reported by the Uganda response", "value_type": "reported_output_portfolio"},
+      "measures": {
+        "agricultural_inputs": {"value": 9723, "unit": "households receiving agricultural inputs and productive assets", "value_type": "reported_household_count"},
+        "good_agricultural_practices": {"value": 27386, "unit": "people trained on Good Agricultural Practices", "value_type": "reported_person_count"},
+        "market_driven_skills": {"value": 8128, "unit": "participants receiving market-driven skills training", "value_type": "reported_participant_count"},
+        "employer_linkages": {"value": 2824, "unit": "graduates linked with employers", "value_type": "reported_person_count"},
+        "business_training": {"value": 7560, "unit": "businesses receiving business training", "value_type": "reported_business_count"}
+      },
+      "method": "UNHCR dashboard output indicators with Q1-to-Q2 comparisons and partner reporting.",
+      "uncertainty": "Training, inputs, and linkages are not employment retention, income, profit, food security, or durable livelihood outcomes; indicators may overlap people or activities.",
+      "subgroup": "Refugee and host-community farmers, entrepreneurs, trainees, graduates, women, youth, employers, producer associations, and businesses.",
+      "counterinterpretation": "More training and linkages can increase aspirations without sufficient land, credit, buyers, legal status, or job demand; programme activity may intensify work without improving household room.",
+      "source_url": "https://data.unhcr.org/en/documents/details/124095",
+      "retrieval_hash": "sha256:b9c379dff8d346d9bc52f414911c15e0b5c0a7b8e1e8b3c1a79ac0e8312fb22b",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; land constraint and self-reliance threshold",
+      "denominator": {"value": 11545, "unit": "households reported as accessing arable land", "value_type": "reported_household_count"},
+      "measures": {
+        "land_access": {"value": 5553, "unit": "acres of arable land accessed by refugees and host communities", "value_type": "reported_land_area"},
+        "average_land": {"value": 0.6, "unit": "acres per supported household on average", "value_type": "reported_average"},
+        "critical_threshold": {"value": 1.2, "unit": "acres per household identified as the critical minimum threshold for self-reliance", "value_type": "reported_threshold"},
+        "group_variation": {"value": "South Sudanese households averaged 0.8 acres, Congolese 0.2, Sudanese 0.9, and host-community households 0.6", "unit": "reported subgroup averages", "value_type": "reported_subgroup_comparison"}
+      },
+      "method": "UNHCR dashboard land-access indicators and sector narrative comparing average access with a stated self-reliance threshold.",
+      "uncertainty": "The threshold is a programme planning benchmark, not a universal causal minimum; land quality, crop choice, household size, markets, climate, and nonfarm income are not captured by acres alone.",
+      "subgroup": "South Sudanese, Congolese, Sudanese, other refugee, and host-community households with different land access and livelihood conditions.",
+      "counterinterpretation": "Households can pursue nonfarm livelihoods or intensive production on smaller plots, while more land may not generate income without inputs, water, storage, buyers, security, and rights.",
+      "source_url": "https://data.unhcr.org/en/documents/details/124095",
+      "retrieval_hash": "sha256:b9c379dff8d346d9bc52f414911c15e0b5c0a7b8e1e8b3c1a79ac0e8312fb22b",
+      "status": "reported"
+    },
+    {
+      "period": "Q2 2026; formalization, financial inclusion, and documentation barriers",
+      "denominator": {"value": 279, "unit": "businesses reported as formally registered", "value_type": "reported_business_count"},
+      "measures": {
+        "formal_businesses": {"value": 279, "unit": "businesses formally registered", "value_type": "reported_business_count"},
+        "vsla_formation": {"value": 1895, "unit": "village savings and loan associations formed", "value_type": "reported_group_count"},
+        "financial_literacy": {"value": 5380, "unit": "individuals trained in financial literacy", "value_type": "reported_person_count"},
+        "barriers": {"value": "refugee documentation, Know Your Customer requirements, limited formal credit, and access to formal employment restrict economic opportunities", "unit": "reported institutional barriers", "value_type": "reported_barrier_set"},
+        "digital_route": {"value": "safe digital and banking services and stronger financial inclusion are identified as priorities", "unit": "reported programme priority", "value_type": "reported_priority"}
+      },
+      "method": "UNHCR operational dashboard and sector narrative linking outputs with formalization and documentation constraints.",
+      "uncertainty": "Formal registration and savings-group formation do not establish business survival, credit access, profitability, wage quality, or equal refugee-host participation.",
+      "subgroup": "Refugee entrepreneurs, host-community businesses, women participating in savings groups, workers, banks, employers, and people facing documentation or KYC barriers.",
+      "counterinterpretation": "Formalization and digital finance can improve visibility and access but may also impose fees, surveillance, identity barriers, repayment risk, or exclusion for people with precarious legal status.",
+      "source_url": "https://data.unhcr.org/en/documents/details/124095",
+      "retrieval_hash": "sha256:b9c379dff8d346d9bc52f414911c15e0b5c0a7b8e1e8b3c1a79ac0e8312fb22b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.unhcr.org/en/country/uga", "claim": "UNHCR Uganda Operational Data Portal country context."},
+    {"source_url": "https://data.unhcr.org/en/documents/download/124095", "claim": "Direct PDF dashboard download used for the reported Q2 indicators."}
+  ],
+  "boundary": "This record adds an operational refugee-livelihood route linking land, inputs, skills, producer organizations, market access, formalization, finance, documentation, and self-reliance. It is a partner-reporting dashboard with preliminary funding data, not a representative household panel, causal programme evaluation, or proof of sustained income, employment, food security, or durable refugee-host integration.",
+  "retrieval_hash": "sha256:b9c379dff8d346d9bc52f414911c15e0b5c0a7b8e1e8b3c1a79ac0e8312fb22b"
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-northwestern-post-moderation-disinformation-trust-infrastructure-2026",
+  "title": "Retreat from moderation shifts information risk toward users and under-resourced local trust networks",
+  "theme_ids": ["voice", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Northwestern University Roberta Buffett Institute and Center for Communication & Public Policy, Global Disinformation in a Post-Moderation World synthesis report, published 10 September 2026",
+  "geography": "Global information ecosystems, with examples from the United States, Taiwan, Ukraine, and Spanish-language communities",
+  "observations": [
+    {
+      "period": "September 2026; post-moderation accountability",
+      "denominator": {"value": 1, "unit": "symposium synthesis and expert interpretation", "value_type": "qualitative_publication_frame"},
+      "measures": {
+        "institutional_retreat": {"value": "The report describes platforms reducing moderation and governments reducing counter-disinformation programs, shifting more responsibility to journalists, civil society, communities, and individual users", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "accountability_gap": {"value": "The central governance question becomes who bears information risk when amplification, recommendation, and monetization remain powerful but safeguards retreat", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism_set"},
+        "post_moderation": {"value": "A post-moderation information environment need not become a post-accountability environment, but accountability has to be redistributed across platforms, regulators, journalism, civil society, and users", "unit": "reported synthesis", "value_type": "reported_pattern"}
+      },
+      "method": "Northwestern-led symposium synthesis drawing on panels with researchers, journalists, platform and civil-society practitioners, and public-policy experts; this is not a probability sample or representative public-opinion survey.",
+      "uncertainty": "The publication summarizes expert claims and examples rather than estimating global exposure, causal effects, or the comparative performance of moderation interventions.",
+      "subgroup": "Platform users, journalists, civil-society organizations, public institutions, local experts, and communities with different language and information-access conditions.",
+      "counterinterpretation": "Retreat from a prior moderation model may reflect legitimate concerns about speed, ambiguity, and protected expression; alternative accountability arrangements could improve pluralism if they are transparent and contestable.",
+      "source_url": "https://buffett.northwestern.edu/news/2026/global-disinformation-in-a-post-moderation-world-synthesis-report.html",
+      "retrieval_hash": "sha256:78481214b542ab3fd5893d87371e723c2ec5c13592db8b06d8861bdd9f231706",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; trust collapse and social coordination",
+      "denominator": {"value": 1, "unit": "symposium synthesis of information-trust analysis", "value_type": "qualitative_system_frame"},
+      "measures": {
+        "trust_erosion": {"value": "The report treats the deeper danger as loss of confidence in information, institutions, journalism, elections, and the possibility of determining truth, rather than belief in one false claim alone", "unit": "reported social mechanism", "value_type": "reported_mechanism_set"},
+        "coordination_route": {"value": "Confusion, distrust, polarization, and paralysis can impair a society's ability to think, coordinate, and act coherently", "unit": "analytic social-coordination route", "value_type": "analytic_mechanism_set"},
+        "epistemic_retreat": {"value": "Citizens may disengage or retreat into trusted political and social communities when they no longer know which information can be trusted", "unit": "reported behavioral possibility", "value_type": "reported_hypothesis"}
+      },
+      "method": "Expert synthesis of political-communication, disinformation, and information-resilience discussions in the symposium report.",
+      "uncertainty": "The report does not measure the prevalence of generalized distrust or establish that any particular campaign caused disengagement, enclave formation, or institutional failure.",
+      "subgroup": "Citizens, voters, news audiences, public decision-makers, and communities exposed to polarized or adversarial information flows.",
+      "counterinterpretation": "Skepticism can sometimes improve scrutiny and pluralism; distrust of one source does not necessarily imply distrust of all information or political withdrawal.",
+      "source_url": "https://buffett.northwestern.edu/news/2026/global-disinformation-in-a-post-moderation-world-synthesis-report.html",
+      "retrieval_hash": "sha256:78481214b542ab3fd5893d87371e723c2ec5c13592db8b06d8861bdd9f231706",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; distribution, attention, and local trust",
+      "denominator": {"value": 1, "unit": "symposium synthesis of intervention and distribution cases", "value_type": "qualitative_information_ecosystem_frame"},
+      "measures": {
+        "attention_problem": {"value": "People may care about truth but fail to consider accuracy while scrolling and sharing emotionally engaging content", "unit": "reported attention mechanism", "value_type": "reported_mechanism"},
+        "trusted_distribution": {"value": "Accurate information is insufficient when it does not reach communities through trusted local media, grassroots groups, interpersonal networks, or culturally legible messengers", "unit": "reported distribution mechanism", "value_type": "reported_mechanism_set"},
+        "local_capacity_gap": {"value": "Local organizations often hold the most relevant cultural and linguistic knowledge while having the least sustained staffing, technical, and communications capacity", "unit": "reported institutional asymmetry", "value_type": "reported_pattern"}
+      },
+      "method": "Symposium synthesis drawing on discussion of Spanish-language journalism, community organizations, local expertise, accuracy prompts, and trusted-messenger interventions.",
+      "uncertainty": "The report provides illustrative cases and expert interpretation, not a comparative evaluation of reach, cost, effectiveness, or durability across channels.",
+      "subgroup": "Language minorities, local journalists, community organizations, creators, fact-checkers, and users whose information access depends on trusted intermediaries.",
+      "counterinterpretation": "Local trust networks can also narrow exposure, reproduce exclusion, or carry inaccurate claims; proximity and cultural fluency are not guarantees of accuracy or inclusion.",
+      "source_url": "https://buffett.northwestern.edu/news/2026/global-disinformation-in-a-post-moderation-world-synthesis-report.html",
+      "retrieval_hash": "sha256:78481214b542ab3fd5893d87371e723c2ec5c13592db8b06d8861bdd9f231706",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; AI-enabled influence and information infrastructure",
+      "denominator": {"value": 1, "unit": "symposium synthesis of AI and state-sponsored-disinformation cases", "value_type": "qualitative_geopolitical_platform_frame"},
+      "measures": {
+        "dual_use_ai": {"value": "AI can support personalized corrections, rapid question answering, and narrative monitoring while also making deepfakes, synthetic personas, scams, and tailored influence operations cheaper and more scalable", "unit": "reported technology dual-use mechanism", "value_type": "reported_mechanism_set"},
+        "adversarial_goal": {"value": "State-sponsored campaigns may seek to make elections and institutions appear untrustworthy and to polarize rather than persuade citizens toward one stable narrative", "unit": "reported geopolitical mechanism", "value_type": "reported_pattern"},
+        "infrastructure_response": {"value": "The proposed response shifts from isolated fact-checking toward provenance, quality signals, escalation procedures, auditability, platform transparency, local expertise, and shared responsibility", "unit": "reported governance route", "value_type": "reported_policy_route"}
+      },
+      "method": "Symposium synthesis of examples involving Taiwan, Ukraine, Spanish-language information distribution, AI-assisted interventions, and platform accountability.",
+      "uncertainty": "The report does not quantify the scale or success of the cited campaigns and does not show that the proposed infrastructure would reduce political violence, polarization, or institutional distrust.",
+      "subgroup": "Voters, language communities, journalists, public institutions, platforms, civil society, and populations targeted by state or commercial influence operations.",
+      "counterinterpretation": "AI-supported verification and personalization may improve access and resilience, but provenance and transparency systems can be politicized, costly, or used to over-restrict legitimate speech.",
+      "source_url": "https://buffett.northwestern.edu/news/2026/global-disinformation-in-a-post-moderation-world-synthesis-report.html",
+      "retrieval_hash": "sha256:78481214b542ab3fd5893d87371e723c2ec5c13592db8b06d8861bdd9f231706",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://polcomm.northwestern.edu/", "claim": "Northwestern Center for Communication & Public Policy provides institutional context for the symposium."},
+    {"source_url": "https://globalaffairs.org/", "claim": "Chicago Council on Global Affairs was identified as a symposium partner."}
+  ],
+  "boundary": "This record adds an information-governance route from platform and government retreat through attention, trust, local distribution capacity, AI-enabled influence, provenance, and public coordination. It is a symposium synthesis and expert interpretation, not a representative survey, causal evaluation, exposure estimate, or proof that any proposed accountability arrangement will work.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Northwestern publication page reviewed for the post-moderation framing, trust and coordination mechanisms, distribution and local-capacity examples, AI dual-use, state-sponsored influence, and infrastructure/accountability proposals.",
+    "source_url_sha256": "sha256:78481214b542ab3fd5893d87371e723c2ec5c13592db8b06d8861bdd9f231706",
+    "checked": "2026-09-29"
+  }
+}

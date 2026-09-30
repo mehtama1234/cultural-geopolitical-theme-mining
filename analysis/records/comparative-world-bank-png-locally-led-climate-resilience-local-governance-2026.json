@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-png-locally-led-climate-resilience-local-governance-2026",
+  "title": "Climate resilience in Papua New Guinea depends on shifting adaptation authority and finance toward strained local institutions",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning", "infrastructure_technology_dependency", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "World Bank, Building Community Resilience in a Complex Setting: Opportunities for Papua New Guinea, September 2026",
+  "geography": "Papua New Guinea; Local-Level Governments, rural and climate-sensitive communities, provinces with high climate and conflict risk, wantok networks, Indigenous and traditional knowledge systems, churches, and community organizations",
+  "observations": [
+    {
+      "period": "2026; climate risk and local variation",
+      "denominator": {"value": 1, "unit": "World Bank PNG resilience study combining climate indices, institutional analysis, consultations, and local-government profiles", "value_type": "reported_mixed_methods_frame"},
+      "measures": {"risk_variation": {"value": "climate risks vary substantially across Local-Level Governments due to droughts, floods, landslides, extreme heat, tropical cyclones, and changing climatic conditions", "unit": "reported spatial risk pattern", "value_type": "reported_risk_finding"}, "risk_profiles": {"value": "the study develops nine climate-risk profiles for targeting adaptation investments and locally appropriate interventions", "unit": "reported analytical tool", "value_type": "reported_policy_tool"}, "conflict_overlap": {"value": "several high-risk areas also experience elevated conflict, requiring conflict-sensitive adaptation", "unit": "reported overlapping-risk pattern", "value_type": "reported_mechanism_set"}},
+      "method": "Desk review, stakeholder consultations, institutional analysis, climate-finance assessment, statistical analysis, machine-learning approaches, and local-government climate-risk profiling.",
+      "uncertainty": "Risk profiles support targeting but do not establish which adaptation intervention will produce durable welfare, peace, or livelihood effects in each location.",
+      "subgroup": "Rural and climate-sensitive households, Local-Level Governments, communities in high-risk provinces, conflict-affected populations, women, Indigenous groups, and climate-dependent livelihoods.",
+      "counterinterpretation": "Spatially differentiated profiles can improve targeting, but risk categorization may also attract resources away from less visible communities or simplify local knowledge into administrative types.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/3c26383b-c7d2-4250-abda-e36e133b1a26/download",
+      "retrieval_hash": "sha256:9b13e6b230fa1c1a9bad425dc5b17d84c54cb1e8b67c2dc6e5f20d9bb7770806",
+      "status": "reported"
+    },
+    {
+      "period": "2026; centralized policy and local implementation capacity",
+      "denominator": {"value": 1, "unit": "World Bank institutional and climate-finance assessment for PNG", "value_type": "reported_institutional_frame"},
+      "measures": {"centralization_gap": {"value": "national climate policy is robust but implementation remains highly centralized and insufficiently connected to local institutions", "unit": "reported governance finding", "value_type": "reported_institutional_finding"}, "local_capacity": {"value": "Local-Level Governments often lack capacity, financing, and technical support to deliver climate adaptation mandates", "unit": "reported implementation constraint", "value_type": "reported_capacity_finding"}, "finance_gap": {"value": "PNG faces a substantial adaptation-finance gap and receives among the lowest climate finance per capita in the Pacific", "unit": "reported financing constraint", "value_type": "reported_finance_finding"}},
+      "method": "Institutional analysis, stakeholder consultations, climate-finance assessment, and review of local-government mandates and delivery conditions.",
+      "uncertainty": "The report identifies institutional and finance constraints but does not estimate the causal effect of decentralization, finance volume, or technical support on resilience outcomes.",
+      "subgroup": "Local officials, rural communities, provincial governments, national ministries, climate-finance intermediaries, and residents dependent on local services.",
+      "counterinterpretation": "Central coordination may be necessary for standards, scale, and accountability; locally led action without sustained finance and technical support can download responsibility without power.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/3c26383b-c7d2-4250-abda-e36e133b1a26/download",
+      "retrieval_hash": "sha256:9b13e6b230fa1c1a9bad425dc5b17d84c54cb1e8b67c2dc6e5f20d9bb7770806",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social infrastructure and locally led resilience",
+      "denominator": {"value": 1, "unit": "World Bank PNG community-resilience and local-governance frame", "value_type": "reported_social_infrastructure_frame"},
+      "measures": {"traditional_support": {"value": "wantok networks, Indigenous and traditional knowledge, churches, and community organizations remain important resilience supports", "unit": "reported social-infrastructure set", "value_type": "reported_social_mechanism"}, "strain": {"value": "traditional and community support systems are increasingly strained by overlapping climate, conflict, and socioeconomic pressures", "unit": "reported social-capacity constraint", "value_type": "reported_social_risk"}, "platform_route": {"value": "community-driven platforms such as the Rural Service Delivery Project are identified as promising mechanisms for scaling adaptation while fostering participation and social cohesion", "unit": "reported institutional route", "value_type": "reported_policy_route"}},
+      "method": "Community and institutional analysis combining consultations, local knowledge, resilience systems, and review of community-driven delivery platforms.",
+      "uncertainty": "The report identifies promising platforms and social supports but does not establish their long-term inclusiveness, representation, conflict effects, or ability to substitute for public capacity.",
+      "subgroup": "Wantok networks, churches, Indigenous knowledge holders, community organizations, women and youth groups, local governments, and households with different social-network access.",
+      "counterinterpretation": "Community networks can provide trust and rapid support, but may exclude outsiders, reproduce hierarchy, or place unpaid adaptation labour on women and marginalized groups.",
+      "source_url": "https://openknowledge.worldbank.org/bitstreams/3c26383b-c7d2-4250-abda-e36e133b1a26/download",
+      "retrieval_hash": "sha256:9b13e6b230fa1c1a9bad425dc5b17d84c54cb1e8b67c2dc6e5f20d9bb7770806",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.preventionweb.net/publication/documents-and-publications/building-community-resilience-complex-setting-opportunities", "claim": "PreventionWeb public record and summary of the World Bank PNG resilience report."}],
+  "boundary": "This record adds a climate-to-local-governance route linking spatial risk, conflict sensitivity, centralized implementation, local capacity, adaptation finance, traditional support systems, community platforms, participation, and social cohesion. It does not establish causal resilience effects, equal representation, durable finance, or that community networks can replace accountable public capacity.",
+  "reproduction_audit": {"retrieval_hash_scope": "World Bank report PDF reviewed for climate-risk variation, nine profiles, conflict overlap, centralization gap, Local-Level Government capacity, adaptation-finance gap, wantok and traditional supports, strain, and community-driven delivery platforms.", "source_url_sha256": "sha256:9b13e6b230fa1c1a9bad425dc5b17d84c54cb1e8b67c2dc6e5f20d9bb7770806", "checked": "2026-09-29"}
+}

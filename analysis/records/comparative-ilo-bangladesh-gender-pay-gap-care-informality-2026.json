@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-bangladesh-gender-pay-gap-care-informality-2026",
+  "title": "Bangladesh’s gender pay gap is reinforced by labor-market sorting, unpaid care, informality, and weak enforcement",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "ILO, The gender pay gap in Bangladesh: Trends, causes and policy options",
+  "geography": "Bangladesh, using the 2023 Labour Force Survey with stakeholder consultations and policy analysis",
+  "observations": [
+    {
+      "period": "Bangladesh labor market; 2023 employment and wage-employment structure",
+      "denominator": {"value": 1, "unit": "national labor-market frame from the 2023 Labour Force Survey", "value_type": "reported_national_survey"},
+      "measures": {
+        "employment_rate": {"value": "female employment is 40.2% compared with 77.9% for men, a 37.7 percentage-point employment-rate gap", "unit": "percent and percentage points", "value_type": "reported_survey_estimate"},
+        "wage_employment_access": {"value": "19% of employed women are wage employees compared with 48% of employed men", "unit": "percent of employed women and men", "value_type": "reported_survey_estimate"},
+        "representation": {"value": "women represent about 17% of all wage employees and 6.2% of managerial positions", "unit": "percent", "value_type": "reported_survey_estimate"},
+        "sorting_mechanism": {"value": "gender inequality is produced before pay comparison through unequal access to wage employment, managerial work, and higher-paid sectors and occupations", "unit": "bounded labor-market mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive analysis of Bangladesh’s 2023 Labour Force Survey, disaggregated by sex, employment status, sector, occupation, age, education, rurality, and formality, supplemented by stakeholder consultations.",
+      "uncertainty": "The national survey describes labor-market structure but does not identify a single causal source for each employment gap or establish how much of the gap would disappear under a specific policy.",
+      "subgroup": "Women and men in Bangladesh, wage employees, own-account workers, managers, informal workers, rural and urban workers, employers, and caregivers.",
+      "counterinterpretation": "Employment-status differences can reflect constrained opportunities, preferences, household production, or measurement and classification choices; the descriptive figures alone cannot distinguish these mechanisms.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/The%20Gender%20Pay%20Gap%20in%20Bangladesh_Updated.pdf",
+      "retrieval_hash": "sha256:6bd95b4ddf1d739970b65f1902f0605aff97028ca2b85fece2620a04a2a1b05d",
+      "status": "reported"
+    },
+    {
+      "period": "Bangladesh wage employment; monthly wage comparisons in 2023",
+      "denominator": {"value": 1, "unit": "wage-employed women and men observed in the 2023 Labour Force Survey wage comparison", "value_type": "reported_comparison_frame"},
+      "measures": {
+        "monthly_gender_pay_gap": {"value": "women’s monthly earnings are approximately 22-25% lower than men’s, or about 750-780 taka for every 1,000 taka earned by men", "unit": "percent and Bangladeshi taka per 1,000", "value_type": "reported_wage_estimate"},
+        "age_pattern": {"value": "the gap widens sharply with age, consistent with accumulating constraints after childbirth and across career progression", "unit": "reported age gradient", "value_type": "reported_heterogeneity"},
+        "education_pattern": {"value": "the gap narrows with higher education but does not disappear", "unit": "reported education gradient", "value_type": "reported_heterogeneity"},
+        "formality_pattern": {"value": "the gap is substantially higher among informal workers than among formal workers", "unit": "reported formality gradient", "value_type": "reported_heterogeneity"}
+      },
+      "method": "Monthly wage comparisons and distributional analysis using the 2023 Labour Force Survey, including age, education, and formal/informal employment breakdowns.",
+      "uncertainty": "The report’s monthly wage gap is not a randomized or longitudinal estimate; observed age, education, and formality gradients may combine selection, sector composition, experience, discrimination, hours, and other unobserved factors.",
+      "subgroup": "Women and men in formal and informal wage employment, younger and older workers, workers with different education levels, and workers entering or remaining after childbirth.",
+      "counterinterpretation": "Education and formal legal coverage may reduce disparities without proving that either factor is sufficient; monthly wages also differ from hourly pay and total household income.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/The%20Gender%20Pay%20Gap%20in%20Bangladesh_Updated.pdf",
+      "retrieval_hash": "sha256:6bd95b4ddf1d739970b65f1902f0605aff97028ca2b85fece2620a04a2a1b05d",
+      "status": "reported"
+    },
+    {
+      "period": "Bangladesh wage distribution and household-care context; 2023 survey and consultation evidence",
+      "denominator": {"value": 1, "unit": "decomposition and household-care evidence across the reported wage distribution", "value_type": "reported_distributional_frame"},
+      "measures": {
+        "unexplained_share": {"value": "at all points of the wage distribution, the majority of the pay gap is not attributed to observed differences in education, occupation, or sector", "unit": "majority share of gap; exact share varies by specification", "value_type": "reported_decomposition_result"},
+        "care_time": {"value": "women in wage employment report almost four times more weekly hours on household chores than men", "unit": "relative hours", "value_type": "reported_survey_estimate"},
+        "sector_valuation": {"value": "sectors with a relatively high share of female wage employment tend to offer lower average wages for all workers", "unit": "reported sector pattern", "value_type": "reported_association"},
+        "institutional_route": {"value": "equal-pay law, wage-setting, labor inspection, complaint access, care policy, and social dialogue are the proposed levers for converting formal rights into realized wage equality", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Wage-gap decomposition across the wage distribution, household-chore evidence from the survey, sector wage comparisons, qualitative stakeholder consultation, and review of Bangladesh’s legal and policy framework.",
+      "uncertainty": "An unexplained decomposition component is not itself proof of direct discrimination; the report combines quantitative associations and qualitative evidence, and does not estimate the causal effect of inspection, care policy, bargaining, or complaint mechanisms.",
+      "subgroup": "Women with unpaid-care responsibilities, workers in feminized sectors, informal workers, labor inspectors, employers, unions, policymakers, and workers using complaint or bargaining channels.",
+      "counterinterpretation": "Sector wage differences may reflect productivity, job amenities, hours, risk, or selection as well as undervaluation; care responsibilities and labor-market choices may be jointly determined by wages, norms, and available services.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-09/The%20Gender%20Pay%20Gap%20in%20Bangladesh_Updated.pdf",
+      "retrieval_hash": "sha256:6bd95b4ddf1d739970b65f1902f0605aff97028ca2b85fece2620a04a2a1b05d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/gender-pay-gap-bangladesh-trends-causes-and-policy-options", "claim": "Official ILO publication page, date, study scope, headline 22-25% monthly gap, methodology, consultations, and policy framing."},
+    {"source_url": "https://doi.org/10.54394/00033784", "claim": "ILO publication DOI and bibliographic identifier."}
+  ],
+  "boundary": "This record adds a national labor-market and institutional-enforcement layer to the child-penalty finding. It is descriptive and decomposition-based evidence from Bangladesh’s 2023 survey, not causal proof that discrimination, unpaid care, informality, or a specific legal weakness independently causes the measured gap; it does not establish household welfare, lifetime earnings, or universal cross-country magnitudes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO PDF, publication page, 2023 Labour Force Survey basis, employment and wage-employment structure, 22-25% monthly gap, age, education, formality, decomposition, household chores, sector valuation, managerial representation, legal framework, stakeholder consultations, and policy boundaries were reviewed.",
+    "source_url_sha256": "sha256:6bd95b4ddf1d739970b65f1902f0605aff97028ca2b85fece2620a04a2a1b05d",
+    "checked": "2026-09-29"
+  }
+}

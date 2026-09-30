@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-eu-social-economy-europe-2025-care-housing-delivery",
+  "title": "Locally rooted social-economy organizations are becoming delivery infrastructure for care, housing and community resilience as affordability gaps widen",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "OECD and European Union, Social Economy in Europe: Contributing to Competitiveness and Prosperity",
+  "geography": "European Union with comparative member-state examples; OECD and European Commission policy analysis",
+  "observations": [
+    {
+      "period": "2025; scale and institutional role of the EU social economy",
+      "denominator": {"value": null, "unit": "European Union social-economy entities and workforce; entity-definition and country-coverage details are specified in the report", "value_type": "not_disclosed"},
+      "measures": {
+        "social_economy_entities": {"value": 4300000, "unit": "estimated social-economy entities in the European Union", "value_type": "reported_count"},
+        "social_economy_employment": {"value": 11500000, "unit": "people employed by social-economy entities in the European Union", "value_type": "reported_count"},
+        "workforce_share": {"value": 6.3, "unit": "percent of the EU workforce employed by social-economy entities", "value_type": "reported_share"},
+        "delivery_scope": {"value": "Entities operate across housing, health, care, education, energy, banking, agriculture and community development, using citizen-led and locally rooted approaches", "unit": "reported institutional scope", "value_type": "reported_interpretation"}
+      },
+      "method": "OECD–European Commission report synthesizing administrative, policy and country evidence on social-economy entities and enabling frameworks.",
+      "uncertainty": "The aggregate estimate combines diverse legal forms and sectors; it should not be interpreted as a uniform provider category or as evidence that all entities deliver equivalent quality or affordability.",
+      "subgroup": "Social-economy organizations and workers across EU member states.",
+      "counterinterpretation": "Scale alone does not prove social value; some organizations may be financially fragile, unevenly accessible or dependent on public procurement and subsidies.",
+      "source_url": "https://www.oecd.org/en/publications/social-economy-in-europe_3432de93-en/full-report.html",
+      "retrieval_hash": "sha256:260525396fb0fe60c7987ca142cf266659ffba625ebc3646d03c3c112072c9fe",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; European housing affordability and service access",
+      "denominator": {"value": null, "unit": "EU population and OECD survey respondents as specified for each cited measure; measures are not one common survey denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "adequate_housing_concern": {"value": 55, "unit": "percent of respondents in 27 OECD countries somewhat or very concerned about finding or maintaining adequate housing", "value_type": "reported_share"},
+        "urban_affordable_housing_urgent": {"value": 51, "unit": "percent of urban respondents identifying lack of affordable housing as an immediate and urgent problem", "value_type": "reported_share"},
+        "eu_rent_change": {"value": 27.8, "unit": "percent increase in EU rents from 2010 to the first quarter of 2025", "value_type": "reported_change"},
+        "eu_house_price_change": {"value": 57.9, "unit": "percent increase in EU house prices from 2010 to the first quarter of 2025", "value_type": "reported_change"},
+        "low_income_housing_overburden": {"value": 31.1, "unit": "percent of EU population below 60% of median equivalised income experiencing housing-cost overburden in 2024", "value_type": "reported_share"}
+      },
+      "method": "OECD and Eurostat housing indicators cited in the OECD–EU social-economy report, combined with OECD Risks that Matter and Eurobarometer evidence.",
+      "uncertainty": "The measures use different years, populations and definitions; price change is not equivalent to affordability change, and overburden does not capture quality, insecurity or access to nearby services by itself.",
+      "subgroup": "EU households, urban residents, low-income households and respondents in 27 OECD countries.",
+      "counterinterpretation": "Aggregate EU housing-cost indicators can conceal major national and regional differences, including places where social housing, rental regulation or household incomes buffer price pressure.",
+      "source_url": "https://www.oecd.org/en/publications/social-economy-in-europe_3432de93-en/full-report/component-7.html",
+      "retrieval_hash": "sha256:260525396fb0fe60c7987ca142cf266659ffba625ebc3646d03c3c112072c9fe",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025; social-economy role in affordable housing",
+      "denominator": {"value": null, "unit": "Housing-stock measures for selected EU member states; country coverage and social-housing definitions vary", "value_type": "not_disclosed"},
+      "measures": {
+        "social_housing_provider_share_netherlands": {"value": 82, "unit": "percent of social rental housing stock provided by social-economy entities in the Netherlands", "value_type": "reported_share"},
+        "social_housing_provider_share_austria": {"value": 61, "unit": "percent of social rental housing stock provided by social-economy entities in Austria", "value_type": "reported_share"},
+        "social_housing_provider_share_france": {"value": 53, "unit": "percent of social rental housing stock provided by social-economy entities in France", "value_type": "reported_share"},
+        "nonprofit_housing_stock_netherlands": {"value": 32, "unit": "approximate share of total housing stock represented by non- or limited-profit organizations in the Netherlands", "value_type": "reported_share"},
+        "participatory_delivery": {"value": "Social-economy housing entities combine affordability with service provision, community development and sometimes participatory governance", "unit": "reported institutional interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "OECD Affordable Housing Database and country examples synthesized in the OECD–EU report.",
+      "uncertainty": "Social housing definitions differ across countries, and provider share does not directly establish rents, quality, waiting times, resident power or access for the lowest-income households.",
+      "subgroup": "Selected EU member states and their social-rental and broader housing stocks.",
+      "counterinterpretation": "Large provider shares may reflect historical institutional arrangements and cannot be transplanted without land, finance, governance and public-capacity conditions.",
+      "source_url": "https://www.oecd.org/en/publications/social-economy-in-europe_3432de93-en/full-report/component-7.html",
+      "retrieval_hash": "sha256:260525396fb0fe60c7987ca142cf266659ffba625ebc3646d03c3c112072c9fe",
+      "status": "reported"
+    },
+    {
+      "period": "2025; enabling conditions for social-economy care and housing delivery",
+      "denominator": {"value": null, "unit": "OECD–EU report synthesis; no single respondent or entity denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "priority_sectors": {"value": "Care and affordable housing are treated as priority areas shaped by ageing, rising housing costs, limited supply and widening inequality", "unit": "reported policy diagnosis", "value_type": "reported_interpretation"},
+        "institutional_arrangements": {"value": "Effective delivery depends on arrangements across national, regional and municipal levels", "unit": "reported framework condition", "value_type": "reported_interpretation"},
+        "business_support": {"value": "Business-support ecosystems are identified as a framework condition for social-economy expansion", "unit": "reported framework condition", "value_type": "reported_interpretation"},
+        "fiscal_measures": {"value": "Taxation and fiscal measures are identified as a framework condition alongside institutional arrangements and business support", "unit": "reported framework condition", "value_type": "reported_interpretation"},
+        "care_workforce": {"value": "The report emphasizes quality, accessible care, long-term partnerships and better recognition of care occupations", "unit": "reported care-delivery implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Comparative policy analysis of social-economy care and housing models and their institutional conditions.",
+      "uncertainty": "The report identifies enabling conditions and examples, not a common impact evaluation or proof that social-economy provision outperforms public or private provision in every setting.",
+      "subgroup": "National, regional and municipal authorities; social-economy entities; care workers; residents and households needing housing or care.",
+      "counterinterpretation": "Social-economy organizations can complement but cannot replace public financing, universal standards or sufficient supply; shifting delivery without resources may simply relocate unpaid or underpaid work.",
+      "source_url": "https://www.oecd.org/en/publications/social-economy-in-europe_3432de93-en/full-report.html",
+      "retrieval_hash": "sha256:260525396fb0fe60c7987ca142cf266659ffba625ebc3646d03c3c112072c9fe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/3432de93-en", "claim": "Official OECD publication record and DOI for the OECD–European Commission report."},
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/social-economy-in-europe_2599a910/3432de93-en.pdf", "claim": "Official downloadable PDF used for retrieval verification and hashing."}
+  ],
+  "boundary": "This record adds an institutional-delivery mechanism: housing and care affordability pressures create room for non-profit, limited-profit and cooperative organizations to function as locally rooted infrastructure, but their capacity depends on public framework conditions, finance, procurement and accountability. It is comparative policy and administrative evidence, not a universal causal evaluation of the social economy or a substitute for local service-capacity data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD full report, housing chapter, publication record and PDF were retrieved and reviewed for social-economy scale, housing affordability, provider shares, care and housing delivery mechanisms, and enabling conditions; the PDF was hashed.",
+    "source_url_sha256": "sha256:260525396fb0fe60c7987ca142cf266659ffba625ebc3646d03c3c112072c9fe",
+    "checked": "2026-09-27"
+  }
+}

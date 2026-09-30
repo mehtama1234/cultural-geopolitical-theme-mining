@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cdc-youth-health-in-focus-2025",
+  "title": "Youth health is improving on some emotional and dietary indicators while sleep, activity, and digital-risk constraints persist",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Centers for Disease Control and Prevention Youth Health in Focus release; national Youth Risk Behavior Survey data for 2023–2025 and 10-year trends for 2015–2025",
+  "geography": "United States; nationally representative high school student estimates",
+  "observations": [
+    {
+      "period": "2023–2025; U.S. high school students",
+      "denominator": {"value": 1, "unit": "national YRBS high school student estimate universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "persistent_sadness_or_hopelessness": {"value": "40 to 33", "unit": "percent; 2023 to 2025", "value_type": "reported_change"},
+        "poor_mental_health": {"value": "29 to 23", "unit": "percent; 2023 to 2025", "value_type": "reported_change"},
+        "seriously_considered_suicide": {"value": "20 to 14", "unit": "percent; 2023 to 2025", "value_type": "reported_change"}
+      },
+      "method": "CDC national Youth Risk Behavior Survey estimates summarized in the Youth Health in Focus release.",
+      "uncertainty": "The measures are survey estimates and the release highlights selected statistically significant differences; the cross-sectional series does not establish why the indicators changed or whether gains will persist.",
+      "subgroup": "U.S. high school students.",
+      "counterinterpretation": "Improvement in population indicators does not mean distress has resolved, that every subgroup improved equally, or that school, family, community, and public-health interventions caused the change.",
+      "source_url": "https://www.cdc.gov/media/releases/2026/cdc-data-show-encouraging-progress-in-youth-health.html",
+      "retrieval_hash": "sha256:4447ac653339e161aed5078aed9ce3ee3e5e413ddd8b41829a430c1cc7933094",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2025; U.S. high school students",
+      "denominator": {"value": 1, "unit": "national YRBS high school student estimate universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "daily_fruit_consumption": {"value": "33 to 39", "unit": "percent; 2023 to 2025", "value_type": "reported_change"},
+        "daily_vegetable_consumption": {"value": "58 to 63", "unit": "percent; 2023 to 2025", "value_type": "reported_change"},
+        "plain_water_three_or_more_times_daily": {"value": "54 to 58", "unit": "percent; 2023 to 2025", "value_type": "reported_change"},
+        "played_on_sports_team": {"value": "52 to 58", "unit": "percent; 2023 to 2025", "value_type": "reported_change"}
+      },
+      "method": "CDC national Youth Risk Behavior Survey estimates summarized in the Youth Health in Focus release.",
+      "uncertainty": "These are descriptive population changes and do not identify changes in household food access, school meals, prices, sports availability, or other mechanisms.",
+      "subgroup": "U.S. high school students.",
+      "counterinterpretation": "Better reported dietary indicators and sports participation do not imply that overall physical activity, nutrition quality, or health equity improved across all students.",
+      "source_url": "https://www.cdc.gov/media/releases/2026/cdc-data-show-encouraging-progress-in-youth-health.html",
+      "retrieval_hash": "sha256:4447ac653339e161aed5078aed9ce3ee3e5e413ddd8b41829a430c1cc7933094",
+      "status": "reported"
+    },
+    {
+      "period": "2025; U.S. high school students",
+      "denominator": {"value": 1, "unit": "national YRBS high school student estimate universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "at_least_eight_hours_sleep": {"value": 24, "unit": "percent; 23% in 2023", "value_type": "reported_share"},
+        "daily_physical_activity_and_guideline_meeting": {"value": "unchanged", "unit": "CDC reported trend status from 2023 to 2025", "value_type": "reported_status"},
+        "daily_physical_education": {"value": "declined", "unit": "CDC reported trend status from 2023 to 2025", "value_type": "reported_status"}
+      },
+      "method": "CDC national Youth Risk Behavior Survey estimates and trend summary.",
+      "uncertainty": "The release reports population-level trend status but does not identify whether sleep and activity constraints arise primarily from schedules, built environments, school policy, family conditions, health, or technology use.",
+      "subgroup": "U.S. high school students.",
+      "counterinterpretation": "A stable or low population share is not proof that every student experiences inadequate sleep or that physical education alone would resolve the constraint.",
+      "source_url": "https://www.cdc.gov/media/releases/2026/cdc-data-show-encouraging-progress-in-youth-health.html",
+      "retrieval_hash": "sha256:4447ac653339e161aed5078aed9ce3ee3e5e413ddd8b41829a430c1cc7933094",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2025; U.S. high school students with relevant behavior",
+      "denominator": {"value": 1, "unit": "national YRBS subgroup estimate universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "social_media_use_every_hour_or_more": {"value": "36; 37 when measurement began", "unit": "percent; 2025 and 2023", "value_type": "reported_share"},
+        "text_or_email_while_driving": {"value": "46; 42 in 2023", "unit": "percent of students who drove in the past month; 2025 and 2023", "value_type": "reported_share"}
+      },
+      "method": "CDC national Youth Risk Behavior Survey estimates summarized in the Youth Health in Focus release.",
+      "uncertainty": "The release reports associations and trend indicators, not causal effects of social media or digital communication on sleep, safety, nutrition, or mental health.",
+      "subgroup": "U.S. high school students; driving measure limited to students who drove in the past month.",
+      "counterinterpretation": "Stable social-media frequency does not establish stable exposure intensity, content, platform mix, or individual harm; the driving measure does not explain why students text while driving.",
+      "source_url": "https://www.cdc.gov/media/releases/2026/cdc-data-show-encouraging-progress-in-youth-health.html",
+      "retrieval_hash": "sha256:4447ac653339e161aed5078aed9ce3ee3e5e413ddd8b41829a430c1cc7933094",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record captures CDC-reported national changes in selected youth mental-health, dietary, activity, sleep, and digital-behavior indicators. It does not establish causal mechanisms, subgroup equity, intervention effects, or future persistence.",
+  "retrieval_hash": "sha256:4447ac653339e161aed5078aed9ce3ee3e5e413ddd8b41829a430c1cc7933094"
+}

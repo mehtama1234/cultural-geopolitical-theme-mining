@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ukraine-early-childhood-preschool-expenditure-institutional-2026",
+  "title": "Ukraine’s preschool system turns demographic shock and wartime disruption into a territorial care, labor, and recovery challenge",
+  "theme_ids": ["time", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "World Bank, Spending Better on Ukraine’s Youngest Learners: A Public Expenditure and Institutional Review of Early Childhood and Preschool Education",
+  "geography": "Ukraine nationally, with hromada, oblast, and local preschool-system variation",
+  "observations": [
+    {
+      "period": "2021-2024; Ukraine early childhood and preschool education enrollment",
+      "denominator": {"value": 1, "unit": "Ukraine ECPE enrollment frame covering children ages 0-5 and enrolled children in preschool education institutions", "value_type": "reported_national_and_age_group_frame"},
+      "measures": {
+        "enrollment_change": {"value": "enrollment declined 31.1%, from about 1.1 million children in 2021 to 765,576 in 2024", "unit": "percent and children", "value_type": "reported_administrative_change"},
+        "participation": {"value": "participation among children ages 0-5 remained between 40% and 51%, with particularly low participation among children ages 0-2", "unit": "percent", "value_type": "reported_enrollment_rate"},
+        "territorial_gap": {"value": "hromadas with the highest enrollment serve nearly three times as many children as those with the lowest enrollment", "unit": "relative enrollment rate", "value_type": "reported_hromada_gap"},
+        "occupancy": {"value": "81% of preschool places are occupied nationally, while occupancy ranges from about 52% to more than 100% across oblasts", "unit": "percent of places", "value_type": "reported_capacity_distribution"},
+        "mechanism": {"value": "war-related disruption, displacement, demographic decline, safety conditions, and local demand shifts produce simultaneous overcrowding, unmet demand, and excess capacity", "unit": "bounded care-system mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Public expenditure, administrative, and household-survey analysis using primarily 2024 data, complemented by policy review and semistructured interviews conducted in late 2025.",
+      "uncertainty": "The report notes changing security conditions, territorial-coverage differences, measurement uncertainty, and the fact that quantitative analysis largely predates implementation of the Preschool Law on January 1, 2025; the figures do not identify causal effects of any single disruption.",
+      "subgroup": "Young children, displaced families, caregivers, women with young children, hromadas facing overcrowding, and communities with shrinking child populations or excess preschool capacity.",
+      "counterinterpretation": "Lower enrollment may partly reflect demographic decline, displacement, household choice, safety concerns, and changing data coverage rather than only deteriorating service quality; excess capacity can also create an opportunity for expansion if networks are redesigned.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090826064530384/pdf/P507410-6f3ba776-2c99-4aeb-a218-a62b880112af.pdf",
+      "retrieval_hash": "sha256:a998ead59925d4bec3ae56adf37a4d79b1491f3a0bd34096078da5a5f4cbcdd1",
+      "status": "reported"
+    },
+    {
+      "period": "2024; ECPE financing and territorial equity across Ukrainian hromadas",
+      "denominator": {"value": 1, "unit": "Ukraine local-finance comparison frame covering reporting hromadas", "value_type": "reported_subnational_frame"},
+      "measures": {
+        "per_child_spending": {"value": "per-child ECPE spending varies nearly 50-fold between the highest- and lowest-spending hromadas", "unit": "relative spending multiple", "value_type": "reported_hromada_variation"},
+        "enrollment_association": {"value": "children in lower-spending communities are less likely to be enrolled in ECPE", "unit": "reported association", "value_type": "reported_subnational_association"},
+        "financing_structure": {"value": "ECPE is financed almost entirely through local budgets, so differences in local fiscal capacity continue to translate into disparities in spending and outcomes despite fiscal equalization", "unit": "institutional financing mechanism", "value_type": "reported_institutional_mechanism"},
+        "policy_window": {"value": "the report estimates that current funding can accommodate current enrollment and could support expansion if networks, staffing, and service delivery become more efficient", "unit": "reported fiscal-sustainability assessment", "value_type": "reported_simulation_result"},
+        "mechanism": {"value": "the place where a child lives acts as a proxy for the fiscal capacity and adaptive room of the local care system", "unit": "bounded territorial-equity mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Subnational expenditure, enrollment, capacity, and fiscal analysis linked to the governance and financing arrangements of hromadas and central government.",
+      "uncertainty": "The association between spending and enrollment is not a causal estimate; local spending also reflects costs, geography, staffing, safety, demand, and reporting conditions, and the report does not establish that equalizing inputs alone would equalize outcomes.",
+      "subgroup": "Children and caregivers in fiscally weaker hromadas, local governments, preschool providers, displaced households, and women whose labor-force participation depends on reliable childcare.",
+      "counterinterpretation": "Local financing can improve responsiveness and accountability; national equalization or output-based formulas may introduce new administrative burdens or fail if local implementation capacity remains weak.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090826064530384/pdf/P507410-6f3ba776-2c99-4aeb-a218-a62b880112af.pdf",
+      "retrieval_hash": "sha256:a998ead59925d4bec3ae56adf37a4d79b1491f3a0bd34096078da5a5f4cbcdd1",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; ECPE staffing, budget rules, and implementation of the 2024 Preschool Law",
+      "denominator": {"value": 1, "unit": "Ukraine ECPE workforce and institutional frame covering reviewed public preschool education institutions", "value_type": "reported_sector_frame"},
+      "measures": {
+        "staffing_mix": {"value": "more than half of ECPE staff are non-pedagogical or technical staff, and less than half of pedagogical staff are classroom teachers", "unit": "share of staff", "value_type": "reported_staffing_composition"},
+        "teacher_pay": {"value": "public-sector teacher pay is 22% lower than private-sector pay and about half of the average national salary", "unit": "percent comparison", "value_type": "reported_pay_comparison"},
+        "within_hromada_mismatch": {"value": "64% of hromadas have at least one preschool understaffed in classroom teachers and another overstaffed", "unit": "percent of hromadas", "value_type": "reported_staffing_distribution"},
+        "budget_rigidity": {"value": "providers cannot retain or redirect savings across budget lines, so financing rewards prescribed inputs rather than enrollment, quality, or adaptive service delivery", "unit": "institutional budget mechanism", "value_type": "reported_institutional_mechanism"},
+        "reform_mechanism": {"value": "the 2024 Preschool Law introduces greater flexibility in staffing, service models, governance, and quality assurance, but implementation depends on hromada capacity and practical guidance", "unit": "bounded regulatory-implementation mechanism", "value_type": "reported_reform_route"}
+      },
+      "method": "Expenditure and staffing analysis combined with institutional review, policy analysis, and interviews with national, oblast, hromada, and preschool-institution stakeholders.",
+      "uncertainty": "The report identifies structural inefficiency and implementation constraints but does not estimate the causal effect of the new law; staffing and budget patterns may change as the law is implemented and as wartime and demographic conditions evolve.",
+      "subgroup": "Classroom teachers, technical and specialist staff, preschool directors, hromada officials, caregivers, children needing inclusive services, and communities rebuilding or repurposing facilities.",
+      "counterinterpretation": "Technical and specialist roles may provide valuable care, nutrition, inclusion, and developmental support; reducing them without service-network redesign could worsen quality, workload, or safety.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090826064530384/pdf/P507410-6f3ba776-2c99-4aeb-a218-a62b880112af.pdf",
+      "retrieval_hash": "sha256:a998ead59925d4bec3ae56adf37a4d79b1491f3a0bd34096078da5a5f4cbcdd1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099090826064530384", "claim": "Official World Bank record, title, report identifier, publication metadata, and document detail."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099090826064530384", "claim": "World Bank document API record containing the official PDF URL, abstract, authors, and document identifier."}
+  ],
+  "boundary": "This record adds an early-childhood-care-to-territorial-inequality, female-labor-force, and recovery-capacity mechanism. It is a public expenditure and institutional review, not a causal evaluation of wartime disruption, the Preschool Law, household welfare, child development, or labor-market outcomes; the central open test is whether local implementation converts regulatory flexibility and excess capacity into equitable, safe, high-quality access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, executive-summary figures, enrollment and occupancy variation, hromada financing, staffing composition, teacher-pay comparison, staffing mismatch, budget rigidity, Preschool Law implementation, data limitations, and policy boundary were reviewed.",
+    "source_url_sha256": "sha256:a998ead59925d4bec3ae56adf37a4d79b1491f3a0bd34096078da5a5f4cbcdd1",
+    "checked": "2026-09-29"
+  }
+}

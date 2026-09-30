@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-dsa-out-of-court-remedy-platform-governance-2026",
+  "title": "Digital platform governance is becoming a correction system, but reversal rates do not yet show durable user remedy",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "political_judgment_action"
+  ],
+  "source_unit": "European Commission DSA impact overview, current 2026 page summarizing platform supervision and Article 21 out-of-court dispute settlement",
+  "geography": "European Union; users and very large online platforms including Facebook, Instagram, TikTok, Snapchat, and other designated services",
+  "observations": [
+    {
+      "period": "First half of 2025; DSA Article 21 out-of-court dispute settlement bodies",
+      "denominator": {"value": 1800, "unit": "more than 1,800 disputes reviewed by certified out-of-court settlement bodies", "value_type": "reported_case_volume_lower_bound"},
+      "measures": {
+        "decision_reversal": {"value": 52, "unit": "percent of closed cases in which the platform decision was reversed", "value_type": "Commission_reported_share"},
+        "covered_platforms": {"value": ["Facebook", "Instagram", "TikTok"], "unit": "named platforms in Commission summary", "value_type": "reported_platform_set"},
+        "remedy_scope": {"value": "The Commission describes the bodies as restoring content and accounts in reversed cases", "unit": "reported remedy description", "value_type": "reported_remedy_scope"},
+        "mechanism": {"value": "A relatively low-cost independent dispute channel can convert individual moderation conflict into correction pressure on platform decisions", "unit": "bounded platform-remedy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "European Commission overview summarizing aggregate activity of certified Article 21 out-of-court dispute settlement bodies. The public page reports a lower-bound volume and reversal share, not a case-level dataset.",
+      "uncertainty": "The page does not provide the full denominator, platform-by-platform counts, case types, time-to-decision, fee burden, compliance rate after reversal, claimant characteristics, or downstream effects on safety, income, speech, or trust. Reversal is not equivalent to complete or durable remedy.",
+      "subgroup": "EU users challenging certain platform moderation decisions involving content or account access, with scope varying by certified body and platform service.",
+      "counterinterpretation": "A 52% reversal share may indicate meaningful correction of over-enforcement, but may also reflect case selection, body scope, closed-case composition, or platform policy changes; it does not establish general moderation error rates.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-impact-platforms",
+      "retrieval_hash": "sha256:8c1c8dfe98c162c7be7f375d0446c9ed9d63b3b5b2ea5495daec4469c79eda24",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Commission DSA supervision overview; platform protection-of-minors and enforcement context",
+      "denominator": {"value": 16, "unit": "DSA proceedings reported by the Commission as opened by the Commission and national Digital Services Coordinators", "value_type": "reported_proceeding_count"},
+      "measures": {
+        "targeted_ads_to_minors": {"value": "The Commission states that the DSA bans targeted advertising to minors and identifies Snapchat, TikTok, Meta's Instagram and Facebook among platforms no longer allowing advertisers to show targeted ads to underage users", "unit": "reported regulatory/platform-response context", "value_type": "reported_policy_condition"},
+        "supervision": {"value": "The Commission describes active supervision, proceedings, and tangible results for citizens", "unit": "reported enforcement context", "value_type": "reported_supervision_summary"},
+        "mechanism": {"value": "Platform governance is shifting from private moderation policy toward a layered public system combining rules, complaints, independent correction, and regulatory proceedings", "unit": "bounded institutional-platform mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "European Commission policy overview summarizing DSA obligations, supervision, out-of-court settlement, targeted-ad rules for minors, and enforcement activity across the EU platform ecosystem.",
+      "uncertainty": "The overview is a Commission-produced policy and enforcement summary; it does not establish uniform compliance, actual ad exposure, age-assurance accuracy, child outcomes, or whether all users can access effective remedy.",
+      "subgroup": "EU minors, parents, platform users, advertisers, researchers, trusted flaggers, certified dispute bodies, Digital Services Coordinators, and designated very large online platforms.",
+      "counterinterpretation": "Formal rules and proceedings may improve platform incentives, but implementation can remain uneven across services, jurisdictions, content surfaces, and private versus public interactions.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-impact-platforms",
+      "retrieval_hash": "sha256:8c1c8dfe98c162c7be7f375d0446c9ed9d63b3b5b2ea5495daec4469c79eda24",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-dscs", "claim": "The Commission describes Digital Services Coordinators as a complaint and supervision route for suspected DSA infringements."},
+    {"source_url": "https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses", "claim": "The Commission lists designated very large online platforms and links platform-specific DSA proceedings and commitments."},
+    {"source_url": "https://help.snapchat.com/hc/en-us/articles/52335309194516-Out-of-Court-Dispute-Settlement-Under-the-EU-Digital-Services-Act", "claim": "Snapchat's platform-specific Article 21 support route defines public-content scope and exclusions; it is retained separately from the Commission aggregate."}
+  ],
+  "boundary": "This record establishes an EU-level platform-remedy and supervision layer: certified dispute bodies reviewed more than 1,800 disputes and reversed 52% of closed decisions in the Commission's summary, while the Commission describes DSA rules and proceedings across platforms. It does not establish platform-wide moderation error rates, user-level remedy success, compliance after reversal, child safety, age-assurance accuracy, targeted-ad exposure, or durable trust. The aggregate Commission figures are not merged with Snapchat's platform telemetry or the Dutch youth-panel evidence.",
+  "reproduction_audit": {
+    "checked": "2026-09-29",
+    "source_hash_scope": "European Commission DSA impact overview was retrieved and hashed; DSA coordinator and designated-platform pages were recorded as context.",
+    "extraction_scope": "Article 21 dispute volume and reversal share, platform set, remedy description, DSA proceeding count, targeted-ad rule context, platform ecosystem boundaries, and non-linkage to case-level or platform-specific denominators.",
+    "status": "reproduced from official European Commission DSA overview"
+  }
+}

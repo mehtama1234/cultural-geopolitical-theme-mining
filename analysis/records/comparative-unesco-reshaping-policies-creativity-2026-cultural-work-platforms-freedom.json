@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-reshaping-policies-creativity-2026-cultural-work-platforms-freedom",
+  "title": "Digital cultural access is expanding faster than creator security, local visibility, and cultural power",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNESCO, Re|Shaping Policies for Creativity 2026",
+  "geography": "Global cultural and creative sectors, with country-level policy and capacity comparisons across more than 120 countries",
+  "observations": [
+    {
+      "period": "2026 report; national development planning and cultural policy",
+      "denominator": {"value": 1, "unit": "countries covered by the report's policy monitoring", "value_type": "global_policy_comparison_frame"},
+      "measures": {
+        "development_planning": {"value": 85, "unit": "percent of surveyed countries integrating cultural and creative industries into national development plans", "value_type": "reported_share"},
+        "specific_goals": {"value": 56, "unit": "percent of surveyed countries setting specific cultural goals", "value_type": "reported_share"},
+        "policy_translation_gap": {"value": "Cultural industries are increasingly recognized in development plans, but recognition is not consistently translated into specific goals, resources, or cross-government implementation", "unit": "reported policy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UNESCO global monitoring of implementation of the 2005 Convention, drawing on country reporting, policy analysis, sector data, and thematic chapters.",
+      "uncertainty": "The country-level policy indicators measure formal inclusion and stated goals, not budget execution, service reach, creator income, cultural participation, or realized social cohesion.",
+      "subgroup": "National cultural ministries, creative-sector workers, cultural organizations, civil society, audiences, and communities whose cultural expression is represented or excluded by policy.",
+      "counterinterpretation": "Formal inclusion in national plans can still create a platform for future funding and coordination even when implementation is incomplete; the gap does not prove policy failure in every country.",
+      "source_url": "https://www.unesco.org/en/reshaping-creativity-reports?hub=213263",
+      "retrieval_hash": "sha256:223a7ac1789d7bfa8edaab1c6d7bfa17016e33d6777029a0a44a637d3ec787b7",
+      "status": "reported"
+    },
+    {
+      "period": "2005-2023; global trade in cultural goods and services",
+      "denominator": {"value": 1, "unit": "global cultural-goods and cultural-services trade comparison", "value_type": "global_market_comparison_frame"},
+      "measures": {
+        "cultural_goods_trade": {"value": 254, "unit": "billion U.S. dollars in global cultural-goods trade in 2023, approximately double the 2005 level", "value_type": "reported_market_estimate"},
+        "developing_country_goods_exports": {"value": 46, "unit": "percent of cultural-goods exports attributed to developing countries", "value_type": "reported_share"},
+        "developing_country_services_share": {"value": 20, "unit": "approximately percent of cultural-services trade attributed to developing countries despite rapid digital growth", "value_type": "reported_share"},
+        "market_access_gap": {"value": "Growth in cultural trade does not distribute equally across goods, services, countries, or the ability to retain value from digital circulation", "unit": "reported trade mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UNESCO synthesis of international cultural-goods and cultural-services trade statistics and country reporting.",
+      "uncertainty": "Trade value is not the same as creator earnings, local ownership, cultural diversity, household access, or fair distribution; goods and services are measured through different statistical systems.",
+      "subgroup": "Developing-country producers, cultural exporters, creative firms, artists, digital-service providers, importers, platforms, and audiences.",
+      "counterinterpretation": "International trade can widen audiences, finance production, and support cultural exchange even when value capture remains concentrated or services trade is uneven.",
+      "source_url": "https://www.unesco.org/en/reshaping-creativity-reports?hub=213263",
+      "retrieval_hash": "sha256:223a7ac1789d7bfa8edaab1c6d7bfa17016e33d6777029a0a44a637d3ec787b7",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2026; digital creation, creator income, and digital capability",
+      "denominator": {"value": 1, "unit": "global cultural-sector digital transformation comparison", "value_type": "global_sector_comparison_frame"},
+      "measures": {
+        "digital_creator_income": {"value": 35, "unit": "percent of creators' income attributed to digital revenues in the report, up from 17% in 2018", "value_type": "reported_share"},
+        "digital_creation_programmes": {"value": 63, "unit": "percent of countries supporting digital creation programmes", "value_type": "reported_share"},
+        "essential_digital_skills_gap": {"value": "Essential digital skills reach 67% in developed countries versus 28% in developing countries", "unit": "reported cross-country comparison", "value_type": "reported_difference"},
+        "platform_livelihood_tension": {"value": "Digital tools, markets, and audiences expand alongside income instability, intellectual-property risk, platform concentration, and opaque curation", "unit": "reported sector mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UNESCO synthesis of creator-income, country-programme, digital-skills, platform, and cultural-sector evidence.",
+      "uncertainty": "The report does not provide a common longitudinal creator panel or causal estimate of digital tools on income; digital-revenue shares and skills rates may vary by definition, country coverage, and sector.",
+      "subgroup": "Creators, cultural workers, digital platforms, audiences, developing-country producers, women creators, and workers exposed to intellectual-property or algorithmic risks.",
+      "counterinterpretation": "Digital distribution can lower entry barriers, enable independent production, and create new revenue routes; concentration and precarity are not universal outcomes for every creator or sector.",
+      "source_url": "https://www.unesco.org/en/reshaping-creativity-reports?hub=213263",
+      "retrieval_hash": "sha256:223a7ac1789d7bfa8edaab1c6d7bfa17016e33d6777029a0a44a637d3ec787b7",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; gender inclusion, artistic freedom, and cultural safety",
+      "denominator": {"value": 1, "unit": "countries reporting institutional and legal conditions for cultural and creative work", "value_type": "global_policy_comparison_frame"},
+      "measures": {
+        "artistic_freedom_monitoring": {"value": 61, "unit": "percent of countries with independent monitoring bodies for artistic freedom", "value_type": "reported_share"},
+        "protective_initiatives": {"value": 37, "unit": "percent of countries reporting protective initiatives for artists and cultural professionals amid political instability, conflict, and displacement", "value_type": "reported_share"},
+        "public_funding": {"value": "Direct public funding for culture remains below 0.6% of GDP globally and continues to decline", "unit": "reported fiscal pattern", "value_type": "reported_estimate"},
+        "freedom_and_inclusion_route": {"value": "Cultural participation depends on who can create safely, obtain visibility, retain income, and exercise voice—not only on whether content is technically available", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "UNESCO thematic synthesis covering gender equality, artistic freedom, cultural institutions, public support, conflict, displacement, and digital environments.",
+      "uncertainty": "Country reporting and institutional indicators do not measure all unreported threats, actual enforcement, creator-level safety, audience exposure, or causal effects of funding and monitoring bodies.",
+      "subgroup": "Women creators, artists at risk, cultural professionals in conflict or displacement, independent monitors, cultural institutions, and marginalized cultural communities.",
+      "counterinterpretation": "The existence of monitoring bodies or protective initiatives may signal institutional capacity even when coverage is incomplete; low reported coverage does not establish identical conditions within every country.",
+      "source_url": "https://www.unesco.org/en/reshaping-creativity-reports?hub=213263",
+      "retrieval_hash": "sha256:223a7ac1789d7bfa8edaab1c6d7bfa17016e33d6777029a0a44a637d3ec787b7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000397241", "claim": "UNESCO publication record for the 2026 Re|Shaping Policies for Creativity report."},
+    {"source_url": "https://www.unesco.org/en/reshaping-creativity-reports?hub=213263", "claim": "Official UNESCO report page with thematic chapters and main findings."},
+    {"source_url": "https://rm.coe.int/key-trends-2026-en/48802b0032", "claim": "Complementary European audiovisual-sector evidence on cultural work, streaming concentration, and public media capacity."}
+  ],
+  "boundary": "This record adds a global culture-to-platform-to-work route from formal cultural policy and trade through digital access, creator livelihoods, local visibility, gender inclusion, and artistic freedom. It uses UNESCO synthesis, country reporting, and sector statistics; it is not a creator-level panel, causal evaluation, audience-welfare estimate, or proof that cultural policy produces social cohesion or economic growth.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO Re|Shaping Policies for Creativity 2026 page was reviewed for policy-planning, cultural trade, digital creator income, digital-skills, platform concentration, public funding, gender, and artistic-freedom indicators.",
+    "source_url_sha256": "sha256:223a7ac1789d7bfa8edaab1c6d7bfa17016e33d6777029a0a44a637d3ec787b7",
+    "checked": "2026-09-28"
+  }
+}

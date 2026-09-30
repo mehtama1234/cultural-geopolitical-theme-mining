@@ -1,0 +1,116 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-trends-10th-edition-2026-trust-nostalgia-ai-climate",
+  "title": "Global publics are retreating toward local trust, personal control and present-focused coping as technology, institutions and climate feel less governable",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Ipsos, Global Trends 10th Edition 2026",
+  "geography": "38-market cross-national survey; market-average comparisons and global thematic synthesis",
+  "observations": [
+    {
+      "period": "May 22–June 5, 2026; 38-market survey",
+      "denominator": {"value": 29542, "unit": "adults interviewed by Ipsos Global Advisor across 38 markets; global score is an unadjusted average across markets, not population-weighted", "value_type": "reported_sample"},
+      "measures": {
+        "government_not_prioritising_concerns": {"value": 69, "unit": "percent saying their government does not prioritise their concerns", "value_type": "reported_share"},
+        "economy_rigged": {"value": 73, "unit": "percent believing the economy is rigged in favour of the rich and powerful", "value_type": "reported_share"},
+        "country_should_be_like_it_was": {"value": 62, "unit": "percent wanting their country to be like it was", "value_type": "reported_share"},
+        "future_past_counterpoint": {"value": 48, "unit": "percent saying they would want to have grown up when their parents were children", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Global Advisor online survey with country-level weighting to demographic profiles; 38-market thematic synthesis.",
+      "uncertainty": "Online samples in some markets are more urban, educated and/or affluent than the general population; market-average results should not be read as a population-weighted global estimate or causal explanation.",
+      "subgroup": "Adults aged 18+ in India, 18–74 in specified markets, 16–74 in other markets; approximately 1,000 respondents in 20 markets and 500 in 18 markets.",
+      "counterinterpretation": "Nostalgia and economic-rigging judgments may reflect current political framing or generalized dissatisfaction rather than a literal desire to restore past institutions or policies.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/power-trust-2026",
+      "retrieval_hash": "sha256:7ec7a8cb4d47a03eaa89b18bd8d27340205a7fbd782e24977e7196531924c343",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust, identity and consumer coping themes",
+      "denominator": {"value": 29542, "unit": "Ipsos Global Trends survey respondents across 38 markets", "value_type": "reported_sample"},
+      "measures": {
+        "personal_autonomy": {"value": 85, "unit": "percent agreeing it is up to everyone to work out their own principles to guide decisions", "value_type": "reported_share"},
+        "local_values_trust": {"value": "Trust is becoming more personal, local and values-driven, with familiar brands, relatable individuals and local organisations gaining importance", "unit": "reported thematic interpretation", "value_type": "reported_interpretation"},
+        "identity_through_purchases": {"value": "Consumers increasingly use purchases to shape identity and pursue personal progress", "unit": "reported consumer interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-market attitudinal trend analysis combining repeated Global Trends measures with 2026 thematic interpretation.",
+      "uncertainty": "The public thematic pages do not establish whether local or values-based trust translates into durable purchasing, political participation or institutional repair.",
+      "subgroup": "Adults across the 38 markets, with country-level variation in the underlying survey.",
+      "counterinterpretation": "Personalisation and local trust may be compensatory responses to institutional failure, but they can also fragment common standards and make accountability more difficult.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/escape-individualism-2026",
+      "retrieval_hash": "sha256:7ec7a8cb4d47a03eaa89b18bd8d27340205a7fbd782e24977e7196531924c343",
+      "status": "reported"
+    },
+    {
+      "period": "2026; uncertainty, achievement and present-focused consumption",
+      "denominator": {"value": 29542, "unit": "Ipsos Global Trends survey respondents across 38 markets", "value_type": "reported_sample"},
+      "measures": {
+        "enjoy_today_orientation": {"value": "A growing majority in many markets agree it is important to enjoy life today and let tomorrow take care of itself", "unit": "reported cross-market interpretation", "value_type": "reported_interpretation"},
+        "traditional_milestones": {"value": "Home ownership, career progression and family life remain desirable but feel harder to achieve for younger generations", "unit": "reported life-course interpretation", "value_type": "reported_interpretation"},
+        "government_help_concern": {"value": 76, "unit": "percent worrying their government will do too little to help people in the years ahead", "value_type": "reported_share"},
+        "hard_work_fairness": {"value": "Sentiment that hard work is rewarded fairly is declining in many countries", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-market trend interpretation connecting aspirations, institutional expectations and consumer coping.",
+      "uncertainty": "The summary does not quantify the full country distribution or isolate affordability, housing, labor-market, family-policy and institutional causes of changed time horizons.",
+      "subgroup": "Adults across 38 markets, with life-stage and country variation in the underlying measures.",
+      "counterinterpretation": "Present-focused consumption may be resilience and pleasure-seeking under uncertainty rather than nihilism or withdrawal from long-term planning.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/nouveau-nihilism-2026",
+      "retrieval_hash": "sha256:7ec7a8cb4d47a03eaa89b18bd8d27340205a7fbd782e24977e7196531924c343",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026; technology and AI sentiment",
+      "denominator": {"value": 29542, "unit": "Ipsos Global Trends survey respondents across 38 markets; year-on-year comparisons use the relevant repeated measures", "value_type": "reported_sample"},
+      "measures": {
+        "technology_concern_direction": {"value": "Concern is increasing as the pace of technological change intensifies", "unit": "reported cross-wave interpretation", "value_type": "reported_interpretation"},
+        "ai_positivity_decline": {"value": "Positivity toward AI declined between 2025 and 2026 in several AI-leading markets including Singapore, South Korea, Hong Kong SAR and Great Britain", "unit": "reported country-set comparison", "value_type": "reported_interpretation"},
+        "control_question": {"value": "People are asking who benefits from technology, who controls it and how it will affect their lives", "unit": "reported public-legitimacy interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated cross-market technology-attitude comparison and thematic analysis of AI sentiment.",
+      "uncertainty": "The public thematic page does not provide the underlying country percentages or distinguish AI applications; declining positivity may reflect specific labor, climate, privacy or governance concerns.",
+      "subgroup": "Adults across the 38 markets, including younger citizens and AI-leading markets.",
+      "counterinterpretation": "Rising concern can represent a demand for governance and usable safeguards rather than rejection of technological adoption.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/technowonder-2026",
+      "retrieval_hash": "sha256:7ec7a8cb4d47a03eaa89b18bd8d27340205a7fbd782e24977e7196531924c343",
+      "status": "reported"
+    },
+    {
+      "period": "2026; climate and health meaning",
+      "denominator": {"value": 29542, "unit": "Ipsos Global Trends survey respondents across 38 markets", "value_type": "reported_sample"},
+      "measures": {
+        "personal_climate_action_saturation": {"value": 70, "unit": "percent saying they are doing all they can personally to fight climate change", "value_type": "reported_share"},
+        "climate_concern": {"value": "Climate concern remains high but has plateaued", "unit": "reported trend interpretation", "value_type": "reported_interpretation"},
+        "adaptation_expectation": {"value": "People increasingly expect organisations to help them adapt to climate change in practical ways", "unit": "reported institutional expectation", "value_type": "reported_interpretation"},
+        "holistic_health": {"value": "Physical and mental health are increasingly treated as equally important, with food, medicine, exercise and environment folded into wellness", "unit": "reported health-and-consumption interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-market climate and health-attitude analysis within the Global Trends program.",
+      "uncertainty": "The public page does not show the country distribution behind the 70% climate figure or specify which organisational adaptation actions people prioritise; holistic wellness language may include both prevention and commercial optimisation.",
+      "subgroup": "Adults across 38 markets, with market-specific differences in climate exposure, health systems and consumer access.",
+      "counterinterpretation": "Climate-concern plateauing may signal normalization and adaptation under chronic exposure, not reduced climate risk or indifference.",
+      "source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/climate-convergence-2026",
+      "retrieval_hash": "sha256:7ec7a8cb4d47a03eaa89b18bd8d27340205a7fbd782e24977e7196531924c343",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/category/ipsos-global-trends-10th-edition", "claim": "Official Ipsos Global Trends 10th Edition archive containing the 2026 thematic series."},
+    {"source_url": "https://www.ipsos.com/en/ipsos-global-trends-10th-edition/methodology-2026", "claim": "Official Ipsos methodology page documenting field dates, sample sizes, market coverage, weighting and precision."},
+    {"source_url": "https://resources.ipsos.com/global-trends-2026/", "claim": "Ipsos resource hub for the full Global Trends 2026 report."}
+  ],
+  "boundary": "This record adds a cross-market cultural mechanism: when institutions, technology and the future feel less controllable, publics combine nostalgia, personal autonomy, local/value-based trust and present-focused consumption, while demanding practical adaptation from organisations. It is a weighted online-attitude survey and thematic interpretation, not a population-weighted world estimate, causal model, behavioral transaction dataset or forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Global Trends archive, methodology page and thematic pages for trust, nostalgia, social fracture, consumer coping, technology, health and climate were retrieved and reviewed; the archive HTML was hashed.",
+    "source_url_sha256": "sha256:7ec7a8cb4d47a03eaa89b18bd8d27340205a7fbd782e24977e7196531924c343",
+    "checked": "2026-09-27"
+  }
+}

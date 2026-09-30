@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-ai-trust-deficit-healthcare-2026-diagnostic-adoption-task-trust",
+  "title": "Healthcare AI is moving into routine diagnostic work faster than trust is generalizing across clinical tasks",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Ipsos, The AI Trust Deficit in Healthcare 2026",
+  "geography": "Healthcare professionals and patients; public report summary with geography and full sample details not disclosed",
+  "observations": [
+    {
+      "period": "2026; clinician adoption of AI diagnostic tools",
+      "denominator": {"value": null, "unit": "Healthcare professionals surveyed by Ipsos; public summary does not disclose the sample size or country composition", "value_type": "not_disclosed"},
+      "measures": {
+        "weekly_ai_diagnostic_use": {"value": 41, "unit": "percent of surveyed healthcare professionals already using AI diagnostic tools weekly", "value_type": "reported_share"},
+        "adoption_stage": {"value": "AI-enabled diagnostic tools are becoming part of everyday healthcare", "unit": "reported sector interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Ipsos healthcare report surveying healthcare professionals and patients about AI-powered diagnostics.",
+      "uncertainty": "The public summary does not identify specialties, countries, tool types, frequency thresholds or whether use is clinician-initiated, institutionally required or experimental.",
+      "subgroup": "Healthcare professionals surveyed in the Ipsos study.",
+      "counterinterpretation": "Weekly use may reflect workflow exposure rather than confidence in autonomous diagnosis; clinicians can use AI as a checking or triage layer while retaining human responsibility.",
+      "source_url": "https://www.ipsos.com/en/ai-trust-deficit-healthcare",
+      "retrieval_hash": "sha256:b66419cd31b6f1907d61181db023e271d01b2f0483d48b215c1dcaeb87b79812",
+      "status": "reported"
+    },
+    {
+      "period": "2026; patient awareness of AI in diagnostics",
+      "denominator": {"value": null, "unit": "Patients surveyed by Ipsos; public summary does not disclose the sample size or country composition", "value_type": "not_disclosed"},
+      "measures": {
+        "patient_ai_diagnostic_awareness": {"value": 85, "unit": "percent of surveyed patients with at least some awareness of AI in diagnostics", "value_type": "reported_share"},
+        "awareness_adoption_gap": {"value": 44, "unit": "percentage-point difference between patient awareness and weekly clinician use; descriptive, not a population gap estimate", "value_type": "derived_difference"}
+      },
+      "method": "Ipsos comparison of patient awareness and healthcare-professional use within the AI diagnostic study.",
+      "uncertainty": "Awareness does not indicate informed consent, perceived benefit, actual exposure to AI in care or ability to distinguish assistive from autonomous systems.",
+      "subgroup": "Patients surveyed in the Ipsos study.",
+      "counterinterpretation": "High awareness may be driven by public discussion rather than personal clinical encounters; it can still create expectations that providers need to explain and manage.",
+      "source_url": "https://www.ipsos.com/en/ai-trust-deficit-healthcare",
+      "retrieval_hash": "sha256:b66419cd31b6f1907d61181db023e271d01b2f0483d48b215c1dcaeb87b79812",
+      "status": "reported"
+    },
+    {
+      "period": "2026; task-specific trust in AI diagnostics",
+      "denominator": {"value": null, "unit": "Patients and healthcare professionals in the Ipsos study; application-specific denominators and shares not disclosed on the public summary", "value_type": "not_disclosed"},
+      "measures": {
+        "higher_trust_tasks": {"value": "Trust is highest in lower-friction applications such as cancer screening and blood-test analysis", "unit": "reported application comparison", "value_type": "reported_interpretation"},
+        "lower_trust_tasks": {"value": "Trust is lower in mental-health assessment and surgical guidance", "unit": "reported application comparison", "value_type": "reported_interpretation"},
+        "trust_gradient": {"value": "Confidence varies by perceived stakes, interpretability, human contact and tolerance for error rather than by AI label alone", "unit": "analytical interpretation grounded in the reported task contrast", "value_type": "analyst_inference"}
+      },
+      "method": "Task-level comparison of confidence in AI-powered diagnostic applications.",
+      "uncertainty": "The public summary does not provide application-level percentages or test whether trust differences arise from risk, explainability, stigma, clinician relationship or familiarity.",
+      "subgroup": "Patients and healthcare professionals included in the study.",
+      "counterinterpretation": "Lower trust in mental-health assessment or surgical guidance may indicate appropriate caution about high-context tasks rather than a general deficit that more marketing can solve.",
+      "source_url": "https://www.ipsos.com/en/ai-trust-deficit-healthcare",
+      "retrieval_hash": "sha256:b66419cd31b6f1907d61181db023e271d01b2f0483d48b215c1dcaeb87b79812",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://resources.ipsos.com/TheAITrustDeficit_LandingPage.html", "claim": "Official Ipsos landing page for the full report; download requires registration."},
+    {"source_url": "https://www.ipsos.com/en/topic/healthcare", "claim": "Official Ipsos healthcare topic page contextualizing the report among current health research."}
+  ],
+  "boundary": "This record adds a clinical-trust mechanism: healthcare AI adoption and patient awareness can advance while confidence remains task-specific, with higher acceptance in lower-friction analytic applications and lower acceptance where judgment, vulnerability and consequence are harder to separate from the human relationship. It is a public summary of a healthcare opinion study, not a clinical validation, safety assessment, implementation evaluation or patient-outcome dataset.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos report summary, gated report landing page and healthcare topic page were retrieved and reviewed for clinician use, patient awareness and task-specific trust; the public summary page was hashed.",
+    "source_url_sha256": "sha256:b66419cd31b6f1907d61181db023e271d01b2f0483d48b215c1dcaeb87b79812",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-acca-global-talent-trends-2026-ai-hiring-hybrid-work-professional-trust",
+  "title": "Professionals are adopting AI while demanding human judgment, hybrid flexibility and credible organizational purpose",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Association of Chartered Certified Accountants (ACCA), Global Talent Trends 2026",
+  "geography": "Global accountancy and finance professionals, employers and leaders covered by the ACCA survey and report evidence",
+  "observations": [
+    {
+      "period": "2026 report; AI-supported recruitment and human judgment",
+      "denominator": {"value": null, "unit": "ACCA Global Talent Trends 2026 survey respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "recruiter_ai_adoption_intent": {"value": 93, "unit": "per cent of LinkedIn recruiters planning to increase use of AI in hiring by 2026", "value_type": "published_survey_estimate"},
+        "ai_recruitment_confidence": {"value": 48, "unit": "per cent of ACCA respondents not confident in AI for recruitment, compared with 43 per cent confident", "value_type": "published_survey_estimate"},
+        "human_judgment_boundary": {"value": "The report argues that AI in recruitment should judiciously augment human judgment rather than replace it.", "unit": "reported governance interpretation", "value_type": "reported_interpretation"},
+        "confidence_difference": {"value": "Confidence varies by career stage and role: the report shows higher confidence among Gen Z than among senior leadership respondents.", "unit": "reported subgroup pattern", "value_type": "reported_association"}
+      },
+      "method": "ACCA Global Talent Trends 2026 professional survey, supplemented by LinkedIn recruitment data and report commentary and roundtables.",
+      "uncertainty": "The public report does not provide a general-population sampling frame, full weighting, country-level margins or evidence that AI hiring adoption improves fairness or quality; recruitment confidence is a perception, not an audit of hiring systems.",
+      "subgroup": "Accountancy and finance professionals, recruiters, senior leaders, candidates and workers subject to AI-assisted screening.",
+      "counterinterpretation": "AI may reduce administrative burden in recruitment without reducing bias; human review can also reproduce institutional preferences and may be inconsistently applied.",
+      "source_url": "https://www.accaglobal.com/content/dam/ACCA_Global/professional-insights/GTT-2026/gtt-2026-final.pdf",
+      "retrieval_hash": "sha256:ff6a5ea74b2bcc7b6a37234e1207f6390325f98a6009dc9d57d48f34c8d9216c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; current AI use, skill confidence and agent deployment",
+      "denominator": {"value": null, "unit": "ACCA Global Talent Trends 2026 survey respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "regular_ai_use": {"value": 52, "unit": "per cent regularly using AI in their role", "value_type": "published_survey_estimate"},
+        "ai_skill_learning_confidence": {"value": 82, "unit": "per cent confident in their ability to learn and apply AI-related skills", "value_type": "published_survey_estimate"},
+        "agent_deployment": {"value": 31, "unit": "per cent saying their organization is deploying AI agents to support finance or accounting work, while 49 per cent disagree", "value_type": "published_survey_estimate"},
+        "access_gap": {"value": "Regular AI use is reported by 57 per cent of men and 47 per cent of women; the report also shows higher use among Gen Z and Gen Y than older cohorts.", "unit": "reported subgroup comparison", "value_type": "published_survey_estimate"}
+      },
+      "method": "ACCA professional survey self-reports on workplace AI use, skills confidence and organizational deployment.",
+      "uncertainty": "Self-reported use does not establish intensity, task quality, productivity, pay or control over deployment; the professional sample should not be generalized to all workers, and agent deployment terminology may vary across organizations.",
+      "subgroup": "Finance and accountancy professionals by gender and generation, employers deploying AI and workers whose tasks may be redesigned.",
+      "counterinterpretation": "High confidence in learning AI may coexist with weak access to training, limited decision authority or pressure to adopt tools selected by employers.",
+      "source_url": "https://www.accaglobal.com/content/dam/ACCA_Global/professional-insights/GTT-2026/gtt-2026-final.pdf",
+      "retrieval_hash": "sha256:ff6a5ea74b2bcc7b6a37234e1207f6390325f98a6009dc9d57d48f34c8d9216c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; hybrid work, promotion visibility and mobility",
+      "denominator": {"value": null, "unit": "ACCA Global Talent Trends 2026 survey respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "current_work_pattern": {"value": "45 per cent work fully from the office and another 45 per cent work in a hybrid arrangement.", "unit": "reported work arrangement distribution", "value_type": "published_survey_estimate"},
+        "hybrid_preference": {"value": 75, "unit": "per cent preferring a combination of home and office, while fewer than 10 per cent prefer fully office-based work", "value_type": "published_survey_estimate"},
+        "office_promotion_belief": {"value": 58, "unit": "per cent believing office presence positively affects future career or promotion prospects", "value_type": "published_survey_estimate"},
+        "mobility_pressure": {"value": "43 per cent of Gen Y respondents would consider leaving if required to spend significantly more time in the office.", "unit": "reported subgroup estimate", "value_type": "published_survey_estimate"}
+      },
+      "method": "ACCA professional survey on work arrangements, preferences, promotion expectations and career mobility.",
+      "uncertainty": "The findings are cross-sectional self-reports and do not identify causal effects of office attendance on promotion or mental health; preferences and work arrangements may reflect occupation, seniority, geography and employer policy.",
+      "subgroup": "Global finance and accountancy professionals, with age-generation and gender differences in flexibility preferences and promotion beliefs.",
+      "counterinterpretation": "Office presence may provide real mentoring and sponsorship in some workplaces; hybrid work can also reproduce unequal visibility if evaluation systems are not redesigned.",
+      "source_url": "https://www.accaglobal.com/content/dam/ACCA_Global/professional-insights/GTT-2026/gtt-2026-final.pdf",
+      "retrieval_hash": "sha256:ff6a5ea74b2bcc7b6a37234e1207f6390325f98a6009dc9d57d48f34c8d9216c",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; purpose, wellbeing and retention signals",
+      "denominator": {"value": null, "unit": "ACCA Global Talent Trends 2026 survey respondents", "value_type": "not_disclosed"},
+      "measures": {
+        "social_impact_interest": {"value": 70, "unit": "approximately per cent interested in careers helping address social or environmental impacts", "value_type": "published_survey_estimate"},
+        "purpose_attraction": {"value": "Social impact is especially important to attraction for Gen Z and Gen Y respondents, at 82 per cent and 72 per cent respectively; the report gives 67 per cent for Gen X and Baby Boomers.", "unit": "reported subgroup estimates", "value_type": "published_survey_estimate"},
+        "retention_signal": {"value": "The report links lower AI-skill development opportunity, weakened culture or EDI emphasis, poor mental health and dissatisfaction with pay or support to greater consideration of external moves.", "unit": "reported association across retention analysis", "value_type": "published_association"},
+        "pay_boundary": {"value": "Pay requests are presented as signals that people may feel undervalued, overworked or unsupported; salary alone may not resolve retention pressure.", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "ACCA professional survey and report analysis of purpose, wellbeing, engagement, compensation and career movement.",
+      "uncertainty": "The report describes associations and intentions, not observed turnover or causal effects; the public material does not establish whether purpose commitments, AI training or pay changes produce better wellbeing or retention.",
+      "subgroup": "Finance and accountancy professionals by generation, seniority, mental-health experience, organizational support and perceived career opportunity.",
+      "counterinterpretation": "Purpose language can become a recruitment signal without changing workload, pay, inclusion or decision authority; workers may remain despite dissatisfaction when labor-market alternatives are weak.",
+      "source_url": "https://www.accaglobal.com/content/dam/ACCA_Global/professional-insights/GTT-2026/gtt-2026-final.pdf",
+      "retrieval_hash": "sha256:ff6a5ea74b2bcc7b6a37234e1207f6390325f98a6009dc9d57d48f34c8d9216c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.accaglobal.com/gb/en/professional-insights/pro-accountants/global-talent-trends.html", "claim": "ACCA public landing page for Global Talent Trends research and related professional insights."},
+    {"source_url": "https://www.accaglobal.com/content/dam/ACCA_Global/professional-insights/GTT-2026/gtt-2026-final.pdf", "claim": "Official 2026 report PDF containing the AI, hybrid work, purpose, wellbeing and retention findings."}
+  ],
+  "boundary": "This record adds a professional and workplace layer to the broader trend stream: AI adoption is advancing alongside demands for human judgment, skill access, hybrid flexibility, meaningful work and credible support. It is an aggregate ACCA accountancy and finance survey/report, not a representative general workforce panel, respondent-level dataset, observed employment register, causal evaluation or proof of improved job quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ACCA Global Talent Trends 2026 PDF was reviewed for AI recruitment confidence and recruiter adoption intent, regular AI use and skills confidence, AI-agent deployment, hybrid work arrangements and preferences, office-presence promotion beliefs, social-impact attraction, and wellbeing/retention associations.",
+    "source_url_sha256": "sha256:ff6a5ea74b2bcc7b6a37234e1207f6390325f98a6009dc9d57d48f34c8d9216c",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-south-africa-offshore-wind-just-transition-jobs-2026",
+  "title": "South Africa’s offshore-wind pathway links energy security to local jobs, ports, skills, and coastal legitimacy",
+  "theme_ids": ["energy", "work", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank ESMAP, A Strategic Framework for Offshore Wind Development in South Africa",
+  "geography": "South Africa’s Exclusive Economic Zone, coastal provinces, ports, grid, supply chains, workers, fishers, maritime users, and communities",
+  "observations": [
+    {
+      "period": "South Africa offshore-wind development scenarios through 2050",
+      "denominator": {"value": 3, "unit": "low, medium, and high offshore-wind growth scenarios", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "technical_potential": {"value": "the report estimates approximately 95 GW of indicative technical offshore-wind potential in selected suitable regions, mostly associated with floating technology", "unit": "gigawatts", "value_type": "reported_technical_estimate"},
+        "high_growth": {"value": "the high-growth scenario reaches 1 GW by 2035, 8 GW by 2040, and 40 GW by 2050, roughly 26% of South Africa’s total electricity demand", "unit": "gigawatts and percent of demand", "value_type": "reported_scenario"},
+        "emissions": {"value": "high-growth deployment could reduce electricity-generation emissions by 530 MtCO2 by 2050; the low-growth scenario could reduce 141 MtCO2", "unit": "million tonnes CO2", "value_type": "reported_scenario_estimate"},
+        "mechanism": {"value": "offshore wind is framed as an energy-security, industrialisation, and just-transition choice rather than only a generation technology", "unit": "bounded energy-transition mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Scenario analysis using geospatial resource assessment, electricity-demand and system analysis, cost modeling, grid and port assessment, supply-chain analysis, stakeholder engagement, and socio-economic evaluation.",
+      "uncertainty": "These are scenarios and indicative technical potential, not a procurement commitment, capacity allocation, investment guarantee, affordability result, or forecast; realization depends on policy, grid, finance, environmental approval, and market conditions.",
+      "subgroup": "Households and industrial users needing reliable electricity, coastal provinces, energy workers, ports, investors, fishers, maritime users, tourism operators, and communities affected by development.",
+      "counterinterpretation": "Large-scale deployment can create infrastructure, cost, biodiversity, and community conflicts; lower growth may limit those burdens but also forgo jobs, learning, supply-chain development, and emissions reductions.",
+      "source_url": "https://documents.worldbank.org/curated/en/099091026151019349/pdf/P180424-80d10434-adf4-4df5-b52b-d20502228a4a.pdf",
+      "retrieval_hash": "sha256:b87ea95952de90268f7293c64fb69ff5ed958d32deb39770143725791f8f94c2",
+      "status": "reported"
+    },
+    {
+      "period": "South Africa offshore-wind jobs, local supply chain, and manufacturing through 2050",
+      "denominator": {"value": 1, "unit": "high-growth offshore-wind economic-impact scenario", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "jobs": {"value": "large-scale offshore-wind development could support more than 300,000 full-time-equivalent job years between 2030 and 2050", "unit": "FTE years", "value_type": "reported_scenario_estimate"},
+        "wages": {"value": "associated employment wage contribution could reach US$6.7 billion by 2050", "unit": "US dollars", "value_type": "reported_scenario_estimate"},
+        "medium_growth": {"value": "the medium scenario reaches 15 GW by 2050, with more than 100,000 local direct FTE job years and US$2.4 billion in employment wage contribution", "unit": "gigawatts, FTE years, and US dollars", "value_type": "reported_scenario_estimate"},
+        "localisation": {"value": "economic benefits scale with deployment and local supply-chain participation, especially manufacturing of floating balance-of-plant components near ports and special economic zones", "unit": "bounded industrial-development mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Supply-chain capability assessment and scenario-based direct employment and wage modeling across planning, procurement, manufacturing, transport, installation, operations, maintenance, and decommissioning.",
+      "uncertainty": "FTE years are not unique people or permanent jobs; the report notes that indirect and induced effects are not fully counted, local capacity is limited initially, and manufacturing assumptions depend on scale, policy, investment, and skills.",
+      "subgroup": "Workers in energy, manufacturing, ports, logistics, engineering, construction, operations, maintenance, and decommissioning; firms, OEMs, training providers, and coastal provinces.",
+      "counterinterpretation": "Local-content requirements can support domestic value capture but may raise costs, reduce competition, or slow deployment if they exceed local capability; imported components can lower near-term cost while limiting local learning.",
+      "source_url": "https://documents.worldbank.org/curated/en/099091026151019349/pdf/P180424-80d10434-adf4-4df5-b52b-d20502228a4a.pdf",
+      "retrieval_hash": "sha256:b87ea95952de90268f7293c64fb69ff5ed958d32deb39770143725791f8f94c2",
+      "status": "reported"
+    },
+    {
+      "period": "South Africa offshore-wind just-transition governance and stakeholder legitimacy",
+      "denominator": {"value": 1, "unit": "offshore-wind governance and stakeholder-engagement framework", "value_type": "reported_policy_frame"},
+      "measures": {
+        "stakeholder_scope": {"value": "the study used multiple engagement rounds with industry developers, national and provincial government, statutory bodies, civil society, think tanks, fishers, maritime users, tourism operators, and communities", "unit": "reported stakeholder frame", "value_type": "reported_process"},
+        "justice": {"value": "the report distinguishes procedural, distributive, and restorative justice as requirements for social license and a just transition", "unit": "reported justice framework", "value_type": "reported_governance_route"},
+        "enablers": {"value": "long-term strategy, skills development, balanced local-content rules, firm capability, marine spatial planning, leasing, consenting, grid connection, procurement, and health-and-safety processes are identified as enabling conditions", "unit": "reported institutional requirement set", "value_type": "reported_policy_route"},
+        "legitimacy_mechanism": {"value": "energy-transition legitimacy depends on whether affected communities can participate meaningfully and whether gains, burdens, and past disadvantages are addressed rather than assumed away", "unit": "bounded political-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Stakeholder engagement, regulatory and permitting review, marine and biodiversity screening, just-transition analysis, and institutional recommendations linked to the three growth scenarios.",
+      "uncertainty": "Consultation demonstrates an engagement process, not agreement, power-sharing, compensation, or realized community benefit; the report does not establish how stakeholder input changes final siting or investment decisions.",
+      "subgroup": "Coastal communities, small-scale and commercial fishers, shipping, tourism, conservation groups, workers, municipalities, provinces, national agencies, developers, and electricity users.",
+      "counterinterpretation": "Early consultation can identify conflicts but may not resolve distributional trade-offs; broad stakeholder inclusion without decision rights or benefit mechanisms can generate participation fatigue and distrust.",
+      "source_url": "https://documents.worldbank.org/curated/en/099091026151019349/pdf/P180424-80d10434-adf4-4df5-b52b-d20502228a4a.pdf",
+      "retrieval_hash": "sha256:b87ea95952de90268f7293c64fb69ff5ed958d32deb39770143725791f8f94c2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099091026151019349", "claim": "Official World Bank record, report number, date, South Africa geography, abstract, sector, and stakeholder-engagement metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099091026151019349", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds an energy-transition-to-jobs-and-legitimacy mechanism. It is scenario-based strategic analysis, not proof that offshore wind will be affordable, built, locally owned, job-creating, emissions-reducing, or socially accepted; technical potential, FTE years, wage contribution, and stakeholder engagement must be tested against procurement, finance, grid, environmental, labor, and community outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, API metadata, 95 GW indicative potential, low/medium/high scenarios, capacity, emissions, FTE years, wages, local supply-chain assumptions, skills, ports, grid, biodiversity, fishers, coastal communities, just-transition framework, and stakeholder boundaries were reviewed.",
+    "source_url_sha256": "sha256:b87ea95952de90268f7293c64fb69ff5ed958d32deb39770143725791f8f94c2",
+    "checked": "2026-09-29"
+  }
+}

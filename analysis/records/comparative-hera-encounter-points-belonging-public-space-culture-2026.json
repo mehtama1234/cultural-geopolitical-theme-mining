@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-hera-encounter-points-belonging-public-space-culture-2026",
+  "title": "Belonging is produced through relationships with communities, places, and histories, and inclusive cultural practice depends on shared institutional power",
+  "theme_ids": ["voice", "time", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Humanities in the European Research Area, En/counter/points: (re)negotiating belonging through culture and contact in public space and place, a Public Spaces: Culture and Integration in Europe project impact story",
+  "geography": "Europe, with research led in the United Kingdom and collaboration involving Poland, Germany, and the Netherlands; cultural institutions and public-space cases",
+  "observations": [
+    {
+      "period": "2019-2022 research project, reported in 2026; belonging and public space",
+      "denominator": {"value": 1, "unit": "comparative humanities research project using case studies of museums, religious centres, and community spaces", "value_type": "reported_case_study_frame"},
+      "measures": {
+        "belonging_route": {"value": "belonging is shaped through connections to communities, places, and histories, not identity alone", "unit": "reported analytic mechanism", "value_type": "reported_mechanism"},
+        "polarization_context": {"value": "rising political and social polarization and European migration debates increase the importance of understanding how diverse communities coexist in shared spaces", "unit": "reported context", "value_type": "reported_context"},
+        "inclusive_belonging_condition": {"value": "more inclusive belonging critically depends on constructive collaboration among communities, cultural organizations, and public institutions", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Comparative case-study research and later impact-story synthesis; the 2026 HERA account documents project outputs and institutional uptake rather than providing a population survey or causal evaluation.",
+      "uncertainty": "The source does not estimate how common inclusive belonging is, compare all public spaces, or establish that collaboration alone causes durable integration or reduced polarization.",
+      "subgroup": "Migrants and diverse communities, cultural organizations, museums, religious centres, community spaces, urban planners, designers, and public institutions.",
+      "counterinterpretation": "Cultural and public institutions can reproduce exclusion or symbolic inclusion; collaboration may be uneven, conflictual, or shaped by unequal resources and representation.",
+      "source_url": "https://heranet.info/2026/09/14/en-counter-points-renegotiating-belonging-through-culture-and-contact-in-public-space-and-place-2019-2022/",
+      "retrieval_hash": "sha256:d910762ac18777d0292a987af24f8ae4f32fa69f7c4450bf4498d103df4c9c0b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; translation of belonging research into museum practice",
+      "denominator": {"value": 1, "unit": "documented toolkit and institutional practice pathway", "value_type": "reported_impact_pathway"},
+      "measures": {
+        "toolkit": {"value": "the project produced a Toolkit on Belonging for Museum Professionals", "unit": "reported practice output", "value_type": "reported_output"},
+        "institutional_adoption": {"value": "the toolkit was adopted by Manchester Museum, Sunderland Museum, and Vienna's Volkskundemuseum according to the HERA impact account", "unit": "reported institutional adoption", "value_type": "reported_adoption"},
+        "practice_route": {"value": "the toolkit asks institutions to reflect on whose histories are represented, how communities participate in decisions, and how engagement creates inclusive spaces", "unit": "reported practice mechanism", "value_type": "reported_mechanism_set"},
+        "research_to_practice": {"value": "research evidence can enter cultural-sector routines through tools that change exhibition development and public engagement", "unit": "reported pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "Impact reporting based on project outputs and accounts of professional adoption; no independent implementation audit, audience evaluation, or counterfactual comparison is reported on the HERA page.",
+      "uncertainty": "Adoption does not establish consistent use, institutional authority, audience outcomes, representation quality, or lasting changes in belonging.",
+      "subgroup": "Museum professionals, cultural audiences, communities whose histories and identities are represented, and institutions managing participatory engagement.",
+      "counterinterpretation": "A toolkit can be adopted symbolically without shifting budgets, curatorial power, staffing, or decision rights; implementation may vary across institutions.",
+      "source_url": "https://heranet.info/2026/09/14/en-counter-points-renegotiating-belonging-through-culture-and-contact-in-public-space-and-place-2019-2022/",
+      "retrieval_hash": "sha256:d910762ac18777d0292a987af24f8ae4f32fa69f7c4450bf4498d103df4c9c0b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; translation of belonging research into urban public-space guidance",
+      "denominator": {"value": 1, "unit": "documented planning and design guidance pathway", "value_type": "reported_impact_pathway"},
+      "measures": {
+        "public_space_guidance": {"value": "the research informed guidance for urban planners, policymakers, and designers on regenerating neglected public spaces", "unit": "reported practice output", "value_type": "reported_output"},
+        "community_shaping": {"value": "the guidance emphasizes involving local communities in shaping the spaces where they live", "unit": "reported governance principle", "value_type": "reported_policy_principle"},
+        "place_connection": {"value": "successful regeneration is framed as both physical change and a process through which people develop connection to place and a sense of ownership", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "social_connection_route": {"value": "responsive public-space design can support participation, social connection, and belonging when communities help shape the process", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Reported research-to-policy translation from a comparative public-space and cultural-integration project; the HERA page records guidance and intended use rather than measured urban outcomes.",
+      "uncertainty": "The pathway does not establish that regeneration produces social inclusion, ownership, or reduced conflict, nor how effects vary by displacement, policing, access, or local power.",
+      "subgroup": "Residents, migrants, minority communities, local authorities, planners, designers, cultural organizations, and users of regenerated public spaces.",
+      "counterinterpretation": "Physical regeneration can increase exclusion, surveillance, displacement, or cultural branding if participation is weak or benefits are unevenly distributed.",
+      "source_url": "https://heranet.info/2026/09/14/en-counter-points-renegotiating-belonging-through-culture-and-contact-in-public-space-and-place-2019-2022/",
+      "retrieval_hash": "sha256:d910762ac18777d0292a987af24f8ae4f32fa69f7c4450bf4498d103df4c9c0b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://heranet.info/2026/09/14/en-counter-points-renegotiating-belonging-through-culture-and-contact-in-public-space-and-place-2019-2022/", "claim": "Official HERA 2026 impact story describing the project, case studies, toolkit, institutional adoption, and public-space guidance."},
+    {"source_url": "https://research.ncl.ac.uk/belonging/toolkit/", "claim": "Toolkit link identified by HERA for museum professionals and inclusive belonging practice."}
+  ],
+  "boundary": "This record adds a culture-to-place-to-belonging route from community, historical, and spatial connection through collaborative cultural practice, museum decision-making, public-space design, participation, and social inclusion. It is a comparative case-study and research-impact account, not a population trend, representative public-opinion estimate, causal intervention evaluation, or proof that toolkit adoption changes belonging.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official HERA impact story reviewed for project geography, case-study framing, belonging mechanism, museum toolkit, reported institutional adoption, urban-planning guidance, and limits of the research-to-practice account.",
+    "source_page_sha256": "sha256:d910762ac18777d0292a987af24f8ae4f32fa69f7c4450bf4498d103df4c9c0b",
+    "checked": "2026-09-28"
+  }
+}

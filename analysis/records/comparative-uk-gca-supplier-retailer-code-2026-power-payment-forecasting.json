@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-gca-supplier-retailer-code-2026-power-payment-forecasting",
+  "title": "UK grocery-supplier compliance can remain high while retailer processes transfer forecasting, payment and exit risk downstream",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UK Groceries Code Adjudicator, 2026 annual supplier survey results",
+  "geography": "United Kingdom; suppliers to the 14 designated grocery retailers",
+  "observations": [
+    {
+      "period": "2026 annual survey; supplier experience during the prior 12 months",
+      "denominator": {"value": 2600, "unit": "more than 2,600 supplier responses cited by the Groceries Code Adjudicator", "value_type": "reported_survey_sample"},
+      "measures": {
+        "code_issue": {"value": 32, "unit": "percent of suppliers reporting a Groceries Code issue, up from 30% in 2025", "value_type": "reported_share"},
+        "no_issue": {"value": "more than 50%", "unit": "share of suppliers reporting no issue with the designated retailers", "value_type": "reported_share"},
+        "overall_compliance": {"value": 92, "unit": "average perceived compliance across the 14 designated retailers", "value_type": "reported_index_mean"}
+      },
+      "method": "Confidential annual supplier survey conducted for the Groceries Code Adjudicator by YouGov; the official release reports aggregate supplier responses and retailer-level perceived compliance.",
+      "uncertainty": "The public release does not provide the response rate, weighting, supplier-size composition, item bases, confidence intervals, observed contract records, retailer response or supplier financial outcomes.",
+      "subgroup": "Direct suppliers to the 14 designated UK grocery retailers; results are not a survey of consumers or all food businesses.",
+      "counterinterpretation": "High perceived compliance and more than half reporting no issue indicate that the supplier relationship is not uniformly coercive; the aggregate issue increase may reflect reporting or composition change rather than generalized deterioration.",
+      "source_url": "https://www.gov.uk/government/news/high-code-compliance-maintained-as-some-supplier-issues-increase",
+      "retrieval_hash": "sha256:2ce507d8072126c7287900fa1b251b2213ff96f5c55c3c2bdd04272dce3593a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026 annual survey; issue categories",
+      "denominator": {"value": 1, "unit": "supplier survey issue-category frame reported by the Groceries Code Adjudicator", "value_type": "survey_issue_frame"},
+      "measures": {
+        "invoice_discrepancy_resolution": {"value": 20, "unit": "percent of suppliers raising issues with retailer processes for promptly resolving invoice discrepancies", "value_type": "reported_share"},
+        "inaccurate_forecasting_cost": {"value": 18, "unit": "percent of suppliers reporting significant costs from inaccurate retailer forecasting", "value_type": "reported_share"},
+        "delisting_without_notice": {"value": 15, "unit": "percent of suppliers reporting de-listing without reasonable notice", "value_type": "reported_share"},
+        "payment_delay": {"value": 14, "unit": "percent of suppliers reporting delays in payment", "value_type": "reported_share"}
+      },
+      "method": "Official GCA summary of the 2026 confidential supplier survey; issue categories are reported as shares of respondents.",
+      "uncertainty": "The release does not establish the monetary size of costs, duration of delays, incidence by supplier size or category, contract remedies, or downstream consumer prices and availability.",
+      "subgroup": "Suppliers reporting one or more issues in their relationships with designated retailers.",
+      "counterinterpretation": "Issue reporting may identify effective regulatory visibility rather than total harm, and a reported issue does not establish unlawful conduct or an inadequate remedy in an individual case.",
+      "source_url": "https://www.gov.uk/government/news/high-code-compliance-maintained-as-some-supplier-issues-increase",
+      "retrieval_hash": "sha256:2ce507d8072126c7287900fa1b251b2213ff96f5c55c3c2bdd04272dce3593a0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regulator route and supplier voice",
+      "denominator": {"value": 1, "unit": "GCA regulatory and supplier-voice context", "value_type": "reported_institutional_frame"},
+      "measures": {
+        "confidential_reporting_route": {"value": "the GCA presents confidential and anonymous channels as part of its regulatory arsenal", "unit": "reported institutional design", "value_type": "reported_mechanism"},
+        "deep_dive_interviews": {"value": "YouGov follow-up interviews were commissioned to explore supplier experiences in greater detail", "unit": "reported follow-up design", "value_type": "reported_institutional_action"},
+        "supplier_power_boundary": {"value": "visibility of an issue and a regulator route do not establish payment, correction, switching or restored bargaining power", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "GCA public release describing the survey, confidential reporting route and planned supplier deep-dive interviews.",
+      "uncertainty": "The public release does not report whether suppliers used the confidential route, whether retailers corrected issues, or whether supplier investment, employment, innovation, prices or product availability changed.",
+      "subgroup": "Direct grocery suppliers and the GCA-regulated retailer-supplier relationship.",
+      "counterinterpretation": "A regulator can improve contestability even before a measurable financial remedy appears; the absence of public remedy data is not proof that no remedy occurred.",
+      "source_url": "https://www.gov.uk/government/news/high-code-compliance-maintained-as-some-supplier-issues-increase",
+      "retrieval_hash": "sha256:2ce507d8072126c7287900fa1b251b2213ff96f5c55c3c2bdd04272dce3593a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/news/gca-annual-conference-2026", "claim": "The GCA announced a 29 September 2026 conference where YouGov would present a detailed analysis of the survey.", "status": "institutional-follow-up"},
+    {"source_url": "https://assets.publishing.service.gov.uk/media/69dfab35a68b527bd9408f2b/GCA_2026_annual_survey_information_pack.pdf", "claim": "Official GCA 2026 annual survey information pack linked from the release.", "status": "official-supporting-pack"}
+  ],
+  "boundary": "This record adds a firm-sector power and contestability route: retailer compliance can remain high while forecasting, payment, invoice, de-listing and reporting conditions distribute risk across suppliers. It does not measure consumer prices, supplier profitability, unlawful conduct, completed remedy, switching, investment, employment, innovation or causal retailer effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GCA 2026 annual supplier survey release was reviewed for response scale, compliance, issue prevalence, issue categories, confidential reporting and follow-up interview design.",
+    "source_page_sha256": "sha256:2ce507d8072126c7287900fa1b251b2213ff96f5c55c3c2bdd04272dce3593a0",
+    "checked": "2026-09-29"
+  }
+}

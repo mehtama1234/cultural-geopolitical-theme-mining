@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-vet-transition-energy-constraints-2026",
+  "title": "Vocational education systems are being pushed to adapt faster to the green transition while qualification, teaching, and adult-training capacity remain uneven",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "infrastructure_technology_dependency", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "trust_identity_meaning", "geopolitical_state_consequences"],
+  "source_unit": "OECD, Vocational education and training (VET) in transition: VET policy under energy constraints, September 2026",
+  "geography": "OECD countries and partner economies; vocational education, green-transition skills, teachers, workers, and adult retraining systems",
+  "observations": [
+    {
+      "period": "September 2026; VET under green-transition skill pressure",
+      "denominator": {"value": 1, "unit": "OECD policy-paper synthesis of VET systems under energy and green-transition change", "value_type": "reported_policy_frame"},
+      "measures": {"transition_pressure": {"value": "technological and industrial shifts create new occupations, transform existing ones, and render some jobs obsolete", "unit": "reported labour-market mechanism", "value_type": "reported_transition_frame"}, "qualification_lag": {"value": "qualification-update processes struggle to keep pace with innovation", "unit": "reported system challenge", "value_type": "reported_institutional_finding"}, "competence_gaps": {"value": "VET programmes face gaps in technical, foundational, and sustainability competences", "unit": "reported education-system challenge", "value_type": "reported_capacity_finding"}},
+      "method": "OECD policy analysis drawing on evidence from OECD countries; it is a synthesis and policy framework rather than a single causal evaluation.",
+      "uncertainty": "The paper identifies cross-country challenges but does not imply identical transition speeds, qualification lags, or labour-market effects across sectors and places.",
+      "subgroup": "VET learners, workers in transition-exposed occupations, employers, training providers, qualification authorities, and workers with different foundational skills.",
+      "counterinterpretation": "Slow qualification processes can protect quality, safety, and occupational legitimacy; speed without employer, worker, and public oversight could reduce trust in credentials.",
+      "source_url": "https://www.oecd.org/en/publications/vocational-education-and-training-vet-in-transition_0d4bfc4e-en.html",
+      "retrieval_hash": "sha256:feae9666d9f8314024aaf27e67c95b55dfd66be5a4e4bc8ecbdb1215e2d7364d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; teacher capability and adult-training participation",
+      "denominator": {"value": 1, "unit": "OECD VET transition policy analysis", "value_type": "reported_policy_analysis_frame"},
+      "measures": {"teacher_gap": {"value": "VET teachers may lack familiarity with emerging technologies", "unit": "reported workforce-capacity challenge", "value_type": "reported_capacity_finding"}, "adult_participation": {"value": "training participation remains persistently low among workers most exposed to structural change", "unit": "reported participation challenge", "value_type": "reported_workforce_finding"}, "support_tools": {"value": "targeted training for VET teachers and trainers, modular adult learning, and personalised career guidance are identified as policy tools", "unit": "reported policy-tool set", "value_type": "reported_policy_route"}},
+      "method": "OECD comparative policy synthesis of VET teachers, trainers, adult learners, transition exposure, and proposed policy tools.",
+      "uncertainty": "The paper does not establish why exposed workers participate less, whether modular learning removes cost and time barriers, or which teacher-training models produce durable results.",
+      "subgroup": "VET teachers and trainers, older workers, workers in carbon-intensive or transition-exposed sectors, adults with low foundational skills, and people needing career guidance.",
+      "counterinterpretation": "Workers may avoid training because of employer scheduling, income loss, care, geography, distrust, or weak expected returns—not simply because provision lacks modularity.",
+      "source_url": "https://www.oecd.org/en/publications/vocational-education-and-training-vet-in-transition_0d4bfc4e-en.html",
+      "retrieval_hash": "sha256:feae9666d9f8314024aaf27e67c95b55dfd66be5a4e4bc8ecbdb1215e2d7364d",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; modularity, guidance, and adaptation capacity",
+      "denominator": {"value": 1, "unit": "OECD VET policy-tool framework", "value_type": "reported_policy_framework"},
+      "measures": {"skills_anticipation": {"value": "skills anticipation is identified as a tool for aligning VET with changing demand", "unit": "reported system tool", "value_type": "reported_policy_route"}, "modular_learning": {"value": "modular learning pathways can support adult retraining and make qualification updates more flexible", "unit": "reported learning route", "value_type": "reported_policy_route"}, "career_guidance": {"value": "personalised career guidance is proposed to help learners and workers navigate transition", "unit": "reported support route", "value_type": "reported_policy_route"}, "social_partnership": {"value": "responsive VET requires engagement among employers, learners, providers, and social partners", "unit": "reported governance route", "value_type": "reported_participation_route"}},
+      "method": "Policy-paper synthesis of skills intelligence, qualification updates, modular learning, teacher development, and guidance approaches.",
+      "uncertainty": "These are proposed or identified policy tools, not evidence that modularity or anticipation automatically produces equitable retraining or employment.",
+      "subgroup": "Young learners, adult retrainers, employers, social partners, regional skills bodies, VET institutions, and workers navigating occupation change.",
+      "counterinterpretation": "Modularity can increase flexibility but also fragment credentials, shift navigation costs to learners, or weaken broad foundational learning if not connected to progression and recognized qualifications.",
+      "source_url": "https://www.oecd.org/en/publications/vocational-education-and-training-vet-in-transition_0d4bfc4e-en.html",
+      "retrieval_hash": "sha256:feae9666d9f8314024aaf27e67c95b55dfd66be5a4e4bc8ecbdb1215e2d7364d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://doi.org/10.1787/0d4bfc4e-en", "claim": "OECD DOI and publication citation for VET in transition."}],
+  "boundary": "This record adds a VET-transition route from industrial and energy-system change through qualification agility, teacher capacity, adult participation, modular retraining, guidance, and labour-market adaptation. It does not establish causal training effects, equal access, realized green employment, or that speed should replace quality and social-partner governance.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official OECD publication page reviewed for transition pressure, qualification-update lag, competence gaps, teacher capability, low training participation, policy tools, modular learning, career guidance, and social-partnership routes.", "source_url_sha256": "sha256:feae9666d9f8314024aaf27e67c95b55dfd66be5a4e4bc8ecbdb1215e2d7364d", "checked": "2026-09-29"}
+}

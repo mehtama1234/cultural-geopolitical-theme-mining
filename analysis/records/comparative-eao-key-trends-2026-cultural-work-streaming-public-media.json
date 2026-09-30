@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eao-key-trends-2026-cultural-work-streaming-public-media",
+  "title": "European audiovisual culture is expanding as a market while creator security, public media, and cultural control remain uneven",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "European Audiovisual Observatory, Key Trends 2026: Television, Cinema, Video and On-Demand Audiovisual Services",
+  "geography": "Pan-European audiovisual sector, covering EU and wider Council of Europe markets with comparisons across creators, producers, broadcasters, platforms, audiences, and public media",
+  "observations": [
+    {
+      "period": "2024-2026; cultural and creative-sector employment conditions",
+      "denominator": {"value": 7900000, "unit": "estimated people employed in European cultural and creative sectors", "value_type": "reported_sector_estimate"},
+      "measures": {
+        "sector_scale": {"value": 7900000, "unit": "people employed in European cultural and creative sectors", "value_type": "reported_estimate"},
+        "atypical_work": {"value": "Employment is dominated by self-employment, freelance work, and project-based contracts", "unit": "reported sector pattern", "value_type": "reported_pattern"},
+        "protection_gap": {"value": "Atypical arrangements often limit access to unemployment benefits, healthcare, and pensions; fragmented tax and social-protection systems also restrict mobility", "unit": "reported institutional gap", "value_type": "reported_gap"}
+      },
+      "method": "European Audiovisual Observatory synthesis of sector research, policy frameworks, employment patterns, social-protection arrangements, and country comparisons.",
+      "uncertainty": "The sector estimate and employment patterns aggregate diverse cultural occupations and countries; they do not measure individual income trajectories, causal precarity, or the effectiveness of any national reform.",
+      "subgroup": "Artists, writers, directors, cultural and creative professionals, freelancers, self-employed workers, MSMEs, and cross-border cultural workers.",
+      "counterinterpretation": "Freelance and project work can provide autonomy or entry into cultural production; the report’s sector-level pattern does not imply that every atypical worker lacks protection.",
+      "source_url": "https://rm.coe.int/key-trends-2026-en/48802b0032",
+      "retrieval_hash": "sha256:0292f782e92b5e6c1b5e7040130bf190dd7aa78b7c3942e2ec540134cd52904e",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2024; streaming, original-content investment, and cultural production",
+      "denominator": {"value": 1, "unit": "European audiovisual original-content spending comparison", "value_type": "market_comparison_frame"},
+      "measures": {
+        "global_streamer_share": {"value": 24, "unit": "percent of European original-content spending attributed to global streamers in 2024, up from 8% in 2020", "value_type": "reported_share"},
+        "market_value": {"value": 142, "unit": "billion euros approximate size of the European audiovisual market in 2024", "value_type": "reported_market_estimate"},
+        "consumer_spending_share": {"value": 74, "unit": "percent of the European audiovisual market attributed to consumer spending", "value_type": "reported_share"}
+      },
+      "method": "European Audiovisual Observatory analysis of audiovisual market, spending, and industry data from cited public and commercial sources.",
+      "uncertainty": "Market spending and revenue shares do not establish cultural diversity, creator income, audience welfare, or whether global-streamer spending is additional to or displacing other investment.",
+      "subgroup": "European audiences, creators, broadcasters, production companies, global streaming platforms, and national cultural-policy institutions.",
+      "counterinterpretation": "Global-platform investment can expand financing, distribution, and international reach even while increasing bargaining asymmetry or dependence on platform commissioning.",
+      "source_url": "https://rm.coe.int/key-trends-2026-en/48802b0032",
+      "retrieval_hash": "sha256:0292f782e92b5e6c1b5e7040130bf190dd7aa78b7c3942e2ec540134cd52904e",
+      "status": "reported"
+    },
+    {
+      "period": "2024; concentration and transatlantic cultural market power",
+      "denominator": {"value": 72, "unit": "entertainment companies with at least EUR 1 billion revenue used in the 2024 origin-of-revenue comparison", "value_type": "company_sample"},
+      "measures": {
+        "revenue_origin": {"value": "The report attributes 71% of the 2024 revenues of the 72 largest entertainment companies in its comparison to US companies, 12% to European companies, 10% to Japan, and 6% to China", "unit": "reported revenue-origin shares", "value_type": "reported_distribution"},
+        "tv_production_concentration": {"value": 25, "unit": "percent of European TV/SVOD fiction titles produced by the top 10 groups in 2024; the top 50 produced less than half", "value_type": "reported_share"},
+        "platform_effect": {"value": "Digital platforms create new opportunities and business models while also deepening income instability and market concentration", "unit": "reported sector mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "European Audiovisual Observatory analysis of company, production, market, and revenue data with explicit sample and market-boundary definitions.",
+      "uncertainty": "Company revenue origin is not the same as cultural influence, ownership of all local production, audience reach, or political control; title counts do not measure bargaining power or quality.",
+      "subgroup": "European audiovisual firms, creators, audiences, public broadcasters, global entertainment companies, and national regulators.",
+      "counterinterpretation": "A concentrated global entertainment market can coexist with plural local production and cultural circulation; company scale may fund projects that smaller firms cannot finance.",
+      "source_url": "https://rm.coe.int/key-trends-2026-en/48802b0032",
+      "retrieval_hash": "sha256:0292f782e92b5e6c1b5e7040130bf190dd7aa78b7c3942e2ec540134cd52904e",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2024; public-service media funding and real capacity",
+      "denominator": {"value": 1, "unit": "European public-service broadcaster funding comparison", "value_type": "market_comparison_frame"},
+      "measures": {
+        "per_capita_funding": {"value": 47, "unit": "euros per inhabitant per year average European public-service broadcaster funding", "value_type": "reported_average"},
+        "high_support_examples": {"value": "Funding exceeded EUR 100 per inhabitant in Switzerland, Germany, Iceland, and Norway, while it was below EUR 10 in several smaller or lower-income markets", "unit": "reported cross-country pattern", "value_type": "reported_pattern"},
+        "real_revenue": {"value": "Public-service broadcaster revenues decreased in real terms despite nominal resilience through the pandemic and inflation period", "unit": "reported trend", "value_type": "reported_trend"},
+        "audience_position": {"value": "Public-service broadcasters were the leading audience group in 18 European countries", "unit": "reported country count", "value_type": "reported_count"}
+      },
+      "method": "European Audiovisual Observatory analysis of public-service broadcaster revenues, population, inflation, and audience-share data.",
+      "uncertainty": "Funding and audience measures do not establish editorial independence, public trust, content quality, cultural representation, or long-term institutional resilience.",
+      "subgroup": "Public-service broadcasters, audiences, cultural producers, taxpayers, regulators, and communities relying on locally relevant audiovisual information.",
+      "counterinterpretation": "Public funding can stabilize cultural production and universal access, but higher funding does not automatically produce broader reach, pluralism, or public value.",
+      "source_url": "https://rm.coe.int/key-trends-2026-en/48802b0032",
+      "retrieval_hash": "sha256:0292f782e92b5e6c1b5e7040130bf190dd7aa78b7c3942e2ec540134cd52904e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.obs.coe.int/en/web/observatoire/", "claim": "European Audiovisual Observatory publication and data hub."},
+    {"source_url": "https://www.unesco.org/en/reshaping-creativity-reports?hub=66708", "claim": "UNESCO Re|Shaping Policies for Creativity 2026 provides a complementary global cultural-policy and creator-livelihood context."}
+  ],
+  "boundary": "This record adds a European audiovisual cultural-economy route from creator work and social protection through streaming investment, market concentration, public media funding, and cultural access. It uses sectoral and market data, not individual creator panels, causal platform evaluations, audience-level welfare measures, or proof that market scale produces cultural diversity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Council of Europe European Audiovisual Observatory Key Trends 2026 publication was reviewed for creator employment and protection, streaming investment, market size, entertainment-company revenue origin, TV/SVOD concentration, public-service funding, real revenue, and audience position. The retrieval hash is for the fetched publication landing response because the public PDF endpoint was not locally downloadable.",
+    "source_url_sha256": "sha256:0292f782e92b5e6c1b5e7040130bf190dd7aa78b7c3942e2ec540134cd52904e",
+    "checked": "2026-09-28"
+  }
+}

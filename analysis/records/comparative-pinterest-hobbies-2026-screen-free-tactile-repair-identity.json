@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pinterest-hobbies-2026-screen-free-tactile-repair-identity",
+  "title": "Hobby culture is moving toward screen-free, tactile, repair-oriented, and highly personal practices that turn online discovery into offline attention and visible results",
+  "theme_ids": ["time", "voice", "cost", "energy"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Pinterest Hobbies Trend Report 2026: Find your joy, Pinterest Newsroom",
+  "geography": "Global Pinterest user and search culture, with Gen Z and monthly-user aggregate claims",
+  "observations": [
+    {
+      "period": "2026; hobby seeking and screen-free attention",
+      "denominator": {"value": 1, "unit": "Pinterest 2026 hobbies trend synthesis", "value_type": "platform_trend_frame"},
+      "measures": {
+        "hobby_joy": {"value": 51, "unit": "percent of Gen Z reported as saying having a hobby contributes to their joy", "value_type": "reported_subgroup_share"},
+        "offline_turn": {"value": "People are described as choosing hands-on pastimes that command attention, reduce stress, and make free time feel more satisfying", "unit": "reported cultural pattern", "value_type": "reported_trend"},
+        "online_to_offline": {"value": "Pinterest is framed as a discovery layer that motivates users to try things in real life, with screen-free hobbies presented as a clear current signal", "unit": "reported platform-to-life route", "value_type": "reported_mechanism"}
+      },
+      "method": "Pinterest editorial trend synthesis based on platform search and engagement patterns, with a published Gen Z and monthly-user aggregate claim.",
+      "uncertainty": "The public page does not disclose the Gen Z survey denominator, sampling, question wording, or the causal basis for the claim that Pinterest motivation produces offline activity.",
+      "subgroup": "Gen Z, Pinterest users, hobby seekers, people managing digital overload or stress, and communities organized around crafts, collections, cooking, gardening, and analog practices.",
+      "counterinterpretation": "Hobby searches can express aspiration rather than sustained practice, and screen-free activity can still be heavily mediated, monetized, and platform-dependent.",
+      "source_url": "https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/",
+      "retrieval_hash": "sha256:e46443da9bd17818c7a1af554c3399507d772e52d67cd932634237c0fef0d3ce",
+      "status": "reported"
+    },
+    {
+      "period": "2026; domestic ritual, food craft, and sensory self-care",
+      "denominator": {"value": 1, "unit": "Pinterest Kitchen Witch and Home Café Engineering trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "kitchen_witch": {"value": "Herbal infusions, beeswax-and-fabric projects, spice blending, fermentation, preserving, and candle-making are grouped as practical, cozy, creative kitchen rituals", "unit": "reported hobby trend set", "value_type": "reported_trend_set"},
+        "home_cafe": {"value": "At-home café routines combine recipe experimentation, presentation, equipment, and atmosphere, making the process and setup part of the appeal", "unit": "reported consumption-and-ritual trend", "value_type": "reported_mechanism"},
+        "sensory_route": {"value": "Food and drink projects are framed as low-scale, repeatable ways to create pleasure, attention, and tangible results at home", "unit": "reported wellbeing route", "value_type": "reported_orientation"}
+      },
+      "method": "Pinterest search-trend analysis and editorial grouping of home, food, beverage, and craft behavior.",
+      "uncertainty": "Search growth does not identify actual frequency, household resources, geographic access, or whether these practices replace purchased consumption or add to it.",
+      "subgroup": "Home cooks, hobbyists, people seeking affordable rituals, food and beverage enthusiasts, and households turning domestic space into a leisure and identity environment.",
+      "counterinterpretation": "Home ritual can be restorative but may increase unpaid labor, equipment spending, and expectations that households privately solve stress and wellbeing.",
+      "source_url": "https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/",
+      "retrieval_hash": "sha256:e46443da9bd17818c7a1af554c3399507d772e52d67cd932634237c0fef0d3ce",
+      "status": "reported"
+    },
+    {
+      "period": "2026; nature observation, repair, and secondhand participation",
+      "denominator": {"value": 1, "unit": "Pinterest Backyard Botanist and Secondhand Sidequest trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "backyard_botanist": {"value": "Pressed flowers, botanical sketching, field guides, bird identification, foraging, and nature photography are framed as slow observational practices", "unit": "reported nature-hobby trend set", "value_type": "reported_trend_set"},
+        "repair_and_upcycle": {"value": "Repair, sashiko, visible mending, crochet upcycling, patchwork, and refashioning are identified as ways to give secondhand objects provenance and personal style", "unit": "reported circular-practice trend", "value_type": "reported_mechanism"},
+        "material_attention": {"value": "Both nature observation and repair redirect attention toward materials, process, patience, and close looking rather than rapid replacement", "unit": "analytic cross-trend mechanism", "value_type": "analytic_connection"}
+      },
+      "method": "Pinterest platform search-trend synthesis across nature, art, fashion, repair, and secondhand categories.",
+      "uncertainty": "The source does not establish whether these practices materially reduce consumption, improve ecological knowledge, or reach beyond users already interested in crafts and secondhand goods.",
+      "subgroup": "Nature hobbyists, repair learners, secondhand consumers, makers, gardeners, artists, and people seeking lower-cost or lower-waste creative practices.",
+      "counterinterpretation": "Repair aesthetics can become another consumption niche, while hobbyist nature practices may remain disconnected from collective environmental action or structural waste reduction.",
+      "source_url": "https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/",
+      "retrieval_hash": "sha256:e46443da9bd17818c7a1af554c3399507d772e52d67cd932634237c0fef0d3ce",
+      "status": "reported"
+    },
+    {
+      "period": "2026; making, collecting, and personalized micro-worlds",
+      "denominator": {"value": 1, "unit": "Pinterest Handmade Hacker, Curated Clutter, and Casual Crafter trend frame", "value_type": "platform_trend_frame"},
+      "measures": {
+        "handmade_media": {"value": "Zines, journals, book logs, tunnel books, printables, cyberdeck builds, and customized technology are grouped as personal media-making and craft", "unit": "reported maker trend set", "value_type": "reported_trend_set"},
+        "curated_clutter": {"value": "Collections of figures, records, photocards, coins, travel stickers, and other objects are becoming styled identity displays and visible micro-worlds", "unit": "reported home-and-identity trend", "value_type": "reported_mechanism"},
+        "small_scale_creation": {"value": "Miniatures, dollhouses, terrariums, charms, and beginner-friendly crafts make creative participation possible with spare materials and limited space", "unit": "reported participation route", "value_type": "reported_trend"}
+      },
+      "method": "Pinterest search-trend analysis and editorial synthesis across craft, collecting, digital making, home display, and miniature practices.",
+      "uncertainty": "The public page reports search growth but not participation duration, household income, age distribution beyond selected claims, or the balance between making and purchasing craft goods.",
+      "subgroup": "Makers, collectors, fans, hobby beginners, people in small homes, digital creators, and consumers using objects to make identity visible.",
+      "counterinterpretation": "Personalized micro-worlds can offer belonging and control but can also intensify accumulation, platform monetization, and status competition through ever more curated collections.",
+      "source_url": "https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/",
+      "retrieval_hash": "sha256:e46443da9bd17818c7a1af554c3399507d772e52d67cd932634237c0fef0d3ce",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://newsroom.pinterest.com/news/pinterest-predicts-nonconformity-self-preservation-and-escapism-drive-21-trends-for-2026/", "claim": "Pinterest Predicts 2026 provides an adjacent platform-level forecast on comfort, self-preservation, escapism, and visual culture."},
+    {"source_url": "https://newsroom.pinterest.com/news/2026-pinterest-hobbies-trend-report/", "claim": "The official source is the public Pinterest Hobbies Trend Report 2026 page with search-growth examples and trend descriptions."}
+  ],
+  "boundary": "This record adds a recent platform-led hobby signal: screen-free attention, domestic ritual, nature observation, repair, secondhand practice, collecting, and personalized making. It is based on aggregate search and editorial interpretation, not respondent-level data, representative hobby participation, causal wellbeing evidence, or proof that hobby interest translates into durable offline practice.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pinterest Hobbies Trend Report 2026 reviewed for the Gen Z joy and monthly-user motivation claims, Kitchen Witch, Home Café Engineering, Backyard Botanist, Secondhand Sidequest, Handmade Hacker, Curated Clutter, and Casual Crafter signals.",
+    "source_url_sha256": "sha256:e46443da9bd17818c7a1af554c3399507d772e52d67cd932634237c0fef0d3ce",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-climate-sentiment-2026-just-transition-public-support",
+  "title": "Climate concern is broad but policy support depends on perceived effectiveness, economic security and fair distribution of transition burdens",
+  "theme_ids": ["voice", "cost", "energy", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "OECD, Taking the temperature on climate change and on just transition policies: Public sentiment in OECD countries",
+  "geography": "Working-age adults in 27 OECD countries, using OECD Risks that Matter survey waves and reviewed international evidence",
+  "observations": [
+    {
+      "period": "2026 publication; climate concern and action support",
+      "denominator": {"value": 27, "unit": "OECD countries represented in the paper’s cross-country results", "value_type": "published_country_frame"},
+      "measures": {
+        "climate_concern": {"value": "over two thirds of respondents express concern about climate change", "unit": "reported average across 27 OECD countries", "value_type": "reported_average"},
+        "concern_trend": {"value": "climate concern rose over recent decades but has recently plateaued or softened", "unit": "reported trend synthesis", "value_type": "reported_assessment"},
+        "action_gap": {"value": "explicit support for further climate action lags behind abstract concern about climate change", "unit": "reported public-attitudes pattern", "value_type": "reported_comparison"}
+      },
+      "method": "Review of national and international studies plus descriptive analysis of OECD Risks that Matter survey results, including 2022 and 2024 waves.",
+      "uncertainty": "The paper describes sentiment and associations rather than causal effects; concern does not measure behavior, willingness to pay, policy compliance or realized emissions reduction.",
+      "subgroup": "Working-age adults, households, workers, consumers and voters exposed to climate risks or climate-policy costs.",
+      "counterinterpretation": "A gap between concern and action support can reflect policy design, information, affordability or perceived efficacy rather than rejection of climate goals.",
+      "source_url": "https://www.oecd.org/en/publications/taking-the-temperature-on-climate-change-and-on-just-transition-policies_96cf0561-en.html",
+      "retrieval_hash": "sha256:9d1bc5838becec4728fd6e5c1adbb8cca96d3ecdd440d330407cd352abda0611",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; distributional differences in climate sentiment",
+      "denominator": {"value": 1, "unit": "OECD population-subgroup comparison", "value_type": "published_comparison"},
+      "measures": {
+        "gender_pattern": {"value": "women are more worried about climate change on average", "unit": "reported subgroup pattern", "value_type": "reported_assessment"},
+        "sector_pattern": {"value": "workers in emission-intensive industries are sometimes less concerned", "unit": "reported subgroup pattern", "value_type": "reported_assessment"},
+        "age_pattern": {"value": "older adults are often as concerned as younger adults, complicating a simple generational stereotype", "unit": "reported subgroup pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Descriptive comparison of public sentiment across demographic and labour-market groups in the OECD Risks that Matter data and reviewed studies.",
+      "uncertainty": "Subgroup differences vary by country, question wording and climate-policy context; they do not establish a fixed identity or causal mechanism.",
+      "subgroup": "Women, older adults, younger adults, workers in emission-intensive industries and other labour-market groups.",
+      "counterinterpretation": "Differences may reflect exposure, occupational identity, income, local policy experience, perceived alternatives or survey framing rather than demographic traits alone.",
+      "source_url": "https://www.oecd.org/en/publications/taking-the-temperature-on-climate-change-and-on-just-transition-policies_96cf0561-en.html",
+      "retrieval_hash": "sha256:9d1bc5838becec4728fd6e5c1adbb8cca96d3ecdd440d330407cd352abda0611",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; economic security and just-transition legitimacy",
+      "denominator": {"value": 1, "unit": "OECD distributional-risk frame", "value_type": "published_framework"},
+      "measures": {
+        "vulnerable_households": {"value": "financially vulnerable households are more worried about negative knock-on effects of climate policies", "unit": "reported sentiment pattern", "value_type": "reported_assessment"},
+        "high_emission_workers": {"value": "workers in high-emission sectors are more concerned about adjustment burdens and possible negative effects", "unit": "reported sentiment pattern", "value_type": "reported_assessment"},
+        "policy_route": {"value": "inclusive design and transparent compensation are presented as ways to address economic vulnerability and climate-action concerns", "unit": "reported policy implication", "value_type": "reported_recommendation"}
+      },
+      "method": "Synthesis of public-attitudes evidence and discussion of distributional implications for mitigation and just-transition policies.",
+      "uncertainty": "The paper identifies perceived burden and policy-design routes but does not estimate the cost, adequacy or political effect of specific compensation schemes.",
+      "subgroup": "Low-income and financially vulnerable households, workers in carbon-intensive sectors, consumers facing energy costs and communities dependent on affected industries.",
+      "counterinterpretation": "Compensation can improve legitimacy, but transfers alone may not resolve job identity, regional decline, exposure, procedural voice or distrust of implementation.",
+      "source_url": "https://www.oecd.org/en/publications/taking-the-temperature-on-climate-change-and-on-just-transition-policies_96cf0561-en.html",
+      "retrieval_hash": "sha256:9d1bc5838becec4728fd6e5c1adbb8cca96d3ecdd440d330407cd352abda0611",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; perceived social norms and policy communication",
+      "denominator": {"value": 1, "unit": "OECD public-perception mechanism", "value_type": "published_framework"},
+      "measures": {
+        "support_misperception": {"value": "citizens often underestimate how supportive others are of climate action", "unit": "reported public-perception pattern", "value_type": "reported_assessment"},
+        "polarization_route": {"value": "people can also overestimate agreement with their own position, creating false-consensus effects that intensify polarization", "unit": "reported social-perception mechanism", "value_type": "reported_mechanism"},
+        "information_sensitivity": {"value": "support can respond to information, misinformation and policy framing, making communication and demonstrated effectiveness part of implementation", "unit": "reported policy-communication implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Review of public-opinion research alongside OECD survey evidence and discussion of implications for democratic climate-policy design.",
+      "uncertainty": "Perception effects vary by context; the paper does not provide a universal communication intervention or prove that correcting perceived norms produces durable policy support.",
+      "subgroup": "Citizens, voters, consumers, policymakers and groups whose climate positions are shaped by perceived social norms and policy credibility.",
+      "counterinterpretation": "Public communication can correct misperceptions, but messaging without credible delivery, procedural voice and material fairness may deepen distrust rather than build support.",
+      "source_url": "https://www.oecd.org/en/publications/taking-the-temperature-on-climate-change-and-on-just-transition-policies_96cf0561-en.html",
+      "retrieval_hash": "sha256:9d1bc5838becec4728fd6e5c1adbb8cca96d3ecdd440d330407cd352abda0611",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/08/taking-the-temperature-on-climate-change-and-on-just-transition-policies_5b2597e4/96cf0561-en.pdf", "claim": "Official 33-page OECD working paper PDF, revised 2 September 2026."},
+    {"source_url": "https://doi.org/10.1787/96cf0561-en", "claim": "Official OECD DOI for Working Paper No. 335."}
+  ],
+  "boundary": "This record adds a climate-politics and social-legitimacy signal linking climate concern to policy support, economic security, household and worker exposure, perceived norms, communication, compensation and fair burden sharing. It is descriptive public-attitudes evidence from OECD countries and reviewed studies, not a causal evaluation, behavioral forecast, or proof that compensation produces durable support.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD publication page and downloadable working paper were reviewed for the 27-country sentiment frame, concern/action gap, subgroup differences, economic-security concerns, compensation route, perceived social norms and communication implications.",
+    "source_url_sha256": "sha256:9d1bc5838becec4728fd6e5c1adbb8cca96d3ecdd440d330407cd352abda0611",
+    "checked": "2026-09-27"
+  }
+}

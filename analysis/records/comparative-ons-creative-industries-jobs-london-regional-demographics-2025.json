@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-creative-industries-jobs-london-regional-demographics-2025",
+  "title": "Creative employment is geographically concentrated and structurally distinctive in London",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Office for National Statistics ONS Local user-requested APS extract: estimated creative-industries jobs and demographic breakdowns, 2025",
+  "geography": "London versus all other regions of the United Kingdom; Annual Population Survey estimates",
+  "observations": [
+    {
+      "period": "2025; estimated jobs by region; creative industries under the DCMS SIC-based definition",
+      "denominator": {"value": 1, "unit": "Estimated total jobs within each regional universe; 95% confidence intervals supplied in the workbook", "value_type": "estimated_job_universe"},
+      "measures": {
+        "london_creative_jobs": {"value": 746261, "unit": "estimated jobs; 95% CI 695820 to 796702", "value_type": "estimated_count"},
+        "london_all_jobs": {"value": 5458143, "unit": "estimated jobs; 95% CI 5374822 to 5541464", "value_type": "estimated_count"},
+        "london_creative_share": {"value": 13.7, "unit": "percent of estimated London jobs; derived from workbook totals", "value_type": "derived_share"},
+        "other_uk_creative_jobs": {"value": 1717507, "unit": "estimated jobs outside London; 95% CI 1657568 to 1777446", "value_type": "estimated_count"},
+        "other_uk_all_jobs": {"value": 28909569, "unit": "estimated jobs outside London; 95% CI 28768866 to 29050272", "value_type": "estimated_count"},
+        "other_uk_creative_share": {"value": 5.9, "unit": "percent of estimated jobs outside London; derived from workbook totals", "value_type": "derived_share"},
+        "mechanism": {"value": "Creative employment is not evenly distributed across place: London has a much larger creative-job share, making cultural production, career entry, housing pressure, local identity, and regional policy capacity jointly connected rather than separate market questions", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS user-requested Annual Population Survey extract using person weights PWTA22; creative industries are defined from selected SIC 2007 industries using the DCMS definition, with regional estimates and 95% confidence intervals.",
+      "uncertainty": "ONS warns that APS quality has been affected by low response rates, accreditation was withdrawn from official statistics based on APS, 2022-based population weights were used, and these figures are not directly comparable with other published analyses. London is compared with a broad residual region, not a full local typology.",
+      "subgroup": "London and all other regions of the United Kingdom; estimated total jobs.",
+      "counterinterpretation": "The London share may reflect industry classification, commuting and place-of-work patterns, concentration of headquarters and cultural institutions, population composition, or measurement quality rather than a simple local cultural advantage.",
+      "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/adhocs/3599onslocalestimatednumberofjobsanddemographicbreakdownsincreativeindustries2025",
+      "retrieval_hash": "sha256:931487fb7e2ec84e88c70340497a965c0fa86204b9f84ea8037cceac251f9d5e",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; creative jobs by sex and employment type",
+      "denominator": {"value": 1, "unit": "Estimated creative-industry jobs in each region; subgroup totals have separate confidence intervals", "value_type": "estimated_job_universe"},
+      "measures": {
+        "london_creative_female_jobs": {"value": 295048, "unit": "estimated jobs; 95% CI 266303 to 323793", "value_type": "estimated_count"},
+        "london_creative_male_jobs": {"value": 451213, "unit": "estimated jobs; 95% CI 412479 to 489947", "value_type": "estimated_count"},
+        "london_creative_self_employed_jobs": {"value": 194394, "unit": "estimated jobs; 95% CI 168278 to 220510", "value_type": "estimated_count"},
+        "london_creative_self_employed_share": {"value": 26.0, "unit": "percent of London creative jobs; derived from workbook totals", "value_type": "derived_share"},
+        "other_uk_creative_self_employed_jobs": {"value": 501564, "unit": "estimated jobs outside London; 95% CI 469834 to 533294", "value_type": "estimated_count"},
+        "other_uk_creative_self_employed_share": {"value": 29.2, "unit": "percent of creative jobs outside London; derived from workbook totals", "value_type": "derived_share"},
+        "mechanism": {"value": "Creative-sector place concentration coexists with a substantial self-employed workforce and a London sex composition of roughly 40% women and 60% men, making bargaining, income volatility, care, and local opportunity part of cultural-production capacity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS APS creative-industry estimates from workbook tables 6 and 11; sex and employment-type cells are descriptive estimates with published confidence intervals.",
+      "uncertainty": "Sex and self-employment comparisons are not causal and may reflect occupation, industry, age, education, class, hours, earnings, household structure, and sampling uncertainty. Self-employment is not a direct measure of autonomy or precarity.",
+      "subgroup": "Creative-industry jobs in London and all other UK regions, by sex and employee/self-employed status.",
+      "counterinterpretation": "A high self-employed share may represent entrepreneurial control, contracting norms, portfolio work, or forced independence; the extract does not measure earnings, hours, job quality, or worker voice.",
+      "source_url": "https://www.ons.gov.uk/file?uri=%2Femploymentandlabourmarket%2Fpeopleinwork%2Femploymentandemployeetypes%2Fadhocs%2F3599onslocalestimatednumberofjobsanddemographicbreakdownsincreativeindustries2025%2Fcreativeindustriesjobs2025.xlsx",
+      "retrieval_hash": "sha256:fed8992796daa0822674fdf61c7b7e042e45c189d73b14fda20f01f629f69c33",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; creative jobs by disability and qualification",
+      "denominator": {"value": 1, "unit": "Estimated creative-industry jobs in each region; disability and qualification cells have separate confidence intervals", "value_type": "estimated_job_universe"},
+      "measures": {
+        "london_creative_disabled_jobs": {"value": 86253, "unit": "estimated jobs; 95% CI 69657 to 102849", "value_type": "estimated_count"},
+        "london_creative_disabled_share": {"value": 11.6, "unit": "percent of London creative jobs; derived from workbook totals", "value_type": "derived_share"},
+        "other_uk_creative_disabled_jobs": {"value": 273055, "unit": "estimated jobs outside London; 95% CI 249963 to 296147", "value_type": "estimated_count"},
+        "other_uk_creative_disabled_share": {"value": 15.9, "unit": "percent of creative jobs outside London; derived from workbook totals", "value_type": "derived_share"},
+        "london_creative_degree_jobs": {"value": 599623, "unit": "estimated jobs among degree-or-equivalent qualification group; 95% CI 554994 to 644252", "value_type": "estimated_count"},
+        "london_creative_degree_share": {"value": 80.4, "unit": "percent of London creative jobs; derived from workbook totals", "value_type": "derived_share"},
+        "mechanism": {"value": "Creative opportunity is highly credentialed in London while disability representation is lower there than outside London in this estimate; the open question is whether this reflects access, occupational sorting, age and health composition, workplace accommodation, or classification", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ONS APS creative-industry estimates from workbook tables 7 and 8; disability is the published APS status and qualification is the highest qualification grouping.",
+      "uncertainty": "Small or subgroup estimates can have wide confidence intervals; disability and qualification are not causal mechanisms, and the APS quality warning applies. Derived shares use rounded or estimated totals and should not be read as exact workforce composition.",
+      "subgroup": "Creative-industry jobs in London and all other UK regions by disability status and highest qualification.",
+      "counterinterpretation": "The London-versus-rest difference may arise from age, migration, occupation, survey response, industry mix, or different disclosure patterns; it is not evidence of exclusion without access, hiring, retention, or accommodation measures.",
+      "source_url": "https://www.ons.gov.uk/file?uri=%2Femploymentandlabourmarket%2Fpeopleinwork%2Femploymentandemployeetypes%2Fadhocs%2F3599onslocalestimatednumberofjobsanddemographicbreakdownsincreativeindustries2025%2Fcreativeindustriesjobs2025.xlsx",
+      "retrieval_hash": "sha256:fed8992796daa0822674fdf61c7b7e042e45c189d73b14fda20f01f629f69c33",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/adhocs/3599onslocalestimatednumberofjobsanddemographicbreakdownsincreativeindustries2025", "claim": "ONS release page, source, date, scope, and APS quality warnings."},
+    {"source_url": "https://www.gov.uk/government/publications/dcms-sectors-economic-estimates-methodology/dcms-sectors-economic-estimates-methodology", "claim": "DCMS creative-industries definition referenced by the ONS workbook."},
+    {"source_url": "https://www.ons.gov.uk/surveys/informationforhouseholdsandindividuals/householdandindividualsurveys/annualpopulationsurveyaps", "claim": "Annual Population Survey context and design."}
+  ],
+  "boundary": "This record adds a local labor-market and demographic layer to cultural-consumer analysis. It is an ONS user-requested APS estimate with explicit quality and comparability warnings, not a causal evaluation of London cultural power, a measure of cultural consumption, an earnings or job-quality estimate, or proof of inclusion or exclusion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ONS release page and associated creativeindustriesjobs2025.xlsx workbook reviewed; Table 1 regional totals, Tables 6-8 sex/disability/qualification, Table 11 employment type, confidence intervals, APS weighting, definition, and quality warnings preserved.",
+    "release_html_sha256": "sha256:931487fb7e2ec84e88c70340497a965c0fa86204b9f84ea8037cceac251f9d5e",
+    "workbook_sha256": "sha256:fed8992796daa0822674fdf61c7b7e042e45c189d73b14fda20f01f629f69c33",
+    "checked": "2026-09-30"
+  }
+}

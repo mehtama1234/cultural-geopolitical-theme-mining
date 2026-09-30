@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aarp-price-pressures-older-consumers-2026-cutbacks-buffer-strategies",
+  "title": "Older Americans are converting persistent price pressure into discretionary cutbacks, delayed purchases and drawdown of financial buffers",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "AARP Research, Price Pressures and Consumer Spending, Foresight 50+ Consumer Omnibus",
+  "geography": "United States; adults age 50 and older, nationally representative probability-based panel",
+  "observations": [
+    {
+      "period": "July 16–20, 2026; U.S. adults age 50+",
+      "denominator": {"value": 1017, "unit": "U.S. adults age 50+ interviewed in a probability-based panel", "value_type": "reported_sample"},
+      "measures": {
+        "price_increase_perception": {"value": 94, "unit": "percent agreeing prices rose over the past few months", "value_type": "reported_share"},
+        "large_increase": {"value": 67, "unit": "percent saying prices rose a lot", "value_type": "reported_share"},
+        "small_increase": {"value": 27, "unit": "percent saying prices rose a little", "value_type": "reported_share"}
+      },
+      "method": "National survey conducted online and by phone; data weighted to Current Population Survey benchmarks and balanced by age, sex, education, race/ethnicity, region and other demographic dimensions.",
+      "uncertainty": "This is a cross-sectional perception and self-report survey; it does not estimate actual item-level inflation, household budgets, subsequent spending, or causal effects of prices.",
+      "subgroup": "Adults age 50+, with comparisons by age band, gender and spending category.",
+      "counterinterpretation": "Near-universal perception of rising prices indicates shared economic salience but does not mean all respondents experienced the same real purchasing-power loss or had equal ability to absorb it.",
+      "source_url": "https://www.aarp.org/pri/topics/work-finances-retirement/financial-security-retirement/price-pressures-and-consumer-spending/",
+      "retrieval_hash": "sha256:de235f75810a5bb8c23fceaed475468c15a12fd6cde45826de1e662f21d1cb59",
+      "status": "reported"
+    },
+    {
+      "period": "July 16–20, 2026; recent spending changes among U.S. adults age 50+",
+      "denominator": {"value": 1017, "unit": "survey respondents age 50+", "value_type": "reported_sample"},
+      "measures": {
+        "dining_cutback": {"value": 58, "unit": "percent who cut back dining out or takeout in the past month", "value_type": "reported_share"},
+        "entertainment_cutback": {"value": 52, "unit": "percent who cut back entertainment", "value_type": "reported_share"},
+        "grocery_cutback": {"value": 41, "unit": "percent who cut back groceries", "value_type": "reported_share"},
+        "age_gap": {"value": "Adults age 50–64 reported higher cutbacks than adults 65+, including dining out (62% versus 55%) and groceries (45% versus 38%)", "unit": "reported subgroup comparison", "value_type": "reported_difference"}
+      },
+      "method": "Survey questions on spending cutbacks and delayed purchases, with age and gender subgroup comparisons.",
+      "uncertainty": "Reported cutbacks are not verified transactions and the release does not establish whether changes are temporary substitution, sustained reduction, or a response to prices alone.",
+      "subgroup": "Adults age 50–64 versus 65+, and women versus men.",
+      "counterinterpretation": "Cutting discretionary spending can reflect active budgeting or preference changes rather than only hardship; grocery cutbacks suggest that the pressure also reaches essential consumption for some households.",
+      "source_url": "https://www.aarp.org/pri/topics/work-finances-retirement/financial-security-retirement/price-pressures-and-consumer-spending/",
+      "retrieval_hash": "sha256:de235f75810a5bb8c23fceaed475468c15a12fd6cde45826de1e662f21d1cb59",
+      "status": "reported"
+    },
+    {
+      "period": "July 16–20, 2026; respondents reporting cutbacks or delayed purchases",
+      "denominator": {"value": 1017, "unit": "survey respondents age 50+; question asked among those reporting cutbacks or delayed purchases", "value_type": "reported_sample"},
+      "measures": {
+        "everyday_price_driver": {"value": 72, "unit": "percent citing higher prices for everyday items excluding gas as a cause", "value_type": "reported_share"},
+        "gas_price_driver": {"value": 52, "unit": "percent citing increased gas prices as a cause", "value_type": "reported_share"},
+        "income_shock_response": {"value": "If monthly household income were 5% lower, 74% would spend less on dining out, 67% less on entertainment, and 63% would delay large purchases", "unit": "reported hypothetical responses", "value_type": "reported_share"}
+      },
+      "method": "Cross-sectional survey combining reported causes of recent behavior with a hypothetical 5% income-reduction scenario.",
+      "uncertainty": "Hypothetical responses are not observed behavior and cannot quantify price elasticity, income elasticity or future consumption.",
+      "subgroup": "Adults age 50+ who reported changing spending, with category-specific responses.",
+      "counterinterpretation": "The findings may capture perceived inflation and precautionary behavior as much as realized constraint; respondents could overstate or understate future adjustments.",
+      "source_url": "https://www.aarp.org/pri/topics/work-finances-retirement/financial-security-retirement/price-pressures-and-consumer-spending/",
+      "retrieval_hash": "sha256:de235f75810a5bb8c23fceaed475468c15a12fd6cde45826de1e662f21d1cb59",
+      "status": "reported"
+    },
+    {
+      "period": "July 16–20, 2026; adults age 50+ considering how to cover expense gaps",
+      "denominator": {"value": 1017, "unit": "survey respondents age 50+", "value_type": "reported_sample"},
+      "measures": {
+        "savings_buffer": {"value": 61, "unit": "percent who would use savings to cover expense gaps", "value_type": "reported_share"},
+        "lower_cost_substitution": {"value": 45, "unit": "percent who would choose lower-cost alternatives", "value_type": "reported_share"},
+        "credit_card_buffer": {"value": 35, "unit": "percent who would put the difference on a credit card", "value_type": "reported_share"},
+        "financial_reallocation": {"value": "The report shows price pressure moving through a sequence of category cutbacks, delayed purchases, substitution, savings drawdown and potential revolving credit", "unit": "reported behavioral pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Survey of intended coping strategies under current expense pressure and a hypothetical income reduction.",
+      "uncertainty": "These are stated strategies rather than observed account outcomes; the survey does not measure savings balances, debt costs, delinquency or later recovery.",
+      "subgroup": "Adults age 50+, with implications for retirement security, health spending, care obligations and household resilience.",
+      "counterinterpretation": "Using savings or cheaper substitutes can be a normal financial-planning response for households with capacity; the same strategy can become vulnerability when buffers are thin or essential quality is sacrificed.",
+      "source_url": "https://www.aarp.org/pri/topics/work-finances-retirement/financial-security-retirement/price-pressures-and-consumer-spending/",
+      "retrieval_hash": "sha256:de235f75810a5bb8c23fceaed475468c15a12fd6cde45826de1e662f21d1cb59",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.26419/res.01112.001", "claim": "AARP Research citation for the September 2026 study."},
+    {"source_url": "https://www.aarp.org/pri/topics/work-finances-retirement/financial-security-retirement/", "claim": "AARP financial-security research context for older-adult household resilience."}
+  ],
+  "boundary": "This record adds an age-specific U.S. consumer-pressure layer: older households are translating price perceptions into cutbacks, delayed purchases and buffer use, with differences by age and gender. It is a nationally representative cross-sectional survey of stated perceptions and intended behavior, not transaction data, a longitudinal household panel, a poverty estimate, a causal price study or evidence that respondents actually exhausted savings or took on credit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The AARP Research publication page was retrieved directly and reviewed for field dates, sample, weighting, price perceptions, cutbacks, subgroup comparisons, hypothetical income response and coping strategies; the retrieved HTML was hashed.",
+    "source_url_sha256": "sha256:de235f75810a5bb8c23fceaed475468c15a12fd6cde45826de1e662f21d1cb59",
+    "checked": "2026-09-27"
+  }
+}

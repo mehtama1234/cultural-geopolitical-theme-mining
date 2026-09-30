@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-social-cohesion-development-outcomes-2023-bonding-bridging-linking",
+  "title": "Social cohesion is becoming an operational development mechanism measured through bonding, bridging and linking relations rather than a single community score",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "housing_place_mobility"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 10417, Leveraging Social Cohesion for Development Outcomes",
+  "geography": "Global development and fragile, conflict and violence-affected contexts, with evidence and examples spanning multiple regions",
+  "observations": [
+    {
+      "period": "2023 working paper; social-cohesion measurement and development practice",
+      "denominator": {"value": 3, "unit": "relational dimensions of social cohesion defined by the paper", "value_type": "published_framework_denominator"},
+      "measures": {
+        "bonding": {"value": "relations connecting people within a community", "unit": "reported cohesion dimension", "value_type": "reported_definition"},
+        "bridging": {"value": "relations connecting members of distinct communities or groups", "unit": "reported cohesion dimension", "value_type": "reported_definition"},
+        "linking": {"value": "relations connecting people and communities to institutions or actors with power", "unit": "reported cohesion dimension", "value_type": "reported_definition"}
+      },
+      "method": "World Bank policy research paper that reviews definitions, measurement strategies and evidence on interventions intended to strengthen social cohesion.",
+      "uncertainty": "The framework separates relational dimensions but does not imply that one index can capture all forms of trust, cooperation, identity, power or conflict dynamics.",
+      "subgroup": "Individuals within communities, groups divided across identity or status lines, citizens, public institutions, local leaders, civil society and development actors.",
+      "counterinterpretation": "Bonding within a group can support mutual aid while reinforcing exclusion or hostility toward outsiders; bridging and linking relations can also be unequal or coercive.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099723304202334301/idu0053a35270965b0414f090ff0157bb9183a68",
+      "retrieval_hash": "sha256:ab338b4ec39194ac0c2b642a15fcc83e5911648faefe4283c59ffaa0d5fdd2d6",
+      "status": "reported"
+    },
+    {
+      "period": "2023 working paper; diagnosis and measurement strategy",
+      "denominator": {"value": 1, "unit": "social-cohesion diagnostic framework", "value_type": "published_framework"},
+      "measures": {
+        "diagnosis": {"value": "the three relational dimensions provide a framework for diagnosing gaps in cohesion", "unit": "reported analytical use", "value_type": "reported_framework"},
+        "tracking": {"value": "the paper recommends tracking trends separately across bonding, bridging and linking rather than assuming cohesion is one condition", "unit": "reported measurement implication", "value_type": "reported_recommendation"},
+        "investment": {"value": "the framework is intended to help prioritize interventions and development investments", "unit": "reported policy use", "value_type": "reported_framework"}
+      },
+      "method": "Conceptual and evidence review with recommendations for teams designing social-cohesion measurement strategies.",
+      "uncertainty": "Measurement choices remain context-dependent; the paper does not provide a globally harmonized time series or a single threshold for healthy cohesion.",
+      "subgroup": "Development teams, governments, researchers, civil-society organizations, community groups and populations affected by fragility or displacement.",
+      "counterinterpretation": "More detailed measurement can improve targeting but can also fragment the construct, over-quantify relationships or expose communities without delivering resources or remedy.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099723304202334301/idu0053a35270965b0414f090ff0157bb9183a68",
+      "retrieval_hash": "sha256:ab338b4ec39194ac0c2b642a15fcc83e5911648faefe4283c59ffaa0d5fdd2d6",
+      "status": "reported"
+    },
+    {
+      "period": "2023 working paper; intervention evidence",
+      "denominator": {"value": 1, "unit": "review of social-cohesion intervention evidence", "value_type": "published_review_frame"},
+      "measures": {
+        "within_group": {"value": "some interventions can reinforce cohesion within communities", "unit": "reported evidence pathway", "value_type": "reported_assessment"},
+        "across_group": {"value": "some interventions can build trust across groups", "unit": "reported evidence pathway", "value_type": "reported_assessment"},
+        "citizen_state": {"value": "some interventions can strengthen relations between citizens and the state", "unit": "reported evidence pathway", "value_type": "reported_assessment"}
+      },
+      "method": "Review of evidence on different intervention types intended to repair or reinforce social cohesion, including community, intergroup and citizen-state pathways.",
+      "uncertainty": "The paper emphasizes contradictory evidence and states that effectiveness depends on sound diagnosis and rigorous implementation; it is not a universal intervention ranking.",
+      "subgroup": "Residents of divided or fragile communities, public-service users, local organizations, state institutions and development-program participants.",
+      "counterinterpretation": "An intervention can improve one relational dimension while worsening another—for example, strengthening internal solidarity without improving cross-group trust or institutional accountability.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099723304202334301/idu0053a35270965b0414f090ff0157bb9183a68",
+      "retrieval_hash": "sha256:ab338b4ec39194ac0c2b642a15fcc83e5911648faefe4283c59ffaa0d5fdd2d6",
+      "status": "reported"
+    },
+    {
+      "period": "2023 working paper; development and fragility application",
+      "denominator": {"value": 1, "unit": "development-policy application frame", "value_type": "published_framework"},
+      "measures": {
+        "operational_route": {"value": "social cohesion is presented as a mechanism through which development projects can affect trust, cooperation, collective action and development outcomes", "unit": "reported development pathway", "value_type": "reported_framework"},
+        "implementation_condition": {"value": "intervention effectiveness is conditional on accurate diagnosis and rigorous implementation processes", "unit": "reported implementation condition", "value_type": "reported_assessment"},
+        "scope": {"value": "the framework is relevant to fragile communities and development projects but must be tailored to local context", "unit": "reported scope condition", "value_type": "reported_recommendation"}
+      },
+      "method": "Policy research synthesis connecting social-cohesion concepts and evidence to development operations and measurement practice.",
+      "uncertainty": "The working paper is not a project-level impact evaluation and does not show that applying the framework produces durable peace, service quality or poverty reduction.",
+      "subgroup": "Communities affected by fragility, conflict and violence, displaced and host populations, local governments, development practitioners and service-delivery institutions.",
+      "counterinterpretation": "Social-cohesion programming can complement material investment, but it cannot substitute for security, rights, public services, economic opportunity or accountable institutions.",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099723304202334301/idu0053a35270965b0414f090ff0157bb9183a68",
+      "retrieval_hash": "sha256:ab338b4ec39194ac0c2b642a15fcc83e5911648faefe4283c59ffaa0d5fdd2d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents1.worldbank.org/curated/en/099723304202334301/pdf/IDU0053a35270965b0414f090ff0157bb9183a68.pdf", "claim": "Official World Bank PDF for Policy Research Working Paper 10417, April 2023."},
+    {"source_url": "https://www.worldbank.org/ext/en/topic/social-development/social-cohesion-and-resilience", "claim": "World Bank social-cohesion and resilience program context linking social cohesion to fragility, conflict, displacement and development operations."}
+  ],
+  "boundary": "This record adds a social-cohesion measurement and intervention route linking bonding, bridging and linking relations to trust, identity, participation, citizen-state relations, development investment and conflict or fragility outcomes. It is a 2023 World Bank working-paper synthesis, not a current global prevalence estimate, respondent-level dataset, single intervention evaluation, U.S.-specific result or proof that social-cohesion programming produces durable peace or shared prosperity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank working-paper PDF and World Bank social-cohesion program page were reviewed for the bonding, bridging and linking framework, measurement recommendations, intervention evidence and context-dependent implementation limits.",
+    "source_url_sha256": "sha256:ab338b4ec39194ac0c2b642a15fcc83e5911648faefe4283c59ffaa0d5fdd2d6",
+    "checked": "2026-09-27"
+  }
+}

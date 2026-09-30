@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-anz-roy-morgan-australian-consumer-confidence-september-29-2026-financial-outlook",
+  "title": "Household financial pessimism can deepen even when purchase timing barely moves",
+  "theme_ids": ["cost", "time", "energy", "work"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "ANZ and Roy Morgan, Australian Consumer Confidence, 29 September 2026",
+  "geography": "Australia; weekly national consumer-confidence survey, with state-level movement reported",
+  "observations": [
+    {
+      "period": "Week to 27 September 2026; ANZ-Roy Morgan Australian Consumer Confidence",
+      "denominator": {"value": 1029, "unit": "interviews conducted online and by telephone during the survey week", "value_type": "reported_survey_sample"},
+      "measures": {
+        "confidence_index": {"value": 70.5, "unit": "consumer-confidence index points", "value_type": "reported_index"},
+        "weekly_change": {"value": -1.5, "unit": "index points from previous week", "value_type": "reported_change"},
+        "year_on_year": {"value": -15.8, "unit": "index points versus 22–28 September 2025", "value_type": "reported_change"},
+        "moving_average": {"value": 72.1, "unit": "four-week moving-average index points, down 1.1 points", "value_type": "reported_index"},
+        "mechanism": {"value": "A weak confidence headline can represent a near-term deterioration in perceived security rather than a complete collapse of every consumer decision channel", "unit": "bounded sentiment-to-choice mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ANZ-Roy Morgan weekly consumer-confidence survey using 1,029 online and telephone interviews; reported as an unseasonally adjusted index and four-week moving average.",
+      "uncertainty": "The release is a short-period self-report survey; index movement is not a direct measure of income, spending, debt, employment, prices paid or realized household welfare, and sampling, weighting and seasonal factors limit interpretation.",
+      "subgroup": "Australian households and consumers, with state-level changes reported for New South Wales, Western Australia, South Australia, Victoria and Queensland.",
+      "counterinterpretation": "A one-week fall may reflect temporary news, rate expectations, sampling variation or normal volatility; a confidence index can move without a corresponding change in actual purchases or financial capacity.",
+      "source_url": "https://roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2026/09/29003514/ANZ_Roy_Morgan_Australian_Consumer_Confidence_fall_ahead_of_RBA_decision.pdf",
+      "retrieval_hash": "sha256:8d6c208bfec8cf6c82bde69c3e202a21789c6bf6dc7a0663f5c23d93bd56f49b",
+      "status": "reported"
+    },
+    {
+      "period": "Week to 27 September 2026; personal-finance expectations and household purchasing stance",
+      "denominator": {"value": 1, "unit": "ANZ-Roy Morgan consumer-confidence survey response frame", "value_type": "reported_survey_frame"},
+      "measures": {
+        "better_off_now": {"value": 17, "unit": "percent saying their family is better off financially than a year ago, down 2 percentage points", "value_type": "reported_share"},
+        "worse_off_now": {"value": 50, "unit": "percent saying their family is worse off financially than a year ago", "value_type": "reported_share"},
+        "better_off_next_year": {"value": 20, "unit": "percent expecting their family to be better off financially in one year, down 4 percentage points", "value_type": "reported_share"},
+        "worse_off_next_year": {"value": 43, "unit": "percent expecting their family to be worse off financially in one year, up 2 percentage points", "value_type": "reported_share"},
+        "buying_intention": {"value": "16% said it was a good time to buy major household items, while 44% said it was a bad time", "unit": "reported purchase-timing shares", "value_type": "reported_share"},
+        "mechanism": {"value": "Household pessimism is concentrated in present and future financial room, while purchase timing remains a separate decision shaped by need, replacement cycles, prices and liquidity", "unit": "bounded household-room mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Cross-sectional weekly survey reporting self-assessed current and expected finances alongside a major-household-purchase timing question.",
+      "uncertainty": "The measures are stated perceptions and intentions, not observed financial accounts or transactions; no causal mechanism links expectations to purchase timing in this release.",
+      "subgroup": "Australian households making decisions about durable goods, replacement, postponement, savings and available liquidity under uncertain financial expectations.",
+      "counterinterpretation": "The purchase-timing gap may reflect durable-good need, discounts, household composition or prior savings rather than resilience; stated pessimism and actual buying can coexist.",
+      "source_url": "https://roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2026/09/29003514/ANZ_Roy_Morgan_Australian_Consumer_Confidence_fall_ahead_of_RBA_decision.pdf",
+      "retrieval_hash": "sha256:8d6c208bfec8cf6c82bde69c3e202a21789c6bf6dc7a0663f5c23d93bd56f49b",
+      "status": "reported"
+    },
+    {
+      "period": "Week to 27 September 2026; inflation expectations, financial conditions and state variation",
+      "denominator": {"value": 1, "unit": "ANZ-Roy Morgan weekly confidence index and state comparison", "value_type": "reported_survey_frame"},
+      "measures": {
+        "inflation_expectations": {"value": 5.7, "unit": "percent weekly inflation expectations, down 0.4 percentage points; four-week average 6.0%", "value_type": "reported_expectation"},
+        "current_financial_conditions": {"value": -2.0, "unit": "index-point weekly change", "value_type": "reported_change"},
+        "future_financial_conditions": {"value": -5.1, "unit": "index-point weekly change", "value_type": "reported_change"},
+        "state_pattern": {"value": "confidence decreased in New South Wales, Western Australia and South Australia, while Victoria and Queensland recorded small increases", "unit": "reported state pattern", "value_type": "reported_subnational_pattern"},
+        "mechanism": {"value": "Consumer sentiment is geographically uneven and can combine falling financial confidence with easing short-term inflation expectations, making a single national mood an incomplete cultural signal", "unit": "bounded place-and-expectation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weekly national confidence release with index subcomponents, inflation expectations and descriptive state-level comparisons.",
+      "uncertainty": "The release does not identify why state patterns differ or establish that monetary policy, petrol prices, wages, housing, employment or local conditions caused the movements; the economist commentary is interpretation, not survey identification.",
+      "subgroup": "Households in different Australian states, renters and owners, workers and non-workers, and consumers exposed to fuel, interest-rate and cost-of-living expectations.",
+      "counterinterpretation": "State differences may reflect sample composition or short-term noise; lower inflation expectations can coexist with high realized prices and continued household stress.",
+      "source_url": "https://roymorgan-cms-prod.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2026/09/29003514/ANZ_Roy_Morgan_Australian_Consumer_Confidence_fall_ahead_of_RBA_decision.pdf",
+      "retrieval_hash": "sha256:8d6c208bfec8cf6c82bde69c3e202a21789c6bf6dc7a0663f5c23d93bd56f49b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.roymorgan.com/findings/10075-anz-roy-morgan-consumer-confidence-september-29", "claim": "Roy Morgan publication page with release date, headline finding, state comparison, survey links and PDF download."},
+    {"source_url": "https://www.roymorgan.com/findings/consumer-confidence", "claim": "Roy Morgan consumer-confidence series context and related releases."}
+  ],
+  "boundary": "This record identifies a weekly consumer-sentiment, household-room and purchase-timing subtheme. It does not establish changes in income, expenditure, debt, employment, inflation, interest rates, household welfare, political attribution or consumer behavior; those require linked panel, transaction, price, labor-market and household-budget episodes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ANZ-Roy Morgan 9-page PDF and Roy Morgan release page were reviewed for the 29 September 2026 index, sample, weekly and year-on-year changes, financial-condition subindices, inflation expectations, purchase timing, state pattern and survey limitations.",
+    "source_url_sha256": "sha256:8d6c208bfec8cf6c82bde69c3e202a21789c6bf6dc7a0663f5c23d93bd56f49b",
+    "checked": "2026-09-29"
+  }
+}

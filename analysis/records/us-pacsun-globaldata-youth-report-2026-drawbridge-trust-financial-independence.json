@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pacsun-globaldata-youth-report-2026-drawbridge-trust-financial-independence",
+  "title": "Young people are drawing a trust boundary around family and friends while adopting AI and losing financial independence",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pacsun and GlobalData, 2026 Youth Report / Drawbridge Generation",
+  "geography": "United States; Gen Z and Gen Alpha respondents ages 11-24",
+  "observations": [
+    {
+      "period": "June 2026; trust and influence in a noisy public environment",
+      "denominator": {"value": 6126, "unit": "U.S. respondents ages 11-24, reported representative by age, gender, region, and household income", "value_type": "reported_survey_sample"},
+      "measures": {
+        "family_friend_trust": {"value": "Family and friends dominate reported trust across financial advice and purchase decisions.", "unit": "reported trust ranking", "value_type": "reported_mechanism"},
+        "influencer_trust_ceiling": {"value": 11, "unit": "maximum share of trust reported for influencers in any tested category", "value_type": "published_survey_estimate"},
+        "drawbridge_route": {"value": "Young people are described as controlling what crosses from a noisy public world into a smaller trusted circle.", "unit": "publisher-defined cultural mechanism", "value_type": "reported_mechanism"},
+        "unfiltered_connection": {"value": "Family, friends, and unfiltered personal connection are positioned as counterweights to algorithms, news cycles, and perceived inauthenticity.", "unit": "reported qualitative synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Pacsun/GlobalData annual youth survey conducted in June 2026; the publisher reports representation by age, gender, region, and household income, but the public release does not provide the full questionnaire or weighting protocol.",
+      "uncertainty": "Trust rankings are self-reported and category-specific; the commercial sponsor's label and framing may influence interpretation. They do not measure actual advice quality, exposure, or purchase conversion.",
+      "subgroup": "Gen Z and Gen Alpha respondents ages 11-24 in the United States.",
+      "counterinterpretation": "Retreat toward personal trust may reflect ordinary developmental and network formation patterns as well as distrust of public information systems.",
+      "source_url": "https://www.prnewswire.com/news-releases/meet-the-drawbridge-generation-pacsuns-second-annual-youth-report-302874422.html",
+      "retrieval_hash": "sha256:2a4ed455b20070b5ec00d501d9a3acff727e471be26639a94050ca631b008d3c",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026 comparison; financial independence and parental reliance",
+      "denominator": {"value": 6126, "unit": "U.S. respondents ages 11-24 in the 2026 survey; historical comparison reported by the publisher", "value_type": "reported_survey_sample"},
+      "measures": {
+        "financial_independence_2026": {"value": 34.9, "unit": "percent describing themselves as financially independent in 2026", "value_type": "published_survey_estimate"},
+        "financial_independence_2025": {"value": 41.3, "unit": "percent in the publisher's 2025 comparison", "value_type": "published_comparison_estimate"},
+        "full_parental_reliance_2026": {"value": 29.1, "unit": "percent reporting full reliance on parents in 2026", "value_type": "published_survey_estimate"},
+        "full_parental_reliance_2025": {"value": 23.8, "unit": "percent in the publisher's 2025 comparison", "value_type": "published_comparison_estimate"},
+        "independence_route": {"value": "Youth identity and aspiration are being negotiated against a weaker material transition into independence.", "unit": "analytical synthesis from year-over-year comparison", "value_type": "reported_mechanism"}
+      },
+      "method": "Annual repeated survey comparison reported by Pacsun/GlobalData; the public release does not document panel status, exact question wording, or harmonization details.",
+      "uncertainty": "The year-over-year difference is not a same-person panel estimate and may reflect sample, context, wording, or economic-composition changes. It does not identify causes of parental reliance.",
+      "subgroup": "U.S. respondents ages 11-24; no complete age-by-age or household-resource table is provided in the release.",
+      "counterinterpretation": "Greater parental support can reflect intergenerational connection or strategic household pooling rather than only lost autonomy or worsening welfare.",
+      "source_url": "https://www.prnewswire.com/news-releases/meet-the-drawbridge-generation-pacsuns-second-annual-youth-report-302874422.html",
+      "retrieval_hash": "sha256:2a4ed455b20070b5ec00d501d9a3acff727e471be26639a94050ca631b008d3c",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; AI adoption, shopping discovery, and advice credibility",
+      "denominator": {"value": 6126, "unit": "U.S. respondents ages 11-24", "value_type": "reported_survey_sample"},
+      "measures": {
+        "ai_use": {"value": 85, "unit": "percent reporting AI use in the past year", "value_type": "published_survey_estimate"},
+        "ai_shopping_openness": {"value": 74, "unit": "percent open to using AI for shopping discovery", "value_type": "published_survey_estimate"},
+        "ai_financial_advice_trust": {"value": 5, "unit": "percent trusting AI for financial advice", "value_type": "published_survey_estimate"},
+        "ai_relationship_advice_trust": {"value": 4, "unit": "percent trusting AI for relationship advice", "value_type": "published_survey_estimate"},
+        "ai_fashion_advice_trust": {"value": 2, "unit": "percent trusting AI for fashion advice", "value_type": "published_survey_estimate"},
+        "adoption_credibility_gap": {"value": "Young people may use AI as a discovery or utility layer without granting it authority over identity, money, or intimate decisions.", "unit": "analytical synthesis from reported estimates", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional survey estimates from the 2026 Pacsun/GlobalData Youth Report.",
+      "uncertainty": "The release does not distinguish types, frequency, or quality of AI use, nor whether trust means accuracy, intimacy, authority, or willingness to act.",
+      "subgroup": "Gen Z and Gen Alpha respondents ages 11-24 in the United States.",
+      "counterinterpretation": "Low trust in advice may be appropriate domain skepticism rather than rejection of AI; shopping discovery is a lower-stakes use than financial or relationship decisions.",
+      "source_url": "https://www.prnewswire.com/news-releases/meet-the-drawbridge-generation-pacsuns-second-annual-youth-report-302874422.html",
+      "retrieval_hash": "sha256:2a4ed455b20070b5ec00d501d9a3acff727e471be26639a94050ca631b008d3c",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; evolving American Dream and wellbeing priorities",
+      "denominator": {"value": 6126, "unit": "U.S. respondents ages 11-24", "value_type": "reported_survey_sample"},
+      "measures": {
+        "stable_job_goal": {"value": 62, "unit": "percent listing a stable job among top goals by age 35", "value_type": "published_survey_estimate"},
+        "car_goal": {"value": 60, "unit": "percent listing a car among top goals by age 35", "value_type": "published_survey_estimate"},
+        "home_goal": {"value": 59, "unit": "percent listing a home among top goals by age 35", "value_type": "published_survey_estimate"},
+        "mental_health_goal": {"value": 59, "unit": "percent listing being mentally healthy among top goals by age 35", "value_type": "published_survey_estimate"},
+        "goal_recomposition": {"value": "Material stability and mental health sit together in the youth definition of a successful future.", "unit": "reported priority synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Descriptive goal-priority estimates from the 2026 Youth Report.",
+      "uncertainty": "Stated goals are not achieved outcomes, and the release does not report how priorities vary by age, income, race, gender, or family support.",
+      "subgroup": "U.S. respondents ages 11-24.",
+      "counterinterpretation": "Near-equal ranking may indicate broad aspiration convergence rather than a trade-off between mental health and material stability.",
+      "source_url": "https://www.prnewswire.com/news-releases/meet-the-drawbridge-generation-pacsuns-second-annual-youth-report-302874422.html",
+      "retrieval_hash": "sha256:2a4ed455b20070b5ec00d501d9a3acff727e471be26639a94050ca631b008d3c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pacsun.com/youth-report/",
+      "claim": "Pacsun's official Youth Report page frames the 2026 report as a study of Gen Z and Gen Alpha identity, discovery, money, mental health, and trusted influence.",
+      "status": "official-report-landing-page"
+    },
+    {
+      "source_url": "https://www.prnewswire.com/news-releases/meet-the-drawbridge-generation-pacsuns-second-annual-youth-report-302874422.html",
+      "claim": "Pacsun's distributed release reports the sample, fieldwork timing, trust, financial independence, AI, and life-goal findings.",
+      "status": "publisher-distributed-release"
+    }
+  ],
+  "boundary": "This record adds a youth-cultural route from noisy public information and AI adoption through trust concentration, material dependence, mental-health priorities, and selective delegation. It does not establish causes of financial dependence, clinical mental-health prevalence, actual AI advice quality, or general U.S. youth behavior outside the reported survey frame.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The publisher-distributed Pacsun/GlobalData 2026 Youth Report release and official Pacsun report landing page were reviewed for sample, fieldwork, trust, financial independence, AI use and credibility, and future-goal findings.",
+    "source_page_sha256": "sha256:2a4ed455b20070b5ec00d501d9a3acff727e471be26639a94050ca631b008d3c",
+    "checked": "2026-09-28"
+  }
+}

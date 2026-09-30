@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-michigan-surveys-consumers-september-2026-sentiment-inflation-purchases",
+  "title": "September consumer sentiment weakened through personal-finance anxiety, higher inflation expectations, and shock-sensitive purchase timing",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "University of Michigan Surveys of Consumers, Final Results for September 2026",
+  "geography": "United States; monthly national consumer sentiment release",
+  "observations": [
+    {
+      "period": "September 2026 compared with August and September 2025",
+      "denominator": {"value": null, "unit": "U.S. Surveys of Consumers respondents; release page does not state the current month sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "consumer_sentiment": {"value": 48.1, "unit": "Index of Consumer Sentiment", "value_type": "published_index"},
+        "current_economic_conditions": {"value": 50.9, "unit": "Index of Current Economic Conditions", "value_type": "published_index"},
+        "consumer_expectations": {"value": 46.3, "unit": "Index of Consumer Expectations", "value_type": "published_index"},
+        "sentiment_month_change": {"value": -7.0, "unit": "percent month-to-month change in consumer sentiment", "value_type": "published_change"},
+        "sentiment_year_change": {"value": -12.7, "unit": "percent year-to-year change in consumer sentiment", "value_type": "published_change"},
+        "expectation_weakness": {"value": "The expectations index fell more sharply than current conditions, indicating a future-oriented deterioration in consumer outlook", "unit": "reported index pattern", "value_type": "reported_pattern"}
+      },
+      "method": "University of Michigan monthly Surveys of Consumers final September 2026 release, reporting index levels and month/year changes; sample and weighting details are not present on the accessible summary page.",
+      "uncertainty": "Indexes are population-level sentiment measures, not observed spending or realized household finances; the summary does not establish causal effects of fuel prices, trade disputes, or conflict exposure.",
+      "subgroup": "U.S. consumers overall, with political subgroup changes reported separately in the release.",
+      "counterinterpretation": "Low sentiment can coexist with continued consumption, adaptation, or improving conditions for particular households; index movement does not identify which consumers bear the decline.",
+      "source_url": "https://www.sca.isr.umich.edu/?os=v",
+      "retrieval_hash": "sha256:383cc41e46fee33086716e5b33e717f3563a53cb7c58e43c5f3449d403ce1fc0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; household finances and inflation expectations",
+      "denominator": {"value": null, "unit": "U.S. Surveys of Consumers respondents; current month sample size not disclosed on summary page", "value_type": "not_disclosed"},
+      "measures": {
+        "personal_finance_views": {"value": "Views of current and year-ahead expected personal finances both weakened by about 10% during September", "unit": "reported month-to-month survey movement", "value_type": "published_pattern"},
+        "year_ahead_inflation_expectation": {"value": 4.6, "unit": "percent expected inflation one year ahead", "value_type": "published_expectation"},
+        "prior_month_inflation_expectation": {"value": 4.0, "unit": "percent expected inflation one year ahead in August 2026", "value_type": "published_expectation"},
+        "long_run_inflation_expectation": {"value": 3.4, "unit": "percent long-run inflation expectation", "value_type": "published_expectation"},
+        "price_pressure_meaning": {"value": "Consumers are interpreting elevated prices as a continuing household-finance risk rather than a completed shock", "unit": "reported interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Monthly consumer survey release reporting expectations and personal-finance views; the measure is perception/expectation, not realized inflation or income change.",
+      "uncertainty": "The release does not establish whether expectations are anchored by observed prices, media, fuel costs, conflict, trade policy, or partisan information environments.",
+      "subgroup": "U.S. consumers overall; distribution by income, age, race, region, and household type is not given on the accessible summary page.",
+      "counterinterpretation": "Higher expected inflation can produce precautionary timing or substitution without broad consumption collapse; expectations may reverse quickly if price or geopolitical news changes.",
+      "source_url": "https://www.sca.isr.umich.edu/?os=v",
+      "retrieval_hash": "sha256:383cc41e46fee33086716e5b33e717f3563a53cb7c58e43c5f3449d403ce1fc0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; durable-goods purchase timing",
+      "denominator": {"value": null, "unit": "U.S. Surveys of Consumers respondents; current month sample size not disclosed on summary page", "value_type": "not_disclosed"},
+      "measures": {
+        "durable_buying_conditions": {"value": "Buying conditions for durables improved somewhat", "unit": "reported survey movement", "value_type": "published_pattern"},
+        "avoid_future_price_increase": {"value": "Some consumers viewed completing durable purchases now as a way to avoid higher future prices", "unit": "reported purchase-timing mechanism", "value_type": "reported_mechanism"},
+        "consumption_under_pressure": {"value": "Affordability pressure can shift the timing and rationale of consumption even while overall sentiment deteriorates", "unit": "reported contrast", "value_type": "reported_mechanism"}
+      },
+      "method": "University of Michigan survey release comparison of buying conditions and respondents' stated rationale for durable purchases.",
+      "uncertainty": "The release does not provide transaction records, product categories, credit use, or evidence that intended purchases occurred; the timing response may be concentrated among households with liquidity.",
+      "subgroup": "U.S. consumers considering durable-goods purchases, with unequal ability to accelerate purchases or absorb future price increases.",
+      "counterinterpretation": "Improved buying conditions may reflect discounting or temporary promotions rather than confidence, and pulling purchases forward can increase financial strain later.",
+      "source_url": "https://www.sca.isr.umich.edu/?os=v",
+      "retrieval_hash": "sha256:383cc41e46fee33086716e5b33e717f3563a53cb7c58e43c5f3449d403ce1fc0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; economic shocks and partisan convergence",
+      "denominator": {"value": null, "unit": "U.S. Surveys of Consumers respondents; political subgroup sample sizes not disclosed on summary page", "value_type": "not_disclosed"},
+      "measures": {
+        "business_outlook": {"value": "The short-run outlook for business conditions plunged amid renewed worries about fuel prices and re-escalating trade disputes", "unit": "reported survey movement", "value_type": "published_pattern"},
+        "republican_sentiment_since_january": {"value": -20, "unit": "percent change in Republican sentiment from January 2026", "value_type": "published_change"},
+        "democratic_sentiment_since_january": {"value": -13, "unit": "percent change in Democratic sentiment from January 2026", "value_type": "published_change"},
+        "cross_partisan_weakening": {"value": "The release reports broad agreement across political groups that the economic outlook has weakened since the beginning of the year", "unit": "reported political comparison", "value_type": "reported_pattern"},
+        "geopolitical_to_household_route": {"value": "Fuel prices and trade disputes are interpreted as routes through which geopolitical and policy shocks reach household expectations", "unit": "reported mechanism; not causal estimate", "value_type": "reported_mechanism"}
+      },
+      "method": "Monthly survey summary with political subgroup comparisons and reported interpretation of fuel and trade concerns.",
+      "uncertainty": "The release does not separate direct price exposure, partisan media, income, geography, or policy effects; subgroup changes are descriptive and not a causal decomposition.",
+      "subgroup": "U.S. consumers by reported political affiliation, with the release emphasizing Republican and Democratic sentiment changes.",
+      "counterinterpretation": "Cross-partisan sentiment decline may reflect a shared shock, common information environment, or survey-mode dynamics rather than durable political convergence on economic policy.",
+      "source_url": "https://www.sca.isr.umich.edu/?os=v",
+      "retrieval_hash": "sha256:383cc41e46fee33086716e5b33e717f3563a53cb7c58e43c5f3449d403ce1fc0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.sca.isr.umich.edu/", "claim": "University of Michigan data site for Surveys of Consumers materials.", "status": "official-data-context"}
+  ],
+  "boundary": "This record adds a current consumer-expectations layer linking sentiment, household-finance perceptions, inflation expectations, durable-purchase timing, fuel/trade shock salience, and partisan movement. It does not establish realized spending, causal household burden, actual inflation, a representative subgroup estimate from the summary page, or durable political realignment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official University of Michigan Surveys of Consumers September 2026 final-results page reviewed for index levels, month/year changes, personal-finance movement, inflation expectations, durable-purchase timing, fuel/trade concerns, and political subgroup changes.",
+    "source_page_sha256": "sha256:383cc41e46fee33086716e5b33e717f3563a53cb7c58e43c5f3449d403ce1fc0",
+    "checked": "2026-09-28"
+  }
+}

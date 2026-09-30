@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-british-academy-youth-social-cultural-infrastructure-2025",
+  "title": "Young people experience social and cultural infrastructure as an access-and-activation system, not simply a stock of available places",
+  "theme_ids": ["time", "cost", "voice", "energy"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "platforms_data_attention"
+  ],
+  "source_unit": "British Academy / London Development Trust, Investigating Young People's Views and Experiences of Social and Cultural Infrastructure in England, Scotland and Wales",
+  "geography": "England, Scotland, and Wales; national phase across seven sites plus an initial London phase",
+  "observations": [
+    {
+      "period": "2024-2025 research; access barriers across seven national sites",
+      "denominator": {"value": 107, "unit": "young people participating in national-phase focus groups across seven UK locations; initial London phase is additional", "value_type": "qualitative_participant_count"},
+      "measures": {
+        "safety_barrier": {"value": "Safety and security were the most consistent concerns, limiting access to public, transport, neighbourhood, and cultural spaces", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "transport_barrier": {"value": "Irregular or costly transport made activities inaccessible, with stronger isolation concerns in rural or low-income areas", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "affordability_barrier": {"value": "Rising prices limited access to valued music venues, gyms, cinemas, museums, and other cultural infrastructure", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "access_conversion": {"value": "The relevant outcome is usable access, not the formal existence of a venue or service", "unit": "reported analytical interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Co-creative focus-group research using a card-deck method, with national-phase participants across Brora, Kirkcaldy, Hull, Leeds, Banbury, Brighton, and Swansea; findings are qualitative and not population prevalence estimates.",
+      "uncertainty": "The participant pool is purposive and not representative of all young people; reported barriers may vary by site, age, identity, local provision, and recruitment pathway.",
+      "subgroup": "Young people aged 12-20 in the London phase and young people participating in the seven-site national phase, with regional, age, identity, and intersectional differences explored qualitatively.",
+      "counterinterpretation": "Low access may reflect preferences, school or family schedules, or awareness rather than only infrastructure failure; the research does not measure actual travel logs, attendance, or causal effects of price and safety interventions.",
+      "source_url": "https://www.thebritishacademy.ac.uk/publications/investigating-young-peoples-views-and-experiences-of-social-and-cultural-infrastructure-in-england-scotland-and-wales/",
+      "retrieval_hash": "sha256:9f40eecf7b1a4e0fb041415a280ff4a2b8a3748e86c10b48745049b5859287a5",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 research; infrastructure activation and relational support",
+      "denominator": {"value": 107, "unit": "national-phase focus-group participants; qualitative evidence", "value_type": "qualitative_participant_count"},
+      "measures": {
+        "activation": {"value": "How a space is made welcoming, safe, affordable, and usable can matter as much as what physical infrastructure exists", "unit": "reported qualitative mechanism", "value_type": "reported_mechanism"},
+        "pivotal_people": {"value": "Teachers, sports coaches, corner-shop staff, youth workers, and other people can act as infrastructure by enabling comfort, access, and social capital", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "reported_benefit": {"value": "When young people access social and cultural infrastructure, they report benefits for wellbeing, social connection, and civic engagement", "unit": "reported qualitative outcome", "value_type": "reported_outcome"},
+        "ecosystem_view": {"value": "Spaces, services, relationships, transport, safety, and support operate as an everyday ecosystem rather than isolated assets", "unit": "reported analytical framework", "value_type": "reported_mechanism"}
+      },
+      "method": "Qualitative focus groups and creative card-deck activities designed to surface both material places and relational conditions of access.",
+      "uncertainty": "Benefits are self-reported and not measured with pre/post instruments; the study does not estimate which activation intervention produces which outcome.",
+      "subgroup": "Young people with varied access to family support, trusted adults, transport, local businesses, community networks, and formal institutions.",
+      "counterinterpretation": "Relational support can compensate for weak physical provision but may also shift responsibility onto unpaid or underfunded people; reported civic benefits do not prove durable participation.",
+      "source_url": "https://www.thebritishacademy.ac.uk/documents/5983/LDT_Investigating_Young_Peoples_Social_and_Cultural_Infrastructure_Final_Repor_BJOgMEe.pdf",
+      "retrieval_hash": "sha256:9f40eecf7b1a4e0fb041415a280ff4a2b8a3748e86c10b48745049b5859287a5",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 research; place and identity condition access",
+      "denominator": {"value": 107, "unit": "national-phase focus-group participants; qualitative evidence", "value_type": "qualitative_participant_count"},
+      "measures": {
+        "hyperlocal_worlds": {"value": "Many young people, especially in the London phase, rarely leave their local areas, making local closures and access conditions more consequential", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "rural_urban_difference": {"value": "Rural participants accepted longer travel for some services, while urban participants more often sought amenities closer to home; isolation and transport constraints were more pronounced in rural settings", "unit": "reported comparative pattern", "value_type": "reported_pattern"},
+        "identity_access": {"value": "Access experiences vary by race, gender, sexuality, disability, neurodivergence, wealth, and cultural capital, including the ability to travel beyond the local area", "unit": "reported intersectional pattern", "value_type": "reported_mechanism"},
+        "aspirational_infrastructure": {"value": "Young people value places that support future aspirations even when they do not use them day to day", "unit": "reported qualitative pattern", "value_type": "reported_meaning"}
+      },
+      "method": "Cross-site qualitative comparison with analysis by place, age, identity, and intersectional experience.",
+      "uncertainty": "The report identifies differences and mechanisms but does not provide representative subgroup estimates or quantify the causal contribution of place versus household resources, discrimination, or cultural capital.",
+      "subgroup": "Young people in rural, small-town, suburban, and urban settings, with differing identity, mobility, wealth, and support profiles.",
+      "counterinterpretation": "Aspirational places can matter symbolically without being accessible, and hyperlocality may reflect preference or age-specific autonomy as well as transport or safety constraint.",
+      "source_url": "https://www.thebritishacademy.ac.uk/documents/5983/LDT_Investigating_Young_Peoples_Social_and_Cultural_Infrastructure_Final_Repor_BJOgMEe.pdf",
+      "retrieval_hash": "sha256:9f40eecf7b1a4e0fb041415a280ff4a2b8a3748e86c10b48745049b5859287a5",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 research; co-creation and feedback loops",
+      "denominator": {"value": 107, "unit": "national-phase focus-group participants, with young researchers involved in analysis and outputs", "value_type": "qualitative_participant_count"},
+      "measures": {
+        "exclusion_from_design": {"value": "Young people reported exclusion from the design and delivery of social and cultural infrastructure despite depending on it for wellbeing and future outcomes", "unit": "reported qualitative pattern", "value_type": "reported_mechanism"},
+        "feedback_loop": {"value": "Meaningful engagement requires visible outcomes and feedback loops beyond consultation", "unit": "reported policy condition", "value_type": "reported_condition"},
+        "card_deck_civic_skill": {"value": "The card-deck method helped young people practice decision-making and could support policy co-design", "unit": "reported methodological finding", "value_type": "reported_method"},
+        "trust_and_aspiration": {"value": "Supportive educators and youth networks were associated in the qualitative accounts with more engagement and hope, while some participants expressed deep institutional distrust", "unit": "reported qualitative contrast", "value_type": "reported_pattern"}
+      },
+      "method": "Participatory research involving young researchers in direction, interpretation, and output development; the study is independent and does not claim to represent British Academy policy.",
+      "uncertainty": "The research does not establish that the co-creative method changes policy decisions, trust, or infrastructure outcomes; institutional distrust is reported qualitatively rather than measured as a population rate.",
+      "subgroup": "Young participants and young researchers engaging with local authorities, youth organizations, educators, cultural institutions, and community networks.",
+      "counterinterpretation": "Co-creation can improve voice and insight without transferring decision rights, budgets, or accountability; visible feedback may still be symbolic if material constraints remain.",
+      "source_url": "https://www.thebritishacademy.ac.uk/documents/5983/LDT_Investigating_Young_Peoples_Social_and_Cultural_Infrastructure_Final_Repor_BJOgMEe.pdf",
+      "retrieval_hash": "sha256:9f40eecf7b1a4e0fb041415a280ff4a2b8a3748e86c10b48745049b5859287a5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.thebritishacademy.ac.uk/publications/investigating-young-peoples-social-and-cultural-infrastructure/", "claim": "British Academy publication page and project overview.", "status": "official-publication-page"},
+    {"source_url": "https://www.thebritishacademy.ac.uk/documents/5983/LDT_Investigating_Young_Peoples_Social_and_Cultural_Infrastructure_Final_Repor_BJOgMEe.pdf", "claim": "Full independent London Development Trust report commissioned and funded as part of the British Academy social and cultural infrastructure programme.", "status": "official-report"}
+  ],
+  "boundary": "This record adds a youth social-infrastructure layer: safety, affordability, transport, relational support, identity, cultural access, and co-creation jointly determine whether nominally available places become usable sources of wellbeing, belonging, and civic capacity. It is purposive qualitative focus-group evidence, not a representative prevalence estimate, causal evaluation, attendance dataset, or proof that consultation transfers decision power.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official British Academy page and full PDF reviewed for the 107-person national phase, London phase, co-creative card-deck method, access barriers, benefits, place and identity variation, and policy implications.",
+    "source_page_sha256": "sha256:9f40eecf7b1a4e0fb041415a280ff4a2b8a3748e86c10b48745049b5859287a5",
+    "checked": "2026-09-28"
+  }
+}

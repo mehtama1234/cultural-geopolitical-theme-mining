@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-ai-workplace-manager-buffer-displacement-2026",
+  "title": "AI exposure can intensify displacement fear unless management makes worker value and transition visible",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup Workplace, Using AI More Does Not Reassure Workers, Managers Do, September 9, 2026",
+  "geography": "United States; employed adults aged 18 and older in Gallup Panel workforce studies",
+  "observations": [
+    {
+      "period": "2023 through Q1 2026; pooled workforce-panel observations",
+      "denominator": {"value": 30000, "unit": "nearly 30,000 unique worker observations across four Gallup Panel workforce-study waves; approximately 30% observed in two or more waves", "value_type": "reported_panel_observation_count"},
+      "measures": {
+        "frequent_user_displacement_pattern": {"value": "Workers using AI daily or multiple times a week report more than twice the acute displacement concern of workers using AI a few times a month or year in most survey waves.", "unit": "reported longitudinal association", "value_type": "published_association"},
+        "all_worker_somewhat_or_very_likely": {"value": 19, "unit": "percent saying their job is somewhat or very likely to be eliminated by AI as of Q1 2026", "value_type": "published_survey_estimate"},
+        "acute_concern_pattern": {"value": "Across most waves, roughly 3%-4% report that job elimination within five years due to new technology, automation or AI is very likely, with materially higher rates among frequent AI users.", "unit": "reported subgroup pattern", "value_type": "published_association"}
+      },
+      "method": "Gallup pooled analysis of four nationally representative Gallup Panel workforce-study waves from 2023 through the first quarter of 2026; employed adults aged 18 and older, weighted to the U.S. adult population.",
+      "uncertainty": "The study is observational even where it follows the same workers; frequent AI use may reflect occupation, task exposure, organizational change or worker selection, and the article does not present a randomized exposure design.",
+      "subgroup": "Frequent AI users versus workers using AI only a few times a month or year; comparisons account for broad occupation, industry and demographic differences.",
+      "counterinterpretation": "Frequent users may perceive real task substitution earlier because they are closer to the technology, not because use itself causes anxiety; nonusers may be less informed about their exposure.",
+      "source_url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx",
+      "retrieval_hash": "source_page:sha256:5190031e699270abecaf7904b1068a21702ed8d0bb8893b7157c1e9b53c24a50",
+      "status": "reported"
+    },
+    {
+      "period": "2023 through Q1 2026; management support as a buffer",
+      "denominator": {"value": 30000, "unit": "nearly 30,000 unique worker observations in the pooled panel analysis", "value_type": "reported_panel_observation_count"},
+      "measures": {
+        "respect_buffer": {"value": 6.8, "unit": "percentage-point smaller association between frequent AI use and displacement fear among workers giving the highest respect rating versus lower ratings", "value_type": "reported_difference"},
+        "wellbeing_care_buffer": {"value": 11.1, "unit": "percentage-point smaller association among workers who feel their organization cares about their wellbeing", "value_type": "reported_difference"},
+        "management_mechanism": {"value": "Manager communication about the purpose of AI, worker value, changing skills and evaluation appears to moderate how workers interpret the same technology exposure.", "unit": "analytical synthesis grounded in reported associations", "value_type": "analytical_synthesis"}
+      },
+      "method": "Gallup comparison of AI-use and displacement-fear associations by organizational respect and perceived care for employee wellbeing, including within-worker tracking and controls for time trends across industry and occupation.",
+      "uncertainty": "The reported buffers are associations and do not identify which management intervention caused the difference; respect and care may be correlated with job quality, leadership, security, resources and selection into workplaces.",
+      "subgroup": "Frequent AI users exposed to stronger versus weaker reported management support.",
+      "counterinterpretation": "Supportive management may reduce fear by improving information and voice, or it may simply identify organizations that are less likely to eliminate jobs and better able to absorb technology.",
+      "source_url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx",
+      "retrieval_hash": "source_page:sha256:5190031e699270abecaf7904b1068a21702ed8d0bb8893b7157c1e9b53c24a50",
+      "status": "reported"
+    },
+    {
+      "period": "2023 through Q1 2026; displacement fear and worker outcomes",
+      "denominator": {"value": 30000, "unit": "nearly 30,000 unique worker observations in the pooled panel analysis", "value_type": "reported_panel_observation_count"},
+      "measures": {
+        "engagement_change": {"value": -0.20, "unit": "standard deviations in employee engagement when the same worker reported displacement concern versus no such concern", "value_type": "reported_within_worker_difference"},
+        "burnout_change": {"value": 0.18, "unit": "standard deviations higher burnout in the within-worker comparison", "value_type": "reported_within_worker_difference"},
+        "job_satisfaction_change": {"value": -0.19, "unit": "standard deviations lower job satisfaction in the within-worker comparison", "value_type": "reported_within_worker_difference"},
+        "active_job_search_change": {"value": 4.1, "unit": "percentage-point greater likelihood of actively looking for another job", "value_type": "reported_within_worker_difference"}
+      },
+      "method": "Within-worker longitudinal comparisons from repeated Gallup Panel workforce studies, with adjustment for stable worker differences including personality, baseline optimism and job type.",
+      "uncertainty": "The reported within-worker associations reduce some time-invariant confounding but do not prove that displacement fear caused the outcomes; changing workplace conditions, health, management or broader economic shocks may move together.",
+      "subgroup": "Workers reporting at least some likelihood of AI-related job elimination versus the same workers reporting no such concern.",
+      "counterinterpretation": "Engagement, burnout, satisfaction and job-search activity may also change how workers answer questions about job risk, creating reciprocal or common-cause relationships.",
+      "source_url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx",
+      "retrieval_hash": "source_page:sha256:5190031e699270abecaf7904b1068a21702ed8d0bb8893b7157c1e9b53c24a50",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a worker-level implementation mechanism to the AI transition theme: the same AI exposure can be interpreted as threat or manageable change depending partly on respect, wellbeing support, communication and perceived worker value. The source is observational panel analysis; it does not establish causal effects of AI use or management, actual job elimination, productivity, wages, retention or successful transition."
+}

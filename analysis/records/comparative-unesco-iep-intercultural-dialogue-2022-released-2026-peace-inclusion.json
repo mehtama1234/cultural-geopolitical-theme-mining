@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-iep-intercultural-dialogue-2022-released-2026-peace-inclusion",
+  "title": "Intercultural dialogue is being treated as measurable social infrastructure connecting inclusion, conflict prevention, human rights and peace",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UNESCO and Institute for Economics and Peace, We Need to Talk: Measuring Intercultural Dialogue for Peace and Inclusion; UNESCO public release dated March 2026",
+  "geography": "More than 160 countries across all regions, using comparative data, regional trend analysis and case studies",
+  "observations": [
+    {
+      "period": "2022 report; UNESCO public release 10 March 2026",
+      "denominator": {"value": 160, "unit": "countries covered by the report's comparative global analysis", "value_type": "published_country_frame_lower_bound"},
+      "measures": {
+        "evidence_scope": {"value": "the report combines comparative data, regional trend analysis and in-depth case studies across more than 160 countries", "unit": "reported evidence design", "value_type": "reported_method"},
+        "dialogue_link": {"value": "intercultural dialogue is presented as measurably linked with peace, conflict prevention, non-fragility and human rights", "unit": "reported comparative relationship", "value_type": "reported_assessment"},
+        "policy_shift": {"value": "dialogue is framed as a concrete policy instrument rather than only an abstract cultural aspiration", "unit": "reported policy interpretation", "value_type": "reported_framework"}
+      },
+      "method": "Comparative global analysis developed by UNESCO and the Institute for Economics and Peace, with regional trends and case studies; the public UNESCO release is dated 2026 while the linked report is identified as 2022.",
+      "uncertainty": "The public release does not establish a universal causal effect size; country comparisons and case studies may reflect selection, measurement and contextual differences.",
+      "subgroup": "Communities divided by ethnicity, language, religion, nationality or political identity; educators, cultural institutions, civil society, peacebuilders and public authorities.",
+      "counterinterpretation": "Dialogue can coexist with entrenched power, exclusion or violence; contact without safety, institutional change or rights protection may produce little durable inclusion.",
+      "source_url": "https://www.unesco.org/en/articles/mobilising-data-create-space-and-opportunity-dialogue",
+      "retrieval_hash": "sha256:908a4be4b009a67746714d1e10b33f773b39c834d7c7328ee25def81cab4549f",
+      "status": "reported"
+    },
+    {
+      "period": "2022 report; intercultural-dialogue enabling framework",
+      "denominator": {"value": 1, "unit": "UNESCO framework for enabling intercultural dialogue", "value_type": "published_framework"},
+      "measures": {
+        "framework": {"value": "the analysis identifies structures, processes and values required for meaningful dialogue across diverse societies", "unit": "reported framework architecture", "value_type": "reported_framework"},
+        "interaction": {"value": "the framework examines how these dimensions interact to identify policy entry points", "unit": "reported analytical mechanism", "value_type": "reported_method"},
+        "scope": {"value": "dialogue is connected to social, political and economic benefits including inclusion, resilience and peace", "unit": "reported outcome scope", "value_type": "reported_framework"}
+      },
+      "method": "Framework-based analysis drawing on cross-country evidence, regional trends and case studies.",
+      "uncertainty": "The framework specifies enabling conditions but does not function as an implementation audit, population survey or guarantee that all dimensions can be measured consistently.",
+      "subgroup": "Schools, cultural organizations, local governments, civil-society groups, communities, peace and security actors, and people excluded from formal decision-making.",
+      "counterinterpretation": "A comprehensive framework can improve diagnosis while also becoming too broad to prioritize, fund or assign responsibility in actual institutions.",
+      "source_url": "https://www.unesco.org/en/articles/mobilising-data-create-space-and-opportunity-dialogue",
+      "retrieval_hash": "sha256:908a4be4b009a67746714d1e10b33f773b39c834d7c7328ee25def81cab4549f",
+      "status": "reported"
+    },
+    {
+      "period": "2022 report; dialogue as social-cohesion and conflict-prevention capacity",
+      "denominator": {"value": 1, "unit": "reported intercultural-dialogue pathway", "value_type": "published_framework"},
+      "measures": {
+        "inclusion": {"value": "societies that invest in intercultural dialogue are reported as better equipped to foster inclusion and reduce vulnerabilities", "unit": "reported comparative interpretation", "value_type": "reported_assessment"},
+        "peace": {"value": "dialogue is positioned as a driver of sustainable peace and conflict prevention", "unit": "reported policy pathway", "value_type": "reported_framework"},
+        "rights": {"value": "human rights are included in the relationship between dialogue, social cohesion and inclusive development", "unit": "reported outcome domain", "value_type": "reported_framework"}
+      },
+      "method": "Comparative and case-based synthesis of dialogue conditions and their relationship to peace, inclusion, vulnerability and rights.",
+      "uncertainty": "The report's public description supports a comparative relationship, not proof that dialogue investment alone causes peace, inclusion or rights protection.",
+      "subgroup": "Marginalized communities, minorities, displaced people, young people, educators, local organizations and populations exposed to conflict or social fragmentation.",
+      "counterinterpretation": "Dialogue programs may be selected for places already willing to cooperate, while structural inequality, coercion and material deprivation remain stronger drivers of conflict and exclusion.",
+      "source_url": "https://www.unesco.org/en/articles/mobilising-data-create-space-and-opportunity-dialogue",
+      "retrieval_hash": "sha256:908a4be4b009a67746714d1e10b33f773b39c834d7c7328ee25def81cab4549f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 public release; policy translation and institutional use",
+      "denominator": {"value": 1, "unit": "UNESCO policy-guidance and implementation frame", "value_type": "published_framework"},
+      "measures": {
+        "users": {"value": "the report is directed toward policymakers, development practitioners, peace and security actors, academics and civil society", "unit": "reported intended-user set", "value_type": "reported_scope"},
+        "action": {"value": "the analysis translates comparative evidence into strategic policy entry points for social cohesion and inclusive development", "unit": "reported policy function", "value_type": "reported_recommendation"},
+        "institutional_route": {"value": "dialogue is positioned as a form of resilience and inclusion capacity that can be built through structures, processes and values", "unit": "reported institutional pathway", "value_type": "reported_framework"}
+      },
+      "method": "Public UNESCO policy summary of the UNESCO-IEP report and its framework, evidence base and intended applications.",
+      "uncertainty": "The 2026 page is a public release, not a new field study; it does not document implementation, funding, institutional uptake or realized outcomes after publication.",
+      "subgroup": "Public agencies, donors, educators, cultural organizations, peacebuilders, researchers, civil society and communities whose voice is or is not represented in formal dialogue.",
+      "counterinterpretation": "Policy translation can broaden participation, but institutionalized dialogue can also become symbolic consultation unless participants influence decisions and receive feedback or remedy.",
+      "source_url": "https://www.unesco.org/en/articles/mobilising-data-create-space-and-opportunity-dialogue",
+      "retrieval_hash": "sha256:908a4be4b009a67746714d1e10b33f773b39c834d7c7328ee25def81cab4549f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unesdoc.unesco.org/ark:/48223/pf0000382874_eng", "claim": "Official UNESCO-linked English report record for We need to talk: measuring intercultural dialogue for peace and inclusion."},
+    {"source_url": "https://www.unesco.org/en/articles/mobilising-data-create-space-and-opportunity-dialogue", "claim": "Official UNESCO public release dated 10 March 2026, identifying the report, evidence scope and policy framing."}
+  ],
+  "boundary": "This record adds a cultural and civic-capacity route linking intercultural dialogue to identity, inclusion, vulnerability, peace, conflict prevention, rights, resilience and policy participation. The underlying report is identified by UNESCO as 2022 and was publicly highlighted in 2026; this record is not new 2026 outcome data, a respondent-level dataset, a causal intervention evaluation, an implementation audit or proof that dialogue alone produces peace or inclusion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO 2026 release page was reviewed for the more-than-160-country frame, comparative data, regional trends, case studies, enabling framework and policy claims; the linked UNESCO document record was used to identify the underlying 2022 report.",
+    "source_url_sha256": "sha256:908a4be4b009a67746714d1e10b33f773b39c834d7c7328ee25def81cab4549f",
+    "checked": "2026-09-27"
+  }
+}

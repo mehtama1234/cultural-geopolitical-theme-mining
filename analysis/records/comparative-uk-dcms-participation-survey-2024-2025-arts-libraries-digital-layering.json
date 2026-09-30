@@ -1,0 +1,186 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-dcms-participation-survey-2024-2025-arts-libraries-digital-layering",
+  "title": "England's cultural participation is broad and mostly physical-or-hybrid, with digital access layering onto institutions",
+  "theme_ids": [
+    "cost",
+    "time",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport Participation Survey 2024/25",
+  "geography": "England; adults aged 16 years and above",
+  "observations": [
+    {
+      "period": "April 2024-March 2025 survey year; arts engagement in previous 12 months",
+      "denominator": {
+        "value": 34378,
+        "unit": "survey respondents aged 16 years and above in England",
+        "value_type": "official_survey_sample"
+      },
+      "measures": {
+        "any_arts_engagement": {
+          "value": 90.6,
+          "unit": "percent engaging with the arts at least once in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "physical_arts_engagement": {
+          "value": 89.7,
+          "unit": "percent engaging physically with the arts at least once in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "digital_arts_engagement": {
+          "value": 35.0,
+          "unit": "percent engaging digitally with the arts at least once in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "both_physical_and_digital": {
+          "value": 34.0,
+          "unit": "percent engaging with both physical and digital arts activities",
+          "value_type": "official_survey_share"
+        },
+        "digital_only": {
+          "value": 1.0,
+          "unit": "percent engaging exclusively digitally with the arts",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Digital arts engagement primarily layers onto physical participation rather than replacing it; exclusive digital participation is rare",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Nationally representative annual Participation Survey estimates for adults aged 16 and above in England; arts engagement covers a defined basket of physical and digital activities.",
+      "uncertainty": "The survey measures whether an activity occurred during a 12-month window, not intensity, spending, platform identity, causal substitution, or whether physical and digital activities were related to the same cultural object.",
+      "subgroup": "Adults aged 16 years and above in England.",
+      "counterinterpretation": "The low digital-only share may reflect broad arts definitions, questionnaire routing, or the persistence of free and informal physical activities rather than weak digital cultural demand.",
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/main-report-for-the-participation-survey-april-2024-to-march-2025",
+      "retrieval_hash": "sha256:640ffda3b48b82c6dac56a2027cf6b182d75879531f1a08f2d34c4479b1387d4",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024-March 2025 survey year; libraries, museums, and archives",
+      "denominator": {
+        "value": 34378,
+        "unit": "survey respondents aged 16 years and above in England",
+        "value_type": "official_survey_sample"
+      },
+      "measures": {
+        "library_any_engagement": {
+          "value": 31.0,
+          "unit": "percent engaging with libraries at least once in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "library_physical": {
+          "value": 26.0,
+          "unit": "percent engaging physically with libraries in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "library_digital": {
+          "value": 16.0,
+          "unit": "percent engaging digitally with libraries in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "museum_gallery_any": {
+          "value": 45.0,
+          "unit": "percent engaging with museums or galleries at least once in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "museum_gallery_physical": {
+          "value": 41.0,
+          "unit": "percent engaging physically with museums or galleries",
+          "value_type": "official_survey_share"
+        },
+        "museum_gallery_digital": {
+          "value": 14.0,
+          "unit": "percent engaging digitally with museums or galleries",
+          "value_type": "official_survey_share"
+        },
+        "archives_digital_vs_physical": {
+          "value": "7% digital versus 3% physical",
+          "unit": "share engaging with archives or record offices in the previous 12 months",
+          "value_type": "official_survey_comparison"
+        },
+        "mechanism": {
+          "value": "Digital access is more prominent for library and archive functions than for museum attendance, indicating that digitization changes the task mix of institutions rather than producing one uniform online substitute",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Survey estimates distinguish physical and digital engagement by sector; library and museum/gallery categories are not mutually exclusive.",
+      "uncertainty": "The measures do not identify which people use both modes, whether digital access is free or paid, or whether digital activity substitutes for visits, enables them, or serves a different purpose.",
+      "subgroup": "Adults aged 16 years and above in England.",
+      "counterinterpretation": "Archive results are first collected in 2024/25 and may be especially sensitive to question novelty, institutional awareness, and the specific digital activities listed.",
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/headline-findings-for-the-participation-survey-april-2024-to-march-2025",
+      "retrieval_hash": "sha256:640ffda3b48b82c6dac56a2027cf6b182d75879531f1a08f2d34c4479b1387d4",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024-March 2025 survey year; change, barriers, and digital capability",
+      "denominator": {
+        "value": 34378,
+        "unit": "survey respondents aged 16 years and above in England",
+        "value_type": "official_survey_sample"
+      },
+      "measures": {
+        "arts_change_from_2023_24": {
+          "value": "90.6% overall in 2024/25 versus 91.4% in 2023/24",
+          "unit": "percentage of adults engaging with the arts in the previous 12 months",
+          "value_type": "official_survey_time_series"
+        },
+        "libraries_change_from_2023_24": {
+          "value": "31% overall in 2024/25 versus 30% in 2023/24",
+          "unit": "percentage of adults engaging with libraries in the previous 12 months",
+          "value_type": "official_survey_time_series"
+        },
+        "most_common_barrier": {
+          "value": "lack of interest or no reason in particular",
+          "unit": "most common reported barrier to physical and digital cultural engagement",
+          "value_type": "official_survey_barrier"
+        },
+        "internet_use": {
+          "value": 92.0,
+          "unit": "percent using the Internet",
+          "value_type": "official_survey_share"
+        },
+        "digital_skills_training": {
+          "value": 27.0,
+          "unit": "percent of Internet users taking digital or online skills training in the previous 12 months",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "High Internet reach does not automatically convert into cultural engagement or skills; participation can plateau while institutional access rises",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "Official annual survey time-series, barrier, and digital-sector estimates; the report flags a questionnaire change for digital-skills training that limits direct interpretation of its year-on-year decline.",
+      "uncertainty": "Reported lack of interest is a stated barrier, not a structural explanation; the data do not identify affordability, time, transport, disability access, or supply constraints as causes of nonparticipation.",
+      "subgroup": "Adults aged 16 years and above in England; digital-skills training is conditional on Internet users.",
+      "counterinterpretation": "Small annual movements may reflect sampling or questionnaire effects, and high Internet use can coexist with content, time, confidence, or relevance barriers that the headline indicators do not separate.",
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/main-report-for-the-participation-survey-april-2024-to-march-2025",
+      "retrieval_hash": "sha256:640ffda3b48b82c6dac56a2027cf6b182d75879531f1a08f2d34c4479b1387d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication",
+      "claim": "The official publication hub identifies the 2024/25 Participation Survey annual release, headline findings, technical report, and data tables.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/headline-findings-for-the-participation-survey-april-2024-to-march-2025",
+      "claim": "The official headline release provides the arts, libraries, archives, heritage, museum/gallery, digital, and barrier estimates.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds England's official adult cultural-participation evidence with physical-digital overlap, institution-specific digital layering, stated barriers, and Internet-capability context. It does not establish causal affordability or time constraints, platform substitution, UK-wide coverage, or individual-level cultural welfare.",
+  "retrieval_hash": "sha256:640ffda3b48b82c6dac56a2027cf6b182d75879531f1a08f2d34c4479b1387d4"
+}

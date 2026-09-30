@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-cabinet-office-loneliness-isolation-priority-plan-2026",
+  "title": "Japan turns loneliness and isolation into a statutory, cross-government policy system, while delivery and lived outcomes remain open",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Japan Cabinet Office, Priority Plan to Facilitate the Promotion of Policies Regarding Measures to Address Loneliness and Isolation",
+  "geography": "Japan; national and local government measures addressing loneliness and social isolation",
+  "observations": [
+    {
+      "period": "2023-2026; statutory and national-policy architecture",
+      "denominator": {"value": 1, "unit": "Japan national loneliness-and-isolation policy framework", "value_type": "national_policy_framework"},
+      "measures": {
+        "legal_basis": {"value": "Japan's Act on the Advancement of Measures to Address Loneliness and Isolation was enacted May 31, 2023 and promulgated June 7, 2023", "unit": "reported legal milestone", "value_type": "reported_policy_milestone"},
+        "priority_plan": {"value": "the Cabinet Office priority plan sets basic principles and comprehensive, systematic government measures", "unit": "reported national policy instrument", "value_type": "reported_policy_instrument"},
+        "institutional_route": {"value": "loneliness and isolation are treated as a coordinated national and local-government responsibility rather than only an individual or clinical problem", "unit": "reported governance mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Japan Cabinet Office official policy page describing the statutory basis and purpose of the priority plan; this observation records institutional architecture, not programme delivery or outcome evaluation.",
+      "uncertainty": "The page does not establish implementation fidelity, appropriated resources, service reach, participant experience, or changes in loneliness, isolation, health, work, or civic participation.",
+      "subgroup": "People experiencing loneliness or isolation, local governments, national ministries, nonprofit organizations, community groups, and service providers in Japan.",
+      "counterinterpretation": "A national legal framework can coordinate fragmented services, but it can also centralize definitions or reporting without improving local accessibility, trust, or meaningful connection.",
+      "source_url": "https://www.cao.go.jp/kodoku_koritsu/torikumi/suishinhou.html",
+      "retrieval_hash": "sha256:9c059da26874cbb9259bf78fa4911b8c3808e47d1fd10de88b55314c6fbdd2fb",
+      "status": "reported"
+    },
+    {
+      "period": "June 11, 2024-July 10, 2026; revision of Japan's priority plan",
+      "denominator": {"value": 1, "unit": "Japan Cabinet Office priority-plan revision cycle", "value_type": "national_policy_revision"},
+      "measures": {
+        "initial_plan": {"value": "the priority plan was decided June 11, 2024 by the headquarters responsible for promoting loneliness and isolation measures", "unit": "reported policy date", "value_type": "reported_policy_milestone"},
+        "2026_revision": {"value": "the plan was partially revised July 10, 2026", "unit": "reported policy revision date", "value_type": "reported_policy_revision"},
+        "policy_learning": {"value": "a dated revision creates an observable policy-learning and adaptation stage before any claim about service or social outcomes", "unit": "bounded implementation mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official Cabinet Office page checked for the plan's decision and revision dates and its description of the plan's role in comprehensive government measures.",
+      "uncertainty": "The public index page does not by itself identify which measures changed, why they changed, implementation status, local variation, budget, or whether revision responded to measured user experience.",
+      "subgroup": "National policymakers, local authorities, community and nonprofit providers, and people eligible for loneliness or isolation-related support.",
+      "counterinterpretation": "A plan revision may reflect routine administrative maintenance, political reprioritization, or genuine learning; the date alone cannot distinguish these pathways or establish improved delivery.",
+      "source_url": "https://www.cao.go.jp/kodoku_koritsu/torikumi/jutenkeikaku.html",
+      "retrieval_hash": "sha256:9c059da26874cbb9259bf78fa4911b8c3808e47d1fd10de88b55314c6fbdd2fb",
+      "status": "reported"
+    },
+    {
+      "period": "2026; open end-to-end test for Japan's loneliness-and-isolation system",
+      "denominator": {"value": 1, "unit": "Japan national-to-local policy delivery route", "value_type": "implementation_followup_frame"},
+      "measures": {
+        "open_stages": {"value": "law and priority plan -> national coordination -> local implementation -> outreach and access -> repeated participation -> practical support -> connection, health, work, and civic outcomes", "unit": "open end-to-end pathway", "value_type": "research_pathway"},
+        "missing_evidence": {"value": "the public policy index does not supply a named service episode, participant denominator, funding-to-delivery trace, uptake, retention, or outcome measure", "unit": "reported evidence boundary", "value_type": "reported_evidence_gap"},
+        "next_test": {"value": "follow one Japanese municipality or programme through budget, staffing, referral, participant experience, repeat use, inclusion, and measured change", "unit": "recommended next observation", "value_type": "research_queue"}
+      },
+      "method": "Atlas synthesis of the Cabinet Office statutory and priority-plan pages, keeping policy existence separate from implementation and lived outcomes.",
+      "uncertainty": "This is a research pathway, not an evaluation result; no causal effect, national coverage, or representative participant outcome is inferred.",
+      "subgroup": "Municipal residents, people living alone, older adults, young people, caregivers, migrants, disabled people, low-income households, and community organizations, depending on the named local episode.",
+      "counterinterpretation": "Some effective activity may be embedded in ordinary welfare, health, housing, employment, or community services without a loneliness label; a narrow named-programme trace could undercount distributed support.",
+      "source_url": "https://www.cao.go.jp/kodoku_koritsu/torikumi/jutenkeikaku.html",
+      "retrieval_hash": "sha256:9c059da26874cbb9259bf78fa4911b8c3808e47d1fd10de88b55314c6fbdd2fb",
+      "status": "reported"
+    },
+    {
+      "period": "March 31, 2026; local implementation baseline stated in the July 2026 revision",
+      "denominator": {"value": 1, "unit": "Japan local-government loneliness-and-isolation implementation baseline", "value_type": "reported_implementation_baseline"},
+      "measures": {
+        "partnership_platforms": {"value": 174, "unit": "local governments with local public-private loneliness-and-isolation partnership platforms; 29 prefectures and 145 municipalities", "value_type": "reported_count"},
+        "regional_councils": {"value": 72, "unit": "local governments with loneliness-and-isolation regional councils; 3 prefectures and 69 municipalities", "value_type": "reported_count"},
+        "national_direction": {"value": "the plan aims first for a platform in every prefecture, then to extend the implementation base from prefectures to municipalities through stage-specific accompaniment", "unit": "reported implementation objective", "value_type": "policy_target"}
+      },
+      "method": "Extracted from the July 10, 2026 revised Priority Plan PDF, which reports local-government survey results as of March 31, 2026; counts are implementation infrastructure, not resident reach or outcome measures.",
+      "uncertainty": "The counts do not show whether platforms meet regularly, include affected people, fund services, produce referrals, or improve connection; the denominator is local governments rather than population or eligible residents.",
+      "subgroup": "Japanese prefectures, municipalities, public-private partners, nonprofit organizations, and residents who may use local loneliness-and-isolation support.",
+      "counterinterpretation": "A low municipal count may reflect a staged rollout or different administrative forms rather than absence of support; conversely, formal platform existence may overstate operational capacity.",
+      "source_url": "https://www.cao.go.jp/kodoku_koritsu/torikumi/jutenkeikaku/pdf/jutenkeikaku.pdf",
+      "retrieval_hash": "sha256:467afbaa8990d1e1a1185c5e6f665e7db3c1e80503a8f4abeebe53fea848e1ae",
+      "status": "reported"
+    },
+    {
+      "period": "2026; prevention, connection, and evaluation mechanisms named in the revised Priority Plan",
+      "denominator": {"value": 1, "unit": "Japan national loneliness-and-isolation policy mechanism set", "value_type": "policy_mechanism_set"},
+      "measures": {
+        "prevention": {"value": "May is designated as a loneliness-and-isolation strengthening month; the plan expands public and child-oriented connection-supporter training and youth prevention", "unit": "reported prevention mechanism", "value_type": "reported_policy_mechanism"},
+        "social_prescribing": {"value": "the plan promotes social-prescribing-style touchpoints that notice problems in everyday contact and connect people to local places and resources", "unit": "reported cross-sector mechanism", "value_type": "reported_policy_mechanism"},
+        "evaluation": {"value": "the plan calls for concrete goals and time periods, narrative pathways, cross-measure evaluation, evidence collection, and possible use of the UCLA Loneliness Scale while warning against judging continuity only by utilization counts", "unit": "reported evaluation architecture", "value_type": "reported_evaluation_mechanism"}
+      },
+      "method": "Extracted from the July 10, 2026 revised Priority Plan PDF; this records stated mechanisms and evaluation design, not evidence that the mechanisms were implemented or effective.",
+      "uncertainty": "The plan does not establish training volume, participant inclusion, referral completion, service quality, scale of social-prescribing activity, or measured changes in loneliness, health, work, or civic participation.",
+      "subgroup": "Young people, people at risk of isolation, volunteers, community intermediaries, local services, employers, nonprofit organizations, and evaluators.",
+      "counterinterpretation": "Broad touchpoint and connection language can enable flexible local adaptation, but it can also make delivery boundaries and accountability difficult to measure consistently.",
+      "source_url": "https://www.cao.go.jp/kodoku_koritsu/torikumi/jutenkeikaku/pdf/jutenkeikaku.pdf",
+      "retrieval_hash": "sha256:467afbaa8990d1e1a1185c5e6f665e7db3c1e80503a8f4abeebe53fea848e1ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cao.go.jp/kodoku_koritsu/", "claim": "Japan Cabinet Office loneliness-and-isolation policy hub and related implementation materials."},
+    {"source_url": "https://www.cao.go.jp/kodoku_koritsu/torikumi/jutenkeikaku/pdf/jutenkeikaku.pdf", "claim": "July 10, 2026 revised Priority Plan with local implementation counts, prevention mechanisms, social-prescribing direction, and evaluation architecture."},
+    {"source_url": "https://www.who.int/groups/commission-on-social-connection", "claim": "WHO global context identifying national social-connection policies and the need for implementation learning."}
+  ],
+  "boundary": "This record adds a named national policy and legal route for loneliness and social isolation in Japan. It establishes statutory and planning architecture plus an open implementation pathway; it does not establish budget, local coverage, service quality, participant experience, reduced loneliness, improved health, work, belonging, or civic outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Japan Cabinet Office pages and the July 10, 2026 revised Priority Plan PDF were reviewed for legal dates, plan purpose, revision date, local implementation counts, prevention and connection mechanisms, evaluation architecture, and the national-to-local policy route.",
+    "source_page_sha256": "sha256:9c059da26874cbb9259bf78fa4911b8c3808e47d1fd10de88b55314c6fbdd2fb; PDF sha256:467afbaa8990d1e1a1185c5e6f665e7db3c1e80503a8f4abeebe53fea848e1ae",
+    "checked": "2026-09-29"
+  }
+}

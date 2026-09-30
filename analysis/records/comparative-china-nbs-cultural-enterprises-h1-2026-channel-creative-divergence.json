@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-china-nbs-cultural-enterprises-h1-2026-channel-creative-divergence",
+  "title": "China's cultural sector grew in H1 2026 while communication channels contracted and creative-information services expanded",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "National Bureau of Statistics of China, Business Revenue of Enterprises above the Designated Size Engaged in Culture and Related Industries, First Half of 2026",
+  "geography": "China; nationwide cultural and related-industry enterprises above designated size",
+  "observations": [
+    {
+      "period": "January-June 2026; cultural enterprises above designated size",
+      "denominator": {
+        "value": 82000,
+        "unit": "surveyed cultural enterprises above designated size nationwide",
+        "value_type": "reported_enterprise_sample"
+      },
+      "measures": {
+        "cultural_enterprise_revenue": {"value": 7202.6, "unit": "billion yuan in business revenue", "value_type": "official_enterprise_revenue"},
+        "cultural_enterprise_revenue_growth": {"value": 4.6, "unit": "percent year-over-year growth at comparable prices", "value_type": "official_growth_rate"},
+        "content_creation_production_revenue": {"value": 1683.0, "unit": "billion yuan in business revenue", "value_type": "official_enterprise_revenue"},
+        "cultural_communication_channels_revenue": {"value": 751.2, "unit": "billion yuan in business revenue", "value_type": "official_enterprise_revenue"},
+        "mechanism": {"value": "The cultural economy continues to expand in aggregate, but aggregate revenue growth does not identify whether households are consuming more culture, whether prices changed, or how value is distributed between producers, platforms, and channels", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NBS release based on a survey of cultural enterprises above designated size; revenue is reported on a comparable basis for year-over-year growth.",
+      "uncertainty": "The designated-size enterprise universe excludes smaller and informal producers, and revenue is not household consumption, profit, employment, audience reach, or cultural impact.",
+      "subgroup": "Cultural and related-industry enterprises above the NBS designated-size threshold nationwide.",
+      "counterinterpretation": "Revenue growth may reflect price, accounting, business-composition, or large-firm effects rather than broader cultural demand or producer welfare.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260731_1964254.html",
+      "retrieval_hash": "sha256:c54c29194508945d98ab1b4de1a2f48f1a34c3ef4396cee8618c37e4365e89c3",
+      "status": "reported"
+    },
+    {
+      "period": "January-June 2026; cultural-industry category divergence",
+      "denominator": {
+        "value": 82000,
+        "unit": "surveyed cultural enterprises above designated size nationwide",
+        "value_type": "reported_enterprise_sample"
+      },
+      "measures": {
+        "news_information_services_growth": {"value": 9.2, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "creative_design_services_growth": {"value": 9.2, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "content_creation_production_growth": {"value": 4.4, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "cultural_entertainment_leisure_services_growth": {"value": 3.3, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "cultural_investment_operation_growth": {"value": 10.0, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "mechanism": {"value": "Information, creative-design, and cultural-investment services are growing faster than content production and cultural leisure services, suggesting that cultural value capture is shifting toward upstream information, design, and organization layers", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NBS category-level revenue growth rates for cultural enterprises above designated size, reported on a comparable year-over-year basis.",
+      "uncertainty": "Category growth rates cannot distinguish volume from price, nor identify firm concentration, labor quality, platform commissions, export exposure, or audience outcomes.",
+      "subgroup": "NBS cultural-enterprise industry categories including news/information, creative design, content production, entertainment/leisure, and investment/operation.",
+      "counterinterpretation": "Fast growth in a category may reflect a low base, reclassification, public-sector demand, or a small number of large firms; it does not establish a general cultural trend among consumers.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260731_1964254.html",
+      "retrieval_hash": "sha256:c54c29194508945d98ab1b4de1a2f48f1a34c3ef4396cee8618c37e4365e89c3",
+      "status": "reported"
+    },
+    {
+      "period": "January-June 2026; channel and consumer-terminal divergence",
+      "denominator": {
+        "value": 82000,
+        "unit": "surveyed cultural enterprises above designated size nationwide",
+        "value_type": "reported_enterprise_sample"
+      },
+      "measures": {
+        "cultural_communication_channels_growth": {"value": -3.2, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "cultural_consumption_terminal_production_growth": {"value": 0.4, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "cultural_entertainment_leisure_services_revenue": {"value": 93.3, "unit": "billion yuan in business revenue", "value_type": "official_enterprise_revenue"},
+        "cultural_equipment_production_growth": {"value": 6.2, "unit": "percent year-over-year revenue growth", "value_type": "official_growth_rate"},
+        "mechanism": {"value": "The channel layer is shrinking while equipment and consumer-terminal production are nearly flat, leaving open whether distribution is moving to digital or platform-native routes rather than disappearing", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "NBS category-level revenue release covering cultural communication channels, consumption-terminal production, equipment production, and entertainment/leisure services.",
+      "uncertainty": "The release does not identify channel definitions at the platform level, digital versus physical mix, end-user prices, margins, audience reach, or substitution between categories.",
+      "subgroup": "Cultural-industry categories above designated size, including communication channels, equipment, terminal production, and cultural entertainment/leisure services.",
+      "counterinterpretation": "A decline in communication-channel revenue may result from consolidation, reporting changes, or sector-specific shocks rather than consumer migration; near-zero terminal growth does not measure household demand directly.",
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260731_1964254.html",
+      "retrieval_hash": "sha256:c54c29194508945d98ab1b4de1a2f48f1a34c3ef4396cee8618c37e4365e89c3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260731_1964254.html",
+      "claim": "Official NBS H1 2026 release reports the cultural-enterprise sample, aggregate revenue, category revenues, and comparable growth rates.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260717_1964154.html",
+      "claim": "NBS H1 2026 household-consumption release provides the household-side education, culture, and recreation spending counterpart.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds a supply-side cultural-economy layer to the household and participation corpus. It measures reported revenue among above-designated-size enterprises, not consumer spending, audience behavior, employment quality, profit distribution, platform power, or cultural meaning; the category definitions are broader than culture alone.",
+  "retrieval_hash": "sha256:c54c29194508945d98ab1b4de1a2f48f1a34c3ef4396cee8618c37e4365e89c3"
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-tourism-international-highlights-2025-global-demand-mobility-culture",
+  "title": "International tourism has recovered at scale, but mobility, spending, regional dependence, and cultural exchange remain uneven",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UN Tourism, International Tourism Highlights 2025 Edition and World Tourism Barometer updates",
+  "geography": "Global international tourism with regional and destination comparisons; 2024 annual results and 2025-2026 updates",
+  "observations": [
+    {
+      "period": "2024; global international tourism recovery",
+      "denominator": {"value": 1, "unit": "global international tourist arrivals and tourism economy", "value_type": "global_tourism_frame"},
+      "measures": {
+        "international_arrivals_2024": {"value": 1400, "unit": "millions of international tourist arrivals in 2024", "value_type": "reported_arrival_count"},
+        "pandemic_recovery": {"value": "2024 marked the recovery of international tourism from the sector's worst crisis", "unit": "UN Tourism assessment", "value_type": "reported_status"},
+        "visitor_spending": {"value": "visitor spending continued to grow strongly alongside the recovery in arrivals", "unit": "UN Tourism assessment", "value_type": "reported_pattern"}
+      },
+      "method": "UN Tourism compilation of international arrival, tourism-receipt, and country statistical data collected from destinations and international organizations.",
+      "uncertainty": "Arrivals are trips rather than unique people and do not measure resident burden, visitor welfare, job quality, environmental pressure, or local value retention; recovery varies by destination and purpose.",
+      "subgroup": "International visitors, destination residents, tourism workers and firms, transport systems, cultural sites, and tourism-dependent economies.",
+      "counterinterpretation": "Tourism recovery can support livelihoods, cultural exchange, and public revenue while concentrating benefits, increasing housing and infrastructure pressure, and exposing destinations to shocks.",
+      "source_url": "https://en.unwto-ap.org/news/th2025/",
+      "retrieval_hash": "sha256:fe97b76ce784c724520ed299509daa14c32f297ee1fe27e0eb4ca11044725ac1",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; spending and services-export channel",
+      "denominator": {"value": 1, "unit": "international tourism receipts and tourism services exports", "value_type": "tourism_revenue_frame"},
+      "measures": {
+        "international_tourism_receipts_2024": {"value": 1700, "unit": "billion US dollars in international tourism receipts in 2024, in real terms as reported by UN Tourism", "value_type": "reported_revenue_estimate"},
+        "q1_2025_arrival_growth": {"value": 5, "unit": "percent growth in international tourist arrivals in the first quarter of 2025 compared with Q1 2024", "value_type": "reported_growth_rate"},
+        "q1_2025_air_demand_growth": {"value": 8, "unit": "percent increase in international air-transport demand in Q1 2025 compared with Q1 2024", "value_type": "reported_growth_rate"}
+      },
+      "method": "UN Tourism World Tourism Barometer synthesis of international arrivals, tourism receipts, and aviation-demand indicators.",
+      "uncertainty": "Receipts are affected by exchange rates, inflation, trip length, and accounting conventions; air demand and arrival growth are related but not equivalent measures of tourism activity.",
+      "subgroup": "Tourists, airlines, accommodation and hospitality firms, destination governments, cultural industries, and service-export economies.",
+      "counterinterpretation": "Faster spending growth than arrivals may reflect prices, longer stays, or higher-value segments rather than broader access or more equitable tourism income.",
+      "source_url": "https://www.unwto.org/fr/news/croissance-de-5-des-arrivees-de-touristes-internationaux-au-premier-trimestre-2025",
+      "retrieval_hash": "sha256:fe97b76ce784c724520ed299509daa14c32f297ee1fe27e0eb4ca11044725ac1",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; changing travel flows and short-term mobility",
+      "denominator": {"value": 1, "unit": "UN Tourism global and regional tourism monitoring frame", "value_type": "tourism_monitoring_frame"},
+      "measures": {
+        "q1_2026_arrivals": {"value": 307, "unit": "millions of international tourists traveling in the first quarter of 2026", "value_type": "reported_arrival_count"},
+        "q1_2026_year_on_year_change": {"value": 6, "unit": "million more international tourists in Q1 2026 than in Q1 2025", "value_type": "reported_change"},
+        "travel_shock_channels": {"value": "air connectivity, geopolitical tensions, prices, safety conditions, and destination capacity shape uneven travel flows", "unit": "UN Tourism monitoring frame", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Tourism World Tourism Barometer current monitoring of international arrivals and short-term travel conditions.",
+      "uncertainty": "Quarterly figures are provisional and seasonal; changes in routes, conflicts, prices, and reporting coverage can alter comparisons and do not identify individual travel motives.",
+      "subgroup": "Travelers, destinations, airlines, tourism workers, border and visa systems, and regions exposed to geopolitical or infrastructure shocks.",
+      "counterinterpretation": "Resilient aggregate demand can mask destination-level collapse, substitution toward safer routes, or unequal access caused by prices and visa barriers.",
+      "source_url": "https://en.unwto-ap.org/news/baro2026/",
+      "retrieval_hash": "sha256:fe97b76ce784c724520ed299509daa14c32f297ee1fe27e0eb4ca11044725ac1",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; tourism as cultural and place-based economy",
+      "denominator": {"value": 1, "unit": "UN Tourism publication and destination-development framework", "value_type": "cultural_mobility_frame"},
+      "measures": {
+        "tourism_scope": {"value": "tourism connects mobility, cultural exchange, service work, destination infrastructure, and regional development", "unit": "UN Tourism publication scope", "value_type": "reported_framework"},
+        "regional_dependence": {"value": "tourism receipts and arrivals are unevenly distributed across destinations and regions", "unit": "UN Tourism comparative framework", "value_type": "reported_pattern"},
+        "resilience_question": {"value": "recovery depends on connectivity, diversification, safety, public policy, and the capacity to retain local benefits", "unit": "cross-source analytical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN Tourism synthesis of destination statistics, regional performance, tourism exports, outbound travel, and policy context.",
+      "uncertainty": "The publication describes sector-level patterns rather than measuring cultural meaning, resident consent, or distribution of tourism income in individual places.",
+      "subgroup": "Visitors, residents, cultural organizations, small businesses, workers, public authorities, and communities in tourism-dependent places.",
+      "counterinterpretation": "Tourism can strengthen local cultural economies and mutual understanding, but commodification, overcrowding, displacement, and external ownership can weaken local agency.",
+      "source_url": "https://en.unwto-ap.org/news/th2025/",
+      "retrieval_hash": "sha256:fe97b76ce784c724520ed299509daa14c32f297ee1fe27e0eb4ca11044725ac1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en/full-report/executive-summary_a4335ab2.html", "claim": "OECD Tourism Trends and Policies 2026 provides complementary destination, host-community, and resilience analysis."},
+    {"source_url": "https://www.worldbank.org/en/brief/2026/06/29/tourism-watch-june-2026", "claim": "World Bank Tourism Watch provides complementary geopolitical and uneven-recovery monitoring."}
+  ],
+  "boundary": "This record adds a global tourism demand, mobility, cultural-exchange, and place-based consumption route. It uses aggregate arrival, revenue, and sector-level publication evidence, not individual travel motives, resident sentiment, worker quality, local housing effects, or causal tourism-policy estimates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Tourism International Tourism Highlights and World Tourism Barometer materials were reviewed for the 2024 global recovery, receipts, 2025 and 2026 arrival updates, aviation demand, and tourism-as-cultural/place economy claims.",
+    "source_url_sha256": "sha256:fe97b76ce784c724520ed299509daa14c32f297ee1fe27e0eb4ca11044725ac1",
+    "checked": "2026-09-26"
+  }
+}

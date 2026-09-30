@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ikea-life-at-home-2026-home-needs-control-comfort-security-climate-action",
+  "title": "Households are turning home into a resilience buffer, but security, comfort, and control remain need–experience gaps",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "IKEA Life at Home Report 2026, based on YouGov, Crowd DNA, and GlobeScan research",
+  "geography": "Global; quantitative life-at-home survey in 31 countries, with qualitative ethnographies in India, Spain, and the United States",
+  "observations": [
+    {
+      "period": "2025 fieldwork reported in 2026; home needs and experienced gaps",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ interviewed across 31 countries in the quantitative Life at Home study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "security_important": {"value": 82, "unit": "percent saying security at home is important", "value_type": "reported_survey_share"},
+        "security_experienced_regularly": {"value": 68, "unit": "percent experiencing security at home regularly", "value_type": "reported_survey_share"},
+        "comfort_important": {"value": 86, "unit": "percent saying comfort at home is important", "value_type": "reported_survey_share"},
+        "comfort_experienced_regularly": {"value": 66, "unit": "percent experiencing comfort at home regularly", "value_type": "reported_survey_share"},
+        "control_important": {"value": 74, "unit": "percent saying control at home is important", "value_type": "reported_survey_share"},
+        "control_experienced_regularly": {"value": 59, "unit": "percent experiencing control at home regularly", "value_type": "reported_survey_share"},
+        "home_optimism": {"value": "65% of people happy with life at home are positive about the future versus 48% global average", "unit": "reported association", "value_type": "reported_survey_pattern"}
+      },
+      "method": "IKEA Life at Home quantitative online survey conducted by YouGov in 2025; each country weighted equally in global results and country samples weighted by gender, age and geography according to the source description.",
+      "uncertainty": "The need–experience gaps are descriptive and the home-optimism relationship is associational; the source does not establish that home conditions cause optimism, security, comfort or control, and the global result is not a household-income or housing-quality measure.",
+      "subgroup": "Adults aged 18+ in 31 countries, with life-stage and age contrasts reported by the source; country estimates and household circumstances remain distinct.",
+      "counterinterpretation": "People may report a better home experience because they are more optimistic, secure or resourced; the same home can provide emotional control while financial, housing, climate or political pressures remain unresolved outside it.",
+      "source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/",
+      "retrieval_hash": "sha256:d2e8c2e6577aecd5f5b1f0fd78b8f2f50000920aba2634127cc0b2b108b243a9",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork reported in 2026; household concerns, climate exposure, and consumer action",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ interviewed across 31 countries in the quantitative Life at Home study", "value_type": "reported_survey_sample"},
+      "measures": {
+        "household_finance_concern": {"value": 37, "unit": "percent identifying household finances and disposable income among top life-at-home concerns", "value_type": "reported_survey_share"},
+        "physical_health_concern": {"value": 37, "unit": "percent identifying physical health among top life-at-home concerns", "value_type": "reported_survey_share"},
+        "economy_concern": {"value": 31, "unit": "percent identifying the state of the economy among top life-at-home concerns", "value_type": "reported_survey_share"},
+        "climate_personally_impacted": {"value": 45, "unit": "percent feeling personally impacted by climate change", "value_type": "reported_survey_share"},
+        "climate_action_taken": {"value": 83, "unit": "percent reporting that they are already taking climate action", "value_type": "reported_survey_share"},
+        "climate_action_motivated_by_saving": {"value": 54, "unit": "percent saying saving money would motivate more climate action", "value_type": "reported_survey_share"},
+        "climate_action_motivated_by_health": {"value": 41, "unit": "percent saying health benefits would motivate more climate action", "value_type": "reported_survey_share"}
+      },
+      "method": "IKEA Life at Home and people-and-planet consumer-insights materials; climate-action measures combine the report's quantitative survey evidence and should not be interpreted as verified emissions or household technology adoption.",
+      "uncertainty": "Concern, personal impact, reported action and motivation are different constructs; the data do not identify the specific action, cost, frequency, emissions effect, or whether action is sustained.",
+      "subgroup": "Adults across the 31-country quantitative frame, with age and life-stage differences in concerns; online access and country weighting boundaries apply.",
+      "counterinterpretation": "Climate action can be low-cost or symbolic, while financial pressure can limit expensive adaptation; saving money may motivate action without indicating climate-first values or durable consumption change.",
+      "source_url": "https://www.ingka.com/newsroom/new-ikea-life-at-home-report-2026-reveals-a-world-in-flux-but-home-remains-the-foundation-for-resilience/",
+      "retrieval_hash": "sha256:d2e8c2e6577aecd5f5b1f0fd78b8f2f50000920aba2634127cc0b2b108b243a9",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork reported in 2026; generational differences in home-life concerns",
+      "denominator": {"value": 31689, "unit": "adults aged 18+ interviewed across 31 countries; age comparisons reported for Gen Z ages 18–29 and Baby Boomers ages 61–79", "value_type": "reported_survey_sample"},
+      "measures": {
+        "gen_z_mental_health_concern": {"value": 36, "unit": "percent of Gen Z respondents identifying mental health as a life-at-home concern", "value_type": "reported_subgroup_share"},
+        "boomers_physical_health_concern": {"value": 48, "unit": "percent of Baby Boomer respondents identifying physical health as a life-at-home concern", "value_type": "reported_subgroup_share"},
+        "gen_z_screen_time_concern": {"value": 32, "unit": "percent of Gen Z respondents identifying screen time as a life-at-home concern", "value_type": "reported_subgroup_share"},
+        "boomers_societal_division_concern": {"value": 27, "unit": "percent of Baby Boomer respondents identifying societal division as a life-at-home concern", "value_type": "reported_subgroup_share"},
+        "life_stage_mechanism": {"value": "the meaning of a resilient home varies by life stage: younger adults emphasize mental health and screen time while older adults emphasize physical health, economy and societal division", "unit": "reported subgroup pattern", "value_type": "analytic_mechanism"}
+      },
+      "method": "IKEA report comparison of selected Gen Z and Baby Boomer concern items within the 2025 quantitative life-at-home survey.",
+      "uncertainty": "The source excerpt reports selected percentages rather than a full age-stratified table, and age differences are descriptive rather than causal; generational categories contain heterogeneous countries, incomes, housing conditions and life events.",
+      "subgroup": "Gen Z adults aged 18–29 and Baby Boomers aged 61–79 in the reported 31-country survey frame.",
+      "counterinterpretation": "Age differences may reflect life stage, cohort, health, housing, country composition or question salience rather than stable generational values; the report does not establish different household behavior or purchasing patterns.",
+      "source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/",
+      "retrieval_hash": "sha256:d2e8c2e6577aecd5f5b1f0fd78b8f2f50000920aba2634127cc0b2b108b243a9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ingka.com/reports/", "claim": "Ingka Group report index and Life at Home research context."}
+  ],
+  "boundary": "This record adds consumer-perception evidence about home as a resilience, comfort, control, security and climate-action setting. It is a commercially commissioned online survey and qualitative research programme, not objective housing, income, welfare, emissions, mental-health, or longitudinal behavioral evidence; reported associations do not establish causal effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "IKEA Global Life at Home Report 2026 and Ingka Group release reviewed for quantitative sample, country weighting, home-needs importance and experience, optimism association, concerns, climate-action motivation, and age comparisons.",
+    "source_page_sha256": "sha256:d2e8c2e6577aecd5f5b1f0fd78b8f2f50000920aba2634127cc0b2b108b243a9",
+    "checked": "2026-09-29"
+  }
+}

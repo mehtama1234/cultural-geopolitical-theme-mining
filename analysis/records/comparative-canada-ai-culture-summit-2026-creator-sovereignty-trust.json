@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-canada-ai-culture-summit-2026-creator-sovereignty-trust",
+  "title": "Cultural-sector AI adoption is being negotiated through creator rights, cultural sovereignty, trust, co-design and institutional readiness",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "political_judgment_action"
+  ],
+  "source_unit": "Government of Canada, What We Heard at The National Summit on Artificial Intelligence and Culture",
+  "geography": "Canadian cultural and creative sector, including creators, cultural organizations, technology companies, Indigenous organizations, labour, civil society and governments",
+  "observations": [
+    {
+      "period": "March–September 2026; National Summit on AI and Culture",
+      "denominator": {"value": 314, "unit": "summit participants from across Canada", "value_type": "reported_participation"},
+      "measures": {
+        "stakeholder_scope": {"value": "participants included cultural organizations, technology companies, entrepreneurs, academic institutions, Indigenous organizations, labour organizations, civil society, governments and a supported youth delegation", "unit": "reported participant categories", "value_type": "reported_scope"},
+        "pillars": {"value": "the summit organized discussion around Build, Protect and Empower", "unit": "reported policy pillars", "value_type": "reported_framework"},
+        "policy_connection": {"value": "the report connects summit discussion to ongoing Canadian AI and cultural-policy development", "unit": "reported institutional route", "value_type": "reported_process"}
+      },
+      "method": "Government synthesis of summit talks, panels, facilitated Reflection Zones, an AI Adoption Showcase and closing discussions; discussions used AI-supported transcription and summarization followed by human review and synthesis.",
+      "uncertainty": "The report reflects a curated summit and is explicitly not exhaustive or a representative public-opinion sample; identified actions are areas for consideration, not formal consensus recommendations.",
+      "subgroup": "Creators, cultural workers, rights holders, cultural organizations, technology developers, Indigenous communities, youth, labour and governments.",
+      "counterinterpretation": "A multi-stakeholder summit can surface practical tensions and policy needs, while selection, facilitation, institutional position and unequal participation can shape which concerns appear central.",
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/ai-culture-summit/what-we-heard.html",
+      "retrieval_hash": "sha256:240485aea449489988b9ea9a3fcd4658548ca0ee512242f40bbb6298eda37219",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; trust, copyright and creator livelihoods",
+      "denominator": {"value": 1, "unit": "summit synthesis of cultural-sector adoption barriers", "value_type": "published_synthesis"},
+      "measures": {
+        "trust_barrier": {"value": "participants identified lack of trust as a primary barrier to cultural-sector AI adoption", "unit": "reported summit theme", "value_type": "reported_finding"},
+        "trust_sources": {"value": "concerns centered on copyrighted training data, limited transparency, weak accountability and unresolved legal and ethical questions", "unit": "reported concern domains", "value_type": "reported_risk_set"},
+        "proposed_route": {"value": "transparency around training data, licensing, compensation and clear distinctions between AI-generated and human-created work were identified as trust-building routes", "unit": "reported policy direction", "value_type": "reported_recommendation"}
+      },
+      "method": "Qualitative synthesis of summit discussion under the Build and Protect pillars.",
+      "uncertainty": "The report documents participant perspectives and proposed actions; it does not measure the prevalence of distrust across Canada’s cultural sector or establish which remedy would increase adoption.",
+      "subgroup": "Artists, creators, cultural workers, rights holders, publishers, music organizations, technology developers and cultural institutions.",
+      "counterinterpretation": "Some creators may welcome assistive tools and new distribution routes, but adoption can remain conditional on consent, attribution, compensation, liability and control over use.",
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/ai-culture-summit/what-we-heard.html",
+      "retrieval_hash": "sha256:240485aea449489988b9ea9a3fcd4658548ca0ee512242f40bbb6298eda37219",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; cultural and Indigenous sovereignty",
+      "denominator": {"value": 1, "unit": "summit synthesis of sovereignty concerns", "value_type": "published_synthesis"},
+      "measures": {
+        "sovereignty_scope": {"value": "participants linked sovereignty to data, infrastructure, compute, storage, foundational models and cultural governance", "unit": "reported sovereignty scope", "value_type": "reported_framework"},
+        "indigenous_agency": {"value": "Indigenous-led and community-based approaches were linked to agency, consent, cultural values, data sovereignty and community protocols", "unit": "reported governance route", "value_type": "reported_recommendation"},
+        "representation": {"value": "participants emphasized linguistic, cultural, regional and Indigenous diversity in AI systems and outputs", "unit": "reported inclusion requirement", "value_type": "reported_recommendation"}
+      },
+      "method": "Qualitative synthesis of keynote, ministerial remarks, panels and Reflection Zone discussions.",
+      "uncertainty": "The report presents Canadian policy and sector perspectives; it does not evaluate the performance of any sovereign AI infrastructure or represent all Indigenous communities or cultural groups.",
+      "subgroup": "Indigenous communities, Francophone and other linguistic communities, cultural organizations, artists, data stewards, governments and technology providers.",
+      "counterinterpretation": "Domestic control can reduce dependence and support cultural relevance, while sovereignty claims may still exclude local communities or reproduce centralized control unless governance and benefit sharing are explicit.",
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/ai-culture-summit/what-we-heard.html",
+      "retrieval_hash": "sha256:240485aea449489988b9ea9a3fcd4658548ca0ee512242f40bbb6298eda37219",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; adoption, literacy and institutional readiness",
+      "denominator": {"value": 1, "unit": "summit synthesis of cultural-sector capacity", "value_type": "published_synthesis"},
+      "measures": {
+        "adoption_condition": {"value": "AI adoption was described as uneven and context-dependent, with many organizations lagging in policies, governance and internal capacity", "unit": "reported sector assessment", "value_type": "reported_assessment"},
+        "integration_vs_adoption": {"value": "participants distinguished tool adoption from integration into daily workflows and organizational practice", "unit": "reported implementation distinction", "value_type": "reported_interpretation"},
+        "capacity_route": {"value": "participants called for literacy, training, hybrid artistic-technical talent, shared infrastructure, guidance, funding and leadership capacity", "unit": "reported capacity priorities", "value_type": "reported_recommendation"}
+      },
+      "method": "Qualitative synthesis of the Empower pillar, including reported findings from a Quebec cultural-sector skills study and the summit’s AI Adoption Showcase.",
+      "uncertainty": "The report does not provide a sector-wide adoption rate, standardized readiness measure or causal assessment of training and infrastructure support.",
+      "subgroup": "Individual creators, cultural workers, nonprofit and public cultural organizations, educators, emerging creators, leaders and technology partners.",
+      "counterinterpretation": "Training alone may not produce responsible adoption when copyright, data governance, procurement, cost, liability and institutional incentives remain unresolved.",
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/ai-culture-summit/what-we-heard.html",
+      "retrieval_hash": "sha256:240485aea449489988b9ea9a3fcd4658548ca0ee512242f40bbb6298eda37219",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.canada.ca/content/dam/pch/documents/services/ai-culture-summit/what-we-heard-ai-eng.pdf", "claim": "Official 17-page PDF of the summit synthesis."},
+    {"source_url": "https://www.canada.ca/en/canadian-heritage/services/ai-culture-summit.html", "claim": "Canadian Heritage AI and Culture Summit context and related materials."}
+  ],
+  "boundary": "This record adds a cultural-AI governance signal linking adoption to trust, copyright, creator livelihoods, cultural and Indigenous sovereignty, co-design, infrastructure, literacy, training and institutional readiness. It is an organizer-produced synthesis of a 314-person summit, not representative public opinion, formal consensus, sector-wide adoption measurement or a causal evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Government of Canada HTML report and PDF were reviewed for participant scope, Build/Protect/Empower pillars, trust and copyright, co-creation, sovereignty, Indigenous agency, adoption capacity, literacy, infrastructure and the report’s synthesis boundary.",
+    "source_url_sha256": "sha256:240485aea449489988b9ea9a3fcd4658548ca0ee512242f40bbb6298eda37219",
+    "checked": "2026-09-27"
+  }
+}

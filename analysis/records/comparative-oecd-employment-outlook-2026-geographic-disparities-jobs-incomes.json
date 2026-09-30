@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-employment-outlook-2026-geographic-disparities-jobs-incomes",
+  "title": "Headline labour resilience masks widening place-based differences in jobs, wages, skills, and bargaining conditions",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD, OECD Employment Outlook 2026: Geographic Disparities in Jobs and Incomes",
+  "geography": "OECD countries, subnational regions, workers, households, firms, and local labour markets",
+  "observations": [
+    {
+      "period": "2026; OECD headline labour-market conditions",
+      "denominator": {"value": 38, "unit": "OECD member-country comparison frame", "value_type": "country_comparison_frame"},
+      "measures": {
+        "unemployment_rate": {"value": 4.9, "unit": "percent OECD unemployment rate in May 2026", "value_type": "reported_rate"},
+        "employment_rate": {"value": 72.1, "unit": "percent average OECD employment rate in Q1 2026", "value_type": "reported_rate"},
+        "labour_force_participation": {"value": 76.7, "unit": "percent average OECD labour-force participation rate in Q1 2026", "value_type": "reported_rate"},
+        "resilience_boundary": {"value": "headline employment and participation remain high while unemployment is rising slightly and growth is flattening", "unit": "OECD labour-market synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD labour-market surveillance using national and OECD statistical indicators, recent employment and unemployment developments, and comparative policy analysis.",
+      "uncertainty": "OECD averages conceal country, region, age, occupation, contract, and household differences; low unemployment does not establish job quality, security, or bargaining power.",
+      "subgroup": "Young entrants, prime-age and older workers, migrants, firms, households, and workers in regions with different labour-market tightness.",
+      "counterinterpretation": "Record employment and low unemployment can represent real gains even when the pace of improvement slows or the distribution of gains is unequal.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html",
+      "retrieval_hash": "sha256:78210006f295de190acce6501196974c143b3f3d0988012d531be697263df421",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2026; real wages, energy shocks, and young labour-market entry",
+      "denominator": {"value": 1, "unit": "OECD wage and labour-market comparison frame", "value_type": "labour_income_frame"},
+      "measures": {
+        "real_wage_recovery": {"value": "real wages remained below early-2021 levels in around one-third of OECD countries", "unit": "OECD country comparison", "value_type": "reported_distribution"},
+        "young_entry_difficulty": {"value": "young labour-market entrants face particular difficulties, with widening unemployment gaps in the countries analysed", "unit": "OECD labour-market synthesis", "value_type": "reported_distribution"},
+        "ai_explanation_boundary": {"value": "the role of recent large-language-model advances in young people’s difficulties appears limited in the evidence reviewed", "unit": "OECD evidence assessment", "value_type": "reported_boundary"},
+        "energy_transmission": {"value": "the 2026 energy shock is expected to put further pressure on wages", "unit": "OECD outlook assessment", "value_type": "reported_risk"}
+      },
+      "method": "OECD comparison of real wages, employment entry, unemployment gaps, labour-market tightness, and technology-related evidence.",
+      "uncertainty": "The report does not establish one causal source for wage or youth-entry outcomes; energy, demand, skills, technology, demographics, and local labour-market conditions interact.",
+      "subgroup": "Young entrants, workers with different education levels, wage earners, energy-exposed sectors, and households whose purchasing room depends on real income.",
+      "counterinterpretation": "Wage recovery may resume as inflation and energy pressures ease, while targeted skills and employment policies can improve entry without treating AI as the sole explanation.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html",
+      "retrieval_hash": "sha256:78210006f295de190acce6501196974c143b3f3d0988012d531be697263df421",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2022; structural shocks and local labour-market divergence",
+      "denominator": {"value": 14, "unit": "OECD countries in the report's linked employer-employee and regional structural-change analysis", "value_type": "country_analysis_frame"},
+      "measures": {
+        "shock_channels": {"value": "trade, digitalisation, artificial intelligence, robotics, and the energy transition are reshaping local labour markets", "unit": "OECD structural-change synthesis", "value_type": "reported_mechanism_set"},
+        "place_divergence": {"value": "some places emerge stronger while others experience persistent economic decline, producing divergent employment and well-being trajectories", "unit": "OECD regional analysis", "value_type": "reported_mechanism"},
+        "distributional_endpoint": {"value": "regional structural change affects workers, employers, and the economic fortunes of places differently", "unit": "OECD regional-labour-market synthesis", "value_type": "reported_distribution"},
+        "policy_endpoint": {"value": "place-based labour-market, industrial, education, infrastructure, and social policies are needed alongside worker support", "unit": "OECD policy framing", "value_type": "reported_policy_framework"}
+      },
+      "method": "OECD regional analysis of trade and technology shocks using linked employer-employee and local labour-market evidence across 14 countries, interpreted with broader regional policy synthesis.",
+      "uncertainty": "The cross-country analysis is not a universal causal estimate for every region and does not show that a particular policy package will reverse decline everywhere.",
+      "subgroup": "Lagging and leading regions, workers exposed to structural change, firms, local institutions, commuters, and households tied to place-specific job and service opportunities.",
+      "counterinterpretation": "Places can adapt through new industries, mobility, skills, infrastructure, and public investment; divergence is a risk pattern, not an irreversible destiny.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/component-7.html",
+      "retrieval_hash": "sha256:78210006f295de190acce6501196974c143b3f3d0988012d531be697263df421",
+      "status": "reported"
+    },
+    {
+      "period": "2026; skills, training, employment protection, and non-compete constraints",
+      "denominator": {"value": 1, "unit": "OECD employment-policy and job-mobility synthesis frame", "value_type": "employment_policy_frame"},
+      "measures": {
+        "skills_returns": {"value": "returns to skills depend on occupations, work practices, and training design rather than skills alone", "unit": "OECD report finding", "value_type": "reported_mechanism"},
+        "noncompete": {"value": "non-compete clauses are pervasive and have adverse effects on productivity and wages", "unit": "OECD report finding", "value_type": "reported_mechanism"},
+        "protection_design": {"value": "tailored employment-protection legislation can help labour markets navigate short-term fluctuations and structural change", "unit": "OECD policy framing", "value_type": "reported_policy_framework"},
+        "institutional_route": {"value": "skills policy, employment protection, worker mobility, and local economic development interact", "unit": "OECD synthesis", "value_type": "reported_mechanism_set"}
+      },
+      "method": "OECD comparative review of skills, training, employment protection, non-compete agreements, job mobility, and local labour-market policy.",
+      "uncertainty": "The report does not identify the effect of every clause or training programme in every occupation and does not directly observe worker bargaining or household welfare.",
+      "subgroup": "Workers changing jobs, workers in occupations with non-competes, employers, trainees, local governments, and institutions managing structural transitions.",
+      "counterinterpretation": "Some restrictions can protect legitimate investment or trade secrets, and training can pay off when job design and institutions allow workers to use the acquired skills.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en.html",
+      "retrieval_hash": "sha256:78210006f295de190acce6501196974c143b3f3d0988012d531be697263df421",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/oecd-employment-outlook-2026_7e710f54-en/full-report/places-and-people-the-impact-of-structural-change-on-local-labour-markets_a0874d97.html", "claim": "OECD chapter on local exposure to trade and technology shocks and place-based policy implications."},
+    {"source_url": "https://www.oecd.org/en/about/news/press-releases/2026/07/oecd-job-markets-remain-strong-but-real-wages-are-lagging.html", "claim": "OECD release summarizing employment, unemployment, wage, and energy-shock findings."}
+  ],
+  "boundary": "This record adds a place-based labour-market route across headline resilience, real wages, young entry, structural shocks, skills, non-compete constraints, and employment policy. It uses OECD aggregate indicators, regional analysis, and report synthesis, not respondent-level employment histories, individual wage panels, private employer files, causal AI displacement estimates, or proof that a policy works uniformly across places.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Employment Outlook 2026 landing page, full report, local-labour-market chapter, and press release reviewed for labour-market rates, wage recovery, youth entry, structural shocks, skills, non-competes, and policy boundaries.",
+    "source_url_sha256": "sha256:78210006f295de190acce6501196974c143b3f3d0988012d531be697263df421",
+    "checked": "2026-09-26"
+  }
+}

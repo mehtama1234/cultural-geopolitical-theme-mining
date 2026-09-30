@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-england-dcms-participation-survey-2024-25-arts-physical-digital-deprivation",
+  "title": "England’s arts participation remains physical-first while digital access is thinner among disadvantaged groups",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "time_hidden_price",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport and Department for Science, Innovation and Technology, Participation Survey 2024–25",
+  "geography": "England; adults aged 16 and over, with arts participation, physical/digital mode, disability, socioeconomic classification, and deprivation dimensions",
+  "observations": [
+    {
+      "period": "April 2024 to March 2025; arts engagement during the previous 12 months",
+      "denominator": {"value": null, "unit": "Adults aged 16 and over in England in the nationally representative Participation Survey", "value_type": "not_disclosed"},
+      "measures": {
+        "any_arts_engagement": {"value": 91, "unit": "percent engaging with the arts at least once", "value_type": "reported_survey_share"},
+        "physical_arts_engagement": {"value": 90, "unit": "percent engaging with the arts physically at least once", "value_type": "reported_survey_share"},
+        "digital_arts_engagement": {"value": 35, "unit": "percent engaging with the arts digitally at least once", "value_type": "reported_survey_share"},
+        "physical_only": {"value": 56, "unit": "percent engaging exclusively physically among all adults", "value_type": "reported_survey_share"},
+        "both_physical_and_digital": {"value": 34, "unit": "percent engaging through both physical and digital routes", "value_type": "reported_survey_share"},
+        "digital_only": {"value": 1, "unit": "percent engaging exclusively digitally", "value_type": "reported_survey_share"},
+        "digital_2021_22": {"value": 27, "unit": "percent engaging with the arts digitally in 2021/22", "value_type": "reported_time_series_share"},
+        "mechanism": {"value": "Digital culture has expanded but remains a complement for most participants: the dominant route is physical-only engagement, so digital access does not automatically substitute for place-based cultural infrastructure", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the official annual Participation Survey report; physical and digital arts engagement cover the previous 12 months and the report presents statistically significant comparisons where stated.",
+      "uncertainty": "The survey year and retrospective question windows overlap calendar periods; questionnaire changes and mixed paper/web collection constrain exact year-to-year comparisons. Engagement is self-reported and does not measure frequency, spending, quality, or causal substitution.",
+      "subgroup": "Adults aged 16 and over in England, with physical and digital arts engagement routes.",
+      "counterinterpretation": "High physical engagement includes low-cost or home-based activities such as reading, and digital engagement may be undercounted or differently interpreted; the mode split does not reveal whether people prefer, can afford, or can reach particular venues.",
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/main-report-for-the-participation-survey-april-2024-to-march-2025",
+      "retrieval_hash": "sha256:56977edb6c412398cbe26500c884db3fb04e6bc330d74c19618e6d119a7ad94c",
+      "status": "reported"
+    },
+    {
+      "period": "April 2024 to March 2025; arts engagement by disability, socioeconomic classification, and area deprivation",
+      "denominator": {"value": null, "unit": "Adults aged 16 and over in England in the relevant demographic subgroup", "value_type": "not_disclosed"},
+      "measures": {
+        "disabled_physical": {"value": 89, "unit": "percent of disabled adults engaging with the arts physically", "value_type": "reported_subgroup_share"},
+        "non_disabled_physical": {"value": 91, "unit": "percent of non-disabled adults engaging with the arts physically", "value_type": "reported_subgroup_share"},
+        "higher_professional_physical": {"value": 95, "unit": "percent of adults in higher managerial, administrative, and professional occupations engaging physically", "value_type": "reported_subgroup_share"},
+        "routine_manual_physical": {"value": 86, "unit": "percent of adults in routine and manual occupations engaging physically", "value_type": "reported_subgroup_share"},
+        "never_worked_long_term_unemployed_physical": {"value": 77, "unit": "percent of adults who never worked or were long-term unemployed engaging physically", "value_type": "reported_subgroup_share"},
+        "most_deprived_physical": {"value": 81, "unit": "percent of adults in the most deprived areas engaging physically", "value_type": "reported_subgroup_share"},
+        "least_deprived_physical": {"value": 95, "unit": "percent of adults in the least deprived areas engaging physically", "value_type": "reported_subgroup_share"},
+        "higher_professional_digital": {"value": 40, "unit": "percent of adults in higher managerial, administrative, and professional occupations engaging digitally", "value_type": "reported_subgroup_share"},
+        "routine_manual_digital": {"value": 30, "unit": "percent of adults in routine and manual occupations engaging digitally", "value_type": "reported_subgroup_share"},
+        "never_worked_long_term_unemployed_digital": {"value": 28, "unit": "percent of adults who never worked or were long-term unemployed engaging digitally", "value_type": "reported_subgroup_share"},
+        "most_deprived_digital": {"value": 31, "unit": "percent of adults in the most deprived areas engaging digitally", "value_type": "reported_subgroup_share"},
+        "least_deprived_digital": {"value": 39, "unit": "percent of adults in the least deprived areas engaging digitally", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "The access gradient is larger for physical participation than for disability alone and persists across both physical and digital modes by socioeconomic position and deprivation, indicating unequal cultural optionality rather than one simple digital divide", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction of published subgroup shares; the report states that only statistically significant differences are reported.",
+      "uncertainty": "These are cross-sectional subgroup comparisons and do not isolate income, education, transport, health, supply, household time, or cultural preference. The disability comparison reports no significant digital difference, but that does not prove equal digital usability or outcomes.",
+      "subgroup": "England adults by disability status, occupational socioeconomic classification, and Index of Multiple Deprivation decile.",
+      "counterinterpretation": "The physical gradient may partly reflect differences in activity mix, age, local supply, household composition, or reporting; arts engagement is a broad category and cannot be treated as venue attendance or consumer spending.",
+      "source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/main-report-for-the-participation-survey-april-2024-to-march-2025",
+      "retrieval_hash": "sha256:56977edb6c412398cbe26500c884db3fb04e6bc330d74c19618e6d119a7ad94c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication", "claim": "Official publication page for the annual Participation Survey and linked data tables."},
+    {"source_url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication/participation-survey-2024-to-2025-annual-technical-report", "claim": "Official technical report route describing the survey design and quality boundaries."}
+  ],
+  "boundary": "This record adds a national England arts-participation and physical/digital optionality layer. It does not establish transport causality, venue access, consumer spending, cultural quality, or causal effects of deprivation, disability, occupation, or digital use.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official DCMS/DSIT main report and annual publication page reviewed for arts headline levels, physical/digital composition, time series, disability, socioeconomic, deprivation, and barrier comparisons; survey-window and questionnaire caveats retained.",
+    "html_sha256": "sha256:56977edb6c412398cbe26500c884db3fb04e6bc330d74c19618e6d119a7ad94c",
+    "checked": "2026-09-30"
+  }
+}

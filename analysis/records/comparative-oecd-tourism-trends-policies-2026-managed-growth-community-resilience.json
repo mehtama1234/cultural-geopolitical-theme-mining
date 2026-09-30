@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-tourism-trends-policies-2026-managed-growth-community-resilience",
+  "title": "Tourism is moving from rebound to managed growth as geopolitical, climate, infrastructure, digital, and community pressures converge",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD, Tourism Trends and Policies 2026",
+  "geography": "53 OECD and partner countries; tourism performance, policy, resilience, social benefits, and extreme-weather adaptation",
+  "observations": [
+    {
+      "period": "2024–2025; OECD tourism performance",
+      "denominator": {"value": 53, "unit": "OECD and partner countries covered by the report", "value_type": "country_coverage"},
+      "measures": {
+        "international_arrivals_2024": {"value": 819500000, "unit": "international tourist arrivals to OECD countries in 2024", "value_type": "reported_arrivals"},
+        "arrival_change_2024": {"value": 8.1, "unit": "percent increase in OECD international tourist arrivals in 2024", "value_type": "reported_change"},
+        "arrival_change_2025": {"value": 3.4, "unit": "estimated percent increase in arrivals during 2025", "value_type": "reported_estimate"},
+        "economic_significance": {"value": "Tourism directly contributed 4.0% of GDP and 19.3% of services exports in OECD countries", "unit": "reported economic contribution", "value_type": "reported_share"}
+      },
+      "method": "OECD synthesis of tourism statistics, policy developments, country profiles, and thematic analysis across 53 OECD and partner countries.",
+      "uncertainty": "Arrival, GDP, and services-export measures are aggregate country-level indicators; they do not show local retention, job quality, resident welfare, seasonality, or distribution across firms and communities.",
+      "subgroup": "Visitors, tourism workers, destination residents, firms, transport and hospitality providers, governments, and communities dependent on visitor spending.",
+      "counterinterpretation": "Strong tourism demand can support jobs, exports, local enterprise, and cultural exchange, while some destinations may deliberately limit volume or prioritize non-tourism development.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en.html",
+      "retrieval_hash": "sha256:f5e00dd86b7a2f7ce236bffc4eb67cc1632a5432b62295c0b47a038e6d4fa920",
+      "status": "reported"
+    },
+    {
+      "period": "2026; tourism risk and demand management",
+      "denominator": {"value": 1, "unit": "OECD tourism policy synthesis", "value_type": "policy_analysis_universe"},
+      "measures": {
+        "risk_convergence": {"value": "Geopolitical tensions, conflict, safety concerns, affordability, and extreme weather are jointly shaping near-term travel patterns and operating risk", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "management_shift": {"value": "Policy priorities are shifting from restoring demand toward managing visitor flows, crisis preparedness, resilience, and balanced economic, social, and environmental outcomes", "unit": "reported policy shift", "value_type": "reported_policy_mechanism"},
+        "coordination_route": {"value": "Whole-of-government and multi-level coordination is increasingly treated as necessary for tourism governance", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD executive-summary synthesis of tourism policy reforms, country practices, geopolitical risk, and extreme-weather adaptation priorities.",
+      "uncertainty": "The report identifies policy direction and risk channels rather than estimating a universal causal effect of any single shock on travel, prices, or community outcomes.",
+      "subgroup": "Destinations, local authorities, tourism businesses, transport systems, residents, visitors, and emergency or climate-risk managers.",
+      "counterinterpretation": "Flexible coordination may improve resilience, but it can also increase administrative burdens or centralize decisions unless local communities have meaningful authority.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en.html",
+      "retrieval_hash": "sha256:f5e00dd86b7a2f7ce236bffc4eb67cc1632a5432b62295c0b47a038e6d4fa920",
+      "status": "reported"
+    },
+    {
+      "period": "2026; social benefits and local value creation",
+      "denominator": {"value": 1, "unit": "tourism destinations and communities discussed in OECD policy analysis", "value_type": "policy_analysis_universe"},
+      "measures": {
+        "concentration_pressure": {"value": "Concentrated visitor flows pressure infrastructure and communities while less-visited places miss potential tourism benefits", "unit": "reported distribution pattern", "value_type": "reported_pattern"},
+        "community_route": {"value": "The report recommends empowering local communities, spreading flows to prepared areas, investing in shared infrastructure, supporting local businesses, and integrating tourism with regional development", "unit": "reported policy route", "value_type": "reported_policy_mechanism"},
+        "value_model": {"value": "Tourism success is increasingly framed as sustained local economic value plus resilience, environmental stewardship, and positive community outcomes", "unit": "reported policy frame", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD thematic analysis of social benefits, destination governance, local value creation, visitor management, and regional development practices.",
+      "uncertainty": "Policy recommendations do not establish that local value creation or flow-spreading has occurred uniformly or that any particular intervention resolves crowding, displacement, or inequality.",
+      "subgroup": "Host communities, local businesses, residents, destination authorities, cultural assets, rural and less-visited regions, and visitors.",
+      "counterinterpretation": "Visitor concentration can be efficient for infrastructure and revenue, and tourism growth may generate resources for preservation; distributional effects vary by place, ownership, and governance.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en.html",
+      "retrieval_hash": "sha256:f5e00dd86b7a2f7ce236bffc4eb67cc1632a5432b62295c0b47a038e6d4fa920",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digitalisation, AI, infrastructure, and extreme-weather adaptation",
+      "denominator": {"value": 1, "unit": "tourism policy and operating-capacity framework", "value_type": "policy_analysis_universe"},
+      "measures": {
+        "digital_route": {"value": "Digitalisation and AI are presented as tools for destination management, operational efficiency, personalised experiences, and more timely tourism data", "unit": "reported technology mechanism", "value_type": "reported_mechanism"},
+        "adaptation_route": {"value": "Tourism planning increasingly requires risk assessment, early warning, crisis response, resilient infrastructure, nature-based solutions, and adaptation skills", "unit": "reported climate-adaptation mechanism", "value_type": "reported_policy_mechanism"},
+        "enabling_conditions": {"value": "Skills, finance, streamlined regulation, reliable transport, connectivity, and support for SMEs are identified as conditions for a competitive and resilient transition", "unit": "reported sector condition", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD synthesis of digital transformation, AI, infrastructure, skills, finance, climate adaptation, and tourism-business policy evidence.",
+      "uncertainty": "The publication does not measure AI effectiveness, data quality, algorithmic distributional effects, infrastructure performance, or the frequency and severity of local weather losses in a common causal design.",
+      "subgroup": "Tourism SMEs, workers, digital providers, destination managers, transport operators, residents, visitors, and communities exposed to extreme weather.",
+      "counterinterpretation": "Digital tools and resilient infrastructure can improve access and safety, but can also increase surveillance, vendor dependence, exclusion, or energy and maintenance costs.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en.html",
+      "retrieval_hash": "sha256:f5e00dd86b7a2f7ce236bffc4eb67cc1632a5432b62295c0b47a038e6d4fa920",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/travel-tourism-development-index-2026/", "claim": "Complementary cross-economy index evidence on tourism capability, cultural resources, openness, affordability, and workforce constraints."},
+    {"source_url": "https://publications.iom.int/books/world-migration-report-2026-chapter-2", "claim": "Complementary migration and mobility context for cross-border movement and geopolitical mobility conditions."}
+  ],
+  "boundary": "This record adds an official OECD policy and sector-performance lens on tourism as a coupled cultural, consumer, infrastructure, climate, labor, digital, and geopolitical system. It uses aggregate indicators and policy synthesis, not respondent-level data, individual travel histories, household affordability, worker wages, resident sentiment, causal tourism effects, or proof that recommendations were implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD publication page and executive summary reviewed for coverage, arrivals, economic contribution, geopolitical and weather risk, visitor concentration, community benefits, digitalisation, AI, infrastructure, skills, and adaptation priorities.",
+    "source_url_sha256": "sha256:f5e00dd86b7a2f7ce236bffc4eb67cc1632a5432b62295c0b47a038e6d4fa920",
+    "checked": "2026-09-26"
+  }
+}

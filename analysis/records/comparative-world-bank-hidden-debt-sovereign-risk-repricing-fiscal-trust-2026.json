@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-hidden-debt-sovereign-risk-repricing-fiscal-trust-2026",
+  "title": "Hidden-debt revelations create a transparency shock that reprices sovereign risk and fiscal room",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11462, Sovereign Risk Repricing after Hidden-Debt Revelations",
+  "geography": "Seven sovereign hidden-debt revelation episodes during 2005-2025: Dominican Republic, Ecuador, Mozambique, Pakistan, Senegal, Türkiye, and Zambia",
+  "observations": [
+    {
+      "period": "Seven hidden-debt revelations; first 60 days after each revelation",
+      "denominator": {"value": 7, "unit": "country episodes in the event-study sample", "value_type": "reported_episode_frame"},
+      "measures": {
+        "first_30_days": {"value": "pooled sovereign risk spreads rise 108 basis points on average during the first 30 days", "unit": "basis points", "value_type": "reported_event_study_estimate"},
+        "first_10_days": {"value": "66 basis points of the first-30-day increase occurs in the first 10 days", "unit": "basis points", "value_type": "reported_event_study_estimate"},
+        "days_31_60": {"value": "spreads rise by an additional 98 basis points during days 31-60", "unit": "basis points", "value_type": "reported_event_study_estimate"},
+        "repricing_mechanism": {"value": "markets reassess repayment risk and fiscal sustainability when previously undisclosed liabilities become public", "unit": "bounded sovereign-finance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Daily sovereign risk spread event study around seven hidden-debt revelations, with alternative specifications used as robustness checks.",
+      "uncertainty": "The sample contains only seven episodes; spread movements can also reflect contemporaneous macroeconomic, political, commodity, or global-risk shocks, although the paper reports robust baseline results.",
+      "subgroup": "Borrowing governments, domestic taxpayers, public-service users, creditors, firms dependent on public contracts, and households exposed to later fiscal adjustment.",
+      "counterinterpretation": "A spread increase is a market-risk measure; it does not by itself establish a subsequent default, austerity package, decline in public services, or realized household welfare loss.",
+      "source_url": "https://documents.worldbank.org/curated/en/099221109222632720/pdf/IDU-713deded-89d6-42d3-af5a-50bd9b56c1a1.pdf",
+      "retrieval_hash": "sha256:ba05fb9be4ff58c256c09ed2add89b89158e13264d5aa19717c54b628b0b7f59",
+      "status": "reported"
+    },
+    {
+      "period": "Hidden-debt revelations with different reconciliation trajectories; 60 days after revelation",
+      "denominator": {"value": 7, "unit": "country episodes available for suggestive heterogeneity analysis", "value_type": "reported_episode_frame"},
+      "measures": {
+        "contested_reconciliation": {"value": "when debt reconciliation is delayed or contested, sovereign spreads rise roughly 200 basis points more over 60 days than when reconciliation is prompt", "unit": "basis points", "value_type": "suggestive_heterogeneity_estimate"},
+        "information_persistence": {"value": "uncertainty about the full scope of undisclosed obligations can keep spreads elevated for longer", "unit": "bounded information-and-risk mechanism", "value_type": "bounded_mechanism"},
+        "governance_signal": {"value": "repricing reflects not only the newly measured debt stock but also market inference about borrowing-country governance and transparency", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "trust_route": {"value": "the credibility of disclosure and reconciliation becomes part of the fiscal signal evaluated by external markets", "unit": "bounded public-trust mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Event-study comparison of spread paths by whether debt reconciliation was prompt versus delayed or contested.",
+      "uncertainty": "The paper labels this result suggestive because the number of episodes is small; reconciliation categories may also bundle differences in politics, institutions, debt composition, and revelation size.",
+      "subgroup": "Government auditors, finance ministries, legislatures, creditors, rating and market participants, firms, and citizens evaluating fiscal credibility.",
+      "counterinterpretation": "The result does not prove that a single communication strategy restores trust or that disclosure automatically lowers borrowing costs; substantive fiscal correction and institutional credibility may matter jointly.",
+      "source_url": "https://documents.worldbank.org/curated/en/099221109222632720/pdf/IDU-713deded-89d6-42d3-af5a-50bd9b56c1a1.pdf",
+      "retrieval_hash": "sha256:ba05fb9be4ff58c256c09ed2add89b89158e13264d5aa19717c54b628b0b7f59",
+      "status": "reported"
+    },
+    {
+      "period": "Sovereign borrowing and downstream fiscal adjustment after hidden-debt revelation",
+      "denominator": {"value": 1, "unit": "transmission chain tested as an analytical boundary rather than a household-level estimate", "value_type": "bounded_inference_frame"},
+      "measures": {
+        "fiscal_room": {"value": "higher sovereign spreads mechanically raise the cost of refinancing and can narrow future fiscal room", "unit": "bounded fiscal-transmission mechanism", "value_type": "bounded_mechanism"},
+        "public_system_route": {"value": "any later effects on public services, transfers, taxes, procurement, or infrastructure require a separate country-level follow-through test", "unit": "evidence boundary", "value_type": "reported_boundary"},
+        "political_attribution": {"value": "the revelation can convert hidden liabilities into a visible contest over responsibility, disclosure, and who bears adjustment costs", "unit": "bounded political-accountability mechanism", "value_type": "bounded_mechanism"},
+        "consumer_household_route": {"value": "household consumption and security may be affected only through subsequent fiscal, price, employment, or service changes not measured in this paper", "unit": "evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Cross-domain interpretation of the paper's sovereign-spread result, with explicit separation between observed market repricing and unobserved social outcomes.",
+      "uncertainty": "The paper does not estimate household welfare, service delivery, tax incidence, political legitimacy, or firm behavior after each revelation; the downstream chain is a testable research agenda, not a measured effect here.",
+      "subgroup": "Households with different tax, transfer, employment, and service dependencies; firms reliant on public finance; and political groups contesting responsibility for hidden obligations.",
+      "counterinterpretation": "Governments may absorb or refinance the higher cost without immediate service cuts, and later reforms may improve transparency or fiscal resilience; direction and distribution of downstream effects are country-specific.",
+      "source_url": "https://documents.worldbank.org/curated/en/099221109222632720/pdf/IDU-713deded-89d6-42d3-af5a-50bd9b56c1a1.pdf",
+      "retrieval_hash": "sha256:ba05fb9be4ff58c256c09ed2add89b89158e13264d5aa19717c54b628b0b7f59",
+      "status": "inferred"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099221109222632720", "claim": "Official World Bank record, authors, date, WPS number, abstract, and reproducibility link."},
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11462.html", "claim": "Bibliographic record and abstract reporting the 108 basis-point and additional 98-basis-point estimates and suggestive reconciliation heterogeneity."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/644", "claim": "World Bank reproducibility package and verification metadata."},
+    {"source_url": "https://embed-rech-01.dialog.cm/world.bank.publications/docs/global_economic_prospects_june_2026", "claim": "World Bank Global Economic Prospects discussion of hidden-debt revelations, persistent spread increases, governance/transparency inference, and fiscal implications."}
+  ],
+  "boundary": "This record adds a transparency-to-sovereign-risk repricing mechanism. It is an event-study of market spreads across seven episodes, not evidence that hidden-debt revelations directly caused household welfare loss, public-service decline, austerity, default, or political legitimacy change. Those downstream cultural, social, consumer, and political effects require named country follow-through sources.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document page, abstract record, Global Economic Prospects discussion, and reproducibility metadata were reviewed for the seven episodes, daily spread event study, 108 basis points in the first 30 days, 66 basis points in the first 10 days, additional 98 basis points in days 31-60, suggestive reconciliation heterogeneity, and downstream evidence boundaries.",
+    "source_url_sha256": "sha256:ba05fb9be4ff58c256c09ed2add89b89158e13264d5aa19717c54b628b0b7f59",
+    "checked": "2026-09-29"
+  }
+}

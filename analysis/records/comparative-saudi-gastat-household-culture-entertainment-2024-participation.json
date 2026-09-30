@@ -1,0 +1,166 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-saudi-gastat-household-culture-entertainment-2024-participation",
+  "title": "Saudi cultural participation is broad at the event level but concentrated in everyday public and commercial spaces",
+  "theme_ids": [
+    "time",
+    "cost",
+    "voice"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "platforms_data_attention"
+  ],
+  "source_unit": "General Authority for Statistics Household Culture and Entertainment Survey 2024",
+  "geography": "Saudi Arabia; individuals aged 15 years and above, Saudi and non-Saudi residents",
+  "observations": [
+    {
+      "period": "2024 survey reference year; attendance and participation in the preceding 12 months",
+      "denominator": {
+        "value": null,
+        "unit": "individuals aged 15 years and above in the GASTAT household culture and entertainment survey; public publication does not state the sample count in the headline release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "cultural_event_visit": {
+          "value": 81.6,
+          "unit": "percent who visited at least one cultural event or activity venue",
+          "value_type": "official_survey_share"
+        },
+        "entertainment_event_visit": {
+          "value": 85.3,
+          "unit": "percent who visited at least one entertainment event or activity venue",
+          "value_type": "official_survey_share"
+        },
+        "cultural_activity_practice": {
+          "value": 39.0,
+          "unit": "percent who practiced a cultural activity",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Attendance is much broader than active cultural practice, suggesting a participation culture built more around visiting events and venues than producing or practicing culture",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "GASTAT household survey of residents aged 15 and above, using telephone interviews with a selected sample; attendance and participation refer to the preceding 12 months.",
+      "uncertainty": "The headline publication does not provide the sample count in the accessible summary; attendance is self-reported and the aggregate does not establish frequency, cost, accessibility, repeat use, or causal effects of cultural policy.",
+      "subgroup": "Saudi and non-Saudi residents aged 15 years and above; the publication also provides demographic breakdowns by sex, nationality, education, age, and marital status.",
+      "counterinterpretation": "A single visit can satisfy the survey definition of attendance, while active practice may occur privately or through informal settings not fully captured by the listed activity categories.",
+      "source_url": "https://www.stats.gov.sa/documents/20117/2435273/Household%2BCulture%2Band%2BEntertainment%2BStatistics%2BPublication%2B2024%2BEN.pdf/591d6f59-c7ae-5ef4-0190-56643b41f4e7",
+      "retrieval_hash": "sha256:6298fc9f9b8553d4cee415a03bf26d965b66dea535a04ee11b462051649714d6",
+      "status": "reported"
+    },
+    {
+      "period": "2024 survey reference year; cultural venue and event mix",
+      "denominator": {
+        "value": null,
+        "unit": "individuals aged 15 years and above in the GASTAT survey; category percentages are not mutually exclusive",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "parks_and_gardens": {
+          "value": 65.8,
+          "unit": "percent who visited parks or gardens",
+          "value_type": "official_survey_share"
+        },
+        "national_celebrations": {
+          "value": 40.5,
+          "unit": "percent who attended national celebrations",
+          "value_type": "official_survey_share"
+        },
+        "cinemas": {
+          "value": 24.9,
+          "unit": "percent who visited cinemas",
+          "value_type": "official_survey_share"
+        },
+        "museums": {
+          "value": 13.4,
+          "unit": "percent who visited museums",
+          "value_type": "official_survey_share"
+        },
+        "literary_or_poetry_events": {
+          "value": 2.5,
+          "unit": "percent who attended a literary gathering or poetry evening",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Cultural participation is distributed through accessible public and civic spaces far more widely than through specialized literary or formal cultural venues",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "GASTAT survey percentages by type of cultural event or activity visited during the preceding 12 months; categories are overlapping rather than a modal-choice distribution.",
+      "uncertainty": "The source does not identify price, travel distance, event supply, frequency, or whether high attendance at public spaces substitutes for or complements specialized cultural participation.",
+      "subgroup": "Individuals aged 15 years and above; demographic breakdowns exist in the accompanying tables but are not reproduced as causal subgroup comparisons here.",
+      "counterinterpretation": "Public-space attendance may be a cultural experience in its own right rather than a lower-intensity substitute for museums, cinema, or literary events; venue categories have different frequency and cost profiles.",
+      "source_url": "https://www.stats.gov.sa/documents/20117/2435273/Household%2BCulture%2Band%2BEntertainment%2BStatistics%2BPublication%2B2024%2BEN.pdf/591d6f59-c7ae-5ef4-0190-56643b41f4e7",
+      "retrieval_hash": "sha256:6298fc9f9b8553d4cee415a03bf26d965b66dea535a04ee11b462051649714d6",
+      "status": "reported"
+    },
+    {
+      "period": "2024 survey reference year; reading and everyday leisure routes",
+      "denominator": {
+        "value": null,
+        "unit": "individuals aged 15 years and above in the GASTAT survey",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "book_reading": {
+          "value": 48.5,
+          "unit": "percent who read books",
+          "value_type": "official_survey_share"
+        },
+        "newspaper_reading": {
+          "value": 38.2,
+          "unit": "percent who read newspapers",
+          "value_type": "official_survey_share"
+        },
+        "magazine_reading": {
+          "value": 17.2,
+          "unit": "percent who read magazines",
+          "value_type": "official_survey_share"
+        },
+        "malls": {
+          "value": 61.9,
+          "unit": "percent who visited shopping malls",
+          "value_type": "official_survey_share"
+        },
+        "desert_or_beach": {
+          "value": 60.2,
+          "unit": "percent who spent time in the desert or at the beach",
+          "value_type": "official_survey_share"
+        },
+        "mechanism": {
+          "value": "Everyday cultural and leisure life mixes reading with commercial and outdoor social spaces, so consumer culture is not reducible to formal arts venues",
+          "unit": "bounded analytical mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "GASTAT survey self-reports covering reading practices and entertainment or leisure venues during the survey reference periods.",
+      "uncertainty": "The measures do not show reading frequency, content, spending, social context, or whether malls and outdoor spaces were visited for cultural, commercial, family, or recreational reasons.",
+      "subgroup": "Individuals aged 15 years and above; book-reading headline includes Saudi and non-Saudi comparisons in the publication.",
+      "counterinterpretation": "High reading or mall attendance can coexist with unequal depth of engagement, and the survey's broad venue categories may combine distinct social meanings.",
+      "source_url": "https://www.stats.gov.sa/documents/20117/2435273/Household%2BCulture%2Band%2BEntertainment%2BStatistics%2BPublication%2B2024%2BEN.pdf/591d6f59-c7ae-5ef4-0190-56643b41f4e7",
+      "retrieval_hash": "sha256:6298fc9f9b8553d4cee415a03bf26d965b66dea535a04ee11b462051649714d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://stats.gov.sa/en/w/report-of-household-culture-and-entertainment-survey-statistics",
+      "claim": "GASTAT methodology confirms the 15+ statistical population, annual survey, 12-month attendance reference period, and CATI/CAPI collection design.",
+      "status": "official-methodology"
+    },
+    {
+      "source_url": "https://stats.gov.sa/en/w/%D9%85%D8%B3%D8%AD-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%81%D9%8A%D9%87-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%8A",
+      "claim": "GASTAT survey description documents the cultural, entertainment, reading, media, and demographic dimensions covered by the instrument.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds direct cultural-participation evidence from Saudi Arabia, distinguishing attendance, active practice, venue mix, reading, and everyday leisure. It does not establish causal effects of Vision 2030, equal access, affordability, frequency, quality, or cultural meaning; the 2024 English publication is a cross-sectional self-report survey.",
+  "retrieval_hash": "sha256:6298fc9f9b8553d4cee415a03bf26d965b66dea535a04ee11b462051649714d6"
+}

@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-culture-el-nino-heritage-climate-resilience-2026",
+  "title": "Climate resilience is expanding from physical infrastructure to cultural heritage, institutions, and community meaning",
+  "theme_ids": ["voice", "time", "cost", "energy"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "UNESCO, Culture x El Niño: campaign to respond to the threat of El Niño against culture and heritage, September 2026",
+  "geography": "Countries and communities facing expected or emerging 2026–2027 El Niño impacts on culture, heritage, and cultural institutions",
+  "observations": [
+    {
+      "period": "September 2026; expected and emerging 2026-2027 El Niño impacts",
+      "denominator": {"value": 1, "unit": "UNESCO global Culture x El Niño campaign", "value_type": "cultural_climate_response_frame"},
+      "measures": {
+        "risk_scope": {"value": "UNESCO is assisting countries to prepare for and respond to expected and already emerging impacts of El Niño on culture", "unit": "reported campaign scope", "value_type": "reported_risk_frame"},
+        "cultural_exposure": {"value": "culture includes heritage, museums, cultural institutions, practitioners, local and Indigenous communities, schools, and youth groups exposed to climate-related disruption", "unit": "reported affected-system set", "value_type": "reported_subgroup_set"},
+        "resilience_shift": {"value": "climate preparedness is framed as protecting cultural continuity and community meaning alongside physical assets", "unit": "reported policy framing", "value_type": "reported_synthesis"}
+      },
+      "method": "UNESCO public campaign description connecting climate-risk preparedness, cultural networks, heritage, and community-facing response.",
+      "uncertainty": "The campaign page does not provide a quantified impact estimate, country-by-country exposure model, or evaluation of cultural losses or response effectiveness.",
+      "subgroup": "National culture authorities, heritage and natural heritage managers, museums, cultural practitioners, local and Indigenous communities, schools, and youth groups.",
+      "counterinterpretation": "Cultural assets can be protected through local preparedness and adaptation, and risk does not imply inevitable loss; priorities and exposure differ across places and forms of culture.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-launches-major-campaign-respond-threat-el-nino-against-culture-and-heritage",
+      "retrieval_hash": "sha256:8c13f821a54892f4c589db8e2a3488c0791dc920cb9817d42948573fdad8c6b4",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; preparedness finance and technical assistance",
+      "denominator": {"value": 1, "unit": "UNESCO Heritage Emergency Fund and technical-assistance response", "value_type": "cultural_resilience_investment_frame"},
+      "measures": {
+        "funding_route": {"value": "UNESCO plans to make funding available through the Heritage Emergency Fund for countries facing acute El Niño risks", "unit": "reported response instrument", "value_type": "reported_policy_instrument"},
+        "technical_route": {"value": "technical assistance is paired with emergency preparedness and response", "unit": "reported capacity-building instrument", "value_type": "reported_policy_set"},
+        "network_route": {"value": "UNESCO is working through global institutional partners including UNDRR, ICCROM, ICOM, and the Smithsonian Institution", "unit": "reported partnership set", "value_type": "reported_partnership"},
+        "implementation_test": {"value": "funding and technical assistance should be tracked through preparedness plans, local capacity, protected sites, continuity of practice, and community-defined priorities", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "UNESCO description of Heritage Emergency Fund financing, technical assistance, and partner networks for climate-related cultural preparedness.",
+      "uncertainty": "Announced funding and partnerships do not establish disbursement, coverage, local participation, or measurable protection outcomes.",
+      "subgroup": "Cultural authorities, heritage managers, museums, practitioners, local and Indigenous communities, emergency planners, donors, and partner organizations.",
+      "counterinterpretation": "Central coordination can mobilize scarce expertise and resources, but externally designed protection can miss local meanings, customary stewardship, or less formal cultural practices.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-launches-major-campaign-respond-threat-el-nino-against-culture-and-heritage",
+      "retrieval_hash": "sha256:8c13f821a54892f4c589db8e2a3488c0791dc920cb9817d42948573fdad8c6b4",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; scientific information, education, and cultural continuity",
+      "denominator": {"value": 1, "unit": "UNESCO Culture x El Niño public-information and outreach route", "value_type": "cultural_information_frame"},
+      "measures": {
+        "information_route": {"value": "scientific information about potential El Niño impacts will be circulated through exhibitions, education, and outreach programmes", "unit": "reported communication mechanism", "value_type": "reported_policy_mechanism"},
+        "knowledge_translation": {"value": "climate information is being translated into cultural and community settings rather than left only in technical risk systems", "unit": "analytic mechanism", "value_type": "analytic_mechanism"},
+        "meaning_route": {"value": "cultural continuity can support identity, collective memory, belonging, and recovery when places and practices are disrupted", "unit": "analytic cultural mechanism", "value_type": "analytic_mechanism_set"},
+        "boundary": {"value": "the campaign does not establish that outreach changes preparedness behavior, reduces loss, or guarantees equitable recovery", "unit": "interpretation boundary", "value_type": "boundary"}
+      },
+      "method": "Cross-source interpretation of UNESCO’s scientific-information, exhibition, education, and outreach framing.",
+      "uncertainty": "The public campaign description does not evaluate audience reach, comprehension, local adaptation, or effects on preparedness and recovery.",
+      "subgroup": "Students and youth, cultural audiences, community organizations, practitioners, educators, local authorities, and people whose cultural practices are climate-exposed.",
+      "counterinterpretation": "Cultural communication can build trust and relevance, but it can also overburden cultural institutions with emergency responsibilities without durable funding or climate expertise.",
+      "source_url": "https://www.unesco.org/en/articles/unesco-launches-major-campaign-respond-threat-el-nino-against-culture-and-heritage",
+      "retrieval_hash": "sha256:8c13f821a54892f4c589db8e2a3488c0791dc920cb9817d42948573fdad8c6b4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/articles/algorithm-room-seeing-and-confronting-implications-ai-future-education?hub=66916", "claim": "UNESCO education-and-AI work provides complementary institutional and cultural-public-space context."},
+    {"source_url": "https://www.unesco.org/en/culture-and-climate-change", "claim": "UNESCO culture-and-climate work provides complementary heritage, policy, and adaptation context."}
+  ],
+  "boundary": "This record adds a culture-and-climate-resilience route from El Niño risk through heritage, cultural institutions, community meaning, emergency funding, technical assistance, scientific communication, and continuity of practice. It is a bounded campaign description, not a climate forecast, cultural-loss estimate, implementation evaluation, or proof that cultural programming changes resilience outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO 11 September 2026 campaign page was reviewed for 2026-2027 El Niño risk, affected cultural groups, Heritage Emergency Fund financing, technical assistance, partner networks, scientific-information outreach, and implementation limits.",
+    "source_url_sha256": "sha256:8c13f821a54892f4c589db8e2a3488c0791dc920cb9817d42948573fdad8c6b4",
+    "checked": "2026-09-26"
+  }
+}

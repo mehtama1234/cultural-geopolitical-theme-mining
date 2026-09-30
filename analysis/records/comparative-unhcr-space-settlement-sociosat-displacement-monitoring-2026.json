@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unhcr-space-settlement-sociosat-displacement-monitoring-2026",
+  "title": "Satellite monitoring is filling the time between displacement surveys, extending socioeconomic visibility while leaving verification and coverage limits open",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNHCR Data Visualization Platform, From Space to Settlement: South Sudan socioeconomic monitoring between displacement surveys, September 2026",
+  "geography": "Displacement-affected areas of South Sudan covered by UNHCR Forced Displacement Survey and Results Monitoring Survey locations",
+  "observations": [
+    {
+      "period": "September 2026; data continuity between displacement surveys",
+      "denominator": {"value": 1, "unit": "UNHCR SocioSat monitoring approach", "value_type": "displacement_data_system_frame"},
+      "measures": {
+        "survey_gap": {"value": "displacement settings can change faster than high-quality household surveys can be repeated", "unit": "reported monitoring problem", "value_type": "reported_constraint"},
+        "satellite_role": {"value": "satellite estimates complement survey evidence by providing a more continuous view of where socioeconomic conditions may be shifting", "unit": "reported data-system function", "value_type": "reported_mechanism"},
+        "operational_use": {"value": "repeated estimates can flag locations for attention, contextual analysis, and field verification between survey rounds", "unit": "reported operational pathway", "value_type": "reported_policy_use"}
+      },
+      "method": "UNHCR SocioSat approach combining satellite imagery with Forced Displacement Survey and Results Monitoring Survey evidence, with validation and limitations documented in an accompanying paper.",
+      "uncertainty": "Satellite estimates are proxies and require local validation; they do not replace household surveys, administrative data, protection monitoring, or direct community feedback.",
+      "subgroup": "Refugees, internally displaced people, returnees, host communities, humanitarian operations, local authorities, and field-verification teams.",
+      "counterinterpretation": "More frequent spatial signals may improve targeting, but they can also create false precision or divert attention toward measurable places and away from less visible needs.",
+      "source_url": "https://dataviz.unhcr.org/product-gallery/2026/09/from-space-to-settlement/",
+      "retrieval_hash": "sha256:62226eb36511222f334bfe9c0476537f3e9cfc1e8bb72459133dd3382ce3c414",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; South Sudan survey baseline and repeated imagery",
+      "denominator": {"value": 3, "unit": "years represented by 2023 survey baseline and 2024 and 2025 imagery", "value_type": "monitoring_time_window_years"},
+      "measures": {
+        "baseline": {"value": "the 2023 Forced Displacement Survey provides a socioeconomic survey baseline", "unit": "reported evidence layer", "value_type": "reported_baseline"},
+        "time_extension": {"value": "imagery from 2024 and 2025 extends the picture beyond the survey year", "unit": "reported monitoring extension", "value_type": "reported_method"},
+        "change_detection": {"value": "the model is intended to show where socioeconomic conditions may have moved between higher-quality survey rounds", "unit": "reported analytic function", "value_type": "reported_mechanism"},
+        "open_stage": {"value": "flagged change still requires contextual interpretation and field verification before operational or policy conclusions", "unit": "evidence boundary", "value_type": "boundary"}
+      },
+      "method": "UNHCR comparison of survey-based estimates with satellite imagery across 2023-2025 in covered South Sudan locations.",
+      "uncertainty": "The time series is not a direct panel of the same households, and imagery-derived change can reflect multiple physical, social, environmental, or measurement processes.",
+      "subgroup": "Displacement-affected locations, communities living in and around camps, out-of-camp refugees, returnees, and host populations.",
+      "counterinterpretation": "Repeated imagery can make slow or missed deterioration visible, but it cannot reveal the meaning, safety, coping, or priorities behind a spatial signal without human evidence.",
+      "source_url": "https://dataviz.unhcr.org/product-gallery/2026/09/from-space-to-settlement/",
+      "retrieval_hash": "sha256:62226eb36511222f334bfe9c0476537f3e9cfc1e8bb72459133dd3382ce3c414",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; spatial coverage and displacement-setting inclusion",
+      "denominator": {"value": 1, "unit": "Admin-3 areas where UNHCR FDS and RMS data were collected", "value_type": "geographic_coverage_frame"},
+      "measures": {
+        "coverage": {"value": "analysis covers locations within the Admin-3 levels where FDS and RMS data were collected", "unit": "reported geographic scope", "value_type": "reported_coverage"},
+        "included_settings": {"value": "formal camp areas, refugees living outside camps, and surrounding host communities are included", "unit": "reported displacement-setting scope", "value_type": "reported_subgroup_set"},
+        "exclusion": {"value": "results represent covered displacement-affected areas and not the entire country", "unit": "reported coverage limitation", "value_type": "boundary"},
+        "place_route": {"value": "spatial monitoring can connect displacement, settlement conditions, host-community pressure, infrastructure, and service targeting", "unit": "analytic mechanism set", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "UNHCR spatial analysis constrained to survey-covered Admin-3 areas and displacement-affected settings.",
+      "uncertainty": "Coverage boundaries limit national inference; formal and informal settlements, mobile populations, and places without survey baselines may be underrepresented.",
+      "subgroup": "Camp and non-camp displaced populations, returnees, host communities, local authorities, and humanitarian service providers in covered areas.",
+      "counterinterpretation": "Restricting the model to survey-covered areas can improve calibration, even while leaving broader populations outside the monitoring frame.",
+      "source_url": "https://dataviz.unhcr.org/product-gallery/2026/09/from-space-to-settlement/",
+      "retrieval_hash": "sha256:62226eb36511222f334bfe9c0476537f3e9cfc1e8bb72459133dd3382ce3c414",
+      "status": "reported"
+    },
+    {
+      "period": "2026; humanitarian data governance and operational accountability",
+      "denominator": {"value": 1, "unit": "UNHCR monitoring and field-verification workflow", "value_type": "humanitarian_data_governance_frame"},
+      "measures": {
+        "complementarity": {"value": "satellite estimates, survey evidence, field verification, and programme monitoring are complementary rather than interchangeable", "unit": "reported evidence architecture", "value_type": "reported_mechanism_set"},
+        "decision_route": {"value": "the useful chain is signal, contextual analysis, verification, operational decision, and later monitoring", "unit": "analytic decision chain", "value_type": "analytic_mechanism_set"},
+        "accountability_question": {"value": "people affected by displacement should remain visible as communities with priorities and rights, not only as remotely inferred spatial indicators", "unit": "governance boundary", "value_type": "analytic_boundary"},
+        "next_test": {"value": "join imagery signals to services, shelter, livelihoods, prices, protection, community feedback, and response timing", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Cross-source interpretation of UNHCR’s SocioSat, survey, validation, and operational-use framing.",
+      "uncertainty": "The public product does not establish the accuracy or effect of any specific intervention triggered by satellite monitoring.",
+      "subgroup": "Displaced people, host communities, humanitarian agencies, governments, donors, data scientists, and field staff.",
+      "counterinterpretation": "Remote sensing can protect scarce field capacity and improve early warning when used transparently, with consent-sensitive practice and meaningful community verification.",
+      "source_url": "https://dataviz.unhcr.org/product-gallery/2026/09/from-space-to-settlement/",
+      "retrieval_hash": "sha256:62226eb36511222f334bfe9c0476537f3e9cfc1e8bb72459133dd3382ce3c414",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unhcr.org/refugee-statistics/methodology/", "claim": "UNHCR displacement statistics methodology provides complementary definitions and population-count context."},
+    {"source_url": "https://www.unhcr.org/global-trends-report-2025", "claim": "UNHCR Global Trends provides complementary global displacement totals and return context."}
+  ],
+  "boundary": "This record adds a displacement-data continuity route from satellite monitoring through socioeconomic change detection, place targeting, field verification, and operational accountability. It is not respondent-level data, a household panel, a national estimate for South Sudan, proof of causal service effects, or a replacement for community feedback and direct protection evidence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNHCR Data Visualization Platform product page was reviewed for the SocioSat purpose, FDS and RMS complementarity, South Sudan 2023-2025 time extension, Admin-3 coverage, camp and host-community inclusion, and field-verification limitations.",
+    "source_url_sha256": "sha256:62226eb36511222f334bfe9c0476537f3e9cfc1e8bb72459133dd3382ce3c414",
+    "checked": "2026-09-26"
+  }
+}

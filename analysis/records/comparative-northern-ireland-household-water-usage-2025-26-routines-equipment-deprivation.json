@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-northern-ireland-household-water-usage-2025-26-routines-equipment-deprivation",
+  "title": "Household water behavior is structured by routine, dwelling equipment, and deprivation rather than conservation preference alone",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": ["household_room_consumption", "infrastructure_technology_dependency", "unequal_exposure_status", "care_health_reproduction", "trust_identity_meaning"],
+  "source_unit": "Northern Ireland Department for Infrastructure / Northern Ireland Statistics and Research Agency, Household Water Usage in Northern Ireland 2025/26",
+  "geography": "Northern Ireland private households and adults, with settlement, local-government-district, and deprivation-quintile comparisons",
+  "observations": [
+    {
+      "period": "April 2025-March 2026 Continuous Household Survey; individual water routines",
+      "denominator": {"value": 4004, "unit": "individual respondents in 3,459 participating Northern Ireland households; water questions were included in the even split-sample questionnaire", "value_type": "survey_frame"},
+      "measures": {
+        "shower_daily": {"value": 48, "unit": "percent indicating they shower seven times a week", "value_type": "reported_survey_share"},
+        "shower_three_plus": {"value": 89, "unit": "percent indicating they shower three or more times a week", "value_type": "reported_survey_share"},
+        "shower_duration_5_or_less": {"value": 43, "unit": "percent reporting an average shower duration of five minutes or less", "value_type": "reported_survey_share"},
+        "shower_duration_6_10": {"value": 45, "unit": "percent reporting an average shower duration of six to ten minutes", "value_type": "reported_survey_share"},
+        "bath_nonuse_or_absence": {"value": 65, "unit": "percent who never use a bath or do not own one; 8% use a bath more than once a week", "value_type": "reported_survey_share"}
+      },
+      "method": "Northern Ireland Continuous Household Survey, a random household sample designed to represent the Northern Ireland population at household level; individual responses were weighted by sex and age, while household responses remained unweighted.",
+      "uncertainty": "These are self-reported routine frequencies, not metered water volumes, and the split questionnaire means not every CHS respondent received the water-use questions. Frequency does not reveal whether routines are chosen, constrained by housing, or changed during drought or price pressure.",
+      "subgroup": "Adults in Northern Ireland, with sex, settlement, deprivation, and local-government-district comparisons.",
+      "counterinterpretation": "Short showers and low bath use may reflect convenience, dwelling norms, time pressure, or equipment rather than environmental conservation; reported routine is not equivalent to water intensity.",
+      "source_url": "https://datavis.nisra.gov.uk/infrastructure/Household-Water-Main-R-2526.html",
+      "retrieval_hash": "sha256:f23843a81191fd53afdfe2403bfdfedb6fa2a15288ee688f1212e5e5cff50beb",
+      "status": "reported"
+    },
+    {
+      "period": "April 2025-March 2026 Continuous Household Survey; household appliances and sanitation equipment",
+      "denominator": {"value": 3459, "unit": "participating Northern Ireland households; household responses remain unweighted", "value_type": "survey_frame"},
+      "measures": {
+        "outside_water_equipment": {"value": 84, "unit": "percent of households with a hosepipe or bucket for outside use", "value_type": "reported_survey_share"},
+        "washing_machine_more_than_weekly": {"value": 85, "unit": "percent of households using a washing machine more than once a week", "value_type": "reported_survey_share"},
+        "washing_machine_daily": {"value": 25, "unit": "percent of households using a washing machine every day", "value_type": "reported_survey_share"},
+        "dishwasher_absent": {"value": 43, "unit": "percent of households without a dishwasher", "value_type": "reported_survey_share"},
+        "dishwasher_daily": {"value": 18, "unit": "percent of households using a dishwasher every day", "value_type": "reported_survey_share"},
+        "dual_flush": {"value": 72, "unit": "percent of households with a dual-flush toilet", "value_type": "reported_survey_share"}
+      },
+      "method": "Household-level questions in the CHS water-use module, with breakdowns by settlement type, local-government district, and deprivation quintile.",
+      "uncertainty": "Equipment ownership and frequency do not measure appliance efficiency, water volume, repair quality, affordability, or whether households can substitute behavior when infrastructure or supply conditions change.",
+      "subgroup": "Northern Ireland households by urban/rural settlement, local-government district, and deprivation quintile.",
+      "counterinterpretation": "Household equipment can expand practical convenience and reduce time costs while also locking in different water-demand patterns; ownership is not a welfare score.",
+      "source_url": "https://datavis.nisra.gov.uk/infrastructure/Household-Water-Main-R-2526.html",
+      "retrieval_hash": "sha256:f23843a81191fd53afdfe2403bfdfedb6fa2a15288ee688f1212e5e5cff50beb",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 survey; deprivation and settlement differences in household equipment and outdoor use",
+      "denominator": {"value": 3459, "unit": "participating Northern Ireland households with water-use questions", "value_type": "survey_frame"},
+      "measures": {
+        "outside_equipment_rural_urban": {"value": "90% of rural households versus 80% of urban households reported a hosepipe or bucket for outside use", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_pattern"},
+        "outside_equipment_deprivation": {"value": "68% of households in the most deprived areas versus 91% in the least deprived areas reported a hosepipe or bucket", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_pattern"},
+        "dual_flush_deprivation": {"value": "68% in the most deprived areas versus 81% in the least deprived areas reported a dual-flush toilet", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_pattern"},
+        "dishwasher_deprivation": {"value": "62% of households in the most deprived areas versus 27% in the least deprived areas did not own a dishwasher", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_pattern"},
+        "rural_washing_daily": {"value": "32% of rural households versus 21% of urban households reported daily washing-machine use", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "Official CHS subgroup analysis; reported differences are statistically significant at the 95% confidence level where stated by the publication, with deprivation measured using Northern Ireland Multiple Deprivation Measure 2017 quintiles.",
+      "uncertainty": "Cross-sectional subgroup differences do not identify whether deprivation, dwelling type, household composition, income, infrastructure, or local norms cause the equipment and routine gaps. Household responses are not weighted, and small-cell disclosure controls apply to some breakdowns.",
+      "subgroup": "Rural and urban households and households in the most and least deprived Northern Ireland deprivation quintiles.",
+      "counterinterpretation": "The gaps may reflect different housing stock and household composition as much as resource constraint; the survey does not measure bills, water prices, or actual consumption volumes.",
+      "source_url": "https://datavis.nisra.gov.uk/infrastructure/Household-Water-Main-R-2526.html",
+      "retrieval_hash": "sha256:f23843a81191fd53afdfe2403bfdfedb6fa2a15288ee688f1212e5e5cff50beb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.infrastructure-ni.gov.uk/publications/household-water-usage-northern-ireland-202526", "claim": "Official Department for Infrastructure publication page linking the report, press release, infographic, Excel tables, and ODS tables.", "status": "official-publication-index"},
+    {"source_url": "https://www.infrastructure-ni.gov.uk/system/files/2026-09/household-water-usage-in-northern-ireland-2025-2026-press-release.pdf", "claim": "Official press release confirms the 3,459-household and 4,004-person CHS frame and headline water-use measures.", "status": "official-summary"},
+    {"source_url": "https://www.infrastructure-ni.gov.uk/system/files/2026-09/household-water-usage-in-northern-ireland-2025-2026-infographic.pdf", "claim": "Official infographic provides the routine and household-equipment headline distributions.", "status": "official-infographic"}
+  ],
+  "boundary": "This record adds a place-based household-consumption route from water routines and household equipment through time, infrastructure, deprivation, and environmental adaptation. It does not measure metered volumes, water bills, conservation effectiveness, health, appliance efficiency, causal deprivation effects, or a longitudinal response to drought or policy. Household and individual denominators are kept separate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official NISRA/DfI interactive report and DfI publication page were reviewed for sample design, split-questionnaire coverage, weighting, routine frequencies, appliance ownership, settlement and deprivation comparisons, significance, and disclosure-control caveats.",
+    "source_page_sha256": "sha256:f23843a81191fd53afdfe2403bfdfedb6fa2a15288ee688f1212e5e5cff50beb",
+    "checked": "2026-09-30"
+  }
+}

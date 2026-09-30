@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-prospects-2026-displacement-work-inclusion-systems",
+  "title": "Displacement response is shifting from short-term relief toward work, enterprise, social protection, and national-system inclusion",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "political_judgment_action", "trust_identity_meaning", "care_health_reproduction"],
+  "source_unit": "ILO PROSPECTS: Results at a glance, September 2026, published 24 September 2026",
+  "geography": "PROSPECTS partnership work with forcibly displaced persons and host communities across participating country programmes",
+  "observations": [
+    {
+      "period": "2018–2027; PROSPECTS partnership phase and institutional coalition",
+      "denominator": {"value": 5, "unit": "core international partners named in the PROSPECTS partnership", "value_type": "reported_partner_count"},
+      "measures": {"partners": {"value": "Government of the Netherlands, IFC, ILO, UNHCR, UNICEF, and World Bank are named as the partnership actors", "unit": "reported partnership composition", "value_type": "reported_framework"}, "programme_horizon": {"value": "the partnership was launched in 2018 and is in its second phase through 2027", "unit": "reported programme horizon", "value_type": "reported_timeline"}, "response_shift": {"value": "PROSPECTS supports a shift from short-term humanitarian assistance toward longer-term development-centred solutions", "unit": "reported policy direction", "value_type": "reported_framework"}},
+      "method": "ILO summarizes a multi-agency partnership and its contribution to longer-term solutions for displaced people and host communities.",
+      "uncertainty": "The partnership description does not provide a complete country-by-country reach, counterfactual, or causal estimate of durable inclusion.",
+      "subgroup": "Forcibly displaced persons, refugees, host communities, national institutions, employers, workers' organizations, and local economic actors.",
+      "counterinterpretation": "A longer programme horizon can support systems change, but humanitarian needs may remain acute and long-term development approaches may not reach people excluded from formal systems.",
+      "source_url": "https://www.ilo.org/resource/brief/ilo-prospects-results-glance-september-2026",
+      "retrieval_hash": "sha256:b25fe7b773ba90c4e7a65a162f4cf51ae1b205ed02746efaff0bddb18e4f62d0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; labour-market inclusion route",
+      "denominator": {"value": 1, "unit": "ILO PROSPECTS labour-market inclusion approach", "value_type": "published_framework"},
+      "measures": {"decent_work": {"value": "ILO works with governments, employers, and workers' organizations to advance decent work and include forcibly displaced persons and host communities in national labour markets", "unit": "reported implementation route", "value_type": "reported_framework"}, "skills": {"value": "skills development is a named inclusion mechanism", "unit": "reported intervention area", "value_type": "reported_framework"}, "employment": {"value": "employment access is a named inclusion mechanism", "unit": "reported intervention area", "value_type": "reported_framework"}, "standards": {"value": "the approach is grounded in international labour standards", "unit": "reported governance basis", "value_type": "reported_framework"}},
+      "method": "The brief describes institutional and labour-market pathways for inclusion rather than only humanitarian delivery.",
+      "uncertainty": "Named pathways do not establish employment rates, job quality, legal work access, earnings, or parity between displaced and host populations.",
+      "subgroup": "Displaced workers, host-community workers, employers, trade unions, labour ministries, training providers, and informal workers.",
+      "counterinterpretation": "Labour-market inclusion can improve autonomy and social connection, but weak demand, documentation barriers, informality, discrimination, and local job scarcity can limit gains.",
+      "source_url": "https://www.ilo.org/resource/brief/ilo-prospects-results-glance-september-2026",
+      "retrieval_hash": "sha256:b25fe7b773ba90c4e7a65a162f4cf51ae1b205ed02746efaff0bddb18e4f62d0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; national-system and social-protection route",
+      "denominator": {"value": 1, "unit": "PROSPECTS systems-strengthening approach", "value_type": "published_framework"},
+      "measures": {"national_systems": {"value": "strengthening national systems and institutions is central to addressing shared and evolving needs", "unit": "reported systems direction", "value_type": "reported_framework"}, "social_protection": {"value": "social protection is a named mechanism for inclusion", "unit": "reported intervention area", "value_type": "reported_framework"}, "local_economy": {"value": "local economic development and access to enterprise opportunities are named mechanisms", "unit": "reported intervention areas", "value_type": "reported_framework"}},
+      "method": "ILO frames inclusion through public systems, social protection, local economic development, and enterprise opportunities for displaced and host populations.",
+      "uncertainty": "The framework does not provide a national-system capacity score, benefit-coverage estimate, or evidence that all participating systems are durable or inclusive.",
+      "subgroup": "Displaced households, host communities, public agencies, small enterprises, entrepreneurs, social-protection administrators, and local economic institutions.",
+      "counterinterpretation": "System integration can reduce parallelism, but national systems may themselves be underfunded, exclusionary, or unable to absorb additional demand.",
+      "source_url": "https://www.ilo.org/resource/brief/ilo-prospects-results-glance-september-2026",
+      "retrieval_hash": "sha256:b25fe7b773ba90c4e7a65a162f4cf51ae1b205ed02746efaff0bddb18e4f62d0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; inclusive-society outcome frame",
+      "denominator": {"value": 1, "unit": "PROSPECTS shared-needs and host-community outcome frame", "value_type": "published_framework"},
+      "measures": {"shared_needs": {"value": "the partnership addresses shared and evolving needs of refugees and host communities", "unit": "reported outcome frame", "value_type": "reported_framework"}, "inclusive_society": {"value": "the partnership contributes to more inclusive societies", "unit": "reported outcome direction", "value_type": "reported_framework"}, "coordination": {"value": "governments, employers' and workers' organizations, and international partners are connected in implementation", "unit": "reported coordination frame", "value_type": "reported_framework"}},
+      "method": "The brief links displaced-person inclusion to host-community conditions and multi-actor institutional cooperation.",
+      "uncertainty": "An inclusive-society contribution is a programme objective and framing, not a measured change in belonging, social cohesion, or host-community attitudes.",
+      "subgroup": "Refugees, internally displaced and other forcibly displaced people where covered by programmes, host residents, employers, workers' organizations, and public institutions.",
+      "counterinterpretation": "Shared programming may support cohesion, but competition over jobs, services, housing, or political attention can still produce local tension.",
+      "source_url": "https://www.ilo.org/resource/brief/ilo-prospects-results-glance-september-2026",
+      "retrieval_hash": "sha256:b25fe7b773ba90c4e7a65a162f4cf51ae1b205ed02746efaff0bddb18e4f62d0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "Complementary ILO global labour-market and decent-work context."}, {"source_url": "https://www.unicef.org/reports/global-programme-framework", "claim": "Complementary UNICEF framework on children affected by migration and displacement."}],
+  "boundary": "This record adds an implementation and labour-market route linking forced displacement, host communities, decent work, skills, employment, enterprise, social protection, national systems, and inclusive-society goals. It uses a public programme results brief, not respondent-level employment histories, a complete beneficiary census, job-quality or earnings estimates, causal programme evaluation, representative host-community attitudes, or proof of durable inclusion.",
+  "reproduction_audit": {"retrieval_hash_scope": "ILO's official September 2026 PROSPECTS results page was reviewed for partnership composition, programme horizon, the shift toward development-centred solutions, labour-market inclusion, social protection, local economic development, enterprise access, and national-system framing.", "source_url_sha256": "sha256:b25fe7b773ba90c4e7a65a162f4cf51ae1b205ed02746efaff0bddb18e4f62d0", "checked": "2026-09-27"}
+}

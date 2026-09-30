@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-regional-wellbeing-2026-eleven-dimensions-place-trust-policy-targeting",
+  "title": "Well-being is becoming a place-based policy and trust problem rather than a national average",
+  "theme_ids": ["cost", "time", "voice", "work", "energy"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "OECD Regional Well-Being interactive tool and user guide",
+  "geography": "OECD regions; the official OECD overview describes comparison across 447 regions, with region definitions and tool versions subject to update",
+  "observations": [
+    {
+      "period": "Current OECD Regional Well-Being framework; 11 topics",
+      "denominator": {"value": 11, "unit": "well-being topics", "value_type": "reported_framework_count"},
+      "measures": {
+        "topics": {"value": "income, jobs, housing, health, access to services, environment, education, safety, civic engagement and governance, community, and life satisfaction", "unit": "measured well-being dimensions", "value_type": "reported_framework"},
+        "beyond_gdp": {"value": "the tool is designed to complement economic statistics with measures of how life is lived in places", "unit": "measurement rationale", "value_type": "reported_rationale"},
+        "policy_route": {"value": "comparable regional measures can help target policy and empower communities to act", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD regional indicator framework combining comparable subnational measures into topic scores and allowing within-country and cross-region comparison.",
+      "uncertainty": "The dimensions are not a complete account of lived experience; indicator availability, reference years, geographic boundaries, normalization, and the interpretation of topic scores vary by country and update.",
+      "subgroup": "Residents of metropolitan, intermediate, rural, island, and sparsely populated OECD regions with different service, labor, housing, and institutional conditions.",
+      "counterinterpretation": "A broad well-being dashboard can improve visibility without proving which policy caused an outcome or whether residents experience all dimensions uniformly.",
+      "source_url": "https://www.oecd.org/en/data/tools/oecd-regional-well-being.html",
+      "retrieval_hash": "sha256:48e4947f98107b685678537a88e9de23d3f901c3436774ef4a11701537fa0593",
+      "status": "reported"
+    },
+    {
+      "period": "Current OECD Regional Well-Being tool; regional comparison coverage",
+      "denominator": {"value": 447, "unit": "OECD regions identified in the official tool overview", "value_type": "reported_region_count"},
+      "measures": {
+        "regional_comparison": {"value": "the tool enables comparison across 447 OECD regions", "unit": "regional coverage", "value_type": "reported_coverage"},
+        "within_country": {"value": "regions can be compared with one another and with their national context", "unit": "comparison design", "value_type": "reported_design"},
+        "place_mechanism": {"value": "national averages can conceal materially different combinations of jobs, housing, services, safety, and life satisfaction", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Interactive place-based comparison using regional indicators and topic scores.",
+      "uncertainty": "Other OECD pages and newer tool versions display different region counts, indicating a version or boundary-update issue; this record preserves the 447 figure from the primary overview rather than harmonizing incompatible versions.",
+      "subgroup": "Regions within the same country, including metropolitan and non-metropolitan places that share national institutions but differ in local capacity and exposure.",
+      "counterinterpretation": "Regional comparison can encourage ranking without explaining migration selection, historic investment, national redistribution, or local governance differences.",
+      "source_url": "https://www.oecd.org/en/data/tools/oecd-regional-well-being.html",
+      "retrieval_hash": "sha256:48e4947f98107b685678537a88e9de23d3f901c3436774ef4a11701537fa0593",
+      "status": "reported"
+    },
+    {
+      "period": "Regional well-being disparity measurement; within-country comparison",
+      "denominator": {"value": 2, "unit": "top and bottom regional quintile groups", "value_type": "reported_comparison_groups"},
+      "measures": {
+        "disparity_ratio": {"value": "the user guide uses a top-20%-to-bottom-20% comparison to describe within-country regional disparities", "unit": "regional disparity comparison", "value_type": "reported_method"},
+        "distribution": {"value": "regional inequality is not reducible to income because service access, housing, health, safety, education, environment, community, and civic conditions can diverge together or separately", "unit": "bounded analytical interpretation", "value_type": "bounded_mechanism"},
+        "policy_targeting": {"value": "place-based measurement makes it possible to identify where a national improvement is not reaching people or where a local strength could be protected", "unit": "bounded policy use", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD user-guide description of regional well-being scores and top/bottom regional comparison within countries.",
+      "uncertainty": "A quintile gap is descriptive and sensitive to the number and definition of regions; it does not estimate causal effects, individual inequality, or the distribution within each region.",
+      "subgroup": "Residents and institutions in high- and low-performing regions, with particular relevance to places experiencing service contraction, weak connectivity, or limited fiscal and administrative capacity.",
+      "counterinterpretation": "A low regional score may reflect measurement gaps, rural geography, or different preferences as well as material disadvantage; rankings should not substitute for local inquiry.",
+      "source_url": "https://oecdregionalwellbeing.org/assets/downloads/Regional-Well-Being-User-Guide.pdf",
+      "retrieval_hash": "sha256:84c2a306dc4a1df3c46294851bf4de6dbe7b2288b8eeb717fe0346f1e338ddff",
+      "status": "reported"
+    },
+    {
+      "period": "Regional inclusion and governance implications; current OECD framing",
+      "denominator": {"value": 1, "unit": "place-based policy and governance route", "value_type": "analytical_route"},
+      "measures": {
+        "regional_gaps": {"value": "regional inequalities extend beyond economic outcomes and often include differences in talent, skills, health, education, and high-speed internet", "unit": "reported OECD assessment", "value_type": "reported_assessment"},
+        "capacity_route": {"value": "public services, infrastructure, local skills, multi-level governance, and subnational fiscal and strategic capacity are levers for breaking cycles of stagnation", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "trust_route": {"value": "persistent place-based gaps can become a trust and legitimacy problem when institutions appear unable or unwilling to make local conditions workable", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Synthesis of the OECD Regional Well-Being framework with OECD inclusion-and-equality-in-regions analysis.",
+      "uncertainty": "The OECD framing identifies policy levers and associations, not a single causal model linking regional scores to trust, voting, migration, or economic growth.",
+      "subgroup": "Poorly served rural and peripheral regions, metropolitan regions with stronger service and skills access, local governments, and residents facing uneven opportunity within the same national system.",
+      "counterinterpretation": "Regional investment alone may not restore trust if residents lack voice, procedural fairness, affordable housing, or confidence that improvements will persist.",
+      "source_url": "https://www.oecd.org/en/topics/inclusion-and-equality-in-regions.html",
+      "retrieval_hash": "sha256:3fb65b8404aa91aae9e9eb45bfe1838313351d326b76dec545044b1dace8857a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/data/tools/oecd-regional-well-being.html", "claim": "Official OECD tool overview and 11-topic framework."},
+    {"source_url": "https://oecdregionalwellbeing.org/", "claim": "Public interactive regional well-being tool and update notes."},
+    {"source_url": "https://www.oecd.org/en/topics/inclusion-and-equality-in-regions.html", "claim": "OECD framing of regional inequality, service access, and place-based policy capacity."}
+  ],
+  "boundary": "This record adds a place-based measurement and policy-targeting route. It does not treat regional scores as individual outcomes, causal policy estimates, a complete measure of lived experience, or proof that regional disparities directly produce political behavior or institutional distrust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Regional Well-Being overview, public tool, user guide, and inclusion-and-equality page reviewed for coverage, 11 dimensions, regional comparison, disparity framing, and place-based policy-capacity claims; OECD pages blocked direct curl hashing with HTTP 403.",
+    "source_url_sha256": "not-computed; official OECD page returned HTTP 403 to direct curl",
+    "checked": "2026-09-28"
+  }
+}

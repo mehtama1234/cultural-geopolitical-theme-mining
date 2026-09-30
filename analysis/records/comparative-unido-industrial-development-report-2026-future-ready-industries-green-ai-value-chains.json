@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unido-industrial-development-report-2026-future-ready-industries-green-ai-value-chains",
+  "title": "Future-ready industrialization must connect green transition, AI, value-chain change, food systems, jobs, and social inclusion",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "United Nations Industrial Development Organization, Industrial Development Report 2026: The Future of Industrialization",
+  "geography": "Global industrial development, manufacturing, value chains, energy and green transition, AI, demographics, food systems, and developing economies",
+  "observations": [
+    {
+      "period": "2026; global industrial trajectory",
+      "denominator": {"value": 1, "unit": "global industrial development, poverty, hunger, climate, and industrial-divide frame", "value_type": "global_industrial_frame"},
+      "measures": {
+        "trajectory_problem": {"value": "industrial development is presented as a potential lever to reverse an unsustainable global trajectory marked by poverty, hunger, climate risks, and deepening industrial divides", "unit": "UNIDO report framing", "value_type": "reported_framework"},
+        "industrial_role": {"value": "industry can drive low-emission economies, improve living standards, and support food and economic security", "unit": "UNIDO report framing", "value_type": "reported_mechanism"},
+        "divide_question": {"value": "industrial capacity, technology access, finance, and value-chain position determine who can convert global megatrends into development", "unit": "cross-source analytical mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNIDO global industrial-development assessment connecting manufacturing, sustainable development, technology, energy, and socioeconomic outcomes.",
+      "uncertainty": "The report's development pathways are analytical and policy-oriented; they do not establish that industrialization automatically reduces poverty or improves local welfare.",
+      "subgroup": "Developing economies, manufacturing workers, firms, communities near industrial infrastructure, consumers, governments, and countries with different productive capabilities.",
+      "counterinterpretation": "Industrial growth can increase pollution, labor exploitation, resource pressure, or dependence when regulation, worker voice, and local value retention are weak.",
+      "source_url": "https://www.unido.org/idr/idr2026",
+      "retrieval_hash": "sha256:021831d85a2a5cddb8eb43d85848f1e17ff8577e3700034f4abf121c930b59d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; green transition and industrial decarbonization",
+      "denominator": {"value": 1, "unit": "industrial energy, emissions, green technology, and productive-capacity frame", "value_type": "green_industry_frame"},
+      "measures": {
+        "green_transition": {"value": "the energy and green transition is reshaping industrial sectors, investment, competitiveness, and development pathways", "unit": "UNIDO report synthesis", "value_type": "reported_mechanism"},
+        "low_emission_industry": {"value": "future-ready industry must improve resource and energy efficiency while expanding productive opportunity", "unit": "UNIDO report framework", "value_type": "reported_framework"},
+        "distribution_question": {"value": "green industrial policy can create jobs and capability or impose transition costs on workers, consumers, and regions without bargaining power", "unit": "cross-source analytical mechanism", "value_type": "open_question"}
+      },
+      "method": "UNIDO synthesis of green industrialization, energy transition, technology upgrading, and sustainable production.",
+      "uncertainty": "The report does not estimate a country-specific emissions pathway, job count, energy price effect, or local environmental outcome.",
+      "subgroup": "Energy-intensive firms, industrial workers, communities near factories, energy-poor households, governments, investors, and clean-technology suppliers.",
+      "counterinterpretation": "Green upgrading can improve productivity, reduce pollution, strengthen energy security, and create new industrial capabilities when finance and skills are available.",
+      "source_url": "https://www.unido.org/idr/idr2026",
+      "retrieval_hash": "sha256:021831d85a2a5cddb8eb43d85848f1e17ff8577e3700034f4abf121c930b59d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI, digitalization, and changing value chains",
+      "denominator": {"value": 1, "unit": "industrial AI, digitalization, global value chains, and technology-upgrading frame", "value_type": "industrial_technology_frame"},
+      "measures": {
+        "ai_and_digitalization": {"value": "AI and digitalization are reshaping industrial organization, production, skills, and competitiveness", "unit": "UNIDO report synthesis", "value_type": "reported_mechanism"},
+        "value_chain_change": {"value": "global value chains are being reconfigured by technology, geopolitical conditions, and economic-security concerns", "unit": "UNIDO report framework", "value_type": "reported_pattern"},
+        "capability_requirement": {"value": "productive capabilities, infrastructure, skills, finance, and institutions determine whether countries upgrade or remain dependent", "unit": "UNIDO report framework", "value_type": "reported_mechanism"}
+      },
+      "method": "UNIDO analysis of industrial digitalization, AI, value-chain reconfiguration, and productive-capability gaps.",
+      "uncertainty": "The report does not provide causal AI employment estimates, firm-level supply-chain histories, or a guaranteed path from digital adoption to inclusive industrial upgrading.",
+      "subgroup": "Industrial workers, small firms, technology suppliers, developing economies, logistics systems, educators, and regions exposed to value-chain relocation.",
+      "counterinterpretation": "Value-chain reconfiguration can create entry points for new producers and regional diversification, especially when policy supports local learning and supplier development.",
+      "source_url": "https://www.unido.org/idr/idr2026",
+      "retrieval_hash": "sha256:021831d85a2a5cddb8eb43d85848f1e17ff8577e3700034f4abf121c930b59d4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; demographics, food systems, jobs, and social inclusion",
+      "denominator": {"value": 1, "unit": "industrial employment, demographic change, food systems, poverty, and inclusion frame", "value_type": "industrial_social_frame"},
+      "measures": {
+        "demographic_change": {"value": "demographic shifts alter labor supply, demand, skills, migration, and industrial location", "unit": "UNIDO report synthesis", "value_type": "reported_mechanism"},
+        "food_systems": {"value": "industrial capabilities in agroprocessing and related systems connect manufacturing to food security and rural-urban development", "unit": "UNIDO report framework", "value_type": "reported_framework"},
+        "job_quality": {"value": "industrial development must be evaluated not only by output but by poverty reduction, job quality, social inclusion, and environmental performance", "unit": "UNIDO report framework", "value_type": "reported_framework"}
+      },
+      "method": "UNIDO cross-sector synthesis of industry, demographics, food systems, employment, poverty, and inclusion.",
+      "uncertainty": "Aggregate industrial indicators do not establish individual employment histories, wage effects, household food security, or whether industrial jobs are decent and locally accessible.",
+      "subgroup": "Manufacturing workers, rural producers, migrants, youth, women, food-system workers, urban consumers, and communities affected by industrial expansion.",
+      "counterinterpretation": "Industrialization can support broad social mobility when accompanied by education, labor rights, public services, and equitable local investment.",
+      "source_url": "https://www.unido.org/idr/idr2026",
+      "retrieval_hash": "sha256:021831d85a2a5cddb8eb43d85848f1e17ff8577e3700034f4abf121c930b59d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wipo.int/publications/en/details.jsp?id=4833", "claim": "WIPO World Intellectual Property Report 2026 provides complementary technology-diffusion and innovation-ecosystem analysis."},
+    {"source_url": "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge", "claim": "UNCTAD Trade and Development Foresights 2026 provides complementary trade, energy, investment, and geopolitical context."}
+  ],
+  "boundary": "This record adds a global industrialization, green transition, AI, value-chain, demographic, food-system, and job-quality route. It uses report-level comparative analysis, not individual employment histories, firm microdata, causal industrial-policy estimates, household food diaries, or proof that industrial growth produces inclusive welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNIDO Industrial Development Report 2026 materials were reviewed for the global industrial trajectory, green transition, AI and digitalization, value-chain change, demographics, food systems, poverty, and social inclusion framing.",
+    "source_url_sha256": "sha256:021831d85a2a5cddb8eb43d85848f1e17ff8577e3700034f4abf121c930b59d4",
+    "checked": "2026-09-26"
+  }
+}

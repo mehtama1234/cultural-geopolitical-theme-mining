@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-yougov-consumer-duty-ai-financial-services-2026-human-fallback-trust",
+  "title": "Consumers read financial-services AI as a cost-and-profit project unless human fallback and accountability remain visible",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "YouGov Consumer Duty Index, Will AI help financial services companies act in consumers' best interests? The public aren't convinced",
+  "geography": "Great Britain; adults aged 18 and over",
+  "observations": [
+    {
+      "period": "August 2026; perceived effect of AI adoption on customer interests",
+      "denominator": {"value": 8220, "unit": "Great Britain adults in the weighted YouGov online survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "less_likely_best_interests": {"value": 53, "unit": "percent saying greater AI use makes financial-services companies less likely to act in customers' best interests", "value_type": "published_survey_estimate"},
+        "more_likely_best_interests": {"value": 11, "unit": "percent saying greater AI use makes companies more likely to act in customers' best interests", "value_type": "published_survey_estimate"},
+        "no_difference": {"value": 23, "unit": "percent saying greater AI use makes no difference to customer outcomes", "value_type": "published_survey_estimate"},
+        "vulnerable_customer_gap": {"value": "56% of vulnerable customers versus 47% of other consumers say AI makes companies less likely to act in customers' best interests.", "unit": "reported subgroup comparison", "value_type": "published_subgroup_estimate"},
+        "customer_outcome_route": {"value": "Adoption is judged through perceived customer outcomes, not efficiency alone, with vulnerability shaping the risk reading.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "YouGov online survey conducted in August 2026; figures weighted by age, gender, education, region, and social grade to represent Great Britain adults.",
+      "uncertainty": "This is weighted public-opinion evidence about expected outcomes, not observed financial-service decisions, complaints, harm, or Consumer Duty compliance.",
+      "subgroup": "Great Britain adults, with vulnerable-customer and age comparisons reported by YouGov.",
+      "counterinterpretation": "Negative expectations may reflect general distrust of financial institutions or automation rather than experience with a specific AI-enabled service.",
+      "source_url": "https://yougov.com/en-gb/articles/55555-will-ai-help-financial-services-companies-act-in-consumers-best-interests-the-public-arent-convinced",
+      "retrieval_hash": "sha256:1ffa707811d4dc438fd2b456e4f0eb80dc683517883ae2eeef4d0d89bb958514",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; public attribution of financial-services AI investment",
+      "denominator": {"value": 8220, "unit": "Great Britain adults in the weighted YouGov online survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "cost_reduction_motive": {"value": 68, "unit": "percent saying reducing operating costs is the main reason financial-services companies invest in AI", "value_type": "published_survey_estimate"},
+        "profit_motive": {"value": 60, "unit": "percent saying increasing profits is the main reason", "value_type": "published_survey_estimate"},
+        "customer_outcome_motive": {"value": 10, "unit": "percent saying improving financial outcomes for customers is the main reason", "value_type": "published_survey_estimate"},
+        "motive_gap": {"value": "Consumers attribute AI adoption much more to firm-side cost and profit goals than to better customer outcomes.", "unit": "reported perception gap", "value_type": "reported_mechanism"},
+        "younger_customer_benefit": {"value": "The customer-outcome motive rises to 14% among 18-34s and falls to 8% among over-55s.", "unit": "reported age comparison", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Cross-sectional survey items on perceived reasons for financial-services AI investment; multiple motive responses may be possible according to the public release.",
+      "uncertainty": "Perceived motives are not evidence of firms' actual investment objectives, cost savings, profitability, or customer outcomes.",
+      "subgroup": "Great Britain adults, with age comparisons for customer-outcome attribution.",
+      "counterinterpretation": "People may infer motives from wider narratives about automation and corporate profit rather than direct knowledge of financial-service deployments.",
+      "source_url": "https://yougov.com/en-gb/articles/55555-will-ai-help-financial-services-companies-act-in-consumers-best-interests-the-public-arent-convinced",
+      "retrieval_hash": "sha256:1ffa707811d4dc438fd2b456e4f0eb80dc683517883ae2eeef4d0d89bb958514",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; perceived risks of AI-mediated financial service",
+      "denominator": {"value": 8220, "unit": "Great Britain adults in the weighted YouGov online survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "reduced_human_interaction": {"value": 21, "unit": "percent citing reduced human interaction as a reason AI could harm customer interests", "value_type": "published_survey_estimate"},
+        "profit_over_customer": {"value": 20, "unit": "percent citing firms prioritising profit and cost savings over customers", "value_type": "published_survey_estimate"},
+        "lack_personalisation": {"value": 10, "unit": "percent citing lack of personalisation", "value_type": "published_survey_estimate"},
+        "older_human_support_concern": {"value": "24% of over-55s cite reduced human interaction, compared with 16% of 18-34s.", "unit": "reported age comparison", "value_type": "published_subgroup_estimate"},
+        "service_quality_route": {"value": "The public frames acceptable automation around human presence, personalisation, and visible priority for customer welfare.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey question on reasons respondents believe increased AI use could make firms less likely to act in customers' best interests.",
+      "uncertainty": "Coded response categories compress potentially overlapping concerns and do not measure actual service accessibility or interaction quality.",
+      "subgroup": "Great Britain adults, with age-specific comparison for concern about reduced human interaction.",
+      "counterinterpretation": "Human contact may function as a trust symbol even where automated service performs adequately; the survey does not test service outcomes.",
+      "source_url": "https://yougov.com/en-gb/articles/55555-will-ai-help-financial-services-companies-act-in-consumers-best-interests-the-public-arent-convinced",
+      "retrieval_hash": "sha256:1ffa707811d4dc438fd2b456e4f0eb80dc683517883ae2eeef4d0d89bb958514",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; safeguards that could increase confidence in financial-services AI",
+      "denominator": {"value": 8220, "unit": "Great Britain adults in the weighted YouGov online survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "human_fallback": {"value": 51, "unit": "percent saying confidence would increase if they could speak to a human when needed", "value_type": "published_survey_estimate"},
+        "older_human_fallback": {"value": 59, "unit": "percent of over-55s saying human access would increase confidence", "value_type": "published_subgroup_estimate"},
+        "accountability": {"value": 28, "unit": "percent selecting company accountability for AI-driven decisions as a confidence-building factor", "value_type": "published_survey_estimate"},
+        "personal_information": {"value": 22, "unit": "percent selecting strong personal-information protection as a confidence-building factor", "value_type": "published_survey_estimate"},
+        "trust_conversion": {"value": "Consumers are not rejecting AI categorically; they want reversibility to human help, accountable decisions, and data protection before treating automation as customer-serving.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional survey of preferred safeguards for AI use in financial services, with reported age comparisons.",
+      "uncertainty": "Stated safeguards are not evidence that firms provide them, that they restore trust, or that they improve financial outcomes.",
+      "subgroup": "Great Britain adults, especially over-55s and younger-consumer privacy responses.",
+      "counterinterpretation": "Respondents may select general fairness and privacy principles without having a specific financial-service use case in mind.",
+      "source_url": "https://yougov.com/en-gb/articles/55555-will-ai-help-financial-services-companies-act-in-consumers-best-interests-the-public-arent-convinced",
+      "retrieval_hash": "sha256:1ffa707811d4dc438fd2b456e4f0eb80dc683517883ae2eeef4d0d89bb958514",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://yougov.com/en-gb/articles/55555-will-ai-help-financial-services-companies-act-in-consumers-best-interests-the-public-arent-convinced",
+      "claim": "The official YouGov publication provides the sample, weighting, Consumer Duty framing, customer-outcome perceptions, motive attribution, human-interaction concerns, and confidence safeguards.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://www.fca.org.uk/publications/firms/consumer-duty",
+      "claim": "The Financial Conduct Authority's Consumer Duty framework supplies the regulatory context for good outcomes, acting in good faith, avoiding foreseeable harm, and supporting customers' financial objectives.",
+      "status": "regulatory-context"
+    }
+  ],
+  "boundary": "This record adds a consumer-governance route: financial-services AI is judged through perceived customer benefit, human fallback, accountability, personalisation, and data protection. It does not establish actual AI deployment, firm motives, consumer harm, financial inclusion, Consumer Duty compliance, or causal trust recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official YouGov publication page was reviewed for field period, sample, weighting, outcome expectations, motive attribution, risk categories, age and vulnerability comparisons, and safeguards.",
+    "source_page_sha256": "sha256:1ffa707811d4dc438fd2b456e4f0eb80dc683517883ae2eeef4d0d89bb958514",
+    "checked": "2026-09-28"
+  }
+}

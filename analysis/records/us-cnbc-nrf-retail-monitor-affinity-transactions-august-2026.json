@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cnbc-nrf-retail-monitor-affinity-transactions-august-2026",
+  "title": "Observed card spending continued to grow in August while households remained budget-conscious and the measurement system changed",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "CNBC/NRF Retail Monitor powered by Affinity Solutions",
+  "geography": "United States retail spending; anonymized permissioned credit and debit card transaction data",
+  "observations": [
+    {
+      "period": "August 2026; observed retail transaction growth",
+      "denominator": {"value": 140000000, "unit": "more than 140 million credit and debit cards contributing to the Retail Monitor data; transaction and projection denominators are not individual households", "value_type": "reported_transaction_data_frame"},
+      "measures": {
+        "total_retail_sales_mom": {"value": 0.22, "unit": "percent seasonally adjusted month-over-month change in total retail sales excluding autos and gas", "value_type": "reported_transaction_estimate"},
+        "total_retail_sales_yoy": {"value": 3.87, "unit": "percent seasonally adjusted year-over-year change in total retail sales excluding autos and gas", "value_type": "reported_transaction_estimate"},
+        "core_retail_sales_mom": {"value": 0.17, "unit": "percent seasonally adjusted month-over-month change excluding autos, gas, and restaurants", "value_type": "reported_transaction_estimate"},
+        "core_retail_sales_yoy": {"value": 3.47, "unit": "percent seasonally adjusted year-over-year change excluding autos, gas, and restaurants", "value_type": "reported_transaction_estimate"},
+        "consumer_mechanism": {"value": "aggregate card spending remained positive while NRF described households as budget-conscious and using back-to-school promotions to stretch dollars; sales growth does not identify whether growth came from prices, quantities, affluent households, promotion, debt, or substitution", "unit": "bounded observed-consumption mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "CNBC/NRF Retail Monitor August 2026 release, powered by Affinity Solutions; the monitor uses anonymized card transactions, weights and projects the data to reflect U.S. consumers, and benchmarks to Census retail-sales totals.",
+      "uncertainty": "The public release does not provide household-level transaction records, income or demographic cross-tabs, category detail, quantities, margins, debt, or welfare measures. Card spending is not the same as household consumption capacity, affordability, or realized wellbeing.",
+      "subgroup": "U.S. consumers and retail transactions represented in the Affinity Solutions card-data frame; subgroup incidence and household concentration are not disclosed in this release.",
+      "counterinterpretation": "Positive sales can reflect inflation, promotions, essential purchases, credit use, or concentration among higher-capacity households rather than broad consumer resilience; flat or weak core growth can coexist with severe household pressure.",
+      "source_url": "https://nrf.com/media-center/press-releases/cnbc-nrf-retail-monitor-shows-11th-month-of-sales-growth-in-august",
+      "retrieval_hash": "sha256:6c3207e2fff4de4d327eb377aed16d0872823fbd2c38897f97c2f046dd2feff5",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 release; break in the retail measurement series",
+      "denominator": {"value": 1, "unit": "August 2026 Retail Monitor methodology transition", "value_type": "reported_methodology_event"},
+      "measures": {
+        "comparability_break": {"value": "the new methodology weights and projects card data differently, so August month-over-month and year-over-year figures are not directly comparable with July's published figures", "unit": "reported comparability warning", "value_type": "reported_methodology_change"},
+        "seasonal_adjustment": {"value": "year-over-year comparisons are now seasonally adjusted, consistent with month-over-month figures", "unit": "reported methodology change", "value_type": "reported_methodology_change"},
+        "sector_detail": {"value": "enhanced sector details and dollar levels are scheduled for the October full release", "unit": "reported data-access boundary", "value_type": "reported_future_release"},
+        "interpretation_rule": {"value": "observed transaction growth should be read as a new-series August baseline until the revised history and sector detail permit a defensible time comparison", "unit": "bounded measurement rule", "value_type": "analytic_boundary"}
+      },
+      "method": "NRF August report and Retail Monitor methodology note; this observation preserves the publisher's explicit warning against appending the new figures to the old monthly series.",
+      "uncertainty": "The release does not provide the full weighting model, merchant/category coverage, cardholder composition, or revised historical series; short-run changes cannot be decomposed into price, quantity, basket, or channel effects.",
+      "subgroup": "Researchers, policymakers, retailers, and analysts using high-frequency transaction data to infer U.S. consumer demand.",
+      "counterinterpretation": "A methodology break can improve representativeness and alignment with Census benchmarks; it may reduce apparent continuity but produce a stronger future series.",
+      "source_url": "https://nrf.com/api/asset/storyblok?request=Gz3C5rPk%2FIksoGLPiM81aVC1ZB72nWVuH7jCET1k33bblPvmZjetIVn1FXCFBFpkX%2BoOWSAkqBkZ2fJW8iw7tYufiF%2FyGiGSm4rPG1X0BmCkmcoIdfLkpLiSe7afYJ50MgjdToJ%2FRWoP%7C8juL%2B2V687E7jpGu",
+      "retrieval_hash": "sha256:f26bf76ca7e00904a2b8d111930e7ecd3111bde23f15f94a4c67eb69642e4897",
+      "status": "reported"
+    },
+    {
+      "period": "2026; high-frequency transaction infrastructure and consumer inference",
+      "denominator": {"value": 150000000, "unit": "more than 150 million permissioned credit and debit cards linked to 95 million consumers in the Retail Monitor FAQ description", "value_type": "reported_transaction_data_frame"},
+      "measures": {
+        "transaction_scale": {"value": "nearly 86 billion annual transactions and more than 4 trillion US dollars in annual spending are described for the broader Affinity Solutions data platform", "unit": "reported data-platform scale", "value_type": "reported_data_scale"},
+        "coverage": {"value": "the monitor reports total retail sales, core retail sales, and nine distinct retail sectors plus restaurants, while deeper demographic and channel insights are restricted to members", "unit": "reported measurement coverage", "value_type": "reported_coverage"},
+        "privacy": {"value": "Affinity states that the data are aggregated, grounded in consumer permission, and do not include personally identifiable information", "unit": "reported data-governance condition", "value_type": "reported_data_governance"},
+        "next_test": {"value": "join transaction growth to category, price, quantity, income, payment, debt, repeat purchase, and household-panel evidence before inferring value-seeking, resilience, or welfare", "unit": "next cross-source test", "value_type": "research_queue"}
+      },
+      "method": "NRF Retail Monitor FAQ describing data provenance, scale, calculation, privacy, and available outputs; platform-scale figures and August release estimates are kept as separate denominators.",
+      "uncertainty": "A large permissioned card frame can still differ from households by income, bank relationship, cash use, merchant coverage, geography, and card ownership; platform scale is not a public-use microdata release.",
+      "subgroup": "U.S. cardholders, retailers, analysts, and households whose spending is represented or omitted by the permissioned card-data frame.",
+      "counterinterpretation": "High-frequency transaction data can expose realized purchasing more quickly than surveys, but its commercial aggregation and benchmark choices can make household distribution and lived constraint less visible.",
+      "source_url": "https://nrf.com/research-insights/center-retail-consumer-insights/cnbc-nrf-retail-monitor-faqs",
+      "retrieval_hash": "sha256:6f240442d12c9d7d98021e65fd523b76641ba4efe44f0540b182d911ab9fd1b7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/economic-indicators/retail-sales.html", "claim": "Census monthly retail-sales survey provides the official survey-based comparison and revision context."},
+    {"source_url": "https://bea.gov/data/consumer-spending/main", "claim": "BEA personal consumption expenditures provide a broader national-account measure of consumer spending."},
+    {"source_url": "https://www.affinity.solutions/", "claim": "Affinity Solutions describes its permissioned transaction-data platform and consumer-purchase insights."}
+  ],
+  "boundary": "This record adds an observed-consumption layer to the cultural and consumer atlas: anonymized permissioned card transactions show aggregate retail sales continuing to grow in August 2026 while households are described as budget-conscious. It does not establish household welfare, affordability, price versus quantity, subgroup distribution, debt, category substitution, repeat choice, or causal resilience; the August release also begins a new methodology series that is not directly comparable with July.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NRF August 25, 2026 Retail Monitor press release, August report PDF, and FAQ were reviewed for transaction scale, August growth, methodology transition, benchmark, privacy, sector coverage, and interpretive limits.",
+    "source_page_sha256": "press sha256:6c3207e2fff4de4d327eb377aed16d0872823fbd2c38897f97c2f046dd2feff5; PDF sha256:f26bf76ca7e00904a2b8d111930e7ecd3111bde23f15f94a4c67eb69642e4897; FAQ sha256:6f240442d12c9d7d98021e65fd523b76641ba4efe44f0540b182d911ab9fd1b7",
+    "checked": "2026-09-30"
+  }
+}

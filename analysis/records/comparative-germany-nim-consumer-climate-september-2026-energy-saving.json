@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-germany-nim-consumer-climate-september-2026-energy-saving",
+  "title": "Energy-price anxiety is shifting German consumer sentiment toward precautionary saving while macroeconomic expectations remain comparatively stable",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "infrastructure_technology_dependency"],
+  "source_unit": "Nuremberg Institute for Market Decisions, NIM Consumer Climate powered by GfK, September 2026",
+  "geography": "Germany; approximately 2,000 consumer interviews conducted 3-14 September 2026",
+  "observations": [
+    {
+      "period": "September 2026; consumer climate and household income expectations",
+      "denominator": {"value": 2000, "unit": "approximately German consumer interviews in the September 2026 wave", "value_type": "reported_survey_sample"},
+      "measures": {"consumer_climate": {"value": -30.6, "unit": "NIM consumer-climate indicator points for October expectations", "value_type": "reported_index"}, "monthly_change": {"value": -3.8, "unit": "points from the revised prior month", "value_type": "reported_index_change"}, "income_expectation": {"value": -15.0, "unit": "income-expectation indicator points after a 16.7-point monthly fall", "value_type": "reported_index"}},
+      "method": "Monthly NIM Consumer Climate powered by GfK, based on roughly 2,000 interviews conducted for the European Commission; sentiment indicators are not direct behavior measures.",
+      "uncertainty": "The release reports subjective expectations and cannot identify how much of the movement is caused by energy prices rather than other economic or political information.",
+      "subgroup": "German households and consumers, with additional NIM analysis indicating stronger growth in saving propensity among financially well-equipped households.",
+      "counterinterpretation": "A fall in sentiment does not necessarily imply equivalent reductions in essential spending, and the source notes that actual purchases depend on liquidity, necessity, prices, and individual circumstances.",
+      "source_url": "https://www.nim.org/presse/artikel/konsumklima-mit-deutlichem-daempfer",
+      "retrieval_hash": "sha256:cd8634df5e5b51a131b3c34c91bda373d3005b285c3933b671e6bc984adc277f",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; energy prices, precautionary saving, and purchasing",
+      "denominator": {"value": 2000, "unit": "approximately German consumer interviews in the September 2026 wave", "value_type": "reported_survey_sample"},
+      "measures": {"saving_propensity": {"value": 21.5, "unit": "saving-propensity indicator points after a 6.0-point rise", "value_type": "reported_index"}, "historical_comparison": {"value": "a similarly high saving mood requires looking back to the financial and economic crisis of 2008", "unit": "reported historical comparison", "value_type": "reported_comparison"}, "purchase_propensity": {"value": -10.8, "unit": "large-purchase propensity indicator points after a one-point fall", "value_type": "reported_index"}, "energy_mechanism": {"value": "the majority of households expect high energy prices to reduce their purchasing power", "unit": "reported consumer interpretation", "value_type": "reported_mechanism"}},
+      "method": "NIM/GfK consumer-climate survey and accompanying analytical commentary; index movement is an attitudinal signal rather than observed household accounts data.",
+      "uncertainty": "The release does not provide subgroup sample sizes, actual saving balances, item-level purchase changes, or a causal estimate of energy-price exposure.",
+      "subgroup": "Households with different financial positions, consumers facing energy-cost exposure, savers attempting to offset inflation losses, and households with constrained liquidity.",
+      "counterinterpretation": "Higher saving propensity among financially secure households may reflect portfolio protection rather than broad precautionary retrenchment; lower-income households may be unable to save and instead cut essentials or borrow.",
+      "source_url": "https://www.nim.org/presse/artikel/konsumklima-mit-deutlichem-daempfer",
+      "retrieval_hash": "sha256:cd8634df5e5b51a131b3c34c91bda373d3005b285c3933b671e6bc984adc277f",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; divergence between household and macroeconomic expectations",
+      "denominator": {"value": 2000, "unit": "approximately German consumer interviews in the September 2026 wave", "value_type": "reported_survey_sample"},
+      "measures": {"economic_expectation": {"value": -3.4, "unit": "economic-expectation indicator points after a fifth consecutive monthly increase", "value_type": "reported_index"}, "income_purchase_split": {"value": "income expectations fell sharply while macroeconomic expectations rose slightly and purchase propensity remained broadly stable at a low level", "unit": "reported sentiment divergence", "value_type": "reported_pattern"}, "time_horizon": {"value": "income and purchasing indicators concern the next twelve months", "unit": "survey horizon", "value_type": "reported_measurement_frame"}},
+      "method": "Comparison of the survey’s income, saving, purchase, and macroeconomic expectation indicators.",
+      "uncertainty": "These indicators measure perceptions rather than realized income, inflation, energy bills, purchases, or political attribution; the divergence may be temporary.",
+      "subgroup": "Consumers interpreting national economic news through household purchasing power and financial planning.",
+      "counterinterpretation": "Consumers can distinguish national growth prospects from personal financial pressure, so stable macro expectations need not translate into household optimism or spending.",
+      "source_url": "https://www.nim.org/presse/artikel/konsumklima-mit-deutlichem-daempfer",
+      "retrieval_hash": "sha256:cd8634df5e5b51a131b3c34c91bda373d3005b285c3933b671e6bc984adc277f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.nim.org/konsumklima", "claim": "NIM Consumer Climate series and methodology context."}],
+  "boundary": "This record adds an energy-price-to-consumer-precaution route from perceived purchasing-power loss through saving propensity, large-purchase hesitation, household/macro expectation divergence, and potential political attribution. It does not establish realized spending or saving changes, causal energy-price effects, or uniform household exposure.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official NIM September 2026 release reviewed for sample, fieldwork dates, consumer-climate index, income expectations, saving propensity, purchase propensity, macroeconomic expectations, subgroup commentary, and sentiment-versus-behavior limitation.", "source_url_sha256": "sha256:cd8634df5e5b51a131b3c34c91bda373d3005b285c3933b671e6bc984adc277f", "checked": "2026-09-29"}
+}

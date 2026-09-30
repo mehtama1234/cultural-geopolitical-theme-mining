@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-potential-energy-climate-communications-2026-cost-health-energy-independence",
+  "title": "Climate support broadens when public communication translates it into pollution, health, household cost and energy independence",
+  "theme_ids": ["cost", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Potential Energy Coalition, Fixing Climate Communications, commissioned by The Rockefeller Foundation",
+  "geography": "United States, Canada, United Kingdom, France, Germany and Italy; cross-ideological public opinion and climate-message testing",
+  "observations": [
+    {
+      "period": "September-December 2025 fieldwork; report June 2026; six-country national survey and randomized message test",
+      "denominator": {"value": 83971, "unit": "adults across six countries across qualitative and quantitative research; national survey approximately 42000 and randomized message test approximately 41100", "value_type": "mixed_research_frame"},
+      "measures": {
+        "support_gain": {"value": "After exposure to a single effective message built around the study's principles, support increased by at least 9 percentage points in every country tested.", "unit": "reported pre/post message-test change", "value_type": "published_experimental_estimate"},
+        "human_material_consequences": {"value": "Messages about extreme weather, pollution-related health harms and unfair household costs were consistently among the strongest for driving climate-action support.", "unit": "reported message-test ranking", "value_type": "published_experimental_comparison"},
+        "pro_climate_competition": {"value": 57, "unit": "per cent of head-to-head message comparisons in which pro-climate messages prevailed against the strongest opposition message", "value_type": "published_experimental_estimate"},
+        "cross_ideological_shift": {"value": "Support gains on tested policies were reported across political groups, with the gain among right-leaning audiences greater than among left-leaning audiences (+10 versus +4 percentage points in the cited comparison).", "unit": "reported subgroup message-test change", "value_type": "published_subgroup_estimate"}
+      },
+      "method": "Potential Energy Coalition research commissioned by The Rockefeller Foundation: qualitative focus groups, nationally weighted surveys and randomized controlled message tests conducted by Echelon Insights and Merlin Strategy.",
+      "uncertainty": "Message effects are short-run opinion changes, not durable behavior or policy outcomes; the public summary does not provide every treatment effect, randomization detail, subgroup margin or full question wording.",
+      "subgroup": "Adults across six G7 countries, including ideological, demographic and national subgroups; qualitative work focused on less climate-engaged but potentially persuadable participants.",
+      "counterinterpretation": "A persuasive message can increase stated support without changing cost tolerance, local siting preferences, voting, purchasing or willingness to accept implementation tradeoffs.",
+      "source_url": "https://potentialenergycoalition.org/wp-content/uploads/2026/06/Fixing-Climate-Communications_2026.pdf",
+      "retrieval_hash": "sha256:f4c608d9c2a76e570f0ae8fcb0257885fefae0da3a6e88186ce0209e3eadc2be",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork; concrete pollution framing and perceived solvability",
+      "denominator": {"value": 41100, "unit": "approximate respondents in randomized climate-narrative message test across six countries", "value_type": "experimental_respondents"},
+      "measures": {
+        "pollution_solvability": {"value": "Framing climate change through the concrete cause of pollution makes the problem feel 10-20% more solvable.", "unit": "reported relative message effect", "value_type": "published_experimental_estimate"},
+        "cause_concreteness": {"value": "Plain-language pollution framing is presented as more actionable than abstract climate terminology because it names a physical cause that can be reduced.", "unit": "reported mechanism interpretation", "value_type": "reported_interpretation"},
+        "message_priority": {"value": "Everyday impacts and physical pollution outperform abstract growth or innovation frames for prioritizing climate action in the reported testing.", "unit": "reported message comparison", "value_type": "published_experimental_comparison"},
+        "attention_context": {"value": "The report links weaker climate communication to economic insecurity, geopolitical tension, fragmented information environments and shrinking attention toward household and community concerns.", "unit": "reported contextual interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Randomized message test of 11 climate narratives against a control group, supplemented by historical Potential Energy message-testing evidence.",
+      "uncertainty": "‘10-20% more solvable’ is a reported communication effect whose baseline, scale and outcome construction require the full technical appendix; perceived solvability is not actual feasibility or cost.",
+      "subgroup": "Climate-attitude audiences across the United States, United Kingdom, France, Germany, Italy and Canada.",
+      "counterinterpretation": "Concrete pollution framing may improve comprehension while increasing blame or demand for corporate accountability; different local policies may require different narratives.",
+      "source_url": "https://potentialenergycoalition.org/wp-content/uploads/2026/06/Fixing-Climate-Communications_2026.pdf",
+      "retrieval_hash": "sha256:f4c608d9c2a76e570f0ae8fcb0257885fefae0da3a6e88186ce0209e3eadc2be",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork; fairness, household costs and clean-energy framing",
+      "denominator": {"value": 41100, "unit": "approximate respondents in randomized climate-narrative message test across six countries", "value_type": "experimental_respondents"},
+      "measures": {
+        "fairness_message": {"value": "Messages emphasizing that ordinary households bear disproportionate costs through insurance premiums, energy bills and living costs performed strongly.", "unit": "reported message-test finding", "value_type": "published_experimental_comparison"},
+        "clean_energy_preference": {"value": "By more than two to one, respondents preferred building all or mostly clean energy over all or mostly fossil energy to meet growing demand.", "unit": "reported preference ratio", "value_type": "published_survey_estimate"},
+        "energy_independence_frame": {"value": "Clean-energy support was strongest when connected to local availability, lower or more stable costs, domestic resilience and energy independence rather than emissions targets alone.", "unit": "reported message mechanism", "value_type": "published_experimental_comparison"},
+        "material_translation": {"value": "The study treats household cost, health, pollution and protection of families as bridges from climate abstraction to personal relevance.", "unit": "reported analytical frame", "value_type": "reported_interpretation"}
+      },
+      "method": "National attitude survey and randomized message testing across six countries, with climate, energy, health, cost and fairness narratives compared.",
+      "uncertainty": "Stated clean-energy preference does not identify preferred technologies, willingness to pay, local opposition or distributional effects; message performance may vary by policy, messenger and implementation context.",
+      "subgroup": "Households and voters across six advanced democracies, including ideological groups and audiences with different levels of climate engagement.",
+      "counterinterpretation": "Energy independence can broaden support but may also favor domestic extraction, protectionism or high-cost national infrastructure if the distributional tradeoffs are hidden.",
+      "source_url": "https://potentialenergycoalition.org/wp-content/uploads/2026/06/Fixing-Climate-Communications_2026.pdf",
+      "retrieval_hash": "sha256:f4c608d9c2a76e570f0ae8fcb0257885fefae0da3a6e88186ce0209e3eadc2be",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork and historical message testing; language that narrows support",
+      "denominator": {"value": 83971, "unit": "adults across six-country qualitative and quantitative research frame", "value_type": "mixed_research_frame"},
+      "measures": {
+        "net_zero_priority": {"value": "‘Achieving net zero’ ranks last among nine environmental priorities in every surveyed country in the report's public summary.", "unit": "reported priority ranking", "value_type": "published_survey_estimate"},
+        "mandate_penalty": {"value": "Using words such as ‘ban’ or ‘mandate’ can reduce public support by as much as 20% in the cited message testing.", "unit": "reported message-test effect", "value_type": "published_experimental_estimate"},
+        "weak_economic_frame": {"value": "‘Green jobs’ and economic-growth narratives are reported as weaker-performing climate messages than consequence, health, fairness and energy-security frames.", "unit": "reported message comparison", "value_type": "published_experimental_comparison"},
+        "climate_hushing": {"value": "The report describes declining climate and sustainability communication as a strategic retreat that may narrow rather than broaden public support.", "unit": "reported cultural and communications interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Public summary of two 2025 research rounds plus six years of Potential Energy historical message testing; full effect estimates and question wording should be checked against the report and appendices.",
+      "uncertainty": "Rankings and message penalties are context-dependent; the report is commissioned advocacy-oriented communications research, and successful persuasion does not establish policy effectiveness or climate impact.",
+      "subgroup": "Publics across six countries, with differences by ideology, climate engagement, economic insecurity and national context.",
+      "counterinterpretation": "‘Net zero’ may be unpopular as an abstract label while specific net-zero policies remain popular; avoiding mandates can conceal the need for binding regulation and accountability.",
+      "source_url": "https://potentialenergycoalition.org/wp-content/uploads/2026/06/Fixing-Climate-Communications_2026.pdf",
+      "retrieval_hash": "sha256:f4c608d9c2a76e570f0ae8fcb0257885fefae0da3a6e88186ce0209e3eadc2be",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://potentialenergycoalition.org/fixing-climate-communication-a-new-global-report/", "claim": "Official Potential Energy report overview and framing principles."},
+    {"source_url": "https://www.rockefellerfoundation.org/news/new-potential-energy-study-commissioned-by-rockefeller-foundation-climate-support-strong-across-democracies-but-words-matter/", "claim": "Rockefeller Foundation release with sample design, message-test narratives and cross-country findings."}
+  ],
+  "boundary": "This record adds a climate-meaning and public-consent layer: climate support is not simply rising or falling; it is shaped by whether communication makes impacts, causes, fairness, household cost, health and energy security concrete. The research combines commissioned communications research, nationally weighted surveys, focus groups and randomized message tests, so short-run opinion movement is not proof of durable behavior, policy adoption, implementation fairness or climate outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Potential Energy Coalition Fixing Climate Communications PDF and Rockefeller Foundation release were reviewed for the six-country sample, qualitative and quantitative design, randomized message test, support gains, pollution solvability, household-cost and energy-independence frames, net-zero and mandate penalties, and subgroup effects.",
+    "source_url_sha256": "sha256:f4c608d9c2a76e570f0ae8fcb0257885fefae0da3a6e88186ce0209e3eadc2be",
+    "checked": "2026-09-27"
+  }
+}

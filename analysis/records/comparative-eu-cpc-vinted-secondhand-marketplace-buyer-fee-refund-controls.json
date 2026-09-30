@@ -1,0 +1,146 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-eu-cpc-vinted-secondhand-marketplace-buyer-fee-refund-controls",
+  "title": "EU Vinted action shows a second-hand marketplace converting complaint pressure into implemented price, refund, identity, and review controls",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "European Commission Consumer Protection Cooperation Network dialogue with Vinted",
+  "geography": "European Union and European Economic Area consumer-facing Vinted websites and mobile apps",
+  "observations": [
+    {
+      "period": "December 2021 dialogue through Commission follow-up current at 2026 source retrieval",
+      "denominator": {
+        "value": null,
+        "unit": "EU/EEA Vinted consumers and sellers; no affected-consumer count disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "implemented_total_price": {
+          "value": "Vinted modified its website and app to inform consumers upfront about the total price, including the automatically added buyer-protection fee",
+          "unit": "implemented platform control",
+          "value_type": "official_implementation"
+        },
+        "misleading_free_ads": {
+          "value": "Vinted removed misleading advertisements creating the impression that purchases were free of charges",
+          "unit": "implemented platform control",
+          "value_type": "official_implementation"
+        },
+        "buyer_protection_fee_issue": {
+          "value": "automatic buyer-protection fee addition at checkout without upfront information was addressed",
+          "unit": "documented complaint issue and platform response",
+          "value_type": "official_implementation"
+        },
+        "mechanism": {
+          "value": "Complaint-backed intervention can convert a hidden service charge into an upfront total-price signal before a second-hand purchase is committed",
+          "unit": "bounded implementation mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission page reporting changes Vinted made following dialogue with the CPC Network and national consumer authorities; the page distinguishes implemented changes from unresolved requests.",
+      "uncertainty": "The official page does not quantify the number of complaints, affected buyers, fee amounts, completed refunds, or whether clearer prices changed purchase behavior or seller income.",
+      "subgroup": "Consumers buying and sellers listing second-hand goods on Vinted versions directed to EU/EEA users.",
+      "counterinterpretation": "Upfront disclosure can improve informed choice without reducing the underlying fee or making second-hand goods more affordable; consumers may still accept the charge for convenience or protection.",
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/market-places-and-digital-services_en",
+      "retrieval_hash": "sha256:2c6c3703ba5e6d988c9ba735a8fe07b5e8a55434ecf0b6dbeca54e23371607f6",
+      "status": "reported"
+    },
+    {
+      "period": "Vinted CPC implementation; failed delivery, counterfeit, identity, and review controls",
+      "denominator": {
+        "value": null,
+        "unit": "EU/EEA Vinted buyers and sellers; no affected-user count disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "refund_route": {
+          "value": "Vinted provided clearer information on claiming a refund when a purchase does not arrive",
+          "unit": "implemented remedy-information control",
+          "value_type": "official_implementation"
+        },
+        "counterfeit_route": {
+          "value": "Vinted provided more transparent information about counterfeit review and the steps needed to claim a refund",
+          "unit": "implemented remedy-information control",
+          "value_type": "official_implementation"
+        },
+        "seller_identity": {
+          "value": "Vinted provided more detailed information about identity verification documents and information required from sellers",
+          "unit": "implemented marketplace-trust control",
+          "value_type": "official_implementation"
+        },
+        "review_transparency": {
+          "value": "Vinted clarified how average ratings are calculated, the difference between automated and user-generated reviews, and how to report suspicious reviews",
+          "unit": "implemented platform-information control",
+          "value_type": "official_implementation"
+        },
+        "mechanism": {
+          "value": "Marketplace trust is a chain from purchase price to delivery, authenticity, seller identity, reputation signals, and reachable refund; improving one interface alone does not complete the chain",
+          "unit": "bounded implementation mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission summary of implemented Vinted website and app changes concerning buyer protection, counterfeits, identity verification, and reviews.",
+      "uncertainty": "The source records information and interface changes, not successful refund rates, counterfeit prevalence, dispute resolution time, seller compliance, or consumer comprehension.",
+      "subgroup": "EU/EEA Vinted buyers facing nondelivery or counterfeit goods and sellers undergoing identity or reputation processes.",
+      "counterinterpretation": "Clearer process information may shift effort to consumers, who still must recognize a problem, preserve evidence, and initiate the refund route.",
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/market-places-and-digital-services_en",
+      "retrieval_hash": "sha256:2c6c3703ba5e6d988c9ba735a8fe07b5e8a55434ecf0b6dbeca54e23371607f6",
+      "status": "reported"
+    },
+    {
+      "period": "Vinted CPC follow-up; unresolved delivery-fee disclosure request",
+      "denominator": {
+        "value": null,
+        "unit": "EU/EEA Vinted purchase journeys with delivery options; no affected-journey count disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "unresolved_request": {
+          "value": "Vinted did not agree to inform consumers at the beginning of purchase that displayed prices exclude delivery fees or to show minimum delivery fees where available",
+          "unit": "open consumer-protection gap",
+          "value_type": "official_open_gap"
+        },
+        "possible_enforcement": {
+          "value": "The CPC Network urged Vinted to address the issue and may use enforcement measures if necessary",
+          "unit": "documented escalation path",
+          "value_type": "official_policy_response"
+        },
+        "mechanism": {
+          "value": "A platform can implement most price and remedy controls while leaving a delivery-fee gap that preserves late-stage price uncertainty",
+          "unit": "bounded implementation mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "European Commission follow-up distinguishes Vinted changes already made from a delivery-fee disclosure request that remained unresolved.",
+      "uncertainty": "The source does not report whether further changes occurred after the stated follow-up, enforcement was initiated, or consumers experienced measurable savings or reduced abandonment.",
+      "subgroup": "EU/EEA Vinted consumers purchasing goods where delivery options and fees are selected later in checkout.",
+      "counterinterpretation": "Delivery fees can depend on seller, carrier, location, parcel size, and option, making early exact disclosure operationally difficult; that does not establish that consumers can compare the final price adequately.",
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/market-places-and-digital-services_en",
+      "retrieval_hash": "sha256:2c6c3703ba5e6d988c9ba735a8fe07b5e8a55434ecf0b6dbeca54e23371607f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://commission.europa.eu/document/download/702073f5-01ee-4087-b822-6efbc8c24ce5_en?filename=CPC-viagogo-factsheet-v3.pdf&prefLang=en",
+      "claim": "The Viagogo factsheet provides a comparator in the same CPC environment where implementation monitoring remained explicit and some price/remedy requests were unresolved.",
+      "status": "official-comparator"
+    },
+    {
+      "source_url": "https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions/market-places-and-digital-services_en",
+      "claim": "The Commission's marketplace and digital-services page reports Vinted's implemented controls and the remaining delivery-fee disclosure gap.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds an EU/EEA second-hand marketplace implementation episode linking automatic fees, total-price disclosure, refund routes, counterfeit handling, seller identity, review transparency, and an unresolved delivery-fee gap. It does not quantify consumer harm, verify refund completion, estimate affordability or resale-market welfare, or prove that the controls changed behavior.",
+  "retrieval_hash": "sha256:2c6c3703ba5e6d988c9ba735a8fe07b5e8a55434ecf0b6dbeca54e23371607f6"
+}

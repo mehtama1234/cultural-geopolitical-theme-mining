@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-latter-day-saints-tradition-change-2026-community-trust-diversity",
+  "title": "Dense religious community persists through demographic change while retention, family formation, trust, and political meaning shift",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "political_judgment_action", "care_health_reproduction", "public_systems_feedback"],
+  "source_unit": "Pew Research Center, Tradition and Change Among Latter-day Saints in the U.S., September 22, 2026",
+  "geography": "United States; adults identifying as Latter-day Saints in the 2023-24 Religious Landscape Study (RLS)",
+  "observations": [
+    {
+      "period": "2007 to 2023-24; religious retention and practice",
+      "denominator": {"value": 565, "unit": "current Latter-day Saint adults interviewed in the 2023-24 RLS; historical subgroup bases vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "religion_very_important": {"value": 72, "unit": "percent of Latter-day Saints", "value_type": "reported_survey_share"},
+        "daily_prayer": {"value": 73, "unit": "percent", "value_type": "reported_survey_share"},
+        "belief_absolute_certainty": {"value": 76, "unit": "percent", "value_type": "reported_survey_share"},
+        "adult_retention": {"value": 54, "unit": "percent of adults raised Latter-day Saint who still identify as Latter-day Saint", "value_type": "reported_survey_share"},
+        "adult_retention_2007": {"value": 70, "unit": "percent of adults raised Latter-day Saint who still identified as Latter-day Saint in 2007", "value_type": "reported_historical_share"},
+        "religiously_unaffiliated_raised_latter_day_saints": {"value": 28, "unit": "percent of adults raised Latter-day Saint who are now religiously unaffiliated", "value_type": "reported_survey_share"},
+        "continuity_change_mechanism": {"value": "High present-day religious commitment can coexist with declining retention and a larger unaffiliated downstream population", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew comparison of the 2023-24 RLS with earlier 2007, 2011, and 2014 Religious Landscape Studies; the 2023-24 RLS interviewed 565 current Latter-day Saints and 316 former members.",
+      "uncertainty": "Historical comparisons combine older telephone surveys with a 2023-24 study completed mainly online and on paper. Pew reports an experimental telephone comparison supporting the displayed comparisons, but subgroup estimates have margins of error and retention is not a panel observation of the same individuals.",
+      "subgroup": "Current Latter-day Saints, people raised Latter-day Saint, former members, lifelong members, and converts.",
+      "counterinterpretation": "Lower retention may reflect broader U.S. religious change, cohort replacement, reporting or classification differences, or changes in the meaning of affiliation rather than organizational failure alone.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:34d4155b0b6ed1d43b9e7d2d8d6f3c7f89b47aa34d25909c982275a330d498e9",
+      "status": "reported"
+    },
+    {
+      "period": "2007 to 2023-24; demographic and geographic diversification",
+      "denominator": {"value": 565, "unit": "current Latter-day Saint adults interviewed in the 2023-24 RLS; subgroup bases vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "white_share": {"value": 72, "unit": "percent of Latter-day Saint adults, down from 85% in 2007", "value_type": "reported_survey_share"},
+        "hispanic_share": {"value": 12, "unit": "percent, up from 6% in 2007", "value_type": "reported_survey_share"},
+        "black_share": {"value": 6, "unit": "percent, up from 2% in 2007", "value_type": "reported_survey_share"},
+        "foreign_born_share": {"value": 11, "unit": "percent first generation, compared with 7% in 2007", "value_type": "reported_survey_share"},
+        "mountain_region_share": {"value": 53, "unit": "percent of Latter-day Saint adults living in the Census Mountain region", "value_type": "reported_survey_share"},
+        "diversification_mechanism": {"value": "A historically concentrated religious identity is becoming more racially and geographically diverse without losing its strong regional core", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Weighted RLS subgroup estimates compared with Pew’s earlier landscape studies; regional categories follow Census divisions.",
+      "uncertainty": "Small subgroup bases, rounding, language coverage, and changing survey mode constrain precision. The study notes that Asian estimates represent English speakers and foreign-born estimates represent English- and Spanish-speakers.",
+      "subgroup": "Race and ethnicity, generation, place of residence, education, and age groups within the Latter-day Saint population.",
+      "counterinterpretation": "Changing composition may reflect national demographic change and conversion patterns rather than a deliberate organizational transformation; geographic concentration still structures local communal density.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:34d4155b0b6ed1d43b9e7d2d8d6f3c7f89b47aa34d25909c982275a330d498e9",
+      "status": "reported"
+    },
+    {
+      "period": "2023-24; partisan identity and diversity attitudes",
+      "denominator": {"value": 565, "unit": "current Latter-day Saint adults in the RLS; issue-specific subgroup bases vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "republican_or_leaning": {"value": 73, "unit": "percent of Latter-day Saint adults", "value_type": "reported_survey_share"},
+        "democrat_or_leaning": {"value": 23, "unit": "percent", "value_type": "reported_survey_share"},
+        "mountain_republican_or_leaning": {"value": 84, "unit": "percent in Mountain region", "value_type": "reported_subgroup_share"},
+        "non_mountain_republican_or_leaning": {"value": 61, "unit": "percent in other U.S. regions", "value_type": "reported_subgroup_share"},
+        "lds_republicans_diversity_race": {"value": 75, "unit": "percent of Latter-day Saint Republicans saying a multiracial/multiethnic U.S. strengthens society", "value_type": "reported_subgroup_share"},
+        "all_republicans_diversity_race": {"value": 60, "unit": "percent of all Republicans or Republican leaners", "value_type": "reported_comparison"},
+        "lds_republicans_diversity_religion": {"value": 60, "unit": "percent saying religious diversity strengthens society", "value_type": "reported_subgroup_share"},
+        "all_republicans_diversity_religion": {"value": 39, "unit": "percent of all Republicans or Republican leaners", "value_type": "reported_comparison"},
+        "partisan_cultural_mismatch": {"value": "A strongly Republican religious community can diverge from its partisan peers on immigration and pluralism while remaining more conservative on abortion and homosexuality", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Pew comparison of Latter-day Saint Republicans or Republican leaners with Republicans nationally in the 2023-24 RLS; reported differences are statistically significant for the displayed issue comparisons.",
+      "uncertainty": "The survey predates the 2024 presidential election, and partisan identity is not the same as voting, policy action, or institutional influence. Small religious-group bases require attention to confidence intervals.",
+      "subgroup": "Latter-day Saints, Latter-day Saint Republicans, all Republicans, Mountain-region members, converts, and lifelong members.",
+      "counterinterpretation": "The pattern may reflect theology, migration and settlement history, education, regional composition, or question wording rather than a stable cross-pressure between religion and party.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-largely-identify-as-republican-but-stand-out-from-their-partisan-peers-on-diversity-issues/",
+      "retrieval_hash": "sha256:34d4155b0b6ed1d43b9e7d2d8d6f3c7f89b47aa34d25909c982275a330d498e9",
+      "status": "reported"
+    },
+    {
+      "period": "2007 to 2023-24; family life, marriage, communal service, and social trust",
+      "denominator": {"value": 565, "unit": "current Latter-day Saint adults in the RLS; family and married-item bases vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "family_life_excellent_or_very_good": {"value": 69, "unit": "percent of Latter-day Saint adults", "value_type": "reported_survey_share"},
+        "married_same_faith_spouse": {"value": 87, "unit": "percent of married Latter-day Saints", "value_type": "reported_subgroup_share"},
+        "same_faith_beliefs_similar": {"value": 77, "unit": "percent of married Latter-day Saints", "value_type": "reported_subgroup_share"},
+        "recent_volunteering": {"value": 72, "unit": "percent reporting volunteering in the prior 12 months", "value_type": "reported_survey_share"},
+        "all_us_recent_volunteering": {"value": 41, "unit": "percent of all U.S. adults", "value_type": "reported_comparison"},
+        "most_people_trusted": {"value": 48, "unit": "percent saying most people can be trusted", "value_type": "reported_survey_share"},
+        "all_us_most_people_trusted": {"value": 34, "unit": "percent of all U.S. adults", "value_type": "reported_comparison"},
+        "minors_at_home": {"value": 37, "unit": "percent, down from 49% in 2007", "value_type": "reported_survey_share"},
+        "communal_reproduction_mechanism": {"value": "Religious participation supplies family cohesion, volunteering, and generalized trust, but the family form and membership pipeline are changing underneath that communal infrastructure", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "RLS comparisons across religious groups and Latter-day Saint demographic subgroups, with historical comparisons to earlier Pew landscape surveys.",
+      "uncertainty": "These are self-reports and cross-sectional group comparisons; communal involvement may select for members who remain engaged. Family satisfaction, volunteering, and generalized trust do not establish causal effects of religious membership.",
+      "subgroup": "Latter-day Saints by education, region, age, marriage, and family status; comparison religious groups and all U.S. adults.",
+      "counterinterpretation": "High trust and volunteering may reflect selection, local density, education, family resources, or social desirability rather than an institution-specific effect.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-have-strong-communal-ties-and-high-social-trust/",
+      "retrieval_hash": "sha256:34d4155b0b6ed1d43b9e7d2d8d6f3c7f89b47aa34d25909c982275a330d498e9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/religion/2024/12/18/religious-landscape-study/", "claim": "Pew 2023-24 Religious Landscape Study design and broader religious-group comparison context.", "status": "method-context"},
+    {"source_url": "https://www.pewresearch.org/religion/2012/01/12/mormons-in-america-certain-in-their-beliefs-uncertain-of-their-place-in-society/", "claim": "Earlier Pew Latter-day Saint survey used as historical context in the project.", "status": "historical-comparison-context"}
+  ],
+  "boundary": "This record adds a religion-as-social-infrastructure route: communal ties, family practice, volunteering, generalized trust, demographic diversification, retention, and partisan meaning interact without being collapsed into religiosity or electoral behavior. It does not establish causal effects of membership, institutional policy, family wellbeing, political action, or social cohesion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew project landing page plus linked pages on religiousness, political and diversity views, family life, and communal ties reviewed for sample, historical comparisons, subgroup estimates, methodology, and limitations.",
+    "source_page_sha256": "sha256:34d4155b0b6ed1d43b9e7d2d8d6f3c7f89b47aa34d25909c982275a330d498e9",
+    "checked": "2026-09-28",
+    "version_note": "Pew’s 2023-24 RLS was conducted mostly before the 2024 presidential election; older surveys used different modes and historical comparisons retain the reported mode-shift caveat."
+  }
+}

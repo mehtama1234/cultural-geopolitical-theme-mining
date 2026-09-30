@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-govuk-community-engagement-local-influence-efficacy-2025-26",
+  "title": "People value local influence more strongly than they feel able to exercise it",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UK Department for Culture, Media and Sport / Ministry of Housing, Communities and Local Government, Community and Engagement Survey 2025/26: Influencing Local Decisions",
+  "geography": "England; people aged 16 and over",
+  "observations": [
+    {
+      "period": "2025/26 Community and Engagement Survey; perceived local influence, importance, and desired involvement",
+      "denominator": {"value": 175000, "unit": "over 175,000 Community and Engagement Survey responses; people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "feel_can_influence": {"value": 26, "unit": "percent agreeing definitely or tending to agree that they can personally influence decisions affecting their local area", "value_type": "published_survey_estimate"},
+        "feel_influence_important": {"value": 59, "unit": "percent saying it is very or quite important to personally influence decisions affecting their local area", "value_type": "published_survey_estimate"},
+        "want_more_council_involvement": {"value": 29, "unit": "percent wanting greater involvement in decisions made by their local council", "value_type": "published_survey_estimate"},
+        "importance_efficacy_gap": {"value": 33, "unit": "percentage-point difference between saying influence is important and saying they can influence", "value_type": "calculated_difference_from_published_estimates"},
+        "mechanism": {"value": "Local legitimacy contains a conversion gap: people can value influence without perceiving usable access, and a smaller but meaningful group wants more involvement beyond current participation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official Community and Engagement Survey estimates for people aged 16+ in England; measures cover perceived personal influence, importance of influence, and desired council involvement.",
+      "uncertainty": "The measures are self-reported perceptions and aspirations, not observed council responsiveness, decision outcomes, or causal effects; estimates are rounded and the survey uses different question universes where specified.",
+      "subgroup": "People aged 16+ in England; national estimates for influence, importance, and desired involvement.",
+      "counterinterpretation": "People may value influence as a democratic principle without wanting frequent participation, while low perceived influence may reflect realistic expectations rather than institutional failure.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-local-decisions/community-and-engagement-survey-202526-influencing-local-decisions-report",
+      "retrieval_hash": "sha256:d9e705de2892f01866c97362bcdfae56936762e00ee5361099a241b6f459e02a",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 Community and Engagement Survey; perceived influence by disability and socioeconomic classification",
+      "denominator": {"value": 175000, "unit": "over 175,000 survey responses; subgroup estimates for people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "influence_non_disabled": {"value": 28, "unit": "percent of non-disabled people agreeing they can personally influence local decisions", "value_type": "published_subgroup_estimate"},
+        "influence_disabled": {"value": 23, "unit": "percent of disabled people agreeing they can personally influence local decisions", "value_type": "published_subgroup_estimate"},
+        "influence_higher_professional": {"value": 27, "unit": "percent in higher managerial, administrative, or professional occupations agreeing they can personally influence local decisions", "value_type": "published_subgroup_estimate"},
+        "influence_routine_manual": {"value": 22, "unit": "percent in routine and manual occupations agreeing they can personally influence local decisions", "value_type": "published_subgroup_estimate"},
+        "influence_never_worked_long_term_unemployed": {"value": 31, "unit": "percent in the never-worked or long-term-unemployed classification agreeing they can personally influence local decisions", "value_type": "published_subgroup_estimate"},
+        "mechanism": {"value": "Perceived efficacy does not map cleanly onto occupational status: disability and routine/manual status show lower perceived influence, while the never-worked/long-term-unemployed group reports higher perceived influence than intermediate and routine/manual groups", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official subgroup estimates from the Community and Engagement Survey; disability and demographic questions are voluntary and self-reported, and socioeconomic classification is based on occupation and employment status.",
+      "uncertainty": "Subgroup differences are descriptive and may reflect age, ethnicity, local context, political interest, survey response, service contact, or measurement interpretation; they do not establish individual or institutional causes.",
+      "subgroup": "People aged 16+ in England by disability status and socioeconomic classification.",
+      "counterinterpretation": "A higher reported sense of influence in one labor-market group may reflect different expectations, issue exposure, or local political networks rather than greater actual decision power.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-local-decisions/community-and-engagement-survey-202526-influencing-local-decisions-report",
+      "retrieval_hash": "sha256:d9e705de2892f01866c97362bcdfae56936762e00ee5361099a241b6f459e02a",
+      "status": "reported"
+    },
+    {
+      "period": "2025/26 Community and Engagement Survey; local decision routes and practical access conditions",
+      "denominator": {"value": 175000, "unit": "over 175,000 survey responses; people aged 16+ in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "most_common_influence_route_petition": {"value": 50, "unit": "percent selecting signing an online petition as a way they would go about influencing local decisions", "value_type": "published_survey_estimate"},
+        "most_common_influence_route_council": {"value": 47, "unit": "percent selecting contacting the local council or council official", "value_type": "published_survey_estimate"},
+        "most_common_influence_route_councillor": {"value": 46, "unit": "percent selecting contacting the local councillor", "value_type": "published_survey_estimate"},
+        "easier_if_know_issues": {"value": 47, "unit": "percent saying knowing what issues were being considered would make influence easier", "value_type": "published_survey_estimate"},
+        "easier_if_online_email": {"value": 41, "unit": "percent saying the ability to give an opinion online or by email would make influence easier", "value_type": "published_survey_estimate"},
+        "mechanism": {"value": "People identify low-friction information and digital-contact interfaces as practical access conditions, suggesting that civic voice depends on discoverability and response channels as well as motivation", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Official Community and Engagement Survey estimates on preferred routes to influence and conditions that would make local influence easier.",
+      "uncertainty": "These are stated routes and enabling conditions, not observed use, completion, response, or influence; multiple answers may be selected and the source does not identify which channels work for which local issues.",
+      "subgroup": "People aged 16+ in England; route and access-condition responses.",
+      "counterinterpretation": "Petitions and digital contact can be low-cost expressions that do not lead to deliberation or institutional change; knowing an issue is being considered may increase awareness without increasing power.",
+      "source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-local-decisions/community-and-engagement-survey-202526-influencing-local-decisions-report",
+      "retrieval_hash": "sha256:d9e705de2892f01866c97362bcdfae56936762e00ee5361099a241b6f459e02a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/guidance/community-and-engagement-survey-202526", "claim": "Official CES survey scope, England coverage, pathways, and related topic releases."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-civic-engagement/community-and-engagement-survey-202526-civic-engagement-report--2", "claim": "Related civic-action measures showing participation, consultation, activism, and local-authority variation."},
+    {"source_url": "https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2", "claim": "Official technical report for sampling, fieldwork, survey pathways, and interpretation."}
+  ],
+  "boundary": "This record adds a perceived-efficacy and practical-access layer between civic participation and institutional legitimacy. It does not measure council response, decision change, policy influence, deliberative quality, or durable trust; estimates are self-reported, descriptive, and subject to the survey's pathway and local-estimate caveats.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GOV.UK local-decisions report reviewed for headline perceived influence, importance, desired involvement, subgroup, local-authority, route, and practical-access estimates, including rounding and self-report caveats.",
+    "source_page_sha256": "sha256:d9e705de2892f01866c97362bcdfae56936762e00ee5361099a241b6f459e02a",
+    "checked": "2026-09-30"
+  }
+}

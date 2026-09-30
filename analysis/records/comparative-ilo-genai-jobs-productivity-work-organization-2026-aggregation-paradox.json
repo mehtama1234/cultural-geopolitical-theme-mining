@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-genai-jobs-productivity-work-organization-2026-aggregation-paradox",
+  "title": "ILO evidence review finds GenAI time savings are real but have not yet become broad output, pay, or employment gains",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "International Labour Organization, The impact of GenAI on jobs, productivity and work organization: a review of the empirical evidence, Research Brief, June 2026",
+  "geography": "Comparative evidence from Australia, Denmark, Germany, Korea, Kuwait, the United Kingdom, and the United States",
+  "observations": [
+    {
+      "period": "June 2026 review; task productivity versus measured aggregate gains",
+      "denominator": {"value": 1, "unit": "comparative empirical evidence review of GenAI at work", "value_type": "published_evidence_synthesis"},
+      "measures": {
+        "task_productivity": {"value": "GenAI can produce substantial productivity gains, especially on bounded writing, coding, drafting, and support tasks, but the size depends on task complexity, worker expertise, and workflow integration", "unit": "reported empirical pattern", "value_type": "reported_synthesis"},
+        "time_savings": {"value": "representative worker evidence reports time savings of a few percent of working time, including 3.8% of active time among Korean users and 5.4% of weekly working hours among U.S. users in cited studies", "unit": "reported worker time saving", "value_type": "reported_estimate"},
+        "aggregation_gap": {"value": "the review finds that task-level gains have not yet appeared as higher measured output, earnings, or employment in the representative worker and firm evidence it summarizes", "unit": "reported macro-to-micro gap", "value_type": "reported_synthesis"}
+      },
+      "method": "ILO research brief synthesizing randomized and field experiments, firm-level surveys, platform evidence, administrative records, and representative worker surveys across seven countries.",
+      "uncertainty": "The evidence is early and heterogeneous; measured effects depend on adoption, task mix, implementation, data quality, time horizon, and whether organizations redesign work around the technology.",
+      "subgroup": "Workers and firms using GenAI, non-users in exposed occupations, early-career workers, experienced workers, higher- and lower-skilled workers, and organizations with different complementary capabilities.",
+      "counterinterpretation": "Delayed aggregate effects may reflect diffusion lags, limited adoption, missing organizational investment, or poor productivity measurement rather than an absence of future gains.",
+      "source_url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+      "retrieval_hash": "sha256:2d47be95c696b3e63248b2a37ac9033255ac34f348327e04a9d4434620d0d51a",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 review; where worker time savings go",
+      "denominator": {"value": 1, "unit": "representative worker and organizational evidence summarized by the ILO", "value_type": "published_evidence_synthesis"},
+      "measures": {
+        "time_reallocation": {"value": "workers appear to absorb time savings mainly through on-the-job leisure and reallocation toward tasks less affected by GenAI, rather than through higher pay, more measured output, or lower work pressure", "unit": "reported workplace mechanism", "value_type": "reported_mechanism"},
+        "task_concentration": {"value": "in the Korean evidence summarized, one top-saving task accounts for roughly 70% of a user's total time reduction", "unit": "share of reported time reduction", "value_type": "reported_estimate"},
+        "measurement_constraint": {"value": "small and medium-sized firms may lack the performance indicators needed to identify or redeploy time savings", "unit": "reported organizational constraint", "value_type": "reported_interpretation"}
+      },
+      "method": "Synthesis of representative surveys, administrative records, firm evidence, and organizational studies cited in the ILO brief.",
+      "uncertainty": "The evidence does not establish a universal use of saved time; reporting of leisure, task reallocation, output, and pressure differs across countries, occupations, and organizational settings.",
+      "subgroup": "Workers whose tasks are partly automated, managers responsible for work redesign, small and medium-sized firms, and teams with weak performance measurement.",
+      "counterinterpretation": "Time not visible as measured output may still support recovery, learning, quality, or resilience; firms may also need longer lags before new work organization becomes measurable.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/Research%20Brief_The%20impact%20of%20GenAi%20on%20jobs%20and%20work%20organization%20a%20review%20of%20empirical%20evidence.pdf",
+      "retrieval_hash": "sha256:2d47be95c696b3e63248b2a37ac9033255ac34f348327e04a9d4434620d0d51a",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 review; unequal productivity and opportunity effects",
+      "denominator": {"value": 1, "unit": "comparative experimental, platform, and labor-market evidence base", "value_type": "published_evidence_synthesis"},
+      "measures": {
+        "skill_distribution": {"value": "GenAI can narrow performance gaps on simple tasks but widen them on complex, judgment-intensive tasks when workers differ in expertise or ability to validate outputs", "unit": "reported distributional pattern", "value_type": "reported_synthesis"},
+        "entry_level_risk": {"value": "the review identifies early signals of reduced demand for routine writing, translation, software, web-development, and some junior or entry-level work, while finding little robust evidence of economy-wide mass displacement", "unit": "reported labor-demand pattern", "value_type": "reported_synthesis"},
+        "task_reorganization": {"value": "the dominant near-term adjustment is described as reorganization of task bundles within jobs rather than immediate elimination of whole occupations", "unit": "reported employment mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Review of experiments, online labor-platform data, job postings, administrative records, and labor-market studies with explicit attention to methodological limitations.",
+      "uncertainty": "Early employment signals are difficult to separate from macroeconomic conditions, sector shocks, adoption timing, and data coverage; the review does not forecast long-run occupational displacement.",
+      "subgroup": "Early-career and less-experienced workers, freelancers, routine cognitive workers, high-skill workers, and workers whose jobs require contextual judgment or verification.",
+      "counterinterpretation": "AI may create new tasks and opportunities, flatten some skill hierarchies, or complement less-experienced workers when training, supervision, and organizational redesign are present.",
+      "source_url": "https://www.ilo.org/publications/impact-genai-jobs-productivity-and-work-organization-review-empirical",
+      "retrieval_hash": "sha256:2d47be95c696b3e63248b2a37ac9033255ac34f348327e04a9d4434620d0d51a",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 review; AI changes organizational coordination and judgment",
+      "denominator": {"value": 1, "unit": "organizational and team-level evidence summarized by the ILO", "value_type": "published_evidence_synthesis"},
+      "measures": {
+        "coordination": {"value": "GenAI can lower cognitive and coordination bottlenecks, but increased code or task contributions can also raise team discussion and maintenance costs", "unit": "reported organizational mechanism", "value_type": "reported_mechanism"},
+        "standardization": {"value": "reliance on AI suggestions can reduce diversity of ideas and pull outputs toward average solutions", "unit": "reported creative and organizational risk", "value_type": "reported_mechanism"},
+        "expertise_shift": {"value": "AI can let less-experienced workers perform tasks previously reserved for specialists while shifting experts toward supervision, verification, and contextual judgment", "unit": "reported work-organization change", "value_type": "reported_mechanism"}
+      },
+      "method": "Synthesis of team, field-experiment, organizational, and workflow studies described in the ILO research brief.",
+      "uncertainty": "These effects are context dependent and do not establish that any single organizational deployment will improve or degrade autonomy, creativity, quality, or worker bargaining power.",
+      "subgroup": "Teams, managers, experts, less-experienced workers, creative and knowledge workers, and organizations integrating GenAI into interdependent workflows.",
+      "counterinterpretation": "Standardization can improve consistency and access, while shifting experts toward verification can raise the value of judgment if workers retain authority and time to challenge AI outputs.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/Research%20Brief_The%20impact%20of%20GenAi%20on%20jobs%20and%20work%20organization%20a%20review%20of%20empirical%20evidence.pdf",
+      "retrieval_hash": "sha256:2d47be95c696b3e63248b2a37ac9033255ac34f348327e04a9d4434620d0d51a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00034628", "claim": "Official DOI for the ILO research brief."},
+    {"source_url": "https://www.ilo.org/resource/article/messy-business-managing-people-work-ai-solution", "claim": "Related ILO analysis of AI in recruitment and workplace management."}
+  ],
+  "boundary": "This record adds an empirical AI-to-work-organization route. It is a comparative evidence synthesis, not respondent-level data from this program, a causal estimate of one deployment, a forecast of mass unemployment, or proof that time savings become household income, reduced workload, bargaining power, or better job quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO publication page and linked eight-page PDF were reviewed for the country coverage, productivity evidence, worker time savings, employment signals, task reorganization, organizational coordination, skill distribution, and methodological caveats.",
+    "source_url_sha256": "sha256:2d47be95c696b3e63248b2a37ac9033255ac34f348327e04a9d4434620d0d51a",
+    "checked": "2026-09-28"
+  }
+}

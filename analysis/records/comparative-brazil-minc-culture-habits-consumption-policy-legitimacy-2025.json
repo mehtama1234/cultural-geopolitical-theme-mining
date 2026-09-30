@@ -1,0 +1,115 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-brazil-minc-culture-habits-consumption-policy-legitimacy-2025",
+  "title": "Brazil's cultural life is digitally domestic, while cultural policy has high approval despite low public awareness",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Brazil Ministry of Culture, Hábitos e Consumo de Cultura / Percepções sobre as Políticas Culturais",
+  "geography": "Brazil; all 27 federative units; adults aged 16 and above",
+  "observations": [
+    {
+      "period": "November 6-12, 2025; cultural consumption in the last 30 days",
+      "denominator": {
+        "value": 2016,
+        "unit": "Nexus household interviews with adults aged 16 and above across Brazil's 27 federative units",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "music_consumption": {"value": 53, "unit": "percent reporting music consumption in the last 30 days", "value_type": "official_survey_share"},
+        "film_consumption": {"value": 52, "unit": "percent reporting film consumption in the last 30 days", "value_type": "official_survey_share"},
+        "series_consumption": {"value": 40, "unit": "percent reporting series consumption in the last 30 days", "value_type": "official_survey_share"},
+        "soap_opera_consumption": {"value": 32, "unit": "percent reporting soap-opera consumption in the last 30 days", "value_type": "official_survey_share"},
+        "sports_spectacle_consumption": {"value": 21, "unit": "percent reporting sports-spectacle consumption in the last 30 days", "value_type": "official_survey_share"},
+        "physical_book_consumption": {"value": 17, "unit": "percent reporting physical-book consumption in the last 30 days", "value_type": "official_survey_share"},
+        "digital_game_consumption": {"value": 15, "unit": "percent reporting digital-game consumption in the last 30 days", "value_type": "official_survey_share"},
+        "ebook_audiobook_consumption": {"value": 5, "unit": "percent reporting ebook or audiobook consumption in the last 30 days", "value_type": "official_survey_share"},
+        "theater_consumption": {"value": 3, "unit": "percent reporting theater consumption in the last 30 days", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Easy-access, screen- and audio-mediated cultural consumption dominates the reported cultural basket, with books and venue-based forms reaching smaller shares", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Nexus quantitative survey commissioned by Brazil's Ministry of Culture; household interviews, adults aged 16+, quota controls for sex, age, labor-force participation, region, and municipality type, followed by weighting.",
+      "uncertainty": "The measures are self-reported reach indicators, not expenditure, minutes, frequency-adjusted engagement, or verified transactions; categories may overlap.",
+      "subgroup": "Adults aged 16 and above across all 27 Brazilian federative units.",
+      "counterinterpretation": "Lower reported venue or book reach may reflect recall, access, wording, or the 30-day window rather than a durable preference against in-person culture.",
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/politicas-culturais-alcancam-alta-aprovacao-mostra-pesquisa-inedita-lancada-pelo-ministerio-da-cultura-em-fortaleza/Pesquisa_MinC_03dedez.pdf/@@download/file",
+      "retrieval_hash": "sha256:665528e3c80bab8c95b84416b8abe29996ec7fd6fe35ca185c1c92d3f6375760",
+      "status": "reported"
+    },
+    {
+      "period": "November 6-12, 2025; reported barriers, media access, and intended cultural return",
+      "denominator": {
+        "value": 2016,
+        "unit": "Nexus household interviews with adults aged 16 and above across Brazil's 27 federative units",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "lack_of_time_barrier": {"value": 33, "unit": "percent naming lack of time as a barrier to cultural participation", "value_type": "official_survey_share"},
+        "lack_of_interest_barrier": {"value": 29, "unit": "percent naming lack of interest as a barrier to cultural participation", "value_type": "official_survey_share"},
+        "lack_of_money_barrier": {"value": 24, "unit": "percent naming lack of money as a barrier to cultural participation", "value_type": "official_survey_share"},
+        "mobile_phone_primary_medium": {"value": 62, "unit": "percent identifying the cell phone as a principal medium for cultural consumption", "value_type": "official_survey_share"},
+        "television_medium": {"value": 53, "unit": "percent identifying television as a medium for cultural consumption", "value_type": "official_survey_share"},
+        "want_more_cinema": {"value": 33, "unit": "percent intending to attend more cinema", "value_type": "official_survey_share"},
+        "want_more_music_shows": {"value": 27, "unit": "percent intending to attend more music shows or festivals", "value_type": "official_survey_share"},
+        "want_more_theater": {"value": 18, "unit": "percent intending to attend more theater", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Time and distribution constraints are more prominent than money alone, while demand for shared, in-person cultural experiences remains visible", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "The report combines structured survey questions on barriers, media, and intended participation with qualitative focus groups conducted across capitals/metropolitan areas and interior locations.",
+      "uncertainty": "Barrier responses are perceptions and do not identify causal constraints; intended attendance is not realized attendance, and medium-use shares do not establish exclusivity.",
+      "subgroup": "Adults aged 16 and above; quantitative estimates are national survey results and qualitative findings are not population estimates.",
+      "counterinterpretation": "The prominence of time may partly capture competing work, care, or commuting demands, while the desire for cinema and shows could reflect episodic rather than sustained demand.",
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/politicas-culturais-alcancam-alta-aprovacao-mostra-pesquisa-inedita-lancada-pelo-ministerio-da-cultura-em-fortaleza/Pesquisa_MinC_03dedez.pdf/@@download/file",
+      "retrieval_hash": "sha256:665528e3c80bab8c95b84416b8abe29996ec7fd6fe35ca185c1c92d3f6375760",
+      "status": "reported"
+    },
+    {
+      "period": "November 6-12, 2025; awareness and perceived legitimacy of cultural policy",
+      "denominator": {
+        "value": 2016,
+        "unit": "Nexus household interviews with adults aged 16 and above across Brazil's 27 federative units",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "policy_awareness_known": {"value": 19, "unit": "percent who knew of the Paulo Gustavo and Aldir Blanc cultural laws", "value_type": "official_survey_share"},
+        "policy_awareness_heard_not_understood": {"value": 5, "unit": "percent who had heard of the laws but did not know how they worked", "value_type": "official_survey_share"},
+        "policy_no_awareness": {"value": 74, "unit": "percent reporting no awareness of the Paulo Gustavo and Aldir Blanc cultural laws", "value_type": "official_survey_share"},
+        "decentralized_law_approval": {"value": 73, "unit": "percent approving the Paulo Gustavo and Aldir Blanc laws", "value_type": "official_survey_share"},
+        "ceus_cultura_approval": {"value": 81, "unit": "percent approving CEUs da Cultura", "value_type": "official_survey_share"},
+        "rouanet_law_approval": {"value": 66, "unit": "percent approving Lei Rouanet", "value_type": "official_survey_share"},
+        "policies_improve_federal_government_image": {"value": 53, "unit": "percent saying cultural policies improve the federal government's image", "value_type": "official_survey_share"},
+        "policies_improve_president_image": {"value": 48, "unit": "percent saying cultural policies improve the President's image", "value_type": "official_survey_share"},
+        "government_more_on_side_of_people": {"value": 49, "unit": "percent saying cultural policy makes government seem more on the side of Brazilian people", "value_type": "official_survey_share"},
+        "government_more_distant": {"value": 39, "unit": "percent saying cultural policy makes government seem more distant", "value_type": "official_survey_share"},
+        "municipal_government_perceived_culture_actor": {"value": 27, "unit": "percent naming city governments as the government level doing most for culture", "value_type": "official_survey_share"},
+        "federal_government_perceived_culture_actor": {"value": 25, "unit": "percent naming the federal government as the government level doing most for culture", "value_type": "official_survey_share"},
+        "mechanism": {"value": "Cultural policy can carry symbolic legitimacy and approval beyond detailed policy comprehension, but the gap between approval and awareness limits claims about informed mandate", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "National survey questions on awareness, approval, perceived government image, and perceived distance or proximity; the report also includes four qualitative focus groups.",
+      "uncertainty": "These are commissioned perception measures, not causal estimates of policy effects or independent measures of government legitimacy; question wording and political context matter.",
+      "subgroup": "Adults aged 16 and above across all 27 federative units; focus groups included adults aged 18-50 from capitals/metropolitan areas and interior locations.",
+      "counterinterpretation": "Approval may reflect broad support for culture or social benefits rather than knowledge of the named laws, and image effects may not translate into durable institutional trust or electoral behavior.",
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/politicas-culturais-alcancam-alta-aprovacao-mostra-pesquisa-inedita-lancada-pelo-ministerio-da-cultura-em-fortaleza/Pesquisa_MinC_03dedez.pdf/@@download/file",
+      "retrieval_hash": "sha256:665528e3c80bab8c95b84416b8abe29996ec7fd6fe35ca185c1c92d3f6375760",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/politicas-culturais-alcancam-alta-aprovacao-mostra-pesquisa-inedita-lancada-pelo-ministerio-da-cultura-em-fortaleza",
+      "claim": "Brazil Ministry of Culture landing page announcing the survey and its findings.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/politicas-culturais-alcancam-alta-aprovacao-mostra-pesquisa-inedita-lancada-pelo-ministerio-da-cultura-em-fortaleza/Pesquisa_MinC_03dedez.pdf/@@download/file",
+      "claim": "Official 68-page report with quantitative fieldwork, focus-group method, cultural consumption, barriers, and policy-perception results.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds Brazilian evidence on cultural reach, access constraints, intended venue return, and perceived legitimacy of cultural policy. It is a commissioned self-report survey with qualitative context, not transaction data, causal policy evaluation, or a direct measure of durable institutional trust.",
+  "retrieval_hash": "sha256:665528e3c80bab8c95b84416b8abe29996ec7fd6fe35ca185c1c92d3f6375760"
+}

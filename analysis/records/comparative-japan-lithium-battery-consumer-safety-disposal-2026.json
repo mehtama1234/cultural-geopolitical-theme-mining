@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-japan-lithium-battery-consumer-safety-disposal-2026",
+  "title": "Rechargeable battery products are normalized consumer infrastructure while safety and end-of-life systems remain unevenly understood",
+  "theme_ids": ["cost", "time", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Japan Consumer Affairs Agency, FY2026 Consumer Awareness Survey No. 1: products using lithium-ion batteries, released 17 September 2026",
+  "geography": "Japan; internet survey of 5,000 people aged 15 and over, quota-allocated by sex, age, and region to population composition, conducted 30 July–3 August 2026",
+  "observations": [
+    {
+      "period": "July–August 2026; adoption and generational reach",
+      "denominator": {"value": 5000, "unit": "people aged 15 and over in an internet survey; quota allocation by sex, age, and region", "value_type": "published_survey_sample"},
+      "measures": {
+        "mobile_battery_use": {"value": "More than half of respondents reported currently owning or having previously owned a mobile battery", "unit": "reported product-adoption pattern", "value_type": "reported_pattern"},
+        "youngest_ownership": {"value": 72.3, "unit": "percent of respondents in their teens reporting ownership or prior ownership", "value_type": "published_survey_estimate"},
+        "oldest_ownership": {"value": 43.0, "unit": "percent of respondents aged 70 and over reporting ownership or prior ownership", "value_type": "published_survey_estimate"},
+        "battery_normalization": {"value": "Portable rechargeable power has become ordinary consumer infrastructure, but exposure and experience remain age-stratified", "unit": "analytic technology-culture mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Japan Consumer Affairs Agency internet survey of 5,000 people aged 15 and over, with sex, age, and regional quotas aligned to population composition.",
+      "uncertainty": "Quota internet sampling is not a simple random sample; ownership or prior ownership does not measure frequency, product quality, or actual exposure to battery failure.",
+      "subgroup": "Japanese respondents aged 15 and over, with reported differences between teens and people aged 70 and over.",
+      "counterinterpretation": "Lower older-adult ownership may reflect different device needs or product substitution rather than lower digital participation or safety vulnerability.",
+      "source_url": "https://www.caa.go.jp/notice/assets/consumer_research_cms201_260917_02.pdf",
+      "retrieval_hash": "sha256:9f6c6660a9af923be808bac92dd8f4fd28ca4693ccc9b3fe29d9465e85cbf354",
+      "status": "reported"
+    },
+    {
+      "period": "July–August 2026; safety awareness and product knowledge",
+      "denominator": {"value": 5000, "unit": "survey respondents; product-specific usage bases vary", "value_type": "published_survey_sample"},
+      "measures": {
+        "mobile_battery_safety": {"value": 84.5, "unit": "percent aware that mishandling mobile batteries can cause fires or other accidents", "value_type": "published_survey_estimate"},
+        "young_adult_safety": {"value": 72.0, "unit": "percent of respondents in their 20s aware of mobile-battery danger", "value_type": "published_subgroup_estimate"},
+        "older_adult_safety": {"value": 90.8, "unit": "percent of respondents aged 70 and over aware of mobile-battery danger", "value_type": "published_subgroup_estimate"},
+        "product_knowledge_gradient": {"value": "Awareness is high for mobile batteries and smartphones but lower for other lithium-ion products such as cordless or robot vacuum cleaners", "unit": "reported product-knowledge pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Consumer Affairs Agency survey questions on awareness of fire and accident risks across lithium-ion battery products.",
+      "uncertainty": "Awareness is self-reported and does not establish correct handling, risk comprehension, or behavior during charging, transport, damage, or disposal.",
+      "subgroup": "Age groups and users of smartphones, computers, cordless appliances, wearable devices, e-cigarettes, e-bikes, and other battery products.",
+      "counterinterpretation": "Lower awareness of a product category may reflect lower familiarity or different hazard profiles; high awareness can still coexist with routine shortcuts.",
+      "source_url": "https://www.caa.go.jp/notice/assets/consumer_research_cms201_260917_02.pdf",
+      "retrieval_hash": "sha256:9f6c6660a9af923be808bac92dd8f4fd28ca4693ccc9b3fe29d9465e85cbf354",
+      "status": "reported"
+    },
+    {
+      "period": "July–August 2026; price, safety, and performance tradeoffs",
+      "denominator": {"value": 2746, "unit": "respondents who currently or previously owned a mobile battery; product-specific multiple-response bases also reported", "value_type": "published_subsample"},
+      "measures": {
+        "mobile_price_priority": {"value": 51.2, "unit": "percent citing price as a purchase consideration for mobile batteries", "value_type": "published_survey_estimate"},
+        "mobile_safety_priority": {"value": 36.3, "unit": "percent citing safety as a purchase consideration for mobile batteries", "value_type": "published_survey_estimate"},
+        "other_product_price": {"value": 54.5, "unit": "percent citing price when purchasing other lithium-ion products", "value_type": "published_survey_estimate"},
+        "other_product_safety": {"value": 9.0, "unit": "percent citing safety when purchasing other lithium-ion products", "value_type": "published_survey_estimate"},
+        "safety_visibility_gap": {"value": "Safety is known as a risk but often ranks below price and performance at purchase, especially outside the most salient mobile-battery category", "unit": "analytic consumer-governance mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Multiple-response purchase-consideration questions in the Consumer Affairs Agency survey.",
+      "uncertainty": "Purchase priorities are stated preferences and do not show actual product choices, price elasticity, retailer information, or whether safety standards are trusted.",
+      "subgroup": "Mobile-battery owners and users of other lithium-ion products, including phones, computers, appliances, e-bikes, and portable power devices.",
+      "counterinterpretation": "Safety may be treated as a baseline expectation or embedded in brand and certification judgments rather than selected explicitly; low stated salience is not proof of unsafe purchasing.",
+      "source_url": "https://www.caa.go.jp/notice/assets/consumer_research_cms201_260917_02.pdf",
+      "retrieval_hash": "sha256:9f6c6660a9af923be808bac92dd8f4fd28ca4693ccc9b3fe29d9465e85cbf354",
+      "status": "reported"
+    },
+    {
+      "period": "July–August 2026; end-of-life disposal and municipal infrastructure",
+      "denominator": {"value": 2746, "unit": "mobile-battery owners or former owners asked how they handle an unwanted battery", "value_type": "published_subsample"},
+      "measures": {
+        "municipal_rule": {"value": 33.0, "unit": "percent saying they follow municipal disposal rules", "value_type": "published_survey_estimate"},
+        "municipal_box": {"value": 22.6, "unit": "percent saying they use a municipal dedicated collection box", "value_type": "published_survey_estimate"},
+        "retailer_manufacturer": {"value": 12.9, "unit": "percent saying they use a retailer or manufacturer take-back service", "value_type": "published_survey_estimate"},
+        "stored_uncertain": {"value": 16.5, "unit": "percent saying they keep the battery because they do not know how to dispose of it", "value_type": "published_survey_estimate"},
+        "age_disposal_gap": {"value": "Storage due to uncertainty was 25.5% among teenagers, while following municipal rules was 43.0% among people aged 70 and over", "unit": "published age subgroup comparison", "value_type": "published_subgroup_estimate"},
+        "end_of_life_gap": {"value": "Product safety depends on a disposal and collection system that users can understand and access; household uncertainty can turn a private object into a latent public-safety and waste-management problem", "unit": "analytic infrastructure mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Survey question on intended response when a mobile battery is no longer needed, with age-group cross-tabulations.",
+      "uncertainty": "Responses report intended or remembered disposal behavior and do not measure actual compliance, fire incidents, municipal capacity, or downstream recycling outcomes.",
+      "subgroup": "Mobile-battery owners and former owners, especially teenagers and people aged 70 and over.",
+      "counterinterpretation": "Storage can be a cautious response that prevents unsafe disposal, not only evidence of system failure; local rules and access may vary substantially.",
+      "source_url": "https://www.caa.go.jp/notice/assets/consumer_research_cms201_260917_02.pdf",
+      "retrieval_hash": "sha256:9f6c6660a9af923be808bac92dd8f4fd28ca4693ccc9b3fe29d9465e85cbf354",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.caa.go.jp/notice/entry/047529/", "claim": "Consumer Affairs Agency publication page identifying the survey theme, release date, and official PDF."},
+    {"source_url": "https://www.caa.go.jp/policies/policy/consumer_research/research_report/survey_003/", "claim": "Consumer Awareness Survey programme context."}
+  ],
+  "boundary": "This record adds a consumer-technology route from rechargeable-product adoption through age-stratified risk knowledge, price/safety tradeoffs, usage practices, disposal uncertainty, and municipal or take-back infrastructure. It does not establish actual accident rates, unsafe products, causal age effects, disposal compliance, or recycling outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Consumer Affairs Agency PDF reviewed for survey frame, mobile-battery ownership, product-risk awareness, purchase priorities, usage precautions, disposal responses, and age-group contrasts.",
+    "source_url_sha256": "sha256:9f6c6660a9af923be808bac92dd8f4fd28ca4693ccc9b3fe29d9465e85cbf354",
+    "checked": "2026-09-29"
+  }
+}

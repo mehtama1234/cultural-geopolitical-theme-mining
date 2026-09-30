@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-gallup-global-confidence-institutions-20-year-2026-regime-trust",
+  "title": "Global institutional confidence is not in universal decline; trust is diverging by institution, regime type and political position",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Gallup, Global Confidence in Institutions: A 20-Year Review",
+  "geography": "Global World Poll countries, with 2025 comparisons across liberal democracies, electoral democracies and closed or electoral autocracies, plus European party-support analysis",
+  "observations": [
+    {
+      "period": "2006-2025 World Poll trend; five national institutions",
+      "denominator": {"value": 136, "unit": "countries included in the 2025 World Poll confidence analysis", "value_type": "published_country_frame"},
+      "measures": {
+        "military_confidence": {"value": 72, "unit": "median per cent of adults expressing confidence in the military in 2025", "value_type": "published_survey_estimate"},
+        "financial_confidence": {"value": 63, "unit": "median per cent expressing confidence in financial institutions in 2025", "value_type": "published_survey_estimate"},
+        "judicial_confidence": {"value": 52, "unit": "median per cent expressing confidence in judicial systems in 2025", "value_type": "published_survey_estimate"},
+        "government_confidence": {"value": 50, "unit": "median per cent expressing confidence in national governments in 2025", "value_type": "published_survey_estimate"},
+        "election_confidence": {"value": 49, "unit": "median per cent expressing confidence in the honesty of elections in 2025", "value_type": "published_survey_estimate"}
+      },
+      "method": "Gallup World Poll trend analysis using two decades of data from more than 140 countries, with 2025 country coverage and medians across countries; regime classifications use the V-Dem Institute's regime-type index.",
+      "uncertainty": "Country medians are not population-weighted global estimates and do not imply that half of all people worldwide have the reported confidence; question wording, coverage, nonresponse and sensitive-country omissions affect comparability.",
+      "subgroup": "Adults across Gallup World Poll countries and respondents evaluating military, financial, judicial, government and electoral institutions.",
+      "counterinterpretation": "Stable or rising confidence in selected institutions can coexist with low legitimacy, coercion, nonresponse or declining trust in unmeasured institutions such as media, civil society or local government.",
+      "source_url": "https://news.gallup.com/poll/709445/global-confidence-institutions-20-year-review.aspx",
+      "retrieval_hash": "sha256:6c3abdddcc19ece70a2e8e9a6662a31c5ea05e5d938f5b9ee4e920ad7185af82",
+      "status": "reported"
+    },
+    {
+      "period": "2025 World Poll; confidence by regime type",
+      "denominator": {"value": 136, "unit": "countries classified by political system in the 2025 World Poll frame", "value_type": "published_country_frame"},
+      "measures": {
+        "regime_composition": {"value": "The 136 countries include 21% liberal democracies, 34% electoral democracies and 45% closed or electoral autocracies.", "unit": "per cent of included countries", "value_type": "published_classification"},
+        "autocracy_government_confidence": {"value": 62, "unit": "median per cent confident in national government in autocracies", "value_type": "published_survey_estimate"},
+        "liberal_democracy_government_confidence": {"value": 47, "unit": "median per cent confident in national government in liberal democracies", "value_type": "published_survey_estimate"},
+        "electoral_democracy_government_confidence": {"value": 41, "unit": "median per cent confident in national government in electoral democracies", "value_type": "published_survey_estimate"}
+      },
+      "method": "Gallup comparison of World Poll confidence responses by V-Dem regime classification.",
+      "uncertainty": "Higher reported confidence in autocratic governments may partly reflect constrained freedom of expression; Gallup notes that it cannot measure confidence in some sensitive countries, so the comparison is not a clean regime causal effect.",
+      "subgroup": "Adults in liberal democracies, electoral democracies and closed or electoral autocracies, with national government confidence compared across regime categories.",
+      "counterinterpretation": "Reported government confidence may reflect performance, stability, nationalism, information environments, fear or survey selection in different combinations; regime type alone does not explain it.",
+      "source_url": "https://news.gallup.com/poll/709445/global-confidence-institutions-20-year-review.aspx",
+      "retrieval_hash": "sha256:6c3abdddcc19ece70a2e8e9a6662a31c5ea05e5d938f5b9ee4e920ad7185af82",
+      "status": "reported"
+    },
+    {
+      "period": "2006-2025 World Poll trend; institution-specific divergence",
+      "denominator": {"value": 5, "unit": "institution types tracked in the Gallup analysis", "value_type": "published_measurement_frame"},
+      "measures": {
+        "global_trend": {"value": "Gallup reports that median confidence in the military, courts, elections and banks is higher in 2025 than two decades ago, while confidence in national governments is similar to its earlier level.", "unit": "reported longitudinal pattern", "value_type": "reported_interpretation"},
+        "judicial_trend": {"value": "Confidence in judicial systems rose across all three political-system categories, with 2025 medians at least three points above the 2006-2024 long-term average.", "unit": "reported longitudinal comparison", "value_type": "published_survey_estimate"},
+        "institutional_specificity": {"value": "Trust should be analyzed by institution rather than collapsed into a single global decline or rise.", "unit": "analytical implication", "value_type": "inference_from_source"}
+      },
+      "method": "Gallup longitudinal analysis of five institution questions across World Poll countries and political-system groups.",
+      "uncertainty": "The result covers only five institutions, uses country medians and long-term comparisons, and does not identify the causal mechanisms behind rising or falling confidence.",
+      "subgroup": "Publics evaluating distinct state and financial institutions, with different relationships to authority, service delivery, coercion, elections and legal redress.",
+      "counterinterpretation": "Institutional confidence can rise because of short-term shocks, selective memory or changing expectations without corresponding improvement in accountability, rights or material outcomes.",
+      "source_url": "https://news.gallup.com/poll/709445/global-confidence-institutions-20-year-review.aspx",
+      "retrieval_hash": "sha256:6c3abdddcc19ece70a2e8e9a6662a31c5ea05e5d938f5b9ee4e920ad7185af82",
+      "status": "reported"
+    },
+    {
+      "period": "2025; European party-identification and institutional-confidence analysis",
+      "denominator": {"value": 1, "unit": "Gallup European party-support comparison", "value_type": "published_subgroup_analysis"},
+      "measures": {
+        "extreme_right_confidence": {"value": 2.8, "unit": "maximum average number of institutions trusted by supporters of parties rated 9-10 on the CHES left-right scale", "value_type": "published_adjusted_estimate"},
+        "center_left_confidence": {"value": 3.3, "unit": "average number of institutions trusted by supporters of parties across the center left", "value_type": "published_adjusted_estimate"},
+        "center_right_confidence": {"value": 3.4, "unit": "average number of institutions trusted by supporters of parties across the center right", "value_type": "published_adjusted_estimate"},
+        "political_polarization": {"value": "After controlling for demographic factors, supporters of parties at the extremes had lower institutional confidence, particularly supporters of the far right.", "unit": "reported adjusted pattern", "value_type": "reported_interpretation"}
+      },
+      "method": "Gallup World Poll party-identification data combined with Chapel Hill Expert Survey party scores, with adjustment for age, gender, education and employment status.",
+      "uncertainty": "The analysis is not a causal test of party support on trust; party classification, country selection, institutional question coverage and unobserved political experiences may shape the association.",
+      "subgroup": "European party supporters, especially voters aligned with far-right, center-left and center-right parties.",
+      "counterinterpretation": "Low trust may drive support for political extremes rather than result from it, or both may reflect economic insecurity, cultural threat, media ecosystems and perceived exclusion.",
+      "source_url": "https://news.gallup.com/poll/709445/global-confidence-institutions-20-year-review.aspx",
+      "retrieval_hash": "sha256:6c3abdddcc19ece70a2e8e9a6662a31c5ea05e5d938f5b9ee4e920ad7185af82",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gallup.com/analytics/318875/global-research.aspx", "claim": "Gallup global research and World Poll methodology resources."},
+    {"source_url": "https://news.gallup.com/poll/709445/global-confidence-institutions-20-year-review.aspx", "claim": "Official Gallup 20-year institutional-confidence analysis and methodology note."}
+  ],
+  "boundary": "This record adds a countertrend to simple institutional-decline narratives: confidence varies by institution, regime type, country and political position. It relies on Gallup World Poll country medians and subgroup associations, not a causal experiment, a universal trust index, direct behavioral legitimacy or proof that reported confidence reflects unconstrained opinion in every political system.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Gallup analysis was reviewed for its 2006-2025 trend frame, 136-country 2025 analysis, institution medians, regime-type comparisons, judicial-confidence trend and European party-support subgroup results.",
+    "source_url_sha256": "sha256:6c3abdddcc19ece70a2e8e9a6662a31c5ea05e5d938f5b9ee4e920ad7185af82",
+    "checked": "2026-09-27"
+  }
+}

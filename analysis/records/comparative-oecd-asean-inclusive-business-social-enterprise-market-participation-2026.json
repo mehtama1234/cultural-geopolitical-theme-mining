@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-asean-inclusive-business-social-enterprise-market-participation-2026",
+  "title": "The social economy is becoming a market institution: inclusion depends on who controls scale, finance and impact",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD, Powering ASEAN's economy through inclusive business: From the margins to markets, OECD Local Economic and Employment Development Papers 2026/14, September 2026",
+  "geography": "ASEAN Member States and Southeast Asia, with illustrative cases from Indonesia, Malaysia, Viet Nam, Cambodia, the Philippines and Thailand",
+  "observations": [
+    {
+      "period": "2026 regional baseline; informal work, social protection and demographic pressure in Southeast Asia",
+      "denominator": {"value": 1, "unit": "ASEAN regional economic and social context used by the OECD paper", "value_type": "reported_regional_frame"},
+      "measures": {
+        "growth": {"value": 4.6, "unit": "percent expected real GDP growth in Southeast Asia in 2026", "value_type": "reported_macro_indicator"},
+        "informality": {"value": 244, "unit": "million people working informally, approximately 80 percent of the workforce aged 15 and above", "value_type": "reported_labor_indicator"},
+        "social_protection": {"value": 33, "unit": "percent of the region's population benefiting from at least one social-protection scheme", "value_type": "reported_coverage_indicator"},
+        "social_enterprise_scale": {"value": "Nearly one million social enterprises operate across diverse sectors in the region according to the paper's cited landscape", "unit": "reported ecosystem estimate", "value_type": "reported_ecosystem_indicator"},
+        "mechanism": {"value": "Rapid growth can coexist with informality, weak protection and ageing; inclusive business is proposed as a market-based bridge that embeds low-income people in value chains and service access", "unit": "bounded inclusive-market mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD regional policy paper mapping inclusive businesses and social enterprises, using ASEAN policy documents, national support systems, stakeholder input and illustrative cases.",
+      "uncertainty": "The regional figures combine different sources, definitions and coverage; the paper does not estimate a causal contribution of inclusive businesses to poverty reduction, income, social protection or economic growth.",
+      "subgroup": "Low-income and informal workers, rural producers, underserved consumers, social enterprises, inclusive businesses, MSMEs and ageing populations across ASEAN.",
+      "counterinterpretation": "Market-based inclusion may complement public provision without replacing it; the high number of social enterprises does not show that they are financially sustainable, scalable or reaching the most excluded.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/powering-asean-s-economy-through-inclusive-business_aeba7b38/6eb776e2-en.pdf",
+      "retrieval_hash": "sha256:7c5ab3b490172e7a198468c4cb26135da184c631e2d020079a1ffacc33cd5c54",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2026; inclusive-business and social-enterprise models as market participation infrastructure",
+      "denominator": {"value": 1, "unit": "OECD/ASEAN inclusive-business and social-enterprise model frame", "value_type": "reported_model_frame"},
+      "measures": {
+        "inclusive_business": {"value": "Commercially viable and scalable enterprises intentionally integrate low-income people at the base of the pyramid as suppliers, distributors, retailers or customers", "unit": "reported model definition", "value_type": "reported_model_definition"},
+        "social_enterprise_relation": {"value": "Social enterprises pursue explicit social or environmental objectives and can pilot innovations, address market gaps and evolve toward inclusive-business models; inclusive businesses place low-income populations more directly in core value chains", "unit": "reported model distinction", "value_type": "reported_model_distinction"},
+        "access": {"value": "The paper links these models to jobs, local value chains, affordable education, social protection, circularity, environmental services and access to essential goods and services", "unit": "reported development-function set", "value_type": "reported_function_set"},
+        "cases": {"value": "Illustrative cases include Laos Buffalo Dairy integrating low-income farmers, Green Rebel Foods linking Indonesian smallholders to plant-based food production, and Ruangguru expanding affordable education through a subscription platform and public-sector partnerships", "unit": "reported illustrative cases", "value_type": "reported_case_set"},
+        "mechanism": {"value": "Social value becomes durable when a mission-driven experiment is translated into a commercially viable value-chain role with recurring buyers, services, jobs or customer access", "unit": "bounded scaling mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD conceptual mapping and case synthesis distinguishing inclusive-business models, inclusive-business activities and social-enterprise initiatives.",
+      "uncertainty": "The cases illustrate possible pathways rather than comparable outcomes; reported users, beneficiaries, jobs or farmer links do not establish distribution of gains, quality of work, affordability or long-term mission retention.",
+      "subgroup": "Low-income suppliers and customers, smallholder farmers, rural and ethnic-minority communities, informal workers, students, teachers and social entrepreneurs.",
+      "counterinterpretation": "Commercial scaling can increase reach and supply reliability but may also shift control away from communities, make services less affordable, or prioritize investable beneficiaries over those with the greatest need.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/powering-asean-s-economy-through-inclusive-business_aeba7b38/6eb776e2-en.pdf",
+      "retrieval_hash": "sha256:7c5ab3b490172e7a198468c4cb26135da184c631e2d020079a1ffacc33cd5c54",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy environment; finance, recognition, accreditation, measurement and regional coordination",
+      "denominator": {"value": 1, "unit": "ASEAN inclusive-business and social-enterprise support ecosystem assessment", "value_type": "reported_policy_frame"},
+      "measures": {
+        "finance_gap": {"value": "Enterprises seeking smaller funding amounts, often under USD 200,000, typically fall below most impact investors' threshold; grant-based seed capital is more available than later-stage finance", "unit": "reported financing constraint", "value_type": "reported_finance_constraint"},
+        "institutional_gap": {"value": "Inclusive businesses are not legally recognised in any ASEAN Member State, although national social-enterprise laws or accreditation systems exist in several countries and policy maturity varies across the region", "unit": "reported institutional landscape", "value_type": "reported_institutional_finding"},
+        "regional_support": {"value": "The ASEAN Plan of Action for Inclusive Business 2023–2027 combines policy advice, accreditation, business development, finance and knowledge-sharing; the paper recommends stronger support for impact measurement, data, social-enterprise frameworks and scaling", "unit": "reported policy architecture", "value_type": "reported_policy_architecture"},
+        "operational_barriers": {"value": "Fragmented support ecosystems, inconsistent legal and regulatory frameworks, operational constraints, customer-acquisition and market-expansion barriers, high last-mile costs and shortages of skilled talent constrain sustainability", "unit": "reported barrier set", "value_type": "reported_constraint_set"},
+        "mechanism": {"value": "The social economy becomes a credible public-private institution only when recognition, patient finance, accreditation, impact data and accountability prevent inclusion claims from becoming branding without durable access or bargaining power", "unit": "bounded legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "OECD policy and ecosystem assessment drawing on national frameworks, stakeholder workshop input, regional instruments and comparative examples.",
+      "uncertainty": "Recommendations are not a tested package; legal recognition or accreditation may increase legitimacy but may also create compliance costs, selection effects or mission drift, and the paper does not quantify beneficiary-level outcomes.",
+      "subgroup": "Social enterprises, inclusive businesses, impact investors, informal workers, underserved customers, governments, MSMEs, business-support organisations and regional institutions.",
+      "counterinterpretation": "Commercial and public support can be useful without a single regional legal status; formal accreditation may exclude community organisations or reward measurable activities over less visible forms of care and solidarity.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/09/powering-asean-s-economy-through-inclusive-business_aeba7b38/6eb776e2-en.pdf",
+      "retrieval_hash": "sha256:7c5ab3b490172e7a198468c4cb26135da184c631e2d020079a1ffacc33cd5c54",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/powering-asean-s-economy-through-inclusive-business_6eb776e2-en.html", "claim": "Official OECD publication page with title, date, DOI, scope and abstract."},
+    {"source_url": "https://doi.org/10.1787/6eb776e2-en", "claim": "Official DOI for the OECD ASEAN inclusive-business paper."},
+    {"source_url": "https://www.oecd.org/en/topics/sustainable-green-and-inclusive-business.html", "claim": "OECD topic context for sustainable, green and inclusive business and stakeholder-wellbeing measurement."}
+  ],
+  "boundary": "This record identifies an emerging social-economy and inclusive-market subtheme. It does not establish that inclusive businesses or social enterprises reduce poverty, improve job quality, widen affordable service access, expand social protection, preserve community control, or maintain mission through scale; those require longitudinal beneficiary, worker, customer, price, quality, finance, governance and impact data.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD 56-page PDF and publication page, ASEAN informality and social-protection context, inclusive-business and social-enterprise definitions, illustrative value-chain and service cases, finance and ecosystem barriers, accreditation, regional policy instruments and measurement recommendations were reviewed.",
+    "source_url_sha256": "sha256:7c5ab3b490172e7a198468c4cb26135da184c631e2d020079a1ffacc33cd5c54",
+    "checked": "2026-09-29"
+  }
+}

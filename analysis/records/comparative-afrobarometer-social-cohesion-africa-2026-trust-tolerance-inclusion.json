@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-afrobarometer-social-cohesion-africa-2026-trust-tolerance-inclusion",
+  "title": "African social cohesion combines broad tolerance with steep trust gradients, restrictive immigration attitudes, and weak institutional fairness",
+  "theme_ids": ["voice", "energy", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Afrobarometer Dispatch AD1227, Social cohesion in Africa: Bonds, belonging, and the common good",
+  "geography": "38 African countries; Afrobarometer Round 10 interviews conducted in 2024/2025",
+  "observations": [
+    {
+      "period": "2024/2025 Round 10; social trust and social distance",
+      "denominator": {"value": 50961, "unit": "interviews across 38 African countries", "value_type": "pan_africa_survey_sample"},
+      "measures": {
+        "trust_relatives": {"value": 81, "unit": "percent saying they trust relatives somewhat or a lot", "value_type": "reported_share"},
+        "trust_neighbours": {"value": 58, "unit": "percent saying they trust neighbours somewhat or a lot", "value_type": "reported_share"},
+        "trust_different_ethnicity": {"value": 49, "unit": "percent saying they trust people of a different ethnicity somewhat or a lot", "value_type": "reported_share"},
+        "trust_different_religion": {"value": 48, "unit": "percent saying they trust people of a different religion somewhat or a lot", "value_type": "reported_share"},
+        "social_distance_gradient": {"value": "Interpersonal trust declines sharply as social distance increases", "unit": "reported cross-group pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Afrobarometer Round 10 public-opinion survey across 38 countries, with comparative descriptive analysis of interpersonal trust by relationship and social distance.",
+      "uncertainty": "The cross-sectional survey captures reported trust at one period and does not establish whether contact, institutions, conflict, inequality, or identity causes the trust gradient.",
+      "subgroup": "People connected through family, neighbourhood, ethnicity, religion, nationality, and political affiliation across diverse African national contexts.",
+      "counterinterpretation": "Lower trust across social distance may reflect realistic caution or limited contact rather than generalized social fragmentation; close-group solidarity can also support wider cooperation under the right institutions.",
+      "source_url": "https://www.afrobarometer.org/publication/ad1227-social-cohesion-in-africa-bonds-belonging-and-the-common-good/",
+      "retrieval_hash": "sha256:02a3a260172f718bfa1ffbec2d8e163f71ac8e343cd737b9917de5d0d1c76ae7",
+      "status": "reported"
+    },
+    {
+      "period": "2024/2025 Round 10; tolerance toward difference",
+      "denominator": {"value": 50961, "unit": "interviews across 38 African countries", "value_type": "pan_africa_survey_sample"},
+      "measures": {
+        "different_ethnicity_neighbour": {"value": 87, "unit": "percent who would welcome or accept a neighbour of a different ethnicity", "value_type": "reported_share"},
+        "different_religion_neighbour": {"value": 84, "unit": "percent who would welcome or accept a neighbour of a different religion", "value_type": "reported_share"},
+        "different_party_neighbour": {"value": 81, "unit": "percent who would welcome or accept a neighbour of a different political party", "value_type": "reported_share"},
+        "different_nationality_neighbour": {"value": 77, "unit": "percent who would welcome or accept a neighbour of a different nationality", "value_type": "reported_share"},
+        "tolerance_trust_split": {"value": "Tolerance toward difference is substantially higher than interpersonal trust across social distance", "unit": "reported contrast", "value_type": "reported_pattern"}
+      },
+      "method": "Afrobarometer descriptive comparison of social-tolerance attitudes and interpersonal trust measures.",
+      "uncertainty": "Stated willingness to accept neighbours is not the same as close relationship, institutional equality, material inclusion, or willingness to share political power.",
+      "subgroup": "Ethnic, religious, political, national, and other identity groups living alongside one another under varied histories of conflict, migration, and state capacity.",
+      "counterinterpretation": "High tolerance can provide a latent social resource for cohesion even where trust is lower; survey responses may also reflect socially desirable answers.",
+      "source_url": "https://www.afrobarometer.org/publication/ad1227-social-cohesion-in-africa-bonds-belonging-and-the-common-good/",
+      "retrieval_hash": "sha256:02a3a260172f718bfa1ffbec2d8e163f71ac8e343cd737b9917de5d0d1c76ae7",
+      "status": "reported"
+    },
+    {
+      "period": "2024/2025 Round 10; immigration and boundaries of inclusion",
+      "denominator": {"value": 50961, "unit": "interviews across 38 African countries", "value_type": "pan_africa_survey_sample"},
+      "measures": {
+        "immigrant_economic_contribution_positive": {"value": 45, "unit": "percent saying immigrants make a positive contribution to the economy", "value_type": "reported_share"},
+        "immigrant_economic_contribution_negative": {"value": 44, "unit": "percent saying immigrants make a negative contribution to the economy", "value_type": "reported_share"},
+        "fewer_or_no_foreign_job_seekers": {"value": 64, "unit": "percent favouring admitting fewer or no foreign job seekers", "value_type": "reported_share"},
+        "fewer_or_no_refugees": {"value": 70, "unit": "percent favouring admitting fewer or no refugees", "value_type": "reported_share"},
+        "inclusion_boundary": {"value": "Immigration is a sharp boundary where broad tolerance does not automatically translate into open inclusion", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Afrobarometer cross-country descriptive analysis of perceptions of immigrants and preferences for admission of foreign job seekers and refugees.",
+      "uncertainty": "Attitudes vary by country and context; the report does not identify whether economic conditions, security concerns, identity politics, labour competition, or information environments drive the immigration boundary.",
+      "subgroup": "Citizens, immigrants, refugees, foreign job seekers, host communities, labour markets, and states managing mobility and belonging.",
+      "counterinterpretation": "Restrictive admission preferences can coexist with everyday hospitality and local solidarity, and may express capacity concerns rather than categorical hostility toward migrants.",
+      "source_url": "https://www.afrobarometer.org/publication/ad1227-social-cohesion-in-africa-bonds-belonging-and-the-common-good/",
+      "retrieval_hash": "sha256:02a3a260172f718bfa1ffbec2d8e163f71ac8e343cd737b9917de5d0d1c76ae7",
+      "status": "reported"
+    },
+    {
+      "period": "2024/2025 Round 10; identity, fairness, solidarity, and civic action",
+      "denominator": {"value": 50961, "unit": "interviews across 38 African countries", "value_type": "pan_africa_survey_sample"},
+      "measures": {
+        "national_identity_priority": {"value": 85, "unit": "percent valuing national identity at least as highly as ethnic identity", "value_type": "reported_share"},
+        "equal_attachment_national_ethnic": {"value": 46, "unit": "percent saying they feel equally attached to national and ethnic identity", "value_type": "reported_share"},
+        "government_ethnic_unfairness": {"value": 41, "unit": "percent saying government sometimes, often, or always treats their ethnic group unfairly", "value_type": "reported_share"},
+        "powerful_interests_influence_judges": {"value": 51, "unit": "percent saying powerful interests often influence judges", "value_type": "reported_share"},
+        "unequal_law": {"value": 59, "unit": "percent saying people are often treated unequally under the law", "value_type": "reported_share"},
+        "informal_vs_civic": {"value": "47% sought help from relatives to make ends meet, 33% from friends or neighbours, but only 15% joined others to raise an issue with government", "unit": "reported solidarity and civic-action shares", "value_type": "reported_contrast"}
+      },
+      "method": "Afrobarometer descriptive analysis connecting identity, perceived fairness, informal assistance, and reported collective civic action.",
+      "uncertainty": "The measures are not a causal chain; assistance, identity, legal fairness, and civic action may vary by country, crisis, wealth, conflict, and institutional access.",
+      "subgroup": "Ethnic groups, national citizens, families, neighbourhoods, religious or community organizations, and people with different access to courts and government channels.",
+      "counterinterpretation": "Strong family solidarity may be a foundation for collective action rather than its substitute; low reported civic action may reflect risk, limited channels, or different forms of political participation.",
+      "source_url": "https://www.afrobarometer.org/publication/ad1227-social-cohesion-in-africa-bonds-belonging-and-the-common-good/",
+      "retrieval_hash": "sha256:02a3a260172f718bfa1ffbec2d8e163f71ac8e343cd737b9917de5d0d1c76ae7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.afrobarometer.org/", "claim": "Afrobarometer survey network and public data resources.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a pan-African social-cohesion layer connecting trust distance, tolerance, immigration, identity, perceived institutional fairness, informal solidarity, and civic action. It is a cross-sectional public-opinion profile, not respondent-level ingestion, a causal model of cohesion, a continent-wide uniform estimate, or proof that tolerance becomes equal treatment or collective political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Afrobarometer AD1227 page reviewed for the 38-country, 50,961-interview frame, trust gradient, tolerance, immigration boundary, national/ethnic identity, institutional fairness, informal solidarity, and civic-action findings.",
+    "source_url_sha256": "sha256:02a3a260172f718bfa1ffbec2d8e163f71ac8e343cd737b9917de5d0d1c76ae7",
+    "checked": "2026-09-28"
+  }
+}

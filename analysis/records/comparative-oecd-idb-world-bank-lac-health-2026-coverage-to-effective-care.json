@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-idb-world-bank-lac-health-2026-coverage-to-effective-care",
+  "title": "Health-system inclusion is moving from formal coverage toward effective, equitable, and financially protected care",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "unequal_exposure_status", "infrastructure_technology_dependency", "public_systems_feedback", "trust_identity_meaning", "geopolitical_state_consequences"],
+  "source_unit": "OECD, Inter-American Development Bank, and World Bank, Health at a Glance: Latin America and the Caribbean 2026, September 2026",
+  "geography": "33 Latin American and Caribbean countries; health systems, households, health workers, older people, and people facing unequal access",
+  "observations": [
+    {
+      "period": "September 2026; regional health-system transition",
+      "denominator": {"value": 1, "unit": "joint OECD-IDB-World Bank comparative health-system assessment", "value_type": "reported_policy_frame"},
+      "measures": {"coverage_transition": {"value": "the region is described as moving from expanding coverage toward making care effective, high-quality, equitable, and financially sustainable", "unit": "reported regional policy frame", "value_type": "reported_institutional_finding"}, "system_pressures": {"value": "ageing, chronic diseases, persistent health threats, workforce shortages, uneven infrastructure and digital capacity, and high out-of-pocket spending are identified as concurrent pressures", "unit": "reported system challenge set", "value_type": "reported_capacity_finding"}},
+      "method": "Comparative publication and launch materials covering health status, determinants, resources, expenditure and financing, quality, workforce, ageing, and health inequalities across 33 countries.",
+      "uncertainty": "The launch materials establish a regional policy and measurement frame, not identical conditions or trend magnitudes in every country or subgroup.",
+      "subgroup": "Households with different income, geography, age, health needs, digital access, and exposure to out-of-pocket costs; health workers and care institutions.",
+      "counterinterpretation": "Expanding formal coverage may still represent substantial progress even where quality, affordability, and outcomes remain uneven; the dimensions should not be collapsed into a single access score.",
+      "source_url": "https://www.oecd.org/en/events/2026/09/launch-event-health-at-a-glance-latin-america-and-the-caribbean-2026.html",
+      "retrieval_hash": "sha256:bea885b07b763698c65494fbeadd353884331ae3c0e22041d681eb1d060aafab",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; quality and inequality priority",
+      "denominator": {"value": 1, "unit": "regional thematic priority in the joint publication launch", "value_type": "reported_policy_frame"},
+      "measures": {"quality_gap": {"value": "healthcare quality is treated as a distinct problem alongside coverage", "unit": "reported thematic priority", "value_type": "reported_institutional_finding"}, "inequality_gap": {"value": "the publication examines gaps in access, quality, financial protection, and outcomes", "unit": "reported inequality dimensions", "value_type": "reported_measurement_frame"}, "policy_route": {"value": "the stated route is to strengthen financial protection and system capacity while making care more effective and equitable", "unit": "reported policy route", "value_type": "reported_policy_route"}},
+      "method": "Joint institutional synthesis with thematic chapters on improving quality of care and advancing equity; this record uses the official launch description rather than inferring unreported country estimates.",
+      "uncertainty": "The materials do not by themselves show which reforms close which gap, how quickly, or whether improvements reach marginalized populations equally.",
+      "subgroup": "People with low income, rural or remote populations, older people, people with chronic conditions, and groups facing unequal access or financial protection.",
+      "counterinterpretation": "A focus on measurable quality and equity can improve accountability, but indicator expansion may miss trust, waiting-time burden, cultural safety, or care navigation costs unless those are measured directly.",
+      "source_url": "https://www.oecd.org/en/events/2026/09/launch-event-health-at-a-glance-latin-america-and-the-caribbean-2026.html",
+      "retrieval_hash": "sha256:bea885b07b763698c65494fbeadd353884331ae3c0e22041d681eb1d060aafab",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; household access and system-capacity mechanism",
+      "denominator": {"value": 1, "unit": "regional health-system challenge frame", "value_type": "reported_policy_analysis_frame"},
+      "measures": {"household_burden": {"value": "high out-of-pocket spending is identified as a system pressure affecting financial protection", "unit": "reported financing challenge", "value_type": "reported_financial_finding"}, "capacity_burden": {"value": "workforce shortages and uneven physical and digital infrastructure constrain effective care", "unit": "reported capacity challenge", "value_type": "reported_infrastructure_finding"}, "future_demand": {"value": "ageing and chronic disease require systems to prepare for changing care needs", "unit": "reported demographic and epidemiological pressure", "value_type": "reported_transition_frame"}},
+      "method": "Official launch summary of the comparative report's resource, financing, workforce, ageing, quality, and equity domains.",
+      "uncertainty": "The source does not establish household-level causal effects, actual care-seeking behavior, or whether digital capacity substitutes for or complements trusted in-person care.",
+      "subgroup": "Older people, people with chronic conditions, households exposed to medical costs, rural and digitally excluded communities, and health workers.",
+      "counterinterpretation": "Digital investment and additional capacity may improve reach, but can also shift navigation, data, and coordination burdens onto patients if interoperability, privacy, and human escalation are weak.",
+      "source_url": "https://www.oecd.org/en/events/2026/09/launch-event-health-at-a-glance-latin-america-and-the-caribbean-2026.html",
+      "retrieval_hash": "sha256:bea885b07b763698c65494fbeadd353884331ae3c0e22041d681eb1d060aafab",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html", "claim": "Official publication record for the 186-page Health at a Glance: Latin America and the Caribbean 2026 report, jointly authored by OECD, IDB, and the World Bank."}],
+  "boundary": "This record identifies a regional health-system transition from formal coverage toward effective, equitable, and financially protected care. It does not establish country-specific effect sizes, household behavior, causal reform effects, equal access, or that digital systems improve care without evidence on interoperability, privacy, and human support.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official OECD launch page reviewed for the coverage-to-effective-care transition, concurrent system pressures, quality and inequality priorities, access/financial-protection dimensions, and capacity route.", "source_url_sha256": "sha256:bea885b07b763698c65494fbeadd353884331ae3c0e22041d681eb1d060aafab", "checked": "2026-09-29"}
+}

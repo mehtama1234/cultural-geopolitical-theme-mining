@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ethiopia-land-accounts-natural-capital-planning-2026",
+  "title": "Ethiopia’s first land accounts make land-cover change legible to agriculture, urban, water, and biodiversity policy",
+  "theme_ids": ["energy", "time", "cost", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank, Land Accounts for Ethiopia, 2013 to 2022, 1st Edition",
+  "geography": "Ethiopia nationally, with subnational case accounts for the Abay (Blue Nile) and Awash River Basins",
+  "observations": [
+    {
+      "period": "2013-2022; Ethiopia national land-cover account",
+      "denominator": {"value": 1, "unit": "national land-cover accounting frame for Ethiopia", "value_type": "reported_national_account"},
+      "measures": {
+        "annual_cropland": {"value": "annual cropland increased by 20%, from 21.7 million to 25.9 million hectares", "unit": "percent and hectares", "value_type": "reported_land_cover_change"},
+        "perennial_cropland": {"value": "perennial cropland increased by 50%, from 0.7 million to 1.1 million hectares", "unit": "percent and hectares", "value_type": "reported_land_cover_change"},
+        "forest": {"value": "combined dense, moderate, and sparse forest area increased by approximately 4.9 million hectares, or 22%, while the composition of forest types changed", "unit": "hectares and percent", "value_type": "reported_land_cover_change"},
+        "built_up": {"value": "built-up areas increased by 50%, associated in the report with population growth and industrial development", "unit": "percent", "value_type": "reported_land_cover_change"},
+        "mechanism": {"value": "land accounts make simultaneous agricultural expansion, urbanization, restoration, and ecological change visible within one planning frame", "unit": "bounded natural-capital measurement mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "System of Environmental-Economic Accounting (SEEA) land accounts integrating satellite imagery, geospatial analysis, field verification, and national datasets for 2013 and 2022.",
+      "uncertainty": "The report cautions that classifications, data sources, rainfall, crown-cover definitions, and methods differ; the two reference years do not identify causal drivers or prove that forest expansion represents durable restoration.",
+      "subgroup": "Rural households, farmers, pastoral and forest-dependent communities, urban residents, local governments, land planners, biodiversity managers, and users of water and ecosystem services.",
+      "counterinterpretation": "Agricultural and built-up expansion can support food supply, livelihoods, industrialization, and services; forest-area changes can reflect rainfall or classification shifts as well as restoration.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090426035542547/pdf/P178754-470eaf4b-0020-46db-b28b-abe13430b2e6.pdf",
+      "retrieval_hash": "sha256:942d7ea40c9dde49a2383a7b5ad3dd4ab452451cf4ed20e0bbb2c36e4a586c68",
+      "status": "reported"
+    },
+    {
+      "period": "2013-2022; Abay (Blue Nile) and Awash River Basin case accounts",
+      "denominator": {"value": 2, "unit": "river-basin case studies selected to test subnational land accounting", "value_type": "reported_subnational_account"},
+      "measures": {
+        "abay": {"value": "in the Abay Basin, annual cropland increased by 0.7 million hectares or 8%, perennial cropland rose 152% from a small base, and closed shrubland declined by 1.7 million hectares or 43%", "unit": "hectares and percent", "value_type": "reported_basin_change"},
+        "awash": {"value": "in the Awash Basin, annual cropland increased by 0.8 million hectares or 41%, closed grassland fell from 91,000 hectares to about 66 hectares, and built-up area increased by 28%", "unit": "hectares and percent", "value_type": "reported_basin_change"},
+        "policy_pressure": {"value": "the basin patterns expose different combinations of agricultural expansion, water scarcity, urbanization, industrial pressure, and watershed-management needs", "unit": "reported subnational policy frame", "value_type": "reported_result"},
+        "scale_mechanism": {"value": "national averages can conceal basin-level trade-offs, making spatially targeted planning and monitoring necessary", "unit": "bounded scale-and-governance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "SEEA land accounts and land-cover maps applied to the Abay (Blue Nile) and Awash Basins as subnational case studies, with basin-specific interpretation and policy linkage.",
+      "uncertainty": "The basin estimates are not causal impact evaluations; small-area changes, classification boundaries, and the absence of continuous annual observations limit inference about timing, drivers, water use, or welfare.",
+      "subgroup": "Basin authorities, farmers, irrigation users, hydropower and industrial users, urban communities, downstream populations, watershed managers, and biodiversity interests.",
+      "counterinterpretation": "Basin specialization can support national food, energy, and industrial goals, while local land-cover changes may have different meanings for upstream and downstream groups.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090426035542547/pdf/P178754-470eaf4b-0020-46db-b28b-abe13430b2e6.pdf",
+      "retrieval_hash": "sha256:942d7ea40c9dde49a2383a7b5ad3dd4ab452451cf4ed20e0bbb2c36e4a586c68",
+      "status": "reported"
+    },
+    {
+      "period": "2026; institutionalization of natural-capital accounting in Ethiopian planning",
+      "denominator": {"value": 1, "unit": "national SEEA natural-capital accounting platform and proposed extensions", "value_type": "reported_institutional_frame"},
+      "measures": {
+        "policy_use": {"value": "the accounts are intended to inform agriculture, forestry, biodiversity conservation, climate action, water-resource management, urban planning, and sustainable development", "unit": "reported policy domains", "value_type": "reported_policy_route"},
+        "data_platform": {"value": "land accounting is presented as a foundation for future ecosystem, water, forest, and environmental accounts", "unit": "reported statistical-infrastructure route", "value_type": "reported_institutional_route"},
+        "economic_visibility": {"value": "the SEEA framework links environmental stocks and flows to economic accounts, making ecosystem services and environmental change more visible in planning", "unit": "reported accounting mechanism", "value_type": "reported_method"},
+        "accountability_mechanism": {"value": "standardized spatial accounts can create a shared evidence base for deciding which land-use gains, losses, restoration claims, and distributional pressures require policy response", "unit": "bounded public-accountability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Institutional and methodological assessment of Ethiopia’s first SEEA-based land accounts, technical working group, national and basin datasets, policy mapping, and roadmap for additional natural-capital accounts.",
+      "uncertainty": "A statistical account does not itself change land-use decisions, enforcement, tenure, livelihoods, biodiversity, or water outcomes; the report calls for improved data, harmonized classifications, longer time series, and policy mainstreaming.",
+      "subgroup": "National and regional planning agencies, statistical offices, environmental and agricultural ministries, local authorities, researchers, communities, investors, and civil-society monitors.",
+      "counterinterpretation": "Standardization can improve coordination but may also privilege what is measurable, undercount cultural and customary land values, or shift conflict into classification and indicator choices.",
+      "source_url": "https://documents.worldbank.org/curated/en/099090426035542547/pdf/P178754-470eaf4b-0020-46db-b28b-abe13430b2e6.pdf",
+      "retrieval_hash": "sha256:942d7ea40c9dde49a2383a7b5ad3dd4ab452451cf4ed20e0bbb2c36e4a586c68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099090426035542547", "claim": "Official World Bank record, report number, date, Ethiopia geography, abstract, project, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099090426035542547", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a natural-capital-accounting-to-policy-feedback mechanism. It is a first-edition spatial account of 2013 and 2022 land cover, not causal evidence about why land changed, whether restoration is durable, whether households benefit, or whether standardized accounts alter decisions; continuous monitoring, tenure, enforcement, ecosystem, water, and livelihood outcomes remain open tests.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, API metadata, SEEA framework, national 2013-2022 land-cover changes, Abay and Awash basin changes, data limitations, policy domains, natural-capital-accounting extensions, and measurement-to-policy boundary were reviewed.",
+    "source_url_sha256": "sha256:942d7ea40c9dde49a2383a7b5ad3dd4ab452451cf4ed20e0bbb2c36e4a586c68",
+    "checked": "2026-09-29"
+  }
+}

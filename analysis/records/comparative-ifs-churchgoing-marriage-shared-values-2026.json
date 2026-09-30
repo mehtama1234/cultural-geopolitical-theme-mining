@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ifs-churchgoing-marriage-shared-values-2026",
+  "title": "Shared religious practice and value alignment appear as relationship infrastructure, not only private belief",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Institute for Family Studies, Churchgoing husbands and wives are happier, September 25, 2026 insight",
+  "geography": "United States; married adults ages 20–54",
+  "observations": [
+    {
+      "period": "2026; married adults ages 20–54",
+      "denominator": {"value": 1, "unit": "married adults in the underlying study; public IFS insight does not state the sample size", "value_type": "published_survey_frame"},
+      "measures": {
+        "marital_happiness_churchgoing_husbands": {"value": 78, "unit": "percent of churchgoing husbands describing their marriage as very or extremely happy", "value_type": "reported_share"},
+        "marital_happiness_churchgoing_wives": {"value": 74, "unit": "percent of churchgoing wives describing their marriage as very or extremely happy", "value_type": "reported_share"},
+        "marital_happiness_infrequent_or_nonattending_husbands": {"value": 66, "unit": "percent of husbands attending church infrequently or never describing their marriage as very or extremely happy", "value_type": "reported_share"},
+        "marital_happiness_infrequent_or_nonattending_wives": {"value": 63, "unit": "percent of wives attending church infrequently or never describing their marriage as very or extremely happy", "value_type": "reported_share"},
+        "mechanism": {"value": "Recurring communal practice may provide shared time, meaning and social reinforcement that couples can experience as relationship infrastructure", "unit": "bounded social mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "IFS public insight summarizing a recent study and reporting subgroup percentages; the public listing does not provide the underlying study's sample size, full instrument, field dates or model specification.",
+      "uncertainty": "The reported differences are associational and may reflect selection, relationship stability, socioeconomic composition, prior beliefs or other unmeasured factors; the public insight does not establish that church attendance causes marital happiness.",
+      "subgroup": "Married U.S. adults ages 20–54, with potentially different patterns by denomination, race, class, education, age, sexuality, geography, attendance intensity and relationship history; subgroup estimates are not supplied in the public insight.",
+      "counterinterpretation": "Church attendance may be a marker for shared networks, values or selection into marriage rather than the operative cause; couples can also build shared meaning through nonreligious institutions and practices.",
+      "source_url": "https://ifstudies.org/insights?id=4553",
+      "retrieval_hash": "sha256:3588941a1dea4a4302bf5d65850396b67e49f07d5d7f99cc4214f50321f8e2fa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; relationship meaning and value alignment",
+      "denominator": {"value": 1, "unit": "married couples in the underlying study", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "shared_core_values": {"value": "Spouses' agreement on core marriage and faith values is described as one of the strongest predictors of marital happiness", "unit": "reported association", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Institutional practice appears most consequential when it creates a shared interpretive frame and coordinated expectations, rather than functioning as an isolated attendance behavior", "unit": "bounded relationship mechanism", "value_type": "bounded_mechanism"},
+        "institutional_translation": {"value": "Family, faith and other communal institutions may shape wellbeing through repeated opportunities for alignment, obligation, recognition and social support", "unit": "bounded institutional pathway", "value_type": "bounded_mechanism"}
+      },
+      "method": "Interpretive reading of the IFS insight's statement about value agreement and marital happiness; no underlying coefficients or causal design are available on the public page.",
+      "uncertainty": "The public source does not permit comparison of effect sizes, temporal ordering, mediation or whether shared values precede or follow relationship satisfaction.",
+      "subgroup": "Couples with different religious identities, attendance patterns, value conflicts and access to supportive communities.",
+      "counterinterpretation": "Agreement may sometimes reflect conformity or suppressed conflict; disagreement can also be productive when couples have communication and institutional support.",
+      "source_url": "https://ifstudies.org/insights?id=4553",
+      "retrieval_hash": "sha256:3588941a1dea4a4302bf5d65850396b67e49f07d5d7f99cc4214f50321f8e2fa",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cultural and consumer-political extension",
+      "denominator": {"value": 1, "unit": "bounded interpretation of the reported relationship pattern", "value_type": "interpretive_frame"},
+      "measures": {
+        "belonging_route": {"value": "When communal practice supplies shared time and meaning, it can operate as a belonging route alongside family, neighborhood, civic, cultural and voluntary organizations", "unit": "bounded cultural mechanism", "value_type": "bounded_mechanism"},
+        "consumer_effect": {"value": "Institutions that provide trustworthy recurring spaces may influence household time allocation, service choice and willingness to contribute, but the source does not measure consumer behavior", "unit": "bounded downstream pathway", "value_type": "bounded_mechanism"},
+        "political_effect": {"value": "Communal institutions can create relational capacity for care and civic voice, but the source does not measure political participation, policy preferences or institutional power", "unit": "bounded political pathway", "value_type": "bounded_mechanism"}
+      },
+      "method": "Program interpretation, explicitly separated from the IFS-reported percentages and association claims.",
+      "uncertainty": "No evidence here identifies downstream effects on fertility, household spending, social trust, civic participation, service use or public policy.",
+      "subgroup": "Households and communities with different religious and nonreligious forms of recurring social infrastructure.",
+      "counterinterpretation": "Strong communal institutions can support belonging but can also impose exclusionary norms or unequal burdens; this source does not measure either outcome.",
+      "source_url": "https://ifstudies.org/insights?id=4553",
+      "retrieval_hash": "sha256:3588941a1dea4a4302bf5d65850396b67e49f07d5d7f99cc4214f50321f8e2fa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ifstudies.org/insights?id=4553", "claim": "Public IFS insight with the reported happiness percentages, age range and statement about spouses' agreement on core marriage and faith values."}
+  ],
+  "boundary": "This record identifies a communal-practice, shared-values and relationship-infrastructure subtheme. It does not establish causality, sample representativeness, effect sizes, temporal ordering, fertility or household-consumption effects, civic participation, institutional inclusion or superiority of religious over nonreligious forms of social connection.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IFS insight page was reviewed for the September 25, 2026 date, title, reported percentages for churchgoing and infrequently or never attending husbands and wives, age range and value-agreement statement.",
+    "source_url_sha256": "sha256:3588941a1dea4a4302bf5d65850396b67e49f07d5d7f99cc4214f50321f8e2fa",
+    "checked": "2026-09-29"
+  }
+}

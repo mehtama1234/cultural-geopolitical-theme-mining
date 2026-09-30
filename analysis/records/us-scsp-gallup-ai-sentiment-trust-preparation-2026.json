@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-scsp-gallup-ai-sentiment-trust-preparation-2026",
+  "title": "AI adoption is outrunning public trust, formal preparation and confidence in shared economic gains",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "SCSP-Gallup, American AI Sentiment in 2026, September 16, 2026",
+  "geography": "United States; adults aged 18 and older",
+  "observations": [
+    {
+      "period": "June 2-23, 2026 survey; use, knowledge and trust",
+      "denominator": {"value": 3152, "unit": "U.S. adults in the Gallup Panel survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "use_at_least_sometimes": {"value": 51, "unit": "percent using AI at least sometimes at work, school or in personal life", "value_type": "published_survey_estimate"},
+        "use_2025": {"value": 39, "unit": "percent in the comparable 2025 measure", "value_type": "published_survey_estimate"},
+        "knowledgeable": {"value": 68, "unit": "percent describing themselves as very or somewhat knowledgeable about AI", "value_type": "published_survey_estimate"},
+        "trust_fair_unbiased": {"value": 28, "unit": "percent who fully or somewhat trust AI to make fair and unbiased decisions", "value_type": "published_survey_estimate"}
+      },
+      "method": "SCSP-Gallup nationally representative probability-based Gallup Panel web survey conducted June 2-23, 2026; weighted to the U.S. adult population.",
+      "uncertainty": "Use, knowledge and trust are self-reported and the trust question concerns fair and unbiased decisions rather than all possible AI uses; the survey does not measure verified usage, system performance or longitudinal behavior.",
+      "subgroup": "U.S. adults, with age and frequency-of-use comparisons in the report.",
+      "counterinterpretation": "Higher use may increase familiarity without increasing confidence in high-stakes or consequential decisions; stable aggregate trust can also conceal divergent user and non-user trajectories.",
+      "source_url": "https://www.gallup.com/file/analytics/714230/SCSP_Gallup_American_Perspective_AI_Report.pdf",
+      "retrieval_hash": "source_page:sha256:0c10409d49c40e808c36b44412e36ffa9aaad90a014c6797e88b895b03f5c853",
+      "status": "reported"
+    },
+    {
+      "period": "June 2-23, 2026 survey; use experience and trust gradient",
+      "denominator": {"value": 3152, "unit": "U.S. adults in the Gallup Panel survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "regular_user_trust": {"value": 43, "unit": "percent of people using AI sometimes or more who trust it to make fair and unbiased decisions", "value_type": "published_subgroup_estimate"},
+        "rare_or_nonuser_trust": {"value": 12, "unit": "percent of people using AI rarely or never who express the same trust", "value_type": "published_subgroup_estimate"},
+        "use_trust_gap": {"value": 31, "unit": "percentage-point descriptive difference between regular users and rare/nonusers", "value_type": "reported_difference"},
+        "trust_intervention_preferences": {"value": "Greater company transparency, independent expert testing and pre-deployment fairness testing receive 49%, 48% and 46% support respectively as trust-building measures.", "unit": "reported support levels", "value_type": "published_survey_estimate"}
+      },
+      "method": "Gallup comparison of trust by reported AI-use frequency and responses to possible trust-building interventions.",
+      "uncertainty": "The cross-sectional difference cannot determine whether use builds trust, trusting people use more, or both reflect education, occupation, age, access and perceived stakes.",
+      "subgroup": "Adults using AI sometimes or more versus rarely or never.",
+      "counterinterpretation": "Experience may create calibrated trust for low-stakes tasks while increasing concern about fairness and accountability in high-stakes decisions.",
+      "source_url": "https://www.gallup.com/file/analytics/714230/SCSP_Gallup_American_Perspective_AI_Report.pdf",
+      "retrieval_hash": "source_page:sha256:0c10409d49c40e808c36b44412e36ffa9aaad90a014c6797e88b895b03f5c853",
+      "status": "reported"
+    },
+    {
+      "period": "June 2-23, 2026 survey; economic expectations and transition security",
+      "denominator": {"value": 3152, "unit": "U.S. adults in the Gallup Panel survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "reduce_growth": {"value": 45, "unit": "percent expecting AI to reduce U.S. economic growth", "value_type": "published_survey_estimate"},
+        "boost_growth": {"value": 36, "unit": "percent expecting AI to boost U.S. economic growth", "value_type": "published_survey_estimate"},
+        "destroy_more_jobs": {"value": 70, "unit": "percent expecting AI to destroy more jobs than it creates over the next decade", "value_type": "published_survey_estimate"},
+        "replacement_retraining_confidence": {"value": 20, "unit": "percent expecting most or all workers whose jobs are replaced to learn new skills for different work", "value_type": "published_survey_estimate"},
+        "workplace_productivity_positive": {"value": 52, "unit": "percent expecting AI to have a positive impact on workplace productivity", "value_type": "published_survey_estimate"}
+      },
+      "method": "Descriptive survey estimates of expected AI effects on growth, jobs, business creation/destruction, productivity and retraining.",
+      "uncertainty": "These are expectations, not forecasts or observed labor-market outcomes; the report does not estimate job transitions, wage changes, productivity measurement or who captures gains.",
+      "subgroup": "U.S. adults, with younger-adult pessimism highlighted in the report.",
+      "counterinterpretation": "Respondents may distinguish aggregate productivity from distributive security: AI can improve workplace output while still being expected to reduce jobs or leave displaced workers without a credible bridge.",
+      "source_url": "https://www.gallup.com/file/analytics/714230/SCSP_Gallup_American_Perspective_AI_Report.pdf",
+      "retrieval_hash": "source_page:sha256:0c10409d49c40e808c36b44412e36ffa9aaad90a014c6797e88b895b03f5c853",
+      "status": "reported"
+    },
+    {
+      "period": "June 2-23, 2026 survey; informal learning and bipartisan preparation preferences",
+      "denominator": {"value": 3152, "unit": "U.S. adults in the Gallup Panel survey", "value_type": "reported_survey_sample"},
+      "measures": {
+        "asked_ai_for_ai_help": {"value": 57, "unit": "percent who asked an AI for help with using or understanding AI", "value_type": "published_survey_estimate"},
+        "asked_human_for_ai_help": {"value": 23, "unit": "percent who asked another human for help with using or understanding AI", "value_type": "published_survey_estimate"},
+        "online_training": {"value": 26, "unit": "percent completing online AI training videos or articles", "value_type": "published_survey_estimate"},
+        "employer_training": {"value": 16, "unit": "percent completing employer-provided AI training", "value_type": "published_survey_estimate"},
+        "support_stem": {"value": 72, "unit": "percent supporting STEM education to equip workers with AI skills", "value_type": "published_survey_estimate"},
+        "support_on_the_job_training": {"value": 66, "unit": "percent supporting on-the-job AI training programs", "value_type": "published_survey_estimate"},
+        "support_safety_over_speed": {"value": 79, "unit": "percent saying government should prioritize safety and data-security rules even if development slows", "value_type": "published_survey_estimate"},
+        "support_independent_testing": {"value": 75, "unit": "percent saying independent experts should test AI safety before wide use", "value_type": "published_survey_estimate"}
+      },
+      "method": "Descriptive survey estimates of self-directed learning and policy preferences; the report notes similar training support across party groups.",
+      "uncertainty": "Stated support does not establish willingness to fund, complete or use training, nor agreement about curriculum, testing standards, institutional authority or enforcement.",
+      "subgroup": "U.S. adults, with party comparisons for selected policy proposals.",
+      "counterinterpretation": "Self-teaching may be a practical access route rather than institutional rejection, but the gap between informal use and formal preparation can leave responsibility for safe adoption on individuals.",
+      "source_url": "https://www.gallup.com/file/analytics/714230/SCSP_Gallup_American_Perspective_AI_Report.pdf",
+      "retrieval_hash": "source_page:sha256:0c10409d49c40e808c36b44412e36ffa9aaad90a014c6797e88b895b03f5c853",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a public-legitimacy and preparation mechanism: AI use and informal learning are expanding faster than trust, formal training, perceived economic security and institutional testing. The survey does not establish actual AI performance, labor-market displacement, causal trust change, training effectiveness, policy implementation or future economic outcomes."
+}

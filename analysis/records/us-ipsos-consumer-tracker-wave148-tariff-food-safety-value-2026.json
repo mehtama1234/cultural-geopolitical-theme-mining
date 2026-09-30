@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ipsos-consumer-tracker-wave148-tariff-food-safety-value-2026",
+  "title": "Consumers are converting price shocks and institutional failures into attribution, safety routines and value literacy",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "time_hidden_price"
+  ],
+  "source_unit": "Ipsos Consumer Tracker Wave 148",
+  "geography": "United States; recurring online consumer-attitudes tracker",
+  "observations": [
+    {
+      "period": "September 22–23, 2026; Wave 148",
+      "denominator": {"value": 1082, "unit": "U.S. adults in Wave 148", "value_type": "survey_sample"},
+      "measures": {
+        "tariff_price_expectation": {"value": 81, "unit": "percent saying tariffs will raise prices on goods they buy", "value_type": "reported_share"},
+        "tariff_price_attribution": {"value": 71, "unit": "percent saying they have already seen prices rise specifically because of tariffs", "value_type": "reported_share"},
+        "tariff_mechanism_knowledge": {"value": 55, "unit": "percent correctly identifying tariffs as import taxes paid by importers that often raise consumer prices", "value_type": "reported_share"},
+        "tariff_national_goal_tolerance": {"value": 29, "unit": "percent saying tariff-related price increases are worth it to get what the country wants", "value_type": "reported_share"},
+        "tariff_cost_pass_through_fairness": {"value": 29, "unit": "percent saying it is fair for companies to pass tariff costs to shoppers", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Consumer Tracker Wave 148; online panel, partner-panel and river sampling, calibrated to U.S. population targets; credibility interval +/-3.6 percentage points, design-effect-adjusted +/-5.1 points.",
+      "uncertainty": "These are reported perceptions and policy judgments, not observed tariff incidence, company margins or causal estimates of price changes.",
+      "subgroup": "U.S. adults",
+      "counterinterpretation": "Respondents may attribute general inflation or salient price changes to tariffs; the result still matters as a legitimacy and accountability signal because the cost mechanism is becoming publicly legible.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20148.pdf",
+      "retrieval_hash": "sha256:3669c399e1120d495c5be0eeadeaece73ef9e4119ea0a4115c7ceb450ee6ae8c",
+      "status": "reported"
+    },
+    {
+      "period": "September 22–23, 2026; food-safety questions in Wave 148",
+      "denominator": {"value": 1082, "unit": "U.S. adults in Wave 148", "value_type": "survey_sample"},
+      "measures": {
+        "trust_food_safety_inspections": {"value": 39, "unit": "percent expressing a great deal or some trust in government food-safety inspections", "value_type": "reported_share"},
+        "recall_trust_decline": {"value": 54, "unit": "percent saying recent food recalls made them trust inspections less", "value_type": "reported_share"},
+        "wash_produce": {"value": 44, "unit": "percent saying recalls led them to wash produce at home", "value_type": "reported_share"},
+        "avoid_recalled_foods": {"value": 43, "unit": "percent saying recalls led them to avoid recalled foods", "value_type": "reported_share"},
+        "buy_local_food": {"value": 30, "unit": "percent saying recalls led them to try to buy more locally sourced foods", "value_type": "reported_share"},
+        "buy_less_fresh_produce": {"value": 27, "unit": "percent saying recalls led them to buy less fresh produce at grocery stores", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Consumer Tracker Wave 148 online survey.",
+      "uncertainty": "The behavior question is select-all-that-apply and measures self-reported response to recalls; it does not verify purchasing or health outcomes.",
+      "subgroup": "U.S. adults",
+      "counterinterpretation": "Low trust may coexist with reliance on the inspection system; the key signal is that institutional uncertainty is being converted into household monitoring, localism and avoidance routines.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20148.pdf",
+      "retrieval_hash": "sha256:3669c399e1120d495c5be0eeadeaece73ef9e4119ea0a4115c7ceb450ee6ae8c",
+      "status": "reported"
+    },
+    {
+      "period": "September 22–23, 2026; clothing-value questions in Wave 148",
+      "denominator": {"value": 1082, "unit": "U.S. adults in Wave 148", "value_type": "survey_sample"},
+      "measures": {
+        "expensive_not_better": {"value": 83, "unit": "percent saying expensive clothing is not necessarily better quality", "value_type": "reported_share"},
+        "brand_less_important": {"value": 82, "unit": "percent saying brand names are becoming less important when shopping for clothing", "value_type": "reported_share"},
+        "value_dupe_pride": {"value": 81, "unit": "percent proud to find great value whether a name brand or dupe", "value_type": "reported_share"},
+        "fabric_over_brand": {"value": 78, "unit": "percent caring more about fabric than brand name", "value_type": "reported_share"},
+        "pay_more_for_durability": {"value": 77, "unit": "percent willing to pay more upfront if clothing will last longer", "value_type": "reported_share"},
+        "sustainability_certification_check": {"value": 32, "unit": "percent checking verified sustainability certifications", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Consumer Tracker Wave 148 online survey.",
+      "uncertainty": "Attitudes toward value and durability are not purchase receipts; category, income and actual garment quality are not separately identified here.",
+      "subgroup": "U.S. adults",
+      "counterinterpretation": "Anti-brand sentiment may coexist with selective premium buying; the stronger finding is a shift of evaluative authority toward materials, longevity and perceived value.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20148.pdf",
+      "retrieval_hash": "sha256:3669c399e1120d495c5be0eeadeaece73ef9e4119ea0a4115c7ceb450ee6ae8c",
+      "status": "reported"
+    },
+    {
+      "period": "September 22–23, 2026; community-safety perceptions in Wave 148",
+      "denominator": {"value": 1082, "unit": "U.S. adults in Wave 148", "value_type": "survey_sample"},
+      "measures": {
+        "police_presence_more_safe": {"value": 56, "unit": "percent saying more police officers on streets make communities safer", "value_type": "reported_share"},
+        "armed_federal_presence_more_safe": {"value": 31, "unit": "percent saying armed military or federal agents make communities safer", "value_type": "reported_share"},
+        "armed_teachers_more_safe": {"value": 21, "unit": "percent saying teachers openly carrying firearms make communities safer", "value_type": "reported_share"},
+        "open_carry_more_safe": {"value": 20, "unit": "percent saying more individuals openly carrying firearms make communities safer", "value_type": "reported_share"}
+      },
+      "method": "Ipsos Consumer Tracker Wave 148 online survey; question measures perceived safety, not crime outcomes.",
+      "uncertainty": "These are normative perceptions and may vary by political identity, local context and personal exposure; they should not be read as estimates of actual safety effects.",
+      "subgroup": "U.S. adults",
+      "counterinterpretation": "The pattern may reflect role legitimacy rather than a general preference for force: respondents distinguish ordinary police presence from militarized, school-based or generalized armed visibility.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20148.pdf",
+      "retrieval_hash": "sha256:3669c399e1120d495c5be0eeadeaece73ef9e4119ea0a4115c7ceb450ee6ae8c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19", "claim": "Official Ipsos Consumer Tracker page announcing Wave 148 tariff findings and linking the topline."}
+  ],
+  "boundary": "This record adds a cross-domain mechanism linking tariff attribution, food-safety trust, clothing value literacy and differentiated safety legitimacy. It is an online public-opinion wave, not transaction data, verified household behavior, a crime dataset or a causal policy evaluation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos Wave 148 topline PDF and Consumer Tracker page were retrieved and reviewed for tariff, food-safety, clothing-value and community-safety questions.",
+    "source_url_sha256": "sha256:2c262b6e4f2607e01b40bef7e7760db094e40ed7ffbc1363f01c1a1003810716",
+    "checked": "2026-09-28"
+  }
+}

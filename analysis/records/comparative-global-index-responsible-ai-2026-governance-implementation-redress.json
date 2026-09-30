@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-global-index-responsible-ai-2026-governance-implementation-redress",
+  "title": "AI governance is expanding faster than public accountability, labor protection, and rights-respecting implementation",
+  "theme_ids": ["voice", "work", "cost", "energy"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Global Center on AI Governance, Global Index on Responsible AI 2026, second edition",
+  "geography": "135 countries and jurisdictions across seven global regions",
+  "observations": [
+    {
+      "period": "2026; global responsible-AI governance coverage and implementation",
+      "denominator": {"value": 135, "unit": "countries and jurisdictions assessed by GIRAI", "value_type": "published_index_coverage"},
+      "measures": {
+        "adoption": {"value": "53% of the global population has used generative AI tools, while average GIRAI scores are roughly 35 out of 100", "unit": "reported global index finding", "value_type": "reported_index_finding"},
+        "implementation": {"value": "evidence of implementation exists in 55% of cases where responsible-AI frameworks are active, falling to 45% in Global South countries", "unit": "framework cases with implementation evidence", "value_type": "reported_index_finding"},
+        "governance_route": {"value": "AI diffusion is outrunning the institutions, oversight, participation, and redress mechanisms needed to govern it in the public interest", "unit": "analytic governance mechanism", "value_type": "analytic_mechanism"},
+        "boundary": {"value": "the index compares public evidence of frameworks and initiatives; it does not measure all real-world AI exposure, lived harm, or causal effects", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "Comparative index built from publicly verifiable laws, policies, strategies, institutional actions, civil-society initiatives, and enabling conditions across 38 indicators and three pillars.",
+      "uncertainty": "Framework presence and implementation evidence are not equivalent to effective enforcement, safe deployment, or equal outcomes for affected people.",
+      "subgroup": "Governments, civil society, workers, public-service users, children, women, language communities, and groups exposed to unequal access or automated harm.",
+      "counterinterpretation": "Low scores can partly reflect uneven public documentation or different institutional forms rather than identical levels of responsible practice.",
+      "source_url": "https://www.global-index.ai/",
+      "retrieval_hash": "sha256:dce77d76ae337b2dabb088373e6d0847f251a7e9a7f3bde37fa4e911716eadc0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; state power and public-service accountability",
+      "denominator": {"value": 135, "unit": "countries and jurisdictions assessed across AI Use in Public Service indicators", "value_type": "published_index_coverage"},
+      "measures": {
+        "public_service_gap": {"value": "AI Use in Public Service is the weakest-performing dimension: frameworks address its indicators in only 31% of cases versus a 42% global average across dimensions", "unit": "countries with framework coverage by dimension", "value_type": "reported_index_finding"},
+        "disclosure": {"value": "only 18% of countries require disclosure of government algorithmic systems", "unit": "countries with disclosure requirement", "value_type": "reported_index_finding"},
+        "procurement": {"value": "only 26% of countries have frameworks for fair and accountable public procurement of AI", "unit": "countries with procurement framework", "value_type": "reported_index_finding"},
+        "analytic_signal": {"value": "states are more prepared to regulate AI in markets than to disclose and account for AI used in their own exercise of power over welfare, healthcare, education, and public access", "unit": "analytic public-systems mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "GIRAI comparative indicators for public-sector AI policy, civil-society inclusion, disclosure, procurement, accountability, and public-service delivery.",
+      "uncertainty": "A framework or disclosure requirement does not establish that public systems are transparent, contestable, accurate, or safe in operation.",
+      "subgroup": "People receiving public benefits, healthcare, education, immigration, legal, or other administrative services; public workers; vendors; and oversight bodies.",
+      "counterinterpretation": "Some public-sector safeguards may be embedded in general administrative, procurement, privacy, or rights law and therefore undercounted by AI-specific indicators.",
+      "source_url": "https://www.global-index.ai/takeaways",
+      "retrieval_hash": "sha256:dce77d76ae337b2dabb088373e6d0847f251a7e9a7f3bde37fa4e911716eadc0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labor, inclusion, language, and environmental externalities",
+      "denominator": {"value": 135, "unit": "countries and jurisdictions assessed across labor, inclusion, and environmental indicators", "value_type": "published_index_coverage"},
+      "measures": {
+        "labor": {"value": "53% of countries have reskilling or upskilling frameworks, compared with 29% with labor-protection frameworks; few address workers' rights to organize and bargain collectively", "unit": "countries with reported framework coverage", "value_type": "reported_index_finding"},
+        "language": {"value": "39% show government-led local-language initiatives, but only 35% have cultural and linguistic diversity frameworks", "unit": "countries with reported framework or initiative", "value_type": "reported_index_finding"},
+        "environment": {"value": "only 27% of countries have frameworks addressing AI environmental effects, and 83% of those frameworks are non-binding", "unit": "countries with environmental framework", "value_type": "reported_index_finding"},
+        "analytic_signal": {"value": "governance is preparing populations and systems for AI capability while leaving bargaining power, cultural representation, and energy or environmental accountability thinner", "unit": "analytic distributional mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "GIRAI indicators covering labor protections, skills, cultural and linguistic diversity, environmental impact, and enabling conditions.",
+      "uncertainty": "The indicators show institutional coverage and binding status, not the quality of training, labor outcomes, language performance, emissions, or worker power.",
+      "subgroup": "Workers, jobseekers, women, children, minority-language communities, rural and low-income users, and communities bearing data-center or energy burdens.",
+      "counterinterpretation": "Skills initiatives can create real mobility and local-language programs can improve access even before comprehensive rights or environmental frameworks are enacted.",
+      "source_url": "https://www.global-index.ai/",
+      "retrieval_hash": "sha256:dce77d76ae337b2dabb088373e6d0847f251a7e9a7f3bde37fa4e911716eadc0",
+      "status": "reported"
+    },
+    {
+      "period": "2026; civil-society participation, redress, and global fragmentation",
+      "denominator": {"value": 135, "unit": "countries and jurisdictions assessed for participation and governance capacity", "value_type": "published_index_coverage"},
+      "measures": {
+        "participation": {"value": "only 27% of countries have operational mechanisms for civil-society participation in AI policy and governance", "unit": "countries with operational participation mechanism", "value_type": "reported_index_finding"},
+        "redress": {"value": "access to redress and remedy remains inconsistent, while oversight bodies, structured audits, and monitoring are limited in many jurisdictions", "unit": "reported governance finding", "value_type": "reported_institutional_gap"},
+        "fragmentation": {"value": "average GIRAI scores range from 55 in Global North countries to 27 in Global South countries, and only 54% have adopted a national AI policy or equivalent", "unit": "reported comparative index finding", "value_type": "reported_index_finding"},
+        "open_test": {"value": "join AI deployment, procurement, disclosure, labor and language protections, energy use, civil-society participation, complaint routes, enforcement, and trust or service outcomes", "unit": "open analytic route", "value_type": "research_queue"}
+      },
+      "method": "Comparative GIRAI assessment of AI policy, civil-society engagement, enabling conditions, and documented unacceptable-risk AI systems.",
+      "uncertainty": "Cross-country scores compress different legal systems and documentation environments; they do not establish that regional averages cause different AI outcomes.",
+      "subgroup": "Civil-society organizations, researchers, affected individuals, public institutions, workers, and countries with limited regulatory and technical capacity.",
+      "counterinterpretation": "Fragmentation can allow locally appropriate experimentation and stronger protections in some jurisdictions, even while weakening a shared baseline.",
+      "source_url": "https://www.global-index.ai/takeaways",
+      "retrieval_hash": "sha256:dce77d76ae337b2dabb088373e6d0847f251a7e9a7f3bde37fa4e911716eadc0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.globalcenter.ai/projects/global-index-on-responsible-ai", "claim": "The Global Center on AI Governance project page describes the 2026 coverage, dimensions, assessed frameworks and initiatives, and human-rights grounding."},
+    {"source_url": "https://arxiv.org/abs/2607.14782", "claim": "The report record provides the 135-country, 68,138-data-point, 38-indicator methodology and November 2023 to September 2025 data window."},
+    {"source_url": "https://www.undp.org/digital-innovation/elm-data-to-ai-value-chain", "claim": "UNDP supplies a complementary local-language and data-to-impact implementation route."}
+  ],
+  "boundary": "This record adds a global institutional route from AI diffusion through public-sector disclosure, procurement, labor protection, cultural and linguistic inclusion, environmental accountability, civil-society participation, and redress. It uses comparative public evidence and index indicators, not respondent-level data, individual case histories, causal impact estimates, or proof that a framework changes lived outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GIRAI 2026 homepage and key-findings page were reviewed for coverage, implementation gaps, public-service accountability, labor, language, environment, participation, redress, and regional fragmentation.",
+    "source_url_sha256": "sha256:dce77d76ae337b2dabb088373e6d0847f251a7e9a7f3bde37fa4e911716eadc0",
+    "checked": "2026-09-26"
+  }
+}

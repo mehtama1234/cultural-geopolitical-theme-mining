@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-kantar-monitor-consumer-trends-2026-agency-transparency-local-culture-ai",
+  "title": "Consumers are seeking more agency over algorithms, institutions, leisure, health, and local culture while adopting AI on their own terms",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Kantar MONITOR, Caught by the tides: the 2026 Consumer Trends and the desire to opt out",
+  "geography": "Kantar consumer-trends synthesis across contemporary consumer, institutional, cultural, health, and technology contexts",
+  "observations": [
+    {
+      "period": "2026; agency and desire to opt out",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR consumer-trends synthesis", "value_type": "consumer_forecast_frame"},
+      "measures": {
+        "agency_signal": {"value": "Consumers are described as pushing back against algorithmic curation, institutional consolidation, and the feeling that large choices have already been made for them", "unit": "reported cultural pattern", "value_type": "reported_trend"},
+        "self_direction": {"value": "The highlighted trends frame consumers as seeking active participation and the ability to decide the shape of their own lives", "unit": "reported consumer orientation", "value_type": "reported_orientation"},
+        "opt_out_meaning": {"value": "Opting out is presented less as rejecting modernity than as reclaiming control over how technology, institutions, and culture enter everyday life", "unit": "reported interpretive frame", "value_type": "analytic_mechanism"}
+      },
+      "method": "Kantar MONITOR editorial synthesis of 10 new 2026 consumer trends, highlighting six trends through cultural and market interpretation.",
+      "uncertainty": "This is a commercial foresight synthesis; the public article does not provide a single survey denominator, sampling design, trend prevalence estimate, or causal test.",
+      "subgroup": "Consumers navigating algorithmic feeds, consolidated institutions, branded services, leisure choices, health systems, and local cultural identities.",
+      "counterinterpretation": "The language of agency may describe a marketing opportunity more than a broad behavioral shift; many consumers may lack practical ability to opt out of essential platforms or institutions.",
+      "source_url": "https://monitor.kantar.com/caught-by-the-tides-the-2026-consumer-trends-and-the-desire-to-opt-out/",
+      "retrieval_hash": "sha256:6fb0adaded209a4c1372bda20c0fef8815f6d751529145f7783825e8d904ca07",
+      "status": "reported"
+    },
+    {
+      "period": "2026; active leisure and meaningful friction",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR leisure and entertainment trend frame", "value_type": "consumer_forecast_frame"},
+      "measures": {
+        "into_the_action": {"value": "Consumers are described as seeking a more active stake in leisure rather than passively receiving what algorithms or entertainment systems serve them", "unit": "reported leisure trend", "value_type": "reported_trend"},
+        "no_shortcuts": {"value": "Meaningful friction and deliberate effort are framed as desirable counterweights to passive consumption and frictionless recommendation", "unit": "reported cultural preference", "value_type": "reported_orientation"},
+        "discovery_route": {"value": "Unexpected, effortful, or immersive experiences are presented as ways consumers reclaim authorship over leisure and discovery", "unit": "reported behavioral route", "value_type": "reported_mechanism"}
+      },
+      "method": "Kantar MONITOR trend interpretation of leisure, entertainment, algorithmic curation, and active consumer participation.",
+      "uncertainty": "The source does not distinguish which consumer groups prefer friction, quantify participation, or show whether active discovery persists when time, money, or accessibility constraints rise.",
+      "subgroup": "Entertainment audiences, travelers, gamers, culture-seekers, hobbyists, and consumers exposed to algorithmically curated leisure.",
+      "counterinterpretation": "Convenience remains valuable, and deliberate friction can be inaccessible or burdensome; the desire for discovery may coexist with strong demand for personalized recommendation.",
+      "source_url": "https://monitor.kantar.com/caught-by-the-tides-the-2026-consumer-trends-and-the-desire-to-opt-out/",
+      "retrieval_hash": "sha256:6fb0adaded209a4c1372bda20c0fef8815f6d751529145f7783825e8d904ca07",
+      "status": "reported"
+    },
+    {
+      "period": "2026; accountability, disclosure, and consumer recourse",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR institutional-trust trend frame", "value_type": "consumer_forecast_frame"},
+      "measures": {
+        "full_disclosure": {"value": "Consumers are described as demanding accountability and transparency from brands and institutions", "unit": "reported consumer expectation", "value_type": "reported_trend"},
+        "low_profile": {"value": "The highlighted trends focus attention on invasive data collection and opaque pricing as practices requiring greater visibility and accountability", "unit": "reported grievance set", "value_type": "reported_mechanism"},
+        "closed_room_rejection": {"value": "The synthesis frames consumers as rejecting decisions made in closed rooms without meaningful explanation or recourse for everyday people", "unit": "reported legitimacy tension", "value_type": "reported_institutional_tension"}
+      },
+      "method": "Kantar MONITOR commercial foresight synthesis connecting consumer expectations with data practices, pricing, brand transparency, and institutional legitimacy.",
+      "uncertainty": "The public article does not establish how widespread these demands are, which remedies consumers use, or whether disclosure alone changes trust or purchasing behavior.",
+      "subgroup": "Consumers exposed to dynamic pricing, data collection, branded services, digital platforms, and institutions with limited transparency.",
+      "counterinterpretation": "Consumers may value low prices or convenience enough to tolerate opaque practices, and transparency can become performative without enforceable rights, auditability, or remedy.",
+      "source_url": "https://monitor.kantar.com/caught-by-the-tides-the-2026-consumer-trends-and-the-desire-to-opt-out/",
+      "retrieval_hash": "sha256:6fb0adaded209a4c1372bda20c0fef8815f6d751529145f7783825e8d904ca07",
+      "status": "reported"
+    },
+    {
+      "period": "2026; self-directed health, local culture, and AI adoption",
+      "denominator": {"value": 1, "unit": "Kantar MONITOR health, culture, and generative-AI trend frame", "value_type": "consumer_forecast_frame"},
+      "measures": {
+        "renegade_health": {"value": "Consumers are described as finding more human, self-directed ways to operate even when national health systems feel immense or intractable", "unit": "reported health-culture trend", "value_type": "reported_trend"},
+        "keeping_the_culture": {"value": "Consumers are portrayed as protecting and celebrating the idiosyncrasies of small-scale cultural worlds amid perceived global homogenization", "unit": "reported cultural trend", "value_type": "reported_identity_route"},
+        "instant_expert": {"value": "Consumers readily embrace generative-AI guidance and knowledge when they can experience it on their own terms and timetable rather than as a top-down command", "unit": "reported AI-adoption tension", "value_type": "reported_mechanism"}
+      },
+      "method": "Kantar MONITOR synthesis linking consumer self-direction across healthcare, local culture, and generative-AI use.",
+      "uncertainty": "These are interpretive trend categories, not evidence that consumers are exiting public health systems, resisting cultural globalization uniformly, or adopting AI in a particular way.",
+      "subgroup": "Patients and caregivers, local cultural communities, generative-AI users, people with different levels of institutional trust, and consumers seeking personalized knowledge.",
+      "counterinterpretation": "Self-directed alternatives can supplement institutions but can also fragment care, intensify misinformation, or shift responsibility onto individuals without equal resources or expertise.",
+      "source_url": "https://monitor.kantar.com/caught-by-the-tides-the-2026-consumer-trends-and-the-desire-to-opt-out/",
+      "retrieval_hash": "sha256:6fb0adaded209a4c1372bda20c0fef8815f6d751529145f7783825e8d904ca07",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://monitor.kantar.com/", "claim": "Kantar MONITOR is the consumer-insights and foresight program publishing the 2026 trend synthesis."},
+    {"source_url": "https://www.kantar.com/inspiration/consumer", "claim": "Kantar's consumer-insights materials provide broader context for the MONITOR trend framing."}
+  ],
+  "boundary": "This record adds a commercial consumer-culture signal about agency, opting out, active leisure, transparency, self-directed health, local cultural identity, and conditional generative-AI adoption. It is a public trend synthesis, not respondent-level data, a representative global survey, a causal study, or proof that consumers can equally exercise the agency described.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Kantar MONITOR article reviewed for the six highlighted 2026 trends: Into the Action, No Shortcuts, Low Profile, Full Disclosure, Renegade Health, Keeping the Culture, and Instant Expert framing.",
+    "source_url_sha256": "sha256:6fb0adaded209a4c1372bda20c0fef8815f6d751529145f7783825e8d904ca07",
+    "checked": "2026-09-27"
+  }
+}

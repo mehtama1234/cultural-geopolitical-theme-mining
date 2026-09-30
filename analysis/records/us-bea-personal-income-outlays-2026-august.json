@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bea-personal-income-outlays-2026-august",
+  "title": "August consumption accelerates while real disposable income is flat and saving rises",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BEA National Income and Product Accounts monthly Personal Income and Outlays estimates, August 2026 release",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "August 2026; monthly estimate",
+      "denominator": {"value": 1, "unit": "aggregate U.S. personal-sector national-accounts flows; not household respondents", "value_type": "aggregate_account"},
+      "measures": {
+        "personal_income_change": {"value": 66.6, "unit": "billions of current U.S. dollars from July; 0.2 percent monthly rate", "value_type": "reported_change"},
+        "disposable_personal_income_change": {"value": 68.6, "unit": "billions of current U.S. dollars from July; 0.3 percent monthly rate", "value_type": "reported_change"},
+        "real_disposable_personal_income_change": {"value": 0.0, "unit": "percent from July", "value_type": "reported_change"},
+        "personal_consumption_expenditures_change": {"value": 190.8, "unit": "billions of current U.S. dollars from July; 0.9 percent monthly rate", "value_type": "reported_change"},
+        "real_personal_consumption_expenditures_change": {"value": 0.6, "unit": "percent from July", "value_type": "reported_change"}
+      },
+      "method": "BEA monthly National Income and Product Accounts estimate from the August 2026 Personal Income and Outlays release. Real measures are chain-type quantity estimates; current-dollar flows and rates are seasonally adjusted annual rates where reported.",
+      "uncertainty": "These are aggregate national accounts, revised with the annual update and not linked to individual households, income groups, or purchase occasions. The contrast between flat real DPI and rising real PCE does not establish household-level dissaving or causation.",
+      "subgroup": "Aggregate U.S. personal sector; no household, income, age, race, place, or consumer subgroup.",
+      "counterinterpretation": "Real PCE can rise because of timing, population growth, transfers, credit, or composition while particular households lose room; flat aggregate real DPI does not prove flat income for every group.",
+      "source_url": "https://bea.gov/sites/default/files/2026-09/pi0826.pdf",
+      "retrieval_hash": "sha256:b00e0ab232a97032083bb402fee930c68fd556bc066f9b423d1f6588945b2e29",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; current-dollar PCE composition",
+      "denominator": {"value": 1, "unit": "aggregate U.S. personal consumption expenditures account", "value_type": "aggregate_account"},
+      "measures": {
+        "goods_spending_change": {"value": 114.1, "unit": "billions of current U.S. dollars from July", "value_type": "reported_change"},
+        "services_spending_change": {"value": 76.7, "unit": "billions of current U.S. dollars from July", "value_type": "reported_change"},
+        "goods_share_of_pce_increase": {"value": 59.8, "unit": "percent of the reported $190.8 billion current-dollar PCE increase; derived", "value_type": "derived_share"},
+        "services_share_of_pce_increase": {"value": 40.2, "unit": "percent of the reported $190.8 billion current-dollar PCE increase; derived", "value_type": "derived_share"}
+      },
+      "method": "BEA release decomposition of the current-dollar PCE increase into goods and services; shares are calculated from the two reported component changes divided by total reported PCE change.",
+      "uncertainty": "The component changes are current-dollar aggregates and do not distinguish price from quantity, essential from discretionary purchases, or households by resources. The derived shares describe the increase, not the composition of total consumer spending.",
+      "subgroup": "Aggregate U.S. PCE by goods and services; no household or product-income subgroup.",
+      "counterinterpretation": "Goods leading the monthly increase may reflect prices, vehicle or energy timing, inventory and supply conditions, or seasonal movements rather than a durable return to goods-oriented consumption.",
+      "source_url": "https://bea.gov/sites/default/files/2026-09/pi0826.pdf",
+      "retrieval_hash": "sha256:b00e0ab232a97032083bb402fee930c68fd556bc066f9b423d1f6588945b2e29",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; saving and price measures",
+      "denominator": {"value": 1, "unit": "aggregate U.S. disposable personal income account", "value_type": "aggregate_account"},
+      "measures": {
+        "personal_saving": {"value": 990.2, "unit": "billions of current U.S. dollars, seasonally adjusted annual rate", "value_type": "reported_level"},
+        "personal_saving_rate": {"value": 4.1, "unit": "percent of disposable personal income", "value_type": "reported_rate"},
+        "pce_price_index_monthly_change": {"value": 0.3, "unit": "percent from July", "value_type": "reported_change"},
+        "pce_price_index_annual_change": {"value": 3.4, "unit": "percent from August 2025", "value_type": "reported_change"},
+        "core_pce_price_index_annual_change": {"value": 3.0, "unit": "percent from August 2025, excluding food and energy", "value_type": "reported_change"}
+      },
+      "method": "BEA estimates of personal saving, the saving rate, and PCE price indexes in the August 2026 release.",
+      "uncertainty": "The saving rate is an aggregate national-accounts ratio and is revised; it does not reveal liquid balances, debt service, precautionary motives, or the distribution of saving across households.",
+      "subgroup": "Aggregate U.S. personal sector; no household or income subgroup.",
+      "counterinterpretation": "A higher aggregate saving rate can coexist with financial distress, debt repayment, or forced consumption cuts for some households; it is not a direct measure of resilience or discretionary room.",
+      "source_url": "https://bea.gov/sites/default/files/2026-09/pi0826.pdf",
+      "retrieval_hash": "sha256:b00e0ab232a97032083bb402fee930c68fd556bc066f9b423d1f6588945b2e29",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://bea.gov/data/income-saving/personal-income", "claim": "Official BEA release page identifies the August 2026 vintage and links the full release and historical comparisons.", "status": "official-release-page"},
+    {"source_url": "https://bea.gov/data/consumer-spending/main", "claim": "Official BEA consumer-spending page defines PCE as goods and services purchased by or on behalf of U.S. residents and links monthly detail.", "status": "official-methodology-context"},
+    {"source_url": "https://bea.gov/sites/default/files/2026-09/pi0826-hist.xlsx", "claim": "Official historical-comparison workbook for the August 2026 release; access may be content-type restricted in some retrieval paths.", "status": "official-comparison-data"}
+  ],
+  "boundary": "This record adds a current aggregate national-accounts surface for income, real disposable income, consumption composition, saving, and prices. It does not measure household-level purchasing power, financial buffers, debt stress, cultural meaning, firm pricing, political response, or causal effects. Current-dollar flows, aggregate ratios, survey respondents, and credit-record balances must remain separate.",
+  "retrieval_hash": "sha256:b00e0ab232a97032083bb402fee930c68fd556bc066f9b423d1f6588945b2e29"
+}

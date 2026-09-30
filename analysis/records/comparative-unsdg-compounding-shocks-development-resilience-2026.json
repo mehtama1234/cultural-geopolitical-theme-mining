@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unsdg-compounding-shocks-development-resilience-2026",
+  "title": "Compounding geopolitical, economic, climate, food, and displacement shocks are narrowing development policy space and testing resilience systems",
+  "theme_ids": ["cost", "energy", "time", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "work_control_bargaining"
+  ],
+  "source_unit": "UN Sustainable Development Group / UNDP and UN Development Coordination Office, From Shock to Resilience: Protecting Development Gains Amid Compounding Crises, September 2026",
+  "geography": "Developing countries and UN Country Team reporting across the global development system",
+  "observations": [
+    {
+      "period": "2020-2026; successive external shocks",
+      "denominator": {"value": 6, "unit": "years of overlapping shocks described by the policy brief", "value_type": "published_period_frame"},
+      "measures": {
+        "shock_sequence": {"value": "developing countries have faced COVID-19, energy-food-fertiliser price shocks linked to the Russia-Ukraine war, and socio-economic spillovers from the 2026 Middle East conflict", "unit": "reported shock sequence", "value_type": "reported_mechanism_set"},
+        "compound_exposure": {"value": "the latest shock compounds existing crises including El Niño and other climate impacts, food insecurity, hunger hotspots, conflict, and displacement", "unit": "reported compounding-risk set", "value_type": "reported_mechanism_set"},
+        "resilience_route": {"value": "development outcomes are shaped by stacked shocks and response capacity rather than one isolated crisis", "unit": "analytic development mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "UNDP and UN Development Coordination Office policy brief using global trend analysis plus reporting and survey data from UN Country Teams.",
+      "uncertainty": "The brief synthesizes country-team reporting and survey evidence rather than providing a harmonized causal panel or a complete cross-country impact estimate.",
+      "subgroup": "Developing countries, vulnerable communities, food-insecure households, displaced people, climate-exposed regions, and national development systems.",
+      "counterinterpretation": "Some countries and communities may convert shocks into institutional learning, adaptation, diversification, or stronger social protection rather than experiencing cumulative decline.",
+      "source_url": "https://jointsdgfund.org/publication/shock-resilience-protecting-development-gains-amid-compounding-crises",
+      "retrieval_hash": "sha256:7d53347359ca9b4d2d6b765f29508c13822aa66647e7b0eeecade51045af101e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; fiscal and external-support constraints",
+      "denominator": {"value": 1, "unit": "UN policy analysis of developing-country response capacity", "value_type": "development_systems_frame"},
+      "measures": {
+        "policy_space": {"value": "many countries are navigating the latest shock with restricted policy space", "unit": "reported governance condition", "value_type": "reported_status"},
+        "public_finance": {"value": "weak public finances, inadequate access to international support, and an intensifying debt-development trade-off constrain response", "unit": "reported constraint set", "value_type": "reported_mechanism_set"},
+        "distribution_route": {"value": "external shocks become development losses when fiscal and institutional capacity cannot buffer or sequence the response", "unit": "analytic public-finance mechanism", "value_type": "analytic_mechanism"},
+        "open_test": {"value": "join debt service, fiscal space, external finance, social protection, service continuity, and later household or community recovery", "unit": "proposed cross-source chain", "value_type": "research_queue"}
+      },
+      "method": "UNDP and UN Development Coordination Office analysis of development financing and response capacity.",
+      "uncertainty": "The brief identifies constraints but does not estimate the causal contribution of debt, aid, fiscal policy, or institutional capacity in each country.",
+      "subgroup": "Low-income and vulnerable countries, finance ministries, local governments, development agencies, households, firms, and public-service systems.",
+      "counterinterpretation": "Targeted financing, debt restructuring, international support, and locally coordinated delivery can expand response capacity even under tight fiscal conditions.",
+      "source_url": "https://jointsdgfund.org/publication/shock-resilience-protecting-development-gains-amid-compounding-crises",
+      "retrieval_hash": "sha256:7d53347359ca9b4d2d6b765f29508c13822aa66647e7b0eeecade51045af101e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; cross-sector transmission channels",
+      "denominator": {"value": 1, "unit": "UN policy brief transmission-channel framework", "value_type": "systems_transmission_frame"},
+      "measures": {
+        "energy_food": {"value": "energy, food, and fertiliser price shocks can transmit through purchasing power, production, food security, and public budgets", "unit": "reported transmission route", "value_type": "reported_mechanism_set"},
+        "climate_conflict": {"value": "climate impacts, conflict, and displacement interact with food insecurity and existing development vulnerabilities", "unit": "reported transmission route", "value_type": "reported_mechanism_set"},
+        "spillover_route": {"value": "a geopolitical shock can travel through prices, fiscal capacity, livelihoods, food systems, services, and human mobility", "unit": "analytic systems chain", "value_type": "analytic_mechanism"},
+        "measurement_boundary": {"value": "the publication maps transmission channels rather than proving a single universal pathway or effect size", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "UN policy synthesis of global trends, country-team reporting, and survey evidence on compounding crises.",
+      "uncertainty": "Transmission differs by country exposure, policy response, market structure, conflict conditions, and access to external support.",
+      "subgroup": "Households, farmers, workers, displaced populations, import-dependent economies, public agencies, and communities exposed to climate shocks.",
+      "counterinterpretation": "Diversified food and energy systems, social protection, remittances, local adaptation, and regional cooperation can interrupt or soften transmission.",
+      "source_url": "https://jointsdgfund.org/publication/shock-resilience-protecting-development-gains-amid-compounding-crises",
+      "retrieval_hash": "sha256:7d53347359ca9b4d2d6b765f29508c13822aa66647e7b0eeecade51045af101e",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; resilience and development priorities",
+      "denominator": {"value": 1, "unit": "UN system policy-priority framework", "value_type": "published_policy_priority_frame"},
+      "measures": {
+        "priority_question": {"value": "the policy brief sets out priorities for protecting development gains while countries manage overlapping shocks and constrained response capacity", "unit": "reported policy framing", "value_type": "reported_policy_frame"},
+        "coordination_route": {"value": "UN system support is framed around helping countries navigate cross-sector spillovers rather than treating each crisis in isolation", "unit": "reported coordination mechanism", "value_type": "reported_mechanism"},
+        "durability_test": {"value": "resilience should be assessed through continued development gains, service continuity, food and energy security, livelihoods, and reduced re-exposure", "unit": "analytic resilience chain", "value_type": "research_queue"},
+        "agency_boundary": {"value": "the brief describes system priorities and support, not proof that policy recommendations have been implemented or achieved durable recovery", "unit": "scope boundary", "value_type": "analytic_boundary"}
+      },
+      "method": "UN Sustainable Development Group policy brief authored by UNDP and the UN Development Coordination Office.",
+      "uncertainty": "Future resilience outcomes depend on financing, country ownership, implementation, conflict dynamics, climate conditions, and institutional capacity.",
+      "subgroup": "National governments, UN Country Teams, development partners, civil society, local authorities, vulnerable populations, and development practitioners.",
+      "counterinterpretation": "Coordination can improve coherence while still leaving important trade-offs, delivery gaps, and unequal protection unresolved.",
+      "source_url": "https://jointsdgfund.org/publication/shock-resilience-protecting-development-gains-amid-compounding-crises",
+      "retrieval_hash": "sha256:7d53347359ca9b4d2d6b765f29508c13822aa66647e7b0eeecade51045af101e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-2026-september-update", "claim": "UN DESA provides complementary macroeconomic, energy, geopolitical, and fiscal-space context."},
+    {"source_url": "https://www.unhcr.org/global-trends-report-2025", "claim": "UNHCR displacement evidence provides complementary forced-displacement and host-capacity context."}
+  ],
+  "boundary": "This record adds a development-resilience route from stacked geopolitical, energy, food, climate, conflict, and displacement shocks through fiscal space, public systems, livelihoods, and response capacity. It is an aggregate UN policy synthesis, not respondent-level data, a causal cross-country estimate, a country forecast, or proof that proposed resilience priorities have been implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Joint SDG Fund publication page and indexed UN summary were reviewed for shock sequence, compounding crises, policy-space constraints, debt-development trade-off, transmission channels, data basis, and resilience priorities.",
+    "source_url_sha256": "sha256:7d53347359ca9b4d2d6b765f29508c13822aa66647e7b0eeecade51045af101e",
+    "checked": "2026-09-26"
+  }
+}

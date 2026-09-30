@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-dfe-parent-pupil-learner-voice-may-2026-pathway-usability",
+  "title": "Planned educational routes are confident but unevenly informed: pathway usability depends on awareness, finance, place, and support",
+  "theme_ids": ["voice", "work", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "housing_place_mobility"
+  ],
+  "source_unit": "UK Department for Education, Parent, Pupil and Learner Voice: May 2026",
+  "geography": "England; parents, secondary pupils, and 16-19 pupils and learners",
+  "observations": [
+    {
+      "period": "13-20 May 2026 survey fieldwork, updated September 24, 2026; planned post-16 routes",
+      "denominator": {"value": 397, "unit": "year 11 pupils in the May 2026 panel", "value_type": "reported_survey_sample"},
+      "measures": {
+        "year11_sixth_form": {"value": 50, "unit": "percent planning to study at a school sixth form from September 2026", "value_type": "published_survey_estimate"},
+        "year11_college": {"value": 43, "unit": "percent planning to study at a college", "value_type": "published_survey_estimate"},
+        "year11_apprenticeship": {"value": 3, "unit": "percent planning to do an apprenticeship", "value_type": "published_survey_estimate"},
+        "year11_paid_work": {"value": 1, "unit": "percent planning to begin paid work", "value_type": "published_survey_estimate"},
+        "planned_route_distribution": {"value": "The immediate post-16 plan remains concentrated in continued full-time education, with apprenticeships and direct work a small reported share of year-11 plans.", "unit": "reported pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "Department for Education Parent, Pupil and Learner Voice panel survey, administered online between 13 and 20 May 2026; year-11 respondents were sampled through education records and the report rounds percentages.",
+      "uncertainty": "These are stated plans at one point in time, not confirmed enrollment, completion, transition, or later earnings; the year-11 base is smaller than the full panel.",
+      "subgroup": "Year-11 pupils in England.",
+      "counterinterpretation": "A high share planning continued education may reflect age-appropriate sequencing rather than low demand for vocational or work routes; plans can change after results, offers, transport, or finance.",
+      "source_url": "https://www.gov.uk/government/publications/parent-pupil-and-learner-voice-omnibus-surveys-for-2025-to-2026/parent-pupil-and-learner-voice-may-2026",
+      "retrieval_hash": "sha256:ee25fb565f929146e5cd227f2a093ad2ff9b9f518dd8d508707147c485ed3691",
+      "status": "reported"
+    },
+    {
+      "period": "13-20 May 2026 survey fieldwork, updated September 24, 2026; reasons and confidence in the next route",
+      "denominator": {"value": 1884, "unit": "years 11-13 pupils and learners identifying a specific planned activity", "value_type": "reported_survey_sample"},
+      "measures": {
+        "interested_in_further_study": {"value": 47, "unit": "percent naming interest in studying further as the main reason for their planned activity", "value_type": "published_survey_estimate"},
+        "future_career_prospects": {"value": 22, "unit": "percent naming future career prospects as the main reason", "value_type": "published_survey_estimate"},
+        "plan_confidence": {"value": 92, "unit": "percent very or fairly confident they will end up doing what they planned", "value_type": "published_survey_estimate"},
+        "planned_route_confidence": {"value": "Young people can express high confidence in a chosen route while the source leaves open whether the route is affordable, available, geographically reachable, or ultimately completed.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional panel survey of pupils and learners in years 11-13; respondents with no specific plan were excluded from the confidence base.",
+      "uncertainty": "Confidence is self-reported and conditional on having a named plan; it does not measure offer receipt, enrollment, persistence, or subsequent change of plan.",
+      "subgroup": "Years 11-13 pupils and learners in England who identified a planned activity.",
+      "counterinterpretation": "High confidence may reflect respondents who already have a clear and feasible route, while those with uncertain or excluded plans are not represented in the 92% estimate.",
+      "source_url": "https://www.gov.uk/government/publications/parent-pupil-and-learner-voice-omnibus-surveys-for-2025-to-2026/parent-pupil-and-learner-voice-may-2026",
+      "retrieval_hash": "sha256:ee25fb565f929146e5cd227f2a093ad2ff9b9f518dd8d508707147c485ed3691",
+      "status": "reported"
+    },
+    {
+      "period": "13-20 May 2026 survey fieldwork, updated September 24, 2026; awareness and barriers to alternative routes",
+      "denominator": {"value": 322, "unit": "year-11 pupils who had not considered T Levels", "value_type": "reported_subsample"},
+      "measures": {
+        "t_level_unfamiliarity": {"value": 31, "unit": "percent saying they did not know enough about T Levels", "value_type": "published_subsample_estimate"},
+        "t_level_not_needed": {"value": 30, "unit": "percent saying T Levels were not needed for their future career plans", "value_type": "published_subsample_estimate"},
+        "apprenticeship_unfamiliarity": {"value": 11, "unit": "percent of year-11 pupils who had not considered apprenticeships saying they did not know enough about them", "value_type": "published_subsample_estimate"},
+        "apprenticeship_reputation": {"value": 21, "unit": "percent saying other qualifications had a better reputation", "value_type": "published_subsample_estimate"},
+        "alternative_route_visibility": {"value": "Alternative pathways face an information and reputation problem before formal eligibility or application: routes can be available yet absent from the learner’s considered option set.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Survey items asked year-11 pupils who had not considered T Levels or apprenticeships to select reported reasons; bases differ by route and responses are multiple-choice.",
+      "uncertainty": "These are reasons for non-consideration, not measured information exposure, application behavior, or employer recognition; small subgroup bases require caution.",
+      "subgroup": "Year-11 pupils in England who had not considered the named route.",
+      "counterinterpretation": "Learners may reject a route because it does not fit their known goals, and reported reputation may encode family, school, or local labor-market information rather than a general stigma.",
+      "source_url": "https://www.gov.uk/government/publications/parent-pupil-and-learner-voice-omnibus-surveys-for-2025-to-2026/parent-pupil-and-learner-voice-may-2026",
+      "retrieval_hash": "sha256:ee25fb565f929146e5cd227f2a093ad2ff9b9f518dd8d508707147c485ed3691",
+      "status": "reported"
+    },
+    {
+      "period": "13-20 May 2026 survey fieldwork, updated September 24, 2026; student finance and school mental-health support",
+      "denominator": {"value": 1651, "unit": "16-19 pupils and learners in England", "value_type": "reported_survey_sample"},
+      "measures": {
+        "student_loan_concern": {"value": 67, "unit": "percent very or fairly concerned about the long-term financial impact of taking out a student loan", "value_type": "published_survey_estimate"},
+        "loan_repayment_awareness": {"value": 57, "unit": "percent aware of when student-loan repayment begins under the question wording", "value_type": "published_survey_estimate"},
+        "mental_health_support_awareness": {"value": 86, "unit": "percent of 16-19 pupils and learners aware of mental-health and wellbeing support through school or college", "value_type": "published_survey_estimate"},
+        "mental_health_support_use": {"value": 22, "unit": "percent reporting use of school or college mental-health and wellbeing support", "value_type": "published_survey_estimate"},
+        "mental_health_speaking_comfort": {"value": 59, "unit": "percent very or fairly comfortable speaking to school or college adults about mental health", "value_type": "published_survey_estimate"},
+        "support_conversion_gap": {"value": "Awareness of support and confidence in speaking are broader than reported use, while finance anxiety adds a material constraint to educational choice.", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "DfE panel survey of 16-19 pupils and learners, with separate question bases for student finance, support awareness, use, and comfort.",
+      "uncertainty": "The measures are self-reported and cross-sectional; use does not establish adequacy or outcome, and student-loan concern does not establish actual borrowing or repayment exposure.",
+      "subgroup": "16-19 pupils and learners in England.",
+      "counterinterpretation": "Low support use may reflect low need, alternative support routes, question timing, or uncertainty about what counts as formal school support rather than service failure alone.",
+      "source_url": "https://www.gov.uk/government/publications/parent-pupil-and-learner-voice-omnibus-surveys-for-2025-to-2026/parent-pupil-and-learner-voice-may-2026",
+      "retrieval_hash": "sha256:ee25fb565f929146e5cd227f2a093ad2ff9b9f518dd8d508707147c485ed3691",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gov.uk/government/publications/parent-pupil-and-learner-voice-omnibus-surveys-for-2025-to-2026/parent-pupil-and-learner-voice-may-2026", "claim": "Official DfE publication containing the May 2026 panel design, respondent bases, planned pathways, alternative-route barriers, finance, attendance, and support measures.", "status": "official-statistics-publication"},
+    {"source_url": "https://www.gov.uk/government/publications/survey-of-education-professionals-young-people-and-work-report/survey-of-education-professionals-young-people-and-work-report", "claim": "The DWP education-professionals record provides a separate professional-perception route and is not merged with learner self-report in this record.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record adds a learner-voice route from planned education choices through route visibility, confidence, finance anxiety, attendance, and mental-health support conversion. It does not establish confirmed enrollment, completion, debt, service adequacy, or later labor-market outcomes. The source is an official DfE panel survey with multiple subgroup bases, rounded self-reports, and limited comparability across survey years.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official GOV.UK DfE report was reviewed for publication date, panel design, fieldwork dates, respondent bases, planned activities, reasons and confidence, alternative-route barriers, student finance, attendance, and mental-health support measures.",
+    "source_page_sha256": "sha256:ee25fb565f929146e5cd227f2a093ad2ff9b9f518dd8d508707147c485ed3691",
+    "checked": "2026-09-28"
+  }
+}

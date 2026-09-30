@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-ai-health-research-ethics-2026-oversight-equity",
+  "title": "AI in health research is shifting the governance question from project approval to lifecycle accountability, equity and public trust",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Health Organization, Artificial intelligence-related health research: ethics review and oversight",
+  "geography": "Global health-research systems, with particular attention to low- and middle-income countries",
+  "observations": [
+    {
+      "period": "2026 publication; three categories of AI-related health research",
+      "denominator": {"value": 3, "unit": "categories defined by the WHO report", "value_type": "published_framework"},
+      "measures": {
+        "categories": {"value": "health-related data science using AI; research conducted with AI tools and technologies; and research on AI tools and technologies", "unit": "reported research categories", "value_type": "reported_framework"},
+        "governance_scope": {"value": "ethical oversight is considered across study design, ethics review, publication, regulation and implementation", "unit": "reported lifecycle scope", "value_type": "reported_framework"},
+        "risk_set": {"value": "transparency, bias, fairness, accountability, privacy and harms from rapid deployment are identified as governance concerns", "unit": "reported risk domains", "value_type": "reported_risk_set"}
+      },
+      "method": "WHO expert report reviewing ethical standards, oversight gaps, research-ethics committee challenges and complementary roles for institutions across the AI-health research lifecycle.",
+      "uncertainty": "The report is a governance and ethics framework; it does not estimate the prevalence or causal impact of each risk across health systems.",
+      "subgroup": "Research participants, patients, researchers, ethics committees, clinicians, funders, publishers, regulators and communities affected by AI-enabled health research.",
+      "counterinterpretation": "Extending oversight across the lifecycle can protect rights, but poorly designed review can also slow beneficial research or add requirements that smaller institutions cannot resource.",
+      "source_url": "https://www.who.int/publications/i/item/9789240124073",
+      "retrieval_hash": "sha256:ce0394114190fb1a0f013c8b8dadd64e174647ef7d7db0b48b99058c490963ab",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; institutional responsibility beyond ethics committees",
+      "denominator": {"value": 1, "unit": "WHO multi-institutional governance frame", "value_type": "published_framework"},
+      "measures": {
+        "committee_capacity": {"value": "research ethics committees may need additional expertise, training and resources to review increasingly complex AI studies", "unit": "reported institutional requirement", "value_type": "reported_assessment"},
+        "distributed_accountability": {"value": "funders, data-access mechanisms, journals and publishers, regulatory agencies and other third parties have complementary governance roles", "unit": "reported accountability architecture", "value_type": "reported_framework"},
+        "early_action": {"value": "researchers are urged to identify and mitigate ethical risks early and communicate transparently about broader societal implications", "unit": "reported research-governance direction", "value_type": "reported_recommendation"}
+      },
+      "method": "Normative and institutional analysis of the roles required to support responsible AI-related health research.",
+      "uncertainty": "Assigning roles does not establish that institutions have the authority, independence, funding or enforcement capacity to perform them effectively.",
+      "subgroup": "Research institutions, review boards, funders, publishers, data custodians, regulators, professional bodies and public-interest organizations.",
+      "counterinterpretation": "Distributed oversight can close gaps between project review and deployment, but it can also diffuse responsibility unless decision rights, escalation routes and remedies are explicit.",
+      "source_url": "https://www.who.int/publications/i/item/9789240124073",
+      "retrieval_hash": "sha256:ce0394114190fb1a0f013c8b8dadd64e174647ef7d7db0b48b99058c490963ab",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; low- and middle-income country equity frame",
+      "denominator": {"value": 1, "unit": "WHO global-equity assessment", "value_type": "published_assessment"},
+      "measures": {
+        "concentration": {"value": "much of current AI research and technology development remains concentrated in higher-income settings", "unit": "reported global distribution assessment", "value_type": "reported_assessment"},
+        "power_risks": {"value": "the report identifies data colonialism, ethics dumping, power imbalances, fairness and benefit sharing as risks affecting low- and middle-income countries", "unit": "reported equity risk domains", "value_type": "reported_risk_set"},
+        "equitable_route": {"value": "local leadership, capacity and participation are presented as necessary for equitable benefits and avoiding new exclusion", "unit": "reported governance route", "value_type": "reported_recommendation"}
+      },
+      "method": "WHO report synthesis focused on ethical oversight and distributional implications of AI-related health research.",
+      "uncertainty": "The report names structural risks but does not provide a country-by-country measure of data extraction, benefit sharing, capacity or ethics-dumping incidence.",
+      "subgroup": "Researchers, health systems, governments, communities and research participants in low- and middle-income countries.",
+      "counterinterpretation": "International research partnerships can expand capacity and access, while unequal bargaining power can still determine who sets the questions, controls data, owns outputs and receives benefits.",
+      "source_url": "https://www.who.int/publications/i/item/9789240124073",
+      "retrieval_hash": "sha256:ce0394114190fb1a0f013c8b8dadd64e174647ef7d7db0b48b99058c490963ab",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; AI-assisted ethics review",
+      "denominator": {"value": 1, "unit": "WHO report discussion of AI in ethics review", "value_type": "published_framework"},
+      "measures": {
+        "use_case": {"value": "the report examines both benefits and risks of using AI in ethics review", "unit": "reported governance use case", "value_type": "reported_scope"},
+        "trust_condition": {"value": "responsible use requires oversight mechanisms that are agile, evidence-based and capable of protecting human rights, equity and public trust", "unit": "reported governance condition", "value_type": "reported_principle"},
+        "open_question": {"value": "AI-assisted review must be evaluated for transparency, bias, accountability, privacy and the possibility of reproducing the very governance gaps it is meant to address", "unit": "interpretive governance question", "value_type": "inference_from_report"}
+      },
+      "method": "Synthesis of the report’s discussion of AI as both an object of health research and a possible tool within ethics review.",
+      "uncertainty": "The report does not establish that AI-assisted ethics review is safe, effective or appropriate for any particular committee or jurisdiction.",
+      "subgroup": "Ethics reviewers, research participants, regulators, developers and institutions considering AI-supported review workflows.",
+      "counterinterpretation": "Automation may help committees process complex submissions, but efficiency cannot substitute for contextual judgment, participation, accountability and a meaningful route to challenge decisions.",
+      "source_url": "https://www.who.int/publications/i/item/9789240124073",
+      "retrieval_hash": "sha256:ce0394114190fb1a0f013c8b8dadd64e174647ef7d7db0b48b99058c490963ab",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/news/item/21-09-2026-new-who-report-calls-for-stronger-ethics-oversight-of-ai-related-health-research", "claim": "WHO departmental update summarizing the report’s oversight, trust, equity and LMIC implications."},
+    {"source_url": "https://iris.who.int/server/api/core/bitstreams/967c0f5f-f3bb-42f0-a6aa-dc37a260ca6d/content", "claim": "Official WHO IRIS download of the 69-page report."}
+  ],
+  "boundary": "This record adds an AI-health governance signal linking research and technology diffusion to ethics review, lifecycle accountability, public trust, data power, institutional capacity and equity. It is a WHO governance framework, not a prevalence estimate, implementation audit, causal evaluation, or proof that any specific AI health research system is safe or equitable.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO publication page, departmental summary and downloadable report were reviewed for the three research categories, lifecycle oversight, distributed institutional roles, LMIC equity risks, capacity and AI-assisted ethics review.",
+    "source_url_sha256": "sha256:ce0394114190fb1a0f013c8b8dadd64e174647ef7d7db0b48b99058c490963ab",
+    "checked": "2026-09-27"
+  }
+}

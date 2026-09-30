@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-google-research-cultural-genai-2026-identity-redlines",
+  "title": "Generative AI is becoming a cultural-representation problem: identity, sacred meaning, and local red lines shape acceptable use",
+  "theme_ids": ["voice", "energy", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Google Research preprint, Cultural Perspectives and Expectations for Generative AI: A Global Survey Approach",
+  "geography": "Brazil, Cameroon, France, Germany, India, Indonesia, Italy, Japan, Mexico, Nigeria, South Korea, United Arab Emirates, and United States",
+  "observations": [
+    {
+      "period": "September 2024-January 2025 survey; published March 2026",
+      "denominator": {"value": 5629, "unit": "adults surveyed across 13 countries; Cameroon sample was smaller than the other country samples", "value_type": "cross_country_survey_sample"},
+      "measures": {
+        "cross_cultural_scope": {"value": 13, "unit": "surveyed national contexts across Europe, North and South America, Asia, and Africa", "value_type": "reported_country_count"},
+        "culture_definition": {"value": "The study combines closed-ended comparisons with open-ended accounts of culture, artifacts, identities, and unacceptable representations", "unit": "mixed-method survey design", "value_type": "reported_design"},
+        "governance_problem": {"value": "Generative AI representation requires culturally grounded participation and sensitivity beyond a simple geography-only model of culture", "unit": "reported research conclusion", "value_type": "reported_mechanism"}
+      },
+      "method": "Cross-sectional, quota-oriented multi-country survey with open-ended and standardized items; the analysis uses descriptive aggregate statistics and inductive thematic analysis, with weighting described in the preprint.",
+      "uncertainty": "This is a preprint and the country samples are not uniformly sized; the study is not a representative global sample, does not estimate model behavior directly, and cannot establish that expressed expectations produce safer or more culturally accurate systems.",
+      "subgroup": "Adults familiar with or exposed to generative AI across 13 national contexts, with different languages, religions, traditions, histories, digital infrastructures, and minority or majority identities.",
+      "counterinterpretation": "Cross-country differences may reflect translation, sample composition, current events, question framing, or uneven familiarity with generative AI rather than stable cultural boundaries.",
+      "source_url": "https://arxiv.org/abs/2603.05723",
+      "retrieval_hash": "sha256:813f6848f567382988992c702dc171afd15d393a01e6645895855a468b3f35e2",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 survey; culturally salient identities",
+      "denominator": {"value": 5629, "unit": "survey respondents across 13 countries", "value_type": "cross_country_survey_sample"},
+      "measures": {
+        "religion_tradition": {"value": 48, "unit": "percent selecting religion and tradition among their three most important cultural identities", "value_type": "reported_share"},
+        "nationality": {"value": 36, "unit": "percent selecting nationality among their three most important cultural identities", "value_type": "reported_share"},
+        "ethnicity_tribe": {"value": 34, "unit": "percent selecting ethnicity or tribe among their three most important cultural identities", "value_type": "reported_share"},
+        "identity_implication": {"value": "Cultural identity is not reducible to country labels; religion, tradition, ethnicity, language, heritage, artifacts, and lived social practice can carry distinct representational stakes", "unit": "bounded analytical implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "Weighted descriptive analysis of respondents selecting three culturally important social identities, supplemented by open-ended cultural definitions and examples.",
+      "uncertainty": "The percentages describe selection within this survey instrument and sample; they do not measure the full importance of identities, intra-country disagreement, or how identities interact in specific AI outputs.",
+      "subgroup": "Respondents across different national, religious, ethnic, linguistic, historical, and socioeconomic contexts; particularly communities whose cultural markers are frequently represented by external systems.",
+      "counterinterpretation": "The prominence of religion or tradition in a closed-ended list may partly reflect the available categories and does not mean all members of a country share the same cultural hierarchy.",
+      "source_url": "https://arxiv.org/abs/2603.05723",
+      "retrieval_hash": "sha256:813f6848f567382988992c702dc171afd15d393a01e6645895855a468b3f35e2",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 survey; familiarity and use of generative AI",
+      "denominator": {"value": 5629, "unit": "survey respondents across 13 countries", "value_type": "cross_country_survey_sample"},
+      "measures": {
+        "genai_familiarity": {"value": 68, "unit": "percent reporting at least some familiarity with generative AI", "value_type": "reported_share"},
+        "active_generation": {"value": 59, "unit": "percent of respondents aware of generative AI who reported actively using it to generate content", "value_type": "reported_conditional_share"},
+        "regional_variation": {"value": "Familiarity was highest in South Korea and the UAE and lowest in France and Cameroon in the source comparison", "unit": "reported cross-country pattern", "value_type": "reported_comparison"},
+        "adoption_boundary": {"value": "High awareness does not remove uncertainty about whether generative AI can represent identity and culture authentically", "unit": "reported tension", "value_type": "reported_pattern"}
+      },
+      "method": "Descriptive comparison of self-reported familiarity and generative-AI use across the multi-country survey sample.",
+      "uncertainty": "Familiarity and use are self-reported, timing predates publication, and country differences may reflect infrastructure, language, recruitment, or policy context; no longitudinal adoption path is estimated.",
+      "subgroup": "Current and prospective generative-AI users with unequal access, language coverage, institutional exposure, and experience of AI-mediated cultural representation.",
+      "counterinterpretation": "Greater familiarity can increase both confidence and critical scrutiny; lower familiarity may reflect access constraints rather than lower cultural concern.",
+      "source_url": "https://arxiv.org/abs/2603.05723",
+      "retrieval_hash": "sha256:813f6848f567382988992c702dc171afd15d393a01e6645895855a468b3f35e2",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025 survey; cultural red lines for generative-AI representation",
+      "denominator": {"value": 13, "unit": "surveyed countries used for cross-country red-line comparison", "value_type": "country_comparison_frame"},
+      "measures": {
+        "redline_prevalence": {"value": "More than 20% of participants in every surveyed country, and often more than 30%, said some aspects of their culture should never be represented by generative AI", "unit": "reported cross-country pattern", "value_type": "reported_pattern"},
+        "primary_harm": {"value": "Inaccurate information was identified as the leading perceived threat to cultural representation", "unit": "reported threat ranking", "value_type": "reported_ranking"},
+        "sensitive_domains": {"value": "Religion and tradition, sacred practices, historical trauma, personal privacy, human dignity, and culturally meaningful art or music recur as sensitive domains", "unit": "qualitative thematic categories", "value_type": "reported_theme"},
+        "governance_route": {"value": "Cultural safety requires participatory design, attention to specific identity dimensions, and mechanisms for local communities to define boundaries and contest harmful representation", "unit": "reported recommendation", "value_type": "reported_recommendation"}
+      },
+      "method": "Descriptive cross-country analysis plus inductive thematic analysis of open-ended responses about culturally important and prohibited AI representations.",
+      "uncertainty": "A stated red line is not a legal prohibition, a stable preference, or proof that a model will produce harm; the study does not test remedies, moderation, consent, or downstream cultural effects.",
+      "subgroup": "People and communities whose identities, sacred meanings, historical memories, and creative practices may be represented or transformed by generative systems.",
+      "counterinterpretation": "Some culturally sensitive representation may be welcomed when communities authorize it, context is preserved, attribution is clear, and people have meaningful control or recourse.",
+      "source_url": "https://arxiv.org/abs/2603.05723",
+      "retrieval_hash": "sha256:813f6848f567382988992c702dc171afd15d393a01e6645895855a468b3f35e2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://arxiv.org/pdf/2603.05723", "claim": "Open-access preprint PDF containing the survey methodology, country sample, weighting description, tables, qualitative themes, and recommendations.", "status": "official-preprint"},
+    {"source_url": "https://arxiv.org/abs/2603.05723", "claim": "ArXiv landing page with title, authors, date, abstract, and license metadata.", "status": "official-preprint"}
+  ],
+  "boundary": "This record adds a global cultural-governance layer for generative AI: identity, sacred meaning, historical memory, representation, participation, and redress. It is a cross-sectional preprint survey and qualitative synthesis, not respondent-level ingestion, a representative global census, an audit of model outputs, a legal rule, a causal study of cultural harm, or proof that any proposed safeguard works.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Open-access arXiv preprint PDF reviewed for the 13-country sample, 5,629 respondents, identity salience, generative-AI familiarity and use, regional variation, cultural red lines, perceived harms, and governance recommendations.",
+    "source_url_sha256": "sha256:813f6848f567382988992c702dc171afd15d393a01e6645895855a468b3f35e2",
+    "checked": "2026-09-28"
+  }
+}

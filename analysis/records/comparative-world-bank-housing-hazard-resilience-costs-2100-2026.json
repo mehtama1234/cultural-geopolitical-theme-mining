@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-housing-hazard-resilience-costs-2100-2026",
+  "title": "Future housing demand turns climate resilience into a household-wealth, fiscal-capacity, and spatial-inequality problem",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11451, Housing Requirements, Hazard Exposure, and Resilience Costs: A Global Outlook to 2100",
+  "geography": "Global country-level and subnational housing-demand, demographic, construction, hazard-exposure, and fiscal-capacity projections to 2100",
+  "observations": [
+    {
+      "period": "2025-2100; projected global housing stock and construction demand",
+      "denominator": {"value": 1, "unit": "global housing-stock projection under Shared Socioeconomic Pathway scenarios", "value_type": "reported_projection_frame"},
+      "measures": {
+        "housing_stock_2100": {"value": "approximately 4.1 to 4.5 billion housing units", "unit": "projected global housing stock by 2100", "value_type": "reported_projection"},
+        "growth_to_replacement": {"value": "construction demand in most regions transitions from growth-driven to replacement-driven by mid-century", "unit": "projected demand transition", "value_type": "reported_projection"},
+        "household_wealth_route": {"value": "housing is both a major component of household wealth and a major component of national capital stock", "unit": "bounded household-infrastructure mechanism", "value_type": "bounded_mechanism"},
+        "mechanism": {"value": "where and how housing is built now shapes future hazard exposure, repair and replacement costs, and fiscal obligations", "unit": "bounded intertemporal mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Integrated projection using Shared Socioeconomic Pathways, dynamic household-size modeling, cohort survival analysis, and housing-stock and construction-demand estimation.",
+      "uncertainty": "These are scenario-based long-horizon projections sensitive to population, household-size, urbanization, income, construction, hazard, and climate assumptions; they are not a forecast of realized units or costs.",
+      "subgroup": "Countries and regions with different demographic growth, urbanization, household-size change, construction systems, housing quality, and existing stock exposure.",
+      "counterinterpretation": "Replacement demand may be financed or delivered differently from new growth demand, and better housing quality or migration could change the projected stock and spatial distribution.",
+      "source_url": "https://documents.worldbank.org/curated/en/099455409152614168/pdf/IDU-082b028c-6d93-45df-8625-2b10d162a932.pdf",
+      "retrieval_hash": "sha256:9ce982243a984d4f4bd19262fd20c90935f4a08ad9a50314a5d2a084b66dec1b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2100; business-as-usual versus resilient construction pathways",
+      "denominator": {"value": 1, "unit": "global housing construction pathway comparison", "value_type": "reported_scenario_frame"},
+      "measures": {
+        "long_term_cost": {"value": "resilient construction pathways carry lower long-term costs than business-as-usual in most regions", "unit": "reported scenario comparison", "value_type": "reported_scenario_result"},
+        "exception_regions": {"value": "high-growth, high-hazard regions such as South Asia and Sub-Saharan Africa do not uniformly show lower long-term resilient-construction costs under the modeled conditions", "unit": "reported scenario heterogeneity", "value_type": "reported_heterogeneity"},
+        "timing_problem": {"value": "resilience requires higher or earlier construction decisions while benefits arrive through avoided future exposure and replacement costs", "unit": "bounded intertemporal investment mechanism", "value_type": "bounded_mechanism"},
+        "household_translation": {"value": "upfront resilient standards can become housing prices, rents, public finance needs, or avoided future displacement and repair burden", "unit": "bounded household-cost mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Modeled comparison of business-as-usual and resilient construction pathways using hazard exposure, housing quality, replacement-cost, and demographic scenarios.",
+      "uncertainty": "The relative cost result depends on hazard intensity, construction standards, discounting, financing, enforcement, housing-market response, and whether avoided losses are fully captured.",
+      "subgroup": "Low-income and high-growth households, renters and owners, governments, builders, lenders, insurers, and regions with different hazard and fiscal conditions.",
+      "counterinterpretation": "A lower modeled long-term cost does not guarantee that households or governments can finance the upfront investment; resilience standards can also raise near-term exclusion or affordability pressures if not accompanied by support.",
+      "source_url": "https://documents.worldbank.org/curated/en/099455409152614168/pdf/IDU-082b028c-6d93-45df-8625-2b10d162a932.pdf",
+      "retrieval_hash": "sha256:9ce982243a984d4f4bd19262fd20c90935f4a08ad9a50314a5d2a084b66dec1b",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2100; countries facing combined housing, hazard, and fiscal constraints",
+      "denominator": {"value": 46, "unit": "countries identified with high future housing demand, severe natural-hazard exposure, and limited fiscal capacity", "value_type": "reported_triple_burden_frame"},
+      "measures": {
+        "triple_burden": {"value": "46 countries face the combined burden of high future housing demand, severe natural-hazard exposure, and limited fiscal capacity to finance resilient construction", "unit": "reported country count", "value_type": "reported_classification"},
+        "regional_pattern": {"value": "Pacific Island countries face acute fiscal constraints, Sub-Saharan Africa faces unprecedented volumetric demand, and South and Southeast Asia face the highest hazard exposure", "unit": "reported regional differentiation", "value_type": "reported_heterogeneity"},
+        "governance_route": {"value": "housing adaptation becomes a coordination problem spanning land, construction, finance, infrastructure, disaster risk, social protection, and international support", "unit": "bounded institutional mechanism", "value_type": "bounded_mechanism"},
+        "distributional_risk": {"value": "countries with the least fiscal room may face the largest future demand and exposure, turning climate resilience into a global inequality and dependency question", "unit": "bounded geopolitical-development mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Country and regional classification combining projected housing demand, multi-hazard exposure, and fiscal-capacity indicators.",
+      "uncertainty": "The triple-burden classification depends on thresholds, scenario choices, hazard data, fiscal measures, and the study's spatial aggregation; it identifies priority conditions rather than fixed rankings.",
+      "subgroup": "Pacific Island states, Sub-Saharan African countries, South and Southeast Asian countries, urban and rural populations, and households in fragile or under-resourced housing stock.",
+      "counterinterpretation": "International finance, migration, technology, building-material innovation, and domestic policy could alter the burden; fiscal capacity is not the same as political willingness or implementation capacity.",
+      "source_url": "https://documents.worldbank.org/curated/en/099455409152614168/pdf/IDU-082b028c-6d93-45df-8625-2b10d162a932.pdf",
+      "retrieval_hash": "sha256:9ce982243a984d4f4bd19262fd20c90935f4a08ad9a50314a5d2a084b66dec1b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ideas.repec.org/p/wbk/wbrwps/11451.html", "claim": "Bibliographic record and abstract for WPS11451, including global stock, pathway, regional, and 46-country triple-burden findings."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/636", "claim": "World Bank reproducibility package with verified computational reproduction and metadata."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/636/related-materials", "claim": "Related-materials inventory describing hazard, housing, cost, subnational, and triple-burden outputs."},
+    {"source_url": "https://www.worldbank.org/en/programs/tokyo-drm-hub", "claim": "World Bank disaster-risk-management publication page listing the study."}
+  ],
+  "boundary": "This record adds long-horizon housing-resilience cost and triple-burden mechanisms linking climate exposure, demographic demand, fiscal capacity, household wealth, and infrastructure. It is scenario-based projection evidence, not a realized housing shortage, actual household affordability estimate, causal adaptation evaluation, or fixed country ranking.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, abstract record, reproducibility package, related-materials inventory, and disaster-risk publication page were reviewed for housing-stock projections, growth-to-replacement transition, resilient-versus-business-as-usual costs, regional exceptions, 46-country triple burden, and scenario boundaries.",
+    "source_url_sha256": "sha256:9ce982243a984d4f4bd19262fd20c90935f4a08ad9a50314a5d2a084b66dec1b",
+    "checked": "2026-09-29"
+  }
+}

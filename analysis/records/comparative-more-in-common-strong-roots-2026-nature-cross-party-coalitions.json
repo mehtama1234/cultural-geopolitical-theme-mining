@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-more-in-common-strong-roots-2026-nature-cross-party-coalitions",
+  "title": "Nature becomes a cross-party source of pride, place attachment, and electoral accountability",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "household_room_consumption", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "More in Common with the National Trust, RSPB, WWF, Woodland Trust, and Wildlife Trusts, Strong Roots: the role of nature in uniting voter coalitions",
+  "geography": "Great Britain; national survey and swing-voter focus groups",
+  "observations": [
+    {
+      "period": "August–September 2026; nature as shared identity and place attachment",
+      "denominator": {"value": 2006, "unit": "Britons surveyed in August 2026; three swing-voter focus groups supplemented the survey", "value_type": "published_survey_sample"},
+      "measures": {
+        "nature_pride": {"value": "Nature and green spaces are described as among the largest sources of local pride", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "cross_party_nature_care": {"value": "Care for nature and wildlife extends across the political spectrum, including among people sceptical of climate action", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "nature_identity_mechanism": {"value": "Nature operates as a shared place and identity resource that can cross partisan climate-policy divisions", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "More in Common national survey of 2,006 Britons in August 2026 plus three focus groups of swing voters in Makerfield, Dorking and Horley, and Enfield North.",
+      "uncertainty": "The study is commissioned and co-produced with conservation charities; the accessible summary does not provide the full questionnaire, weighting details, or every subgroup base. Qualitative findings are not population estimates.",
+      "subgroup": "British voters across party groups, with qualitative work focused on swing voters.",
+      "counterinterpretation": "Stated care for nature may express local pride or general values without implying willingness to pay, accept restrictions, change consumption, or support a particular policy instrument.",
+      "source_url": "https://www.moreincommon.org.uk/research/strong-roots/",
+      "retrieval_hash": "sha256:3ee96aec1ec1ca29d300916a5f5a9202b576d75037c842468ae3ed631791dec2",
+      "status": "reported"
+    },
+    {
+      "period": "August–September 2026; nature, cost of living, and development are not experienced as a forced binary",
+      "denominator": {"value": 2006, "unit": "Britons surveyed in August 2026", "value_type": "published_survey_sample"},
+      "measures": {
+        "nature_development_binary": {"value": "Respondents reject the idea that protecting nature must conflict with development or attention to cost-of-living priorities", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "forced_tradeoff": {"value": "When politicians force a nature-versus-development trade-off, the report says respondents side firmly with nature protection", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "policy_meaning": {"value": "Nature policy is judged through both material-development concerns and a moral/place obligation to protect shared environments", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Survey questions and focus-group discussion on nature protection, development, planning, and cost-of-living priorities.",
+      "uncertainty": "The summary does not establish which specific development projects, costs, taxes, or local distributional effects respondents had in mind; stated trade-off preferences are not observed policy choices.",
+      "subgroup": "British adults and swing voters; local exposure to development, deprivation, and green-space access requires further analysis.",
+      "counterinterpretation": "Rejecting a binary in the abstract may not survive a concrete project with visible jobs, housing, energy, transport, or household-cost consequences.",
+      "source_url": "https://www.moreincommon.org.uk/research/strong-roots/",
+      "retrieval_hash": "sha256:3ee96aec1ec1ca29d300916a5f5a9202b576d75037c842468ae3ed631791dec2",
+      "status": "reported"
+    },
+    {
+      "period": "August–September 2026; perceived political neglect and electoral accountability",
+      "denominator": {"value": 2006, "unit": "Britons surveyed in August 2026", "value_type": "published_survey_sample"},
+      "measures": {
+        "political_inaction": {"value": "Most respondents feel politicians and political parties are not doing enough to protect wildlife and nature", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "government_care_gap": {"value": "Most feel people in power care less about nature than they do", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "nature_accountability": {"value": "Perceived politician positions on nature protection actively shape voter perceptions in a conjoint experiment", "unit": "reported_experiment_pattern", "value_type": "reported_pattern"},
+        "legitimacy_mechanism": {"value": "Environmental protection becomes a test of whether political institutions recognize a widely shared place-based value", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "National polling, focus groups, and a conjoint experiment reported by More in Common; the accessible page summarizes the direction of effects rather than publishing all estimates.",
+      "uncertainty": "The summary does not provide the conjoint design, effect sizes, randomization details, or realized electoral behavior; the report is not a causal estimate of vote change.",
+      "subgroup": "Major-party voter coalitions, including Reform, Conservative, Labour, Liberal Democrat, and Green voters.",
+      "counterinterpretation": "A perceived care gap may be a general anti-politician sentiment that attaches to nature, and electoral risk may depend on salience, party competition, and local context.",
+      "source_url": "https://www.moreincommon.org.uk/research/strong-roots/",
+      "retrieval_hash": "sha256:3ee96aec1ec1ca29d300916a5f5a9202b576d75037c842468ae3ed631791dec2",
+      "status": "reported"
+    },
+    {
+      "period": "August–September 2026; climate-policy identity and nature-protection coalition tension",
+      "denominator": {"value": 2006, "unit": "Britons surveyed in August 2026", "value_type": "published_survey_sample"},
+      "measures": {
+        "climate_nature_split": {"value": "Many voters connect climate change and nature, but climate-action scepticism does not eliminate strong expectations of nature protection", "unit": "reported pattern", "value_type": "reported_pattern"},
+        "reform_vulnerability": {"value": "The report identifies an electoral vulnerability when Reform UK and Nigel Farage are perceived as not caring about nature", "unit": "party-specific interpretation", "value_type": "reported_pattern"},
+        "coalition_route": {"value": "A nature-protection coalition may be broader than a net-zero coalition, allowing cross-party environmental concern without common climate-policy ideology", "unit": "analytic mechanism", "value_type": "analytic_mechanism"}
+      },
+      "method": "Party-segment analysis and conjoint evidence summarized in the publisher's report.",
+      "uncertainty": "Party-specific findings are report interpretations and do not establish stable voter realignment, policy durability, or behavior outside the survey context.",
+      "subgroup": "Voters aligned with the five major British parties; subgroup effects and party-specific sample sizes require the downloadable tables.",
+      "counterinterpretation": "Shared nature concern may fragment over net-zero policy, land use, farming, planning, water, taxation, or who bears implementation costs.",
+      "source_url": "https://www.moreincommon.org.uk/research/strong-roots/",
+      "retrieval_hash": "sha256:3ee96aec1ec1ca29d300916a5f5a9202b576d75037c842468ae3ed631791dec2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.moreincommon.org.uk/polling-tables/", "claim": "More in Common identifies downloadable polling tables for the Strong Roots report and the related August 7–10 fieldwork.", "status": "publisher-data-context"},
+    {"source_url": "https://www.nationaltrust.org.uk/our-cause/nature-climate/nature-conservation/nature-is-our-future", "claim": "National Trust campaign page summarizes related polling on nature as a source of pride and a perceived government care gap.", "status": "partner-context"}
+  ],
+  "boundary": "This is commissioned survey and focus-group evidence about political meaning, place attachment, and environmental attitudes. It does not establish realized conservation, willingness to pay, project-level local acceptance, household affordability, emissions behavior, vote change, or policy implementation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official More in Common Strong Roots publication page, checked for sample, methods, headline findings, nature/development framing, party-pattern interpretation, and conjoint-experiment boundary.",
+    "source_page_sha256": "sha256:3ee96aec1ec1ca29d300916a5f5a9202b576d75037c842468ae3ed631791dec2",
+    "checked": "2026-09-28",
+    "version_note": "The accessible publisher page is a summary; full tables and the conjoint design should be consulted before making subgroup or effect-size claims."
+  }
+}

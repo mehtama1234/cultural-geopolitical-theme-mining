@@ -15,20 +15,21 @@
   "geography": "Los Angeles County Eaton and Palisades wildfire claims and California statewide insurance regulation",
   "observations": [
     {
-      "period": "Updated July 6, 2026; Eaton and Palisades wildfire claims",
+      "period": "Page rechecked September 29, 2026; underlying Eaton and Palisades claims tracker remains updated July 6, 2026",
       "denominator": {"value": 41727, "unit": "reported claims across home, business, living-expense, auto, and other disaster-related claims", "value_type": "published_count"},
       "measures": {
         "claims_filed": {"value": 41727, "unit": "reported claims", "value_type": "published_count"},
         "claims_partially_paid": {"value": 40482, "unit": "reported claims partially paid", "value_type": "published_count"},
         "claims_paid_to_date": {"value": 25200000000, "unit": "dollars paid to date", "value_type": "published_total"},
-        "claim_payment_stage": {"value": "partial payments and advance payments are visible; final adequacy, repair, and safe return are not", "unit": "claims-tracker status boundary", "value_type": "reported_boundary"}
+        "claim_payment_stage": {"value": "partial payments and advance payments are visible; final adequacy, repair, and safe return are not", "unit": "claims-tracker status boundary", "value_type": "reported_boundary"},
+        "current_page_recheck": {"value": "2026-09-29", "unit": "official claims-tracker page recheck date; displayed figures unchanged from July 6 update", "value_type": "reported_metadata"}
       },
-      "method": "California Department of Insurance claims tracker reports insurer-supplied aggregate claims and payment totals; the categories include multiple claim types and are not a unique-household or completed-recovery panel.",
-      "uncertainty": "The source says claims payments will grow as rebuilding progresses. It does not show claim-level payment adequacy, final settlement, repair completion, safe occupancy, renewal, or a stay/move outcome.",
+      "method": "California Department of Insurance claims tracker rechecked 2026-09-29; the page still displays its July 6, 2026 update and insurer-supplied aggregate claims and payment totals. Categories include multiple claim types and are not a unique-household or completed-recovery panel.",
+      "uncertainty": "The page remained unchanged at the recheck and says claims payments will grow as rebuilding progresses. It does not show claim-level payment adequacy, final settlement, repair completion, safe occupancy, renewal, or a stay/move outcome.",
       "subgroup": "Eaton and Palisades fire-related claims across residential, commercial, living-expense, auto, and other disaster-related categories; the published aggregate does not identify household resources or property-level outcomes.",
       "counterinterpretation": "Partial payment may be an appropriate interim step rather than an inadequate settlement, and aggregate dollars cannot establish either a recovery rate or a typical household experience.",
       "source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Wildfire-Claims-Tracker.cfm",
-      "retrieval_hash": "sha256:10a5c5239fec5f04b5c779cc905be2dda43b427c477d2e84ceacb7e8d5d63e1e",
+      "retrieval_hash": "sha256:7091f842bf651c50cb06091b9a27d9b78eabf0ebd2572ec824c5e0eeded0d7e2",
       "status": "reported"
     },
     {
@@ -57,5 +58,5 @@
     }
   ],
   "boundary": "This record establishes aggregate insurance payments, a sampled claim-handling investigation, and a statewide smoke-damage legal response. It does not establish a property-level payment rate, repair completion, safe occupancy, health result, renewed coverage, displacement, trust, or political action.",
-  "retrieval_hash": "sha256:10a5c5239fec5f04b5c779cc905be2dda43b427c477d2e84ceacb7e8d5d63e1e"
+  "retrieval_hash": "sha256:7091f842bf651c50cb06091b9a27d9b78eabf0ebd2572ec824c5e0eeded0d7e2"
 }

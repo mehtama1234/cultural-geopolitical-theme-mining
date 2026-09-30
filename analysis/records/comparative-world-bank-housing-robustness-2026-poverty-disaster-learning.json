@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-housing-robustness-2026-poverty-disaster-learning",
+  "title": "Safer housing follows a two-stage ladder in which poverty constrains basic robustness and institutions shape disaster learning",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "political_judgment_action"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11319, Why Do Some Countries Build Safer? Economic Constraints, Disaster Learning, and the Two-Stage Housing Quality Ladder",
+  "geography": "150 countries/economies, using national housing-robustness measures and disaster, poverty, governance and development indicators",
+  "observations": [
+    {
+      "period": "2026 paper; cross-country housing robustness dataset",
+      "denominator": {"value": 150, "unit": "countries/economies in the empirical analysis", "value_type": "published_country_frame"},
+      "measures": {
+        "housing_robustness": {"value": "the study constructs national measures of fragile, medium and robust housing from building-taxonomy and vulnerability information", "unit": "reported measurement framework", "value_type": "reported_method"},
+        "central_signal": {"value": "housing safety is not a single income gradient; the constraints on improvement change across development stages", "unit": "reported conceptual finding", "value_type": "reported_assessment"}
+      },
+      "method": "Cross-country analysis using a novel housing-robustness dataset built from Global Earthquake Model building-taxonomy data and linked development, disaster and institutional indicators.",
+      "uncertainty": "National housing categories aggregate heterogeneous buildings and households; they do not measure actual damage in a specific event or the lived safety of a particular residence.",
+      "subgroup": "Countries at different development stages, households in fragile housing, earthquake-prone countries, construction sectors, regulators and communities exposed to natural hazards.",
+      "counterinterpretation": "A national robustness score can improve while vulnerable households remain concentrated in unsafe locations or buildings, and reported associations do not establish a universal policy sequence.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099808402232613305/pdf/IDU-dd8a3e1a-d3b3-43e3-a070-74fc3c79255b.pdf",
+      "retrieval_hash": "sha256:d68bef13d6bde61f46f0b434182f84552a058d6b98e07785d30b76abf83c0900",
+      "status": "reported"
+    },
+    {
+      "period": "First stage of the housing quality ladder; eliminating fragile housing",
+      "denominator": {"value": 150, "unit": "countries/economies in the study dataset", "value_type": "published_country_frame"},
+      "measures": {
+        "binding_constraint": {"value": "household poverty is the binding constraint on eliminating fragile housing", "unit": "reported cross-country relationship", "value_type": "reported_association"},
+        "poverty_gradient": {"value": "poverty has a strong negative association with housing quality, with non-linear effects that diminish at extreme poverty levels", "unit": "reported statistical pattern", "value_type": "reported_association"},
+        "social_signal": {"value": "basic housing safety is tied to household room and material capacity before higher-order resilience investments can take hold", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country regression analysis of housing robustness and poverty measures, with non-linear specifications.",
+      "uncertainty": "The paper's aggregate associations cannot determine whether income, public housing policy, construction markets, land tenure or other factors produce the observed relationship.",
+      "subgroup": "Poor households, residents of fragile structures, informal settlements, low-income builders and governments choosing between basic housing upgrades and other urgent needs.",
+      "counterinterpretation": "Poverty reduction alone may not deliver safer buildings where land, codes, enforcement, materials, finance or hazard exposure remain binding constraints.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099808402232613305/pdf/IDU-dd8a3e1a-d3b3-43e3-a070-74fc3c79255b.pdf",
+      "retrieval_hash": "sha256:d68bef13d6bde61f46f0b434182f84552a058d6b98e07785d30b76abf83c0900",
+      "status": "reported"
+    },
+    {
+      "period": "Earthquake-prone countries; repeated disaster experience",
+      "denominator": {"value": 150, "unit": "countries/economies in the study dataset", "value_type": "published_country_frame"},
+      "measures": {
+        "learning": {"value": "countries learn from disaster experience, but learning is hazard-specific and mediated by governance quality", "unit": "reported cross-country relationship", "value_type": "reported_association"},
+        "institutional_effect": {"value": "earthquake-prone countries benefit particularly from institutional strengthening that enables sustained learning from repeated seismic events", "unit": "reported policy implication", "value_type": "reported_interpretation"},
+        "time_dimension": {"value": "resilience accumulates through repeated feedback, institutional memory and implementation rather than a one-time code or rebuilding decision", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Cross-country analysis relating disaster experience and governance measures to housing robustness, with hazard-specific comparisons.",
+      "uncertainty": "The evidence does not show which institutions or enforcement mechanisms are sufficient in a given country or whether learning reaches informal and low-income construction.",
+      "subgroup": "Earthquake-prone communities, building regulators, local governments, engineers, builders and residents whose safety depends on code adoption and enforcement.",
+      "counterinterpretation": "Repeated disasters can also exhaust fiscal and political capacity; observed learning may reflect selective survival or reconstruction rather than durable institutional improvement.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099808402232613305/pdf/IDU-dd8a3e1a-d3b3-43e3-a070-74fc3c79255b.pdf",
+      "retrieval_hash": "sha256:d68bef13d6bde61f46f0b434182f84552a058d6b98e07785d30b76abf83c0900",
+      "status": "reported"
+    },
+    {
+      "period": "2026; program and policy interpretation",
+      "denominator": {"value": 1, "unit": "two-stage housing quality ladder framework", "value_type": "published_framework"},
+      "measures": {
+        "stage_one": {"value": "remove fragile housing under the constraint of poverty and basic material capacity", "unit": "reported framework stage", "value_type": "reported_interpretation"},
+        "stage_two": {"value": "once basic fragility is reduced, institutional quality and sustained disaster learning become more important for further improvement", "unit": "reported framework stage", "value_type": "reported_interpretation"},
+        "program_implication": {"value": "housing, poverty, infrastructure, governance and disaster policy should be read as one linked social-protection and resilience system", "unit": "reported policy implication", "value_type": "reported_interpretation"}
+      },
+      "method": "Synthesis of the paper's two-stage conceptual framework and cross-country empirical results.",
+      "uncertainty": "The framework is a comparative research model, not a universal implementation playbook or a causal evaluation of a named housing intervention.",
+      "subgroup": "Households with different material means, public agencies, housing markets, infrastructure providers and communities facing recurring climate or geological hazards.",
+      "counterinterpretation": "Countries may move between stages unevenly across regions and tenure types; a national ladder can hide simultaneous basic fragility and advanced engineering in the same place.",
+      "source_url": "https://documents1.worldbank.org/curated/en/099808402232613305/pdf/IDU-dd8a3e1a-d3b3-43e3-a070-74fc3c79255b.pdf",
+      "retrieval_hash": "sha256:d68bef13d6bde61f46f0b434182f84552a058d6b98e07785d30b76abf83c0900",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/473", "claim": "World Bank reproducibility package documenting the 150-country dataset, Global Earthquake Model inputs, framework and computational verification."},
+    {"source_url": "https://www.worldbank.org/en/programs/tokyo-drm-hub", "claim": "World Bank Tokyo Disaster Risk Management Hub listing the 2026 publication among its resilience and disaster-risk resources."}
+  ],
+  "boundary": "This record adds a housing-and-disaster-resilience route linking household material capacity, fragile housing, poverty, building systems, governance, disaster learning and infrastructure safety. It is cross-country aggregate evidence, not a respondent-level survey, event-damage audit, household causal evaluation or proof that reforms reach informal construction.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official World Bank working-paper PDF, World Bank reproducibility package and disaster-risk hub listing were reviewed for the 150-country frame, housing-robustness construction, two-stage ladder, poverty constraint, hazard-specific learning and governance qualification.",
+    "source_url_sha256": "sha256:d68bef13d6bde61f46f0b434182f84552a058d6b98e07785d30b76abf83c0900",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-police-foundation-digital-citizen-evidence-surveillance-participation-2026",
+  "title": "Consumer surveillance devices are becoming civic evidence infrastructure, but fragmented police response threatens participation and trust",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Police Foundation, Policing and Digital Citizen Evidence: Unleashing the potential for public participation, summarized in a report release published 16 September 2026",
+  "geography": "United Kingdom; nationally representative YouGov survey of adults, with citizen-owned surveillance technology and evidence-sharing questions",
+  "observations": [
+    {
+      "period": "September 2026; consumer surveillance adoption",
+      "denominator": {"value": 1, "unit": "nationally representative YouGov adult survey; published summary does not state the exact sample size", "value_type": "published_survey_frame"},
+      "measures": {
+        "any_device": {"value": 50, "unit": "percent of adults owning and regularly using at least one citizen-initiated surveillance technology", "value_type": "published_survey_estimate"},
+        "smart_doorbell": {"value": 31, "unit": "percent of adults owning and regularly using a smart doorbell", "value_type": "published_survey_estimate"},
+        "smart_home_iot": {"value": 30, "unit": "percent of adults owning and regularly using a smart-home or internet-of-things device", "value_type": "published_survey_estimate"},
+        "journey_camera": {"value": 18, "unit": "percent of adults owning and regularly using a journey camera", "value_type": "published_survey_estimate"},
+        "consumer_civic_infrastructure": {"value": "Consumer devices are creating a distributed layer of community surveillance and potential evidence outside formal police infrastructure", "unit": "analytic technology-institution mechanism", "value_type": "analytic_mechanism_set"}
+      },
+      "method": "Police Foundation report summarizing a nationally representative YouGov survey and qualitative/policy analysis; exact survey sample size is not stated on the accessible release page.",
+      "uncertainty": "Device ownership and regular use do not establish camera placement, footage quality, privacy effects, neighborhood coverage, or whether surveillance improves safety.",
+      "subgroup": "UK adults owning or using smart doorbells, smart-home devices, journey cameras, mobile phones, wearables, and connected-home technologies.",
+      "counterinterpretation": "Consumer surveillance can increase perceived security while also expanding monitoring, neighbor conflict, data exposure, or unequal visibility; adoption is not equivalent to public consent for all uses.",
+      "source_url": "https://www.police-foundation.org.uk/news/police-must-embrace-digital-citizen-evidence-or-risk-losing-public-confidence/",
+      "retrieval_hash": "sha256:402ef8668ac73197596781f2661b52d70daef2721a977168daef2c3d4155f2f6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; perceived safety and deterrence",
+      "denominator": {"value": 1, "unit": "nationally representative YouGov adult survey; exact sample size not stated in release summary", "value_type": "published_survey_frame"},
+      "measures": {
+        "doorbell_safety": {"value": 69, "unit": "percent believing smart doorbells improve personal safety and security", "value_type": "published_survey_estimate"},
+        "owner_doorbell_safety": {"value": 80, "unit": "percent of smart-doorbell owners believing the device improves personal safety and security", "value_type": "published_subgroup_estimate"},
+        "journey_camera_safety": {"value": 58, "unit": "percent believing journey cameras improve personal safety on roads", "value_type": "published_survey_estimate"},
+        "deterrence": {"value": 59, "unit": "percent believing citizen-initiated surveillance technologies are effective at deterring crime", "value_type": "published_survey_estimate"},
+        "security_affordance": {"value": "Consumer technology is being adopted not only for convenience but as a household-level security and deterrence affordance", "unit": "reported social mechanism", "value_type": "reported_pattern"}
+      },
+      "method": "Published survey estimates on perceived personal safety, road safety, and crime deterrence.",
+      "uncertainty": "Perceived safety and deterrence are not observed crime reduction or objective risk; owners may be more favorable because of selection or investment effects.",
+      "subgroup": "All surveyed adults, device owners, smart-doorbell owners, and journey-camera users.",
+      "counterinterpretation": "The devices may provide reassurance or evidence without deterring crime; perceived security can coexist with heightened fear or normalization of surveillance.",
+      "source_url": "https://www.police-foundation.org.uk/news/police-must-embrace-digital-citizen-evidence-or-risk-losing-public-confidence/",
+      "retrieval_hash": "sha256:402ef8668ac73197596781f2661b52d70daef2721a977168daef2c3d4155f2f6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; willingness to share evidence with police",
+      "denominator": {"value": 1, "unit": "nationally representative YouGov adult survey; exact sample size not stated in release summary", "value_type": "published_survey_frame"},
+      "measures": {
+        "burglary_share": {"value": 91, "unit": "percent likely to share footage relating to a burglary inside their home", "value_type": "published_survey_estimate"},
+        "suspicious_activity_share": {"value": 75, "unit": "percent likely to share footage of suspicious activity outside their home", "value_type": "published_survey_estimate"},
+        "dangerous_driving_share": {"value": 73, "unit": "percent likely to share footage of dangerous driving", "value_type": "published_survey_estimate"},
+        "speeding_share": {"value": 46, "unit": "percent likely to share footage of speeding", "value_type": "published_survey_estimate"},
+        "participation_offer": {"value": "The public reports substantial willingness to convert privately captured footage into formal public-safety participation", "unit": "reported civic-participation mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Published YouGov survey questions on willingness to share different categories of digital footage with police.",
+      "uncertainty": "Stated willingness is not actual submission behavior; willingness may vary with privacy, perceived seriousness, confidence in police, ease of submission, and fear of retaliation.",
+      "subgroup": "UK adults with or without citizen-surveillance devices, across burglary, suspicious activity, dangerous driving, and speeding contexts.",
+      "counterinterpretation": "High willingness for severe incidents and lower willingness for speeding may indicate proportionality and privacy judgment rather than declining civic participation.",
+      "source_url": "https://www.police-foundation.org.uk/news/police-must-embrace-digital-citizen-evidence-or-risk-losing-public-confidence/",
+      "retrieval_hash": "sha256:402ef8668ac73197596781f2661b52d70daef2721a977168daef2c3d4155f2f6",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; institutional response, feedback, and legitimacy",
+      "denominator": {"value": 1, "unit": "Police Foundation report synthesis of survey and implementation evidence", "value_type": "qualitative_institutional_frame"},
+      "measures": {
+        "fragmented_response": {"value": "Police handling of digital citizen evidence is described as fragmented, with inconsistent reporting routes and significant variation between forces", "unit": "reported institutional pattern", "value_type": "reported_mechanism_set"},
+        "feedback_gap": {"value": "Submitters may receive limited feedback or hear nothing, which can weaken confidence even when willingness to share is high", "unit": "reported legitimacy mechanism", "value_type": "reported_mechanism"},
+        "burden_shift": {"value": "Without standards, the system can shift investigation and vigilance burdens onto the public while leaving privacy, accessibility, and accountability unresolved", "unit": "analytic public-system mechanism", "value_type": "analytic_mechanism_set"},
+        "governance_route": {"value": "The report proposes national consistency, transparency, meaningful feedback, privacy, accessibility, human oversight, and ethical evidence-sharing standards", "unit": "reported governance route", "value_type": "reported_policy_route"}
+      },
+      "method": "Police Foundation synthesis of the YouGov findings, existing initiatives such as Operation Snap, and governance recommendations; this is not an evaluation of police-force performance using a common administrative dataset.",
+      "uncertainty": "The release does not quantify force-level variation, submission volumes, feedback rates, case outcomes, or whether a national framework would improve trust or safety.",
+      "subgroup": "Evidence submitters, victims, witnesses, police forces, people facing language or accessibility barriers, and communities differentially surveilled.",
+      "counterinterpretation": "Fragmentation may allow local adaptation and proportionality; standardization can also create over-collection, mission creep, or centralized surveillance without democratic control.",
+      "source_url": "https://www.police-foundation.org.uk/news/police-must-embrace-digital-citizen-evidence-or-risk-losing-public-confidence/",
+      "retrieval_hash": "sha256:402ef8668ac73197596781f2661b52d70daef2721a977168daef2c3d4155f2f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.police-foundation.org.uk/news/police-must-embrace-digital-citizen-evidence-or-risk-losing-public-confidence/", "claim": "Official Police Foundation summary of the report, survey findings, implementation risks, and recommendations."},
+    {"source_url": "https://www.police-foundation.org.uk/", "claim": "Police Foundation institutional context."}
+  ],
+  "boundary": "This record adds a civic-technology route from household surveillance adoption through perceived safety, evidence-sharing willingness, police intake and feedback, privacy, accessibility, and institutional legitimacy. It does not establish crime reduction, actual evidence submission, case outcomes, causal trust effects, or that more surveillance is socially beneficial.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Police Foundation release page reviewed for device adoption, perceived safety and deterrence, willingness to share footage, fragmentation and feedback gaps, governance principles, and methodological boundary.",
+    "source_url_sha256": "sha256:402ef8668ac73197596781f2661b52d70daef2721a977168daef2c3d4155f2f6",
+    "checked": "2026-09-29"
+  }
+}

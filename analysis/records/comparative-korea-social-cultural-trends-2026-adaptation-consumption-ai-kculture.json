@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-korea-social-cultural-trends-2026-adaptation-consumption-ai-kculture",
+  "title": "Post-crisis adaptation is reorganizing AI expectations, practical consumption, identity, wellness, and cultural belonging",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "Republic of Korea Ministry of Culture, Sports and Tourism, Korea’s Social and Cultural Trends in 2026: From Recovery to Adaptation",
+  "geography": "South Korea; online discourse from Korean news, social media, online communities, and video platforms",
+  "observations": [
+    {
+      "period": "January-November 2025; online discourse analyzed for 2026 trend forecast",
+      "denominator": {"value": 538000000, "unit": "online data items collected across news, social media, online communities, and video platforms", "value_type": "reported_data_volume"},
+      "measures": {
+        "keywords_extracted": {"value": 74760, "unit": "keywords extracted for trend analysis", "value_type": "reported_count"},
+        "overarching_frame": {"value": "K-Society is moving from post-crisis recovery toward adaptation and continued restructuring of everyday life", "unit": "reported cultural frame", "value_type": "reported_pattern"},
+        "six_trends": {"value": "Human-centered post-AI transition; being oneself and hyper-personalization; wellness transition; restrained practical consumption; K-culture and emotional economy; coexistence through emotional empathy", "unit": "reported trend taxonomy", "value_type": "reported_framework"},
+        "mechanism": {"value": "Crisis adaptation is being expressed simultaneously through technology expectations, identity, spending, health, culture, and social relations", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Korean Ministry of Culture, Sports and Tourism text and keyword analysis of large-scale online data collected during 2025.",
+      "uncertainty": "Online discourse is not population prevalence; platform composition, keyword selection, algorithmic visibility, and media attention may shape the observed trend signals.",
+      "subgroup": "Online participants and communities represented in Korean news, social platforms, online communities, and video services; offline and less-connected groups may be underrepresented.",
+      "counterinterpretation": "The six trends may reflect a government-curated interpretive framework and media salience rather than durable changes in behavior, spending, or social norms.",
+      "source_url": "https://www.mcst.go.kr/english/policy/pressView.jsp?pSeq=577",
+      "retrieval_hash": "sha256:288544a7365672c7ead10ffae43d18a8942aec7b5e1d2004d00fa95cb448750d",
+      "status": "reported"
+    },
+    {
+      "period": "2025 year-on-year online discourse; AI governance and social expectations",
+      "denominator": {"value": 1, "unit": "Korean online discourse trend comparison", "value_type": "reported_comparison"},
+      "measures": {
+        "ai_mentions": {"value": 44, "unit": "percent year-on-year increase in online mentions of AI", "value_type": "reported_change"},
+        "ai_policy_mentions": {"value": 147.5, "unit": "percent year-on-year increase in AI-related policy keywords", "value_type": "reported_change"},
+        "ai_security_mentions": {"value": 220.4, "unit": "percent year-on-year increase in AI-related security keywords", "value_type": "reported_change"},
+        "ai_regulation_mentions": {"value": 109.1, "unit": "percent year-on-year increase in AI-related regulation keywords", "value_type": "reported_change"},
+        "mechanism": {"value": "AI adoption is accompanied by a governance conversation about employment, safety, fairness, security, and institutional responsibility", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MCST keyword-trend comparison for AI-related terms in the 2025 online corpus.",
+      "uncertainty": "Keyword growth measures attention, not technology adoption, risk incidence, public consensus, or policy effectiveness; percentage changes may be sensitive to small baselines.",
+      "subgroup": "People and organizations participating in Korean online discourse about AI, including technology users, workers, policymakers, and consumers.",
+      "counterinterpretation": "Increased policy and security language can indicate informed governance attention or media amplification rather than rising perceived danger or opposition to AI.",
+      "source_url": "https://www.mcst.go.kr/english/policy/pressView.jsp?pSeq=577",
+      "retrieval_hash": "sha256:288544a7365672c7ead10ffae43d18a8942aec7b5e1d2004d00fa95cb448750d",
+      "status": "reported"
+    },
+    {
+      "period": "2025 year-on-year online discourse; identity and practical consumption",
+      "denominator": {"value": 1, "unit": "Korean online discourse trend comparison", "value_type": "reported_comparison"},
+      "measures": {
+        "being_oneself_mentions": {"value": 10, "unit": "percent year-on-year increase in related online mentions", "value_type": "reported_change"},
+        "consumption_mentions": {"value": 13, "unit": "percent year-on-year increase in consumption-related online mentions", "value_type": "reported_change"},
+        "value_for_money": {"value": "Value for money was the largest keyword within consumption-related discourse", "unit": "reported discourse pattern", "value_type": "reported_rank"},
+        "consumption_frame": {"value": "Practical restraint is framed as rational expense management and alternative consumption, not simply reduced spending", "unit": "reported cultural interpretation", "value_type": "reported_pattern"},
+        "mechanism": {"value": "Household constraint can be culturally reframed as agency, efficiency, and individualized life design", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MCST keyword analysis of online discourse concerning identity, self-direction, consumption, and value.",
+      "uncertainty": "The report does not measure actual household budgets, purchases, income groups, or whether practical consumption is voluntary adaptation versus financial necessity.",
+      "subgroup": "Online consumers and identity-oriented communities, with unknown representation by income, age, geography, and offline consumption behavior.",
+      "counterinterpretation": "Value-for-money discourse may reflect ordinary consumer search behavior or marketing language rather than a broad cultural shift toward restraint.",
+      "source_url": "https://www.mcst.go.kr/english/policy/pressView.jsp?pSeq=577",
+      "retrieval_hash": "sha256:288544a7365672c7ead10ffae43d18a8942aec7b5e1d2004d00fa95cb448750d",
+      "status": "reported"
+    },
+    {
+      "period": "2025 year-on-year online discourse; K-culture and emotional economy",
+      "denominator": {"value": 1, "unit": "Korean online discourse trend comparison", "value_type": "reported_comparison"},
+      "measures": {
+        "k_culture_mentions": {"value": 31, "unit": "percent year-on-year increase in K-culture-related online mentions", "value_type": "reported_change"},
+        "cultural_identity": {"value": "K-culture is described as expanding beyond content consumption into emotional and economic value linked to fandom and cultural pride", "unit": "reported cultural pattern", "value_type": "reported_pattern"},
+        "empathy_and_coexistence": {"value": "The forecast identifies emotional empathy as a basis for coexistence alongside performance and achievement", "unit": "reported social pattern", "value_type": "reported_framework"},
+        "mechanism": {"value": "Cultural participation can operate simultaneously as consumption, identity, national image, emotional affiliation, and economic activity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "MCST keyword analysis and interpretive synthesis of online cultural discourse, fandom activity, and related terms.",
+      "uncertainty": "Online mentions do not establish audience size, cultural export revenue, offline belonging, or the distribution of benefits across creators, firms, and communities.",
+      "subgroup": "K-culture audiences, fandom communities, creators, cultural firms, and participants in Korean online cultural discourse.",
+      "counterinterpretation": "Cultural pride and emotional language may be concentrated among highly engaged fans and may not represent broader national identity or social cohesion.",
+      "source_url": "https://www.mcst.go.kr/english/policy/pressView.jsp?pSeq=577",
+      "retrieval_hash": "sha256:288544a7365672c7ead10ffae43d18a8942aec7b5e1d2004d00fa95cb448750d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.mcst.go.kr/english/", "claim": "Official English-language Ministry of Culture, Sports and Tourism site."},
+    {"source_url": "https://www.mcst.go.kr/english/policy/pressList.jsp", "claim": "Official MCST English press-release index."}
+  ],
+  "boundary": "This record adds a comparative cultural-consumer route from post-crisis adaptation through AI governance attention, individualized identity, practical consumption, wellness, K-culture, fandom, and emotional coexistence. It is a government trend forecast derived from online keyword analysis, not a representative public-opinion survey, behavioral panel, causal cultural evaluation, or proof of population-wide change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official MCST English press-release page was reviewed for corpus size, keyword extraction, six-trend taxonomy, AI, identity, consumption, K-culture, and emotional-coexistence findings.",
+    "source_url_sha256": "sha256:288544a7365672c7ead10ffae43d18a8942aec7b5e1d2004d00fa95cb448750d",
+    "checked": "2026-09-28"
+  }
+}

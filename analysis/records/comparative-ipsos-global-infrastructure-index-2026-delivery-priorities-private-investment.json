@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-infrastructure-index-2026-delivery-priorities-private-investment",
+  "title": "Citizens want essential infrastructure investment and see economic and climate benefits, but a delivery deficit makes them pragmatic about public–private funding",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Ipsos and Global Infrastructure Investor Association, Global Infrastructure Index 2026",
+  "geography": "29 countries; global country-average and country comparisons",
+  "observations": [
+    {
+      "period": "April–May 2026; 29 countries",
+      "denominator": {"value": 29, "unit": "countries in the Ipsos-GIIA Global Infrastructure Index", "value_type": "reported_population"},
+      "measures": {
+        "water_sewerage_priority": {"value": 42, "unit": "percent selecting water supply and sewerage as an infrastructure investment priority", "value_type": "reported_share"},
+        "new_housing_priority": {"value": 37, "unit": "percent selecting new housing supply as an investment priority", "value_type": "reported_share"},
+        "rail_solar_pedestrian_priority": {"value": 36, "unit": "percent selecting each of rail infrastructure, solar-energy infrastructure and pedestrian infrastructure as priorities", "value_type": "reported_share"},
+        "priority_variation": {"value": "Seven of 14 infrastructure sectors are the top priority in at least one country", "unit": "reported comparative pattern", "value_type": "reported_distribution"}
+      },
+      "method": "Ipsos Global Advisor cross-national survey of infrastructure priorities across 29 countries in partnership with GIIA.",
+      "uncertainty": "Priority selection is a stated preference and does not establish project feasibility, local siting consent, budget willingness or the adequacy of existing infrastructure.",
+      "subgroup": "Citizens across 29 countries, with substantial country variation in water, housing, roads, rail, digital, flood and climate priorities.",
+      "counterinterpretation": "People may select visible or urgent sectors because of recent events, media attention or personal exposure rather than a stable national investment hierarchy.",
+      "source_url": "https://www.ipsos.com/en-ch/continued-appetite-investment-infrastructure-alongside-pragmatism-improve-outcomes",
+      "retrieval_hash": "sha256:2d11d2e0afcea950f76adecf767636d9d866c4c7fefca491381504671cea68e5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived infrastructure performance and delivery capacity",
+      "denominator": {"value": 29, "unit": "countries in the Ipsos-GIIA Global Infrastructure Index", "value_type": "reported_population"},
+      "measures": {
+        "not_doing_enough": {"value": 57, "unit": "percent saying their country is not doing enough to meet infrastructure needs", "value_type": "reported_share"},
+        "good_delivery_record": {"value": 34, "unit": "percent believing their country has a good record of delivering infrastructure projects", "value_type": "reported_share"},
+        "overall_satisfaction": {"value": 38, "unit": "percent satisfied with their country's infrastructure overall", "value_type": "reported_share"},
+        "overall_dissatisfaction": {"value": 30, "unit": "percent dissatisfied with their country's infrastructure overall", "value_type": "reported_share"}
+      },
+      "method": "Cross-national survey of infrastructure satisfaction, perceived adequacy and project-delivery confidence.",
+      "uncertainty": "Public satisfaction combines service quality, expectations, recent disruptions and political attribution; it is not an engineering or project-management performance score.",
+      "subgroup": "Citizens across 29 countries; country satisfaction ranges widely, from 74% to 16% according to Ipsos.",
+      "counterinterpretation": "Low delivery confidence may reflect a general institutional distrust or frustration with costs and delays rather than failure of every infrastructure program.",
+      "source_url": "https://www.ipsos.com/en-ch/continued-appetite-investment-infrastructure-alongside-pragmatism-improve-outcomes",
+      "retrieval_hash": "sha256:2d11d2e0afcea950f76adecf767636d9d866c4c7fefca491381504671cea68e5",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived economic and climate returns from infrastructure investment",
+      "denominator": {"value": 29, "unit": "countries in the Ipsos-GIIA Global Infrastructure Index", "value_type": "reported_population"},
+      "measures": {
+        "jobs_economic_benefit": {"value": 72, "unit": "percent believing infrastructure investment would create jobs and boost the economy", "value_type": "reported_share"},
+        "climate_benefit": {"value": 60, "unit": "percent believing infrastructure investment can make an important contribution to combating climate change", "value_type": "reported_share"},
+        "private_investment_comfort": {"value": 70, "unit": "percent comfortable with private-sector investment if it delivers infrastructure improvements", "value_type": "reported_share"},
+        "maintenance_equal_to_new_build": {"value": 73, "unit": "percent saying maintaining and repairing existing infrastructure is as important as building new projects", "value_type": "reported_share"}
+      },
+      "method": "Cross-national survey of perceived economic, climate, maintenance and financing benefits.",
+      "uncertainty": "These are perceived benefits and financing attitudes, not estimates of economic multipliers, emissions reductions, maintenance needs or acceptable tariffs and taxes.",
+      "subgroup": "Citizens across 29 countries.",
+      "counterinterpretation": "Support for private investment is conditional on visible results and may not imply acceptance of privatization, user fees or private control of essential services.",
+      "source_url": "https://www.ipsos.com/en-ch/continued-appetite-investment-infrastructure-alongside-pragmatism-improve-outcomes",
+      "retrieval_hash": "sha256:2d11d2e0afcea950f76adecf767636d9d866c4c7fefca491381504671cea68e5",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; infrastructure satisfaction change in selected G7 countries",
+      "denominator": {"value": 3, "unit": "G7 countries highlighted by Ipsos for sharp satisfaction declines", "value_type": "reported_population"},
+      "measures": {
+        "great_britain_change": {"value": -11, "unit": "percentage-point change in infrastructure satisfaction from 2024 to 2026", "value_type": "reported_difference"},
+        "germany_change": {"value": -11, "unit": "percentage-point change in infrastructure satisfaction from 2024 to 2026", "value_type": "reported_difference"},
+        "united_states_change": {"value": -8, "unit": "percentage-point change in infrastructure satisfaction from 2024 to 2026", "value_type": "reported_difference"},
+        "delivery_legitimacy_pattern": {"value": "Some large developed economies show worsening satisfaction despite continued belief that infrastructure investment creates economic and climate benefits", "unit": "reported comparative interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Repeated Ipsos Global Infrastructure Index comparison for countries surveyed in 2024 and 2026.",
+      "uncertainty": "Changes in satisfaction cannot be attributed to infrastructure delivery alone; inflation, political turnover, service disruptions, disasters and question context may affect responses.",
+      "subgroup": "Residents of Great Britain, Germany and the United States in the comparable country series.",
+      "counterinterpretation": "A decline in satisfaction may reflect rising expectations or greater visibility of infrastructure problems rather than an absolute decline in service quality.",
+      "source_url": "https://www.ipsos.com/en-ch/continued-appetite-investment-infrastructure-alongside-pragmatism-improve-outcomes",
+      "retrieval_hash": "sha256:2d11d2e0afcea950f76adecf767636d9d866c4c7fefca491381504671cea68e5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-08/Ipsos-Global-Infrastructure-Index-2026.pdf", "claim": "Official Ipsos-GIIA Global Infrastructure Index 2026 report PDF used for retrieval verification and hash."},
+    {"source_url": "https://www.ipsos.com/en-th/Global-Infrastructure-Index-2026-Thailand", "claim": "Official Ipsos country page with global benchmarks and climate-resilience, maintenance and private-investment comparisons."}
+  ],
+  "boundary": "This record adds an infrastructure-legitimacy mechanism: citizens prioritize essential and visible infrastructure, believe investment can improve jobs and climate resilience, but report a delivery deficit and condition openness to private capital on results. It is a cross-national public-opinion survey, not a project-delivery audit, infrastructure asset inventory, fiscal willingness-to-pay study or causal test of public–private financing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos-GIIA article, Global Infrastructure Index 2026 PDF and Thailand country page were retrieved and reviewed for investment priorities, satisfaction, delivery confidence, economic and climate benefits, maintenance, private investment and selected G7 changes; the PDF was hashed.",
+    "source_url_sha256": "sha256:2d11d2e0afcea950f76adecf767636d9d866c4c7fefca491381504671cea68e5",
+    "checked": "2026-09-27"
+  }
+}

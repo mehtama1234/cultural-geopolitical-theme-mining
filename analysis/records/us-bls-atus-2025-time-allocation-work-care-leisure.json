@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-atus-2025-time-allocation-work-care-leisure",
+  "title": "U.S. time allocation shows work, care, household maintenance, socializing, and digital leisure competing within a fixed daily budget",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "platforms_data_attention",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Bureau of Labor Statistics, American Time Use Survey—2025 Results, USDL-26-1022",
+  "geography": "United States; nationally representative American Time Use Survey estimates for people age 15 and older, with subgroup tables by sex, age, education, employment, and presence of children",
+  "observations": [
+    {
+      "period": "2025 ATUS annual averages; work location and education",
+      "denominator": {"value": 6100, "unit": "approximately interviewed individuals in the 2025 ATUS; estimates are nationally representative", "value_type": "reported_survey_frame"},
+      "measures": {
+        "work_at_home": {"value": 35, "unit": "percent of employed people doing some or all work at home on days worked", "value_type": "reported_share"},
+        "work_at_workplace": {"value": 70, "unit": "percent of employed people doing some or all work at their workplace on days worked", "value_type": "reported_share"},
+        "education_home_work_gap": {"value": "51% among workers with a bachelor's degree or higher versus 19% among workers with a high school diploma and no college doing some work at home", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "gender_home_work_gap": {"value": "38% of employed women versus 31% of employed men doing some work at home", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "mechanism": {"value": "Remote-work flexibility is a labor-market resource distributed by education and gender, with consequences for how paid work can be combined with care and household tasks", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BLS annual ATUS estimates based on time diaries, weighted for population and day-of-week representation.",
+      "uncertainty": "Work location is measured on days worked and does not establish productivity, autonomy, commuting savings, or whether home work increases or reduces total work and care burden.",
+      "subgroup": "Employed people by sex, education, jobholding status, day of week, and other characteristics.",
+      "counterinterpretation": "Working at home may provide flexibility for some workers while also increasing work-home boundary erosion, surveillance, or unpaid interruptions for others.",
+      "source_url": "https://www.bls.gov/news.release/atus.htm",
+      "retrieval_hash": "sha256:eddf56c0211448bdb0751fb5ad83770c92741171d59eb8062a94a72059577fb3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 ATUS annual averages; household work and gender",
+      "denominator": {"value": 1, "unit": "U.S. civilian population age 15 and older; primary activities on an average day", "value_type": "reported_population_frame"},
+      "measures": {
+        "household_activity_participation": {"value": 81, "unit": "percent engaging in household activities on an average day", "value_type": "reported_share"},
+        "women_household_participation": {"value": 87, "unit": "percent of women spending time on household activities on an average day", "value_type": "reported_share"},
+        "men_household_participation": {"value": 75, "unit": "percent of men spending time on household activities on an average day", "value_type": "reported_share"},
+        "conditional_hours_women": {"value": 2.8, "unit": "average hours on household activities among women who did them", "value_type": "reported_conditional_average"},
+        "conditional_hours_men": {"value": 2.1, "unit": "average hours on household activities among men who did them", "value_type": "reported_conditional_average"},
+        "mechanism": {"value": "The household remains a production site whose time demands are gendered even when employment and income statistics appear similar", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BLS primary-activity time-use estimates from 2025 ATUS diaries, with conditional hours among people participating in household activities.",
+      "uncertainty": "Primary-activity estimates exclude many simultaneous activities; participation and conditional hours do not reveal task intensity, division of labor, outsourcing, or control over household decisions.",
+      "subgroup": "Women and men age 15 and older, with further subgroup tables by age, education, employment, and household composition.",
+      "counterinterpretation": "Differences may partly reflect age, household structure, employment, and activity mix rather than gender alone; unpaid work can also produce intrinsic or relational benefits.",
+      "source_url": "https://www.bls.gov/news.release/atus.htm",
+      "retrieval_hash": "sha256:eddf56c0211448bdb0751fb5ad83770c92741171d59eb8062a94a72059577fb3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 ATUS annual averages; socializing, television, and computer leisure compared with 2015",
+      "denominator": {"value": 1, "unit": "U.S. civilian population age 15 and older; primary leisure activities on an average day", "value_type": "reported_population_frame"},
+      "measures": {
+        "leisure_participation": {"value": 95, "unit": "percent engaging in some leisure or sports activity on an average day", "value_type": "reported_share"},
+        "tv_time": {"value": 2.6, "unit": "average hours per day watching television", "value_type": "reported_average"},
+        "socializing_2025": {"value": 30, "unit": "percent engaging in socializing and communicating on an average day in 2025", "value_type": "reported_share"},
+        "socializing_2015": {"value": 38, "unit": "percent engaging in socializing and communicating on an average day in 2015", "value_type": "reported_share"},
+        "socializing_minutes": {"value": "35 minutes in 2025 versus 41 minutes in 2015 among the population average", "unit": "reported time comparison", "value_type": "reported_change"},
+        "computer_game_time": {"value": "37 minutes in 2025 versus 25 minutes in 2015 playing games or using a computer for leisure", "unit": "reported time comparison", "value_type": "reported_change"},
+        "mechanism": {"value": "Leisure is not disappearing; its composition is shifting from face-to-face socializing toward screen-based and computer-mediated time", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BLS comparison of 2025 and 2015 ATUS annual averages for primary leisure activities.",
+      "uncertainty": "The categories do not capture all simultaneous communication or platform use, and the comparison is descriptive rather than a causal estimate of technology effects on social connection.",
+      "subgroup": "People age 15 and older, with age and sex differences reported in the ATUS tables.",
+      "counterinterpretation": "Computer-mediated leisure can include social interaction, games, learning, and creative activity; lower recorded face-to-face socializing does not prove lower meaningful connection.",
+      "source_url": "https://www.bls.gov/news.release/atus.htm",
+      "retrieval_hash": "sha256:eddf56c0211448bdb0751fb5ad83770c92741171d59eb8062a94a72059577fb3",
+      "status": "reported"
+    },
+    {
+      "period": "2025 ATUS annual averages; care and household composition",
+      "denominator": {"value": 1, "unit": "U.S. adults by presence and age of youngest household child; primary and secondary childcare measures", "value_type": "reported_subgroup_frame"},
+      "measures": {
+        "young_child_primary_care": {"value": 2.3, "unit": "average hours per day of primary childcare among adults living with a child under age 6", "value_type": "reported_average"},
+        "young_child_gender_gap": {"value": "2.8 hours for women versus 1.7 hours for men among adults living with a child under age 6", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "young_child_nonemployed_gap": {"value": "3.3 hours among nonemployed adults versus 1.7 hours among employed adults for caring and helping household children", "unit": "reported subgroup comparison", "value_type": "reported_subgroup_difference"},
+        "secondary_childcare": {"value": 5.1, "unit": "average hours per day of secondary childcare among adults living with a child under age 13", "value_type": "reported_average"},
+        "mechanism": {"value": "Care is woven into leisure and household activity rather than confined to a separately visible block of time, making the opportunity cost of family life easy to undercount", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "BLS ATUS primary and secondary childcare estimates by household-child age, sex, and employment status.",
+      "uncertainty": "Secondary childcare is simultaneous with another primary activity; the estimates describe time allocation and do not identify causal effects on labor supply, wellbeing, or family outcomes.",
+      "subgroup": "Adults living with children under 6 or under 13, by sex and employment status.",
+      "counterinterpretation": "The same simultaneous care can reflect ordinary family co-presence and positive involvement, not only hidden burden; household support networks are not fully observed.",
+      "source_url": "https://www.bls.gov/news.release/atus.htm",
+      "retrieval_hash": "sha256:eddf56c0211448bdb0751fb5ad83770c92741171d59eb8062a94a72059577fb3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107871/index.html", "claim": "Complementary GAO valuation of unpaid household work using pooled 2021–2024 ATUS data."},
+    {"source_url": "https://www.bls.gov/tus/", "claim": "BLS American Time Use Survey data, definitions, and historical series."}
+  ],
+  "boundary": "This record adds a U.S. time-allocation route from work location and education through unpaid household activity, childcare, socializing, television, computer leisure, and household composition. It is an annual cross-sectional time-diary release, not respondent-level longitudinal analysis, causal evidence, or a complete measure of simultaneous digital, care, emotional, or relational work.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official BLS ATUS 2025 results page reviewed for work location, household activity, leisure and socializing, computer use, childcare, subgroup comparisons, survey design, and the 2025 shutdown data-collection limitation.",
+    "source_url_sha256": "sha256:eddf56c0211448bdb0751fb5ad83770c92741171d59eb8062a94a72059577fb3",
+    "checked": "2026-09-28"
+  }
+}

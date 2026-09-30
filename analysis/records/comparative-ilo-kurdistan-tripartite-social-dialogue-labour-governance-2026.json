@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-kurdistan-tripartite-social-dialogue-labour-governance-2026",
+  "title": "Permanent tripartite dialogue turns worker and employer voice into a labour-governance institution, but ownership determines whether it becomes operative",
+  "theme_ids": ["voice", "work", "time"],
+  "program_theme_ids": ["work_control_bargaining", "public_systems_feedback", "political_judgment_action", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "ILO report on the Kurdistan Region of Iraq Social Dialogue Forum, published September 3, 2026",
+  "geography": "Kurdistan Region of Iraq, with exchange links to Federal Iraq and wider Arab States social-dialogue practice",
+  "observations": [
+    {
+      "period": "September 1-3, 2026; establishment of the Social Dialogue Forum",
+      "denominator": {"value": 3, "unit": "tripartite constituent groups: government, workers, employers", "value_type": "institutional_membership_frame"},
+      "measures": {
+        "institutional_status": {"value": "A permanent tripartite platform was launched to address labour-market challenges and shape policies affecting the world of work", "unit": "institutional mechanism", "value_type": "reported_institutional_change"},
+        "representation": {"value": "The Founding Document establishes equal representation of government, workers, and employers in both the Forum and its Secretariat", "unit": "representation rule", "value_type": "reported_governance_design"},
+        "dialogue_scope": {"value": "The Forum is tasked with consultation, information exchange, cooperation, labour legislation, workers' rights, trade-union freedoms, labour-market policy, and international labour standards", "unit": "governance mandate", "value_type": "reported_mandate"}
+      },
+      "method": "Official ILO institutional announcement describing the founding document, constituent representation, mandate, and support arrangement; it is not an evaluation of Forum performance.",
+      "uncertainty": "The Forum is newly established. The source does not show meeting frequency, agenda outcomes, worker coverage, policy adoption, enforcement, budget, or whether equal representation produces equal influence.",
+      "subgroup": "Kurdistan Regional Government, worker organizations, employer organizations, trade unions, enterprises, and workers affected by labour and socio-economic policy.",
+      "counterinterpretation": "A formal tripartite body can legitimate pre-existing power or become consultative without changing decisions; equal seats do not guarantee equal resources, information, access, or bargaining power.",
+      "source_url": "https://www.ilo.org/resource/news/new-tripartite-social-dialogue-forum-strengthens-labour-governance",
+      "retrieval_hash": "sha256:80243f33614c3116eb9c9583cb805d889db43be095aa5edde0bde54f485cc100",
+      "status": "reported"
+    },
+    {
+      "period": "2026 onward; Forum's intended policy-to-implementation route",
+      "denominator": {"value": 1, "unit": "Kurdistan Region Social Dialogue Forum", "value_type": "institutional_case"},
+      "measures": {
+        "implementation_followup": {"value": "The Forum is intended to review labour legislation and follow up on its implementation, rather than only discuss policy design", "unit": "institutional function", "value_type": "reported_mandate"},
+        "working_committees": {"value": "The Founding Document allows specialized committees on labour legislation, social security, employment, occupational safety and health, and other member-defined priorities", "unit": "possible institutional structure", "value_type": "reported_design_option"},
+        "action_test": {"value": "The launch explicitly frames the challenge as translating dialogue into action and continuous engagement", "unit": "implementation criterion", "value_type": "reported_implementation_condition"}
+      },
+      "method": "Official ILO report of the Forum's mandate and stated implementation ambitions; no outcome observation or counterfactual is available.",
+      "uncertainty": "The source provides no evidence yet about committee formation, legislative change, compliance, occupational safety, social-security access, or dispute resolution.",
+      "subgroup": "Workers and employers affected by legislation, social security, employment policy, safety and health rules, and labour-market transitions.",
+      "counterinterpretation": "Adding committees and consultation can increase procedural time without improving decisions; implementation follow-up may also be constrained by fragmented authority or political conflict.",
+      "source_url": "https://www.ilo.org/resource/news/new-tripartite-social-dialogue-forum-strengthens-labour-governance",
+      "retrieval_hash": "sha256:80243f33614c3116eb9c9583cb805d889db43be095aa5edde0bde54f485cc100",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; external support and institutional ownership",
+      "denominator": {"value": 1, "unit": "EU-funded ILO BEIT project supporting the Forum", "value_type": "institutional_support_frame"},
+      "measures": {
+        "external_support": {"value": "The Forum's establishment was supported through the ILO Building Equitable and Inclusive Transformation project funded by the European Union", "unit": "support arrangement", "value_type": "reported_support"},
+        "technical_support": {"value": "The ILO will continue technical expertise, capacity development, and learning support while priorities and direction remain with tripartite members", "unit": "institutional-support model", "value_type": "reported_support_design"},
+        "durability_condition": {"value": "The source identifies member ownership and continued engagement by government, workers' organizations, and employers as conditions of sustainability", "unit": "institutional durability condition", "value_type": "reported_condition"}
+      },
+      "method": "Official partnership and institutional-formation announcement; it reports the support architecture and stated durability condition but not long-run financing or organizational behavior.",
+      "uncertainty": "The Forum's sustainability, autonomy, funding, membership breadth, and relationship to federal and regional authority remain untested.",
+      "subgroup": "Tripartite members, EU and ILO support institutions, Federal Iraq observers, regional policy actors, and workers and firms affected by future decisions.",
+      "counterinterpretation": "External support can supply expertise and convening power but may create dependence or an institution whose legitimacy is associated with donors rather than local constituents.",
+      "source_url": "https://www.ilo.org/resource/news/new-tripartite-social-dialogue-forum-strengthens-labour-governance",
+      "retrieval_hash": "sha256:80243f33614c3116eb9c9583cb805d889db43be095aa5edde0bde54f485cc100",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/resource/project/building-equitable-and-inclusive-transformation-beit-towards-decent-work-and-affordable-housing-iraq", "claim": "ILO project page for the BEIT support project referenced in the Forum announcement."}
+  ],
+  "boundary": "This record captures the institutional design and stated durability conditions of a new tripartite labour-governance forum. It does not establish effective representation, policy influence, enforcement, worker outcomes, social-security access, or institutional survival.",
+  "retrieval_hash": "sha256:80243f33614c3116eb9c9583cb805d889db43be095aa5edde0bde54f485cc100"
+}

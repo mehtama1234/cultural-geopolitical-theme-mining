@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-weekly-epidemiological-record-101-38-2026-surveillance-signals",
+  "title": "Public-health governance is increasingly a signal-filtering and data-quality system, not only a count of confirmed disease events",
+  "theme_ids": ["time", "voice", "cost", "energy"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Health Organization, Weekly Epidemiological Record, Volume 101 Issue 38, epidemiological week 38 of 2026",
+  "geography": "Global public-health surveillance, with regional respiratory-virus, cholera, meningitis, plague, and event-based surveillance reporting",
+  "observations": [
+    {
+      "period": "14–20 September 2026; WHO digital event-based surveillance",
+      "denominator": {"value": 582592, "unit": "raw signals screened by WHO Public Health Intelligence activities", "value_type": "reported_signal_count"},
+      "measures": {
+        "signals_categorized": {"value": 37, "unit": "signals categorized for detailed assessment and action", "value_type": "reported_signal_count"},
+        "unique_signals": {"value": 35, "unit": "unique signals after removing repeated or duplicate signals", "value_type": "reported_signal_count"},
+        "signals_escalated": {"value": 23, "unit": "categorized signals escalated for operational attention", "value_type": "reported_signal_count"},
+        "public_outputs": {"value": 1, "unit": "Rapid Risk Assessment published during the reporting week", "value_type": "reported_output_count"}
+      },
+      "method": "WHO weekly summary of digital event-based surveillance, with explicit funnel definitions for screened, categorized, unique, and escalated signals.",
+      "uncertainty": "Signal counts measure surveillance workflow, not disease incidence or the probability that an escalated signal becomes an outbreak; thresholds, duplication, language, source access, and analyst capacity shape the funnel.",
+      "subgroup": "Public-health intelligence teams, ministries, laboratories, communities generating or exposed to signals, and populations affected by later assessment and response decisions.",
+      "counterinterpretation": "A large screened-to-escalated reduction can reflect effective triage, but it can also reflect blind spots, low-quality reporting, or thresholds that delay attention to weak or marginalized signals.",
+      "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38",
+      "retrieval_hash": "sha256:4400e53eab4ac13b5a9052405285e360c6b5c8c836ec674b64a2cbc7c2609da5",
+      "status": "reported"
+    },
+    {
+      "period": "Epidemiological week 37, 2026; global respiratory-virus activity",
+      "denominator": {"value": 1, "unit": "WHO global respiratory-virus surveillance summary", "value_type": "reported_surveillance_frame"},
+      "measures": {
+        "influenza_positivity": {"value": "10% globally", "unit": "reported influenza positivity in week 37", "value_type": "reported_rate"},
+        "sars_cov_2": {"value": "stable and low globally", "unit": "reported SARS-CoV-2 positivity assessment", "value_type": "reported_assessment"},
+        "rsv": {"value": "low globally", "unit": "reported RSV positivity assessment", "value_type": "reported_assessment"},
+        "regional_variation": {"value": "positivity above 30% in some countries or zones in Western Africa and parts of Asia and Oceania", "unit": "reported regional surveillance pattern", "value_type": "reported_comparison"}
+      },
+      "method": "WHO Global Influenza Surveillance and Response System summary of reported specimens and positivity by region.",
+      "uncertainty": "Positivity depends on who is tested, specimen volume, reporting coverage, timing, and surveillance-system composition; it is not a population infection prevalence estimate.",
+      "subgroup": "People tested through national respiratory-virus surveillance, health systems, and regions with different testing intensity and pathogen circulation.",
+      "counterinterpretation": "Low global or stable positivity can coexist with localized surges, under-testing, delayed reporting, or severe outcomes among vulnerable groups.",
+      "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38",
+      "retrieval_hash": "sha256:4400e53eab4ac13b5a9052405285e360c6b5c8c836ec674b64a2cbc7c2609da5",
+      "status": "reported"
+    },
+    {
+      "period": "2025; enhanced meningitis surveillance in the African meningitis belt",
+      "denominator": {"value": 26, "unit": "countries in the enhanced meningitis surveillance network", "value_type": "reported_network_denominator"},
+      "measures": {
+        "reporting_countries": {"value": 24, "unit": "countries submitting epidemiological data for 2025", "value_type": "reported_count"},
+        "suspected_cases": {"value": 21526, "unit": "suspected meningitis cases reported over the full year", "value_type": "reported_count"},
+        "deaths": {"value": 971, "unit": "reported meningitis deaths over the full year", "value_type": "reported_count"},
+        "case_fatality_rate": {"value": "4.5%", "unit": "reported case-fatality rate among reported suspected cases", "value_type": "reported_rate"},
+        "epidemic_threshold_districts": {"value": 18, "unit": "districts crossing the epidemic threshold", "value_type": "reported_count"}
+      },
+      "method": "WHO synthesis of country and laboratory surveillance data for 2025, with like-for-like comparisons restricted to countries reporting in both 2024 and 2025.",
+      "uncertainty": "Non-reporting by Ethiopia and Uganda, uneven laboratory participation, suspected rather than confirmed cases, and changing reporting pools limit trend interpretation; absent reporting is not absence of disease.",
+      "subgroup": "People in the African meningitis-belt surveillance network, district health systems, laboratories, vaccine programs, and communities exposed to epidemic risk or long-term sequelae.",
+      "counterinterpretation": "Lower reported cases can reflect real progress, surveillance changes, vaccination, missing data, or altered laboratory participation; the crude decline cannot be read as an equivalent decline in underlying burden.",
+      "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38",
+      "retrieval_hash": "sha256:4400e53eab4ac13b5a9052405285e360c6b5c8c836ec674b64a2cbc7c2609da5",
+      "status": "reported"
+    },
+    {
+      "period": "2025; long-horizon surveillance and prevention capacity",
+      "denominator": {"value": 1, "unit": "WHO public-health surveillance and prevention system frame", "value_type": "published_framework"},
+      "measures": {
+        "surveillance_expansion": {"value": "enhanced meningitis surveillance expanded from 8 countries in 2003 to 26 in 2025", "unit": "reported surveillance-network expansion", "value_type": "reported_change"},
+        "serogroup_a_change": {"value": "more than 99% reduction in confirmed serogroup A disease in vaccinated populations, with no confirmed case reported since 2017 in countries introducing MenACV", "unit": "reported vaccination-associated surveillance pattern", "value_type": "reported_change"},
+        "men5cv_reach": {"value": "3,288,785 people reached by reactive Men5CV campaigns in Chad, Niger, and Nigeria", "unit": "reported vaccination campaign reach", "value_type": "reported_count"},
+        "system_condition": {"value": "consistent reporting, laboratory surveillance, integrated vaccination, clinical access, national plans, and predictable financing remain necessary", "unit": "reported program conditions", "value_type": "reported_recommendation"}
+      },
+      "method": "WHO longitudinal program and surveillance synthesis combining network expansion, vaccination, laboratory, reporting, and implementation information.",
+      "uncertainty": "The record describes program and surveillance progress but does not isolate causal vaccine effects across all settings or establish equal access, durability, or sequelae care.",
+      "subgroup": "Children, adolescents, adults, vaccinated and unvaccinated communities, laboratories, district health systems, and people living with meningitis-related disability.",
+      "counterinterpretation": "Successful prevention in one serogroup or population can coexist with other serogroups, reporting gaps, access inequality, and persistent long-term disability among survivors.",
+      "source_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-38",
+      "retrieval_hash": "sha256:4400e53eab4ac13b5a9052405285e360c6b5c8c836ec674b64a2cbc7c2609da5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/teams/health-emergency-information-and-risk-assessment", "claim": "WHO health-emergency information and risk-assessment context for event-based surveillance and early warning."},
+    {"source_url": "https://www.who.int/initiatives/defeating-meningitis-by-2030", "claim": "WHO Defeating Meningitis by 2030 road-map context for surveillance, vaccination, care, and prevention."}
+  ],
+  "boundary": "This record adds a public-health sensing and surveillance-infrastructure signal linking raw signals, triage, escalation, respiratory-virus monitoring, reporting quality, laboratory participation, vaccination, and preparedness. It is a WHO weekly surveillance publication, not a complete event census, population infection prevalence estimate, causal vaccine evaluation, respondent-level dataset, or proof that low reported signals mean low underlying risk.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WHO Weekly Epidemiological Record page was reviewed for the week-38 event-based surveillance funnel, week-37 respiratory-virus summary, 2025 meningitis surveillance network and reporting caveats, vaccination program measures, and the distinction between missing data and no disease.",
+    "source_url_sha256": "sha256:4400e53eab4ac13b5a9052405285e360c6b5c8c836ec674b64a2cbc7c2609da5",
+    "checked": "2026-09-27"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-mpi-migration-diplomacy-transactionalism-2026-geopolitical-leverage",
+  "title": "Migration is becoming a bargaining instrument linking borders to trade, aid, visas, security, labor, and geopolitical leverage",
+  "theme_ids": ["voice", "cost", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Migration Policy Institute, Migration Diplomacy in an Age of Transactionalism, September 2026",
+  "geography": "Comparative migration diplomacy with explicit analysis of United States foreign-policy retrenchment, the Americas, Europe, origin, transit, and destination countries",
+  "observations": [
+    {
+      "period": "2026; migration diplomacy and international cooperation",
+      "denominator": {"value": 1, "unit": "comparative policy report on migration diplomacy, international cooperation, and geopolitical risk", "value_type": "report_frame"},
+      "measures": {
+        "cooperation_shift": {"value": "governments are turning from multilateral solutions toward more transactional bilateral deals", "unit": "reported international-policy pattern", "value_type": "reported_pattern"},
+        "foreign_policy_tools": {"value": "visa policy, sanctions, tariffs, trade policy, foreign aid, and legal migration pathways are increasingly used to pursue migration objectives", "unit": "reported policy-tool set", "value_type": "reported_mechanism_set"},
+        "durability_risk": {"value": "coercive tools can unlock short-term cooperation while damaging long-term relationships and producing brittle partnerships", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Migration Policy Institute comparative policy analysis drawing on research, case examples, expert discussion, and migration-diplomacy literature.",
+      "uncertainty": "The report is a policy synthesis and does not estimate a single causal effect of transactional diplomacy, rank tools across all cases, or predict which partnerships will endure.",
+      "subgroup": "Origin, transit, and destination governments; migrants and refugees; international organizations; employers; airlines; social-media companies; and communities affected by migration policy.",
+      "counterinterpretation": "Bilateral deals can produce concrete cooperation where multilateral institutions stall; short-term instrumental arrangements are not necessarily ineffective if paired with mutual benefits and capacity building.",
+      "source_url": "https://www.migrationpolicy.org/publication/migration-diplomacy-transactionalism",
+      "retrieval_hash": "sha256:f0860b6ccecb6315b6a07cedd9d88703e570edf2b5ffa9957d6997411b217ffe",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; conflict, displacement, technology, and migration security",
+      "denominator": {"value": 1, "unit": "report synthesis of current displacement, conflict, smuggling, and migration-security dynamics", "value_type": "report_frame"},
+      "measures": {
+        "displacement_pressure": {"value": "overlapping conflict, fragility, and humanitarian crises are increasing displacement while making safe return and cooperation harder", "unit": "reported geopolitical pattern", "value_type": "reported_pattern"},
+        "smuggling_adaptation": {"value": "smuggling networks are described as more agile, technologically enabled, and connected to organized crime", "unit": "reported security mechanism", "value_type": "reported_mechanism"},
+        "migration_instrumentalization": {"value": "states and nonstate actors may instrumentalize migration flows to extract concessions or destabilize destination countries", "unit": "reported geopolitical mechanism", "value_type": "reported_mechanism"},
+        "information_risk": {"value": "AI-generated content and deepfakes expand channels for smuggling outreach and disinformation", "unit": "reported technology mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Report synthesis of displacement trends, case examples, security analysis, and migration-diplomacy evidence.",
+      "uncertainty": "The report identifies mechanisms and cases but does not provide a comprehensive prevalence estimate, attribute every flow to state action, or establish that AI caused a specific smuggling or disinformation event.",
+      "subgroup": "Displaced people, migrants, asylum seekers, border communities, governments, law-enforcement agencies, humanitarian organizations, smugglers, and digital platforms.",
+      "counterinterpretation": "Technology can improve safe information, registration, and humanitarian coordination as well as enable abuse; not all irregular migration reflects hostile-state instrumentalization.",
+      "source_url": "https://www.migrationpolicy.org/publication/migration-diplomacy-transactionalism",
+      "retrieval_hash": "sha256:f0860b6ccecb6315b6a07cedd9d88703e570edf2b5ffa9957d6997411b217ffe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; U.S. retrenchment and migration-governance capacity",
+      "denominator": {"value": 1, "unit": "report account of U.S. foreign-policy and migration-cooperation changes", "value_type": "report_frame"},
+      "measures": {
+        "multilateral_withdrawal": {"value": "the report describes the United States as stepping back from multiple international migration and refugee frameworks", "unit": "reported policy direction", "value_type": "reported_assessment"},
+        "funding_retrenchment": {"value": "cuts to international organizations, aid, and migration/refugee programming reduce resources available for cooperation and implementation", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "partner_leverage": {"value": "reduced destination-country resources and coordination can increase origin and transit countries' leverage in negotiations", "unit": "reported geopolitical implication", "value_type": "reported_mechanism"}
+      },
+      "method": "MPI analysis of U.S. and comparative migration-diplomacy developments, funding changes, and international-cooperation implications.",
+      "uncertainty": "The report's account is not an independent audit of every U.S. withdrawal, budget line, or operational outcome; leverage and cooperation effects vary by partner and issue.",
+      "subgroup": "U.S. agencies, diplomatic and humanitarian partners, origin and transit governments, international organizations, refugees, migrants, and host communities.",
+      "counterinterpretation": "Retrenchment can be framed by governments as sovereignty, prioritization, or cost control; reduced funding may also prompt other states to assume greater responsibility, though replacement capacity is not guaranteed.",
+      "source_url": "https://www.migrationpolicy.org/publication/migration-diplomacy-transactionalism",
+      "retrieval_hash": "sha256:f0860b6ccecb6315b6a07cedd9d88703e570edf2b5ffa9957d6997411b217ffe",
+      "status": "reported"
+    },
+    {
+      "period": "2026; labor pathways and durable migration partnerships",
+      "denominator": {"value": 1, "unit": "report policy analysis of labor mobility as a migration-diplomacy tool", "value_type": "report_frame"},
+      "measures": {
+        "labor_pathway": {"value": "legal migration opportunities and accelerated visa processing are identified as potential mutual benefits in migration negotiations", "unit": "reported policy option", "value_type": "reported_policy_set"},
+        "destination_need": {"value": "looming labor shortages and demographic asymmetries create incentives for destination countries to revisit labor mobility", "unit": "reported labor mechanism", "value_type": "reported_mechanism"},
+        "partnership_test": {"value": "durable cooperation requires visible wins for partner countries rather than enforcement-only arrangements", "unit": "reported policy principle", "value_type": "reported_recommendation"}
+      },
+      "method": "Report analysis of migration-diplomacy tools, including visa access, legal pathways, labor mobility, aid, sanctions, and trade.",
+      "uncertainty": "The report does not evaluate a specific labor-mobility program, worker outcomes, wage effects, or whether pathways would reduce irregular migration in a given corridor.",
+      "subgroup": "Migrants and workers, employers, destination-country labor markets, origin-country governments, partner communities, and negotiating officials.",
+      "counterinterpretation": "Legal pathways can support labor markets and cooperation but may also create unequal selection, worker-protection, or brain-drain concerns; enforcement and pathway effects are not interchangeable.",
+      "source_url": "https://www.migrationpolicy.org/publication/migration-diplomacy-transactionalism",
+      "retrieval_hash": "sha256:f0860b6ccecb6315b6a07cedd9d88703e570edf2b5ffa9957d6997411b217ffe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://publications.iom.int/books/world-migration-report-2026", "claim": "IOM's World Migration Report 2026 supplies a separate global migration, displacement, climate, technology, and demographic context.", "status": "official_comparator"},
+    {"source_url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1usaea2026001.pdf", "claim": "IMF's U.S. Article IV supplies a separate macroeconomic route connecting immigration, labor supply, inflation, growth, and geopolitical risk.", "status": "official_comparator"}
+  ],
+  "boundary": "This record adds a U.S.-anchored comparative migration-diplomacy route connecting displacement, border governance, foreign aid, visas, sanctions, tariffs, labor pathways, technology, security, and geopolitical leverage. It is a policy synthesis with case evidence, not a causal evaluation of U.S. migration policy, an individual migrant-outcome study, a comprehensive security estimate, or proof that any diplomatic tool will produce durable cooperation.",
+  "retrieval_hash": "sha256:f0860b6ccecb6315b6a07cedd9d88703e570edf2b5ffa9957d6997411b217ffe"
+}

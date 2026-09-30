@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wpp-media-nordic-consumer-trends-2026-mental-scarcity-status-control",
+  "title": "Mental scarcity is shifting consumer value toward guidance, balance, time, and control",
+  "theme_ids": ["time", "voice", "cost", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "WPP Media Trend Seminar 2026 consumer-trends whitepaper and public overview",
+  "geography": "Nordic region; commercial consumer-trend synthesis with implications that may travel unevenly across markets",
+  "observations": [
+    {
+      "period": "2026; four-trend consumer framework",
+      "denominator": {"value": 4, "unit": "new consumer trends highlighted by WPP Media", "value_type": "reported_framework_count"},
+      "measures": {
+        "mental_scarcity": {"value": "Consumers are described as navigating persistent complexity, polarization, conflicting information, and unpredictability that drain mental resources", "unit": "reported cultural pattern", "value_type": "reported_trend"},
+        "framework": {"value": "Mental Scarcity, Zillennial Squeeze, Lead Me-Lifestyle, and Status Redefined", "unit": "named consumer-trend framework", "value_type": "reported_framework"},
+        "decision_pressure": {"value": "The report frames everyday choice-making as a source of mental burden that changes what consumers seek from brands and services", "unit": "reported mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WPP Media editorial and commercial foresight synthesis presented through a public trend-seminar overview; the public page does not provide a single survey sample, prevalence estimate, or causal test.",
+      "uncertainty": "The framework is interpretive and publisher-produced. It may identify salient cultural language or market opportunity without establishing how broadly the pattern occurs or whether it is specific to the Nordic region.",
+      "subgroup": "Consumers managing information overload, polarized social environments, economic and life-stage pressure, and repeated everyday decisions; especially Nordic audiences in the source frame.",
+      "counterinterpretation": "Choice overload may be uneven: some consumers experience more agency through expanded options, while others lack the money, time, or institutional alternatives required to simplify their lives.",
+      "source_url": "https://www.wppmedia.com/news/trendseminar-2026-whitepaper",
+      "retrieval_hash": "sha256:8d1352dae9324470250bbb5514aa647be506a5f0a2bc40c0272b2ac26c1c93ab",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Zillennial Squeeze",
+      "denominator": {"value": 1, "unit": "named life-stage trend", "value_type": "reported_trend_frame"},
+      "measures": {
+        "attainable_goals": {"value": "Zillennials are described as downscaling conventional adulthood goals toward more attainable definitions of meaning and success", "unit": "reported generational pattern", "value_type": "reported_trend"},
+        "wellbeing_balance": {"value": "Mental well-being and balance are presented as more important than unobtainable conventional ideals", "unit": "reported value orientation", "value_type": "reported_orientation"},
+        "consumption_implication": {"value": "The implied demand shifts from status-signaling aspiration toward products and services that support a workable, balanced life", "unit": "bounded commercial implication", "value_type": "bounded_mechanism"}
+      },
+      "method": "WPP Media trend interpretation of generational expectations, adulthood, mental well-being, and consumer positioning.",
+      "uncertainty": "The source does not define a representative Zillennial sample, quantify the trend, or separate age, cohort, income, housing, and macroeconomic effects.",
+      "subgroup": "Younger adults navigating adulthood, housing, work, relationships, financial pressure, mental health, and competing social expectations.",
+      "counterinterpretation": "Downscaling may reflect constrained opportunity rather than a freely chosen cultural revaluation; balance language can also conceal unmet material needs.",
+      "source_url": "https://www.wppmedia.com/news/trendseminar-2026-whitepaper",
+      "retrieval_hash": "sha256:8d1352dae9324470250bbb5514aa647be506a5f0a2bc40c0272b2ac26c1c93ab",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Lead Me-Lifestyle",
+      "denominator": {"value": 1, "unit": "named decision-support trend", "value_type": "reported_trend_frame"},
+      "measures": {
+        "trusted_curators": {"value": "Overwhelmed consumers are described as turning to influencers, experts, or smart algorithms to guide choices", "unit": "reported consumer route", "value_type": "reported_behavioral_route"},
+        "outsourced_decisions": {"value": "The appeal is framed as outsourcing small decisions in order to recover mental surplus", "unit": "reported mechanism", "value_type": "reported_mechanism"},
+        "trust_condition": {"value": "Guidance becomes valuable when the curator or algorithm is trusted to simplify rather than add uncertainty or manipulation", "unit": "bounded trust mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "WPP Media foresight interpretation connecting mental overload, influencers, experts, algorithms, and brand guidance.",
+      "uncertainty": "The source does not measure actual delegation, algorithmic dependence, trust, or whether reduced decision effort improves welfare or consumer autonomy.",
+      "subgroup": "Consumers facing high choice volume across commerce, media, services, and lifestyle decisions; platforms, creators, experts, and recommendation systems that mediate those choices.",
+      "counterinterpretation": "Delegating choices can reduce friction but increase platform dependence, narrow discovery, obscure incentives, and weaken recourse when recommendations fail.",
+      "source_url": "https://www.wppmedia.com/news/trendseminar-2026-whitepaper",
+      "retrieval_hash": "sha256:8d1352dae9324470250bbb5514aa647be506a5f0a2bc40c0272b2ac26c1c93ab",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Status Redefined",
+      "denominator": {"value": 1, "unit": "named status-and-consumption trend", "value_type": "reported_trend_frame"},
+      "measures": {
+        "new_status": {"value": "Status is described as shifting away from conspicuous luxury toward freedom, time, control, and inner peace", "unit": "reported cultural revaluation", "value_type": "reported_trend"},
+        "contextual_status": {"value": "The source names a subtler, context-dependent form of status tied to a well-functioning personal ecosystem and self-optimization", "unit": "reported status framework", "value_type": "reported_framework"},
+        "time_control": {"value": "Time sovereignty and control over daily life are treated as scarce forms of value", "unit": "reported consumer value orientation", "value_type": "reported_orientation"}
+      },
+      "method": "WPP Media cultural and consumer foresight synthesis on luxury, status signals, personal ecosystems, and self-optimization.",
+      "uncertainty": "The trend language does not establish that visible luxury is declining across populations or markets, nor that consumers have equal access to time, control, or self-optimization.",
+      "subgroup": "Consumers with different incomes, social positions, time constraints, and access to services that can make daily life more predictable or flexible.",
+      "counterinterpretation": "Traditional status consumption may coexist with quieter forms of status; the ability to buy time and control can itself remain highly class-stratified.",
+      "source_url": "https://www.wppmedia.com/news/trendseminar-2026-whitepaper",
+      "retrieval_hash": "sha256:8d1352dae9324470250bbb5514aa647be506a5f0a2bc40c0272b2ac26c1c93ab",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wppmedia.com/thought-leadership/this-year-next-year/midyear-2026", "claim": "Complementary WPP Media 2026 forecast on AI-mediated advertising, social-platform time, generative search, commerce, and changing media economics.", "status": "official-context"}
+  ],
+  "boundary": "This record adds a Nordic commercial-foresight layer on mental scarcity, life-stage pressure, guided choice, and time/control as consumer value. It is not respondent-level data, a representative Nordic or global survey, a causal account of well-being, proof of declining luxury consumption, or evidence that algorithmic guidance preserves consumer autonomy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WPP Media public overview reviewed for the four named 2026 consumer trends, mental-scarcity framing, Zillennial Squeeze, Lead Me-Lifestyle, and Status Redefined.",
+    "source_url_sha256": "sha256:8d1352dae9324470250bbb5514aa647be506a5f0a2bc40c0272b2ac26c1c93ab",
+    "checked": "2026-09-28"
+  }
+}

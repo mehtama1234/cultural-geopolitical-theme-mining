@@ -1,0 +1,167 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-uk-open-banking-limited-2026-api-payments-users-fraud",
+  "title": "UK open banking has moved into routine payment scale while fraud exposure remains concentrated in authorised scams",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "time"
+  ],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Open Banking Limited, 1 Billion Payments and Counting for UK Open Banking (21 September 2026) and Open Banking Payments Fraud Monitor, June 2026 Edition (8 July 2026)",
+  "geography": "United Kingdom",
+  "observations": [
+    {
+      "period": "August 2025-July 2026; open-banking payment and API activity",
+      "denominator": {
+        "value": null,
+        "unit": "UK Open Banking ecosystem; aggregate API calls, payments, and user connections rather than a person-level panel",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "annual_payment_volume_change": {
+          "value": 45,
+          "unit": "percent year over year for open-banking payments",
+          "value_type": "reported_change"
+        },
+        "july_2026_api_calls": {
+          "value": 2940000000,
+          "unit": "monthly API calls",
+          "value_type": "reported_volume"
+        },
+        "api_traffic_account_information_services": {
+          "value": 80,
+          "unit": "percent of API traffic",
+          "value_type": "reported_share"
+        },
+        "payment_initiation_api_volume_change": {
+          "value": 44,
+          "unit": "percent year over year",
+          "value_type": "reported_change"
+        },
+        "active_user_connections": {
+          "value": 19000000,
+          "unit": "more than 19 million active user connections per month; connections are not unique people",
+          "value_type": "reported_ecosystem_count"
+        },
+        "mechanism": {
+          "value": "Open banking has shifted from an emerging capability into repeated payment, account-information, identity, onboarding, and affordability infrastructure; payment activity is growing faster than a simple account-linking story would imply",
+          "unit": "bounded observed-adoption mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "OBL data-science article reporting aggregate ecosystem performance through July 2026; the publisher is an ecosystem body and the data are not a representative consumer panel.",
+      "uncertainty": "API calls, payments, and connections can include repeat activity and cannot identify unique users, household benefit, switching, payment value, or distributional access. The article does not publish provider-level microdata.",
+      "subgroup": "UK consumers and businesses using account-information, payment-initiation, identity-verification, onboarding, affordability, and related open-banking services.",
+      "counterinterpretation": "Growth can reflect merchant integration and repeated automated use rather than deeper consumer trust, improved welfare, or broad access; payment volume can rise while remedy or fraud exposure worsens.",
+      "source_url": "https://www.openbanking.org.uk/insights/1-billion-payments-and-counting-for-uk-open-banking/",
+      "retrieval_hash": "sha256:4b403256ccb58a7cd7e687868ac423ed73f032291ed0a7866304d7c37df1db56",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; cumulative and monthly payment milestones",
+      "denominator": {
+        "value": null,
+        "unit": "UK Open Banking payment ecosystem since inception; cumulative totals are not unique users or households",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "cumulative_payments": {
+          "value": 1000000000,
+          "unit": "more than 1 billion payments since inception by June 2026",
+          "value_type": "reported_cumulative_volume"
+        },
+        "monthly_payments_may_2026": {
+          "value": 40000000,
+          "unit": "more than 40 million payments in May 2026",
+          "value_type": "reported_monthly_volume"
+        },
+        "cumulative_api_calls": {
+          "value": 100000000000,
+          "unit": "more than 100 billion API calls since inception by June 2026",
+          "value_type": "reported_cumulative_volume"
+        },
+        "mechanism": {
+          "value": "The payment rail is becoming an everyday route embedded in customer journeys, but scale alone does not reveal whether users are saving money, switching providers, or receiving effective protection",
+          "unit": "bounded infrastructure-to-consumer mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "OBL aggregate milestones reported in its September 2026 article.",
+      "uncertainty": "The source does not disclose payment value, merchant/category composition, repeat-user concentration, failed payments, reimbursement, or consumer outcomes.",
+      "subgroup": "Users and businesses participating in UK open-banking payment journeys.",
+      "counterinterpretation": "Milestone counts may overstate breadth if a relatively small group or automated service generates repeated transactions.",
+      "source_url": "https://www.openbanking.org.uk/insights/1-billion-payments-and-counting-for-uk-open-banking/",
+      "retrieval_hash": "sha256:4b403256ccb58a7cd7e687868ac423ed73f032291ed0a7866304d7c37df1db56",
+      "status": "reported"
+    },
+    {
+      "period": "2025 and Q1 2026; fraud in open-banking payment journeys",
+      "denominator": {
+        "value": null,
+        "unit": "Open-banking payment fraud data from account providers representing more than 60% of open-banking payment volume; comparison is wider UK payments industry",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "open_banking_fraud_rate_2025": {
+          "value": 0.0001666667,
+          "unit": "approximately one fraudulent payment per 6,000 open-banking payments",
+          "value_type": "reported_rate"
+        },
+        "wider_industry_fraud_rate_2025": {
+          "value": 0.0004,
+          "unit": "approximately one fraudulent payment per 2,500 payments across the wider payments industry",
+          "value_type": "reported_rate"
+        },
+        "app_fraud_share": {
+          "value": 66.7,
+          "unit": "more than two-thirds of reported open-banking fraud cases",
+          "value_type": "reported_lower_bound"
+        },
+        "fraud_pattern_q1_2026": {
+          "value": "Fraud volumes increased from the unusually low Q1 2025 level while open-banking payment volumes continued to grow",
+          "unit": "reported time pattern",
+          "value_type": "reported_pattern"
+        },
+        "mechanism": {
+          "value": "Observed fraud exposure is concentrated in authorised push-payment journeys, so adoption can expand alongside a trust and reimbursement problem that transaction volume alone cannot see",
+          "unit": "bounded adoption-risk mechanism",
+          "value_type": "bounded_mechanism"
+        }
+      },
+      "method": "OBL twice-yearly fraud monitor using data from account providers representing more than 60% of open-banking payment volumes, benchmarked against wider UK payments data; the source reports observational comparisons.",
+      "uncertainty": "The monitor does not establish that open-banking authentication causes lower fraud, and its coverage is incomplete. The reported rate is a payment-level comparison, not victim incidence, loss severity, reimbursement, or household welfare.",
+      "subgroup": "UK open-banking payment users exposed to APP, investment, impersonation, phishing, smishing, fake-refund, and other scam journeys; account providers and payment firms.",
+      "counterinterpretation": "Lower fraud per payment may reflect transaction mix, provider selection, authentication, reporting, or other confounding factors; a lower rate can coexist with severe losses for affected victims.",
+      "source_url": "https://www.openbanking.org.uk/wp-content/uploads/Open-Banking-Payments-and-Fraud-Monitor-June-edition-2026.pdf",
+      "retrieval_hash": "sha256:aa5d9434f33940e92fe2a39d85b047c0c21e16f686345ad7d5338dc15304ee10",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.openbanking.org.uk/",
+      "claim": "Open Banking Limited official ecosystem and standards context.",
+      "status": "official-organization-page"
+    },
+    {
+      "source_url": "https://www.openbanking.org.uk/insights/1-billion-payments-and-counting-for-uk-open-banking/",
+      "claim": "Official OBL growth article with payment, API, and connection measures.",
+      "status": "official-primary"
+    }
+  ],
+  "boundary": "This record adds UK observed digital-finance activity and fraud-risk evidence to the platform, data-portability, and consumer-choice lanes. It does not measure unique people, payment value, switching, savings, trust, reimbursement, causal safety, or distributional access. OBL is an ecosystem body and the two sources are related publisher outputs; they should not be counted as independent population corroboration.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OBL HTML article reviewed for July 2026 API activity, August 2025-July 2026 payment growth, cumulative milestones, service mix, and user connections; official OBL June 2026 fraud-monitor PDF reviewed for provider coverage, fraud-rate comparison, APP concentration, Q1 2026 pattern, and observational limits.",
+    "source_url_sha256": "growth sha256:4b403256ccb58a7cd7e687868ac423ed73f032291ed0a7866304d7c37df1db56; fraud PDF sha256:aa5d9434f33940e92fe2a39d85b047c0c21e16f686345ad7d5338dc15304ee10",
+    "checked": "2026-09-30"
+  }
+}

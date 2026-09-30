@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-chile-enpccl-2024-cultural-participation-time-ses-disability",
+  "title": "Chile’s cultural participation is high in aggregate but sharply constrained by age, socioeconomic status, disability, and time",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Instituto Nacional de Estadísticas de Chile and Ministry of Cultures, Arts and Heritage, National Survey of Cultural Participation and Reading Behavior 2024",
+  "geography": "Chile; urban residents aged 15 and over, with age, socioeconomic, education, disability, sex, and household-composition dimensions",
+  "observations": [
+    {
+      "period": "2024; cultural participation during the previous 12 months",
+      "denominator": {"value": 18500, "unit": "approximately 18,500 selected urban households planned for the ENPCCL fieldwork; published results are weighted population estimates", "value_type": "reported_planned_sample"},
+      "measures": {
+        "any_cultural_participation": {"value": 75.4, "unit": "percent of people aged 15+ participating in at least one cultural activity in the previous 12 months", "value_type": "reported_survey_share"},
+        "women_participation": {"value": 76.6, "unit": "percent among women", "value_type": "reported_subgroup_share"},
+        "men_participation": {"value": 74.1, "unit": "percent among men", "value_type": "reported_subgroup_share"},
+        "young_event_attendance": {"value": 92.6, "unit": "percent of younger people attending cultural shows/events, as reported in the release's age comparison", "value_type": "reported_subgroup_share"},
+        "older_event_attendance": {"value": 40.6, "unit": "percent of older people attending cultural shows/events, as reported in the release's age comparison", "value_type": "reported_subgroup_share"},
+        "high_socioeconomic_participation": {"value": 95.7, "unit": "percent among high socioeconomic-status people", "value_type": "reported_subgroup_share"},
+        "low_socioeconomic_participation": {"value": 65.2, "unit": "percent among low socioeconomic-status people", "value_type": "reported_subgroup_share"},
+        "disability_participation": {"value": 43.6, "unit": "percent among people with a disability status", "value_type": "reported_subgroup_share"},
+        "no_disability_participation": {"value": 78.0, "unit": "percent among people without a disability status", "value_type": "reported_subgroup_share"},
+        "disability_participation_gap": {"value": 34.4, "unit": "percentage-point difference between people without and with disability status", "value_type": "calculated_difference_from_published_table"},
+        "mechanism": {"value": "Aggregate cultural participation conceals a large opportunity gradient: age, socioeconomic resources, education, and disability shape who can convert cultural desire into attendance", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the Chilean ENPCCL 2024 release and results synthesis; subgroup values and the disability gap are published or calculated from published percentages.",
+      "uncertainty": "The survey covers urban areas and uses annual-recall self-reports; the age comparison in the public release refers to cultural shows/events and should not be treated as identical to the aggregate any-activity indicator without consulting the detailed tables.",
+      "subgroup": "Urban residents aged 15 and over in Chile, by age, socioeconomic status, education, sex, and disability status.",
+      "counterinterpretation": "Differences may combine income, transport, health, caregiving, education, cultural supply, household composition, and measurement of what counts as participation; they do not establish a single causal barrier.",
+      "source_url": "https://www.ine.gob.cl/estadisticas-por-tema/sociedad-y-condiciones-de-vida/participacion-cultural-y-comportamiento-lector",
+      "retrieval_hash": "sha256:7674138384e758d4981d480230e93403ffdfad7da5ebd9f4d7dd8aab81115dab",
+      "status": "reported"
+    },
+    {
+      "period": "2024; unmet cultural demand and reading behavior",
+      "denominator": {"value": 18500, "unit": "approximately 18,500 selected urban households planned for the ENPCCL fieldwork; published results are weighted population estimates", "value_type": "reported_planned_sample"},
+      "measures": {
+        "wanted_but_could_not_attend": {"value": 28.7, "unit": "percent of people who wanted to attend a cultural activity or infrastructure but did not during 2024", "value_type": "reported_survey_share"},
+        "time_or_fatigue_reason": {"value": 30.9, "unit": "percent among those with unmet cultural demand identifying lack of time or fatigue", "value_type": "reported_subgroup_share"},
+        "economic_reason": {"value": 20.1, "unit": "percent among those with unmet cultural demand identifying economic reasons", "value_type": "reported_subgroup_share"},
+        "work_or_study_reason": {"value": 15.6, "unit": "percent among those with unmet cultural demand identifying work or study", "value_type": "reported_subgroup_share"},
+        "reading_15_minutes": {"value": 77.7, "unit": "percent reading books, magazines, newspapers, or comics for at least 15 continuous minutes in the previous 12 months", "value_type": "reported_survey_share"},
+        "books_read_for_pleasure": {"value": 5.5, "unit": "average books read for pleasure or leisure in the previous 12 months", "value_type": "reported_survey_average"},
+        "mechanism": {"value": "The hidden price of culture is often time and exhaustion before money: among people who wanted to participate but could not, lack of time/fatigue was the most common reason, ahead of economic barriers", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from the ENPCCL 2024 release; unmet-demand reasons are conditional shares among people reporting a desire to attend but no attendance.",
+      "uncertainty": "Reasons are self-reported and may overlap or reflect multiple constraints; the survey does not establish whether time scarcity arises from paid work, unpaid care, transport, scheduling, health, or household demands.",
+      "subgroup": "Urban residents aged 15 and over in Chile, with unmet cultural demand and reading-practice measures.",
+      "counterinterpretation": "People may report time/fatigue as a convenient explanation for low interest or supply mismatch, and reading is not a direct substitute for live cultural participation.",
+      "source_url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2025/08/18/un-75-4%25-de-las-personas-particip%C3%B3-en-actividades-culturales-al-menos-una-vez-durante-los-%C3%BAltimos-doce-meses",
+      "retrieval_hash": "sha256:1e1b8a3eb0a2c74b9942cae54b7859882c266c49081323499e51c4a736ca75d1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ine.gob.cl/docs/default-source/participacion-cultural-y-comportamiento-lector/publicaciones-y-anuarios/2024/s%C3%ADntesis-de-resultados---enpccl-2024.pdf?sfvrsn=8795f3e8_4", "claim": "Official 67-page ENPCCL 2024 results synthesis containing participation, subgroup, unmet-demand, reading, and methodological details."},
+    {"source_url": "https://www.ine.gob.cl/encuesta-nacional-de-participacion-cultural-y-comportamiento-lector", "claim": "INE Chile survey-design page describing the target population, collection period, approximate sample, and confidentiality."}
+  ],
+  "boundary": "This record adds a Chilean cultural-participation, unmet-demand, time constraint, socioeconomic, disability, and reading layer. It does not establish causal barriers, national rural participation, cultural quality, household spending, or individual-level reasons beyond self-reported survey categories.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "INE Chile data page, release summary, survey-design page, and 67-page results synthesis reviewed; participation, age/SES/disability gradients, unmet-demand reasons, reading measures, urban coverage, sample, and conditional-denominator boundaries checked.",
+    "data_page_html_sha256": "sha256:7674138384e758d4981d480230e93403ffdfad7da5ebd9f4d7dd8aab81115dab",
+    "results_pdf_sha256": "sha256:1e1b8a3eb0a2c74b9942cae54b7859882c266c49081323499e51c4a736ca75d1",
+    "checked": "2026-09-30"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-urban-families-core-suburbs-2026",
+  "title": "Family formation and child retention are becoming a metropolitan geography problem shaped by housing, care, schools and mobility",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Urban Institute research report, Where Do Families Live? Measuring Fertility and Child Migration Across Core Cities and Suburbs in the United States, June 25, 2026",
+  "geography": "United States; 43 major metropolitan areas, comparing core cities, suburbs, exurbs and socioeconomic groups",
+  "observations": [
+    {
+      "period": "2019-2023 ACS; family formation and child retention across metropolitan geographies",
+      "denominator": {"value": 43, "unit": "major U.S. metropolitan areas analyzed", "value_type": "geographic_study_universe"},
+      "measures": {
+        "suburban_fertility": {"value": 58, "unit": "general fertility rate in suburbs and exurbs, compared with 52 in core cities", "value_type": "reported_rate"},
+        "suburban_child_retention": {"value": 1.18, "unit": "child retention score in suburbs and exurbs, compared with 1.01 in core cities", "value_type": "reported_index"},
+        "geographic_variation": {"value": "some core cities outperform suburbs on family outcomes", "unit": "reported cross-metro pattern", "value_type": "reported_assessment"}
+      },
+      "method": "Urban analysis of American Community Survey microdata at the Public Use Microdata Area level, using fertility, child-retention and child-population metrics across core and suburban geographies.",
+      "uncertainty": "The reported averages conceal substantial metro-level variation, and the study's regression relationships are controlled correlations rather than causal estimates.",
+      "subgroup": "Core-city, suburban and exurban residents across 43 major metropolitan areas.",
+      "counterinterpretation": "Higher suburban rates do not mean families uniformly prefer suburbs; housing supply, selection, affordability, schools, commute patterns and migration constraints may jointly produce the observed distribution.",
+      "source_url": "https://www.urban.org/research/publication/where-do-families-live",
+      "retrieval_hash": "sha256:47d9f0fc6a02b9598c56dcb79aaa1ca4d5ad61ba21f485d12b2b808d09dc8919",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2023 ACS; distinct local mechanisms for fertility and child retention",
+      "denominator": {"value": 43, "unit": "major metropolitan areas with neighborhood and place-level covariates", "value_type": "geographic_study_universe"},
+      "measures": {
+        "family_sized_housing": {"value": "strongly associated with retaining families with older children", "unit": "reported controlled correlation", "value_type": "reported_association"},
+        "child_care_density": {"value": "strongly associated with retaining families with older children and more central to suburban family outcomes", "unit": "reported controlled correlation", "value_type": "reported_association"},
+        "young_adult_oriented_amenities": {"value": "fertility is negatively associated with features such as bar density and influx of young adults", "unit": "reported controlled correlation", "value_type": "reported_association"}
+      },
+      "method": "Regression analysis pairing fertility and child-retention measures with housing, amenities, opportunity and neighborhood data.",
+      "uncertainty": "The publication identifies correlates, not intervention effects; amenity measures may also proxy for unobserved prices, household composition or labor-market sorting.",
+      "subgroup": "Families with children, childless couples, young adults and neighborhoods across core and suburban settings.",
+      "counterinterpretation": "Amenities associated with young adults may coexist with family-supportive resources; the negative association should not be read as a simple cultural conflict between generations.",
+      "source_url": "https://www.urban.org/research/publication/where-do-families-live",
+      "retrieval_hash": "sha256:47d9f0fc6a02b9598c56dcb79aaa1ca4d5ad61ba21f485d12b2b808d09dc8919",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2023 ACS; different place-based conditions in core cities and suburbs",
+      "denominator": {"value": 2, "unit": "primary metropolitan geography types compared by the study", "value_type": "analytic_comparison_denominator"},
+      "measures": {
+        "core_city_conditions": {"value": "education quality and commute patterns are more strongly linked to family outcomes in core cities", "unit": "reported geography-specific association", "value_type": "reported_association"},
+        "suburban_conditions": {"value": "child-care availability plays a larger role in suburban family outcomes", "unit": "reported geography-specific association", "value_type": "reported_association"},
+        "college_educated_share": {"value": "share of college-educated residents is negatively associated with fertility and retention in core cities but not suburbs", "unit": "reported geography-specific association", "value_type": "reported_association"}
+      },
+      "method": "Separate core-city and suburban comparisons using place-level covariates and regression analysis.",
+      "uncertainty": "These patterns do not identify whether education, commute, child care or resident composition is the operative mechanism; geographic categories also simplify heterogeneous neighborhoods.",
+      "subgroup": "Families and neighborhoods in core cities versus suburbs, with differences by education and labor-market context.",
+      "counterinterpretation": "A single family-friendly policy template may fail because the binding constraint differs by geography and life stage.",
+      "source_url": "https://www.urban.org/research/publication/where-do-families-live",
+      "retrieval_hash": "sha256:47d9f0fc6a02b9598c56dcb79aaa1ca4d5ad61ba21f485d12b2b808d09dc8919",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2023 ACS; socioeconomic constraint and family-place choice",
+      "denominator": {"value": 2, "unit": "high- and low-socioeconomic-status groups compared by the study", "value_type": "analytic_comparison_denominator"},
+      "measures": {
+        "high_SES_response": {"value": "high-SES families' location decisions are strongly shaped by housing, schools and amenities", "unit": "reported qualitative pattern", "value_type": "reported_assessment"},
+        "low_SES_response": {"value": "low-SES families show weaker responses to those local features", "unit": "reported qualitative pattern", "value_type": "reported_assessment"},
+        "constraint_interpretation": {"value": "the pattern suggests low-SES families have less ability to access family-friendly environments", "unit": "reported interpretation", "value_type": "reported_inference"}
+      },
+      "method": "Socioeconomic-stratified analysis of family formation and child retention linked to neighborhood housing, education, care and opportunity conditions.",
+      "uncertainty": "Weaker observed responsiveness may reflect constrained choice, measurement limits, different preferences, or other unobserved barriers; it is not direct evidence of motivation or preference.",
+      "subgroup": "Higher- and lower-socioeconomic-status families across metropolitan neighborhoods.",
+      "counterinterpretation": "Improving amenities alone may not equalize family options if prices, credit, transportation, school access, discrimination or work schedules prevent households from reaching them.",
+      "source_url": "https://www.urban.org/research/publication/where-do-families-live",
+      "retrieval_hash": "sha256:47d9f0fc6a02b9598c56dcb79aaa1ca4d5ad61ba21f485d12b2b808d09dc8919",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record treats fertility, child retention and family migration as linked to metropolitan housing, care, schooling, commute, amenities and socioeconomic constraint. It does not establish causal effects, define an ideal urban form, measure individual preferences, or imply that suburbanization alone explains demographic change."
+}

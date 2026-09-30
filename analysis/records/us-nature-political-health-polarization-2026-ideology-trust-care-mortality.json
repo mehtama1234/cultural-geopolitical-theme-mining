@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nature-political-health-polarization-2026-ideology-trust-care-mortality",
+  "title": "Political identity is emerging as a health determinant through trust, care engagement, and mortality divergence",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "time_hidden_price"
+  ],
+  "source_unit": "Nature Human Behaviour article by Elizabeth Elder and Neil A. O’Brian (2026); Add Health longitudinal medical, biomarker, and death-record analysis plus an original medical-engagement survey (N=21,751)",
+  "geography": "United States; nationally representative longitudinal cohort and a separately weighted online opinion sample",
+  "observations": [
+    {
+      "period": "Before the 2010s through 2020–2022; political divergence in health and mortality",
+      "denominator": {"value": 1, "unit": "reported comparison between self-identified liberal and conservative Americans in the Add Health cohort", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "health_and_mortality_gap": {"value": "no significant gap before the 2010s; worse health and higher mortality among conservatives during the 2010s and by the 2020s", "unit": "reported longitudinal comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Individual-level medical data and death records from Add Health, including repeated political-orientation measures and National Death Index follow-up through 2022.",
+      "uncertainty": "The study is observational and uses self-reported liberal–conservative placement rather than a directly usable party-identification or vote-choice measure; mortality is rare in this relatively young cohort.",
+      "subgroup": "Add Health participants born predominantly between 1977 and 1982; comparisons use self-identified political orientation.",
+      "counterinterpretation": "Cohort composition, geography, occupation, education, institutional context, health selection, and unmeasured factors may contribute to the divergence; the result does not show that ideology alone causes mortality.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13388103/",
+      "retrieval_hash": "sha256:3cc8e3fabacbb820e0eb20623a7fb7cd3fb6e61230f2ef84ea242da5bb1a9292",
+      "status": "reported"
+    },
+    {
+      "period": "2008–2009 and 2016–2018; individual health measurement",
+      "denominator": {"value": 1, "unit": "Add Health longitudinal comparison universe", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "medical_and_biomarker_scope": {"value": "body mass index, lipids/cholesterol, HbA1c, blood pressure, C-reactive protein, and vital status", "unit": "five biomarkers plus National Death Index linkage", "value_type": "reported_scope"}
+      },
+      "method": "In-home clinical measurements in Add Health waves 4 and 5, with death-record linkage through 2022.",
+      "uncertainty": "The measures improve on purely ecological comparisons but do not establish the causal pathway from political identity to biological change or death.",
+      "subgroup": "Mostly adults aged roughly 40–45 by 2021–2022 in the wave 5 cohort.",
+      "counterinterpretation": "Observed biomarkers and mortality can reflect accumulated social, economic, geographic, behavioral, and institutional exposures that correlate with political orientation.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13388103/",
+      "retrieval_hash": "sha256:3cc8e3fabacbb820e0eb20623a7fb7cd3fb6e61230f2ef84ea242da5bb1a9292",
+      "status": "reported"
+    },
+    {
+      "period": "2020s; explanations for widening mortality differences",
+      "denominator": {"value": 1, "unit": "authors’ explanation assessment", "value_type": "source_defined_estimate_universe"},
+      "measures": {
+        "explanatory_boundary": {"value": "demographic realignment explains some of the gap, but demographic change, public policy, and COVID-19 do not fully account for the widening mortality difference", "unit": "reported interpretation", "value_type": "reported_interpretation"}
+      },
+      "method": "Longitudinal comparisons and additional analyses described in the peer-reviewed article.",
+      "uncertainty": "This is an interpretation of the evidence, not a complete causal decomposition; remaining explanations may include selection, local context, behavior, and institutional trust.",
+      "subgroup": "U.S. adults in the Add Health comparison universe.",
+      "counterinterpretation": "Residual confounding and period/cohort effects may account for some of the remaining association; the article does not identify a single sufficient mechanism.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13388103/",
+      "retrieval_hash": "sha256:3cc8e3fabacbb820e0eb20623a7fb7cd3fb6e61230f2ef84ea242da5bb1a9292",
+      "status": "reported"
+    },
+    {
+      "period": "Contemporary survey; political differences in medical engagement",
+      "denominator": {"value": 21751, "unit": "respondents in the original online survey, weighted to approximate national demographics", "value_type": "reported_sample_size"},
+      "measures": {
+        "medical_trust_and_engagement": {"value": "right-leaning individuals show lower willingness to seek care, follow clinical advice, and believe medication is effective, including for issues unrelated to COVID-19", "unit": "reported ideological comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Original online survey measuring willingness to engage with the medical system, analyzed against ideology, partisanship, and vote choice.",
+      "uncertainty": "The survey is cross-sectional and was fielded after the Add Health outcome period, so it cannot directly test trust as the cause of the historical mortality divergence; the authors describe the mechanism as evidence-consistent, not proven causal.",
+      "subgroup": "Contemporary U.S. survey respondents, weighted to approximate national demographics.",
+      "counterinterpretation": "Differences may reflect broader institutional distrust, healthcare access, experiences of treatment, media environments, or political sorting rather than ideology operating independently.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13388103/",
+      "retrieval_hash": "sha256:3cc8e3fabacbb820e0eb20623a7fb7cd3fb6e61230f2ef84ea242da5bb1a9292",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1038/s41562-026-02474-9", "claim": "Publisher DOI for the peer-reviewed Nature Human Behaviour article.", "status": "primary-publication"},
+    {"source_url": "https://pubmed.ncbi.nlm.nih.gov/42135444/", "claim": "PubMed bibliographic record for the article.", "status": "bibliographic-context"}
+  ],
+  "boundary": "This record identifies a U.S. trend in which political identity may be becoming a social determinant of health through trust and medical-care engagement. It does not establish that ideology causes mortality, that one party’s beliefs determine health, or that trust is the sole explanation for the observed divergence.",
+  "retrieval_hash": "sha256:3cc8e3fabacbb820e0eb20623a7fb7cd3fb6e61230f2ef84ea242da5bb1a9292"
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ons-public-opinions-social-trends-great-britain-june-2026-cost-ai-trust",
+  "title": "Cost pressure and public-service concern remain dominant while AI optimism fragments around convenience, trust, and risk",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "Office for National Statistics, Public opinions and social trends, Great Britain: June 2026",
+  "geography": "Great Britain adults, Opinions and Lifestyle Survey data collected 3-28 June 2026",
+  "observations": [
+    {
+      "period": "3-28 June 2026; issues facing Great Britain",
+      "denominator": {"value": 1, "unit": "Great Britain adult issue-selection question frame", "value_type": "published_question_frame"},
+      "measures": {
+        "cost_of_living_issue": {"value": 88, "unit": "percent reporting cost of living as an important issue facing the UK", "value_type": "reported_share"},
+        "nhs_issue": {"value": 78, "unit": "percent reporting the NHS as an important issue", "value_type": "reported_share"},
+        "economy_issue": {"value": 70, "unit": "percent reporting the economy as an important issue", "value_type": "reported_share"},
+        "other_pressure_surface": {"value": "crime 61%, immigration 59%, employment 54%, climate and environment 53%, and housing 52%", "unit": "reported issue shares", "value_type": "reported_issue_set"}
+      },
+      "method": "ONS Opinions and Lifestyle Survey multiple-response question on issues facing the UK; respondents could select more than one option.",
+      "uncertainty": "The issue shares are perceptions at one field period, are not mutually exclusive, and do not measure objective exposure, policy causation, or priority ranking beyond the question wording.",
+      "subgroup": "Adults in Great Britain, with age and other subgroup comparisons where published.",
+      "counterinterpretation": "High issue salience can reflect attention, media coverage, or political interpretation as well as direct household experience; multiple concerns can coexist without a single common cause.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+      "retrieval_hash": "sha256:b20ca61129efbcbe29e6778898929c2f91e11882b0f694b1d43825e2e628f4cb",
+      "status": "reported"
+    },
+    {
+      "period": "3-28 June 2026; perceived personal benefit from AI",
+      "denominator": {"value": 1, "unit": "Great Britain adult AI-benefit question frame", "value_type": "published_question_frame"},
+      "measures": {
+        "ai_benefit_agree": {"value": 36, "unit": "percent agreeing or strongly agreeing that AI will benefit them", "value_type": "reported_share"},
+        "ai_neutral": {"value": 37, "unit": "percent neither agreeing nor disagreeing", "value_type": "reported_share"},
+        "ai_benefit_disagree": {"value": 27, "unit": "percent disagreeing or strongly disagreeing that AI will benefit them", "value_type": "reported_share"},
+        "younger_adult_benefit": {"value": "47% among ages 16-29 and 45% among ages 30-49 agreed or strongly agreed", "unit": "reported age-group comparison", "value_type": "reported_subgroup_comparison"}
+      },
+      "method": "ONS Opinions and Lifestyle Survey question on whether artificial intelligence will benefit respondents; estimates are compared with earlier ONS waves.",
+      "uncertainty": "The question captures perceived personal benefit, not actual adoption, productivity, job quality, consumer outcomes, or long-run welfare; the AI definition has changed slightly over time.",
+      "subgroup": "Great Britain adults, especially age groups 16-29, 30-49, and older adults.",
+      "counterinterpretation": "Uncertainty or neutrality may represent lack of information rather than opposition; perceived benefit can coexist with concern about institutions, work, data, or news.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+      "retrieval_hash": "sha256:b20ca61129efbcbe29e6778898929c2f91e11882b0f694b1d43825e2e628f4cb",
+      "status": "reported"
+    },
+    {
+      "period": "3-28 June 2026; perceived positive uses of AI",
+      "denominator": {"value": 1, "unit": "Great Britain adult AI-positive-impact question frame", "value_type": "published_question_frame"},
+      "measures": {
+        "learning_access": {"value": 29, "unit": "percent reporting improved access to learning or education as a possible positive impact", "value_type": "reported_share"},
+        "job_easier": {"value": 25, "unit": "percent reporting making their job easier as a possible positive impact", "value_type": "reported_share"},
+        "household_tasks_easier": {"value": 21, "unit": "percent reporting making household tasks easier as a possible positive impact", "value_type": "reported_share"},
+        "no_positive_impact": {"value": 41, "unit": "percent saying AI could not have a positive impact on their lives", "value_type": "reported_share"}
+      },
+      "method": "ONS multiple-response question on possible positive impacts of AI in respondents' lives.",
+      "uncertainty": "These are anticipated uses rather than observed behavior or delivered benefits; categories can overlap and do not measure access, quality, time saved, or distribution of gains.",
+      "subgroup": "Great Britain adults considering AI effects on education, paid work, and household tasks.",
+      "counterinterpretation": "Low reported benefit may reflect unfamiliarity or limited access; convenience gains can also increase expectations, surveillance, workload, or dependence on platforms.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+      "retrieval_hash": "sha256:b20ca61129efbcbe29e6778898929c2f91e11882b0f694b1d43825e2e628f4cb",
+      "status": "reported"
+    },
+    {
+      "period": "3-28 June 2026; perceived AI risks and information trust",
+      "denominator": {"value": 1, "unit": "Great Britain adult AI-risk question frame", "value_type": "published_question_frame"},
+      "measures": {
+        "more_risks_than_benefits": {"value": 38, "unit": "percent saying AI brings more risks than benefits", "value_type": "reported_share"},
+        "more_benefits_than_risks": {"value": 13, "unit": "percent saying AI brings more benefits than risks", "value_type": "reported_share"},
+        "fake_information_risk": {"value": 81, "unit": "percent reporting difficulty telling whether news or information is fake as a negative AI impact", "value_type": "reported_share"},
+        "personal_data_risk": {"value": 77, "unit": "percent reporting use of personal data without consent as a negative AI impact", "value_type": "reported_share"},
+        "cybercrime_risk": {"value": 63, "unit": "percent reporting increased chances of experiencing cybercrime as a negative AI impact", "value_type": "reported_share"}
+      },
+      "method": "ONS questions on relative AI risks and benefits and possible negative impacts, using the June 2026 Opinions and Lifestyle Survey frame.",
+      "uncertainty": "Risk perceptions are not incident rates or verified harms; the measures do not identify which systems cause concern, whether concerns change behavior, or whether safeguards reduce perceived risk.",
+      "subgroup": "Great Britain adults concerned about information authenticity, data consent, cybercrime, and AI governance.",
+      "counterinterpretation": "High concern can indicate demand for trustworthy design and regulation rather than rejection of AI; perceived risk may rise as public awareness improves.",
+      "source_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/june2026",
+      "retrieval_hash": "sha256:b20ca61129efbcbe29e6778898929c2f91e11882b0f694b1d43825e2e628f4cb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-chapter-2/", "claim": "WEF Global Risks Report 2026 provides complementary global evidence on misinformation, AI trust, and societal polarization."},
+    {"source_url": "https://www.oecd.org/en/publications/the-oecd-going-digital-measurement-roadmap-2026_b455e132-en.html", "claim": "OECD Going Digital Measurement Roadmap 2026 provides complementary measurement and wellbeing context for digital transformation."}
+  ],
+  "boundary": "This record adds an official public-sentiment route connecting cost-of-living and public-service salience with AI expectations, household convenience, information authenticity, privacy, and cyber-risk. It retains ONS findings as aggregate perception measures, not respondent-level predictions, objective incident rates, causal technology effects, or proof that perceived benefits or risks determine adoption and political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ONS June 2026 bulletin was retrieved and reviewed for issue salience, AI-benefit expectations, positive-use categories, risk-benefit balance, and negative-impact perceptions.",
+    "source_url_sha256": "sha256:b20ca61129efbcbe29e6778898929c2f91e11882b0f694b1d43825e2e628f4cb",
+    "checked": "2026-09-26"
+  }
+}

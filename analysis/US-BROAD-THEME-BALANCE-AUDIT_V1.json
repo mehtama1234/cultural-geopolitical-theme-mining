@@ -1,113 +1,113 @@
 {
-  "checked": "2026-09-26",
-  "record_count": 1013,
+  "checked": "2026-09-30",
+  "record_count": 1978,
   "theme_count": 14,
   "rows": [
     {
       "rank_by_record_density": 1,
-      "theme_id": "platforms_data_attention",
-      "theme": "Platforms, data, and attention",
-      "records": 123,
-      "observations": 294
+      "theme_id": "consumer_power_recourse",
+      "theme": "Consumer power and recourse",
+      "records": 359,
+      "observations": 1060
     },
     {
       "rank_by_record_density": 2,
       "theme_id": "time_hidden_price",
       "theme": "Time, care, and social reproduction",
-      "records": 172,
-      "observations": 434
+      "records": 364,
+      "observations": 1123
     },
     {
       "rank_by_record_density": 3,
-      "theme_id": "consumer_power_recourse",
-      "theme": "Consumer power and recourse",
-      "records": 185,
-      "observations": 427
+      "theme_id": "platforms_data_attention",
+      "theme": "Platforms, data, and attention",
+      "records": 367,
+      "observations": 1217
     },
     {
       "rank_by_record_density": 4,
       "theme_id": "housing_place_mobility",
       "theme": "Housing, place, and mobility",
-      "records": 225,
-      "observations": 531
+      "records": 454,
+      "observations": 1383
     },
     {
       "rank_by_record_density": 5,
       "theme_id": "geopolitical_state_consequences",
       "theme": "Geopolitical and state consequences",
-      "records": 261,
-      "observations": 632
+      "records": 589,
+      "observations": 1908
     },
     {
       "rank_by_record_density": 6,
       "theme_id": "care_health_reproduction",
       "theme": "Care, health, and reproduction",
-      "records": 295,
-      "observations": 758
+      "records": 639,
+      "observations": 2101
     },
     {
       "rank_by_record_density": 7,
       "theme_id": "work_control_bargaining",
       "theme": "Work, control, and bargaining",
-      "records": 308,
-      "observations": 769
+      "records": 684,
+      "observations": 2186
     },
     {
       "rank_by_record_density": 8,
-      "theme_id": "infrastructure_technology_dependency",
-      "theme": "Infrastructure, technology, and dependency",
-      "records": 315,
-      "observations": 693
+      "theme_id": "firm_sector_market_power",
+      "theme": "Firm, sector, and market power",
+      "records": 710,
+      "observations": 2054
     },
     {
       "rank_by_record_density": 9,
       "theme_id": "political_judgment_action",
       "theme": "Political judgment and collective action",
-      "records": 378,
-      "observations": 901
+      "records": 777,
+      "observations": 2409
     },
     {
       "rank_by_record_density": 10,
-      "theme_id": "firm_sector_market_power",
-      "theme": "Firm, sector, and market power",
-      "records": 429,
-      "observations": 1000
+      "theme_id": "infrastructure_technology_dependency",
+      "theme": "Infrastructure, technology, and dependency",
+      "records": 781,
+      "observations": 2442
     },
     {
       "rank_by_record_density": 11,
-      "theme_id": "trust_identity_meaning",
-      "theme": "Trust, identity, and meaning",
-      "records": 550,
-      "observations": 1158
+      "theme_id": "household_room_consumption",
+      "theme": "Household room and consumption",
+      "records": 1215,
+      "observations": 3786
     },
     {
       "rank_by_record_density": 12,
-      "theme_id": "household_room_consumption",
-      "theme": "Household room and consumption",
-      "records": 557,
-      "observations": 1357
+      "theme_id": "trust_identity_meaning",
+      "theme": "Trust, identity, and meaning",
+      "records": 1219,
+      "observations": 3623
     },
     {
       "rank_by_record_density": 13,
       "theme_id": "public_systems_feedback",
       "theme": "Public systems and policy feedback",
-      "records": 696,
-      "observations": 1523
+      "records": 1456,
+      "observations": 4421
     },
     {
       "rank_by_record_density": 14,
       "theme_id": "unequal_exposure_status",
       "theme": "Unequal exposure and status",
-      "records": 805,
-      "observations": 1860
+      "records": 1721,
+      "observations": 5270
     }
   ],
   "interpretation": {
     "purpose": "coverage-balance control, not a quality or causal-strength score",
     "lowest_density_themes": [
-      "platforms_data_attention",
+      "consumer_power_recourse",
       "time_hidden_price",
-      "consumer_power_recourse"
+      "platforms_data_attention"
     ],
     "next_rotation_rule": "prioritize a distinct unit or conversion stage in a low-density theme; do not add another aggregate endpoint merely to equalize counts"
   }

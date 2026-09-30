@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-australia-accc-consumer-data-right-data-quality-2026-switching-usability",
+  "title": "Data portability creates consumer choice only when shared data is accurate, comparable, timely, and usable",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Australian Competition and Consumer Commission, Data quality in the Consumer Data Right: Observations from the 2026 Data Quality Survey, September 2026",
+  "geography": "Australia; Consumer Data Right ecosystem across banking, energy, and newly designated non-bank lending sectors",
+  "observations": [
+    {
+      "period": "April-July 2026; Consumer Data Right data quality and active use",
+      "denominator": {"value": 16, "unit": "ACCC survey respondents from data holders, accredited data recipients, CDR representatives, and third-party service providers", "value_type": "reported_survey_sample"},
+      "measures": {
+        "active_users": {"value": 1300000, "unit": "Australians using the Consumer Data Right as of July 2026", "value_type": "reported_user_count"},
+        "consumer_data_quality": {"value": 3.5, "unit": "average rating on a 1-to-5 scale for overall consumer-data quality", "value_type": "reported_survey_average"},
+        "consumer_data_change": {"value": 3.0, "unit": "average rating on a 1-to-5 scale for change in consumer-data quality over the prior 12 months", "value_type": "reported_survey_average"},
+        "resolution_experience": {"value": 3.1, "unit": "average rating on a 1-to-5 scale for resolving consumer-data quality issues", "value_type": "reported_survey_average"},
+        "mechanism": {"value": "formal data portability can support active use at scale, but the choice and service value promised by the system depend on data being accurate, complete, current, standardized, and resolvable when errors appear", "unit": "bounded data-portability mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ACCC April 2026 stakeholder survey with 16 respondents and follow-up meetings with 7 respondents; descriptive assessment of product and consumer data quality, issue resolution, and regulatory engagement.",
+      "uncertainty": "The sample is small and stakeholder-based rather than a representative survey of consumers or all CDR participants; the 1.3 million user count is an administrative ecosystem figure, and ratings do not establish causal effects on switching, welfare, or adoption.",
+      "subgroup": "Consumers using CDR-enabled services, product-comparison users, small businesses using accounting or reconciliation tools, data holders, accredited recipients, and third-party service providers.",
+      "counterinterpretation": "The CDR may already be delivering meaningful option value despite data defects, and quality may improve as new sectors and compliance routines mature; users may also value services for reasons other than switching.",
+      "source_url": "https://www.accc.gov.au/about-us/publications/serial-publications/the-consumer-data-right-compliance-audits-and-targeted-compliance-reviews/data-quality-in-the-consumer-data-right-observations-from-the-2026-data-quality-survey",
+      "retrieval_hash": "sha256:f31acaed2e9a4ba9e091e00c9c29b4b4f7d7612e42bfe652cb5bc02d075de537",
+      "status": "reported"
+    },
+    {
+      "period": "2026; product comparison, structured data, and switching friction",
+      "denominator": {"value": 16, "unit": "ACCC 2026 data-quality survey respondents", "value_type": "reported_survey_sample"},
+      "measures": {
+        "product_data_quality": {"value": 3.2, "unit": "average rating on a 1-to-5 scale for overall product-data quality", "value_type": "reported_survey_average"},
+        "product_data_change": {"value": 3.5, "unit": "average rating on a 1-to-5 scale for change in product-data quality over the prior 12 months", "value_type": "reported_survey_average"},
+        "issue_resolution": {"value": 3.5, "unit": "average rating on a 1-to-5 scale for raising and resolving product-data quality issues", "value_type": "reported_survey_average"},
+        "reported_failure_modes": {"value": "stale interest-rate fields, incorrect offer categories, invalid links, missing structured fields, contradictory free text, and inconsistent loan-to-value tier presentation", "unit": "reported product-data failure set", "value_type": "reported_failure_set"},
+        "mechanism": {"value": "data that is technically disclosed but stale, inconsistently structured, or difficult to compare creates a hidden switching tax and forces comparison services to build bespoke workarounds", "unit": "bounded consumer-choice mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ACCC stakeholder survey and follow-up evidence on product-data quality, standards implementation, and the operational experience of product-data users.",
+      "uncertainty": "The reported averages do not reveal the share of all products affected, the consumer-level size of any resulting price difference, or whether a workaround ultimately changes a purchase decision.",
+      "subgroup": "Households comparing banking and lending products, product-comparison services, small businesses, data recipients, and data holders with heterogeneous legacy systems.",
+      "counterinterpretation": "Variation may reflect legitimate product differences or permitted implementation flexibility; standardization can also impose costs or reduce useful specificity if designed too rigidly.",
+      "source_url": "https://www.accc.gov.au/about-us/publications/serial-publications/the-consumer-data-right-compliance-audits-and-targeted-compliance-reviews/data-quality-in-the-consumer-data-right-observations-from-the-2026-data-quality-survey",
+      "retrieval_hash": "sha256:f31acaed2e9a4ba9e091e00c9c29b4b4f7d7612e42bfe652cb5bc02d075de537",
+      "status": "reported"
+    },
+    {
+      "period": "2026; data error, institutional responsiveness, and platform legitimacy",
+      "denominator": {"value": 16, "unit": "ACCC 2026 data-quality survey respondents", "value_type": "reported_survey_sample"},
+      "measures": {
+        "resolution_access_gap": {"value": "respondents with access to the CDR Service Management Portal generally reported a more positive resolution experience, while some tickets remained open for more than six months", "unit": "reported issue-resolution pattern", "value_type": "reported_pattern"},
+        "process_friction": {"value": "users without portal access reported no clear escalation path beyond contacting the data holder directly, and respondents reported no mandated resolution timeframe", "unit": "reported governance friction", "value_type": "reported_process_finding"},
+        "small_business_exposure": {"value": "accounting and reconciliation products serving small businesses are particularly dependent on timely alignment between CDR data and other digital channels", "unit": "reported exposure pathway", "value_type": "reported_subgroup_mechanism"},
+        "mechanism": {"value": "consumer-data infrastructure gains legitimacy when errors can be identified, escalated, corrected, and explained within a usable time horizon; access without recourse can leave the formal right intact but the practical service unreliable", "unit": "bounded institutional-legitimacy mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "ACCC qualitative synthesis of survey responses, follow-up meetings, Service Management Portal experience, prior compliance reviews, and proposed enforcement and guidance actions.",
+      "uncertainty": "This is not a case-level resolution-time dataset or causal evaluation of the portal; the report does not show consumer harm incidence, recurrence rates, or whether ACCC actions produce durable remediation.",
+      "subgroup": "Consumers and small businesses relying on data-mediated financial tools, accredited data recipients, data holders, comparison providers, and regulatory or standards bodies.",
+      "counterinterpretation": "Some long resolution times may reflect genuinely complex legacy systems, and direct bilateral resolution may be faster than formal escalation for isolated technical incidents.",
+      "source_url": "https://www.accc.gov.au/about-us/publications/serial-publications/the-consumer-data-right-compliance-audits-and-targeted-compliance-reviews/data-quality-in-the-consumer-data-right-observations-from-the-2026-data-quality-survey",
+      "retrieval_hash": "sha256:f31acaed2e9a4ba9e091e00c9c29b4b4f7d7612e42bfe652cb5bc02d075de537",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.accc.gov.au/consumers/consumer-data-right", "claim": "ACCC overview of the Consumer Data Right and consumer-facing data-sharing framework."},
+    {"source_url": "https://www.cdr.gov.au/", "claim": "Official Consumer Data Right standards, participant, and ecosystem context."}
+  ],
+  "boundary": "This record adds an Australia-specific data-quality-to-choice-and-recourse route. It is a small stakeholder survey and regulatory observation, not a representative consumer study, platform telemetry, incident census, causal estimate, or proof that data portability improves household financial outcomes; the next test is whether repeated data-quality and resolution measures predict actual switching, savings, fraud exposure, small-business productivity, and distributional access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ACCC September 2026 PDF reviewed for the 16-respondent survey frame, 1.3 million active CDR users, product and consumer data ratings, reported failure modes, portal and resolution friction, small-business exposure, and enforcement/guidance response.",
+    "source_url_sha256": "sha256:f31acaed2e9a4ba9e091e00c9c29b4b4f7d7612e42bfe652cb5bc02d075de537",
+    "checked": "2026-09-30"
+  }
+}

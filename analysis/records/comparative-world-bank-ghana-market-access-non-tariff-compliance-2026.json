@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ghana-market-access-non-tariff-compliance-2026",
+  "title": "Ghana’s preferential tariff access shifts export competition toward non-tariff compliance and traceability capacity",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank Policy Research Working Paper 11471, An Analysis of Ghana’s Good Export Market Access",
+  "geography": "Ghanaian exports to seven major destinations: China, European Union, India, South Africa, Switzerland, United Arab Emirates, and United States",
+  "observations": [
+    {
+      "period": "Ghana export market access; latest available tariff and non-tariff-measure data across seven major destinations",
+      "denominator": {"value": 7, "unit": "major destination markets analyzed", "value_type": "reported_market_frame"},
+      "measures": {
+        "tariff_access": {"value": "Ghana benefits from low or zero tariffs in several developed markets through preferential and unilateral preference schemes; EU, Switzerland, and United States tariffs are near zero for Ghanaian products in the reported comparison", "unit": "reported tariff pattern", "value_type": "reported_result"},
+        "overall_ntm_trade_value": {"value": "87% of Ghana’s trade value is subject to at least one non-tariff measure across the partner-country comparison", "unit": "percent of trade value", "value_type": "reported_coverage_estimate"},
+        "agriculture_ntm_frequency": {"value": "agricultural goods face approximately 100% non-tariff-measure frequency in the main export markets", "unit": "percent of agricultural product lines covered", "value_type": "reported_coverage_estimate"},
+        "access_conversion": {"value": "formal tariff preference does not automatically become usable market access; exporters must convert it through standards, testing, conformity, labeling, and documentation capacity", "unit": "bounded market-access mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive analysis of tariffs from WITS/TRAINS and non-tariff measures from UNCTAD datasets, by destination, product, sector, frequency, and trade-weighted coverage.",
+      "uncertainty": "Tariff and NTM coverage measures do not establish whether each measure is binding, protectionist, welfare-improving, or actually caused an export failure; datasets use different years and product classifications.",
+      "subgroup": "Ghanaian agricultural and mining exporters, smaller firms, cocoa and nuts producers, importing consumers, regulators, certifiers, and workers in export-linked supply chains.",
+      "counterinterpretation": "Some SPS and technical measures protect consumers, improve product quality, or enable premium markets; compliance can create capability and trust rather than only a barrier.",
+      "source_url": "https://documents.worldbank.org/curated/en/099822509282611627/pdf/IDU-8d0c7c30-888b-4de2-80f5-cd220d7ce9c3.pdf",
+      "retrieval_hash": "sha256:75180cc11e62e51ac0e83a248b7758ff35ff8257fecc8c9097cea802f99f13e6",
+      "status": "reported"
+    },
+    {
+      "period": "Ghana agricultural exports; cocoa, cocoa products, coconuts, and cashews facing SPS and technical barriers",
+      "denominator": {"value": 4, "unit": "agricultural product groups highlighted in the paper’s market-access analysis", "value_type": "reported_product_frame"},
+      "measures": {
+        "required_capabilities": {"value": "market access requires product conformity, quality standards, testing, labeling, and related sanitary and phytosanitary compliance", "unit": "reported compliance-capability set", "value_type": "reported_requirement"},
+        "small_firm_burden": {"value": "smaller firms may be limited from export markets because they lack capacity to meet often-high compliance costs", "unit": "reported distributional risk", "value_type": "reported_boundary"},
+        "product_concentration": {"value": "Ghana’s agricultural export exposure includes cocoa beans, cocoa paste and butter, coconuts, and cashews, with specific barriers varying by destination and product", "unit": "reported product pattern", "value_type": "reported_result"},
+        "firm_selection": {"value": "the effective market-access regime can select for firms able to finance testing, certification, data, and traceability even when tariffs are low", "unit": "bounded firm-selection mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Product- and destination-level tariff, SPS, and technical-barrier comparisons, with frequency and coverage ratios and discussion of compliance capability.",
+      "uncertainty": "The paper does not estimate the number of firms excluded, compliance costs per firm, export-entry effects, or the welfare effects of each measure; small-firm impacts are a supported risk and research agenda.",
+      "subgroup": "Small and large exporters, farmer organizations, processors, certifiers, informal and formal producers, workers, and consumers concerned with food safety and environmental standards.",
+      "counterinterpretation": "Shared compliance infrastructure, producer cooperatives, public testing, and premiums can reduce fixed costs and allow smaller producers to participate; exclusion is not inevitable.",
+      "source_url": "https://documents.worldbank.org/curated/en/099822509282611627/pdf/IDU-8d0c7c30-888b-4de2-80f5-cd220d7ce9c3.pdf",
+      "retrieval_hash": "sha256:75180cc11e62e51ac0e83a248b7758ff35ff8257fecc8c9097cea802f99f13e6",
+      "status": "reported"
+    },
+    {
+      "period": "Ghana cocoa exports to the European Union; EU Deforestation Regulation and national traceability response",
+      "denominator": {"value": 2, "unit": "reported implementation components: farm-level traceability and farmer-family integration", "value_type": "reported_policy_frame"},
+      "measures": {
+        "eu_dependence": {"value": "approximately 60% of Ghana’s cocoa products are absorbed by the European Union", "unit": "percent of Ghana cocoa products", "value_type": "reported_trade_dependence"},
+        "eudr_requirement": {"value": "EU Regulation 2023/1115 requires deforestation-free compliance for cocoa shipments entering the EU, making farm-to-port tracing materially relevant to market access", "unit": "reported regulatory requirement", "value_type": "reported_requirement"},
+        "farm_mapping": {"value": "Ghana has digitally mapped more than 1 million farms using GPS and polygon mapping, according to the paper’s cited policy discussion", "unit": "farms", "value_type": "reported_implementation_claim"},
+        "farmer_integration": {"value": "more than 800,000 farm families are being integrated into a digital system; Ghana is seeking a 200-dollar-per-ton sustainability premium to cover traceability and sustainable-production costs", "unit": "farm families and dollars per ton", "value_type": "reported_policy_claim"},
+        "digital_governance_route": {"value": "environmental market access is becoming a data, identity, and verification infrastructure question as well as a tariff question", "unit": "bounded digital-compliance mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Policy and regulatory discussion linked to Ghana Cocoa Traceability System, national farm mapping, farmer registration, sustainability-premium proposals, and EUDR requirements.",
+      "uncertainty": "The paper reports implementation claims and policy direction rather than independently evaluating mapping completeness, farmer inclusion, premium receipt, data governance, or whether compliance preserves smallholder market access.",
+      "subgroup": "Cocoa farmers and households, smallholders without digital access, COCOBOD, exporters, EU consumers, certifiers, forest communities, and firms financing traceability.",
+      "counterinterpretation": "Digital traceability can improve services, environmental accountability, farmer identity, and premium capture if data rights, costs, and benefit distribution are credible; it can also shift compliance burdens downward.",
+      "source_url": "https://documents.worldbank.org/curated/en/099822509282611627/pdf/IDU-8d0c7c30-888b-4de2-80f5-cd220d7ce9c3.pdf",
+      "retrieval_hash": "sha256:75180cc11e62e51ac0e83a248b7758ff35ff8257fecc8c9097cea802f99f13e6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099822509282611627", "claim": "Official World Bank record, WPS number, authors, date, abstract, Ghana geography, and document metadata."},
+    {"source_url": "https://search.worldbank.org/api/v3/wds?format=json&fl=*&guid=099822509282611627", "claim": "World Bank document API record containing the official PDF URL, abstract, report number, authors, and document identifier."}
+  ],
+  "boundary": "This record adds a tariff-preference-to-compliance-infrastructure mechanism. It is descriptive market-access and regulatory evidence, not proof that NTMs caused export exclusion, that compliance improves farmer welfare, or that digital traceability is complete, trusted, or fairly compensated. Small-firm exclusion, farmer burden, consumer benefit, and political accountability require firm-, farmer-, household-, and implementation-level follow-through.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank PDF, document record, document API metadata, abstract, seven destination markets, tariff comparisons, 87% trade-value NTM coverage, agriculture NTM frequency, SPS/TBT requirements, small-firm compliance boundary, EUDR, cocoa EU dependence, farm mapping, farmer-family integration, and premium claims were reviewed.",
+    "source_url_sha256": "sha256:75180cc11e62e51ac0e83a248b7758ff35ff8257fecc8c9097cea802f99f13e6",
+    "checked": "2026-09-29"
+  }
+}

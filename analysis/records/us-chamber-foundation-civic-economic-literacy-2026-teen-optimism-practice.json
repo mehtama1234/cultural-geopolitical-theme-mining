@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-chamber-foundation-civic-economic-literacy-2026-teen-optimism-practice",
+  "title": "U.S. teens remain optimistic about solving national problems while civic and economic knowledge and opportunities to practice participation lag",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Chamber of Commerce Foundation, 2026 Civic and Economic Literacy Survey, conducted with RXN",
+  "geography": "United States; 1,000 registered adult voters and 1,000 teens ages 13–17",
+  "observations": [
+    {
+      "period": "2026 survey; U.S. teens and registered adult voters",
+      "denominator": {"value": 2000, "unit": "1,000 registered adult voters and 1,000 teens ages 13–17", "value_type": "reported_sample"},
+      "measures": {
+        "issues_can_be_fixed_teens": {"value": 71, "unit": "percent of teens saying issues they believe deserve national attention can eventually be fixed", "value_type": "published_subgroup_share"},
+        "issues_can_be_fixed_adults": {"value": 64, "unit": "percent of adults saying issues they believe deserve national attention can eventually be fixed", "value_type": "published_subgroup_share"},
+        "see_political_division_teens": {"value": 88, "unit": "percent of teens saying America is politically divided", "value_type": "published_subgroup_share"},
+        "see_political_division_adults": {"value": 89, "unit": "percent of adults saying America is politically divided", "value_type": "published_subgroup_share"}
+      },
+      "method": "National Civic and Economic Literacy Survey conducted in partnership with RXN; the public article reports separate teen and adult samples and selected civic-attitude comparisons.",
+      "uncertainty": "The public article does not provide full questionnaire wording, sampling details or subgroup margins; optimism is an attitude measure and does not establish actual problem-solving capacity, participation or future behavior.",
+      "subgroup": "U.S. teens ages 13–17 and registered adult voters.",
+      "counterinterpretation": "Higher teen optimism alongside awareness of division may signal constructive agency, but it may also reflect distance from adult institutional responsibility or limited experience with policy constraints.",
+      "source_url": "https://www.uschamberfoundation.org/civics/teens-arent-checked-out-theyre-looking-for-way-in",
+      "retrieval_hash": "sha256:30296ad2ba03cc7cb8675061a1b880d0cb66ad284853bfbd036198abe96b69e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; civic values versus perceived civic performance",
+      "denominator": {"value": 2000, "unit": "1,000 registered adult voters and 1,000 teens ages 13–17", "value_type": "reported_sample"},
+      "measures": {
+        "listening_important_adults": {"value": 91, "unit": "percent of adults saying listening to people with different viewpoints is important", "value_type": "published_subgroup_share"},
+        "listening_important_teens": {"value": 94, "unit": "percent of teens saying listening to people with different viewpoints is important", "value_type": "published_subgroup_share"},
+        "listening_works_well_both": {"value": 49, "unit": "percent of both adults and teens saying the country is doing well at listening across viewpoints", "value_type": "published_share"},
+        "small_business_favorable": {"value": "91% of adults and 90% of teens view small businesses favorably", "unit": "subgroup percentages", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Survey questions on civic values, perceived institutional performance and views of local business, reported as adult-versus-teen comparisons.",
+      "uncertainty": "Importance and perceived performance are not behavioral measures; favorable views of small business do not show that local firms create civic trust or that respondents support specific firms or policies.",
+      "subgroup": "U.S. teens ages 13–17 and registered adult voters.",
+      "counterinterpretation": "The gap between valuing listening and seeing it practiced points toward an opportunity for repeated settings to practice disagreement, but the survey does not test which settings work.",
+      "source_url": "https://www.uschamberfoundation.org/civics/teens-arent-checked-out-theyre-looking-for-way-in",
+      "retrieval_hash": "sha256:30296ad2ba03cc7cb8675061a1b880d0cb66ad284853bfbd036198abe96b69e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; civic and economic knowledge",
+      "denominator": {"value": 2000, "unit": "1,000 registered adult voters and 1,000 teens ages 13–17", "value_type": "reported_sample"},
+      "measures": {
+        "civic_knowledge_pass_adults": {"value": 56, "unit": "percent of adults answering at least six of ten civic questions correctly", "value_type": "published_subgroup_share"},
+        "civic_knowledge_pass_teens": {"value": 46, "unit": "percent of teens answering at least six of ten civic questions correctly", "value_type": "published_subgroup_share"},
+        "economic_literacy_pass_adults": {"value": 47, "unit": "percent of adults answering at least five of eight economic questions correctly", "value_type": "published_subgroup_share"},
+        "economic_literacy_pass_teens": {"value": 49, "unit": "percent of teens answering at least five of eight economic questions correctly", "value_type": "published_subgroup_share"},
+        "high_literacy": {"value": "Only about one in ten adults and teens demonstrated the strongest levels of economic literacy measured", "unit": "reported survey pattern", "value_type": "published_summary"}
+      },
+      "method": "Civic and economic knowledge questions in the 2026 survey; pass thresholds are reported by the Chamber Foundation article.",
+      "uncertainty": "The public article does not show the full test items, scoring model or psychometric validation; passing a short knowledge test is not equivalent to informed political judgment or economic security.",
+      "subgroup": "U.S. teens ages 13–17 and registered adult voters.",
+      "counterinterpretation": "The knowledge gap may be partly addressable through education, but information alone may not overcome time, access, institutional distrust, language, economic pressure or lack of meaningful participation routes.",
+      "source_url": "https://www.uschamberfoundation.org/civics/teens-arent-checked-out-theyre-looking-for-way-in",
+      "retrieval_hash": "sha256:30296ad2ba03cc7cb8675061a1b880d0cb66ad284853bfbd036198abe96b69e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026 survey; civic engagement as practice and institutional pathway",
+      "denominator": {"value": 2000, "unit": "1,000 registered adult voters and 1,000 teens ages 13–17", "value_type": "reported_sample"},
+      "measures": {
+        "government_and_local_business_importance_teens": {"value": 94, "unit": "percent of teens saying understanding government, supporting local businesses and listening to different viewpoints are important to national success", "value_type": "published_subgroup_share"},
+        "formal_practice_gap": {"value": "The article identifies a gap between civic interest and actual opportunities to practice listening, tradeoff assessment, disagreement and problem-solving", "unit": "reported interpretation", "value_type": "reported_framework"},
+        "workplace_bridge": {"value": "The Foundation frames employers and workplaces as settings where civic understanding, collaboration and constructive disagreement can be practiced", "unit": "reported institutional pathway", "value_type": "reported_interpretation"}
+      },
+      "method": "Survey interpretation and program framing in a Chamber Foundation publication; the pathway from civic education or workplace practice to later participation is proposed, not evaluated.",
+      "uncertainty": "The article is produced by an organization that promotes employer and civic-learning programs; it does not provide a randomized intervention, longitudinal follow-up or independent test of program effects.",
+      "subgroup": "Young people, adults, schools, employers, local businesses, communities and civic institutions.",
+      "counterinterpretation": "Workplaces and businesses can create low-friction civic practice, but they may also shape civic participation around employer priorities or substitute private programs for public education infrastructure.",
+      "source_url": "https://www.uschamberfoundation.org/civics/teens-arent-checked-out-theyre-looking-for-way-in",
+      "retrieval_hash": "sha256:30296ad2ba03cc7cb8675061a1b880d0cb66ad284853bfbd036198abe96b69e2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.uschamberfoundation.org/civics/young-americans-more-optimistic-civic-engagement", "claim": "Companion publication connecting the 2026 Chamber Foundation survey with College Board findings on youth civic interest, formal political engagement and practice gaps."},
+    {"source_url": "https://www.uschamberfoundation.org/civics/74-of-americans-think-they-could-explain-how-america-works-58-fail-a-basic-civics-test", "claim": "Prior-year survey context on confidence-versus-knowledge gaps and the Chamber Foundation's civic-learning framing."}
+  ],
+  "boundary": "This record captures a U.S. civic-capacity transition: teens and adults recognize division and value civic skills, but knowledge, perceived performance and opportunities to practice participation do not keep pace with stated importance. It is a Chamber Foundation/RXN survey and program-framing publication, not an independent probability-sample estimate, causal civic-education evaluation, longitudinal participation study or proof that employer and business programs produce democratic outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official U.S. Chamber Foundation publication and companion civic-engagement page were reviewed for sample composition, teen-adult optimism comparisons, civic values, perceived listening performance, civic and economic knowledge, local-business sentiment, formal-engagement gaps and program boundaries; the retrieved HTML publication was hashed.",
+    "source_url_sha256": "sha256:30296ad2ba03cc7cb8675061a1b880d0cb66ad284853bfbd036198abe96b69e2",
+    "checked": "2026-09-27"
+  }
+}

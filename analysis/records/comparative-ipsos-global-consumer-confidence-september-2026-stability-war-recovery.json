@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipsos-global-consumer-confidence-september-2026-stability-war-recovery",
+  "title": "Consumer sentiment has stabilized globally without fully recovering from geopolitical shock, leaving current economic room below future expectations",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Ipsos Global Consumer Confidence Index, September 2026",
+  "geography": "30 countries; more than 21,000 adults under 75 surveyed 21 August-4 September 2026",
+  "observations": [
+    {
+      "period": "September 2026; global consumer confidence and geopolitical recovery",
+      "denominator": {"value": 21000, "unit": "more than adults under 75 across 30 countries surveyed on Ipsos Global Advisor online platform", "value_type": "published_multi_country_consumer_survey"},
+      "measures": {
+        "global_confidence": {"value": 48.4, "unit": "Ipsos Global Consumer Confidence Index across all 30 countries", "value_type": "reported_index"},
+        "legacy20_confidence": {"value": 46.2, "unit": "index based on 20 countries tracked since March 2010", "value_type": "reported_index"},
+        "war_gap": {"value": "more than one point below the reading before the start of the Iran war; significantly below pre-war levels in 13 countries", "unit": "reported geopolitical confidence gap", "value_type": "reported_change"},
+        "monthly_stability": {"value": "first month of stability since February 2026", "unit": "reported trend condition", "value_type": "reported_synthesis"}
+      },
+      "method": "Monthly Ipsos Global Advisor online survey across 30 countries; the headline index is the average of surveyed countries' national indices, with a separate legacy-20 comparison.",
+      "uncertainty": "The index is a perception measure and country averages are not population-weighted into a global welfare estimate; geopolitical attribution is contextual rather than causal.",
+      "subgroup": "Adults under 75 across 30 countries, with country and regional confidence differences.",
+      "counterinterpretation": "Stability can mean a floor under sentiment rather than recovery; confidence may hold while households continue to experience weak purchasing power, prices, or job security.",
+      "source_url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "retrieval_hash": "sha256:a07ec1d6700cd4b83d3163a5b9cbbebc444edfd6bda6e8a66fb4ec479b0eb14c",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; current, investment, expectations, and jobs sub-indices",
+      "denominator": {"value": 21000, "unit": "more than adults under 75 across 30 countries", "value_type": "published_multi_country_consumer_survey"},
+      "measures": {
+        "current": {"value": 39.0, "unit": "Ipsos Current sub-index reflecting perceived economic climate, purchasing, jobs, and investment confidence", "value_type": "reported_index"},
+        "investment": {"value": 41.7, "unit": "Ipsos Investment sub-index reflecting perceived investment climate", "value_type": "reported_index"},
+        "expectations": {"value": 56.6, "unit": "Ipsos Expectations sub-index reflecting expected future economic conditions", "value_type": "reported_index"},
+        "jobs": {"value": 57.7, "unit": "Ipsos Jobs sub-index reflecting perceived job security and labor-market conditions", "value_type": "reported_index"}
+      },
+      "method": "Ipsos composite sub-indices derived from monthly consumer-attitude questions; all four were reported as stable in September.",
+      "uncertainty": "Sub-index levels are not direct measures of income, investment, employment, or realized purchasing; differences between indices do not identify individual household transitions.",
+      "subgroup": "Consumers assessing current household room, investment climate, future expectations, and jobs security.",
+      "counterinterpretation": "A higher expectations index than current index can signal resilience and anticipation of improvement, but it can also create political or consumer disappointment if conditions fail to catch up.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/ipsos-global-consumer-confidence-trends-september-2026.pdf",
+      "retrieval_hash": "sha256:a07ec1d6700cd4b83d3163a5b9cbbebc444edfd6bda6e8a66fb4ec479b0eb14c",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; country confidence distribution",
+      "denominator": {"value": 30, "unit": "countries in the Ipsos Global Consumer Confidence Index", "value_type": "published_country_panel"},
+      "measures": {
+        "highest": {"value": "India 66.9; Sweden 60.0", "unit": "national confidence index scores", "value_type": "reported_index_set"},
+        "above50": {"value": "12 additional countries at or above 50: Malaysia, Singapore, Thailand, Indonesia, Peru, Netherlands, Brazil, Colombia, Mexico, U.S., South Africa, and Israel", "unit": "reported country group", "value_type": "reported_country_set"},
+        "below40": {"value": "Japan 39.4; Argentina 37.8; Türkiye 35.3", "unit": "national confidence index scores", "value_type": "reported_index_set"},
+        "annual_movers": {"value": "nine countries show significant drops versus September 2025; eight show significant increases, led by Hungary at +13.5 points", "unit": "reported annual change pattern", "value_type": "reported_change_set"}
+      },
+      "method": "Country-level national index comparisons from the September Ipsos wave; significant movement is defined in the source as at least two points month over month for the one-month comparison.",
+      "uncertainty": "Country scores are not directly comparable measures of objective prosperity; differences can reflect survey context, expectations, prices, politics, and national response styles.",
+      "subgroup": "Consumers in the 30 surveyed national markets.",
+      "counterinterpretation": "High confidence in one country can coexist with inequality or hardship for exposed groups; low national confidence can coexist with strong household or regional pockets of resilience.",
+      "source_url": "https://www.ipsos.com/en/ipsos-consumer-confidence-september-2026",
+      "retrieval_hash": "sha256:a07ec1d6700cd4b83d3163a5b9cbbebc444edfd6bda6e8a66fb4ec479b0eb14c",
+      "status": "reported"
+    },
+    {
+      "period": "August-September 2026; notable monthly gains and losses",
+      "denominator": {"value": 30, "unit": "countries in the Ipsos Global Consumer Confidence Index", "value_type": "published_country_panel"},
+      "measures": {
+        "europe_gains": {"value": "Sweden +3.5 and Netherlands +2.8 points; no European country shows a notable decline", "unit": "one-month national-index changes", "value_type": "reported_change_set"},
+        "asia_pacific_change": {"value": "Malaysia -2.8 points; only country in Asia-Pacific with significant change", "unit": "one-month national-index change", "value_type": "reported_change"},
+        "broad_shocks": {"value": "no country shows significant losses across all four sub-indices; Chile and Israel show significant gains across all four", "unit": "reported cross-index pattern", "value_type": "reported_synthesis"},
+        "country_signal": {"value": "confidence movements are uneven and localized rather than a uniform global recovery or decline", "unit": "reported interpretation", "value_type": "reported_synthesis"}
+      },
+      "method": "Ipsos month-over-month comparison of national and sub-index scores.",
+      "uncertainty": "Short-term changes may reflect news, seasonality, sampling error, or temporary shocks; the index does not identify why a particular country moved.",
+      "subgroup": "Consumers by country and by current, investment, expectations, and jobs confidence dimensions.",
+      "counterinterpretation": "Localized gains may represent early recovery or temporary optimism; broad stability can mask sharp divergence across households, regions, and socioeconomic groups.",
+      "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/ipsos-global-consumer-confidence-trends-september-2026.pdf",
+      "retrieval_hash": "sha256:a07ec1d6700cd4b83d3163a5b9cbbebc444edfd6bda6e8a66fb4ec479b0eb14c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipsos.com/en/what-worries-world?trk=article-ssr-frontend-pulse_little-text-block", "claim": "Ipsos What Worries the World provides complementary public-concern and issue-salience context."},
+    {"source_url": "https://www.ikea.com/global/en/stories/life-at-home/report-2026/", "claim": "IKEA Life at Home 2026 provides complementary household affordability, health, and climate-action context."},
+    {"source_url": "https://www.worldbank.org/en/publication/global-economic-prospects", "claim": "World Bank Global Economic Prospects provides complementary macroeconomic and geopolitical-shock context."}
+  ],
+  "boundary": "This record adds a recurring consumer-confidence route linking current household purchasing room, investment, jobs, future expectations, geopolitical shock recovery, and country divergence. It uses Ipsos perception indices, not realized consumption, income, employment, investment, poverty, or causal welfare outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ipsos September 2026 landing page and 24-page public PDF were reviewed for survey frame, field dates, index construction, global and country scores, four sub-indices, month/year changes, and interpretation boundaries.",
+    "source_url_sha256": "sha256:a07ec1d6700cd4b83d3163a5b9cbbebc444edfd6bda6e8a66fb4ec479b0eb14c",
+    "checked": "2026-09-26"
+  }
+}

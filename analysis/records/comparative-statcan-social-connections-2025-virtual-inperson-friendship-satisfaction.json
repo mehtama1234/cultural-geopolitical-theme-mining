@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-statcan-social-connections-2025-virtual-inperson-friendship-satisfaction",
+  "title": "Hybrid friendship contact is dominant in Canada, while virtual-only connection is associated with lower satisfaction and greater loneliness",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "Statistics Canada, Survey on Social Connections – Well-being in Canada, 2025",
+  "geography": "Canada; residents aged 15 and over in the ten provinces, excluding territories, institutions, and First Nations reserves and settlements",
+  "observations": [
+    {
+      "period": "2025; friend-contact mode in the previous month and friendship outcomes",
+      "denominator": {"value": null, "unit": "Survey on Social Connections respondents aged 15+; public release does not disclose one pooled respondent count for all displayed estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "hybrid_virtual_inperson_contact": {"value": 87.8, "unit": "percent communicating with friends both virtually and in person", "value_type": "reported_survey_share"},
+        "virtual_only_contact": {"value": 10.2, "unit": "percent communicating with friends virtually only", "value_type": "reported_survey_share"},
+        "inperson_only_contact": {"value": 2.0, "unit": "percent communicating with friends in person only", "value_type": "reported_survey_share"},
+        "friendship_satisfaction_hybrid": {"value": 87, "unit": "percent satisfied or very satisfied with friendships among people using both modes", "value_type": "reported_subgroup_share"},
+        "friendship_satisfaction_virtual_only": {"value": 63, "unit": "percent satisfied or very satisfied with friendships among people using virtual contact only", "value_type": "reported_subgroup_share"},
+        "friendship_satisfaction_gap": {"value": 24, "unit": "percentage-point difference between hybrid and virtual-only groups", "value_type": "calculated_difference_from_published_table"},
+        "dependable_support_hybrid": {"value": 79, "unit": "percent always or often having people to depend on among hybrid-contact group", "value_type": "reported_subgroup_share"},
+        "dependable_support_virtual_only": {"value": 61, "unit": "percent always or often having people to depend on among virtual-only group", "value_type": "reported_subgroup_share"},
+        "loneliness_hybrid": {"value": 15, "unit": "percent always or often feeling lonely among hybrid-contact group", "value_type": "reported_subgroup_share"},
+        "loneliness_virtual_only": {"value": 24, "unit": "percent always or often feeling lonely among virtual-only group", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Digital communication is usually layered onto in-person contact rather than replacing it; virtual-only connection is associated with lower friendship satisfaction, weaker dependable support, and more loneliness", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Canada The Daily release and Table 1; outcome gaps are calculated from published subgroup percentages.",
+      "uncertainty": "The release explicitly states that associations do not imply causation: people with less satisfying friendships may choose virtual-only contact, and unmeasured distance, health, mobility, work, migration, income, or prior isolation may affect both contact mode and outcomes.",
+      "subgroup": "Residents aged 15 and over in Canada's ten provinces, by friend-contact mode during the month before the survey.",
+      "counterinterpretation": "Virtual-only contact may preserve relationships across distance and can be adaptive; lower satisfaction may reflect the circumstances requiring virtual-only contact rather than a harmful effect of technology.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/251024/dq251024a-eng.htm",
+      "retrieval_hash": "sha256:da9185fa2d5616a221f2be57e9121f7183e2ad344f671fd0c87f068331083244",
+      "status": "reported"
+    },
+    {
+      "period": "2025; friend-contact mode by income, immigration, racialized group, disability, and age",
+      "denominator": {"value": null, "unit": "Survey on Social Connections respondents aged 15+; subgroup denominators are not disclosed in the public Table 1", "value_type": "not_disclosed"},
+      "measures": {
+        "virtual_only_recent_immigrants": {"value": 15.6, "unit": "percent among people who immigrated to Canada in the previous 10 years", "value_type": "reported_subgroup_share"},
+        "virtual_only_nonimmigrants": {"value": 8.4, "unit": "percent among non-immigrants", "value_type": "reported_subgroup_share"},
+        "recent_immigrant_virtual_only_gap": {"value": 7.2, "unit": "percentage-point difference between recent immigrants and non-immigrants", "value_type": "calculated_difference_from_published_table"},
+        "virtual_only_black_canadians": {"value": 15.7, "unit": "percent among Black Canadians", "value_type": "reported_subgroup_share"},
+        "virtual_only_south_asian_canadians": {"value": 15.0, "unit": "percent among South Asian Canadians", "value_type": "reported_subgroup_share"},
+        "virtual_only_nonracialized_nonindigenous": {"value": 8.7, "unit": "percent among non-racialized, non-Indigenous Canadians", "value_type": "reported_subgroup_share"},
+        "virtual_only_low_income": {"value": 13.6, "unit": "percent among households with income below $40,000", "value_type": "reported_subgroup_share"},
+        "virtual_only_high_income": {"value": 8.8, "unit": "percent among households with income $150,000 or more", "value_type": "reported_subgroup_share"},
+        "hybrid_low_income": {"value": 83.3, "unit": "percent among households with income below $40,000", "value_type": "reported_subgroup_share"},
+        "hybrid_high_income": {"value": 90.4, "unit": "percent among households with income $150,000 or more", "value_type": "reported_subgroup_share"},
+        "mechanism": {"value": "Virtual-only friendship contact is more common among recent immigrants, some racialized groups, and lower-income households, suggesting that digital sociality can be both a bridge across distance and a marker of constrained in-person opportunity", "unit": "bounded analytical mechanism", "value_type": "bounded_mechanism"}
+      },
+      "method": "Descriptive extraction from Statistics Canada Table 1 and the accompanying The Daily commentary; subgroup differences are calculated from published percentages.",
+      "uncertainty": "The estimates are self-reported and cross-sectional; racialized-group and immigrant patterns may reflect geography, household structure, distance from family, language, work, discrimination, health, and access to social spaces rather than technology alone.",
+      "subgroup": "Canadian residents aged 15 and over, by immigration status, racialized group, disability status, age, and household income.",
+      "counterinterpretation": "Virtual-only communication may be a successful adaptation to migration and distance; income differences may reflect residential geography and opportunity to meet in person rather than digital exclusion.",
+      "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/251024/t001a-eng.htm",
+      "retrieval_hash": "sha256:a50ba595260f49400f785f7cbd8d0052b0c6006a0de9b3a316c7616d83de454c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/251024/t001a-eng.csv", "claim": "Official Statistics Canada CSV for Table 1 friend-contact mode by sociodemographic characteristics."},
+    {"source_url": "https://www.statcan.gc.ca/en/survey/household/5418", "claim": "Statistics Canada survey description, collection period, coverage, record-linkage context, and topic scope."},
+    {"source_url": "https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5418", "claim": "Statistics Canada survey-program metadata and 2025 release information."}
+  ],
+  "boundary": "This record adds a Canadian social-connection, hybrid/virtual contact, migration, income, racialized-group, disability, satisfaction, support, and loneliness layer. It does not establish causal effects of technology, friendship quality, social isolation, platform use, or institutional trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Statistics Canada The Daily article, Table 1 HTML, Table 1 CSV, and survey metadata reviewed; contact-mode definitions, outcome comparisons, subgroup estimates, exclusions, collection dates, and noncausal warning checked.",
+    "article_html_sha256": "sha256:da9185fa2d5616a221f2be57e9121f7183e2ad344f671fd0c87f068331083244",
+    "table_html_sha256": "sha256:a50ba595260f49400f785f7cbd8d0052b0c6006a0de9b3a316c7616d83de454c",
+    "table_csv_sha256": "sha256:e8dba8fed477d343d86309701f9a1a4233bf17c020539568d0f6717a7edd1702",
+    "checked": "2026-09-30"
+  }
+}
